@@ -8,11 +8,11 @@ appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2022-02-20
-version: "1.44.0"
-stars: 4.54035
+updated: 2022-03-10
+version: "1.45.0"
+stars: 4.55439
 reviews: 285
-size: 78102528
+size: 80728064
 website: https://cryptopay.me/
 repository: 
 issue: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: cryptopay
 social:
-  - https://www.linkedin.com/company/cryptopay
-  - https://www.facebook.com/cryptopayme
+- https://www.linkedin.com/company/cryptopay
+- https://www.facebook.com/cryptopayme
 ---
 
 In the description the only sentence hinting at custodianship is:

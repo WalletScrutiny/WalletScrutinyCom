@@ -8,14 +8,14 @@ users: 10000
 appId: com.tokoin.wallet
 appCountry: us
 released: 2019-12-11
-updated: 2022-02-17
-version: "3.2.6"
+updated: 2022-03-15
+version: "3.2.7"
 stars: 4.1
 ratings: 576
 reviews: 6
 size: Varies with device
 website: https://tokoin.io
-repository: https://github.com/tokoinofficial
+repository: 
 issue: 
 icon: com.tokoin.wallet.png
 bugbounty: 
@@ -26,7 +26,8 @@ signer:
 reviewArchive:
 twitter: tokoinindonesia
 social:
-  - https://www.facebook.com/tokoinindonesia
+- https://www.facebook.com/tokoinindonesia
+- https://github.com/tokoinofficial
 redirect_from:
 ---
 

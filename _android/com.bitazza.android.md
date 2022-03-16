@@ -1,6 +1,6 @@
 ---
 wsId: bitazza
-title: "Bitazza: Crypto Exchange"
+title: "Bitazza.TH: Crypto Exchange"
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: th
 released: 2020-09-29
 updated: 2022-02-23
 version: "2.0.0"
-stars: 4.3353415
+stars: 4.376953
 ratings: 5028
-reviews: 1206
+reviews: 1231
 size: 42M
 website: http://bitazza.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitazzaofficial
 social:
-  - https://www.linkedin.com/company/bitazza
-  - https://www.facebook.com/bitazza
+- https://www.linkedin.com/company/bitazza
+- https://www.facebook.com/bitazza
 redirect_from:
 ---
 

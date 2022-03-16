@@ -9,12 +9,12 @@ users: 500000
 appId: com.crypto.exchange
 appCountry: nz
 released: 2021-05-26
-updated: 2022-02-22
-version: "1.7.0"
-stars: 4.4347825
+updated: 2022-03-07
+version: "1.7.1"
+stars: 4.5185184
 ratings: 4430
-reviews: 10
-size: 72M
+reviews: 11
+size: 74M
 website: https://www.crypto.com/
 repository: 
 issue: 
@@ -27,9 +27,9 @@ signer:
 reviewArchive:
 twitter: cryptocom
 social:
-  - https://www.linkedin.com/company/cryptocom
-  - https://www.facebook.com/CryptoComOfficial
-  - https://www.reddit.com/r/Crypto_com
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 redirect_from:
 ---
 

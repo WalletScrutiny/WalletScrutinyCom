@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: aximetriagmbh
 social:
-  - https://www.linkedin.com/company/aximetriagmbh
-  - https://www.facebook.com/aximetriagmbh
+- https://www.linkedin.com/company/aximetriagmbh
+- https://www.facebook.com/aximetriagmbh
 ---
 
 **Update 2021-11-12**: This app is not on App Store anymore.

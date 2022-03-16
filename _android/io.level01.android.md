@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: level01io
 social:
-  - https://www.facebook.com/level01platform
+- https://www.facebook.com/level01platform
 redirect_from:
 ---
 

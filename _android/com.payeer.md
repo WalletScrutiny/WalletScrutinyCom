@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-03
 updated: 2020-12-24
 version: "Varies with device"
-stars: 4.33
+stars: 4.31
 ratings: 36999
-reviews: 150
+reviews: 151
 size: Varies with device
 website: https://payeer.com
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/payeercoins
+- https://www.facebook.com/payeercoins
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: FlitsNode
 social:
-  - https://www.facebook.com/flitsnode
+- https://www.facebook.com/flitsnode
 redirect_from:
 ---
 

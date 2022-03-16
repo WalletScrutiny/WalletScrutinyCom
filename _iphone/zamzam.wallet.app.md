@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: zam_io
 social:
-  - https://www.linkedin.com/company/11770701
+- https://www.linkedin.com/company/11770701
 ---
 
 {% include copyFromAndroid.html %}

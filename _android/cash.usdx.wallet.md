@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: USDXwallet
 social:
-  - https://www.facebook.com/USDXwallet
-  - https://www.reddit.com/r/USDXwallet
+- https://www.facebook.com/USDXwallet
+- https://www.reddit.com/r/USDXwallet
 redirect_from:
 ---
 

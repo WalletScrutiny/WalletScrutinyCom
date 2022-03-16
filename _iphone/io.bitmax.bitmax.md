@@ -11,8 +11,8 @@ idd: 1463917147
 released: 2019-06-13
 updated: 2022-02-23
 version: "2.7.4"
-stars: 4.84658
-reviews: 541
+stars: 4.84572
+reviews: 538
 size: 94743552
 website: 
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AscendEX_Global
 social:
-  - https://www.facebook.com/AscendEXOfficial
-  - https://www.reddit.com/r/AscendEX_Official
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

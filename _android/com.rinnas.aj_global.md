@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-29
 updated: 2021-10-19
 version: "2.0.8"
-stars: 2.5454545
+stars: 2.4166667
 ratings: 146
-reviews: 11
+reviews: 12
 size: 20M
 website: https://ajglobalv.com/
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ajglobalv
 social:
-  - https://www.facebook.com/AJGLOBALVENTURES
+- https://www.facebook.com/AJGLOBALVENTURES
 redirect_from:
 ---
 

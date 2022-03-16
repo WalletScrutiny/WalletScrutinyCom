@@ -10,9 +10,9 @@ appCountry: tt
 released: 2021-06-23
 updated: 2022-03-07
 version: "2.0.5"
-stars: 4.5940595
+stars: 4.6019416
 ratings: 231
-reviews: 166
+reviews: 167
 size: 22M
 website: https://www.nitroex.io/
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: NitroExOfficial
 social:
-  - https://www.linkedin.com/company/nitroex
-  - https://www.facebook.com/nitroex.io
-  - https://www.reddit.com/r/nitroexchange
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
 redirect_from:
 ---
 

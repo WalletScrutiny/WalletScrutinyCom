@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/vinetexchange
+- https://www.facebook.com/vinetexchange
 redirect_from:
 ---
 

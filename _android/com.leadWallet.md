@@ -8,9 +8,9 @@ users: 10000
 appId: com.leadWallet
 appCountry: ng
 released: 2021-07-29
-updated: 2022-03-03
-version: "1.0.23"
-stars: 4.4035087
+updated: 2022-03-08
+version: "1.0.26"
+stars: 4.3965516
 ratings: 1683
 reviews: 51
 size: 39M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: leadwallet
 social:
-  - https://www.linkedin.com/company/leadwallet
-  - https://www.reddit.com/r/LeadWallet
+- https://www.linkedin.com/company/leadwallet
+- https://www.reddit.com/r/LeadWallet
 redirect_from:
 ---
 

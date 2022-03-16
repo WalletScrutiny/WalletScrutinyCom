@@ -16,7 +16,7 @@ const migration = function(header, body, fileName, folder) {
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries
   header.provider = header.provider || header.company || ""
   header.providerWebsite = header.providerWebsite || header.companywebsite || ""
-  if (header.icon.slice(0, -4) != header.appId) {
+  if (header.icon && header.icon.slice(0, -4) != header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`
     console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!
 mv images/wallet_icons/${folder}/tiny/{${header.icon},${newIcon}}

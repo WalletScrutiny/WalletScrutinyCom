@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: "Binance: BTC NFTs Memes & Meta"
+title: "Binance: Buy BTC & 600+ Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.binance.dev
 appCountry: 
 released: 2017-10-25
-updated: 2022-03-01
+updated: 2022-03-15
 version: "2.42.5"
-stars: 4.120915
+stars: 4.0633564
 ratings: 619117
-reviews: 7234
+reviews: 7260
 size: Varies with device
 website: https://www.binance.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: binance
 social:
-  - https://www.facebook.com/binance
-  - https://www.reddit.com/r/binance
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
 redirect_from:
   - /binance/
   - /com.binance.dev/

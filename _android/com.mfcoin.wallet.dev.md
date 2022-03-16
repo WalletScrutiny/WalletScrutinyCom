@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: MFC_tech
 social:
-  - https://www.linkedin.com/company/groups/13539593
-  - https://www.facebook.com/groups/mfcoin
+- https://www.linkedin.com/company/groups/13539593
+- https://www.facebook.com/groups/mfcoin
 redirect_from:
 ---
 

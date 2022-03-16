@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BlackFort_Tech
 social:
-  - https://www.linkedin.com/company/blackfort-wallet-exchange
-  - https://www.facebook.com/BlackfortWalletExchange
+- https://www.linkedin.com/company/blackfort-wallet-exchange
+- https://www.facebook.com/BlackfortWalletExchange
 redirect_from:
 ---
 

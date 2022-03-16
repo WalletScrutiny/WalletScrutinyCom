@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ProjectsTitan
 social:
-  - https://www.linkedin.com/company/titanprojects
-  - https://www.facebook.com/titanprojectsco
+- https://www.linkedin.com/company/titanprojects
+- https://www.facebook.com/titanprojectsco
 redirect_from:
 ---
 

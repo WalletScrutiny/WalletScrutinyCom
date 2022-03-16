@@ -10,9 +10,9 @@ appCountry: id
 released: 2017-11-03
 updated: 2022-01-26
 version: "3.0.8"
-stars: 3.4954128
+stars: 3.4159293
 ratings: 17546
-reviews: 738
+reviews: 748
 size: 180M
 website: https://gate.io/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: gate_io
 social:
-  - https://www.facebook.com/gateioglobal
-  - https://www.reddit.com/r/GateioExchange
+- https://www.facebook.com/gateioglobal
+- https://www.reddit.com/r/GateioExchange
 redirect_from:
 ---
 

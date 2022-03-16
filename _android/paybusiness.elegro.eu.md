@@ -4,7 +4,7 @@ title: "elegro Business wallet - your online banking"
 altTitle: 
 authors:
 
-users: 50
+users: 100
 appId: paybusiness.elegro.eu
 appCountry: 
 released: 2020-07-15

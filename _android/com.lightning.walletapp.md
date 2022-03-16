@@ -10,7 +10,7 @@ appCountry:
 released: 2018-05-01
 updated: 2021-03-13
 version: "0.4.8"
-stars: 4.2210526
+stars: 3.857143
 ratings: 368
 reviews: 60
 size: 4.9M
@@ -19,9 +19,9 @@ repository: https://github.com/btcontract/lnwallet
 issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: ftbfs
-date: 2021-08-21
+date: 2022-03-09
 signer: 
 reviewArchive:
 - date: 2019-11-23

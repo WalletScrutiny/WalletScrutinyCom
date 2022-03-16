@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/zerotrace.org
+- https://www.facebook.com/zerotrace.org
 ---
 
 ## Product Description

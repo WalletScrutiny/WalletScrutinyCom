@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/forex4you
+- https://www.facebook.com/forex4you
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: btc_nigeria
 social:
-  - https://www.facebook.com/mybtcnigeria
+- https://www.facebook.com/mybtcnigeria
 redirect_from:
 ---
 

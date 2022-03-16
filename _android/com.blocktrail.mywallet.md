@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: btccom_official
 social:
-  - https://www.facebook.com/btccom
+- https://www.facebook.com/btccom
 redirect_from:
 ---
 

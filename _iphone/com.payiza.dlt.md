@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: payizamoney
 social:
-  - https://www.facebook.com/payizamoney
+- https://www.facebook.com/payizamoney
 ---
 
 {% include copyFromAndroid.html %}

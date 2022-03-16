@@ -16,13 +16,13 @@ stars: 5
 reviews: 2
 size: 30423040
 website: https://www.bhexchain.com/
-repository: https://github.com/bluehelix-chain/wallet-android
+repository: 
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-11-17
+date: 2022-03-16
 signer: 
 reviewArchive:
 twitter: BHEXOfficial

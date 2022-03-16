@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coindealcom
 social:
-  - https://www.linkedin.com/company/coindealcom
-  - https://www.facebook.com/coindealcom
+- https://www.linkedin.com/company/coindealcom
+- https://www.facebook.com/coindealcom
 redirect_from:
 ---
 

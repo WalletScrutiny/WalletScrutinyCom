@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-06
 updated: 2022-03-08
 version: "0.1.72"
-stars: 3.9545455
+stars: 3.903226
 ratings: 57
 reviews: 17
 size: Varies with device
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: genesisblockhq
 social:
-  - https://www.linkedin.com/company/genesisblockhq
-  - https://www.facebook.com/genesisblockhq
-  - https://www.reddit.com/r/genesisblockhq
+- https://www.linkedin.com/company/genesisblockhq
+- https://www.facebook.com/genesisblockhq
+- https://www.reddit.com/r/genesisblockhq
 redirect_from:
 ---
 

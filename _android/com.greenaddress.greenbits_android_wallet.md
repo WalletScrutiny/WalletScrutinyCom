@@ -15,7 +15,7 @@ ratings: 946
 reviews: 96
 size: 80M
 website: https://blockstream.com/green
-repository: https://github.com/Blockstream/green_android/
+repository: https://github.com/Blockstream/green_android
 issue: https://github.com/Blockstream/green_android/issues/124
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
@@ -171,8 +171,8 @@ reviewArchive:
   verdict: reproducible
 twitter: Blockstream
 social:
-  - https://www.linkedin.com/company/blockstream
-  - https://www.facebook.com/Blockstream
+- https://www.linkedin.com/company/blockstream
+- https://www.facebook.com/Blockstream
 redirect_from:
   - /greenwallet/
   - /com.greenaddress.greenbits_android_wallet/

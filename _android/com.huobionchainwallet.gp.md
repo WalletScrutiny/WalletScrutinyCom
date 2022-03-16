@@ -10,7 +10,7 @@ appCountry:
 released: 2019-10-17
 updated: 2022-03-03
 version: "3.00.09.075"
-stars: 4.556701
+stars: 4.5408163
 ratings: 33247
 reviews: 207
 size: 92M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HuobiWallet
 social:
-  - https://www.facebook.com/HuobiWallet
+- https://www.facebook.com/HuobiWallet
 redirect_from:
 ---
 

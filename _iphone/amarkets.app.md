@@ -8,11 +8,11 @@ appId: amarkets.app
 appCountry: us
 idd: 1495820700
 released: 2020-02-12
-updated: 2022-03-04
-version: "1.3.32"
-stars: 4.30769
-reviews: 26
-size: 75446272
+updated: 2022-03-09
+version: "1.4.33"
+stars: 4.41934
+reviews: 31
+size: 75952128
 website: https://www.amarkets.com/
 repository: 
 issue: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/amarkets
-  - https://www.facebook.com/AMarketsFirm
+- https://www.linkedin.com/company/amarkets
+- https://www.facebook.com/AMarketsFirm
 ---
 
 {% include copyFromAndroid.html %}

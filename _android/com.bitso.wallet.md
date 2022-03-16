@@ -1,6 +1,6 @@
 ---
 wsId: bitso
-title: "Bitso - Buy bitcoin easily"
+title: "Bitso"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitso.wallet
 appCountry: 
 released: 2018-02-19
-updated: 2022-03-03
-version: "3.4.5"
-stars: 4.1792455
+updated: 2022-03-08
+version: "3.5.7"
+stars: 4.108911
 ratings: 40512
-reviews: 208
+reviews: 211
 size: 74M
 website: https://bitso.com/app
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Bitso
 social:
-  - https://www.facebook.com/bitsoex
+- https://www.facebook.com/bitsoex
 redirect_from:
   - /com.bitso.wallet/
 ---

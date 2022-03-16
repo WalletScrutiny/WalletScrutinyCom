@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: zibi.breakbitcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-03-13
 signer: 
 reviewArchive:
 twitter: 

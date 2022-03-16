@@ -10,8 +10,8 @@ idd: 1464614025
 released: 2020-03-12
 updated: 2022-03-01
 version: "1.5.1"
-stars: 4.65874
-reviews: 4120
+stars: 4.66038
+reviews: 4134
 size: 72395776
 website: http://mewwallet.com
 repository: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: myetherwallet
 social:
-  - https://www.linkedin.com/company/myetherwallet
-  - https://www.facebook.com/MyEtherWallet
-  - https://www.reddit.com/r/MyEtherWallet
+- https://www.linkedin.com/company/myetherwallet
+- https://www.facebook.com/MyEtherWallet
+- https://www.reddit.com/r/MyEtherWallet
 ---
 
 {% include copyFromAndroid.html %}

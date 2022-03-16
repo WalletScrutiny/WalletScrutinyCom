@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-07-26
 updated: 2021-09-02
 version: "1.2.1"
-stars: 3.1768708
+stars: 3.4
 ratings: 121
 reviews: 7
 size: 94M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: gomoonwallet
 social:
-  - https://www.facebook.com/moonwallet.net
+- https://www.facebook.com/moonwallet.net
 redirect_from:
 ---
 

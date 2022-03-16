@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: satoshitango
 social:
-  - https://www.facebook.com/satoshitangoargentina
+- https://www.facebook.com/satoshitangoargentina
 ---
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and

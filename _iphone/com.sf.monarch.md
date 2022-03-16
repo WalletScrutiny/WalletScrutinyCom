@@ -8,11 +8,11 @@ appId: com.sf.monarch
 appCountry: 
 idd: 1386397997
 released: 2018-06-12
-updated: 2021-12-10
-version: "1.6.10"
+updated: 2022-03-09
+version: "1.6.11"
 stars: 4.72911
 reviews: 395
-size: 180125696
+size: 129781760
 website: https://monarchwallet.com
 repository: 
 issue: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Monarchtoken
 social:
-  - https://www.linkedin.com/company/monarchtoken
-  - https://www.facebook.com/MonarchWallet
-  - https://www.reddit.com/r/MonarchToken
+- https://www.linkedin.com/company/monarchtoken
+- https://www.facebook.com/MonarchWallet
+- https://www.reddit.com/r/MonarchToken
 ---
 
 This app appears to have been created for Monarch Tokens but it also features a

@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-11-04
 updated: 2021-10-20
 version: "1.9.3"
-stars: 3.7777777
+stars: 3.79
 ratings: 105
 reviews: 37
 size: 42M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitcoin_depot
 social:
-  - https://www.facebook.com/BitcoinDepot
+- https://www.facebook.com/BitcoinDepot
 redirect_from:
 ---
 

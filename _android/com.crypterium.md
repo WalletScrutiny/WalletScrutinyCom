@@ -8,12 +8,12 @@ users: 100000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2022-02-25
-version: "2.6.71.4"
-stars: 3.53
+updated: 2022-03-10
+version: "2.6.72.14"
+stars: 3.52
 ratings: 8728
-reviews: 400
-size: 62M
+reviews: 405
+size: 63M
 website: https://crypterium.com
 repository: 
 issue: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: crypterium
 social:
-  - https://www.facebook.com/crypterium.org
+- https://www.facebook.com/crypterium.org
 redirect_from:
   - /com.crypterium/
 ---

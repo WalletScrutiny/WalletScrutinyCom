@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Xerium3
 social:
-  - https://www.facebook.com/Xerium
+- https://www.facebook.com/Xerium
 redirect_from:
 ---
 

@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: hashwallet
 social: 
-  - https://www.linkedin.com/company/esignus
+- https://www.linkedin.com/company/esignus
 ---
 
 This wallet is on pre-order and hence has not been released yet.

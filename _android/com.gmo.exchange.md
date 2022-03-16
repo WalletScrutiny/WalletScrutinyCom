@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ZcomExchange
 social:
-  - https://www.facebook.com/ZcomCrypto
+- https://www.facebook.com/ZcomCrypto
 redirect_from:
 ---
 

@@ -16,7 +16,7 @@ ratings: 315
 reviews: 8
 size: 69M
 website: https://onekey.so
-repository: https://github.com/OneKeyHQ/wallet-deprecated-
+repository: 
 issue: https://github.com/OneKeyHQ/android_app/issues/1
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: OneKeyHQ
 social:
-  - https://www.reddit.com/r/OneKeyHQ
+- https://www.reddit.com/r/OneKeyHQ
 redirect_from:
 ---
 

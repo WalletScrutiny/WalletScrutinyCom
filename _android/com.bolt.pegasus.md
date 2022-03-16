@@ -10,7 +10,7 @@ appCountry:
 released: 2019-08-26
 updated: 2022-02-15
 version: "1.21.9"
-stars: 4
+stars: 3.9642856
 ratings: 365
 reviews: 20
 size: 48M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bolt_global
 social:
-  - https://www.linkedin.com/company/bolt-global
-  - https://www.facebook.com/Global.Bolt
+- https://www.linkedin.com/company/bolt-global
+- https://www.facebook.com/Global.Bolt
 redirect_from:
 ---
 

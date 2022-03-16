@@ -8,11 +8,11 @@ appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076
 released: 2018-05-29
-updated: 2022-02-15
-version: "6.0.0"
-stars: 3.30803
-reviews: 685
-size: 47068160
+updated: 2022-03-14
+version: "6.0.1"
+stars: 3.31014
+reviews: 690
+size: 48224256
 website: https://bitbns.com
 repository: 
 issue: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: bitbns
 social:
-  - https://www.linkedin.com/company/bitbnsinc
-  - https://www.facebook.com/bitbns
-  - https://www.reddit.com/r/Bitbns
+- https://www.linkedin.com/company/bitbnsinc
+- https://www.facebook.com/bitbns
+- https://www.reddit.com/r/Bitbns
 ---
 
 From their linkedin page:

@@ -10,8 +10,8 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2022-02-02
 version: "1.13.2"
-stars: 4.55933
-reviews: 1500
+stars: 4.55931
+reviews: 1509
 size: 139253760
 website: https://www.coinomi.com
 repository: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: CoinomiWallet
 social:
-  - https://www.linkedin.com/company/coinomi
-  - https://www.facebook.com/coinomi
-  - https://www.reddit.com/r/COINOMI
+- https://www.linkedin.com/company/coinomi
+- https://www.facebook.com/coinomi
+- https://www.reddit.com/r/COINOMI
 ---
 
 This wallet claims to be non-custodial but

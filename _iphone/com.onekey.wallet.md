@@ -15,7 +15,7 @@ stars: 4.77778
 reviews: 18
 size: 245382144
 website: https://www.onekey.so
-repository: https://github.com/OneKeyHQ/wallet-deprecated-
+repository: 
 issue: 
 icon: com.onekey.wallet.jpg
 bugbounty: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: OneKeyHQ
 social:
-  - https://www.reddit.com/r/OneKeyHQ
+- https://www.reddit.com/r/OneKeyHQ
 ---
 
 **Update 2022-02-26**: This app is not available anymore.

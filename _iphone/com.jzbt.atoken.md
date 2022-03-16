@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ATokenOfficial
 social:
-  - https://www.facebook.com/ATokenOfficial
+- https://www.facebook.com/ATokenOfficial
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

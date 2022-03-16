@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: CoinPaymentsNET
 social:
-  - https://www.linkedin.com/company/coinpayments-inc
-  - https://www.facebook.com/CoinPayments
+- https://www.linkedin.com/company/coinpayments-inc
+- https://www.facebook.com/CoinPayments
 redirect_from:
   - /net.coinpayments.coinpaymentsapp/
   - /posts/net.coinpayments.coinpaymentsapp/

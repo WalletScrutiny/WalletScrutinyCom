@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-04
 updated: 2021-11-10
 version: "0.1.265"
-stars: 3.3333333
+stars: 3.5454545
 ratings: 56
-reviews: 3
+reviews: 4
 size: 13M
 website: https://sevenb.io/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: sevenb_roker
 social:
-  - https://www.facebook.com/SevenBbroker
-  - https://www.reddit.com/r/SevenB_roker
+- https://www.facebook.com/SevenBbroker
+- https://www.reddit.com/r/SevenB_roker
 redirect_from:
 ---
 

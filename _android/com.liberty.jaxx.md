@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-01
 updated: 2021-09-09
 version: "2.6.5"
-stars: 3.77
+stars: 3.73
 ratings: 5474
 reviews: 400
 size: 18M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: jaxx_io
 social:
-  - https://www.facebook.com/JaxxWallet
+- https://www.facebook.com/JaxxWallet
 redirect_from:
   - /jaxx/
   - /com.liberty.jaxx/

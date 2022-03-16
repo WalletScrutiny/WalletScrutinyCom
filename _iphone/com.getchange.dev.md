@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: changefinance
 social:
-  - https://www.linkedin.com/company/changeinvest
-  - https://www.facebook.com/changeinvest
+- https://www.linkedin.com/company/changeinvest
+- https://www.facebook.com/changeinvest
 ---
 
 {% include copyFromAndroid.html %}

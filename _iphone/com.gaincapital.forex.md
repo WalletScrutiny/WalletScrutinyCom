@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: forexcom
 social:
-  - https://www.facebook.com/FOREXcom
+- https://www.facebook.com/FOREXcom
 ---
 
 {% include copyFromAndroid.html %}

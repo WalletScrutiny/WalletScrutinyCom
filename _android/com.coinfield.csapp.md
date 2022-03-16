@@ -10,7 +10,7 @@ appCountry: ca
 released: 2019-05-16
 updated: 2021-07-26
 version: "2.6.0"
-stars: 3.59
+stars: 3.58
 ratings: 1231
 reviews: 90
 size: 58M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: CoinFieldEx
 social:
-  - https://www.linkedin.com/company/coinfield
-  - https://www.facebook.com/coinfieldexchange
+- https://www.linkedin.com/company/coinfield
+- https://www.facebook.com/coinfieldexchange
 redirect_from:
 ---
 

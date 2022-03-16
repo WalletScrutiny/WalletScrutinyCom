@@ -8,8 +8,8 @@ users: 10000
 appId: io.nash.app
 appCountry: 
 released: 2019-08-31
-updated: 2022-02-28
-version: "9.1.2"
+updated: 2022-03-14
+version: "10.0.1"
 stars: 4.642857
 ratings: 646
 reviews: 24
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: nashsocial
 social:
-  - https://www.linkedin.com/company/nashsocial
+- https://www.linkedin.com/company/nashsocial
 redirect_from:
 ---
 

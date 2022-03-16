@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: instantcoins_ng
 social:
-  - https://www.facebook.com/instantcoins
+- https://www.facebook.com/instantcoins
 ---
 
 **Update 2022-02-09**: This app is no more.

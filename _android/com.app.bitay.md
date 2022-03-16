@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BitayTurkiye
 social:
-  - https://www.facebook.com/bitayturkiye
+- https://www.facebook.com/bitayturkiye
 redirect_from:
 ---
 

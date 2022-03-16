@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Leadwallet
 social:
-  - https://www.linkedin.com/company/leadwallet
-  - https://www.reddit.com/r/LeadWallet
+- https://www.linkedin.com/company/leadwallet
+- https://www.reddit.com/r/LeadWallet
 redirect_from:
   - /com.leadwallet.io/
 ---

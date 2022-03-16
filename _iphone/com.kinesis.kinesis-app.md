@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: KinesisMonetary
 social:
-  - https://www.linkedin.com/company/kinesismoney
-  - https://www.facebook.com/kinesismoney
-  - https://www.reddit.com/r/Kinesis_money
+- https://www.linkedin.com/company/kinesismoney
+- https://www.facebook.com/kinesismoney
+- https://www.reddit.com/r/Kinesis_money
 ---
 
 {% include copyFromAndroid.html %}

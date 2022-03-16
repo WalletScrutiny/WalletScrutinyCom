@@ -14,7 +14,7 @@ stars: 4.875
 reviews: 16
 size: 34588672
 website: http://wallet.diviproject.org
-repository: https://github.com/DiviProject
+repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg
 bugbounty: 
@@ -25,8 +25,9 @@ signer:
 reviewArchive:
 twitter: diviproject
 social:
-  - https://www.facebook.com/diviproject
-  - https://www.reddit.com/r/DiviProject
+- https://www.facebook.com/diviproject
+- https://www.reddit.com/r/DiviProject
+- https://github.com/DiviProject
 ---
 
 {% include copyFromAndroid.html %}

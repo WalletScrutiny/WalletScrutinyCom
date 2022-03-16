@@ -10,7 +10,7 @@ appCountry:
 released: 2016-10-23
 updated: 2021-12-27
 version: "5.0.056"
-stars: 3.893204
+stars: 3.9038463
 ratings: 847
 reviews: 112
 size: 57M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BitpieWallet
 social:
-  - https://www.facebook.com/BitpieOfficial
-  - https://www.reddit.com/r/BitpieWallet
+- https://www.facebook.com/BitpieOfficial
+- https://www.reddit.com/r/BitpieWallet
 redirect_from:
   - /com.bitpie/
   - /posts/com.bitpie/

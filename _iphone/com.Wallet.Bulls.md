@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bullcoinfinance
 social:
-  - https://www.reddit.com/r/bullcoinfinance
+- https://www.reddit.com/r/bullcoinfinance
 ---
 
 {% include copyFromAndroid.html %}

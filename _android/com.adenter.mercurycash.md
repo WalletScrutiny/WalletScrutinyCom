@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: mercurycash
 social:
-  - https://www.facebook.com/mercurycash
+- https://www.facebook.com/mercurycash
 redirect_from:
   - /com.adenter.mercurycash/
 ---

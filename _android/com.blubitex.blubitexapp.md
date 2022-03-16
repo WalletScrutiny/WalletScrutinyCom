@@ -8,12 +8,12 @@ users: 50000
 appId: com.blubitex.blubitexapp
 appCountry: us
 released: 2020-10-03
-updated: 2022-02-25
-version: "2.1.339"
+updated: 2022-03-14
+version: "2.1.340"
 stars: 3.4038463
 ratings: 2703
 reviews: 36
-size: 60M
+size: 61M
 website: https://blubitex.com
 repository: 
 issue: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: blubitex
 social:
-  - https://www.facebook.com/blubitexofficial
+- https://www.facebook.com/blubitexofficial
 redirect_from:
 ---
 

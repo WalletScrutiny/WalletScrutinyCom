@@ -8,7 +8,7 @@ authors:
 appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
-released: 2019-01-22
+released: 2019-01-21
 updated: 2022-02-24
 version: "1.23.0"
 stars: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: OfficialXcoex
 social:
-  - https://www.facebook.com/xcoex
+- https://www.facebook.com/xcoex
 ---
 
 **Update 2022-01-06**: The app is back online again. 

@@ -8,11 +8,11 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2022-02-16
-version: "3.4"
-stars: 4.77257
-reviews: 4916
-size: 109652992
+updated: 2022-03-10
+version: "3.5"
+stars: 4.77182
+reviews: 4913
+size: 97803264
 website: https://www.bitstamp.net/
 repository: 
 issue: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Bitstamp
 social:
-  - https://www.linkedin.com/company/bitstamp
-  - https://www.facebook.com/Bitstamp
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
 ---
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:

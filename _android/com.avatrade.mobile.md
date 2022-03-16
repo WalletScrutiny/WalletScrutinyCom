@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Avatrade: Forex & CFD Trading"
+title: "Avatrade - Trade Forex & CFDs"
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
 updated: 2022-03-03
-version: "98.6.0"
+version: "100.5"
 stars: 4.266667
 ratings: 9327
 reviews: 7
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AvaTrade
 social:
-  - https://www.linkedin.com/company/AvaTrade
-  - https://www.facebook.com/AvaTrade
+- https://www.linkedin.com/company/AvaTrade
+- https://www.facebook.com/AvaTrade
 redirect_from:
 ---
 

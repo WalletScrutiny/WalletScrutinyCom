@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: satoshitango
 social:
-  - https://www.facebook.com/satoshitangoargentina
+- https://www.facebook.com/satoshitangoargentina
 redirect_from:
   - /com.SatoshiTango.SatoshiTango/
 ---

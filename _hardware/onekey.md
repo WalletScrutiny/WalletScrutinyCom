@@ -18,7 +18,7 @@ website: https://onekey.so/en-US/hardware
 shop: https://onekey.so/en-US/hardware
 country: CN
 price: 42USD
-repository: https://github.com/OneKeyHQ/OneKey-Wallet
+repository: 
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekey.png
 bugbounty: 
@@ -29,7 +29,7 @@ signer:
 reviewArchive: 
 twitter: OneKeyHQ
 social: 
-  - https://www.reddit.com/r/OneKeyHQ
+- https://www.reddit.com/r/OneKeyHQ
 ---
 
 OneKey is an open source hardware wallet by Bixin. The primary language for the website is Chinese. OneKey, the company claims to be based in Singapore

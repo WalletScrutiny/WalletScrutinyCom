@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/temexetech
+- https://www.facebook.com/temexetech
 ---
 
 The [provider's website](https://temexe.com/) is inaccessible and we considered it defunct.

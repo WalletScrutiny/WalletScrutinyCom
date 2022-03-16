@@ -8,11 +8,11 @@ appId: com.rainmanagement.rain
 appCountry: bh
 idd: 1414619890
 released: 2018-09-02
-updated: 2022-03-02
-version: "3.0.2"
-stars: 4.69614
-reviews: 2409
-size: 44741632
+updated: 2022-03-13
+version: "3.0.3"
+stars: 4.69543
+reviews: 2410
+size: 44827648
 website: https://www.rain.bh/
 repository: 
 issue: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: rainfinancial
 social:
-  - https://www.linkedin.com/company/rainfinancial
-  - https://www.facebook.com/rainfinancial
+- https://www.linkedin.com/company/rainfinancial
+- https://www.facebook.com/rainfinancial
 ---
 
  {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ idd: 454558592
 released: 2011-08-12
 updated: 2022-03-03
 version: "8.88.1"
-stars: 2.92039
-reviews: 1319
+stars: 2.91686
+reviews: 1323
 size: 37871616
 website: http://www.interactivebrokers.com
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ibkr
 social:
-  - https://www.linkedin.com/company/interactive-brokers
-  - https://www.facebook.com/InteractiveBrokers
+- https://www.linkedin.com/company/interactive-brokers
+- https://www.facebook.com/InteractiveBrokers
 ---
 
 {% include copyFromAndroid.html %}

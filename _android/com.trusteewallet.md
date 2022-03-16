@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: Trustee_Wallet
 social:
-  - https://www.facebook.com/Trustee.Wallet
+- https://www.facebook.com/Trustee.Wallet
 redirect_from:
   - /com.trusteewallet/
   - /posts/com.trusteewallet/

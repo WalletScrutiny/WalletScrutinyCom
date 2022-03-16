@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-11-28
 updated: 2022-02-15
 version: "Varies with device"
-stars: 4.3861384
+stars: 4.38
 ratings: 309
 reviews: 48
 size: Varies with device
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: coin_loan
 social:
-  - https://www.linkedin.com/company/coinloan
-  - https://www.facebook.com/coinloan.project
-  - https://www.reddit.com/r/coinloan
+- https://www.linkedin.com/company/coinloan
+- https://www.facebook.com/coinloan.project
+- https://www.reddit.com/r/coinloan
 redirect_from:
 ---
 

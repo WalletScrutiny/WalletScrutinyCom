@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: SwftCoin
 social:
-  - https://www.linkedin.com/company/swftcoin
-  - https://www.facebook.com/SWFTBlockchain
+- https://www.linkedin.com/company/swftcoin
+- https://www.facebook.com/SWFTBlockchain
 ---
 
 The description on App Store is full of buzzwords like big data, machine

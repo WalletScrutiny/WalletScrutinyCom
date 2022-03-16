@@ -8,11 +8,11 @@ appId: com.digifinex.app
 appCountry: 
 idd: 1397735851
 released: 2018-08-25
-updated: 2022-02-28
-version: "2022.02.24"
-stars: 4.90247
-reviews: 687
-size: 461162496
+updated: 2022-03-11
+version: "2022.03.10"
+stars: 4.94352
+reviews: 1204
+size: 448201728
 website: https://www.digifinex.com
 repository: 
 issue: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: DigiFinex
 social:
-  - https://www.linkedin.com/company/digifinex-global
-  - https://www.facebook.com/digifinex.global
-  - https://www.reddit.com/r/DigiFinex
+- https://www.linkedin.com/company/digifinex-global
+- https://www.facebook.com/digifinex.global
+- https://www.reddit.com/r/DigiFinex
 ---
 
 > DigiFinex is a world’s leading crypto finance exchange

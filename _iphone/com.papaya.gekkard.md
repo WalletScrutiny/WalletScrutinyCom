@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/gekkoin.official
+- https://www.facebook.com/gekkoin.official
 ---
 
 {% include copyFromAndroid.html %}

@@ -16,7 +16,7 @@ website: https://shop.tangem.com/collections/crypto-hardware-wallet
 shop: https://shop.tangem.com/products/tangem-card-pack
 country: CH
 price: 39.99USD
-repository: https://github.com/tangem
+repository: 
 issue: 
 icon: tangem.png
 bugbounty: 
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: tangem
 social: 
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
+- https://github.com/tangem
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

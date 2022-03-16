@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: 0xPlasma
 social:
-  - https://www.linkedin.com/company/0xplasma
-  - https://www.facebook.com/Plasmapay
-  - https://www.reddit.com/r/PlasmaPay
+- https://www.linkedin.com/company/0xplasma
+- https://www.facebook.com/Plasmapay
+- https://www.reddit.com/r/PlasmaPay
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: rsksmart
 social:
-  - https://www.facebook.com/RSKsmart
-  - https://www.reddit.com/r/rootstock
+- https://www.facebook.com/RSKsmart
+- https://www.reddit.com/r/rootstock
 ---
 
 {% include copyFromAndroid.html %}

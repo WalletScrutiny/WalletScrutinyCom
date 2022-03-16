@@ -10,9 +10,9 @@ appCountry:
 released: 2015-03-04
 updated: 2022-03-02
 version: "Varies with device"
-stars: 4.1513686
+stars: 4.1482058
 ratings: 44411
-reviews: 2567
+reviews: 2585
 size: Varies with device
 website: https://www.abra.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AbraGlobal
 social:
-  - https://www.linkedin.com/company/abra
-  - https://www.facebook.com/GoAbraGlobal
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/

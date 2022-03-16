@@ -8,11 +8,11 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2022-03-03
-version: "2.9.6"
-stars: 3.85498
-reviews: 5144
-size: 115292160
+updated: 2022-03-11
+version: "2.9.8"
+stars: 3.8397
+reviews: 5103
+size: 114454528
 website: https://www.bitmart.com/
 repository: 
 issue: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: BitMartExchange
 social:
-  - https://www.linkedin.com/company/bitmart
-  - https://www.facebook.com/bitmartexchange
-  - https://www.reddit.com/r/BitMartExchange
+- https://www.linkedin.com/company/bitmart
+- https://www.facebook.com/bitmartexchange
+- https://www.reddit.com/r/BitMartExchange
 ---
 
 On their website we read:

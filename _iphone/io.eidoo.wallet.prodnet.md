@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: eidoo_io
 social:
-  - https://www.linkedin.com/company/eidoo
-  - https://www.facebook.com/eidoocrypto
-  - https://www.reddit.com/r/eidooapp
+- https://www.linkedin.com/company/eidoo
+- https://www.facebook.com/eidoocrypto
+- https://www.reddit.com/r/eidooapp
 ---
 
 The app's description:

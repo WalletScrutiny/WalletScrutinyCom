@@ -8,11 +8,11 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2022-03-05
-version: "3.32"
-stars: 4.69444
-reviews: 36
-size: 54304768
+updated: 2022-03-10
+version: "3.33"
+stars: 4.7027
+reviews: 37
+size: 54288384
 website: 
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: tangem
 social:
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
 ---
 
 This app is the companion app to an NFC card that is promoted as something like

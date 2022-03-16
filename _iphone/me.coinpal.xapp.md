@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: coinpalapp
 social:
-  - https://www.linkedin.com/company/coinpal
-  - https://www.facebook.com/coinpal.me
+- https://www.linkedin.com/company/coinpal
+- https://www.facebook.com/coinpal.me
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

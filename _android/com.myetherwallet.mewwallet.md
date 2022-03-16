@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-11
 updated: 2022-03-05
 version: "2.3.10"
-stars: 3.990566
+stars: 4.056604
 ratings: 7093
-reviews: 483
+reviews: 486
 size: 106M
 website: http://mewwallet.com
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: myetherwallet
 social:
-  - https://www.linkedin.com/company/myetherwallet
-  - https://www.facebook.com/MyEtherWallet
-  - https://www.reddit.com/r/MyEtherWallet
+- https://www.linkedin.com/company/myetherwallet
+- https://www.facebook.com/MyEtherWallet
+- https://www.reddit.com/r/MyEtherWallet
 redirect_from:
 ---
 

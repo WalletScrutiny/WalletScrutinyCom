@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: authentrend
 social: 
-  - https://www.linkedin.com/company/authentrend
-  - https://www.facebook.com/authentrend
+- https://www.linkedin.com/company/authentrend
+- https://www.facebook.com/authentrend
 ---
 
 {{ page.title }} describes itself as

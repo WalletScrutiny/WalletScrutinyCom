@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Oracle_Wallet
 social:
-  - https://www.facebook.com/oracle8.org
+- https://www.facebook.com/oracle8.org
 redirect_from:
 ---
 

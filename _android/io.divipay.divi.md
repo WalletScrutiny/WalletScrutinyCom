@@ -15,7 +15,7 @@ ratings: 273
 reviews: 8
 size: 49M
 website: http://diviproject.org
-repository: https://github.com/DiviProject
+repository: 
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
@@ -26,8 +26,9 @@ signer:
 reviewArchive:
 twitter: diviproject
 social:
-  - https://www.facebook.com/diviproject
-  - https://www.reddit.com/r/DiviProject
+- https://www.facebook.com/diviproject
+- https://www.reddit.com/r/DiviProject
+- https://github.com/DiviProject
 redirect_from:
 ---
 

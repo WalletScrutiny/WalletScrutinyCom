@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: TradingduCoin
 social:
-  - https://www.facebook.com/TradingduCoin
+- https://www.facebook.com/TradingduCoin
 ---
 
 {% include copyFromAndroid.html %}

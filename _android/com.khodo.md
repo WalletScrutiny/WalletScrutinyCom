@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: buymalawi
 social:
-  - https://www.facebook.com/buybitcoinmalawi
+- https://www.facebook.com/buybitcoinmalawi
 redirect_from:
 ---
 

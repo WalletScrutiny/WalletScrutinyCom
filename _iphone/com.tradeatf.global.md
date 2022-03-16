@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: TradeATF
 social:
-  - https://www.linkedin.com/company/globaltradeatf
-  - https://www.facebook.com/TradeATF
+- https://www.linkedin.com/company/globaltradeatf
+- https://www.facebook.com/TradeATF
 ---
 
 **Update 2022-02-20**: This app is not available anymore.

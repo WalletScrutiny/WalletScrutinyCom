@@ -9,11 +9,11 @@ appId: com.moneybookers.skrillpayments
 appCountry: 
 released: 2013-10-29
 updated: 2022-03-07
-version: "3.79.0-2022021614"
-stars: 4.418495
+version: "3.80.0-2022030213"
+stars: 4.423676
 ratings: 142059
-reviews: 2569
-size: 60M
+reviews: 2578
+size: 61M
 website: https://www.skrill.com
 repository: 
 issue: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: PlugIntoPaysafe
 social:
-  - https://www.linkedin.com/company/Paysafe Group
-  - https://www.facebook.com/PlugIntoPaysafe
+- https://www.linkedin.com/company/Paysafe Group
+- https://www.facebook.com/PlugIntoPaysafe
 redirect_from:
 ---
 

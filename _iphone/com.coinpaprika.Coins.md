@@ -10,8 +10,8 @@ idd: 1475233621
 released: 2019-12-03
 updated: 2022-02-09
 version: "2.7.2"
-stars: 4.75
-reviews: 812
+stars: 4.74939
+reviews: 818
 size: 62578688
 website: http://coins.coinpaprika.com
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinsOneApp
 social:
-  - https://www.facebook.com/CoinsOneApp
+- https://www.facebook.com/CoinsOneApp
 ---
 
 {% include copyFromAndroid.html %}

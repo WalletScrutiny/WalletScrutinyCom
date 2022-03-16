@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: CaseWallet
 social: 
-  - https://www.facebook.com/casewallet
+- https://www.facebook.com/casewallet
 ---
 
 There are a numnber of reasons why this verdict is defunct.

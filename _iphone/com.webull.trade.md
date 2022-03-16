@@ -9,11 +9,11 @@ appId: com.webull.trade
 appCountry: 
 idd: 1179213067
 released: 2017-01-18
-updated: 2022-03-02
-version: "7.4.7"
-stars: 4.71539
-reviews: 265182
-size: 316679168
+updated: 2022-03-08
+version: "7.4.8"
+stars: 4.71533
+reviews: 265838
+size: 317673472
 website: https://www.webull.com
 repository: 
 issue: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: WebullGlobal
 social:
-  - https://www.linkedin.com/company/webullfinancialllc
+- https://www.linkedin.com/company/webullfinancialllc
 ---
 
 The app allows you to trade BTC but it is only an exchange and not a wallet.

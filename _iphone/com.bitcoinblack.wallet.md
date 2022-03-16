@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: BCB_Official1
 social:
-  - https://www.facebook.com/bitcoinblackofficial
-  - https://www.reddit.com/r/AllAboardBitcoinBlack
+- https://www.facebook.com/bitcoinblackofficial
+- https://www.reddit.com/r/AllAboardBitcoinBlack
 ---
 
 **Update 2021-08-13**: This app is not anymore.

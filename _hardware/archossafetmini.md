@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: ARCHOS
 social: 
-  - https://www.linkedin.com/company/archos
-  - https://www.facebook.com/ArchosOfficial
+- https://www.linkedin.com/company/archos
+- https://www.facebook.com/ArchosOfficial
 ---
 
 **Update 2021-08-22**: As there is no claims of open source and nobody replied

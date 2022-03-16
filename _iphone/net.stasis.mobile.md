@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: stasisnet
 social:
-  - https://www.linkedin.com/company/stasisnet
-  - https://www.facebook.com/stasisnet
+- https://www.linkedin.com/company/stasisnet
+- https://www.facebook.com/stasisnet
 ---
 
 **Update 2021-05-09**: The review is based on the Play Store app. The App Store

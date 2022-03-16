@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: altcoinfantasy
 social:
-  - https://www.facebook.com/altcoinfantasy
+- https://www.facebook.com/altcoinfantasy
 redirect_from:
 ---
 

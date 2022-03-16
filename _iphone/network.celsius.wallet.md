@@ -10,8 +10,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2022-02-08
 version: "v5.0.0"
-stars: 3.66006
-reviews: 1918
+stars: 3.6582
+reviews: 1928
 size: 72631296
 website: https://celsius.network/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: celsiusnetwork
 social:
-  - https://www.linkedin.com/company/celsiusnetwork
-  - https://www.facebook.com/CelsiusNetwork
+- https://www.linkedin.com/company/celsiusnetwork
+- https://www.facebook.com/CelsiusNetwork
 ---
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: coinburp
 social:
-  - https://www.linkedin.com/company/coinburp
-  - https://www.facebook.com/thecoinburp
+- https://www.linkedin.com/company/coinburp
+- https://www.facebook.com/thecoinburp
 ---
 
 On the provider's website we find how private keys are managed, under [help section "Account Security"](https://help.coinburp.com/hc/en-gb/articles/360017544100-Are-Balances-Stored-on-CoinBurp-Insured-) we find their custodial provider is Bitpay.

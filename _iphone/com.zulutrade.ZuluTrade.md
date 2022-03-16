@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: zulutrade
 social:
-  - https://www.linkedin.com/company/zulutrade
-  - https://www.facebook.com/zulutrade
+- https://www.linkedin.com/company/zulutrade
+- https://www.facebook.com/zulutrade
 ---
 
 **Update 2021-12-04**: This app is gone from the Store.

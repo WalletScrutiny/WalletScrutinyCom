@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/bekonta
-  - https://www.facebook.com/bekontahq
+- https://www.linkedin.com/company/bekonta
+- https://www.facebook.com/bekontahq
 redirect_from:
 ---
 

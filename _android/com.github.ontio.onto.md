@@ -1,6 +1,6 @@
 ---
 wsId: ONTO
-title: "ONTO - Decentralized Cross-chain Crypto Wallet"
+title: "ONTO Cross-chain Crypto Wallet"
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.github.ontio.onto
 appCountry: us
 released: 2018-06-27
-updated: 2022-01-29
-version: "4.1.9"
-stars: 3.79
+updated: 2022-03-14
+version: "4.2.0"
+stars: 4.39
 ratings: 1170
-reviews: 67
-size: 149M
+reviews: 116
+size: 151M
 website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO
 issue: 

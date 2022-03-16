@@ -8,14 +8,14 @@ users: 1000000
 appId: exodusmovement.exodus
 appCountry: 
 released: 2019-06-06
-updated: 2022-02-25
-version: "22.2.24"
-stars: 4.479035
+updated: 2022-03-11
+version: "22.3.10"
+stars: 4.474432
 ratings: 81868
-reviews: 5695
-size: 53M
+reviews: 5722
+size: 54M
 website: https://exodus.com/mobile
-repository: https://github.com/exodusmovement
+repository: 
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
@@ -26,7 +26,8 @@ signer:
 reviewArchive:
 twitter: exodus_io
 social:
-  - https://www.facebook.com/exodus.io
+- https://www.facebook.com/exodus.io
+- https://github.com/exodusmovement
 redirect_from:
 ---
 

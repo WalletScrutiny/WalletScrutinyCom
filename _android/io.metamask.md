@@ -1,6 +1,6 @@
 ---
 wsId: metamask
-title: "MetaMask - Buy, Send and Swap Crypto"
+title: "MetaMask - Blockchain Wallet"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2022-03-03
-version: "4.1.1"
-stars: 4.504777
+updated: 2022-03-07
+version: "4.2.2"
+stars: 4.5513597
 ratings: 57131
-reviews: 1989
+reviews: 2019
 size: 194M
 website: https://metamask.io
 repository: 

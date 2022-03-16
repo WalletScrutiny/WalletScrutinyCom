@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 45M
 website: https://keyst.one/
-repository: https://github.com/KeystoneHQ
+repository: 
 issue: 
 icon: com.keystone.mobile.png
 bugbounty: 
@@ -26,6 +26,7 @@ signer:
 reviewArchive:
 twitter: KeystoneWallet
 social:
+- https://github.com/KeystoneHQ
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Unocoin
 social:
-  - https://www.linkedin.com/company/unocoin
-  - https://www.facebook.com/unocoin
+- https://www.linkedin.com/company/unocoin
+- https://www.facebook.com/unocoin
 ---
 
 This app appears to be the interface to a trading platform. The description

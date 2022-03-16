@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: PatriciaSwitch
 social:
-  - https://www.facebook.com/patricia.com.ng
+- https://www.facebook.com/patricia.com.ng
 ---
 
 **Update 2021-09-29**: This app is not available anymore in the Apple store.

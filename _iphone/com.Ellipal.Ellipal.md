@@ -10,8 +10,8 @@ idd: 1426179665
 released: 2018-08-25
 updated: 2022-02-22
 version: "3.3.4"
-stars: 4.77572
-reviews: 1458
+stars: 4.77815
+reviews: 1483
 size: 83809280
 website: http://www.ellipal.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ellipalwallet
 social:
-  - https://www.facebook.com/ellipalclub
-  - https://www.reddit.com/r/ELLIPAL_Official
+- https://www.facebook.com/ellipalclub
+- https://www.reddit.com/r/ELLIPAL_Official
 ---
 
 {% include copyFromAndroid.html %}

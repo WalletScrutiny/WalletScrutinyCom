@@ -4,15 +4,15 @@ title: "Crypto bitcoin cloud mining"
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.nouroeddinne.miner.bitcoin.free
 appCountry: 
 released: 2021-03-18
 updated: 2022-01-27
 version: "13.14"
-stars: 4.41
+stars: 4.3689322
 ratings: 3855
-reviews: 356
+reviews: 382
 size: 7.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 

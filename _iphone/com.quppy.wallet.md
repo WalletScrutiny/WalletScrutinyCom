@@ -8,10 +8,10 @@ appId: com.quppy.wallet
 appCountry: 
 idd: 1417802076
 released: 2018-08-09
-updated: 2022-02-21
-version: "2.0.14"
-stars: 3.97368
-reviews: 38
+updated: 2022-03-09
+version: "2.0.15"
+stars: 4.025
+reviews: 40
 size: 48900096
 website: https://quppy.com
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: QuppyPay
 social:
-  - https://www.linkedin.com/company/quppy
-  - https://www.facebook.com/quppyPay
+- https://www.linkedin.com/company/quppy
+- https://www.facebook.com/quppyPay
 ---
 
 This provider loses no word on security or where the keys are stored. We assume

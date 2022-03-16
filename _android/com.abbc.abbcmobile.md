@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.abbc.abbcmobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-01
+date: 2022-03-14
 signer: 
 reviewArchive:
 twitter: 

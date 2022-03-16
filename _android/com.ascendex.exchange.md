@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-28
 updated: 2022-02-22
 version: "2.7.7"
-stars: 4.813084
+stars: 4.814815
 ratings: 6660
 reviews: 97
 size: 47M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: AscendEX_Global
 social:
-  - https://www.facebook.com/AscendEXOfficial
-  - https://www.reddit.com/r/AscendEX_Official
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
 redirect_from:
 ---
 

@@ -10,12 +10,12 @@ appCountry:
 released: 2017-12-29
 updated: 2020-06-01
 version: "2.4"
-stars: 4.060606
+stars: 4.074627
 ratings: 251
 reviews: 37
 size: 5.0M
 website: http://jurajkusnier.com/
-repository: https://github.com/jurajkusnier/bitcoin-balance-check/
+repository: 
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 

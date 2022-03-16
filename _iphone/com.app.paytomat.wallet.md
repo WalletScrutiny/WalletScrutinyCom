@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: paytomat
 social:
-  - https://www.linkedin.com/company/11433285
-  - https://www.facebook.com/paytomat
+- https://www.linkedin.com/company/11433285
+- https://www.facebook.com/paytomat
 ---
 
 {% include copyFromAndroid.html %}

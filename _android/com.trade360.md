@@ -8,8 +8,8 @@ users: 100000
 appId: com.trade360
 appCountry: gb
 released: 2015-06-18
-updated: 2022-02-22
-version: "7.1.5"
+updated: 2022-03-08
+version: "7.1.6"
 stars: 2.7468355
 ratings: 1438
 reviews: 59
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Trade360_LTD
 social:
-  - https://www.linkedin.com/company/trade360ltd
-  - https://www.facebook.com/Trade360LTD
+- https://www.linkedin.com/company/trade360ltd
+- https://www.facebook.com/Trade360LTD
 redirect_from:
 ---
 

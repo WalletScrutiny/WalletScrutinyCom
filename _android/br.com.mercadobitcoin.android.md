@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: MercadoBitcoin
 social:
-  - https://www.linkedin.com/company/mercado-bitcoin
-  - https://www.facebook.com/MercadoBitcoin
+- https://www.linkedin.com/company/mercado-bitcoin
+- https://www.facebook.com/MercadoBitcoin
 redirect_from:
 ---
 

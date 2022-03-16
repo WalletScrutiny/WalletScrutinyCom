@@ -1,5 +1,5 @@
 ---
-wsId: bitmatrixport
+wsId: 
 title: "bit.com"
 altTitle: 
 authors:
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitcom_exchange
 social:
-  - https://www.linkedin.com/company/bitcom-exchange
-  - https://www.facebook.com/bitcom.exchange
+- https://www.linkedin.com/company/bitcom-exchange
+- https://www.facebook.com/bitcom.exchange
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: litebiteu
 social:
-  - https://www.linkedin.com/company/litebit
-  - https://www.facebook.com/litebiteu
+- https://www.linkedin.com/company/litebit
+- https://www.facebook.com/litebiteu
 redirect_from:
   - /com.flutter.litebit/
 ---

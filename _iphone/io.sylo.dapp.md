@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: sylo
 social:
-  - https://www.linkedin.com/company/sylo.io
-  - https://www.facebook.com/sylo.io
-  - https://www.reddit.com/r/sylo_io
+- https://www.linkedin.com/company/sylo.io
+- https://www.facebook.com/sylo.io
+- https://www.reddit.com/r/sylo_io
 ---
 
 {% include copyFromAndroid.html %}

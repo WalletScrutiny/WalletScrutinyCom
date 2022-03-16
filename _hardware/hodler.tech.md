@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: HODLER_TECH
 social: 
-  - https://www.facebook.com/hodler.tech
+- https://www.facebook.com/hodler.tech
 ---
 
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:

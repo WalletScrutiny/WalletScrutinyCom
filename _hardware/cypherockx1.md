@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: CypherockWallet
 social: 
-  - https://www.linkedin.com/company/cypherockwallet
-  - https://www.facebook.com/cypherock
+- https://www.linkedin.com/company/cypherockwallet
+- https://www.facebook.com/cypherock
 ---
 
 Cypherock was announced in a Bitcointalk ANN thread on February 14, 2020.

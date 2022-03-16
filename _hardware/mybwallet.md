@@ -3,6 +3,7 @@ title: "mybwallet"
 appId: mybwallet
 authors:
 - danny
+- leo
 released: 2015-01-01
 discontinued: 
 updated: 2015-05-08
@@ -31,8 +32,6 @@ social:
 
 MyBWallet is a Trezor clone. Its website is no longer available, although information about the product can still be tracked via [webarchive.org](https://web.archive.org/web/20161219224459/https://bidingxing.com/bwallet).
 
-A [reddit post](https://www.reddit.com/r/Bitcoin/comments/2tyier/bwallet_review_by_trezor_developer/) by a person who claims to be a Trezor engineer notes that the Bwallet code has a tracking super cookie that allows the manufacturer to keep track of all its customers, how much bitcoins the customer owns in the device and even the home address.
+A [reddit post](https://www.reddit.com/r/Bitcoin/comments/2tyier/bwallet_review_by_trezor_developer/) by the CEO of Trezor notes that the Bwallet code has a "tracking supercookie" that allows the manufacturer to keep track of all its customers, how much bitcoins the customer owns in the device and even the home address.
 
 This device is no longer available.
-
-

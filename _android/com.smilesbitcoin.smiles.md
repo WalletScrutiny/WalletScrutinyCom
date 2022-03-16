@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-12-15
 updated: 2022-02-02
 version: "2.0.7"
-stars: 2.7580645
+stars: 2.765625
 ratings: 208
-reviews: 43
+reviews: 44
 size: 72M
 website: https://www.smilesbitcoin.com/
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: smilesbitcoin
 social:
-  - https://www.facebook.com/smilesbitcoin
+- https://www.facebook.com/smilesbitcoin
 redirect_from:
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: OWNR
-title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
+title: "OWNR Crypto wallet & Visa Card"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
-updated: 2022-03-03
-version: "1.51.0"
-stars: 4.80198
+updated: 2022-03-14
+version: "1.51.1"
+stars: 4.86
 ratings: 2072
-reviews: 218
+reviews: 222
 size: 124M
 website: https://ownrwallet.com
 repository: 
@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: ownrwallet
 social:
-  - https://www.facebook.com/ownrwallet
-  - https://www.reddit.com/r/ownrwallet
+- https://www.facebook.com/ownrwallet
+- https://www.reddit.com/r/ownrwallet
 redirect_from:
   - /com.ownrwallet.wallet/
 ---

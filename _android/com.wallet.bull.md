@@ -15,7 +15,7 @@ ratings: 713
 reviews: 22
 size: 20M
 website: https://bullcoin.finance/
-repository: https://github.com/BullCoinFinance
+repository: 
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
@@ -26,7 +26,8 @@ signer:
 reviewArchive:
 twitter: bullcoinfinance
 social:
-  - https://www.reddit.com/r/bullcoinfinance
+- https://www.reddit.com/r/bullcoinfinance
+- https://github.com/BullCoinFinance
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: OfficialXcoex
 social:
-  - https://www.facebook.com/xcoex
+- https://www.facebook.com/xcoex
 redirect_from:
 ---
 

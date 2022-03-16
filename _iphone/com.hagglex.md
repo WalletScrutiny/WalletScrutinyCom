@@ -10,8 +10,8 @@ idd: 1535046179
 released: 2021-03-18
 updated: 2021-11-27
 version: "1.1.2"
-stars: 4.11017
-reviews: 118
+stars: 4.15517
+reviews: 116
 size: 109565952
 website: https://www.hagglex.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: hagglexintl
 social:
-  - https://www.linkedin.com/company/hagglex
-  - https://www.facebook.com/hagglex
+- https://www.linkedin.com/company/hagglex
+- https://www.facebook.com/hagglex
 ---
 
 {% include copyFromAndroid.html %}

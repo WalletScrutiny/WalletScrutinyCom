@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Wunderbit — Crypto Trading Bots & Copy-Trading"
+title: "WunderTrading"
 altTitle: 
 authors:
 - danny
@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 15M
-website: https://trading.wunderbit.co/en
+website: https://wundertrading.com/en
 repository: 
 issue: 
 icon: eu.wunderbit.trading_web.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Wunder_bit
 social:
-  - https://www.facebook.com/wunderbit.co
+- https://www.facebook.com/wunderbit.co
 redirect_from:
 ---
 

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Nova_DAXglobal
 social:
-  - https://www.linkedin.com/company/novadax-do-brasil
-  - https://www.facebook.com/novadaxglobal
+- https://www.linkedin.com/company/novadax-do-brasil
+- https://www.facebook.com/novadaxglobal
 redirect_from:
 ---
 

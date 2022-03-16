@@ -10,8 +10,8 @@ idd: 1473024338
 released: 2019-11-12
 updated: 2022-03-01
 version: "2.9.2"
-stars: 4.51571
-reviews: 11043
+stars: 4.51626
+reviews: 11072
 size: 71511040
 website: https://www.kraken.com
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: krakenfx
 social:
-  - https://www.linkedin.com/company/krakenfx
-  - https://www.facebook.com/KrakenFX
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
 ---
 
 On their website we read:

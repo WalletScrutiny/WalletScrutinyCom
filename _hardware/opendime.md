@@ -18,7 +18,7 @@ website: https://opendime.com/
 shop: https://store.coinkite.com/store/opendime
 country: CA
 price: 49USD (3 pack)
-repository: https://github.com/opendime
+repository: 
 issue: 
 icon: opendime.png
 bugbounty: 
@@ -34,6 +34,7 @@ reviewArchive:
   verdict: noita
 twitter: COLDCARDwallet
 social: 
+- https://github.com/opendime
 ---
 
 To spend the funds, the private keys need to get exposed to potentially insecure

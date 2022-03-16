@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/SapienWallet
+- https://www.facebook.com/SapienWallet
 ---
 
 {% include copyFromAndroid.html %}

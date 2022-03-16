@@ -10,12 +10,12 @@ appCountry:
 released: 2020-02-11
 updated: 2022-02-16
 version: "6.7.2"
-stars: 4.33
+stars: 4.3431373
 ratings: 3949
-reviews: 153
+reviews: 155
 size: 54M
 website: https://bitkeep.com
-repository: https://github.com/bitkeepcom
+repository: 
 issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
@@ -26,7 +26,8 @@ signer:
 reviewArchive:
 twitter: BitKeepOS
 social:
-  - https://www.facebook.com/bitkeep
+- https://www.facebook.com/bitkeep
+- https://github.com/bitkeepcom
 redirect_from:
   - /com.bitkeep.wallet/
 ---

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: PtpWallet
 social:
-  - https://www.facebook.com/PTPWalletPage
-  - https://www.reddit.com/r/perkscoin
+- https://www.facebook.com/PTPWalletPage
+- https://www.reddit.com/r/perkscoin
 ---
 
 In [their FAQ](https://ptpwallet.com/faq/) we can read:

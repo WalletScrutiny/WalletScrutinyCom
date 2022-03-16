@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: "Binance.US - Bitcoin & Crypto"
+title: "‎Binance.US: BTC, ETH & Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: us.binance.fiat
 appCountry: 
 idd: 1492670702
 released: 2020-01-05
-updated: 2022-02-24
-version: "2.9.4"
-stars: 4.20851
-reviews: 95236
-size: 221968384
+updated: 2022-03-08
+version: "2.9.5"
+stars: 4.20952
+reviews: 95747
+size: 222365696
 website: https://www.binance.us/en/home
 repository: 
 issue: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: binanceus
 social:
-  - https://www.linkedin.com/company/binance-us
-  - https://www.facebook.com/BinanceUS
+- https://www.linkedin.com/company/binance-us
+- https://www.facebook.com/BinanceUS
 ---
 
 This is the iPhone version of {% include walletLink.html wallet='android/com.binance.us' %} and we

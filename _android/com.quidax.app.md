@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: QuidaxAfrica
 social:
-  - https://www.linkedin.com/company/quidax
-  - https://www.facebook.com/quidaxafrica
+- https://www.linkedin.com/company/quidax
+- https://www.facebook.com/quidaxafrica
 redirect_from:
 ---
 

@@ -10,7 +10,7 @@ appCountry:
 released: 2017-10-23
 updated: 2022-01-27
 version: "1.5.0"
-stars: 3.8823528
+stars: 3.9142857
 ratings: 1060
 reviews: 16
 size: 4.7M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: litefinanceeng
 social:
-  - https://www.linkedin.com/company/litefinance-official
-  - https://www.facebook.com/LiteFinancebroker
+- https://www.linkedin.com/company/litefinance-official
+- https://www.facebook.com/LiteFinancebroker
 redirect_from:
 ---
 

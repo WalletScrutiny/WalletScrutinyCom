@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: HavenPrivacy
 social:
-  - https://www.reddit.com/r/havenapp
+- https://www.reddit.com/r/havenapp
 ---
 
 **Update:** As of now, this app is not to be found on the App Store.

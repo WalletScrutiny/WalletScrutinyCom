@@ -10,8 +10,8 @@ idd: 885251393
 released: 2014-06-22
 updated: 2022-02-17
 version: "4.16"
-stars: 4.58943
-reviews: 12563
+stars: 4.58914
+reviews: 12576
 size: 83899392
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
@@ -35,9 +35,9 @@ reviewArchive:
   verdict: nonverifiable
 twitter: BRDHQ
 social:
-  - https://www.linkedin.com/company/brdhq
-  - https://www.facebook.com/brdhq
-  - https://www.reddit.com/r/brdapp
+- https://www.linkedin.com/company/brdhq
+- https://www.facebook.com/brdhq
+- https://www.reddit.com/r/brdapp
 ---
 
 **Update 2021-06-29**: The provider

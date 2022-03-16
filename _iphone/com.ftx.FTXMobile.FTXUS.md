@@ -10,8 +10,8 @@ idd: 1512655474
 released: 2020-05-21
 updated: 2022-01-28
 version: "1.1.8"
-stars: 3.50211
-reviews: 237
+stars: 3.51452
+reviews: 241
 size: 70455296
 website: 
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ftx_us
 social:
-  - https://www.facebook.com/FTXUS
+- https://www.facebook.com/FTXUS
 ---
 
 There are a total of 6 related apps that all appear to belong to the same "FTX":

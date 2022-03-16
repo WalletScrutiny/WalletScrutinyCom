@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: icynoteofficial
 social: 
-  - https://www.facebook.com/Icynote-100908298821873
+- https://www.facebook.com/Icynote-100908298821873
 ---
 
 ## Private keys can be created offline 

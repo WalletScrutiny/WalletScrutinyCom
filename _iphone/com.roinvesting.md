@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Roinvesting
 social:
-  - https://www.linkedin.com/company/roinvesting
-  - https://www.facebook.com/ROInvesting
+- https://www.linkedin.com/company/roinvesting
+- https://www.facebook.com/ROInvesting
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

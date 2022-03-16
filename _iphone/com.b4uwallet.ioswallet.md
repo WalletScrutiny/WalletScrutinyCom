@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: b4uwallet_b4u
 social:
-  - https://www.facebook.com/B4uwalletofficial
+- https://www.facebook.com/B4uwalletofficial
 ---
 
 This app is not well advertised on how the users private keys are managed.

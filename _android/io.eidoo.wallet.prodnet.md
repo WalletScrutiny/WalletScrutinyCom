@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: eidoo_io
 social:
-  - https://www.linkedin.com/company/eidoo
-  - https://www.facebook.com/eidoocrypto
-  - https://www.reddit.com/r/eidooapp
+- https://www.linkedin.com/company/eidoo
+- https://www.facebook.com/eidoocrypto
+- https://www.reddit.com/r/eidooapp
 redirect_from:
   - /io.eidoo.wallet.prodnet/
   - /posts/io.eidoo.wallet.prodnet/

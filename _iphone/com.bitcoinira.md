@@ -10,8 +10,8 @@ idd: 1534638949
 released: 2021-06-20
 updated: 2022-02-05
 version: "1.5.9"
-stars: 4.32143
-reviews: 56
+stars: 4.33333
+reviews: 57
 size: 32545792
 website: https://bitcoinira.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitcoin_ira
 social:
-  - https://www.linkedin.com/company/bitcoinira
-  - https://www.facebook.com/BitcoinIRA
+- https://www.linkedin.com/company/bitcoinira
+- https://www.facebook.com/BitcoinIRA
 ---
 
 {% include copyFromAndroid.html %}

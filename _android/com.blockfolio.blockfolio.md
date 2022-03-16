@@ -1,6 +1,6 @@
 ---
 wsId: blockfolio
-title: "FTX Crypto Exchange"
+title: "FTX: Buy & Sell Crypto"
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.blockfolio.blockfolio
 appCountry: us
 released: 2015-10-01
-updated: 2022-02-23
-version: "4.3.1"
-stars: 4.0418077
+updated: 2022-03-14
+version: "4.3.2"
+stars: 4.0282245
 ratings: 164833
-reviews: 10874
+reviews: 10929
 size: 64M
 website: https://www.blockfolio.com
 repository: 
@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nowallet
 twitter: Blockfolio
 social:
-  - https://www.facebook.com/Blockfolio
+- https://www.facebook.com/Blockfolio
 redirect_from:
   - /blockfolio/
   - /com.blockfolio.blockfolio/

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Citexofficial
 social:
-  - https://www.facebook.com/citexglobal
+- https://www.facebook.com/citexglobal
 redirect_from:
 ---
 

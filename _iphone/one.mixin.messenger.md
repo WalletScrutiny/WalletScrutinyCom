@@ -12,12 +12,12 @@ idd: 1322324266
 released: 2018-01-20
 updated: 2022-03-04
 version: "0.35.2"
-stars: 4.79545
-reviews: 264
+stars: 4.79699
+reviews: 266
 size: 66436096
 website: https://mixinmessenger.zendesk.com/
-repository: https://github.com/MixinNetwork
-issue: 
+repository: https://github.com/MixinNetwork/android-app
+issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.jpg
 bugbounty: 
 meta: ok
@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: MixinMessenger
 social:
-  - https://www.facebook.com/MixinNetwork
-  - https://www.reddit.com/r/mixin
+- https://www.facebook.com/MixinNetwork
+- https://www.reddit.com/r/mixin
 ---
 
 {% include copyFromAndroid.html %}

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: wyretrade
 social:
-  - https://www.facebook.com/Wyretrade-105994018302814
+- https://www.facebook.com/Wyretrade-105994018302814
 redirect_from:
 ---
 

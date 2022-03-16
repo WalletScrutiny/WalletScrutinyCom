@@ -4,15 +4,15 @@ title: "Cake DeFi"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16
 updated: 2022-02-27
 version: "3.3.2"
-stars: 3.7623763
+stars: 3.8019803
 ratings: 1135
-reviews: 81
+reviews: 83
 size: 42M
 website: https://cakedefi.com
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: cakedefi
 social:
-  - https://www.linkedin.com/company/cakedefi
-  - https://www.facebook.com/cakedefi
-  - https://www.reddit.com/r/cakedefi
+- https://www.linkedin.com/company/cakedefi
+- https://www.facebook.com/cakedefi
+- https://www.reddit.com/r/cakedefi
 redirect_from:
 ---
 

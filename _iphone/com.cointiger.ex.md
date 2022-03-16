@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinTigerEX
 social:
-  - https://www.facebook.com/CoinTigerEX
-  - https://www.reddit.com/r/CoinTigerExchange
+- https://www.facebook.com/CoinTigerEX
+- https://www.reddit.com/r/CoinTigerExchange
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

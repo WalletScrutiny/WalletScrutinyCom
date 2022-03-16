@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: Bitnob_official
 social:
-  - https://www.linkedin.com/company/bitnob
-  - https://www.facebook.com/bitnob
+- https://www.linkedin.com/company/bitnob
+- https://www.facebook.com/bitnob
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

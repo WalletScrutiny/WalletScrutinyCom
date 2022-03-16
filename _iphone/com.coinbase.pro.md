@@ -8,11 +8,11 @@ appId: com.coinbase.pro
 appCountry: 
 idd: 1446636681
 released: 2019-10-10
-updated: 2022-02-28
-version: "1.0.92"
-stars: 4.72183
-reviews: 162223
-size: 47597568
+updated: 2022-03-08
+version: "1.0.93"
+stars: 4.72189
+reviews: 162862
+size: 47624192
 website: https://pro.coinbase.com
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: CoinbasePro
 social:
-  - https://www.facebook.com/coinbase
+- https://www.facebook.com/coinbase
 ---
 
 On the website we read:

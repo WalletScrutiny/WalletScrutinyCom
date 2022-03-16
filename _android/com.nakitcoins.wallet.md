@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: nakitcoins
 social:
-  - https://www.facebook.com/NakitCoins
+- https://www.facebook.com/NakitCoins
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Indie_Square
 social:
-  - https://www.facebook.com/indiesquare.me
+- https://www.facebook.com/indiesquare.me
 ---
 
 {% include copyFromAndroid.html %}

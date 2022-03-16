@@ -10,9 +10,9 @@ appCountry: us
 released: 2014-09-07
 updated: 2022-03-01
 version: "8.14.2"
-stars: 4.270799
+stars: 4.2778673
 ratings: 84499
-reviews: 3445
+reviews: 3446
 size: 67M
 website: https://stormx.io/
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: stormxio
 social:
-  - https://www.linkedin.com/company/StormX
-  - https://www.facebook.com/stormxio
-  - https://www.reddit.com/r/stormxio
+- https://www.linkedin.com/company/StormX
+- https://www.facebook.com/stormxio
+- https://www.reddit.com/r/stormxio
 redirect_from:
 ---
 

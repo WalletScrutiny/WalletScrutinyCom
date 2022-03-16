@@ -10,9 +10,9 @@ appCountry:
 released: 2013-11-18
 updated: 2022-02-01
 version: "3.0.7"
-stars: 4.662879
+stars: 4.663498
 ratings: 9788
-reviews: 2027
+reviews: 2029
 size: 12M
 website: http://www.barchart.com/app
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Barchart
 social:
-  - https://www.linkedin.com/company/barchart.com-inc.
-  - https://www.facebook.com/Barchart
+- https://www.linkedin.com/company/barchart.com-inc.
+- https://www.facebook.com/Barchart
 redirect_from:
 ---
 

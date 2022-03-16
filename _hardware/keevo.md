@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: keevowallet
 social: 
-  - https://www.facebook.com/keevowallet
+- https://www.facebook.com/keevowallet
 ---
 
 One of Keevo's main advertised features is:

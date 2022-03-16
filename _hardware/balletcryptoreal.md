@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: BalletCrypto
 social: 
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
 ---
 
 **Updated Analysis 2022-01-20**

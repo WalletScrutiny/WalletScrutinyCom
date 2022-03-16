@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Cobo_Wallet
 social:
-  - https://www.linkedin.com/company/cobo-official
-  - https://www.facebook.com/coboOfficial
+- https://www.linkedin.com/company/cobo-official
+- https://www.facebook.com/coboOfficial
 redirect_from:
 ---
 

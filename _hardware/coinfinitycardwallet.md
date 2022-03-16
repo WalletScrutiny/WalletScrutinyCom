@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: CardwalletCom
 social: 
-  - https://www.linkedin.com/company/coinfinity
-  - https://www.facebook.com/cardwalletcoinfinity
+- https://www.linkedin.com/company/coinfinity
+- https://www.facebook.com/cardwalletcoinfinity
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

@@ -32,7 +32,7 @@ reviewArchive:
   verdict: reproducible
 twitter: ShapeShift_io
 social: 
-  - https://www.facebook.com/ShapeShiftPlatform
+- https://www.facebook.com/ShapeShiftPlatform
 ---
 
 Running

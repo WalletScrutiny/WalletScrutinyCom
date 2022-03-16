@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BitYard_Global
 social:
-  - https://www.linkedin.com/company/bityard
-  - https://www.facebook.com/BitYardofficial
+- https://www.linkedin.com/company/bityard
+- https://www.facebook.com/BitYardofficial
 redirect_from:
 ---
 

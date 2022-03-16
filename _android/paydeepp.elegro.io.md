@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: NikoTech
 social:
-  - https://www.linkedin.com/company/niko-technologies-ou
+- https://www.linkedin.com/company/niko-technologies-ou
 redirect_from:
   - /paydeepp.elegro.io/
   - /posts/paydeepp.elegro.io/

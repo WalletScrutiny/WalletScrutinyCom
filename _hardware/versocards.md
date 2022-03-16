@@ -16,7 +16,7 @@ website: https://versocards.com/
 shop: 
 country: US
 price: 16.99USD
-repository: https://github.com/VersoSolutions
+repository: 
 issue: 
 icon: versocards.png
 bugbounty: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: VersoCards
 social: 
+- https://github.com/VersoSolutions
 ---
 
 This hardware wallet has a companion app on Google Play named **Verso Wallet** with appID '**com.VersoSolutions.VersoApp**'. As of 2022-01-02, it is [no longer available](https://play.google.com/store/apps/details?id=com.VersoSolutions.VersoApp).

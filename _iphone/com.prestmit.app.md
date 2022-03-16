@@ -10,8 +10,8 @@ idd: 1581960714
 released: 2021-08-20
 updated: 2022-02-12
 version: "1.1.5"
-stars: 4.31963
-reviews: 219
+stars: 4.3304
+reviews: 227
 size: 115981312
 website: https://prestmit.com
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: prestmit
 social:
-  - https://www.facebook.com/prestmit
+- https://www.facebook.com/prestmit
 ---
 
 {% include copyFromAndroid.html %}

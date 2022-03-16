@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: 101Investing_eu
 social:
-  - https://www.linkedin.com/company/73520735
-  - https://www.facebook.com/101Investing
+- https://www.linkedin.com/company/73520735
+- https://www.facebook.com/101Investing
 redirect_from:
 ---
 

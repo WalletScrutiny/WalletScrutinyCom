@@ -10,11 +10,11 @@ idd: 1358230430
 released: 2018-05-25
 updated: 2022-02-16
 version: "3.36"
-stars: 4.65318
-reviews: 173
+stars: 4.63842
+reviews: 177
 size: 55087104
 website: https://alphawallet.com/
-repository: https://github.com/alphawallet
+repository: 
 issue: 
 icon: com.stormbird.alphawallet.jpg
 bugbounty: 
@@ -25,7 +25,8 @@ signer:
 reviewArchive:
 twitter: Alpha_wallet
 social:
-  - https://www.reddit.com/r/AlphaWallet
+- https://www.reddit.com/r/AlphaWallet
+- https://github.com/alphawallet
 ---
 
 {% include copyFromAndroid.html %}

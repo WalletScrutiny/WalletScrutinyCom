@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: zebpay
 social:
-  - https://www.linkedin.com/company/zebpay
-  - https://www.facebook.com/zebpay
+- https://www.linkedin.com/company/zebpay
+- https://www.facebook.com/zebpay
 redirect_from:
   - /zebpay.Application/
   - /posts/zebpay.Application/

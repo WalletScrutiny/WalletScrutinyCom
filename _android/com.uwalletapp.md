@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: utrust
 social:
-  - https://www.linkedin.com/company/utrust-payments
-  - https://www.facebook.com/utrust.io
-  - https://www.reddit.com/r/UTRUST_Official
+- https://www.linkedin.com/company/utrust-payments
+- https://www.facebook.com/utrust.io
+- https://www.reddit.com/r/UTRUST_Official
 redirect_from:
   - /com.uwalletapp/
 ---

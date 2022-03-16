@@ -10,8 +10,8 @@ idd: 1252903728
 released: 2017-07-11
 updated: 2022-03-01
 version: "7.13.3"
-stars: 4.50098
-reviews: 11757
+stars: 4.50518
+reviews: 11972
 size: 143020032
 website: https://wallet.bitcoin.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: bitcoincom
 social:
-  - https://www.facebook.com/buy.bitcoin.news
-  - https://www.reddit.com/r/btc
+- https://www.facebook.com/buy.bitcoin.news
+- https://www.reddit.com/r/btc
 ---
 
 According to

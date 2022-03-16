@@ -17,7 +17,7 @@ website:
 shop: 
 country: FR
 price: 
-repository: https://github.com/LedgerHQ
+repository: 
 issue: 
 icon: ledgerhw1.png
 bugbounty: 
@@ -28,11 +28,14 @@ signer:
 reviewArchive: 
 twitter: Ledger
 social: 
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
+- https://www.instagram.com/ledger
+- https://www.youtube.com/Ledger
+- https://www.tiktok.com/@ledger
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)
 that this wallet is discontinued and we considered it defunct. Other than that,
-it lacked a screen, so the user had no way of knowing what transaction signing
-he approved.
+it lacked a screen, so the user had no way of knowing what transaction he
+approved.

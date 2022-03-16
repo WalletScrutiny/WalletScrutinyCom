@@ -10,8 +10,8 @@ idd: 1518003605
 released: 2020-06-29
 updated: 2022-03-04
 version: "2.3.4"
-stars: 4.53271
-reviews: 642
+stars: 4.53231
+reviews: 650
 size: 42005504
 website: https://changenow.io
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: ChangeNOW_io
 social:
-  - https://www.facebook.com/ChangeNOW.io
-  - https://www.reddit.com/r/ChangeNOW_io
+- https://www.facebook.com/ChangeNOW.io
+- https://www.reddit.com/r/ChangeNOW_io
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

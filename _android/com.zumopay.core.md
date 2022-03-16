@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zumo | Crypto Wallet | Buy Bitcoin & Ether"
+title: "Zumo | Buy Bitcoin & Ether"
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 10000
 appId: com.zumopay.core
 appCountry: 
 released: 2019-10-28
-updated: 2022-01-06
-version: "3.6.0"
+updated: 2022-03-07
+version: "3.7.0"
 stars: 
 ratings: 
 reviews: 
-size: 474M
+size: 482M
 website: https://zumo.money
 repository: 
 issue: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: zumopay
 social:
-  - https://www.linkedin.com/company/zumomoney
-  - https://www.facebook.com/zumo.money
+- https://www.linkedin.com/company/zumomoney
+- https://www.facebook.com/zumo.money
 redirect_from:
   - /com.zumopay.core/
   - /posts/com.zumopay.core/

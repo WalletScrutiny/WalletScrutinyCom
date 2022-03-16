@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: ecomi_
 social: 
-  - https://www.linkedin.com/company/ecomi-technology
-  - https://www.facebook.com/ecomi.ecosystem
+- https://www.linkedin.com/company/ecomi-technology
+- https://www.facebook.com/ecomi.ecosystem
 ---
 
 ECOMI's Secure Wallet was announced on May 7, 2018 through [bitcointalk.org](https://bitcointalk.org/index.php?topic=3609319).

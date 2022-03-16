@@ -15,8 +15,8 @@ ratings:
 reviews: 
 size: Varies with device
 website: http://www.shangoapp.com
-repository: https://github.com/neogeno/shango-lightning-wallet/
-issue: 
+repository: 
+issue: https://github.com/neogeno/shango-lightning-wallet/issues/84
 icon: com.shango.png
 bugbounty: 
 meta: defunct
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: shangoapp
 social:
-  - https://www.facebook.com/shangoapp
+- https://www.facebook.com/shangoapp
 redirect_from:
   - /com.shango/
   - /posts/com.shango/

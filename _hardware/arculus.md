@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: thisisarculus
 social: 
-  - https://www.linkedin.com/company/thisisarculus
-  - https://www.facebook.com/thisisarculus
+- https://www.linkedin.com/company/thisisarculus
+- https://www.facebook.com/thisisarculus
 ---
 

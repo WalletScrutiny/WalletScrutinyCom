@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bytesmix
 social:
-  - https://www.facebook.com/bytesmix
+- https://www.facebook.com/bytesmix
 ---
 
 {% include copyFromAndroid.html %}

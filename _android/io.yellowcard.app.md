@@ -10,9 +10,9 @@ appCountry: za
 released: 2019-05-14
 updated: 2022-03-04
 version: "3.22.0"
-stars: 2.9415429
+stars: 3.33
 ratings: 4440
-reviews: 175
+reviews: 176
 size: 35M
 website: https://www.yellowcard.io/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: yellowcard_app
 social:
-  - https://www.linkedin.com/company/yellowcardapp
-  - https://www.facebook.com/yellowcardapp
+- https://www.linkedin.com/company/yellowcardapp
+- https://www.facebook.com/yellowcardapp
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bizz_coin
 social:
-  - https://www.facebook.com/BizzCoinOfficial
+- https://www.facebook.com/BizzCoinOfficial
 ---
 
 {% include copyFromAndroid.html %}

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: ByteTradeIo
 social:
-  - https://www.facebook.com/bytehubDAPP
+- https://www.facebook.com/bytehubDAPP
 ---
 
 > With ByteHub, you are able to store, send, buy or sell the most kinds of cryptocurrency available in the market. ByteHub is also a carrier for diverse third-party DAPPs. A whole blockchain ecology can be explored in one application.

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: mobimeglobal
 social:
-  - https://www.facebook.com/mobimeglobal
+- https://www.facebook.com/mobimeglobal
 ---
 
 {% include copyFromAndroid.html %}

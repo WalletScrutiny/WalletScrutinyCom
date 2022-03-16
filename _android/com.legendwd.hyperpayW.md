@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-10-25
 updated: 2022-03-05
 version: "4.1.27"
-stars: 4.356436
+stars: 4.34
 ratings: 2781
-reviews: 251
+reviews: 253
 size: 134M
 website: https://hyperpay.tech
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: HyperPay_tech
 social:
-  - https://www.facebook.com/hyperpayofficial
+- https://www.facebook.com/hyperpayofficial
 redirect_from:
   - /com.legendwd.hyperpayW/
 ---

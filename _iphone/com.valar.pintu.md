@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: pintuid
 social:
-  - https://www.facebook.com/pintucrypto
+- https://www.facebook.com/pintucrypto
 ---
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)

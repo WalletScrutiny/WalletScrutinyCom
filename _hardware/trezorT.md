@@ -37,8 +37,8 @@ reviewArchive:
   verdict: reproducible
 twitter: trezor
 social: 
-  - https://www.facebook.com/trezor.io
-  - https://www.reddit.com/r/TREZOR
+- https://www.facebook.com/trezor.io
+- https://www.reddit.com/r/TREZOR
 ---
 
 After manually testing prior versions, we now wrote a 

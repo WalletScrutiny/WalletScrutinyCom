@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: USDXwallet
 social:
-  - https://www.facebook.com/USDXwallet
-  - https://www.reddit.com/r/USDXwallet
+- https://www.facebook.com/USDXwallet
+- https://www.reddit.com/r/USDXwallet
 ---
 
 There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token)

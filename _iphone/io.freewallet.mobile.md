@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: freewallet
 social:
-  - https://www.facebook.com/freewallet.io
+- https://www.facebook.com/freewallet.io
 ---
 
 **Update 2022-01-04**: The iOS version of the app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478292560443367427). The last update however was 2019-03-18.

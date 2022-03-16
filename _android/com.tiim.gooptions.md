@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Paper Trading - Bolsa"
+title: "Paper Trading School & Game"
 altTitle: 
 authors:
 - danny

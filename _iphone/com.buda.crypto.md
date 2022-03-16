@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BudaPuntoCom
 social:
-  - https://www.linkedin.com/company/budapuntocom
-  - https://www.facebook.com/BudaPuntoCom
+- https://www.linkedin.com/company/budapuntocom
+- https://www.facebook.com/BudaPuntoCom
 ---
 
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),

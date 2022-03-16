@@ -8,11 +8,11 @@ users: 1000000
 appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
-updated: 2022-02-22
+updated: 2022-03-10
 version: "2022.1.0"
-stars: 4.184647
+stars: 4.1925464
 ratings: 26395
-reviews: 1704
+reviews: 1705
 size: 99M
 website: https://delta.app
 repository: 

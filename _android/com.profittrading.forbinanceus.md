@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ProfitTrading_
 social:
-  - https://www.facebook.com/profittradingapp
+- https://www.facebook.com/profittradingapp
 redirect_from:
 ---
 

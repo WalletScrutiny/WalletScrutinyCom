@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: inlock_token
 social:
-  - https://www.linkedin.com/company/income-locker
-  - https://www.facebook.com/incomelocker
+- https://www.linkedin.com/company/income-locker
+- https://www.facebook.com/incomelocker
 redirect_from:
 ---
 

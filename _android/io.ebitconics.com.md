@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: eBitcoinics
 social:
-  - https://www.facebook.com/eBitcoinics
+- https://www.facebook.com/eBitcoinics
 redirect_from:
 ---
 

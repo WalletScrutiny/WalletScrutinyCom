@@ -10,9 +10,9 @@ appCountry:
 released: 2019-08-08
 updated: 2022-02-17
 version: "1.25.1"
-stars: 4.6633663
+stars: 4.6732674
 ratings: 658
-reviews: 85
+reviews: 86
 size: 48M
 website: https://www.balletcrypto.com/
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BalletCrypto
 social:
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
-  - https://www.reddit.com/r/BalletCrypto
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
+- https://www.reddit.com/r/BalletCrypto
 redirect_from:
 ---
 

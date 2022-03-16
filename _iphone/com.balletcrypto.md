@@ -10,8 +10,8 @@ idd: 1474912942
 released: 2019-09-11
 updated: 2021-12-06
 version: "1.23.0"
-stars: 4.87526
-reviews: 473
+stars: 4.87631
+reviews: 477
 size: 101776384
 website: https://www.balletcrypto.com/
 repository: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: BalletCrypto
 social:
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
-  - https://www.reddit.com/r/BalletCrypto
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
+- https://www.reddit.com/r/BalletCrypto
 ---
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,

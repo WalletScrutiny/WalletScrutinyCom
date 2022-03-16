@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buy & Sell Bitcoin - Koinwa"
+title: "Koinwa: Buy, Sell, Loan Crypto"
 altTitle: 
 authors:
 - danny

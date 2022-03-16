@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: deltastock
 social:
-  - https://www.linkedin.com/company/deltastock-ad
-  - https://www.facebook.com/Deltastock
+- https://www.linkedin.com/company/deltastock-ad
+- https://www.facebook.com/Deltastock
 ---
 
 {% include copyFromAndroid.html %}

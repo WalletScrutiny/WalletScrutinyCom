@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: sparkpointio
 social:
-  - https://www.linkedin.com/company/sparkpointio
-  - https://www.facebook.com/sparkpointio
-  - https://www.reddit.com/r/SparkPoint
+- https://www.linkedin.com/company/sparkpointio
+- https://www.facebook.com/sparkpointio
+- https://www.reddit.com/r/SparkPoint
 ---
 
 {% include copyFromAndroid.html %}

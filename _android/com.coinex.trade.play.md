@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-27
 updated: 2022-02-22
 version: "3.7.0"
-stars: 4.6130137
+stars: 4.5847178
 ratings: 60269
-reviews: 947
+reviews: 949
 size: 19M
 website: https://www.coinex.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: coinexcom
 social:
-  - https://www.facebook.com/TheCoinEx
-  - https://www.reddit.com/r/Coinex
+- https://www.facebook.com/TheCoinEx
+- https://www.reddit.com/r/Coinex
 redirect_from:
   - /com.coinex.trade.play/
   - /posts/com.coinex.trade.play/

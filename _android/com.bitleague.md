@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BitLeague_Group
 social:
-  - https://www.linkedin.com/company/bitleaguegroup
-  - https://www.facebook.com/bitleaguegroup
+- https://www.linkedin.com/company/bitleaguegroup
+- https://www.facebook.com/bitleaguegroup
 redirect_from:
 ---
 

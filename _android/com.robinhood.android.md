@@ -8,11 +8,11 @@ users: 10000000
 appId: com.robinhood.android
 appCountry: us
 released: 2015-08-12
-updated: 2022-03-07
+updated: 2022-03-14
 version: "Varies with device"
-stars: 3.7967346
+stars: 3.8003044
 ratings: 445358
-reviews: 235100
+reviews: 235380
 size: Varies with device
 website: https://robinhood.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: RobinhoodApp
 social:
-  - https://www.linkedin.com/company/robinhood
-  - https://www.facebook.com/robinhoodapp
+- https://www.linkedin.com/company/robinhood
+- https://www.facebook.com/robinhoodapp
 redirect_from:
 ---
 

@@ -18,20 +18,28 @@ reviews: 17
 size: 38M
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet
-issue: https://github.com/velas/mobile-wallet/issues/62
+issue: https://github.com/velas/mobile-wallet/issues/139
 icon: com.velas.mobile_wallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2021-11-17
+verdict: nonverifiable
+date: 2022-03-11
 signer: 
 reviewArchive:
+- date: 2021-11-17
+  version: "2.2.7"
+  appHash: 
+  gitRevision: 6539923871075f8b229d39c5c4883b16973b82df
+  verdict: ftbfs
 twitter: velasblockchain
 social:
-  - https://www.linkedin.com/company/velas-ag
-  - https://www.facebook.com/velasblockchain
+- https://www.linkedin.com/company/velas-ag
+- https://www.facebook.com/velasblockchain
 redirect_from:
 ---
+
+**Update 2022-03-11**: Emanuel managed to build the latest version `2.2.7` but
+not to reproduce the version from Play Store.
 
 **Update 2021-11-17**: This app is missing build instructions. We have hope to
 see this be reproducible in the foreseeable future as the provider has ambitions

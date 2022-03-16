@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ideypay
 social:
-  - https://www.facebook.com/ideypay
+- https://www.facebook.com/ideypay
 redirect_from:
 ---
 

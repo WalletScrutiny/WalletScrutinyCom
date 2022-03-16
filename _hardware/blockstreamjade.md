@@ -28,14 +28,23 @@ signer:
 reviewArchive: 
 twitter: Blockstream
 social: 
-  - https://www.linkedin.com/company/blockstream
-  - https://www.facebook.com/Blockstream
+- https://www.linkedin.com/company/blockstream
+- https://www.facebook.com/Blockstream
 ---
+
+**Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are
+running version 0.1.32 which was released December 23rd, you might or might not
+be able to verify what you are updating to, depending on the companion app being
+updated, too or not. Check
+[this issue](https://github.com/Blockstream/Jade/issues/26#issuecomment-1047179878)
+for details.
 
 **Update 2021-11-02**: We are in touch with the provider and while the firmware
 was updated two weeks ago already, their
 [latest comment on the issue](https://github.com/Blockstream/Jade/issues/26#issuecomment-947420765)
 was a day after the last release, so we assume the problem persists.
+
+## Original Analysis
 
 {{ page.title }} is one of the newer hardware wallets but provided by
 Blockstream which is a very well known player in this space.

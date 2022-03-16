@@ -8,11 +8,11 @@ users: 100000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2022-02-14
-version: "1.5.35"
-stars: 3.9392972
+updated: 2022-03-04
+version: "1.5.38"
+stars: 4.200573
 ratings: 3291
-reviews: 1592
+reviews: 1622
 size: 41M
 website: https://pdax.ph
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: pdaxph
 social:
-  - https://www.linkedin.com/company/pdaxph
-  - https://www.facebook.com/pdaxph
+- https://www.linkedin.com/company/pdaxph
+- https://www.facebook.com/pdaxph
 redirect_from:
 ---
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-19
 updated: 2022-03-03
 version: "1.4.2"
-stars: 4.109859
+stars: 4.064067
 ratings: 75096
-reviews: 1357
+reviews: 1362
 size: 20M
 website: https://www.hotbit.io/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Hotbit_news
 social:
-  - https://www.linkedin.com/company/hotbitexchange
-  - https://www.facebook.com/hotbitexchange
+- https://www.linkedin.com/company/hotbitexchange
+- https://www.facebook.com/hotbitexchange
 redirect_from:
 ---
 

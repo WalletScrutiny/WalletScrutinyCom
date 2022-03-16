@@ -10,7 +10,7 @@ appCountry: gb
 released: 2018-07-13
 updated: 2022-03-03
 version: "3.0.57"
-stars: 3.971831
+stars: 3.9861112
 ratings: 826
 reviews: 18
 size: 18M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Alvexo_Trade
 social:
-  - https://www.linkedin.com/company/alvexo
+- https://www.linkedin.com/company/alvexo
 redirect_from:
 ---
 

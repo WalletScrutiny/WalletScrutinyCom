@@ -11,9 +11,9 @@ appCountry:
 released: 2016-02-19
 updated: 2022-03-07
 version: "8.11.0"
-stars: 4.3964424
+stars: 4.3965793
 ratings: 2452159
-reviews: 326365
+reviews: 327607
 size: 160M
 website: https://www.paypal.com/mobile
 repository: 
@@ -27,9 +27,9 @@ signer:
 reviewArchive:
 twitter: PayPal
 social:
-  - https://www.linkedin.com/company/paypal
-  - https://www.facebook.com/PayPal
-  - https://www.reddit.com/r/paypal
+- https://www.linkedin.com/company/paypal
+- https://www.facebook.com/PayPal
+- https://www.reddit.com/r/paypal
 redirect_from:
 ---
 

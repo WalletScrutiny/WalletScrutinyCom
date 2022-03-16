@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: PtpWallet
 social:
-  - https://www.facebook.com/PTPWalletPage
-  - https://www.reddit.com/r/perkscoin
+- https://www.facebook.com/PTPWalletPage
+- https://www.reddit.com/r/perkscoin
 redirect_from:
   - /com.ptpwallet/
 ---

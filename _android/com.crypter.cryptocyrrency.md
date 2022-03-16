@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-09-09
 updated: 2021-12-14
 version: "2.7.2"
-stars: 4.576871
+stars: 4.589431
 ratings: 78687
-reviews: 2527
+reviews: 2534
 size: 17M
 website: https://thecrypto.app
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: TrustSwap
 social:
-  - https://www.linkedin.com/company/TrustSwap
-  - https://www.facebook.com/TrustSwap
+- https://www.linkedin.com/company/TrustSwap
+- https://www.facebook.com/TrustSwap
 redirect_from:
 ---
 

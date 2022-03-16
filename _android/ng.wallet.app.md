@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: walletsafrica
 social:
-  - https://www.facebook.com/walletsafrica
+- https://www.facebook.com/walletsafrica
 redirect_from:
 ---
 

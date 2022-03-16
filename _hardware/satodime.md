@@ -17,7 +17,7 @@ website: https://satodime.io/
 shop: https://satochip.io/product/satodime-original/
 country: BE
 price: 25EUR
-repository: https://github.com/Toporin/Satodime-Tool/releases
+repository: https://github.com/Toporin/Satodime-Tool
 issue: 
 icon: satodime.png
 bugbounty: 
@@ -28,10 +28,10 @@ signer:
 reviewArchive: 
 twitter: satochipwallet
 social: 
-  - https://www.linkedin.com/company/satochip
-  - https://www.reddit.com/r/satochip
-  - https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
-  - https://t.me/Satochip
+- https://www.linkedin.com/company/satochip
+- https://www.reddit.com/r/satochip
+- https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
+- https://t.me/Satochip
 ---
 
 ## Product Description

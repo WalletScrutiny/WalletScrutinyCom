@@ -16,7 +16,7 @@ website: https://satochip.io
 shop: https://satochip.io/shop/
 country: BE
 price: 25EUR
-repository: https://github.com/Toporin
+repository: 
 issue: 
 icon: satochip.png
 bugbounty: 
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: satochipwallet
 social: 
-  - https://www.linkedin.com/company/satochip
+- https://www.linkedin.com/company/satochip
+- https://github.com/Toporin
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

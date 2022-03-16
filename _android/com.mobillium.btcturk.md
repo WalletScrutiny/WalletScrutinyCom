@@ -1,6 +1,6 @@
 ---
 wsId: BtcTurk
-title: "BtcTurk | Bitcoin (BTC) Al Sat"
+title: "BtcTurk| Bitcoin(BTC) Buy&Sell"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.mobillium.btcturk
 appCountry: tr
 released: 2020-05-06
-updated: 2022-03-03
+updated: 2022-03-08
 version: "1.15.1"
-stars: 4.58616
+stars: 4.5686407
 ratings: 14766
-reviews: 4500
+reviews: 4528
 size: 121M
 website: https://www.btcturk.com
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: btcturk
 social:
-  - https://www.linkedin.com/company/btcturk
-  - https://www.facebook.com/btcturk
+- https://www.linkedin.com/company/btcturk
+- https://www.facebook.com/btcturk
 redirect_from:
 ---
 

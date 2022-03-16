@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BuySellHodlApp
 social:
-  - https://www.facebook.com/groups/buysellhodl
+- https://www.facebook.com/groups/buysellhodl
 redirect_from:
   - /com.buysellhodl/
   - /posts/com.buysellhodl/

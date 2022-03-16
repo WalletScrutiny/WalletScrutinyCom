@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-14
 updated: 2022-02-09
 version: "3.4.2"
-stars: 4.892617
+stars: 4.891892
 ratings: 73042
 reviews: 87
 size: 38M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: paribucom
 social:
-  - https://www.linkedin.com/company/paribu
-  - https://www.facebook.com/paribucom
+- https://www.linkedin.com/company/paribu
+- https://www.facebook.com/paribucom
 redirect_from:
 ---
 

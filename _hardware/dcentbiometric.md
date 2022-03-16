@@ -18,7 +18,7 @@ website: https://dcentwallet.com/products/BiometricWallet
 shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
 country: KP
 price: 119USD
-repository: https://github.com/DcentWallet
+repository: 
 issue: 
 icon: dcentbiometric.png
 bugbounty: 
@@ -29,7 +29,8 @@ signer:
 reviewArchive: 
 twitter: DCENTwallets
 social: 
-  - https://www.facebook.com/DcentWalletGlobal
+- https://www.facebook.com/DcentWalletGlobal
+- https://github.com/DcentWallet
 ---
 
 ## Private keys can be created offline - ✔️

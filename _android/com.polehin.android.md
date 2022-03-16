@@ -36,7 +36,7 @@ reviewArchive:
   verdict: nosource
 twitter: polehincom
 social:
-  - https://www.facebook.com/polehincom
+- https://www.facebook.com/polehincom
 redirect_from:
   - /bitcoinwallet/
   - /com.polehin.android/

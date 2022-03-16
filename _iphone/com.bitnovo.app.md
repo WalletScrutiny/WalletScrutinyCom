@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitnovo
 social:
-  - https://www.facebook.com/BitcoinBitnovo
+- https://www.facebook.com/BitcoinBitnovo
 ---
 
 **Update 2022-01-31**: This app is not in store anymore.

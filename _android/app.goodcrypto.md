@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: GoodCryptoApp
 social:
-  - https://www.linkedin.com/company/goodcrypto
-  - https://www.facebook.com/GoodCryptoApp
-  - https://www.reddit.com/r/GoodCrypto
+- https://www.linkedin.com/company/goodcrypto
+- https://www.facebook.com/GoodCryptoApp
+- https://www.reddit.com/r/GoodCrypto
 redirect_from:
   - /app.goodcrypto/
 ---

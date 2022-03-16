@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: SticPay
 social:
-  - https://www.linkedin.com/company/sticpay
-  - https://www.facebook.com/sticpay.global
+- https://www.linkedin.com/company/sticpay
+- https://www.facebook.com/sticpay.global
 ---
 
 {% include copyFromAndroid.html %}

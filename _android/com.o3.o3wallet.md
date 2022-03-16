@@ -15,7 +15,7 @@ ratings: 474
 reviews: 13
 size: 90M
 website: https://o3.network
-repository: https://github.com/O3Labs
+repository: 
 issue: 
 icon: com.o3.o3wallet.png
 bugbounty: 
@@ -26,6 +26,7 @@ signer:
 reviewArchive:
 twitter: O3_Labs
 social:
+- https://github.com/O3Labs
 redirect_from:
 ---
 

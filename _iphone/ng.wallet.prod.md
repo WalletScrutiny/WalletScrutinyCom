@@ -12,8 +12,8 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-09-04
 version: "2.480"
-stars: 4.11503
-reviews: 113
+stars: 4.15126
+reviews: 119
 size: 63362048
 website: http://wallets.africa
 repository: 
@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: walletsafrica
 social:
-  - https://www.facebook.com/walletsafrica
+- https://www.facebook.com/walletsafrica
 ---
 
 **UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

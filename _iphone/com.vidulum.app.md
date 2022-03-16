@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: VidulumApp
 social:
-  - https://www.facebook.com/VidulumTeam
-  - https://www.reddit.com/r/VidulumOfficial
+- https://www.facebook.com/VidulumTeam
+- https://www.reddit.com/r/VidulumOfficial
 ---
 
 {% include copyFromAndroid.html %}

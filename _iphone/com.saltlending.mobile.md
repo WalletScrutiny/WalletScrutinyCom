@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: SALTlending
 social:
-  - https://www.linkedin.com/company/saltlending
-  - https://www.facebook.com/SALTLENDING
+- https://www.linkedin.com/company/saltlending
+- https://www.facebook.com/SALTLENDING
 ---
 
 {% include copyFromAndroid.html %}

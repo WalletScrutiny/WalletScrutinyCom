@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Lykke
 social:
-  - https://www.linkedin.com/company/lykke
-  - https://www.facebook.com/LykkeCity
-  - https://www.reddit.com/r/lykke
+- https://www.linkedin.com/company/lykke
+- https://www.facebook.com/LykkeCity
+- https://www.reddit.com/r/lykke
 ---
 
 Lykke appears to be a Swiss exchange:

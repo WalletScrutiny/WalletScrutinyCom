@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BexplusExchange
 social:
-  - https://www.reddit.com/r/Bexplus
+- https://www.reddit.com/r/Bexplus
 ---
 
 The Bexplus website states under the mobile wallet section "Assets Security"

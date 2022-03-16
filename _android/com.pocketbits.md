@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: PocketBitsIndia
 social:
-  - https://www.linkedin.com/company/pocketbits.in
-  - https://www.facebook.com/Pocketbits.in
+- https://www.linkedin.com/company/pocketbits.in
+- https://www.facebook.com/Pocketbits.in
 redirect_from:
 ---
 

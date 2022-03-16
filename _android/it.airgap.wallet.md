@@ -10,7 +10,7 @@ appCountry:
 released: 2018-08-06
 updated: 2022-02-23
 version: "3.16.0"
-stars: 4.0444446
+stars: 3.9777777
 ratings: 128
 reviews: 14
 size: 74M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: AirGap_it
 social:
-  - https://www.reddit.com/r/AirGap
+- https://www.reddit.com/r/AirGap
 redirect_from:
   - /it.airgap.wallet/
   - /posts/it.airgap.wallet/

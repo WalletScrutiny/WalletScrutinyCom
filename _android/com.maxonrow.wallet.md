@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: maxonrow
 social:
-  - https://www.linkedin.com/company/maxonrow
-  - https://www.facebook.com/maxonrowblockchain
+- https://www.linkedin.com/company/maxonrow
+- https://www.facebook.com/maxonrowblockchain
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Coiny_io
 social:
-  - https://www.facebook.com/coiny.io
+- https://www.facebook.com/coiny.io
 redirect_from:
 ---
 

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: jackocoins
 social:
-  - https://www.facebook.com/jackocoins
+- https://www.facebook.com/jackocoins
 redirect_from:
 ---
 

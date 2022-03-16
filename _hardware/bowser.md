@@ -16,7 +16,7 @@ website: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/blob/master/RE
 shop: 
 country: 
 price: 
-repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/blob/master/README.md
+repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet
 issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
 bugbounty: 

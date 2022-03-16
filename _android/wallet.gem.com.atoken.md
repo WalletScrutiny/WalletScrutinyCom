@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ATokenOfficial
 social:
-  - https://www.facebook.com/ATokenOfficial
+- https://www.facebook.com/ATokenOfficial
 redirect_from:
 ---
 

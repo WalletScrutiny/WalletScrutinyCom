@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitexexch
 social:
-  - https://www.linkedin.com/company/bitexworldwide
-  - https://www.facebook.com/Bitexofficial
+- https://www.linkedin.com/company/bitexworldwide
+- https://www.facebook.com/Bitexofficial
 redirect_from:
 ---
 

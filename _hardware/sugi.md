@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: SugiCard
 social: 
-  - https://www.linkedin.com/company/sugi-card
-  - https://www.facebook.com/SugiCard
+- https://www.linkedin.com/company/sugi-card
+- https://www.facebook.com/SugiCard
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

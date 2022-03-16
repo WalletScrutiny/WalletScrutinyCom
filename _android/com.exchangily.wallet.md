@@ -11,7 +11,7 @@ appCountry:
 released: 2020-02-05
 updated: 2022-03-06
 version: "2.1.45"
-stars: 4.428571
+stars: 4
 ratings: 32
 reviews: 5
 size: 17M
@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 twitter: ExchangilyC
 social:
-  - https://www.facebook.com/Exchangily-439040053240813
+- https://www.facebook.com/Exchangily-439040053240813
 redirect_from:
 ---
 

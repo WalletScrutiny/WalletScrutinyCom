@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: AsicVault
 social: 
-  - https://www.facebook.com/AsicVault
-  - https://www.reddit.com/r/AsicVaultOfficial
+- https://www.facebook.com/AsicVault
+- https://www.reddit.com/r/AsicVaultOfficial
 ---
 
 **Caution** There are [some posts](https://bitcointalk.org/index.php?topic=5186716.0) on bitcointalk.org that make one question this product. 

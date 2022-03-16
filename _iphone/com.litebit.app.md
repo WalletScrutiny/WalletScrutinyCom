@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: litebiteu
 social:
-  - https://www.linkedin.com/company/litebit
-  - https://www.facebook.com/litebiteu
+- https://www.linkedin.com/company/litebit
+- https://www.facebook.com/litebiteu
 ---
 
 > All you need is a LiteBit account.

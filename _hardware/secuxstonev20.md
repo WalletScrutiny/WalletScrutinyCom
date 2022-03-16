@@ -29,8 +29,8 @@ signer:
 reviewArchive: 
 twitter: SecuXwallet
 social: 
-  - https://www.linkedin.com/company/secuxtech
-  - https://www.facebook.com/secuxtech
+- https://www.linkedin.com/company/secuxtech
+- https://www.facebook.com/secuxtech
 ---
 
 ## Private keys can be created offline and are not sharedser

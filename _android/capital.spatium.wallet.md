@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: spatium_news
 social:
-  - https://www.linkedin.com/company/spatium-capital
-  - https://www.facebook.com/spatiumnews
+- https://www.linkedin.com/company/spatium-capital
+- https://www.facebook.com/spatiumnews
 redirect_from:
 ---
 

@@ -10,12 +10,12 @@ appCountry: us
 released: 2019-08-18
 updated: 2021-04-25
 version: "5.0"
-stars: 3.3333333
+stars: 3.4210527
 ratings: 120
 reviews: 11
 size: 65M
 website: https://www.wanchain.org
-repository: https://github.com/wanchain
+repository: 
 issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
@@ -26,12 +26,14 @@ signer:
 reviewArchive:
 twitter: wanchain_org
 social:
-  - https://www.facebook.com/wanchainfoundation
-  - https://www.reddit.com/r/wanchain
+- https://www.facebook.com/wanchainfoundation
+- https://www.reddit.com/r/wanchain
+- https://github.com/wanchain
 redirect_from:
 ---
 
-**UPDATE 2021-11-23** There's no source code for the android app on Github, making the app **not verifiable.**
+**UPDATE 2021-11-23** There's no source code for the android app on
+[their Github](https://github.com/wanchain), making the app **not verifiable.**
 
 ## App Description
 WanWallet was developed by Wanchain Foundation. It says that it supports Wanchain Galaxy Consensus Staking, which they also call "PoS Staking."

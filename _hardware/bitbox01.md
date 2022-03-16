@@ -16,7 +16,7 @@ website: https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/d
 shop: https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B06XGKQ929
 country: CH
 price: 79USD
-repository: https://github.com/digitalbitbox
+repository: 
 issue: 
 icon: bitbox01.png
 bugbounty: 
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-  - https://www.facebook.com/Shiftcrypto
+- https://www.facebook.com/Shiftcrypto
+- https://github.com/digitalbitbox
 ---
 
 This product has been superseded by the {% include walletLink.html wallet='hardware/bitBox2' verdict='true' %} device as [stated by the provider](https://shiftcrypto.support/help/en-us/16-bitbox01/143-bitbox01-end-of-sale-life-faqs) it is end of life. Bitbox1 owners can get a discount on the later bitbox2. Bitbox1 is considered discontinued.

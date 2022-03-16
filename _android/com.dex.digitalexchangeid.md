@@ -8,7 +8,7 @@ users: 50000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2022-02-22
+updated: 2022-03-10
 version: "Varies with device"
 stars: 
 ratings: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Digiexchangeid
 social:
-  - https://www.facebook.com/digitalexchangeid
+- https://www.facebook.com/digitalexchangeid
 redirect_from:
 ---
 

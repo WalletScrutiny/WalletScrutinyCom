@@ -14,7 +14,7 @@ stars: 4.60729
 reviews: 247
 size: 32574464
 website: https://protonchain.com
-repository: https://github.com/ProtonProtocol/
+repository: 
 issue: 
 icon: com.metallicus.proton.jpg
 bugbounty: 
@@ -25,8 +25,9 @@ signer:
 reviewArchive:
 twitter: protonxpr
 social:
-  - https://www.facebook.com/protonxpr
-  - https://www.reddit.com/r/ProtonChain
+- https://www.facebook.com/protonxpr
+- https://www.reddit.com/r/ProtonChain
+- https://github.com/ProtonProtocol
 ---
 
 {% include copyFromAndroid.html %}

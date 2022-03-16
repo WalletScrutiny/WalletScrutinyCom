@@ -4,7 +4,7 @@ title: "BTC VertexFX Trader"
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.hybridsolutions.btc
 appCountry: 
 released: 2020-08-24
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: VertexFXTrader
 social:
-  - https://www.linkedin.com/company/hybrid-solutions-hs-
-  - https://www.facebook.com/VertexFXTrader
+- https://www.linkedin.com/company/hybrid-solutions-hs-
+- https://www.facebook.com/VertexFXTrader
 redirect_from:
 ---
 

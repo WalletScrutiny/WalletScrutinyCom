@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: officialLPNT
 social:
-  - https://www.linkedin.com/company/official-lpnt
-  - https://www.facebook.com/officialLPNT
-  - https://www.reddit.com/r/lpntokenofficial
+- https://www.linkedin.com/company/official-lpnt
+- https://www.facebook.com/officialLPNT
+- https://www.reddit.com/r/lpntokenofficial
 redirect_from:
 ---
 

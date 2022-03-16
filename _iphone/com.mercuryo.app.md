@@ -10,8 +10,8 @@ idd: 1446533733
 released: 2019-02-08
 updated: 2022-01-17
 version: "1.81"
-stars: 4.74565
-reviews: 747
+stars: 4.74601
+reviews: 752
 size: 52049920
 website: https://mercuryo.io/
 repository: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Mercuryo_io
 social:
-  - https://www.linkedin.com/company/mercuryo-io
-  - https://www.facebook.com/mercuryo.io
-  - https://www.reddit.com/r/mercuryo
+- https://www.linkedin.com/company/mercuryo-io
+- https://www.facebook.com/mercuryo.io
+- https://www.reddit.com/r/mercuryo
 ---
 
 This app has a strong focus on cashing in and out with linked cards and low

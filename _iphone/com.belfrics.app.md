@@ -10,8 +10,8 @@ idd: 1299601017
 released: 2017-12-23
 updated: 2022-02-18
 version: "2.5.10"
-stars: 4.88889
-reviews: 27
+stars: 4.89286
+reviews: 28
 size: 25296896
 website: https://www.belfrics.io/
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: Belfrics
 social:
-  - https://www.facebook.com/Belfrics
+- https://www.facebook.com/Belfrics
 ---
 
 {% include copyFromAndroid.html %}

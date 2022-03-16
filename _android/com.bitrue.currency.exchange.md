@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-18
 updated: 2022-02-25
 version: "5.1.6"
-stars: 3.264706
+stars: 3.3366337
 ratings: 2703
-reviews: 293
+reviews: 294
 size: 42M
 website: https://www.bitrue.com/
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: BitrueOfficial
 social:
-  - https://www.facebook.com/BitrueOfficial
+- https://www.facebook.com/BitrueOfficial
 redirect_from:
   - /com.bitrue.currency.exchange/
 ---

@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: MidasProtocol
 social:
-  - https://www.facebook.com/midasprotocol.io
+- https://www.facebook.com/midasprotocol.io
 redirect_from:
 ---
 

@@ -10,8 +10,8 @@ idd: 1436169013
 released: 2018-09-21
 updated: 2022-03-05
 version: "2.2.2"
-stars: 4.80328
-reviews: 61
+stars: 4.74193
+reviews: 62
 size: 12940288
 website: 
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/baksmancom
+- https://www.facebook.com/baksmancom
 ---
 
 {% include copyFromAndroid.html %}

@@ -19,14 +19,14 @@ repository:
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-31
+date: 2022-03-14
 signer: 
 reviewArchive:
 twitter: bit_bucks
 social:
-  - https://www.facebook.com/bitbucks.io
+- https://www.facebook.com/bitbucks.io
 redirect_from:
   - /de.fuf.bitbucks/
   - /posts/de.fuf.bitbucks/

@@ -11,16 +11,16 @@ version: "v4.1.3"
 binaries: 
 dimensions: [88, 51, 9]
 weight: 30
-provider: 
-providerWebsite: 
-website: https://coinkite.com/
+provider: "Coinkite"
+providerWebsite: https://coinkite.com/
+website: https://coldcard.com/
 shop: https://store.coinkite.com/store/coldcard
 country: CA
 price: 119USD
 repository: https://github.com/Coldcard/firmware
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340
 icon: coldcardMk3.png
-bugbounty: 
+bugbounty: https://coinkite.com/responsible-disclosure
 meta: ok
 verdict: nonverifiable
 date: 2021-09-08
@@ -33,6 +33,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: COLDCARDwallet
 social: 
+- https://t.me/coldcard
 ---
 
 **Update 2021-09-07**: The provider answered our mails. Here is the full

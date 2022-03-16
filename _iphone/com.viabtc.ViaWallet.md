@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: viawallet
 social:
-  - https://www.facebook.com/ViaWallet
+- https://www.facebook.com/ViaWallet
 ---
 
 {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ idd: 1164758997
 released: 2016-11-18
 updated: 2022-02-16
 version: "6.15.0"
-stars: 4.32407
-reviews: 103702
+stars: 4.32433
+reviews: 103972
 size: 37999616
 website: https://bitflyer.com/
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitFlyer
 social:
-  - https://www.facebook.com/bitflyer
+- https://www.facebook.com/bitflyer
 ---
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.

@@ -10,7 +10,7 @@ appCountry: ru
 released: 2018-05-17
 updated: 2022-02-01
 version: "3.2.1059"
-stars: 4.7777777
+stars: 4.7826085
 ratings: 659
 reviews: 23
 size: 58M
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: ex_scudo
 social:
-  - https://www.facebook.com/exscudo
-  - https://www.reddit.com/r/EXSCUDO
+- https://www.facebook.com/exscudo
+- https://www.reddit.com/r/EXSCUDO
 redirect_from:
 ---
 

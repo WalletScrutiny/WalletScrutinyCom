@@ -10,8 +10,8 @@ idd: 1320032339
 released: 2017-12-13
 updated: 2022-01-28
 version: "4.2.0"
-stars: 3.80438
-reviews: 777
+stars: 3.80485
+reviews: 784
 size: 37517312
 website: http://www.bitcointrade.com.br/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.linkedin.com/company/bitcointrade
-  - https://www.facebook.com/BitcointradeBR
+- https://www.linkedin.com/company/bitcointrade
+- https://www.facebook.com/BitcointradeBR
 ---
 
 {% include copyFromAndroid.html %}

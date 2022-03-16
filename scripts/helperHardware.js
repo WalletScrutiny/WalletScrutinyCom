@@ -30,6 +30,7 @@ async function refreshAll() {
   })
 }
 
+// TODO: this is Play Store stuff ...
 function refreshFile(fileName) {
   const appPath = path.join(folder, fileName)
   const parts = fs.readFileSync(appPath, 'utf8').split("---")
@@ -121,7 +122,7 @@ reviewArchive: ${(header.reviewArchive || []).length > 0
     : "" }
 twitter: ${header.twitter || ""}
 social: ${(header.social || []).length > 0
-  ? "\n" + header.social.map((item) => "  - " + item).join("\n")
+  ? "\n" + header.social.map((item) => "- " + item).join("\n")
   : ""}
 ---
 

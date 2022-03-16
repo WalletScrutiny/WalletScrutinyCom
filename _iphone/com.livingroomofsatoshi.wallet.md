@@ -8,11 +8,11 @@ appId: com.livingroomofsatoshi.wallet
 appCountry: 
 idd: 1438599608
 released: 2019-05-20
-updated: 2022-02-06
-version: "1.15.0"
-stars: 2.85
-reviews: 80
-size: 30290944
+updated: 2022-03-10
+version: "1.16.5"
+stars: 2.92771
+reviews: 83
+size: 30340096
 website: https://www.walletofsatoshi.com
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: walletofsatoshi
 social:
-  - https://www.facebook.com/walletofsatoshi
+- https://www.facebook.com/walletofsatoshi
 ---
 
 This is a custodial wallet according to their website's FAQ:

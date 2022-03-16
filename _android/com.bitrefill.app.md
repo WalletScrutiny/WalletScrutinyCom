@@ -10,9 +10,9 @@ appCountry:
 released: 2018-04-10
 updated: 2022-02-25
 version: "1.30.13"
-stars: 3.4455445
+stars: 3.5
 ratings: 1039
-reviews: 122
+reviews: 125
 size: 32M
 website: https://www.bitrefill.com
 repository: 
@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: bitrefill
 social:
-  - https://www.facebook.com/bitrefill
-  - https://www.reddit.com/r/Bitrefill
+- https://www.facebook.com/bitrefill
+- https://www.reddit.com/r/Bitrefill
 redirect_from:
   - /com.bitrefill.app/
   - /posts/com.bitrefill.app/

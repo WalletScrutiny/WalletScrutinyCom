@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: Lumi_wallet
 social:
-  - https://www.facebook.com/lumiwallet
+- https://www.facebook.com/lumiwallet
 redirect_from:
   - /com.lumiwallet.android/
   - /posts/com.lumiwallet.android/

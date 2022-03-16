@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ZBG_Exchange
 social:
-  - https://www.facebook.com/ZBGofficial
+- https://www.facebook.com/ZBGofficial
 redirect_from:
 ---
 

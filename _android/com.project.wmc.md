@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.project.wmc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-05
+date: 2022-03-16
 signer: 
 reviewArchive:
 twitter: 

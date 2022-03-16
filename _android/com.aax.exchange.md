@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: AAXExchange
 social:
-  - https://www.linkedin.com/company/aax-atom-asset-exchange
-  - https://www.facebook.com/AAXExchange
-  - https://www.reddit.com/r/AAXExchange
+- https://www.linkedin.com/company/aax-atom-asset-exchange
+- https://www.facebook.com/AAXExchange
+- https://www.reddit.com/r/AAXExchange
 redirect_from:
 ---
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: atomicwallet
 social:
-  - https://www.facebook.com/atomicwallet
+- https://www.facebook.com/atomicwallet
 ---
 
 **Update 2022-01-02**: This app is no more available.

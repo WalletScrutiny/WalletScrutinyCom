@@ -1,6 +1,6 @@
 ---
 wsId: kunaio
-title: "Kuna.io — Easy way to buy&sell BTC ETH USDT"
+title: "Kuna.io— buy&sell BTC ETH USDT"
 altTitle: 
 authors:
 - danny
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: KunaExchange
 social:
-  - https://www.facebook.com/kunaexchange
+- https://www.facebook.com/kunaexchange
 redirect_from:
 ---
 

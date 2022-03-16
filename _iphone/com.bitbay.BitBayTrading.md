@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: BitBay
 social:
-  - https://www.linkedin.com/company/bitbay
-  - https://www.facebook.com/BitBay
-  - https://www.reddit.com/r/BitBayExchange
+- https://www.linkedin.com/company/bitbay
+- https://www.facebook.com/BitBay
+- https://www.reddit.com/r/BitBayExchange
 ---
 
 This app's description loses no word on who holds the keys to your coins. Their

@@ -16,7 +16,7 @@ website: https://wooko.ng/en/blue
 shop: https://wooko.ng/en/blue
 country: CH
 price: 
-repository: https://github.com/extropiescom
+repository: 
 issue: 
 icon: wookongblue.png
 bugbounty: 

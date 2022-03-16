@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-12-19
 updated: 2022-03-02
 version: "11.3.2"
-stars: 4.030075
+stars: 4
 ratings: 18096
 reviews: 275
 size: 256M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: coin98_wallet
 social:
-  - https://www.facebook.com/Coin98Wallet
+- https://www.facebook.com/Coin98Wallet
 redirect_from:
 ---
 

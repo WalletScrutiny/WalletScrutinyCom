@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2022-02-25
-version: "3.15.1"
-stars: 3.86179
-reviews: 492
-size: 124221440
+updated: 2022-03-12
+version: "3.16.1"
+stars: 3.85772
+reviews: 499
+size: 129132544
 website: https://www.bybit.com
 repository: 
 issue: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: Bybit_Official
 social:
-  - https://www.linkedin.com/company/bybitexchange
-  - https://www.facebook.com/Bybit
-  - https://www.reddit.com/r/Bybit
+- https://www.linkedin.com/company/bybitexchange
+- https://www.facebook.com/Bybit
+- https://www.reddit.com/r/Bybit
 ---
 
 > "Bybit is the World's fastest-growing and one of the largest crypto

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: BithumbOfficial
 social:
-  - https://www.facebook.com/bithumb
+- https://www.facebook.com/bithumb
 ---
 
 This app is an interface to an exchange and to our knowledge only features

@@ -10,8 +10,8 @@ idd: 1512048310
 released: 2020-05-20
 updated: 2022-02-28
 version: "1.27.1"
-stars: 4.22258
-reviews: 1860
+stars: 4.21758
+reviews: 1866
 size: 90631168
 website: https://crypto.com/defi-wallet
 repository: 
@@ -25,9 +25,9 @@ signer:
 reviewArchive:
 twitter: cryptocom
 social:
-  - https://www.linkedin.com/company/cryptocom
-  - https://www.facebook.com/CryptoComOfficial
-  - https://www.reddit.com/r/Crypto_com
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 ---
 
 {% include copyFromAndroid.html %}

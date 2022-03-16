@@ -9,7 +9,7 @@ appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
 updated: 2022-02-28
-version: "1.6.4"
+version: "1.6.5"
 stars: 
 ratings: 
 reviews: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Coinmotion
 social:
-  - https://www.linkedin.com/company/coinmotion
-  - https://www.facebook.com/coinmotion
+- https://www.linkedin.com/company/coinmotion
+- https://www.facebook.com/coinmotion
 redirect_from:
 ---
 

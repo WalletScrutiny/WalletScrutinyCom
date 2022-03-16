@@ -1,5 +1,5 @@
 ---
-wsId: DigiCafe
+wsId: 
 title: "DigiCafe - Mobile DigiByte Point of Sale"
 altTitle: 
 authors:
@@ -8,12 +8,12 @@ users: 1000
 appId: com.dgbCafe.dgbCafe
 appCountry: 
 released: 2018-11-16
-updated: 2021-05-28
-version: "2.1"
+updated: 2022-03-15
+version: "2.2"
 stars: 5
 ratings: 28
 reviews: 5
-size: 19M
+size: 17M
 website: https://www.digibytecafe.com
 repository: 
 issue: 

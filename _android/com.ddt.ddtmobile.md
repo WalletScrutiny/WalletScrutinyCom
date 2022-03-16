@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ddt.ddtmobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-05
+date: 2022-03-14
 signer: 
 reviewArchive:
 twitter: 

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: prizmbit
 social:
-  - https://www.facebook.com/prizmbit
+- https://www.facebook.com/prizmbit
 ---
 
 **Update 2022-01-02**: This app is no more available.

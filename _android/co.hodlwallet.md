@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: hodlwallet
 social:
-  - https://www.facebook.com/hodlwallet
+- https://www.facebook.com/hodlwallet
 redirect_from:
   - /co.hodlwallet/
   - /posts/co.hodlwallet/

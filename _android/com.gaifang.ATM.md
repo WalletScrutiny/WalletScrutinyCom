@@ -1,5 +1,5 @@
 ---
-wsId: ATMOption
+wsId: 
 title: "Atm option Bitcoin trading"
 altTitle: 
 authors:
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/warrant.atm.1
+- https://www.facebook.com/warrant.atm.1
 redirect_from:
 ---
 

@@ -31,8 +31,8 @@ reviewArchive:
   verdict: custodial
 twitter: yellowcard_app
 social:
-  - https://www.linkedin.com/company/yellowcardapp
-  - https://www.facebook.com/yellowcardapp
+- https://www.linkedin.com/company/yellowcardapp
+- https://www.facebook.com/yellowcardapp
 ---
 
 **Update 2021-07-26**: As it turns out, the provider has limited the

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-29
 updated: 2022-03-01
 version: "6.0.11"
-stars: 4.498753
+stars: 4.5703516
 ratings: 188391
-reviews: 708
+reviews: 715
 size: 172M
 website: https://www.okx.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: OKEx
 social:
-  - https://www.facebook.com/okexofficial
-  - https://www.reddit.com/r/OKEx
+- https://www.facebook.com/okexofficial
+- https://www.reddit.com/r/OKEx
 redirect_from:
   - /com.okinc.okex.gp/
   - /posts/com.okinc.okex.gp/

@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: shamlatech
 social:
-  - https://www.linkedin.com/company/shamlatech
-  - https://www.facebook.com/shamlatechsolutions
+- https://www.linkedin.com/company/shamlatech
+- https://www.facebook.com/shamlatechsolutions
 redirect_from:
 ---
 

@@ -8,7 +8,7 @@ users: 100000
 appId: net.bitbay.bitcoin
 appCountry: 
 released: 2018-11-19
-updated: 2022-01-05
+updated: 2022-03-14
 version: "1.1.29"
 stars: 3.4
 ratings: 1131
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: BitBay
 social:
-  - https://www.linkedin.com/company/bitbay
-  - https://www.facebook.com/BitBay
-  - https://www.reddit.com/r/BitBayExchange
+- https://www.linkedin.com/company/bitbay
+- https://www.facebook.com/BitBay
+- https://www.reddit.com/r/BitBayExchange
 redirect_from:
 ---
 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2022-01-05
-version: "2.3.1 'Doménikos'"
+updated: 2022-03-13
+version: "2.4.1 'Baldaŭ'"
 stars: 3.08
 ratings: 821
 reviews: 151

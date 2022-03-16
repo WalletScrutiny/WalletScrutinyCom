@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: xapo
 social:
-  - https://www.facebook.com/xapoapp
+- https://www.facebook.com/xapoapp
 ---
 
 **Update 2021-08-02**: Xapo discontinued this app to migrate its users to the

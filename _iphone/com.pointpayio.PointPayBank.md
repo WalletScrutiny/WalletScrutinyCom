@@ -11,8 +11,8 @@ idd: 1512836089
 released: 2020-07-30
 updated: 2022-03-01
 version: "7.0.2"
-stars: 4.80335
-reviews: 717
+stars: 4.79673
+reviews: 733
 size: 92876800
 website: https://wallet.pointpay.io
 repository: 
@@ -26,9 +26,9 @@ signer:
 reviewArchive:
 twitter: PointPay1
 social:
-  - https://www.linkedin.com/company/pointpay
-  - https://www.facebook.com/PointPayLtd
-  - https://www.reddit.com/r/PointPay
+- https://www.linkedin.com/company/pointpay
+- https://www.facebook.com/PointPayLtd
+- https://www.reddit.com/r/PointPay
 ---
 
 The PointPay Bank website has very little information about how they manage

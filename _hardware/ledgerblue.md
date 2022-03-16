@@ -16,7 +16,7 @@ website:
 shop: 
 country: FR
 price: 
-repository: https://github.com/LedgerHQ
+repository: https://github.com/LedgerHQ/app-bitcoin
 issue: 
 icon: ledgerblue.png
 bugbounty: 
@@ -27,8 +27,11 @@ signer:
 reviewArchive: 
 twitter: Ledger
 social: 
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
+- https://www.instagram.com/ledger
+- https://www.youtube.com/Ledger
+- https://www.tiktok.com/@ledger
 ---
 
 This hardware device still seems to be supported via the Ledger website, however it is not currently being promoted from the websites product range. This hardware device may soon be discontinued.

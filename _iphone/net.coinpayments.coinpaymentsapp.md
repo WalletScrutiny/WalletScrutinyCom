@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinPaymentsNET
 social:
-  - https://www.linkedin.com/company/coinpayments-inc
-  - https://www.facebook.com/CoinPayments
+- https://www.linkedin.com/company/coinpayments-inc
+- https://www.facebook.com/CoinPayments
 ---
 
 The description is not very clear but sounds a bit like this app is custodial.

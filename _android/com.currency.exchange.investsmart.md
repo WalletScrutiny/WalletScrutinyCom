@@ -8,11 +8,11 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2022-03-03
-version: "1.22.4"
-stars: 4.298077
+updated: 2022-03-12
+version: "1.22.6"
+stars: 4.366337
 ratings: 216
-reviews: 74
+reviews: 71
 size: 17M
 website: https://expcapital.com/
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: currencycom
 social:
-  - https://www.facebook.com/currencycom
-  - https://www.reddit.com/r/currencycom
+- https://www.facebook.com/currencycom
+- https://www.reddit.com/r/currencycom
 redirect_from:
 ---
 

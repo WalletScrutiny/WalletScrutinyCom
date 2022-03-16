@@ -4,12 +4,12 @@ title: "Tangem"
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
-updated: 2022-03-05
-version: "3.28"
+updated: 2022-03-15
+version: "3.29"
 stars: 4.392857
 ratings: 89
 reviews: 9
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: tangem
 social:
-  - https://www.linkedin.com/company/tangem
+- https://www.linkedin.com/company/tangem
 redirect_from:
 ---
 

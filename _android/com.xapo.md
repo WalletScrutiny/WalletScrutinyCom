@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: xapo
 social:
-  - https://www.facebook.com/xapoapp
+- https://www.facebook.com/xapoapp
 redirect_from:
   - /xapo/
   - /com.xapo/

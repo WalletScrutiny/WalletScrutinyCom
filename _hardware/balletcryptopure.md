@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: BalletCrypto
 social: 
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
 ---
 
 Similar to the Casascius coins but built to be the same size as a credit card, Ballet Crypto Pure is the next iteration of Ballet's physical bitcoin product series. It comes in denominations of 0.1, 0.025, 0.01 or 0.005 BTC. It comes in stainless steel, 24K gold-plated or plastic. Both the public address and the private keys are physically located on the card. The manufacturer assures that they [do not keep records](https://www.balletcrypto.com/en/2FKG/) of the private keys through their **Two-Factor Key Generation** (2FKG) production process:

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: PundiXLabs
 social:
-  - https://www.linkedin.com/company/pundix
-  - https://www.facebook.com/pundixlabs
+- https://www.linkedin.com/company/pundix
+- https://www.facebook.com/pundixlabs
 ---
 
 Searching the Pundix [support FAQ](https://support.pundix.com/) we find an FAQ that answers the private key managment question.

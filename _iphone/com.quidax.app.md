@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: QuidaxAfrica
 social:
-  - https://www.linkedin.com/company/quidax
-  - https://www.facebook.com/quidaxafrica
+- https://www.linkedin.com/company/quidax
+- https://www.facebook.com/quidaxafrica
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

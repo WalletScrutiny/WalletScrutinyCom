@@ -10,8 +10,8 @@ idd: 1294998195
 released: 2017-11-03
 updated: 2022-02-28
 version: "3.2.5"
-stars: 2.86517
-reviews: 89
+stars: 2.8913
+reviews: 92
 size: 398760960
 website: https://gate.io
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: gate_io
 social:
-  - https://www.facebook.com/gateioglobal
-  - https://www.reddit.com/r/GateioExchange
+- https://www.facebook.com/gateioglobal
+- https://www.reddit.com/r/GateioExchange
 ---
 
 {% include copyFromAndroid.html %}

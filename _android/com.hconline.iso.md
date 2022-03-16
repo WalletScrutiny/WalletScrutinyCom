@@ -15,7 +15,7 @@ ratings: 19
 reviews: 4
 size: 44M
 website: https://www.starteos.io
-repository: https://github.com/StarteosIO
+repository: 
 issue: 
 icon: com.hconline.iso.png
 bugbounty: 
@@ -26,7 +26,8 @@ signer:
 reviewArchive:
 twitter: Starteos
 social:
-  - https://www.facebook.com/starteos.io.7
+- https://www.facebook.com/starteos.io.7
+- https://github.com/StarteosIO
 redirect_from:
 ---
 

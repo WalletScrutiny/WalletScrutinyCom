@@ -10,8 +10,8 @@ idd: 1345101178
 released: 2018-09-14
 updated: 2022-02-28
 version: "2.8.2"
-stars: 4.29518
-reviews: 4089
+stars: 4.29392
+reviews: 4093
 size: 127497216
 website: https://metalpay.com
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: metalpaysme
 social:
-  - https://www.facebook.com/metalpaysme
-  - https://www.reddit.com/r/MetalPay
+- https://www.facebook.com/metalpaysme
+- https://www.reddit.com/r/MetalPay
 ---
 
 {% include copyFromAndroid.html %}

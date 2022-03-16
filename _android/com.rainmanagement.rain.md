@@ -8,11 +8,11 @@ users: 500000
 appId: com.rainmanagement.rain
 appCountry: bh
 released: 2018-11-02
-updated: 2022-02-22
-version: "3.0.0"
-stars: 3.5786164
+updated: 2022-03-10
+version: "3.0.6"
+stars: 3.618337
 ratings: 4531
-reviews: 2324
+reviews: 2353
 size: 169M
 website: https://rain.bh
 repository: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: rainfinancial
 social:
-  - https://www.linkedin.com/company/rainfinancial
-  - https://www.facebook.com/rainfinancial
+- https://www.linkedin.com/company/rainfinancial
+- https://www.facebook.com/rainfinancial
 redirect_from:
 ---
 

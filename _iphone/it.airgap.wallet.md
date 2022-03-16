@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: AirGap_it
 social:
-  - https://www.reddit.com/r/AirGap
+- https://www.reddit.com/r/AirGap
 ---
 
 {% include copyFromAndroid.html %}

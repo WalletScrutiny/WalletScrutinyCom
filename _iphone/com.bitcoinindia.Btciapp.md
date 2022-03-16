@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BTC_india
 social:
-  - https://www.linkedin.com/company/bitcoin-india
-  - https://www.facebook.com/Bitcoin.India.Org
+- https://www.linkedin.com/company/bitcoin-india
+- https://www.facebook.com/Bitcoin.India.Org
 ---
 
 **Update 2021-09-11**: This app is not on the App Store anymore.

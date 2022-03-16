@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: htcexodus
 social: 
-  - https://www.facebook.com/htcexodus
-  - https://www.reddit.com/r/HTCExodus
+- https://www.facebook.com/htcexodus
+- https://www.reddit.com/r/HTCExodus
 ---
 

@@ -10,8 +10,8 @@ idd: 1392398906
 released: 2018-07-05
 updated: 2022-02-10
 version: "4.2.0"
-stars: 4.42708
-reviews: 96
+stars: 4.39796
+reviews: 98
 size: 46004224
 website: http://totalcoin.io
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: 
 social:
-  - https://www.facebook.com/totalcoin.io
+- https://www.facebook.com/totalcoin.io
 ---
 
 On the wallet's website there is no claim about custodianship which makes us

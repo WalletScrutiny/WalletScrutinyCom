@@ -8,12 +8,12 @@ users: 1000
 appId: com.bitcoinsuisse.online
 appCountry: pl
 released: 2021-09-21
-updated: 2021-12-16
-version: "1.1.1"
+updated: 2022-03-04
+version: "1.1.2"
 stars: 
 ratings: 
 reviews: 
-size: 38M
+size: 33M
 website: https://www.bitcoinsuisse.com
 repository: 
 issue: 
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: BitcoinSuisseAG
 social:
-  - https://www.linkedin.com/company/bitcoin-suisse-ag
-  - https://www.facebook.com/BitcoinSuisse
+- https://www.linkedin.com/company/bitcoin-suisse-ag
+- https://www.facebook.com/BitcoinSuisse
 redirect_from:
 ---
 

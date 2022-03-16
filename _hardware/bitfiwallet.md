@@ -17,7 +17,7 @@ website: https://bitfi.com/
 shop: https://bitfi.com/order
 country: 
 price: 199USD
-repository: https://github.com/Bitfi
+repository: https://github.com/Bitfi/BitfiWallet
 issue: 
 icon: bitfiwallet.png
 bugbounty: 
@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: thebitfi
 social: 
-  - https://www.linkedin.com/company/bitfi
-  - https://www.facebook.com/TheBitfi
+- https://www.linkedin.com/company/bitfi
+- https://www.facebook.com/TheBitfi
 ---
 
 <div class="alertBox"><div>

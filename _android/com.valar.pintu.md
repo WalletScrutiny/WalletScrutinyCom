@@ -8,11 +8,11 @@ users: 1000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2022-02-15
-version: "3.11.1"
+updated: 2022-03-11
+version: "3.12.0"
 stars: 4.05
 ratings: 28130
-reviews: 83
+reviews: 84
 size: Varies with device
 website: https://pintu.co.id/
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: pintuid
 social:
-  - https://www.facebook.com/pintucrypto
+- https://www.facebook.com/pintucrypto
 redirect_from:
 ---
 

@@ -10,8 +10,8 @@ idd: 1567360326
 released: 2021-06-02
 updated: 2022-02-09
 version: "1.15"
-stars: 2.625
-reviews: 40
+stars: 2.58537
+reviews: 41
 size: 56557568
 website: https://www.koinbazar.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: koinbazar
 social:
-  - https://www.linkedin.com/company/koinbazar
-  - https://www.facebook.com/koinbazar
+- https://www.linkedin.com/company/koinbazar
+- https://www.facebook.com/koinbazar
 ---
 
 {% include copyFromAndroid.html %}

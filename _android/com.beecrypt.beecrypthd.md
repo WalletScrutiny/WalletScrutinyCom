@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: money_pipe
 social:
-  - https://www.facebook.com/moneypipewallet
+- https://www.facebook.com/moneypipewallet
 redirect_from:
 ---
 

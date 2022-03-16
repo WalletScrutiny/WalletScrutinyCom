@@ -17,7 +17,7 @@ website: https://www.skycoin.com/skywallet/
 shop: https://store.skycoin.com/products/skywallet
 country: 
 price: 39USD
-repository: https://github.com/skycoinproject
+repository: 
 issue: 
 icon: skywallet.png
 bugbounty: 
@@ -28,8 +28,9 @@ signer:
 reviewArchive: 
 twitter: skycoinproject
 social: 
-  - https://www.linkedin.com/company/skycoin
-  - https://www.facebook.com/SkycoinOfficial
+- https://www.linkedin.com/company/skycoin
+- https://www.facebook.com/SkycoinOfficial
+- https://github.com/skycoinproject
 ---
 
 As of November 29, 2021, the Skywallet is [out of stock](https://twitter.com/BitcoinWalletz/status/1465229709285859328). 

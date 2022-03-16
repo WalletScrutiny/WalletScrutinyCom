@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: klever_io
 social:
-  - https://www.facebook.com/klever.io
+- https://www.facebook.com/klever.io
 ---
 
 On their website we read:

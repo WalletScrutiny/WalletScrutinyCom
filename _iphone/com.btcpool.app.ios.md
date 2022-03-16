@@ -10,8 +10,8 @@ idd: 1490997527
 released: 2020-01-21
 updated: 2022-03-04
 version: "2.1.1"
-stars: 3.15385
-reviews: 13
+stars: 3.28571
+reviews: 14
 size: 63383552
 website: https://btc.com/
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: btccom_official
 social:
-  - https://www.linkedin.com/company/btc.com
-  - https://www.facebook.com/btccom
+- https://www.linkedin.com/company/btc.com
+- https://www.facebook.com/btccom
 ---
 
 {% include copyFromAndroid.html %}

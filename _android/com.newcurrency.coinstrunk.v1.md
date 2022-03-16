@@ -8,11 +8,11 @@ users: 10000
 appId: com.newcurrency.coinstrunk.v1
 appCountry: 
 released: 2020-10-15
-updated: 2022-02-01
-version: "1.11"
-stars: 4.0833335
+updated: 2022-03-09
+version: "1.12"
+stars: 4.0983605
 ratings: 635
-reviews: 44
+reviews: 45
 size: 6.4M
 website: http://firstdaotrust.com
 repository: 

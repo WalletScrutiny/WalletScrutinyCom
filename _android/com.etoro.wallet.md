@@ -9,11 +9,11 @@ users: 100000
 appId: com.etoro.wallet
 appCountry: 
 released: 2018-11-27
-updated: 2022-02-20
-version: "40.0.0"
-stars: 2.74
+updated: 2022-03-13
+version: "41.0.0"
+stars: 2.81
 ratings: 1122
-reviews: 88
+reviews: 89
 size: 18M
 website: https://www.etoro.com/crypto/wallet
 repository: 
@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: etoro
 social:
-  - https://www.linkedin.com/company/etoro
-  - https://www.facebook.com/eToro
+- https://www.linkedin.com/company/etoro
+- https://www.facebook.com/eToro
 redirect_from:
 ---
 

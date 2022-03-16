@@ -15,7 +15,7 @@ ratings: 169
 reviews: 5
 size: 42M
 website: https://stasis.net
-repository: https://github.com/stasisnet
+repository: 
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
@@ -26,8 +26,9 @@ signer:
 reviewArchive:
 twitter: stasisnet
 social:
-  - https://www.linkedin.com/company/stasisnet
-  - https://www.facebook.com/stasisnet
+- https://www.linkedin.com/company/stasisnet
+- https://www.facebook.com/stasisnet
+- https://github.com/stasisnet
 redirect_from:
   - /com.stasis.stasiswallet/
   - /posts/com.stasis.stasiswallet/

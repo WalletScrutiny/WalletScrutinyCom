@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinoneOfficial
 social:
-  - https://www.facebook.com/coinone
+- https://www.facebook.com/coinone
 redirect_from:
 ---
 

@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BiKiEnglish
 social:
-  - https://www.facebook.com/bikiexchange
-  - https://www.reddit.com/r/BiKi
+- https://www.facebook.com/bikiexchange
+- https://www.reddit.com/r/BiKi
 ---
 
 **Update 2022-02-25**: This app is not available anymore.

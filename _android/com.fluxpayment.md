@@ -8,12 +8,12 @@ users: 10000
 appId: com.fluxpayment
 appCountry: us
 released: 2020-09-02
-updated: 2022-03-03
-version: "2.5.91"
-stars: 4.0833335
+updated: 2022-03-09
+version: "2.6.2"
+stars: 3.8461537
 ratings: 372
-reviews: 8
-size: 80M
+reviews: 9
+size: 81M
 website: https://iflux.app
 repository: 
 issue: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ifluxdotapp
 social:
-  - https://www.linkedin.com/company/iflux-pay
+- https://www.linkedin.com/company/iflux-pay
 redirect_from:
 ---
 

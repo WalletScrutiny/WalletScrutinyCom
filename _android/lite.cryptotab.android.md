@@ -1,5 +1,5 @@
 ---
-wsId: CryptoTabLite
+wsId: 
 title: "CryptoTab Lite — Get Bitcoin in your wallet"
 altTitle: 
 authors:
@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-16
 updated: 2022-02-25
 version: "6.0.43"
-stars: 4.1709404
+stars: 4.1282053
 ratings: 22930
-reviews: 543
+reviews: 552
 size: Varies with device
 website: https://cryptocompany.site/
 repository: 

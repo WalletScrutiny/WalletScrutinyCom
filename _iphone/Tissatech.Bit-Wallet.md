@@ -10,8 +10,8 @@ idd: 1331439005
 released: 2019-02-09
 updated: 2022-02-28
 version: "4.1"
-stars: 4.82969
-reviews: 687
+stars: 4.82437
+reviews: 689
 size: 19165184
 website: 
 repository: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitwalletinc
 social:
-  - https://www.facebook.com/BitWalletInc
+- https://www.facebook.com/BitWalletInc
 ---
 
 This appears to be primarily an exchange and as there are no claims of you being

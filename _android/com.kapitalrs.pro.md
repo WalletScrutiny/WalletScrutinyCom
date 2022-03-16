@@ -31,7 +31,7 @@ reviewArchive:
   verdict: nobtc
 twitter: Kapital_RS
 social:
-  - https://www.facebook.com/kapitalRS
+- https://www.facebook.com/kapitalRS
 redirect_from:
 ---
 

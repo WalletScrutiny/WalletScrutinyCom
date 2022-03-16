@@ -43,7 +43,7 @@ reviewArchive:
   verdict: reproducible
 twitter: FOUNDATIONdvcs
 social: 
-  - https://www.linkedin.com/company/foundationdevices
+- https://www.linkedin.com/company/foundationdevices
 ---
 
 The provider released a new version. Here we try to reproduce it again, using

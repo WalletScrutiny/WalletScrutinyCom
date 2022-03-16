@@ -10,7 +10,7 @@ appCountry: bj
 released: 2018-04-23
 updated: 2021-12-10
 version: "3.0.0"
-stars: 3.590708
+stars: 3.9
 ratings: 379
 reviews: 233
 size: 39M
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: CoinUs_Official
 social:
-  - https://www.facebook.com/CoinUsOfficial
+- https://www.facebook.com/CoinUsOfficial
 redirect_from:
 ---
 

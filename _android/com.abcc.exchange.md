@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: ABCCExOfficial
 social:
-  - https://www.facebook.com/ABCC-Exchange-558472047871367
+- https://www.facebook.com/ABCC-Exchange-558472047871367
 redirect_from:
 ---
 

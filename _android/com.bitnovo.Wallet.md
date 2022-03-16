@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: bitnovo
 social:
-  - https://www.linkedin.com/company/Bitnovo
-  - https://www.facebook.com/BitcoinBitnovo
+- https://www.linkedin.com/company/Bitnovo
+- https://www.facebook.com/BitcoinBitnovo
 redirect_from:
 ---
 

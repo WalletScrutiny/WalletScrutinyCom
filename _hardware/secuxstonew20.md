@@ -28,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: SecuXwallet
 social: 
-  - https://www.linkedin.com/company/secuxtech
-  - https://www.facebook.com/secuxtech
+- https://www.linkedin.com/company/secuxtech
+- https://www.facebook.com/secuxtech
 ---
 
 The device can be paired with a mobile phone app via Bluetooth:

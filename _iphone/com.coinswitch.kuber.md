@@ -10,8 +10,8 @@ idd: 1540214951
 released: 2020-12-01
 updated: 2022-02-19
 version: "3.8.2"
-stars: 4.45747
-reviews: 38405
+stars: 4.45988
+reviews: 39170
 size: 62757888
 website: https://coinswitch.co/in
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: CoinSwitchKuber
 social:
-  - https://www.linkedin.com/company/coinswitch
-  - https://www.facebook.com/coinswitch
+- https://www.linkedin.com/company/coinswitch
+- https://www.facebook.com/coinswitch
 ---
 
 {% include copyFromAndroid.html %}

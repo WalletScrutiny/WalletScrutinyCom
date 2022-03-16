@@ -18,7 +18,7 @@ website: https://www.htcexodus.com/us/cryptophone/exodus1/
 shop: 
 country: US
 price: 
-repository: https://github.com/htczion
+repository: 
 issue: 
 icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
@@ -29,8 +29,9 @@ signer:
 reviewArchive: 
 twitter: htcexodus
 social: 
-  - https://www.facebook.com/htcexodus
-  - https://www.reddit.com/r/HTCExodus
+- https://www.facebook.com/htcexodus
+- https://www.reddit.com/r/HTCExodus
+- https://github.com/htczion
 ---
 
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.

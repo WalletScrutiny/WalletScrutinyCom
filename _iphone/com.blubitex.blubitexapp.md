@@ -8,11 +8,11 @@ appId: com.blubitex.blubitexapp
 appCountry: us
 idd: 1536104225
 released: 2020-11-09
-updated: 2021-09-11
-version: "3.1.337"
+updated: 2022-03-12
+version: "3.1.339"
 stars: 4.33333
 reviews: 3
-size: 67836928
+size: 88302592
 website: https://www.blubitex.com/
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: blubitex
 social:
-  - https://www.facebook.com/blubitexofficial
+- https://www.facebook.com/blubitexofficial
 ---
 
  {% include copyFromAndroid.html %}

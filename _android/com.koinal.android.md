@@ -9,11 +9,11 @@ users: 100000
 appId: com.koinal.android
 appCountry: gb
 released: 2020-06-04
-updated: 2022-03-02
-version: "1.2.21"
-stars: 4.8173914
+updated: 2022-03-14
+version: "1.3.1"
+stars: 4.8
 ratings: 1938
-reviews: 40
+reviews: 38
 size: 51M
 website: https://www.koinal.io
 repository: 
@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: koinal_io
 social:
-  - https://www.linkedin.com/company/koinal-io
-  - https://www.facebook.com/Koinal.io
+- https://www.linkedin.com/company/koinal-io
+- https://www.facebook.com/Koinal.io
 redirect_from:
   - /com.koinal.android/
 ---

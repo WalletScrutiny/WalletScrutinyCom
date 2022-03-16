@@ -4,7 +4,7 @@ title: "Delta Exchange - Bitcoin & Crypto Trading"
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: Delta_Exchange
 social:
-  - https://www.facebook.com/deltaexchg
-  - https://www.reddit.com/r/Delta_Exchange
+- https://www.facebook.com/deltaexchg
+- https://www.reddit.com/r/Delta_Exchange
 redirect_from:
 ---
 

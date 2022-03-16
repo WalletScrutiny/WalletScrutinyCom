@@ -27,8 +27,8 @@ signer:
 reviewArchive:
 twitter: JuBiterWallet
 social:
-  - https://www.linkedin.com/company/jubiter-wallet
-  - https://www.facebook.com/JuBiterWallet
+- https://www.linkedin.com/company/jubiter-wallet
+- https://www.facebook.com/JuBiterWallet
 redirect_from:
 ---
 

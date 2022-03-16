@@ -42,8 +42,8 @@ reviewArchive:
   verdict: reproducible
 twitter: trezor
 social: 
-  - https://www.facebook.com/trezor.io
-  - https://www.reddit.com/r/TREZOR
+- https://www.facebook.com/trezor.io
+- https://www.reddit.com/r/TREZOR
 ---
 
 For the latest firmware version, we try the same as last time, wrapped

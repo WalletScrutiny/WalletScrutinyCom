@@ -16,7 +16,7 @@ website: https://www.ngrave.io/products/zero
 shop: https://shop.ngrave.io/
 country: BE
 price: 377USD
-repository: https://github.com/ngraveio
+repository: 
 issue: 
 icon: ngravezero.png
 bugbounty: 
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: ngrave_official
 social: 
-  - https://www.linkedin.com/company/ngrave-io
-  - https://www.facebook.com/ngrave.io
+- https://www.linkedin.com/company/ngrave-io
+- https://www.facebook.com/ngrave.io
+- https://github.com/ngraveio
 ---
 
 This wallet is on pre-order and hence has not been released yet.

@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: buycoins_africa
 social:
-  - https://www.facebook.com/buycoinsafrica
+- https://www.facebook.com/buycoinsafrica
 ---
 
 This app is not on the app stores anymore and given the many scam accusations it

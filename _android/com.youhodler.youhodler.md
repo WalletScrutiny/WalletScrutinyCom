@@ -26,8 +26,8 @@ signer:
 reviewArchive:
 twitter: youhodler
 social:
-  - https://www.linkedin.com/company/youhodler
-  - https://www.facebook.com/YouHodler
+- https://www.linkedin.com/company/youhodler
+- https://www.facebook.com/YouHodler
 redirect_from:
   - /com.youhodler.youhodler/
   - /posts/com.youhodler.youhodler/

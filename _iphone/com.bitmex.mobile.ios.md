@@ -25,7 +25,7 @@ signer:
 reviewArchive:
 twitter: bitmex
 social:
-  - https://www.reddit.com/r/BitMEX
+- https://www.reddit.com/r/BitMEX
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

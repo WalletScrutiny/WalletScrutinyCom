@@ -12,12 +12,12 @@ appCountry: us
 released: 2018-05-24
 updated: 2022-03-01
 version: "0.35.2"
-stars: 4.754902
+stars: 4.757282
 ratings: 1252
 reviews: 147
 size: 30M
 website: https://mixin.one/messenger
-repository: https://github.com/MixinNetwork
+repository: https://github.com/MixinNetwork/android-app
 issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
@@ -28,8 +28,8 @@ signer:
 reviewArchive:
 twitter: MixinMessenger
 social:
-  - https://www.facebook.com/MixinNetwork
-  - https://www.reddit.com/r/mixin
+- https://www.facebook.com/MixinNetwork
+- https://www.reddit.com/r/mixin
 redirect_from:
 ---
 

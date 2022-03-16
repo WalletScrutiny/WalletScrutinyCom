@@ -10,8 +10,8 @@ idd: 1149581638
 released: 2016-10-24
 updated: 2022-03-04
 version: "12.11.4"
-stars: 3.98917
-reviews: 1385
+stars: 3.98561
+reviews: 1390
 size: 88250368
 website: https://bitpay.com
 repository: 
@@ -25,8 +25,8 @@ signer:
 reviewArchive:
 twitter: BitPay
 social:
-  - https://www.linkedin.com/company/bitpay-inc-
-  - https://www.facebook.com/BitPayOfficial
+- https://www.linkedin.com/company/bitpay-inc-
+- https://www.facebook.com/BitPayOfficial
 ---
 
 {% include copyFromAndroid.html %}
