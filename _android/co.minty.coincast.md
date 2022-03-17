@@ -8,8 +8,8 @@ users: 5000
 appId: co.minty.coincast
 appCountry: 
 released: 2021-07-18
-updated: 2022-03-05
-version: "1.2.8"
+updated: 2022-03-16
+version: "1.2.9"
 stars: 3.5454545
 ratings: 8
 reviews: 6

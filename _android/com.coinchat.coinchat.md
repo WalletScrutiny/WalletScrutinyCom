@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-20
 updated: 2020-03-11
 version: "2.0.2"
-stars: 3.6491227
+stars: 3.6964285
 ratings: 1190
-reviews: 30
+reviews: 29
 size: 30M
 website: http://www.coinchat.im
 repository: 

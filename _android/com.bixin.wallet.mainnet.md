@@ -11,9 +11,9 @@ appCountry: us
 released: 2020-09-16
 updated: 2022-02-15
 version: "2.12.3"
-stars: 4.6666665
+stars: 4.681818
 ratings: 315
-reviews: 8
+reviews: 9
 size: 69M
 website: https://onekey.so
 repository: 

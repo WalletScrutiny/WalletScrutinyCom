@@ -4,13 +4,13 @@ title: "Strike: Bitcoin & Payments"
 altTitle: 
 authors:
 
-users: 100000
+users: 500000
 appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
 updated: 2022-03-03
 version: "v113"
-stars: 4.44921
+stars: 4.4780602
 ratings: 6726
 reviews: 1256
 size: 51M

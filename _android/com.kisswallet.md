@@ -4,7 +4,7 @@ title: "Moonshine"
 altTitle: 
 authors:
 - leo
-users: 100
+users: 500
 appId: com.kisswallet
 appCountry: 
 released: 2020-02-16

@@ -4,7 +4,7 @@ title: "Bithumb"
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.btckorea.bithumb
 appCountry: 
 released: 2017-09-26

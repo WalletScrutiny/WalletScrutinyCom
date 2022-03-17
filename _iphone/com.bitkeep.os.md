@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: "BitKeep"
+title: "BitKeep: Bitcoin Crypto Wallet"
 altTitle: 
 authors:
 - leo

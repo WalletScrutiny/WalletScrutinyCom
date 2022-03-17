@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MyKobo"
+title: "MYKOBO"
 altTitle: 
 authors:
 

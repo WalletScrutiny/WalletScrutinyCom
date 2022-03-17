@@ -10,9 +10,9 @@ appCountry: ru
 released: 2019-03-07
 updated: 2020-10-30
 version: "1.11.1"
-stars: 2.900369
+stars: 2.9114392
 ratings: 2801
-reviews: 1611
+reviews: 1612
 size: 30M
 website: http://fxcoin.pro
 repository: 

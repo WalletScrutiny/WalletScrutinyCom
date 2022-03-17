@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-10-01
 updated: 2022-01-27
 version: "1.8"
-stars: 4.288889
+stars: 4.26257
 ratings: 2174
-reviews: 966
+reviews: 967
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr

@@ -11,8 +11,8 @@ idd: 1479545928
 released: 2019-09-14
 updated: 2021-09-09
 version: "2.35"
-stars: 4.31914
-reviews: 47
+stars: 4.3913
+reviews: 46
 size: 52264960
 website: http://InSense.tech
 repository: 

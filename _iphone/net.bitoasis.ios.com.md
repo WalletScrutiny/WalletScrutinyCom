@@ -10,8 +10,8 @@ idd: 1521661794
 released: 2020-07-06
 updated: 2022-03-11
 version: "1.4.3"
-stars: 4.64243
-reviews: 3521
+stars: 4.64069
+reviews: 3529
 size: 46907392
 website: https://bitoasis.net/en/home
 repository: 

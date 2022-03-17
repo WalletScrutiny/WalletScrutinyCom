@@ -8,12 +8,12 @@ users: 500
 appId: io.xbts.app
 appCountry: 
 released: 2021-04-26
-updated: 2021-12-27
-version: "0.1.23"
+updated: 2022-03-15
+version: "0.1.25"
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 17M
 website: https://app.xbts.io
 repository: 
 issue: 

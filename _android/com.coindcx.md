@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinDCX Pro: Trade BTC,ETH,SOL"
+title: "CoinDCX Pro:Crypto Trading App"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coindcx
 appCountry: 
 released: 2018-11-02
-updated: 2022-02-17
+updated: 2022-03-16
 version: "1.0.004"
-stars: 4.888889
+stars: 4.8899083
 ratings: 13567
-reviews: 160
+reviews: 161
 size: 52M
 website: https://coindcx.com
 repository: 

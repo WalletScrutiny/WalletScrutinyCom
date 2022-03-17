@@ -10,8 +10,8 @@ idd: 1550831461
 released: 2021-02-11
 updated: 2022-03-12
 version: "2.3.1"
-stars: 4.39473
-reviews: 76
+stars: 4.38961
+reviews: 77
 size: 104310784
 website: https://www.paritex.com/
 repository: 

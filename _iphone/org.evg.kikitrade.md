@@ -8,11 +8,11 @@ appId: org.evg.kikitrade
 appCountry: us
 idd: 1507120441
 released: 2020-07-28
-updated: 2022-03-03
-version: "4.2.0"
+updated: 2022-03-16
+version: "4.2.1"
 stars: 5
 reviews: 6
-size: 73057280
+size: 48386048
 website: https://www.kikitrade.com/
 repository: 
 issue: 

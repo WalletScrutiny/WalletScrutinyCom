@@ -9,11 +9,11 @@ appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
 updated: 2022-03-14
-version: "1.98.05"
-stars: 4.2156863
+version: "1.100.00"
+stars: 4.223301
 ratings: 35079
-reviews: 92
-size: 26M
+reviews: 93
+size: 27M
 website: http://latoken.com
 repository: 
 issue: 

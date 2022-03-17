@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: "BitPay - Buy Crypto"
+title: "BitPay - Secure Crypto Wallet"
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
 released: 2016-10-01
-updated: 2022-02-01
-version: "12.11.3"
-stars: 4.126866
+updated: 2022-03-08
+version: "12.11.5"
+stars: 4.124688
 ratings: 9809
-reviews: 1795
+reviews: 1796
 size: 24M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
