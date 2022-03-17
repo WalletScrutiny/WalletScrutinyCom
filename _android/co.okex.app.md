@@ -1,42 +1,39 @@
 ---
-title: "OKEX - خرید بیت کوین"
+wsId: 
+title: "اوکی اکسچنج، خرید بیت کوین و ارز دیجیتال"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: co.okex.app
-launchDate: 
-latestUpdate: 2020-12-06
-apkVersionName: "2.6.0"
-stars: 3.9
-ratings: 551
-reviews: 243
-size: 12M
+appCountry: 
+released: 2019-09-11
+updated: 2022-03-02
+version: "6.2.0"
+stars: 3.85
+ratings: 7353
+reviews: 157
+size: 8.8M
 website: https://ok-ex.co
 repository: 
 issue: 
 icon: co.okex.app.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-16
-reviewStale: false
+meta: ok
+verdict: custodial
+date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2020-11-16
-  version: 
-  apkHash: 
+  version: ""
+  appHash: 
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /co.okex.app/
 ---
-
 
 **Update:** This app appears to have disappeared from Google Play or maybe only
 from English Google Play, as it apparently was in Arab, only? If we should

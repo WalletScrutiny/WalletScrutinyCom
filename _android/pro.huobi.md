@@ -1,38 +1,36 @@
 ---
-title: "Huobi Global"
+wsId: huobi
+title: "Huobi Global: Buy BTC & SHIB"
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 5000000
 appId: pro.huobi
-launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "6.0.9"
-stars: 4.0
-ratings: 5756
-reviews: 2068
-size: 57M
-website: https://www.huobi.com/en-us
+appCountry: 
+released: 2017-11-01
+updated: 2022-03-10
+version: "6.8.4"
+stars: 4.6090226
+ratings: 31840
+reviews: 435
+size: 129M
+website: http://www.hbg.com
 repository: 
 issue: 
 icon: pro.huobi.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: HuobiGlobal
-providerLinkedIn: 
-providerFacebook: huobiglobalofficial
-providerReddit: 
-
+twitter: HuobiGlobal
+social:
+- https://www.facebook.com/huobiglobalofficial
 redirect_from:
   - /pro.huobi/
   - /posts/pro.huobi/
 ---
-
 
 Neither on Google Play nor on their website can we find a claim of a
 non-custodial part to this app. We assume it is a purely custodial interface to

@@ -1,38 +1,37 @@
 ---
-title: "Shakepay: Buy Bitcoin in Canada"
+wsId: 
+title: "Shakepay: Buy Bitcoin Canada"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.shaketh
-launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "1.6.50"
-stars: 3.6
-ratings: 2282
-reviews: 1229
-size: 75M
+appCountry: 
+released: 2018-02-20
+updated: 2022-03-08
+version: "1.8.58"
+stars: 4.4814816
+ratings: 10533
+reviews: 20
+size: 98M
 website: https://shakepay.com
 repository: 
 issue: 
 icon: com.shaketh.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: shakepay
-providerLinkedIn: 
-providerFacebook: shakepay
-providerReddit: shakepay
-
+twitter: shakepay
+social:
+- https://www.facebook.com/shakepay
+- https://www.reddit.com/r/shakepay
 redirect_from:
   - /com.shaketh/
   - /posts/com.shaketh/
 ---
-
 
 This app claims to be a wallet:
 

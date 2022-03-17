@@ -1,40 +1,39 @@
 ---
-title: "Coin Bitcoin Wallet"
+wsId: coinspace
+title: "Coin Wallet: Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.coinspace.app
-launchDate: 2015-05-01
-latestUpdate: 2020-12-22
-apkVersionName: "3.0.5"
-stars: 4.3
-ratings: 653
-reviews: 310
-size: 5.6M
-website: https://www.coin.space
+appCountry: 
+released: 2015-05-01
+updated: 2022-02-28
+version: "5.1.6"
+stars: 4.23
+ratings: 1234
+reviews: 48
+size: 6.8M
+website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace
 issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: ftbfs
 date: 2019-12-16
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: coinappwallet
-providerLinkedIn: company/coin-space
-providerFacebook: coinappwallet
-providerReddit: 
-
+twitter: coinappwallet
+social:
+- https://www.linkedin.com/company/coin-space
+- https://www.facebook.com/coinappwallet
 redirect_from:
   - /coin/
   - /com.coinspace.app/
   - /posts/2019/11/coin/
   - /posts/com.coinspace.app/
 ---
-
 
 **Update**: The provider closed
 [the issue about reproducibility](https://github.com/CoinSpace/CoinSpace/issues/30),

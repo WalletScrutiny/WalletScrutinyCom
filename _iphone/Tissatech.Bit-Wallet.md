@@ -1,33 +1,33 @@
 ---
+wsId: BitWallet
 title: "BitWallet - Buy & Sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: Tissatech.Bit-Wallet
+appCountry: 
 idd: 1331439005
 released: 2019-02-09
-updated: 2021-01-13
-version: "1.5.8"
-score: 4.87421
-reviews: 636
-size: 14898176
-developerWebsite: 
+updated: 2022-02-28
+version: "4.1"
+stars: 4.82437
+reviews: 689
+size: 19165184
+website: 
 repository: 
 issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-20
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: bitwalletinc
+social:
+- https://www.facebook.com/BitWalletInc
 ---
 
+This appears to be primarily an exchange and as there are no claims of you being
+in sole control of your funds, we have to assume it is a custodial service and
+therefore **not verifiable**.

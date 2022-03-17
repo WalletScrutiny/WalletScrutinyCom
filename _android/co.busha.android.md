@@ -1,38 +1,36 @@
 ---
-title: "Busha: Buy & Sell Bitcoin, Ethereum. Crypto Wallet"
+wsId: busha
+title: "Busha: Buy & Sell BTC, ETH"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: co.busha.android
-launchDate: 2019-01-21
-latestUpdate: 2021-01-06
-apkVersionName: "2.6.4"
-stars: 4.3
-ratings: 1680
-reviews: 1322
-size: 16M
+appCountry: 
+released: 2019-01-21
+updated: 2022-03-07
+version: "3.1.22"
+stars: 4.13
+ratings: 3575
+reviews: 106
+size: 35M
 website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.android.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-20
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: getbusha
-providerLinkedIn: 
-providerFacebook: getbusha
-providerReddit: 
-
+twitter: getbusha
+social:
+- https://www.facebook.com/getbusha
 redirect_from:
   - /co.busha.android/
   - /posts/co.busha.android/
 ---
-
 
 The description
 
@@ -42,6 +40,12 @@ The description
 
 sounds like it's an app to access an account on a custodial platform.
 
-And there is nothing on the website indicating otherwise.
+On their website they are more explicit:
+
+> **Safe & Secure**<br>
+  Our 24/7 monitoring systems, cold storage and industry-standard multi-sig
+  wallets ensure that your assets are the safest they can be.
+
+which is a list of features only relevant in a custodial context.
 
 Our verdict: **not verifiable**.

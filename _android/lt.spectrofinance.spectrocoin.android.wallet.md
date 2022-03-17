@@ -1,38 +1,35 @@
 ---
+wsId: SpectroCoin
 title: "Bitcoin Wallet by SpectroCoin"
 altTitle: 
-
+authors:
+- leo
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
-launchDate: 2014-12-05
-latestUpdate: 2020-12-18
-apkVersionName: "1.15.1"
-stars: 3.3
-ratings: 3016
-reviews: 849
-size: 11M
+appCountry: 
+released: 2014-12-05
+updated: 2022-02-21
+version: "1.18.2"
+stars: 3.7191012
+ratings: 3150
+reviews: 43
+size: 12M
 website: https://spectrocoin.com
 repository: 
 issue: 
 icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: spectrocoin
-providerLinkedIn: company/spectrocoin
-providerFacebook: spectrocoin
-providerReddit: 
-
+twitter: spectrocoin
+social:
+- https://www.linkedin.com/company/spectrocoin
+- https://www.facebook.com/spectrocoin
 redirect_from:
-  - /lt.spectrofinance.spectrocoin.android.wallet/
-  - /posts/lt.spectrofinance.spectrocoin.android.wallet/
 ---
-
 
 This part of the wallet's descriptions certainly sounds like a custodial app:
 

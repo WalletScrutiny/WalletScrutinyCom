@@ -1,37 +1,37 @@
 ---
-title: "DigiFinex - Buy & Sell Bitcoin, Crypto Trading"
+wsId: digifinex
+title: "DigiFinex - Buy BTC Memes&Meta"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.digifinex.app
-launchDate: 
-latestUpdate: 2021-01-05
-apkVersionName: "2021.01.05"
-stars: 3.9
-ratings: 2140
-reviews: 1365
+appCountry: 
+released: 2018-06-26
+updated: 2022-03-11
+version: "2022.03.11"
+stars: 5
+ratings: 4414
+reviews: 502
 size: 64M
-website: https://www.digifinex.com
+website: https://www.digifinex.com/
 repository: 
 issue: 
 icon: com.digifinex.app.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-28
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: DigiFinex
-providerLinkedIn: company/digifinex-global
-providerFacebook: digifinex.global
-providerReddit: DigiFinex
-
+twitter: DigiFinex
+social:
+- https://www.linkedin.com/company/digifinex-global
+- https://www.facebook.com/digifinex.global
+- https://www.reddit.com/r/DigiFinex
 redirect_from:
   - /com.digifinex.app/
 ---
-
 
 > DigiFinex is a world’s leading crypto finance exchange
 

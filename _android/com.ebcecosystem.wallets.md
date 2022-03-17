@@ -1,38 +1,37 @@
 ---
+wsId: 
 title: "EBC Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.ebcecosystem.wallets
-launchDate: 2018-12-07
-latestUpdate: 2019-01-30
-apkVersionName: "0.0.7"
-stars: 4.8
-ratings: 95
-reviews: 59
+appCountry: 
+released: 2018-12-07
+updated: 2019-01-30
+version: "0.0.7"
+stars: 4.7
+ratings: 97
+reviews: 61
 size: 11M
 website: https://ebc.eco
 repository: 
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-28
-reviewStale: false
+meta: defunct
+verdict: custodial
+date: 2021-11-10
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.ebcecosystem.wallets/
   - /posts/com.ebcecosystem.wallets/
 ---
 
+**Update 2021-10-26**: This app is no more.
 
 The description of this app talks about how many coins it supports and mentions
 of KYC and give the impression it is a custodial service. Their website is

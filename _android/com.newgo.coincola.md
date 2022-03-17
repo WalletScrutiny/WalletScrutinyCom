@@ -1,37 +1,37 @@
 ---
+wsId: coincola
 title: "CoinCola - Buy Bitcoin & more"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.newgo.coincola
-launchDate: 
-latestUpdate: 2020-12-31
-apkVersionName: "4.7.0"
-stars: 3.2
-ratings: 553
-reviews: 253
-size: 31M
+appCountry: 
+released: 2017-07-07
+updated: 2022-02-07
+version: "4.9.12"
+stars: 3.18
+ratings: 1597
+reviews: 79
+size: 42M
 website: https://www.coincola.com
 repository: 
 issue: 
 icon: com.newgo.coincola.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-12-03
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: CoinCola_Global
-providerLinkedIn: company/coincola
-providerFacebook: CoinCola
-providerReddit: coincolaofficial
-
+twitter: CoinCola_Global
+social:
+- https://www.linkedin.com/company/coincola
+- https://www.facebook.com/CoinCola
+- https://www.reddit.com/r/coincolaofficial
 redirect_from:
   - /com.newgo.coincola/
 ---
-
 
 > SAFE AND SECURE<br>
 > Our team uses bank-level encryption, cold storage and SSL for the highest level of security.

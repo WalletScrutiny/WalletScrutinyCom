@@ -1,38 +1,37 @@
 ---
+wsId: InfinitoWallet
 title: "Infinito Wallet - Crypto Wallet & DApp Browser"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.infinito.wallet
-launchDate: 2017-11-15
-latestUpdate: 2020-12-16
-apkVersionName: "2.35.0"
-stars: 4.0
-ratings: 2030
-reviews: 945
-size: 64M
+appCountry: 
+released: 2017-11-15
+updated: 2022-03-14
+version: "2.36.7"
+stars: 3.75
+ratings: 2198
+reviews: 111
+size: 65M
 website: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-03-30
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: Infinito_Ltd
-providerLinkedIn: company/infinitoservices/
-providerFacebook: InfinitoWallet
-providerReddit: 
-
+twitter: Infinito_Ltd
+social:
+- https://www.linkedin.com/company/infinitoservices
+- https://www.facebook.com/InfinitoWallet
 redirect_from:
   - /io.infinito.wallet/
   - /posts/io.infinito.wallet/
 ---
-
 
 Right on the Playstore description we find:
 

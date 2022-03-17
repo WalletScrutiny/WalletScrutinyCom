@@ -1,38 +1,35 @@
 ---
+wsId: 
 title: "Electroneum"
 altTitle: 
+authors:
 
 users: 1000000
 appId: com.electroneum.mobile
-launchDate: 
-latestUpdate: 2020-06-19
-apkVersionName: "4.6.5"
-stars: 3.1
-ratings: 54788
-reviews: 35784
-size: 15M
-website: 
+appCountry: 
+released: 2017-12-13
+updated: 2022-03-10
+version: "5.2.4"
+stars: 2.9653332
+ratings: 58803
+reviews: 2156
+size: 14M
+website: http://electroneum.com
 repository: 
 issue: 
 icon: com.electroneum.mobile.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nobtc
 date: 2020-06-08
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.electroneum.mobile/
   - /posts/com.electroneum.mobile/
 ---
-
 
 This app does not support storing BTC.
 

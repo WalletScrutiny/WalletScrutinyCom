@@ -1,33 +1,49 @@
 ---
+wsId: bitrefill
 title: "Bitrefill"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitrefill.bitrefill
+appCountry: 
 idd: 1378102623
 released: 2018-06-05
-updated: 2019-09-23
-version: "1.13"
-score: 4.56522
-reviews: 23
-size: 5557248
-developerWebsite: https://www.bitrefill.com
+updated: 2022-02-11
+version: "1.30.14"
+stars: 4.69697
+reviews: 99
+size: 17106944
+website: https://www.bitrefill.com
 repository: 
 issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-09-12
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+- date: 2021-05-25
+  version: "1.13"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
+twitter: bitrefill
+social:
+- https://www.facebook.com/bitrefill
+- https://www.reddit.com/r/Bitrefill
 ---
 
+**Update 2021-09-12**: This app wasn't updated for a year but appears to be
+back. Nothing changed with the former verdict.
+
+While the primary purpose of this app is to buy stuff with Bitcoin and it appears
+to be possible to use the app without putting money into it, the app also can
+hold a balance, so it appears to be a wallet. At least we take that from the
+screenshots.
+
+As the description has no claims to the contrary and we can't find anything about
+the app on their website except for a link to the Play Store, we have to assume
+it is a custodial service.
+
+Our verdict: The app is **not verifiable**.

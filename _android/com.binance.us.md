@@ -1,37 +1,36 @@
 ---
-title: "Binance.US"
+wsId: BinanceUS
+title: "‎Binance.US: BTC, ETH & Crypto"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.binance.us
-launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "2.0.4"
-stars: 2.1
-ratings: 1061
-reviews: 752
+appCountry: 
+released: 2019-12-23
+updated: 2022-03-16
+version: "2.9.6"
+stars: 2.591367
+ratings: 7187
+reviews: 4942
 size: Varies with device
 website: https://www.binance.us
 repository: 
 issue: 
 icon: com.binance.us.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: binanceus
-providerLinkedIn: company/binance-us
-providerFacebook: BinanceUS
-providerReddit: 
-
+twitter: binanceus
+social:
+- https://www.linkedin.com/company/binance-us
+- https://www.facebook.com/BinanceUS
 redirect_from:
   - /com.binance.us/
 ---
-
 
 Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on

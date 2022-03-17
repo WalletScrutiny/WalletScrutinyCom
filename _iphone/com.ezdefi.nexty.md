@@ -1,33 +1,32 @@
 ---
+wsId: ezdefi
 title: "ezDeFi-Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
+- danny
 appId: com.ezdefi.nexty
+appCountry: 
 idd: 1492046549
 released: 2019-12-18
-updated: 2020-12-30
-version: "0.2.9"
-score: 5
-reviews: 3
-size: 58009600
-developerWebsite: https://ezdefi.com/
+updated: 2022-01-17
+version: "0.4.1"
+stars: 4.2
+reviews: 20
+size: 44169216
+website: https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.nexty.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-04-26
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ezDeFi
+social:
+- https://www.facebook.com/ezdefi
 ---
 
+{% include copyFromAndroid.html %}

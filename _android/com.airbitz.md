@@ -1,33 +1,31 @@
 ---
+wsId: Airbitz
 title: "Bitcoin Wallet - Airbitz"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.airbitz
-launchDate: 2014-04-01
-latestUpdate: 2018-09-21
-apkVersionName: "2.4.12"
-stars: 3.5
-ratings: 1140
-reviews: 485
+appCountry: 
+released: 2014-04-01
+updated: 2018-09-21
+version: "2.4.12"
+stars: 3.4
+ratings: 1150
+reviews: 490
 size: 16M
 website: https://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-10
-reviewStale: true
+meta: defunct
+verdict: ftbfs
+date: 2021-12-29
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /airbitz/
   - /com.airbitz/
@@ -35,10 +33,10 @@ redirect_from:
   - /posts/com.airbitz/
 ---
 
-
 Bitcoin Wallet - Airbitz
 claims to be *non-custodial* and *open source* but being the predecessor of
-[Edge](/edge/), it gets a bit confusing here as it points to the same website
+{% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %},
+it gets a bit confusing here as it points to the same website
 for its open source:
 
 > • Open-source code. Available at https://github.com/Airbitz

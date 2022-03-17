@@ -1,37 +1,36 @@
 ---
+wsId: 
 title: "Blockchain Wallet"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.andreys.blockchainwallet
-launchDate: 
-latestUpdate: 2020-08-30
-apkVersionName: "21"
-stars: 4.8
-ratings: 1269
-reviews: 322
+appCountry: 
+released: 
+updated: 2020-08-30
+version: "21"
+stars: 4.6
+ratings: 1374
+reviews: 362
 size: 12M
 website: 
 repository: 
 issue: 
 icon: com.andreys.blockchainwallet.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
-reviewStale: false
+meta: defunct
+verdict: wip
+date: 2021-02-17
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.andreys.blockchainwallet/
 ---
 
+**Update:** This app is not on Google Play anymore
 
 This app is ... a game ... turned into a tool to collect your blockchain.com
 wallet credentials?

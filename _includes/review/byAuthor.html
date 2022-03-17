@@ -1,0 +1,11 @@
+{% if page.authors %}
+  <p><small>
+  ({% for a in page.authors %}{%
+    if forloop.index > 1 %}, {%
+    endif %}{%
+    assign author = site.authors | where: 'slug', a | first %}{%
+    if author %}<a href="/authors/{{ a }}">{{ author.short }}</a>{%
+    else %}{{ a }}{%
+    endif %}{%
+  endfor %})</small></p>
+{% endif %}

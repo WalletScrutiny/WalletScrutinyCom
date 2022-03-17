@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Nayuta - Bitcoin Lightning Wallet"
 altTitle: 
+authors:
 
 users: 500
 appId: co.nayuta.wallet
-launchDate: 
-latestUpdate: 2019-10-15
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2019-10-15
+version: "Varies with device"
 stars: 
 ratings: 
 reviews: 
@@ -16,21 +19,15 @@ repository:
 issue: 
 icon: co.nayuta.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: fewusers
 date: 2019-12-29
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
-  - /co.nayuta.wallet/
-  - /posts/co.nayuta.wallet/
 ---
 
-
+This app disappeared from Google Play before we got to have a look at it. With
+500 downloads it was not due yet.

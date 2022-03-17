@@ -1,33 +1,37 @@
 ---
-title: "Lumi Wallet"
+wsId: LumiWallet
+title: "Lumi Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.lumiwallet.HD
+appCountry: 
 idd: 1316477906
 released: 2017-12-08
-updated: 2020-12-19
-version: "3.9.1"
-score: 4.83012
-reviews: 2184
-size: 67126272
-developerWebsite: https://lumiwallet.com/
+updated: 2021-04-30
+version: "3.10.2"
+stars: 4.83039
+reviews: 3449
+size: 79925248
+website: https://lumiwallet.com/
 repository: 
 issue: 
 icon: com.lumiwallet.HD.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: defunct
+verdict: nosource
+date: 2021-06-16
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Lumi_wallet
+social:
+- https://www.facebook.com/lumiwallet
 ---
 
+**Update 2021-06-16**: It's been a few days this app is not on the App store
+anymore and it looks like it's not coming back. If it should return, please open
+an issue on our issue tracker!
+
+Just like for the Play Store version, the App Store wallet is not open source.
+The provider only shares some of the code they presumably use in the app, with
+no way of even proving this. The app is **not verifiable**.

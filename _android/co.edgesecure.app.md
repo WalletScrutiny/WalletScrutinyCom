@@ -1,33 +1,39 @@
 ---
-title: "Edge - Bitcoin, Ethereum, Monero, Ripple Wallet"
+wsId: edge
+title: "Edge - Bitcoin & Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
+- emanuel
 users: 100000
 appId: co.edgesecure.app
-launchDate: 2018-03-01
-latestUpdate: 2021-01-03
-apkVersionName: "1.19.1"
-stars: 4.0
-ratings: 2040
-reviews: 1144
-size: 36M
+appCountry: 
+released: 2018-03-01
+updated: 2022-03-03
+version: "2.12.0"
+stars: 4.3980584
+ratings: 3880
+reviews: 551
+size: 53M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-11-10
-reviewStale: true
+meta: ok
+verdict: nonverifiable
+date: 2022-03-13
 signer: 
 reviewArchive:
-
-
-providerTwitter: edgewallet
-providerLinkedIn: company/3609678
-providerFacebook: 
-providerReddit: 
-
+- date: 2019-11-10
+  version: "1.10.1"
+  appHash: 
+  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
+  verdict: ftbfs
+twitter: edgewallet
+social:
+- https://www.linkedin.com/company/edgeapp
+- https://www.reddit.com/r/EdgeWallet
 redirect_from:
   - /edge/
   - /co.edgesecure.app/
@@ -35,39 +41,12 @@ redirect_from:
   - /posts/co.edgesecure.app/
 ---
 
-
-Edge - Bitcoin, Ethereum, Monero, Ripple Wallet
-is the successor of [Airbitz](/airbitz/) and claims to be *non-custodial* and
-*open source*.
-
-The Playstore description points to [this link](https://github.com/Airbitz) as
-their open source, where we are greeted with **"This organization has no public
-repositories."**. Not good. But ... above we find `*** WE'VE MOVED. See
-github.com/EdgeApp ***` and sure enough,
-[this](https://github.com/EdgeApp/edge-react-gui) looks better.
-
-So here we have to give up for now. We cannot find any claim of verifiability of
-the builds but worse, the wording of the build
-[Requirements](https://github.com/EdgeApp/edge-react-gui#requirements) doesn't
-sound as if it was well established what was needed to successfully build the
-wallet at all.
-
-> Edge is known to build with this exact tool set. Updated versions of these toolsets may break the build or app. If you have issues, try mirroring these exact versions.
-
-Android Studio 3.1.3 is a requirement? Version 3.5.1 being the current version I
-would not be too happy to down-grade but for our standards of verification being
-easy, we would probably require the verification to be possible to automate
-meaning to at least work head-less in a docker container for example. A Docker
-container would allow to define all the versions nicely and we hope the wallet
-will provide such verification support soon.
-
-Lastly the app can currently not be verified because the playstore version
-`1.10.1` is ahead of the latest tag
-[published on GitHub](https://github.com/EdgeApp/edge-react-gui/tags) being
-`1.9.8`.
-
-
-Verdict
-=======
-
-This wallet is currently **not verifiable**.
+After prior reviews were
+{% include verdictBadge.html verdict='ftbfs' type='short' %} and should actually
+have been {% include verdictBadge.html verdict='nosource' type='short' %} for
+the code of the latest release being published only after our review, this
+wallet took a slight turn to the better:
+Emanuel managed to at least build it but unfortunately
+[the build result differed significantly](https://github.com/EdgeApp/edge-react-gui/issues/1748)
+from what they publish via Play Store. This wallet is
+**not verifiable**.

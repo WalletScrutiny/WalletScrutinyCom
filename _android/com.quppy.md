@@ -1,37 +1,36 @@
 ---
-title: "Quppy Wallet - bitcoin, crypto and euro payments"
+wsId: Quppy
+title: "Quppy: Bitcoin Сrypto wallet"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.quppy
-launchDate: 
-latestUpdate: 2020-12-22
-apkVersionName: "1.0.41"
-stars: 4.2
-ratings: 1974
-reviews: 949
-size: 15M
-website: https://quppy.com
+appCountry: 
+released: 2018-09-17
+updated: 2022-03-14
+version: "2.0.16"
+stars: 4.80531
+ratings: 3900
+reviews: 35
+size: 13M
+website: https://quppy.com/
 repository: 
 issue: 
 icon: com.quppy.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: QuppyPay
-providerLinkedIn: company/quppy
-providerFacebook: quppyPay
-providerReddit: 
-
+twitter: QuppyPay
+social:
+- https://www.linkedin.com/company/quppy
+- https://www.facebook.com/quppyPay
 redirect_from:
   - /com.quppy/
 ---
-
 
 This provider loses no word on security or where the keys are stored. We assume
 it is a custodial offering and therefore **not verifiable**.

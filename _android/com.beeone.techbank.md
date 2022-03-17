@@ -1,38 +1,40 @@
 ---
+wsId: TECHBANK
 title: "TechBank"
 altTitle: 
-
-users: 5000
+authors:
+- leo
+users: 10000
 appId: com.beeone.techbank
-launchDate: 
-latestUpdate: 2021-01-04
-apkVersionName: "3.9"
-stars: 4.6
-ratings: 331
-reviews: 136
-size: 41M
-website: https://techbank.finance
+appCountry: 
+released: 2019-07-14
+updated: 2022-02-15
+version: "4.9.11"
+stars: 4.1313133
+ratings: 700
+reviews: 43
+size: 86M
+website: https://techbank.finance/
 repository: 
 issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-30
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.beeone.techbank/
 ---
 
+They claim a million "members" and list big banks as their "acquirers" but there
+is little to back those claims. 10k downloads on Play Store and eight ratings on
+App Store don't look like a million users. The reviews on both platforms also
+are abysmal.
 
-Neither on Google Play nor their website do we found claims about this app being
+Neither on the description nor their website do we find claims about this app being
 a non-custodial wallet and as the name Tech**Bank** sounds rather custodial, we
 file it as such and conclude this app is **not verifiable**.

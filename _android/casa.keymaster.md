@@ -1,38 +1,35 @@
 ---
+wsId: casaapp
 title: "Casa App - Secure your Bitcoin"
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 10000
 appId: casa.keymaster
-launchDate: 
-latestUpdate: 2021-01-12
-apkVersionName: "2.29.2"
-stars: 4.4
-ratings: 58
-reviews: 14
-size: 29M
+appCountry: 
+released: 2019-03-01
+updated: 2022-02-10
+version: "3.10.2"
+stars: 4.53
+ratings: 204
+reviews: 21
+size: 37M
 website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-06-23
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-22
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: CasaHODL
+social:
 redirect_from:
   - /casa.keymaster/
   - /posts/casa.keymaster/
 ---
-
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
 least version `2.27.10` and inspect the code or modify it to compile it back
@@ -84,14 +81,14 @@ Lopp goes on to say:
 > Now, when we’re talking about open source versus closed source in the context
   of mobile apps, then it gets even trickier because it is difficult if not
   impossible. And in fact, we have not yet really found a way to verify the
-  build of a mobile app that is on the Apple store or the Google play store.
+  build of a mobile app that is on the Apple store or the Google Play Store.
 
 which is a direct hint to what we are doing at WalletScrutiny. Is he claiming we
 are promoting something that cannot exist? Or that he has not yet figured out,
 which given he is a professional in the space since before Bitcoin would be hard
 to believe? He explains:
 
-> The way that these mobile app stores work is that they require the
+> The way that these mobile App Stores work is that they require the
   applications to be cryptographically signed by the developers in order to get
   pushed out to the store, but the actual build process for the app, the actual
   you know, attestation of what the code that’s that’s being run on the app is

@@ -1,38 +1,37 @@
 ---
-title: "YouHodler - Crypto and Bitcoin Wallet"
+wsId: YouHodler
+title: "YouHodler - Bitcoin Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.youhodler.youhodler
-launchDate: 
-latestUpdate: 2020-12-08
-apkVersionName: "2.9.0"
-stars: 4.2
-ratings: 654
-reviews: 253
-size: 46M
+appCountry: 
+released: 2019-07-11
+updated: 2022-02-22
+version: "4.0.0"
+stars: 3.847826
+ratings: 5083
+reviews: 52
+size: 60M
 website: https://youhodler.com
 repository: 
 issue: 
 icon: com.youhodler.youhodler.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-06-20
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: youhodler
-providerLinkedIn: company/youhodler
-providerFacebook: YouHodler
-providerReddit: 
-
+twitter: youhodler
+social:
+- https://www.linkedin.com/company/youhodler
+- https://www.facebook.com/YouHodler
 redirect_from:
   - /com.youhodler.youhodler/
   - /posts/com.youhodler.youhodler/
 ---
-
 
 This app is the interface to an exchange and might have a non-custodial part to
 it but if so, it is not well advertised on their website and we assume it is

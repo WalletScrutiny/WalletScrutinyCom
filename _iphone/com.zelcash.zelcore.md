@@ -1,33 +1,31 @@
 ---
+wsId: ZelCore
 title: "ZelCore"
 altTitle: 
-
+authors:
+- leo
 appId: com.zelcash.zelcore
+appCountry: 
 idd: 1436296839
 released: 2018-09-23
-updated: 2020-12-31
-version: "v4.2.0"
-score: 4.5625
-reviews: 48
-size: 73672704
-developerWebsite: https://zel.network/zelcore
+updated: 2022-03-10
+version: "v5.13.0"
+stars: 3.70103
+reviews: 97
+size: 66026496
+website: https://zelcore.io
 repository: 
 issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: zelcash
+social:
+- https://www.reddit.com/r/ZelCash
 ---
 
+{% include copyFromAndroid.html %}

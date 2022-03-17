@@ -1,37 +1,34 @@
 ---
+wsId: 
 title: "BitShield Wallet - Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.bitshield.bitshieldwallet
-launchDate: 2020-06-09
-latestUpdate: 2020-06-19
-apkVersionName: "1.27"
-stars: 4.4
-ratings: 1103
-reviews: 620
-size: 57M
+appCountry: 
+released: 2020-06-09
+updated: 2021-04-12
+version: "1.28"
+stars: 4.8488374
+ratings: 1809
+reviews: 1245
+size: 65M
 website: https://bitshieldwallet.com
 repository: 
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-12-01
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.bitshield.bitshieldwallet/
 ---
-
 
 In this app's description we read:
 
@@ -47,7 +44,7 @@ On their website:
   deserves.
 
 which was taken almost word for word from
-[another wallet](/com.samourai.wallet/)'s website.
+{% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %}'s website.
 
 ... which leads us to wonder if the provider is also secretive about who they
 are and sure enough, no mention of the people behind this product.

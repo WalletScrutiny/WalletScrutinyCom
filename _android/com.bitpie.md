@@ -1,38 +1,43 @@
 ---
+wsId: bitpie
 title: "Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.bitpie
-launchDate: 2016-10-23
-latestUpdate: 2021-01-06
-apkVersionName: "5.0.007"
-stars: 3.8
-ratings: 668
-reviews: 340
+appCountry: 
+released: 2016-10-23
+updated: 2021-12-27
+version: "5.0.056"
+stars: 3.9038463
+ratings: 847
+reviews: 112
 size: 57M
 website: http://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-25
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-12-11
 signer: 
 reviewArchive:
-
-
-providerTwitter: BitpieWallet
-providerLinkedIn: 
-providerFacebook: BitpieOfficial
-providerReddit: BitpieWallet
-
+twitter: BitpieWallet
+social:
+- https://www.facebook.com/BitpieOfficial
+- https://www.reddit.com/r/BitpieWallet
 redirect_from:
   - /com.bitpie/
   - /posts/com.bitpie/
 ---
 
+**Update 2021-12-11**: This app recently got very bad reviews, with people who
+lost funds. On the other hand we did review their hardware wallets, that might
+be out of stock but had recent firmware updates and are indeed reproducible.
+
+## Old Analysis
 
 This app has bold claims:
 
@@ -46,9 +51,15 @@ assume it claims to be a wallet.
 What exactly does that mean? **access** to **cold wallet** sounds like an
 oxymoron assuming a cold wallet is
 defined as one that is offline. (**Update**: As we later found out, they also
-provide a hardware wallet. In how far a bluetooth connected hardware wallet can
+provide hardware wallets:
+
+* {% include walletLink.html wallet='hardware/bithdrazor' verdict='true' %}
+* {% include walletLink.html wallet='hardware/bithdwatch2' verdict='true' %}
+* {% include walletLink.html wallet='hardware/bithdwatch1' verdict='true' %}
+
+In how far a bluetooth connected hardware wallet can
 be considered a "cold" wallet is debatable though, too. But they share that
-hardware wallet's [source code](https://github.com/bithd).)
+hardware wallet's [source code](https://github.com/bithd), too.)
 
 Here there are the key words we want to read:
 

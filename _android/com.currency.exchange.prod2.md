@@ -1,38 +1,37 @@
 ---
+wsId: 
 title: "Crypto Exchange Currency.com"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 1000000
 appId: com.currency.exchange.prod2
-launchDate: 
-latestUpdate: 2020-12-24
-apkVersionName: "1.0.381"
-stars: 4.0
-ratings: 1598
-reviews: 561
-size: 17M
-website: https://currency.com
+appCountry: 
+released: 2019-04-15
+updated: 2022-03-12
+version: "1.22.6"
+stars: 
+ratings: 
+reviews: 
+size: Varies with device
+website: http://currency.com
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: currencycom
-providerLinkedIn: company/currencycom/
-providerFacebook: currencycom/
-providerReddit: 
-
+twitter: currencycom
+social:
+- https://www.linkedin.com/company/currencycom/
+- https://www.facebook.com/currencycom/
 redirect_from:
   - /com.currency.exchange.prod2/
   - /posts/com.currency.exchange.prod2/
 ---
-
 
 This is an interface for a custodial trading platform and thus **not
 verifiable**.

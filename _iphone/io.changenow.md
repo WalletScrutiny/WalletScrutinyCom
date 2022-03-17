@@ -1,33 +1,40 @@
 ---
+wsId: ChangeNOW
 title: "ChangeNOW Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 appId: io.changenow
+appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2020-11-22
-version: "1.3.0"
-score: 4.81967
-reviews: 61
-size: 20734976
-developerWebsite: 
+updated: 2022-03-16
+version: "2.4"
+stars: 4.53587
+reviews: 655
+size: 42523648
+website: https://changenow.io
 repository: 
 issue: 
 icon: io.changenow.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-24
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: ChangeNOW_io
+social:
+- https://www.facebook.com/ChangeNOW.io
+- https://www.reddit.com/r/ChangeNOW_io
 ---
 
+> We focus on simplicity and safety — the service is registration-free and non-custodial.
+
+> With ChangeNOW, you remain in full control over your digital assets.
+
+That's a claim. Let's see if it is verifiable ...
+
+There is no claim of public source anywhere and
+[neither does GitHub know](https://github.com/search?q=%22io.changenow.changenow%22)
+this app, so it's at best closed source and thus **not verifiable**.

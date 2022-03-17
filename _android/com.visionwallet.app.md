@@ -1,37 +1,34 @@
 ---
+wsId: 
 title: "VisionWallet — Crypto & Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.visionwallet.app
-launchDate: 
-latestUpdate: 2020-11-05
-apkVersionName: "1.3.2"
-stars: 4.1
-ratings: 71
-reviews: 66
+appCountry: 
+released: 2020-09-07
+updated: 2020-11-05
+version: "1.3.2"
+stars: 
+ratings: 
+reviews: 
 size: 4.9M
-website: https://visionwallet.com/en
+website: https://visionwallet.com/en/
 repository: 
 issue: 
 icon: com.visionwallet.app.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+meta: stale
+verdict: custodial
+date: 2021-11-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.visionwallet.app/
 ---
-
 
 > Passive funds accumulation (interest on the account balance)
 

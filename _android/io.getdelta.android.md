@@ -1,37 +1,34 @@
 ---
-title: "Delta - Bitcoin & Cryptocurrency Portfolio Tracker"
+wsId: getDelta
+title: "Delta Investment Portfolio Tracker"
 altTitle: 
+authors:
 
-users: 500000
+users: 1000000
 appId: io.getdelta.android
-launchDate: 
-latestUpdate: 2020-11-18
-apkVersionName: "3.6.1"
-stars: 4.5
-ratings: 17258
-reviews: 6577
-size: 59M
-website: 
+appCountry: us
+released: 2017-09-23
+updated: 2022-03-10
+version: "2022.1.0"
+stars: 4.1991787
+ratings: 26395
+reviews: 1707
+size: 99M
+website: https://delta.app
 repository: 
 issue: 
 icon: io.getdelta.android.png
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+meta: ok
+verdict: nowallet
+date: 2021-11-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /io.getdelta.android/
 ---
-
 
 This appears to be only a portfolio tracker. If it asks for your credentials for
 exchanges, it might still get into a position of pulling your funds from there.

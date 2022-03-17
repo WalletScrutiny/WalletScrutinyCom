@@ -1,33 +1,38 @@
 ---
+wsId: coincola
 title: "CoinCola – Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.coincola.beta
+appCountry: 
 idd: 1234231551
 released: 2017-06-06
-updated: 2020-12-16
-version: "4.6.1"
-score: 4.66912
-reviews: 272
-size: 165395456
-developerWebsite: https://www.coincola.com
+updated: 2022-01-27
+version: "4.8.9"
+stars: 3.71622
+reviews: 222
+size: 150128640
+website: https://www.coincola.com
 repository: 
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-24
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: CoinCola_Global
+social:
+- https://www.linkedin.com/company/coincola
+- https://www.facebook.com/CoinCola
+- https://www.reddit.com/r/coincolaofficial
 ---
 
+> SAFE AND SECURE<br>
+  Our team uses bank-level encryption, cold storage and SSL for the highest
+  level of security.
+
+Cold storage has only a meaning in the context of a custodial app. As such it
+is **not verifiable**.

@@ -1,34 +1,30 @@
 ---
+wsId: CashApp
 title: "Cash App"
 altTitle: 
-
+authors:
+- leo
 appId: com.squareup.cash
+appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2021-01-08
-version: "3.30"
-score: 4.67011
-reviews: 851122
-size: 195400704
-developerWebsite: https://cash.app
+updated: 2022-03-09
+version: "3.60.1"
+stars: 4.73179
+reviews: 2060358
+size: 252472320
+website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-12-22
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: cashapp
+social:
 ---
 
 On their website the provider claims:

@@ -1,37 +1,34 @@
 ---
+wsId: CashApp
 title: "Cash App"
 altTitle: 
-
-users: 10000000
+authors:
+- leo
+users: 50000000
 appId: com.squareup.cash
-launchDate: 
-latestUpdate: 2021-01-08
-apkVersionName: "3.30.0"
-stars: 4.2
-ratings: 298764
-reviews: 113733
-size: 25M
+appCountry: 
+released: 2013-10-15
+updated: 2022-03-07
+version: "Varies with device"
+stars: 4.578068
+ratings: 1066810
+reviews: 213604
+size: Varies with device
 website: https://cash.app
 repository: 
 issue: 
 icon: com.squareup.cash.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: cashapp
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: cashapp
+social:
 redirect_from:
   - /com.squareup.cash/
 ---
-
 
 This app is primarily a banking app:
 

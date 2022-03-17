@@ -1,33 +1,32 @@
 ---
+wsId: africa
 title: "BuyCoins - Buy Bitcoin & More"
 altTitle: 
-
+authors:
+- leo
 appId: africa.bitkoin.buycoins
+appCountry: 
 idd: 1389966202
 released: 2018-08-02
-updated: 2020-12-16
-version: "5.3.0"
-score: 3.96
-reviews: 25
-size: 59158528
-developerWebsite: https://buycoins.africa
+updated: 2021-04-17
+version: "5.6.0"
+stars: 3.73913
+reviews: 46
+size: 42137600
+website: https://buycoins.africa
 repository: 
 issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: defunct
+verdict: custodial
+date: 2021-04-22
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: buycoins_africa
+social:
+- https://www.facebook.com/buycoinsafrica
 ---
 
+This app is not on the app stores anymore and given the many scam accusations it
+might have been a scam.

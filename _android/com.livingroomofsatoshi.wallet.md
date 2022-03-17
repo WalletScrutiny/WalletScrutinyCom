@@ -1,33 +1,32 @@
 ---
+wsId: WalletofSatoshi
 title: "Wallet of Satoshi"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.livingroomofsatoshi.wallet
-launchDate: 2019-05-19
-latestUpdate: 2020-12-16
-apkVersionName: "1.10.4"
-stars: 3.8
-ratings: 239
-reviews: 138
-size: 10M
+appCountry: 
+released: 2019-05-19
+updated: 2022-03-09
+version: "1.16.5"
+stars: 3.75
+ratings: 758
+reviews: 80
+size: 23M
 website: http://www.walletofsatoshi.com
 repository: 
 issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-19
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: walletofsatoshi
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: walletofsatoshi
+social:
+- https://www.facebook.com/walletofsatoshi
 redirect_from:
   - /walletofsatoshi/
   - /com.livingroomofsatoshi.wallet/
@@ -35,11 +34,9 @@ redirect_from:
   - /posts/com.livingroomofsatoshi.wallet/
 ---
 
-
 This is a custodial wallet according to their website's FAQ:
 
 > It is a zero-configuration custodial wallet with a focus on simplicity and the
-  best possible user experience. It can be downloaded using the links at
-  walletofsatoshi.com
+  best possible user experience.
 
 and therefore **not verifiable**.

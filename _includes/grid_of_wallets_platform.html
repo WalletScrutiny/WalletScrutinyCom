@@ -1,0 +1,27 @@
+{% assign metas = "ok,stale,obsolete,defunct" | split: "," %}
+{%- assign total = 0 -%}
+{%- for post in include.platformPosts -%}
+  {%- if post.verdict == v -%}
+    {%- assign total = total | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if total > 0 -%}
+  <tr class="-filter-element -{{ include.platform }}">
+    <td>
+      <count><span class="humanised-numbers -bold"><l>{{ total }}</l></span></count>
+      <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
+    </td>
+    <td>
+      {%- for meta in metas -%}
+        {%- for post in include.platformPosts -%}
+          {%- if post.verdict == v and post.meta == meta -%}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon | default: 'noicon.png' }}" class="app_logo meta_{{ post.meta }}"
+                alt="Logo {{ post.altTitle | default: post.title }}">
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </td>
+  </tr>
+{%- endif -%}

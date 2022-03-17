@@ -7,5 +7,5 @@ image: DeBitcoinShow.jpg
 language: NL
 format: audio
 transcript: 
-link: https://www.youtube.com/watch?v=hxmkdlAYfP0?t=3223
+link: https://anchor.fm/debitcoinshow/episodes/Episode-36-Money-losing-its-meaning-ed43tk
 ---

@@ -1,0 +1,15 @@
+short: Build Error!
+title: Failed to build from source provided!
+color: '#d33100'
+redflag: true
+message: We encountered a build error while compiling from source code!
+question: Can the product be built from the source provided?
+details: >
+  Published code doesn't help much if the app fails to compile.
+
+  
+  We try to compile the published source code using the published build
+  instructions into a binary. If that fails, we might try to work around issues
+  but if we consistently fail to build the app, we give it this verdict and
+  open an issue in the issue tracker of the provider to hopefully verify their
+  app later.

@@ -1,37 +1,35 @@
 ---
-title: "Abra: Bitcoin & Crypto Wallet"
+wsId: goabra
+title: "Abra: Buy Bitcoin & Earn Yield"
 altTitle: 
-
+authors:
+- leo
 appId: com.goabra.abra
+appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2021-01-12
-version: "89.0.0"
-score: 4.56846
-reviews: 12057
-size: 125519872
-developerWebsite: 
+updated: 2022-03-07
+version: "117.0.0"
+stars: 4.57138
+reviews: 17603
+size: 120104960
+website: 
 repository: 
 issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2021-01-04
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: AbraGlobal
-providerLinkedIn: company/abra
-providerFacebook: GoAbraGlobal
-providerReddit: 
-
-redirect_from:
-
+twitter: AbraGlobal
+social:
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 ---
 
-This is the iPhone version of the
-[Android Abra Bitcoin Crypto Wallet Buy Trade Earn Interest](/android/com.plutus.wallet).
+This is the iPhone version of the Android
+{% include walletLink.html wallet='android/com.plutus.wallet' %}.
 
 Just like the Android version, this wallet is **not verifiable**.

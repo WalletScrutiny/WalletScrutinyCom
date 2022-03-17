@@ -1,33 +1,40 @@
 ---
-title: "Buy Bitcoin - Spot Wallet app"
+wsId: SpotWalletapp
+title: "Spot wallet: crypto & DeFi"
 altTitle: 
-
+authors:
+- leo
 appId: tech.spotapp.spot
+appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2021-01-08
-version: "3.0.3"
-score: 4.61018
-reviews: 2083
-size: 82849792
-developerWebsite: https://spot-bitcoin.com
+updated: 2022-03-16
+version: "4.9"
+stars: 4.64276
+reviews: 5803
+size: 121243648
+website: https://spot-bitcoin.com
 repository: 
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-14
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: spot_bitcoin
+social:
+- https://www.linkedin.com/company/spot-bitcoin
+- https://www.facebook.com/spot.bitcoin
 ---
 
+On their website we read:
+
+> **You control your Bitcoins.**<br>
+  PayPal, Coinbase & Binance control your funds. We don't. You have entire
+  control over your Bitcoins. We use the best technologies to ensure that your
+  funds are always safe.
+
+but as we cannot find any source code to check this claim, the wallet gets the
+verdict **not verifiable**.

@@ -1,38 +1,36 @@
 ---
-title: "Coinbase Pro – Bitcoin & Crypto Trading"
+wsId: coinbasepro
+title: "Coinbase Pro: Trade BTC, ETH"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.coinbase.pro
-launchDate: 
-latestUpdate: 2021-01-14
-apkVersionName: "1.0.57"
-stars: 1.7
-ratings: 2594
-reviews: 1820
-size: 34M
-website: https://pro.coinbase.com
+appCountry: 
+released: 2020-01-06
+updated: 2022-03-08
+version: "1.0.93"
+stars: 2.897436
+ratings: 22040
+reviews: 4253
+size: 57M
+website: http://pro.coinbase.com/
 repository: 
 issue: 
-icon: com.coinbase.pro.png
+icon: com.coinbase.pro.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: CoinbasePro
-providerLinkedIn: 
-providerFacebook: coinbase
-providerReddit: 
-
+twitter: CoinbasePro
+social:
+- https://www.facebook.com/coinbase
 redirect_from:
   - /com.coinbase.pro/
   - /posts/com.coinbase.pro/
 ---
-
 
 This is the interface for a trading platform aka exchange. The funds are stored
 with the provider. As a custodial service it is **not verifiable**.

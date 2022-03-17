@@ -1,33 +1,46 @@
 ---
+wsId: 
 title: "Electrum Bitcoin Wallet"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: org.electrum.electrum
-launchDate: 2016-03-02
-latestUpdate: 2020-12-18
-apkVersionName: "4.0.9.0"
-stars: 3.5
-ratings: 1980
-reviews: 1197
-size: 20M
+appCountry: 
+released: 2016-03-02
+updated: 2021-07-19
+version: "4.1.5.0"
+stars: 3.43
+ratings: 2500
+reviews: 277
+size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: https://github.com/spesmilo/electrum/issues/5839
+issue: https://github.com/spesmilo/electrum/issues/7640
 icon: org.electrum.electrum.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-11
-reviewStale: true
+meta: ok
+verdict: nonverifiable
+date: 2022-01-21
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+- date: 2021-07-19
+  version: "4.1.5.0"
+  appHash: de25614cc8f8fa20262f20df816634a349cf796b3e4cf026087e4dec12c15231
+  gitRevision: 3af3091090e37747e1b3f2690dd37c5097645fa2
+  verdict: reproducible
+- date: 2021-06-18
+  version: "4.1.4"
+  appHash: fffa9a1c27ee6d6bd1d90e8008fe53ba960d19137964b93968d68ec7a4f04433
+  gitRevision: 409a7b42b7975b50077de60a0fe096a13fed2d12
+  verdict: reproducible
+- date: 2021-06-10
+  version: "3.3.7"
+  appHash: 
+  gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
+  verdict: nonverifiable
+twitter: ElectrumWallet
+social:
 redirect_from:
   - /electrum/
   - /org.electrum.electrum/
@@ -35,157 +48,178 @@ redirect_from:
   - /posts/org.electrum.electrum/
 ---
 
-
-Electrum is around since 2011 in its various flavors and many projects came from
-this open source project.
-
-In the description we are pointed to their repository at
-[this repository](https://github.com/spesmilo/electrum) where we are referred to
-[this Readme.md](https://github.com/spesmilo/electrum/blob/master/electrum/gui/kivy/Readme.md).
-
-And there we read:
-
-> This script does not produce reproducible output (yet!). Please help us remedy
-this.
-
-We gave it a try anyway and ran:
+With the updated test script:
 
 ```
-git clone git@github.com:spesmilo/electrum.git
-cd electrum
-git tag
-git checkout 3.3.7
-docker build -t electrum-android-builder-img electrum/gui/kivy/tools
-./contrib/pull_locale
-./contrib/make_packages
-mkdir --parents $PWD/.buildozer/.gradle
-docker run -it --rm --name electrum-android-builder-cont \
-  --volume $PWD:/home/user/wspace/electrum \
-  --volume $PWD/.buildozer/.gradle:/home/user/.gradle \
-  --volume ~/.keystore:/home/user/.keystore \
-  --workdir /home/user/wspace/electrum \
-  electrum-android-builder-img ./contrib/make_apk
-cd bin/
-apktool d -o fromPlayStore 'Electrum 3.3.7.0 (org.electrum.electrum).apk'
-apktool d -o fromBuild Electrum-3.3.7.0-debug.apk
-diff from* -r --brief | wc -l
+===== Begin Results =====
+appId:          org.electrum.electrum
+signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
+apkVersionName: 4.1.5.0
+apkVersionCode: 34010500
+verdict:        
+appHash:        3b5011c575ba0646855f8686e7952fe3a4da70ca009082dd6a683bc12de529ca
+commit:         d8d2c180aafaec1ae9bc68c27a7d780df8de4348
+
+Diff:
+Files /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3 and /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3 differ
+Only in /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.RSA
+Only in /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF: CERT.SF
+Files /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/META-INF/MANIFEST.MF and /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/META-INF/MANIFEST.MF differ
+
+Revision, tag (and its signature):
+object d8d2c180aafaec1ae9bc68c27a7d780df8de4348
+type commit
+tag 4.1.5
+tagger ThomasV <thomasv@electrum.org> 1626708974 +0200
+
+4.1.5
+===== End Results =====
 ```
 
-The apk we got at this point was ... a debug build and thus it is no big
-surprise to find **1362** files to differ.
+which looks good except for the file `assets/private.mp3` which differs.
 
-Running the docker command again but with `./contrib/make_apk release` turned
-out complicated, too. Even after copying a keystore with a known password to
-`~/.keystore/` and providing the script with the password, we get this kind of
-cryptic error:
+To inspect this further, `diffoscope` is a great tool that "understands" many
+formats:
 
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">$ docker run -it --rm \
-    --name electrum-android-builder-cont \
-    -v $PWD:/home/user/wspace/electrum \
-    -v $PWD/.buildozer/.gradle:/home/user/.gradle \
-    -v ~/.keystore:/home/user/.keystore \
-    --workdir /home/user/wspace/electrum \
-    electrum-android-builder-img \
-    ./contrib/make_apk release
-~/wspace/electrum/electrum/gui/kivy ~/wspace/electrum
-python3 -m kivy.atlas theming/light 1024 theming/light/*.png
-[<font color="#C4A000"><b>WARNING</b></font>] [Config      ] Older configuration version detected (0 instead of 21)
-[<font color="#C4A000"><b>WARNING</b></font>] [Config      ] Upgrading configuration in progress.
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Logger      ] Record log in /home/user/.kivy/logs/kivy_19-12-11_0.txt
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Kivy        ] v1.11.1
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Kivy        ] Installed at &quot;/usr/lib/python3/dist-packages/kivy/__init__.py&quot;
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Python      ] v3.6.9 (default, Nov  7 2019, 10:44:02)
-[GCC 8.3.0]
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Python      ] Interpreter at &quot;/usr/bin/python3&quot;
-[<font color="#4E9A06"><b>INFO</b></font>   ] [Atlas       ] create an 1024x1024 rgba image
-Atlas created at theming/light.atlas
-1 image has been created
-Keystore Password:make[1]: Entering directory &apos;/home/user/wspace/electrum/electrum/gui/kivy&apos;
-# running pre build setup
-# copy electrum to main.py
-make[1]: Leaving directory &apos;/home/user/wspace/electrum/electrum/gui/kivy&apos;
-<font color="#06989A"># Check configuration tokens</font>
-<font color="#06989A"># Ensure build layout</font>
-<font color="#06989A"># Check configuration tokens</font>
-<font color="#06989A"># Preparing build</font>
-<font color="#06989A"># Check requirements for android</font>
-<font color="#06989A"># Install platform</font>
-<font color="#06989A"># Android ANT is missing, downloading</font>
-<font color="#06989A"># Apache ANT installation done.</font>
-<font color="#06989A"># Android SDK found at /opt/android/android-sdk</font>
-<font color="#06989A"># Android NDK found at /opt/android/android-ndk-r17c</font>
-<font color="#06989A"># Check application requirements</font>
-<font color="#06989A"># Check garden requirements</font>
-<font color="#06989A"># Compile platform</font>
-<font color="#06989A"># Build the application #4</font>
-<font color="#06989A"># Package the application</font>
-<font color="#06989A"># Gradle project detected, copy files /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java</font>
-copy electrum/gui/kivy/data/java-classes/ to /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java/
-copy electrum/gui/kivy/data/java-classes/org to /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java/org
-copy electrum/gui/kivy/data/java-classes/org/electrum to /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java/org/electrum
-copy electrum/gui/kivy/data/java-classes/org/electrum/qr to /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java/org/electrum/qr
-copy electrum/gui/kivy/data/java-classes/org/electrum/qr/SimpleScannerActivity.java to /home/user/wspace/electrum/.buildozer/android/platform/build/dists/Electrum/src/main/java/org/electrum/qr/SimpleScannerActivity.java
-<font color="#CC0000"># Command failed: /usr/bin/python3 -m pythonforandroid.toolchain apk --debug --bootstrap=sdl2 --dist_name Electrum --name Electrum --version 3.3.7.0 --package org.electrum.electrum --android_api 28 --minsdk 21 --ndk-api 21 --private /home/user/wspace/electrum/.buildozer/android/app --permission INTERNET --permission CAMERA --add-activity org.electrum.qr.SimpleScannerActivity --presplash /home/user/wspace/electrum/./electrum/gui/icons/electrum_presplash.png --icon /home/user/wspace/electrum/./electrum/gui/icons/electrum_launcher.png --orientation portrait --window --intent-filters /home/user/wspace/electrum/electrum/gui/kivy/tools/bitcoin_intent.xml --activity-launch-mode singleTask --release --sign --copy-libs --depend me.dm7.barcodescanner:zxing:1.9.8 --arch armeabi-v7a --color=always --storage-dir=&quot;/home/user/wspace/electrum/.buildozer/android/platform/build&quot; --ndk-api=21</font>
-<font color="#CC0000"># ENVIRONMENT:</font>
-<font color="#CC0000">#     USER = &apos;user&apos;</font>
-<font color="#CC0000">#     P4A_RELEASE_KEYSTORE = &apos;/home/user/.keystore&apos;</font>
-<font color="#CC0000">#     LANGUAGE = &apos;en_US.UTF-8&apos;</font>
-<font color="#CC0000">#     ANDROID_SDK_HOME = &apos;/opt/android/android-sdk&apos;</font>
-<font color="#CC0000">#     HOSTNAME = &apos;f48b0ed2034d&apos;</font>
-<font color="#CC0000">#     WORK_DIR = &apos;/home/user/wspace&apos;</font>
-<font color="#CC0000">#     SHLVL = &apos;1&apos;</font>
-<font color="#CC0000">#     HOME = &apos;/home/user&apos;</font>
-<font color="#CC0000">#     P4A_RELEASE_KEYALIAS = &apos;electrum&apos;</font>
-<font color="#CC0000">#     OLDPWD = &apos;/home/user/wspace/electrum/electrum/gui/kivy&apos;</font>
-<font color="#CC0000">#     ANDROID_SDK_BUILD_TOOLS_VERSION = &apos;28.0.3&apos;</font>
-<font color="#CC0000">#     MAKEFLAGS = &apos;&apos;</font>
-<font color="#CC0000">#     HOME_DIR = &apos;/home/user&apos;</font>
-<font color="#CC0000">#     ANDROID_SDK_TOOLS_VERSION = &apos;4333796&apos;</font>
-<font color="#CC0000">#     MAKE_TERMERR = &apos;/dev/pts/0&apos;</font>
-<font color="#CC0000">#     ANDROID_SDK_TOOLS_ARCHIVE = &apos;sdk-tools-linux-4333796.zip&apos;</font>
-<font color="#CC0000">#     _ = &apos;/usr/bin/make&apos;</font>
-<font color="#CC0000">#     P4A_RELEASE_KEYSTORE_PASSWD = &apos;android&apos;</font>
-<font color="#CC0000">#     ANDROID_NDK_VERSION = &apos;17c&apos;</font>
-<font color="#CC0000">#     TERM = &apos;xterm&apos;</font>
-<font color="#CC0000">#     PATH = &apos;/home/user/.buildozer/android/platform/apache-ant-1.9.4/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&apos;</font>
-<font color="#CC0000">#     ANDROID_NDK_ARCHIVE = &apos;android-ndk-r17c-linux-x86_64.zip&apos;</font>
-<font color="#CC0000">#     P4A_RELEASE_KEYALIAS_PASSWD = &apos;android&apos;</font>
-<font color="#CC0000">#     ANDROID_SDK_TOOLS_DL_URL = &apos;https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip&apos;</font>
-<font color="#CC0000">#     MAKELEVEL = &apos;1&apos;</font>
-<font color="#CC0000">#     USE_SDK_WRAPPER = &apos;1&apos;</font>
-<font color="#CC0000">#     ANDROID_NDK_HOME_V = &apos;/opt/android/android-ndk-r17c&apos;</font>
-<font color="#CC0000">#     LANG = &apos;en_US.UTF-8&apos;</font>
-<font color="#CC0000">#     ANDROID_NDK_DL_URL = &apos;https://dl.google.com/android/repository/android-ndk-r17c-linux-x86_64.zip&apos;</font>
-<font color="#CC0000">#     MAKE_TERMOUT = &apos;/dev/pts/0&apos;</font>
-<font color="#CC0000">#     PWD = &apos;/home/user/wspace/electrum&apos;</font>
-<font color="#CC0000">#     LC_ALL = &apos;en_US.UTF-8&apos;</font>
-<font color="#CC0000">#     ANDROID_HOME = &apos;/opt/android&apos;</font>
-<font color="#CC0000">#     MFLAGS = &apos;&apos;</font>
-<font color="#CC0000">#     ANDROID_NDK_HOME = &apos;/opt/android/android-ndk&apos;</font>
-<font color="#CC0000">#     GRADLE_OPTS = &quot;-Xmx1536M -Dorg.gradle.jvmargs=&apos;-Xmx1536M&apos;&quot;</font>
-<font color="#CC0000">#     PACKAGES_PATH = &apos;/home/user/.buildozer/android/packages&apos;</font>
-<font color="#CC0000">#     ANDROIDSDK = &apos;/opt/android/android-sdk&apos;</font>
-<font color="#CC0000">#     ANDROIDNDK = &apos;/opt/android/android-ndk-r17c&apos;</font>
-<font color="#CC0000">#     ANDROIDAPI = &apos;28&apos;</font>
-<font color="#CC0000">#     ANDROIDMINAPI = &apos;21&apos;</font>
-<font color="#CC0000"># </font>
-<font color="#CC0000"># Buildozer failed to execute the last command</font>
-<font color="#CC0000"># If the error is not obvious, please raise the log_level to 2</font>
-<font color="#CC0000"># and retry the latest command.</font>
-<font color="#CC0000"># In case of a bug report, please add a full log with log_level = 2</font>
-Makefile:24: recipe for target &apos;release&apos; failed
-make: [release] Error 1 (ignored)
-make[1]: Entering directory &apos;/home/user/wspace/electrum/electrum/gui/kivy&apos;
-# Cleaning up
-# rename main.py to electrum
-# remove buildozer.spec
-make[1]: Leaving directory &apos;/home/user/wspace/electrum/electrum/gui/kivy&apos;
-~/wspace/electrum
-</pre>
-</div>
-</div>
+```
+$ diffoscope /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3 /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3
+--- /home/leo/tmp/fromPlay_org.electrum.electrum_34010500/assets/private.mp3
++++ /home/leo/tmp/fromBuild_org.electrum.electrum_34010500/assets/private.mp3
+├── private.mp3-content
+│ ├── packages/attrs-20.3.0.dist-info/RECORD
+│ │ @@ -20,9 +20,9 @@
+│ │  attr/validators.pyi,sha256=vZgsJqUwrJevh4v_Hd7_RSXqDrBctE6-3AEZ7uYKodo,1868
+│ │  attrs-20.3.0.dist-info/AUTHORS.rst,sha256=wsqCNbGz_mklcJrt54APIZHZpoTIJLkXqEhhn4Nd8hc,752
+│ │  attrs-20.3.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  attrs-20.3.0.dist-info/LICENSE,sha256=v2WaKLSSQGAvVrvfSQy-LsUJsVuY-Z17GaUsdA4yeGM,1082
+│ │  attrs-20.3.0.dist-info/METADATA,sha256=dZRpEuqnuh9GVy6KKp7r2FNftkmQRnY-WpAfkfao4pU,10268
+│ │  attrs-20.3.0.dist-info/RECORD,,
+│ │  attrs-20.3.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -attrs-20.3.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+│ │ +attrs-20.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+│ │  attrs-20.3.0.dist-info/top_level.txt,sha256=tlRYMddkRlKPqJ96wP2_j9uEsmcNHgD2SbuWd4CzGVU,5
+│ ├── packages/attrs-20.3.0.dist-info/WHEEL
+│ │ @@ -1,6 +1,6 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py2-none-any
+│ │  Tag: py3-none-any
+│ ├── packages/importlib_metadata-3.7.2.dist-info/RECORD
+│ │ @@ -1,11 +1,11 @@
+│ │  importlib_metadata-3.7.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  importlib_metadata-3.7.2.dist-info/LICENSE,sha256=wNe6dAchmJ1VvVB8D9oTc-gHHadCuaSBAev36sYEM6U,571
+│ │  importlib_metadata-3.7.2.dist-info/METADATA,sha256=QAixFtFPRI3wDMFsnEB08wkmIVxN1HH2XSS5sr-4ZqA,3465
+│ │  importlib_metadata-3.7.2.dist-info/RECORD,,
+│ │  importlib_metadata-3.7.2.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -importlib_metadata-3.7.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +importlib_metadata-3.7.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  importlib_metadata-3.7.2.dist-info/top_level.txt,sha256=CO3fD9yylANiXkrMo4qHLV_mqXL2sC5JFKgt1yWAT-A,19
+│ │  importlib_metadata/__init__.py,sha256=H9o96z7BGqGGdqgEDOZO0wgiNrxAOsWiaWCQfaDlCG0,24736
+│ │  importlib_metadata/_compat.py,sha256=JA7DmId9NZtsj6nj8UjQZuPyktaLCTT3wHo7jWfPZc4,2384
+│ │  importlib_metadata/_itertools.py,sha256=5TUj_APJHq3pvjn04hnP2oYBebP2No7HmNH_hkOGwLQ,607
+│ │  importlib_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ ├── packages/importlib_metadata-3.7.2.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/multidict-5.1.0.dist-info/RECORD
+│ │ @@ -1,13 +1,13 @@
+│ │  multidict-5.1.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  multidict-5.1.0.dist-info/LICENSE,sha256=ocWCVRMnnTCFoLpGiA4UjqNxDBSbuu3PLRFgWl7TxK0,11349
+│ │  multidict-5.1.0.dist-info/METADATA,sha256=Y6GrdYtqGUB3_4DpKNQ9CYqxkO8zFwvMxpmZll43nzw,4116
+│ │  multidict-5.1.0.dist-info/RECORD,,
+│ │  multidict-5.1.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -multidict-5.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +multidict-5.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  multidict-5.1.0.dist-info/top_level.txt,sha256=-euDElkk5_qkmfIJ7WiqCab02ZlSFZWynejKg59qZQQ,10
+│ │  multidict/__init__.py,sha256=N4CEqAIdPpG1R12M4dPhLpljd4y7U6O8EWTb0bX-EIg,942
+│ │  multidict/__init__.pyi,sha256=__MuUVn9A-C7Y1wqBzgc12G2T_b5TnXgG9uN4qrpk6M,4931
+│ │  multidict/_abc.py,sha256=Zvnrn4SBkrv4QTD7-ZzqNcoxw0f8KStLMPzGvBuGT2w,1190
+│ │  multidict/_compat.py,sha256=1pqf7gkjjapGmNpTPR38OfQZlbRDLHiaox853LPs-oA,363
+│ │  multidict/_multidict.c,sha256=0kPnAtdE6rRwBDfhwLi6mrGp0DVsc6rq2Wbhi3_ZQOE,40881
+│ │  multidict/_multidict_base.py,sha256=XugkE78fXBmtzDdg2Yi9TrEhDexmL-6qJbFIG0viLMg,3791
+│ ├── packages/multidict-5.1.0.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/pip-21.0.1.dist-info/RECORD
+│ │ @@ -2,15 +2,15 @@
+│ │  ../../bin/pip3,sha256=I2UWrbOISqm6o_QRtkkf9H7UV1whUH_sKKjmElHFLnc,221
+│ │  ../../bin/pip3.8,sha256=I2UWrbOISqm6o_QRtkkf9H7UV1whUH_sKKjmElHFLnc,221
+│ │  pip-21.0.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  pip-21.0.1.dist-info/LICENSE.txt,sha256=ejlw8iXn2TntLdOpADqlISSc1qhJJgiYAKMZmq713Gk,1110
+│ │  pip-21.0.1.dist-info/METADATA,sha256=YYT8F31NPOzdAi0WEvjg-STKbxj8jpPmgpTKJiVrdEA,4194
+│ │  pip-21.0.1.dist-info/RECORD,,
+│ │  pip-21.0.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -pip-21.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +pip-21.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  pip-21.0.1.dist-info/entry_points.txt,sha256=HtfDOwpUlr9s73jqLQ6wF9V0_0qvUXJwCBz7Vwx0Ue0,125
+│ │  pip-21.0.1.dist-info/top_level.txt,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  pip/__init__.py,sha256=N22Wk52M-ZwIU8jx64XlNaLmHk_MyL1ErZ_71RG1Pzo,473
+│ │  pip/__main__.py,sha256=WGRSG7tdJrjefIHsZOk977H_rgkSt9z2liew-Cwm09U,874
+│ │  pip/_internal/__init__.py,sha256=fnY9L5BJfq79L8CXhLnj2nJMH8-JEpJkGQAMhM231AU,512
+│ │  pip/_internal/build_env.py,sha256=mEgguVg9YnwbVVLtwUlDF5irYsweDksk67obP0KAjE8,8323
+│ │  pip/_internal/cache.py,sha256=j4UrFmwo2xC0e1QQUVAwPVuySmQttDUGJb-myD4t-Q8,10385
+│ ├── packages/pip-21.0.1.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/yarl-1.6.3.dist-info/RECORD
+│ │ @@ -1,13 +1,13 @@
+│ │  yarl-1.6.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  yarl-1.6.3.dist-info/LICENSE,sha256=FMCCBQPO7xXoFKibA32e_AZocAhwGClLauDycWOHLMU,11368
+│ │  yarl-1.6.3.dist-info/METADATA,sha256=4LdDdgnvmWHl5xPmIZAHnThRl4V8cXznId2oj-DHtmg,18982
+│ │  yarl-1.6.3.dist-info/RECORD,,
+│ │  yarl-1.6.3.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -yarl-1.6.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +yarl-1.6.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  yarl-1.6.3.dist-info/top_level.txt,sha256=vf3SJuQh-k7YtvsUrV_OPOrT9Kqn0COlk7IPYyhtGkQ,5
+│ │  yarl/__init__.py,sha256=q1AsILx9yBkriaOSJghxeC5ynHn_7rMmldWf-VlnFnA,154
+│ │  yarl/__init__.pyi,sha256=81znZr-kyslhoSkwDDXZsfhrLOjUAoJ4ApfwDfcfbPM,3702
+│ │  yarl/_quoting.py,sha256=A35UGLJW4EOOHZNNocSiK7tRNGKe1NgqH3jxMoYN2x0,519
+│ │  yarl/_quoting_c.c,sha256=RSUoRWxACSWS4KUeP2_3GJX8CwTYOATxFD3U488diWI,453267
+│ │  yarl/_quoting_c.pyi,sha256=plPeUkIbXp4Hzi0AbYII4JA0H9tCjtjw-UUPU5Na1s0,447
+│ │  yarl/_quoting_c.pyx,sha256=_xiVS3dNEvYcKdGx973DYBRRUVz4CURuG5iTdF4zXYk,11498
+│ ├── packages/yarl-1.6.3.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+│ ├── packages/zipp-3.4.1.dist-info/RECORD
+│ │ @@ -1,8 +1,8 @@
+│ │  zipp-3.4.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+│ │  zipp-3.4.1.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+│ │  zipp-3.4.1.dist-info/METADATA,sha256=EIdnTkPQX8qbq3tfp4HSbcR6E27KCFWOXjv9xbdR67s,2109
+│ │  zipp-3.4.1.dist-info/RECORD,,
+│ │  zipp-3.4.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+│ │ -zipp-3.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+│ │ +zipp-3.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+│ │  zipp-3.4.1.dist-info/top_level.txt,sha256=iAbdoSHfaGqBfVb2XuR9JqSQHCoOsOtG6y9C_LSpqFw,5
+│ │  zipp.py,sha256=wMSoYxAIPgYnqJAW0JcAl5sWaIcFc5xk3dNjf6ElGgU,8089
+│ ├── packages/zipp-3.4.1.dist-info/WHEEL
+│ │ @@ -1,5 +1,5 @@
+│ │  Wheel-Version: 1.0
+│ │ -Generator: bdist_wheel (0.36.2)
+│ │ +Generator: bdist_wheel (0.37.1)
+│ │  Root-Is-Purelib: true
+│ │  Tag: py3-none-any
+```
 
-Given the project itself claims to **not produce reproducible output**, we
-remain with the same conclusion and decide it is **not verifiable**.
+So this looks benign. To our understanding, the release manager used a different
+version of [wheel](https://github.com/pypa/wheel) than we now did but the output
+matched except for the record of the version used.
+
+Although probably harmless, this binary is **not verifiable**.

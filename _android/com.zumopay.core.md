@@ -1,38 +1,37 @@
 ---
-title: "Zumo - Bitcoin Wallet App - Buy, Store, & Transfer"
+wsId: 
+title: "Zumo | Buy Bitcoin & Ether"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.zumopay.core
-launchDate: 
-latestUpdate: 2021-01-11
-apkVersionName: "2.14.0"
-stars: 3.8
-ratings: 85
-reviews: 65
-size: 74M
+appCountry: 
+released: 2019-10-28
+updated: 2022-03-07
+version: "3.7.0"
+stars: 
+ratings: 
+reviews: 
+size: 482M
 website: https://zumo.money
 repository: 
 issue: 
 icon: com.zumopay.core.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: zumopay
-providerLinkedIn: company/zumomoney
-providerFacebook: zumo.money
-providerReddit: 
-
+twitter: zumopay
+social:
+- https://www.linkedin.com/company/zumomoney
+- https://www.facebook.com/zumo.money
 redirect_from:
   - /com.zumopay.core/
   - /posts/com.zumopay.core/
 ---
-
 
 > 💰 Provides full ownership of funds - your crypto is only owned by you!
 

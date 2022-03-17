@@ -1,0 +1,30 @@
+---
+layout: compress
+permalink: /verdicts.css
+---
+
+.verdict {
+  font-weight: bold;
+}
+
+.stamp-all::before {
+  background: var(--rust);
+  content: "all";
+}
+
+{% for verdict in site.data.verdicts %}
+.stamp-{{ verdict[0] }}::before {
+  background: {{ verdict[1].color }};
+  content: "{{ verdict[1].short }}";
+}
+
+.badge-2.{{ verdict[0] }}::before {
+  background: {{ verdict[1].color }};
+  opacity: 0.5;
+}
+
+.verdictBadge.{{ verdict[0] }} > span {
+  background: {{ verdict[1].color }};
+}
+{% endfor %}
+

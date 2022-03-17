@@ -1,41 +1,41 @@
 ---
+wsId: PolisPay
 title: "PolisPay - Cryptocurrency wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.polispay.copay
-launchDate: 2018-02-21
-latestUpdate: 2020-12-24
-apkVersionName: "8.8.0"
-stars: 4.3
-ratings: 120
-reviews: 69
+appCountry: 
+released: 2018-02-21
+updated: 2021-10-22
+version: "8.9.3"
+stars: 4.1
+ratings: 131
+reviews: 78
 size: 10M
 website: https://www.polispay.com
 repository: 
 issue: 
 icon: com.polispay.copay.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-04-07
-reviewStale: true
+meta: defunct
+verdict: nosource
+date: 2022-02-10
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.polispay.copay/
   - /posts/com.polispay.copay/
 ---
 
+**Update 2022-01-25**: This app is not in store anymore.
 
-This app appears to be a [CoPay](/copay/) clone given its app ID:
-`com.polispay.copay`.
+Given its app ID `com.polispay.copay` this app appears to be a clone of
+{% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}
+which used to be called "Copay".
 
 In the app's description we read:
 

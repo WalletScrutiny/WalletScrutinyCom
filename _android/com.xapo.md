@@ -1,33 +1,32 @@
 ---
+wsId: xapo
 title: "Xapo"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.xapo
-launchDate: 2014-04-01
-latestUpdate: 2020-07-29
-apkVersionName: "5.30"
-stars: 3.8
-ratings: 45224
-reviews: 21375
-size: 93M
+appCountry: 
+released: 2014-04-01
+updated: 2021-07-20
+version: "5.34"
+stars: 3.4
+ratings: 45937
+reviews: 21922
+size: 103M
 website: https://xapo.com
 repository: 
 issue: 
 icon: com.xapo.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-10-12
-reviewStale: false
+meta: defunct
+verdict: custodial
+date: 2021-08-06
 signer: 
 reviewArchive:
-
-
-providerTwitter: xapo
-providerLinkedIn: 
-providerFacebook: xapoapp
-providerReddit: 
-
+twitter: xapo
+social:
+- https://www.facebook.com/xapoapp
 redirect_from:
   - /xapo/
   - /com.xapo/
@@ -35,6 +34,8 @@ redirect_from:
   - /posts/com.xapo/
 ---
 
+**Update 2021-08-02**: Xapo discontinued this app to migrate its users to 
+{% include walletLink.html wallet='android/com.xapo.bank' verdict='true' %}.
 
 Xapo describes itself
 as a wallet:

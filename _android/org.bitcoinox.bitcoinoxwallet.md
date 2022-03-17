@@ -1,38 +1,36 @@
 ---
+wsId: 
 title: "Bitcoin OX Wallet — Exchange Wallet for Crypto"
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
-launchDate: 
-latestUpdate: 2020-12-10
-apkVersionName: "2.3.5"
-stars: 4.7
-ratings: 20
-reviews: 15
+appCountry: 
+released: 2019-02-04
+updated: 2022-03-03
+version: "2.5.1"
+stars: 4
+ratings: 32
+reviews: 5
 size: Varies with device
 website: https://bitcoinox.com
 repository: 
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-09-27
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2022-02-09
 signer: 
 reviewArchive:
-
-
-providerTwitter: bitcoin_ox
-providerLinkedIn: 
-providerFacebook: bitcoinoxwallet
-providerReddit: 
-
+twitter: bitcoin_ox
+social:
+- https://www.facebook.com/bitcoinoxwallet
 redirect_from:
   - /org.bitcoinox.bitcoinoxwallet/
   - /posts/org.bitcoinox.bitcoinoxwallet/
 ---
-
 
 > Safety
 > 

@@ -1,127 +1,125 @@
 ---
+wsId: muun
 title: "Muun - Bitcoin and Lightning Wallet"
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 50000
 appId: io.muun.apollo
-launchDate: 2017-04-25
-latestUpdate: 2021-01-14
-apkVersionName: "42.6"
-stars: 4.5
-ratings: 82
-reviews: 48
-size: 39M
+appCountry: 
+released: 2017-04-25
+updated: 2022-01-18
+version: "48.4"
+stars: 4.5102043
+ratings: 650
+reviews: 63
+size: 44M
 website: https://muun.com
 repository: https://github.com/muun/apollo
-issue: https://github.com/muun/apollo/issues/2
+issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2019-12-29
-reviewStale: true
+meta: ok
+verdict: nonverifiable
+date: 2021-10-09
 signer: 
 reviewArchive:
-
-
-providerTwitter: muunwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+- date: 2021-04-06
+  version: "45.2"
+  appHash: 292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2
+  gitRevision: 707ff239df150e0b2d6810e2444e495e2ca4c174
+  verdict: nonverifiable
+- date: 2019-12-29
+  version: "beta-36.2"
+  appHash: 
+  gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
+  verdict: nonverifiable
+twitter: MuunWallet
+social:
 redirect_from:
   - /io.muun.apollo/
   - /posts/io.muun.apollo/
 ---
 
+**Update 2021-10-09**: We were approached about this verdict being wrong and
+while the provider hasn't claimed a fix, we noticed we haven't filed an issue
+about the tiny diff in the `crashlytics.android.build_id` neither. To see if
+this diff remains, we checked the latest version - `46.10`.
 
-Update: The provider made clear that this app will remain non-reproducible:
+As {{ page.title }} was almost reproducible before, we want to keep track of
+their progress as new versions get released now, too.
+We had a look at
+[their verification script](https://github.com/muun/apollo/blob/master/tools/verify-apollo.sh).
+It builds the app from source and unzips both the file from Google and the built
+app to diff them.
 
->  **esneider** 16 hours ago: We have updated the instructions for building, and
-   we won't be producing reproducible builds for the time being.
+Surprising is the actual check:
 
---------------------------------------------------------------------------------
+```
+# Remove the signature since OSS users won't have Muuns private signing key
+rm -r "$tmp"/{to_verify,baseline}/{META-INF,resources.arsc}
 
-The description starts out very clearly:
+diff -r "$tmp/to_verify" "$tmp/baseline" && echo "Verification success!" || echo "Verification failed :("
+```
 
-> Muun is a non-custodial wallet: this means you are in full control of your
-  money. You remain in control of your private keys, which are stored only on
-  your device using your phone's secure enclave. We never have access to your
-  funds.
+1. The first line is a comment, justifying the removal of the signature, which
+   is valid.
+2. The second line deletes the `META-INF` folders which does indeed contain the
+   signature **but it may contain other stuff, too**. In fact
+   [it does](https://github.com/muun/apollo/issues/30).
+3. It also **deletes the files `resources.arsc` which has nothing to do with the signature**.
+   There is no justification for doing so.
 
-So it is non-custodial.
+We built
+[our own verification script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/io.muun.apollo.sh)
+which gives us these results:
 
-Also:
+```
+Results:
+appId:          io.muun.apollo
+signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
+apkVersionName: 46.10
+apkVersionCode: 610
+verdict:        
+appHash:        e7504467c314b576f5f0c45eeb135396f4d771f976e886bc9b0e1111f1172ff8
+commit:         bf4fa4ced4a6d3f73f806a5a4b05a089aba92cb1
 
-> Our code is in an open source repository and can be audited by anyone on the
-  Internet.
+Diff:
+Only in /tmp/fromPlay_io.muun.apollo_610/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_610/META-INF: APOLLORE.SF
+Files /tmp/fromPlay_io.muun.apollo_610/META-INF/MANIFEST.MF and /tmp/fromBuild_io.muun.apollo_610/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_io.muun.apollo_610/resources.arsc and /tmp/fromBuild_io.muun.apollo_610/resources.arsc differ
 
-So ... let's see if we can find this open source because it is not referenced in
-the description itself.
+Revision, tag (and its signature):
+object bf4fa4ced4a6d3f73f806a5a4b05a089aba92cb1
+type commit
+tag v46.10
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1632343796 -0300
 
-Their link to GitHub on their website has the label "Audit us". Perfect. That's
-us!
+v46.10
+```
 
-[This project "apollo"](https://github.com/muun/apollo) has the most promising
-description: "Muun android wallet".
+For our reproducible verdict
+the first three lines of the diff are fine. The last line though, the
+`resources.arsc` that their verification script explicitly ignores is not ok.
+This file contains resources and altering resources can significantly change the
+app, too. This app is **not verifiable**.
 
-Ok, but where are the build instructions?
+Upon closer inspection, the diff again is just the `crashlytics.android.build_id`:
 
-Let's see ...
+```
 
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">$ git clone https://github.com/muun/apollo.git
-$ cd apollo/
-$ git submodule status 
-$ git tag
-$ git log --pretty=oneline --abbrev-commit
-<font color="#C4A000">491d4d5 (</font><font color="#06989A"><b>HEAD -&gt; </b></font><font color="#4E9A06"><b>master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/master</b></font><font color="#C4A000">, </font><font color="#CC0000"><b>origin/HEAD</b></font><font color="#C4A000">)</font> Release source code for beta-36.2
-<font color="#C4A000">6facf35</font> Release source code for beta-36.1
-<font color="#C4A000">5530b6e</font> Release source code beta-34
-<font color="#C4A000">f476a6f</font> Release source code beta-33
-<font color="#C4A000">c9a3697</font> Release source code beta-32
-<font color="#C4A000">377b045</font> Release source code beta-29
-<font color="#C4A000">7f3bd57</font> Release source code beta-28
-<font color="#C4A000">cd3b46b</font> Release source code for beta-26
-<font color="#C4A000">548af69</font> Release source code for beta-25
-<font color="#C4A000">913f517</font> Release source code for beta-24.1
-<font color="#C4A000">bc2f4db</font> Add license
-<font color="#C4A000">8030bab</font> Add readme
-<font color="#C4A000">8f78e5f</font> Apollo beta-16
-<font color="#C4A000">a5d8782</font> Add .gitignore
-</pre>
-</div>
-</div>
-
-That's all their commits. No submodule. No tags.
-We need `beta-36.2` which is the commit message of the final commit. That is
-good although not enough for the future.
-
-<div class="language-plaintext highlighter-rouge">
-<div class="highlight">
-<pre class="highlight">root@288e8088ff9f:/mnt# yes | /opt/android/tools/bin/sdkmanager "build-tools;28.0.3"
-root@288e8088ff9f:/mnt# ./gradlew bundleRelease
-Configuration on demand is an incubating feature.
-> Task :apollo:libwallet FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':apollo:libwallet'.
-> A problem occurred starting process 'command 'gomobile''
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4s
-1 actionable task: 1 executed
-</pre>
-</div>
-</div>
-
-That's all for now. Build fails with obscure error. No build instructions
-provided.
-
-Our verdict: **not verifiable**.
+$ apktool d -o apkGoogle Muun\ 46.10\ \(io.muun.apollo\).apk 
+$ apktool d -o apkBuild apolloui-prod-release-unsigned.apk
+$ diff --brief --recursive apkBuild apkGoogle
+Files apkBuild/apktool.yml and apkGoogle/apktool.yml differ
+Only in apkGoogle/original/META-INF: APOLLORE.RSA
+Only in apkGoogle/original/META-INF: APOLLORE.SF
+Files apkBuild/original/META-INF/MANIFEST.MF and apkGoogle/original/META-INF/MANIFEST.MF differ
+Files apkBuild/res/values/strings.xml and apkGoogle/res/values/strings.xml differ
+$ diff apkBuild/res/values/strings.xml apkGoogle/res/values/strings.xml
+77c77
+<     <string name="com.crashlytics.android.build_id">e0c37a103082460fbf95f3c097222e61</string>
+---
+>     <string name="com.crashlytics.android.build_id">95a3152a98594e8ca1324bdefd26a5b9</string>
+```

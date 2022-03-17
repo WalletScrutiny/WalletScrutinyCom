@@ -1,44 +1,32 @@
 ---
-title: "Blockchain Wallet: Buy Bitcoin"
+wsId: blockchainWallet
+title: "Blockchain.com Wallet: Buy BTC"
 altTitle: 
-
+authors:
+- leo
 appId: com.rainydayapps.Blockchain
+appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2021-01-14
-version: "2.63.4"
-score: 4.74824
-reviews: 58090
-size: 103507968
-developerWebsite: https://www.blockchain.com/wallet
+updated: 2022-03-15
+version: "202203.1.0"
+stars: 4.73578
+reviews: 120650
+size: 182297600
+website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 
 icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-20
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-07-15
 signer: 
 reviewArchive:
-
-
-providerTwitter: Blockchain
-providerLinkedIn: company/blockchain
-providerFacebook: Blockchain
-providerReddit: 
-
-redirect_from:
-
+twitter: Blockchain
+social:
+- https://www.linkedin.com/company/blockchain
+- https://www.facebook.com/Blockchain
 ---
 
-On the App Store we read:
-
-> Only you have access to your private keys and your crypto.
-
-and on the website there is a link to
-[this GitHub account](https://github.com/blockchain/) but no claim about which
-repository is supposed to be behind this wallet but we assume it's
-[this](https://github.com/blockchain/My-Wallet-V3-iOS).
-
-As with all iPhone app, reproducible builds do not exist so far, so the app
-is **not verifiable**.
+{% include copyFromAndroid.html %}

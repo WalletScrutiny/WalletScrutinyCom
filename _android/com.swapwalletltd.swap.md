@@ -1,12 +1,15 @@
 ---
+wsId: SwapWallet
 title: "Swap Wallet - BTC, Bitcoin wallet"
 altTitle: 
+authors:
 
 users: 50000
 appId: com.swapwalletltd.swap
-launchDate: 
-latestUpdate: 2020-11-14
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2020-11-14
+version: "Varies with device"
 stars: 4.9
 ratings: 2282
 reviews: 2065
@@ -16,26 +19,16 @@ repository:
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-verdict: defunct # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: defunct
+verdict: custodial
 date: 2020-12-28
-reviewStale: false
 signer: 
 reviewArchive:
-- date: 2020-12-01
-  version: 
-  apkHash: 
-  gitRevision: eceaf4f532a049d544a5f7ce8eda0f29b30e6fcf
-  verdict: custodial
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.swapwalletltd.swap/
 ---
-
 
 **Update:** We can't find the app on Google Play anymore and assume it stopped
 to exist. With 50k downloads there might be many users wondering how to recover

@@ -1,34 +1,33 @@
 ---
-title: "Voyager - Buy Bitcoin & Crypto"
+wsId: voyager
+title: "Voyager: Buy BTC, SHIB, ETH"
 altTitle: 
-
+authors:
+- leo
 appId: com.investvoyager.voyager-ios
+appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2020-12-31
-version: "2.9.8"
-score: 4.79422
-reviews: 6337
-size: 58777600
-developerWebsite: https://www.investvoyager.com/
+updated: 2022-03-15
+version: "3.2.2"
+stars: 4.74279
+reviews: 98275
+size: 90024960
+website: https://www.investvoyager.com/
 repository: 
 issue: 
 icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2021-01-02
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: investvoyager
-providerLinkedIn: company/investvoyager
-providerFacebook: InvestVoyager
-providerReddit: Invest_Voyager
-
-redirect_from:
-
+twitter: investvoyager
+social:
+- https://www.linkedin.com/company/investvoyager
+- https://www.facebook.com/InvestVoyager
+- https://www.reddit.com/r/Invest_Voyager
 ---
 
 On their website we read:

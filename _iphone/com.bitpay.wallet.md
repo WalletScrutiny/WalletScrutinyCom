@@ -1,33 +1,32 @@
 ---
-title: "BitPay – Buy Crypto"
+wsId: bitpaywallet
+title: "BitPay - Bitcoin Wallet & Card"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitpay.wallet
+appCountry: 
 idd: 1149581638
 released: 2016-10-24
-updated: 2020-12-31
-version: "11.2.13"
-score: 4.07327
-reviews: 969
-size: 86063104
-developerWebsite: https://bitpay.com
+updated: 2022-03-04
+version: "12.11.4"
+stars: 3.98925
+reviews: 1395
+size: 88250368
+website: https://bitpay.com
 repository: 
 issue: 
 icon: com.bitpay.wallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: ftbfs
+date: 2021-04-27
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: BitPay
+social:
+- https://www.linkedin.com/company/bitpay-inc-
+- https://www.facebook.com/BitPayOfficial
 ---
 
+{% include copyFromAndroid.html %}

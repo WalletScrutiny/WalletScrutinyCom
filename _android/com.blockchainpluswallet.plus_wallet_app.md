@@ -1,37 +1,36 @@
 ---
+wsId: 
 title: "Blockchain Plus Wallet"
 altTitle: 
+authors:
 
-users: 1000
+users: 10000
 appId: com.blockchainpluswallet.plus_wallet_app
-launchDate: 
-latestUpdate: 2020-10-31
-apkVersionName: "3.0.1"
-stars: 4.9
-ratings: 108
-reviews: 99
-size: 12M
+appCountry: 
+released: 
+updated: 2020-12-30
+version: "3.0.1"
+stars: 3.6
+ratings: 189
+reviews: 145
+size: 13M
 website: 
 repository: 
 issue: 
-icon: com.blockchainpluswallet.plus_wallet_app.png
+icon: com.blockchainpluswallet.plus_wallet_app.jpg
 bugbounty: 
-verdict: nowallet # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
-reviewStale: false
+meta: defunct
+verdict: nowallet
+date: 2021-06-11
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.blockchainpluswallet.plus_wallet_app/
 ---
 
+**Update 2021-06-11**: This app is not on the Play Store anymore.
 
 This app does not look like a wallet and its code does not look like having
 wallet functionality neither. It might side-load some actual functionality at

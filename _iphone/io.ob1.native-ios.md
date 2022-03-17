@@ -1,35 +1,34 @@
 ---
+wsId: Haven
 title: "Haven - Private Shopping"
 altTitle: 
+authors:
 
 appId: io.ob1.native-ios
+appCountry: 
 idd: 1318395690
 released: 2019-08-19
 updated: 2020-09-28
 version: "1.3.8"
-score: 4.57979
+stars: 4.57979
 reviews: 188
 size: 82487296
-developerWebsite: https://gethaven.app/
+website: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven
 issue: 
 icon: io.ob1.native-ios.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
-reviewStale: false
+meta: defunct
+verdict: nonverifiable
+date: 2021-01-15
 signer: 
 reviewArchive:
-
-
-providerTwitter: HavenPrivacy
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: havenapp
-
-redirect_from:
-
+twitter: HavenPrivacy
+social:
+- https://www.reddit.com/r/havenapp
 ---
+
+**Update:** As of now, this app is not to be found on the App Store.
 
 This provider had tweeted us a link to their source code after reviewing the
 android version but in the App Store description or their website there is still

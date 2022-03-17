@@ -1,42 +1,42 @@
 ---
-title: "Bitcoin Wallet - Buy BTC"
+wsId: 
+title: "Bitcoin Wallet: BTC, ETH & BNB"
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.polehin.android
-launchDate: 2019-01-01
-latestUpdate: 2021-01-03
-apkVersionName: "3.4.7"
-stars: 4.3
-ratings: 13044
-reviews: 7556
-size: 7.0M
-website: https://polehin.com
+appCountry: 
+released: 2019-01-01
+updated: 2022-01-09
+version: "3.7.4"
+stars: 4.3403363
+ratings: 22277
+reviews: 1071
+size: 48M
+website: https://coinbox.org
 repository: 
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-verdict: obfuscated # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-30
-reviewStale: true
+meta: ok
+verdict: obfuscated
+date: 2022-01-09
 signer: 
 reviewArchive:
 - date: 2020-03-30
   version: "3.1.4"
-  apkHash: 
+  appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: custodial
 - date: 2019-11-22
   version: "3.1.4"
-  apkHash: 
+  appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
-
-providerTwitter: polehincom
-providerLinkedIn: 
-providerFacebook: polehincom
-providerReddit: 
-
+twitter: polehincom
+social:
+- https://www.facebook.com/polehincom
 redirect_from:
   - /bitcoinwallet/
   - /com.polehin.android/
@@ -44,6 +44,11 @@ redirect_from:
   - /posts/com.polehin.android/
 ---
 
+**Update 2022-01-09**: The app was restored for no apparent reason given the
+scam it is.
+
+**Update 2021-07-22**: It took Google 8 months to remove this app after we
+called it a blatant scam. Below is our review from 2020-11-30.
 
 The wallet re-branded at some point to Coinbox Bitcoin Wallet and is now a
 **blatant scam**.

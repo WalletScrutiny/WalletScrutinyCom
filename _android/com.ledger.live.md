@@ -1,37 +1,36 @@
 ---
-title: "Ledger Live"
+wsId: 
+title: "Ledger Live - Web3 Wallet"
 altTitle: 
+authors:
 
-users: 100000
+users: 500000
 appId: com.ledger.live
-launchDate: 
-latestUpdate: 2020-10-27
-apkVersionName: "2.15.0"
-stars: 3.9
-ratings: 2110
-reviews: 1191
-size: Varies with device
-website: 
+appCountry: 
+released: 2019-01-27
+updated: 2022-03-07
+version: "2.39.1"
+stars: 3.0567377
+ratings: 6090
+reviews: 835
+size: 309M
+website: https://www.ledger.com
 repository: 
 issue: 
 icon: com.ledger.live.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nowallet
 date: 2020-11-17
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: Ledger
-providerLinkedIn: company/ledgerhq
-providerFacebook: Ledger
-providerReddit: 
-
+twitter: Ledger
+social:
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
 redirect_from:
   - /com.ledger.live/
 ---
-
 
 This is the companion app for the Ledger hardware wallets. As we fail to start
 the app without connecting a hardware wallet, it is very likely this app is not

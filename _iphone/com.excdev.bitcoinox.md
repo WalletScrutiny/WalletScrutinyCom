@@ -1,33 +1,29 @@
 ---
+wsId: 
 title: "Bitcoin OX | Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.excdev.bitcoinox
+appCountry: 
 idd: 1453542836
 released: 2019-02-27
-updated: 2020-12-13
-version: "2.3.5"
-score: 5
-reviews: 3
-size: 52311040
-developerWebsite: https://bitcoinox.com/
+updated: 2022-03-03
+version: "2.5.1"
+stars: 3.4
+reviews: 5
+size: 49684480
+website: https://bitcoinox.com/
 repository: 
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: wip
+date: 2022-02-09
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: 
+social:
 ---
 

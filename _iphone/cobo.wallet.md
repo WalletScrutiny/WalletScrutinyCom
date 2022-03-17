@@ -1,33 +1,32 @@
 ---
+wsId: cobowallet
 title: "Cobo Crypto Wallet: BTC & DASH"
 altTitle: 
-
+authors:
+- leo
 appId: cobo.wallet
+appCountry: 
 idd: 1406282615
 released: 2018-08-05
-updated: 2020-12-15
-version: "4.26"
-score: 3.73171
-reviews: 41
-size: 43097088
-developerWebsite: https://cobo.com
+updated: 2022-03-03
+version: "5.19.1"
+stars: 3.66667
+reviews: 6
+size: 85342208
+website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: Cobo_Wallet
+social:
+- https://www.linkedin.com/company/coboofficial
+- https://www.facebook.com/coboOfficial
 ---
 
+ {% include copyFromAndroid.html %}

@@ -1,37 +1,35 @@
 ---
+wsId: bitrue
 title: "Bitrue - Cryptocurrency Wallet & Exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.bitrue.currency.exchange
-launchDate: 
-latestUpdate: 2021-01-13
-apkVersionName: "4.3.6"
-stars: 3.5
-ratings: 1053
-reviews: 681
-size: 36M
-website: https://www.bitrue.com
+appCountry: 
+released: 2018-07-18
+updated: 2022-02-25
+version: "5.1.6"
+stars: 3.3366337
+ratings: 2703
+reviews: 294
+size: 42M
+website: https://www.bitrue.com/
 repository: 
 issue: 
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: BitrueOfficial
-providerLinkedIn: 
-providerFacebook: BitrueOfficial
-providerReddit: 
-
+twitter: BitrueOfficial
+social:
+- https://www.facebook.com/BitrueOfficial
 redirect_from:
   - /com.bitrue.currency.exchange/
 ---
-
 
 This app is heavily focused on the "exchange" part which is also in its name.
 Nowhere in Google Play can we find claims about self-custody but things like

@@ -1,38 +1,37 @@
 ---
-title: "Vidulum - Multi-Asset Cryptocurrency Wallet"
+wsId: Vidulum
+title: "Vidulum - Crypto Web Wallet"
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 5000
 appId: com.vidulumwallet.app
-launchDate: 
-latestUpdate: 2019-04-05
-apkVersionName: "1.2"
-stars: 4.6
-ratings: 58
-reviews: 47
+appCountry: 
+released: 2019-04-04
+updated: 2019-04-05
+version: "1.2"
+stars: 4.75
+ratings: 106
+reviews: 8
 size: 174k
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-07-29
-reviewStale: false
+meta: obsolete
+verdict: nosource
+date: 2021-08-17
 signer: 
 reviewArchive:
-
-
-providerTwitter: VidulumApp
-providerLinkedIn: 
-providerFacebook: VidulumTeam
-providerReddit: VidulumOfficial
-
+twitter: VidulumApp
+social:
+- https://www.facebook.com/VidulumTeam
+- https://www.reddit.com/r/VidulumOfficial
 redirect_from:
   - /com.vidulumwallet.app/
   - /posts/com.vidulumwallet.app/
 ---
-
 
 On Google Play we read
 

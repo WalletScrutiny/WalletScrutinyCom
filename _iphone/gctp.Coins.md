@@ -1,33 +1,38 @@
 ---
+wsId: coinsph
 title: "Coins– Load, Bills, Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: gctp.Coins
+appCountry: 
 idd: 972324049
 released: 2015-04-04
-updated: 2020-12-18
-version: "2.13.8"
-score: 4.72682
-reviews: 2427
-size: 181317632
-developerWebsite: https://coins.ph/
+updated: 2022-03-14
+version: "3.1.3"
+stars: 4.71283
+reviews: 3235
+size: 117924864
+website: https://coins.ph/
 repository: 
 issue: 
 icon: gctp.Coins.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-14
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: coinsph
+social:
+- https://www.linkedin.com/company/coins-ph
+- https://www.facebook.com/coinsph
 ---
 
+The app appears to have tons of features but nowhere can we find a word about
+where the bitcoins are stored.
+[Their FAQ](https://support.coins.ph/hc/en-us/categories/202504637-Safety-Security)
+is talking a lot about "account is deactivated" or "temporarily disabled" which
+are concepts not known in self-custodial wallets.
+
+We assume this app is custodial and therefore **not verifiable**.

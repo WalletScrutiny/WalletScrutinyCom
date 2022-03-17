@@ -1,35 +1,44 @@
 ---
-title: "ZEBEDEE Wallet"
+wsId: zebedee
+title: "ZEBEDEE: Play and earn Bitcoin"
 altTitle: 
-
-users: 100
+authors:
+- leo
+users: 50000
 appId: io.zebedee.wallet
-launchDate: 
-latestUpdate: 2020-12-17
-apkVersionName: "11.0.0"
-stars: 0.0
-ratings: 
-reviews: 
-size: 59M
-website: 
+appCountry: 
+released: 2020-10-20
+updated: 2022-03-16
+version: "2.32.2"
+stars: 4.152174
+ratings: 358
+reviews: 17
+size: 53M
+website: https://zebedee.io
 repository: 
 issue: 
-icon: io.zebedee.wallet.jpg
+icon: io.zebedee.wallet.png
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-28
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-04-12
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: zebedeeio
+social:
 redirect_from:
-  - /io.zebedee.wallet/
 ---
 
+This app is very gamer focused and does no mention at all security aspects or
+who's the custodian to your coins:
 
+> The ZEBEDEE Wallet is basically everything you need to start playing games for
+  Bitcoin, participating in Bitcoin-powered esports events or collecting Bitcoin
+  tips on your live streams.
+
+It is lightning network focused and apparently the counterpart for an sdk the
+company is promoting for Bitcoin integration in games.
+
+For lack of a better source I went on [their discord](https://zeb.gg/zebedeeiodiscord)
+and asked, so ... according to JC on Discord, this app is custodial. As such it
+is **not verifiable**.

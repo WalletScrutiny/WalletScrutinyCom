@@ -1,37 +1,42 @@
 ---
+wsId: crypterium
 title: "Crypterium | Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.crypterium
-launchDate: 
-latestUpdate: 2020-12-29
-apkVersionName: "2.6.35.1"
-stars: 4.1
-ratings: 5659
-reviews: 3068
-size: 38M
+appCountry: 
+released: 2018-01-21
+updated: 2022-03-10
+version: "2.6.72.14"
+stars: 3.52
+ratings: 8728
+reviews: 405
+size: 63M
 website: https://crypterium.com
 repository: 
 issue: 
 icon: com.crypterium.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-01
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-20
 signer: 
 reviewArchive:
-
-
-providerTwitter: crypterium
-providerLinkedIn: 
-providerFacebook: crypterium.org
-providerReddit: 
-
+twitter: crypterium
+social:
+- https://www.facebook.com/crypterium.org
 redirect_from:
   - /com.crypterium/
 ---
 
+Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
 
-This app is a custodial offering with many many users complaining about never
-having been able to get their funds out. The app is **not verifiable**.
+> **Store**<br>
+  keep your currencies<br>
+  safe & fully insured
+
+this is a custodial app as a self-custody wallet cannot ever have funds insured.
+
+As a custodial app it is **not verifiable**.

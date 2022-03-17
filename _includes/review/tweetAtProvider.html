@@ -1,0 +1,26 @@
+{% if page.twitter %}
+<div class="subsect">
+  <h1><i class="fas fa-bullhorn"></i> Help spread awareness for build reproducibility</h1>
+  <p><i class="fab fa-twitter"></i>
+  <span>
+    {% case page.verdict %}
+    {% when "reproducible" %}
+      Please follow {{ title }} and thank them for being reproducible
+    {% when "nonverifiable" %}
+      Please help us spread the word, asking {{ title }} to support reproducible builds
+    {% when "nosource" %}
+      Please help us spread the word discussing transparency with {{ title }}
+    {% when "custodial" %}
+      Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+    {% when "nosendreceive" %}
+      Please help us spread the word discussing the risks of centralized custodians with {{ title }}
+    {% else %}
+      Please help us spread the word discussing build reproducibility with {{ title }}
+    {% endcase %}
+    &nbsp;<a target="_blank" rel="noopener noreferrer"
+      href="https://twitter.com/intent/tweet?text=.%20@{{ page.twitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.url }}">via
+      their Twitter</a>!
+  </span>
+  </p>
+</div>
+{% endif %}

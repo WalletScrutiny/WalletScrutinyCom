@@ -1,37 +1,36 @@
 ---
-title: "Buy Bitcoin, cryptocurrency - Spot BTC wallet"
+wsId: SpotWalletapp
+title: "Spot - Bitcoin & crypto wallet"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.spot.spot
-launchDate: 
-latestUpdate: 2021-01-12
-apkVersionName: "4.19.0.2391-41377268"
-stars: 4.4
-ratings: 3448
-reviews: 1700
-size: 63M
+appCountry: 
+released: 2018-08-02
+updated: 2022-03-08
+version: "4.57.0"
+stars: 4.336
+ratings: 4767
+reviews: 489
+size: 94M
 website: https://www.spot-bitcoin.com
 repository: 
 issue: 
 icon: com.spot.spot.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-11-16
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: spot_bitcoin
-providerLinkedIn: company/spot-bitcoin
-providerFacebook: spot.bitcoin
-providerReddit: 
-
+twitter: spot_bitcoin
+social:
+- https://www.linkedin.com/company/spot-bitcoin
+- https://www.facebook.com/spot.bitcoin
 redirect_from:
   - /com.spot.spot/
 ---
-
 
 On their website we read:
 

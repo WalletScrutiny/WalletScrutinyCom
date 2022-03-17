@@ -1,37 +1,41 @@
 ---
+wsId: MathWallet
 title: "MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos"
 altTitle: 
-
-users: 10000
+authors:
+- danny
+users: 100000
 appId: com.medishares.android
-launchDate: 
-latestUpdate: 2020-12-22
-apkVersionName: "3.9.0"
-stars: 4.2
-ratings: 715
-reviews: 372
+appCountry: 
+released: 2018-04-17
+updated: 2022-03-11
+version: "4.3.5"
+stars: 3.73
+ratings: 2172
+reviews: 165
 size: 54M
-website: https://mathwallet.org
+website: https://www.mathwallet.org/
 repository: 
 issue: 
 icon: com.medishares.android.jpg
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-03
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-06-18
 signer: 
 reviewArchive:
-
-
-providerTwitter: Mathwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: Mathwallet
+social:
 redirect_from:
   - /com.medishares.android/
 ---
 
+**Update 2022-01-05**: It is available again.
+
+> *Last update*: 2022-01-04<br>
+> *Version*: 4.3.3
+
+**Update:** This app is not available on Google Play anymore.
 
 This wallet claims:
 

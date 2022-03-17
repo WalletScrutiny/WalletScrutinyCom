@@ -1,12 +1,15 @@
 ---
+wsId: Haven
 title: "Haven - Private Shopping"
 altTitle: 
+authors:
 
 users: 100000
 appId: io.ob1.nativeandroid
-launchDate: 
-latestUpdate: 2020-09-27
-apkVersionName: "1.3.7"
+appCountry: 
+released: 
+updated: 2020-09-27
+version: "1.3.7"
 stars: 3.7
 ratings: 394
 reviews: 173
@@ -16,26 +19,22 @@ repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-08-27
-reviewStale: true
+meta: defunct
+verdict: nonverifiable
+date: 2021-01-23
 signer: 
 reviewArchive:
 - date: 2020-08-04
-  version: "null"
-  apkHash: 
+  version: ""
+  appHash: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
-
-providerTwitter: HavenPrivacy
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: havenapp
-
+twitter: HavenPrivacy
+social:
+- https://www.reddit.com/r/havenapp
 redirect_from:
   - /io.ob1.nativeandroid/
 ---
-
 
 **Update:** [@StevieZollo](https://twitter.com/StevieZollo) sent a
 [tweet](https://twitter.com/StevieZollo/status/1299056449168052224):

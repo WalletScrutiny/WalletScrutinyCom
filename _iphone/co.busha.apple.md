@@ -1,33 +1,47 @@
 ---
-title: "Busha - Buy and Sell Bitcoins"
+wsId: busha
+title: "Busha: Trade BTC, ETH, SHIB"
 altTitle: 
-
+authors:
+- leo
 appId: co.busha.apple
+appCountry: 
 idd: 1450373493
 released: 2019-02-03
-updated: 2021-01-06
-version: "2.6.4"
-score: 4.34211
-reviews: 38
-size: 64629760
-developerWebsite: https://busha.co
+updated: 2022-03-08
+version: "3.1.0"
+stars: 4.08758
+reviews: 137
+size: 107599872
+website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: getbusha
+social:
+- https://www.facebook.com/getbusha
 ---
 
+The description
+
+> Won’t you rather trade and store your crypto assets on a platform you can
+  trust? Busha is a Nigerian based crypto exchange that offers you all these and
+  more.
+
+sounds like it's an app to access an account on a custodial platform.
+
+On their website they are more explicit:
+
+> **Safe & Secure**<br>
+  Our 24/7 monitoring systems, cold storage and industry-standard multi-sig
+  wallets ensure that your assets are the safest they can be.
+
+which is a list of features only relevant in a custodial context.
+
+Our verdict: **not verifiable**.

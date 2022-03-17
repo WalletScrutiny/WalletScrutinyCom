@@ -1,33 +1,33 @@
 ---
+wsId: huobi
 title: "Huobi - Buy & Sell Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.huobi.appStoreHuobiSystem
+appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2021-01-14
-version: "6.1.0"
-score: 4.82657
-reviews: 2808
-size: 204646400
-developerWebsite: http://www.hbg.com
+updated: 2022-03-11
+version: "6.8.4"
+stars: 4.51915
+reviews: 2167
+size: 339757056
+website: http://www.hbg.com
 repository: 
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-14
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: HuobiGlobal
+social:
+- https://www.facebook.com/huobiglobalofficial
 ---
 
+Neither on Google Play nor on their website can we find a claim of a
+non-custodial part to this app. We assume it is a purely custodial interface to
+the exchange of same name and therefore **not verifiable**.

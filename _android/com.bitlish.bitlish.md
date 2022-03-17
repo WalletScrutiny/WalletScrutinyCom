@@ -1,12 +1,15 @@
 ---
+wsId: 
 title: "Bitlish - crypto wallet"
 altTitle: 
+authors:
 
 users: 10000
 appId: com.bitlish.bitlish
-launchDate: 2017-07-11
-latestUpdate: 2020-01-20
-apkVersionName: "2.0.10"
+appCountry: 
+released: 2017-07-11
+updated: 2020-01-20
+version: "2.0.10"
 stars: 4
 ratings: 225
 reviews: 177
@@ -16,27 +19,19 @@ repository:
 issue: 
 icon: com.bitlish.bitlish.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: defunct
+verdict: custodial
 date: 2020-03-20
-reviewStale: false
 signer: 
 reviewArchive:
-- date: 2019-12-25
-  version: "2.0.10"
-  apkHash: 
-  gitRevision: 9fc3b5cc1037dfc222c49f94cf7604ec1bf0fe1f
-  verdict: custodial
-
-providerTwitter: bitlish_com
-providerLinkedIn: bitlish
-providerFacebook: bitlish.english
-providerReddit: 
-
+twitter: bitlish_com
+social:
+- https://www.linkedin.com/company/bitlish
+- https://www.facebook.com/bitlish.english
 redirect_from:
   - /com.bitlish.bitlish/
   - /posts/com.bitlish.bitlish/
 ---
-
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,
 Twitter, LinkedIn and Facebook and on their website we read:

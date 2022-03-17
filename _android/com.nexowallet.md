@@ -1,37 +1,36 @@
 ---
-title: "Nexo - Crypto Banking Account"
+wsId: nexo
+title: "Nexo: Buy BTC, ETH, SOL & AVAX"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.nexowallet
-launchDate: 
-latestUpdate: 2020-12-18
-apkVersionName: "1.3.0"
-stars: 4.1
-ratings: 5420
-reviews: 2506
-size: 50M
+appCountry: 
+released: 2019-06-28
+updated: 2022-03-04
+version: "2.2.21"
+stars: 4.26972
+ratings: 21149
+reviews: 1542
+size: 96M
 website: https://nexo.io
 repository: 
 issue: 
 icon: com.nexowallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-17
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: NexoFinance
-providerLinkedIn: 
-providerFacebook: nexofinance
-providerReddit: Nexo
-
+twitter: NexoFinance
+social:
+- https://www.facebook.com/nexofinance
+- https://www.reddit.com/r/Nexo
 redirect_from:
   - /com.nexowallet/
 ---
-
 
 In the description on Google Play we read:
 

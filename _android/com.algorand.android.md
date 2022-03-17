@@ -1,33 +1,32 @@
 ---
-title: "Algorand Wallet"
+wsId: 
+title: "Pera Algo Wallet"
 altTitle: 
+authors:
 
-users: 10000
+users: 100000
 appId: com.algorand.android
-launchDate: 
-latestUpdate: 2020-12-01
-apkVersionName: "4.5.3"
-stars: 4.5
-ratings: 170
-reviews: 99
-size: 34M
-website: 
+appCountry: 
+released: 2019-06-07
+updated: 2022-02-24
+version: "5.0.3"
+stars: 4.4004526
+ratings: 14091
+reviews: 1008
+size: 63M
+website: https://www.algorand.com
 repository: 
 issue: 
 icon: com.algorand.android.png
 bugbounty: 
-verdict: nobtc # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nobtc
 date: 2020-12-06
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.algorand.android/
 ---
+

@@ -1,40 +1,39 @@
 ---
-title: "Paxful Bitcoin Wallet"
+wsId: Paxful
+title: "Paxful Bitcoin & Crypto Wallet | Buy BTC ETH USDT"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.paxful.wallet
-launchDate: 2019-04-30
-latestUpdate: 2021-01-05
-apkVersionName: "1.7.0.528"
-stars: 3.7
-ratings: 12716
-reviews: 7750
-size: 29M
-website: https://paxful.com/mobile-wallet-app
+appCountry: 
+released: 2019-04-30
+updated: 2022-03-05
+version: "2.8.4.653"
+stars: 3.1933334
+ratings: 21528
+reviews: 1646
+size: 28M
+website: https://Paxful.com
 repository: 
 issue: 
 icon: com.paxful.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: paxful
-providerLinkedIn: 
-providerFacebook: paxful
-providerReddit: paxful
-
+twitter: paxful
+social:
+- https://www.facebook.com/paxful
+- https://www.reddit.com/r/paxful
 redirect_from:
   - /paxful/
   - /com.paxful.wallet/
   - /posts/2019/11/paxful/
   - /posts/com.paxful.wallet/
 ---
-
 
 According to their Playstore description:
 

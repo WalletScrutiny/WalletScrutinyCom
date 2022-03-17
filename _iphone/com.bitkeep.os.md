@@ -1,33 +1,32 @@
 ---
-title: "BitKeep"
+wsId: bitkeep
+title: "BitKeep: Bitcoin Crypto Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitkeep.os
+appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2021-01-12
-version: "5.0.2"
-score: 3.66667
-reviews: 6
-size: 59671552
-developerWebsite: https://bitkeep.com
+updated: 2022-03-13
+version: "7.0.0"
+stars: 4.81884
+reviews: 276
+size: 77350912
+website: https://bitkeep.com
 repository: 
 issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: BitKeepOS
+social:
+- https://www.facebook.com/bitkeep
+- https://github.com/bitkeepcom
 ---
 
+ {% include copyFromAndroid.html %}

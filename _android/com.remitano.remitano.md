@@ -1,38 +1,36 @@
 ---
+wsId: Remitano
 title: "Remitano - Buy & Sell Bitcoin Fast & Securely"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.remitano.remitano
-launchDate: 
-latestUpdate: 2021-01-15
-apkVersionName: "5.4.1"
-stars: 4.4
-ratings: 9874
-reviews: 4620
-size: 30M
+appCountry: 
+released: 2016-07-24
+updated: 2022-03-14
+version: "6.43.0"
+stars: 4.45
+ratings: 19172
+reviews: 306
+size: 39M
 website: https://remitano.com
 repository: 
 issue: 
 icon: com.remitano.remitano.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: remitano
-providerLinkedIn: company/Remitano
-providerFacebook: remitano
-providerReddit: 
-
+twitter: remitano
+social:
+- https://www.linkedin.com/company/Remitano
+- https://www.facebook.com/remitano
 redirect_from:
-  - /com.remitano.remitano/
   - /posts/com.remitano.remitano/
 ---
-
 
 This app is an interface to an exchange which holds your coins. On Google Play
 and their website there is no claim to a non-custodial part to the app. As a

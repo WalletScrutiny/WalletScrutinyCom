@@ -1,44 +1,39 @@
 ---
-title: "Bitcoin & Crypto Exchange - BitBay"
+wsId: bitpaytrading
+title: "Zonda - crypto exchange"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: net.bitbay.bitcoin
-launchDate: 
-latestUpdate: 2020-11-05
-apkVersionName: "1.1.15"
-stars: 3.9
-ratings: 689
-reviews: 353
-size: 16M
-website: https://bitbay.net
+appCountry: 
+released: 2018-11-19
+updated: 2022-03-14
+version: "1.1.29"
+stars: 3.4
+ratings: 1131
+reviews: 9
+size: 13M
+website: https://zondaglobal.com
 repository: 
 issue: 
 icon: net.bitbay.bitcoin.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-11-17
-reviewStale: false
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: BitBay
-providerLinkedIn: company/bitbay
-providerFacebook: BitBay
-providerReddit: 
-
+twitter: BitBay
+social:
+- https://www.linkedin.com/company/bitbay
+- https://www.facebook.com/BitBay
+- https://www.reddit.com/r/BitBayExchange
 redirect_from:
-  - /net.bitbay.bitcoin/
 ---
 
-
-BitPay is an old player in the space and is best known as a payment processor.
-This app's description loses no word on who holds the keys to your coins but on
-their website we can read:
-
-> Funds safety
-> We keep all cryptocurrency funds on so called cold wallets. It means they are
-  not connected to exchange servers directly.
-
-which means this app is a custodial offering and therefore **not verifiable**.
+This app's description loses no word on who holds the keys to your coins. Their
+website is mainly about the exchange and not about the mobile appp but there is
+[a site about that](https://bitbay.net/en/mobile), too. There they only talk
+about exchange features, too and lose no word about who holds the keys which
+probably means this app is a custodial offering and therefore **not verifiable**.

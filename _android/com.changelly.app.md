@@ -1,37 +1,35 @@
 ---
-title: "Changelly: Instant Bitcoin and Crypto Exchange"
+wsId: 
+title: "Buy Bitcoin & Crypto Exchange"
 altTitle: 
-
-users: 50000
+authors:
+- leo
+- danny
+users: 100000
 appId: com.changelly.app
-launchDate: 
-latestUpdate: 2020-06-15
-apkVersionName: "2.6"
-stars: 4.5
-ratings: 759
-reviews: 451
-size: 13M
-website: 
+appCountry: 
+released: 2018-08-28
+updated: 2022-01-21
+version: "2.7.12"
+stars: 4.8030305
+ratings: 5008
+reviews: 955
+size: 19M
+website: https://changelly.com/
 repository: 
 issue: 
 icon: com.changelly.app.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: ok
+verdict: nowallet
+date: 2021-11-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.changelly.app/
   - /posts/com.changelly.app/
 ---
-
 
 This app has no wallet feature in the sense that you hold Bitcoins in the app.

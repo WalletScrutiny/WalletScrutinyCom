@@ -1,37 +1,36 @@
 ---
-title: "ProBit Global: Buy & Sell Bitcoin. Crypto Exchange"
+wsId: 
+title: "ProBit Global: Trade, HODL"
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.probit.app.android2.release.global
-launchDate: 
-latestUpdate: 2021-01-12
-apkVersionName: "1.29.3.5"
-stars: 3.7
-ratings: 2731
-reviews: 1827
-size: 18M
+appCountry: 
+released: 2019-06-19
+updated: 2022-03-08
+version: "1.38.1"
+stars: 2.6
+ratings: 6161
+reviews: 243
+size: 21M
 website: https://www.probit.com
 repository: 
 issue: 
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-11-28
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: ProBit_Exchange
-providerLinkedIn: company/probit-exchange
-providerFacebook: probitexchange
-providerReddit: 
-
+twitter: ProBit_Exchange
+social:
+- https://www.linkedin.com/company/probit-exchange
+- https://www.facebook.com/probitexchange
 redirect_from:
   - /com.probit.app.android2.release.global/
 ---
-
 
 Probit appears to also and mainly be an exchange and as we can't find claims to
 the contrary, we assume this app is a custodial offering and thus **not verifiable**.

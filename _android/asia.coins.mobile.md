@@ -1,44 +1,44 @@
 ---
-title: "Coins.ph Wallet"
+wsId: coinsph
+title: "Coins.ph: Crypto & E-wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000000
 appId: asia.coins.mobile
-launchDate: 2014-10-01
-latestUpdate: 2020-12-18
-apkVersionName: "3.5.20"
-stars: 4.4
-ratings: 87481
-reviews: 38489
-size: 51M
+appCountry: 
+released: 2014-10-01
+updated: 2022-03-01
+version: "4.1.3"
+stars: 3.747899
+ratings: 109535
+reviews: 449
+size: 41M
 website: https://coins.ph
 repository: 
 issue: 
 icon: asia.coins.mobile.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-11-17
   version: "3.3.92"
-  apkHash: 
+  appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
-
-providerTwitter: coinsph
-providerLinkedIn: company/coins-ph
-providerFacebook: coinsph
-providerReddit: 
-
+twitter: coinsph
+social:
+- https://www.linkedin.com/company/coins-ph
+- https://www.facebook.com/coinsph
 redirect_from:
   - /coinsph/
   - /asia.coins.mobile/
   - /posts/2019/11/coinsph/
   - /posts/asia.coins.mobile/
 ---
-
 
 Coins.ph Wallet
 being a very broad product and not strongly focused on being a Bitcoin wallet

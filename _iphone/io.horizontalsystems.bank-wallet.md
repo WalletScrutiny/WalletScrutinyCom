@@ -1,34 +1,31 @@
 ---
+wsId: Unstoppable
 title: "Unstoppable Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: io.horizontalsystems.bank-wallet
+appCountry: 
 idd: 1447619907
 released: 2019-01-10
-updated: 2020-12-11
-version: "0.18"
-score: 4.74346
-reviews: 191
-size: 45149184
-developerWebsite: https://horizontalsystems.io/
+updated: 2022-03-09
+version: "0.24"
+stars: 4.65746
+reviews: 362
+size: 47768576
+website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nonverifiable
 date: 2020-12-19
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: unstoppablebyhs
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: UNSTOPPABLEWallet
-
-redirect_from:
-
+twitter: unstoppablebyhs
+social:
+- https://www.reddit.com/r/UNSTOPPABLEWallet
 ---
 
 The provider claims:

@@ -1,38 +1,38 @@
 ---
+wsId: Sylo
 title: "Sylo - Smart Wallet & Messenger"
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: io.sylo.dapp
-launchDate: 
-latestUpdate: 2020-12-21
-apkVersionName: "3.0.6-1"
-stars: 4.3
-ratings: 541
-reviews: 280
-size: 336M
-website: https://www.sylo.io/wallet
+appCountry: 
+released: 2019-09-10
+updated: 2022-02-11
+version: "3.1.40"
+stars: 4.038961
+ratings: 758
+reviews: 44
+size: 335M
+website: http://www.sylo.io
 repository: 
 issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-06-10
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: sylo
-providerLinkedIn: company/sylo.io
-providerFacebook: sylo.io
-providerReddit: sylo_io
-
+twitter: sylo
+social:
+- https://www.linkedin.com/company/sylo.io
+- https://www.facebook.com/sylo.io
+- https://www.reddit.com/r/sylo_io
 redirect_from:
   - /io.sylo.dapp/
   - /posts/io.sylo.dapp/
 ---
-
 
 This app recently came to our attention as it "can be used to buy coke with
 bitcoin". Their Google Play description indeed lists BTC as one of the supported

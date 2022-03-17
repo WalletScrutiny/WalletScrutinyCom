@@ -1,37 +1,39 @@
 ---
+wsId: coinpayapp
 title: "Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇"
 altTitle: 
-
-users: 1000
+authors:
+- leo
+- danny
+users: 5000
 appId: com.coinpay
-launchDate: 
-latestUpdate: 2020-08-23
-apkVersionName: "1.0.7"
-stars: 3.8
-ratings: 13
-reviews: 11
+appCountry: 
+released: 2020-05-26
+updated: 2020-08-23
+version: "1.0.7"
+stars: 3.125
+ratings: 29
+reviews: 12
 size: 5.4M
 website: https://www.coinpayapp.com
 repository: 
 issue: 
 icon: com.coinpay.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-14
-reviewStale: false
+meta: stale
+verdict: nosource
+date: 2021-08-19
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.coinpay/
 ---
 
+**Update 2022-01-04** [We asked on twitter](https://twitter.com/BitcoinWalletz/status/1478234660219981826) why Coinpay hasn't updated their Android app for more than a year now when their iOS app has been updated recently.
+
+**Previous Analysis**
 
 > We are a non-custodial wallet, so users can send Bitcoin and other
   cryptocurrencies globally with direct access to the blockchain.

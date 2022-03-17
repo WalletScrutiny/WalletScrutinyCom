@@ -1,37 +1,34 @@
 ---
+wsId: 
 title: "MAX-Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 5000
 appId: com.maxonrow.wallet
-launchDate: 2019-08-31
-latestUpdate: 2020-06-02
-apkVersionName: "2.0.05"
-stars: 4.1
-ratings: 65
-reviews: 37
-size: 41M
+appCountry: 
+released: 2019-08-31
+updated: 2020-10-20
+version: "2.1.16"
+stars: 3.9
+ratings: 73
+reviews: 43
+size: 55M
 website: https://www.maxonrow.com
 repository: 
 issue: 
 icon: com.maxonrow.wallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-30
-reviewStale: true
+meta: defunct
+verdict: nobtc
+date: 2021-03-17
 signer: 
 reviewArchive:
-
-
-providerTwitter: maxonrow
-providerLinkedIn: company/maxonrow
-providerFacebook: maxonrowblockchain
-providerReddit: 
-
+twitter: maxonrow
+social:
+- https://www.linkedin.com/company/maxonrow
+- https://www.facebook.com/maxonrowblockchain
 redirect_from:
-  - /com.maxonrow.wallet/
-  - /posts/com.maxonrow.wallet/
 ---
-
 
 We find no mention of Bitcoin on the description or the website.

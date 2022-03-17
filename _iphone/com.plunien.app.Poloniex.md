@@ -1,33 +1,45 @@
 ---
+wsId: Poloniex
 title: "Poloniex Crypto Exchange"
 altTitle: 
-
+authors:
+- leo
 appId: com.plunien.app.Poloniex
+appCountry: 
 idd: 1234141021
 released: 2017-05-14
-updated: 2018-10-04
-version: "1.13.8"
-score: 4.61301
-reviews: 1951
-size: 104064000
-developerWebsite: https://www.poloniex.com
+updated: 2022-03-14
+version: "1.27.0"
+stars: 4.58063
+reviews: 2034
+size: 73118720
+website: https://www.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-10-01
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+- date: 2021-05-20
+  version: "1.17.0"
+  appHash: 
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: custodial
+twitter: Poloniex
+social:
+- https://www.facebook.com/poloniex
 ---
 
+This app is not primarily advertised as a wallet. It is an interface to a crypto
+exchange but on the App Store description we read:
+
+> Manage your balance and trades on the go so you never miss a market move.
+  Deposit and withdraw from your crypto wallet, monitor account balances and
+  orders, view real-time ticker updates across all markets, and choose your
+  favorite cryptocurrencies and create price alerts for them.
+
+So it has a wallet integrated which is custodial by the sound of it and
+therefore **not verifiable**.

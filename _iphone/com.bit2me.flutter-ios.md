@@ -1,33 +1,33 @@
 ---
-title: "Bit2Me - Comprar Bitcoins"
+wsId: bit2me
+title: "Bit2Me - Buy Bitcoin"
 altTitle: 
-
+authors:
+- leo
 appId: com.bit2me.flutter-ios
+appCountry: 
 idd: 1459809738
 released: 2019-06-04
-updated: 2021-01-10
-version: "2.0.47"
-score: 2.33333
-reviews: 3
-size: 91799552
-developerWebsite: https://bit2me.com
+updated: 2022-03-12
+version: "2.2.8"
+stars: 4.44444
+reviews: 45
+size: 88554496
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: bit2me
+social:
+- https://www.linkedin.com/company/bit2me
+- https://www.facebook.com/bit2me
 ---
 
+This appears to be the interface for an exchange. We could not find any claims
+about you owning your keys. As a custodial service it is **not verifiable**.

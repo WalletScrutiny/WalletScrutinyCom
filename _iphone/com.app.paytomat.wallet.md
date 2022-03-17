@@ -1,33 +1,32 @@
 ---
+wsId: paytomat
 title: "Paytomat Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.app.paytomat.wallet
+appCountry: 
 idd: 1415300709
 released: 2018-08-12
-updated: 2020-07-06
-version: "1.37"
-score: 4.55
-reviews: 20
-size: 67512320
-developerWebsite: https://paytomat.com
+updated: 2021-02-03
+version: "1.37.2"
+stars: 4.40909
+reviews: 22
+size: 65810432
+website: https://paytomat.com
 repository: 
 issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: stale
+verdict: nosource
+date: 2022-01-31
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: paytomat
+social:
+- https://www.linkedin.com/company/11433285
+- https://www.facebook.com/paytomat
 ---
 
+{% include copyFromAndroid.html %}

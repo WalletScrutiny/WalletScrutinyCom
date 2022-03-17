@@ -1,39 +1,37 @@
 ---
-title: "XcelPay - Secure Bitcoin & Ethereum Wallet"
+wsId: XcelPay
+title: "XcelPay: Bitcoin, Crypto & Ethereum Wallet App"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.XcelTrip.XcelPay
-launchDate: 
-latestUpdate: 2020-12-22
-apkVersionName: "2.13.6"
-stars: 4.1
-ratings: 355
-reviews: 233
-size: 31M
+appCountry: 
+released: 2019-05-30
+updated: 2022-02-15
+version: "2.62.2"
+stars: 4.5882354
+ratings: 3713
+reviews: 70
+size: 34M
 website: http://www.xcelpay.io
 repository: 
 issue: 
-icon: com.XcelTrip.XcelPay.jpg
+icon: com.XcelTrip.XcelPay.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-06
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-25
 signer: 
 reviewArchive:
-
-
-providerTwitter: XcelPayWallet
-providerLinkedIn: in/xcel-pay-1b6228172
-providerFacebook: xcelpay
-providerReddit: 
-
+twitter: XcelPayWallet
+social:
+- https://www.linkedin.com/company/in/xcelpaywallet
+- https://www.facebook.com/xcelpay
 redirect_from:
-  - /com.XcelTrip.XcelPay/
 ---
 
-
-This wallet has no claim of being non-custodial on Google Play.
+This wallet has no claim of being non-custodial in the app's description.
 
 The one-star ratings over and over tell:
 
@@ -42,3 +40,4 @@ The one-star ratings over and over tell:
 * funds cannot be sent to a different wallet
 * SCAM
 
+As a probably custodial app, it is **not verifiable**.

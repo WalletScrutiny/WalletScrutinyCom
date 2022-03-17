@@ -1,38 +1,37 @@
 ---
-title: "Abra Bitcoin Crypto Wallet Buy Trade Earn Interest"
+wsId: goabra
+title: "Abra: Buy Bitcoin & Earn Yield"
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.plutus.wallet
-launchDate: 2015-03-04
-latestUpdate: 2020-12-15
-apkVersionName: "Varies with device"
-stars: 4.5
-ratings: 10884
-reviews: 5062
+appCountry: 
+released: 2015-03-04
+updated: 2022-03-14
+version: "Varies with device"
+stars: 4.128931
+ratings: 44411
+reviews: 2591
 size: Varies with device
-website: https://www.abra.com
+website: https://www.abra.com/
 repository: 
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-10-12
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: AbraGlobal
-providerLinkedIn: company/abra
-providerFacebook: GoAbraGlobal
-providerReddit: 
-
+twitter: AbraGlobal
+social:
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 redirect_from:
   - /com.plutus.wallet/
   - /posts/com.plutus.wallet/
 ---
-
 
 The Google Play description certainly sounds like a custodial wallet:
 

@@ -1,37 +1,34 @@
 ---
-title: "Incognito - Anonymous Bitcoin Wallet"
+wsId: incognito
+title: "Incognito Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.incognito.wallet
-launchDate: 
-latestUpdate: 2020-12-28
-apkVersionName: "3.11.0"
-stars: 4.1
-ratings: 194
-reviews: 112
-size: 44M
-website: https://incognito.org
+appCountry: 
+released: 2019-08-12
+updated: 2022-01-28
+version: "5.2.0"
+stars: 3.92
+ratings: 344
+reviews: 62
+size: 49M
+website: https://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png
 bugbounty: 
-verdict: nonverifiable # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nonverifiable
 date: 2020-12-07
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: incognitochain
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: incognitochain
+social:
 redirect_from:
   - /com.incognito.wallet/
 ---
-
 
 After many many reviews of custodial wallets, this one makes a promising claim:
 

@@ -1,33 +1,31 @@
 ---
-title: "Multi Crypto Wallet－Freewallet"
+wsId: mwfreewallet
+title: "Crypto Coin Wallet－Freewallet"
 altTitle: 
-
+authors:
+- leo
 appId: mw.org.freewallet.app
+appCountry: 
 idd: 1274003898
 released: 2017-09-01
-updated: 2020-12-09
-version: "1.14.15"
-score: 4.17257
-reviews: 649
-size: 45145088
-developerWebsite: https://freewallet.org
+updated: 2022-01-15
+version: "1.16.9"
+stars: 3.68587
+reviews: 1076
+size: 35689472
+website: https://freewallet.org
 repository: 
 issue: 
 icon: mw.org.freewallet.app.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-11-03
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: freewalletorg
+social:
+- https://www.facebook.com/freewallet.org
 ---
 
+{% include copyFromAndroid.html %}

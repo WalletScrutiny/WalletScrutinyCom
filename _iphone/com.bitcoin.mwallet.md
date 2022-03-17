@@ -1,33 +1,36 @@
 ---
+wsId: mwallet
 title: "Bitcoin Wallet: buy BTC & BCH"
 altTitle: 
-
+authors:
+- leo
 appId: com.bitcoin.mwallet
+appCountry: 
 idd: 1252903728
 released: 2017-07-11
-updated: 2020-12-15
-version: "6.10.4"
-score: 4.11327
-reviews: 2966
-size: 94086144
-developerWebsite: 
+updated: 2022-03-01
+version: "7.13.3"
+stars: 4.50518
+reviews: 11972
+size: 143020032
+website: https://wallet.bitcoin.com/
 repository: 
 issue: 
 icon: com.bitcoin.mwallet.jpg
 bugbounty: 
-verdict: wip # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-22
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-20
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: bitcoincom
+social:
+- https://www.facebook.com/buy.bitcoin.news
+- https://www.reddit.com/r/btc
 ---
 
+According to
+[the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
+this wallet is closed source until further notice. There was no indication of a
+change by 2020-05-20. We assume it is still
+supposed to be non-custodial but without source code, this is **not verifiable**.

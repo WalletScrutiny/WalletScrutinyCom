@@ -1,3 +1,5 @@
+// this was not meant to be committed in that commit. I think it was just an experiment.
+
 const request = require("request")
 const fs = require('fs')
 
@@ -81,7 +83,7 @@ const headers = [
 request({
   url: url,
   json: true
-}, function (error, response, body) {
+}, (error, response, body) => {
   if (!error && response.statusCode === 200) {
     const table = body.values
     remoteHeaders = table.shift()

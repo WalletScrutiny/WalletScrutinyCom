@@ -1,37 +1,35 @@
 ---
+wsId: mercurycash
 title: "Mercury Cash"
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 50000
 appId: com.adenter.mercurycash
-launchDate: 
-latestUpdate: 2020-12-20
-apkVersionName: "4.2.8"
-stars: 4.2
-ratings: 164
-reviews: 116
-size: 82M
+appCountry: 
+released: 2017-07-28
+updated: 2022-03-02
+version: "4.4"
+stars: 4.189189
+ratings: 228
+reviews: 16
+size: 104M
 website: http://mercury.cash
 repository: 
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-verdict: custodial # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: custodial
 date: 2020-08-06
-reviewStale: true
 signer: 
 reviewArchive:
-
-
-providerTwitter: mercurycash
-providerLinkedIn: 
-providerFacebook: mercurycash
-providerReddit: 
-
+twitter: mercurycash
+social:
+- https://www.facebook.com/mercurycash
 redirect_from:
   - /com.adenter.mercurycash/
 ---
-
 
 This app makes no claims about self-custody so we have to assume it is a
 custodial product and thus **not verifiable**.

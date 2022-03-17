@@ -1,37 +1,34 @@
 ---
+wsId: Qcan
 title: "Mobile Bitcoin Wallet"
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
-launchDate: 
-latestUpdate: 2020-11-11
-apkVersionName: "0.8.848"
-stars: 4.3
-ratings: 110
-reviews: 74
-size: 28M
+appCountry: 
+released: 2017-08-06
+updated: 2021-06-03
+version: "0.8.851"
+stars: 4.5384617
+ratings: 166
+reviews: 13
+size: 29M
 website: https://qcan.com
 repository: 
 issue: 
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
-verdict: nosource # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
+meta: ok
+verdict: nosource
 date: 2020-12-08
-reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social:
 redirect_from:
   - /com.qcan.mobile.bitcoin.wallet/
 ---
-
 
 > **Complete Control**<br>
   Your Bitcoin, 100% Under Your Control. You hold the key. No intermediary.

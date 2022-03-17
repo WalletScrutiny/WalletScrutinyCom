@@ -1,35 +1,37 @@
 ---
+wsId: muun
 title: "Muun Wallet"
 altTitle: 
-
+authors:
+- leo
 appId: com.muun.falcon
+appCountry: 
 idd: 1482037683
 released: 2019-10-11
-updated: 2021-01-08
-version: "2.0.0"
-score: 4.81818
-reviews: 11
-size: 78841856
-developerWebsite: https://www.muun.com
+updated: 2022-03-09
+version: "2.5.6"
+stars: 4.42856
+reviews: 98
+size: 82333696
+website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
 icon: com.muun.falcon.jpg
 bugbounty: 
-verdict: fewusers # wip fewusers nowallet nobtc obfuscated custodial nosource nonverifiable reproducible bounty defunct
-date: 2020-12-21
-reviewStale: true
+meta: ok
+verdict: nonverifiable
+date: 2021-07-30
 signer: 
 reviewArchive:
-
-
-providerTwitter: muunwallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-
+twitter: muunwallet
+social:
 ---
+
+**Update 2021-07-30**: While the Android version made some attempts at
+reproducibility, the iPhone version, which is in a different code repository,
+doesn't claim to be reproducible.
+
+# Old Analysis
 
 This provider claims:
 
