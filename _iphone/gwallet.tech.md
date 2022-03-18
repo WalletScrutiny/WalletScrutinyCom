@@ -1,6 +1,6 @@
 ---
 wsId: GWalletApp
-title: "GWallet App"
+title: GWallet App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: be
 idd: 1552665993
 released: 2021-02-17
 updated: 2022-01-14
-version: "1.1.46"
+version: 1.1.46
 stars: 
 reviews: 
 size: 64410624
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

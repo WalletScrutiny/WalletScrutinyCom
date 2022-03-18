@@ -1,6 +1,6 @@
 ---
 wsId: wManager
-title: "W MANAGER"
+title: W MANAGER
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.brilliantts.fuzew
 appCountry: us
 released: 2018-07-25
 updated: 2021-08-10
-version: "1.0.23"
+version: 1.0.23
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: w_fuze
 social:
 - https://www.facebook.com/Fuzewcard
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

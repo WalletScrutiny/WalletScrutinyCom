@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Yet Another Bitcoin Wallet"
+title: Yet Another Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: pt.ipleiria.estg.dei.yabw
 appCountry: 
 released: 2018-05-02
 updated: 2018-06-25
-version: "1.2.4"
+version: 1.2.4
 stars: 4.4
 ratings: 5
 reviews: 2
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-09**: This app is no more.

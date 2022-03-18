@@ -1,6 +1,6 @@
 ---
 wsId: PayBito
-title: "PayBito - Trade Bitcoin and Crypto"
+title: PayBito - Trade Bitcoin and Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hashcash.paybito
 appCountry: 
 released: 2019-10-24
 updated: 2022-01-28
-version: "2.2.11"
+version: 2.2.11
 stars: 4.5
 ratings: 255
 reviews: 213
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paybito
 social:
 - https://www.facebook.com/paybito
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-02-03**: This app is no more.

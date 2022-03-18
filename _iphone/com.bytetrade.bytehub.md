@@ -1,6 +1,6 @@
 ---
 wsId: bytehub
-title: "ByteHub"
+title: ByteHub
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ph
 idd: 1453357819
 released: 2019-06-05
 updated: 2021-01-16
-version: "1.1.210116"
+version: 1.1.210116
 stars: 3.75
 reviews: 4
 size: 142685184
@@ -22,10 +22,11 @@ meta: stale
 verdict: nosource
 date: 2022-01-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
+
 ---
 
 > With ByteHub, you are able to store, send, buy or sell the most kinds of cryptocurrency available in the market. ByteHub is also a carrier for diverse third-party DAPPs. A whole blockchain ecology can be explored in one application.

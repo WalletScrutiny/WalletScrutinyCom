@@ -1,5 +1,5 @@
 ---
-title: "Blockstream Jade"
+title: Blockstream Jade
 appId: blockstreamjade
 authors:
 - kiwilamb
@@ -7,11 +7,14 @@ authors:
 released: 2021-01-01
 discontinued: 
 updated: 2021-10-19
-version: "0.1.30"
+version: 0.1.30
 binaries: 
-dimensions: [24, 60, 17]
+dimensions:
+- 24
+- 60
+- 17
 weight: 
-provider: "Blockstream Corporation Inc."
+provider: Blockstream Corporation Inc.
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
 shop: https://store.blockstream.com/product/blockstream-jade-token/
@@ -27,9 +30,10 @@ date: 2021-11-02
 signer: 
 reviewArchive: 
 twitter: Blockstream
-social: 
+social:
 - https://www.linkedin.com/company/blockstream
 - https://www.facebook.com/Blockstream
+
 ---
 
 **Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are

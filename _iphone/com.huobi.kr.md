@@ -1,6 +1,6 @@
 ---
 wsId: huobi_kr
-title: "후오비"
+title: 후오비
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: kr
 idd: 1375898166
 released: 2018-05-26
 updated: 2022-01-27
-version: "3.6.6"
+version: 3.6.6
 stars: 2.92958
 reviews: 284
 size: 154582016
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: huobi_korea
 social:
 - https://www.facebook.com/huobikorea
+
 ---
 
 **Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)

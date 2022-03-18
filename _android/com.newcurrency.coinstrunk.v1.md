@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coins Wallet for bitcoin and litecoin"
+title: Coins Wallet for bitcoin and litecoin
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.newcurrency.coinstrunk.v1
 appCountry: 
 released: 2020-10-15
 updated: 2022-03-09
-version: "1.12"
+version: '1.12'
 stars: 4.0983605
 ratings: 635
 reviews: 45
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > This wallet helps people to create bitcoin or litecoin transactions

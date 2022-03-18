@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Anwonder Crypto Wallet"
+title: Anwonder Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.anwonder.wallet
 appCountry: 
 released: 2021-05-30
 updated: 2021-05-31
-version: "1.0.1"
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

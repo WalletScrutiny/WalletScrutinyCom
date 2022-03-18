@@ -1,6 +1,6 @@
 ---
 wsId: XcelPay
-title: "XcelPay: Bitcoin, Crypto & Ethereum Wallet App"
+title: 'XcelPay: Bitcoin, Crypto & Ethereum Wallet App'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.XcelTrip.XcelPay
 appCountry: 
 released: 2019-05-30
 updated: 2022-02-15
-version: "2.62.2"
+version: 2.62.2
 stars: 4.5882354
 ratings: 3713
 reviews: 70
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
-redirect_from:
+redirect_from: 
+
 ---
 
 This wallet has no claim of being non-custodial in the app's description.

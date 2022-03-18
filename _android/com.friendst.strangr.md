@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin Wallet — Crypto Wallet"
-altTitle: "Bitcoin Wallet by CryptWallet - Finance Services"
+title: Bitcoin Wallet — Crypto Wallet
+altTitle: Bitcoin Wallet by CryptWallet - Finance Services
 authors:
 - danny
 users: 10000
@@ -9,7 +9,7 @@ appId: com.friendst.strangr
 appCountry: 
 released: 2020-05-02
 updated: 2021-05-26
-version: "1.1"
+version: '1.1'
 stars: 2
 ratings: 
 reviews: 3
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Updated Review and Verdict 2021-11-01

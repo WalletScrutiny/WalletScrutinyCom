@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Exchange"
+title: Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.tradetoolsfx.cryptoexchange
 appCountry: 
 released: 2018-08-10
 updated: 2019-07-31
-version: "1.0.8"
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

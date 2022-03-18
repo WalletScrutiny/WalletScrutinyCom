@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: "Luno Bitcoin & Cryptocurrency"
+title: Luno Bitcoin & Cryptocurrency
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 927362479
 released: 2014-11-03
 updated: 2022-03-11
-version: "8.3.4"
+version: 8.3.4
 stars: 4.38337
 reviews: 3344
 size: 109685760
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal
 - https://www.facebook.com/luno
+
 ---
 
 This app's Android version had a clear statement about being custodial in the

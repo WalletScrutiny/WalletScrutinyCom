@@ -1,6 +1,6 @@
 ---
 wsId: CryptoTabPro
-title: "CryptoTab Browser Pro"
+title: CryptoTab Browser Pro
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1524974223
 released: 2020-09-21
 updated: 2020-09-24
-version: "5.4.4"
+version: 5.4.4
 stars: 2.70833
 reviews: 120
 size: 121089024
@@ -22,9 +22,10 @@ meta: stale
 verdict: nowallet
 date: 2022-01-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

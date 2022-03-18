@@ -1,6 +1,6 @@
 ---
 wsId: exmo
-title: "EXMO: Buy & Sell Bitcoin (BTC) on Crypto Exchange"
+title: 'EXMO: Buy & Sell Bitcoin (BTC) on Crypto Exchange'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.exmo
 appCountry: 
 released: 2019-11-12
 updated: 2022-03-14
-version: "3.5.2"
+version: 3.5.2
 stars: 3.375
 ratings: 2774
 reviews: 41
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
-redirect_from:
+redirect_from: 
+
 ---
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my EXMO funds kept?"

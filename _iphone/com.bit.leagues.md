@@ -1,6 +1,6 @@
 ---
 wsId: BitLeague
-title: "BitLeague - Bitcoin Banking"
+title: BitLeague - Bitcoin Banking
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1460001613
 released: 2019-04-30
 updated: 2021-05-14
-version: "2.15"
+version: '2.15'
 stars: 4.28946
 reviews: 38
 size: 49214464
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
+
 ---
 
 {% include copyFromAndroid.html %}

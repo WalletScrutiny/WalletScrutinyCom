@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "RenrenBit"
+title: RenrenBit
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.dcash.wallet
 appCountry: 
 released: 
 updated: 2020-07-27
-version: "1.7.6"
+version: 1.7.6
 stars: 5
 ratings: 5
 reviews: 2
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-03-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app looks like a custodial offering:

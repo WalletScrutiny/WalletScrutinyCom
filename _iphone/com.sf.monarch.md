@@ -1,6 +1,6 @@
 ---
 wsId: Monarch
-title: "Monarch Wallet"
+title: Monarch Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1386397997
 released: 2018-06-12
 updated: 2022-03-09
-version: "1.6.11"
+version: 1.6.11
 stars: 4.72911
 reviews: 395
 size: 129781760
@@ -22,12 +22,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Monarchtoken
 social:
 - https://www.linkedin.com/company/monarchtoken
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
+
 ---
 
 This app appears to have been created for Monarch Tokens but it also features a

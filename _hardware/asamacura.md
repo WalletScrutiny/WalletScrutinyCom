@@ -1,5 +1,5 @@
 ---
-title: "Asamacura"
+title: Asamacura
 appId: asamacura
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Asamacura"
+provider: Asamacura
 providerWebsite: 
 website: 
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware wallet looks to be defunct, there is very little information that can be found about this wallet.

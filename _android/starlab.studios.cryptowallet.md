@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Crypto Wallets: Coinmama, Crypto.com Wallets"
-altTitle: "(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets"
+title: 'Crypto Wallets: Coinmama, Crypto.com Wallets'
+altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
 users: 1000
@@ -9,7 +9,7 @@ appId: starlab.studios.cryptowallet
 appCountry: 
 released: 2021-06-01
 updated: 2021-10-27
-version: "1.3.7"
+version: 1.3.7
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: fake
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Warning:** Proceed with caution when using this app.

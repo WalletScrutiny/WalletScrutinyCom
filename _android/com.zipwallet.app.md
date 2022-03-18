@@ -1,6 +1,6 @@
 ---
 wsId: zipwalletpay
-title: "Zipwallet - money transfer app"
+title: Zipwallet - money transfer app
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.zipwallet.app
 appCountry: us
 released: 2018-01-30
 updated: 2022-02-04
-version: "10.1.6"
+version: 10.1.6
 stars: 3.9615386
 ratings: 621
 reviews: 13
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Updated Information**

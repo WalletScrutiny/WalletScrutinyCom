@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: "Change: Simple BTC Investing"
+title: 'Change: Simple BTC Investing'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: nl
 idd: 1442085358
 released: 2018-11-15
 updated: 2022-03-07
-version: "20.6.1"
+version: 20.6.1
 stars: 4.06452
 reviews: 31
 size: 86765568
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2022-01-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: changefinance
 social:
 - https://www.linkedin.com/company/changeinvest
 - https://www.facebook.com/changeinvest
+
 ---
 
 {% include copyFromAndroid.html %}

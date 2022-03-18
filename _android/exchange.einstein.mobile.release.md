@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Einstein Convert - Safe and Secure Bitcoin Wallet"
+title: Einstein Convert - Safe and Secure Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: exchange.einstein.mobile.release
 appCountry: 
 released: 2019-02-01
 updated: 2019-10-17
-version: "1.2.2"
+version: 1.2.2
 stars: 1.9642857
 ratings: 955
 reviews: 23
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

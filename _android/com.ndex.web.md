@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "뉴드림이엑스-거래소(암호화폐, 비트코인,비트코인캐시,이더리움,라이트코인)"
+title: 뉴드림이엑스-거래소(암호화폐, 비트코인,비트코인캐시,이더리움,라이트코인)
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.ndex.web
 appCountry: 
 released: 2018-10-10
 updated: 2020-04-02
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

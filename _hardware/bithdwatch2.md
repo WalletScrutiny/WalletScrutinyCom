@@ -1,5 +1,5 @@
 ---
-title: "BITHD Watch 2"
+title: BITHD Watch 2
 appId: bithdwatch2
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2019-01-18
 discontinued: 
 updated: 2021-08-09
-version: "v4.1.7"
+version: v4.1.7
 binaries: https://github.com/bithd/bithd-mcu/releases/
-dimensions: [42, 36, 12]
+dimensions:
+- 42
+- 36
+- 12
 weight: 
-provider: "BitHD"
+provider: BitHD
 providerWebsite: https://bithd.com
 website: https://bithd.com/BITHD-watch-2.html
 shop: https://bithd.com/BITHD-watch-2.html
@@ -29,6 +32,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 <div class="alertBox"><div>

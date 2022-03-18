@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Terrabit"
+title: Terrabit
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.terracredit.pro
 appCountry: 
 released: 2020-12-30
 updated: 2021-03-02
-version: "1.0.4.210302"
+version: 1.0.4.210302
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nosource
 date: 2022-02-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: terrabitcrypto
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

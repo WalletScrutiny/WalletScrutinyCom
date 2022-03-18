@@ -1,6 +1,6 @@
 ---
 wsId: coinhako
-title: "Coinhako: Bitcoin Wallet Asia"
+title: 'Coinhako: Bitcoin Wallet Asia'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1137855704
 released: 2016-09-04
 updated: 2022-03-14
-version: "4.1.0"
+version: 4.1.0
 stars: 4.11111
 reviews: 27
 size: 79715328
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinhako
 social:
 - https://www.linkedin.com/company/coinhako
 - https://www.facebook.com/coinhako
+
 ---
 
 Having a scan over the providers website and faq articles does not reveal any

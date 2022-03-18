@@ -1,6 +1,6 @@
 ---
 wsId: PoolinWallet
-title: "Poolin Wallet: Bitcoin"
+title: 'Poolin Wallet: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1495275337
 released: 2020-01-23
 updated: 2022-03-10
-version: "2.3.3"
+version: 2.3.3
 stars: 4.12
 reviews: 25
 size: 91665408
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PoolinWallet
 social:
 - https://www.linkedin.com/company/poolinwallet
+
 ---
 
 {% include copyFromAndroid.html %}

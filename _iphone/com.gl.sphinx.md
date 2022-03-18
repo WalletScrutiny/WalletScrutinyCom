@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Sphinx Chat"
+title: Sphinx Chat
 altTitle: 
-authors:
-
+authors: 
 appId: com.gl.sphinx
 appCountry: ie
 idd: 1483956418
 released: 2021-01-14
 updated: 2021-05-07
-version: "1.0.8"
+version: 1.0.8
 stars: 
 reviews: 
 size: 78892032
@@ -22,8 +21,9 @@ meta: ok
 verdict: wip
 date: 2021-07-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MyStarWallet- Ethereum & Btc & Erc-20 Mutil Wallet"
+title: MyStarWallet- Ethereum & Btc & Erc-20 Mutil Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.mystarwallet
 appCountry: 
 released: 2020-05-12
 updated: 2021-06-10
-version: "1.47"
+version: '1.47'
 stars: 4.5
 ratings: 415
 reviews: 200
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The app has no listed website. It describes itself as an app that has a Bitcoin, Ethereum as well as ERC-20 wallets. 

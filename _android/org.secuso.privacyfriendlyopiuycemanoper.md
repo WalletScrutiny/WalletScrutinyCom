@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin wallet"
-altTitle: "Bitcoin wallet by Mr. Bald"
+title: Bitcoin wallet
+altTitle: Bitcoin wallet by Mr. Bald
 authors:
 - leo
 users: 10
@@ -9,7 +9,7 @@ appId: org.secuso.privacyfriendlyopiuycemanoper
 appCountry: 
 released: 
 updated: 2021-02-22
-version: "2.0.3"
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-05-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app disappeared from the Play Store before reaching 1000 downloads.

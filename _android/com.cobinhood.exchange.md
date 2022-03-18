@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "COBINHOOD - Zero Fees Bitcoin Exchange & Wallet"
+title: COBINHOOD - Zero Fees Bitcoin Exchange & Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.cobinhood.exchange
 appCountry: 
 released: 2017-12-25
 updated: 2019-04-29
-version: "3.50.1"
+version: 3.50.1
 stars: 2.86
 ratings: 648
 reviews: 117
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: custodial
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.cobinhood.exchange/
-  - /posts/com.cobinhood.exchange/
+- /com.cobinhood.exchange/
+- /posts/com.cobinhood.exchange/
+
 ---
 
 This exchange and wallet claims:

@@ -1,6 +1,6 @@
 ---
 wsId: Mexo
-title: "Mexo.io -- BTC,Cripto & Más"
+title: Mexo.io -- BTC,Cripto & Más
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
 updated: 2022-03-11
-version: "2.1.3"
+version: 2.1.3
 stars: 4.4848485
 ratings: 401
 reviews: 40
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

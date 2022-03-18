@@ -1,6 +1,6 @@
 ---
 wsId: FTXPro
-title: "FTX Pro: Buy, Sell, Trade"
+title: 'FTX Pro: Buy, Sell, Trade'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.ftxmobile.ftx
 appCountry: 
 released: 2020-05-08
 updated: 2022-03-08
-version: "1.1.9"
+version: 1.1.9
 stars: 3.3678162
 ratings: 9850
 reviews: 258
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FTX_Official
 social:
 - https://www.facebook.com/ftx.official
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

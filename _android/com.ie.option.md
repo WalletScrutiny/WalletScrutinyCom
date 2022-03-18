@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "IE Option - Bitcoin Trading App&Crypto Trading"
+title: IE Option - Bitcoin Trading App&Crypto Trading
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.ie.option
 appCountry: 
 released: 2019-12-17
 updated: 2020-08-14
-version: "1.1.4"
+version: 1.1.4
 stars: 4.7865615
 ratings: 2623
 reviews: 1454
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

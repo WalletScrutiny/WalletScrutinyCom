@@ -1,6 +1,6 @@
 ---
 wsId: CashApp
-title: "Cash App"
+title: Cash App
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 711923939
 released: 2013-10-16
 updated: 2022-03-09
-version: "3.60.1"
+version: 3.60.1
 stars: 4.73179
 reviews: 2060358
 size: 252472320
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2020-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cashapp
-social:
+social: 
+
 ---
 
 On their website the provider claims:

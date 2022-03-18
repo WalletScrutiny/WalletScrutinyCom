@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "GetCoins Wallet"
+title: GetCoins Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.getcoins.gcwallet2
 appCountry: 
 released: 2019-03-21
 updated: 2020-05-13
-version: "3.6.0"
+version: 3.6.0
 stars: 3
 ratings: 21
 reviews: 10
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

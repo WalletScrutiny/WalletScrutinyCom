@@ -1,6 +1,6 @@
 ---
 wsId: lykkex
-title: "Lykke: Buy. Sell. Invest."
+title: 'Lykke: Buy. Sell. Invest.'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry: de
 idd: 1112839581
 released: 2016-05-20
 updated: 2022-02-25
-version: "7.38.2"
+version: 7.38.2
 stars: 4.46429
 reviews: 28
 size: 97374208
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-03-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Lykke
 social:
 - https://www.linkedin.com/company/lykke
 - https://www.facebook.com/LykkeCity
 - https://www.reddit.com/r/lykke
+
 ---
 
 Lykke appears to be a Swiss exchange:

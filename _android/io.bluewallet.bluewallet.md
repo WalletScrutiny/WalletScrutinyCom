@@ -1,6 +1,6 @@
 ---
 wsId: bluewallet
-title: "BlueWallet Bitcoin Wallet"
+title: BlueWallet Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
 updated: 2022-01-31
-version: "6.2.17"
+version: 6.2.17
 stars: 4.18
 ratings: 1810
 reviews: 159
@@ -25,7 +25,7 @@ date: 2020-07-14
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2020-01-08
-  version: "4.9.1"
+  version: 4.9.1
   appHash: 
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
@@ -33,10 +33,11 @@ twitter: bluewalletio
 social:
 - https://www.reddit.com/r/bluewallet
 redirect_from:
-  - /bluewallet/
-  - /io.bluewallet.bluewallet/
-  - /posts/2019/12/bluewallet/
-  - /posts/io.bluewallet.bluewallet/
+- /bluewallet/
+- /io.bluewallet.bluewallet/
+- /posts/2019/12/bluewallet/
+- /posts/io.bluewallet.bluewallet/
+
 ---
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is

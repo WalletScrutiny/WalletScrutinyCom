@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: "AMLSafe - DeFi Crypto Wallet"
+title: AMLSafe - DeFi Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1519145333
 released: 2020-07-28
 updated: 2022-03-07
-version: "1.30.61.227"
+version: 1.30.61.227
 stars: 4.92727
 reviews: 110
 size: 90219520
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-04-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant

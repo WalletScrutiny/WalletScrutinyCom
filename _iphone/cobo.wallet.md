@@ -1,6 +1,6 @@
 ---
 wsId: cobowallet
-title: "Cobo Crypto Wallet: BTC & DASH"
+title: 'Cobo Crypto Wallet: BTC & DASH'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1406282615
 released: 2018-08-05
 updated: 2022-03-03
-version: "5.19.1"
+version: 5.19.1
 stars: 3.66667
 reviews: 6
 size: 85342208
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/coboofficial
 - https://www.facebook.com/coboOfficial
+
 ---
 
  {% include copyFromAndroid.html %}

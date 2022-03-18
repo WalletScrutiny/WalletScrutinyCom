@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ILC / BTC Wallet"
+title: ILC / BTC Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: ilcbtc.wallet
 appCountry: 
 released: 2018-02-27
 updated: 2021-03-23
-version: "4.26"
+version: '4.26'
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2019-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ILC_B_Project
 social:
 - https://www.facebook.com/ILCoinBlockchainProject
 - https://www.reddit.com/r/ILCoin
 redirect_from:
-  - /ilcbtc.wallet/
-  - /posts/ilcbtc.wallet/
+- /ilcbtc.wallet/
+- /posts/ilcbtc.wallet/
+
 ---
 
 The description talking about

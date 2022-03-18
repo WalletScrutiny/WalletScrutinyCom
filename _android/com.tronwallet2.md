@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "TronWallet"
+title: TronWallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000000
 appId: com.tronwallet2
 appCountry: 
 released: 
 updated: 2020-07-23
-version: "3.4.5"
+version: 3.4.5
 stars: 3.9
 ratings: 8703
 reviews: 4748
@@ -23,11 +22,12 @@ meta: defunct
 verdict: nosource
 date: 2021-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.tronwallet2/
+- /com.tronwallet2/
+
 ---
 
 The wallet is not listed on Google Play anymore and as their website forwards

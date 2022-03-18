@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: "Argent – DeFi in a tap"
+title: Argent – DeFi in a tap
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1358741926
 released: 2018-10-25
 updated: 2022-03-12
-version: "4.5.4"
+version: 4.5.4
 stars: 4.49967
 reviews: 1505
 size: 126953472
@@ -22,9 +22,10 @@ meta: ok
 verdict: nobtc
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: argentHQ
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

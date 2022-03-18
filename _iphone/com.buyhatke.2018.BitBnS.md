@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitbns-Crypto Trading Exchange"
+title: Bitbns-Crypto Trading Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: in
 idd: 1346160076
 released: 2018-05-29
 updated: 2022-03-14
-version: "6.0.1"
+version: 6.0.1
 stars: 3.31014
 reviews: 690
 size: 48224256
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitbns
 social:
 - https://www.linkedin.com/company/bitbnsinc
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
+
 ---
 
 From their linkedin page:

@@ -1,6 +1,6 @@
 ---
 wsId: cex
-title: "CEX.IO Cryptocurrency Exchange"
+title: CEX.IO Cryptocurrency Exchange
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1047225016
 released: 2015-12-22
 updated: 2022-03-09
-version: "7.6.0"
+version: 7.6.0
 stars: 4.5961
 reviews: 4870
 size: 76992512
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cex_io
 social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
+
 ---
 
 The CEX.io mobile app claims on the website to manage bitcoins...

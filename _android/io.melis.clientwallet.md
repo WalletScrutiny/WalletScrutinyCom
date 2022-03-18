@@ -1,6 +1,6 @@
 ---
 wsId: melisclientwallet
-title: "Melis Bitcoin, Bitcoin Cash, Litecoin Wallet"
+title: Melis Bitcoin, Bitcoin Cash, Litecoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.melis.clientwallet
 appCountry: 
 released: 2017-01-30
 updated: 2021-09-30
-version: "1.6.24"
+version: 1.6.24
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: ftbfs
 date: 2020-04-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /io.melis.clientwallet/
-  - /posts/io.melis.clientwallet/
+- /io.melis.clientwallet/
+- /posts/io.melis.clientwallet/
+
 ---
 
 **Update:** The provider

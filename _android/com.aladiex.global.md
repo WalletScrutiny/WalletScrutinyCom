@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Aladiex"
+title: Aladiex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.aladiex.global
 appCountry: 
 released: 2020-07-04
 updated: 2021-04-27
-version: "1.7.9"
+version: 1.7.9
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Aladiexchange
 social:
 - https://www.facebook.com/AladiEx
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

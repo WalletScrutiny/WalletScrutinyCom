@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Fluency - The Global Cryptobank of the Future."
+title: Fluency - The Global Cryptobank of the Future.
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.nbdu.fluency_bank
 appCountry: 
 released: 2020-02-27
 updated: 2020-04-29
-version: "1.0.0"
+version: 1.0.0
 stars: 4.111111
 ratings: 420
 reviews: 7
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

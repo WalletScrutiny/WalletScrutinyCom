@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Will Trade 7- Trading For All"
+title: Will Trade 7- Trading For All
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
 updated: 2022-03-16
-version: "1.0.5"
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

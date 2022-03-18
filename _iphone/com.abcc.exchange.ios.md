@@ -1,6 +1,6 @@
 ---
 wsId: abccExchange
-title: "ABCC Exchange"
+title: ABCC Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1428903145
 released: 2018-10-03
 updated: 2022-03-02
-version: "1.9.13"
+version: 1.9.13
 stars: 4.22222
 reviews: 9
 size: 62978048
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ABCCExOfficial
 social:
 - https://www.facebook.com/ABCC-Exchange-558472047871367
+
 ---
 
 Also known as "Alphabit Consulting Pte", it is self-described as an 'Unregulated Platform' in its [Terms](https://abcc.com/en/documents/terms). 

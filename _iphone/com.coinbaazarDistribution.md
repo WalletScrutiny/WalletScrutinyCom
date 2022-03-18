@@ -1,6 +1,6 @@
 ---
 wsId: CoinBaazar
-title: "Coinbaazar- Buy/Sell Bitcoins"
+title: Coinbaazar- Buy/Sell Bitcoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1548921926
 released: 2021-01-25
 updated: 2021-10-13
-version: "1.2.4.5"
+version: 1.2.4.5
 stars: 1
 reviews: 1
 size: 34507776
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar
+
 ---
 
 {% include copyFromAndroid.html %}

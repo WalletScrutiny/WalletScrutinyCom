@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CryptoMarket"
+title: CryptoMarket
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.cryptomkt.app
 appCountry: 
 released: 2017-08-03
 updated: 2020-07-20
-version: "3.2.1"
+version: 3.2.1
 stars: 2.9
 ratings: 460
 reviews: 323
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-09-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-11**: This app is not on the Play Store anymore.

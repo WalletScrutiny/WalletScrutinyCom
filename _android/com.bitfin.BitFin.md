@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitFin - Buy And Sell Digital Currency"
+title: BitFin - Buy And Sell Digital Currency
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitfin.BitFin
 appCountry: 
 released: 2020-02-05
 updated: 2020-02-19
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

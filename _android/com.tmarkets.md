@@ -1,6 +1,6 @@
 ---
 wsId: T1Markets
-title: "T1Markets: Online Trading on Forex and Stocks"
+title: 'T1Markets: Online Trading on Forex and Stocks'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tmarkets
 appCountry: us
 released: 
 updated: 2021-12-01
-version: "1.5.78-tmarkets"
+version: 1.5.78-tmarkets
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: T1_Markets
 social:
 - https://www.facebook.com/t1markets
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

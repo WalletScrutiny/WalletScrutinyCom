@@ -1,5 +1,5 @@
 ---
-title: "Telx SIM"
+title: Telx SIM
 appId: telxsim
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The [provider's website](https://www.telx.tech) is inaccessible and we considered it defunct.

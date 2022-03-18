@@ -1,6 +1,6 @@
 ---
 wsId: LeadWallet
-title: "Lead Wallet"
+title: Lead Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ng
 idd: 1578704913
 released: 2021-08-03
 updated: 2022-01-10
-version: "v1.0.13"
+version: v1.0.13
 stars: 4.52632
 reviews: 19
 size: 35991552
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
+
 ---
 
 {% include copyFromAndroid.html %}

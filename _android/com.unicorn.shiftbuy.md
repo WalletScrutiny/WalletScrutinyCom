@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ShiftBuy. Cryptocurrency exchange in two clicks."
+title: ShiftBuy. Cryptocurrency exchange in two clicks.
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.unicorn.shiftbuy
 appCountry: 
 released: 2020-01-03
 updated: 2020-04-21
-version: "0.2.7.2"
+version: 0.2.7.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

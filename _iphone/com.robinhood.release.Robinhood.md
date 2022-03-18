@@ -1,6 +1,6 @@
 ---
 wsId: Robinhood
-title: "Robinhood: Investing for All"
+title: 'Robinhood: Investing for All'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 938003185
 released: 2014-12-11
 updated: 2022-03-14
-version: "2022.10.0"
+version: 2022.10.0
 stars: 4.16545
 reviews: 3927987
 size: 407115776
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: RobinhoodApp
 social:
 - https://www.linkedin.com/company/robinhood
 - https://www.facebook.com/robinhoodapp
+
 ---
 
 {% include copyFromAndroid.html %}

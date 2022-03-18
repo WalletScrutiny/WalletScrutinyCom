@@ -1,6 +1,6 @@
 ---
 wsId: WiseBitcoin
-title: "Wisebitcoin"
+title: Wisebitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wisebitcoin.broker.android
 appCountry: cn
 released: 2021-01-04
 updated: 2021-11-16
-version: "3.7.4"
+version: 3.7.4
 stars: 4
 ratings: 116
 reviews: 73
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: wisebitcoin
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: BullWallet
-title: "BULL WALLET"
+title: BULL WALLET
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wallet.bull
 appCountry: us
 released: 2021-06-28
 updated: 2021-10-13
-version: "1.4.1-947"
+version: 1.4.1-947
 stars: 4.464286
 ratings: 713
 reviews: 22
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bullcoinfinance
 social:
 - https://www.reddit.com/r/bullcoinfinance
 - https://github.com/BullCoinFinance
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Official Website

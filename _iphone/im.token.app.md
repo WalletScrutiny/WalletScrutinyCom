@@ -1,6 +1,6 @@
 ---
 wsId: imToken
-title: "imToken - BTC ＆ ETH Wallet"
+title: imToken - BTC ＆ ETH Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1384798940
 released: 2018-06-07
 updated: 2022-01-24
-version: "2.9.10"
+version: 2.9.10
 stars: 4.3528
 reviews: 411
 size: 144669696
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-05-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: imTokenOfficial
-social:
+social: 
+
 ---
 
 In the description we read:

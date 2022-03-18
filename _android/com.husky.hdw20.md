@@ -1,15 +1,14 @@
 ---
 wsId: huskyhdw20
-title: "Husky HDW20 Hardware Walle‪t"
+title: Husky HDW20 Hardware Walle‪t
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.husky.hdw20
 appCountry: 
 released: 2021-04-06
 updated: 2021-04-06
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2022-02-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

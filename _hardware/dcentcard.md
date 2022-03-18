@@ -1,5 +1,5 @@
 ---
-title: "D'CENT Card Wallet"
+title: D'CENT Card Wallet
 appId: dcentcard
 authors:
 - kiwilamb
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 86, 0.86]
+dimensions:
+- 54
+- 86
+- 0.86
 weight: 6
-provider: "IOTrust"
+provider: IOTrust
 providerWebsite: https://iotrust.kr/
 website: https://dcentwallet.com/products/CardWallet
 shop: https://dcentwallet.com/Shop
@@ -26,8 +29,9 @@ date: 2021-07-07
 signer: 
 reviewArchive: 
 twitter: DCENTwallets
-social: 
+social:
 - https://www.facebook.com/DcentWalletGlobal
+
 ---
 
 This device does not support Bitcoin.

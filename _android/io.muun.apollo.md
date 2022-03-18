@@ -1,6 +1,6 @@
 ---
 wsId: muun
-title: "Muun - Bitcoin and Lightning Wallet"
+title: Muun - Bitcoin and Lightning Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
 updated: 2022-01-18
-version: "48.4"
+version: '48.4'
 stars: 4.5102043
 ratings: 650
 reviews: 63
@@ -25,20 +25,21 @@ date: 2021-10-09
 signer: 
 reviewArchive:
 - date: 2021-04-06
-  version: "45.2"
+  version: '45.2'
   appHash: 292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2
   gitRevision: 707ff239df150e0b2d6810e2444e495e2ca4c174
   verdict: nonverifiable
 - date: 2019-12-29
-  version: "beta-36.2"
+  version: beta-36.2
   appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
 twitter: MuunWallet
-social:
+social: 
 redirect_from:
-  - /io.muun.apollo/
-  - /posts/io.muun.apollo/
+- /io.muun.apollo/
+- /posts/io.muun.apollo/
+
 ---
 
 **Update 2021-10-09**: We were approached about this verdict being wrong and

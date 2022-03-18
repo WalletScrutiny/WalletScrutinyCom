@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CryptoChanger Exchange - Buy & Sell CryptoCurrency"
+title: CryptoChanger Exchange - Buy & Sell CryptoCurrency
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: cc.cryptochanger
 appCountry: 
 released: 2017-11-30
 updated: 2018-02-19
-version: "0.4"
+version: '0.4'
 stars: 3.6
 ratings: 38
 reviews: 20
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-13**: This app is no more.

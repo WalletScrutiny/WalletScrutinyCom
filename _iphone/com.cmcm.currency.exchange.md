@@ -1,6 +1,6 @@
 ---
 wsId: bitrue
-title: "Bitrue"
+title: Bitrue
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1435877386
 released: 2018-09-16
 updated: 2022-02-28
-version: "5.1.6"
+version: 5.1.6
 stars: 3.25
 reviews: 308
 size: 108404736
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitrueOfficial
 social:
 - https://www.facebook.com/BitrueOfficial
+
 ---
 
 This app is heavily focused on the "exchange" part which is also in its name.

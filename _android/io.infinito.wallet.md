@@ -1,6 +1,6 @@
 ---
 wsId: InfinitoWallet
-title: "Infinito Wallet - Crypto Wallet & DApp Browser"
+title: Infinito Wallet - Crypto Wallet & DApp Browser
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.infinito.wallet
 appCountry: 
 released: 2017-11-15
 updated: 2022-03-14
-version: "2.36.7"
+version: 2.36.7
 stars: 3.75
 ratings: 2198
 reviews: 111
@@ -23,14 +23,15 @@ meta: ok
 verdict: nosource
 date: 2020-03-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices
 - https://www.facebook.com/InfinitoWallet
 redirect_from:
-  - /io.infinito.wallet/
-  - /posts/io.infinito.wallet/
+- /io.infinito.wallet/
+- /posts/io.infinito.wallet/
+
 ---
 
 Right on the Playstore description we find:

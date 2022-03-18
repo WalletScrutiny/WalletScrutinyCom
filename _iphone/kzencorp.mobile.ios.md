@@ -1,6 +1,6 @@
 ---
 wsId: ZenGo
-title: "ZenGo: Crypto & Bitcoin Wallet"
+title: 'ZenGo: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1440147115
 released: 2019-06-07
 updated: 2022-02-08
-version: "3.5.1"
+version: 3.5.1
 stars: 4.64536
 reviews: 1940
 size: 79404032
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2020-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zengo
-social:
+social: 
+
 ---
 
 On their website we find:

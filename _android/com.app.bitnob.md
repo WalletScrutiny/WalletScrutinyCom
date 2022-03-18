@@ -1,6 +1,6 @@
 ---
 wsId: Bitnob
-title: "Bitnob"
+title: Bitnob
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.bitnob
 appCountry: us
 released: 2020-05-25
 updated: 2022-02-07
-version: "1.0.83"
+version: 1.0.83
 stars: 4.030303
 ratings: 275
 reviews: 14
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitnob_official
 social:
 - https://www.linkedin.com/company/bitnob
 - https://www.facebook.com/bitnob
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

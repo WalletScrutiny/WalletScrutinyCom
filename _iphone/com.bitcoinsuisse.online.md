@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinSuisse
-title: "Bitcoin Suisse"
+title: Bitcoin Suisse
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: pl
 idd: 1555493299
 released: 2021-09-21
 updated: 2022-03-08
-version: "1.1.2"
+version: 1.1.2
 stars: 
 reviews: 
 size: 30143488
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
 - https://www.facebook.com/BitcoinSuisse
+
 ---
 
 {% include copyFromAndroid.html %}

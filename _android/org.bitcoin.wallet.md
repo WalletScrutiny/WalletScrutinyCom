@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Wallet: by Bitcoin.org"
+title: 'Bitcoin Wallet: by Bitcoin.org'
 altTitle: 
 authors:
 - emanuel
@@ -10,7 +10,7 @@ appId: org.bitcoin.wallet
 appCountry: 
 released: 
 updated: 2021-02-09
-version: "1.0"
+version: '1.0'
 stars: 4.3
 ratings: 9
 reviews: 4
@@ -24,10 +24,11 @@ meta: defunct
 verdict: nonverifiable
 date: 2021-06-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-06-16**: It's been

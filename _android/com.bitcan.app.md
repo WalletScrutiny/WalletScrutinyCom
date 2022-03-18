@@ -1,6 +1,6 @@
 ---
 wsId: BitKan
-title: "BitKan-Blockchain Bitcoin Trading Platform"
+title: BitKan-Blockchain Bitcoin Trading Platform
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitcan.app
 appCountry: us
 released: 2017-10-18
 updated: 2021-11-30
-version: "8.0.7.4"
+version: 8.0.7.4
 stars: 3.9333334
 ratings: 92
 reviews: 11
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitkanofficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

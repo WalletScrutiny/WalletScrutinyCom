@@ -1,6 +1,6 @@
 ---
 wsId: ExodusCryptoBitcoinWallet
-title: "Exodus: Crypto Bitcoin Wallet"
+title: 'Exodus: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: exodusmovement.exodus
 appCountry: 
 released: 2019-06-06
 updated: 2022-03-11
-version: "22.3.10"
+version: 22.3.10
 stars: 4.472254
 ratings: 81868
 reviews: 5724
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
 - https://github.com/exodusmovement
-redirect_from:
+redirect_from: 
+
 ---
 
 This app certainly sounds like it is non-custodial:

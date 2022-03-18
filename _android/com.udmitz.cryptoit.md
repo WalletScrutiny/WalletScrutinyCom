@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Cryptoit - Mock Trade Cryptocurrency"
+title: Cryptoit - Mock Trade Cryptocurrency
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.udmitz.cryptoit
 appCountry: 
 released: 2021-06-13
 updated: 2021-06-13
-version: "1.1.1"
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

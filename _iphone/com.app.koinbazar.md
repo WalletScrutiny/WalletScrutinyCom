@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: "Koinbazar"
+title: Koinbazar
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: in
 idd: 1567360326
 released: 2021-06-02
 updated: 2022-02-09
-version: "1.15"
+version: '1.15'
 stars: 2.58537
 reviews: 41
 size: 56557568
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
+
 ---
 
 {% include copyFromAndroid.html %}

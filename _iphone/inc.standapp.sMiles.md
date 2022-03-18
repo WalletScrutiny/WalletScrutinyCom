@@ -1,6 +1,6 @@
 ---
 wsId: sMiles
-title: "sMiles: Bitcoin Rewards"
+title: 'sMiles: Bitcoin Rewards'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1492458803
 released: 2020-12-18
 updated: 2022-03-11
-version: "4.1"
+version: '4.1'
 stars: 4.53134
 reviews: 702
 size: 75041792
@@ -22,10 +22,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: smilesbitcoin
 social:
 - https://www.facebook.com/smilesbitcoin
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: InstantCoins
-title: "Instantcoins: sell bitcoin in nigeria instantly"
+title: 'Instantcoins: sell bitcoin in nigeria instantly'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.instantcoins
 appCountry: ng
 released: 2020-06-19
 updated: 2021-04-05
-version: "1.0.6"
+version: 1.0.6
 stars: 2.772277
 ratings: 214
 reviews: 106
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: instantcoins_ng
 social:
 - https://www.facebook.com/instantcoins
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

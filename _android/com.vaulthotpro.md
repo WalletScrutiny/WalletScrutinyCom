@@ -1,6 +1,6 @@
 ---
 wsId: CoboVault
-title: "Cobo Vault"
+title: Cobo Vault
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.vaulthotpro
 appCountry: us
 released: 2020-03-30
 updated: 2021-03-22
-version: "2.2.6"
+version: 2.2.6
 stars: 3.2
 ratings: 29
 reviews: 19
@@ -23,12 +23,13 @@ meta: defunct
 verdict: wip
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/cobo-official
 - https://www.facebook.com/coboOfficial
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-03:** Cobo Vault has been deprecated in favor of {% include walletLink.html wallet='android/com.keystone.mobile' verdict='true' %}

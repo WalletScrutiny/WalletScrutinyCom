@@ -1,6 +1,6 @@
 ---
 wsId: hotbit
-title: "Hotbit-Global"
+title: Hotbit-Global
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry:
 idd: 1568969341
 released: 2021-05-26
 updated: 2022-03-03
-version: "1.4.2"
+version: 1.4.2
 stars: 3.58676
 reviews: 559
 size: 52839424
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Hotbit_news
 social:
 - https://www.linkedin.com/company/hotbitexchange
 - https://www.facebook.com/hotbitexchange
+
 ---
 
 {% include copyFromAndroid.html %}

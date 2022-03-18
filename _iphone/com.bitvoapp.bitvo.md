@@ -1,6 +1,6 @@
 ---
 wsId: Bitvo
-title: "Bitvo"
+title: Bitvo
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ca
 idd: 1400304552
 released: 2018-08-06
 updated: 2022-03-10
-version: "3.5.5"
+version: 3.5.5
 stars: 3.04167
 reviews: 24
 size: 36946944
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
 - https://www.facebook.com/BitvoExchange
+
 ---
 
 {% include copyFromAndroid.html %}

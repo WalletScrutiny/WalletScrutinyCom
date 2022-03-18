@@ -1,6 +1,6 @@
 ---
 wsId: PayizaDlt
-title: "Payiza DLT"
+title: Payiza DLT
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1567055742
 released: 2021-06-01
 updated: 2021-06-02
-version: "1.0"
+version: '1.0'
 stars: 
 reviews: 
 size: 56907776
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney
+
 ---
 
 {% include copyFromAndroid.html %}

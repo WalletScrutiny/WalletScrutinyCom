@@ -1,6 +1,6 @@
 ---
 wsId: NetDania
-title: "NetDania Stock & Forex Trader"
+title: NetDania Stock & Forex Trader
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.netdania
 appCountry: us
 released: 2011-11-04
 updated: 2021-12-29
-version: "4.1.3"
+version: 4.1.3
 stars: 4.5164833
 ratings: 24480
 reviews: 1189
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/NetDania-146001445410373
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

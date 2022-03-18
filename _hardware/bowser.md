@@ -1,12 +1,12 @@
 ---
-title: "Bowser DIY Hardware Wallet"
+title: Bowser DIY Hardware Wallet
 appId: bowser
 authors:
 - danny
 released: 2020-06-07
 discontinued: 
 updated: 2021-05-11
-version: "1"
+version: '1'
 binaries: 
 dimensions: 
 weight: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: arcbtc
 social: 
+
 ---
 
 The Bowser DIY Hardware Wallet comes with a Tetris game to playfully mask its character as a wallet. It uses the following libraries on a M5Stack ESP32:

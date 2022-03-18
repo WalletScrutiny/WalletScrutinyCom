@@ -1,14 +1,17 @@
 ---
-title: "KeepKey"
+title: KeepKey
 appId: keepKey
 authors:
 - leo
 released: 2014-08-01
 discontinued: 
 updated: 2021-09-10
-version: "7.2.1"
+version: 7.2.1
 binaries: https://github.com/keepkey/keepkey-firmware/releases
-dimensions: [38, 93.5, 12.2]
+dimensions:
+- 38
+- 93.5
+- 12.2
 weight: 54
 provider: 
 providerWebsite: 
@@ -24,15 +27,16 @@ meta: ok
 verdict: reproducible
 date: 2021-10-17
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-07-31
-  version: "7.1.7"
+  version: 7.1.7
   appHash: 2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594
   gitRevision: a85e2c7f21cf7c56d050ae09b4053e00c989e8c0
   verdict: reproducible
 twitter: ShapeShift_io
-social: 
+social:
 - https://www.facebook.com/ShapeShiftPlatform
+
 ---
 
 Running

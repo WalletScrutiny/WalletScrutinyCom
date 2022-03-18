@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Bot"
+title: Crypto Bot
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: net.bitcoinheroes.crypto.bot
 appCountry: 
 released: 2021-06-15
 updated: 2021-06-15
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

@@ -1,6 +1,6 @@
 ---
 wsId: Celsius
-title: "Celsius: Earn & Borrow Crypto"
+title: 'Celsius: Earn & Borrow Crypto'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1387885523
 released: 2018-06-20
 updated: 2022-02-08
-version: "v5.0.0"
+version: v5.0.0
 stars: 3.65909
 reviews: 1936
 size: 72631296
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: celsiusnetwork
 social:
 - https://www.linkedin.com/company/celsiusnetwork
 - https://www.facebook.com/CelsiusNetwork
+
 ---
 
 > Use our fully functioning & secure crypto wallet & crypto lending platform to

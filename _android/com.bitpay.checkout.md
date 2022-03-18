@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitPay Checkout"
+title: BitPay Checkout
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.bitpay.checkout
 appCountry: 
 released: 2014-11-03
 updated: 2020-08-11
-version: "1.2.5"
+version: 1.2.5
 stars: 4.1
 ratings: 300
 reviews: 135
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-28**: This app is not on the Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: BBX
-title: "BBX"
+title: BBX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1539393718
 released: 2020-12-01
 updated: 2021-05-27
-version: "1.3.1"
+version: 1.3.1
 stars: 
 reviews: 
 size: 41028608
@@ -22,9 +22,10 @@ meta: defunct
 verdict: custodial
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 **Update 2021-10-14**: This app is no more available.

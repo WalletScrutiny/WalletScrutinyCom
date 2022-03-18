@@ -1,6 +1,6 @@
 ---
 wsId: kinesismoney
-title: "Kinesis Money - Exchange Gold, Bitcoin & Currency"
+title: Kinesis Money - Exchange Gold, Bitcoin & Currency
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28
 updated: 2022-03-10
-version: "1.2.100"
+version: 1.2.100
 stars: 4.02
 ratings: 424
 reviews: 44
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KinesisMonetary
 social:
 - https://www.linkedin.com/company/kinesismoney
 - https://www.facebook.com/kinesismoney
 - https://www.reddit.com/r/Kinesis_money
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Google Play

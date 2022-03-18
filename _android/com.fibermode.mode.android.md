@@ -1,6 +1,6 @@
 ---
 wsId: fibermode
-title: "Mode: Buy, Earn & Grow Bitcoin"
+title: 'Mode: Buy, Earn & Grow Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fibermode.mode.android
 appCountry: gb
 released: 2021-02-11
 updated: 2022-02-15
-version: "2.3.3"
+version: 2.3.3
 stars: 3.5544555
 ratings: 372
 reviews: 161
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: modeapp_
 social:
 - https://www.linkedin.com/company/modeapp-com
 - https://www.facebook.com/themodeapp
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

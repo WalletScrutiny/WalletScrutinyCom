@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Rapidpay- Buy, sell & borrow with your crypto"
+title: Rapidpay- Buy, sell & borrow with your crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.zenafinance
 appCountry: 
 released: 2020-12-17
 updated: 2021-10-16
-version: "2.1.3"
+version: 2.1.3
 stars: 3.5
 ratings: 60
 reviews: 49
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

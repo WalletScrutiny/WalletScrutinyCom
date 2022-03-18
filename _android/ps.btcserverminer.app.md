@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BTC Server Miner"
+title: BTC Server Miner
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: ps.btcserverminer.app
 appCountry: 
 released: 2021-07-16
 updated: 2021-08-29
-version: "1.0"
+version: '1.0'
 stars: 4.555156
 ratings: 7227
 reviews: 427
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Its website does not yield a lot of information.

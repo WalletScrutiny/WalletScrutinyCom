@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MYKEY"
+title: MYKEY
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.mykey.id
 appCountry: 
 released: 
 updated: 2021-02-04
-version: "3.5.0"
+version: 3.5.0
 stars: 4.6
 ratings: 116
 reviews: 82
@@ -23,9 +22,10 @@ meta: defunct
 verdict: wip
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

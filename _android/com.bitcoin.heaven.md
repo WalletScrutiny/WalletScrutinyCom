@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Heave"
+title: Bitcoin Heave
 altTitle: 
-authors:
-
+authors: 
 users: 1
 appId: com.bitcoin.heaven
 appCountry: 
 released: 2020-07-14
 updated: 2020-07-14
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-12-05**: This app is gone from the Store.

@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: "Crypto.com - Buy BTC, ETH"
+title: Crypto.com - Buy BTC, ETH
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: co.mona.android
 appCountry: 
 released: 2017-08-30
 updated: 2022-03-14
-version: "3.131.0"
+version: 3.131.0
 stars: 3.831279
 ratings: 281384
 reviews: 37933
@@ -24,16 +24,17 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 redirect_from:
-  - /co.mona.android/
-  - /crypto.com/
-  - /posts/co.mona.android/
+- /co.mona.android/
+- /crypto.com/
+- /posts/co.mona.android/
+
 ---
 
 **EDIT 2021-09-14**

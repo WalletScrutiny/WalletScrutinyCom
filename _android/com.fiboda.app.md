@@ -1,6 +1,6 @@
 ---
 wsId: Fiboda
-title: "Fiboda - Copy trading Platform"
+title: Fiboda - Copy trading Platform
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fiboda.app
 appCountry: us
 released: 2021-01-14
 updated: 2021-07-08
-version: "1.0.5"
+version: 1.0.5
 stars: 4.3913045
 ratings: 437
 reviews: 2
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

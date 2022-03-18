@@ -1,6 +1,6 @@
 ---
 wsId: kelta
-title: "KELTA - Buy & Sell Bitcoin"
+title: KELTA - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.kelta.app
 appCountry: sk
 released: 2018-05-15
 updated: 2021-11-22
-version: "3.1.1"
+version: 3.1.1
 stars: 2.912
 ratings: 1251
 reviews: 1106
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Caution

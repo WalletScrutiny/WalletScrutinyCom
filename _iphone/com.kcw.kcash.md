@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Kcash-Crypto Wallet"
+title: Kcash-Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1344728740
 released: 2018-02-13
 updated: 2021-11-28
-version: "2.9.3"
+version: 2.9.3
 stars: 3.1
 reviews: 10
 size: 74209280
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: kcashofficial
 social:
 - https://www.facebook.com/KcashOfficial
+
 ---
 
 **Note:** The Android version can only be downloaded via an apk file hosted on the homepage itself. It was not available in Google Play.

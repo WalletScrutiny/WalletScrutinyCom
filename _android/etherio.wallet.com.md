@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Etherio"
-altTitle: "(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
-authors:
-
+title: Etherio
+altTitle: '(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade'
+authors: 
 users: 10
 appId: etherio.wallet.com
 appCountry: 
 released: 2021-04-28
 updated: 2021-04-28
-version: "3.30.1"
+version: 3.30.1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: ok
 verdict: fake
 date: 2021-07-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app "{{ page.title }}" looks related to

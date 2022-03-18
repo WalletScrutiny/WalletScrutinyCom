@@ -1,6 +1,6 @@
 ---
 wsId: BTCAlpha
-title: "BTC-Alpha Exchange"
+title: BTC-Alpha Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.btcalpha.exchange
 appCountry: us
 released: 2021-07-23
 updated: 2022-03-13
-version: "1.10.4"
+version: 1.10.4
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btcalpha
 social:
 - https://www.linkedin.com/company/btcalpha
 - https://www.facebook.com/btcalpha
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

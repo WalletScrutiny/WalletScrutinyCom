@@ -1,6 +1,6 @@
 ---
 wsId: pointpay
-title: "PointPay: Blockchain Wallet"
+title: 'PointPay: Blockchain Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1512836089
 released: 2020-07-30
 updated: 2022-03-14
-version: "7.0.3"
+version: 7.0.3
 stars: 4.79268
 reviews: 738
 size: 92901376
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PointPay1
 social:
 - https://www.linkedin.com/company/pointpay
 - https://www.facebook.com/PointPayLtd
 - https://www.reddit.com/r/PointPay
+
 ---
 
 The PointPay Bank website has very little information about how they manage

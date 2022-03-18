@@ -1,6 +1,6 @@
 ---
 wsId: exmo
-title: "EXMO Cryptocurrency Exchange"
+title: EXMO Cryptocurrency Exchange
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1505496232
 released: 2020-04-07
 updated: 2022-03-11
-version: "2.18.4"
+version: 2.18.4
 stars: 3.83333
 reviews: 42
 size: 68920320
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
+
 ---
 
 The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my

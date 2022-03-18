@@ -1,6 +1,6 @@
 ---
 wsId: moonlet
-title: "Moonlet"
+title: Moonlet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ro
 idd: 1483013547
 released: 2020-04-27
 updated: 2022-03-09
-version: "1.5.25"
+version: 1.5.25
 stars: 5
 reviews: 6
 size: 47066112
@@ -22,10 +22,11 @@ meta: ok
 verdict: nobtc
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: moonlet_wallet
 social:
 - https://github.com/Moonlet
+
 ---
 
 {% include copyFromAndroid.html %}

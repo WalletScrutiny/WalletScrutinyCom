@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "WLLT"
+title: WLLT
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: pro.smartym.wllt
 appCountry: 
 released: 2019-03-19
 updated: 2019-03-21
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

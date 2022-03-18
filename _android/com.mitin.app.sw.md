@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Swaps: buy BTC, USDT crypto. Tether, bitcoin store"
+title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.mitin.app.sw
 appCountry: 
 released: 2021-04-14
 updated: 2021-05-13
-version: "3.0"
+version: '3.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-09**: This app is no more.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Dompet Bitcoin Indonesia"
+title: Dompet Bitcoin Indonesia
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: co.id.dompet.btc.indonesia
 appCountry: 
 released: 2017-01-15
 updated: 2021-10-26
-version: "2.4.9"
+version: 2.4.9
 stars: 3.8333333
 ratings: 4803
 reviews: 31
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: indodax
-social:
+social: 
 redirect_from:
-  - /co.id.dompet.btc.indonesia/
+- /co.id.dompet.btc.indonesia/
+
 ---
 
 This app looks like a terminal for a website:

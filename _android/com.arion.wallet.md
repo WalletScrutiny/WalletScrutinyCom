@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Arion Wallet"
+title: Arion Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.arion.wallet
 appCountry: 
 released: 2019-10-10
 updated: 2019-10-10
-version: "v1.0.1"
+version: v1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-09-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

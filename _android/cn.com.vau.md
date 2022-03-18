@@ -1,6 +1,6 @@
 ---
 wsId: vantageFX
-title: "Vantage: Trade Smarter"
+title: 'Vantage: Trade Smarter'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
 updated: 2022-02-25
-version: "2.0.5"
+version: 2.0.5
 stars: 4.869835
 ratings: 8949
 reviews: 1032
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VantageFX
 social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
-redirect_from:
+redirect_from: 
+
 ---
 
 App description:

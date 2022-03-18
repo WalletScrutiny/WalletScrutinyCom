@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "S3 Wallet"
+title: S3 Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.s3.wallet
 appCountry: 
 released: 2020-01-29
 updated: 2021-02-20
-version: "2.1.2"
+version: 2.1.2
 stars: 4.3
 ratings: 61
 reviews: 36
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

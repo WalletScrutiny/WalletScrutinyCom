@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MoonBase"
+title: MoonBase
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.xz.moonbase
 appCountry: 
 released: 2021-07-07
 updated: 2021-12-26
-version: "1.0.6"
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

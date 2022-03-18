@@ -1,6 +1,6 @@
 ---
 wsId: 100xaltbase
-title: "100xAltbase: Buy Crypto Altcoins, Altcoin Exchange"
+title: '100xAltbase: Buy Crypto Altcoins, Altcoin Exchange'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.xaltbase.app
 appCountry: us
 released: 2021-05-31
 updated: 2021-11-18
-version: "3.0.5"
+version: 3.0.5
 stars: 3
 ratings: 3579
 reviews: 2580
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nobtc
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 100XCoin_
 social:
 - https://www.linkedin.com/company/100xCoin
 - https://www.facebook.com/100xcoinFB
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-20**: This app is not available anymore.

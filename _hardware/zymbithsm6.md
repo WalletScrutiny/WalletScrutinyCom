@@ -1,5 +1,5 @@
 ---
-title: "Zymbit HSM6"
+title: Zymbit HSM6
 appId: zymbithsm6
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Zymbit"
+provider: Zymbit
 providerWebsite: 
 website: https://www.zymbit.com/hsm6/
 shop: https://store.zymbit.com/products/hsm6
@@ -26,10 +26,11 @@ date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: zymbit
-social: 
+social:
 - https://www.linkedin.com/company/zymbit
 - https://www.facebook.com/zymbit
 - https://github.com/Zymbit-Docs
+
 ---
 
 HSM stands for Hardware Security Module for Embedded Applications.

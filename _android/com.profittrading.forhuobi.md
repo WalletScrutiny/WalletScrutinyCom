@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading for Huobi - Trade much faster"
+title: ProfitTrading for Huobi - Trade much faster
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forhuobi
 appCountry: 
 released: 2018-11-21
 updated: 2021-12-03
-version: "3.0.2"
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-redirect_from:
+redirect_from: 
+
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

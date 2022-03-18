@@ -1,5 +1,5 @@
 ---
-title: "Swiss Bank in Your Pocket"
+title: Swiss Bank in Your Pocket
 appId: swissbankinyourpocket
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Swiss Bank in Your Pocket"
+provider: Swiss Bank in Your Pocket
 providerWebsite: https://swissbankinyourpocket.com/
 website: 
 shop: https://www.amazon.com/Swiss-Bank-Your-Pocket-SBIYP/dp/B0773KZCMK
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 It is difficult to determine if this wallet ever existed, launched in 2017, it is highly likely this device is not available anymore.

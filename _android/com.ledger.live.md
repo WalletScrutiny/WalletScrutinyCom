@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Ledger Live - Web3 Wallet"
+title: Ledger Live - Web3 Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
 updated: 2022-03-07
-version: "2.39.1"
+version: 2.39.1
 stars: 3.0567377
 ratings: 6090
 reviews: 835
@@ -23,13 +22,14 @@ meta: ok
 verdict: nowallet
 date: 2020-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Ledger
 social:
 - https://www.linkedin.com/company/ledgerhq
 - https://www.facebook.com/Ledger
 redirect_from:
-  - /com.ledger.live/
+- /com.ledger.live/
+
 ---
 
 This is the companion app for the Ledger hardware wallets. As we fail to start

@@ -1,5 +1,5 @@
 ---
-title: "Bitfi.2 Wallet"
+title: Bitfi.2 Wallet
 appId: bitfiwallet
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [115, 67, 8]
+dimensions:
+- 115
+- 67
+- 8
 weight: 
-provider: "Bitfi, Inc"
+provider: Bitfi, Inc
 providerWebsite: https://bitfi.com
 website: https://bitfi.com/
 shop: https://bitfi.com/order
@@ -27,9 +30,10 @@ date: 2021-12-10
 signer: 
 reviewArchive: 
 twitter: thebitfi
-social: 
+social:
 - https://www.linkedin.com/company/bitfi
 - https://www.facebook.com/TheBitfi
+
 ---
 
 <div class="alertBox"><div>

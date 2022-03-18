@@ -1,6 +1,6 @@
 ---
 wsId: ATokenWallet
-title: "AToken App"
+title: AToken App
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1395835245
 released: 2018-07-28
 updated: 2021-12-13
-version: "4.2.0"
+version: 4.2.0
 stars: 4.91635
 reviews: 263
 size: 179051520
@@ -22,10 +22,11 @@ meta: defunct
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ATokenOfficial
 social:
 - https://www.facebook.com/ATokenOfficial
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

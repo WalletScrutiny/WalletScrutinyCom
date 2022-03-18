@@ -1,6 +1,6 @@
 ---
 wsId: MoneyPipe
-title: "MoneyPipe: HD Bitcoin Wallet"
+title: 'MoneyPipe: HD Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1487413008
 released: 2020-06-15
 updated: 2022-02-12
-version: "3.9.1"
+version: 3.9.1
 stars: 5
 reviews: 1
 size: 59139072
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: money_pipe
 social:
 - https://www.facebook.com/moneypipewallet
+
 ---
 
 {% include copyFromAndroid.html %}

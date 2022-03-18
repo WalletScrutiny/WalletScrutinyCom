@@ -1,6 +1,6 @@
 ---
 wsId: MandalaExchange
-title: "Mandala Exchange"
+title: Mandala Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1547739845
 released: 2021-02-24
 updated: 2021-07-15
-version: "1.0.1"
+version: 1.0.1
 stars: 4.18966
 reviews: 58
 size: 48863232
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mandalaex
 social:
 - https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
+
 ---
 
 {% include copyFromAndroid.html %}

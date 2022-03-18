@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Smart chain"
+title: Smart chain
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: smartchain.aiqt
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
-version: "9.8"
+version: '9.8'
 stars: 4.1
 ratings: 98
 reviews: 39
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not available anymore.

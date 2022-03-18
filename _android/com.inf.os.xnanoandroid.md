@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "xNANO | Compre e Venda Bitcoin e Criptomoedas"
+title: xNANO | Compre e Venda Bitcoin e Criptomoedas
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.inf.os.xnanoandroid
 appCountry: 
 released: 2020-12-04
 updated: 2020-10-08
-version: "4.0"
+version: '4.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

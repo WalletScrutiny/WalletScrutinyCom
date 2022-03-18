@@ -1,6 +1,6 @@
 ---
 wsId: DigitalMoney
-title: "Digital Money"
+title: Digital Money
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1549873562
 released: 2021-02-13
 updated: 2022-02-16
-version: "1.4.1"
+version: 1.4.1
 stars: 
 reviews: 
 size: 36362240
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

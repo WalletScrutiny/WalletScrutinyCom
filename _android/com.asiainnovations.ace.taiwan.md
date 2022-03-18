@@ -1,6 +1,6 @@
 ---
 wsId: ACEexchange
-title: "ACE Exchange - Trade TWD, BTC, ETH & Crypto"
+title: ACE Exchange - Trade TWD, BTC, ETH & Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.asiainnovations.ace.taiwan
 appCountry: us
 released: 2019-01-28
 updated: 2022-02-24
-version: "5.2.0_3061"
+version: 5.2.0_3061
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/ace.exchange.tw
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Eclair Mobile (EOL)"
+title: Eclair Mobile (EOL)
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: fr.acinq.eclair.wallet.mainnet2
 appCountry: 
 released: 2018-04-12
 updated: 2022-03-01
-version: "0.4.18"
+version: 0.4.18
 stars: 4.0958905
 ratings: 377
 reviews: 41
@@ -23,14 +23,15 @@ meta: ok
 verdict: ftbfs
 date: 2019-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: acinq_co
-social:
+social: 
 redirect_from:
-  - /eclair/
-  - /fr.acinq.eclair.wallet.mainnet2/
-  - /posts/2019/12/eclair/
-  - /posts/fr.acinq.eclair.wallet.mainnet2/
+- /eclair/
+- /fr.acinq.eclair.wallet.mainnet2/
+- /posts/2019/12/eclair/
+- /posts/fr.acinq.eclair.wallet.mainnet2/
+
 ---
 
 This wallet has a really short description. Here it is in full:

@@ -1,6 +1,6 @@
 ---
 wsId: ThinkTrader
-title: "ThinkTrader"
+title: ThinkTrader
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.riflexo.tradeinterceptormobile
 appCountry: us
 released: 2010-08-02
 updated: 2022-03-10
-version: "6.7.3.0"
+version: 6.7.3.0
 stars: 3.94
 ratings: 5176
 reviews: 343
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ThinkMarketscom
 social:
 - https://www.linkedin.com/company/thinkmarkets
 - https://www.facebook.com/ThinkMarkets
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

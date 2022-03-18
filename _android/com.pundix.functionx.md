@@ -1,6 +1,6 @@
 ---
 wsId: functionX
-title: "f(x)Wallet by Pundi X Labs"
+title: f(x)Wallet by Pundi X Labs
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
 updated: 2021-12-10
-version: "1.13.0"
+version: 1.13.0
 stars: 3.6181817
 ratings: 363
 reviews: 34
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FUNCTIONX_IO
 social:
 - https://www.linkedin.com/company/functionx
 - https://www.facebook.com/FunctionX.io
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

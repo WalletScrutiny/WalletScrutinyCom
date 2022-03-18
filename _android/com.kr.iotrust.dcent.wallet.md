@@ -1,6 +1,6 @@
 ---
 wsId: dCent
-title: "D'CENT Crypto Wallet"
+title: D'CENT Crypto Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.kr.iotrust.dcent.wallet
 appCountry: cn
 released: 2018-10-16
 updated: 2022-03-04
-version: "5.13.3"
+version: 5.13.3
 stars: 4.04902
 ratings: 756
 reviews: 490
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
-redirect_from:
+redirect_from: 
+
 ---
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>

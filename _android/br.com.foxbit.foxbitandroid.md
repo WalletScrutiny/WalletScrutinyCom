@@ -1,6 +1,6 @@
 ---
 wsId: foxbitexchange
-title: "Foxbit Exchange"
+title: Foxbit Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: br.com.foxbit.foxbitandroid
 appCountry: br
 released: 2019-01-28
 updated: 2022-03-10
-version: "2.20.0"
+version: 2.20.0
 stars: 3.3411765
 ratings: 6740
 reviews: 4653
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: foxbit
 social:
 - https://www.linkedin.com/company/foxbit
 - https://www.facebook.com/foxbitcoin
-redirect_from:
+redirect_from: 
+
 ---
 
 **The app's description and official website are in Portugese. Quotes are provided by Google Translate, and the app may not have an English translation available.**

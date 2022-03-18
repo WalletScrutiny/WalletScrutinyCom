@@ -1,5 +1,5 @@
 ---
-title: "Cold Storage Coins"
+title: Cold Storage Coins
 appId: coldstoragecoins
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 2022-01-31
 version: 
 binaries: 
-dimensions: [134.87, 109.98, 7.11]
+dimensions:
+- 134.87
+- 109.98
+- 7.11
 weight: 40
-provider: "Rearden Metals Pte Ltd"
+provider: Rearden Metals Pte Ltd
 providerWebsite: https://www.reardenmetals.sg/
 website: https://coldstoragecoins.com/
 shop: https://checkout.square.site/buy/LNFSKRHZPZLG3ESNBYQ6HHA6
@@ -26,11 +29,12 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: coldstoragecoin
-social: 
+social:
 - https://www.linkedin.com/company/rearden-metals/
 - https://www.instagram.com/coldstoragecoins
 - https://www.facebook.com/coldstoragecoins
 - https://github.com/ReardenMetals
+
 ---
 
 Singapore based Rearden Metals Pte Ltd touts what it calls its Blockchain Mint service along with its Cold Storage Coins. It is uncanny in its resemblance to the original:

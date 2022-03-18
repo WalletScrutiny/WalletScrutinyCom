@@ -1,6 +1,6 @@
 ---
 wsId: OceanEX
-title: "OceanEx"
+title: OceanEx
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1481311936
 released: 2019-10-05
 updated: 2022-02-22
-version: "1.5.2"
+version: 1.5.2
 stars: 4.65625
 reviews: 32
 size: 48158720
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OceanexOfficial
 social:
 - https://www.facebook.com/OceanExPROOfficial
 - https://www.reddit.com/r/OceanExOfficial
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-title: "HooFoo"
+title: HooFoo
 appId: hoofoo
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "HooFoo Inc"
+provider: HooFoo Inc
 providerWebsite: https://hoofoo.io
 website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: hoofoowallet
 social: 
+
 ---
 
 On the [provider's website](https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526) it states that this hardware wallet is coming soon, so a work in progress.

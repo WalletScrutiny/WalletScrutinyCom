@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Augstrain Crypto Wallet : Buy & Sell Crypto Assets"
+title: 'Augstrain Crypto Wallet : Buy & Sell Crypto Assets'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: augstrain.asn
 appCountry: 
 released: 2020-09-10
 updated: 2020-09-10
-version: "8.0"
+version: '8.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-23**: This app is no more on Play Store.

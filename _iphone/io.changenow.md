@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: "ChangeNOW Crypto Exchange"
+title: ChangeNOW Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1518003605
 released: 2020-06-29
 updated: 2022-03-16
-version: "2.4"
+version: '2.4'
 stars: 4.53587
 reviews: 655
 size: 42523648
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ChangeNOW_io
 social:
 - https://www.facebook.com/ChangeNOW.io
 - https://www.reddit.com/r/ChangeNOW_io
+
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

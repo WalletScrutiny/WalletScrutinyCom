@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BCD Pay"
+title: BCD Pay
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.chimpion.bcdpay
 appCountry: 
 released: 2019-05-21
 updated: 2020-03-16
-version: "7.1.63"
+version: 7.1.63
 stars: 4.285714
 ratings: 186
 reviews: 12
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-03-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

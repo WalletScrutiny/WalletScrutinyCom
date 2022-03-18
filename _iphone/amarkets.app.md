@@ -1,6 +1,6 @@
 ---
 wsId: AMarkets
-title: "AMarkets Trading"
+title: AMarkets Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1495820700
 released: 2020-02-12
 updated: 2022-03-09
-version: "1.4.33"
+version: 1.4.33
 stars: 4.45455
 reviews: 33
 size: 75952128
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/amarkets
 - https://www.facebook.com/AMarketsFirm
+
 ---
 
 {% include copyFromAndroid.html %}

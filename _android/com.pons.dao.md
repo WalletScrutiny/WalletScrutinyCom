@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "DAO Wallet"
+title: DAO Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pons.dao
 appCountry: 
 released: 2021-02-08
 updated: 2021-09-18
-version: "1.0.0.20"
+version: 1.0.0.20
 stars: 3.5
 ratings: 52
 reviews: 34
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: daoconsensus
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <div class="alertBox"><div>

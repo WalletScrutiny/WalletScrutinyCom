@@ -1,6 +1,6 @@
 ---
 wsId: imToken
-title: "imToken: Crypto & DeFi Wallet"
+title: 'imToken: Crypto & DeFi Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: im.token.app
 appCountry: 
 released: 2018-05-31
 updated: 2022-03-16
-version: "2.9.10"
+version: 2.9.10
 stars: 3.96
 ratings: 4350
 reviews: 191
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: imTokenOfficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 In the description we read:

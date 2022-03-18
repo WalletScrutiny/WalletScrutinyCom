@@ -1,6 +1,6 @@
 ---
 wsId: fxcoinpro
-title: "FX Coin"
+title: FX Coin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.sharpdev.fxcoin
 appCountry: ru
 released: 2019-03-07
 updated: 2020-10-30
-version: "1.11.1"
+version: 1.11.1
 stars: 2.9114392
 ratings: 2801
 reviews: 1612
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2021-10-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Note has to be made that there are several social media handles with the words fxcoin in it, across different countries.

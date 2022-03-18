@@ -1,6 +1,6 @@
 ---
 wsId: bitfy
-title: "Bitfy SuperApp de Criptomoedas"
+title: Bitfy SuperApp de Criptomoedas
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitfyapp
 appCountry: us
 released: 2019-10-14
 updated: 2022-03-10
-version: "3.10.27"
+version: 3.10.27
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
-redirect_from:
+redirect_from: 
+
 ---
 
 Bitfy is a Brazilian app that claims to have a:

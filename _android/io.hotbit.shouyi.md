@@ -1,6 +1,6 @@
 ---
 wsId: hotbit
-title: "Hotbit"
+title: Hotbit
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.hotbit.shouyi
 appCountry: 
 released: 2019-09-19
 updated: 2022-03-03
-version: "1.4.2"
+version: 1.4.2
 stars: 4.071823
 ratings: 75096
 reviews: 1363
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Hotbit_news
 social:
 - https://www.linkedin.com/company/hotbitexchange
 - https://www.facebook.com/hotbitexchange
-redirect_from:
+redirect_from: 
+
 ---
 
 Hotbit describes itself as

@@ -1,5 +1,5 @@
 ---
-title: "MIRkey"
+title: MIRkey
 appId: mirkey
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [19, 45, 10]
+dimensions:
+- 19
+- 45
+- 10
 weight: 7
-provider: "Elliptic Secure"
+provider: Elliptic Secure
 providerWebsite: https://ellipticsecure.com
 website: https://ellipticsecure.com/products/mirkey_overview.html
 shop: https://ellipticsecure.com/order.html
@@ -27,9 +30,10 @@ date: 2021-12-04
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.linkedin.com/company/ellipticsecure
 - https://github.com/ellipticSecure
+
 ---
 
 > The MIRkey is a [FIDO2 Security Key](https://ellipticsecure.com/mirkey/faq/2019/05/28/what-is-a-hardware-security-key.html), multi-purpose [HSM](https://ellipticsecure.com/ehsm/faq/2019/02/09/what-is-a-hardware-security-module.html) and hardware Bitcoin wallet.

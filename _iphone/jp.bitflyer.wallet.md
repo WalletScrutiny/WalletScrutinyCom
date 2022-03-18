@@ -1,6 +1,6 @@
 ---
 wsId: bitFlyer
-title: "bitFlyer Crypto Exchange"
+title: bitFlyer Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: jp
 idd: 1164758997
 released: 2016-11-18
 updated: 2022-02-16
-version: "6.15.0"
+version: 6.15.0
 stars: 4.32433
 reviews: 103972
 size: 37999616
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
+
 ---
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.

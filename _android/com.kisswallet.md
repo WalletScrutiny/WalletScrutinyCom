@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Moonshine"
+title: Moonshine
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.kisswallet
 appCountry: 
 released: 2020-02-16
 updated: 2020-05-30
-version: "0.3.6"
+version: 0.3.6
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coreylphillips
-social:
+social: 
 redirect_from:
-  - /com.kisswallet/
-  - /moonshine/
-  - /posts/com.kisswallet/
+- /com.kisswallet/
+- /moonshine/
+- /posts/com.kisswallet/
+
 ---
 
 This page was created by a script from the **appId** "com.kisswallet" and public

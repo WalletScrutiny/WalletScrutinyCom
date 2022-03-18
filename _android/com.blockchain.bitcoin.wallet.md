@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin Cold Wallet"
-altTitle: "(Fake) Bitcoin Cold Wallet"
+title: Bitcoin Cold Wallet
+altTitle: (Fake) Bitcoin Cold Wallet
 authors:
 - leo
 users: 10000
@@ -9,7 +9,7 @@ appId: com.blockchain.bitcoin.wallet
 appCountry: 
 released: 2021-01-19
 updated: 2021-09-24
-version: "1.0.3.8"
+version: 1.0.3.8
 stars: 4.2178216
 ratings: 729
 reviews: 54
@@ -25,13 +25,14 @@ date: 2021-07-26
 signer: 
 reviewArchive:
 - date: 2021-06-04
-  version: "1.0.3.7"
+  version: 1.0.3.7
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

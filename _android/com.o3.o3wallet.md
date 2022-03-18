@@ -1,6 +1,6 @@
 ---
 wsId: O3Wallet
-title: "O3 Wallet"
+title: O3 Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.o3.o3wallet
 appCountry: us
 released: 2020-08-27
 updated: 2021-12-10
-version: "3.3.1"
+version: 3.3.1
 stars: 4.8301888
 ratings: 474
 reviews: 13
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: O3_Labs
 social:
 - https://github.com/O3Labs
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Google Play

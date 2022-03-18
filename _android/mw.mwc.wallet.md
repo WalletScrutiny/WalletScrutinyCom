@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MWC Mobile Wallet"
+title: MWC Mobile Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: mw.mwc.wallet
 appCountry: 
 released: 2021-05-29
 updated: 2021-05-30
-version: "1.0.0"
+version: 1.0.0
 stars: 4.8
 ratings: 5
 reviews: 3
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-25**: This app is no more.

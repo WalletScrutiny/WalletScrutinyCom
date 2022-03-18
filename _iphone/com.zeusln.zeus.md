@@ -1,15 +1,14 @@
 ---
 wsId: zeusln
-title: "Zeus LN"
+title: Zeus LN
 altTitle: 
-authors:
-
+authors: 
 appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
 updated: 2022-02-28
-version: "0.6.0"
+version: 0.6.0
 stars: 4.33333
 reviews: 15
 size: 37774336
@@ -22,9 +21,10 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZeusLN
-social:
+social: 
+
 ---
 
 This app is a bit special as it does not hold your private keys but neither is

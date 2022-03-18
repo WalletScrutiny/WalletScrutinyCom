@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coingram: بیت کوین، ارزدیجیتال"
+title: 'Coingram: بیت کوین، ارزدیجیتال'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: app.coingram
 appCountry: 
 released: 2019-07-02
 updated: 2021-12-11
-version: "3.1.1"
+version: 3.1.1
 stars: 4.76652
 ratings: 43980
 reviews: 1155
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Note that as of 2021-08-23 this app does not seem to have an English translation.

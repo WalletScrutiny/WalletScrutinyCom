@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Sàn giao dịch Bitcoin và tiền ảo Bitmoon"
+title: Sàn giao dịch Bitcoin và tiền ảo Bitmoon
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.e.bitmoondotnet
 appCountry: 
 released: 2020-02-03
 updated: 2020-02-03
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-01-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

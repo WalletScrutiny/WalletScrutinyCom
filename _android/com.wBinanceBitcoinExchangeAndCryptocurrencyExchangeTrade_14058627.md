@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Binance Exchange And Cryptocurrency Ex."
+title: Bitcoin Binance Exchange And Cryptocurrency Ex.
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627
 appCountry: 
 released: 2021-07-06
 updated: 2021-07-06
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-14**: This app is no more available.

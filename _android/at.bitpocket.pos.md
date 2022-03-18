@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitPocket"
+title: BitPocket
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: at.bitpocket.pos
 appCountry: 
 released: 2016-07-08
 updated: 2017-10-20
-version: "1.1.8"
+version: 1.1.8
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 A Bitcoin wallet.

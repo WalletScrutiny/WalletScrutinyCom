@@ -1,6 +1,6 @@
 ---
 wsId: bitvavo
-title: "Bitvavo | Buy Bitcoin & Crypto"
+title: Bitvavo | Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: be
 idd: 1483903423
 released: 2020-05-28
 updated: 2022-03-11
-version: "2.0.234"
+version: 2.0.234
 stars: 3.46951
 reviews: 164
 size: 33280000
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

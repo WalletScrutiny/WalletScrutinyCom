@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: "BitPay - Bitcoin Wallet & Card"
+title: BitPay - Bitcoin Wallet & Card
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1149581638
 released: 2016-10-24
 updated: 2022-03-04
-version: "12.11.4"
+version: 12.11.4
 stars: 3.98925
 reviews: 1395
 size: 88250368
@@ -22,11 +22,12 @@ meta: ok
 verdict: ftbfs
 date: 2021-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-
 - https://www.facebook.com/BitPayOfficial
+
 ---
 
 {% include copyFromAndroid.html %}

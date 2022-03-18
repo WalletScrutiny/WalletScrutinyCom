@@ -1,6 +1,6 @@
 ---
 wsId: eversend
-title: "Eversend - The Money App"
+title: Eversend - The Money App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.eversendapp
 appCountry: lv
 released: 2019-02-01
 updated: 2022-03-02
-version: "0.2.64"
+version: 0.2.64
 stars: 4.2915196
 ratings: 5009
 reviews: 2202
@@ -23,12 +23,13 @@ meta: ok
 verdict: nobtc
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: eversendapp
 social:
 - https://www.linkedin.com/company/eversend
 - https://www.facebook.com/eversendapp
-redirect_from:
+redirect_from: 
+
 ---
 
 **Updated Review 2021-10-28**

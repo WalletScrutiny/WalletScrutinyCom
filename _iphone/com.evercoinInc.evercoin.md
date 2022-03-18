@@ -1,6 +1,6 @@
 ---
 wsId: evercoin
-title: "Evercoin: Bitcoin, Ripple, ETH"
+title: 'Evercoin: Bitcoin, Ripple, ETH'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1277924158
 released: 2017-09-16
 updated: 2020-11-30
-version: "1.9.5"
+version: 1.9.5
 stars: 4.64699
 reviews: 2745
 size: 63333376
@@ -22,10 +22,11 @@ meta: stale
 verdict: nosource
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: everc0in
 social:
 - https://www.facebook.com/evercoin
+
 ---
 
 This app's description says:

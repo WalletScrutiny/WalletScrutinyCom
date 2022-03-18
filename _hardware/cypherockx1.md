@@ -1,5 +1,5 @@
 ---
-title: "Cypherock X1"
+title: Cypherock X1
 appId: cypherockx1
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 5
-provider: "Cypherock"
+provider: Cypherock
 providerWebsite: https://cypherock.com/
 website: https://www.cypherock.com/
 shop: https://shop.cypherock.com/
@@ -27,9 +27,10 @@ date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: CypherockWallet
-social: 
+social:
 - https://www.linkedin.com/company/cypherockwallet
 - https://www.facebook.com/cypherock
+
 ---
 
 Cypherock was announced in a Bitcointalk ANN thread on February 14, 2020.

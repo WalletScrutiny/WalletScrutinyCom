@@ -1,6 +1,6 @@
 ---
 wsId: Poloniex
-title: "Poloniex Crypto Exchange"
+title: Poloniex Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.plunien.poloniex
 appCountry: 
 released: 2017-06-19
 updated: 2022-03-07
-version: "1.34.1"
+version: 1.34.1
 stars: 4.107843
 ratings: 7425
 reviews: 181
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex
 redirect_from:
-  - /com.plunien.poloniex/
-  - /posts/com.plunien.poloniex/
+- /com.plunien.poloniex/
+- /posts/com.plunien.poloniex/
+
 ---
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto

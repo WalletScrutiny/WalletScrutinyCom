@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Купить Биткоин за рубли – 60cek"
+title: Купить Биткоин за рубли – 60cek
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.a60sek.a60cekorg
 appCountry: 
 released: 2020-04-06
 updated: 2021-11-26
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-12-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

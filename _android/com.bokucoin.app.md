@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bokucoin - Buy, Sell & Store Bitcoin"
+title: Bokucoin - Buy, Sell & Store Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.bokucoin.app
 appCountry: 
 released: 2020-10-09
 updated: 2020-10-10
-version: "1.5"
+version: '1.5'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

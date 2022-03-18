@@ -1,5 +1,5 @@
 ---
-title: "Opendime"
+title: Opendime
 appId: opendime
 authors:
 - kiwilamb
@@ -26,15 +26,16 @@ meta: ok
 verdict: plainkey
 date: 2021-07-17
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-07-11
-  version: ""
+  version: ''
   appHash: 
-  gitRevision: null
+  gitRevision: 
   verdict: noita
 twitter: COLDCARDwallet
-social: 
+social:
 - https://github.com/opendime
+
 ---
 
 To spend the funds, the private keys need to get exposed to potentially insecure

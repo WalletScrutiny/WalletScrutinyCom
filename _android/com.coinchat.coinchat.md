@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Coinchat"
+title: Coinchat
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.coinchat.coinchat
 appCountry: 
 released: 2018-05-20
 updated: 2020-03-11
-version: "2.0.2"
+version: 2.0.2
 stars: 3.6964285
 ratings: 1190
 reviews: 29
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-03-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

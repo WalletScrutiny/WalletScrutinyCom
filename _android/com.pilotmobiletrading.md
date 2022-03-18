@@ -1,6 +1,6 @@
 ---
 wsId: PilotTrading
-title: "Pilot Trading"
+title: Pilot Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pilotmobiletrading
 appCountry: ca
 released: 2019-06-09
 updated: 2022-02-15
-version: "6.02.486"
+version: 6.02.486
 stars: 4.714286
 ratings: 68
 reviews: 9
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tradewithpilot
 social:
 - https://www.facebook.com/tradewithpilot
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ZebPay Crypto Exchange"
+title: ZebPay Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: zebpay.Application
 appCountry: 
 released: 2014-12-23
 updated: 2022-02-04
-version: "3.16.03"
+version: 3.16.03
 stars: 3.37
 ratings: 103840
 reviews: 69
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zebpay
 social:
 - https://www.linkedin.com/company/zebpay
 - https://www.facebook.com/zebpay
 redirect_from:
-  - /zebpay.Application/
-  - /posts/zebpay.Application/
+- /zebpay.Application/
+- /posts/zebpay.Application/
+
 ---
 
 In the description at Google Play we read:

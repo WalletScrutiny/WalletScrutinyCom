@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Wallet"
+title: Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: app.bitcoin.wallet
 appCountry: 
 released: 2021-04-10
 updated: 2021-11-02
-version: "10.00"
+version: '10.00'
 stars: 4.2
 ratings: 25
 reviews: 1
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

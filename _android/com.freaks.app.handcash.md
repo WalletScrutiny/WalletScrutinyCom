@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HandCash - Bitcoin SV Wallet (BETA)"
+title: HandCash - Bitcoin SV Wallet (BETA)
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.freaks.app.handcash
 appCountry: 
 released: 2018-06-01
 updated: 2019-09-16
-version: "1.5.17"
+version: 1.5.17
 stars: 4.4
 ratings: 344
 reviews: 205
@@ -23,12 +22,13 @@ meta: defunct
 verdict: wip
 date: 2019-12-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: handcashapp
-social:
+social: 
 redirect_from:
-  - /com.freaks.app.handcash/
-  - /posts/com.freaks.app.handcash/
+- /com.freaks.app.handcash/
+- /posts/com.freaks.app.handcash/
+
 ---
 
 This was the beta version of {% include walletLink.html wallet='android/io.handcash.wallet' verdict='true' %}.

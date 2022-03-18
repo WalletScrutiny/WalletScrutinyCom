@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "WallBTC кошелек и обменник криптовалют BITCOIN"
+title: WallBTC кошелек и обменник криптовалют BITCOIN
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bohdanuhryn.wallbtc
 appCountry: 
 released: 2016-09-28
 updated: 2017-11-04
-version: "2.0.1"
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

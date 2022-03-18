@@ -1,5 +1,5 @@
 ---
-title: "Keevo Model 1"
+title: Keevo Model 1
 appId: keevo
 authors:
 - danny
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "BitKey Technogies"
+provider: BitKey Technogies
 providerWebsite: https://www.keevowallet.com
 website: https://www.keevowallet.com/products/keevo-model-1
 shop: https://www.keevowallet.com/products/keevo-model-1
@@ -27,8 +27,9 @@ date: 2021-12-10
 signer: 
 reviewArchive: 
 twitter: keevowallet
-social: 
+social:
 - https://www.facebook.com/keevowallet
+
 ---
 
 One of Keevo's main advertised features is:

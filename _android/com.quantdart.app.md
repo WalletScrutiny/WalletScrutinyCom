@@ -1,6 +1,6 @@
 ---
 wsId: QuantDART
-title: "QuantDART: Digital Asset Investment & Management"
+title: 'QuantDART: Digital Asset Investment & Management'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.quantdart.app
 appCountry: us
 released: 2020-09-16
 updated: 2022-01-27
-version: "1.1.25"
+version: 1.1.25
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: QuantDART
 social:
 - https://www.facebook.com/quantdart
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

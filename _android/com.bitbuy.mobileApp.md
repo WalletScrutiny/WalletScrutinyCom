@@ -1,6 +1,6 @@
 ---
 wsId: bitbuy
-title: "Bitbuy"
+title: Bitbuy
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitbuy.mobileApp
 appCountry: ca
 released: 2019-10-15
 updated: 2022-01-10
-version: "3.68.0"
+version: 3.68.0
 stars: 3.442029
 ratings: 1381
 reviews: 758
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitbuy
 social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
-redirect_from:
+redirect_from: 
+
 ---
 
 This Canada specific Money Service Business, FINTRAC regulated app or service, allows Canadian users to buy or sell Bitcoin. The app or service in its [Terms page](https://bitbuy.ca/en/terms) warns users that:

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Altana - Bitcoin Wallet"
+title: Altana - Bitcoin Wallet
 altTitle: 
 authors:
 - emanuel
@@ -10,7 +10,7 @@ appId: it.inbitcoin.altana
 appCountry: 
 released: 2017-04-18
 updated: 2021-10-14
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).

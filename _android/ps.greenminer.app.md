@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto - Bitcoins"
+title: Crypto - Bitcoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: ps.greenminer.app
 appCountry: 
 released: 2021-06-04
 updated: 2021-09-02
-version: "1.39b"
+version: 1.39b
 stars: 4.42
 ratings: 5347
 reviews: 324
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Caution** As with most apps that bear the words "Free Bitcoin", we strongly advise users to take precautionary measures. 

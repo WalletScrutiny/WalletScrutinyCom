@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "FFFEX Exchange"
+title: FFFEX Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.app.fffex
 appCountry: 
 released: 2019-06-16
 updated: 2019-11-24
-version: "2.0.3"
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-11-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

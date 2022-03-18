@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "TTNEX"
+title: TTNEX
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.ttnex.exchange
 appCountry: 
 released: 2021-01-05
 updated: 2021-08-24
-version: "2.0.11"
+version: 2.0.11
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

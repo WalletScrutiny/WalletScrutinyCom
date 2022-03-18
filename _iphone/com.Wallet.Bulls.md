@@ -1,6 +1,6 @@
 ---
 wsId: BullWallet
-title: "BULL WALLET"
+title: BULL WALLET
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1573190233
 released: 2021-06-23
 updated: 2021-10-16
-version: "1.24"
+version: '1.24'
 stars: 5
 reviews: 14
 size: 62233600
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bullcoinfinance
 social:
 - https://www.reddit.com/r/bullcoinfinance
+
 ---
 
 {% include copyFromAndroid.html %}

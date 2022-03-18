@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CM Robot - Autotrader Bitcoin App"
+title: CM Robot - Autotrader Bitcoin App
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.cryptomaniac.cmrobot
 appCountry: 
 released: 2019-08-21
 updated: 2019-09-11
-version: "2.2.1"
+version: 2.2.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: pdax
-title: "PDAX"
+title: PDAX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ph
 idd: 1531246346
 released: 2020-12-18
 updated: 2022-03-09
-version: "1.5.38"
+version: 1.5.38
 stars: 3.20233
 reviews: 257
 size: 103651328
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: pdaxph
 social:
 - https://www.linkedin.com/company/pdaxph
 - https://www.facebook.com/pdaxph
+
 ---
 
 PDAX or the "Philippine Digital Asset Exchange" is a cryptocurrency exchange.

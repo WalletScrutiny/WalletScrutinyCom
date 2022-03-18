@@ -1,6 +1,6 @@
 ---
 wsId: changecoins
-title: "Changecoins"
+title: Changecoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.application.changecoin
 appCountry: us
 released: 2020-05-12
 updated: 2022-02-10
-version: "1.2.6"
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2022-02-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

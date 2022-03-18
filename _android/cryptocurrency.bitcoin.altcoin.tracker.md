@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Tracker - Buy Bitcoin BTC, Ethereum, Ripple"
+title: Crypto Tracker - Buy Bitcoin BTC, Ethereum, Ripple
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: cryptocurrency.bitcoin.altcoin.tracker
 appCountry: 
 released: 2018-10-30
 updated: 2019-10-20
-version: "1.6"
+version: '1.6'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

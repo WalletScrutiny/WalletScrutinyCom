@@ -1,6 +1,6 @@
 ---
 wsId: bitfortip
-title: "Bitfortip"
+title: Bitfortip
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1226070389
 released: 2017-04-19
 updated: 2021-08-20
-version: "2.0.1"
+version: 2.0.1
 stars: 
 reviews: 
 size: 14588928
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitfortip
 social:
 - https://www.linkedin.com/company/bitfortip
 - https://www.facebook.com/bitfortip
+
 ---
 
 {% include copyFromAndroid.html %}

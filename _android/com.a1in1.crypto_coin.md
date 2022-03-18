@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Coin"
+title: Crypto Coin
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.a1in1.crypto_coin
 appCountry: 
 released: 2021-06-14
 updated: 2021-06-19
-version: "1.0.2"
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

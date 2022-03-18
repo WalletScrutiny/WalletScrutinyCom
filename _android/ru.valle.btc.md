@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Paper Wallet"
+title: Bitcoin Paper Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: ru.valle.btc
 appCountry: 
 released: 2013-04-19
 updated: 2021-11-05
-version: "Varies with device"
+version: Varies with device
 stars: 4.6190476
 ratings: 163
 reviews: 12
@@ -25,15 +25,16 @@ date: 2021-11-30
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
 - date: 2020-08-04
-  version: "Varies with device"
+  version: Varies with device
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nonverifiable
 twitter: 
-social:
+social: 
 redirect_from:
-  - /ru.valle.btc/
-  - /posts/ru.valle.btc/
+- /ru.valle.btc/
+- /posts/ru.valle.btc/
+
 ---
 
 **Update:** After

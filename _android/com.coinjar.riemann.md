@@ -1,6 +1,6 @@
 ---
 wsId: CoinJar
-title: "CoinJar: Buy Bitcoin Instantly"
+title: 'CoinJar: Buy Bitcoin Instantly'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinjar.riemann
 appCountry: au
 released: 2019-11-21
 updated: 2022-03-02
-version: "2.21.0"
+version: 2.21.0
 stars: 2.7452831
 ratings: 1248
 reviews: 752
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: getcoinjar
 social:
 - https://www.linkedin.com/company/coinjar
 - https://www.facebook.com/CoinJar
-redirect_from:
+redirect_from: 
+
 ---
 
 Google Play description:

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinDCX Pro:Crypto Trading App"
+title: CoinDCX Pro:Crypto Trading App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coindcx
 appCountry: 
 released: 2018-11-02
 updated: 2022-03-16
-version: "1.0.004"
+version: 1.0.004
 stars: 4.8899083
 ratings: 13567
 reviews: 161
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
-redirect_from:
+redirect_from: 
+
 ---
 
 From their [Terms and Conditions PDF](https://coindcx.com/assets/pdf/User%20Terms%20and%20Conditions.pdf):

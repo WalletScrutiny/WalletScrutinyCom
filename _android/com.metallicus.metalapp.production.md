@@ -1,6 +1,6 @@
 ---
 wsId: MetalPay
-title: "Metal Pay"
+title: Metal Pay
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
 updated: 2022-02-09
-version: "2.5.1-prod"
+version: 2.5.1-prod
 stars: 3.91
 ratings: 564
 reviews: 256
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: metalpaysme
 social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

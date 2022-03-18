@@ -1,6 +1,6 @@
 ---
 wsId: ZcomEx
-title: "Z.com EX - Buy/Sell Bitcoin"
+title: Z.com EX - Buy/Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
 updated: 2022-03-05
-version: "1.2.4"
+version: 1.2.4
 stars: 4.2173915
 ratings: 82
 reviews: 19
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZcomExchange
 social:
 - https://www.facebook.com/ZcomCrypto
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

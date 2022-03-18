@@ -1,6 +1,6 @@
 ---
 wsId: phoenix
-title: "Phoenix Wallet"
+title: Phoenix Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appCountry: us
 idd: 1544097028
 released: 2021-07-13
 updated: 2022-02-11
-version: "1.3.1"
+version: 1.3.1
 stars: 4.2
 reviews: 10
 size: 23333888
@@ -23,9 +23,10 @@ meta: ok
 verdict: nonverifiable
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PhoenixWallet
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

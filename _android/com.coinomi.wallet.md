@@ -1,6 +1,6 @@
 ---
 wsId: coinomi
-title: "Coinomi: Crypto Bitcoin Wallet"
+title: 'Coinomi: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.coinomi.wallet
 appCountry: 
 released: 2014-01-31
 updated: 2022-02-02
-version: "1.25.2"
+version: 1.25.2
 stars: 4.47043
 ratings: 39950
 reviews: 2033
@@ -23,17 +23,18 @@ meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinomiWallet
 social:
 - https://www.linkedin.com/company/coinomi
 - https://www.facebook.com/coinomi
 - https://www.reddit.com/r/COINOMI
 redirect_from:
-  - /coinomi/
-  - /com.coinomi.wallet/
-  - /posts/2019/11/coinomi/
-  - /posts/com.coinomi.wallet/
+- /coinomi/
+- /com.coinomi.wallet/
+- /posts/2019/11/coinomi/
+- /posts/com.coinomi.wallet/
+
 ---
 
 This wallet claims to be non-custodial but

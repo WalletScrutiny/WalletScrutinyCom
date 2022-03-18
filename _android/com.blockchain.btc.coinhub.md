@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Wallet: Crypto Market"
-altTitle: "(Fake) CoinHub - Blockchain Wallet"
-authors:
-
+title: 'Bitcoin Wallet: Crypto Market'
+altTitle: (Fake) CoinHub - Blockchain Wallet
+authors: 
 users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
 updated: 2022-03-04
-version: "1.2.0.1.6"
+version: 1.2.0.1.6
 stars: 4.5742574
 ratings: 1577
 reviews: 65
@@ -25,13 +24,14 @@ date: 2021-07-26
 signer: 
 reviewArchive:
 - date: 2021-06-04
-  version: "1.0.1.4.5"
+  version: 1.0.1.4.5
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

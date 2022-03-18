@@ -1,6 +1,6 @@
 ---
 wsId: Zipmex
-title: "Zipmex: Buy Bitcoin & Crypto"
+title: 'Zipmex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: sg
 idd: 1485647781
 released: 2019-11-06
 updated: 2022-03-08
-version: "22.3.0"
+version: 22.3.0
 stars: 4.26363
 reviews: 110
 size: 67535872
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
+
 ---
 
 {% include copyFromAndroid.html %}

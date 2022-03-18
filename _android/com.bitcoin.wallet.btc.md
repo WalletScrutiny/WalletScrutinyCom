@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin Wallet Blockchain"
-altTitle: "(Fake) Bitcoin Wallet Blockchain"
+title: Bitcoin Wallet Blockchain
+altTitle: (Fake) Bitcoin Wallet Blockchain
 authors:
 - leo
 users: 100000
@@ -9,7 +9,7 @@ appId: com.bitcoin.wallet.btc
 appCountry: 
 released: 2019-05-01
 updated: 2022-03-15
-version: "2.5.3"
+version: 2.5.3
 stars: 4.440758
 ratings: 6495
 reviews: 272
@@ -25,18 +25,19 @@ date: 2021-07-26
 signer: 
 reviewArchive:
 - date: 2021-06-04
-  version: "2.3.0"
+  version: 2.3.0
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
 - date: 2019-11-19
-  version: "1.8.1"
+  version: 1.8.1
   appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: nonverifiable
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

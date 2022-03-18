@@ -1,6 +1,6 @@
 ---
 wsId: tokocrypto
-title: "Tokocrypto"
+title: Tokocrypto
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry: ph
 idd: 1538556690
 released: 2020-12-01
 updated: 2022-02-21
-version: "1.7.0"
+version: 1.7.0
 stars: 5
 reviews: 1
 size: 117403648
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tokocrypto
 social:
 - https://www.linkedin.com/company/toko
 - https://www.facebook.com/TCDXOfficial
+
 ---
 
 {% include copyFromAndroid.html %}

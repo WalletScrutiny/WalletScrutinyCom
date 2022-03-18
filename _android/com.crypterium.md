@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: "Crypterium | Bitcoin Wallet"
+title: Crypterium | Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.crypterium
 appCountry: 
 released: 2018-01-21
 updated: 2022-03-10
-version: "2.6.72.14"
+version: 2.6.72.14
 stars: 3.52
 ratings: 8728
 reviews: 405
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: crypterium
 social:
 - https://www.facebook.com/crypterium.org
 redirect_from:
-  - /com.crypterium/
+- /com.crypterium/
+
 ---
 
 Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):

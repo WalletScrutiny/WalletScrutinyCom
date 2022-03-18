@@ -1,6 +1,6 @@
 ---
 wsId: visionwallet
-title: "Vision: Bitcoin Crypto Wallet"
+title: 'Vision: Bitcoin Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.eletac.tronwallet
 appCountry: 
 released: 2018-05-13
 updated: 2022-03-02
-version: "2.3.6"
+version: 2.3.6
 stars: 4.3
 ratings: 1199
 reviews: 105
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-04-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VisionCryptoApp
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 We do not have to look far to find the wallet claims to be non-custodial.

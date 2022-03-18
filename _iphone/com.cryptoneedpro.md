@@ -1,6 +1,6 @@
 ---
 wsId: Cryptoneed
-title: "Cryptoneed: кошелек и обменник"
+title: 'Cryptoneed: кошелек и обменник'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1524688426
 released: 2020-07-28
 updated: 2021-05-02
-version: "1.0.31"
+version: 1.0.31
 stars: 
 reviews: 
 size: 113953792
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/cryptoneedwallet
+
 ---
 
 {% include copyFromAndroid.html %}

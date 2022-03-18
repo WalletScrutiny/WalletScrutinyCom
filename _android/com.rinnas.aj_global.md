@@ -1,6 +1,6 @@
 ---
 wsId: AjGlobalV
-title: "AjGlobalV:Trade Bitcoin, Ethereum and Gift Cards."
+title: AjGlobalV:Trade Bitcoin, Ethereum and Gift Cards.
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.rinnas.aj_global
 appCountry: us
 released: 2020-05-29
 updated: 2022-03-16
-version: "2.0.10"
+version: 2.0.10
 stars: 2.4166667
 ratings: 146
 reviews: 12
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

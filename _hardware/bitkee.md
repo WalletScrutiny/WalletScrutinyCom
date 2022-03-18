@@ -1,5 +1,5 @@
 ---
-title: "Bitkee"
+title: Bitkee
 appId: bitkee
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 On the [bitkee site](https://bitkee.com) they state the production of this wallet has been discontinued.

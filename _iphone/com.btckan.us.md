@@ -1,6 +1,6 @@
 ---
 wsId: BitKan
-title: "BitKan: Trade Bitcoin & Crypto"
+title: 'BitKan: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1004852205
 released: 2015-06-24
 updated: 2022-01-12
-version: "8.2.1"
+version: 8.2.1
 stars: 4.68492
 reviews: 73
 size: 180712448
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitkanofficial
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

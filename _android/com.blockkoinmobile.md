@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blockkoin"
+title: Blockkoin
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.blockkoinmobile
 appCountry: 
 released: 2020-08-17
 updated: 2021-12-30
-version: "1.5.7"
+version: 1.5.7
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: QuantDART
-title: "QuantDART Defi Digital Assets"
+title: QuantDART Defi Digital Assets
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1522245431
 released: 2020-10-18
 updated: 2022-01-27
-version: "1.1.25"
+version: 1.1.25
 stars: 
 reviews: 
 size: 184808448
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: QuantDART
 social:
 - https://www.facebook.com/quantdart
+
 ---
 
 {% include copyFromAndroid.html %}

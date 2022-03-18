@@ -1,6 +1,6 @@
 ---
 wsId: SapienWallet
-title: "Sapien Wallet"
+title: Sapien Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: org.sapien.wallet
 appCountry: us
 released: 2021-06-24
 updated: 2022-03-15
-version: "1.53.0"
+version: 1.53.0
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/SapienWallet
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

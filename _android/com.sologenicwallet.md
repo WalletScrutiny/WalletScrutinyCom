@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SOLO DEX"
+title: SOLO DEX
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.sologenicwallet
 appCountry: 
 released: 2020-02-04
 updated: 2022-01-25
-version: "2.3.0"
+version: 2.3.0
 stars: 4.267327
 ratings: 3701
 reviews: 94
@@ -23,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2020-06-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.sologenicwallet/
-  - /posts/com.sologenicwallet/
+- /com.sologenicwallet/
+- /posts/com.sologenicwallet/
+
 ---
 
 This wallet does not support BTC.

@@ -1,5 +1,5 @@
 ---
-title: "CERBER"
+title: CERBER
 appId: cerber
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85.6, 4]
+dimensions:
+- 54
+- 85.6
+- 4
 weight: 12
-provider: "Cerber Money Security"
+provider: Cerber Money Security
 providerWebsite: https://cerberwallet.ru
 website: https://cerberwallet.ru
 shop: https://cerberwallet.ru
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## New Review 2021-11-25

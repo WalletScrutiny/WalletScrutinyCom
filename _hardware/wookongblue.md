@@ -1,5 +1,5 @@
 ---
-title: "Wookong Blue"
+title: Wookong Blue
 appId: wookongblue
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "WOOKONG"
+provider: WOOKONG
 providerWebsite: https://wooko.ng/en
 website: https://wooko.ng/en/blue
 shop: https://wooko.ng/en/blue
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The website is [no longer working](https://twitter.com/BitcoinWalletz/status/1477479861031616517).

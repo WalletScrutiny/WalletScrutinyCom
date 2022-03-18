@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Era- A Trending Trading App"
+title: Bitcoin Era- A Trending Trading App
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.bitcoin.era.app3
 appCountry: 
 released: 2021-07-15
 updated: 2021-07-15
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-17**: This app is not the the Play Store anymore

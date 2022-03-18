@@ -1,6 +1,6 @@
 ---
 wsId: BitstockBitstart
-title: "Get Bitcoin every day in Bitstcock"
+title: Get Bitcoin every day in Bitstcock
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: jp.paddle_inc.bitstock
 appCountry: jp
 released: 2019-09-03
 updated: 2022-03-14
-version: "1.4.30"
+version: 1.4.30
 stars: 3.286645
 ratings: 3029
 reviews: 1144
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## New Review 2021-10-28

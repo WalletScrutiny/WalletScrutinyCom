@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "코인통"
+title: 코인통
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: semaphore.coinclient
 appCountry: 
 released: 2018-05-14
 updated: 2021-09-10
-version: "1.50.50"
+version: 1.50.50
 stars: 3.3
 ratings: 55
 reviews: 33
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **CAUTION: We have reason to believe that this app is undergoing law enforcement proceedings.** 

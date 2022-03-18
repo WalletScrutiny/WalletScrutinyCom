@@ -1,6 +1,6 @@
 ---
 wsId: Dsdaq
-title: "Dsdaq - Trade stock, gold, oil, index using USDT"
+title: Dsdaq - Trade stock, gold, oil, index using USDT
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.dsdaq.mobiletrader
 appCountry: us
 released: 2019-12-24
 updated: 2022-01-20
-version: "3.0.4"
+version: 3.0.4
 stars: 5
 ratings: 510
 reviews: 55
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Google Play

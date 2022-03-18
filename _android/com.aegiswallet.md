@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Aegis Bitcoin Wallet"
+title: Aegis Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.aegiswallet
 appCountry: 
 released: 2014-06-01
 updated: 2017-12-20
-version: "1.2"
+version: '1.2'
 stars: 3.8
 ratings: 95
 reviews: 60
@@ -23,12 +22,13 @@ meta: defunct
 verdict: wip
 date: 2020-04-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.aegiswallet/
-  - /posts/com.aegiswallet/
+- /com.aegiswallet/
+- /posts/com.aegiswallet/
+
 ---
 
 This app stopped working a long time ago but it's still available on Google

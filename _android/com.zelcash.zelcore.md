@@ -1,6 +1,6 @@
 ---
 wsId: ZelCore
-title: "Zelcore - Multi Asset Crypto Wallet"
+title: Zelcore - Multi Asset Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.zelcash.zelcore
 appCountry: 
 released: 2018-09-21
 updated: 2022-03-09
-version: "5.13.0"
+version: 5.13.0
 stars: 4.04
 ratings: 834
 reviews: 101
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2020-04-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zelcash
 social:
 - https://www.reddit.com/r/ZelCash
 redirect_from:
-  - /com.zelcash.zelcore/
-  - /posts/com.zelcash.zelcore/
+- /com.zelcash.zelcore/
+- /posts/com.zelcash.zelcore/
+
 ---
 
 This application claims on their Google Play description:

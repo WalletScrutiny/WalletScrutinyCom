@@ -1,6 +1,6 @@
 ---
 wsId: UBFXGlobal
-title: "UBFX Global"
+title: UBFX Global
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ubankfx.forex
 appCountry: th
 released: 2017-05-17
 updated: 2022-01-26
-version: "v8.4-5409-9e6ff01c1"
+version: v8.4-5409-9e6ff01c1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

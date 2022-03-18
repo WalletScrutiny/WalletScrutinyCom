@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "808 Exchange"
+title: 808 Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ex.exchange808
 appCountry: 
 released: 2021-02-03
 updated: 2021-12-17
-version: "2.0.20"
+version: 2.0.20
 stars: 5
 ratings: 269
 reviews: 10
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 808TA_
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

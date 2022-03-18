@@ -1,6 +1,6 @@
 ---
 wsId: ankerPay
-title: "AnkerPay Wallet : Bitcoin"
+title: 'AnkerPay Wallet : Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1487931971
 released: 2019-11-22
 updated: 2019-11-22
-version: "1.24"
+version: '1.24'
 stars: 
 reviews: 
 size: 57012224
@@ -22,10 +22,11 @@ meta: obsolete
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AnkerPay
 social:
 - https://www.facebook.com/AnkerPlatform
+
 ---
 
 {% include copyFromAndroid.html %}

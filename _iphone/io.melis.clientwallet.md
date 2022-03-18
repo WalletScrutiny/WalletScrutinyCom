@@ -1,6 +1,6 @@
 ---
 wsId: melisclientwallet
-title: "Melis Wallet"
+title: Melis Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1176840794
 released: 2017-06-07
 updated: 2021-05-08
-version: "1.6.21"
+version: 1.6.21
 stars: 
 reviews: 
 size: 28587008
@@ -22,9 +22,10 @@ meta: ok
 verdict: ftbfs
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

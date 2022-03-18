@@ -1,6 +1,6 @@
 ---
 wsId: FIGVault
-title: "FIG Vault"
+title: FIG Vault
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: online.figcoin.figvault
 appCountry: tt
 released: 2020-12-23
 updated: 2021-09-08
-version: "0.25.0"
+version: 0.25.0
 stars: 4.452381
 ratings: 42
 reviews: 27
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

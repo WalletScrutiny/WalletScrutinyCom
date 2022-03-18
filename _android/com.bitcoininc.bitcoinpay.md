@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Pay"
+title: Bitcoin Pay
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bitcoininc.bitcoinpay
 appCountry: 
 released: 2016-05-13
 updated: 2017-07-06
-version: "1.0.1"
+version: 1.0.1
 stars: 4.5
 ratings: 119
 reviews: 12
@@ -23,12 +22,13 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.bitcoininc.bitcoinpay/
-  - /posts/com.bitcoininc.bitcoinpay/
+- /com.bitcoininc.bitcoinpay/
+- /posts/com.bitcoininc.bitcoinpay/
+
 ---
 
 This app refers to [Bitcoin.org](http://bitcoin.org/) as it's website, which is

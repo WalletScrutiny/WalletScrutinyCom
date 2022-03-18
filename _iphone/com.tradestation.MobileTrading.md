@@ -1,6 +1,6 @@
 ---
 wsId: TradeStation
-title: "TradeStation - Trade & Invest"
+title: TradeStation - Trade & Invest
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 581548081
 released: 2012-12-10
 updated: 2022-03-03
-version: "6.0.4"
+version: 6.0.4
 stars: 4.56336
 reviews: 15184
 size: 34160640
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
+
 ---
 
 {% include copyFromAndroid.html %}

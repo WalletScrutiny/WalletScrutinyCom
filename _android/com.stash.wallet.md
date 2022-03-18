@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Stash Wallet"
+title: Stash Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.stash.wallet
 appCountry: 
 released: 
 updated: 2018-12-03
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-17**: This app is not on Play Store anymore.

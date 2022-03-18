@@ -1,5 +1,5 @@
 ---
-title: "Archos Safe-T mini"
+title: Archos Safe-T mini
 appId: archossafetmini
 authors:
 - kiwilamb
@@ -9,12 +9,16 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [45, 45, 7.5]
+dimensions:
+- 45
+- 45
+- 7.5
 weight: 12
-provider: "Archos"
+provider: Archos
 providerWebsite: https://www.archos.com/
 website: https://www.archos.com/products/crypto/archos_safetmini/index.html
-shop: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
+shop: >-
+  https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
 country: FR
 price: 49.99EUR
 repository: 
@@ -27,9 +31,10 @@ date: 2021-08-22
 signer: 
 reviewArchive: 
 twitter: ARCHOS
-social: 
+social:
 - https://www.linkedin.com/company/archos
 - https://www.facebook.com/ArchosOfficial
+
 ---
 
 **Update 2021-08-22**: As there is no claims of open source and nobody replied

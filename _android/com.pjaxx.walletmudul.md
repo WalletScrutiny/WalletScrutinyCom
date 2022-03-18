@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Jaxx Liberty Bitcoin Wallet"
-altTitle: "(Fake) Jaxx Liberty Bitcoin Wallet"
+title: Jaxx Liberty Bitcoin Wallet
+altTitle: (Fake) Jaxx Liberty Bitcoin Wallet
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: com.pjaxx.walletmudul
 appCountry: 
 released: 2021-07-05
 updated: 2021-07-05
-version: "1"
+version: '1'
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-08-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-04**: This fake app was gone 2 days after our fake verdict on

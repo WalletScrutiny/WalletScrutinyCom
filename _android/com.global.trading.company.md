@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Global Crypto Trading"
+title: Global Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.global.trading.company
 appCountry: 
 released: 2020-11-11
 updated: 2021-03-26
-version: "1.12"
+version: '1.12'
 stars: 4.1
 ratings: 74
 reviews: 30
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **WARNING** ⚠️ 

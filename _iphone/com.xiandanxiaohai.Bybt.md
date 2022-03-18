@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coinglass"
+title: Coinglass
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1522250001
 released: 2020-07-08
 updated: 2022-03-10
-version: "1.4.0"
+version: 1.4.0
 stars: 5
 reviews: 28
 size: 16322560
@@ -22,9 +22,10 @@ meta: ok
 verdict: fake
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinglass_com
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

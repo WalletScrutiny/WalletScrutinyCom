@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: "Crypto Exchange & Buy Crypto"
+title: Crypto Exchange & Buy Crypto
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.changenow.changenow
 appCountry: 
 released: 2018-09-07
 updated: 2022-03-10
-version: "1.150.13"
+version: 1.150.13
 stars: 4.92
 ratings: 2199
 reviews: 348
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2020-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ChangeNOW_io
 social:
 - https://www.facebook.com/ChangeNOW.io
 - https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
-  - /io.changenow.changenow/
+- /io.changenow.changenow/
+
 ---
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Market Game"
+title: Crypto Market Game
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: ru.borik.cryptomarket.android
 appCountry: 
 released: 2017-12-18
 updated: 2021-04-01
-version: "1.62"
+version: '1.62'
 stars: 3.857143
 ratings: 137
 reviews: 3
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

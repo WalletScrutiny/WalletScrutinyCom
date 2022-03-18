@@ -1,6 +1,6 @@
 ---
 wsId: Bytesmix
-title: "Bytesmix"
+title: Bytesmix
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: kr
 idd: 1475633490
 released: 2019-08-17
 updated: 2021-12-16
-version: "2.5.2"
+version: 2.5.2
 stars: 4.5
 reviews: 6
 size: 53334016
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bytesmix
 social:
 - https://www.facebook.com/bytesmix
+
 ---
 
 {% include copyFromAndroid.html %}

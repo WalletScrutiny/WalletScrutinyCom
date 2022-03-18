@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Обменник Биткоин кошелёк"
+title: Обменник Биткоин кошелёк
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.AndroidCompany.OBMENik
 appCountry: 
 released: 2020-11-18
 updated: 2020-11-18
-version: "1.0"
+version: '1.0'
 stars: 4.7
 ratings: 462
 reviews: 446
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Note** 

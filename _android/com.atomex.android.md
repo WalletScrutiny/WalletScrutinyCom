@@ -1,6 +1,6 @@
 ---
 wsId: atomex
-title: "Atomex - Crypto Wallet & Atomic swap DEX"
+title: Atomex - Crypto Wallet & Atomic swap DEX
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.atomex.android
 appCountry: 
 released: 2020-12-06
 updated: 2021-11-09
-version: "1.12.1"
+version: 1.12.1
 stars: 3.9
 ratings: 64
 reviews: 4
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nonverifiable
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: atomex_official
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-12**: This app is not on the Store anymore.

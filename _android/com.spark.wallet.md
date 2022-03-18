@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Spark Lightning Wallet"
+title: Spark Lightning Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: com.spark.wallet
 appCountry: 
 released: 2018-12-10
 updated: 2021-11-08
-version: "0.3.1"
+version: 0.3.1
 stars: 
 ratings: 
 reviews: 
@@ -24,12 +24,13 @@ meta: ok
 verdict: nonverifiable
 date: 2021-12-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.spark.wallet/
-  - /posts/com.spark.wallet/
+- /com.spark.wallet/
+- /posts/com.spark.wallet/
+
 ---
 
 <div class="alertBox"><div>⚠️ The provider himself warns:

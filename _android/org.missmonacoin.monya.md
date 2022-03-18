@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Monya - Monacoin & Altcoins Wallet"
+title: Monya - Monacoin & Altcoins Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: org.missmonacoin.monya
 appCountry: 
 released: 2018-01-02
 updated: 2021-12-14
-version: "3.10.5"
+version: 3.10.5
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nonverifiable
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: monya_wallet
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

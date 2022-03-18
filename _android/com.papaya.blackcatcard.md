@@ -1,6 +1,6 @@
 ---
 wsId: blackcatcard
-title: "Blackcatcard: IBAN, Mastercard"
+title: 'Blackcatcard: IBAN, Mastercard'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.papaya.blackcatcard
 appCountry: lv
 released: 2019-06-03
 updated: 2022-02-22
-version: "1.2.27"
+version: 1.2.27
 stars: 3.1546962
 ratings: 3530
 reviews: 2336
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Update 2021-10-28

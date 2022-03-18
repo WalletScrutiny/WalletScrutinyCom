@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin of America Wallet"
+title: Bitcoin of America Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitcoinofamerica.wallet
 appCountry: 
 released: 2019-01-14
 updated: 2021-04-28
-version: "1.1.3"
+version: 1.1.3
 stars: 4.4
 ratings: 202
 reviews: 58
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-03**: This app is no more.

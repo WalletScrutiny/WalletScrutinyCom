@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "TrueDEX - Trading Unleashed"
+title: TrueDEX - Trading Unleashed
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: io.sevenlabs.app
 appCountry: 
 released: 2021-07-05
 updated: 2022-02-04
-version: "1.2.5"
+version: 1.2.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

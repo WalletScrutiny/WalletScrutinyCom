@@ -1,6 +1,6 @@
 ---
 wsId: coinfalcon
-title: "CoinFalcon – Buy & sell Bitcoin"
+title: CoinFalcon – Buy & sell Bitcoin
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.coinfalcon.mobile
 appCountry: 
 released: 2019-07-10
 updated: 2022-02-07
-version: "2.11.14"
+version: 2.11.14
 stars: 2.6
 ratings: 104
 reviews: 8
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2022-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinfalcon
 social:
 - https://www.facebook.com/CoinFalcon
 - https://www.reddit.com/r/CoinFalcon
-redirect_from:
+redirect_from: 
+
 ---
 
 In the description we read:

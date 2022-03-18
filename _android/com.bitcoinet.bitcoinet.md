@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoinet"
+title: Bitcoinet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitcoinet.bitcoinet
 appCountry: 
 released: 2020-06-25
 updated: 2020-06-20
-version: "5.0"
+version: '5.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

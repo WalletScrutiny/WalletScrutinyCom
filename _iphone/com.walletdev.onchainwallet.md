@@ -1,6 +1,6 @@
 ---
 wsId: HuobiWallet
-title: "Huobi Wallet - Safe & Reliable"
+title: Huobi Wallet - Safe & Reliable
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1433883012
 released: 2018-09-29
 updated: 2022-03-05
-version: "3.0.9"
+version: 3.0.9
 stars: 4.01124
 reviews: 178
 size: 129448960
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-04-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
+
 ---
 
 From the description on the App Store the wallet provider clearly states the

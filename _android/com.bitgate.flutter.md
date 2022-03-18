@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitGate"
+title: BitGate
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitgate.flutter
 appCountry: 
 released: 
 updated: 2022-03-11
-version: "0.8.5"
+version: 0.8.5
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: fewusers
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitgatex
 social:
 - https://www.linkedin.com/company/bitgate
 - https://www.facebook.com/bitgatex
-redirect_from:
+redirect_from: 
+
 ---
 
 The app only has 100+ downloads. 

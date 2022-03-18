@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Sats App by Casa"
+title: Sats App by Casa
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.satsapp
 appCountry: 
 released: 
 updated: 2020-04-13
-version: "1.3.1"
+version: 1.3.1
 stars: 3.1
 ratings: 14
 reviews: 8
@@ -23,12 +22,13 @@ meta: defunct
 verdict: wip
 date: 2020-07-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.satsapp/
-  - /posts/com.satsapp/
+- /com.satsapp/
+- /posts/com.satsapp/
+
 ---
 
 This app was removed from Google Play.

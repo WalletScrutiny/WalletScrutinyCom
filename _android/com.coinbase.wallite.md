@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Coinbase Wallet Lite"
+title: Coinbase Wallet Lite
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.coinbase.wallite
 appCountry: 
 released: 2019-04-16
 updated: 2020-07-17
-version: "0.5-alpha"
+version: 0.5-alpha
 stars: 3.85
 ratings: 378
 reviews: 13
@@ -23,10 +22,11 @@ meta: stale
 verdict: nobtc
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is provided by the same developer as

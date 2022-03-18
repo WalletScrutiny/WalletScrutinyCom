@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CBANX - Cryptocurrency Exchange"
+title: CBANX - Cryptocurrency Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.cbanx.androidapp
 appCountry: 
 released: 2018-08-25
 updated: 2019-06-25
-version: "2.1.20"
+version: 2.1.20
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

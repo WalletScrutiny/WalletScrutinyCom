@@ -1,6 +1,6 @@
 ---
 wsId: Mercuryo
-title: "Mercuryo Bitcoin Cryptowallet"
+title: Mercuryo Bitcoin Cryptowallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.mercuryo.app
 appCountry: 
 released: 2019-09-03
 updated: 2022-03-04
-version: "2.0.30"
+version: 2.0.30
 stars: 3.975
 ratings: 2732
 reviews: 47
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Mercuryo_io
 social:
 - https://www.linkedin.com/company/mercuryo-io
 - https://www.facebook.com/mercuryo.io
 - https://www.reddit.com/r/mercuryo
 redirect_from:
-  - /com.mercuryo.app/
+- /com.mercuryo.app/
+
 ---
 
 This app has a strong focus on cashing in and out with linked cards and low

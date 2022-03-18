@@ -1,6 +1,6 @@
 ---
 wsId: bitbuy
-title: "Bitbuy: Buy Bitcoin Canada"
+title: 'Bitbuy: Buy Bitcoin Canada'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ca
 idd: 1476837869
 released: 2019-10-21
 updated: 2022-03-04
-version: "3.75.1"
+version: 3.75.1
 stars: 4.58261
 reviews: 6476
 size: 74835968
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitbuy
 social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
+
 ---
 
  {% include copyFromAndroid.html %}

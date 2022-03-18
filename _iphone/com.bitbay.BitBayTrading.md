@@ -1,6 +1,6 @@
 ---
 wsId: bitpaytrading
-title: "Zonda - crypto exchange"
+title: Zonda - crypto exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1409644952
 released: 2018-11-20
 updated: 2022-01-04
-version: "1.4.2"
+version: 1.4.2
 stars: 3.52
 reviews: 25
 size: 65284096
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitBay
 social:
 - https://www.linkedin.com/company/bitbay
 - https://www.facebook.com/BitBay
 - https://www.reddit.com/r/BitBayExchange
+
 ---
 
 This app's description loses no word on who holds the keys to your coins. Their

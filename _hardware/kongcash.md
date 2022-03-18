@@ -1,5 +1,5 @@
 ---
-title: "Kong Cash"
+title: Kong Cash
 appId: kongcash
 authors:
 - danny
@@ -26,8 +26,9 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: kongiscash
-social: 
+social:
 - https://github.com/kong-org
+
 ---
 
 Description from its specification **[paper](https://ipfs.io/ipfs/QmbHnwBuM7Y41Q1DqnMDRx8yQ1aCMtqVka9biPY6cjWogq)**

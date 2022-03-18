@@ -1,6 +1,6 @@
 ---
 wsId: cake
-title: "Cake Wallet"
+title: Cake Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.cakewallet.cake_wallet
 appCountry: 
 released: 2020-01-01
 updated: 2022-02-08
-version: "4.3.8"
+version: 4.3.8
 stars: 3.5096154
 ratings: 730
 reviews: 169
@@ -23,12 +23,13 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cakewallet
 social:
 - https://www.facebook.com/cakewallet
 - https://www.reddit.com/r/cakewallet
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-04-14**: They now do have a public issue tracker and

@@ -1,15 +1,14 @@
 ---
 wsId: bither
-title: "Bither - Bitcoin Wallet"
+title: Bither - Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 appId: net.bither
 appCountry: 
 idd: 899478936
 released: 2014-07-25
 updated: 2021-10-13
-version: "2.0.2"
+version: 2.0.2
 stars: 2.7381
 reviews: 42
 size: 16916480
@@ -22,9 +21,10 @@ meta: ok
 verdict: obfuscated
 date: 2021-03-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 At the risk of putting it into the wrong **not verifiable** category, we assume

@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: "WhaleFin: Buy Crypto & Bitcoin"
+title: 'WhaleFin: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
 updated: 2022-03-03
-version: "2.1.5"
+version: 2.1.5
 stars: 4.298387
 ratings: 2656
 reviews: 97
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ambergroup_io
 social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
-redirect_from:
+redirect_from: 
+
 ---
 
 The app is a crypto investment app that allows users to: 

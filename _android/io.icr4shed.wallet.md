@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MultiWallet - Crypto Wallet"
+title: MultiWallet - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.icr4shed.wallet
 appCountry: 
 released: 2021-09-10
 updated: 2022-01-28
-version: "3.61"
+version: '3.61'
 stars: 4.58
 ratings: 87
 reviews: 17
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

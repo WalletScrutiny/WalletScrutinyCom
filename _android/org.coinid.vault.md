@@ -1,6 +1,6 @@
 ---
 wsId: COINiDVault
-title: "COINiD Vault"
+title: COINiD Vault
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: org.coinid.vault
 appCountry: 
 released: 2018-10-14
 updated: 2021-02-20
-version: "1.5.5"
+version: 1.5.5
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: stale
 verdict: ftbfs
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: COINiDGroup
-social:
+social: 
 redirect_from:
-  - /org.coinid.vault/
-  - /posts/org.coinid.vault/
+- /org.coinid.vault/
+- /posts/org.coinid.vault/
+
 ---
 
 This app is the companion app for the

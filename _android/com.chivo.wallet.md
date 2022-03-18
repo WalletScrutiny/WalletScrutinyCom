@@ -1,6 +1,6 @@
 ---
 wsId: ChivoWallet
-title: "Chivo Wallet"
+title: Chivo Wallet
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.chivo.wallet
 appCountry: sv
 released: 2021-09-06
 updated: 2021-12-12
-version: "2.0.1"
+version: 2.0.1
 stars: 3.4020758
 ratings: 27085
 reviews: 12361
@@ -26,14 +26,15 @@ date: 2021-10-29
 signer: 
 reviewArchive:
 - date: 2021-10-10
-  version: "1.1.0"
+  version: 1.1.0
   appHash: 
   gitRevision: fa227d42296cae666acec49c980629e0b2a71636
   verdict: custodial
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-10-29**: [This Tweet](https://twitter.com/structerer/status/1453793507777331204):

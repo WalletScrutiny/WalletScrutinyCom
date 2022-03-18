@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Embit - Bitcoin blockchain wallet & data insertion"
+title: Embit - Bitcoin blockchain wallet & data insertion
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: app.codecellar.embitwallet
 appCountry: 
 released: 2019-12-01
 updated: 2022-01-16
-version: "4.67"
+version: '4.67'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

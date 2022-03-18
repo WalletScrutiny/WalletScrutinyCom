@@ -1,6 +1,6 @@
 ---
 wsId: BigONE
-title: "BigONE - Bitcoin Trading & Cryptocurrency Exchange"
+title: BigONE - Bitcoin Trading & Cryptocurrency Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: one.big
 appCountry: us
 released: 2019-10-30
 updated: 2022-02-17
-version: "2.2.210"
+version: 2.2.210
 stars: 4
 ratings: 836
 reviews: 52
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BigONEexchange
 social:
 - https://www.facebook.com/exBigONE
 - https://www.reddit.com/r/BigONEExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 BigONE has the interface of a digital exchange, and advertises itself as such.

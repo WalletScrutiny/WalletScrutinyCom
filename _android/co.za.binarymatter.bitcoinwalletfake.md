@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Fake Bitcoin Wallet"
+title: Fake Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.za.binarymatter.bitcoinwalletfake
 appCountry: 
 released: 2021-03-21
 updated: 2021-04-16
-version: "1.3"
+version: '1.3'
 stars: 3
 ratings: 64
 reviews: 5
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

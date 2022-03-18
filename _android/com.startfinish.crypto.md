@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Start"
+title: Crypto Start
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.startfinish.crypto
 appCountry: 
 released: 2021-09-01
 updated: 2021-09-01
-version: "5.3.10"
+version: 5.3.10
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-07**: This app is not available anymore.

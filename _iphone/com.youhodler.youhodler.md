@@ -1,6 +1,6 @@
 ---
 wsId: YouHodler
-title: "YouHodler - Bitcoin Wallet"
+title: YouHodler - Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1469351696
 released: 2019-07-25
 updated: 2022-02-22
-version: "4.0.0"
+version: 4.0.0
 stars: 4.75455
 reviews: 220
 size: 47223808
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: youhodler
 social:
 - https://www.linkedin.com/company/youhodler
 - https://www.facebook.com/YouHodler
+
 ---
 
 This app is the interface to an exchange and might have a non-custodial part to

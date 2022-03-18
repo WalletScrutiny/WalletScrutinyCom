@@ -1,6 +1,6 @@
 ---
 wsId: bitcointradingcapital
-title: "Bitcoin trading - Capital.com"
+title: Bitcoin trading - Capital.com
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: cz
 idd: 1487443266
 released: 2019-11-26
 updated: 2022-03-16
-version: "1.41.3"
+version: 1.41.3
 stars: 4.7602
 reviews: 784
 size: 79341568
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosendreceive
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Medooza wallet- Best Crypto wallet for android app"
+title: Medooza wallet- Best Crypto wallet for android app
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
 appCountry: 
 released: 2019-01-04
 updated: 2019-01-04
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

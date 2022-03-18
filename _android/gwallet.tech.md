@@ -1,6 +1,6 @@
 ---
 wsId: GWalletApp
-title: "GWallet"
+title: GWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: gwallet.tech
 appCountry: be
 released: 2021-02-16
 updated: 2022-02-18
-version: "1.1.49"
+version: 1.1.49
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

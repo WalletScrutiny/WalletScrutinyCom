@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: "Bitget - Trade BTC, EOS, XRP"
+title: Bitget - Trade BTC, EOS, XRP
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ua
 idd: 1442778704
 released: 2018-11-29
 updated: 2022-03-14
-version: "1.2.33"
+version: 1.2.33
 stars: 5
 reviews: 2
 size: 127051776
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
+
 ---
 
  {% include copyFromAndroid.html %}

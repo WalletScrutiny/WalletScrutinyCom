@@ -1,6 +1,6 @@
 ---
 wsId: Hexa2
-title: "Hexa 2.0 Bitcoin App"
+title: Hexa 2.0 Bitcoin App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: in
 idd: 1586334138
 released: 2021-11-01
 updated: 2022-03-09
-version: "2.0.72"
+version: 2.0.72
 stars: 5
 reviews: 7
 size: 67804160
@@ -22,10 +22,11 @@ meta: ok
 verdict: ftbfs
 date: 2021-12-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HexaWallet
 social:
 - https://www.linkedin.com/company/bithyve
+
 ---
 
 {% include copyFromAndroid.html %}

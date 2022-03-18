@@ -1,6 +1,6 @@
 ---
 wsId: PumaPay
-title: "PumaPay Blockchain wallet - Buy Bitcoin & Crypto"
+title: PumaPay Blockchain wallet - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.pumapay.pumawallet
 appCountry: 
 released: 2018-05-07
 updated: 2021-10-25
-version: "3.9.9"
+version: 3.9.9
 stars: 3.2631578
 ratings: 368
 reviews: 22
@@ -23,14 +23,15 @@ meta: ok
 verdict: nosource
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PumaPay
 social:
 - https://www.linkedin.com/company/decentralized-vision
 - https://www.facebook.com/PumaPayOfficial
 redirect_from:
-  - /com.pumapay.pumawallet/
-  - /posts/com.pumapay.pumawallet/
+- /com.pumapay.pumawallet/
+- /posts/com.pumapay.pumawallet/
+
 ---
 
 This app has very little information on their website but in the Google Play

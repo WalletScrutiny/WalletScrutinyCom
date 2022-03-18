@@ -1,5 +1,5 @@
 ---
-title: "Ledger Nano"
+title: Ledger Nano
 appId: ledgernano
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Ledger"
+provider: Ledger
 providerWebsite: https://www.ledger.com
 website: 
 shop: 
@@ -27,12 +27,13 @@ date: 2022-01-22
 signer: 
 reviewArchive: 
 twitter: Ledger
-social: 
+social:
 - https://www.linkedin.com/company/ledgerhq
 - https://www.facebook.com/Ledger
 - https://www.instagram.com/ledger
 - https://www.youtube.com/Ledger
 - https://www.tiktok.com/@ledger
+
 ---
 
 The [provider's website has a clear statement](https://support.ledger.com/hc/en-us/articles/360010500620-Discontinued-products?docs=true)

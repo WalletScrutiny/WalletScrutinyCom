@@ -1,6 +1,6 @@
 ---
 wsId: bitrue
-title: "Bitrue - Cryptocurrency Wallet & Exchange"
+title: Bitrue - Cryptocurrency Wallet & Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitrue.currency.exchange
 appCountry: 
 released: 2018-07-18
 updated: 2022-02-25
-version: "5.1.6"
+version: 5.1.6
 stars: 3.3366337
 ratings: 2703
 reviews: 294
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitrueOfficial
 social:
 - https://www.facebook.com/BitrueOfficial
 redirect_from:
-  - /com.bitrue.currency.exchange/
+- /com.bitrue.currency.exchange/
+
 ---
 
 This app is heavily focused on the "exchange" part which is also in its name.

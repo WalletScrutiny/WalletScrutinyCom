@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: "Voyager: Buy BTC, SHIB, ETH"
+title: 'Voyager: Buy BTC, SHIB, ETH'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1396178579
 released: 2019-02-13
 updated: 2022-03-15
-version: "3.2.2"
+version: 3.2.2
 stars: 4.74279
 reviews: 98275
 size: 90024960
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-01-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: investvoyager
 social:
 - https://www.linkedin.com/company/investvoyager
 - https://www.facebook.com/InvestVoyager
 - https://www.reddit.com/r/Invest_Voyager
+
 ---
 
 On their website we read:

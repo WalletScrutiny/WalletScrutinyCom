@@ -1,6 +1,6 @@
 ---
 wsId: stormX
-title: "StormX: Shop and Earn Crypto"
+title: 'StormX: Shop and Earn Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cakecodes.bitmaker
 appCountry: us
 released: 2014-09-07
 updated: 2022-03-01
-version: "8.14.2"
+version: 8.14.2
 stars: 4.275244
 ratings: 84499
 reviews: 3448
@@ -23,13 +23,14 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: stormxio
 social:
 - https://www.linkedin.com/company/StormX
 - https://www.facebook.com/stormxio
 - https://www.reddit.com/r/stormxio
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: "Kriptomat - Buy & Store Crypto"
+title: Kriptomat - Buy & Store Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
 updated: 2022-03-01
-version: "2.0.26"
+version: 2.0.26
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: kriptomat
 social:
 - https://www.linkedin.com/company/kriptomat
 - https://www.facebook.com/kriptomat.io
-redirect_from:
+redirect_from: 
+
 ---
 
 A cursory look at the app's website indicates a centralized custodial buy, sell and store service that is managed by a private company based in Estonia. We would be looking deeper by perusing its legal documents and compliances.

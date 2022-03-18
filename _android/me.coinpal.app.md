@@ -1,6 +1,6 @@
 ---
 wsId: Coinpal
-title: "Coinpal"
+title: Coinpal
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: me.coinpal.app
 appCountry: 
 released: 2017-12-22
 updated: 2018-06-27
-version: "4.1.4"
+version: 4.1.4
 stars: 4.3
 ratings: 116
 reviews: 53
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nosource
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
 - https://www.facebook.com/coinpal.me
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

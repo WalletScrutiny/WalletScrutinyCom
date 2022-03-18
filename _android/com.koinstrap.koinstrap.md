@@ -1,6 +1,6 @@
 ---
 wsId: Koinstrap
-title: "Koinstrap: Buy & Sell BTC, ETH"
+title: 'Koinstrap: Buy & Sell BTC, ETH'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.koinstrap.koinstrap
 appCountry: us
 released: 2020-08-28
 updated: 2022-03-15
-version: "3.0.4"
+version: 3.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koinstrap
 social:
 - https://www.facebook.com/koinstrap
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

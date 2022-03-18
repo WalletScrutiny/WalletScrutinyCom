@@ -1,6 +1,6 @@
 ---
 wsId: BlockTrade
-title: "Blocktrade"
+title: Blocktrade
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1360294403
 released: 2018-10-30
 updated: 2022-02-14
-version: "1.6.1"
+version: 1.6.1
 stars: 5
 reviews: 8
 size: 46765056
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Blocktradecom
 social:
 - https://www.linkedin.com/company/blocktradecom
 - https://www.facebook.com/Blocktradecom
+
 ---
 
 {% include copyFromAndroid.html %}

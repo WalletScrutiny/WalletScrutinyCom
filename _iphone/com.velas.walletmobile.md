@@ -1,6 +1,6 @@
 ---
 wsId: VelasWallet
-title: "Velas Mobile Wallet"
+title: Velas Mobile Wallet
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ appCountry: us
 idd: 1541032748
 released: 2020-12-12
 updated: 2022-01-31
-version: "2.2.7"
+version: 2.2.7
 stars: 2.36364
 reviews: 11
 size: 32991232
@@ -24,11 +24,12 @@ meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: velasblockchain
 social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
+
 ---
 
 {% include copyFromAndroid.html %}

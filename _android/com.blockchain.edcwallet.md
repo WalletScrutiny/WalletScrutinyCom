@@ -1,6 +1,6 @@
 ---
 wsId: EDCBlockchainMN
-title: "Blockchain.mn"
+title: Blockchain.mn
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.blockchain.edcwallet
 appCountry: ua
 released: 2020-03-13
 updated: 2021-02-10
-version: "0.82"
+version: '0.82'
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: stale
 verdict: nobtc
 date: 2022-02-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: EDCBlockchain
 social:
 - https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

@@ -1,6 +1,6 @@
 ---
 wsId: coinpayapp
-title: "Coin Pay Wallet: Buy Bitcoin"
+title: 'Coin Pay Wallet: Buy Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appCountry:
 idd: 1477731032
 released: 2019-12-04
 updated: 2021-10-21
-version: "2021.10.19"
+version: 2021.10.19
 stars: 4.05504
 reviews: 109
 size: 22103040
@@ -23,9 +23,10 @@ meta: ok
 verdict: nosource
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

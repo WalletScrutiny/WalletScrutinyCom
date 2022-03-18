@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Burtar wallet: Buy, sell & swap bitcoin & crypto"
+title: 'Burtar wallet: Buy, sell & swap bitcoin & crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.burtar.wallet
 appCountry: 
 released: 2021-07-29
 updated: 2021-07-30
-version: "1.0"
+version: '1.0'
 stars: 4.3
 ratings: 1446
 reviews: 63
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-18**: This app is not on the Store anymore.

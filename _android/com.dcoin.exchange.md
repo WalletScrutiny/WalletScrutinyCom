@@ -1,6 +1,6 @@
 ---
 wsId: dcoin
-title: "Dcoin - Bitcoin Exchange"
+title: Dcoin - Bitcoin Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.dcoin.exchange
 appCountry: us
 released: 2018-11-25
 updated: 2022-03-02
-version: "5.2.1"
+version: 5.2.1
 stars: 4.2313433
 ratings: 1346
 reviews: 86
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange
-redirect_from:
+redirect_from: 
+
 ---
 
 From its Google Play description:

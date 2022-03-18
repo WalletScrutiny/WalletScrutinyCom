@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Wallet - BTC Exchange"
+title: Bitcoin Wallet - BTC Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: btc.org.freewallet.app
 appCountry: 
 released: 2016-06-13
 updated: 2021-09-20
-version: "2.6.8"
+version: 2.6.8
 stars: 4.39
 ratings: 8152
 reviews: 412
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org
 - https://www.reddit.com/r/Freewallet_org
 redirect_from:
-  - /btc.org.freewallet.app/
-  - /posts/btc.org.freewallet.app/
+- /btc.org.freewallet.app/
+- /posts/btc.org.freewallet.app/
+
 ---
 
 According to their description on Google Play, this is a custodial app:

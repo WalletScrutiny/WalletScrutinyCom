@@ -1,6 +1,6 @@
 ---
 wsId: ArteryNetwork
-title: "Artery Wallet"
+title: Artery Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: org.artr.wallet
 appCountry: ru
 released: 2020-10-01
 updated: 2022-01-27
-version: "1.8"
+version: '1.8'
 stars: 4.26257
 ratings: 2174
 reviews: 967
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > The Artery Network is based on devices (phones, computers) that allocate free memory and internet connection in the Artery Node product, providing decentralization to the Artery Storage and Artery VPN products.

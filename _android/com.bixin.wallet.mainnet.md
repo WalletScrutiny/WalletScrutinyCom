@@ -1,6 +1,6 @@
 ---
 wsId: OneKey
-title: "OneKey - Safe Crypto Wallet"
+title: OneKey - Safe Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.bixin.wallet.mainnet
 appCountry: us
 released: 2020-09-16
 updated: 2022-02-15
-version: "2.12.3"
+version: 2.12.3
 stars: 4.681818
 ratings: 315
 reviews: 9
@@ -24,11 +24,12 @@ meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
-redirect_from:
+redirect_from: 
+
 ---
 
 This app is the companion app of {% include walletLink.html wallet='hardware/onekey' verdict='true' %}.

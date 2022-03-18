@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinPoint
-title: "BitcoinPoint"
+title: BitcoinPoint
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: store.cashin.uk
 appCountry: gb
 released: 2021-04-02
 updated: 2022-02-10
-version: "4.5.0"
+version: 4.5.0
 stars: 4.5625
 ratings: 36
 reviews: 28
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

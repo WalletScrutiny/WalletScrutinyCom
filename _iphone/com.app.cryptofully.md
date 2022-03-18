@@ -1,6 +1,6 @@
 ---
 wsId: cryptofully
-title: "Cryptofully"
+title: Cryptofully
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1533929589
 released: 2020-11-15
 updated: 2021-09-15
-version: "1.3.2"
+version: 1.3.2
 stars: 4.64151
 reviews: 53
 size: 50038784
@@ -23,9 +23,10 @@ meta: defunct
 verdict: nowallet
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptofully
-social:
+social: 
+
 ---
 
 **Update 2022-01-21**: This app is not available anymore.

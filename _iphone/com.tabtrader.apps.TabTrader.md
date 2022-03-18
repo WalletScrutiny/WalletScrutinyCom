@@ -1,6 +1,6 @@
 ---
 wsId: tabtrader
-title: "TabTrader - crypto terminal"
+title: TabTrader - crypto terminal
 altTitle: 
 authors:
 - leo
@@ -11,7 +11,7 @@ appCountry:
 idd: 1095716562
 released: 2016-09-02
 updated: 2021-11-20
-version: "3.1.2"
+version: 3.1.2
 stars: 4.73904
 reviews: 3993
 size: 26054656
@@ -24,11 +24,12 @@ meta: ok
 verdict: nowallet
 date: 2021-04-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tabtraderpro
 social:
 - https://www.linkedin.com/company/tabtrader
 - https://www.facebook.com/tabtrader
+
 ---
 
 {% include copyFromAndroid.html %}

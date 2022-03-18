@@ -1,6 +1,6 @@
 ---
 wsId: bitsa
-title: "Bitsa"
+title: Bitsa
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitsacard.BitsaApp
 appCountry: gb
 released: 2019-04-09
 updated: 2022-02-25
-version: "2.7.7"
+version: 2.7.7
 stars: 2.625
 ratings: 884
 reviews: 6
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitsa_oficial
 social:
 - https://www.linkedin.com/company/bitsacard
 - https://www.facebook.com/BitsaCard
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

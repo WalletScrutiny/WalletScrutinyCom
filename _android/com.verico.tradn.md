@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Tradn - Buy Bitcoins with Trusted Exchanges"
+title: Tradn - Buy Bitcoins with Trusted Exchanges
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.verico.tradn
 appCountry: 
 released: 2020-04-24
 updated: 2021-07-19
-version: "1.5.106"
+version: 1.5.106
 stars: 4.5
 ratings: 39
 reviews: 18
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Once you open the app, the user is shown a letter by Wayne Huang who is the CEO of XREX.

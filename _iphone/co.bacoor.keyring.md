@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: "KEYRING PRO: Wallet Connect"
+title: 'KEYRING PRO: Wallet Connect'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry:
 idd: 1546824976
 released: 2021-01-25
 updated: 2022-02-20
-version: "1.8.0"
+version: 1.8.0
 stars: 2.33333
 reviews: 3
 size: 63593472
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KEYRING_PRO
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

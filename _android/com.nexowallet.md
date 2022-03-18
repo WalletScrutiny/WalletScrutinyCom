@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: "Nexo: Buy BTC, ETH, SOL & AVAX"
+title: 'Nexo: Buy BTC, ETH, SOL & AVAX'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.nexowallet
 appCountry: 
 released: 2019-06-28
 updated: 2022-03-04
-version: "2.2.21"
+version: 2.2.21
 stars: 4.26972
 ratings: 21149
 reviews: 1542
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NexoFinance
 social:
 - https://www.facebook.com/nexofinance
 - https://www.reddit.com/r/Nexo
 redirect_from:
-  - /com.nexowallet/
+- /com.nexowallet/
+
 ---
 
 In the description on Google Play we read:

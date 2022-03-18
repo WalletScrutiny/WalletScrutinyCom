@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "StormGain Express: Digital Currency Marketplace"
+title: 'StormGain Express: Digital Currency Marketplace'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: sg.express.mobile
 appCountry: 
 released: 2020-07-10
 updated: 2022-02-26
-version: "1.23.0"
+version: 1.23.0
 stars: 4.836735
 ratings: 3998
 reviews: 12
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

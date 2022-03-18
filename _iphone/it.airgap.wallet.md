@@ -1,6 +1,6 @@
 ---
 wsId: AirGapWallet
-title: "AirGap Wallet"
+title: AirGap Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry:
 idd: 1420996542
 released: 2018-08-24
 updated: 2022-02-24
-version: "3.16.0"
+version: 3.16.0
 stars: 3.94118
 reviews: 17
 size: 107882496
@@ -22,10 +22,11 @@ meta: ok
 verdict: nowallet
 date: 2021-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap
+
 ---
 
 {% include copyFromAndroid.html %}

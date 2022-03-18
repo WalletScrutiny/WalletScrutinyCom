@@ -1,6 +1,6 @@
 ---
 wsId: STICPAY
-title: "STICPAY"
+title: STICPAY
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.sticpay.app.sticpay
 appCountry: us
 released: 2017-08-31
 updated: 2022-01-17
-version: "3.51"
+version: '3.51'
 stars: 3.4285715
 ratings: 380
 reviews: 3
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SticPay
 social:
 - https://www.linkedin.com/company/sticpay
 - https://www.facebook.com/sticpay.global
-redirect_from:
+redirect_from: 
+
 ---
 
 In the Google Play description, STICPAY does claim to be a digital wallet.

@@ -1,6 +1,6 @@
 ---
 wsId: stormgain
-title: "StormGain: Bitcoin Wallet App"
+title: 'StormGain: Bitcoin Wallet App'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry: de
 idd: 1471506070
 released: 2019-07-21
 updated: 2022-02-26
-version: "1.23.0"
+version: 1.23.0
 stars: 4.28307
 reviews: 1187
 size: 59867136
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-03-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
+
 ---
 
 This app's description mainly focuses on trading and interest earning, features

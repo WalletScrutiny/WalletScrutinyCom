@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitexPay"
+title: BitexPay
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: global.bitex.bitexpay.android
 appCountry: 
 released: 2020-09-10
 updated: 2020-11-15
-version: "1.1.0"
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

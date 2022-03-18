@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: "Nuri - Mobile Banking & Crypto"
+title: Nuri - Mobile Banking & Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
 updated: 2022-03-16
-version: "2.3.17"
+version: 2.3.17
 stars: 3.8703296
 ratings: 4416
 reviews: 2814
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: nuribanking
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Updated Review and Verdict 2021-12-22

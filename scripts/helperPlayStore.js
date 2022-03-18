@@ -15,9 +15,10 @@ const stats = {
 }
 
 const folder = "_android/"
-const allowedHeaders = Object.keys(
-  yaml.load(
-    getResult({}, "").split("---")[1]))
+const headers = ("wsId title altTitle authors users appId appCountry released " +
+                "updated version stars ratings reviews size website repository " +
+                "issue icon bugbounty meta verdict date signer reviewArchive " +
+                "twitter social redirect_from").split(" ")
 
 async function refreshAll() {
   fs.readdir(folder, async (err, files) => {
@@ -50,16 +51,17 @@ async function refreshAll() {
   })
 }
 
-function refreshFile(fileName) {
+function refreshFile(fileName, content) {
   sem.acquire().then(function([value, release]) {
-    const appPath = path.join(folder, fileName)
-    const parts = fs.readFileSync(appPath, 'utf8').split("---")
-    const headerStr = parts[1]
-    const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-    const header = yaml.load(headerStr)
+    if (content == undefined) {
+      content = {header: helper.getEmptyHeader(headers), body: undefined}
+      helper.loadFromFile(path.join(folder, fileName), content)
+    }
+    const header = content.header
+    const body = content.body
     const appId = header.appId
     const appCountry = header.appCountry || "us"
-    helper.checkHeaderKeys(header, allowedHeaders)
+    helper.checkHeaderKeys(header, headers)
     if (!helper.was404(`${folder}${appId}`) && !"defunct".includes(header.meta)) {
       try {
         gplay.app({
@@ -131,7 +133,7 @@ function updateFromApp(header, app) {
   // if api reports an older updated date than what we determined, keep our data
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
-    : app.updated
+    : new Date(app.updated)
   header.users = app.minInstalls
   header.stars = app.score
   header.reviews = app.reviews
@@ -144,54 +146,8 @@ function updateFromApp(header, app) {
 function writeResult(header, body) {
   fs
     .createWriteStream(`${folder}${header.appId}.md`)
-    .write(getResult(header, body))
+    .write(helper.getResult(header, body))
     stats.updated++
-}
-
-function getResult(header, body) {
-  return `---
-wsId: ${header.wsId || ""}
-title: "${header.title}"
-altTitle: ${helper.stringOrEmpty(header.altTitle)}
-authors:
-${(header.authors || []).map((item) => `- ${item}`).join("\n")}
-users: ${header.users}
-appId: ${header.appId}
-appCountry: ${header.appCountry || ""}
-released: ${helper.dateOrEmpty(header.released)}
-updated: ${helper.dateOrEmpty(header.updated)}
-version: ${helper.stringOrEmpty(header.version)}
-stars: ${header.stars || ""}
-ratings: ${header.ratings || ""}
-reviews: ${header.reviews || ""}
-size: ${header.size || ""}
-website: ${header.website || ""}
-repository: ${header.repository || ""}
-issue: ${header.issue || ""}
-icon: ${header.icon}
-bugbounty: ${header.bugbounty || ""}
-meta: ${header.meta}
-verdict: ${header.verdict}
-date: ${helper.dateOrEmpty(header.date)}
-signer: ${header.signer || ""}
-reviewArchive:${(header.reviewArchive || []).length > 0
-    ? "\n" + header.reviewArchive.map((item) =>
-        `- date: ${helper.dateOrEmpty(item.date)}
-  version: "${item.version || ""}"
-  appHash: ${item.appHash || ""}
-  gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")
-    : "" }
-twitter: ${header.twitter || ""}
-social:${(header.social || []).length > 0
-    ? "\n" + header.social.map((item) => "- " + item).join("\n")
-    : ""}
-redirect_from:${(header.redirect_from || []).length > 0
-    ? "\n" + header.redirect_from.map((item) => "  - " + item).join("\n")
-    : ""}
----
-
-${body}`
 }
 
 function add(newAppIds) {
@@ -201,21 +157,11 @@ function add(newAppIds) {
       const path = `_android/${appId}.md`
       fs.exists(path, fileExists => {
         if (!fileExists) {
-          const file = fs.createWriteStream(path)
-          file.write(`---
-  appId: ${appId}
-  verdict: wip
-  ---
-  `,
-          err => {
-            if (err) {
-              console.error(`Error with id ${idd}: ${err}`)
-            }
-            // console.log(`Success: ${path}`)
-            refreshFile(`${appId}.md`)
-          })
+          const header = helper.getEmptyHeader(headers)
+          header.appId = appId
+          header.verdict = "wip"
+          refreshFile(`${appId}.md`, {header: header, body: ''})
         } else {
-          // console.warn(`${path} / http://walletscrutiny.com/android/${appId} already exists. Refreshing ...`)
           refreshFile(`${appId}.md`)
         }
       })
@@ -223,7 +169,7 @@ function add(newAppIds) {
 }
 
 function migrateAll(migration) {
-  helper.migrateAll(folder, migration, writeResult)
+  helper.migrateAll(folder, migration, headers)
 }
 
 module.exports = {
@@ -233,27 +179,3 @@ module.exports = {
   add,
   migrateAll
 }
-
-// TODO: the following block was rescued from a big merge conflict!
-
-  const schema = yaml.DEFAULT_SAFE_SCHEMA
-  schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function() { return '' }
-  file.write(`---
-${yaml.safeDump(header, {
-  noArrayIndent: false,
-  schema: schema,
-  sortKeys: function(a, b) {
-    const mainIndexA = defaultHeaders.indexOf(a)
-    const mainIndexB = defaultHeaders.indexOf(b)
-    if (mainIndexA < 0 || mainIndexB < 0) {
-      // don't touch sorting except for top level elements. for now.
-      return 0
-    }
-    return defaultHeaders.indexOf(a) - defaultHeaders.indexOf(b)
-  }
-})}
----
-
-
-${body}`)
-

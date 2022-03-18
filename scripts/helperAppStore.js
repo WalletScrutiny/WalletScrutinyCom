@@ -1,7 +1,6 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
 const apple = require('app-store-scraper')
-const dateFormat = require('dateformat')
 const fs = require('fs')
 const path = require('path')
 const yaml = require('js-yaml')
@@ -16,9 +15,10 @@ const stats = {
 }
 
 const folder = "_iphone/"
-const allowedHeaders = Object.keys(
-  yaml.load(
-    getResult({}, "").split("---")[1]))
+const headers = ("wsId title altTitle authors appId appCountry idd released " +
+                "updated version stars reviews size website repository issue " +
+                "icon bugbounty meta verdict date signer reviewArchive " +
+                "twitter social").split(" ")
 
 async function refreshAll() {
   fs.readdir(folder, async (err, files) => {
@@ -51,17 +51,18 @@ async function refreshAll() {
   })
 }
 
-function refreshFile(fileName) {
+function refreshFile(fileName, content) {
   sem.acquire().then(function([value, release]) {
-    const appPath = path.join(folder, fileName)
-    var parts = fs.readFileSync(appPath, 'utf8').split("---")
-    const headerStr = parts[1]
-    const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-    const header = yaml.load(headerStr)
+    if (content == undefined) {
+      content = {header: helper.getEmptyHeader(headers), body: undefined}
+      helper.loadFromFile(path.join(folder, fileName), content)
+    }
+    const header = content.header
+    const body = content.body
     const appId = header.appId
     const idd = header.idd
     const appCountry = header.appCountry || "us"
-    helper.checkHeaderKeys(header, allowedHeaders)
+    helper.checkHeaderKeys(header, headers)
     if (!"defunct".includes(header.meta)) {
       apple.app({
           id: idd,
@@ -120,7 +121,7 @@ function updateFromApp(header, app) {
   // if api reports an older updated date than what we determined, keep our data
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
-    : app.updated
+    : new Date(app.updated)
   header.released = header.released || app.released
   header.stars = app.score
   header.reviews = app.reviews
@@ -128,55 +129,6 @@ function updateFromApp(header, app) {
   header.website = app.developerWebsite || header.website || ""
   header.date = header.date || new Date()
   helper.updateMeta(header)
-}
-
-function writeResult(header, body) {
-  fs
-    .createWriteStream(`${folder}${header.appId}.md`)
-    .write(getResult(header, body))
-    stats.updated++
-}
-
-function getResult(header, body) {
-  return `---
-wsId: ${header.wsId || ""}
-title: "${header.title}"
-altTitle: ${helper.stringOrEmpty(header.altTitle)}
-authors:
-${(header.authors || []).map((item) => `- ${item}`).join("\n")}
-appId: ${header.appId}
-appCountry: ${header.appCountry || ""}
-idd: ${header.idd}
-released: ${helper.dateOrEmpty(header.released)}
-updated: ${helper.dateOrEmpty(header.updated)}
-version: ${helper.stringOrEmpty(header.version)}
-stars: ${header.stars || ""}
-reviews: ${header.reviews || ""}
-size: ${header.size || ""}
-website: ${header.website || ""}
-repository: ${header.repository || ""}
-issue: ${header.issue || ""}
-icon: ${header.icon}
-bugbounty: ${header.bugbounty || ""}
-meta: ${header.meta}
-verdict: ${header.verdict}
-date: ${helper.dateOrEmpty(header.date)}
-signer: ${header.signer || ""}
-reviewArchive:${(header.reviewArchive || []).length > 0
-    ? "\n" + header.reviewArchive.map((item) =>
-        `- date: ${helper.dateOrEmpty(item.date)}
-  version: "${item.version || ""}"
-  appHash: ${item.appHash || ""}
-  gitRevision: ${item.gitRevision}
-  verdict: ${item.verdict}`).join("\n")
-    : "" }
-twitter: ${header.twitter || ""}
-social:${(header.social || []).length > 0
-    ? "\n" + header.social.map((item) => "- " + item).join("\n")
-    : ""}
----
-
-${body}`
 }
 
 function add(newIdds) {
@@ -207,22 +159,13 @@ function add(newIdds) {
         const path = `_iphone/${app.appId}.md`
         fs.exists(path, fileExists => {
           if (!fileExists) {
-            const file = fs.createWriteStream(path)
-            file.write(`---
-appId: ${app.appId}
-idd: ${idd}
-appCountry: ${country || "" }
-verdict: wip
----
-`,
-            err => {
-              if (err)
-                console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
-              // console.log(`Success: ${path}`)
-              refreshFile(`${app.appId}.md`)
-            })
+            const header = helper.getEmptyHeader(headers)
+            header.appId = appId
+            header.idd = idd
+            header.appCountry = country
+            header.verdict = "wip"
+            refreshFile(`${appId}.md`, {header: header, body: ''})
           } else {
-            // console.warn(`${path} / http://walletscrutiny.com/iphone/${app.appId} already exists. Refreshing ...`)
             refreshFile(`${app.appId}.md`)
           }
         })
@@ -234,10 +177,11 @@ verdict: wip
 }
 
 function migrateAll(migration) {
-  helper.migrateAll(folder, migration, writeResult)
+  helper.migrateAll(folder, migration, headers)
 }
 
 module.exports = {
+  folder,
   refreshAll,
   refreshFile,
   stats,

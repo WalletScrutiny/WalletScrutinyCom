@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Xeliuqa Wallet"
+title: Xeliuqa Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: xeliuqa.com
 appCountry: 
 released: 2021-01-29
 updated: 2021-05-11
-version: "1.8"
+version: '1.8'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

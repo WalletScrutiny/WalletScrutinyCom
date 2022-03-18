@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "E-currency Exchange Plus"
+title: E-currency Exchange Plus
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: ecurrency.exchange.plus
 appCountry: 
 released: 2019-09-28
 updated: 2019-09-28
-version: "v5.0"
+version: v5.0
 stars: 3.4
 ratings: 87
 reviews: 1
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

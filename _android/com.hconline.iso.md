@@ -1,6 +1,6 @@
 ---
 wsId: StartEOSWallet
-title: "Start Wallet(EOS, BTC, ETH, TRON...)"
+title: Start Wallet(EOS, BTC, ETH, TRON...)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hconline.iso
 appCountry: us
 released: 2020-07-19
 updated: 2022-02-08
-version: "R02.03.06.437"
+version: R02.03.06.437
 stars: 3.8333333
 ratings: 19
 reviews: 4
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Starteos
 social:
 - https://www.facebook.com/starteos.io.7
 - https://github.com/StarteosIO
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

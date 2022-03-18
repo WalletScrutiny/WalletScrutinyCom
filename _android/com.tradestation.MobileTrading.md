@@ -1,6 +1,6 @@
 ---
 wsId: TradeStation
-title: "TradeStation: Trade & Invest"
+title: 'TradeStation: Trade & Invest'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
 updated: 2022-03-11
-version: "5.0.1"
+version: 5.0.1
 stars: 3.7401812
 ratings: 4823
 reviews: 1503
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

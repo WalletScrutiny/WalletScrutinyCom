@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "QuickX Touch (New)"
+title: QuickX Touch (New)
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: kr.co.keypair.quickxtouch2
 appCountry: 
 released: 2019-02-25
 updated: 2019-12-27
-version: "1.0.0.60"
+version: 1.0.0.60
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-20**: This app is not available anymore.

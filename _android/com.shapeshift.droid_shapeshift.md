@@ -1,6 +1,6 @@
 ---
 wsId: ShapeShift
-title: "ShapeShift"
+title: ShapeShift
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.shapeshift.droid_shapeshift
 appCountry: 
 released: 2015-10-26
 updated: 2021-10-22
-version: "2.19.3"
+version: 2.19.3
 stars: 3.01
 ratings: 2913
 reviews: 481
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 redirect_from:
-  - /com.shapeshift.droid_shapeshift/
+- /com.shapeshift.droid_shapeshift/
+
 ---
 
 ShapeShift is best known for their non-custodial exchange but this app appears

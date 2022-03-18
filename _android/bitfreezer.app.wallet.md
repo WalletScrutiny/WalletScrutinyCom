@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitFreezer Cold Wallet  Bitcoin Ethereum ERC20"
+title: BitFreezer Cold Wallet  Bitcoin Ethereum ERC20
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: bitfreezer.app.wallet
 appCountry: 
 released: 2019-09-18
 updated: 2021-02-18
-version: "1.0.16"
+version: 1.0.16
 stars: 4.1
 ratings: 61
 reviews: 22
@@ -24,11 +24,12 @@ meta: defunct
 verdict: nosource
 date: 2021-08-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/TheBitFreezer
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-08-03**: This app is not on Play Store anymore.

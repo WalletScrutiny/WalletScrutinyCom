@@ -1,5 +1,5 @@
 ---
-title: "Krux DIY Hardware Wallet"
+title: Krux DIY Hardware Wallet
 appId: kruxdiyhw
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 > Krux is an airgapped hardware signer built on top of the M5StickV, an open-source hardware device from M5Stack.

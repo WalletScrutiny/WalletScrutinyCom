@@ -1,6 +1,6 @@
 ---
 wsId: Bitvo
-title: "Bitvo"
+title: Bitvo
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.vog.bitvo
 appCountry: ca
 released: 2020-03-16
 updated: 2022-01-24
-version: "1.5.9"
+version: 1.5.9
 stars: 3
 ratings: 24
 reviews: 16
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
 - https://www.facebook.com/BitvoExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

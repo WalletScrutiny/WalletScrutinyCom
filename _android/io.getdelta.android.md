@@ -1,15 +1,14 @@
 ---
 wsId: getDelta
-title: "Delta Investment Portfolio Tracker"
+title: Delta Investment Portfolio Tracker
 altTitle: 
-authors:
-
+authors: 
 users: 1000000
 appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
 updated: 2022-03-10
-version: "2022.1.0"
+version: 2022.1.0
 stars: 4.1991787
 ratings: 26395
 reviews: 1707
@@ -23,11 +22,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /io.getdelta.android/
+- /io.getdelta.android/
+
 ---
 
 This appears to be only a portfolio tracker. If it asks for your credentials for

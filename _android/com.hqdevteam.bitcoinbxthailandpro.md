@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin BX Thailand PRO"
+title: Bitcoin BX Thailand PRO
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.hqdevteam.bitcoinbxthailandpro
 appCountry: 
 released: 2017-06-30
 updated: 2017-10-22
-version: "5.0"
+version: '5.0'
 stars: 1.6
 ratings: 23
 reviews: 13
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

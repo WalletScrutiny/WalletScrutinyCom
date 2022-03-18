@@ -1,6 +1,6 @@
 ---
 wsId: MetalPay
-title: "Metal Pay"
+title: Metal Pay
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1345101178
 released: 2018-09-14
 updated: 2022-02-28
-version: "2.8.2"
+version: 2.8.2
 stars: 4.29287
 reviews: 4094
 size: 127497216
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: metalpaysme
 social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
+
 ---
 
 {% include copyFromAndroid.html %}

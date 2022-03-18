@@ -1,6 +1,6 @@
 ---
 wsId: atomex
-title: "Atomex Crypto Wallet, Exchange"
+title: Atomex Crypto Wallet, Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1534717828
 released: 2020-12-03
 updated: 2021-11-01
-version: "1.12"
+version: '1.12'
 stars: 1
 reviews: 2
 size: 116792320
@@ -22,9 +22,10 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: atomex_official
-social:
+social: 
+
 ---
 
 > Atomex — is a non-custodial crypto wallet

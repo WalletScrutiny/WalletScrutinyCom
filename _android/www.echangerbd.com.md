@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Exchangernet-old"
+title: Exchangernet-old
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: www.echangerbd.com
 appCountry: 
 released: 2020-03-21
 updated: 2020-04-23
-version: "2.0"
+version: '2.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

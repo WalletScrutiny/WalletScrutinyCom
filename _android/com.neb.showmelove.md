@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Nebpay"
+title: Nebpay
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.neb.showmelove
 appCountry: 
 released: 
 updated: 2020-09-16
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

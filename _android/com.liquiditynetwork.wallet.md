@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Liquidity Wallet - A Significantly Better Account"
+title: Liquidity Wallet - A Significantly Better Account
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.liquiditynetwork.wallet
 appCountry: 
 released: 2018-06-07
 updated: 2020-07-16
-version: "1.27.2"
+version: 1.27.2
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2022-03-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-28**: This app is not available anymore.

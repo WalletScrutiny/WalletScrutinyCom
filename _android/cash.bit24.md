@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "خرید و فروش بیت کوین تتر و ارز دیجیتال : بیت 24"
+title: 'خرید و فروش بیت کوین تتر و ارز دیجیتال : بیت 24'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: cash.bit24
 appCountry: 
 released: 2021-05-30
 updated: 2022-03-04
-version: "6.1.9"
+version: 6.1.9
 stars: 4.5841584
 ratings: 2325
 reviews: 31
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Google Play Description

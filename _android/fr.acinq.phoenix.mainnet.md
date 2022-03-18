@@ -1,6 +1,6 @@
 ---
 wsId: phoenix
-title: "Phoenix | The Bitcoin wallet from the future"
+title: Phoenix | The Bitcoin wallet from the future
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
 updated: 2022-01-14
-version: "1.4.20"
+version: 1.4.20
 stars: 4.423077
 ratings: 314
 reviews: 27
@@ -25,30 +25,31 @@ date: 2022-01-24
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2021-07-20
-  version: "1.4.2"
+  version: 1.4.2
   appHash: 
   gitRevision: e678a81ce1e01c333d7e72cf57531dfd39741ef9
   verdict: nonverifiable
 - date: 2020-10-24
-  version: "1.4.0"
+  version: 1.4.0
   appHash: 4689d6249e86442ab3657756d9971c9b0894051728dab214a43778665bbc9d43
   gitRevision: 84f019731e8c51e8df2232d12f9632d284769cf8
   verdict: nonverifiable
 - date: 2020-08-14
-  version: "1.3.3"
+  version: 1.3.3
   appHash: 29211695f12c794d0e5edc883315810cf29d22e7ad8fdcd1da7755abec6aff4d
   gitRevision: 88e1f6824c733c848222ad885673a909ece99ffb
   verdict: reproducible
 - date: 2020-01-13
-  version: "1.3.1"
+  version: 1.3.1
   appHash: 0c91c5f118f88b9715d20323799d5002b722115d01c95d11f20f088521f76ada
   gitRevision: 9abba57f047955e9991baa269f2082e8f3374f95
   verdict: nonverifiable
 twitter: PhoenixWallet
-social:
+social: 
 redirect_from:
-  - /fr.acinq.phoenix.mainnet/
-  - /posts/fr.acinq.phoenix.mainnet/
+- /fr.acinq.phoenix.mainnet/
+- /posts/fr.acinq.phoenix.mainnet/
+
 ---
 
 **Update 2022-01-24**: The provided build instructions don't work anymore as

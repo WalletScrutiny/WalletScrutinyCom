@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Fintoda Wallet"
+title: Fintoda Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.fintoda.wallet
 appCountry: 
 released: 
 updated: 2021-08-02
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-09-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-26**: This app is no more.

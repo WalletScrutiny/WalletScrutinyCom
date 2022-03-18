@@ -1,5 +1,5 @@
 ---
-title: "Cryobit"
+title: Cryobit
 appId: cryobit
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued: 2018-09-28
 updated: 
 version: 
 binaries: 
-dimensions: [85.725, 53.975, 0.7366]
+dimensions:
+- 85.725
+- 53.975
+- 0.7366
 weight: 28
-provider: "CryoBit LLC"
+provider: CryoBit LLC
 providerWebsite: 
 website: https://www.cryobit.co/
 shop: https://www.cryobit.co/products/
@@ -26,9 +29,10 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: cryobit
-social: 
+social:
 - https://www.reddit.com/user/CryoBit_co/
 - https://www.facebook.com/cryobit/
+
 ---
 
  **Note:** There are [external](https://bisprofiles.com/fl/cryobit-l14000004402) [sources](https://www.corporationwiki.com/p/2eins3/cryobit-llc) that state that Cryobit LLC is inactive. The website is also outdated as the copyright reads "2017" and all the products are listed as "out of stock".

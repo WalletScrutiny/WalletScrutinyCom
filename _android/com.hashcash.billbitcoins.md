@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Billbitcoins - Pay with Bitcoin & Crypto"
+title: Billbitcoins - Pay with Bitcoin & Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.hashcash.billbitcoins
 appCountry: 
 released: 2021-03-17
 updated: 2021-04-28
-version: "1.0.3"
+version: 1.0.3
 stars: 4.909091
 ratings: 98
 reviews: 11
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

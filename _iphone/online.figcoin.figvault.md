@@ -1,6 +1,6 @@
 ---
 wsId: FIGVault
-title: "FIG Vault"
+title: FIG Vault
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: tt
 idd: 1545768981
 released: 2020-12-27
 updated: 2021-09-01
-version: "2.1"
+version: '2.1'
 stars: 
 reviews: 
 size: 14971904
@@ -22,9 +22,10 @@ meta: defunct
 verdict: nobtc
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 **Update 2022-01-19**: This app is not available anymore.

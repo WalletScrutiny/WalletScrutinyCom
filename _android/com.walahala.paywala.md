@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "PAYWALA"
+title: PAYWALA
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.walahala.paywala
 appCountry: 
 released: 2020-02-20
 updated: 2020-07-23
-version: "1.5"
+version: '1.5'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

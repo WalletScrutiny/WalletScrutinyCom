@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: "Huobi Global: Buy BTC & SHIB"
+title: 'Huobi Global: Buy BTC & SHIB'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: pro.huobi
 appCountry: 
 released: 2017-11-01
 updated: 2022-03-10
-version: "6.8.4"
+version: 6.8.4
 stars: 4.6090226
 ratings: 31840
 reviews: 435
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
 redirect_from:
-  - /pro.huobi/
-  - /posts/pro.huobi/
+- /pro.huobi/
+- /posts/pro.huobi/
+
 ---
 
 Neither on Google Play nor on their website can we find a claim of a

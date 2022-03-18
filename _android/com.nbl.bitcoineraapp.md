@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Era App - Smart Crypto Trading (Official)"
+title: Bitcoin Era App - Smart Crypto Trading (Official)
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.nbl.bitcoineraapp
 appCountry: 
 released: 
 updated: 2021-02-10
-version: "1.0.1"
+version: 1.0.1
 stars: 3.2
 ratings: 43
 reviews: 39
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-12**: This app is not on the Play Store anymore

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "KryptoX: Buy and Sell Crypto"
+title: 'KryptoX: Buy and Sell Crypto'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.kryptox.app
 appCountry: 
 released: 2021-04-21
 updated: 2021-05-07
-version: "1.8"
+version: '1.8'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

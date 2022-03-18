@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Cryptocurrency Trading App"
+title: Cryptocurrency Trading App
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05
 updated: 2022-01-25
-version: "2.0.0"
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

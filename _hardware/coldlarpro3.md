@@ -1,5 +1,5 @@
 ---
-title: "ColdLar Pro 3"
+title: ColdLar Pro 3
 appId: coldlarpro3
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [123, 62.5, 8.6]
+dimensions:
+- 123
+- 62.5
+- 8.6
 weight: 163
-provider: "ColdLar Information Technology Co."
+provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
 website: https://www.coldlar.com/productDetails/10062
 shop: https://www.coldlar.com/productDetails/10062
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: Coldlar
 social: 
+
 ---
 
 ## Private keys can be created offline - ✔️

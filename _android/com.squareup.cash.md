@@ -1,6 +1,6 @@
 ---
 wsId: CashApp
-title: "Cash App"
+title: Cash App
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.squareup.cash
 appCountry: 
 released: 2013-10-15
 updated: 2022-03-07
-version: "Varies with device"
+version: Varies with device
 stars: 4.578068
 ratings: 1066810
 reviews: 213604
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2020-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cashapp
-social:
+social: 
 redirect_from:
-  - /com.squareup.cash/
+- /com.squareup.cash/
+
 ---
 
 This app is primarily a banking app:

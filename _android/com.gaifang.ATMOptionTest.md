@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Atm Options:pintu tol trading"
+title: Atm Options:pintu tol trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.gaifang.ATMOptionTest
 appCountry: 
 released: 2020-06-18
 updated: 2021-08-29
-version: "1.1.19"
+version: 1.1.19
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 As of September 13, 20201, there are two apps with exactly the same name "Bitcoin Trading Online Investing :ATM Option" and logo. They are also developed by the same developer, [ATM Warrant](https://play.google.com/store/apps/developer?id=ATM+Warrant).

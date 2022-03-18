@@ -1,6 +1,6 @@
 ---
 wsId: etorowallet
-title: "eToro Money"
+title: eToro Money
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1397831096
 released: 2019-03-05
 updated: 2022-03-13
-version: "41.0.0"
+version: 41.0.0
 stars: 1.70833
 reviews: 120
 size: 43064320
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
+
 ---
 
 From the eToro wallet FAQ:

@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: "CoinEx - Crypto Exchange"
+title: CoinEx - Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.coinex.trade.play
 appCountry: 
 released: 2019-12-27
 updated: 2022-02-22
-version: "3.7.0"
+version: 3.7.0
 stars: 4.5874586
 ratings: 60269
 reviews: 949
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinexcom
 social:
 - https://www.facebook.com/TheCoinEx
 - https://www.reddit.com/r/Coinex
 redirect_from:
-  - /com.coinex.trade.play/
-  - /posts/com.coinex.trade.play/
+- /com.coinex.trade.play/
+- /posts/com.coinex.trade.play/
+
 ---
 
 The description on Google Play starts not so promising:

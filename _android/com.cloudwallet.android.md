@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Cloud 2.0"
+title: Cloud 2.0
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.cloudwallet.android
 appCountry: 
 released: 2019-05-11
 updated: 2020-01-22
-version: "2.0.16"
+version: 2.0.16
 stars: 2.1568627
 ratings: 4008
 reviews: 175
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-01-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

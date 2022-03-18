@@ -1,16 +1,16 @@
 ---
-title: "ECOMI Secure Wallet"
+title: ECOMI Secure Wallet
 appId: ecomisecurewallet
 authors:
 - danny
 released: 2018-05-07
 discontinued: 
 updated: 
-version: "3.0.4"
+version: 3.0.4
 binaries: 
 dimensions: 
 weight: 
-provider: "ECOMI Technologies PTE Ltd"
+provider: ECOMI Technologies PTE Ltd
 providerWebsite: 
 website: https://www.ecomi.com/
 shop: https://securewallet.shop/products/secure-wallet
@@ -26,9 +26,10 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: ecomi_
-social: 
+social:
 - https://www.linkedin.com/company/ecomi-technology
 - https://www.facebook.com/ecomi.ecosystem
+
 ---
 
 ECOMI's Secure Wallet was announced on May 7, 2018 through [bitcointalk.org](https://bitcointalk.org/index.php?topic=3609319).

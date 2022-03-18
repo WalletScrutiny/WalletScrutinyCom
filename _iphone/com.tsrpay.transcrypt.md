@@ -1,6 +1,6 @@
 ---
 wsId: Tizer
-title: "Tizer Crypto Wallet"
+title: Tizer Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ru
 idd: 1446719209
 released: 2019-01-16
 updated: 2022-03-06
-version: "2.08.8"
+version: 2.08.8
 stars: 4.43478
 reviews: 23
 size: 92818432
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TizerWallet
 social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
+
 ---
 
 {% include copyFromAndroid.html %}

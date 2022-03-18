@@ -1,6 +1,6 @@
 ---
 wsId: UpbitGlobal
-title: "Upbit (Global)"
+title: Upbit (Global)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
 updated: 2022-02-14
-version: "1.5.24p1"
+version: 1.5.24p1
 stars: 3.2666667
 ratings: 3998
 reviews: 28
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 redirect_from:
-  - /com.dunamu.exchange/
+- /com.dunamu.exchange/
+
 ---
 
 ## App Description

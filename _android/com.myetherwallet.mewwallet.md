@@ -1,6 +1,6 @@
 ---
 wsId: mewEthereum
-title: "MEW wallet – Ethereum wallet"
+title: MEW wallet – Ethereum wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.myetherwallet.mewwallet
 appCountry: us
 released: 2020-03-11
 updated: 2022-03-05
-version: "2.3.10"
+version: 2.3.10
 stars: 4.056604
 ratings: 7093
 reviews: 486
@@ -23,13 +23,14 @@ meta: ok
 verdict: nobtc
 date: 2021-02-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: myetherwallet
 social:
 - https://www.linkedin.com/company/myetherwallet
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
-redirect_from:
+redirect_from: 
+
 ---
 
 Supports 3 chains: Ethereum, Binance and Polygon. 

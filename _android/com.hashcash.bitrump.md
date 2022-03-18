@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitrump"
+title: Bitrump
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.hashcash.bitrump
 appCountry: 
 released: 2020-02-18
 updated: 2021-03-05
-version: "1.2.1"
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-03-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

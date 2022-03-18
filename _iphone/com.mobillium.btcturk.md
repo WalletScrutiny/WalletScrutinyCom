@@ -1,6 +1,6 @@
 ---
 wsId: BtcTurk
-title: "BtcTurk| Bitcoin(BTC) Buy/Sell"
+title: BtcTurk| Bitcoin(BTC) Buy/Sell
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: tr
 idd: 1503482896
 released: 2020-04-09
 updated: 2022-03-08
-version: "1.15.1"
+version: 1.15.1
 stars: 4.64062
 reviews: 23986
 size: 182249472
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btcturk
 social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
+
 ---
 
 {% include copyFromAndroid.html %}

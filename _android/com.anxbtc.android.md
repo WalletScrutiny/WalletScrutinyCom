@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ANX Vault: Your Bitcoin Wallet"
+title: 'ANX Vault: Your Bitcoin Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.anxbtc.android
 appCountry: 
 released: 2014-04-29
 updated: 2016-08-17
-version: "1.8.0"
+version: 1.8.0
 stars: 3.2
 ratings: 135
 reviews: 58
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-05-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 On the main site there is a [announcement that the provider is closing](https://anxpro.com/) and all funds should be withdrawn from its services.<br>

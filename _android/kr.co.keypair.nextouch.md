@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "NExTouch"
+title: NExTouch
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: kr.co.keypair.nextouch
 appCountry: 
 released: 2018-10-01
 updated: 2019-07-22
-version: "1.0.0.57"
+version: 1.0.0.57
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: obsolete
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 As far as we can see, this is the same as

@@ -1,6 +1,6 @@
 ---
 wsId: hoo
-title: "Hoo Pro"
+title: Hoo Pro
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hoo.qianbao
 appCountry: us
 released: 2021-03-17
 updated: 2022-03-17
-version: "4.7.53"
+version: 4.7.53
 stars: 3.7236843
 ratings: 749
 reviews: 65
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Hoo_exchange
 social:
 - https://www.facebook.com/hooexchange
 - https://www.reddit.com/r/HooExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

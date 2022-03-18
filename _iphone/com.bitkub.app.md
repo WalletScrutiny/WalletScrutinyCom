@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitkub : Buy & Sell Bitcoin"
+title: 'Bitkub : Buy & Sell Bitcoin'
 altTitle: 
-authors:
-
+authors: 
 appId: com.bitkub.app
 appCountry: ph
 idd: 1437814700
 released: 2019-04-24
 updated: 2021-11-27
-version: "3.8"
+version: '3.8'
 stars: 
 reviews: 
 size: 63395840
@@ -22,8 +21,9 @@ meta: ok
 verdict: wip
 date: 2021-08-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 

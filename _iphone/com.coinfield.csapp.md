@@ -1,6 +1,6 @@
 ---
 wsId: CoinsField
-title: "CoinField"
+title: CoinField
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ca
 idd: 1460170928
 released: 2019-05-21
 updated: 2021-07-27
-version: "2.6.0"
+version: 2.6.0
 stars: 4.40828
 reviews: 507
 size: 68434944
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinFieldEx
 social:
 - https://www.linkedin.com/company/coinfield
 - https://www.facebook.com/coinfieldexchange
+
 ---
 
 {% include copyFromAndroid.html %}

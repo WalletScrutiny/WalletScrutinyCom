@@ -1,6 +1,6 @@
 ---
 wsId: CoinDCXPro
-title: "CoinDCX: Crypto Investment"
+title: 'CoinDCX: Crypto Investment'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry:
 idd: 1517787269
 released: 2020-12-09
 updated: 2022-03-15
-version: "CoinDCX 3.10.003"
+version: CoinDCX 3.10.003
 stars: 4.2506
 reviews: 419
 size: 84046848
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
+
 ---
 
 {% include copyFromAndroid.html %}

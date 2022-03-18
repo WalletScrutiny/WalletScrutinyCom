@@ -1,6 +1,6 @@
 ---
 wsId: flitaa
-title: "flitaa"
+title: flitaa
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ng
 idd: 1566777501
 released: 2021-05-25
 updated: 2022-02-24
-version: "1.16.2"
+version: 1.16.2
 stars: 3.97059
 reviews: 34
 size: 64866304
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa
+
 ---
 
 {% include copyFromAndroid.html %}

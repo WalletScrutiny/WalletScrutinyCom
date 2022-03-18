@@ -1,6 +1,6 @@
 ---
 wsId: bituro
-title: "bituro - Rewards & Bitcoins"
+title: bituro - Rewards & Bitcoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bituro.android.bituro
 appCountry: us
 released: 2015-08-18
 updated: 2022-03-12
-version: "1.18.0"
+version: 1.18.0
 stars: 4.08
 ratings: 9148
 reviews: 502
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

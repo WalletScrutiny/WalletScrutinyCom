@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitSmart: Bitcoin, Ethereum, Blockchain Wallet"
+title: 'BitSmart: Bitcoin, Ethereum, Blockchain Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.drcrypto.wallet
 appCountry: 
 released: 2020-11-23
 updated: 2021-10-21
-version: "2.0.5"
+version: 2.0.5
 stars: 2.7
 ratings: 72
 reviews: 64
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **Warning:** Several users have left detailed negative reviews concerning this app regarding funds that they were not able to retrieve.

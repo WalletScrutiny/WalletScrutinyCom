@@ -1,6 +1,6 @@
 ---
 wsId: incognito
-title: "Incognito crypto wallet"
+title: Incognito crypto wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1475631606
 released: 2019-08-21
 updated: 2022-02-19
-version: "5.1.0"
+version: 5.1.0
 stars: 3.81443
 reviews: 97
 size: 55787520
@@ -22,9 +22,10 @@ meta: ok
 verdict: nonverifiable
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: incognitochain
-social:
+social: 
+
 ---
 
  {% include copyFromAndroid.html %}

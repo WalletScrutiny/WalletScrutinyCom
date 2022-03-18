@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Pungo App"
+title: Pungo App
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: cloud.peer2.pungo_wallet
 appCountry: 
 released: 
 updated: 2021-04-08
-version: "1.33"
+version: '1.33'
 stars: 3.9
 ratings: 11
 reviews: 10
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2021-06-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-06-02**: Their website is gone. Their Play Store listing is gone.

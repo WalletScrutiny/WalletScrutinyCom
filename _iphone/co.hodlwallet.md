@@ -1,6 +1,6 @@
 ---
 wsId: hodl
-title: "HODL Wallet : Bitcoin Wallet"
+title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1382342568
 released: 2018-08-01
 updated: 2020-05-19
-version: "1.12"
+version: '1.12'
 stars: 4.17171
 reviews: 99
 size: 42128384
@@ -22,10 +22,11 @@ meta: stale
 verdict: nonverifiable
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: hodlwallet
 social:
 - https://www.facebook.com/hodlwallet
+
 ---
 
 On the App Store the provider claims:

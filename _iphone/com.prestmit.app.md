@@ -1,6 +1,6 @@
 ---
 wsId: prestmit
-title: "Prestmit"
+title: Prestmit
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1581960714
 released: 2021-08-20
 updated: 2022-02-12
-version: "1.1.5"
+version: 1.1.5
 stars: 4.34188
 reviews: 234
 size: 115981312
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit
+
 ---
 
 {% include copyFromAndroid.html %}

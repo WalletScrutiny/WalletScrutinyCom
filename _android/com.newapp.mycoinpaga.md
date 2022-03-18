@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinPaga - Spend Bitcoin & Sell Giftcard"
+title: CoinPaga - Spend Bitcoin & Sell Giftcard
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.newapp.mycoinpaga
 appCountry: 
 released: 2020-11-29
 updated: 2020-12-07
-version: "1.11"
+version: '1.11'
 stars: 4
 ratings: 8
 reviews: 5
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-05**: This app is not anymore.

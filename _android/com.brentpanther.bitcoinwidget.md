@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Simple Crypto Widget"
+title: Simple Crypto Widget
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.brentpanther.bitcoinwidget
 appCountry: 
 released: 2013-03-11
 updated: 2022-02-28
-version: "8.2.2"
+version: 8.2.2
 stars: 3.89
 ratings: 2110
 reviews: 175
@@ -23,10 +22,11 @@ meta: ok
 verdict: nowallet
 date: 2021-03-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > Note: This is only a widget. You must add the widget to your launcher, it will

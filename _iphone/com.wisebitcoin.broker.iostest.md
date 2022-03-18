@@ -1,6 +1,6 @@
 ---
 wsId: WiseBitcoin
-title: "Wisebitcoin"
+title: Wisebitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: iq
 idd: 1549126437
 released: 2021-01-18
 updated: 2022-02-22
-version: "3.8.0"
+version: 3.8.0
 stars: 
 reviews: 
 size: 84288512
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: wisebitcoin
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

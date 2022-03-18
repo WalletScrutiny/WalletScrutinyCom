@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trade Bit"
+title: Trade Bit
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.onlybit.wallet
 appCountry: 
 released: 2020-11-13
 updated: 2021-02-08
-version: "1.4"
+version: '1.4'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

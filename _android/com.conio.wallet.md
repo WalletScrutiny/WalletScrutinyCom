@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Conio Bitcoin Wallet"
+title: Conio Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.conio.wallet
 appCountry: 
 released: 
 updated: 2021-11-03
-version: "3.4.0"
+version: 3.4.0
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-04-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: conio
 social:
 - https://www.linkedin.com/company/conio
 - https://www.facebook.com/ConioHQ
 redirect_from:
-  - /com.conio.wallet/
-  - /posts/com.conio.wallet/
+- /com.conio.wallet/
+- /posts/com.conio.wallet/
+
 ---
 
 This app has wonderful security claims on Google Play:

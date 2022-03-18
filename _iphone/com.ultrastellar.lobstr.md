@@ -1,6 +1,6 @@
 ---
 wsId: lobstrco
-title: "LOBSTR Stellar Lumens Wallet"
+title: LOBSTR Stellar Lumens Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1404357892
 released: 2018-08-06
 updated: 2022-03-09
-version: "7.9.1"
+version: 7.9.1
 stars: 4.57005
 reviews: 5303
 size: 76837888
@@ -22,9 +22,10 @@ meta: ok
 verdict: nobtc
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Lobstrco
-social:
+social: 
+
 ---
 
 As the description states, lobstr is a stellar lumens wallet. 

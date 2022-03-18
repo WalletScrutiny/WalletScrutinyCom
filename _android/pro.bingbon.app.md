@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: "BingX (BingBon) Buy BTC Crypto"
+title: BingX (BingBon) Buy BTC Crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
 updated: 2022-03-09
-version: "2.49.0"
+version: 2.49.0
 stars: 4.39
 ratings: 2828
 reviews: 89
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BingbonOfficial
 social:
 - https://www.linkedin.com/company/bingbon
 - https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
-redirect_from:
+redirect_from: 
+
 ---
 
 We cannot find any claims as to the custody of private keys found from Bingbon.

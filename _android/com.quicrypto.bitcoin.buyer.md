@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Buyer"
+title: Bitcoin Buyer
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.quicrypto.bitcoin.buyer
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Onyze Wallet: Full Security for Crypto"
+title: 'Onyze Wallet: Full Security for Crypto'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.onyze.wallet
 appCountry: 
 released: 
 updated: 2020-07-14
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

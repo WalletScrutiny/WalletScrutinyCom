@@ -1,8 +1,7 @@
 ---
 wsId: Hexa
-title: "Legacy Hexa (do not download)"
+title: Legacy Hexa (do not download)
 altTitle: 
-
 authors:
 - leo
 users: 1000
@@ -10,7 +9,7 @@ appId: io.hexawallet.hexa
 appCountry: 
 released: 2020-03-26
 updated: 2021-12-03
-version: "1.7.4"
+version: 1.7.4
 stars: 3.7
 ratings: 23
 reviews: 14
@@ -24,14 +23,12 @@ meta: defunct
 verdict: ftbfs
 date: 2021-12-29
 signer: 
-reviewArchive:
-
-
+reviewArchive: 
 twitter: HexaWallet
-social:
-
+social: 
 redirect_from:
-  - /io.hexawallet.hexa/
+- /io.hexawallet.hexa/
+
 ---
 
 **Update 2021-12-29**: As the name implies, this app was deprecated by its

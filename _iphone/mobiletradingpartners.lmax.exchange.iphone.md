@@ -1,6 +1,6 @@
 ---
 wsId: LMAX
-title: "LMAX Global Trading"
+title: LMAX Global Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: hu
 idd: 884042608
 released: 2014-06-06
 updated: 2022-03-15
-version: "4.4.33"
+version: 4.4.33
 stars: 
 reviews: 
 size: 129524736
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
+
 ---
 
 {% include copyFromAndroid.html %}

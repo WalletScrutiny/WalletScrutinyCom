@@ -1,6 +1,6 @@
 ---
 wsId: VoucherMoney
-title: "Voucher Money Vouchers and Bitcoin"
+title: Voucher Money Vouchers and Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.vouchermoneywallet
 appCountry: in
 released: 2020-12-15
 updated: 2021-03-03
-version: "1.38.1"
+version: 1.38.1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2022-02-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Updated Review 2021-10-11

@@ -1,6 +1,6 @@
 ---
 wsId: mewEthereum
-title: "MEW wallet: Ethereum and DeFi"
+title: 'MEW wallet: Ethereum and DeFi'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1464614025
 released: 2020-03-12
 updated: 2022-03-01
-version: "1.5.1"
+version: 1.5.1
 stars: 4.66119
 reviews: 4135
 size: 72395776
@@ -22,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: myetherwallet
 social:
 - https://www.linkedin.com/company/myetherwallet
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BTC Network - Bitcoin Cloud Miner"
+title: BTC Network - Bitcoin Cloud Miner
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cryptominer.btc.miner.cloud.mining
 appCountry: 
 released: 2021-07-31
 updated: 2021-10-20
-version: "1.2"
+version: '1.2'
 stars: 3.7
 ratings: 3598
 reviews: 2256
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2021-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-03**: This app is not available anymore.

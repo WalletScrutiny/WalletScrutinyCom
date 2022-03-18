@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: "Bit2Me - Buy Bitcoin"
+title: Bit2Me - Buy Bitcoin
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1459809738
 released: 2019-06-04
 updated: 2022-03-12
-version: "2.2.8"
+version: 2.2.8
 stars: 4.44444
 reviews: 45
 size: 88554496
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bit2me
 social:
 - https://www.linkedin.com/company/bit2me
 - https://www.facebook.com/bit2me
+
 ---
 
 This appears to be the interface for an exchange. We could not find any claims

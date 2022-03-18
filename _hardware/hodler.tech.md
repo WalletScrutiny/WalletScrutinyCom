@@ -1,5 +1,5 @@
 ---
-title: "Hodler Tech"
+title: Hodler Tech
 appId: hodler.tech
 authors:
 - danny
@@ -26,8 +26,9 @@ date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: HODLER_TECH
-social: 
+social:
 - https://www.facebook.com/hodler.tech
+
 ---
 
 If a hardware wallet based on a Samsung J3 exists as a Samsung J3, does the project still exist? This project held [an ICO](https://medium.com/@cryptoyoga/hodler-the-only-ico-with-an-annual-83de9463f26b) where they promised annual dividends:

@@ -1,6 +1,6 @@
 ---
 wsId: patriciaapp
-title: "Patricia"
+title: Patricia
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.patriciaapp
 appCountry: us
 released: 2020-02-14
 updated: 2022-03-16
-version: "1.3.4"
+version: 1.3.4
 stars: 2.16
 ratings: 3910
 reviews: 366
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
-redirect_from:
+redirect_from: 
+
 ---
 
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!

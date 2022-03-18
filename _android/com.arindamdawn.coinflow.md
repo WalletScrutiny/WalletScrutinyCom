@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coinflow - Exchange Bitcoin and Altcoins instantly"
+title: Coinflow - Exchange Bitcoin and Altcoins instantly
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.arindamdawn.coinflow
 appCountry: 
 released: 2017-07-26
 updated: 2017-07-27
-version: "1.0.1"
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-21**: This app is no more.

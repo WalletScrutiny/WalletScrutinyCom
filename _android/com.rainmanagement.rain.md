@@ -1,6 +1,6 @@
 ---
 wsId: rainfinancial
-title: "Rain: Buy & Sell Bitcoin"
+title: 'Rain: Buy & Sell Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.rainmanagement.rain
 appCountry: bh
 released: 2018-11-02
 updated: 2022-03-10
-version: "3.0.6"
+version: 3.0.6
 stars: 3.7747934
 ratings: 4531
 reviews: 2385
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: rainfinancial
 social:
 - https://www.linkedin.com/company/rainfinancial
 - https://www.facebook.com/rainfinancial
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update: 2022-01-05**

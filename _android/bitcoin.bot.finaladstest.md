@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "satoshiBot"
+title: satoshiBot
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: bitcoin.bot.finaladstest
 appCountry: 
 released: 2020-10-17
 updated: 2020-10-17
-version: "1.0"
+version: '1.0'
 stars: 2.6
 ratings: 11
 reviews: 6
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

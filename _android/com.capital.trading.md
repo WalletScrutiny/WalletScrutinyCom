@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Trading app by Capital.com"
+title: Trading app by Capital.com
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.capital.trading
 appCountry: 
 released: 2017-10-18
 updated: 2022-03-08
-version: "1.41.0"
+version: 1.41.0
 stars: 4.607143
 ratings: 29536
 reviews: 11
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: capitalcom
 social:
 - https://www.linkedin.com/company/capital.com
 - https://www.facebook.com/capitalcom
-redirect_from:
+redirect_from: 
+
 ---
 
 > Capital.com is here to change your entire trading experience. We provide an award-winning* free online trading app** and easy-to-use platform, designed to make trading smarter, simpler and more intuitive.

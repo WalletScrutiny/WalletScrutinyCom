@@ -1,5 +1,5 @@
 ---
-title: "BITHD Razor"
+title: BITHD Razor
 appId: bithdrazor
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2019-03-08
 discontinued: 
 updated: 2021-08-09
-version: "v4.1.7"
+version: v4.1.7
 binaries: https://github.com/bithd/bithd-mcu/releases/
-dimensions: [83, 51, 2.2]
+dimensions:
+- 83
+- 51
+- 2.2
 weight: 18
-provider: "BitHD"
+provider: BitHD
 providerWebsite: https://bithd.com
 website: https://bithd.com/BITHD-Razor.html
 shop: https://bithd.com/BITHD-Razor.html
@@ -29,6 +32,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 <div class="alertBox"><div>

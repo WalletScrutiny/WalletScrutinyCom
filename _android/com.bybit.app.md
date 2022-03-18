@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: "Bybit: Crypto Trading Exchange"
+title: 'Bybit: Crypto Trading Exchange'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bybit.app
 appCountry: 
 released: 2019-10-31
 updated: 2022-03-08
-version: "3.16.1"
+version: 3.16.1
 stars: 4.254902
 ratings: 107859
 reviews: 422
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bybit_Official
 social:
 - https://www.linkedin.com/company/bybitexchange
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
-redirect_from:
+redirect_from: 
+
 ---
 
 > "Bybit is the World's fastest-growing and one of the largest crypto

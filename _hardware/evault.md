@@ -1,5 +1,5 @@
 ---
-title: "EVault Cryptocurrency Hardware Wallet: Secure Bitcoin Storage"
+title: 'EVault Cryptocurrency Hardware Wallet: Secure Bitcoin Storage'
 appId: evault
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: TheEVaultCo
 social: 
+
 ---
 
 We found a YouTube channel with a tutorial with the name of "[Evault YouTube](https://www.youtube.com/channel/UCF8PitFzRAa7pUPFBwwhECw)". The channel lists evaultcompany.com as the home page for the Evault hardware wallet. There is currently no website on the domain although it has been registered on March 27, 2018. It will expire on 2024. 

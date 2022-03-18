@@ -1,6 +1,6 @@
 ---
 wsId: giottus
-title: "Giottus"
+title: Giottus
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1537068185
 released: 2021-01-27
 updated: 2022-02-25
-version: "1.0.17"
+version: 1.0.17
 stars: 4.23076
 reviews: 13
 size: 125813760
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: giottus
 social:
 - https://www.linkedin.com/company/giottus
 - https://www.facebook.com/Giottus
+
 ---
 
 Description from Home Page: 
