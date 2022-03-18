@@ -36,6 +36,8 @@ twitter: COLDCARDwallet
 social: 
 ---
 
+## Verdict
+
 To spend the funds, the private keys need to get exposed to potentially insecure
 systems. A virus on that system could empty the wallet the second the device
 gets plugged into the USB port.

@@ -31,7 +31,7 @@ social:
 
 ## Product Information 
 
-Axiom is a metal cold wallet which has the public key engraved at the front in text and in QR form. The back of the card has the private key with a scratchable QR code. There is very sparse information about this product that we can find as they also do not have social media accounts. The project also has a similar name with another unrelated cryptocurrency project called "Axioms Crypto". 
+Axiom is a metal cold device which has the public key engraved at the front in text and in QR form. The back of the card has the private key with a scratchable QR code. There is very sparse information about this product that we can find as they also do not have social media accounts. The project also has a similar name with another unrelated cryptocurrency project called "Axioms Crypto". 
 
 ## Private Key 
 
@@ -74,4 +74,4 @@ The back side of the card also contains these instructions:
 
 An unreasonable amount of trust has to be placed on the vendor. Even if they say that the key pairs are generated on "fly mode on a PC without a hard drive", they have not offered any guarantee that they won't simply take pictures of it themselves. If they have, we were not able to find it.
 
-Secondly, only a sticker covers the private key QR code at the back of the card. An attacker in physical possession of the card would find it convenient to scan. There are also no indications that the private key text are sealed.
+Secondly, only a sticker covers the private key QR code at the back of the card. An attacker in physical possession of the card would find it convenient to scan. There are also no indications that the private key text are sealed. With a low unit price of $5.99, the Axiom Crypto can be handed from one user to another. 

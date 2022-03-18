@@ -31,7 +31,7 @@ social:
   - https://www.facebook.com/YOUNIQXbyOeSD
 ---
 
-Chainlock is a card wallet. It also advertises that it is "100% offline"
+Chainlock is a card wallet that can be kept or passed on from one user to another. It also advertises that it is "100% offline"
 
 ## Private keys can be created offline 
 

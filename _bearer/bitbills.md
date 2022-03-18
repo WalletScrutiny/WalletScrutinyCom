@@ -41,7 +41,7 @@ The patent filing generated [some discussions about the ethics](https://bitcoint
 
 In response, another provider, [cryptocoinwalletcards filed a 301 Citation of Prior Artwork](https://www.reddit.com/r/Bitcoin/comments/1o2j14/cryptocoinwalletcards_files_301_citation_of_prior/) against Bitbills in 2013.
 
-When it was first [announced on Bitcointalk](https://bitcointalk.org/index.php?topic=7724.0) on May 9, 2011, the poster described it as the first physical incarnation of Bitcoins. It was announced even earlier than the {% include walletLink.html wallet='hardware/casascius' verdict='true' %} which was announced on December of the same year.
+When it was first [announced on Bitcointalk](https://bitcointalk.org/index.php?topic=7724.0) on May 9, 2011, the poster described it as the first physical incarnation of Bitcoins. It was announced even earlier than the {% include walletLink.html wallet='bearer/casascius' verdict='true' %} which was announced on December of the same year.
 
 **How it worked via [Bitcointalk](https://bitcointalk.org/index.php?topic=3334918.0)**
 

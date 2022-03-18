@@ -36,8 +36,8 @@ social:
 
 Ballet Crypto REAL is the original and first iteration of the Ballet Crypto Cards series. Subsequent items are:
 
-- {% include walletLink.html wallet='hardware/balletcryptopure' verdict='true' %}
-- {% include walletLink.html wallet='hardware/balletcryptopro' verdict='true' %}
+- {% include walletLink.html wallet='bearer/balletcryptopure' verdict='true' %}
+- {% include walletLink.html wallet='bearer/balletcryptopro' verdict='true' %}
 
 Like the PRO and the PURE, the REAL's private keys are printed on the item. It is encrypted and can be verified and decrypted through this process accessible via [balletcrypto.org](https://www.balletcrypto.org/#/):
 

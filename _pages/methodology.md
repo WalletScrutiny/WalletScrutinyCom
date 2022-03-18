@@ -126,6 +126,8 @@ In addition we look at physical properties of the device.
 {% include verdictMethodology.html verdict="plainkey" %}
 {% include verdictMethodology.html verdict="noita" %}
 
+{% include /review/whatIsBearer.html %}
+
 Priorities
 ==========
 
