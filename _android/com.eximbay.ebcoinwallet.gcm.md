@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "EBCoin Wallet (BitCoin, Ethereum, CryptoCurrency)"
+title: EBCoin Wallet (BitCoin, Ethereum, CryptoCurrency)
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.eximbay.ebcoinwallet.gcm
 appCountry: 
 released: 2017-10-30
 updated: 2017-12-06
-version: "1.6"
+version: '1.6'
 stars: 4.9
 ratings: 7
 reviews: 1
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-09**: This app is no more.

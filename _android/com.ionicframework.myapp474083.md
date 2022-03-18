@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trademonk Cryptocurrency Exchange"
+title: Trademonk Cryptocurrency Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.ionicframework.myapp474083
 appCountry: 
 released: 2017-06-16
 updated: 2018-10-22
-version: "2.0.13"
+version: 2.0.13
 stars: 2.9
 ratings: 278
 reviews: 174
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: TrustKeys
-title: "TrustKeys Blockchain SuperApp"
+title: TrustKeys Blockchain SuperApp
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.trustkeysnetwork
 appCountry: us
 released: 2019-03-02
 updated: 2022-03-11
-version: "1.1.75"
+version: 1.1.75
 stars: 4.870968
 ratings: 583
 reviews: 20
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

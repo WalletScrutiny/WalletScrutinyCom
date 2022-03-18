@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "PlusBit Wallet"
+title: PlusBit Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.plusbit
 appCountry: 
 released: 2020-04-07
 updated: 2020-07-12
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

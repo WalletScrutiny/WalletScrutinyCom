@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Exchange -  Buy & Sell Cryptocurrency"
+title: Crypto Exchange -  Buy & Sell Cryptocurrency
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.crypto.exchange.app.cryptocurency.exchange
 appCountry: 
 released: 2021-04-23
 updated: 2021-04-23
-version: "1.0"
+version: '1.0'
 stars: 4.61
 ratings: 220
 reviews: 188
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **Warning!** Despite its claims, this app is not a real cryptocurrency exchange app. It is a blatant ploy to receive affiliate commissions from binance. 

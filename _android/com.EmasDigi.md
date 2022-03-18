@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Pluang - Safe Online Investing"
+title: Pluang - Safe Online Investing
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
 updated: 2022-03-15
-version: "4.8.7"
-stars: 3.83
+version: 4.8.7
+stars: 3.84
 ratings: 27168
-reviews: 87
+reviews: 88
 size: 14M
 website: https://pluang.com
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 EmasDigi has since renamed itself "Pluang"

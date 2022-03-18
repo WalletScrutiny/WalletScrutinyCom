@@ -1,6 +1,6 @@
 ---
 wsId: ECOS
-title: "ECOS: BTC mining,crypto wallet"
+title: 'ECOS: BTC mining,crypto wallet'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
 updated: 2022-03-07
-version: "1.22.5"
-stars: 3.9444444
+version: 1.22.5
+stars: 4.0731707
 ratings: 377
-reviews: 49
+reviews: 59
 size: 39M
 website: https://ecos.finance
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

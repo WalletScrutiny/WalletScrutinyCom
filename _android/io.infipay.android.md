@@ -1,6 +1,6 @@
 ---
 wsId: InfiPay
-title: "InfiPay"
+title: InfiPay
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.infipay.android
 appCountry: in
 released: 2020-10-28
 updated: 2021-04-08
-version: "1.1.2"
+version: 1.1.2
 stars: 4.2
 ratings: 50
 reviews: 1
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

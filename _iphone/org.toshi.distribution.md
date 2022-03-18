@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: "Coinbase Wallet - Store Crypto"
+title: Coinbase Wallet - Store Crypto
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1278383455
 released: 2017-09-27
 updated: 2022-03-13
-version: "25.13"
-stars: 4.54986
-reviews: 100563
-size: 146554880
+version: '25.13'
+stars: 4.54985
+reviews: 100925
+size: '146554880'
 website: https://wallet.coinbase.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-01-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinbaseWallet
-social:
+social: 
+
 ---
 
 This is the iPhone version of the Android

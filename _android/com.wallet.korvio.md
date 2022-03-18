@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Korvio Wallet - Multichain Blockchain Technology"
+title: Korvio Wallet - Multichain Blockchain Technology
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wallet.korvio
 appCountry: 
 released: 2019-06-21
 updated: 2021-03-18
-version: "1.0.25"
+version: 1.0.25
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: custodial
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Described in its Google Play, it claims that it is a 'Multichain Blockchain Technology' and that it allows users to:

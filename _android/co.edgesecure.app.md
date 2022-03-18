@@ -1,6 +1,6 @@
 ---
 wsId: edge
-title: "Edge - Bitcoin & Crypto Wallet"
+title: Edge - Bitcoin & Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -10,10 +10,10 @@ appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
 updated: 2022-03-03
-version: "2.12.0"
-stars: 4.3980584
+version: 2.12.0
+stars: 4.4038463
 ratings: 3880
-reviews: 551
+reviews: 552
 size: 53M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
@@ -26,7 +26,7 @@ date: 2022-03-13
 signer: 
 reviewArchive:
 - date: 2019-11-10
-  version: "1.10.1"
+  version: 1.10.1
   appHash: 
   gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
   verdict: ftbfs
@@ -35,10 +35,11 @@ social:
 - https://www.linkedin.com/company/edgeapp
 - https://www.reddit.com/r/EdgeWallet
 redirect_from:
-  - /edge/
-  - /co.edgesecure.app/
-  - /posts/2019/11/edge/
-  - /posts/co.edgesecure.app/
+- /edge/
+- /co.edgesecure.app/
+- /posts/2019/11/edge/
+- /posts/co.edgesecure.app/
+
 ---
 
 After prior reviews were

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Tokenize Crypto Trading App - Malaysia (Beta)"
+title: Tokenize Crypto Trading App - Malaysia (Beta)
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.tokenize.malaysia.tradingapp
 appCountry: 
 released: 2020-11-26
 updated: 2021-06-23
-version: "1.15.2"
+version: 1.15.2
 stars: 2.6
 ratings: 137
 reviews: 87
@@ -24,11 +24,12 @@ meta: defunct
 verdict: custodial
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TokenizeM
 social:
 - https://www.facebook.com/tokenizemalaysia
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-10-19**: This app is no more.

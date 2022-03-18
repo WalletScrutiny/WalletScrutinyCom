@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BuyBitcoins.App - Peer2Peer Bitcoin Marketplace"
+title: BuyBitcoins.App - Peer2Peer Bitcoin Marketplace
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.app.buybitcoins
 appCountry: 
 released: 2021-03-20
 updated: 2021-04-08
-version: "1.3"
+version: '1.3'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

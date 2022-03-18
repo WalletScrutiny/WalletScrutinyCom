@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Pallapay Wallet"
+title: Pallapay Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.pallapayWallet
 appCountry: 
 released: 2021-10-06
 updated: 2022-03-02
-version: "1.3"
+version: '1.3'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Wallet"
+title: Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.agile.walletapp
 appCountry: 
 released: 2019-06-06
 updated: 2019-06-06
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: obsolete
 verdict: nobtc
 date: 2022-01-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app appears to not support BTC.

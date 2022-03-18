@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: "Bitget - Buy & Sell Crypto"
+title: Bitget - Buy & Sell Crypto
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03
 updated: 2022-03-12
-version: "1.2.32"
-stars: 4.9591837
+version: 1.2.32
+stars: 4.96
 ratings: 5691
-reviews: 572
+reviews: 574
 size: 45M
 website: https://www.bitget.com/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-09-12**: This app appears to be back on Play Store

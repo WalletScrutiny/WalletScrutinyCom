@@ -1,6 +1,6 @@
 ---
 wsId: Quidax
-title: "Quidax - Buy and Sell Bitcoin"
+title: Quidax - Buy and Sell Bitcoin
 altTitle: 
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ appCountry:
 idd: 1473314875
 released: 2019-10-25
 updated: 2021-01-15
-version: "1.8.0"
+version: 1.8.0
 stars: 3.12621
 reviews: 103
 size: 93016064
@@ -24,11 +24,12 @@ meta: defunct
 verdict: custodial
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: QuidaxAfrica
 social:
 - https://www.linkedin.com/company/quidax
 - https://www.facebook.com/quidaxafrica
+
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

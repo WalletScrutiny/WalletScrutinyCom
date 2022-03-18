@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading For Binance US - Trade much faster"
+title: ProfitTrading For Binance US - Trade much faster
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forbinanceus
 appCountry: 
 released: 2019-10-25
 updated: 2021-04-27
-version: "2.0.2"
+version: 2.0.2
 stars: 4.25
 ratings: 64
 reviews: 8
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-redirect_from:
+redirect_from: 
+
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

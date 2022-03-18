@@ -1,6 +1,6 @@
 ---
 wsId: mwfreewallet
-title: "Freewallet MultiWallet Classic"
+title: Freewallet MultiWallet Classic
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: multi.org.freewallet.app
 appCountry: 
 released: 2017-08-10
 updated: 2018-10-29
-version: "1.0.69"
+version: 1.0.69
 stars: 4.098039
 ratings: 2017
 reviews: 148
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org
 - https://www.reddit.com/r/Freewallet_org
-redirect_from:
+redirect_from: 
+
 ---
 
 The [Free wallet website](https://freewallet.org/) clearly states to the user how the wallet private keys are managed.

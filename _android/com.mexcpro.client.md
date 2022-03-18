@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MEXC Global: BTC, ETH, Gamefi"
+title: 'MEXC Global: BTC, ETH, Gamefi'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
 updated: 2022-03-02
-version: "3.3.5"
-stars: 4.07
+version: 3.3.5
+stars: 4.079208
 ratings: 12371
-reviews: 425
+reviews: 424
 size: 111M
 website: https://www.mexc.com
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MEXC_Global
 social:
 - https://www.linkedin.com/company/mexcglobal
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
-redirect_from:
+redirect_from: 
+
 ---
 
 > As a world’s leading digital asset trading platform, MEXC Exchange is committed to providing users safer, smarter and more convenient digital-asset trading and management services.

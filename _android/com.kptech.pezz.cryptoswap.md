@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Swap Crypto Exchange"
+title: Crypto Swap Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.kptech.pezz.cryptoswap
 appCountry: 
 released: 2019-03-25
 updated: 2019-05-31
-version: "1.8"
+version: '1.8'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-07**: This app is not available anymore.

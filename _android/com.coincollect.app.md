@@ -1,6 +1,6 @@
 ---
 wsId: CoinCollect
-title: "CoinCollect wallet: We Make Crypto Easy"
+title: 'CoinCollect wallet: We Make Crypto Easy'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coincollect.app
 appCountry: us
 released: 2019-09-08
 updated: 2021-04-21
-version: "1.11.0"
+version: 1.11.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coincollectHQ
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

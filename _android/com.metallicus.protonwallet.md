@@ -1,6 +1,6 @@
 ---
 wsId: ProtonWallet
-title: "Proton Wallet"
+title: Proton Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.metallicus.protonwallet
 appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
-version: "1.5.20"
+version: 1.5.20
 stars: 4.49
 ratings: 613
 reviews: 76
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr
 - https://www.reddit.com/r/ProtonChain
 - https://github.com/ProtonProtocol
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

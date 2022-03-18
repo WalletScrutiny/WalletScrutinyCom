@@ -1,6 +1,6 @@
 ---
 wsId: cent
-title: "Cent - The crypto wallet for DeFi"
+title: Cent - The crypto wallet for DeFi
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.atlas.mobile.wallet
 appCountry: us
 released: 2020-08-07
 updated: 2022-02-09
-version: "1.0.45"
+version: 1.0.45
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cent_Finance
 social:
 - https://github.com/centfinance
 redirect_from:
-  - /com.atlas.mobile.wallet/
+- /com.atlas.mobile.wallet/
+
 ---
 
 ## App Description

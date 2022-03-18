@@ -1,15 +1,13 @@
 ---
 wsId: 
-title: "Eko Wallet - Bitcoin Wallet"
+title: Eko Wallet - Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.EkoWallet
 appCountry: 
-released: 
 updated: 2021-07-12
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +21,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

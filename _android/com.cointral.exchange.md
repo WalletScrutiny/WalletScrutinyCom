@@ -1,6 +1,6 @@
 ---
 wsId: Cointral
-title: "Cointral | Buy Bitcoin"
+title: Cointral | Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cointral.exchange
 appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18
-version: "1.3.6"
+version: 1.3.6
 stars: 3.9
 ratings: 118
 reviews: 64
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cointral
 social:
 - https://www.linkedin.com/company/cointral
 - https://www.facebook.com/Cointral
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Lisk"
+title: Lisk
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.lisk.mobile
 appCountry: 
 released: 2018-10-02
 updated: 2021-03-25
-version: "1.4.1"
+version: 1.4.1
 stars: 4.2
 ratings: 189
 reviews: 92
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-20**: This app is no more on Play Store.

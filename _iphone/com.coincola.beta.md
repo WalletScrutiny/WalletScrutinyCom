@@ -1,6 +1,6 @@
 ---
 wsId: coincola
-title: "CoinCola – Buy Bitcoin"
+title: CoinCola – Buy Bitcoin
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1234231551
 released: 2017-06-06
 updated: 2022-01-27
-version: "4.8.9"
-stars: 3.71622
-reviews: 222
-size: 150128640
+version: 4.8.9
+stars: 3.67857
+reviews: 224
+size: '150128640'
 website: https://www.coincola.com
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCola_Global
 social:
 - https://www.linkedin.com/company/coincola
 - https://www.facebook.com/CoinCola
 - https://www.reddit.com/r/coincolaofficial
+
 ---
 
 > SAFE AND SECURE<br>

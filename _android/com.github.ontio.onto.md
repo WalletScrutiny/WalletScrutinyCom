@@ -1,6 +1,6 @@
 ---
 wsId: ONTO
-title: "ONTO Cross-chain Crypto Wallet"
+title: ONTO Cross-chain Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.github.ontio.onto
 appCountry: us
 released: 2018-06-27
 updated: 2022-03-14
-version: "4.2.0"
-stars: 4.39
+version: 4.2.0
+stars: 4.0113363
 ratings: 1170
 reviews: 116
 size: 151M
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ONTOWallet
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The Google Play description: 

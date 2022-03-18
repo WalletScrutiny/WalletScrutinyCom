@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: "Unocoin Wallet"
+title: Unocoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1030422972
 released: 2016-05-12
 updated: 2022-02-03
-version: "6.2.4"
+version: 6.2.4
 stars: 2.5
 reviews: 22
-size: 200697856
+size: '200697856'
 website: https://www.unocoin.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Unocoin
 social:
 - https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
+
 ---
 
 This app appears to be the interface to a trading platform. The description

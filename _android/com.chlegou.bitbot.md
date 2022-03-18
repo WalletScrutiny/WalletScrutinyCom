@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitBot"
+title: BitBot
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.chlegou.bitbot
 appCountry: 
 released: 2019-01-02
 updated: 2021-12-18
-version: "1.6.0"
+version: 1.6.0
 stars: 4.18
 ratings: 7718
 reviews: 421
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-28**

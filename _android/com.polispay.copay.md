@@ -1,6 +1,6 @@
 ---
 wsId: PolisPay
-title: "PolisPay - Cryptocurrency wallet"
+title: PolisPay - Cryptocurrency wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.polispay.copay
 appCountry: 
 released: 2018-02-21
 updated: 2021-10-22
-version: "8.9.3"
+version: 8.9.3
 stars: 4.1
 ratings: 131
 reviews: 78
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nosource
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.polispay.copay/
-  - /posts/com.polispay.copay/
+- /com.polispay.copay/
+- /posts/com.polispay.copay/
+
 ---
 
 **Update 2022-01-25**: This app is not in store anymore.

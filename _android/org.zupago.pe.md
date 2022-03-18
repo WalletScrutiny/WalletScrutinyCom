@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ZuPago"
+title: ZuPago
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: org.zupago.pe
 appCountry: 
 released: 
 updated: 2018-12-08
-version: "Varies with device"
+version: Varies with device
 stars: 5
 ratings: 5
 reviews: 2
@@ -23,9 +23,10 @@ meta: defunct
 verdict: fewusers
 date: 2021-04-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blockchain Plus Wallet"
+title: Blockchain Plus Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.blockchainpluswallet.plus_wallet_app
 appCountry: 
 released: 
 updated: 2020-12-30
-version: "3.0.1"
+version: 3.0.1
 stars: 3.6
 ratings: 189
 reviews: 145
@@ -23,11 +22,12 @@ meta: defunct
 verdict: nowallet
 date: 2021-06-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.blockchainpluswallet.plus_wallet_app/
+- /com.blockchainpluswallet.plus_wallet_app/
+
 ---
 
 **Update 2021-06-11**: This app is not on the Play Store anymore.

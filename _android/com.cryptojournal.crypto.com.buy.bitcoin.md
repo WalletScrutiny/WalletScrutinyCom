@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Crypto.com Buy Bitcoin"
-altTitle: "(Fake) Crypto.com Buy Bitcoin"
+title: Crypto.com Buy Bitcoin
+altTitle: (Fake) Crypto.com Buy Bitcoin
 authors:
 - danny
 users: 10
@@ -9,7 +9,7 @@ appId: com.cryptojournal.crypto.com.buy.bitcoin
 appCountry: 
 released: 2021-07-07
 updated: 2021-07-07
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

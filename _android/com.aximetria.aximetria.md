@@ -1,6 +1,6 @@
 ---
 wsId: Aximetria
-title: "Aximetria - your Swiss crypto account"
+title: Aximetria - your Swiss crypto account
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.aximetria.aximetria
 appCountry: gb
 released: 2018-12-17
 updated: 2021-08-02
-version: "1.5.51"
+version: 1.5.51
 stars: 3.4
 ratings: 514
 reviews: 215
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: aximetriagmbh
 social:
 - https://www.linkedin.com/company/aximetriagmbh
 - https://www.facebook.com/aximetriagmbh
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-11-14**: This app is not on Play Store anymore.

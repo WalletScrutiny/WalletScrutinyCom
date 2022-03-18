@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "APO Multi-cryptocurrency Wallet"
+title: APO Multi-cryptocurrency Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: net.apo.com
 appCountry: 
 released: 2020-12-27
 updated: 2021-01-05
-version: "1.4"
+version: '1.4'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-12-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

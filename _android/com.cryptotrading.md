@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Trading"
+title: Crypto Trading
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.cryptotrading
 appCountry: 
 released: 2021-03-13
 updated: 2021-07-08
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

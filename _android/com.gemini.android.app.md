@@ -1,6 +1,6 @@
 ---
 wsId: geminiwallet
-title: "Gemini: Buy Bitcoin & Crypto"
+title: 'Gemini: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.gemini.android.app
 appCountry: 
 released: 2018-12-10
-updated: 2022-03-16
-version: "22.308.0"
-stars: 4.454057
+updated: 2022-03-18
+version: 22.315.1
+stars: 4.4488735
 ratings: 38767
-reviews: 6281
+reviews: 6298
 size: 125M
 website: https://gemini.com
 repository: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: gemini
 social:
 - https://www.linkedin.com/company/geminitrust
 - https://www.facebook.com/GeminiTrust
 redirect_from:
-  - /com.gemini.android.app/
-  - /posts/com.gemini.android.app/
+- /com.gemini.android.app/
+- /posts/com.gemini.android.app/
+
 ---
 
 This provider being an exchange, together with the lack of clear words of who

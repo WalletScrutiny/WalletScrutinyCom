@@ -1,6 +1,6 @@
 ---
 wsId: aryainvest
-title: "ARYA Invest smart, live better"
+title: ARYA Invest smart, live better
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.techx.arya
 appCountry: us
 released: 2019-09-10
 updated: 2022-03-01
-version: "2.15.0"
+version: 2.15.0
 stars: 3.7142856
 ratings: 379
 reviews: 7
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TheAryaApp
 social:
 - https://www.linkedin.com/company/thearyaapp
 - https://www.facebook.com/WeloveArya
-redirect_from:
+redirect_from: 
+
 ---
 
 From its Google Play description:

@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: "gate.io - Buy BTC,ETH,SHIB"
+title: gate.io - Buy BTC,ETH,SHIB
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
 updated: 2022-01-26
-version: "3.0.8"
-stars: 3.4298246
+version: 3.0.8
+stars: 3.4782608
 ratings: 17546
-reviews: 749
+reviews: 755
 size: 180M
 website: https://gate.io/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 > Gate.io is a reliable and secure crypto exchange for trading and investing bitcoin(...)

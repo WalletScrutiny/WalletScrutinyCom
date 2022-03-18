@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Forex indicator signals and crypto currency (Free)"
+title: Forex indicator signals trend
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: st.xpairssignals
 appCountry: 
 released: 2017-10-07
 updated: 2021-10-03
-version: "4.6"
+version: '4.6'
 stars: 4.2028985
 ratings: 931
 reviews: 32
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

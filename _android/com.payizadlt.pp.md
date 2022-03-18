@@ -1,6 +1,6 @@
 ---
 wsId: PayizaDlt
-title: "Payiza"
+title: Payiza
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.payizadlt.pp
 appCountry: us
 released: 2021-03-02
 updated: 2021-04-17
-version: "8.0"
+version: '8.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

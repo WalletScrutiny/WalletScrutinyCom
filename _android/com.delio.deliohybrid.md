@@ -1,6 +1,6 @@
 ---
 wsId: DelioLending
-title: "Delio - Global Crypto Finance"
+title: Delio - Global Crypto Finance
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.delio.deliohybrid
 appCountry: cn
 released: 2020-02-27
 updated: 2022-02-11
-version: "1.3.10"
+version: 1.3.10
 stars: 2.6122448
 ratings: 48
 reviews: 38
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: happydelio
 social:
 - https://www.facebook.com/delio.io
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

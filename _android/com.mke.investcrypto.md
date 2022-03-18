@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Invest in Cryptocurrency"
+title: Invest in Cryptocurrency
 altTitle: 
-authors:
-
+authors: 
 users: 5
 appId: com.mke.investcrypto
 appCountry: 
 released: 2020-04-25
 updated: 2020-04-25
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Vega - Lightning Wallet"
+title: Vega - Lightning Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: app.getvega
 appCountry: 
 released: 
 updated: 2019-05-22
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: GetVegaApp
-social:
+social: 
 redirect_from:
-  - /app.getvega/
-  - /posts/app.getvega/
+- /app.getvega/
+- /posts/app.getvega/
+
 ---
 
 With the website down and the last tweet more than a year ago stating

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Gin Wallet"
+title: Gin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.ginprox
 appCountry: 
 released: 2021-04-16
 updated: 2021-07-14
-version: "1.1.6"
+version: 1.1.6
 stars: 1.9
 ratings: 716
 reviews: 488
@@ -23,12 +22,13 @@ meta: defunct
 verdict: wip
 date: 2021-08-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: GinBlockchain
 social:
 - https://www.linkedin.com/company/gin-blockchain
 - https://www.facebook.com/ginnetworks
-redirect_from:
+redirect_from: 
+
 ---
 
 The app is not on Play Store anymore. As this app has only 1.9 stars, we would

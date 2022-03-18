@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Pay"
+title: Crypto Pay
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.cryptopay
 appCountry: 
 released: 2018-12-17
 updated: 2019-02-14
-version: "1.5"
+version: '1.5'
 stars: 4.3
 ratings: 6
 reviews: 2
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: shamlatech
 social:
 - https://www.linkedin.com/company/shamlatech
 - https://www.facebook.com/shamlatechsolutions
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: xapo
-title: "Xapo"
+title: Xapo
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.xapo
 appCountry: 
 released: 2014-04-01
 updated: 2021-07-20
-version: "5.34"
+version: '5.34'
 stars: 3.4
 ratings: 45937
 reviews: 21922
@@ -23,15 +23,16 @@ meta: defunct
 verdict: custodial
 date: 2021-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xapo
 social:
 - https://www.facebook.com/xapoapp
 redirect_from:
-  - /xapo/
-  - /com.xapo/
-  - /posts/2019/11/xapo/
-  - /posts/com.xapo/
+- /xapo/
+- /com.xapo/
+- /posts/2019/11/xapo/
+- /posts/com.xapo/
+
 ---
 
 **Update 2021-08-02**: Xapo discontinued this app to migrate its users to 

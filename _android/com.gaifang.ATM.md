@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Atm option Bitcoin trading"
+title: Atm option Bitcoin trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.gaifang.ATM
 appCountry: 
 released: 2021-05-10
 updated: 2021-09-18
-version: "1.1.20"
+version: 1.1.20
 stars: 4.7
 ratings: 35
 reviews: 26
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nosendreceive
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/warrant.atm.1
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-11-18**: This app is not on Play Store anymore.

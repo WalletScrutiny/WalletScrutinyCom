@@ -1,6 +1,6 @@
 ---
 wsId: bitcointradingcapital
-title: "Bitcoin Trading - Capital.com"
+title: Bitcoin Trading - Capital.com
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2022-03-08
-version: "1.41.1"
+updated: 2022-03-17
+version: 1.41.1
 stars: 4.327586
 ratings: 1225
 reviews: 27
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 

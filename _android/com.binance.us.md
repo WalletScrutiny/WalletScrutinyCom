@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: "‎Binance.US: BTC, ETH & Crypto"
+title: 'Binance.US: Buy BTC, ETH, more'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.binance.us
 appCountry: 
 released: 2019-12-23
 updated: 2022-03-16
-version: "2.9.6"
-stars: 2.591367
+version: 2.9.6
+stars: 2.5753229
 ratings: 7187
-reviews: 4942
+reviews: 4948
 size: Varies with device
 website: https://www.binance.us
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: binanceus
 social:
 - https://www.linkedin.com/company/binance-us
 - https://www.facebook.com/BinanceUS
 redirect_from:
-  - /com.binance.us/
+- /com.binance.us/
+
 ---
 
 Binance being a big exchange, the description on Google Play only mentions

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Wallet LKRcoin - Bitcoin - Litecoin"
+title: Wallet LKRcoin - Bitcoin - Litecoin
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.lkrcoin.wallet
 appCountry: 
 released: 2019-01-19
 updated: 2019-01-19
-version: "v1.0.0"
+version: v1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

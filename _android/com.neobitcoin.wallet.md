@@ -1,16 +1,15 @@
 ---
 wsId: 
-title: "Neo Bitcoin Wallet"
+title: Neo Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.neobitcoin.wallet
 appCountry: 
 released: 2020-07-03
 updated: 2020-07-03
-version: "1.0.0"
-stars: 1.125
+version: 1.0.0
+stars: 1.7692307
 ratings: 131
 reviews: 8
 size: 48M
@@ -23,11 +22,12 @@ meta: stale
 verdict: nobtc
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.neobitcoin.wallet/
+- /com.neobitcoin.wallet/
+
 ---
 
 Apart from not being a Bitcoin wallet (only Neo Bitcoin), this is also the

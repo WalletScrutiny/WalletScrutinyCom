@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Mobile LN"
+title: Mobile LN
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.mobileln
 appCountry: 
 released: 
 updated: 2019-04-11
-version: "pre-alpha v0.2b"
+version: pre-alpha v0.2b
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-04-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-04-30**: This app is no more available on Google Play.

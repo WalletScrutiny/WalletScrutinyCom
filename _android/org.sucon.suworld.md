@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SUWORLD-Blockchain, SUCON, CoinMarket, SNS, Wallet"
+title: SUWORLD-Blockchain, SUCON, CoinMarket, SNS, Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: org.sucon.suworld
 appCountry: 
 released: 2019-04-21
 updated: 2019-09-16
-version: "1.0.0.6"
+version: 1.0.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-09-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "DAO BANK"
+title: DAO BANK
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pons
 appCountry: 
 released: 2020-09-22
 updated: 2020-12-26
-version: "1.0.0.11"
+version: 1.0.0.11
 stars: 4.2
 ratings: 20
 reviews: 11
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <div class="alertBox"><div>

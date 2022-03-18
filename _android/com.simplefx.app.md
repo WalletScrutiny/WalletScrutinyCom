@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "SimpleFX Trade 24/7 on Global Financial Markets"
+title: SimpleFX Trade 24/7 on Global Financial Markets
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.simplefx.app
 appCountry: 
 released: 2017-12-18
 updated: 2022-03-08
-version: "2.1.191.0"
+version: 2.1.191.0
 stars: 4.2222223
 ratings: 291
 reviews: 6
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SimpleFXcom
 social:
 - https://www.facebook.com/simplefxltd
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

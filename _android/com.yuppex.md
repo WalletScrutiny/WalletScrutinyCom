@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Yuppex: Buy Bitcoin Socially"
+title: 'Yuppex: Buy Bitcoin Socially'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.yuppex
 appCountry: 
 released: 2020-08-17
 updated: 2020-09-25
-version: "1.2"
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

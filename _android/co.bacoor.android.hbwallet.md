@@ -1,6 +1,6 @@
 ---
 wsId: bacoorhbwallet
-title: "Ethereum Wallet | HB Wallet – DeFi & Buy BTC, ETH"
+title: Ethereum Wallet | HB Wallet – DeFi & Buy BTC, ETH
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.bacoor.android.hbwallet
 appCountry: us
 released: 2017-07-17
 updated: 2021-07-08
-version: "3.5.0"
+version: 3.5.0
 stars: 4.5581393
 ratings: 2137
 reviews: 45
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HBWallet_Ether
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 We downloaded the app. This is an Ethereum wallet meant for Ethereum transactions. It is possible to buy Bitcoin, but through a third party provider. **No Bitcoins** are stored on this wallet.

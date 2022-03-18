@@ -1,6 +1,6 @@
 ---
 wsId: FluxPay
-title: "Flux"
+title: Flux
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fluxpayment
 appCountry: us
 released: 2020-09-02
 updated: 2022-03-09
-version: "2.6.2"
+version: 2.6.2
 stars: 3.8461537
 ratings: 372
 reviews: 9
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ifluxdotapp
 social:
 - https://www.linkedin.com/company/iflux-pay
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

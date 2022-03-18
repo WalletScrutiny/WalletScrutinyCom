@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "X-Wallet by ANSS Limited"
+title: X-Wallet by ANSS Limited
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.ansslimited.xwallet
 appCountry: 
 released: 2021-06-28
 updated: 2022-01-25
-version: "1.0.36"
+version: 1.0.36
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

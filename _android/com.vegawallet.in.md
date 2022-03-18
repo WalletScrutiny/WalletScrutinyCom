@@ -1,6 +1,6 @@
 ---
 wsId: vegaWallet
-title: "VegaWallet"
+title: VegaWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.vegawallet.in
 appCountry: us
 released: 2018-12-19
 updated: 2020-07-02
-version: "3.2.3"
+version: 3.2.3
 stars: 3.8333333
 ratings: 23
 reviews: 5
@@ -23,11 +23,12 @@ meta: stale
 verdict: nosource
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vegawallet
 social:
 - https://www.facebook.com/VegaWallet
-redirect_from:
+redirect_from: 
+
 ---
 
 ## Private Keys

@@ -1,6 +1,6 @@
 ---
 wsId: AjGlobalV
-title: "AJGlobalV"
+title: AJGlobalV
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1519859460
 released: 2020-09-08
 updated: 2021-10-19
-version: "2.0.5"
+version: 2.0.5
 stars: 3
 reviews: 30
-size: 50455552
+size: '50455552'
 website: https://ajglobalv.com/
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
+
 ---
 
 {% include copyFromAndroid.html %}

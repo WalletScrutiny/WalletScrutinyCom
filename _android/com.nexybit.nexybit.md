@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Nexybit - Mining and Futures Exchange"
+title: Nexybit - Mining and Futures Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.nexybit.nexybit
 appCountry: 
 released: 2018-12-31
 updated: 2019-02-18
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

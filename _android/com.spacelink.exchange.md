@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SpaceLink - Crypto Exchange"
+title: SpaceLink - Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.spacelink.exchange
 appCountry: 
 released: 2021-05-21
 updated: 2021-05-21
-version: "4"
+version: '4'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

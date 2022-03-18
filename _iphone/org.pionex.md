@@ -1,6 +1,6 @@
 ---
 wsId: pionex
-title: "Pionex - Crypto Trading Bots"
+title: Pionex - Crypto Trading Bots
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: org.pionex
 appCountry: us
 idd: 1485348891
 released: 2020-04-18
-updated: 2022-02-27
-version: "2.0.7"
-stars: 4.11765
-reviews: 204
-size: 70168576
+updated: 2022-03-18
+version: 2.0.8
+stars: 4.12736
+reviews: 212
+size: '70589440'
 website: https://www.pionex.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buy Bitcoin & Crypto Exchange"
+title: Buy Bitcoin & Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -10,10 +10,10 @@ appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
 updated: 2022-01-21
-version: "2.7.12"
-stars: 4.8030305
+version: 2.7.12
+stars: 4.8
 ratings: 5008
-reviews: 955
+reviews: 959
 size: 19M
 website: https://changelly.com/
 repository: 
@@ -24,12 +24,13 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.changelly.app/
-  - /posts/com.changelly.app/
+- /com.changelly.app/
+- /posts/com.changelly.app/
+
 ---
 
 This app has no wallet feature in the sense that you hold Bitcoins in the app.

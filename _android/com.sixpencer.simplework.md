@@ -1,6 +1,6 @@
 ---
 wsId: dfox
-title: "Dfox-Crypto Wallet and DeFi Portfolio"
+title: Dfox-Crypto Wallet and DeFi Portfolio
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.sixpencer.simplework
 appCountry: 
 released: 2020-10-09
 updated: 2021-06-23
-version: "1.4.3"
+version: 1.4.3
 stars: 4.322581
 ratings: 194
 reviews: 12
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-07-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app appears not to get access to spend your Bitcoins:

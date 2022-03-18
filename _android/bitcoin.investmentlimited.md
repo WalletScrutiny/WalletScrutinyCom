@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Investment"
+title: Bitcoin Investment
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: bitcoin.investmentlimited
 appCountry: 
 released: 2019-01-02
 updated: 2021-08-04
-version: "9.0"
+version: '9.0'
 stars: 4.1
 ratings: 75
 reviews: 46
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

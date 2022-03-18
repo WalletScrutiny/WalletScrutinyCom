@@ -1,6 +1,6 @@
 ---
 wsId: ZuPago
-title: "ZuPago"
+title: ZuPago
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: app.zupago.app
 appCountry: us
 released: 2021-04-30
 updated: 2022-01-30
-version: "1.5.6"
+version: 1.5.6
 stars: 4.5925927
 ratings: 221
 reviews: 21
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

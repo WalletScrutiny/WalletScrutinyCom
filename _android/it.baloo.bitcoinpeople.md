@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Baloo - Bitcoin Wallet"
+title: Baloo - Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: it.baloo.bitcoinpeople
 appCountry: 
 released: 2020-07-08
 updated: 2021-02-06
-version: "3.4.8"
+version: 3.4.8
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

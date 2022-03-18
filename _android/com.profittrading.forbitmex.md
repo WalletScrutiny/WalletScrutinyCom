@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading for BitMEX - Trade much faster"
+title: ProfitTrading for BitMEX - Trade much faster
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forbitmex
 appCountry: 
 released: 2019-06-11
 updated: 2022-02-20
-version: "5.2.6"
+version: 5.2.6
 stars: 4.5
 ratings: 348
 reviews: 6
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
-redirect_from:
+redirect_from: 
+
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

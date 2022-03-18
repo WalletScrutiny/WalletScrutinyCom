@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "C r y p t o G T : Trade cryptocurrency (cryptogt)"
-altTitle: "*Fake app!* C r y p t o G T : Trade cryptocurrency (cryptogt)"
-authors:
-
+title: 'C r y p t o G T : Trade cryptocurrency (cryptogt)'
+altTitle: '*Fake app!* C r y p t o G T : Trade cryptocurrency (cryptogt)'
+authors: 
 users: 10
 appId: com.trustdx.cryptogt
 appCountry: 
 released: 2021-07-02
 updated: 2021-08-13
-version: "3.0"
+version: '3.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-09-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-17**: CryptoGT contacted us, asking to remove this app as there

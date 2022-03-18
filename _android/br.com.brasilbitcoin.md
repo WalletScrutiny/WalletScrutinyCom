@@ -1,6 +1,6 @@
 ---
 wsId: brasilBitcoin
-title: "Brasil Bitcoin"
+title: Brasil Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: br.com.brasilbitcoin
 appCountry: br
 released: 2021-02-17
 updated: 2022-02-14
-version: "2.5.33"
-stars: 3.152824
+version: 2.5.33
+stars: 3.2027972
 ratings: 2855
-reviews: 1884
+reviews: 1886
 size: 67M
 website: https://brasilbitcoin.com.br
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial
-redirect_from:
+redirect_from: 
+
 ---
 
 This custodial service offers users the ability to buy, store, send and receive cryptocurrencies using an account. 

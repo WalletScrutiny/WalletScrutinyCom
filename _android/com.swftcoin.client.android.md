@@ -1,6 +1,6 @@
 ---
 wsId: swft
-title: "SWFT Blockchain"
+title: SWFT Blockchain
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.swftcoin.client.android
 appCountry: 
 released: 2018-01-15
 updated: 2022-02-28
-version: "5.16.3"
+version: 5.16.3
 stars: 4.39
 ratings: 2004
 reviews: 129
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-04-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SwftCoin
 social:
 - https://www.linkedin.com/company/swftcoin
 - https://www.facebook.com/SWFTBlockchain
 redirect_from:
-  - /com.swftcoin.client.android/
-  - /posts/com.swftcoin.client.android/
+- /com.swftcoin.client.android/
+- /posts/com.swftcoin.client.android/
+
 ---
 
 The description on Google Play is full of buzzwords like big data, AI, machine

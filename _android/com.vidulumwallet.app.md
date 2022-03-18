@@ -1,6 +1,6 @@
 ---
 wsId: Vidulum
-title: "Vidulum - Crypto Web Wallet"
+title: Vidulum - Crypto Web Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.vidulumwallet.app
 appCountry: 
 released: 2019-04-04
 updated: 2019-04-05
-version: "1.2"
+version: '1.2'
 stars: 4.75
 ratings: 106
 reviews: 8
@@ -23,14 +23,15 @@ meta: obsolete
 verdict: nosource
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VidulumApp
 social:
 - https://www.facebook.com/VidulumTeam
 - https://www.reddit.com/r/VidulumOfficial
 redirect_from:
-  - /com.vidulumwallet.app/
-  - /posts/com.vidulumwallet.app/
+- /com.vidulumwallet.app/
+- /posts/com.vidulumwallet.app/
+
 ---
 
 On Google Play we read

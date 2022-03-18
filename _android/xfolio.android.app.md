@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "xFolio - bitcoin, ethereum, altcoin crypto tracker"
+title: xFolio - bitcoin, ethereum, altcoin crypto tracker
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: xfolio.android.app
 appCountry: 
 released: 2019-02-13
 updated: 2020-03-08
-version: "1.4.2"
+version: 1.4.2
 stars: 4.3
 ratings: 10
 reviews: 10
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-20**: This app is not available anymore.

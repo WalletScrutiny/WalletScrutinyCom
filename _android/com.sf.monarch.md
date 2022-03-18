@@ -1,6 +1,6 @@
 ---
 wsId: Monarch
-title: "Monarch Wallet"
+title: Monarch Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.sf.monarch
 appCountry: 
 released: 2018-10-19
 updated: 2022-01-10
-version: "2.3.6"
+version: 2.3.6
 stars: 4.39
 ratings: 821
 reviews: 158
@@ -23,15 +23,16 @@ meta: ok
 verdict: nosource
 date: 2020-04-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Monarchtoken
 social:
 - https://www.linkedin.com/company/monarchtoken
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
 redirect_from:
-  - /com.sf.monarch/
-  - /posts/com.sf.monarch/
+- /com.sf.monarch/
+- /posts/com.sf.monarch/
+
 ---
 
 This app appears to have been created for Monarch Tokens but it also features a

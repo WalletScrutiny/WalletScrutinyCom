@@ -1,6 +1,6 @@
 ---
 wsId: Bekonta
-title: "Bekonta: Buy & Sell BTC and Cryptocurrency Fast"
+title: 'Bekonta: Buy & Sell BTC and Cryptocurrency Fast'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitpezapro.app
 appCountry: us
 released: 2020-02-09
 updated: 2021-09-11
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

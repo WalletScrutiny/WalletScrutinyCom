@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "I stock hunter-finance saham wallet&bursa anywhere"
+title: I stock hunter-finance saham wallet&bursa anywhere
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.top1.group.international.android
 appCountry: 
 released: 2019-07-10
 updated: 2020-08-03
-version: "3.9.0"
+version: 3.9.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: paytomat
-title: "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens"
+title: 'Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.paytomat
 appCountry: 
 released: 2018-06-20
 updated: 2021-02-01
-version: "1.37.2"
+version: 1.37.2
 stars: 4.0869565
 ratings: 798
 reviews: 14
@@ -23,14 +23,15 @@ meta: stale
 verdict: nosource
 date: 2022-01-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
 - https://www.facebook.com/paytomat
 redirect_from:
-  - /com.paytomat/
-  - /posts/com.paytomat/
+- /com.paytomat/
+- /posts/com.paytomat/
+
 ---
 
 This app gets straight to the point:

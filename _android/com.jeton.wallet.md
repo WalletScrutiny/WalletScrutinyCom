@@ -1,6 +1,6 @@
 ---
 wsId: jeton
-title: "Jeton Wallet"
+title: Jeton Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.jeton.wallet
 appCountry: us
 released: 2018-12-27
 updated: 2022-03-15
-version: "3.3.4"
+version: 3.3.4
 stars: 2.5
 ratings: 3260
 reviews: 9
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jetonwallet
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.

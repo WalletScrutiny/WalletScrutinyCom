@@ -1,6 +1,6 @@
 ---
 wsId: CTrade
-title: "C-Trade"
+title: C-Trade
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ctrade.mobile
 appCountry: us
 released: 2020-12-19
 updated: 2022-01-24
-version: "1.1.7"
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CTrade_official
 social:
 - https://www.facebook.com/CTradeProOfficial
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

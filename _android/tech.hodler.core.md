@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "HODLER Open Source Multi-Asset Wallet"
+title: HODLER Open Source Multi-Asset Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: tech.hodler.core
 appCountry: 
 released: 2018-09-02
 updated: 2019-10-29
-version: "0.4.6"
+version: 0.4.6
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: obsolete
 verdict: ftbfs
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HODLER_TECH
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 So their website ... is for sale:

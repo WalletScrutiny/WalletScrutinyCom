@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "TraderBit - Crypto coin trader"
+title: TraderBit - Crypto coin trader
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: julfer.com.multitrader
 appCountry: 
 released: 2017-09-15
 updated: 2021-01-15
-version: "1.10"
+version: '1.10'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-01-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

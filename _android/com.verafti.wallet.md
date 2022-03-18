@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Vera Wallet"
+title: Vera Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.verafti.wallet
 appCountry: 
 released: 2021-07-21
 updated: 2021-09-23
-version: "1.1.3"
+version: 1.1.3
 stars: 2.857143
 ratings: 127
 reviews: 3
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: token_vera
 social:
 - https://www.linkedin.com/company/vera-token-74a925218
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

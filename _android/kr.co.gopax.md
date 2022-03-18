@@ -1,6 +1,6 @@
 ---
 wsId: gopax
-title: "GOPAX (Crypto exchange)"
+title: GOPAX (Crypto exchange)
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: kr.co.gopax
 appCountry: cn
 released: 2018-11-05
 updated: 2022-02-23
-version: "1.5.21.3881"
-stars: 2.3381295
+version: 1.5.21.3881
+stars: 2.309859
 ratings: 1387
-reviews: 1021
+reviews: 1023
 size: 26M
 website: https://www.gopax.co.kr
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

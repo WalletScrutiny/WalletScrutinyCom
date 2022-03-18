@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "fox.exchange Cryptocurrency Express Exchange"
+title: fox.exchange Cryptocurrency Express Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: exchange.fox.android
 appCountry: 
 released: 2019-06-11
 updated: 2020-04-20
-version: "1.5.1"
+version: 1.5.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

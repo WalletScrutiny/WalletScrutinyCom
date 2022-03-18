@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "TENT Wallet"
+title: TENT Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: wallet.snowgem.bitfrost
 appCountry: 
 released: 2020-05-26
 updated: 2021-07-30
-version: "0.1.9-3"
+version: 0.1.9-3
 stars: 3.3
 ratings: 73
 reviews: 56
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-25**: This app is no more.

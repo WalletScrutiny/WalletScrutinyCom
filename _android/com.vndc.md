@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: "ONUS: Invest BTC, ETH, DOGE"
+title: 'ONUS: Invest BTC, ETH, DOGE'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.vndc
 appCountry: us
 released: 2020-03-07
 updated: 2022-02-24
-version: "2.1.2"
-stars: 4.42
+version: 2.1.2
+stars: 4.4257426
 ratings: 46866
 reviews: 244
 size: 139M
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vncd_official
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

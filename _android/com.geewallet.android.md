@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "geewallet"
+title: geewallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.geewallet.android
 appCountry: 
 released: 2019-09-23
 updated: 2022-02-10
-version: "0.4.302.0"
+version: 0.4.302.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

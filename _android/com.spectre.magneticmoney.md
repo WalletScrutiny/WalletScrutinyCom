@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Magnetic Money - exchange search"
+title: Magnetic Money - exchange search
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.spectre.magneticmoney
 appCountry: 
 released: 2018-09-10
 updated: 2021-02-07
-version: "2.2.7"
+version: 2.2.7
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2022-02-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

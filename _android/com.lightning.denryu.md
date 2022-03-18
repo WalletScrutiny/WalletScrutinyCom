@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Denryu Wallet"
+title: Denryu Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.lightning.denryu
 appCountry: 
 released: 2018-12-14
 updated: 2018-12-26
-version: "0.1"
+version: '0.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is a lightning wallet.

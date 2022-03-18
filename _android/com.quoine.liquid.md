@@ -1,6 +1,6 @@
 ---
 wsId: LiquidPro
-title: "Liquid - Buy Bitcoin & Crypto"
+title: Liquid - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.quoine.liquid
 appCountry: us
 released: 2019-01-10
-updated: 2022-02-28
-version: "1.17.6.1"
+updated: 2022-03-17
+version: 1.17.6.1
 stars: 3.2040815
 ratings: 799
 reviews: 34
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Liquid_Global
 social:
 - https://www.linkedin.com/company/quoine
 - https://www.facebook.com/LiquidGlobal
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

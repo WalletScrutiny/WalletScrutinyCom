@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PayWay Wallet"
+title: PayWay Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: com.paywaywallet
 appCountry: 
 released: 2019-02-13
 updated: 2021-03-04
-version: "3.2.1 (build: #1196/20210304164602)"
+version: '3.2.1 (build: #1196/20210304164602)'
 stars: 4.2
 ratings: 254
 reviews: 2
@@ -24,14 +24,15 @@ meta: stale
 verdict: nobtc
 date: 2022-02-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: pay_way
 social:
 - https://www.facebook.com/paywayuganda
 redirect_from:
-  - /com.paywaywallet/
-  - /payway/
-  - /posts/com.paywaywallet/
+- /com.paywaywallet/
+- /payway/
+- /posts/com.paywaywallet/
+
 ---
 
 **UPDATE:** Payway does not have crypto service on their end.

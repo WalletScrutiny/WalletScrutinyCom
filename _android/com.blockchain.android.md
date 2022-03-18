@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blockchain"
+title: Blockchain
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.blockchain.android
 appCountry: 
 released: 2020-06-15
 updated: 2021-01-04
-version: "1.0.7.5"
+version: 1.0.7.5
 stars: 4.4
 ratings: 2737
 reviews: 532
@@ -23,10 +22,11 @@ meta: defunct
 verdict: obfuscated
 date: 2021-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update:** This wallet is no more but never looked too likely to stay around

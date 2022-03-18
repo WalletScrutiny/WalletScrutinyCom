@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "FRCST | Automated Trading"
+title: FRCST | Automated Trading
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.label305.forecastcapital
 appCountry: 
 released: 2020-12-24
 updated: 2022-01-07
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

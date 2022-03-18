@@ -1,6 +1,6 @@
 ---
 wsId: B21Crypto
-title: "B21 Crypto: Invest | Earn | Spend"
+title: 'B21 Crypto: Invest | Earn | Spend'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.b21.invest
 appCountry: in
 released: 2020-02-24
 updated: 2022-01-30
-version: "0.8.0"
+version: 0.8.0
 stars: 2.871287
 ratings: 592
 reviews: 289
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: B21Official
 social:
 - https://www.linkedin.com/company/b21-limited
 - https://www.facebook.com/B21Official
 - https://www.reddit.com/r/B21Invest
-redirect_from:
+redirect_from: 
+
 ---
 
 B21's self-description claims that it is an app for investing, earning, and spending crypto:

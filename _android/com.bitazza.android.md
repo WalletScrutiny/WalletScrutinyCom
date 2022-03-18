@@ -1,6 +1,6 @@
 ---
 wsId: bitazza
-title: "Bitazza.TH: Crypto Exchange"
+title: 'Bitazza TH: Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,27 +8,28 @@ users: 100000
 appId: com.bitazza.android
 appCountry: th
 released: 2020-09-29
-updated: 2022-02-23
-version: "2.0.0"
-stars: 4.3710938
+updated: 2022-03-19
+version: 2.1.1
+stars: 4.366472
 ratings: 5028
-reviews: 1236
+reviews: 1250
 size: 42M
 website: http://bitazza.com/
 repository: 
 issue: 
-icon: com.bitazza.android.jpg
+icon: com.bitazza.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitazzaofficial
 social:
 - https://www.linkedin.com/company/bitazza
 - https://www.facebook.com/bitazza
-redirect_from:
+redirect_from: 
+
 ---
 
 Bitazza is a cryptocurrency exchange and wallet provider. 

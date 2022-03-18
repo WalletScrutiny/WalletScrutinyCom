@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Buycoins - The easiest way to buy & sell crypto"
+title: Buycoins - The easiest way to buy & sell crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: africa.buycoins.buycoinsx.basic
 appCountry: 
 released: 2021-04-16
 updated: 2022-02-11
-version: "1.1.80"
+version: 1.1.80
 stars: 4.15
 ratings: 281
 reviews: 15
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: buycoins
 social:
 - https://www.facebook.com/buycoinsafrica
-redirect_from:
+redirect_from: 
+
 ---
 
 ## Update 2021-10-08

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Portals : Crypto Wallet Generator - Bitcoin"
+title: 'Portals : Crypto Wallet Generator - Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.gloath.portalsapp
 appCountry: 
 released: 2018-03-20
 updated: 2020-12-20
-version: "0.0.4a"
+version: 0.0.4a
 stars: 4.1944447
 ratings: 138
 reviews: 20
@@ -23,11 +23,12 @@ meta: stale
 verdict: nosource
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.gloath.portalsapp/
+- /com.gloath.portalsapp/
+
 ---
 
 <div class="alertBox"><div>

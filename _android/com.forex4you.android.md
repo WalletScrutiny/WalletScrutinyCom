@@ -1,6 +1,6 @@
 ---
 wsId: forex4you
-title: "Forex4you - Trading on Forex"
+title: Forex4you - Trading on Forex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.forex4you.android
 appCountry: th
 released: 2015-10-06
 updated: 2021-10-29
-version: "Varies with device"
+version: Varies with device
 stars: 4.61
 ratings: 2457
 reviews: 189
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/forex4you
-redirect_from:
+redirect_from: 
+
 ---
 
 ## New Review 2021-10-28

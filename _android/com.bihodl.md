@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BiHODL"
+title: BiHODL
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bihodl
 appCountry: 
 released: 2019-09-08
 updated: 2019-10-31
-version: "1.8.0"
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: CoinZoom
-title: "CoinZoom Pro"
+title: CoinZoom Pro
 altTitle: 
 authors:
 - kiwilamb
@@ -10,10 +10,10 @@ appCountry:
 idd: 1443109132
 released: 2020-03-05
 updated: 2022-01-28
-version: "1.1.44"
+version: 1.1.44
 stars: 3.85075
 reviews: 134
-size: 94381056
+size: '94381056'
 website: http://www.coinzoom.com
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: GetCoinZoom
 social:
 - https://www.linkedin.com/company/coinzoomhq
 - https://www.facebook.com/CoinZoom
+
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet

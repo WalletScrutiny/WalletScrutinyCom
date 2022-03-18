@@ -1,6 +1,6 @@
 ---
 wsId: OGPay
-title: "OGPay"
+title: OGPay
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ogpay
 appCountry: us
 released: 2019-07-31
 updated: 2022-02-11
-version: "Varies with device"
+version: Varies with device
 stars: 4.4444447
 ratings: 42
 reviews: 6
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: gowallet
-title: "GO ! WALLET -  Ethereum Crypto Wallet & DApp"
+title: GO ! WALLET -  Ethereum Crypto Wallet & DApp
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: jp.co.smartapp.gowallet
 appCountry: us
 released: 2019-06-16
 updated: 2020-10-07
-version: "1.2.5"
+version: 1.2.5
 stars: 4.017857
 ratings: 813
 reviews: 22
@@ -23,11 +23,12 @@ meta: stale
 verdict: nobtc
 date: 2021-10-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: gowallet_app_
 social:
 - https://www.facebook.com/gowalletappli
-redirect_from:
+redirect_from: 
+
 ---
 
 This is currently an Ethereum and DApp focused app. 

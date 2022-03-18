@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Forex Broker"
+title: Forex Broker
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bucdev.bestforexbroker
 appCountry: 
 released: 2018-04-17
 updated: 2020-10-09
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

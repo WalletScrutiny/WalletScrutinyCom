@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Satoshi Wallet App"
+title: Satoshi Wallet App
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.fitbobcat.satoshi
 appCountry: 
 released: 2018-01-16
 updated: 2018-01-16
-version: "1.0"
+version: '1.0'
 stars: 3.6
 ratings: 25
 reviews: 15
@@ -23,10 +22,11 @@ meta: defunct
 verdict: nobtc
 date: 2021-06-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This project appears to be a parody on Bitcoin forks?

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitteryPro"
+title: BitteryPro
 altTitle: 
-authors:
-
+authors: 
 users: 0
 appId: com.github.bitteryapp.pro
 appCountry: 
 released: 2021-06-26
 updated: 2021-07-02
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

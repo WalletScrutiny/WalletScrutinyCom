@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: "ONUS: Buy BTC, ETH, DOGE"
+title: 'ONUS: Buy BTC, ETH, DOGE'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1498452975
 released: 2020-03-09
 updated: 2022-02-24
-version: "2.1.2"
-stars: 4.68436
-reviews: 716
-size: 206533632
+version: 2.1.2
+stars: 4.68611
+reviews: 720
+size: '206533632'
 website: https://goonus.io/en
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vncd_official
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

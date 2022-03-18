@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Jaxx Liberty Wallet"
-altTitle: "(Fake) Jaxx Liberty Wallet"
+title: Jaxx Liberty Wallet
+altTitle: (Fake) Jaxx Liberty Wallet
 authors:
 - leo
 users: 1000
@@ -9,7 +9,7 @@ appId: com.sdjaxx.wallet2sx
 appCountry: 
 released: 2021-09-10
 updated: 2021-09-11
-version: "1"
+version: '1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

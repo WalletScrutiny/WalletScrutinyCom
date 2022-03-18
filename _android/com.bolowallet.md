@@ -1,15 +1,13 @@
 ---
 wsId: 
-title: "BoloWallet - Crypto Wallet That Does EVERYTHING"
+title: BoloWallet - Crypto Wallet That Does EVERYTHING
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.bolowallet
 appCountry: 
-released: 
 updated: 2019-12-12
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +21,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-12-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

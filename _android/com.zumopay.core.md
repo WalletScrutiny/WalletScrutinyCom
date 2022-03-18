@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Zumo | Buy Bitcoin & Ether"
+title: Zumo | Buy Bitcoin & Ether
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.zumopay.core
 appCountry: 
 released: 2019-10-28
 updated: 2022-03-07
-version: "3.7.0"
+version: 3.7.0
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: nosource
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zumopay
 social:
 - https://www.linkedin.com/company/zumomoney
 - https://www.facebook.com/zumo.money
 redirect_from:
-  - /com.zumopay.core/
-  - /posts/com.zumopay.core/
+- /com.zumopay.core/
+- /posts/com.zumopay.core/
+
 ---
 
 > 💰 Provides full ownership of funds - your crypto is only owned by you!

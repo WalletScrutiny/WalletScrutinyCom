@@ -1,6 +1,6 @@
 ---
 wsId: AABBWallet
-title: "AABB Wallet"
+title: AABB Wallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.aabb
 appCountry: ca
 released: 2021-03-08
 updated: 2022-02-15
-version: "1.0.1250"
-stars: 4.754386
+version: 1.0.1250
+stars: 4.7586207
 ratings: 614
-reviews: 28
+reviews: 29
 size: 34M
 website: https://aabbgoldtoken.com/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AsiaBroadband
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

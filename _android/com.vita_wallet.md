@@ -1,6 +1,6 @@
 ---
 wsId: vita
-title: "Vita Wallet"
+title: Vita Wallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.vita_wallet
 appCountry: cl
 released: 2019-10-16
 updated: 2022-03-08
-version: "4.0.11"
-stars: 4.495327
+version: 4.0.11
+stars: 4.4862385
 ratings: 458
-reviews: 219
+reviews: 221
 size: 46M
 website: https://vitawallet.io/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vitawallet
 social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

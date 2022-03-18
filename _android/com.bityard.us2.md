@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitYard Crypto Trading"
+title: BitYard Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bityard.us2
 appCountry: 
 released: 2021-03-31
 updated: 2021-03-31
-version: "1.0.2"
+version: 1.0.2
 stars: 3.1
 ratings: 165
 reviews: 4
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitYard_Global
 social:
 - https://www.linkedin.com/company/bityard
 - https://www.facebook.com/BitYardofficial
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-02-25**: This app is not available anymore.

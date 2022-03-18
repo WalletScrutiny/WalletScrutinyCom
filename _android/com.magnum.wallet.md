@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Magnum Wallet – Bitcoin, Ethereum, Crypto Exchange"
+title: Magnum Wallet – Bitcoin, Ethereum, Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.magnum.wallet
 appCountry: 
 released: 2019-04-23
 updated: 2019-08-29
-version: "1.0.12"
+version: 1.0.12
 stars: 4.4545455
 ratings: 232
 reviews: 12
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: nosource
 date: 2021-08-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: magnum_wallet
-social:
+social: 
 redirect_from:
-  - /com.magnum.wallet/
-  - /posts/com.magnum.wallet/
+- /com.magnum.wallet/
+- /posts/com.magnum.wallet/
+
 ---
 
 In the app's description we read:

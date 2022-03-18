@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Investment Service"
+title: Bitcoin Investment Service
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.bitfxservice.bitfxservice
 appCountry: 
 released: 2019-10-08
 updated: 2019-10-08
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-09-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

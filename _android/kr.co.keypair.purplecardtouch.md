@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Purple Touch"
+title: Purple Touch
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: kr.co.keypair.purplecardtouch
 appCountry: 
 released: 2018-09-11
 updated: 2019-07-17
-version: "1.0.0.45"
+version: 1.0.0.45
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- nosource -->

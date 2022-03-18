@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Trades Signal (Forex, Stock, Crypto)"
+title: Trades Signal (Forex, Stock, Crypto)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tradessignal.app
 appCountry: 
 released: 2021-01-02
 updated: 2021-01-02
-version: "2"
+version: '2'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

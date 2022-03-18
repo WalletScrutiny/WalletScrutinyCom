@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Pine App"
+title: Pine App
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.pine.doro
 appCountry: 
 released: 2021-04-10
 updated: 2021-05-05
-version: "1.1"
+version: '1.1'
 stars: 3.2
 ratings: 40
 reviews: 34
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-09-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-08**: This app is not available anymore.

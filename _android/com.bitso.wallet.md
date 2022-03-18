@@ -1,6 +1,6 @@
 ---
 wsId: bitso
-title: "Bitso"
+title: Bitso
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitso.wallet
 appCountry: 
 released: 2018-02-19
-updated: 2022-03-16
-version: "3.5.7"
-stars: 4.1568627
+updated: 2022-03-18
+version: 3.5.7
+stars: 4.1386137
 ratings: 40512
-reviews: 210
+reviews: 212
 size: 74M
 website: https://bitso.com/app
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitso
 social:
 - https://www.facebook.com/bitsoex
 redirect_from:
-  - /com.bitso.wallet/
+- /com.bitso.wallet/
+
 ---
 
 Bitso appears to be an exchange and their statement on security on their website

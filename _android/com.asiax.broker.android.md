@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ASIA EXCHANGE- Buy Sell & Stake Crypto"
+title: ASIA EXCHANGE- Buy Sell & Stake Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.asiax.broker.android
 appCountry: 
 released: 2021-05-04
 updated: 2021-05-14
-version: "4.0.2"
+version: 4.0.2
 stars: 3.7
 ratings: 9
 reviews: 3
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-14**: This app is not on Play Store anymore.

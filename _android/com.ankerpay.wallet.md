@@ -1,6 +1,6 @@
 ---
 wsId: ankerPay
-title: "AnkerPay: Blockchain Crypto Wallet – BTC, ETH, LTC"
+title: 'AnkerPay: Blockchain Crypto Wallet – BTC, ETH, LTC'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.ankerpay.wallet
 appCountry: us
 released: 2019-09-17
 updated: 2022-02-16
-version: "v1.0.12.6"
+version: v1.0.12.6
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2020-06-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AnkerPay
 social:
 - https://www.facebook.com/AnkerPlatform
 redirect_from:
-  - /com.ankerpay.wallet/
-  - /posts/com.ankerpay.wallet/
+- /com.ankerpay.wallet/
+- /posts/com.ankerpay.wallet/
+
 ---
 
 This app promises to be non-custodial:

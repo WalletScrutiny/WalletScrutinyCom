@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "AIRWALLET - Secure Cryptocurrency Multi-Wallet"
+title: AIRWALLET - Secure Cryptocurrency Multi-Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.airwalletofficial.air_wallet
 appCountry: 
 released: 2019-10-19
 updated: 2019-10-29
-version: "1.9.2"
+version: 1.9.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Finzo Markets"
+title: Finzo Markets
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.finzo
 appCountry: 
 released: 2020-11-08
 updated: 2021-01-25
-version: "1.3"
+version: '1.3'
 stars: 4.2
 ratings: 76
 reviews: 66
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-11**: This app is not on Play Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Binarium"
+title: Binarium
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.binarium.binariummobile
 appCountry: 
 released: 2019-09-16
 updated: 2021-09-06
-version: "1.0.0.7"
-stars: 2.25
+version: 1.0.0.7
+stars: 2.5555556
 ratings: 2731
-reviews: 7
+reviews: 8
 size: 7.0M
 website: http://binarium.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/binariumcom
-redirect_from:
+redirect_from: 
+
 ---
 
 Binarium is a mobile trading app where the user tries to predict

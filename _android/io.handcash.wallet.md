@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HandCash"
+title: HandCash
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: io.handcash.wallet
 appCountry: 
 released: 2019-09-10
 updated: 2022-03-14
-version: "4.0.3"
+version: 4.0.3
 stars: 4.4
 ratings: 581
 reviews: 76
@@ -23,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2019-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: handcashapp
-social:
+social: 
 redirect_from:
-  - /io.handcash.wallet/
-  - /posts/io.handcash.wallet/
+- /io.handcash.wallet/
+- /posts/io.handcash.wallet/
+
 ---
 
 A BSV wallet.

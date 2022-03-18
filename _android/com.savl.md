@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: "Savl Wallet Bitcoin & Solana"
+title: Savl Wallet Bitcoin & Solana
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.savl
 appCountry: ru
 released: 2018-07-24
 updated: 2022-02-18
-version: "2.11.0"
+version: 2.11.0
 stars: 4.4356437
 ratings: 570
 reviews: 193
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/savl.official
-redirect_from:
+redirect_from: 
+
 ---
 
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.

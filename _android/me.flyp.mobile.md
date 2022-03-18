@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Flyp.me - Crypto Exchange"
+title: Flyp.me - Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: me.flyp.mobile
 appCountry: 
 released: 2020-03-13
 updated: 2020-10-09
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

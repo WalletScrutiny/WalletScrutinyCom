@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "UnicornX Exchange - Digital Assets Trading"
+title: UnicornX Exchange - Digital Assets Trading
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.unicornx.exchange
 appCountry: 
 released: 2020-05-13
 updated: 2020-07-28
-version: "1.4.2"
+version: 1.4.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

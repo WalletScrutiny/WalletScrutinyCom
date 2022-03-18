@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: "Voyager: Buy BTC, SHIB, ETH"
+title: 'Voyager: Buy BTC, SHIB, ETH'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.investvoyager
 appCountry: 
 released: 2020-02-25
 updated: 2022-03-11
-version: "3.2.2"
-stars: 4.491568
+version: 3.2.2
+stars: 4.4769626
 ratings: 26380
-reviews: 7666
+reviews: 7668
 size: 58M
 website: https://www.investvoyager.com/
 repository: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2021-01-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: investvoyager
 social:
 - https://www.linkedin.com/company/investvoyager
 - https://www.facebook.com/InvestVoyager
 - https://www.reddit.com/r/Invest_Voyager
 redirect_from:
-  - /com.investvoyager/
+- /com.investvoyager/
+
 ---
 
 On their website we read:

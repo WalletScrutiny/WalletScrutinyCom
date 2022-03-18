@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: "Coin98 Finance"
+title: Coin98 Finance
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 500000
 appId: coin98.crypto.finance.media
 appCountry: us
 released: 2019-12-19
-updated: 2022-03-02
-version: "11.3.2"
-stars: 4.009804
+updated: 2022-03-18
+version: 11.4.1
+stars: 4.0194173
 ratings: 18096
-reviews: 275
-size: 256M
+reviews: 276
+size: 233M
 website: https://coin98.com/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-04-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
-redirect_from:
+redirect_from: 
+
 ---
 
 The [Coin98 website](https://coin98.app/) claims to be a wallet from their description...

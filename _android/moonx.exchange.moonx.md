@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MoonX - Crypto Trading Platform"
+title: MoonX - Crypto Trading Platform
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: moonx.exchange.moonx
 appCountry: 
 released: 2019-08-09
 updated: 2020-07-16
-version: "2.0"
+version: '2.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "XZEN — Bitcoin Wallet and Exchange"
+title: XZEN — Bitcoin Wallet and Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.xzen.wallet
 appCountry: 
 released: 2018-12-25
 updated: 2019-09-19
-version: "1.2.6.0"
+version: 1.2.6.0
 stars: 3.7
 ratings: 42
 reviews: 31
@@ -23,13 +23,14 @@ meta: defunct
 verdict: custodial
 date: 2021-05-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: XZENwallet
 social:
 - https://www.facebook.com/xzenwallet
 redirect_from:
-  - /com.xzen.wallet/
-  - /posts/com.xzen.wallet/
+- /com.xzen.wallet/
+- /posts/com.xzen.wallet/
+
 ---
 
 While this app still appears to be on Google Play,

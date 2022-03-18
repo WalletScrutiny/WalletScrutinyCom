@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "تترلند | خرید تتر و فروش تتر"
+title: تترلند | خرید تتر و فروش تتر
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: land.tether.tetherland
 appCountry: 
 released: 2019-12-09
 updated: 2022-01-18
-version: "6"
+version: '6'
 stars: 4.6
 ratings: 1685
 reviews: 28
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nobtc
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tetherland
 social:
 - https://www.linkedin.com/company/tetherland
 - https://www.facebook.com/tetherland
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-02-18**: This app is not on the Store anymore.

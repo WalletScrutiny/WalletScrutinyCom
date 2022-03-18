@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Buy & Sell Guide for Coinbase"
+title: Bitcoin Buy & Sell Guide for Coinbase
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 appCountry: 
 released: 2021-04-29
 updated: 2021-10-16
-version: "1.3"
+version: '1.3'
 stars: 4.3
 ratings: 286
 reviews: 19
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Google Play App Description

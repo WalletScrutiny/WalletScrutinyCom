@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "EO.Finance: Buy and Sell Bitcoin. Crypto Wallet"
+title: 'EO.Finance: Buy and Sell Bitcoin. Crypto Wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.eofinance
 appCountry: 
 released: 2018-08-14
 updated: 2020-04-30
-version: "2.0.1"
+version: 2.0.1
 stars: 4.53125
 ratings: 1529
 reviews: 10
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

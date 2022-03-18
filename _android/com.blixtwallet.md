@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blixt Wallet"
+title: Blixt Wallet
 altTitle: 
 authors:
 - leo
 users: 1000
 appId: com.blixtwallet
 appCountry: 
-released: 
 updated: 2022-03-03
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: ok
 verdict: nonverifiable
 date: 2022-02-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BlixtWallet
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-07**: This wallet recently reached 1000 downloads on Play

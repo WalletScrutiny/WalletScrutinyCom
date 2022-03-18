@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trust Pocket"
+title: Trust Pocket
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: finance.trustpocket.trustpocket
 appCountry: 
 released: 2021-08-06
 updated: 2021-10-04
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

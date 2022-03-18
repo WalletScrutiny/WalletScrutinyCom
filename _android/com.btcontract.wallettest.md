@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Simple Bitcoin Wallet TESTNET"
+title: Simple Bitcoin Wallet TESTNET
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.btcontract.wallettest
 appCountry: 
 released: 2021-06-28
 updated: 2021-11-26
-version: "2.4.19"
+version: 2.4.19
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: nobtc
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

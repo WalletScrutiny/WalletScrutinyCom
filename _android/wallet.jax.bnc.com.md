@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Jaxx Liberty:New Wallet BTC ETH"
-altTitle: "(Fake) Jaxx Liberty:New Wallet BTC ETH"
+title: Jaxx Liberty:New Wallet BTC ETH
+altTitle: (Fake) Jaxx Liberty:New Wallet BTC ETH
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: wallet.jax.bnc.com
 appCountry: 
 released: 2021-07-14
 updated: 2021-07-14
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-08-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app "{{ page.title }}" clearly tries to imitate

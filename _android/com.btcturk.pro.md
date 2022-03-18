@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BtcTurk | PRO : BTC|ETH|SHIB"
+title: 'BtcTurk | PRO : BTC|ETH|SHIB'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
-updated: 2022-03-09
-version: "1.43.2"
+updated: 2022-03-16
+version: 1.43.2
 stars: 4.42
 ratings: 169442
-reviews: 195
+reviews: 196
 size: 38M
 website: https://pro.btcturk.com
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btcturkpro
 social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
-redirect_from:
+redirect_from: 
+
 ---
 
 > We offer mandatory two-step verification and an optional withdrawal PIN Code for your security. We store at least 97% of assets in secure, offline cold wallets.

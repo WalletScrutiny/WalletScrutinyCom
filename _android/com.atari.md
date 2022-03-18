@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Atari Smart Wallet"
+title: Atari Smart Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.atari
 appCountry: 
 released: 2021-07-11
 updated: 2021-11-13
-version: "2.08.01"
+version: 2.08.01
 stars: 2.1935484
 ratings: 183
 reviews: 26
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

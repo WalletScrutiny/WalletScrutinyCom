@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Cointopay POS"
+title: Cointopay POS
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.cointopay.pos
 appCountry: 
 released: 2018-10-10
 updated: 2020-09-08
-version: "1.2.0"
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

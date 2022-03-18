@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Lastbit Cards"
+title: Lastbit Cards
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.lastbit.cards
 appCountry: 
 released: 
 updated: 2021-08-28
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-09-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-09**: This app is not on Google Play anymore.

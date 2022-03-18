@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Itez"
+title: Itez
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.itez
 appCountry: 
 released: 2020-03-26
 updated: 2021-03-19
-version: "0.8.2"
+version: 0.8.2
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: nowallet
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Itezofficial
 social:
 - https://www.facebook.com/itezofficial
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MasterBitExpress Bitcoin Wallet"
+title: MasterBitExpress Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.masterbitexpress.wallet
 appCountry: 
 released: 2018-04-21
 updated: 2021-12-05
-version: "1.1.1.20"
+version: 1.1.1.20
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-12-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

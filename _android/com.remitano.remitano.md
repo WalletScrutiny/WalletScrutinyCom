@@ -1,6 +1,6 @@
 ---
 wsId: Remitano
-title: "Remitano - Buy & Sell Bitcoin Fast & Securely"
+title: Remitano - Buy & Sell Bitcoin Fast & Securely
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.remitano.remitano
 appCountry: 
 released: 2016-07-24
 updated: 2022-03-14
-version: "6.43.0"
+version: 6.43.0
 stars: 4.45
 ratings: 19172
-reviews: 306
+reviews: 305
 size: 39M
 website: https://remitano.com
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: remitano
 social:
 - https://www.linkedin.com/company/Remitano
 - https://www.facebook.com/remitano
 redirect_from:
-  - /posts/com.remitano.remitano/
+- /posts/com.remitano.remitano/
+
 ---
 
 This app is an interface to an exchange which holds your coins. On Google Play

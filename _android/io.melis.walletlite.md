@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Melis Lite"
+title: Melis Lite
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.melis.walletlite
 appCountry: 
 released: 2019-06-03
 updated: 2019-06-03
-version: "0.4.0"
+version: 0.4.0
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /io.melis.walletlite/
-  - /posts/io.melis.walletlite/
+- /io.melis.walletlite/
+- /posts/io.melis.walletlite/
+
 ---
 
 This page was created by a script from the **appId** "io.melis.walletlite" and public

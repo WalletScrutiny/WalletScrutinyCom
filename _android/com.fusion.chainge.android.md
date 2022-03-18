@@ -1,6 +1,6 @@
 ---
 wsId: ChaingeFinance
-title: "Chainge Finance"
+title: Chainge Finance
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fusion.chainge.android
 appCountry: us
 released: 2021-05-17
 updated: 2022-03-14
-version: "0.4.3"
+version: 0.4.3
 stars: 4.758013
 ratings: 8141
 reviews: 85
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FinanceChainge
 social:
 - https://www.linkedin.com/company/chainge-finance
 - https://www.facebook.com/chainge.finance
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Multi Exchange Crypto Trading Terminal"
+title: Multi Exchange Crypto Trading Terminal
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: org.nativescript.BTrex
 appCountry: 
 released: 2018-04-26
 updated: 2018-06-03
-version: "1.0.6.2"
+version: 1.0.6.2
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-21**: This app is no more.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Rixx: Trading Assistant"
+title: 'Rixx: Trading Assistant'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: technology.def.rixx
 appCountry: 
 released: 2021-04-27
 updated: 2021-06-21
-version: "1.0.42"
+version: 1.0.42
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,18 +1,17 @@
 ---
 wsId: strike
-title: "Strike: Bitcoin & Payments"
+title: 'Strike: Bitcoin & Payments'
 altTitle: 
-authors:
-
+authors: 
 appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2022-03-09
-version: "62.0"
-stars: 4.8087
-reviews: 7303
-size: 46632960
+updated: 2022-03-17
+version: '63.0'
+stars: 4.80904
+reviews: 7342
+size: '46479360'
 website: https://beta.strike.me/
 repository: 
 issue: 
@@ -22,9 +21,10 @@ meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ln_strike
-social:
+social: 
+
 ---
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Cindicator: become a financial analyst"
+title: 'Cindicator: become a financial analyst'
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.cindicator
 appCountry: 
 released: 2016-12-28
 updated: 2019-09-30
-version: "3.0.10"
+version: 3.0.10
 stars: 4.069307
 ratings: 1690
 reviews: 134
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

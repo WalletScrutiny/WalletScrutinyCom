@@ -1,15 +1,13 @@
 ---
 wsId: 
-title: "Bitfera – Buy Bitcoin, ETH, LTC, XRP and BCH"
+title: Bitfera – Buy Bitcoin, ETH, LTC, XRP and BCH
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.coinsfera
 appCountry: 
-released: 
 updated: 2020-08-23
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +21,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

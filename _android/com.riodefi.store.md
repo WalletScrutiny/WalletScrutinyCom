@@ -1,6 +1,6 @@
 ---
 wsId: RioWallet
-title: "RioWallet"
+title: RioWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.riodefi.store
 appCountry: us
 released: 2021-04-29
 updated: 2022-03-09
-version: "2.5.0"
+version: 2.5.0
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: riodefiofficial
 social:
 - https://www.linkedin.com/company/riodefiofficial
 - https://www.facebook.com/riodefiofficial
 - https://github.com/riodefi
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

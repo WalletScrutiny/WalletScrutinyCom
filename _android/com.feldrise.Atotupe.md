@@ -1,15 +1,13 @@
 ---
 wsId: 
-title: "Atotupe Wallet Companion"
+title: Atotupe Wallet Companion
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.feldrise.Atotupe
 appCountry: 
-released: 
 updated: 2018-09-04
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +21,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

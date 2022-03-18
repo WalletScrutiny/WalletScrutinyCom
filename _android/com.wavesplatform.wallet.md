@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Waves.Exchange"
+title: Waves.Exchange
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.wavesplatform.wallet
 appCountry: 
 released: 2017-03-09
 updated: 2022-03-09
-version: "2.23.0"
-stars: 3.91
+version: 2.23.0
+stars: 3.93
 ratings: 6992
-reviews: 170
+reviews: 171
 size: 51M
 website: https://support.waves.exchange/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-07-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: waves_exchange
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 On their website, the only pointer to this app is:

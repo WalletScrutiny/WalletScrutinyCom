@@ -1,6 +1,6 @@
 ---
 wsId: Qcan
-title: "Mobile Bitcoin Wallet"
+title: Mobile Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.qcan.mobile.bitcoin.wallet
 appCountry: 
 released: 2017-08-06
 updated: 2021-06-03
-version: "0.8.851"
+version: 0.8.851
 stars: 4.5384617
 ratings: 166
 reviews: 13
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2020-12-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.qcan.mobile.bitcoin.wallet/
+- /com.qcan.mobile.bitcoin.wallet/
+
 ---
 
 > **Complete Control**<br>

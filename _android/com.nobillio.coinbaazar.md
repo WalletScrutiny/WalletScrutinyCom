@@ -1,6 +1,6 @@
 ---
 wsId: CoinBaazar
-title: "Coinbaazar - Buy/Sell Bitcoins Exchange"
+title: Coinbaazar - Buy/Sell Bitcoins Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nobillio.coinbaazar
 appCountry: us
 released: 2020-08-31
 updated: 2021-10-14
-version: "1.3.10"
+version: 1.3.10
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: Bitfinex
-title: "Bitfinex: Trade Digital Assets"
+title: 'Bitfinex: Trade Digital Assets'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1436383182
 released: 2019-01-25
 updated: 2022-03-12
-version: "5.2.1"
+version: 5.2.1
 stars: 4.01869
 reviews: 107
-size: 74260480
+size: '74260480'
 website: https://www.bitfinex.com/app
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitfinex
 social:
 - https://www.linkedin.com/company/bitfinex
 - https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
+
 ---
 
 From a security standpoint, this app appears to be doing something right: The

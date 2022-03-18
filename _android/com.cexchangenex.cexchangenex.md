@@ -1,6 +1,6 @@
 ---
 wsId: Cexchangenex
-title: "Cexchangenex"
+title: Cexchangenex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cexchangenex.cexchangenex
 appCountry: th
 released: 2020-10-02
 updated: 2021-06-29
-version: "1.1.1075"
+version: 1.1.1075
 stars: 3.8142858
 ratings: 73
 reviews: 37
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

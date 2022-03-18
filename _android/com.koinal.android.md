@@ -1,6 +1,6 @@
 ---
 wsId: koinal
-title: "Koinal: Buy Bitcoin with credit & debit card"
+title: 'Koinal: Buy Bitcoin with credit & debit card'
 altTitle: 
 authors:
 - leo
@@ -10,10 +10,10 @@ appId: com.koinal.android
 appCountry: gb
 released: 2020-06-04
 updated: 2022-03-14
-version: "1.3.1"
-stars: 4.7881355
+version: 1.3.1
+stars: 4.7619047
 ratings: 1938
-reviews: 39
+reviews: 38
 size: 51M
 website: https://www.koinal.io
 repository: 
@@ -24,13 +24,14 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koinal_io
 social:
 - https://www.linkedin.com/company/koinal-io
 - https://www.facebook.com/Koinal.io
 redirect_from:
-  - /com.koinal.android/
+- /com.koinal.android/
+
 ---
 
 > We take our system’s security and user safety extremely seriously. All Koinal systems use 256BIT RAPID SSL and Google two factor authentication. We can proudly state that our systems are extremely secure and we have a laser focus on protecting your data and investments!

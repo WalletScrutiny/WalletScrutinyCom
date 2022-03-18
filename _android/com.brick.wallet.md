@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Brick Wallet"
+title: Brick Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.brick.wallet
 appCountry: 
 released: 2019-11-26
 updated: 2020-08-19
-version: "2.0.3"
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

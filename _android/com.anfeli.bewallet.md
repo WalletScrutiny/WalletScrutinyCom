@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "beWallet"
+title: beWallet
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.anfeli.bewallet
 appCountry: 
 released: 2018-11-05
 updated: 2019-05-28
-version: "1.2.24"
+version: 1.2.24
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

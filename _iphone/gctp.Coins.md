@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: "Coins– Load, Bills, Bitcoin"
+title: Coins– Load, Bills, Bitcoin
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 972324049
 released: 2015-04-04
 updated: 2022-03-14
-version: "3.1.3"
-stars: 4.71283
-reviews: 3235
-size: 117924864
+version: 3.1.3
+stars: 4.71336
+reviews: 3241
+size: '117924864'
 website: https://coins.ph/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinsph
 social:
 - https://www.linkedin.com/company/coins-ph
 - https://www.facebook.com/coinsph
+
 ---
 
 The app appears to have tons of features but nowhere can we find a word about

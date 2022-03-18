@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CROSS exchange -secure exchange-"
+title: CROSS exchange -secure exchange-
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.cbasefintechlab.exchange
 appCountry: 
 released: 2018-11-23
 updated: 2020-02-25
-version: "1.2.3"
+version: 1.2.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-02-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

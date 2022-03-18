@@ -1,6 +1,6 @@
 ---
 wsId: nunchuk
-title: "Nunchuk Bitcoin Wallet"
+title: Nunchuk Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
 updated: 2022-03-09
-version: "1.9.13"
+version: 1.9.13
 stars: 5
 ratings: 26
 reviews: 8
@@ -24,12 +24,14 @@ meta: ok
 verdict: nosource
 date: 2021-12-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://nunchuk.medium.com/
-- https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
-redirect_from:
+- >-
+  https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
+redirect_from: 
+
 ---
 
 On their description we read:

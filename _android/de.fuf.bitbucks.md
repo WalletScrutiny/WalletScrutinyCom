@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinWalletBitBucks
-title: "Bitcoin Wallet BitBucks"
+title: Bitcoin Wallet BitBucks
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: de.fuf.bitbucks
 appCountry: 
 released: 2019-09-03
 updated: 2021-03-18
-version: "1.4.1"
+version: 1.4.1
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: stale
 verdict: custodial
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bit_bucks
 social:
 - https://www.facebook.com/bitbucks.io
 redirect_from:
-  - /de.fuf.bitbucks/
-  - /posts/de.fuf.bitbucks/
+- /de.fuf.bitbucks/
+- /posts/de.fuf.bitbucks/
+
 ---
 
 According to their website:

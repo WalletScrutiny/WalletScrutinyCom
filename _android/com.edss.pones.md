@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MX exchange - buying & sell Bitcoin"
+title: MX exchange - buying & sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.edss.pones
 appCountry: 
 released: 2021-04-29
 updated: 2021-04-29
-version: "1.0"
+version: '1.0'
 stars: 3.9
 ratings: 37
 reviews: 16
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra: Buy Bitcoin & Earn Yield"
+title: 'Abra: Buy Bitcoin & Earn Yield'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.plutus.wallet
 appCountry: 
 released: 2015-03-04
 updated: 2022-03-14
-version: "Varies with device"
-stars: 4.128931
+version: Varies with device
+stars: 4.1406
 ratings: 44411
-reviews: 2591
+reviews: 2596
 size: Varies with device
 website: https://www.abra.com/
 repository: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AbraGlobal
 social:
 - https://www.linkedin.com/company/abra
 - https://www.facebook.com/GoAbraGlobal
 redirect_from:
-  - /com.plutus.wallet/
-  - /posts/com.plutus.wallet/
+- /com.plutus.wallet/
+- /posts/com.plutus.wallet/
+
 ---
 
 The Google Play description certainly sounds like a custodial wallet:

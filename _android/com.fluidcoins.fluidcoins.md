@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Fluidcoins"
+title: Fluidcoins
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.fluidcoins.fluidcoins
 appCountry: 
 released: 2020-11-14
 updated: 2021-06-16
-version: "0.7.8"
+version: 0.7.8
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-16**: This app is not on Play Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "코인아이비티 (CoinIBT)"
+title: 코인아이비티 (CoinIBT)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cybertronchain.coinibt
 appCountry: 
 released: 2020-12-02
 updated: 2021-07-27
-version: "1.13"
+version: '1.13'
 stars: 4.9
 ratings: 610
 reviews: 449
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

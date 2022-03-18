@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "EBC Wallet"
+title: EBC Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.ebcecosystem.wallets
 appCountry: 
 released: 2018-12-07
 updated: 2019-01-30
-version: "0.0.7"
+version: 0.0.7
 stars: 4.7
 ratings: 97
 reviews: 61
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.ebcecosystem.wallets/
-  - /posts/com.ebcecosystem.wallets/
+- /com.ebcecosystem.wallets/
+- /posts/com.ebcecosystem.wallets/
+
 ---
 
 **Update 2021-10-26**: This app is no more.

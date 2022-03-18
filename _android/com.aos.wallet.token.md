@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ATS Wallet"
+title: ATS Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.aos.wallet.token
 appCountry: 
 released: 2019-11-07
 updated: 2020-08-07
-version: "2.0.22"
+version: 2.0.22
 stars: 4.9
 ratings: 337
 reviews: 154
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

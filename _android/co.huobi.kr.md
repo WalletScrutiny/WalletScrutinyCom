@@ -1,6 +1,6 @@
 ---
 wsId: huobi_kr
-title: "후오비 코리아 - 가상자산 거래소(비트코인, 이더리움, 비트코인캐시, 이오스)"
+title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움, 비트코인캐시, 이오스)
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: co.huobi.kr
 appCountry: cn
 released: 2018-04-12
 updated: 2022-03-14
-version: "3.6.8"
-stars: 3.2554111
+version: 3.6.8
+stars: 3.25054
 ratings: 3505
-reviews: 1392
+reviews: 1393
 size: 49M
 website: https://www.huobi.co.kr
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: huobi_korea
 social:
 - https://www.facebook.com/huobikorea
-redirect_from:
+redirect_from: 
+
 ---
 
 **Note:** It's a Korean app and may not have an English translation. To add to that, there seems to be two official websites: [huobiwallet.com](https://www.huobiwallet.com/) and [hb.co.kr](https://www.hb.co.kr/)

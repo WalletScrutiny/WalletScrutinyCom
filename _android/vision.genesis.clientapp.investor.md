@@ -1,6 +1,6 @@
 ---
 wsId: GenesisVision
-title: "Genesis Vision"
+title: Genesis Vision
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: vision.genesis.clientapp.investor
 appCountry: us
 released: 2018-02-15
 updated: 2022-03-16
-version: "2.7.7"
+version: 2.7.7
 stars: 4.8235292
 ratings: 369
 reviews: 25
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: genesis_vision
 social:
 - https://www.linkedin.com/company/genesis-vision
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Google Play Description

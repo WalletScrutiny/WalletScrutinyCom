@@ -1,6 +1,6 @@
 ---
 wsId: DeltaExchange
-title: "Delta Exchange - Bitcoin & Crypto Trading"
+title: Delta Exchange - Bitcoin & Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
 updated: 2021-11-24
-version: "1.4.6.1"
+version: 1.4.6.1
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Delta_Exchange
 social:
 - https://www.facebook.com/deltaexchg
 - https://www.reddit.com/r/Delta_Exchange
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

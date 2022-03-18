@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Exodus Bitcoin Manage, and Exchange cryptocurrency"
-altTitle: "(Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency"
+title: Exodus Bitcoin Manage, and Exchange cryptocurrency
+altTitle: (Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency
 authors:
 - leo
 users: 10
@@ -9,7 +9,7 @@ appId: crypto.walls.exoduks.comy
 appCountry: 
 released: 2021-10-03
 updated: 2021-10-04
-version: "19.28"
+version: '19.28'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-23**: This app is no more.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Mahfazah | محفظة بيتكوين"
+title: Mahfazah | محفظة بيتكوين
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: io.mahfazah
 appCountry: 
 released: 2018-09-19
 updated: 2018-11-22
-version: "1.2.6"
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: StratumWallet
-title: "Stratum Advanced Wallet"
+title: Stratum Advanced Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.modelxv64
 appCountry: us
 released: 2020-05-29
 updated: 2021-03-18
-version: "1.6.9"
+version: 1.6.9
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: stale
 verdict: custodial
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
-redirect_from:
+redirect_from: 
+
 ---
 
 This app comes from the same providers as {% include walletLink.html wallet='android/br.com.coinbr.smartwallet' verdict='true' %}

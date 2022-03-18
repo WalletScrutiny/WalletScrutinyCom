@@ -1,6 +1,6 @@
 ---
 wsId: CakeDeFi
-title: "Cake DeFi"
+title: Cake DeFi
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16
 updated: 2022-02-27
-version: "3.3.2"
+version: 3.3.2
 stars: 3.8019803
 ratings: 1135
 reviews: 83
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cakedefi
 social:
 - https://www.linkedin.com/company/cakedefi
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

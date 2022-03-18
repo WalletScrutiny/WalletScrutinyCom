@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "비트맥스 BitMex - 실시간 가상화폐 시세 - 차트"
+title: 비트맥스 BitMex - 실시간 가상화폐 시세 - 차트
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitmex.quote.lvrggd
 appCountry: 
 released: 2018-09-14
 updated: 2022-03-10
-version: "1.7"
+version: '1.7'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Updated Review 2021-11-23

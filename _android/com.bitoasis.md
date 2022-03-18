@@ -1,6 +1,6 @@
 ---
 wsId: BitOasis
-title: "BitOasis - Buy, Sell and Trade Digital Assets"
+title: BitOasis - Buy, Sell and Trade Digital Assets
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.bitoasis
 appCountry: ae
 released: 2020-08-20
 updated: 2022-03-07
-version: "2.1.4"
-stars: 4.458763
+version: 2.1.4
+stars: 4.442786
 ratings: 3007
-reviews: 332
+reviews: 334
 size: 72M
 website: https://bitoasis.net/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitoasis
 social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
 - https://www.facebook.com/bitoasis
-redirect_from:
+redirect_from: 
+
 ---
 
 From its Google Play description:

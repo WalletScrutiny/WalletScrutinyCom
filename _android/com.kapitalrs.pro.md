@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "KapitalRS Pro Trader"
+title: KapitalRS Pro Trader
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.kapitalrs.pro
 appCountry: 
 released: 2017-02-07
 updated: 2022-01-30
-version: "90.1.100"
+version: 90.1.100
 stars: 
 ratings: 
 reviews: 
@@ -25,14 +25,15 @@ date: 2021-12-11
 signer: 
 reviewArchive:
 - date: 2021-09-15
-  version: "90.1.085"
+  version: 90.1.085
   appHash: 
   gitRevision: b9fc136cf1e643675475004241479f776599d7c5
   verdict: nobtc
 twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS
-redirect_from:
+redirect_from: 
+
 ---
 
 The Google Play description does not have any reference to "bitcoin", "cryptocurrency", "btc" or "wallets". At the interim, this app seems to handle other traditional financial instruments such as forex, index, stocks, commodities, ETFs and CFDs.

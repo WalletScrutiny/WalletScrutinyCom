@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trading Apps, Cryptocurrency, Buy Bitcoin BTC, XRP"
+title: Trading Apps, Cryptocurrency, Buy Bitcoin BTC, XRP
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: bitcoin.ethereum.ripple.cryptocurrency.crypter
 appCountry: 
 released: 2018-07-07
 updated: 2019-09-14
-version: "1.0.2"
+version: 1.0.2
 stars: 4.573034
 ratings: 458
 reviews: 62
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

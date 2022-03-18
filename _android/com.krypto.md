@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Krypto: Bitcoin Investment App"
+title: 'Krypto: Bitcoin Investment App'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.krypto
 appCountry: 
 released: 2020-04-29
 updated: 2022-01-08
-version: "8.5"
+version: '8.5'
 stars: 4.4583335
 ratings: 5472
 reviews: 18
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: letskrypto
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The Krypto wallet has no statements on [their website](https://letskrypto.com) regarding the management of private keys.

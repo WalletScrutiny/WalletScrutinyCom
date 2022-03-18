@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Alexchanger"
+title: Alexchanger
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.alexchanger.alexchanger
 appCountry: 
 released: 2020-06-12
 updated: 2020-06-12
-version: "1.0"
+version: '1.0'
 stars: 4.4473686
 ratings: 271
 reviews: 21
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

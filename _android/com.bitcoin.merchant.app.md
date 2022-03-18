@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Cash Register (BCH)"
+title: Bitcoin Cash Register (BCH)
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.bitcoin.merchant.app
 appCountry: 
 released: 2019-04-13
 updated: 2022-01-26
-version: "5.3.11"
+version: 5.3.11
 stars: 4.151899
 ratings: 504
 reviews: 19
@@ -23,14 +22,15 @@ meta: ok
 verdict: nowallet
 date: 2019-12-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
 redirect_from:
-  - /com.bitcoin.merchant.app/
-  - /posts/com.bitcoin.merchant.app/
+- /com.bitcoin.merchant.app/
+- /posts/com.bitcoin.merchant.app/
+
 ---
 
 This is a watch-only wallet according to their description:

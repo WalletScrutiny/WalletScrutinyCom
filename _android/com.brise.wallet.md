@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Brise - Crypto Wallet"
+title: Brise - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.brise.wallet
 appCountry: 
 released: 2021-12-08
 updated: 2021-12-08
-version: "1.0.0"
-stars: 3.3296704
+version: 1.0.0
+stars: 3.3010752
 ratings: 536
-reviews: 75
+reviews: 77
 size: 29M
 website: https://bitgert.com/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2022-01-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app appears to not support BTC.

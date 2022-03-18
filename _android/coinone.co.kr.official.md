@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "코인원 - Coinone"
+title: 코인원 - Coinone
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: coinone.co.kr.official
 appCountry: 
 released: 2018-01-28
 updated: 2022-03-04
-version: "2.9.11"
+version: 2.9.11
 stars: 3.4736843
 ratings: 9232
 reviews: 8
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
-redirect_from:
+redirect_from: 
+
 ---
 
 > Hello. This is Team Coinone. Currently, foreigners cannot use the Coinone app, so we recommend using a web browser to use the Coinone service. We apologize for any inconvenience.

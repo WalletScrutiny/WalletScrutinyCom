@@ -1,6 +1,6 @@
 ---
 wsId: safepal
-title: "SafePal Wallet"
+title: SafePal Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1548297139
 released: 2021-01-11
 updated: 2022-03-15
-version: "3.2.0"
-stars: 4.12216
-reviews: 573
-size: 134721536
+version: 3.2.0
+stars: 4.1387
+reviews: 584
+size: '134721536'
 website: https://www.safepal.io/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-04-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: iSafePal
-social:
+social: 
+
 ---
 
 **Update 2021-04-26**: Now some months after the original review, Google finds

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blockfort Wallet"
+title: Blockfort Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: uk.co.blockfort.wallet
 appCountry: 
 released: 2021-05-24
 updated: 2021-05-24
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bian：Bitcoin Wallet-Virtual currency"
-altTitle: "(Fake) Bian：Bitcoin Wallet-Virtual currency"
+title: Bian：Bitcoin Wallet-Virtual currency
+altTitle: (Fake) Bian：Bitcoin Wallet-Virtual currency
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: com.xmzys.binance73
 appCountry: 
 released: 2021-07-03
 updated: 2021-07-03
-version: "2.0"
+version: '2.0'
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-14**: This app is no more available.

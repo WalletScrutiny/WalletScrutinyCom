@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitNeuro - Trading Bots"
+title: BitNeuro - Trading Bots
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.bitneuro
 appCountry: 
 released: 2021-07-01
 updated: 2021-09-11
-version: "1.3.0"
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

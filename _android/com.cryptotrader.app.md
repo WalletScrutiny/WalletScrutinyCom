@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CryptoTrader"
+title: CryptoTrader
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cryptotrader.app
 appCountry: 
 released: 2020-08-04
 updated: 2021-02-24
-version: "1.2.2"
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2022-02-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The app does not have a listed website or social media accounts. It is similar to the following:

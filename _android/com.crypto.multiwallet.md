@@ -1,6 +1,6 @@
 ---
 wsId: guarda
-title: "Guarda Crypto Bitcoin Wallet"
+title: Guarda Crypto Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: com.crypto.multiwallet
 appCountry: 
 released: 2018-11-01
 updated: 2022-01-28
-version: "2.48.3"
-stars: 4.4455447
+version: 2.48.3
+stars: 4.42
 ratings: 3831
 reviews: 420
 size: 31M
@@ -23,16 +23,17 @@ meta: ok
 verdict: nosource
 date: 2019-12-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: GuardaWallet
 social:
 - https://www.facebook.com/guarda.co
 - https://www.reddit.com/r/GuardaWallet
 redirect_from:
-  - /guardawallet/
-  - /com.crypto.multiwallet/
-  - /posts/2019/11/guardawallet/
-  - /posts/com.crypto.multiwallet/
+- /guardawallet/
+- /com.crypto.multiwallet/
+- /posts/2019/11/guardawallet/
+- /posts/com.crypto.multiwallet/
+
 ---
 
 This wallet - `com.crypto.multiwallet` according to their applicationId,

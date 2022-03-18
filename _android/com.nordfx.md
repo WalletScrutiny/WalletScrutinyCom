@@ -1,6 +1,6 @@
 ---
 wsId: nordFX
-title: "NordFX | Investing app"
+title: NordFX | Investing app
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nordfx
 appCountry: lv
 released: 2021-02-28
 updated: 2021-11-18
-version: "14"
+version: '14'
 stars: 4.15
 ratings: 154
 reviews: 41
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NordFX
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

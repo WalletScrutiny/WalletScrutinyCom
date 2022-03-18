@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "RYIpay"
+title: RYIpay
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: io.ryi.pay
 appCountry: 
 released: 2021-06-12
 updated: 2021-11-03
-version: "0.21.1"
+version: 0.21.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

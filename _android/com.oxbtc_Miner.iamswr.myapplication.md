@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "OXBTC-Mine Bitcoin, Ethereum & more"
+title: OXBTC-Mine Bitcoin, Ethereum & more
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.oxbtc_Miner.iamswr.myapplication
 appCountry: 
 released: 2021-08-24
 updated: 2021-09-14
-version: "2.1.0"
+version: 2.1.0
 stars: 3.3
 ratings: 57
 reviews: 28
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-01-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-02**: This app is no more available.
