@@ -3,6 +3,7 @@ title: "Sugi"
 appId: sugi
 authors:
 - kiwilamb
+- danny
 released: 
 discontinued: 
 updated: 
@@ -31,4 +32,10 @@ social:
   - https://www.facebook.com/SugiCard
 ---
 
-This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.
+## Addendum 2022-03-19
+
+The Sugi card is very similar to {% include walletLink.html wallet='bearer/satodime' verdict='true' %}. It has NFC, has a secure element for authentication and has a companion app. Although it is marketed primarily as a "NFC wallet card", it can function with the intention of passing it to another user. 
+
+## Previous Review 2021-08-08
+
+The Sugi card lacks a screen or a button, this device cannot provide basic security of hardware wallets.
