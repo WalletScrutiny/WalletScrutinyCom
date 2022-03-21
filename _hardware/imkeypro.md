@@ -1,5 +1,5 @@
 ---
-title: "imKey Pro"
+title: imKey Pro
 appId: imkeypro
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [64, 38, 2.3]
+dimensions:
+- 64
+- 38
+- 2.3
 weight: 8.1
-provider: "IMKEY PTE. LTD"
+provider: IMKEY PTE. LTD
 providerWebsite: https://imkey.im/
 website: https://imkey.im/
 shop: 
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: imkeyofficial
 social: 
+
 ---
 
 imKey is only partially Open Source. According to its [User Agreement:](https://imkey.im/tos?locale=en-us)

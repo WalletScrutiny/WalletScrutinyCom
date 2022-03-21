@@ -1,6 +1,6 @@
 ---
 wsId: xwallet
-title: "XWallet"
+title: XWallet
 altTitle: 
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ appId: com.pundix.xwallet
 appCountry: 
 released: 2018-10-22
 updated: 2021-06-24
-version: "2.8.3"
+version: 2.8.3
 stars: 3.138614
 ratings: 5049
 reviews: 210
@@ -25,12 +25,13 @@ meta: ok
 verdict: custodial
 date: 2021-06-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PundiXLabs
 social:
 - https://www.linkedin.com/company/pundix
 - https://www.facebook.com/pundixlabs
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-06**: The app is online again.[( Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1479004151375822850)

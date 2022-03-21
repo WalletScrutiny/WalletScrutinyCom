@@ -1,5 +1,5 @@
 ---
-title: "Archos Safe-T Touch"
+title: Archos Safe-T Touch
 appId: archossafettouch
 authors:
 - kiwilamb
@@ -7,14 +7,15 @@ authors:
 released: 2019-03-31
 discontinued: 
 updated: 2019-12-18
-version: "1.2.5"
+version: 1.2.5
 binaries: 
 dimensions: 
 weight: 
-provider: "Archos"
+provider: Archos
 providerWebsite: https://www.archos.com/
 website: https://www.archos.com/nz/products/crypto/archos_safettouch/index.html
-shop: https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
+shop: >-
+  https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
 country: FR
 price: 129.99EUR
 repository: 
@@ -27,9 +28,10 @@ date: 2021-08-22
 signer: 
 reviewArchive: 
 twitter: ARCHOS
-social: 
+social:
 - https://www.linkedin.com/company/archos
 - https://www.facebook.com/ArchosOfficial
+
 ---
 
 After not so much success reviewing its predecessor

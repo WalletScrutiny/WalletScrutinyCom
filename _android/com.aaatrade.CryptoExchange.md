@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CryptoExchange - Simply buy cryptos with your Card"
+title: CryptoExchange - Simply buy cryptos with your Card
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.aaatrade.CryptoExchange
 appCountry: 
 released: 2018-09-20
 updated: 2021-03-19
-version: "1.2.5"
+version: 1.2.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Prokey Optimum"
+title: Prokey Optimum
 appId: prokeyoptimum
 authors:
 - kiwilamb
@@ -10,9 +10,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [41, 50, 9.4]
+dimensions:
+- 41
+- 50
+- 9.4
 weight: 16.7
-provider: "Prokey"
+provider: Prokey
 providerWebsite: https://prokey.io/
 website: https://prokey.io/prokey-optimum
 shop: https://prokey.io/prokey-optimum
@@ -28,11 +31,12 @@ date: 2022-03-15
 signer: 
 reviewArchive: 
 twitter: tryProkey
-social: 
+social:
 - https://www.linkedin.com/company/prokey-technologies
 - https://www.facebook.com/prokey.io
 - https://www.instagram.com/prokey.io
 - https://www.youtube.com/channel/UCz24yLqt0DCXYYD2qLmTEkQ
+
 ---
 
 The product page's description reads as below:

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Elegro Wallet: multi-currency crypto wallet"
+title: 'Elegro Wallet: multi-currency crypto wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
 updated: 2021-08-30
-version: "5.1.3"
+version: 5.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-12-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NikoTech
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
 redirect_from:
-  - /paydeepp.elegro.io/
-  - /posts/paydeepp.elegro.io/
+- /paydeepp.elegro.io/
+- /posts/paydeepp.elegro.io/
+
 ---
 
 We have no idea what they claim here:

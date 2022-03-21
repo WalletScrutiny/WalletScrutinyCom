@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin invest"
+title: Bitcoin invest
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: bitcoin.invest.crypto.app
 appCountry: 
 released: 2021-03-18
 updated: 2021-03-18
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **NOTE:** This app claims to function as an exchange when in reality you cannot trade or hold BTC here. Although it does not function as a wallet and cannot hold your money, it still gives us pause how it claims to have features that it **does not truly have.**

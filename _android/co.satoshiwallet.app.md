@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SatoshiWallet for Bitcoin, Ethereum, Monero & more"
+title: SatoshiWallet for Bitcoin, Ethereum, Monero & more
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: co.satoshiwallet.app
 appCountry: 
 released: 2019-08-16
 updated: 2020-01-17
-version: "2.1.3"
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-20**: This app is not available anymore.

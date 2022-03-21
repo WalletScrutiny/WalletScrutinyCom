@@ -1,5 +1,5 @@
 ---
-title: "iColdWallet"
+title: iColdWallet
 appId: icoldwallet
 authors:
 - danny
@@ -8,12 +8,16 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [91, 24.8, 6]
+dimensions:
+- 91
+- 24.8
+- 6
 weight: 26
-provider: "Shenzhen Feitianxia Technology Co, Ltd."
+provider: Shenzhen Feitianxia Technology Co, Ltd.
 providerWebsite: http://idiskk.com/idiskk_new/about/?53.html
 website: https://www.icoldwallet.com/
-shop: https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
+shop: >-
+  https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
 country: CN
 price: 38.99USD
 repository: 
@@ -27,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## General Overview 

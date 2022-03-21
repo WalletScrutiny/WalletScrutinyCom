@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Infireum - Universal Wallet"
+title: Infireum - Universal Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.infinitepay.infireum
 appCountry: 
 released: 2020-03-23
 updated: 2020-09-01
-version: "1.0.6"
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

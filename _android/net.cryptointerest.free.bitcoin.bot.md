@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Free Bitcoin Bot"
+title: Free Bitcoin Bot
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: net.cryptointerest.free.bitcoin.bot
 appCountry: 
 released: 2021-07-06
 updated: 2021-07-06
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

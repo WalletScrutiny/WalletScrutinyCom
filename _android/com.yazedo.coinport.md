@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CoinPort: Buy and Sell Bitcoin & Ethereum (P2P)"
+title: 'CoinPort: Buy and Sell Bitcoin & Ethereum (P2P)'
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.yazedo.coinport
 appCountry: 
 released: 2018-03-04
 updated: 2021-03-12
-version: "2.2.0"
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2022-03-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

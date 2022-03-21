@@ -1,6 +1,6 @@
 ---
 wsId: Bitstamp
-title: "Bitstamp – Crypto on the go"
+title: Bitstamp – Crypto on the go
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1406825640
 released: 2019-01-30
 updated: 2022-03-10
-version: "3.5"
+version: '3.5'
 stars: 4.77182
 reviews: 4913
 size: 97803264
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-01-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp
 - https://www.facebook.com/Bitstamp
+
 ---
 
 Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.app' %}, they claim:

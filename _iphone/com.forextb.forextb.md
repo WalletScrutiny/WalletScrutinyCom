@@ -1,6 +1,6 @@
 ---
 wsId: ForexTB
-title: "ForexTB: Online Trading"
+title: 'ForexTB: Online Trading'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: dk
 idd: 1532850884
 released: 2020-10-21
 updated: 2021-11-28
-version: "2.4.6"
-stars: 
-reviews: 
-size: 131091456
+version: 2.4.6
+stars: 0
+reviews: 0
+size: '131091456'
 website: https://www.forextb.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
  {% include copyFromAndroid.html %}

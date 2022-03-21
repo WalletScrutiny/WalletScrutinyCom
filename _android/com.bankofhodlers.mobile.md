@@ -1,6 +1,6 @@
 ---
 wsId: Vauld
-title: "Vauld -  Earn, Borrow & Trade With Crypto"
+title: Vauld -  Earn, Borrow & Trade With Crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
 updated: 2022-02-25
-version: "2.6.1"
-stars: 4.3689322
+version: 2.6.1
+stars: 4.3235292
 ratings: 8047
-reviews: 59
+reviews: 61
 size: 37M
 website: https://vauld.com
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-05-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Vauld_
 social:
 - https://www.linkedin.com/company/vauld
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
-redirect_from:
+redirect_from: 
+
 ---
 
 The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>

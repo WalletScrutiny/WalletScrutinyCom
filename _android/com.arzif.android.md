@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Arzif"
+title: Arzif
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
 updated: 2022-03-03
-version: "1.0.5"
+version: 1.0.5
 stars: 4.142857
 ratings: 687
 reviews: 12
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Arzifofficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

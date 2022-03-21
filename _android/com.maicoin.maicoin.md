@@ -1,6 +1,6 @@
 ---
 wsId: maicoin
-title: "MaiCoin - Buy Bitcoin & Crypto"
+title: MaiCoin - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19
 updated: 2021-07-05
-version: "3.5.1"
+version: 3.5.1
 stars: 4.071429
 ratings: 645
 reviews: 7
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 This is from the Google Play description:

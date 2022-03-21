@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Beach Wallet"
+title: Bitcoin Beach Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
 updated: 2022-01-26
-version: "1.7.3"
+version: 1.7.3
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This wallet simply uses the tech that GaloyMoney has developed. This product is *not officially affiliated* with GaloyMoney or the Bitcoin Beach project based in El Salvador.

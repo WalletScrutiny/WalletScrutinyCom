@@ -1,6 +1,6 @@
 ---
 wsId: IBKR
-title: "IBKR Mobile"
+title: IBKR Mobile
 altTitle: 
 authors:
 - danny
@@ -9,11 +9,11 @@ appId: atws.app
 appCountry: us
 released: 2010-12-15
 updated: 2022-03-11
-version: "8.4.525"
-stars: 3.2179487
+version: 8.4.534
+stars: 3.251613
 ratings: 7723
-reviews: 862
-size: 29M
+reviews: 864
+size: 27M
 website: http://ibkr.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ibkr
 social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

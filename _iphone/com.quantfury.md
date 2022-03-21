@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: "Quantfury"
+title: Quantfury
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: gb
 idd: 1445564443
 released: 2018-12-15
 updated: 2022-03-01
-version: "1.46.1"
+version: 1.46.1
 stars: 4.72
 reviews: 100
-size: 51646464
+size: '51646464'
 website: https://quantfury.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: quantfury
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Lightning (Remove Funds by Dec 31st)"
+title: Lightning (Remove Funds by Dec 31st)
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: engineering.lightning.LightningMainnet
 appCountry: 
 released: 
 updated: 2020-10-02
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +22,13 @@ meta: defunct
 verdict: wip
 date: 2021-02-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: lightning
-social:
+social: 
 redirect_from:
-  - /engineering.lightning.LightningMainnet/
-  - /posts/engineering.lightning.LightningMainnet/
+- /engineering.lightning.LightningMainnet/
+- /posts/engineering.lightning.LightningMainnet/
+
 ---
 
 **Update:** This app is not supported by its provider anymore. As the name reads

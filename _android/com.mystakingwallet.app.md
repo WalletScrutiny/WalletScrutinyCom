@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "My Staking Wallet"
+title: My Staking Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.mystakingwallet.app
 appCountry: 
 released: 2018-06-29
 updated: 2021-03-27
-version: "2.2"
+version: '2.2'
 stars: 4.138889
 ratings: 109
 reviews: 25
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MetrixCoin
 social:
 - https://www.reddit.com/r/Linda_Project_Inc
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

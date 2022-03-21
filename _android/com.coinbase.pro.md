@@ -1,6 +1,6 @@
 ---
 wsId: coinbasepro
-title: "Coinbase Pro: Trade BTC, ETH"
+title: 'Coinbase Pro: Trade BTC, ETH'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.coinbase.pro
 appCountry: 
 released: 2020-01-06
 updated: 2022-03-08
-version: "1.0.93"
-stars: 2.8716786
+version: 1.0.93
+stars: 3.003296
 ratings: 22040
-reviews: 4250
+reviews: 4267
 size: 57M
 website: http://pro.coinbase.com/
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinbasePro
 social:
 - https://www.facebook.com/coinbase
 redirect_from:
-  - /com.coinbase.pro/
-  - /posts/com.coinbase.pro/
+- /com.coinbase.pro/
+- /posts/com.coinbase.pro/
+
 ---
 
 This is the interface for a trading platform aka exchange. The funds are stored

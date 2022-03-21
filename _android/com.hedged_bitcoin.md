@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Hedged Bitcoin"
+title: Hedged Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hedged_bitcoin
 appCountry: 
 released: 2018-11-17
 updated: 2021-06-11
-version: "0.7.0"
+version: 0.7.0
 stars: 3.6
 ratings: 28
 reviews: 2
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HedgedBitcoin
 social:
 - https://www.linkedin.com/company/hedgedbitcoin
 - https://www.facebook.com/HedgedBitcoin
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-02-26**: This app is not available anymore.

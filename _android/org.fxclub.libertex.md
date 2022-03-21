@@ -1,6 +1,6 @@
 ---
 wsId: libertex
-title: "Libertex: Trade Stocks & Forex"
+title: 'Libertex: Trade Stocks & Forex'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: org.fxclub.libertex
 appCountry: cl
 released: 2015-05-22
 updated: 2022-02-16
-version: "2.30.0"
+version: 2.30.0
 stars: 4.712446
 ratings: 77624
 reviews: 999
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: libertex_latam
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Updated Analysis 2022-01-04**: 

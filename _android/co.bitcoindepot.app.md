@@ -1,6 +1,6 @@
 ---
 wsId: bitcoindepot
-title: "Bitcoin Depot"
+title: Bitcoin Depot
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.bitcoindepot.app
 appCountry: us
 released: 2020-11-04
 updated: 2021-10-20
-version: "1.9.3"
+version: 1.9.3
 stars: 3.79
 ratings: 105
 reviews: 37
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

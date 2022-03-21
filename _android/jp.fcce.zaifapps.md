@@ -1,6 +1,6 @@
 ---
 wsId: ZaifExchange
-title: "Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif"
+title: Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: jp.fcce.zaifapps
 appCountry: in
 released: 2020-05-07
 updated: 2022-03-14
-version: "1.1.11"
+version: 1.1.11
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zaifdotjp
 social:
 - https://www.facebook.com/zaifdotjp
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

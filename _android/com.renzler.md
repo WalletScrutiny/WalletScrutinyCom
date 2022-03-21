@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Renzler - Crypto trading App & Bot"
+title: Renzler - Crypto trading App & Bot
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.renzler
 appCountry: 
 released: 
 updated: 2021-06-24
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Pro Bitcoin Mining 2021 - BTC WALLET"
+title: Pro Bitcoin Mining 2021 - BTC WALLET
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.cloudminingespapp.espapp
 appCountry: 
 released: 2021-09-08
 updated: 2021-09-08
-version: "1.0"
+version: '1.0'
 stars: 1.6
 ratings: 15
 reviews: 13
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-03**: This app is no more.

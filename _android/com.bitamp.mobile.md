@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitamp Bitcoin Wallet"
+title: Bitamp Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitamp.mobile
 appCountry: 
 released: 2021-04-10
 updated: 2021-04-27
-version: "2.0"
+version: '2.0'
 stars: 5
 ratings: 52
 reviews: 48
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

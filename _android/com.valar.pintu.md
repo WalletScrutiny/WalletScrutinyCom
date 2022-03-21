@@ -1,6 +1,6 @@
 ---
 wsId: Pintu
-title: "Pintu: Buy/Sell Digital Assets with Rupiah (IDR)"
+title: 'Pintu: Buy/Sell Digital Assets with Rupiah (IDR)'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2022-03-11
-version: "3.12.0"
-stars: 4.05
+updated: 2022-03-16
+version: 3.12.1
+stars: 4.06
 ratings: 28130
-reviews: 84
+reviews: 85
 size: Varies with device
 website: https://pintu.co.id/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: pintuid
 social:
 - https://www.facebook.com/pintucrypto
-redirect_from:
+redirect_from: 
+
 ---
 
 Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)

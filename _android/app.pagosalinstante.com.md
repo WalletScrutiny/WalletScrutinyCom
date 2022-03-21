@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PAI - Bitcoin, Tron, Eth y más"
+title: PAI - Bitcoin, Tron, Eth y más
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: app.pagosalinstante.com
 appCountry: 
 released: 2019-02-03
 updated: 2022-03-14
-version: "1.07.73"
-stars: 4.753623
+version: 1.07.73
+stars: 4.757143
 ratings: 934
 reviews: 38
 size: 5.9M
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paiexchange
 social:
 - https://www.facebook.com/paiexchange
-redirect_from:
+redirect_from: 
+
 ---
 
 Cursory analysis indicates that this is a business backed cryptocurrency exchange. Our tentative analysis points to a custodial service. 

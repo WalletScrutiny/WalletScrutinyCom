@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Payscript Wallet - Buy / Sell Bitcoin & Crypto"
+title: Payscript Wallet - Buy / Sell Bitcoin & Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.payscript
 appCountry: 
 released: 2020-10-13
-updated: 2022-03-11
-version: "0.3.1"
+updated: 2022-03-16
+version: 0.3.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

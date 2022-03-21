@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Status: Crypto Wallet, Messenger, Ethereum Browser"
+title: 'Status: Crypto Wallet, Messenger, Ethereum Browser'
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: im.status.ethereum
 appCountry: 
 released: 2020-02-05
 updated: 2022-02-15
-version: "1.18.2"
-stars: 4.402439
+version: 1.18.2
+stars: 4.3950615
 ratings: 2069
 reviews: 41
 size: 81M
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2022-01-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app appears to not support BTC.

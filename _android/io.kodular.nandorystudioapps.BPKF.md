@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Private Key Finder"
+title: Bitcoin Private Key Finder
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.kodular.nandorystudioapps.BPKF
 appCountry: 
 released: 2021-04-16
 updated: 2021-05-09
-version: "1.2"
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **WARNING:** This app may be unsafe or untrustworthy!

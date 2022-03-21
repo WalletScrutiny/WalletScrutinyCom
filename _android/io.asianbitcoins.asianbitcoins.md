@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "AsianBitcoins - Making Bitcoins Trading Simpler"
+title: AsianBitcoins - Making Bitcoins Trading Simpler
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: io.asianbitcoins.asianbitcoins
 appCountry: 
 released: 2020-08-11
 updated: 2020-08-11
-version: "1.0.0"
+version: 1.0.0
 stars: 4.9933777
 ratings: 3899
 reviews: 117
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

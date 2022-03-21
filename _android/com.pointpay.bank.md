@@ -1,6 +1,6 @@
 ---
 wsId: pointpay
-title: "PointPay: Blockchain Wallet"
+title: 'PointPay: Blockchain Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appId: com.pointpay.bank
 appCountry: 
 released: 2020-07-21
 updated: 2022-02-14
-version: "5.7.6"
-stars: 4.356436
+version: 5.7.6
+stars: 4.4059405
 ratings: 3831
-reviews: 95
+reviews: 94
 size: 149M
 website: https://pointpay.io/
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-04-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PointPay1
 social:
 - https://www.linkedin.com/company/pointpay
 - https://www.facebook.com/PointPayLtd
 - https://www.reddit.com/r/PointPay
-redirect_from:
+redirect_from: 
+
 ---
 
 The PointPay website has very little information about how they manage private keys of the user.

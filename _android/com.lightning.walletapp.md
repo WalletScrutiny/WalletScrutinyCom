@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BLW: Bitcoin and Lightning Wallet"
+title: 'BLW: Bitcoin and Lightning Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: com.lightning.walletapp
 appCountry: 
 released: 2018-05-01
 updated: 2021-03-13
-version: "0.4.8"
-stars: 3.857143
+version: 0.4.8
+stars: 4.2210526
 ratings: 368
 reviews: 60
 size: 4.9M
@@ -25,17 +25,18 @@ date: 2022-03-09
 signer: 
 reviewArchive:
 - date: 2019-11-23
-  version: "0.4"
+  version: '0.4'
   appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
 twitter: 
-social:
+social: 
 redirect_from:
-  - /bictcoinlightningwallet/
-  - /com.lightning.walletapp/
-  - /posts/2019/11/bictcoinlightningwallet/
-  - /posts/com.lightning.walletapp/
+- /bictcoinlightningwallet/
+- /com.lightning.walletapp/
+- /posts/2019/11/bictcoinlightningwallet/
+- /posts/com.lightning.walletapp/
+
 ---
 
 **Update 2021-08-21**: The provider

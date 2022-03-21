@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HomiEx Crypto Exchange"
+title: HomiEx Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: be.homiex.broker.android
 appCountry: 
 released: 2021-08-03
 updated: 2021-08-04
-version: "4.1.2"
+version: 4.1.2
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-14**: This app is no more available.

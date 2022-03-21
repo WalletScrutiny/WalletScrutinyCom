@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "KEEPSER"
+title: KEEPSER
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.KeepserGroup.Keepser
 appCountry: 
 released: 2021-07-22
 updated: 2021-12-11
-version: "1.4.3"
+version: 1.4.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: fewusers
 date: 2022-02-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: keepser
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is the companion app to the cold wallet Keepser.

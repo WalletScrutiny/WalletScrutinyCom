@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Thunderbolt - Bitcoin and Lightning Wallet"
+title: Thunderbolt - Bitcoin and Lightning Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.thunderbolt.wallet
 appCountry: 
 released: 2021-08-29
 updated: 2021-08-29
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

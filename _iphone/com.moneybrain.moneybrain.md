@@ -1,6 +1,6 @@
 ---
 wsId: Moneybrain
-title: "Moneybrain P2P Digital Banking"
+title: Moneybrain P2P Digital Banking
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: gb
 idd: 1476827262
 released: 2019-10-15
 updated: 2022-02-14
-version: "2.0.6"
+version: 2.0.6
 stars: 4.85714
 reviews: 7
-size: 34324480
+size: '34324480'
 website: https://bips.moneybrain.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MoneybrainBiPS
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

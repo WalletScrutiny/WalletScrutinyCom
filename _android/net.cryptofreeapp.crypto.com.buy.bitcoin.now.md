@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "(Fake) Crypto.com - Buy Bitcoin Now"
+title: (Fake) Crypto.com - Buy Bitcoin Now
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-28
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-17**: This app is not the the Play Store anymore and by name

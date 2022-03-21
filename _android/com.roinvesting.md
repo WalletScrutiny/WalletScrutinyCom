@@ -1,6 +1,6 @@
 ---
 wsId: ROInvesting
-title: "ROInvesting: Trading Forex, Stocks and Bitcoin"
+title: 'ROInvesting: Trading Forex, Stocks and Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.roinvesting
 appCountry: us
 released: 
 updated: 2021-08-25
-version: "1.5.69-roinvesting"
+version: 1.5.69-roinvesting
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Roinvesting
 social:
 - https://www.linkedin.com/company/roinvesting
 - https://www.facebook.com/ROInvesting
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

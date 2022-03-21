@@ -1,6 +1,6 @@
 ---
 wsId: coinus
-title: "CoinUs 3.0 : BTC, ETH, ERC20"
+title: 'CoinUs 3.0 : BTC, ETH, ERC20'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.theblockchain.coinus.wallet
 appCountry: bj
 released: 2018-04-23
 updated: 2021-12-10
-version: "3.0.0"
+version: 3.0.0
 stars: 3.9
 ratings: 379
 reviews: 233
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinUs_Official
 social:
 - https://www.facebook.com/CoinUsOfficial
-redirect_from:
+redirect_from: 
+
 ---
 
 Coinus Support page:

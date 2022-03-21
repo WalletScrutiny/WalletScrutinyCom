@@ -1,5 +1,5 @@
 ---
-title: "Esecubit"
+title: Esecubit
 appId: esecubit
 authors:
 - kiwilamb
@@ -26,8 +26,9 @@ date: 2021-07-16
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.facebook.com/EsecuBit
+
 ---
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.esecubit.com).

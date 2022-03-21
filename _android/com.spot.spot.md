@@ -1,6 +1,6 @@
 ---
 wsId: SpotWalletapp
-title: "Spot - Bitcoin & crypto wallet"
+title: Spot - Bitcoin & crypto wallet
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
 updated: 2022-03-08
-version: "4.57.0"
-stars: 4.336
+version: 4.57.0
+stars: 4.352
 ratings: 4767
 reviews: 489
 size: 94M
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2020-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: spot_bitcoin
 social:
 - https://www.linkedin.com/company/spot-bitcoin
 - https://www.facebook.com/spot.bitcoin
 redirect_from:
-  - /com.spot.spot/
+- /com.spot.spot/
+
 ---
 
 On their website we read:

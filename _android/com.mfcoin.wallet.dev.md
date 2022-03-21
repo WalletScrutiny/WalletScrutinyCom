@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MFCoin wallet"
+title: MFCoin wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.mfcoin.wallet.dev
 appCountry: 
 released: 2018-03-22
 updated: 2020-10-04
-version: "v4.0.0"
+version: v4.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +22,13 @@ meta: stale
 verdict: obfuscated
 date: 2021-09-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MFC_tech
 social:
 - https://www.linkedin.com/company/groups/13539593
 - https://www.facebook.com/groups/mfcoin
-redirect_from:
+redirect_from: 
+
 ---
 
 > * Native support for bitcoin and most major altcoins

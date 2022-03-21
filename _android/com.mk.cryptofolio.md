@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Altcoin Bitcoin Trade"
+title: Altcoin Bitcoin Trade
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.mk.cryptofolio
 appCountry: 
 released: 2018-05-02
 updated: 2020-08-19
-version: "1.0.51"
+version: 1.0.51
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: stale
 verdict: custodial
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.mk.cryptofolio/
-  - /posts/com.mk.cryptofolio/
+- /com.mk.cryptofolio/
+- /posts/com.mk.cryptofolio/
+
 ---
 
 This app is an interface for multiple exchanges:

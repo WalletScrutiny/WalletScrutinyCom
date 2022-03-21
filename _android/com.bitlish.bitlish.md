@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitlish - crypto wallet"
+title: Bitlish - crypto wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bitlish.bitlish
 appCountry: 
 released: 2017-07-11
 updated: 2020-01-20
-version: "2.0.10"
+version: 2.0.10
 stars: 4
 ratings: 225
 reviews: 177
@@ -23,14 +22,15 @@ meta: defunct
 verdict: custodial
 date: 2020-03-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitlish_com
 social:
 - https://www.linkedin.com/company/bitlish
 - https://www.facebook.com/bitlish.english
 redirect_from:
-  - /com.bitlish.bitlish/
-  - /posts/com.bitlish.bitlish/
+- /com.bitlish.bitlish/
+- /posts/com.bitlish.bitlish/
+
 ---
 
 This app is closing down its operation. It disappeard from Google Play, iTunes,

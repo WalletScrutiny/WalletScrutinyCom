@@ -1,6 +1,6 @@
 ---
 wsId: B4UWallet
-title: "B4U Wallet: Crypto Bitcoin Wallet Exchange"
+title: 'B4U Wallet: Crypto Bitcoin Wallet Exchange'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.b4uwallet.android
 appCountry: 
 released: 2018-10-19
 updated: 2021-04-22
-version: "4.3.4"
+version: 4.3.4
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial
-redirect_from:
+redirect_from: 
+
 ---
 
 This app is not well advertised on how the users private keys are managed.

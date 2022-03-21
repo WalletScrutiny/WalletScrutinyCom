@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Investment App India"
+title: Bitcoin Investment App India
 altTitle: 
-authors:
-
+authors: 
 users: 0
 appId: com.cryptoplanetgreencg.bitcoin.investment.app.india
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-28
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- Emanuel thinks this is probably a scam. See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/314 -->

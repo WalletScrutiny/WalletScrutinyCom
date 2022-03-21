@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bluebelt Instant Crypto Bank"
+title: Bluebelt Instant Crypto Bank
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.bbex
 appCountry: 
 released: 2019-07-12
 updated: 2019-11-06
-version: "1.0.5"
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

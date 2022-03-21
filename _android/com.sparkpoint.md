@@ -1,6 +1,6 @@
 ---
 wsId: sparkPoint
-title: "SparkPoint Crypto Wallet"
+title: SparkPoint Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ users: 10000
 appId: com.sparkpoint
 appCountry: us
 released: 2019-07-20
-updated: 2022-02-28
-version: "8.1.0"
+updated: 2022-03-18
+version: 8.1.1
 stars: 3.7439024
 ratings: 608
 reviews: 68
@@ -24,13 +24,14 @@ meta: ok
 verdict: nosource
 date: 2021-03-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: sparkpointio
 social:
 - https://www.linkedin.com/company/sparkpointio
 - https://www.facebook.com/sparkpointio
 - https://www.reddit.com/r/SparkPoint
-redirect_from:
+redirect_from: 
+
 ---
 
 This app sounds at first as if it was not for Bitcoin but self-custodial:

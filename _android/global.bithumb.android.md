@@ -1,6 +1,6 @@
 ---
 wsId: bitthumbglobal
-title: "BitGlobal (formerly Bithumb Global)"
+title: BitGlobal (formerly Bithumb Global)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: global.bithumb.android
 appCountry: us
 released: 2019-07-05
 updated: 2021-08-05
-version: "2.6.24"
+version: 2.6.24
 stars: 3.45
 ratings: 3090
 reviews: 73
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BithumbGlobal
 social:
 - https://www.linkedin.com/company/bithumbglobal
 - https://www.facebook.com/bithumb.global
 - https://www.reddit.com/r/BithumbGlobal
-redirect_from:
+redirect_from: 
+
 ---
 
 It's **highly recommended to avoid this app.**

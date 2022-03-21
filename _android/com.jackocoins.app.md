@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Jackocoins -  Sell BTC, ETH, USDT in Nigeria"
+title: Jackocoins -  Sell BTC, ETH, USDT in Nigeria
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.jackocoins.app
 appCountry: 
 released: 2020-07-18
 updated: 2021-10-07
-version: "1.1.15"
+version: 1.1.15
 stars: 4.0555553
 ratings: 148
 reviews: 14
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jackocoins
 social:
 - https://www.facebook.com/jackocoins
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

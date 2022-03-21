@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Wallet: BTC, ETH & BNB"
+title: 'Bitcoin Wallet: BTC, ETH & BNB'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.polehin.android
 appCountry: 
 released: 2019-01-01
 updated: 2022-01-09
-version: "3.7.4"
+version: 3.7.4
 stars: 4.3403363
 ratings: 22277
 reviews: 1071
@@ -25,12 +25,12 @@ date: 2022-01-09
 signer: 
 reviewArchive:
 - date: 2020-03-30
-  version: "3.1.4"
+  version: 3.1.4
   appHash: 
   gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
   verdict: custodial
 - date: 2019-11-22
-  version: "3.1.4"
+  version: 3.1.4
   appHash: 
   gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
   verdict: nosource
@@ -38,10 +38,11 @@ twitter: polehincom
 social:
 - https://www.facebook.com/polehincom
 redirect_from:
-  - /bitcoinwallet/
-  - /com.polehin.android/
-  - /posts/2019/11/bitcoinwallet/
-  - /posts/com.polehin.android/
+- /bitcoinwallet/
+- /com.polehin.android/
+- /posts/2019/11/bitcoinwallet/
+- /posts/com.polehin.android/
+
 ---
 
 **Update 2022-01-09**: The app was restored for no apparent reason given the

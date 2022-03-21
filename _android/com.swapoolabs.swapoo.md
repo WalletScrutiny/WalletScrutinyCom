@@ -1,6 +1,6 @@
 ---
 wsId: Swapoo
-title: "Swapoo"
+title: Swapoo
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.swapoolabs.swapoo
 appCountry: ph
 released: 2020-01-09
 updated: 2021-11-02
-version: "1.28.125"
+version: 1.28.125
 stars: 4.6
 ratings: 56
 reviews: 25
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

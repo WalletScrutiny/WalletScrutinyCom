@@ -1,6 +1,6 @@
 ---
 wsId: AxiaInvestments
-title: "Axia Investments"
+title: Axia Investments
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: il
 idd: 1538965141
 released: 2020-11-16
 updated: 2021-12-29
-version: "1.0.44"
+version: 1.0.44
 stars: 4.54545
 reviews: 22
 size: 68953088
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

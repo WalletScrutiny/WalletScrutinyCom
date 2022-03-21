@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "GlobalBlock Digital Asset Exchange"
+title: GlobalBlock Digital Asset Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: uk.co.globalblock.droidapp
 appCountry: 
 released: 2021-02-08
 updated: 2022-02-01
-version: "1.6"
+version: '1.6'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

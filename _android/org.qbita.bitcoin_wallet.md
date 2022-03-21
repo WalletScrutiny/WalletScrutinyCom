@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "QBita - Mercado de Bitcoin"
+title: QBita - Mercado de Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: org.qbita.bitcoin_wallet
 appCountry: 
 released: 2019-08-28
 updated: 2019-08-28
-version: "1.0"
+version: '1.0'
 stars: 4.4375
 ratings: 93
 reviews: 9
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

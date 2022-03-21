@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin POS"
+title: Bitcoin POS
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.coingate.pos
 appCountry: 
 released: 2015-02-19
 updated: 2016-08-18
-version: "2.0.0"
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: obsolete
 verdict: nowallet
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is a POS solution aimed at Merchants receiving crypo currencies, the POS mobile app is listed on [their website](https://coingate.com/pos), however no mention of any source repository for it.

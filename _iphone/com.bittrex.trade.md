@@ -1,6 +1,6 @@
 ---
 wsId: bittrex
-title: "Buy Bitcoin & Crypto | Bittrex"
+title: Buy Bitcoin & Crypto | Bittrex
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1465314783
 released: 2019-12-19
 updated: 2022-03-13
-version: "1.18.2"
+version: 1.18.2
 stars: 4.65582
 reviews: 2490
 size: 77549568
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BittrexGlobal
 social:
 - https://www.facebook.com/BittrexGlobal
+
 ---
 
 This app is an interface to a trading platform:

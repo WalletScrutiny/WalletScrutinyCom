@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "DueDEX"
+title: DueDEX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.duedex.app
 appCountry: 
 released: 2020-05-13
 updated: 2021-05-17
-version: "1.2.18"
+version: 1.2.18
 stars: 3.4
 ratings: 58
 reviews: 38
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **NOTE: DueDEX has retired.**

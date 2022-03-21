@@ -1,6 +1,6 @@
 ---
 wsId: PTPWallet
-title: "PTPWallet - Bitcoin, Ethereum, and Other Crypto"
+title: PTPWallet - Bitcoin, Ethereum, and Other Crypto
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.ptpwallet
 appCountry: 
 released: 2018-12-04
 updated: 2022-02-15
-version: "1.0.1250"
+version: 1.0.1250
 stars: 4.24
 ratings: 352
 reviews: 16
@@ -25,7 +25,7 @@ date: 2021-05-25
 signer: 
 reviewArchive:
 - date: 2020-12-06
-  version: ""
+  version: ''
   appHash: 
   gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
   verdict: custodial
@@ -34,7 +34,8 @@ social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
 redirect_from:
-  - /com.ptpwallet/
+- /com.ptpwallet/
+
 ---
 
 **Update 2021-05-25**: We had this app listed as custodial previously but now

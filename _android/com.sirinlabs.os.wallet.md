@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "FINNEY Wallet"
+title: FINNEY Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.sirinlabs.os.wallet
 appCountry: 
 released: 2019-01-13
 updated: 2020-09-15
-version: "1.0.9.5489"
+version: 1.0.9.5489
 stars: 3.4
 ratings: 24
 reviews: 5
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

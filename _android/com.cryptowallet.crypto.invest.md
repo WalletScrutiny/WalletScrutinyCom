@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Invest"
+title: Crypto Invest
 altTitle: 
-authors:
-
+authors: 
 users: 1
 appId: com.cryptowallet.crypto.invest
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-13**: This app is not available anymore

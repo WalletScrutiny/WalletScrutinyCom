@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Hurbito - Buy & Sell Bitcoin Instantly"
+title: Hurbito - Buy & Sell Bitcoin Instantly
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.hurbito.app
 appCountry: 
 released: 2021-01-20
 updated: 2021-01-20
-version: "1.5"
+version: '1.5'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-01-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

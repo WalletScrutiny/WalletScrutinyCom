@@ -1,6 +1,6 @@
 ---
 wsId: AnchorUSD
-title: "Anchor – Buy and Send Crypto"
+title: Anchor – Buy and Send Crypto
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: app.anchors.anchorusd
 appCountry: us
 released: 2020-06-18
 updated: 2022-01-13
-version: "1.17.9"
-stars: 2.19917
+version: 1.17.9
+stars: 2.1825726
 ratings: 2482
-reviews: 792
+reviews: 794
 size: 33M
 website: https://www.tryanchor.com
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: anchorusd
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 AnchorUSD claims to be a stock and crypto investment app. 

@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: "Verso Wallet : Get into crypto"
+title: 'Verso Wallet : Get into crypto'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ba
 idd: 1539304605
 released: 2021-03-15
 updated: 2022-03-04
-version: "2.4.9"
-stars: 
-reviews: 
-size: 90260480
+version: 2.4.9
+stars: 0
+reviews: 0
+size: '90260480'
 website: https://get-verso.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: versoapp
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

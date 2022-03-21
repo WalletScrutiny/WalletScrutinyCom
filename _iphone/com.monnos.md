@@ -1,6 +1,6 @@
 ---
 wsId: monnos
-title: "Monnos | Buy Bitcoin"
+title: Monnos | Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.monnos
 appCountry: br
 idd: 1476884342
 released: 2019-09-30
-updated: 2022-02-18
-version: "5.3.4"
+updated: 2022-03-16
+version: 5.4.0
 stars: 4.58011
 reviews: 181
-size: 155223040
+size: '157171712'
 website: https://monnos.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: monnosGlobal
 social:
 - https://www.linkedin.com/company/monnosglobal
 - https://www.facebook.com/MonnosGlobal
+
 ---
 
 {% include copyFromAndroid.html %}

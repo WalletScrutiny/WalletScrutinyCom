@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Exchange"
+title: Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.wCryptoExchange_13708254
 appCountry: 
 released: 2021-05-11
 updated: 2021-12-18
-version: "1.1.45"
+version: 1.1.45
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-12**: This app is not on the Store anymore.

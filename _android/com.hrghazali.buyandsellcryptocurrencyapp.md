@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Buy & Sell Cryptocurrency"
+title: Buy & Sell Cryptocurrency
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.hrghazali.buyandsellcryptocurrencyapp
 appCountry: 
 released: 2021-07-24
 updated: 2021-08-19
-version: "1.0.1"
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

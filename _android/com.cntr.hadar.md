@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Hadar"
+title: Hadar
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.cntr.hadar
 appCountry: 
 released: 2021-05-19
 updated: 2021-06-21
-version: "1.0.2"
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

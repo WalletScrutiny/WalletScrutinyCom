@@ -1,6 +1,6 @@
 ---
 wsId: cryptocomexchange
-title: "Crypto.com Exchange"
+title: Crypto.com Exchange
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.crypto.exchange
 appCountry: nz
 released: 2021-05-26
 updated: 2022-03-07
-version: "1.7.1"
+version: 1.7.1
 stars: 4.5185184
 ratings: 4430
 reviews: 11
@@ -24,13 +24,14 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
-redirect_from:
+redirect_from: 
+
 ---
 
 **EDIT 2021-09-14**

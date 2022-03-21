@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "WasabiWallet"
-altTitle: "(Fake) Wasabi Wallet"
-authors:
-
+title: WasabiWallet
+altTitle: (Fake) Wasabi Wallet
+authors: 
 users: 500
 appId: com.wasabiwallet.dev
 appCountry: 
 released: 
 updated: 2020-12-01
-version: "2.0"
+version: '2.0'
 stars: 3.8
 ratings: 25
 reviews: 14
@@ -23,11 +22,12 @@ meta: defunct
 verdict: fewusers
 date: 2021-04-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.wasabiwallet.dev/
+- /com.wasabiwallet.dev/
+
 ---
 
 **Update 2020-12-08:** This wallet was removed from Google Play. You can find a

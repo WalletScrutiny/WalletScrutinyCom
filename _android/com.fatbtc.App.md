@@ -1,6 +1,6 @@
 ---
 wsId: fatBTC
-title: "FatBTC"
+title: FatBTC
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fatbtc.App
 appCountry: us
 released: 2018-06-02
 updated: 2021-11-08
-version: "2.45"
+version: '2.45'
 stars: 2.5384614
 ratings: 160
 reviews: 11
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: fatbtc
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

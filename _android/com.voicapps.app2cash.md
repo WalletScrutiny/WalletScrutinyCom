@@ -1,6 +1,6 @@
 ---
 wsId: 2cash
-title: "2cash - Money for Everyone"
+title: 2cash - Money for Everyone
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.voicapps.app2cash
 appCountry: us
 released: 2019-09-17
 updated: 2022-03-03
-version: "2.0.2"
+version: 2.0.2
 stars: 4.4
 ratings: 
 reviews: 2
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2022-03-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 2cashnetwork
 social:
 - https://www.linkedin.com/company/2cash
 - https://www.facebook.com/2cashnetwork
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-09**: This app is back on Play Store but with very negative

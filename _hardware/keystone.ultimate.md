@@ -1,5 +1,5 @@
 ---
-title: "Keystone Ultimate"
+title: Keystone Ultimate
 appId: keystone.ultimate
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Yanssie HK Limited"
+provider: Yanssie HK Limited
 providerWebsite: https://keyst.one/
 website: https://keyst.one/
 shop: https://shop.keyst.one/products/keystone-ultimate
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: KeystoneWallet
 social: 
+
 ---
 
 This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 

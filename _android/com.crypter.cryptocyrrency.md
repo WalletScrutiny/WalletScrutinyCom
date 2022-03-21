@@ -1,6 +1,6 @@
 ---
 wsId: crypterApp
-title: "Crypto App - Widgets, Alerts, News, Bitcoin Prices"
+title: Crypto App - Widgets, Alerts, News, Bitcoin Prices
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
 updated: 2021-12-14
-version: "2.7.2"
-stars: 4.589431
+version: 2.7.2
+stars: 4.588472
 ratings: 78687
-reviews: 2534
+reviews: 2539
 size: 17M
 website: https://thecrypto.app
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TrustSwap
 social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
-redirect_from:
+redirect_from: 
+
 ---
 
 From their official website: 

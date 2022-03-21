@@ -1,5 +1,5 @@
 ---
-title: "Littleshell"
+title: Littleshell
 appId: littleshell
 authors:
 - kiwilamb
@@ -13,7 +13,8 @@ weight:
 provider: 
 providerWebsite: 
 website: 
-shop: https://www.amazon.ca/Littleshell-Cryptocurrency-Hardware-Wallet-ERC20-tokens/dp/B07KPT79RN
+shop: >-
+  https://www.amazon.ca/Littleshell-Cryptocurrency-Hardware-Wallet-ERC20-tokens/dp/B07KPT79RN
 country: 
 price: 
 repository: 
@@ -27,6 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 Very little can be found about this hardware device, the only reference to this wallet can be a purchase link on [Amazom](https://www.amazon.ca/Littleshell-Cryptocurrency-Hardware-Wallet-ERC20-tokens/dp/B07KPT79RN)

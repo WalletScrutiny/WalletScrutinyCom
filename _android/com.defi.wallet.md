@@ -1,6 +1,6 @@
 ---
 wsId: cryptoComDefi
-title: "Crypto.com l DeFi Wallet"
+title: Crypto.com l DeFi Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
 updated: 2022-03-04
-version: "1.28.0"
-stars: 4.2146597
+version: 1.28.0
+stars: 4.1716814
 ratings: 13620
-reviews: 1685
+reviews: 1703
 size: 60M
 website: https://www.crypto.com
 repository: 
@@ -23,15 +23,16 @@ meta: ok
 verdict: nosource
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 redirect_from:
-  - /com.defi.wallet/
-  - /posts/com.defi.wallet/
+- /com.defi.wallet/
+- /posts/com.defi.wallet/
+
 ---
 
 This app's description is promising:

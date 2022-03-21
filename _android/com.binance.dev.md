@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: "Binance: Buy BTC & 600+ Crypto"
+title: 'Binance: Buy BTC & 600+ Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.binance.dev
 appCountry: 
 released: 2017-10-25
-updated: 2022-03-15
-version: "2.42.5"
-stars: 4.0633564
+updated: 2022-03-18
+version: 2.42.5
+stars: 4.0381947
 ratings: 619117
-reviews: 7260
+reviews: 7279
 size: Varies with device
 website: https://www.binance.com/
 repository: 
@@ -23,15 +23,16 @@ meta: ok
 verdict: custodial
 date: 2020-03-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: binance
 social:
 - https://www.facebook.com/binance
 - https://www.reddit.com/r/binance
 redirect_from:
-  - /binance/
-  - /com.binance.dev/
-  - /posts/com.binance.dev/
+- /binance/
+- /com.binance.dev/
+- /posts/com.binance.dev/
+
 ---
 
 This app appears to be an app interface for the Binance exchange and at first we

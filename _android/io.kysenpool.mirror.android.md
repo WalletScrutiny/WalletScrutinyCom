@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Mirror Wallet"
+title: Mirror Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.kysenpool.mirror.android
 appCountry: 
 released: 2020-12-13
 updated: 2021-08-13
-version: "1.2.1"
+version: 1.2.1
 stars: 4.4
 ratings: 119
 reviews: 44
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosendreceive
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-14**: This app is no more available.

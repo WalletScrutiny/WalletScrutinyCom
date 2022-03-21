@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Richamster: Crypto Exchange"
+title: 'Richamster: Crypto Exchange'
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.richamster.app
 appCountry: 
 released: 2018-11-24
 updated: 2020-08-08
-version: "2.3"
+version: '2.3'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

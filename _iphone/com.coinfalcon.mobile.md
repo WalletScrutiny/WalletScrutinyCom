@@ -1,6 +1,6 @@
 ---
 wsId: coinfalcon
-title: "CoinFalcon – Buy Bitcoin"
+title: CoinFalcon – Buy Bitcoin
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1396963260
 released: 2018-10-05
 updated: 2022-02-02
-version: "2.1.14"
+version: 2.1.14
 stars: 3
 reviews: 15
-size: 52341760
+size: '52341760'
 website: https://coinfalcon.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinfalcon
 social:
 - https://www.facebook.com/CoinFalcon
 - https://www.reddit.com/r/CoinFalcon
+
 ---
 
 In the description we read:

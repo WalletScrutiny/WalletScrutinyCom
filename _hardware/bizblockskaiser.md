@@ -1,5 +1,5 @@
 ---
-title: "BizBlocks Kaiser"
+title: BizBlocks Kaiser
 appId: bizblockskaiser
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85, 54, 0.8]
+dimensions:
+- 85
+- 54
+- 0.8
 weight: 3g
-provider: "Bizblocks"
+provider: Bizblocks
 providerWebsite: 
 website: https://bizblocks.io/
 shop: https://bizblocks.io/buy
@@ -26,8 +29,9 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: bizblocks7
-social: 
+social:
 - https://www.facebook.com/kaiserwallet
+
 ---
 
 Kaiser Card was announced on [May 25, 2018 via twitter](https://twitter.com/bizblocks7/status/999953368826105858). The last twitter post of the account was made on [January 2, 2020](https://twitter.com/bizblocks7/status/1212546988895375365). The last facebook post of the bizblocks fb account [was on [January 2, 2020](https://www.facebook.com/KaiserWallet22/posts/496914114264390) as well.

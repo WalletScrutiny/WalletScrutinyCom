@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BigoMex-Trading for BEGINNERS"
+title: BigoMex-Trading for BEGINNERS
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.bigomex.blockchain
 appCountry: 
 released: 2020-09-14
 updated: 2021-06-22
-version: "1.2.7"
-stars: 4.388889
+version: 1.2.7
+stars: 4.2105265
 ratings: 319
-reviews: 14
+reviews: 15
 size: 10M
 website: https://www.bigomex.com
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bigomexofficial
 social:
 - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
 - https://www.facebook.com/bigomexofficial
 - https://www.reddit.com/r/bigomex
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

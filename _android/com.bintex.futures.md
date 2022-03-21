@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bintex Wallet"
+title: Bintex Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.bintex.futures
 appCountry: 
 released: 2021-03-10
 updated: 2021-03-10
-version: "0.19.0"
+version: 0.19.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-03-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: bitopro
-title: "BitoPro Cryptocurrency Exchange-BTC,ETH,TWD"
+title: BitoPro Cryptocurrency Exchange-BTC,ETH,TWD
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitoex.bitoproapp
 appCountry: us
 released: 2018-07-30
-updated: 2022-01-18
-version: "4.1.1"
+updated: 2022-03-17
+version: 4.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitopro.bito
-redirect_from:
+redirect_from: 
+
 ---
 
 Most centralized cryptocurrency exchanges do not provide the private keys to the wallets on the app or web platform. 

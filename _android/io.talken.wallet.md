@@ -1,6 +1,6 @@
 ---
 wsId: Talken
-title: "Talken -   Multi-chain NFT Wallet & Marketplace"
+title: Talken -   Multi-chain NFT Wallet & Marketplace
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: io.talken.wallet
 appCountry: 
 released: 2019-07-31
 updated: 2022-01-25
-version: "1.0.48"
+version: 1.0.48
 stars: 4.7833333
 ratings: 5882
 reviews: 177
@@ -24,10 +24,11 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Talken_
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **UPDATE 2021-09-01**: This "wallet" is meant for NFTs and not Bitcoin.

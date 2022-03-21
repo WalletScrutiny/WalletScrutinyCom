@@ -1,6 +1,6 @@
 ---
 wsId: BTSE
-title: "BTSE: Buy & Sell Crypto"
+title: 'BTSE: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.btse.finance
 appCountry: ng
 released: 2020-11-30
 updated: 2022-03-07
-version: "1.27.0"
+version: 1.27.0
 stars: 4.875
 ratings: 62
 reviews: 10
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btsecom
 social:
 - https://www.linkedin.com/company/btsecom
 - https://www.facebook.com/btsecom
 - https://www.reddit.com/r/btsecom
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

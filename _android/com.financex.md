@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "FinanceX - Crypto Trading with Fiat"
+title: FinanceX - Crypto Trading with Fiat
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.financex
 appCountry: 
 released: 2019-01-15
 updated: 2020-01-13
-version: "1.3.12"
+version: 1.3.12
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-01-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

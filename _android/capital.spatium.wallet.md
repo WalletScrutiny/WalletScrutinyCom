@@ -1,6 +1,6 @@
 ---
 wsId: spatium
-title: "Spatium Keyless Bitcoin Wallet"
+title: Spatium Keyless Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ users: 1000
 appId: capital.spatium.wallet
 appCountry: us
 released: 2018-08-31
-updated: 2022-02-24
-version: "3.0.63"
+updated: 2022-03-16
+version: 3.0.66.1
 stars: 
 ratings: 
 reviews: 
@@ -24,12 +24,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: spatium_news
 social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

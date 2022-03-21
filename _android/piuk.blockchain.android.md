@@ -1,6 +1,6 @@
 ---
 wsId: blockchainWallet
-title: "Blockchain.com Wallet: Buy BTC"
+title: 'Blockchain.com Wallet: Buy BTC'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2022-03-14
-version: "202202.2.3"
-stars: 3.7790895
+updated: 2022-03-17
+version: 202202.2.3
+stars: 3.7882352
 ratings: 115830
-reviews: 5330
+reviews: 5338
 size: 23M
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
@@ -25,7 +25,7 @@ date: 2021-07-15
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
 - date: 2020-07-11
-  version: "6.35.0"
+  version: 6.35.0
   appHash: 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
   gitRevision: 477c4edc4f632895993602574ba383a08df9041f
   verdict: nonverifiable
@@ -34,10 +34,11 @@ social:
 - https://www.linkedin.com/company/blockchain
 - https://www.facebook.com/blockchain
 redirect_from:
-  - /blockchainwallet/
-  - /piuk.blockchain.android/
-  - /posts/2019/11/blockchainwallet/
-  - /posts/piuk.blockchain.android/
+- /blockchainwallet/
+- /piuk.blockchain.android/
+- /posts/2019/11/blockchainwallet/
+- /posts/piuk.blockchain.android/
+
 ---
 
 **Update 2021-07-15**: The app on Play Store is version **8.8.7**. The source

@@ -1,5 +1,5 @@
 ---
-title: "SigSafe"
+title: SigSafe
 appId: sigsafe
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: PeterRizun
 social: 
+
 ---
 
 This device uses NFC (Near Field Communication) technology to sign bitcoin transactions. It was announced in 2014 via [bitcointalk.org](https://bitcointalk.org/index.php?topic=610453.0), although its domain is now no longer online.

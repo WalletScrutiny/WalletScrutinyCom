@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bit7Pay Bitcoin and Other Cryptocurrency Wallet"
+title: Bit7Pay Bitcoin and Other Cryptocurrency Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: bit7pay.com.bit7pay
 appCountry: 
 released: 2019-05-18
 updated: 2020-04-08
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

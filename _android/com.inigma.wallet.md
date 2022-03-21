@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Inigma BTC/ETH Smart Wallet"
+title: Inigma BTC/ETH Smart Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.inigma.wallet
 appCountry: 
 released: 2020-03-29
 updated: 2020-12-22
-version: "0.0.18"
+version: 0.0.18
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

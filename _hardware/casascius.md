@@ -1,5 +1,5 @@
 ---
-title: "Casascius Coins"
+title: Casascius Coins
 appId: casascius
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued: 2013-11-27
 updated: 
 version: 
 binaries: 
-dimensions: [30, 30, 3]
+dimensions:
+- 30
+- 30
+- 3
 weight: 
-provider: "Casascius LLC"
+provider: Casascius LLC
 providerWebsite: 
 website: https://www.casascius.com/
 shop: 
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The idea of physical coins that contain bitcoins was the brainchild of Mike Caldwell, a software engineer from Utah. The coins come in different BTC denominations: 1, 10, 25, 100 and 1000. The physical bitcoins grew in popularity because of their tangible nature. They were first announced in the bitcointalk.org forum on [September 6, 2011.](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883). Embedded in each physical coin is a 30-character string representing the private key. This was covered by a tamper-resistant hologram.

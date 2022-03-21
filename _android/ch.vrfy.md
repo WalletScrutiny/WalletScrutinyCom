@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "KONG"
+title: KONG
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: ch.vrfy
 appCountry: 
 released: 2019-10-03
 updated: 2021-07-13
-version: "1.5.2"
+version: 1.5.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

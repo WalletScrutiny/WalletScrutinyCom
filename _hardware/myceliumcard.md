@@ -1,5 +1,5 @@
 ---
-title: "Mycelium Card"
+title: Mycelium Card
 appId: myceliumcard
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: MyceliumCom
 social: 
+
 ---
 
 Since the product is **unreleased**, specifications were hard to come by. [Video presentation](https://vimeo.com/145770131) of the card was last made on November 15, 2015.

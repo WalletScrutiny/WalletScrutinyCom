@@ -1,6 +1,6 @@
 ---
 wsId: UmiFi
-title: "UmiFi"
+title: UmiFi
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1580892400
 released: 2021-09-02
 updated: 2021-12-24
-version: "1.0.6"
+version: 1.0.6
 stars: 5
 reviews: 1
 size: 259976192
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: officialumifi
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

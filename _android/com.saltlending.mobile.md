@@ -1,6 +1,6 @@
 ---
 wsId: SALT
-title: "SALT Crypto Loans"
+title: SALT Crypto Loans
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 50000
 appId: com.saltlending.mobile
 appCountry: us
 released: 2019-01-07
-updated: 2022-02-02
-version: "2.1.25"
+updated: 2022-03-15
+version: 2.2.8
 stars: 4.5346537
 ratings: 231
 reviews: 38
-size: 39M
+size: 40M
 website: https://saltlending.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SALTlending
 social:
 - https://www.linkedin.com/company/saltlending
 - https://www.facebook.com/SALTLENDING
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

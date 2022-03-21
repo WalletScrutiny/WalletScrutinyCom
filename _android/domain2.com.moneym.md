@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "WebMoney Crypto"
+title: WebMoney Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: domain2.com.moneym
 appCountry: 
 released: 2019-06-29
 updated: 2021-05-29
-version: "19.0"
+version: '19.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

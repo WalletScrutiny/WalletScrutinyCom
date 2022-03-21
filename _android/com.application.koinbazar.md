@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: "Koinbazar: Bitcoin & Cryptocurrency Exchange App"
+title: 'Koinbazar: Bitcoin & Cryptocurrency Exchange App'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
 updated: 2022-03-12
-version: "1.23"
-stars: 3.9771614
+version: '1.23'
+stars: 3.9717681
 ratings: 7090
-reviews: 2206
+reviews: 2223
 size: 21M
 website: https://www.koinbazar.com/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
-redirect_from:
+redirect_from: 
+
 ---
 
 ### App Description

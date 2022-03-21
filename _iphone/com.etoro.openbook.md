@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: "eToro: Crypto. Stocks. Social."
+title: 'eToro: Crypto. Stocks. Social.'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 674984916
 released: 2017-06-26
 updated: 2022-02-27
-version: "391.0.0"
+version: 391.0.0
 stars: 4.20942
 reviews: 5009
 size: 154835968
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
+
 ---
 
 Etoro is used to speculate on assets more than to actually transfer them but in

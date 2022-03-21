@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: "BitKeep: DeFi Crypto Wallet"
+title: 'BitKeep: DeFi Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
 updated: 2022-02-16
-version: "6.7.2"
+version: 6.7.2
 stars: 4.3431373
 ratings: 3949
 reviews: 155
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-09-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
 - https://github.com/bitkeepcom
 redirect_from:
-  - /com.bitkeep.wallet/
+- /com.bitkeep.wallet/
+
 ---
 
 The description

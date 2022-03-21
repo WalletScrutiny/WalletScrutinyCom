@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "THE MOST SECURE CRYPTOCURRENCY WALLET"
+title: THE MOST SECURE CRYPTOCURRENCY WALLET
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.crypall.offlinecryptowallet
 appCountry: 
 released: 2019-06-12
 updated: 2019-07-12
-version: "2.2"
+version: '2.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

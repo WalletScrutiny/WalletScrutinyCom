@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "OK Wallet-Bitcoin & Altcoin Crypto Wallet"
+title: OK Wallet-Bitcoin & Altcoin Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: ok.crypto.wallet
 appCountry: 
 released: 2020-09-21
 updated: 2020-09-21
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-09-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

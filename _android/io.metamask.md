@@ -1,6 +1,6 @@
 ---
 wsId: metamask
-title: "MetaMask - Blockchain Wallet"
+title: MetaMask - Blockchain Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: io.metamask
 appCountry: 
 released: 2020-09-01
 updated: 2022-03-07
-version: "4.2.2"
-stars: 4.5513597
+version: 4.2.2
+stars: 4.599411
 ratings: 57131
-reviews: 2019
+reviews: 2039
 size: 194M
 website: https://metamask.io
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-05-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is an ETH-only app and thus not a Bitcoin wallet.

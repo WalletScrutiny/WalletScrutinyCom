@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Ariomex"
+title: Ariomex
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.ariomex.app
 appCountry: 
 released: 2020-09-10
 updated: 2020-09-10
-version: "2.0.0"
+version: 2.0.0
 stars: 4
 ratings: 125
 reviews: 5
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-09-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

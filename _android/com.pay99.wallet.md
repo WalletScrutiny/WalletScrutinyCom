@@ -1,6 +1,6 @@
 ---
 wsId: 99Pay
-title: "99Pay"
+title: 99Pay
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.pay99.wallet
 appCountry: br
 released: 2021-09-23
 updated: 2022-03-11
-version: "7.1.10"
-stars: 2.6606426
+version: 7.1.10
+stars: 2.7003968
 ratings: 4563
-reviews: 4102
+reviews: 4178
 size: 79M
 website: 
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: voude99
 social:
 - https://www.linkedin.com/company/99app
 - https://www.facebook.com/voude99
-redirect_from:
+redirect_from: 
+
 ---
 
 This is the payment app for the ride sharing app "99" which is popular in

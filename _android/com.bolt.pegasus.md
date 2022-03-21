@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BoltX: Ethereum & Crypto Wallet"
+title: 'BoltX: Ethereum & Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.bolt.pegasus
 appCountry: 
 released: 2019-08-26
 updated: 2022-02-15
-version: "1.21.9"
+version: 1.21.9
 stars: 3.9642856
 ratings: 365
 reviews: 20
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bolt_global
 social:
 - https://www.linkedin.com/company/bolt-global
 - https://www.facebook.com/Global.Bolt
-redirect_from:
+redirect_from: 
+
 ---
 
 Seems like a secondary project called "Pegasus" of Bolt Global where you can earn BOLT tokens into the Bolt-X wallet from using the Bolt+ interactive media companion app.

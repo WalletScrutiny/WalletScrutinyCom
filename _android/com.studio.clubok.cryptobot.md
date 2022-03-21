@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "M U L T I B O T"
+title: M U L T I B O T
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.studio.clubok.cryptobot
 appCountry: 
 released: 2019-02-27
 updated: 2021-08-15
-version: "2.8.2"
+version: 2.8.2
 stars: 4.2222223
 ratings: 57
 reviews: 8
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Notes:** This app does not list a website.

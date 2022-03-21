@@ -1,5 +1,5 @@
 ---
-title: "KASSE HK-1000"
+title: KASSE HK-1000
 appId: kasse
 authors:
 - kiwilamb
@@ -7,11 +7,14 @@ authors:
 released: 
 discontinued: 
 updated: 2020-04-16
-version: "2.11.0"
+version: 2.11.0
 binaries: 
-dimensions: [60.4, 22.4, 8.2]
+dimensions:
+- 60.4
+- 22.4
+- 8.2
 weight: 11
-provider: "KASSE USA (HyundaiPay)"
+provider: KASSE USA (HyundaiPay)
 providerWebsite: https://kasseusa.com
 website: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
 shop: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: KasseUSA
 social: 
+
 ---
 
 {{ page.title }} has screen and buttons and a secure element with a true

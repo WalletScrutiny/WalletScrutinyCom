@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Decrypt - Bitcoin & crypto news"
+title: Decrypt - Bitcoin & crypto news
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: co.decrypt.app
 appCountry: 
 released: 2020-05-06
 updated: 2022-02-01
-version: "3.0.1"
+version: 3.0.1
 stars: 4.264151
 ratings: 2220
 reviews: 222
@@ -24,12 +24,13 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: decryptmedia
 social:
 - https://www.facebook.com/decryptmedia
 redirect_from:
-  - /co.decrypt.app/
+- /co.decrypt.app/
+
 ---
 
 This app only provides news about Bitcoin but no wallet itself.

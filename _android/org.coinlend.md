@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Coinlend"
+title: Coinlend
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: org.coinlend
 appCountry: 
 released: 2018-07-19
 updated: 2020-06-30
-version: "0.0.36"
+version: 0.0.36
 stars: 4.285714
 ratings: 83
 reviews: 3
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

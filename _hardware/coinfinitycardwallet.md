@@ -1,5 +1,5 @@
 ---
-title: "Coinfinity CardWallet"
+title: Coinfinity CardWallet
 appId: coinfinitycardwallet
 authors:
 - kiwilamb
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 86, 1]
+dimensions:
+- 54
+- 86
+- 1
 weight: 
-provider: "Coinfinity"
+provider: Coinfinity
 providerWebsite: https://coinfinity.co
 website: https://www.cardwallet.com/en/home/
 shop: https://www.cardwallet.com/en/shop/
@@ -26,9 +29,10 @@ date: 2021-08-08
 signer: 
 reviewArchive: 
 twitter: CardwalletCom
-social: 
+social:
 - https://www.linkedin.com/company/coinfinity
 - https://www.facebook.com/cardwalletcoinfinity
+
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

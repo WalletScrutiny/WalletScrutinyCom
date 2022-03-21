@@ -1,19 +1,18 @@
 ---
 wsId: 
-title: "AT.Wallet"
+title: AT.Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.authentrend.atwallet
 appCountry: 
 released: 2020-07-13
-updated: 2022-03-01
-version: "v2.0.4"
+updated: 2022-03-07
+version: v2.0.5
 stars: 
 ratings: 
 reviews: 
-size: 41M
+size: 36M
 website: https://www.authentrend.com/contact
 repository: 
 issue: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

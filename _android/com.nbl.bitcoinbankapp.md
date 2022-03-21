@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Bank App: Profit from Crypto"
+title: 'Bitcoin Bank App: Profit from Crypto'
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.nbl.bitcoinbankapp
 appCountry: 
 released: 
 updated: 2021-02-23
-version: "1.0.1"
+version: 1.0.1
 stars: 3.6
 ratings: 19
 reviews: 14
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-12**: This app is not on the Play Store anymore

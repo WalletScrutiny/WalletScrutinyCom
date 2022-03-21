@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Sarmayex"
+title: Sarmayex
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
 updated: 2022-02-20
-version: "2.1.0"
+version: 2.1.0
 stars: 3.5940595
 ratings: 3741
 reviews: 67
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2020-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: arzjoo
-social:
+social: 
 redirect_from:
-  - /com.arzjoo/
+- /com.arzjoo/
+
 ---
 
 This provider is from Iran and its website is in Farsi, only. Google Translate

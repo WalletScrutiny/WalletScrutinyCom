@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "AltCoinTrader - Secure easy crypto trading..."
+title: AltCoinTrader - Secure easy crypto trading...
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: co.za.altcointrader
 appCountry: 
 released: 2020-05-06
 updated: 2019-12-05
-version: "1.0.1"
+version: 1.0.1
 stars: 3.2857144
 ratings: 835
 reviews: 5
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-12-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

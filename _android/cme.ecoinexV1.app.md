@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ECOINEX - 암호화폐(비트코인,이더리움) 거래소"
+title: ECOINEX - 암호화폐(비트코인,이더리움) 거래소
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: cme.ecoinexV1.app
 appCountry: 
 released: 2018-12-19
 updated: 2018-12-19
-version: "1.01"
+version: '1.01'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-13**: This app is no more.

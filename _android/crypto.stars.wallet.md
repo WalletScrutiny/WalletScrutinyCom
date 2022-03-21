@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Blockchain Wallet to Buy & Sell Bitcoin"
+title: Crypto Blockchain Wallet to Buy & Sell Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: crypto.stars.wallet
 appCountry: 
 released: 2018-10-11
 updated: 2018-10-11
-version: "0.42.6"
+version: 0.42.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

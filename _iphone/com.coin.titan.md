@@ -1,6 +1,6 @@
 ---
 wsId: TitanCoin
-title: "Titan Coin"
+title: Titan Coin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1492432350
 released: 2021-04-22
 updated: 2021-12-23
-version: "1.28.0"
+version: 1.28.0
 stars: 1.33333
 reviews: 3
-size: 86978560
+size: '86978560'
 website: https://titanprojects.co
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProjectsTitan
 social:
 - https://www.linkedin.com/company/titanprojects
 - https://www.facebook.com/titanprojectsco
+
 ---
 
 {% include copyFromAndroid.html %}

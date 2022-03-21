@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Smart Bot"
+title: Smart Bot
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.vipsmartbot.vsb
 appCountry: 
 released: 2020-11-17
 updated: 2020-11-18
-version: "0.0.1"
+version: 0.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-11-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

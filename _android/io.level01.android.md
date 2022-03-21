@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Level01"
+title: Level01
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.level01.android
 appCountry: 
 released: 2020-10-09
 updated: 2021-12-16
-version: "0.2.3.3"
+version: 0.2.3.3
 stars: 3.5
 ratings: 137
 reviews: 7
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: level01io
 social:
 - https://www.facebook.com/level01platform
-redirect_from:
+redirect_from: 
+
 ---
 
 From its Google Play description:

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "My Paper Wallet: Bitcoin Paper Wallet Generator"
+title: 'My Paper Wallet: Bitcoin Paper Wallet Generator'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.aniket.my_paper_wallet
 appCountry: 
 released: 2020-12-24
 updated: 2020-12-24
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: ftbfs
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Building the apk with  `flutter build apk` results in errors.

@@ -1,6 +1,6 @@
 ---
 wsId: roseon
-title: "Roseon WonderApp"
+title: Roseon WonderApp
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: roseon.finance
 appCountry: vn
 released: 2021-03-16
 updated: 2022-03-14
-version: "2.3.25"
+version: 2.3.25
 stars: 4.733333
 ratings: 578
 reviews: 26
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: RoseonFinance
 social:
 - https://www.facebook.com/Roseon.Finance
-redirect_from:
+redirect_from: 
+
 ---
 
 ### Google Play

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "DigiDinar"
+title: DigiDinar
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.application.digidinar
 appCountry: 
 released: 
 updated: 2021-03-02
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

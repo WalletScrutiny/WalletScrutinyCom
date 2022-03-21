@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Exchangernet"
+title: Exchangernet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.exchangernet
 appCountry: 
 released: 2021-02-21
 updated: 2021-02-22
-version: "1.0"
+version: '1.0'
 stars: 4.0833335
 ratings: 70
 reviews: 6
@@ -23,11 +23,12 @@ meta: stale
 verdict: nowallet
 date: 2022-02-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

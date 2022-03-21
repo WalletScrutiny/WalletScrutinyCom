@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "AllToken : Bitcoin,Ethereum,Blockchain Wallet"
+title: 'AllToken : Bitcoin,Ethereum,Blockchain Wallet'
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: im.token.app99
 appCountry: 
 released: 2020-05-09
 updated: 2021-05-07
-version: "2.9.6"
+version: 2.9.6
 stars: 4.8
 ratings: 98
 reviews: 4
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-31**: This app is not in store anymore.

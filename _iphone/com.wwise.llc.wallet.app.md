@@ -1,6 +1,6 @@
 ---
 wsId: WiseWinWallet
-title: "WIN WALLET"
+title: WIN WALLET
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: fi
 idd: 1539004997
 released: 2020-11-09
 updated: 2021-07-04
-version: "2.6.4"
+version: 2.6.4
 stars: 
 reviews: 
 size: 91015168
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: hagglex
-title: "HaggleX: Buy/Sell BTC and ETH"
+title: 'HaggleX: Buy/Sell BTC and ETH'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hagglex.hagglex
 appCountry: us
 released: 2021-03-17
 updated: 2021-11-26
-version: "1.1.2"
+version: 1.1.2
 stars: 4.3773584
 ratings: 2775
 reviews: 90
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: hagglexintl
 social:
 - https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
-redirect_from:
+redirect_from: 
+
 ---
 
 The app has a short Play Store description:

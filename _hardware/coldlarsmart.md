@@ -1,5 +1,5 @@
 ---
-title: "ColdLar Smart"
+title: ColdLar Smart
 appId: coldlarsmart
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "ColdLar Information Technology Co."
+provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
 website: https://www.coldlar.com/Smart
 shop: 
@@ -27,5 +27,6 @@ signer:
 reviewArchive: 
 twitter: Coldlar
 social: 
+
 ---
 

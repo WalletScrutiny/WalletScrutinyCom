@@ -1,6 +1,6 @@
 ---
 wsId: buda
-title: "Buda"
+title: Buda
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ appId: com.buda.crypto
 appCountry: 
 idd: 1321460860
 released: 2018-01-04
-updated: 2022-01-27
-version: "2.0.17"
+updated: 2022-03-15
+version: 2.0.20
 stars: 5
 reviews: 3
-size: 71681024
-website: 
+size: '71685120'
+website: ''
 repository: 
 issue: 
 icon: com.buda.crypto.jpg
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2022-01-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom
 - https://www.facebook.com/BudaPuntoCom
+
 ---
 
 This app has very poor ratings on Google (2.5 stars) and Apple (3.5 stars),

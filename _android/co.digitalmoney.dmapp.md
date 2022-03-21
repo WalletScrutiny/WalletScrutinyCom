@@ -1,6 +1,6 @@
 ---
 wsId: DigitalMoney
-title: "Digital Money - Buy/Send/Recieve Crypto."
+title: Digital Money - Buy/Send/Recieve Crypto.
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.digitalmoney.dmapp
 appCountry: us
 released: 2021-02-12
 updated: 2022-02-15
-version: "1.4.9"
+version: 1.4.9
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

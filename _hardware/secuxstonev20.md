@@ -1,5 +1,5 @@
 ---
-title: "SecuX STONE V20"
+title: SecuX STONE V20
 appId: secuxstonev20
 authors:
 - kiwilamb
@@ -10,12 +10,17 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [98, 98, 15]
+dimensions:
+- 98
+- 98
+- 15
 weight: 120
-provider: "SecuX Technology Inc."
+provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
-shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
+website: >-
+  https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
+shop: >-
+  https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
@@ -28,9 +33,10 @@ date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
-social: 
+social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
+
 ---
 
 ## Private keys can be created offline and are not sharedser

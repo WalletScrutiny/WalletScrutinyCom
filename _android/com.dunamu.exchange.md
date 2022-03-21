@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소"
+title: 업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000000
 appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
-updated: 2022-01-20
-version: "1.15.9p3"
-stars: 3.5277777
+updated: 2022-03-17
+version: 1.16.0p1
+stars: 3.5675676
 ratings: 29440
 reviews: 13
-size: 65M
+size: 68M
 website: https://upbit.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: upbitglobal
 social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
-redirect_from:
+redirect_from: 
+
 ---
 
 There are two versions of this app: one for Korea and one that's global. 

@@ -1,6 +1,6 @@
 ---
 wsId: mercurycash
-title: "Mercury Cash"
+title: Mercury Cash
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.adenter.mercurycash
 appCountry: 
 released: 2017-07-28
 updated: 2022-03-02
-version: "4.4"
+version: '4.4'
 stars: 4.189189
 ratings: 228
 reviews: 16
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2020-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mercurycash
 social:
 - https://www.facebook.com/mercurycash
 redirect_from:
-  - /com.adenter.mercurycash/
+- /com.adenter.mercurycash/
+
 ---
 
 This app makes no claims about self-custody so we have to assume it is a

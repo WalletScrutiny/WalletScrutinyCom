@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "유니익스체인지, UNIEXCHANGE"
+title: 유니익스체인지, UNIEXCHANGE
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.uni.uniexchange
 appCountry: 
 released: 2018-06-06
 updated: 2019-02-14
-version: "5.3.5"
+version: 5.3.5
 stars: 3.9
 ratings: 11
 reviews: 7
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-21**: This app is no more.

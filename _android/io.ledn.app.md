@@ -1,6 +1,6 @@
 ---
 wsId: Ledn
-title: "Ledn"
+title: Ledn
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.ledn.app
 appCountry: us
 released: 2021-01-04
 updated: 2022-02-24
-version: "0.3.0"
+version: 0.3.0
 stars: 2.6363637
 ratings: 71
 reviews: 8
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: hodlwithLedn
 social:
 - https://www.linkedin.com/company/ledn-inc
 - https://www.facebook.com/Ledn.io
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

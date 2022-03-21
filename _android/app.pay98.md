@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Pay98"
+title: Pay98
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: app.pay98
 appCountry: 
 released: 2018-05-31
 updated: 2021-07-16
-version: "2.0.2"
+version: 2.0.2
 stars: 4.589147
 ratings: 15329
 reviews: 541
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Iranian third party payment website

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "VisionWallet — Crypto & Bitcoin Wallet"
+title: VisionWallet — Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.visionwallet.app
 appCountry: 
 released: 2020-09-07
 updated: 2020-11-05
-version: "1.3.2"
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: custodial
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.visionwallet.app/
+- /com.visionwallet.app/
+
 ---
 
 > Passive funds accumulation (interest on the account balance)

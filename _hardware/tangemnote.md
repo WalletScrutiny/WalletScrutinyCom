@@ -1,16 +1,19 @@
 ---
-title: "Tangem Note"
+title: Tangem Note
 appId: tangemnote
 authors:
 - danny
 released: 2020-03-25
 discontinued: 
 updated: 
-version: "3.28"
+version: '3.28'
 binaries: https://github.com/tangem/tangem-binaries
-dimensions: [85.6, 54, 0.6]
+dimensions:
+- 85.6
+- 54
+- 0.6
 weight: 3
-provider: "Tangem AG"
+provider: Tangem AG
 providerWebsite: https://tangem.com/
 website: 
 shop: https://shop.tangem.com/products/tangem-note
@@ -26,11 +29,12 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: Tangem
-social: 
+social:
 - https://www.linkedin.com/company/tangem/
 - https://www.youtube.com/channel/UCFGwLS7yggzVkP6ozte0m1w/featured
 - https://t.me/tangemcash
 - https://github.com/tangem
+
 ---
 
 ## Product Description 

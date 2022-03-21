@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "INX - Crypto Trading"
+title: INX - Crypto Trading
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.crypto.trader
 appCountry: 
 released: 2021-09-29
 updated: 2021-09-29
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-07**: This app is not available anymore.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trade Crypto"
+title: Trade Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.app.tradecrypto
 appCountry: 
 released: 2021-06-26
 updated: 2021-08-03
-version: "1.0.6"
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

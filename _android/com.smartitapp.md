@@ -1,6 +1,6 @@
 ---
 wsId: SmartIT
-title: "Smart IT | Bitcoin Hosting"
+title: Smart IT | Bitcoin Hosting
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.smartitapp
 appCountry: us
 released: 2020-09-25
 updated: 2021-12-13
-version: "1.0.5"
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

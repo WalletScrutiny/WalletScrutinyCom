@@ -1,6 +1,6 @@
 ---
 wsId: Jeroid
-title: "Jeroid"
+title: Jeroid
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1539278280
 released: 2021-02-27
 updated: 2021-10-14
-version: "1.3.5"
+version: 1.3.5
 stars: 2.71698
 reviews: 106
 size: 72709120
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jeroidng
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Blockchain: Crypto Wallet"
+title: 'Bitcoin Blockchain: Crypto Wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitcoinblockchain.suyd
 appCountry: 
 released: 2021-02-10
 updated: 2021-03-06
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-03-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

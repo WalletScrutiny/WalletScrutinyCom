@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "PlayWallet"
+title: PlayWallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.gamehub.playwallet2
 appCountry: 
 released: 2020-02-19
 updated: 2020-04-08
-version: "2.0.6"
+version: 2.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

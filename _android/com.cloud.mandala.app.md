@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Mandala Exchange"
+title: Mandala Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.cloud.mandala.app
 appCountry: 
 released: 2021-07-13
 updated: 2021-07-19
-version: "1.0.2"
+version: 1.0.2
 stars: 4.8
 ratings: 18
 reviews: 9
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-08-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-05**: This app is not anymore.

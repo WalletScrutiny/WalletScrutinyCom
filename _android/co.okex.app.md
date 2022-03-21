@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "اوکی اکسچنج، خرید بیت کوین و ارز دیجیتال"
+title: اوکی اکسچنج، خرید بیت کوین و ارز دیجیتال
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: co.okex.app
 appCountry: 
 released: 2019-09-11
 updated: 2022-03-02
-version: "6.2.0"
-stars: 3.85
+version: 6.2.0
+stars: 3.81
 ratings: 7353
 reviews: 157
 size: 8.8M
@@ -25,14 +25,15 @@ date: 2021-10-01
 signer: 
 reviewArchive:
 - date: 2020-11-16
-  version: ""
+  version: ''
   appHash: 
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
 twitter: 
-social:
+social: 
 redirect_from:
-  - /co.okex.app/
+- /co.okex.app/
+
 ---
 
 **Update:** This app appears to have disappeared from Google Play or maybe only

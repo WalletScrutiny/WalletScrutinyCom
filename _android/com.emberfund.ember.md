@@ -1,6 +1,6 @@
 ---
 wsId: ember
-title: "Ember Fund Invest in Crypto"
+title: Ember Fund Invest in Crypto
 altTitle: 
 authors:
 - danny
@@ -9,11 +9,11 @@ appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
 updated: 2022-03-15
-version: "10.12"
-stars: 3.6336634
+version: '10.14'
+stars: 3.8910892
 ratings: 1026
-reviews: 168
-size: 60M
+reviews: 188
+size: 72M
 website: https://www.emberfund.io/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Ember_Fund
 social:
 - https://github.com/ember-fund
-redirect_from:
+redirect_from: 
+
 ---
 
 From its Google Play description:

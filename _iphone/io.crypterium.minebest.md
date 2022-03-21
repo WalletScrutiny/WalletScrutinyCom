@@ -1,6 +1,6 @@
 ---
 wsId: Dreambit
-title: "Dreambit App"
+title: Dreambit App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: lv
 idd: 1515134261
 released: 2021-02-25
 updated: 2021-07-27
-version: "1.0.2"
+version: 1.0.2
 stars: 
 reviews: 
 size: 210077696
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

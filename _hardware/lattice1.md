@@ -1,5 +1,5 @@
 ---
-title: "Lattice1"
+title: Lattice1
 appId: lattice1
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Grid Plus"
+provider: Grid Plus
 providerWebsite: https://gridplus.io
 website: https://gridplus.io/products/grid-lattice1
 shop: https://gridplus.io/products/grid-lattice1
@@ -28,6 +28,7 @@ signer:
 reviewArchive: 
 twitter: gridplus
 social: 
+
 ---
 
 Lattice devices can work in conjunction with the providers safecards, safecards store private keys offline from the lattice device.

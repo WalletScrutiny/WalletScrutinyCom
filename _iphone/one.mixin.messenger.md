@@ -1,6 +1,6 @@
 ---
 wsId: Mixin
-title: "Mixin Messenger"
+title: Mixin Messenger
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ appCountry: us
 idd: 1322324266
 released: 2018-01-20
 updated: 2022-03-04
-version: "0.35.2"
+version: 0.35.2
 stars: 4.79699
 reviews: 266
 size: 66436096
@@ -24,11 +24,12 @@ meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MixinMessenger
 social:
 - https://www.facebook.com/MixinNetwork
 - https://www.reddit.com/r/mixin
+
 ---
 
 {% include copyFromAndroid.html %}

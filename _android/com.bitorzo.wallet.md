@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin Wallet"
-altTitle: "Bitcoin Wallet by Bitorzo.com"
+title: Bitcoin Wallet
+altTitle: Bitcoin Wallet by Bitorzo.com
 authors:
 - leo
 - emanuel
@@ -10,7 +10,7 @@ appId: com.bitorzo.wallet
 appCountry: 
 released: 2020-07-22
 updated: 2021-01-03
-version: "3.1.3"
+version: 3.1.3
 stars: 3.5
 ratings: 28
 reviews: 7
@@ -24,10 +24,11 @@ meta: stale
 verdict: ftbfs
 date: 2021-12-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is self-custodial:

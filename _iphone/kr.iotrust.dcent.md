@@ -1,6 +1,6 @@
 ---
 wsId: dCent
-title: "D’CENT Wallet"
+title: D’CENT Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: kr
 idd: 1447206611
 released: 2019-01-26
 updated: 2022-02-22
-version: "5.13.1"
+version: 5.13.1
 stars: 4.02083
 reviews: 48
 size: 44702720
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
+
 ---
 
 {% include copyFromAndroid.html %}

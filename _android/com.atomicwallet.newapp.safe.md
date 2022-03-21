@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Crypto Wallet & Atomic swap DEX"
-altTitle: "(Fake) Crypto Wallet & Atomic swap DEX"
+title: Crypto Wallet & Atomic swap DEX
+altTitle: (Fake) Crypto Wallet & Atomic swap DEX
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: com.atomicwallet.newapp.safe
 appCountry: 
 released: 2021-06-14
 updated: 2021-06-14
-version: "1.5.2"
+version: 1.5.2
 stars: 2.4
 ratings: 7
 reviews: 6
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-07-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-07-30**: This app is not on Play Store anymore.

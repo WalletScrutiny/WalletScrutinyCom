@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Capricoin Copay"
+title: Capricoin Copay
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: org.capricoin.copay
 appCountry: 
 released: 2020-05-14
 updated: 2020-07-06
-version: "5.5.5"
+version: 5.5.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

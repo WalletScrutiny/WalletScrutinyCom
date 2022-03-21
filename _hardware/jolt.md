@@ -1,5 +1,5 @@
 ---
-title: "Jolt Wallet"
+title: Jolt Wallet
 appId: jolt
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: JoltWallet
 social: 
+
 ---
 
 - The homepage for this device joltwallet.com, is no longer online. A cached copy dated June 2018 could be found via Web [Archive](https://web.archive.org/web/20180601221232/https://www.joltwallet.com/). 

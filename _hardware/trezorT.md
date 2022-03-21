@@ -1,14 +1,17 @@
 ---
-title: "Trezor Model T"
+title: Trezor Model T
 appId: trezorT
 authors:
 - leo
 released: 2018-03-01
 discontinued: 
 updated: 2021-12-07
-version: "2.4.3"
+version: 2.4.3
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
-dimensions: [64, 39, 10]
+dimensions:
+- 64
+- 39
+- 10
 weight: 22
 provider: 
 providerWebsite: 
@@ -24,21 +27,22 @@ meta: ok
 verdict: reproducible
 date: 2022-01-10
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-10-16
-  version: "2.4.2"
+  version: 2.4.2
   appHash: 1fa3d062251685dc8bebd0b15ed622441ca3778281a652d601548ed29287e29d
   gitRevision: 8d95977073353d5addee069f2003f3974cd50595
   verdict: reproducible
 - date: 2021-07-18
-  version: "2.3.6"
+  version: 2.3.6
   appHash: 0efa3ba6135caea7693d145d60441eeb46283fe0b8b1fd59a04af33a638ad237
   gitRevision: 3c395a639e29e6fa51468e559fc1e88d6b9f0516
   verdict: reproducible
 twitter: trezor
-social: 
+social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
+
 ---
 
 After manually testing prior versions, we now wrote a 

@@ -1,6 +1,6 @@
 ---
 wsId: cointiger
-title: "CoinTiger-Crypto Exchange"
+title: CoinTiger-Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1366562802
 released: 2018-10-27
 updated: 2020-06-23
-version: "5.0.6"
+version: 5.0.6
 stars: 2.69792
 reviews: 96
 size: 152541184
@@ -22,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinTigerEX
 social:
 - https://www.facebook.com/CoinTigerEX
 - https://www.reddit.com/r/CoinTigerExchange
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

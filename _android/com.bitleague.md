@@ -1,6 +1,6 @@
 ---
 wsId: BitLeague
-title: "BitLeague"
+title: BitLeague
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitleague
 appCountry: us
 released: 2019-05-06
 updated: 2021-05-14
-version: "2.15.2"
+version: 2.15.2
 stars: 4.5840707
 ratings: 246
 reviews: 139
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

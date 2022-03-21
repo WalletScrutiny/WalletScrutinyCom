@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: "Bit2Me: BTC and +100 coins"
+title: 'Bit2Me: BTC and +100 coins'
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
 updated: 2022-03-11
-version: "2.2.8"
-stars: 4.4018693
+version: 2.2.8
+stars: 4.4074073
 ratings: 5162
 reviews: 318
 size: 59M
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bit2me
 social:
 - https://www.linkedin.com/company/bit2me
 - https://www.facebook.com/bit2me
 redirect_from:
-  - /com.phonegap.bit2me/
-  - /posts/com.phonegap.bit2me/
+- /com.phonegap.bit2me/
+- /posts/com.phonegap.bit2me/
+
 ---
 
 This appears to be the interface for an exchange. We could not find any claims

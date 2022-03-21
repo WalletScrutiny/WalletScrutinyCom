@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Lightning: Testnet Wallet"
+title: 'Lightning: Testnet Wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: engineering.lightning.LightningApp
 appCountry: 
 released: 2019-06-18
 updated: 2020-02-07
-version: "0.2.6"
+version: 0.2.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-01-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

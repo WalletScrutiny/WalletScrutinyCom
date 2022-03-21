@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Claimers Multi Coins :: Bitcoin Ethereum Altcoins"
+title: 'Claimers Multi Coins :: Bitcoin Ethereum Altcoins'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.claimersmulticoins
 appCountry: 
 released: 2020-01-29
 updated: 2021-07-08
-version: "3.2"
+version: '3.2'
 stars: 4.6511626
 ratings: 310
 reviews: 19
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Jackbot - AI Crypto Trading"
+title: Jackbot - AI Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: app.jackbot
 appCountry: 
 released: 2021-01-05
 updated: 2022-02-08
-version: "4.2.0"
+version: 4.2.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

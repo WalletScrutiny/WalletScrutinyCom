@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Биткоин-обменник – NiceChange"
+title: Биткоин-обменник – NiceChange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.xchange.nicechange
 appCountry: 
 released: 2021-05-25
 updated: 2021-05-25
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Multichange – купить Bitcoin и продать за рубли"
+title: Multichange – купить Bitcoin и продать за рубли
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.mchange.multichange
 appCountry: 
 released: 2020-08-10
 updated: 2020-08-10
-version: "1.0"
+version: '1.0'
 stars: 3.9
 ratings: 10
 reviews: 5
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

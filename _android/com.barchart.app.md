@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Barchart Stocks & Futures"
+title: Barchart Stocks & Futures
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.barchart.app
 appCountry: 
 released: 2013-11-18
 updated: 2022-02-01
-version: "3.0.7"
-stars: 4.663498
+version: 3.0.7
+stars: 4.659735
 ratings: 9788
 reviews: 2029
 size: 12M
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Barchart
 social:
 - https://www.linkedin.com/company/barchart.com-inc.
 - https://www.facebook.com/Barchart
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

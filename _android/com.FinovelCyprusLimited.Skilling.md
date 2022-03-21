@@ -1,6 +1,6 @@
 ---
 wsId: Skilling
-title: "Skilling: Trade Forex & Stocks"
+title: 'Skilling: Trade Forex & Stocks'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 released: 2020-05-05
 updated: 2022-02-03
-version: "1.0.37"
+version: 1.0.37
 stars: 4.0666666
 ratings: 172
 reviews: 4
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SkillingTrading
 social:
 - https://www.linkedin.com/company/skilling
 - https://www.facebook.com/SkillingTrading
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

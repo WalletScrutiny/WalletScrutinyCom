@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Circuit App - New Bitcoin Trading System"
+title: Bitcoin Circuit App - New Bitcoin Trading System
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.nbl.bitcoincircuitapp
 appCountry: 
 released: 
 updated: 2021-02-27
-version: "1.0.0"
+version: 1.0.0
 stars: 3.4
 ratings: 28
 reviews: 25
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-12**: This app is not on the Play Store anymore

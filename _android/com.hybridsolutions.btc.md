@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BTC VertexFX Trader"
+title: BTC VertexFX Trader
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hybridsolutions.btc
 appCountry: 
 released: 2020-08-24
 updated: 2021-12-15
-version: "1.2.1.10"
+version: 1.2.1.10
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VertexFXTrader
 social:
 - https://www.linkedin.com/company/hybrid-solutions-hs-
 - https://www.facebook.com/VertexFXTrader
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

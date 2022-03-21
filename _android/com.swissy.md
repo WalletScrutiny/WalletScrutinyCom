@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Swissy"
+title: Swissy
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.swissy
 appCountry: 
 released: 2020-09-01
 updated: 2021-01-27
-version: "3.3"
+version: '3.3'
 stars: 4.2
 ratings: 25
 reviews: 9
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "InvestXE.com  - Live Bitcoin Asset Trading"
+title: InvestXE.com  - Live Bitcoin Asset Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pandats.investxe
 appCountry: 
 released: 2020-12-09
 updated: 2021-06-10
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

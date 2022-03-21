@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HIVE : Crypto Forecast AI - Trading Bot - Bitcoin"
+title: 'HIVE : Crypto Forecast AI - Trading Bot - Bitcoin'
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.digitalstorm.HIVE
 appCountry: 
 released: 2021-06-12
 updated: 2022-01-08
-version: "1.9.0"
+version: 1.9.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

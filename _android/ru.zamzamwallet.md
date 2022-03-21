@@ -1,6 +1,6 @@
 ---
 wsId: ZamZam
-title: "Zamzam - money transfers"
+title: Zamzam - money transfers
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: ru.zamzamwallet
 appCountry: ru
 released: 2020-06-26
 updated: 2022-03-01
-version: "2.7.11"
-stars: 3.97
+version: 2.7.11
+stars: 3.940594
 ratings: 139
-reviews: 87
+reviews: 88
 size: 20M
 website: https://zam.me/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

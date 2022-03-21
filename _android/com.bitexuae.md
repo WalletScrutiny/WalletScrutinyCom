@@ -1,6 +1,6 @@
 ---
 wsId: Bitex
-title: "Bitex - Crypto Exchange"
+title: Bitex - Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitexuae
 appCountry: ae
 released: 2020-02-23
 updated: 2022-02-12
-version: "3.1"
+version: '3.1'
 stars: 1.7142857
 ratings: 128
 reviews: 13
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide
 - https://www.facebook.com/Bitexofficial
-redirect_from:
+redirect_from: 
+
 ---
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 

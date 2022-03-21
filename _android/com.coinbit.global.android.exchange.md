@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)"
+title: 코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinbit.global.android.exchange
 appCountry: 
 released: 2019-08-12
 updated: 2021-05-11
-version: "2.4.03"
+version: 2.4.03
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is a Korea based centralized cryptocurrency exchange

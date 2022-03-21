@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "FCoin"
+title: FCoin
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.fcoin.exchange
 appCountry: 
 released: 2018-07-13
 updated: 2020-01-19
-version: "1.14.1"
+version: 1.14.1
 stars: 4.2727275
 ratings: 91
 reviews: 8
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-01-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

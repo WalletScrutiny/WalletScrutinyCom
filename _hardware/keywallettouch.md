@@ -1,5 +1,5 @@
 ---
-title: "KeyWallet Touch"
+title: KeyWallet Touch
 appId: keywallettouch
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The [provider's website](http://www.keywallet.co.kr) is inaccessible and we considered it defunct.

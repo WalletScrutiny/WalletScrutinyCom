@@ -1,6 +1,6 @@
 ---
 wsId: Paritex
-title: "Paritex Exchange"
+title: Paritex Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.paritex.paritex_exchange_mobile
 appCountry: tr
 released: 2021-03-21
-updated: 2022-03-12
-version: "2.3.1"
+updated: 2022-03-19
+version: 2.3.7
 stars: 4.247619
 ratings: 272
-reviews: 99
+reviews: 100
 size: 17M
 website: https://paritex.com/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paritexexchange
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

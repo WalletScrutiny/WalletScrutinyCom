@@ -1,5 +1,5 @@
 ---
-title: "BlochsTech card"
+title: BlochsTech card
 appId: blochstech
 authors:
 - kiwilamb
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 1]
+dimensions:
+- 54
+- 85
+- 1
 weight: 
-provider: "BlochsTech"
+provider: BlochsTech
 providerWebsite: http://www.blochstech.com
 website: http://www.blochstech.com/
 shop: http://www.blochstech.com/
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide

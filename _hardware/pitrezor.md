@@ -1,5 +1,5 @@
 ---
-title: "Pitrezor"
+title: Pitrezor
 appId: pitrezor
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 Rather than selling a product, this site appears to be a guide on how to make a hardware wallet using a raspberry pi and a fork from the {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %} firmware.

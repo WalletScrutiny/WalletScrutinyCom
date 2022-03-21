@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "FX Wallet"
+title: FX Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fxwallet
 appCountry: 
 released: 2021-03-26
 updated: 2021-09-30
-version: "5.0"
+version: '5.0'
 stars: 2.6
 ratings: 523
 reviews: 17
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: fxwallet
 social:
 - https://www.facebook.com/Fxwallet.info
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-02-09**: This app is no more.

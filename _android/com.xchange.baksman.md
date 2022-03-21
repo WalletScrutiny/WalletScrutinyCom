@@ -1,6 +1,6 @@
 ---
 wsId: Baksman
-title: "Baksman – купить Биткоин"
+title: Baksman – купить Биткоин
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.xchange.baksman
 appCountry: ru
 released: 2020-02-03
 updated: 2021-05-14
-version: "3.0.1"
+version: 3.0.1
 stars: 4.3095236
 ratings: 60
 reviews: 25
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/baksmancom
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

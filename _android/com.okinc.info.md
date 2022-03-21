@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "OKEx Information"
+title: OKEx Information
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.okinc.info
 appCountry: 
 released: 2020-05-25
 updated: 2020-07-05
-version: "1.9.18"
+version: 1.9.18
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

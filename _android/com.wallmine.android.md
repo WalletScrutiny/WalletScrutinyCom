@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "wallmine: Stock Market Investing & Bitcoin"
+title: 'wallmine: Stock Market Investing & Bitcoin'
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.wallmine.android
 appCountry: 
 released: 2019-11-21
 updated: 2020-07-29
-version: "1.1.10"
+version: 1.1.10
 stars: 3.8235295
 ratings: 66
 reviews: 9
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: eXchangily
-title: "eXchangily DEX Bitcoin Wallet & Crypto Wallet"
+title: eXchangily DEX Bitcoin Wallet & Crypto Wallet
 altTitle: 
 authors:
 - emanuel
@@ -9,8 +9,8 @@ users: 1000
 appId: com.exchangily.wallet
 appCountry: 
 released: 2020-02-05
-updated: 2022-03-06
-version: "2.1.45"
+updated: 2022-03-20
+version: 2.1.46
 stars: 4
 ratings: 32
 reviews: 5
@@ -24,11 +24,12 @@ meta: ok
 verdict: ftbfs
 date: 2021-04-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ExchangilyC
 social:
 - https://www.facebook.com/Exchangily-439040053240813
-redirect_from:
+redirect_from: 
+
 ---
 
 This app is a self-custodial Bitcoin wallet:

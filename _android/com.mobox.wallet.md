@@ -1,6 +1,6 @@
 ---
 wsId: MOBOX
-title: "MOBOX"
+title: MOBOX
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.mobox.wallet
 appCountry: us
 released: 2021-02-02
 updated: 2022-03-02
-version: "1.3.9"
-stars: 4
+version: 1.3.9
+stars: 4.14
 ratings: 2457
-reviews: 51
+reviews: 55
 size: 29M
 website: https://mobox.io/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MOBOX_Official
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

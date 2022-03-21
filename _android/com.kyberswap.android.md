@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "KyberSwap: Buy, Trade, Transfer Cryptocurrencies"
+title: 'KyberSwap: Buy, Trade, Transfer Cryptocurrencies'
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.kyberswap.android
 appCountry: 
 released: 2019-08-14
 updated: 2021-07-21
-version: "1.1.37"
+version: 1.1.37
 stars: 4.2
 ratings: 1810
 reviews: 871
@@ -23,11 +22,12 @@ meta: defunct
 verdict: nobtc
 date: 2021-08-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KyberSwap
-social:
+social: 
 redirect_from:
-  - /com.kyberswap.android/
+- /com.kyberswap.android/
+
 ---
 
 **Update 2021-08-17**: This app is not the the Play Store anymore

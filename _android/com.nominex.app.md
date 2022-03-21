@@ -1,6 +1,6 @@
 ---
 wsId: Nominex
-title: "Nominex: Cryptocurrency trading without commission"
+title: 'Nominex: Cryptocurrency trading without commission'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nominex.app
 appCountry: ru
 released: 2021-06-01
 updated: 2021-12-13
-version: "1.4.0"
+version: 1.4.0
 stars: 4.0731707
 ratings: 173
 reviews: 29
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NominexExchange
 social:
 - https://www.linkedin.com/company/nominex
 - https://www.facebook.com/Nominex
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

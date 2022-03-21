@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitDATA Pro - Buy & Sell BTC"
+title: BitDATA Pro - Buy & Sell BTC
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.qm.bitdata.pro
 appCountry: 
 released: 2019-05-21
 updated: 2022-03-11
-version: "3.2.2"
+version: 3.2.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

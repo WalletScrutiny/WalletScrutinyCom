@@ -1,15 +1,15 @@
 ---
 wsId: Cryptoneed
-title: "Cryptoneed: универсальный криптокошелек и обменник"
+title: 'Cryptoneed: универсальный криптокошелек и обменник'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.silenca.cryptoneed
 appCountry: us
 released: 2020-04-15
 updated: 2021-04-27
-version: "1.0.31"
+version: 1.0.31
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/cryptoneedwallet
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Wallet - MaxWallet"
+title: Bitcoin Wallet - MaxWallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.maxxwallet
 appCountry: 
 released: 2019-03-25
 updated: 2019-06-12
-version: "3.7.3"
+version: 3.7.3
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: obsolete
 verdict: nosource
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.maxxwallet/
+- /com.maxxwallet/
+
 ---
 
 In Google Play we read the right claims:

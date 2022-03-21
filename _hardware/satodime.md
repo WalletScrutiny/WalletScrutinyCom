@@ -1,5 +1,5 @@
 ---
-title: "Satodime"
+title: Satodime
 appId: satodime
 authors:
 - danny
@@ -7,11 +7,14 @@ authors:
 released: 2021-12-06
 discontinued: 
 updated: 2022-02-17
-version: "0.2.0"
+version: 0.2.0
 binaries: 
-dimensions: [85.6, 1, 53.98]
+dimensions:
+- 85.6
+- 1
+- 53.98
 weight: 5
-provider: "Satochip SRL"
+provider: Satochip SRL
 providerWebsite: https://satochip.io
 website: https://satodime.io/
 shop: https://satochip.io/product/satodime-original/
@@ -27,11 +30,12 @@ date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: satochipwallet
-social: 
+social:
 - https://www.linkedin.com/company/satochip
 - https://www.reddit.com/r/satochip
 - https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
 - https://t.me/Satochip
+
 ---
 
 ## Product Description

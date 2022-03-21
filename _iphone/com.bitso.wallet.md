@@ -1,6 +1,6 @@
 ---
 wsId: bitso
-title: "Bitso - Buy bitcoin easily"
+title: Bitso - Buy bitcoin easily
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1292836438
 released: 2018-02-19
 updated: 2022-03-09
-version: "3.5.2"
+version: 3.5.2
 stars: 4.68659
 reviews: 552
 size: 113634304
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitso
 social:
 - https://www.facebook.com/bitsoex
+
 ---
 
 Bitso appears to be an exchange and their statement on security on their website

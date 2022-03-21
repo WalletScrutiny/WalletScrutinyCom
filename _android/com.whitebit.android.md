@@ -1,6 +1,6 @@
 ---
 wsId: whitebit
-title: "WhiteBIT – buy & sell bitcoin"
+title: WhiteBIT – buy & sell bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.whitebit.android
 appCountry: ua
 released: 2019-06-07
-updated: 2022-03-07
-version: "2.5.4"
-stars: 4.5
+updated: 2022-03-19
+version: 2.6.2
+stars: 4.49
 ratings: 1962
-reviews: 68
-size: 28M
+reviews: 70
+size: 27M
 website: https://whitebit.com/
 repository: 
 issue: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: whitebit
 social:
 - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
 - https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
-redirect_from:
+redirect_from: 
+
 ---
 
 This centralized cryptocurrency exchange also has a decentralized exchange. 

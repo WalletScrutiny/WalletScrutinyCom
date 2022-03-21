@@ -1,5 +1,5 @@
 ---
-title: "SatoChip"
+title: SatoChip
 appId: satochip
 authors:
 - kiwilamb
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 1]
+dimensions:
+- 54
+- 85
+- 1
 weight: 10
-provider: "SatoChip"
+provider: SatoChip
 providerWebsite: https://satochip.io
 website: https://satochip.io
 shop: https://satochip.io/shop/
@@ -26,9 +29,10 @@ date: 2021-08-08
 signer: 
 reviewArchive: 
 twitter: satochipwallet
-social: 
+social:
 - https://www.linkedin.com/company/satochip
 - https://github.com/Toporin
+
 ---
 
 This hardware device lacks a screen or a button, this device cannot provide basic security of hardware wallets.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Lucky7"
+title: Lucky7
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: wallet.crypto.lucky7.love
 appCountry: 
 released: 2019-10-30
 updated: 2019-11-07
-version: "1.2"
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

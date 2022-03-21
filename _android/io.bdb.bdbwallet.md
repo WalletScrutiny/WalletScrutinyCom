@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BDB Hyperchain MultiWallet"
+title: BDB Hyperchain MultiWallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: io.bdb.bdbwallet
 appCountry: 
 released: 2020-11-05
 updated: 2021-02-17
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: bitcoinglobal
-title: "Bitcoin Global: P2P platform"
+title: 'Bitcoin Global: P2P platform'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitcoinglobal
 appCountry: us
 released: 2020-09-25
 updated: 2022-01-31
-version: "2.11.0"
+version: 2.11.0
 stars: 2.8333333
 ratings: 91
 reviews: 3
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitcoinGlobalEx
 social:
 - https://www.facebook.com/BitcoinGlobalEx
 - https://www.reddit.com/r/BITCOIN_GLOBAL
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

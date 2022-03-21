@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PlantCoin - Earns bitcoin app"
+title: PlantCoin - Earns bitcoin app
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.zb.zhongbi
 appCountry: 
 released: 2020-08-24
 updated: 2021-03-05
-version: "1.1.4"
+version: 1.1.4
 stars: 4.7
 ratings: 104
 reviews: 100
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

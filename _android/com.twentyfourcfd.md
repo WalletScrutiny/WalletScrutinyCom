@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "24CFD - Online Trading Platform"
+title: 24CFD - Online Trading Platform
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.twentyfourcfd
 appCountry: 
 released: 2019-09-25
 updated: 2019-09-25
-version: "1.0.14"
+version: 1.0.14
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

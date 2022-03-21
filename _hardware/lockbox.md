@@ -1,5 +1,5 @@
 ---
-title: "LockBox"
+title: LockBox
 appId: lockbox
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [17.4, 57, 9.1]
+dimensions:
+- 17.4
+- 57
+- 9.1
 weight: 16.2
-provider: "Blockchain"
+provider: Blockchain
 providerWebsite: https://www.blockchain.com/
 website: https://www.blockchain.com/
 shop: https://www.blockchain.com/
@@ -27,9 +30,10 @@ date: 2021-09-01
 signer: 
 reviewArchive: 
 twitter: blockchain
-social: 
+social:
 - https://www.linkedin.com/company/blockchain
 - https://www.facebook.com/blockchain
+
 ---
 
 This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.

@@ -1,6 +1,6 @@
 ---
 wsId: GenesisVision
-title: "Genesis Vision"
+title: Genesis Vision
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1369865290
 released: 2018-04-23
 updated: 2022-01-25
-version: "2.2.4"
+version: 2.2.4
 stars: 4.85417
 reviews: 144
 size: 47485952
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: genesis_vision
 social:
 - https://www.linkedin.com/company/genesis-vision
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
+
 ---
 
 {% include copyFromAndroid.html %}

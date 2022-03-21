@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Invest India"
+title: Crypto Invest India
 altTitle: 
-authors:
-
+authors: 
 users: 1
 appId: net.bitcoinforall.crypto.invest.india
 appCountry: 
 released: 2021-06-17
 updated: 2021-06-17
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

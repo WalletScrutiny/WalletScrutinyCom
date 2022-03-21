@@ -1,6 +1,6 @@
 ---
 wsId: Raido
-title: "Raido - crypto wallet"
+title: Raido - crypto wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1536567791
 released: 2020-10-28
 updated: 2022-01-24
-version: "2.9"
+version: '2.9'
 stars: 
 reviews: 
 size: 28215296
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: financialraido
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

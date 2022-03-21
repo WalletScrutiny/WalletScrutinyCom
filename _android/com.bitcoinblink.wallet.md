@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitcoinBlink"
+title: BitcoinBlink
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitcoinblink.wallet
 appCountry: 
 released: 2020-02-26
 updated: 2020-11-01
-version: "1.9"
+version: '1.9'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-10-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

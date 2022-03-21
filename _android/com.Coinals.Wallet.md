@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coinals:Wallet"
+title: Coinals:Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.Coinals.Wallet
 appCountry: 
 released: 2021-04-23
 updated: 2021-04-23
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

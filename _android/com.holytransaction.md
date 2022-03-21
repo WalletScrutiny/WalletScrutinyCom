@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HolyTransaction - Crypto Wallet"
+title: HolyTransaction - Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.holytransaction
 appCountry: 
 released: 2021-03-25
 updated: 2021-03-25
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.holytransaction.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-04-13
+date: 2022-03-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: Haven
-title: "Haven - Private Shopping"
+title: Haven - Private Shopping
 altTitle: 
-authors:
-
+authors: 
 appId: io.ob1.native-ios
 appCountry: 
 idd: 1318395690
 released: 2019-08-19
 updated: 2020-09-28
-version: "1.3.8"
+version: 1.3.8
 stars: 4.57979
 reviews: 188
 size: 82487296
@@ -22,10 +21,11 @@ meta: defunct
 verdict: nonverifiable
 date: 2021-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HavenPrivacy
 social:
 - https://www.reddit.com/r/havenapp
+
 ---
 
 **Update:** As of now, this app is not to be found on the App Store.

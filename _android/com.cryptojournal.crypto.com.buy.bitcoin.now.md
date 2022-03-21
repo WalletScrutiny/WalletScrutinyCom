@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Crypto.com - Buy Bitcoin Now"
-altTitle: "(Fake) Crypto.com - Buy Bitcoin Now"
+title: Crypto.com - Buy Bitcoin Now
+altTitle: (Fake) Crypto.com - Buy Bitcoin Now
 authors:
 - danny
 users: 500
@@ -9,7 +9,7 @@ appId: com.cryptojournal.crypto.com.buy.bitcoin.now
 appCountry: 
 released: 2021-07-07
 updated: 2021-07-07
-version: "1.0"
+version: '1.0'
 stars: 2.6
 ratings: 5
 reviews: 3
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-09-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-16**: This app is no more.

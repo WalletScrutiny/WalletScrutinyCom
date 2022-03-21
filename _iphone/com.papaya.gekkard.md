@@ -1,6 +1,6 @@
 ---
 wsId: Gekkard
-title: "Gekkard: Prepaid Card & Wallet"
+title: 'Gekkard: Prepaid Card & Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,11 +9,11 @@ appCountry: mt
 idd: 1493274973
 released: 2020-01-30
 updated: 2021-08-19
-version: "1.0.5"
-stars: 
-reviews: 
-size: 193718272
-website: 
+version: 1.0.5
+stars: 0
+reviews: 0
+size: '193718272'
+website: ''
 repository: 
 issue: 
 icon: com.papaya.gekkard.jpg
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/gekkoin.official
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: LVLMoneyApp
-title: "LVL - The Money App"
+title: LVL - The Money App
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: co.lvl.firstapp
 appCountry: us
 released: 2020-06-30
 updated: 2021-09-09
-version: "1.0.5"
-stars: 3.92
+version: 1.0.5
+stars: 3.99
 ratings: 159
 reviews: 59
 size: 66M
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BankWithLVL
 social:
 - https://www.linkedin.com/company/bankwithlvl
 - https://www.facebook.com/BankWithLVL
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

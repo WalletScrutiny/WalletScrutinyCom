@@ -1,6 +1,6 @@
 ---
 wsId: FAMEEX
-title: "FAMEEX: bitcoin, crypto, quant, grid trading"
+title: 'FAMEEX: bitcoin, crypto, quant, grid trading'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
 updated: 2022-02-16
-version: "2.10.1"
-stars: 4.923077
+version: 2.10.1
+stars: 4.918919
 ratings: 1588
 reviews: 10
 size: 45M
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FameexGlobal
 social:
 - https://www.facebook.com/FAMEEXGLOBAL
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

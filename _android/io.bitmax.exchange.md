@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "AscendEX(BitMax)"
+title: AscendEX(BitMax)
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: io.bitmax.exchange
 appCountry: 
 released: 
 updated: 2021-04-25
-version: "2.4.7"
+version: 2.4.7
 stars: 4.2
 ratings: 2788
 reviews: 947
@@ -24,12 +24,13 @@ meta: defunct
 verdict: custodial
 date: 2021-05-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AscendEX_Global
 social:
 - https://www.facebook.com/AscendEXOfficial
 - https://www.reddit.com/r/AscendEX_Official
-redirect_from:
+redirect_from: 
+
 ---
 
 This app apparently was removed in favor of {% include walletLink.html wallet='android/com.ascendex.exchange' %}.

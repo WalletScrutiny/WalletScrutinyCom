@@ -1,5 +1,5 @@
 ---
-title: "Coldcard Mk3"
+title: Coldcard Mk3
 appId: coldcardMk3
 authors:
 - kiwilamb
@@ -7,11 +7,14 @@ authors:
 released: 2018-04-01
 discontinued: 
 updated: 2021-09-02
-version: "v4.1.3"
+version: v4.1.3
 binaries: 
-dimensions: [88, 51, 9]
+dimensions:
+- 88
+- 51
+- 9
 weight: 30
-provider: "Coinkite"
+provider: Coinkite
 providerWebsite: https://coinkite.com/
 website: https://coldcard.com/
 shop: https://store.coinkite.com/store/coldcard
@@ -25,15 +28,16 @@ meta: ok
 verdict: nonverifiable
 date: 2021-09-08
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-08-14
-  version: "v4.1.2"
+  version: v4.1.2
   appHash: d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2
   gitRevision: 13171e8e87bb975be68995fcba6df43318736de4
   verdict: nonverifiable
 twitter: COLDCARDwallet
-social: 
+social:
 - https://t.me/coldcard
+
 ---
 
 **Update 2021-09-07**: The provider answered our mails. Here is the full

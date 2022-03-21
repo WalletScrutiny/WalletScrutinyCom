@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Exchange"
+title: Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: quanterall.com.cryptoexchange
 appCountry: 
 released: 
 updated: 2019-06-18
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

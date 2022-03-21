@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Ionia, Blockchain Financial Platform"
+title: Ionia, Blockchain Financial Platform
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: tech.ionia.app
 appCountry: 
 released: 2018-05-11
 updated: 2019-02-27
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

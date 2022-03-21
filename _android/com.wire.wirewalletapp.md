@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Wire Wallet"
+title: Wire Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.wire.wirewalletapp
 appCountry: 
 released: 2021-04-14
 updated: 2021-04-14
-version: "6.5502.321"
+version: 6.5502.321
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: defunct
 verdict: fewusers
 date: 2021-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

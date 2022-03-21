@@ -1,6 +1,6 @@
 ---
 wsId: bitcointrade
-title: "BitcoinTrade: Criptomoedas"
+title: 'BitcoinTrade: Criptomoedas'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.peertradedigital.bitcointrade
 appCountry: br
 released: 2017-12-01
 updated: 2022-02-04
-version: "3.5.2"
-stars: 3.9555035
+version: 3.5.2
+stars: 3.9652376
 ratings: 8304
-reviews: 4027
+reviews: 4073
 size: 21M
 website: http://www.bitcointrade.com.br
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
-redirect_from:
+redirect_from: 
+
 ---
 
 **This product and the accompanying official website is in Portuguese. The app may not have an English translation.**

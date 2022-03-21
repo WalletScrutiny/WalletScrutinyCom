@@ -1,6 +1,6 @@
 ---
 wsId: LocalBitcoins
-title: "LocalBitcoins"
+title: LocalBitcoins
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.localbitcoins.app.android
 appCountry: us
 released: 2021-09-06
 updated: 2022-03-01
-version: "0.1.49"
-stars: 3.725
+version: 0.1.49
+stars: 3.682927
 ratings: 771
-reviews: 24
+reviews: 25
 size: 6.8M
 website: https://www.localbitcoins.com
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: LocalBitcoins
 social:
 - https://www.linkedin.com/company/localbitcoins
 - https://www.facebook.com/LocalBitcoinsCom
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-10-31**: Localbitcoins now officially

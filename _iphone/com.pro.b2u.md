@@ -1,6 +1,6 @@
 ---
 wsId: bitcointoyou
-title: "Bitcointoyou Pro"
+title: Bitcointoyou Pro
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1489598378
 released: 2019-12-20
 updated: 2021-11-18
-version: "1.83"
+version: '1.83'
 stars: 4.16667
 reviews: 6
 size: 118892544
@@ -22,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitcointoyou
 social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

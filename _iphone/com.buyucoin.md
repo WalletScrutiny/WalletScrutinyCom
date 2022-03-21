@@ -1,6 +1,6 @@
 ---
 wsId: buyucoin
-title: "BuyUcoin"
+title: BuyUcoin
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1539456610
 released: 2020-11-17
 updated: 2022-01-31
-version: "1.18"
+version: '1.18'
 stars: 2
 reviews: 8
-size: 51897344
+size: '51897344'
 website: https://www.buyucoin.com
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: buyucoin
 social:
 - https://www.linkedin.com/company/buyucoin
 - https://www.facebook.com/BuyUcoin
 - https://www.reddit.com/r/BuyUcoin
+
 ---
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average

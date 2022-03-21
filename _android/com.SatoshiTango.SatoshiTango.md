@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: "SatoshiTango"
+title: SatoshiTango
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 released: 2015-06-24
 updated: 2022-03-03
-version: "4.2.17"
+version: 4.2.17
 stars: 3.724138
 ratings: 5466
 reviews: 37
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
 redirect_from:
-  - /com.SatoshiTango.SatoshiTango/
+- /com.SatoshiTango.SatoshiTango/
+
 ---
 
 > Buy and sell BTC, ETH, LTC, XRP and BCH and monitor your balance and

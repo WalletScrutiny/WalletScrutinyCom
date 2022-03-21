@@ -1,6 +1,6 @@
 ---
 wsId: freeda
-title: "Freeda Wallet - Hold Crypto"
+title: Freeda Wallet - Hold Crypto
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.freeda.freedaapp
 appCountry: us
 released: 2021-04-13
 updated: 2022-03-08
-version: "2.1.2"
-stars: 4.8939395
+version: 2.1.2
+stars: 4.8923078
 ratings: 80
-reviews: 51
+reviews: 50
 size: 35M
 website: https://www.freeda.io
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FreedaWallet
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

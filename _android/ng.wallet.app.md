@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: "Wallets Africa - Seamless Digital Transactions"
+title: Wallets Africa - Seamless Digital Transactions
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: ng.wallet.app
 appCountry: 
 released: 2017-06-22
 updated: 2021-09-04
-version: "2.480"
+version: '2.480'
 stars: 3.329897
 ratings: 2049
 reviews: 80
@@ -24,11 +24,12 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
-redirect_from:
+redirect_from: 
+
 ---
 
 **UPDATED 2021-09-01** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

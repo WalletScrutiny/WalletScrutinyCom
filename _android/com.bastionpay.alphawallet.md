@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Alpha Wallet by Ard"
+title: Alpha Wallet by Ard
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bastionpay.alphawallet
 appCountry: 
 released: 2019-05-12
 updated: 2019-09-04
-version: "v2.0.5"
+version: v2.0.5
 stars: 3.8
 ratings: 41
 reviews: 14
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

@@ -1,6 +1,6 @@
 ---
 wsId: ExodusCryptoBitcoinWallet
-title: "Exodus: Crypto Bitcoin Wallet"
+title: 'Exodus: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1414384820
 released: 2019-03-23
 updated: 2022-03-11
-version: "22.3.10"
-stars: 4.57545
-reviews: 16095
-size: 48791552
+version: 22.3.10
+stars: 4.57604
+reviews: 16155
+size: '48791552'
 website: https://exodus.com/mobile
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
+
 ---
 
 Just like {% include walletLink.html wallet='android/exodusmovement.exodus' %} on Android, this app is

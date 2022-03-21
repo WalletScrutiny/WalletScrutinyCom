@@ -1,6 +1,6 @@
 ---
 wsId: FrancExchange
-title: "Franc Exchange"
+title: Franc Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.FrancExchange
 appCountry: us
 released: 2020-12-02
 updated: 2020-12-02
-version: "1.0"
+version: '1.0'
 stars: 2.8
 ratings: 283
 reviews: 162
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **⚠️ Warning ⚠️** 

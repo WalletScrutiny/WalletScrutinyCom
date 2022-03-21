@@ -1,6 +1,6 @@
 ---
 wsId: TokoinTWallet
-title: "My-T Wallet"
+title: My-T Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tokoin.wallet
 appCountry: us
 released: 2019-12-11
 updated: 2022-03-15
-version: "3.2.7"
+version: 3.2.7
 stars: 4.1
 ratings: 576
 reviews: 6
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tokoinindonesia
 social:
 - https://www.facebook.com/tokoinindonesia
 - https://github.com/tokoinofficial
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

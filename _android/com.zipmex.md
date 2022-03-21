@@ -1,6 +1,6 @@
 ---
 wsId: Zipmex
-title: "Zipmex: Buy Bitcoin & Crypto"
+title: 'Zipmex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000000
 appId: com.zipmex
 appCountry: cn
 released: 2020-03-30
-updated: 2022-03-09
-version: "22.2.2.1955696049"
-stars: 4.274387
+updated: 2022-03-16
+version: 22.3.1.1990241036
+stars: 4.272504
 ratings: 17923
-reviews: 10852
-size: 128M
+reviews: 10899
+size: 129M
 website: https://zipmex.co.th/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
-redirect_from:
+redirect_from: 
+
 ---
 
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.

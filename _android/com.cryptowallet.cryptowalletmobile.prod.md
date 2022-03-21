@@ -1,6 +1,6 @@
 ---
 wsId: CWExchangeAndCard
-title: "CryptoWallet | Exchange & Card"
+title: CryptoWallet | Exchange & Card
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cryptowallet.cryptowalletmobile.prod
 appCountry: ee
 released: 2021-03-19
 updated: 2021-11-17
-version: "1.11.10"
+version: 1.11.10
 stars: 3.2
 ratings: 10
 reviews: 7
@@ -23,13 +23,14 @@ meta: defunct
 verdict: wip
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptowalletcom
 social:
 - https://www.linkedin.com/company/cryptowallet-com
 - https://www.facebook.com/cryptowalletcom
 - https://www.reddit.com/r/CryptoWallet_com
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

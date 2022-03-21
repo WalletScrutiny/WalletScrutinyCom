@@ -1,15 +1,14 @@
 ---
 wsId: btcCom
-title: "BTC.com – Bitcoin Wallet"
+title: BTC.com – Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 appId: com.blocktrail.mywallet
 appCountry: 
 idd: 1019614423
 released: 2015-09-08
 updated: 2019-04-13
-version: "4.4.9"
+version: 4.4.9
 stars: 3.9316
 reviews: 424
 size: 38854656
@@ -22,10 +21,11 @@ meta: defunct
 verdict: ftbfs
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btccom_official
 social:
 - https://www.facebook.com/btccom
+
 ---
 
 **Update 2022-02-22**: This app is not available anymore.

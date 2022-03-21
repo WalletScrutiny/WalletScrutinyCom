@@ -1,6 +1,6 @@
 ---
 wsId: CoinCircle
-title: "CoinCircle"
+title: CoinCircle
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.coincircle
 appCountry: us
 released: 2021-04-26
 updated: 2022-02-04
-version: "1.2.24.10222"
-stars: 4.3
+version: 1.2.24.10222
+stars: 4.356436
 ratings: 438
-reviews: 134
+reviews: 135
 size: 127M
 website: https://coincircle.com
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coincircle
 social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

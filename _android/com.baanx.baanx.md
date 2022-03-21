@@ -1,6 +1,6 @@
 ---
 wsId: Baanx
-title: "Baanx"
+title: Baanx
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.baanx.baanx
 appCountry: us
 released: 2019-10-10
 updated: 2021-09-07
-version: "3.1.0"
+version: 3.1.0
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

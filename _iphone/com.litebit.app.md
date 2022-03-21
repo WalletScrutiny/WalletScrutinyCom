@@ -1,6 +1,6 @@
 ---
 wsId: LiteBit
-title: "LiteBit – Buy Bitcoin & crypto"
+title: LiteBit – Buy Bitcoin & crypto
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1448841440
 released: 2019-08-20
 updated: 2022-02-21
-version: "3.3.1"
+version: 3.3.1
 stars: 4
 reviews: 8
-size: 73324544
+size: '73324544'
 website: https://www.litebit.eu/en/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: litebiteu
 social:
 - https://www.linkedin.com/company/litebit
 - https://www.facebook.com/litebiteu
+
 ---
 
 > All you need is a LiteBit account.

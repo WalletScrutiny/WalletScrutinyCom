@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Particl Copay"
+title: Particl Copay
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: io.particl.copay
 appCountry: 
 released: 2017-09-18
 updated: 2020-05-30
-version: "5.5.1"
+version: 5.5.1
 stars: 4.269231
 ratings: 134
 reviews: 16
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "CoinsBank Mobile Wallet"
+title: CoinsBank Mobile Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.CoinsBank.CoinsBank
 appCountry: 
 released: 2016-04-03
 updated: 2020-12-30
-version: "3.5.4"
+version: 3.5.4
 stars: 3.652174
 ratings: 266
 reviews: 10
@@ -23,10 +23,11 @@ meta: stale
 verdict: custodial
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **2021-09-13:** We downloaded the app, but attempting to register a new account resulted in a "service is unavailable" error.

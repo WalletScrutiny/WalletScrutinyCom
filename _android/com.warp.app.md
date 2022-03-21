@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "WARP - Earn Bitcoin and Crypto"
+title: WARP - Earn Bitcoin and Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.warp.app
 appCountry: 
 released: 2021-08-06
 updated: 2022-02-11
-version: "1.2.32"
+version: 1.2.32
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

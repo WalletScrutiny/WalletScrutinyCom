@@ -1,6 +1,6 @@
 ---
 wsId: frontierDeFi
-title: "Frontier: Crypto & DeFi Wallet"
+title: 'Frontier: Crypto & DeFi Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: in
 idd: 1482380988
 released: 2019-11-05
 updated: 2022-03-10
-version: "4.3.0"
+version: 4.3.0
 stars: 5
 reviews: 26
 size: 110660608
@@ -22,9 +22,10 @@ meta: ok
 verdict: nobtc
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FrontierDotXYZ
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

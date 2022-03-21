@@ -1,6 +1,6 @@
 ---
 wsId: cobak
-title: "코박 - 국내 대표 코인 커뮤니티"
+title: 코박 - 국내 대표 코인 커뮤니티
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
 updated: 2022-02-21
-version: "1.42.21"
+version: 1.42.21
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CobakOfficial
 social:
 - https://www.linkedin.com/company/cobak
 - https://www.facebook.com/coindaebak
-redirect_from:
+redirect_from: 
+
 ---
 
 This product is Korean, there's no English translation so it's less likely to have global support. It's also a little harder to find information on a foreign wallet.

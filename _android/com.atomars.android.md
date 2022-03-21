@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Atomars"
+title: Atomars
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.atomars.android
 appCountry: 
 released: 2019-07-01
 updated: 2019-07-01
-version: "1.1.1"
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: bituro
-title: "bituro Surveys"
+title: bituro Surveys
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1257495078
 released: 2017-07-15
 updated: 2022-03-06
-version: "2.0.2"
+version: 2.0.2
 stars: 4.52346
 reviews: 405
 size: 16468992
@@ -22,10 +22,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp
+
 ---
 
 {% include copyFromAndroid.html %}

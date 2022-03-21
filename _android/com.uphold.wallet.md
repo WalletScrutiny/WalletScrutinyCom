@@ -1,6 +1,6 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: "Uphold - Trade, Invest, Send Money For Zero Fees"
+title: Uphold - Trade, Invest, Send Money For Zero Fees
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.uphold.wallet
 appCountry: 
 released: 2015-12-29
 updated: 2022-03-10
-version: "4.35.2"
-stars: 3.333935
+version: 4.36.1
+stars: 3.2704628
 ratings: 20716
-reviews: 3487
+reviews: 3510
 size: 61M
 website: https://uphold.com
 repository: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: UpholdInc
 social:
 - https://www.linkedin.com/company/upholdinc
 - https://www.facebook.com/UpholdInc
 redirect_from:
-  - /com.uphold.wallet/
-  - /posts/com.uphold.wallet/
+- /com.uphold.wallet/
+- /posts/com.uphold.wallet/
+
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Terminal - Zonda Pay"
+title: Bitcoin Terminal - Zonda Pay
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.bitbay.pay.bitcoin.pos.terminal
 appCountry: 
 released: 2019-03-18
 updated: 2021-12-21
-version: "1.6.9(55)"
+version: 1.6.9(55)
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2022-02-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

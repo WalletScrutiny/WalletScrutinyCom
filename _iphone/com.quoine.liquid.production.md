@@ -1,6 +1,6 @@
 ---
 wsId: LiquidPro
-title: "Liquid Pro"
+title: Liquid Pro
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1443975079
 released: 2019-05-03
 updated: 2022-01-30
-version: "1.17.8"
+version: 1.17.8
 stars: 3.90323
 reviews: 31
 size: 113310720
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Liquid_Global
 social:
 - https://www.linkedin.com/company/quoine
 - https://www.facebook.com/LiquidGlobal
+
 ---
 
 {% include copyFromAndroid.html %}

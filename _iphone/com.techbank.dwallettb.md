@@ -1,6 +1,6 @@
 ---
 wsId: Techbank
-title: "TechBank Dwallet"
+title: TechBank Dwallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: in
 idd: 1535437806
 released: 2020-10-15
 updated: 2022-03-11
-version: "1.0.9"
+version: 1.0.9
 stars: 4.88889
 reviews: 9
 size: 61770752
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

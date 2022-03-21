@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Firma (testnet)"
+title: Firma (testnet)
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: it.casatta.testnet
 appCountry: 
 released: 2020-05-17
 updated: 2021-08-06
-version: "1.20-testnet"
+version: 1.20-testnet
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

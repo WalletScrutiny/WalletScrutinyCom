@@ -1,6 +1,6 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: "Uphold: Buy BTC, ETH, XRP"
+title: 'Uphold: Buy BTC, ETH, XRP'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1101145849
 released: 2016-04-19
 updated: 2022-03-11
-version: "4.36.1"
+version: 4.36.1
 stars: 3.42085
 reviews: 5496
 size: 82344960
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: UpholdInc
 social:
 - https://www.linkedin.com/company/upholdinc
 - https://www.facebook.com/UpholdInc
+
 ---
 
 This app appears to be an interface to a custodial trading platform. In the

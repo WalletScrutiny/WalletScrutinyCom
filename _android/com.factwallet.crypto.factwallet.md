@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Fact Wallet - Bitcoin and cryptocurrency Wallet"
+title: Fact Wallet - Bitcoin and cryptocurrency Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.factwallet.crypto.factwallet
 appCountry: 
 released: 2020-10-23
 updated: 2020-11-13
-version: "1.4"
+version: '1.4'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: fewusers
 date: 2021-11-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.factwallet.crypto.factwallet/
+- /com.factwallet.crypto.factwallet/
+
 ---
 

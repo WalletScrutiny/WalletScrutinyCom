@@ -1,6 +1,6 @@
 ---
 wsId: xverse
-title: "Xverse"
+title: Xverse
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: gt
 idd: 1552272513
 released: 2021-10-15
 updated: 2022-03-05
-version: "1.3.1"
-stars: 
-reviews: 
-size: 37431296
+version: 1.3.1
+stars: 0
+reviews: 0
+size: '37431296'
 website: https://www.xverse.app
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: secretkeylabs
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin Wallet - Blockchain Explorer"
-altTitle: "(Fake) Bitcoin Wallet - Blockchain Explorer"
+title: Bitcoin Wallet - Blockchain Explorer
+altTitle: (Fake) Bitcoin Wallet - Blockchain Explorer
 authors:
 - kiwilamb
 - leo
@@ -10,8 +10,8 @@ appId: com.blockchain.wallet.btc
 appCountry: 
 released: 2021-04-03
 updated: 2022-03-03
-version: "1.0.2.7"
-stars: 4.529412
+version: 1.0.2.7
+stars: 4.5339804
 ratings: 948
 reviews: 46
 size: 25M
@@ -26,13 +26,14 @@ date: 2021-07-26
 signer: 
 reviewArchive:
 - date: 2021-06-04
-  version: "1.0.1.8"
+  version: 1.0.1.8
   appHash: 
   gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
   verdict: obfuscated
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-07-26**: The provider features several apps that either through

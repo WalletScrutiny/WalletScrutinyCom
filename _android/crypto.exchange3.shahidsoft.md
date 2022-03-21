@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Exchange"
+title: Crypto Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: crypto.exchange3.shahidsoft
 appCountry: 
 released: 2021-07-12
 updated: 2021-07-12
-version: "1.0.2"
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

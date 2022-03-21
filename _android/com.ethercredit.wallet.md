@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ERC Wallet"
+title: ERC Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.ethercredit.wallet
 appCountry: 
 released: 2020-09-23
 updated: 2020-09-23
-version: "1.0"
+version: '1.0'
 stars: 3.8
 ratings: 5
 reviews: 3
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: "Paxful Bitcoin & Crypto Wallet | Buy BTC ETH USDT"
+title: Paxful Bitcoin & Crypto Wallet | Buy BTC ETH USDT
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.paxful.wallet
 appCountry: 
 released: 2019-04-30
 updated: 2022-03-05
-version: "2.8.4.653"
-stars: 3.19398
+version: 2.8.4.653
+stars: 3.1933334
 ratings: 21528
-reviews: 1645
+reviews: 1646
 size: 28M
 website: https://Paxful.com
 repository: 
@@ -23,16 +23,17 @@ meta: ok
 verdict: custodial
 date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paxful
 social:
 - https://www.facebook.com/paxful
 - https://www.reddit.com/r/paxful
 redirect_from:
-  - /paxful/
-  - /com.paxful.wallet/
-  - /posts/2019/11/paxful/
-  - /posts/com.paxful.wallet/
+- /paxful/
+- /com.paxful.wallet/
+- /posts/2019/11/paxful/
+- /posts/com.paxful.wallet/
+
 ---
 
 According to their Playstore description:

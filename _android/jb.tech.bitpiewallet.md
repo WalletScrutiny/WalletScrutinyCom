@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcan Bitcoin Wallet - USDT ETH BCH TRON"
+title: Bitcan Bitcoin Wallet - USDT ETH BCH TRON
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: jb.tech.bitpiewallet
 appCountry: 
 released: 
 updated: 2021-02-01
-version: "1.3"
+version: '1.3'
 stars: 4
 ratings: 71
 reviews: 69
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2021-04-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-04-30**: This app is no more and probably scammed some people as

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BinexHosting"
+title: BinexHosting
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.cryptex.www.binexhosting
 appCountry: 
 released: 2018-11-21
 updated: 2018-11-21
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

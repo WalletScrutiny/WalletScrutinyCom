@@ -1,6 +1,6 @@
 ---
 wsId: studentcoin
-title: "Student Coin"
+title: Student Coin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: pl
 idd: 1559718559
 released: 2021-03-30
 updated: 2021-10-27
-version: "1.12.2"
+version: 1.12.2
 stars: 4.65
 reviews: 20
 size: 29395968
@@ -22,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: studentcoinorg
 social:
 - https://www.linkedin.com/company/student-coin-worldwide
 - https://www.facebook.com/studentcoin.org
 - https://www.reddit.com/r/Studentcoin
+
 ---
 
 {% include copyFromAndroid.html %}

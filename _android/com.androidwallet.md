@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "dCipher Crypto Wallet"
+title: dCipher Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.androidwallet
 appCountry: 
 released: 2019-07-04
 updated: 2020-04-09
-version: "1.1.20"
+version: 1.1.20
 stars: 4.6
 ratings: 433
 reviews: 12
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

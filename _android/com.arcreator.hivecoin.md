@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bittex - crypto coin"
+title: Bittex - crypto coin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.arcreator.hivecoin
 appCountry: 
 released: 2021-05-06
 updated: 2021-06-18
-version: "2.2.7"
+version: 2.2.7
 stars: 3.4
 ratings: 47
 reviews: 36
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Samourai Wallet"
+title: Samourai Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.samourai.wallet
 appCountry: 
 released: 
 updated: 2022-02-26
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: nonverifiable
 date: 2021-10-07
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
-reviewArchive:
+reviewArchive: 
 twitter: SamouraiWallet
-social:
+social: 
 redirect_from:
-  - /samourai/
-  - /com.samourai.wallet/
-  - /posts/2019/11/samourai/
-  - /posts/com.samourai.wallet/
+- /samourai/
+- /com.samourai.wallet/
+- /posts/2019/11/samourai/
+- /posts/com.samourai.wallet/
+
 ---
 
 **Update 2021-10-07**: [Erik Nylund](https://twitter.com/Erik_Nylund) reached

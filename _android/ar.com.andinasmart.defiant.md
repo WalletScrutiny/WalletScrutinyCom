@@ -1,6 +1,6 @@
 ---
 wsId: Defiant
-title: "Defiant"
+title: Defiant
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: ar.com.andinasmart.defiant
 appCountry: ar
 released: 2019-11-19
 updated: 2022-03-08
-version: "3.0.0"
-stars: 4.5740743
+version: 3.0.0
+stars: 4.581818
 ratings: 65
-reviews: 29
+reviews: 30
 size: 29M
 website: https://defiantapp.tech
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: defiantApp
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

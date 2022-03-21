@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: "BitMart: Trade BTC, ETH, SHIB"
+title: 'BitMart: Trade BTC, ETH, SHIB'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1396382871
 released: 2018-08-02
 updated: 2022-03-11
-version: "2.9.8"
+version: 2.9.8
 stars: 3.8397
 reviews: 5103
 size: 114454528
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitMartExchange
 social:
 - https://www.linkedin.com/company/bitmart
 - https://www.facebook.com/bitmartexchange
 - https://www.reddit.com/r/BitMartExchange
+
 ---
 
 On their website we read:

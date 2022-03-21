@@ -1,6 +1,6 @@
 ---
 wsId: Coini
-title: "Coini — Cryptocurrencies"
+title: Coini — Cryptocurrencies
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: partl.coini
 appCountry: 
 released: 2018-02-04
-updated: 2022-03-01
-version: "2.4.0"
-stars: 4.5757575
+updated: 2022-03-20
+version: 2.4.3
+stars: 4.5820894
 ratings: 291
 reviews: 32
 size: 47M
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2020-12-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /partl.coini/
+- /partl.coini/
+
 ---
 
 This app is for portfolio tracking but probably is not in control of private keys.

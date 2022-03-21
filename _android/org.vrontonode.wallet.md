@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "VTN Wallet"
+title: VTN Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: org.vrontonode.wallet
 appCountry: 
 released: 2019-11-29
 updated: 2019-11-29
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-12-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

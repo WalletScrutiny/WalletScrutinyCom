@@ -1,6 +1,6 @@
 ---
 wsId: FoxOne
-title: "FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet"
+title: FoxOne - BTC,ETH,EOS,Cosmos exchange & wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fox.one
 appCountry: us
 released: 2018-07-15
 updated: 2021-01-08
-version: "2.14.1"
+version: 2.14.1
 stars: 4.8
 ratings: 114
 reviews: 90
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Note:** The homepage listed for the site is no longer working.

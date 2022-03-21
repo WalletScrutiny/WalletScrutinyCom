@@ -1,6 +1,6 @@
 ---
 wsId: Burency
-title: "Burency Global – Insured Crypto Exchange & Wallet"
+title: Burency Global – Insured Crypto Exchange & Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.burency.app
 appCountry: us
 released: 2021-03-21
 updated: 2021-05-07
-version: "1.0.2"
+version: 1.0.2
 stars: 4.3
 ratings: 241
 reviews: 139
@@ -23,13 +23,14 @@ meta: defunct
 verdict: custodial
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BurencyOfficial
 social:
 - https://www.linkedin.com/company/burencyofficial
 - https://www.facebook.com/BurencyOfficial
 - https://www.reddit.com/r/Burency
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2021-11-22**: This app is not available anymore.

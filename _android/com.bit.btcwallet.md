@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitWay Bitcoin Crypto Wallet"
+title: BitWay Bitcoin Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bit.btcwallet
 appCountry: 
 released: 2019-11-17
 updated: 2019-11-25
-version: "0.2"
+version: '0.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-11-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

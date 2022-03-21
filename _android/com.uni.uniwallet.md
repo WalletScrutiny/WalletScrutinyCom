@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "UNI&PAY"
+title: UNI&PAY
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.uni.uniwallet
 appCountry: 
 released: 2018-06-05
 updated: 2019-02-19
-version: "7.0.4"
+version: 7.0.4
 stars: 4
 ratings: 44
 reviews: 23
@@ -23,9 +22,10 @@ meta: defunct
 verdict: wip
 date: 2021-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

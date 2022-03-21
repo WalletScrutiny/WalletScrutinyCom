@@ -1,6 +1,6 @@
 ---
 wsId: Abit
-title: "ABIT"
+title: ABIT
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.abit.bmtc
 appCountry: ae
 released: 2020-03-03
 updated: 2021-04-25
-version: "2.3.2"
+version: 2.3.2
 stars: 3.6
 ratings: 75
 reviews: 44
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: abitofficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The service announced its shutdown on October 4, 2021 via [twitter](https://twitter.com/abitofficial/status/1445005276071952384). 

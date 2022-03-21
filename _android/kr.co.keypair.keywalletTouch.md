@@ -1,6 +1,6 @@
 ---
 wsId: KeyWalletTouch
-title: "KeyWallet Touch - Bitcoin Ethereum Crypto Wallet"
+title: KeyWallet Touch - Bitcoin Ethereum Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: kr.co.keypair.keywalletTouch
 appCountry: 
 released: 2018-05-13
 updated: 2022-01-09
-version: "Varies with device"
+version: Varies with device
 stars: 4.4666667
 ratings: 109
 reviews: 10
@@ -26,13 +26,14 @@ date: 2021-12-23
 signer: 
 reviewArchive:
 - date: 2021-10-01
-  version: "Varies with device"
+  version: Varies with device
   appHash: 
   gitRevision: 54461412c5fad7bcd41beeec0a474de549d88c89
   verdict: nosource
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Updated Review 2022-01-04**:

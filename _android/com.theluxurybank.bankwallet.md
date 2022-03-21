@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "The Luxury Wallet"
+title: The Luxury Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.theluxurybank.bankwallet
 appCountry: 
 released: 2020-11-22
 updated: 2020-11-22
-version: "0.16.3"
+version: 0.16.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-11-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: XcelPay
-title: "XcelPay - Secure Crypto Wallet"
+title: XcelPay - Secure Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1461215417
 released: 2019-05-26
 updated: 2022-02-18
-version: "2.62.2"
-stars: 4.28261
-reviews: 46
-size: 55791616
+version: 2.62.2
+stars: 4.29786
+reviews: 47
+size: '55791616'
 website: http://xcelpay.io
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
+
 ---
 
 This wallet has no claim of being non-custodial in the app's description.

@@ -1,5 +1,5 @@
 ---
-title: "HyperMate Pro"
+title: HyperMate Pro
 appId: hypermatepro
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2021-04-14
 discontinued: 
 updated: 2021-09-22
-version: "4.1.7"
+version: 4.1.7
 binaries: 
-dimensions: [44, 70, 4.5]
+dimensions:
+- 44
+- 70
+- 4.5
 weight: 
-provider: "HyperPay"
+provider: HyperPay
 providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.tech/hypermatepro/pro
 shop: https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
@@ -28,8 +31,9 @@ date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: HyperPay_tech
-social: 
+social:
 - https://www.facebook.com/hyperpayofficial
+
 ---
 
 This hardware wallet is paired with {% include walletLink.html wallet='android/com.legendwd.hyperpayW' verdict='true' %}

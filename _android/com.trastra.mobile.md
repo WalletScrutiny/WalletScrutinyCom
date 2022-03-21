@@ -1,6 +1,6 @@
 ---
 wsId: trastra
-title: "TRASTRA: Crypto Wallet & VISA Card"
+title: 'TRASTRA: Crypto Wallet & VISA Card'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.trastra.mobile
 appCountry: us
 released: 2019-01-19
 updated: 2022-02-01
-version: "2.6.4"
+version: 2.6.4
 stars: 4.4583335
 ratings: 513
 reviews: 54
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Trastra_ltd
 social:
 - https://www.linkedin.com/company/trastra
 - https://www.facebook.com/trastra.ltd
-redirect_from:
+redirect_from: 
+
 ---
 
 This app is only available for EU residents, from its Google Play description:

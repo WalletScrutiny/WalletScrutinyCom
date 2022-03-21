@@ -1,6 +1,6 @@
 ---
 wsId: AlphaWallet
-title: "AlphaWallet"
+title: AlphaWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.stormbird.wallet
 appCountry: us
 released: 2018-05-19
 updated: 2022-03-09
-version: "3.52.0"
+version: 3.52.0
 stars: 4.207547
 ratings: 247
 reviews: 19
@@ -23,12 +23,13 @@ meta: ok
 verdict: nobtc
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Alpha_wallet
 social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

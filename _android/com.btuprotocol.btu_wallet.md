@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: "Verso : Earn crypto rewards"
+title: 'Verso : Earn crypto rewards'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.btuprotocol.btu_wallet
 appCountry: ba
 released: 2021-03-15
-updated: 2022-03-11
-version: "2.5.1"
+updated: 2022-03-18
+version: 2.5.2
 stars: 4.04902
 ratings: 156
 reviews: 83
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: versoapp
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

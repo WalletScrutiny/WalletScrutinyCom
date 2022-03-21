@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Toropal: Buy and Sell Bitcoin Securely"
+title: 'Toropal: Buy and Sell Bitcoin Securely'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.app.toropal
 appCountry: 
 released: 2019-02-18
 updated: 2022-02-19
-version: "1.7.2"
+version: 1.7.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

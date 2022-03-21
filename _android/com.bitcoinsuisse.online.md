@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinSuisse
-title: "Bitcoin Suisse – Buy & Sell Crypto"
+title: Bitcoin Suisse – Buy & Sell Crypto
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitcoinsuisse.online
 appCountry: pl
 released: 2021-09-21
 updated: 2022-03-04
-version: "1.1.2"
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
 - https://www.facebook.com/BitcoinSuisse
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

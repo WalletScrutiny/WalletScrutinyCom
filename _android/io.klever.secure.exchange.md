@@ -1,6 +1,6 @@
 ---
 wsId: kleverexchange
-title: "Klever Exchange"
+title: Klever Exchange
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30
-updated: 2022-03-12
-version: "1.0.31"
-stars: 4
+updated: 2022-03-18
+version: 1.0.32
+stars: 4.019608
 ratings: 500
 reviews: 37
 size: 65M
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: klever_io
 social:
 - https://www.linkedin.com/company/klever-app
 - https://www.facebook.com/klever.io
-redirect_from:
+redirect_from: 
+
 ---
 
 The Klever Exchange is distinct from  {% include walletLink.html wallet='android/cash.klever.blockchain.wallet' verdict='true' %}.

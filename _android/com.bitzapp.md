@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BITZAPP BITCOIN WALLET - BUY / TRADE BITCOINS"
+title: BITZAPP BITCOIN WALLET - BUY / TRADE BITCOINS
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.bitzapp
 appCountry: 
 released: 2020-03-15
 updated: 2020-08-11
-version: "1.5"
+version: '1.5'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

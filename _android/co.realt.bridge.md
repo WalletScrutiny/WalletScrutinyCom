@@ -1,6 +1,6 @@
 ---
 wsId: realTWallet
-title: "RealT Wallet"
+title: RealT Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.realt.bridge
 appCountry: be
 released: 2021-03-18
 updated: 2021-12-14
-version: "1.20"
+version: '1.20'
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: RealTPlatform
 social:
 - https://www.linkedin.com/company/realtplatform
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Nayuta Core"
+title: Nayuta Core
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nayuta.core
 appCountry: 
 released: 
 updated: 2021-12-16
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: nayuta_en
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

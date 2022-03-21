@@ -1,6 +1,6 @@
 ---
 wsId: Coinpal
-title: "Coinpal - Bitcoin Wallet"
+title: Coinpal - Bitcoin Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1351428916
 released: 2018-06-26
 updated: 2018-06-26
-version: "1.0"
+version: '1.0'
 stars: 4
 reviews: 11
 size: 77613056
@@ -22,11 +22,12 @@ meta: defunct
 verdict: nosource
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
 - https://www.facebook.com/coinpal.me
+
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

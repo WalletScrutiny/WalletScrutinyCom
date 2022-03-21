@@ -1,5 +1,5 @@
 ---
-title: "BitSafe"
+title: BitSafe
 appId: bitsafe
 authors:
 - kiwilamb
@@ -28,6 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware wallet looks to be an early experimental design and no real production was produced.

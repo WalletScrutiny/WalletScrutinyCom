@@ -1,6 +1,6 @@
 ---
 wsId: cryptonator
-title: "Cryptonator"
+title: Cryptonator
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1463793201
 released: 2019-06-11
 updated: 2021-01-27
-version: "4.1.4"
+version: 4.1.4
 stars: 2.03846
 reviews: 26
 size: 79916032
@@ -22,9 +22,10 @@ meta: defunct
 verdict: custodial
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptonatorcom
-social:
+social: 
+
 ---
 
 **Update 2022-02-09**: This app is not on the Store anymore.

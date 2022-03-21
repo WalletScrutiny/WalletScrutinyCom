@@ -1,6 +1,6 @@
 ---
 wsId: VelasWallet
-title: "Velas Wallet"
+title: Velas Wallet
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ appId: com.velas.mobile_wallet
 appCountry: us
 released: 2020-11-17
 updated: 2022-01-25
-version: "2.2.7"
+version: 2.2.7
 stars: 4.1904764
 ratings: 545
 reviews: 17
@@ -27,7 +27,7 @@ date: 2022-03-11
 signer: 
 reviewArchive:
 - date: 2021-11-17
-  version: "2.2.7"
+  version: 2.2.7
   appHash: 
   gitRevision: 6539923871075f8b229d39c5c4883b16973b82df
   verdict: ftbfs
@@ -35,7 +35,8 @@ twitter: velasblockchain
 social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-03-11**: Emanuel managed to build the latest version `2.2.7` but

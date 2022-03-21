@@ -1,6 +1,6 @@
 ---
 wsId: libertex
-title: "Libertex - Forex Trading App"
+title: Libertex - Forex Trading App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: cl
 idd: 1078997450
 released: 2016-02-10
 updated: 2019-05-25
-version: "2.21.0"
+version: 2.21.0
 stars: 4.56876
 reviews: 429
 size: 30611456
@@ -22,9 +22,10 @@ meta: defunct
 verdict: nosendreceive
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: libertex_latam
-social:
+social: 
+
 ---
 
 **Update 2022-02-09**: This app is no more.

@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinPoint
-title: "BitcoinPoint"
+title: BitcoinPoint
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: gb
 idd: 1363753409
 released: 2018-08-15
 updated: 2022-02-04
-version: "4.9"
+version: '4.9'
 stars: 3.95
 reviews: 20
-size: 78316544
+size: '78316544'
 website: https://bitcoinpoint.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

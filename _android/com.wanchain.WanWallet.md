@@ -1,6 +1,6 @@
 ---
 wsId: WanWallet
-title: "WanWallet"
+title: WanWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wanchain.WanWallet
 appCountry: us
 released: 2019-08-18
 updated: 2021-04-25
-version: "5.0"
+version: '5.0'
 stars: 3.4210527
 ratings: 120
 reviews: 11
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: wanchain_org
 social:
 - https://www.facebook.com/wanchainfoundation
 - https://www.reddit.com/r/wanchain
 - https://github.com/wanchain
-redirect_from:
+redirect_from: 
+
 ---
 
 **UPDATE 2021-11-23** There's no source code for the android app on

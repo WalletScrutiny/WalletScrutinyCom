@@ -1,6 +1,6 @@
 ---
 wsId: bitcoinblack
-title: "Bitcoin Black Wallet"
+title: Bitcoin Black Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -10,10 +10,10 @@ appId: com.bitcoinblack.wallet
 appCountry: 
 released: 2020-06-11
 updated: 2020-12-25
-version: "1.0.6"
-stars: 3.9
+version: 1.0.6
+stars: 3.92
 ratings: 1690
-reviews: 66
+reviews: 65
 size: 25M
 website: https://bitcoin.black
 repository: 
@@ -24,12 +24,13 @@ meta: stale
 verdict: nobtc
 date: 2021-12-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BCB_Official1
 social:
 - https://www.facebook.com/bitcoinblackofficial
 - https://www.reddit.com/r/AllAboardBitcoinBlack
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-01-03**

@@ -1,6 +1,6 @@
 ---
 wsId: counos
-title: "Counos Bitcoin Wallet"
+title: Counos Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.counos
 appCountry: 
 released: 2018-07-03
 updated: 2021-04-16
-version: "1.9.50"
+version: 1.9.50
 stars: 4.576923
 ratings: 513
 reviews: 17
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform
 - https://www.facebook.com/CounosPlatform
-redirect_from:
+redirect_from: 
+
 ---
 
 Nothing in the description hints at this app being non-custodial.

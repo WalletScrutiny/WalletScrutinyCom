@@ -1,5 +1,5 @@
 ---
-title: "SafePal S1"
+title: SafePal S1
 appId: safepals1
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "SafePal"
+provider: SafePal
 providerWebsite: https://www.safepal.io
 website: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
@@ -27,5 +27,6 @@ signer:
 reviewArchive: 
 twitter: iSafePal
 social: 
+
 ---
 

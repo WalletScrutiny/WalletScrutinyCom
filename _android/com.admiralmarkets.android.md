@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: "Admirals"
+title: Admirals
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
 updated: 2022-02-16
-version: "1.5.2"
+version: 1.5.2
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AdmiralsGlobal
 social:
 - https://www.linkedin.com/company/-admiral-markets-group
 - https://www.facebook.com/AdmiralsGlobal
-redirect_from:
+redirect_from: 
+
 ---
 
 ## Description

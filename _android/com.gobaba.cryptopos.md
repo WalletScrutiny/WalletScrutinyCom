@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto POS"
+title: Crypto POS
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.gobaba.cryptopos
 appCountry: 
 released: 2018-11-05
 updated: 2018-11-05
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Credtech Wallet- Buy Bitcoin, ETH, & Crypto"
+title: Credtech Wallet- Buy Bitcoin, ETH, & Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.credtech
 appCountry: 
 released: 2021-02-07
 updated: 2021-02-11
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

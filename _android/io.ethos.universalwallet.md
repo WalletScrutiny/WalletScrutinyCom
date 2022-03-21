@@ -1,15 +1,14 @@
 ---
 wsId: ethosUW
-title: "Ethos Universal Wallet"
+title: Ethos Universal Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: io.ethos.universalwallet
 appCountry: 
 released: 2018-07-10
 updated: 2019-12-05
-version: "2.0.5"
+version: 2.0.5
 stars: 3.1089108
 ratings: 1529
 reviews: 195
@@ -23,12 +22,13 @@ meta: obsolete
 verdict: nosource
 date: 2021-12-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ethos_io
 social:
 - https://www.facebook.com/ethosplatform
 - https://www.reddit.com/r/ethos_io
-redirect_from:
+redirect_from: 
+
 ---
 
 They claim:
