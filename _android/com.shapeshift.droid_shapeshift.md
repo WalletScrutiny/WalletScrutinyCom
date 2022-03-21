@@ -10,9 +10,9 @@ appCountry:
 released: 2015-10-26
 updated: 2021-10-22
 version: 2.19.3
-stars: 3.01
+stars: 2.97
 ratings: 2913
-reviews: 481
+reviews: 482
 size: 53M
 website: https://ShapeShift.com
 repository: 

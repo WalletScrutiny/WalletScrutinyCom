@@ -9,9 +9,9 @@ appCountry:
 released: 2020-08-06
 updated: 2022-03-16
 version: v113
-stars: 4.4476614
+stars: 4.46861
 ratings: 6726
-reviews: 1263
+reviews: 1272
 size: 51M
 website: https://strike.me/
 repository: 

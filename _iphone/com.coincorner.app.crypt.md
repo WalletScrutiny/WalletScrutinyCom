@@ -1,6 +1,6 @@
 ---
 wsId: coincorner
-title: "CoinCorner - Bitcoin Wallet"
+title: CoinCorner - Bitcoin Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 917721788
 released: 2014-09-22
 updated: 2022-02-14
-version: "4.0.6"
+version: 4.0.6
 stars: 3.88889
 reviews: 9
 size: 35424256
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCorner
 social:
 - https://www.facebook.com/CoinCorner
+
 ---
 
 A search of the app store and the providers website, reveals no statements about how private keys are managed.

@@ -1,6 +1,6 @@
 ---
 wsId: visionwallet
-title: "Vision: Bitcoin Crypto Wallet"
+title: 'Vision: Bitcoin Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,10 +10,10 @@ appCountry:
 idd: 1500186931
 released: 2020-04-01
 updated: 2022-03-03
-version: "2.3.6"
+version: 2.3.6
 stars: 4.86667
 reviews: 30
-size: 98178048
+size: '98178048'
 website: https://www.vision-crypto.com
 repository: 
 issue: 
@@ -23,9 +23,10 @@ meta: ok
 verdict: nosource
 date: 2021-04-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VisionCryptoApp
-social:
+social: 
+
 ---
 
 We do not have to look far to find the wallet claims to be non-custodial.

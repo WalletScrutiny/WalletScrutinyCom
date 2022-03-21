@@ -1,5 +1,5 @@
 ---
-title: "QUANTUM"
+title: QUANTUM
 appId: quantum
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [25, 65, 8]
+dimensions:
+- 25
+- 65
+- 8
 weight: 12
-provider: "SecurityArts"
+provider: SecurityArts
 providerWebsite: https://security-arts.com
 website: https://security-arts.com/home
 shop: https://security-arts.com/order
@@ -27,8 +30,9 @@ date: 2021-12-20
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://github.com/SecurityArts
+
 ---
 
 Security Arts' is a Ukrainian company. As of November 26, 2021, the [device is out of stock](https://security-arts.com/order).

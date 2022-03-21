@@ -1,6 +1,6 @@
 ---
 wsId: TheCircleWalletApp
-title: "The Circle App Wallets"
+title: The Circle App Wallets
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1545999230
 released: 2021-01-05
 updated: 2021-12-11
-version: "2.1"
+version: '2.1'
 stars: 
 reviews: 
 size: 24221696
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2022-01-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

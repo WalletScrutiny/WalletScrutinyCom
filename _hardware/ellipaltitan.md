@@ -1,5 +1,5 @@
 ---
-title: "ELLIPAL TITAN"
+title: ELLIPAL TITAN
 appId: ellipaltitan
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "ELLIPAL Limited"
+provider: ELLIPAL Limited
 providerWebsite: https://www.ellipal.com
 website: https://www.ellipal.com/pages/coldwallet
 shop: https://www.ellipal.com/products/ellipal-titan
@@ -27,9 +27,10 @@ date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
-social: 
+social:
 - https://www.facebook.com/ellipalclub
 - https://github.com/ellipal
+
 ---
 
 Ellipal claims to go beyond being a hardware wallet. It describes itself as an "Air-gapped cold storage hardware wallet" with no possibility of connecting to the Internet at all. It is also described as having anti-tampering and anti-disassembly features. The makers claim that the "chip will delete every data when it detects a breach". 

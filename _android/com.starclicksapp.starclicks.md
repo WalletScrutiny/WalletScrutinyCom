@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Star Clicks - PayPay, Bitcoin, Bank Transfer"
+title: Star Clicks - PayPay, Bitcoin, Bank Transfer
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.starclicksapp.starclicks
 appCountry: 
 released: 2021-04-28
 updated: 2021-04-28
-version: "1.0"
+version: '1.0'
 stars: 3.9
 ratings: 135
 reviews: 70
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Starclicks
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-03**: This app is no more.

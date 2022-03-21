@@ -1,6 +1,6 @@
 ---
 wsId: xapo
-title: "Xapo"
+title: Xapo
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 917692892
 released: 2014-11-13
 updated: 2021-07-20
-version: "6.12.0"
+version: 6.12.0
 stars: 3.88591
 reviews: 149
 size: 151875584
@@ -22,10 +22,11 @@ meta: defunct
 verdict: custodial
 date: 2021-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xapo
 social:
 - https://www.facebook.com/xapoapp
+
 ---
 
 **Update 2021-08-02**: Xapo discontinued this app to migrate its users to the

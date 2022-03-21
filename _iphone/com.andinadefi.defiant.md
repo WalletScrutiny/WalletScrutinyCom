@@ -1,6 +1,6 @@
 ---
 wsId: Defiant
-title: "Defiant Wallet"
+title: Defiant Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ar
 idd: 1559622756
 released: 2021-04-07
 updated: 2022-03-08
-version: "3.0.0+191"
+version: 3.0.0+191
 stars: 4.83333
 reviews: 12
 size: 67315712
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: defiantApp
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

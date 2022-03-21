@@ -6,6 +6,7 @@ authors:
 users: 500
 appId: com.application.digidinar
 appCountry: 
+released: 
 updated: 2021-03-02
 version: Varies with device
 stars: 

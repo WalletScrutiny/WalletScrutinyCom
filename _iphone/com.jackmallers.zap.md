@@ -1,6 +1,6 @@
 ---
 wsId: zapwallet
-title: "Zap: Bitcoin Lightning Wallet"
+title: 'Zap: Bitcoin Lightning Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1406311960
 released: 2019-04-27
 updated: 2020-08-03
-version: "0.5.2"
+version: 0.5.2
 stars: 4.53968
 reviews: 63
-size: 43196416
+size: '43196416'
 website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS
 issue: 
@@ -22,9 +22,10 @@ meta: stale
 verdict: nonverifiable
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ln_zap
-social:
+social: 
+
 ---
 
 This app does not feature a provider website but a GitHub account which links to

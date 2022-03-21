@@ -1,6 +1,6 @@
 ---
 wsId: bikiexchange
-title: "BiKi Exchange"
+title: BiKi Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1470204749
 released: 2019-07-09
 updated: 2021-07-22
-version: "4.9.2"
+version: 4.9.2
 stars: 3.4375
 reviews: 16
 size: 109472768
@@ -22,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BiKiEnglish
 social:
 - https://www.facebook.com/bikiexchange
 - https://www.reddit.com/r/BiKi
+
 ---
 
 **Update 2022-02-25**: This app is not available anymore.

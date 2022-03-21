@@ -1,5 +1,5 @@
 ---
-title: "Axiom Crypto"
+title: Axiom Crypto
 appId: axiomcrypto
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85.6, 54, 0.02]
+dimensions:
+- 85.6
+- 54
+- 0.02
 weight: 28
-provider: "Axiom Crypto"
+provider: Axiom Crypto
 providerWebsite: 
 website: https://axiomcrypto.com/
 shop: https://axiomcrypto.com/index.php/shop/
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Product Information 

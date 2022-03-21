@@ -9,11 +9,11 @@ appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
 updated: 2022-03-18
-version: 2.7.7
+version: 2.7.8
 stars: 4.814815
 ratings: 6660
 reviews: 97
-size: 47M
+size: 46M
 website: https://asdx.io/
 repository: 
 issue: 

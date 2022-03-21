@@ -1,6 +1,6 @@
 ---
 wsId: TradeAries
-title: "Aries: Trading Simplified."
+title: 'Aries: Trading Simplified.'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ng
 idd: 1554894180
 released: 2021-06-29
 updated: 2022-03-14
-version: "2.2.2"
+version: 2.2.2
 stars: 
 reviews: 
 size: 57604096
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TradeAries
 social:
 - https://www.linkedin.com/company/tradearies
 - https://www.facebook.com/TradeAries
+
 ---
 
 {% include copyFromAndroid.html %}

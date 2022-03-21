@@ -1,6 +1,6 @@
 ---
 wsId: PTPWallet
-title: "PTPWallet - Bitcoin, Ethereum"
+title: PTPWallet - Bitcoin, Ethereum
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1428589045
 released: 2018-12-12
 updated: 2022-02-21
-version: "1.0.218"
+version: 1.0.218
 stars: 4.34783
 reviews: 23
-size: 46946304
+size: '46946304'
 website: https://ptpwallet.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PtpWallet
 social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
+
 ---
 
 In [their FAQ](https://ptpwallet.com/faq/) we can read:

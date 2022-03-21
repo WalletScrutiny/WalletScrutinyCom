@@ -1,6 +1,6 @@
 ---
 wsId: Vauld
-title: "Vauld"
+title: Vauld
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appCountry:
 idd: 1509251174
 released: 2020-05-12
 updated: 2022-02-28
-version: "2.6.1.1"
-stars: 4.2377
-reviews: 122
-size: 74786816
+version: 2.6.1.1
+stars: 4.216
+reviews: 125
+size: '74786816'
 website: https://www.vauld.com/
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Vauld_
 social:
 - https://www.linkedin.com/company/vauld
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
+
 ---
 
 The Vauld website Help Center had an article "Security at Vauld" which covers a number of security risk.<br>

@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: "Bitrefill"
+title: Bitrefill
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1378102623
 released: 2018-06-05
 updated: 2022-02-11
-version: "1.30.14"
-stars: 4.69697
-reviews: 99
-size: 17106944
+version: 1.30.14
+stars: 4.71154
+reviews: 104
+size: '17106944'
 website: https://www.bitrefill.com
 repository: 
 issue: 
@@ -24,7 +24,7 @@ date: 2021-09-12
 signer: 
 reviewArchive:
 - date: 2021-05-25
-  version: "1.13"
+  version: '1.13'
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
@@ -32,6 +32,7 @@ twitter: bitrefill
 social:
 - https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
+
 ---
 
 **Update 2021-09-12**: This app wasn't updated for a year but appears to be

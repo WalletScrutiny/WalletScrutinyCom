@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: "Nash: Save money faster"
+title: 'Nash: Save money faster'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1475759236
 released: 2019-09-06
 updated: 2022-03-15
-version: "10.0.1"
+version: 10.0.1
 stars: 4.61111
 reviews: 108
 size: 91982848
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-04-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: nashsocial
 social:
 - https://www.linkedin.com/company/nashsocial
+
 ---
 
 This statement in the description from the [App store](https://apps.apple.com/us/app/nash-app/id1475759236?mt=8) below is a claim only the user has access to the private keys.

@@ -1,5 +1,5 @@
 ---
-title: "Ballet Crypto Pro"
+title: Ballet Crypto Pro
 appId: balletcryptopro
 authors:
 - danny
@@ -8,12 +8,16 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [86, 54, 1.2]
+dimensions:
+- 86
+- 54
+- 1.2
 weight: 35
-provider: "Ballet"
+provider: Ballet
 providerWebsite: https://www.balletcrypto.com
 website: https://www.balletcrypto.com/en/pro
-shop: https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
+shop: >-
+  https://store.balletcrypto.com/collections/ballet/products/pro/?utm_source=OfficialWebsite&utm_medium=referral&utm_campaign=productpage
 country: US
 price: 179USD
 repository: 
@@ -26,9 +30,10 @@ date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: BalletCrypto
-social: 
+social:
 - https://www.linkedin.com/company/balletcrypto
 - https://www.facebook.com/balletcrypto.global
+
 ---
 
 The Ballet Crypto Pro is the third product from the Ballet Crypto series. 

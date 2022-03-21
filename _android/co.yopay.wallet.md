@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: co.yopay.wallet
 appCountry: 
+released: 
 updated: 2020-06-01
 version: Varies with device
 stars: 

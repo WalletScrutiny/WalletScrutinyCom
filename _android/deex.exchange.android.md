@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Deex Exchange"
+title: Deex Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: deex.exchange.android
 appCountry: 
 released: 2019-11-29
 updated: 2020-04-21
-version: "0.3.9"
+version: 0.3.9
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

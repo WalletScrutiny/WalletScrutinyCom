@@ -1,6 +1,6 @@
 ---
 wsId: PlasmaPay
-title: "PlasmaPay - cryptocurrency wallet and DeFi app"
+title: PlasmaPay - cryptocurrency wallet and DeFi app
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.plasmapay.androidapp
 appCountry: us
 released: 2019-07-31
 updated: 2021-10-07
-version: "2.0.4"
+version: 2.0.4
 stars: 3
 ratings: 31
 reviews: 17
@@ -23,13 +23,14 @@ meta: defunct
 verdict: wip
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 0xPlasma
 social:
 - https://www.linkedin.com/company/0xplasma
 - https://www.facebook.com/Plasmapay
 - https://www.reddit.com/r/PlasmaPay
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

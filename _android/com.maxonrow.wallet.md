@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MAX-Wallet"
+title: MAX-Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.maxonrow.wallet
 appCountry: 
 released: 2019-08-31
 updated: 2020-10-20
-version: "2.1.16"
+version: 2.1.16
 stars: 3.9
 ratings: 73
 reviews: 43
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nobtc
 date: 2021-03-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: maxonrow
 social:
 - https://www.linkedin.com/company/maxonrow
 - https://www.facebook.com/maxonrowblockchain
-redirect_from:
+redirect_from: 
+
 ---
 
 We find no mention of Bitcoin on the description or the website.

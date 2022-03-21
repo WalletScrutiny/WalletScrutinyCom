@@ -1,6 +1,6 @@
 ---
 wsId: eidoo
-title: "Eidoo: Bitcoin and Ethereum Wallet and Exchange"
+title: 'Eidoo: Bitcoin and Ethereum Wallet and Exchange'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.eidoo.wallet.prodnet
 appCountry: 
 released: 2017-09-25
 updated: 2021-11-08
-version: "3.6.3"
+version: 3.6.3
 stars: 3.93
 ratings: 1649
 reviews: 96
@@ -23,15 +23,16 @@ meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: eidoo_io
 social:
 - https://www.linkedin.com/company/eidoo
 - https://www.facebook.com/eidoocrypto
 - https://www.reddit.com/r/eidooapp
 redirect_from:
-  - /io.eidoo.wallet.prodnet/
-  - /posts/io.eidoo.wallet.prodnet/
+- /io.eidoo.wallet.prodnet/
+- /posts/io.eidoo.wallet.prodnet/
+
 ---
 
 The app's description:

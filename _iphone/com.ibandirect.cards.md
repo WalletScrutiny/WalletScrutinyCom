@@ -1,6 +1,6 @@
 ---
 wsId: Ibandirect
-title: "Ibandirect"
+title: Ibandirect
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ibandirect.cards
 appCountry: sg
 idd: 1538001175
 released: 2020-11-09
-updated: 2022-01-11
-version: "1.5.3"
-stars: 
-reviews: 
-size: 184233984
+updated: 2022-03-17
+version: 1.5.4
+stars: 0
+reviews: 0
+size: '184213504'
 website: https://ibandirect.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

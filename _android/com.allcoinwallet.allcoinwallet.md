@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "All Coin Wallet"
+title: All Coin Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.allcoinwallet.allcoinwallet
 appCountry: 
 released: 2019-01-28
 updated: 2019-11-22
-version: "1.2.22"
+version: 1.2.22
 stars: 3.8
 ratings: 105
 reviews: 48
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Unfortunately, it's hard to get any additional info on this wallet. While the app links to a [website](http://www.allcoinwallet.com) on its Google Play page, it appears to be inaccessible and returns an nxdomain error. There's no information on the developers either.

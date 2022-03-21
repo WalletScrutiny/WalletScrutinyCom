@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Lead Wallet (BETA) - Store & Swap Cryptocurrencies"
+title: Lead Wallet (BETA) - Store & Swap Cryptocurrencies
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.leadwallet.io
 appCountry: 
 released: 
 updated: 2021-08-14
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: defunct
 verdict: nosource
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
 redirect_from:
-  - /com.leadwallet.io/
+- /com.leadwallet.io/
+
 ---
 
 **Update 2021-10-23**: This app is no more.

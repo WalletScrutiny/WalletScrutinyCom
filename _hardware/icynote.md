@@ -1,16 +1,16 @@
 ---
-title: "Icy Note"
+title: Icy Note
 appId: icynote
 authors:
 - danny
 released: 2021-04-27
 discontinued: 
 updated: 2021-07-11
-version: "0.7"
+version: '0.7'
 binaries: 
 dimensions: 
 weight: 
-provider: "SMD Security Printing Sàrl"
+provider: SMD Security Printing Sàrl
 providerWebsite: https://www.smd-safe.com/
 website: https://www.icynote.ch/
 shop: 
@@ -26,8 +26,9 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: icynoteofficial
-social: 
+social:
 - https://www.facebook.com/Icynote-100908298821873
+
 ---
 
 ## Private keys can be created offline 

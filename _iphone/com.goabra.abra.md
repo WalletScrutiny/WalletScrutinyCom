@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: "Abra: Buy Bitcoin & Earn Yield"
+title: 'Abra: Buy Bitcoin & Earn Yield'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 966301394
 released: 2015-03-12
 updated: 2022-03-07
-version: "117.0.0"
+version: 117.0.0
 stars: 4.57138
 reviews: 17603
 size: 120104960
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-01-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AbraGlobal
 social:
 - https://www.linkedin.com/company/abra
 - https://www.facebook.com/GoAbraGlobal
+
 ---
 
 This is the iPhone version of the Android

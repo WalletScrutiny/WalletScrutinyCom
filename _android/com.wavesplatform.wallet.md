@@ -12,7 +12,7 @@ updated: 2022-03-09
 version: 2.23.0
 stars: 3.93
 ratings: 6992
-reviews: 171
+reviews: 170
 size: 51M
 website: https://support.waves.exchange/
 repository: 

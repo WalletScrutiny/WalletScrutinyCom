@@ -1,5 +1,5 @@
 ---
-title: "Ballet Crypto Real"
+title: Ballet Crypto Real
 appId: balletcryptoreal
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85.6, 1.2]
+dimensions:
+- 54
+- 85.6
+- 1.2
 weight: 35
-provider: "Ballet"
+provider: Ballet
 providerWebsite: https://www.balletcrypto.com
 website: https://www.balletcrypto.com/en/real/
 shop: https://www.balletcrypto.com/en/buy/
@@ -27,9 +30,10 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: BalletCrypto
-social: 
+social:
 - https://www.linkedin.com/company/balletcrypto
 - https://www.facebook.com/balletcrypto.global
+
 ---
 
 **Updated Analysis 2022-01-20**

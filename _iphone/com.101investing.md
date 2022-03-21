@@ -1,6 +1,6 @@
 ---
 wsId: 101Investing
-title: "101Investing – Forex Trading"
+title: 101Investing – Forex Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: cy
 idd: 1533974302
 released: 2020-11-10
 updated: 2021-08-25
-version: "1.68.10"
+version: 1.68.10
 stars: 
 reviews: 
 size: 33699840
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 101Investing_eu
 social:
 - https://www.linkedin.com/company/73520735
 - https://www.facebook.com/101Investing
+
 ---
 
 {% include copyFromAndroid.html %}

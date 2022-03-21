@@ -1,5 +1,5 @@
 ---
-title: "Nativault"
+title: Nativault
 appId: nativault
 authors:
 - danny
@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [18, 14.2, 5]
+dimensions:
+- 18
+- 14.2
+- 5
 weight: 5
 provider: 
 providerWebsite: 
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: nati_vault
 social: 
+
 ---
 
 **⚠️ Warning: Nativault is holding an ICO Token Pre-Sale in 2022.**

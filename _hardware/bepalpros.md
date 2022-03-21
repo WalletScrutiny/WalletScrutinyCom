@@ -1,5 +1,5 @@
 ---
-title: "BEPAL PRO S"
+title: BEPAL PRO S
 appId: bepalpros
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [60, 100, 8]
+dimensions:
+- 60
+- 100
+- 8
 weight: 
-provider: "BEPAL"
+provider: BEPAL
 providerWebsite: https://bepal.pro/
 website: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
 shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The Bepal PRO S' website is [no longer online](https://twitter.com/BitcoinWalletz/status/1466331090105233408).

@@ -1,6 +1,6 @@
 ---
 wsId: dowallet
-title: "DoWallet Bitcoin Wallet"
+title: DoWallet Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1451010841
 released: 2019-02-03
 updated: 2021-10-01
-version: "1.1.39"
+version: 1.1.39
 stars: 4.78221
 reviews: 225
 size: 27866112
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-04-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 This wallet sounds like non-custodial. From their description:

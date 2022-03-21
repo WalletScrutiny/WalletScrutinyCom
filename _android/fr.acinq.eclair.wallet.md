@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Eclair Mobile Testnet"
+title: Eclair Mobile Testnet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: fr.acinq.eclair.wallet
 appCountry: 
 released: 2017-07-20
 updated: 2022-03-01
-version: "0.4.18"
+version: 0.4.18
 stars: 4.571429
 ratings: 220
 reviews: 17
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: acinq_co
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is the testnet version of {% include walletLink.html wallet='android/fr.acinq.eclair.wallet.mainnet2' verdict='true' %}

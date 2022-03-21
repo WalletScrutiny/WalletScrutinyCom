@@ -6,6 +6,7 @@ authors:
 users: 10
 appId: com.aic.cluster
 appCountry: 
+released: 
 updated: 2021-05-24
 version: Varies with device
 stars: 

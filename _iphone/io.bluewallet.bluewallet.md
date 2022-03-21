@@ -1,6 +1,6 @@
 ---
 wsId: bluewallet
-title: "BlueWallet - Bitcoin wallet"
+title: BlueWallet - Bitcoin wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1376878040
 released: 2018-05-27
 updated: 2022-01-31
-version: "6.2.17"
-stars: 4.14857
-reviews: 350
-size: 48130048
+version: 6.2.17
+stars: 4.15581
+reviews: 353
+size: '48130048'
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/2364
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bluewalletio
 social:
 - https://www.reddit.com/r/bluewallet
+
 ---
 
 **Update 2021-03-22:** Already in January the provider added *"- This wallet is

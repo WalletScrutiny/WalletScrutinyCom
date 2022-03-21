@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: "Wallets Africa"
+title: Wallets Africa
 altTitle: 
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ appCountry:
 idd: 1280830303
 released: 2017-10-14
 updated: 2021-09-04
-version: "2.480"
+version: '2.480'
 stars: 4.15126
 reviews: 119
 size: 63362048
@@ -24,10 +24,11 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
+
 ---
 
 **UPDATED 2021-09-01:** This app does not actually provide services for crpytocurrency trading. Also in the FAQs, accounts are funded 

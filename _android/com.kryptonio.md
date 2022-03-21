@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.kryptonio
 appCountry: 
+released: 
 updated: 2021-07-03
 version: Varies with device
 stars: 

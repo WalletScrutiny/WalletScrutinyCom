@@ -1,6 +1,6 @@
 ---
 wsId: Bitnob
-title: "Bitnob"
+title: Bitnob
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.app.bitnob
 appCountry: us
 released: 2020-05-25
-updated: 2022-02-07
-version: "1.0.83"
+updated: 2022-03-20
+version: 1.0.86
 stars: 4.030303
 ratings: 275
 reviews: 14
-size: 34M
+size: 35M
 website: https://bitnob.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitnob_official
 social:
 - https://www.linkedin.com/company/bitnob
 - https://www.facebook.com/bitnob
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

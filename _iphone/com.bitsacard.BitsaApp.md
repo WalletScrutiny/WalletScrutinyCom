@@ -1,6 +1,6 @@
 ---
 wsId: bitsa
-title: "Bitsa"
+title: Bitsa
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: gb
 idd: 1458095544
 released: 2019-04-12
 updated: 2022-03-15
-version: "2.7.8"
+version: 2.7.8
 stars: 3
 reviews: 7
 size: 93787136
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitsa_oficial
 social:
 - https://www.linkedin.com/company/bitsacard
 - https://www.facebook.com/BitsaCard
+
 ---
 
 {% include copyFromAndroid.html %}

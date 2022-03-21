@@ -1,5 +1,5 @@
 ---
-title: "XebaWallet"
+title: XebaWallet
 appId: xebawallet
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Xeba Technologies"
+provider: Xeba Technologies
 providerWebsite: https://www.xeba.tech/product
 website: https://xebawallet.com/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 {{ page.title }} only has a single webpage with information and details about the product. Unfortunately, this information is limited and there aren't any clear images of the product. Searching online does not return many results, either.

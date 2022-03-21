@@ -1,5 +1,5 @@
 ---
-title: "HyperMate G"
+title: HyperMate G
 appId: hypermateg
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2020-04-13
 discontinued: 
 updated: 2021-09-22
-version: "4.1.7"
+version: 4.1.7
 binaries: 
-dimensions: [38, 64, 2.3]
+dimensions:
+- 38
+- 64
+- 2.3
 weight: 
-provider: "HyperPay"
+provider: HyperPay
 providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.me/hypermatepro/g
 shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g
@@ -28,8 +31,9 @@ date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: HyperPay_tech
-social: 
+social:
 - https://www.facebook.com/hyperpayofficial
+
 ---
 
 HyperMate G is about the size of a credit card and has buttons and a screen. These help the user to verify and confirm transactions. The wallet can connect via Bluetooth.

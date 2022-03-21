@@ -1,6 +1,6 @@
 ---
 wsId: XCOEX
-title: "XCOEX: Cryptocurrency Exchange"
+title: 'XCOEX: Cryptocurrency Exchange'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 idd: 1447945810
 released: 2019-01-21
 updated: 2022-02-24
-version: "1.23.0"
+version: 1.23.0
 stars: 
 reviews: 
 size: 58931200
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OfficialXcoex
 social:
 - https://www.facebook.com/xcoex
+
 ---
 
 **Update 2022-01-06**: The app is back online again. 

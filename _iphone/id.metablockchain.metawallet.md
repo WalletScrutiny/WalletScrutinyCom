@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MetaMUI Wallet"
+title: MetaMUI Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1546698261
 released: 2021-01-05
 updated: 2022-02-10
-version: "1.7.2"
+version: 1.7.2
 stars: 
 reviews: 
 size: 27171840
@@ -22,11 +22,12 @@ meta: ok
 verdict: wip
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MUIcommunity
 social:
 - https://www.linkedin.com/company/metamui
 - https://www.facebook.com/SovereignWallet
+
 ---
 
 {% include copyFromAndroid.html %}

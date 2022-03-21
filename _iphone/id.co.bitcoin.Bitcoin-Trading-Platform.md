@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: "Indodax Trading Platform"
+title: Indodax Trading Platform
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1349104693
 released: 2018-03-29
 updated: 2022-03-05
-version: "3.2.5"
+version: 3.2.5
 stars: 5
 reviews: 2
 size: 119184384
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: indodax
-social:
+social: 
+
 ---
 
 This is the interface to

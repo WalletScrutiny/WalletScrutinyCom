@@ -1,5 +1,5 @@
 ---
-title: "NFC Wallet Card"
+title: NFC Wallet Card
 appId: nfcwalletcard
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The [provider's website](https://nfcwalletcard.com) is inaccessible and we considered it defunct.

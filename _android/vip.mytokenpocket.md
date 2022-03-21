@@ -8,8 +8,8 @@ users: 1000000
 appId: vip.mytokenpocket
 appCountry: 
 released: 2018-06-29
-updated: 2022-02-28
-version: 1.4.1
+updated: 2022-03-20
+version: 1.4.2
 stars: 4.714286
 ratings: 16862
 reviews: 448

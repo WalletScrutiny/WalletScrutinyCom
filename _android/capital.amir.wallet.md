@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Amir Wallet"
+title: Amir Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: capital.amir.wallet
 appCountry: 
 released: 2021-08-03
 updated: 2021-11-29
-version: "3.12.1"
+version: 3.12.1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

@@ -1,5 +1,5 @@
 ---
-title: "Morix Wallet Card"
+title: Morix Wallet Card
 appId: morix
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85, 54, 2.2]
+dimensions:
+- 85
+- 54
+- 2.2
 weight: 140
-provider: "MoriX Co., Ltd.‬"
+provider: MoriX Co., Ltd.‬
 providerWebsite: https://morixjp.com/
 website: https://morixjp.com/eng/products/walletcard
 shop: https://www.amazon.co.jp/dp/B08DNN7LGK
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: MoriXjp
 social: 
+
 ---
 
 ## Advertised Features

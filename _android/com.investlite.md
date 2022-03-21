@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "InvestLite: Forex & Stocks for Online Trading"
+title: 'InvestLite: Forex & Stocks for Online Trading'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.investlite
 appCountry: 
 released: 2020-12-18
 updated: 2021-11-29
-version: "1.5.78-investlite"
+version: 1.5.78-investlite
 stars: 3.1
 ratings: 182
 reviews: 100
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosendreceive
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: invest_lite
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-16**: This app is not available anymore.

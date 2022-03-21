@@ -1,5 +1,5 @@
 ---
-title: "Bitbills"
+title: Bitbills
 appId: bitbills
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Bitbills Inc."
+provider: Bitbills Inc.
 providerWebsite: http://bitbills.com/
 website: 
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Product Description 

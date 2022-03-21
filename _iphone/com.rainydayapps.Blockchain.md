@@ -1,6 +1,6 @@
 ---
 wsId: blockchainWallet
-title: "Blockchain.com Wallet: Buy BTC"
+title: 'Blockchain.com Wallet: Buy BTC'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 493253309
 released: 2012-04-13
 updated: 2022-03-15
-version: "202203.1.0"
+version: 202203.1.0
 stars: 4.73578
 reviews: 120650
 size: 182297600
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-07-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Blockchain
 social:
 - https://www.linkedin.com/company/blockchain
 - https://www.facebook.com/Blockchain
+
 ---
 
 {% include copyFromAndroid.html %}

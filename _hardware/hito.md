@@ -1,5 +1,5 @@
 ---
-title: "Hito"
+title: Hito
 appId: hito
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "HITO Lab GmbH"
+provider: HITO Lab GmbH
 providerWebsite: https://gethito.com/
 website: https://gethito.com/
 shop: https://gethito.com/
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 On the [provider’s website](https://gethito.com/) it suggests you join a wait list. It is assumed that this wallet is not currently available.

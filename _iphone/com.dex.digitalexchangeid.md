@@ -1,6 +1,6 @@
 ---
 wsId: digitalexchangeid
-title: "digitalexchangeid"
+title: digitalexchangeid
 altTitle: 
 authors:
 - danny
@@ -9,11 +9,11 @@ appCountry: us
 idd: 1498360108
 released: 2020-04-01
 updated: 2022-03-14
-version: "1.0.75"
+version: 1.0.75
 stars: 5
 reviews: 1
-size: 78360576
-website: 
+size: '78360576'
+website: ''
 repository: 
 issue: 
 icon: com.dex.digitalexchangeid.jpg
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid
+
 ---
 
  {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: NakitCoins
-title: "Nakitcoins"
+title: Nakitcoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nakitcoins.wallet
 appCountry: us
 released: 2021-03-30
 updated: 2022-02-14
-version: "2.1.3"
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: nakitcoins
 social:
 - https://www.facebook.com/NakitCoins
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

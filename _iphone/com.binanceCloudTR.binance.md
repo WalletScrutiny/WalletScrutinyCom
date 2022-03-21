@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: "Binance TR: BTC | SHIB | DOGE"
+title: 'Binance TR: BTC | SHIB | DOGE'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
 released: 2021-02-18
-updated: 2022-02-16
-version: "1.7.2"
-stars: 4.36336
-reviews: 12822
-size: 91351040
+updated: 2022-03-20
+version: 1.8.0
+stars: 4.36211
+reviews: 12836
+size: '92229632'
 website: https://www.trbinance.com/
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR
+
 ---
 
 {% include copyFromAndroid.html %}

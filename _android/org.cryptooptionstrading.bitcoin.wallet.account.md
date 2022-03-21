@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Wallet Account"
+title: Bitcoin Wallet Account
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: org.cryptooptionstrading.bitcoin.wallet.account
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-22**: This app is not on the Play Store anymore.

@@ -1,12 +1,12 @@
 ---
-title: "Verso Cards"
+title: Verso Cards
 appId: versocards
 authors:
 - danny
 released: 
 discontinued: 
 updated: 2015-11-26
-version: "0.9.6"
+version: 0.9.6
 binaries: 
 dimensions: 
 weight: 
@@ -26,8 +26,9 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: VersoCards
-social: 
+social:
 - https://github.com/VersoSolutions
+
 ---
 
 This hardware wallet has a companion app on Google Play named **Verso Wallet** with appID '**com.VersoSolutions.VersoApp**'. As of 2022-01-02, it is [no longer available](https://play.google.com/store/apps/details?id=com.VersoSolutions.VersoApp).

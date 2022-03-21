@@ -1,5 +1,5 @@
 ---
-title: "KeyFort K300"
+title: KeyFort K300
 appId: keyfortk300
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "KeyFort"
+provider: KeyFort
 providerWebsite: https://www.keyfort.io/
 website: 
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware wallet looks to be defunct, the provider’s [main site is not accessible](https://www.keyfort.io).

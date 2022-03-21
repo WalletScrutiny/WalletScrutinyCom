@@ -1,5 +1,5 @@
 ---
-title: "Pi Wallet"
+title: Pi Wallet
 appId: piwallet
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The [provider's website](https://www.pi-wallet.com) is inaccessible and we considered it defunct.

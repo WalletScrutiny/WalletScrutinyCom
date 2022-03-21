@@ -1,6 +1,6 @@
 ---
 wsId: 101Investing
-title: "101Investing Online Trading | Forex and Stocks"
+title: 101Investing Online Trading | Forex and Stocks
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.brand101investing
 appCountry: cy
 released: 2020-08-18
 updated: 2021-12-01
-version: "1.5.78-brand101investing"
+version: 1.5.78-brand101investing
 stars: 3.67
 ratings: 263
 reviews: 209
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 101Investing_eu
 social:
 - https://www.linkedin.com/company/73520735
 - https://www.facebook.com/101Investing
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

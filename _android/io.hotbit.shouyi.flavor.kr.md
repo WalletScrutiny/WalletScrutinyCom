@@ -1,6 +1,6 @@
 ---
 wsId: bitclover
-title: "BITCLOVER"
+title: BITCLOVER
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: io.hotbit.shouyi.flavor.kr
 appCountry: cn
 released: 2020-07-07
 updated: 2022-03-10
-version: "1.0.73"
-stars: 3.7
+version: 1.0.73
+stars: 3.6796117
 ratings: 600
-reviews: 238
+reviews: 239
 size: 6.5M
 website: https://www.bitclover.io/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: hotbit_korea
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Updated September 17, 2021**

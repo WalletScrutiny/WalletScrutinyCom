@@ -1,5 +1,5 @@
 ---
-title: "Xeeda"
+title: Xeeda
 appId: xeeda
 authors:
 - danny
@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [67, 46, 11]
+dimensions:
+- 67
+- 46
+- 11
 weight: 47
 provider: 
 providerWebsite: 
@@ -26,9 +29,10 @@ date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: xeedaofficial
-social: 
+social:
 - https://www.linkedin.com/company/xeedainc
 - https://www.facebook.com/xeedaofficial
+
 ---
 
 This hardware wallet was featured in [Forbes.com on May 18, 2018](https://www.forbes.com/sites/andrewrossow/2018/05/18/plugging-in-with-the-first-cold-wallet-device-for-your-smartphone/?sh=1bbfb5c97a28)

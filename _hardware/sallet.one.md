@@ -1,5 +1,5 @@
 ---
-title: "Sallet One"
+title: Sallet One
 appId: sallet.one
 authors:
 - danny
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [118, 66, 9.7]
+dimensions:
+- 118
+- 66
+- 9.7
 weight: 138
-provider: "Sallet One"
+provider: Sallet One
 providerWebsite: 
 website: https://salletone.com/
 shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
@@ -27,10 +30,11 @@ date: 2022-03-15
 signer: 
 reviewArchive: 
 twitter: SalletOne
-social: 
+social:
 - https://www.facebook.com/salletone
 - https://www.youtube.com/channel/UCBAbHtt_Uk47csOqMC94dEQ
 - https://medium.com/@Sallet_Atelas
+
 ---
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.

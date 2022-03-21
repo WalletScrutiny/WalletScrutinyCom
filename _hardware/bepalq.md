@@ -1,5 +1,5 @@
 ---
-title: "BEPAL Q"
+title: BEPAL Q
 appId: bepalq
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [26, 40, 6.4]
+dimensions:
+- 26
+- 40
+- 6.4
 weight: 
-provider: "BEPAL"
+provider: BEPAL
 providerWebsite: https://bepal.pro/
 website: https://bepal.pro/bepal-q?type=Bepal%20Q
 shop: https://bepal.pro/bepal-q?type=Bepal%20Q
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 Launched 3 years ago, the website now displays "Website is under maintenance" and "Actively cooperate with the latest industry regulatory policies". 

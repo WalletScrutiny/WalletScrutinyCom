@@ -1,6 +1,6 @@
 ---
 wsId: COINiDVault
-title: "COINiD Vault"
+title: COINiD Vault
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1362831898
 released: 2018-10-02
 updated: 2021-02-20
-version: "1.5.5"
+version: 1.5.5
 stars: 4.09091
 reviews: 11
-size: 12750848
+size: '12750848'
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: 
@@ -22,9 +22,10 @@ meta: stale
 verdict: ftbfs
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: COINiDGroup
-social:
+social: 
+
 ---
 
 This provider states in the App Store description:

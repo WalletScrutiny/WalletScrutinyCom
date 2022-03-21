@@ -1,5 +1,5 @@
 ---
-title: "SecuX STONE W20"
+title: SecuX STONE W20
 appId: secuxstonew20
 authors:
 - kiwilamb
@@ -9,12 +9,17 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [59, 89, 13]
+dimensions:
+- 59
+- 89
+- 13
 weight: 62
-provider: "SecuX Technology Inc."
+provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
-shop: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
+website: >-
+  https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
+shop: >-
+  https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
 country: TW
 price: 119USD
 repository: 
@@ -27,9 +32,10 @@ date: 2021-12-08
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
-social: 
+social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
+
 ---
 
 The device can be paired with a mobile phone app via Bluetooth:

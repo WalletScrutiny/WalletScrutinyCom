@@ -1,6 +1,6 @@
 ---
 wsId: B4UWallet
-title: "B4U Wallet"
+title: B4U Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1491304459
 released: 2019-12-17
 updated: 2021-04-22
-version: "1.0.5"
+version: 1.0.5
 stars: 1
 reviews: 2
 size: 71199744
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial
+
 ---
 
 This app is not well advertised on how the users private keys are managed.

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitbox Bitcoin Wallet & Exchange"
+title: Bitbox Bitcoin Wallet & Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: bitbox.io
 appCountry: 
 released: 2019-05-16
 updated: 2019-07-30
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.EkoWallet
 appCountry: 
+released: 
 updated: 2021-07-12
 version: Varies with device
 stars: 

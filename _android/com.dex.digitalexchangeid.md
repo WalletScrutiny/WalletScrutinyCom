@@ -7,6 +7,7 @@ authors:
 users: 50000
 appId: com.dex.digitalexchangeid
 appCountry: us
+released: 
 updated: 2022-03-10
 version: Varies with device
 stars: 

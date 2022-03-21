@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-02-02
 updated: 2022-03-02
 version: 1.3.9
-stars: 4.08
+stars: 4.14
 ratings: 2457
-reviews: 54
+reviews: 55
 size: 29M
 website: https://mobox.io/
 repository: 

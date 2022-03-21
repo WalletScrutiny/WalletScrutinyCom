@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitAsset: Exchange Bitcoin & Cryptocurrency Now"
+title: 'BitAsset: Exchange Bitcoin & Cryptocurrency Now'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitasset.www
 appCountry: 
 released: 2018-09-20
 updated: 2021-03-23
-version: "3.4.12"
+version: 3.4.12
 stars: 2.7
 ratings: 47
 reviews: 29
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

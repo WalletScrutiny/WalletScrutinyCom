@@ -1,5 +1,5 @@
 ---
-title: "Wallet.io"
+title: Wallet.io
 appId: walletio
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [20, 60, 6]
+dimensions:
+- 20
+- 60
+- 6
 weight: 
-provider: "Wallet.io"
+provider: Wallet.io
 providerWebsite: https://wallet.io/
 website: https://wallet.io/hardware
 shop: 
@@ -27,9 +30,10 @@ date: 2021-07-07
 signer: 
 reviewArchive: 
 twitter: io_wallet
-social: 
+social:
 - https://medium.com/@walletio
 - https://github.com/wallet-io
+
 ---
 
 The provider's site has clear information on this hardware wallet, however we cannot find anyway of buying this product. The provider's [last tweet](https://twitter.com/io_wallet/status/1310456761908826115) from September 2020 announces the product's distribution as "Wallet S1".

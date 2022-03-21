@@ -10,9 +10,9 @@ appCountry: in
 released: 2021-05-17
 updated: 2022-03-12
 version: '1.23'
-stars: 3.975647
+stars: 3.9717681
 ratings: 7090
-reviews: 2219
+reviews: 2223
 size: 21M
 website: https://www.koinbazar.com/
 repository: 

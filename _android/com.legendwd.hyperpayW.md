@@ -1,6 +1,6 @@
 ---
 wsId: hyperPay
-title: "HyperPay: buy & sell BTC,ETH"
+title: 'HyperPay: buy & sell BTC,ETH'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2022-03-05
-version: "4.1.27"
-stars: 4.34
+updated: 2022-03-20
+version: 4.1.28
+stars: 4.33
 ratings: 2781
 reviews: 253
-size: 134M
+size: 123M
 website: https://hyperpay.tech
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: obfuscated
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 redirect_from:
-  - /com.legendwd.hyperpayW/
+- /com.legendwd.hyperpayW/
+
 ---
 
 **Update 2022-01-10**: The app is back online.

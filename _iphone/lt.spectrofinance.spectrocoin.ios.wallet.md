@@ -1,6 +1,6 @@
 ---
 wsId: SpectroCoin
-title: "Bitcoin Wallet by SpectroCoin"
+title: Bitcoin Wallet by SpectroCoin
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 923696089
 released: 2014-12-30
 updated: 2022-02-21
-version: "1.18.2"
+version: 1.18.2
 stars: 3.08333
 reviews: 12
 size: 55626752
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin
 - https://www.facebook.com/spectrocoin
+
 ---
 
 Neither on the description nor on the website can we find any claims about coins

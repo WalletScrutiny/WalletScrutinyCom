@@ -6,6 +6,7 @@ authors:
 users: 50
 appId: com.blockchainappfactory.cryptoexchange
 appCountry: 
+released: 
 updated: 2021-04-13
 version: Varies with device
 stars: 

@@ -1,5 +1,5 @@
 ---
-title: "FINNEY"
+title: FINNEY
 appId: finney
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Sirin Labs"
+provider: Sirin Labs
 providerWebsite: https://sirinlabs.com/
 website: https://sirinlabs.com/
 shop: https://shop.sirinlabs.com/products/finney
@@ -27,9 +27,10 @@ date: 2021-12-04
 signer: 
 reviewArchive: 
 twitter: SIRINLABS
-social: 
+social:
 - https://www.linkedin.com/company/sirin-labs
 - https://www.facebook.com/SirinLabs
+
 ---
 
 <div class="alertBox"><div>

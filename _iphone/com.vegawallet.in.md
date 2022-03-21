@@ -1,6 +1,6 @@
 ---
 wsId: vegaWallet
-title: "VegaWallet"
+title: VegaWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1449594992
 released: 2019-01-16
 updated: 2020-11-06
-version: "3.3"
+version: '3.3'
 stars: 4
 reviews: 8
 size: 69789696
@@ -22,10 +22,11 @@ meta: stale
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vegawallet
 social:
 - https://www.facebook.com/VegaWallet
+
 ---
 
 {% include copyFromAndroid.html %}

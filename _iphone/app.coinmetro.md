@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: "CoinMetro: Crypto Exchange"
+title: 'CoinMetro: Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1397585225
 released: 2018-07-25
 updated: 2022-02-01
-version: "44181"
+version: '44181'
 stars: 2.86567
 reviews: 67
-size: 26108928
+size: '26108928'
 website: https://coinmetro.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinMetro
 social:
 - https://www.linkedin.com/company/coinmetro
 - https://www.facebook.com/CoinMetro
+
 ---
 
 {% include copyFromAndroid.html %}

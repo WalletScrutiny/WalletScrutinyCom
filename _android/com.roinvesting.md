@@ -7,6 +7,7 @@ authors:
 users: 10000
 appId: com.roinvesting
 appCountry: us
+released: 
 updated: 2021-08-25
 version: 1.5.69-roinvesting
 stars: 

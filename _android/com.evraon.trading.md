@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Evraon - trading for everyone. Crypto and stocks"
+title: Evraon - trading for everyone. Crypto and stocks
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.evraon.trading
 appCountry: 
 released: 2019-06-14
 updated: 2022-01-05
-version: "1.7.0"
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Verdict

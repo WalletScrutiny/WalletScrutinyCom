@@ -1,6 +1,6 @@
 ---
 wsId: ownbit
-title: "Ownbit: Cold & MultiSig Wallet"
+title: 'Ownbit: Cold & MultiSig Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1321798216
 released: 2018-02-07
 updated: 2022-03-14
-version: "4.33.0"
+version: 4.33.0
 stars: 4.4
 reviews: 50
 size: 118728704
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

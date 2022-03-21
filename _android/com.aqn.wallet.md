@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Aqua Wallet"
+title: Aqua Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.aqn.wallet
 appCountry: 
 released: 2021-03-05
 updated: 2021-03-05
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nobtc
 date: 2022-03-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **Warning:** This app is similarly named with Blockstream's Aqua wallet. Their logos are different however.

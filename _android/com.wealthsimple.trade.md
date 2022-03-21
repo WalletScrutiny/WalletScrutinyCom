@@ -10,9 +10,9 @@ appCountry: ca
 released: 2019-03-12
 updated: 2022-03-15
 version: 2.30.2
-stars: 4.542662
+stars: 4.5399003
 ratings: 54327
-reviews: 9651
+reviews: 9673
 size: 262M
 website: https://www.wealthsimple.com/trade
 repository: 

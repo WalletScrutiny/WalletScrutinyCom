@@ -1,5 +1,5 @@
 ---
-title: "Crypto Ring"
+title: Crypto Ring
 appId: cryptoring
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The [provider's website](https://cryptoring.io) is inaccessible.

@@ -1,6 +1,6 @@
 ---
 wsId: Airbitz
-title: "Bitcoin Wallet - Airbitz"
+title: Bitcoin Wallet - Airbitz
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.airbitz
 appCountry: 
 released: 2014-04-01
 updated: 2018-09-21
-version: "2.4.12"
+version: 2.4.12
 stars: 3.4
 ratings: 1150
 reviews: 490
@@ -23,14 +23,15 @@ meta: defunct
 verdict: ftbfs
 date: 2021-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /airbitz/
-  - /com.airbitz/
-  - /posts/2019/11/airbitz/
-  - /posts/com.airbitz/
+- /airbitz/
+- /com.airbitz/
+- /posts/2019/11/airbitz/
+- /posts/com.airbitz/
+
 ---
 
 Bitcoin Wallet - Airbitz

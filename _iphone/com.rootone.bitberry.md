@@ -1,6 +1,6 @@
 ---
 wsId: bitberry
-title: "Bitberry : Safe Wallet"
+title: 'Bitberry : Safe Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1411817291
 released: 2018-10-09
 updated: 2022-02-18
-version: "1.3.8"
+version: 1.3.8
 stars: 4.14286
 reviews: 7
 size: 70423552
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2022-02-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

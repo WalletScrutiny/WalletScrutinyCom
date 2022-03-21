@@ -1,5 +1,5 @@
 ---
-title: "Black Metal Crypto Cards"
+title: Black Metal Crypto Cards
 appId: blackmetal
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Crypto Cards"
+provider: Crypto Cards
 providerWebsite: https://cryptocards.store
 website: 
 shop: https://cryptocards.store/product/metal-crypto-wallet/
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Product Description 

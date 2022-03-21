@@ -1,6 +1,6 @@
 ---
 wsId: Sylo
-title: "Sylo - Smart Wallet & Messenger"
+title: Sylo - Smart Wallet & Messenger
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.sylo.dapp
 appCountry: 
 released: 2019-09-10
 updated: 2022-02-11
-version: "3.1.40"
+version: 3.1.40
 stars: 4.038961
 ratings: 758
 reviews: 44
@@ -23,15 +23,16 @@ meta: ok
 verdict: nosource
 date: 2020-06-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: sylo
 social:
 - https://www.linkedin.com/company/sylo.io
 - https://www.facebook.com/sylo.io
 - https://www.reddit.com/r/sylo_io
 redirect_from:
-  - /io.sylo.dapp/
-  - /posts/io.sylo.dapp/
+- /io.sylo.dapp/
+- /posts/io.sylo.dapp/
+
 ---
 
 This app recently came to our attention as it "can be used to buy coke with

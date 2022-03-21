@@ -1,5 +1,5 @@
 ---
-title: "Zero Trace"
+title: Zero Trace
 appId: zerotrace
 authors:
 - danny
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Zero Trace"
+provider: Zero Trace
 providerWebsite: 
 website: https://zerotrace.org
 shop: https://zerotrace.org/product/zerotracepen/
@@ -27,8 +27,9 @@ date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.facebook.com/zerotrace.org
+
 ---
 
 ## Product Description

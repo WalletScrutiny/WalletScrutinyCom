@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet"
+title: Bitcoin Wallet & BNB, BEP20, ERC20 Tokens Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitcoin.wallet.cryptopuce
 appCountry: 
 released: 2021-03-07
 updated: 2021-05-20
-version: "1.2"
+version: '1.2'
 stars: 4.9
 ratings: 70
 reviews: 3
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-09**: This app is no more.

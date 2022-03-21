@@ -1,5 +1,5 @@
 ---
-title: "D'CENT Biometric Wallet"
+title: D'CENT Biometric Wallet
 appId: dcentbiometric
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2019-06-28
 discontinued: 
 updated: 2021-11-25
-version: "v2.16.7.bdd9"
+version: v2.16.7.bdd9
 binaries: 
-dimensions: [78.2, 43.2, 10.8]
+dimensions:
+- 78.2
+- 43.2
+- 10.8
 weight: 36
-provider: "IOTrust"
+provider: IOTrust
 providerWebsite: https://iotrust.kr/
 website: https://dcentwallet.com/products/BiometricWallet
 shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
@@ -28,9 +31,10 @@ date: 2021-12-04
 signer: 
 reviewArchive: 
 twitter: DCENTwallets
-social: 
+social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
+
 ---
 
 ## Private keys can be created offline - ✔️

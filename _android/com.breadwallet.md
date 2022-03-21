@@ -9,7 +9,7 @@ appId: com.breadwallet
 appCountry: 
 released: 2016-07-21
 updated: 2022-03-18
-version: 4.16.0
+version: 4.18.0
 stars: 3.689769
 ratings: 33632
 reviews: 1463

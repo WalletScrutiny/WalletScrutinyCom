@@ -1,5 +1,5 @@
 ---
-title: "Ledger Nano S"
+title: Ledger Nano S
 appId: ledgerNanoS
 authors:
 - leo
@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [56.95, 17.4, 9.1]
+dimensions:
+- 56.95
+- 17.4
+- 9.1
 weight: 16.2
 provider: 
 providerWebsite: 
@@ -26,13 +29,14 @@ date: 2021-08-01
 signer: 
 reviewArchive: 
 twitter: Ledger
-social: 
+social:
 - https://www.linkedin.com/company/ledgerhq
 - https://www.facebook.com/Ledger
 - https://www.reddit.com/r/ledgerwallet
 - https://www.instagram.com/ledger
 - https://www.youtube.com/Ledger
 - https://www.tiktok.com/@ledger
+
 ---
 
 Ledger has this to say about their technology:

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitplicity Bitcoin Wallet - Buy & Sell Crypto"
+title: Bitplicity Bitcoin Wallet - Buy & Sell Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.Bitplicity.Bitplicityapp
 appCountry: 
 released: 2020-06-06
 updated: 2020-06-19
-version: "1.4"
+version: '1.4'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

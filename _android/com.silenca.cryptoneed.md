@@ -4,7 +4,7 @@ title: 'Cryptoneed: универсальный криптокошелек и о�
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.silenca.cryptoneed
 appCountry: us
 released: 2020-04-15

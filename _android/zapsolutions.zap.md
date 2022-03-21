@@ -7,6 +7,7 @@ authors:
 users: 10000
 appId: zapsolutions.zap
 appCountry: 
+released: 
 updated: 2022-01-29
 version: Varies with device
 stars: 

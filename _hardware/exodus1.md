@@ -1,5 +1,5 @@
 ---
-title: "HTC Exodus 1"
+title: HTC Exodus 1
 appId: exodus1
 authors:
 - kiwilamb
@@ -12,7 +12,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "HTC"
+provider: HTC
 providerWebsite: https://www.htcexodus.com
 website: https://www.htcexodus.com/us/cryptophone/exodus1/
 shop: 
@@ -28,10 +28,11 @@ date: 2021-11-26
 signer: 
 reviewArchive: 
 twitter: htcexodus
-social: 
+social:
 - https://www.facebook.com/htcexodus
 - https://www.reddit.com/r/HTCExodus
 - https://github.com/htczion
+
 ---
 
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.

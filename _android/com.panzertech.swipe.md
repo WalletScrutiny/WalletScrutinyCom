@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Panzer Wallet"
+title: Panzer Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.panzertech.swipe
 appCountry: 
 released: 2019-05-20
 updated: 2020-03-30
-version: "1.7"
+version: '1.7'
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.panzertech.swipe.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-09-01
+date: 2022-03-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

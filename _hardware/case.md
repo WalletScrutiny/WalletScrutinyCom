@@ -1,5 +1,5 @@
 ---
-title: "Case"
+title: Case
 appId: case
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "CryptoLabs"
+provider: CryptoLabs
 providerWebsite: https://choosecase.com
 website: https://choosecase.com
 shop: https://choosecase.com
@@ -26,8 +26,9 @@ date: 2021-07-18
 signer: 
 reviewArchive: 
 twitter: CaseWallet
-social: 
+social:
 - https://www.facebook.com/casewallet
+
 ---
 
 There are a numnber of reasons why this verdict is defunct.

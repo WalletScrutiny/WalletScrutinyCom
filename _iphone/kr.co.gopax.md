@@ -1,6 +1,6 @@
 ---
 wsId: gopax
-title: "GOPAX"
+title: GOPAX
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: kr
 idd: 1369896843
 released: 2018-06-21
 updated: 2022-03-04
-version: "1.8.3"
-stars: 2.83182
-reviews: 440
-size: 53275648
+version: 1.8.3
+stars: 2.82688
+reviews: 439
+size: '53275648'
 website: https://www.gopax.co.kr/notice
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
  {% include copyFromAndroid.html %}

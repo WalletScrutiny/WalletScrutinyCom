@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Paybis: Buy & Sell Bitcoin | Track Prices and more"
+title: 'Paybis: Buy & Sell Bitcoin | Track Prices and more'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.paybis
 appCountry: 
 released: 2021-09-06
 updated: 2021-10-07
-version: "1.0.3"
+version: 1.0.3
 stars: 3.0666666
 ratings: 173
 reviews: 11
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paybis
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

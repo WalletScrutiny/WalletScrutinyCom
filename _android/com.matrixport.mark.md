@@ -10,9 +10,9 @@ appCountry: cn
 released: 2019-10-23
 updated: 2022-03-14
 version: 1.3.8
-stars: 4.2265625
+stars: 4.254237
 ratings: 1103
-reviews: 662
+reviews: 669
 size: 112M
 website: https://invest.matrixport.com
 repository: 

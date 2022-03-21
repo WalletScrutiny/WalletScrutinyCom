@@ -1,5 +1,5 @@
 ---
-title: "KeyWallet Pro"
+title: KeyWallet Pro
 appId: keywalletpro
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware wallet looks to be defunct, the provider's [main site is not accessible](http://www.keywallet.co.kr) 

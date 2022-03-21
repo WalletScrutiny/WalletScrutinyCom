@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Bolsa: Forex Stock Market Game"
+title: 'Bolsa: Forex Stock Market Game'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1267910740
 released: 2017-08-28
 updated: 2021-10-01
-version: "2.2"
+version: '2.2'
 stars: 5
 reviews: 7
-size: 44812288
+size: '44812288'
 website: https://bolsa.app
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

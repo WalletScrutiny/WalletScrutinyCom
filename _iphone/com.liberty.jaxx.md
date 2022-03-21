@@ -1,6 +1,6 @@
 ---
 wsId: jaxxliberty
-title: "Jaxx Liberty - Trade Crypto"
+title: Jaxx Liberty - Trade Crypto
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1435383184
 released: 2018-10-03
 updated: 2021-09-27
-version: "2.6.5"
-stars: 4.51675
-reviews: 1492
-size: 48546816
+version: 2.6.5
+stars: 4.5174
+reviews: 1494
+size: '48546816'
 website: https://jaxx.io
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jaxx_io
 social:
 - https://www.facebook.com/JaxxWallet
+
 ---
 
 This app is non-custodial:

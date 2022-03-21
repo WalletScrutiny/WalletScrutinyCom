@@ -7,12 +7,12 @@ users: 100
 appId: im.yitoken.app.g2
 appCountry: 
 released: 2021-06-15
-updated: 2022-01-24
-version: 1.2.9
+updated: 2022-03-20
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 31M
 website: https://yitoken.im
 repository: 
 issue: 

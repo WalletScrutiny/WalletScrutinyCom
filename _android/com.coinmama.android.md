@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coinmama - Buy & Sell cryptocurrency"
+title: Coinmama - Buy & Sell cryptocurrency
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinmama.android
 appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
-version: "0.17.0"
+version: 0.17.0
 stars: 2.7419355
 ratings: 105
 reviews: 13
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinmama
 social:
 - https://www.linkedin.com/company/coinmama
-redirect_from:
+redirect_from: 
+
 ---
 
 ## App Description

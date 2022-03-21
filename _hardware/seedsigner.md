@@ -1,16 +1,16 @@
 ---
-title: "Seed Signer"
+title: Seed Signer
 appId: seedsigner
 authors:
 - danny
 released: 2020-12-20
 discontinued: 
 updated: 2021-11-21
-version: "0.4.5"
+version: 0.4.5
 binaries: 
 dimensions: 
 weight: 
-provider: "Seed Signer"
+provider: Seed Signer
 providerWebsite: 
 website: https://seedsigner.com/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: SeedSigner
 social: 
+
 ---
 
 The Seed Signer is a truly Open Source project that lowers the barrier for entry for airgapped multi-signature cryptocurrency hardware wallets. The code is publicly available as are the instructions for assembly. 

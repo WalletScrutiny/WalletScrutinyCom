@@ -1,6 +1,6 @@
 ---
 wsId: bitay
-title: "Bitay - Easy Bitcoin Exchange"
+title: Bitay - Easy Bitcoin Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1458595661
 released: 2019-04-14
 updated: 2020-11-07
-version: "2.1.0"
+version: 2.1.0
 stars: 4.14286
 reviews: 7
 size: 13966336
@@ -22,10 +22,11 @@ meta: stale
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
+
 ---
 
 Site Description:

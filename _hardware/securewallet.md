@@ -1,5 +1,5 @@
 ---
-title: "Secure Wallet"
+title: Secure Wallet
 appId: securewallet
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 0.84]
+dimensions:
+- 54
+- 85
+- 0.84
 weight: 
-provider: "ECOMI Technologies PTE"
+provider: ECOMI Technologies PTE
 providerWebsite: https://www.ecomi.com/
 website: https://securewallet.shop/
 shop: https://securewallet.shop/products/secure-wallet
@@ -27,9 +30,10 @@ date: 2021-12-08
 signer: 
 reviewArchive: 
 twitter: ecomi_
-social: 
+social:
 - https://www.linkedin.com/company/ecomi-technology
 - https://www.facebook.com/ecomi.ecosystem
+
 ---
 
 **NOTE:** Secure Wallet is temporarily sold out.
