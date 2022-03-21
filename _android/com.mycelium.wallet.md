@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-03-10
+date: 2022-03-21
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-03-10
+  version: 3.13.9.0
+  appHash: 52a78db950f41fb53908b35fba38f3504e423559b3905108ef0b5bae600b92a1
+  gitRevision: cf522558f6ac756a97d6c491488cbb13f4130a0e
+  verdict: reproducible
 - date: 2022-02-17
   version: 3.13.6.0
   appHash: cda50955219b1f09362870a25115722b947cadf90a0fb8ac74ec23d3270763fa
@@ -217,24 +222,25 @@ procedure expressed in our
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.13.9.0
-apkVersionCode: 3130900
+apkVersionName: 3.14.0.0
+apkVersionCode: 3140000
 verdict:        reproducible
-appHash:        52a78db950f41fb53908b35fba38f3504e423559b3905108ef0b5bae600b92a1
-commit:         44b68b1604d29dbc7d58fb21a4dc625e3a7cdfa6
+appHash:        c08c972527244350dfa2ed79db34d10dd64603798552b3f8f04b8ae5cded0de2
+commit:         ed4b0bc6f5e9ca588182cb2553fbca46de98246a
 
 Diff:
-Files /home/leo/tmp/fromPlay_com.mycelium.wallet_3130900/META-INF/CERT.RSA and /home/leo/tmp/fromBuild_com.mycelium.wallet_3130900/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3140000/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3140000/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object 44b68b1604d29dbc7d58fb21a4dc625e3a7cdfa6
+object ed4b0bc6f5e9ca588182cb2553fbca46de98246a
 type commit
-tag v3.13.9.0
-tagger itserg <sergey.dolgopolov@mycelium.com> 1644928543 +0300
+tag v3.14.0.0
+tagger agneslovelace  1647408566 +0300
 
-Fixed issues when creating a Single Address account from an address
+Added network state banner on main screen
+Fixed crash when scanning bitcoin addresses from cold storage menu
+Fixed crash when trying to send Btcv
 ===== End Results =====
-
 ```
 
 which is what we want to see to give this wallet the verdict: **reproducible**

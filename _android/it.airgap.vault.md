@@ -21,9 +21,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2022-03-01
+date: 2022-03-21
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-03-01
+  version: "3.15.0"
+  appHash: 44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453
+  gitRevision: cf522558f6ac756a97d6c491488cbb13f4130a0e
+  verdict: obfuscated
 - date: 2022-02-17
   version: 3.14.0
   appHash: 43050fca861ef7dcf835a0bfb269e01177ba01aa292f134b38da26bb569c1f2b
@@ -156,26 +161,35 @@ which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.15.0
-apkVersionCode: 38901
+apkVersionName: 3.15.1
+apkVersionCode: 39456
 verdict:        
-appHash:        44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453
-commit:         95acb6433b7f9e74c45266ec64119b9da55520b0
+appHash:        ce55bb42ea14cc6e11dc4a802c9e045029cc15152458a41d9a8fd76b7f6064c4
+commit:         e4d407f3e2707af4aa53287e6f7e78359e3b9db2
 
 Diff:
-Files /home/leo/tmp/fromPlay_it.airgap.vault_38901/assets/public/index.html and /home/leo/tmp/fromBuild_it.airgap.vault_38901/assets/public/index.html differ
-Only in /home/leo/tmp/fromBuild_it.airgap.vault_38901/assets/public: main.75ce8505f84293f82c3f.js
-Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/assets/public: main.c8dc3831a497537675b1.js
-Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: MANIFEST.MF
-Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: PAPERS.RSA
-Only in /home/leo/tmp/fromPlay_it.airgap.vault_38901/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_39456/assets/public: 3.5a9c4e98d51999ad15a4.js
+Only in /tmp/fromBuild_it.airgap.vault_39456/assets/public: 3.7b3b1c20ea4da581d9b2.js
+Files /tmp/fromPlay_it.airgap.vault_39456/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_39456/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_39456/assets/public: main.288defb02ed7b5fae731.js
+Only in /tmp/fromPlay_it.airgap.vault_39456/assets/public: main.32180b027b184f037ef5.js
+Only in /tmp/fromPlay_it.airgap.vault_39456/assets/public: runtime.08084bd89534cb816de6.js
+Only in /tmp/fromBuild_it.airgap.vault_39456/assets/public: runtime.ba9d2467a394032e87bc.js
+Only in /tmp/fromPlay_it.airgap.vault_39456/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_39456/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_39456/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
+object e4d407f3e2707af4aa53287e6f7e78359e3b9db2
+type commit
+tag v3.15.1
+tagger Mike Godenzi <m.godenzi@papers.ch> 1647505882 +0100
 
+version 3.15.1
 ===== End Results =====
 ```
 
-The app is not reproducible and as with prior versions, the differing code is
+The app is **not verifiable** and as with prior versions, the differing code is
 **obfuscated**.
 
 As the provider doesn't address this issue since at least one year now, we
