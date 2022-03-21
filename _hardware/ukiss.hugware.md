@@ -18,7 +18,7 @@ country: SG
 price: 139USD
 repository: 
 issue: 
-icon: ukisshugware.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: unreleased

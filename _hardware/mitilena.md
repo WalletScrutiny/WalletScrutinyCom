@@ -18,7 +18,7 @@ country: CZ
 price: 146.9USD
 repository: 
 issue: 
-icon: noicon.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: wip
