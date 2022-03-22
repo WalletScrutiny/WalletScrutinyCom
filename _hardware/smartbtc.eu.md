@@ -21,7 +21,7 @@ issue:
 icon: smartbtc.eu.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: nowallet
 date: 2021-03-11
 signer: 
 reviewArchive: 

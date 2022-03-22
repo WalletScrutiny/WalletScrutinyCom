@@ -18,7 +18,7 @@ country: SG
 price: 139USD
 repository: 
 issue: 
-icon: 
+icon: ukiss.hugware.png
 bugbounty: 
 meta: ok
 verdict: unreleased

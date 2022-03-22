@@ -64,6 +64,6 @@ We could not find any documentation on how the Excel Secucard S300 specifically 
 - The product is marketed as a bitcoin hardware wallet albeit with sparse documentation
 - It has both input and output interfaces suitable for generating a QR code.
 - It claims to have a secure element 
-- We could not find a companion app with the same name
+- We could not find a companion app
 
 We have no way of knowing how the private key is stored and **could not find any linked publicly available source code**. We also could not find tutorials or relevant reviews. Assuming that we take their word for it that the device is indeed a bitcoin hardware wallet and functions as such, and without knowledge whether the **private keys are created during the manufacturing process**, we can only make an educated guess for the verdict.

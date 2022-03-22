@@ -21,7 +21,7 @@ issue:
 icon: quickxtouch.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: noita
 date: 2021-03-09
 signer: 
 reviewArchive: 
@@ -51,7 +51,7 @@ More features:
 
 ## Wallet Creation and Private keys
 
-The card is primarily an NFC device which can connect with an Android phone with NFC capabilities. It has a companion app: {% include walletLink.html wallet='android/kr.co.keypair.quickxtouch2' verdict='true' %} which is [no longer](https://play.google.com/store/apps/details?id=kr.co.keypair.quickxtouch2) available as of February 20, 2022. 
+The card is primarily an NFC device which can connect with an Android phone with NFC capabilities. It has a companion app: {% include walletLink.html wallet='android/kr.co.keypair.quickxtouch' verdict='true' %} and its successor {% include walletLink.html wallet='android/kr.co.keypair.quickxtouch2' verdict='true' %}, both of which are no longer available as of February 20, 2022. 
 
 A third-party video tutorial on [YouTube](https://www.youtube.com/watch?v=5f_NSVqzSn0) details how to create a wallet with QuickXTouch: 
 
