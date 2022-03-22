@@ -53,11 +53,4 @@ We could not find any specifications or pictures for the flash drives they claim
 
 Other sources for information about this product is a Czech website with the word "invest" in their domain. We found it difficult to give a verdict for this product. At the very least, we know that it is **not a hardware wallet**. Since we have to pay to access the software, we were not able to see precisely how it works. It is possible to generate a wallet from their site using a browser. The user has to disconnect the computer and load a private tab or window to commence. Then it will show the [generated private key](https://generate.mitilena.com) on the browser. 
 
-The walletscrutiny.com [methodology](https://walletscrutiny.com/methodology) describes hardware wallets: 
-
-> For the purpose of this project we adhere to higher standards in the hardware wallet section. We only consider a hardware wallet if dedicated hardware protects the private keys in a way that leaves the user in full and exclusive control of what transactions he signs or not. That means:
->
-> - The device allows to create private keys offline
-> - The device never shares private key material apart from an offline backup mechanism
-> - The device displays receive addresses for confirmation
-> - The device shares signed transactions after informed approval on the device without reliance on insecure external hardware
+Our standards require [no reliance on insecure external hardware](https://walletscrutiny.com/methodology).

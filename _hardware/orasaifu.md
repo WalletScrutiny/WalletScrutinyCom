@@ -30,7 +30,7 @@ social:
   - https://www.facebook.com/OraSaifu/
 ---
 
-The IndieGogo page for this product is now inaccessible, stating:
+The now unavailable IndieGogo page for this product stated:
 
 > "OraSaifu: First All In One Smart Wallet" is under review. It is not accepting contributions.
 
@@ -38,7 +38,7 @@ The IndieGogo page for this product is now inaccessible, stating:
 
 [Orasaifu.io](https://www.orasaifu.io/) is also down.
 
-A [Reddit post from 2019](https://www.reddit.com/r/Bitcoin/comments/bh6u0k/indiegogo_project_refunded_their_backers_in/) stated that OraSaifu was planning on refunding their backers with BTC as the project had failed. This was in April 2019.
+A [Reddit post from April 2019](https://www.reddit.com/r/Bitcoin/comments/bh6u0k/indiegogo_project_refunded_their_backers_in/) stated that OraSaifu was planning on refunding their backers with BTC as the project had failed.
 
 The author of the post claimed that:
 

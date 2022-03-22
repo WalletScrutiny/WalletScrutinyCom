@@ -1,6 +1,6 @@
 ---
 title: "OiX Global Hardware Wallet"
-appId: oixglobal
+appId: oixbio
 authors:
 - danny
 released: 
@@ -32,7 +32,7 @@ social:
   - https://www.t.me/oix_global/
 ---
 
-**⚠️ Note:** Crunchbase lists [OiX Global's](https://www.crunchbase.com/organization/oix-open-investment-exchange) founding date to be July 16, 2017. OiX Global also offered ISO (Initial Securities Offerings) which are similar to ICOs, except that they are "more regulated".
+**⚠️ Note:** Crunchbase lists [OiX Global's](https://www.crunchbase.com/organization/oix-open-investment-exchange) founding date to be July 16, 2017. OiX Global also did an ISO (Initial Securities Offerings) which are similar to ICOs, except that they are "more regulated".
 
 ## [Claimed Product Features](https://www.oix.global/wallet)
 
@@ -51,7 +51,7 @@ Curiously, OiX Global seems to reference another wallet called "[Yelo One](https
 
 Yelo One also held an ICO.
 
-It is also claimed that the hardware wallet is "paired" via BlueTooth to a mobile app. We tried looking for an "OiX Global" or "OiX Bio" mobile app, but could not find any.
+It is also claimed that the hardware wallet can be paired via BlueTooth with a mobile app. We searched for an "OiX Global" or "OiX Bio" mobile app, but could not find any.
 
 ## Analysis 
 

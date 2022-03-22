@@ -21,7 +21,7 @@ issue:
 icon: nitrokey.hsm2.png
 bugbounty: 
 meta: ok
-verdict: noita 
+verdict: nowallet
 date: 2021-03-10
 signer: 
 reviewArchive: 
@@ -95,4 +95,4 @@ From the description on Smartbtc.eu's page:
 >
 > Because I could not find a solution (a "wallet") built on a general purpose smartcard (the so called PKCS#11 type), I decided to write a simple programm to do Bitcoin transactions with a smartcard. The same smartcard that I can also use for ssh-login and encryption.
 
-In conclusion, the only drawback that we can see from using the HSM2 as a Bitcoin wallet is that the **HSM2 does not have any display or input interfaces**. 
+In conclusion, this device is a secure element for the use in Bitcoin wallets but **no wallet itself**. 

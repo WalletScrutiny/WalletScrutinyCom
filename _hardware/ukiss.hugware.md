@@ -1,6 +1,6 @@
 ---
 title: "UKISS Hugware®"
-appId: ukisshugware
+appId: ukiss.hugware
 authors:
 - danny
 released: 
