@@ -13,7 +13,7 @@ version: 1.0.17
 stars: 4.23076
 reviews: 13
 size: '125813760'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.giottus.app.jpg

@@ -12,7 +12,7 @@ updated: 2022-03-08
 version: 0.1.72
 stars: 4.44681
 reviews: 47
-size: 48262144
+size: '48262144'
 website: https://genesisblock.com
 repository: 
 issue: 

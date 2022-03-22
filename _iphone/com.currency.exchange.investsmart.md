@@ -12,7 +12,7 @@ updated: 2022-03-11
 version: 1.22.6
 stars: 4.90698
 reviews: 43
-size: 59169792
+size: '59169792'
 website: https://currency.com/
 repository: 
 issue: 

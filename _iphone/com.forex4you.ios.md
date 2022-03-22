@@ -12,7 +12,7 @@ updated: 2021-12-10
 version: '5.0'
 stars: 4.74908
 reviews: 271
-size: 112004096
+size: '112004096'
 website: https://www.forex4you.com/en/contacts/
 repository: 
 issue: 

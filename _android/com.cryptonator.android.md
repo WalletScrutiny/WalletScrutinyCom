@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-01
 updated: 2022-01-30
 version: '4.2'
-stars: 3.26
+stars: 3.22
 ratings: 5270
-reviews: 138
+reviews: 139
 size: 9.0M
 website: https://www.cryptonator.com
 repository: 

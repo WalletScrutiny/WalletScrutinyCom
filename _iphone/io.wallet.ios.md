@@ -12,7 +12,7 @@ updated: 2021-11-19
 version: 1.14.1
 stars: 3.61111
 reviews: 18
-size: 82045952
+size: '82045952'
 website: https://wallet.io/
 repository: 
 issue: 

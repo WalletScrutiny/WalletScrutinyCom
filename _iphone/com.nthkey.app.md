@@ -11,7 +11,7 @@ updated: 2021-11-02
 version: 1.0.6
 stars: 3
 reviews: 2
-size: 2874368
+size: '2874368'
 website: https://nthkey.com
 repository: 
 issue: 

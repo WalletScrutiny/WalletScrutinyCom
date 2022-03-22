@@ -12,7 +12,7 @@ updated: 2021-07-04
 version: 1.9.5
 stars: 3.95833
 reviews: 24
-size: 26215424
+size: '26215424'
 website: >-
   https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
 repository: 

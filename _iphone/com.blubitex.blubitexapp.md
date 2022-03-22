@@ -12,7 +12,7 @@ updated: 2022-03-12
 version: 3.1.339
 stars: 4.33333
 reviews: 3
-size: 88302592
+size: '88302592'
 website: https://www.blubitex.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.1.9
 stars: 3.50612
 reviews: 245
 size: '73507840'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.ftx.FTXMobile.FTXUS.jpg

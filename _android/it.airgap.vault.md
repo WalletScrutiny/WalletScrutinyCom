@@ -25,7 +25,7 @@ date: 2022-03-21
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2022-03-01
-  version: "3.15.0"
+  version: 3.15.0
   appHash: 44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453
   gitRevision: cf522558f6ac756a97d6c491488cbb13f4130a0e
   verdict: obfuscated

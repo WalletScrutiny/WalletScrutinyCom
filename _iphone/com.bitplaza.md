@@ -11,7 +11,7 @@ updated: 2018-10-09
 version: '1.0'
 stars: 4.36364
 reviews: 11
-size: 32704512
+size: '32704512'
 website: https://www.bitplazashopping.com/
 repository: 
 issue: 

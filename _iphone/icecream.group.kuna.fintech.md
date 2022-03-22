@@ -12,7 +12,7 @@ updated: 2022-03-02
 version: 4.0.5
 stars: 2.77778
 reviews: 9
-size: 105120768
+size: '105120768'
 website: http://kuna.io
 repository: 
 issue: 

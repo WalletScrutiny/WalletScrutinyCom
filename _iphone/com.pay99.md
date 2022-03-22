@@ -13,7 +13,7 @@ version: 7.1.10
 stars: 4.32287
 reviews: 319
 size: '202465280'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.pay99.jpg

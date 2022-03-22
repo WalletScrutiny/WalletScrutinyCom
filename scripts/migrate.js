@@ -19,6 +19,9 @@ const migration = function(header, body, fileName, folder) {
     header.provider = header.provider || header.company || null
     header.providerWebsite = header.providerWebsite || header.companywebsite || null
   }
+  if (header.website != null && !header.website.startsWith('http')) {
+    header.website = null
+  }
   if (header.icon && header.icon.slice(0, -4) != header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`
     console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!

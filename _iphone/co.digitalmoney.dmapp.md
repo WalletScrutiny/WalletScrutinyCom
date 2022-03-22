@@ -13,7 +13,7 @@ version: 1.4.1
 stars: 0
 reviews: 0
 size: '36362240'
-website: ''
+website: 
 repository: 
 issue: 
 icon: co.digitalmoney.dmapp.jpg

@@ -10,9 +10,9 @@ idd: 1515134261
 released: 2021-02-25
 updated: 2021-07-27
 version: 1.0.2
-stars: 
-reviews: 
-size: 210077696
+stars: 0
+reviews: 0
+size: '210077696'
 website: https://mydreambit.com/
 repository: 
 issue: 

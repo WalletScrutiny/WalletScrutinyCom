@@ -13,7 +13,7 @@ version: '4.1'
 stars: 4.82437
 reviews: 689
 size: '19165184'
-website: ''
+website: 
 repository: 
 issue: 
 icon: Tissatech.Bit-Wallet.jpg

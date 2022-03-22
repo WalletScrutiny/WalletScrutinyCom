@@ -10,9 +10,9 @@ idd: 1555493299
 released: 2021-09-21
 updated: 2022-03-08
 version: 1.1.2
-stars: 
-reviews: 
-size: 30143488
+stars: 0
+reviews: 0
+size: '30143488'
 website: https://bitcoinsuisse.com/
 repository: 
 issue: 

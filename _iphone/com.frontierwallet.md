@@ -12,7 +12,7 @@ updated: 2022-03-10
 version: 4.3.0
 stars: 5
 reviews: 26
-size: 110660608
+size: '110660608'
 website: https://frontier.xyz
 repository: 
 issue: 

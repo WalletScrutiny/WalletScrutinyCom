@@ -11,7 +11,7 @@ updated: 2022-03-13
 version: 2.2.211
 stars: 4.48113
 reviews: 106
-size: 175381504
+size: '175381504'
 website: https://big.one
 repository: 
 issue: 

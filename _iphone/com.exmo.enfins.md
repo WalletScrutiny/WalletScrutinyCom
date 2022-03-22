@@ -13,7 +13,7 @@ updated: 2022-03-11
 version: 2.18.4
 stars: 3.83333
 reviews: 42
-size: 68920320
+size: '68920320'
 website: https://exmo.com/en
 repository: 
 issue: 

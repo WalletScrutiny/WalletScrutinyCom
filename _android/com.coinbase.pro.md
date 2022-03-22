@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-06
 updated: 2022-03-08
 version: 1.0.93
-stars: 3.003296
+stars: 3.0176241
 ratings: 22040
-reviews: 4267
+reviews: 4271
 size: 57M
 website: http://pro.coinbase.com/
 repository: 

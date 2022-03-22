@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: CoinMetro
+title: Coinmetro
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: app.coinmetro
 appCountry: us
 released: 2017-12-10
-updated: 2022-01-31
-version: 4.4.191
+updated: 2022-03-21
+version: 4.4.199
 stars: 3.06
 ratings: 419
 reviews: 72

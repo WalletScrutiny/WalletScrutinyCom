@@ -13,7 +13,7 @@ version: 2.0.20
 stars: 5
 reviews: 3
 size: '71685120'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.buda.crypto.jpg

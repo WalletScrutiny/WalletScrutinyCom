@@ -12,7 +12,7 @@ updated: 2021-12-13
 version: 1.3.8
 stars: 4.25926
 reviews: 27
-size: 62630912
+size: '62630912'
 website: https://nominex.io
 repository: 
 issue: 

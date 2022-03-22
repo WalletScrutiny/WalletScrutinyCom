@@ -10,9 +10,9 @@ idd: 892856882
 released: 2014-07-06
 updated: 2022-03-02
 version: '4.18'
-stars: 
-reviews: 
-size: 79181824
+stars: 0
+reviews: 0
+size: '79181824'
 website: https://exante.eu/
 repository: 
 issue: 

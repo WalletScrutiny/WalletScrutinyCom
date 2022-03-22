@@ -12,7 +12,7 @@ updated: 2022-03-02
 version: 4.4.0
 stars: 4.54412
 reviews: 68
-size: 66513920
+size: '66513920'
 website: https://www.mercury.cash/
 repository: 
 issue: 

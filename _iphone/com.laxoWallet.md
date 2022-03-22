@@ -12,7 +12,7 @@ updated: 2022-03-08
 version: 2.2.8
 stars: 4.95833
 reviews: 48
-size: 91933696
+size: '91933696'
 website: https://volt.id/
 repository: 
 issue: 

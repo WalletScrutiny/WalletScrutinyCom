@@ -12,7 +12,7 @@ updated: 2021-06-18
 version: 1.0.5
 stars: 4
 reviews: 12
-size: 37642240
+size: '37642240'
 website: https://www.bitwells.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.6.15
 stars: 0
 reviews: 0
 size: '54119424'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.arrowsys.lilka.jpg

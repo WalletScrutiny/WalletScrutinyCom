@@ -12,7 +12,7 @@ updated: 2022-03-14
 version: 1.27.0
 stars: 4.58063
 reviews: 2034
-size: 73118720
+size: '73118720'
 website: https://www.poloniex.com
 repository: 
 issue: 

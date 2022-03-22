@@ -12,7 +12,7 @@ updated: 2021-08-24
 version: 2.0.6
 stars: 2.11538
 reviews: 26
-size: 40311808
+size: '40311808'
 website: https://trade.mn
 repository: 
 issue: 

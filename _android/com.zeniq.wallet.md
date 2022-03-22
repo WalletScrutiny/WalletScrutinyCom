@@ -8,7 +8,7 @@ users: 50000
 appId: com.zeniq.wallet
 appCountry: 
 released: 
-updated: 2022-03-14
+updated: 2022-03-21
 version: Varies with device
 stars: 
 ratings: 

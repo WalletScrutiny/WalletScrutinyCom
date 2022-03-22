@@ -12,7 +12,7 @@ updated: 2021-12-16
 version: 2.5.2
 stars: 4.5
 reviews: 6
-size: 53334016
+size: '53334016'
 website: https://www.bytesmix.com
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-10
 updated: 2022-02-11
 version: 3.1.40
-stars: 4.038961
+stars: 3.987013
 ratings: 758
-reviews: 44
+reviews: 45
 size: 335M
 website: http://www.sylo.io
 repository: 

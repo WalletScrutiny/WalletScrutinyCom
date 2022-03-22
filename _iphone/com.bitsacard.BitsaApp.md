@@ -12,7 +12,7 @@ updated: 2022-03-15
 version: 2.7.8
 stars: 3
 reviews: 7
-size: 93787136
+size: '93787136'
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 

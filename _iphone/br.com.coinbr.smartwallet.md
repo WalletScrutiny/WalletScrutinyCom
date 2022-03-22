@@ -12,7 +12,7 @@ updated: 2021-11-02
 version: 2.0.28
 stars: 4.5
 reviews: 2
-size: 12990464
+size: '12990464'
 website: https://stratum.hk/press
 repository: 
 issue: 

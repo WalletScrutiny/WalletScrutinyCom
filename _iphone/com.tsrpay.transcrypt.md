@@ -12,7 +12,7 @@ updated: 2022-03-06
 version: 2.08.8
 stars: 4.43478
 reviews: 23
-size: 92818432
+size: '92818432'
 website: https://tizer.io
 repository: 
 issue: 

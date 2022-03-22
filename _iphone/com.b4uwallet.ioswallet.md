@@ -12,7 +12,7 @@ updated: 2021-04-22
 version: 1.0.5
 stars: 1
 reviews: 2
-size: 71199744
+size: '71199744'
 website: https://b4uwallet.com/
 repository: 
 issue: 

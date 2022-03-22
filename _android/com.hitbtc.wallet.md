@@ -4,7 +4,7 @@ title: HitBTC Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.hitbtc.wallet
 appCountry: au
 released: 2021-08-31

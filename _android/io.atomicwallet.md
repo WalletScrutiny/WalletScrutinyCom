@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-30
 updated: 2022-03-16
 version: 0.84.1
-stars: 4.2011952
+stars: 4.2057652
 ratings: 62655
-reviews: 5034
+reviews: 5036
 size: 16M
 website: https://atomicwallet.io
 repository: 

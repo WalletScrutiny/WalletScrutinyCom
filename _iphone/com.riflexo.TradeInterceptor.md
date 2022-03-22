@@ -12,7 +12,7 @@ updated: 2022-03-07
 version: 6.7.3
 stars: 4.79114
 reviews: 474
-size: 171082752
+size: '171082752'
 website: https://www.thinkmarkets.com/uk/about-us/
 repository: 
 issue: 

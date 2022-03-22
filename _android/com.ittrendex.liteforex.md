@@ -8,12 +8,12 @@ users: 100000
 appId: com.ittrendex.liteforex
 appCountry: 
 released: 2017-10-23
-updated: 2022-01-27
-version: 1.5.0
+updated: 2022-03-17
+version: 1.5.1
 stars: 3.9142857
 ratings: 1060
 reviews: 16
-size: 4.7M
+size: 4.8M
 website: https://www.liteforex.com
 repository: 
 issue: 

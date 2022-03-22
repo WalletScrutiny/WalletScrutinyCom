@@ -10,9 +10,9 @@ appCountry:
 released: 2017-10-25
 updated: 2022-03-18
 version: 2.42.5
-stars: 4.0381947
+stars: 4.035138
 ratings: 619117
-reviews: 7279
+reviews: 7281
 size: Varies with device
 website: https://www.binance.com/
 repository: 

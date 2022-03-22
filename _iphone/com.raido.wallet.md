@@ -10,9 +10,9 @@ idd: 1536567791
 released: 2020-10-28
 updated: 2022-01-24
 version: '2.9'
-stars: 
-reviews: 
-size: 28215296
+stars: 0
+reviews: 0
+size: '28215296'
 website: https://raidofinance.eu
 repository: 
 issue: 

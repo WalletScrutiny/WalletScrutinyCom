@@ -12,7 +12,7 @@ updated: 2021-06-08
 version: '2.3'
 stars: 4.65363
 reviews: 179
-size: 25708544
+size: '25708544'
 website: https://trading4pro.com/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 2.9.10
 stars: 2.83128
 reviews: 729
 size: '79096832'
-website: ''
+website: 
 repository: 
 issue: 
 icon: kr.co.coinone.officialapp.jpg

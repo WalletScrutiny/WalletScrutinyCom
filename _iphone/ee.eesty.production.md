@@ -12,7 +12,7 @@ updated: 2019-07-03
 version: '3.0'
 stars: 4
 reviews: 8
-size: 36035584
+size: '36035584'
 website: https://www.eesty.ee
 repository: 
 issue: 

@@ -10,9 +10,9 @@ idd: 1546698261
 released: 2021-01-05
 updated: 2022-02-10
 version: 1.7.2
-stars: 
-reviews: 
-size: 27171840
+stars: 0
+reviews: 0
+size: '27171840'
 website: https://swnglobal.com
 repository: 
 issue: 

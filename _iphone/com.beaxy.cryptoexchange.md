@@ -12,7 +12,7 @@ updated: 2021-12-29
 version: '2.10'
 stars: 4.5
 reviews: 74
-size: 176444416
+size: '176444416'
 website: https://www.beaxy.com/
 repository: 
 issue: 

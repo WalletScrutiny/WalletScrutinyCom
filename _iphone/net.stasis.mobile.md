@@ -12,7 +12,7 @@ updated: 2022-03-01
 version: '7.15'
 stars: 3.66667
 reviews: 3
-size: 23080960
+size: '23080960'
 website: https://stasis.net
 repository: 
 issue: 

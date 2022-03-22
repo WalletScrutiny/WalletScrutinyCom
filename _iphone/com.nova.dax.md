@@ -12,7 +12,7 @@ version: 1.1.8
 stars: 4.72414
 reviews: 29
 size: '35894272'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.nova.dax.jpg

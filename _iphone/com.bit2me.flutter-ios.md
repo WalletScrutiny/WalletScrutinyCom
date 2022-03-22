@@ -12,7 +12,7 @@ updated: 2022-03-12
 version: 2.2.8
 stars: 4.44444
 reviews: 45
-size: 88554496
+size: '88554496'
 website: https://bit2me.com
 repository: 
 issue: 

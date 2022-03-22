@@ -12,7 +12,7 @@ updated: 2021-08-17
 version: '1.255'
 stars: 1
 reviews: 1
-size: 41849856
+size: '41849856'
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 

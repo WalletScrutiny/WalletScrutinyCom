@@ -13,7 +13,7 @@ version: 1.8.0
 stars: 2.33333
 reviews: 3
 size: '63593472'
-website: ''
+website: 
 repository: 
 issue: 
 icon: co.bacoor.keyring.jpg

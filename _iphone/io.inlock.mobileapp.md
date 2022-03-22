@@ -12,7 +12,7 @@ updated: 2022-01-18
 version: 1.7.2
 stars: 4.2
 reviews: 5
-size: 86853632
+size: '86853632'
 website: 
 repository: 
 issue: 

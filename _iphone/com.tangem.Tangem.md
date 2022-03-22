@@ -13,7 +13,7 @@ version: '3.34'
 stars: 4.71053
 reviews: 38
 size: '54288384'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.tangem.Tangem.jpg

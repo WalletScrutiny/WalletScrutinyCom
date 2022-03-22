@@ -10,9 +10,9 @@ idd: 1571975471
 released: 2021-08-27
 updated: 2022-02-01
 version: 1.0.6
-stars: 
-reviews: 
-size: 61206528
+stars: 0
+reviews: 0
+size: '61206528'
 website: https://www.flitpay.com
 repository: 
 issue: 

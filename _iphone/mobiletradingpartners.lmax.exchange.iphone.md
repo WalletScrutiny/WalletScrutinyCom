@@ -10,9 +10,9 @@ idd: 884042608
 released: 2014-06-06
 updated: 2022-03-15
 version: 4.4.33
-stars: 
-reviews: 
-size: 129524736
+stars: 0
+reviews: 0
+size: '129524736'
 website: https://www.lmax.com/mobile
 repository: 
 issue: 

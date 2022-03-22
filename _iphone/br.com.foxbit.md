@@ -10,9 +10,9 @@ idd: 1435319194
 released: 2019-03-24
 updated: 2022-03-11
 version: 2.20.0
-stars: 
-reviews: 
-size: 158425088
+stars: 0
+reviews: 0
+size: '158425088'
 website: https://foxbit.com.br/aplicativo/
 repository: 
 issue: 

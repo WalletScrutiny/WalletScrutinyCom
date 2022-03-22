@@ -12,7 +12,7 @@ updated: 2018-09-21
 version: 2.4.12
 stars: 3.975
 reviews: 80
-size: 56670208
+size: '56670208'
 website: http://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21

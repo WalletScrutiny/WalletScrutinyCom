@@ -12,7 +12,7 @@ updated: 2022-01-21
 version: 3.15.0
 stars: 3.90476
 reviews: 21
-size: 33532928
+size: '33532928'
 website: https://hold.io
 repository: 
 issue: 

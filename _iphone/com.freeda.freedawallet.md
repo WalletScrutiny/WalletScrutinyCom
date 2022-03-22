@@ -12,7 +12,7 @@ updated: 2022-03-09
 version: 2.1.2
 stars: 4.8125
 reviews: 48
-size: 64504832
+size: '64504832'
 website: https://www.freeda.io/
 repository: 
 issue: 

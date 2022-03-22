@@ -11,7 +11,7 @@ updated: 2022-02-11
 version: 3.4.2
 stars: 2.57692
 reviews: 26
-size: 37161984
+size: '37161984'
 website: https://www.paribu.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ updated: 2022-03-02
 version: 1.0.45
 stars: 4.375
 reviews: 8
-size: 55612416
+size: '55612416'
 website: https://www.valr.com
 repository: 
 issue: 

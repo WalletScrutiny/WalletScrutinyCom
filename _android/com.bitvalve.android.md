@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitvalve.android
 appCountry: 
 released: 2019-10-29
-updated: 2022-03-02
-version: 1.3.0
+updated: 2022-03-21
+version: 1.3.1
 stars: 4.1904764
 ratings: 300
 reviews: 13

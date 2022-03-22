@@ -12,7 +12,7 @@ updated: 2020-05-13
 version: '4.0'
 stars: 5
 reviews: 1
-size: 134507520
+size: '134507520'
 website: https://www.toolstrades.com/
 repository: 
 issue: 

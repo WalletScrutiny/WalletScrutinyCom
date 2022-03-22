@@ -13,7 +13,7 @@ version: 1.9.3
 stars: 4.42856
 reviews: 7
 size: '36038656'
-website: ''
+website: 
 repository: 
 issue: 
 icon: mn.blockchain.wallet.jpg

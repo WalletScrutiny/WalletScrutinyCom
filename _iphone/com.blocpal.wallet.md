@@ -12,7 +12,7 @@ updated: 2022-01-19
 version: 2.0.38
 stars: 5
 reviews: 1
-size: 76751872
+size: '76751872'
 website: 
 repository: 
 issue: 

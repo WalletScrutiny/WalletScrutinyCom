@@ -8,11 +8,11 @@ appId: it.airgap.vault
 appCountry: 
 idd: 1417126841
 released: 2018-08-24
-updated: 2022-02-24
-version: 3.15.0
+updated: 2022-03-17
+version: 3.15.1
 stars: 4.44444
 reviews: 9
-size: 90345472
+size: '90378240'
 website: 
 repository: https://github.com/airgap-it/airgap-vault
 issue: 

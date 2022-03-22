@@ -12,7 +12,7 @@ updated: 2022-02-11
 version: 3.1.40
 stars: 4.87671
 reviews: 73
-size: 199532544
+size: '199532544'
 website: https://www.sylo.io/wallet/
 repository: 
 issue: 

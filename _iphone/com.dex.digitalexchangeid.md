@@ -13,7 +13,7 @@ version: 1.0.75
 stars: 5
 reviews: 1
 size: '78360576'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.dex.digitalexchangeid.jpg

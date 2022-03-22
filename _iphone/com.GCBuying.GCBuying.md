@@ -12,7 +12,7 @@ updated: 2021-10-19
 version: 1.0.3
 stars: 3.6
 reviews: 10
-size: 22011904
+size: '22011904'
 website: https://gcbuying.com/
 repository: 
 issue: 

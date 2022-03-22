@@ -12,7 +12,7 @@ updated: 2021-10-27
 version: 1.12.2
 stars: 4.65
 reviews: 20
-size: 29395968
+size: '29395968'
 website: https://www.studentcoin.org/
 repository: 
 issue: 

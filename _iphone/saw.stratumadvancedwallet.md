@@ -13,7 +13,7 @@ version: 1.6.9
 stars: 0
 reviews: 0
 size: '51270656'
-website: ''
+website: 
 repository: 
 issue: 
 icon: saw.stratumadvancedwallet.jpg

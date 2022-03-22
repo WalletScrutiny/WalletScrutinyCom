@@ -8,11 +8,11 @@ appId: com.poolinwallet.blockinwallet
 appCountry: us
 idd: 1495275337
 released: 2020-01-23
-updated: 2022-03-10
-version: 2.3.3
+updated: 2022-03-18
+version: 2.3.4
 stars: 4.12
 reviews: 25
-size: 91665408
+size: '91937792'
 website: https://poolin.fi/
 repository: 
 issue: 

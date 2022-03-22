@@ -12,7 +12,7 @@ updated: 2020-02-06
 version: 2.1.3
 stars: 4.5
 reviews: 2
-size: 87098368
+size: '87098368'
 website: https://altcoinfantasy.com
 repository: 
 issue: 

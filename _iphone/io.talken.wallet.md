@@ -12,7 +12,7 @@ updated: 2022-01-21
 version: 1.0.30
 stars: 5
 reviews: 7
-size: 127063040
+size: '127063040'
 website: https://talken.io/
 repository: 
 issue: 

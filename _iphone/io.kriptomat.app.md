@@ -12,7 +12,7 @@ updated: 2022-03-04
 version: 2.0.26
 stars: 4.77778
 reviews: 9
-size: 42499072
+size: '42499072'
 website: https://kriptomat.io
 repository: 
 issue: 

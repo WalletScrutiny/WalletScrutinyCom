@@ -13,7 +13,7 @@ version: 2.8.31
 stars: 0
 reviews: 0
 size: '86521856'
-website: ''
+website: 
 repository: 
 issue: 
 icon: ios.m3.Trendo.jpg

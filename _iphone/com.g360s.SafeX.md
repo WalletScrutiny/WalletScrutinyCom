@@ -12,7 +12,7 @@ updated: 2020-12-14
 version: 2.0.9
 stars: 5
 reviews: 1
-size: 64462848
+size: '64462848'
 website: https://ecoinofficial.org
 repository: 
 issue: 

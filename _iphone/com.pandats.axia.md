@@ -12,7 +12,7 @@ updated: 2021-12-29
 version: 1.0.44
 stars: 4.54545
 reviews: 22
-size: 68953088
+size: '68953088'
 website: https://www.axiainvestments.com
 repository: 
 issue: 

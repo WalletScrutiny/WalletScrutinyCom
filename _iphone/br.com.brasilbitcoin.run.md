@@ -13,7 +13,7 @@ version: 2.5.33
 stars: 2.42857
 reviews: 7
 size: '77858816'
-website: ''
+website: 
 repository: 
 issue: 
 icon: br.com.brasilbitcoin.run.jpg

@@ -12,7 +12,7 @@ updated: 2022-02-14
 version: 2.1.0
 stars: 4.40909
 reviews: 22
-size: 47457280
+size: '47457280'
 website: http://www.99pay.kr
 repository: 
 issue: 

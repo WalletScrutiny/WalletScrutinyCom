@@ -10,9 +10,9 @@ idd: 1536116477
 released: 2020-10-31
 updated: 2021-08-18
 version: 1.3.6
-stars: 
-reviews: 
-size: 105841664
+stars: 0
+reviews: 0
+size: '105841664'
 website: https://cointral.com
 repository: 
 issue: 

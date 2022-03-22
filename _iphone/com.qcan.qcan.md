@@ -12,7 +12,7 @@ updated: 2021-06-04
 version: 0.8.851
 stars: 3.47059
 reviews: 17
-size: 90617856
+size: '90617856'
 website: https://qcan.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2022-02-24
 version: 1.16.2
 stars: 3.97059
 reviews: 34
-size: 64866304
+size: '64866304'
 website: https://flitbase.com
 repository: 
 issue: 

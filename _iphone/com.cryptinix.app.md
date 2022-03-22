@@ -10,9 +10,9 @@ idd: 1539414769
 released: 2020-11-11
 updated: 2021-07-25
 version: 1.2.2
-stars: 
-reviews: 
-size: 91269120
+stars: 0
+reviews: 0
+size: '91269120'
 website: https://cryptinix.com
 repository: 
 issue: 

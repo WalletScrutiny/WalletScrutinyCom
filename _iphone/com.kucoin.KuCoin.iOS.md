@@ -13,7 +13,7 @@ version: 3.52.2
 stars: 4.60696
 reviews: 12874
 size: '187335680'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.kucoin.KuCoin.iOS.jpg

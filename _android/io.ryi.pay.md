@@ -3,7 +3,7 @@ wsId:
 title: RYIpay
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.ryi.pay
 appCountry: 
 released: 2021-06-12

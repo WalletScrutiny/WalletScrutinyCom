@@ -3,7 +3,7 @@ wsId:
 title: BITLOX Crypto Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitlox.mobilewallet
 appCountry: 
 released: 2018-12-16

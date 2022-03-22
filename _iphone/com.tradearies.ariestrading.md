@@ -10,9 +10,9 @@ idd: 1554894180
 released: 2021-06-29
 updated: 2022-03-14
 version: 2.2.2
-stars: 
-reviews: 
-size: 57604096
+stars: 0
+reviews: 0
+size: '57604096'
 website: https://tradearies.com/
 repository: 
 issue: 

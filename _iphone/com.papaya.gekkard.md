@@ -13,7 +13,7 @@ version: 1.0.5
 stars: 0
 reviews: 0
 size: '193718272'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.papaya.gekkard.jpg

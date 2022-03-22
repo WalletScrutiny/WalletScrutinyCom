@@ -11,7 +11,7 @@ updated: 2022-02-28
 version: 0.6.0
 stars: 4.33333
 reviews: 15
-size: 37774336
+size: '37774336'
 website: https://ZeusLN.app
 repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416

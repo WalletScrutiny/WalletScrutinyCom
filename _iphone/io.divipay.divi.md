@@ -12,7 +12,7 @@ updated: 2021-12-30
 version: '1.13'
 stars: 4.875
 reviews: 16
-size: 34588672
+size: '34588672'
 website: http://wallet.diviproject.org
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366

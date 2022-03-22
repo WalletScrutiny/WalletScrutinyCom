@@ -11,7 +11,7 @@ updated: 2022-03-09
 version: 0.3.0
 stars: 4.91667
 reviews: 36
-size: 16634880
+size: '16634880'
 website: https://fullynoded.app
 repository: 
 issue: 

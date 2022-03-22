@@ -12,7 +12,7 @@ updated: 2022-03-08
 version: '34.0'
 stars: 5
 reviews: 102
-size: 16357376
+size: '16357376'
 website: https://www.hashcashconsultants.com
 repository: 
 issue: 

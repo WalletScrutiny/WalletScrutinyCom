@@ -12,7 +12,7 @@ version: '0.53'
 stars: 3.8
 reviews: 5
 size: '52308992'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.Bitexen.ExchangeApp.jpg

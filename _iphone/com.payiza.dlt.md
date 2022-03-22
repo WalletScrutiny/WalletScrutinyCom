@@ -10,9 +10,9 @@ idd: 1567055742
 released: 2021-06-01
 updated: 2021-06-02
 version: '1.0'
-stars: 
-reviews: 
-size: 56907776
+stars: 0
+reviews: 0
+size: '56907776'
 website: https://payizadlt.com/
 repository: 
 issue: 
