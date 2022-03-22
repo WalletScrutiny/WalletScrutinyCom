@@ -73,7 +73,7 @@ On how to "calculate the private key:"
 
 ## SOLO Pro Bar
 
-There's no clear explanation as to how the SOlO Pro Bar is different from the SOLO Card Pro. From [its description](https://www.coinplus.com/en/17-solo-bar):
+There's no clear explanation as to how the SOLO Pro Bar is different from the SOLO Card Pro. From [its description](https://www.coinplus.com/en/17-solo-bar):
 
 > Your SOLO Bar is an elegant ingot presented in its luxury case. Your SOLO Bar comes with its certificate of authenticity. Your public address is present on the ingot and on the certificate by scanning the QR code. Your SOLO Bar will be valid for a hundred years. Place it safely in a safe
 
