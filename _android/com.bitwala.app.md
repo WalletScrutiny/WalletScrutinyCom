@@ -10,9 +10,9 @@ appCountry: gd
 released: 2019-07-11
 updated: 2022-03-21
 version: 2.3.19
-stars: 3.7725322
+stars: 3.7607758
 ratings: 4416
-reviews: 2868
+reviews: 2873
 size: 91M
 website: https://www.nuri.com
 repository: 

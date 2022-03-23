@@ -9,7 +9,7 @@ appId: com.fbs.tpand
 appCountry: 
 released: 2019-03-25
 updated: 2022-03-18
-version: 1.46.2
+version: 1.47.1
 stars: 4.7238097
 ratings: 128577
 reviews: 137

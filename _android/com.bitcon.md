@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2022-02-25
-version: 1.1.1
+updated: 2022-03-23
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 

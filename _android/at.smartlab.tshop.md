@@ -10,9 +10,9 @@ appCountry:
 released: 2012-12-22
 updated: 2022-02-26
 version: '203'
-stars: 3.85
+stars: 4.109928
 ratings: 3750
-reviews: 259
+reviews: 
 size: 6.6M
 website: https://tabshop.smartlab.at/
 repository: 

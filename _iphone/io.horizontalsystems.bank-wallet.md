@@ -10,8 +10,8 @@ idd: 1447619907
 released: 2019-01-10
 updated: 2022-03-18
 version: 0.24.2
-stars: 4.65574
-reviews: 366
+stars: 4.65946
+reviews: 370
 size: '47772672'
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios

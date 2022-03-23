@@ -9,9 +9,9 @@ appCountry:
 released: 2019-06-07
 updated: 2022-02-24
 version: 5.0.3
-stars: 4.3842697
+stars: 4.3758388
 ratings: 14091
-reviews: 1013
+reviews: 1014
 size: 63M
 website: https://www.algorand.com
 repository: 

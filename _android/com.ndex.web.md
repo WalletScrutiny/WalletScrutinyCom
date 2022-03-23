@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ndex.web.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

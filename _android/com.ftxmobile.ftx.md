@@ -1,6 +1,6 @@
 ---
 wsId: FTXPro
-title: 'FTX Pro: Buy, Sell, Trade'
+title: 'FTX Pro: Trade Crypto'
 altTitle: 
 authors:
 - leo

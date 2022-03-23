@@ -9,11 +9,11 @@ appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
 updated: 2022-03-22
-version: 3.1.0
+version: 3.2.0
 stars: 3.46
 ratings: 10117
 reviews: 116
-size: 31M
+size: 35M
 website: https://www.muchbetter.com
 repository: 
 issue: 

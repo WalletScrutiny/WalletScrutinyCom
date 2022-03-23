@@ -9,7 +9,7 @@ appId: com.fibermode.mode.android
 appCountry: gb
 released: 2021-02-11
 updated: 2022-03-22
-version: 2.3.3
+version: 2.3.4
 stars: 3.5544555
 ratings: 372
 reviews: 161

@@ -10,8 +10,8 @@ idd: 1339112917
 released: 2018-02-21
 updated: 2022-02-16
 version: 2.4.3
-stars: 4.742
-reviews: 2066
+stars: 4.7402
+reviews: 2067
 size: '59894784'
 website: https://thecrypto.app
 repository: 
