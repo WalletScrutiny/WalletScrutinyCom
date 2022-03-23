@@ -38,7 +38,7 @@ social:
 
 CoinPlus also has a [mobile app](https://play.google.com/store/apps/details?id=com.coinplus.mobile) that combines the two secrets to compute the private key.
 
-The two secrets are two printed strings printed on the same card by two different entities. These are initially covered and ideally, can only be known by the user when he is in possession of the card. The two are then inputted in a program which then converts the two into a private key.
+The two secrets are two printed strings printed on the same card by two different entities. These are initially covered and ideally, can only be known by the user when he is in possession of the card. The two are then entered into a program which then converts the two into a private key.
 
 > CoinPlus involves two different companies to engrave two secrets on the product ensuring that only the buyer will have access to the private key.
 
