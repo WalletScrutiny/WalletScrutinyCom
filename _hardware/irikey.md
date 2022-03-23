@@ -40,6 +40,10 @@ The providers state that IriKey does not utilize seed phrases. From [its article
 
 > IriKey has a built-in NIR iris camera and on-board iris software that is used to “mix” (or “lock”) the wallet’s secret seed with its owner’s iris data. Once the so-called “iris locked seed” is generated (i.e., the mixture is done), the original seed and iris data will be forensically deleted for security purposes. The original seed can be retrieved from the locked seed if and only if a newly captured iris image is determined to be from the same eye used in locking the seed. That way, it will only take the owner an iris scan to login to IriKey (no PIN needed) or recover their assets in case the device is lost or stolen, given that the locked seed has been backed up in advance.
 
-*Leo made a valid point about the vulnerabilities of using biometrics. Assuming that biometric data can sign transactions, what's to prevent an attacker from physically assaulting, maiming the user and then using the biometric data to transfer bitcoins?*
+Generally, using biometrics for authorization is a bad idea. The presence (or mere visibility) of the user's eye does not mean the user's consent as
+
+* it has no good replacement for [duress or decoy wallets](https://support.keys.casa/hc/en-us/articles/360045501331-How-to-Protect-Your-Bitcoin-from-5-Wrench-Attacks)
+* you can't change the PIN if the login credentials (biometric features) leaked
+* you have no plausible deniability about knowing a PIN/password
 
 There wasn't any information on IriKey's source code. With little information about this product, we'll have to assume its code is **not up for review.**
