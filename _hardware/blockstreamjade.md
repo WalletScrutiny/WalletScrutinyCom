@@ -40,8 +40,7 @@ social:
 running version 0.1.32 which was released December 23rd, you might or might not
 be able to verify what you are updating to, depending on the companion app being
 updated, too or not. Check
-[this issue](https://github.com/Blockstream/Jade/issues/26#issuecomment-1047179878)
-for details.
+[this issue](https://github.com/Blockstream/Jade/issues/26) for details.
 
 **Update 2021-11-02**: We are in touch with the provider and while the firmware
 was updated two weeks ago already, their

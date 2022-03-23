@@ -22,7 +22,7 @@ icon: kastelo.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
-date: 2021-03-15
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

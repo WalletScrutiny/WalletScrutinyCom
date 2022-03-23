@@ -22,7 +22,7 @@ icon: pundixbob.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2021-03-11
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

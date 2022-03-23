@@ -22,7 +22,7 @@ icon: nitrokey.hsm2.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-03-10
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: nitrokey

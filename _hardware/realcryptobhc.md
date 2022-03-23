@@ -22,7 +22,7 @@ icon: realcryptobhc.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2021-03-11
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

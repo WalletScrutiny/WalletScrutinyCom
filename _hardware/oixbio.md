@@ -22,7 +22,7 @@ icon: oixbio.png
 bugbounty: 
 meta: defunct
 verdict: unreleased
-date: 2021-03-10
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: OiXGlobal

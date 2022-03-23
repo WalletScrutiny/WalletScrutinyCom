@@ -22,7 +22,7 @@ icon: orasaifu.png
 bugbounty: 
 meta: defunct
 verdict: unreleased
-date: 2021-03-09
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: OrasaifuWallet

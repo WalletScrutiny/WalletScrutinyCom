@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2021-03-14
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

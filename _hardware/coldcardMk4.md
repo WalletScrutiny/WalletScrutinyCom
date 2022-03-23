@@ -22,7 +22,7 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2021-03-14
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
