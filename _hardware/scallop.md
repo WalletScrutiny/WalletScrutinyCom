@@ -21,7 +21,7 @@ issue:
 icon: scallop.png
 bugbounty: 
 meta: ok
-verdict: prerelease
+verdict: unreleased
 date: 2022-03-21
 signer: 
 reviewArchive: 
@@ -35,7 +35,7 @@ social:
 
 **⚠️ Note:** Apart from a few renderings of a card-like hardware wallet and a rebranded ledger, we were not able to locate another picture of the hardware wallet. 
 
-The Scallop project is a neobank plus blockchain project that held an Initial Bounty Offering (IBO) or Initial Blockchain Offering (as noted in other places). It has a suite of products that include debit cards, fiat to cryptocurrency exchange accounts, mobile app and banking accounts. They also have a coin which is self-described as a BEP20 and ERC20 token at the same time. It is described as a DeFi powered banking application in its [whitepaper](https://scallop-bucket.s3.eu-west-1.amazonaws.com/upload_file/Whitepaper.pdf). The project also dabbles in NFTs.
+The Scallop project is a "neobank plus blockchain" project that held an Initial Bounty Offering (IBO) or Initial Blockchain Offering (as noted in other places). It has a suite of products that include debit cards, fiat to cryptocurrency exchange accounts, mobile app and banking accounts. They also have a coin which is self-described as a BEP20 and ERC20 token at the same time. It is further described as a DeFi powered banking application in its [whitepaper](https://scallop-bucket.s3.eu-west-1.amazonaws.com/upload_file/Whitepaper.pdf). The project also dabbles in NFTs.
 
 ## Product Description 
 

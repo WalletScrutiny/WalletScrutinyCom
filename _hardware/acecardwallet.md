@@ -21,7 +21,7 @@ issue:
 icon: acecardwallet.png
 bugbounty: 
 meta: defunct
-verdict: prerelease
+verdict: unreleased
 date: 2022-03-21
 signer: 
 reviewArchive: 

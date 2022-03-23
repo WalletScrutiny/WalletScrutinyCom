@@ -33,7 +33,7 @@ social:
 
 ## Product Description 
 
-The product tried to raise funds via [indiegogo.com](https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/) in 2014. Unfortunately, it did not meet its funding goals. It then rebranded to Bitcoinpinpad.com, and the device was slightly altered. As PRISMicide, it was described as:
+The product tried to raise funds via [indiegogo.com](https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/) in 2014. Unfortunately, it did not meet its funding goals. It then rebranded to Bitcoinpinpad.com, and the device was slightly altered but this too was discontinued. As PRISMicide, it was described as:
 
 > PRISMicide is an open security platform based on smart card (www,origamiboard.com) and by far the most secure Bitcoin Hardware Wallet
 

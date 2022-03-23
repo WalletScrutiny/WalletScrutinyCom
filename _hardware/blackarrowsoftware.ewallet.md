@@ -1,6 +1,6 @@
 ---
-title: "eWallet by Black Arrow"
-appId: eWalletBW
+title: "Black Arrow Software eWallet"
+appId: blackarrowsoftware.ewallet
 authors:
 - danny
 released: 
@@ -8,31 +8,33 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-weight: 
+dimensions: [4.5, 0.65, 2.3]
+weight: 7
 provider: "Black Arrow Software"
 providerWebsite: https://www.blackarrowsoftware.com/
 website: 
 shop: http://www.blackarrowsoftware.com/store/ewallet.html
 country: 
-price: 
+price: 24.99GBP
 repository: 
 issue: 
-icon: 
+icon: blackarrowsoftware.ewallet.png
 bugbounty: 
-meta: ok
-verdict: defunct
+meta: defunct
+verdict: fake
 date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: blackarrowsoft
 social: 
+  - https://www.facebook.com/Black-Arrow-477655819009178
 ---
 
+**⚠️ Note:** There are multiple serious allegations on Blackarrow Software's available social media accounts including Facebook and bitcointalk.  
 
 [A Reddit post from r/Bitcoin in 2015](https://www.reddit.com/r/Bitcoin/comments/2ygong/ewallet_trezor_compatible_hardware_wallet_just/) stated that eWallet was "just released."
 
-It's unknown if Black Arrow Software, the company providing this product, is still active. The official website is down and the Twitter account hasn't seen any activity since 2017.
+It's presumed that Black Arrow Software, the company providing this product, is no longer active. The official website is down and the Twitter account hasn't seen any activity since 2017.
 
 Here is [an archived version of the product's page.](https://web.archive.org/web/20191116164822/http://www.blackarrowsoftware.com/store/ewallet.html) From the description:
 
@@ -52,4 +54,6 @@ Below are the advertised features:
 
 ## Verdict
 
-With the site down and the company's social media inactive, we have to assume that this product is now **defunct.**
+The company has a [seriously extensive history](https://bitcointalk.org/index.php?action=trust;u=105804) when it comes to the bitcoin community. There were allegations that Black Arrow Software merely [copied the Trezor firmware](https://bitcointalk.org/index.php?topic=983471.msg10825751#msg10825751) and altered the bootloader and the license.  
+
+With the site down and the company's social media inactive, we have to assume that this product is now **defunct.** We also have to consider the allegations pertaining to the products similarity at least in code to Trezor, as well as the string of allegations against it to mark it as **fake**.

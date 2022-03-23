@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: noicon.png
 bugbounty: 
-meta: stale
-verdict: unrelease
+meta: defunct
+verdict: unreleased
 date: 2022-03-21
 signer: 
 reviewArchive: 
@@ -41,5 +41,7 @@ From the website, we were able to find a diagram under Secured IoT Communication
 
 A USB dongle with Master Private Key can sign Bitcoin Transactions is described in this [picture](https://www.astri.org/wp-content/uploads/2015/08/icdd-communication-iot.png).
 
-Apart from that, we were not able to find any other information. We reached out to them via email as this was the communication method that was readily available. Until they provide us with product specifications and more details, this product is **yet to be released**.
+Apart from that, we were not able to find any other information. We reached out to them via email as this was the communication method that was readily available. Until such time they provide us with product specifications and more details, this product was not **released** and no indications are available that it will be. 
+
+The image linked above is inside a folder dated August 2015.
 

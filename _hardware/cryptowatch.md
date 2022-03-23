@@ -1,5 +1,5 @@
 ---
-title: "Crypto Wallet Watch"
+title: "Crypto Watch"
 appId: cryptowatch
 authors:
 - danny
@@ -61,6 +61,6 @@ This application, designed for cryptocurrency wallets, allows you to: manage dev
 
 ## Verdict 
 
-There is a lot of cryptographic and technical terms described in vague terms. There are however, no specific description for how theCryptoWatch would function. There is no specific mention of how the watch interfaces with the mobile application (which we also could not find). Although it mentions that the "Secure Element" would secure the private keys, there is no mention that this is how the watch would work. There are no pictures of the actual device or unboxing videos on Youtube. Finally, much of the material seem to be focused on the STO or fundraising. 
+There is a lot of cryptographic and technical terms described in vague terms. There are however, no specific description for how the CryptoWatch would function. There is no specific mention of how the watch interfaces with the mobile application (which we also could not find). Although it mentions the "Secure Element" would secure the private keys, there is no mention whether this is how the watch would work. There are no pictures of the actual device or unboxing videos on Youtube. Finally, much of the material seem to be focused on the STO or fundraising. 
 
-Absent evidence to the contrary, we can only determine that the CryptoWatch was **never released** at all.
+Absent evidence to the contrary, we can only determine that the CryptoWatch was **never released** at all. Absent any evidence that it would be released in the near future, we have to assume that it would never be.
