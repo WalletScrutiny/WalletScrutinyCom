@@ -1,5 +1,5 @@
 ---
-title: "Coldcard Mk4"
+title: Coldcard Mk4
 appId: coldcardMk4
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Coinkite"
+provider: Coinkite
 providerWebsite: 
 website: https://coinkite.com/
 shop: https://store.coinkite.com/store/mk4
@@ -26,8 +26,9 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
-social: 
-  - https://t.me/coldcard
+social:
+- https://t.me/coldcard
+
 ---
 
 ## Product Description 

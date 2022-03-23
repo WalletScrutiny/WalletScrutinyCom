@@ -11,7 +11,7 @@ released: 2020-07-08
 updated: 2022-03-10
 version: 1.4.0
 stars: 5
-reviews: 28
+reviews: 29
 size: '16322560'
 website: https://www.coinglass.com
 repository: 

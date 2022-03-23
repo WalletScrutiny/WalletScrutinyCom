@@ -1,5 +1,5 @@
 ---
-title: "BOB by PundiX"
+title: BOB by PundiX
 appId: pundixbob
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "PundiX"
+provider: PundiX
 providerWebsite: https://pundix.com/
 website: https://pundix.com/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: PundiXLabs
 social: 
+
 ---
 
 ## Product Description

@@ -8,11 +8,11 @@ appId: com.mtpelerin.bridge
 appCountry: us
 idd: 1481859680
 released: 2020-04-08
-updated: 2022-02-17
-version: '1.22'
+updated: 2022-03-22
+version: '1.23'
 stars: 4.4375
 reviews: 32
-size: '133441536'
+size: '133480448'
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 

@@ -1,5 +1,5 @@
 ---
-title: "SmartBTC.eu - Smartcard HSM"
+title: SmartBTC.eu - Smartcard HSM
 appId: smartbtc.eu
 authors:
 - danny
@@ -10,10 +10,11 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "CardContact Systems GmbH"
+provider: CardContact Systems GmbH
 providerWebsite: http://www.cardcontact.de/
 website: http://smartbtc.eu/
-shop: https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
+shop: >-
+  https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
 country: DE
 price: 34EUR
 repository: https://github.com/CardContact
@@ -26,7 +27,8 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 
-social:  
+social: 
+
 ---
 
 ## Product Description 

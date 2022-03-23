@@ -1,6 +1,6 @@
 ---
 wsId: rekeningku
-title: 'Rekeningku.com: Jual Beli Bitcoin, SHIB dan Crypto'
+title: 'Rekeningku.com: Beli BTC & ETH'
 altTitle: 
 authors:
 - danny

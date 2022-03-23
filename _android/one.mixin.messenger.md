@@ -12,9 +12,9 @@ appCountry: us
 released: 2018-05-24
 updated: 2022-03-17
 version: 0.35.3
-stars: 4.7596154
+stars: 4.7238097
 ratings: 1252
-reviews: 147
+reviews: 148
 size: 30M
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app

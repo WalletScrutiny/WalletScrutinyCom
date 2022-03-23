@@ -1,5 +1,5 @@
 ---
-title: "Excel Secucard S300"
+title: Excel Secucard S300
 appId: esecucards300
 authors:
 - danny
@@ -8,9 +8,11 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85.6, 54]
+dimensions:
+- 85.6
+- 54
 weight: 
-provider: "Excelsecu Data Technology Co., Ltd"
+provider: Excelsecu Data Technology Co., Ltd
 providerWebsite: https://www.excelsecu.com/
 website: 
 shop: https://www.excelsecu.com/productdetail/esecucarddispl.html
@@ -26,8 +28,9 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - es_contact@excelsecu.com
+social:
+- es_contact@excelsecu.com
+
 ---
 
 ## Product Description

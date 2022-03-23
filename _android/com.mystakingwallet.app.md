@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mystakingwallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-11
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: MetrixCoin

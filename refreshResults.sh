@@ -5,6 +5,9 @@ for f in $( git diff -G'version' --name-only ); do
   fi
 done
 
+# Run migrate script just in case. It also makes some basic checks
+node scripts/migrate.js 
+
 echo "Diff minus the boring stuff:"
 git diff --word-diff=color | grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|size\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
 
@@ -18,9 +21,6 @@ diff <( rgrep '^wsId: ' _android/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort 
 function moreSince {
   echo $( git diff @{$1} | grep '^-users: ' | wc -l )
 }
-
-# Run migrate script just in case. It also makes some basic checks
-node scripts/migrate.js 
 
 echo "Apps that now have more users ..."
 echo "... than yesterday:  $( moreSince 'one.days.ago' )"

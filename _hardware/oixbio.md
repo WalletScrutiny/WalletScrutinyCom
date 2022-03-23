@@ -1,5 +1,5 @@
 ---
-title: "OiX Global Hardware Wallet"
+title: OiX Global Hardware Wallet
 appId: oixbio
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "OiX Global"
+provider: OiX Global
 providerWebsite: https://www.oix.global/wallet
 website: 
 shop: 
@@ -26,10 +26,11 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: OiXGlobal
-social: 
-  - https://www.linkedin.com/company/oixglobal/
-  - https://www.facebook.com/OiX.Global/
-  - https://www.t.me/oix_global/
+social:
+- https://www.linkedin.com/company/oixglobal/
+- https://www.facebook.com/OiX.Global/
+- https://www.t.me/oix_global/
+
 ---
 
 **⚠️ Note:** Crunchbase lists [OiX Global's](https://www.crunchbase.com/organization/oix-open-investment-exchange) founding date to be July 16, 2017. OiX Global also did an ISO (Initial Securities Offerings) which are similar to ICOs, except that they are "more regulated".

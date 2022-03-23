@@ -10,9 +10,9 @@ appCountry:
 released: 2013-10-29
 updated: 2022-03-16
 version: 3.80.0-2022030213
-stars: 4.422118
+stars: 4.416796
 ratings: 142059
-reviews: 2586
+reviews: 2587
 size: 61M
 website: https://www.skrill.com
 repository: 

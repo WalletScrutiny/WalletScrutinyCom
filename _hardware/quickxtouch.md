@@ -1,5 +1,5 @@
 ---
-title: "QuickX Touch"
+title: QuickX Touch
 appId: quickxtouch
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85, 54, 0.8]
+dimensions:
+- 85
+- 54
+- 0.8
 weight: 5.4
-provider: "QuickX Touch"
+provider: QuickX Touch
 providerWebsite: https://www.quickxtouch.com/
 website: https://www.quickx.io/
 shop: https://www.quickxtouch.com/product/quickx-touch-card
@@ -26,14 +29,15 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: quickxprotocol
-social: 
-  - https://www.linkedin.com/company/quickx
-  - https://www.facebook.com/quickxprotocol
-  - https://www.instagram.com/quickxprotocol
-  - https://www.youtube.com/quickxprotocol
-  - https://www.reddit.com/r/QuickX/
-  - https://medium.com/quickxprotocol
-  - https://t.me/quickxprotocol
+social:
+- https://www.linkedin.com/company/quickx
+- https://www.facebook.com/quickxprotocol
+- https://www.instagram.com/quickxprotocol
+- https://www.youtube.com/quickxprotocol
+- https://www.reddit.com/r/QuickX/
+- https://medium.com/quickxprotocol
+- https://t.me/quickxprotocol
+
 ---
 
 ## Product Description 

@@ -1,5 +1,5 @@
 ---
-title: "Nitrokey HSM2"
+title: Nitrokey HSM2
 appId: nitrokey.hsm2
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [48, 19, 7]
+dimensions:
+- 48
+- 19
+- 7
 weight: 6
-provider: "Nitrokey"
+provider: Nitrokey
 providerWebsite: https://www.nitrokey.com/
 website: 
 shop: https://shop.nitrokey.com/shop/product/nkhs2-nitrokey-hsm-2-7
@@ -26,11 +29,12 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: nitrokey
-social: 
-  - https://www.linkedin.com/company/nitrokey/
-  - https://www.youtube.com/nitrokey
-  - https://social.nitrokey.com/@nitrokey
-  - https://www.facebook.com/nitrokey
+social:
+- https://www.linkedin.com/company/nitrokey/
+- https://www.youtube.com/nitrokey
+- https://social.nitrokey.com/@nitrokey
+- https://www.facebook.com/nitrokey
+
 ---
 
 ## Product Description 

@@ -1,5 +1,5 @@
 ---
-title: "UKISS Hugware®"
+title: UKISS Hugware®
 appId: ukiss.hugware
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "UKISS Technology"
+provider: UKISS Technology
 providerWebsite: 
 website: https://www.ukiss.io/
 shop: https://www.ukiss.io/product/hugware-set-key/
@@ -26,14 +26,15 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: UKISSTech
-social: 
-  - https://www.linkedin.com/company/ukiss-tech/
-  - https://www.facebook.com/UKISSTech
-  - https://www.youtube.com/UKISSTechnology
-  - https://medium.com/ukisstech
-  - https://t.me/UKISSTech
-  - https://www.tiktok.com/@ukisstech
-  - https://www.instagram.com/ukisstech/
+social:
+- https://www.linkedin.com/company/ukiss-tech/
+- https://www.facebook.com/UKISSTech
+- https://www.youtube.com/UKISSTechnology
+- https://medium.com/ukisstech
+- https://t.me/UKISSTech
+- https://www.tiktok.com/@ukisstech
+- https://www.instagram.com/ukisstech/
+
 ---
 
 ## Product Description 

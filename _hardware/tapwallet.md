@@ -1,5 +1,5 @@
 ---
-title: "TAPWallet™"
+title: TAPWallet™
 appId: tapwallet
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "TAP Labs, LLC"
+provider: TAP Labs, LLC
 providerWebsite: 
 website: http://tapwallet.com/
 shop: http://tapwallet.com/store.html
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The product is still in Pre-Order. They are launching a series of [NFTs (Non-fungible tokens) on Opensea](https://opensea.io/collection/tapwallet) to fund the project. 

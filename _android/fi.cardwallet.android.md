@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 30M
-website: https://cardwallet.fi
+website: https://cwallet.finance/
 repository: 
 issue: 
 icon: fi.cardwallet.android.png

@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Holographic Coin"
+title: Bitcoin Holographic Coin
 appId: realcryptobhc
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Real Crypto"
+provider: Real Crypto
 providerWebsite: 
 website: https://realcrypto.org/hologram-how-tos/bitcoin-how-to/
 shop: 
@@ -26,7 +26,8 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 
-social:  
+social: 
+
 ---
 
 ## Product Description 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-30
 updated: 2022-02-25
 version: 2.6.1
-stars: 4.277228
+stars: 4.2843137
 ratings: 8047
-reviews: 62
+reviews: 63
 size: 37M
 website: https://vauld.com
 repository: 

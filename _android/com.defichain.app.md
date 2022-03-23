@@ -10,9 +10,9 @@ appCountry: qa
 released: 2021-08-22
 updated: 2022-03-11
 version: 1.6.0
-stars: 4.8623853
+stars: 4.8636365
 ratings: 319
-reviews: 146
+reviews: 147
 size: 39M
 website: https://defichain.com
 repository: 

@@ -10,8 +10,8 @@ appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
 updated: 2022-03-18
-version: 20.7.1
-stars: 3.9444444
+version: 20.8.1
+stars: 3.9729729
 ratings: 2833
 reviews: 23
 size: 34M

@@ -1,5 +1,5 @@
 ---
-title: "IriKey"
+title: IriKey
 appId: irikey
 authors:
 - danny
@@ -8,11 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
-provider: "Iritech, Inc"
+provider: Iritech, Inc
 providerWebsite: https://www.iritech.com/
-website: https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications
+website: >-
+  https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications
 shop: 
 country: 
 price: 
@@ -26,11 +27,11 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: IriTechInc
-social: 
-  - https://www.youtube.com/channel/UCOzyeb6Fyk-liU3zYlzvZuA
-  - http://www.facebook.com/IriTechInc?ref=hl
----
+social:
+- https://www.youtube.com/channel/UCOzyeb6Fyk-liU3zYlzvZuA
+- http://www.facebook.com/IriTechInc?ref=hl
 
+---
 
 While Iritech's social media still looks to be active, there is little recent information online concerning their bitcoin hardware product. They are primarily a biometrics company. Listed relevant videos and articles all come from 2018-2019. Additionally, we found it odd there does not seem to be any clear link to any store for this hardware wallet.
 

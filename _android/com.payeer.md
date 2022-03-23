@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-03
 updated: 2020-12-24
 version: Varies with device
-stars: 4.35
+stars: 4.31
 ratings: 36999
-reviews: 152
+reviews: 151
 size: Varies with device
 website: https://payeer.com
 repository: 

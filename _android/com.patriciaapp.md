@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-02-14
 updated: 2022-03-16
 version: 1.3.4
-stars: 2.137255
+stars: 2.15
 ratings: 3910
-reviews: 368
+reviews: 370
 size: 49M
 website: https://mypatricia.co
 repository: 

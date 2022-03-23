@@ -10,9 +10,9 @@ appCountry:
 released: 2020-08-27
 updated: 2022-03-18
 version: 4.12.1
-stars: 3.821782
+stars: 3.7941177
 ratings: 10676
-reviews: 535
+reviews: 536
 size: Varies with device
 website: https://www.klever.io/
 repository: 

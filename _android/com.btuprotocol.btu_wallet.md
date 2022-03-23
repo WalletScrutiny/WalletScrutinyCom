@@ -10,7 +10,7 @@ appCountry: ba
 released: 2021-03-15
 updated: 2022-03-18
 version: 2.5.2
-stars: 4.04902
+stars: 4.03
 ratings: 156
 reviews: 83
 size: 66M

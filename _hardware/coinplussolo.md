@@ -1,5 +1,5 @@
 ---
-title: "CoinPlus Solo"
+title: CoinPlus Solo
 appId: coinplussolo
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "CoinPlus"
+provider: CoinPlus
 providerWebsite: https://www.coinplus.com/en/
 website: 
 shop: 
@@ -26,13 +26,13 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: coinplus_sa
-social: 
-  - https://www.linkedin.com/organization-guest/company/coinplus
-  - https://www.facebook.com/coinplus.sa/
-  - https://www.youtube.com/channel/UCBWhjWyzJ8MhTaP9UnqO6eQ
-  - https://www.instagram.com/coinplus_solo/
----
+social:
+- https://www.linkedin.com/organization-guest/company/coinplus
+- https://www.facebook.com/coinplus.sa/
+- https://www.youtube.com/channel/UCBWhjWyzJ8MhTaP9UnqO6eQ
+- https://www.instagram.com/coinplus_solo/
 
+---
 
 [Here is a video](https://youtube.com/watch?v=qaaQREWK9IY) showing how to redeem the private key on CoinPlus Solo.
 

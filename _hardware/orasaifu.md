@@ -1,5 +1,5 @@
 ---
-title: "OraSaifu"
+title: OraSaifu
 appId: orasaifu
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [44, 70, 4.5]
+dimensions:
+- 44
+- 70
+- 4.5
 weight: 65
-provider: "OraSaifu Inc."
+provider: OraSaifu Inc.
 providerWebsite: https://web.archive.org/web/20180812220227/https://orasaifu.io/
 website: 
 shop: 
@@ -26,8 +29,9 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: OrasaifuWallet
-social: 
-  - https://www.facebook.com/OraSaifu/
+social:
+- https://www.facebook.com/OraSaifu/
+
 ---
 
 The now unavailable IndieGogo page for this product stated:

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-06
 updated: 2022-03-11
 version: 22.3.10
-stars: 4.4692483
+stars: 4.4670486
 ratings: 81868
-reviews: 5741
+reviews: 5743
 size: 54M
 website: https://exodus.com/mobile
 repository: 

@@ -10,8 +10,8 @@ idd: 1414619890
 released: 2018-09-02
 updated: 2022-03-19
 version: 3.0.5
-stars: 4.69444
-reviews: 2412
+stars: 4.69456
+reviews: 2413
 size: '44745728'
 website: https://www.rain.bh/
 repository: 

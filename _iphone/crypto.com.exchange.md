@@ -11,8 +11,8 @@ idd: 1569309855
 released: 2021-06-15
 updated: 2022-03-09
 version: 1.7.1
-stars: 4.93333
-reviews: 15
+stars: 4.94737
+reviews: 19
 size: '70998016'
 website: https://crypto.com/exchange
 repository: 

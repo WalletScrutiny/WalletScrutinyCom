@@ -10,8 +10,8 @@ idd: 1559440997
 released: 2021-05-24
 updated: 2022-03-15
 version: 2.3.25
-stars: 4.64516
-reviews: 31
+stars: 4.63333
+reviews: 30
 size: '125623296'
 website: https://roseon.finance/
 repository: 

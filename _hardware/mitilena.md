@@ -1,5 +1,5 @@
 ---
-title: "Mitilena Offline Hardware Wallet"
+title: Mitilena Offline Hardware Wallet
 appId: mitilena
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Mitilena s.r.o."
+provider: Mitilena s.r.o.
 providerWebsite: 
 website: https://mitilena.com/
 shop: https://mitelena.com/
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 **⚠️ Note:** From the wordings in the product description, the Mitilena "hardware" wallet can be "downloaded" and installed on a USB flash drive, desktop computer or a mobile phone. We can find no spefications for the "hardware wallet". Please see analysis below for further information.

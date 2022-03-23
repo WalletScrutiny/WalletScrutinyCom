@@ -1,5 +1,5 @@
 ---
-title: "Kastelo"
+title: Kastelo
 appId: kastelo
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Monero Project"
+provider: Monero Project
 providerWebsite: 
 website: https://kastelo.org/
 shop: 
@@ -26,7 +26,8 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 
-social:   
+social: 
+
 ---
 
 ## Product Description 
