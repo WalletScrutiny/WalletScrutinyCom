@@ -26,14 +26,15 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2021-11-02
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream
 - https://www.facebook.com/Blockstream
-
+- https://t.me/blockstream
+- https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 ---
 
 **Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are
@@ -77,3 +78,79 @@ we could not find the answers to these questions:
 * Does the Jade display the binary's hash prior to installation?
 
 the firmware of this device is currently **not verifiable**.
+
+## Code and Reproducible Builds
+
+So as we learned in [this issue](https://github.com/Blockstream/Jade/issues/26),
+the provider doesn't easily offer the firmware for download but we came up with
+a convenient script to download the latest version. As there are two slightly
+different versions of the {{ page.title }} and the firmware comes in two
+flavors - with or without radio - this script downloads four firmware binaries:
+
+```
+withoutWheel="jade1.1"
+withWheel="jade"
+for model in $withoutWheel $withWheel; do
+	files=$( wget --output-document=- https://jadefw.blockstream.com/bin/$model/index.json | jq '.stable.full[].filename' --raw-output )
+	for file in $files; do
+		wget https://jadefw.blockstream.com/bin/$model/$file
+	done
+done
+```
+
+So we have something to check. On to compilation:
+
+As always we prefer compilation in containers, so we go with the
+[Use docker](https://github.com/Blockstream/Jade#use-docker) instructions:
+
+```
+$ git clone --recursive https://github.com/Blockstream/Jade.git
+$ cd Jade
+$ docker-compose up -d
+$ docker-compose exec dev bash
+```
+
+From here, the
+[Build the firmware](https://github.com/Blockstream/Jade#build-the-firmware)
+part should work, right?
+
+```
+root@5d8f6ff15ec2:/jade# git clone --recursive https://github.com/Blockstream/Jade.git $HOME/jade
+root@5d8f6ff15ec2:/jade# cd $HOME/jade
+root@5d8f6ff15ec2:~/jade# cp configs/sdkconfig_jade.defaults sdkconfig.defaults
+root@5d8f6ff15ec2:~/jade# idf.py flash monitor
+...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/jade/build
+Serial port /dev/ttyS0
+Connecting.......................
+/dev/ttyS0 failed to connect: Failed to connect to Espressif device: No serial data received.
+For troubleshooting steps visit: https://github.com/espressif/esptool#troubleshooting
+No serial ports found. Connect a device, or use '-p PORT' option to set a specific port.
+root@5d8f6ff15ec2:~/jade#
+```
+
+The error doesn't come as a surprise as we have no {{ page.title }} connected.
+But `-- Build files have been written to: /root/jade/build` looks promising.
+
+Sadly this is "Build files" not "Built files". None of the 769 files contains
+"firmware" and the two ".bin" files
+"build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_C*.bin" don't look promising
+neither.
+
+So what's probably going on is that the above command `idf.py flash monitor`
+would determine the configuration of a connected {{ page.title }} to then
+compile exactly for this device.
+
+Under [Build configurations](https://github.com/Blockstream/Jade#build-configurations)
+they explain:
+
+> The menuconfig tool can also be used to adjust the build settings.
+> 
+> `idf.py menuconfig`
+
+Running this command, we get a huge menu with tons of sub-menus allowing to
+configure what exactly to compile which is where we give up for now and hope
+to get easy steps on how to reproduce exactly the four files we downloaded
+above. In the mean time, this remains **not verifiable** for us.
