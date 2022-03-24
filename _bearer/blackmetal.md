@@ -38,7 +38,7 @@ The cards are made of grade 304 stainless steel and are 0.5 mm thick. It support
 
 The provider printing the QR codes for the user means that they **will have access to copies of the private key**. Their security measures are detailed on this [page](https://cryptocards.store/security-details/).
 
-Further proof that the card is more of a novelty item that can be passed on from one user to another:
+Further proof that the card is more of a novelty item that you shouldn't accept as payment:
 
 > How long is my wallet data and/or QR codes saved on your website?
 > The public address, private key and all related order details are automatically deleted after 2 months. This gives us enough time to process your order. And you enough time to review it or ask us questions about it.
