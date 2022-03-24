@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fcoin.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-01-08
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-06**: This app is not available anymore.
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.atari.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-11-15
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-16**: This app is not available anymore.
 
 ## App Description
 

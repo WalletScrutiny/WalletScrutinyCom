@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kevinpetters.bitcointrading.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-08-17
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-16**: This app is not available anymore.
 

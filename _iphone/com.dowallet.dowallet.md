@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.dowallet.dowallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-04-26
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-03-08**: This app is not available anymore.
 
 This wallet sounds like non-custodial. From their description:
 

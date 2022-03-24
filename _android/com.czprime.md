@@ -1,6 +1,6 @@
 ---
 wsId: CoinZoom
-title: 'CoinZoom: Buy Bitcoin & Crypto'
+title: 'CoinZoom Pro: Buy, Sell Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 100000
 appId: com.czprime
 appCountry: 
 released: 2020-06-11
-updated: 2022-03-01
-version: 1.4.29
-stars: 3.7547169
+updated: 2022-03-21
+version: 1.4.31
+stars: 3.6442308
 ratings: 2461
-reviews: 339
-size: 30M
+reviews: 343
+size: 31M
 website: https://www.coinzoom.com
 repository: 
 issue: 
