@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Blockchain Dashboard"
+title: Blockchain Dashboard
 altTitle: 
 authors:
 - leo
@@ -10,8 +10,8 @@ appId: com.blockchain.explorer
 appCountry: 
 released: 2019-12-30
 updated: 2022-01-07
-version: "1.2.0.5"
-stars: 4.52
+version: 1.2.0.5
+stars: 4.51
 ratings: 409
 reviews: 23
 size: 25M
@@ -24,10 +24,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Updated Review 2021-10-29

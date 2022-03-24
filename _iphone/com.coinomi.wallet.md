@@ -1,6 +1,6 @@
 ---
 wsId: coinomi
-title: "Coinomi Wallet"
+title: Coinomi Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2022-02-02
-version: "1.13.2"
-stars: 4.55963
-reviews: 1501
-size: 139253760
+updated: 2022-03-21
+version: 1.14.0
+stars: 4.56098
+reviews: 1517
+size: '140368896'
 website: https://www.coinomi.com
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinomiWallet
 social:
-  - https://www.linkedin.com/company/coinomi
-  - https://www.facebook.com/coinomi
-  - https://www.reddit.com/r/COINOMI
+- https://www.linkedin.com/company/coinomi
+- https://www.facebook.com/coinomi
+- https://www.reddit.com/r/COINOMI
+
 ---
 
 This wallet claims to be non-custodial but

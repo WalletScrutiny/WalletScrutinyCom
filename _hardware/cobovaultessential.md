@@ -1,5 +1,5 @@
 ---
-title: "Keystone Essential"
+title: Keystone Essential
 appId: cobovaultessential
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ authors:
 released: 2018-03-01
 discontinued: 
 updated: 2021-11-11
-version: "B-2.5"
+version: B-2.5
 binaries: 
 dimensions: 
 weight: 115
-provider: "Keystone"
+provider: Keystone
 providerWebsite: https://shop.keyst.one/products/keystone-essential
 website: https://keyst.one/
 shop: 
@@ -29,6 +29,7 @@ signer:
 reviewArchive: 
 twitter: KeystoneWallet
 social: 
+
 ---
 
 **Note:** Cobovault has been renamed to Keystone, previous products were known as Cobovault Essential, Cobovault Pro and Cobovault Ultimate.

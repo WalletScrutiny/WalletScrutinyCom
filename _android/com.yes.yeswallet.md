@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Yes Wallet"
+title: Yes Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.yes.yeswallet
 appCountry: 
 released: 2019-04-24
 updated: 2019-04-24
-version: "1.0"
+version: '1.0'
 stars: 2.8
 ratings: 45
 reviews: 31
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2021-06-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.yes.yeswallet/
+- /com.yes.yeswallet/
+
 ---
 
 This app ~~is~~was **very likely a scam** judging by the reviews and the website being

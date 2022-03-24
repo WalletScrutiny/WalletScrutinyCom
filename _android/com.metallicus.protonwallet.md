@@ -1,6 +1,6 @@
 ---
 wsId: ProtonWallet
-title: "Proton Wallet"
+title: Proton Wallet
 altTitle: 
 authors:
 - danny
@@ -9,13 +9,13 @@ appId: com.metallicus.protonwallet
 appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
-version: "1.5.20"
+version: 1.5.20
 stars: 4.49
 ratings: 613
 reviews: 76
 size: 46M
 website: https://www.protonchain.com/
-repository: https://github.com/ProtonProtocol/
+repository: 
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
@@ -23,12 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: protonxpr
 social:
-  - https://www.facebook.com/protonxpr
-  - https://www.reddit.com/r/ProtonChain
-redirect_from:
+- https://www.facebook.com/protonxpr
+- https://www.reddit.com/r/ProtonChain
+- https://github.com/ProtonProtocol
+redirect_from: 
+
 ---
 
 ## App Description
@@ -49,5 +51,5 @@ Upon app installation, registration and verification, the first thing to do was 
 
 ## Verdict
 
-We checked the repository of the [Proton on Github](https://github.com/ProtonProtocol/) but was unable to find the source code for the Android App. Our verdict details a self-custodial app with **no source code.**
+We checked the repository of the [Proton on Github](https://github.com/ProtonProtocol/) but were unable to find the source code for the Android App. Our verdict details a self-custodial app with **no source code.**
 

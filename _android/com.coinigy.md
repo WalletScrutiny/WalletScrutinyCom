@@ -1,6 +1,6 @@
 ---
 wsId: Coinigy
-title: "Coinigy"
+title: Coinigy
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinigy
 appCountry: us
 released: 2018-06-11
 updated: 2021-06-07
-version: "0.5.30"
+version: 0.5.30
 stars: 3.951613
 ratings: 225
 reviews: 40
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinigy
 social:
-  - https://www.linkedin.com/company/coinigy
-  - https://www.facebook.com/coinigy
-redirect_from:
+- https://www.linkedin.com/company/coinigy
+- https://www.facebook.com/coinigy
+redirect_from: 
+
 ---
 
 ## App Description

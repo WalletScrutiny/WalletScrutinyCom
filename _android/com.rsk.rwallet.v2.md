@@ -1,6 +1,6 @@
 ---
 wsId: rWallet
-title: "RWallet"
+title: RWallet
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ appId: com.rsk.rwallet.v2
 appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
-version: "2.0.1"
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
@@ -25,12 +25,13 @@ meta: ok
 verdict: ftbfs
 date: 2021-12-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: rsksmart
 social:
-  - https://www.facebook.com/RSKsmart
-  - https://www.reddit.com/r/rootstock
-redirect_from:
+- https://www.facebook.com/RSKsmart
+- https://www.reddit.com/r/rootstock
+redirect_from: 
+
 ---
 
 ## App Description

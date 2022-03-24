@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Servicoin - Crypto Wallet"
+title: Servicoin - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.servicoin.wallet
 appCountry: 
 released: 2021-07-31
 updated: 2021-07-31
-version: "0.21.0"
+version: 0.21.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

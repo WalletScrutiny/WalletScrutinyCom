@@ -1,6 +1,6 @@
 ---
 wsId: coindirect
-title: "Coindirect"
+title: Coindirect
 altTitle: 
 authors:
 - kiwilamb
@@ -11,10 +11,10 @@ appCountry:
 idd: 1438224938
 released: 2018-10-25
 updated: 2021-07-21
-version: "1.2.7"
+version: 1.2.7
 stars: 3
 reviews: 12
-size: 34306048
+size: '34306048'
 website: https://www.coindirect.com/
 repository: 
 issue: 
@@ -24,11 +24,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coindirectcom
 social:
-  - https://www.linkedin.com/company/coindirect
-  - https://www.facebook.com/coindirectcom
+- https://www.linkedin.com/company/coindirect
+- https://www.facebook.com/coindirectcom
+
 ---
 
 **Update 2022-01-04**: This app is available once more in the iOS app store. The app was last updated 2021-07-21

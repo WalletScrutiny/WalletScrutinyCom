@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: "Paxful | Marketplace & Wallet"
+title: Paxful | Marketplace & Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1443813253
 released: 2019-05-09
 updated: 2022-03-01
-version: "2.7.9"
-stars: 3.66737
-reviews: 2363
-size: 60800000
+version: 2.7.9
+stars: 3.66244
+reviews: 2367
+size: '60800000'
 website: https://paxful.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paxful
 social:
-  - https://www.facebook.com/paxful
-  - https://www.reddit.com/r/paxful
+- https://www.facebook.com/paxful
+- https://www.reddit.com/r/paxful
+
 ---
 
 In the App Store description we can read:

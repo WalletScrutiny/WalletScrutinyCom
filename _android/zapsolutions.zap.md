@@ -1,6 +1,6 @@
 ---
 wsId: zapwallet
-title: "Zap: Bitcoin Lightning Wallet"
+title: 'Zap: Bitcoin Lightning Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000
 appId: zapsolutions.zap
 appCountry: 
 released: 
-updated: 2022-01-29
-version: "Varies with device"
+updated: 2022-03-20
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -25,49 +25,50 @@ date: 2022-02-17
 signer: 
 reviewArchive:
 - date: 2021-12-15
-  version: "0.5.4-beta"
+  version: 0.5.4-beta
   appHash: 32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc
   gitRevision: 697497f5a850b1773b8626ab100442c4bf223ff0
   verdict: reproducible
 - date: 2021-12-06
-  version: "0.5.3-beta"
+  version: 0.5.3-beta
   appHash: ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4
   gitRevision: 1b96115dbe0d002e06d34997d4950d6ed2744075
   verdict: reproducible
 - date: 2021-10-19
-  version: "0.5.2-beta"
+  version: 0.5.2-beta
   appHash: f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757
   gitRevision: c1f138e96249368c682aba32e3ca16eaba881f88
   verdict: reproducible
 - date: 2021-09-17
-  version: "0.5.1-beta"
+  version: 0.5.1-beta
   appHash: dbf21e0cfb7f0bc238e9f24e123777f12e497ad574ada282a82e5dd98fa98d47
   gitRevision: 9c3e5354adbf260f11e947f9231e2b24df32cbd6
   verdict: reproducible
 - date: 2021-04-27
-  version: "0.4.1-beta"
+  version: 0.4.1-beta
   appHash: b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2
   gitRevision: 56e73c40348acc80b6d550a4f32a52b84fc3f3cb
   verdict: reproducible
 - date: 2020-12-22
-  version: "0.4.0-beta"
+  version: 0.4.0-beta
   appHash: cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65
   gitRevision: 701487613103f0ab3d9b7a2f2b8d0ff088a62356
   verdict: reproducible
 - date: 2020-12-22
-  version: "0.3.8-beta"
+  version: 0.3.8-beta
   appHash: 0902d86d218d385d627e943828fddc083689aa5998c4ae87e972e4b8625073d5
   gitRevision: 9b5efb649d21a3462d8abad571d0835976531aa5
   verdict: reproducible
 - date: 2019-12-30
-  version: "0.2.11"
+  version: 0.2.11
   appHash: 
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
 twitter: ln_zap
-social:
+social: 
 redirect_from:
-  - /posts/zapsolutions.zap/
+- /posts/zapsolutions.zap/
+
 ---
 
 Here is the output using our

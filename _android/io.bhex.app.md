@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "HBTC"
+title: HBTC
 altTitle: 
 authors:
 - danny
@@ -9,13 +9,13 @@ appId: io.bhex.app
 appCountry: 
 released: 2018-12-12
 updated: 2021-04-30
-version: "4.0.1"
+version: 4.0.1
 stars: 4.3
 ratings: 250
 reviews: 130
 size: 36M
 website: https://www.hbtc.com/
-repository: https://github.com/bhexopen
+repository: 
 issue: 
 icon: io.bhex.app.png
 bugbounty: 
@@ -23,11 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BHEXOfficial
 social:
-  - https://www.facebook.com/BHEXOfficial
-redirect_from:
+- https://www.facebook.com/BHEXOfficial
+- https://github.com/bhexopen
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

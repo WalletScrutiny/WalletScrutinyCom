@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Chameleon Pay"
+title: Chameleon Pay
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.chameleon.wallet
 appCountry: 
 released: 2019-02-22
 updated: 2019-10-16
-version: "4.0.3"
+version: 4.0.3
 stars: 4.5
 ratings: 75
 reviews: 61
@@ -23,13 +22,14 @@ meta: defunct
 verdict: wip
 date: 2020-12-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: chainzillaio
 social:
-  - https://www.reddit.com/r/ChainZilla
+- https://www.reddit.com/r/ChainZilla
 redirect_from:
-  - /com.chameleon.wallet/
-  - /posts/com.chameleon.wallet/
+- /com.chameleon.wallet/
+- /posts/com.chameleon.wallet/
+
 ---
 
 **Update:** The app is not available on Google Play anymore.

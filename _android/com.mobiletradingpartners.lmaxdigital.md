@@ -1,6 +1,6 @@
 ---
 wsId: LMAX
-title: "LMAX Digital Trading"
+title: LMAX Digital Trading
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
 appCountry: gb
 released: 2018-05-18
-updated: 2022-02-10
-version: "4.4.93"
+updated: 2022-03-14
+version: 4.4.96
 stars: 4.625
 ratings: 27
 reviews: 2
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: LMAX
 social:
-  - https://www.linkedin.com/company/lmax-group
-redirect_from:
+- https://www.linkedin.com/company/lmax-group
+redirect_from: 
+
 ---
 
 ## App Description

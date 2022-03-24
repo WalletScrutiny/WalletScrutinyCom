@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Ducatus Wallet"
+title: Ducatus Wallet
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000
 appId: io.ducatus.walnew
 appCountry: 
 released: 2019-12-05
-updated: 2022-02-21
-version: "2.8.13"
+updated: 2022-03-10
+version: 2.9.13
 stars: 3.7692308
 ratings: 346
 reviews: 6
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app supports Bitcoin:

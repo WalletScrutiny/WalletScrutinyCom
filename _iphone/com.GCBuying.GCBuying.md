@@ -1,6 +1,6 @@
 ---
 wsId: GCBuying
-title: "GCBuyingTech- SELL GIFT CARDS"
+title: GCBuyingTech- SELL GIFT CARDS
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ng
 idd: 1574175142
 released: 2021-06-30
 updated: 2021-10-19
-version: "1.0.3"
+version: 1.0.3
 stars: 3.6
 reviews: 10
-size: 22011904
+size: '22011904'
 website: https://gcbuying.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: gcbuying
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: incognito
-title: "Incognito Bitcoin Wallet"
+title: Incognito Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.incognito.wallet
 appCountry: 
 released: 2019-08-12
 updated: 2022-01-28
-version: "5.2.0"
+version: 5.2.0
 stars: 3.92
 ratings: 344
 reviews: 62
@@ -23,11 +23,12 @@ meta: ok
 verdict: nonverifiable
 date: 2020-12-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: incognitochain
-social:
+social: 
 redirect_from:
-  - /com.incognito.wallet/
+- /com.incognito.wallet/
+
 ---
 
 After many many reviews of custodial wallets, this one makes a promising claim:

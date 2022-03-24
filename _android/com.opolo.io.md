@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "OPOLO Hardware Wallet"
+title: OPOLO Hardware Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.opolo.io
 appCountry: 
 released: 2020-09-01
 updated: 2021-06-08
-version: "1.3.1"
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

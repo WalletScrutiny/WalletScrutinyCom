@@ -1,6 +1,6 @@
 ---
 wsId: coinsonepaprika
-title: "COINS: One App For Crypto"
+title: 'COINS: One App For Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1475233621
 released: 2019-12-03
 updated: 2022-02-09
-version: "2.7.2"
-stars: 4.75031
-reviews: 813
-size: 62578688
+version: 2.7.2
+stars: 4.75061
+reviews: 822
+size: '62578688'
 website: http://coins.coinpaprika.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinsOneApp
 social:
-  - https://www.facebook.com/CoinsOneApp
+- https://www.facebook.com/CoinsOneApp
+
 ---
 
 {% include copyFromAndroid.html %}

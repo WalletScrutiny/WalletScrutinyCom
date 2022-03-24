@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PRO crypto exchange: trade BTC"
+title: 'PRO crypto exchange: trade BTC'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pro.changelly
 appCountry: 
 released: 2020-07-03
 updated: 2022-02-09
-version: "1.1.0"
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: changelly_team
 social:
-  - https://www.facebook.com/changellyteam
-  - https://www.reddit.com/r/Changelly
-redirect_from:
+- https://www.facebook.com/changellyteam
+- https://www.reddit.com/r/Changelly
+redirect_from: 
+
 ---
 
 ## App Description

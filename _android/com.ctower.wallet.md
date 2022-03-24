@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CrossTower Wallet"
+title: CrossTower Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.ctower.wallet
 appCountry: 
 released: 2021-12-22
 updated: 2022-02-15
-version: "1.1.5"
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,16 @@ repository:
 issue: 
 icon: com.ctower.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-08
+date: 2022-03-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
+
+**Update 2022-03-11**: This app is not available anymore.
 

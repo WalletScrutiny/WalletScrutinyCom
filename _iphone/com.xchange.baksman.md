@@ -1,6 +1,6 @@
 ---
 wsId: Baksman
-title: "Baksman – buy Bitcoin"
+title: Baksman – buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ru
 idd: 1436169013
 released: 2018-09-21
 updated: 2022-03-05
-version: "2.2.2"
-stars: 4.80328
-reviews: 61
-size: 12940288
+version: 2.2.2
+stars: 4.68254
+reviews: 63
+size: '12940288'
 website: 
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/baksmancom
+- https://www.facebook.com/baksmancom
+
 ---
 
 {% include copyFromAndroid.html %}

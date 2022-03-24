@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "miningt"
+title: miningt
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.project.wmc
 appCountry: 
 released: 2019-09-30
 updated: 2020-03-25
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.project.wmc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-05
+date: 2022-03-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

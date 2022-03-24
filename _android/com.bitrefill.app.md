@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: "Bitrefill - Use Bitcoin to buy Gift Cards"
+title: Bitrefill - Use Bitcoin to buy Gift Cards
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.bitrefill.app
 appCountry: 
 released: 2018-04-10
 updated: 2022-02-25
-version: "1.30.13"
-stars: 3.4455445
+version: 1.30.13
+stars: 3.5
 ratings: 1039
-reviews: 122
+reviews: 125
 size: 32M
 website: https://www.bitrefill.com
 repository: 
@@ -25,17 +25,18 @@ date: 2021-09-14
 signer: 
 reviewArchive:
 - date: 2019-12-25
-  version: "1.28.9"
+  version: 1.28.9
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: custodial
 twitter: bitrefill
 social:
-  - https://www.facebook.com/bitrefill
-  - https://www.reddit.com/r/Bitrefill
+- https://www.facebook.com/bitrefill
+- https://www.reddit.com/r/Bitrefill
 redirect_from:
-  - /com.bitrefill.app/
-  - /posts/com.bitrefill.app/
+- /com.bitrefill.app/
+- /posts/com.bitrefill.app/
+
 ---
 
 **Update 2021-09-14**: This app was updated after a long time which had it fall

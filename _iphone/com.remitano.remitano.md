@@ -1,6 +1,6 @@
 ---
 wsId: Remitano
-title: "Remitano"
+title: Remitano
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.remitano.remitano
 appCountry: 
 idd: 1116327021
 released: 2016-05-28
-updated: 2022-03-03
-version: "6.39.0"
-stars: 4.76466
-reviews: 8371
-size: 58273792
+updated: 2022-03-15
+version: 6.43.0
+stars: 4.76301
+reviews: 8439
+size: '57081856'
 website: https://remitano.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-01-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: remitano
 social:
-  - https://www.linkedin.com/company/Remitano
-  - https://www.facebook.com/remitano
+- https://www.linkedin.com/company/Remitano
+- https://www.facebook.com/remitano
+
 ---
 
 This app is an interface to an exchange which holds your coins. On the App Store

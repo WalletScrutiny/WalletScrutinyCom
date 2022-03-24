@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: "TechPay Exchange - Cryptocurrency Trading App"
+title: TechPay Exchange - Cryptocurrency Trading App
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: crypto.base.baseexchange
 appCountry: 
 released: 2019-06-05
-updated: 2022-02-26
-version: "4.9"
+updated: 2022-03-20
+version: '5.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: techpay_io
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

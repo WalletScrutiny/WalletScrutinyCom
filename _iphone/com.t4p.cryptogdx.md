@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinTrends
-title: "Bitcoin Trading Signals"
+title: Bitcoin Trading Signals
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1355493928
 released: 2018-04-27
 updated: 2021-06-08
-version: "2.3"
+version: '2.3'
 stars: 4.65363
 reviews: 179
-size: 25708544
+size: '25708544'
 website: https://trading4pro.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2022-01-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Trading4Pro
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

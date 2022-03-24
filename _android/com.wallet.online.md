@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Online Wallet"
+title: Online Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wallet.online
 appCountry: 
 released: 2019-11-08
 updated: 2021-04-22
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

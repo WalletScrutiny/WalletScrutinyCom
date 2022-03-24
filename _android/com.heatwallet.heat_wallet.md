@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Heat Wallet"
+title: Heat Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.heatwallet.heat_wallet
 appCountry: 
 released: 2021-11-24
 updated: 2021-11-24
-version: "1.0.38"
+version: 1.0.38
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

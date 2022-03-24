@@ -1,5 +1,5 @@
 ---
-title: "Walt DIY Hardware Wallet"
+title: Walt DIY Hardware Wallet
 appId: walt
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: Angainor15
 social: 
+
 ---
 
 The primary 'website' of this project is a discord channel. There hasn't been much activity in it later than June 2021. The last official announcement was on June 4, 2021:

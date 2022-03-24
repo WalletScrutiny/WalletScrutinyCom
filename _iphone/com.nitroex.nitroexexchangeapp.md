@@ -1,6 +1,6 @@
 ---
 wsId: NitroEXexchangeapp
-title: "NitroEx | Buy Bitcoin/Altcoin"
+title: NitroEx | Buy Bitcoin/Altcoin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: tt
 idd: 1569267465
 released: 2021-07-05
 updated: 2022-03-07
-version: "2.0.5"
-stars: 
-reviews: 
-size: 56274944
+version: 2.0.5
+stars: 0
+reviews: 0
+size: '56274944'
 website: https://www.nitroex.io/
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NitroExOfficial
 social:
-  - https://www.linkedin.com/company/nitroex
-  - https://www.facebook.com/nitroex.io
-  - https://www.reddit.com/r/nitroexchange
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: zeux
-title: "Zeux - Payments & Investing"
+title: Zeux - Payments & Investing
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.zeux.finapp
 appCountry: gb
 released: 2019-05-22
 updated: 2021-10-07
-version: "2.20.0"
+version: 2.20.0
 stars: 4.2043796
 ratings: 1655
 reviews: 1245
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZeuxApp
 social:
-  - https://www.linkedin.com/company/zeux
-  - https://www.facebook.com/Zeuxglobal
-redirect_from:
+- https://www.linkedin.com/company/zeux
+- https://www.facebook.com/Zeuxglobal
+redirect_from: 
+
 ---
 
 **Updated Analysis 2022-01-06**

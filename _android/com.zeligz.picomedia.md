@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "pmgc: Bitcoin and crypto currency wallet"
+title: 'pmgc: Bitcoin and crypto currency wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.zeligz.picomedia
 appCountry: 
 released: 2019-09-03
 updated: 2020-01-27
-version: "1.6"
+version: '1.6'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-01-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

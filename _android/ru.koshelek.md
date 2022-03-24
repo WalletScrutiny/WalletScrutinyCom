@@ -1,6 +1,6 @@
 ---
 wsId: Koshelek
-title: "Koshelek. Crypto wallet & p2p"
+title: Koshelek. Crypto wallet & p2p
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000
 appId: ru.koshelek
 appCountry: ru
 released: 2020-07-28
-updated: 2022-02-21
-version: "1.8"
-stars: 4
+updated: 2022-03-15
+version: 1.8.1
+stars: 3.984375
 ratings: 122
-reviews: 48
+reviews: 49
 size: 8.2M
 website: https://koshelek.ru/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koshelek_ru
 social:
-  - https://www.facebook.com/koshelekru
-redirect_from:
+- https://www.facebook.com/koshelekru
+redirect_from: 
+
 ---
 
 ## App Description

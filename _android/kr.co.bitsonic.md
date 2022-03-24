@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitsonic (Crypto Corrency, Exchange, Bitcoin,)"
+title: Bitsonic (Crypto Corrency, Exchange, Bitcoin,)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: kr.co.bitsonic
 appCountry: 
 released: 2018-05-31
 updated: 2021-03-24
-version: "1.9.6"
+version: 1.9.6
 stars: 2.1
 ratings: 1533
 reviews: 699
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Verdict

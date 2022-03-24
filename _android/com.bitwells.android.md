@@ -1,6 +1,6 @@
 ---
 wsId: Bitwells
-title: "Bitwells - Easy Bitcoin/Crypto Futures Trading"
+title: Bitwells - Easy Bitcoin/Crypto Futures Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitwells.android
 appCountry: us
 released: 2021-05-17
 updated: 2021-06-02
-version: "1.0.5"
+version: 1.0.5
 stars: 4.620155
 ratings: 1307
 reviews: 1260
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitwells
 social:
-  - https://www.facebook.com/Bitwells
-redirect_from:
+- https://www.facebook.com/Bitwells
+redirect_from: 
+
 ---
 
 ## App Description

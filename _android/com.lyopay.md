@@ -1,6 +1,6 @@
 ---
 wsId: lyopay
-title: "LYOPAY"
+title: LYOPAY
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.lyopay
 appCountry: eg
 released: 2020-10-02
 updated: 2021-12-03
-version: "7.1.3"
+version: 7.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: lyopayofficial
 social:
-  - https://www.linkedin.com/company/lyopay
-  - https://www.facebook.com/lyopayofficial
-  - https://www.reddit.com/r/LYOPAY
-redirect_from:
+- https://www.linkedin.com/company/lyopay
+- https://www.facebook.com/lyopayofficial
+- https://www.reddit.com/r/LYOPAY
+redirect_from: 
+
 ---
 
 ### Google Play Description

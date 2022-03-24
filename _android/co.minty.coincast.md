@@ -1,18 +1,17 @@
 ---
 wsId: 
-title: "Coincast — Send Crypto"
+title: Coincast — Send Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: co.minty.coincast
 appCountry: 
 released: 2021-07-18
-updated: 2022-03-05
-version: "1.2.8"
-stars: 3.5
+updated: 2022-03-16
+version: 1.2.9
+stars: 3.6666667
 ratings: 8
-reviews: 4
+reviews: 6
 size: 49M
 website: https://coincast.app
 repository: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: wip
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: Nitrobot
-title: "NitroBot - Automated Crypto Trading By NitroEx"
+title: NitroBot - Automated Crypto Trading By NitroEx
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.nitroex.nitroexvipapp
 appCountry: us
 released: 2020-11-17
 updated: 2022-03-02
-version: "8.0.3"
+version: 8.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nowallet
 date: 2022-01-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NitroExOfficial
 social:
-  - https://www.linkedin.com/company/nitroex
-  - https://www.facebook.com/nitroex.io
-  - https://www.reddit.com/r/nitroexchange
-redirect_from:
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
+redirect_from: 
+
 ---
 
 ⚠️ **Caution:** Some users have described this app as a scam.

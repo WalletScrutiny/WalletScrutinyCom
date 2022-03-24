@@ -1,6 +1,6 @@
 ---
 wsId: swipestoxNaga
-title: "Forex trading app by Naga"
+title: Forex trading app by Naga
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: swipestox.mobile
 appCountry: gb
 released: 2015-10-20
 updated: 2022-03-09
-version: "8.0.236"
-stars: 3.35
+version: 8.0.236
+stars: 3.31
 ratings: 5636
 reviews: 193
 size: 119M
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: nagainvesting
 social:
-  - https://www.linkedin.com/company/nagainvesting
-  - https://www.facebook.com/nagainvesting
-redirect_from:
+- https://www.linkedin.com/company/nagainvesting
+- https://www.facebook.com/nagainvesting
+redirect_from: 
+
 ---
 
 ## App Description

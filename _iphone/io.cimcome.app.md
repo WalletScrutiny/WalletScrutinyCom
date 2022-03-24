@@ -1,6 +1,6 @@
 ---
 wsId: CoinCome
-title: "COINCOME Wallet - Cryptowallet"
+title: COINCOME Wallet - Cryptowallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: bm
 idd: 1536525077
 released: 2020-12-09
 updated: 2022-03-08
-version: "1.2.3"
-stars: 
-reviews: 
-size: 69787648
+version: 1.2.3
+stars: 0
+reviews: 0
+size: '69787648'
 website: https://cimcome.sg
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cimcome
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

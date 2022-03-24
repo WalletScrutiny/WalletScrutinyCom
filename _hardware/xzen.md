@@ -1,5 +1,5 @@
 ---
-title: "XZEN"
+title: XZEN
 appId: xzen
 authors:
 - kiwilamb
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The provider's [website states](https://xzen.io/) that this hardware wallet is no longer supported.

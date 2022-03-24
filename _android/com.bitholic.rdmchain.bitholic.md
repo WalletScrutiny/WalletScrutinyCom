@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitholic - Global Digital Asset Exchange"
+title: Bitholic - Global Digital Asset Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitholic.rdmchain.bitholic
 appCountry: 
 released: 2019-01-20
 updated: 2021-08-02
-version: "1.1.1"
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.bitholic.rdmchain.bitholic/
-  - /posts/com.bitholic.rdmchain.bitholic/
+- /com.bitholic.rdmchain.bitholic/
+- /posts/com.bitholic.rdmchain.bitholic/
+
 ---
 
 This app is an interface for an exchange. Your coins are stored on their

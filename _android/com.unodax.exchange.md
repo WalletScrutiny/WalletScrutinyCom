@@ -1,6 +1,6 @@
 ---
 wsId: UnodaxExchange
-title: "Unodax Exchange"
+title: Unodax Exchange
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.unodax.exchange
 appCountry: us
 released: 2018-04-04
-updated: 2021-06-16
-version: "2.5.7"
+updated: 2022-03-10
+version: 2.5.8
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 14M
 website: https://www.unodax.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Unocoin
 social:
-  - https://www.linkedin.com/company/unocoin
-  - https://www.facebook.com/unocoin
-redirect_from:
+- https://www.linkedin.com/company/unocoin
+- https://www.facebook.com/unocoin
+redirect_from: 
+
 ---
 
 From Google Play:

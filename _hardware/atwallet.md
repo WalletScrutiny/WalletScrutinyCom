@@ -1,5 +1,5 @@
 ---
-title: "AT.Wallet"
+title: AT.Wallet
 appId: atwallet
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 2.2]
+dimensions:
+- 54
+- 85
+- 2.2
 weight: 
-provider: "AuthenTrend"
+provider: AuthenTrend
 providerWebsite: https://authentrend.com/
 website: https://authentrend.com/at-wallet/
 shop: https://www.amazon.com/dp/B084Q4FRPT
@@ -27,9 +30,10 @@ date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: authentrend
-social: 
-  - https://www.linkedin.com/company/authentrend
-  - https://www.facebook.com/authentrend
+social:
+- https://www.linkedin.com/company/authentrend
+- https://www.facebook.com/authentrend
+
 ---
 
 {{ page.title }} describes itself as

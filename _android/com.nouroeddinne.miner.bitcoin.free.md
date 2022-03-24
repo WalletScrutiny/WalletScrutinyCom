@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: "Crypto bitcoin cloud mining"
+title: Crypto bitcoin cloud mining
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.nouroeddinne.miner.bitcoin.free
 appCountry: 
 released: 2021-03-18
 updated: 2022-01-27
-version: "13.14"
-stars: 4.366337
+version: '13.14'
+stars: 4.3523808
 ratings: 3855
-reviews: 360
+reviews: 397
 size: 7.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Caution:** Cloud mining apps that run on a phone with no reference to a mining facility and require referrals are generally shady projects that are not really into mining. Users are cautioned regarding apps like these.

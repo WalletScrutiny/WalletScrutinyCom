@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Elaphant - BTC ETH ELA Wallet"
+title: Elaphant - BTC ETH ELA Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: app.elaphant.wallets
 appCountry: 
 released: 2020-10-08
 updated: 2021-05-03
-version: "1.99.15"
+version: 1.99.15
 stars: 4.8
 ratings: 10
 reviews: 1
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

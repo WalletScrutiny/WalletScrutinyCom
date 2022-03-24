@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "monerujo: Monero Wallet"
+title: 'monerujo: Monero Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 50000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2022-01-05
-version: "2.3.1 'Doménikos'"
+updated: 2022-03-13
+version: 2.4.1 'Baldaŭ'
 stars: 3.08
 ratings: 821
 reviews: 151
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-02-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app does not feature BTC wallet functionality.

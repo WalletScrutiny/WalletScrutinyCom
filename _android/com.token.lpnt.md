@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "LPNT - Crypto Wallet Beta version"
+title: LPNT - Crypto Wallet Beta version
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.token.lpnt
 appCountry: 
 released: 2021-05-03
-updated: 2022-02-04
-version: "2.9"
+updated: 2022-03-23
+version: '3.2'
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 25M
 website: https://www.lpntoken.io
 repository: 
 issue: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: officialLPNT
 social:
-  - https://www.linkedin.com/company/official-lpnt
-  - https://www.facebook.com/officialLPNT
-  - https://www.reddit.com/r/lpntokenofficial
-redirect_from:
+- https://www.linkedin.com/company/official-lpnt
+- https://www.facebook.com/officialLPNT
+- https://www.reddit.com/r/lpntokenofficial
+redirect_from: 
+
 ---
 
 ### Google Play

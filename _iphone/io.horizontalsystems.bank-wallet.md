@@ -1,6 +1,6 @@
 ---
 wsId: Unstoppable
-title: "Unstoppable Wallet"
+title: Unstoppable Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.horizontalsystems.bank-wallet
 appCountry: 
 idd: 1447619907
 released: 2019-01-10
-updated: 2022-01-19
-version: "0.23.2"
-stars: 4.65546
-reviews: 357
-size: 37606400
+updated: 2022-03-18
+version: 0.24.2
+stars: 4.65946
+reviews: 370
+size: '47772672'
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nonverifiable
 date: 2020-12-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: unstoppablebyhs
 social:
-  - https://www.reddit.com/r/UNSTOPPABLEWallet
+- https://www.reddit.com/r/UNSTOPPABLEWallet
+
 ---
 
 The provider claims:

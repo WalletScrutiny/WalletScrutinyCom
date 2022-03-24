@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: "Bybit: Crypto Trading Platform"
+title: 'Bybit: Crypto Trading Platform'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2022-02-25
-version: "3.15.1"
-stars: 3.86061
-reviews: 495
-size: 124221440
+updated: 2022-03-22
+version: 3.17.1
+stars: 3.87795
+reviews: 508
+size: '133999616'
 website: https://www.bybit.com
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bybit_Official
 social:
-  - https://www.linkedin.com/company/bybitexchange
-  - https://www.facebook.com/Bybit
-  - https://www.reddit.com/r/Bybit
+- https://www.linkedin.com/company/bybitexchange
+- https://www.facebook.com/Bybit
+- https://www.reddit.com/r/Bybit
+
 ---
 
 > "Bybit is the World's fastest-growing and one of the largest crypto

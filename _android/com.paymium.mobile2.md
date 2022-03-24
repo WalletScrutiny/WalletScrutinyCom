@@ -1,6 +1,6 @@
 ---
 wsId: Paymium
-title: "Paymium"
+title: Paymium
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.paymium.mobile2
 appCountry: us
 released: 2018-09-24
-updated: 2022-03-08
-version: "3.2"
+updated: 2022-03-11
+version: '3.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paymium
 social:
-  - https://www.linkedin.com/company/paymium
-  - https://www.facebook.com/Paymium
-redirect_from:
+- https://www.linkedin.com/company/paymium
+- https://www.facebook.com/Paymium
+redirect_from: 
+
 ---
 
 ## App Description

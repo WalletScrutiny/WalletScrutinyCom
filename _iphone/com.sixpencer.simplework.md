@@ -1,6 +1,6 @@
 ---
 wsId: dfox
-title: "Dfox - Wallet&DeFi Portfolio"
+title: Dfox - Wallet&DeFi Portfolio
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1529717509
 released: 2020-10-24
 updated: 2021-10-25
-version: "1.4.7"
+version: 1.4.7
 stars: 4.66667
 reviews: 15
-size: 70266880
+size: '70266880'
 website: https://dfox.cc
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2021-03-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 This app appears not to get access to spend your Bitcoins:

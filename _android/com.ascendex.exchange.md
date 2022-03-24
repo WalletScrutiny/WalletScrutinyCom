@@ -1,6 +1,6 @@
 ---
 wsId: ascendex
-title: "AscendEX: Bitcoin Exchange"
+title: 'AscendEX: Bitcoin Exchange'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 500000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2022-02-22
-version: "2.7.7"
-stars: 4.813084
+updated: 2022-03-18
+version: 2.7.8
+stars: 4.814815
 ratings: 6660
 reviews: 97
-size: 47M
+size: 46M
 website: https://asdx.io/
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-05-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AscendEX_Global
 social:
-  - https://www.facebook.com/AscendEXOfficial
-  - https://www.reddit.com/r/AscendEX_Official
-redirect_from:
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
+redirect_from: 
+
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

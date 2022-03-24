@@ -1,6 +1,6 @@
 ---
 wsId: TradeAries
-title: "Aries: Investing & Trading"
+title: 'Aries: Investing & Trading'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: com.trading.aries
 appCountry: ng
 released: 2021-06-23
-updated: 2022-02-20
-version: "2.01.7"
+updated: 2022-03-22
+version: 2.2.3
 stars: 
 ratings: 
 reviews: 
-size: 9.0M
+size: 8.9M
 website: https://tradearies.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TradeAries
 social:
-  - https://www.linkedin.com/company/tradearies
-  - https://www.facebook.com/TradeAries
-redirect_from:
+- https://www.linkedin.com/company/tradearies
+- https://www.facebook.com/TradeAries
+redirect_from: 
+
 ---
 
 ## App Description

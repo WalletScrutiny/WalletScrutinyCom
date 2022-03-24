@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PAYEER"
+title: PAYEER
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.payeer
 appCountry: 
 released: 2018-01-03
 updated: 2020-12-24
-version: "Varies with device"
+version: Varies with device
 stars: 4.33
 ratings: 36999
-reviews: 151
+reviews: 150
 size: Varies with device
 website: https://payeer.com
 repository: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: custodial
 date: 2021-12-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/payeercoins
-redirect_from:
+- https://www.facebook.com/payeercoins
+redirect_from: 
+
 ---
 
 Taken from the Play Store description:

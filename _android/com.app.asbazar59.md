@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ASBAZAR Bitcoin Marketplace & Crypto Wallet"
+title: ASBAZAR Bitcoin Marketplace & Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.asbazar59
 appCountry: 
 released: 2021-06-15
 updated: 2021-10-14
-version: "4"
+version: '4'
 stars: 3.1818182
 ratings: 434
 reviews: 7
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: asbazarofficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

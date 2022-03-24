@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "NodaWallet"
+title: NodaWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.application.nodawallet
 appCountry: 
 released: 2020-09-14
 updated: 2021-12-10
-version: "1.0.19"
+version: 1.0.19
 stars: 4.928571
 ratings: 849
 reviews: 54
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: DexNodaWallett
 social:
-  - https://www.linkedin.com/company/noda-project-8b4a251b3
-  - https://www.reddit.com/r/NodaWallet
-redirect_from:
+- https://www.linkedin.com/company/noda-project-8b4a251b3
+- https://www.reddit.com/r/NodaWallet
+redirect_from: 
+
 ---
 
 ## App Description

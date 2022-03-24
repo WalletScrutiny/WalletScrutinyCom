@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ForceBTC - Blockchain Wallet and Exchanger"
+title: ForceBTC - Blockchain Wallet and Exchanger
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.multidev.forcebtc
 appCountry: 
 released: 2021-01-08
 updated: 2021-01-08
-version: "1.0"
+version: '1.0'
 stars: 4.1
 ratings: 11
 reviews: 3
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not available anymore.

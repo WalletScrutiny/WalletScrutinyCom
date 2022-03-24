@@ -1,6 +1,6 @@
 ---
 wsId: korbit
-title: "korbit"
+title: korbit
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.korbit.exchange
 appCountry: us
 idd: 1434511619
 released: 2018-10-18
-updated: 2022-03-08
-version: "4.5.3"
+updated: 2022-03-17
+version: 4.6.1
 stars: 3.07143
 reviews: 14
-size: 144691200
+size: '144931840'
 website: http://www.korbit.co.kr
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

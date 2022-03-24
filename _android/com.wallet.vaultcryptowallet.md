@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Vault Crypto Wallet"
+title: Vault Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wallet.vaultcryptowallet
 appCountry: 
 released: 2021-08-18
 updated: 2022-02-18
-version: "1.0.6"
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/Bitcoin-Pay-110590501255347
-redirect_from:
+- https://www.facebook.com/Bitcoin-Pay-110590501255347
+redirect_from: 
+
 ---
 
 **Notes:** Vault Crypto Wallet's Google Play page links to [bitcoinpay.com.co](https://bitcoinpay.com.co)

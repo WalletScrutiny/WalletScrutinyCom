@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: "Kriptomat"
+title: Kriptomat
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1440135740
 released: 2018-12-20
 updated: 2022-03-04
-version: "2.0.26"
+version: 2.0.26
 stars: 4.77778
 reviews: 9
-size: 42499072
+size: '42499072'
 website: https://kriptomat.io
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: kriptomat
 social:
-  - https://www.linkedin.com/company/kriptomat
-  - https://www.facebook.com/kriptomat.io
+- https://www.linkedin.com/company/kriptomat
+- https://www.facebook.com/kriptomat.io
+
 ---
 
 {% include copyFromAndroid.html %}

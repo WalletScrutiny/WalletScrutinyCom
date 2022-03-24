@@ -1,6 +1,6 @@
 ---
 wsId: WiseWinWallet
-title: "Win Wallet"
+title: Win Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.wise.llc.wallet.app
 appCountry: fi
 released: 2020-09-03
 updated: 2021-07-02
-version: "2.6.4"
+version: 2.6.4
 stars: 4.2727275
 ratings: 43
 reviews: 28
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

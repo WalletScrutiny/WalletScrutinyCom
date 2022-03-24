@@ -1,6 +1,6 @@
 ---
 wsId: ascendex
-title: "AscendEX: Buy Bitcoin & Crypto"
+title: 'AscendEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
 released: 2019-06-13
-updated: 2022-02-23
-version: "2.7.4"
-stars: 4.84658
-reviews: 541
-size: 94743552
+updated: 2022-03-21
+version: 2.7.5
+stars: 4.84457
+reviews: 534
+size: '95194112'
 website: 
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AscendEX_Global
 social:
-  - https://www.facebook.com/AscendEXOfficial
-  - https://www.reddit.com/r/AscendEX_Official
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
+
 ---
 
 The AscendEx mobile app claims on the website help section to manage bitcoins...

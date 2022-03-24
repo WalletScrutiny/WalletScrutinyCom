@@ -1,6 +1,6 @@
 ---
 wsId: usdxwallet
-title: "USDX Wallet money transfer app"
+title: USDX Wallet money transfer app
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appCountry:
 idd: 1367451869
 released: 2018-04-23
 updated: 2020-11-27
-version: "1.34.2"
+version: 1.34.2
 stars: 4.73684
 reviews: 152
-size: 55813120
+size: '55813120'
 website: https://usdx.cash/airdrop
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: stale
 verdict: nobtc
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: USDXwallet
 social:
-  - https://www.facebook.com/USDXwallet
-  - https://www.reddit.com/r/USDXwallet
+- https://www.facebook.com/USDXwallet
+- https://www.reddit.com/r/USDXwallet
+
 ---
 
 There is no evidence that this wallet supports BTC, the only 2 token supported from the website are USDX and LHT (Lighthouse token)

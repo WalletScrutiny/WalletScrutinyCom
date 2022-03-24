@@ -1,5 +1,5 @@
 ---
-title: "Zeniq & Safir Hub"
+title: Zeniq & Safir Hub
 appId: zeniqsafirhub
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "ZENIQ Technologies Ltd."
+provider: ZENIQ Technologies Ltd.
 providerWebsite: https://zeniq.com/
 website: 
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: zeniq-tech
 social: 
+
 ---
 
 **⚠️ Warning:** There are some third-party websites that have raised red flags concerning this product/project. We would not be linking to them as they have received adverse reactions from the project creators by filing copyright claims against their hosting provider. We leave that for you to Google.

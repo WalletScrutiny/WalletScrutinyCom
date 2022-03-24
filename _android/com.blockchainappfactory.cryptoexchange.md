@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BAF: Multicurrency Wallet & Exchange"
+title: 'BAF: Multicurrency Wallet & Exchange'
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.blockchainappfactory.cryptoexchange
 appCountry: 
 released: 
 updated: 2021-04-13
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

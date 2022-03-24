@@ -1,6 +1,6 @@
 ---
 wsId: coinspot
-title: "CoinSpot - Buy & Sell Bitcoin"
+title: CoinSpot - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: au
 idd: 1541949985
 released: 2020-12-13
 updated: 2022-02-24
-version: "2.0.15"
-stars: 4.67929
-reviews: 5460
-size: 15613952
+version: 2.0.15
+stars: 4.69441
+reviews: 6080
+size: '15613952'
 website: https://www.coinspot.com.au/
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinspotau
 social:
-  - https://www.facebook.com/coinspotau
+- https://www.facebook.com/coinspotau
+
 ---
 
 {% include copyFromAndroid.html %}

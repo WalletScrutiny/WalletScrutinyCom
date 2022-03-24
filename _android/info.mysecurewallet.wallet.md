@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Bitcoin wallet"
-altTitle: "Bitcoin wallet by mysecurewallet.info"
+title: Bitcoin wallet
+altTitle: Bitcoin wallet by mysecurewallet.info
 authors:
 - leo
 - emanuel
@@ -10,7 +10,7 @@ appId: info.mysecurewallet.wallet
 appCountry: 
 released: 2019-11-01
 updated: 2019-11-02
-version: "1.1"
+version: '1.1'
 stars: 3.5
 ratings: 63
 reviews: 42
@@ -24,10 +24,11 @@ meta: defunct
 verdict: custodial
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

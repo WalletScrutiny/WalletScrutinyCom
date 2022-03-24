@@ -1,18 +1,17 @@
 ---
 wsId: 
-title: "Pillar. Multichain DeFi & NFTs"
+title: Pillar. Multichain DeFi & NFTs
 altTitle: 
-authors:
-
+authors: 
 users: 100000
 appId: com.pillarproject.wallet
 appCountry: 
 released: 2018-12-13
 updated: 2022-03-05
-version: "3.11.3"
-stars: 4.19
+version: 3.11.3
+stars: 4.168317
 ratings: 1007
-reviews: 85
+reviews: 86
 size: 53M
 website: http://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
@@ -23,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2020-02-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PillarWallet
-social:
+social: 
 redirect_from:
-  - /com.pillarproject.wallet/
-  - /posts/com.pillarproject.wallet/
+- /com.pillarproject.wallet/
+- /posts/com.pillarproject.wallet/
+
 ---
 
 This app is not a Bitcoin wallet. Neither the description nor the website claim

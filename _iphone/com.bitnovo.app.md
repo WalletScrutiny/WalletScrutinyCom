@@ -1,6 +1,6 @@
 ---
 wsId: bitnovo
-title: "Bitnovo - Crypto Wallet"
+title: Bitnovo - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1220883632
 released: 2017-05-19
 updated: 2021-10-30
-version: "2.8.7"
+version: 2.8.7
 stars: 2.2
 reviews: 5
 size: 64441344
@@ -22,10 +22,11 @@ meta: defunct
 verdict: custodial
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitnovo
 social:
-  - https://www.facebook.com/BitcoinBitnovo
+- https://www.facebook.com/BitcoinBitnovo
+
 ---
 
 **Update 2022-01-31**: This app is not in store anymore.

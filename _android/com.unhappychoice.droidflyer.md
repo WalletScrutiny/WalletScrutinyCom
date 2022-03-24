@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "DroidFlyer"
+title: DroidFlyer
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.unhappychoice.droidflyer
 appCountry: 
 released: 2017-11-12
 updated: 2022-01-23
-version: "2.0.1"
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2022-01-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

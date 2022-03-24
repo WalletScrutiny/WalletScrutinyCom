@@ -1,6 +1,6 @@
 ---
 wsId: decomlab
-title: "Moon Wallet"
+title: Moon Wallet
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.decomlab.wallet
 appCountry: us
 released: 2021-07-26
 updated: 2021-09-02
-version: "1.2.1"
-stars: 3.2222223
+version: 1.2.1
+stars: 3.4
 ratings: 121
 reviews: 7
 size: 94M
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: gomoonwallet
 social:
-  - https://www.facebook.com/moonwallet.net
-redirect_from:
+- https://www.facebook.com/moonwallet.net
+redirect_from: 
+
 ---
 
 **Notes** It should be noted that this wallet has a similarity in name to:<br> 

@@ -1,6 +1,6 @@
 ---
 wsId: bikiexchange
-title: "BiKi App"
+title: BiKi App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.biki.bikicoin
 appCountry: us
 released: 2019-05-13
 updated: 2021-07-21
-version: "4.9.1"
+version: 4.9.1
 stars: 3.2
 ratings: 777
 reviews: 17
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BiKiEnglish
 social:
-  - https://www.facebook.com/bikiexchange
-  - https://www.reddit.com/r/BiKi
-redirect_from:
+- https://www.facebook.com/bikiexchange
+- https://www.reddit.com/r/BiKi
+redirect_from: 
+
 ---
 
 **Update 2022-02-27**: This app is not available anymore.

@@ -1,18 +1,17 @@
 ---
 wsId: 
-title: "Mercado Bitcoin"
+title: Mercado Bitcoin
 altTitle: 
-authors:
-
+authors: 
 appId: br.com.mercadobitcoin.ios
 appCountry: 
 idd: 1439360986
 released: 2019-08-03
-updated: 2022-03-02
-version: "2.32.0"
-stars: 4.64473
-reviews: 304
-size: 154716160
+updated: 2022-03-18
+version: 2.34.0
+stars: 4.64935
+reviews: 308
+size: '157032448'
 website: https://www.mercadobitcoin.com.br/aplicativo
 repository: 
 issue: 
@@ -22,8 +21,9 @@ meta: ok
 verdict: wip
 date: 2021-08-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 

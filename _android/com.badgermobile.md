@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Badger Wallet"
+title: Badger Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.badgermobile
 appCountry: 
 released: 2019-06-10
 updated: 2021-11-22
-version: "1.13.17"
+version: 1.13.17
 stars: 3.6818182
 ratings: 168
 reviews: 10
@@ -23,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2019-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: badgerwallet
 social:
-  - https://www.facebook.com/buy.bitcoin.news
+- https://www.facebook.com/buy.bitcoin.news
 redirect_from:
-  - /com.badgermobile/
-  - /posts/com.badgermobile/
+- /com.badgermobile/
+- /posts/com.badgermobile/
+
 ---
 

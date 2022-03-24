@@ -1,5 +1,5 @@
 ---
-title: "Corazon"
+title: Corazon
 appId: corazon
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "GRAY®"
+provider: GRAY®
 providerWebsite: https://gray.inc/
 website: https://gray.inc/collections/corazon-wallet
 shop: https://gray.inc/products/corazon-titanium
@@ -27,9 +27,10 @@ date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: graysingapore
-social: 
-  - https://www.linkedin.com/company/gray-tech-international-private-limited
-  - https://www.facebook.com/graysingapore
+social:
+- https://www.linkedin.com/company/gray-tech-international-private-limited
+- https://www.facebook.com/graysingapore
+
 ---
 
 ## Updated Review 2021-11-25

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "B I N A N C E : Trade cryptocurrency (Binance)"
-altTitle: "*Fake app!* B I N A N C E : Trade cryptocurrency (Binance)"
-authors:
-
+title: 'B I N A N C E : Trade cryptocurrency (Binance)'
+altTitle: '*Fake app!* B I N A N C E : Trade cryptocurrency (Binance)'
+authors: 
 users: 100
 appId: com.trustdx.binance
 appCountry: 
 released: 2021-08-20
 updated: 2021-08-21
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-09-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-01**: App is no more on Play Store.

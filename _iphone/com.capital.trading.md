@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Capital.com: Trading & Finance"
+title: 'Capital.com: Trading & Finance'
 altTitle: 
-authors:
-
+authors: 
 appId: com.capital.trading
 appCountry: 
 idd: 1230088754
 released: 2019-12-10
 updated: 2021-12-21
-version: "1.36.3"
+version: 1.36.3
 stars: 4.72904
 reviews: 2314
 size: 98812928
@@ -22,9 +21,10 @@ meta: defunct
 verdict: wip
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

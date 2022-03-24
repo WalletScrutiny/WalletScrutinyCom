@@ -1,6 +1,6 @@
 ---
 wsId: LumiWallet
-title: "Lumi Crypto & Bitcoin Wallet"
+title: Lumi Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1316477906
 released: 2017-12-08
 updated: 2021-04-30
-version: "3.10.2"
+version: 3.10.2
 stars: 4.83039
 reviews: 3449
 size: 79925248
@@ -22,10 +22,11 @@ meta: defunct
 verdict: nosource
 date: 2021-06-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Lumi_wallet
 social:
-  - https://www.facebook.com/lumiwallet
+- https://www.facebook.com/lumiwallet
+
 ---
 
 **Update 2021-06-16**: It's been a few days this app is not on the App store

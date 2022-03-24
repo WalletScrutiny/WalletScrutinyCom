@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Lite HD Wallet – Your Coin Base"
+title: Lite HD Wallet – Your Coin Base
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: org.freewallet.lite.android
 appCountry: 
 released: 
 updated: 2019-03-01
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-05-25**: This app is not on the Play Store anymore. The app's

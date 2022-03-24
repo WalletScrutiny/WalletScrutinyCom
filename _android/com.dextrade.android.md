@@ -1,6 +1,6 @@
 ---
 wsId: DexTrade
-title: "Dex-Trade"
+title: Dex-Trade
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.dextrade.android
 appCountry: us
 released: 2019-07-03
 updated: 2021-07-14
-version: "1.2.3"
+version: 1.2.3
 stars: 3.1
 ratings: 218
 reviews: 15
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dextrade_
 social:
-  - https://www.linkedin.com/company/dex-trade-exchange
-  - https://www.facebook.com/DexTradeExchange
-redirect_from:
+- https://www.linkedin.com/company/dex-trade-exchange
+- https://www.facebook.com/DexTradeExchange
+redirect_from: 
+
 ---
 
 ## App Description

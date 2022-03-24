@@ -1,6 +1,6 @@
 ---
 wsId: Keystone
-title: "Keystone Hardware Wallet"
+title: Keystone Hardware Wallet
 altTitle: 
 authors:
 - danny
@@ -9,12 +9,12 @@ appCountry:
 idd: 1567857965
 released: 2021-06-03
 updated: 2022-02-06
-version: "1.1.1"
+version: 1.1.1
 stars: 4
 reviews: 7
-size: 41456640
+size: '41456640'
 website: https://keyst.one/
-repository: https://github.com/KeystoneHQ
+repository: 
 issue: 
 icon: keystone.mobile.jpg
 bugbounty: 
@@ -22,9 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KeystoneWallet
 social:
+- https://github.com/KeystoneHQ
+
 ---
 
 {% include copyFromAndroid.html %}

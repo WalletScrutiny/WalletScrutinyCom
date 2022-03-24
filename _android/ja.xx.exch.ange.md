@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Jaxx Liberty Bitcoin & Ethereum"
-altTitle: "(Fake) Jaxx Liberty Bitcoin & Ethereum"
+title: Jaxx Liberty Bitcoin & Ethereum
+altTitle: (Fake) Jaxx Liberty Bitcoin & Ethereum
 authors:
 - leo
 users: 100
@@ -9,7 +9,7 @@ appId: ja.xx.exch.ange
 appCountry: 
 released: 2021-09-01
 updated: 2021-09-01
-version: "1"
+version: '1'
 stars: 
 ratings: 
 reviews: 
@@ -25,13 +25,14 @@ date: 2022-01-15
 signer: 
 reviewArchive:
 - date: 2021-10-05
-  version: "1"
+  version: '1'
   appHash: 
   gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
   verdict: fake
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-12-27**: This app is no more.

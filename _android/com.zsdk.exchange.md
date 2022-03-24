@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ZBG"
+title: ZBG
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.zsdk.exchange
 appCountry: 
 released: 2019-01-18
-updated: 2022-02-17
-version: "3.1.3"
+updated: 2022-03-21
+version: 3.1.4
 stars: 1.9245284
 ratings: 187
 reviews: 45
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZBG_Exchange
 social:
-  - https://www.facebook.com/ZBGofficial
-redirect_from:
+- https://www.facebook.com/ZBGofficial
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: mwfreewallet
-title: "Crypto Coin Wallet－Freewallet"
+title: Crypto Coin Wallet－Freewallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1274003898
 released: 2017-09-01
 updated: 2022-01-15
-version: "1.16.9"
-stars: 3.68709
+version: 1.16.9
+stars: 3.68431
 reviews: 1077
-size: 35689472
+size: '35689472'
 website: https://freewallet.org
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: freewalletorg
 social:
-  - https://www.facebook.com/freewallet.org
+- https://www.facebook.com/freewallet.org
+
 ---
 
 {% include copyFromAndroid.html %}

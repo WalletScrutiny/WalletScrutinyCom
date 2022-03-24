@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Cryptex Exchange - Buy and Sell Bitcoin"
+title: Cryptex Exchange - Buy and Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: net.cryptex.exchange.twa
 appCountry: 
 released: 2021-04-29
 updated: 2021-04-29
-version: "3.0.0.0"
+version: 3.0.0.0
 stars: 4.866667
 ratings: 474
 reviews: 15
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

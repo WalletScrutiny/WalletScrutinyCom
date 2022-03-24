@@ -1,6 +1,6 @@
 ---
 wsId: FAMEEX
-title: "FAMEEX-buy bitcoin, quant"
+title: FAMEEX-buy bitcoin, quant
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.front.fameex
 appCountry: us
 idd: 1499620060
 released: 2021-05-16
-updated: 2022-02-17
-version: "2.10.1"
+updated: 2022-03-22
+version: 2.10.2
 stars: 5
 reviews: 2
-size: 167576576
+size: '168059904'
 website: https://www.fameex.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FameexGlobal
 social:
-  - https://www.facebook.com/FAMEEXGLOBAL
+- https://www.facebook.com/FAMEEXGLOBAL
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Dove Wallet"
+title: Dove Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.dovewallet.app
 appCountry: 
 released: 2020-09-09
 updated: 2020-12-23
-version: "1.0.6"
+version: 1.0.6
 stars: 3.3
 ratings: 54
 reviews: 4
@@ -23,12 +23,13 @@ meta: stale
 verdict: custodial
 date: 2021-12-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dovewallet_en
 social:
-  - https://www.facebook.com/dovewalleten
-  - https://www.reddit.com/r/DoveWallet
-redirect_from:
+- https://www.facebook.com/dovewalleten
+- https://www.reddit.com/r/DoveWallet
+redirect_from: 
+
 ---
 
 ## App Description

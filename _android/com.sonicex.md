@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SONICEX"
+title: SONICEX
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.sonicex
 appCountry: 
 released: 2019-08-05
 updated: 2020-04-15
-version: "1.6"
+version: '1.6'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

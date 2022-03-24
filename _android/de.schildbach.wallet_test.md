@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Testnet Wallet"
+title: Testnet Wallet
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: de.schildbach.wallet_test
 appCountry: 
 released: 2011-07-10
 updated: 2021-12-18
-version: "Varies with device"
-stars: 4.4179106
+version: Varies with device
+stars: 4.4545455
 ratings: 390
 reviews: 20
 size: Varies with device
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is the testnet version for: 

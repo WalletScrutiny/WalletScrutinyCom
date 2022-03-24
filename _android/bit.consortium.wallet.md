@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Wallet Dark"
+title: Bitcoin Wallet Dark
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: bit.consortium.wallet
 appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
-version: "9.02"
+version: '9.02'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

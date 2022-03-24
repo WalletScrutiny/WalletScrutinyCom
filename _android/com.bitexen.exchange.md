@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitexen - Trade Bitcoin and Altcoin"
+title: Bitexen - Trade Bitcoin and Altcoin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
 updated: 2021-07-29
-version: "0.42"
+version: '0.42'
 stars: 3.2
 ratings: 8237
 reviews: 6026
@@ -23,12 +23,13 @@ meta: defunct
 verdict: wip
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitexencom
 social:
-  - https://www.linkedin.com/company/bitexen
-  - https://www.facebook.com/bitexen
-redirect_from:
+- https://www.linkedin.com/company/bitexen
+- https://www.facebook.com/bitexen
+redirect_from: 
+
 ---
 
 Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:

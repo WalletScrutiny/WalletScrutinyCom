@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "P2P Options - Peer to Peer Trading App"
+title: P2P Options - Peer to Peer Trading App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.p2pchallenger
 appCountry: 
 released: 2021-04-16
 updated: 2021-05-24
-version: "1.0.8"
+version: 1.0.8
 stars: 4.1
 ratings: 8
 reviews: 3
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

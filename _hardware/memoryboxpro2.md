@@ -1,5 +1,5 @@
 ---
-title: "Memory BOX Pro 2.0"
+title: Memory BOX Pro 2.0
 appId: memoryboxpro2
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Starteos"
+provider: Starteos
 providerWebsite: https://www.starteos.io
 website: https://www.starteos.io/en/product
 shop: 
@@ -27,8 +27,9 @@ date: 2021-12-08
 signer: 
 reviewArchive: 
 twitter: Starteos
-social: 
-  - https://www.facebook.com/starteos.io.7
+social:
+- https://www.facebook.com/starteos.io.7
+
 ---
 
 Announced on [twitter on May 17, 2020](https://twitter.com/Starteosio/status/1129233526597902336), it was difficult to find technical information, documentation, reviews and video reviews of the product. It does however have some Chinese language videos from its official YouTube channel: 

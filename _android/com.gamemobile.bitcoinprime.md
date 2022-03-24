@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Prime - Robotics Cryptocurrency (2021)"
+title: Bitcoin Prime - Robotics Cryptocurrency (2021)
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.gamemobile.bitcoinprime
 appCountry: 
 released: 2021-06-25
 updated: 2021-06-25
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-14**: This app is not on the Play Store anymore.

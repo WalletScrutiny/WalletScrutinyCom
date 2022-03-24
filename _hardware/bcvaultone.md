@@ -1,5 +1,5 @@
 ---
-title: "BC Vault One"
+title: BC Vault One
 appId: bcvaultone
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [57, 100, 10]
+dimensions:
+- 57
+- 100
+- 10
 weight: 41
-provider: "REAL SECURITY D.O.O.."
+provider: REAL SECURITY D.O.O..
 providerWebsite: https://www.real-sec.com/
 website: https://bc-vault.com/
 shop: https://bc-vault.com/shop/
@@ -27,9 +30,10 @@ date: 2021-12-10
 signer: 
 reviewArchive: 
 twitter: bc_vault
-social: 
-  - https://www.linkedin.com/company/bcvault
-  - https://www.facebook.com/bcvault
+social:
+- https://www.linkedin.com/company/bcvault
+- https://www.facebook.com/bcvault
+
 ---
 
 ## Private keys can be created offline 

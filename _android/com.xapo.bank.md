@@ -1,16 +1,15 @@
 ---
 wsId: 
-title: "Xapo Bank"
+title: Xapo Bank
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
-updated: 2022-03-03
-version: "7.16.0"
-stars: 1.9090909
+updated: 2022-03-17
+version: 7.17.0
+stars: 2.0434783
 ratings: 603
 reviews: 15
 size: 40M
@@ -23,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xapo
 social:
-  - https://www.linkedin.com/company/xapo
-  - https://www.facebook.com/xapoapp
-redirect_from:
+- https://www.linkedin.com/company/xapo
+- https://www.facebook.com/xapoapp
+redirect_from: 
+
 ---
 
 **Update 2021-08-06**: Xapo

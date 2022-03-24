@@ -1,6 +1,6 @@
 ---
 wsId: RocketByChiji
-title: "Rocket by Chiji14xchange"
+title: Rocket by Chiji14xchange
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ng
 idd: 1459183957
 released: 2019-08-19
 updated: 2022-03-01
-version: "3.0.0"
-stars: 3.87705
-reviews: 244
-size: 58226688
+version: 3.0.0
+stars: 3.83065
+reviews: 248
+size: '58226688'
 website: https://chiji14xchange.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: myrocketapp
 social:
-  - https://www.facebook.com/myrocketapp
+- https://www.facebook.com/myrocketapp
+
 ---
 
 {% include copyFromAndroid.html %}

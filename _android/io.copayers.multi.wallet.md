@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Copay Wallet"
-altTitle: "(Fake) Copay Wallet"
-authors:
-
+title: Copay Wallet
+altTitle: (Fake) Copay Wallet
+authors: 
 users: 100
 appId: io.copayers.multi.wallet
 appCountry: 
 released: 2021-12-16
 updated: 2021-12-16
-version: "0.21838"
+version: '0.21838'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fake
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-21**: This app is not available anymore.

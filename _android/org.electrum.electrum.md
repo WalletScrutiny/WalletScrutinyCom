@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Electrum Bitcoin Wallet"
+title: Electrum Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
 updated: 2021-07-19
-version: "4.1.5.0"
-stars: 3.39
+version: 4.1.5.0
+stars: 3.51
 ratings: 2500
-reviews: 276
+reviews: 277
 size: 21M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -25,27 +25,28 @@ date: 2022-01-21
 signer: 
 reviewArchive:
 - date: 2021-07-19
-  version: "4.1.5.0"
+  version: 4.1.5.0
   appHash: de25614cc8f8fa20262f20df816634a349cf796b3e4cf026087e4dec12c15231
   gitRevision: 3af3091090e37747e1b3f2690dd37c5097645fa2
   verdict: reproducible
 - date: 2021-06-18
-  version: "4.1.4"
+  version: 4.1.4
   appHash: fffa9a1c27ee6d6bd1d90e8008fe53ba960d19137964b93968d68ec7a4f04433
   gitRevision: 409a7b42b7975b50077de60a0fe096a13fed2d12
   verdict: reproducible
 - date: 2021-06-10
-  version: "3.3.7"
+  version: 3.3.7
   appHash: 
   gitRevision: 612e60ecd2013c802012d1c553a2ff8b56004226
   verdict: nonverifiable
 twitter: ElectrumWallet
-social:
+social: 
 redirect_from:
-  - /electrum/
-  - /org.electrum.electrum/
-  - /posts/2019/12/elecrtum/
-  - /posts/org.electrum.electrum/
+- /electrum/
+- /org.electrum.electrum/
+- /posts/2019/12/elecrtum/
+- /posts/org.electrum.electrum/
+
 ---
 
 With the updated test script:

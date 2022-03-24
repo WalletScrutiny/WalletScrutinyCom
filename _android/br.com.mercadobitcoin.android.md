@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Mercado Bitcoin Oficial"
+title: Mercado Bitcoin Oficial
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: br.com.mercadobitcoin.android
 appCountry: 
 released: 2019-07-25
-updated: 2022-02-24
-version: "1.25.0"
+updated: 2022-03-16
+version: 1.26.0
 stars: 4.39
 ratings: 51097
 reviews: 47
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MercadoBitcoin
 social:
-  - https://www.linkedin.com/company/mercado-bitcoin
-  - https://www.facebook.com/MercadoBitcoin
-redirect_from:
+- https://www.linkedin.com/company/mercado-bitcoin
+- https://www.facebook.com/MercadoBitcoin
+redirect_from: 
+
 ---
 
 Section 8.2 of the Terms and Conditions indicate that it is custodial.

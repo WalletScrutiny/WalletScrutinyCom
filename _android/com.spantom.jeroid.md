@@ -1,18 +1,18 @@
 ---
 wsId: Jeroid
-title: "Jeroid - Trade Bitcoins & Giftcards in Nigeria"
+title: Jeroid - Trade Bitcoins & Giftcards in Nigeria
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.spantom.jeroid
 appCountry: us
 released: 2020-07-05
 updated: 2021-10-14
-version: "1.3.2"
-stars: 2.5714285
+version: 1.3.2
+stars: 2.4666667
 ratings: 248
-reviews: 12
+reviews: 13
 size: 20M
 website: https://jeroid.com.ng/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jeroidng
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

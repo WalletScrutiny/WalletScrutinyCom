@@ -1,18 +1,17 @@
 ---
 wsId: getDelta
-title: "Delta Investment Tracker"
+title: Delta Investment Tracker
 altTitle: 
-authors:
-
+authors: 
 appId: io.getdelta.ios
 appCountry: us
 idd: 1288676542
 released: 2017-09-25
-updated: 2022-02-22
-version: "2022.1.0"
-stars: 4.74896
-reviews: 9843
-size: 86573056
+updated: 2022-03-14
+version: 2022.2.0
+stars: 4.74699
+reviews: 9869
+size: '88723456'
 website: https://delta.app
 repository: 
 issue: 
@@ -22,9 +21,10 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

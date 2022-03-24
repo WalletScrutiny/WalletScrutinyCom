@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Rehive Wallet"
+title: Rehive Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.rehivewallet
 appCountry: 
 released: 2018-10-01
 updated: 2022-02-16
-version: "3.0.0"
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

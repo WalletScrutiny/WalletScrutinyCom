@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "AFIN Touch"
+title: AFIN Touch
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: kr.co.keypair.afintouch
 appCountry: 
 released: 2018-10-04
 updated: 2019-12-27
-version: "1.0.0.60"
+version: 1.0.0.60
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +22,12 @@ meta: obsolete
 verdict: fewusers
 date: 2021-12-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AfinCoin
 social:
-  - https://www.facebook.com/asianfintech
-redirect_from:
+- https://www.facebook.com/asianfintech
+redirect_from: 
+
 ---
 
 <!-- nosource -->

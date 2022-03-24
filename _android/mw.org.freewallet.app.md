@@ -1,6 +1,6 @@
 ---
-wsId: multifw
-title: "BTC, ETH, SHIB, Altcoin Wallet"
+wsId: 
+title: BTC, ETH, SHIB, Altcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: mw.org.freewallet.app
 appCountry: 
 released: 2017-08-10
 updated: 2021-09-16
-version: "1.16.5"
-stars: 4.8547716
+version: 1.16.5
+stars: 4.7920356
 ratings: 14323
-reviews: 1647
+reviews: 1651
 size: 13M
 website: https://freewallet.org/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2019-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: freewalletorg
 social:
-  - https://www.facebook.com/freewallet.org
-redirect_from:
+- https://www.facebook.com/freewallet.org
+redirect_from: 
+
 ---
 
 According to the description

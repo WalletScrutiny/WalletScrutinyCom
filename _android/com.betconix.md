@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Betconix: Buy Bitcoin & Crypto"
+title: 'Betconix: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.betconix
 appCountry: 
 released: 2021-07-01
 updated: 2021-12-14
-version: "6.7"
+version: '6.7'
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: betconix
 social:
-  - https://www.facebook.com/GNBetconixSTOU
-redirect_from:
+- https://www.facebook.com/GNBetconixSTOU
+redirect_from: 
+
 ---
 
 ## App Description

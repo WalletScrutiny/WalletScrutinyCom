@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Wallet Bahasa Malaysia"
+title: Bitcoin Wallet Bahasa Malaysia
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.bitcoin.dompets
 appCountry: 
 released: 2017-09-29
 updated: 2017-09-30
-version: "1.0.0"
+version: 1.0.0
 stars: 2.9
 ratings: 13
 reviews: 7
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

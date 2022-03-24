@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Block Cloud - Buy Bitcoin, ETH, & Crypto"
+title: Block Cloud - Buy Bitcoin, ETH, & Crypto
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.blockcloud
 appCountry: 
 released: 2021-01-08
 updated: 2021-02-16
-version: "1.4"
+version: '1.4'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

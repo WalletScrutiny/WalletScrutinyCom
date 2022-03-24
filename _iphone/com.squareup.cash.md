@@ -1,6 +1,6 @@
 ---
 wsId: CashApp
-title: "Cash App"
+title: Cash App
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.squareup.cash
 appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2022-03-09
-version: "3.60.1"
-stars: 4.73241
-reviews: 2059545
-size: 252472320
+updated: 2022-03-21
+version: '3.61'
+stars: 4.73129
+reviews: 2061033
+size: '257562624'
 website: https://cash.app
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2020-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cashapp
-social:
+social: 
+
 ---
 
 On their website the provider claims:

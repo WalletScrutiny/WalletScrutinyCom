@@ -1,6 +1,6 @@
 ---
 wsId: spend
-title: "Spend App"
+title: Spend App
 altTitle: 
 authors:
 - kiwilamb
@@ -9,10 +9,10 @@ appCountry:
 idd: 1357740381
 released: 2018-03-30
 updated: 2020-09-05
-version: "3.2.6"
+version: 3.2.6
 stars: 4.05556
 reviews: 342
-size: 124011520
+size: '124011520'
 website: https://spend.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: stale
 verdict: custodial
 date: 2021-09-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Spendcom
 social:
-  - https://www.facebook.com/spend
-  - https://www.reddit.com/r/Spend
+- https://www.facebook.com/spend
+- https://www.reddit.com/r/Spend
+
 ---
 
 No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).

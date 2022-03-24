@@ -1,6 +1,6 @@
 ---
-wsId: BitcoinBounce
-title: "Bitcoin Bounce - Earn Bitcoin"
+wsId: 
+title: Bitcoin Bounce - Earn Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.thndrgames.bitcoinbounce
 appCountry: 
 released: 2020-03-20
-updated: 2022-01-13
-version: "1.2.1"
-stars: 4.05
+updated: 2022-03-09
+version: 1.3.1
+stars: 4.029703
 ratings: 1913
-reviews: 203
-size: 58M
+reviews: 205
+size: 60M
 website: http://thndr.games
 repository: 
 issue: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: thndrgames
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Bitcoin Bounce is a lightning network powered game.

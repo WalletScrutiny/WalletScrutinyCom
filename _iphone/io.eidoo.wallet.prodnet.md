@@ -1,6 +1,6 @@
 ---
 wsId: eidoo
-title: "Eidoo Ethereum Bitcoin Wallet"
+title: Eidoo Ethereum Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1279896253
 released: 2017-09-23
 updated: 2021-11-08
-version: "3.6.3"
+version: 3.6.3
 stars: 3.64103
 reviews: 78
-size: 42298368
+size: '42298368'
 website: https://eidoo.io
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: eidoo_io
 social:
-  - https://www.linkedin.com/company/eidoo
-  - https://www.facebook.com/eidoocrypto
-  - https://www.reddit.com/r/eidooapp
+- https://www.linkedin.com/company/eidoo
+- https://www.facebook.com/eidoocrypto
+- https://www.reddit.com/r/eidooapp
+
 ---
 
 The app's description:

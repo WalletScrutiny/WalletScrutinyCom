@@ -1,6 +1,6 @@
 ---
 wsId: etorowallet
-title: "eToro Money"
+title: eToro Money
 altTitle: 
 authors:
 - kiwilamb
@@ -9,9 +9,9 @@ users: 100000
 appId: com.etoro.wallet
 appCountry: 
 released: 2018-11-27
-updated: 2022-02-20
-version: "40.0.0"
-stars: 2.7227724
+updated: 2022-03-13
+version: 41.0.0
+stars: 2.8316832
 ratings: 1122
 reviews: 89
 size: 18M
@@ -24,12 +24,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: etoro
 social:
-  - https://www.linkedin.com/company/etoro
-  - https://www.facebook.com/eToro
-redirect_from:
+- https://www.linkedin.com/company/etoro
+- https://www.facebook.com/eToro
+redirect_from: 
+
 ---
 
 From the eToro wallet FAQ:

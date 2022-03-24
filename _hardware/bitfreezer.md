@@ -1,5 +1,5 @@
 ---
-title: "BitFreezer"
+title: BitFreezer
 appId: bitfreezer
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [197, 136, 9]
+dimensions:
+- 197
+- 136
+- 9
 weight: 65
-provider: "BitFreezer"
+provider: BitFreezer
 providerWebsite: 
 website: https://bitfreezer.app/
 shop: 
@@ -26,9 +29,10 @@ date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: thebitfreezer
-social: 
-  - https://www.linkedin.com/company/bitfreezer
-  - https://www.facebook.com/TheBitFreezer
+social:
+- https://www.linkedin.com/company/bitfreezer
+- https://www.facebook.com/TheBitFreezer
+
 ---
 
 Its website is [no longer online](https://bitfreezer.app/). The accompanying Android app on Google Play is also [no longer available](https://play.google.com/store/apps/details?id=bitfreezer.app.wallet). We were also not able to locate links to its public source code.

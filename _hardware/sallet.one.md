@@ -1,33 +1,40 @@
 ---
-title: "Sallet One"
+title: Sallet One
 appId: sallet.one
 authors:
 - danny
+- leo
 released: 
 discontinued: 
 updated: 
 version: 
 binaries: 
-dimensions: [118, 66, 9.7]
+dimensions:
+- 118
+- 66
+- 9.7
 weight: 138
-provider: "Sallet One"
+provider: Sallet One
 providerWebsite: 
 website: https://salletone.com/
 shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 country: CN
 price: 100USD
-repository: https://github.com/SalletOne/SalletOne
-issue: 
+repository: https://github.com/SalletOne/sallet-one-cold
+issue: https://github.com/SalletOne/sallet-one-cold/issues/1
 icon: sallet.one.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-02-18
+verdict: nonverifiable
+date: 2022-03-15
 signer: 
 reviewArchive: 
 twitter: SalletOne
-social: 
-  - https://www.facebook.com/salletone
+social:
+- https://www.facebook.com/salletone
+- https://www.youtube.com/channel/UCBAbHtt_Uk47csOqMC94dEQ
+- https://medium.com/@Sallet_Atelas
+
 ---
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.
@@ -66,9 +73,10 @@ Yes. This is documented in the [user manual](https://salletone.com/?r=front/news
 
 The 4 inch display touchscreen makes it convenient to use the device. Device communication with companion app is through QR code.
 
-## Reproducibility
+## Code and Reproducibility
 
-We were able to locate Sallet One's GitHub repository. 
-
-This Bitcoin hardware wallet's security features should be scrutinized further.
-
+We were able to locate Sallet One's GitHub repository but it lacks build
+instructions. Together with the lack of actual product pictures or videos, the
+code being only two commits, the companion apps not having many users/ratings
+and the rather lacking documentation we have little hope for this product to be
+very interesting but for now simply consider it as **not verifiable**.

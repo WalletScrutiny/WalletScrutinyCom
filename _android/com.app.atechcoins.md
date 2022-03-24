@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Atechcoins"
+title: Atechcoins
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.atechcoins
 appCountry: 
 released: 2020-11-10
 updated: 2021-04-02
-version: "1.1.0"
+version: 1.1.0
 stars: 3.7777777
 ratings: 85
 reviews: 5
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **⚠️ Warning: Several users have reported having a bad experience such as losing funds on this app**

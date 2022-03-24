@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Coiny"
+title: Coiny
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.coiny.android
 appCountry: 
 released: 2018-04-11
 updated: 2019-01-17
-version: "1.6.1"
+version: 1.6.1
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: defunct
 verdict: wip
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Coiny_io
 social:
-  - https://www.facebook.com/coiny.io
-redirect_from:
+- https://www.facebook.com/coiny.io
+redirect_from: 
+
 ---
 
 ## App Description

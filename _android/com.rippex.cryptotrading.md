@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Trading: No Commissions"
+title: 'Bitcoin Trading: No Commissions'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.rippex.cryptotrading
 appCountry: 
 released: 2021-03-13
 updated: 2020-11-23
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-18**: This app is not on the Store anymore.

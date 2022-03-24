@@ -1,6 +1,6 @@
 ---
 wsId: NitroEXexchangeapp
-title: "NitroEx Exchange"
+title: NitroEx Exchange
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.nitroex.nitroexchangeapp
 appCountry: tt
 released: 2021-06-23
 updated: 2022-03-07
-version: "2.0.5"
-stars: 4.598039
+version: 2.0.5
+stars: 4.6019416
 ratings: 231
-reviews: 166
+reviews: 167
 size: 22M
 website: https://www.nitroex.io/
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NitroExOfficial
 social:
-  - https://www.linkedin.com/company/nitroex
-  - https://www.facebook.com/nitroex.io
-  - https://www.reddit.com/r/nitroexchange
-redirect_from:
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
+redirect_from: 
+
 ---
 
 ## App Description

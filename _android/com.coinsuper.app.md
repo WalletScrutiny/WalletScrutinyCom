@@ -1,6 +1,6 @@
 ---
 wsId: Coinsuper
-title: "Coinsuper"
+title: Coinsuper
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinsuper.app
 appCountry: us
 released: 2018-04-24
 updated: 2021-11-04
-version: "2.5.8"
+version: 2.5.8
 stars: 3.2
 ratings: 164
 reviews: 98
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Coinsuper_OFCL
 social:
-  - https://www.facebook.com/CoinsuperOFCL
-redirect_from:
+- https://www.facebook.com/CoinsuperOFCL
+redirect_from: 
+
 ---
 
 **Update 2022-01-14**: This app is not available anymore.

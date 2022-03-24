@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: "Binance: Buy Bitcoin & Crypto"
+title: 'Binance: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.czzhao.binance
 appCountry: 
 idd: 1436799971
 released: 2018-10-06
-updated: 2022-03-01
-version: "2.42.2"
-stars: 4.71232
-reviews: 103017
-size: 581214208
+updated: 2022-03-21
+version: 2.43.3
+stars: 4.71164
+reviews: 104028
+size: '573412352'
 website: https://www.binance.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2020-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: binance
 social:
-  - https://www.facebook.com/binance
-  - https://www.reddit.com/r/binance
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
+
 ---
 
 In the description the provider claims:

@@ -1,6 +1,6 @@
 ---
 wsId: digitalexchangeid
-title: "digitalexchange.id Crypto Aset"
+title: digitalexchange.id Crypto Aset
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2022-02-22
-version: "Varies with device"
+updated: 2022-03-22
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Digiexchangeid
 social:
-  - https://www.facebook.com/digitalexchangeid
-redirect_from:
+- https://www.facebook.com/digitalexchangeid
+redirect_from: 
+
 ---
 
 From its Google Play app summary:

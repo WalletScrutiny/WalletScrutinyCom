@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Citowise - Blockchain multi-currency wallet"
+title: Citowise - Blockchain multi-currency wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: com.citowise.wallet
 appCountry: 
 released: 
 updated: 2019-12-25
-version: "1.355"
+version: '1.355'
 stars: 4.2
 ratings: 656
 reviews: 525
@@ -24,10 +24,11 @@ meta: defunct
 verdict: nosource
 date: 2021-06-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-06-02**: As for our review a month ago, the provider website was

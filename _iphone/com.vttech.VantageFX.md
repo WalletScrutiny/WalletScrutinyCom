@@ -1,6 +1,6 @@
 ---
 wsId: vantageFX
-title: "Vantage - Trade Smarter"
+title: Vantage - Trade Smarter
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ph
 idd: 1457929724
 released: 2019-07-20
 updated: 2022-02-26
-version: "2.0.5"
-stars: 4.95902
-reviews: 122
-size: 116500480
+version: 2.0.5
+stars: 4.97222
+reviews: 180
+size: '116500480'
 website: https://www.vantagemarkets.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: VantageFX
 social:
-  - https://www.linkedin.com/company/vantage-fx
-  - https://www.facebook.com/VantageFXBroker
+- https://www.linkedin.com/company/vantage-fx
+- https://www.facebook.com/VantageFXBroker
+
 ---
 
 {% include copyFromAndroid.html %}

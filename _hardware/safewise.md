@@ -1,5 +1,5 @@
 ---
-title: "SafeWise"
+title: SafeWise
 appId: safewise
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "CoinWiseBR"
+provider: CoinWiseBR
 providerWebsite: 
 website: https://safewise.io/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: coinwisebr
 social: 
+
 ---
 
 we could not find much information anywhere about this device, except that [Safewise is from Coinwise](https://twitter.com/coinwisebr/status/1137068094319484929)(Brazil). They seem to have [given away some prototypes](https://twitter.com/coinwisebr/status/1070031333928378369) but that was in 2018.

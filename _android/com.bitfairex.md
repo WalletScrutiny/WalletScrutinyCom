@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitfairex: Digital Assets Marketplace"
+title: 'Bitfairex: Digital Assets Marketplace'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitfairex
 appCountry: 
 released: 2020-12-27
 updated: 2021-03-25
-version: "1.2.3 Release"
+version: 1.2.3 Release
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.bitfairex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-03-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

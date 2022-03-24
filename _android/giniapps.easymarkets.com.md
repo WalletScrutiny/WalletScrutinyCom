@@ -1,6 +1,6 @@
 ---
 wsId: easyMarkets
-title: "easyMarkets Online Trading"
+title: easyMarkets Online Trading
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: giniapps.easymarkets.com
 appCountry: us
 released: 2017-04-05
-updated: 2022-03-08
-version: "1.29.0"
+updated: 2022-03-10
+version: 1.29.1
 stars: 3.2156863
 ratings: 1761
 reviews: 29
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: easymarkets
 social:
-  - https://www.linkedin.com/company/easymarkets
-  - https://www.facebook.com/easyMarkets
-redirect_from:
+- https://www.linkedin.com/company/easymarkets
+- https://www.facebook.com/easyMarkets
+redirect_from: 
+
 ---
 
 At the onset, it would appear that it is a general investment site which trades shares, indices, metals, forex, commodities and cryptocurrencies.

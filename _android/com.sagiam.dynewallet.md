@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Dyne Wallet"
+title: Dyne Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.sagiam.dynewallet
 appCountry: 
 released: 2021-01-12
 updated: 2021-01-12
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-01-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

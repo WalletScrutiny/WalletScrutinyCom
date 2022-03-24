@@ -1,5 +1,5 @@
 ---
-title: "Firefly Teensy"
+title: Firefly Teensy
 appId: fireflyteensy
 authors:
 - danny
@@ -10,13 +10,13 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Firefly"
+provider: Firefly
 providerWebsite: 
 website: https://firefly.city/
 shop: 
 country: CA
 price: 5USD
-repository: https://github.com/firefly/wallet/
+repository: https://github.com/firefly/wallet
 issue: 
 icon: fireflyteensy.png
 bugbounty: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: hi_firefly
 social: 
+
 ---
 
 The firefly was announced on [twitter on August 2, 2017](https://twitter.com/hi_firefly/status/892753742797443074).

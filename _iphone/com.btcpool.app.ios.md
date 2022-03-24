@@ -1,6 +1,6 @@
 ---
 wsId: BTCcomPool
-title: "BTC.com - Leading Mining Pool"
+title: BTC.com - Leading Mining Pool
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1490997527
 released: 2020-01-21
 updated: 2022-03-04
-version: "2.1.1"
-stars: 3.15385
-reviews: 13
-size: 63383552
+version: 2.1.1
+stars: 3.28571
+reviews: 14
+size: '63383552'
 website: https://btc.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btccom_official
 social:
-  - https://www.linkedin.com/company/btc.com
-  - https://www.facebook.com/btccom
+- https://www.linkedin.com/company/btc.com
+- https://www.facebook.com/btccom
+
 ---
 
 {% include copyFromAndroid.html %}

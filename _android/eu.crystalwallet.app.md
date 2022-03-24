@@ -1,6 +1,6 @@
 ---
 wsId: CrystalWallet
-title: "Crystal Wallet"
+title: Crystal Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: eu.crystalwallet.app
 appCountry: us
 released: 2020-03-15
 updated: 2021-10-21
-version: "1.77"
+version: '1.77'
 stars: 4.4
 ratings: 629
 reviews: 9
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nosource
 date: 2022-03-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CrystalWalletEU
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-03-02**: This app is not available anymore.

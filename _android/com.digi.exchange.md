@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Digiexchange"
+title: Digiexchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.digi.exchange
 appCountry: 
 released: 2019-03-11
 updated: 2021-07-17
-version: "1.1.6"
+version: 1.1.6
 stars: 4.357143
 ratings: 265
 reviews: 9
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: digiexchange3
 social:
-  - https://www.facebook.com/digiexchangenews
-redirect_from:
+- https://www.facebook.com/digiexchangenews
+redirect_from: 
+
 ---
 
 ## App Description

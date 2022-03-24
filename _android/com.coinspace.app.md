@@ -1,6 +1,6 @@
 ---
 wsId: coinspace
-title: "Coin Wallet: Buy Bitcoin"
+title: 'Coin Wallet: Buy Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ users: 100000
 appId: com.coinspace.app
 appCountry: 
 released: 2015-05-01
-updated: 2022-02-28
-version: "5.1.6"
-stars: 4.25
+updated: 2022-03-23
+version: 5.1.7
+stars: 4.2376237
 ratings: 1234
 reviews: 48
 size: 6.8M
@@ -23,16 +23,17 @@ meta: ok
 verdict: ftbfs
 date: 2019-12-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinappwallet
 social:
-  - https://www.linkedin.com/company/coin-space
-  - https://www.facebook.com/coinappwallet
+- https://www.linkedin.com/company/coin-space
+- https://www.facebook.com/coinappwallet
 redirect_from:
-  - /coin/
-  - /com.coinspace.app/
-  - /posts/2019/11/coin/
-  - /posts/com.coinspace.app/
+- /coin/
+- /com.coinspace.app/
+- /posts/2019/11/coin/
+- /posts/com.coinspace.app/
+
 ---
 
 **Update**: The provider closed

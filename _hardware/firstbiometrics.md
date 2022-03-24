@@ -1,5 +1,5 @@
 ---
-title: "First Biometrics"
+title: First Biometrics
 appId: firstbiometrics
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "First Biometrics"
+provider: First Biometrics
 providerWebsite: 
 website: https://firstbiometrics.com/
 shop: 
@@ -26,9 +26,10 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: FIRSTBiometrics
-social: 
-  - https://www.linkedin.com/company/firstbiometrics.com/
-  - https://www.facebook.com/FirstBiometric/
+social:
+- https://www.linkedin.com/company/firstbiometrics.com/
+- https://www.facebook.com/FirstBiometric/
+
 ---
 
 ## Product Description 

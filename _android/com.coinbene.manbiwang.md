@@ -1,6 +1,6 @@
 ---
 wsId: CoinBene
-title: "CoinBene"
+title: CoinBene
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.coinbene.manbiwang
 appCountry: us
 released: 2018-11-09
 updated: 2021-05-18
-version: "4.1.6"
+version: 4.1.6
 stars: 3.6
 ratings: 777
 reviews: 461
@@ -24,12 +24,13 @@ meta: defunct
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinbene
 social:
-  - https://www.linkedin.com/company/coinbene-official
-  - https://www.facebook.com/CoinBeneOfficial
-redirect_from:
+- https://www.linkedin.com/company/coinbene-official
+- https://www.facebook.com/CoinBeneOfficial
+redirect_from: 
+
 ---
 
 **Update 2022-01-03**: Although there is a replacement app on Google Play, the app still points to the same developer website (coinbene.com), which is still [404 as of today](https://twitter.com/BitcoinWalletz/status/1477969064806916103). The telegram channel indicated in the iOS app page, now points to 'null'

@@ -1,6 +1,6 @@
 ---
 wsId: blockfolio
-title: "FTX Crypto Exchange"
+title: 'FTX: Buy & Sell Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-03-02
-version: "4.3.1"
-stars: 4.77813
-reviews: 52801
-size: 77963264
+updated: 2022-03-18
+version: 4.3.3
+stars: 4.77621
+reviews: 53116
+size: '78309376'
 website: https://blockfolio.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-08-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Blockfolio
 social:
-  - https://www.facebook.com/Blockfolio
+- https://www.facebook.com/Blockfolio
+
 ---
 
 **Update 2021-08-09**: There are a total of 6 related apps that all appear to belong to the same "FTX":

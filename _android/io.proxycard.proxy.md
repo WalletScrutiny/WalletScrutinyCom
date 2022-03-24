@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Proxy | Secure Cryptocurrency Storage & Chat"
+title: Proxy | Secure Cryptocurrency Storage & Chat
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: io.proxycard.proxy
 appCountry: 
 released: 2018-01-31
 updated: 2018-05-03
-version: "1.0.89"
+version: 1.0.89
 stars: 4.6
 ratings: 69
 reviews: 38
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

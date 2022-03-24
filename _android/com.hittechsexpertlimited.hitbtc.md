@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "HitBTC – Cryptocurrency Exchange & Trading BTC App"
+title: HitBTC – Cryptocurrency Exchange & Trading BTC App
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
 released: 2020-03-04
 updated: 2022-02-09
-version: "3.1.0"
+version: 3.1.0
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: hitbtc
 social:
-  - https://www.facebook.com/hitbtc
-  - https://www.reddit.com/r/hitbtc
+- https://www.facebook.com/hitbtc
+- https://www.reddit.com/r/hitbtc
 redirect_from:
-  - /com.hittechsexpertlimited.hitbtc/
-  - /posts/com.hittechsexpertlimited.hitbtc/
+- /com.hittechsexpertlimited.hitbtc/
+- /posts/com.hittechsexpertlimited.hitbtc/
+
 ---
 
 On Google Play this app claims

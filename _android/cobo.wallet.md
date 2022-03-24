@@ -1,6 +1,6 @@
 ---
 wsId: cobowallet
-title: "Cobo: Support crypto savings, PoS, gain products."
+title: 'Cobo: Support crypto savings, PoS, gain products.'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: cobo.wallet
 appCountry: 
 released: 2018-07-01
-updated: 2022-03-04
-version: "5.19.1"
+updated: 2022-03-21
+version: 5.19.2
 stars: 3.2
 ratings: 4018
 reviews: 61
@@ -23,16 +23,17 @@ meta: ok
 verdict: nosource
 date: 2020-06-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cobo_Wallet
 social:
-  - https://www.linkedin.com/company/coboofficial
-  - https://www.facebook.com/coboOfficial
+- https://www.linkedin.com/company/coboofficial
+- https://www.facebook.com/coboOfficial
 redirect_from:
-  - /cobo/
-  - /cobo.wallet/
-  - /posts/2019/11/cobo/
-  - /posts/cobo.wallet/
+- /cobo/
+- /cobo.wallet/
+- /posts/2019/11/cobo/
+- /posts/cobo.wallet/
+
 ---
 
 **Update:** This wallet was one of the first wallets that was analyzed and back

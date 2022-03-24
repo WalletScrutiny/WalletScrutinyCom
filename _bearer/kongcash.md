@@ -1,5 +1,5 @@
 ---
-title: "Kong Cash"
+title: Kong Cash
 appId: kongcash
 authors:
 - danny
@@ -16,7 +16,7 @@ website: https://kong.cash/
 shop: 
 country: 
 price: 
-repository: https://github.com/kong-org
+repository: 
 issue: 
 icon: kongcash.png
 bugbounty: 
@@ -26,7 +26,9 @@ date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: kongiscash
-social: 
+social:
+- https://github.com/kong-org
+
 ---
 
 ## Product Description

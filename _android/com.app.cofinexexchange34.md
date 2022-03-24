@@ -1,6 +1,6 @@
 ---
 wsId: Cofinex
-title: "Cofinex Exchange"
+title: Cofinex Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.cofinexexchange34
 appCountry: sg
 released: 2021-02-12
 updated: 2021-02-12
-version: "1.0"
+version: '1.0'
 stars: 3.3
 ratings: 10
 reviews: 7
@@ -23,11 +23,12 @@ meta: defunct
 verdict: wip
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CofinexExchange
 social:
-  - https://www.linkedin.com/company/cofinex-exchange
-redirect_from:
+- https://www.linkedin.com/company/cofinex-exchange
+redirect_from: 
+
 ---
 
 ## App Description

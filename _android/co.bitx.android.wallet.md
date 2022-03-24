@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: "Luno: Buy Bitcoin in seconds"
+title: 'Luno: Buy Bitcoin in seconds'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
-updated: 2022-03-07
-version: "8.3.2"
-stars: 3.517803
+updated: 2022-03-17
+version: 8.4.1
+stars: 3.5714285
 ratings: 96811
-reviews: 966
+reviews: 984
 size: 95M
 website: https://www.luno.com
 repository: 
@@ -25,19 +25,20 @@ date: 2020-10-12
 signer: 
 reviewArchive:
 - date: 2019-11-14
-  version: "6.8.0"
+  version: 6.8.0
   appHash: 
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 twitter: LunoGlobal
 social:
-  - https://www.linkedin.com/company/lunoglobal
-  - https://www.facebook.com/luno
+- https://www.linkedin.com/company/lunoglobal
+- https://www.facebook.com/luno
 redirect_from:
-  - /luno/
-  - /co.bitx.android.wallet/
-  - /posts/2019/11/luno/
-  - /posts/co.bitx.android.wallet/
+- /luno/
+- /co.bitx.android.wallet/
+- /posts/2019/11/luno/
+- /posts/co.bitx.android.wallet/
+
 ---
 
 Luno: Buy Bitcoin, Ethereum and Cryptocurrency

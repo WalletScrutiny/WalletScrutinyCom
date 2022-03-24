@@ -1,18 +1,18 @@
 ---
 wsId: Cryptology
-title: "Cryptology: Blockchain Wallet"
+title: 'Cryptology: Blockchain Wallet'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cryptology.android
 appCountry: gb
 released: 2018-03-23
 updated: 2022-02-15
-version: "3.9.0"
-stars: 
+version: 3.9.0
+stars: 4
 ratings: 
-reviews: 
+reviews: 1
 size: 40M
 website: https://cryptology.com/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cryptologyexch
 social:
-  - https://www.facebook.com/Cryptologyexch
-redirect_from:
+- https://www.facebook.com/Cryptologyexch
+redirect_from: 
+
 ---
 
 ## App Description

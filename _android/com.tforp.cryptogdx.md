@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinTrends
-title: "Bitcoin Trends: Cryptocurrency trading signals"
+title: 'Bitcoin Trends: Cryptocurrency trading signals'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tforp.cryptogdx
 appCountry: us
 released: 2018-02-04
 updated: 2021-05-28
-version: "2.3"
+version: '2.3'
 stars: 4.47
 ratings: 3455
 reviews: 153
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Trading4Pro
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,12 +1,12 @@
 ---
-title: "Verso Cards"
+title: Verso Cards
 appId: versocards
 authors:
 - danny
 released: 
 discontinued: 
 updated: 2015-11-26
-version: "0.9.6"
+version: 0.9.6
 binaries: 
 dimensions: 
 weight: 
@@ -16,7 +16,7 @@ website: https://versocards.com/
 shop: 
 country: US
 price: 16.99USD
-repository: https://github.com/VersoSolutions
+repository: 
 issue: 
 icon: versocards.png
 bugbounty: 
@@ -26,7 +26,9 @@ date: 2022-03-19
 signer: 
 reviewArchive: 
 twitter: VersoCards
-social: 
+social:
+- https://github.com/VersoSolutions
+
 ---
 
 ## Addendum 2022-03-19

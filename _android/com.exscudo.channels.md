@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: "Crypto & Bitcoin Wallet App"
+title: Crypto & Bitcoin Wallet App
 altTitle: 
 authors:
 - kiwilamb
@@ -9,8 +9,8 @@ appId: com.exscudo.channels
 appCountry: ru
 released: 2018-05-17
 updated: 2022-02-01
-version: "3.2.1059"
-stars: 4.7826085
+version: 3.2.1059
+stars: 4.7708335
 ratings: 659
 reviews: 23
 size: 58M
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-04-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ex_scudo
 social:
-  - https://www.facebook.com/exscudo
-  - https://www.reddit.com/r/EXSCUDO
-redirect_from:
+- https://www.facebook.com/exscudo
+- https://www.reddit.com/r/EXSCUDO
+redirect_from: 
+
 ---
 
 The Play Store description states...

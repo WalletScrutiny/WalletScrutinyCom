@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: "Phemex: Buy Crypto & Bitcoin"
+title: 'Phemex: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 500000
 appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
-updated: 2022-03-04
-version: "2.1.0"
-stars: 4.666994
+updated: 2022-03-21
+version: 3.0.3
+stars: 4.539619
 ratings: 15997
-reviews: 665
-size: 51M
+reviews: 728
+size: 24M
 website: https://phemex.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: phemex_official
 social:
-  - https://www.linkedin.com/company/phemex
-  - https://www.facebook.com/Phemex.official
-redirect_from:
+- https://www.linkedin.com/company/phemex
+- https://www.facebook.com/Phemex.official
+redirect_from: 
+
 ---
 
 The Phemex mobile app claims to hold funds in cold storage...

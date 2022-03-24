@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Wunderbit — Crypto Trading Bots & Copy-Trading"
+title: WunderTrading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: eu.wunderbit.trading_web
 appCountry: 
 released: 2021-01-19
 updated: 2021-01-19
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: nowallet
 date: 2022-01-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Wunder_bit
 social:
-  - https://www.facebook.com/wunderbit.co
-redirect_from:
+- https://www.facebook.com/wunderbit.co
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: IQWalletCryptoWallet
-title: "IQ Wallet - Crypto Wallet"
+title: IQ Wallet - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -10,10 +10,10 @@ appId: com.iqpandroidinterface
 appCountry: ru
 released: 2021-10-01
 updated: 2021-10-13
-version: "1.2"
-stars: 4.53
+version: '1.2'
+stars: 4.3
 ratings: 613
-reviews: 134
+reviews: 138
 size: 34M
 website: https://iqwallet.io/
 repository: 
@@ -24,10 +24,11 @@ meta: ok
 verdict: obfuscated
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## ⚠️ Update and Warning: 2021-11-09

@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Ja­xx Lib­erty: Crypto Wallet"
-altTitle: "(Fake) Ja­xx Lib­erty: Crypto Wallet"
+title: 'Ja­xx Lib­erty: Crypto Wallet'
+altTitle: '(Fake) Ja­xx Lib­erty: Crypto Wallet'
 authors:
 - leo
 users: 50
@@ -9,7 +9,7 @@ appId: com.jaxx.crypto.wallet
 appCountry: 
 released: 2021-10-11
 updated: 2021-10-12
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fake
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-23**: This app is no more.

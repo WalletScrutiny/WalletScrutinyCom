@@ -1,6 +1,6 @@
 ---
 wsId: SwipeWallet
-title: "Swipe Wallet"
+title: Swipe Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.swipe.wallet
 appCountry: 
 released: 2019-09-13
 updated: 2021-05-13
-version: "1.901"
+version: '1.901'
 stars: 2.6
 ratings: 1599
 reviews: 1110
@@ -23,12 +23,13 @@ meta: defunct
 verdict: custodial
 date: 2021-07-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SwipeWallet
 social:
-  - https://www.facebook.com/Swipe
+- https://www.facebook.com/Swipe
 redirect_from:
-  - /com.swipe.wallet/
+- /com.swipe.wallet/
+
 ---
 
 **Update 2021-07-06**: The app looks abandoned. It was:

@@ -1,6 +1,6 @@
 ---
 wsId: FreeWalletIO
-title: "FreeWallet"
+title: FreeWallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: io.freewallet.mobile
 appCountry: 
 released: 2016-09-01
 updated: 2019-03-17
-version: "0.1.9"
+version: 0.1.9
 stars: 4.1538463
 ratings: 82
 reviews: 19
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: ftbfs
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: freewallet
 social:
-  - https://www.facebook.com/freewallet.io
+- https://www.facebook.com/freewallet.io
 redirect_from:
-  - /io.freewallet.mobile/
+- /io.freewallet.mobile/
+
 ---
 
 The provider of this Freewallet reached out to us to stress that freewallet.io

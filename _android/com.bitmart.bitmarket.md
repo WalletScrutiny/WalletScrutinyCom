@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: "BitMart - Cryptocurrency Exchange"
+title: BitMart - Cryptocurrency Exchange
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitmart.bitmarket
 appCountry: 
 released: 2018-05-09
-updated: 2022-03-09
-version: "2.9.7"
-stars: 3.214706
+updated: 2022-03-18
+version: 2.9.9
+stars: 4.519158
 ratings: 41983
-reviews: 6896
+reviews: 6915
 size: 41M
 website: http://www.bitmart.com
 repository: 
@@ -23,15 +23,16 @@ meta: ok
 verdict: custodial
 date: 2021-05-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitMartExchange
 social:
-  - https://www.linkedin.com/company/bitmart
-  - https://www.facebook.com/bitmartexchange
-  - https://www.reddit.com/r/BitMartExchange
+- https://www.linkedin.com/company/bitmart
+- https://www.facebook.com/bitmartexchange
+- https://www.reddit.com/r/BitMartExchange
 redirect_from:
-  - /com.bitmart.bitmarket/
-  - /posts/com.bitmart.bitmarket/
+- /com.bitmart.bitmarket/
+- /posts/com.bitmart.bitmarket/
+
 ---
 
 On their website we read:

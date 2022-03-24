@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "HitAPI"
+title: HitAPI
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: net.benoitbasset.hitapi
 appCountry: 
 released: 2018-02-07
 updated: 2019-05-07
-version: "1.3.0"
+version: 1.3.0
 stars: 4.5
 ratings: 145
 reviews: 6
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

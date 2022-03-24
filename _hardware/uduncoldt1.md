@@ -1,5 +1,5 @@
 ---
-title: "Udun Cold T1"
+title: Udun Cold T1
 appId: uduncoldt1
 authors:
 - danny
@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [118, 66, 9.7]
+dimensions:
+- 118
+- 66
+- 9.7
 weight: 
 provider: 
 providerWebsite: https://www.uduncloud.com/en/
@@ -16,7 +19,7 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/uduncloud
+repository: 
 issue: 
 icon: uduncoldt1.png
 bugbounty: 
@@ -26,10 +29,12 @@ date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: UdunWallet
-social: 
-  - https://youtube.com/channel/UC7L0QolnaIDfM41nrbt6Uhw
-  - https://medium.com/@UdunGlobal
-  - https://t.me/UdunWalletTips
+social:
+- https://youtube.com/channel/UC7L0QolnaIDfM41nrbt6Uhw
+- https://medium.com/@UdunGlobal
+- https://t.me/UdunWalletTips
+- https://github.com/uduncloud
+
 ---
 
 We found that this product looks to be very similar to {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoiva-Bitcoin & Cryptocurrency Exchange India"
+title: Bitcoiva-Bitcoin & Cryptocurrency Exchange India
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.application.bitcoiva
 appCountry: 
 released: 2020-11-02
 updated: 2021-09-15
-version: "1.20"
+version: '1.20'
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-07-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitcoiva
 social:
-  - https://www.facebook.com/Bitcoiva-105126591217169
-redirect_from:
+- https://www.facebook.com/Bitcoiva-105126591217169
+redirect_from: 
+
 ---
 
 > Buy, store and sell cryptocurrencies like Bitcoin, Ethereum,

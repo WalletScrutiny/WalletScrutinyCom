@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitriel: Crypto & Bitcoin Wallet"
+title: 'Bitriel: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.selendra.secure_wallet
 appCountry: 
 released: 2021-02-22
 updated: 2022-02-15
-version: "3.4.0"
+version: 3.4.0
 stars: 4.2
 ratings: 96
 reviews: 4
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nonverifiable
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SelendraChain
 social:
-  - https://www.linkedin.com/company/selendrachain
-redirect_from:
+- https://www.linkedin.com/company/selendrachain
+redirect_from: 
+
 ---
 
 **Update 2022-02-26**: This app is not available anymore.

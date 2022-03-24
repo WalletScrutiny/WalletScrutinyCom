@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Cabital Crypto: Invest in crypto currencies"
+title: 'Cabital Crypto: Invest in crypto currencies'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.cabital.cabital
 appCountry: 
 released: 2021-06-07
-updated: 2022-03-03
-version: "1.2.2"
+updated: 2022-03-09
+version: 1.2.3
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cabitalglobal
 social:
-  - https://www.linkedin.com/company/cabital
-  - https://www.facebook.com/CabitalGlobal
-redirect_from:
+- https://www.linkedin.com/company/cabital
+- https://www.facebook.com/CabitalGlobal
+redirect_from: 
+
 ---
 
 ## App Description

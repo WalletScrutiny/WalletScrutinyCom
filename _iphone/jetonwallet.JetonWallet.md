@@ -1,6 +1,6 @@
 ---
 wsId: jeton
-title: "Jeton Wallet - global payments"
+title: Jeton Wallet - global payments
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1190240579
 released: 2017-01-04
 updated: 2022-02-17
-version: "3.5.1"
+version: 3.5.1
 stars: 4.22222
 reviews: 18
-size: 143598592
+size: '143598592'
 website: https://jeton.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: jetonwallet
-social:
+social: 
+
 ---
 
 > Jeton Wallet gives you your own, personal digital e-wallet providing you secure and fast money transfers, money exchange and payment processing.

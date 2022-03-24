@@ -1,6 +1,6 @@
 ---
 wsId: bitfortip
-title: "Bitfortip | Now with Tezos support"
+title: Bitfortip | Now with Tezos support
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.rishabh.bitfortip
 appCountry: us
 released: 2016-12-21
 updated: 2021-06-20
-version: "2.6"
+version: '2.6'
 stars: 4.571429
 ratings: 77
 reviews: 2
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitfortip
 social:
-  - https://www.linkedin.com/company/bitfortip
-  - https://www.facebook.com/bitfortip
-redirect_from:
+- https://www.linkedin.com/company/bitfortip
+- https://www.facebook.com/bitfortip
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,18 +1,17 @@
 ---
 wsId: strike
-title: "Strike: Bitcoin & Payments"
+title: 'Strike: Bitcoin & Payments'
 altTitle: 
-authors:
-
-users: 100000
+authors: 
+users: 500000
 appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
-updated: 2022-03-03
-version: "v111"
-stars: 4.419725
+updated: 2022-03-16
+version: v113
+stars: 4.4742727
 ratings: 6726
-reviews: 1239
+reviews: 1284
 size: 51M
 website: https://strike.me/
 repository: 
@@ -23,11 +22,12 @@ meta: ok
 verdict: nobtc
 date: 2021-01-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ln_strike
-social:
+social: 
 redirect_from:
-  - /zapsolutions.strike/
+- /zapsolutions.strike/
+
 ---
 
 This app does not hold Bitcoins but it allows to interact with Bitcoin wallets

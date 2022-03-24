@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Paper Wallet Generator for Bitcoin & Altcoins"
+title: Paper Wallet Generator for Bitcoin & Altcoins
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.paperwallet.top
 appCountry: 
 released: 2019-06-12
 updated: 2020-10-18
-version: "1.0.22"
+version: 1.0.22
 stars: 4.4545455
 ratings: 55
 reviews: 4
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

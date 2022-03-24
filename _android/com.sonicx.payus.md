@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "PayUs"
+title: PayUs
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.sonicx.payus
 appCountry: 
 released: 2021-02-06
 updated: 2021-02-10
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

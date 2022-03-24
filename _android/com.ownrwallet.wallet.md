@@ -1,6 +1,6 @@
 ---
 wsId: OWNR
-title: "OWNR Bitcoin wallet and Visa card. Blockchain, BTC"
+title: OWNR Crypto wallet & Visa Card
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
-updated: 2022-03-03
-version: "1.51.0"
-stars: 4.84
+updated: 2022-03-17
+version: 1.52.1
+stars: 4.86
 ratings: 2072
-reviews: 221
-size: 124M
+reviews: 222
+size: 116M
 website: https://ownrwallet.com
 repository: 
 issue: 
@@ -25,16 +25,17 @@ date: 2021-05-31
 signer: 
 reviewArchive:
 - date: 2020-12-01
-  version: "1.10.1"
+  version: 1.10.1
   appHash: 
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
 twitter: ownrwallet
 social:
-  - https://www.facebook.com/ownrwallet
-  - https://www.reddit.com/r/ownrwallet
+- https://www.facebook.com/ownrwallet
+- https://www.reddit.com/r/ownrwallet
 redirect_from:
-  - /com.ownrwallet.wallet/
+- /com.ownrwallet.wallet/
+
 ---
 
 So this app claims to be a partner of Bitfinex, one of the biggest exchanges:

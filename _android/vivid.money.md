@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Vivid: Investments & Banking & Crypto"
+title: 'Vivid: Investments & Banking & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 500000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2022-03-08
-version: "2.0.2"
+updated: 2022-03-22
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 
-size: 231M
+size: 235M
 website: https://vivid.money/
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: vivid_en
 social:
-  - https://www.linkedin.com/company/vividmoney
-  - https://www.facebook.com/vivid.money.en
-redirect_from:
+- https://www.linkedin.com/company/vividmoney
+- https://www.facebook.com/vivid.money.en
+redirect_from: 
+
 ---
 
 > Vivid is a brand new mobile banking and investing app. Online banking and commission-free investing belong together and should be easy.

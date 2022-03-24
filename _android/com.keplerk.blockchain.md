@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BYKEP - Bitcoin for everyone"
+title: BYKEP - Bitcoin for everyone
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.keplerk.blockchain
 appCountry: 
 released: 2020-02-14
 updated: 2022-03-03
-version: "3.4.1"
+version: 3.4.1
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BykepFR
 social:
-  - https://www.linkedin.com/company/bykepfr
-  - https://www.facebook.com/BykepFR
-redirect_from:
+- https://www.linkedin.com/company/bykepfr
+- https://www.facebook.com/BykepFR
+redirect_from: 
+
 ---
 
 ### Google Play

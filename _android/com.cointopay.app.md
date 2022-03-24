@@ -1,6 +1,6 @@
 ---
 wsId: CointoPayWallet
-title: "Cointopay wallet"
+title: Cointopay wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cointopay.app
 appCountry: us
 released: 2018-05-29
 updated: 2021-03-31
-version: "2.1.6"
+version: 2.1.6
 stars: 2.2857144
 ratings: 20
 reviews: 5
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cointopay
 social:
-  - https://www.facebook.com/CointopayInternational
-  - https://www.reddit.com/r/Cointopay
-redirect_from:
+- https://www.facebook.com/CointopayInternational
+- https://www.reddit.com/r/Cointopay
+redirect_from: 
+
 ---
 
 ## App Description

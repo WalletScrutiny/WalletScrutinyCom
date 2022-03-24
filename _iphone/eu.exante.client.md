@@ -1,6 +1,6 @@
 ---
 wsId: ExanteTrading
-title: "EXANTE Trading"
+title: EXANTE Trading
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: am
 idd: 892856882
 released: 2014-07-06
 updated: 2022-03-02
-version: "4.18"
-stars: 
-reviews: 
-size: 79181824
+version: '4.18'
+stars: 0
+reviews: 0
+size: '79181824'
 website: https://exante.eu/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: EXANTE_EU
 social:
-  - https://www.linkedin.com/company/exante-ltd
-  - https://www.facebook.com/exante.global
+- https://www.linkedin.com/company/exante-ltd
+- https://www.facebook.com/exante.global
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-title: "HTC Exodus 1s"
+title: HTC Exodus 1s
 appId: exodus1s
 authors:
 - kiwilamb
@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "HTC"
+provider: HTC
 providerWebsite: https://www.htcexodus.com
 website: https://www.htcexodus.com/us/cryptophone/exodus1s/
 shop: 
@@ -27,8 +27,9 @@ date: 2021-07-11
 signer: 
 reviewArchive: 
 twitter: htcexodus
-social: 
-  - https://www.facebook.com/htcexodus
-  - https://www.reddit.com/r/HTCExodus
+social:
+- https://www.facebook.com/htcexodus
+- https://www.reddit.com/r/HTCExodus
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: alvexo
-title: "Alvexo: Online CFD Trading App on Forex & Stocks"
+title: 'Alvexo: Online CFD Trading App on Forex & Stocks'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 50000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13
-updated: 2022-03-03
-version: "3.0.57"
-stars: 3.971831
+updated: 2022-03-16
+version: 3.0.59
+stars: 3.9861112
 ratings: 826
 reviews: 18
 size: 18M
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Alvexo_Trade
 social:
-  - https://www.linkedin.com/company/alvexo
-redirect_from:
+- https://www.linkedin.com/company/alvexo
+redirect_from: 
+
 ---
 
 As this is a CFD, stocks, indices, commodities and forex trading app, we can assume that this app does not allow "real" bitcoin to be sent or received. 

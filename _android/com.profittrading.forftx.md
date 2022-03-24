@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading For FTX - Trade much faster"
+title: ProfitTrading For FTX - Trade much faster
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25
 updated: 2021-11-07
-version: "1.0.13"
+version: 1.0.13
 stars: 5
 ratings: 30
 reviews: 1
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
-  - https://www.facebook.com/profittradingapp
-redirect_from:
+- https://www.facebook.com/profittradingapp
+redirect_from: 
+
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

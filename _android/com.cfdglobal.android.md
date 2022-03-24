@@ -1,6 +1,6 @@
 ---
 wsId: capex
-title: "Capex"
+title: Capex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04
 updated: 2022-02-03
-version: "2.8.0"
+version: 2.8.0
 stars: 4.285714
 ratings: 336
 reviews: 7
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: capex_en
 social:
-  - https://www.linkedin.com/company/capexglobal
-  - https://www.facebook.com/CAPEXSeychelles
-redirect_from:
+- https://www.linkedin.com/company/capexglobal
+- https://www.facebook.com/CAPEXSeychelles
+redirect_from: 
+
 ---
 
 ### Google Play

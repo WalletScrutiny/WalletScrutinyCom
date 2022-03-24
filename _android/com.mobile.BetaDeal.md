@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Betadeal - Buy & Sell Bitcoin, Ethereum"
+title: Betadeal - Buy & Sell Bitcoin, Ethereum
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.mobile.BetaDeal
 appCountry: 
 released: 2021-06-30
 updated: 2022-01-26
-version: "1.1.0"
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2022-02-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/mybetadealapp
-redirect_from:
+- https://www.facebook.com/mybetadealapp
+redirect_from: 
+
 ---
 
 **Update 2022-02-07**: This app is no more.

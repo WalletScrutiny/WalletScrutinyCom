@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Cashback Shopping online - Liquigate"
+title: Bitcoin Cashback Shopping online - Liquigate
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.liquigate
 appCountry: 
 released: 2020-08-29
 updated: 2021-02-01
-version: "1.1.9"
+version: 1.1.9
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-01-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

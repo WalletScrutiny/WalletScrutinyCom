@@ -1,6 +1,6 @@
 ---
 wsId: coincorner
-title: "CoinCorner – Buy/Sell Bitcoin"
+title: CoinCorner – Buy/Sell Bitcoin
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.coincorner.app.crypt
 appCountry: 
 released: 2014-09-10
 updated: 2022-02-23
-version: "4.0.6"
+version: 4.0.6
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCorner
 social:
-  - https://www.facebook.com/CoinCorner
-redirect_from:
+- https://www.facebook.com/CoinCorner
+redirect_from: 
+
 ---
 
 A search of the play store and the providers website, reveals no statements about how private keys are managed.

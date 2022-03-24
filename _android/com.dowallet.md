@@ -1,6 +1,6 @@
 ---
 wsId: dowallet
-title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
+title: 'DoWallet: Bitcoin Wallet. A Secure Crypto Wallet.'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.dowallet
 appCountry: 
 released: 2019-01-01
 updated: 2021-10-01
-version: "1.1.39"
+version: 1.1.39
 stars: 4.09
 ratings: 883
 reviews: 91
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2019-11-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This wallet sounds like non-custodial. From their description:

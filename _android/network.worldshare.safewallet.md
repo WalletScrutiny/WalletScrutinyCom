@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Safe Wallet"
+title: Safe Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: network.worldshare.safewallet
 appCountry: 
 released: 2020-02-11
 updated: 2020-02-12
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-02-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

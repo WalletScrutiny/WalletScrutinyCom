@@ -1,6 +1,6 @@
 ---
 wsId: AladdinPro
-title: "Aladdin Pro"
+title: Aladdin Pro
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.abbc.aladdin.pro
 appCountry: us
 released: 2019-11-15
 updated: 2022-03-04
-version: "1.9.2"
-stars: 4.891892
+version: 1.9.2
+stars: 4.857143
 ratings: 5401
 reviews: 162
 size: 34M
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: abbcfoundation
 social:
-  - https://www.linkedin.com/company/abbcfoundation
-  - https://www.facebook.com/abbcfoundation
-redirect_from:
+- https://www.linkedin.com/company/abbcfoundation
+- https://www.facebook.com/abbcfoundation
+redirect_from: 
+
 ---
 
 Note that this app is not the same as Aladdin Wallet. [From the Aladdin Wallet website:](https://aladdinmc.com/)

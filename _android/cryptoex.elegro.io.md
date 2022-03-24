@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "elegro Exchange - Bitcoin and crypto exchange"
+title: elegro Exchange - Bitcoin and crypto exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: cryptoex.elegro.io
 appCountry: 
 released: 2019-06-26
 updated: 2021-04-29
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: fewusers
 date: 2020-05-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /cryptoex.elegro.io/
-  - /posts/cryptoex.elegro.io/
+- /cryptoex.elegro.io/
+- /posts/cryptoex.elegro.io/
+
 ---
 
 This page was created by a script from the **appId** "cryptoex.elegro.io" and public

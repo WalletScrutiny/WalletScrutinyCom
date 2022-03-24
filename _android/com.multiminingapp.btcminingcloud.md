@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BTC Mining Cloud"
+title: BTC Mining Cloud
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appId: com.multiminingapp.btcminingcloud
 appCountry: 
 released: 2021-03-25
 updated: 2021-03-31
-version: "2.1"
+version: '2.1'
 stars: 4.1
 ratings: 3255
 reviews: 1238
@@ -24,10 +24,11 @@ meta: defunct
 verdict: nowallet
 date: 2021-10-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-19**: This app is no more.

@@ -1,6 +1,6 @@
 ---
 wsId: CryptoTabPro
-title: "CryptoTab Browser Pro Level"
+title: CryptoTab Browser Pro Level
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24
-updated: 2022-03-04
-version: "4.1.82"
-stars: 3.7122302
+updated: 2022-03-11
+version: 4.1.82
+stars: 3.731884
 ratings: 63867
-reviews: 2175
+reviews: 2181
 size: Varies with device
 website: https://cryptocompany.site/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 It appears that users have to buy this app on Play Store.

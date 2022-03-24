@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Electrum Wallet : Bitcoin Blockchain Wallet"
+title: 'Electrum Wallet : Bitcoin Blockchain Wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: org.electrum.electrum99
 appCountry: 
 released: 
 updated: 2021-04-18
-version: "5.3.6"
+version: 5.3.6
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: defunct
 verdict: fewusers
 date: 2021-04-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

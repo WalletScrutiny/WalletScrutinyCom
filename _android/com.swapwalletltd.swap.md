@@ -1,15 +1,14 @@
 ---
 wsId: SwapWallet
-title: "Swap Wallet - BTC, Bitcoin wallet"
+title: Swap Wallet - BTC, Bitcoin wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: com.swapwalletltd.swap
 appCountry: 
 released: 
 updated: 2020-11-14
-version: "Varies with device"
+version: Varies with device
 stars: 4.9
 ratings: 2282
 reviews: 2065
@@ -23,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2020-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.swapwalletltd.swap/
+- /com.swapwalletltd.swap/
+
 ---
 
 **Update:** We can't find the app on Google Play anymore and assume it stopped

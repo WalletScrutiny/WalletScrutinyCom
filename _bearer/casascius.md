@@ -1,5 +1,5 @@
 ---
-title: "Casascius Coins"
+title: Casascius Coins
 appId: casascius
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued: 2013-11-27
 updated: 
 version: 
 binaries: 
-dimensions: [30, 30, 3]
+dimensions:
+- 30
+- 30
+- 3
 weight: 
-provider: "Casascius LLC"
+provider: Casascius LLC
 providerWebsite: 
 website: https://www.casascius.com/
 shop: 
@@ -27,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Background

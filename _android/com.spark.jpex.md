@@ -1,6 +1,6 @@
 ---
 wsId: JPEX
-title: "JPEX DIGITAL WALLET"
+title: JPEX DIGITAL WALLET
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30
-updated: 2022-02-21
-version: "2.35.474"
+updated: 2022-03-16
+version: 2.38.488
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 38M
 website: http://jp-ex.io
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ExchangeJpex
 social:
-  - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
-redirect_from:
+- https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
+redirect_from: 
+
 ---
 
 ## App Description

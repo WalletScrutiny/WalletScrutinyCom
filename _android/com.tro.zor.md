@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Mobile Wallet Manager"
+title: Mobile Wallet Manager
 altTitle: 
-authors:
-
+authors: 
 users: 0
 appId: com.tro.zor
 appCountry: 
 released: 2021-09-23
 updated: 2021-09-23
-version: "1.0.4"
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

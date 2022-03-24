@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "XTB - Online Trading"
+title: XTB - Online Trading
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 1000000
 appId: com.xtb.xmobile2
 appCountry: 
 released: 2014-12-17
-updated: 2022-03-04
-version: "Varies with device"
-stars: 4.4950495
+updated: 2022-03-22
+version: Varies with device
+stars: 4.49
 ratings: 22753
 reviews: 67
 size: Varies with device
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xtbuk
 social:
-  - https://www.linkedin.com/company/xtb-international
-  - https://www.facebook.com/xtb
-redirect_from:
+- https://www.linkedin.com/company/xtb-international
+- https://www.facebook.com/xtb
+redirect_from: 
+
 ---
 
 The app description:

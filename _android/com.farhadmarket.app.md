@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "FarhadMarket - Cryptocurrency Trading Market"
+title: FarhadMarket - Cryptocurrency Trading Market
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.farhadmarket.app
 appCountry: 
 released: 2019-07-08
 updated: 2021-12-05
-version: "1.9.124"
+version: 1.9.124
 stars: 3.9565217
 ratings: 1035
 reviews: 14
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 From its Google Play store description:

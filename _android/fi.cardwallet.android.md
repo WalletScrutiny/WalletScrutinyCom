@@ -1,6 +1,6 @@
 ---
 wsId: CardWalletCardano
-title: "CardWallet - Cardano Crypto Wallet"
+title: CWallet - ADA Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: fi.cardwallet.android
 appCountry: pt
 released: 2021-08-31
-updated: 2022-01-18
-version: "1.9"
+updated: 2022-03-22
+version: '1.10'
 stars: 
 ratings: 
 reviews: 
 size: 30M
-website: https://cardwallet.fi
+website: https://cwallet.finance/
 repository: 
 issue: 
 icon: fi.cardwallet.android.png
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CardWallet_fi
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

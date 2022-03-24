@@ -1,6 +1,6 @@
 ---
 wsId: azara
-title: "Azara Crypto & Bitcoin Wallet"
+title: Azara Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry: de
 idd: 1476738923
 released: 2020-11-10
 updated: 2021-04-14
-version: "0.01.18"
-stars: 
-reviews: 
-size: 69767168
+version: 0.01.18
+stars: 0
+reviews: 0
+size: '69767168'
 website: https://www.azara.ai/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-03-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the

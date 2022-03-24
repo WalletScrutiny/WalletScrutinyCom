@@ -1,6 +1,6 @@
 ---
 wsId: xverse
-title: "Xverse"
+title: Xverse
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12
 updated: 2022-03-05
-version: "1.3.1"
-stars: 4.081081
+version: 1.3.1
+stars: 4.1282053
 ratings: 34
 reviews: 16
 size: 13M
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2022-01-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: secretkeylabs
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

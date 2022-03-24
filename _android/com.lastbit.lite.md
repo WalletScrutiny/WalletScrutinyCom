@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Lastbit Lite"
+title: Lastbit Lite
 altTitle: 
 authors:
 - danny
@@ -9,13 +9,13 @@ appId: com.lastbit.lite
 appCountry: 
 released: 
 updated: 2021-05-11
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
 size: Varies with device
 website: https://lastbit.io/
-repository: https://github.com/lastbit-io
+repository: 
 issue: 
 icon: com.lastbit.lite.png
 bugbounty: 
@@ -23,11 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: lastbitpay
 social:
-  - https://www.facebook.com/lastbitpay
-redirect_from:
+- https://www.facebook.com/lastbitpay
+- https://github.com/lastbit-io
+redirect_from: 
+
 ---
 
 ## App Description

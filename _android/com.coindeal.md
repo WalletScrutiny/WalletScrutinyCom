@@ -1,6 +1,6 @@
 ---
 wsId: CoinDeal
-title: "CoinDeal - Bitcoin Buy & Sell"
+title: CoinDeal - Bitcoin Buy & Sell
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.coindeal
 appCountry: 
 released: 2019-11-04
 updated: 2020-08-18
-version: "1.0.8"
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: stale
 verdict: custodial
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coindealcom
 social:
-  - https://www.linkedin.com/company/coindealcom
-  - https://www.facebook.com/coindealcom
-redirect_from:
+- https://www.linkedin.com/company/coindealcom
+- https://www.facebook.com/coindealcom
+redirect_from: 
+
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "OgrAPI - TradeOgre"
+title: OgrAPI - TradeOgre
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: net.benoitbasset.ograpi
 appCountry: 
 released: 2018-11-28
 updated: 2021-05-03
-version: "1.4.3"
-stars: 3.65
+version: 1.4.3
+stars: 3.6557376
 ratings: 225
-reviews: 36
+reviews: 37
 size: 5.0M
 website: http://ograpi.oblade.net
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

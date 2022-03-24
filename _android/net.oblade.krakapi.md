@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "KrakAPI"
+title: KrakAPI
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: net.oblade.krakapi
 appCountry: 
 released: 2019-08-09
 updated: 2022-03-02
-version: "2.5.4"
+version: 2.5.4
 stars: 4.172414
 ratings: 533
 reviews: 14
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 The app is similar to, and has the same functionality as:

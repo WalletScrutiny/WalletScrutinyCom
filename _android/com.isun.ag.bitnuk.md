@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitnuk"
+title: Bitnuk
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.isun.ag.bitnuk
 appCountry: 
 released: 2020-02-16
 updated: 2020-03-09
-version: "1.0.1"
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-02-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

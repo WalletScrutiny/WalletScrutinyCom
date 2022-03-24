@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitocto: Jual Beli Bitcoin Indonesia"
+title: 'Bitocto: Jual Beli Bitcoin Indonesia'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitocto
 appCountry: 
 released: 2019-07-18
 updated: 2022-02-08
-version: "3.16"
+version: '3.16'
 stars: 5
 ratings: 1532
 reviews: 6
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitoctoexchange
 social:
-  - https://www.linkedin.com/company/bitocto
-  - https://www.facebook.com/Bitocto
-redirect_from:
+- https://www.linkedin.com/company/bitocto
+- https://www.facebook.com/Bitocto
+redirect_from: 
+
 ---
 
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 

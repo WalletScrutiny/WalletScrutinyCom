@@ -1,19 +1,18 @@
 ---
 wsId: 
-title: "Ergvein"
+title: Cypra Bitcoin wallet
 altTitle: 
-authors:
-
-users: 100
+authors: 
+users: 500
 appId: org.ergvein.wallet
 appCountry: 
-released: 
-updated: 2021-09-30
-version: "Varies with device"
+released: 2022-03-14
+updated: 2022-03-14
+version: Alpha
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 63M
 website: https://cypra.io/
 repository: 
 issue: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

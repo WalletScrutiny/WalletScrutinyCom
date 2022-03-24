@@ -1,6 +1,6 @@
 ---
 wsId: FlareWallet
-title: "Flare Wallet"
+title: Flare Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.flare
 appCountry: 
 released: 2020-02-22
 updated: 2021-03-13
-version: "1.4.0"
-stars: 3.7358491
+version: 1.4.0
+stars: 3.7407408
 ratings: 233
-reviews: 42
+reviews: 43
 size: 9.8M
 website: https://flarewallet.io
 repository: 
@@ -23,13 +23,14 @@ meta: stale
 verdict: nosource
 date: 2022-03-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: flarewallet
 social:
-  - https://www.facebook.com/FlareWallet
+- https://www.facebook.com/FlareWallet
 redirect_from:
-  - /com.flare/
-  - /posts/com.flare/
+- /com.flare/
+- /posts/com.flare/
+
 ---
 
 This app claims to be non-custodial:

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Trust Airdrop - YFI, DOGE & LTC"
+title: Trust Airdrop - YFI, DOGE & LTC
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.trust.airdrop
 appCountry: 
 released: 2021-07-09
 updated: 2021-07-22
-version: "2.0"
+version: '2.0'
 stars: 4
 ratings: 5
 reviews: 2
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-09-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-08**: This app is not available anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: busha
-title: "Busha: Trade BTC, ETH, SHIB"
+title: 'Busha: Trade BTC, ETH, SHIB'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1450373493
 released: 2019-02-03
 updated: 2022-03-08
-version: "3.1.0"
-stars: 4.08148
-reviews: 135
-size: 107599872
+version: 3.1.0
+stars: 4.09155
+reviews: 142
+size: '107599872'
 website: https://busha.co
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: getbusha
 social:
-  - https://www.facebook.com/getbusha
+- https://www.facebook.com/getbusha
+
 ---
 
 The description

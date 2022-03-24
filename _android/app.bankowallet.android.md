@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Banko Wallet - Bitcoin, ETH, TRON, Crypto Wallet"
+title: Banko Wallet - Bitcoin, ETH, TRON, Crypto Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: app.bankowallet.android
 appCountry: 
 released: 2019-07-22
 updated: 2020-06-29
-version: "1.3.17851"
+version: 1.3.17851
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

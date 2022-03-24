@@ -1,6 +1,6 @@
 ---
 wsId: TradeSanta
-title: "TradeSanta: Crypto Trading Bot for Binance, Huobi"
+title: 'TradeSanta: Crypto Trading Bot for Binance, Huobi'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.tradesanta
 appCountry: us
 released: 2019-05-20
 updated: 2021-11-29
-version: "2.5.0"
-stars: 3.648148
+version: 2.5.0
+stars: 3.8333333
 ratings: 707
-reviews: 40
+reviews: 51
 size: 11M
 website: https://tradesanta.com
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description and Verdict

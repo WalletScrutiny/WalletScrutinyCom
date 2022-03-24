@@ -1,6 +1,6 @@
 ---
 wsId: VoltWallet
-title: "Volt: Bitcoin wallet&DeFi portal on BSV blockchain"
+title: 'Volt: Bitcoin wallet&DeFi portal on BSV blockchain'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: bitmesh.volt.wallet
 appCountry: us
 released: 2020-05-15
-updated: 2022-03-07
-version: "2.2.8"
+updated: 2022-03-15
+version: 2.2.9
 stars: 4.630435
 ratings: 161
 reviews: 26
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Voltfinance
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

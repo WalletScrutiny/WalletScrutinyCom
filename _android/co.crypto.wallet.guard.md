@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Wallet Guard - Offline"
+title: Crypto Wallet Guard - Offline
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: co.crypto.wallet.guard
 appCountry: 
 released: 2021-05-07
 updated: 2021-05-07
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

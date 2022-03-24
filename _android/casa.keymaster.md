@@ -1,18 +1,18 @@
 ---
 wsId: casaapp
-title: "Casa App - Secure your Bitcoin"
+title: Casa App - Secure your Bitcoin
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: casa.keymaster
 appCountry: 
 released: 2019-03-01
-updated: 2022-02-10
-version: "3.10.2"
-stars: 4.53
+updated: 2022-03-21
+version: 3.11.1
+stars: 4.5
 ratings: 204
-reviews: 21
+reviews: 22
 size: 37M
 website: https://keys.casa
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CasaHODL
-social:
+social: 
 redirect_from:
-  - /casa.keymaster/
-  - /posts/casa.keymaster/
+- /casa.keymaster/
+- /posts/casa.keymaster/
+
 ---
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at

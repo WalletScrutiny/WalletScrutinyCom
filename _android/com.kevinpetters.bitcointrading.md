@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Trading"
+title: Bitcoin Trading
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.kevinpetters.bitcointrading
 appCountry: 
 released: 2019-06-30
 updated: 2019-06-30
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,16 @@ repository:
 issue: 
 icon: com.kevinpetters.bitcointrading.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-08-17
+date: 2022-03-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
+
+**Update 2022-03-16**: This app is not available anymore.
 

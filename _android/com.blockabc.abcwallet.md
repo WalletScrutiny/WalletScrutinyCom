@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ABC Wallet - Crypto, Bitcoin Wallet"
+title: ABC Wallet - Crypto, Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.blockabc.abcwallet
 appCountry: 
 released: 
 updated: 2020-06-17
-version: "1.7.2"
+version: 1.7.2
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: obfuscated
 date: 2021-04-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-04-13**: The app cannot be found on Google Play anymore. We assume

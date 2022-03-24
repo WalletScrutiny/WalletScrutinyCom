@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "SecuX Mobile"
+title: SecuX Mobile
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.secux.mobile
 appCountry: 
 released: 2020-07-03
 updated: 2021-01-15
-version: "1.0.1"
+version: 1.0.1
 stars: 2.36
 ratings: 56
 reviews: 22
@@ -23,11 +23,12 @@ meta: stale
 verdict: nowallet
 date: 2022-01-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SecuXwallet
 social:
-  - https://www.facebook.com/secuxtech
-redirect_from:
+- https://www.facebook.com/secuxtech
+redirect_from: 
+
 ---
 
 ⚠️ **CAUTION:** Some users have reported losing cryptocurrencies with this app.

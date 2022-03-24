@@ -1,6 +1,6 @@
 ---
 wsId: PolisPay
-title: "PolisPay - Crypto Wallet"
+title: PolisPay - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1351572060
 released: 2019-02-20
 updated: 2021-10-22
-version: "8.9.3"
+version: 8.9.3
 stars: 4
 reviews: 7
-size: 34947072
+size: '34947072'
 website: https://www.polispay.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

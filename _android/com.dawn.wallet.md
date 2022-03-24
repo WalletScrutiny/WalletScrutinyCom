@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Dawn Wallet"
+title: Dawn Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.dawn.wallet
 appCountry: 
 released: 2021-01-13
 updated: 2021-04-24
-version: "3.0.2"
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

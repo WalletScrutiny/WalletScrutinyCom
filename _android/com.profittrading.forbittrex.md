@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading For Bittrex"
+title: ProfitTrading For Bittrex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forbittrex
 appCountry: 
 released: 2018-06-20
 updated: 2021-04-27
-version: "12.0.13"
+version: 12.0.13
 stars: 4.098039
 ratings: 362
 reviews: 22
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
-  - https://www.facebook.com/profittradingapp
-redirect_from:
+- https://www.facebook.com/profittradingapp
+redirect_from: 
+
 ---
 
 2021-09-17 Update:

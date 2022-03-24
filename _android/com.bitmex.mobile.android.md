@@ -1,6 +1,6 @@
 ---
 wsId: BitMEX
-title: "BitMEX"
+title: BitMEX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitmex.mobile.android
 appCountry: il
 released: 2020-07-20
 updated: 2022-01-05
-version: "1.1.13"
+version: 1.1.13
 stars: 2.3
 ratings: 222
 reviews: 1
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitmex
 social:
-  - https://www.reddit.com/r/BitMEX
-redirect_from:
+- https://www.reddit.com/r/BitMEX
+redirect_from: 
+
 ---
 
 **Update 2022-02-02**: This app is not in store anymore.

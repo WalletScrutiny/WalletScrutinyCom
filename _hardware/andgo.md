@@ -1,5 +1,5 @@
 ---
-title: "ANDGO"
+title: ANDGO
 appId: andgo
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "AndGo Company Ltd."
+provider: AndGo Company Ltd.
 providerWebsite: 
 website: https://andgo.co.jp/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: andgo_inc
 social: 
+
 ---
 
 ## 2022-02-18

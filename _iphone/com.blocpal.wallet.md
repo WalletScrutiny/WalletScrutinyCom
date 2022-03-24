@@ -1,6 +1,6 @@
 ---
 wsId: BlocPal
-title: "BlocPal Wallet"
+title: BlocPal Wallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1435628288
 released: 2018-10-26
 updated: 2022-01-19
-version: "2.0.38"
+version: 2.0.38
 stars: 5
 reviews: 1
-size: 76751872
+size: '76751872'
 website: 
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nosource
 date: 2022-01-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,5 +1,5 @@
 ---
-title: "Unikeys"
+title: Unikeys
 appId: ukeys
 authors:
 - danny
@@ -26,9 +26,10 @@ date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: UnikeysTeam
-social: 
-  - https://www.linkedin.com/company/unikeys-team
-  - https://www.facebook.com/UnikeysTeam
+social:
+- https://www.linkedin.com/company/unikeys-team
+- https://www.facebook.com/UnikeysTeam
+
 ---
 
 In a Medium article from 2018, {{ page.title }} [describes itself as a biometric hardware wallet company.](https://medium.com/@UnikeysTeam/we-are-unikeys-the-world-firsts-biometric-hardware-wallet-company-in-cryptocurrency-6563e7dcc73a)

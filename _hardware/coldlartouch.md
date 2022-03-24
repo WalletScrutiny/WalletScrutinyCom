@@ -1,5 +1,5 @@
 ---
-title: "ColdLar Touch"
+title: ColdLar Touch
 appId: coldlartouch
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 86, 0.86]
+dimensions:
+- 54
+- 86
+- 0.86
 weight: 6
-provider: "ColdLar Information Technology Co."
+provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
 website: https://www.coldlar.com/productDetails/10065
 shop: https://www.coldlar.com/productDetails/10065
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: Coldlar
 social: 
+
 ---
 
 Without a screen and without a button, this device cannot provide basic security of hardware wallets.

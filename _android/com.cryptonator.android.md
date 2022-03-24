@@ -1,6 +1,6 @@
 ---
 wsId: cryptonator
-title: "Cryptonator cryptocurrency wallet"
+title: Cryptonator cryptocurrency wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.cryptonator.android
 appCountry: 
 released: 2018-11-01
 updated: 2022-01-30
-version: "4.2"
-stars: 3.26
+version: '4.2'
+stars: 3.22
 ratings: 5270
-reviews: 138
+reviews: 139
 size: 9.0M
 website: https://www.cryptonator.com
 repository: 
@@ -25,13 +25,14 @@ date: 2022-01-31
 signer: 
 reviewArchive:
 - date: 2019-11-12
-  version: "3.0.1"
+  version: 3.0.1
   appHash: 
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
 twitter: cryptonatorcom
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Cryptonator cryptocurrency wallet

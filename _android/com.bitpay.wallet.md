@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: "BitPay - Buy Crypto"
+title: BitPay - Secure Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,31 +9,33 @@ users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
 released: 2016-10-01
-updated: 2022-02-01
-version: "12.11.3"
-stars: 4.1177945
+updated: 2022-03-08
+version: 12.11.5
+stars: 4.1113863
 ratings: 9809
-reviews: 1789
+reviews: 1797
 size: 24M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
 issue: https://github.com/bitpay/wallet/issues/10425
 icon: com.bitpay.wallet.png
-bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
+bugbounty: >-
+  https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
 verdict: ftbfs
 date: 2019-11-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitPay
 social:
-  - https://www.linkedin.com/company/bitpay-inc-
-  - https://www.facebook.com/BitPayOfficial
+- https://www.linkedin.com/company/bitpay-inc-
+- https://www.facebook.com/BitPayOfficial
 redirect_from:
-  - /bitpay/
-  - /com.bitpay.wallet/
-  - /posts/2019/11/bitpay/
-  - /posts/com.bitpay.wallet/
+- /bitpay/
+- /com.bitpay.wallet/
+- /posts/2019/11/bitpay/
+- /posts/com.bitpay.wallet/
+
 ---
 
 ## Updated Review

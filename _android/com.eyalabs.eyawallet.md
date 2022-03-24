@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "이야페이, 비트코인 지갑"
+title: 이야페이, 비트코인 지갑
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.eyalabs.eyawallet
 appCountry: 
 released: 2015-12-03
 updated: 2019-02-20
-version: "5.3.2"
+version: 5.3.2
 stars: 3.2
 ratings: 90
 reviews: 51
@@ -23,9 +22,10 @@ meta: defunct
 verdict: wip
 date: 2021-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

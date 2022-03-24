@@ -1,6 +1,6 @@
 ---
 wsId: coholdmobile
-title: "HOLD — Buy Bitcoin & Crypto"
+title: HOLD — Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry: de
 idd: 1435187229
 released: 2018-09-28
 updated: 2022-01-21
-version: "3.15.0"
+version: 3.15.0
 stars: 3.90476
 reviews: 21
-size: 33532928
+size: '33532928'
 website: https://hold.io
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-03-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HoldHQ
 social:
-  - https://www.linkedin.com/company/holdhq
-  - https://www.facebook.com/HoldHQ
+- https://www.linkedin.com/company/holdhq
+- https://www.facebook.com/HoldHQ
+
 ---
 
 > SAFETY FIRST<br>

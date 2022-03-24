@@ -1,6 +1,6 @@
 ---
 wsId: rWallet
-title: "RWallet"
+title: RWallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1489241342
 released: 2020-07-08
 updated: 2021-07-01
-version: "2.0.1"
+version: 2.0.1
 stars: 5
 reviews: 5
-size: 41052160
+size: '41052160'
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
@@ -22,11 +22,12 @@ meta: ok
 verdict: ftbfs
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: rsksmart
 social:
-  - https://www.facebook.com/RSKsmart
-  - https://www.reddit.com/r/rootstock
+- https://www.facebook.com/RSKsmart
+- https://www.reddit.com/r/rootstock
+
 ---
 
 {% include copyFromAndroid.html %}

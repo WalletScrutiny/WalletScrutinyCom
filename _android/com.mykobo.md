@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MyKobo"
+title: MYKOBO
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.mykobo
 appCountry: 
 released: 2020-10-29
 updated: 2021-02-12
-version: "0.4.5"
+version: 0.4.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

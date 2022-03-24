@@ -1,6 +1,6 @@
 ---
 wsId: flits
-title: "Flits - Passive income wallet"
+title: Flits - Passive income wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1460563713
 released: 2019-04-30
 updated: 2021-02-09
-version: "4.4"
+version: '4.4'
 stars: 3.98551
 reviews: 69
-size: 82679808
+size: '82679808'
 website: https://flitsnode.app
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: stale
 verdict: nosource
 date: 2022-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FlitsNode
 social:
-  - https://www.facebook.com/flitsnode
+- https://www.facebook.com/flitsnode
+
 ---
 
 This app appears to support Bitcoin:

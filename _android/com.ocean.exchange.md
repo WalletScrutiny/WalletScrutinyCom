@@ -1,6 +1,6 @@
 ---
 wsId: OceanEX
-title: "OceanEx"
+title: OceanEx
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ocean.exchange
 appCountry: us
 released: 2019-07-04
 updated: 2021-10-21
-version: "1.4.24"
+version: 1.4.24
 stars: 4.206897
 ratings: 159
 reviews: 15
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OceanexOfficial
 social:
-  - https://www.facebook.com/OceanExPROOfficial
-  - https://www.reddit.com/r/OceanExOfficial
-redirect_from:
+- https://www.facebook.com/OceanExPROOfficial
+- https://www.reddit.com/r/OceanExOfficial
+redirect_from: 
+
 ---
 
 ## App Description

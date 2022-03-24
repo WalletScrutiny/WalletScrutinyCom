@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MyCryptoCoin Wallet"
+title: MyCryptoCoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.imsofnet.apps.mycryptocoinwallet
 appCountry: 
 released: 2018-01-24
 updated: 2018-01-31
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Paratica: Bitcoin Auto Trade"
+title: 'Paratica: Bitcoin Auto Trade'
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.paratica.dashboard
 appCountry: 
 released: 2019-04-05
 updated: 2019-04-05
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: "Admirals"
+title: Admirals
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.admiralmarkets.tradersroom
 appCountry: us
 idd: 1222861799
 released: 2017-06-28
-updated: 2022-02-23
-version: "5.8.0"
+updated: 2022-03-17
+version: 5.8.1
 stars: 5
 reviews: 9
-size: 61488128
+size: '61928448'
 website: https://admiralmarkets.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AdmiralsGlobal
 social:
-  - https://www.linkedin.com/company/-admiral-markets-group
-  - https://www.facebook.com/AdmiralsGlobal
+- https://www.linkedin.com/company/-admiral-markets-group
+- https://www.facebook.com/AdmiralsGlobal
+
 ---
 
 {% include copyFromAndroid.html %}

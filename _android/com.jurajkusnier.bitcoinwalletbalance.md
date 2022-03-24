@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Wealth Check - Bitcoin Wallet Balance and History"
+title: Wealth Check - Bitcoin Wallet Balance and History
 altTitle: 
 authors:
 - kiwilamb
@@ -9,13 +9,13 @@ appId: com.jurajkusnier.bitcoinwalletbalance
 appCountry: 
 released: 2017-12-29
 updated: 2020-06-01
-version: "2.4"
-stars: 4.060606
+version: '2.4'
+stars: 4.074627
 ratings: 251
 reviews: 37
 size: 5.0M
 website: http://jurajkusnier.com/
-repository: https://github.com/jurajkusnier/bitcoin-balance-check/
+repository: 
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is only for retrival of bitcoin address balance and transaction information.

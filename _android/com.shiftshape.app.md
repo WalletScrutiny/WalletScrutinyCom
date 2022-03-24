@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Portis - Multi Blockchain Wallet"
+title: Portis - Multi Blockchain Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.shiftshape.app
 appCountry: 
 released: 2021-08-04
 updated: 2021-08-04
-version: "1.0.0"
+version: 1.0.0
 stars: 4
 ratings: 7
 reviews: 3
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-08-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-23**: This app is no more on Play Store. Some time ago

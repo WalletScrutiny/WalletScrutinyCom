@@ -1,6 +1,6 @@
 ---
 wsId: HaruInvest
-title: "Haru Invest - Earn Bitcoin"
+title: 'Haru Invest: Earn More Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bchi.haruinvestapp
 appCountry: us
 idd: 1579344792
 released: 2021-08-19
-updated: 2021-12-20
-version: "2.0.0"
-stars: 4.84722
-reviews: 72
-size: 97088512
+updated: 2022-03-14
+version: 2.1.0
+stars: 4.8625
+reviews: 80
+size: '80330752'
 website: https://haruinvest.com/appdownload
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: haruinvest
 social:
-  - https://www.facebook.com/haruinvest
+- https://www.facebook.com/haruinvest
+
 ---
 
 {% include copyFromAndroid.html %}

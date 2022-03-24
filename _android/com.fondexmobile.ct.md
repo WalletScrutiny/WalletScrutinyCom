@@ -1,6 +1,6 @@
 ---
 wsId: FondexcTrader
-title: "Fondex cTrader - mobile investing platform"
+title: Fondex cTrader - mobile investing platform
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.fondexmobile.ct
 appCountry: au
 released: 2017-11-02
 updated: 2022-02-22
-version: "4.4.54320"
+version: 4.4.54320
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.linkedin.com/company/fondex-trading
-  - https://www.facebook.com/fondexglobal
-redirect_from:
+- https://www.linkedin.com/company/fondex-trading
+- https://www.facebook.com/fondexglobal
+redirect_from: 
+
 ---
 
 ## App Description

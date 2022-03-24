@@ -1,6 +1,6 @@
 ---
 wsId: swft
-title: "SWFT Blockchain"
+title: SWFT Blockchain
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.SwftBlockChain.client
 appCountry: 
 idd: 1435569339
 released: 2018-09-28
-updated: 2022-02-24
-version: "5.16.1"
-stars: 4.43443
-reviews: 122
-size: 116530176
+updated: 2022-03-22
+version: 5.16.2
+stars: 4.44355
+reviews: 124
+size: '115965952'
 website: http://www.swft.pro
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SwftCoin
 social:
-  - https://www.linkedin.com/company/swftcoin
-  - https://www.facebook.com/SWFTBlockchain
+- https://www.linkedin.com/company/swftcoin
+- https://www.facebook.com/SWFTBlockchain
+
 ---
 
 The description on App Store is full of buzzwords like big data, machine

@@ -1,6 +1,6 @@
 ---
 wsId: ATokenWallet
-title: "ATokenWallet"
+title: ATokenWallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: wallet.gem.com.atoken
 appCountry: 
 released: 2020-03-01
 updated: 2021-12-02
-version: "4.2.1"
+version: 4.2.1
 stars: 4
 ratings: 4012
 reviews: 2460
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ATokenOfficial
 social:
-  - https://www.facebook.com/ATokenOfficial
-redirect_from:
+- https://www.facebook.com/ATokenOfficial
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

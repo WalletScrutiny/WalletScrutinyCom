@@ -1,16 +1,15 @@
 ---
 wsId: 
-title: "Electroneum"
+title: Electroneum
 altTitle: 
-authors:
-
+authors: 
 users: 1000000
 appId: com.electroneum.mobile
 appCountry: 
 released: 2017-12-13
-updated: 2022-02-11
-version: "5.2.3"
-stars: 2.9814816
+updated: 2022-03-10
+version: 5.2.4
+stars: 2.9653332
 ratings: 58803
 reviews: 2155
 size: 14M
@@ -23,12 +22,13 @@ meta: ok
 verdict: nobtc
 date: 2020-06-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.electroneum.mobile/
-  - /posts/com.electroneum.mobile/
+- /com.electroneum.mobile/
+- /posts/com.electroneum.mobile/
+
 ---
 
 This app does not support storing BTC.

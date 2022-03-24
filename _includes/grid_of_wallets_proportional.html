@@ -83,7 +83,7 @@
           {%- endif -%}
           {%- if post.verdict == v and post.meta == meta -%}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}{{ picSize }}/{{ post.icon }}" class="lazy app_logo meta_{{ post.meta }}"
+              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}{{ picSize }}/{{ post.icon | default: 'noicon.png' }}" class="lazy app_logo meta_{{ post.meta }}"
                 alt="Wallet Logo" style="height:{{ height }}em;width:{{ height }}em;{%- if height < 0.5 -%}border: 1px solid var(--text);{%- endif -%}">
             </a> 
           {%- endif -%}

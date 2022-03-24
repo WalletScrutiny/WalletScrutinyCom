@@ -1,5 +1,5 @@
 ---
-title: "Wookong Solo"
+title: Wookong Solo
 appId: wookongsolo
 authors:
 - kiwilamb
@@ -9,15 +9,18 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [38, 60, 5]
+dimensions:
+- 38
+- 60
+- 5
 weight: 
-provider: "WOOKONG"
+provider: WOOKONG
 providerWebsite: https://wooko.ng/en
 website: https://wooko.ng/en/solo
 shop: https://wooko.ng/en/solo
 country: CH
 price: 
-repository: https://github.com/extropiescom
+repository: 
 issue: 
 icon: wookongsolo.png
 bugbounty: 
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The site can no longer be reached (404)

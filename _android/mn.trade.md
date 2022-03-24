@@ -1,6 +1,6 @@
 ---
 wsId: TradeMN
-title: "Trade.mn"
+title: Trade.mn
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: mn.trade
 appCountry: us
 released: 2018-04-13
 updated: 2021-06-29
-version: "2.0.5"
+version: 2.0.5
 stars: 2.0526316
 ratings: 429
 reviews: 11
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TradeMnOfficial
 social:
-  - https://www.facebook.com/digitalexchangemongolia
-redirect_from:
+- https://www.facebook.com/digitalexchangemongolia
+redirect_from: 
+
 ---
 
 ## App Description

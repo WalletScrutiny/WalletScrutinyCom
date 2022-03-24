@@ -1,6 +1,6 @@
 ---
 wsId: MathWallet
-title: "MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos"
+title: 'MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 100000
 appId: com.medishares.android
 appCountry: 
 released: 2018-04-17
-updated: 2022-01-17
-version: "4.3.4"
-stars: 3.754902
+updated: 2022-03-11
+version: 4.3.5
+stars: 3.73
 ratings: 2172
 reviews: 165
 size: 54M
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-06-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Mathwallet
-social:
+social: 
 redirect_from:
-  - /com.medishares.android/
+- /com.medishares.android/
+
 ---
 
 **Update 2022-01-05**: It is available again.

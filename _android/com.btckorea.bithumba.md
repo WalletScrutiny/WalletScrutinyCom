@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "빗썸 트레이더"
+title: 빗썸 트레이더
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.btckorea.bithumba
 appCountry: 
 released: 2020-03-31
 updated: 2021-04-20
-version: "1.1.1"
+version: 1.1.1
 stars: 3.2
 ratings: 598
 reviews: 311
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2021-08-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BithumbOfficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-04**: Since 2021-07-22 the app is not on Play Store anymore.

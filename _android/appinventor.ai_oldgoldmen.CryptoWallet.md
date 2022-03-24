@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Multi Crypto Wallet: for Bitcoin and 20 currencies"
+title: 'Multi Crypto Wallet: for Bitcoin and 20 currencies'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: appinventor.ai_oldgoldmen.CryptoWallet
 appCountry: 
 released: 2020-02-01
 updated: 2021-02-23
-version: "3.0"
+version: '3.0'
 stars: 3.8
 ratings: 44
 reviews: 2
@@ -23,10 +23,11 @@ meta: stale
 verdict: nosource
 date: 2022-02-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app has a rather special description that looks more like a dictionary so

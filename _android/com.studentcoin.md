@@ -1,6 +1,6 @@
 ---
 wsId: studentcoin
-title: "Student Coin"
+title: Student Coin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.studentcoin
 appCountry: pl
 released: 2021-04-01
 updated: 2021-10-26
-version: "1.12.2"
+version: 1.12.2
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: studentcoinorg
 social:
-  - https://www.linkedin.com/company/student-coin-worldwide
-  - https://www.facebook.com/studentcoin.org
-  - https://www.reddit.com/r/Studentcoin
-redirect_from:
+- https://www.linkedin.com/company/student-coin-worldwide
+- https://www.facebook.com/studentcoin.org
+- https://www.reddit.com/r/Studentcoin
+redirect_from: 
+
 ---
 
 Its [homepage](https://studentcoin.org) description reads:

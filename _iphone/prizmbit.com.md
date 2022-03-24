@@ -1,6 +1,6 @@
 ---
 wsId: prizmbit
-title: "Prizm paramining wallet"
+title: Prizm paramining wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1459094607
 released: 2019-06-14
 updated: 2021-10-12
-version: "1.6.9"
+version: 1.6.9
 stars: 3
 reviews: 2
 size: 39227392
@@ -22,10 +22,11 @@ meta: defunct
 verdict: custodial
 date: 2022-01-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: prizmbit
 social:
-  - https://www.facebook.com/prizmbit
+- https://www.facebook.com/prizmbit
+
 ---
 
 **Update 2022-01-02**: This app is no more available.

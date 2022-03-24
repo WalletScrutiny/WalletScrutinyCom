@@ -1,6 +1,6 @@
 ---
 wsId: Tokenize
-title: "Tokenize Xchange"
+title: Tokenize Xchange
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.tokenize.exchange.tradingapp
 appCountry: us
 released: 2019-12-03
-updated: 2022-03-04
-version: "2.0.3"
+updated: 2022-03-21
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 
-size: 87M
+size: 203M
 website: https://tokenize.exchange/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TokenizeXchange
 social:
-  - https://www.facebook.com/tokenize.exchange
-redirect_from:
+- https://www.facebook.com/tokenize.exchange
+redirect_from: 
+
 ---
 
 ## App Description

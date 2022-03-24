@@ -1,6 +1,6 @@
 ---
 wsId: XRex
-title: "XREX — Crypto swap to USD"
+title: XREX — Crypto swap to USD
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.xrex.mobile
 appCountry: au
 released: 2020-02-20
-updated: 2022-03-08
-version: "2.0.14"
+updated: 2022-03-23
+version: 2.0.48
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xrexinc
 social:
-  - https://www.linkedin.com/company/xrexinc
-  - https://www.facebook.com/xrexinfo
-redirect_from:
+- https://www.linkedin.com/company/xrexinc
+- https://www.facebook.com/xrexinfo
+redirect_from: 
+
 ---
 
 ## App Description

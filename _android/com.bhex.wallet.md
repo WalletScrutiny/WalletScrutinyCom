@@ -1,6 +1,6 @@
 ---
 wsId: bhWallet
-title: "Bluehelix Wallet"
+title: Bluehelix Wallet
 altTitle: 
 authors:
 - danny
@@ -11,25 +11,28 @@ appId: com.bhex.wallet
 appCountry: us
 released: 2021-07-07
 updated: 2021-09-19
-version: "1.3.5"
+version: 1.3.5
 stars: 3.7
 ratings: 6
 reviews: 4
 size: 22M
 website: https://www.bhexchain.com/
-repository: https://github.com/bluehelix-chain/wallet-android
+repository: 
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bhex.wallet.png
 bugbounty: 
 meta: defunct
 verdict: fewusers
-date: 2022-01-15
+date: 2022-03-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BHEXOfficial
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
+
+**Update 2022-03-16**: The [provided code repository](https://github.com/bluehelix-chain/wallet-android) disappeared now, too.
 
 **Update 2022-01-15**: This app is not on the Store anymore.
 

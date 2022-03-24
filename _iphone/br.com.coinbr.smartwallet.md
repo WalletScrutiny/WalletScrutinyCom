@@ -1,6 +1,6 @@
 ---
 wsId: SmartWallet
-title: "SmartWallet"
+title: SmartWallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1302270848
 released: 2018-01-02
 updated: 2021-11-02
-version: "2.0.28"
+version: 2.0.28
 stars: 4.5
 reviews: 2
-size: 12990464
+size: '12990464'
 website: https://stratum.hk/press
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: stratumhk
 social:
-  - https://www.linkedin.com/company/stratumbr
-  - https://www.facebook.com/stratum.hk
+- https://www.linkedin.com/company/stratumbr
+- https://www.facebook.com/stratum.hk
+
 ---
 
 {% include copyFromAndroid.html %}

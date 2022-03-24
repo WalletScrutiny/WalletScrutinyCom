@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitstore.tech - crypto shopping platform"
+title: Bitstore.tech - crypto shopping platform
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.app.bitstore
 appCountry: 
 released: 2019-03-19
 updated: 2019-07-24
-version: "1.0.11"
+version: 1.0.11
 stars: 4.1
 ratings: 17
 reviews: 7
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-11**: This app is not on Play Store anymore.

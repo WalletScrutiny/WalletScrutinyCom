@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BTC TRADE ONLINE"
+title: BTC TRADE ONLINE
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.trade.btctradelink
 appCountry: 
 released: 2019-07-27
 updated: 2019-07-27
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

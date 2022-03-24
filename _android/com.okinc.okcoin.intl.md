@@ -1,6 +1,6 @@
 ---
 wsId: Okcoin
-title: "Okcoin - Buy Bitcoin & Crypto"
+title: Okcoin - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 500000
 appId: com.okinc.okcoin.intl
 appCountry: us
 released: 2018-06-22
-updated: 2022-03-08
-version: "5.3.9"
-stars: 4.1516247
+updated: 2022-03-23
+version: 5.3.13
+stars: 4.097826
 ratings: 4636
-reviews: 506
-size: 104M
+reviews: 517
+size: 105M
 website: http://www.okcoin.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OKcoin
 social:
-  - https://www.linkedin.com/company/okcoin
-  - https://www.facebook.com/OkcoinOfficial
-redirect_from:
+- https://www.linkedin.com/company/okcoin
+- https://www.facebook.com/OkcoinOfficial
+redirect_from: 
+
 ---
 
 > Okcoin is a secure crypto exchange that makes it easy to buy, sell, and hold your cryptocurrency with the lowest fees around.

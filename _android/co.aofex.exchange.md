@@ -1,6 +1,6 @@
 ---
 wsId: AOFEX
-title: "AOFEX"
+title: AOFEX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: co.aofex.exchange
 appCountry: us
 released: 2021-09-01
 updated: 2021-12-03
-version: "3.0.3"
+version: 3.0.3
 stars: 4.7711864
 ratings: 5947
 reviews: 333
@@ -19,16 +19,19 @@ repository:
 issue: 
 icon: co.aofex.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-21
+date: 2022-03-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Aofex2
 social:
-  - https://www.facebook.com/AofexDigitalCurrencyExchange
-redirect_from:
+- https://www.facebook.com/AofexDigitalCurrencyExchange
+redirect_from: 
+
 ---
+
+**Update 2022-03-12**: This app is not available anymore.
 
 ## App Description
 

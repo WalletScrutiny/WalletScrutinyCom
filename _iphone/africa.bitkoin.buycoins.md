@@ -1,6 +1,6 @@
 ---
 wsId: africa
-title: "BuyCoins - Buy Bitcoin & More"
+title: BuyCoins - Buy Bitcoin & More
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1389966202
 released: 2018-08-02
 updated: 2021-04-17
-version: "5.6.0"
+version: 5.6.0
 stars: 3.73913
 reviews: 46
 size: 42137600
@@ -22,10 +22,11 @@ meta: defunct
 verdict: custodial
 date: 2021-04-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: buycoins_africa
 social:
-  - https://www.facebook.com/buycoinsafrica
+- https://www.facebook.com/buycoinsafrica
+
 ---
 
 This app is not on the app stores anymore and given the many scam accusations it

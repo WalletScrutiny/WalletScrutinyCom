@@ -1,15 +1,14 @@
 ---
 wsId: bither
-title: "Bither - Bitcoin Wallet"
+title: Bither - Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 50000
 appId: net.bither
 appCountry: 
 released: 2014-02-27
 updated: 2022-02-18
-version: "2.0.5"
+version: 2.0.5
 stars: 4.2586207
 ratings: 335
 reviews: 26
@@ -23,10 +22,11 @@ meta: ok
 verdict: obfuscated
 date: 2021-03-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is an open source Bitcoin wallet with most of its information to be

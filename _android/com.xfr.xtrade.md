@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Xtrade - Online Trading"
+title: Xtrade - Online Trading
 altTitle: 
-authors:
-
+authors: 
 users: 1000000
 appId: com.xfr.xtrade
 appCountry: 
 released: 2014-10-02
 updated: 2022-01-11
-version: "6.0.74"
+version: 6.0.74
 stars: 4.213592
 ratings: 37358
 reviews: 69
@@ -23,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: XTrade
 social:
-  - https://www.linkedin.com/company/xtrade
-  - https://www.facebook.com/XTrade
-redirect_from:
+- https://www.linkedin.com/company/xtrade
+- https://www.facebook.com/XTrade
+redirect_from: 
+
 ---
 
 > Enjoy the ultimate mobile trading experience when you access your Xtrade trading account from your phone

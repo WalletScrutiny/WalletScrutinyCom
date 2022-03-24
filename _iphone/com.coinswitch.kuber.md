@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: "CoinSwitch"
+title: CoinSwitch
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: in
 idd: 1540214951
 released: 2020-12-01
 updated: 2022-02-19
-version: "3.8.2"
-stars: 4.45823
-reviews: 38666
-size: 62757888
+version: 3.8.2
+stars: 4.46078
+reviews: 39581
+size: '62757888'
 website: https://coinswitch.co/in
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinSwitchKuber
 social:
-  - https://www.linkedin.com/company/coinswitch
-  - https://www.facebook.com/coinswitch
+- https://www.linkedin.com/company/coinswitch
+- https://www.facebook.com/coinswitch
+
 ---
 
 {% include copyFromAndroid.html %}

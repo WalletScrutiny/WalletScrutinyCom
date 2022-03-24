@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Multicurrency crypto-wallet: Bitpapa"
+title: 'Multicurrency crypto-wallet: Bitpapa'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitpapa
 appCountry: 
 released: 2020-08-18
 updated: 2022-03-07
-version: "1.8.5"
+version: 1.8.5
 stars: 4.3690476
 ratings: 5332
 reviews: 83
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitpapa_com
 social:
-  - https://www.facebook.com/bitpapacom
-redirect_from:
+- https://www.facebook.com/bitpapacom
+redirect_from: 
+
 ---
 
 This app supports Bitcoin:

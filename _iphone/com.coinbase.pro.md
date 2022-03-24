@@ -1,6 +1,6 @@
 ---
 wsId: coinbasepro
-title: "Coinbase Pro"
+title: Coinbase Pro
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1446636681
 released: 2019-10-10
 updated: 2022-03-08
-version: "1.0.93"
-stars: 4.7218
-reviews: 162403
-size: 47624192
+version: 1.0.93
+stars: 4.72183
+reviews: 163520
+size: '47624192'
 website: https://pro.coinbase.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2020-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinbasePro
 social:
-  - https://www.facebook.com/coinbase
+- https://www.facebook.com/coinbase
+
 ---
 
 On the website we read:

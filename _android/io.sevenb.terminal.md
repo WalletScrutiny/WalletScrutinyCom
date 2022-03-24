@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN"
+title: '7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000
 appId: io.sevenb.terminal
 appCountry: 
 released: 2021-05-04
-updated: 2021-11-10
-version: "0.1.265"
-stars: 3.4
+updated: 2022-03-16
+version: 0.1.267
+stars: 3.5454545
 ratings: 56
-reviews: 3
+reviews: 4
 size: 13M
 website: https://sevenb.io/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: sevenb_roker
 social:
-  - https://www.facebook.com/SevenBbroker
-  - https://www.reddit.com/r/SevenB_roker
-redirect_from:
+- https://www.facebook.com/SevenBbroker
+- https://www.reddit.com/r/SevenB_roker
+redirect_from: 
+
 ---
 
 ## App Description

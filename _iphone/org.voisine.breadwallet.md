@@ -1,6 +1,6 @@
 ---
 wsId: BRDBitcoin
-title: "BRD Bitcoin Wallet"
+title: BRD Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 885251393
 released: 2014-06-22
 updated: 2022-02-17
-version: "4.16"
-stars: 4.58943
-reviews: 12563
-size: 83899392
+version: '4.16'
+stars: 4.58918
+reviews: 12587
+size: '83899392'
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/1
@@ -24,20 +24,21 @@ date: 2021-06-29
 signer: 
 reviewArchive:
 - date: 2021-06-27
-  version: "4.10.0"
+  version: 4.10.0
   appHash: 
   gitRevision: 5f9d3e8bf00be2ad8968b129c27258ea45ce2680
   verdict: nosource
 - date: 2020-12-21
-  version: "4.9.0.3"
+  version: 4.9.0.3
   appHash: 
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
   verdict: nonverifiable
 twitter: BRDHQ
 social:
-  - https://www.linkedin.com/company/brdhq
-  - https://www.facebook.com/brdhq
-  - https://www.reddit.com/r/brdapp
+- https://www.linkedin.com/company/brdhq
+- https://www.facebook.com/brdhq
+- https://www.reddit.com/r/brdapp
+
 ---
 
 **Update 2021-06-29**: The provider

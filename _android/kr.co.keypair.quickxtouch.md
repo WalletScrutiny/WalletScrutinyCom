@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "QuickX Touch"
+title: QuickX Touch
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: kr.co.keypair.quickxtouch
 appCountry: 
 released: 2018-10-09
 updated: 2019-07-17
-version: "1.0.0.57"
+version: 1.0.0.57
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: defunct
 verdict: fewusers
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: quickxprotocol
 social:
-  - https://www.linkedin.com/company/quickx
-  - https://www.facebook.com/quickxprotocol
-  - https://www.reddit.com/r/QuickX
-redirect_from:
+- https://www.linkedin.com/company/quickx
+- https://www.facebook.com/quickxprotocol
+- https://www.reddit.com/r/QuickX
+redirect_from: 
+
 ---
 
 **Update 2022-02-20**: This app is not available anymore.

@@ -1,5 +1,5 @@
 ---
-title: "OmniStaker"
+title: OmniStaker
 appId: omnistaker
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "OmniSolutions"
+provider: OmniSolutions
 providerWebsite: https://omnistaker.com
 website: https://omnistaker.com
 shop: https://omnistaker.com/shop/
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 This hardware device is for staking coins and does not support bitcoins.

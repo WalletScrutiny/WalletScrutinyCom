@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "eesty -Smart Wallet"
+title: eesty -Smart Wallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: jp
 idd: 1342115738
 released: 2018-02-15
 updated: 2019-07-03
-version: "3.0"
+version: '3.0'
 stars: 4
 reviews: 8
-size: 36035584
+size: '36035584'
 website: https://www.eesty.ee
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: obsolete
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 ## Private keys

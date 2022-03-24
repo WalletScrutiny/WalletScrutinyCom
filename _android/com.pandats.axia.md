@@ -1,6 +1,6 @@
 ---
 wsId: AxiaInvestments
-title: "Axia Investments"
+title: Axia Investments
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
 updated: 2021-12-07
-version: "1.0.44"
+version: 1.0.44
 stars: 5
 ratings: 744
 reviews: 2
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Break Bitcoin - find money for free"
+title: Break Bitcoin - find money for free
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: zibi.breakbitcoin
 appCountry: 
 released: 2021-03-17
 updated: 2021-03-17
-version: "2.00"
+version: '2.00'
 stars: 
 ratings: 
 reviews: 
@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: zibi.breakbitcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-03-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **Warning:** This app's stated description is to find the private keys for 4.5 million bitcoin addresses. It then instructs the user to transfer bitcoins from another wallet to the user's wallet. Some reviews have accused the app developers of using the user's device to mine cryptocurrencies for the developers.

@@ -1,6 +1,6 @@
 ---
 wsId: ZBX
-title: "ZBX"
+title: ZBX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
 updated: 2022-01-15
-version: "2.1.4"
+version: 2.1.4
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zbx_com
 social:
-  - https://www.linkedin.com/company/zbx
-  - https://www.facebook.com/ZBXExchange
-redirect_from:
+- https://www.linkedin.com/company/zbx
+- https://www.facebook.com/ZBXExchange
+redirect_from: 
+
 ---
 
 ## App Description

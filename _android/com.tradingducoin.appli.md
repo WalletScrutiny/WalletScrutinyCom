@@ -1,6 +1,6 @@
 ---
 wsId: CryptoTrader
-title: "CryptoTrader™ - Built by traders, for traders"
+title: CryptoTrader™ - Built by traders, for traders
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tradingducoin.appli
 appCountry: ml
 released: 2019-03-10
 updated: 2021-09-03
-version: "5.4.8"
+version: 5.4.8
 stars: 3.8
 ratings: 183
 reviews: 89
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nowallet
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TradingduCoin
 social:
-  - https://www.facebook.com/TradingduCoin
-redirect_from:
+- https://www.facebook.com/TradingduCoin
+redirect_from: 
+
 ---
 
 **Update 2021-12-03**: This app is gone from the Store.

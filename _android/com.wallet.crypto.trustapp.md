@@ -1,6 +1,6 @@
 ---
 wsId: sixdays
-title: "Trust: Crypto & Bitcoin Wallet"
+title: 'Trust: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
-updated: 2022-02-23
-version: "5.19"
-stars: 4.5515
+updated: 2022-03-23
+version: '5.21'
+stars: 4.5583153
 ratings: 841930
-reviews: 9944
+reviews: 10115
 size: 38M
 website: https://trustwallet.com/
 repository: 
@@ -23,16 +23,17 @@ meta: ok
 verdict: nosource
 date: 2019-11-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: trustwalletapp
 social:
-  - https://www.facebook.com/trustwalletapp
-  - https://www.reddit.com/r/trustapp
+- https://www.facebook.com/trustwalletapp
+- https://www.reddit.com/r/trustapp
 redirect_from:
-  - /trust/
-  - /com.wallet.crypto.trustapp/
-  - /posts/2019/11/trust/
-  - /posts/com.wallet.crypto.trustapp/
+- /trust/
+- /com.wallet.crypto.trustapp/
+- /posts/2019/11/trust/
+- /posts/com.wallet.crypto.trustapp/
+
 ---
 
 Trust - Crypto & Bitcoin Wallet

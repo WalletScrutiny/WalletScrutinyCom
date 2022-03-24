@@ -1,6 +1,6 @@
 ---
 wsId: ownbit
-title: "Ownbit: Cold & MultiSig Wallet"
+title: 'Ownbit: Cold & MultiSig Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 5000
 appId: com.bitbill.www
 appCountry: 
 released: 2018-03-22
-updated: 2022-02-13
-version: "4.32.2"
+updated: 2022-03-14
+version: 4.33.0
 stars: 3.5789473
 ratings: 79
 reviews: 11
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2020-04-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.bitbill.www/
-  - /posts/com.bitbill.www/
+- /com.bitbill.www/
+- /posts/com.bitbill.www/
+
 ---
 
 On the Google Play description we read:

@@ -1,6 +1,6 @@
 ---
 wsId: metamask
-title: "MetaMask - Buy, Send and Swap Crypto"
+title: MetaMask - Blockchain Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2022-03-07
-version: "4.1.1"
-stars: 4.5
+updated: 2022-03-21
+version: 4.2.2
+stars: 4.560831
 ratings: 57131
-reviews: 1997
+reviews: 2053
 size: 194M
 website: https://metamask.io
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2021-05-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is an ETH-only app and thus not a Bitcoin wallet.

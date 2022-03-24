@@ -1,6 +1,6 @@
 ---
 wsId: MandalaExchange
-title: "Mandala Exchange"
+title: Mandala Exchange
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.cloud.app.mandala
 appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
-version: "1.0.0"
-stars: 3
+version: 1.0.0
+stars: 2.9583333
 ratings: 155
-reviews: 19
+reviews: 20
 size: 23M
 website: https://mandala.exchange
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mandalaex
 social:
-  - https://www.facebook.com/mandalaexchange
-  - https://www.reddit.com/r/MandalaExchange
-redirect_from:
+- https://www.facebook.com/mandalaexchange
+- https://www.reddit.com/r/MandalaExchange
+redirect_from: 
+
 ---
 
 ## App Description

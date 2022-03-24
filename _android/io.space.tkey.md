@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Meet TKEYSPACE — New World’s Most Advanced Wallet."
+title: Meet TKEYSPACE — New World’s Most Advanced Wallet.
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: io.space.tkey
 appCountry: 
 released: 2020-02-14
 updated: 2020-04-27
-version: "1.3.0"
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

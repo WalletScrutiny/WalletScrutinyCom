@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: "Coinbase Wallet - Store Crypto"
+title: Coinbase Wallet - Store Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2022-02-28
-version: "26.5.415"
-stars: 3.775499
+updated: 2022-03-22
+version: 26.6.425
+stars: 3.8133194
 ratings: 38828
-reviews: 8119
+reviews: 8316
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: nosource
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinbaseWallet
-social:
+social: 
 redirect_from:
-  - /coinbasewallet/
-  - /org.toshi/
-  - /posts/2019/11/coinbasewallet/
-  - /posts/org.toshi/
+- /coinbasewallet/
+- /org.toshi/
+- /posts/2019/11/coinbasewallet/
+- /posts/org.toshi/
+
 ---
 
 Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like

@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "USDT Option"
+title: USDT Option
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.usdtoption.www
 appCountry: 
 released: 2020-05-10
 updated: 2020-05-10
-version: "1.1.1"
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-10-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

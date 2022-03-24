@@ -1,6 +1,6 @@
 ---
 wsId: SpotWalletapp
-title: "Spot wallet: NFT & Bitcoin"
+title: 'Spot wallet: crypto & DeFi'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2022-03-02
-version: "4.8.1"
-stars: 4.6411
-reviews: 5762
-size: 142918656
+updated: 2022-03-16
+version: '4.9'
+stars: 4.64433
+reviews: 5820
+size: '121243648'
 website: https://spot-bitcoin.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-05-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: spot_bitcoin
 social:
-  - https://www.linkedin.com/company/spot-bitcoin
-  - https://www.facebook.com/spot.bitcoin
+- https://www.linkedin.com/company/spot-bitcoin
+- https://www.facebook.com/spot.bitcoin
+
 ---
 
 On their website we read:

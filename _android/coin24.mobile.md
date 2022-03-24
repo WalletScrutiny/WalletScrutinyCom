@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Coin24 - Bitcoin, cryptocurrency exchange"
+title: Coin24 - Bitcoin, cryptocurrency exchange
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: coin24.mobile
 appCountry: 
 released: 2020-09-28
 updated: 2020-09-28
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-09-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

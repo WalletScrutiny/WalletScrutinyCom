@@ -1,6 +1,6 @@
 ---
 wsId: capex
-title: "Capex.com"
+title: Capex.com
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: gb
 idd: 1304998844
 released: 2018-02-03
 updated: 2022-01-31
-version: "1.33"
+version: '1.33'
 stars: 5
 reviews: 7
-size: 110475264
+size: '110475264'
 website: http://www.capex.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: capex_en
 social:
-  - https://www.linkedin.com/company/capexglobal
-  - https://www.facebook.com/CAPEXSeychelles
+- https://www.linkedin.com/company/capexglobal
+- https://www.facebook.com/CAPEXSeychelles
+
 ---
 
  {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Secrypto-Bitcoin, ETH, EOS"
+title: Secrypto-Bitcoin, ETH, EOS
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: com.secrypto
 appCountry: 
 released: 2018-06-18
 updated: 2019-02-26
-version: "1.28"
+version: '1.28'
 stars: 4.366667
 ratings: 956
 reviews: 21
@@ -23,10 +23,11 @@ meta: obsolete
 verdict: nosource
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 We do not have to look far to find the wallet claims to be non-custodial.

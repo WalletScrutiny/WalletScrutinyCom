@@ -1,6 +1,6 @@
 ---
 wsId: bitberry
-title: "Bitberry : Safe Cryptocurrency Wallet"
+title: 'Bitberry : Safe Cryptocurrency Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.rootone.wallet
 appCountry: us
 released: 2018-10-08
 updated: 2022-02-22
-version: "1.4.8"
+version: 1.4.8
 stars: 3.6
 ratings: 617
 reviews: 10
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 From its Google Play description, we have hints of its custodial nature:

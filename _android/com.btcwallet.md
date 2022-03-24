@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "LUNA - Blockchain Wallet"
+title: LUNA - Blockchain Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: com.btcwallet
 appCountry: 
 released: 2019-08-29
 updated: 2019-10-23
-version: "8.0.8"
+version: 8.0.8
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

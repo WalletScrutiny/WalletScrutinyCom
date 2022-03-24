@@ -1,6 +1,6 @@
 ---
 wsId: ExanteTrading
-title: "EXANTE Trading"
+title: EXANTE Trading
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: eu.exante.client
 appCountry: am
 released: 2014-04-25
 updated: 2022-03-03
-version: "4.21.6"
-stars: 3.99
+version: 4.21.6
+stars: 3.97
 ratings: 218
 reviews: 126
 size: 24M
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-10-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: EXANTE_EU
 social:
-  - https://www.linkedin.com/company/exante-ltd
-  - https://www.facebook.com/exante.global
-redirect_from:
+- https://www.linkedin.com/company/exante-ltd
+- https://www.facebook.com/exante.global
+redirect_from: 
+
 ---
 
 ## App Description

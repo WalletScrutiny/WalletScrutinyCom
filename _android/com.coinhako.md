@@ -1,6 +1,6 @@
 ---
 wsId: coinhako
-title: "Coinhako: Buy Bitcoin, Crypto Wallet & Trading"
+title: 'Coinhako: Buy Bitcoin, Crypto Wallet & Trading'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2022-03-04
-version: "4.0.2"
+updated: 2022-03-12
+version: 4.1.0
 stars: 2.3846154
 ratings: 3064
 reviews: 16
-size: 40M
+size: 43M
 website: https://coinhako.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinhako
 social:
-  - https://www.linkedin.com/company/coinhako
-  - https://www.facebook.com/coinhako
-redirect_from:
+- https://www.linkedin.com/company/coinhako
+- https://www.facebook.com/coinhako
+redirect_from: 
+
 ---
 
 Having a scan over the providers website and faq articles does not reveal any

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitbns: Bitcoin, Crypto Trading Exchange India"
+title: 'Bitbns: Bitcoin, Crypto Trading Exchange India'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.bitbns
 appCountry: 
 released: 2019-09-21
-updated: 2022-02-28
-version: "6.1.1"
+updated: 2022-03-10
+version: 6.1.2
 stars: 3.5714285
 ratings: 15779
 reviews: 33
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitbns
 social:
-  - https://www.linkedin.com/company/bitbnsinc
-  - https://www.facebook.com/bitbns
-  - https://www.reddit.com/r/Bitbns
-redirect_from:
+- https://www.linkedin.com/company/bitbnsinc
+- https://www.facebook.com/bitbns
+- https://www.reddit.com/r/Bitbns
+redirect_from: 
+
 ---
 
 From their linkedin page:

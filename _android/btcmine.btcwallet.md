@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BTC Wallet"
+title: BTC Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: btcmine.btcwallet
 appCountry: 
 released: 2017-08-13
 updated: 2017-08-13
-version: "1.1"
+version: '1.1'
 stars: 3.9
 ratings: 16
 reviews: 7
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2021-07-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /btcmine.btcwallet/
+- /btcmine.btcwallet/
+
 ---
 
 **Update 2021-07-09**: This app is no more. Given the shady findings below we

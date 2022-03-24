@@ -1,6 +1,6 @@
 ---
 wsId: MoneyPipe
-title: "MoneyPipe: HD Bitcoin Wallet"
+title: 'MoneyPipe: HD Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.beecrypt.beecrypthd
 appCountry: us
 released: 2020-05-27
 updated: 2022-01-24
-version: "4.3"
+version: '4.3'
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: money_pipe
 social:
-  - https://www.facebook.com/moneypipewallet
-redirect_from:
+- https://www.facebook.com/moneypipewallet
+redirect_from: 
+
 ---
 
 ## App Description

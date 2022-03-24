@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Shamirs Wallet 💎"
+title: Shamirs Wallet 💎
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: ms.shamirswallet.app
 appCountry: 
 released: 2020-07-28
 updated: 2020-12-04
-version: "1.3.1"
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-12-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

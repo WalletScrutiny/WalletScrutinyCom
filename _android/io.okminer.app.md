@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "OK Miner"
+title: OK Miner
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.okminer.app
 appCountry: 
 released: 2021-06-27
 updated: 2021-10-13
-version: "1.2.8"
+version: 1.2.8
 stars: 4.5
 ratings: 534
 reviews: 117
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-11-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## Updated Verdict 2021-10-29

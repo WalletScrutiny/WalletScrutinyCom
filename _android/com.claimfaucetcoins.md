@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Claim Faucet Coins :: Bitcoin Ethereum Altcoins"
+title: 'Claim Faucet Coins :: Bitcoin Ethereum Altcoins'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.claimfaucetcoins
 appCountry: 
 released: 2020-04-21
 updated: 2021-06-15
-version: "2.1"
+version: '2.1'
 stars: 4.357143
 ratings: 266
 reviews: 9
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app does not appear to be a crypto wallet, instead utilizing external services such as Skrill or CoinBase as its wallets.

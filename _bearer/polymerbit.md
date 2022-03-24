@@ -1,5 +1,5 @@
 ---
-title: "Polymerbit"
+title: Polymerbit
 appId: polymerbit
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Polymerbit Ltd."
+provider: Polymerbit Ltd.
 providerWebsite: 
 website: https://polymerbit.ch/
 shop: https://www.polymerbit.com/shop
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: polymerbit
 social: 
+
 ---
 
 ## Product Description

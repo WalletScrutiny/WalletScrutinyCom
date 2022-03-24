@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: "Argent - L2 & Argent Vault"
+title: Argent - L2 & Argent Vault
 altTitle: 
 authors:
 - danny
@@ -8,14 +8,14 @@ users: 100000
 appId: im.argent.contractwalletclient
 appCountry: us
 released: 2018-10-30
-updated: 2022-03-08
-version: "4.3.6970"
-stars: 4.7352943
+updated: 2022-03-16
+version: 4.3.7020
+stars: 4.6601944
 ratings: 3252
-reviews: 302
+reviews: 308
 size: 49M
 website: https://www.argent.xyz
-repository: https://github.com/argentlabs/
+repository: 
 issue: 
 icon: im.argent.contractwalletclient.png
 bugbounty: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nobtc
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: argentHQ
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 Clicking on Receive gives you 3 options:

@@ -1,18 +1,17 @@
 ---
 wsId: 
-title: "Bisq Notifications"
+title: Bisq Notifications
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06
 updated: 2018-12-04
-version: "1.1.0"
-stars: 2.7777777
+version: 1.1.0
+stars: 2.6842105
 ratings: 69
-reviews: 12
+reviews: 13
 size: 3.6M
 website: http://www.joachimneumann.com
 repository: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

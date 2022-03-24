@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Exchange Currency.com"
+title: Crypto Exchange Currency.com
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2022-03-04
-version: "1.22.5"
-stars: 4.79875
-reviews: 2738
-size: 62524416
+updated: 2022-03-11
+version: 1.22.6
+stars: 4.79835
+reviews: 2787
+size: '62524416'
 website: https://currency.com/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: wip
 date: 2022-01-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: currencycom
 social:
-  - https://www.facebook.com/currencycom
-  - https://www.reddit.com/r/currencycom
+- https://www.facebook.com/currencycom
+- https://www.reddit.com/r/currencycom
+
 ---
 
 <!--

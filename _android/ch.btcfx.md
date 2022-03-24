@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BTCfx - Bitcoin Trading Client"
+title: BTCfx - Bitcoin Trading Client
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: ch.btcfx
 appCountry: 
 released: 2013-07-13
 updated: 2019-12-20
-version: "1.3.0.1"
+version: 1.3.0.1
 stars: 3.5
 ratings: 562
 reviews: 304
@@ -23,10 +22,11 @@ meta: defunct
 verdict: wip
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-13**: This app is not available anymore.

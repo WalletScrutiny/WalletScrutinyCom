@@ -1,6 +1,6 @@
 ---
 wsId: Tizer
-title: "Tizer Wallet"
+title: Tizer Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.transcrypt.armadillo
 appCountry: ru
 released: 2018-05-23
 updated: 2022-03-09
-version: "2.08.9"
+version: 2.08.9
 stars: 4.785714
 ratings: 172
 reviews: 19
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TizerWallet
 social:
-  - https://www.linkedin.com/company/tizer-wallet
-  - https://www.facebook.com/tizerwallet
-redirect_from:
+- https://www.linkedin.com/company/tizer-wallet
+- https://www.facebook.com/tizerwallet
+redirect_from: 
+
 ---
 
 ## App Description

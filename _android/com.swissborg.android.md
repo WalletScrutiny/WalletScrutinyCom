@@ -1,6 +1,6 @@
 ---
 wsId: swissborg
-title: "SwissBorg: Invest in Crypto"
+title: 'SwissBorg: Invest in Crypto'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.swissborg.android
 appCountry: gb
 released: 2020-06-16
 updated: 2022-03-03
-version: "1.29.1"
-stars: 3.625
+version: 1.29.1
+stars: 3.631579
 ratings: 9203
-reviews: 748
+reviews: 750
 size: 155M
 website: https://swissborg.com
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: swissborg
 social:
-  - https://www.linkedin.com/company/swissborg
-  - https://www.facebook.com/swissborg
-redirect_from:
+- https://www.linkedin.com/company/swissborg
+- https://www.facebook.com/swissborg
+redirect_from: 
+
 ---
 
 [Swissborg has provided a Youtube tutorial for withdrawing cryptocurrencies from their product.](https://www.youtube.com/watch?v=e7CwCbX0AbE)

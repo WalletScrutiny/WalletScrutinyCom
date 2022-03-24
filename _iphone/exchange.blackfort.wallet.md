@@ -1,6 +1,6 @@
 ---
 wsId: BlackFort
-title: "BlackFort Wallet & Exchange"
+title: BlackFort Wallet & Exchange
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ee
 idd: 1501336917
 released: 2020-08-31
 updated: 2021-10-27
-version: "1.8"
-stars: 
-reviews: 
-size: 49003520
+version: '1.8'
+stars: 0
+reviews: 0
+size: '49003520'
 website: https://blackfort.exchange/
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BlackFort_Tech
 social:
-  - https://www.linkedin.com/company/blackfort-wallet-exchange
-  - https://www.facebook.com/BlackfortWalletExchange
+- https://www.linkedin.com/company/blackfort-wallet-exchange
+- https://www.facebook.com/BlackfortWalletExchange
+
 ---
 
 {% include copyFromAndroid.html %}

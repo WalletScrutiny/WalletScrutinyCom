@@ -1,6 +1,6 @@
 ---
 wsId: Bytesmix
-title: "Bytesmix - Coin, Token Wallet"
+title: Bytesmix - Coin, Token Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bytesmix.app
 appCountry: cn
 released: 2019-08-11
 updated: 2022-01-11
-version: "2.4.4"
+version: 2.4.4
 stars: 3.7327585
 ratings: 400
 reviews: 283
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bytesmix
 social:
-  - https://www.facebook.com/bytesmix
-redirect_from:
+- https://www.facebook.com/bytesmix
+redirect_from: 
+
 ---
 
 ### Additional Observations

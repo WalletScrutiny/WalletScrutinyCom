@@ -1,6 +1,6 @@
 ---
 wsId: UmiFi
-title: "UmiFi-Bitcoin, Crypto Trading"
+title: UmiFi-Bitcoin, Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.umifi.app
 appCountry: us
 released: 2021-08-18
 updated: 2021-12-23
-version: "1.0.6"
+version: 1.0.6
 stars: 4.6
 ratings: 76
 reviews: 4
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: officialumifi
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-11**: This app is not on the Store anymore.

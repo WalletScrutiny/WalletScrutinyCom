@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "SideSwap"
+title: SideSwap
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: io.sideswap
 appCountry: 
 released: 2021-03-09
 updated: 2022-02-09
-version: "1.1.3"
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: ok
 verdict: fewusers
 date: 2022-01-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
   

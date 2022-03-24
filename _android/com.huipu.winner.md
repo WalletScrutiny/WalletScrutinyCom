@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Big Winner - Forex, Bitcoin, Options Trading App"
+title: Big Winner - Forex, Bitcoin, Options Trading App
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.huipu.winner
 appCountry: 
 released: 2021-04-13
 updated: 2021-06-15
-version: "1.3.1"
+version: 1.3.1
 stars: 3
 ratings: 8
 reviews: 4
@@ -23,10 +23,11 @@ meta: defunct
 verdict: nowallet
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

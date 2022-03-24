@@ -211,7 +211,7 @@ function getBadge(wallet) {
         <div style="position:relative">
           <div class="flex-r">
             <div class="app_logo">
-                <img loading="lazy" src="/images/wallet_icons/${wallet.folder}/small/${wallet.icon}" class="app_logo" alt="Wallet Logo">
+                <img loading="lazy" src="/images/wallet_icons/${wallet.folder}/small/${wallet.icon || 'noicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>
             <span class="stamp stamp-${wallet.verdict}" alt=""></span>

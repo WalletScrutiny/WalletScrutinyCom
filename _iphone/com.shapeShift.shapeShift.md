@@ -1,6 +1,6 @@
 ---
 wsId: ShapeShift
-title: "ShapeShift: Buy & Trade Crypto"
+title: 'ShapeShift: Buy & Trade Crypto'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 996569075
 released: 2015-06-09
 updated: 2021-10-26
-version: "2.19.3 (107)"
-stars: 2.72878
-reviews: 542
-size: 76959744
+version: 2.19.3 (107)
+stars: 2.72978
+reviews: 544
+size: '76959744'
 website: https://shapeshift.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-05-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ShapeShift_io
 social:
-  - https://www.facebook.com/ShapeShiftPlatform
+- https://www.facebook.com/ShapeShiftPlatform
+
 ---
 
 ShapeShift is best known for their non-custodial exchange but this app appears

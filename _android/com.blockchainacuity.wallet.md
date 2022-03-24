@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Quick Coins Wallet"
+title: Quick Coins Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1
 appId: com.blockchainacuity.wallet
 appCountry: 
 released: 2018-08-01
 updated: 2018-08-01
-version: "5.37"
+version: '5.37'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-12-05
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-26**: This app is not available anymore.

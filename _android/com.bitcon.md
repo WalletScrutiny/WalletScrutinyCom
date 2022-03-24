@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Spend The Bits"
+title: Spend The Bits
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2022-02-25
-version: "1.1.1"
+updated: 2022-03-23
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

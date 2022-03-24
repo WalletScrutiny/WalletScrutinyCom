@@ -1,6 +1,6 @@
 ---
 wsId: Bolsa
-title: "Paper Trading - Bolsa"
+title: Paper Trading School & Game
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.tiim.gooptions
 appCountry: us
 released: 2017-08-04
 updated: 2021-09-30
-version: "1.4.2"
+version: 1.4.2
 stars: 4.32
 ratings: 261
 reviews: 15
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: bithumbko
-title: "Bithumb"
+title: Bithumb
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.btckorea.bithumb
 appCountry: 
 idd: 1299421592
 released: 2017-12-05
-updated: 2022-01-21
-version: "1.7.6"
+updated: 2022-03-15
+version: 1.7.8
 stars: 2.03447
 reviews: 29
-size: 99073024
+size: '103701504'
 website: https://en.bithumb.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BithumbOfficial
 social:
-  - https://www.facebook.com/bithumb
+- https://www.facebook.com/bithumb
+
 ---
 
 This app is an interface to an exchange and to our knowledge only features

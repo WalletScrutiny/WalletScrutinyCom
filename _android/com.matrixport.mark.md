@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: "Matrixport: Buy & Earn Crypto"
+title: 'Matrixport: Buy & Earn Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2022-03-08
-version: "1.3.7"
-stars: 4.299145
+updated: 2022-03-14
+version: 1.3.8
+stars: 4.2118645
 ratings: 1103
-reviews: 646
+reviews: 674
 size: 112M
 website: https://invest.matrixport.com
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: realMatrixport
 social:
-  - https://www.linkedin.com/company/matrixport
-  - https://www.facebook.com/matrixport
-  - https://www.reddit.com/r/Matrixport
-redirect_from:
+- https://www.linkedin.com/company/matrixport
+- https://www.facebook.com/matrixport
+- https://www.reddit.com/r/Matrixport
+redirect_from: 
+
 ---
 
 From its site description:

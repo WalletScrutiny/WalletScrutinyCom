@@ -1,6 +1,6 @@
 ---
 wsId: OracleCryptoWallet
-title: "Oracle - Crypto Wallet"
+title: Oracle - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.oracle.wallet
 appCountry: us
 released: 2021-01-19
 updated: 2021-12-28
-version: "1.4.9"
+version: 1.4.9
 stars: 4.6
 ratings: 38
 reviews: 24
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nobtc
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Oracle_Wallet
 social:
-  - https://www.facebook.com/oracle8.org
-redirect_from:
+- https://www.facebook.com/oracle8.org
+redirect_from: 
+
 ---
 
 **Update 2022-01-19**: This app is not available anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "FX5"
+title: FX5
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f
 appCountry: 
 released: 2020-09-10
 updated: 2021-01-26
-version: "0.3"
+version: '0.3'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: custodial
 date: 2022-01-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

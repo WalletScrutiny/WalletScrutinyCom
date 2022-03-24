@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "OTPPAY - Crypto Exchange & Merchant Payments"
+title: OTPPAY - Crypto Exchange & Merchant Payments
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.idbtec.otppaycrypto
 appCountry: 
 released: 2018-08-13
 updated: 2020-04-01
-version: "1.21"
+version: '1.21'
 stars: 5
 ratings: 91
 reviews: 4
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.idbtec.otppaycrypto.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-03-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

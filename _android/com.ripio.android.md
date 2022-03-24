@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Ripio Bitcoin Wallet"
+title: Ripio Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
 updated: 2022-03-08
-version: "5.32.1"
-stars: 3.38
+version: 5.32.2
+stars: 3.39
 ratings: 34376
 reviews: 154
 size: 102M
@@ -23,16 +23,17 @@ meta: ok
 verdict: custodial
 date: 2020-03-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ripioapp
 social:
-  - https://www.linkedin.com/company/ripio
-  - https://www.facebook.com/RipioApp
+- https://www.linkedin.com/company/ripio
+- https://www.facebook.com/RipioApp
 redirect_from:
-  - /ripio/
-  - /com.ripio.android/
-  - /posts/2019/11/ripio/
-  - /posts/com.ripio.android/
+- /ripio/
+- /com.ripio.android/
+- /posts/2019/11/ripio/
+- /posts/com.ripio.android/
+
 ---
 
 Ripio Bitcoin Wallet: the new digital economy

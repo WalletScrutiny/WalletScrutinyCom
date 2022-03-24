@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "TigerWit – Forex Trading & More"
+title: TigerWit – Forex Trading & More
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.tigerwit.forex
 appCountry: 
 released: 2018-01-24
-updated: 2022-03-07
-version: "5.6.7"
+updated: 2022-03-11
+version: 5.6.8
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: TigerWitGlobal
 social:
-  - https://www.linkedin.com/company/tigerwit-group-
-redirect_from:
+- https://www.linkedin.com/company/tigerwit-group-
+redirect_from: 
+
 ---
 
 The TigerWit app cannot send and receive actual BTC as it only allows buying CFDs (Contracts for Differences).

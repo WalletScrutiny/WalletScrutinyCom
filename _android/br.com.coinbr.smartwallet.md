@@ -1,6 +1,6 @@
 ---
 wsId: SmartWallet
-title: "SmartWallet"
+title: SmartWallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: br.com.coinbr.smartwallet
 appCountry: us
 released: 2017-11-03
 updated: 2021-10-29
-version: "2.0.28"
+version: 2.0.28
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: stratumhk
 social:
-  - https://www.linkedin.com/company/stratumbr
-  - https://www.facebook.com/stratum.hk
-redirect_from:
+- https://www.linkedin.com/company/stratumbr
+- https://www.facebook.com/stratum.hk
+redirect_from: 
+
 ---
 
 ### Google Play

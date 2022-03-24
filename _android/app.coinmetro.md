@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: "CoinMetro"
+title: Coinmetro
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: app.coinmetro
 appCountry: us
 released: 2017-12-10
-updated: 2022-01-31
-version: "4.4.191"
-stars: 3.05
+updated: 2022-03-21
+version: 4.4.199
+stars: 3.06
 ratings: 419
-reviews: 71
+reviews: 72
 size: 35M
 website: https://coinmetro.com/
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinMetro
 social:
-  - https://www.linkedin.com/company/coinmetro
-  - https://www.facebook.com/CoinMetro
-redirect_from:
+- https://www.linkedin.com/company/coinmetro
+- https://www.facebook.com/CoinMetro
+redirect_from: 
+
 ---
 
 ## App Description

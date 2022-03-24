@@ -1,6 +1,6 @@
 ---
 wsId: coinbaseBSB
-title: "Coinbase: Buy Bitcoin & Ether"
+title: 'Coinbase: Buy Bitcoin & Ether'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.coinbase.android
 appCountry: 
 released: 2013-03-01
-updated: 2022-03-07
-version: "10.8.2"
-stars: 4.151939
+updated: 2022-03-18
+version: 10.10.13
+stars: 4.1423564
 ratings: 666901
-reviews: 79601
+reviews: 80256
 size: Varies with device
 website: https://coinbase.com/
 repository: 
@@ -23,17 +23,18 @@ meta: ok
 verdict: custodial
 date: 2021-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinbase
 social:
-  - https://www.linkedin.com/company/coinbase
-  - https://www.facebook.com/Coinbase
-  - https://www.reddit.com/r/CoinBase
+- https://www.linkedin.com/company/coinbase
+- https://www.facebook.com/Coinbase
+- https://www.reddit.com/r/CoinBase
 redirect_from:
-  - /coinbase/
-  - /com.coinbase.android/
-  - /posts/2019/10/coinbase/
-  - /posts/com.coinbase.android/
+- /coinbase/
+- /com.coinbase.android/
+- /posts/2019/10/coinbase/
+- /posts/com.coinbase.android/
+
 ---
 
 {{ page.title }}, not to be confused with

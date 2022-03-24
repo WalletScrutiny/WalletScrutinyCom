@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PalmPay - Cryptocurrency Point of Sale system"
+title: PalmPay - Cryptocurrency Point of Sale system
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: cy.agorise.palmpay
 appCountry: 
 released: 
 updated: 2022-01-20
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Agorise_world
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

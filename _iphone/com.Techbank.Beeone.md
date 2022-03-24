@@ -1,6 +1,6 @@
 ---
 wsId: TECHBANK
-title: "TECHBANK"
+title: TECHBANK
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2022-02-24
-version: "1.0.57"
+updated: 2022-03-22
+version: 1.0.58
 stars: 4.18182
 reviews: 11
-size: 65643520
+size: '65659904'
 website: https://techbank.finance/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 They claim a million "members" and list big banks as their "acquirers" but there

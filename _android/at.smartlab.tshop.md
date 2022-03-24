@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "TabShop POS - Point of Sale"
+title: TabShop POS - Point of Sale
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: at.smartlab.tshop
 appCountry: 
 released: 2012-12-22
 updated: 2022-02-26
-version: "203"
-stars: 3.87
+version: '203'
+stars: 4.109928
 ratings: 3750
-reviews: 259
+reviews: 
 size: 6.6M
 website: https://tabshop.smartlab.at/
 repository: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > TabShop Point of Sale (POS) app is the perfect companion app for your retail store, cafe, bar, restaurant, pizzeria, bakery, coffee shop, food truck, grocery store, beauty salon, car wash and more.

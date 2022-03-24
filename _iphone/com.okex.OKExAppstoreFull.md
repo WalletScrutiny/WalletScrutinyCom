@@ -1,6 +1,6 @@
 ---
 wsId: OKEx
-title: "OKX: Buy Bitcoin, ETH, Crypto"
+title: 'OKX: Buy Bitcoin, ETH, Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.okex.OKExAppstoreFull
 appCountry: 
 idd: 1327268470
 released: 2018-01-04
-updated: 2022-03-07
-version: "6.0.12"
-stars: 4.86906
-reviews: 12830
-size: 477064192
+updated: 2022-03-21
+version: 6.0.16
+stars: 4.86667
+reviews: 12983
+size: '533771264'
 website: https://www.okx.com/download
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2020-12-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OKEx
 social:
-  - https://www.facebook.com/okexofficial
-  - https://www.reddit.com/r/OKEx
+- https://www.facebook.com/okexofficial
+- https://www.reddit.com/r/OKEx
+
 ---
 
 On their website we find:

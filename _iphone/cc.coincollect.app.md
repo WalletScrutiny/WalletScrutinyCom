@@ -1,6 +1,6 @@
 ---
 wsId: CoinCollect
-title: "CoinCollect: Multi-Coin Wallet"
+title: 'CoinCollect: Multi-Coin Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1473471322
 released: 2019-11-05
 updated: 2020-01-13
-version: "1.7.6"
-stars: 
-reviews: 
-size: 90429440
+version: 1.7.6
+stars: 0
+reviews: 0
+size: '90429440'
 website: https://coincollect.cc/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: obsolete
 verdict: nosource
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coincollectHQ
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

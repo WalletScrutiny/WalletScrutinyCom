@@ -1,6 +1,6 @@
 ---
 wsId: tzerocrypto
-title: "tZERO Crypto: BTC, ETH, & more"
+title: 'tZERO Crypto: BTC, ETH, & more'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.tzero.tzerocrypto
 appCountry: us
 idd: 1468985150
 released: 2019-06-28
-updated: 2022-03-03
-version: "2.0.10"
-stars: 4.6555
-reviews: 717
-size: 76350464
+updated: 2022-03-12
+version: 2.0.11
+stars: 4.65139
+reviews: 720
+size: '76325888'
 website: https://www.tzero.com/crypto-app
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: Trustee
-title: "Trustee | crypto & btc wallet"
+title: Trustee | crypto & btc wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01
 updated: 2022-02-11
-version: "1.50.5"
+version: 1.50.5
 stars: 3.9466667
 ratings: 2467
 reviews: 39
@@ -25,16 +25,17 @@ date: 2020-01-24
 signer: 
 reviewArchive:
 - date: 2019-12-28
-  version: "1.0"
+  version: '1.0'
   appHash: 
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable
 twitter: Trustee_Wallet
 social:
-  - https://www.facebook.com/Trustee.Wallet
+- https://www.facebook.com/Trustee.Wallet
 redirect_from:
-  - /com.trusteewallet/
-  - /posts/com.trusteewallet/
+- /com.trusteewallet/
+- /posts/com.trusteewallet/
+
 ---
 
 They [asked us to re-evaluate](https://github.com/trustee-wallet/trusteeWallet/issues/1#issuecomment-577612039),

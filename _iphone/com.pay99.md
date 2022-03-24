@@ -1,6 +1,6 @@
 ---
 wsId: 99Pay
-title: "99Pay"
+title: 99Pay
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.pay99
 appCountry: br
 idd: 1588184260
 released: 2021-10-02
-updated: 2022-02-23
-version: "7.1.8"
-stars: 4.13375
-reviews: 157
-size: 201011200
+updated: 2022-03-23
+version: 7.1.12
+stars: 4.32353
+reviews: 340
+size: '202444800'
 website: 
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: voude99
 social:
-  - https://www.linkedin.com/company/99app
-  - https://www.facebook.com/voude99
+- https://www.linkedin.com/company/99app
+- https://www.facebook.com/voude99
+
 ---
 
 {% include copyFromAndroid.html %}

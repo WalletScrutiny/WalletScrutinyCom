@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "GBBIT Bitcoin Wallet India"
+title: GBBIT Bitcoin Wallet India
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: gbbit.app.wallet
 appCountry: 
 released: 2017-12-11
 updated: 2020-05-07
-version: "10.61"
+version: '10.61'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

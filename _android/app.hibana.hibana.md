@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Hibana Wallet"
+title: Hibana Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appId: app.hibana.hibana
 appCountry: 
 released: 2018-12-11
 updated: 2018-12-11
-version: "0.1"
+version: '0.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-11-17**: This app is not on Play Store anymore.

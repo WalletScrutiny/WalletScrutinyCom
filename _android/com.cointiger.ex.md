@@ -1,6 +1,6 @@
 ---
 wsId: cointiger
-title: "CoinTiger-Crypto Exchange"
+title: CoinTiger-Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.cointiger.ex
 appCountry: us
 released: 2020-07-23
-updated: 2022-02-15
-version: "5.1.0.0"
-stars: 4.4246573
+updated: 2022-03-11
+version: 5.1.2.0
+stars: 4.399103
 ratings: 13093
-reviews: 132
-size: 50M
+reviews: 135
+size: 52M
 website: https://www.cointiger.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinTigerEX
 social:
-  - https://www.facebook.com/CoinTigerEX
-  - https://www.reddit.com/r/CoinTigerExchange
-redirect_from:
+- https://www.facebook.com/CoinTigerEX
+- https://www.reddit.com/r/CoinTigerExchange
+redirect_from: 
+
 ---
 
 CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)

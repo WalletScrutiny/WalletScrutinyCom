@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ABCore"
+title: ABCore
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.greenaddress.abcore
 appCountry: 
 released: 
 updated: 2019-10-16
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: obsolete
 verdict: reproducible
 date: 2021-10-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.greenaddress.abcore/
-  - /posts/com.greenaddress.abcore/
+- /com.greenaddress.abcore/
+- /posts/com.greenaddress.abcore/
+
 ---
 
 This app is a full node for Android, so running it on your phone is probably

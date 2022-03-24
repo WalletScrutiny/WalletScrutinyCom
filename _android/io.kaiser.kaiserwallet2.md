@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "KaiserWallet2 - Cold wallet, Hardware wallet"
+title: KaiserWallet2 - Cold wallet, Hardware wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: io.kaiser.kaiserwallet2
 appCountry: 
 released: 2018-10-03
 updated: 2020-02-28
-version: "2.9.10"
+version: 2.9.10
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2022-02-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

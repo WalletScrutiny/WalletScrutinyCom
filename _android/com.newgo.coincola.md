@@ -1,6 +1,6 @@
 ---
 wsId: coincola
-title: "CoinCola - Buy Bitcoin & more"
+title: CoinCola - Buy Bitcoin & more
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.newgo.coincola
 appCountry: 
 released: 2017-07-07
 updated: 2022-02-07
-version: "4.9.12"
+version: 4.9.12
 stars: 3.18
 ratings: 1597
 reviews: 79
@@ -23,14 +23,15 @@ meta: ok
 verdict: custodial
 date: 2020-12-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCola_Global
 social:
-  - https://www.linkedin.com/company/coincola
-  - https://www.facebook.com/CoinCola
-  - https://www.reddit.com/r/coincolaofficial
+- https://www.linkedin.com/company/coincola
+- https://www.facebook.com/CoinCola
+- https://www.reddit.com/r/coincolaofficial
 redirect_from:
-  - /com.newgo.coincola/
+- /com.newgo.coincola/
+
 ---
 
 > SAFE AND SECURE<br>

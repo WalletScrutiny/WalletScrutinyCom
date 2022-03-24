@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: "AML Safe Wallet — Buy & Sell Bitcoin with AML"
+title: AML Safe Wallet — Buy & Sell Bitcoin with AML
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
 updated: 2022-03-07
-version: "1.30.61"
+version: 1.30.61
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-04-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > AMLSafe is a cutting edge crypto wallet with fiat pairs and an instant

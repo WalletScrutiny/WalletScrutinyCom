@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Aladdin Wallet"
+title: Aladdin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.abbc.abbcmobile
 appCountry: 
 released: 2019-08-08
 updated: 2020-03-24
-version: "1.3.3"
+version: 1.3.3
 stars: 4
 ratings: 629
 reviews: 7
@@ -19,13 +18,14 @@ repository:
 issue: 
 icon: com.abbc.abbcmobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-01
+date: 2022-03-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

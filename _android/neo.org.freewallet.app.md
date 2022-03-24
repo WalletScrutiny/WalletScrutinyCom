@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "NEO Wallet. Send & buy crypto"
+title: NEO Wallet. Send & buy crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appId: neo.org.freewallet.app
 appCountry: 
 released: 2017-11-29
 updated: 2021-09-20
-version: "2.6.8"
+version: 2.6.8
 stars: 3.08
 ratings: 281
 reviews: 17
@@ -26,14 +26,15 @@ date: 2021-10-04
 signer: 
 reviewArchive:
 - date: 2021-05-02
-  version: "2.5.2"
+  version: 2.5.2
   appHash: 
   gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
   verdict: nobtc
 twitter: freewalletorg
 social:
-  - https://www.facebook.com/freewallet.org
-redirect_from:
+- https://www.facebook.com/freewallet.org
+redirect_from: 
+
 ---
 
 ### App Description

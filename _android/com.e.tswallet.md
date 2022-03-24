@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Safesmart: Crypto & Bitcoin Wallet (Early Access)"
+title: 'Safesmart: Crypto & Bitcoin Wallet (Early Access)'
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.e.tswallet
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20
-version: "1.0"
+version: '1.0'
 stars: 4.9
 ratings: 9
 reviews: 3
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-30**: This app is no more.

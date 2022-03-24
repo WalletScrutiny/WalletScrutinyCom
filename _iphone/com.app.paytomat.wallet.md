@@ -1,6 +1,6 @@
 ---
 wsId: paytomat
-title: "Paytomat Wallet"
+title: Paytomat Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1415300709
 released: 2018-08-12
 updated: 2021-02-03
-version: "1.37.2"
+version: 1.37.2
 stars: 4.40909
 reviews: 22
-size: 65810432
+size: '65810432'
 website: https://paytomat.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: stale
 verdict: nosource
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paytomat
 social:
-  - https://www.linkedin.com/company/11433285
-  - https://www.facebook.com/paytomat
+- https://www.linkedin.com/company/11433285
+- https://www.facebook.com/paytomat
+
 ---
 
 {% include copyFromAndroid.html %}

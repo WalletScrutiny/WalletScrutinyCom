@@ -1,6 +1,6 @@
 ---
 wsId: fxcoinpro
-title: "FX Coin"
+title: FX Coin
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: ru
 idd: 1282340909
 released: 2017-11-03
 updated: 2021-10-18
-version: "1.11.2"
+version: 1.11.2
 stars: 3.52217
 reviews: 203
 size: 124170240
@@ -24,12 +24,13 @@ date: 2021-10-20
 signer: 
 reviewArchive:
 - date: 2021-09-03
-  version: "1.11"
+  version: '1.11'
   appHash: 
   gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
   verdict: nowallet
 twitter: 
-social:
+social: 
+
 ---
 
 **Update 2022-01-04**

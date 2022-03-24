@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "MandgWallet"
+title: MandgWallet
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: com.rpsoft.mandgwalletapp
 appCountry: 
 released: 2021-03-29
 updated: 2021-03-29
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

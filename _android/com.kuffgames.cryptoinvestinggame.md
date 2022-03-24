@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Crypto Investment Simulation"
+title: Crypto Investment Simulation
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.kuffgames.cryptoinvestinggame
 appCountry: 
 released: 2021-07-08
 updated: 2021-07-31
-version: "1.1"
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

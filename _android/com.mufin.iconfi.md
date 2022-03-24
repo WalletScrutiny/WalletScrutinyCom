@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: "ICONFi"
+title: ICONFi
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mufin.iconfi
 appCountry: 
 released: 2021-01-27
 updated: 2022-01-11
-version: "1.0.5"
+version: 1.0.5
 stars: 4.59375
 ratings: 220
 reviews: 20
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ICONFiWorld
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

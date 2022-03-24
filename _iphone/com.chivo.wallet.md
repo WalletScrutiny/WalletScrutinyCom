@@ -1,6 +1,6 @@
 ---
 wsId: ChivoWallet
-title: "Chivo Wallet"
+title: Chivo Wallet
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: sv
 idd: 1581515981
 released: 2021-09-07
 updated: 2021-12-15
-version: "2.0"
-stars: 2.58063
-reviews: 3882
-size: 51647488
+version: '2.0'
+stars: 2.58154
+reviews: 3900
+size: '51647488'
 website: https://chivowallet.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: obfuscated
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: chivowallet
 social:
-  - https://www.facebook.com/ChivoWalletSLV
+- https://www.facebook.com/ChivoWalletSLV
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "eBitcoinics Inc - Simplified gateway to blockchain"
+title: eBitcoinics Inc - Simplified gateway to blockchain
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.ebitconics.com
 appCountry: 
 released: 2021-01-18
 updated: 2021-01-18
-version: "0.0.2"
+version: 0.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: nowallet
 date: 2022-01-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: eBitcoinics
 social:
-  - https://www.facebook.com/eBitcoinics
-redirect_from:
+- https://www.facebook.com/eBitcoinics
+redirect_from: 
+
 ---
 
 ## App Description

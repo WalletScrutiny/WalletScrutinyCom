@@ -1,6 +1,6 @@
 ---
 wsId: hebeWallet
-title: "Hebe Wallet"
+title: Hebe Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.hebeblock.hebewallet
 appCountry: us
 released: 2019-03-04
 updated: 2022-03-04
-version: "1.4.80"
+version: 1.4.80
 stars: 3.4
 ratings: 35
 reviews: 3
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-01-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BlockHebe
-social:
+social: 
 redirect_from:
-  - /posts/com.hebeblock.hebewallet/
+- /posts/com.hebeblock.hebewallet/
+
 ---
 
 In the description the provider claims:

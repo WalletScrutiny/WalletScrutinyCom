@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Skywallet"
+title: Skywallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: skywallet.net
 appCountry: 
 released: 2020-05-11
 updated: 2020-05-11
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

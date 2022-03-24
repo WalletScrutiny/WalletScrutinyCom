@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: "Huobi - Buy & Sell Bitcoin"
+title: Huobi - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2022-03-06
-version: "6.8.3"
-stars: 4.53383
-reviews: 2231
-size: 339548160
+updated: 2022-03-20
+version: 6.8.5
+stars: 4.51926
+reviews: 2155
+size: '361535488'
 website: http://www.hbg.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: HuobiGlobal
 social:
-  - https://www.facebook.com/huobiglobalofficial
+- https://www.facebook.com/huobiglobalofficial
+
 ---
 
 Neither on Google Play nor on their website can we find a claim of a

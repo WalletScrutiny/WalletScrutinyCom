@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: "CoinSwitch: Bitcoin Crypto App"
+title: 'CoinSwitch: Bitcoin Crypto App'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.coinswitch.kuber
 appCountry: in
 released: 2020-05-31
 updated: 2022-03-08
-version: "3.8.1"
-stars: 4.249189
+version: 3.8.3
+stars: 4.2443037
 ratings: 413931
-reviews: 124493
+reviews: 126014
 size: Varies with device
 website: https://coinswitch.co/in
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinSwitchKuber
 social:
-  - https://www.linkedin.com/company/coinswitch
-  - https://www.facebook.com/coinswitch
-redirect_from:
+- https://www.linkedin.com/company/coinswitch
+- https://www.facebook.com/coinswitch
+redirect_from: 
+
 ---
 
 ## App Description

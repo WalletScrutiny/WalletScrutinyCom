@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Kurepay Wallet"
+title: Kurepay Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.kurewallet
 appCountry: 
 released: 2018-10-03
 updated: 2021-02-18
-version: "2.6.6"
+version: 2.6.6
 stars: 4.1
 ratings: 85
 reviews: 66
@@ -23,10 +23,11 @@ meta: defunct
 verdict: wip
 date: 2021-07-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app is no more. Our update script didn't get any data from Play Store since

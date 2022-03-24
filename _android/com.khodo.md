@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Khodo: Buy Bitcoin and Cryptocurrency in Malawi"
+title: 'Khodo: Buy Bitcoin and Cryptocurrency in Malawi'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.khodo
 appCountry: 
 released: 2020-10-02
 updated: 2021-08-12
-version: "2.0.2"
+version: 2.0.2
 stars: 3.5
 ratings: 54
 reviews: 41
@@ -23,11 +23,12 @@ meta: defunct
 verdict: nowallet
 date: 2022-02-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: buymalawi
 social:
-  - https://www.facebook.com/buybitcoinmalawi
-redirect_from:
+- https://www.facebook.com/buybitcoinmalawi
+redirect_from: 
+
 ---
 
 **Update 2022-01-28**: This app is not in store anymore.

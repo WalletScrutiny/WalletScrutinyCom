@@ -1,6 +1,6 @@
 ---
-wsId: cryptotab
-title: "CryptoTab Farm: Digital Gold"
+wsId: 
+title: 'CryptoTab Farm: Digital Gold'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.cryptofarm
 appCountry: 
 released: 2021-06-10
-updated: 2022-03-05
-version: "1.0.241"
-stars: 4.1485147
+updated: 2022-03-21
+version: 1.0.252
+stars: 4.3267326
 ratings: 6172
-reviews: 180
+reviews: 194
 size: 34M
 website: https://cryptotab.farm/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CryptoTabnet
 social:
-  - https://www.facebook.com/CryptoTabFarm
-redirect_from:
+- https://www.facebook.com/CryptoTabFarm
+redirect_from: 
+
 ---
 
 ## Google Play Critical Reviews

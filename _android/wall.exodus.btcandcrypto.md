@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "EXODUS CRYPTO BTC ETH WALLET TRX USDT"
-altTitle: "(Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT"
+title: EXODUS CRYPTO BTC ETH WALLET TRX USDT
+altTitle: (Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: wall.exodus.btcandcrypto
 appCountry: 
 released: 2021-07-16
 updated: 2021-07-16
-version: "6.045"
+version: '6.045'
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-08-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-08-04**: This app disappeared from the Play Store 2 days after our

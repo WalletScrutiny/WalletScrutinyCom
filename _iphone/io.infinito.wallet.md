@@ -1,6 +1,6 @@
 ---
 wsId: InfinitoWallet
-title: "Infinito Wallet - Crypto Safe"
+title: Infinito Wallet - Crypto Safe
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.infinito.wallet
 appCountry: 
 idd: 1315572736
 released: 2018-01-17
-updated: 2022-02-22
-version: "2.36.6"
+updated: 2022-03-14
+version: 2.36.7
 stars: 4.15301
 reviews: 183
-size: 106815488
+size: '106815488'
 website: https://www.infinitowallet.io
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: nosource
 date: 2021-05-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Infinito_Ltd
 social:
-  - https://www.linkedin.com/company/infinitoservices
-  - https://www.facebook.com/InfinitoWallet
+- https://www.linkedin.com/company/infinitoservices
+- https://www.facebook.com/InfinitoWallet
+
 ---
 
 Right on the App Store description we find:

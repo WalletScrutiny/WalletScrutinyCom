@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "NF35 - Buy Crypto Securely"
+title: NF35 - Buy Crypto Securely
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: cn.com.zlct.nf
 appCountry: 
 released: 2021-06-10
 updated: 2021-08-30
-version: "2.1.3"
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <div class="alertBox"><div>

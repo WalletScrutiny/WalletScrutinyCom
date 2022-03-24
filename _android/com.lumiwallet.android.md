@@ -1,6 +1,6 @@
 ---
 wsId: LumiWallet
-title: "Lumi Crypto Bitcoin Wallet"
+title: Lumi Crypto Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.lumiwallet.android
 appCountry: 
 released: 2018-01-15
 updated: 2022-01-04
-version: "4.1.4"
+version: 4.1.4
 stars: 4.540761
 ratings: 6388
 reviews: 272
@@ -23,13 +23,14 @@ meta: ok
 verdict: nosource
 date: 2021-06-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Lumi_wallet
 social:
-  - https://www.facebook.com/lumiwallet
+- https://www.facebook.com/lumiwallet
 redirect_from:
-  - /com.lumiwallet.android/
-  - /posts/com.lumiwallet.android/
+- /com.lumiwallet.android/
+- /posts/com.lumiwallet.android/
+
 ---
 
 **Update 2021-06-16**: Something weird is going on. Apparently there are three

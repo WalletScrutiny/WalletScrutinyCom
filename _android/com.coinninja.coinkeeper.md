@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "DropBit: Bitcoin Wallet"
+title: 'DropBit: Bitcoin Wallet'
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.coinninja.coinkeeper
 appCountry: 
 released: 2018-08-01
 updated: 2020-01-28
-version: "3.2.7"
+version: 3.2.7
 stars: 2.3
 ratings: 205
 reviews: 149
@@ -23,16 +22,17 @@ meta: defunct
 verdict: nonverifiable
 date: 2021-07-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dropbitapp
 social:
-  - https://www.facebook.com/DropBit-2094204254174419
-  - https://www.reddit.com/r/DropBit
+- https://www.facebook.com/DropBit-2094204254174419
+- https://www.reddit.com/r/DropBit
 redirect_from:
-  - /dropbit/
-  - /com.coinninja.coinkeeper/
-  - /posts/2019/11/dropbit/
-  - /posts/com.coinninja.coinkeeper/
+- /dropbit/
+- /com.coinninja.coinkeeper/
+- /posts/2019/11/dropbit/
+- /posts/com.coinninja.coinkeeper/
+
 ---
 
 **Update 2021-07-21**: Our issues on the repository got no reply, the server's

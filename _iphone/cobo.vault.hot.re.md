@@ -1,6 +1,6 @@
 ---
 wsId: CoboVault
-title: "Cobo Vault"
+title: Cobo Vault
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1483305773
 released: 2020-04-01
 updated: 2021-03-24
-version: "2.2.6"
+version: 2.2.6
 stars: 3.5
 reviews: 12
 size: 40467456
@@ -22,11 +22,12 @@ meta: defunct
 verdict: wip
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cobo_Wallet
 social:
-  - https://www.linkedin.com/company/cobo-official
-  - https://www.facebook.com/coboOfficial
+- https://www.linkedin.com/company/cobo-official
+- https://www.facebook.com/coboOfficial
+
 ---
 
 {% include copyFromAndroid.html %}

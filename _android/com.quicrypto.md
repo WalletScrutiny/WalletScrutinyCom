@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Quicrypto: Earn Crypto & Free Bitcoin"
+title: 'Quicrypto: Earn Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 100000
 appId: com.quicrypto
 appCountry: 
 released: 2019-11-12
-updated: 2021-12-02
-version: "3.21.0"
-stars: 3.8
+updated: 2022-03-16
+version: 3.21.0
+stars: 3.76
 ratings: 4934
-reviews: 433
+reviews: 434
 size: 26M
 website: http://www.quicrypto.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-06-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: quicrypto
 social:
-  - https://www.facebook.com/Quicrypto
-redirect_from:
+- https://www.facebook.com/Quicrypto
+redirect_from: 
+
 ---
 
 **Update 2021-06-21**: This app is not a wallet.

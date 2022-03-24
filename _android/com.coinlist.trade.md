@@ -1,6 +1,6 @@
 ---
 wsId: CoinList
-title: "CoinList"
+title: CoinList
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.coinlist.trade
 appCountry: us
 released: 2020-08-10
 updated: 2021-12-06
-version: "2.0.8"
-stars: 2.57
+version: 2.0.8
+stars: 2.58
 ratings: 4377
 reviews: 180
 size: 5.8M
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinlist
 social:
-  - https://www.facebook.com/CoinListOfficial
-redirect_from:
+- https://www.facebook.com/CoinListOfficial
+redirect_from: 
+
 ---
 
 ## App Description

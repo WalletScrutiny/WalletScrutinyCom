@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Kesem - Secured Crypto Wallet for Bitcoin"
+title: Kesem - Secured Crypto Wallet for Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.kesemwalletapp
 appCountry: 
 released: 2019-01-09
 updated: 2019-05-15
-version: "2.17"
+version: '2.17'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

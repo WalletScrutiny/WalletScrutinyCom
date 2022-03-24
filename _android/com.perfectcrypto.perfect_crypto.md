@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "صرافی آنلاین پرفکت کریپتو"
+title: صرافی آنلاین پرفکت کریپتو
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.perfectcrypto.perfect_crypto
 appCountry: 
 released: 2020-11-09
 updated: 2022-01-25
-version: "1.1.6"
-stars: 4.6271186
+version: 1.1.6
+stars: 4.645161
 ratings: 809
 reviews: 28
 size: 30M
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: irPerfectCrypto
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This appears to be a centralized cryptocurrency exchange whose primary language is Persian. 

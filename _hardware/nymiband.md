@@ -1,5 +1,5 @@
 ---
-title: "Nymi Band"
+title: Nymi Band
 appId: nymiband
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Nymi Inc."
+provider: Nymi Inc.
 providerWebsite: https://nymi.com
 website: https://web.archive.org/web/20200512054026/https://getnymi.com/our_story
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 Bionym [rebranded into Nymi in 2014](https://archive.canadianbusiness.com/technology-news/whats-in-a-name-bionym-rebrands-itself-as-nymi/). The company's focus was on wearable biometric devices that authenticated users for various purposes. 

@@ -1,5 +1,5 @@
 ---
-title: "Storecold"
+title: Storecold
 appId: storecold
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Storecold"
+provider: Storecold
 providerWebsite: 
 website: https://www.storecold.io/
 shop: https://www.storecold.io/checkout.html
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## General Overview

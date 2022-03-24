@@ -1,5 +1,5 @@
 ---
-title: "Keepser"
+title: Keepser
 appId: keepser
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Keepser Group"
+provider: Keepser Group
 providerWebsite: 
 website: https://www.keepser.com/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: keepser
 social: 
+
 ---
 
 Keepser was [first made known via its twitter](https://twitter.com/keepser/status/1340752885420875779) account on December 21, 2020.

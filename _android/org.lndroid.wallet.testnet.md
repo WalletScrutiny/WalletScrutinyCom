@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Lndroid.Wallet Testnet"
+title: Lndroid.Wallet Testnet
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: org.lndroid.wallet.testnet
 appCountry: 
 released: 2020-03-23
 updated: 2020-04-14
-version: "0.1.6-testnet"
+version: 0.1.6-testnet
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

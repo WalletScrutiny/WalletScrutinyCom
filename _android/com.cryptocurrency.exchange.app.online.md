@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Crypto Exchange - Trade Crypto Instantly"
+title: Crypto Exchange - Trade Crypto Instantly
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.cryptocurrency.exchange.app.online
 appCountry: 
 released: 2021-05-20
 updated: 2021-05-20
-version: "1.0"
+version: '1.0'
 stars: 4.6534653
 ratings: 151
 reviews: 145
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ⚠️ **Warning:** This app has a generic sounding name: "Crypto Exchange". Since it is not mimicking any well known exchange in logo or name, it can't be the fake of something else. Its primary focus is that it's a referral.

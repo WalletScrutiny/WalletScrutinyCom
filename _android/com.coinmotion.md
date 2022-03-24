@@ -1,6 +1,6 @@
 ---
 wsId: Coinmotion
-title: "Coinmotion: Crypto Investing"
+title: 'Coinmotion: Crypto Investing'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
 updated: 2022-02-28
-version: "1.6.5"
+version: 1.6.5
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Coinmotion
 social:
-  - https://www.linkedin.com/company/coinmotion
-  - https://www.facebook.com/coinmotion
-redirect_from:
+- https://www.linkedin.com/company/coinmotion
+- https://www.facebook.com/coinmotion
+redirect_from: 
+
 ---
 
 ## App Description

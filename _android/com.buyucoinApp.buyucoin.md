@@ -1,6 +1,6 @@
 ---
 wsId: buyucoin
-title: "BuyUcoin: Bitcoin & Crypto App"
+title: 'BuyUcoin: Bitcoin & Crypto App'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: com.buyucoinApp.buyucoin
 appCountry: 
 released: 2019-02-15
-updated: 2022-01-27
-version: "3.25"
+updated: 2022-03-19
+version: '3.26'
 stars: 4
 ratings: 3529
 reviews: 12
-size: 36M
+size: 44M
 website: https://www.buyucoin.com
 repository: 
 issue: 
@@ -23,15 +23,16 @@ meta: ok
 verdict: custodial
 date: 2021-05-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: buyucoin
 social:
-  - https://www.linkedin.com/company/buyucoin
-  - https://www.facebook.com/BuyUcoin
-  - https://www.reddit.com/r/BuyUcoin
+- https://www.linkedin.com/company/buyucoin
+- https://www.facebook.com/BuyUcoin
+- https://www.reddit.com/r/BuyUcoin
 redirect_from:
-  - /com.buyucoinApp.buyucoin/
-  - /posts/com.buyucoinApp.buyucoin/
+- /com.buyucoinApp.buyucoin/
+- /posts/com.buyucoinApp.buyucoin/
+
 ---
 
 On the App Store, 4 of 6 ratings are 1-star. On the Play Store the average

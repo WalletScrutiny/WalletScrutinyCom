@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: "Crypto.com - Buy Bitcoin,Ether"
+title: Crypto.com - Buy Bitcoin,Ether
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2022-03-07
-version: "3.130"
-stars: 4.25674
-reviews: 69850
-size: 217071616
+updated: 2022-03-22
+version: 3.131.1
+stars: 4.27592
+reviews: 73493
+size: '272658432'
 website: https://crypto.com/
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cryptocom
 social:
-  - https://www.linkedin.com/company/cryptocom
-  - https://www.facebook.com/CryptoComOfficial
-  - https://www.reddit.com/r/Crypto_com
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
+
 ---
 
 {% include copyFromAndroid.html %}

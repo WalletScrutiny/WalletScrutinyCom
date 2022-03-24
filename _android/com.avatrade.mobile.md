@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Avatrade: Forex & CFD Trading"
+title: Avatrade - Trade Forex & CFDs
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
 updated: 2022-03-03
-version: "100.5"
+version: '100.5'
 stars: 4.266667
 ratings: 9327
 reviews: 7
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AvaTrade
 social:
-  - https://www.linkedin.com/company/AvaTrade
-  - https://www.facebook.com/AvaTrade
-redirect_from:
+- https://www.linkedin.com/company/AvaTrade
+- https://www.facebook.com/AvaTrade
+redirect_from: 
+
 ---
 
 >AvaTradeGO enables users to trade, monitor their accounts, engage in social trading and follow top traders from all over the globe.

@@ -1,6 +1,6 @@
 ---
 wsId: MobiWallet
-title: "Mobi - Crypto Asset Wallet"
+title: Mobi - Crypto Asset Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.btcc.mobiwallet
 appCountry: au
 released: 2019-03-28
 updated: 2021-05-20
-version: "2.32.2"
+version: 2.32.2
 stars: 3.6
 ratings: 27
 reviews: 19
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mobimeglobal
 social:
-  - https://www.facebook.com/mobimeglobal
-redirect_from:
+- https://www.facebook.com/mobimeglobal
+redirect_from: 
+
 ---
 
 **Update 2021-12-06**: This app is gone from the Google Play Store. In the Apple App Store, while not available for Australia anymore, it is now available in the US.

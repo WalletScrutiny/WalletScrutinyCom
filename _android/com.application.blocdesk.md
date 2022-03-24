@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "VelcomEx - The Leading P2P Cryptocurrency Exchange"
+title: VelcomEx - The Leading P2P Cryptocurrency Exchange
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.application.blocdesk
 appCountry: 
 released: 2020-02-05
 updated: 2020-03-03
-version: "1.1.5"
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-02-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

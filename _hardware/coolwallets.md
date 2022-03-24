@@ -1,5 +1,5 @@
 ---
-title: "CoolWallet S"
+title: CoolWallet S
 appId: coolwallets
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 0.8]
+dimensions:
+- 54
+- 85
+- 0.8
 weight: 6
-provider: "CoolBitX"
+provider: CoolBitX
 providerWebsite: https://coolbitx.com/
 website: https://www.coolwallet.io/coolwallet_s
 shop: https://www.coolwallet.io/product/coolwallet/
@@ -27,8 +30,9 @@ date: 2021-12-08
 signer: 
 reviewArchive: 
 twitter: coolwallet
-social: 
-  - https://www.facebook.com/coolwallet
+social:
+- https://www.facebook.com/coolwallet
+
 ---
 
 ## Update Verdict 2021-12-08

@@ -1,6 +1,6 @@
 ---
 wsId: kucoin
-title: "KuCoin: BTC, Crypto exchange"
+title: 'KuCoin: BTC, Crypto exchange'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 5000000
 appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
-updated: 2022-02-26
-version: "3.51.0"
-stars: 4.3257403
+updated: 2022-03-10
+version: 3.52.0
+stars: 4.370737
 ratings: 72555
-reviews: 2483
-size: 68M
+reviews: 2589
+size: 79M
 website: https://www.kucoin.com
 repository: 
 issue: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-02-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KuCoinCom
 social:
-  - https://www.linkedin.com/company/kucoin
-  - https://www.facebook.com/KuCoinOfficial
-  - https://www.reddit.com/r/kucoin
-redirect_from:
+- https://www.linkedin.com/company/kucoin
+- https://www.facebook.com/KuCoinOfficial
+- https://www.reddit.com/r/kucoin
+redirect_from: 
+
 ---
 
 > KuCoin is the most popular bitcoin exchange that you can buy and sell bitcoin

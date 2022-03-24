@@ -1,6 +1,6 @@
 ---
 wsId: Trade360
-title: "Trade360"
+title: Trade360
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.trade360
 appCountry: gb
 released: 2015-06-18
 updated: 2022-03-08
-version: "7.1.6"
+version: 7.1.6
 stars: 2.7468355
 ratings: 1438
 reviews: 59
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Trade360_LTD
 social:
-  - https://www.linkedin.com/company/trade360ltd
-  - https://www.facebook.com/Trade360LTD
-redirect_from:
+- https://www.linkedin.com/company/trade360ltd
+- https://www.facebook.com/Trade360LTD
+redirect_from: 
+
 ---
 
 ## App Description

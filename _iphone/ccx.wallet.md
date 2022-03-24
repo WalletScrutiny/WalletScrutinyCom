@@ -1,6 +1,6 @@
 ---
 wsId: ccwallet
-title: "CCWallet: Your Bitcoin Wallet"
+title: 'CCWallet: Your Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appCountry:
 idd: 1463774169
 released: 2019-06-21
 updated: 2020-07-30
-version: "1.1"
+version: '1.1'
 stars: 4.41176
 reviews: 17
 size: 28720128
@@ -23,11 +23,12 @@ meta: defunct
 verdict: ftbfs
 date: 2021-09-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCasso
 social:
-  - https://www.linkedin.com/company/coincasso
-  - https://www.facebook.com/ccwallet.mobileapp
+- https://www.linkedin.com/company/coincasso
+- https://www.facebook.com/ccwallet.mobileapp
+
 ---
 
 **Update 2021-09-11**: This app is not on the App Store anymore.

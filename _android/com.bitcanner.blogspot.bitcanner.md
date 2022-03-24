@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcanner"
+title: Bitcanner
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.bitcanner.blogspot.bitcanner
 appCountry: 
 released: 2019-11-03
 updated: 2021-09-29
-version: "3.20.0.51"
-stars: 4.4
+version: 3.20.0.51
+stars: 4.419355
 ratings: 69
 reviews: 23
 size: 19M
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Note:** This app is very suspicious and may not be safe to use!

@@ -1,6 +1,6 @@
 ---
 wsId: AMarkets
-title: "AMarkets - Trading & Investing"
+title: AMarkets - Trading & Investing
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.amarkets
 appCountry: us
 released: 2019-05-31
-updated: 2022-03-08
-version: "Varies with device"
-stars: 4.56
+updated: 2022-03-17
+version: Varies with device
+stars: 4.57
 ratings: 2509
-reviews: 21
+reviews: 23
 size: Varies with device
 website: https://www.amarkets.com
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.linkedin.com/company/amarkets
-  - https://www.facebook.com/AMarketsFirm
-redirect_from:
+- https://www.linkedin.com/company/amarkets
+- https://www.facebook.com/AMarketsFirm
+redirect_from: 
+
 ---
 
 ## App Description

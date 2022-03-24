@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Kripto Future"
+title: Kripto Future
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.kriptofuture
 appCountry: 
 released: 2021-07-27
 updated: 2021-07-30
-version: "Version 16"
-stars: 3.5
+version: Version 16
+stars: 3.2222223
 ratings: 183
-reviews: 6
+reviews: 7
 size: 29M
 website: https://kriptofuture.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/Kriptofuture
-redirect_from:
+- https://www.facebook.com/Kriptofuture
+redirect_from: 
+
 ---
 
 **⚠️ Warning ⚠️** 

@@ -1,6 +1,6 @@
 ---
 wsId: flybit
-title: "플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소"
+title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.flybit.app
 appCountry: us
 released: 2021-02-04
-updated: 2022-03-03
-version: "1.9.9"
+updated: 2022-03-23
+version: 1.10.1
 stars: 
 ratings: 
 reviews: 
-size: 8.6M
+size: 8.7M
 website: https://flybit.com
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/flybit.exchange
-redirect_from:
+- https://www.facebook.com/flybit.exchange
+redirect_from: 
+
 ---
 
 ### Google Play

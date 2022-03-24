@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitBoxApp"
+title: BitBoxApp
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: ch.shiftcrypto.bitboxapp
 appCountry: 
 released: 2020-07-13
-updated: 2022-02-08
-version: "android-4.31.1"
+updated: 2022-03-16
+version: android-4.32.0
 stars: 4.428571
 ratings: 83
 reviews: 3
@@ -23,12 +22,13 @@ meta: ok
 verdict: nowallet
 date: 2021-01-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ShiftCryptoHQ
 social:
-  - https://www.linkedin.com/company/shift-crypto
-  - https://www.facebook.com/Shiftcrypto
-redirect_from:
+- https://www.linkedin.com/company/shift-crypto
+- https://www.facebook.com/Shiftcrypto
+redirect_from: 
+
 ---
 
 The description of this app reads:

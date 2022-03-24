@@ -1,6 +1,6 @@
 ---
 wsId: paypal
-title: "PayPal - Send, Shop, Manage"
+title: PayPal - Send, Shop, Manage
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
 released: 2019-02-03
-updated: 2022-03-07
-version: "8.12.0"
-stars: 4.81314
-reviews: 6048186
-size: 334838784
+updated: 2022-03-17
+version: 8.12.1
+stars: 4.81271
+reviews: 6051047
+size: '334834688'
 website: https://www.paypal.com/mobile
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-08-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: PayPal
 social:
-  - https://www.linkedin.com/company/paypal
-  - https://www.facebook.com/PayPal
-  - https://www.reddit.com/r/paypal
+- https://www.linkedin.com/company/paypal
+- https://www.facebook.com/PayPal
+- https://www.reddit.com/r/paypal
+
 ---
 
 PayPal was one of the more hostile companies towards Bitcoin, so it was some

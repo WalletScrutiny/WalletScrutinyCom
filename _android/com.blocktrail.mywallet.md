@@ -1,15 +1,14 @@
 ---
 wsId: btcCom
-title: "BTC.com - Bitcoin Wallet"
+title: BTC.com - Bitcoin Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000000
 appId: com.blocktrail.mywallet
 appCountry: 
 released: 2015-09-09
 updated: 2019-04-03
-version: "4.4.7"
+version: 4.4.7
 stars: 3.4
 ratings: 8291
 reviews: 3928
@@ -23,11 +22,12 @@ meta: defunct
 verdict: ftbfs
 date: 2021-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btccom_official
 social:
-  - https://www.facebook.com/btccom
-redirect_from:
+- https://www.facebook.com/btccom
+redirect_from: 
+
 ---
 
 This app claims:

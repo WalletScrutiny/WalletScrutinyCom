@@ -1,6 +1,6 @@
 ---
 wsId: BBX
-title: "BBX-Cryptocurrency Index Trading (Bitcoin,ETH,EOS)"
+title: BBX-Cryptocurrency Index Trading (Bitcoin,ETH,EOS)
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bbx.bmtc
 appCountry: us
 released: 2018-04-25
 updated: 2021-05-26
-version: "1.3.1"
+version: 1.3.1
 stars: 4.2
 ratings: 129
 reviews: 63
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-26**: This app is no more.

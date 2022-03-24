@@ -1,5 +1,5 @@
 ---
-title: "KeyCard"
+title: KeyCard
 appId: keycard
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 1]
+dimensions:
+- 54
+- 85
+- 1
 weight: 10
-provider: "KeyCard"
+provider: KeyCard
 providerWebsite: https://keycard.tech
 website: https://keycard.tech
 shop: https://get.keycard.tech/
@@ -28,6 +31,7 @@ signer:
 reviewArchive: 
 twitter: Keycard_
 social: 
+
 ---
 
 ## Addendum

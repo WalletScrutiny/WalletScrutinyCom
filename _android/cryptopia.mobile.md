@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CryptoPia"
+title: CryptoPia
 altTitle: 
-authors:
-
+authors: 
 users: 5000
 appId: cryptopia.mobile
 appCountry: 
 released: 2019-09-05
 updated: 2019-09-08
-version: "1.0.2"
+version: 1.0.2
 stars: 1.8571428
 ratings: 30
 reviews: 3
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-08-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

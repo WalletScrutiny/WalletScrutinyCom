@@ -1,5 +1,5 @@
 ---
-title: "Chainlock"
+title: Chainlock
 appId: chainlock
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "YOUNIQX"
+provider: YOUNIQX
 providerWebsite: https://www.youniqx.com/en/
 website: https://youniqx.com/en/chainlock-cold-offline-wallet/
 shop: https://www.cardwallet.com/en/product/card-wallet-bitcoin/
@@ -26,9 +26,10 @@ date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: youniqx
-social: 
-  - https://www.linkedin.com/company/youniqx-identity-ag
-  - https://www.facebook.com/YOUNIQXbyOeSD
+social:
+- https://www.linkedin.com/company/youniqx-identity-ag
+- https://www.facebook.com/YOUNIQXbyOeSD
+
 ---
 
 Chainlock is a card wallet that can be kept or passed on from one user to another. It also advertises that it is "100% offline"

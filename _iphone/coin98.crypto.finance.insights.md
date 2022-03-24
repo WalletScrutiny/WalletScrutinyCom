@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: "Coin98 Finance"
+title: Coin98 Finance
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: coin98.crypto.finance.insights
 appCountry: us
 idd: 1561969966
 released: 2021-05-14
-updated: 2022-03-03
-version: "11.3.2"
-stars: 4.59783
-reviews: 552
-size: 88425472
+updated: 2022-03-22
+version: 11.5.1
+stars: 4.58983
+reviews: 551
+size: '87141376'
 website: https://coin98.com
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coin98_wallet
 social:
-  - https://www.facebook.com/Coin98Wallet
+- https://www.facebook.com/Coin98Wallet
+
 ---
 
 {% include copyFromAndroid.html %}

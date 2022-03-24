@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bitcoin Future"
+title: Bitcoin Future
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: com.bitcoinfuture.bitcoinfuture
 appCountry: 
 released: 2019-05-05
 updated: 2019-10-31
-version: "1.2"
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: wip
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

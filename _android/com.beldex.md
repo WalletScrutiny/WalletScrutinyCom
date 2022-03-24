@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Beldex"
+title: Beldex
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.beldex
 appCountry: 
 released: 
 updated: 2021-04-14
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: defunct
 verdict: nobtc
 date: 2021-11-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: beldexcoin
 social:
-  - https://www.linkedin.com/company/beldex-coin
-  - https://www.facebook.com/beldexofficial
-redirect_from:
+- https://www.linkedin.com/company/beldex-coin
+- https://www.facebook.com/beldexofficial
+redirect_from: 
+
 ---
 
 **Update 2021-11-16**: This app is not on Play Store anymore.

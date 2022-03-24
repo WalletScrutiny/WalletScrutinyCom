@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Binance JEX - Bitcoin Futures&Options Exchange"
+title: Binance JEX - Bitcoin Futures&Options Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.jex.trade
 appCountry: 
 released: 2019-04-25
 updated: 2021-10-25
-version: "2.8.4"
+version: 2.8.4
 stars: 3.6
 ratings: 1476
 reviews: 713
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-01-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-01-15**: This app is not on the Store anymore.

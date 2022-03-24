@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Poolin"
+title: Poolin
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.blockin.google
 appCountry: 
 released: 2020-03-12
 updated: 2022-02-10
-version: "3.4.3"
-stars: 4.285714
+version: 3.4.3
+stars: 4.282051
 ratings: 764
 reviews: 25
 size: 40M
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: officialpoolin
 social:
-  - https://www.linkedin.com/company/poolin
-  - https://www.facebook.com/poolinpool
-redirect_from:
+- https://www.linkedin.com/company/poolin
+- https://www.facebook.com/poolinpool
+redirect_from: 
+
 ---
 
 The Poolin Mining Pool app is created by Poolin, an enterprise that engages in cryptocurrency mining pool services.

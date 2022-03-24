@@ -1,6 +1,6 @@
 ---
 wsId: BizzCoin
-title: "BizzCoin Wallet"
+title: BizzCoin Wallet
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.BizzCoin
 appCountry: in
 released: 2020-01-02
 updated: 2021-10-28
-version: "1.21"
+version: '1.21'
 stars: 4.75
 ratings: 491
 reviews: 13
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bizz_coin
 social:
-  - https://www.facebook.com/BizzCoinOfficial
-redirect_from:
+- https://www.facebook.com/BizzCoinOfficial
+redirect_from: 
+
 ---
 
 ### Google Play

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ZENIQ App"
+title: ZENIQ App
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.zeniq.wallet
 appCountry: 
 released: 
-updated: 2022-03-09
-version: "Varies with device"
+updated: 2022-03-22
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,15 +23,16 @@ meta: ok
 verdict: nosource
 date: 2022-03-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Zeniq_tech
 social:
-  - https://www.linkedin.com/company/zeniq-hub/
-  - https://www.facebook.com/ZENIQTech
-  - https://www.instagram.com/zeniq_tech/
-  - https://www.youtube.com/ZENIQTech
-  - https://t.me/zeniq_hub
-redirect_from:
+- https://www.linkedin.com/company/zeniq-hub/
+- https://www.facebook.com/ZENIQTech
+- https://www.instagram.com/zeniq_tech/
+- https://www.youtube.com/ZENIQTech
+- https://t.me/zeniq_hub
+redirect_from: 
+
 ---
 
 ## App Description 

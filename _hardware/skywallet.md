@@ -1,5 +1,5 @@
 ---
-title: "Skywallet"
+title: Skywallet
 appId: skywallet
 authors:
 - kiwilamb
@@ -11,13 +11,13 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Skycoin"
+provider: Skycoin
 providerWebsite: https://www.skycoin.com/
 website: https://www.skycoin.com/skywallet/
 shop: https://store.skycoin.com/products/skywallet
 country: 
 price: 39USD
-repository: https://github.com/skycoinproject
+repository: 
 issue: 
 icon: skywallet.png
 bugbounty: 
@@ -27,9 +27,11 @@ date: 2021-12-10
 signer: 
 reviewArchive: 
 twitter: skycoinproject
-social: 
-  - https://www.linkedin.com/company/skycoin
-  - https://www.facebook.com/SkycoinOfficial
+social:
+- https://www.linkedin.com/company/skycoin
+- https://www.facebook.com/SkycoinOfficial
+- https://github.com/skycoinproject
+
 ---
 
 As of November 29, 2021, the Skywallet is [out of stock](https://twitter.com/BitcoinWalletz/status/1465229709285859328). 

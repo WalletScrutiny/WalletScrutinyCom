@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "LATOKEN: Bitcoin Wallet, Crypto Exchange"
+title: 'LATOKEN: Bitcoin Wallet, Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2022-02-22
-version: "1.98.05"
-stars: 4.2156863
+updated: 2022-03-14
+version: 1.100.00
+stars: 4.2380953
 ratings: 35079
 reviews: 92
-size: 26M
+size: 27M
 website: http://latoken.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: latokens
 social:
-  - https://www.linkedin.com/company/latoken
-  - https://www.facebook.com/LiquidAssetToken
-redirect_from:
+- https://www.linkedin.com/company/latoken
+- https://www.facebook.com/LiquidAssetToken
+redirect_from: 
+
 ---
 
 > Trade, send, sell, or buy Ethereum (ETH), Bitcoin (BTC), Litecoin (LTC), and any other 200+ digital assets.

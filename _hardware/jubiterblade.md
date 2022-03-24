@@ -1,5 +1,5 @@
 ---
-title: "JuBiter Blade"
+title: JuBiter Blade
 appId: jubiterblade
 authors:
 - kiwilamb
@@ -9,15 +9,18 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [38, 64, 2.5]
+dimensions:
+- 38
+- 64
+- 2.5
 weight: 
-provider: "Feitian Technologies Co.,Ltd."
+provider: Feitian Technologies Co.,Ltd.
 providerWebsite: https://www.ftsafe.com/
 website: https://www.jubiterwallet.com/index.html
 shop: https://www.amazon.com/gp/product/B07K446Y57
 country: CN
 price: 79USD
-repository: https://github.com/JubiterWallet
+repository: 
 issue: 
 icon: jubiterblade.png
 bugbounty: 
@@ -27,9 +30,11 @@ date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: JuBiterWallet
-social: 
-  - https://www.linkedin.com/company/jubiter-wallet
-  - https://www.facebook.com/JuBiterWallet
+social:
+- https://www.linkedin.com/company/jubiter-wallet
+- https://www.facebook.com/JuBiterWallet
+- https://github.com/JubiterWallet
+
 ---
 
 {{ page.title }} is a credit card sized device with buttons and screen that

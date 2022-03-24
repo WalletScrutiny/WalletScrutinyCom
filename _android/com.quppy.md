@@ -1,6 +1,6 @@
 ---
 wsId: Quppy
-title: "Quppy: Bitcoin Сrypto wallet"
+title: 'Quppy: Bitcoin Сrypto wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.quppy
 appCountry: 
 released: 2018-09-17
-updated: 2022-03-07
-version: "2.0.15"
-stars: 4.8044443
+updated: 2022-03-18
+version: 2.0.17
+stars: 4.790179
 ratings: 3900
-reviews: 34
+reviews: 33
 size: 13M
 website: https://quppy.com/
 repository: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2020-12-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: QuppyPay
 social:
-  - https://www.linkedin.com/company/quppy
-  - https://www.facebook.com/quppyPay
+- https://www.linkedin.com/company/quppy
+- https://www.facebook.com/quppyPay
 redirect_from:
-  - /com.quppy/
+- /com.quppy/
+
 ---
 
 This provider loses no word on security or where the keys are stored. We assume

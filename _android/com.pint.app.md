@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "PINT Wallet & P2P Marketplace for Bitcoin Ethereum"
+title: PINT Wallet & P2P Marketplace for Bitcoin Ethereum
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pint.app
 appCountry: 
 released: 2018-04-25
 updated: 2021-03-06
-version: "2.0.32"
+version: 2.0.32
 stars: 3.6923077
 ratings: 221
 reviews: 10
@@ -23,11 +23,12 @@ meta: stale
 verdict: nosource
 date: 2022-03-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitfialabs
 social:
-  - https://www.linkedin.com/company/bitfia-labs
-redirect_from:
+- https://www.linkedin.com/company/bitfia-labs
+redirect_from: 
+
 ---
 
 From its app description:

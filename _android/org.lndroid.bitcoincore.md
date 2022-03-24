@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitcoinCore for Android"
+title: BitcoinCore for Android
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: org.lndroid.bitcoincore
 appCountry: 
 released: 2020-07-02
 updated: 2020-07-08
-version: "0.6"
+version: '0.6'
 stars: 4
 ratings: 17
 reviews: 2
@@ -23,10 +22,11 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/189 -->

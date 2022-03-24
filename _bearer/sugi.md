@@ -1,5 +1,5 @@
 ---
-title: "Sugi"
+title: Sugi
 appId: sugi
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 1]
+dimensions:
+- 54
+- 85
+- 1
 weight: 
-provider: "Sugi"
+provider: Sugi
 providerWebsite: https://sugi.io
 website: https://sugi.io
 shop: https://sugi.io/#pricing
@@ -27,9 +30,10 @@ date: 2021-08-08
 signer: 
 reviewArchive: 
 twitter: SugiCard
-social: 
-  - https://www.linkedin.com/company/sugi-card
-  - https://www.facebook.com/SugiCard
+social:
+- https://www.linkedin.com/company/sugi-card
+- https://www.facebook.com/SugiCard
+
 ---
 
 ## Addendum 2022-03-19

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitbns-Crypto Trading Exchange"
+title: Bitbns-Crypto Trading Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076
 released: 2018-05-29
-updated: 2022-02-15
-version: "6.0.0"
-stars: 3.30713
-reviews: 687
-size: 47068160
+updated: 2022-03-14
+version: 6.0.1
+stars: 3.30504
+reviews: 695
+size: '48224256'
 website: https://bitbns.com
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitbns
 social:
-  - https://www.linkedin.com/company/bitbnsinc
-  - https://www.facebook.com/bitbns
-  - https://www.reddit.com/r/Bitbns
+- https://www.linkedin.com/company/bitbnsinc
+- https://www.facebook.com/bitbns
+- https://www.reddit.com/r/Bitbns
+
 ---
 
 From their linkedin page:

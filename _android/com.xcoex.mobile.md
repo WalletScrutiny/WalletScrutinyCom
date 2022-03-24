@@ -1,6 +1,6 @@
 ---
 wsId: XCOEX
-title: "XCOEX: Cryptocurrency Wallet"
+title: 'XCOEX: Cryptocurrency Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,8 +8,8 @@ users: 10000
 appId: com.xcoex.mobile
 appCountry: 
 released: 2019-01-17
-updated: 2022-02-22
-version: "1.23.0"
+updated: 2022-03-21
+version: 1.24.0
 stars: 3
 ratings: 159
 reviews: 6
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OfficialXcoex
 social:
-  - https://www.facebook.com/xcoex
-redirect_from:
+- https://www.facebook.com/xcoex
+redirect_from: 
+
 ---
 
 This is an exchange based app wallet, meaning it is mainly developed to manage trading on an exchange.

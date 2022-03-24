@@ -1,6 +1,6 @@
 ---
 wsId: FluxPay
-title: "Flux Pay"
+title: Flux Pay
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.blueloopflux.app
 appCountry: us
 idd: 1534426282
 released: 2020-10-15
-updated: 2022-03-04
-version: "2.5.9"
-stars: 3.57895
-reviews: 19
-size: 66725888
+updated: 2022-03-09
+version: 2.6.2
+stars: 3.54839
+reviews: 31
+size: '68130816'
 website: https://iflux.app/
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ifluxdotapp
 social:
-  - https://www.linkedin.com/company/iflux-pay
+- https://www.linkedin.com/company/iflux-pay
+
 ---
 
 {% include copyFromAndroid.html %}

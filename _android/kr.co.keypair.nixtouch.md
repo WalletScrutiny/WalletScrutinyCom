@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "NiXPAY"
+title: NiXPAY
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: kr.co.keypair.nixtouch
 appCountry: 
 released: 2018-10-19
 updated: 2019-12-27
-version: "1.0.0.65"
+version: 1.0.0.65
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: obsolete
 verdict: fewusers
 date: 2021-12-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 <!-- nosource -->

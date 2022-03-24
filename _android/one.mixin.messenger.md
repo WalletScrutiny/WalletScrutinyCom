@@ -1,6 +1,6 @@
 ---
 wsId: Mixin
-title: "Mixin - Crypto Wallet & Private Messenger"
+title: Mixin - Crypto Wallet & Private Messenger
 altTitle: 
 authors:
 - danny
@@ -10,14 +10,14 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2022-03-01
-version: "0.35.2"
-stars: 4.754902
+updated: 2022-03-17
+version: 0.35.3
+stars: 4.7238097
 ratings: 1252
-reviews: 147
+reviews: 148
 size: 30M
 website: https://mixin.one/messenger
-repository: https://github.com/MixinNetwork
+repository: https://github.com/MixinNetwork/android-app
 issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
@@ -25,12 +25,13 @@ meta: ok
 verdict: ftbfs
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: MixinMessenger
 social:
-  - https://www.facebook.com/MixinNetwork
-  - https://www.reddit.com/r/mixin
-redirect_from:
+- https://www.facebook.com/MixinNetwork
+- https://www.reddit.com/r/mixin
+redirect_from: 
+
 ---
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to

@@ -1,5 +1,5 @@
 ---
-title: "Eliptibox"
+title: Eliptibox
 appId: eliptibox
 authors:
 - danny
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 The eliptobox was first announced on [bitcointalk.org](https://bitcointalk.org/index.php?topic=970998.msg10601510#msg10601510) on February 27, 2015. Its features were  self-described as:

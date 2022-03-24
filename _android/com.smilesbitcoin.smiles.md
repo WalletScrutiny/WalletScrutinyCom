@@ -1,6 +1,6 @@
 ---
 wsId: sMiles
-title: "sMiles: Earn Bitcoin"
+title: 'sMiles: Earn Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.smilesbitcoin.smiles
 appCountry: us
 released: 2020-12-15
 updated: 2022-02-02
-version: "2.0.7"
-stars: 2.7580645
+version: 2.0.7
+stars: 2.8
 ratings: 208
-reviews: 43
+reviews: 45
 size: 72M
 website: https://www.smilesbitcoin.com/
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: smilesbitcoin
 social:
-  - https://www.facebook.com/smilesbitcoin
-redirect_from:
+- https://www.facebook.com/smilesbitcoin
+redirect_from: 
+
 ---
 
 ## App Description

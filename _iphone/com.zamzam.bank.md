@@ -1,6 +1,6 @@
 ---
 wsId: ZamZam
-title: "Zamzam - money transfers"
+title: Zamzam - money transfers
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: ru
 idd: 1521900439
 released: 2020-07-04
 updated: 2021-12-29
-version: "1.4.4"
+version: 1.4.4
 stars: 4.03846
 reviews: 26
-size: 79312896
+size: '79312896'
 website: https://zam.me
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

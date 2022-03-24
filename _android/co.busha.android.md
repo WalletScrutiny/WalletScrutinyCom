@@ -1,6 +1,6 @@
 ---
 wsId: busha
-title: "Busha: Buy & Sell BTC, ETH"
+title: 'Busha: Buy & Sell BTC, ETH'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: co.busha.android
 appCountry: 
 released: 2019-01-21
 updated: 2022-03-07
-version: "3.1.22"
+version: 3.1.22
 stars: 4.13
 ratings: 3575
 reviews: 106
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: getbusha
 social:
-  - https://www.facebook.com/getbusha
+- https://www.facebook.com/getbusha
 redirect_from:
-  - /co.busha.android/
-  - /posts/co.busha.android/
+- /co.busha.android/
+- /posts/co.busha.android/
+
 ---
 
 The description

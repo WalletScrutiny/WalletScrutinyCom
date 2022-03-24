@@ -1,6 +1,6 @@
 ---
 wsId: Gekkard
-title: "Gekkard: Banking Alternative"
+title: 'Gekkard: Banking Alternative'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.papaya.gekkard
 appCountry: mt
 released: 2020-01-30
 updated: 2021-08-19
-version: "1.0.5"
-stars: 2.590909
+version: 1.0.5
+stars: 2.6444445
 ratings: 43
 reviews: 25
 size: 98M
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/gekkoin.official
-redirect_from:
+- https://www.facebook.com/gekkoin.official
+redirect_from: 
+
 ---
 
 ## App Description

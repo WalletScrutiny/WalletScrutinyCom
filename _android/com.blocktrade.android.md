@@ -1,6 +1,6 @@
 ---
 wsId: BlockTrade
-title: "Blocktrade - Digital assets exchange"
+title: Blocktrade - Digital assets exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.blocktrade.android
 appCountry: us
 released: 2018-10-28
 updated: 2022-03-07
-version: "1.7.1"
+version: 1.7.1
 stars: 2.8888888
 ratings: 187
 reviews: 8
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Blocktradecom
 social:
-  - https://www.linkedin.com/company/blocktradecom
-  - https://www.facebook.com/Blocktradecom
-redirect_from:
+- https://www.linkedin.com/company/blocktradecom
+- https://www.facebook.com/Blocktradecom
+redirect_from: 
+
 ---
 
 ## App Description

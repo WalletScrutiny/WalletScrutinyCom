@@ -1,6 +1,6 @@
 ---
 wsId: CoinZoom
-title: "CoinZoom: Buy Bitcoin & Crypto"
+title: 'CoinZoom Pro: Buy, Sell Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 100000
 appId: com.czprime
 appCountry: 
 released: 2020-06-11
-updated: 2022-03-01
-version: "1.4.29"
-stars: 3.7547169
+updated: 2022-03-21
+version: 1.4.31
+stars: 3.6442308
 ratings: 2461
-reviews: 339
-size: 30M
+reviews: 343
+size: 31M
 website: https://www.coinzoom.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: GetCoinZoom
 social:
-  - https://www.linkedin.com/company/coinzoomhq
-  - https://www.facebook.com/CoinZoom
-redirect_from:
+- https://www.linkedin.com/company/coinzoomhq
+- https://www.facebook.com/CoinZoom
+redirect_from: 
+
 ---
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 

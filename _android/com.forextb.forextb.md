@@ -1,6 +1,6 @@
 ---
 wsId: ForexTB
-title: "ForexTB: Online Trading"
+title: 'ForexTB: Online Trading'
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ appId: com.forextb.forextb
 appCountry: dk
 released: 2020-09-24
 updated: 2021-11-24
-version: "2.1.6"
-stars: 2.9166667
+version: 2.1.6
+stars: 2.8990827
 ratings: 339
 reviews: 283
 size: 79M
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ### Google Play

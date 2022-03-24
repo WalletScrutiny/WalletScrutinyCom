@@ -1,6 +1,6 @@
 ---
 wsId: kikitrade
-title: "Kikitrade：Buy Bitcoin & Crypto"
+title: Kikitrade：Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.kikitrade
 appCountry: us
 released: 2020-07-24
-updated: 2022-03-02
-version: "4.2.0"
+updated: 2022-03-22
+version: 4.2.1
 stars: 
 ratings: 
 reviews: 
-size: 49M
+size: 52M
 website: http://www.kikitrade.com
 repository: 
 issue: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KikitradeHQ
 social:
-  - https://www.linkedin.com/company/kikitrade
-  - https://www.facebook.com/kikitrade
-redirect_from:
+- https://www.linkedin.com/company/kikitrade
+- https://www.facebook.com/kikitrade
+redirect_from: 
+
 ---
 
 ### Google Play

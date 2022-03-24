@@ -1,6 +1,6 @@
 ---
 wsId: WealthsimpleTrade
-title: "Wealthsimple Trade & Crypto"
+title: Wealthsimple Trade & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000000
 appId: com.wealthsimple.trade
 appCountry: ca
 released: 2019-03-12
-updated: 2022-03-07
-version: "2.29.1"
-stars: 4.5457377
+updated: 2022-03-21
+version: 2.31.0
+stars: 4.536646
 ratings: 54327
-reviews: 9587
-size: 263M
+reviews: 9684
+size: 264M
 website: https://www.wealthsimple.com/trade
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Wealthsimple
 social:
-  - https://www.facebook.com/wealthsimple
-redirect_from:
+- https://www.facebook.com/wealthsimple
+redirect_from: 
+
 ---
 
 > Buy and sell 16+ cryptocurrencies in just a few taps with Wealthsimple Crypto. There’s no long list of fees or account minimums. Just simple and secure crypto trading of Bitcoin (BTC)[...]

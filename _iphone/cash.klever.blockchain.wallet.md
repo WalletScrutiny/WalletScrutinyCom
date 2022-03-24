@@ -1,6 +1,6 @@
 ---
 wsId: klever
-title: "Klever: Secure Crypto Wallet"
+title: 'Klever: Secure Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: cash.klever.blockchain.wallet
 appCountry: 
 idd: 1525584688
 released: 2020-08-26
-updated: 2022-01-31
-version: "4.11.0"
-stars: 4.33053
-reviews: 475
-size: 130001920
+updated: 2022-03-22
+version: 4.12.0
+stars: 4.32568
+reviews: 479
+size: '131257344'
 website: https://klever.io
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: nosource
 date: 2021-05-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: klever_io
 social:
-  - https://www.facebook.com/klever.io
+- https://www.facebook.com/klever.io
+
 ---
 
 On their website we read:

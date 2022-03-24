@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Tronz Wallet"
+title: Tronz Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.walletapp.walletapp
 appCountry: 
 released: 2020-08-04
 updated: 2021-01-28
-version: "1.0.14"
+version: 1.0.14
 stars: 4.2
 ratings: 54
 reviews: 46
@@ -23,9 +22,10 @@ meta: defunct
 verdict: wip
 date: 2021-06-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

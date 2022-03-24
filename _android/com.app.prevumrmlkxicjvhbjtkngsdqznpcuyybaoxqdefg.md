@@ -1,6 +1,6 @@
 ---
 wsId: ToolsTrades
-title: "Tools Trades"
+title: Tools Trades
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg
 appCountry: us
 released: 2018-02-27
 updated: 2021-05-22
-version: "2.0"
+version: '2.0'
 stars: 4.857143
 ratings: 396
 reviews: 4
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

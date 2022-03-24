@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitcoin Exchange P2P"
+title: Bitcoin Exchange P2P
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.alsoft.bitcoinlocal
 appCountry: 
 released: 2018-02-15
 updated: 2021-02-28
-version: "4.1"
+version: '4.1'
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

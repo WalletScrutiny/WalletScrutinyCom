@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: "CoinEx-Cryptocurrency Exchange"
+title: CoinEx-Cryptocurrency Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appCountry:
 idd: 1264462812
 released: 2017-08-23
 updated: 2022-01-01
-version: "3.5.0"
+version: 3.5.0
 stars: 4.54085
 reviews: 2032
 size: 133484544
@@ -22,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2022-01-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: coinexcom
 social:
-  - https://www.facebook.com/TheCoinEx
-  - https://www.reddit.com/r/Coinex
+- https://www.facebook.com/TheCoinEx
+- https://www.reddit.com/r/Coinex
+
 ---
 
 **Update 2022-01-13**: This app is not available anymore.

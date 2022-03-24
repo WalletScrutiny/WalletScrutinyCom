@@ -1,6 +1,6 @@
 ---
 wsId: valr
-title: "VALR Crypto Exchange & Wallet"
+title: VALR Crypto Exchange & Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -10,10 +10,10 @@ appCountry:
 idd: 1453499428
 released: 2019-09-27
 updated: 2022-03-02
-version: "1.0.45"
+version: 1.0.45
 stars: 4.375
 reviews: 8
-size: 55612416
+size: '55612416'
 website: https://www.valr.com
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: valrdotcom
 social:
-  - https://www.linkedin.com/company/valr
-  - https://www.facebook.com/VALRdotcom
+- https://www.linkedin.com/company/valr
+- https://www.facebook.com/VALRdotcom
+
 ---
 
 I need not go further into researching this wallet as the statement on the

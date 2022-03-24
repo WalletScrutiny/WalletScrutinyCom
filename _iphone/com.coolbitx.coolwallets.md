@@ -1,6 +1,6 @@
 ---
 wsId: coolbitx
-title: "CoolBitX Crypto"
+title: CoolBitX Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.coolbitx.coolwallets
 appCountry: tw
 idd: 1328764142
 released: 2018-01-02
-updated: 2022-03-09
-version: "2.36.2"
+updated: 2022-03-21
+version: 2.37.0
 stars: 3.98113
 reviews: 53
-size: 101052416
+size: '103962624'
 website: http://coolwallet.io
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: nowallet
 date: 2021-08-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 **Update 2021-08-28**: We now also added the hardware wallets this app is the

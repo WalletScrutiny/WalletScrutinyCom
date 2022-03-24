@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Flutter Cryptowallet"
+title: Flutter Cryptowallet
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.interestinate.flutter_cryptowallet
 appCountry: 
 released: 2020-01-06
 updated: 2020-01-06
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

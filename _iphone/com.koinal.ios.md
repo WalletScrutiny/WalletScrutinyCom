@@ -1,6 +1,6 @@
 ---
 wsId: koinal
-title: "Koinal: Buy Bitcoin instantly"
+title: 'Koinal: Buy Bitcoin instantly'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: com.koinal.ios
 appCountry: gb
 idd: 1442764361
 released: 2020-06-08
-updated: 2022-02-17
-version: "1.2.20"
-stars: 4.96154
-reviews: 572
-size: 69910528
+updated: 2022-03-21
+version: 1.3.1
+stars: 4.93902
+reviews: 656
+size: '70211584'
 website: https://www.koinal.io
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: koinal_io
 social:
-  - https://www.linkedin.com/company/koinal-io
-  - https://www.facebook.com/Koinal.io
+- https://www.linkedin.com/company/koinal-io
+- https://www.facebook.com/Koinal.io
+
 ---
 
 > Secure!<br>

@@ -1,6 +1,6 @@
 ---
 wsId: 99Recharge
-title: "99pay Mobile, 00301 recharge"
+title: 99pay Mobile, 00301 recharge
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: com.qqtrade.gugupay
 appCountry: cn
 released: 2017-05-25
 updated: 2022-02-23
-version: "2.1.9"
-stars: 4.48
+version: 3.0.4
+stars: 4.44
 ratings: 658
 reviews: 244
-size: 12M
+size: 13M
 website: http://www.99pay.kr/
 repository: 
 issue: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nowallet
 date: 2021-12-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 You probably are looking for the other 99pay app:

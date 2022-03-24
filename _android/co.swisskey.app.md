@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Swiss Key"
+title: Swiss Key
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: co.swisskey.app
 appCountry: 
 released: 2020-02-04
 updated: 2020-02-04
-version: "0.0.1"
+version: 0.0.1
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-01-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

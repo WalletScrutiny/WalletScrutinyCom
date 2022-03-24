@@ -1,6 +1,6 @@
 ---
 wsId: ZamWallet
-title: "ZamWallet: Buy Bitcoin & Crypto with Card"
+title: 'ZamWallet: Buy Bitcoin & Crypto with Card'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: zam.wallet
 appCountry: ru
 released: 2018-09-17
 updated: 2022-01-07
-version: "2.3.6"
+version: 2.3.6
 stars: 4.016129
 ratings: 288
 reviews: 48
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-11-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zam_io
 social:
-  - https://www.linkedin.com/company/11770701
-redirect_from:
+- https://www.linkedin.com/company/11770701
+redirect_from: 
+
 ---
 
 **Note:** This app shares a logo with {% include walletLink.html wallet='android/ru.zamzamwallet' verdict='0' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.

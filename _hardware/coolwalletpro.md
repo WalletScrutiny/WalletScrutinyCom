@@ -1,5 +1,5 @@
 ---
-title: "CoolWallet Pro"
+title: CoolWallet Pro
 appId: coolwalletpro
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 0.8]
+dimensions:
+- 54
+- 85
+- 0.8
 weight: 6
-provider: "CoolBitX"
+provider: CoolBitX
 providerWebsite: https://coolbitx.com/
 website: https://www.coolwallet.io/product/coolwallet-pro/
 shop: https://www.coolwallet.io/product/coolwallet-pro/
@@ -27,8 +30,9 @@ date: 2021-08-28
 signer: 
 reviewArchive: 
 twitter: coolwallet
-social: 
-  - https://www.facebook.com/coolwallet
+social:
+- https://www.facebook.com/coolwallet
+
 ---
 
 This device, running weeks on a single charge connects to its companion app on

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProfitTrading For Coinbase and Coinbase PRO"
+title: ProfitTrading For Coinbase and Coinbase PRO
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.profittrading.forcoinbase
 appCountry: 
 released: 2018-05-15
 updated: 2021-05-16
-version: "Varies with device"
+version: Varies with device
 stars: 4.357143
 ratings: 156
 reviews: 25
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProfitTrading_
 social:
-  - https://www.facebook.com/profittradingapp
-redirect_from:
+- https://www.facebook.com/profittradingapp
+redirect_from: 
+
 ---
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:

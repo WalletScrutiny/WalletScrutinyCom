@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "ForgingBlock POS"
+title: ForgingBlock POS
 altTitle: 
-authors:
-
+authors: 
 users: 10
 appId: io.app.forgingblock
 appCountry: 
 released: 2020-10-20
 updated: 2020-10-20
-version: "8.0"
+version: '8.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-10-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

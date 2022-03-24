@@ -1,6 +1,6 @@
 ---
 wsId: roqqu
-title: "Roqqu - Buy and Sell Bitcoin"
+title: Roqqu - Buy and Sell Bitcoin
 altTitle: 
 authors:
 - kiwilamb
@@ -11,10 +11,10 @@ appCountry:
 idd: 1505370687
 released: 2020-04-06
 updated: 2022-02-23
-version: "1.4.72"
-stars: 2.87805
-reviews: 82
-size: 50775040
+version: 1.4.72
+stars: 2.68085
+reviews: 94
+size: '50775040'
 website: https://roqqu.com
 repository: 
 issue: 
@@ -24,10 +24,11 @@ meta: ok
 verdict: custodial
 date: 2021-04-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: roqqupay
 social:
-  - https://www.facebook.com/roqqupay
+- https://www.facebook.com/roqqupay
+
 ---
 
 **Update 2022-01-05**

@@ -1,6 +1,6 @@
 ---
 wsId: tangem
-title: "Tangem"
+title: Tangem
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 5000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
-updated: 2022-03-05
-version: "3.28"
+updated: 2022-03-20
+version: '3.30'
 stars: 4.392857
 ratings: 89
 reviews: 9
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2021-04-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: tangem
 social:
-  - https://www.linkedin.com/company/tangem
-redirect_from:
+- https://www.linkedin.com/company/tangem
+redirect_from: 
+
 ---
 
 This app is the companion app to an NFC card that is promoted as something like

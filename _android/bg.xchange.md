@@ -1,6 +1,6 @@
 ---
-wsId: xChangeBG
-title: "xChange.bg - Buy Bitcoin"
+wsId: 
+title: xChange.bg - Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: bg.xchange
 appCountry: 
 released: 2020-12-22
-updated: 2022-02-19
-version: "2.0.1"
+updated: 2022-03-11
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xchangebg
 social:
-  - https://www.facebook.com/xchangebg
-redirect_from:
+- https://www.facebook.com/xchangebg
+redirect_from: 
+
 ---
 
 ## App Description

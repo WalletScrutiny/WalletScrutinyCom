@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: "Phemex: Trade Bitcoin & Crypto"
+title: 'Phemex: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,10 +10,10 @@ appCountry:
 idd: 1499601684
 released: 2020-02-20
 updated: 2022-03-07
-version: "2.1.0"
-stars: 4.34391
-reviews: 788
-size: 110885888
+version: 2.1.0
+stars: 4.39314
+reviews: 875
+size: '110885888'
 website: https://phemex.com/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-04-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: phemex_official
 social:
-  - https://www.linkedin.com/company/phemex
-  - https://www.facebook.com/Phemex.official
+- https://www.linkedin.com/company/phemex
+- https://www.facebook.com/Phemex.official
+
 ---
 
 The Phemex mobile app claims to hold funds in cold storage...

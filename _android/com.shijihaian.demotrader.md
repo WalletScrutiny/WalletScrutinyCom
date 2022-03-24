@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Forex Simulator - trading with real market data"
+title: Forex Simulator - trading with real market data
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.shijihaian.demotrader
 appCountry: 
 released: 2020-10-29
 updated: 2020-12-14
-version: "1.0.3"
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: stale
 verdict: nowallet
 date: 2021-12-12
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

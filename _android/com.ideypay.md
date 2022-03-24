@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "iDeyPay: Buy and Sell Bitcoin in Nigeria"
+title: 'iDeyPay: Buy and Sell Bitcoin in Nigeria'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ideypay
 appCountry: 
 released: 2020-09-03
 updated: 2021-03-02
-version: "1.0.65"
+version: 1.0.65
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: stale
 verdict: custodial
 date: 2022-02-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ideypay
 social:
-  - https://www.facebook.com/ideypay
-redirect_from:
+- https://www.facebook.com/ideypay
+redirect_from: 
+
 ---
 
 ## App Description

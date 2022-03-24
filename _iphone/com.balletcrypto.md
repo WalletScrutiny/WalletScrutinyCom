@@ -1,18 +1,17 @@
 ---
 wsId: balletcrypto
-title: "Ballet Crypto"
+title: Ballet Crypto
 altTitle: 
-authors:
-
+authors: 
 appId: com.balletcrypto
 appCountry: 
 idd: 1474912942
 released: 2019-09-11
 updated: 2021-12-06
-version: "1.23.0"
-stars: 4.87605
-reviews: 476
-size: 101776384
+version: 1.23.0
+stars: 4.87835
+reviews: 485
+size: '101776384'
 website: https://www.balletcrypto.com/
 repository: 
 issue: 
@@ -22,12 +21,13 @@ meta: ok
 verdict: nosource
 date: 2021-03-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BalletCrypto
 social:
-  - https://www.linkedin.com/company/balletcrypto
-  - https://www.facebook.com/balletcrypto.global
-  - https://www.reddit.com/r/BalletCrypto
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
+- https://www.reddit.com/r/BalletCrypto
+
 ---
 
 > Ballet Crypto is an app that acts as a companion to your Ballet product,

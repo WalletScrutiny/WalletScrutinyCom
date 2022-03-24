@@ -1,6 +1,6 @@
 ---
 wsId: LeadWallet
-title: "Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD"
+title: Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.leadWallet
 appCountry: ng
 released: 2021-07-29
 updated: 2022-03-08
-version: "1.0.26"
-stars: 4.4035087
+version: 1.0.26
+stars: 4.40678
 ratings: 1683
-reviews: 51
+reviews: 52
 size: 39M
 website: https://leadwallet.io
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosource
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: leadwallet
 social:
-  - https://www.linkedin.com/company/leadwallet
-  - https://www.reddit.com/r/LeadWallet
-redirect_from:
+- https://www.linkedin.com/company/leadwallet
+- https://www.reddit.com/r/LeadWallet
+redirect_from: 
+
 ---
 
 This app is not to be confused with its BETA version, {% include walletLink.html wallet='android/com.leadwallet.io' verdict='true' %} 

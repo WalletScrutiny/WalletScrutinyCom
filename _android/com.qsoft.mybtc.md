@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "MyBTCNigeria : Sell and Buy Bitcoin in Nigeria"
+title: 'MyBTCNigeria : Sell and Buy Bitcoin in Nigeria'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.qsoft.mybtc
 appCountry: 
 released: 2021-06-05
 updated: 2021-06-05
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nowallet
 date: 2021-11-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: btc_nigeria
 social:
-  - https://www.facebook.com/mybtcnigeria
-redirect_from:
+- https://www.facebook.com/mybtcnigeria
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: bitpie
-title: "Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC"
+title: Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitpie
 appCountry: 
 released: 2016-10-23
 updated: 2021-12-27
-version: "5.0.056"
+version: 5.0.056
 stars: 3.9038463
 ratings: 847
 reviews: 112
@@ -23,14 +23,15 @@ meta: ok
 verdict: nosource
 date: 2021-12-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BitpieWallet
 social:
-  - https://www.facebook.com/BitpieOfficial
-  - https://www.reddit.com/r/BitpieWallet
+- https://www.facebook.com/BitpieOfficial
+- https://www.reddit.com/r/BitpieWallet
 redirect_from:
-  - /com.bitpie/
-  - /posts/com.bitpie/
+- /com.bitpie/
+- /posts/com.bitpie/
+
 ---
 
 **Update 2021-12-11**: This app recently got very bad reviews, with people who

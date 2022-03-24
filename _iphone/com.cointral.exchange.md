@@ -1,6 +1,6 @@
 ---
 wsId: Cointral
-title: "Cointral | Buy & Sell Bitcoin"
+title: Cointral | Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: tt
 idd: 1536116477
 released: 2020-10-31
 updated: 2021-08-18
-version: "1.3.6"
-stars: 
-reviews: 
-size: 105841664
+version: 1.3.6
+stars: 0
+reviews: 0
+size: '105841664'
 website: https://cointral.com
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-10-19
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Cointral
 social:
-  - https://www.linkedin.com/company/cointral
-  - https://www.facebook.com/Cointral
+- https://www.linkedin.com/company/cointral
+- https://www.facebook.com/Cointral
+
 ---
 
 {% include copyFromAndroid.html %}

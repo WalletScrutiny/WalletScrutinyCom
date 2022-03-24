@@ -1,5 +1,5 @@
 ---
-title: "BitLox Ultimate"
+title: BitLox Ultimate
 appId: bitloxultimate
 authors:
 - kiwilamb
@@ -8,11 +8,14 @@ authors:
 released: 2015-01-01
 discontinued: 
 updated: 2017-02-12
-version: "v67_BIP44"
+version: v67_BIP44
 binaries: 
-dimensions: [54, 85, 4]
+dimensions:
+- 54
+- 85
+- 4
 weight: 25
-provider: "BitLox"
+provider: BitLox
 providerWebsite: https://bitlox.com
 website: https://www.bitlox.com/products/bitlox-ultimate
 shop: https://www.bitlox.com/products/bitlox-ultimate
@@ -28,8 +31,9 @@ date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: bitlox
-social: 
-  - https://www.facebook.com/BitLoxWallet
+social:
+- https://www.facebook.com/BitLoxWallet
+
 ---
 
 ## Private keys can be created offline - ✔️

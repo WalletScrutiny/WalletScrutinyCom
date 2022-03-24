@@ -1,6 +1,6 @@
 ---
 wsId: mercadopago
-title: "Mercado Pago: cuenta digital"
+title: 'Mercado Pago: cuenta digital'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 50000000
 appId: com.mercadopago.wallet
 appCountry: br
 released: 2014-12-09
-updated: 2022-03-07
-version: "2.209.4"
-stars: 4.593786
+updated: 2022-03-23
+version: 2.209.5
+stars: 4.661161
 ratings: 3484084
-reviews: 708975
+reviews: 720437
 size: 69M
 website: http://www.mercadopago.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosendreceive
 date: 2021-12-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mercadopago
 social:
-  - https://www.facebook.com/mercadopago
-redirect_from:
+- https://www.facebook.com/mercadopago
+redirect_from: 
+
 ---
 
 The provider announced the possibility to buy and sell Bitcoin from within the

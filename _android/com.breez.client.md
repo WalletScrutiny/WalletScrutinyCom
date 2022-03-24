@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Breez: Lightning Network Client & Point-of-Sale"
+title: 'Breez: Lightning Network Client & Point-of-Sale'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2022-03-09
-version: "Varies with device"
+updated: 2022-03-23
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,14 +23,15 @@ meta: ok
 verdict: ftbfs
 date: 2019-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: breez_tech
-social:
+social: 
 redirect_from:
-  - /breez/
-  - /com.breez.client/
-  - /posts/2019/12/breez/
-  - /posts/com.breez.client/
+- /breez/
+- /com.breez.client/
+- /posts/2019/12/breez/
+- /posts/com.breez.client/
+
 ---
 
 A description to our liking. Here it is in full:

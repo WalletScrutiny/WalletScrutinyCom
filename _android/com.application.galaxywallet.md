@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Galaxy Wallet"
+title: Galaxy Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.application.galaxywallet
 appCountry: 
 released: 2019-12-09
 updated: 2020-05-19
-version: "1.2"
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: wip
 date: 2021-08-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: btciapp
-title: "Bitcoin India Wallet & Exchange"
+title: Bitcoin India Wallet & Exchange
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.bitcoinindia.Btciapp
 appCountry: 
 released: 2018-06-11
 updated: 2021-07-29
-version: "3.1.45"
+version: 3.1.45
 stars: 1.5
 ratings: 1341
 reviews: 963
@@ -23,13 +23,14 @@ meta: defunct
 verdict: custodial
 date: 2021-09-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BTC_india
 social:
-  - https://www.linkedin.com/company/bitcoin-india
-  - https://www.facebook.com/Bitcoin.India.Org
+- https://www.linkedin.com/company/bitcoin-india
+- https://www.facebook.com/Bitcoin.India.Org
 redirect_from:
-  - /com.bitcoinindia.Btciapp/
+- /com.bitcoinindia.Btciapp/
+
 ---
 
 **Update 2021-09-17**: This app is no more.

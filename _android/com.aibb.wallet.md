@@ -1,6 +1,6 @@
 ---
 wsId: blockbank
-title: "BlockBank"
+title: BlockBank
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.aibb.wallet
 appCountry: us
 released: 2019-04-04
 updated: 2021-10-04
-version: "2.3.15"
+version: 2.3.15
 stars: 4.2
 ratings: 319
 reviews: 254
@@ -23,11 +23,12 @@ meta: defunct
 verdict: custodial
 date: 2021-11-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BLOCKBANKapp
 social:
-  - https://www.facebook.com/blockbank
-redirect_from:
+- https://www.facebook.com/blockbank
+redirect_from: 
+
 ---
 
 **Update 2021-11-03**: This app is no more.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ProBit: Buy & Sell Bitcoin. Crypto Exchange"
+title: 'ProBit: Buy & Sell Bitcoin. Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.probit.app.android2.release.korea
 appCountry: 
 released: 2019-06-19
 updated: 2022-03-07
-version: "1.36.3"
+version: 1.36.3
 stars: 3.142857
 ratings: 375
 reviews: 5
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ProBit_Exchange
 social:
-  - https://www.facebook.com/probitexchange
-redirect_from:
+- https://www.facebook.com/probitexchange
+redirect_from: 
+
 ---
 
 This app appears to be a Korean crypto exchange:

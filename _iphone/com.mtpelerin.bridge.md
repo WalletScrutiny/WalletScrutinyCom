@@ -1,6 +1,6 @@
 ---
 wsId: bridgeWallet
-title: "Bridge Wallet"
+title: Bridge Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.mtpelerin.bridge
 appCountry: us
 idd: 1481859680
 released: 2020-04-08
-updated: 2022-02-17
-version: "1.22"
-stars: 4.54839
-reviews: 31
-size: 133441536
+updated: 2022-03-22
+version: '1.23'
+stars: 4.4375
+reviews: 32
+size: '133480448'
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: nosource
 date: 2022-01-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: mtpelerin
 social:
-  - https://www.linkedin.com/company/mt-pelerin
-  - https://www.facebook.com/mtpelerin
-  - https://www.reddit.com/r/MtPelerin
+- https://www.linkedin.com/company/mt-pelerin
+- https://www.facebook.com/mtpelerin
+- https://www.reddit.com/r/MtPelerin
+
 ---
 
 {% include copyFromAndroid.html %}

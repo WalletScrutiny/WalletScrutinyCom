@@ -1,6 +1,6 @@
 ---
 wsId: simpleswap
-title: "Crypto Exchange - Buy & Sell"
+title: Crypto Exchange - Buy & Sell
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23
 updated: 2021-11-03
-version: "3.1.9"
-stars: 4.369565
+version: 3.1.9
+stars: 4.4727273
 ratings: 575
-reviews: 45
+reviews: 54
 size: 38M
 website: https://simpleswap.io
 repository: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: nowallet
 date: 2021-10-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: SimpleSwap_io
 social:
-  - https://www.facebook.com/SimpleSwap.io
-  - https://www.reddit.com/r/simpleswapexchange
-redirect_from:
+- https://www.facebook.com/SimpleSwap.io
+- https://www.reddit.com/r/simpleswapexchange
+redirect_from: 
+
 ---
 
 ## Updated Review 2021-10-29

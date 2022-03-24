@@ -1,6 +1,6 @@
 ---
 wsId: azara
-title: "Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange"
+title: 'Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: ai.azara.wallet
 appCountry: de
 released: 2020-11-10
 updated: 2021-04-14
-version: "0.01.18"
+version: 0.01.18
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-03-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 > Azara is a crypto wallet that is enabling you crypto exchange, as well as the

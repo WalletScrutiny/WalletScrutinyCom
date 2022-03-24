@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "PT Wallet"
+title: PT Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.pt.wallet
 appCountry: 
 released: 2020-10-14
 updated: 2021-02-25
-version: "1.27"
+version: '1.27'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

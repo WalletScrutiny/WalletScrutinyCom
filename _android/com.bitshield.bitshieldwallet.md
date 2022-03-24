@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "BitShield Wallet - Bitcoin Wallet"
+title: BitShield Wallet - Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.bitshield.bitshieldwallet
 appCountry: 
 released: 2020-06-09
 updated: 2021-04-12
-version: "1.28"
-stars: 4.391781
+version: '1.28'
+stars: 4.8488374
 ratings: 1809
-reviews: 1238
+reviews: 1245
 size: 65M
 website: https://bitshieldwallet.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nosource
 date: 2020-12-01
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /com.bitshield.bitshieldwallet/
+- /com.bitshield.bitshieldwallet/
+
 ---
 
 In this app's description we read:

@@ -1,5 +1,5 @@
 ---
-title: "Jaxx Ice Cube Cold Wallet"
+title: Jaxx Ice Cube Cold Wallet
 appId: jaxxicecube
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Decentral"
+provider: Decentral
 providerWebsite: https://decentral.ca/
 website: https://jaxx.io/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: jaxx_io
 social: 
+
 ---
 
 ## Advertised Features

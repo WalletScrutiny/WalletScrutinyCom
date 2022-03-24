@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "BitcoinSV POS"
+title: BitcoinSV POS
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: org.strayacoin.bsvpos
 appCountry: 
 released: 2019-07-13
 updated: 2021-04-17
-version: "3.0.0"
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +18,16 @@ repository:
 issue: 
 icon: org.strayacoin.bsvpos.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-02
+date: 2022-03-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
+
+**Update 2022-03-16**: This app is not available anymore.
 

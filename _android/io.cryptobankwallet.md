@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CryptoBank"
+title: CryptoBank
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: io.cryptobankwallet
 appCountry: 
 released: 2020-12-10
 updated: 2020-12-10
-version: "0.12.0"
+version: 0.12.0
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-12-06
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

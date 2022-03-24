@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Blockchain Plus Wallet v2"
+title: Blockchain Plus Wallet v2
 altTitle: 
-authors:
-
+authors: 
 users: 1000
 appId: com.blockchainproplus.bpw
 appCountry: 
 released: 2021-04-02
 updated: 2021-04-23
-version: "1.1.1"
+version: 1.1.1
 stars: 3.8
 ratings: 60
 reviews: 29
@@ -23,10 +22,11 @@ meta: defunct
 verdict: obfuscated
 date: 2021-07-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This app claims to be a server-less and self-custodial Bitcoin wallet. We were

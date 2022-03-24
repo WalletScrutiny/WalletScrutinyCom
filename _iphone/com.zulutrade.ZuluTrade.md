@@ -1,6 +1,6 @@
 ---
 wsId: ZuluTrade
-title: "ZuluTrade - Copy Trading"
+title: ZuluTrade - Copy Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 336913058
 released: 2009-11-07
 updated: 2021-11-22
-version: "4.24.0"
+version: 4.24.0
 stars: 4.2
 reviews: 10
 size: 65590272
@@ -22,11 +22,12 @@ meta: defunct
 verdict: nowallet
 date: 2021-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: zulutrade
 social:
-  - https://www.linkedin.com/company/zulutrade
-  - https://www.facebook.com/zulutrade
+- https://www.linkedin.com/company/zulutrade
+- https://www.facebook.com/zulutrade
+
 ---
 
 **Update 2021-12-04**: This app is gone from the Store.

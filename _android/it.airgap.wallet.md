@@ -1,18 +1,17 @@
 ---
 wsId: AirGapWallet
-title: "AirGap Wallet - Tezos, Cosmos, Ethereum, Bitcoin"
+title: AirGap Wallet - Tezos, Cosmos, Ethereum, Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 10000
 appId: it.airgap.wallet
 appCountry: 
 released: 2018-08-06
-updated: 2022-02-23
-version: "3.16.0"
-stars: 4.0444446
+updated: 2022-03-15
+version: 3.16.1
+stars: 3.9347825
 ratings: 128
-reviews: 14
+reviews: 15
 size: 74M
 website: https://www.airgap.it
 repository: 
@@ -23,13 +22,14 @@ meta: ok
 verdict: nowallet
 date: 2019-12-29
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: AirGap_it
 social:
-  - https://www.reddit.com/r/AirGap
+- https://www.reddit.com/r/AirGap
 redirect_from:
-  - /it.airgap.wallet/
-  - /posts/it.airgap.wallet/
+- /it.airgap.wallet/
+- /posts/it.airgap.wallet/
+
 ---
 
 This appears to not be a wallet as to our understanding, it does not hold any

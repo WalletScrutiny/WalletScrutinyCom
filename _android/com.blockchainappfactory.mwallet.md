@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "M Wallet"
+title: M Wallet
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: com.blockchainappfactory.mwallet
 appCountry: 
 released: 2020-03-08
 updated: 2020-03-09
-version: "1.0"
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: obsolete
 verdict: fewusers
 date: 2022-02-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

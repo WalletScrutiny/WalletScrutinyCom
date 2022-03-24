@@ -1,6 +1,6 @@
 ---
 wsId: kardiawallet
-title: "KardiaChain Wallet"
+title: KardiaChain Wallet
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.kardiawallet
 appCountry: vn
 released: 2021-01-13
-updated: 2022-03-04
-version: "2.4.3"
+updated: 2022-03-21
+version: 2.4.5
 stars: 4.6116505
 ratings: 1064
 reviews: 116
-size: 63M
+size: 64M
 website: https://kardiachain.io/
 repository: 
 issue: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: nobtc
 date: 2021-09-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KardiaChain
 social:
-  - https://www.facebook.com/KardiaChainFoundation
-redirect_from:
+- https://www.facebook.com/KardiaChainFoundation
+redirect_from: 
+
 ---
 
 The KardiaChain wallet is specifically for use with the KAI token. 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Quarashi Wallet VPN Chat DEX"
+title: Quarashi Wallet VPN Chat DEX
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.ibt.quarashi
 appCountry: 
 released: 2021-07-09
-updated: 2022-03-07
-version: "1.0.27"
+updated: 2022-03-16
+version: 1.0.30
 stars: 
 ratings: 
 reviews: 
@@ -23,13 +23,14 @@ meta: ok
 verdict: nobtc
 date: 2021-08-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: QuarashiN
 social:
-  - https://www.linkedin.com/company/quarashi-network
-  - https://www.facebook.com/QuarashiNetwork
-  - https://www.reddit.com/r/Quarashinetwork
-redirect_from:
+- https://www.linkedin.com/company/quarashi-network
+- https://www.facebook.com/QuarashiNetwork
+- https://www.reddit.com/r/Quarashinetwork
+redirect_from: 
+
 ---
 
 ## App Description

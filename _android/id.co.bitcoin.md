@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: "Indodax"
+title: Indodax
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 1000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2022-02-24
-version: "4.3.1"
-stars: 4.31
+updated: 2022-03-21
+version: 4.3.2
+stars: 4.24
 ratings: 97568
-reviews: 343
-size: 41M
+reviews: 348
+size: 42M
 website: http://indodax.com
 repository: 
 issue: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: indodax
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 This is the interface to

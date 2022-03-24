@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Monedero: Wallet Bitcoin, Ethereum, Dash"
+title: 'Monedero: Wallet Bitcoin, Ethereum, Dash'
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: com.monederoapp
 appCountry: 
 released: 2020-03-13
 updated: 2021-06-25
-version: "4.1.0"
+version: 4.1.0
 stars: 
 ratings: 
 reviews: 
@@ -24,12 +24,13 @@ meta: ok
 verdict: nosource
 date: 2021-11-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: monederodotcom
-social:
+social: 
 redirect_from:
-  - /com.monederoapp/
-  - /posts/com.monederoapp/
+- /com.monederoapp/
+- /posts/com.monederoapp/
+
 ---
 
 ## App Description

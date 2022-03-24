@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Redot Exchange - Bitcoin, Ethereum, Crypto Trading"
+title: Redot Exchange - Bitcoin, Ethereum, Crypto Trading
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.redot.app
 appCountry: 
 released: 2020-03-03
 updated: 2021-12-06
-version: "1.0.50"
+version: 1.0.50
 stars: 4.3333335
 ratings: 37
 reviews: 3
@@ -23,13 +23,14 @@ meta: ok
 verdict: custodial
 date: 2021-11-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: redotcom
 social:
-  - https://www.linkedin.com/company/redotcom
-  - https://www.facebook.com/redotexchange
-  - https://www.reddit.com/r/redot_com
-redirect_from:
+- https://www.linkedin.com/company/redotcom
+- https://www.facebook.com/redotexchange
+- https://www.reddit.com/r/redot_com
+redirect_from: 
+
 ---
 
 ## App Description

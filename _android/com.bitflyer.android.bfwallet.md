@@ -1,6 +1,6 @@
 ---
 wsId: bitFlyer
-title: "bitFlyer Crypto Exchange"
+title: bitFlyer Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.bitflyer.android.bfwallet
 appCountry: jp
 released: 2019-10-19
-updated: 2022-02-24
-version: "7.1.0"
-stars: 3.9790697
+updated: 2022-03-17
+version: 7.3.0
+stars: 3.970046
 ratings: 4430
-reviews: 1324
+reviews: 1329
 size: 17M
 website: https://bitflyer.com
 repository: 
@@ -23,11 +23,12 @@ meta: ok
 verdict: custodial
 date: 2021-08-27
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitFlyer
 social:
-  - https://www.facebook.com/bitflyer
-redirect_from:
+- https://www.facebook.com/bitflyer
+redirect_from: 
+
 ---
 
 > We ensure the safety of your funds with state-of-the-art security features including cold wallets, Multisig, 2FA, Installation of web application firewall (WAF), encryption of customer information, asset segregation and more.

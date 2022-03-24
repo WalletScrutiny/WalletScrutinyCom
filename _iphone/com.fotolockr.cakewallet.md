@@ -1,6 +1,6 @@
 ---
 wsId: cake
-title: "Cake Wallet"
+title: Cake Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1334702542
 released: 2018-01-19
 updated: 2022-02-08
-version: "4.3.8"
-stars: 3.35
-reviews: 80
-size: 82095104
+version: 4.3.8
+stars: 3.30488
+reviews: 82
+size: '82095104'
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/112
@@ -22,11 +22,12 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-14
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: cakewallet
 social:
-  - https://www.facebook.com/cakewallet
-  - https://www.reddit.com/r/cakewallet
+- https://www.facebook.com/cakewallet
+- https://www.reddit.com/r/cakewallet
+
 ---
 
 **Update 2021-04-14**: They now do have a public issue tracker and

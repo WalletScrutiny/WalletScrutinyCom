@@ -1,6 +1,6 @@
 ---
 wsId: zeusln
-title: "Zeus: Bitcoin and Lightning"
+title: 'Zeus: Bitcoin and Lightning'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
 updated: 2022-02-28
-version: "0.6.0"
-stars: 4.1538463
+version: 0.6.0
+stars: 4.266667
 ratings: 45
-reviews: 8
+reviews: 10
 size: 48M
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
@@ -23,12 +23,13 @@ meta: ok
 verdict: nonverifiable
 date: 2021-04-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ZeusLN
-social:
+social: 
 redirect_from:
-  - /app.zeusln.zeus/
-  - /posts/app.zeusln.zeus/
+- /app.zeusln.zeus/
+- /posts/app.zeusln.zeus/
+
 ---
 
 This app is a bit special as it does not hold your private keys but neither is

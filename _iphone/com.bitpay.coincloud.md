@@ -1,6 +1,6 @@
 ---
 wsId: coincloud
-title: "Coin Cloud Wallet"
+title: Coin Cloud Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,7 +9,7 @@ appCountry:
 idd: 1421460676
 released: 2018-09-09
 updated: 2022-02-16
-version: "1.9.6"
+version: 1.9.6
 stars: 3.95679
 reviews: 162
 size: 80605184
@@ -22,10 +22,11 @@ meta: defunct
 verdict: nosource
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: CoinCloudATM
 social:
-  - https://www.facebook.com/coincloudATM
+- https://www.facebook.com/coincloudATM
+
 ---
 
 **Update 2022-02-27**: This app is not available anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Bitkub - Bitcoin, Cryptocurrency Exchange"
+title: Bitkub - Bitcoin, Cryptocurrency Exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.bitkub
 appCountry: 
 released: 2019-04-20
 updated: 2021-11-26
-version: "3.8"
+version: '3.8'
 stars: 4.2295084
 ratings: 18826
 reviews: 31
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-08-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitkubofficial
 social:
-  - https://www.linkedin.com/company/bitkub
-  - https://www.facebook.com/bitkubofficial
-redirect_from:
+- https://www.linkedin.com/company/bitkub
+- https://www.facebook.com/bitkubofficial
+redirect_from: 
+
 ---
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform

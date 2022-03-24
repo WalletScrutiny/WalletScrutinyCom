@@ -1,6 +1,6 @@
 ---
 wsId: trastra
-title: "TRASTRA: Crypto Wallet & Card"
+title: 'TRASTRA: Crypto Wallet & Card'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appCountry: us
 idd: 1446427008
 released: 2019-01-20
 updated: 2022-02-09
-version: "2.6.4"
+version: 2.6.4
 stars: 3.5
 reviews: 6
 size: 47484928
@@ -22,11 +22,12 @@ meta: defunct
 verdict: custodial
 date: 2022-03-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Trastra_ltd
 social:
-  - https://www.linkedin.com/company/trastra
-  - https://www.facebook.com/trastra.ltd
+- https://www.linkedin.com/company/trastra
+- https://www.facebook.com/trastra.ltd
+
 ---
 
 **Update 2022-02-26**: This app is not available anymore.

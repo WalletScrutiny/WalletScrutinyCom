@@ -1,7 +1,7 @@
 ---
 wsId: 
-title: "Samourai Bitcoin Wallet"
-altTitle: "(Fake) Samourai Bitcoin Wallet"
+title: Samourai Bitcoin Wallet
+altTitle: (Fake) Samourai Bitcoin Wallet
 authors:
 - emanuel
 - leo
@@ -10,7 +10,7 @@ appId: samurai.wallet.crypto
 appCountry: 
 released: 2021-07-31
 updated: 2021-08-01
-version: "9.8"
+version: '9.8'
 stars: 
 ratings: 
 reviews: 
@@ -24,10 +24,11 @@ meta: defunct
 verdict: fake
 date: 2021-09-10
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-09-09**: This app is no more.

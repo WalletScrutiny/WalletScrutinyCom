@@ -1,6 +1,6 @@
 ---
 wsId: Colodax
-title: "Colodax - Bitcoin & Cryptocurrency exchange"
+title: Colodax - Bitcoin & Cryptocurrency exchange
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.colodax.colodax
 appCountry: us
 released: 2020-01-31
 updated: 2021-09-17
-version: "1.7.2"
+version: 1.7.2
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-11-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: colodax
 social:
-  - https://www.linkedin.com/company/colodax
-  - https://www.facebook.com/colodax
-redirect_from:
+- https://www.linkedin.com/company/colodax
+- https://www.facebook.com/colodax
+redirect_from: 
+
 ---
 
 ## App Description

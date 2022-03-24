@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "ChainEX"
+title: ChainEX
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: io.chainex.app
 appCountry: 
 released: 
 updated: 2021-09-30
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,12 +23,13 @@ meta: ok
 verdict: custodial
 date: 2021-10-26
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: ChainEXIO
 social:
-  - https://www.linkedin.com/company/chainexio
-  - https://www.facebook.com/ChainEXIO
-redirect_from:
+- https://www.linkedin.com/company/chainexio
+- https://www.facebook.com/ChainEXIO
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: bitthumbglobal
-title: "BitGlobal (ex: Bithumb Global)"
+title: 'BitGlobal (ex: Bithumb Global)'
 altTitle: 
 authors:
 - danny
@@ -9,10 +9,10 @@ appCountry: us
 idd: 1467713913
 released: 2019-06-25
 updated: 2022-02-18
-version: "2.6.4"
+version: 2.6.4
 stars: 2.48
 reviews: 75
-size: 90268672
+size: '90268672'
 website: https://www.bithumb.pro/alliance
 repository: 
 issue: 
@@ -22,12 +22,13 @@ meta: ok
 verdict: custodial
 date: 2021-09-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: BithumbGlobal
 social:
-  - https://www.linkedin.com/company/bithumbglobal
-  - https://www.facebook.com/bithumb.global
-  - https://www.reddit.com/r/BithumbGlobal
+- https://www.linkedin.com/company/bithumbglobal
+- https://www.facebook.com/bithumb.global
+- https://www.reddit.com/r/BithumbGlobal
+
 ---
 
 {% include copyFromAndroid.html %}

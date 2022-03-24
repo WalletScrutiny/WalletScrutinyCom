@@ -1,6 +1,6 @@
 ---
 wsId: Paritex
-title: "Paritex Bitcoin&Altcoin Trade"
+title: Paritex Bitcoin&Altcoin Trade
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.paritex.paritexapp
 appCountry: tr
 idd: 1550831461
 released: 2021-02-11
-updated: 2022-01-02
-version: "2.2.6"
-stars: 4.39473
-reviews: 76
-size: 94111744
+updated: 2022-03-21
+version: 2.3.7
+stars: 4.38961
+reviews: 77
+size: '105248768'
 website: https://www.paritex.com/
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-10-24
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: paritexexchange
-social:
+social: 
+
 ---
 
 {% include copyFromAndroid.html %}

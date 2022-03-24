@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: "Nexo - Crypto Account"
+title: 'Nexo: Buy BTC, ETH, SOL, AVAX'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appCountry:
 idd: 1455341917
 released: 2019-06-30
 updated: 2022-03-05
-version: "2.2.21"
-stars: 3.57197
-reviews: 792
-size: 56515584
+version: 2.2.21
+stars: 3.57519
+reviews: 798
+size: '56515584'
 website: https://nexo.io
 repository: 
 issue: 
@@ -22,11 +22,12 @@ meta: ok
 verdict: custodial
 date: 2021-05-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: NexoFinance
 social:
-  - https://www.facebook.com/nexofinance
-  - https://www.reddit.com/r/Nexo
+- https://www.facebook.com/nexofinance
+- https://www.reddit.com/r/Nexo
+
 ---
 
 In the description on the App Store we read:

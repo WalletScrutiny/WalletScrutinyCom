@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Anbbit - Buy & Sell Bitcoin"
+title: Anbbit - Buy & Sell Bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.anbbit.exchange
 appCountry: 
 released: 2020-10-16
 updated: 2020-12-31
-version: "1.1.2"
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2021-12-28
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

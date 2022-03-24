@@ -1,6 +1,6 @@
 ---
 wsId: DeltaTrading
-title: "Delta Trading – FX, Shares, Indices, Crypto, CFDs"
+title: Delta Trading – FX, Shares, Indices, Crypto, CFDs
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: delta.pk.mobile
 appCountry: bg
 released: 2013-03-29
 updated: 2021-05-17
-version: "5.8.7"
+version: 5.8.7
 stars: 4.09
 ratings: 410
 reviews: 55
@@ -23,12 +23,13 @@ meta: ok
 verdict: nosendreceive
 date: 2021-10-13
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: deltastock
 social:
-  - https://www.linkedin.com/company/deltastock-ad
-  - https://www.facebook.com/Deltastock
-redirect_from:
+- https://www.linkedin.com/company/deltastock-ad
+- https://www.facebook.com/Deltastock
+redirect_from: 
+
 ---
 
 ## App Description

@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: "KEYRING PRO Multichain Wallet"
+title: KEYRING PRO Multichain Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2022-02-18
-version: "1.8.0"
+updated: 2022-03-18
+version: 1.8.1
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +23,11 @@ meta: ok
 verdict: nosource
 date: 2021-11-17
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: KEYRING_PRO
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 ## App Description

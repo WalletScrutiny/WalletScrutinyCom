@@ -1,6 +1,6 @@
 ---
 wsId: PionexLite
-title: "Pionex - Buy Bitcoin & Ethereum"
+title: Pionex - Buy Bitcoin & Ethereum
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.pionex.lite
 appCountry: cn
 released: 2021-05-14
 updated: 2021-12-17
-version: "1.1.9"
+version: 1.1.9
 stars: 3.6
 ratings: 33
 reviews: 16
@@ -23,10 +23,11 @@ meta: defunct
 verdict: custodial
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-02-18**: This app is not on the Store anymore.

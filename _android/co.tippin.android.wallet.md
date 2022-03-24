@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Tippin"
+title: Tippin
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: co.tippin.android.wallet
 appCountry: 
 released: 
 updated: 2019-10-22
-version: "Varies with device"
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2021-10-15
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2021-10-07**: This app is not on Play Store anymore.

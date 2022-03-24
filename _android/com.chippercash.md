@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: "Chipper Cash"
+title: Chipper Cash
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ users: 1000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2022-03-09
-version: "1.10.1"
-stars: 4.328063
+updated: 2022-03-11
+version: 1.10.2
+stars: 4.2352943
 ratings: 59630
-reviews: 1428
+reviews: 1466
 size: 111M
 website: https://chippercash.com
 repository: 
@@ -24,11 +24,12 @@ meta: ok
 verdict: custodial
 date: 2021-09-03
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: chippercashapp
 social:
-  - https://www.facebook.com/Chippercashapp
-redirect_from:
+- https://www.facebook.com/Chippercashapp
+redirect_from: 
+
 ---
 
 Stated in their sites [support article](https://support.chippercash.com/en/articles/4750740-how-to-buy-sell-cryptocurrency-on-chipper-cash) 

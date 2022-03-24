@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "xsats - buy and secure bitcoin"
+title: xsats - buy and secure bitcoin
 altTitle: 
-authors:
-
+authors: 
 users: 100
 appId: com.xsats.xsats
 appCountry: 
 released: 
 updated: 2021-02-22
-version: "1.1.7"
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: stale
 verdict: fewusers
 date: 2022-02-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 

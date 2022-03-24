@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "CoinWallet.id"
+title: CoinWallet.id
 altTitle: 
-authors:
-
+authors: 
 users: 500
 appId: pkg.coinwallet.id
 appCountry: 
 released: 2021-04-13
 updated: 2021-04-23
-version: "1.0.0"
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -23,10 +22,11 @@ meta: defunct
 verdict: fewusers
 date: 2022-03-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
 **Update 2022-03-01**: This app is not available anymore.

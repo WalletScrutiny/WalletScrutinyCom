@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: "Indodax Trading Platform"
+title: Indodax Trading Platform
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: id.co.bitcoin.Bitcoin-Trading-Platform
 appCountry: 
 idd: 1349104693
 released: 2018-03-29
-updated: 2022-03-05
-version: "3.2.5"
+updated: 2022-03-16
+version: 3.2.6
 stars: 5
-reviews: 1
-size: 119184384
+reviews: 4
+size: '125508608'
 website: https://indodax.com
 repository: 
 issue: 
@@ -22,9 +22,10 @@ meta: ok
 verdict: custodial
 date: 2021-05-31
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: indodax
-social:
+social: 
+
 ---
 
 This is the interface to

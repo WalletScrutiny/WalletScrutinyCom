@@ -1,6 +1,6 @@
 ---
 wsId: WalletIO
-title: "wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)"
+title: wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)
 altTitle: 
 authors:
 - danny
@@ -9,13 +9,13 @@ appId: io.wallet
 appCountry: 
 released: 2019-08-24
 updated: 2021-11-17
-version: "1.14.0"
+version: 1.14.0
 stars: 3.4
 ratings: 123
 reviews: 12
 size: 25M
 website: https://wallet.io
-repository: https://github.com/wallet-io
+repository: 
 issue: 
 icon: io.wallet.png
 bugbounty: 
@@ -23,10 +23,13 @@ meta: defunct
 verdict: nosource
 date: 2022-02-25
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: io_wallet
 social:
-redirect_from:
+- https://medium.com/@walletio
+- https://github.com/wallet-io
+redirect_from: 
+
 ---
 
 **Update 2022-02-18**: This app is not on the Store anymore.

@@ -1,6 +1,6 @@
 ---
 wsId: DelioLending
-title: "Delio"
+title: Delio
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.DelioHybrid
 appCountry: kr
 idd: 1498891184
 released: 2020-02-26
-updated: 2022-02-15
-version: "1.3.8"
+updated: 2022-03-10
+version: 1.3.9
 stars: 3.4375
 reviews: 16
-size: 72374272
+size: '72374272'
 website: https://www.delio.foundation/
 repository: 
 issue: 
@@ -22,10 +22,11 @@ meta: ok
 verdict: custodial
 date: 2021-10-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: happydelio
 social:
-  - https://www.facebook.com/delio.io
+- https://www.facebook.com/delio.io
+
 ---
 
 {% include copyFromAndroid.html %}

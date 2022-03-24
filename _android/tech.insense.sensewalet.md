@@ -1,6 +1,6 @@
 ---
 wsId: iwallet
-title: "iWallet - blockchain wallet for Bitcoin, Ethereum"
+title: iWallet - blockchain wallet for Bitcoin, Ethereum
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appId: tech.insense.sensewalet
 appCountry: 
 released: 2018-09-27
 updated: 2019-06-21
-version: "0.0068beta"
+version: 0.0068beta
 stars: 4
 ratings: 25
 reviews: 15
@@ -24,12 +24,13 @@ meta: defunct
 verdict: nosource
 date: 2021-11-16
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from:
-  - /tech.insense.sensewalet/
-  - /posts/tech.insense.sensewalet/
+- /tech.insense.sensewalet/
+- /posts/tech.insense.sensewalet/
+
 ---
 
 **Update 2022-01-04**: As of today, the homepage for this app is now up for sale. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478318114106318850)

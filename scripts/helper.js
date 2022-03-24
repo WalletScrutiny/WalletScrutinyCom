@@ -5,29 +5,29 @@ const path = require('path')
 const yaml = require('js-yaml')
 const dateFormat = require('dateformat')
 
-function downloadImageFile(url, path, callback) {
-  const iconFile = fs.createWriteStream(path)
+function downloadImageFile(url, iconPath, callback) {
+  const iconFile = fs.createWriteStream(iconPath)
   const request = https.get(`${url}`, response => {
     response.pipe(iconFile)
     response.on('end', () => {
       (async () => {
-        const mimetype = ((await FileType.fromFile(path)) || {'mime': "undefined"}).mime
+        const mimetype = ((await FileType.fromFile(iconPath)) || {'mime': "undefined"}).mime
         if (mimetype == "image/png") {
           iconExtension = "png"
         } else if (mimetype == "image/jpg" || mimetype == "image/jpeg") {
           iconExtension = "jpg"
         } else if (mimetype == "text/html" || mimetype == "text/plain") {
-          console.error(`Not writing results to ${path}`)
+          console.error(`Not writing results to ${iconPath}`)
           console.error(`Icon wrong mime type ${mimetype}. Skipping.`)
           console.error(body)
           return
         } else {
-          console.error(`Not writing results to ${path}`)
+          console.error(`Not writing results to ${iconPath}`)
           console.error(`Icon wrong mime type ${mimetype}. Skipping.`)
           return
         }
         callback(iconExtension)
-        fs.rename(path, `${path}.${iconExtension}`, err => {
+        fs.rename(iconPath, `${iconPath}.${iconExtension}`, err => {
           if ( err ) console.log('ERROR: ' + err)
         })
       })()
@@ -76,22 +76,34 @@ function addDefunctIfNew(id) {
   }
 }
 
-function migrateAll(folder, migration, writeResult) {
+function migrateAll(folder, migration, headers) {
   fs.readdir(folder, (err, files) => {
     files.forEach((file, index) => {
-      migrateFile(folder, file, migration, writeResult)
+      migrateFile(folder, file, migration, getEmptyHeader(headers))
     })
   })
 }
 
-function migrateFile(folder, file, migration, writeResult) {
+function migrateFile(folder, file, migration, defaultHeader) {
   const appPath = path.join(folder, file)
-  var parts = fs.readFileSync(appPath, 'utf8').split("---")
-  const headerStr = parts[1]
-  const body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
-  const header = yaml.load(headerStr)
-  migration(header, body, file)
-  writeResult(header, body)
+  const content = {header: defaultHeader, body: undefined}
+  loadFromFile(appPath, content)
+  migration(content.header, content.body, file, folder)
+  writeResult(folder, content.header, content.body)
+}
+
+/**
+ * Loads header and body from yaml file
+ *
+ * @param file The Path or file to be loaded
+ * @param outHeaderAndBody Potentially pre-filled object {header: {}, body: ""}
+ **/
+function loadFromFile(file, outHeaderAndBody) {
+  var parts = fs.readFileSync(file, 'utf8').split("---")
+  const header = yaml.load(parts[1])
+  outHeaderAndBody.header = outHeaderAndBody.header || {}
+  Object.keys(header).forEach( k => outHeaderAndBody.header[k] = header[k])
+  outHeaderAndBody.body = parts.slice(2).join("---").replace(/^\s*[\r\n]/g, "")
 }
 
 function dateOrEmpty(d) {
@@ -140,6 +152,30 @@ function checkHeaderKeys(header, allowedHeaders) {
   if (losts.length > 0) console.error(`Losing properties: ${losts}.`)
 }
 
+function getEmptyHeader(headers) {
+  return headers.reduce((a, v) => ({ ...a, [v]: null}), {})
+}
+
+function getResult(header, body) {
+  const schema = yaml.DEFAULT_SCHEMA
+  schema.compiledTypeMap.scalar['tag:yaml.org,2002:null'].represent.lowercase = function() { return '' }
+  schema.compiledTypeMap.scalar['tag:yaml.org,2002:timestamp'].represent = function(it) { return dateOrEmpty(it) }
+  return `---
+${yaml.dump(header, {
+  noArrayIndent: true,
+  schema: schema
+})}
+---
+
+${body}`
+}
+
+function writeResult(folder, header, body) {
+  fs
+    .createWriteStream(`${folder}${header.appId}.md`)
+    .write(getResult(header, body))
+}
+
 module.exports = {
   addReviewArchive,
   downloadImageFile,
@@ -149,5 +185,9 @@ module.exports = {
   dateOrEmpty,
   stringOrEmpty,
   updateMeta,
-  checkHeaderKeys
+  checkHeaderKeys,
+  loadFromFile,
+  getEmptyHeader,
+  getResult,
+  writeResult
 }

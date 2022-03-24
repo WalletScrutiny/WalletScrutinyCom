@@ -1,15 +1,14 @@
 ---
 wsId: 
-title: "Bachex"
+title: Bachex
 altTitle: 
-authors:
-
+authors: 
 users: 50
 appId: com.bachex_android
 appCountry: 
 released: 2021-03-28
 updated: 2021-06-25
-version: "1.2.8"
+version: 1.2.8
 stars: 
 ratings: 
 reviews: 
@@ -23,9 +22,10 @@ meta: ok
 verdict: fewusers
 date: 2021-08-08
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-redirect_from:
+social: 
+redirect_from: 
+
 ---
 
