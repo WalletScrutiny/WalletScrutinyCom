@@ -38,10 +38,10 @@ social:
 
 The Ballet Crypto Pro is the third product from the Ballet Crypto series. 
 
-- {% include walletLink.html wallet='hardware/balletcryptopure' verdict='true' %}
-- {% include walletLink.html wallet='hardware/balletcryptoreal' verdict='true' %}
+- {% include walletLink.html wallet='bearer/balletcryptopure' verdict='true' %}
+- {% include walletLink.html wallet='bearer/balletcryptoreal' verdict='true' %}
 
-It's a multi-currency cold wallet meant for the more discerning cryptocurrency holder. If the Ballet Crypto Pure series is for novelty collectors, the Pro has features that are more attuned to the privacy and security conscious. 
+It is described as a multi-currency cold card meant for the more discerning cryptocurrency holder. If the Ballet Crypto Pure series is for novelty collectors, the Pro has features that are more attuned to the privacy and security conscious. 
 
 The private key is encrypted with a passphrase that is custom provided by the user upon purchase. Despite the extra effort made by the provider, security-wise the private key still passes through the hands of the provider.
 

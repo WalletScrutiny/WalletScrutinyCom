@@ -1,5 +1,5 @@
 const verdictOrder = "nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet"
-const platformOrder = "hardware,android,iphone"
+const platformOrder = "hardware,android,iphone,bearer"
 const metaOrder = "ok,stale,obsolete,defunct"
 
 window.wallets.sort((a, b) => {
@@ -76,5 +76,9 @@ window.platforms = {
   hardware: {
     css: 'fas fa-toolbox',
     category: 'Hardware Wallet'
+  },
+  bearer: {
+    css: 'fab fa-bitcoin',
+    category: 'Bearer Token'
   }
 }

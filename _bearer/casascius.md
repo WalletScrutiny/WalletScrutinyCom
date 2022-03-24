@@ -33,9 +33,11 @@ social:
 
 ---
 
-The idea of physical coins that contain bitcoins was the brainchild of Mike Caldwell, a software engineer from Utah. The coins come in different BTC denominations: 1, 10, 25, 100 and 1000. The physical bitcoins grew in popularity because of their tangible nature. They were first announced in the bitcointalk.org forum on [September 6, 2011.](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883). Embedded in each physical coin is a 30-character string representing the private key. This was covered by a tamper-resistant hologram.
+## Background
 
-Caldwell has since stopped selling the coins on November 27, 2013 due to [FinCen notices and other regulatory concerns](https://www.reuters.com/article/bitcoin-letters-idUSL2N0JW1YP20131217). However, it is still possible to track how many casascius coins in circulation have not been redeemed via this [website](https://casascius.uberbills.com/).
+The idea of physical coins that contain bitcoins was the brainchild of Mike Caldwell, a software engineer from Utah. The coins come in different BTC denominations: 1, 10, 25, 100 and 1000. The physical bitcoins grew in popularity because of their tangible nature. They were first announced in the bitcointalk.org forum on [September 6, 2011.](https://bitcointalk.org/index.php?topic=41892.msg509883#msg509883) Embedded in each physical coin is a 30-character string representing the private key. This was covered by a tamper-resistant hologram.
+
+Caldwell has since stopped selling the coins on November 27, 2013 due to [FinCen notices and other regulatory concerns](https://www.reuters.com/article/bitcoin-letters-idUSL2N0JW1YP20131217). However, it is still possible to track how many Casascius coins in circulation have not been redeemed via this [website](https://casascius.uberbills.com/).
 
 Notes: the inception of physical bitcoins with embedded private keys had a vital weakness: trust. The people who bought the Casascius coins hinged the value of the coins by trusting Mike Caldwell who printed the private keys. Fast forward to the future, and an innovation to this is the 2FKG (2 Factor Key Generation) process [pioneered by BalletCrypto](https://www.balletcrypto.com/en/2FKG-graphic/). This created a system where the buyer generates a part of the secret, unknowable to the provider. 
 

@@ -31,6 +31,8 @@ social:
 
 ---
 
+## Product Description
+
 Description from its specification **[paper](https://ipfs.io/ipfs/QmbHnwBuM7Y41Q1DqnMDRx8yQ1aCMtqVka9biPY6cjWogq)**
 
 > The Kong project proposes a novel way to create sound physical cryptocurrency,

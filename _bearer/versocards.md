@@ -21,8 +21,8 @@ issue:
 icon: versocards.png
 bugbounty: 
 meta: defunct
-verdict: wip
-date: 2022-02-17
+verdict: prefilled
+date: 2022-03-19
 signer: 
 reviewArchive: 
 twitter: VersoCards
@@ -31,7 +31,13 @@ social:
 
 ---
 
-This hardware wallet has a companion app on Google Play named **Verso Wallet** with appID '**com.VersoSolutions.VersoApp**'. As of 2022-01-02, it is [no longer available](https://play.google.com/store/apps/details?id=com.VersoSolutions.VersoApp).
+## Addendum 2022-03-19
+
+Back when the Verso card was still available, it was affordable enough to pass on from one user to another.
+
+## Previous Review 2022-02-17
+
+The Verso Card has a companion app on Google Play named **Verso Wallet** with appID '**com.VersoSolutions.VersoApp**'. As of 2022-01-02, it is [no longer available](https://play.google.com/store/apps/details?id=com.VersoSolutions.VersoApp).
 
 A comprehensive review and unboxing article has been made by [Bitcoin Magazine on March 24, 2014](https://bitcoinmagazine.com/reviews/verso-unboxing-usage-1395713243).
 

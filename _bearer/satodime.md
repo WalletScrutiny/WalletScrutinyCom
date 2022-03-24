@@ -40,7 +40,7 @@ social:
 
 ## Product Description
 
-The Satodime is a bearer smartcard that can hold multiple cryptocurrencies as well as ERC20 tokens and NFTs. The card's secure element is an EAL6+ chip which stores the private keys. According to linked Medium article, it is meant as a [disposable hardware wallet](https://satochip.medium.com/satodime-why-and-how-to-use-your-bearer-crypto-card-490316180873) which allows users to transact hand-to-hand.
+The Satodime is a bearer smartcard that can hold multiple cryptocurrencies as well as ERC20 tokens and NFTs. The card's secure element is an EAL6+ chip which stores the private keys. According to this Medium article, it is meant  to [allow users to transact hand-to-hand.]((https://satochip.medium.com/satodime-why-and-how-to-use-your-bearer-crypto-card-490316180873))
 
 > With a Satodime card, you can physically transfer #Bitcoin, #Litecoin, #BitcoinCash, #Ethereum or any other #ERC20 tokens (including #NFTs) from one user to another (hand-to-hand), while still remaining secure, without the need to trust a third party.
 
@@ -90,7 +90,7 @@ details a sample transaction wherein a user buys a Tesla car:
 > You want to buy the new Tesla using Bitcoin. You grab your Satodime, seal a new Bitcoin vault, write down the BTC address and load 1 BTC to it. Then, you go to the car dealer and begin negotiations. The dealer is asking for 1.25 BTC for this beautiful Ludicrous P100D. You accept the deal and send 0.25 more BTC to your Satodime vault using your favorite Bitcoin client. You grab your mobile phone, scan the Satodime using NFC and show the sealed vault to the car dealer. He can verify that the Bitcoin vault is sealed and full of 1.25 BTC. You shake hands and give him the card. You grab the car and leave the showroom peacefully and silently. SEAL — LOAD — VERIFY
 
 The name and feature set suggests a relation to CoinKite's
-{% include walletLink.html wallet='hardware/opendime' verdict='true' %}. It's
+{% include walletLink.html wallet='bearer/opendime' verdict='true' %}. It's
 basically an electronic version of it, with mostly the same features, including
 the assurance to have externally provided entropy being used in the key
 generation and the issue with not having a backup but the advantage of the
@@ -100,5 +100,5 @@ though, the coins stored on the device are lost.
 The recipient of a Satodime has to install the companion app in order to verify
 and claim the received funds.
 
-Just like the Opendime, Satodime lets the companion app know the key when
-unsealed. This defeats the purpose of a hardware wallet.
+Just like the Opendime, Satodime **lets the companion app know the key when
+unsealed.**

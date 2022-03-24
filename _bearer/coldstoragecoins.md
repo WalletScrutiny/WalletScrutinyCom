@@ -39,7 +39,7 @@ social:
 
 Singapore based Rearden Metals Pte Ltd touts what it calls its Blockchain Mint service along with its Cold Storage Coins. It is uncanny in its resemblance to the original:
 
-{% include walletLink.html wallet='hardware/casascius' verdict='true' %} 
+{% include walletLink.html wallet='bearer/casascius' verdict='true' %} 
 
 The Casascius coins series was discontinued on the 27th of November, 2013 due to regulatory concerns. The earliest date we could find for Cold Storage Coins was on December 28, 2017. This date is significant because 2017 marked a year for one of Bitcoin's most notable price increase to $20,000. At the time, $20,000 was the all-time high. 2017 was also the year of the Initial Coin Offering (ICO) when a lot of mainstream investors delved into fundraising projects related to cryptocurrencies. 
 
@@ -72,7 +72,7 @@ How to transfer cryptocurrencies to another wallet
 
 ## Analysis 
 
-Similar to {% include walletLink.html wallet='hardware/casascius' %}, Cold Storage Coins **etches the private keys on the coins and thus allows them to make copies of it**. The users would have to trust that they won't.
+Similar to {% include walletLink.html wallet='bearer/casascius' %}, Cold Storage Coins **etches the private keys on the coins and thus allows them to make copies of it**. The users would have to trust that they won't.
 
 They did offer a [Security Statement](https://coldstoragecoins.com/security-statement/), but again, users would just have to take their word for it that the Managing Director won't make copies of the private keys on each coin they sell.
 

@@ -97,6 +97,6 @@ They [responded](https://twitter.com/lazutkinandrew/status/1501411675907444738):
 
 The clarification makes a distinction between their business-to-business customers vs their business-to-customer clients. 
 
-As a hardware wallet, the Tangem **lacks an input or output interface** that could confirm a transaction independent from a companion app when redeeming the funds. 
+As a bearer token, the Tangem **lacks an input or output interface** that could confirm a transaction independent from a companion app when redeeming the funds. 
          
  

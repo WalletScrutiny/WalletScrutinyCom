@@ -194,6 +194,9 @@ collections:
   hardware:
     output: true
     permalink: /:collection/:path/
+  bearer:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -242,6 +245,17 @@ defaults:
       type: "hardware"
     values:
       layout: reviewHardware
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # bearer
+  - scope:
+      path: ""
+      type: "bearer"
+    values:
+      layout: reviewBearer
       author_profile: true
       read_time: false
       comments: false

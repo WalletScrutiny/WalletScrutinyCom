@@ -38,7 +38,7 @@ Other advertised features include the offline storage of private keys.
 
 ## Keys are prefilled
 
-From the FAQ, "Are my funds safe in a Polymerbit?"
+[From the FAQ](https://polymerbit.ch/#FAQ), "Are my funds safe in a Polymerbit?"
 
 > Polymerbit takes every precaution to reduce the risk of keys being exposed. Keys are produced on an offline unit in a room where no other electronics are allowed. The project has been closely monitored by members of the Bitcointalk community for compliance. Of course, there is a risk of loss if the physical note is stolen, destroyed or lost. However, this can happen with any tangible asset.
 
@@ -48,4 +48,4 @@ However, they offer an alternative, keyless variant of their product. From the a
 
 ## Analysis
 
-Polymerbit offers products of varying prices, with prices ranging from 20-100 dollars. As noted above, some of these "banknotes" have the keys printed before delivery. While the providers claim to be taking "every precaution to reduce the risk of keys being exposed" the user still has to trust that these **prefilled** keys will not be compromised. 
+Polymerbit offers products of varying prices, with prices ranging from 20-100 dollars. As noted above, some of the banknotes have the keys **printed before delivery**. While the providers claim to be taking "every precaution to reduce the risk of keys being exposed" the user still has to trust that the keys will not be compromised. 

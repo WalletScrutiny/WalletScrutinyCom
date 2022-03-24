@@ -34,4 +34,4 @@ social:
 
 ---
 
-Without a screen and whitout a button, this device cannot provide basic security of hardware wallets.
+Without a screen and without a button, this device cannot provide basic security of hardware wallets.
