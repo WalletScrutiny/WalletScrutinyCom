@@ -22,7 +22,7 @@ icon: kongcash.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2022-02-17
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: kongiscash

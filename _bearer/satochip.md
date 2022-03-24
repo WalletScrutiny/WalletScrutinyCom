@@ -23,7 +23,7 @@ icon: satochip.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2021-08-08
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: satochipwallet

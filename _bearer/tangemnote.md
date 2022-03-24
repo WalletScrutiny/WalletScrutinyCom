@@ -25,7 +25,7 @@ icon: tangemnote.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-11
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: Tangem

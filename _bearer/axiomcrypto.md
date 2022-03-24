@@ -25,7 +25,7 @@ icon: axiomcrypto.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-08
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

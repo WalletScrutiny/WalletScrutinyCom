@@ -22,7 +22,7 @@ icon: keepser.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-02-17
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: keepser

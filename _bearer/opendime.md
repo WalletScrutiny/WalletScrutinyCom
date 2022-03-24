@@ -24,7 +24,7 @@ icon: opendime.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2021-07-17
+date: 2022-03-23
 signer: 
 reviewArchive:
 - date: 2021-07-11

@@ -26,7 +26,7 @@ icon: coldlartouch.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2021-07-11
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: Coldlar

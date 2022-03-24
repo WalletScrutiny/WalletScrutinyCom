@@ -23,7 +23,7 @@ icon: littleshell.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-07-10
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

@@ -25,7 +25,7 @@ icon: casascius.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-02-18
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 
