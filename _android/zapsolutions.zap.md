@@ -25,7 +25,7 @@ date: 2022-03-24
 signer: 
 reviewArchive:
 - date: 2022-02-17
-  version: "0.5.5-beta"
+  version: 0.5.5-beta
   appHash: af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982
   gitRevision: 03cf27c0b199ab3789dc35f06874b4c9f557ce22
   verdict: reproducible
@@ -70,11 +70,13 @@ reviewArchive:
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
 twitter: ln_zap
-social: 
+social:
 - https://medium.com/@JimmyMow
-- https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LWQ1OGMyMWI3YTdmYTQ0YTVmODg4ZmNkYjQ1MzUxNGExMGRmZWEyNTUyOGQzMzZkYTdhODE3NmQxZWZiOGFkYWI
+- >-
+  https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LWQ1OGMyMWI3YTdmYTQ0YTVmODg4ZmNkYjQ1MzUxNGExMGRmZWEyNTUyOGQzMzZkYTdhODE3NmQxZWZiOGFkYWI
 redirect_from:
 - /posts/zapsolutions.zap/
+
 ---
 
 Here is the output using our

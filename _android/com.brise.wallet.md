@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-08
 updated: 2021-12-08
 version: 1.0.0
-stars: 3.1836734
+stars: 3.14
 ratings: 536
-reviews: 81
+reviews: 83
 size: 29M
 website: https://bitgert.com/
 repository: 

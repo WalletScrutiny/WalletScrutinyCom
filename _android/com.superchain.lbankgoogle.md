@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-08
 updated: 2022-03-15
 version: 3.41.53
-stars: 4.8
+stars: 4.8003073
 ratings: 46317
-reviews: 1689
+reviews: 1690
 size: 30M
 website: https://lbank.info
 repository: 

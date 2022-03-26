@@ -10,9 +10,9 @@ appCountry: us
 released: 2014-09-07
 updated: 2022-03-17
 version: 8.15.1
-stars: 4.265041
+stars: 4.266234
 ratings: 84499
-reviews: 3448
+reviews: 3449
 size: 66M
 website: https://stormx.io/
 repository: 

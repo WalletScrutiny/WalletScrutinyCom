@@ -2,7 +2,7 @@
 wsId: 
 title: 'Burtar wallet: Buy, Sell & Swap Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - leo
 users: 500
 appId: com.mobile.burtar
@@ -10,9 +10,9 @@ appCountry:
 released: Jun 26, 2021
 updated: 2021-06-26
 version: '1.0'
-stars: 4.2
+stars: 4.3333335
 ratings: 
-reviews: 5
+reviews: 6
 size: 3.0M
 website: https://burtar.com
 repository: 

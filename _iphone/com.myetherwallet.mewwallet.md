@@ -10,8 +10,8 @@ idd: 1464614025
 released: 2020-03-12
 updated: 2022-03-22
 version: 1.5.2
-stars: 4.65991
-reviews: 4143
+stars: 4.65961
+reviews: 4154
 size: '76448768'
 website: http://mewwallet.com
 repository: 

@@ -8,10 +8,10 @@ appId: com.root.BitcoinTrade
 appCountry: br
 idd: 1320032339
 released: 2017-12-13
-updated: 2022-03-21
-version: 4.2.1
-stars: 3.80584
-reviews: 788
+updated: 2022-03-24
+version: 4.2.2
+stars: 3.80556
+reviews: 792
 size: '37530624'
 website: http://www.bitcointrade.com.br/
 repository: 

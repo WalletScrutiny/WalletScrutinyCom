@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Quicrypto: Earn Crypto'
+title: 'Quicrypto: Play to Earn Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 released: 2019-11-12
 updated: 2022-03-16
 version: 3.21.0
-stars: 3.76
+stars: 3.8
 ratings: 4934
 reviews: 434
 size: 26M

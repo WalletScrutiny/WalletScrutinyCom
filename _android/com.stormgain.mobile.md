@@ -4,7 +4,7 @@ title: 'StormGain: Bitcoin Wallet App'
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.stormgain.mobile
 appCountry: de
 released: 2019-07-08

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-21
 updated: 2022-03-10
 version: 2.6.72.14
-stars: 3.54
+stars: 3.45
 ratings: 8728
-reviews: 407
+reviews: 409
 size: 63M
 website: https://crypterium.com
 repository: 

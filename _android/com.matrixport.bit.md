@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-15
 updated: 2022-03-18
 version: 1.0.5
-stars: 4.3333335
+stars: 4.428571
 ratings: 245
-reviews: 4
+reviews: 5
 size: 73M
 website: https://www.bit.com
 repository: 

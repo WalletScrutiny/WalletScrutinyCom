@@ -3,7 +3,7 @@ wsId:
 title: Payperless Crypto & BTC Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.payperless.wallet
 appCountry: 
 released: 2021-06-03
@@ -19,7 +19,7 @@ issue:
 icon: com.payperless.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

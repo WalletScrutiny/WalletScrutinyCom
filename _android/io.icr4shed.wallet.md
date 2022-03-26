@@ -4,7 +4,7 @@ title: MultiWallet - Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.icr4shed.wallet
 appCountry: 
 released: 2021-09-10
