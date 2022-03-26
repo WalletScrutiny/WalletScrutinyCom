@@ -18,7 +18,7 @@ shop:
 country: 
 price: 50USD
 repository: https://github.com/SeedSigner/seedsigner
-issue: 
+issue: https://github.com/SeedSigner/seedsigner/issues/166
 icon: seedsigner.png
 bugbounty: 
 meta: ok
