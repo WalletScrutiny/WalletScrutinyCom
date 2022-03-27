@@ -27,7 +27,7 @@ date: 2022-03-26
 signer: 
 reviewArchive: 
 twitter: SeedSigner
-social: 
+social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
 
 ---

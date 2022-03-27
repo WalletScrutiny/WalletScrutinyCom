@@ -1,6 +1,6 @@
 ---
 wsId: Cryptology
-title: 'Cryptology: Blockchain Wallet'
+title: 'Cryptology: Bitcoin Wallet BTC'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.cryptology.ios
 appCountry: gb
 idd: 1313186415
 released: 2018-03-23
-updated: 2022-03-20
-version: 3.9.2
+updated: 2022-03-24
+version: 3.9.3
 stars: 5
 reviews: 3
 size: '58217472'

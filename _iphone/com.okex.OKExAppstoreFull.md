@@ -10,8 +10,8 @@ idd: 1327268470
 released: 2018-01-04
 updated: 2022-03-21
 version: 6.0.16
-stars: 4.86667
-reviews: 12983
+stars: 4.86728
+reviews: 13148
 size: '533771264'
 website: https://www.okx.com/download
 repository: 

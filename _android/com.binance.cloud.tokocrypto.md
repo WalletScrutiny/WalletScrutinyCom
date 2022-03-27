@@ -10,9 +10,9 @@ appCountry: id
 released: 2020-10-19
 updated: 2022-03-16
 version: 1.5.1
-stars: 3.101812
+stars: 3.0992563
 ratings: 34617
-reviews: 28689
+reviews: 28698
 size: Varies with device
 website: https://www.tokocrypto.com
 repository: 

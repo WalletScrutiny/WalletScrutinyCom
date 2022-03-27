@@ -1,6 +1,6 @@
 ---
 wsId: iconomi
-title: 'ICONOMI: Buy and sell cryptocurrencies'
+title: 'ICONOMI: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny

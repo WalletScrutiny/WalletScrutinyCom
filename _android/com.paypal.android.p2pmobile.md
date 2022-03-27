@@ -11,9 +11,9 @@ appCountry:
 released: 2016-02-19
 updated: 2022-03-25
 version: 8.12.2
-stars: 4.3948975
+stars: 4.393369
 ratings: 2452159
-reviews: 329249
+reviews: 329394
 size: 160M
 website: https://www.paypal.com/mobile
 repository: 

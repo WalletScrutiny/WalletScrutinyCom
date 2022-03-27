@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: Bitrefill - Use Bitcoin to buy Gift Cards
+title: Bitrefill - Live on Crypto
 altTitle: 
 authors:
 - leo

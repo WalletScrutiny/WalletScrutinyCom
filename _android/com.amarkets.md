@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-31
 updated: 2022-03-17
 version: Varies with device
-stars: 4.6
+stars: 4.57
 ratings: 2509
-reviews: 24
+reviews: 25
 size: Varies with device
 website: https://www.amarkets.com
 repository: 

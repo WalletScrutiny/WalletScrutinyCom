@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-08-11
 updated: 2022-03-11
 version: 2.1.0
-stars: 4.8461537
+stars: 4.85
 ratings: 277
-reviews: 20
+reviews: 21
 size: 83M
 website: https://haruinvest.com
 repository: 

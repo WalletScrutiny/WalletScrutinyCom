@@ -4,7 +4,7 @@ title: CryptoTrader
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cryptotrader.app
 appCountry: 
 released: 2020-08-04

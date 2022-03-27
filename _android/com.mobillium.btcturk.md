@@ -10,9 +10,9 @@ appCountry: tr
 released: 2020-05-06
 updated: 2022-03-25
 version: 1.15.1
-stars: 4.5717144
+stars: 4.5728545
 ratings: 14766
-reviews: 4563
+reviews: 4565
 size: 121M
 website: https://www.btcturk.com
 repository: 

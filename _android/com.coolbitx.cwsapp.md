@@ -10,9 +10,9 @@ appCountry: cn
 released: 2017-12-01
 updated: 2022-03-17
 version: 2.37.0
-stars: 4.733871
+stars: 4.7711864
 ratings: 1147
-reviews: 449
+reviews: 450
 size: 71M
 website: http://coolwallet.io
 repository: 

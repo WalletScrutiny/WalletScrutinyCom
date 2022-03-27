@@ -10,9 +10,9 @@ appCountry: cn
 released: 2021-10-12
 updated: 2022-03-24
 version: 1.3.2
-stars: 4.1282053
+stars: 4.15
 ratings: 34
-reviews: 16
+reviews: 17
 size: 13M
 website: http://www.secretkeylabs.com
 repository: 
