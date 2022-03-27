@@ -1,5 +1,5 @@
 ---
-title: "SatoChip"
+title: SatoChip
 appId: satochip
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 1]
+dimensions:
+- 54
+- 85
+- 1
 weight: 10
-provider: "SatoChip"
+provider: SatoChip
 providerWebsite: https://satochip.io
 website: https://satochip.io
 shop: https://satochip.io/shop/
@@ -27,8 +30,9 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: satochipwallet
-social: 
-  - https://www.linkedin.com/company/satochip
+social:
+- https://www.linkedin.com/company/satochip
+
 ---
 
 From this product's homepage:

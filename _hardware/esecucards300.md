@@ -11,6 +11,7 @@ binaries:
 dimensions:
 - 85.6
 - 54
+- 1
 weight: 
 provider: Excelsecu Data Technology Co., Ltd
 providerWebsite: https://www.excelsecu.com/
@@ -29,7 +30,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- es_contact@excelsecu.com
+- mailto:es_contact@excelsecu.com
 
 ---
 

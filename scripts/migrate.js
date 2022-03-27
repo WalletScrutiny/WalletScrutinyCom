@@ -1,6 +1,7 @@
 const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
+const helperBearer = require('./helperBearer')
 
 const migration = function(header, body, fileName, folder) {
   // make sure, appId matches file name
@@ -30,8 +31,12 @@ mv images/wallet_icons/${folder}/small/{${header.icon},${newIcon}}
 mv images/wallet_icons/${folder}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
+  if (header.dimensions && (header.dimensions.length != 3)) {
+    console.error(`# ${folder}/${header.appId}.md: invalid dimensions ${header.dimensions}.`)
+  }
 }
 
 helperPlayStore.migrateAll(migration)
 helperAppStore.migrateAll(migration)
 helperHardware.migrateAll(migration)
+helperBearer.migrateAll(migration)

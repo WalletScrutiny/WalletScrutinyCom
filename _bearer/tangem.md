@@ -1,5 +1,5 @@
 ---
-title: "Tangem"
+title: Tangem
 appId: tangem
 authors:
 - kiwilamb
@@ -9,9 +9,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [54, 85, 0.6]
+dimensions:
+- 54
+- 85
+- 0.6
 weight: 3
-provider: "Tangem"
+provider: Tangem
 providerWebsite: https://tangem.com
 website: https://shop.tangem.com/collections/crypto-hardware-wallet
 shop: https://shop.tangem.com/products/tangem-card-pack
@@ -27,8 +30,9 @@ date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: tangem
-social: 
-  - https://www.linkedin.com/company/tangem
+social:
+- https://www.linkedin.com/company/tangem
+
 ---
 
 Tangem Wallet and {% include walletLink.html wallet='bearer/tangemnote' verdict='true' %} are from the same providers.
