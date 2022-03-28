@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 Google Play lists its features: 

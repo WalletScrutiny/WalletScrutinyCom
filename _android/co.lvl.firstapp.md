@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 LVL describes itself as a "premium all-in-one finance app that lets you buy and sell crypto for free." It claims to be a community exchange:
 

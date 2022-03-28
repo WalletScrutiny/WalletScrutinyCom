@@ -30,11 +30,4 @@ social:
 
 ---
 
-In the description on the App Store we read:
-
-> • Your Nexo account is secured through BitGo, the leader in crypto
-  custodianship, and benefits from top-tier insurance.
-
-which makes it a custodial app. The custodian is claimed to be "BitGo" so as a
-user you have to trust BitGo to not lose the coins and Nexo to actually not hold
-all or part of the coins. In any case this app is **not verifiable**.
+{% include copyFromAndroid.html %}

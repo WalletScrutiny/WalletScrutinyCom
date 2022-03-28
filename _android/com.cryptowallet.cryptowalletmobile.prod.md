@@ -20,7 +20,7 @@ issue:
 icon: com.cryptowallet.cryptowalletmobile.prod.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: custodial
 date: 2021-11-22
 signer: 
 reviewArchive: 
@@ -32,6 +32,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ## App Description
 
@@ -76,4 +78,6 @@ From [Terms and Conditions](https://cryptowallet.com/terms/terms-and-conditions/
 
 ## Verdict
 
-Although this app is **custodial**, we will temporarily classify it as **defunct.** Users on the Play Store appear to have been barred from registration since November and there has been no response from the dev team.
+This app is **custodial** but also **defunct**. Users on the Play Store appear
+to have been barred from registration since November and there has been no
+response from the dev team.

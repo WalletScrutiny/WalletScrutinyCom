@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ### App Description
 
 This DeFi (Decentralized Finance) app promises passive income from cryptocurrency holdings.

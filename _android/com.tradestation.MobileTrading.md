@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 This app is meant for trading stocks as well as buying and selling cryptocurrencies:

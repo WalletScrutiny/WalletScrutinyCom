@@ -52,6 +52,8 @@ to this, too:
   that allows users to buy, sell, convert and spend cryptocurrencies, for an
   undisclosed amount.
 
+{% include review/bitgo.md %}
+
 # Original Review
 
 This app is a custodial offering:

@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 From its Google Play description:
 
 > With BitOasis, you can buy digital assets safely and securely. Deposit fiat (AED) through your personal debit or credit card.

@@ -30,6 +30,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 > InfiPay brings the best of traditional finance and a digital assets exchange together in one application. InfiPay offers users a full Debit Card and account  functionality with digital assets trading, full custody and secure digital currency wallets.

@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 > SAFETY FIRST<br>
   Regulated and licensed in the EU. Your money is securely held by banks within
   the European Union and your crypto protected by the world-renowned custodian

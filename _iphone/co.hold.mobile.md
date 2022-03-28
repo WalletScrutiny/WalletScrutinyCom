@@ -30,10 +30,4 @@ social:
 
 ---
 
-> SAFETY FIRST<br>
-  Regulated and licensed in the EU. Your money is securely held by banks within
-  the European Union and your crypto protected by the world-renowned custodian
-  BitGo.
-
-This app is a custodial offering and thus **not verifiable**.
-
+{% include copyFromAndroid.html %}

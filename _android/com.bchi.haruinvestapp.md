@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 > High earn rates, no hidden fees, secure - Haru Invest is the perfect place to earn crypto effortlessly.

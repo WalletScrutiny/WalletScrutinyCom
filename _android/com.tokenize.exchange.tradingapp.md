@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 > Tokenize is a team that aspires to build the next generation digital currency exchange that supports established and emerging digital currencies.

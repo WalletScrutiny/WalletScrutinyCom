@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ### App Description
 From the description:
 

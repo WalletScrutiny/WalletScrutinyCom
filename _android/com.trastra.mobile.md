@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 This app is only available for EU residents, from its Google Play description:
 
 >5-layer security with a multi-sig system by BitGo<br>

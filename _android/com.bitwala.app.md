@@ -30,6 +30,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## Updated Review and Verdict 2021-12-22
 
 The non-custodial portion of the Nuri Banking app called the "[Nuri Vault](https://support.nuri.com/hc/en-gb/articles/360021669460-How-to-create-a-Nuri-vault-)" requires that users agree to a separate agreement with BitGo, Inc.

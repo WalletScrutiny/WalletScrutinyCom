@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 > - Genesis Block offers digital banking that’s powered by crypto. It’s a full-service FDIC-insured banking experience built for the digital generation.

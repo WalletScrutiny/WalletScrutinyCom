@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 In the description on Google Play we read:
 
 > • 100% Secured by Leading Audited Custodian BitGo

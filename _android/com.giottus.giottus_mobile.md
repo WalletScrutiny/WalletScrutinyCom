@@ -32,6 +32,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 Description from Home Page: 
 
 > India's Highly rated cryptocurrency exchange<br>

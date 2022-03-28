@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.
 
 With this quote from the Play Store:

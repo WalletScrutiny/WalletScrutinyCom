@@ -33,6 +33,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 Upbit (Global) is not that much different from its Korean counterpart, {% include walletLink.html wallet='android/com.dunamu.exchange' verdict='true' %}
