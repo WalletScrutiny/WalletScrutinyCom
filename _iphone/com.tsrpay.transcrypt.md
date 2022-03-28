@@ -10,7 +10,7 @@ idd: 1446719209
 released: 2019-01-16
 updated: 2022-03-24
 version: 2.09.2
-stars: 4.43478
+stars: 4.4
 reviews: 23
 size: '92731392'
 website: https://tizer.io

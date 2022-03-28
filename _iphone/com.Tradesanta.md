@@ -10,7 +10,7 @@ idd: 1457051269
 released: 2019-05-18
 updated: 2022-03-17
 version: 2.5.83
-stars: 3.67647
+stars: 3.7
 reviews: 34
 size: '68597760'
 website: https://tradesanta.com/en

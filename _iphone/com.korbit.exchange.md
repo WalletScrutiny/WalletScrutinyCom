@@ -10,7 +10,7 @@ idd: 1434511619
 released: 2018-10-18
 updated: 2022-03-22
 version: 4.6.2
-stars: 3.07143
+stars: 3.1
 reviews: 14
 size: '144935936'
 website: http://www.korbit.co.kr

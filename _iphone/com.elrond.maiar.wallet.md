@@ -10,7 +10,7 @@ idd: 1519405832
 released: 2021-01-31
 updated: 2022-03-25
 version: 1.4.13
-stars: 4.65517
+stars: 4.7
 reviews: 290
 size: '235779072'
 website: https://maiar.com/

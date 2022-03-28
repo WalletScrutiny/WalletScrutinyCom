@@ -9,7 +9,7 @@ updated:
 version: '3.28'
 binaries: https://github.com/tangem/tangem-binaries
 dimensions:
-- 85.6
+- 86
 - 54
 - 0.6
 weight: 3

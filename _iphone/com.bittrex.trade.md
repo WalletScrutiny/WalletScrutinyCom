@@ -10,7 +10,7 @@ idd: 1465314783
 released: 2019-12-19
 updated: 2022-03-24
 version: 1.18.3
-stars: 4.65347
+stars: 4.7
 reviews: 2551
 size: '77549568'
 website: https://bittrex.com/mobile

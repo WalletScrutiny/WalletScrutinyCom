@@ -11,7 +11,7 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: 1.0.9
-stars: 3.66667
+stars: 3.7
 reviews: 12
 size: '13651968'
 website: https://freewallet.io

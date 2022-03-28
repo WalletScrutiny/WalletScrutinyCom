@@ -10,8 +10,8 @@ updated: 2020-04-16
 version: 2.11.0
 binaries: 
 dimensions:
-- 60.4
-- 22.4
+- 60
+- 22
 - 8.2
 weight: 11
 provider: KASSE USA (HyundaiPay)

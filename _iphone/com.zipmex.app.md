@@ -10,7 +10,7 @@ idd: 1485647781
 released: 2019-11-06
 updated: 2022-03-23
 version: 22.3.3
-stars: 4.23894
+stars: 4.2
 reviews: 113
 size: '70803456'
 website: https://www.youtube.com/watch?v=iYI01eFjxTg

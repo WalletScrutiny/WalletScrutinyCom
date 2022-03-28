@@ -10,7 +10,7 @@ idd: 1561969966
 released: 2021-05-14
 updated: 2022-03-24
 version: 11.5.2
-stars: 4.58983
+stars: 4.6
 reviews: 551
 size: '87239680'
 website: https://coin98.com

@@ -10,7 +10,7 @@ appCountry: ng
 released: 2021-05-15
 updated: 2022-02-23
 version: 1.16.2
-stars: 3.90099
+stars: 3.9
 ratings: 428
 reviews: 338
 size: 39M

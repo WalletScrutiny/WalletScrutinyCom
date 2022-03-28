@@ -10,7 +10,7 @@ idd: 1334702542
 released: 2018-01-19
 updated: 2022-02-08
 version: 4.3.8
-stars: 3.34524
+stars: 3.3
 reviews: 84
 size: '82095104'
 website: https://cakewallet.com

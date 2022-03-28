@@ -10,7 +10,7 @@ idd: 1503068552
 released: 2020-03-23
 updated: 2022-01-30
 version: 2.1.42
-stars: 4.375
+stars: 4.4
 reviews: 8
 size: '57561088'
 website: https://exchangily.com

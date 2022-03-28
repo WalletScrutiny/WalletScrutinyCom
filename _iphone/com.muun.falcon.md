@@ -10,7 +10,7 @@ idd: 1482037683
 released: 2019-10-11
 updated: 2022-03-09
 version: 2.5.6
-stars: 4.39604
+stars: 4.4
 reviews: 101
 size: '82333696'
 website: https://www.muun.com

@@ -10,7 +10,7 @@ idd: 493253309
 released: 2012-04-13
 updated: 2022-03-23
 version: 202203.1.1
-stars: 4.7359
+stars: 4.7
 reviews: 122146
 size: '181177344'
 website: https://www.blockchain.com/wallet

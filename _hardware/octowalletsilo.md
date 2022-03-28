@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions:
 - 44
-- 44.3
+- 44
 - 7
 weight: 
 provider: Digital Silo Pty Ltd

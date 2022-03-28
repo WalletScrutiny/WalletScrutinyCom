@@ -11,7 +11,7 @@ appCountry: nz
 released: 2021-05-26
 updated: 2022-03-24
 version: 1.7.2
-stars: 4.535714
+stars: 4.5
 ratings: 4430
 reviews: 11
 size: 74M

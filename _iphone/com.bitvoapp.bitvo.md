@@ -10,7 +10,7 @@ idd: 1400304552
 released: 2018-08-06
 updated: 2022-03-10
 version: 3.5.5
-stars: 3.04167
+stars: 3
 reviews: 24
 size: '36946944'
 website: http://www.bitvo.com

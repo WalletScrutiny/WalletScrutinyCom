@@ -10,7 +10,7 @@ idd: 1101145849
 released: 2016-04-19
 updated: 2022-03-26
 version: 4.38.0
-stars: 3.41726
+stars: 3.4
 reviews: 5517
 size: '82390016'
 website: https://uphold.com

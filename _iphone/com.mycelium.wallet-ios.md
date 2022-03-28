@@ -10,7 +10,7 @@ idd: 943912290
 released: 2014-12-17
 updated: 2022-01-14
 version: '1.17'
-stars: 2.52895
+stars: 2.5
 reviews: 380
 size: '7613440'
 website: https://wallet.mycelium.com

@@ -10,7 +10,7 @@ idd: 1458706382
 released: 2019-04-27
 updated: 2022-03-15
 version: 2.1.71
-stars: 4.66667
+stars: 4.7
 reviews: 24
 size: '53382144'
 website: https://www.rekeningku.com

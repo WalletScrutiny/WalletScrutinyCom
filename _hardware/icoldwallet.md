@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions:
 - 91
-- 24.8
+- 25
 - 6
 weight: 26
 provider: Shenzhen Feitianxia Technology Co, Ltd.

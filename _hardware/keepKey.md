@@ -10,8 +10,8 @@ version: 7.2.1
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
-- 93.5
-- 12.2
+- 94
+- 12
 weight: 54
 provider: 
 providerWebsite: 

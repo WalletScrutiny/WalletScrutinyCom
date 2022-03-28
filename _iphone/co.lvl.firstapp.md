@@ -10,7 +10,7 @@ idd: 1494647317
 released: 2020-07-08
 updated: 2021-09-13
 version: 1.0.5
-stars: 4.25706
+stars: 4.3
 reviews: 354
 size: '116187136'
 website: https://www.lvl.co

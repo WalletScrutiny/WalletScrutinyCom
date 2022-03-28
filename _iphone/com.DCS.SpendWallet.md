@@ -10,7 +10,7 @@ idd: 1357740381
 released: 2018-03-30
 updated: 2020-09-05
 version: 3.2.6
-stars: 4.0583
+stars: 4.1
 reviews: 343
 size: '124011520'
 website: https://spend.com

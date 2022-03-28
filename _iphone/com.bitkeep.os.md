@@ -10,7 +10,7 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2022-03-21
 version: 7.0.1
-stars: 4.79039
+stars: 4.8
 reviews: 229
 size: '77477888'
 website: https://bitkeep.com

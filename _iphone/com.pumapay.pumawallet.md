@@ -10,7 +10,7 @@ idd: 1376601366
 released: 2018-06-05
 updated: 2021-10-25
 version: '2.102'
-stars: 3.66667
+stars: 3.7
 reviews: 18
 size: '103752704'
 website: https://pumapay.io

@@ -10,7 +10,7 @@ idd: 1370601820
 released: 2018-06-09
 updated: 2022-03-17
 version: '126.00'
-stars: 4.4883
+stars: 4.5
 reviews: 5556
 size: '50945024'
 website: https://coinberry.com

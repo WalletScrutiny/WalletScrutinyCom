@@ -10,7 +10,7 @@ appCountry: tr
 released: 2021-03-21
 updated: 2022-03-19
 version: 2.3.7
-stars: 4.247619
+stars: 4.2
 ratings: 272
 reviews: 100
 size: 17M

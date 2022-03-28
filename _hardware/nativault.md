@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions:
 - 18
-- 14.2
+- 14
 - 5
 weight: 5
 provider: 

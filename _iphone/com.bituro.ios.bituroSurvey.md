@@ -10,7 +10,7 @@ idd: 1257495078
 released: 2017-07-15
 updated: 2022-03-06
 version: 2.0.2
-stars: 4.52826
+stars: 4.5
 reviews: 407
 size: '16468992'
 website: https://bituro.com/app/views/contact.php

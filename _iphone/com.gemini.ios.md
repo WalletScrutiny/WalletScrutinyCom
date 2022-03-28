@@ -10,7 +10,7 @@ idd: 1408914447
 released: 2018-12-11
 updated: 2022-03-27
 version: 22.322.2
-stars: 4.79147
+stars: 4.8
 reviews: 85058
 size: '84944896'
 website: http://gemini.com

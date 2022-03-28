@@ -10,7 +10,7 @@ idd: 329476057
 released: 2009-09-23
 updated: 2022-03-07
 version: 6.7.3
-stars: 4.79158
+stars: 4.8
 reviews: 475
 size: '171082752'
 website: https://www.thinkmarkets.com/uk/about-us/

@@ -10,7 +10,7 @@ idd: 1384089079
 released: 2018-08-05
 updated: 2021-04-07
 version: 2.14.2
-stars: 4.89899
+stars: 4.9
 reviews: 198
 size: 113667072
 website: https://www.fox.one/#/

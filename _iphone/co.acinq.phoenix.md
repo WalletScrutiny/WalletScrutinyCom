@@ -11,7 +11,7 @@ idd: 1544097028
 released: 2021-07-13
 updated: 2022-03-25
 version: 1.3.3
-stars: 4.33333
+stars: 4.3
 reviews: 12
 size: '23843840'
 website: https://phoenix.acinq.co

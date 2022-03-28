@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 48
 - 88
-- 12.8
+- 13
 weight: 
 provider: 
 providerWebsite: 

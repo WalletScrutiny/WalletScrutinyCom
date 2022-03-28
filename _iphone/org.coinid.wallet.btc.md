@@ -11,7 +11,7 @@ idd: 1370200585
 released: 2018-10-10
 updated: 2021-12-13
 version: 1.8.1
-stars: 3.88235
+stars: 3.9
 reviews: 17
 size: '18469888'
 website: https://coinid.org

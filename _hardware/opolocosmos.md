@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 89.2
-- 66.4
+- 89
+- 66
 - 9.5
 weight: 
 provider: OPOLO Limited

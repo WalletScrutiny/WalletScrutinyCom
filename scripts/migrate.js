@@ -11,6 +11,7 @@ const migration = function(header, body, fileName, folder) {
   // its own item
   header.twitter = header.twitter || header.providerTwitter || null
   header.social = header.social || []
+  if (header.stars) header.stars = Number(header.stars.toPrecision(2))
   if (header.providerLinkedIn) { header.social.push(`https://www.linkedin.com/company/${header.providerLinkedIn}`) }
   if (header.providerFacebook) { header.social.push(`https://www.facebook.com/${header.providerFacebook}`) }
   if (header.providerReddit) { header.social.push(`https://www.reddit.com/r/${header.providerReddit}`) }
@@ -31,8 +32,11 @@ mv images/wallet_icons/${folder}/small/{${header.icon},${newIcon}}
 mv images/wallet_icons/${folder}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
-  if (header.dimensions && (header.dimensions.length != 3)) {
-    console.error(`# ${folder}/${header.appId}.md: invalid dimensions ${header.dimensions}.`)
+  if (header.dimensions) {
+    if (header.dimensions.length != 3) {
+      console.error(`# ${folder}/${header.appId}.md: invalid dimensions ${header.dimensions}.`)
+    }
+    header.dimensions = header.dimensions.map(it => Number(it.toPrecision(2)))
   }
 }
 

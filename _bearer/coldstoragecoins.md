@@ -9,9 +9,9 @@ updated: 2022-01-31
 version: 
 binaries: 
 dimensions:
-- 134.87
-- 109.98
-- 7.11
+- 140
+- 110
+- 7.1
 weight: 40
 provider: Rearden Metals Pte Ltd
 providerWebsite: https://www.reardenmetals.sg/

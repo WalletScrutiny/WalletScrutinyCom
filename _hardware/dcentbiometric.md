@@ -11,9 +11,9 @@ updated: 2021-11-25
 version: v2.16.7.bdd9
 binaries: 
 dimensions:
-- 78.2
-- 43.2
-- 10.8
+- 78
+- 43
+- 11
 weight: 36
 provider: IOTrust
 providerWebsite: https://iotrust.kr/

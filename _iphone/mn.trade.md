@@ -10,7 +10,7 @@ idd: 1303463253
 released: 2018-05-05
 updated: 2021-08-24
 version: 2.0.6
-stars: 2.11538
+stars: 2.1
 reviews: 26
 size: '40311808'
 website: https://trade.mn

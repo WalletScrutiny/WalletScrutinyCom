@@ -11,7 +11,7 @@ version: v1.0.8
 binaries: https://github.com/Foundation-Devices/passport-firmware/releases
 dimensions:
 - 38
-- 102
+- 100
 - 23
 weight: 138
 provider: 

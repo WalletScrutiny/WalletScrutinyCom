@@ -10,7 +10,7 @@ idd: 1435187229
 released: 2018-09-28
 updated: 2022-01-21
 version: 3.15.0
-stars: 3.90476
+stars: 3.9
 reviews: 21
 size: '33532928'
 website: https://hold.io

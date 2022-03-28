@@ -10,7 +10,7 @@ idd: 1264462812
 released: 2017-08-23
 updated: 2022-01-01
 version: 3.5.0
-stars: 4.54085
+stars: 4.5
 reviews: 2032
 size: 133484544
 website: https://www.coinex.com

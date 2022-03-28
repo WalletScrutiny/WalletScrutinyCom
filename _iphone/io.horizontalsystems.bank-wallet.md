@@ -10,7 +10,7 @@ idd: 1447619907
 released: 2019-01-10
 updated: 2022-03-18
 version: 0.24.2
-stars: 4.65951
+stars: 4.7
 reviews: 373
 size: '47772672'
 website: https://unstoppable.money/

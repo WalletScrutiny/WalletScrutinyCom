@@ -10,7 +10,7 @@ appCountry: cl
 released: 2019-10-16
 updated: 2022-03-25
 version: 4.0.13
-stars: 4.64
+stars: 4.6
 ratings: 458
 reviews: 229
 size: 46M

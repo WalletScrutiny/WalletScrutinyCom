@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions:
 - 54
-- 85.6
+- 86
 - 1.2
 weight: 35
 provider: Ballet

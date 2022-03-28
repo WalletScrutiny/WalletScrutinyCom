@@ -10,7 +10,7 @@ idd: 1463405025
 released: 2019-05-21
 updated: 2022-03-23
 version: 2.12.1
-stars: 4.69417
+stars: 4.7
 reviews: 206
 size: '155677696'
 website: https://whitebit.com

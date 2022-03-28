@@ -10,7 +10,7 @@ idd: 1428903145
 released: 2018-10-03
 updated: 2022-03-02
 version: 1.9.13
-stars: 4.22222
+stars: 4.2
 reviews: 9
 size: '62978048'
 website: https://abcc.com/

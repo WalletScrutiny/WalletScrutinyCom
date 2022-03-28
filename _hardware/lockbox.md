@@ -10,7 +10,7 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 17.4
+- 17
 - 57
 - 9.1
 weight: 16.2

@@ -10,7 +10,7 @@ idd: 1578987516
 released: 2021-08-04
 updated: 2022-03-10
 version: 0.4.8
-stars: 4.5625
+stars: 4.6
 reviews: 32
 size: '67941376'
 website: https://www.chainge.finance/

@@ -9,7 +9,7 @@ idd: 957130004
 released: 2015-01-21
 updated: 2022-03-23
 version: 4.2.18
-stars: 4.28125
+stars: 4.3
 reviews: 192
 size: '97114112'
 website: https://coincheck.com

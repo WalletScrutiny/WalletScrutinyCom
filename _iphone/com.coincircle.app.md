@@ -10,7 +10,7 @@ idd: 1470350344
 released: 2021-04-02
 updated: 2022-01-21
 version: 1.1.1
-stars: 4.61071
+stars: 4.6
 reviews: 429
 size: '119739392'
 website: https://coincircle.com

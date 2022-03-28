@@ -10,7 +10,7 @@ idd: 1492803003
 released: 2020-02-25
 updated: 2022-02-13
 version: '2.8'
-stars: 2.33333
+stars: 2.3
 reviews: 15
 size: '102197248'
 website: https://bitex.com

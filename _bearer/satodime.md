@@ -10,9 +10,9 @@ updated: 2022-02-17
 version: 0.2.0
 binaries: 
 dimensions:
-- 85.6
+- 86
 - 1
-- 53.98
+- 54
 weight: 5
 provider: Satochip SRL
 providerWebsite: https://satochip.io

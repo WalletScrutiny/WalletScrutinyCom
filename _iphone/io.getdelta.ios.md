@@ -9,7 +9,7 @@ idd: 1288676542
 released: 2017-09-25
 updated: 2022-03-14
 version: 2022.2.0
-stars: 4.74666
+stars: 4.7
 reviews: 9876
 size: '88723456'
 website: https://delta.app

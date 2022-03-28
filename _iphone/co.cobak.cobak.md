@@ -10,7 +10,7 @@ idd: 1350473579
 released: 2018-03-13
 updated: 2022-01-21
 version: 1.7.23
-stars: 4.88235
+stars: 4.9
 reviews: 17
 size: '61694976'
 website: https://cobak.co.kr

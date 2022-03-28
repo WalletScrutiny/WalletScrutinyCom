@@ -10,7 +10,7 @@ idd: 1460001613
 released: 2019-04-30
 updated: 2021-05-14
 version: '2.15'
-stars: 4.28946
+stars: 4.3
 reviews: 38
 size: '49214464'
 website: https://www.bitleague.com

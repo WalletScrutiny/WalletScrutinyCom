@@ -10,7 +10,7 @@ idd: 1504798360
 released: 2021-03-25
 updated: 2021-12-13
 version: 1.13.0
-stars: 3.18519
+stars: 3.2
 reviews: 54
 size: '117922816'
 website: https://pundix.com

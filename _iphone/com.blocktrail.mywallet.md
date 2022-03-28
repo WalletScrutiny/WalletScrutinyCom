@@ -9,7 +9,7 @@ idd: 1019614423
 released: 2015-09-08
 updated: 2019-04-13
 version: 4.4.9
-stars: 3.9316
+stars: 3.9
 reviews: 424
 size: 38854656
 website: http://btc.com

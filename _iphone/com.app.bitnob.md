@@ -10,7 +10,7 @@ idd: 1513951003
 released: 2020-05-29
 updated: 2021-12-20
 version: '1.102'
-stars: 4.15385
+stars: 4.2
 reviews: 13
 size: 126672896
 website: https://bitnob.com

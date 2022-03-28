@@ -11,7 +11,7 @@ version:
 binaries: 
 dimensions:
 - 54
-- 85.6
+- 86
 - 4
 weight: 12
 provider: Cerber Money Security
