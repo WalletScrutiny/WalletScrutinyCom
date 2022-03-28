@@ -82,3 +82,20 @@ wait
 if [ "$updateAllImages" ]; then
   revertImagesThatDidNotChange
 fi
+
+# delete images that are not referenced anymore
+tmpFolder=/tmp/migrateImages
+rm -rf $tmpFolder 2> /dev/null
+mkdir --parents $tmpFolder/
+mv images/wallet_icons $tmpFolder
+mkdir --parents images/wallet_icons/{android,iphone,hardware,bearer,desktop}/{small,tiny}/ 2> /dev/null
+folder='bearer'
+for folder in bearer android iphone hardware desktop; do
+  icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename | sed 's/^icon: //g')
+  for i in $icons; do
+    mv $tmpFolder/wallet_icons/${folder}/$i images/wallet_icons/${folder}/$i
+    for s in small tiny; do
+      mv $tmpFolder/wallet_icons/${folder}/${s}/$i images/wallet_icons/${folder}/${s}/$i
+    done
+  done
+done
