@@ -10,9 +10,9 @@ appCountry: ca
 released: 2021-03-08
 updated: 2022-03-16
 version: 1.0.1253
-stars: 4.766667
+stars: 4.7704916
 ratings: 614
-reviews: 29
+reviews: 30
 size: 37M
 website: https://aabbgoldtoken.com/
 repository: 

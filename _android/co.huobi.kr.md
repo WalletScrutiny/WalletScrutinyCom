@@ -10,9 +10,9 @@ appCountry: cn
 released: 2018-04-12
 updated: 2022-03-14
 version: 3.6.8
-stars: 3.3380682
+stars: 3.3314447
 ratings: 3505
-reviews: 1395
+reviews: 1396
 size: 49M
 website: https://www.huobi.co.kr
 repository: 

@@ -10,9 +10,9 @@ appCountry: de
 released: 2019-07-08
 updated: 2022-02-26
 version: 1.23.0
-stars: 4.6902776
+stars: 4.6842103
 ratings: 114954
-reviews: 2814
+reviews: 2815
 size: 37M
 website: https://stormgain.com/
 repository: 

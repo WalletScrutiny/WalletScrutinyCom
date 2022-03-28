@@ -9,9 +9,9 @@ appCountry:
 released: 2020-06-12
 updated: 2020-06-12
 version: '1.0'
-stars: 4.4615383
+stars: 4.475
 ratings: 271
-reviews: 22
+reviews: 23
 size: 1.4M
 website: https://alexchanger.com/
 repository: 

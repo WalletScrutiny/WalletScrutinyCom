@@ -8,8 +8,8 @@ appId: tech.exio.OracleWallet.OracleWallet
 appCountry: us
 idd: 1546609959
 released: 2021-03-24
-updated: 2022-03-19
-version: 1.4.0
+updated: 2022-03-24
+version: 1.4.1
 stars: 5
 reviews: 1
 size: '37996544'

@@ -10,8 +10,8 @@ idd: 1541949985
 released: 2020-12-13
 updated: 2022-02-24
 version: 2.0.15
-stars: 4.69441
-reviews: 6080
+stars: 4.70174
+reviews: 6404
 size: '15613952'
 website: https://www.coinspot.com.au/
 repository: 

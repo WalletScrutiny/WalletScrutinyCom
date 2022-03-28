@@ -3,7 +3,7 @@ wsId:
 title: CREX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.crex.trade
 appCountry: 
 released: 2020-05-20

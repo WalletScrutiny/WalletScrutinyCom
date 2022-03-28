@@ -10,7 +10,7 @@ appCountry:
 released: 2018-12-18
 updated: 2022-03-24
 version: 0.24.0
-stars: 3.7901235
+stars: 3.804878
 ratings: 556
 reviews: 50
 size: 62M
@@ -25,7 +25,7 @@ date: 2022-03-27
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2022-01-24
-  version: "0.23.3"
+  version: 0.23.3
   appHash: bee79c856fa7463760341d5975fc87451ca8d989b16c85e734fad0bcd4a277ca
   gitRevision: a66e7a448b69b5e39aa10d831bb6ecff40755060
   verdict: reproducible

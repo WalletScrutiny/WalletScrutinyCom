@@ -10,9 +10,9 @@ appCountry: in
 released: 2020-05-31
 updated: 2022-03-08
 version: 3.8.3
-stars: 4.2412286
+stars: 4.241517
 ratings: 413931
-reviews: 126428
+reviews: 126585
 size: Varies with device
 website: https://coinswitch.co/in
 repository: 

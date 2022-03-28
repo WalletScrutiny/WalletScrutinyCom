@@ -11,9 +11,9 @@ appCountry:
 released: 2017-08-30
 updated: 2022-03-22
 version: 3.131.2
-stars: 3.8486052
+stars: 3.8452857
 ratings: 281384
-reviews: 38294
+reviews: 38308
 size: 129M
 website: https://www.crypto.com/
 repository: 

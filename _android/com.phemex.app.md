@@ -8,11 +8,11 @@ users: 500000
 appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
-updated: 2022-03-21
-version: 3.0.3
-stars: 4.5164833
+updated: 2022-03-24
+version: 3.0.4
+stars: 4.5201178
 ratings: 15997
-reviews: 736
+reviews: 745
 size: 24M
 website: https://phemex.com
 repository: 

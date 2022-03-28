@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-08-12
 updated: 2022-03-24
 version: Varies with device
-stars: 3.8160005
+stars: 3.817529
 ratings: 445358
-reviews: 235927
+reviews: 235973
 size: Varies with device
 website: https://robinhood.com/
 repository: 

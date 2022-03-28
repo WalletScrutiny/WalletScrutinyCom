@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-10-01
 updated: 2022-03-18
 version: 4.3.3
-stars: 4.0399275
+stars: 4.0370483
 ratings: 164833
-reviews: 11008
+reviews: 11016
 size: 64M
 website: https://www.blockfolio.com
 repository: 

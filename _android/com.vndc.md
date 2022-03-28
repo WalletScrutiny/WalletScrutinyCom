@@ -4,7 +4,7 @@ title: 'ONUS: Invest BTC, ETH, DOGE'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07

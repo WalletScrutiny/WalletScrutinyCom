@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-30
 updated: 2022-03-19
 version: 6.2.1
-stars: 4.5841584
+stars: 4.58
 ratings: 2325
-reviews: 32
+reviews: 33
 size: 15M
 website: https://bit24.cash
 repository: 

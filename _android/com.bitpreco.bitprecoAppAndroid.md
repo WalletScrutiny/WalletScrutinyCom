@@ -10,9 +10,9 @@ appCountry: br
 released: 2021-02-21
 updated: 2022-01-28
 version: 1.8.22
-stars: 4.48
+stars: 4.4653463
 ratings: 808
-reviews: 514
+reviews: 515
 size: 60M
 website: https://bitpreco.com/
 repository: 

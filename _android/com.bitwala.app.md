@@ -10,7 +10,7 @@ appCountry: gd
 released: 2019-07-11
 updated: 2022-03-24
 version: 2.3.22
-stars: 3.7838984
+stars: 3.7854078
 ratings: 4416
 reviews: 2878
 size: 91M
