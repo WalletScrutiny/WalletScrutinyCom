@@ -26,7 +26,7 @@ reviewArchive:
 twitter: bitmama
 social:
 - https://www.facebook.com/bitmama
-
+- https://www.instagram.com/bitmamaexchange/
 ---
 
 {% include copyFromAndroid.html %}
