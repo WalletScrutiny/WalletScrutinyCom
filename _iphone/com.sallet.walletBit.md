@@ -8,11 +8,11 @@ appId: com.sallet.walletBit
 appCountry: us
 idd: 1577493312
 released: 2021-07-29
-updated: 2022-03-22
-version: 1.9.1
+updated: 2022-03-26
+version: 1.9.2
 stars: 5
 reviews: 2
-size: '16143360'
+size: '16467968'
 website: https://www.salletone.com
 repository: 
 issue: 

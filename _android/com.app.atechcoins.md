@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.atechcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-08
+date: 2022-03-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-10-18
 updated: 2021-11-30
 version: 8.0.7.4
-stars: 4.3
+stars: 4.4
 ratings: 92
-reviews: 19
+reviews: 22
 size: 45M
 website: http://www.bitkan.com
 repository: 

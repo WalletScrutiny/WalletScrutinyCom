@@ -10,9 +10,9 @@ appCountry: cl
 released: 2019-10-16
 updated: 2022-03-25
 version: 4.0.13
-stars: 4.6
+stars: 4.7
 ratings: 458
-reviews: 229
+reviews: 230
 size: 46M
 website: https://vitawallet.io/
 repository: 

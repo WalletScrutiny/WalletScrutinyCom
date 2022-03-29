@@ -10,11 +10,11 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2022-03-25
+updated: 2022-03-28
 version: 0.35.3
 stars: 4.7
 ratings: 1252
-reviews: 148
+reviews: 149
 size: 30M
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app

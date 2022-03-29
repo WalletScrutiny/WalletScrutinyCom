@@ -8,12 +8,12 @@ users: 50000
 appId: com.tradesanta
 appCountry: us
 released: 2019-05-20
-updated: 2021-11-29
-version: 2.5.0
+updated: 2022-03-28
+version: 2.6.5
 stars: 3.8
 ratings: 707
 reviews: 51
-size: 11M
+size: 12M
 website: https://tradesanta.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: RioWallet
-title: RioWallet
+title: 'RioWallet: Web 3 Crypto Wallet'
 altTitle: 
 authors:
 - danny

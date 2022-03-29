@@ -11,7 +11,7 @@ released: 2021-05-26
 updated: 2022-03-03
 version: 1.4.2
 stars: 3.6
-reviews: 573
+reviews: 575
 size: '52839424'
 website: https://www.hotbit.io
 repository: 

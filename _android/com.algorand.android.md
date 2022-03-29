@@ -11,9 +11,9 @@ updated: 2022-02-24
 version: 5.0.3
 stars: 4.4
 ratings: 14091
-reviews: 1015
+reviews: 1016
 size: 63M
-website: https://www.algorand.com
+website: https://perawallet.app
 repository: 
 issue: 
 icon: com.algorand.android.png

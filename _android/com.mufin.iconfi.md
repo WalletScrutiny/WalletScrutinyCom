@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 220
 reviews: 20
 size: 10.0M
-website: https://www.icon-fi.com/
+website: https://www.icon-fi.com
 repository: 
 issue: 
 icon: com.mufin.iconfi.png
