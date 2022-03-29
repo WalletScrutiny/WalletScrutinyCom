@@ -8,7 +8,7 @@ released: 2018-04-01
 discontinued: 
 updated: 2021-09-02
 version: v4.1.3
-binaries: 
+binaries: https://coldcard.com/downloads/
 dimensions:
 - 88
 - 51
@@ -26,7 +26,7 @@ icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: ok
 verdict: nonverifiable
-date: 2021-09-08
+date: 2022-03-29
 signer: 
 reviewArchive:
 - date: 2021-08-14
@@ -39,6 +39,12 @@ social:
 - https://t.me/coldcard
 
 ---
+
+**Update 2022-03-29**: It's worth mentioning that we track this wallet's issue
+in our own issue tracker as they don't have a public issue tracker. It's
+[issue 340](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340).
+Also: Today, 6 months later there is no new release for Mk3, so the below
+verdict of a beningn diff remains our verdict.
 
 **Update 2021-09-07**: The provider answered our mails. Here is the full
 correspondence:
