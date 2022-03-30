@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   const platformNames = Object.keys(window.platforms)
   for (var p in platformNames) {
     const platform = platformNames[p]
-    window.verdictCount[platform] = {}
+    window.verdictCount[platform] = {all: 0}
     for (var v in window.verdictOrder) {
       const verdict = window.verdictOrder[v]
       window.verdictCount[platform][verdict] = 0
@@ -13,6 +13,7 @@ window.addEventListener("load", () => {
   for (var w in window.wallets) {
     const wallet = window.wallets[w]
     window.verdictCount[wallet.folder][wallet.verdict]++
+    window.verdictCount[wallet.folder]["all"]++
   }
   recreateDropdowns("reproducible", "android")
   window.addEventListener("scroll", ignore => {
@@ -62,7 +63,7 @@ function recreateDropdowns(verdict, platform) {
     
     var verdictOption = document.createElement("option")
     verdictOption.value = "all"
-    verdictOption.innerHTML = "all"
+    verdictOption.innerHTML = `all (${productCount('all', platform)})`
     verdictSelect.append(verdictOption)
     if ("all" == verdict)
       verdictOption.selected = true
