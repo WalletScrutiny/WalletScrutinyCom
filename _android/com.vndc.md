@@ -9,11 +9,11 @@ appId: com.vndc
 appCountry: us
 released: 2020-03-07
 updated: 2022-03-25
-version: 2.1.2
+version: 2.1.4
 stars: 4.4
 ratings: 46866
-reviews: 246
-size: 139M
+reviews: 248
+size: 140M
 website: https://vndc.io
 repository: 
 issue: 

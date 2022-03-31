@@ -11,7 +11,7 @@ released: 2020-12-09
 updated: 2022-03-26
 version: CoinDCX 4.2.002
 stars: 4.2
-reviews: 420
+reviews: 418
 size: '92935168'
 website: https://coindcx.com
 repository: 

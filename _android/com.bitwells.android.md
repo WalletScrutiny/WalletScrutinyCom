@@ -8,8 +8,8 @@ users: 5000
 appId: com.bitwells.android
 appCountry: us
 released: 2021-05-17
-updated: 2021-06-02
-version: 1.0.5
+updated: 2022-03-28
+version: 1.0.8
 stars: 4.6
 ratings: 1307
 reviews: 1260

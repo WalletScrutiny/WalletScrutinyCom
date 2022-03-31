@@ -8,12 +8,12 @@ users: 50000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2022-03-16
-version: 2.32.2
+updated: 2022-03-29
+version: 2.32.21
 stars: 4.2
 ratings: 358
-reviews: 17
-size: 53M
+reviews: 18
+size: 52M
 website: https://zebedee.io
 repository: 
 issue: 

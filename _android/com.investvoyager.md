@@ -9,10 +9,10 @@ appId: com.investvoyager
 appCountry: 
 released: 2020-02-25
 updated: 2022-03-24
-version: 3.2.2
+version: 3.2.3
 stars: 4.4
 ratings: 26380
-reviews: 7732
+reviews: 7742
 size: 58M
 website: https://www.investvoyager.com/
 repository: 
