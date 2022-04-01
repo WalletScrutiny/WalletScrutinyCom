@@ -12,7 +12,7 @@ updated: 2022-03-08
 version: 2.0.5
 stars: 4.1
 ratings: 1706
-reviews: 49
+reviews: 50
 size: 32M
 website: https://Arz8x.com
 repository: 

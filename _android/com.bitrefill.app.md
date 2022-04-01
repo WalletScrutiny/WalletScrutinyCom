@@ -12,7 +12,7 @@ updated: 2022-02-25
 version: 1.30.13
 stars: 3.5
 ratings: 1039
-reviews: 125
+reviews: 126
 size: 32M
 website: https://www.bitrefill.com
 repository: 

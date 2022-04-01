@@ -8,8 +8,8 @@ users: 10000
 appId: com.leadWallet
 appCountry: ng
 released: 2021-07-29
-updated: 2022-03-24
-version: 1.0.27
+updated: 2022-03-30
+version: 1.0.28
 stars: 4.4
 ratings: 1683
 reviews: 52

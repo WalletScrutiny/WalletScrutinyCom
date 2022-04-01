@@ -8,8 +8,8 @@ appId: com.sallet.walletBit
 appCountry: us
 idd: 1577493312
 released: 2021-07-29
-updated: 2022-03-26
-version: 1.9.2
+updated: 2022-04-01
+version: 1.9.3
 stars: 5
 reviews: 2
 size: '16467968'

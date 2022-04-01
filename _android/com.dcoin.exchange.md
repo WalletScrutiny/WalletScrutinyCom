@@ -12,7 +12,7 @@ updated: 2022-03-22
 version: 5.2.3
 stars: 4.2
 ratings: 1346
-reviews: 86
+reviews: 87
 size: 23M
 website: https://www.dcoin.com
 repository: 

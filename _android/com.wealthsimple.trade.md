@@ -12,7 +12,7 @@ updated: 2022-03-30
 version: 2.33.0
 stars: 4.5
 ratings: 54327
-reviews: 9752
+reviews: 9763
 size: 272M
 website: https://www.wealthsimple.com/trade
 repository: 

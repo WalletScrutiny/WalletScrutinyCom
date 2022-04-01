@@ -1,17 +1,17 @@
 ---
 wsId: getDelta
-title: Delta Investment Portfolio Tracker
+title: Delta Investment Tracker
 altTitle: 
 authors: 
 users: 1000000
 appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
-updated: 2022-03-26
+updated: 2022-03-30
 version: 2022.2.0
 stars: 4.2
 ratings: 26395
-reviews: 1710
+reviews: 1709
 size: 100M
 website: https://delta.app
 repository: 

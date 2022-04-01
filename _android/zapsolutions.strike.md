@@ -11,7 +11,7 @@ updated: 2022-03-16
 version: v114
 stars: 4.4
 ratings: 6726
-reviews: 1317
+reviews: 1319
 size: 55M
 website: https://strike.me/
 repository: 

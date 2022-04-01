@@ -1,6 +1,6 @@
 ---
 wsId: ViaWallet
-title: ViaWallet - Multi chain Wallet
+title: 'ViaWallet: Multi-crypto wallet'
 altTitle: 
 authors:
 - leo
