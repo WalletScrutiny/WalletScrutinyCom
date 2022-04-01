@@ -21,7 +21,7 @@ issue:
 icon: pentasecurity.walletcard.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: noita
 date: 2022-03-24
 signer: 
 reviewArchive: 
@@ -47,6 +47,6 @@ We were able to translate using Google translate a few features:
 
 ## Verdict 
 
-We were unable to locate an actual picture of the card nor is it commercially available. However, the company that provides it, Penta Security Systems is still active. Most smart cards that are labeled as wallets generally have the same flaw: they must be **brought on to another system** to transact or access the data within them. In this case, the card uses NFC or Blue Tooth to connect to an app that is no longer available.   
+We were unable to locate an actual picture of the card nor is it commercially available. However, the company that provides it, Penta Security Systems is still active. Most smart cards that are labeled as wallets generally have the same flaw: they must be brought on to another system to transact or access the data within them. In this case, the card uses NFC or Blue Tooth to connect to an app that is no longer available. The product description **does not indicate a screen or buttons the user can interface with**.   
 
 

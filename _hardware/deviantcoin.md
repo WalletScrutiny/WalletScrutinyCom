@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: deviantcoin.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: unreleased
 date: 2021-03-29
 signer: 

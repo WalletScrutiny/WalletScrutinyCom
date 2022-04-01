@@ -21,7 +21,7 @@ issue:
 icon: keyois.capsule.png
 bugbounty: 
 meta: defunct
-verdict: noita
+verdict: plainkey
 date: 2021-03-28
 signer: 
 reviewArchive: 

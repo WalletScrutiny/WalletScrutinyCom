@@ -31,7 +31,7 @@ social:
 
 ## Background
 
-Nemanja Nikodijević is a security researcher who has managed to create an Open Source hardware wallet called hwallet that uses significantly less lines of code. 
+Nemanja Nikodijević is a security researcher who has managed to create an Open Source hardware wallet called hwallet that uses [significantly less lines of code than ColdCard, Trezor, Ledger and KeepKey](https://youtu.be/0sgF5klTcD8?t=657).
 
 He elaborates in this video:
 

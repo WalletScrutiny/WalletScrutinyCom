@@ -49,4 +49,4 @@ The hardware specifications are:
 
 Pundi X's [whitepaper](https://pundix.com/pdf/PundiX_Whitepaper_EN_Ver.pdf) references a software and hardware 'Reference Implementation Stack' called the Pundi X Platform. Although they claim that some parts of the project are Open Source, we are not able to find a repository specifically pointing for the Pundi X PoS. 
 
-Point of Sale systems are ideally connected to the Internet as well as through other networking means. The greater the support for various payment systems including various blockchains and PayPal, the greater the need to connect online. This **hardly qualifies the Pundi X as a hardware wallet**, since a hardware wallet has to minimize these connections online. 
+Although it [supports certain functions of a cryptocurrency wallet](https://pundix.com/product/), Pundi XPoS is primarily used as a merchant device for collecting payments. 

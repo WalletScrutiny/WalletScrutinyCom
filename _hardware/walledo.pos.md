@@ -48,4 +48,4 @@ Here we can see that the device connects via WiFi or 3G. The device is then boun
 
 ## Analysis 
 
-Walledo's Point of sale system cannot **be classified as a hardware wallet** nor is it a suitable similar device. The fact that it connects via WiFi or 3G, is bound to a Walledo account, plus allows merchants to receive Euro in their bank accounts, means that this service is integrated with other payment platforms. 
+Walledo's point of sale system cannot **be classified as a hardware wallet**. It is primarily used by merchants to accept payments allowing them to receive cryptocurrencies which are then converted to Euros. The device is not marketed for keeping coins secure.     

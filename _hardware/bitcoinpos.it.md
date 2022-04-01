@@ -51,5 +51,5 @@ Details are found on this [page](https://bitcoinpos.it/tos.html).
 
 ## Analysis 
 
-Although it may appear that they have a physical Point-of-Sale device like the one rendered on their website, their range of services and the lack of hardware spefications makes us think otherwise. Rather, we believe this is a consultancy that combines software and hardware solutions depending on a customer's needs. Even so, a Bitcoin PoS **does not function as a hardware wallet**. Hardware wallets are supposed to keep the private keys offline. 
+Although it may appear that they have a physical Point-of-Sale device like the one rendered on their website, their range of services and the lack of hardware spefications makes us think otherwise. Rather, we believe this is a consultancy that combines software and hardware solutions depending on a customer's needs. Even so, a Bitcoin PoS **does not function as a hardware wallet**. 
 

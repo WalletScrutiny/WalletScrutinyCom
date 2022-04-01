@@ -31,7 +31,7 @@ social:
   - https://www.facebook.com/slimTECHGEARCo/
 ---
 
-**⚠️ Warning:** We have some confidential information from a related source that points to internal malfeasance related to this project. This may be the reason for its discontinuance.
+**⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.
 
 ## Product Description 
 
@@ -47,4 +47,4 @@ After its marketing campaign, many users have complained that they did not recei
 
 ## Analysis 
 
-This product is clearly discontinued. NFC cards usually have a companion app to access the data in the card. Since the product was launched quite some time ago in 2018, information about this has been sparse. We could not locate the app, but logic dictates that in order to access the data through NFC, an NFC reader or an NFC-enabled device should be able to access private key information through software designed for this. From the pictures, we can see that the card **does not have a display or buttons** for users to interface with.   
+This product is clearly discontinued. From the pictures, we can see that the card **does not have a display or buttons** for users to interface with.   
