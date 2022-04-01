@@ -42,6 +42,8 @@ Here is [an archived version of the product's page.](https://web.archive.org/web
 >
 > eWallet is a lot better than a paper wallet, better than banking security. It effectively provides best protection in the industry. It produces a paper wallet for backup that can be used to restore your coins should the device fail or get lost.
 
+An image from the page shows that the user would have been able to sign transactions on the hardware device as well as allow the user to confirm the address where the cryptocurrency would be sent.
+
 Below are the advertised features:
 
 > - 100% Trezor compatible, can be updated from mytrezor.com with the latest firmware.  
@@ -56,4 +58,12 @@ Below are the advertised features:
 
 The company has a [seriously extensive history](https://bitcointalk.org/index.php?action=trust;u=105804) when it comes to the bitcoin community. There were allegations that Black Arrow Software merely [copied the Trezor firmware](https://bitcointalk.org/index.php?topic=983471.msg10825751#msg10825751) and altered the bootloader and the license.  
 
-With the site down and the company's social media inactive, we have to assume that this product is now **defunct.** We also have to consider the allegations pertaining to the products similarity at least in code to Trezor, as well as the string of allegations against it to mark it as **fake**.
+As it uses Trezor's firmware, we have to assume that this wallet was also able to generate keys offline and sign transactions. Using Trezor's firmware does not make this product fake (as Trezor's license allows clones), but it should be noted that there's no available source code for this product. If the firmware was modified in some way the users would have been unable to view the changes.
+
+From [a blogpost in 2015](http://www.stellaw.info/blog/2015/3/18/black-arrow-ewallets-arrives) that reviewed this wallet:
+
+> Initial impressions leave me confident that they have made modifications and customizations to Trezor code that they have not yet published.
+
+This product **does not have any source code available for review.**
+
+With the site down and the company's social media inactive, we have to assume that this product is now **defunct.** 

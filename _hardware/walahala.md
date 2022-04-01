@@ -59,13 +59,11 @@ The [Walahala KYC policy](https://walahala.com/kyc)
 
 ## Verdict 
 
-The technical specifications for the device are not forthcoming. Moreover, we assume that since the user is inclined to undergo KYC procedures and to register to their exchange, it would appear that the product could very well be **custodial** - which is odd, since hardware wallets were specifically designed to be the opposite. 
+The technical specifications for the device are not forthcoming. From the few renders we see on the website, we are given the impression that it has **no interface and presumably can't confirm transactions.**
 
 This is from the Walahala [wallet page](https://walahala.com/walahala-wallet):
 
 > Connected to a Live Exchange on a single click
 
-There are no references to the project being Open Source.
-
-
+There are no references to the project being open source.
 

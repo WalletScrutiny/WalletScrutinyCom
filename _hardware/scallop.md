@@ -50,5 +50,14 @@ Users can avail of the SCLP hardware wallet for free when they buy $150 of the $
 
 ## Analysis 
 
-We [reached out to Scallop via twitter](https://twitter.com/BitcoinWalletz/status/1505797557028810752) to get more information about their device. There is no apparent method of buying the device from the website. Until such time that more information is available, we would assume that this product is not yet released.
+We [reached out to Scallop via Twitter](https://twitter.com/BitcoinWalletz/status/1505797557028810752) to get more information about their device. 
+
+On Twitter, Scallop [claims that:](https://twitter.com/ScallopDefiBank/status/1507107467859488768)
+
+> 1. The Project is not OPEN Source. We have developed a Proprietary Banking Application. 
+> 2. The Hardware wallet we use is the Ledger Nano S. 
+
+[Ledger themselves claim only EAL5+.](https://www.ledger.com/academy/security/the-importance-of-certification)
+
+There is no apparent method of buying the device from the website. Until such time that more information is available, we would assume that this product is not yet released.
 
