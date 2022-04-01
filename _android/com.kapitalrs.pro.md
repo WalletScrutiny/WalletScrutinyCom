@@ -20,11 +20,11 @@ issue:
 icon: com.kapitalrs.pro.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-12-11
+verdict: nowallet
+date: 2022-03-30
 signer: 
 reviewArchive:
-- date: 2021-09-15
+- date: 2021-03-30
   version: 90.1.085
   appHash: 
   gitRevision: b9fc136cf1e643675475004241479f776599d7c5

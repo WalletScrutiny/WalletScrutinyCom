@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: payperless
 title: Payperless Crypto & BTC Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.payperless.wallet
 appCountry: 
@@ -19,13 +20,28 @@ issue:
 icon: com.payperless.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2021-08-02
 signer: 
 reviewArchive: 
-twitter: 
+twitter: Payperlesscom
 social: 
+  - https://www.facebook.com/payperlesscom/
+  - https://www.instagram.com/payperlesscom/
 redirect_from: 
 
 ---
 
+## App Description 
+
+The app is a multicurrency wallet with support for Bitcoin. 
+
+The wallet can be funded through credit card, debit card, bank transfer or cryptocurrency exchange.
+
+It also supports Biometric authentication. 
+
+## Verdict 
+
+Once the app confirms the phone number of the mobile device, the user is asked to create a pin code. A 12-word mnemonic phrase is created which can be exported. 
+
+There was **no mention that the project is open source**. 
