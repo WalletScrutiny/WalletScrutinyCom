@@ -21,7 +21,7 @@ issue:
 icon: walahala.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: noita
 date: 2022-03-19
 signer: 
 reviewArchive: 

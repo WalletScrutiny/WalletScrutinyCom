@@ -21,7 +21,7 @@ issue:
 icon: blackarrowsoftware.ewallet.png
 bugbounty: 
 meta: defunct
-verdict: fake
+verdict: nosource
 date: 2022-03-23
 signer: 
 reviewArchive: 
