@@ -33,9 +33,9 @@ social:
 
 ## Product Description 
 
-The product tried to raise funds via [indiegogo.com](https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/) in 2014. Unfortunately, it did not meet its funding goals. It then rebranded to Bitcoinpinpad.com, and the device was slightly altered but this too was discontinued. As PRISMicide, it was described as:
+The product tried to raise funds via [indiegogo.com](https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/) in 2014 which did not meet its funding goals. It then rebranded to Bitcoinpinpad.com, and the device was slightly altered but this too was discontinued. As PRISMicide, it was described as:
 
-> PRISMicide is an open security platform based on smart card (www,origamiboard.com) and by far the most secure Bitcoin Hardware Wallet
+> PRISMicide is an open security platform based on smart card (www.origamiboard.com) and by far the most secure Bitcoin Hardware Wallet
 
 It is comprised of two components: an Open Source smart card and an "open hardware" portable player or reader. The smart card protects the private keys. The portable player can interface with Android and iOS devices, or with Windows, Mac or Linux systems via USB. In order to sign transactions, the user must key in a pin code to allow the portable player to display transaction details through its display. The card utilizes an HD BIP32-compliant seed. The user can back up the seed phrases and regenerate the private keys should the need arise. The reader displays this on the screen. 
 
