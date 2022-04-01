@@ -140,7 +140,6 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = 'nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
   const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
@@ -156,7 +155,7 @@ function updateModularPayload() {
   // presort = presort.filter(it => it.meta=="ok")
   presort.sort((a, b) => {
     if (a.verdict != b.verdict)
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+      return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
       return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
     if (a.meta != b.meta)
