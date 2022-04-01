@@ -33,7 +33,10 @@ social:
 
 This product comes from the same providers as {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}. It [has a Github repository.](https://github.com/ELLIPAL/ellipal-joy)
 
-However, it is assumedly not a hardware wallet as it is only described as a ["Mnemonic Phrase Generator"](https://www.ellipal.com/pages/ellipal-joy-mnemonic-generator). [Here is a video](https://www.youtube.com/watch?v=qhDjPv2SLGs) detailing how this mnemonic generator works.
+However, it is assumedly not a hardware wallet as it is only described as a ["Mnemonic Phrase Generator"](https://www.ellipal.com/pages/ellipal-joy-mnemonic-generator). Here is a video detailing how this mnemonic generator works:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qhDjPv2SLGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Below is part of the description from [the store page:](https://www.ellipal.com/products/ellipal-joy-mnemonic-generator)
 
