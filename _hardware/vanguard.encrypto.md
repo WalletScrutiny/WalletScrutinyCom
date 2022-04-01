@@ -42,7 +42,7 @@ From the [FAQ](https://franckmullerencrypto.com/faq/) page:
 Once that is done, the private key will be revealed. Once unsealed, you will have access to your private key. <br />
 Then, you’ll need to link your private key to the live wallet.
 
-Because the QR code is already etched on the watch and the USB needs to be "unsealed" to gain access to the private keys. However, users may order "an unused sealed USB" and submit a public address of their choice to have etched on the watch dial.
+Because the QR code is already etched on the watch and the USB needs to be "unsealed" to gain access to the private keys. However, **to avoid having to trust the provider with the private key**,  users may order "an unused sealed USB" and submit a public address of their choice to have etched on the watch dial.
 
 As for how the watch's interface functions, there does not seem to be a way to verify or approve transactions on this device:
 

@@ -35,9 +35,11 @@ social:
 
 ## Preview 
 
-The Pivot appears to be a coin that is marketed as a hardware wallet. 
+The Pivot appears to be a coin-shaped hardware wallet. 
 
-This is the [video introduction](https://www.youtube.com/watch?v=Yg0H6QwOlck) of the upcoming Indiegogo campaign. 
+Here is the video introduction of the upcoming Indiegogo campaign:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yg0H6QwOlck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Since this is a new product, details are still sparse and general: 
 
@@ -47,7 +49,7 @@ Since this is a new product, details are still sparse and general:
 
 ## Verdict 
 
-The [Indiegogo page](https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon) indicates that this product is "coming soon". This hardware wallet has not yet been released.
+The [Indiegogo page](https://www.indiegogo.com/projects/pvt-pay-the-rise-of-the-pivot/coming_soon) indicates that this product is "coming soon". This hardware wallet has not yet been released but from the scarce material it looks like not featuring any screen, which would make transaction signing problematic.
 
 
 

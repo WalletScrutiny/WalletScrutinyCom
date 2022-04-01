@@ -33,7 +33,9 @@ social:
 
 Nemanja Nikodijević is a security researcher who has managed to create an Open Source hardware wallet called hwallet that uses significantly less lines of code. 
 
-He elaborates in this [video](https://www.youtube.com/watch?v=0sgF5klTcD8).
+He elaborates in this video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0sgF5klTcD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The hwallet is not commercially available and is a DIY bitcoin hardware wallet. He built the project in order to prove that there is a simpler and safer way to build bitcoin hardware wallets compared to current commercially available solutions.
 

@@ -34,7 +34,7 @@ social:
 
 ## Product Description
 
-EletroPay is a Point of Sale provider that's originally described as having offices in China. Later on, their social media pivoted to EletroPay Europa which is based in Lichtenstein. The point of sale system has two basic components, the PoS device and the EletroPay card. Their user base are commercial entities that wishes to use a cryptocurrency payment solution. 
+EletroPay is a Point of Sale provider that's originally described as having offices in China. Later on, their social media pivoted to EletroPay Europa which is based in Lichtenstein. The point of sale system has two basic components, the PoS device and the EletroPay card. Their user base are commercial entities that wish to use a cryptocurrency payment solution. 
 
 Their homepage is currently suspended but their [store is still online](https://store-eletropay.ecwid.com/). Their social media accounts' have last posted in 2021. 
 
