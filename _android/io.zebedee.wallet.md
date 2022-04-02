@@ -4,7 +4,7 @@ title: 'ZEBEDEE: Play and earn Bitcoin'
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20

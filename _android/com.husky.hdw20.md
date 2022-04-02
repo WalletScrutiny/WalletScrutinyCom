@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.husky.hdw20.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-02-18
+date: 2022-04-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2020-01-30
 updated: 2022-03-23
 version: 1.18.1
 stars: 4.3
-reviews: 5127
+reviews: 5124
 size: '34942976'
 website: https://www.tryanchor.com/
 repository: 

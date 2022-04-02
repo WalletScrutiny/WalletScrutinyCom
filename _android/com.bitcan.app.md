@@ -12,7 +12,7 @@ updated: 2021-11-30
 version: 8.0.7.4
 stars: 4.6
 ratings: 92
-reviews: 34
+reviews: 37
 size: 45M
 website: http://www.bitkan.com
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: io.hotbit.shouyi.flavor.kr
 appCountry: cn
 released: 2020-07-07
-updated: 2022-03-10
-version: 1.0.73
+updated: 2022-03-31
+version: 1.0.74
 stars: 3.6
 ratings: 600
 reviews: 239

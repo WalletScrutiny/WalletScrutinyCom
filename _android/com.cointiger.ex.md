@@ -12,7 +12,7 @@ updated: 2022-03-11
 version: 5.1.2.0
 stars: 4.4
 ratings: 13093
-reviews: 136
+reviews: 137
 size: 52M
 website: https://www.cointiger.com
 repository: 

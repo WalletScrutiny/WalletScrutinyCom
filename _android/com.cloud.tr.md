@@ -12,7 +12,7 @@ updated: 2022-03-28
 version: 1.11.0
 stars: 3.9
 ratings: 42784
-reviews: 12660
+reviews: 12667
 size: Varies with device
 website: https://www.trbinance.com/
 repository: 

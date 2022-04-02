@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'خرید و فروش بیت کوین تتر و ارز دیجیتال : بیت 24'
+title: 'خرید و فروش ارزدیجیتال: بیت 24'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: cash.bit24
 appCountry: 
 released: 2021-05-30
-updated: 2022-03-19
-version: 6.2.1
+updated: 2022-03-31
+version: 7.0.3
 stars: 4.6
 ratings: 2325
 reviews: 33

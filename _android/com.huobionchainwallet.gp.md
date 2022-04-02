@@ -12,7 +12,7 @@ updated: 2022-03-30
 version: 3.01.02.026
 stars: 3.9
 ratings: 33247
-reviews: 218
+reviews: 216
 size: 95M
 website: https://www.huobiwallet.com/
 repository: 
