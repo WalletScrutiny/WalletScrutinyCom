@@ -11,7 +11,7 @@ released: 2019-12-19
 updated: 2022-03-24
 version: 1.18.3
 stars: 4.7
-reviews: 2551
+reviews: 2565
 size: '77549568'
 website: https://bittrex.com/mobile
 repository: 

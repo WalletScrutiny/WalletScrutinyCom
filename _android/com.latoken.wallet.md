@@ -12,7 +12,7 @@ updated: 2022-03-30
 version: 1.103.00
 stars: 4.2
 ratings: 35079
-reviews: 94
+reviews: 95
 size: 27M
 website: http://latoken.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-03-30
 version: 5.3.15
 stars: 4.1
 ratings: 4636
-reviews: 524
+reviews: 525
 size: 110M
 website: http://www.okcoin.com
 repository: 

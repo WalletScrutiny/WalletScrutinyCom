@@ -12,7 +12,7 @@ updated: 2022-03-23
 version: 5.2.2
 stars: 3.3
 ratings: 2703
-reviews: 297
+reviews: 299
 size: 42M
 website: https://www.bitrue.com/
 repository: 

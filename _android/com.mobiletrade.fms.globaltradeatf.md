@@ -12,7 +12,7 @@ updated: 2021-11-22
 version: 1.5.78-mobiletrade.fms.globaltradeatf
 stars: 2.8
 ratings: 389
-reviews: 314
+reviews: 313
 size: 20M
 website: https://global.tradeatf.com/
 repository: 

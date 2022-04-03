@@ -12,7 +12,7 @@ updated: 2022-03-25
 version: 1.15.1
 stars: 4.6
 ratings: 14766
-reviews: 4580
+reviews: 4584
 size: 121M
 website: https://www.btcturk.com
 repository: 

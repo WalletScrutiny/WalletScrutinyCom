@@ -12,7 +12,7 @@ updated: 2022-03-31
 version: 3.41.63
 stars: 4.8
 ratings: 46317
-reviews: 1637
+reviews: 1612
 size: 27M
 website: https://lbank.info
 repository: 
