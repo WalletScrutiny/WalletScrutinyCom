@@ -58,4 +58,6 @@ From their [Mobile Point of Sale](https://ctx.com/hardware/) package
 
 ## Analysis 
 
-Bitcoin POS devices usually can receive (monitor if the client paid) without being able to send using xpub. Most of these devices however, are not specifically designed for the secure and offline creation of the private keys. They are transactional and the software elements are often mixed with other components that may or may not be proprietary. In CTX's MPOS system, they claim that the software is Android based and pre-installed. Users also have the option of receiving cryptocurrency transfers automatically converted into bank transfers in the user's local currency.
+Bitcoin POS devices usually can receive (monitor if the client paid) but don't
+require to send funds. As we could not find anything contrary, we assume this is
+not a wallet.
