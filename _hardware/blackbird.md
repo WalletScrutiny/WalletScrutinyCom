@@ -22,7 +22,7 @@ icon: blackbird.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-03-19
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: blackbirdwallet

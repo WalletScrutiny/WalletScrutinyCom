@@ -22,7 +22,7 @@ icon: prismicide.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-03-22
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: Prismicide
