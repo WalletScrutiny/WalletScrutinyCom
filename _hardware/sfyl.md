@@ -21,7 +21,7 @@ issue:
 icon: sfyl.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: unreleased
 date: 2022-03-23
 signer: 
 reviewArchive: 
@@ -48,35 +48,11 @@ It is meant to be a Do-It-Yourself hardware wallet. Further description reads:
 > - Sign PSBT, page to sign a PSBT or a message.
 > - Settings, page to load, save, modify or delete the wallet used.
 
-## Build Instructions
-
-> 1. Buy the hardware
-> - This project is based on Lilygo T-Block board with Eink display.
-> - You can easily find this board on Amazon and AliExpress.
-> - Load the firmware
-> - Clone the project from github.com/valerio-vaccaro/SFYL-Wallet.
-> - Open the project on Platform.io.
-> - Build and load the firmware.
-> - Load pages, javascript and default wallet with the command pio run --target uploadfs.
-
-The [GitHub repository](https://github.com/valerio-vaccaro/SFYL-Wallet) shows the following directories: 
-
-- data
-- include
-- lib
-- src
-- test
-- website
-
-The data subdirectory includes various html files which describes the functionalities previously shown above. It appears that accessing the device is indeed done through the WiFi protocol and through webpages. Hardware wallets are ideally air-gapped and therefore offline. One question that is not addressed by the documentation persists. 
-
-1. What if the browser or the WiFi connection is compromised?
-
 ## Verdict
 
-The main protocol used for the transmission of data between the device is **more susceptible to attacks** since it is primarily used in connecting to the Internet. Most other hardware wallets that we've reviewed connect through more offline means such as USB cables, NFC, BlueTooth or through QR codes. Moreover, the SFYL's documentation doesn't contain much documentation as to how the private keys are secured by the device or whether it has a secure element or a chip that encrypts the private key data. Without specifications for these, we'd have to assume that **the private key can leak** through the WiFi connection.
+The protocol used to communicate with the device - WIFI - is **more susceptible to attacks** than communication via QR-codes for example. Moreover, the SFYL's documentation doesn't contain much information as to how the private keys are generated or secured by the device. In the end, this is - in the provider's own words - a weekend project and **not marketed as a finished product**.
 
-Perhaps, what is more telling is a conversation we chanced upon in their Telegram channel between an entity named "S V" and Valerio Vaccaro: 
+This conversation on their Telegram channel between an entity named "S V" and Valerio Vaccaro is maybe also telling: 
 
 > S V, [3/22/21 7:19 AM]
 Neat indeed, but doesn't introduce attack surface if device used to access AP is compromised?

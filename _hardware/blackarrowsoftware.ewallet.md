@@ -58,7 +58,7 @@ Below are the advertised features:
 
 The company has a [seriously extensive history](https://bitcointalk.org/index.php?action=trust;u=105804) when it comes to the bitcoin community. There were allegations that Black Arrow Software merely [copied the Trezor firmware](https://bitcointalk.org/index.php?topic=983471.msg10825751#msg10825751) and altered the bootloader and the license.  
 
-As it uses Trezor's firmware, we have to assume that this wallet was also able to generate keys offline and sign transactions. Using Trezor's firmware does not make this product fake (as Trezor's license allows clones), but it should be noted that there's no available source code for this product. If the firmware was modified in some way the users would have been unable to view the changes.
+As it uses Trezor's firmware, we have to assume that this wallet was also able to generate keys offline and sign transactions. Using Trezor's firmware does not make this product fake (as Trezor's license allows clones), but it should be noted that there's no available source code for this product which would be a **violation of [Trezor's license](https://github.com/trezor/trezor-firmware/blob/master/LICENSE.md)**. If the firmware was modified in some way the users would have been unable to view the changes.
 
 From [a blogpost in 2015](http://www.stellaw.info/blog/2015/3/18/black-arrow-ewallets-arrives) that reviewed this wallet:
 
