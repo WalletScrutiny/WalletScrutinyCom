@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: defunct
 verdict: nowallet
-date: 2021-03-28
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: bitcoin_pos

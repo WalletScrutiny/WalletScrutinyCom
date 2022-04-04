@@ -22,7 +22,7 @@ icon: vanguard.encrypto.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-25
+date: 2022-04-04
 signer: 
 reviewArchive:
 twitter: FranckMullerBTC

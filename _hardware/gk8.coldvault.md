@@ -22,7 +22,7 @@ icon: gk8.coldvault.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-03-24
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: gk8_security

@@ -22,7 +22,7 @@ icon: nemanjan.hwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nobinary
-date: 2021-03-25
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 

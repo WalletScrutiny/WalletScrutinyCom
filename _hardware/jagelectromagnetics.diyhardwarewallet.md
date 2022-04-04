@@ -22,7 +22,7 @@ icon: jagelectromagnetics.diyhardwarewallet.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-03-23
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: diywallet

@@ -22,7 +22,7 @@ icon: bitcube.png
 bugbounty: 
 meta: defunct
 verdict: unreleased
-date: 2022-03-24
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: BitCubeWallet

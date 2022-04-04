@@ -22,7 +22,7 @@ icon: sidera.smartbit.png
 bugbounty: 
 meta: defunct
 verdict: unreleased
-date: 2021-03-25
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 

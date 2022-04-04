@@ -22,7 +22,7 @@ icon: keyois.capsule.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2021-03-28
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 

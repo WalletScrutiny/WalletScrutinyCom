@@ -22,7 +22,7 @@ icon: skynance.skyport.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2021-03-28
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: skynanceworld

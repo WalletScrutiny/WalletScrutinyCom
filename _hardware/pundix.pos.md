@@ -22,7 +22,7 @@ icon: pundix.pos.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-03-28
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

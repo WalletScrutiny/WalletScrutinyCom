@@ -22,7 +22,7 @@ icon: slimtech.cryptolite.png
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2021-03-25
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: SlimTechGearCo

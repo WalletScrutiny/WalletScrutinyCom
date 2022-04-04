@@ -22,7 +22,7 @@ icon: pentasecurity.walletcard.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-24
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: pentasecsystems
