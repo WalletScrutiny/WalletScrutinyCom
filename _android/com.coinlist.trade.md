@@ -12,7 +12,7 @@ updated: 2021-12-06
 version: 2.0.8
 stars: 2.6
 ratings: 4377
-reviews: 183
+reviews: 184
 size: 5.8M
 website: https://coinlist.co/
 repository: 

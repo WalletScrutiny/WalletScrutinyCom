@@ -8,19 +8,19 @@ appId: com.voicapps.app2cash-ios
 appCountry: us
 idd: 1530672224
 released: 2020-12-01
-updated: 2020-12-01
-version: 1.2.4
+updated: 2022-04-01
+version: 2.0.2
 stars: 5
 reviews: 1
-size: '81442816'
+size: '84334592'
 website: https://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash-ios.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2021-11-30
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 2cashnetwork

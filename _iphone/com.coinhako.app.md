@@ -12,7 +12,7 @@ released: 2016-09-04
 updated: 2022-03-30
 version: 4.1.1
 stars: 4.1
-reviews: 26
+reviews: 27
 size: '79698944'
 website: https://www.coinhako.com
 repository: 

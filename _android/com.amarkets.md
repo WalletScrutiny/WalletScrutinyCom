@@ -12,7 +12,7 @@ updated: 2022-03-30
 version: Varies with device
 stars: 4.6
 ratings: 2509
-reviews: 26
+reviews: 27
 size: Varies with device
 website: https://www.amarkets.com
 repository: 

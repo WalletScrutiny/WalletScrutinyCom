@@ -4,7 +4,7 @@ title: BlackFort Wallet & Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: exchange.blackfort.wallet
 appCountry: ee
 released: 2020-08-31

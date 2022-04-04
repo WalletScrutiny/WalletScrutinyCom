@@ -12,7 +12,7 @@ updated: 2022-03-25
 version: 3.2.5
 stars: 4.3
 ratings: 13846
-reviews: 303
+reviews: 305
 size: 68M
 website: https://bundle.africa
 repository: 
