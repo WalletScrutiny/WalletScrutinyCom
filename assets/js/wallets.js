@@ -1,6 +1,6 @@
-window.verdictOrder = ("nobinary,reproducible,nonverifiable,ftbfs,nosource," +
+window.verdictOrder = ("nobinary,reproducible,diy,nonverifiable,ftbfs,nosource," +
     "custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip," +
-    "fewusers,unreleased,nobtc,nowallet").split(",")
+    "fewusers,unreleased,vapor,nobtc,nowallet").split(",")
 const platformOrder = "hardware,android,iphone,bearer"
 const metaOrder = "ok,stale,obsolete,defunct"
 
