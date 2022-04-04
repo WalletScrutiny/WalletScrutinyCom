@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: deviantcoin.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -46,5 +46,5 @@ According to an [article](https://coinidol.com/privacy-based-cryptocurrency-devi
 
 ## Verdict 
 
-There is **no indication that this hardware wallet was released**. The twitter posts of the account related to deviantcoin last posted on December 15, 2021.
+There is no indication that this hardware wallet was released. The twitter posts of the account related to deviantcoin last posted on December 15, 2021. This is **vaporware.**
 

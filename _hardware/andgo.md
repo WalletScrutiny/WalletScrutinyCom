@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: andgo.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -80,4 +80,4 @@ The device can be paired with a phone using Bluetooth. Multiple backup options w
 
 ## Verdict
 
-The ANDGO bitcoin hardware wallet isn't currently available in the market. We [reached out to them via twitter](https://twitter.com/BitcoinWalletz/status/1485890405921337344) to ask them about their product but didn't get a reply in weeks. Until new information is made available we assume this product is not released yet.
+The ANDGO bitcoin hardware wallet isn't currently available in the market. We [reached out to them via twitter](https://twitter.com/BitcoinWalletz/status/1485890405921337344) to ask them about their product but didn't get a reply in weeks. Until new information is made available we assume this product is **vaporware**.

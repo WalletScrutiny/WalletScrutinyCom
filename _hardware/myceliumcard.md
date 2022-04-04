@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: myceliumcard.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -30,7 +30,7 @@ social:
 
 ---
 
-Since the product is **unreleased**, specifications were hard to come by. [Video presentation](https://vimeo.com/145770131) of the card was last made on November 15, 2015.
+Since the product is unreleased, specifications were hard to come by. [Video presentation](https://vimeo.com/145770131) of the card was last made on November 15, 2015.
 
 ## What we do know
 
@@ -40,5 +40,4 @@ The card made use of colored coins as tokens pegged to fiat currency. It also ma
 
 The card is linked to {% include walletLink.html wallet='android/com.mycelium.wallet' verdict='true' %}
 
-As there were no updates on the product in many years, we consider it to be
-defunct.
+As there were no updates on the product in many years, we consider it to be **vaporware**.

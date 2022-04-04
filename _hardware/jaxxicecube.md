@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: jaxxicecube.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -50,4 +50,4 @@ The promised date of **"late 2016/early 2017"** is now almost 5 years. We [reach
 
 > Hi there. We spent the last few years focused on infrastructure. Stay tuned for some exciting announcements in 2022.
 
-Without a concrete release date and information about this project, this project will retain its last known status.
+Without a concrete release date and information about this project, this project is determined as **vaporware**.

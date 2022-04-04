@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: bitcube.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -37,4 +37,4 @@ The project tried to crowdfund the development and production of its multicurren
 
 ## Analysis
 
-It claims that an EAL5+ Secure Element secures the private keys. From the [YouTube video](https://www.youtube.com/watch?v=9-tcRilfKXs) it shows that the device has a touchscreen display which allows users to confirm transactions. not much information is available now. Since this project was not funded, we determine it to **not have made production and release**. There are also no indications that it would continue.  
+It claims that an EAL5+ Secure Element secures the private keys. From the [YouTube video](https://www.youtube.com/watch?v=9-tcRilfKXs) it shows that the device has a touchscreen display which allows users to confirm transactions. not much information is available now. Since this project was not funded, we determine it to not have made production and release. This is **vaporware**.
