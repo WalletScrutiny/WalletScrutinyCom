@@ -16,7 +16,14 @@
         {%- for post in include.platformPosts -%}
           {%- if post.verdict == v and post.meta == meta -%}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}/small/{{ post.icon | default: 'noicon.png' }}" class="app_logo meta_{{ post.meta }}"
+              {%- if post.icon -%}
+                {%- assign icon = base_path | append: '/images/wallet_icons/'
+                  | append: post.collection | append:  '/small/'
+                  | append: post.icon -%}
+              {%- else -%}
+                {%- assign icon = base_path  | append: '/images/smallNoicon.png' -%}
+              {%- endif -%}
+              <img loading="lazy" src="{{ icon }}" class="app_logo meta_{{ post.meta }}"
                 alt="Logo {{ post.altTitle | default: post.title }}">
             </a>
           {%- endif -%}

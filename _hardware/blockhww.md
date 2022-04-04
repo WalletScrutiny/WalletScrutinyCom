@@ -18,7 +18,7 @@ country: US
 price: 
 repository: 
 issue: 
-icon: noicon.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: unreleased

@@ -18,7 +18,7 @@ country: HK
 price: 
 repository: 
 issue: 
-icon: noicon.png
+icon: 
 bugbounty: 
 meta: defunct
 verdict: unreleased
