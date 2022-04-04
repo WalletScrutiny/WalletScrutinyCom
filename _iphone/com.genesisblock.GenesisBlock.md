@@ -10,7 +10,7 @@ idd: 1495538730
 released: 2020-05-09
 updated: 2022-03-08
 version: 0.1.72
-stars: 4.44681
+stars: 4.4
 reviews: 47
 size: '48262144'
 website: https://genesisblock.com

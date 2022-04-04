@@ -10,7 +10,7 @@ idd: 1361781578
 released: 2018-07-06
 updated: 2021-08-02
 version: 2.1.3
-stars: 3.30769
+stars: 3.3
 reviews: 13
 size: 78513152
 website: http://aximetria.com

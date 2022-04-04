@@ -10,7 +10,7 @@ idd: 1460965460
 released: 2019-05-07
 updated: 2021-10-06
 version: 2.3.15
-stars: 4.47619
+stars: 4.5
 reviews: 21
 size: 26798080
 website: https://blockbank.ai/

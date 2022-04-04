@@ -8,11 +8,11 @@ appId: com.bitso.wallet
 appCountry: 
 idd: 1292836438
 released: 2018-02-19
-updated: 2022-03-18
-version: 3.6.1
-stars: 4.68929
-reviews: 560
-size: '118810624'
+updated: 2022-03-30
+version: 3.7.0
+stars: 4.7
+reviews: 570
+size: '122775552'
 website: https://bitso.com/app
 repository: 
 issue: 

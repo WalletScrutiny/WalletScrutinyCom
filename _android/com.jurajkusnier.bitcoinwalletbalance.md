@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-29
 updated: 2020-06-01
 version: '2.4'
-stars: 4.074627
+stars: 4.1
 ratings: 251
-reviews: 37
+reviews: 38
 size: 5.0M
 website: http://jurajkusnier.com/
 repository: 

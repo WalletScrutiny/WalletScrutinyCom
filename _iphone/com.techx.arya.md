@@ -10,7 +10,7 @@ idd: 1478620685
 released: 2019-09-06
 updated: 2022-03-01
 version: 2.15.0
-stars: 4.81818
+stars: 4.8
 reviews: 11
 size: '80390144'
 website: https://aryatrading.com/#pricing

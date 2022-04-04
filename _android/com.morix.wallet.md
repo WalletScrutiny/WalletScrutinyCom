@@ -8,8 +8,8 @@ users: 50
 appId: com.morix.wallet
 appCountry: 
 released: 2020-07-15
-updated: 2022-03-07
-version: v2.0.5
+updated: 2022-03-28
+version: v2.0.8
 stars: 
 ratings: 
 reviews: 

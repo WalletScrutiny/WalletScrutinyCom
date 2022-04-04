@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: 'Nexo: Buy BTC, ETH, SOL, AVAX'
+title: 'Nexo: Buy BTC, ETH, SOL & APE'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2022-03-05
-version: 2.2.21
-stars: 3.57519
-reviews: 798
-size: '56515584'
+updated: 2022-03-31
+version: 2.2.23
+stars: 3.6
+reviews: 812
+size: '56568832'
 website: https://nexo.io
 repository: 
 issue: 
@@ -30,11 +30,4 @@ social:
 
 ---
 
-In the description on the App Store we read:
-
-> • Your Nexo account is secured through BitGo, the leader in crypto
-  custodianship, and benefits from top-tier insurance.
-
-which makes it a custodial app. The custodian is claimed to be "BitGo" so as a
-user you have to trust BitGo to not lose the coins and Nexo to actually not hold
-all or part of the coins. In any case this app is **not verifiable**.
+{% include copyFromAndroid.html %}

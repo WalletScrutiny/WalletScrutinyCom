@@ -1,6 +1,6 @@
 ---
 wsId: iconomi
-title: 'ICONOMI: Buy and sell cryptocurrencies'
+title: 'ICONOMI: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry: si
 released: 2017-10-17
 updated: 2022-03-16
 version: 2.1.3
-stars: 4.1262136
+stars: 4.1
 ratings: 291
 reviews: 135
 size: 127M

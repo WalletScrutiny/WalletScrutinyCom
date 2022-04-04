@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Jackbot - AI Crypto Trading
+title: Jackbot - AI Crypto Investing
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: app.jackbot
 appCountry: 
 released: 2021-01-05
-updated: 2022-02-08
-version: 4.2.0
+updated: 2022-03-26
+version: 4.2.4
 stars: 
 ratings: 
 reviews: 
-size: 43M
+size: 21M
 website: https://jackbot.app
 repository: 
 issue: 

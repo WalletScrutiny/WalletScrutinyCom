@@ -10,7 +10,7 @@ idd: 1559718559
 released: 2021-03-30
 updated: 2021-10-27
 version: 1.12.2
-stars: 4.65
+stars: 4.7
 reviews: 20
 size: '29395968'
 website: https://www.studentcoin.org/

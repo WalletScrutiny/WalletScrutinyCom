@@ -10,7 +10,7 @@ idd: 1375898166
 released: 2018-05-26
 updated: 2022-03-14
 version: 3.6.8
-stars: 2.92281
+stars: 2.9
 reviews: 285
 size: '90287104'
 website: http://www.hb.co.kr

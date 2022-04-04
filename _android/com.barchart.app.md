@@ -10,9 +10,9 @@ appCountry:
 released: 2013-11-18
 updated: 2022-02-01
 version: 3.0.7
-stars: 4.658444
+stars: 4.7
 ratings: 9788
-reviews: 2030
+reviews: 2035
 size: 12M
 website: http://www.barchart.com/app
 repository: 

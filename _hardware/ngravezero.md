@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions:
 - 72
-- 125
+- 130
 - 14
 weight: 180
 provider: NGRAVE

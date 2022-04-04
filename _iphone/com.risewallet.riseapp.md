@@ -10,7 +10,7 @@ idd: 1453389237
 released: 2019-03-12
 updated: 2022-02-03
 version: 1.6.0
-stars: 4.80769
+stars: 4.8
 reviews: 26
 size: '12294144'
 website: https://www.risewallet.com/

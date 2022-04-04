@@ -22,7 +22,7 @@ icon: keepser.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-02-17
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: keepser
@@ -48,7 +48,7 @@ It works with a companion app {% include walletLink.html wallet='android/com.Kee
 
 ## Card Variations
 
-The Keepser has 3 card models advertised for "cold wallet"s:
+The Keepser has 3 card models advertised for cold wallets:
 
 > - Keepser Pro - 285€
 >

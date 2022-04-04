@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AML Safe Wallet — Buy & Sell Bitcoin with AML
+title: AMLSafe - wallet connect web3
 altTitle: 
 authors:
 - leo

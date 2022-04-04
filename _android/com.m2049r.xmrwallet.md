@@ -10,9 +10,9 @@ appCountry:
 released: 2017-09-29
 updated: 2022-03-13
 version: 2.4.1 'Baldaŭ'
-stars: 3.08
+stars: 3.1
 ratings: 821
-reviews: 151
+reviews: 152
 size: Varies with device
 website: https://monerujo.io/
 repository: 

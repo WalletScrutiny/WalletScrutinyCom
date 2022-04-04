@@ -10,15 +10,15 @@ appCountry:
 released: 2019-04-30
 updated: 2022-03-05
 version: 2.8.4.653
-stars: 3.1993356
+stars: 3.2
 ratings: 21528
-reviews: 1646
+reviews: 1652
 size: 28M
 website: https://Paxful.com
 repository: 
 issue: 
 icon: com.paxful.wallet.png
-bugbounty: 
+bugbounty: https://paxful.com/bug-bounty-policy
 meta: ok
 verdict: custodial
 date: 2020-10-12
@@ -28,6 +28,8 @@ twitter: paxful
 social:
 - https://www.facebook.com/paxful
 - https://www.reddit.com/r/paxful
+- https://www.youtube.com/PaxfulOfficial
+- https://www.instagram.com/paxful/
 redirect_from:
 - /paxful/
 - /com.paxful.wallet/
@@ -36,20 +38,23 @@ redirect_from:
 
 ---
 
-According to their Playstore description:
+According to their [TOS](https://paxful.com/terms-of-service):
 
-> The bitcoin wallet app is also the ultimate companion tool to Paxful, one of
-the world’s biggest peer-to-peer bitcoin marketplaces.
+> The **hosted digital currency wallet** service provided by Paxful is a secure
+  method of storing, sending, and receiving digital currency. Paxful
+  **does not store or custody any Digital Assets**. Digital Assets are always
+  stored on its respective networks or blockchains.
 
-> Track your open trades on Paxful so you know the current status of your most
-recent transactions as you buy and sell bitcoin
+and further down:
 
-which sounds like a tool to manage coins on [paxful](https://paxful.com/).
+> Paxful reserves the right to **refuse to process any transaction** if required
+  by law or if we deem the transactions to be against our terms and conditions
+  in this Agreement.
 
-Nowhere on the Playstore or on their website did we find a link to source code.
+So although they claim "does not store or custody", they also claim to be a
+"hosted [...] wallet" and to have the power to "refuse to process any
+transaction".
 
-[Nowhere on GitHub](https://github.com/search?p=3&q=%22com.paxful.wallet%22) did
-we find their applicationId `com.paxful.wallet` as an actual applicationId in
-an Android project.
+That sounds an awful lot like a custodial service.
 
 Our verdict thus is: **not verifiable** and probably custodial.

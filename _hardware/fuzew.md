@@ -11,7 +11,7 @@ version: '1.2'
 binaries: 
 dimensions:
 - 54
-- 85.5
+- 86
 - 0.84
 weight: 8.5
 provider: BrilliantTS

@@ -4,16 +4,16 @@ title: 'ONUS: Invest BTC, ETH, DOGE'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2022-02-24
-version: 2.1.2
-stars: 4.470588
+updated: 2022-03-25
+version: 2.1.4
+stars: 4.4
 ratings: 46866
-reviews: 243
-size: 139M
+reviews: 248
+size: 140M
 website: https://vndc.io
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-19
 updated: 2022-02-01
 version: 2.6.4
-stars: 4.4583335
+stars: 4.4
 ratings: 513
-reviews: 54
+reviews: 52
 size: 93M
 website: https://trastra.com/
 repository: 
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 This app is only available for EU residents, from its Google Play description:
 

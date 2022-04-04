@@ -21,9 +21,14 @@ icon: zapsolutions.zap.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-02-17
+date: 2022-03-24
 signer: 
 reviewArchive:
+- date: 2022-02-17
+  version: 0.5.5-beta
+  appHash: af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982
+  gitRevision: 03cf27c0b199ab3789dc35f06874b4c9f557ce22
+  verdict: reproducible
 - date: 2021-12-15
   version: 0.5.4-beta
   appHash: 32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc
@@ -65,7 +70,10 @@ reviewArchive:
   gitRevision: 9c088d356d066f33c3e3d8fa21bc7d74082c1118
   verdict: nonverifiable
 twitter: ln_zap
-social: 
+social:
+- https://medium.com/@JimmyMow
+- >-
+  https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LWQ1OGMyMWI3YTdmYTQ0YTVmODg4ZmNkYjQ1MzUxNGExMGRmZWEyNTUyOGQzMzZkYTdhODE3NmQxZWZiOGFkYWI
 redirect_from:
 - /posts/zapsolutions.zap/
 
@@ -79,11 +87,11 @@ on the binary from Google Play:
 ===== Begin Results =====
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.5-beta
-apkVersionCode: 3035
+apkVersionName: 0.5.6-beta
+apkVersionCode: 3036
 verdict:        reproducible
-appHash:        af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982
-commit:         1ae775ecbe297083ddad6b03ba47ec375a872eb8
+appHash:        cdb21de8cc9fd0268a13ddacbc4bc5e453396808e0c764cacaccc8087af29d39
+commit:         acffc0ec81320d08c2bd4686991f0d2fa1a26a45
 
 Diff:
 

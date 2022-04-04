@@ -10,7 +10,7 @@ idd: 1404844195
 released: 2018-08-06
 updated: 2022-03-16
 version: 3.0.65
-stars: 4.75
+stars: 4.8
 reviews: 32
 size: '52486144'
 website: https://spatium.net/

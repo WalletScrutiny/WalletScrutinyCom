@@ -8,11 +8,11 @@ users: 1000000
 appId: com.zipmex
 appCountry: cn
 released: 2020-03-30
-updated: 2022-03-16
-version: 22.3.1.1990241036
-stars: 4.1928496
+updated: 2022-03-31
+version: 22.3.2.2025136096
+stars: 4.2
 ratings: 17923
-reviews: 10915
+reviews: 11035
 size: 129M
 website: https://zipmex.co.th/
 repository: 
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 Zipmex is a "digital assets exchange" and claims that all assets are safely and securely stored with BitGo.
 

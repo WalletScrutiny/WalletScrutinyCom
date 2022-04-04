@@ -9,7 +9,7 @@ updated: 2021-12-23
 version: 1.6.2
 binaries: 
 dimensions:
-- 167
+- 170
 - 65
 - 20
 weight: 

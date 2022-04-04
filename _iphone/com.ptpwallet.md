@@ -10,7 +10,7 @@ idd: 1428589045
 released: 2018-12-12
 updated: 2022-02-21
 version: 1.0.218
-stars: 4.34783
+stars: 4.3
 reviews: 23
 size: '46946304'
 website: https://ptpwallet.com

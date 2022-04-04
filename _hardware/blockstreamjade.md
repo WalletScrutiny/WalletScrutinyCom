@@ -35,6 +35,7 @@ social:
 - https://www.facebook.com/Blockstream
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
+
 ---
 
 **Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are

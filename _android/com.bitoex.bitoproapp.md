@@ -8,7 +8,7 @@ users: 50000
 appId: com.bitoex.bitoproapp
 appCountry: us
 released: 2018-07-30
-updated: 2022-03-17
+updated: 2022-03-24
 version: 4.1.3
 stars: 
 ratings: 

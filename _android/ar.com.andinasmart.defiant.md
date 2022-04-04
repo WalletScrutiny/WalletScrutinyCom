@@ -10,7 +10,7 @@ appCountry: ar
 released: 2019-11-19
 updated: 2022-03-08
 version: 3.0.0
-stars: 4.581818
+stars: 4.6
 ratings: 65
 reviews: 30
 size: 29M

@@ -8,11 +8,11 @@ users: 100000
 appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
-updated: 2022-03-11
+updated: 2022-03-28
 version: 5.0.1
-stars: 3.7844312
+stars: 3.8
 ratings: 4823
-reviews: 1511
+reviews: 1519
 size: 15M
 website: http://tradestation.com/contact-us/
 repository: 
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ## App Description
 

@@ -32,7 +32,12 @@ redirect_from:
 
 **Update 2022-02-18**: This app is not on the Store anymore.
 
-**Warning:** The reviews of this app are filled with scam accusations, with some users explaining that the app requires them to give 5* ratings first. We recommend to exercise caution with this app.
+<div class="alertBox"><div>
+<p>This app is probably a scam. Their website has mostly not working links and
+previously linked to
+{% include walletLink.html wallet='android/com.mobile.burtar' verdict='true' %}
+as their app. Both apps have/had tons of scam accusations in the reviews.</p>
+</div></div>
 
 ## App Description
 

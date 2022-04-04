@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 197
-- 136
+- 200
+- 140
 - 9
 weight: 65
 provider: BitFreezer

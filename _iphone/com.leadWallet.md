@@ -10,7 +10,7 @@ idd: 1578704913
 released: 2021-08-03
 updated: 2022-01-10
 version: v1.0.13
-stars: 4.52632
+stars: 4.5
 reviews: 19
 size: '35991552'
 website: https://leadwallet.io/

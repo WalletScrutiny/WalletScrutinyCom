@@ -10,7 +10,7 @@ idd: 1371949230
 released: 2018-07-06
 updated: 2022-03-01
 version: '7.15'
-stars: 3.66667
+stars: 3.7
 reviews: 3
 size: '23080960'
 website: https://stasis.net

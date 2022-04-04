@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: Unocoin Wallet
+title: Unocoin Indian Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.unocoin.mainapp.production
 appCountry: 
 idd: 1030422972
 released: 2016-05-12
-updated: 2022-02-03
-version: 6.2.4
+updated: 2022-03-23
+version: 6.2.5
 stars: 2.5
 reviews: 22
-size: '200697856'
+size: '248860672'
 website: https://www.unocoin.com
 repository: 
 issue: 

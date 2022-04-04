@@ -10,7 +10,7 @@ idd: 1459857368
 released: 2019-10-08
 updated: 2021-11-19
 version: 1.14.1
-stars: 3.61111
+stars: 3.6
 reviews: 18
 size: '82045952'
 website: https://wallet.io/

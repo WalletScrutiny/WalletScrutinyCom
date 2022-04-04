@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-06-30
 updated: 2021-09-09
 version: 1.0.5
-stars: 3.99
+stars: 4
 ratings: 159
 reviews: 59
 size: 66M
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ## App Description
 LVL describes itself as a "premium all-in-one finance app that lets you buy and sell crypto for free." It claims to be a community exchange:

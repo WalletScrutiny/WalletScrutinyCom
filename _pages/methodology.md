@@ -8,9 +8,7 @@ author_profile: true
 We concentrate on a tiny aspect of wallet security and to better understand
 what we do and do not do, this page explains the rough process of how we work.
 
-
-What we do
-==========
+## What we do
 
 To put it dramatically, we search for the obvious potential to empty all the wallets
 of all the users at once. Could the provider of the wallet, with enough criminal
@@ -31,9 +29,7 @@ some wallets manage billions of dollars. This would be a huge incentive for crim
 inclined employees, even if the wallet was not set up to scam its users from the
 start, which probably is the case for some wallets, too.
 
-
-What we do not do
-=================
+## What we do not do
 
 * **<span id="noAudit">We do not</span>** provide a security audit of the wallet.
   The empty row "Audited?" on [the landing page](/) is merely to emphasize
@@ -59,9 +55,7 @@ What we do not do
   binary on your device with the one reported here. For hardware wallets it's even
   harder to make general statements about the device you hold in hands.
 
-
-Our manual review goes as follows:
-==================================
+## Our manual review goes as follows:
 
 We take the perspective of a **curious potential user** of the respective product.
 We take all information from publicly available sources as we do not assume that
@@ -76,10 +70,8 @@ findings.
 We answer the following questions usually in this order:
 
 {% include verdictMethodology.html verdict="wip" %}
-{% include verdictMethodology.html verdict="defunct" %}
-{% include verdictMethodology.html verdict="obsolete" %}
-{% include verdictMethodology.html verdict="stale" %}
 {% include verdictMethodology.html verdict="fake" %}
+{% include verdictMethodology.html verdict="vapor" %}
 {% include verdictMethodology.html verdict="unreleased" %}
 {% include verdictMethodology.html verdict="fewusers" %}
 {% include verdictMethodology.html verdict="nowallet" %}
@@ -93,9 +85,14 @@ We answer the following questions usually in this order:
 {% include verdictMethodology.html verdict="reproducible" %}
 {% include verdictMethodology.html verdict="nobinary" %}
 
+Independent of the detailed analysis, we might assign a meta-verdict based on a
+project's availability:
 
-What is a hardware wallet?
-==========================
+{% include verdictMethodology.html verdict="defunct" %}
+{% include verdictMethodology.html verdict="obsolete" %}
+{% include verdictMethodology.html verdict="stale" %}
+
+## What is a hardware wallet?
 
 There is no globally accepted definition of a hardware wallet. Some consider a
 paper with 12 words a hardware wallet - after all paper is a sort of hardware or
@@ -113,21 +110,23 @@ control** of what transactions he signs or not. That means:
 * The device shares signed transactions after informed approval on the device
   without reliance on insecure external hardware
 
-Our steps when reviewing a hardware wallet
-==================================
+### Our steps when reviewing a hardware wallet
 
 We try to follow the
 spirit of the software review process, looking at the firmware and its updates
 for public source and reproducibility.
 
-In addition we look at physical properties of the device.
+In addition we look at physical properties of the device and came up with these
+additional verdicts:
 
+{% include verdictMethodology.html verdict="diy" %}
 {% include verdictMethodology.html verdict="prefilled" %}
 {% include verdictMethodology.html verdict="plainkey" %}
 {% include verdictMethodology.html verdict="noita" %}
 
-Priorities
-==========
+{% include /review/whatIsBearer.html %}
+
+## Priorities
 
 We cannot re-evaluate all the wallets every hour and as this is a side-project
 still, we might not be able to update anything for a month or three straight.
@@ -145,9 +144,7 @@ But when we update reviews, we try to proceed as follows:
 1. Evaluate the most relevant
    {% include verdictBadge.html verdict="wip" type='short' %} wallets
 
-
-Wrap it up
-==========
+## Wrap it up
 
 In the end we report our findings. All wallets that fail at any of the above
 questions are considered high risk in our estimate. We might contact the wallet
@@ -159,9 +156,7 @@ wallet was out to steal your coins. It just means that we are confident that
 with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.
 
-
-No reproducible apps on Apple App Store?
-========================================
+## No reproducible apps on Apple App Store?
 
 WalletScrutiny started out looking only into Android. Mobile wallets are the
 most used wallets and Android the most used among mobile wallets but looking
@@ -181,9 +176,7 @@ then.
 
 Else, our methodology is the same as for Android wallets.
 
-
-Further considerations
-======================
+## Further considerations
 
 We will list as we stumble into them things like
 
@@ -194,9 +187,7 @@ We will list as we stumble into them things like
   is not a complete code review. It's only what we see when looking at the code
   for some minutes. A full code review takes man-months.
 
-
-What could still go wrong?
-==========================
+## What could still go wrong?
 
 The verdict {% include verdictBadge.html verdict="reproducible" type='short' %}
 unfortunately means very little. It means that

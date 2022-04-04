@@ -10,7 +10,7 @@ appCountry: de
 released: 2018-09-27
 updated: 2022-01-13
 version: 3.15.0
-stars: 4.133333
+stars: 4.1
 ratings: 202
 reviews: 8
 size: Varies with device
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 > SAFETY FIRST<br>
   Regulated and licensed in the EU. Your money is securely held by banks within

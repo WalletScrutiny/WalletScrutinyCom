@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: '‎Binance.US: BTC, ETH & Crypto'
+title: 'Binance.US: Buy BTC, ETH, more'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: us.binance.fiat
 appCountry: 
 idd: 1492670702
 released: 2020-01-05
-updated: 2022-03-17
-version: 2.9.6
-stars: 4.20952
-reviews: 96123
-size: '221991936'
+updated: 2022-03-24
+version: 2.9.7
+stars: 4.2
+reviews: 96758
+size: '220710912'
 website: https://www.binance.us/en/home
 repository: 
 issue: 

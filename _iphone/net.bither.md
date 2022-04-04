@@ -9,7 +9,7 @@ idd: 899478936
 released: 2014-07-25
 updated: 2021-10-13
 version: 2.0.2
-stars: 2.7381
+stars: 2.7
 reviews: 42
 size: '16916480'
 website: https://bither.net

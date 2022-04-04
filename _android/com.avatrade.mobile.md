@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Avatrade - Trade Forex & CFDs
+title: Avatrade Trade FX, CFDs & ETFs
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2017-05-23
 updated: 2022-03-03
 version: '100.5'
-stars: 4.266667
+stars: 4.1
 ratings: 9327
 reviews: 7
 size: 21M

@@ -8,9 +8,9 @@ users: 10000
 appId: it.airgap.vault
 appCountry: 
 released: 2018-08-06
-updated: 2022-03-15
-version: 3.15.1
-stars: 4.1463413
+updated: 2022-03-27
+version: 3.16.0
+stars: 4.2
 ratings: 110
 reviews: 12
 size: 69M

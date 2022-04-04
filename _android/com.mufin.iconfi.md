@@ -8,13 +8,13 @@ users: 10000
 appId: com.mufin.iconfi
 appCountry: 
 released: 2021-01-27
-updated: 2022-01-11
-version: 1.0.5
-stars: 4.59375
+updated: 2022-03-31
+version: 1.0.6
+stars: 4.6
 ratings: 220
 reviews: 20
 size: 10.0M
-website: https://www.icon-fi.com/
+website: https://www.icon-fi.com
 repository: 
 issue: 
 icon: com.mufin.iconfi.png

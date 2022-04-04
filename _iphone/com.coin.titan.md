@@ -10,7 +10,7 @@ idd: 1492432350
 released: 2021-04-22
 updated: 2021-12-23
 version: 1.28.0
-stars: 1.33333
+stars: 1.3
 reviews: 3
 size: '86978560'
 website: https://titanprojects.co

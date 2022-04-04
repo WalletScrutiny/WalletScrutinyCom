@@ -12,7 +12,7 @@ updated: 2022-03-10
 version: 2.6.72.14
 stars: 3.5
 ratings: 8728
-reviews: 407
+reviews: 410
 size: 63M
 website: https://crypterium.com
 repository: 

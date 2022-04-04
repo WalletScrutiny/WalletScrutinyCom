@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-11
 updated: 2021-11-13
 version: 2.08.01
-stars: 2.1935484
+stars: 2.2
 ratings: 183
 reviews: 26
 size: 59M
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.atari.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-11-15
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-16**: This app is not available anymore.
 
 ## App Description
 

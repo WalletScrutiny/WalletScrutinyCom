@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-09-01
 updated: 2021-12-03
 version: 3.0.3
-stars: 4.7711864
+stars: 4.8
 ratings: 5947
 reviews: 333
 size: 72M
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.aofex.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-21
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: Aofex2
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-12**: This app is not available anymore.
 
 ## App Description
 

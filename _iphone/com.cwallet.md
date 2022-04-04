@@ -10,7 +10,7 @@ idd: 1471981089
 released: 2019-07-26
 updated: 2021-04-08
 version: 0.738.47
-stars: 4.18182
+stars: 4.2
 reviews: 11
 size: '44941312'
 website: https://xapawallet.com/
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-06-04
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: WalletXapa

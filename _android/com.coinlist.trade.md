@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-10
 updated: 2021-12-06
 version: 2.0.8
-stars: 2.58
+stars: 2.6
 ratings: 4377
-reviews: 180
+reviews: 184
 size: 5.8M
 website: https://coinlist.co/
 repository: 
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ## App Description
 

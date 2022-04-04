@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-06
 updated: 2022-03-08
 version: 0.1.72
-stars: 3.903226
+stars: 3.9
 ratings: 57
 reviews: 17
 size: Varies with device
@@ -32,6 +32,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ## App Description
 

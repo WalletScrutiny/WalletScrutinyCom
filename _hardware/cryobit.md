@@ -9,9 +9,9 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 85.725
-- 53.975
-- 0.7366
+- 86
+- 54
+- 0.74
 weight: 28
 provider: CryoBit LLC
 providerWebsite: 

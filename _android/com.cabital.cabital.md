@@ -8,8 +8,8 @@ users: 10000
 appId: com.cabital.cabital
 appCountry: 
 released: 2021-06-07
-updated: 2022-03-09
-version: 1.2.3
+updated: 2022-03-24
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 

@@ -8,11 +8,11 @@ appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
 released: 2017-06-26
-updated: 2022-02-25
-version: 3.1.0
-stars: 4.46628
-reviews: 341
-size: '41683968'
+updated: 2022-03-31
+version: 3.2.1
+stars: 4.5
+reviews: 343
+size: '43626496'
 website: https://www.muchbetter.com
 repository: 
 issue: 

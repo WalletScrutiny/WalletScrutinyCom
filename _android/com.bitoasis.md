@@ -10,9 +10,9 @@ appCountry: ae
 released: 2020-08-20
 updated: 2022-03-18
 version: 2.1.5
-stars: 4.4157896
+stars: 4.4
 ratings: 3007
-reviews: 334
+reviews: 337
 size: 72M
 website: https://bitoasis.net/
 repository: 
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 From its Google Play description:
 

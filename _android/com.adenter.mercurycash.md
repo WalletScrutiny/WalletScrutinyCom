@@ -10,9 +10,9 @@ appCountry:
 released: 2017-07-28
 updated: 2022-03-02
 version: '4.4'
-stars: 4.189189
+stars: 4.1
 ratings: 228
-reviews: 16
+reviews: 17
 size: 104M
 website: http://mercury.cash
 repository: 

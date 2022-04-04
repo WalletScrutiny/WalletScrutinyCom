@@ -21,8 +21,8 @@ issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
 bugbounty: 
 meta: ok
-verdict: noita
-date: 2022-02-17
+verdict: wip
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: arcbtc

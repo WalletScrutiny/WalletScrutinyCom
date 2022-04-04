@@ -10,9 +10,9 @@ appCountry: ua
 released: 2020-03-13
 updated: 2021-02-10
 version: '0.82'
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 2
 size: 22M
 website: https://blockchain.mn
 repository: 

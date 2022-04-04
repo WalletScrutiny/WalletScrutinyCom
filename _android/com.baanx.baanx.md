@@ -31,6 +31,8 @@ redirect_from:
 
 ---
 
+{% include review/bitgo.md %}
+
 ## App Description
 
 > Baanx and CL Technologies bring the best of challenger banking and a crypto exchange together in one application. Baanx offers users a full Debit Card with cryptocurrency trading, full custody and secure crypto wallets.

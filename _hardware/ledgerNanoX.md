@@ -10,8 +10,8 @@ version:
 binaries: 
 dimensions:
 - 72
-- 18.6
-- 11.75
+- 19
+- 12
 weight: 34
 provider: 
 providerWebsite: 

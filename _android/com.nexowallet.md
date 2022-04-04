@@ -8,11 +8,11 @@ users: 1000000
 appId: com.nexowallet
 appCountry: 
 released: 2019-06-28
-updated: 2022-03-04
-version: 2.2.21
-stars: 4.2563453
+updated: 2022-03-29
+version: 2.2.23
+stars: 4.3
 ratings: 21149
-reviews: 1548
+reviews: 1570
 size: 96M
 website: https://nexo.io
 repository: 
@@ -32,6 +32,8 @@ redirect_from:
 - /com.nexowallet/
 
 ---
+
+{% include review/bitgo.md %}
 
 In the description on Google Play we read:
 

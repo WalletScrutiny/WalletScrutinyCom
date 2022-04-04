@@ -160,11 +160,11 @@ function add(newIdds) {
         fs.exists(path, fileExists => {
           if (!fileExists) {
             const header = helper.getEmptyHeader(headers)
-            header.appId = appId
+            header.appId = app.appId
             header.idd = idd
             header.appCountry = country
             header.verdict = "wip"
-            refreshFile(`${appId}.md`, {header: header, body: ''})
+            refreshFile(`${app.appId}.md`, {header: header, body: ''})
           } else {
             refreshFile(`${app.appId}.md`)
           }

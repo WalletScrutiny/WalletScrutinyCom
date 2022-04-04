@@ -10,8 +10,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 123
-- 62.5
+- 120
+- 63
 - 8.6
 weight: 163
 provider: ColdLar Information Technology Co.

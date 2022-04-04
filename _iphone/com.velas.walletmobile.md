@@ -12,7 +12,7 @@ idd: 1541032748
 released: 2020-12-12
 updated: 2022-01-31
 version: 2.2.7
-stars: 2.36364
+stars: 2.4
 reviews: 11
 size: '32991232'
 website: https://velas.com

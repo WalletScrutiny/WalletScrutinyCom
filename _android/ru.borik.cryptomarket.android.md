@@ -10,7 +10,7 @@ appCountry:
 released: 2017-12-18
 updated: 2021-04-01
 version: '1.62'
-stars: 3.857143
+stars: 3.9
 ratings: 137
 reviews: 3
 size: 7.5M
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ru.borik.cryptomarket.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-18
+date: 2022-03-28
 signer: 
 reviewArchive: 
 twitter: 

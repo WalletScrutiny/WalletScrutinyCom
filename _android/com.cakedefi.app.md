@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-16
 updated: 2022-03-18
 version: 3.4.0
-stars: 3.84
+stars: 3.9
 ratings: 1135
-reviews: 84
+reviews: 91
 size: 48M
 website: https://cakedefi.com
 repository: 
@@ -32,6 +32,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ### App Description
 

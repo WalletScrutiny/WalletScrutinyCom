@@ -8,9 +8,9 @@ users: 50000
 appId: com.fibermode.mode.android
 appCountry: gb
 released: 2021-02-11
-updated: 2022-03-22
-version: 2.3.3
-stars: 3.5544555
+updated: 2022-03-27
+version: 2.4.0
+stars: 3.5
 ratings: 372
 reviews: 161
 size: 149M
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+{% include review/bitgo.md %}
 
 ### App Description
 From the description:

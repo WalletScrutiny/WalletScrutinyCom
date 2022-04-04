@@ -10,7 +10,7 @@ appCountry: bm
 released: 2020-12-09
 updated: 2021-10-22
 version: 1.0.15
-stars: 4.3636365
+stars: 4.4
 ratings: 10
 reviews: 7
 size: 17M
