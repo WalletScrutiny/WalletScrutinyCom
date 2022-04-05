@@ -104,11 +104,13 @@ Under the 'Contract' option, it is possible to Buy/Sell various cryptocurrencies
 
 ## Analysis 
 
-We have some concerns with a bitcoin wallet that uses the name 'Bitcoin' as the app name. Without branding, it appears that it is making itself as 'The' Bitcoin wallet. When we searched for the developer's name, 'Myrtis Alverson', the initial results that appeared indicated a deceased person. Other results pointed to an individual developer linked to cryptocurrencies with links to Chinese domains. 
+We have some concerns with wallets that use only 'Bitcoin' as name. Without additional branding, it appears that it is marketing itself as **the official** Bitcoin wallet.
+
+When we searched for the developer's name, 'Myrtis Alverson', the initial results that appeared indicated a deceased person. Other results pointed to an individual developer linked to cryptocurrencies with links to Chinese domains.
 
 Apparently, the app is not yet complete as it would show a blank page when choosing some options. Yet despite this fact, there are now 388 reviews out of 1000+ downloads that are overwhelmingly positive. 
 
 Most importantly, we were not able to locate backup or restoration options which are key indicators for a real self-custodial wallet. 
 
-By co-opting the name 'Bitcoin' and not having specific branding related to it, we believe this app to be a **fake**. Moreover, we have serious doubts about this app's non-custodial nature as it doesn't have backup or restoration functions. 
+By co-opting the name 'Bitcoin' and not having specific branding related to it, lack of core self-custodial-wallet features such as backup or restore, with very suspicious ratings that look fake, we believe this app to be **fake**, too.
 
