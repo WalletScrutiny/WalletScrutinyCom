@@ -1,5 +1,5 @@
 ---
-title: "Monero RMX Wallet"
+title: Monero RMX Wallet
 appId: monerormxwallet
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Ivan Ahepjuk"
+provider: Ivan Ahepjuk
 providerWebsite: 
 website: 
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Product Description

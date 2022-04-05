@@ -1,5 +1,5 @@
 ---
-title: "ASTRI Hardware Wallet"
+title: ASTRI Hardware Wallet
 appId: astri
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Hong Kong Applied Science and Technology Research Institute"
+provider: Hong Kong Applied Science and Technology Research Institute
 providerWebsite: https://www.astri.org
 website: https://www.astri.org/tdprojects/communication/
 shop: 
@@ -26,9 +26,10 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - https://www.linkedin.com/company/astri/
-  - https://www.facebook.com/ASTRI.org/
+social:
+- https://www.linkedin.com/company/astri/
+- https://www.facebook.com/ASTRI.org/
+
 ---
 
 ## Product Description 

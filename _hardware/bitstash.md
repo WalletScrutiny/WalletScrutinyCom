@@ -1,5 +1,5 @@
 ---
-title: "BitStash Hardware Wallet"
+title: BitStash Hardware Wallet
 appId: bitstash
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "eCoinConcepts, LLC."
+provider: eCoinConcepts, LLC.
 providerWebsite: 
 website: https://web.archive.org/web/20150213010806/https://bitstash.com/
 shop: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: bitstashCTO
 social: 
+
 ---
 
 There are currently other cryptocurrency related projects that have a similar but unrelated name.

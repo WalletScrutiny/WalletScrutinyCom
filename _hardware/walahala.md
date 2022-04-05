@@ -1,5 +1,5 @@
 ---
-title: "WALAHALA Hardware Wallet"
+title: WALAHALA Hardware Wallet
 appId: walahala
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [84.5, 52.3, 4.5]
+dimensions:
+- 85
+- 52
+- 4.5
 weight: 13g
-provider: "Walahala OÜ"
+provider: Walahala OÜ
 providerWebsite: 
 website: https://walahala.com/walahala-wallet
 shop: https://walahala.com/Products
@@ -27,12 +30,13 @@ signer:
 reviewArchive: 
 twitter: walahala_dex
 social:
-  - https://www.linkedin.com/company/walahala/
-  - https://www.facebook.com/WalahalaOfficial/
-  - https://www.instagram.com/walahala_official/
-  - https://www.youtube.com/channel/UCN3eZdwvn4qkLfeOL5eM0Zw
-  - https://t.me/WalahalaDex
-  - https://walahala.slack.com/
+- https://www.linkedin.com/company/walahala/
+- https://www.facebook.com/WalahalaOfficial/
+- https://www.instagram.com/walahala_official/
+- https://www.youtube.com/channel/UCN3eZdwvn4qkLfeOL5eM0Zw
+- https://t.me/WalahalaDex
+- https://walahala.slack.com/
+
 ---
 
 **Note:** The product manufacturer - or at least someone who claims to promote Walahala's product, has been flagged in [Bitcointalk forum](https://bitcointalk.org/index.php?topic=5233706.0). Some of these include allegations of plagiarism in the Terms and Conditions, Privacy Policy and KYC policy. It is also alleged that the Owner's Manual was plagiarized from both Trezor and Ledger manuals. The product is also associated with an ICO and an exchange.

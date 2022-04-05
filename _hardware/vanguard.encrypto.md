@@ -8,12 +8,16 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [53, 43, 13] 
+dimensions:
+- 53
+- 43
+- 13
 weight: 350
 provider: Franck Muller
 providerWebsite: https://www.franckmuller.com/
 website: https://franckmullerencrypto.com/
-shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
+shop: >-
+  https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
 country: 
 price: 12000CHF
 repository: 
@@ -24,13 +28,12 @@ meta: ok
 verdict: noita
 date: 2022-04-04
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FranckMullerBTC
 social:
 - https://www.instagram.com/franckmuller_encrypto/
 
 ---
-
 
 >  [The Vanguard Encrypto](https://www.franckmuller.com/vanguard-encrypto-) also called “the world’s first functional Bitcoin watch” is our newly launched limited edition. The dial includes a laser-etched QR code for a public wallet address that can be used to deposit Bitcoins and check the balance of the account. To allow this secure process, a sealed USB stick is included with the watch to store the private key.
 

@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://t.me/SideraOfficial
+- https://t.me/SideraOfficial
+
 ---
 
 **⚠️ Note:** Sidera held an ICO with [some concerns](https://bitcointalk.org/index.php?topic=5062167.0) arising from the bitcointalk community.

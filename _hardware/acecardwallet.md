@@ -1,5 +1,5 @@
 ---
-title: "Ace Card Wallet"
+title: Ace Card Wallet
 appId: acecardwallet
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [15, 11, 1]
+dimensions:
+- 15
+- 11
+- 1
 weight: 1
-provider: "Digital Systems a.s."
+provider: Digital Systems a.s.
 providerWebsite: https://digitalsystems.eu
 website: https://www.digitalsystems.eu/cyber-security/#ace
 shop: 
@@ -26,9 +29,10 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - https://www.linkedin.com/company/digitalsystemsas/
-  - https://www.facebook.com/digitalsystems.eu/
+social:
+- https://www.linkedin.com/company/digitalsystemsas/
+- https://www.facebook.com/digitalsystems.eu/
+
 ---
 
 ## Product Description

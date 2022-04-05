@@ -10,12 +10,12 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: VERTIGUM Enterprises SRO 
+provider: VERTIGUM Enterprises SRO
 providerWebsite: 
 website: https://walledo.com/en/pos/
 shop: https://walledo.com/en/order/
 country: SK
-price: 499EUR 
+price: 499EUR
 repository: 
 issue: 
 icon: walledo.pos.png
@@ -27,9 +27,10 @@ signer:
 reviewArchive: 
 twitter: walledoteam
 social:
-  - https://www.facebook.com/WalledoTeam
-  - https://www.instagram.com/walledoteam/
-  - https://www.youtube.com/channel/UCYNH4PvL0ssEn5MrpA8ff0Q
+- https://www.facebook.com/WalledoTeam
+- https://www.instagram.com/walledoteam/
+- https://www.youtube.com/channel/UCYNH4PvL0ssEn5MrpA8ff0Q
+
 ---
 
 ## Product Overview

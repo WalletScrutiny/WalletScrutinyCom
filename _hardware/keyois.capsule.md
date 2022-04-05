@@ -26,9 +26,9 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: 
-social:
----
+social: 
 
+---
 
 [Link](https://bitcointalk.org/index.php?topic=1659001.0) to Keyois Capsule's thread on BitcoinTalk.
 

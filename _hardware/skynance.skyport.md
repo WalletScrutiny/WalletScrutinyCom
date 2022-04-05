@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: skynanceworld
 social:
-  - https://www.instagram.com/skynanceworld/
+- https://www.instagram.com/skynanceworld/
+
 ---
 
 **⚠️ Warning:** Skynance is having a private sale for its skynance token. When you click the 'Buy Now' button it redirects to a telegram group that has already expired.

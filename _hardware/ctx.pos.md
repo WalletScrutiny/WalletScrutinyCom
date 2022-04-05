@@ -1,5 +1,5 @@
 ---
-title: CTX Point of Sale 
+title: CTX Point of Sale
 appId: ctx.pos
 authors:
 - danny
@@ -15,7 +15,7 @@ providerWebsite:
 website: https://ctx.com
 shop: 
 country: CA
-price:  199USD
+price: 199USD
 repository: 
 issue: 
 icon: ctx.pos.png
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: CTX_com
 social:
-  - https://discord.gg/j7WYxV6Wys
+- https://discord.gg/j7WYxV6Wys
+
 ---
 
 ## Overview

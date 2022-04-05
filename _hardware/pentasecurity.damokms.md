@@ -1,5 +1,5 @@
 ---
-title: Penta Security D'Amo KMS 
+title: Penta Security D'Amo KMS
 appId: pentasecurity.damokms
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Penta Security"
+provider: Penta Security
 providerWebsite: 
 website: https://www.pentasecurity.com/
 shop: 
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: pentasecsystems
 social:
-  - https://www.linkedin.com/company/penta-security-systems-inc-/
-  - https://www.facebook.com/pentasecsystems 
+- https://www.linkedin.com/company/penta-security-systems-inc-/
+- https://www.facebook.com/pentasecsystems
+
 ---
 
 **Note:** Penta Security Systems has multiple domains related to their business: pentasecurity.co.kr, pentasecurity.co.jp, and pentasecurity.com. Penta Security Systems is Korea-based. Penta Security is the parent company of Amo Labs. Amo Labs is connected to a "reverse ICO" for the AMO token. It is self-described as:

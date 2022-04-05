@@ -1,5 +1,5 @@
 ---
-title: "Crypto Watch"
+title: Crypto Watch
 appId: cryptowatch
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "CryptoWatch"
+provider: CryptoWatch
 providerWebsite: 
 website: https://web.archive.org/web/20190626112618/https://thecryptowatch.org/en/
 shop: 
@@ -26,10 +26,11 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: thecryptowatchO
-social: 
-  - https://www.facebook.com/pg/The-Crypto-Watch-294696411478627
-  - https://vk.com/thecryptowatch
-  - https://t.me/thecryptowatch_org 
+social:
+- https://www.facebook.com/pg/The-Crypto-Watch-294696411478627
+- https://vk.com/thecryptowatch
+- https://t.me/thecryptowatch_org
+
 ---
 
 **⚠️ Note:** The project held an STO (Security Token Offering) from 2019-01-06 up to 2019-02-08. The only available images of the watch are renderings. The project is also associated with an Ethereum token called XCW and a decentralized exchange. We checked the Telegram channel, and the last message dated March 6, 2020 was: 

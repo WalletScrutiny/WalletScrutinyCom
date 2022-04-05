@@ -1,5 +1,5 @@
 ---
-title: "CCCoin Hardware Wallet"
+title: CCCoin Hardware Wallet
 appId: cccoin
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "HASH CAPITAL HOLDING PTE.LTD"
+provider: HASH CAPITAL HOLDING PTE.LTD
 providerWebsite: 
 website: https://www.cccoin.cash/hardwallet
 shop: https://www.rhy.zone/hardwallet/id/80
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 **Note:** There is a similarly-named domain that held an ICO. The hardware wallet's domain is cccoin.cash. The other website is cccoin.network.

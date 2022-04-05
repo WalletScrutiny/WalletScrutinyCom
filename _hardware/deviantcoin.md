@@ -27,9 +27,10 @@ signer:
 reviewArchive: 
 twitter: DeviantCoin
 social:
-  - https://www.facebook.com/DeviantCoin/
-  - https://www.reddit.com/r/DeviantCoin/
-  - https://t.me/DeviantDEV
+- https://www.facebook.com/DeviantCoin/
+- https://www.reddit.com/r/DeviantCoin/
+- https://t.me/DeviantDEV
+
 ---
 
 ## Overview

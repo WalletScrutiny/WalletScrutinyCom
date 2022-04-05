@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Penta Security"
+provider: Penta Security
 providerWebsite: 
 website: https://www.pentasecurity.com/
 shop: 
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: pentasecsystems
 social:
-  - https://www.linkedin.com/company/penta-security-systems-inc-/
-  - https://www.facebook.com/pentasecsystems 
+- https://www.linkedin.com/company/penta-security-systems-inc-/
+- https://www.facebook.com/pentasecsystems
+
 ---
 
 ## Product Description
