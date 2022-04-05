@@ -3,7 +3,7 @@ wsId:
 title: Pallapay Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.pallapayWallet
 appCountry: 
 released: 2021-10-06

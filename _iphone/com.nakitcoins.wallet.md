@@ -8,11 +8,11 @@ appId: com.nakitcoins.wallet
 appCountry: us
 idd: 1559751218
 released: 2021-04-21
-updated: 2022-02-15
-version: 2.1.3
+updated: 2022-04-03
+version: 2.2.0
 stars: 5
 reviews: 2
-size: '9615360'
+size: '9753600'
 website: https://nakitcoins.com
 repository: 
 issue: 

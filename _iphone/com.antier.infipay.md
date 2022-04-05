@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.antier.infipay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2022-04-05
 signer: 
 reviewArchive: 
 twitter: 

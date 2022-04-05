@@ -9,11 +9,11 @@ appId: com.wavesplatform.wallet
 appCountry: 
 released: 2017-03-09
 updated: 2022-03-30
-version: 2.23.3
+version: 2.24.0
 stars: 3.9
 ratings: 6992
 reviews: 170
-size: 52M
+size: 51M
 website: https://support.waves.exchange/
 repository: 
 issue: 

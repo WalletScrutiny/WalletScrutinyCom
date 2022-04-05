@@ -11,7 +11,7 @@ updated: 2022-01-25
 version: 2.3.0
 stars: 4.4
 ratings: 3701
-reviews: 96
+reviews: 97
 size: 60M
 website: https://www.sologenic.com/
 repository: 
