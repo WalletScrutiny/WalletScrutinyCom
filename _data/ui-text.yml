@@ -4,8 +4,6 @@
 # -----------------
 en: &DEFAULT_EN
   page                       : "Page"
-  pagination_previous        : "Previous"
-  pagination_next            : "Next"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   toc_label                  : "On This Page"
@@ -52,8 +50,6 @@ en-AU:
 # --------------
 es: &DEFAULT_ES
   page                       : "Página"
-  pagination_previous        : "Anterior"
-  pagination_next            : "Siguiente"
   breadcrumb_home_label      : "Inicio"
   breadcrumb_separator       : "/"
   toc_label                  : "Contenidos"
@@ -96,8 +92,6 @@ es-CO:
 # -----------------
 fr: &DEFAULT_FR
   page                       : "Page"
-  pagination_previous        : "Précédent"
-  pagination_next            : "Suivant"
   breadcrumb_home_label      : "Accueil"
   breadcrumb_separator       : "/"
   toc_label                  : "Sur cette page"
@@ -142,8 +136,6 @@ fr-CH:
 # -----------------
 tr: &DEFAULT_TR
   page                       : "Sayfa"
-  pagination_previous        : "Önceki"
-  pagination_next            : "Sonraki"
   breadcrumb_home_label      : "Ana Sayfa"
   breadcrumb_separator       : "/"
   toc_label                  : "İçindekiler"
@@ -184,8 +176,6 @@ tr-TR:
 # -----------------
 pt: &DEFAULT_PT
   page                       : "Página"
-  pagination_previous        : "Anterior"
-  pagination_next            : "Próxima"
   breadcrumb_home_label      : "Início"
   breadcrumb_separator       : "/"
   toc_label                  : "Nesta página"
@@ -228,8 +218,6 @@ pt-PT:
 # -----------------
 it: &DEFAULT_IT
   page                       : "Pagina"
-  pagination_previous        : "Precedente"
-  pagination_next            : "Prossima"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   toc_label                  : "Indice della pagina"
