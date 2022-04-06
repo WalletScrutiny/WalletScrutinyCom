@@ -24,11 +24,6 @@ verdict: nowallet
 date: 2022-03-30
 signer: 
 reviewArchive:
-- date: 2021-03-30
-  version: 90.1.085
-  appHash: 
-  gitRevision: b9fc136cf1e643675475004241479f776599d7c5
-  verdict: nobtc
 twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS
