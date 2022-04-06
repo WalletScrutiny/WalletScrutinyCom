@@ -30,7 +30,7 @@ redirect_from:
 
 ---
 
-Bitcoin of America is a bitcoin ATM and kiosk provider.
+Bitcoin of America is a bitcoin ATM and kiosk provider. Their original app, {% include walletLink.html wallet='android/com.bitcoinofamerica.wallet' verdict='true' %} is replaced by this one. This app is directly linked from their homepage.
 
 ## App Description
 

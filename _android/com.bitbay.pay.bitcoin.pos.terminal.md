@@ -20,7 +20,7 @@ issue:
 icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: custodial
 date: 2022-02-01
 signer: 
 reviewArchive: 
@@ -35,7 +35,7 @@ redirect_from:
 
 ## App Description 
 
-Bitcoin Terminal - Zonda Pay is a Point of Sale system that accepts cryptocurrencies.
+Bitcoin Terminal - Zonda Pay is a Point of Sale system that accepts cryptocurrencies. Zonda used to be BitBay.
 
 **Features**
 
@@ -52,4 +52,4 @@ Bitcoin Terminal - Zonda Pay is a Point of Sale system that accepts cryptocurren
 
 ## Verdict
 
-Although it mentions in the help section that [cryptocurrency deposits and withdrawals can be made](https://zondaglobal.com/helpdesk/zonda-exchange/payments-and-withdrawals) on a wallet the platform provides, we cannot classify this service as **custodial** as it is not designed to be exclusively as a wallet. To use the app, a PoS device must be integrated by scanning a QR code. Thus, it **cannot really function as a wallet**.
+It mentions in the help section that [cryptocurrency deposits and withdrawals can be made](https://zondaglobal.com/en/helpdesk/zonda-pay/deposits-and-withdrawals). This is available on the web application accessible via their [web form](https://app.paywithzonda.com/). However, we were not able to test this on the app itself as we kept getting QR code errors. Assuming the documentation is accurate, the ability to pay using the Zonda Pay PoS app using cryptocurrencies, and the ability to receive the same also qualifies this PoS app as a wallet. Its centralized nature, with no evidence for private key backup and restore make this service **custodial**.

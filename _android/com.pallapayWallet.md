@@ -34,6 +34,8 @@ redirect_from:
 
 ---
 
+**⚠️ Note:** There is a striking resemblance to the Pallapay logo on the Google Play Store and the {% include walletLink.html wallet='android/com.paypal.android.p2pmobile.md' verdict='true' %}. We also noticed that the in-app logo is different from the Play Store logo. While not outright a fake, it raises a flag about their indifference (or laziness) when it comes to their corporate branding.
+
 ## App Description 
 
 > Pallapay Wallet is the official crypto wallet of Pallapay. You can send, receive and store Bitcoin and many other cryptocurrencies including PALLA safely and securely with the Pallapay Decentralized Wallet mobile app.

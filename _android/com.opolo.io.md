@@ -20,7 +20,7 @@ issue:
 icon: com.opolo.io.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: nowallet
 date: 2021-08-02
 signer: 
 reviewArchive: 
