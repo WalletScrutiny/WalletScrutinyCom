@@ -21,7 +21,7 @@ icon: com.breadwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2021-06-29
+date: 2022-04-07
 signer: 
 reviewArchive:
 - date: 2021-06-27
@@ -42,6 +42,13 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-07**: This product's provider appears to be partnering with
+[Coinbase](https://www.coinbase.com) and with their latest update they now
+[encourage and help their users to migrate](https://brd.com/brd-joins-coinbase)
+to [Coinbase Wallet](https://www.coinbase.com/wallet), a browser extension based
+self-custodial wallet. The article is not (yet) talking about {{ page.title }}
+being in sunset mode or obsolete but some consolidation appears to be going on.
 
 **Update 2021-06-29**: The provider
 [informed us](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869938323)
