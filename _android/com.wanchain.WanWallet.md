@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-11-30
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: wanchain_org
@@ -33,7 +33,9 @@ redirect_from:
 
 ---
 
-**UPDATE 2021-11-23** There's no source code for the android app on
+**Update 2022-03-30**: This app is not available anymore.
+
+**Update 2021-11-23**: There's no source code for the android app on
 [their Github](https://github.com/wanchain), making the app **not verifiable.**
 
 ## App Description

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinburp.mobile.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-06-04
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: coinburp
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-26**: This app is not available anymore.
 
 On the provider's website we find how private keys are managed, under [help section "Account Security"](https://help.coinburp.com/hc/en-gb/articles/360017544100-Are-Balances-Stored-on-CoinBurp-Insured-) we find their custodial provider is Bitpay.
 This is the typical setup of exchange based apps, they hold a % of coins in hot wallets for daily trade management and store larger % in cold "offline" storage for security purposes.

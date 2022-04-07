@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitforex.pro.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +29,4 @@ redirect_from:
 
 ---
 
+**Update 2022-03-26**: This app is not available anymore.

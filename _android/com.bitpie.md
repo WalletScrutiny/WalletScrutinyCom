@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-12-11
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: BitpieWallet
@@ -33,6 +33,8 @@ redirect_from:
 - /posts/com.bitpie/
 
 ---
+
+**Update 2022-03-30**: This app is not available anymore.
 
 **Update 2021-12-11**: This app recently got very bad reviews, with people who
 lost funds. On the other hand we did review their hardware wallets, that might

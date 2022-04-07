@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.unodax.exchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-23
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: Unocoin
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-27**: This app is not available anymore.
 
 From Google Play:
 
