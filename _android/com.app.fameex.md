@@ -8,12 +8,12 @@ users: 10000
 appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
-updated: 2022-03-25
-version: 2.10.3
+updated: 2022-04-05
+version: 2.11.0
 stars: 4.9
 ratings: 1588
 reviews: 10
-size: 45M
+size: 46M
 website: https://www.fameex.com
 repository: 
 issue: 

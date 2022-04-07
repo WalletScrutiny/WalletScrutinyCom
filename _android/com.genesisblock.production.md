@@ -1,6 +1,6 @@
 ---
 wsId: GenesisBlock
-title: Genesis Block - digital banking powered by crypto
+title: Hightop—crypto for everyone
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 5000
 appId: com.genesisblock.production
 appCountry: us
 released: 2020-05-06
-updated: 2022-03-08
-version: 0.1.72
+updated: 2022-03-11
+version: 0.2.0
 stars: 3.9
 ratings: 57
 reviews: 17
 size: Varies with device
-website: https://genesisblock.com/
+website: https://hightop.com/
 repository: 
 issue: 
 icon: com.genesisblock.production.png

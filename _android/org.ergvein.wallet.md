@@ -7,12 +7,12 @@ users: 500
 appId: org.ergvein.wallet
 appCountry: 
 released: 2022-03-14
-updated: 2022-03-14
+updated: 2022-04-05
 version: Alpha
 stars: 
 ratings: 
 reviews: 
-size: 63M
+size: 64M
 website: https://cypra.io/
 repository: 
 issue: 

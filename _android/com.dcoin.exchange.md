@@ -9,7 +9,7 @@ appId: com.dcoin.exchange
 appCountry: us
 released: 2018-11-25
 updated: 2022-03-31
-version: 5.2.3
+version: 5.2.4
 stars: 4.2
 ratings: 1346
 reviews: 87

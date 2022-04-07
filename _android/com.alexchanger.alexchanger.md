@@ -11,7 +11,7 @@ updated: 2020-06-12
 version: '1.0'
 stars: 4.5
 ratings: 271
-reviews: 23
+reviews: 22
 size: 1.4M
 website: https://alexchanger.com/
 repository: 
