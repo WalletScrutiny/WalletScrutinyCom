@@ -110,13 +110,13 @@ control** of what transactions he signs or not. That means:
 * The device shares signed transactions after informed approval on the device
   without reliance on insecure external hardware
 
-### Our steps when reviewing a hardware wallet
+## Our steps when reviewing a hardware wallet
 
 We try to follow the
 spirit of the software review process, looking at the firmware and its updates
 for public source and reproducibility.
 
-In addition we look at physical properties of the device and came up with these
+We also look at physical properties of the device and came up with these
 additional verdicts:
 
 {% include verdictMethodology.html verdict="diy" %}
@@ -230,3 +230,5 @@ reviewing the work of their colleagues and trusting them is kind of expected at
 least by the colleagues themselves but all it takes is one slip up and the code
 might be compromised. And compromising code in ways that go unnoticed by an
 auditor is [kind of a sport](https://en.wikipedia.org/wiki/Underhanded_C_Contest).
+
+{% include tee.md %}
