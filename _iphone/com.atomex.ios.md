@@ -10,8 +10,8 @@ idd: 1534717828
 released: 2020-12-03
 updated: 2022-04-02
 version: '1.14'
-stars: 1
-reviews: 3
+stars: 2
+reviews: 4
 size: '133581824'
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile

@@ -10,7 +10,7 @@ appCountry: au
 released: 2020-10-07
 updated: 2022-03-20
 version: 2.0.16
-stars: 4.6879606
+stars: 4.7
 ratings: 3068
 reviews: 1278
 size: 10M

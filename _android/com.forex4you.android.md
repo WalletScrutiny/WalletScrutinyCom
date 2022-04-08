@@ -12,7 +12,7 @@ updated: 2022-03-23
 version: Varies with device
 stars: 4.6
 ratings: 2457
-reviews: 189
+reviews: 190
 size: Varies with device
 website: https://www.forex4you.com/en/
 repository: 

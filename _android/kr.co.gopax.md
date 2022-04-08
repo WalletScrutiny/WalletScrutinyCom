@@ -12,7 +12,7 @@ updated: 2022-04-05
 version: 1.5.28.e031
 stars: 2.3
 ratings: 1387
-reviews: 1030
+reviews: 1031
 size: 26M
 website: https://www.gopax.co.kr
 repository: 

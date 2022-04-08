@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.gleec.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: 

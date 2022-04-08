@@ -12,7 +12,7 @@ updated: 2022-04-05
 version: 1.42.1
 stars: 4.5
 ratings: 29536
-reviews: 13
+reviews: 14
 size: Varies with device
 website: https://capital.com
 repository: https://capital.com/

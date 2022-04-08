@@ -4,16 +4,16 @@ title: 'Vivid: Investments & Banking & Crypto'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2022-03-30
-version: 2.4.1
+updated: 2022-04-06
+version: 2.5.0
 stars: 
 ratings: 
 reviews: 
-size: 233M
+size: 234M
 website: https://vivid.money/
 repository: 
 issue: 

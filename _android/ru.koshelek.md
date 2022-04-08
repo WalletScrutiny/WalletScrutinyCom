@@ -12,7 +12,7 @@ updated: 2022-03-15
 version: 1.8.1
 stars: 4.1
 ratings: 122
-reviews: 50
+reviews: 51
 size: 8.2M
 website: https://koshelek.ru/
 repository: 

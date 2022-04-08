@@ -26,7 +26,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-redirect_from:
+redirect_from: 
+
 ---
 
 **Update 2022-03-30**: This app is not available anymore.

@@ -12,7 +12,7 @@ updated: 2021-12-19
 version: Varies with device
 stars: 4
 ratings: 29247
-reviews: 1718
+reviews: 1717
 size: Varies with device
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet

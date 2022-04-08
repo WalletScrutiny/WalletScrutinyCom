@@ -8,11 +8,11 @@ appId: com.leadWallet
 appCountry: ng
 idd: 1578704913
 released: 2021-08-03
-updated: 2022-04-02
-version: v1.0.14
+updated: 2022-04-06
+version: 1.0.30
 stars: 4.5
 reviews: 19
-size: '49093632'
+size: '54264832'
 website: https://leadwallet.io/
 repository: https://github.com/leadwallet/leadwallet-core
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-12-01
+date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: 

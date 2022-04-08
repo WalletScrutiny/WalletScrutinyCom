@@ -10,8 +10,8 @@ idd: 1524974223
 released: 2020-09-21
 updated: 2020-09-24
 version: 5.4.4
-stars: 2.7
-reviews: 122
+stars: 2.6
+reviews: 123
 size: '121089024'
 website: https://cryptobrowser.site/
 repository: 
