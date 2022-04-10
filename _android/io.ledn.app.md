@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-01-04
 updated: 2022-03-31
 version: 0.4.0
-stars: 2.6
+stars: 2.5
 ratings: 71
-reviews: 8
+reviews: 9
 size: 74M
 website: https://ledn.io
 repository: 

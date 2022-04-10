@@ -4,7 +4,7 @@ title: Kinesis Money - Exchange Gold, Bitcoin & Currency
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28
@@ -12,7 +12,7 @@ updated: 2022-04-05
 version: 1.2.110
 stars: 4
 ratings: 424
-reviews: 45
+reviews: 46
 size: 37M
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile

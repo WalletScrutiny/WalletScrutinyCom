@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Buy Bitcoin & Crypto Exchange
+title: 'Crypto Exchange: Buy Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2022-01-21
 version: 2.7.12
 stars: 4.8
 ratings: 5008
-reviews: 959
+reviews: 957
 size: 19M
 website: https://changelly.com/
 repository: 

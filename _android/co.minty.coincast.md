@@ -3,7 +3,7 @@ wsId:
 title: Coincast — Send Crypto
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: co.minty.coincast
 appCountry: 
 released: 2021-07-18

@@ -12,7 +12,7 @@ updated: 2022-03-25
 version: 8.5.0
 stars: 3.6
 ratings: 96811
-reviews: 995
+reviews: 997
 size: 95M
 website: https://www.luno.com
 repository: 

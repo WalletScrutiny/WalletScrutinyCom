@@ -1,6 +1,6 @@
 ---
 wsId: GenesisBlock
-title: Hightop—crypto for everyone
+title: Hightop
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.genesisblock.production
 appCountry: us
 released: 2020-05-06
-updated: 2022-03-11
-version: 0.2.0
+updated: 2022-04-08
+version: 0.2.1
 stars: 3.9
 ratings: 57
 reviews: 17

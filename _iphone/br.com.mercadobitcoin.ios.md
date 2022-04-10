@@ -10,7 +10,7 @@ released: 2019-08-03
 updated: 2022-04-06
 version: 2.36.0
 stars: 4.6
-reviews: 309
+reviews: 310
 size: '221250560'
 website: https://www.mercadobitcoin.com.br/aplicativo
 repository: 

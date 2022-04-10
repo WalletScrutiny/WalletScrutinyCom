@@ -11,7 +11,7 @@ released: 2021-10-08
 updated: 2021-12-30
 version: '1.13'
 stars: 4.9
-reviews: 16
+reviews: 17
 size: '34588672'
 website: http://wallet.diviproject.org
 repository: 

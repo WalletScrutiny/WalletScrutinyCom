@@ -12,7 +12,7 @@ updated: 2021-11-18
 version: '14'
 stars: 4.2
 ratings: 154
-reviews: 42
+reviews: 41
 size: 40M
 website: http://nordfx.com
 repository: 

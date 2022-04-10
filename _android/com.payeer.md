@@ -4,7 +4,7 @@ title: PAYEER
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.payeer
 appCountry: 
 released: 2018-01-03

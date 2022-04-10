@@ -3,7 +3,7 @@ wsId:
 title: Nominex DeFi Crypto Exchange Stake Trade NMX
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.mobuyg.nmx
 appCountry: 
 released: 2021-08-16
@@ -19,7 +19,7 @@ issue:
 icon: com.mobuyg.nmx.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-09-01
 signer: 
 reviewArchive: 

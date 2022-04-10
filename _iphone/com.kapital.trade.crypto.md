@@ -11,7 +11,7 @@ released: 2019-11-26
 updated: 2022-04-06
 version: 1.42.1
 stars: 4.8
-reviews: 788
+reviews: 790
 size: '80390144'
 website: https://expcapital.com
 repository: 
