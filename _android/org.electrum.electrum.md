@@ -9,11 +9,11 @@ appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
 updated: 2022-04-07
-version: 4.1.5.0
+version: 4.2.1.0
 stars: 3.5
 ratings: 2500
 reviews: 279
-size: 21M
+size: 23M
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7640

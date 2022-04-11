@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-09-20
 updated: 2022-04-06
 version: 2.1.4
-stars: 3.9
+stars: 3.8
 ratings: 2887
-reviews: 79
+reviews: 80
 size: 84M
 website: https://www.libre.sv
 repository: 

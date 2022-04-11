@@ -11,7 +11,7 @@ released: 2017-06-28
 updated: 2022-04-07
 version: 5.9.0
 stars: 5
-reviews: 9
+reviews: 10
 size: '65330176'
 website: https://admiralmarkets.com/
 repository: 
