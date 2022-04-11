@@ -20,7 +20,7 @@ issue:
 icon: com.kapitalrs.pro.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: nobtc
 date: 2022-03-30
 signer: 
 reviewArchive:
@@ -52,7 +52,7 @@ On its Demo Account, we find a BTC/USD pair. The account balance however, is den
 
 Withdrawals can be done through Bank Wire, Credit Card or E-Wallet. E-Wallet options are PayPal, Web Money and Neteller. 
 
-There is **no evidence that the platform hosts a bitcoin wallet for the user**.
+There is **no evidence that the platform hosts a bitcoin wallet for the user**. 
 
 
 
