@@ -28,6 +28,7 @@ function exitSearch(x) {
   document.querySelectorAll(".results-list")[0].style.display = "none"
   document.body.classList.remove("search-ui-active")
   window.removeEventListener('wheel', captureScrollForSearch)
+  window.temporarySearchValue = ""
   x && (searchInput.value = "")
   searchInput.blur()
 }
