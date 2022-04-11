@@ -7,9 +7,6 @@ author_profile: true
 ---
 
 {% include base_path %}
-<script src="{{ base_path }}/allWallets.js"></script>
-<script src="{{ base_path }}/assets/js/wallets.js"></script>
-<script src="{{ base_path }}/assets/js/search-wallets.js"></script>
 
 <div class="page-section">
 
