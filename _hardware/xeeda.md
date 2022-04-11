@@ -23,8 +23,8 @@ repository:
 issue: 
 icon: xeeda.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -55,5 +55,5 @@ There are a few things which seemed odd with this project that could point to th
 
 Xeeda's Founder and CEO [Kevin Maloney](https://coincentral.com/xeeda-kevin-maloney/), has a [linkedin profile](https://www.linkedin.com/in/kmaloney01/details/experience/) that does not list Xeeda as one of his job experiences. 
 
-Until further information is made available this project would retain its last status which is **still in Pre-Order**.
+Until further information is made available this project is deemed as **vaporware**.
 

@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: goochaincitadelle.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -38,4 +38,4 @@ We could not find a lot of information about the Goochain Citadelle wallet apart
 
 An article from finder.com.au, mentioned that Goochain's operations "wound up" because of [supplier problems](https://www.finder.com.au/a-brief-history-of-cryptocurrency-hardware-wallets).
 
-This product is **no longer available**.
+We couldn't find evidence of this product ever having been for sale and assume it's **vaporware**.

@@ -21,7 +21,7 @@ issue:
 icon: kruxdiyhw.png
 bugbounty: 
 meta: ok
-verdict: nobinary
+verdict: diy
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -59,4 +59,4 @@ Yes.
 
 ## Code and Reproducibility
 
-This project requires the user to compile the code himself, so necessarily what ends up being installed on this device is **verifiable**.
+This **diy project** requires the user to compile the code himself, so necessarily what ends up being installed on this device is **verifiable**.

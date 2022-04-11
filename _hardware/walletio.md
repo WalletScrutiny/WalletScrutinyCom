@@ -24,8 +24,8 @@ repository:
 issue: 
 icon: walletio.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2021-07-07
 signer: 
 reviewArchive: 
@@ -38,4 +38,4 @@ social:
 
 The provider's site has clear information on this hardware wallet, however we cannot find anyway of buying this product. The provider's [last tweet](https://twitter.com/io_wallet/status/1310456761908826115) from September 2020 announces the product's distribution as "Wallet S1".
 
-It all looks like vapor ware with some affiliate incentives given the above tweet is getting tons of replies of people praising the project, mentioning others even years after that **last** tweet.
+It all looks like vaporware with some affiliate incentives given the above tweet is getting tons of replies of people praising the project, mentioning others even years after that **last** tweet.

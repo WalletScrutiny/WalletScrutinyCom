@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: blnscard.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -46,4 +46,4 @@ The 'Get blnscard' link still points to an ip address rather than a domain name,
 
 ## Verdict
 
-There are no indications showing that blnscard is actively being developed. Until such time that new information is released, this product will retain its previous status.
+There are no indications showing that blnscard is actively being developed. Until such time that new information is released, this product is deemed as **vaporware**.

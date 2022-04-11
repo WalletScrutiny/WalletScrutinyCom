@@ -23,8 +23,8 @@ repository:
 issue: 
 icon: itbxwallet.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -48,5 +48,5 @@ We did find a [tutorial video](https://www.facebook.com/watch/?v=295750178346996
 
 We were also not able to find any information pertaining to how private keys are used or authenticated in the device or whether mnemonic phrases are made available for use with the device. 
 
-It is also worth noting that the company's website and social media accounts seem to be more intent on raising investment for the further development of the product rather than marketing a working product.
+It is also worth noting that the company's website and social media accounts seem to be more intent on raising investment for the further development of the product rather than marketing a working product. This project is most likely **vaporware.**
 

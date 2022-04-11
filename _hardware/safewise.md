@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: safewise.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -34,5 +34,5 @@ we could not find much information anywhere about this device, except that [Safe
 
 On their website, clicking on 'buy' redirects to the homepage whilst showing a message saying "Detecting Devices".
 
-We [reached out to them via twitter](https://twitter.com/BitcoinWalletz/status/1484841599377211392) which has become inactive since late 2019. Until further information is made available, we do not believe this product reached market.
+We [reached out to them via twitter](https://twitter.com/BitcoinWalletz/status/1484841599377211392) which has become inactive since late 2019. Until further information is made available, we do not believe this product reached market and is thus **vaporware.**
 

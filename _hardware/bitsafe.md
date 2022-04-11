@@ -21,8 +21,8 @@ repository:
 issue: 
 icon: bitsafe.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-03-23
 signer: 
 reviewArchive: 
@@ -42,4 +42,4 @@ A user on BitcoinTalk created a thread asking what had happened to this product 
 
 Although there were some development updates on that thread, the users developing BitSafe have been listed as offline on BitcoinTalk for 3-5 years.
 
-With no store, recent information, or even a working website, we have to assume this product is **defunct.**
+With no store, recent information, or even a working website, we have to assume this product is **vaporware**

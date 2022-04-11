@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: sidera.smartbit.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -45,4 +45,4 @@ The main webpage of the provider is no longer there but we still managed to get 
 
 ## Verdict 
 
-After the ICO, there were allegations that the price of the token has abruptly gone down. Its site and social media has been scrubbed. We could not find a video review of the product anywhere. We **do not believe that the Sidera Smartbit has been released**.
+After the ICO, there were allegations that the price of the token has abruptly gone down. Its site and social media has been scrubbed. We could not find a video review of the product anywhere. We do not believe that the Sidera Smartbit has been released and is thus, **vaporware.**

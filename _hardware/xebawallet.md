@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: xebawallet.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-03-08
 signer: 
 reviewArchive: 
@@ -44,4 +44,4 @@ In the site's "About" section, the latest update was made on February 2019.
 
 > XebaWallet Is Born. XebaWallet card proto-type and mobile app is ready to proof our innovations. In addition, we filed three patents.
 
-Due to the lack of any additional information about this product or any way to confirm if it is actually in production, we have to assume this product never reached production.
+Due to the lack of any additional information about this product or any way to confirm if it actually existed, we have to assume this product never reached production and is **vaporware.**

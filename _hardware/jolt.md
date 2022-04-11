@@ -20,8 +20,8 @@ repository: https://github.com/joltwallet/jolt_wallet
 issue: 
 icon: jolt.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -38,4 +38,4 @@ social:
 
 ## Verdict
 
-The Jolt hardware wallet did not reach market production. We [reached out to them](https://mobile.twitter.com/BitcoinWalletz/status/1485806434856374273) via twitter to ask how the project is doing. Until further information is made available, this project will retain its last known status.
+The Jolt hardware wallet did not reach market production. We [reached out to them](https://mobile.twitter.com/BitcoinWalletz/status/1485806434856374273) via twitter to ask how the project is doing. As of April 4, 2022 they haven't replied. Until further information is made available, this project is considered as **vaporware.**

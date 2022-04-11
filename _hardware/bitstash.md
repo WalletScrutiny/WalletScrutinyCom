@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: bitstash.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -44,5 +44,5 @@ It had a "3-tier wallet system"
 >
 > - C) Mobile wallet. This resides on your phone, as do the private keys, fully encrypted of course. Keep small balances, backed up by the device, here and use them for spending Bitcoin while out of range of BitStash. Importantly you can receive Bitcoin into the Device & Cold Storage wallets using BIP32 generated addresses on your mobile device.
 
-The [last tweet of the founder](https://twitter.com/bitstashCTO/status/967317699847184384) was made on February 24, 2018. Given that the product **didn't make it to market**, we would cease our analysis from here until new information arises.
+The [last tweet of the founder](https://twitter.com/bitstashCTO/status/967317699847184384) was made on February 24, 2018. Given that the product didn't make it to market, we'll classify this as **vaporware** until further information is available.
 

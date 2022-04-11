@@ -20,8 +20,8 @@ repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: 
 icon: hodler.tech.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-18
 signer: 
 reviewArchive: 
@@ -43,4 +43,4 @@ The app on Google Play still exists though even though the last update was made 
 
 - {% include walletLink.html wallet='android/tech.hodler.core' verdict='true' %}
 
-With no updates beyond 2019, a stagnant social media presence, an offline website, an ICO that promised annual dividends and a project which is based on another product - the Samsung phone, it is prudent to assume that this project **no longer exists**.
+With no updates beyond 2019, a stagnant social media presence, an offline website, an ICO that promised annual dividends and a project which is based on another product - the Samsung phone, it is prudent to assume that this project no longer exists. This is **vaporware**.

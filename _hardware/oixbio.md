@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: oixbio.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-03-23
 signer: 
 reviewArchive: 
@@ -56,4 +56,4 @@ It is also claimed that the hardware wallet can be paired via BlueTooth with a m
 
 ## Analysis 
 
-Apart from the descriptions on the site and in a [YouTube video](https://www.youtube.com/watch?v=7ZdTV78WZtI), we could not locate a specific product information sheet, review, or a publicly linked repository to ascertain that the product exists. The referencing of another product in OiX Global's website copy also gives us pause. Without nominally verifiable information about the product, we determine the OiX Global Biometric Hardware Wallet to be **unreleased.**
+Apart from the descriptions on the site and in a [YouTube video](https://www.youtube.com/watch?v=7ZdTV78WZtI), we could not locate a specific product information sheet, review, or a publicly linked repository to ascertain that the product exists. The referencing of another product in OiX Global's website copy also gives us pause. Without nominally verifiable information about the product, we determine the OiX Global Biometric Hardware Wallet to be **vaporware**.

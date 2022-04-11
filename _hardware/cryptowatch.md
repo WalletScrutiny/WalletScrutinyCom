@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: cryptowatch.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -64,4 +64,4 @@ This application, designed for cryptocurrency wallets, allows you to: manage dev
 
 There is a lot of cryptographic and technical terms described in vague terms. There are however, no specific description for how the CryptoWatch would function. There is no specific mention of how the watch interfaces with the mobile application (which we also could not find). Although it mentions the "Secure Element" would secure the private keys, there is no mention whether this is how the watch would work. There are no pictures of the actual device or unboxing videos on Youtube. Finally, much of the material seem to be focused on the STO or fundraising. 
 
-Absent evidence to the contrary, we can only determine that the CryptoWatch was **never released** at all. Absent any evidence that it would be released in the near future, we have to assume that it would never be.
+Absent evidence to the contrary, we can only determine that the CryptoWatch was never released at all. Absent any evidence that it would be released in the near future, we have to assume that it is **vaporware.**

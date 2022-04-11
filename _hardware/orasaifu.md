@@ -23,8 +23,8 @@ repository:
 issue: 
 icon: orasaifu.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-03-23
 signer: 
 reviewArchive: 
@@ -52,4 +52,4 @@ The author of the post claimed that:
 
 There are many scam accusations on the comments of OraSaifu's social media pages, with many backers saying that they still had not received a refund. [A poster on BitcoinTalk.org](https://bitcointalk.org/index.php?topic=5170463.0) reported this same problem and attached a few images of the refund statement. The original thread was created in July 2019, although the original poster updated the thread during November 2019, and said that the money had never returned.
 
-This product is **defunct.**
+This product is **vaporware.**

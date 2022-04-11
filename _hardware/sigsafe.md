@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: sigsafe.png
 bugbounty: 
-meta: defunct
-verdict: unreleased
+meta: ok
+verdict: vapor
 date: 2022-02-17
 signer: 
 reviewArchive: 
@@ -60,6 +60,6 @@ No.
 
 ## Is it reproducible?
 
-There is no way to find out since the product **did not become commercially available** and its source code was not publicly released.
+There is no way to find out since the product did not become commercially available and its source code was not publicly released. Thus, we consider this to be **vaporware.**
 
 
