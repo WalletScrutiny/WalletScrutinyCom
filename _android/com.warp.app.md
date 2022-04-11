@@ -21,7 +21,7 @@ icon: com.warp.app.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: WarpDefi

@@ -19,7 +19,7 @@ icon: com.xchangecapital.nicechange.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

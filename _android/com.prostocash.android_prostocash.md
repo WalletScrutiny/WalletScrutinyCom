@@ -21,7 +21,7 @@ icon: com.prostocash.android_prostocash.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-08-21
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

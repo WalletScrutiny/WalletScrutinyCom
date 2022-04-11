@@ -20,7 +20,7 @@ icon: orgbitcoinofamerica.www.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
-date: 2022-03-30
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

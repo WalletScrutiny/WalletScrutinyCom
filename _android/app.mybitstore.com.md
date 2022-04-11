@@ -21,7 +21,7 @@ icon: app.mybitstore.com.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: mybitstore

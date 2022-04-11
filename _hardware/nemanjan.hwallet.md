@@ -22,7 +22,7 @@ icon: nemanjan.hwallet.png
 bugbounty: 
 meta: obsolete
 verdict: diy
-date: 2022-04-04
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

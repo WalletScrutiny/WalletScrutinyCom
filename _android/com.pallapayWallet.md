@@ -21,7 +21,7 @@ icon: com.pallapayWallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: pallapay_com

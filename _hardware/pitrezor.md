@@ -22,7 +22,7 @@ icon: pitrezor.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2022-03-08
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

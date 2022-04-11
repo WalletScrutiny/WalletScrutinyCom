@@ -21,7 +21,7 @@ icon: co.minty.coincast.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-08-02
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: CoincastApp

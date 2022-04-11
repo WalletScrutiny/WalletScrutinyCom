@@ -22,7 +22,7 @@ icon: deviantcoin.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-04
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: DeviantCoin

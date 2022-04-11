@@ -21,7 +21,7 @@ icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-02-01
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: zondaglobal

@@ -20,7 +20,7 @@ icon: com.bitbay.BitBayPay.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: zondaglobal

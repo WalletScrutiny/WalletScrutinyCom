@@ -21,7 +21,7 @@ icon: io.cordova.myappf57082.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-03-30
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: BTCofAmerica

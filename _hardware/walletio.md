@@ -26,7 +26,7 @@ icon: walletio.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2021-07-07
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: io_wallet

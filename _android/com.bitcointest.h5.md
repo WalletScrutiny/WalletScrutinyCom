@@ -20,7 +20,7 @@ icon: com.bitcointest.h5.png
 bugbounty: 
 meta: ok
 verdict: fake
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

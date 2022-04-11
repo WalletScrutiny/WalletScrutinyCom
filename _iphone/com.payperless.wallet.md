@@ -20,7 +20,7 @@ icon: com.payperless.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-31
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: Payperlesscom

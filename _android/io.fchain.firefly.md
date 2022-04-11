@@ -21,7 +21,7 @@ icon: io.fchain.firefly.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-08-21
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -22,7 +22,7 @@ icon: bowser.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2022-04-04
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: arcbtc
