@@ -1,5 +1,5 @@
 ---
-title: "Black Arrow Software eWallet"
+title: Black Arrow Software eWallet
 appId: blackarrowsoftware.ewallet
 authors:
 - danny
@@ -8,9 +8,12 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [4.5, 0.65, 2.3]
+dimensions:
+- 4.5
+- 0.65
+- 2.3
 weight: 7
-provider: "Black Arrow Software"
+provider: Black Arrow Software
 providerWebsite: https://www.blackarrowsoftware.com/
 website: 
 shop: http://www.blackarrowsoftware.com/store/ewallet.html
@@ -26,8 +29,9 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: blackarrowsoft
-social: 
-  - https://www.facebook.com/Black-Arrow-477655819009178
+social:
+- https://www.facebook.com/Black-Arrow-477655819009178
+
 ---
 
 **⚠️ Note:** There are multiple serious allegations on Blackarrow Software's available social media accounts including Facebook and bitcointalk.  

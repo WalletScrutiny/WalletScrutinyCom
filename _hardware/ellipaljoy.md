@@ -1,5 +1,5 @@
 ---
-title: "ELLIPAL Joy"
+title: ELLIPAL Joy
 appId: ellipaljoy
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "ELLIPAL Limited"
+provider: ELLIPAL Limited
 providerWebsite: https://www.ellipal.com
 website: https://www.ellipal.com/pages/ellipal-joy-mnemonic-generator
 shop: https://www.ellipal.com/products/ellipal-joy-mnemonic-generator
@@ -26,9 +26,10 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
-social: 
+social:
 - https://www.facebook.com/ellipalclub
 - https://github.com/ellipal
+
 ---
 
 This product comes from the same providers as {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}. It [has a Github repository.](https://github.com/ELLIPAL/ellipal-joy)

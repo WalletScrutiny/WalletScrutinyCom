@@ -33,10 +33,14 @@ mv images/wallet_icons/${folder}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
   if (header.dimensions) {
-    if (header.dimensions.length != 3) {
-      console.error(`# ${folder}/${header.appId}.md: invalid dimensions ${header.dimensions}.`)
+    try {
+      if (header.dimensions.length != 3) {
+        throw `invalid dimensions ${header.dimensions}`
+      }
+      header.dimensions = header.dimensions.map(it => Number(it.toPrecision(2)))
+    } catch(e) {
+      console.error(`# ${folder}${header.appId}.md: ${e}.`)
     }
-    header.dimensions = header.dimensions.map(it => Number(it.toPrecision(2)))
   }
 }
 

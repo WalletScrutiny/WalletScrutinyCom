@@ -1,5 +1,5 @@
 ---
-title: "SFYL Hardware Wallet"
+title: SFYL Hardware Wallet
 appId: sfyl
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Valerio Vacarro"
+provider: Valerio Vacarro
 providerWebsite: 
 website: https://sfyl.info/
 shop: 
@@ -26,8 +26,9 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: tulipan81
-social: 
-  - https://t.me/sfylwallet
+social:
+- https://t.me/sfylwallet
+
 ---
 
 ## Product Description

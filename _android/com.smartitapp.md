@@ -8,8 +8,8 @@ users: 1000
 appId: com.smartitapp
 appCountry: us
 released: 2020-09-25
-updated: 2021-12-13
-version: 1.0.5
+updated: 2022-04-05
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

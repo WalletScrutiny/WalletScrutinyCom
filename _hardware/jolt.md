@@ -22,7 +22,7 @@ icon: jolt.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-02-18
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: JoltWallet

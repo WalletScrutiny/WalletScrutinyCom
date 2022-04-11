@@ -9,10 +9,10 @@ appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
 updated: 2022-03-28
-version: 5.0.1
+version: 5.0.4
 stars: 3.8
 ratings: 4823
-reviews: 1519
+reviews: 1532
 size: 15M
 website: http://tradestation.com/contact-us/
 repository: 

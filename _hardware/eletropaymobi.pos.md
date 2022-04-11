@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [14.7, 23.5, 5.8]
+dimensions:
+- 15
+- 24
+- 5.8
 weight: 
 provider: EletroPay
 providerWebsite: 
@@ -27,10 +30,10 @@ signer:
 reviewArchive: 
 twitter: PayEletro
 social:
-  - https://www.linkedin.com/company/eletropay
-  - https://www.facebook.com/eletropayeuropa/
----
+- https://www.linkedin.com/company/eletropay
+- https://www.facebook.com/eletropayeuropa/
 
+---
 
 ## Product Description
 

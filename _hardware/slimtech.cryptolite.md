@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: SlimTechGearCo
 social:
-  - https://www.instagram.com/slimtechgearco
-  - https://www.facebook.com/slimTECHGEARCo/
+- https://www.instagram.com/slimtechgearco
+- https://www.facebook.com/slimTECHGEARCo/
+
 ---
 
 **⚠️ Note:** Some users have complained on social media that they were not able to receive their devices.

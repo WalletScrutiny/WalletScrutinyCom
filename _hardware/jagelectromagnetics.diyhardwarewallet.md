@@ -1,5 +1,5 @@
 ---
-title: "JAG Electromagnetics DIY Hardware Wallet"
+title: JAG Electromagnetics DIY Hardware Wallet
 appId: jagelectromagnetics.diyhardwarewallet
 authors:
 - danny
@@ -10,9 +10,10 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "JAG Electromagnetics"
+provider: JAG Electromagnetics
 providerWebsite: https://www.jagelectromagnetics.com/
-website: https://web.archive.org/web/20200131050319/http://www.diyhardwarewallet.com:80/
+website: >-
+  https://web.archive.org/web/20200131050319/http://www.diyhardwarewallet.com:80/
 shop: 
 country: 
 price: 
@@ -27,8 +28,8 @@ signer:
 reviewArchive: 
 twitter: diywallet
 social: 
----
 
+---
 
 The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](https://web.archive.org/web/20200131050319/http://www.diyhardwarewallet.com:80/)
 

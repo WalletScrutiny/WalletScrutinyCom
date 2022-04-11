@@ -8,20 +8,20 @@ users: 5000
 appId: com.spectre.magneticmoney
 appCountry: 
 released: 2018-09-10
-updated: 2021-02-07
-version: 2.2.7
+updated: 2022-04-04
+version: 2.2.8
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 4.1M
 website: https://magnetic-money.org
 repository: 
 issue: 
 icon: com.spectre.magneticmoney.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-02-03
+date: 2022-04-05
 signer: 
 reviewArchive: 
 twitter: 

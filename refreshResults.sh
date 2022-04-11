@@ -23,8 +23,9 @@ function moreSince {
 }
 
 echo "HWWs that are unreleased/defunct"
-grep -l "meta: defunct" `grep -l "verdict: unreleased" _hardware/*`echo "Apps that now have more users ..."
+grep -l "meta: defunct" `grep -l "verdict: unreleased" _hardware/*`
 
+echo "Apps that now have more users ..."
 echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
 echo "... than last month: $( moreSince 'one.months.ago' )"

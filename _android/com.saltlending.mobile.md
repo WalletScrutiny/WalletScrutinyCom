@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-07
 updated: 2022-04-01
 version: 2.4.2
-stars: 4.5
+stars: 4.6
 ratings: 231
-reviews: 38
+reviews: 39
 size: 39M
 website: https://saltlending.com
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-30
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +30,8 @@ redirect_from:
 - /com.beeone.techbank/
 
 ---
+
+**Update 2022-03-19**: This app is not available anymore.
 
 They claim a million "members" and list big banks as their "acquirers" but there
 is little to back those claims. 10k downloads on Play Store and eight ratings on

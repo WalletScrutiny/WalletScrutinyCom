@@ -4,7 +4,7 @@ title: KEYRING PRO Multichain Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21

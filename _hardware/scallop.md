@@ -1,5 +1,5 @@
 ---
-title: "Scallop Hardware Wallet"
+title: Scallop Hardware Wallet
 appId: scallop
 authors:
 - danny
@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "Scallop Group EU OU"
+provider: Scallop Group EU OU
 providerWebsite: 
 website: https://www.scallopx.com/
 shop: 
@@ -26,11 +26,12 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: ScallopDefiBank
-social: 
-  - https://www.linkedin.com/company/scallopx/
-  - https://medium.com/scallopx
-  - https://www.instagram.com/scallop_app/
-  - https://t.me/Scallop_Official
+social:
+- https://www.linkedin.com/company/scallopx/
+- https://medium.com/scallopx
+- https://www.instagram.com/scallop_app/
+- https://t.me/Scallop_Official
+
 ---
 
 **⚠️ Note:** Apart from a few renderings of a card-like hardware wallet and a rebranded ledger, we were not able to locate another picture of the hardware wallet. 

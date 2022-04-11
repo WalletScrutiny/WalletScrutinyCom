@@ -21,8 +21,8 @@ issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-04-04
+verdict: diy
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: arcbtc
@@ -64,4 +64,4 @@ Yes, but ... as can be seen in their
 
 ## Is it reproducible?
 
-The device's features are for verification.
+Bowser is a **diy-project**. 

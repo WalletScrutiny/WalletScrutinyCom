@@ -4,7 +4,7 @@ title: Bitcoin Buy & Sell Guide for Coinbase
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 appCountry: 
 released: 2021-04-29

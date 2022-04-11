@@ -12,7 +12,7 @@ updated: 2021-10-21
 version: 1.5.20
 stars: 4.5
 ratings: 613
-reviews: 75
+reviews: 76
 size: 46M
 website: https://www.protonchain.com/
 repository: 

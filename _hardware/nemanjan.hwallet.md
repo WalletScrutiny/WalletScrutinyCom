@@ -21,12 +21,13 @@ issue:
 icon: nemanjan.hwallet.png
 bugbounty: 
 meta: obsolete
-verdict: nobinary
-date: 2022-04-04
+verdict: diy
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 ## Background
@@ -63,4 +64,4 @@ From his [repository](https://gitlab.com/nemanjan/hwallet), the required compone
 
 ## Analysis 
 
-As an Open Source DIY project, it is **not available commercially**. However, researchers might want to verify the reproducibility of the code but it would only be for a device they themselves have built according to Nikodijević's specifications. It is more prudent to do so once it has been released. 
+This is an Open Source **DIY** project.

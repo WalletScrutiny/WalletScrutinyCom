@@ -10,10 +10,11 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: "BitCube"
+provider: BitCube
 providerWebsite: 
 website: https://www.bitcubewallet.com/
-shop: https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
+shop: >-
+  https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
 country: CN
 price: 
 repository: 
@@ -22,13 +23,14 @@ icon: bitcube.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-04
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: BitCubeWallet
 social:
-  - https://www.facebook.com/bitcubewallet
-  - https://www.youtube.com/channel/UCLF5Z0YlRoYq_9NdNe9J8Yw
+- https://www.facebook.com/bitcubewallet
+- https://www.youtube.com/channel/UCLF5Z0YlRoYq_9NdNe9J8Yw
+
 ---
 
 ## Product Description 

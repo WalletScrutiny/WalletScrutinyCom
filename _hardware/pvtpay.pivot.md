@@ -27,10 +27,11 @@ signer:
 reviewArchive: 
 twitter: pvt_pay
 social:
-  - https://www.linkedin.com/company/pvt-pay/
-  - https://www.facebook.com/PVTPAY/
-  - https://www.instagram.com/pvt_pay
-  - https://www.youtube.com/channel/UCPfYhIwqmOfFzQdoeb_QHDQ
+- https://www.linkedin.com/company/pvt-pay/
+- https://www.facebook.com/PVTPAY/
+- https://www.instagram.com/pvt_pay
+- https://www.youtube.com/channel/UCPfYhIwqmOfFzQdoeb_QHDQ
+
 ---
 
 ## Preview 

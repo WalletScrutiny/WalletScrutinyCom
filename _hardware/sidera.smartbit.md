@@ -22,12 +22,13 @@ icon: sidera.smartbit.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-04
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 
 social:
-  - https://t.me/SideraOfficial
+- https://t.me/SideraOfficial
+
 ---
 
 **⚠️ Note:** Sidera held an ICO with [some concerns](https://bitcointalk.org/index.php?topic=5062167.0) arising from the bitcointalk community.

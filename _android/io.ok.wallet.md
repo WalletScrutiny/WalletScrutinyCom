@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ok.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-04-10
 signer: 
 reviewArchive: 
 twitter: 

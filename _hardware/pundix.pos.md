@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [210 × 75 × 61]
+dimensions:
+- 210
+- 75
+- 61
 weight: 450
 provider: Pundi X Labs Pte. Ltd.
 providerWebsite: 
@@ -26,7 +29,7 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: PundiXLabs
-social:
+social: 
 
 ---
 

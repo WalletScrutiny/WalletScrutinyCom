@@ -27,10 +27,11 @@ signer:
 reviewArchive: 
 twitter: bitcoin_pos
 social:
-  - https://www.instagram.com/bitcoinpos/
-  - https://www.facebook.com/bitcoinpointofsale
-  - https://www.youtube.com/channel/UCYh7bNdeitcxJlopy6faX_g/videos
-  - https://t.me/bitcoinpos 
+- https://www.instagram.com/bitcoinpos/
+- https://www.facebook.com/bitcoinpointofsale
+- https://www.youtube.com/channel/UCYh7bNdeitcxJlopy6faX_g/videos
+- https://t.me/bitcoinpos
+
 ---
 
 ## Brief Overview 

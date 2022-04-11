@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mineblockcraftapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-21
+date: 2022-04-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,10 +8,10 @@ appId: com.rekeningku.app
 appCountry: us
 idd: 1458706382
 released: 2019-04-27
-updated: 2022-03-30
-version: 2.1.72
+updated: 2022-04-05
+version: 2.1.73
 stars: 4.7
-reviews: 24
+reviews: 25
 size: '53259264'
 website: https://www.rekeningku.com
 repository: 

@@ -1,5 +1,5 @@
 ---
-title: "Prismicide"
+title: Prismicide
 appId: prismicide
 authors:
 - danny
@@ -8,12 +8,16 @@ discontinued: 2015-11-01
 updated: 
 version: 
 binaries: 
-dimensions: [70, 110, 14]
+dimensions:
+- 70
+- 110
+- 14
 weight: 
-provider: "PRISMicide"
+provider: PRISMicide
 providerWebsite: 
 website: https://web.archive.org/web/20140704160112/http://www.prismicide.com/
-shop: https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
+shop: >-
+  https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
 country: FR
 price: 
 repository: 
@@ -26,9 +30,10 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: Prismicide
-social: 
-  - https://www.linkedin.com/in/frederic2/
-  - https://www.youtube.com/channel/UCZ5UcwULpFnUM2I_qAXAEvA
+social:
+- https://www.linkedin.com/in/frederic2/
+- https://www.youtube.com/channel/UCZ5UcwULpFnUM2I_qAXAEvA
+
 ---
 
 ## Product Description 

@@ -26,7 +26,8 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: bitcoinPOS_it
-social:
+social: 
+
 ---
 
 ## Service Overview 

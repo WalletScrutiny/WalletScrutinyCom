@@ -8,12 +8,12 @@ users: 50000
 appId: com.nouroeddinne.miner.bitcoin.free
 appCountry: 
 released: 2021-03-18
-updated: 2022-01-27
-version: '13.14'
-stars: 4.5
+updated: 2022-04-07
+version: '16.16'
+stars: 4.4
 ratings: 3855
-reviews: 419
-size: 7.0M
+reviews: 433
+size: 5.0M
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
 issue: 

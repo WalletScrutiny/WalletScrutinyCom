@@ -24,8 +24,8 @@ issue:
 icon: specterdiy.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-02-18
+verdict: diy
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: SpecterWallet
@@ -49,4 +49,4 @@ The device's display adequately displays details of the transaction prior to con
 
 ## Is it reproducible?
 
-The project is "do-it-yourself" and the firmware's source code is public, so there's a certain level of openness to it. With that said, it would be interesting to investigate this offering further.
+The project is **"do-it-yourself"** and the firmware's source code is public, so there's a certain level of openness to it. With that said, it would be interesting to investigate this offering further.

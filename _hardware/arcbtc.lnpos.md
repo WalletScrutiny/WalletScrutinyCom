@@ -26,9 +26,9 @@ date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: arcbtc
-social:
----
+social: 
 
+---
 
 [Here is a demonstration](https://twitter.com/arcbtc/status/1484942260013838336) of arcbtc's Bitcoin PoS. It is also known as LNPoS.
 

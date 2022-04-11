@@ -23,7 +23,7 @@ icon: bitsafe.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-03-23
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

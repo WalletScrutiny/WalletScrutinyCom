@@ -22,7 +22,7 @@ icon: blnscard.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-02-17
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: blnswallet

@@ -21,8 +21,8 @@ issue:
 icon: pitrezor.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-03-08
+verdict: diy
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 
@@ -59,4 +59,4 @@ From the step-by-step instructions:
 > - If you don't have the software called "etcher" already installed in your computer, download it here : https://etcher.io/ . This software is used to write the program image to the SD card.
 > - Download the latest pitrezor SD card image by clicking here and select "save" to save the zip file
 
-Pitrezor's firmware is precompiled. We have to check if the precompiled firmware can be reproduced from the provided source code.
+Pitrezor's firmware is precompiled. This project is primarily a **diy project**. We have to check if the precompiled firmware can be reproduced from the provided source code. 

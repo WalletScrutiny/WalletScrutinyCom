@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-03
 updated: 2021-09-29
 version: 3.20.0.51
-stars: 4.4
+stars: 4.5
 ratings: 69
-reviews: 23
+reviews: 24
 size: 19M
 website: https://www.bitcanner.com
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tideisun.tidepay.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-10
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: isunone1
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-21**: This app is not available anymore.
 
 ## App Description
 

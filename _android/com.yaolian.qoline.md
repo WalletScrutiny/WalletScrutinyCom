@@ -8,12 +8,12 @@ users: 10
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14
-updated: 2022-03-21
-version: 1.9.1
+updated: 2022-04-08
+version: 1.9.5
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 26M
 website: https://www.salletone.com
 repository: 
 issue: 
