@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.github.samotari.paynoway.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-05-06
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 

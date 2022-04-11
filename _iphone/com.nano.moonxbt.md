@@ -10,8 +10,8 @@ idd: 1566536854
 released: 2021-06-08
 updated: 2021-06-08
 version: 3.0.7
-stars: 3.6
-reviews: 9
+stars: 3.8
+reviews: 11
 size: '53025792'
 website: https://www.moonxbt.com
 repository: 

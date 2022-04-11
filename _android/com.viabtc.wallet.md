@@ -1,6 +1,6 @@
 ---
 wsId: ViaWallet
-title: ViaWallet - Multi chain Wallet
+title: 'ViaWallet: Multi-crypto wallet'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 50000
 appId: com.viabtc.wallet
 appCountry: 
 released: 2019-05-15
-updated: 2022-03-21
-version: 2.9.1
+updated: 2022-04-06
+version: 2.10.1
 stars: 4.2
 ratings: 621
-reviews: 29
-size: 60M
+reviews: 30
+size: 61M
 website: https://viawallet.com
 repository: 
 issue: 

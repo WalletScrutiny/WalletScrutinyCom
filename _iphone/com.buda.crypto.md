@@ -8,11 +8,11 @@ appId: com.buda.crypto
 appCountry: 
 idd: 1321460860
 released: 2018-01-04
-updated: 2022-03-15
-version: 2.0.20
+updated: 2022-03-29
+version: 2.0.21
 stars: 5
 reviews: 4
-size: '71685120'
+size: '72504320'
 website: 
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kcw.kcash.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-01-13
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: kcashofficial
@@ -28,6 +28,8 @@ social:
 - https://www.facebook.com/KcashOfficial
 
 ---
+
+**Update 2022-03-28**: This app is not available anymore.
 
 **Note:** The Android version can only be downloaded via an apk file hosted on the homepage itself. It was not available in Google Play.
 

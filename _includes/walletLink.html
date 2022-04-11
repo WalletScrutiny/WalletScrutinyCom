@@ -1,8 +1,13 @@
 {% assign parts = include.wallet | split: "/"
 %}{% assign collection = site.collections | where: "label", parts[0] | first
 %}{% assign w = collection.docs | where: "appId", parts[1] | first
-%}<span class="wallet-link"><img class="app_logo" src="/images/wallet_icons/{{parts[0]}}/tiny/{{
-  w.icon | default: 'noicon.png'}}" alt="Wallet Logo"> <a href="{{w.url}}">{{
+%}{% if w.icon
+%}{% assign icon = base_path | append: '/images/wallet_icons/'
+  | append: w.collection | append:  '/tiny/' | append: w.icon
+%}{% else
+%}{% assign icon = base_path | append: '/images/tinyNoicon.png'
+%}{% endif
+%}<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{w.url}}">{{
   w.altTitle | default: w.title }}</a>{% if include.verdict %}&nbsp;{%
   include verdictBadge.html verdict=w.verdict type="short"
   %}{%if w.meta != "ok" %}{%

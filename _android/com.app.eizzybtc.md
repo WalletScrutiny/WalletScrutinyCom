@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.eizzybtc.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-11-14
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +29,4 @@ redirect_from:
 
 ---
 
+**Update 2022-03-29**: This app is not available anymore.

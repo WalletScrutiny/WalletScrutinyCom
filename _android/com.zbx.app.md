@@ -8,12 +8,12 @@ users: 5000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
-updated: 2022-01-15
-version: 2.1.4
+updated: 2022-04-02
+version: 2.1.5
 stars: 
 ratings: 
 reviews: 
-size: 34M
+size: 31M
 website: https://www.zbx.one/
 repository: 
 issue: 

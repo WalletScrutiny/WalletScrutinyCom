@@ -8,8 +8,8 @@ users: 5000
 appId: net.oblade.krakapi
 appCountry: 
 released: 2019-08-09
-updated: 2022-03-02
-version: 2.5.4
+updated: 2022-04-01
+version: 2.5.6
 stars: 4.2
 ratings: 533
 reviews: 14

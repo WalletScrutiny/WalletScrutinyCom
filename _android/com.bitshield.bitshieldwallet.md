@@ -12,16 +12,16 @@ updated: 2021-04-12
 version: '1.28'
 stars: 4.8
 ratings: 1809
-reviews: 1245
+reviews: 1248
 size: 65M
 website: https://bitshieldwallet.com
 repository: 
 issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-12-01
+date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.didi.message
 appCountry: 
 released: 2020-04-30
-updated: 2022-01-14
-version: 1.14.0
+updated: 2022-03-29
+version: 1.15.0
 stars: 4.3
 ratings: 1141
 reviews: 15

@@ -1,6 +1,6 @@
 ---
 wsId: zipwalletpay
-title: Zipwallet - money transfer app
+title: Zipwallet-Buy Btc with Paypal
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 50000
 appId: com.zipwallet.app
 appCountry: us
 released: 2018-01-30
-updated: 2022-02-04
+updated: 2022-04-03
 version: 10.1.6
 stars: 4
 ratings: 621

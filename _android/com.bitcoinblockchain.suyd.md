@@ -3,7 +3,7 @@ wsId:
 title: 'Bitcoin Blockchain: Crypto Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinblockchain.suyd
 appCountry: 
 released: 2021-02-10

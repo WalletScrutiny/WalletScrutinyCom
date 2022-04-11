@@ -8,12 +8,12 @@ users: 100000
 appId: com.quicrypto
 appCountry: 
 released: 2019-11-12
-updated: 2022-03-16
-version: 3.21.0
+updated: 2022-04-06
+version: 3.32.0
 stars: 3.8
 ratings: 4934
 reviews: 434
-size: 26M
+size: 35M
 website: http://www.quicrypto.com
 repository: 
 issue: 

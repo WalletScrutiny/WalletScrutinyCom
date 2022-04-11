@@ -82,8 +82,15 @@
             {%- assign picSize = "/tiny" -%}
           {%- endif -%}
           {%- if post.verdict == v and post.meta == meta -%}
+            {%- if post.icon -%}
+              {%- assign icon = base_path | append: '/images/wallet_icons/'
+                | append: post.collection | append: picSize | append: '/'
+                | append: post.icon -%}
+            {%- else -%}
+              {%- assign icon = base_path  | append: '/images/smallNoicon.png' -%}
+            {%- endif -%}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img loading="lazy" src="{{ base_path }}/images/wallet_icons/{{ post.collection }}{{ picSize }}/{{ post.icon | default: 'noicon.png' }}" class="lazy app_logo meta_{{ post.meta }}"
+              <img loading="lazy" src="{{ icon }}" class="lazy app_logo meta_{{ post.meta }}"
                 alt="Wallet Logo" style="height:{{ height }}em;width:{{ height }}em;{%- if height < 0.5 -%}border: 1px solid var(--text);{%- endif -%}">
             </a> 
           {%- endif -%}

@@ -9,8 +9,8 @@ users: 1000
 appId: com.exchangily.wallet
 appCountry: 
 released: 2020-02-05
-updated: 2022-03-24
-version: 2.1.48
+updated: 2022-04-05
+version: 2.1.49
 stars: 4
 ratings: 32
 reviews: 5

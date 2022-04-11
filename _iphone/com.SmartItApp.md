@@ -8,8 +8,8 @@ appId: com.SmartItApp
 appCountry: us
 idd: 1526092476
 released: 2020-10-28
-updated: 2021-12-13
-version: 1.0.5
+updated: 2022-04-05
+version: 1.0.6
 stars: 0
 reviews: 0
 size: '23963648'

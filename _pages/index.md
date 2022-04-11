@@ -1,17 +1,12 @@
 ---
 permalink: /
 title: "Is your Bitcoin wallet secure?"
-summary: "The aim of this project is to improve the security of Bitcoin wallets by examining the application code for possible back-doors and other vulnerabilities."
+summary: "The aim of this project is to improve the security of Bitcoin wallets by examining products for transparency and potential attacks."
 excerpt: "Many wallets are not open to public scrutiny"
 author_profile: true
-redirect_from:
-- /apple/
 ---
 
 {% include base_path %}
-<script src="{{ base_path }}/allWallets.js"></script>
-<script src="{{ base_path }}/assets/js/wallets.js"></script>
-<script src="{{ base_path }}/assets/js/search-wallets.js"></script>
 
 <div class="page-section">
 
@@ -58,14 +53,9 @@ redirect_from:
   {% assign selectedVerdict = "reproducible" %}
   {% include list_of_wallets.html %}
 
-
 </div>
 
-
-
 {% include grid_of_wallets.html %}
-
-
 
 {% include grid_of_wallets_proportional.html %}
 

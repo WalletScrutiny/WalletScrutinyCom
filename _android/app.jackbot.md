@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Jackbot - AI Crypto Trading
+title: Jackbot - AI Crypto Investing
 altTitle: 
 authors:
 - danny

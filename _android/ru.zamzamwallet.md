@@ -8,8 +8,8 @@ users: 10000
 appId: ru.zamzamwallet
 appCountry: ru
 released: 2020-06-26
-updated: 2022-03-01
-version: 2.7.11
+updated: 2022-04-06
+version: 2.7.13
 stars: 3.8
 ratings: 139
 reviews: 91

@@ -8,8 +8,8 @@ users: 1000
 appId: com.warp.app
 appCountry: 
 released: 2021-08-06
-updated: 2022-02-11
-version: 1.2.32
+updated: 2022-04-01
+version: 1.2.36
 stars: 
 ratings: 
 reviews: 

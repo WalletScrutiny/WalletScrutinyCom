@@ -12,7 +12,7 @@ updated: 2022-03-16
 version: 10.1.1
 stars: 4.6
 ratings: 646
-reviews: 24
+reviews: 25
 size: 115M
 website: https://nash.io
 repository: 

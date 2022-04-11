@@ -1,4 +1,6 @@
-const verdictOrder = "nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet"
+window.verdictOrder = ("nobinary,reproducible,nonverifiable,ftbfs,nosource," +
+    "custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip," +
+    "fewusers,unreleased,nobtc,nowallet").split(",")
 const platformOrder = "hardware,android,iphone,bearer"
 const metaOrder = "ok,stale,obsolete,defunct"
 
@@ -9,7 +11,7 @@ window.wallets.sort((a, b) => {
   }
   return (
       // by verdict within platform
-      verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+      window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
       // sort by platform
       || platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
       // sort by meta verdict
@@ -24,7 +26,6 @@ window.wallets.sort((a, b) => {
     )
 })
 
-window.verdictOrder = verdictOrder.split(",")
 window.platformObs = []
 window.orderedObs = []
 var readerRec = []

@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: Bitget - Trade BTC, EOS, XRP
+title: Bitget - Trade BTC, DOGE, more
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2022-03-14
-version: 1.2.33
+updated: 2022-04-08
+version: 1.2.37
 stars: 5
-reviews: 2
-size: '127051776'
+reviews: 3
+size: '128605184'
 website: https://www.bitget.com/en
 repository: 
 issue: 

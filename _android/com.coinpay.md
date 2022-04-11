@@ -13,7 +13,7 @@ updated: 2020-08-23
 version: 1.0.7
 stars: 3.1
 ratings: 29
-reviews: 12
+reviews: 14
 size: 5.4M
 website: https://www.coinpayapp.com
 repository: 

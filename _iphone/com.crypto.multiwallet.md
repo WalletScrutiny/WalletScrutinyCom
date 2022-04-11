@@ -11,9 +11,9 @@ released: 2018-12-01
 updated: 2022-03-23
 version: 2.52.4
 stars: 4.2
-reviews: 735
+reviews: 742
 size: '120697856'
-website: https://guarda.com/mobile-wallet
+website: https://guarda.com/
 repository: 
 issue: 
 icon: com.crypto.multiwallet.jpg

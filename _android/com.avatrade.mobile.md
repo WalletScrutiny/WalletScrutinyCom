@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Avatrade - Trade Forex & CFDs
+title: Avatrade Trade FX, CFDs & ETFs
 altTitle: 
 authors:
 - danny

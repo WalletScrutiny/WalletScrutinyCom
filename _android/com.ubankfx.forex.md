@@ -8,12 +8,12 @@ users: 10000
 appId: com.ubankfx.forex
 appCountry: th
 released: 2017-05-17
-updated: 2022-01-26
-version: v8.4-5409-9e6ff01c1
+updated: 2022-03-31
+version: v8.5-5457-b9fe16886
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 38M
 website: http://www.ubfx.co.uk
 repository: 
 issue: 

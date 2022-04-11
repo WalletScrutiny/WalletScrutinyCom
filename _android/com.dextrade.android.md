@@ -8,8 +8,8 @@ users: 10000
 appId: com.dextrade.android
 appCountry: us
 released: 2019-07-03
-updated: 2021-07-14
-version: 1.2.3
+updated: 2022-04-01
+version: 1.2.4
 stars: 3.1
 ratings: 218
 reviews: 15

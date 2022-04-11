@@ -4,15 +4,15 @@ title: Coincast — Send Crypto
 altTitle: 
 authors: 
 - danny
-users: 5000
+users: 10000
 appId: co.minty.coincast
 appCountry: 
 released: 2021-07-18
-updated: 2022-03-26
-version: 1.2.11
-stars: 3.6
+updated: 2022-03-30
+version: 1.2.12
+stars: 3.7
 ratings: 8
-reviews: 7
+reviews: 8
 size: 49M
 website: https://coincast.app
 repository: 
@@ -30,11 +30,9 @@ social:
 - https://www.instagram.com/CoincastApp/
 - https://www.tiktok.com/@Coincast
 - https://www.reddit.com/r/Coincast/
-
 redirect_from: 
 
 ---
-
 
 ## App Description
 

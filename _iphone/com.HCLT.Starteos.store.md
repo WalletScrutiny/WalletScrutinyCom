@@ -8,11 +8,11 @@ appId: com.HCLT.Starteos.store
 appCountry: us
 idd: 1441373609
 released: 2019-01-21
-updated: 2022-02-15
-version: 02.00.21
+updated: 2022-03-31
+version: 02.00.22
 stars: 4.1
 reviews: 8
-size: '107711488'
+size: '108280832'
 website: http://starteos.io
 repository: 
 issue: 

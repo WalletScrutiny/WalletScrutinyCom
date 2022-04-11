@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.pionex.lite.appstore.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-30
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-03-17**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

@@ -10,8 +10,8 @@ idd: 1548921926
 released: 2021-01-25
 updated: 2021-10-13
 version: 1.2.4.5
-stars: 1
-reviews: 1
+stars: 4.6
+reviews: 11
 size: '34507776'
 website: https://coinbaazar.com
 repository: 

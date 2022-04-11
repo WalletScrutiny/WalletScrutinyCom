@@ -12,7 +12,7 @@ updated: 2022-03-24
 version: 1.29.0
 stars: 4.1
 ratings: 13620
-reviews: 1717
+reviews: 1770
 size: 73M
 website: https://www.crypto.com
 repository: 

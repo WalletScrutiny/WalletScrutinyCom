@@ -10,8 +10,8 @@ idd: 1542759541
 released: 2021-01-08
 updated: 2022-01-25
 version: 1.1.7
-stars: 4.7
-reviews: 21
+stars: 4.6
+reviews: 17
 size: '32552960'
 website: https://c-trade.com
 repository: 

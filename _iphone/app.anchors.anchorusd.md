@@ -8,10 +8,10 @@ appId: app.anchors.anchorusd
 appCountry: us
 idd: 1495986023
 released: 2020-01-30
-updated: 2022-03-23
-version: 1.18.1
+updated: 2022-04-04
+version: 1.18.2
 stars: 4.3
-reviews: 5127
+reviews: 5126
 size: '34942976'
 website: https://www.tryanchor.com/
 repository: 

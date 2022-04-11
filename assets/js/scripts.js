@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   const platformNames = Object.keys(window.platforms)
   for (var p in platformNames) {
     const platform = platformNames[p]
-    window.verdictCount[platform] = {}
+    window.verdictCount[platform] = {all: 0}
     for (var v in window.verdictOrder) {
       const verdict = window.verdictOrder[v]
       window.verdictCount[platform][verdict] = 0
@@ -13,6 +13,7 @@ window.addEventListener("load", () => {
   for (var w in window.wallets) {
     const wallet = window.wallets[w]
     window.verdictCount[wallet.folder][wallet.verdict]++
+    window.verdictCount[wallet.folder]["all"]++
   }
   recreateDropdowns("reproducible", "android")
   window.addEventListener("scroll", ignore => {
@@ -62,7 +63,7 @@ function recreateDropdowns(verdict, platform) {
     
     var verdictOption = document.createElement("option")
     verdictOption.value = "all"
-    verdictOption.innerHTML = "all"
+    verdictOption.innerHTML = `all (${productCount('all', platform)})`
     verdictSelect.append(verdictOption)
     if ("all" == verdict)
       verdictOption.selected = true
@@ -139,7 +140,6 @@ function updateModularPayload() {
   var c = 0
   var appIds = []
   var presort = []
-  const verdictOrder = 'nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip,fewusers,unreleased,nobtc,nowallet'.split(',')
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
   const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
@@ -155,7 +155,7 @@ function updateModularPayload() {
   // presort = presort.filter(it => it.meta=="ok")
   presort.sort((a, b) => {
     if (a.verdict != b.verdict)
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
+      return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
       return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
     if (a.meta != b.meta)
@@ -211,7 +211,9 @@ function getBadge(wallet) {
         <div style="position:relative">
           <div class="flex-r">
             <div class="app_logo">
-                <img loading="lazy" src="/images/wallet_icons/${wallet.folder}/small/${wallet.icon || 'noicon.png'}" class="app_logo" alt="Wallet Logo">
+                <img loading="lazy" src="${wallet.icon
+                  ? `/images/wallet_icons/${wallet.folder}/small/${wallet.icon}`
+                  : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>
             <span class="stamp stamp-${wallet.verdict}" alt=""></span>

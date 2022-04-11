@@ -2,9 +2,6 @@
 layout: default
 ---
 
-<script src="/allWallets.js"></script>
-<script src="/assets/js/wallets.js"></script>
-
 <div id="main" class="app-review" role="main">
   {% include sidebar.html %}
   {% assign float = "" %}
@@ -21,7 +18,14 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        <img src="/images/wallet_icons/{{ page.collection }}/{{ page.icon | default: 'noicon.png' }}" class="app_logo_big" alt="Wallet Logo">
+        {%- if page.icon -%}
+          {%- assign icon = base_path | append: '/images/wallet_icons/'
+            | append: page.collection | append:  '/'
+            | append: page.icon -%}
+        {%- else -%}
+          {%- assign icon = base_path  | append: '/images/noicon.png' -%}
+        {%- endif -%}
+        <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">
 
           <h1 class="page__title -va-c" itemprop="headline">

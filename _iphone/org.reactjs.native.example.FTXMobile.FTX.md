@@ -1,6 +1,6 @@
 ---
 wsId: FTXPro
-title: 'FTX Pro: Buy, Sell, Trade'
+title: 'FTX Pro: Trade Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: org.reactjs.native.example.FTXMobile.FTX
 appCountry: 
 idd: 1512374471
 released: 2020-05-20
-updated: 2022-03-10
-version: 1.1.9
+updated: 2022-04-04
+version: 1.2.0
 stars: 3.7
 reviews: 138
-size: '73370624'
+size: '97622016'
 website: https://ftx.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: AlphaWallet
-title: AlphaWallet
+title: AlphaWallet - Ethereum Wallet
 altTitle: 
 authors:
 - danny

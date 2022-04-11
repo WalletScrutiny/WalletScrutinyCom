@@ -43,4 +43,6 @@ details: >
 
   We are not concerned about the license as long as it allows us to perform our
   analysis. For a security audit, it is not necessary that the provider allows
-  others to use their code for a competing wallet.
+  others to use their code for a competing wallet. You should still prefer
+  [actual open source licenses](https://en.wikipedia.org/wiki/The_Open_Source_Definition)
+  as a competing wallet won't use the code without giving it careful scrutiny.

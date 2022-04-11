@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.brand101investing.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-16
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 101Investing_eu
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-03-22**: This app is not available anymore.
 
 ## App Description
 

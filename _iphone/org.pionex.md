@@ -10,8 +10,8 @@ idd: 1485348891
 released: 2020-04-18
 updated: 2022-03-28
 version: 2.0.9
-stars: 4.2
-reviews: 257
+stars: 4.3
+reviews: 330
 size: '71392256'
 website: https://www.pionex.com
 repository: 

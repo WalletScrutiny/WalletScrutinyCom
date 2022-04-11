@@ -8,12 +8,12 @@ users: 1000
 appId: com.nakitcoins.wallet
 appCountry: us
 released: 2021-03-30
-updated: 2022-02-14
-version: 2.1.3
+updated: 2022-03-29
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
-size: 36M
+size: 33M
 website: https://www.nakitcoins.com
 repository: 
 issue: 

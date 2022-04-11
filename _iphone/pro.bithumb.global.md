@@ -8,11 +8,11 @@ appId: pro.bithumb.global
 appCountry: us
 idd: 1467713913
 released: 2019-06-25
-updated: 2022-02-18
-version: 2.6.4
+updated: 2022-04-03
+version: 2.6.5
 stars: 2.5
 reviews: 75
-size: '90268672'
+size: '90276864'
 website: https://www.bithumb.pro/alliance
 repository: 
 issue: 

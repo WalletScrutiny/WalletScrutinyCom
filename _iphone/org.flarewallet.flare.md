@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-03-11
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -27,10 +27,6 @@ social:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-03-23**: This app is not available anymore.
 
-Old Review
----
-
-**Update:** We did not get to review this app before it was removed from the App
-Store.
+{% include copyFromAndroid.html %}

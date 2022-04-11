@@ -8,8 +8,8 @@ users: 100000
 appId: com.cryptology.android
 appCountry: gb
 released: 2018-03-23
-updated: 2022-03-25
-version: 3.10.0
+updated: 2022-04-05
+version: 3.11.0
 stars: 3.5
 ratings: 
 reviews: 2

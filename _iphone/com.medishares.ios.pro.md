@@ -11,8 +11,8 @@ idd: 1383637331
 released: 2019-04-30
 updated: 2019-07-10
 version: 3.1.0
-stars: 2.4
-reviews: 60
+stars: 2.3
+reviews: 63
 size: '135909376'
 website: https://www.mathwallet.org
 repository: 

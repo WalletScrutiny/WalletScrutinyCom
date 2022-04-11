@@ -4,15 +4,15 @@ title: PAYEER
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.payeer
 appCountry: 
 released: 2018-01-03
 updated: 2020-12-24
 version: Varies with device
-stars: 4.3
+stars: 4.4
 ratings: 36999
-reviews: 151
+reviews: 152
 size: Varies with device
 website: https://payeer.com
 repository: 

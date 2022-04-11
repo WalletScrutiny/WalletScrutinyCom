@@ -8,11 +8,11 @@ users: 10000
 appId: africa.buycoins.buycoinsx.basic
 appCountry: 
 released: 2021-04-16
-updated: 2022-02-11
-version: 1.1.80
-stars: 4.2
+updated: 2022-04-06
+version: 1.1.81
+stars: 4
 ratings: 281
-reviews: 15
+reviews: 16
 size: 34M
 website: https://buycoins.africa
 repository: 

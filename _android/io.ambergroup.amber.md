@@ -4,16 +4,16 @@ title: 'WhaleFin: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2022-03-19
-version: 2.2.0
-stars: 4.3
+updated: 2022-04-02
+version: 2.2.5
+stars: 4.2
 ratings: 2656
-reviews: 99
-size: 166M
+reviews: 100
+size: 181M
 website: https://www.whalefin.com
 repository: 
 issue: 

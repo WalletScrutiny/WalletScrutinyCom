@@ -21,28 +21,41 @@ function elapsedTime(ts) {
   return "today"
 }
 
+function verdictBadge(v) {
+  return `<a id="${v}" href="/methodology/#${v}" class="verdictBadge ${v}"><span>${window.verdicts[v].short}</span></a>`
+}
+
+function walletLink(w) {
+  return `<span class="wallet-link">
+<img
+  class="app_logo ${w.folder}"
+  src="/images/wallet_icons/${w.folder}/tiny/${w.icon}"
+  alt="Wallet Logo">
+<a href="${w.url}">${w.altTitle || w.title}</a>&nbsp;${verdictBadge(w.verdict)} </span>`
+}
+
 if (document.getElementById("versions").hasAttribute("wsId")) {
   var cVId = document.getElementById("versions").getAttribute("wsID")
   var folder = window.location.pathname.split("/")[1]
-  var html = ``
+  var html = ''
   window.orderedObs.forEach(e => {
     if (e.wsId === cVId) {
       if (e.folder !== folder) {
-        html+= `<a href="${e.url}"><b>${e.category}</b> version review available here.</a><br>`
+        html+= `${walletLink(e)}<br>`
       } else if (e.versions) {
         e.versions.forEach(v => {
-          html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`
+          html+= `${walletLink(v)}<br>`
         })
       }
     } else {
       if (e.versions && Array.isArray(e.versions)) {
         e.versions.forEach(v => {
           if (v.wsId === cVId) {
-            html+= `<a href="${v.url}"><b>${v.category}</b> version review available here.</a><br>`
+            html+= `${walletLink(v)}<br>`
           }
         })
       }
     }
   })
-  document.getElementById("versions").innerHTML = html
+  document.getElementById("versions").innerHTML = `See also ${html}`
 }
