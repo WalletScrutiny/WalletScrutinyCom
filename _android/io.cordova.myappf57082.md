@@ -2,7 +2,7 @@
 wsId: bitcoin.of.america
 title: Bitcoin Of America
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: io.cordova.myappf57082

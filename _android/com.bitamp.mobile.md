@@ -9,9 +9,9 @@ appCountry:
 released: 2021-04-10
 updated: 2021-04-27
 version: '2.0'
-stars: 5
+stars: 4.9
 ratings: 52
-reviews: 49
+reviews: 50
 size: 2.9M
 website: https://www.bitamp.com
 repository: 

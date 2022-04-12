@@ -2,7 +2,7 @@
 wsId: bitcoin.of.america
 title: Bitcoin Of America
 altTitle: 
-authors: 
+authors:
 - danny
 appId: orgbitcoinofamerica.www
 appCountry: us
@@ -27,4 +27,5 @@ twitter:
 social: 
 
 ---
+
 {% include copyFromAndroid.html %}

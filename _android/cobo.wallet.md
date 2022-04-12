@@ -12,7 +12,7 @@ updated: 2022-03-21
 version: 5.19.2
 stars: 3.2
 ratings: 4018
-reviews: 62
+reviews: 61
 size: 70M
 website: https://cobo.com
 repository: 

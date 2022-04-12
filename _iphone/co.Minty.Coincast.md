@@ -2,7 +2,7 @@
 wsId: coincastCrypto
 title: Coincast — Send Crypto
 altTitle: 
-authors: 
+authors:
 - danny
 appId: co.Minty.Coincast
 appCountry: us
@@ -24,7 +24,7 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: CoincastApp
-social: 
+social:
 - https://www.facebook.com/coincastcrypto/
 - https://www.instagram.com/CoincastApp/
 - https://www.tiktok.com/@Coincast

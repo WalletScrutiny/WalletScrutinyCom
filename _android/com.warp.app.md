@@ -2,7 +2,7 @@
 wsId: 
 title: WARP - Earn Bitcoin and Crypto
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.warp.app

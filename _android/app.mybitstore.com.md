@@ -2,7 +2,7 @@
 wsId: mybitstore
 title: MyBitStore-Buy & Sell Bitcoin
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: app.mybitstore.com
@@ -25,7 +25,7 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: mybitstore
-social: 
+social:
 - https://facebook.com/mybitstore
 - https://instagram.com/mybitstore_app/
 - https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw

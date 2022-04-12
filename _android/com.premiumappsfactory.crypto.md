@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: Cryptocurrency Trading App
+title: Buy Trade Bitcoin App
 altTitle: 
 authors: 
 users: 10
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05
-updated: 2022-01-25
-version: 2.0.0
+updated: 2022-04-09
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 7.3M
 website: http://drone.onlinestore.digital
 repository: 
 issue: 

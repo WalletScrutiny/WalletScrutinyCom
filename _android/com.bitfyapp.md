@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitfyapp
 appCountry: us
 released: 2019-10-14
-updated: 2022-04-05
-version: 3.10.29
+updated: 2022-04-11
+version: 3.11.0
 stars: 
 ratings: 
 reviews: 

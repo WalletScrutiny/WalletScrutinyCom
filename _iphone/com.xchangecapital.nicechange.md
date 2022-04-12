@@ -12,7 +12,7 @@ version: 1.0.8
 stars: 0
 reviews: 0
 size: '98751488'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.xchangecapital.nicechange.jpg
@@ -26,4 +26,5 @@ twitter:
 social: 
 
 ---
+
 {% include copyFromAndroid.html %}

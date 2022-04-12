@@ -12,7 +12,7 @@ updated: 2022-04-07
 version: Varies with device
 stars: 4
 ratings: 44411
-reviews: 2659
+reviews: 2666
 size: Varies with device
 website: https://www.abra.com/
 repository: 

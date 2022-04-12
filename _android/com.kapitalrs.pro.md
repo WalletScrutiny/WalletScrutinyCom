@@ -23,7 +23,7 @@ meta: ok
 verdict: nobtc
 date: 2022-04-11
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS

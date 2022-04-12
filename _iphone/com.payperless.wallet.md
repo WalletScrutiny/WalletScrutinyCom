@@ -2,7 +2,7 @@
 wsId: payperless
 title: Payperless Crypto & BTC Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.payperless.wallet
 appCountry: us
@@ -24,9 +24,10 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: Payperlesscom
-social: 
-  - https://www.facebook.com/payperlesscom/
-  - https://www.instagram.com/payperlesscom/
+social:
+- https://www.facebook.com/payperlesscom/
+- https://www.instagram.com/payperlesscom/
 
 ---
+
 {% include copyFromAndroid.html %}
