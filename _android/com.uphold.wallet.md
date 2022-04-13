@@ -10,9 +10,9 @@ appCountry:
 released: 2015-12-29
 updated: 2022-04-08
 version: 4.38.0
-stars: 3.2
+stars: 3.1
 ratings: 20716
-reviews: 3586
+reviews: 3590
 size: 61M
 website: https://uphold.com
 repository: 

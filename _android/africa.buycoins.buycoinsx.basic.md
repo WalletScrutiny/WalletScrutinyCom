@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-16
 updated: 2022-04-06
 version: 1.1.81
-stars: 4
+stars: 3.9
 ratings: 281
-reviews: 16
+reviews: 17
 size: 34M
 website: https://buycoins.africa
 repository: 

@@ -11,7 +11,7 @@ released: 2019-02-26
 updated: 2022-04-04
 version: 2.34.0
 stars: 4.7
-reviews: 123004
+reviews: 123020
 size: '131196928'
 website: https://www.wealthsimple.com/en-ca/product/trade/
 repository: 

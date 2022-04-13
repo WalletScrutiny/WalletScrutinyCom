@@ -12,7 +12,7 @@ updated: 2022-04-07
 version: 2.44.3
 stars: 4.1
 ratings: 619117
-reviews: 7393
+reviews: 7399
 size: Varies with device
 website: https://www.binance.com/
 repository: 

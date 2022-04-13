@@ -7,11 +7,11 @@ users: 100000
 appId: kajesabz.ir.bidarz
 appCountry: 
 released: 2019-01-16
-updated: 2022-04-11
-version: 4.0.43
+updated: 2022-04-12
+version: 4.0.46
 stars: 4.2
 ratings: 4010
-reviews: 81
+reviews: 82
 size: 7.4M
 website: https://www.bidarz.ir
 repository: 

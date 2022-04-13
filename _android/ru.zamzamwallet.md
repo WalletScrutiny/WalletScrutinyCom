@@ -12,7 +12,7 @@ updated: 2022-04-06
 version: 2.7.13
 stars: 3.8
 ratings: 139
-reviews: 91
+reviews: 92
 size: 20M
 website: https://zam.me/
 repository: 

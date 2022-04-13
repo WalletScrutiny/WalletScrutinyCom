@@ -10,7 +10,7 @@ appCountry: cn
 released: 2017-12-01
 updated: 2022-04-08
 version: 2.38.2
-stars: 4.8
+stars: 4.7
 ratings: 1147
 reviews: 457
 size: 69M

@@ -9,11 +9,11 @@ appId: com.blockfi.mobile
 appCountry: 
 released: 2020-04-30
 updated: 2022-04-01
-version: 5.2.1
+version: 5.3.0
 stars: 3.9
 ratings: 4802
 reviews: 1366
-size: 9.7M
+size: 11M
 website: https://blockfi.com/
 repository: 
 issue: 

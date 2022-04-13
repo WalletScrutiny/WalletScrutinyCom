@@ -2,17 +2,17 @@
 wsId: venmo
 title: Venmo
 altTitle: 
-authors: 
+authors:
 - leo
 users: 10000000
 appId: com.venmo
 appCountry: 
 released: May 17, 2010
-updated: 2022-04-05
+updated: 2022-04-12
 version: 9.17.0
-stars: 4.2247195
+stars: 4.2
 ratings: 
-reviews: 222978
+reviews: 223076
 size: 147M
 website: https://venmo.com/
 repository: 
@@ -25,7 +25,7 @@ date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: venmo
-social: 
+social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 

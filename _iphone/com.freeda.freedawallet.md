@@ -10,8 +10,8 @@ idd: 1545428547
 released: 2021-03-17
 updated: 2022-03-09
 version: 2.1.2
-stars: 4.8
-reviews: 51
+stars: 4.7
+reviews: 78
 size: '64504832'
 website: https://www.freeda.io/
 repository: 

@@ -10,9 +10,9 @@ appCountry: am
 released: 2014-04-25
 updated: 2022-03-30
 version: 4.23.0
-stars: 4
+stars: 3.9
 ratings: 218
-reviews: 126
+reviews: 128
 size: 24M
 website: http://exante.eu
 repository: 

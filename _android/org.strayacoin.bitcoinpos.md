@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.strayacoin.bitcoinpos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-04-13
 signer: 
 reviewArchive: 
 twitter: 
