@@ -12,7 +12,7 @@ updated: 2022-04-05
 version: 5.14.0
 stars: 4
 ratings: 834
-reviews: 103
+reviews: 104
 size: 17M
 website: https://zelcore.io
 repository: 

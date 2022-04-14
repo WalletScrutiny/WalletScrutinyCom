@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-20
 updated: 2022-04-09
 version: 1.52.3
-stars: 4.9
+stars: 4.8
 ratings: 2072
-reviews: 229
+reviews: 238
 size: 117M
 website: https://ownrwallet.com
 repository: 

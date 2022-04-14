@@ -2,7 +2,7 @@
 wsId: nicechange
 title: Биткоин-обменник – NiceChange
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.xchange.nicechange

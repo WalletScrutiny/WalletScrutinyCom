@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: BingX (BingBon) Buy BTC Crypto
+title: BingX Buy BTC Crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -8,9 +8,9 @@ users: 100000
 appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
-updated: 2022-03-29
-version: 2.50.1
-stars: 4.4
+updated: 2022-04-09
+version: 2.51.0
+stars: 4.3
 ratings: 2828
 reviews: 93
 size: 46M

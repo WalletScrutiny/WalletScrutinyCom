@@ -2,7 +2,7 @@
 wsId: fireflywalletpro
 title: Firefly Wallet Pro
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: io.fchain.firefly

@@ -8,8 +8,8 @@ appId: com.laxoWallet
 appCountry: us
 idd: 1504656252
 released: 2020-04-03
-updated: 2022-03-08
-version: 2.2.8
+updated: 2022-04-12
+version: 2.2.9
 stars: 5
 reviews: 47
 size: '91933696'

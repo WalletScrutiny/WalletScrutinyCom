@@ -9,7 +9,7 @@ appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
 updated: 2022-04-07
-version: 2.1.73
+version: 2.1.74
 stars: 4.1
 ratings: 22977
 reviews: 34

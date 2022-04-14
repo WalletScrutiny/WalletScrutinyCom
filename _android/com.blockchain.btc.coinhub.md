@@ -7,8 +7,8 @@ users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2022-04-10
-version: 1.2.0.3.1
+updated: 2022-04-13
+version: 1.2.0.3.3
 stars: 4.5
 ratings: 1577
 reviews: 73

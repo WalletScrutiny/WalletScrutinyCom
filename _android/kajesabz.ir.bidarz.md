@@ -1,26 +1,26 @@
 ---
 wsId: 
-title: بیدارز - معتبرترین سامانه خرید و فروش ارز دیجیتال
+title: Bidarz - بیدارز
 altTitle: 
 authors: 
 users: 100000
 appId: kajesabz.ir.bidarz
 appCountry: 
 released: 2019-01-16
-updated: 2020-09-18
-version: 3.2.5
+updated: 2022-04-13
+version: 4.0.50
 stars: 4.2
 ratings: 4010
-reviews: 81
-size: 17M
-website: https://www.bidarz.com
+reviews: 82
+size: 7.5M
+website: https://www.bidarz.ir
 repository: 
 issue: 
 icon: kajesabz.ir.bidarz.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2021-09-14
+date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: 

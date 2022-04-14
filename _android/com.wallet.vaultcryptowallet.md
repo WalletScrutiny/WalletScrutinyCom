@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-18
 updated: 2022-02-18
 version: 1.0.6
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 3
 size: 17M
 website: https://bitcoinpay.com.co/contact.php
 repository: 

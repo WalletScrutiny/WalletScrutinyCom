@@ -9,11 +9,11 @@ appId: com.hoo.qianbao
 appCountry: us
 released: 2021-03-17
 updated: 2022-04-09
-version: 4.7.57
+version: 4.7.58
 stars: 3.7
 ratings: 749
 reviews: 65
-size: 56M
+size: 57M
 website: https://hoo.com
 repository: 
 issue: 

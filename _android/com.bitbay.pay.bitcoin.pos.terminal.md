@@ -2,7 +2,7 @@
 wsId: bitcointerminal.zondapay
 title: Bitcoin Terminal - Zonda Pay
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.bitbay.pay.bitcoin.pos.terminal
@@ -25,10 +25,10 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: zondaglobal
-social: 
-  - https://www.linkedin.com/company/zondaglobal/
-  - https://www.facebook.com/ZondaGlobal/
-  - https://www.instagram.com/zondaglobal/
+social:
+- https://www.linkedin.com/company/zondaglobal/
+- https://www.facebook.com/ZondaGlobal/
+- https://www.instagram.com/zondaglobal/
 redirect_from: 
 
 ---

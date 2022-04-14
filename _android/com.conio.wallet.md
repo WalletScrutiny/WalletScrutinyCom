@@ -8,7 +8,7 @@ users: 50000
 appId: com.conio.wallet
 appCountry: 
 released: 
-updated: 2021-11-03
+updated: 2022-04-12
 version: 3.4.0
 stars: 
 ratings: 
@@ -17,7 +17,7 @@ size: 71M
 website: https://www.conio.com
 repository: 
 issue: 
-icon: com.conio.wallet.png
+icon: com.conio.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

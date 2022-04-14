@@ -8,8 +8,8 @@ users: 100000
 appId: fio.ecoin.wallet
 appCountry: us
 released: 2020-10-08
-updated: 2022-02-12
-version: 6.3.7
+updated: 2022-04-11
+version: 6.3.8
 stars: 4.1
 ratings: 3553
 reviews: 68

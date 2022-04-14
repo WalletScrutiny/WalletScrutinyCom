@@ -2,7 +2,7 @@
 wsId: ECOMIsecurewallet
 title: ECOMI Secure Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.ecomi
@@ -29,7 +29,6 @@ social:
 redirect_from: 
 
 ---
-
 
 ECOMI is the companion app to {% include walletLink.html wallet='hardware/ecomisecurewallet' verdict='true' %}
 

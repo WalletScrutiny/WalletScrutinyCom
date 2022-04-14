@@ -2,14 +2,14 @@
 wsId: bitcoin.of.america
 title: Bitcoin Of America
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: io.cordova.myappf57082
 appCountry: 
 released: 2017-08-19
-updated: 2022-03-10
-version: 11.4.0
+updated: 2022-04-11
+version: 11.5.0
 stars: 4.5
 ratings: 152
 reviews: 24

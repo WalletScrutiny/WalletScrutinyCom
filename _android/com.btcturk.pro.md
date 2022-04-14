@@ -12,7 +12,7 @@ updated: 2022-04-08
 version: Varies with device
 stars: 4.4
 ratings: 169442
-reviews: 199
+reviews: 200
 size: Varies with device
 website: https://pro.btcturk.com
 repository: 

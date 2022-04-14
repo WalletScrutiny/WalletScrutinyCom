@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-03
 updated: 2021-03-02
 version: 1.0.65
-stars: 
+stars: 3
 ratings: 
-reviews: 
+reviews: 5
 size: 14M
 website: https://ideypay.com
 repository: 

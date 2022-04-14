@@ -8,8 +8,8 @@ users: 10000
 appId: com.keplerk.blockchain
 appCountry: 
 released: 2020-02-14
-updated: 2022-03-31
-version: 3.5.0
+updated: 2022-04-12
+version: 3.5.1
 stars: 
 ratings: 
 reviews: 
