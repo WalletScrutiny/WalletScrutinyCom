@@ -4,7 +4,7 @@ title: 'Haru Invest: Earn More Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bchi.haruinvestapp
 appCountry: us
 released: 2021-08-11

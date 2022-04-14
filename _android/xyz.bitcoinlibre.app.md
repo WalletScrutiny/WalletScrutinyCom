@@ -12,9 +12,9 @@ updated: 2022-04-06
 version: 2.1.4
 stars: 3.8
 ratings: 2887
-reviews: 80
+reviews: 82
 size: 84M
-website: https://www.libre.sv
+website: https://www.bitcoinlibre.io
 repository: 
 issue: 
 icon: xyz.bitcoinlibre.app.png

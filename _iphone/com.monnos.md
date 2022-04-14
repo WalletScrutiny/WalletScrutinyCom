@@ -10,8 +10,8 @@ idd: 1476884342
 released: 2019-09-30
 updated: 2022-04-05
 version: 5.4.4
-stars: 4.6
-reviews: 183
+stars: 4.5
+reviews: 184
 size: '157593600'
 website: https://monnos.com
 repository: 

@@ -9,11 +9,11 @@ appId: com.crypterium
 appCountry: 
 released: 2018-01-21
 updated: 2022-04-12
-version: 2.6.73.43
+version: 2.6.74.10
 stars: 3.5
 ratings: 8728
 reviews: 415
-size: 111M
+size: 110M
 website: https://crypterium.com
 repository: 
 issue: 

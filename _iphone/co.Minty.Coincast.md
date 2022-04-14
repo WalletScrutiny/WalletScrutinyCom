@@ -8,11 +8,11 @@ appId: co.Minty.Coincast
 appCountry: us
 idd: '1517543384'
 released: '2021-07-21T07:00:00Z'
-updated: 2022-03-24
-version: 1.2.10
+updated: 2022-03-30
+version: 1.2.12
 stars: 5
 reviews: 17
-size: '26441728'
+size: '26490880'
 website: https://coincast.app
 repository: 
 issue: 

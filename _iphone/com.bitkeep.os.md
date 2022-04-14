@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: BitKeep DeFi Wallet
+title: 'BitKeep: DeFi Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitkeep.os
 appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2022-03-21
-version: 7.0.1
+updated: 2022-04-12
+version: 7.0.2
 stars: 4.3
-reviews: 68
-size: '77477888'
+reviews: 70
+size: '77842432'
 website: https://bitkeep.com
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.vndc.app
 appCountry: us
 idd: 1498452975
 released: 2020-03-09
-updated: 2022-03-28
-version: 2.1.4
+updated: 2022-04-11
+version: 2.1.6
 stars: 4.7
-reviews: 739
-size: '207213568'
+reviews: 745
+size: '227570688'
 website: https://goonus.io/en
 repository: 
 issue: 

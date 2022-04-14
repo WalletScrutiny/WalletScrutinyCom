@@ -9,11 +9,11 @@ appId: com.plutus.wallet
 appCountry: 
 released: 2015-03-04
 updated: 2022-04-11
-version: Varies with device
+version: '120.0'
 stars: 4
 ratings: 44411
-reviews: 2667
-size: Varies with device
+reviews: 2669
+size: 61M
 website: https://www.abra.com/
 repository: 
 issue: 

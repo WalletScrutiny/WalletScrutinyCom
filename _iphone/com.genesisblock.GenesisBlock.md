@@ -10,8 +10,8 @@ idd: 1495538730
 released: 2020-05-09
 updated: 2022-04-06
 version: 0.2.1
-stars: 4.5
-reviews: 49
+stars: 4.4
+reviews: 50
 size: '52861952'
 website: https://hightop.com
 repository: 

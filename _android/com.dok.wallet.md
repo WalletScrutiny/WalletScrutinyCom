@@ -12,7 +12,7 @@ updated: 2021-10-21
 version: 1.1.6
 stars: 5
 ratings: 35
-reviews: 10
+reviews: 9
 size: 64M
 website: https://dokwallet.com/
 repository: 

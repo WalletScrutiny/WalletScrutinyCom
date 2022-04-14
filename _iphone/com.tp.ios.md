@@ -8,11 +8,11 @@ appId: com.tp.ios
 appCountry: 
 idd: 1436028697
 released: 2018-09-23
-updated: 2022-04-06
-version: 1.7.9
+updated: 2022-04-14
+version: 1.8.0
 stars: 3.3
-reviews: 217
-size: '122198016'
+reviews: 218
+size: '183614464'
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
