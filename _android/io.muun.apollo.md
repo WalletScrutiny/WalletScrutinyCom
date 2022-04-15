@@ -21,9 +21,14 @@ icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2022-03-24
+date: 2022-04-15
 signer: 
 reviewArchive:
+- date: 2022-03-24
+  version: "49.1"
+  appHash: c2121cdb8f6a4a3e11470ce7787cda2eb6c1d1df28b987d50a4ab39b82d3c3ae
+  gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
+  verdict: nonverifiable
 - date: 2021-10-09
   version: '46.10'
   appHash: e7504467c314b576f5f0c45eeb135396f4d771f976e886bc9b0e1111f1172ff8
@@ -55,27 +60,22 @@ we get these results:
 ===== Begin Results =====
 appId:          io.muun.apollo
 signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 49.1
-apkVersionCode: 901
+apkVersionName: 49.2
+apkVersionCode: 902
 verdict:        
-appHash:        c2121cdb8f6a4a3e11470ce7787cda2eb6c1d1df28b987d50a4ab39b82d3c3ae
-commit:         82575d702e57940f184656a8efd83e5f5a336831
+appHash:        328a6ad2056ca798e15551d094d68eade3014b3277ff0ecaa163919c069341ad
+commit:         a9a566651717f964cf71d7d70eeadedccad1e0f4
 
 Diff:
-Files /tmp/fromPlay_io.muun.apollo_901/classes2.dex and /tmp/fromBuild_io.muun.apollo_901/classes2.dex differ
-Files /tmp/fromPlay_io.muun.apollo_901/classes.dex and /tmp/fromBuild_io.muun.apollo_901/classes.dex differ
-Only in /tmp/fromPlay_io.muun.apollo_901/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_901/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_901/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_901/resources.arsc and /tmp/fromBuild_io.muun.apollo_901/resources.arsc differ
+Files /tmp/fromPlay_io.muun.apollo_902/classes2.dex and /tmp/fromBuild_io.muun.apollo_902/classes2.dex differ
+Files /tmp/fromPlay_io.muun.apollo_902/classes.dex and /tmp/fromBuild_io.muun.apollo_902/classes.dex differ
+Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: APOLLORE.SF
+Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.muun.apollo_902/resources.arsc and /tmp/fromBuild_io.muun.apollo_902/resources.arsc differ
 
 Revision, tag (and its signature):
-object 82575d702e57940f184656a8efd83e5f5a336831
-type commit
-tag v49.1
-tagger acrespo <alvaro.andres.crespo@gmail.com> 1647637865 -0300
 
-v49.1
 ===== End Results =====
 ```
 
