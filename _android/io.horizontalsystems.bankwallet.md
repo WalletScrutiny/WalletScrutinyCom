@@ -25,7 +25,7 @@ date: 2022-04-15
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2022-03-27
-  version: "0.24.0"
+  version: 0.24.0
   appHash: 81d998f4130baaad4432ea6962c911c96fe5e1aafa4b9a00e3645430fb4fe151
   gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
   verdict: reproducible

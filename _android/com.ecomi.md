@@ -12,7 +12,7 @@ updated: 2022-01-26
 version: 3.0.5
 stars: 3.1
 ratings: 140
-reviews: 17
+reviews: 18
 size: 14M
 website: https://wallet.ecomi.com
 repository: 

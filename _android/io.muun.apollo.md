@@ -25,7 +25,7 @@ date: 2022-04-15
 signer: 
 reviewArchive:
 - date: 2022-03-24
-  version: "49.1"
+  version: '49.1'
   appHash: c2121cdb8f6a4a3e11470ce7787cda2eb6c1d1df28b987d50a4ab39b82d3c3ae
   gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
   verdict: nonverifiable

@@ -25,7 +25,7 @@ date: 2022-04-15
 signer: 
 reviewArchive:
 - date: 2022-01-21
-  version: "4.1.5.0"
+  version: 4.1.5.0
   appHash: 3b5011c575ba0646855f8686e7952fe3a4da70ca009082dd6a683bc12de529ca
   gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
   verdict: nonverifiable
