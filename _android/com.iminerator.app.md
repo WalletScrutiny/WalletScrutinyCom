@@ -1,6 +1,6 @@
 ---
 wsId: iMinerator
-title: iMinerator - Tools for mining bitcoin and others
+title: iMinerator - Investments
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: com.iminerator.app
 appCountry: us
 released: 2021-04-20
-updated: 2021-10-08
-version: 2.0.0
+updated: 2022-04-15
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 30M
+size: 31M
 website: https://iminerator.com
 repository: 
 issue: 

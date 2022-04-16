@@ -12,7 +12,7 @@ updated: 2022-04-11
 version: Varies with device
 stars: 4
 ratings: 26669
-reviews: 1357
+reviews: 1358
 size: Varies with device
 website: https://www.dopamineapp.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: Belfrics
-title: Belfrics – CryptoCurrency Trading Exchange
+title: Belfrics – CryptoCurrency
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000
 appId: com.app.belfrics
 appCountry: us
 released: 2017-10-17
-updated: 2022-03-24
-version: 2.1.7
+updated: 2022-04-13
+version: 2.1.8
 stars: 4.8
 ratings: 110
 reviews: 9
-size: 9.8M
+size: 11M
 website: http://www.belfrics.io
 repository: 
 issue: 

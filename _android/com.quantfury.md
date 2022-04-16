@@ -12,7 +12,7 @@ updated: 2022-04-12
 version: v1.7.1987.5
 stars: 5
 ratings: 11645
-reviews: 52
+reviews: 51
 size: 67M
 website: https://quantfury.com
 repository: 

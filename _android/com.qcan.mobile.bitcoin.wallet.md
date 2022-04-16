@@ -8,8 +8,8 @@ users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
 appCountry: 
 released: 2017-08-06
-updated: 2022-03-21
-version: 0.8.852
+updated: 2022-04-14
+version: 0.8.853
 stars: 4.5
 ratings: 166
 reviews: 13
