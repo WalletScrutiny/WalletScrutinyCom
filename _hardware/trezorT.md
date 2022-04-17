@@ -45,8 +45,7 @@ social:
 
 ---
 
-After manually testing prior versions, we now wrote a 
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorT.sh).
+After manually testing prior versions, we now wrote a {% include testScript.html %}.
 
 Here is it's condensed output:
 

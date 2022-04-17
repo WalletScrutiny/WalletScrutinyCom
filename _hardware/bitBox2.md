@@ -51,8 +51,7 @@ social:
 
 ---
 
-We wrapped the findings from prior reviews in a
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/bitBox2.sh)
+We wrapped the findings from prior reviews in a {% include testScript.html %}
 which gave us these results:
 
 ```

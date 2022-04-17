@@ -1,12 +1,10 @@
 #!/bin/bash
 
-test() {
-  repo=https://github.com/LN-Zap/zap-android
-  tag=v$versionName
+repo=https://github.com/LN-Zap/zap-android
+tag=v$versionName
 # builtApk="$workDir/app/build/outputs/apk/release/*"
 
-  prepare
-
+test() {
   # build
   podman run --rm --volume=$PWD:/mnt --workdir /mnt mreichelt/android:latest bash -x -c \
       './gradlew assembleRelease'
@@ -14,6 +12,4 @@ test() {
 
   podman rmi mreichelt/android:latest -f
   podman image prune -f
-
-  result
 }

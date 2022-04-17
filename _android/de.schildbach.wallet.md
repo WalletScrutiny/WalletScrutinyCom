@@ -164,9 +164,7 @@ redirect_from:
 
 ---
 
-For the latest version the
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-came to these results:
+For the latest version the {% include testScript.html %} came to these results:
 
 ```
 ===== Begin Results =====

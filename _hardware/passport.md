@@ -51,8 +51,7 @@ social:
 ---
 
 The provider released a new version. Here we try to reproduce it again, using
-our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/passport.sh):
+our {% include testScript.html %}:
 
 ```
 $ ./scripts/test/hardware/passport.sh 1.0.8

@@ -51,7 +51,7 @@ is **not verifiable**.
 they claim to have addressed the issues we had earlier reported. A first update
 went not so good as the new version was not yet rolled out but now we have both
 the latest binary and the updated build instructions, all integrated in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
+{% include testScript.html %}.
 
 The result is underwhelming:
 

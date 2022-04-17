@@ -189,8 +189,7 @@ redirect_from:
 ---
 
 Here we test if the latest version can be reproduced, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====

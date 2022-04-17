@@ -1,11 +1,10 @@
 #!/bin/bash
 
-test() {
-  repo=https://github.com/spesmilo/electrum
-  tag=$( echo "$versionName" | sed 's/\.0$//g' )
-  builtApk="$workDir/app/dist/Electrum-$versionName-arm64-v8a-release-unsigned.apk"
+repo=https://github.com/spesmilo/electrum
+tag=$( echo "$versionName" | sed 's/\.0$//g' )
+builtApk="$workDir/app/dist/Electrum-$versionName-arm64-v8a-release-unsigned.apk"
 
-  prepare
+test() {
   git submodule update --init --recursive
   
   # build
@@ -22,7 +21,4 @@ test() {
 
   docker rmi electrum-android-builder-img -f
   docker image prune -f
-
-  # collect results
-  result
 }

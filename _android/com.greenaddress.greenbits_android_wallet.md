@@ -181,9 +181,7 @@ redirect_from:
 
 ---
 
-With
-[this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-we get:
+With this {% include testScript.html %} we get:
 
 ```
 ===== Begin Results =====

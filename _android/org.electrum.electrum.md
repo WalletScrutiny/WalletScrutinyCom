@@ -59,8 +59,7 @@ redirect_from:
 
 ---
 
-With our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh) we get:
+With our {% include testScript.html %} we get:
 
 ```
 ...
@@ -112,7 +111,7 @@ and ... the build instructions also slightly changed:
 +    $ ELECBUILD_COMMIT=HEAD ELECBUILD_NOCACHE=1 ./build.sh kivy all release-unsigned
 ```
 
-Time to update our test script and run it again:
+Time to update our {% include testScript.html %} and run it again:
 
 ```
 ===== Begin Results =====

@@ -60,8 +60,7 @@ app, so the [former issue](https://github.com/ACINQ/phoenix/issues/112) is not
 expected to get resolved on the old repository.
 
 Here we test if the latest version can be verified, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 fatal: Remote branch v1.4.2 not found in upstream origin
