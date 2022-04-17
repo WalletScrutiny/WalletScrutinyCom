@@ -8,8 +8,8 @@ appId: app.anchors.anchorusd
 appCountry: us
 idd: 1495986023
 released: 2020-01-30
-updated: 2022-04-04
-version: 1.18.2
+updated: 2022-04-15
+version: 1.18.3
 stars: 4.3
 reviews: 5130
 size: '34942976'

@@ -8,11 +8,11 @@ appId: network.celsius.wallet
 appCountry: 
 idd: 1387885523
 released: 2018-06-20
-updated: 2022-02-08
-version: v5.0.0
-stars: 3.7
-reviews: 1994
-size: '72631296'
+updated: 2022-04-14
+version: v5.1.0
+stars: 3.6
+reviews: 2025
+size: '72904704'
 website: https://celsius.network/
 repository: 
 issue: 

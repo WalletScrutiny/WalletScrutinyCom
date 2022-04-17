@@ -8,11 +8,11 @@ users: 50000
 appId: io.hotbit.shouyi.flavor.kr
 appCountry: cn
 released: 2020-07-07
-updated: 2022-03-31
-version: 1.0.74
-stars: 3.6
+updated: 2022-04-12
+version: 1.0.75
+stars: 3.5
 ratings: 600
-reviews: 240
+reviews: 241
 size: 6.5M
 website: https://www.bitclover.io/
 repository: 

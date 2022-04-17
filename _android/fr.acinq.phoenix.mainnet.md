@@ -12,7 +12,7 @@ updated: 2022-03-23
 version: 1.4.22
 stars: 4.4
 ratings: 314
-reviews: 28
+reviews: 27
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

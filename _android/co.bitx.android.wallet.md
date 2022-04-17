@@ -9,11 +9,11 @@ appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
 updated: 2022-04-08
-version: 8.5.0
+version: 8.6.0
 stars: 3.6
 ratings: 96811
-reviews: 1004
-size: 95M
+reviews: 1002
+size: 94M
 website: https://www.luno.com
 repository: 
 issue: 

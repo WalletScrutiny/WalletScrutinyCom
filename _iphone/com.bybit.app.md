@@ -11,7 +11,7 @@ released: 2020-01-06
 updated: 2022-04-10
 version: 3.18.1
 stars: 3.9
-reviews: 527
+reviews: 531
 size: '141510656'
 website: https://www.bybit.com
 repository: 

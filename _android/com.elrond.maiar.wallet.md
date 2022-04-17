@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-01-15
 updated: 2022-04-07
 version: 1.4.29
-stars: 4.1
+stars: 4
 ratings: 6106
-reviews: 140
+reviews: 141
 size: 89M
 website: https://maiar.com/
 repository: 

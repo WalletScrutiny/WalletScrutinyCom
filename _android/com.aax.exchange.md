@@ -8,8 +8,8 @@ users: 1000000
 appId: com.aax.exchange
 appCountry: 
 released: 2019-03-04
-updated: 2022-03-22
-version: 3.2.6
+updated: 2022-04-14
+version: 3.2.8
 stars: 3.8
 ratings: 3299
 reviews: 51
