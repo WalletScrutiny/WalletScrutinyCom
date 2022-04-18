@@ -10,9 +10,9 @@ appCountry:
 released: 2015-03-04
 updated: 2022-04-11
 version: '120.0'
-stars: 4.1
+stars: 4
 ratings: 44411
-reviews: 2674
+reviews: 2677
 size: 61M
 website: https://www.abra.com/
 repository: 

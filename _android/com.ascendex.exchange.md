@@ -12,7 +12,7 @@ updated: 2022-04-11
 version: 2.8.0
 stars: 4.8
 ratings: 6660
-reviews: 80
+reviews: 77
 size: 47M
 website: https://asdx.io/
 repository: 

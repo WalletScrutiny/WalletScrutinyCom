@@ -11,7 +11,7 @@ released: 2021-10-27
 updated: 2022-04-06
 version: 2.1.4
 stars: 4.7
-reviews: 223
+reviews: 226
 size: '33403904'
 website: https://libre.org
 repository: 

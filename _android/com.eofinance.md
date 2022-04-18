@@ -11,7 +11,7 @@ updated: 2020-04-30
 version: 2.0.1
 stars: 4.5
 ratings: 1529
-reviews: 10
+reviews: 11
 size: 35M
 website: https://eo.finance
 repository: 

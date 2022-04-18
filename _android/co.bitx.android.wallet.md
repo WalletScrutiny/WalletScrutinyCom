@@ -10,9 +10,9 @@ appCountry:
 released: 2014-11-01
 updated: 2022-04-08
 version: 8.6.0
-stars: 3.6
+stars: 3.7
 ratings: 96811
-reviews: 1002
+reviews: 1003
 size: 94M
 website: https://www.luno.com
 repository: 

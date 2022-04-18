@@ -29,7 +29,7 @@ date: 2022-04-18
 signer: 
 reviewArchive:
 - date: 2022-02-17
-  version: "9.9.0"
+  version: 9.9.0
   appHash: 93d8e89f6edc7813a34901395a13291a3435bbc21c146e177f77c85095fc1311
   gitRevision: 49009f7ec76dd42f6117772298d5150bbbe4d3c5
   verdict: reproducible

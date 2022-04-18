@@ -29,7 +29,7 @@ date: 2022-04-18
 signer: 
 reviewArchive:
 - date: 2022-01-10
-  version: "1.10.4"
+  version: 1.10.4
   appHash: 8ead447cab0ee12af244edc7a18125e71df133730d9c67d627557804bafc57ee
   gitRevision: 49009f7ec76dd42f6117772298d5150bbbe4d3c5
   verdict: reproducible

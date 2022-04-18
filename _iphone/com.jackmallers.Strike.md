@@ -10,7 +10,7 @@ released: 2020-08-10
 updated: 2022-04-14
 version: '67.0'
 stars: 4.8
-reviews: 7942
+reviews: 8039
 size: '48126976'
 website: https://beta.strike.me/
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-04-07
 version: 2.11.1
 stars: 4.9
 ratings: 1588
-reviews: 10
+reviews: 11
 size: 46M
 website: https://www.fameex.com
 repository: 

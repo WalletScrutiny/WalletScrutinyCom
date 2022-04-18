@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinglass
+title: Coinglass - Live Crypto Prices
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2022-04-06
-version: 1.4.2
+updated: 2022-04-16
+version: 1.4.3
 stars: 5
 reviews: 32
 size: '16482304'

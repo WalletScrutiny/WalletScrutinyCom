@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.space.tkey.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-04-18
 signer: 
 reviewArchive: 
 twitter: 
