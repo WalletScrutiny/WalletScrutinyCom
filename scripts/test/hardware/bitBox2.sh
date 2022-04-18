@@ -24,18 +24,19 @@ builtHash=$( sha256sum temp/build/bin/firmware-btc.bin )
 
 # unpack signed binary
 head -c 588 firmware-btc.v${version}.signed.bin > p_head.bin
-tail -c +589 firmware-btc.v${version}.signed.bin > p_firmware.bin
-downloadStrippedSigHash=$( sha256sum p_firmware.bin )
+tail -c +589 firmware-btc.v${version}.signed.bin > p_firmware-btc.bin
+downloadStrippedSigHash=$( sha256sum p_firmware-btc.bin )
 cat p_head.bin | tail -c +$(( 8 + 6 * 64 + 1 )) | head -c 4 > p_version.bin
-firmwareBytesCount=$(wc -c p_firmware.bin | sed 's/ .*//g')
+firmwareBytesCount=$(wc -c p_firmware-btc.bin | sed 's/ .*//g')
 maxFirmwareSize=884736
 paddingBytesCount=$(( $maxFirmwareSize - $firmwareBytesCount ))
 dd if=/dev/zero ibs=1 count=$paddingBytesCount 2>/dev/null | tr "\000" "\377" > p_padding.bin
-downloadFirmwareHash=$( cat p_version.bin p_firmware.bin p_padding.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64 )
+downloadFirmwareHash=$( cat p_version.bin p_firmware-btc.bin p_padding.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64 )
 
 echo "Hashes of
 signed download             $signedHash
 signed download minus sig.  $downloadStrippedSigHash
 built binary                $builtHash
 firmware as shown in device $downloadFirmwareHash
-                            (The latter is a double sha256 over version, firmware and padding)"
+                            (The latter is a double sha256 over version,
+                             firmware and padding)"

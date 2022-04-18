@@ -5,7 +5,7 @@ authors:
 - leo
 released: 2014-07-29
 discontinued: 
-updated: 2021-12-07
+updated: 2022-01-17
 version: 1.10.5
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
