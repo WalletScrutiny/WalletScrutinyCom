@@ -89,6 +89,10 @@ contact the developers via <a href="mailto:info@WalletScrutiny.com">mail</a>,
 
 {% include donationSummary.html %}
 
-(Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in
-BtcPay-Server, at least 5mBTC are missing from the list
-above. Sorry for that.)
+* Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in
+  BtcPay-Server, at least 5mBTC are missing from the list above. Sorry for that.
+* 1BTC = 1 000mBTC = 1 000 000µBTC = 100 000 000sat
+* Amounts are rounded and timestamps only dates, to not make it trivial for
+  Blockchain analysis companies to identify donations on chain
+
+<script src="/assets/js/review.js"></script>
