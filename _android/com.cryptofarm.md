@@ -12,7 +12,7 @@ updated: 2022-04-11
 version: 1.0.266
 stars: 4.3
 ratings: 6172
-reviews: 218
+reviews: 222
 size: 33M
 website: https://cryptotab.farm/
 repository: 

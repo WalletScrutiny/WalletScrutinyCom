@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bottrex - Cryptocurrency trading bot
+title: Bottrex - Crypto Trading Bot
 altTitle: 
 authors:
 - danny

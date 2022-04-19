@@ -4,7 +4,7 @@ title: Baksman – купить Биткоин
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.xchange.baksman
 appCountry: ru
 released: 2020-02-03

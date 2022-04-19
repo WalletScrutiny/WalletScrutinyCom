@@ -29,9 +29,9 @@ meta: ok
 verdict: nonverifiable
 date: 2022-04-18
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-12-11
-  version: "4.1.7"
+  version: 4.1.7
   appHash: a4a9a5584f1db23d745434c296aedd3c123fe506c49624076d4726417e900137
   gitRevision: 5039bd8dc007690d50a6b60b5768c239255434af
   verdict: reproducible

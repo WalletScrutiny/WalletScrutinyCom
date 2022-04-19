@@ -8,11 +8,11 @@ appId: com.cmcm.currency.exchange
 appCountry: 
 idd: 1435877386
 released: 2018-09-16
-updated: 2022-04-11
-version: 5.2.3
+updated: 2022-04-17
+version: 5.2.4
 stars: 3.2
 reviews: 311
-size: '108580864'
+size: '109469696'
 website: https://www.bitrue.com
 repository: 
 issue: 

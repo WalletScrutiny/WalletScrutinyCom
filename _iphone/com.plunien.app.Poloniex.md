@@ -8,8 +8,8 @@ appId: com.plunien.app.Poloniex
 appCountry: 
 idd: 1234141021
 released: 2017-05-14
-updated: 2022-04-13
-version: 1.29.0
+updated: 2022-04-16
+version: 1.29.1
 stars: 4.6
 reviews: 2036
 size: '74413056'

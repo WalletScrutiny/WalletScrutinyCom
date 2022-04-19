@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitzhash.wallet.bitcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,9 +9,9 @@ appCountry: us
 released: 2017-09-23
 updated: 2022-03-30
 version: 2022.3.1
-stars: 4.2
+stars: 4.1
 ratings: 26395
-reviews: 1714
+reviews: 1715
 size: 100M
 website: https://delta.app
 repository: 

@@ -8,8 +8,8 @@ appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
 released: 2017-06-26
-updated: 2022-03-31
-version: 3.2.1
+updated: 2022-04-16
+version: 3.2.2
 stars: 4.5
 reviews: 345
 size: '43626496'

@@ -3,12 +3,12 @@ wsId:
 title: Biteeu
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bit.eu
 appCountry: 
 released: 2019-07-03
-updated: 2022-03-01
-version: 1.10.0
+updated: 2022-04-15
+version: 1.10.1
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bit.eu.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

@@ -4,7 +4,7 @@ title: 'Phemex: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - kiwilamb
-users: 500000
+users: 1000000
 appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
@@ -12,7 +12,7 @@ updated: 2022-04-04
 version: 3.0.5
 stars: 4.5
 ratings: 15997
-reviews: 798
+reviews: 801
 size: 30M
 website: https://phemex.com
 repository: 

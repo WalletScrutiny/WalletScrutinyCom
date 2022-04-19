@@ -8,11 +8,11 @@ appId: jp.bitflyer.wallet
 appCountry: jp
 idd: 1164758997
 released: 2016-11-18
-updated: 2022-04-04
-version: 6.17.1
+updated: 2022-04-19
+version: 6.18.0
 stars: 4.3
-reviews: 105021
-size: '27107328'
+reviews: 105073
+size: '26179584'
 website: https://bitflyer.com/
 repository: 
 issue: 

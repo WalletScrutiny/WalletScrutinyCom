@@ -13,7 +13,7 @@ updated: 2022-04-05
 version: 1.9.14
 stars: 4.7
 ratings: 26
-reviews: 9
+reviews: 10
 size: 20M
 website: https://nunchuk.io
 repository: 
