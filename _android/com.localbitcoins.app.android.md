@@ -9,7 +9,7 @@ appId: com.localbitcoins.app.android
 appCountry: us
 released: 2021-09-06
 updated: 2022-04-14
-version: 0.1.52
+version: 0.1.53
 stars: 3.5
 ratings: 771
 reviews: 27

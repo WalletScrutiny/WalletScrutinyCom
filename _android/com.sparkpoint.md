@@ -13,7 +13,7 @@ updated: 2022-03-18
 version: 8.1.1
 stars: 3.7
 ratings: 608
-reviews: 69
+reviews: 68
 size: 77M
 website: https://sparkpoint.io/
 repository: 

@@ -4,7 +4,7 @@ title: Bitmama - Buy, Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitmama.bitmama
 appCountry: us
 released: 2020-07-11

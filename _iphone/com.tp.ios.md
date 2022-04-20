@@ -10,8 +10,8 @@ idd: 1436028697
 released: 2018-09-23
 updated: 2022-04-15
 version: 1.8.1
-stars: 3.3
-reviews: 220
+stars: 4.1
+reviews: 440
 size: '183614464'
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios

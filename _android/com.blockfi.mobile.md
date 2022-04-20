@@ -12,7 +12,7 @@ updated: 2022-04-12
 version: 5.3.0
 stars: 3.9
 ratings: 4802
-reviews: 1368
+reviews: 1367
 size: 11M
 website: https://blockfi.com/
 repository: 

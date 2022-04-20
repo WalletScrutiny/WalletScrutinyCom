@@ -11,7 +11,7 @@ released: 2020-03-09
 updated: 2022-04-11
 version: 2.1.6
 stars: 4.7
-reviews: 749
+reviews: 758
 size: '227570688'
 website: https://goonus.io/en
 repository: 

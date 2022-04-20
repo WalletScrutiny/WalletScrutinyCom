@@ -11,7 +11,7 @@ released: 2018-03-02
 updated: 2022-04-14
 version: 10.0.0
 stars: 4.6
-reviews: 594
+reviews: 595
 size: '111219712'
 website: https://www.dopamineapp.com/
 repository: 

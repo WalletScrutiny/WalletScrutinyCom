@@ -8,11 +8,11 @@ users: 10000
 appId: net.iconomi.android
 appCountry: si
 released: 2017-10-17
-updated: 2022-04-16
-version: 2.1.4
+updated: 2022-04-19
+version: 2.1.5
 stars: 4.1
 ratings: 291
-reviews: 135
+reviews: 137
 size: 131M
 website: https://www.iconomi.com
 repository: 

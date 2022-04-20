@@ -12,7 +12,7 @@ updated: 2022-01-27
 version: '1.8'
 stars: 4.4
 ratings: 2174
-reviews: 976
+reviews: 977
 size: 45M
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
