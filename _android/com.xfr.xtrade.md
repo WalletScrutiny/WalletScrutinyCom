@@ -7,12 +7,12 @@ users: 1000000
 appId: com.xfr.xtrade
 appCountry: 
 released: 2014-10-02
-updated: 2022-03-24
-version: 6.0.74
+updated: 2022-04-20
+version: 6.0.76
 stars: 4.2
 ratings: 37358
 reviews: 69
-size: 28M
+size: 29M
 website: http://www.xtrade.com
 repository: 
 issue: 

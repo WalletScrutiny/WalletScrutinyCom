@@ -1,6 +1,6 @@
 ---
 wsId: RiseWallet
-title: Rise Wallet
+title: Well Wallet - BitcoinWell
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.risewallet.riseapp
 appCountry: ca
 idd: 1453389237
 released: 2019-03-12
-updated: 2022-02-03
-version: 1.6.0
+updated: 2022-04-20
+version: 1.7.0
 stars: 4.7
 reviews: 27
-size: '12294144'
-website: https://www.risewallet.com/
+size: '28577792'
+website: https://wellwallet.ca/
 repository: 
 issue: 
 icon: com.risewallet.riseapp.jpg

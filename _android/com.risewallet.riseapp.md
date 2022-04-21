@@ -1,6 +1,6 @@
 ---
 wsId: RiseWallet
-title: Rise Wallet
+title: Well Wallet
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 1000
 appId: com.risewallet.riseapp
 appCountry: ca
 released: 2019-03-08
-updated: 2022-02-01
-version: 1.6.0
+updated: 2022-04-14
+version: 1.7.0
 stars: 4.8
 ratings: 42
 reviews: 13
-size: 7.5M
-website: http://www.risewallet.com
+size: 15M
+website: https://wellwallet.ca/
 repository: 
 issue: 
 icon: com.risewallet.riseapp.png

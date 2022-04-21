@@ -10,9 +10,9 @@ appCountry:
 released: 2020-06-11
 updated: 2022-04-19
 version: 1.4.34
-stars: 3.6
+stars: 3.5
 ratings: 2461
-reviews: 353
+reviews: 354
 size: 32M
 website: https://www.coinzoom.com
 repository: 

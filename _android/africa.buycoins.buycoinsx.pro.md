@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-04-16
 updated: 2022-04-06
 version: 1.1.81
-stars: 3.6
+stars: 3.8
 ratings: 102
 reviews: 4
 size: 34M
