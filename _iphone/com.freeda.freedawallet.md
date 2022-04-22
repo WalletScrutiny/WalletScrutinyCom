@@ -8,11 +8,11 @@ appId: com.freeda.freedawallet
 appCountry: us
 idd: 1545428547
 released: 2021-03-17
-updated: 2022-03-09
-version: 2.1.2
+updated: 2022-04-20
+version: 2.2.0
 stars: 4.7
 reviews: 78
-size: '64504832'
+size: '65358848'
 website: https://www.freeda.io/
 repository: 
 issue: 

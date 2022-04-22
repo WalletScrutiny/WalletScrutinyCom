@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'TabShop: Point of Sale (POS)'
+title: TabShop POS - Point of Sale
 altTitle: 
 authors:
 - danny

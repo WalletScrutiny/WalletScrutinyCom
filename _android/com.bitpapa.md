@@ -4,7 +4,7 @@ title: 'Multicurrency crypto-wallet: Bitpapa'
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.bitpapa
 appCountry: 
 released: 2020-08-18

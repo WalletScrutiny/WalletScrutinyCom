@@ -11,7 +11,7 @@ updated: 2022-04-15
 version: 2.10.07
 stars: 4.5
 ratings: 5659
-reviews: 552
+reviews: 553
 size: 57M
 website: https://www.pionex.com
 repository: 
