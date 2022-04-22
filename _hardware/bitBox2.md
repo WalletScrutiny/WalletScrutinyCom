@@ -25,7 +25,7 @@ icon: bitBox2.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2022-04-18
+date: 2022-04-22
 signer: 
 reviewArchive:
 - date: 2022-02-17
@@ -55,6 +55,16 @@ social:
 - https://www.reddit.com/r/BitBoxWallet
 
 ---
+
+**Update 2022-01-22**: The
+[provider's reply to our issue](https://github.com/digitalbitbox/bitbox02-firmware/issues/901#issuecomment-1101263747)
+indicates they are not inclined to fix reproducibility for this version and point
+to [this GitHub account](https://github.com/cstenglein) that approved
+reproducibility at the time of the original release. As we do not know this
+account, we recommend people who don't know them neither to not use this version
+and wait for a future release that probably will be reproducible again.
+
+<hl>
 
 We wrapped the findings from prior reviews in a {% include testScript.html %}
 which gave us these results:
