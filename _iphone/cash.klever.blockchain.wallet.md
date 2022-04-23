@@ -11,7 +11,7 @@ released: 2020-08-26
 updated: 2022-04-16
 version: 4.12.9
 stars: 4.3
-reviews: 479
+reviews: 482
 size: '119251968'
 website: https://klever.io
 repository: 

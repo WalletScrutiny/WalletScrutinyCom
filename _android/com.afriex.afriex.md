@@ -4,7 +4,7 @@ title: Afriex - Money Transfer App
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.afriex.afriex
 appCountry: us
 released: 2020-03-05

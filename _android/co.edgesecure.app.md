@@ -13,7 +13,7 @@ updated: 2022-03-29
 version: 2.12.1
 stars: 4.5
 ratings: 3880
-reviews: 563
+reviews: 565
 size: 53M
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

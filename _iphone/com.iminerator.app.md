@@ -1,6 +1,6 @@
 ---
 wsId: iMinerator
-title: iMinerator - Investments
+title: iMinerator - Invest & Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.iminerator.app
 appCountry: us
 idd: 1562067391
 released: 2021-04-20
-updated: 2022-04-15
-version: 2.0.2
+updated: 2022-04-22
+version: 2.0.3
 stars: 0
 reviews: 0
-size: '84718592'
+size: '84640768'
 website: https://iminerator.com/index-apple.html
 repository: 
 issue: 

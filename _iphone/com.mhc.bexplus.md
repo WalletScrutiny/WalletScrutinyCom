@@ -12,7 +12,7 @@ released: 2018-11-29
 updated: 2022-04-15
 version: 2.1.9
 stars: 4.7
-reviews: 293
+reviews: 226
 size: '76318720'
 website: https://www.bexplus.com/activity/cash_back
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-03-28
 version: 1.0.8
 stars: 4.6
 ratings: 1307
-reviews: 1260
+reviews: 1261
 size: 11M
 website: https://www.bitwells.com
 repository: 

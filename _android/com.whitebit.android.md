@@ -8,11 +8,11 @@ users: 100000
 appId: com.whitebit.android
 appCountry: ua
 released: 2019-06-07
-updated: 2022-04-18
-version: 2.8.0
+updated: 2022-04-22
+version: 2.9.2
 stars: 4.2
 ratings: 1962
-reviews: 90
+reviews: 92
 size: 29M
 website: https://whitebit.com/
 repository: 
