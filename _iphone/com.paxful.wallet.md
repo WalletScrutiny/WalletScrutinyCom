@@ -10,8 +10,8 @@ idd: 1443813253
 released: 2019-05-09
 updated: 2022-03-01
 version: 2.7.9
-stars: 3.7
-reviews: 2384
+stars: 3.6
+reviews: 2385
 size: '60800000'
 website: https://paxful.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-04-19
 version: 26.8.431
 stars: 3.8
 ratings: 38828
-reviews: 8724
+reviews: 8734
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

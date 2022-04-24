@@ -11,7 +11,7 @@ released: 2021-11-02
 updated: 2022-04-19
 version: 1.0.53
 stars: 3.6
-reviews: 44
+reviews: 45
 size: '35213312'
 website: https://localbitcoins.com/
 repository: 

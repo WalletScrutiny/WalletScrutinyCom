@@ -12,7 +12,7 @@ updated: 2022-04-07
 version: 1.16.6
 stars: 3.8
 ratings: 428
-reviews: 371
+reviews: 372
 size: 39M
 website: https://flitaa.com
 repository: 
