@@ -8,8 +8,8 @@ users: 10000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2022-03-30
-version: 0.24.1
+updated: 2022-04-21
+version: 0.24.2
 stars: 3.8
 ratings: 556
 reviews: 50
@@ -189,8 +189,7 @@ redirect_from:
 ---
 
 Here we test if the latest version can be reproduced, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====

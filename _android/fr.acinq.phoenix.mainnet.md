@@ -12,7 +12,7 @@ updated: 2022-03-23
 version: 1.4.22
 stars: 4.4
 ratings: 314
-reviews: 28
+reviews: 27
 size: 35M
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -60,8 +60,7 @@ app, so the [former issue](https://github.com/ACINQ/phoenix/issues/112) is not
 expected to get resolved on the old repository.
 
 Here we test if the latest version can be verified, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 fatal: Remote branch v1.4.2 not found in upstream origin

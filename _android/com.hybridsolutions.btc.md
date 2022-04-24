@@ -8,12 +8,12 @@ users: 5000
 appId: com.hybridsolutions.btc
 appCountry: 
 released: 2020-08-24
-updated: 2021-12-15
-version: 1.2.1.10
+updated: 2022-04-21
+version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 50M
 website: https://hybridsolutions.com/
 repository: 
 issue: 

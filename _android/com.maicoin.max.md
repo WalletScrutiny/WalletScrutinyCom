@@ -9,11 +9,11 @@ appId: com.maicoin.max
 appCountry: us
 released: 2018-07-01
 updated: 2022-04-11
-version: 3.0.0
+version: 4.0.0
 stars: 3.9
 ratings: 1049
 reviews: 8
-size: 58M
+size: 65M
 website: https://max.maicoin.com
 repository: 
 issue: 

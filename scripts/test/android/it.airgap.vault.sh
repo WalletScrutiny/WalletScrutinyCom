@@ -1,12 +1,10 @@
 #!/bin/bash
 
-test() {
-  repo=https://github.com/airgap-it/airgap-vault
-  tag=v$versionName
-  builtApk=$workDir/app/airgap-vault-release-unsigned.apk
-  
-  prepare
+repo=https://github.com/airgap-it/airgap-vault
+tag=v$versionName
+builtApk=$workDir/app/airgap-vault-release-unsigned.apk
 
+test() {
   # cleanup
   podman rmi airgap-vault -f
   podman rm airgap-vault-build -f
@@ -19,6 +17,4 @@ test() {
   podman rmi airgap-vault -f
   podman rm airgap-vault-build -f
   podman image prune -f
-  
-  result
 }

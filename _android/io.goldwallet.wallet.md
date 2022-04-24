@@ -9,9 +9,9 @@ appCountry:
 released: 2020-02-18
 updated: 2021-08-24
 version: Varies with device
-stars: 4.3
+stars: 4.2
 ratings: 504
-reviews: 12
+reviews: 13
 size: Varies with device
 website: https://bitcoinvault.global
 repository: 

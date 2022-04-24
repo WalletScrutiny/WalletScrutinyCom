@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Sun Crypto: Bitcoin, Crypto Trading Exchange India'
+title: 'Sun Crypto: Buy & Sell Coins'
 altTitle: 
 authors: 
 users: 500000
@@ -11,7 +11,7 @@ updated: 2022-01-27
 version: '1.7'
 stars: 4.9
 ratings: 10629
-reviews: 740
+reviews: 800
 size: 14M
 website: https://suncrypto.in
 repository: 

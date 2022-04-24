@@ -1,12 +1,10 @@
 #!/bin/bash
 
+repo=https://github.com/btcontract/wallet
+tag="$versionName"
+builtApk=$workDir/app/app/build/outputs/apk/release/SBW-${versionName}.apk
+
 test() {
-  repo=https://github.com/btcontract/wallet
-  tag="$versionName"
-  builtApk=$workDir/app/app/build/outputs/apk/release/SBW-${versionName}.apk
-
-  prepare
-
   wget --directory-prefix=app/src/main/assets/ \
       https://github.com/btcontract/wallet/releases/download/${versionName}/graph.snapshot-mainnet.zlib
   additionalInfo=$(sha256sum app/src/main/assets/graph.snapshot-mainnet.zlib)
@@ -20,7 +18,4 @@ test() {
 
   podman rmi sbw -f
   podman image prune -f
-
-  result
-  echo $additionalInfo
 }

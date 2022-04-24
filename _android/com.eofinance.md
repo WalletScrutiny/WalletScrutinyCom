@@ -11,16 +11,16 @@ updated: 2020-04-30
 version: 2.0.1
 stars: 4.5
 ratings: 1529
-reviews: 10
+reviews: 11
 size: 35M
 website: https://eo.finance
 repository: 
 issue: 
 icon: com.eofinance.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-04-21
 signer: 
 reviewArchive: 
 twitter: 

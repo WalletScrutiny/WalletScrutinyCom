@@ -11,7 +11,7 @@ released: 2021-02-27
 updated: 2021-10-14
 version: 1.3.5
 stars: 2.6
-reviews: 110
+reviews: 111
 size: '72709120'
 website: https://jeroid.ng/
 repository: 

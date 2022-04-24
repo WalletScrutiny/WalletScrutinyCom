@@ -86,7 +86,7 @@ redirect_from:
 
 ---
 
-For that latest version, our test script returned this:
+For that latest version, our {% include testScript.html %} returned this:
 
 ```
 ===== Begin Results =====
