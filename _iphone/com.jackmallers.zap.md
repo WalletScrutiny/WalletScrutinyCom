@@ -18,15 +18,17 @@ repository: https://github.com/LN-Zap/zap-iOS
 issue: 
 icon: com.jackmallers.zap.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nonverifiable
-date: 2021-08-17
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: ln_zap
 social: 
 
 ---
+
+**Update 2022-04-05**: This app is not available anymore.
 
 This app does not feature a provider website but a GitHub account which links to
 [this website](http://zaphq.io).

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lastbit.lite.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-22
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: lastbitpay
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-01**: This app is not available anymore.
 
 ## App Description
 

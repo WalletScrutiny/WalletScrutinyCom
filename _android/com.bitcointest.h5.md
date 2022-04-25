@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcointest.h5.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fake
-date: 2022-04-11
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,6 +28,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-15**: This app is not available anymore.
 
 **⚠️ Note** We strongly advise users to be very careful with this app.
 

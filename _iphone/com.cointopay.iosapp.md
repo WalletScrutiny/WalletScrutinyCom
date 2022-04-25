@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cointopay.iosapp.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-03-27
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: Cointopay
@@ -29,5 +29,7 @@ social:
 - https://www.reddit.com/r/Cointopay
 
 ---
+
+**Update 2022-04-05**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}
