@@ -1,6 +1,6 @@
 ---
 wsId: crypterApp
-title: Crypto App - Widgets, Alerts, News, Bitcoin Prices
+title: The Crypto App
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2022-04-21
 version: 3.0.2
 stars: 4.6
 ratings: 78687
-reviews: 2568
+reviews: 2575
 size: 34M
 website: https://thecrypto.app
 repository: 

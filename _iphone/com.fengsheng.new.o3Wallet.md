@@ -11,7 +11,7 @@ released: 2020-08-31
 updated: 2022-01-16
 version: 3.2.3
 stars: 4.2
-reviews: 20
+reviews: 21
 size: '71157760'
 website: https://o3.network
 repository: 
