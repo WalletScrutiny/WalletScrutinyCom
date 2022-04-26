@@ -8,10 +8,13 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85.5, 54, 0.84]
+dimensions:
+- 86
+- 54
+- 0.84
 weight: 
 provider: Shenzhen Heyang Smart Card Technology Co., Ltd.
-providerWebsite:
+providerWebsite: 
 website: https://en.heyangkeji.com/
 shop: 
 country: CN
@@ -26,7 +29,7 @@ date: 2022-04-06
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 
 ---
 

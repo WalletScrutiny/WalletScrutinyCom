@@ -26,13 +26,13 @@ date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: layer_design
-social: 
-  - https://instagram.com/layer_design/
-  - https://vimeo.com/benjaminhubert
-  - https://www.facebook.com/benjaminhubertstudio
-  - https://www.behance.net/Layer_Design
-  - https://www.pinterest.ph/layer_design/_created/
-  
+social:
+- https://instagram.com/layer_design/
+- https://vimeo.com/benjaminhubert
+- https://www.facebook.com/benjaminhubertstudio
+- https://www.behance.net/Layer_Design
+- https://www.pinterest.ph/layer_design/_created/
+
 ---
 
 ## Product Description

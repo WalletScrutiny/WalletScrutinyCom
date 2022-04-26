@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Ragnar Labs, Inc. (Matthew Lebedev)
 providerWebsite: 

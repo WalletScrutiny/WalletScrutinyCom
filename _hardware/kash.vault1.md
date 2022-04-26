@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://t.me/KashICO   
+- https://t.me/KashICO
+
 ---
 
 **⚠️ Warning:** Third party websites have listed this project as having held an ICO on April 8, 2018. The homepage is now inaccessible and there were no archived versions in archive.org. Most information about this device is now only available through [Medium.](https://medium.com/kash-hardware-wallet/announcing-the-kash-token-sale-3b4c4251e3e4)

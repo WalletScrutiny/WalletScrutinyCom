@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: CRPT Secure SA (Proprietary) Limited
-providerWebsite:
+providerWebsite: 
 website: https://www.crptsecure.com/
 shop: https://www.crptsecure.com/pricing/
 country: ZA
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: crptsecure
 social:
-  - https://www.facebook.com/crptsecure/
+- https://www.facebook.com/crptsecure/
+
 ---
 
 ## Product/Service Description 

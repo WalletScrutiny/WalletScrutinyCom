@@ -1,5 +1,5 @@
 ---
-title: Icy Wallet 
+title: Icy Wallet
 appId: icywallet
 authors:
 - danny
@@ -16,7 +16,8 @@ website: https://web.archive.org/web/20180107060156/https://icywallet.com/
 shop: 
 country: US
 price: 
-repository: https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
+repository: >-
+  https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
 issue: 
 icon: icywallet.png
 bugbounty: 
@@ -26,7 +27,8 @@ date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: neatnikllc
-social:   
+social: 
+
 ---
 
 ## Product Description 

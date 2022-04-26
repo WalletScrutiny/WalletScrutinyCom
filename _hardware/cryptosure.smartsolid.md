@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: offline_crypto
 social:
-  - https://www.facebook.com/offlinecrypto/
-  - 
+- https://www.facebook.com/offlinecrypto/
+
 ---
 
 ## Product Description

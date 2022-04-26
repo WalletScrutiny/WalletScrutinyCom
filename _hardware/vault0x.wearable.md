@@ -26,10 +26,10 @@ date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: vault0x
-social: 
-  - https://www.facebook.com/vault0x/
-  - https://medium.com/@vault0x
-  
+social:
+- https://www.facebook.com/vault0x/
+- https://medium.com/@vault0x
+
 ---
 
 ## Product Description

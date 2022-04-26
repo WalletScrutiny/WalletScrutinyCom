@@ -8,9 +8,9 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
-provider: Mobilum 
+provider: Mobilum
 providerWebsite: https://mobilum.com/
 website: https://web.archive.org/web/20190110001829/http://xcard.io/
 shop: 
@@ -27,10 +27,10 @@ signer:
 reviewArchive: 
 twitter: xcardbymobilum
 social:
-  - https://www.linkedin.com/in/mobilumcom/ 
-  - https://www.facebook.com/mobilumcom/
-  - https://medium.com/mobilumcom
-  - https://t.me/mobilumcom
+- https://www.linkedin.com/in/mobilumcom/
+- https://www.facebook.com/mobilumcom/
+- https://medium.com/mobilumcom
+- https://t.me/mobilumcom
 
 ---
 

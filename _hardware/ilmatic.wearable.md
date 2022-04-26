@@ -27,9 +27,8 @@ signer:
 reviewArchive: 
 twitter: ilmatic
 social: 
-  
----
 
+---
 
 The website has since been updated and no longer has information on this product. It now redirects [to a website](https://tamez.vc/) concerning the company's CEO, Danny Tamez.
 

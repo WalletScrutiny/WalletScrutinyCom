@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: 
 providerWebsite: 
@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/magicseedcrypto
-  - https://www.instagram.com/magicseed.io/
+- https://www.facebook.com/magicseedcrypto
+- https://www.instagram.com/magicseed.io/
 
 ---
 

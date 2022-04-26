@@ -14,7 +14,7 @@ provider: Bitcoin.No AS (later on acquired by Abendum)
 providerWebsite: 
 website: https://web.archive.org/web/20200520111735/https://kaching.cards/
 shop: 
-country: NO
+country: 'NO'
 price: 10USD
 repository: 
 issue: 
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: KaChingCards
 social: 
-  
+
 ---
 
 This Bitcoin SV project launched an [indiegogo fundraiser in 2019](https://www.indiegogo.com/projects/kaching-secure-bitcoin-wallet/#/). It was later on [acquired by Abendum](https://twitter.com/KaChingCards/status/1295740470967115776).

@@ -1,5 +1,5 @@
 ---
-title: Ryder 
+title: Ryder
 appId: ryder.wearable
 authors:
 - danny
@@ -26,10 +26,10 @@ date: 2022-04-08
 signer: 
 reviewArchive: 
 twitter: Ryder_ID
-social: 
-  - https://www.instagram.com/ryder.btc/
-  - https://discord.gg/EA7SapF5hp
-  
+social:
+- https://www.instagram.com/ryder.btc/
+- https://discord.gg/EA7SapF5hp
+
 ---
 
 ## Product Description

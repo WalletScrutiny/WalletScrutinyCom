@@ -2,7 +2,7 @@
 wsId: 
 title: ExtoWallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.extolab.extowallet
 appCountry: us
@@ -24,8 +24,9 @@ date: 2022-04-06
 signer: 
 reviewArchive: 
 twitter: Exto_Labs
-social: 
-  - https://www.linkedin.com/company/extolabs/
+social:
+- https://www.linkedin.com/company/extolabs/
+
 ---
 
 **Note:** As of April 6, 2022, we were not able to find the corresponding Android counterpart to this app. 

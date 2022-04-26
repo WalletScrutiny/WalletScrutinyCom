@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85.5, 54, 0.84]
+dimensions:
+- 86
+- 54
+- 0.84
 weight: 
 provider: KONA I Co., Ltd.
 providerWebsite: 
@@ -26,9 +29,9 @@ date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - https://www.facebook.com/konai.story/
-  
+social:
+- https://www.facebook.com/konai.story/
+
 ---
 
 Kona I Co., Ltd. is a South Korean company involved in the manufacture of various electronic cards. Among its products include: 

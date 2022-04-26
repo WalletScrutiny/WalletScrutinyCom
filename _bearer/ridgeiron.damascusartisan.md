@@ -8,9 +8,9 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
-provider: Ridge Iron 
+provider: Ridge Iron
 providerWebsite: http://ridgeiron.com/
 website: 
 shop: http://ridgeiron.com/cart/
@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: blockchainiron
 social:
-  - https://www.facebook.com/RidgeIronGear/
-  
+- https://www.facebook.com/RidgeIronGear/
+
 ---
 
 The provider's name is Ridge Iron (Blockchain Iron). The product is also referenced as Crypto Coin Vault on the same page. They successfully funded their [Kickstarter campaign](https://www.kickstarter.com/projects/1173199625/cold-storage-wallet-for-bitcoin-and-cryptocurrenci/) in 2019. They raised $19,665 out of their target goal of $18,000. 

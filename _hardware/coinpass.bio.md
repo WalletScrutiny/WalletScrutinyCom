@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Feitian Technologies Co.,Ltd.
 providerWebsite: https://www.ftsafe.com/

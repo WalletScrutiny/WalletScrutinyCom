@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Signatur
-providerWebsite:
+providerWebsite: 
 website: https://web.archive.org/web/20160109203713/http://signatur.co/
 shop: 
 country: IE
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: SignaturCo
 social:
-  - https://www.linkedin.com/company/signaturco/about/
+- https://www.linkedin.com/company/signaturco/about/
+
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8jRKIfgXf3I?start=1300" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
