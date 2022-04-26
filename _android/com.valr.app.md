@@ -8,12 +8,12 @@ users: 100000
 appId: com.valr.app
 appCountry: 
 released: 2019-09-13
-updated: 2022-04-13
-version: 1.0.46
+updated: 2022-04-25
+version: 1.0.47
 stars: 4.1
 ratings: 1725
 reviews: 9
-size: 107M
+size: 82M
 website: https://www.valr.com
 repository: 
 issue: 

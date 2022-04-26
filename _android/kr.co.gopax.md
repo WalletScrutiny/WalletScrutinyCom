@@ -10,9 +10,9 @@ appCountry: cn
 released: 2018-11-05
 updated: 2022-04-19
 version: 1.5.31.63f6
-stars: 2.2
+stars: 2.3
 ratings: 1387
-reviews: 1036
+reviews: 1037
 size: 26M
 website: https://www.gopax.co.kr
 repository: 

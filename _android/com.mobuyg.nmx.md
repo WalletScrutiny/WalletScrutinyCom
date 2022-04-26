@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Nominex DeFi Crypto Exchange Stake Trade NMX
+title: Nominex Crypto Exchange NMX
 altTitle: 
 authors: 
 users: 1000

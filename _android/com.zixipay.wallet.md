@@ -4,7 +4,7 @@ title: ZixiPay - Tether Wallet, Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.zixipay.wallet
 appCountry: us
 released: 2019-12-18

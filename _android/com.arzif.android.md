@@ -17,7 +17,7 @@ size: 22M
 website: https://arzif.com/
 repository: 
 issue: 
-icon: com.arzif.android.png
+icon: com.arzif.android.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
