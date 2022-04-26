@@ -12,7 +12,7 @@ released: 2018-09-29
 updated: 2022-04-14
 version: 3.1.3
 stars: 3.8
-reviews: 154
+reviews: 152
 size: '127681536'
 website: https://www.huobiwallet.com/en/
 repository: 

@@ -10,7 +10,7 @@ appCountry: th
 released: 2020-08-07
 updated: 2022-04-07
 version: 1.2.6
-stars: 4
+stars: 4.3
 ratings: 82
 reviews: 18
 size: 15M
