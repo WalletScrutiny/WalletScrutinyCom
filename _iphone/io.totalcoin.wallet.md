@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-24
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,6 +28,8 @@ social:
 - https://www.facebook.com/totalcoin.io
 
 ---
+
+**Update 2022-04-14**: This app is not available anymore.
 
 On the wallet's website there is no claim about custodianship which makes us
 assume it is a custodial product.

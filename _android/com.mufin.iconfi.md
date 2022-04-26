@@ -12,7 +12,7 @@ updated: 2022-03-31
 version: 1.0.6
 stars: 4.6
 ratings: 220
-reviews: 20
+reviews: 19
 size: 10.0M
 website: https://www.icon-fi.com
 repository: 

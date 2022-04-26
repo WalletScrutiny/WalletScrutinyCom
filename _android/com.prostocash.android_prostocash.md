@@ -2,7 +2,7 @@
 wsId: prostocash
 title: Prostocash – обменять и продать Биткоин
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.prostocash.android_prostocash

@@ -11,6 +11,7 @@ const client = new btcpay.BTCPayClient("https://pos.btcpay.nz", keypair, {mercha
 const path = "_includes/donationSummary.html"
 const fs = require('fs')
 const file = fs.createWriteStream(path)
+const roundAfterDate = new Date("2022-04-01")
 const sum = {
   Any: 0,
   MoreWallets: 0,
@@ -30,7 +31,8 @@ client.get_invoices({status: "complete"}).then( invoices => {
 <tr><th>Date</th><th>Amount</th><th>Category</th></tr>
 `)
   invoices.slice(0, historyCount).forEach(invoice => {
-    file.write(`<tr><td>${new Date(invoice.invoiceTime).toLocaleDateString()}</td><td>${getPrettyAmount(getAmount(invoice))}</td><td>${getCategory(invoice.itemDesc)}</td></tr>\n`)
+    const date = new Date(invoice.invoiceTime)
+    file.write(`<tr><td><span title='${date.toLocaleDateString()}' class='calculate-time-elapsed' data='${date.valueOf() / 1000}'>${date.toLocaleDateString()}</span></td><td>${getPrettyAmount(getAmount(invoice))}</td><td>${getCategory(invoice.itemDesc)}</td></tr>\n`)
   })
   file.write(`<tr><td>...</td><td>...</td><td>...</td></tr>\n</table>\n`)
   invoices.forEach(invoice => {
@@ -82,5 +84,20 @@ function getAmount(invoice) {
 }
 
 function getPrettyAmount(amount) {
-  return parseFloat((amount * 1000).toFixed(5)) + "mBTC"
+  var multiplier, symbol
+  amount = Number(amount.toPrecision(2))
+  if (amount > 1) {
+    multiplier = 1
+    symbol = 'BTC'
+  } else if (amount > .001) {
+    multiplier = 1_000
+    symbol = 'mBTC'
+  } else if (amount > .000_001) {
+    multiplier = 1_000_000
+    symbol = 'µBTC'
+  } else {
+    multiplier = 100_000_000
+    symbol = 'sat'
+  }
+  return `~${parseFloat((amount * multiplier).toFixed(1))}${symbol}`
 }

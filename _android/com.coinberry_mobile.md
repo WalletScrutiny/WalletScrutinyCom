@@ -1,6 +1,6 @@
 ---
 wsId: CoinBerry
-title: 'Coinberry: Buy & Sell Bitcoin'
+title: 'Coinberry: Buy and sell crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.coinberry_mobile
 appCountry: ca
 released: 2018-12-19
-updated: 2022-03-30
-version: 1.27.01
-stars: 3.1
+updated: 2022-04-21
+version: 1.29.00
+stars: 3.2
 ratings: 1118
-reviews: 634
+reviews: 635
 size: 85M
 website: https://www.coinberry.com
 repository: 

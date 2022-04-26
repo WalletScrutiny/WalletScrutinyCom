@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ms.shamirswallet.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2021-12-06
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-04**: This app is not available anymore.
 

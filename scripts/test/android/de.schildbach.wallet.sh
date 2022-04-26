@@ -1,13 +1,10 @@
 #!/bin/bash
 
-test() {
-  repo=https://github.com/bitcoin-wallet/bitcoin-wallet
-  tag=v$versionName
-  builtApk=$workDir/app/wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
-  
-  prepare
+repo=https://github.com/bitcoin-wallet/bitcoin-wallet
+tag=v$versionName
+builtApk=$workDir/app/wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk
 
-  # build
+test() {
   podman run \
       -it \
       --rm \
@@ -23,6 +20,4 @@ test() {
         yes | /opt/android-sdk/tools/bin/sdkmanager "build-tools;29.0.2"
         gradle clean :wallet:assProdRel
         $takeUserActionCommand'
-      
-  result
 }

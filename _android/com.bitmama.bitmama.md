@@ -4,16 +4,16 @@ title: Bitmama - Buy, Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitmama.bitmama
 appCountry: us
 released: 2020-07-11
-updated: 2022-04-05
-version: 1.0.66
+updated: 2022-04-24
+version: 1.0.71
 stars: 3.3
 ratings: 65
 reviews: 2
-size: 36M
+size: 38M
 website: https://www.bitmama.io
 repository: 
 issue: 

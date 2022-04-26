@@ -9,18 +9,18 @@ appCountry:
 released: 2021-04-10
 updated: 2021-04-27
 version: '2.0'
-stars: 5
+stars: 4.9
 ratings: 52
-reviews: 49
+reviews: 50
 size: 2.9M
 website: https://www.bitamp.com
 repository: 
 issue: 
 icon: com.bitamp.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-04-23
 signer: 
 reviewArchive: 
 twitter: 

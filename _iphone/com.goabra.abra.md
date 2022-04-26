@@ -8,11 +8,11 @@ appId: com.goabra.abra
 appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2022-03-30
-version: 119.0.0
+updated: 2022-04-15
+version: 120.0.0
 stars: 4.6
-reviews: 17799
-size: '121638912'
+reviews: 17923
+size: '121708544'
 website: 
 repository: 
 issue: 

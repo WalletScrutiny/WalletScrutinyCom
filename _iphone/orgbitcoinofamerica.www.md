@@ -2,7 +2,7 @@
 wsId: bitcoin.of.america
 title: Bitcoin Of America
 altTitle: 
-authors: 
+authors:
 - danny
 appId: orgbitcoinofamerica.www
 appCountry: us
@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: orgbitcoinofamerica.www.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-11
+date: 2022-04-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
 {% include copyFromAndroid.html %}

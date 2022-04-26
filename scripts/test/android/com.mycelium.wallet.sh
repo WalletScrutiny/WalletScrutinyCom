@@ -1,12 +1,10 @@
 #!/bin/bash
 
+repo=https://github.com/mycelium-com/wallet-android
+tag="v$versionName"
+builtApk=$workDir/app/mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
+
 test() {
-  repo=https://github.com/mycelium-com/wallet-android
-  tag="v$versionName"
-  builtApk=$workDir/app/mbw/build/outputs/apk/prodnet/release/mbw-prodnet-release.apk
-
-  prepare
-
   # a hack to fetch submodules through https instead of ssh
   sed -i 's/git@github.com:/https:\/\/github.com\//g' .gitmodules
 
@@ -32,6 +30,4 @@ test() {
 
   podman rmi mycelium_builder -f
   podman image prune -f
-
-  result
 }

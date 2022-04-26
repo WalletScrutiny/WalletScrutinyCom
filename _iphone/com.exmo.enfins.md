@@ -9,11 +9,11 @@ appId: com.exmo.enfins
 appCountry: 
 idd: 1505496232
 released: 2020-04-07
-updated: 2022-03-22
-version: 2.18.5
+updated: 2022-04-21
+version: 2.18.9
 stars: 3.8
 reviews: 43
-size: '65651712'
+size: '82195456'
 website: https://exmo.com/en
 repository: 
 issue: 

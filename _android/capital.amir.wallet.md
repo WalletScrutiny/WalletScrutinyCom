@@ -8,8 +8,8 @@ users: 10000
 appId: capital.amir.wallet
 appCountry: 
 released: 2021-08-03
-updated: 2022-03-23
-version: 3.13.4
+updated: 2022-03-28
+version: 3.14.1
 stars: 
 ratings: 
 reviews: 

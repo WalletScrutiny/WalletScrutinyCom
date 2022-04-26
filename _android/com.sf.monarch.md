@@ -10,9 +10,9 @@ appCountry:
 released: 2018-10-19
 updated: 2022-01-10
 version: 2.3.6
-stars: 4.4
+stars: 4.3
 ratings: 821
-reviews: 158
+reviews: 159
 size: 17M
 website: http://splashfactory.com
 repository: 

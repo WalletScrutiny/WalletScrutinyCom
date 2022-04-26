@@ -162,7 +162,11 @@ for more details."
   if [ "$shouldCleanup" = true ]; then
     diffGuide=''
   fi
-
+  if [ "$additionalInfo" ]; then
+    additionalInfo="===== Also ====
+$additionalInfo
+"
+  fi
   echo "===== Begin Results =====
 appId:          $appId
 signer:         $signer
@@ -177,7 +181,7 @@ $diffResult
 
 Revision, tag (and its signature):
 $( git tag -v "$tag" )
-===== End Results =====
+$additionalInfo===== End Results =====
 $diffGuide"
 }
 
@@ -191,8 +195,12 @@ if [ ! -f "$testScript" ]; then
   echo
   exit 2
 fi
+
 source $testScript
+
+prepare
 test
+result
 
 if [ "$shouldCleanup" = true ]; then
   cleanup

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitblinx.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-04-22
 signer: 
 reviewArchive: 
 twitter: 

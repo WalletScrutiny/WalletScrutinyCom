@@ -8,16 +8,16 @@ users: 10000
 appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
-updated: 2022-03-03
-version: 1.0.5
+updated: 2022-04-24
+version: 1.0.6
 stars: 4.1
 ratings: 687
-reviews: 14
+reviews: 15
 size: 22M
 website: https://arzif.com/
 repository: 
 issue: 
-icon: com.arzif.android.png
+icon: com.arzif.android.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

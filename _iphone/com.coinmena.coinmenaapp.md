@@ -10,8 +10,8 @@ idd: 1573112964
 released: 2021-09-26
 updated: 2022-03-31
 version: 1.4.0
-stars: 3.7
-reviews: 54
+stars: 3.6
+reviews: 58
 size: '75338752'
 website: https://www.coinmena.com/
 repository: 

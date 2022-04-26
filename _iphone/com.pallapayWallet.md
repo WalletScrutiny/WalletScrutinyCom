@@ -2,7 +2,7 @@
 wsId: pallapay
 title: Pallapay Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.pallapayWallet
 appCountry: ae
@@ -24,11 +24,12 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: pallapay_com
-social: 
-  - https://www.linkedin.com/company/pallapay/
-  - https://www.instagram.com/pallapay/
-  - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
-  - https://t.me/pallapay_channel
+social:
+- https://www.linkedin.com/company/pallapay/
+- https://www.instagram.com/pallapay/
+- https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
+- https://t.me/pallapay_channel
 
 ---
+
 {% include copyFromAndroid.html %}

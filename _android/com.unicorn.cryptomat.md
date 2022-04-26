@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unicorn.cryptomat.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-04-14
 signer: 
 reviewArchive: 
 twitter: 

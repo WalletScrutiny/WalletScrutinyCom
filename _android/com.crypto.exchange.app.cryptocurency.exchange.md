@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.exchange.app.cryptocurency.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-03
+date: 2022-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: mercadopago
-title: 'Mercado Pago: cuenta digital'
+title: 'Mercado Pago: digital account'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 50000000
 appId: com.mercadopago.wallet
 appCountry: br
 released: 2014-12-09
-updated: 2022-04-08
-version: 2.214.4
+updated: 2022-04-18
+version: 2.215.2
 stars: 4.7
 ratings: 3484084
-reviews: 726234
+reviews: 733136
 size: 86M
 website: http://www.mercadopago.com
 repository: 

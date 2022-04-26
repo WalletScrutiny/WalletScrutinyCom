@@ -4,16 +4,16 @@ title: 'Haru Invest: Earn More Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bchi.haruinvestapp
 appCountry: us
 released: 2021-08-11
-updated: 2022-03-11
-version: 2.1.0
+updated: 2022-04-08
+version: 2.2.0
 stars: 4.9
 ratings: 277
-reviews: 22
-size: 83M
+reviews: 24
+size: 93M
 website: https://haruinvest.com
 repository: 
 issue: 

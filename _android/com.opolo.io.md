@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: OPOLO Hardware Wallet Companion App
+title: OPOLO Hardware Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.opolo.io
 appCountry: 
@@ -25,11 +25,11 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: OpoloWallet
-social: 
-  - https://www.linkedin.com/company/opolo-ltd/
-  - https://www.facebook.com/opolo.wallet.3
-  - https://www.pinterest.com/opolowallet/_saved/
-  - https://medium.com/@OPOLOCosmos
+social:
+- https://www.linkedin.com/company/opolo-ltd/
+- https://www.facebook.com/opolo.wallet.3
+- https://www.pinterest.com/opolowallet/_saved/
+- https://medium.com/@OPOLOCosmos
 redirect_from: 
 
 ---

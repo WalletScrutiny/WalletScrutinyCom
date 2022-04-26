@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2020-05-29
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 

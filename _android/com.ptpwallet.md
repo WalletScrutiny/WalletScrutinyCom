@@ -8,12 +8,12 @@ users: 10000
 appId: com.ptpwallet
 appCountry: 
 released: 2018-12-04
-updated: 2022-02-15
-version: 1.0.1250
-stars: 4.2
+updated: 2022-04-08
+version: 1.0.1256
+stars: 4.3
 ratings: 352
-reviews: 16
-size: 34M
+reviews: 17
+size: 37M
 website: https://ptpwallet.com
 repository: 
 issue: 

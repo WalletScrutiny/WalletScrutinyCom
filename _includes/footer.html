@@ -5,38 +5,21 @@
   {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 </div>
 
-<script src="{{ base_path }}/allWallets.js"></script>
-<script src="{{ base_path }}/assets/js/wallets.js"></script>
-<script src="{{ base_path }}/assets/js/search-wallets.js"></script>
 <script>
   window.chatwootSettings = {
     type: 'expanded_bubble',
-    launcherTitle: 'Get Wallet Support'
+    launcherTitle: 'Say Hello!'
   };
   (function(d,t) {
-    var BASE_URL = "https://chat-web.support.walletscrutiny.com";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src= BASE_URL + "/packs/js/sdk.js";
-    s.parentNode.insertBefore(g,s);
+    var BASE_URL = "https://chat-web.support.walletscrutiny.com"
+    var g=d.createElement(t),s=d.getElementsByTagName(t)[0]
+    g.src= BASE_URL + "/packs/js/sdk.js"
+    s.parentNode.insertBefore(g,s)
     g.onload=function(){
       window.chatwootSDK.run({
         websiteToken: 'AFJCUb95WFZtMeNazDi5MKiU',
         baseUrl: BASE_URL
       })
     }
-  })(document,"script");
-
-  if (document.cookie.search("chatwoot_popup") < 0) {
-    window.addEventListener("load", function() {
-      setTimeout(function() {
-        if (!$chatwoot.isOpen && !window.matchMedia("only screen and (max-width: 760px)").matches) {
-          // only on big screens, open the chat window
-          $chatwoot.toggle()
-          setTimeout(function() {
-            document.cookie = "chatwoot_popup=false"
-          }, 2000)
-        }
-      }, 10000)
-    })
-  }
+  })(document,"script")
 </script>

@@ -8,12 +8,12 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2022-04-05
-version: 202203.2.3
+updated: 2022-04-22
+version: 202204.1.3
 stars: 3.8
 ratings: 115830
-reviews: 5372
-size: 23M
+reviews: 5427
+size: 28M
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
 issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1294
@@ -51,7 +51,7 @@ is **not verifiable**.
 they claim to have addressed the issues we had earlier reported. A first update
 went not so good as the new version was not yet rolled out but now we have both
 the latest binary and the updated build instructions, all integrated in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
+{% include testScript.html %}.
 
 The result is underwhelming:
 

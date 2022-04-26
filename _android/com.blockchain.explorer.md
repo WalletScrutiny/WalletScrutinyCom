@@ -11,9 +11,9 @@ appCountry:
 released: 2019-12-30
 updated: 2022-03-26
 version: 1.2.0.6
-stars: 4.5
+stars: 4.6
 ratings: 409
-reviews: 23
+reviews: 24
 size: 29M
 website: https://adslab-2b1c2.web.app
 repository: 

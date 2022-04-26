@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-01-31
+date: 2022-04-25
 signer: 
 reviewArchive:
 - date: 2019-11-12
@@ -34,6 +34,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-10**: This app is not available anymore.
 
 Cryptonator cryptocurrency wallet
 makes no claim to be non-custodial but the

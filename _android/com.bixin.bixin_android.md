@@ -8,20 +8,20 @@ users: 10000
 appId: com.bixin.bixin_android
 appCountry: 
 released: 2017-03-22
-updated: 2022-01-30
-version: 4.4.3
+updated: 2022-04-14
+version: 4.4.6
 stars: 3.8
 ratings: 91
 reviews: 10
-size: 177M
+size: 173M
 website: https://bixin.com
 repository: 
 issue: 
 icon: com.bixin.bixin_android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-04
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: BixinWallet
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-16**: This app is not available anymore.
 
 ## App Description
 

@@ -12,7 +12,7 @@ updated: 2021-12-19
 version: Varies with device
 stars: 4
 ratings: 29247
-reviews: 1717
+reviews: 1721
 size: Varies with device
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -164,9 +164,7 @@ redirect_from:
 
 ---
 
-For the latest version the
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-came to these results:
+For the latest version the {% include testScript.html %} came to these results:
 
 ```
 ===== Begin Results =====

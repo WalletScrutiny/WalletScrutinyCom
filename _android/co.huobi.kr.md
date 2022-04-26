@@ -8,12 +8,12 @@ users: 100000
 appId: co.huobi.kr
 appCountry: cn
 released: 2018-04-12
-updated: 2022-03-14
-version: 3.6.8
+updated: 2022-04-20
+version: 3.6.9
 stars: 3.3
 ratings: 3505
-reviews: 1239
-size: 49M
+reviews: 1041
+size: 50M
 website: https://www.huobi.co.kr
 repository: 
 issue: 

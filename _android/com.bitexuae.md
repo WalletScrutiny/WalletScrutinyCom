@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitexuae.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-04
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: bitexexch
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-10**: This app is not available anymore.
 
 ⚠️ **Warning**: There are many instances which give us pause when it comes to this app. Please see below. Proceed with utmost scrutiny, due diligence and caution when examining this app. 
 

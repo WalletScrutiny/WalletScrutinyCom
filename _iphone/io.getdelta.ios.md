@@ -7,11 +7,11 @@ appId: io.getdelta.ios
 appCountry: us
 idd: 1288676542
 released: 2017-09-25
-updated: 2022-03-31
-version: 2022.3.1
+updated: 2022-04-21
+version: 2022.3.2
 stars: 4.7
-reviews: 9899
-size: '89149440'
+reviews: 9916
+size: '90240000'
 website: https://delta.app
 repository: 
 issue: 

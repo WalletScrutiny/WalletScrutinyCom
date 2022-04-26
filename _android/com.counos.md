@@ -10,18 +10,18 @@ appCountry:
 released: 2018-07-03
 updated: 2021-04-16
 version: 1.9.50
-stars: 4.6
+stars: 4.5
 ratings: 513
-reviews: 17
+reviews: 18
 size: 38M
 website: https://www.counos.io
 repository: 
 issue: 
 icon: com.counos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-25
+date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: counoscoin

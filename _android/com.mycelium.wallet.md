@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-03-21
+date: 2022-04-15
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-03-21
+  version: 3.14.0.0
+  appHash: c08c972527244350dfa2ed79db34d10dd64603798552b3f8f04b8ae5cded0de2
+  gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
+  verdict: reproducible
 - date: 2022-03-10
   version: 3.13.9.0
   appHash: 52a78db950f41fb53908b35fba38f3504e423559b3905108ef0b5bae600b92a1
@@ -215,31 +220,23 @@ redirect_from:
 * [2019-12-17 by Andreas Schildbach for v3.2.0.11](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566489272)
 
 Here we test if the latest version also can be reproduced, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.14.0.0
-apkVersionCode: 3140000
+apkVersionName: 3.14.1.0
+apkVersionCode: 3140100
 verdict:        reproducible
-appHash:        c08c972527244350dfa2ed79db34d10dd64603798552b3f8f04b8ae5cded0de2
-commit:         ed4b0bc6f5e9ca588182cb2553fbca46de98246a
+appHash:        a06c4711f34abf0d3fb3c9648f55e6879953b552cb08013c0eb5b738dd6e85ad
+commit:         ab6081e3d08564735b9d01497ba3ac42bf2bb5d7
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3140000/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3140000/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3140100/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3140100/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
-object ed4b0bc6f5e9ca588182cb2553fbca46de98246a
-type commit
-tag v3.14.0.0
-tagger agneslovelace  1647408566 +0300
 
-Added network state banner on main screen
-Fixed crash when scanning bitcoin addresses from cold storage menu
-Fixed crash when trying to send Btcv
 ===== End Results =====
 ```
 
