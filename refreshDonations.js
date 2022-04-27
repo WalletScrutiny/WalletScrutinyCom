@@ -1,17 +1,17 @@
-const key = process.argv[2]
-if (key == undefined) {
-  console.error("No key provided. Skipping Donations update.")
-  return
-}
-
 process.env.TZ = 'UTC' // fix timezone issues
 const btcpay = require('btcpay')
-const keypair = btcpay.crypto.load_keypair(new Buffer.from(key, 'hex'))
-const client = new btcpay.BTCPayClient("https://pos.btcpay.nz", keypair, {merchant: 'EHan8qV5JseDSNWtTJeaNFeG3xes9CDSq3bMfmwehcJE'})
-const path = "_includes/donationSummary.html"
 const fs = require('fs')
+
+const key = process.argv[2]
+if (key == undefined) {
+  console.error('No key provided. Skipping Donations update.')
+  exit(1)
+}
+
+const keypair = btcpay.crypto.load_keypair(new Buffer.from(key, 'hex'))
+const client = new btcpay.BTCPayClient('https://pos.btcpay.nz', keypair, {merchant: 'EHan8qV5JseDSNWtTJeaNFeG3xes9CDSq3bMfmwehcJE'})
+const path = '_includes/donationSummary.html'
 const file = fs.createWriteStream(path)
-const roundAfterDate = new Date("2022-04-01")
 const sum = {
   Any: 0,
   MoreWallets: 0,
@@ -24,7 +24,7 @@ const sum = {
   NonWalletApps: 0
 }
 
-client.get_invoices({status: "complete"}).then( invoices => {
+client.get_invoices({status: 'complete'}).then( invoices => {
   const historyCount = 20
   file.write(`<h3>${historyCount} most recent donations</h3>
 <table>
@@ -46,7 +46,7 @@ client.get_invoices({status: "complete"}).then( invoices => {
     return [key, sum[key]]
   })
   items.sort((a, b) => { return b[1] - a[1] })
-  for (i in items) {
+  for (var i in items) {
     var item = items[i]
     var s = item[1]
     if (s > 0) {
@@ -64,12 +64,12 @@ function addToCategory(sum, itemDesc, btc) {
 }
 
 function getCategory(itemDesc) {
-  var cat = "Any"
-  if (itemDesc != undefined && itemDesc.indexOf(" - ") > 0) {
-    const parts = itemDesc.split(" - ")
+  var cat = 'Any'
+  if (itemDesc != undefined && itemDesc.indexOf(' - ') > 0) {
+    const parts = itemDesc.split(' - ')
     cat = parts[parts.length - 1]
     if (sum[cat] == undefined) {
-      cat = "Any"
+      cat = 'Any'
     }
   }
   return cat
