@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 1.1
 binaries: https://mycelium.com/download/entropy/me-1.1.bin
-dimensions: [50.8, 15.24, 7.62]
+dimensions:
+- 51
+- 15
+- 7.6
 weight: 1
 provider: Mycelium
 providerWebsite: https://mycelium.com
@@ -27,8 +30,9 @@ signer:
 reviewArchive: 
 twitter: MyceliumCom
 social:
-  - https://www.linkedin.com/company/mycelium/about/
-  - https://www.facebook.com/myceliumcom
+- https://www.linkedin.com/company/mycelium/about/
+- https://www.facebook.com/myceliumcom
+
 ---
 
 **⚠️ Note:** Mycelium held an [indiegogo fundraiser](https://www.indiegogo.com/projects/mycelium-entropy#/updates/all) for the Entropy on October 30, 2014. They were able to raise $31,271 out of their target goal of $20,000. 

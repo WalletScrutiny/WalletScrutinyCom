@@ -1,5 +1,5 @@
 ---
-title: JAN7007IT (ebay seller) NFC Hardware Wallet 
+title: JAN7007IT (ebay seller) NFC Hardware Wallet
 appId: jan7007it.nfccard
 authors:
 - danny
@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: JAN7007IT
 providerWebsite: 
@@ -26,7 +26,8 @@ date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 ## Background 

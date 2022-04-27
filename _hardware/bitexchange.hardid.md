@@ -10,7 +10,9 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: Blockchain Labs / (Lightning ASIC Shenzhen Intelligent Company Limited) / Hong Kong BitExchange Co., Ltd.
+provider: >-
+  Blockchain Labs / (Lightning ASIC Shenzhen Intelligent Company Limited) / Hong
+  Kong BitExchange Co., Ltd.
 providerWebsite: 
 website: https://www.hardid.org/
 shop: https://www.lightningasic.com/product/Bitcoinminer/45.html
@@ -26,8 +28,9 @@ date: 2022-04-14
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - mailto:admin@lightningasic.com
+social:
+- mailto:admin@lightningasic.com
+
 ---
 
 ## Background 

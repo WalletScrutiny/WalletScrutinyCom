@@ -26,11 +26,13 @@ date: 2022-04-18
 signer: 
 reviewArchive: 
 twitter: Universa_News
-social: 
-  - https://medium.com/universablockchain
-  - https://www.youtube.com/c/UniversaBlockchain
-  - https://www.reddit.com/r/universa/
+social:
+- https://medium.com/universablockchain
+- https://www.youtube.com/c/UniversaBlockchain
+- https://www.reddit.com/r/universa/
+
 ---
+
 ## Background 
 
 On February 26, 2018, a Medium article announced the {{ page.title }} hardware wallet was available for pre-order. It claimed the device could support Bitcoin, ERC20 compatible tokens, and Universa tokens. It was meant to connect to the user's phone via Bluetooth and had an OLED display for confirming transactions.

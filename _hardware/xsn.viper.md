@@ -21,14 +21,15 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: vapor 
+verdict: vapor
 date: 2022-04-18
 signer: 
 reviewArchive: 
 twitter: TheHydranet
-social: 
-  - https://medium.com/stakenet
-  - https://www.reddit.com/r/StakeNet/
+social:
+- https://medium.com/stakenet
+- https://www.reddit.com/r/StakeNet/
+
 ---
 
 ## Background Information 

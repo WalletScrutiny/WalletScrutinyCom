@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Coinkite
 providerWebsite: https://coinkite.com/
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: TAPSIGNER
 social:
-  - https://www.facebook.com/CoinKite/
-  - https://www.linkedin.com/company/coinkite/
+- https://www.facebook.com/CoinKite/
+- https://www.linkedin.com/company/coinkite/
+
 ---
 
 ## Background 

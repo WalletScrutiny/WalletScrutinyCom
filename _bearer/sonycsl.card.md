@@ -1,5 +1,5 @@
 ---
-title: Sony CSL IC Card 
+title: Sony CSL IC Card
 appId: sonycsl.card
 authors:
 - danny
@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Sony Computer Science Laboratories, Inc.
 providerWebsite: 
@@ -26,7 +26,8 @@ date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 ## Background 

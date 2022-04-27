@@ -8,12 +8,13 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Lynx Art Collection
 providerWebsite: 
 website: https://lynxartcollection.com/
-shop: https://lynxartcollection.com/collections/crypto-wallets/products/financial-revolution-1-5-btc-bitcoin-metal-wallet-series-set-of-2-limited-to-100
+shop: >-
+  https://lynxartcollection.com/collections/crypto-wallets/products/financial-revolution-1-5-btc-bitcoin-metal-wallet-series-set-of-2-limited-to-100
 country: US
 price: 79USD
 repository: 
@@ -27,8 +28,9 @@ signer:
 reviewArchive: 
 twitter: LynxCollection
 social:
-  - https://www.facebook.com/lynxartcollection/
-  - https://www.instagram.com/lynxartcollection/?hl=en
+- https://www.facebook.com/lynxartcollection/
+- https://www.instagram.com/lynxartcollection/?hl=en
+
 ---
 
 **Note:** Some people stated that ["FrankBitcoin"](https://bitcointalk.org/index.php?topic=5305206.msg55980306#msg55980306), the original creator of lynxartcollection.com has left Lynx Art and that many of the items still listed on the site have already sold out. 

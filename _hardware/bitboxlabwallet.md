@@ -30,7 +30,6 @@ social:
 
 ---
 
-
 <div class="alertBox"><div>
 The product being advertised on the linked website is a fake product and likely doesn't exist.
 </div> </div>
