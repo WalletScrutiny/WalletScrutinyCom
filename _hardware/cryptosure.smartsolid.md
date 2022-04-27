@@ -44,8 +44,6 @@ Offline Crypto's CryptoSure Smart Solid is a device that supposedly can verify i
 - CryptoSure Physical Protection is much easier and higher-capacity than any alternative - try fiddling with hundreds of tiny little steel squares!
 - CryptoSure Physical Protection includes the Dremel tool so you can do much more.
 
-The main component looks like a Raspberry Pi 1.3, with some USB connectors. 
-
 Described: 
 
 > Crypto Verifier computer with the necessary software (Raspberry Pi Zero 1.3, with software), premium case, and power supply
