@@ -12,7 +12,7 @@ updated: 2022-04-11
 version: '1.26'
 stars: 4
 ratings: 7090
-reviews: 2334
+reviews: 2335
 size: 21M
 website: https://www.koinbazar.com/
 repository: 

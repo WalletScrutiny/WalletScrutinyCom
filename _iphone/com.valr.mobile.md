@@ -9,11 +9,11 @@ appId: com.valr.mobile
 appCountry: 
 idd: 1453499428
 released: 2019-09-27
-updated: 2022-04-19
-version: 1.0.46
+updated: 2022-04-26
+version: 1.0.47
 stars: 4.4
 reviews: 8
-size: '55940096'
+size: '58153984'
 website: https://www.valr.com
 repository: 
 issue: 

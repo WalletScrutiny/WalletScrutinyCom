@@ -12,7 +12,7 @@ updated: 2021-12-10
 version: 1.0.19
 stars: 4.9
 ratings: 849
-reviews: 54
+reviews: 55
 size: 49M
 website: https://nodawallet.com
 repository: https://github.com/nodawallet/NodaWallet-Android

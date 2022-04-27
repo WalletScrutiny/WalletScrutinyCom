@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-19
 updated: 2022-04-20
 version: 2.7.1
-stars: 4.4
+stars: 4.3
 ratings: 513
-reviews: 43
+reviews: 41
 size: 93M
 website: https://trastra.com/
 repository: 
