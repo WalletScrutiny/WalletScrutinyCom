@@ -25,7 +25,7 @@ icon: konai.cryptokona.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-07
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: 

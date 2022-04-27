@@ -22,7 +22,7 @@ icon: vault0x.wearable.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-07
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: vault0x

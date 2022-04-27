@@ -22,7 +22,7 @@ icon: trove.wearable.png
 bugbounty: 
 meta: obsolete
 verdict: noita
-date: 2022-04-08
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: layer_design

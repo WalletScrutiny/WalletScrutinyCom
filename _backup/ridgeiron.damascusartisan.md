@@ -22,7 +22,7 @@ icon: ridgeiron.damascusartisan.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2022-04-09
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: blockchainiron

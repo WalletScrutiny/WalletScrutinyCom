@@ -22,7 +22,7 @@ icon: kash.vault1.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-08
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: 

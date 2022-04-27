@@ -22,7 +22,7 @@ icon: cryptosure.smartsolid.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-04-08
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: offline_crypto

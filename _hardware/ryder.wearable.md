@@ -22,7 +22,7 @@ icon: ryder.wearable.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-08
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: Ryder_ID

@@ -25,7 +25,7 @@ icon: heyang.smartcard.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-04-06
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: 

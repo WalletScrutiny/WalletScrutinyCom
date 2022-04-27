@@ -22,7 +22,7 @@ icon: coinpass.bio.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-04
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: FEITIAN_Tech

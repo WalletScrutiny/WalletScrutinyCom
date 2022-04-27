@@ -22,7 +22,7 @@ icon: signatur.vault.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-06
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: SignaturCo

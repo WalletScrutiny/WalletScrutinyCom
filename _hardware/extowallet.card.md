@@ -22,7 +22,7 @@ icon: extowallet.card.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-06
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: Exto_Labs
