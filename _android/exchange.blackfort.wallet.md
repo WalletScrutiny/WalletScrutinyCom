@@ -10,7 +10,7 @@ appCountry: ee
 released: 2020-08-31
 updated: 2021-10-27
 version: 1.3.18
-stars: 4.2
+stars: 4.1
 ratings: 64
 reviews: 35
 size: 17M

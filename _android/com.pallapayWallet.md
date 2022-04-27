@@ -4,7 +4,7 @@ title: Pallapay Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.pallapayWallet
 appCountry: 
 released: 2021-10-06

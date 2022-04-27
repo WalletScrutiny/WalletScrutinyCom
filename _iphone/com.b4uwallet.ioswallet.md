@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-31
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: b4uwallet_b4u
@@ -28,6 +28,8 @@ social:
 - https://www.facebook.com/B4uwalletofficial
 
 ---
+
+**Update 2022-04-03**: This app is not available anymore.
 
 This app is not well advertised on how the users private keys are managed.
 At best this is a custodial wallet, we also note there is only One 1 star review on the [iphone app store page](https://apps.apple.com/us/app/b4u-wallet/id1491304459?ls=1).

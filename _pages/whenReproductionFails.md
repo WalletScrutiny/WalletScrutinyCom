@@ -53,8 +53,7 @@ we published it.
 
 As a beta tester, I got the update to a phone from Google Play, I used [this
 Filemanager](https://play.google.com/store/apps/details?id=com.alphainventor.filemanager)
-to "backup" the apk file, loaded it on my computer and ran the
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
+to "backup" the apk file, loaded it on my computer and ran the {% include testScript.html %}.
 
 To my very surprise, the output was:
 

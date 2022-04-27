@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.geekyants.fluttercryptocurrency.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-05
+date: 2022-04-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ubankfx.forex.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-16
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-09**: This app is not available anymore.
 
 ## App Description
 From Google Play:

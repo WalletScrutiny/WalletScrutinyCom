@@ -11,7 +11,7 @@ updated: 2020-08-11
 version: 1.0.0
 stars: 5
 ratings: 3899
-reviews: 117
+reviews: 116
 size: 17M
 website: https://asianbitcoins.org
 repository: 

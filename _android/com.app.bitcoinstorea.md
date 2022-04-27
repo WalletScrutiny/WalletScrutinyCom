@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Store
+title: Bitcoin Win - Scratch Bitcoin
 altTitle: 
 authors: 
 users: 100
@@ -16,7 +16,7 @@ size: 86M
 website: https://t91a3kzq.app-adstxt.dev/app-ads.txt
 repository: 
 issue: 
-icon: com.app.bitcoinstorea.png
+icon: com.app.bitcoinstorea.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers

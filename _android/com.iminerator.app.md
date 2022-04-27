@@ -1,6 +1,6 @@
 ---
 wsId: iMinerator
-title: iMinerator - Investments
+title: iMinerator - Invest & Bitcoin
 altTitle: 
 authors:
 - danny

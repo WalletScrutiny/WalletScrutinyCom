@@ -11,7 +11,7 @@ released: 2017-09-16
 updated: 2020-11-30
 version: 1.9.5
 stars: 4.6
-reviews: 2745
+reviews: 2744
 size: '63333376'
 website: https://evercoin.com
 repository: 

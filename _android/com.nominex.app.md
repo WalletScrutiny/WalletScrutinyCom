@@ -10,9 +10,9 @@ appCountry: ru
 released: 2021-06-01
 updated: 2021-12-13
 version: 1.4.0
-stars: 4
+stars: 3.8
 ratings: 173
-reviews: 30
+reviews: 33
 size: 57M
 website: https://nominex.io/defi-nmx
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Buy Trade Bitcoin App
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05

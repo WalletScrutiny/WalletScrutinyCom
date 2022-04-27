@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-01
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: bizz_coin
@@ -28,5 +28,7 @@ social:
 - https://www.facebook.com/BizzCoinOfficial
 
 ---
+
+**Update 2022-04-13**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

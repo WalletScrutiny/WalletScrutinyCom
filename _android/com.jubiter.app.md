@@ -9,12 +9,12 @@ users: 500
 appId: com.jubiter.app
 appCountry: 
 released: 2020-11-19
-updated: 2021-09-10
-version: 2.5.5
+updated: 2022-04-26
+version: 2.7.0
 stars: 
 ratings: 
 reviews: 
-size: 40M
+size: 41M
 website: http://www.jubiterwallet.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kraken - Buy Crypto & Bitcoin
+title: Kraken - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000000
 appId: com.kraken.invest.app
 appCountry: 
 released: 2020-12-30
-updated: 2022-03-29
-version: 1.17.0
+updated: 2022-04-19
+version: 1.18.1
 stars: 4.3
 ratings: 15716
-reviews: 1974
-size: 89M
+reviews: 1994
+size: 92M
 website: https://www.kraken.com
 repository: 
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.chiliz.broker.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-11
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: chiliz
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-01**: This app is not available anymore.
 
 > Chiliz Exchange is the official exchange app of the cryptocurrency company Chiliz in Europe. You can easily send your Bitcoin, Ethereum and many other cryptocurrencies in your secured wallet and then trade them.
 
