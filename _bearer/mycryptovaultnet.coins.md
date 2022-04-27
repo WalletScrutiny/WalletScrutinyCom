@@ -49,4 +49,4 @@ Similar to {% include walletLink.html wallet='bearer/casascius' verdict='true' %
 
 ## Analysis 
 
-Like most bearer tokens, printing the private keys on a piece of paper using an inkjet or some other printer requires a bit of nuance on the part of owner. While the metal coin might survive say, a fire, the paper component is problematic indeed. Once that has been overcome, the token would then have to brought on to another system or wallet in order for a transfer to commence. 
+Printing the private keys on a piece of paper requires a bit of nuance on the part of owner. While the metal coin might survive say, a fire, the paper component is problematic indeed. Once that has been overcome, the token would then have to be brought on to another system or wallet in order for a transfer to commence. 

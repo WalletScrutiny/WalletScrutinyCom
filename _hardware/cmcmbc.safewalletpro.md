@@ -21,7 +21,7 @@ issue:
 icon: coinplace.coinphone.png
 bugbounty: 
 meta: defunct
-verdict: plainkey
+verdict: noita
 date: 2022-04-11
 signer: 
 reviewArchive: 

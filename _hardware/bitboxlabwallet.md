@@ -42,7 +42,7 @@ The contents of the website is highly suspicious:
 - The video linked at the beginning of the homepage leads to [a Youtube video explaining how bitcoin works.](https://www.youtube.com/watch?v=bBC-nXj3Ng4) It is doubtful that this video has anything to do with that website.
 - Bitbox makes a false claim that it is "used by many customers from various regions of the world," as well as offering odd services, as seen here:
 
-> The reason behind that is BitBoxLab Wallet provides you full of secure futures such as generating new wallet, signing a transaction in an offline device (SmartCard), monitoring your transaction history and many more. In addition, you can also manage your multiple wallets using a simple user-friendly Wallet Web app.
+  > The reason behind that is BitBoxLab Wallet provides you full of secure futures such as generating new wallet, signing a transaction in an offline device (SmartCard), monitoring your transaction history and many more. In addition, you can also manage your multiple wallets using a simple user-friendly Wallet Web app.
 
 Clicking the link to the "Wallet Web app" does not lead you anywhere.
 

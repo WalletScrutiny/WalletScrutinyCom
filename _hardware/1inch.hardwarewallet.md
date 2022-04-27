@@ -31,7 +31,7 @@ social:
 
 ## Background Information
 
-The domain name and the twitter handle describes a generic sounding product: "hardware wallet". However, the rendering of the device bears the logo of 1inch - a DeFi aggregator platform. The project was announced on December 2021. 
+The domain name and the twitter handle describes a generic sounding product: "hardware wallet". However, the rendering of the device bears the logo of 1inch - a DeFi aggregator platform. The project was announced in December 2021. 
 
 ## Product Description 
 
@@ -55,5 +55,5 @@ He [replied:](https://twitter.com/alexey9kin/status/1515317235170131970)
 
 > Hey! The device is not yet for sale, but we are actively working. To date, we have completed testing of all hardware and software solutions, active work is underway to develop the firmware and device case.
 
- As this confirms that device is still in development, and because the project is relatively new, we can designate this project as **not yet released.**
+This confirms the device is **not yet released**.
 
