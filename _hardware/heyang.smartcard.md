@@ -24,7 +24,7 @@ issue:
 icon: heyang.smartcard.png
 bugbounty: 
 meta: ok
-verdict: nobtc
+verdict: nowallet
 date: 2022-04-06
 signer: 
 reviewArchive: 
@@ -81,4 +81,4 @@ As much as we believe that these cards could - based on their general descriptio
 
 > This is a hardware wallet, specifically a digital currency hardware wallet based on a dual-interface 1C card, and an instant peer-to-peer method using cryptocurrency using contactless technology.  
 
-Unless specifically mentioned, **we cannot assume that this hardware wallet is a bitcoin wallet**.
+The card does not come with any branding or programming, meaning that it is up to the clients to make these products into CBDC or BTC wallets or something else that is not a wallet. We conclude that this product is **not intended to serve as a bitcoin wallet**.

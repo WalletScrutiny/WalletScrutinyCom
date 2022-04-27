@@ -19,7 +19,7 @@ issue:
 icon: com.extolab.extowallet.jpg
 bugbounty: 
 meta: stale
-verdict: nonverifiable
+verdict: nosource
 date: 2022-04-06
 signer: 
 reviewArchive: 
