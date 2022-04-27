@@ -76,4 +76,4 @@ Adam replied:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I couldn&#39;t develop it safely (to the kind of high standards that I&#39;d expect for a hardware wallet) and ultimately had to give up on the project. There wasn&#39;t any useful code in the repo, so no great loss. I hope someone else is able to eventually offer this.</p>&mdash; Neatnik (@neatnikllc) <a href="https://twitter.com/neatnikllc/status/1512640391123722240?ref_src=twsrc%5Etfw">April 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-With that said, we still have to classify this project as **vaporware**.
+With that said, our initial impression got confirmed: this project is **vaporware**.

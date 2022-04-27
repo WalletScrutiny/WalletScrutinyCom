@@ -52,6 +52,6 @@ Described:
 
 ## Analysis 
 
-We do now know what is in the "necessary software". The project does not make any claim that it shares this software publicly. The only company we were able to find with the name CryptoSure is a Cannabis Insurance company based in Miami, Florida. 
+We do not know what is in the "necessary software". The project does not make any claim that it shares this software publicly. The only company we were able to find with the name CryptoSure is a Cannabis Insurance company. 
 
 To be clear, the **Smart Solid is not marketed as a wallet**. It's a "seed verifier" software on a Raspberry Pi 1.3.  

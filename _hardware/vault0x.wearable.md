@@ -36,7 +36,7 @@ social:
 
 Announced on [January 22, 2018](https://www.facebook.com/vault0x/posts/1637873636291765?__cft__[0]=AZVZBb2l4SHXTf5du2EwROQX4BXihpReJQjvKb2gSsF4ojgsEF6tpDzr-lupLY7QqRNB5TnKgMq3GuTvo7fC6LmtIMmXtjtiY-7x6X-S9VtMZwhIrn5j03XeOK1GJ5YbEB3Tlkh64J9bQm-exfth4iMYHuFwm-cW6G4y0vdwqSE4eQ&__tn__=%2CO%2CP-R), the Vault0x website is no longer accessible but can still be accessed via [archive.org](https://web.archive.org/web/20180921024302/http://vault0x.io/). 
 
-At the time of their promotion, they claim that the watch is made of aluminum and **"gold-played USB connection with a polycarbonate body and silicone straps."**
+At the time of their promotion, they claim that the watch is made of aluminum and **"gold plated USB connection endpoint with a polycarbonate body and silicone straps."**
 
 They also promised a "hybrid" crypto wallet where users "maintain full control over their private keys".
 

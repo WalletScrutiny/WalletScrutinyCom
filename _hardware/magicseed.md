@@ -32,9 +32,7 @@ social:
 
 ---
 
-## Product Description 
-
-Here is a description of the product from [a third-party website.](https://cryptoage.com/en/1886-magic-seed-encrypted-storage-of-seed-phrases-from-crypto-wallets.html)
+## Product Description from [a third-party website](https://cryptoage.com/en/1886-magic-seed-encrypted-storage-of-seed-phrases-from-crypto-wallets.html)
 
 > Seed phrase is a set of randomly selected words, with the help of which you can restore access to today's cryptowallets. The number of words can be from 10 or more, so remembering these words and their order is quite problematic. Because of this, the seed phrase is usually duplicated on paper or a text document. This approach solves the problem of remembering complex seed phrases, but at the same time, the chance of losing control of your cryptocurrency savings under various external influences increases for reasons independent of you. To maximize the storage of seed phrases, MagicSeed is developing a device with the same name that will store your Seed phrases in encrypted form.
 >
@@ -59,6 +57,6 @@ We viewed the [IndieGogo page](https://www.indiegogo.com/projects/magicseed#/) a
 
 Here is an [archived version of the website](https://web.archive.org/web/20210123192104/https://magicseed.io/) from 2019. {{ page.title }} was promoted as an *upcoming product,* with the website also saying that pre-order would soon be available on IndieGogo.
 
-As of today, this website does not load. [Isitdownrightnow.com](https://www.isitdownrightnow.com/magicseed.io.html) confirmed that the main website's servers are not responding.
+As of today, this website does not exist anymore.
 
 This gives us reason to conclude that as the wallet's production has been cancelled, it is qualifiable as **vaporware.**

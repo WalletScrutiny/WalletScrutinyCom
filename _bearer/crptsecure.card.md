@@ -33,15 +33,15 @@ social:
 
 ## Product/Service Description 
 
-Founded by [Matthew Wilson](https://twitter.com/crptsecure), CRPT secure is a service with a patent pending application (Patent Application No. 2021/06363) that stores seed phrases in a "secure way". The seed phrases are printed on "quality paper". The subscription service is divided into tiers. It costs $6 a month. 
+Founded by Matthew Wilson, CRPT secure is a service with a "Patent Application Pending No. 2021/06363" that stores seed phrases in a "secure way". The seed phrases are printed on "quality paper". The subscription service is divided into tiers. It costs $6 a month. 
 
-> Personal Touch
+> Personal Touch<br>
 > Have a member of the CRPTsecure team guide you through every step of securing your seeds with our premium offering.
 >
-> Physical Offline Storage
+> Physical Offline Storage<br>
 > Stored physically offline with no online record, providing the safest offline security. It’s not online, absolute peace of mind from hacking attempts.
 >
-> Pin Tab
+> Pin Tab<br>
 > Pin-Tab technology to encrypt your seeds, printed on quality paper in stored in quality embossed envelopes.
 
 The [Terms and Conditions](https://www.crptsecure.com/terms-and-conditions/) are generally geared towards the payment details between CRPT Secure SA (Proprietary) Limited and the user. 

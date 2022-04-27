@@ -40,7 +40,8 @@ social:
 >
 > It currently features new wallet generation in hardware, recovery via seed input, identity selection, and more. To be compatible with the current authentication flow, it still exports the app private key, but this is merely a temporary measure to guarantee compatibility. The prototype is fully functional and can be used today. 
 
-Marvin Janssen is the co-founder of Ryder. He envisions Ryder to be part of a "[hardware identity keychain.](https://marvinjanssen.medium.com/beyond-the-private-key-building-a-blockstack-hardware-identity-keychain-46418d90efd2)". This schema is further discussed in this [diagram.](https://miro.medium.com/max/1400/1*aeVwQDXHvnGQh6F2rN9fpw.png) 
+Marvin Janssen is the co-founder of Ryder. He envisions Ryder to be part of a "[hardware identity keychain.](https://marvinjanssen.medium.com/beyond-the-private-key-building-a-blockstack-hardware-identity-keychain-46418d90efd2)". This schema is further discussed in this diagram:
+![](https://miro.medium.com/max/1400/1*aeVwQDXHvnGQh6F2rN9fpw.png) 
 
 Ryder [received a grant of 5,000 USD from the Stacks Foundation](https://www.youtube.com/watch?v=bDuDW--LIr8) in 2021. It is in this video where they stated that they incorporated in Singapore.
 
@@ -60,11 +61,11 @@ As of April 8, 2022, Ryder is currently holding a pre-sale for Ryder NFTs. The N
 >
 > There are seven Ryder NFT pledger tiers. Each comes with benefits and incentives packages as a thank you to our early supporters. Additionally, each tier comes with its unique rewards. Of course, the higher the tier, the better the reward.
 
-The "basic" tier costs 50 STX. [1 STX costs roughly 1.27 USD as of today](https://coinmarketcap.com/currencies/stacks/). STX is currently trading in Binance.
+The "basic" tier costs 50 STX. [1 STX costs roughly 1.27 USD as of 2022-04-08](https://coinmarketcap.com/currencies/stacks/). STX is currently trading in Binance.
 
 Many of the specifics for the project - which encompasses not just the hardware wallet but other things as well, are discussed more thoroughly on their discord channel: 
 
-> louise nakamoto — 11/18/2021
+> louise nakamoto — 11/18/2021<br>
 @here another update for the maker community, in terms of manufacturing and where we are at. The general strategy is to work with a design house to deliver the 1st version of Ryder. We finished the commercial specification doc and from this document, the Technical Consultant will create a technical specification which he is currently doing. In this technical doc, we will describe the device functionality and pre-select device components which will be forwarded to the Design House as the preliminary technical vision. Shoutout to @bongbong for sending some choices on this. 
 > 
 > Before we move forward to the design house, we're still ironing out the following together with the technical consultant
