@@ -21,7 +21,7 @@ issue:
 icon: jan7007it.nfccard.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: noita
 date: 2022-04-12
 signer: 
 reviewArchive: 

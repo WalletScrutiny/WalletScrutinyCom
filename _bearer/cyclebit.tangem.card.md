@@ -49,4 +49,4 @@ It can be paired with the Cycle Wallet which is available in [Android](https://p
 
 ## Analysis 
 
-This is a Tangem branded offering which can be used by retailers together with [Cyclebit's point of sale](https://www.cyclebit.io/pos) solution. Similarly, **the card does not have a display or an interface.** 
+This is a Tangem branded offering which can be used by retailers together with [Cyclebit's point of sale](https://www.cyclebit.io/pos) solution. Just like other Tangem products listed above, **the card does not have a display or an interface.** 

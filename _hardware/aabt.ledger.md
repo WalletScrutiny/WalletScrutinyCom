@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2022-04-18
 signer: 

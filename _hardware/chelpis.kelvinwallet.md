@@ -1,6 +1,6 @@
 ---
 title: Chelpis Kelvin Wallet
-appId: checlpis.kelvinwallet
+appId: chelpis.kelvinwallet
 authors:
 - danny
 released: 

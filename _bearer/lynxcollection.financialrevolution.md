@@ -55,4 +55,4 @@ More like collector's items, these metal cards do not have funds or keys loaded 
 
 ## Analysis 
 
-Since the user can generate his own keys using another device which are then printed on a piece of paper to be stuck on the metal cards, the risk that we see here is with the **printing device the user uses to print** on the paper. 
+Since the user can generate his own keys using another device which are then printed on a piece of paper to be stuck on the metal cards, the risk that we see here is with the **printing system** (pc, network if network printer, printer itself if harddrive integrated) leaking the keys at creation or the keys being leaked upon later use for spending. 
