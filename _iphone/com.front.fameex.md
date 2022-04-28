@@ -11,7 +11,7 @@ released: 2021-05-16
 updated: 2022-04-25
 version: 2.11.2
 stars: 5
-reviews: 2
+reviews: 1
 size: '174411776'
 website: https://www.fameex.com
 repository: 

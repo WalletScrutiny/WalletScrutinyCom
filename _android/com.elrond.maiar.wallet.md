@@ -12,7 +12,7 @@ updated: 2022-04-26
 version: 1.4.35
 stars: 4
 ratings: 6106
-reviews: 142
+reviews: 143
 size: 91M
 website: https://maiar.com/
 repository: 

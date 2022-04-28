@@ -11,7 +11,7 @@ released: 2018-11-12
 updated: 2021-09-13
 version: 4.8.6
 stars: 3.3
-reviews: 47
+reviews: 46
 size: '115953664'
 website: https://www.coinbene.com/
 repository: 

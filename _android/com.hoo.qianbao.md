@@ -12,7 +12,7 @@ updated: 2022-04-26
 version: 4.7.61
 stars: 3.9
 ratings: 749
-reviews: 71
+reviews: 72
 size: 47M
 website: https://hoo.com
 repository: 
