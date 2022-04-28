@@ -3,13 +3,13 @@ const btcpay = require('btcpay')
 const fs = require('fs')
 
 const key = process.argv[2]
-if (key == undefined) {
+if (key === undefined) {
   console.error('No key provided. Skipping Donations update.')
   exit(1)
 }
 
-const keypair = btcpay.crypto.load_keypair(new Buffer.from(key, 'hex'))
-const client = new btcpay.BTCPayClient('https://pos.btcpay.nz', keypair, {merchant: 'EHan8qV5JseDSNWtTJeaNFeG3xes9CDSq3bMfmwehcJE'})
+const keypair = btcpay.crypto.load_keypair(Buffer.from(key, 'hex'))
+const client = new btcpay.BTCPayClient('https://pos.btcpay.nz', keypair, { merchant: 'EHan8qV5JseDSNWtTJeaNFeG3xes9CDSq3bMfmwehcJE' })
 const path = '_includes/donationSummary.html'
 const file = fs.createWriteStream(path)
 const sum = {
@@ -24,7 +24,7 @@ const sum = {
   NonWalletApps: 0
 }
 
-client.get_invoices({status: 'complete'}).then( invoices => {
+client.get_invoices({ status: 'complete' }).then(invoices => {
   const historyCount = 20
   file.write(`<h3>${historyCount} most recent donations</h3>
 <table>
@@ -34,7 +34,7 @@ client.get_invoices({status: 'complete'}).then( invoices => {
     const date = new Date(invoice.invoiceTime)
     file.write(`<tr><td><span title='${date.toLocaleDateString()}' class='calculate-time-elapsed' data='${date.valueOf() / 1000}'>${date.toLocaleDateString()}</span></td><td>${getPrettyAmount(getAmount(invoice))}</td><td>${getCategory(invoice.itemDesc)}</td></tr>\n`)
   })
-  file.write(`<tr><td>...</td><td>...</td><td>...</td></tr>\n</table>\n`)
+  file.write('<tr><td>...</td><td>...</td><td>...</td></tr>\n</table>\n')
   invoices.forEach(invoice => {
     addToCategory(sum, invoice.itemDesc, getAmount(invoice))
   })
@@ -59,40 +59,40 @@ client.get_invoices({status: 'complete'}).then( invoices => {
 </table>`)
 }).catch(console.error)
 
-function addToCategory(sum, itemDesc, btc) {
+function addToCategory (sum, itemDesc, btc) {
   sum[getCategory(itemDesc)] += btc
 }
 
-function getCategory(itemDesc) {
+function getCategory (itemDesc) {
   var cat = 'Any'
-  if (itemDesc != undefined && itemDesc.indexOf(' - ') > 0) {
+  if (itemDesc !== undefined && itemDesc.indexOf(' - ') > 0) {
     const parts = itemDesc.split(' - ')
     cat = parts[parts.length - 1]
-    if (sum[cat] == undefined) {
+    if (sum[cat] === undefined) {
       cat = 'Any'
     }
   }
   return cat
 }
 
-function getAmount(invoice) {
+function getAmount (invoice) {
   var btc = 0
-  invoice.cryptoInfo.forEach(ci =>
+  invoice.cryptoInfo.forEach(ci => {
     btc += Number(ci.cryptoPaid)
-  )
+  })
   return btc
 }
 
-function getPrettyAmount(amount) {
+function getPrettyAmount (amount) {
   var multiplier, symbol
   amount = Number(amount.toPrecision(2))
   if (amount > 1) {
     multiplier = 1
     symbol = 'BTC'
-  } else if (amount > .001) {
+  } else if (amount > 0.001) {
     multiplier = 1_000
     symbol = 'mBTC'
-  } else if (amount > .000_001) {
+  } else if (amount > 0.000_001) {
     multiplier = 1_000_000
     symbol = 'µBTC'
   } else {
