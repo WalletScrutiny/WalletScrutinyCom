@@ -33,7 +33,7 @@ social:
 
 ## Background 
 
-{{ page.title }} is an unreleased product coming from the same providers as {% include walletLink.html wallet='bearer/coinkite.satscard' verdict=0 %}. Unlike the SATSCARD, which is a bearer token, the TAPSIGNER is a hardware wallet that holds the user's private keys.
+{{ page.title }} is an unreleased product coming from the same providers as {% include walletLink.html wallet='bearer/coinkite.satscard' verdict=0 %}. 
 
 ## Product [FAQ](https://tapsigner.com/faq)
 
