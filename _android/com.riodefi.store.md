@@ -1,6 +1,6 @@
 ---
 wsId: RioWallet
-title: 'RioWallet: Web 3 Crypto Wallet'
+title: 'RioWallet: Web3 Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.riodefi.store
 appCountry: us
 released: 2021-04-29
-updated: 2022-03-31
-version: 2.6.1
+updated: 2022-04-20
+version: 2.7.0
 stars: 
 ratings: 
 reviews: 

@@ -12,16 +12,16 @@ updated: 2021-04-29
 version: 3.0.0.0
 stars: 4.9
 ratings: 474
-reviews: 15
+reviews: 16
 size: 2.6M
 website: http://exchange.cryptex.net/
 repository: 
 issue: 
 icon: net.cryptex.exchange.twa.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2022-03-20
 version: 1.0.86
 stars: 3.9
 ratings: 275
-reviews: 15
+reviews: 16
 size: 35M
 website: https://bitnob.com
 repository: 

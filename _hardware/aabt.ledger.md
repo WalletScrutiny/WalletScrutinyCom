@@ -27,7 +27,9 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
+
 ## Background
 
 Information on this wallet is taken from a single blogpost written in 2017. Online, we found no other results for "AABT X1."

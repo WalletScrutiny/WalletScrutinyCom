@@ -4,7 +4,7 @@ title: KapitalRS Pro Trader
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.kapitalrs.pro
 appCountry: 
 released: 2017-02-07

@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Cryptnox SA
 providerWebsite: 
@@ -26,7 +26,8 @@ date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: cryptnox
-social:
+social: 
+
 ---
 
 ## Background 

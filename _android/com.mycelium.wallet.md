@@ -220,8 +220,7 @@ redirect_from:
 * [2019-12-17 by Andreas Schildbach for v3.2.0.11](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566489272)
 
 Here we test if the latest version also can be reproduced, following the known
-procedure expressed in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh):
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====

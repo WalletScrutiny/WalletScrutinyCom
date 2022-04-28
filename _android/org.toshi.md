@@ -1,6 +1,6 @@
 ---
 wsId: CoinbaseWallet
-title: Coinbase Wallet - Store Crypto
+title: 'Coinbase Wallet: NFTs & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2022-04-14
-version: 26.7.427
-stars: 3.8
+updated: 2022-04-19
+version: 26.8.431
+stars: 3.4
 ratings: 38828
-reviews: 8640
+reviews: 8754
 size: Varies with device
 website: https://wallet.coinbase.com/
 repository: 

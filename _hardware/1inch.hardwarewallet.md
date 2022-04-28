@@ -21,12 +21,13 @@ issue:
 icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased 
+verdict: unreleased
 date: 2022-04-16
 signer: 
 reviewArchive: 
 twitter: hard_wallet_
 social: 
+
 ---
 
 ## Background Information

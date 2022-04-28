@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bixin.bixin_android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-04
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: BixinWallet
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-16**: This app is not available anymore.
 
 ## App Description
 

@@ -11,7 +11,7 @@ released: 2018-09-23
 updated: 2022-04-06
 version: v5.14.0
 stars: 3.6
-reviews: 106
+reviews: 109
 size: '66288640'
 website: https://zelcore.io
 repository: 

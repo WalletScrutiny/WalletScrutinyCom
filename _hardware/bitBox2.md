@@ -5,8 +5,8 @@ authors:
 - leo
 released: 
 discontinued: 
-updated: 2022-01-12
-version: 9.9.0
+updated: 2022-03-10
+version: 9.10.0
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -20,14 +20,19 @@ shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
 price: 119EUR
 repository: https://github.com/digitalbitbox/bitbox02-firmware
-issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/762
+issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/901
 icon: bitBox2.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2022-02-17
+verdict: nonverifiable
+date: 2022-04-22
 signer: 
 reviewArchive:
+- date: 2022-02-17
+  version: 9.9.0
+  appHash: 93d8e89f6edc7813a34901395a13291a3435bbc21c146e177f77c85095fc1311
+  gitRevision: 49009f7ec76dd42f6117772298d5150bbbe4d3c5
+  verdict: reproducible
 - date: 2021-12-01
   version: 9.8.0
   appHash: 51e584b61eaff83fe9e538c0fd47c617c686cd6da1a501acc33f12dab37f627a
@@ -51,19 +56,45 @@ social:
 
 ---
 
-We wrapped the findings from prior reviews in a
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/bitBox2.sh)
+**Update 2022-01-22**: The
+[provider's reply to our issue](https://github.com/digitalbitbox/bitbox02-firmware/issues/901#issuecomment-1101263747)
+indicates they are not inclined to fix reproducibility for this version and point
+to [this GitHub account](https://github.com/cstenglein) that approved
+reproducibility at the time of the original release. As we do not know this
+account, we recommend people who don't know them neither to not use this version
+and wait for a future release that probably will be reproducible again.
+
+<hl>
+
+We wrapped the findings from prior reviews in a {% include testScript.html %}
 which gave us these results:
 
 ```
-$ scripts/test/hardware/bitBox2.sh 9.8.0
+$ scripts/test/hardware/bitBox2.sh 9.10.0
 ...
 Hashes of
-signed download             93d8e89f6edc7813a34901395a13291a3435bbc21c146e177f77c85095fc1311  firmware-btc.v9.9.0.signed.bin
-signed download minus sig.  7bfb6b8e118afd320138dfa7d09d453c73bbab4420caee361dc86a7a7a3ef16e  p_firmware.bin
-built binary                7bfb6b8e118afd320138dfa7d09d453c73bbab4420caee361dc86a7a7a3ef16e  temp/build/bin/firmware-btc.bin
-firmware as shown in device 3dced69e6fbad587772d26f4ac72c942001466e5a60fb0b8ff5da61798f3226e
+signed download             e3cf692d4ef288f27f22af2413acd9a43aa0ee445f83729f7b6c1fce55443293  firmware-btc.v9.10.0.signed.bin
+signed download minus sig.  03b4f1c845fbb221109684163d1bd6d3b558b446e283d3217867f76074ef8745  p_firmware.bin
+built binary                cd8dc14824a99c7b85be06787562238c5e9330becfa49569352500b385a81611  temp/build/bin/firmware-btc.bin
+firmware as shown in device f2a3c20ee64147cff85c5a66e8a466bf9c98de2ea281b8211ce6788ec70a81cb
                             (The latter is a double sha256 over version, firmware and padding)
 ```
 
-So, the result looks good. The tested firmware is **reproducible**.
+This does not look good. The second and third hash should be the same. Diffing
+the respective files using `diffoscope ~/wsTest/bitbox02-firmware/{temp/build/bin/firmware-btc.bin,p_firmware.bin}` yields binary differences all over the place.
+
+The build instructions don't look like they changed substantially:
+
+```
+$ git diff firmware-btc-only/v9.9.0 firmware-btc-only/v9.10.0 BUILD.md
+diff --git a/BUILD.md b/BUILD.md
+index c699881c..bbbd065a 100644
+--- a/BUILD.md
++++ b/BUILD.md
+@@ -175,6 +175,9 @@ Then you can run the tests by executing
++Rust unit tests, if not invoked via `make run-rust-unit-tests`, must be run with
++`-- --test-threads 1` due to unsafe concurrent access to `SafeData`, `mock_sd()` and `mock_memory()`.
++
+```
+
+This version is **not verifiable**.

@@ -9,11 +9,11 @@ appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19
 updated: 2022-04-12
-version: 3.5.1
+version: 4.0.0
 stars: 4.1
 ratings: 645
 reviews: 7
-size: 52M
+size: 59M
 website: https://maicoin.com
 repository: 
 issue: 

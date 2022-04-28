@@ -8,7 +8,7 @@ discontinued: 2019-03-09
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: MyCryptoVault
 providerWebsite: 
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: myCryptoVAULTne
 social:
-  - https://www.facebook.com/Crypto-Vault-1607275746177425/
+- https://www.facebook.com/Crypto-Vault-1607275746177425/
+
 ---
 
 ## Background 

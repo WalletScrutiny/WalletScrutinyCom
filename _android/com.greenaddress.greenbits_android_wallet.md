@@ -8,12 +8,12 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2022-02-23
-version: 3.7.9
+updated: 2022-04-19
+version: 3.8.0
 stars: 3.8
 ratings: 946
-reviews: 96
-size: 80M
+reviews: 97
+size: 81M
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
 issue: https://github.com/Blockstream/green_android/issues/124
@@ -181,9 +181,7 @@ redirect_from:
 
 ---
 
-With
-[this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-we get:
+With this {% include testScript.html %} we get:
 
 ```
 ===== Begin Results =====

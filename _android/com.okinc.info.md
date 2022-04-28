@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.okinc.info.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,7 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-01**: This app is not available anymore.
+
 

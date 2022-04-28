@@ -21,12 +21,13 @@ issue:
 icon: goldexplus.cards.png
 bugbounty: 
 meta: ok
-verdict: nobtc 
+verdict: nobtc
 date: 2022-04-18
 signer: 
 reviewArchive: 
 twitter: GoldexPlus
 social: 
+
 ---
 
 ## Background Information 

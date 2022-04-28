@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [190, 80, 69.8]
+dimensions:
+- 190
+- 80
+- 70
 weight: 480
 provider: CycleBit
 providerWebsite: 
@@ -27,10 +30,10 @@ signer:
 reviewArchive: 
 twitter: Cycle_bit
 social:
-  - https://www.facebook.com/hellocyclebit
-  - https://medium.com/@cyclebit
-  - https://www.instagram.com/cyclebit/
-  - https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
+- https://www.facebook.com/hellocyclebit
+- https://medium.com/@cyclebit
+- https://www.instagram.com/cyclebit/
+- https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
 
 ---
 

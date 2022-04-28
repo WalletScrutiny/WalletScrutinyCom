@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yiancoin.app.gp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-10-18
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-01**: This app is not available anymore.
 

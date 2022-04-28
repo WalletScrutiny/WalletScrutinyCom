@@ -11,7 +11,7 @@ released: 2019-07-25
 updated: 2022-04-12
 version: 4.1.0
 stars: 4.7
-reviews: 224
+reviews: 226
 size: '46631936'
 website: https://www.youhodler.com/
 repository: 

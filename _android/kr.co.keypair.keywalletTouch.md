@@ -13,7 +13,7 @@ updated: 2022-01-09
 version: Varies with device
 stars: 4.5
 ratings: 109
-reviews: 10
+reviews: 11
 size: Varies with device
 website: http://keywalletpro.io
 repository: 

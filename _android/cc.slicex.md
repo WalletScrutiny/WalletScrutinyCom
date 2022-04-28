@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cc.slicex.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-10-30
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-07**: This app is not available anymore.
 

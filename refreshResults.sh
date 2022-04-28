@@ -29,3 +29,17 @@ echo "Apps that now have more users ..."
 echo "... than yesterday:  $( moreSince 'one.days.ago' )"
 echo "... than last week:  $( moreSince 'one.weeks.ago' )"
 echo "... than last month: $( moreSince 'one.months.ago' )"
+
+# poking around to verify that script runs actually do update all relevant apps.
+# as of today it all looks correct, with only fewusers apps not changing
+# in five weeks, while the last structural change affecting all android/iphone
+# was during the week prior.
+function unchangedSince {
+  echo "Unchanged since $1: " $( ( grep -l "meta: ok" `git diff --name-only @{$1} _android/ _iphone/ | grep ".md"` ; grep -l "meta: ok" `find _android/ _iphone/ | grep ".md"` ) | sort | uniq -u | wc -l )
+}
+unchangedSince 'one.days.ago'
+unchangedSince 'four.days.ago'
+unchangedSince 'two.weeks.ago'
+unchangedSince 'four.weeks.ago'
+unchangedSince 'five.weeks.ago'
+unchangedSince 'six.weeks.ago'

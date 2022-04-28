@@ -8,12 +8,13 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: SpartaCard Pty.
 providerWebsite: 
 website: https://web.archive.org/web/20180625114658/https://www.spartacard.com/
-shop: https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardware-wallet#/
+shop: >-
+  https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardware-wallet#/
 country: AU
 price: 99USD
 repository: 
@@ -27,8 +28,9 @@ signer:
 reviewArchive: 
 twitter: TheSpartaCard
 social:
-  - https://www.linkedin.com/company/spartacard
-  - https://www.facebook.com/TheSpartaCard
+- https://www.linkedin.com/company/spartacard
+- https://www.facebook.com/TheSpartaCard
+
 ---
 
 ## Product Description

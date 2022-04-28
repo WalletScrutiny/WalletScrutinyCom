@@ -158,9 +158,7 @@ redirect_from:
 
 ---
 
-We ran our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh)
-which delivered these results:
+We ran our {% include testScript.html %} which delivered these results:
 
 ```
 ===== Begin Results =====

@@ -4,7 +4,7 @@ title: Bitcoin Exchange P2P
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.alsoft.bitcoinlocal
 appCountry: 
 released: 2018-02-15

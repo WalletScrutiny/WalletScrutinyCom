@@ -79,9 +79,7 @@ redirect_from:
 
 ---
 
-Here is the output using our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/master/test.sh)
-on the binary from Google Play:
+Here is the output using our {% include testScript.html %} on the binary from Google Play:
 
 ```
 ===== Begin Results =====

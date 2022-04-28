@@ -4,7 +4,7 @@ title: Bitwells - Easy Bitcoin/Crypto Futures Trading
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitwells.android
 appCountry: us
 released: 2021-05-17

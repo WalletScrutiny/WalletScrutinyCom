@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [85.60, 45, 0.80]
+dimensions:
+- 86
+- 45
+- 0.8
 weight: 
 provider: CycleBit, Tangem
 providerWebsite: https://shop.tangem.com/
@@ -27,10 +30,10 @@ signer:
 reviewArchive: 
 twitter: Cycle_bit
 social:
-  - https://www.facebook.com/hellocyclebit
-  - https://medium.com/@cyclebit
-  - https://www.instagram.com/cyclebit/
-  - https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
+- https://www.facebook.com/hellocyclebit
+- https://medium.com/@cyclebit
+- https://www.instagram.com/cyclebit/
+- https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
 
 ---
 

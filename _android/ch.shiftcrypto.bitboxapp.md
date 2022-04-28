@@ -7,8 +7,8 @@ users: 5000
 appId: ch.shiftcrypto.bitboxapp
 appCountry: 
 released: 2020-07-13
-updated: 2022-03-16
-version: android-4.32.0
+updated: 2022-04-21
+version: android-4.32.1
 stars: 4.4
 ratings: 83
 reviews: 3

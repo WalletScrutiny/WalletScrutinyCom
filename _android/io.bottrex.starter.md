@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bottrex - Cryptocurrency trading bot
+title: Bottrex - Crypto Trading Bot
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: io.bottrex.starter
 appCountry: 
 released: 2019-05-20
-updated: 2022-04-08
-version: 0.5.5
+updated: 2022-04-19
+version: 0.5.6
 stars: 
 ratings: 
 reviews: 
-size: 8.9M
+size: 9.3M
 website: https://bottrex.net
 repository: 
 issue: 
