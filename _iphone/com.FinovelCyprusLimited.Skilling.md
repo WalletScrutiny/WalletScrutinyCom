@@ -1,6 +1,6 @@
 ---
 wsId: Skilling
-title: 'Skilling: Trade Forex & Stocks'
+title: 'Skilling: Invest Forex & Trade'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 idd: 1441386723
 released: 2019-05-30
-updated: 2022-03-19
-version: 1.0.38
+updated: 2022-04-27
+version: 1.0.44
 stars: 5
 reviews: 6
 size: '16517120'

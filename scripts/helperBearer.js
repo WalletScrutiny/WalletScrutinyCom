@@ -2,7 +2,6 @@ process.env.TZ = 'UTC' // fix timezone issues
 
 const fs = require('fs')
 const path = require('path')
-const yaml = require('js-yaml')
 const helper = require('./helper.js')
 
 const stats = {
@@ -11,13 +10,14 @@ const stats = {
   remaining: 0
 }
 
-const folder = "_bearer/"
-const headers = ("title appId authors released discontinued updated version " +
-                "binaries dimensions weight provider providerWebsite website " +
-                "shop country price repository issue icon bugbounty meta " +
-                "verdict date signer reviewArchive twitter social").split(" ")
+const category = 'bearer'
+const folder = `_${category}/`
+const headers = ('title appId authors released discontinued updated version ' +
+                'binaries dimensions weight provider providerWebsite website ' +
+                'shop country price repository issue icon bugbounty meta ' +
+                'verdict date signer reviewArchive twitter social').split(' ')
 
-async function refreshAll() {
+async function refreshAll () {
   fs.readdir(folder, async (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
@@ -25,32 +25,24 @@ async function refreshAll() {
     }
     console.log(`Updating ${files.length} 🗃 files ...`)
     stats.remaining = files.length
-    files.forEach((file, index) => {
-      refreshFile(file)
-    })
+    files.forEach(file => { refreshFile(file) })
   })
 }
 
 // TODO: this is Play Store stuff ...
-function refreshFile(fileName, content) {
-  if (content == undefined) {
-    content = {header: helper.getEmptyHeader(headers), body: undefined}
+function refreshFile (fileName, content) {
+  if (content === undefined) {
+    content = { header: helper.getEmptyHeader(headers), body: undefined }
     helper.loadFromFile(path.join(folder, fileName), content)
   }
   const header = content.header
-  const body = content.body
-  const appId = header.appId
-  const appCountry = header.appCountry || "us"
   helper.checkHeaderKeys(header, headers)
 }
 
-function migrateAll(migration) {
-  helper.migrateAll(folder, migration, headers)
-}
-
 module.exports = {
+  category,
+  headers,
   refreshAll,
   refreshFile,
-  stats,
-  migrateAll
+  stats
 }

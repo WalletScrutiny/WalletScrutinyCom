@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-21
 updated: 2022-04-18
 version: 2.3.0
-stars: 4.1
+stars: 4.2
 ratings: 2656
-reviews: 161
+reviews: 162
 size: 172M
 website: https://www.whalefin.com
 repository: 

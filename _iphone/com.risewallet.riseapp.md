@@ -11,7 +11,7 @@ released: 2019-03-12
 updated: 2022-04-20
 version: 1.7.0
 stars: 4.7
-reviews: 30
+reviews: 31
 size: '28577792'
 website: https://wellwallet.ca/
 repository: 
