@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: defunct
 verdict: fake
-date: 2022-04-16
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 

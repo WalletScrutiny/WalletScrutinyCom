@@ -25,7 +25,7 @@ icon: mycelium.entropy.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: MyceliumCom

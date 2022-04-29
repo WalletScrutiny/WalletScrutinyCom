@@ -23,7 +23,7 @@ icon: spartacard.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-12
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: TheSpartaCard

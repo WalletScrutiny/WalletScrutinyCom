@@ -22,7 +22,7 @@ icon: mycryptovaultnet.coins.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-04-12
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: myCryptoVAULTne

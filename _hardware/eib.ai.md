@@ -22,7 +22,7 @@ icon: eib.ai.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: EIB_Exchange

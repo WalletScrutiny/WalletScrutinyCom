@@ -22,7 +22,7 @@ icon: inigma.card.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 

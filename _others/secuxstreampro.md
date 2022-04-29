@@ -22,7 +22,7 @@ icon: secuxstreampro.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-04-16
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: SecuXwallet

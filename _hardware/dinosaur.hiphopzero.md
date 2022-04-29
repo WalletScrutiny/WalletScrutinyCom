@@ -23,7 +23,7 @@ icon: dinosaur.hiphopzero.png
 bugbounty: 
 meta: obsolete
 verdict: diy
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: __gbg__

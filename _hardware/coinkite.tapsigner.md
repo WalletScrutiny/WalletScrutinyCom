@@ -22,7 +22,7 @@ icon: coinkite.tapsigner.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-16
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: TAPSIGNER

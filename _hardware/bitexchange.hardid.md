@@ -24,7 +24,7 @@ icon: bitexchange.hardid.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-04-14
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 

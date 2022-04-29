@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-18
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: TheHydranet
