@@ -34,9 +34,9 @@ social:
 
 It was initially announced on July 11, 2018 through [BitcoinTalk](https://bitcointalk.org/index.php?topic=4641751.0). {{ page.title }}'s PDF specifications file can still be accessed via [archive.org](https://web.archive.org/web/20180822211510/https://bitlock.io/files/BitLock.pdf). The Bitlock was co-developed by Senselock Software Technology Co., Ltd, Seculab., LTD UAB Seculab-Europe, and Delerex Pte. Ltd. 
 
-The website for [bitlock is currently parked.](https://www.isitdownrightnow.com/bitlock.io.html)
+The website for [Bitlock is currently parked.](https://www.isitdownrightnow.com/bitlock.io.html)
 
-Bitlock supports BTC, ETH, ERC20 tokens, ETH Classic, Zcash, Namecoin, Litecoin and Dogecoin. 
+Bitlock supports BTC, ETH, ERC20 tokens, ETH Classic, Zcash, Namecoin, Litecoin, and Dogecoin. 
 
 It was also announced that only 1000 units will be produced in 2018.
 
@@ -81,10 +81,10 @@ Quoted from [BitcoinTalk:](https://bitcointalk.org/index.php?topic=4641751.msg41
 
 > All transactions are confirmed on mobile that authorises data from BitLock received through secured by asymmetric RSA2048 algorithm channel.
 
-Several years have passed and we do not see vestiges of the bitlock device. From the description however, we can glean that the device can be plugged into the USB port of a computer or through an adaptor on an Android mobile phone. 
+Several years have passed and we do not see vestiges of the Bitlock device. From the description, however, we can glean that the device can be plugged into the USB port of a computer or through an adaptor on an Android mobile phone. 
 
 We can also glean that the device has no interface.  
 
 Transactions are confirmed via their own software. 
 
-With these, the most likely possibility is that the **bitlock ceased production** after 2018.
+With these, the most likely possibility is that the **Bitlock ceased production** after 2018.

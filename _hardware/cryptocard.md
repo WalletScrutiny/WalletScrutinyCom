@@ -30,13 +30,13 @@ social:
 
 ---
 
-**⚠️ Note:** This product has no website, a fairly generic name, and the only relevant content involving this product was from 2018.  
+**⚠️ Note:** This product has no website, a generic name, and the only relevant content involving this product was from 2018.  
 
 ## Analysis 
 
-{{ page.title }} had a short [YouTube demonstration.](https://www.youtube.com/watch?v=_EJBRUYfPiw) Checking the channel that posted this video, we found one other [upload](https://www.youtube.com/watch?v=lRrSz6__2lU) which was a promo of {% include walletLink.html wallet='hardware/slimtech.cryptolite' verdict='true' %}. 
+{{ page.title }} had a short [YouTube demonstration.](https://www.youtube.com/watch?v=_EJBRUYfPiw) Checking the channel that posted this video, we found one other [upload](https://www.youtube.com/watch?v=lRrSz6__2lU) which was a promo of the {% include walletLink.html wallet='hardware/slimtech.cryptolite' verdict='true' %}. 
 
- Although the channel may be associated with slimTECH gear, this singular video concerning {{ page.title }} doesn't list a brand name or provide a website. We also searched for clearer images of the card online, but did not find relevant results.
+ Although the channel may be associated with slimTECH gear, this singular video concerning {{ page.title }} doesn't list a brand name or provide a website. We also searched for clearer images of the card online but did not find relevant results.
  
  As there's no indication that this card is up for sale, we have to assume that it can be qualified as **vaporware.**
 

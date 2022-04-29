@@ -2,7 +2,6 @@
 title: BitSB
 appId: bitsb
 authors:
-- kiwilamb
 - danny
 released: 
 discontinued: 

@@ -34,7 +34,7 @@ social:
 
 Tag World Exchange has numerous domains and business names under their project. It includes: www.twex.exchange , www.twex.info, www.twex.eu, www.twex.uk, www.twexfr.fr, www.twex.us, www.twex.ch, www.twex.biz, and www.twexsec.com. 
 
-twal.ch, the main site for the hardware device is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
+The main site for the hardware device ([twal.ch](https://twal.ch))is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
 
 We were not able to find actual pictures of the device. All that's available are renderings.  
 
@@ -58,6 +58,6 @@ A graphical depiction of how the device is supposed to work:
 
 ## Analysis 
 
-The latest social media activities for this company was made in [2019](https://twitter.com/TWEXInfo/status/1100684999185985536). 
+The latest social media activities for this company were made in [2019](https://twitter.com/TWEXInfo/status/1100684999185985536). 
 
 Although the websites are still accessible, we believe this product was never launched at all. 
