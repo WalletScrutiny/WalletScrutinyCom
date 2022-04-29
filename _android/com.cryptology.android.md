@@ -8,11 +8,11 @@ users: 100000
 appId: com.cryptology.android
 appCountry: gb
 released: 2018-03-23
-updated: 2022-04-22
-version: 3.13.0
-stars: 3.5
+updated: 2022-04-28
+version: 3.13.1
+stars: 2.7
 ratings: 
-reviews: 2
+reviews: 5
 size: 41M
 website: https://cryptology.com/
 repository: 

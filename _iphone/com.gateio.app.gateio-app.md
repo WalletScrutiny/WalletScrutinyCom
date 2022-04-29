@@ -10,7 +10,7 @@ idd: 1294998195
 released: 2017-11-03
 updated: 2022-04-15
 version: 3.4.3
-stars: 3
+stars: 2.9
 reviews: 105
 size: '428781568'
 website: https://gate.io

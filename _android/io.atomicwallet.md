@@ -12,7 +12,7 @@ updated: 2022-04-22
 version: 0.87.1
 stars: 4.4
 ratings: 62655
-reviews: 5108
+reviews: 5109
 size: 17M
 website: https://atomicwallet.io
 repository: 
