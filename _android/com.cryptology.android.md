@@ -10,9 +10,9 @@ appCountry: gb
 released: 2018-03-23
 updated: 2022-04-28
 version: 3.13.1
-stars: 2.7
+stars: 3.1
 ratings: 
-reviews: 5
+reviews: 3
 size: 41M
 website: https://cryptology.com/
 repository: 

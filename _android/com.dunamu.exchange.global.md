@@ -9,11 +9,11 @@ appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
 updated: 2022-04-28
-version: 1.5.24p1
+version: 1.5.26
 stars: 3.2
 ratings: 3998
 reviews: 29
-size: 28M
+size: 29M
 website: https://www.dunamu.com
 repository: 
 issue: 

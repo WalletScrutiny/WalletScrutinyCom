@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: Unocoin Indian Crypto Exchange
+title: 'Unocoin: Bitcoin & 50+ Crypto'
 altTitle: 
 authors:
 - leo

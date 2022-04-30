@@ -7,12 +7,12 @@ users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2022-03-23
-version: 1.1.2
+updated: 2022-04-29
+version: 1.1.4
 stars: 
 ratings: 
 reviews: 
-size: 58M
+size: 59M
 website: https://spendthebits.com/
 repository: 
 issue: 
