@@ -21,7 +21,7 @@ country: RU
 price: 99EUR
 repository: 
 issue: 
-icon: cmcmbc.safewalletpro.png
+icon: 
 bugbounty: 
 meta: defunct
 verdict: noita
