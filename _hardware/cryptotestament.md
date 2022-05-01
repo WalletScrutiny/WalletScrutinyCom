@@ -53,4 +53,4 @@ When you pledge to CryptoTestament, you automatically get a full year of the Saf
 
 ## Analysis 
 
-The service consists of a USB device and access to a cloud-based service - what is calls its "Safeguard Plan".
+The service consists of a USB device and access to a cloud-based service - what is calls its "Safeguard Plan". Since it was not funded, the website has gone offline. The project was **discontinued and never heard of again**. 
