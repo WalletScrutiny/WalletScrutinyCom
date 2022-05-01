@@ -32,24 +32,24 @@ social:
 
 ## Background
 
-The Thingyfy NXT Crypto Ring was launched on [Kickstarter](https://www.kickstarter.com/projects/thingyfyio/nxt-ring-your-digital-self-at-hand/description) on May 22, 2019. Out of its target of $50,000 HKD, it was able to raise $341,798 HKD from 606 backers. 
+The Thingyfy NXT Crypto Ring was launched on [Kickstarter](https://www.kickstarter.com/projects/thingyfyio/nxt-ring-your-digital-self-at-hand/description) on May 22, 2019. Out of its target of $50,000 HKD, it was able to raise $341,798 from 606 backers. 
 
 The device is a ring of various metal constituents. It is equipped with NFC which allows it to interface with a mobile app. 
 
-There are numerous complaints associated with the product so much so that it's continued existence is put into question. 
+There are numerous complaints associated with the product so much so that its continued existence is put into question. 
 
 ## Critical Reviews
 
-These are the comments from Kickstarter.com
+These are the comments from Kickstarter.com.
 
 > [Jake](https://www.kickstarter.com/projects/thingyfyio/nxt-ring-your-digital-self-at-hand/comments?comment=Q29tbWVudC0zNjEyMTEzMQ%3D%3D)<br>
    March 22, 2022 <br>
        Has anyone had any luck attempting to contact Thingyfy or reprogramming their rings?
-       
+>       
 > [ernest burks iii](https://www.kickstarter.com/projects/thingyfyio/nxt-ring-your-digital-self-at-hand/comments?comment=Q29tbWVudC0zNTcyNDYxMw%3D%3D)<br>
    February 18, 2022 <br>
        The middle fell out of my ring twice. I tried gluing it. But did not work. Don't know how it was secured in the center of the ring. Had to dispose of the center because it would never work again with a DIY fix       
-
+>
 > [David Pinchbeck](https://www.kickstarter.com/projects/thingyfyio/nxt-ring-your-digital-self-at-hand/comments?comment=Q29tbWVudC0zMjkwNjQzMQ%3D%3D)<br>
    May 25, 2021 <br>
        I was taking my ring off the other day and the NFC section came off the ring, can someone please contact me..... no support on the website and this appears to be the only way to get something out there. thanks
@@ -79,14 +79,14 @@ All in all, there are 927 comments and most of them are negative.
 
 There are several reasons why we think this product is **vaporware** despite the successful fundraising and online coverage. This is our justification: 
 
-1. Many kickstarter backers report not having received their rings. They claim that thingyfy does not communicate with them anymore. 
+1. Many Kickstarter backers report not having received their rings. They claim that thingyfy does not communicate with them anymore. 
 
-2. Many backers who did receive their rings, claim that there are defects with it. 
+2. Many backers who did receive their rings, claim that there are defects with them.
 
 3. We cannot fathom how these two statements from them reconcile with each other: a. *NXT works via mobile Web browser, so there is no need to download any app. There is also no need to pair with a phone...*, and b. Your private keys exist only in your phone and they are never transmitted to us. 
 
 4. The last update for the project was in August 2020. They have not responded to their backers. Some comments are still asking about the project in 2022.
 
-5. Their website still indicates that the Thingyfy NXT Crypto Ring is in Pre-Order, and the site still encourages their users to join the beta program. 
+5. Their website still indicates that the Thingyfy NXT Crypto Ring is in Pre-Order, and the site still encourages its users to join the beta program. 
 
 Though the ring may have been physically shipped to some of their backers, we do not believe that it works as intended. Now, two years after their successful fundraiser, with no updates and no indications for any activities, we think this project will never launch.  

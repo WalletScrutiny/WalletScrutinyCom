@@ -32,7 +32,7 @@ social:
 
 ## Background 
 
-The {{ page.title }} tried to raise money via [kickstarter](https://www.kickstarter.com/projects/111829753/bitcoin-wallet-card/description) but failed. 
+The {{ page.title }} tried to raise money via [Kickstarter](https://www.kickstarter.com/projects/111829753/bitcoin-wallet-card/description) but failed. 
 
 ## Product Description 
 

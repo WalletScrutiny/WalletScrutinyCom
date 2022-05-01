@@ -12,9 +12,9 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: 
+website: https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description
 shop: 
-country: 
+country: US
 price: 
 repository: 
 issue: 

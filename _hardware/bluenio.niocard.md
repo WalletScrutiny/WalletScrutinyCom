@@ -32,7 +32,7 @@ social:
 
 ## Background 
 
-Bluenio held a fundraiser on [Kickstarter](https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/posts) in 2013-11-09. It was not able to raise their target amount. We can see from the [comments section](https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/comments) that the providers were torn between marketing the device as a bitcoin payment device - or simply a multi-purpose NFC device. 
+Bluenio held a fundraiser on [Kickstarter](https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/posts) on 2013-11-09. It was not able to raise its target amount. We can see from the [comments section](https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/comments) that the providers were torn between marketing the device as a bitcoin payment device - or simply a multi-purpose NFC device. 
 
 ## Product Description
 
