@@ -3,7 +3,7 @@ wsId:
 title: CryptoBank
 altTitle: 
 authors: 
-users: 1000
+users: 500
 appId: io.cryptobankwallet
 appCountry: 
 released: 2020-12-10
@@ -19,7 +19,7 @@ issue:
 icon: io.cryptobankwallet.jpg
 bugbounty: 
 meta: stale
-verdict: wip
+verdict: fewusers
 date: 2021-12-06
 signer: 
 reviewArchive: 

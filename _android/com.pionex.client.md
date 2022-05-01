@@ -9,9 +9,9 @@ appCountry: us
 released: 2019-11-18
 updated: 2022-04-29
 version: 2.11.05
-stars: 4.5
+stars: 4.4
 ratings: 5659
-reviews: 565
+reviews: 566
 size: 59M
 website: https://www.pionex.com
 repository: 

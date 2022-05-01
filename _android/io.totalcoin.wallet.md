@@ -10,9 +10,9 @@ appCountry:
 released: 2018-04-01
 updated: 2022-04-22
 version: 5.1.1
-stars: 3.9
+stars: 3.8
 ratings: 7981
-reviews: 62
+reviews: 61
 size: 37M
 website: http://totalcoin.io
 repository: 

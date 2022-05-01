@@ -11,7 +11,7 @@ released: 2018-05-25
 updated: 2022-04-27
 version: '3.40'
 stars: 4.7
-reviews: 193
+reviews: 195
 size: '53762048'
 website: https://alphawallet.com/
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-04-07
 version: 1.1.8
 stars: 4.2
 ratings: 15890
-reviews: 37
+reviews: 38
 size: 15M
 website: https://www.novadax.com
 repository: 
