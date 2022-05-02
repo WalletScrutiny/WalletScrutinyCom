@@ -59,6 +59,7 @@ In its FAQ section, it describes a fundamental process:
 
 > A cold wallet is just a tool for storing cryptocurrency and wallet addresses. This is designed for security reasons. You must use the software wallet to check balances and transactions. Once you have the W1 cold wallet and TJ Wallet App properly connected, you can manage your assets directly on the App.
 
-**This hardware device needs another device** and is physically connected to an Android mobile phone with an apk that is hosted on the provider's website and not on Google Play. They claim to be open source, but we could not find a link to their repository.  
+They claim to be open source, but we could not find a link to their repository.  
+The device needs the user's phone **to handle the private keys (backup words)**.
 
  

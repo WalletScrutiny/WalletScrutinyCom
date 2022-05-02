@@ -12,7 +12,7 @@ dimensions: [151.3, 70.1, 8.2]
 weight: 147
 provider: Pixelhw Telegram User
 providerWebsite: 
-website: https://t.me/PixelWallet
+website: 
 shop: 
 country: 
 price: 85GBP
@@ -38,7 +38,7 @@ Graphene OS and CalyxOS are both mobile OS's with emphasis on security and priva
 
 The actual wallets include: 
 - {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} 
-- Monerujo - a Monero client
+- {% include walletLink.html wallet='android/com.m2049r.xmrwallet' verdict='true' %} - a Monero wallet
 
 ## Product Description 
 
@@ -54,6 +54,6 @@ The actual wallets include:
 
 This device can be classified as DIY as users are simply provided with a custom Pixel 3A. 
 
-Trust is on the table as buyers would have to trust the maker or the provider not to include any surreptitious code. Though they may claim that *"All software has been verified with cryptographic signatures and Shasums from the OS to the Apps installed"*, users should know well to verify on their own. 
+Trust is on the table as buyers would have to trust the maker or the provider not to include any surreptitious code. Though they may claim that *"All software has been verified with cryptographic signatures and Shasums from the OS to the Apps installed"*, "signatures and Shasums" only mean whoever signed, approves of the software. So unless you trust the anonymous signer of the software - which you **should not** - the "signatures and Shasums" are worth little.
 
 The real value for devices like this is in providing the buyer with a proof-of-concept that it could actually be done. 

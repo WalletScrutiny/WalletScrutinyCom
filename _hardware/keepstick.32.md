@@ -43,7 +43,7 @@ social:
 
 ## Analysis 
 
-The device is basically an Electrum bitcoin wallet hosted on a custom Ubuntu 18.04 OS, which is run 'live' through a USB drive. The USB drive has to be plugged in to a desktop computer or laptop with a compatible USB port. 
+The device is basically a Live Pendrive Linux (Ubuntu 18.04) with pre-installed Electrum Bitcoin Wallet. In other words, it's a standard USB pendrive with custom, bootable software.
 
 **Activation**
 

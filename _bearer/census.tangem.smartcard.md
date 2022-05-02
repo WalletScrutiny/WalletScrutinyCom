@@ -32,7 +32,7 @@ social:
 
 [Isitdownrightnow.com](https://www.isitdownrightnow.com/census.cx.html) reports that this wallet's web servers are not responding. This, along with a lack of any recent information, often gives us cause to assume that a product is defunct or will not be released.
 
-Census has a [Facebook account](https://www.facebook.com/census.cx) with some activity on October 2021.
+Census has a [Facebook account](https://www.facebook.com/census.cx) with some activity in October 2021.
 
 The product may bear resemblance to: 
 
