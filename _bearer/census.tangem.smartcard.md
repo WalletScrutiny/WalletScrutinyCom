@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: census.tangem.smartcard.png
 bugbounty: 
-meta: ok
-verdict: vapor
+meta: defunct
+verdict: noita
 date: 2022-04-25
 signer: 
 reviewArchive: 
@@ -55,5 +55,5 @@ The site also offers a companion app called Census Wallet. While the link to the
 
 {{ page.title }}'s page on Amazon claims it still has [one copy left in stock.](https://www.amazon.com/All-One-Contactless-Hardware-Securely/dp/B08BHH9GC6) According to Amazon, the card was first made available on June 19, 2020.
 
-The website is currently out of commission, and there's little, if any, recent information on the state of this product. We believe this product was discontinued and is now vaporware. 
+The website is currently out of commission, and there's little, if any, recent information on the state of this product. We believe this product was discontinued. 
 

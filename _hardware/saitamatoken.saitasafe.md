@@ -34,5 +34,5 @@ social:
 
 ## Background
 
-Saitama Token is an ERC20 token launched in June 2021. Although the {{ page.title }} has been mentioned on social media, there are no hardware specifications and no clear technical descriptions of it. Given the token of the same name [lost 97% of its peak value](https://www.coingecko.com/en/coins/saitama-inu), we assume this project also is not going to materialize and thus is **vaporware**. 
+Saitama Token is an ERC20 token launched in June 2021. Although the {{ page.title }} has been mentioned on social media, there are no hardware specifications and no clear technical descriptions of it yet. Given the token of the same name [lost 97% of its peak value](https://www.coingecko.com/en/coins/saitama-inu), we assume this project also is not going to materialize and thus is **vaporware**. 
 
