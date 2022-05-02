@@ -8,12 +8,12 @@ users: 1000
 appId: com.evraon.trading
 appCountry: 
 released: 2019-06-14
-updated: 2022-01-05
-version: 1.7.0
+updated: 2022-04-29
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 16M
 website: https://evraon.com
 repository: 
 issue: 

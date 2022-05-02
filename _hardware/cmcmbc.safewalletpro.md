@@ -8,8 +8,11 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [75, 27, 10]
-weight: 20g
+dimensions:
+- 75
+- 27
+- 10
+weight: 20
 provider: Cheetah Mobile Inc.
 providerWebsite: https://www.cmcm.com/en/
 website: https://web.archive.org/web/20180309162424/https://www.cmcmbc.com/en-us/
@@ -18,17 +21,18 @@ country: RU
 price: 99EUR
 repository: 
 issue: 
-icon: coinplace.coinphone.png
+icon: 
 bugbounty: 
 meta: defunct
-verdict: plainkey
-date: 2022-04-11
+verdict: noita
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: cmcmglobal
 social:
-  - https://www.linkedin.com/company/cheetah-mobile/
-  - https://www.facebook.com/cmcmglobal/
+- https://www.linkedin.com/company/cheetah-mobile/
+- https://www.facebook.com/cmcmglobal/
+
 ---
 
 **⚠️ Note:** Cheetah Mobile Inc. was reportedly involved in [corporate irregularities](https://finance.yahoo.com/news/prescience-point-claims-cheetah-mobile-134910547.html) and other [allegations](https://www.buzzfeednews.com/article/craigsilverman/android-apps-cheetah-mobile-kika-kochava-ad-fraud). The company has two domains associated with SafeWallet, cmcm.com and [cmcmbc.com](https://web.archive.org/web/20180309162424/https://www.cmcmbc.com/en-us/). The latter of which, is no longer available. It is Cheetah Mobile Blockchain Research Lab's website.

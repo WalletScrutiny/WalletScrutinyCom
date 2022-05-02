@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bitexly.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-18
+date: 2022-04-30
 signer: 
 reviewArchive: 
 twitter: 

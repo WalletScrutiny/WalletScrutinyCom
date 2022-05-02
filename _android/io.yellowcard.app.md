@@ -10,9 +10,9 @@ appCountry: za
 released: 2019-05-14
 updated: 2022-04-25
 version: 4.1.1
-stars: 3.2
+stars: 3.1
 ratings: 4440
-reviews: 189
+reviews: 193
 size: 39M
 website: https://www.yellowcard.io/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: 'Luno: Buy Bitcoin in seconds'
+title: 'Luno: Bitcoin & Cryptocurrency'
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
 updated: 2022-04-22
-version: 8.6.0
+version: 8.7.0
 stars: 3.8
 ratings: 96811
-reviews: 1011
+reviews: 1013
 size: 94M
 website: https://www.luno.com
 repository: 

@@ -4,7 +4,7 @@ title: Testnet Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: de.schildbach.wallet_test
 appCountry: 
 released: 2011-07-10

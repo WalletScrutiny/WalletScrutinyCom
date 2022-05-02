@@ -13,7 +13,7 @@ released: 2021-07-06
 updated: 2021-10-23
 version: 1.3.4
 stars: 5
-reviews: 2
+reviews: 1
 size: '30423040'
 website: https://www.bhexchain.com/
 repository: 

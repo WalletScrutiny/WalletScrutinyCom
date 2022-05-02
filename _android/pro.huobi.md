@@ -12,7 +12,7 @@ updated: 2022-04-19
 version: 6.9.1
 stars: 5
 ratings: 31840
-reviews: 475
+reviews: 472
 size: 154M
 website: http://www.hbg.com
 repository: 

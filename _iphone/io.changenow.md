@@ -8,11 +8,11 @@ appId: io.changenow
 appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2022-03-22
-version: 2.4.1
+updated: 2022-04-27
+version: '2.5'
 stars: 4.6
-reviews: 765
-size: '42523648'
+reviews: 784
+size: '47692800'
 website: https://changenow.io
 repository: 
 issue: 

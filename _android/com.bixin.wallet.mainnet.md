@@ -13,7 +13,7 @@ updated: 2022-02-15
 version: 2.12.3
 stars: 4.7
 ratings: 315
-reviews: 9
+reviews: 10
 size: 69M
 website: https://onekey.so
 repository: 

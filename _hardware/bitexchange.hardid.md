@@ -10,7 +10,9 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: Blockchain Labs / (Lightning ASIC Shenzhen Intelligent Company Limited) / Hong Kong BitExchange Co., Ltd.
+provider: >-
+  Blockchain Labs / (Lightning ASIC Shenzhen Intelligent Company Limited) / Hong
+  Kong BitExchange Co., Ltd.
 providerWebsite: 
 website: https://www.hardid.org/
 shop: https://www.lightningasic.com/product/Bitcoinminer/45.html
@@ -22,17 +24,18 @@ icon: bitexchange.hardid.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-04-14
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - mailto:admin@lightningasic.com
+social:
+- mailto:admin@lightningasic.com
+
 ---
 
 ## Background 
 
-We searched for Blockchain Labs and there was one in the UK, one in Malaysia, one in MIT, and many others. BitExchange is a common name as well with a [defunct exchange found in archive.org](https://web.archive.org/web/20180918065154/http://www.bitexchange.com.hk/public/). Normal text results for "BitExchange HardID" did not yield a lot of information as well. Our breakthrough came when we searched for the logo to the related [GitHub page.](https://github.com/lightningasic/BitExchange-Hardware-Wallet). The associated logo is linked to a Chinese company named Lightning Asic with a [page](https://www.lightningasic.com/product/Bitcoinminer/45.html) that featured the {{ page.title }}. It retailed for $149 USD. 
+We searched for Blockchain Labs and there was one in the UK, one in Malaysia, one in MIT, and many others. BitExchange is a common name as well with a [defunct exchange found in archive.org](https://web.archive.org/web/20180918065154/http://www.bitexchange.com.hk/public/). Normal text results for "BitExchange HardID" did not yield a lot of information neither. Our breakthrough came when we searched for the logo to the related [GitHub page](https://github.com/lightningasic/BitExchange-Hardware-Wallet). The associated logo is linked to a Chinese company named LIGHTNINGASIC with a [page](https://www.lightningasic.com/product/Bitcoinminer/45.html) that featured the {{ page.title }}. It retailed for $149 USD. 
 
 The discrepancy lies with the fact that the primary domain hardid.org did not link to purchase options which allowed users to buy the device. Lightningasic.com did. 
 
@@ -40,7 +43,7 @@ The discrepancy lies with the fact that the primary domain hardid.org did not li
 
 The code is based off [**archived** Trezor firmware](https://github.com/lightningasic/BitExchange-Hardware-Wallet).
 
-Product Features as described from [Lightning ASIC](https://www.lightningasic.com/product/Bitcoinminer/45.html): 
+Product Features as described from [LIGHTNINGASIC](https://www.lightningasic.com/product/Bitcoinminer/45.html): 
 
 > - Easy and security to store the bitcoin.
 - Generate private key random , and signature independent.
@@ -74,10 +77,5 @@ Before you start using hardID, you also need to download our browser extension f
 
 Firstly, the exchange is no longer in existence. The last capture for the domain bitexchange.com.hk on archive.org was in 2019. HardID.org is due to expire in 2022. 
 
-Next **the device connects to an offline tool plus a browser extension**. We cannot find the repository associated with both. Browser extensions are  notorious for security risks. These risk could include the installation of keyloggers, malware, trojans and the like.   
-
-
-
-
- 
+As the "Buy" button yields "This product doesn't exist!", we assume it is **not for sale anymore**.
 

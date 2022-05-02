@@ -11,7 +11,7 @@ released: 2018-06-09
 updated: 2022-04-21
 version: '129.00'
 stars: 4.5
-reviews: 5614
+reviews: 5621
 size: '51065856'
 website: https://coinberry.com
 repository: 

@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Coinkite
 providerWebsite: https://coinkite.com/
@@ -22,13 +22,14 @@ icon: coinkite.satscard.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-14
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: SATSCARD
 social:
-  - https://www.facebook.com/CoinKite/
-  - https://www.linkedin.com/company/coinkite/
+- https://www.facebook.com/CoinKite/
+- https://www.linkedin.com/company/coinkite/
+
 ---
 
 ## Background 

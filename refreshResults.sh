@@ -43,3 +43,22 @@ unchangedSince 'two.weeks.ago'
 unchangedSince 'four.weeks.ago'
 unchangedSince 'five.weeks.ago'
 unchangedSince 'six.weeks.ago'
+
+# List missing icons
+for platform in hardware bearer android iphone; do
+  export platform=$platform
+  diff \
+    <(grep -l 'icon: .' _$platform/* \
+      | awk -F '/' '{print $2}' \
+      | sed 's/.md$//g' \
+      | sort ) \
+    <(ls -1 images/wallet_icons/$platform/tiny/ \
+      | sed 's/.png$//g' \
+      | sed 's/.jpg$//g' \
+      | sort ) \
+    | grep '<' \
+    | awk '{print $2}' \
+    | xargs -n 1 bash -c 'echo -e "No icon found for $platform $0\n$( git log --summary | grep $0 )"' \
+    | grep -v bash
+    
+done

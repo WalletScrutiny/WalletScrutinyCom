@@ -11,7 +11,7 @@ released: 2017-01-05
 updated: 2022-04-21
 version: 4.3.7 Ready for Sale
 stars: 4.8
-reviews: 53853
+reviews: 53939
 size: '79348736'
 website: https://blockfolio.com
 repository: 
