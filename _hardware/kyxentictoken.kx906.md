@@ -65,4 +65,4 @@ social:
 
 ## Analysis 
 
-This product is **not available anymore.** 
+This product was **never commercially available**.

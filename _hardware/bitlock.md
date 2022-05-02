@@ -36,7 +36,7 @@ It was initially announced on July 11, 2018 through [BitcoinTalk](https://bitcoi
 
 The website for [Bitlock is currently parked.](https://www.isitdownrightnow.com/bitlock.io.html)
 
-Bitlock supports BTC, ETH, ERC20 tokens, ETH Classic, Zcash, Namecoin, Litecoin, and Dogecoin. 
+Bitlock supports BTC, ETH, ERC20 tokens, ETC, Zcash, Namecoin, Litecoin, and Dogecoin. 
 
 It was also announced that only 1000 units will be produced in 2018.
 
@@ -87,4 +87,4 @@ We can also glean that the device has no interface.
 
 Transactions are confirmed via their own software. 
 
-With these, the most likely possibility is that the **Bitlock ceased production** after 2018.
+With these, **Bitlock most likely never went into production**.

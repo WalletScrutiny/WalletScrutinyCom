@@ -38,5 +38,5 @@ social:
 
  Although the channel may be associated with slimTECH gear, this singular video concerning {{ page.title }} doesn't list a brand name or provide a website. We also searched for clearer images of the card online but did not find relevant results.
  
- As there's no indication that this card is up for sale, we have to assume that it can be qualified as **vaporware.**
+ As there's no indication that this card was ever up for sale, we have to assume that it can be qualified as **vaporware.**
 

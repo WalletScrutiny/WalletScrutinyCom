@@ -53,4 +53,4 @@ The new owner of the site is unknown. It is possible that the code that generate
 
 Users can order remastered Ubuntu 14.04.1 Live CDs with the code, but we were not able to locate the repository for this remastered version. There's a certain level of trust that is placed towards the anonymous online vendor. 
 
-Finally, once a user is able to run the software in an offline environment, the risk is always there in **sharing the keys with a printer**. 
+Finally, once a user is able to run the software in an offline environment, the risk is always there in **leaking the keys during print or later use of the paper wallet**. 

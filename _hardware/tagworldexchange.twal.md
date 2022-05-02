@@ -32,9 +32,19 @@ social:
 
 ## Background 
 
-Tag World Exchange has numerous domains and business names under their project. It includes: www.twex.exchange , www.twex.info, www.twex.eu, www.twex.uk, www.twexfr.fr, www.twex.us, www.twex.ch, www.twex.biz, and www.twexsec.com. 
+Tag World Exchange has numerous domains and business names under their project. It includes:
 
-The main site for the hardware device ([twal.ch](https://twal.ch))is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
+* www.twex.exchange
+* www.twex.info
+* www.twex.eu
+* www.twex.uk
+* www.twexfr.fr
+* www.twex.us
+* www.twex.ch
+* www.twex.biz
+* www.twexsec.com
+
+The main site for the hardware device ([twal.ch](https://twal.ch)) is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
 
 We were not able to find actual pictures of the device. All that's available are renderings.  
 
