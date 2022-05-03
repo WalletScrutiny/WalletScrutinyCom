@@ -22,7 +22,7 @@ icon: wisekey.wiswatch.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-25
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: WISeKey

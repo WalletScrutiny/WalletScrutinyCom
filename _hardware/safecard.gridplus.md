@@ -22,7 +22,7 @@ icon: safecard.gridpay.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-25
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

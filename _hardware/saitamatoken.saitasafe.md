@@ -22,7 +22,7 @@ icon: saitamatoken.saitasafe.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-26
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: inusaitama

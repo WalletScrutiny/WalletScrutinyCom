@@ -22,7 +22,7 @@ icon: keepstick.32.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-26
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: keep_stick
