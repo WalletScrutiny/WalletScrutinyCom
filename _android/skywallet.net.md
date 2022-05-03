@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: skywallet.net.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

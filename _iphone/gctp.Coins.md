@@ -8,11 +8,11 @@ appId: gctp.Coins
 appCountry: 
 idd: 972324049
 released: 2015-04-04
-updated: 2022-04-20
-version: 3.2.1
+updated: 2022-04-30
+version: 3.3.0
 stars: 4.7
-reviews: 3284
-size: '127173632'
+reviews: 3288
+size: '135992320'
 website: https://coins.ph/
 repository: 
 issue: 

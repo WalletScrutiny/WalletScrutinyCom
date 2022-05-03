@@ -8,8 +8,8 @@ appId: com.iminerator.app
 appCountry: us
 idd: 1562067391
 released: 2021-04-20
-updated: 2022-04-22
-version: 2.0.3
+updated: 2022-04-30
+version: 2.0.4
 stars: 0
 reviews: 0
 size: '84640768'
