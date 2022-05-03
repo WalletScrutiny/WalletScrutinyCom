@@ -8,14 +8,17 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [89.91, 42.93, 1.02]
+dimensions:
+- 90
+- 43
+- 1
 weight: 20
 provider: Census Open Finance
 providerWebsite: 
 website: https://web.archive.org/web/20200605015542/https://www.census.cx/
 shop: 
 country: 
-price: 39USD 
+price: 39USD
 repository: 
 issue: 
 icon: census.tangem.smartcard.png
@@ -27,7 +30,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/census.cx
+- https://www.facebook.com/census.cx
+
 ---
 
 [Isitdownrightnow.com](https://www.isitdownrightnow.com/census.cx.html) reports that this wallet's web servers are not responding. This, along with a lack of any recent information, often gives us cause to assume that a product is defunct or will not be released.

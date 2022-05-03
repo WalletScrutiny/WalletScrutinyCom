@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [56.1, 21.6, 10.4]
+dimensions:
+- 56
+- 22
+- 10
 weight: 30
 provider: The Broadband Computer Company Limited
 providerWebsite: 
@@ -27,9 +30,10 @@ signer:
 reviewArchive: 
 twitter: keep_stick
 social:
-  - https://www.linkedin.com/company/keep-stick/
-  - https://www.facebook.com/KeepStick/
-  - https://www.instagram.com/keep_stick/
+- https://www.linkedin.com/company/keep-stick/
+- https://www.facebook.com/KeepStick/
+- https://www.instagram.com/keep_stick/
+
 ---
 
 ## Product Description 

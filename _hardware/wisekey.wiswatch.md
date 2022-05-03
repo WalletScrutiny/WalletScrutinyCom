@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: WISekey
 providerWebsite: https://web.archive.org/web/20160208062524/http://www.wis.watch/
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: WISeKey
 social:
-  - https://www.facebook.com/wisekeysocial/
-  - https://www.youtube.com/user/WISeKeySA
+- https://www.facebook.com/wisekeysocial/
+- https://www.youtube.com/user/WISeKeySA
+
 ---
 
 ## Background 

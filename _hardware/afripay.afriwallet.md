@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Afripay
 providerWebsite: 
@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: afripay_io
 social:
-  - https://instagram.com/afripay_io/
+- https://instagram.com/afripay_io/
+
 ---
 
 As of the date of this review, this product's official website [is down.](https://www.isitdownrightnow.com/docs.afripay.io.html)

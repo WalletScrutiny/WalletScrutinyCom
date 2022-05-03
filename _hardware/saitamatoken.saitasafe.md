@@ -27,9 +27,10 @@ signer:
 reviewArchive: 
 twitter: inusaitama
 social:
-  - https://www.facebook.com/groups/1275234186328559/
-  - https://www.instagram.com/saitamainuofficial/
-  - https://t.me/Saitama_Inu
+- https://www.facebook.com/groups/1275234186328559/
+- https://www.instagram.com/saitamainuofficial/
+- https://t.me/Saitama_Inu
+
 ---
 
 ## Background

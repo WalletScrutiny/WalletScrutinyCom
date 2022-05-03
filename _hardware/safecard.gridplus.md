@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: GridPlus
 providerWebsite: https://gridplus.io/
@@ -18,7 +18,7 @@ country:
 price: 40USD
 repository: https://github.com/GridPlus
 issue: 
-icon: safecard.gridpay.png
+icon: safecard.gridplus.png
 bugbounty: 
 meta: ok
 verdict: noita
@@ -27,8 +27,9 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ
-  - https://www.reddit.com/r/GridPlus/
+- https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ
+- https://www.reddit.com/r/GridPlus/
+
 ---
 
 ## Background

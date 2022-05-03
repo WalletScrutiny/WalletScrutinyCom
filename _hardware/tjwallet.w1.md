@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Tianji Data (Shenzen)
 providerWebsite: 
@@ -27,9 +27,10 @@ signer:
 reviewArchive: 
 twitter: TJ_Wallet
 social:
-  - https://www.facebook.com/tjwalletglobal
-  - https://www.instagram.com/tjwallet/
-  - https://www.youtube.com/channel/UCHibHB44g4GMPvuWWUrv81g/videos
+- https://www.facebook.com/tjwalletglobal
+- https://www.instagram.com/tjwallet/
+- https://www.youtube.com/channel/UCHibHB44g4GMPvuWWUrv81g/videos
+
 ---
 
 ## Product Description 

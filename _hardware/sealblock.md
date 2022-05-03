@@ -1,6 +1,6 @@
 ---
 title: Sealblock
-appId: Sealblock
+appId: sealblock
 authors:
 - danny
 released: 
@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: SealBlock
 providerWebsite: 
@@ -27,9 +27,10 @@ signer:
 reviewArchive: 
 twitter: sealblockio
 social:
-  - https://medium.com/@sealblockio
-  - https://www.facebook.com/SealBlock/
-  - https://www.instagram.com/sealblock/
+- https://medium.com/@sealblockio
+- https://www.facebook.com/SealBlock/
+- https://www.instagram.com/sealblock/
+
 ---
 
 ## Description

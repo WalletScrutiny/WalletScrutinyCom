@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [151.3, 70.1, 8.2]
+dimensions:
+- 150
+- 70
+- 8.2
 weight: 147
 provider: Pixelhw Telegram User
 providerWebsite: 
@@ -27,7 +30,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://t.me/PixelWallet
+- https://t.me/PixelWallet
+
 ---
 
 ## Background 
