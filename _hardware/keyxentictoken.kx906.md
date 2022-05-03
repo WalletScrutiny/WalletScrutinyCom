@@ -1,6 +1,6 @@
 ---
-title: Kyxentic Token KX906
-appId: kyxentictoken.kx906
+title: Keyxentic Token KX906
+appId: keyxentictoken.kx906
 authors:
 - danny
 released: 
@@ -18,7 +18,7 @@ country: TW
 price: 299USD
 repository: 
 issue: 
-icon: kyxentictoken.kx906.png
+icon: keyxentictoken.kx906.png
 bugbounty: 
 meta: ok
 verdict: vapor
