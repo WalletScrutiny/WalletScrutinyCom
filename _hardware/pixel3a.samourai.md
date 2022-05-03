@@ -34,13 +34,15 @@ social:
 
 An unconventional approach to "refit" **used** Google Pixel 3A's into hardware wallets culminated in this effort. 
 
-Graphene OS is a mobile OS with emphasis on security and privacy. 
+The seller on Telegram states that their Pixel Wallets use the GrapheneOS, a mobile operating system emphasizing security and privacy.
 
 The actual wallets include: 
 - {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} 
-- Monerujo - a Monero client
+- {% include walletLink.html wallet='android/com.m2049r.xmrwallet' verdict='true' %} - a Monero wallet
 
 ## Product Description 
+
+These quotes were taken from the [Pixel Hardware Wallet Telegram](https://t.me/PixelWallet).
 
 > All Software has been verified with cryptographic signatures and Shasums from the OS to the Apps installed.
 >
@@ -58,3 +60,4 @@ Trust is on the table as buyers would have to trust the maker or the provider no
 
 
 The real value for devices like this is in providing the buyer with a proof-of-concept that it could actually be done. 
+
