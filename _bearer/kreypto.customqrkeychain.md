@@ -44,5 +44,5 @@ The QR printed in our products are the direct code to receive and send cryptocur
 
 ## Analysis 
 
-There was no mention of how the provider treats the private keys - only the public keys. The product was never launched and the domain kreypto.com was never registered. There are no social media imprints for this project. This further proves that the product is **vaporware**.
+There was no mention of how the provider treats the private keys - only the public keys. The product was never launched and the domain kreypto.com was never registered. There are no social media imprints for this project. This product is **vaporware**.
 

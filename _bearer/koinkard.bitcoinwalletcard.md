@@ -44,4 +44,4 @@ KoinKard will be creating custom bitcoin wallets for everyone at an affordable p
 
 ## Analysis 
 
-The {{ page.title }} was not funded and is **vaporware**. If it made it to market, the issue would have been the trust placed on the people who would be printing the QR codes for the user. 
+The {{ page.title }} was not funded and is **vaporware**. If it made it to market, the issue would probably have been the lack of private keys on the card. Being just a carrier for your Bitcoin address, it was designed to show a fancy card to receive Bitcoins to a fixed address without having to pull out  an electronic device, making it **not a wallet**.

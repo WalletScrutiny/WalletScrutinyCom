@@ -32,7 +32,7 @@ social:
 
 ## Background 
 
-This Kickstarter project was launched on January 4, 2018. The project was supported by [71 backers who pledged $2,177](https://www.kickstarter.com/projects/437309334/coin-armor-steel-cryptocurrency-wallet/posts) to help bring fund the project. The {{ page.title }} was cross-posted on [bitcointalk.org](https://bitcointalk.org/index.php?topic=2689639.0).  
+This Kickstarter project was launched on January 4, 2018. The project was supported by [71 backers who pledged $2,177](https://www.kickstarter.com/projects/437309334/coin-armor-steel-cryptocurrency-wallet/posts) to help fund the project. The {{ page.title }} was cross-posted on [bitcointalk.org](https://bitcointalk.org/index.php?topic=2689639.0).  
 
 ## Product Description 
 
@@ -45,5 +45,7 @@ The backside has a BIP-38 compliant engraved QR code of the private key.
 
 ## Analysis 
 
-The Kickstarter was successfully funded. Some people complained they did not receive their coin armor and some people gave positive reviews. Some questions can be raised with **trusting a 3rd party to engrave even an encrypted private key**. We were not able to find traces of any commercial activity with the same branding afterwards. But there are numerous similar products with different brands. 
+The Kickstarter was successfully funded. Some people complained they did not receive their coin armor and some people gave positive reviews. The use of BIP38 removes having to trust the provider as the user retains an encryption key, with the "printed" key being encrypted and useless without that key. The problem is though that to use this wallet you have to produce the private key on an online wallet which might intercept the key and steal the funds.
+
+We were not able to find traces of any commercial activity with the same branding afterwards. But there are numerous similar products with different brands. 
 

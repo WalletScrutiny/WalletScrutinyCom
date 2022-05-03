@@ -81,23 +81,16 @@ communication network and encrypted databases
 A lot of fantastic claims are made about the product. However, we have some qualms about the presentation of the "device" due to the following reasons: 
 
 1. Some of the photos that were displayed, particularly the one for this review, is not their original photo. It is a stock photo of a black mobile phone. 
-
 2. The video marketing material seems to be stock video with overlaid text. This includes a video of Barack Obama and Volodymyr Zelensky holding a mobile phone up. 
-
 3. We're a bit confused about this particular seemingly contradictory claim from their [PDF](https://www.digitalbankvault.com/_files/ugd/f12fcd_15dc880a992a4f7db52c357faffd7289.pdf) file: 
-
-> The DigitalBank Vault is a new form of ultra-secure crypto storage, totally controlled by the user and requires no private/public keys pair management.
->
-Our Custodial Systems are based on the Triple Zero Standard 000 developed by our laboratories: Zero Trust - Zero Knowledge - Zero Storage
-
-On one end, they claim that the device/service is "totally controlled" by the user. Yet in the next paragraph, they claim to have a "custodial system". 
-
+   > The DigitalBank Vault is a new form of ultra-secure crypto storage, totally controlled by the user and requires no private/public keys pair management.
+   >
+   > Our Custodial Systems are based on the Triple Zero Standard 000 developed by our laboratories: Zero Trust - Zero Knowledge - Zero Storage
+   
+   On one end, they claim that the device/service is "totally controlled" by the user. Yet in the next paragraph, they claim to have a "custodial system". 
 4. We also have concerns arising from their order and checkout procedure. Unlike most vendors who use Shopify or some other checkout platform, ordering their device requires contacting them through a web form. 
-
-5. From the video presentation on this [page](https://www.digitalbankvault.com/the-digitalbank-crypto-vault), it appears that their offering is an Android app. There is a passphrase section, but no seeds are generated. The dashboard shows a multicurrency platform with support for ETH, BTC, and DASH. They have made no claim that the project is Open Source and we have found 
-
+5. From the video presentation on this [page](https://www.digitalbankvault.com/the-digitalbank-crypto-vault), it appears that their offering is an Android app. There is a passphrase section, but no seeds are generated. The dashboard shows a multicurrency platform with support for ETH, BTC, and DASH. They have made no claim that the project is Open Source and we have found any source neither.
 6. The picture of their CEO Tim Weiss has another name on their LinkedIn page: Moty Weissbrot. 
-
 7. Their GitHub page does not contain code for their app. 
 
 The absence of proof is not proof of absence. However, given the sketchy nature of this company and this product, we do not believe that there is an actual device that is being offered as a hardware wallet. It is possible that they may have developed a simple multi-currency app, but even that is not readily downloadable on their site or Google Play. We deem this service as **vaporware.**  
