@@ -8,10 +8,10 @@ discontinued:
 updated: 2020-08-26
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 14
 provider: Thingyfy Inc.
-providerWebsite:
+providerWebsite: 
 website: https://thingyfy.io/
 shop: 
 country: HK

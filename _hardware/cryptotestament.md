@@ -25,7 +25,7 @@ verdict: vapor
 date: 2022-04-30
 signer: 
 reviewArchive: 
-twitter:
+twitter: 
 social: 
 
 ---

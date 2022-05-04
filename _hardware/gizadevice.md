@@ -6,9 +6,9 @@ authors:
 released: 
 discontinued: 
 updated: 
-binaries: 
 version: 
-dimensions:
+binaries: 
+dimensions: 
 weight: 
 provider: 
 providerWebsite: 

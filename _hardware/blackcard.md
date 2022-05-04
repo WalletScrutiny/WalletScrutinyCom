@@ -6,13 +6,14 @@ authors:
 released: 
 discontinued: 
 updated: 
-binaries: 
 version: 
-dimensions:
+binaries: 
+dimensions: 
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description
+website: >-
+  https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description
 shop: 
 country: US
 price: 

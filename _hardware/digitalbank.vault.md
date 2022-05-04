@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: DigitalBank Vault Limited
-providerWebsite:
+providerWebsite: 
 website: https://www.digitalbank.capital/digitalbank-crypto-vault
 shop: 
 country: UK
