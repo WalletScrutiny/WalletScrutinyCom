@@ -25,7 +25,7 @@ icon: keyxentictoken.kx906.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-28
+date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: kxentic

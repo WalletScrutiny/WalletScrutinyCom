@@ -25,7 +25,7 @@ icon: bitlock.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-26
+date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -22,7 +22,7 @@ icon: bitcards.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-04-28
+date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: Bitcard_US

@@ -22,7 +22,7 @@ icon: riddleandcode.daimler.carwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
-date: 2022-04-28
+date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: 
