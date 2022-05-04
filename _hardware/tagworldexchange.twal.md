@@ -1,6 +1,6 @@
 ---
 title: Tag World Exchange TWAL
-appId: Tag World Exchange TWAL
+appId: tagworldexchange.twal
 authors:
 - danny
 released: 
@@ -21,13 +21,14 @@ issue:
 icon: tagworldexchange.twal.png
 bugbounty: 
 meta: ok
-verdict: vapor 
+verdict: vapor
 date: 2022-04-26
 signer: 
 reviewArchive: 
 twitter: TWEXInfo
 social:
-  - https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA
+- https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA
+
 ---
 
 ## Background 

@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Qompass
-providerWebsite:
+providerWebsite: 
 website: https://qompass.io/
 shop: 
 country: HK
@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: QompassMarkets
 social:
-  - https://www.facebook.com/Qompass.io/posts/239076303321207
-  
+- https://www.facebook.com/Qompass.io/posts/239076303321207
+
 ---
 
 **⚠️ Note:** Qompass held a token sale sometime in 2018. They claim to have [reached their softcap of $2,000,000](https://twitter.com/QompassMarkets/status/999675258218008576). Their [last tweet](https://twitter.com/QompassMarkets/status/995717627921158144) was made on May 14, 2018.

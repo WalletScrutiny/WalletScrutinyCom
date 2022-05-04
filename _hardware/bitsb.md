@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: BitSB
 providerWebsite: https://bitsb.org/
@@ -29,7 +29,6 @@ twitter:
 social: 
 
 ---
-
 
 The older version of BitSB's website contains mentions of "Hardware Miners and Wallets." Searching for the "wallet" online doesn't return any relevant results.
 

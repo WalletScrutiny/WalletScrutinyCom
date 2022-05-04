@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [97.95, 35.56, 9.5]
+dimensions:
+- 98
+- 36
+- 9.5
 weight: 105
 provider: Keyxentic Inc.
 providerWebsite: 
@@ -27,7 +30,8 @@ signer:
 reviewArchive: 
 twitter: kxentic
 social:
-  - https://peakd.com/@keyxentic
+- https://peakd.com/@keyxentic
+
 ---
 
 ## Product Specifications 

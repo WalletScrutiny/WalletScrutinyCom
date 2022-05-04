@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [60, 30, 6]
+dimensions:
+- 60
+- 30
+- 6
 weight: 12
 provider: Senselock Software Technology, Seculab-Europe and Delerex Pte. Ltd.
 providerWebsite: 
@@ -21,14 +24,14 @@ issue:
 icon: bitlock.png
 bugbounty: 
 meta: ok
-verdict: vapor 
+verdict: vapor
 date: 2022-04-26
 signer: 
 reviewArchive: 
 twitter: 
-social:
----
+social: 
 
+---
 
 ## Background 
 
