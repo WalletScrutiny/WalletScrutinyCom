@@ -12,12 +12,12 @@ updated: 2022-04-08
 version: '11.42'
 stars: 4.2
 ratings: 1165
-reviews: 293
+reviews: 294
 size: 56M
 website: https://afriexapp.com
 repository: 
 issue: 
-icon: com.afriex.afriex.jpg
+icon: com.afriex.afriex.png
 bugbounty: 
 meta: ok
 verdict: nowallet

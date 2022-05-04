@@ -3,7 +3,7 @@ wsId:
 title: Xapo Bank
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27

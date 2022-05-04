@@ -10,9 +10,9 @@ appCountry:
 released: 2015-02-19
 updated: 2016-08-18
 version: 2.0.0
-stars: 3.4
+stars: 
 ratings: 
-reviews: 2
+reviews: 
 size: 8.1M
 website: https://coingate.com
 repository: 

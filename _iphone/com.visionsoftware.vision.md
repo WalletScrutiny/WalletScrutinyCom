@@ -1,6 +1,6 @@
 ---
 wsId: visionwallet
-title: 'Vision: Bitcoin Crypto Wallet'
+title: 'Vision: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.visionsoftware.vision
 appCountry: 
 idd: 1500186931
 released: 2020-04-01
-updated: 2022-03-03
-version: 2.3.6
+updated: 2022-05-02
+version: 2.4.7
 stars: 4.9
 reviews: 31
-size: '98178048'
+size: '99959808'
 website: https://www.vision-crypto.com
 repository: 
 issue: 
