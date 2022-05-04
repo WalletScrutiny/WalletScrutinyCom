@@ -8,8 +8,8 @@ users: 1000
 appId: com.wallet.vaultcryptowallet
 appCountry: 
 released: 2021-08-18
-updated: 2022-04-22
-version: 1.0.7
+updated: 2022-05-02
+version: 1.0.8
 stars: 4.5
 ratings: 
 reviews: 3

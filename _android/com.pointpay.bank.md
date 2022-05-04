@@ -12,7 +12,7 @@ updated: 2022-04-28
 version: 6.2.1
 stars: 4.2
 ratings: 3831
-reviews: 94
+reviews: 93
 size: 145M
 website: https://pointpay.io/
 repository: 

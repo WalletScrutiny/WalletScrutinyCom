@@ -11,7 +11,7 @@ released: 2021-03-18
 updated: 2022-02-01
 version: 1.8.22
 stars: 4.7
-reviews: 363
+reviews: 365
 size: '72078336'
 website: https://bitpreco.com/
 repository: 

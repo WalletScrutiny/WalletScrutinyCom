@@ -4,7 +4,7 @@ title: 'خرید و فروش ارزدیجیتال: بیت 24'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: cash.bit24
 appCountry: 
 released: 2021-05-30
