@@ -12,9 +12,9 @@ appCountry:
 released: 2014-08-14
 updated: 2022-02-15
 version: 5.0.9
-stars: 4.6
+stars: 4.5
 ratings: 57218
-reviews: 1087
+reviews: 1088
 size: 14M
 website: http://www.tab-trader.com
 repository: 

@@ -8,7 +8,7 @@ discontinued: 2019-03-09
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: MyCryptoVault
 providerWebsite: 
@@ -22,12 +22,13 @@ icon: mycryptovaultnet.coins.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-04-12
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: myCryptoVAULTne
 social:
-  - https://www.facebook.com/Crypto-Vault-1607275746177425/
+- https://www.facebook.com/Crypto-Vault-1607275746177425/
+
 ---
 
 ## Background 
@@ -49,4 +50,4 @@ Similar to {% include walletLink.html wallet='bearer/casascius' verdict='true' %
 
 ## Analysis 
 
-Like most bearer tokens, printing the private keys on a piece of paper using an inkjet or some other printer requires a bit of nuance on the part of owner. While the metal coin might survive say, a fire, the paper component is problematic indeed. Once that has been overcome, the token would then have to brought on to another system or wallet in order for a transfer to commence. 
+Printing the private keys on a piece of paper requires a bit of nuance on the part of owner. While the metal coin might survive say, a fire, the paper component is problematic indeed. Once that has been overcome, the token would then have to be brought on to another system or wallet in order for a transfer to commence. 

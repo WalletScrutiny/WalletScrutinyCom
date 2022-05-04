@@ -22,12 +22,13 @@ icon: coinplace.coinphone.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-11
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: CoinPlacePro
 social:
-  - https://www.facebook.com/CoinPlaceWorld/
+- https://www.facebook.com/CoinPlaceWorld/
+
 ---
 
 **⚠️ Warning:** The {{ page.title }} is the product of a collaboration between CoinPlace.Pro and Just5.com. As of today April 11, 2022, CoinPlace.pro's primary domain is [no longer accessible](https://www.isitdownrightnow.com/coinplace.pro.html). Just5.com on the other hand, has ceased showing links to the CoinPhone. There were also numerous complaints on [Bitcointalk](https://bitcointalk.org/index.php?topic=5093526.0) and [TrustPilot.](https://www.trustpilot.com/review/coinplace.pro) CoinPlace also held an ICO with a roadmap that ended on December 2018. The primary domain for the CoinPhone, [coinphone.io](https://web.archive.org/web/20181115054705/http://www.coinphone.io/) was only archived in 2018.

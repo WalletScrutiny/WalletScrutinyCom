@@ -12,7 +12,7 @@ updated: 2022-01-10
 version: 2.3.0
 stars: 4.4
 ratings: 7001
-reviews: 182
+reviews: 183
 size: 20M
 website: https://cryptochallenge.app/
 repository: 

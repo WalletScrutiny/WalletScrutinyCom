@@ -4,13 +4,13 @@ title: Testnet Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: de.schildbach.wallet_test
 appCountry: 
 released: 2011-07-10
 updated: 2021-12-18
 version: Varies with device
-stars: 4.6
+stars: 4.5
 ratings: 390
 reviews: 20
 size: Varies with device

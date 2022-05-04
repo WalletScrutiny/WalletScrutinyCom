@@ -8,11 +8,11 @@ appId: com.elrond.maiar.wallet
 appCountry: us
 idd: 1519405832
 released: 2021-01-31
-updated: 2022-04-18
-version: 1.4.15
+updated: 2022-04-28
+version: 1.4.16
 stars: 4.7
-reviews: 307
-size: '301418496'
+reviews: 306
+size: '301559808'
 website: https://maiar.com/
 repository: 
 issue: 

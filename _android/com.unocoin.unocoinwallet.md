@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: Unocoin Indian Crypto Exchange
+title: 'Unocoin: Bitcoin & 50+ Crypto'
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry:
 released: 2016-11-30
 updated: 2022-04-20
 version: 4.2.2
-stars: 4.9
+stars: 4.8
 ratings: 20365
-reviews: 214
+reviews: 215
 size: 17M
 website: https://www.unocoin.com
 repository: 

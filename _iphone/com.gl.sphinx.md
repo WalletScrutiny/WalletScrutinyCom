@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.gl.sphinx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-07-29
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

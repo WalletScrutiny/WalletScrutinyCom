@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-16
 updated: 2021-08-29
 version: '1.0'
-stars: 4.3
+stars: 4.2
 ratings: 7227
-reviews: 448
+reviews: 450
 size: 21M
 website: https://btcserverminer.promo-miner.com/
 repository: 

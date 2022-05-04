@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinglass - Live Crypto Prices
+title: Coinglass - BTC Futures Market
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2022-04-18
-version: 1.4.4
+updated: 2022-04-28
+version: 1.4.5
 stars: 5
-reviews: 61
-size: '16482304'
+reviews: 60
+size: '16450560'
 website: https://www.coinglass.com
 repository: 
 issue: 

@@ -9,8 +9,8 @@ users: 10000
 appId: com.sparkpoint
 appCountry: us
 released: 2019-07-20
-updated: 2022-03-18
-version: 8.1.1
+updated: 2022-04-29
+version: 9.0.0
 stars: 3.7
 ratings: 608
 reviews: 68

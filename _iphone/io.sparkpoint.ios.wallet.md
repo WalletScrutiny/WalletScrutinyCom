@@ -8,11 +8,11 @@ appId: io.sparkpoint.ios.wallet
 appCountry: us
 idd: 1572629350
 released: 2021-06-26
-updated: 2022-03-19
-version: 8.1.1
+updated: 2022-04-30
+version: 9.0.0
 stars: 4.7
 reviews: 15
-size: '22245376'
+size: '22016000'
 website: https://sparkpoint.io/
 repository: 
 issue: 

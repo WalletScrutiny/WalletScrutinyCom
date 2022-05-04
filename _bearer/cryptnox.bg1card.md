@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Cryptnox SA
 providerWebsite: 
@@ -21,12 +21,13 @@ issue:
 icon: cryptnox.bg1card.png
 bugbounty: 
 meta: ok
-verdict: plainkey
-date: 2022-04-11
+verdict: noita
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: cryptnox
-social:
+social: 
+
 ---
 
 ## Background 
@@ -102,7 +103,7 @@ Python3 CLI client for:
 
 ## How it works 
 
-Cryptnox partnered with Cryptnox and gave this brief on [how the device works](https://htecgroup.com/client-stories/cryptnox-building-state-of-the-art-private-key-safety/): 
+Cryptnox gave this brief on [how the device works](https://htecgroup.com/client-stories/cryptnox-building-state-of-the-art-private-key-safety/): 
 
 > Our Client Cryptnox wanted to make this entire process even safer by allowing the user to use a hardware wallet without having to work with the mnemonic phrase. They came up with an idea to offer users two separate cards, hardware wallets, which can generate the same private key inside of them without ever exposing it to the outside world.
 >
@@ -117,5 +118,5 @@ The device noticeably has no display or means for the user to interact directly 
 
 > "We developed a complete iOS companion application that allows users to do transactions on Blockchain networks"  
 
-Without a display, the user would not be able to approve transactions physically using the card. Everything that would transpire programmatically would be located on the app which is on another device, which may not have the same security features as the device. 
+Without a display, the user would not be able to approve transactions physically using the card. Transactions may be **signed blindly.**
 

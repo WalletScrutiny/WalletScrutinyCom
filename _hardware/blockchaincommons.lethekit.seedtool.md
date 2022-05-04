@@ -22,11 +22,12 @@ icon: blockchaincommons.lethekit.seedtool.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: BlockchainComns
 social: 
+
 ---
 
 ## Product Description

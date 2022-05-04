@@ -7,8 +7,8 @@ users: 1000
 appId: com.mobuyg.nmx
 appCountry: 
 released: 2021-08-16
-updated: 2022-04-21
-version: 1.0.2
+updated: 2022-05-02
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 

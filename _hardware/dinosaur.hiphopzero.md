@@ -1,5 +1,5 @@
 ---
-title: Dinosaur HipHop Zero DIY Hardware Wallet 
+title: Dinosaur HipHop Zero DIY Hardware Wallet
 appId: dinosaur.hiphopzero
 authors:
 - danny
@@ -12,7 +12,8 @@ dimensions:
 weight: 
 provider: Stellaw.info (@__gbg__)
 providerWebsite: https://stellaw.info
-website: https://www.stellaw.info/blog/2016/3/5/dinosaur-hiphop-zero-alphaprototype-dev-kits-for-sale
+website: >-
+  https://www.stellaw.info/blog/2016/3/5/dinosaur-hiphop-zero-alphaprototype-dev-kits-for-sale
 shop: 
 country: 
 price: 75USD
@@ -20,13 +21,14 @@ repository: https://github.com/trezor/trezor-mcu/
 issue: 
 icon: dinosaur.hiphopzero.png
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: diy
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: __gbg__
 social: 
+
 ---
 
 ## Product Description 
@@ -34,7 +36,7 @@ social:
 <iframe src="https://player.vimeo.com/video/149838984?h=19af2a5e7a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/149838984">DH7_DINOSAUR_HIPHOP_ZERO</a> from <a href="https://vimeo.com/user17275495">gbg</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br />
 
-This do-it-yourself Trezor Clone is based off the **[Trezor-MCU archived code](https://github.com/trezor/trezor-mcu/).**
+This do-it-yourself Trezor Clone used the **[Trezor-MCU archived code](https://github.com/trezor/trezor-mcu/).**
 
 Build Instructions are available [here](https://dinosaur.hiphop/).
 
@@ -47,6 +49,6 @@ Primary Components are:
 
 ## Analysis 
 
-The **DIY** {{ page.title }} is based off [outdated Trezor code](https://github.com/trezor/trezor-mcu/) last updated in 2019. 
+The **DIY** {{ page.title }} used [outdated Trezor code](https://github.com/trezor/trezor-mcu/) last updated in 2019. 
 
 
