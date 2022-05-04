@@ -1,6 +1,6 @@
 ---
 wsId: BlockTrade
-title: Blocktrade - Digital assets exchange
+title: 'Blocktrade: Invest in Crypto'
 altTitle: 
 authors:
 - danny

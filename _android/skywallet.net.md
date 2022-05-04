@@ -3,7 +3,7 @@ wsId:
 title: Skywallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: skywallet.net
 appCountry: 
 released: 2020-05-11
@@ -19,7 +19,7 @@ issue:
 icon: skywallet.net.jpg
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-05-03
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2022-05-02
 version: 2.2.0
 stars: 4.4
 ratings: 46866
-reviews: 256
+reviews: 257
 size: 174M
 website: https://vndc.io
 repository: 

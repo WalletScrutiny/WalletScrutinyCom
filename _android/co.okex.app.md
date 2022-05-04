@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-11
 updated: 2022-04-30
 version: 6.3.4
-stars: 3.9
+stars: 3.8
 ratings: 7353
-reviews: 164
+reviews: 165
 size: 9.2M
 website: https://ok-ex.co
 repository: 
