@@ -11,7 +11,7 @@ released: 2020-12-18
 updated: 2022-04-28
 version: 1.5.71
 stars: 3.2
-reviews: 265
+reviews: 267
 size: '105955328'
 website: https://pdax.ph
 repository: 

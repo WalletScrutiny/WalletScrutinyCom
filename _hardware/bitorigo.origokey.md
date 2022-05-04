@@ -22,12 +22,13 @@ icon: bitorigo.origokey.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-13
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 
 social:
-  - https://www.youtube.com/channel/UCY1x6SbzjQ30y1WizD4dyPw
+- https://www.youtube.com/channel/UCY1x6SbzjQ30y1WizD4dyPw
+
 ---
 
 ## Product Description 

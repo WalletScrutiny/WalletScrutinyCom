@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ToolsTradesApp.ToolsTradesApp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2021-10-13
+date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: 

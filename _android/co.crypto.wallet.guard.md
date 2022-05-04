@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.crypto.wallet.guard.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

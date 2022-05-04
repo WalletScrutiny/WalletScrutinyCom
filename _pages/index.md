@@ -55,9 +55,12 @@ author_profile: true
 
 </div>
 
-{% include grid_of_wallets.html %}
-
-{% include grid_of_wallets_proportional.html %}
+{% if site.environment != "development" %}
+  {% include grid_of_wallets.html %}
+  {% include grid_of_wallets_proportional.html %}
+{% else %}
+  <b>Grids of Wallets only in production ...</b>
+{% endif %}
 
 {% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
 <h2 class="section-label" id="recently">Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }}{% if recent_posts.last.date != recent_posts.first.date %} to {{ recent_posts.last.date | date: '%b %e' }}{% endif %})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>

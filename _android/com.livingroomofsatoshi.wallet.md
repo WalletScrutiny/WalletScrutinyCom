@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-19
 updated: 2022-03-09
 version: 1.16.5
-stars: 3.9
+stars: 3.8
 ratings: 758
-reviews: 87
+reviews: 88
 size: 23M
 website: http://www.walletofsatoshi.com
 repository: 

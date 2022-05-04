@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-19
 updated: 2022-03-14
 version: 1.1.30
-stars: 3.4
+stars: 3.3
 ratings: 1131
-reviews: 9
+reviews: 10
 size: 13M
 website: https://zondaglobal.com
 repository: 

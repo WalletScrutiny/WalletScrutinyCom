@@ -8,25 +8,26 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Inigma Co., Ltd. (Inigma Blockchain Services)
 providerWebsite: 
 website: https://web.archive.org/web/20200803150735/https://www.inigmasys.com/
-shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/comments
+shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 
 repository: 
 issue: 
 icon: inigma.card.png
 bugbounty: 
-meta: obsolete
-verdict: plainkey
-date: 2022-04-11
+meta: ok
+verdict: vapor
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
+
 ---
 
 ## Background 

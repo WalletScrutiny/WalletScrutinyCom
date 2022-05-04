@@ -8,12 +8,12 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-04-21
-version: 4.3.7 Ready for Sale
+updated: 2022-05-02
+version: 4.3.8
 stars: 4.8
-reviews: 53853
-size: '79348736'
-website: https://blockfolio.com
+reviews: 53990
+size: '79077376'
+website: https://ftx.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.jpg

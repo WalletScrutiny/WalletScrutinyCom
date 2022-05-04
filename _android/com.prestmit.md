@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-04-13
 updated: 2022-04-24
 version: 2.4.1
-stars: 4.4
+stars: 4.3
 ratings: 1291
-reviews: 238
+reviews: 241
 size: 27M
 website: https://prestmit.com/
 repository: 

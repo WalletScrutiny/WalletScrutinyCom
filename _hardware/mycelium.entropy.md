@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 1.1
 binaries: https://mycelium.com/download/entropy/me-1.1.bin
-dimensions: [50.8, 15.24, 7.62]
+dimensions:
+- 51
+- 15
+- 7.6
 weight: 1
 provider: Mycelium
 providerWebsite: https://mycelium.com
@@ -21,17 +24,20 @@ issue:
 icon: mycelium.entropy.png
 bugbounty: 
 meta: defunct
-verdict: nowallet
-date: 2022-04-13
+verdict: plainkey
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: MyceliumCom
 social:
-  - https://www.linkedin.com/company/mycelium/about/
-  - https://www.facebook.com/myceliumcom
+- https://www.linkedin.com/company/mycelium/about/
+- https://www.facebook.com/myceliumcom
+
 ---
 
-**⚠️ Note:** Mycelium held an [indiegogo fundraiser](https://www.indiegogo.com/projects/mycelium-entropy#/updates/all) for the Entropy on October 30, 2014. They were able to raise $31,271 out of their target goal of $20,000. 
+## Background 
+
+Mycelium held an [indiegogo fundraiser](https://www.indiegogo.com/projects/mycelium-entropy#/updates/all) for the Entropy on October 30, 2014. They were able to raise $31,271 out of their target goal of $20,000. 
 
 ## Product Description 
 
@@ -61,10 +67,10 @@ From the [Bitcoinist interview](https://bitcoinist.com/mycelium-entropy-exclusiv
 > 3. Is the entropy impervious to viruses or other malicious software?<br />
 > By default, yes, because the underlying OS and system files are never exposed to the device accessing it. When Mycelium Entropy is plugged into a printer or a PC, the only thing they see is a JPG file. However, when the device is switched to flash mode, for the purpose of changing device settings or flashing new firmware, all the system files are visible to the PC, and thus may be targeted. Since the device never stores any actual bitcoin keys, a attacker would have to modify the code on the device to have it create private keys he knows about.Running a sha check on the files to compare them to the ones on our site will help prevent this. 
 
-The entropy device is primarily a storage device with software. It does **"not store any actual bitcoin keys"**. The software then prints out the keys when the USB is plugged to a printer. The output of the printer is the actual paper wallet.
+The {{ page.title }} is a USB device that looks to the host as if it were a pen drive with a single document on it but that document is truly random and thus different every time you plug it in.
 
 The firmware is available [here](https://mycelium.com/download/entropy/me-1.1.bin).
 
-It may be possible to download the software and put it on a USB device and perform the same function. Thus, the hardware itself offers no security advantage. 
+
 
 

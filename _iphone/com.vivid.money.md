@@ -7,11 +7,11 @@ appId: com.vivid.money
 appCountry: me
 idd: 1504417378
 released: 2020-10-09
-updated: 2022-04-24
-version: 2.7.3
+updated: 2022-04-28
+version: '2.8'
 stars: 0
 reviews: 0
-size: '409507840'
+size: '411125760'
 website: https://vivid.money/
 repository: 
 issue: 

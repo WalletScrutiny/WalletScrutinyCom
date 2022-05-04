@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-20
 updated: 2022-04-14
 version: 2.6.9
-stars: 3.8
+stars: 4
 ratings: 707
-reviews: 51
+reviews: 61
 size: 12M
 website: https://tradesanta.com
 repository: 

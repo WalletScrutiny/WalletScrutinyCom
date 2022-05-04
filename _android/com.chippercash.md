@@ -10,10 +10,10 @@ appId: com.chippercash
 appCountry: 
 released: 2018-07-07
 updated: 2022-04-26
-version: 1.10.4
+version: 1.10.5
 stars: 4.2
 ratings: 59630
-reviews: 1541
+reviews: 1552
 size: 111M
 website: https://chippercash.com
 repository: 
