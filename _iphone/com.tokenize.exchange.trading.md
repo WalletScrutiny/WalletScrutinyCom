@@ -8,11 +8,11 @@ appId: com.tokenize.exchange.trading
 appCountry: us
 idd: 1495765876
 released: 2020-02-02
-updated: 2022-04-02
-version: 2.0.5
+updated: 2022-05-05
+version: 2.0.6
 stars: 0
 reviews: 0
-size: '76013568'
+size: '76169216'
 website: https://tokenize.exchange
 repository: 
 issue: 

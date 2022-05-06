@@ -8,11 +8,11 @@ appId: com.tideisun.tidepay
 appCountry: us
 idd: 1384802533
 released: 2018-06-09
-updated: 2022-04-25
-version: 3.0.2
+updated: 2022-05-05
+version: 3.0.3
 stars: 5
 reviews: 6
-size: '90918912'
+size: '77062144'
 website: https://isun1.com
 repository: 
 issue: 

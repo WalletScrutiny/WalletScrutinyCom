@@ -1,6 +1,6 @@
 ---
 wsId: Coini
-title: Coini — Cryptocurrencies
+title: 'Coini: Cryptocurrencies'
 altTitle: 
 authors:
 - danny

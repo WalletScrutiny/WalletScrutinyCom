@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: BitPay - Secure Crypto Wallet
+title: BitPay - Crypto Card & Wallet
 altTitle: 
 authors:
 - leo

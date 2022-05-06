@@ -10,7 +10,7 @@ appCountry: za
 released: 2019-05-14
 updated: 2022-04-25
 version: 4.1.1
-stars: 3.1
+stars: 3.2
 ratings: 4440
 reviews: 194
 size: 39M

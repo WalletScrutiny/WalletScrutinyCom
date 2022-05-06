@@ -3,7 +3,7 @@ wsId:
 title: 'RolariteX: Buy and Sell Gift Cards, Bitcoin & USDT'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.wRolariteX_12668517
 appCountry: 
 released: 2021-09-08

@@ -10,8 +10,8 @@ idd: 1055288395
 released: 2016-01-18
 updated: 2022-03-15
 version: 3.2.3
-stars: 4
-reviews: 1
+stars: 4.5
+reviews: 2
 size: '111956992'
 website: https://www.paymium.com/
 repository: 

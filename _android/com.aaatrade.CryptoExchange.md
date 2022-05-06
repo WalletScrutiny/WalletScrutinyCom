@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 18M
-website: https://cryptoexchanger.eu
+website: https://www.aaatrade.com
 repository: 
 issue: 
 icon: com.aaatrade.CryptoExchange.png

@@ -10,8 +10,8 @@ idd: 1200812360
 released: 2017-05-15
 updated: 2022-02-08
 version: '1.34'
-stars: 2.8
-reviews: 26
+stars: 2.7
+reviews: 27
 size: '71872512'
 website: https://stex.com
 repository: 

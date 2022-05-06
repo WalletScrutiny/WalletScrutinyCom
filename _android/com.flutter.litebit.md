@@ -8,8 +8,8 @@ users: 100000
 appId: com.flutter.litebit
 appCountry: 
 released: 2019-12-12
-updated: 2022-03-25
-version: 3.3.2
+updated: 2022-04-29
+version: 3.3.3
 stars: 
 ratings: 
 reviews: 
