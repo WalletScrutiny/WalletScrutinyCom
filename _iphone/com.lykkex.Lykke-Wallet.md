@@ -8,8 +8,8 @@ appId: com.lykkex.Lykke-Wallet
 appCountry: de
 idd: 1112839581
 released: 2016-05-20
-updated: 2022-03-31
-version: 7.38.3
+updated: 2022-05-04
+version: 7.39.0
 stars: 4.5
 reviews: 28
 size: '97333248'

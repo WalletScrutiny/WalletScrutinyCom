@@ -11,7 +11,7 @@ released: 2018-08-07
 updated: 2022-04-28
 version: 4.9.5
 stars: 4.6
-reviews: 5929
+reviews: 5943
 size: '123394048'
 website: https://spot-bitcoin.com
 repository: 

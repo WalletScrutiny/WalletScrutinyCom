@@ -11,7 +11,7 @@ released: 2021-03-17
 updated: 2022-04-20
 version: 2.2.0
 stars: 4.7
-reviews: 78
+reviews: 79
 size: '65358848'
 website: https://www.freeda.io/
 repository: 

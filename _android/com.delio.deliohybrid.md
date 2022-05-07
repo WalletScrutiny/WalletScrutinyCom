@@ -12,7 +12,7 @@ updated: 2022-05-02
 version: 1.3.12
 stars: 2.6
 ratings: 48
-reviews: 42
+reviews: 43
 size: 29M
 website: https://www.delio.foundation
 repository: 
