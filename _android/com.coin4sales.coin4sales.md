@@ -3,7 +3,7 @@ wsId:
 title: Coin4sales Wallet - Buy Bitcoin, Send, Spend, More
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.coin4sales.coin4sales
 appCountry: 
 released: 2020-02-11
