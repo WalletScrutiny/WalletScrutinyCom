@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-02-25
+date: 2022-05-08
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2022-02-25
+  version: "3.7.9"
+  appHash: 3d377177d77c6af84720fff05fe62aad6661b81f21ee5b4a6db490ac6b27a6c5
+  gitRevision: b87bc633a27569f90a012614c792e1a3c6d400c6
+  verdict: reproducible
 - date: 2022-01-24
   version: 3.7.8
   appHash: c1dc700b749152fefd871aa830caffc2a1fc85fed7194f0a114fd1c7f4bfeb74
@@ -187,24 +192,24 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.7.9
-apkVersionCode: 22000379
+apkVersionName: 3.8.0
+apkVersionCode: 22000380
 verdict:        reproducible
-appHash:        3d377177d77c6af84720fff05fe62aad6661b81f21ee5b4a6db490ac6b27a6c5
-commit:         df3d4d4265b3221c584a73465e68ee290b30515d
+appHash:        800949a6583a347102ba33bbcfe337ae6193892e2a956acbec75444492ad8b3c
+commit:         bde3bbdd506304181752533a72eb08b0d400345d
 
 Diff:
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: GREENADD.RSA
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: GREENADD.SF
-Only in /home/leo/tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000379/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object df3d4d4265b3221c584a73465e68ee290b30515d
+object bde3bbdd506304181752533a72eb08b0d400345d
 type commit
-tag release_3.7.9
-tagger Luca Vaccaro <me@lvaccaro.com> 1645526254 +0100
+tag release_3.8.0
+tagger Domenico Gabriele <domenico@blockstream.com> 1649875135 +0200
 
-Release 3.7.9
+Release 3.8.0
 ===== End Results =====
 ```
 

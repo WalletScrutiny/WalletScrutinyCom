@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-04-15
+date: 2022-05-08
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-04-15
+  version: "3.14.1.0"
+  appHash: a06c4711f34abf0d3fb3c9648f55e6879953b552cb08013c0eb5b738dd6e85ad
+  gitRevision: b87bc633a27569f90a012614c792e1a3c6d400c6
+  verdict: reproducible
 - date: 2022-03-21
   version: 3.14.0.0
   appHash: c08c972527244350dfa2ed79db34d10dd64603798552b3f8f04b8ae5cded0de2
@@ -229,7 +234,7 @@ signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 apkVersionName: 3.14.1.0
 apkVersionCode: 3140100
 verdict:        reproducible
-appHash:        a06c4711f34abf0d3fb3c9648f55e6879953b552cb08013c0eb5b738dd6e85ad
+appHash:        51b5a576f1e7a7580e15a7e3fffe43d3920584b319e8cfe3ad7f7ba091056ffa
 commit:         ab6081e3d08564735b9d01497ba3ac42bf2bb5d7
 
 Diff:

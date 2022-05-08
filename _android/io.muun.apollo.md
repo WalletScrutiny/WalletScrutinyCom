@@ -21,9 +21,14 @@ icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2022-04-15
+date: 2022-05-08
 signer: 
 reviewArchive:
+- date: 2022-04-15
+  version: "49.2"
+  appHash: 328a6ad2056ca798e15551d094d68eade3014b3277ff0ecaa163919c069341ad
+  gitRevision: b87bc633a27569f90a012614c792e1a3c6d400c6
+  verdict: nonverifiable
 - date: 2022-03-24
   version: '49.1'
   appHash: c2121cdb8f6a4a3e11470ce7787cda2eb6c1d1df28b987d50a4ab39b82d3c3ae
@@ -52,32 +57,34 @@ redirect_from:
 
 ---
 
-With
-[our own verification script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/io.muun.apollo.sh)
-we get these results:
+With this {% include testScript.html %} we get:
 
 ```
 ===== Begin Results =====
 appId:          io.muun.apollo
 signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 49.2
-apkVersionCode: 902
+apkVersionName: 49.3
+apkVersionCode: 903
 verdict:        
-appHash:        328a6ad2056ca798e15551d094d68eade3014b3277ff0ecaa163919c069341ad
-commit:         a9a566651717f964cf71d7d70eeadedccad1e0f4
+appHash:        70fcd9491963e6fe27f9efd41d3c90abf63539d0f9528de8abbad964675de723
+commit:         e65b56b7128094ef7c188d00828747ee01b3fad6
 
 Diff:
-Files /tmp/fromPlay_io.muun.apollo_902/classes2.dex and /tmp/fromBuild_io.muun.apollo_902/classes2.dex differ
-Files /tmp/fromPlay_io.muun.apollo_902/classes.dex and /tmp/fromBuild_io.muun.apollo_902/classes.dex differ
-Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_902/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_902/resources.arsc and /tmp/fromBuild_io.muun.apollo_902/resources.arsc differ
+Files /tmp/fromPlay_io.muun.apollo_903/classes2.dex and /tmp/fromBuild_io.muun.apollo_903/classes2.dex differ
+Files /tmp/fromPlay_io.muun.apollo_903/classes.dex and /tmp/fromBuild_io.muun.apollo_903/classes.dex differ
+Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: APOLLORE.SF
+Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.muun.apollo_903/resources.arsc and /tmp/fromBuild_io.muun.apollo_903/resources.arsc differ
 
 Revision, tag (and its signature):
+object e65b56b7128094ef7c188d00828747ee01b3fad6
+type commit
+tag v49.3
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1651007577 -0300
 
+v49.3
 ===== End Results =====
 ```
 
-Sadly that is worse than last time. In fact here, their own verification script
-should come to the same conclusion: **not verifiable**.
+Sadly that is **not verifiable**.
