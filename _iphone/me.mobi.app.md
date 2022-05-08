@@ -8,11 +8,11 @@ appId: me.mobi.app
 appCountry: au
 idd: 1180017272
 released: 2016-12-31
-updated: 2022-02-24
-version: 2.32.5
+updated: 2022-05-04
+version: 2.32.6
 stars: 0
 reviews: 0
-size: '68430848'
+size: '68652032'
 website: http://www.mobi.me
 repository: 
 issue: 

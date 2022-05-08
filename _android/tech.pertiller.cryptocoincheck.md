@@ -3,7 +3,7 @@ wsId:
 title: Crypto Coin Check - Free Price & Arbitrage Tracker
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: tech.pertiller.cryptocoincheck
 appCountry: 
 released: 2018-04-05
