@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Cabital Crypto: Invest in crypto currencies'
+title: 'Cabital: Crypto for all'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.cabital.cabital
 appCountry: 
 released: 2021-06-07
-updated: 2022-04-21
-version: 1.4.0
+updated: 2022-05-06
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 

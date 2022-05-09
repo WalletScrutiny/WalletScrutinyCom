@@ -4,7 +4,7 @@ title: ProfitTrading For FTX - Trade much faster
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25

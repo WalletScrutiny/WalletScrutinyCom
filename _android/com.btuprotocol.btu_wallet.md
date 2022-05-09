@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: 'Verso : Earn crypto rewards'
+title: Verso Wallet - Crypto Web3 App
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.btuprotocol.btu_wallet
 appCountry: ba
 released: 2021-03-15
-updated: 2022-04-03
-version: 2.5.4
+updated: 2022-05-04
+version: 2.5.7
 stars: 3.9
 ratings: 156
-reviews: 91
-size: 64M
+reviews: 92
+size: 68M
 website: https://get-verso.com
 repository: 
 issue: 

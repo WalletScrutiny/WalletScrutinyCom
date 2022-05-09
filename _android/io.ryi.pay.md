@@ -7,8 +7,8 @@ users: 100
 appId: io.ryi.pay
 appCountry: 
 released: 2021-06-12
-updated: 2021-11-03
-version: 0.21.1
+updated: 2022-05-08
+version: 0.21.0
 stars: 
 ratings: 
 reviews: 

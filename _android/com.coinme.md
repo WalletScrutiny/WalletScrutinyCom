@@ -9,10 +9,10 @@ appId: com.coinme
 appCountry: 
 released: 2021-05-06
 updated: 2022-04-27
-version: 1.9.4
-stars: 4.1
+version: 1.9.5
+stars: 3.9
 ratings: 782
-reviews: 261
+reviews: 267
 size: 105M
 website: https://www.coinme.com
 repository: 

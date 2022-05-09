@@ -9,11 +9,11 @@ appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
 updated: 2022-04-28
-version: 1.7.0
+version: 1.7.1
 stars: 
 ratings: 
 reviews: 
-size: 88M
+size: 91M
 website: https://coinmotion.com/
 repository: 
 issue: 

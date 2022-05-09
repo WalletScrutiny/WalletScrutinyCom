@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 5.4M
-website: https://nominex.io/?r=128222
+website: https://absurdapps.netlify.app
 repository: 
 issue: 
 icon: com.mobuyg.nmx.png

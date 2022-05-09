@@ -8,11 +8,11 @@ appId: com.litebit.app
 appCountry: 
 idd: 1448841440
 released: 2019-08-20
-updated: 2022-03-30
-version: 3.3.2
+updated: 2022-05-05
+version: 3.3.4
 stars: 4
 reviews: 8
-size: '72672256'
+size: '85273600'
 website: https://www.litebit.eu/en/
 repository: 
 issue: 

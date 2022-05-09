@@ -4,7 +4,7 @@ title: 'Wirex Wallet: Crypto and DeFi'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03

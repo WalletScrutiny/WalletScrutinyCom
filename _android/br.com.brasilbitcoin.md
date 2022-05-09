@@ -9,11 +9,11 @@ appId: br.com.brasilbitcoin
 appCountry: br
 released: 2021-02-17
 updated: 2022-05-03
-version: 2.5.33
-stars: 3.4
+version: 2.7.07
+stars: 4.7
 ratings: 2855
-reviews: 1957
-size: 67M
+reviews: 2253
+size: 65M
 website: https://brasilbitcoin.com.br
 repository: 
 issue: 

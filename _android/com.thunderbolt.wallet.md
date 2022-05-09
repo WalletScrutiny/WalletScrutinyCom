@@ -19,7 +19,7 @@ issue:
 icon: com.thunderbolt.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: fake
 date: 2021-10-05
 signer: 
 reviewArchive: 
@@ -29,3 +29,7 @@ redirect_from:
 
 ---
 
+
+<div class="alertBox"><div>
+<p>This app is <a href="https://github.com/btcontract/wallet/issues/146">most likely a scam!</a></p>
+</div></div>

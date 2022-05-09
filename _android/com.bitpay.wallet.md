@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: BitPay - Secure Crypto Wallet
+title: BitPay - Crypto Card & Wallet
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2022-03-30
 version: 12.11.7
 stars: 4.1
 ratings: 9809
-reviews: 1836
+reviews: 1840
 size: 24M
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet

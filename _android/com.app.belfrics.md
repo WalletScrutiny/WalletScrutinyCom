@@ -8,7 +8,7 @@ users: 5000
 appId: com.app.belfrics
 appCountry: us
 released: 2017-10-17
-updated: 2022-04-24
+updated: 2022-05-04
 version: 2.1.9
 stars: 4.8
 ratings: 110
