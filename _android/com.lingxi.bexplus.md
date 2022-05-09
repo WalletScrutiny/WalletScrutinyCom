@@ -12,7 +12,7 @@ updated: 2022-04-28
 version: 2.1.9
 stars: 5
 ratings: 6810
-reviews: 1640
+reviews: 1639
 size: 12M
 website: http://www.bexplus.com
 repository: 

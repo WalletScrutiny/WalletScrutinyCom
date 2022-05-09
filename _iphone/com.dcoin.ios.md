@@ -8,11 +8,11 @@ appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
 released: 2018-12-20
-updated: 2022-04-29
-version: 5.2.8
+updated: 2022-05-07
+version: 5.2.9
 stars: 3.2
 reviews: 17
-size: '47691776'
+size: '47632384'
 website: https://www.dcoin.com/
 repository: 
 issue: 

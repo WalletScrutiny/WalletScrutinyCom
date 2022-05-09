@@ -11,9 +11,9 @@ appCountry:
 released: 2020-11-24
 updated: 2022-04-08
 version: 1.7.7
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 4
 size: 38M
 website: https://galoy.io/
 repository: 

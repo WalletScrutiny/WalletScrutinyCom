@@ -9,11 +9,11 @@ appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
 updated: 2022-04-28
-version: '10.18'
+version: '10.19'
 stars: 4.2
 ratings: 1026
-reviews: 362
-size: 131M
+reviews: 376
+size: 132M
 website: https://www.emberfund.io/
 repository: 
 issue: 

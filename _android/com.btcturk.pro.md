@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-10
 updated: 2022-04-15
 version: Varies with device
-stars: 4.4
+stars: 4.3
 ratings: 169442
-reviews: 202
+reviews: 204
 size: Varies with device
 website: https://pro.btcturk.com
 repository: 

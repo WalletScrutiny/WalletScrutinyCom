@@ -8,11 +8,11 @@ appId: com.genesisblock.GenesisBlock
 appCountry: us
 idd: 1495538730
 released: 2020-05-09
-updated: 2022-04-06
-version: 0.2.1
+updated: 2022-05-04
+version: 0.2.2
 stars: 4.4
-reviews: 51
-size: '52861952'
+reviews: 52
+size: '53849088'
 website: https://hightop.com
 repository: 
 issue: 
