@@ -25,7 +25,7 @@ date: 2022-05-08
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2022-02-25
-  version: "3.7.9"
+  version: 3.7.9
   appHash: 3d377177d77c6af84720fff05fe62aad6661b81f21ee5b4a6db490ac6b27a6c5
   gitRevision: b87bc633a27569f90a012614c792e1a3c6d400c6
   verdict: reproducible

@@ -11,7 +11,7 @@ released: 2018-09-23
 updated: 2022-04-30
 version: 1.8.2
 stars: 4.1
-reviews: 436
+reviews: 424
 size: '177590272'
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
