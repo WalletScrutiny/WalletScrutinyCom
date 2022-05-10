@@ -31,7 +31,7 @@ social:
 
 ## Background 
 
-The {{ page.title }} was given away as a part of its marketing drive in the lead-up to the Advancing Bitcoin conference held on March 3 and 4, in London. It cannot be purchased from the site yet however you can find it in the [Terms and Conditions](https://www.coincorner.com/Terms) of Coincorner.com. 
+The {{ page.title }} was given away as a part of its marketing drive in the lead-up to the Advancing Bitcoin conference held in March of 2022 in London. It cannot be purchased from the site yet however you can find it in the [Terms and Conditions](https://www.coincorner.com/Terms) of Coincorner.com. 
 
 > Lightning Network transactions can be completed using the CoinCorner web platform, app, and “The Bolt Card” (an NFC enabled physical card) Completion of transactions on the Lightning Network are subject to channel and liquidity availability.
 

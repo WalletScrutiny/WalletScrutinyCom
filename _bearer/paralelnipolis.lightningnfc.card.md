@@ -46,6 +46,8 @@ They hold an annual event called the HCPP (Hackers Congress Paralelní Polis).
 
 A more thorough description could be found in Mário Havel's Github [repository.](https://github.com/taxmeifyoucan/HCPP2021-Badge)
 
+You can see the device in action here:
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Credit card? How about a “Lightning card” developed by <a href="https://twitter.com/_TaxMeIfYouCan_?ref_src=twsrc%5Etfw">@_TaxMeIfYouCan_</a> and powered by <a href="https://twitter.com/lnbits?ref_src=twsrc%5Etfw">@lnbits</a>?<br><br>It’s incredible to think about how open-source Bitcoin tech will change human interactivity and commerce around the world in the coming years 🌍<a href="https://t.co/Wmor26M03O">pic.twitter.com/Wmor26M03O</a></p>&mdash; Alex Gladstein 🌋 ⚡ (@gladstein) <a href="https://twitter.com/gladstein/status/1444398232692576259?ref_src=twsrc%5Etfw">October 2, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br /><br />
 
 > You can find 3 different QR codes on your card. Two codes on the front (white) side are used for payments – sending and receiving. Content of these is also on your NFC badge which you can use to interact with ATMs and payment terminals.

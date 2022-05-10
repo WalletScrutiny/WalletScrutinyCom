@@ -36,7 +36,6 @@ social:
 
 The {{ page.title }} tried to capitalize on cryptocurrency interest by combining the idea of a smartwatch with a cryptocurrency hardware wallet. We could not locate Shenzhen Feitianzhou Technology Co., Ltd.'s website, but were able to find a listing on tradewheel.com. Interested buyers must inquire with them first via webform. The last social media posts for the Fitqian on [Facebook](https://www.facebook.com/permalink.php?story_fbid=356416808313519&id=294969777791556&__cft__[0]=AZVFf9Tcuq1ZtPBLrscyLwj6IGfbhzZUSiexOqNibvcW_Rhbhcp5Z0ohAFacx4qa9ut4I59GRNGRK30rDK10slL2P-dAFkRNhWzsJDwaqA8YpdMrQ9-Y-qobUbr3m5qU8YnCRWeVRCq65ocxOStUdhXO&__tn__=%2CO%2CP-R) was made on April 26, 2019. 
 
-It has a [trademark application](https://aiqicha.baidu.com/mark/markDetail?dataId=5027eacd0d2de0997d35996c1386e932).
 
 ## Product Information 
 

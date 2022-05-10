@@ -91,4 +91,4 @@ BOLOS allows users to review and install applications that let them do more with
 
 ## Analysis 
 
-The {{ page.title }} is very different from other hardware wallets because of BOLOS. Developers can make apps that run on BOLOS so users can make use of different blockchains along with their respective features. NFTs and Defi are among the touted applications that could use this framework. Ledger **does not have the BOLOS framework publicly available**. 
+The {{ page.title }} is very different from other hardware wallets because of BOLOS. Developers can make apps that run on BOLOS so users can make use of different blockchains along with their respective features. NFTs and Defi are among the touted applications that could use this framework. But ultimately, Ledger **does not provide the BOLOS source code publicly**. 

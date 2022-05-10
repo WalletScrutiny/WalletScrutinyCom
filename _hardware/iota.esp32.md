@@ -32,4 +32,4 @@ social:
 
 ## Analysis 
 
-The IOTA ESP32 is a do-it-yourself project specifically meant for the IOTA cryptocurrency. Other do-it-yourself projects can make use of the ESP32 to make a bitcoin watch only hardware wallet.
+The IOTA ESP32 is a do-it-yourself project exclusively for the IOTA cryptocurrency.
