@@ -84,10 +84,5 @@ It is hard to make a verdict for this device due to numerous possible iterations
 
 As such, it is **custodial**.
 
-Users could also opt for a self-custodial solution by having the HSMs in-house. The provider is **not claiming that their process and code is Open Source**.
-
-
-
-
-
+Users could also opt for a self-custodial solution by having the HSMs in-house. We could **not find public source code** for such a solution.
 

@@ -47,9 +47,13 @@ The {{ page.title }} is another product from Ballet Crypto
 
 > Bitcoin BLOCKs contain the entire coinbase reward of a newly-mined block. This includes both the base block reward of 6.25 BTC as well as all transaction fees mined in that block.
 
-Virgin Bitcoins 
+## "Virgin Bitcoins"
 
 > The bitcoins come straight from our mining pool partner, mined directly from the coinbase transaction in each block, straight to your physical Bitcoin BLOCK, with no intermediate hops. These bitcoins have no prior transaction history, and thus provide the highest level of privacy.
+
+The concept the provider is getting at here is "taint" and goes back to a [Case Law ruling in England of 1758 (Miller vs. Race)](https://legaldictionary.lawin.org/miller-v-race/). "Does the recipient have to care about the origin or history of a bank note?" Judges ruled "No!" as otherwise bank notes simply wouldn't work as money. Bitcoin today has no such ruling in its favor and some actors already seize or reject Bitcoins that by their assumptions are the proceeds of illegal activities. The provider here is offering "virgin" as in "freshly minted" Bitcoins under the assumption that those are without any history attached.
+
+The claim that these coins "provide the highest level of privacy" obviously is false as the provider knows the identity of the buyer. If those coins themselves now are used in a crime, law enforcement would have a name and address to go ask about it. That is the opposite of "privacy".
 
 ## Private Keys
 
