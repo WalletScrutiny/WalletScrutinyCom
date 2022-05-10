@@ -23,7 +23,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-29
+date: 2022-05-10
 signer: 
 reviewArchive: 
 twitter: 

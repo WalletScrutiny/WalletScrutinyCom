@@ -22,7 +22,7 @@ icon: koinkard.bitcoinwalletcard.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-04-30
+date: 2022-05-10
 signer: 
 reviewArchive: 
 twitter: 

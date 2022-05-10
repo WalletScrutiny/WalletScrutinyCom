@@ -22,7 +22,7 @@ icon: coinarmor.steel.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-04-30
+date: 2022-05-10
 signer: 
 reviewArchive: 
 twitter: 
