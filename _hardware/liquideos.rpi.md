@@ -1,5 +1,5 @@
 ---
-title: Liquid EOS Raspberry Pi 
+title: Liquid EOS Raspberry Pi
 appId: liquideos.rpi
 authors:
 - danny
@@ -12,7 +12,8 @@ dimensions:
 weight: 
 provider: EOS
 providerWebsite: 
-website: https://medium.com/@liquideos/how-to-build-an-eos-hardware-wallet-a-step-by-step-guide-a62445786c0f
+website: >-
+  https://medium.com/@liquideos/how-to-build-an-eos-hardware-wallet-a-step-by-step-guide-a62445786c0f
 shop: 
 country: 
 price: 
@@ -26,7 +27,7 @@ date: 2022-05-02
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 
 ---
 

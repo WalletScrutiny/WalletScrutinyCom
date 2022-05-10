@@ -8,7 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: [62.39, 17.40, 8.24]
+dimensions:
+- 62
+- 17
+- 8.2
 weight: 21
 provider: 
 providerWebsite: 

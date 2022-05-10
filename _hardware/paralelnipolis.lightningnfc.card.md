@@ -38,13 +38,13 @@ They hold an annual event called the HCPP (Hackers Congress Paralelní Polis).
 
 ## Description 
 
+A more thorough description could be found in Mário Havel's Github [repository.](https://github.com/taxmeifyoucan/HCPP2021-Badge)
+
 > NFC badge contains 2 fields: LNURL-withdraw for paying and LNURL-pay for receiving sats. These are static codes which are created and uploaded only once. To receive funds, user approaches a badge/reads a QR code with LNURL-pay to receive funds from a Bitcoin ATM. Received funds can be immediately spend by reading LNURL-withdraw for example by point of sale terminal. 
 >
 > LNURL pairs are created using LNbits. Each pair represents a user in LNBits instance. With a web address and user ID, user can easily access web interface of the wallet and manage badge funds there.
 >
 > Yes, this solution is custodial and involves trusting the LNURL server provider. However, compared to the previous model, it offers the same level of trust. Users can easily withdraw all funds to their own non-custodial wallet, which takes minimum fees and is easy thanks to LNBits feature Drain funds. It also offers security benefits because LNURL-withdraw can be limited to a maximum withdrawal amount, number of uses, and time between them. Privacy benefit - avoiding address reuse and not putting all data onchain is obvious.    
-
-A more thorough description could be found in Mário Havel's Github [repository.](https://github.com/taxmeifyoucan/HCPP2021-Badge)
 
 You can see the device in action here:
 
@@ -62,5 +62,5 @@ withdraw money to your own wallet.
 
 ## Analysis 
 
-The provider describes the service as **custodial** since the wallet is hosted on a server. 
+The provider describes the service as **custodial** since the wallet is hosted on a server. If it wasn't custodial, it would still lack a screen to check what is being signed, which is clearly a concern of the provider as they limit payments to 0.001BTC by default. 
 

@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: CoinCorner 
+provider: CoinCorner
 providerWebsite: https://www.coincorner.com/
 website: 
 shop: 
@@ -26,7 +26,8 @@ date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: CoinCorner
-social:
+social: 
+
 ---
 
 ## Background 

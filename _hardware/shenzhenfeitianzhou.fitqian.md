@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Shenzhen Feitianzhou Technology Co., Ltd.
 providerWebsite: 
@@ -26,11 +26,11 @@ date: 2022-05-02
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-  - https://www.facebook.com/FitQian-294969777791556/
-  - https://www.youtube.com/channel/UCj7U1bikM4AMXAwj9n1q-4g/videos
----
+social:
+- https://www.facebook.com/FitQian-294969777791556/
+- https://www.youtube.com/channel/UCj7U1bikM4AMXAwj9n1q-4g/videos
 
+---
 
 ## Background 
 
