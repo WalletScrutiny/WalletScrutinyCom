@@ -12,7 +12,7 @@ updated: 2022-03-16
 version: 8.1.8
 stars: 3.8
 ratings: 8653
-reviews: 179
+reviews: 180
 size: Varies with device
 website: https://www.excoino.com/
 repository: 

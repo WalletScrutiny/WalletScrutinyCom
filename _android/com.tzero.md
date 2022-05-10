@@ -8,8 +8,8 @@ users: 100000
 appId: com.tzero
 appCountry: us
 released: 2019-07-24
-updated: 2022-04-20
-version: 2.0.10644
+updated: 2022-05-09
+version: 2.0.10648
 stars: 3.6
 ratings: 322
 reviews: 135

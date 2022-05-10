@@ -7,11 +7,11 @@ users: 500000
 appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
-updated: 2022-05-05
+updated: 2022-05-08
 version: v120
 stars: 4.4
 ratings: 6726
-reviews: 1460
+reviews: 1463
 size: 56M
 website: https://strike.me/
 repository: 

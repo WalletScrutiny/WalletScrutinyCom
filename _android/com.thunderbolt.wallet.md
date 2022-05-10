@@ -29,7 +29,6 @@ redirect_from:
 
 ---
 
-
 <div class="alertBox"><div>
 <p>This app is <a href="https://github.com/btcontract/wallet/issues/146">most likely a scam!</a></p>
 </div></div>

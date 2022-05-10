@@ -9,9 +9,9 @@ appCountry:
 released: 2018-08-06
 updated: 2022-04-08
 version: 3.18.0
-stars: 4
+stars: 3.9
 ratings: 128
-reviews: 14
+reviews: 15
 size: 74M
 website: https://www.airgap.it
 repository: 

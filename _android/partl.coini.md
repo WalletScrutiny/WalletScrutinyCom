@@ -1,6 +1,6 @@
 ---
 wsId: Coini
-title: Coini - Cryptocurrencies
+title: Coini - Crypto portfolio
 altTitle: 
 authors:
 - danny
