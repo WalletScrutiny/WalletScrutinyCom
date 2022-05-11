@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: eos.cybex.coldwalletcard.png
 bugbounty: 
-meta: defunct
-verdict: nobtc
+meta: ok
+verdict: vapor
 date: 2022-05-05
 signer: 
 reviewArchive: 
@@ -46,4 +46,4 @@ From the image we can glean that the card supported NFC, Bluetooth and Biometric
 
 ## Analysis 
 
-We could not find technical specifications for this device (if it ever existed). Cybex and its services did not last for a long time. If it did exist, we most likely believe that it only supported EOS and **not BTC**. Since the domain for this product is no longer online, it is likely more accurate that the device never came into production.
+We could not find technical specifications for this device (if it ever existed). Cybex and its services did not last for a long time. If it did exist, we most likely believe that it only supported EOS and not BTC. Since the domain for this product is no longer online, it is likely more accurate that the device **never came into production**. 

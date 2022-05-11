@@ -21,7 +21,7 @@ issue:
 icon: helenix.entrust.nshield.hsmwallet.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nowallet
 date: 2022-05-04
 signer: 
 reviewArchive: 
@@ -40,7 +40,7 @@ We found it a little difficult to parse information pertaining to [HSM Wallet](h
 >
 > The hardware core of the HSM Wallet is the Entrust nShield HSM, FIPS 140-2 Level 3 certified general purpose HSM, which provides features essential for establishing a high level of security - the user's private keys are generated inside the HSM and all operations regarding them are executed in a tamper-proof HSM environment.
 
-The devices in the picture are the different HSM form factors presented for the nShield product family. Previously of nCipher, it was then [acquired by Entrust Datacard in 2019](https://www.cambridgeindependent.co.uk/business/ncipher-acquisition-completed-by-entrust-datacard-9073019/). A [PDF brochure](https://go.ncipher.com/rs/104-QOX-775/images/nCipher_nShield_Family_Brochure.pdf) is still available online depicting these devices with the nCipher logo. 
+The devices in the picture are the different HSM form factors presented for the nShield product family. Previously of Thales-nCipher, it was then [acquired by Entrust Datacard in 2019](https://www.cambridgeindependent.co.uk/business/ncipher-acquisition-completed-by-entrust-datacard-9073019/). A [PDF brochure](https://go.ncipher.com/rs/104-QOX-775/images/nCipher_nShield_Family_Brochure.pdf) is still available online depicting these devices with the nCipher logo. 
 
 These were previously marketed as general-purpose HSMs: 
 
@@ -50,7 +50,7 @@ These were previously marketed as general-purpose HSMs:
 >
 > 'nShield Solo' (PCIe cards for embedding in appliances or servers) HSMs are low-profile PCI-Express card modules that deliver cryptographic services to applications hosted on a server or appliance.
 
-nCipher rebranded after its acquisition. 
+Thales-nCipher rebranded after its acquisition. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3ucxsfneg-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -92,4 +92,16 @@ There is a [PDF brief](https://www.entrust.com/-/media/documentation/solution-br
 
 ![image](https://helenix.com/wp-content/uploads/2021/07/scheme.svg)
 
-Our conclusion therefore is thus: since the {{ page.title }} is geared for exchanges or organizations with customers, they would be the ones in control of the HSMs. Therefore, they are providing a service to **custodians**. The HSMs and the software would thus be **nonverifiable**.
+We reached out to Helenix through various mediums: through the [webform on hsmwallet.com](https://hsmwallet.com) and through email. While we wait for their reply we note the following: 
+
+- This is not just one device or solution 
+- It is not marketed as a personal bitcoin hardware wallet
+- We could not find links from helenix.com to the source code. However, we did find [2,217 GitHub code references](https://github.com/search?q=thales+ncipher&type=code) to the product's former name, "Thales nCipher". 
+- In 2020, Thales [partnered with Ledger](https://paysecure.com.tw/documents/news/Securing-Blockchain-Ledger-ProtectServer-HSM-SB-v8.pdf) for the following: 
+
+> Thales and Ledger have partnered to create an enterprise-grade solution for secure cold storage based on Thales ProtectServer Hardware Security Modules (HSM) and Personal Security Devices (PSD). This solution enables multi-currency and multi-signature authorization wallet management, without any limitation of the number of accounts or addresses, and with a full customization of signature policies for each account.
+
+The system they worked on centers on an implementation of [BOLOS](https://github.com/LedgerHQ/ledger-dev-doc/blob/master/source/bolos/overview.rst#:~:text=The%20operating%20system%20behind%20all,run%20in%20a%20secure%20environment.). We do not know if this is the same system Helenix uses. We would have to wait for their response. 
+
+For the meantime, we think that any one of their devices is a component in a system. Their services are server-based. For this reason, while we await their reply, we will mark this as **not a wallet**. 
+

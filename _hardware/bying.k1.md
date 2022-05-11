@@ -66,4 +66,4 @@ From [the FAQ:](https://bying.io/help)
 
 This hardware wallet can generate private keys and will provide you with your mnemonics and is an offline wallet. 
 
-We could not find any information about the source code. Additionally, its unclear if the product is available to those outside of Beijing.
+We could not find any information about the source code. Additionally, its unclear if the product is available to those outside of Beijing. Given the very little product information or accounts of its use we could find, we assume it has very much a niche use so far and file it as **"few users"**.
