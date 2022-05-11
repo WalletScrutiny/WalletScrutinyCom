@@ -12,7 +12,7 @@ updated: 2022-04-26
 version: 4.25.1
 stars: 3.8
 ratings: 218
-reviews: 132
+reviews: 133
 size: 25M
 website: http://exante.eu
 repository: 

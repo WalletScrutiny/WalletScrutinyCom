@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-11
+date: 2022-05-07
 signer: 
 reviewArchive: 
 twitter: 

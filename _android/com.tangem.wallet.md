@@ -10,9 +10,9 @@ appCountry:
 released: 2018-10-24
 updated: 2022-05-05
 version: '3.33'
-stars: 4.4
+stars: 4.3
 ratings: 89
-reviews: 9
+reviews: 10
 size: 40M
 website: https://tangem.com
 repository: 

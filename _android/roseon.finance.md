@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 578
 reviews: 34
 size: 92M
-website: http://roseon.finance
+website: http://roseon.world
 repository: 
 issue: 
 icon: roseon.finance.png

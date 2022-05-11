@@ -10,8 +10,8 @@ idd: 1475633490
 released: 2019-08-17
 updated: 2021-12-16
 version: 2.5.2
-stars: 4.5
-reviews: 6
+stars: 4.6
+reviews: 7
 size: '53334016'
 website: https://www.bytesmix.com
 repository: 

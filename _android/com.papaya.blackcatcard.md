@@ -10,9 +10,9 @@ appCountry: lv
 released: 2019-06-03
 updated: 2022-02-22
 version: 1.2.27
-stars: 3
+stars: 3.2
 ratings: 3530
-reviews: 2356
+reviews: 2396
 size: 71M
 website: https://blackcatcard.com
 repository: 

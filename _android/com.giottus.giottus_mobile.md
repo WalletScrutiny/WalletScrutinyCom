@@ -1,6 +1,6 @@
 ---
 wsId: giottus
-title: 'Giottus: Invest in Bitcoin'
+title: 'Giottus: Crypto Investing App'
 altTitle: 
 authors:
 - danny

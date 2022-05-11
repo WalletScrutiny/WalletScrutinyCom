@@ -4,7 +4,7 @@ title: Paper Trading School & Game
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.tiim.gooptions
 appCountry: us
 released: 2017-08-04

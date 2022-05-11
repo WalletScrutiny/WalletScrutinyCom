@@ -1,5 +1,5 @@
 ---
-title: BitCard®️ 
+title: BitCard®️
 appId: bitcards
 authors:
 - danny
@@ -26,10 +26,11 @@ date: 2022-05-04
 signer: 
 reviewArchive: 
 twitter: Bitcard_US
-social: 
-  - https://www.linkedin.com/company/bitcard/
-  - https://www.facebook.com/BitCardUS/
-  - https://www.instagram.com/bitcard_us/
+social:
+- https://www.linkedin.com/company/bitcard/
+- https://www.facebook.com/BitCardUS/
+- https://www.instagram.com/bitcard_us/
+
 ---
 
 ## Background 
