@@ -8,11 +8,11 @@ users: 10000
 appId: com.swftcoin.client.android
 appCountry: 
 released: 2018-01-15
-updated: 2022-04-25
-version: 5.17.20
+updated: 2022-05-11
+version: 5.17.29
 stars: 4.3
 ratings: 2004
-reviews: 132
+reviews: 133
 size: 33M
 website: http://www.swft.pro/
 repository: 

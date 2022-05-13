@@ -8,11 +8,11 @@ users: 100000
 appId: com.quppy
 appCountry: 
 released: 2018-09-17
-updated: 2022-04-21
-version: 2.0.23
+updated: 2022-05-11
+version: 2.0.26
 stars: 4.8
 ratings: 3900
-reviews: 34
+reviews: 35
 size: 106M
 website: https://quppy.com/
 repository: 

@@ -11,7 +11,7 @@ released: 2019-04-30
 updated: 2021-05-14
 version: '2.15'
 stars: 4.3
-reviews: 38
+reviews: 37
 size: '49214464'
 website: https://www.bitleague.com
 repository: 

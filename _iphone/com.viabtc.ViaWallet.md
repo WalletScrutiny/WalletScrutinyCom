@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2022-05-08
 version: 2.10.0
 stars: 4
-reviews: 38
+reviews: 39
 size: '106704896'
 website: https://viawallet.com
 repository: 

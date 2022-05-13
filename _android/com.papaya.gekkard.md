@@ -10,7 +10,7 @@ appCountry: mt
 released: 2020-01-30
 updated: 2022-03-18
 version: 1.0.6
-stars: 2.6
+stars: 2.5
 ratings: 43
 reviews: 26
 size: 75M

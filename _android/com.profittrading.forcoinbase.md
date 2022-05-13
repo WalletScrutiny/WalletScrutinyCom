@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forcoinbase.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2022-05-13
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

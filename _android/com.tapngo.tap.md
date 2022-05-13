@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-12-19
 updated: 2022-05-02
 version: 2.3.8
-stars: 4.6
+stars: 4.7
 ratings: 1735
-reviews: 105
+reviews: 106
 size: 93M
 website: https://tap.global
 repository: 

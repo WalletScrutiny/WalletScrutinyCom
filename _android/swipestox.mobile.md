@@ -10,9 +10,9 @@ appCountry: gb
 released: 2015-10-20
 updated: 2022-05-06
 version: 8.0.244
-stars: 3.3
+stars: 3.4
 ratings: 5636
-reviews: 193
+reviews: 194
 size: 121M
 website: http://www.naga.com
 repository: 
