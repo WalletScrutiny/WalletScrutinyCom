@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-18
 updated: 2022-04-18
 version: 1.2.13
-stars: 3.3
+stars: 3.5
 ratings: 8
-reviews: 18
+reviews: 19
 size: 49M
 website: https://coincast.app
 repository: 

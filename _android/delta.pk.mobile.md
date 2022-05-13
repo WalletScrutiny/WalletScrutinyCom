@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-10-13
+date: 2022-05-13
 signer: 
 reviewArchive: 
 twitter: deltastock

@@ -9,9 +9,9 @@ appCountry:
 released: 2018-03-29
 updated: 2018-04-24
 version: version 0.92
-stars: 3.8
+stars: 3.9
 ratings: 53
-reviews: 5
+reviews: 6
 size: 14M
 website: 
 repository: 

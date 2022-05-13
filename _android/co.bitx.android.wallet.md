@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: 'Luno: Bitcoin & Cryptocurrency'
+title: Luno - Bitcoin & Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
-updated: 2022-04-22
+updated: 2022-05-06
 version: 8.7.0
 stars: 3.9
 ratings: 96811
-reviews: 1026
+reviews: 1029
 size: 94M
 website: https://www.luno.com
 repository: 

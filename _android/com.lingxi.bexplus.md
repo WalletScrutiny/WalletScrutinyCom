@@ -8,8 +8,8 @@ users: 100000
 appId: com.lingxi.bexplus
 appCountry: 
 released: 2018-10-29
-updated: 2022-04-28
-version: 2.1.9
+updated: 2022-05-09
+version: 2.2.0
 stars: 5
 ratings: 6810
 reviews: 1639
