@@ -8,11 +8,11 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2022-04-30
-version: 2.2.7
+updated: 2022-05-11
+version: 2.2.8
 stars: 4.3
 reviews: 16
-size: '178962432'
+size: '178880512'
 website: https://mexo.zendesk.com/hc/es-mx
 repository: 
 issue: 

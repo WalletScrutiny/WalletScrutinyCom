@@ -10,8 +10,8 @@ idd: 1545440300
 released: 2021-05-11
 updated: 2022-05-06
 version: 1.9.5
-stars: 4.7
-reviews: 1757
+stars: 4.6
+reviews: 1805
 size: '154539008'
 website: https://coinme.com/
 repository: 

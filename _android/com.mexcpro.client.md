@@ -10,9 +10,9 @@ appCountry:
 released: 2020-07-23
 updated: 2022-05-03
 version: 3.4.3
-stars: 4.5
+stars: 4.4
 ratings: 12371
-reviews: 321
+reviews: 319
 size: 113M
 website: https://www.mexc.com
 repository: 

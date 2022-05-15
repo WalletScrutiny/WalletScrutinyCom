@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'PRO crypto exchange: trade BTC'
+title: 'PRO exchange: trade Bitcoin'
 altTitle: 
 authors:
 - danny

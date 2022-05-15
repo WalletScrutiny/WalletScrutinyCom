@@ -9,10 +9,10 @@ appId: io.metamask
 appCountry: 
 released: 2020-09-01
 updated: 2022-05-07
-version: 5.0.1
+version: 5.1.0
 stars: 4.6
 ratings: 57131
-reviews: 2322
+reviews: 2334
 size: 233M
 website: https://metamask.io
 repository: 
