@@ -12,7 +12,7 @@ updated: 2022-05-13
 version: 3.2.0
 stars: 4.3
 ratings: 2828
-reviews: 102
+reviews: 103
 size: 49M
 website: https://bingx.com
 repository: 

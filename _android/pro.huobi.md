@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: 'Huobi Global: Buy BTC & SHIB'
+title: Huobi：Buy Bitcoin, Luna&GMT
 altTitle: 
 authors:
 - leo

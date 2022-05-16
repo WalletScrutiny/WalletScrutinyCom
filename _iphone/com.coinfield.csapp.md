@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2021-07-27
 version: 2.6.0
 stars: 4.4
-reviews: 512
+reviews: 511
 size: '68434944'
 website: https://www.coinfield.com
 repository: 
