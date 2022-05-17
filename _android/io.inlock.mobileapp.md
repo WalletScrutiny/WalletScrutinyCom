@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-04
 updated: 2022-04-26
 version: 1.7.5
-stars: 4
+stars: 3.8
 ratings: 108
-reviews: 5
+reviews: 6
 size: 39M
 website: https://inlock.io/
 repository: 
