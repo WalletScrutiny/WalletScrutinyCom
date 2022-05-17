@@ -12,7 +12,7 @@ updated: 2022-05-05
 version: '3.33'
 stars: 4.3
 ratings: 89
-reviews: 10
+reviews: 11
 size: 40M
 website: https://tangem.com
 repository: 

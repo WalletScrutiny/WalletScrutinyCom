@@ -12,7 +12,7 @@ updated: 2022-04-27
 version: 4.12.12
 stars: 4
 ratings: 10676
-reviews: 546
+reviews: 545
 size: Varies with device
 website: https://www.klever.io/
 repository: 

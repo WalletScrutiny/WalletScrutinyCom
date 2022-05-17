@@ -3,7 +3,7 @@ wsId:
 title: Easy Bitcoin Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.easywallet.android
 appCountry: 
 released: 2021-11-08

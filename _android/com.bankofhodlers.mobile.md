@@ -12,7 +12,7 @@ updated: 2022-05-06
 version: 2.6.8
 stars: 4.3
 ratings: 8047
-reviews: 67
+reviews: 68
 size: 29M
 website: https://vauld.com
 repository: 
