@@ -3,6 +3,14 @@ const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
+var verdicts
+try {
+  const x = require('../_site/allVerdicts.js').verdicts
+  verdicts = Object.keys(x)
+} catch (e) {
+  console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
+  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource'.split(',')
+}
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
@@ -43,6 +51,9 @@ mv images/wallet_icons/${category}/{${header.icon},${newIcon}}`)
     } catch (e) {
       console.error(`# ${folder}${header.appId}.md: ${e}.`)
     }
+  }
+  if (!verdicts.includes(header.verdict)) {
+    console.error(`# ${folder}${header.appId}.md uses unknown verdict "${header.verdict}".`)
   }
 }; // crucial semicolon!
 
