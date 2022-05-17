@@ -10,9 +10,9 @@ appCountry: lv
 released: 2021-02-28
 updated: 2021-11-18
 version: '14'
-stars: 4.2
+stars: 4.1
 ratings: 154
-reviews: 41
+reviews: 42
 size: 40M
 website: http://nordfx.com
 repository: 

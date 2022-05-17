@@ -64,7 +64,7 @@ reproducibility at the time of the original release. As we do not know this
 account, we recommend people who don't know them neither to not use this version
 and wait for a future release that probably will be reproducible again.
 
-<hl>
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 We wrapped the findings from prior reviews in a {% include testScript.html %}
 which gave us these results:

@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: Huobi - Buy & Sell Bitcoin
+title: Huobi：Buy Bitcoin, Luna&GMT
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2022-04-16
-version: 6.9.2
+updated: 2022-05-16
+version: 6.9.7
 stars: 4.5
-reviews: 2027
-size: '396263424'
+reviews: 2017
+size: '397570048'
 website: http://www.hbg.com
 repository: 
 issue: 

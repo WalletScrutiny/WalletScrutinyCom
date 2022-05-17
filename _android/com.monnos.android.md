@@ -8,11 +8,11 @@ users: 10000
 appId: com.monnos.android
 appCountry: br
 released: 2019-09-17
-updated: 2022-04-20
-version: 5.4.3
+updated: 2022-05-13
+version: 5.4.4
 stars: 4
 ratings: 931
-reviews: 458
+reviews: 461
 size: 72M
 website: https://monnos.com
 repository: 

@@ -19,9 +19,9 @@ repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nonverifiable
-date: 2021-08-17
+date: 2022-05-09
 signer: 
 reviewArchive: 
 twitter: hodlwallet

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-11
+date: 2022-05-16
 signer: 
 reviewArchive: 
 twitter: 

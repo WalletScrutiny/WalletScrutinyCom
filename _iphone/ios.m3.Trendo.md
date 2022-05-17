@@ -1,6 +1,6 @@
 ---
 wsId: trendofx
-title: Analise Forex & Stock
+title: Forex Trading - Trendo
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
 released: 2020-09-29
-updated: 2022-04-10
-version: 2.8.60
+updated: 2022-05-16
+version: 2.8.81
 stars: 0
 reviews: 0
-size: '89507840'
+size: '87764992'
 website: 
 repository: 
 issue: 

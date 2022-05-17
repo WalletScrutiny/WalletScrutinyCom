@@ -11,7 +11,7 @@ updated: 2019-11-27
 version: '1.0'
 stars: 2.3
 ratings: 1855
-reviews: 34
+reviews: 35
 size: 16M
 website: https://coinsbit.io/
 repository: 

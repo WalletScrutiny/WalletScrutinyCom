@@ -7,7 +7,7 @@ users: 100
 appId: com.renzler
 appCountry: 
 released: 
-updated: 2022-04-14
+updated: 2022-05-16
 version: Varies with device
 stars: 
 ratings: 

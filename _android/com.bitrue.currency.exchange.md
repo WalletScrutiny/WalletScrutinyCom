@@ -4,15 +4,15 @@ title: Bitrue - Buy BTC XRP & Crypto
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bitrue.currency.exchange
 appCountry: 
 released: 2018-07-18
-updated: 2022-04-24
-version: 5.2.7
-stars: 3.3
+updated: 2022-05-06
+version: 5.2.8
+stars: 3.2
 ratings: 2703
-reviews: 309
+reviews: 311
 size: 44M
 website: https://www.bitrue.com/
 repository: 

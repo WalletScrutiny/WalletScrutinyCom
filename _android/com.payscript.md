@@ -7,8 +7,8 @@ users: 500
 appId: com.payscript
 appCountry: 
 released: 2020-10-13
-updated: 2022-03-16
-version: 0.3.3
+updated: 2022-05-13
+version: 0.3.5
 stars: 
 ratings: 
 reviews: 

@@ -1,5 +1,5 @@
 ---
-title: BitCard®️ 
+title: BitCard®️
 appId: bitcards
 authors:
 - danny
@@ -22,14 +22,15 @@ icon: bitcards.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-05-04
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: Bitcard_US
-social: 
-  - https://www.linkedin.com/company/bitcard/
-  - https://www.facebook.com/BitCardUS/
-  - https://www.instagram.com/bitcard_us/
+social:
+- https://www.linkedin.com/company/bitcard/
+- https://www.facebook.com/BitCardUS/
+- https://www.instagram.com/bitcard_us/
+
 ---
 
 ## Background 

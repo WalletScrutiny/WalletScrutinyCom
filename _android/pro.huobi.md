@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: 'Huobi Global: Buy BTC & SHIB'
+title: Huobi：Buy Bitcoin, Luna&GMT
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry:
 released: 2017-11-01
 updated: 2022-04-19
 version: 6.9.1
-stars: 5
+stars: 4.9
 ratings: 31840
-reviews: 475
+reviews: 490
 size: 154M
 website: http://www.hbg.com
 repository: 

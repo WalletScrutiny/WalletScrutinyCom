@@ -10,18 +10,18 @@ appCountry:
 released: 2018-05-15
 updated: 2021-05-16
 version: Varies with device
-stars: 4.4
+stars: 4.3
 ratings: 156
-reviews: 25
+reviews: 26
 size: Varies with device
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forcoinbase.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2022-05-13
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

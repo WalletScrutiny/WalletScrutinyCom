@@ -8,11 +8,11 @@ appId: com.koreadigit.flybit
 appCountry: us
 idd: 1570368673
 released: 2021-07-07
-updated: 2021-10-28
-version: 1.8.3
+updated: 2022-05-10
+version: 1.9.0
 stars: 0
 reviews: 0
-size: '34595840'
+size: '34470912'
 website: https://blog.naver.com/flybit
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2021-10-24
 version: 1.3.0
 stars: 5
 ratings: 
-reviews: 46
+reviews: 45
 size: 32M
 website: https://pocketbits.in/
 repository: 

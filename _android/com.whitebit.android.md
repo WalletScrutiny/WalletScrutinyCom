@@ -10,9 +10,9 @@ appCountry: ua
 released: 2019-06-07
 updated: 2022-04-30
 version: 2.9.4
-stars: 4
+stars: 4.3
 ratings: 1962
-reviews: 98
+reviews: 115
 size: 29M
 website: https://whitebit.com/
 repository: 

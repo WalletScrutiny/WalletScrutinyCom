@@ -12,7 +12,7 @@ released: 2020-06-08
 updated: 2022-04-22
 version: 1.3.5
 stars: 5
-reviews: 545
+reviews: 533
 size: '70328320'
 website: https://www.koinal.io
 repository: 

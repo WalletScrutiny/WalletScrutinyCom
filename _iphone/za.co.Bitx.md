@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: Luno Bitcoin & Cryptocurrency
+title: 'Luno: Buy and Sell Crypto App'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: za.co.Bitx
 appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2022-04-26
-version: 8.7.0
+updated: 2022-05-12
+version: 8.8.1
 stars: 4.4
-reviews: 3395
-size: '113948672'
+reviews: 3404
+size: '114618368'
 website: https://www.luno.com
 repository: 
 issue: 

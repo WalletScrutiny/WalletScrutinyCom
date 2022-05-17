@@ -10,8 +10,8 @@ idd: 1441373609
 released: 2019-01-21
 updated: 2022-03-31
 version: 02.00.22
-stars: 4.2
-reviews: 9
+stars: 3.9
+reviews: 10
 size: '108280832'
 website: http://starteos.io
 repository: 

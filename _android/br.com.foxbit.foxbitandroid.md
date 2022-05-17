@@ -10,9 +10,9 @@ appCountry: br
 released: 2019-01-28
 updated: 2022-04-27
 version: 2.23.0
-stars: 3.4
+stars: 3.3
 ratings: 6740
-reviews: 4856
+reviews: 4902
 size: 15M
 website: http://www.foxbit.com.br
 repository: 
