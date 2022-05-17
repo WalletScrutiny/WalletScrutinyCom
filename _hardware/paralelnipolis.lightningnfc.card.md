@@ -22,7 +22,7 @@ icon: paralelnipolis.lightningnfc.card.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-05-03
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

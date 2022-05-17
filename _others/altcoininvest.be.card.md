@@ -22,7 +22,7 @@ icon: altcoininvest.be.card.png
 bugbounty: 
 meta: ok
 verdict: vapor 
-date: 2022-05-02
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -22,7 +22,7 @@ icon: coincorner.boltcard.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-05-03
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: CoinCorner

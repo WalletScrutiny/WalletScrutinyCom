@@ -25,7 +25,7 @@ icon: ledger.nano.splus.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-05-02
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: Ledger

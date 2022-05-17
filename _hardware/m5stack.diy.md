@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2022-05-04
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

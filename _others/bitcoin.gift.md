@@ -22,7 +22,7 @@ icon: bitcoin.gift.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-04
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

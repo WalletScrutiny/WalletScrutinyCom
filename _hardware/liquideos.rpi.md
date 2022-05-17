@@ -23,7 +23,7 @@ icon: liquideos.rpi.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2022-05-02
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 
