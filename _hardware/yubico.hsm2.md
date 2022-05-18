@@ -25,7 +25,7 @@ icon: yubico.hsm2.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-05-06
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: Yubico

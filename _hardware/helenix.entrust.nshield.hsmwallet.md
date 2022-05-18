@@ -22,7 +22,7 @@ icon: helenix.entrust.nshield.hsmwallet.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-05-04
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: 

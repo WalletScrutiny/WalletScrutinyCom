@@ -22,7 +22,7 @@ icon: bitcoinpaperwallet.treasurechest.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-05-05
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: flowolf

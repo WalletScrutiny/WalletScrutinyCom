@@ -25,7 +25,7 @@ icon: bying.k1.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-05-06
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: Bying_official

@@ -22,7 +22,7 @@ icon: eos.cybex.coldwalletcard.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-05
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: EOSCYBEX

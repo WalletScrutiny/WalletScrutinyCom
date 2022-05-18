@@ -25,7 +25,7 @@ icon: dcentbackupcard.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2022-05-06
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: DCENTwallets
