@@ -47,4 +47,4 @@ Criticism of the product centers on the private key being printed on a piece of 
 
 > when the private key is created, It is never seen unencrypted....the codes that are pre-printed are never saved....anywhere!!! and covered with the scratch off as quickly as possible 
 
-All that would be needed would be the passphrase. Since this is a physical item and potential theft would center around physically stealing it, the possibility of an attacker coercing the holder to give up the passphrase to the encrypted private key is still there. A certain amount of trust also has to be placed on the provider.   
+As nobody can prove to not keep a copy of the keys, we have to file this as: **The provider potentially has the keys**.

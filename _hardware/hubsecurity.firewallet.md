@@ -24,7 +24,7 @@ issue:
 icon: hubsecurity.firewallet.png
 bugbounty: 
 meta: ok
-verdict: 
+verdict: wip
 date: 2022-05-07
 signer: 
 reviewArchive: 
@@ -78,6 +78,6 @@ social:
 
 We were not able to find documentation for the {{ page.title }}. We contacted them through [Twitter](https://twitter.com/BitcoinWalletz/status/1522773462187909120) to ask for more information.
 
-From the image, we can glean that it has a display. From the specifications we can glean that it connects to other devices via USB or Bluetooth. We do not know for certain if the device is able to go online. However, judging from the inclusion of a firewall, we believe that it can. The device has a 2.4" LCD touchscreen. 
+From the specifications we can glean that it connects to other devices via USB or Bluetooth. We do not know for certain if the device is able to go online. However, judging from the inclusion of a firewall, we believe that it can. The device has a 2.4" LCD touchscreen. 
 
-The ID-3 Service's last tweet was made in January 19, 2021. There are many missing pieces of information that we were not able to find. Until such time more information is available, we determine this device to be a **work-in- progress**.
+The ID-3 Service's last tweet was made in January 19, 2021. There are many missing pieces of information that we were not able to find. Until we hear back from them and resolve our doubts we leave this analysis as **work-in-progress**.
