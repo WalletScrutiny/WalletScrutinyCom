@@ -8,9 +8,9 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2022-05-09
-version: 1.32.0
-stars: 3.9
+updated: 2022-05-17
+version: 1.32.1
+stars: 3.8
 ratings: 13620
 reviews: 1868
 size: 77M

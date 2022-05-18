@@ -8,12 +8,12 @@ users: 100000
 appId: io.infinito.wallet
 appCountry: 
 released: 2017-11-15
-updated: 2022-03-29
-version: 2.36.8
+updated: 2022-05-17
+version: 2.36.9
 stars: 3.8
 ratings: 2198
 reviews: 110
-size: 65M
+size: 66M
 website: https://www.infinitowallet.io
 repository: 
 issue: 

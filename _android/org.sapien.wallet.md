@@ -8,8 +8,8 @@ users: 5000
 appId: org.sapien.wallet
 appCountry: us
 released: 2021-06-24
-updated: 2022-04-26
-version: 1.63.0
+updated: 2022-05-17
+version: 1.65.0
 stars: 
 ratings: 
 reviews: 

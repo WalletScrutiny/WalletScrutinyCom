@@ -12,16 +12,16 @@ updated: 2021-05-22
 version: 3.0.5
 stars: 2.6
 ratings: 1121
-reviews: 901
+reviews: 902
 size: 30M
 website: https://chiji14xchange.com
 repository: 
 issue: 
 icon: com.chiji14xchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-23
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: myrocketapp

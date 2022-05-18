@@ -12,7 +12,7 @@ updated: 2020-12-20
 version: 0.0.4a
 stars: 4.2
 ratings: 138
-reviews: 21
+reviews: 20
 size: 11M
 website: https://portals.nz
 repository: 

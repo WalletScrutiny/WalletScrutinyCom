@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-13
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: 

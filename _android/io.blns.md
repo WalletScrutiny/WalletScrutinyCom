@@ -3,7 +3,7 @@ wsId:
 title: blns
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: io.blns
 appCountry: 
 released: 2021-05-29

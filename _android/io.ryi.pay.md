@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 47M
-website: https://www.ryi-unity.com/
+website: https://ryipay.app
 repository: 
 issue: 
 icon: io.ryi.pay.png

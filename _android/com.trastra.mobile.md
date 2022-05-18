@@ -12,7 +12,7 @@ updated: 2022-05-09
 version: 2.7.3
 stars: 4.3
 ratings: 513
-reviews: 38
+reviews: 36
 size: 93M
 website: https://trastra.com/
 repository: 

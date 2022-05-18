@@ -10,9 +10,9 @@ appCountry: tr
 released: 2021-03-21
 updated: 2022-03-28
 version: 2.3.8
-stars: 4.3
+stars: 4.2
 ratings: 272
-reviews: 104
+reviews: 105
 size: 19M
 website: https://paritex.com/
 repository: 

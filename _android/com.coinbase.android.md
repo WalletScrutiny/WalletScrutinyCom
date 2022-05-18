@@ -12,7 +12,7 @@ updated: 2022-05-16
 version: 10.17.6
 stars: 4.1
 ratings: 666901
-reviews: 82370
+reviews: 82389
 size: Varies with device
 website: https://coinbase.com/
 repository: 

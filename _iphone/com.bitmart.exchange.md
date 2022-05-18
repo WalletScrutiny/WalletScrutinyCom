@@ -11,7 +11,7 @@ released: 2018-08-02
 updated: 2022-05-14
 version: 2.10.1
 stars: 3
-reviews: 3057
+reviews: 3060
 size: '117856256'
 website: https://www.bitmart.com/
 repository: 
