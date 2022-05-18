@@ -27,7 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-  - https://www.facebook.com/vejdiven/
+- https://www.facebook.com/vejdiven/
+
 ---
 
 ## Background

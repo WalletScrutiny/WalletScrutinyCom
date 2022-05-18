@@ -79,4 +79,4 @@ From Foundation's Twitter account:
 
 ## Analysis 
 
-This product is for verification. 
+[This product is for verification.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/396)
