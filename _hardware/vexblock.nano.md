@@ -22,7 +22,7 @@ icon: vexblock.nano.png
 bugbounty: 
 meta: defunct
 verdict: noita
-date: 2022-05-07
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: Vexblock

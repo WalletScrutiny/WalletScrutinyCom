@@ -22,7 +22,7 @@ icon: bitpiece.png
 bugbounty: 
 meta: obsolete
 verdict: prefilled
-date: 2022-05-12
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

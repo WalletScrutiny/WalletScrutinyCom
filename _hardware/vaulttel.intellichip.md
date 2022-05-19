@@ -22,7 +22,7 @@ icon: vaulttel.intellichip.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-14
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: vaulttel

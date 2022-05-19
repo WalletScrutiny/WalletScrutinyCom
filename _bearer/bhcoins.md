@@ -23,7 +23,7 @@ icon: bhcoins.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-05-11
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

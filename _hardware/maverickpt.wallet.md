@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-05-07
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: maverickpt

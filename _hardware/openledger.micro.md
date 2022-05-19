@@ -23,7 +23,7 @@ icon: openledger.micro.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2022-05-07
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: nraboy

@@ -22,7 +22,7 @@ icon: goldlinks.one.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-05-12
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: GoldlinksGlobal

@@ -22,7 +22,7 @@ icon: koinkeep.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-05-16
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: KoinKeep

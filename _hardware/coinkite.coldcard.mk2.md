@@ -22,7 +22,7 @@ icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: obsolete
 verdict: nonverifiable
-date: 2022-05-11
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet

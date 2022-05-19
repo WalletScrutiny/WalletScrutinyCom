@@ -22,7 +22,7 @@ icon: woodwallets.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: woodwallets

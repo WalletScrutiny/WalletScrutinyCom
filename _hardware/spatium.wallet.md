@@ -22,7 +22,7 @@ icon: spatium.wallet.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-29
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

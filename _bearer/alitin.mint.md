@@ -22,7 +22,7 @@ icon: alitin.mint.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-05-09
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

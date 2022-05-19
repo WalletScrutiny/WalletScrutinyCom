@@ -25,7 +25,7 @@ icon: sctechone.touchxwallet.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-05-14
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

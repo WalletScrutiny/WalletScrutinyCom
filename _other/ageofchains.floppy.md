@@ -22,7 +22,7 @@ icon: ageofchains.floppy.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
-date: 2022-05-12
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: ageofchains

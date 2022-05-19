@@ -25,7 +25,7 @@ icon: gotenna.samourai.txtenna.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-05-13
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: goTenna
