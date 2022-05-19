@@ -33,7 +33,7 @@ social:
 
 ---
 
-**⚠️ Note:** Although Bulwark may not have had an ICO, it had a premine. It also [rebranded](https://www.reddit.com/r/BulwarkCoin/comments/gd44yk/upcoming_move_to_ethereum_based_erc1363_token/) to a different coin name by swapping and changed many things concerning its online presence. There is very few information about their product and is most likely vaporware. 
+**⚠️ Note:** Although Bulwark may not have had an ICO, it had a pre-mine. It also [rebranded](https://www.reddit.com/r/BulwarkCoin/comments/gd44yk/upcoming_move_to_ethereum_based_erc1363_token/) to a different coin name by swapping and changing many things about its online presence. There is very little information about their product and is most likely vaporware. 
 
 ## Project Description
 
@@ -41,7 +41,7 @@ This description was taken from its [Medium post](https://medium.com/bulwark-cry
 
 > Aegis Hardware Wallet — The first standalone and open source hardware wallet on which users will be able to safely and securely store Bulwark. Hardware and software will be made open source upon launch. The goal with the Aegis Hardware Wallet is to allow the cryptocurrency community a cost-effective alternative to storing their coins without having to rely on larger companies that provide overpriced solutions on closed source hardware or closed source software for their hardware wallets. The Bulwark hardware wallet will be truly open source, meaning any coin can adapt it for their platform, expanding the reach of hardware wallet solutions, allowing anyone, regardless of choice of coin, to have access to the privacy and security benefits of using a hardware wallet.
 
-Since the website is no longer available, we endeavored to search for the device through Google Image search. It appears that the device is, or is very similar to a Banana Pi. 
+Since the website is no longer available, we endeavored to search for the device through Google Image search. It appears that the device is, or is very similar to a [Banana Pi BPI-M4](https://wiki.banana-pi.org/Banana_Pi_BPI-M4)
 
 From the sparse description we could find: 
 
@@ -52,6 +52,6 @@ From the sparse description we could find:
 
 ## Analysis 
 
-There is an organization on Github matching the [project](https://github.com/orgs/bulwark-crypto), however there is no [corresponding repository](https://github.com/orgs/bulwark-crypto/repositories?q=aegis&type=all&language=&sort=) for the AEGIS hardware wallet. Project completion as described in the post was supposed to be in 2020. Together with the fact that the website is no longer available, inactive social media assets and lack of specifications, we determine the {{ page.title }} as vaporware.
+There is an organization on Github matching the [project](https://github.com/orgs/bulwark-crypto), however there is no [corresponding repository](https://github.com/orgs/bulwark-crypto/repositories?q=aegis&type=all&language=&sort=) for the AEGIS hardware wallet. Project completion as described in the post was supposed to be in 2020. Together with the fact that the website is no longer available, inactive social media assets, and lack of specifications, we determine the {{ page.title }} as **vaporware**.
 
 

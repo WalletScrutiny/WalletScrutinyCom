@@ -41,7 +41,7 @@ social:
 It seems that {{ page.title }} is a generalist cryptocurrency/blockchain/ service company. Among its retinue of offerings include: 
 
 - Smart contract development 
-- Non Fungible Token (NFT) developments
+- Non-Fungible Token (NFT) developments
 - DeFi App Development
 - Initial Coin Offering Solutions
 - Custom Blockchain Developments

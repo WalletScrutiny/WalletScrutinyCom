@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 130
 - 93
 - 20
@@ -30,6 +30,7 @@ signer:
 reviewArchive: 
 twitter: AerCrypt
 social: 
+
 ---
 
 ## Product Description
@@ -58,5 +59,7 @@ social:
 ## Verdict
 
 While the project has reached its funding goal, [the shop is closed and](https://aercrypt.net/store) the homepage states that development is underway. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you <a href="https://twitter.com/hashtag/metrix?src=hash&amp;ref_src=twsrc%5Etfw">#metrix</a>!! The campaign is now over and we have reached our funding goal 🥳<br>Development plan details and roadmap to be published on the site soon; Stay tuned! <a href="https://t.co/n2zVGObJgF">pic.twitter.com/n2zVGObJgF</a></p>&mdash; AerCrypt (@AerCrypt) <a href="https://twitter.com/AerCrypt/status/1480061848191918084?ref_src=twsrc%5Etfw">January 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 {{ page.title }} is currently **unreleased.**

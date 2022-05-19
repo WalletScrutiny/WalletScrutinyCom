@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-- 1.23
-- 70.5
-- 13.3
+dimensions:
+- 1.2
+- 71
+- 13
 weight: 0.9
 provider: Hodllabs, Inc.
 providerWebsite: https://hodllabs.io/
@@ -21,7 +21,7 @@ country: US
 price: 
 repository: 
 issue: 
-icon: hodllabs.evault.png
+icon: hodllabs.vault.e.png
 bugbounty: 
 meta: ok
 verdict: unreleased
@@ -29,12 +29,13 @@ date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: hodllabs
-social: 
+social:
 - https://www.linkedin.com/company/hodllabs/
 - https://www.facebook.com/hodllabs
 - https://www.instagram.com/hodllabsinc/
 - https://www.youtube.com/channel/UCTrsJ00g7_pFrKqclRfuaCA
 - https://hodllabs.medium.com/
+
 ---
 
 **Note:** {{ page.title }} has a similar name to {% include walletLink.html wallet='hardware/evault' verdict='true' %}.
@@ -60,11 +61,11 @@ The package comes with the following:
 - Micro USB cable
 - Box
 
-Based on the video above, the device appears to have a display and a joystick button. It also has a Type-C jack and a micro USB port. The device can connect to a computer or a mobile device. It's form factor is very similar to that of {% include walletLink.html wallet='hardware/ledgerNanoS' verdict='true' %}. 
+Based on the video above, the device appears to have a display and a joystick button. It also has a Type-C jack and a micro USB port. The device can connect to a computer or a mobile device. It's form factor is very like that of {% include walletLink.html wallet='hardware/ledgerNanoS' verdict='true' %}. 
 
-Hodllabs' claims that the project is Open Source but we were [not able to find any repository](https://github.com/orgs/hodllabs/repositories) corroborating this. We asked for [more details](https://twitter.com/BitcoinWalletz/status/1526404072332398592) on Twitter. Hodllabs' Twitter account started posting sometime in August 2019. The [first blog post](https://hodllabs.io/blog.html) was also made during that time.
+Hodllabs claims the project is Open Source but we [weren't able to find any repository](https://github.com/orgs/hodllabs/repositories) to corroborate this. We asked for [more details](https://twitter.com/BitcoinWalletz/status/1526404072332398592) on Twitter. Hodllabs' Twitter account started posting sometime in August 2019. The [first blog post](https://hodllabs.io/blog.html) was also made during that time.
 
-But for now, based on the information we've collected, we believe that the {{ page.title }} is **not yet released**. 
+Based on the information we've collected, the {{ page.title }} is **not yet released**. 
 
 
 
