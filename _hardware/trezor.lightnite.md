@@ -24,7 +24,7 @@ issue:
 icon: trezor.lightnite.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: fewusers
 date: 2022-05-11
 signer: 
 reviewArchive: 

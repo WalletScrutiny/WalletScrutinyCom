@@ -67,4 +67,4 @@ It is also stated in the Terms that:
 
 > (The User) represents and warrants that Purchaser is not exchanging bitcoin (BTC) or XCP for Age of Chains Cards for the purpose of speculative investment
 
-Despite claims that it can also be used as a "regular Bitcoin wallet", we are filing this to *other*. A floppy disk is a storage medium with no secure element to protect the private keys. Needless to say, a floppy disk does not have a display interface nor buttons to confirm transactions with. It would also need a floppy drive to run. 
+Despite claims that it can also be used as a "regular Bitcoin wallet", we are filing this to *other*. 
