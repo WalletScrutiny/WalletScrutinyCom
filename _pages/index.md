@@ -13,28 +13,28 @@ author_profile: true
     <h1 style="text-align:center;margin-top:unset">What protects your Bitcoins from Hackers?</h1>
     <img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
     <p>
-      Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your product allows you to use "your"
-      coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
-      "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate back doors
-      or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
+      Do <strong>you</strong> really own your Bitcoins or do you just <strong>trust</strong> that your product allows you to use 
+      them while owned by the <strong>custodian</strong>? Do you have a backup? Do
+      "they" have a copy they didn't tell you about? Did anybody check the wallet for back doors
+      and <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
     </p><p>
-      We scrutinize wallets for free for new-coiners and whales alike,
-      trusting that people with most to lose would
-      provide us with the means to keep focusing on scrutinizing wallets.
+      We examine wallets, free of charge, for new-coiners and whales alike,
+      free of charge, trusting that people with the most to lose will
+      voluntarily support our ongoing efforts.
     </p><p>
-      In May 2021 we had received
-      one generous donation of 1.7BTC - the overwhelming contribution of the total of
-      1.9BTC we had received over those last 2.5 years.
-      With no significant donations received in the year since, we are now at a point
-      where we have to decide if this project is worth pursuing.
+      In May 2021, we received
+      one generous donation of 1.7BTC, which constitutes almost 90% of all the
+      support we’ve ever received over the past 2.5 years of operation.
+      Contributions have been scarce since then so we’re now at the point where
+      we have to decide whether or not the project should continue.
     </p><p>
-      Will you help to keep this project alive?
+      Will you help to keep WalletScrutiny alive?
     </p><p>
-      <a href="/?voteSupport=now">Yes, I will help WalletScrutiny today with a donation or content contributions!</a>
+      <a href="/?voteSupport=now">Yes, I will help WalletScrutiny today with a donation or content contribution!</a>
     </p><p>
       <a href="/?voteSupport=later">Yes, I will help but not today.</a>
     </p><p>
-      <a href="/?voteSupport=never">No, the project is kind of neat but not really important.</a>
+      <a href="/?voteSupport=never">No, the project just isn’t that important to me.</a>
     </p>
   </div>
 </div>
