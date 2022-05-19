@@ -10,9 +10,9 @@ appCountry:
 released: 2018-12-18
 updated: 2022-04-21
 version: 0.24.2
-stars: 3.8
+stars: 3.9
 ratings: 556
-reviews: 50
+reviews: 51
 size: 62M
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android

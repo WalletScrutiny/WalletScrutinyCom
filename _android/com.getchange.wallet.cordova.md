@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Simple Investment App'
+title: 'Change: Invest, Trade & DeFi'
 altTitle: 
 authors:
 - leo

@@ -8,12 +8,12 @@ users: 50000
 appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 appCountry: 
 released: 2021-04-29
-updated: 2021-10-16
-version: '1.3'
+updated: 2022-05-16
+version: '1.6'
 stars: 4.3
 ratings: 286
 reviews: 22
-size: 5.3M
+size: 21M
 website: https://rolltuk.blogspot.com/
 repository: 
 issue: 

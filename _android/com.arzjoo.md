@@ -17,7 +17,7 @@ size: 20M
 website: https://sarmayex.com
 repository: 
 issue: 
-icon: com.arzjoo.jpg
+icon: com.arzjoo.png
 bugbounty: 
 meta: ok
 verdict: custodial

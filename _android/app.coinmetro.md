@@ -12,7 +12,7 @@ updated: 2022-04-14
 version: 4.4.205
 stars: 3.2
 ratings: 419
-reviews: 75
+reviews: 76
 size: 41M
 website: https://coinmetro.com/
 repository: 

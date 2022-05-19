@@ -10,9 +10,9 @@ appCountry: us
 released: 2010-08-02
 updated: 2022-05-04
 version: 6.7.10.0
-stars: 4
+stars: 3.9
 ratings: 5176
-reviews: 343
+reviews: 344
 size: 269M
 website: http://www.thinkmarkets.com
 repository: 

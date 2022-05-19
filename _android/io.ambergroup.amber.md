@@ -12,7 +12,7 @@ updated: 2022-05-11
 version: 2.3.6
 stars: 4.9
 ratings: 2656
-reviews: 231
+reviews: 232
 size: 173M
 website: https://www.whalefin.com
 repository: 
