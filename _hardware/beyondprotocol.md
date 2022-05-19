@@ -36,7 +36,7 @@ social:
 
 ---
 
-**⚠️ Warning:** The Beyond Protocol project has a corresponding token [$BP](https://www.coinbase.com/price/beyond-protocol) that has gone from $79.30 USD to less than a cent (99.98%). $BP is an ERC20 token [first made available](https://beyondprotocol.medium.com/important-tge-updates-token-distribution-exchange-info-8bd64f3a48fd) on Uniswap on October 4, 2021.
+**⚠️ Warning:** The Beyond Protocol project has a corresponding token [$BP](https://www.coinbase.com/price/beyond-protocol) that has lost 99.98% of its value from $79.30 USD to less than a cent. $BP is an ERC20 token [first made available](https://beyondprotocol.medium.com/important-tge-updates-token-distribution-exchange-info-8bd64f3a48fd) on Uniswap on October 4, 2021.
 
 From [Bitcointalk:](https://bitcointalk.org/index.php?topic=5331942.0)
 

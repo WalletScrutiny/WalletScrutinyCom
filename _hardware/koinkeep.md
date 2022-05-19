@@ -98,3 +98,23 @@ The website is [no longer online](https://www.isitdownrightnow.com/koinkeep.com.
 - After a withdrawal transaction is created.
 - Before a transaction is published.
 - To ensure the transaction is not published, make your withdrawal transaction in an offline environment.
+
+The basic idea is that the user instead of using an online companion app to interface with his hardware wallet, the user uses yet another offline device to read and interpret the tx before it reaches an internet-connected device which indeed can solve the security issue of all our {% include verdictBadge.html verdict='noita' type='short' %} devices but at a huge cost:
+
+Normally:
+
+1. Create unsigned transaction on companion app on internet connected machine
+2. Verify details on hardware wallet
+3. Approve - Signed transaction gets sent back to companion app
+4. Companion app broadcasts
+
+Here:
+
+1. Create unsigned transaction on companion app on internet connected machine
+2. Blindly approve - Signed transaction gets sent to third device?
+3. Third device displays details. If those are ok, transfer the signed transaction to companion app
+4. Companion app broadcasts
+
+So here it is not clear if that third device sits between companion app and hardware wallet. If that is the case - the unsigned transaction is passed through the third device to the hardware wallet - the user is susceptible to that third device being compromised and showing X while getting signed and broadcast Y. If it does not see the transaction prior to HW signing it, the information flow gets even more complicated but the chances of a compromised "GateKeeper" doing harm vanish.
+
+All in all GateKeeper is a neat idea but doesn't save this product from a negative verdict regarding the lack of a display.

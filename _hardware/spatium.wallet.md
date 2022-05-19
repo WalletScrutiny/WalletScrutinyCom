@@ -49,6 +49,6 @@ social:
 
 ## Analysis
 
-The article mentioned above also claims you [can "check their progress in Spatium's Github repository"](https://github.com/orgs/CaspianTechnologies/repositories). We checked the provided GitHub profile and found that none of the repositories have not seen recent updates, and we could not find any directly relating to Spatium's firmware.
+The article mentioned above also claims you [can "check their progress in Spatium's Github repository"](https://github.com/orgs/CaspianTechnologies/repositories). We checked the provided GitHub profile and found that none of the repositories have seen recent updates, and we could not find any directly relating to Spatium's firmware.
 
 Spatium's code is not available for review. We believe that the most telling verdict is the **lack of a screen** on the {{ page.title }}'s picture. Note that in the video described above, it has a display and buttons.
