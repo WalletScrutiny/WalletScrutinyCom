@@ -61,7 +61,7 @@ drivers.
 
 ## Analysis 
 
-The [last tweet](https://twitter.com/GoldlinksGlobal/status/1194131880662056967) of the Goldlinks twitter account was made on November 12, 2019. The 'Buy' link for the hardware wallet, leads to a 404 page. The Goldlinks.one [domain will expire](https://www.eurodns.com/whois-search/one-domain-name) on January 1, 2025. The last [Medium post](https://medium.com/@GoldlinksGlobal/goldlinks%E5%85%AB%E6%9C%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%8B%95%E5%90%91-37c3b04f64d3) was made on September 2, 2019. Goldlinks' wallet app download also leads to a [404 page](https://www.goldlinks.one/walletdownload/index.html).
+The [last tweet](https://twitter.com/GoldlinksGlobal/status/1194131880662056967) of the Goldlinks twitter account was made on November 12, 2019. The 'Buy' link for the hardware wallet is broken. The last [Medium post](https://medium.com/@GoldlinksGlobal/goldlinks%E5%85%AB%E6%9C%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%8B%95%E5%90%91-37c3b04f64d3) was made on September 2, 2019. Goldlinks' wallet app download is [also broken](https://www.goldlinks.one/walletdownload/index.html).
 
 This information together with the delisting of the GGT on BitForex plus the subsequent loss of value of GGT from a high of [20 cents to 0.000427 cents](https://coinranking.com/coin/pQp728dTL7Id+globalgoldtoken-ggt), lead us to come to the conclusion that this hardware wallet **no longer exists**. 
 

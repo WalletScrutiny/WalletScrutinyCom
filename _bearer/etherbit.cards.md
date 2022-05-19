@@ -32,7 +32,7 @@ social:
 
 ## Background 
 
-Etherbit is an Indian reseller of various cryptocurrency hardware devices. They are the [official reseller](https://www.etherbit.in/pages/faq) for Trezor, Ledger, Safepal, Cryptotag and more, in India.
+Etherbit is an Indian reseller of various cryptocurrency hardware devices. They are [official resellers](https://www.etherbit.in/pages/faq) for Trezor, Ledger, Safepal, Cryptotag and more and provide back-links from these manufacturers to verify this fact.
 
 From the [description](https://www.etherbit.in/products/etherbit-card):
 
