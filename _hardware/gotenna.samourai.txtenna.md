@@ -35,7 +35,7 @@ social:
 
 ## Background Information
 
-goTenna partnered with {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} wallet to create offline and signed bitcoin transactions using a mesh network. The result is the {{ page.title }}. The TxTenna apk can be downloaded and installed on an Android device to be paired with a goTenna device. Users would have to buy a pair of goTenna devices. The two can communicate with each other provided these devices are within range. A farther range is only possible with the addition of devices to form a [mesh network](https://en.wikipedia.org/wiki/Mesh_networking).  
+goTenna [partnered](https://bitcoinmagazine.com/technical/gotenna-and-samourai-wallets-new-mobile-app-works-without-internet-access) with {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} wallet to create offline and signed bitcoin transactions using a mesh network. The result is the {{ page.title }}. The TxTenna apk can be downloaded and installed on an Android device to be paired with a goTenna device. Users would have to buy a pair of goTenna devices. The two can communicate with each other provided these devices are within range. A farther range is only possible with the addition of devices to form a [mesh network](https://en.wikipedia.org/wiki/Mesh_networking).  
 
 The app used to be available on [Google Play](https://play.google.com/store/apps/details?id=com.samourai.txtenna) but is now only available via [GitHub](https://github.com/MuleTools/txTenna/releases).
 
