@@ -11,7 +11,7 @@ released: 2020-11-28
 updated: 2022-04-26
 version: 2.37.2
 stars: 3.5
-reviews: 45
+reviews: 47
 size: '96210944'
 website: https://zebedee.io
 repository: 

@@ -11,7 +11,7 @@ released: 2018-08-15
 updated: 2022-03-26
 version: '5'
 stars: 4
-reviews: 21
+reviews: 20
 size: '80507904'
 website: https://bitcoinpoint.com
 repository: 

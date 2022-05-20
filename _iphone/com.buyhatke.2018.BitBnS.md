@@ -11,7 +11,7 @@ released: 2018-05-29
 updated: 2022-05-10
 version: 6.0.2
 stars: 3.3
-reviews: 717
+reviews: 720
 size: '48464896'
 website: https://bitbns.com
 repository: 

@@ -4,7 +4,7 @@ title: 'BoltX: Ethereum & Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
-users: 5000
+users: 10000
 appId: com.bolt.pegasus
 appCountry: 
 released: 2019-08-26

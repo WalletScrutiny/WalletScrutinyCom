@@ -3,7 +3,7 @@ wsId:
 title: BitBoxApp
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: ch.shiftcrypto.bitboxapp
 appCountry: 
 released: 2020-07-13
