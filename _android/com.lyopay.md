@@ -8,7 +8,7 @@ users: 10000
 appId: com.lyopay
 appCountry: eg
 released: 2020-10-02
-updated: 2022-05-16
+updated: 2022-05-19
 version: '1.0'
 stars: 
 ratings: 

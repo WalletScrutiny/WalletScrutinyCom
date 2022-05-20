@@ -1,6 +1,6 @@
 ---
 wsId: maiarwallet
-title: 'Maiar: Crypto & eGold Wallet - Buy, Earn & Pay'
+title: 'Maiar: Crypto & eGold Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2022-05-11
-version: 1.4.42
+updated: 2022-05-19
+version: 1.4.43
 stars: 4
 ratings: 6106
 reviews: 146

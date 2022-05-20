@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aic.cluster.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-05-20
 signer: 
 reviewArchive: 
 twitter: 
