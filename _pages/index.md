@@ -10,7 +10,8 @@ author_profile: true
 
 <div id="myModal" class="donate-modal">
   <div class="donate-modal-content">
-    <h1 style="text-align:center;margin-top:unset">What protects your Bitcoins from Hackers?</h1>
+    <h1 style="text-align:center;margin-top:unset">We are here to protect you, but today we need your help!</h1>
+    <h2 style="text-align:center;margin-top:unset">What protects your Bitcoins from Hackers?</h2>
     <img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
     <p>
       Do <strong>you</strong> really own your Bitcoins or do you just <strong>trust</strong> that your product allows you to use 
@@ -35,13 +36,28 @@ author_profile: true
       <a href="/?voteSupport=later">Yes, I will help but not today.</a>
     </p><p>
       <a href="/?voteSupport=never">No, the project just isn’t that important to me.</a>
+    </p><p>
+      (All three options give you full access as before. )
     </p>
   </div>
 </div>
 
 <script>
+function lsTest(){
+    var test = 'test';
+    try {
+        localStorage.setItem(test, test)
+        localStorage.removeItem(test)
+        return true
+    } catch(e) {
+        return false
+    }
+}
 window.addEventListener("scroll", () => {
   if (window.showingModal)
+    return
+  // don't bother people who disabled their localStorage completely
+  if( lsTest() !== true )
     return
   if (localStorage.getItem('support-vote'))
     return

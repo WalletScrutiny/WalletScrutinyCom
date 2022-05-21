@@ -17,14 +17,17 @@
 
 <!-- For all browsers -->
 <script>
-  if(!localStorage.getItem('colour-scheme')){
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      localStorage.setItem('colour-scheme','dark');
-    }else{
-      localStorage.setItem('colour-scheme','light');
-    }    
-  }
-window.theme = localStorage.getItem('colour-scheme');
+  window.theme = 'light'
+  try {
+    if(!localStorage.getItem('colour-scheme')){
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.setItem('colour-scheme','dark');
+      }else{
+        localStorage.setItem('colour-scheme','light');
+      }    
+    }
+    window.theme = localStorage.getItem('colour-scheme');
+  } catch (e) {}
 </script>
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/lato.css">
