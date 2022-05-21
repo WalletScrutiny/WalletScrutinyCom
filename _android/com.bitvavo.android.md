@@ -9,11 +9,11 @@ appId: com.bitvavo.android
 appCountry: nl
 released: 2020-08-19
 updated: 2022-05-16
-version: 2.0.257
+version: 2.0.272
 stars: 4.5
 ratings: 2272
-reviews: 1668
-size: 82M
+reviews: 1671
+size: 85M
 website: https://bitvavo.com/
 repository: 
 issue: 

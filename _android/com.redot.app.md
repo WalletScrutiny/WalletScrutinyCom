@@ -8,8 +8,8 @@ users: 1000
 appId: com.redot.app
 appCountry: 
 released: 2020-03-03
-updated: 2022-05-02
-version: 1.0.52
+updated: 2022-05-18
+version: 1.0.53
 stars: 4.3
 ratings: 37
 reviews: 3

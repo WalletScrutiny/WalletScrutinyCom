@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: NovaDAX - Buy & Sell Bitcoin and digital assets
+title: NovaDAX - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny

@@ -4,7 +4,7 @@ title: '7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.sevenb.terminal
 appCountry: 
 released: 2021-05-04
