@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-19
+date: 2022-05-21
 signer: 
 reviewArchive: 
 twitter: 

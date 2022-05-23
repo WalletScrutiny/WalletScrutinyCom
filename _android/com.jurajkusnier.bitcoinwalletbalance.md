@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2021-08-17
+date: 2022-05-22
 signer: 
 reviewArchive: 
 twitter: 

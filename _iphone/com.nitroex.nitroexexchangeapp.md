@@ -8,8 +8,8 @@ appId: com.nitroex.nitroexexchangeapp
 appCountry: tt
 idd: 1569267465
 released: 2021-07-05
-updated: 2022-03-07
-version: 2.0.5
+updated: 2022-05-17
+version: 2.0.7
 stars: 0
 reviews: 0
 size: '56274944'

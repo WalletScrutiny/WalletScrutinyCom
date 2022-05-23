@@ -9,9 +9,9 @@ appCountry:
 released: 2013-03-11
 updated: 2022-04-23
 version: 8.2.3
-stars: 4
+stars: 3.9
 ratings: 2110
-reviews: 179
+reviews: 181
 size: 4.7M
 website: http://www.brentpanther.com
 repository: 

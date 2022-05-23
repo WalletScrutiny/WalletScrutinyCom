@@ -7,12 +7,12 @@ users: 100
 appId: com.ansslimited.xwallet
 appCountry: 
 released: 2021-06-28
-updated: 2022-03-29
-version: 1.0.39
+updated: 2022-05-21
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 65M
 website: https://x-wallet.io
 repository: 
 issue: 

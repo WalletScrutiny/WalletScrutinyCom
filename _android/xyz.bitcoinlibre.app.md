@@ -12,7 +12,7 @@ updated: 2022-05-11
 version: 2.1.8
 stars: 3.9
 ratings: 2887
-reviews: 89
+reviews: 90
 size: 84M
 website: https://www.bitcoinlibre.io
 repository: 

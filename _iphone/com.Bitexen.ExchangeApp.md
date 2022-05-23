@@ -7,11 +7,11 @@ appId: com.Bitexen.ExchangeApp
 appCountry: 
 idd: 1388036461
 released: 2018-06-20
-updated: 2022-04-25
-version: '0.58'
+updated: 2022-05-20
+version: '0.59'
 stars: 3.8
 reviews: 5
-size: '53781504'
+size: '54122496'
 website: 
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.yopay.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-05-22
 signer: 
 reviewArchive: 
 twitter: 

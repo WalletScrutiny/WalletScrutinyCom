@@ -8,11 +8,11 @@ appId: com.fibermode.Mode-Wallet
 appCountry: gb
 idd: 1483284435
 released: 2019-11-26
-updated: 2022-05-10
-version: 5.3.14
+updated: 2022-05-19
+version: 5.3.15
 stars: 4.3
-reviews: 984
-size: '44872704'
+reviews: 985
+size: '44893184'
 website: https://www.modeapp.com
 repository: 
 issue: 

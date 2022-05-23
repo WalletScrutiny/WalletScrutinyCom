@@ -4,7 +4,7 @@ title: Cake Wallet
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.cakewallet.cake_wallet
 appCountry: 
 released: 2020-01-01
