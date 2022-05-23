@@ -12,7 +12,7 @@ updated: 2022-05-20
 version: 22.5.3.580
 stars: 4.2
 ratings: 17923
-reviews: 11423
+reviews: 11430
 size: 131M
 website: https://zipmex.co.th/
 repository: 
