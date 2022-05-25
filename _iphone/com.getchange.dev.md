@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Simple BTC Investing'
+title: 'Change: Invest in BTC & Gold'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.getchange.dev
 appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2022-05-16
-version: 20.16.1
+updated: 2022-05-23
+version: 20.17.1
 stars: 4.1
 reviews: 32
-size: '87532544'
+size: '87753728'
 website: https://www.changeinvest.com/
 repository: 
 issue: 
