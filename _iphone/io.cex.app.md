@@ -9,11 +9,11 @@ appId: io.cex.app
 appCountry: 
 idd: 1047225016
 released: 2015-12-22
-updated: 2022-05-12
-version: 7.6.7
+updated: 2022-05-24
+version: 7.6.8
 stars: 4.6
-reviews: 5089
-size: '72996864'
+reviews: 5095
+size: '72660992'
 website: https://cex.io
 repository: 
 issue: 

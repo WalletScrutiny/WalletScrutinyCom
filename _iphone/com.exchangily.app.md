@@ -10,8 +10,8 @@ idd: 1503068552
 released: 2020-03-23
 updated: 2022-05-10
 version: 2.1.56
-stars: 4.4
-reviews: 9
+stars: 4.1
+reviews: 10
 size: '94146560'
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
