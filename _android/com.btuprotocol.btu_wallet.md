@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: Verso Wallet - Crypto Web3 App
+title: Verso Wallet - Buy cryptos
 altTitle: 
 authors:
 - danny

@@ -10,7 +10,7 @@ appCountry: nl
 released: 2020-08-19
 updated: 2022-05-16
 version: 2.0.272
-stars: 4.4
+stars: 4.5
 ratings: 2272
 reviews: 1677
 size: 85M

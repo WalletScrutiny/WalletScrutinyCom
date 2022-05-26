@@ -8,12 +8,12 @@ users: 100000
 appId: com.hoo.qianbao
 appCountry: us
 released: 2021-03-17
-updated: 2022-05-22
-version: 4.7.64
-stars: 4
+updated: 2022-05-24
+version: 4.7.67
+stars: 4.1
 ratings: 749
 reviews: 76
-size: 48M
+size: 47M
 website: https://hoo.com
 repository: 
 issue: 

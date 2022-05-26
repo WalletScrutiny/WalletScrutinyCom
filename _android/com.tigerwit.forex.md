@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TigerWit – Forex Trading & More
+title: TigerWit – Forex Trading &More
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 500000
 appId: com.tigerwit.forex
 appCountry: 
 released: 2018-01-24
-updated: 2022-03-11
-version: 5.6.8
+updated: 2022-05-24
+version: 6.0.0
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 18M
 website: https://www.tigerwit.com
 repository: 
 issue: 

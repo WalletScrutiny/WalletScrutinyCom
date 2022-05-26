@@ -8,11 +8,11 @@ users: 100000
 appId: com.sigen.sigen
 appCountry: ru
 released: 2020-04-18
-updated: 2022-05-11
-version: 2.9.14
+updated: 2022-05-23
+version: 2.9.15
 stars: 4.4
 ratings: 22751
-reviews: 6305
+reviews: 6302
 size: 44M
 website: https://sigen.pro/
 repository: 

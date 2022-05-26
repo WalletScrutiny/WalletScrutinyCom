@@ -10,9 +10,9 @@ appCountry: cn
 released: 2018-10-16
 updated: 2022-05-13
 version: 5.15.1
-stars: 4.1
+stars: 4.2
 ratings: 756
-reviews: 561
+reviews: 564
 size: 41M
 website: https://dcentwallet.com/
 repository: 
