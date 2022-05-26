@@ -20,10 +20,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/127
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
-date: 2022-04-15
+verdict: reproducible
+date: 2022-05-26
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-04-15
+  version: 3.16.0
+  appHash: 5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d
+  gitRevision: f3bd5daeba2510277c9a10c3700686390dd1333a
+  verdict: reproducible
 - date: 2022-03-21
   version: 3.15.1
   appHash: ce55bb42ea14cc6e11dc4a802c9e045029cc15152458a41d9a8fd76b7f6064c4
@@ -164,29 +169,25 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.16.0
-apkVersionCode: 40213
+apkVersionName: 3.17.2
+apkVersionCode: 41719
 verdict:        reproducible
-appHash:        5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d
-commit:         8900bb58fee645f6489b3147e40d45a76003091f
+appHash:        8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0
+commit:         bef8ff57622047e48c060138109490875f8473aa
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 8900bb58fee645f6489b3147e40d45a76003091f
+object bef8ff57622047e48c060138109490875f8473aa
 type commit
-tag v3.16.0
-tagger Mike Godenzi  1648642887 +0200
+tag v3.17.2
+tagger Mike Godenzi  1652370558 +0200
 
-version 3.16.0
+version 3.17.2
 ===== End Results =====
 ```
 
 Which is what we want to see to give it the verdict **reproducible**.
-
-As the provider doesn't address
-[this issue](https://github.com/airgap-it/airgap-vault/issues/103)
-we recommend to be cautious when using this app.
