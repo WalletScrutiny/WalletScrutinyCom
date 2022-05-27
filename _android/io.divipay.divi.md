@@ -8,12 +8,12 @@ users: 10000
 appId: io.divipay.divi
 appCountry: gb
 released: 2021-04-28
-updated: 2021-12-30
+updated: 2022-05-22
 version: '1.13'
 stars: 4.9
 ratings: 273
 reviews: 9
-size: 49M
+size: 53M
 website: http://diviproject.org
 repository: 
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214

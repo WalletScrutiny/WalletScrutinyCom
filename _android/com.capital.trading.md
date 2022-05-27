@@ -10,9 +10,9 @@ appCountry:
 released: 2017-10-18
 updated: 2022-05-14
 version: 1.44.1
-stars: 4.6
+stars: 4.7
 ratings: 29536
-reviews: 13
+reviews: 14
 size: 31M
 website: https://capital.com
 repository: https://capital.com/

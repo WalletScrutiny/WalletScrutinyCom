@@ -8,8 +8,8 @@ users: 50000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2022-03-13
-version: 2.4.1 'Baldaŭ'
+updated: 2022-05-23
+version: 2.4.3 'Baldaŭ'
 stars: 3.1
 ratings: 821
 reviews: 158

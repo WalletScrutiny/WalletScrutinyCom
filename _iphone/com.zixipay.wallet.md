@@ -11,7 +11,7 @@ released: 2019-12-22
 updated: 2021-12-15
 version: '1.76'
 stars: 5
-reviews: 4
+reviews: 5
 size: '32985088'
 website: https://zixipay.com/
 repository: 

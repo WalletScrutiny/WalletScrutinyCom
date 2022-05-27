@@ -11,7 +11,7 @@ released: 2010-01-05
 updated: 2022-04-18
 version: '4.30'
 stars: 4.6
-reviews: 248
+reviews: 249
 size: '153463808'
 website: https://www.easymarkets.com/int/platforms/easymarkets-mobile-app/
 repository: 
