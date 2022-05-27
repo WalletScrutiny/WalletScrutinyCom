@@ -38,7 +38,7 @@ social:
 
 ---
 
-It seems that {{ page.title }} is a generalist cryptocurrency/blockchain/ service company. Among its retinue of offerings include: 
+It seems that {{ page.title }} is a company specialized in services around cryptocurrency and blockchain. Among its retinue of offerings include: 
 
 - Smart contract development 
 - Non-Fungible Token (NFT) developments

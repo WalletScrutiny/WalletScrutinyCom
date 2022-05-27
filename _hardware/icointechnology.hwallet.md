@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
+- https://icointechnology.com/news/
 - https://www.linkedin.com/company/icoin-technology/
 
 ---
@@ -85,7 +86,7 @@ iCoinTechnology used to have their device on Verizon's [store](https://www.veriz
 
 ## Can the private keys be created offline? - ✔️ 
 
-Yes. The [Quick Start Guide]((https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf)) describes the process: 
+Yes. The [Quick Start Guide](https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf) describes the process: 
 
 > Create a New Bitcoin Account
 1. Select BITCOIN on your wallet homescreen
