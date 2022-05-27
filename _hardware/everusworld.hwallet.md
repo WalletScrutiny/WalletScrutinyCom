@@ -54,6 +54,8 @@ From this [page](https://www.instagram.com/p/BZDtJg3hyPo/):
 
 ## Analysis 
 
+The device has a striking resemblance to {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %}.
+
 This project has ceased operations since its website has gone offline. In 2018, there were some comments alleging that the company has [not been communicating](https://bitcointalk.org/index.php?topic=2155630.msg40143227#msg40143227) with its investors: 
 
 > There is no communication between the company and investors.   All token holders are faced with declining value of EVR tokens below purchase price and left in the dark on the current project progress. We are the promised 5 exchanges in 5 countries? Everus Mall? How many have already been realized? These misses are eroding everyone's confidence compounded with the company keeping silent when they miss their targets.
