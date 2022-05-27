@@ -8,8 +8,8 @@ appId: com.hebeblock.hebewallet
 appCountry: us
 idd: 1453374447
 released: 2019-02-24
-updated: 2022-03-05
-version: 1.4.8
+updated: 2022-05-25
+version: 1.4.9
 stars: 3.9
 reviews: 13
 size: '114153472'

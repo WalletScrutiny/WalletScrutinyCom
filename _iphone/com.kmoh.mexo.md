@@ -11,7 +11,7 @@ released: 2021-03-01
 updated: 2022-05-11
 version: 2.2.8
 stars: 4.3
-reviews: 16
+reviews: 17
 size: '178880512'
 website: https://mexo.zendesk.com/hc/es-mx
 repository: 

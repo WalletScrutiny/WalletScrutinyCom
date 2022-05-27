@@ -1,6 +1,6 @@
 ---
 wsId: Bitstamp
-title: Bitstamp – Crypto on the go
+title: Bitstamp - Buy BTC and more
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2022-03-24
-version: 3.5.1
+updated: 2022-05-26
+version: '3.6'
 stars: 4.8
-reviews: 4955
-size: '91491328'
+reviews: 4959
+size: '92318720'
 website: https://www.bitstamp.net/
 repository: 
 issue: 
