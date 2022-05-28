@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 4.3
 ratings: 194
 reviews: 12
-size: 21M
+size: 
 website: https://dfox.cc/
 repository: 
 issue: 

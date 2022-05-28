@@ -13,7 +13,7 @@ version: '3.8'
 stars: 4.2
 ratings: 18826
 reviews: 31
-size: 60M
+size: 
 website: http://www.bitkub.com
 repository: 
 issue: 

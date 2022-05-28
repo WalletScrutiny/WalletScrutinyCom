@@ -13,7 +13,7 @@ version: 11.5.0
 stars: 4.5
 ratings: 152
 reviews: 24
-size: 3.5M
+size: 
 website: https://bitcoinofamerica.org/
 repository: 
 issue: 

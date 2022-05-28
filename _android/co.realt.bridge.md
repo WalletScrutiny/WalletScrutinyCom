@@ -13,7 +13,7 @@ version: '1.20'
 stars: 
 ratings: 
 reviews: 
-size: 167M
+size: 
 website: https://realt.co
 repository: 
 issue: 

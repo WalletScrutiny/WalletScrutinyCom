@@ -13,7 +13,7 @@ version: 2.9.0
 stars: 
 ratings: 
 reviews: 
-size: 84M
+size: 
 website: https://raidofinance.eu/
 repository: 
 issue: 

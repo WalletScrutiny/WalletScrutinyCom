@@ -13,7 +13,7 @@ version: 2.8.2
 stars: 4.2
 ratings: 57
 reviews: 8
-size: 5.0M
+size: 
 website: 
 repository: 
 issue: 

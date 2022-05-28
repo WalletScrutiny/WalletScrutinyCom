@@ -13,7 +13,7 @@ version: 1.0.75
 stars: 3.5
 ratings: 600
 reviews: 242
-size: 6.5M
+size: 
 website: https://www.bitclover.io/
 repository: 
 issue: 

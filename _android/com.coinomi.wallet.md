@@ -13,7 +13,7 @@ version: 1.26.0
 stars: 4.4
 ratings: 39950
 reviews: 2059
-size: 44M
+size: 
 website: https://www.Coinomi.com
 repository: 
 issue: 

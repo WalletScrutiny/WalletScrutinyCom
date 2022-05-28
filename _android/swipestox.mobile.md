@@ -13,7 +13,7 @@ version: 8.0.245
 stars: 3.4
 ratings: 5636
 reviews: 194
-size: 121M
+size: 
 website: http://www.naga.com
 repository: 
 issue: 

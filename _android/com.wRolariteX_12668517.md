@@ -12,7 +12,7 @@ version: 1.0.58
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://www.bitcoin.rolarite.com
 repository: 
 issue: 

@@ -12,12 +12,12 @@ updated: 2022-05-18
 version: 429.0.0
 stars: 4.2
 ratings: 111823
-reviews: 2876
-size: 59M
+reviews: 2879
+size: 
 website: https://www.etoro.com/
 repository: 
 issue: 
-icon: com.etoro.openbook.png
+icon: com.etoro.openbook.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

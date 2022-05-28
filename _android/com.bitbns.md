@@ -13,7 +13,7 @@ version: 6.4.0
 stars: 3.6
 ratings: 15779
 reviews: 33
-size: 40M
+size: 
 website: https://bitbns.com/
 repository: 
 issue: 

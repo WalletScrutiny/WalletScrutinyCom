@@ -12,7 +12,7 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://www.xsats.com
 repository: 
 issue: 

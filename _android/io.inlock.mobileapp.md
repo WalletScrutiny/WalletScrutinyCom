@@ -13,7 +13,7 @@ version: 1.7.5
 stars: 3.9
 ratings: 108
 reviews: 6
-size: 39M
+size: 
 website: https://inlock.io/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.1.0
 stars: 3.5
 ratings: 1945
 reviews: 71
-size: 48M
+size: 
 website: https://www.mxc.org
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://bitbuddy.app
 repository: 
 issue: 

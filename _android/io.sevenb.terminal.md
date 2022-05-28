@@ -13,7 +13,7 @@ version: 0.1.267
 stars: 3.6
 ratings: 56
 reviews: 4
-size: 13M
+size: 
 website: https://sevenb.io/
 repository: 
 issue: 

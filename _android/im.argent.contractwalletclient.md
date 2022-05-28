@@ -13,7 +13,7 @@ version: 4.5.8137
 stars: 4.6
 ratings: 3252
 reviews: 329
-size: 50M
+size: 
 website: https://www.argent.xyz
 repository: 
 issue: 

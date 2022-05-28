@@ -13,7 +13,7 @@ version: '2'
 stars: 
 ratings: 
 reviews: 
-size: 6.6M
+size: 
 website: https://tradessignal.com
 repository: 
 issue: 

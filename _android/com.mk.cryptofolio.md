@@ -13,7 +13,7 @@ version: 1.0.51
 stars: 
 ratings: 
 reviews: 
-size: 8.0M
+size: 
 website: http://www.thecryptofolioapp.com
 repository: 
 issue: 

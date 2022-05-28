@@ -12,7 +12,7 @@ version: v8.0
 stars: 
 ratings: 
 reviews: 
-size: 6.7M
+size: 
 website: 
 repository: 
 issue: 

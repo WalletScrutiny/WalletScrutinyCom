@@ -12,7 +12,7 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 2.7M
+size: 
 website: http://app.forextoolsapp.com
 repository: 
 issue: 

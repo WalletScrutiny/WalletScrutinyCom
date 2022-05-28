@@ -12,7 +12,7 @@ version: 1.0.0.37
 stars: 
 ratings: 
 reviews: 
-size: 59M
+size: 
 website: https://crypshark.com/
 repository: 
 issue: 

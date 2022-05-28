@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: https://gopay.mn
 repository: 
 issue: 

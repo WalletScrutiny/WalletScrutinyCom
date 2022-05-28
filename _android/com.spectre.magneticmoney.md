@@ -13,7 +13,7 @@ version: 2.2.8
 stars: 
 ratings: 
 reviews: 
-size: 4.1M
+size: 
 website: https://magnetic-money.org
 repository: 
 issue: 

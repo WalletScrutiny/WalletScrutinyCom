@@ -13,7 +13,7 @@ version: 1.9.2
 stars: 4.4
 ratings: 5332
 reviews: 88
-size: 75M
+size: 
 website: https://bitpapa.com
 repository: 
 issue: 

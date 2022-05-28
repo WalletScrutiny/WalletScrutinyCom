@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 31M
+size: 
 website: https://iminerator.com
 repository: 
 issue: 

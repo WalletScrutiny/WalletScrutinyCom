@@ -9,11 +9,11 @@ appId: zapsolutions.zap
 appCountry: 
 released: 
 updated: 2022-03-20
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android
 issue: https://github.com/LN-Zap/zap-android/issues/161

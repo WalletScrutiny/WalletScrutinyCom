@@ -12,7 +12,7 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 49M
+size: 
 website: https://blockfort.co.uk/
 repository: 
 issue: 

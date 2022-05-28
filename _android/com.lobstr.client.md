@@ -10,10 +10,10 @@ appCountry: us
 released: 2015-04-27
 updated: 2022-04-26
 version: 8.1.1
-stars: 4.8
+stars: 4.7
 ratings: 11618
-reviews: 1292
-size: 35M
+reviews: 1293
+size: 
 website: https://lobstr.co/
 repository: 
 issue: 

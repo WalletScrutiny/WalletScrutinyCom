@@ -13,7 +13,7 @@ version: 3.5.8
 stars: 3.8
 ratings: 2774
 reviews: 60
-size: 34M
+size: 
 website: https://exmo.com/
 repository: 
 issue: 

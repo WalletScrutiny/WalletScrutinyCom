@@ -13,7 +13,7 @@ version: 2.0.26
 stars: 4.8
 ratings: 3900
 reviews: 35
-size: 106M
+size: 
 website: https://quppy.com/
 repository: 
 issue: 

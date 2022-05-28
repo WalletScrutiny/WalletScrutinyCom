@@ -13,7 +13,7 @@ version: '1.7'
 stars: 4.3
 ratings: 286
 reviews: 22
-size: 21M
+size: 
 website: https://rolltuk.blogspot.com/
 repository: 
 issue: 

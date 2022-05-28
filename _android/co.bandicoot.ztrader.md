@@ -12,7 +12,7 @@ version: 1.2.2
 stars: 3.4
 ratings: 1211
 reviews: 166
-size: 3.2M
+size: 
 website: 
 repository: 
 issue: 

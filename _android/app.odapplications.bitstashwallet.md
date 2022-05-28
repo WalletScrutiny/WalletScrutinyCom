@@ -12,7 +12,7 @@ version: 0.0.3
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://payments.bitstash.co/
 repository: 
 issue: 

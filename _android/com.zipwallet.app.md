@@ -13,7 +13,7 @@ version: 10.1.8
 stars: 4
 ratings: 621
 reviews: 13
-size: 11M
+size: 
 website: https://zipwalletpay.com
 repository: 
 issue: 

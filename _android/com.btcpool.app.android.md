@@ -13,7 +13,7 @@ version: 2.2.0
 stars: 3.8
 ratings: 261
 reviews: 13
-size: 35M
+size: 
 website: https://btc.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: https://evraon.com
 repository: 
 issue: 

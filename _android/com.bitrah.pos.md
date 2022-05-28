@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://bitrah.com/
 repository: 
 issue: 

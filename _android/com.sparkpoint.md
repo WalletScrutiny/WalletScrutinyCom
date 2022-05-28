@@ -14,7 +14,7 @@ version: 9.1.0
 stars: 3.8
 ratings: 608
 reviews: 69
-size: 77M
+size: 
 website: https://sparkpoint.io/
 repository: 
 issue: 

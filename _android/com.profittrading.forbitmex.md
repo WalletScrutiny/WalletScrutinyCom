@@ -10,10 +10,10 @@ appCountry:
 released: 2019-06-11
 updated: 2022-05-19
 version: 6.0.3
-stars: 4.5
+stars: 4.3
 ratings: 348
-reviews: 6
-size: 25M
+reviews: 7
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

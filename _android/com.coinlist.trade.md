@@ -13,7 +13,7 @@ version: 2.0.8
 stars: 2.8
 ratings: 4377
 reviews: 193
-size: 5.8M
+size: 
 website: https://coinlist.co/
 repository: 
 issue: 

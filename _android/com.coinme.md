@@ -12,8 +12,8 @@ updated: 2022-05-20
 version: 1.9.5
 stars: 4.2
 ratings: 782
-reviews: 279
-size: 105M
+reviews: 282
+size: 
 website: https://www.coinme.com
 repository: 
 issue: 

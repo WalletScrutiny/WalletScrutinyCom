@@ -13,7 +13,7 @@ version: 2.1.9
 stars: 4.5
 ratings: 401
 reviews: 39
-size: 50M
+size: 
 website: http://www.mexo.io
 repository: 
 issue: 

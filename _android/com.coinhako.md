@@ -13,7 +13,7 @@ version: 4.3.4
 stars: 2.4
 ratings: 3064
 reviews: 16
-size: 44M
+size: 
 website: https://coinhako.com
 repository: 
 issue: 

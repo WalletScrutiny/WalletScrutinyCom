@@ -13,7 +13,7 @@ version: 1.2.6
 stars: 
 ratings: 
 reviews: 
-size: 33M
+size: 
 website: https://changecoins.io/
 repository: 
 issue: 

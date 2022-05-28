@@ -13,7 +13,7 @@ version: '3.67'
 stars: 3.4
 ratings: 380
 reviews: 3
-size: 7.1M
+size: 
 website: http://sticpay.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 6.3.4
 stars: 3.8
 ratings: 7353
 reviews: 168
-size: 9.2M
+size: 
 website: https://ok-ex.co
 repository: 
 issue: 

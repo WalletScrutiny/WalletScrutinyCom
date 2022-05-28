@@ -9,11 +9,11 @@ appId: com.payeer
 appCountry: 
 released: 2018-01-03
 updated: 2020-12-24
-version: Varies with device
+version: VARY
 stars: 4.2
 ratings: 36999
 reviews: 159
-size: Varies with device
+size: 
 website: https://payeer.com
 repository: 
 issue: 

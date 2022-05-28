@@ -12,7 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 8.6M
+size: 
 website: https://www.pccryptomarket.com
 repository: 
 issue: 

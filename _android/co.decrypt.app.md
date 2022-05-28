@@ -14,7 +14,7 @@ version: 3.0.1
 stars: 4.2
 ratings: 2220
 reviews: 223
-size: 32M
+size: 
 website: https://decrypt.co/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.0.0.0
 stars: 4.9
 ratings: 474
 reviews: 17
-size: 2.6M
+size: 
 website: http://exchange.cryptex.net/
 repository: 
 issue: 

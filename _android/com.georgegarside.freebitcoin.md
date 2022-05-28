@@ -13,7 +13,7 @@ version: 3.1.1
 stars: 2.8
 ratings: 129
 reviews: 8
-size: 4.9M
+size: 
 website: https://georgegarside.com
 repository: 
 issue: 

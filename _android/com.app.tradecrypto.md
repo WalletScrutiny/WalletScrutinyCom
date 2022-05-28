@@ -12,7 +12,7 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 8.5M
+size: 
 website: http://www.tradecrypto.asia
 repository: 
 issue: 

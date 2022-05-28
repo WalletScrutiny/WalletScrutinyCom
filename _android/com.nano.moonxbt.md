@@ -13,7 +13,7 @@ version: 4.0.2
 stars: 4.2
 ratings: 481
 reviews: 10
-size: 37M
+size: 
 website: https://www.moonxbt.com
 repository: 
 issue: 

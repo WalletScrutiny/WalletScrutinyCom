@@ -13,7 +13,7 @@ version: '0.82'
 stars: 3.6
 ratings: 
 reviews: 2
-size: 22M
+size: 
 website: https://blockchain.mn
 repository: 
 issue: 

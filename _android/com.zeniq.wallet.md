@@ -9,11 +9,11 @@ appId: com.zeniq.wallet
 appCountry: 
 released: 
 updated: 2022-05-24
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://zeniq.com/
 repository: 
 issue: 

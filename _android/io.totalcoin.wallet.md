@@ -13,7 +13,7 @@ version: 5.1.1
 stars: 3.8
 ratings: 7981
 reviews: 64
-size: 37M
+size: 
 website: http://totalcoin.io
 repository: 
 issue: 

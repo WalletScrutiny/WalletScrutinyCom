@@ -12,7 +12,7 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 65M
+size: 
 website: https://x-wallet.io
 repository: 
 issue: 

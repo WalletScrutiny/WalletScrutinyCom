@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
+size: 
 website: https://medooza.io
 repository: 
 issue: 

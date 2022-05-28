@@ -12,7 +12,7 @@ version: '1.0'
 stars: 4.4
 ratings: 93
 reviews: 9
-size: 1.6M
+size: 
 website: https://qbita.org
 repository: 
 issue: 

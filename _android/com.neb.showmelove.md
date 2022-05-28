@@ -8,11 +8,11 @@ appId: com.neb.showmelove
 appCountry: 
 released: 
 updated: 2020-09-16
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://nebpay.io
 repository: 
 issue: 

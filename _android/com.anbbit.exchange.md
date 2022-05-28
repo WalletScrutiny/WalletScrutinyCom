@@ -12,7 +12,7 @@ version: 1.1.2
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://anbbit.com
 repository: 
 issue: 

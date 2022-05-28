@@ -8,11 +8,11 @@ appId: com.onyze.wallet
 appCountry: 
 released: 
 updated: 2020-07-14
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://onyze.com/
 repository: 
 issue: 

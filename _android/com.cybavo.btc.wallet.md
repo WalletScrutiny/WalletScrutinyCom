@@ -12,7 +12,7 @@ version: 1.0.3060
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 
 website: https://www.cybavo.com/
 repository: 
 issue: 

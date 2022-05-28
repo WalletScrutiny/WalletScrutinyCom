@@ -13,7 +13,7 @@ version: '5.2'
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: https://techpay.io/
 repository: 
 issue: 

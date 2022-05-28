@@ -13,7 +13,7 @@ version: 1.9.3
 stars: 3.8
 ratings: 105
 reviews: 41
-size: 42M
+size: 
 website: https://www.bitcoindepot.com/
 repository: 
 issue: 

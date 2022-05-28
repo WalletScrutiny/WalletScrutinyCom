@@ -12,7 +12,7 @@ version: 8.2.3
 stars: 3.9
 ratings: 2110
 reviews: 181
-size: 4.7M
+size: 
 website: http://www.brentpanther.com
 repository: 
 issue: 

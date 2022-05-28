@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 2.5M
+size: 
 website: https://mybtc.ng
 repository: 
 issue: 

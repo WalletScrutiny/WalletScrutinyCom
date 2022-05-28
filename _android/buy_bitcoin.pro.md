@@ -12,7 +12,7 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 3.7M
+size: 
 website: https://buy-bitcoin.pro
 repository: 
 issue: 

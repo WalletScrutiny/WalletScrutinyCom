@@ -14,7 +14,7 @@ version: 3.0.66.1
 stars: 
 ratings: 
 reviews: 
-size: 36M
+size: 
 website: https://spatium.net/
 repository: 
 issue: 

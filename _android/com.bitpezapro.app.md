@@ -13,7 +13,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 3.0M
+size: 
 website: https://bekonta.com
 repository: 
 issue: 

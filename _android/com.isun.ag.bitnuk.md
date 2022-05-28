@@ -12,7 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 51M
+size: 
 website: https://bitnuk.com/
 repository: 
 issue: 

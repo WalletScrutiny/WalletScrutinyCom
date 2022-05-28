@@ -12,7 +12,7 @@ version: 2.3.0
 stars: 4.6
 ratings: 3701
 reviews: 102
-size: 60M
+size: 
 website: https://www.sologenic.com/
 repository: 
 issue: 

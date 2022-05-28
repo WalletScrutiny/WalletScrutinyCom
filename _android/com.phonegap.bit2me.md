@@ -13,7 +13,7 @@ version: 2.2.12
 stars: 4.4
 ratings: 5162
 reviews: 322
-size: 60M
+size: 
 website: https://bit2me.com
 repository: 
 issue: 

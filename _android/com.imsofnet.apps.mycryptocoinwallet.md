@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 9.3M
+size: 
 website: https://www.imsofnet.com
 repository: 
 issue: 

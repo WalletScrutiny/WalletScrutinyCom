@@ -13,7 +13,7 @@ version: 3.6.0
 stars: 4.6
 ratings: 2137
 reviews: 45
-size: 65M
+size: 
 website: https://www.hb-wallet.com/
 repository: 
 issue: 

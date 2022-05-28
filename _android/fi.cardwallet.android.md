@@ -13,7 +13,7 @@ version: '1.10'
 stars: 
 ratings: 
 reviews: 
-size: 30M
+size: 
 website: https://cwallet.finance/
 repository: 
 issue: 

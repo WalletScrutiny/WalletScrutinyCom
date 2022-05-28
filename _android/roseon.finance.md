@@ -13,7 +13,7 @@ version: 2.3.30
 stars: 4.8
 ratings: 578
 reviews: 34
-size: 92M
+size: 
 website: http://roseon.world
 repository: 
 issue: 

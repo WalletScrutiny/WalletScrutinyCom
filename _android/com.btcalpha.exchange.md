@@ -13,7 +13,7 @@ version: 1.11.1
 stars: 4.2
 ratings: 
 reviews: 2
-size: 35M
+size: 
 website: https://btc-alpha.com/
 repository: 
 issue: 

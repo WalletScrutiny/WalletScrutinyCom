@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.3M
+size: 
 website: https://4ange.me/
 repository: 
 issue: 

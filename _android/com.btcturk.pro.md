@@ -9,11 +9,11 @@ appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
 updated: 2022-05-23
-version: Varies with device
+version: VARY
 stars: 4.3
 ratings: 169442
-reviews: 207
-size: Varies with device
+reviews: 208
+size: 
 website: https://pro.btcturk.com
 repository: 
 issue: 

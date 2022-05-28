@@ -13,7 +13,7 @@ version: 1.07.77
 stars: 4.8
 ratings: 934
 reviews: 38
-size: 6.6M
+size: 
 website: https://pagosalinstante.com
 repository: 
 issue: 

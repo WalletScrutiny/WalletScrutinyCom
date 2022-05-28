@@ -12,7 +12,7 @@ version: '2.6'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://deviantcoin.io
 repository: 
 issue: 

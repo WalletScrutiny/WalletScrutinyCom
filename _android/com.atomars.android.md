@@ -12,7 +12,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 960k
+size: 
 website: https://atomars.com
 repository: 
 issue: 

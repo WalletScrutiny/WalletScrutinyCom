@@ -12,7 +12,7 @@ version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 6.5M
+size: 
 website: https://xeliuqa.app
 repository: 
 issue: 

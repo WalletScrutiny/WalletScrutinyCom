@@ -8,12 +8,12 @@ users: 10000
 appId: io.ducatus.walnew
 appCountry: 
 released: 2019-12-05
-updated: 2022-05-24
-version: 2.10.15
+updated: 2022-05-27
+version: 2.10.17
 stars: 3.8
 ratings: 346
 reviews: 6
-size: 28M
+size: 
 website: https://ducatus.net/
 repository: 
 issue: 

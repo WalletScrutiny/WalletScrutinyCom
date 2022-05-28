@@ -13,7 +13,7 @@ version: 2.1.0
 stars: 
 ratings: 
 reviews: 
-size: 9.4M
+size: 
 website: https://www.moneybrain.com
 repository: 
 issue: 

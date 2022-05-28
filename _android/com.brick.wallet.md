@@ -12,7 +12,7 @@ version: 2.0.3
 stars: 
 ratings: 
 reviews: 
-size: 51M
+size: 
 website: https://brick.global
 repository: 
 issue: 

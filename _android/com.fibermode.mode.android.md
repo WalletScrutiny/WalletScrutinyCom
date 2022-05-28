@@ -13,7 +13,7 @@ version: 2.4.3
 stars: 3.3
 ratings: 372
 reviews: 167
-size: 149M
+size: 
 website: https://www.modeapp.com
 repository: 
 issue: 

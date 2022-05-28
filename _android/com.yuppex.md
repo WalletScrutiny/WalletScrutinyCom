@@ -12,7 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 7.5M
+size: 
 website: https://yuppex.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.0.30
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://pro1.trading/
 repository: 
 issue: 

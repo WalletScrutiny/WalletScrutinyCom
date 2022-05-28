@@ -13,7 +13,7 @@ version: 2.9.94
 stars: 3.7
 ratings: 372
 reviews: 10
-size: 82M
+size: 
 website: https://iflux.app
 repository: 
 issue: 

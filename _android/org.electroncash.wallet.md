@@ -12,7 +12,7 @@ version: 4.2.5-5
 stars: 4.3
 ratings: 191
 reviews: 10
-size: 36M
+size: 
 website: https://electroncash.org
 repository: 
 issue: 

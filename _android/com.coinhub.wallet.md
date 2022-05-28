@@ -13,7 +13,7 @@ version: 2.3.8
 stars: 4.1
 ratings: 869
 reviews: 33
-size: 51M
+size: 
 website: https://www.coinhub.org
 repository: 
 issue: 

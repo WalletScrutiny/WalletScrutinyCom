@@ -12,7 +12,7 @@ version: '8.0'
 stars: 
 ratings: 
 reviews: 
-size: 6.9M
+size: 
 website: https://forgingblock.io
 repository: 
 issue: 

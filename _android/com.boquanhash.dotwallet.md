@@ -13,7 +13,7 @@ version: 2.15.2
 stars: 
 ratings: 
 reviews: 
-size: 49M
+size: 
 website: https://www.dotwallet.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.9.19
 stars: 3.5
 ratings: 9232
 reviews: 8
-size: 30M
+size: 
 website: https://coinone.co.kr
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 4.6
 ratings: 15329
 reviews: 545
-size: 32M
+size: 
 website: https://pay98.app/
 repository: 
 issue: 

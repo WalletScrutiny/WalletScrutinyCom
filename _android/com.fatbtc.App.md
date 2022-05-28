@@ -13,7 +13,7 @@ version: '2.45'
 stars: 2.5
 ratings: 160
 reviews: 11
-size: 22M
+size: 
 website: https://www.fatbtc.com
 repository: 
 issue: 

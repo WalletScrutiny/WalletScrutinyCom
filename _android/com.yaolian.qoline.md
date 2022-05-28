@@ -13,7 +13,7 @@ version: 1.9.9
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: https://www.salletone.com
 repository: 
 issue: 

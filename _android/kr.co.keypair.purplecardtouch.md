@@ -12,7 +12,7 @@ version: 1.0.0.45
 stars: 
 ratings: 
 reviews: 
-size: 9.6M
+size: 
 website: http://www.banco.id
 repository: 
 issue: 

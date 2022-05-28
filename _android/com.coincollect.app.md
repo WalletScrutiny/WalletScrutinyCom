@@ -13,7 +13,7 @@ version: 1.11.0
 stars: 
 ratings: 
 reviews: 
-size: 57M
+size: 
 website: https://coincollect.cc/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.5.7
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 
 website: https://blockkoin.io
 repository: 
 issue: 

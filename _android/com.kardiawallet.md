@@ -13,7 +13,7 @@ version: 2.4.5
 stars: 4.6
 ratings: 1064
 reviews: 116
-size: 64M
+size: 
 website: https://kardiachain.io/
 repository: 
 issue: 

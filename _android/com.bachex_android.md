@@ -12,7 +12,7 @@ version: 1.2.8
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: https://bachex.com
 repository: 
 issue: 

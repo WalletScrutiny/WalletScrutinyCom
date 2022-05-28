@@ -13,7 +13,7 @@ version: 2.6.2
 stars: 4.2
 ratings: 930
 reviews: 17
-size: 33M
+size: 
 website: https://exnovin.io
 repository: 
 issue: 

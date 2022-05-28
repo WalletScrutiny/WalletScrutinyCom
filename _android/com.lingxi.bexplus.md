@@ -13,7 +13,7 @@ version: 2.2.0
 stars: 5
 ratings: 6810
 reviews: 1639
-size: 12M
+size: 
 website: http://www.bexplus.com
 repository: 
 issue: 

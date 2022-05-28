@@ -13,7 +13,7 @@ version: '3.71'
 stars: 4.5
 ratings: 87
 reviews: 16
-size: 35M
+size: 
 website: https://multiwallet.tech/
 repository: 
 issue: 

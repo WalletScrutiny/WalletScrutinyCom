@@ -12,8 +12,8 @@ updated: 2022-04-18
 version: 1.8.0
 stars: 3.1
 ratings: 34617
-reviews: 30024
-size: Varies with device
+reviews: 30101
+size: 
 website: https://www.tokocrypto.com
 repository: 
 issue: 

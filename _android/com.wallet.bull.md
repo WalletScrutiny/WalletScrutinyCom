@@ -13,7 +13,7 @@ version: 1.4.1-947
 stars: 4.5
 ratings: 713
 reviews: 23
-size: 20M
+size: 
 website: https://bullcoin.finance/
 repository: 
 issue: 

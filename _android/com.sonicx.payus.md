@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 42M
+size: 
 website: https://www.payus.io/
 repository: 
 issue: 

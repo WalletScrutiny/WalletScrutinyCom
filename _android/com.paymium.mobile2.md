@@ -13,7 +13,7 @@ version: '3.2'
 stars: 
 ratings: 
 reviews: 
-size: 85M
+size: 
 website: http://paymium.com
 repository: 
 issue: 

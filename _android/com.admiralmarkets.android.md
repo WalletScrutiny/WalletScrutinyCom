@@ -13,7 +13,7 @@ version: 1.5.6
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://www.admiralmarkets.com
 repository: 
 issue: 

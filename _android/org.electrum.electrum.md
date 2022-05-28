@@ -13,7 +13,7 @@ version: 4.2.1.0
 stars: 3.6
 ratings: 2500
 reviews: 284
-size: 23M
+size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7640

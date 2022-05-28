@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 107M
+size: 
 website: https://kong.cash
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: '2.2'
 stars: 4.8
 ratings: 106
 reviews: 9
-size: 19M
+size: 
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
 issue: 

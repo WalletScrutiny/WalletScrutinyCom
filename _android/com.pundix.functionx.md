@@ -13,7 +13,7 @@ version: 1.14.0
 stars: 3.6
 ratings: 363
 reviews: 34
-size: 34M
+size: 
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 

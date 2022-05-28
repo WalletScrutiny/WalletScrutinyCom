@@ -13,7 +13,7 @@ version: 1.2.5
 stars: 4
 ratings: 813
 reviews: 22
-size: 162M
+size: 
 website: https://www.go-wallet.app/
 repository: 
 issue: 

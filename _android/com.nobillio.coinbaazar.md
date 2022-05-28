@@ -13,7 +13,7 @@ version: 1.3.10
 stars: 
 ratings: 
 reviews: 
-size: 35M
+size: 
 website: https://coinbaazar.com
 repository: 
 issue: 

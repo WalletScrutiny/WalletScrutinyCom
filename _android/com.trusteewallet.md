@@ -13,7 +13,7 @@ version: 1.50.5
 stars: 3.9
 ratings: 2467
 reviews: 42
-size: 56M
+size: 
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1

@@ -12,7 +12,7 @@ version: version 0.92
 stars: 3.9
 ratings: 53
 reviews: 6
-size: 14M
+size: 
 website: 
 repository: 
 issue: 

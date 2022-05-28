@@ -12,7 +12,7 @@ version: '2.3'
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://richamster.com/
 repository: 
 issue: 

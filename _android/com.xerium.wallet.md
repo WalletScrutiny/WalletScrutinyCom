@@ -13,7 +13,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 6.0M
+size: 
 website: https://xerium.info/
 repository: 
 issue: 

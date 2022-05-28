@@ -13,7 +13,7 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 62M
+size: 
 website: https://www.payperless.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 7.1.6
 stars: 2.7
 ratings: 1438
 reviews: 59
-size: 13M
+size: 
 website: http://www.trade360.com
 repository: 
 issue: 

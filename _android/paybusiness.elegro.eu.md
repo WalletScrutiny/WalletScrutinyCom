@@ -12,7 +12,7 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 9.1M
+size: 
 website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 

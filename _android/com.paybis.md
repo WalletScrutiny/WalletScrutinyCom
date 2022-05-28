@@ -13,7 +13,7 @@ version: 1.0.3
 stars: 2.9
 ratings: 173
 reviews: 13
-size: 6.1M
+size: 
 website: https://paybis.com/contacts/
 repository: 
 issue: 

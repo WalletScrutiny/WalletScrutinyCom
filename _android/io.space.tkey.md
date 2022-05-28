@@ -12,7 +12,7 @@ version: 1.3.0
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://wallet.tkeycoin.com/
 repository: 
 issue: 

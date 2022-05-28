@@ -12,7 +12,7 @@ version: '1.18'
 stars: 
 ratings: 
 reviews: 
-size: 5.5M
+size: 
 website: 
 repository: 
 issue: 

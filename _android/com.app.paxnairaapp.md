@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
+size: 
 website: https://www.paxnaira.com
 repository: 
 issue: 

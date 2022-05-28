@@ -13,7 +13,7 @@ version: 1.30.62
 stars: 
 ratings: 
 reviews: 
-size: 66M
+size: 
 website: https://amlsafe.io/
 repository: 
 issue: 

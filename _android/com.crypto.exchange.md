@@ -14,7 +14,7 @@ version: 1.7.6
 stars: 4.6
 ratings: 4430
 reviews: 12
-size: 78M
+size: 
 website: https://www.crypto.com/
 repository: 
 issue: 

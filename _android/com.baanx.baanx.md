@@ -13,7 +13,7 @@ version: 3.1.0
 stars: 
 ratings: 
 reviews: 
-size: 52M
+size: 
 website: https://www.baanxapp.com
 repository: 
 issue: 

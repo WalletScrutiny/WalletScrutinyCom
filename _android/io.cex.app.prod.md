@@ -9,11 +9,11 @@ appId: io.cex.app.prod
 appCountry: 
 released: 2015-12-22
 updated: 2022-05-12
-version: Varies with device
+version: VARY
 stars: 3.5
 ratings: 16669
-reviews: 1117
-size: Varies with device
+reviews: 1118
+size: 
 website: https://cex.io
 repository: 
 issue: 

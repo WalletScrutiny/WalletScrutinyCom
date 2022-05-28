@@ -13,7 +13,7 @@ version: 1.1.85
 stars: 4
 ratings: 281
 reviews: 17
-size: 29M
+size: 
 website: https://buycoins.africa
 repository: 
 issue: 

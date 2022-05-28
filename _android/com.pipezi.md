@@ -12,7 +12,7 @@ version: 2.5.3
 stars: 
 ratings: 
 reviews: 
-size: 52M
+size: 
 website: 
 repository: 
 issue: 

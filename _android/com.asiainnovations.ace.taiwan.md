@@ -13,7 +13,7 @@ version: 5.2.0_3150
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://www.ace.io
 repository: 
 issue: 

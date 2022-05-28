@@ -13,7 +13,7 @@ version: 3.1.1
 stars: 4.6
 ratings: 65
 reviews: 29
-size: 30M
+size: 
 website: https://defiantapp.tech
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 2.0.4
 stars: 
 ratings: 
 reviews: 
-size: 30M
+size: 
 website: https://www.mykobo.co
 repository: 
 issue: 

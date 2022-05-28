@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.8M
+size: 
 website: https://www.paratica.com
 repository: 
 issue: 

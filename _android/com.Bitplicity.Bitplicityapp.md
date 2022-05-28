@@ -12,7 +12,7 @@ version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 1.6M
+size: 
 website: https://Bitplicity.com
 repository: 
 issue: 

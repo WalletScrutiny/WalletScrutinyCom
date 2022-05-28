@@ -13,7 +13,7 @@ version: 1.44.1
 stars: 4.4
 ratings: 1225
 reviews: 30
-size: 40M
+size: 
 website: https://expcapital.com
 repository: 
 issue: 

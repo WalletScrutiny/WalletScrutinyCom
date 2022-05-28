@@ -13,7 +13,7 @@ version: '5.7'
 stars: 4.3
 ratings: 20
 reviews: 2
-size: 62M
+size: 
 website: https://mybitstore.com
 repository: 
 issue: 

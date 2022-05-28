@@ -13,7 +13,7 @@ version: 2.5.7
 stars: 3.9
 ratings: 156
 reviews: 93
-size: 68M
+size: 
 website: https://get-verso.com
 repository: 
 issue: 

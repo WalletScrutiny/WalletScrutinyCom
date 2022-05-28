@@ -8,12 +8,12 @@ users: 5000
 appId: com.genesisblock.production
 appCountry: us
 released: 2020-05-06
-updated: 2022-05-23
+updated: 2022-05-26
 version: 0.2.4
 stars: 3.9
 ratings: 57
 reviews: 17
-size: 76M
+size: 
 website: https://hightop.com/
 repository: 
 issue: 

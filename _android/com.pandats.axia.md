@@ -10,10 +10,10 @@ appCountry: il
 released: 2020-11-16
 updated: 2022-03-27
 version: 1.0.45
-stars: 5
+stars: 4.5
 ratings: 744
-reviews: 2
-size: 22M
+reviews: 3
+size: 
 website: https://www.axiainvestments.com/
 repository: 
 issue: 

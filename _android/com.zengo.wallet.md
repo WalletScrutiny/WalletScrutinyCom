@@ -14,7 +14,7 @@ version: 4.0.5
 stars: 4.3
 ratings: 3936
 reviews: 340
-size: 72M
+size: 
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 

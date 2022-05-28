@@ -12,7 +12,7 @@ version: v4.0.0
 stars: 
 ratings: 
 reviews: 
-size: 5.4M
+size: 
 website: http://mfcoin.net
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.19.0
 stars: 4.2
 ratings: 9148
 reviews: 514
-size: 13M
+size: 
 website: https://bituro.com
 repository: 
 issue: 

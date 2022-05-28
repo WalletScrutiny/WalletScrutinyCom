@@ -12,7 +12,7 @@ version: 0.5-alpha
 stars: 4
 ratings: 378
 reviews: 15
-size: 6.7M
+size: 
 website: https://wallet.coinbase.com
 repository: 
 issue: 

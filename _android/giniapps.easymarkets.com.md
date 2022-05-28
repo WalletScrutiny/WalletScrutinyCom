@@ -10,10 +10,10 @@ appCountry: us
 released: 2017-04-05
 updated: 2022-05-05
 version: 1.30.0
-stars: 3.2
+stars: 3.3
 ratings: 1761
 reviews: 31
-size: 37M
+size: 
 website: https://www.easymarkets.com/
 repository: 
 issue: 

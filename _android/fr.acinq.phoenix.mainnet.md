@@ -13,7 +13,7 @@ version: 1.4.22
 stars: 4.4
 ratings: 314
 reviews: 27
-size: 35M
+size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
 issue: https://github.com/ACINQ/phoenix-kmm/issues/187

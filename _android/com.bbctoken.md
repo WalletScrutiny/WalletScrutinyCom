@@ -12,7 +12,7 @@ version: 1.0.54
 stars: 2.8
 ratings: 366
 reviews: 9
-size: 22M
+size: 
 website: http://bbctoken.app
 repository: 
 issue: 

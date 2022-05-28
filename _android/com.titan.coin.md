@@ -13,7 +13,7 @@ version: 2.51.0
 stars: 4.1
 ratings: 180
 reviews: 4
-size: 28M
+size: 
 website: https://titanprojects.co
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: quanterall.com.cryptoexchange
 appCountry: 
 released: 
 updated: 2019-06-18
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: 
 repository: 
 issue: 

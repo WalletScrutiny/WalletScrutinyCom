@@ -13,7 +13,7 @@ version: '1.26'
 stars: 4.9
 ratings: 1593
 reviews: 47
-size: 34M
+size: 
 website: https://dinowallet.com
 repository: 
 issue: 

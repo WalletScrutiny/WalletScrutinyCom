@@ -13,7 +13,7 @@ version: 1.1.30
 stars: 3.2
 ratings: 1131
 reviews: 11
-size: 13M
+size: 
 website: https://zondaglobal.com
 repository: 
 issue: 

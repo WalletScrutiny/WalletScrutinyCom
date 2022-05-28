@@ -13,7 +13,7 @@ version: 1.3.1
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 
 website: https://www.OPOLO.io
 repository: 
 issue: 

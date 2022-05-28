@@ -14,7 +14,7 @@ version: 1.3.6
 stars: 4.8
 ratings: 1938
 reviews: 42
-size: 51M
+size: 
 website: https://www.koinal.io
 repository: 
 issue: 

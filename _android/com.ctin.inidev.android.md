@@ -12,7 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 7.7M
+size: 
 website: https://inindiatech.com
 repository: 
 issue: 

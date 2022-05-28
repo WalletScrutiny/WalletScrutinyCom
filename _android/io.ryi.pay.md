@@ -12,7 +12,7 @@ version: 0.21.0
 stars: 
 ratings: 
 reviews: 
-size: 47M
+size: 
 website: https://ryipay.app
 repository: 
 issue: 

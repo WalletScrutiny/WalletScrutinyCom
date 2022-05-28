@@ -13,7 +13,7 @@ version: 0.8.0
 stars: 2.9
 ratings: 592
 reviews: 290
-size: 40M
+size: 
 website: https://b21.io
 repository: 
 issue: 

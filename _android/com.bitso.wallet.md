@@ -13,7 +13,7 @@ version: 3.10.3
 stars: 4.5
 ratings: 40512
 reviews: 228
-size: 81M
+size: 
 website: https://bitso.com/app
 repository: 
 issue: 

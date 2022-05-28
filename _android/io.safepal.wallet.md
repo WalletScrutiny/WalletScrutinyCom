@@ -13,7 +13,7 @@ version: 3.3.3
 stars: 4.1
 ratings: 13497
 reviews: 502
-size: 48M
+size: 
 website: https://www.safepal.io
 repository: 
 issue: 

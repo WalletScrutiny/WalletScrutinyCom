@@ -13,7 +13,7 @@ version: 90.2.001
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: https://www.kapitalrs.com/
 repository: 
 issue: 

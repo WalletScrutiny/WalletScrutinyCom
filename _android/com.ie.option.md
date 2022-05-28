@@ -12,7 +12,7 @@ version: 1.1.4
 stars: 4.8
 ratings: 2623
 reviews: 1372
-size: 9.6M
+size: 
 website: https://www.ieoption.com/
 repository: 
 issue: 

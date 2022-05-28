@@ -13,7 +13,7 @@ version: 1.5.5
 stars: 
 ratings: 
 reviews: 
-size: 34M
+size: 
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14

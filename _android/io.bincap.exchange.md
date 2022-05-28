@@ -12,7 +12,7 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 6.7M
+size: 
 website: https://bincap.io
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.0.13
 stars: 2.4
 ratings: 146
 reviews: 12
-size: 20M
+size: 
 website: https://ajglobalv.com/
 repository: 
 issue: 

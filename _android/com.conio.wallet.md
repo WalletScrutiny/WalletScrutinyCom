@@ -13,7 +13,7 @@ version: 5.0.5
 stars: 
 ratings: 
 reviews: 
-size: 156M
+size: 
 website: https://www.conio.com
 repository: 
 issue: 

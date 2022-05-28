@@ -9,11 +9,11 @@ appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
 updated: 2022-05-15
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://digitalexchange.id
 repository: 
 issue: 

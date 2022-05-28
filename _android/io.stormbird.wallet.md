@@ -13,7 +13,7 @@ version: 3.55.0
 stars: 4.3
 ratings: 247
 reviews: 21
-size: 35M
+size: 
 website: https://alphawallet.com/
 repository: 
 issue: 

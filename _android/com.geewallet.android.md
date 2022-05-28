@@ -12,7 +12,7 @@ version: 0.4.308.0
 stars: 
 ratings: 
 reviews: 
-size: 27M
+size: 
 website: http://github.com/knocte/geewallet
 repository: 
 issue: 

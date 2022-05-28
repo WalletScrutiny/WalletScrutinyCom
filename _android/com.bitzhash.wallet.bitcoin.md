@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 8.8M
+size: 
 website: https://github.com/ilyapr/bitcoin-wallet-android
 repository: 
 issue: 

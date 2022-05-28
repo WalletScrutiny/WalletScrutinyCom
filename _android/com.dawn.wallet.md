@@ -12,7 +12,7 @@ version: 3.0.2
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://dawn.org
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.44.1
 stars: 4.7
 ratings: 29536
 reviews: 14
-size: 31M
+size: 
 website: https://capital.com
 repository: https://capital.com/
 issue: 

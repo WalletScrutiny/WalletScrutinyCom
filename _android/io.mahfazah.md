@@ -12,7 +12,7 @@ version: 1.2.6
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: 
 website: http://www.cryptocurrencysolutions.io
 repository: 
 issue: 

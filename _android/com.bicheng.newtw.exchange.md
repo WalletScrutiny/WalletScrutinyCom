@@ -12,7 +12,7 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://www.btcboxtw.com/
 repository: 
 issue: 

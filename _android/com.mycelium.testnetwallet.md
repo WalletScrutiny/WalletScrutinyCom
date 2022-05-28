@@ -13,7 +13,7 @@ version: 3.14.0.0-TESTNET
 stars: 4.3
 ratings: 146
 reviews: 9
-size: 25M
+size: 
 website: http://mycelium.com
 repository: 
 issue: 

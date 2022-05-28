@@ -12,7 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 5.9M
+size: 
 website: http://www.bluekeymarket.com
 repository: 
 issue: 

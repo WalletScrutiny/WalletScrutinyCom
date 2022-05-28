@@ -12,7 +12,7 @@ version: 1.0.3
 stars: 4.8
 ratings: 192
 reviews: 18
-size: 20M
+size: 
 website: https://vexblock.co/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.9.17
 stars: 4.8
 ratings: 1541
 reviews: 45
-size: 16M
+size: 
 website: https://abcc.com
 repository: 
 issue: 

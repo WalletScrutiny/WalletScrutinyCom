@@ -13,7 +13,7 @@ version: 1.0.13
 stars: 5
 ratings: 30
 reviews: 1
-size: 23M
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

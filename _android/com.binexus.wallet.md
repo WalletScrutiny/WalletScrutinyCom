@@ -12,7 +12,7 @@ version: v5.0.0
 stars: 
 ratings: 
 reviews: 
-size: 4.7M
+size: 
 website: http://www.binexus.co
 repository: 
 issue: 

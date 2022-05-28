@@ -13,7 +13,7 @@ version: 1.0.7
 stars: 4
 ratings: 687
 reviews: 13
-size: 22M
+size: 
 website: https://arzif.com/
 repository: 
 issue: 

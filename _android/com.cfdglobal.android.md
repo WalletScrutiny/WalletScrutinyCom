@@ -13,7 +13,7 @@ version: 2.10.0
 stars: 4.3
 ratings: 336
 reviews: 7
-size: 24M
+size: 
 website: https://www.capex.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 0.0.205
 stars: 3.3
 ratings: 1359
 reviews: 4
-size: 64M
+size: 
 website: https://www.bitcointoyou.com
 repository: 
 issue: 

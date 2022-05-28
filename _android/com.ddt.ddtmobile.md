@@ -12,7 +12,7 @@ version: 1.1.2
 stars: 
 ratings: 
 reviews: 
-size: 5.9M
+size: 
 website: https://www.ddtwallet.com/
 repository: 
 issue: 

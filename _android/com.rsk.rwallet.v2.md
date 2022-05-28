@@ -15,7 +15,7 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 36M
+size: 
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726

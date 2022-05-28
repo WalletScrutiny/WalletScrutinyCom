@@ -13,7 +13,7 @@ version: '3.33'
 stars: 4.4
 ratings: 89
 reviews: 11
-size: 40M
+size: 
 website: https://tangem.com
 repository: 
 issue: 

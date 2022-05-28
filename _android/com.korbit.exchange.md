@@ -13,7 +13,7 @@ version: 4.9.3
 stars: 
 ratings: 
 reviews: 
-size: 91M
+size: 
 website: https://www.korbit.co.kr
 repository: 
 issue: 

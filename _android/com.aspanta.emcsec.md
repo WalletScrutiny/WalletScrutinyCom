@@ -12,7 +12,7 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 8.9M
+size: 
 website: https://emercoin.com
 repository: 
 issue: 

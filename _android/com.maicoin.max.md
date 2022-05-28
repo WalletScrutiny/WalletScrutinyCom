@@ -13,7 +13,7 @@ version: 4.0.0
 stars: 3.9
 ratings: 1049
 reviews: 8
-size: 65M
+size: 
 website: https://max.maicoin.com
 repository: 
 issue: 

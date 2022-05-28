@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 3.6M
+size: 
 website: https://easywallet.me
 repository: 
 issue: 

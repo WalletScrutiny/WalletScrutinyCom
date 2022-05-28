@@ -12,7 +12,7 @@ version: 1.1.1.34
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 
 website: https://www.masterbitexpress.com
 repository: 
 issue: 

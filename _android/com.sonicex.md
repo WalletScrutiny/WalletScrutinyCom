@@ -12,7 +12,7 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://www.sonicex.com/welcome
 repository: 
 issue: 

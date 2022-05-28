@@ -12,7 +12,7 @@ version: 0.12.0
 stars: 
 ratings: 
 reviews: 
-size: 30M
+size: 
 website: http://www.gexpay.com
 repository: 
 issue: 

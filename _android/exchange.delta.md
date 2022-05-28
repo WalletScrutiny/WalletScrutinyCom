@@ -13,7 +13,7 @@ version: 1.4.9
 stars: 
 ratings: 
 reviews: 
-size: 21M
+size: 
 website: https://delta.exchange
 repository: 
 issue: 

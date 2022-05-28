@@ -13,7 +13,7 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 8.6M
+size: 
 website: https://www.c-trade.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.33.0
 stars: 4.4
 ratings: 51097
 reviews: 48
-size: 62M
+size: 
 website: http://www.mercadobitcoin.com.br
 repository: 
 issue: 

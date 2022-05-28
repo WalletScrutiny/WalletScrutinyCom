@@ -13,7 +13,7 @@ version: 1.4.90
 stars: 3.4
 ratings: 35
 reviews: 3
-size: 26M
+size: 
 website: https://hebe.cc
 repository: 
 issue: 

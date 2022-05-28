@@ -13,7 +13,7 @@ version: 0.5.30
 stars: 4
 ratings: 225
 reviews: 40
-size: 35M
+size: 
 website: https://www.coinigy.com
 repository: 
 issue: 

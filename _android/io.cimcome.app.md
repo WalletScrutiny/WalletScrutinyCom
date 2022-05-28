@@ -13,7 +13,7 @@ version: 1.0.15
 stars: 4.4
 ratings: 10
 reviews: 7
-size: 17M
+size: 
 website: https://cimcome.io/
 repository: 
 issue: 

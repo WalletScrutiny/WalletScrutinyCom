@@ -13,7 +13,7 @@ version: '1.20'
 stars: 
 ratings: 
 reviews: 
-size: 9.0M
+size: 
 website: https://bitcoiva.com
 repository: 
 issue: 

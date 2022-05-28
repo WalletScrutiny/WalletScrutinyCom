@@ -13,7 +13,7 @@ version: 1.9.0
 stars: 4.7
 ratings: 
 reviews: 1
-size: 52M
+size: 
 website: https://keyring.app
 repository: 
 issue: 

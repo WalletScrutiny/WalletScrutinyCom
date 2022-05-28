@@ -12,7 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 31M
+size: 
 website: https://www.coinpoket.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: '8.0'
 stars: 
 ratings: 
 reviews: 
-size: 42M
+size: 
 website: https://payizadlt.com/
 repository: 
 issue: 

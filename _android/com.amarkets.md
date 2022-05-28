@@ -9,11 +9,11 @@ appId: com.amarkets
 appCountry: us
 released: 2019-05-31
 updated: 2022-05-23
-version: Varies with device
+version: VARY
 stars: 4.7
 ratings: 2509
-reviews: 34
-size: Varies with device
+reviews: 35
+size: 
 website: https://www.amarkets.com
 repository: 
 issue: 

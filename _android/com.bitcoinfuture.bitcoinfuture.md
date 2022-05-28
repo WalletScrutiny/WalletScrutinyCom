@@ -12,7 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 1.3M
+size: 
 website: https://bitcoinfuture.com/
 repository: 
 issue: 

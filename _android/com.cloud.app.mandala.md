@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 3
 ratings: 155
 reviews: 23
-size: 23M
+size: 
 website: https://mandala.exchange
 repository: 
 issue: 

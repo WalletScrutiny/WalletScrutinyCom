@@ -13,7 +13,7 @@ version: 1.11.3
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://flybit.com
 repository: 
 issue: 

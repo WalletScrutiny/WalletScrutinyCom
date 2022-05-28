@@ -12,7 +12,7 @@ version: 3.0.6
 stars: 4.2
 ratings: 139
 reviews: 8
-size: 51M
+size: 
 website: https://firstkudi.com
 repository: 
 issue: 

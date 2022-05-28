@@ -12,7 +12,7 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://forexrobottraders.com/
 repository: 
 issue: 

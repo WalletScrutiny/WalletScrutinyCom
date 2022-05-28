@@ -13,7 +13,7 @@ version: '1.98'
 stars: 3.9
 ratings: 392
 reviews: 13
-size: 87M
+size: 
 website: https://www.forex.com
 repository: 
 issue: 

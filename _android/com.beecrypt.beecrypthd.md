@@ -13,7 +13,7 @@ version: '4.4'
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://moneypipe.com/hd-wallet/
 repository: 
 issue: 

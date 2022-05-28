@@ -12,7 +12,7 @@ version: 1.5.1
 stars: 
 ratings: 
 reviews: 
-size: 5.2M
+size: 
 website: https://fox.exchange
 repository: 
 issue: 

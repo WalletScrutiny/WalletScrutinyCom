@@ -12,7 +12,7 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 
 website: https://cryptiswap.org/
 repository: 
 issue: 

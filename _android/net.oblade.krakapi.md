@@ -13,7 +13,7 @@ version: 2.5.9
 stars: 4.2
 ratings: 533
 reviews: 14
-size: 7.5M
+size: 
 website: http://www.oblade.net
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://www.huskywallet.com/
 repository: 
 issue: 

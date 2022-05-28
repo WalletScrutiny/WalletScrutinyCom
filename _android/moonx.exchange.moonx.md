@@ -12,7 +12,7 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 9.6M
+size: 
 website: https://moonx.pro
 repository: 
 issue: 

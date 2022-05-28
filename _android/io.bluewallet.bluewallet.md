@@ -13,7 +13,7 @@ version: 6.2.17
 stars: 4.3
 ratings: 1810
 reviews: 183
-size: Varies with device
+size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/2364

@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://xbond.io
 repository: 
 issue: 

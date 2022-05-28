@@ -13,7 +13,7 @@ version: '2.6'
 stars: 4.6
 ratings: 77
 reviews: 2
-size: 3.5M
+size: 
 website: https://www.bitfortip.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 5.4.1
 stars: 4.2
 ratings: 13093
 reviews: 148
-size: 55M
+size: 
 website: https://www.cointiger.com
 repository: 
 issue: 

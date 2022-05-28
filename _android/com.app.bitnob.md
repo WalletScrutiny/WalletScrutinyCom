@@ -13,7 +13,7 @@ version: 1.0.90
 stars: 3.9
 ratings: 275
 reviews: 16
-size: 84M
+size: 
 website: https://bitnob.com
 repository: 
 issue: 

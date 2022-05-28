@@ -13,7 +13,7 @@ version: 8.0.7.4
 stars: 4.6
 ratings: 92
 reviews: 32
-size: 45M
+size: 
 website: http://www.bitkan.com
 repository: 
 issue: 

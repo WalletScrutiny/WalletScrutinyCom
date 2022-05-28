@@ -13,7 +13,7 @@ version: 4.2.4
 stars: 4.9
 ratings: 20365
 reviews: 215
-size: 17M
+size: 
 website: https://www.unocoin.com
 repository: 
 issue: 

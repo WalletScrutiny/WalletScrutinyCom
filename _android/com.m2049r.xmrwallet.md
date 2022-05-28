@@ -13,7 +13,7 @@ version: 2.4.3 'Baldaŭ'
 stars: 3.1
 ratings: 821
 reviews: 158
-size: Varies with device
+size: 
 website: https://monerujo.io/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: '20220120'
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: https://favorpay.io
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 4.2.50
 stars: 
 ratings: 
 reviews: 
-size: 52M
+size: 
 website: http://www.kikitrade.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.18.2
 stars: 3.7
 ratings: 3150
 reviews: 44
-size: 12M
+size: 
 website: https://spectrocoin.com
 repository: 
 issue: 

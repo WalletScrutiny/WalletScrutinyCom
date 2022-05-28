@@ -14,7 +14,7 @@ version: 4.1.0
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://www.monedero.com/
 repository: 
 issue: 

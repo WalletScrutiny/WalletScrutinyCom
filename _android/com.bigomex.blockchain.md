@@ -13,7 +13,7 @@ version: 1.2.7
 stars: 4.3
 ratings: 319
 reviews: 15
-size: 10M
+size: 
 website: https://www.bigomex.com
 repository: 
 issue: 

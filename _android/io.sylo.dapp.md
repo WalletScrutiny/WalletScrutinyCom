@@ -13,7 +13,7 @@ version: 3.1.43
 stars: 4
 ratings: 758
 reviews: 44
-size: 335M
+size: 
 website: http://www.sylo.io
 repository: 
 issue: 

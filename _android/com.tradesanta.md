@@ -13,7 +13,7 @@ version: 3.0.2
 stars: 4
 ratings: 707
 reviews: 58
-size: 13M
+size: 
 website: https://tradesanta.com
 repository: 
 issue: 

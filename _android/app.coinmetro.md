@@ -13,7 +13,7 @@ version: 4.4.205
 stars: 3.1
 ratings: 419
 reviews: 77
-size: 41M
+size: 
 website: https://coinmetro.com/
 repository: 
 issue: 

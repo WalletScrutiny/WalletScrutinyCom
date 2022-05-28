@@ -12,7 +12,7 @@ version: v1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 4.2M
+size: 
 website: https://www.arioncoin.com
 repository: 
 issue: 

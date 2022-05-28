@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: 'Bybit: Crypto Trading Exchange'
+title: 'Bybit: Buy & Trade Crypto'
 altTitle: 
 authors:
 - leo
@@ -12,8 +12,8 @@ updated: 2022-05-20
 version: 3.21.1
 stars: 4.1
 ratings: 107859
-reviews: 454
-size: 89M
+reviews: 459
+size: 
 website: https://www.bybit.com
 repository: 
 issue: 

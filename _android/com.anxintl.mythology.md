@@ -12,7 +12,7 @@ version: 1.3.3
 stars: 
 ratings: 
 reviews: 
-size: 4.2M
+size: 
 website: https://www.mydicewallet.com
 repository: 
 issue: 

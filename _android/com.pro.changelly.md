@@ -13,7 +13,7 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://pro.changelly.com/
 repository: 
 issue: 

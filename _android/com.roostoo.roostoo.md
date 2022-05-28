@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 3.5
 ratings: 185
 reviews: 9
-size: 9.8M
+size: 
 website: https://www.roostoo.com
 repository: 
 issue: 

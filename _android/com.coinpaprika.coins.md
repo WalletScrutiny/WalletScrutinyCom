@@ -13,7 +13,7 @@ version: 1.16.1
 stars: 4.1
 ratings: 1401
 reviews: 86
-size: 51M
+size: 
 website: https://coins.coinpaprika.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.68.0
 stars: 
 ratings: 
 reviews: 
-size: 169M
+size: 
 website: https://sapienwallet.com/
 repository: 
 issue: 

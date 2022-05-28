@@ -12,7 +12,7 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 3.9M
+size: 
 website: https://absurdapps.netlify.app
 repository: 
 issue: 

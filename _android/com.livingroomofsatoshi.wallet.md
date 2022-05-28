@@ -13,7 +13,7 @@ version: 1.16.5
 stars: 3.9
 ratings: 758
 reviews: 88
-size: 23M
+size: 
 website: http://www.walletofsatoshi.com
 repository: 
 issue: 

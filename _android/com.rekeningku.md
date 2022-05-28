@@ -13,7 +13,7 @@ version: 2.1.79
 stars: 4.1
 ratings: 22977
 reviews: 35
-size: 38M
+size: 
 website: https://www.rekeningku.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.0.43
 stars: 3.9
 ratings: 500
 reviews: 41
-size: 65M
+size: 
 website: https://klever.io
 repository: 
 issue: 

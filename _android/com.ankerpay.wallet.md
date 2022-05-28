@@ -13,7 +13,7 @@ version: v1.0.12.7
 stars: 
 ratings: 
 reviews: 
-size: 4.9M
+size: 
 website: https://ankerid.com/mobile-wallet/
 repository: 
 issue: 

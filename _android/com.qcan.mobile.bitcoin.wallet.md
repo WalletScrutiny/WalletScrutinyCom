@@ -13,7 +13,7 @@ version: 0.8.853
 stars: 4.5
 ratings: 166
 reviews: 13
-size: 29M
+size: 
 website: https://qcan.com
 repository: 
 issue: 

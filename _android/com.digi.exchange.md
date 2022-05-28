@@ -13,7 +13,7 @@ version: 1.1.7
 stars: 4.4
 ratings: 265
 reviews: 9
-size: 3.8M
+size: 
 website: https://digiexchange.net/
 repository: 
 issue: 

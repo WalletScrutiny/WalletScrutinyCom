@@ -13,7 +13,7 @@ version: 0.5.9
 stars: 
 ratings: 
 reviews: 
-size: 9.3M
+size: 
 website: https://bottrex.net
 repository: 
 issue: 

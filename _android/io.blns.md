@@ -12,7 +12,7 @@ version: 1.7.16
 stars: 
 ratings: 
 reviews: 
-size: 91M
+size: 
 website: https://blns.io
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 2.0M
+size: 
 website: https://rockwallet.co.za
 repository: 
 issue: 

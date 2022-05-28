@@ -12,7 +12,7 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 7.3M
+size: 
 website: http://drone.onlinestore.digital
 repository: 
 issue: 

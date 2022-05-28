@@ -13,7 +13,7 @@ version: 3.10.5
 stars: 
 ratings: 
 reviews: 
-size: 4.4M
+size: 
 website: https://monya-wallet.github.io
 repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130

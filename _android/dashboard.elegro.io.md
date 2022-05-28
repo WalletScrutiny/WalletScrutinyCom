@@ -12,7 +12,7 @@ version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-size: 605k
+size: 
 website: https://business.elegro.eu/acceptance
 repository: 
 issue: 

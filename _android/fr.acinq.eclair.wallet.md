@@ -13,7 +13,7 @@ version: 0.4.18
 stars: 4.6
 ratings: 220
 reviews: 17
-size: 29M
+size: 
 website: https://acinq.co
 repository: 
 issue: 

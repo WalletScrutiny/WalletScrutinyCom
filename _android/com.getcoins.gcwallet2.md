@@ -12,7 +12,7 @@ version: 3.6.0
 stars: 3
 ratings: 21
 reviews: 10
-size: 18M
+size: 
 website: https://www.getcoins.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.1.49
 stars: 4.8
 ratings: 15803
 reviews: 21
-size: 34M
+size: 
 website: https://www.giottus.com
 repository: 
 issue: 

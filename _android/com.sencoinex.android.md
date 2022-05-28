@@ -12,7 +12,7 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: https://sencoinex.com
 repository: 
 issue: 

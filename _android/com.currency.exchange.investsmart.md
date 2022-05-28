@@ -13,7 +13,7 @@ version: 1.25.2
 stars: 4.4
 ratings: 216
 reviews: 74
-size: Varies with device
+size: 
 website: https://expcapital.com/
 repository: 
 issue: 

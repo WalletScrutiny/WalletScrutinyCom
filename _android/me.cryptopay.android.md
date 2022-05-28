@@ -12,7 +12,7 @@ version: 1.38.1
 stars: 4.5
 ratings: 1142
 reviews: 32
-size: 23M
+size: 
 website: https://cryptopay.me
 repository: 
 issue: 
