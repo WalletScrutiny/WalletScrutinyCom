@@ -12,7 +12,7 @@ updated: 2021-05-22
 version: 3.0.5
 stars: 2.5
 ratings: 1121
-reviews: 906
+reviews: 905
 size: 
 website: https://chiji14xchange.com
 repository: 

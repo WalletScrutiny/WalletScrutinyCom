@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Invest BTC, ETH, DOGE'
+title: 'ONUS: Invest in BTC, ETH, LUNA'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2022-05-26
 version: 2.3.8
 stars: 4.5
 ratings: 46866
-reviews: 266
+reviews: 268
 size: 
 website: https://vndc.io
 repository: 

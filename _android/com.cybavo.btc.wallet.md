@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: CYBAVO Wallet - A pure cryptocurrency wallet
+title: CYBAVO Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.cybavo.btc.wallet
 appCountry: 
 released: 2020-06-22
@@ -19,7 +19,7 @@ issue:
 icon: com.cybavo.btc.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-04-13
 signer: 
 reviewArchive: 

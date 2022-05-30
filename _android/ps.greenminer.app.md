@@ -12,7 +12,7 @@ updated: 2021-09-02
 version: 1.39b
 stars: 4.4
 ratings: 5347
-reviews: 338
+reviews: 339
 size: 
 website: http://crypto.promo-miner.com/
 repository: 
