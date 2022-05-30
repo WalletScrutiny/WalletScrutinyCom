@@ -212,7 +212,7 @@ function getBadge(wallet) {
           <div class="flex-r">
             <div class="app_logo">
                 <img loading="lazy" src="${wallet.icon
-                  ? `/images/wallet_icons/${wallet.folder}/small/${wallet.icon}`
+                  ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
                   : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>

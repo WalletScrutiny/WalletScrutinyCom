@@ -2,7 +2,7 @@
 %}{% assign collection = site.collections | where: "label", parts[0] | first
 %}{% assign w = collection.docs | where: "appId", parts[1] | first
 %}{% if w.icon
-%}{% assign icon = base_path | append: '/images/wallet_icons/'
+%}{% assign icon = base_path | append: '/images/wIcons/'
   | append: w.collection | append:  '/tiny/' | append: w.icon
 %}{% else
 %}{% assign icon = base_path | append: '/images/tinyNoicon.png'
