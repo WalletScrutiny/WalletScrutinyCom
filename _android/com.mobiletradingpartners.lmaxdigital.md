@@ -13,7 +13,7 @@ version: 4.4.96
 stars: 4.6
 ratings: 27
 reviews: 2
-size: 24M
+size: 
 website: http://www.lmax.com/mobile
 repository: 
 issue: 

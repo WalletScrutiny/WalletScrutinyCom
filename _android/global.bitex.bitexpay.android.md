@@ -12,7 +12,7 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 7.3M
+size: 
 website: https://www.ezbitex.io/en_US/
 repository: 
 issue: 

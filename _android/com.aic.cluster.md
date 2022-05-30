@@ -8,11 +8,11 @@ appId: com.aic.cluster
 appCountry: 
 released: 
 updated: 2021-05-24
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://clusterwallet.com
 repository: 
 issue: 

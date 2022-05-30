@@ -13,7 +13,7 @@ version: 2.4.8
 stars: 3.1
 ratings: 25850
 reviews: 59
-size: 43M
+size: 
 website: http://www.bithumb.com/
 repository: 
 issue: 

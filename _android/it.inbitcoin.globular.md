@@ -12,7 +12,7 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 7.7M
+size: 
 website: https://inbitcoin.it/
 repository: 
 issue: 

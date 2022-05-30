@@ -12,7 +12,7 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: 
 website: https://infireum.com
 repository: 
 issue: 

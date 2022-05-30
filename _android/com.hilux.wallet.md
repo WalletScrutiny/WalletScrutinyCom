@@ -12,7 +12,7 @@ version: v2.70
 stars: 5
 ratings: 55
 reviews: 4
-size: 5.7M
+size: 
 website: http://www.hiluxcoin.com
 repository: 
 issue: 

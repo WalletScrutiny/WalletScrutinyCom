@@ -13,7 +13,7 @@ version: '3.14'
 stars: 3.1
 ratings: 
 reviews: 3
-size: 40M
+size: 
 website: https://cryptology.com/
 repository: 
 issue: 

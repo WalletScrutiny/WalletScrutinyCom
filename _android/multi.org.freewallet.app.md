@@ -13,7 +13,7 @@ version: 1.0.69
 stars: 4.1
 ratings: 2017
 reviews: 148
-size: 10M
+size: 
 website: https://freewallet.org/
 repository: 
 issue: 

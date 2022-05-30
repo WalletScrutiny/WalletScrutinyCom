@@ -13,7 +13,7 @@ version: 0.8.2
 stars: 
 ratings: 
 reviews: 
-size: 9.1M
+size: 
 website: https://itez.com/
 repository: 
 issue: 

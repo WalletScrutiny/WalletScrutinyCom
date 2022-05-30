@@ -9,11 +9,11 @@ appId: com.app.coinloan
 appCountry: us
 released: 2019-11-28
 updated: 2022-05-12
-version: Varies with device
+version: VARY
 stars: 4.3
 ratings: 309
 reviews: 50
-size: Varies with device
+size: 
 website: https://coinloan.io/
 repository: 
 issue: 

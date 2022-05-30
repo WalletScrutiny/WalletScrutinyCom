@@ -13,7 +13,7 @@ version: 4.1.0
 stars: 
 ratings: 
 reviews: 
-size: 158M
+size: 
 website: https://zumo.money
 repository: 
 issue: 

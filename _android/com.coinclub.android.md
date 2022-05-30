@@ -12,7 +12,7 @@ version: 1.6.7
 stars: 3.9
 ratings: 5389
 reviews: 57
-size: 17M
+size: 
 website: https://coinclub.global/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.5.69-roinvesting
 stars: 
 ratings: 
 reviews: 
-size: 19M
+size: 
 website: https://www.roinvesting.com/
 repository: 
 issue: 

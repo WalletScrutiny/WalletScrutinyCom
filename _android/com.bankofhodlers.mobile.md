@@ -1,6 +1,6 @@
 ---
 wsId: Vauld
-title: Vauld -  Earn, Borrow & Trade With Crypto
+title: Vauld - Earn, Lend with Crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -12,8 +12,8 @@ updated: 2022-05-06
 version: 2.6.8
 stars: 4.3
 ratings: 8047
-reviews: 70
-size: 29M
+reviews: 71
+size: 
 website: https://vauld.com
 repository: 
 issue: 

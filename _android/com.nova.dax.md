@@ -10,10 +10,10 @@ appCountry:
 released: 2019-09-20
 updated: 2022-05-11
 version: 2.0.1
-stars: 4.2
+stars: 4.3
 ratings: 15890
-reviews: 38
-size: 14M
+reviews: 37
+size: 
 website: https://www.novadax.com
 repository: 
 issue: 

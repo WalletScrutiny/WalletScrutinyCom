@@ -12,7 +12,7 @@ version: 3.11.5
 stars: 4.2
 ratings: 1007
 reviews: 87
-size: 53M
+size: 
 website: http://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

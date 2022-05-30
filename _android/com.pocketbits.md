@@ -13,7 +13,7 @@ version: 1.3.0
 stars: 5
 ratings: 
 reviews: 45
-size: 32M
+size: 
 website: https://pocketbits.in/
 repository: 
 issue: 

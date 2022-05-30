@@ -13,7 +13,7 @@ version: 2.0.5
 stars: 4.1
 ratings: 1706
 reviews: 50
-size: 32M
+size: 
 website: https://Arz8x.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 0.0.4a
 stars: 4.2
 ratings: 138
 reviews: 20
-size: 11M
+size: 
 website: https://portals.nz
 repository: 
 issue: 

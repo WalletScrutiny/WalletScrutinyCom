@@ -13,7 +13,7 @@ version: '8.5'
 stars: 4.5
 ratings: 5472
 reviews: 18
-size: 29M
+size: 
 website: https://letskrypto.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 8.4M
+size: 
 website: https://folgory.com/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 0.1.6-testnet
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://lndroid.org
 repository: 
 issue: 

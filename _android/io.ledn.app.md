@@ -13,7 +13,7 @@ version: 0.7.0
 stars: 2.5
 ratings: 71
 reviews: 9
-size: 79M
+size: 
 website: https://ledn.io
 repository: 
 issue: 

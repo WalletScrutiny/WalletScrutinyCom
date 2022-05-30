@@ -12,8 +12,8 @@ updated: 2022-01-11
 version: 2.4.4
 stars: 3.8
 ratings: 400
-reviews: 285
-size: 28M
+reviews: 286
+size: 
 website: https://www.bytesmix.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.0.7
 stars: 
 ratings: 
 reviews: 
-size: 203M
+size: 
 website: https://tokenize.exchange/
 repository: 
 issue: 

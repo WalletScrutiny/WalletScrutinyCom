@@ -13,7 +13,7 @@ version: 1.7.9
 stars: 
 ratings: 
 reviews: 
-size: 27M
+size: 
 website: https://aladiex.com
 repository: 
 issue: 

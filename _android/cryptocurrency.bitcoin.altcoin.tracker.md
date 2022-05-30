@@ -12,7 +12,7 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 6.1M
+size: 
 website: https://cryptocurrencydevs.wordpress.com/
 repository: 
 issue: 

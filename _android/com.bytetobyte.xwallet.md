@@ -12,7 +12,7 @@ version: 0.3.1-beta
 stars: 
 ratings: 
 reviews: 
-size: 7.1M
+size: 
 website: https://ehanoc.github.io/xwallet/
 repository: 
 issue: 

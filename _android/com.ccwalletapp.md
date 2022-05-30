@@ -14,7 +14,7 @@ version: 1.3.1
 stars: 4.2
 ratings: 555
 reviews: 69
-size: 22M
+size: 
 website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1

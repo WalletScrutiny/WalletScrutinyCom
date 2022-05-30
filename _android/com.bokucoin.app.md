@@ -12,7 +12,7 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 7.6M
+size: 
 website: https://bokucoin.com
 repository: 
 issue: 

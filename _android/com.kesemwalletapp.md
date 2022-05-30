@@ -12,7 +12,7 @@ version: '2.17'
 stars: 
 ratings: 
 reviews: 
-size: 31M
+size: 
 website: https://www.kesem.io
 repository: 
 issue: 

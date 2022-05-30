@@ -13,7 +13,7 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://prostocash.com
 repository: 
 issue: 

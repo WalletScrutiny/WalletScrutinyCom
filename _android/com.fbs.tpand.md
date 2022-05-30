@@ -13,7 +13,7 @@ version: 1.48.0
 stars: 4.6
 ratings: 128577
 reviews: 141
-size: 23M
+size: 
 website: https://fbs.com/
 repository: 
 issue: 

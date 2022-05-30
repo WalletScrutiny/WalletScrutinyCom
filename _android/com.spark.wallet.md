@@ -14,7 +14,7 @@ version: 0.3.1
 stars: 
 ratings: 
 reviews: 
-size: 7.6M
+size: 
 website: https://github.com/shesek/spark-wallet
 repository: https://github.com/shesek/spark-wallet
 issue: https://github.com/shesek/spark-wallet/issues/192

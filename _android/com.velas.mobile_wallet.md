@@ -15,7 +15,7 @@ version: 2.3.3
 stars: 4.1
 ratings: 545
 reviews: 18
-size: 40M
+size: 
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet
 issue: https://github.com/velas/mobile-wallet/issues/139

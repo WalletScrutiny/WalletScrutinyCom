@@ -13,7 +13,7 @@ version: 1.2.36
 stars: 
 ratings: 
 reviews: 
-size: 77M
+size: 
 website: https://warpdefi.io
 repository: 
 issue: 

@@ -14,7 +14,7 @@ version: 3.3.6-google
 stars: 4.2
 ratings: 2310
 reviews: 242
-size: 22M
+size: 
 website: https://altcoinfantasy.com
 repository: 
 issue: 

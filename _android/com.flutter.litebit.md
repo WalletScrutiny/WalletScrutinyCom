@@ -13,7 +13,7 @@ version: 3.3.3
 stars: 
 ratings: 
 reviews: 
-size: 78M
+size: 
 website: https://www.litebit.eu/
 repository: 
 issue: 

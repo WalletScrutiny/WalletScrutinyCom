@@ -13,7 +13,7 @@ version: 3.8.4
 stars: 4
 ratings: 116
 reviews: 73
-size: 36M
+size: 
 website: https://www.wisebitcoin.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.6.0
 stars: 3.7
 ratings: 32
 reviews: 5
-size: Varies with device
+size: 
 website: https://bitcoinox.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 2.0M
+size: 
 website: https://www.knightgames.co
 repository: 
 issue: 

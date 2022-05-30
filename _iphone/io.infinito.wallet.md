@@ -8,11 +8,11 @@ appId: io.infinito.wallet
 appCountry: 
 idd: 1315572736
 released: 2018-01-17
-updated: 2022-05-17
-version: 2.36.9
+updated: 2022-05-20
+version: 2.36.10
 stars: 4.2
 reviews: 183
-size: '107109376'
+size: '107129856'
 website: https://www.infinitowallet.io
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://coindeal.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 2.20.0
 stars: 4.2
 ratings: 1655
 reviews: 1245
-size: 36M
+size: 
 website: https://www.zeux.com
 repository: 
 issue: 

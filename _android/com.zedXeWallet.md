@@ -12,7 +12,7 @@ version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 39M
+size: 
 website: https://www.zedxe.com
 repository: 
 issue: 

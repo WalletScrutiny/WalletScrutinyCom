@@ -13,7 +13,7 @@ version: 1.0.49
 stars: 4.1
 ratings: 1725
 reviews: 9
-size: 82M
+size: 
 website: https://www.valr.com
 repository: 
 issue: 

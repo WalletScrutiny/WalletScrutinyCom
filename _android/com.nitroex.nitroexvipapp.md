@@ -13,7 +13,7 @@ version: 8.0.3
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://www.nitroex.io/
 repository: 
 issue: 

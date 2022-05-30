@@ -10,10 +10,10 @@ appCountry:
 released: 2018-05-31
 updated: 2022-05-21
 version: 2.10.2
-stars: 3.9
+stars: 3.8
 ratings: 4350
-reviews: 198
-size: 82M
+reviews: 199
+size: 
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

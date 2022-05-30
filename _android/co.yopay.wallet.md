@@ -8,11 +8,11 @@ appId: co.yopay.wallet
 appCountry: 
 released: 
 updated: 2020-06-01
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://yopay.co
 repository: 
 issue: 

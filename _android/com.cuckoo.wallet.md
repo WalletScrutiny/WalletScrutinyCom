@@ -12,7 +12,7 @@ version: 3.4.0
 stars: 
 ratings: 
 reviews: 
-size: 56M
+size: 
 website: http://www.tyco.link/#/
 repository: 
 issue: 

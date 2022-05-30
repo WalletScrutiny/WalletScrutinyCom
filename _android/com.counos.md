@@ -13,7 +13,7 @@ version: 1.9.94
 stars: 4.5
 ratings: 513
 reviews: 18
-size: 38M
+size: 
 website: https://www.counos.io
 repository: 
 issue: 

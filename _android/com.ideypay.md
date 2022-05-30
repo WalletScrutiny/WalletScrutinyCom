@@ -13,7 +13,7 @@ version: 1.0.65
 stars: 3
 ratings: 
 reviews: 5
-size: 14M
+size: 
 website: https://ideypay.com
 repository: 
 issue: 

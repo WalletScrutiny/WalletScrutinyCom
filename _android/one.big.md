@@ -12,8 +12,8 @@ updated: 2022-05-19
 version: 2.2.5
 stars: 4
 ratings: 836
-reviews: 52
-size: 54M
+reviews: 53
+size: 
 website: https://www.b1.zone/
 repository: 
 issue: 

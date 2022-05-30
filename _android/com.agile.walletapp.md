@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://www.agileinfoways.com
 repository: 
 issue: 

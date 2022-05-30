@@ -12,7 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 1.9M
+size: 
 website: https://www.lucky7.love
 repository: 
 issue: 

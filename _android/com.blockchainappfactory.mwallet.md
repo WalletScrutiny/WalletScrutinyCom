@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 5.2M
+size: 
 website: https://mwallet.step.holdings
 repository: 
 issue: 

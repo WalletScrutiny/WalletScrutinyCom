@@ -13,7 +13,7 @@ version: 1.32.0
 stars: 4.9
 ratings: 62
 reviews: 10
-size: 133M
+size: 
 website: https://btse.com
 repository: 
 issue: 

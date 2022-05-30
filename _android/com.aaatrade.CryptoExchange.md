@@ -12,7 +12,7 @@ version: 1.2.5
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 
 website: https://www.aaatrade.com
 repository: 
 issue: 

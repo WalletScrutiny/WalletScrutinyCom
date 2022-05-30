@@ -8,11 +8,11 @@ appId: com.kryptonio
 appCountry: 
 released: 
 updated: 2021-07-03
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://kryptonio.com
 repository: 
 issue: 

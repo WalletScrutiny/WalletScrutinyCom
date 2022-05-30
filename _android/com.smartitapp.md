@@ -13,7 +13,7 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://smartit.shop/
 repository: 
 issue: 

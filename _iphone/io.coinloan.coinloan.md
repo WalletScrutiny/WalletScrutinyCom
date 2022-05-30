@@ -11,7 +11,7 @@ released: 2020-04-24
 updated: 2022-05-12
 version: 1.5.3
 stars: 4.8
-reviews: 407
+reviews: 406
 size: '55086080'
 website: https://coinloan.io
 repository: 

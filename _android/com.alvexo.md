@@ -13,7 +13,7 @@ version: 3.0.74
 stars: 4
 ratings: 826
 reviews: 21
-size: 18M
+size: 
 website: https://www.alvexo.com
 repository: 
 issue: 

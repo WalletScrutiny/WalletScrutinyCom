@@ -13,7 +13,7 @@ version: 4.62.1
 stars: 4.2
 ratings: 4767
 reviews: 492
-size: 98M
+size: 
 website: https://www.spot-bitcoin.com
 repository: 
 issue: 

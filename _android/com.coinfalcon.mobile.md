@@ -13,7 +13,7 @@ version: 2.11.14
 stars: 2.5
 ratings: 104
 reviews: 9
-size: 64M
+size: 
 website: https://coinfalcon.com
 repository: 
 issue: 

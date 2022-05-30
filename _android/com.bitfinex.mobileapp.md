@@ -13,7 +13,7 @@ version: 5.6.1
 stars: 3.4
 ratings: 1986
 reviews: 49
-size: 38M
+size: 
 website: https://www.bitfinex.com
 repository: 
 issue: 

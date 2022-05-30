@@ -13,7 +13,7 @@ version: '1.76'
 stars: 4.6
 ratings: 
 reviews: 3
-size: 14M
+size: 
 website: https://zixipay.com
 repository: 
 issue: 

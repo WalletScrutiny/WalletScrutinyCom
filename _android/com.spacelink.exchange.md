@@ -12,7 +12,7 @@ version: '4'
 stars: 
 ratings: 
 reviews: 
-size: 1.9M
+size: 
 website: https://spacelink.exchange
 repository: 
 issue: 

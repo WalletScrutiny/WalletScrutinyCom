@@ -12,7 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 47M
+size: 
 website: https://aneep.tech/
 repository: 
 issue: 

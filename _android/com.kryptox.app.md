@@ -12,7 +12,7 @@ version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 9.9M
+size: 
 website: https://www.kryptox.com
 repository: 
 issue: 

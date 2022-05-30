@@ -12,7 +12,7 @@ version: 5.2.1
 stars: 4.4
 ratings: 14091
 reviews: 1048
-size: 61M
+size: 
 website: https://perawallet.app
 repository: 
 issue: 

@@ -10,11 +10,11 @@ appId: it.inbitcoin.altana
 appCountry: 
 released: 2017-04-18
 updated: 2021-10-14
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android
 issue: https://github.com/inbitcoin/altana-android/issues/1

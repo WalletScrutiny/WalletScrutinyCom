@@ -8,11 +8,11 @@ appId: com.blockchainappfactory.cryptoexchange
 appCountry: 
 released: 
 updated: 2021-04-13
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://www.blockchainappfactory.com/
 repository: 
 issue: 

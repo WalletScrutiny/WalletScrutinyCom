@@ -8,12 +8,12 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2022-05-25
-version: Varies with device
+updated: 2022-05-26
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247

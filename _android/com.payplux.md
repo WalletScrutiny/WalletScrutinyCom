@@ -13,7 +13,7 @@ version: 1.1.83
 stars: 3.4
 ratings: 291
 reviews: 9
-size: 14M
+size: 
 website: https://payplux.com
 repository: 
 issue: 

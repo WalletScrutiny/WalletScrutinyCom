@@ -13,7 +13,7 @@ version: 1.1.7
 stars: 3.4
 ratings: 106
 reviews: 4
-size: 13M
+size: 
 website: https://wyretrade.com/
 repository: 
 issue: 

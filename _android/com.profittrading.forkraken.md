@@ -9,11 +9,11 @@ appId: com.profittrading.forkraken
 appCountry: 
 released: 2018-07-15
 updated: 2021-08-07
-version: Varies with device
+version: VARY
 stars: 4.2
 ratings: 60
 reviews: 12
-size: Varies with device
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

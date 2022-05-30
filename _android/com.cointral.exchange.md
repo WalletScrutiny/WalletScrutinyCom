@@ -13,7 +13,7 @@ version: 1.3.6
 stars: 3.9
 ratings: 118
 reviews: 66
-size: 26M
+size: 
 website: https://cointral.com
 repository: 
 issue: 

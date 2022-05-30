@@ -12,7 +12,7 @@ version: '1.7'
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://globalblock.co.uk/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.7.2
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: https://colodax.com
 repository: 
 issue: 

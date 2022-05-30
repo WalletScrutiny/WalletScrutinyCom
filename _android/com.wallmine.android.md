@@ -12,7 +12,7 @@ version: 1.1.10
 stars: 3.9
 ratings: 66
 reviews: 9
-size: 789k
+size: 
 website: https://wallmine.com
 repository: 
 issue: 

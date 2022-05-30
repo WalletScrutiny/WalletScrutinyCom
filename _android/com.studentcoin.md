@@ -13,7 +13,7 @@ version: 1.12.2
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://www.studentcoin.org
 repository: 
 issue: 

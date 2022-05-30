@@ -13,7 +13,7 @@ version: 1.17.8
 stars: 3.2
 ratings: 799
 reviews: 36
-size: 36M
+size: 
 website: https://www.liquid.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.3.2
 stars: 4.1
 ratings: 576
 reviews: 6
-size: 19M
+size: 
 website: https://tokoin.io
 repository: 
 issue: 

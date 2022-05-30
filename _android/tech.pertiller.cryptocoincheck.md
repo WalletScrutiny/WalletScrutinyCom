@@ -12,7 +12,7 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 3.7M
+size: 
 website: https://bitcoinmonitor.app
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.4.0
 stars: 3.5
 ratings: 10117
 reviews: 118
-size: 36M
+size: 
 website: https://www.muchbetter.com
 repository: 
 issue: 

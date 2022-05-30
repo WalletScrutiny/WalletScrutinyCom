@@ -13,7 +13,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: 
 website: https://investxe.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 
 website: https://flashift.app
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.13.18
 stars: 3.6
 ratings: 168
 reviews: 11
-size: 33M
+size: 
 website: http://www.badger.cash
 repository: 
 issue: 

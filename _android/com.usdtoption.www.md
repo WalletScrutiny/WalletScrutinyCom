@@ -12,7 +12,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://www.usdtoption.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.2.0
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://hitbtc.com/
 repository: 
 issue: 

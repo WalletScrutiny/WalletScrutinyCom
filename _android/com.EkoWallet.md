@@ -8,11 +8,11 @@ appId: com.EkoWallet
 appCountry: 
 released: 
 updated: 2021-07-12
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://ekowallet.com
 repository: 
 issue: 

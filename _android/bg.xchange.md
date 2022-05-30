@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://xchange.bg
 repository: 
 issue: 

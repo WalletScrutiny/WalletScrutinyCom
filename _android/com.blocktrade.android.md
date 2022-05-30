@@ -13,7 +13,7 @@ version: 1.8.0
 stars: 2.9
 ratings: 187
 reviews: 8
-size: 14M
+size: 
 website: http://blocktrade.com
 repository: 
 issue: 

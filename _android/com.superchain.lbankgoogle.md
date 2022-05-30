@@ -13,7 +13,7 @@ version: 3.41.85
 stars: 4.5
 ratings: 46317
 reviews: 975
-size: 34M
+size: 
 website: https://lbank.info
 repository: 
 issue: 

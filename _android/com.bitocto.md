@@ -13,7 +13,7 @@ version: '3.17'
 stars: 5
 ratings: 1532
 reviews: 6
-size: 5.7M
+size: 
 website: https://bitocto.com
 repository: 
 issue: 

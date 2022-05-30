@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 4
 ratings: 43
 reviews: 22
-size: 26M
+size: 
 website: https://www.guapcoin.org
 repository: 
 issue: 

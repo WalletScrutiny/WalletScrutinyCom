@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 3.7
 ratings: 225
 reviews: 38
-size: 5.0M
+size: 
 website: http://ograpi.oblade.net
 repository: 
 issue: 

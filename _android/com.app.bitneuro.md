@@ -13,7 +13,7 @@ version: 1.3.0
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://bitneuro.io
 repository: 
 issue: 

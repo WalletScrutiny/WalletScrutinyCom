@@ -13,7 +13,7 @@ version: 1.1.49
 stars: 
 ratings: 
 reviews: 
-size: 64M
+size: 
 website: https://gwallet.tech/
 repository: 
 issue: 

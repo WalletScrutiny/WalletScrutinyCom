@@ -13,7 +13,7 @@ version: 2.0.38
 stars: 5
 ratings: 60
 reviews: 
-size: 65M
+size: 
 website: http://www.blocpal.com
 repository: 
 issue: 

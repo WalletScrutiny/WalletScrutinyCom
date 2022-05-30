@@ -13,7 +13,7 @@ version: 5.4.2
 stars: 
 ratings: 
 reviews: 
-size: 54M
+size: 
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
 issue: https://github.com/QuarkChain/QPocket-Android/issues/2

@@ -13,7 +13,7 @@ version: 1.31.0
 stars: 3.5
 ratings: 1039
 reviews: 133
-size: 32M
+size: 
 website: https://www.bitrefill.com
 repository: 
 issue: 

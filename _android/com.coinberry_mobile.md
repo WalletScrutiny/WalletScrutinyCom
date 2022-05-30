@@ -13,7 +13,7 @@ version: 1.32.00
 stars: 3.2
 ratings: 1118
 reviews: 635
-size: 86M
+size: 
 website: https://www.coinberry.com
 repository: 
 issue: 

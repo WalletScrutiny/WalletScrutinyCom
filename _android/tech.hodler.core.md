@@ -13,7 +13,7 @@ version: 0.4.6
 stars: 
 ratings: 
 reviews: 
-size: 19M
+size: 
 website: https://hodler.tech
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165

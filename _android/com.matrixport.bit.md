@@ -13,7 +13,7 @@ version: 1.0.9
 stars: 4.6
 ratings: 245
 reviews: 5
-size: 67M
+size: 
 website: https://www.bit.com
 repository: 
 issue: 

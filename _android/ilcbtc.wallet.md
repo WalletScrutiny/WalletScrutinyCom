@@ -13,7 +13,7 @@ version: '4.26'
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: https://www.ilcoincrypto.com/
 repository: 
 issue: 

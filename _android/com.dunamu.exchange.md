@@ -13,7 +13,7 @@ version: 1.17.1p6
 stars: 3.5
 ratings: 29440
 reviews: 14
-size: 71M
+size: 
 website: https://upbit.com
 repository: 
 issue: 

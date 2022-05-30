@@ -12,7 +12,7 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.2M
+size: 
 website: http://www.echangerbd.com/
 repository: 
 issue: 

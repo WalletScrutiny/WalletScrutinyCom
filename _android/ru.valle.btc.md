@@ -9,11 +9,11 @@ appId: ru.valle.btc
 appCountry: 
 released: 2013-04-19
 updated: 2021-11-05
-version: Varies with device
+version: VARY
 stars: 4.6
 ratings: 163
 reviews: 12
-size: Varies with device
+size: 
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42

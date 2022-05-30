@@ -13,7 +13,7 @@ version: 1.4.24
 stars: 4.2
 ratings: 159
 reviews: 15
-size: 23M
+size: 
 website: https://oceanex.pro
 repository: 
 issue: 

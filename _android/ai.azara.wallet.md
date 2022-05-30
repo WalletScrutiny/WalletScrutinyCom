@@ -13,7 +13,7 @@ version: 0.01.18
 stars: 
 ratings: 
 reviews: 
-size: 44M
+size: 
 website: https://www.azara.ai
 repository: 
 issue: 

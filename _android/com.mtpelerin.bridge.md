@@ -13,7 +13,7 @@ version: '1.23'
 stars: 3.6
 ratings: 178
 reviews: 10
-size: 168M
+size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.3.3
 stars: 4.7
 ratings: 59
 reviews: 9
-size: 73M
+size: 
 website: https://techbank.finance/
 repository: 
 issue: 

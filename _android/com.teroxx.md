@@ -13,7 +13,7 @@ version: 3.0.13
 stars: 
 ratings: 
 reviews: 
-size: 83M
+size: 
 website: https://teroxxapp.com/
 repository: 
 issue: 

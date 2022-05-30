@@ -12,7 +12,7 @@ version: '5.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.8M
+size: 
 website: https://bitcoinet.net/
 repository: 
 issue: 

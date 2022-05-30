@@ -13,7 +13,7 @@ version: v1.7.2015
 stars: 4.7
 ratings: 11645
 reviews: 40
-size: 67M
+size: 
 website: https://quantfury.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://dashboard.criptohub.com.br/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 46M
+size: 
 website: https://trustpocket.finance
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 0.0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 5.2M
+size: 
 website: https://www.arowex.com
 repository: 
 issue: 

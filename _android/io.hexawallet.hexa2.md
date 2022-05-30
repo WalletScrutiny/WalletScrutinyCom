@@ -13,7 +13,7 @@ version: 2.0.74
 stars: 5
 ratings: 30
 reviews: 5
-size: 58M
+size: 
 website: https://hexawallet.io/
 repository: https://github.com/bithyve/hexa
 issue: 

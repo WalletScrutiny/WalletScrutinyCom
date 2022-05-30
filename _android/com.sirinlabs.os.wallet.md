@@ -12,7 +12,7 @@ version: 1.0.9.5489
 stars: 3.4
 ratings: 24
 reviews: 5
-size: 25M
+size: 
 website: https://sirinlabs.com/
 repository: 
 issue: 

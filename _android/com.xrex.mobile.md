@@ -8,12 +8,12 @@ users: 10000
 appId: com.xrex.mobile
 appCountry: au
 released: 2020-02-20
-updated: 2022-05-16
-version: 2.0.132
+updated: 2022-05-27
+version: 2.0.148
 stars: 
 ratings: 
 reviews: 
-size: 81M
+size: 
 website: https://xrex.io/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.17.2
 stars: 4.2
 ratings: 110
 reviews: 12
-size: 70M
+size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/127

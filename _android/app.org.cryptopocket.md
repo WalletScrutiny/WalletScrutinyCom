@@ -12,7 +12,7 @@ version: 1.2.8
 stars: 
 ratings: 
 reviews: 
-size: 4.3M
+size: 
 website: http://www.cryptopocket.info/
 repository: 
 issue: 

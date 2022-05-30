@@ -13,7 +13,7 @@ version: '3.27'
 stars: 4.1
 ratings: 3529
 reviews: 12
-size: 44M
+size: 
 website: https://www.buyucoin.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://www.cabital.com
 repository: 
 issue: 

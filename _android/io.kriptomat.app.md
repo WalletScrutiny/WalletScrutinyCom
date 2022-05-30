@@ -13,7 +13,7 @@ version: 2.1.7
 stars: 
 ratings: 
 reviews: 
-size: 43M
+size: 
 website: https://www.kriptomat.io
 repository: 
 issue: 

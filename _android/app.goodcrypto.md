@@ -13,7 +13,7 @@ version: 1.8.5
 stars: 4.5
 ratings: 1058
 reviews: 105
-size: 16M
+size: 
 website: https://goodcrypto.app
 repository: 
 issue: 

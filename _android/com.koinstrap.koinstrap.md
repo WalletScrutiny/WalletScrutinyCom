@@ -13,7 +13,7 @@ version: 3.0.7
 stars: 
 ratings: 
 reviews: 
-size: 66M
+size: 
 website: https://koinstrap.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 3.9M
+size: 
 website: https://buysellsignals.app/landing/
 repository: 
 issue: 

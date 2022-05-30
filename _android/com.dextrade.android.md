@@ -13,7 +13,7 @@ version: 1.2.4
 stars: 3.1
 ratings: 218
 reviews: 15
-size: 1.2M
+size: 
 website: https://dex-trade.com
 repository: 
 issue: 

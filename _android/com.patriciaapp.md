@@ -13,7 +13,7 @@ version: 1.3.5
 stars: 1.9
 ratings: 3910
 reviews: 394
-size: 49M
+size: 
 website: https://mypatricia.co
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: v1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 7.7M
+size: 
 website: http://lkrcoin.io/
 repository: 
 issue: 

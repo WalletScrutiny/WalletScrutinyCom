@@ -12,7 +12,7 @@ version: 5.5.1
 stars: 4.3
 ratings: 134
 reviews: 16
-size: 16M
+size: 
 website: https://particl.io
 repository: 
 issue: 

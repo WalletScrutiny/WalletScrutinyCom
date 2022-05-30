@@ -12,7 +12,7 @@ version: 1.2.05
 stars: 
 ratings: 
 reviews: 
-size: 53M
+size: 
 website: http://crocobit.net
 repository: 
 issue: 

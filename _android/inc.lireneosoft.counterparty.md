@@ -13,7 +13,7 @@ version: 2.5.4
 stars: 3.4
 ratings: 242
 reviews: 31
-size: 22M
+size: 
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 

@@ -13,7 +13,7 @@ version: '2.4'
 stars: 4.1
 ratings: 251
 reviews: 40
-size: 5.0M
+size: 
 website: http://jurajkusnier.com/
 repository: 
 issue: 

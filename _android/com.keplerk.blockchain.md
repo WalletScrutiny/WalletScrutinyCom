@@ -13,7 +13,7 @@ version: 3.5.2
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://bykep.com/
 repository: 
 issue: 

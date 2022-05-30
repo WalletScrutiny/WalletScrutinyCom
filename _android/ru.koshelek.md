@@ -13,7 +13,7 @@ version: 1.11.2
 stars: 4.2
 ratings: 122
 reviews: 57
-size: 8.2M
+size: 
 website: https://koshelek.ru/
 repository: 
 issue: 

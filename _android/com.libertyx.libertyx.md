@@ -13,7 +13,7 @@ version: 4.1.2
 stars: 3.4
 ratings: 427
 reviews: 267
-size: 27M
+size: 
 website: https://libertyx.com
 repository: 
 issue: 

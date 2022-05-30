@@ -13,7 +13,7 @@ version: 1.6.0
 stars: 3.2
 ratings: 3998
 reviews: 29
-size: 29M
+size: 
 website: https://www.dunamu.com
 repository: 
 issue: 

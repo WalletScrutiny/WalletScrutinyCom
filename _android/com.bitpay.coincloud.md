@@ -13,7 +13,7 @@ version: 12.02.18
 stars: 3.8
 ratings: 235
 reviews: 103
-size: 17M
+size: 
 website: https://www.coin.cloud
 repository: 
 issue: 

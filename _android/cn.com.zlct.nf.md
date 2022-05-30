@@ -13,7 +13,7 @@ version: 2.1.3
 stars: 
 ratings: 
 reviews: 
-size: 6.6M
+size: 
 website: https://nf35.com/#/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: '4.6'
 stars: 4.2
 ratings: 
 reviews: 2
-size: 25M
+size: 
 website: https://www.lpntoken.io
 repository: 
 issue: 

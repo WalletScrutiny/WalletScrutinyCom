@@ -13,7 +13,7 @@ version: 2.9.1
 stars: 
 ratings: 
 reviews: 
-size: 62M
+size: 
 website: https://riodefi.com/
 repository: 
 issue: 

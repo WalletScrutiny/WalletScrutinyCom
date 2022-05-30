@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 1.1
 ratings: 131
 reviews: 8
-size: 48M
+size: 
 website: https://neobitcoin.org/
 repository: 
 issue: 

@@ -12,15 +12,15 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://www.anwonder.com
 repository: 
 issue: 
 icon: com.anwonder.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-05-28
 signer: 
 reviewArchive: 
 twitter: 

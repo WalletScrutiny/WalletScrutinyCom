@@ -13,7 +13,7 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 50M
+size: 
 website: https://hybridsolutions.com/
 repository: 
 issue: 

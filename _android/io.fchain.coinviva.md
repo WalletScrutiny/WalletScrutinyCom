@@ -12,7 +12,7 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 19M
+size: 
 website: http://www.coinviva.com
 repository: 
 issue: 

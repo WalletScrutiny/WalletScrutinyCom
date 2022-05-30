@@ -8,11 +8,11 @@ appId: com.renzler
 appCountry: 
 released: 
 updated: 2022-05-16
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://renzler.one
 repository: 
 issue: 

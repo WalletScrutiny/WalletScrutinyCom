@@ -12,7 +12,7 @@ version: 3.2.3
 stars: 
 ratings: 
 reviews: 
-size: 47M
+size: 
 website: https://www.bitdata.pro
 repository: 
 issue: 

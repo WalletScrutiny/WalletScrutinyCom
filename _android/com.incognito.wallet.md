@@ -13,7 +13,7 @@ version: 5.3.0
 stars: 4
 ratings: 344
 reviews: 63
-size: 49M
+size: 
 website: https://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422

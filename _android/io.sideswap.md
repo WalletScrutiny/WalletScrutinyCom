@@ -12,7 +12,7 @@ version: 1.1.4
 stars: 
 ratings: 
 reviews: 
-size: 83M
+size: 
 website: https://sideswap.io/
 repository: 
 issue: 

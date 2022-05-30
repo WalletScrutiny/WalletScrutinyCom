@@ -13,7 +13,7 @@ version: 4.3.4
 stars: 
 ratings: 
 reviews: 
-size: 30M
+size: 
 website: https://b4uwallet.com
 repository: 
 issue: 

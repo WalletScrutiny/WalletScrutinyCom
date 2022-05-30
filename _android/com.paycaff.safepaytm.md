@@ -12,7 +12,7 @@ version: '3.0'
 stars: 4.3
 ratings: 143
 reviews: 1
-size: 1.5M
+size: 
 website: https://safepaytm.com/
 repository: 
 issue: 

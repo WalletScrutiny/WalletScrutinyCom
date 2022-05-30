@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 9.1M
+size: 
 website: https://www.bitalgopayment.com
 repository: 
 issue: 

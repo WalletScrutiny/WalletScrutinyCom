@@ -13,7 +13,7 @@ version: 1.6.1
 stars: 2.8
 ratings: 24
 reviews: 18
-size: 13M
+size: 
 website: https://bitvo.com
 repository: 
 issue: 

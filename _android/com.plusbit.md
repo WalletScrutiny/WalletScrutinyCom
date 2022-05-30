@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: https://plusbit.tech/
 repository: 
 issue: 

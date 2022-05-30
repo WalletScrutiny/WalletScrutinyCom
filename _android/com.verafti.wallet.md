@@ -13,7 +13,7 @@ version: 1.1.3
 stars: 2.9
 ratings: 127
 reviews: 3
-size: 7.0M
+size: 
 website: https://verafti.uk
 repository: 
 issue: 

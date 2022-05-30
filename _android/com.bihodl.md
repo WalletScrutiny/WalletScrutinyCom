@@ -12,7 +12,7 @@ version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://bihodl.com
 repository: 
 issue: 

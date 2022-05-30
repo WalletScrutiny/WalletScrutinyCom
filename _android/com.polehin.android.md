@@ -13,7 +13,7 @@ version: 3.7.4
 stars: 4.3
 ratings: 22277
 reviews: 1040
-size: 48M
+size: 
 website: https://coinbox.org
 repository: 
 issue: 

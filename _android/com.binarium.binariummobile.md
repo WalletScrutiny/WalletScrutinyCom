@@ -13,7 +13,7 @@ version: 1.0.0.7
 stars: 2.7
 ratings: 2731
 reviews: 10
-size: 7.0M
+size: 
 website: http://binarium.com
 repository: 
 issue: 

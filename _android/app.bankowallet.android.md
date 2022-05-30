@@ -12,7 +12,7 @@ version: 1.3.17851
 stars: 
 ratings: 
 reviews: 
-size: 22M
+size: 
 website: http://www.bankowallet.com
 repository: 
 issue: 

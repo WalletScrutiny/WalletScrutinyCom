@@ -13,7 +13,7 @@ version: 2.0.0
 stars: 4.1
 ratings: 148
 reviews: 14
-size: 6.3M
+size: 
 website: https://www.jackocoins.com/
 repository: 
 issue: 

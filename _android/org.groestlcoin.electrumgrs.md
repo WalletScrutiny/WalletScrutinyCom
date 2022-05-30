@@ -12,7 +12,7 @@ version: 4.2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 
 website: https://groestlcoin.org
 repository: 
 issue: 

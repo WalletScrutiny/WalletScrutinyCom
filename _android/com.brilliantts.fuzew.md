@@ -13,7 +13,7 @@ version: 1.0.26
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: 'https://www.fuzew.com '
 repository: 
 issue: 

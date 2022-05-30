@@ -13,7 +13,7 @@ version: 3.4.9
 stars: 4.2
 ratings: 764
 reviews: 27
-size: 40M
+size: 
 website: https://www.poolin.com/
 repository: 
 issue: 

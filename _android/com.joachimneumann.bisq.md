@@ -12,7 +12,7 @@ version: 1.1.0
 stars: 2.7
 ratings: 69
 reviews: 13
-size: 3.6M
+size: 
 website: http://www.joachimneumann.com
 repository: 
 issue: 

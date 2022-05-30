@@ -13,7 +13,7 @@ version: 0.2.12
 stars: 3.2
 ratings: 1053
 reviews: 8
-size: 35M
+size: 
 website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 

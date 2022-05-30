@@ -13,7 +13,7 @@ version: 2.0.10
 stars: 3.5
 ratings: 48
 reviews: 24
-size: 30M
+size: 
 website: https://ataix.com
 repository: 
 issue: 

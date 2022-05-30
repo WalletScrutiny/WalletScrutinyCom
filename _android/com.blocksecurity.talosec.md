@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: http://talosec.io
 repository: 
 issue: 

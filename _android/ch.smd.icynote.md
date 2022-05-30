@@ -13,7 +13,7 @@ version: '0.7'
 stars: 
 ratings: 
 reviews: 
-size: 61M
+size: 
 website: https://icynote.ch
 repository: 
 issue: 

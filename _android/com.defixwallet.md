@@ -12,7 +12,7 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 7.4M
+size: 
 website: https://www.defixwallet.io
 repository: 
 issue: 

@@ -12,8 +12,8 @@ updated: 2022-05-11
 version: 5.36.8
 stars: 3.3
 ratings: 34376
-reviews: 158
-size: 102M
+reviews: 159
+size: 
 website: https://www.ripio.com
 repository: 
 issue: 

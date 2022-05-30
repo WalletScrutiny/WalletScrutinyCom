@@ -13,7 +13,7 @@ version: 2.52.4
 stars: 4.4
 ratings: 3831
 reviews: 440
-size: 31M
+size: 
 website: https://guarda.com
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42

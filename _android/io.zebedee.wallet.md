@@ -13,7 +13,7 @@ version: 2.38.3
 stars: 3.8
 ratings: 358
 reviews: 32
-size: 53M
+size: 
 website: https://zebedee.io
 repository: 
 issue: 

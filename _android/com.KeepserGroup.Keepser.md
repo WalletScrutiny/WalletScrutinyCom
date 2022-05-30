@@ -13,7 +13,7 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 41M
+size: 
 website: https://www.keepser.io
 repository: 
 issue: 

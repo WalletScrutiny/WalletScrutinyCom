@@ -12,7 +12,7 @@ version: 1.0.5
 stars: 4.5
 ratings: 454
 reviews: 13
-size: 8.7M
+size: 
 website: http://stib.co
 repository: 
 issue: 

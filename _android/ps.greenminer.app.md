@@ -10,10 +10,10 @@ appCountry:
 released: 2021-06-04
 updated: 2021-09-02
 version: 1.39b
-stars: 4.3
+stars: 4.4
 ratings: 5347
-reviews: 337
-size: 25M
+reviews: 338
+size: 
 website: http://crypto.promo-miner.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.0.77
 stars: 3.5
 ratings: 65
 reviews: 2
-size: 39M
+size: 
 website: https://www.bitmama.io
 repository: 
 issue: 

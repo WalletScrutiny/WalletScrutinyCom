@@ -13,7 +13,7 @@ version: '1.37'
 stars: 3.1
 ratings: 375
 reviews: 5
-size: 15M
+size: 
 website: https://www.probit.kr
 repository: 
 issue: 

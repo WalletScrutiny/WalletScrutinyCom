@@ -13,7 +13,7 @@ version: 1.3.7
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
+size: 
 website: https://starlabstudio.xyz/
 repository: 
 issue: 

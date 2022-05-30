@@ -12,8 +12,8 @@ updated: 2022-05-20
 version: 7.0.8
 stars: 4.3
 ratings: 3949
-reviews: 173
-size: 49M
+reviews: 174
+size: 
 website: https://bitkeep.com
 repository: 
 issue: 

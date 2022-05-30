@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://cryonik.io
 repository: 
 issue: 

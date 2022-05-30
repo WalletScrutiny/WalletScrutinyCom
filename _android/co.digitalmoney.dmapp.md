@@ -13,7 +13,7 @@ version: 1.4.9
 stars: 
 ratings: 
 reviews: 
-size: 43M
+size: 
 website: https://digital-money.co/
 repository: 
 issue: 

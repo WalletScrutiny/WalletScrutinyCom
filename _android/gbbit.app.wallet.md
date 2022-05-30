@@ -12,7 +12,7 @@ version: '10.61'
 stars: 
 ratings: 
 reviews: 
-size: 5.6M
+size: 
 website: https://www.gbbit.com
 repository: 
 issue: 

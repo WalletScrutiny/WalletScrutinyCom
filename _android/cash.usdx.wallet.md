@@ -13,7 +13,7 @@ version: 1.34.2
 stars: 4.4
 ratings: 5482
 reviews: 236
-size: 37M
+size: 
 website: https://usdx.cash
 repository: 
 issue: 

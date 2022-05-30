@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 1.6M
+size: 
 website: https://nd-exk.com
 repository: 
 issue: 

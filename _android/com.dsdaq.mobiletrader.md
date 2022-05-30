@@ -13,7 +13,7 @@ version: 3.0.4
 stars: 5
 ratings: 510
 reviews: 55
-size: 8.3M
+size: 
 website: https://dsdaq.com
 repository: 
 issue: 

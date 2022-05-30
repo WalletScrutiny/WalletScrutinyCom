@@ -12,8 +12,8 @@ updated: 2022-05-19
 version: 2.2.29
 stars: 4.3
 ratings: 21149
-reviews: 1634
-size: 96M
+reviews: 1638
+size: 
 website: https://nexo.io
 repository: 
 issue: 

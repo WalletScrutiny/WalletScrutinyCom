@@ -12,7 +12,7 @@ version: 1.8.1
 stars: 
 ratings: 
 reviews: 
-size: 63M
+size: 
 website: https://www.toropal.com
 repository: 
 issue: 

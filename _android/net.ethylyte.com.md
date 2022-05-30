@@ -12,7 +12,7 @@ version: '2.8'
 stars: 4.4
 ratings: 193
 reviews: 6
-size: 5.0M
+size: 
 website: https://ethlyte.tech/
 repository: 
 issue: 

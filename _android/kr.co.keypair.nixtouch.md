@@ -12,7 +12,7 @@ version: 1.0.0.65
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://www.nixblock.com/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.11.6
 stars: 
 ratings: 
 reviews: 
-size: 34M
+size: 
 website: https://bitfy.app
 repository: 
 issue: 

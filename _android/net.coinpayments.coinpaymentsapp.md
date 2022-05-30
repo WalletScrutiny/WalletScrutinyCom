@@ -9,11 +9,11 @@ appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 released: 2016-11-15
 updated: 2021-12-06
-version: Varies with device
+version: VARY
 stars: 3.6
 ratings: 2277
-reviews: 113
-size: Varies with device
+reviews: 114
+size: 
 website: https://www.coinpayments.net/
 repository: 
 issue: 

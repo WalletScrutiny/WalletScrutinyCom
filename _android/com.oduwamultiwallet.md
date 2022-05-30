@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://www.oduwacoin.io/
 repository: 
 issue: 

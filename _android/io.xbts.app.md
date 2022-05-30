@@ -12,7 +12,7 @@ version: 0.1.25
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://app.xbts.io
 repository: 
 issue: 

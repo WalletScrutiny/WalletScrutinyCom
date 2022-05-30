@@ -13,7 +13,7 @@ version: 2.0.20
 stars: 5
 ratings: 269
 reviews: 10
-size: 7.1M
+size: 
 website: https://808exchange.net
 repository: 
 issue: 

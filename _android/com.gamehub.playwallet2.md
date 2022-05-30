@@ -12,7 +12,7 @@ version: 2.0.6
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: http://www.playwallet.io/
 repository: 
 issue: 

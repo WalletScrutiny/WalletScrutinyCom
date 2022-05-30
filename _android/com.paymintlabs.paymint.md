@@ -13,7 +13,7 @@ version: 1.2.2
 stars: 
 ratings: 
 reviews: 
-size: 25M
+size: 
 website: 
 repository: https://github.com/Paymint-Labs/Paymint
 issue: 

@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 4.4
 ratings: 
 reviews: 2
-size: 45M
+size: 
 website: http://www.2cash.io
 repository: 
 issue: 

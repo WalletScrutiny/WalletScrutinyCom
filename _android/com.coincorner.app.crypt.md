@@ -13,7 +13,7 @@ version: 4.2.0
 stars: 
 ratings: 
 reviews: 
-size: 45M
+size: 
 website: https://www.coincorner.com
 repository: 
 issue: 

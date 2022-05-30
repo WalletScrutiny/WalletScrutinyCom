@@ -8,11 +8,11 @@ appId: com.application.digidinar
 appCountry: 
 released: 
 updated: 2021-03-02
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://www.digidinar.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.11.2
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: http://www.biteeu.com
 repository: 
 issue: 

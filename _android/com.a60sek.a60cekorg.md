@@ -13,7 +13,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 3.2M
+size: 
 website: https://60cek.org
 repository: 
 issue: 

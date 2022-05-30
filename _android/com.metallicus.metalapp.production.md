@@ -13,7 +13,7 @@ version: 2.6.2-prod
 stars: 3.7
 ratings: 564
 reviews: 285
-size: 81M
+size: 
 website: https://metalpay.com
 repository: 
 issue: 

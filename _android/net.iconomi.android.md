@@ -12,8 +12,8 @@ updated: 2022-05-24
 version: 2.1.7
 stars: 4.2
 ratings: 291
-reviews: 143
-size: 131M
+reviews: 142
+size: 
 website: https://www.iconomi.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 3.15.0
 stars: 4.1
 ratings: 202
 reviews: 8
-size: Varies with device
+size: 
 website: https://hold.io
 repository: 
 issue: 

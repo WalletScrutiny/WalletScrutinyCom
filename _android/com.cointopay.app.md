@@ -13,7 +13,7 @@ version: 2.1.6
 stars: 2.3
 ratings: 20
 reviews: 5
-size: 6.5M
+size: 
 website: https://cointopay.com
 repository: 
 issue: 

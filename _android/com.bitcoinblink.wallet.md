@@ -12,7 +12,7 @@ version: '1.9'
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: https://bitcoinblink.com/
 repository: 
 issue: 

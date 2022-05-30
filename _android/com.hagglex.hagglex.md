@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 4.3
 ratings: 2775
 reviews: 91
-size: 47M
+size: 
 website: http://www.hagglex.com
 repository: 
 issue: 

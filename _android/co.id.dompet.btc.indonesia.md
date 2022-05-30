@@ -13,7 +13,7 @@ version: 2.4.9
 stars: 3.9
 ratings: 4803
 reviews: 31
-size: 8.8M
+size: 
 website: https://www.indodax.com/
 repository: 
 issue: 

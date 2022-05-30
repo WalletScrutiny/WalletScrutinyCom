@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 4.6
 ratings: 658
 reviews: 90
-size: 50M
+size: 
 website: https://www.balletcrypto.com/
 repository: 
 issue: 

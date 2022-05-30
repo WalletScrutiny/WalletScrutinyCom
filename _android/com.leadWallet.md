@@ -13,7 +13,7 @@ version: 1.0.34
 stars: 4.4
 ratings: 1683
 reviews: 53
-size: 41M
+size: 
 website: https://leadwallet.io
 repository: 
 issue: 

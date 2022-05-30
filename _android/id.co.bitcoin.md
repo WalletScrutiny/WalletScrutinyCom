@@ -12,8 +12,8 @@ updated: 2022-05-24
 version: 4.3.6
 stars: 4.2
 ratings: 97568
-reviews: 363
-size: 44M
+reviews: 364
+size: 
 website: http://indodax.com
 repository: 
 issue: 

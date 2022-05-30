@@ -12,7 +12,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 2.8M
+size: 
 website: http://www.melona.app
 repository: 
 issue: 

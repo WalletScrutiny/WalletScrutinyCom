@@ -12,7 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 9.5M
+size: 
 website: https://www.legatow.com
 repository: 
 issue: 

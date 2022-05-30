@@ -8,11 +8,11 @@ appId: net.panteam.pt.BTC
 appCountry: 
 released: 
 updated: 2022-03-13
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://github.com/AdminPanteam/pt.BTC
 repository: 
 issue: 

@@ -12,8 +12,8 @@ updated: 2022-04-27
 version: 3.14.0
 stars: 4.2
 ratings: 28130
-reviews: 102
-size: Varies with device
+reviews: 104
+size: 
 website: https://pintu.co.id/
 repository: 
 issue: 

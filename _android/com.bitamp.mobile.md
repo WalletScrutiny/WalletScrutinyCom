@@ -12,7 +12,7 @@ version: '2.0'
 stars: 4.9
 ratings: 52
 reviews: 50
-size: 2.9M
+size: 
 website: https://www.bitamp.com
 repository: 
 issue: 

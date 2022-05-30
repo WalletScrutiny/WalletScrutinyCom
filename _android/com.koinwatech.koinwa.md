@@ -13,7 +13,7 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 64M
+size: 
 website: https://koinwa.com/
 repository: 
 issue: 

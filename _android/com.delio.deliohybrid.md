@@ -13,7 +13,7 @@ version: 1.3.13
 stars: 2.6
 ratings: 48
 reviews: 43
-size: 29M
+size: 
 website: https://www.delio.foundation
 repository: 
 issue: 

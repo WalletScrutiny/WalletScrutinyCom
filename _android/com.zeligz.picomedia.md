@@ -12,7 +12,7 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://picomediacoin.com
 repository: 
 issue: 

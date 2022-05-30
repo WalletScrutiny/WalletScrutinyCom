@@ -12,7 +12,7 @@ version: 0.1.3
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: 
 website: https://lndroid.org
 repository: 
 issue: 

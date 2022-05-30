@@ -14,7 +14,7 @@ version: 43.0.0
 stars: 2.8
 ratings: 1122
 reviews: 91
-size: 18M
+size: 
 website: https://www.etoro.com/crypto/wallet
 repository: 
 issue: 

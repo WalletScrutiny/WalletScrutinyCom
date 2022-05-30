@@ -13,7 +13,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 45M
+size: 
 website: https://keyst.one/
 repository: 
 issue: 
