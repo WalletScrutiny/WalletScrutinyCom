@@ -27,7 +27,7 @@ reviewArchive:
 - date: 2022-05-25
   version: "3.17.0"
   appHash: 08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf
-  gitRevision: 
+  gitRevision: 6c3fff0dc914b06c3c794c25093bb3015447e874
   verdict: nonverifiable
 - date: 2022-04-15
   version: 3.16.0
