@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: mn.trade.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-21
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: TradeMnOfficial
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-17**: This app is not available anymore.
 
 ## App Description
 

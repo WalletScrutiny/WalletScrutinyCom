@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cobo.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2020-06-18
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: Cobo_Wallet
@@ -35,6 +35,8 @@ redirect_from:
 - /posts/cobo.wallet/
 
 ---
+
+**Update 2022-05-15**: This app is not available anymore.
 
 **Update:** This wallet was one of the first wallets that was analyzed and back
 then the custodial wallet was detrimental to call the full wallet custodial.

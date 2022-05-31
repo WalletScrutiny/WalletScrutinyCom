@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: kr.co.citex.citexclient.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: Citexofficial
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-13**: This app is not available anymore.
 
 ## App Description
 

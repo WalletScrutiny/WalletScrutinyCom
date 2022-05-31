@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pallapayWallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-04-11
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: pallapay_com
@@ -31,5 +31,7 @@ social:
 - https://t.me/pallapay_channel
 
 ---
+
+**Update 2022-04-30**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

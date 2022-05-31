@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.flavor.korea.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: hotbit_korea
@@ -28,4 +28,6 @@ social:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-05-08**: This app is not available anymore.
+
+{% include copyFromAndroid.html %}

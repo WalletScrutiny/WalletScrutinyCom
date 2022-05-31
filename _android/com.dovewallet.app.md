@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dovewallet.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2021-12-20
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: dovewallet_en
@@ -31,6 +31,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-21**: This app is not available anymore.
 
 ## App Description
 
