@@ -25,7 +25,7 @@ date: 2022-05-31
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2022-05-08
-  version: "3.8.0"
+  version: 3.8.0
   appHash: 800949a6583a347102ba33bbcfe337ae6193892e2a956acbec75444492ad8b3c
   gitRevision: edb4930bbfa185f9457134b8514a962a71f5e340
   verdict: reproducible

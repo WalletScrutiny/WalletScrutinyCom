@@ -4,7 +4,7 @@ title: Bitget - Buy & Sell Crypto
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03

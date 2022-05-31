@@ -12,9 +12,9 @@ updated: 2022-05-24
 version: 2.41.0
 stars: 4.5
 ratings: 54327
-reviews: 10091
+reviews: 10095
 size: 
-website: https://www.wealthsimple.com/trade
+website: https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 
 icon: com.wealthsimple.trade.png

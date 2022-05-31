@@ -7,8 +7,8 @@ users: 100
 appId: com.app.toropal
 appCountry: 
 released: 2019-02-18
-updated: 2022-04-18
-version: 1.8.1
+updated: 2022-05-29
+version: 1.8.2
 stars: 
 ratings: 
 reviews: 

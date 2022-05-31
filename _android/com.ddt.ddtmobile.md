@@ -3,7 +3,7 @@ wsId:
 title: DDT Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ddt.ddtmobile
 appCountry: 
 released: 2019-10-07
@@ -19,7 +19,7 @@ issue:
 icon: com.ddt.ddtmobile.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-03-14
 signer: 
 reviewArchive: 

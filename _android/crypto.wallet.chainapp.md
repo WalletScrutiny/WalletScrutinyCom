@@ -3,23 +3,23 @@ wsId:
 title: Bull App - Bitcoin & ETH Secure DeFi Crypto Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: crypto.wallet.chainapp
 appCountry: 
 released: 2021-03-24
-updated: 2021-09-22
-version: 1.2.8
+updated: 2022-05-18
+version: 1.2.9
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://getbull.app
 repository: 
 issue: 
 icon: crypto.wallet.chainapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

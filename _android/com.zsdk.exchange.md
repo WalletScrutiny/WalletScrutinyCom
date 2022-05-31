@@ -13,7 +13,7 @@ version: 3.1.5
 stars: 1.9
 ratings: 187
 reviews: 45
-size: 51M
+size: 
 website: https://www.zbg.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2022-03-08
 version: 1.0.93
 stars: 4.3
 ratings: 22040
-reviews: 4427
+reviews: 4429
 size: 
 website: http://pro.coinbase.com/
 repository: 

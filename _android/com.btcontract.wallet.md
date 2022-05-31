@@ -26,7 +26,7 @@ date: 2022-05-30
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
 - date: 2022-01-31
-  version: "2.4.27"
+  version: 2.4.27
   appHash: d21229831b319fcb8ebbfcad5785850ff07d5d8715d02fce10c6fb1a1b2de388
   gitRevision: d75708ec1ae0c6b2febf4ff5ac2f32aa85af3139
   verdict: reproducible

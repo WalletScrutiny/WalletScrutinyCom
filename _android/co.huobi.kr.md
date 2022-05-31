@@ -12,7 +12,7 @@ updated: 2022-05-24
 version: 3.7.2
 stars: 3.1
 ratings: 3505
-reviews: 823
+reviews: 824
 size: 
 website: https://www.huobi.co.kr
 repository: 

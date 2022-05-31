@@ -12,7 +12,7 @@ updated: 2022-05-28
 version: 11.7.0
 stars: 4.2
 ratings: 18096
-reviews: 280
+reviews: 281
 size: 
 website: https://coin98.com/
 repository: 

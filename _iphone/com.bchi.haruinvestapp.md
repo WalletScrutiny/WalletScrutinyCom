@@ -11,7 +11,7 @@ released: 2021-08-19
 updated: 2022-05-26
 version: 2.3.0
 stars: 4.9
-reviews: 128
+reviews: 129
 size: '101392384'
 website: https://haruinvest.com/appdownload
 repository: 

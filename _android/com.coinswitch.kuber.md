@@ -12,7 +12,7 @@ updated: 2022-05-16
 version: 3.9.3
 stars: 4.1
 ratings: 413931
-reviews: 132671
+reviews: 132766
 size: 
 website: https://coinswitch.co/in
 repository: 
