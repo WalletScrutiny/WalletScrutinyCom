@@ -8,11 +8,11 @@ appId: com.zamzam.bank
 appCountry: ru
 idd: 1521900439
 released: 2020-07-04
-updated: 2022-05-17
-version: 1.4.5
-stars: 3.5
-reviews: 35
-size: '70700032'
+updated: 2022-05-27
+version: 1.4.6
+stars: 4.1
+reviews: 58
+size: '70736896'
 website: https://zam.me
 repository: 
 issue: 

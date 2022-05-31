@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Buy BTC, ETH, DOGE'
+title: 'ONUS: Invest in BTC, ETH, LUNA'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.vndc.app
 appCountry: us
 idd: 1498452975
 released: 2020-03-09
-updated: 2022-05-25
-version: 2.3.8
+updated: 2022-05-31
+version: 2.4.2
 stars: 4.7
-reviews: 816
-size: '198438912'
+reviews: 849
+size: '202440704'
 website: https://goonus.io/en
 repository: 
 issue: 

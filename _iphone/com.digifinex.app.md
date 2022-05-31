@@ -8,11 +8,11 @@ appId: com.digifinex.app
 appCountry: 
 idd: 1397735851
 released: 2018-08-25
-updated: 2022-05-20
-version: 2022.05.18
+updated: 2022-05-26
+version: 2022.05.25
 stars: 4.9
-reviews: 737
-size: '430303232'
+reviews: 712
+size: '430409728'
 website: https://www.digifinex.com
 repository: 
 issue: 

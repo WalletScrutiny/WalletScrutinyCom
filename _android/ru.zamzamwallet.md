@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-06-26
 updated: 2022-05-27
 version: 2.8.17
-stars: 3.6
+stars: 3.7
 ratings: 139
-reviews: 136
+reviews: 138
 size: 
 website: https://zam.me/
 repository: 

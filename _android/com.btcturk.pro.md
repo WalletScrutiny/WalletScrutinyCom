@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'BtcTurk | PRO : BTC|ETH|SHIB'
+title: 'BtcTurk | PRO: USDT|SHIB|AVAX'
 altTitle: 
 authors:
 - danny

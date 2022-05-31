@@ -12,7 +12,7 @@ released: 2020-04-07
 updated: 2022-04-27
 version: 2.18.11
 stars: 4
-reviews: 55
+reviews: 57
 size: '82220032'
 website: https://exmo.com/en
 repository: 

@@ -10,8 +10,8 @@ idd: 1528451572
 released: 2020-08-31
 updated: 2022-05-25
 version: 3.2.4
-stars: 4.2
-reviews: 22
+stars: 4.3
+reviews: 23
 size: '73039872'
 website: https://o3.network
 repository: 

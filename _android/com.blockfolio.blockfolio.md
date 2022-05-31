@@ -12,7 +12,7 @@ updated: 2022-05-26
 version: 4.10.0
 stars: 4
 ratings: 164833
-reviews: 11445
+reviews: 11456
 size: 
 website: https://www.blockfolio.com
 repository: 

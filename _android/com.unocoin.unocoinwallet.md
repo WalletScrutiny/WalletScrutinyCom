@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: 'Unocoin: Bitcoin & 80+ Crypto'
+title: 'Unocoin: Bitcoin & 85+ Cryptos'
 altTitle: 
 authors:
 - leo

@@ -4,7 +4,7 @@ title: 'Mercado Pago: digital account'
 altTitle: 
 authors:
 - leo
-users: 50000000
+users: 100000000
 appId: com.mercadopago.wallet
 appCountry: br
 released: 2014-12-09
@@ -12,7 +12,7 @@ updated: 2022-04-20
 version: 2.215.2
 stars: 4.8
 ratings: 3484084
-reviews: 754223
+reviews: 754676
 size: 
 website: http://www.mercadopago.com
 repository: 
