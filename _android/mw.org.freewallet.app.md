@@ -10,9 +10,9 @@ appCountry:
 released: 2017-08-10
 updated: 2021-09-16
 version: 1.16.5
-stars: 4.8
+stars: 4.9
 ratings: 14323
-reviews: 1461
+reviews: 1486
 size: 
 website: https://freewallet.org/
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-05-29
 updated: 2021-03-31
 version: 2.1.6
-stars: 2.3
+stars: 2.6
 ratings: 20
-reviews: 5
+reviews: 6
 size: 
 website: https://cointopay.com
 repository: 

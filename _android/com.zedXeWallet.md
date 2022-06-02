@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zedXeWallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-06-02
 signer: 
 reviewArchive: 
 twitter: 

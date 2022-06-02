@@ -10,7 +10,7 @@ released: 2020-05-05
 updated: 2022-05-27
 version: 5.4.2
 stars: 3.3
-reviews: 876
+reviews: 878
 size: '92284928'
 website: https://blockfi.com/
 repository: 

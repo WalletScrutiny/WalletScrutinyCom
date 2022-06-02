@@ -12,7 +12,7 @@ updated: 2022-04-13
 version: 1.2.1
 stars: 3.4
 ratings: 542
-reviews: 299
+reviews: 298
 size: 
 website: https://ftx.us/
 repository: 
