@@ -1,6 +1,6 @@
 ---
 wsId: WealthsimpleTrade
-title: Wealthsimple Trade & Crypto
+title: Wealthsimple
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
 released: 2019-02-26
-updated: 2022-05-24
-version: 2.41.0
+updated: 2022-05-31
+version: 2.42.0
 stars: 4.7
-reviews: 123176
-size: '160939008'
-website: https://www.wealthsimple.com/en-ca/product/trade/
+reviews: 123191
+size: '159746048'
+website: https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 
 icon: com.wealthsimple.trade.jpg

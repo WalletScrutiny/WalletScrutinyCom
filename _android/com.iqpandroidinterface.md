@@ -13,7 +13,7 @@ updated: 2021-10-13
 version: '1.2'
 stars: 4.3
 ratings: 613
-reviews: 144
+reviews: 145
 size: 
 website: https://iqwallet.io/
 repository: 

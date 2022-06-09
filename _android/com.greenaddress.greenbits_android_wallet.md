@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-05-08
+date: 2022-05-31
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2022-05-08
+  version: 3.8.0
+  appHash: 800949a6583a347102ba33bbcfe337ae6193892e2a956acbec75444492ad8b3c
+  gitRevision: edb4930bbfa185f9457134b8514a962a71f5e340
+  verdict: reproducible
 - date: 2022-02-25
   version: 3.7.9
   appHash: 3d377177d77c6af84720fff05fe62aad6661b81f21ee5b4a6db490ac6b27a6c5
@@ -192,24 +197,24 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.8.0
-apkVersionCode: 22000380
+apkVersionName: 3.8.2
+apkVersionCode: 22000382
 verdict:        reproducible
-appHash:        800949a6583a347102ba33bbcfe337ae6193892e2a956acbec75444492ad8b3c
-commit:         bde3bbdd506304181752533a72eb08b0d400345d
+appHash:        76127774e3e59557e605fb5b4e8804f8d2c0ef03dd0eabe8de48df0fe49f0ca3
+commit:         2f7a778af047332d1b41f99715b91c97c375c943
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000380/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object bde3bbdd506304181752533a72eb08b0d400345d
+object 2f7a778af047332d1b41f99715b91c97c375c943
 type commit
-tag release_3.8.0
-tagger Domenico Gabriele <domenico@blockstream.com> 1649875135 +0200
+tag release_3.8.2
+tagger Domenico Gabriele <domenico@blockstream.com> 1652979147 +0200
 
-Release 3.8.0
+Release 3.8.2
 ===== End Results =====
 ```
 

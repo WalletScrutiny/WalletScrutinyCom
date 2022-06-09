@@ -1,6 +1,6 @@
 ---
 wsId: BtcTurk
-title: BtcTurk| Bitcoin(BTC) Buy&Sell
+title: BtcTurk | Bitcoin Buy Sell
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.mobillium.btcturk
 appCountry: tr
 released: 2020-05-06
-updated: 2022-05-09
+updated: 2022-06-01
 version: 1.17.1
 stars: 4.6
 ratings: 14766
-reviews: 4744
+reviews: 4759
 size: 
 website: https://www.btcturk.com
 repository: 

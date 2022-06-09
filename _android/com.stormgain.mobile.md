@@ -12,7 +12,7 @@ updated: 2022-02-26
 version: 1.23.0
 stars: 4.3
 ratings: 114954
-reviews: 2096
+reviews: 2098
 size: 
 website: https://stormgain.com/
 repository: 

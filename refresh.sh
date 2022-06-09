@@ -22,7 +22,7 @@ node refreshDonations.js $btcPayKey
 
 wait
 
-if [ "$( git diff --name-only | grep 'wallet_icons' )" != "" ]; then
+if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   ./updateImages.sh
 fi
 

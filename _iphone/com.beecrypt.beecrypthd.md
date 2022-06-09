@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.beecrypt.beecrypthd.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-11-17
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: money_pipe
@@ -28,5 +28,7 @@ social:
 - https://www.facebook.com/moneypipewallet
 
 ---
+
+**Update 2022-05-17**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

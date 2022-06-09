@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AMLSafe - wallet connect web3
+title: AMLSafe - bitcoin wallet
 altTitle: 
 authors:
 - leo

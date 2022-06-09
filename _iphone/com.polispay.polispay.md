@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.polispay.polispay.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-01
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-05-06**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

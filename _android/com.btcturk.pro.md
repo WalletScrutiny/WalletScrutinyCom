@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'BtcTurk | PRO : BTC|ETH|SHIB'
+title: 'BtcTurk | PRO: USDT|SHIB|AVAX'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
-updated: 2022-05-23
+updated: 2022-05-28
 version: VARY
 stars: 4.3
 ratings: 169442
-reviews: 208
+reviews: 209
 size: 
 website: https://pro.btcturk.com
 repository: 

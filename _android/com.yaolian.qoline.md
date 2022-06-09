@@ -4,7 +4,7 @@ title: SalletOne Live
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14

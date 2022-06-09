@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: 'KEYRING PRO: Wallet Connect'
+title: 'KEYRING PRO: BTC, Defi, Web3'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: co.bacoor.keyring
 appCountry: 
 idd: 1546824976
 released: 2021-01-25
-updated: 2022-04-30
-version: 1.9.0
-stars: 3.4
-reviews: 5
-size: '64482304'
+updated: 2022-05-28
+version: 2.0.0
+stars: 3.7
+reviews: 6
+size: '75654144'
 website: 
 repository: 
 issue: 

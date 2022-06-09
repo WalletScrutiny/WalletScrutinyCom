@@ -52,7 +52,7 @@ for platform in hardware bearer android iphone; do
       | awk -F '/' '{print $2}' \
       | sed 's/.md$//g' \
       | sort ) \
-    <(ls -1 images/wallet_icons/$platform/tiny/ \
+    <(ls -1 images/wIcons/$platform/tiny/ \
       | sed 's/.png$//g' \
       | sed 's/.jpg$//g' \
       | sort ) \

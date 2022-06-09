@@ -4,7 +4,7 @@ title: 'Coinmotion: Crypto Investing'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinmotion
 appCountry: in
 released: 2020-08-20

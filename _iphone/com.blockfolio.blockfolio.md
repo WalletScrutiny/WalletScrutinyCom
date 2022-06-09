@@ -8,11 +8,11 @@ appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
 released: 2017-01-05
-updated: 2022-05-19
-version: 4.3.9
+updated: 2022-05-27
+version: 4.10.0
 stars: 4.8
-reviews: 54508
-size: '79125504'
+reviews: 54652
+size: '83661824'
 website: https://ftx.com
 repository: 
 issue: 

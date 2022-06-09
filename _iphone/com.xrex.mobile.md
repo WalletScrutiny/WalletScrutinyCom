@@ -8,8 +8,8 @@ appId: com.xrex.mobile
 appCountry: au
 idd: 1482096895
 released: 2020-02-19
-updated: 2022-05-26
-version: 2.0.146
+updated: 2022-05-31
+version: 2.0.150
 stars: 0
 reviews: 0
 size: '61920256'

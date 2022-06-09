@@ -13,7 +13,7 @@ version: 1.2.113
 stars: 3.9
 ratings: 424
 reviews: 50
-size: 37M
+size: 
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 

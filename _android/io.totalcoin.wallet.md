@@ -1,6 +1,6 @@
 ---
 wsId: Totalcoin
-title: Bitcoin Wallet Totalcoin - Buy and Sell Bitcoin
+title: Totalcoin - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - leo

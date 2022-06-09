@@ -108,7 +108,7 @@ function searchCatalogue(input) {
               compactedResults += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
               href='${analysisUrl}'>
               <img src='${w.icon
-                ? `${basePath}/images/wallet_icons/${w.folder}/small/${w.icon}`
+                ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}`
                 : `${basePath}/images/smallNoicon.png`}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
             <span class="badge-2 ${w.verdict}">

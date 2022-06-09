@@ -3,7 +3,7 @@ wsId:
 title: BITBLINX - Bitcoin Exchange & Crypto Trading
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bitblinx.exchange
 appCountry: 
 released: 2019-11-16

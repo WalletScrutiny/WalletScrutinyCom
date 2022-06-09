@@ -9,7 +9,7 @@ appId: io.nash.app
 appCountry: 
 released: 2019-08-31
 updated: 2022-05-27
-version: 11.0.2
+version: 11.0.3
 stars: 4.6
 ratings: 646
 reviews: 25

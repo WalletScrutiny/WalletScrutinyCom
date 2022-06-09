@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.qsoft.mybtc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-15
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: btc_nigeria

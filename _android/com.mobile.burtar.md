@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobile.burtar.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-03-24
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-24**: This app is not available anymore.
 
 <div class="alertBox"><div>
 <p>This app is probably a scam. Their website has mostly not working links and

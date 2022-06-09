@@ -8,11 +8,11 @@ appId: jetonwallet.JetonWallet
 appCountry: us
 idd: 1190240579
 released: 2017-01-04
-updated: 2022-04-24
-version: 3.5.2
+updated: 2022-05-27
+version: 3.5.3
 stars: 4.3
 reviews: 20
-size: '143668224'
+size: '150105088'
 website: https://jeton.com
 repository: 
 issue: 

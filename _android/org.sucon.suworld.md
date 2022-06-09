@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.sucon.suworld.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-09-05
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-29**: This app is not available anymore.
 

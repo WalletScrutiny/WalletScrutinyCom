@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: SatoshiTango
+title: Satoshi Tango
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 released: 2015-06-24
-updated: 2022-04-18
-version: 4.2.18
+updated: 2022-05-23
+version: 4.2.20
 stars: 3.7
 ratings: 5466
 reviews: 37
-size: 66M
+size: 
 website: http://www.satoshitango.com
 repository: 
 issue: 

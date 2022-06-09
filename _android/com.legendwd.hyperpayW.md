@@ -8,12 +8,12 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2022-04-17
-version: 4.1.32
+updated: 2022-05-11
+version: 4.1.34
 stars: 4.4
 ratings: 2781
-reviews: 264
-size: 118M
+reviews: 265
+size: 
 website: https://hyperpay.tech
 repository: 
 issue: 

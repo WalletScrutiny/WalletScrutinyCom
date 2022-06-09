@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-01
 updated: 2021-09-09
 version: 2.6.5
-stars: 3.7
+stars: 3.6
 ratings: 5474
-reviews: 404
+reviews: 406
 size: 
 website: https://jaxx.io
 repository: 

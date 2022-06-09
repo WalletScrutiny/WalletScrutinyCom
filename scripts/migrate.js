@@ -37,9 +37,9 @@ const migration = function (header, body, fileName, category) {
   if (header.icon && header.icon.slice(0, -4) !== header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`
     console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!
-mv images/wallet_icons/${category}/tiny/{${header.icon},${newIcon}}
-mv images/wallet_icons/${category}/small/{${header.icon},${newIcon}}
-mv images/wallet_icons/${category}/{${header.icon},${newIcon}}`)
+mv images/wIcons/${category}/tiny/{${header.icon},${newIcon}}
+mv images/wIcons/${category}/small/{${header.icon},${newIcon}}
+mv images/wIcons/${category}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
   if (header.dimensions) {

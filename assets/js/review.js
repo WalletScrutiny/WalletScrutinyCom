@@ -29,7 +29,7 @@ function walletLink(w) {
   return `<span class="wallet-link">
 <img
   class="app_logo ${w.folder}"
-  src="/images/wallet_icons/${w.folder}/tiny/${w.icon}"
+  src="/images/wIcons/${w.folder}/tiny/${w.icon}"
   alt="Wallet Logo">
 <a href="${w.url}">${w.altTitle || w.title}</a>&nbsp;${verdictBadge(w.verdict)} </span>`
 }

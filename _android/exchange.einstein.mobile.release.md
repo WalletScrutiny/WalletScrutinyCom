@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.einstein.mobile.release.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-10-09
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-19**: This app is not available anymore.
 

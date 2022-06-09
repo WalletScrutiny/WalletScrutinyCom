@@ -68,7 +68,7 @@ function refreshFile (fileName, content) {
           country: appCountry,
           throttle: 20
         }).then(app => {
-          const iconPath = `images/wallet_icons/android/${appId}`
+          const iconPath = `images/wIcons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             header.icon = `${appId}.${iconExtension}`
             updateFromApp(header, app)

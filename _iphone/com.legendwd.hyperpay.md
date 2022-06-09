@@ -1,6 +1,6 @@
 ---
 wsId: hyperPay
-title: 'HyperPay: Crypto & BTC Wallet'
+title: 'HyperPay: BTC & ETH Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.legendwd.hyperpay
 appCountry: us
 idd: 1354755812
 released: 2018-09-29
-updated: 2022-05-10
-version: 4.1.35
+updated: 2022-05-30
+version: 5.0.1
 stars: 3.9
 reviews: 97
-size: '315729920'
+size: '345876480'
 website: https://hyperpay.tech
 repository: 
 issue: 

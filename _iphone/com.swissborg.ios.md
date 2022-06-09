@@ -8,11 +8,11 @@ appId: com.swissborg.ios
 appCountry: gb
 idd: 1442483481
 released: 2020-03-31
-updated: 2022-05-24
-version: 1.36.0
+updated: 2022-05-30
+version: 1.37.0
 stars: 4.2
-reviews: 905
-size: '79022080'
+reviews: 904
+size: '79230976'
 website: https://swissborg.com
 repository: 
 issue: 

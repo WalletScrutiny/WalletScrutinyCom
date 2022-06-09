@@ -3,7 +3,7 @@ wsId:
 title: Hurbito - Buy & Sell Bitcoin Instantly
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.hurbito.app
 appCountry: 
 released: 2021-01-20

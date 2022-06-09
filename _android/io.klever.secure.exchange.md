@@ -4,7 +4,7 @@ title: Klever Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30

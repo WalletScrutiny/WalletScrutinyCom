@@ -1,69 +1,3 @@
-2022-04-17:
-- _iphone/com.theblockchain.coinus.wallet
-2022-04-18:
-- _iphone/com.andinadefi.defiant
-2022-04-22:
-- _android/app.vinet
-2022-04-24:
-- _iphone/com.wwise.llc.wallet.app
-- _android/com.mobile.burtar
-2022-04-25:
-- _iphone/com.nakitcoins.wallet
-- _android/store.cashin.uk
-2022-04-26:
-- _android/com.quicrypto
-- _android/com.legendwd.hyperpayW
-2022-04-27:
-- _android/bitmesh.volt.wallet
-- _android/crypto.wallet.chainapp
-- _android/io.handcash.wallet
-2022-04-29:
-- _android/org.sucon.suworld
-2022-04-30:
-- _iphone/com.pallapayWallet
-- _android/com.gmo.exchange
-- _android/com.zsdk.exchange
-2022-05-01:
-- _android/com.pallapayWallet
-2022-05-03:
-- _iphone/cash.usdx.wallet
-2022-05-04:
-- _android/com.fiber.fiberwallet
-- _android/com.kinesis.kinesisapp
-2022-05-06:
-- _iphone/com.polispay.polispay
-- _android/capital.amir.wallet
-- _android/com.coinex.trade.play
-2022-05-07:
-- _android/com.newcurrency.coinstrunk.v1
-2022-05-08:
-- _iphone/io.hotbit.shouyi.flavor.korea
-- _android/com.fondexmobile.ct
-2022-05-08:
-2022-05-09:
-2022-05-10:
-2022-05-13:
-- _android/skywallet.net
-- _android/kr.co.citex.citexclient
-2022-05-15:
-- _iphone/com.coin.titan
-- _android/cobo.wallet
-2022-05-15:
-2022-05-16:
-2022-05-17:
-- _iphone/com.beecrypt.beecrypthd
-2022-05-17:
-- _android/mn.trade
-2022-05-18:
-2022-05-19:
-2022-05-19:
-- _android/exchange.einstein.mobile.release
-2022-05-20:
-- _android/com.paxful.wallet
-- _android/com.SatoshiTango.SatoshiTango
-2022-05-21:
-- _android/com.dovewallet.app
-2022-05-22:
 2022-05-25:
 - _android/com.brise.wallet
 - _android/coinsquare.io.coinsquare
@@ -74,3 +8,7 @@
 - _iphone/com.sixpencer.simplework
 2022-05-28:
 - _iphone/com.ToolsTradesApp.ToolsTradesApp
+2022-05-31:
+- _android/app.bitcoin.wallet
+2022-06-02:
+- _iphone/com.payiza.dlt

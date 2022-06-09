@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.wwise.llc.wallet.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-11-15
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-04-24**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

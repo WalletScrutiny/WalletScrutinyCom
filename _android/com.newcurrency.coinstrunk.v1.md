@@ -13,7 +13,7 @@ version: '1.12'
 stars: 4.1
 ratings: 635
 reviews: 47
-size: 6.4M
+size: 
 website: http://firstdaotrust.com
 repository: 
 issue: 
