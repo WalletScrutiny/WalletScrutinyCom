@@ -8,11 +8,11 @@ users: 100000
 appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 released: 2016-11-15
-updated: 2021-12-06
+updated: 2022-06-06
 version: VARY
 stars: 3.6
 ratings: 2277
-reviews: 114
+reviews: 115
 size: 
 website: https://www.coinpayments.net/
 repository: 

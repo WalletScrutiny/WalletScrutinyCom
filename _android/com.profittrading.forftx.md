@@ -8,8 +8,8 @@ users: 5000
 appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25
-updated: 2022-05-30
-version: 1.0.14
+updated: 2022-06-06
+version: 1.0.15
 stars: 5
 ratings: 30
 reviews: 1

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Wallet - Blockchain Explorer
+title: Bitcoin Wallet - Blockchain
 altTitle: (Fake) Bitcoin Wallet - Blockchain Explorer
 authors:
 - kiwilamb

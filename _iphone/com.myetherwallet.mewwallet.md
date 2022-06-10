@@ -8,11 +8,11 @@ appId: com.myetherwallet.mewwallet
 appCountry: us
 idd: 1464614025
 released: 2020-03-12
-updated: 2022-04-08
-version: 1.5.3
+updated: 2022-06-06
+version: 1.6.2
 stars: 4.7
-reviews: 4271
-size: '78083072'
+reviews: 4290
+size: '86344704'
 website: http://mewwallet.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2022-05-23
 version: 2.4.3 'Baldaŭ'
 stars: 3.1
 ratings: 821
-reviews: 158
+reviews: 161
 size: 
 website: https://monerujo.io/
 repository: 

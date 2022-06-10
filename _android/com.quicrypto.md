@@ -9,10 +9,10 @@ appId: com.quicrypto
 appCountry: 
 released: 2019-11-12
 updated: 2022-05-30
-version: 3.44.0
-stars: 3.8
+version: 3.46.0
+stars: 3.7
 ratings: 4934
-reviews: 435
+reviews: 438
 size: 
 website: http://www.quicrypto.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Thunderbolt - Bitcoin and Lightning Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.thunderbolt.wallet
 appCountry: 
 released: 2021-08-29

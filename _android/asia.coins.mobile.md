@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: 'Coins.ph: Crypto & E-wallet'
+title: Coins.ph – Buy Bitcoin, Crypto
 altTitle: 
 authors:
 - leo

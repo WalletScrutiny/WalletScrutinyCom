@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Breez: Lightning Network Client & Point-of-Sale'
+title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:
 - leo

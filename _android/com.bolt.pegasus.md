@@ -12,7 +12,7 @@ updated: 2022-05-12
 version: 1.21.12
 stars: 4
 ratings: 365
-reviews: 20
+reviews: 19
 size: 
 website: https://bolt.global/
 repository: 

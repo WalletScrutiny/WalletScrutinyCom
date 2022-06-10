@@ -1,6 +1,6 @@
 ---
 wsId: StockMaster
-title: 'Stock Master: Investing Stocks'
+title: stock master - stocks market
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.astontek.stock
 appCountry: us
 released: 2020-03-16
-updated: 2022-05-30
-version: '6.27'
+updated: 2022-06-02
+version: '6.28'
 stars: 4.6
 ratings: 2711
-reviews: 486
+reviews: 501
 size: 
 website: http://www.astontek.com
 repository: 

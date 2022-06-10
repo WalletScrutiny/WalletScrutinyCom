@@ -8,8 +8,8 @@ users: 10000
 appId: com.o3.o3wallet
 appCountry: us
 released: 2020-08-27
-updated: 2021-12-10
-version: 3.3.1
+updated: 2022-05-24
+version: 3.3.2
 stars: 4.8
 ratings: 474
 reviews: 13

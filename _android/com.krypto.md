@@ -12,7 +12,7 @@ updated: 2022-04-15
 version: '8.5'
 stars: 4.5
 ratings: 5472
-reviews: 18
+reviews: 17
 size: 
 website: https://letskrypto.com
 repository: 

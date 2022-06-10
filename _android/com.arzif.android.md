@@ -4,7 +4,7 @@ title: Arzif
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.arzif.android
 appCountry: 
 released: 2020-10-09

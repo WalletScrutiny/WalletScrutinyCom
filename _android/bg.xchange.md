@@ -4,7 +4,7 @@ title: xChange.bg - Buy Bitcoin
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: bg.xchange
 appCountry: 
 released: 2020-12-22

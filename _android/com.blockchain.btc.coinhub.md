@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet: NFT Market'
+title: 'Blockchain Wallet: NFT Market'
 altTitle: (Fake) CoinHub - Blockchain Wallet
 authors: 
 users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2022-04-13
-version: 1.2.0.3.3
+updated: 2022-06-09
+version: 1.2.0.4.0
 stars: 4.6
 ratings: 1577
 reviews: 75

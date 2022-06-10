@@ -11,7 +11,7 @@ updated: 2022-05-25
 version: 4.1.4
 stars: 4.2
 ratings: 4010
-reviews: 84
+reviews: 85
 size: 
 website: https://www.bidarz.ir
 repository: 

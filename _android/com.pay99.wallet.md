@@ -4,15 +4,15 @@ title: 99Pay
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.pay99.wallet
 appCountry: br
 released: 2021-09-23
 updated: 2022-05-31
-version: 7.1.18
-stars: 2.7
+version: 7.1.20
+stars: 2.9
 ratings: 4563
-reviews: 4906
+reviews: 4965
 size: 
 website: 
 repository: 

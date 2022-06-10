@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-28
 updated: 2021-10-13
 version: 1.4.1-947
-stars: 4.5
+stars: 4.4
 ratings: 713
-reviews: 23
+reviews: 24
 size: 
 website: https://bullcoin.finance/
 repository: 

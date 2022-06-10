@@ -11,16 +11,16 @@ released: 2018-04-27
 updated: 2021-06-08
 version: '2.3'
 stars: 4.7
-reviews: 187
+reviews: 190
 size: '25708544'
 website: https://trading4pro.com/
 repository: 
 issue: 
 icon: com.t4p.cryptogdx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-01-06
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: Trading4Pro
