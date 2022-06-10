@@ -1,7 +1,7 @@
 <div id="proportionalViewContainer" class="page-section">
 {%- include base_path -%}
 
-{%- assign verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive" | split: "," -%}
+{%- assign verdicts = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive" | split: "," -%}
 {%- assign metas = "ok,stale,obsolete,defunct" | split: "," -%}
 {%- assign posts = site.android | sort: "users" | reverse -%}
 <h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
@@ -12,6 +12,7 @@
       <count><span class="humanised-numbers -bold"><l>0</l></span></count><span><a href="/methodology/#noAudit">Audited?</a></span>
     </td>
     <td>
+      {%- include grid_of_wallets_donations.html -%}
     </td>
   </tr>
   {%- for v in verdicts -%}
@@ -21,6 +22,7 @@
         {%- assign total = total | plus: post.users -%}
       {%- endif -%}
     {%- endfor -%}
+    {%- if total > 0 -%}
     <tr>
       <td>
         <count title="{{ total }} downloads">
@@ -98,6 +100,7 @@
       {%- endfor -%}
       </td>
     </tr>
+    {%- endif -%}
   {%- endfor -%}
 </table>
 </div>
