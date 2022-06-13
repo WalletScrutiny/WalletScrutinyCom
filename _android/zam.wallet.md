@@ -12,7 +12,7 @@ updated: 2022-01-07
 version: 2.3.6
 stars: 4
 ratings: 288
-reviews: 51
+reviews: 52
 size: 
 website: http://zam.io
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: BitPreco
-title: 'Comprar Bitcoin, Ethereum e criptomoedas: BitPreço'
+title: Bitpreço
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
 appCountry: br
 released: 2021-02-21
-updated: 2022-05-20
-version: 1.8.25
+updated: 2022-06-07
+version: 1.8.28
 stars: 4.5
 ratings: 808
-reviews: 554
+reviews: 557
 size: 
 website: https://bitpreco.com/
 repository: 

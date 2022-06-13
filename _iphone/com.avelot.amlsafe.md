@@ -10,10 +10,10 @@ idd: 1519145333
 released: 2020-07-28
 updated: 2022-03-07
 version: 1.30.61.227
-stars: 4.9
-reviews: 94
+stars: 5
+reviews: 93
 size: '90219520'
-website: https://amlsafe.io/
+website: https://amlsafe.io/#advantages
 repository: 
 issue: 
 icon: com.avelot.amlsafe.jpg

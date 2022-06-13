@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.alexchanger.alexchanger.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-21
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

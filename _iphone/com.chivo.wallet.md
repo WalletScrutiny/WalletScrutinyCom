@@ -8,11 +8,11 @@ appId: com.chivo.wallet
 appCountry: sv
 idd: 1581515981
 released: 2021-09-07
-updated: 2021-12-15
-version: '2.0'
+updated: 2022-06-02
+version: 2.1.0
 stars: 2.6
-reviews: 3958
-size: '51647488'
+reviews: 3965
+size: '46099456'
 website: https://chivowallet.com
 repository: 
 issue: 

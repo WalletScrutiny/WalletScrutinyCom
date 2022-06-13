@@ -10,9 +10,9 @@ appCountry:
 released: 2021-02-21
 updated: 2021-02-22
 version: '1.0'
-stars: 4.1
+stars: 4
 ratings: 70
-reviews: 6
+reviews: 5
 size: 
 website: https://www.exchangernet.com/
 repository: 

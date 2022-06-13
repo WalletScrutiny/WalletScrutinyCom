@@ -9,7 +9,7 @@ appId: com.quoine.liquid
 appCountry: us
 released: 2019-01-10
 updated: 2022-05-19
-version: 1.17.8
+version: 1.17.8.1
 stars: 3.2
 ratings: 799
 reviews: 36

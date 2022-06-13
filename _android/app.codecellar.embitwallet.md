@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Embit Wallet
+title: Embit
 altTitle: 
 authors: 
 users: 100

@@ -8,8 +8,8 @@ users: 100000
 appId: com.dcoin.exchange
 appCountry: us
 released: 2018-11-25
-updated: 2022-05-26
-version: 5.3.3-play
+updated: 2022-06-09
+version: 5.3.5-play
 stars: 4.2
 ratings: 1346
 reviews: 87

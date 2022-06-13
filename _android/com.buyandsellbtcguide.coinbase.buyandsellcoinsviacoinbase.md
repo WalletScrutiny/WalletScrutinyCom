@@ -12,7 +12,7 @@ updated: 2022-05-19
 version: '1.7'
 stars: 4.3
 ratings: 286
-reviews: 22
+reviews: 24
 size: 
 website: https://rolltuk.blogspot.com/
 repository: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.riodefi.store
 appCountry: us
 released: 2021-04-29
-updated: 2022-05-05
-version: 2.9.1
+updated: 2022-06-02
+version: 2.9.5
 stars: 
 ratings: 
 reviews: 

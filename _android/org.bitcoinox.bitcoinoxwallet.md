@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin OX Wallet — Exchange Wallet for Crypto
+title: Bitcoin OX — Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
 appCountry: 
 released: 2019-02-04
-updated: 2022-05-19
-version: 2.6.0
+updated: 2022-06-06
+version: 2.6.4
 stars: 3.7
 ratings: 32
 reviews: 5

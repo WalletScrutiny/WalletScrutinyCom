@@ -1,6 +1,6 @@
 ---
 wsId: MathWallet
-title: 'MathWallet: Bitcoin,Ethereum,EOS,Polkadot,Cosmos'
+title: 'MathWallet: Ethereum,Polkadot'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2018-04-17
 updated: 2022-05-24
 version: 4.3.8
-stars: 3.8
+stars: 3.9
 ratings: 2172
-reviews: 167
+reviews: 190
 size: 
 website: https://www.mathwallet.org/
 repository: 

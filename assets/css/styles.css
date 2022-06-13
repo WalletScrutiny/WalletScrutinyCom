@@ -1813,3 +1813,7 @@ html {
   overflow: auto;
   text-align: center;
 }
+
+.gridDonationCall {
+  font-weight: bold;
+}

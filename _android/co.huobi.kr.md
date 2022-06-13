@@ -1,6 +1,6 @@
 ---
 wsId: huobi_kr
-title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움, 비트코인캐시, 이오스)
+title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: co.huobi.kr
 appCountry: cn
 released: 2018-04-12
-updated: 2022-05-24
-version: 3.7.2
+updated: 2022-06-07
+version: 3.7.3
 stars: 3.1
 ratings: 3505
-reviews: 824
+reviews: 823
 size: 
 website: https://www.huobi.co.kr
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-03
 updated: 2021-03-18
 version: 1.4.1
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.bitbucks.io/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: pt.BTC
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: net.panteam.pt.BTC
 appCountry: 
 released: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nano.moonxbt.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-24
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global

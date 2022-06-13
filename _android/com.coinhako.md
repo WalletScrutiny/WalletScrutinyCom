@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-06
 updated: 2022-05-28
 version: 4.3.5
-stars: 2.4
+stars: 2.3
 ratings: 3064
-reviews: 16
+reviews: 17
 size: 
 website: https://coinhako.com
 repository: 

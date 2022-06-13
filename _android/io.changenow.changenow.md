@@ -4,7 +4,7 @@ title: Crypto Exchange & Buy Crypto
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: io.changenow.changenow
 appCountry: 
 released: 2018-09-07
@@ -12,7 +12,7 @@ updated: 2022-05-23
 version: 1.150.17
 stars: 4.7
 ratings: 2199
-reviews: 414
+reviews: 418
 size: 
 website: https://changenow.io
 repository: 

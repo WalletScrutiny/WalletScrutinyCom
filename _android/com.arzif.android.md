@@ -4,7 +4,7 @@ title: Arzif
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.arzif.android
 appCountry: 
 released: 2020-10-09
@@ -12,7 +12,7 @@ updated: 2022-04-29
 version: 1.0.7
 stars: 4
 ratings: 687
-reviews: 13
+reviews: 15
 size: 
 website: https://arzif.com/
 repository: 

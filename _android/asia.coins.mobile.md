@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: 'Coins.ph: Crypto & E-wallet'
+title: Coins.ph – Buy Bitcoin, Crypto
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2022-05-25
 version: 4.2.4
 stars: 3.5
 ratings: 109535
-reviews: 454
+reviews: 455
 size: 
 website: https://coins.ph
 repository: 

@@ -10,7 +10,6 @@ window.addEventListener('load', () => {
       switch (kv[0]) {
         case 'verdict': $('#modularVerdict')[0].value = kv[1]; window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
         case 'platform': $('#modularPlatform')[0].value = kv[1]; window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
-        case 'voteSupport': localStorage.setItem('support-vote', kv[1])
       }
     })
   }

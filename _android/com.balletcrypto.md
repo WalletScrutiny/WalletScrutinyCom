@@ -9,9 +9,9 @@ appCountry:
 released: 2019-08-08
 updated: 2022-05-30
 version: 2.1.0
-stars: 4.6
+stars: 4.5
 ratings: 658
-reviews: 91
+reviews: 96
 size: 
 website: https://www.balletcrypto.com/
 repository: 

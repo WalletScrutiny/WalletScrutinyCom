@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.coin5.ai.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

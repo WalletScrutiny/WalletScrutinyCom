@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: appinventor.ai_Traid777.WALLETBTC.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-06-13
 signer: 
 reviewArchive: 
 twitter: 

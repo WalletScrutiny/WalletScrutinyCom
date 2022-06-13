@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Claim Faucet Coins :: Bitcoin Ethereum Altcoins'
+title: 'Claim Faucet Coins :: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -10,18 +10,18 @@ appCountry:
 released: 2020-04-21
 updated: 2021-06-15
 version: '2.1'
-stars: 4.1
+stars: 4.2
 ratings: 266
-reviews: 12
+reviews: 13
 size: 
 website: 
 repository: 
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-09-17
+date: 2022-06-13
 signer: 
 reviewArchive: 
 twitter: 
