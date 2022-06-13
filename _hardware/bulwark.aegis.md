@@ -35,7 +35,7 @@ social:
 
 Bulwark is a privacy-based cryptocurrency project with a focus on hardware development and user freedom. 
 
-**⚠️ Note:** Bulwark the cryptocurrency project and coin ($BWK) [rebranded](https://www.reddit.com/r/BulwarkCoin/comments/gd44yk/upcoming_move_to_ethereum_based_erc1363_token/) its project name and coin name to (DataMine/$DAM). The Aegis Hardware wallet is attached to the identity of Bulwark. We do not believe the Aegis hardware wallet was continued after the rebrand
+**⚠️ Note:** Bulwark the cryptocurrency project and coin ($BWK) [rebranded](https://www.reddit.com/r/BulwarkCoin/comments/gd44yk/upcoming_move_to_ethereum_based_erc1363_token/) its project name and coin name to (DataMine/$DAM). The Aegis Hardware wallet is attached to the identity of Bulwark. We do not believe the Aegis hardware wallet was continued after the rebrand.
 
 There is very little information about their product and is most likely vaporware. 
 
