@@ -12,7 +12,7 @@ released: 2019-03-05
 updated: 2022-06-07
 version: 44.0.0
 stars: 1.7
-reviews: 127
+reviews: 128
 size: '43809792'
 website: https://www.etoro.com/money
 repository: 

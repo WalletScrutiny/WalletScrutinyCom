@@ -12,7 +12,7 @@ updated: 2022-05-23
 version: VARY
 stars: 4.6
 ratings: 2509
-reviews: 36
+reviews: 38
 size: 
 website: https://www.amarkets.com
 repository: 

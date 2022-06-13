@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Claim Faucet Coins :: Bitcoin Ethereum Altcoins'
+title: 'Claim Faucet Coins :: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-09-17
+date: 2022-06-13
 signer: 
 reviewArchive: 
 twitter: 

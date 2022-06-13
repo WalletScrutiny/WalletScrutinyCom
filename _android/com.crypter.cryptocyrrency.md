@@ -1,6 +1,6 @@
 ---
 wsId: crypterApp
-title: The Crypto App
+title: The Crypto App - Coin Tracker
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2022-05-31
 version: 3.0.6
 stars: 4.5
 ratings: 78687
-reviews: 2623
+reviews: 2625
 size: 
 website: https://thecrypto.app
 repository: 

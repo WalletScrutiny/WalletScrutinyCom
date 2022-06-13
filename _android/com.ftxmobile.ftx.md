@@ -10,9 +10,9 @@ appCountry:
 released: 2020-05-08
 updated: 2022-05-16
 version: 1.3.0
-stars: 3.3
+stars: 3.4
 ratings: 9850
-reviews: 292
+reviews: 293
 size: 
 website: https://ftx.com/
 repository: 

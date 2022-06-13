@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2022-06-02
-version: 3.1.8
+updated: 2022-06-12
+version: 3.1.9
 stars: 3.8
 reviews: 155
-size: '134713344'
+size: '134871040'
 website: https://www.itoken.com/en/
 repository: 
 issue: 

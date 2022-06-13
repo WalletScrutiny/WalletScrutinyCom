@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-12
 updated: 2022-05-30
 version: 3.46.0
-stars: 3.7
+stars: 3.8
 ratings: 4934
-reviews: 438
+reviews: 441
 size: 
 website: http://www.quicrypto.com
 repository: 

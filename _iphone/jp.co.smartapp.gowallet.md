@@ -11,7 +11,7 @@ released: 2018-10-11
 updated: 2020-10-09
 version: 1.4.8
 stars: 4.6
-reviews: 711
+reviews: 710
 size: '86727680'
 website: https://www.go-wallet.app/
 repository: 

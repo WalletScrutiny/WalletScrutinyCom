@@ -12,7 +12,7 @@ updated: 2022-04-29
 version: 1.0.7
 stars: 4
 ratings: 687
-reviews: 13
+reviews: 15
 size: 
 website: https://arzif.com/
 repository: 

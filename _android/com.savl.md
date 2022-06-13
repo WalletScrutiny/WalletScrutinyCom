@@ -10,9 +10,9 @@ appCountry: ru
 released: 2018-07-24
 updated: 2022-06-03
 version: 3.0.0
-stars: 4.3
+stars: 4.4
 ratings: 570
-reviews: 202
+reviews: 201
 size: 
 website: https://savl.com
 repository: 

@@ -11,7 +11,7 @@ released: 2019-11-15
 updated: 2022-06-08
 version: 4.5.0
 stars: 4.5
-reviews: 57
+reviews: 58
 size: '39610368'
 website: https://www.vitawallet.io
 repository: 

@@ -12,7 +12,7 @@ updated: 2022-05-07
 version: 3.3.3
 stars: 4
 ratings: 13497
-reviews: 507
+reviews: 508
 size: 
 website: https://www.safepal.io
 repository: 

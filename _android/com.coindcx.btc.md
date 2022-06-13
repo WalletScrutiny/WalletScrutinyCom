@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-09
 updated: 2022-06-09
 version: 4.10.003
-stars: 4.6
+stars: 4.7
 ratings: 231093
-reviews: 529
+reviews: 531
 size: 
 website: https://go.coindcx.com/
 repository: 

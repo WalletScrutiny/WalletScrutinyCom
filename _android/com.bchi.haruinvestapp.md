@@ -12,7 +12,7 @@ updated: 2022-05-25
 version: 2.3.0
 stars: 4.8
 ratings: 277
-reviews: 29
+reviews: 30
 size: 
 website: https://haruinvest.com
 repository: 

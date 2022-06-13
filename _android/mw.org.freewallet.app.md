@@ -12,7 +12,7 @@ updated: 2021-09-16
 version: 1.16.5
 stars: 4.9
 ratings: 14323
-reviews: 1515
+reviews: 1513
 size: 
 website: https://freewallet.org/
 repository: 

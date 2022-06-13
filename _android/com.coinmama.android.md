@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinmama - Buy & Sell cryptocurrency
+title: Coinmama - Buy cryptocurrency
 altTitle: 
 authors:
 - danny
