@@ -35,7 +35,7 @@ social:
 
 ## Background 
 
-This is a do-it-yourself project that predates several similar projects: 
+This is a do-it-yourself project that predates several similar projects, because they were built on a Rasperry Pi: 
 
 - {% include walletLink.html wallet='hardware/openledger.micro' verdict='true' %}
 - {% include walletLink.html wallet='hardware/pitrezor' verdict='true' %}
@@ -54,7 +54,7 @@ From Jake's [blog post](https://www.allaboutjake.com/pi-offline-crypto-wallet/):
 
 It needs a host machine to function:
 
-> The serial gadget makes it possible to connect the Pi Zero to a host machine and login to the command line. This is what I mean by “pseudo-airgapped”. Yes I am connecting the machine to another via USB… but in theory, only via a simple serial connection. I’m sure there are state-level hackers that could do something malicious with this connection, but I’m pretty satisfied that it is somewhat secure for my purposes. (If you are really paranoid, you could use the Pi Zero’s serial port and use a USB-to-TTL-Serial thingy, and completely isolate the Pi from anything but a serial console)
+> The serial gadget makes it possible to connect the Pi Zero to a host machine and login to the command line. This is what I mean by “pseudo-airgapped”. Yes, I am connecting the machine to another via USB… but in theory, only via a simple serial connection. I’m sure there are state-level hackers that could do something malicious with this connection, but I’m pretty satisfied that it is somewhat secure for my purposes. (If you are really paranoid, you could use the Pi Zero’s serial port and use a USB-to-TTL-Serial thingy, and completely isolate the Pi from anything but a serial console)
 
 Build instructions are all on the blog post noted above. 
 

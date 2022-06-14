@@ -21,7 +21,7 @@ issue:
 icon: square.subzero.png
 bugbounty: https://bugcrowd.com/squareopensource
 meta: ok
-verdict: nowallet
+verdict: wip
 date: 2022-05-26
 signer: 
 reviewArchive: 
@@ -95,7 +95,9 @@ The {{ page.title }} has a complicated setup which befits a more thorough analys
 
 It is designed to work with commercial-level security and financial systems such as those provided by Square in traditional financial systems. Square currently offers several products and services which can be found in its [hardware](https://squareup.com/us/en/hardware), [payments](https://squareup.com/us/en/payments), [banking](https://squareup.com/us/en/banking) pages, and more. 
 
-Needless to say, the {{ page.title }} is **not an individual or personal hardware wallet**. It has however, the platform and capability to custodially provide wallets to individual users should they find the need to venture into it.   
+Needless to say, the {{ page.title }} is *not an individual or personal hardware wallet*. It has however, the platform and capability to custodially provide wallets to individual users should they find the need to venture into it. A more in-depth analysis should be given to Square's Subzero device. 
+
+Creating an issue.   
 
 
 

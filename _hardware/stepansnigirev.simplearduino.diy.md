@@ -33,8 +33,6 @@ social:
 
 ## Background 
 
-The {{ page.title }} may be the predecessor to the {% include walletLink.html wallet='hardware/stepansnigirev.microbitcoin.arduino.diy' verdict='true' %}
-
 From the [Simple Hardware Wallet page:](https://github.com/arduino-bitcoin/simple_hardware_wallet) 
 
 > A minimalistic hardware wallet working with electrum transactions.
@@ -54,5 +52,5 @@ From the [Simple Hardware Wallet page:](https://github.com/arduino-bitcoin/simpl
 
 ## Analysis 
 
-This project is a **do-it-yourself** project that was last updated on September 24, 2018. As the predecessor to the {% include walletLink.html wallet='hardware/stepansnigirev.microbitcoin.arduino.diy' %} it is *no longer actively maintained.*
+This project is a **do-it-yourself** project that was last updated on September 24, 2018. It is *no longer actively maintained.*
 

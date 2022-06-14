@@ -47,5 +47,5 @@ Its firmware uses [Stepan Snigirev's Base MicroPython](https://github.com/stepan
 
 ## Analysis 
 
-The website diybitcoinhardware.com describes this project as a work in progress, but it **hasn't been updated since September 4, 2019**. Furthermore, the project states that its currently focused on Bitcoin's testnot - and not mainnet.  
+The website diybitcoinhardware.com describes this project as a work in progress, but it **hasn't been updated since September 4, 2019**. Furthermore, the project states that its currently focused on Bitcoin's testnet - and not mainnet.  
 

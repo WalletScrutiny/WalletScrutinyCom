@@ -34,7 +34,7 @@ social:
 
 From the [GitHub page:](https://github.com/DenisDx/openHW)
 
-> openHW is an open-sourse free-licensed project aimed at developing a universal hardware wallet code that supports a wide range of computer chips (including the weakest ones) as well as a wide range of popular boards The main emphasis is on the simplicity of program code integration, simplicity of building and configuring. However, the cryptography used to preserve sensitive data is strong enough to ensure the security of the data at an industrial level if the wallet used correctly.
+> OpenHW is an open-source free-licensed project aimed at developing a universal hardware wallet code that supports a wide range of computer chips (including the weakest ones) as well as a wide range of popular boards The main emphasis is on the simplicity of program code integration, simplicity of building and configuring. However, the cryptography used to preserve sensitive data is strong enough to ensure the security of the data at an industrial level if the wallet used correctly.
 >
 > One of the scenarios for using this code is when the end user buys the device compatible with the code and flashes it himself. An alternative is to buy a device specially designed for use with this firmware, but with the subsequent flashing of the code by the user himself.
 >
@@ -44,9 +44,9 @@ From the [GitHub page:](https://github.com/DenisDx/openHW)
 
 ## Description 
 
-### Can the private keys be created offline? - ❓
+### Can you create the private keys offline? - ❓
 
-> The ready-to-use device with firmware is connected to a computer or smartphone (hereinafter - the Host) via USB cable or via Bluetooth (if supported by the choosen board)
+> The ready-to-use device with firmware is connected to a computer or smartphone (hereinafter - the Host) via USB cable or via Bluetooth (if supported by the chosen board)
 >
 Host must have openHW-compatible software installed (e.g. EmerAPI KeyKeeper app). The device can be automatically detected or set in the program settings on the host.
 >
@@ -68,7 +68,7 @@ No.
 
 ## Analysis
 
-The {{ page.title }} hardware wallet device is an Open Source **do-it-yourself** * project with custom hardware. However, the lack of timely updates makes it **obsolete**.
+The {{ page.title }} hardware wallet device is an Open Source **do-it-yourself** project with custom hardware. However, the lack of timely updates makes it **obsolete**.
 
 
 
