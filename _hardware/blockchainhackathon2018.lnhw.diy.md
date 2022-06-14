@@ -35,7 +35,7 @@ social:
 
 ## Background 
 
-The Blockchain Hackathon 2018 was an event held in Lisbon, Portugal. Participants formed teams to build a product related to blockchain. The first prize was 10,000 EUR. This device is the winner. 
+The Blockchain Hackathon 2018 was an event held in Lisbon, Portugal. Participants formed teams to build a product related to blockchain. The first prize was 10,000 EUR. The team that won created this device. 
 
 From the [GitHub repository:](https://github.com/hkjn/lnhw)
 

@@ -43,7 +43,7 @@ Taken from Micro-Bitcoin's [GitHub repository:](https://github.com/micro-bitcoin
 
 > ## Micro-Bitcoin
 >
-> C++ Bitcoin library for 32-bit microcontrollers. The library supports Arduino IDE, ARM mbed and bare metal.
+> C++ Bitcoin library for 32-bit microcontrollers. The library supports Arduino IDE, ARM MBED and bare metal.
 > 
 > It provides a collection of convenient classes for Bitcoin: private and public keys, HD wallets, generation of the recovery phrases, PSBT transaction formats, scripts — everything required for a hardware wallet or other bitcoin-powered device.
 >
@@ -67,5 +67,5 @@ Snippet from Micro-bitcoin's [tutorial page:](https://micro-bitcoin.github.io/#/
 
 There is an active community on [Telegram](https://t.me/arduinoBitcoin) focusing specifically on Arduino-Bitcoin implementations. The principal author for this project is Stepan Snigirev and he gives out a lot of resources and links to libraries that potential users can use. 
 
-Anyone who's looking to understand Bitcoin better would benefit from partaking in this active **do-it-yourself**. 
+Anyone who's looking to understand Bitcoin better would benefit from partaking in this active **do-it-yourself** project. 
 

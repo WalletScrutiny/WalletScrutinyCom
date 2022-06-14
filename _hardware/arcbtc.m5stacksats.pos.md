@@ -67,5 +67,5 @@ The OpenNode version is a [custodial service](https://youtu.be/o4jqUbmypRQ?t=319
 
 ## Analysis 
 
-The {{ page.title }} is a **do-it-yourself** Point of Sale system that interfaces with a custodial service and is therefore **not a wallet**. 
+The {{ page.title }} is a **do-it-yourself** Point of Sale system that interfaces with a custodial service. It is therefore **not a wallet**. 
 

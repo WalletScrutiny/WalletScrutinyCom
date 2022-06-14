@@ -57,4 +57,4 @@ Stepan Snigirev is involved with [Specter Solutions](https://specter.solutions/)
 
 ## Verdict 
 
-This project hasn't been updated for more than 2 years. This is a **do-it-yourself** project. 
+This **do-it-yourself** project hasn't been updated for more than 2 years.
