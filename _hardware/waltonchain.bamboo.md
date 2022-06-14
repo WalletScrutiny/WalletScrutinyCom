@@ -51,9 +51,9 @@ There are currently no links that sell the {{ page.title }} from the Waltonchain
 
 > **Why is Bamboo Wallet sold like this? Why don’t you setup an Alibaba/Spotify type online store?**
 >
-> A: Waltonchain prepares to obtain an ICP license of the Chinese Ministry of Industry and Information Technology to make its website commercial and sell goods online. Besides that, a new Electronic commerce law came into effect on January 1, 2019. We are working on regulatory compliance right now and will open the online store functionality once all is good.
+> A: Waltonchain prepares to obtain an ICP license of the Chinese Ministry of Industry and Information Technology to make its website commercial and sell goods online. Besides that, a new Electronic Commerce Law came into effect on January 1, 2019. We are working on regulatory compliance right now and will open the online store functionality once all is good.
 >
-> **Will Bamboo Wallet become open source? Ledger is securized, we don’t know what is the security level of this new wallet.**
+> **Will Bamboo Wallet become open source?**
 >
 > A: At present, there is no plan for making Bamboo Wallet open source; we will consider it later.
 
@@ -79,15 +79,15 @@ Information was taken from this [Medium post](https://waltonchain-en.medium.com/
 
 ## Analysis 
 
-We were not able to find a working "shop" link for the {{ page.title }}. Production was limited to 200 units. A [medium post](https://waltonchain-en.medium.com/waltonchain-bamboo-wallet-limited-pre-sale-da7381abb89e) used to refer to a dedicated page of the device, but that page is now broken.
+We were not able to find a working "shop" link for the {{ page.title }}. Production was limited to 200 units. A [medium post](https://waltonchain-en.medium.com/waltonchain-bamboo-wallet-limited-pre-sale-da7381abb89e) previously linked to a dedicated page of the device, but that page is now broken.
 
 ![image](https://github.com/WaltonChain/BambooWallet/raw/master/pic/8.jpeg)
 
-## Can the private keys be created offline? - ❓
+## Can you create the private keys offline? - ❓
 
 > Bamboo Wallet is a hardware wallet used to store blockchain token account data. It connects to the host via USB, obtains account information and supports token transactions. Account data locates in the secured storage and will not be lost if the wallet gets disconnected from the power supply. It supports transactions with various tokens through the app. 
 
-This tutorial makes it appear like it: 
+This tutorial makes it appear like it is: 
 
 ![image](https://github.com/WaltonChain/BambooWallet/raw/master/pic/6.jpeg)
 
@@ -111,9 +111,9 @@ From this tutorial, it seems the device is dependent on the PC app to perform tr
 3. Select the corresponding currency in the PC app and click 'Get Account';
 4. Enter amount, address, gas rate and click 'Send'.
 
-## Does the device display the receive address for confirmation? - ❌
+## Does the device display the receiving address for confirmation? - ❌
 
-Nothing in the user manual indicates that the device performs this function.
+Nothing in the user manual indicates the device performs this function.
 
 ## Does the interface have a display screen and buttons which allows the user to confirm transaction details? - ❓
 
@@ -123,11 +123,11 @@ There is a display on the device, but there is nothing to show that physical con
 
 ## Is it reproducible? - ❌ 
 
-The repository only contains the exe files, the manual and some images. It does not contain the source. We embedded a video from a third-party to show how the firmware is updated.
+The repository only contains the .exe files, the manual, and some images. It does not contain the source. We embedded a video from a third party to show how the firmware is updated.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-CSJSSNFi08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## ANALYSIS
 
-As noted above, there are many factors that give us pause when it comes to this device. The most glaring of these issues is the need for the device to **stay connected with an online Windows computer**. The project's social media account is still posting, but it seems that the Bamboo wallet is no longer promoted. 
+As noted above, there are many factors that give us pause when it comes to this device. The most glaring of these issues is the need for the device to **stay connected with an online Windows computer**. The project's social media account is still posting, but it seems that the Bamboo wallet is no longer promoted. Furthermore, the product has not been updated for over 2 years making it **obsolete**. 
 

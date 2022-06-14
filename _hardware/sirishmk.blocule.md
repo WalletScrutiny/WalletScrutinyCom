@@ -1,6 +1,6 @@
 ---
-title: Sirishmk Blocule DIY Hardware Wallet
-appId: sirishmk.blocule.diy
+title: Sirishmk Blocule Hardware Wallet
+appId: sirishmk.blocule
 authors:
 - danny
 released: 2018-05-26
@@ -18,10 +18,10 @@ country: US
 price: 
 repository: https://github.com/sirishmk/blocule
 issue: 
-icon: sirishmk.blocule.diy.png
+icon: sirishmk.blocule.png
 bugbounty: 
 meta: defunct
-verdict: diy
+verdict: nobtc
 date: 2022-05-23
 signer: 
 reviewArchive: 
@@ -36,12 +36,12 @@ social:
 - Raspberry Pi Zero W - 
 - Adafruit 128x64 OLED Bonnet 
 - 5V power supply or microUSB
-- microSD card - 8,16 or 32 GB works
+- MicroSD card - 8,16 or 32 GB works
 >
 > ## OS
 - Download raspbian - https://www.raspberrypi.org/downloads/raspbian/
-- Install Guide for raspbian - https://www.raspberrypi.org/documentation/installation/installing-images/README.md
-- Configure WiFi - https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+- Install Guide for Raspbian - https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+- Configure Wi-Fi - https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 >
 > ## Install packages
 > ## Install Java
@@ -59,4 +59,4 @@ cd ~/blocule/; make run_disp
 
 ## Analysis 
 
-This **do-it-yourself** TRON hardware wallet has not been updated in 4 years. 
+This do-it-yourself **TRON hardware wallet** has not been updated in 4 years. 

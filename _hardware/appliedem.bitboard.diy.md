@@ -1,5 +1,5 @@
 ---
-title: bitboard by AppliedEM DIY Hardware Wallet
+title: Bitboard by AppliedEM DIY Hardware Wallet
 appId: appliedem.bitboard.diy
 authors:
 - danny

@@ -20,8 +20,8 @@ repository: https://github.com/moriyasu/ApolloWalletNano
 issue: 
 icon: moriyasu.apollo.arduinonano.diy.png
 bugbounty: 
-meta: ok
-verdict: unreleased
+meta: defunct
+verdict: diy
 date: 2022-05-25
 signer: 
 reviewArchive: 
@@ -57,5 +57,9 @@ No EEPROM changes.
 
 ## Analysis 
 
-Although this project has not posted pictures of a prototype it was recently updated and contained enough description to warrant scrutiny. We reached out to the provider Shota Moriyasu through email and await his response. Until then, this project is **unreleased.**
+Although this project has not posted pictures of a prototype it was recently updated and contained enough description to warrant scrutiny. We reached out to the provider Shota Moriyasu through email and await his response. 
+
+**Update**
+
+Shota Moriyasu replied to us via email and told us that he made this project when he was still a university student. Now that he has graduated, he did not continue developing this. We can now consider this project as **defunct.**
 
