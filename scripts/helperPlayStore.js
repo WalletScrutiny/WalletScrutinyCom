@@ -97,6 +97,8 @@ function refreshFile (fileName, content) {
       stats.remaining--
       release()
     }
+  }).catch(err => {
+    console.error(`Does this ever get triggered 3? ${err}`)
   })
 }
 
@@ -129,18 +131,27 @@ function updateFromApp (header, app) {
   helper.updateMeta(header)
 }
 
-function add (newAppIds) {
-  console.log(`Adding skeletons for ${newAppIds.length} apps ...`)
+function add (appIds) {
+  console.log(`Adding ${appIds.length} apps ...`)
 
-  newAppIds.forEach(appId => {
+  appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    if (fs.existsSync(path)) {
-      refreshFile(`${appId}.md`)
-    } else {
+    if (!fs.existsSync(path)) {
       const header = helper.getEmptyHeader(headers)
       header.appId = appId
       header.verdict = 'wip'
       refreshFile(`${appId}.md`, { header: header, body: '' })
+    }
+  })
+}
+
+function update (appIds) {
+  console.log(`Updating ${appIds.length} apps ...`)
+
+  appIds.forEach(appId => {
+    const path = `_android/${appId}.md`
+    if (fs.existsSync(path)) {
+      refreshFile(`${appId}.md`)
     }
   })
 }
@@ -151,5 +162,6 @@ module.exports = {
   refreshAll,
   refreshFile,
   stats,
-  add
+  add,
+  update
 }

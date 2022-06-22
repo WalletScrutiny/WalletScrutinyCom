@@ -173,6 +173,10 @@ ${body}`
 }
 
 function writeResult (folder, header, body) {
+  if (header.title === null) {
+    // don't write defunct apps if we never even got to find out their name
+    return
+  }
   fs
     .createWriteStream(`${folder}${header.appId}.md`)
     .write(getResult(header, body))
