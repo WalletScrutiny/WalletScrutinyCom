@@ -1,0 +1,31 @@
+---
+wsId: 
+title: Eagle Robo
+altTitle: 
+authors: 
+users: 10
+appId: com.eaglerobo.android
+appCountry: 
+released: Oct 20, 2021
+updated: 2021-11-22
+version: 1.0.2
+stars: 
+ratings: 
+reviews: 
+size: 
+website: http://eaglerobo.com
+repository: 
+issue: 
+icon: com.eaglerobo.android.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-06-22
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+

@@ -1,0 +1,31 @@
+---
+wsId: 
+title: USA:Crypto Exchange App
+altTitle: 
+authors: 
+users: 10
+appId: com.hrghazali.usacryptoexchange
+appCountry: 
+released: Sep 14, 2021
+updated: 2021-09-14
+version: 1.0.0
+stars: 
+ratings: 
+reviews: 
+size: 
+website: 
+repository: 
+issue: 
+icon: com.hrghazali.usacryptoexchange.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-06-22
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+
