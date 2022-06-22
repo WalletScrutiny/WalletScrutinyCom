@@ -134,18 +134,14 @@ function add (newAppIds) {
 
   newAppIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    fs.promises.stat(path)
-      .catch(err => {
-        if (err.code === 'ENOENT') {
-          const header = helper.getEmptyHeader(headers)
-          header.appId = appId
-          header.verdict = 'wip'
-          refreshFile(`${appId}.md`, { header: header, body: '' })
-        }
-      })
-      .then(() => {
-        refreshFile(`${appId}.md`)
-      })
+    if (fs.existsSync(path)) {
+      refreshFile(`${appId}.md`)
+    } else {
+      const header = helper.getEmptyHeader(headers)
+      header.appId = appId
+      header.verdict = 'wip'
+      refreshFile(`${appId}.md`, { header: header, body: '' })
+    }
   })
 }
 

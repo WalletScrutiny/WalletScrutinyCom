@@ -143,20 +143,16 @@ function add (newIdds) {
         throttle: 20
       }).then(app => {
         const path = `_iphone/${app.appId}.md`
-        fs.promises.stat(path)
-          .catch(err => {
-            if (err.code === 'ENOENT') {
-              const header = helper.getEmptyHeader(headers)
-              header.appId = app.appId
-              header.idd = idd
-              header.appCountry = country
-              header.verdict = 'wip'
-              refreshFile(`${app.appId}.md`, { header: header, body: '' })
-            }
-          })
-          .then(() => {
-            refreshFile(`${app.appId}.md`)
-          })
+        if (fs.existsSync(path)) {
+          refreshFile(`${app.appId}.md`)
+        } else {
+          const header = helper.getEmptyHeader(headers)
+          header.appId = app.appId
+          header.idd = idd
+          header.appCountry = country
+          header.verdict = 'wip'
+          refreshFile(`${app.appId}.md`, { header: header, body: '' })
+        }
       }, err => {
         console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
       })
