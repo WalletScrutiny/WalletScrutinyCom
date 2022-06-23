@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitUniverse
 title: BitUniverse:Crypto Trading Bot
 altTitle: 
 authors: 
+- danny
 users: 500000
 appId: com.bituniverse.portfolio
 appCountry: 
@@ -19,13 +20,18 @@ issue:
 icon: com.bituniverse.portfolio.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nowallet
+date: 2022-06-23
 signer: 
 reviewArchive: 
-twitter: 
+twitter: bituniverse_org
 social: 
 redirect_from: 
 
 ---
 
+BitUniverse advertises itself as a Crypto Trading Bot which is supported on 29+ exchanges.
+
+> Download the mobile app Bituniverse, connect your API keys on exchange, and start to use the automated trading robot for free! You don’t need to transfer your funds to BitUniverse. The average ARR is 100%+, making trading much simpler!
+
+This is **not a wallet.**
