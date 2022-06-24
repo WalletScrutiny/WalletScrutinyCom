@@ -1,0 +1,31 @@
+---
+wsId: 
+title: Bitrequest
+altTitle: 
+authors: 
+users: 100
+appId: io.bitrequest.app
+appCountry: 
+released: Nov 1, 2019
+updated: 2022-02-03
+version: 1.5.3
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://www.bitrequest.io
+repository: 
+issue: 
+icon: io.bitrequest.app.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-06-23
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+

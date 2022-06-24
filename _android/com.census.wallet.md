@@ -1,0 +1,31 @@
+---
+wsId: 
+title: Census Wallet
+altTitle: 
+authors: 
+users: 100
+appId: com.census.wallet
+appCountry: 
+released: Feb 4, 2020
+updated: 2020-07-10
+version: 1.2.10
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://www.census.cx/
+repository: 
+issue: 
+icon: com.census.wallet.jpg
+bugbounty: 
+meta: stale
+verdict: fewusers
+date: 2022-06-23
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+
