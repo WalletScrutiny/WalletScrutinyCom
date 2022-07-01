@@ -9,9 +9,9 @@ appCountry:
 released: Jan 14, 2020
 updated: 2022-05-19
 version: 1.4.8
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://www.biconomy.com
 repository: 

@@ -13,7 +13,7 @@ updated: 2022-06-06
 version: 1.3.7
 stars: 4.8
 ratings: 1938
-reviews: 42
+reviews: 39
 size: 
 website: https://www.koinal.io
 repository: 

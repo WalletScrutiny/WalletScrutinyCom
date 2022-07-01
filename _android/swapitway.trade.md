@@ -9,9 +9,9 @@ appCountry:
 released: Nov 1, 2021
 updated: 2021-11-01
 version: '2'
-stars: 3.3
+stars: 3.1
 ratings: 
-reviews: 23
+reviews: 26
 size: 
 website: https://swapitway.com
 repository: 

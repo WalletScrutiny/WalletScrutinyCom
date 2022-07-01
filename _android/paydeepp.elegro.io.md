@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Elegro Wallet: multi-currency crypto wallet'
+title: 'Elegro: multi-currency wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 1000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
-updated: 2022-05-17
-version: 5.1.6
+updated: 2022-06-20
+version: 5.2.0
 stars: 3.4
 ratings: 
 reviews: 1

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallets: Coinmama, Crypto.com Wallets'
+title: 'Crypto Wallets: BTC, USDT, ETH'
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny

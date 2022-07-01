@@ -7,20 +7,20 @@ users: 10000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06
-updated: 2018-12-04
-version: 1.1.0
+updated: 2022-06-27
+version: 1.2.3
 stars: 2.7
 ratings: 69
 reviews: 13
 size: 
-website: http://www.joachimneumann.com
+website: https://bisq.network/mobile-notifications
 repository: 
 issue: 
 icon: com.joachimneumann.bisq.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

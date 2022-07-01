@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-13
 updated: 2022-06-10
 version: 2.4.1
-stars: 4.1
+stars: 4
 ratings: 869
-reviews: 33
+reviews: 34
 size: 
 website: https://www.coinhub.org
 repository: 

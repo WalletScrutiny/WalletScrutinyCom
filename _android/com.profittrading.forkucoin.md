@@ -8,8 +8,8 @@ users: 10000
 appId: com.profittrading.forkucoin
 appCountry: 
 released: 2020-12-27
-updated: 2022-04-29
-version: 2.2.2
+updated: 2022-06-25
+version: 2.2.3
 stars: 3.9
 ratings: 102
 reviews: 13

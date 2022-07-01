@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-16
 updated: 2021-09-06
 version: 1.0.0.7
-stars: 2.9
+stars: 3.3
 ratings: 2731
-reviews: 11
+reviews: 14
 size: 
 website: http://binarium.com
 repository: 

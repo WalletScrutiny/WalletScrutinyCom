@@ -8,11 +8,11 @@ users: 100000
 appId: com.medishares.android
 appCountry: 
 released: 2018-04-17
-updated: 2022-05-24
-version: 4.3.8
+updated: 2022-06-20
+version: 4.4.0
 stars: 3.9
 ratings: 2172
-reviews: 190
+reviews: 187
 size: 
 website: https://www.mathwallet.org/
 repository: 

@@ -7,8 +7,8 @@ users: 1000
 appId: vcb.fiatbit.com
 appCountry: 
 released: Sep 12, 2019
-updated: 2022-04-25
-version: 2.3.9
+updated: 2022-06-24
+version: 2.4.1
 stars: 
 ratings: 
 reviews: 

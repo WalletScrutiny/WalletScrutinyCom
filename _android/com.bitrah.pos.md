@@ -3,7 +3,7 @@ wsId:
 title: Bitrah
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitrah.pos
 appCountry: 
 released: 2020-07-21

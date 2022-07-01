@@ -7,8 +7,8 @@ users: 1000
 appId: org.p2p.wallet
 appCountry: 
 released: Oct 23, 2021
-updated: 2022-06-07
-version: 1.6.0
+updated: 2022-06-22
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 

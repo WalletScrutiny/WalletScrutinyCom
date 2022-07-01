@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Claimers Multi Coins :: Bitcoin Ethereum Altcoins'
+title: 'Claimers Multi Coins:: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-29
 updated: 2021-07-08
 version: '3.2'
-stars: 4.7
+stars: 4.6
 ratings: 310
-reviews: 20
+reviews: 21
 size: 
 website: 
 repository: 

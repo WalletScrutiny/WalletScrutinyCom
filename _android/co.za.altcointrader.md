@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AltCoinTrader - Secure easy crypto trading...
+title: 'AltCoinTrader: Bitcoin, Crypto'
 altTitle: 
 authors: 
 users: 100000

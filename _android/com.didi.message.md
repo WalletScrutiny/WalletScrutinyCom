@@ -12,7 +12,7 @@ updated: 2022-05-26
 version: 1.16.0
 stars: 4.3
 ratings: 1141
-reviews: 15
+reviews: 14
 size: 
 website: https://didimessage.com
 repository: 

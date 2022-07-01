@@ -9,9 +9,9 @@ appCountry:
 released: Nov 6, 2019
 updated: 2022-03-22
 version: 2.0.4
-stars: 4
+stars: 3.5
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://nami.exchange
 repository: 

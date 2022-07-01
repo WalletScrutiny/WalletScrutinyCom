@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-08-18
 updated: 2022-05-16
 version: 1.19.0
-stars: 4.2
+stars: 4.1
 ratings: 9148
-reviews: 516
+reviews: 518
 size: 
 website: https://bituro.com
 repository: 

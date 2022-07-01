@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptorabbitlite.cryptorabbitlite.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-21
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

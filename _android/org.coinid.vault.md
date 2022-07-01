@@ -4,7 +4,7 @@ title: COINiD Vault
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: org.coinid.vault
 appCountry: 
 released: 2018-10-14

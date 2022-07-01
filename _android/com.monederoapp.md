@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.monederoapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-30
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: monederodotcom

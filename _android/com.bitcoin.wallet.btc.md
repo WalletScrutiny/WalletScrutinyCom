@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitcoin.wallet.btc
 appCountry: 
 released: 2019-05-01
-updated: 2022-06-08
-version: 2.7.1
+updated: 2022-06-25
+version: 2.8.5
 stars: 4.5
 ratings: 6495
-reviews: 287
+reviews: 288
 size: 
 website: https://adslab-2b1c2.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

@@ -3,7 +3,7 @@ wsId:
 title: COINVEST INVESTMENTS
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: coinvest.investment
 appCountry: 
 released: Dec 12, 2020
@@ -19,7 +19,7 @@ issue:
 icon: coinvest.investment.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

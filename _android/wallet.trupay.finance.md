@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wallet.trupay.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

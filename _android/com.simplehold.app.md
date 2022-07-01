@@ -7,8 +7,8 @@ users: 5000
 appId: com.simplehold.app
 appCountry: 
 released: 
-updated: 2022-06-06
-version: '1.9'
+updated: 2022-06-28
+version: '1.10'
 stars: 
 ratings: 
 reviews: 

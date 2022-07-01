@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-02
 updated: 2022-05-13
 version: 2.9.94
-stars: 3.7
+stars: 3.6
 ratings: 372
-reviews: 10
+reviews: 11
 size: 
 website: https://iflux.app
 repository: 

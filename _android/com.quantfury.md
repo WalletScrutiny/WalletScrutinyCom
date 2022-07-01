@@ -8,8 +8,8 @@ users: 100000
 appId: com.quantfury
 appCountry: gb
 released: 2018-11-26
-updated: 2022-05-25
-version: v1.7.2015
+updated: 2022-06-16
+version: v1.8.2030
 stars: 4.7
 ratings: 11645
 reviews: 40

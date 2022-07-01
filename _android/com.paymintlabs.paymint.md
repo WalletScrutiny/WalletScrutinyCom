@@ -4,7 +4,7 @@ title: Paymint - Secure Bitcoin Wallet
 altTitle: 
 authors:
 - leo
-users: 100
+users: 500
 appId: com.paymintlabs.paymint
 appCountry: 
 released: 2020-06-29

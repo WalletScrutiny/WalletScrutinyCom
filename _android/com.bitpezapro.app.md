@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitpezapro.app
 appCountry: us
 released: 2020-02-09
-updated: 2021-09-11
-version: 1.0.3
+updated: 2022-06-14
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 

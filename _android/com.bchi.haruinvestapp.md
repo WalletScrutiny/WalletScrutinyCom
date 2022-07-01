@@ -1,6 +1,6 @@
 ---
 wsId: HaruInvest
-title: 'Haru Invest: Earn BTC & Crypto'
+title: 'Haru Invest: Earn Crypto & BTC'
 altTitle: 
 authors:
 - danny

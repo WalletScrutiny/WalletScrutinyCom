@@ -12,7 +12,7 @@ updated: 2022-02-16
 version: 12.02.18
 stars: 3.8
 ratings: 235
-reviews: 103
+reviews: 104
 size: 
 website: https://www.coin.cloud
 repository: 

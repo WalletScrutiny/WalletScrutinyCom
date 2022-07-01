@@ -8,11 +8,11 @@ appId: com.tzero.tzerocrypto
 appCountry: us
 idd: 1468985150
 released: 2019-06-28
-updated: 2022-05-09
-version: 2.0.13
+updated: 2022-06-22
+version: 2.0.15
 stars: 4.6
 reviews: 721
-size: '76070912'
+size: '57984000'
 website: https://www.tzero.com/crypto-app
 repository: 
 issue: 

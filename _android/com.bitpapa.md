@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Multicurrency crypto-wallet: Bitpapa'
+title: Bitpapa - Bitcoin, USDT wallet
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitpapa
 appCountry: 
 released: 2020-08-18
-updated: 2022-04-16
-version: 1.9.2
+updated: 2022-06-30
+version: 1.10.3
 stars: 4.4
 ratings: 5332
 reviews: 88
