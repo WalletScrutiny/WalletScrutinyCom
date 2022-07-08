@@ -2,7 +2,7 @@
 wsId: CitadelOne
 title: Citadel One
 altTitle: 
-authors: 
+authors:
 - danny
 appId: one.citadel.mobile
 appCountry: us
@@ -10,7 +10,7 @@ idd: '1546701475'
 released: '2021-04-06T07:00:00Z'
 updated: 2022-06-01
 version: 2.0.8
-stars: 3.41667
+stars: 3.4
 reviews: 12
 size: '70408192'
 website: https://citadel.one/
@@ -24,7 +24,7 @@ date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: CitadelDAO
-social: 
+social:
 - https://www.reddit.com/r/citadeldao/
 - https://medium.com/citadel-one
 - https://www.instagram.com/citadeldao/

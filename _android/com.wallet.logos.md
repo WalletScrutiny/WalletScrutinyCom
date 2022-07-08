@@ -2,7 +2,7 @@
 wsId: LogosDVWallet
 title: DV Wallet (LOGOS)
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.wallet.logos

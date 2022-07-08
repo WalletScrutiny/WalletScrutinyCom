@@ -2,7 +2,7 @@
 wsId: 
 title: BitcoinAsia-Travel
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.ringelweb.bitcoinasiatravel
@@ -25,7 +25,7 @@ date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: bitcoin_asia
-social: 
+social:
 - https://www.facebook.com/BitcoinAsia.Token/
 - https://www.instagram.com/bitcoin_asia_btca/
 - https://www.linkedin.com/company/bitcoinasia/

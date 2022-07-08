@@ -2,7 +2,7 @@
 wsId: 
 title: Relampago
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50
 appId: xyz.bigsun.relampago

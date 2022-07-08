@@ -2,7 +2,7 @@
 wsId: 
 title: RahaExchange Trader
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.rahaexchange.app
@@ -25,7 +25,7 @@ date: 2022-07-06
 signer: 
 reviewArchive: 
 twitter: rahaexchange
-social: 
+social:
 - https://www.aparat.com/rahaexchange
 - https://www.instagram.com/rahaexchange/
 redirect_from: 

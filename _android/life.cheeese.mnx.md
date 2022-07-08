@@ -2,7 +2,7 @@
 wsId: CheeseLife
 title: チーズ - ビットコインがもらえる仮想通貨ポイ活アプリ
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: life.cheeese.mnx
@@ -29,7 +29,6 @@ social:
 redirect_from: 
 
 ---
-
 
 This app claims to allow users to earn BTC by completing tasks such as answering surveys or reading news.
 

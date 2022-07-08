@@ -2,7 +2,7 @@
 wsId: FMCPay
 title: FMCPAY
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.bitcoinexc
@@ -25,7 +25,7 @@ date: 2022-07-06
 signer: 
 reviewArchive: 
 twitter: fmcpay
-social: 
+social:
 - https://www.facebook.com/fmcpay/
 redirect_from: 
 

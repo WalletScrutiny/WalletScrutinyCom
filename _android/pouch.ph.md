@@ -2,7 +2,7 @@
 wsId: pouchPh
 title: Pouch Lightning Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: pouch.ph

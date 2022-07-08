@@ -2,7 +2,7 @@
 wsId: 
 title: BotCoinPro
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.botcoinpro.quant
@@ -25,7 +25,7 @@ date: 2022-07-06
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.facebook.com/botcoinpro/
 redirect_from: 
 

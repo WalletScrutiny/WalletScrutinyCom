@@ -2,7 +2,7 @@
 wsId: FMCPay
 title: FMCPAY
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.fimarketbt
 appCountry: us
@@ -24,7 +24,7 @@ date: 2022-07-06
 signer: 
 reviewArchive: 
 twitter: fmcpay
-social: 
+social:
 - https://www.facebook.com/fmcpay/
 
 ---

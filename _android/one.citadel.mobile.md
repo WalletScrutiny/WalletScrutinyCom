@@ -2,7 +2,7 @@
 wsId: CitadelOne
 title: Citadel One
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: one.citadel.mobile
@@ -25,7 +25,7 @@ date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: CitadelDAO
-social: 
+social:
 - https://www.reddit.com/r/citadeldao/
 - https://medium.com/citadel-one
 - https://www.instagram.com/citadeldao/
@@ -35,7 +35,6 @@ social:
 redirect_from: 
 
 ---
-
 
 Citadel One is a staking platform that also serves as a multi-currency crypto wallet.
 

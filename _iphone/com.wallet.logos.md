@@ -2,7 +2,7 @@
 wsId: LogosDVWallet
 title: DV Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.wallet.logos
 appCountry: us
@@ -13,7 +13,7 @@ version: v0.2.0
 stars: 0
 reviews: 0
 size: '24994816'
-website: 'https://logos-foundation.org/logos'
+website: https://logos-foundation.org/logos
 repository: 
 issue: 
 icon: com.wallet.logos.jpg

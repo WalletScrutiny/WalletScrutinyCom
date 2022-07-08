@@ -2,7 +2,7 @@
 wsId: EnnoWallet
 title: Enno Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.app.awqsome.ennowallet
@@ -25,7 +25,7 @@ date: 2022-07-08
 signer: 
 reviewArchive: 
 twitter: ennowallet
-social: 
+social:
 - https://www.facebook.com/EnnoWallet/
 - https://www.linkedin.com/company/ennowallet/
 - https://www.youtube.com/ennowallet

@@ -2,7 +2,7 @@
 wsId: GridLock
 title: Gridlock
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: network.gridlock.AppGridlock
@@ -25,7 +25,7 @@ date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: GridlockCrypto
-social: 
+social:
 - https://www.facebook.com/GridlockNetwork
 redirect_from: 
 
