@@ -4,15 +4,15 @@ title: 'SwissBorg: Invest in Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.swissborg.android
 appCountry: gb
 released: 2020-06-16
-updated: 2022-06-07
-version: 1.38.0
+updated: 2022-06-29
+version: 1.39.0
 stars: 3.9
 ratings: 9203
-reviews: 776
+reviews: 783
 size: 
 website: https://swissborg.com
 repository: 

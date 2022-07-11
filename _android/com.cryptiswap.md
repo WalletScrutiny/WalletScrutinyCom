@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptiswap.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-02
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

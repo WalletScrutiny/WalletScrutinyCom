@@ -7,8 +7,8 @@ users: 1000
 appId: io.excelon.excelongo
 appCountry: 
 released: Aug 9, 2021
-updated: 2022-05-16
-version: 1.0.25
+updated: 2022-06-28
+version: 1.0.44
 stars: 
 ratings: 
 reviews: 

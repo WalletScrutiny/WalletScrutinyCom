@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: Coins– Load, Bills, Bitcoin
+title: Coins.ph – Buy Bitcoin, Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: gctp.Coins
 appCountry: 
 idd: 972324049
 released: 2015-04-04
-updated: 2022-05-27
-version: 3.3.5
+updated: 2022-06-30
+version: 3.4.2
 stars: 4.7
-reviews: 3308
-size: '137073664'
+reviews: 3330
+size: '126021632'
 website: https://coins.ph/
 repository: 
 issue: 

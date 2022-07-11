@@ -7,8 +7,8 @@ users: 1000
 appId: net.polyx.wallet
 appCountry: 
 released: Oct 1, 2021
-updated: 2022-06-22
-version: 1.3.0
+updated: 2022-06-28
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 

@@ -9,9 +9,9 @@ appCountry:
 released: 2019-06-07
 updated: 2022-06-07
 version: 5.2.2
-stars: 4.4
+stars: 4.5
 ratings: 14091
-reviews: 1054
+reviews: 1059
 size: 
 website: https://perawallet.app
 repository: 

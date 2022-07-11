@@ -9,9 +9,9 @@ appCountry:
 released: Apr 1, 2021
 updated: 2022-04-13
 version: '4.1'
-stars: 3.3
+stars: 3.1
 ratings: 
-reviews: 70
+reviews: 73
 size: 
 website: http://movo.cash
 repository: 

@@ -8,11 +8,11 @@ users: 10000
 appId: com.defichain.app
 appCountry: qa
 released: 2021-08-22
-updated: 2022-06-07
-version: 1.13.0
+updated: 2022-06-24
+version: 1.14.2
 stars: 4.6
 ratings: 319
-reviews: 184
+reviews: 187
 size: 
 website: https://defichain.com
 repository: 

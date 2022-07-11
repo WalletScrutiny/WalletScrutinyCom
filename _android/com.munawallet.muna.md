@@ -7,8 +7,8 @@ users: 10000
 appId: com.munawallet.muna
 appCountry: 
 released: Mar 28, 2021
-updated: 2022-05-20
-version: 2.5.3
+updated: 2022-06-30
+version: 2.5.4
 stars: 4.6
 ratings: 
 reviews: 14

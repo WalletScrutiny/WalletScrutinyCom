@@ -9,9 +9,9 @@ appCountry:
 released: May 5, 2019
 updated: 2020-01-18
 version: 2.1.5
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 88
+reviews: 89
 size: 
 website: https://www.afrbtc.com
 repository: 

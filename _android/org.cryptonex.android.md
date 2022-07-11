@@ -3,7 +3,7 @@ wsId:
 title: Cryptonex (CNX)
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: org.cryptonex.android
 appCountry: 
 released: Jun 15, 2019

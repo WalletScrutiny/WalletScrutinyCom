@@ -10,9 +10,9 @@ appCountry: ng
 released: 2019-04-22
 updated: 2021-05-22
 version: 3.0.5
-stars: 2.5
+stars: 2.4
 ratings: 1121
-reviews: 910
+reviews: 911
 size: 
 website: https://chiji14xchange.com
 repository: 

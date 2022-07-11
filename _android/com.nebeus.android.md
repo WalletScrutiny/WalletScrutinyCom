@@ -3,7 +3,7 @@ wsId:
 title: 'Nebeus: Buy & Borrow Crypto'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.nebeus.android
 appCountry: 
 released: 

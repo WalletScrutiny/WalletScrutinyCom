@@ -12,7 +12,7 @@ updated: 2022-06-04
 version: 1.4.9
 stars: 4.1
 ratings: 34
-reviews: 26
+reviews: 28
 size: 
 website: http://www.secretkeylabs.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: BitstockBitstart
-title: Get Bitcoin every day in Bitstcock
+title: Bit Start
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: jp.paddle_inc.bitstock
 appCountry: jp
 released: 2019-09-03
-updated: 2022-04-11
-version: 1.4.32
+updated: 2022-06-13
+version: 1.4.34
 stars: 3.5
 ratings: 3029
-reviews: 1242
+reviews: 1253
 size: 
 website: https://www.paddle-inc.jp/
 repository: 

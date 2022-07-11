@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: 'Fintap: Crypto Digital Wallet'
+title: 'Fintap: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,12 +9,12 @@ appId: com.exscudo.channels
 appCountry: ru
 idd: 1367425342
 released: 2018-05-16
-updated: 2022-04-22
-version: 3.2.0
+updated: 2022-07-01
+version: 3.2.1
 stars: 4.5
 reviews: 42
 size: '180325376'
-website: https://fintap.app
+website: https://fintap.app/
 repository: 
 issue: 
 icon: com.exscudo.channels.jpg

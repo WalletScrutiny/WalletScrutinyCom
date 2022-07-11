@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Renzler - Crypto trading App & Bot
+title: Renzler - Crypto App & Bot
 altTitle: 
 authors: 
 users: 100

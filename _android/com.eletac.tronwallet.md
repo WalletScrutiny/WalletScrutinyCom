@@ -12,7 +12,7 @@ updated: 2022-05-11
 version: 2.4.13
 stars: 4.2
 ratings: 1199
-reviews: 107
+reviews: 108
 size: 
 website: https://vision-crypto.com/
 repository: 

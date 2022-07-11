@@ -7,8 +7,8 @@ users: 10000
 appId: com.zb.global
 appCountry: 
 released: Jul 17, 2021
-updated: 2022-06-21
-version: 1.3.1.1474
+updated: 2022-06-24
+version: 1.3.2.1478
 stars: 
 ratings: 
 reviews: 

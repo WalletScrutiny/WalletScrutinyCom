@@ -7,8 +7,8 @@ users: 10000
 appId: com.usenobi
 appCountry: 
 released: Jul 15, 2020
-updated: 2022-04-07
-version: 3.0.3
+updated: 2022-06-27
+version: 3.0.4
 stars: 3.4
 ratings: 
 reviews: 4

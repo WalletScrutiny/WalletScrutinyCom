@@ -13,7 +13,7 @@ updated: 2022-05-19
 version: 12.12.0
 stars: 4.3
 ratings: 9809
-reviews: 1867
+reviews: 1879
 size: 
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet

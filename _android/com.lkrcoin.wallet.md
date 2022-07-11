@@ -3,7 +3,7 @@ wsId:
 title: Wallet LKRcoin - Bitcoin - Litecoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.lkrcoin.wallet
 appCountry: 
 released: 2019-01-19

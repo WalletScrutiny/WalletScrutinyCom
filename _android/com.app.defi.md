@@ -7,8 +7,8 @@ users: 1000
 appId: com.app.defi
 appCountry: 
 released: Jan 23, 2022
-updated: 2022-06-14
-version: 1.10.06
+updated: 2022-06-23
+version: 1.11.01
 stars: 4.3
 ratings: 
 reviews: 1

@@ -3,7 +3,7 @@ wsId:
 title: BinO Trading
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bino.bino
 appCountry: 
 released: Aug 21, 2021

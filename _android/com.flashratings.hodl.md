@@ -11,7 +11,7 @@ updated: 2022-06-03
 version: '7.9'
 stars: 4.7
 ratings: 
-reviews: 423
+reviews: 425
 size: 
 website: http://www.hodlfinance.com
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-07-02
 updated: 2022-05-27
 version: 3.4.0
-stars: 3.9
+stars: 4
 ratings: 933
-reviews: 261
+reviews: 265
 size: 
 website: http://www.ellipal.com
 repository: 

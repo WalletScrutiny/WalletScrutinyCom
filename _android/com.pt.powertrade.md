@@ -7,8 +7,8 @@ users: 1000
 appId: com.pt.powertrade
 appCountry: 
 released: Jul 27, 2021
-updated: 2022-06-09
-version: 1.6.3
+updated: 2022-06-30
+version: 1.7.1
 stars: 
 ratings: 
 reviews: 

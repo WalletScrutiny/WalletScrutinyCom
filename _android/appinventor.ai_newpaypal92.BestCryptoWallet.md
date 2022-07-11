@@ -3,7 +3,7 @@ wsId:
 title: Best Crypto Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: appinventor.ai_newpaypal92.BestCryptoWallet
 appCountry: 
 released: 2021-12-28

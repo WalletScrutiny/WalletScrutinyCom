@@ -11,7 +11,7 @@ updated: 2022-02-17
 version: 1.29b
 stars: 4.5
 ratings: 
-reviews: 361
+reviews: 366
 size: 
 website: http://bitcoinfaucet.promo-miner.com/
 repository: 

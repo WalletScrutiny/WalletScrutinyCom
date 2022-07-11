@@ -9,11 +9,11 @@ appCountry:
 idd: 674984916
 released: 2017-06-26
 updated: 2022-05-19
-version: 432.0.0
+version: 441.0.0
 stars: 4.2
-reviews: 5140
-size: '159538176'
-website: http://www.etoro.com
+reviews: 5182
+size: '160549888'
+website: https://www.etoro.com/en-us/
 repository: 
 issue: 
 icon: com.etoro.openbook.jpg

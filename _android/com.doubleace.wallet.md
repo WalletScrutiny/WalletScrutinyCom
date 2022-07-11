@@ -3,7 +3,7 @@ wsId:
 title: ACE eWallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.doubleace.wallet
 appCountry: 
 released: 
