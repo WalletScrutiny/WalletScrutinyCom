@@ -2,7 +2,7 @@
 wsId: CAPITALIKA
 title: CAPITALIKA®
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.capitalika.exhange
@@ -25,11 +25,10 @@ date: 2022-07-14
 signer: 
 reviewArchive: 
 twitter: capitalikalatam
-social: 
+social:
 - https://www.facebook.com/CapitalikaWalletExchange
 - https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
 - https://www.instagram.com/capitalika/
-
 redirect_from: 
 
 ---

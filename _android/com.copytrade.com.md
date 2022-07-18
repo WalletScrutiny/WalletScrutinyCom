@@ -2,7 +2,7 @@
 wsId: 
 title: GS TRADER-Online Investing And Social Trading
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.copytrade.com

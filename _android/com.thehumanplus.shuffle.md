@@ -2,7 +2,7 @@
 wsId: ShuffleHPX
 title: 'Shuffle: Crypto Payment Wallet'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.thehumanplus.shuffle
@@ -25,7 +25,7 @@ date: 2022-07-14
 signer: 
 reviewArchive: 
 twitter: hupayx
-social: 
+social:
 - https://medium.com/@hupayx
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 redirect_from: 

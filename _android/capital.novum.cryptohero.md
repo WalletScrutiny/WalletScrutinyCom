@@ -2,7 +2,7 @@
 wsId: CryptoHero
 title: CryptoHero
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: capital.novum.cryptohero

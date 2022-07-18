@@ -10,7 +10,7 @@ idd: '1545648148'
 released: '2020-12-28T08:00:00Z'
 updated: 2022-06-27
 version: 2.15.0
-stars: 4.52941
+stars: 4.5
 reviews: 17
 size: '60197888'
 website: https://xcapit.com

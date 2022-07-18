@@ -10,7 +10,7 @@ idd: '1488574255'
 released: '2019-12-18T08:00:00Z'
 updated: 2022-07-09
 version: 1.6.0
-stars: 3.73913
+stars: 3.7
 reviews: 23
 size: '47814656'
 website: https://www.cryptohero.ai

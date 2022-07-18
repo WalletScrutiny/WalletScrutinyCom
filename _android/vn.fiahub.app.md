@@ -2,7 +2,7 @@
 wsId: Fiahub
 title: Fiahub - Mua bán Bitcoin, USDT
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: vn.fiahub.app
@@ -25,7 +25,7 @@ date: 2022-07-13
 signer: 
 reviewArchive: 
 twitter: FIAHUBVN
-social: 
+social:
 - https://www.facebook.com/FiahubVN
 - https://www.fiahub.com/blog/
 - https://www.linkedin.com/company/fiahub/

@@ -2,7 +2,7 @@
 wsId: 
 title: Casa Tookan wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.everdreamsoft.casatookan
@@ -25,7 +25,7 @@ date: 2022-07-13
 signer: 
 reviewArchive: 
 twitter: everdreamsoft
-social: 
+social:
 - https://www.linkedin.com/company/everdreamsoft/
 - https://www.facebook.com/EverdreamSoft/
 - https://www.youtube.com/user/Everdreamsoft

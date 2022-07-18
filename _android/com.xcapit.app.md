@@ -2,7 +2,7 @@
 wsId: xcapit
 title: xcapit
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.xcapit.app

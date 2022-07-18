@@ -2,7 +2,7 @@
 wsId: RoyalQ
 title: Royal Q App - Auto Crypto bot
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.RoyalQ
