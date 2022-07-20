@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: vccExchange
 title: VCC Exchange
 altTitle: 
 authors: 
+- danny
 users: 10000
 appId: com.vccexchange
 appCountry: 
@@ -19,13 +20,29 @@ issue:
 icon: com.vccexchange.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2022-06-22
 signer: 
 reviewArchive: 
-twitter: 
+twitter: VCCExchange
 social: 
+- https://www.facebook.com/vccexchange
 redirect_from: 
 
 ---
 
+## App Description 
+
+From Google Play Page: 
+
+> This is the official App of the VCC Exchange platform that provides you with a safe and easy way to trade on-the-go.
+>
+> VCC is a leading blockchain-based asset financial services provider based in Singapore with intensive networks in Asia-Pacific and North Americas. 
+
+## Notes 
+
+We tried to register with the app but did not receive the confirmation email. Its support page containing its Terms and Conditions was inaccessible. 
+
+Exchanges are almost always likely to be a **custodial** service. 
+
+We did find a third-party [article](https://azcoinnews.com/why-did-vcc-exchange-stop-providing-services-to-vietnamese-users.html) indicating that the service provider has terminated its services to Vietnam. If this is true universally, it would only be a matter of time when the service goes completely offline.
