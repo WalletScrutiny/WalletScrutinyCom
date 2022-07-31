@@ -2,7 +2,7 @@
 wsId: BTCEX
 title: 'BTCEX: Trade Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.btcex.exchange
@@ -25,7 +25,7 @@ date: 2022-07-18
 signer: 
 reviewArchive: 
 twitter: BTCEX_exchange
-social: 
+social:
 - https://www.reddit.com/user/BTCEX_exchange
 - https://www.facebook.com/BTCEX.exchange
 - https://www.linkedin.com/company/btcex/about/

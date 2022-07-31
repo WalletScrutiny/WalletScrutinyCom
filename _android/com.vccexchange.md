@@ -2,7 +2,7 @@
 wsId: vccExchange
 title: VCC Exchange
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.vccexchange
@@ -25,7 +25,7 @@ date: 2022-06-22
 signer: 
 reviewArchive: 
 twitter: VCCExchange
-social: 
+social:
 - https://www.facebook.com/vccexchange
 redirect_from: 
 

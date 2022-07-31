@@ -2,7 +2,7 @@
 wsId: munawallet
 title: Muna
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.munawallet.muna
@@ -25,7 +25,7 @@ date: 2022-07-15
 signer: 
 reviewArchive: 
 twitter: munawallet
-social: 
+social:
 - https://www.facebook.com/munawallet
 - https://www.instagram.com/munawallet/
 redirect_from: 
