@@ -1,0 +1,30 @@
+---
+wsId: 
+title: 'Monetaria: P2P Crypto Exchange'
+altTitle: 
+authors: 
+users: 50
+appId: com.sharuvan.monetaria
+appCountry: 
+released: Dec 26, 2021
+updated: 2021-12-23
+version: 1.0.2
+stars: 
+ratings: 
+reviews: 
+website: https://sharuvan.com
+repository: 
+issue: 
+icon: com.sharuvan.monetaria.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-07-31
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+

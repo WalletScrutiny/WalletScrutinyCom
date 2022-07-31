@@ -1,0 +1,30 @@
+---
+wsId: 
+title: PQI Crypto Wallet
+altTitle: 
+authors: 
+users: 5
+appId: com.pqi.wallet
+appCountry: 
+released: Mar 24, 2022
+updated: 2022-04-13
+version: v2.0.9
+stars: 
+ratings: 
+reviews: 
+website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
+repository: 
+issue: 
+icon: com.pqi.wallet.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-07-31
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+
