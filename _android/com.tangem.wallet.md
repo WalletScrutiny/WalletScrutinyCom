@@ -16,7 +16,7 @@ ratings: 89
 reviews: 11
 size: 
 website: https://tangem.com
-repository: 
+repository: https://github.com/tangem/tangem-app-android
 issue: 
 icon: com.tangem.wallet.png
 bugbounty: 
