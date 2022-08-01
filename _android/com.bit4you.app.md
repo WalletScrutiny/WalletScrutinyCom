@@ -25,7 +25,7 @@ date: 2022-07-20
 signer: 
 reviewArchive: 
 twitter: Bit4you1
-social: 
+social:
 - https://www.facebook.com/bit4you.io/
 - https://www.instagram.com/bit4you.io/
 redirect_from: 
@@ -38,4 +38,4 @@ bit4you is an exchange platform.
 
 > Unless otherwise provided by law, BIT4YOU may decide to terminate an account without having to give reasons, notice, formalities or indemnities to the client and will not be required to send any notification of refusal to the CLIENT but may According to its assessment, immediately close or suspend the CLIENT's wallet (or) and consistently refuse all exchange orders[...]
 
-It is capable of suspending a customer's wallet.
+[From Terms and Conditions, section 24.](https://www.bit4you.io/terms-and-conditions) It is capable of suspending a customer's wallet.

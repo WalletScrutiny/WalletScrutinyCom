@@ -20,12 +20,12 @@ issue:
 icon: com.kangamobile.jpg
 bugbounty: 
 meta: ok
-verdict: 
+verdict: custodial
 date: 2022-07-20
 signer: 
 reviewArchive: 
 twitter: KangaExchange
-social: 
+social:
 - https://www.linkedin.com/company/kangaexchange/
 - https://t.me/KangaExchange
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
@@ -51,7 +51,7 @@ The site confirms that account verification is mandatory for:
 - purchase of PLN°, EUR°, and USD° stablecoins via Kanga Cash,
 - token trading on some markets (in rare cases, only if required by the issuer).
 
-Additionally, the providers are capable of suspending accounts. From the Terms and Conditions, section 7.3:
+Additionally, the providers are capable of suspending accounts. From the [Terms and Conditions](https://support.kanga.exchange/terms-of-use/), section 7.3:
 
 > The Operator reserves the right to immediately block the functionality of the User account in part or fully (including the possibility to make withdrawals, use the services provided by the Operator on the basis of these Terms and Conditions of Use or other regulations) in case of breaching these Terms and Conditions of Use or the provisions of the law. 
 

@@ -24,11 +24,12 @@ date: 2022-07-20
 signer: 
 reviewArchive: 
 twitter: KangaExchange
-social: 
+social:
 - https://www.linkedin.com/company/kangaexchange/
 - https://t.me/KangaExchange
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
 - https://www.facebook.com/kanga.exchange/
+
 ---
 
 {% include copyFromAndroid.html %}

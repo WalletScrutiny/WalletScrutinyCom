@@ -13,7 +13,7 @@ version: '3.1'
 stars: 0
 reviews: 0
 size: '83428352'
-website: ''
+website: 
 repository: 
 issue: 
 icon: app.bit4you.io.jpg
@@ -24,7 +24,7 @@ date: 2022-07-20
 signer: 
 reviewArchive: 
 twitter: Bit4you1
-social: 
+social:
 - https://www.facebook.com/bit4you.io/
 - https://www.instagram.com/bit4you.io/
 
