@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2018-04-01
 discontinued: 
-updated: 2021-09-02
-version: v4.1.3
+updated: 2022-05-04
+version: v4.1.5
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 88
@@ -24,9 +24,9 @@ repository: https://github.com/Coldcard/firmware
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340
 icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
-meta: ok
+meta: outdated
 verdict: nonverifiable
-date: 2022-03-29
+date: 2022-08-07
 signer: 
 reviewArchive:
 - date: 2021-08-14

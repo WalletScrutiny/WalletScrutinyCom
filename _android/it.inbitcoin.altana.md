@@ -21,8 +21,8 @@ issue: https://github.com/inbitcoin/altana-android/issues/1
 icon: it.inbitcoin.altana.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2021-04-09
+verdict: nosource
+date: 2022-08-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +30,9 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-08-07:** This app released version 21.10.13 without updating the
+source code.
 
 This analysis is based on [this issue by Emanuel](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/165).
 
