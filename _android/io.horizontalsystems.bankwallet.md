@@ -19,9 +19,9 @@ repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-05-08
+date: 2022-08-07
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2022-04-15

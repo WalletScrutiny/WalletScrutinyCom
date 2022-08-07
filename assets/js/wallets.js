@@ -2,7 +2,7 @@ window.verdictOrder = ("nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,"
     "custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip," +
     "fewusers,unreleased,vapor,nobtc,nowallet").split(",")
 const platformOrder = "hardware,android,iphone,bearer"
-const metaOrder = "ok,stale,obsolete,defunct"
+const metaOrder = "ok,outdated,stale,obsolete,defunct"
 
 window.wallets.sort((a, b) => {
   const diff = function(a, b) {

@@ -19,9 +19,9 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/127
 icon: it.airgap.vault.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-05-26
+date: 2022-08-07
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2022-05-25

@@ -141,7 +141,7 @@ function updateModularPayload() {
   var appIds = []
   var presort = []
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
-  const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
+  const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
         (verdict === "all" || String(obj.verdict) === verdict) &&

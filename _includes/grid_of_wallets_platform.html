@@ -1,4 +1,4 @@
-{% assign metas = "ok,stale,obsolete,defunct" | split: "," %}
+{% assign metas = "ok,outdated,stale,obsolete,defunct" | split: "," %}
 {%- assign total = 0 -%}
 {%- for post in include.platformPosts -%}
   {%- if post.verdict == v -%}
