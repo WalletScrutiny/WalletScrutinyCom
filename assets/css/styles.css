@@ -1777,7 +1777,7 @@ html {
 }
 
 .meta_outdated {
-  filter: grayscale() blur(2px);
+  filter: grayscale(1) blur(2px);
   border: solid 0.3rem gray;
 }
 .meta_outdated.AppDisplayCard {
