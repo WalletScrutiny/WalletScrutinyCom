@@ -4,7 +4,7 @@ subtitle: How to get all the world and their fridges on a Bitcoin Standard
 excerpt: 
 authors:
 - leo
-date: 2022-04-19
+date: 2022-08-28
 ---
 
 We want all the world to use Bitcoin, yet Satoshi already remarked that it was
@@ -43,7 +43,7 @@ Bitcoin blockchain launched:
 
 What followed was a an intense fight over the block size limit but this fight
 now [is history](https://blog.bitmex.com/the-blocksize-war-chapter-1-first-strike/)
-and Bitcoin kept the 1MB limit in place for reasons I won't go into.
+and Bitcoin kept the 1MB limit in place.
 
 1MB per block means 6MB per hour, 144MB per day and 51.8GB per year. How much
 block space is that per human being on average? Divided by 8 billion ... that's
@@ -67,9 +67,9 @@ payments. So how do we get there with Bitcoin??
 
 # A multi-layered system
 
-The early internet worked much like Bitcoin today: What John did on the internet
+The early internet worked much like Bitcoin today: What one sent via the internet
 was broadcast to all the participants on the network. At the time those were
 only two more participants and then 5 and then 20 but in order to scale out to
-thousands and millions of users, it was clear from the start that sending data
+millions and billions of users, it was clear from the start that sending data
 via broadcast wasn't sustainable.
 
