@@ -19,9 +19,9 @@ repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
 icon: app.zeusln.zeus.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: nonverifiable
-date: 2021-04-07
+date: 2021-08-30
 signer: 
 reviewArchive: 
 twitter: ZeusLN
