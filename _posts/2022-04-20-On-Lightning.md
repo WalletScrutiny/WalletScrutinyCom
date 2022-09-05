@@ -76,16 +76,20 @@ only two more participants and then 5 and then 20 but in order to scale out to
 millions and billions of users, it was clear from the start that sending data
 via broadcast wasn't sustainable.
 
-Thus in 2016, Thaddeus Dryja of MIT’s Digital Currency Initiative together with Joseph Poon of the University of Southern California published the Lightning Network paper. In it they claim: 
+Today's internet "routes" messages as efficient as possible from the sender to the recipient, so Alice sending to Bob doesn't affect Carol sending to Dave and the protocols used are built in [layers](https://en.wikipedia.org/wiki/Internet_protocol_suite#Layer_names_and_number_of_layers_in_the_literature): The application developer doesn't need to know about network interface voltages or wavelength division multiplexing in optical cables or how to avoid data loss when the user is driving around, connecting to varying radio towers while communicating. All these issues are resolved by more basic layers that provide the higher layers a simpler handling of the network.
+
+In 2016, Thaddeus Dryja of MIT’s Digital Currency Initiative together with Joseph Poon of the University of Southern California published "The Bitcoin Lightning Network" paper. In it they claim: 
 
 > Clearly, achieving Visa-like capacity on the Bitcoin network isn’t feasible today. No home computer in the world can operate with that kind of bandwidth and storage. If Bitcoin is to replace all electronic payments in the future, and not just Visa, it would result in the outright collapse of the Bitcoin network, or at best, extreme centralization of Bitcoin nodes and miners to the only ones who could afford it. This centralization would then defeat aspects of network decentralization that make Bitcoin secure, as the ability for entities to validate the chain is what allows Bitcoin to ensure ledger accuracy and security. [1]
 
-The premises for the paper are prescient because it anticipated future congestion in the Bitcoin network. Such was further evidenced one year after the paper’s publication when in 2017, the Bitcoin network experienced one of its first slowdowns. 
+The premises for the paper are prescient because it anticipated future congestion in the Bitcoin network. Such was further evidenced one year after the paper’s publication when in 2017, the Bitcoin network for the first time experienced a sustained period of full blocks resulting in an ever growing backlog of unconfirmed transactions. 
 
 ![Caption: Bitcoin Network Congestion between 2017-2018
 Source: charts.woobull.com / @woonomic](/images/blog/1/bitcoin-congestion-woonomic.png)
 
-Between 2017 and 2018, the Bitcoin network experienced a significant increase in the number of transactions that were unconfirmed. The mempool became bloated and higher transaction fees were also observed. The [average transaction fee on December 18, 2017 reached $42.67](https://bitcoinvisuals.com/chain-fees-tx-usd). Suffice to say, that paying for your $5 coffee with a transaction fee of $42 is not an ideal characteristic for the future of money. The lightning network's mainnet was launched on March 15, 2018.
+This backlog - the "mem-pool" can only be "skipped" by paying a higher transaction fee than all the others - and so users paid. At times a lot! The average transaction fee on December 18, 2017 reached [$42.67](https://bitcoinvisuals.com/chain-fees-tx-usd). Suffice to say, that paying for your $5 coffee with a transaction fee of $42 is not an ideal characteristic for the future of money.
+
+On March 15, 2018 the lightning network's mainnet was launched.
 
 ![Daily median transaction fee statistics per transaction and block, excluding coinbase transaction (miner reward).
 Source: https://bitcoinvisuals.com/chain-fees-tx-usd](/images/blog/1/bitcoin-median-transaction-fees.png)
