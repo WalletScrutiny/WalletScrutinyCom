@@ -5,7 +5,7 @@ excerpt:
 authors:
 - leo
 - danny
-date: 2022-08-28
+date: 2022-09-12
 ---
 
 ![bitcoin-lightning](/images/blog/1/bitcoin-lightning-blog.png)
@@ -54,15 +54,15 @@ block space is that per human being on average? Divided by 8 billion ... that's
 
 A typical transaction [weighs 212 bytes](https://bitcoinops.org/en/tools/calc-size/).
 
-212 / 6.5 ... that's 33. Humans could do on average one transaction every 33
-years.
+212 / 6.5 ... that's 33. Humans could do on average *one transaction every 33
+years*.
 
 If on the other hand, we wanted to do an average of 5 transactions per person per
 day, personal demand would be 33 * 360 * 5 = 59400 times higher. That would mean
 either of:
 
-* a block size of 60GB. Every ten minutes.
-* only 1/59400 can use Bitcoin. A pretty small club.
+* a *block size of 60GB*. Every ten minutes.
+* only *one in 60k* humans can use Bitcoin. A pretty small club.
 
 Five transactions per day per person is probably the order of magnitude the
 current financial system handles between Visa, PayPal, bank wires and cash
@@ -78,7 +78,7 @@ via broadcast wasn't sustainable.
 
 Today's internet "routes" messages as efficient as possible from the sender to the recipient, so Alice sending to Bob doesn't affect Carol sending to Dave and the protocols used are built in [layers](https://en.wikipedia.org/wiki/Internet_protocol_suite#Layer_names_and_number_of_layers_in_the_literature): The application developer doesn't need to know about network interface voltages or wavelength division multiplexing in optical cables or how to avoid data loss when the user is driving around, connecting to varying radio towers while communicating. All these issues are resolved by more basic layers that provide the higher layers a simpler handling of the network.
 
-In 2016, Thaddeus Dryja of MIT’s Digital Currency Initiative together with Joseph Poon of the University of Southern California published "The Bitcoin Lightning Network" paper. In it they claim: 
+In 2016, Thaddeus Dryja of MIT’s Digital Currency Initiative together with Joseph Poon of the University of Southern California published "**The Bitcoin Lightning Network**" paper. In it they claim: 
 
 > Clearly, achieving Visa-like capacity on the Bitcoin network isn’t feasible today. No home computer in the world can operate with that kind of bandwidth and storage. If Bitcoin is to replace all electronic payments in the future, and not just Visa, it would result in the outright collapse of the Bitcoin network, or at best, extreme centralization of Bitcoin nodes and miners to the only ones who could afford it. This centralization would then defeat aspects of network decentralization that make Bitcoin secure, as the ability for entities to validate the chain is what allows Bitcoin to ensure ledger accuracy and security. [^1]
 
@@ -175,13 +175,23 @@ FACILITATE THE APPLICATION OF THE BITCOIN LAW, SUBJECT TO CONSULTATION." (transl
 
 ## Conclusion
 
+Bitcoin has much potential for growth with Second Layer protocols and currently,
+the Lightning Network is easily the most successful such protocol. But it is by
+far not the only tool to grow Bitcoin beyond its limitations of the base layer.
+Of course many transactions already happened off-chain even before the Lightning
+Network - when trades on exchanges happen, Bitcoins get booked from one account
+to the other - but that's custodial and thus goes against the spirit of being
+one's own bank - a
+[Sovereign Individual](https://en.wikipedia.org/wiki/The_Sovereign_Individual).
 
+Yet there are other arrangements that blur this distinction between custodial
+and non-custodial, promising scale such as "[The Liquid Network](https://liquid.net/)" and
+"[Fedimint](https://fedimint.org/)". But those we have to leave for another day.
 
+----
 
+[^1]: Dryja, T., & Poon, J. (2016, January 14). Lightningnetwork/paper: Lightning network paper. GitHub - Lightning Network. Retrieved September 1, 2022, from [github.com/LightningNetwork/paper](https://github.com/LightningNetwork/paper)
 
+[^2]: Divakaruni, A., &amp; Zimmerman, P. (2022, June 21). The Lightning Network: Turning Bitcoin into Money. Retrieved September 3, 2022, from [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4142590)
 
-[^1]: Dryja, T., & Poon, J. (2016, January 14). Lightningnetwork/paper: Lightning network paper. GitHub - Lightning Network. Retrieved September 1, 2022, from https://github.com/LightningNetwork/paper 
-
-[^2]: Divakaruni, A., &amp; Zimmerman, P. (2022, June 21). The Lightning Network: Turning Bitcoin into Money. Retrieved September 3, 2022, from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4142590 
-
-[^3]: The State of Lightning Volume 2. Arcane Research. (2022, April 7). Retrieved September 7, 2022, from https://arcane.no/research/reports/the-state-of-lightning-volume-2 
+[^3]: The State of Lightning Volume 2. Arcane Research. (2022, April 7). Retrieved September 7, 2022, from [arcane.no/research/reports/the-state-of-lightning-volume-2](https://arcane.no/research/reports/the-state-of-lightning-volume-2)
