@@ -9,9 +9,10 @@ appCountry:
 released: May 4, 2021
 updated: 2022-07-26
 version: 1.4.9
-stars: 4.428571
+stars: 4.4
 ratings: 
 reviews: 6
+size: 
 website: https://www.boxtradex.io/
 repository: 
 issue: 

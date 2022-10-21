@@ -12,6 +12,7 @@ version: 1.2.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lpschain.com
 repository: 
 issue: 

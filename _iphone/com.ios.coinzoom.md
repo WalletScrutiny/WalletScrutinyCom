@@ -9,11 +9,11 @@ appId: com.ios.coinzoom
 appCountry: 
 idd: 1443109132
 released: 2020-03-05
-updated: 2022-05-07
-version: 1.1.51
+updated: 2022-08-27
+version: 1.1.54
 stars: 3.7
-reviews: 142
-size: '102471680'
+reviews: 143
+size: '102656000'
 website: http://www.coinzoom.com
 repository: 
 issue: 

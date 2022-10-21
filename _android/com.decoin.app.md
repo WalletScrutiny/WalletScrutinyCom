@@ -12,6 +12,7 @@ version: '1.127'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.decoin.io
 repository: 
 issue: 

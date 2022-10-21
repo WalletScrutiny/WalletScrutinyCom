@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.tradenext.android
 appCountry: 
+released: 
 updated: 2022-04-27
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tradenext.com
 repository: 
 issue: 

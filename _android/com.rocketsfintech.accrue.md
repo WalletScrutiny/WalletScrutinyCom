@@ -12,6 +12,7 @@ version: 1.50.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://useaccrue.com
 repository: 
 issue: 

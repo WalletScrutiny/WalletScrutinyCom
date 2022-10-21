@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.xunibiksfwa.chonsdfj
 appCountry: 
+released: 
 updated: 2021-12-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

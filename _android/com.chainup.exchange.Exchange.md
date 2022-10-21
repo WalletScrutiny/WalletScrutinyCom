@@ -7,11 +7,12 @@ users: 10000
 appId: com.chainup.exchange.Exchange
 appCountry: 
 released: Jun 21, 2022
-updated: 2022-06-28
-version: 5.4.0
-stars: 3.909091
+updated: 2022-09-30
+version: 5.4.12
+stars: 3.7
 ratings: 
-reviews: 7
+reviews: 8
+size: 
 website: http://www.scallop.exchange
 repository: 
 issue: 

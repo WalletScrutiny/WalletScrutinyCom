@@ -12,6 +12,7 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bourseechange.net/
 repository: 
 issue: 

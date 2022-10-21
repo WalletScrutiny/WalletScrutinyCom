@@ -8,11 +8,11 @@ users: 1000000
 appId: com.netdania
 appCountry: us
 released: 2011-11-04
-updated: 2022-06-15
-version: 4.2.0
+updated: 2022-10-10
+version: 4.3.8
 stars: 4.5
 ratings: 24480
-reviews: 1193
+reviews: 1191
 size: 
 website: http://www.netdania.com
 repository: 

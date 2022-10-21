@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Vivid: Investments & Banking'
+title: 'Vivid: Mobile Banking'
 altTitle: 
 authors: 
 appId: com.vivid.money
 appCountry: me
 idd: 1504417378
 released: 2020-10-09
-updated: 2022-06-12
-version: 2.14.2
+updated: 2022-10-13
+version: 2.32.1
 stars: 0
 reviews: 0
-size: '392616960'
+size: '368225280'
 website: https://vivid.money/
 repository: 
 issue: 

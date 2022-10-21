@@ -7,11 +7,12 @@ users: 100
 appId: com.vida.live.android
 appCountry: 
 released: Mar 9, 2022
-updated: 2022-03-17
-version: 0.0.6
+updated: 2022-10-06
+version: 0.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

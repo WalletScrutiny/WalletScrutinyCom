@@ -1,6 +1,6 @@
 ---
 wsId: dfox
-title: Dfox-Crypto Wallet and DeFi Portfolio
+title: Dfox-Crypto Wallet and DeFi Po
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2021-06-23
 version: 1.4.3
 stars: 4.3
 ratings: 194
-reviews: 12
+reviews: 13
 size: 
 website: https://dfox.cc/
 repository: 

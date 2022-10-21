@@ -12,6 +12,7 @@ version: '1.5'
 stars: 4.2
 ratings: 
 reviews: 1
+size: 
 website: https://3commas.io
 repository: 
 issue: 

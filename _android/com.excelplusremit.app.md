@@ -3,7 +3,7 @@ wsId:
 title: Excel Plus Remit
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.excelplusremit.app
 appCountry: 
 released: Mar 17, 2021
@@ -12,6 +12,7 @@ version: 3.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://excelplusremit.com/
 repository: 
 issue: 

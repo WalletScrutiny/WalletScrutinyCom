@@ -7,8 +7,8 @@ users: 100
 appId: trade.nexus.mobile
 appCountry: 
 released: Sep 21, 2021
-updated: 2022-05-10
-version: 1.0.5
+updated: 2022-10-07
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 

@@ -12,6 +12,7 @@ version: 4.7.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://albrex.io
 repository: 
 issue: 

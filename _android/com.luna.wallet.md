@@ -3,15 +3,16 @@ wsId:
 title: 'Lunar: Crypto & DeFi Wallet'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.luna.wallet
 appCountry: 
 released: Apr 6, 2022
 updated: 2022-07-01
 version: 1.0.4
-stars: 4.903226
+stars: 4.9
 ratings: 
-reviews: 2
+reviews: 1
+size: 
 website: https://lunawallet.ae
 repository: 
 issue: 

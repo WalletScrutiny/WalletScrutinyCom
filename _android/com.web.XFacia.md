@@ -12,6 +12,7 @@ version: '1.9'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://xfacia.com/
 repository: 
 issue: 

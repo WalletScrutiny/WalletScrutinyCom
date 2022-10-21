@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitplicity Bitcoin Wallet - Buy & Sell Crypto
+title: Bitplicity Bitcoin Wallet - Bu
 altTitle: 
 authors: 
 users: 500

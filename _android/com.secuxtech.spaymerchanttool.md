@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: SPayMerchant
+title: SPaymentMerchant
 altTitle: 
 authors: 
 users: 10

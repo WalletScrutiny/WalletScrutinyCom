@@ -6,11 +6,13 @@ authors:
 users: 10000
 appId: com.tocce.vst
 appCountry: 
+released: 
 updated: 2022-07-18
 version: 1.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.vstmex.com/
 repository: 
 issue: 

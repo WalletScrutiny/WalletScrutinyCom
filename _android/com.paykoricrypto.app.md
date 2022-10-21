@@ -3,7 +3,7 @@ wsId:
 title: PaykoriCrypto
 altTitle: 
 authors: 
-users: 0
+users: 1
 appId: com.paykoricrypto.app
 appCountry: 
 released: Apr 26, 2022
@@ -12,6 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://paykoricrypto.com
 repository: 
 issue: 

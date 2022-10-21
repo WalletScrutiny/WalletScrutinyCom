@@ -3,7 +3,7 @@ wsId:
 title: GK8
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.gk8.network
 appCountry: 
 released: Sep 1, 2021
@@ -12,6 +12,7 @@ version: 9.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.gk8.io/contact/
 repository: 
 issue: 

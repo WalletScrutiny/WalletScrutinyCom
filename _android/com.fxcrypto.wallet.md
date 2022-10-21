@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FX Crypto (FXC) - Forex Robot Traders
+title: 'FX Crypto (FXC) - Forex Robot '
 altTitle: 
 authors: 
 users: 1000

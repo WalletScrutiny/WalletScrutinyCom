@@ -12,6 +12,7 @@ version: '1.28'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://severus.finance
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: '1.02'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://centralex.com
 repository: 
 issue: 

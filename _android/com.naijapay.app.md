@@ -12,6 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://naijapay.io/
 repository: 
 issue: 

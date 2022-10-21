@@ -12,6 +12,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dartafrica.io
 repository: 
 issue: 

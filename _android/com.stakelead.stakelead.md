@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://stakelead.com
 repository: 
 issue: 

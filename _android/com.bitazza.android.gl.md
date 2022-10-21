@@ -12,6 +12,7 @@ version: 2.5.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://bitazza.com/
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: '9.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinizie.com/
 repository: 
 issue: 

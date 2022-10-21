@@ -3,7 +3,7 @@ wsId:
 title: bitlink
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitlink.smarttrade
 appCountry: 
 released: May 4, 2021

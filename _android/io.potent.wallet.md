@@ -12,14 +12,15 @@ version: 0.20.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://potent.finance
 repository: 
 issue: 
 icon: io.potent.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

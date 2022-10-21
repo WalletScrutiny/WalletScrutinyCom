@@ -12,6 +12,7 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wallet.lyofi.com/
 repository: 
 issue: 

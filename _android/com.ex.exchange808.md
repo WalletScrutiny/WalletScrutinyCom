@@ -8,11 +8,11 @@ users: 10000
 appId: com.ex.exchange808
 appCountry: 
 released: 2021-02-03
-updated: 2021-12-17
-version: 2.0.20
+updated: 2022-08-04
+version: 2.0.22
 stars: 5
 ratings: 269
-reviews: 10
+reviews: 11
 size: 
 website: https://808exchange.net
 repository: 

@@ -12,6 +12,7 @@ version: '2.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.dhanu.org/
 repository: 
 issue: 

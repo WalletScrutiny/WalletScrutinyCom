@@ -12,6 +12,7 @@ version: 1.1.25
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.unbank.world/
 repository: 
 issue: 

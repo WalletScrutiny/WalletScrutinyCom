@@ -12,6 +12,7 @@ version: v2.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
 repository: 
 issue: 

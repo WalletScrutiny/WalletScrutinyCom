@@ -12,6 +12,7 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://m.excoin.cloud/
 repository: 
 issue: 

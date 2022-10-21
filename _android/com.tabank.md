@@ -12,6 +12,7 @@ version: 1.3.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://web.tabus.co/
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: za.co.bostechnology.bospay
 appCountry: 
+released: 
 updated: 2022-07-22
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bospay.co/
 repository: 
 issue: 

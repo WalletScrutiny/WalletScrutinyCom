@@ -12,6 +12,7 @@ version: '2.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monabey.com
 repository: 
 issue: 

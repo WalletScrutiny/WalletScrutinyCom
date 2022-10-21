@@ -12,6 +12,7 @@ version: v1.1.14
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://letsbit.io
 repository: 
 issue: 

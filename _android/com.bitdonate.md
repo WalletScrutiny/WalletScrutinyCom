@@ -12,6 +12,7 @@ version: '2.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitdonate.com
 repository: 
 issue: 

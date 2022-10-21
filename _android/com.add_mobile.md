@@ -3,7 +3,7 @@ wsId:
 title: ADD - DeFi Wallet with Privacy
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.add_mobile
 appCountry: 
 released: Dec 10, 2021
@@ -19,7 +19,7 @@ issue:
 icon: com.add_mobile.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

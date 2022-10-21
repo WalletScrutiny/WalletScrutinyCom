@@ -12,6 +12,7 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://spowide.com
 repository: 
 issue: 

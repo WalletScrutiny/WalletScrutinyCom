@@ -8,11 +8,11 @@ appId: com.wirex
 appCountry: us
 idd: 1090004654
 released: 2016-03-22
-updated: 2022-06-10
-version: 3.33.20
-stars: 3.7
-reviews: 561
-size: '105925632'
+updated: 2022-10-12
+version: 3.33.74
+stars: 3.6
+reviews: 576
+size: '135536640'
 website: https://wirexapp.com/en
 repository: 
 issue: 

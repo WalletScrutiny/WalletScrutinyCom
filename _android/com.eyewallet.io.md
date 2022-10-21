@@ -12,6 +12,7 @@ version: 4.5.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://eyewallet.com
 repository: 
 issue: 

@@ -9,9 +9,10 @@ appCountry:
 released: Aug 31, 2020
 updated: 2022-07-30
 version: 1.36.1
-stars: 4.455446
+stars: 4.5
 ratings: 
 reviews: 274
+size: 
 website: https://valoraapp.com
 repository: 
 issue: 

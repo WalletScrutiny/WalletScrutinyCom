@@ -3,15 +3,16 @@ wsId:
 title: VoltPay
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.core.voltpay
 appCountry: 
 released: Apr 7, 2022
-updated: 2022-07-19
-version: 1.2.7
+updated: 2022-10-09
+version: 1.2.17
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://voltpay.app
 repository: 
 issue: 

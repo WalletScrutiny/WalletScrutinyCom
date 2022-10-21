@@ -7,11 +7,12 @@ users: 1000
 appId: com.ttg
 appCountry: 
 released: Feb 17, 2022
-updated: 2022-06-16
-version: 5.10.13
+updated: 2022-09-02
+version: 5.10.16
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.tradethegames.com/
 repository: 
 issue: 

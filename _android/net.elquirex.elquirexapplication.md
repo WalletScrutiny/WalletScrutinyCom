@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: net.elquirex.elquirexapplication
 appCountry: 
+released: 
 updated: 2020-11-15
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://elquirex.net/
 repository: 
 issue: 

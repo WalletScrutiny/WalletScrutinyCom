@@ -3,7 +3,7 @@ wsId:
 title: XBank - Blockchain Bank
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.xbank247.app
 appCountry: 
 released: Dec 30, 2021
@@ -12,6 +12,7 @@ version: '10'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.xbank247.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: 'Nuri: Mobile Banking & Bitcoin'
+title: 'Nuri: Bitcoin Wallet & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2022-06-28
-version: 2.4.10
-stars: 3.6
+updated: 2022-10-14
+version: 2.4.20
+stars: 3.7
 ratings: 4416
-reviews: 3248
+reviews: 3535
 size: 
 website: https://www.nuri.com
 repository: 

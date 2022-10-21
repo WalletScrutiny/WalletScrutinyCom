@@ -7,11 +7,12 @@ users: 50000
 appId: com.babb.app
 appCountry: 
 released: Feb 27, 2020
-updated: 2022-04-12
-version: 1.7.1
-stars: 3.8101265
+updated: 2022-10-12
+version: 1.8.1
+stars: 3.8
 ratings: 
-reviews: 35
+reviews: 36
+size: 
 website: https://getbabb.com/
 repository: 
 issue: 

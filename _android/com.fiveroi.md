@@ -3,15 +3,16 @@ wsId:
 title: 5ROI Global
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.fiveroi
 appCountry: 
 released: Mar 31, 2022
 updated: 2022-05-18
 version: 4.3.4
-stars: 2.3043478
+stars: 2.1
 ratings: 
-reviews: 16
+reviews: 21
+size: 
 website: https://www.5roi.com/
 repository: 
 issue: 

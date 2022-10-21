@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CoinDCX Pro:Crypto Trading App
+title: 'CoinDCX Pro: Crypto Trading'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coindcx
 appCountry: 
 released: 2018-11-02
-updated: 2022-06-27
-version: 2.05.011
-stars: 4.8
+updated: 2022-10-20
+version: 2.06.012
+stars: 4.7
 ratings: 13567
-reviews: 176
+reviews: 181
 size: 
 website: https://coindcx.com
 repository: 

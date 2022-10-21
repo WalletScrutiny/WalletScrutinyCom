@@ -3,7 +3,7 @@ wsId:
 title: Galaxy Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.galaxy.exchange
 appCountry: 
 released: Dec 15, 2021

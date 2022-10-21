@@ -12,6 +12,7 @@ version: '2.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

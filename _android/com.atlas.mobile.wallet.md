@@ -1,6 +1,6 @@
 ---
 wsId: cent
-title: Cent - The crypto wallet for DeFi
+title: Cent - The crypto wallet for D
 altTitle: 
 authors:
 - danny

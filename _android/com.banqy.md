@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: banqy - Bitcoin, Ethereum, and Other Crypto
+title: banqy - Bitcoin, Ethereum, and
 altTitle: 
 authors: 
 users: 10

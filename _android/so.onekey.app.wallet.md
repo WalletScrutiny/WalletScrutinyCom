@@ -12,6 +12,7 @@ version: 3.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://onekey.so
 repository: 
 issue: 

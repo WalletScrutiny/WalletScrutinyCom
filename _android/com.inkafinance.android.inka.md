@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.inkafinance.android.inka
 appCountry: 
+released: 
 updated: 2022-07-05
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://inka.finance/
 repository: 
 issue: 

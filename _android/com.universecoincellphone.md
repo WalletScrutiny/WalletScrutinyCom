@@ -12,6 +12,7 @@ version: '4.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://universecoin.io
 repository: 
 issue: 

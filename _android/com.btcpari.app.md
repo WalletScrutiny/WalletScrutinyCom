@@ -12,6 +12,7 @@ version: 1.0.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://btcpari.com
 repository: 
 issue: 

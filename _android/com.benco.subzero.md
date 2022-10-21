@@ -12,6 +12,7 @@ version: 1.5.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://subzeropay.com/
 repository: 
 issue: 

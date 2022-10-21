@@ -12,6 +12,7 @@ version: '2.0'
 stars: 5
 ratings: 
 reviews: 21
+size: 
 website: https://decurian.com
 repository: 
 issue: 

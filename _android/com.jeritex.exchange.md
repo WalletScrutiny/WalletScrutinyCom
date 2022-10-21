@@ -12,6 +12,7 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://jeritex.com
 repository: 
 issue: 

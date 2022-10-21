@@ -12,6 +12,7 @@ version: 2.8.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.yeschanger.com
 repository: 
 issue: 

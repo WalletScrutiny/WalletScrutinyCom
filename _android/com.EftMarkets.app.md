@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.EftMarkets.app
 appCountry: 
+released: 
 updated: 2021-02-15
 version: 1.0.15
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://eftmarkets.com/
 repository: 
 issue: 

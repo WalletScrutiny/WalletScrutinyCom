@@ -4,24 +4,24 @@ title: Coinmama - Buy cryptocurrency
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinmama.android
 appCountry: 
 released: 2021-08-10
 updated: 2021-08-10
 version: 0.17.0
-stars: 2.9
+stars: 3
 ratings: 105
-reviews: 14
+reviews: 15
 size: 
 website: https://www.coinmama.com
 repository: 
 issue: 
 icon: com.coinmama.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-05
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: coinmama

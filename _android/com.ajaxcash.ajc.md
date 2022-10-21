@@ -12,6 +12,7 @@ version: '10.03'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ajaxcash.com
 repository: 
 issue: 

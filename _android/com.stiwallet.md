@@ -12,6 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://stiwallet.com
 repository: 
 issue: 

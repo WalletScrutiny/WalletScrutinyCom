@@ -3,14 +3,16 @@ wsId:
 title: GCMAsia Pro
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.gcmasia.pro
 appCountry: 
+released: 
 updated: 2022-04-07
 version: 90.2.001
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.gcmasia.com
 repository: 
 issue: 

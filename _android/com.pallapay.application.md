@@ -3,7 +3,7 @@ wsId:
 title: PallaPay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.pallapay.application
 appCountry: 
 released: May 6, 2022
@@ -12,6 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pallapay.com
 repository: 
 issue: 

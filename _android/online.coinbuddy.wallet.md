@@ -12,6 +12,7 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://coinbuddy.online
 repository: 
 issue: 

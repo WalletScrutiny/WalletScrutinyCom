@@ -12,6 +12,7 @@ version: '2.24'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kryl.io
 repository: 
 issue: 

@@ -3,15 +3,16 @@ wsId:
 title: 'Structure: Buy Crypto & Stocks'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.stxr.structure.app.android
 appCountry: 
 released: May 6, 2022
-updated: 2022-07-22
-version: 0.1.9-prod
-stars: 4.3333335
+updated: 2022-10-20
+version: 1.2.0-prod
+stars: 3.9
 ratings: 
-reviews: 2
+reviews: 3
+size: 
 website: https://structure.fi
 repository: 
 issue: 

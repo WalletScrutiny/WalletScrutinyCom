@@ -3,7 +3,7 @@ wsId:
 title: ZNX Wallet
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.zenex.mobileapp
 appCountry: 
 released: May 24, 2022
@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://zenextoken.in/
 repository: 
 issue: 

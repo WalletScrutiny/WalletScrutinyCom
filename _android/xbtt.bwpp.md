@@ -3,7 +3,7 @@ wsId:
 title: BTW
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: xbtt.bwpp
 appCountry: 
 released: Apr 27, 2022
@@ -12,6 +12,7 @@ version: '3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

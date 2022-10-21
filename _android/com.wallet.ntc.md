@@ -3,7 +3,7 @@ wsId:
 title: NTC Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.wallet.ntc
 appCountry: 
 released: Jun 2, 2022
@@ -12,6 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wallet.ntcrypto.net
 repository: 
 issue: 

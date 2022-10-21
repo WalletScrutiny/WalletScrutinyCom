@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Coinsbit - Cryptocurrency Exchange: BTC, ETH, USDT'
+title: Coinsbit - Cryptocurrency Exch
 altTitle: 
 authors: 
 users: 100000

@@ -12,6 +12,7 @@ version: '20107'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://viaziza.com
 repository: 
 issue: 

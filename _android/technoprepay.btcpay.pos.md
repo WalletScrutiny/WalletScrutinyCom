@@ -12,6 +12,7 @@ version: 6.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://btcpaypos.com
 repository: 
 issue: 

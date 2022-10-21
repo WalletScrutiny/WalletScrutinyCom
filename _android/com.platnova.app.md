@@ -3,15 +3,16 @@ wsId:
 title: Platnova
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.platnova.app
 appCountry: 
 released: Mar 28, 2022
-updated: 2022-07-17
-version: 0.2.5
+updated: 2022-10-18
+version: 0.3.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://platnova.com/
 repository: 
 issue: 

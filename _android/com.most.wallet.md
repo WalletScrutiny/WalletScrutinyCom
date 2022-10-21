@@ -7,11 +7,12 @@ users: 5000
 appId: com.most.wallet
 appCountry: 
 released: Feb 4, 2022
-updated: 2022-07-14
-version: 1.4.2
+updated: 2022-10-19
+version: 1.4.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://scitechnologyinc.com/mostwallet
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: BOXTradEx
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.plusblocks.wallet
 appCountry: 
 released: Mar 23, 2022
@@ -12,6 +12,7 @@ version: 1.3.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.boxtradex.io/
 repository: 
 issue: 

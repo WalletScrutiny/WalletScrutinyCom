@@ -1,6 +1,6 @@
 ---
 wsId: prostocash
-title: Prostocash – обменять и продать Биткоин
+title: Prostocash – обменять и продат
 altTitle: 
 authors:
 - danny

@@ -12,6 +12,7 @@ version: 2.0.4
 stars: 4.8
 ratings: 
 reviews: 3
+size: 
 website: https://thoryield.com
 repository: 
 issue: 

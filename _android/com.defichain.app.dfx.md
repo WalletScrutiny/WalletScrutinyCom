@@ -12,6 +12,7 @@ version: 1.15.7
 stars: 3.4
 ratings: 
 reviews: 2
+size: 
 website: https://dfx.swiss
 repository: 
 issue: 

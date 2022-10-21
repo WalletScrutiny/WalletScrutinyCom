@@ -3,15 +3,15 @@ wsId:
 title: 'Deepcoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.deepcoin.app.global
 appCountry: 
 released: Dec 8, 2020
-updated: 2022-06-24
-version: 5.3.9
+updated: 2022-10-15
+version: 5.7.9
 stars: 4.1
 ratings: 
-reviews: 47
+reviews: 48
 size: 
 website: 
 repository: 

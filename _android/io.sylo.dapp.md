@@ -1,6 +1,6 @@
 ---
 wsId: Sylo
-title: Sylo - Smart Wallet & Messenger
+title: Sylo - Smart Wallet & Messenge
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: io.sylo.dapp
 appCountry: 
 released: 2019-09-10
-updated: 2022-03-26
-version: 3.1.43
+updated: 2022-09-15
+version: 4.0.11
 stars: 4
 ratings: 758
 reviews: 45

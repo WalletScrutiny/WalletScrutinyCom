@@ -12,6 +12,7 @@ version: 0.9.17
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://sesame-wallet.io
 repository: 
 issue: 

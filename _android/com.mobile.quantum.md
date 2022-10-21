@@ -12,6 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://quan2um.com
 repository: 
 issue: 

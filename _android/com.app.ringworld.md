@@ -3,7 +3,7 @@ wsId:
 title: Ring World
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.app.ringworld
 appCountry: 
 released: Feb 26, 2022
@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ringworld.live/
 repository: 
 issue: 

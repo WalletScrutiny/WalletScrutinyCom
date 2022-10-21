@@ -9,9 +9,10 @@ appCountry:
 released: Apr 21, 2022
 updated: 2022-07-26
 version: 2.0.3
-stars: 3.652174
+stars: 3.7
 ratings: 
 reviews: 13
+size: 
 website: https://coinlocally.com
 repository: 
 issue: 

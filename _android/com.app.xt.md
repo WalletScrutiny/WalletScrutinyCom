@@ -7,11 +7,12 @@ users: 100000
 appId: com.app.xt
 appCountry: 
 released: Apr 14, 2021
-updated: 2022-07-26
-version: 3.10.8
-stars: 3.16
+updated: 2022-10-17
+version: 3.15.1
+stars: 4.7
 ratings: 
-reviews: 236
+reviews: 322
+size: 
 website: http://www.xt.com
 repository: 
 issue: 

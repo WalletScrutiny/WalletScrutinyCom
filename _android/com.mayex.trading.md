@@ -12,6 +12,7 @@ version: 1.1.90
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.mayex.com
 repository: 
 issue: 

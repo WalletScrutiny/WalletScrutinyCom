@@ -3,15 +3,15 @@ wsId:
 title: 'Swapitway: Gift Cards To Cash'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: swapitway.trade
 appCountry: 
 released: Nov 1, 2021
 updated: 2021-11-01
 version: '2'
-stars: 3.1
+stars: 2.9
 ratings: 
-reviews: 26
+reviews: 35
 size: 
 website: https://swapitway.com
 repository: 

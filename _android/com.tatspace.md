@@ -12,6 +12,7 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.tatcoin.com
 repository: 
 issue: 

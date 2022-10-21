@@ -12,6 +12,7 @@ version: 1.8.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wetoken.io/
 repository: 
 issue: 

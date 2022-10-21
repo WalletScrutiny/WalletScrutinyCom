@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.capitalsecurities.liqx
 appCountry: 
+released: 
 updated: 2021-11-24
 version: 2.1.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.liquidityx.com/eu/
 repository: 
 issue: 

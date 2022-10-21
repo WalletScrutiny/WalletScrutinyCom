@@ -12,6 +12,7 @@ version: 1.11.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.okasan-online.co.jp/
 repository: 
 issue: 

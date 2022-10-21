@@ -3,16 +3,17 @@ wsId:
 title: 'Rebix: Buy & Sell Crypto'
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: io.rebix.app.android
 appCountry: 
 released: Jan 25, 2022
-updated: 2022-06-17
-version: 0.6.1
+updated: 2022-09-08
+version: 0.6.6
 stars: 
 ratings: 
 reviews: 
-website: https://rebix.ir
+size: 
+website: https://rebix.io
 repository: 
 issue: 
 icon: io.rebix.app.android.png

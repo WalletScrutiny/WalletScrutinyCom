@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.orbitgtm
 appCountry: 
+released: 
 updated: 2022-01-11
 version: 1.7.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://orbitgt-m.com/
 repository: 
 issue: 

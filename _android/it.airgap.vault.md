@@ -1,6 +1,6 @@
 ---
 wsId: AirGapVault
-title: AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin
+title: AirGap Vault - Secure Secrets
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000
 appId: it.airgap.vault
 appCountry: 
 released: 2018-08-06
-updated: 2022-06-15
-version: 3.17.3
+updated: 2022-10-14
+version: 3.19.0
 stars: 4.2
 ratings: 110
-reviews: 12
+reviews: 13
 size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault

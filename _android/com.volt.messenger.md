@@ -12,6 +12,7 @@ version: 3.6.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.voltmessenger.com
 repository: 
 issue: 

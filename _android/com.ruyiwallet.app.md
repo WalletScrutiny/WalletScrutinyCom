@@ -12,6 +12,7 @@ version: 2.3.82
 stars: 4.8
 ratings: 
 reviews: 4
+size: 
 website: https://www.ruyiwallet.com
 repository: 
 issue: 

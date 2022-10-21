@@ -7,11 +7,11 @@ users: 100000
 appId: com.io.coinstore
 appCountry: 
 released: Mar 29, 2021
-updated: 2022-06-13
-version: 1.3.6
-stars: 4
+updated: 2022-09-29
+version: 1.4.3
+stars: 4.1
 ratings: 
-reviews: 42
+reviews: 45
 size: 
 website: https://www.coinstore.com
 repository: 

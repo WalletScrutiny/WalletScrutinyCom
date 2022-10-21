@@ -12,6 +12,7 @@ version: 1.1.81
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://banexcoin.com
 repository: 
 issue: 

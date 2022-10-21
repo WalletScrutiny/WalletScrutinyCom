@@ -3,7 +3,7 @@ wsId:
 title: TMAX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tokentrade.tmax
 appCountry: 
 released: Nov 3, 2020

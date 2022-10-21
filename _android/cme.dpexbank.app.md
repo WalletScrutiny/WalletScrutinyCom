@@ -12,6 +12,7 @@ version: '1.06'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.dpexbank.com
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: 1.8.7
 stars: 3.4
 ratings: 
 reviews: 4
+size: 
 website: http://menapay.io
 repository: 
 issue: 

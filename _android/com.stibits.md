@@ -12,6 +12,7 @@ version: 0.12BETA
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://stibits.com
 repository: 
 issue: 

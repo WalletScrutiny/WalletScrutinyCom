@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.btcontract.walletfiat
 appCountry: 
+released: 
 updated: 2022-06-14
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://standardsats.github.io
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.rapixchange.com/
 repository: 
 issue: 

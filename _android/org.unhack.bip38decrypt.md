@@ -12,6 +12,7 @@ version: 2.1.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://github.com/mikebutrimov/bip38decrypt
 repository: 
 issue: 

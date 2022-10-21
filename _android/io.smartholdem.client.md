@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Smart Secure Wallet - SmartHoldem STH Coin
+title: Smart Secure Wallet - SmartHol
 altTitle: 
 authors: 
 users: 100

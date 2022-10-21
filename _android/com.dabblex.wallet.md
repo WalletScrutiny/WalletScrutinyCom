@@ -12,6 +12,7 @@ version: 0.21.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://dabblex.com
 repository: 
 issue: 

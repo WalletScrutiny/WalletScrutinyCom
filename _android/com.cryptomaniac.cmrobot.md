@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CM Robot - Autotrader Bitcoin App
+title: 'CM Robot - Autotrader Bitcoin '
 altTitle: 
 authors: 
 users: 1000

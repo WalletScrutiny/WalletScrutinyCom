@@ -12,6 +12,7 @@ version: 0.9.39
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pebbit.app
 repository: 
 issue: 

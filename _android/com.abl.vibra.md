@@ -3,13 +3,13 @@ wsId:
 title: Vibra
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.abl.vibra
 appCountry: 
 released: Oct 21, 2021
-updated: 2022-07-01
-version: 1.5.2
-stars: 4
+updated: 2022-09-23
+version: 1.6.0
+stars: 3.9
 ratings: 
 reviews: 5
 size: 

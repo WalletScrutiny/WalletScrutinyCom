@@ -12,6 +12,7 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://bitsmoney.co/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: BigONE
-title: BigONE - Bitcoin Trading & Cryptocurrency Exchange
+title: BigONE - Bitcoin Trading
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2022-06-29
-version: 2.2.620
+updated: 2022-10-19
+version: 2.3.103
 stars: 4
 ratings: 836
 reviews: 53

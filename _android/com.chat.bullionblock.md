@@ -12,6 +12,7 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bullionblock.ltd
 repository: 
 issue: 

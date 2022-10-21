@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.wiser.app
 appCountry: 
-updated: 2022-07-17
+released: 
+updated: 2022-08-22
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://destreet.co
 repository: 
 issue: 

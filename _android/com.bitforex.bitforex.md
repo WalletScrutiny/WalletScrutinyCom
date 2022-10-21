@@ -12,6 +12,7 @@ version: 3.1.3
 stars: 5
 ratings: 
 reviews: 63
+size: 
 website: https://www.bitforex.com
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: 0.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.hipcibot.com
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: 8.8.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://elyps.com
 repository: 
 issue: 

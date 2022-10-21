@@ -12,6 +12,7 @@ version: '9.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://a131f4e74.app-ads-txt.com
 repository: 
 issue: 

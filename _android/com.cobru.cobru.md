@@ -12,6 +12,7 @@ version: 4.0.77
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cobru.co
 repository: 
 issue: 

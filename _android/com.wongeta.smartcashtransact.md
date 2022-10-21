@@ -12,6 +12,7 @@ version: 1.0.164
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mysmartcash.tech
 repository: 
 issue: 

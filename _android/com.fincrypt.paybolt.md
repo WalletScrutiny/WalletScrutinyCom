@@ -12,6 +12,7 @@ version: 3.0.1
 stars: 5
 ratings: 
 reviews: 4
+size: 
 website: https://paybolt.com
 repository: 
 issue: 

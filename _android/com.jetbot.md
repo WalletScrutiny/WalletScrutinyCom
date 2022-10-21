@@ -12,6 +12,7 @@ version: '1.19'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://jetbot.live/
 repository: 
 issue: 

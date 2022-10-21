@@ -12,6 +12,7 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://s-wallet.ai
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: '9.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptoboxcoin.com/
 repository: 
 issue: 

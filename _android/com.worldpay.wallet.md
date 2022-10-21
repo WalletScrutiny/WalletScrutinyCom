@@ -3,7 +3,7 @@ wsId:
 title: WorldPay
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.worldpay.wallet
 appCountry: 
 released: Feb 11, 2019

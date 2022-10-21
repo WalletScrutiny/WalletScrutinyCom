@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BuyBitcoins.App - Peer2Peer Bitcoin Marketplace
+title: BuyBitcoins.App - Peer2Peer Bi
 altTitle: 
 authors: 
 users: 100

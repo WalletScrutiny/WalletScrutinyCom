@@ -3,12 +3,12 @@ wsId:
 title: HKD.com
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: hkd.com
 appCountry: 
 released: Sep 11, 2020
-updated: 2022-07-01
-version: 2.1.2
+updated: 2022-10-21
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 

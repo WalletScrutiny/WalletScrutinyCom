@@ -12,6 +12,7 @@ version: 2.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://app.fixttoken.com/
 repository: 
 issue: 

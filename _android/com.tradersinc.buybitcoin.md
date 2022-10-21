@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Buy Bitcoin & Other Cryptocurrencies
+title: Buy Bitcoin & Other Cryptocurr
 altTitle: 
 authors: 
 users: 1000

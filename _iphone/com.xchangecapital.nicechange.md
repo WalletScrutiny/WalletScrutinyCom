@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.xchangecapital.nicechange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-04-11
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

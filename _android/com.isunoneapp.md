@@ -12,6 +12,7 @@ version: 3.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.isun1.com
 repository: 
 issue: 

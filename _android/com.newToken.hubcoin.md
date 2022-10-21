@@ -12,6 +12,7 @@ version: 0.0.36
 stars: 5
 ratings: 
 reviews: 
+size: 
 website: https://www.metahubcoin.com/
 repository: 
 issue: 

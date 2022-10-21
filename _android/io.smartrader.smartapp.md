@@ -12,6 +12,7 @@ version: 0.3.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://launch.smartrader.io/
 repository: 
 issue: 

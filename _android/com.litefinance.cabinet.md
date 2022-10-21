@@ -12,6 +12,7 @@ version: 1.0.7
 stars: 5
 ratings: 
 reviews: 2
+size: 
 website: https://www.liteforex.com
 repository: 
 issue: 

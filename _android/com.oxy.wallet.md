@@ -3,7 +3,7 @@ wsId:
 title: Oxy Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.oxy.wallet
 appCountry: 
 released: Jun 18, 2021
@@ -12,6 +12,7 @@ version: 0.21.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://oxystarter.io
 repository: 
 issue: 

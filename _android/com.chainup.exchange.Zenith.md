@@ -12,6 +12,7 @@ version: 5.3.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://zenithcex.com
 repository: 
 issue: 

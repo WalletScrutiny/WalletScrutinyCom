@@ -3,14 +3,16 @@ wsId:
 title: AAATrader - Worldwide Trading
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.aaatrade.aaatrader
 appCountry: 
+released: 
 updated: 2022-05-12
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.aaatrade.com
 repository: 
 issue: 

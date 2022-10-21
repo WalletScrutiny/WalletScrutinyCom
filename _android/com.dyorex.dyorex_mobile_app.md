@@ -12,6 +12,7 @@ version: 1.4.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.dyorex.com
 repository: 
 issue: 

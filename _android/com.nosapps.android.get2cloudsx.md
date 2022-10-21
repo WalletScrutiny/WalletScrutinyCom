@@ -9,9 +9,10 @@ appCountry:
 released: Aug 12, 2020
 updated: 2022-07-29
 version: 1.1.331
-stars: 3.2857144
+stars: 3.3
 ratings: 
 reviews: 3
+size: 
 website: http://www.get2clouds.com
 repository: 
 issue: 

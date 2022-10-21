@@ -12,6 +12,7 @@ version: 1.0.32
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://binanceautotrade.myreport-live.be
 repository: 
 issue: 

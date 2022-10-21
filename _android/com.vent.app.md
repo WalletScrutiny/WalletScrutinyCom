@@ -12,6 +12,7 @@ version: 1.2.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vent.africa
 repository: 
 issue: 

@@ -12,6 +12,7 @@ version: 2.0.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://capecrypto.com
 repository: 
 issue: 

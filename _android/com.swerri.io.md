@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.swerri.io
 appCountry: 
+released: 
 updated: 2022-07-05
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://swerri.io
 repository: 
 issue: 

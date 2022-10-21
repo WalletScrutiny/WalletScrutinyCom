@@ -3,12 +3,12 @@ wsId:
 title: P2P Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: org.p2p.wallet
 appCountry: 
 released: Oct 23, 2021
-updated: 2022-06-22
-version: 1.7.0
+updated: 2022-10-13
+version: 1.13.0
 stars: 
 ratings: 
 reviews: 

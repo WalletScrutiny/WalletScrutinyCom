@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kointo - Wallet Bitcoin, Ethereum, ECCU
+title: Kointo - Wallet Bitcoin, Ether
 altTitle: 
 authors: 
 users: 50

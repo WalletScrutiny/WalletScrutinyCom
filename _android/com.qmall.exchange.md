@@ -7,11 +7,12 @@ users: 10000
 appId: com.qmall.exchange
 appCountry: 
 released: Dec 14, 2021
-updated: 2022-07-18
-version: 1.1.22
+updated: 2022-10-19
+version: 1.1.27
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://qmall.io/
 repository: 
 issue: 

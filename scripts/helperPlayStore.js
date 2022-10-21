@@ -20,7 +20,7 @@ const headers = ('wsId title altTitle authors users appId appCountry released ' 
                 'issue icon bugbounty meta verdict date signer reviewArchive ' +
                 'twitter social redirect_from').split(' ')
 
-async function refreshAll () {
+async function refreshAll (skip) {
   fs.readdir(folder, async (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
@@ -43,6 +43,9 @@ async function refreshAll () {
         return (hashes[a]).localeCompare(hashes[b])
       })
       .filter((v, i) => { return i % fraction === mod })
+    if (skip) {
+      files = files.slice(skip)
+    }
     console.log(`Updating ${files.length} 🤖 files ...`)
     stats.remaining = files.length
     files.forEach(file => { refreshFile(file) })

@@ -12,6 +12,7 @@ version: 0.17.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://rigel.finance/
 repository: 
 issue: 

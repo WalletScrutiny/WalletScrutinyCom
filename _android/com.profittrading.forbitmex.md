@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading for BitMEX - Trade much faster
+title: ProfitTradingApp for BitMEX
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.profittrading.forbitmex
 appCountry: 
 released: 2019-06-11
-updated: 2022-06-07
-version: 6.0.4
+updated: 2022-08-11
+version: 6.0.6
 stars: 4.3
 ratings: 348
 reviews: 7

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Coin Check - Free Price & Arbitrage Tracker
+title: Crypto Coin Check - Free Price
 altTitle: 
 authors: 
 users: 10000

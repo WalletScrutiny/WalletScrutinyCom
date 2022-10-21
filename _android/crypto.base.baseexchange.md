@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TechPay Exchange - Cryptocurrency Trading App
+title: TechPay Exchange - Cryptocurre
 altTitle: 
 authors:
 - danny

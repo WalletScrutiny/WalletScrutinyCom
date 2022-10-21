@@ -12,6 +12,7 @@ version: 1.0.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.kmintprotocol.io/
 repository: 
 issue: 
