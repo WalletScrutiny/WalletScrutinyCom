@@ -13,7 +13,7 @@ version: 2.2.0
 stars: 
 ratings: 
 reviews: 
-size: 33M
+size: 
 website: https://www.nakitcoins.com
 repository: 
 issue: 

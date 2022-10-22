@@ -12,7 +12,7 @@ version: 1.2.3
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://www.crossexchange.io/cross/home
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'DeviantX Wallet : Bitcoin Ethereum Altcoins Tokens'
+title: 'DeviantX Wallet : Bitcoin Ethe'
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: '2.6'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://deviantcoin.io
 repository: 
 issue: 

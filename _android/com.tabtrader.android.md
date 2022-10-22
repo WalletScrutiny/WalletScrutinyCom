@@ -1,6 +1,6 @@
 ---
 wsId: tabtrader
-title: TabTrader Buy Bitcoin and Ethereum on exchanges
+title: TabTrader Buy & Trade Bitcoin
 altTitle: 
 authors:
 - leo
@@ -10,12 +10,12 @@ users: 1000000
 appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
-updated: 2022-02-15
-version: 5.0.9
-stars: 4.6
+updated: 2022-06-06
+version: 5.1.4
+stars: 4.5
 ratings: 57218
-reviews: 1090
-size: 14M
+reviews: 1096
+size: 
 website: http://www.tab-trader.com
 repository: 
 issue: 

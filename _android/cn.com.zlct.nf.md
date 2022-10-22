@@ -13,15 +13,15 @@ version: 2.1.3
 stars: 
 ratings: 
 reviews: 
-size: 6.6M
+size: 
 website: https://nf35.com/#/
 repository: 
 issue: 
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-30
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

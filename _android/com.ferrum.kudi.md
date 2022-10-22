@@ -12,15 +12,15 @@ version: 3.0.6
 stars: 4.2
 ratings: 139
 reviews: 8
-size: 51M
+size: 
 website: https://firstkudi.com
 repository: 
 issue: 
 icon: com.ferrum.kudi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-14
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

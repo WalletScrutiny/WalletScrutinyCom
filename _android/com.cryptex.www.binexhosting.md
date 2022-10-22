@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 4.6M
+size: 
 website: http://binexhosting.com
 repository: 
 issue: 

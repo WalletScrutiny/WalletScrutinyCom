@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: BITBLINX - Bitcoin Exchange & Crypto Trading
+title: 'BITBLINX - Bitcoin Exchange & '
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bitblinx.exchange
 appCountry: 
 released: 2019-11-16
@@ -12,7 +12,7 @@ version: '1.8'
 stars: 3.4
 ratings: 220
 reviews: 5
-size: 4.1M
+size: 
 website: https://bitblinx.com
 repository: 
 issue: 

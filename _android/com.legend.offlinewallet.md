@@ -12,7 +12,7 @@ version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 40M
+size: 
 website: https://hyperpay.tech
 repository: 
 issue: 

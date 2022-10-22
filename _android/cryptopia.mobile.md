@@ -12,7 +12,7 @@ version: 1.0.2
 stars: 1.9
 ratings: 30
 reviews: 3
-size: 4.0M
+size: 
 website: http://smilestory.io
 repository: 
 issue: 

@@ -4,16 +4,16 @@ title: Trading app by Capital.com
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.capital.trading
 appCountry: 
 released: 2017-10-18
-updated: 2022-05-14
-version: 1.44.1
-stars: 4.6
+updated: 2022-07-01
+version: 1.45.5
+stars: 4.7
 ratings: 29536
-reviews: 13
-size: 31M
+reviews: 16
+size: 
 website: https://capital.com
 repository: https://capital.com/
 issue: 

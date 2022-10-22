@@ -3,7 +3,7 @@ wsId:
 title: Treen Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.app.treenwallet
 appCountry: 
 released: 2021-07-01
@@ -12,14 +12,14 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://treenwallet.com
 repository: 
 issue: 
 icon: com.app.treenwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

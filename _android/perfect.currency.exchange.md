@@ -3,7 +3,7 @@ wsId:
 title: Perfect E-currency Exchange
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: perfect.currency.exchange
 appCountry: 
 released: 2019-07-22
@@ -12,7 +12,7 @@ version: v8.0
 stars: 
 ratings: 
 reviews: 
-size: 6.7M
+size: 
 website: 
 repository: 
 issue: 

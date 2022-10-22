@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: Huobi：Buy Bitcoin, Luna&GMT
+title: 'Huobi: Trade Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 5000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2022-04-19
-version: 6.9.1
-stars: 4.9
+updated: 2022-10-14
+version: 7.2.3
+stars: 4.6
 ratings: 31840
-reviews: 486
-size: 154M
+reviews: 596
+size: 
 website: http://www.hbg.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Moneybrain
-title: Moneybrain P2P Digital Banking
+title: Moneybrain Financial SuperApp
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.moneybrain.moneybrain
 appCountry: gb
 idd: 1476827262
 released: 2019-10-15
-updated: 2022-03-30
-version: 2.1.0
+updated: 2022-06-30
+version: 2.2.6
 stars: 4.9
 reviews: 7
-size: '29700096'
+size: '29847552'
 website: https://bips.moneybrain.com
 repository: 
 issue: 

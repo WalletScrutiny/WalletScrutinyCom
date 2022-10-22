@@ -5,8 +5,8 @@ authors:
 - leo
 released: 2014-07-29
 discontinued: 
-updated: 2022-01-17
-version: 1.10.5
+updated: 2022-05-18
+version: 1.11.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
 - 60
@@ -23,9 +23,9 @@ repository: https://github.com/trezor/trezor-firmware
 issue: https://github.com/trezor/trezor-firmware/issues/1713
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-04-18
+date: 2022-08-07
 signer: 
 reviewArchive:
 - date: 2022-01-10

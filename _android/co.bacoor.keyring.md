@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: KEYRING PRO Multichain Wallet
+title: 'KEYRING PRO: Defi, Web3 & More'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2022-04-29
-version: 1.9.0
-stars: 4.6
+updated: 2022-05-27
+version: 2.0.0
+stars: 4.7
 ratings: 
 reviews: 1
-size: 52M
+size: 
 website: https://keyring.app
 repository: 
 issue: 

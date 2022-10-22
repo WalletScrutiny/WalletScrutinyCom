@@ -12,7 +12,7 @@ version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 6.0M
+size: 
 website: https://www.velcomex.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.6.9
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://www.stratum.hk/
 repository: 
 issue: 

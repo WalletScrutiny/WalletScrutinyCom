@@ -13,15 +13,15 @@ version: '1.1'
 stars: 2
 ratings: 
 reviews: 3
-size: 9.2M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-19
+date: 2022-05-21
 signer: 
 reviewArchive: 
 twitter: 

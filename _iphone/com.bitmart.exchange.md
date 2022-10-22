@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: 'BitMart: Trade BTC, ETH, SHIB'
+title: 'BitMart: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2022-05-14
-version: 2.10.1
+updated: 2022-06-26
+version: 2.10.9
 stars: 3
-reviews: 3057
-size: '117856256'
+reviews: 3067
+size: '114083840'
 website: https://www.bitmart.com/
 repository: 
 issue: 

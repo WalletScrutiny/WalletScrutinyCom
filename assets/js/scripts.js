@@ -141,7 +141,7 @@ function updateModularPayload() {
   var appIds = []
   var presort = []
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
-  const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
+  const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
         (verdict === "all" || String(obj.verdict) === verdict) &&
@@ -212,7 +212,7 @@ function getBadge(wallet) {
           <div class="flex-r">
             <div class="app_logo">
                 <img loading="lazy" src="${wallet.icon
-                  ? `/images/wallet_icons/${wallet.folder}/small/${wallet.icon}`
+                  ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
                   : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>

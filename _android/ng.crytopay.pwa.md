@@ -12,7 +12,7 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.1M
+size: 
 website: https://cryptopay.ng/
 repository: 
 issue: 

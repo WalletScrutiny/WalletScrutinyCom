@@ -3,16 +3,16 @@ wsId:
 title: pt.BTC
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: net.panteam.pt.BTC
 appCountry: 
 released: 
-updated: 2022-03-13
-version: Varies with device
+updated: 2022-08-19
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://github.com/AdminPanteam/pt.BTC
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BitFin - Buy And Sell Digital Currency
+title: 'BitFin - Buy And Sell Digital '
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://bitfin.io
 repository: 
 issue: 

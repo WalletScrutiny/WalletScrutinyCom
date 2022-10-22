@@ -8,12 +8,12 @@ users: 50000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2022-04-25
-version: Varies with device
+updated: 2022-06-17
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://digitalexchange.id
 repository: 
 issue: 

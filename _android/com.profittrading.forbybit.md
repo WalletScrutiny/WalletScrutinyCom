@@ -4,16 +4,16 @@ title: ProfitTrading for Bybit - Trade much faster
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22
 updated: 2020-07-24
 version: 2.0.0
-stars: 4.3
+stars: 4.2
 ratings: 41
 reviews: 2
-size: 19M
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

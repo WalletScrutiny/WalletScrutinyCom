@@ -12,15 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 5.1M
+size: 
 website: 
 repository: 
 issue: 
 icon: kr.co.coin5.bg.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

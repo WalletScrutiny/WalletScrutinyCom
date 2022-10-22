@@ -12,7 +12,7 @@ version: 2.0.3
 stars: 
 ratings: 
 reviews: 
-size: 10M
+size: 
 website: https://main.fffex.co
 repository: 
 issue: 

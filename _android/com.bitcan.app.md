@@ -1,6 +1,6 @@
 ---
 wsId: BitKan
-title: BitKan-Blockchain Bitcoin Trading Platform
+title: 'BitKan: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.bitcan.app
 appCountry: us
 released: 2017-10-18
-updated: 2021-11-30
-version: 8.0.7.4
+updated: 2022-06-13
+version: 8.5.2.6
 stars: 4.6
 ratings: 92
 reviews: 32
-size: 45M
+size: 
 website: http://www.bitkan.com
 repository: 
 issue: 

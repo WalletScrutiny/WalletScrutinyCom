@@ -8,12 +8,12 @@ users: 100000
 appId: org.artr.wallet
 appCountry: ru
 released: 2020-10-01
-updated: 2022-01-27
+updated: 2022-09-27
 version: '1.8'
-stars: 4.3
+stars: 3.8
 ratings: 2174
-reviews: 982
-size: 45M
+reviews: 1006
+size: 
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 

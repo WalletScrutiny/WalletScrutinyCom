@@ -3,6 +3,14 @@ const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
+var verdicts
+try {
+  const x = require('../_site/allVerdicts.js').verdicts
+  verdicts = Object.keys(x)
+} catch (e) {
+  console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
+  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource'.split(',')
+}
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
@@ -29,9 +37,9 @@ const migration = function (header, body, fileName, category) {
   if (header.icon && header.icon.slice(0, -4) !== header.appId) {
     const newIcon = `${header.appId}${header.icon.slice(-4)}`
     console.error(`# ${header.appId}: unexpected icon ${header.icon}. Action required!
-mv images/wallet_icons/${category}/tiny/{${header.icon},${newIcon}}
-mv images/wallet_icons/${category}/small/{${header.icon},${newIcon}}
-mv images/wallet_icons/${category}/{${header.icon},${newIcon}}`)
+mv images/wIcons/${category}/tiny/{${header.icon},${newIcon}}
+mv images/wIcons/${category}/small/{${header.icon},${newIcon}}
+mv images/wIcons/${category}/{${header.icon},${newIcon}}`)
     header.icon = newIcon
   }
   if (header.dimensions) {
@@ -43,6 +51,9 @@ mv images/wallet_icons/${category}/{${header.icon},${newIcon}}`)
     } catch (e) {
       console.error(`# ${folder}${header.appId}.md: ${e}.`)
     }
+  }
+  if (!verdicts.includes(header.verdict)) {
+    console.error(`# ${folder}${header.appId}.md uses unknown verdict "${header.verdict}".`)
   }
 }; // crucial semicolon!
 

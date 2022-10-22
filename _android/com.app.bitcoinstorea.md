@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 86M
+size: 
 website: https://t91a3kzq.app-adstxt.dev/app-ads.txt
 repository: 
 issue: 

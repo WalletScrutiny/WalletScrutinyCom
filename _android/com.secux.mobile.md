@@ -4,16 +4,16 @@ title: SecuX Mobile
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.secux.mobile
 appCountry: 
 released: 2020-07-03
 updated: 2021-01-15
 version: 1.0.1
-stars: 2.4
+stars: 2.5
 ratings: 56
-reviews: 22
-size: 1.4M
+reviews: 23
+size: 
 website: https://www.secuxtech.com
 repository: 
 issue: 

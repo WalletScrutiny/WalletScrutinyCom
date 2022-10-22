@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-17
+date: 2022-05-30
 signer: 
 reviewArchive: 
 twitter: payizamoney

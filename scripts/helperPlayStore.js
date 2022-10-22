@@ -20,7 +20,7 @@ const headers = ('wsId title altTitle authors users appId appCountry released ' 
                 'issue icon bugbounty meta verdict date signer reviewArchive ' +
                 'twitter social redirect_from').split(' ')
 
-async function refreshAll () {
+async function refreshAll (skip) {
   fs.readdir(folder, async (err, files) => {
     if (err) {
       console.error(`Could not list the directory ${folder}.`, err)
@@ -43,6 +43,9 @@ async function refreshAll () {
         return (hashes[a]).localeCompare(hashes[b])
       })
       .filter((v, i) => { return i % fraction === mod })
+    if (skip) {
+      files = files.slice(skip)
+    }
     console.log(`Updating ${files.length} 🤖 files ...`)
     stats.remaining = files.length
     files.forEach(file => { refreshFile(file) })
@@ -68,7 +71,7 @@ function refreshFile (fileName, content) {
           country: appCountry,
           throttle: 20
         }).then(app => {
-          const iconPath = `images/wallet_icons/android/${appId}`
+          const iconPath = `images/wIcons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             header.icon = `${appId}.${iconExtension}`
             updateFromApp(header, app)
@@ -97,6 +100,8 @@ function refreshFile (fileName, content) {
       stats.remaining--
       release()
     }
+  }).catch(err => {
+    console.error(`Does this ever get triggered 3? ${err}`)
   })
 }
 
@@ -129,23 +134,28 @@ function updateFromApp (header, app) {
   helper.updateMeta(header)
 }
 
-function add (newAppIds) {
-  console.log(`Adding skeletons for ${newAppIds.length} apps ...`)
+function add (appIds) {
+  console.log(`Adding ${appIds.length} apps ...`)
 
-  newAppIds.forEach(appId => {
+  appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    fs.promises.stat(path)
-      .catch(err => {
-        if (err.code === 'ENOENT') {
-          const header = helper.getEmptyHeader(headers)
-          header.appId = appId
-          header.verdict = 'wip'
-          refreshFile(`${appId}.md`, { header: header, body: '' })
-        }
-      })
-      .then(() => {
-        refreshFile(`${appId}.md`)
-      })
+    if (!fs.existsSync(path)) {
+      const header = helper.getEmptyHeader(headers)
+      header.appId = appId
+      header.verdict = 'wip'
+      refreshFile(`${appId}.md`, { header: header, body: '' })
+    }
+  })
+}
+
+function update (appIds) {
+  console.log(`Updating ${appIds.length} apps ...`)
+
+  appIds.forEach(appId => {
+    const path = `_android/${appId}.md`
+    if (fs.existsSync(path)) {
+      refreshFile(`${appId}.md`)
+    }
   })
 }
 
@@ -155,5 +165,6 @@ module.exports = {
   refreshAll,
   refreshFile,
   stats,
-  add
+  add,
+  update
 }

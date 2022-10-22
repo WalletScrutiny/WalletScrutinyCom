@@ -13,7 +13,7 @@ version: 2.1.1
 stars: 3.9
 ratings: 5765
 reviews: 12
-size: 3.6M
+size: 
 website: https://www.bitay.com
 repository: 
 issue: 

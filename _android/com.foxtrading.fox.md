@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Fox Global - Automated Crypto and Forex Trading
+title: 'Fox Global - Automated Crypto '
 altTitle: 
 authors: 
 users: 5000
@@ -12,7 +12,7 @@ version: 0.7.11
 stars: 3.3
 ratings: 38
 reviews: 6
-size: 24M
+size: 
 website: https://foxtrading.io
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.coinberry.coinberry
 appCountry: ca
 idd: 1370601820
 released: 2018-06-09
-updated: 2022-05-09
-version: '131.00'
+updated: 2022-05-19
+version: '132.01'
 stars: 4.5
-reviews: 5664
-size: '51102720'
+reviews: 5693
+size: '50808832'
 website: https://coinberry.com
 repository: 
 issue: 

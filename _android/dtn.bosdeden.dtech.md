@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: http://bisnis188.tech/
 repository: 
 issue: 

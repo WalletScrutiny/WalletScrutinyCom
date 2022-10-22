@@ -1,6 +1,6 @@
 ---
 wsId: FondexcTrader
-title: Fondex cTrader - mobile investing platform
+title: Fondex cTrader
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: 4.4.54320
 stars: 
 ratings: 
 reviews: 
-size: 57M
+size: 
 website: http://www.fondex.com
 repository: 
 issue: 

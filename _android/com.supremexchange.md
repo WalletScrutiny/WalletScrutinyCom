@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Supreme CrypX | Bitcoin Exchange | Crypto Wallet
+title: Supreme CrypX | Bitcoin Exchan
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: '2.1'
 stars: 
 ratings: 
 reviews: 
-size: 31M
+size: 
 website: https://www.supremecrypx.com
 repository: 
 issue: 

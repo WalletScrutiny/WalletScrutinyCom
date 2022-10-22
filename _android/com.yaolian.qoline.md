@@ -4,16 +4,16 @@ title: SalletOne Live
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14
-updated: 2022-05-12
-version: 1.9.9
+updated: 2022-08-11
+version: 1.9.14
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: https://www.salletone.com
 repository: 
 issue: 

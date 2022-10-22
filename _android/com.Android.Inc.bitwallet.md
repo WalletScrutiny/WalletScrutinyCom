@@ -4,16 +4,16 @@ title: BitWallet - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.Android.Inc.bitwallet
 appCountry: 
 released: 2019-07-22
-updated: 2022-03-01
-version: 1.4.22
+updated: 2022-09-29
+version: 1.4.28
 stars: 4.8
 ratings: 1214
-reviews: 247
-size: 26M
+reviews: 400
+size: 
 website: https://www.bitwallet.org
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fiber.fiberwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-04-23
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-04**: This app is not available anymore.
 

@@ -8,11 +8,11 @@ appId: com.bitmama.bitmama.ios
 appCountry: us
 idd: 1561857024
 released: 2021-06-30
-updated: 2022-04-29
-version: 1.0.38
-stars: 3
-reviews: 2
-size: '75701248'
+updated: 2022-10-04
+version: 1.0.55
+stars: 3.6
+reviews: 11
+size: '76518400'
 website: https://www.bitmama.io/
 repository: 
 issue: 

@@ -12,15 +12,15 @@ version: '4'
 stars: 
 ratings: 
 reviews: 
-size: 1.9M
+size: 
 website: https://spacelink.exchange
 repository: 
 issue: 
 icon: com.spacelink.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

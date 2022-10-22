@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: https://wundertrading.com/en
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.plunien.app.Poloniex
 appCountry: 
 idd: 1234141021
 released: 2017-05-14
-updated: 2022-04-16
-version: 1.29.1
+updated: 2022-10-14
+version: 1.34.1
 stars: 4.6
-reviews: 2036
-size: '74413056'
+reviews: 2039
+size: '113737728'
 website: https://www.poloniex.com
 repository: 
 issue: 

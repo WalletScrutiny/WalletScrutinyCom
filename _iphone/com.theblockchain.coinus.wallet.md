@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.theblockchain.coinus.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-09-17
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: CoinUs_Official
@@ -29,4 +29,6 @@ social:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-04-17**: This app is not available anymore.
+
+{% include copyFromAndroid.html %}

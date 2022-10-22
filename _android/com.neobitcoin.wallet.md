@@ -12,15 +12,15 @@ version: 1.0.0
 stars: 1.1
 ratings: 131
 reviews: 8
-size: 48M
+size: 
 website: https://neobitcoin.org/
 repository: 
 issue: 
 icon: com.neobitcoin.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

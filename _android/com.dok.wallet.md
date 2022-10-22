@@ -13,15 +13,15 @@ version: 1.1.6
 stars: 5
 ratings: 35
 reviews: 9
-size: 64M
+size: 
 website: https://dokwallet.com/
 repository: 
 issue: 
 icon: com.dok.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

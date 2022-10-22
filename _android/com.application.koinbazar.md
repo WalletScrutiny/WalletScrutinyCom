@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: 'Koinbazar: Bitcoin & Cryptocurrency Exchange App'
+title: 'Koinbazar: Crypto Exchange App'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
-updated: 2022-04-28
-version: '1.27'
-stars: 4
+updated: 2022-06-25
+version: '1.32'
+stars: 3.9
 ratings: 7090
-reviews: 2428
-size: 21M
+reviews: 2498
+size: 
 website: https://www.koinbazar.com/
 repository: 
 issue: 

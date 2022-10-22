@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallets: Coinmama, Crypto.com Wallets'
+title: 'Crypto Wallets: BTC, USDT, ETH'
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
@@ -13,7 +13,7 @@ version: 1.3.7
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
+size: 
 website: https://starlabstudio.xyz/
 repository: 
 issue: 

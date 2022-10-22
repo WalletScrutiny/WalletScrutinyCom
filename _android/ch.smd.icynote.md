@@ -13,15 +13,15 @@ version: '0.7'
 stars: 
 ratings: 
 reviews: 
-size: 61M
+size: 
 website: https://icynote.ch
 repository: 
 issue: 
 icon: ch.smd.icynote.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-02-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coins Wallet for bitcoin and litecoin
+title: Coins Wallet for bitcoin and l
 altTitle: 
 authors:
 - leo
@@ -12,8 +12,8 @@ updated: 2022-03-09
 version: '1.12'
 stars: 4.1
 ratings: 635
-reviews: 47
-size: 6.4M
+reviews: 51
+size: 
 website: http://firstdaotrust.com
 repository: 
 issue: 

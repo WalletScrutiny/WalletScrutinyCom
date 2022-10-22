@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: BoloWallet - Crypto Wallet That Does EVERYTHING
+title: BoloWallet - Crypto Wallet Tha
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bolowallet
 appCountry: 
 released: 
 updated: 2019-12-12
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: 
 repository: 
 issue: 

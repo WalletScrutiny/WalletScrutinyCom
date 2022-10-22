@@ -12,7 +12,7 @@ version: 3.6.5
 stars: 3.9
 ratings: 81
 reviews: 3
-size: 25M
+size: 
 website: https://www.beeex.com
 repository: 
 issue: 

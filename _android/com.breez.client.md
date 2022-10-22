@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Breez: Lightning Network Client & Point-of-Sale'
+title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:
 - leo
@@ -8,20 +8,20 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2022-04-07
-version: Varies with device
+updated: 2022-07-01
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: ftbfs
-date: 2019-12-28
+date: 2022-09-13
 signer: 
 reviewArchive: 
 twitter: breez_tech

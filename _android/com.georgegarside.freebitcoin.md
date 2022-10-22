@@ -12,16 +12,16 @@ updated: 2021-05-25
 version: 3.1.1
 stars: 2.8
 ratings: 129
-reviews: 8
-size: 4.9M
+reviews: 9
+size: 
 website: https://georgegarside.com
 repository: 
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-19
+date: 2022-05-21
 signer: 
 reviewArchive: 
 twitter: grgarside

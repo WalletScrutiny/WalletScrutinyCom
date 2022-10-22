@@ -13,15 +13,15 @@ version: 0.25.0
 stars: 4.4
 ratings: 42
 reviews: 27
-size: 32M
+size: 
 website: https://figcoin.online
 repository: 
 issue: 
 icon: online.figcoin.figvault.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-15
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'EO.Finance: Buy and Sell Bitcoin. Crypto Wallet'
+title: 'EO.Finance: Buy and Sell Bitco'
 altTitle: 
 authors: 
 users: 100000
@@ -9,10 +9,10 @@ appCountry:
 released: 2018-08-14
 updated: 2020-04-30
 version: 2.0.1
-stars: 4.5
+stars: 4.2
 ratings: 1529
-reviews: 11
-size: 35M
+reviews: 13
+size: 
 website: https://eo.finance
 repository: 
 issue: 

@@ -9,11 +9,11 @@ appId: com.greenaddress.abcore
 appCountry: 
 released: 
 updated: 2019-10-16
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 

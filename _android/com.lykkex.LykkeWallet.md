@@ -13,7 +13,7 @@ version: 12.8.1
 stars: 3.9
 ratings: 581
 reviews: 18
-size: 18M
+size: 
 website: https://lykke.com
 repository: 
 issue: 

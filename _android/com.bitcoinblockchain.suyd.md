@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitcoin Blockchain: Crypto Wallet'
+title: 'Bitcoin Blockchain: Crypto Wal'
 altTitle: 
 authors: 
 users: 500
@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 9.5M
+size: 
 website: 
 repository: 
 issue: 

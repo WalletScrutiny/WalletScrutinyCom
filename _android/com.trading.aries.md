@@ -13,7 +13,7 @@ version: 2.2.3
 stars: 
 ratings: 
 reviews: 
-size: 8.9M
+size: 
 website: https://tradearies.com
 repository: 
 issue: 

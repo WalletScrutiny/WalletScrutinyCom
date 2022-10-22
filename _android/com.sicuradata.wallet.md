@@ -1,0 +1,31 @@
+---
+wsId: 
+title: SicuraPay
+altTitle: 
+authors: 
+users: 5000
+appId: com.sicuradata.wallet
+appCountry: 
+released: Sep 15, 2020
+updated: 2020-11-07
+version: 0.31.0
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://sicuradata.com/
+repository: 
+issue: 
+icon: com.sicuradata.wallet.png
+bugbounty: 
+meta: stale
+verdict: wip
+date: 2022-06-23
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Buy Bitcoin & Other Cryptocurrencies
+title: Buy Bitcoin & Other Cryptocurr
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 4.3M
+size: 
 website: http://www.tradersinc.mobi
 repository: 
 issue: 

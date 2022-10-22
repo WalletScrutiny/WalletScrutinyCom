@@ -4,16 +4,16 @@ title: Defiant
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: ar.com.andinasmart.defiant
 appCountry: ar
 released: 2019-11-19
-updated: 2022-05-11
-version: 3.0.2
+updated: 2022-09-29
+version: 3.5.4
 stars: 4.6
 ratings: 65
-reviews: 30
-size: 30M
+reviews: 36
+size: 
 website: https://defiantapp.tech
 repository: 
 issue: 

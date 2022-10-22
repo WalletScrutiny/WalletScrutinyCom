@@ -12,7 +12,7 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 6.5M
+size: 
 website: https://github.com/unhappychoice/DroidFlyer
 repository: 
 issue: 

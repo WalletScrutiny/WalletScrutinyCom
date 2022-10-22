@@ -13,15 +13,15 @@ version: 2.6.4
 stars: 4.3
 ratings: 43
 reviews: 28
-size: 39M
+size: 
 website: https://wise.win
 repository: 
 issue: 
 icon: com.wise.llc.wallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: AirGapVault
-title: AirGap Vault - Tezos, Cosmos, Ethereum, Bitcoin
+title: AirGap Vault - Secure Secrets
 altTitle: 
 authors:
 - leo
@@ -8,22 +8,32 @@ users: 10000
 appId: it.airgap.vault
 appCountry: 
 released: 2018-08-06
-updated: 2022-05-12
-version: 3.17.2
+updated: 2022-10-14
+version: 3.19.0
 stars: 4.2
 ratings: 110
-reviews: 12
-size: 70M
+reviews: 13
+size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/127
 icon: it.airgap.vault.png
 bugbounty: 
-meta: ok
-verdict: obfuscated
-date: 2022-04-15
+meta: outdated
+verdict: reproducible
+date: 2022-08-07
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-05-25
+  version: 3.17.0
+  appHash: 08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf
+  gitRevision: 6c3fff0dc914b06c3c794c25093bb3015447e874
+  verdict: nonverifiable
+- date: 2022-04-15
+  version: 3.16.0
+  appHash: 5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d
+  gitRevision: f3bd5daeba2510277c9a10c3700686390dd1333a
+  verdict: reproducible
 - date: 2022-03-21
   version: 3.15.1
   appHash: ce55bb42ea14cc6e11dc4a802c9e045029cc15152458a41d9a8fd76b7f6064c4
@@ -164,29 +174,62 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.16.0
-apkVersionCode: 40213
+apkVersionName: 3.17.2
+apkVersionCode: 41719
 verdict:        reproducible
-appHash:        5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d
-commit:         8900bb58fee645f6489b3147e40d45a76003091f
+appHash:        8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0
+commit:         bef8ff57622047e48c060138109490875f8473aa
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_40213/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 8900bb58fee645f6489b3147e40d45a76003091f
+object bef8ff57622047e48c060138109490875f8473aa
 type commit
-tag v3.16.0
-tagger Mike Godenzi  1648642887 +0200
+tag v3.17.2
+tagger Mike Godenzi  1652370558 +0200
 
-version 3.16.0
+version 3.17.2
 ===== End Results =====
 ```
 
 Which is what we want to see to give it the verdict **reproducible**.
 
-As the provider doesn't address
-[this issue](https://github.com/airgap-it/airgap-vault/issues/103)
-we recommend to be cautious when using this app.
+## Older Versions
+
+For the record, we tested an older version after 3.17.2 which fixed a
+reproducibility issue. For completeness, here it is.
+
+```
+===== Begin Results =====
+appId:          it.airgap.vault
+signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+apkVersionName: 3.17.0
+apkVersionCode: 40643
+verdict:        
+appHash:        08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf
+commit:         7df4dccebf60394cd0be4cb490f78807801d19b5
+
+Diff:
+Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: 3.5a9c4e98d51999ad15a4.js
+Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: 3.7b3b1c20ea4da581d9b2.js
+Files /tmp/fromPlay_it.airgap.vault_40643/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_40643/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: main.6fb58d6fabc4e86a32c2.js
+Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: main.ace25affef6405ca9b3c.js
+Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: runtime.08084bd89534cb816de6.js
+Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: runtime.ba9d2467a394032e87bc.js
+Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: PAPERS.SF
+
+Revision, tag (and its signature):
+object 7df4dccebf60394cd0be4cb490f78807801d19b5
+type commit
+tag v3.17.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1650367671 +0200
+
+version 3.17.0
+===== End Results =====
+```

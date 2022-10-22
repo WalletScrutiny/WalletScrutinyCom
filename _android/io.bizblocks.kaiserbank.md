@@ -12,7 +12,7 @@ version: 0.30.16
 stars: 
 ratings: 
 reviews: 
-size: 7.5M
+size: 
 website: https://bizblocks.io
 repository: 
 issue: 

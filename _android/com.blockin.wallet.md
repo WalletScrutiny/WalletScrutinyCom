@@ -8,12 +8,12 @@ users: 10000
 appId: com.blockin.wallet
 appCountry: us
 released: 2020-03-23
-updated: 2022-05-11
-version: 2.4.0
+updated: 2022-06-23
+version: 2.4.4
 stars: 3.8
 ratings: 225
 reviews: 15
-size: 55M
+size: 
 website: https://poolin.fi/
 repository: 
 issue: 

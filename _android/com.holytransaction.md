@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HolyTransaction - Crypto Wallet
+title: HolyTransaction - Crypto Walle
 altTitle: 
 authors: 
 users: 500
@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 7.8M
+size: 
 website: https://holytransaction.com
 repository: 
 issue: 

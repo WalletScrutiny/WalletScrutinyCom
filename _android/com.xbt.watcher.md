@@ -10,18 +10,18 @@ appCountry:
 released: 2020-10-08
 updated: 2021-06-25
 version: '1.1'
-stars: 3.9
+stars: 3.6
 ratings: 48
-reviews: 7
-size: 5.9M
+reviews: 8
+size: 
 website: 
 repository: 
 issue: 
 icon: com.xbt.watcher.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fake
-date: 2021-11-10
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: 'eToro: Crypto. Stocks. Social.'
+title: 'eToro: Investing made social'
 altTitle: 
 authors:
 - leo
@@ -8,16 +8,16 @@ users: 10000000
 appId: com.etoro.openbook
 appCountry: 
 released: 2013-11-05
-updated: 2022-05-04
-version: 422.0.0
-stars: 4.2
+updated: 2022-10-19
+version: 480.0.0
+stars: 4.1
 ratings: 111823
-reviews: 2857
-size: 59M
+reviews: 2987
+size: 
 website: https://www.etoro.com/
 repository: 
 issue: 
-icon: com.etoro.openbook.png
+icon: com.etoro.openbook.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

@@ -12,15 +12,15 @@ version: '2005311702'
 stars: 
 ratings: 
 reviews: 
-size: 83M
+size: 
 website: https://fdao.vn/
 repository: 
 issue: 
 icon: com.fdao.dawallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,15 +13,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://nicechange.net/
 repository: 
 issue: 
 icon: com.xchange.nicechange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-04-11
+date: 2022-05-21
 signer: 
 reviewArchive: 
 twitter: 

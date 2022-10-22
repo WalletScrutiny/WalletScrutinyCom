@@ -8,19 +8,19 @@ appId: com.aic.cluster
 appCountry: 
 released: 
 updated: 2021-05-24
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://clusterwallet.com
 repository: 
 issue: 
 icon: com.aic.cluster.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-05-20
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,12 +8,12 @@ users: 10000000
 appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
-updated: 2022-05-03
-version: '5.37'
-stars: 4.6
+updated: 2022-10-06
+version: '6.53'
+stars: 4.5
 ratings: 841930
-reviews: 10759
-size: 39M
+reviews: 12223
+size: 
 website: https://trustwallet.com/
 repository: 
 issue: 

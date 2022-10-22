@@ -12,15 +12,15 @@ version: 1.2.05
 stars: 
 ratings: 
 reviews: 
-size: 53M
+size: 
 website: http://crocobit.net
 repository: 
 issue: 
 icon: com.edc.crocobit.wallets.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

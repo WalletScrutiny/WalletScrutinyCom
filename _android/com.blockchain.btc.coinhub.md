@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet: NFT Market'
+title: 'Blockchain Wallet: NFT Market'
 altTitle: (Fake) CoinHub - Blockchain Wallet
 authors: 
 users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2022-04-13
-version: 1.2.0.3.3
-stars: 4.6
+updated: 2022-06-25
+version: 1.2.0.4.8
+stars: 4.7
 ratings: 1577
-reviews: 74
-size: 54M
+reviews: 76
+size: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 

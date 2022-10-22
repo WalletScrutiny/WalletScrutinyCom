@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bit7Pay Bitcoin and Other Cryptocurrency Wallet
+title: Bit7Pay Bitcoin and Other Cryp
 altTitle: 
 authors: 
 users: 5000
@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: http://bit7pay.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: cent
-title: Cent - The crypto wallet for DeFi
+title: Cent - The crypto wallet for D
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: 1.0.45
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: http://www.cent.finance
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.feldrise.Atotupe
 appCountry: 
 released: 
 updated: 2018-09-04
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://www.feldrise.com
 repository: 
 issue: 

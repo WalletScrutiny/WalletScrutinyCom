@@ -12,15 +12,15 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 9.4M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.plentahub.breezcoins_android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

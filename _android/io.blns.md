@@ -3,7 +3,7 @@ wsId:
 title: blns
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: io.blns
 appCountry: 
 released: 2021-05-29
@@ -12,7 +12,7 @@ version: 1.7.16
 stars: 
 ratings: 
 reviews: 
-size: 91M
+size: 
 website: https://blns.io
 repository: 
 issue: 

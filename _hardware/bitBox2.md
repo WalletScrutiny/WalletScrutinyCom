@@ -5,8 +5,8 @@ authors:
 - leo
 released: 
 discontinued: 
-updated: 2022-03-10
-version: 9.10.0
+updated: 2022-06-15
+version: 9.12.0
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -23,9 +23,9 @@ repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/901
 icon: bitBox2.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: nonverifiable
-date: 2022-04-22
+date: 2022-08-07
 signer: 
 reviewArchive:
 - date: 2022-02-17

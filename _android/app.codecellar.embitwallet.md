@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: Embit - Bitcoin blockchain wallet & data insertion
+title: 'Embit: Bitcoin Wallet, Testnet'
 altTitle: 
 authors: 
 users: 100
 appId: app.codecellar.embitwallet
 appCountry: 
 released: 2019-12-01
-updated: 2022-03-18
-version: '4.78'
+updated: 2022-10-10
+version: '5.02'
 stars: 
 ratings: 
 reviews: 
-size: 8.3M
+size: 
 website: 
 repository: 
 issue: 

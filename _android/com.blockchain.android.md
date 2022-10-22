@@ -40,7 +40,7 @@ the app id looks better than the "original":
 
 <table>
 <tr><td>Name:</td><td>Blockchain Wallet: Buy and Sell Bitcoin & Crypto</td><td>Blockchain</td></tr>
-<tr><td>Logo:</td><td><img src="/images/wallet_icons/android/small/piuk.blockchain.android.png"></td><td><img src="/images/wallet_icons/android/small/com.blockchain.android.png"></td></tr>
+<tr><td>Logo:</td><td><img src="/images/wIcons/android/small/piuk.blockchain.android.png"></td><td><img src="/images/wIcons/android/small/com.blockchain.android.png"></td></tr>
 <tr><td>Launched:</td><td>2013-02-01</td><td>2020-06-15</td></tr>
 <tr><td>App ID:</td><td>piuk.blockchain.android</td><td>com.blockchain.android</td></tr>
 <tr><td>Website:</td><td>blockchain.com</td><td>none (Google? Since when is that possible?)</td></tr>

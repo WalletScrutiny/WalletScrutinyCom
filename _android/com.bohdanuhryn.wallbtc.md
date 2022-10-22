@@ -12,7 +12,7 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 2.1M
+size: 
 website: http://wallbtc.com
 repository: 
 issue: 

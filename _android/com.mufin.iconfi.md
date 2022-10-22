@@ -13,7 +13,7 @@ version: 1.0.7
 stars: 4.6
 ratings: 220
 reviews: 19
-size: 11M
+size: 
 website: https://www.icon-fi.com
 repository: 
 issue: 

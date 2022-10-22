@@ -1,6 +1,6 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: 'Uphold: Buy BTC, ETH, XRP'
+title: 'Uphold: Buy Bitcoin, ETH & XRP'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.uphold.wallet.ios
 appCountry: 
 idd: 1101145849
 released: 2016-04-19
-updated: 2022-05-07
-version: 4.44.1
-stars: 3.4
-reviews: 5611
-size: '78622720'
+updated: 2022-10-19
+version: 4.65.0
+stars: 4.2
+reviews: 13979
+size: '97071104'
 website: https://uphold.com
 repository: 
 issue: 

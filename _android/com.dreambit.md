@@ -13,7 +13,7 @@ version: 1.0.0.50
 stars: 3.8
 ratings: 21
 reviews: 8
-size: 59M
+size: 
 website: http://www.dreambit.com
 repository: 
 issue: 

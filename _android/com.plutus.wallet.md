@@ -8,12 +8,12 @@ users: 1000000
 appId: com.plutus.wallet
 appCountry: 
 released: 2015-03-04
-updated: 2022-04-27
-version: '121.0'
+updated: 2022-06-17
+version: '124.0'
 stars: 4
 ratings: 44411
-reviews: 2722
-size: 61M
+reviews: 2808
+size: 
 website: https://www.abra.com/
 repository: 
 issue: 

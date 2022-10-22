@@ -10,10 +10,10 @@ appCountry:
 released: 2018-04-25
 updated: 2021-03-06
 version: 2.0.32
-stars: 3.7
+stars: 3.6
 ratings: 221
 reviews: 10
-size: 23M
+size: 
 website: https://www.bitfia.io
 repository: 
 issue: 

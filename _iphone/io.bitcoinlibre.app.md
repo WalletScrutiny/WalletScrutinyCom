@@ -10,8 +10,8 @@ idd: 1590680702
 released: 2021-10-27
 updated: 2022-05-11
 version: 2.1.8
-stars: 4.6
-reviews: 257
+stars: 4.5
+reviews: 284
 size: '33408000'
 website: http://bitcoinlibre.io/
 repository: 

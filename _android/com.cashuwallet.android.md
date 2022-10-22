@@ -8,11 +8,11 @@ appId: com.cashuwallet.android
 appCountry: 
 released: 
 updated: 2021-03-07
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://cashu.cc/
 repository: 
 issue: 

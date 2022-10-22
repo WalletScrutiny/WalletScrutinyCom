@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: COBINHOOD - Zero Fees Bitcoin Exchange & Wallet
+title: 'COBINHOOD - Zero Fees Bitcoin '
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ version: 3.50.1
 stars: 2.9
 ratings: 648
 reviews: 117
-size: 7.7M
+size: 
 website: https://cobinhood.com
 repository: 
 issue: 

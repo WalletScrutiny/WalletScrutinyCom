@@ -8,12 +8,12 @@ users: 1000
 appId: com.beecrypt.beecrypthd
 appCountry: us
 released: 2020-05-27
-updated: 2022-05-12
-version: '4.4'
+updated: 2022-06-01
+version: '4.5'
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://moneypipe.com/hd-wallet/
 repository: 
 issue: 

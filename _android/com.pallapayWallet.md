@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pallapayWallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-04-11
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: pallapay_com
@@ -33,6 +33,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-05-01**: This app is not available anymore.
 
 **⚠️ Note:** There is a striking resemblance to the Pallapay logo on the Google Play Store and the {% include walletLink.html wallet='android/com.paypal.android.p2pmobile.md' verdict='true' %}. We also noticed that the in-app logo is different from the Play Store logo. While not outright a fake, it raises a flag about their indifference (or laziness) when it comes to their corporate branding.
 

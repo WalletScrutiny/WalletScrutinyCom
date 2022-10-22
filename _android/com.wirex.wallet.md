@@ -4,16 +4,16 @@ title: 'Wirex Wallet: Crypto and DeFi'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2022-05-09
-version: 0.2.12
+updated: 2022-09-12
+version: 0.3.7
 stars: 3.2
 ratings: 1053
-reviews: 8
-size: 35M
+reviews: 13
+size: 
 website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 

@@ -12,15 +12,15 @@ version: '29'
 stars: 2.9
 ratings: 738
 reviews: 14
-size: 21M
+size: 
 website: http://www.hena.io
 repository: 
 issue: 
 icon: com.hena.henawallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-05-26
 signer: 
 reviewArchive: 
 twitter: 

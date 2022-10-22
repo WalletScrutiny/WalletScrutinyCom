@@ -12,7 +12,7 @@ version: '9.02'
 stars: 
 ratings: 
 reviews: 
-size: 3.8M
+size: 
 website: 
 repository: 
 issue: 

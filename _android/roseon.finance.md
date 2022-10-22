@@ -1,19 +1,19 @@
 ---
 wsId: roseon
-title: Roseon WonderApp
+title: 'Roseon: Play & Earn'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: roseon.finance
 appCountry: vn
 released: 2021-03-16
-updated: 2022-04-29
-version: 2.3.30
-stars: 4.8
+updated: 2022-10-17
+version: 2.3.40
+stars: 4.6
 ratings: 578
-reviews: 34
-size: 92M
+reviews: 53
+size: 
 website: http://roseon.world
 repository: 
 issue: 

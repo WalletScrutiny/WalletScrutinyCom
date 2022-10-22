@@ -12,15 +12,15 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.crex.trade.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

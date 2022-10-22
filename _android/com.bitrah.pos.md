@@ -3,7 +3,7 @@ wsId:
 title: Bitrah
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitrah.pos
 appCountry: 
 released: 2020-07-21
@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: https://bitrah.com/
 repository: 
 issue: 

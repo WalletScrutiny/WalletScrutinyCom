@@ -8,12 +8,12 @@ users: 5000000
 appId: com.blockfolio.blockfolio
 appCountry: us
 released: 2015-10-01
-updated: 2022-05-01
-version: 4.3.8
-stars: 4.1
+updated: 2022-06-02
+version: 4.10.1
+stars: 4
 ratings: 164833
-reviews: 11319
-size: 64M
+reviews: 11619
+size: 
 website: https://www.blockfolio.com
 repository: 
 issue: 

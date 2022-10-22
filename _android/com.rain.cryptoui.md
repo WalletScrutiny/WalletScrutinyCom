@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Wallet UI - Flutter App | Android – iOS
+title: Crypto Wallet UI - Flutter App
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: https://www.raininfotech.in
 repository: 
 issue: 

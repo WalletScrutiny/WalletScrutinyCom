@@ -12,15 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: https://plusbit.tech/
 repository: 
 issue: 
 icon: com.plusbit.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

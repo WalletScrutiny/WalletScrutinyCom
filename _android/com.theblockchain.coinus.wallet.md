@@ -13,7 +13,7 @@ version: 3.0.0
 stars: 3.9
 ratings: 379
 reviews: 232
-size: 39M
+size: 
 website: https://coinus.io/
 repository: 
 issue: 

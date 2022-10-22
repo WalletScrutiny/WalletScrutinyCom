@@ -13,7 +13,7 @@ version: 4.2.4
 stars: 
 ratings: 
 reviews: 
-size: 21M
+size: 
 website: https://jackbot.app
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Sigma Wallet - Crypto Wallet
+title: Sigma Wallet
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: io.cryptosigma.finance
 appCountry: 
 released: 2021-07-26
-updated: 2021-10-02
-version: 1.0.3
+updated: 2022-06-30
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 46M
+size: 
 website: 
 repository: 
 issue: 

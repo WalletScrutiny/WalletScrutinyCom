@@ -4,7 +4,7 @@ title: Itez
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.itez
 appCountry: 
 released: 2020-03-26
@@ -13,7 +13,7 @@ version: 0.8.2
 stars: 
 ratings: 
 reviews: 
-size: 9.1M
+size: 
 website: https://itez.com/
 repository: 
 issue: 

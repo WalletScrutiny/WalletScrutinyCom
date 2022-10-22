@@ -13,7 +13,7 @@ version: 5.8.7
 stars: 4.1
 ratings: 410
 reviews: 55
-size: 1.2M
+size: 
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 33M
+size: 
 website: https://www.bitcoinsuisse.com/
 repository: 
 issue: 

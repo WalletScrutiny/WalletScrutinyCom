@@ -12,15 +12,15 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: 
 website: https://infireum.com
 repository: 
 issue: 
 icon: com.infinitepay.infireum.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-27
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

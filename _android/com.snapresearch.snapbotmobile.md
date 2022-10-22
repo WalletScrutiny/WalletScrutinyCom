@@ -12,7 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 49M
+size: 
 website: https://app.snapbots.io/
 repository: 
 issue: 

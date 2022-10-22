@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'HIVE : Crypto Forecast AI - Trading Bot - Bitcoin'
+title: 'HIVE : Crypto Forecast AI - Tr'
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.9.0
 stars: 
 ratings: 
 reviews: 
-size: 7.5M
+size: 
 website: https://mtx.digital/
 repository: 
 issue: 

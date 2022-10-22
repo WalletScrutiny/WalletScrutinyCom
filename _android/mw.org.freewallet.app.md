@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BTC, ETH, SHIB, Altcoin Wallet
+title: 'Multi Crypto Wallet: BTC & ETH'
 altTitle: 
 authors:
 - leo
@@ -10,10 +10,10 @@ appCountry:
 released: 2017-08-10
 updated: 2021-09-16
 version: 1.16.5
-stars: 4.5
+stars: 4.9
 ratings: 14323
-reviews: 1350
-size: 13M
+reviews: 1506
+size: 
 website: https://freewallet.org/
 repository: 
 issue: 

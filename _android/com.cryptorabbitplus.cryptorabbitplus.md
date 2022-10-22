@@ -12,15 +12,15 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 7.0M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.cryptorabbitplus.cryptorabbitplus.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-21
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.exchangily.app
 appCountry: 
 idd: 1503068552
 released: 2020-03-23
-updated: 2022-04-25
-version: 2.1.50
+updated: 2022-06-11
+version: 2.1.58
 stars: 4.4
-reviews: 8
-size: '97935360'
+reviews: 9
+size: '94381056'
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1

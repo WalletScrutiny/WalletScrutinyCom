@@ -13,7 +13,7 @@ version: '4.6'
 stars: 4.2
 ratings: 931
 reviews: 33
-size: 4.6M
+size: 
 website: 
 repository: 
 issue: 

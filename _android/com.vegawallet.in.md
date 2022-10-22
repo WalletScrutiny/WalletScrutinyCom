@@ -13,15 +13,15 @@ version: 3.2.3
 stars: 3.8
 ratings: 23
 reviews: 5
-size: 41M
+size: 
 website: http://www.VegaWallet.com
 repository: 
 issue: 
 icon: com.vegawallet.in.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: vegawallet

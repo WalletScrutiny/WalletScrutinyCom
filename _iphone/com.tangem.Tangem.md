@@ -1,6 +1,6 @@
 ---
 wsId: tangem
-title: Tangem
+title: Tangem - Crypto wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2022-05-07
-version: '3.39'
+updated: 2022-10-21
+version: '3.52'
 stars: 4.7
-reviews: 39
-size: '55405568'
+reviews: 48
+size: '119973888'
 website: 
 repository: 
 issue: 

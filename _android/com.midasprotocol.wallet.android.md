@@ -13,7 +13,7 @@ version: 2.0.8.1
 stars: 4.3
 ratings: 450
 reviews: 25
-size: 43M
+size: 
 website: https://midasprotocol.io
 repository: 
 issue: 

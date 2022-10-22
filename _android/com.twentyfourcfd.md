@@ -12,7 +12,7 @@ version: 1.0.14
 stars: 
 ratings: 
 reviews: 
-size: 1.8M
+size: 
 website: https://www.24cfd.com
 repository: 
 issue: 

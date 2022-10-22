@@ -12,15 +12,15 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.main.lbwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

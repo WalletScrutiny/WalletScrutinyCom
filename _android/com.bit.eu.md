@@ -7,12 +7,12 @@ users: 1000
 appId: com.bit.eu
 appCountry: 
 released: 2019-07-03
-updated: 2022-04-19
-version: 1.11.0
+updated: 2022-06-23
+version: 1.12.0
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: http://www.biteeu.com
 repository: 
 issue: 

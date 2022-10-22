@@ -12,7 +12,7 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 1.8M
+size: 
 website: https://nexybit.com/
 repository: 
 issue: 

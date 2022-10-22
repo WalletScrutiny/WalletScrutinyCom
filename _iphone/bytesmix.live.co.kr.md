@@ -8,11 +8,11 @@ appId: bytesmix.live.co.kr
 appCountry: kr
 idd: 1475633490
 released: 2019-08-17
-updated: 2021-12-16
-version: 2.5.2
+updated: 2022-05-25
+version: 2.6.1
 stars: 4.6
 reviews: 7
-size: '53334016'
+size: '40903680'
 website: https://www.bytesmix.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: Verso Wallet - Crypto Web3 App
+title: Verso Wallet - Crypto & NFT
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.btuprotocol.btu_wallet
 appCountry: ba
 released: 2021-03-15
-updated: 2022-05-04
-version: 2.5.7
+updated: 2022-10-14
+version: 2.9.4
 stars: 3.9
 ratings: 156
-reviews: 93
-size: 68M
+reviews: 98
+size: 
 website: https://get-verso.com
 repository: 
 issue: 

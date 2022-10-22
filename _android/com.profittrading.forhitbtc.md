@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading for HitBTC - Trade much faster
+title: ProfitTradingApp for HitBTC
 altTitle: 
 authors:
 - danny
@@ -9,19 +9,19 @@ appId: com.profittrading.forhitbtc
 appCountry: 
 released: 2018-07-23
 updated: 2021-08-07
-version: Varies with device
+version: VARY
 stars: 4.4
 ratings: 41
 reviews: 3
-size: Varies with device
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forhitbtc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

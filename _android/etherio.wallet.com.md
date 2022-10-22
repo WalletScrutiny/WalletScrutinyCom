@@ -12,7 +12,7 @@ version: 3.30.1
 stars: 
 ratings: 
 reviews: 
-size: 34M
+size: 
 website: https://etherio.org
 repository: 
 issue: 

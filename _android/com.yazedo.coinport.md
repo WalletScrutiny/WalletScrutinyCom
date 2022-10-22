@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'CoinPort: Buy and Sell Bitcoin & Ethereum (P2P)'
+title: 'CoinPort: Buy and Sell Bitcoin'
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 2.2.0
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: 
 repository: 
 issue: 

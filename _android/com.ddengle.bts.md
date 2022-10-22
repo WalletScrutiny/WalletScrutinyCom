@@ -12,7 +12,7 @@ version: 1.1.9
 stars: 
 ratings: 
 reviews: 
-size: 973k
+size: 
 website: https://www.youbit.co.kr
 repository: 
 issue: 

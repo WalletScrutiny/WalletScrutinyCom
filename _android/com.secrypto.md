@@ -13,7 +13,7 @@ version: '1.28'
 stars: 4.4
 ratings: 956
 reviews: 21
-size: 50M
+size: 
 website: https://www.secrypto.io/
 repository: 
 issue: 

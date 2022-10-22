@@ -12,15 +12,15 @@ version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-size: 605k
+size: 
 website: https://business.elegro.eu/acceptance
 repository: 
 issue: 
 icon: dashboard.elegro.io.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

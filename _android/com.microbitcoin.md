@@ -12,7 +12,7 @@ version: 2.0.1
 stars: 2.8
 ratings: 76
 reviews: 7
-size: 9.9M
+size: 
 website: https://microbitcoin.org/
 repository: 
 issue: 

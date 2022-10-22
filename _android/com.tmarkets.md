@@ -13,7 +13,7 @@ version: 1.5.78-tmarkets
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: 
 website: https://www.t1markets.com
 repository: 
 issue: 

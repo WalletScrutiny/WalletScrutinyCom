@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Smart Secure Wallet - SmartHoldem STH Coin
+title: Smart Secure Wallet - SmartHol
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: 1.0.16
 stars: 
 ratings: 
 reviews: 
-size: 7.3M
+size: 
 website: https://smartholdem.io
 repository: 
 issue: 

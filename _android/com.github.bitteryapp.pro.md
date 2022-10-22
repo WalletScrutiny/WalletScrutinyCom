@@ -12,15 +12,15 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 4.3M
+size: 
 website: https://github.com/bitteryapp/bitteryapp-android
 repository: 
 issue: 
 icon: com.github.bitteryapp.pro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

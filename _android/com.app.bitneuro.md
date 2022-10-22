@@ -13,15 +13,15 @@ version: 1.3.0
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://bitneuro.io
 repository: 
 issue: 
 icon: com.app.bitneuro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

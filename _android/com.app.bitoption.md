@@ -12,7 +12,7 @@ version: 1.1.8
 stars: 
 ratings: 
 reviews: 
-size: 9.7M
+size: 
 website: https://www.bitoption.app/client/
 repository: 
 issue: 

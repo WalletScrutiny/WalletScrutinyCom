@@ -1,6 +1,6 @@
 ---
 wsId: coindirect
-title: Coindirect - Buy & Sell Bitcoin Instantly
+title: Coindirect - Buy & Sell Bitcoi
 altTitle: 
 authors:
 - kiwilamb
@@ -12,16 +12,16 @@ updated: 2021-07-07
 version: 1.3.0
 stars: 1.7
 ratings: 543
-reviews: 30
-size: 30M
+reviews: 31
+size: 
 website: https://www.coindirect.com
 repository: 
 issue: 
 icon: com.node.coindirect.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-26
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: coindirectcom

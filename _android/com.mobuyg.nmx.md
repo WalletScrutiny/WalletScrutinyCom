@@ -7,12 +7,12 @@ users: 1000
 appId: com.mobuyg.nmx
 appCountry: 
 released: 2021-08-16
-updated: 2022-05-02
-version: 1.0.3
+updated: 2022-05-19
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 5.4M
+size: 
 website: https://absurdapps.netlify.app
 repository: 
 issue: 

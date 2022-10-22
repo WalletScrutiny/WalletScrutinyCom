@@ -13,7 +13,7 @@ version: 1.2.0
 stars: 4.6
 ratings: 62
 reviews: 9
-size: 52M
+size: 
 website: https://cryptinix.com
 repository: 
 issue: 

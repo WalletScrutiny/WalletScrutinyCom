@@ -12,7 +12,7 @@ version: 1.1.20
 stars: 4.6
 ratings: 433
 reviews: 12
-size: 26M
+size: 
 website: https://www.dcipher.io
 repository: 
 issue: 

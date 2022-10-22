@@ -13,7 +13,7 @@ version: 0.0.2
 stars: 
 ratings: 
 reviews: 
-size: 4.1M
+size: 
 website: https://www.ebitcoinics.com/
 repository: 
 issue: 

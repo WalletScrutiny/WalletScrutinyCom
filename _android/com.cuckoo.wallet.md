@@ -7,12 +7,12 @@ users: 100
 appId: com.cuckoo.wallet
 appCountry: 
 released: 2021-06-29
-updated: 2022-05-05
-version: 3.4.0
+updated: 2022-06-27
+version: 3.6.0
 stars: 
 ratings: 
 reviews: 
-size: 56M
+size: 
 website: http://www.tyco.link/#/
 repository: 
 issue: 

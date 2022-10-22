@@ -1,6 +1,6 @@
 ---
 wsId: mwallet
-title: 'Bitcoin Wallet: buy BTC, BCH & ETH'
+title: 'Bitcoin Wallet: BTC, ETH & BCH'
 altTitle: Bitcoin Wallet by Bitcoin.com
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 5000000
 appId: com.bitcoin.mwallet
 appCountry: 
 released: 2017-06-19
-updated: 2022-05-10
-version: 7.18.1
+updated: 2022-06-25
+version: 7.21.2
 stars: 4.5
 ratings: 39345
-reviews: 2276
-size: 87M
+reviews: 2332
+size: 
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39

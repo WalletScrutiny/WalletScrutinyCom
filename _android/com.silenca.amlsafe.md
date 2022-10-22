@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AMLSafe - wallet connect web3
+title: AMLSafe - bitcoin wallet
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 10000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2022-04-27
-version: 1.30.62
+updated: 2022-06-21
+version: 1.31.1
 stars: 
 ratings: 
 reviews: 
-size: 66M
+size: 
 website: https://amlsafe.io/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptopocket - Multi Currency Mobile Wallet
+title: 'Cryptopocket - Multi Currency '
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.2.8
 stars: 
 ratings: 
 reviews: 
-size: 4.3M
+size: 
 website: http://www.cryptopocket.info/
 repository: 
 issue: 

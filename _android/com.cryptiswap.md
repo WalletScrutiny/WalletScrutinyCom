@@ -3,7 +3,7 @@ wsId:
 title: CryptiSwap - Non-Custodial Crypto Exchange & Swaps
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.cryptiswap
 appCountry: 
 released: 2021-03-16
@@ -12,15 +12,15 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 23M
+size: 
 website: https://cryptiswap.org/
 repository: 
 issue: 
 icon: com.cryptiswap.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2021-08-02
+meta: stale
+verdict: wip
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

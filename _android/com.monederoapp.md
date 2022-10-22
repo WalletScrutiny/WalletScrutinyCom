@@ -14,15 +14,15 @@ version: 4.1.0
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://www.monedero.com/
 repository: 
 issue: 
 icon: com.monederoapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-30
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: monederodotcom

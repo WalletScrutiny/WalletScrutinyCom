@@ -12,15 +12,15 @@ version: '5.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.8M
+size: 
 website: https://bitcoinet.net/
 repository: 
 issue: 
 icon: com.bitcoinet.bitcoinet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-13
 signer: 
 reviewArchive: 
 twitter: 

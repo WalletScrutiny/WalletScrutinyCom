@@ -12,7 +12,7 @@ version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: http://www.tradetoolsfx.com
 repository: 
 issue: 

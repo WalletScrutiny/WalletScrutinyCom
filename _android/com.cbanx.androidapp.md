@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CBANX - Cryptocurrency Exchange
+title: CBANX - Cryptocurrency Exchang
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: 2.1.20
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://www.cbanx.com
 repository: 
 issue: 

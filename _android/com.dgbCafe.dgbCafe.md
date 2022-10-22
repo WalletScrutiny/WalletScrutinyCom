@@ -13,7 +13,7 @@ version: '2.2'
 stars: 5
 ratings: 28
 reviews: 5
-size: 17M
+size: 
 website: https://www.digibytecafe.com
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.maicoin.max
 appCountry: us
 idd: 1370837255
 released: 2018-07-04
-updated: 2022-04-11
-version: 4.0.0
-stars: 4.8
-reviews: 21
-size: '75367424'
+updated: 2022-07-27
+version: 6.0.0
+stars: 4.7
+reviews: 23
+size: '36628480'
 website: https://max.maicoin.com
 repository: 
 issue: 

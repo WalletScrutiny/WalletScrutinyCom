@@ -8,12 +8,12 @@ users: 100000
 appId: app.goodcrypto
 appCountry: 
 released: 2019-05-20
-updated: 2022-03-26
-version: 1.8.5
-stars: 4.6
+updated: 2022-08-01
+version: 1.8.7
+stars: 4.4
 ratings: 1058
-reviews: 105
-size: 16M
+reviews: 114
+size: 
 website: https://goodcrypto.app
 repository: 
 issue: 

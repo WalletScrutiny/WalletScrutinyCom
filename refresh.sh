@@ -3,26 +3,27 @@
 # run this using Docker:
 # docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY
 
-while getopts k: option
+while getopts k:s: option
 do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;
+    s) skip=${OPTARG};;
   esac
 done
 
 echo "installing missing stuff"
 npm install
 
-echo "Updating from Google and Apple ..."
-node -e 'require("./refreshApps").refresh()'
+echo "Updating from Google and Apple using skip $skip ..."
+node -e "require(\"./refreshApps\").refresh($skip)"
 
 echo "Refreshing donations page ..."
 node refreshDonations.js $btcPayKey
 
 wait
 
-if [ "$( git diff --name-only | grep 'wallet_icons' )" != "" ]; then
+if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   ./updateImages.sh
 fi
 

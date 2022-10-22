@@ -12,16 +12,16 @@ updated: 2020-06-01
 version: '2.4'
 stars: 4.1
 ratings: 251
-reviews: 40
-size: 5.0M
+reviews: 39
+size: 
 website: http://jurajkusnier.com/
 repository: 
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2021-08-17
+date: 2022-05-22
 signer: 
 reviewArchive: 
 twitter: 

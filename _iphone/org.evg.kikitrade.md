@@ -1,6 +1,6 @@
 ---
 wsId: kikitrade
-title: 'Kikitrade: Crypto for Everyone'
+title: 'Kikitrade: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: org.evg.kikitrade
 appCountry: us
 idd: 1507120441
 released: 2020-07-28
-updated: 2022-05-05
-version: 4.2.40
+updated: 2022-10-13
+version: 4.4.02
 stars: 5
-reviews: 7
-size: '54554624'
+reviews: 10
+size: '86246400'
 website: https://www.kikitrade.com/
 repository: 
 issue: 

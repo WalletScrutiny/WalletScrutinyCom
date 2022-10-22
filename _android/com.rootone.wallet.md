@@ -1,6 +1,6 @@
 ---
 wsId: bitberry
-title: 'Bitberry : Safe Cryptocurrency Wallet'
+title: 'Bitberry : Safe Cryptocurrency'
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: 1.4.8
 stars: 3.6
 ratings: 617
 reviews: 10
-size: 8.0M
+size: 
 website: https://rootone.com
 repository: 
 issue: 

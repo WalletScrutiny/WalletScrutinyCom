@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ArowEx - Crypto/Bitcoin Trading Exchange
+title: ArowEx - Crypto/Bitcoin Tradin
 altTitle: 
 authors: 
 users: 10
@@ -12,15 +12,15 @@ version: 0.0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 5.2M
+size: 
 website: https://www.arowex.com
 repository: 
 issue: 
 icon: arowex.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

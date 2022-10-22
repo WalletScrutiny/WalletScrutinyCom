@@ -1,19 +1,19 @@
 ---
 wsId: BuyCoinsPro
-title: Buycoins Pro - The fastest way to trade crypto
+title: 'Buycoins Pro: Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: africa.buycoins.buycoinsx.pro
 appCountry: us
 released: 2021-04-16
-updated: 2022-04-06
-version: 1.1.81
-stars: 3.8
+updated: 2022-05-18
+version: 1.1.85
+stars: 3.9
 ratings: 102
 reviews: 4
-size: 34M
+size: 
 website: https://pro.buycoins.africa
 repository: 
 issue: 

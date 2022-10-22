@@ -1,19 +1,19 @@
 ---
 wsId: rekeningku
-title: 'Rekeningku.com: Beli BTC & ETH'
+title: 'Reku: Beli & Investasi Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2022-05-13
-version: 2.1.76
-stars: 4.1
+updated: 2022-10-17
+version: 2.1.91
+stars: 4.2
 ratings: 22977
-reviews: 34
-size: 38M
+reviews: 43
+size: 
 website: https://www.rekeningku.com
 repository: 
 issue: 

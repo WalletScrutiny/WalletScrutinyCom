@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.6M
+size: 
 website: http://www.btctradeonline.com
 repository: 
 issue: 

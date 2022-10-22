@@ -12,7 +12,7 @@ version: 2.1.0
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: http://wowoonet.com
 repository: 
 issue: 

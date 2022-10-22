@@ -1,6 +1,6 @@
 ---
 wsId: DopamineBitcoin
-title: DOPAMINE - Bitcoin, Crypto, NFT, In-game, DEFI
+title: DOPAMINE - Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2022-04-28
-version: Varies with device
-stars: 3.9
+updated: 2022-10-13
+version: VARY
+stars: 3.8
 ratings: 26669
-reviews: 1364
-size: Varies with device
+reviews: 1370
+size: 
 website: https://www.dopamineapp.com
 repository: 
 issue: 
-icon: com.kyriakosalexandrou.coinmarketcap.png
+icon: com.kyriakosalexandrou.coinmarketcap.jpg
 bugbounty: 
 meta: ok
 verdict: nosource

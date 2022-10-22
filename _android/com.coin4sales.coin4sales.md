@@ -12,7 +12,7 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 7.5M
+size: 
 website: https://www.coin4sales.com/tos
 repository: 
 issue: 

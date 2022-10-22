@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitplicity Bitcoin Wallet - Buy & Sell Crypto
+title: Bitplicity Bitcoin Wallet - Bu
 altTitle: 
 authors: 
 users: 500
@@ -12,15 +12,15 @@ version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 1.6M
+size: 
 website: https://Bitplicity.com
 repository: 
 issue: 
 icon: com.Bitplicity.Bitplicityapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: '7b Crypto Trading: Buy BTC, ETH, SHIB, DOGECOIN'
+title: '7b: Buy DOGE, BNB, BTC, Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.sevenb.terminal
 appCountry: 
 released: 2021-05-04
-updated: 2022-03-16
-version: 0.1.267
+updated: 2022-07-01
+version: 0.1.269
 stars: 3.6
 ratings: 56
 reviews: 4
-size: 13M
+size: 
 website: https://sevenb.io/
 repository: 
 issue: 

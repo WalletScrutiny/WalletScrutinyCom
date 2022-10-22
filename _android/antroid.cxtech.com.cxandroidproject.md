@@ -12,7 +12,7 @@ version: 1.3.12
 stars: 
 ratings: 
 reviews: 
-size: 10M
+size: 
 website: https://dx.exchange
 repository: 
 issue: 

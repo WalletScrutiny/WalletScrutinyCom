@@ -12,15 +12,15 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 37M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.cntr.hadar.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

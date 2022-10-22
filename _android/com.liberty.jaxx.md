@@ -8,12 +8,12 @@ users: 100000
 appId: com.liberty.jaxx
 appCountry: 
 released: 2018-09-01
-updated: 2021-09-09
-version: 2.6.5
+updated: 2022-06-15
+version: 3.0.0
 stars: 3.7
 ratings: 5474
-reviews: 403
-size: 18M
+reviews: 406
+size: 
 website: https://jaxx.io
 repository: 
 issue: 

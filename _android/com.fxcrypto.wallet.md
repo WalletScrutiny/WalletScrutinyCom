@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FX Crypto (FXC) - Forex Robot Traders
+title: 'FX Crypto (FXC) - Forex Robot '
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 12M
+size: 
 website: https://forexrobottraders.com/
 repository: 
 issue: 

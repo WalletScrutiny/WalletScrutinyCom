@@ -8,11 +8,11 @@ appId: com.nordfx.mobiletrading
 appCountry: lv
 idd: 1551642767
 released: 2021-02-06
-updated: 2021-11-18
-version: '14.0'
+updated: 2022-05-25
+version: '15.0'
 stars: 5
 reviews: 1
-size: '29602816'
+size: '29656064'
 website: https://nordfx.com/
 repository: 
 issue: 

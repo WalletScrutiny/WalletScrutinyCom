@@ -12,15 +12,15 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: https://gcox.com
 repository: 
 issue: 
 icon: com.gcox.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-25
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

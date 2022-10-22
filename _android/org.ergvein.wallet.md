@@ -12,7 +12,7 @@ version: Alpha
 stars: 
 ratings: 
 reviews: 
-size: 64M
+size: 
 website: https://cypra.io/
 repository: 
 issue: 

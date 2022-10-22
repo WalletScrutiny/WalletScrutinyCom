@@ -8,12 +8,12 @@ users: 100000
 appId: com.cointiger.ex
 appCountry: us
 released: 2020-07-23
-updated: 2022-05-11
-version: 5.4.1
+updated: 2022-06-21
+version: 5.5.0
 stars: 4.2
 ratings: 13093
-reviews: 146
-size: 55M
+reviews: 147
+size: 
 website: https://www.cointiger.com
 repository: 
 issue: 

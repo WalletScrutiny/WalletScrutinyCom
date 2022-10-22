@@ -4,16 +4,16 @@ title: CoinCircle
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coincircle
 appCountry: us
 released: 2021-04-26
 updated: 2022-02-04
 version: 1.2.24.10222
-stars: 4.5
+stars: 4.7
 ratings: 438
-reviews: 148
-size: 127M
+reviews: 204
+size: 
 website: https://coincircle.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 4.1
 ratings: 420
 reviews: 7
-size: 14M
+size: 
 website: https://www.fluencybank.com/
 repository: 
 issue: 

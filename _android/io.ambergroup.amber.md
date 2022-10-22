@@ -1,19 +1,19 @@
 ---
 wsId: ambercrypto
-title: 'WhaleFin: Buy Crypto & Bitcoin'
+title: 'WhaleFin: buy Crypto, BTC, ETH'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2022-05-11
-version: 2.3.6
-stars: 5
+updated: 2022-09-01
+version: 2.8.5
+stars: 4.7
 ratings: 2656
-reviews: 231
-size: 173M
+reviews: 261
+size: 
 website: https://www.whalefin.com
 repository: 
 issue: 

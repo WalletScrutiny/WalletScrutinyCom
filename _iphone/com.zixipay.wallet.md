@@ -1,6 +1,6 @@
 ---
 wsId: ZixiPay
-title: 'ZixiPay: BTC, ETH, LTC & USDT'
+title: 'ZixiPay: Tether Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.zixipay.wallet
 appCountry: us
 idd: 1492139262
 released: 2019-12-22
-updated: 2021-12-15
-version: '1.76'
-stars: 5
-reviews: 4
-size: '32985088'
+updated: 2022-10-06
+version: '1.80'
+stars: 4.2
+reviews: 5
+size: '41522176'
 website: https://zixipay.com/
 repository: 
 issue: 

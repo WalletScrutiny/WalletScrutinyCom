@@ -13,7 +13,7 @@ version: 1.1.12
 stars: 
 ratings: 
 reviews: 
-size: 25M
+size: 
 website: https://zaif.jp
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 0.19.0
 stars: 
 ratings: 
 reviews: 
-size: 45M
+size: 
 website: https://bintexfutures.com
 repository: 
 issue: 

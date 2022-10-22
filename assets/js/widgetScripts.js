@@ -1,25 +1,36 @@
+function lsTest () {
+  var test = 'test'
+  try {
+    localStorage.setItem(test, test)
+    localStorage.removeItem(test)
+    return true
+  } catch (e) {
+    return false
+  }
+}
+
 /**
  * Render the widgets that we show in all the reviews.
  **/
-window.addEventListener("load", () => {
-  function getWidgetHtml(wallet, includeDetails) {
-    function verdictBadge(v) {
+window.addEventListener('load', () => {
+  function getWidgetHtml (wallet, includeDetails) {
+    function verdictBadge (v) {
       return `<span style="background:${window.verdicts[v].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[v].short}</span>`
     }
-    
-    return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">
+
+    return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);${wallet.meta === 'outdated' ? 'filter: grayscale(1) blur(2px)' : ''}" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">
       <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
         src="/images/${wallet.icon
-          ? `wallet_icons/${ wallet.folder }/small/${wallet.icon}`
+          ? `wIcons/${wallet.folder}/small/${wallet.icon}`
           : 'smallNoicon.png'}" alt="Wallet Logo">
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
         ${verdictBadge(wallet.verdict)}
-        ${ wallet.meta != "ok" ? verdictBadge(wallet.meta) : ""}
+        ${wallet.meta !== 'ok' ? verdictBadge(wallet.meta) : ''}
       </div>
     </a>
-    ${includeDetails ? getWidgetDetails(wallet) : `` }
+    ${includeDetails ? getWidgetDetails(wallet) : ''}
     <div style="padding: .75rem .25rem .25rem 1rem;display: flex;flex-direction: row;flex-wrap: wrap;align-items: center;justify-content: end;width: 100%;position: fixed;bottom: 0;right: 0;">
       <a target="_blank" title="Verifiability data provided by Wallet Scrutiny" href="https://walletscrutiny.com${wallet.url}" style="text-decoration: none;font-family: sans-serif;font-size: 11px;margin-right: 10px;color: var(--light-blue, #0064ff);display: block;">Full Analysis</a>
       <span onclick="document.getElementById('info').style.display=\'block\';" style="font-size: 12px;font-family: Courier New, Courier, serif;width: 16px;height: 16px;display: block;color: var(--white, #fff);background: var(--light-blue, #0064ff);text-align: center;line-height: 16px;border-radius: 16px;cursor:pointer;">i</span>
@@ -30,64 +41,70 @@ window.addEventListener("load", () => {
     </div>`
   }
 
-  function fetchWallet(wallet, folder) {
-    return wallets.find( w => w.appId===wallet && w.folder===folder)
+  function fetchWallet (wallet, folder) {
+    return wallets.find(w => w.appId === wallet && w.folder === folder)
   }
 
   var appId, style, appList, verdict, limit, wallet, theme
-  window.location.hash.split("#")[1].split("&").forEach(item => {
-    var kv = item.split("=")
+  window.location.hash.split('#')[1].split('&').forEach(item => {
+    var kv = item.split('=')
     switch (kv[0]) {
-      case "appId":
-        const folderAppId = kv[1].split("/")
+      case 'appId': {
+        const folderAppId = kv[1].split('/')
         wallet = fetchWallet(folderAppId[1], folderAppId[0])
         break
-      case "style": style = kv[1]; break
-      case "appList": appList = kv[1].split(","); break
-      case "verdict": verdict = kv[1]; break
-      case "limit": limit = kv[1]; break
-      case "theme": theme = kv[1]; break
+      }
+      case 'style': style = kv[1]; break
+      case 'appList': appList = kv[1].split(','); break
+      case 'verdict': verdict = kv[1]; break
+      case 'limit': limit = kv[1]; break
+      case 'theme': theme = kv[1]; break
     }
   })
 
   var stylebase = document.documentElement
 
-  if (!theme || theme.length < 1) {
-    if (!localStorage.getItem('theme')) {
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        localStorage.setItem('theme', 'dark')
-      } else {
-        localStorage.setItem('theme', 'light')
+  if (lsTest) {
+    if (!theme || theme.length < 1) {
+      if (!localStorage.getItem('theme')) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          localStorage.setItem('theme', 'dark')
+        } else {
+          localStorage.setItem('theme', 'light')
+        }
       }
+    } else {
+      localStorage.setItem('theme', theme)
     }
+    theme = localStorage.getItem('theme')
   } else {
-    localStorage.setItem('theme', theme)
-  }
-  theme = localStorage.getItem('theme')
-  function setThemeDark() {
-    stylebase.style.setProperty('--white', "#222")
-    stylebase.style.setProperty('--blue', "#0064ff")
-    stylebase.style.setProperty('--light-grey', "#000")
-    stylebase.style.setProperty('--text', "#fff")
-    stylebase.style.setProperty('--gauze', "rgba(255,255,255,0.3")
+    theme = 'light'
   }
 
-  function setThemeLight() {
-    stylebase.style.setProperty('--white', "#fff")
-    stylebase.style.setProperty('--blue', "#003395")
-    stylebase.style.setProperty('--light-grey', "#fafafa")
-    stylebase.style.setProperty('--text', "#222")
-    stylebase.style.setProperty('--gauze', "rgba(0,0,0,0.3")
+  function setThemeDark () {
+    stylebase.style.setProperty('--white', '#222')
+    stylebase.style.setProperty('--blue', '#0064ff')
+    stylebase.style.setProperty('--light-grey', '#000')
+    stylebase.style.setProperty('--text', '#fff')
+    stylebase.style.setProperty('--gauze', 'rgba(255,255,255,0.3')
+  }
+
+  function setThemeLight () {
+    stylebase.style.setProperty('--white', '#fff')
+    stylebase.style.setProperty('--blue', '#003395')
+    stylebase.style.setProperty('--light-grey', '#fafafa')
+    stylebase.style.setProperty('--text', '#222')
+    stylebase.style.setProperty('--gauze', 'rgba(0,0,0,0.3')
   }
 
   switch (theme) {
-    case "dark":
+    case 'dark':
       setThemeDark()
       break
-    case "light":
+    case 'light':
       setThemeLight()
       break
-    case "auto":
+    case 'auto':
     default:
       if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         setThemeDark()
@@ -96,24 +113,24 @@ window.addEventListener("load", () => {
       }
   }
 
-  var b = document.createElement("div")
-  var s = ""
+  var b = document.createElement('div')
+  var s = ''
   switch (style) {
-    case "short":
+    case 'short':
       b.innerHTML = getWidgetHtml(wallet, false)
-      s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;"
+      s = 'position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;'
       break
-    case "long":
+    case 'long':
       b.innerHTML = getWidgetHtml(wallet, true)
-      s = "position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;display: grid;grid-auto-flow: row;grid-template-rows: auto 1fr;height: calc(100vh - 1.75rem);";
+      s = 'position:relative;width: calc(100vw - 1.25rem);padding: 1rem .25rem .25rem 1rem;display: grid;grid-auto-flow: row;grid-template-rows: auto 1fr;height: calc(100vh - 1.75rem);'
       break
     default:
   }
-  b.setAttribute("style", s)
+  b.setAttribute('style', s)
   document.body.append(b)
-  document.querySelectorAll("strong").length > 0 && (
-    document.querySelectorAll("strong")[0].innerHTML.length > 20 && (
-      document.querySelectorAll("strong")[0].style['font-size'] = "15px"
+  document.querySelectorAll('strong').length > 0 && (
+    document.querySelectorAll('strong')[0].innerHTML.length > 20 && (
+      document.querySelectorAll('strong')[0].style['font-size'] = '15px'
     )
   )
 }, false)

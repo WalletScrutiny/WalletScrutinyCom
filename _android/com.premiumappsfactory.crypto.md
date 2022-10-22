@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Buy Trade Bitcoin App
+title: Crypto Exchange App
 altTitle: 
 authors: 
 users: 50
@@ -12,7 +12,7 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 7.3M
+size: 
 website: http://drone.onlinestore.digital
 repository: 
 issue: 

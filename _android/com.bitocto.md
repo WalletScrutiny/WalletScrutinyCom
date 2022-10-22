@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitocto: Jual Beli Bitcoin Indonesia'
+title: 'Bitocto: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.bitocto
 appCountry: 
 released: 2019-07-18
-updated: 2022-04-30
-version: '3.17'
+updated: 2022-06-08
+version: '3.18'
 stars: 5
 ratings: 1532
 reviews: 6
-size: 5.7M
+size: 
 website: https://bitocto.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Simple Investment App'
+title: 'Change: Invest, Trade & DeFi'
 altTitle: 
 authors:
 - leo
@@ -9,12 +9,12 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2022-05-13
-version: 20.15.2
+updated: 2022-07-01
+version: 20.22.1
 stars: 4
 ratings: 2833
 reviews: 23
-size: 34M
+size: 
 website: https://changeinvest.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 2.1.0
 stars: 
 ratings: 
 reviews: 
-size: 6.8M
+size: 
 website: https://github.com/samotari/paynoway
 repository: 
 issue: 

@@ -8,12 +8,12 @@ users: 50000
 appId: com.sf.monarch
 appCountry: 
 released: 2018-10-19
-updated: 2022-05-02
-version: 2.4.0
-stars: 4.4
+updated: 2022-09-16
+version: 2.5.0
+stars: 4.3
 ratings: 821
-reviews: 158
-size: 17M
+reviews: 160
+size: 
 website: http://splashfactory.com
 repository: 
 issue: 

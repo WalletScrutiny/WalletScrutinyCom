@@ -4,16 +4,16 @@ title: PDAX
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2022-05-06
-version: 1.6.0
-stars: 4
+updated: 2022-10-07
+version: 2.4.3
+stars: 3.5
 ratings: 3291
-reviews: 1773
-size: 42M
+reviews: 1945
+size: 
 website: https://pdax.ph
 repository: 
 issue: 

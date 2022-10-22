@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Global Cryptocurrency Exchanges
+title: Global Cryptocurrency Exchange
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.9M
+size: 
 website: 
 repository: 
 issue: 

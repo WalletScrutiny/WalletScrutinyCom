@@ -13,7 +13,7 @@ version: 3.0.1
 stars: 4.2
 ratings: 60
 reviews: 26
-size: 1.4M
+size: 
 website: https://baksman.org
 repository: 
 issue: 

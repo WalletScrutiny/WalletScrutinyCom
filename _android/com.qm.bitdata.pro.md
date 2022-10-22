@@ -7,12 +7,12 @@ users: 100
 appId: com.qm.bitdata.pro
 appCountry: 
 released: 2019-05-21
-updated: 2022-04-29
-version: 3.2.3
+updated: 2022-10-17
+version: 3.2.7
 stars: 
 ratings: 
 reviews: 
-size: 47M
+size: 
 website: https://www.bitdata.pro
 repository: 
 issue: 

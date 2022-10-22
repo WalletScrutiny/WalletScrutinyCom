@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Evraon - trading for everyone. Crypto and stocks
+title: Evraon - trade crypto & stocks
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: com.evraon.trading
 appCountry: 
 released: 2019-06-14
-updated: 2022-04-29
-version: 1.8.0
+updated: 2022-06-25
+version: 1.8.1
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: https://evraon.com
 repository: 
 issue: 

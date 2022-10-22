@@ -12,8 +12,8 @@ updated: 2022-04-17
 version: '205'
 stars: 3.9
 ratings: 3750
-reviews: 260
-size: 6.6M
+reviews: 261
+size: 
 website: https://tabshop.smartlab.at/
 repository: 
 issue: 

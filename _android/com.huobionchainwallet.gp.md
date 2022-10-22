@@ -1,6 +1,6 @@
 ---
 wsId: HuobiWallet
-title: Huobi Wallet - Secure DeFi
+title: iToken Wallet - Secure DeFi
 altTitle: 
 authors:
 - kiwilamb
@@ -8,12 +8,12 @@ users: 1000000
 appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
-updated: 2022-04-26
-version: 3.01.04.050
-stars: 3.6
+updated: 2022-10-15
+version: 3.02.07.042
+stars: 4.8
 ratings: 33247
-reviews: 191
-size: 97M
+reviews: 205
+size: 
 website: https://www.huobiwallet.com/
 repository: 
 issue: 

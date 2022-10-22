@@ -3,7 +3,7 @@ wsId:
 title: Oduwa Trust Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.oduwamultiwallet
 appCountry: 
 released: 2021-07-24
@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: 
 website: https://www.oduwacoin.io/
 repository: 
 issue: 

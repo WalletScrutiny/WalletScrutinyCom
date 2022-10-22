@@ -12,7 +12,7 @@ version: 1.0.1
 stars: 4.5
 ratings: 67
 reviews: 6
-size: 11M
+size: 
 website: https://zerocurrency.io/
 repository: 
 issue: 

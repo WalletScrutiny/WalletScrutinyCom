@@ -1,6 +1,6 @@
 ---
 wsId: ZixiPay
-title: ZixiPay - Tether Wallet, Bitcoin Wallet
+title: 'ZixiPay: Tether Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000
 appId: com.zixipay.wallet
 appCountry: us
 released: 2019-12-18
-updated: 2021-12-15
-version: '1.76'
-stars: 4.6
+updated: 2022-06-09
+version: '1.78'
+stars: 4.7
 ratings: 
-reviews: 3
-size: 14M
+reviews: 4
+size: 
 website: https://zixipay.com
 repository: 
 issue: 

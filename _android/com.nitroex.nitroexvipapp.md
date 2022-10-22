@@ -1,6 +1,6 @@
 ---
 wsId: Nitrobot
-title: NitroBot - Automated Crypto Trading By NitroEx
+title: NitroBot - Automated Crypto Tr
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000
 appId: com.nitroex.nitroexvipapp
 appCountry: us
 released: 2020-11-17
-updated: 2022-03-02
-version: 8.0.3
+updated: 2022-07-08
+version: 8.0.5
 stars: 
 ratings: 
 reviews: 
-size: 17M
+size: 
 website: https://www.nitroex.io/
 repository: 
 issue: 

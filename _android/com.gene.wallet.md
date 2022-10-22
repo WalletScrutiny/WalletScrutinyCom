@@ -12,7 +12,7 @@ version: 1.4.1
 stars: 
 ratings: 
 reviews: 
-size: 24M
+size: 
 website: https://parkgene.io
 repository: 
 issue: 

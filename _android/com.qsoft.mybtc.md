@@ -13,15 +13,15 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 2.5M
+size: 
 website: https://mybtc.ng
 repository: 
 issue: 
 icon: com.qsoft.mybtc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-15
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: btc_nigeria

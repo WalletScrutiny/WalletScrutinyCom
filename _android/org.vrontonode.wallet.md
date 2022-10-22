@@ -12,7 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 4.1M
+size: 
 website: http://www.vrontonode.org
 repository: 
 issue: 

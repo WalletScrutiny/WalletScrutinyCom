@@ -12,7 +12,7 @@ version: 1.2.24
 stars: 
 ratings: 
 reviews: 
-size: 8.0M
+size: 
 website: http://www.anfeli.com
 repository: 
 issue: 

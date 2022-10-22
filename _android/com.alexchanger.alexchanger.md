@@ -9,18 +9,18 @@ appCountry:
 released: 2020-06-12
 updated: 2020-06-12
 version: '1.0'
-stars: 4.5
+stars: 4.4
 ratings: 271
-reviews: 22
-size: 1.4M
+reviews: 24
+size: 
 website: https://alexchanger.com/
 repository: 
 issue: 
 icon: com.alexchanger.alexchanger.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-21
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

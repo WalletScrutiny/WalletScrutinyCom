@@ -1,19 +1,19 @@
 ---
 wsId: eversend
-title: Eversend - The Money App
+title: 'Eversend: Send money abroad'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.eversendapp
 appCountry: lv
 released: 2019-02-01
-updated: 2022-03-02
-version: 0.2.64
-stars: 3.9
+updated: 2022-10-11
+version: 0.3.57
+stars: 3.7
 ratings: 5009
-reviews: 2449
-size: 54M
+reviews: 2917
+size: 
 website: http://eversend.co
 repository: 
 issue: 

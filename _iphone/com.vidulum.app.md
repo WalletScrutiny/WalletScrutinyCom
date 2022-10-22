@@ -8,11 +8,11 @@ appId: com.vidulum.app
 appCountry: 
 idd: 1505859171
 released: 2020-07-28
-updated: 2022-04-27
-version: 1.3.4
-stars: 4.6
-reviews: 9
-size: '68398080'
+updated: 2022-06-01
+version: 1.3.9
+stars: 4.3
+reviews: 11
+size: '68402176'
 website: https://vidulum.app
 repository: 
 issue: 

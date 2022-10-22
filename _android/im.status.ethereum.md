@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Status: Crypto Wallet, Messenger, Ethereum Browser'
+title: 'Status: Crypto Wallet, Messeng'
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 1000000
 appId: im.status.ethereum
 appCountry: 
 released: 2020-02-05
-updated: 2022-04-05
-version: 1.19.0
+updated: 2022-10-03
+version: 1.20.2
 stars: 4.4
 ratings: 2069
-reviews: 43
-size: 86M
+reviews: 45
+size: 
 website: https://status.im
 repository: 
 issue: 

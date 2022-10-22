@@ -7,11 +7,11 @@ appId: net.bither
 appCountry: 
 idd: 899478936
 released: 2014-07-25
-updated: 2021-10-13
-version: 2.0.2
+updated: 2022-10-10
+version: 2.0.7
 stars: 2.9
-reviews: 45
-size: '16916480'
+reviews: 48
+size: '13320192'
 website: https://bither.net
 repository: https://github.com/bither/bither-ios
 issue: 

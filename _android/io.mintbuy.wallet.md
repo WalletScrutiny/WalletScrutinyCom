@@ -1,0 +1,31 @@
+---
+wsId: 
+title: Mint Wallet
+altTitle: 
+authors: 
+users: 50
+appId: io.mintbuy.wallet
+appCountry: 
+released: Jul 7, 2021
+updated: 2021-07-07
+version: 0.21.1
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://mintmoney.org
+repository: 
+issue: 
+icon: io.mintbuy.wallet.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+date: 2022-06-22
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+
+---
+

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinviva Exchange -Bitcoin & Fiat, Crypto Trading
+title: Coinviva Exchange -Bitcoin & F
 altTitle: 
 authors: 
 users: 100
@@ -12,15 +12,15 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 19M
+size: 
 website: http://www.coinviva.com
 repository: 
 issue: 
 icon: io.fchain.coinviva.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-18
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

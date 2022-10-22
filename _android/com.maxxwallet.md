@@ -13,7 +13,7 @@ version: 3.7.3
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: http://bitcoinwalletcoin.com
 repository: 
 issue: 

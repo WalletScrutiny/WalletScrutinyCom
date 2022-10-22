@@ -9,10 +9,10 @@ appCountry:
 released: 2019-04-16
 updated: 2020-07-17
 version: 0.5-alpha
-stars: 4
+stars: 3.8
 ratings: 378
-reviews: 15
-size: 6.7M
+reviews: 16
+size: 
 website: https://wallet.coinbase.com
 repository: 
 issue: 

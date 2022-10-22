@@ -8,11 +8,11 @@ appId: com.bitfinex.bfxprod
 appCountry: 
 idd: 1436383182
 released: 2019-01-25
-updated: 2022-05-03
-version: 5.5.1
+updated: 2022-06-29
+version: 5.8.0
 stars: 4
-reviews: 115
-size: '43243520'
+reviews: 117
+size: '40828928'
 website: https://www.bitfinex.com/mobile-trading/
 repository: 
 issue: 

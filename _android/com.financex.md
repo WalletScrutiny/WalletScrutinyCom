@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FinanceX - Crypto Trading with Fiat
+title: FinanceX - Crypto Trading with
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.3.12
 stars: 
 ratings: 
 reviews: 
-size: 10M
+size: 
 website: http://www.financex.io
 repository: 
 issue: 

@@ -8,12 +8,12 @@ users: 10000
 appId: com.application.nodawallet
 appCountry: 
 released: 2020-09-14
-updated: 2021-12-10
-version: 1.0.19
+updated: 2022-05-20
+version: 1.0.20
 stars: 4.9
 ratings: 849
 reviews: 55
-size: 49M
+size: 
 website: https://nodawallet.com
 repository: https://github.com/nodawallet/NodaWallet-Android
 issue: https://github.com/nodawallet/NodaWallet-Android/issues/1

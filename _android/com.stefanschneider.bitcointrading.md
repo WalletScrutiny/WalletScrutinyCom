@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 29M
+size: 
 website: https://bitcoin-trading.global/
 repository: 
 issue: 

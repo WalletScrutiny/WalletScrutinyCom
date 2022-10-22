@@ -10,11 +10,11 @@ appId: com.tabtrader.apps.TabTrader
 appCountry: 
 idd: 1095716562
 released: 2016-09-02
-updated: 2022-04-30
-version: 3.2.2
+updated: 2022-07-27
+version: 3.3.2
 stars: 4.7
-reviews: 3996
-size: '26602496'
+reviews: 4005
+size: '27286528'
 website: https://tabtrader.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 32M
+size: 
 website: https://blockscart.eu
 repository: 
 issue: 

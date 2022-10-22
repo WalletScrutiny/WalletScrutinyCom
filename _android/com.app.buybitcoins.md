@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BuyBitcoins.App - Peer2Peer Bitcoin Marketplace
+title: BuyBitcoins.App - Peer2Peer Bi
 altTitle: 
 authors: 
 users: 100
@@ -12,7 +12,7 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 95M
+size: 
 website: https://mobapibbc.buybitcoins.app/
 repository: 
 issue: 

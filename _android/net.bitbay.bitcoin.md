@@ -8,12 +8,12 @@ users: 100000
 appId: net.bitbay.bitcoin
 appCountry: 
 released: 2018-11-19
-updated: 2022-03-14
-version: 1.1.30
-stars: 3.3
+updated: 2022-06-22
+version: 1.1.34
+stars: 3.1
 ratings: 1131
-reviews: 10
-size: 13M
+reviews: 12
+size: 
 website: https://zondaglobal.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Coin Check - Free Price & Arbitrage Tracker
+title: Crypto Coin Check - Free Price
 altTitle: 
 authors: 
 users: 10000
@@ -9,10 +9,10 @@ appCountry:
 released: 2018-04-05
 updated: 2018-10-26
 version: 1.6.0
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
-size: 3.7M
+reviews: 1
+size: 
 website: https://bitcoinmonitor.app
 repository: 
 issue: 

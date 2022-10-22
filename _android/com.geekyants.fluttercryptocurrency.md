@@ -12,7 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 6.4M
+size: 
 website: https://fluttermarket.com/view/flutter-crypto-app-theme
 repository: 
 issue: 

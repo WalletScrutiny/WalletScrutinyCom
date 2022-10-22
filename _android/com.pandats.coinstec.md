@@ -12,7 +12,7 @@ version: 10.0.2
 stars: 
 ratings: 
 reviews: 
-size: 43M
+size: 
 website: http://www.coinstec.com
 repository: 
 issue: 

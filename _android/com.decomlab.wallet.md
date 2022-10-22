@@ -13,15 +13,15 @@ version: 1.2.1
 stars: 3.4
 ratings: 121
 reviews: 7
-size: 94M
+size: 
 website: https://moonwallet.net/
 repository: 
 issue: 
 icon: com.decomlab.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: gomoonwallet

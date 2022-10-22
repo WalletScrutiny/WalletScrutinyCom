@@ -12,15 +12,15 @@ version: 5.5.5
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: https://www.capricoin.org/
 repository: 
 issue: 
 icon: org.capricoin.copay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

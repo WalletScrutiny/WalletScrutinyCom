@@ -1,6 +1,6 @@
 ---
 wsId: VoltWallet
-title: 'Volt: Bitcoin wallet&DeFi portal on BSV blockchain'
+title: 'Volt: Bitcoin & DeFi Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000
 appId: bitmesh.volt.wallet
 appCountry: us
 released: 2020-05-15
-updated: 2022-04-12
-version: 2.3.0
-stars: 4.6
+updated: 2022-08-22
+version: 2.3.12
+stars: 4.5
 ratings: 161
-reviews: 27
-size: 101M
+reviews: 29
+size: 
 website: http://www.volt.id
 repository: 
 issue: 

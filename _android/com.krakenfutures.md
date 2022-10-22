@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Kraken Futures: Bitcoin & Crypto Futures Trading'
+title: 'Kraken Futures: Bitcoin & Cryp'
 altTitle: 
 authors:
 - leo
@@ -14,7 +14,7 @@ version: 5.24.0
 stars: 3.5
 ratings: 451
 reviews: 5
-size: 12M
+size: 
 website: https://futures.kraken.com
 repository: 
 issue: 

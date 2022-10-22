@@ -13,7 +13,7 @@ version: 3.5.4
 stars: 3.7
 ratings: 266
 reviews: 10
-size: 18M
+size: 
 website: https://www.coinsbank.com
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.0.8
 stars: 4.5
 ratings: 
 reviews: 3
-size: 18M
+size: 
 website: https://bitcoinpay.com.co/contact.php
 repository: 
 issue: 

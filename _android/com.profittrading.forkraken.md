@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For Kraken - Trade much faster
+title: ProfitTradingApp for Kraken
 altTitle: 
 authors:
 - danny
@@ -9,19 +9,19 @@ appId: com.profittrading.forkraken
 appCountry: 
 released: 2018-07-15
 updated: 2021-08-07
-version: Varies with device
+version: VARY
 stars: 4.2
 ratings: 60
 reviews: 12
-size: Varies with device
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forkraken.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

@@ -12,15 +12,15 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 6.5M
+size: 
 website: https://www.gccglobalplatform.com
 repository: 
 issue: 
 icon: com.baanx.gcc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-13
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: BlockTrade
-title: Blocktrade
+title: 'Blocktrade: Invest in Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.blocktrade.ios
 appCountry: us
 idd: 1360294403
 released: 2018-10-30
-updated: 2022-03-14
-version: 1.6.2
+updated: 2022-05-24
+version: 1.7.0
 stars: 5
 reviews: 8
-size: '47007744'
+size: '50929664'
 website: http://blocktrade.com
 repository: 
 issue: 

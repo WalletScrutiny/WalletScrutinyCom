@@ -9,11 +9,11 @@ appId: cy.agorise.palmpay
 appCountry: 
 released: 
 updated: 2022-01-20
-version: Varies with device
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 
 website: http://www.PalmPay.io
 repository: 
 issue: 

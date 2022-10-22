@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: SKG 암호화폐 지갑(비트코인, 이더리움 등) ERC20
+title: SKG 암호화폐 지갑(비트코인, 이더리움 등) ERC2
 altTitle: 
 authors: 
 users: 50
@@ -12,7 +12,7 @@ version: 1.4.42
 stars: 
 ratings: 
 reviews: 
-size: 48M
+size: 
 website: http://skg-world.com
 repository: 
 issue: 

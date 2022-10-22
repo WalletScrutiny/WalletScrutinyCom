@@ -4,7 +4,7 @@ title: Atechcoins
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.app.atechcoins
 appCountry: 
 released: 2020-11-10
@@ -13,7 +13,7 @@ version: 1.1.0
 stars: 3.5
 ratings: 85
 reviews: 6
-size: 18M
+size: 
 website: https://www.atechcoins.com
 repository: 
 issue: 

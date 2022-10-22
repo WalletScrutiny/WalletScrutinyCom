@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Exchange: Bitcoin, Trading, switch coins'
+title: 'Crypto Exchange: Bitcoin, Trad'
 altTitle: 
 authors: 
 users: 10
@@ -12,15 +12,15 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 8.1M
+size: 
 website: 
 repository: 
 issue: 
 icon: com.teamdevops.cryptoapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

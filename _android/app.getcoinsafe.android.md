@@ -12,7 +12,7 @@ version: 0.1.6
 stars: 
 ratings: 
 reviews: 
-size: 14M
+size: 
 website: https://getcoinsafe.app
 repository: 
 issue: 

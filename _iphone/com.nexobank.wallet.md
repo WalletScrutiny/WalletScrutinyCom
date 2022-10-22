@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: 'Nexo: Buy BTC, ETH, SOL & APE'
+title: 'Nexo: Buy BTC, ETH, SOL & AVAX'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2022-05-10
-version: 2.2.28
+updated: 2022-06-28
+version: 2.2.33
 stars: 3.6
-reviews: 853
-size: '56474624'
+reviews: 867
+size: '57311232'
 website: https://nexo.io
 repository: 
 issue: 

@@ -12,7 +12,7 @@ version: 1.3.7
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://alterdice.com
 repository: 
 issue: 

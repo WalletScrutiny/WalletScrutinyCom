@@ -12,15 +12,15 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 15M
+size: 
 website: http://talosec.io
 repository: 
 issue: 
 icon: com.blocksecurity.talosec.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,20 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="page-section">
+<script>
+function lsTest(){
+    var test = 'test';
+    try {
+        localStorage.setItem(test, test)
+        localStorage.removeItem(test)
+        return true
+    } catch(e) {
+        return false
+    }
+}
+</script>
 
+<div class="page-section">
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
 <div style="width:100%;text-align:center;">
 <img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
@@ -51,29 +63,16 @@ author_profile: true
   {% assign platform = "android" %}
   {% assign verdicts = "reproducible" | split: "," %}
   {% assign selectedVerdict = "reproducible" %}
-  {% include list_of_wallets.html %}
-
+  <div class="page-section"></div>
 </div>
 
-{% if site.environment != "development" %}
-  {% include grid_of_wallets.html %}
-  {% include grid_of_wallets_proportional.html %}
-{% else %}
-  <b>Grids of Wallets only in production ...</b>
-{% endif %}
+{% include grid_of_wallets.html %}
+{% include grid_of_wallets_proportional.html %}
 
 {% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
 <h2 class="section-label" id="recently">Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }}{% if recent_posts.last.date != recent_posts.first.date %} to {{ recent_posts.last.date | date: '%b %e' }}{% endif %})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
 <div id="recentPosts">
 <div class="page-section">
-  <div id="tableofwallets3">
-    <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
-    <div class="flexi-list">
-      {% for post in recent_posts %}
-        {% include list_of_wallets_item.html %}
-      {% endfor %}
-    </div>
-  </div>
 </div>
 <a onClick="loadMoreApps()">load more ...</a>
 </div>

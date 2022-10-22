@@ -1776,6 +1776,14 @@ html {
   padding: 0.45rem !important;
 }
 
+.meta_outdated {
+  filter: grayscale(1) blur(2px);
+  border: solid 0.3rem gray;
+}
+.meta_outdated.AppDisplayCard {
+  padding: 0.45rem !important;
+}
+
 .meta_defunct {
   filter: opacity(30%);
   border: solid 0.3rem red;
@@ -1784,6 +1792,36 @@ html {
   padding: 0.45rem !important;
 }
 
-.meta_stale:hover, .meta_obsolete:hover, .meta_defunct:hover {
+.meta_stale:hover, .meta_obsolete:hover, .meta_outdated:hover, .meta_defunct:hover {
   filter: none;
+}
+
+.donate-modal {
+  display: none;
+  position: fixed;
+  z-index: 21;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+}
+
+.donate-modal-content {
+  background-color: #eee;
+  margin: auto;
+  padding: 2em;
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 90%;
+  height: 90%;
+  color: black;
+  margin-top: 2.5%;
+  overflow: auto;
+  text-align: center;
+}
+
+.gridDonationCall {
+  font-weight: bold;
 }

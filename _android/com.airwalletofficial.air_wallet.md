@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AIRWALLET - Secure Cryptocurrency Multi-Wallet
+title: AIRWALLET - Secure Cryptocurre
 altTitle: 
 authors: 
 users: 1000
@@ -12,7 +12,7 @@ version: 1.9.2
 stars: 
 ratings: 
 reviews: 
-size: 16M
+size: 
 website: https://www.airwalletofficial.com
 repository: 
 issue: 

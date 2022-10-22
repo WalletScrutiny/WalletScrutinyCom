@@ -1,6 +1,6 @@
 ---
 wsId: BitOasis
-title: BitOasis - Buy, Sell and Trade Digital Assets
+title: 'BitOasis: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.bitoasis
 appCountry: ae
 released: 2020-08-20
-updated: 2022-04-16
-version: 2.1.8
-stars: 4.3
+updated: 2022-10-19
+version: 2.1.34
+stars: 4.1
 ratings: 3007
-reviews: 378
-size: 73M
+reviews: 493
+size: 
 website: https://bitoasis.net/
 repository: 
 issue: 

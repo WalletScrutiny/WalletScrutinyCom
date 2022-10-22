@@ -1,6 +1,6 @@
 ---
 wsId: AjGlobalV
-title: AjGlobalV:Trade Bitcoin, Ethereum and Gift Cards.
+title: AjGlobalV:Trade Bitcoin, Ether
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.rinnas.aj_global
 appCountry: us
 released: 2020-05-29
-updated: 2022-03-17
-version: 2.0.11
-stars: 2.4
+updated: 2022-08-14
+version: 2.0.17
+stars: 2.5
 ratings: 146
-reviews: 12
-size: 20M
+reviews: 13
+size: 
 website: https://ajglobalv.com/
 repository: 
 issue: 

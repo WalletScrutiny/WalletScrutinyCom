@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.vinet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-15
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +30,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-22**: This app is not available anymore.
 
 ## App Description
 

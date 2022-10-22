@@ -13,7 +13,7 @@ version: 1.1.25
 stars: 
 ratings: 
 reviews: 
-size: 94M
+size: 
 website: https://www.quantdart.com/
 repository: 
 issue: 

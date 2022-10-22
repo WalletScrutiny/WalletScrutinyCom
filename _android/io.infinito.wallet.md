@@ -1,6 +1,6 @@
 ---
 wsId: InfinitoWallet
-title: Infinito Wallet - Crypto Wallet & DApp Browser
+title: Infinito Wallet - Crypto Walle
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: io.infinito.wallet
 appCountry: 
 released: 2017-11-15
-updated: 2022-03-29
-version: 2.36.8
+updated: 2022-09-06
+version: 2.36.16
 stars: 3.8
 ratings: 2198
-reviews: 110
-size: 65M
+reviews: 108
+size: 
 website: https://www.infinitowallet.io
 repository: 
 issue: 

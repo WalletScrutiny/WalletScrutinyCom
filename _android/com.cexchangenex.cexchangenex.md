@@ -13,15 +13,15 @@ version: 1.1.1075
 stars: 3.8
 ratings: 73
 reviews: 37
-size: 75M
+size: 
 website: https://cexchangenex.com/
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: NovaDAX - Buy & Sell Bitcoin and digital assets
+title: NovaDAX - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 500000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
-updated: 2022-05-11
-version: 1.1.8
-stars: 4.2
+updated: 2022-07-01
+version: 2.0.2
+stars: 4.3
 ratings: 15890
-reviews: 38
-size: 15M
+reviews: 37
+size: 
 website: https://www.novadax.com
 repository: 
 issue: 

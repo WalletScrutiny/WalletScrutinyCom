@@ -12,7 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 55M
+size: 
 website: http://www.signkeys.com
 repository: 
 issue: 

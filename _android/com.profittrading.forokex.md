@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: ProfitTradingApp for OKEx - Trade much faster
+title: ProfitTradingApp for OKEx
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.profittrading.forokex
 appCountry: 
 released: 2020-06-11
@@ -13,15 +13,15 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 19M
+size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forokex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-20
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

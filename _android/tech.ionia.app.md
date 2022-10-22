@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ionia, Blockchain Financial Platform
+title: Ionia, Blockchain Financial Pl
 altTitle: 
 authors: 
 users: 5000
@@ -12,7 +12,7 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: http://www.ionia.one
 repository: 
 issue: 

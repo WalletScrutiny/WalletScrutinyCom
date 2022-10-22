@@ -13,7 +13,7 @@ version: 1.0.1256
 stars: 4.3
 ratings: 352
 reviews: 17
-size: 37M
+size: 
 website: https://ptpwallet.com
 repository: 
 issue: 

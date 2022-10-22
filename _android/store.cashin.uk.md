@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: store.cashin.uk.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-17
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-04-25**: This app is not available anymore.
 
 ## App Description
 

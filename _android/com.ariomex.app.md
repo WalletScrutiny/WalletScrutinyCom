@@ -9,18 +9,18 @@ appCountry:
 released: 2020-09-10
 updated: 2020-09-10
 version: 2.0.0
-stars: 4
+stars: 4.1
 ratings: 125
 reviews: 5
-size: 1.0M
+size: 
 website: https://ariomex.com
 repository: 
 issue: 
 icon: com.ariomex.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-05
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

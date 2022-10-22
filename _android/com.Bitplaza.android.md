@@ -12,7 +12,7 @@ version: '4.0'
 stars: 4.2
 ratings: 123
 reviews: 16
-size: 1.7M
+size: 
 website: https://www.BitplazaShopping.com
 repository: 
 issue: 

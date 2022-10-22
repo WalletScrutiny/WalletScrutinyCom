@@ -13,15 +13,15 @@ version: 1.0.42
 stars: 
 ratings: 
 reviews: 
-size: 26M
+size: 
 website: http://www.rixx.tech
 repository: 
 issue: 
 icon: technology.def.rixx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

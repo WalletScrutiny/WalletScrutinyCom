@@ -12,15 +12,15 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 27M
+size: 
 website: https://a1in1.com
 repository: 
 issue: 
 icon: com.a1in1.crypto_coin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

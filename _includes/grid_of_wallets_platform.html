@@ -1,4 +1,4 @@
-{% assign metas = "ok,stale,obsolete,defunct" | split: "," %}
+{% assign metas = "ok,outdated,stale,obsolete,defunct" | split: "," %}
 {%- assign total = 0 -%}
 {%- for post in include.platformPosts -%}
   {%- if post.verdict == v -%}
@@ -23,7 +23,7 @@
             {%- endif -%}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
               {%- if post.icon -%}
-                {%- assign icon = base_path | append: '/images/wallet_icons/'
+                {%- assign icon = base_path | append: '/images/wIcons/'
                   | append: post.collection | append:  '/small/'
                   | append: post.icon -%}
               {%- else -%}

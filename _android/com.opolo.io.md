@@ -13,15 +13,15 @@ version: 1.3.1
 stars: 
 ratings: 
 reviews: 
-size: 18M
+size: 
 website: https://www.OPOLO.io
 repository: 
 issue: 
 icon: com.opolo.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-11
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: OpoloWallet

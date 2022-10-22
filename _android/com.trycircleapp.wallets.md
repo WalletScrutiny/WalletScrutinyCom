@@ -13,7 +13,7 @@ version: '7.0'
 stars: 
 ratings: 
 reviews: 
-size: 8.2M
+size: 
 website: https://trycircleapp.com
 repository: 
 issue: 

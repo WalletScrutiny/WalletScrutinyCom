@@ -3,7 +3,7 @@ wsId:
 title: TTNEX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ttnex.exchange
 appCountry: 
 released: 2021-01-05
@@ -12,15 +12,15 @@ version: 2.0.11
 stars: 
 ratings: 
 reviews: 
-size: 27M
+size: 
 website: https://ttnex.io
 repository: 
 issue: 
 icon: com.ttnex.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

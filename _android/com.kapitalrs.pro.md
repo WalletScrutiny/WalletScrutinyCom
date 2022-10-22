@@ -13,11 +13,11 @@ version: 90.2.001
 stars: 
 ratings: 
 reviews: 
-size: 13M
+size: 
 website: https://www.kapitalrs.com/
 repository: 
 issue: 
-icon: com.kapitalrs.pro.png
+icon: com.kapitalrs.pro.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc

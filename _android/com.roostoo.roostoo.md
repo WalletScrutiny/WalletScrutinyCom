@@ -12,15 +12,15 @@ version: 2.0.0
 stars: 3.5
 ratings: 185
 reviews: 9
-size: 9.8M
+size: 
 website: https://www.roostoo.com
 repository: 
 issue: 
 icon: com.roostoo.roostoo.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-05
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: prostocash
-title: Prostocash – обменять и продать Биткоин
+title: Prostocash – обменять и продат
 altTitle: 
 authors:
 - danny
@@ -13,15 +13,15 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://prostocash.com
 repository: 
 issue: 
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-04-11
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,7 @@ version: 2.15.0
 stars: 3.7
 ratings: 379
 reviews: 7
-size: 59M
+size: 
 website: https://www.aryatrading.com
 repository: 
 issue: 

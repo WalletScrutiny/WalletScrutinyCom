@@ -8,12 +8,12 @@ users: 10000
 appId: com.nordfx
 appCountry: lv
 released: 2021-02-28
-updated: 2021-11-18
-version: '14'
+updated: 2022-05-24
+version: '15'
 stars: 4.1
 ratings: 154
-reviews: 42
-size: 40M
+reviews: 43
+size: 
 website: http://nordfx.com
 repository: 
 issue: 

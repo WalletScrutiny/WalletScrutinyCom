@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Credtech Wallet- Buy Bitcoin, ETH, & Crypto
+title: 'Credtech Wallet- Buy Bitcoin, '
 altTitle: 
 authors: 
 users: 50
@@ -12,7 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: 
 website: 
 repository: 
 issue: 

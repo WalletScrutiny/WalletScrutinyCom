@@ -12,15 +12,15 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 7.7M
+size: 
 website: https://inindiatech.com
 repository: 
 issue: 
 icon: com.ctin.inidev.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 

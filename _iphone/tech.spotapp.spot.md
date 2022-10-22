@@ -8,11 +8,11 @@ appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2022-05-09
-version: 4.9.6
+updated: 2022-05-26
+version: 4.9.10
 stars: 4.6
-reviews: 5959
-size: '124114944'
+reviews: 5992
+size: '139986944'
 website: https://spot-bitcoin.com
 repository: 
 issue: 

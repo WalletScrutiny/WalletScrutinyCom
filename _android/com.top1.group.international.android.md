@@ -12,7 +12,7 @@ version: 3.9.0
 stars: 
 ratings: 
 reviews: 
-size: 36M
+size: 
 website: https://www.top1groups.com/
 repository: 
 issue: 

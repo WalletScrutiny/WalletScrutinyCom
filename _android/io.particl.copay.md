@@ -9,18 +9,18 @@ appCountry:
 released: 2017-09-18
 updated: 2020-05-30
 version: 5.5.1
-stars: 4.3
+stars: 4.1
 ratings: 134
-reviews: 16
-size: 16M
+reviews: 17
+size: 
 website: https://particl.io
 repository: 
 issue: 
 icon: io.particl.copay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-05-22
 signer: 
 reviewArchive: 
 twitter: 

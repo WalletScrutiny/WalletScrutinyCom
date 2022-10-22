@@ -8,12 +8,12 @@ users: 50000
 appId: com.fold
 appCountry: us
 released: 2019-11-12
-updated: 2022-04-19
-version: 139.10.3
-stars: 4.4
+updated: 2022-06-27
+version: 139.14.0
+stars: 3.9
 ratings: 987
-reviews: 596
-size: 164M
+reviews: 614
+size: 
 website: https://foldapp.com
 repository: 
 issue: 

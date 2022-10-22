@@ -12,7 +12,7 @@ version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 3.1M
+size: 
 website: https://www.bluebelt.asia/
 repository: 
 issue: 

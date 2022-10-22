@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'ETHLYTE CRYPTO: Bitcoin /Cryptocurrency /Money App'
+title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
 altTitle: 
 authors: 
 users: 5000
@@ -9,10 +9,10 @@ appCountry:
 released: 2019-05-18
 updated: 2020-03-07
 version: '2.8'
-stars: 4.4
+stars: 4
 ratings: 193
-reviews: 6
-size: 5.0M
+reviews: 7
+size: 
 website: https://ethlyte.tech/
 repository: 
 issue: 

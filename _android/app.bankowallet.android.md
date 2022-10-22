@@ -12,15 +12,15 @@ version: 1.3.17851
 stars: 
 ratings: 
 reviews: 
-size: 22M
+size: 
 website: http://www.bankowallet.com
 repository: 
 issue: 
 icon: app.bankowallet.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

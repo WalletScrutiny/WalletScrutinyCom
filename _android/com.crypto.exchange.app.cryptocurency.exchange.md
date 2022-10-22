@@ -13,7 +13,7 @@ version: '1.0'
 stars: 4.6
 ratings: 220
 reviews: 188
-size: 5.7M
+size: 
 website: http://crypto-exchange.club
 repository: 
 issue: 

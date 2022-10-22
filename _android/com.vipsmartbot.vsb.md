@@ -12,7 +12,7 @@ version: 0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 4.6M
+size: 
 website: https://www.vipsmartbot.com
 repository: 
 issue: 

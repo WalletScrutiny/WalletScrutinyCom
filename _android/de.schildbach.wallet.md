@@ -9,11 +9,11 @@ appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
 updated: 2021-12-19
-version: Varies with device
+version: VARY
 stars: 4
 ratings: 29247
-reviews: 1727
-size: Varies with device
+reviews: 1740
+size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 

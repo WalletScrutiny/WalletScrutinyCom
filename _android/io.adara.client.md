@@ -12,7 +12,7 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 27M
+size: 
 website: https://adara.io/
 repository: 
 issue: 

@@ -13,15 +13,15 @@ version: '2.0'
 stars: 4.9
 ratings: 396
 reviews: 4
-size: 40M
+size: 
 website: https://www.toolstrades.com
 repository: 
 issue: 
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-13
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: 

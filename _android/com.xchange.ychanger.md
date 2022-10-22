@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ychanger – доступный каждому обмен криптовалют
+title: Ychanger – доступный каждому о
 altTitle: 
 authors: 
 users: 500
@@ -12,15 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 1.4M
+size: 
 website: https://ychanger.net/
 repository: 
 issue: 
 icon: com.xchange.ychanger.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-06-10
 signer: 
 reviewArchive: 
 twitter: 

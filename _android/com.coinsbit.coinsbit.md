@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Coinsbit - Cryptocurrency Exchange: BTC, ETH, USDT'
+title: Coinsbit - Cryptocurrency Exch
 altTitle: 
 authors: 
 users: 100000
@@ -9,10 +9,10 @@ appCountry:
 released: 2019-10-28
 updated: 2019-11-27
 version: '1.0'
-stars: 2.3
+stars: 2.4
 ratings: 1855
-reviews: 34
-size: 16M
+reviews: 36
+size: 
 website: https://coinsbit.io/
 repository: 
 issue: 

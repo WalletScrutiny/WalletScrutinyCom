@@ -8,12 +8,12 @@ users: 10000
 appId: com.tokoin.wallet
 appCountry: us
 released: 2019-12-11
-updated: 2022-04-25
-version: 3.3.0
+updated: 2022-07-01
+version: 3.3.3
 stars: 4.1
 ratings: 576
 reviews: 6
-size: 19M
+size: 
 website: https://tokoin.io
 repository: 
 issue: 

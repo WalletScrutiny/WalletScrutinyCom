@@ -13,7 +13,7 @@ version: 2.1.5
 stars: 
 ratings: 
 reviews: 
-size: 31M
+size: 
 website: https://www.zbx.one/
 repository: 
 issue: 

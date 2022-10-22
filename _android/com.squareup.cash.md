@@ -8,12 +8,12 @@ users: 50000000
 appId: com.squareup.cash
 appCountry: 
 released: 2013-10-15
-updated: 2022-05-02
-version: Varies with device
+updated: 2022-06-30
+version: VARY
 stars: 4.6
 ratings: 1066810
-reviews: 228277
-size: Varies with device
+reviews: 238941
+size: 
 website: https://cash.app
 repository: 
 issue: 
