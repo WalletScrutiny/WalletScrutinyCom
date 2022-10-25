@@ -4,5 +4,3 @@ main:
     url: /methodology/
   - title: "<div id=\"donateButton\">Donate</div>"
     url: /donate/
-  - title: "Blog Posts"
-    url: /blog/
