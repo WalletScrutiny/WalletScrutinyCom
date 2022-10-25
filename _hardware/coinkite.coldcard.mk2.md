@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2019-04-06
 discontinued: 
-updated: 2019-08-26
+updated: 2022-10-05
 version: v4.1.6
 binaries: https://coldcard.com/downloads/
 dimensions: 
@@ -20,9 +20,9 @@ repository: https://github.com/Coldcard/firmware/releases/tag/2019-04-09T1600-v2
 issue: 
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
-meta: obsolete
+meta: 
 verdict: wip
-date: 2022-05-19
+date: 2022-10-25
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -33,8 +33,15 @@ social:
 
 ## Update 2022-10-25
 
-The [ColdCard website](https://coldcard.com/downloads/) states that the latest firmware update (4.1.6) for the MK3 is the same as the MK2. Pending verification for v4.1.6, we'll mark this review as a work-in-progress.
+The [ColdCard website](https://coldcard.com/downloads/) states that the latest
+firmware update (4.1.6) for the MK3 is the same as the MK2. Pending verification
+for v4.1.6, we'll mark this review as a work-in-progress.
 
+If you are a user of the Mk2, please check the
+{% include walletLink.html wallet='hardware/coldcardMk3' verdict='true' %} for
+your binary updates' reproducibility. As this product still is being used by
+many, we might update the review in tandem with the Mk3 despite being out of
+production.
 
 ### Old Review
 

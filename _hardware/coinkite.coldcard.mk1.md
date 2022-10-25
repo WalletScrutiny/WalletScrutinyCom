@@ -22,7 +22,7 @@ icon: coinkite.coldcard.mk1.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: obsolete
 verdict: wip
-date: 2022-05-19
+date: 2022-10-25
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -33,7 +33,13 @@ social:
 
 ## Update 2022-10-25
 
-The ColdCard Mk1 is no longer being sold by the manufacturer. v3.0.6 is listed as the final release on the official website's [download page.](https://coldcard.com/downloads/) We'll be marking this as a work-in-progress as this is already obsolete.
+The ColdCard Mk1's more than two years old firmware v3.0.6 is listed as the
+final release on the official website's
+[download page](https://coldcard.com/downloads/) making this product "obsolete".
+
+As we failed to document the intent to reproduce the firmware we removed the
+claim of it being not reproducible and leave it as WIP. This product does have
+public source code, so testing for reproducibility could be done.
 
 ## Background
 
