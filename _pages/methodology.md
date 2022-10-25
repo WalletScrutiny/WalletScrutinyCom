@@ -89,8 +89,8 @@ Independent of the detailed analysis, we might assign a meta-verdict:
 
 {% include verdictMethodology.html verdict="defunct" %}
 {% include verdictMethodology.html verdict="obsolete" %}
-{% include verdictMethodology.html verdict="outdated" %}
 {% include verdictMethodology.html verdict="stale" %}
+{% include verdictMethodology.html verdict="outdated" %}
 
 ## What is a hardware wallet?
 
