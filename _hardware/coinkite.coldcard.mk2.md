@@ -6,7 +6,7 @@ authors:
 released: 2019-04-06
 discontinued: 
 updated: 2019-08-26
-version: v2.0.2
+version: v4.1.6
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -21,7 +21,7 @@ issue:
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: obsolete
-verdict: nonverifiable
+verdict: wip
 date: 2022-05-19
 signer: 
 reviewArchive: 
@@ -30,6 +30,13 @@ social:
 - https://t.me/coldcard
 
 ---
+
+## Update 2022-10-25
+
+The [ColdCard website](https://coldcard.com/downloads/) states that the latest firmware update (4.1.6) for the MK3 is the same as the MK2. Pending verification for v4.1.6, we'll mark this review as a work-in-progress.
+
+
+### Old Review
 
 ## Background 
 
@@ -61,4 +68,4 @@ Above they briefly state how the attack is performed:
 
 ## Analysis 
 
-As mentioned above, the {{ page.title }} has been obsoleted by the manufacturer, further analysis would be moot and academic.
+As mentioned above, the {{ page.title }} has been obsoleted by the manufacturer.

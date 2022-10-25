@@ -6,7 +6,7 @@ authors:
 released: 2018-07-25
 discontinued: 
 updated: 2019-12-19
-version: v1.2.1
+version: v3.0.6
 binaries: 
 dimensions: 
 weight: 
@@ -21,7 +21,7 @@ issue:
 icon: coinkite.coldcard.mk1.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: obsolete
-verdict: nonverifiable
+verdict: wip
 date: 2022-05-19
 signer: 
 reviewArchive: 
@@ -30,6 +30,10 @@ social:
 - https://t.me/coldcard
 
 ---
+
+## Update 2022-10-25
+
+The ColdCard Mk1 is no longer being sold by the manufacturer. v3.0.6 is listed as the final release on the official website's [download page.](https://coldcard.com/downloads/) We'll be marking this as a work-in-progress as this is already obsolete.
 
 ## Background
 
