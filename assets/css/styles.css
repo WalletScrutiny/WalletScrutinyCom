@@ -1422,32 +1422,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   font-weight: 900;
 }
 
-.badge {
-  display: inline-grid;
-  text-align: center;
-  row-gap: 4px;
-  box-shadow: 0 0 0 2px var(--light-grey);
-  position: relative;
-  border-radius: 4px;
-  padding: 5px;
-}
-
-.badge-col {
-  border-radius: 1rem;
-  padding: 2px 13px;
-  font-size: .8rem;
-  position: relative;
-  overflow: hidden;
-  color: var(--white, #fff);
-  text-transform: uppercase;
-  font-weight: 800;
-}
-
-.badge-col span {
-  position: relative;
-  z-index: 2;
-}
-
 .star-rating {
   background-clip: text;
   -webkit-background-clip: text;
@@ -1825,3 +1799,19 @@ html {
 .gridDonationCall {
   font-weight: bold;
 }
+
+.verdictMethodology {
+  border-radius: 20px;
+  background-color: #8884;
+  padding: 20px;
+  margin: 40px;
+}
+
+.verdictMethodology > h2 {
+  margin-top: 0px;
+}
+
+.badge {
+  float: right;
+}
+

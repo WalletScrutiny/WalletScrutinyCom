@@ -1,7 +1,10 @@
-<strong>{{ site.data.verdicts[include.verdict].question }}</strong> If not, we tag it {%
-   include verdictBadge.html verdict=include.verdict type='short'
-%}
+<div class="verdictMethodology">
+<div class="badge">{% include verdictBadge.html verdict=include.verdict type='short' %}</div>
+<h2>{{ site.data.verdicts[include.verdict].question }}</h2>
 
-<div style="margin-top:1.3em">
+If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".
+
+<div class="details">
 {{ site.data.verdicts[include.verdict].details | markdownify }}
+</div>
 </div>
