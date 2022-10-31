@@ -1,0 +1,10 @@
+short: Blind signing
+title: Transactions are signed blindly
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message:  It's easy to lose one's coins for non-experts but provider can't exit-scam.
+question: Can the user verify and approve transactions on the device?
+details: >
+  Although the private keys may be sealed, these bearer tokens require a third-party
+  device such as a companion app.
+ 

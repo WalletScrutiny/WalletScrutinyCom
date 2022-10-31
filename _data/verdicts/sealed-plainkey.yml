@@ -1,0 +1,19 @@
+short: Sealed Keys
+title: Sealed Keys
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This product requires sharing private key material although the private key is sealed.
+question: Does the bearer token hide your keys from other devices?
+details: >
+  
+  These devices keep the user's private key sealed until the seal is broken
+  or removed. 
+  
+  However, in order for a transfer to commence, the private keys
+  have to be brought onto a different system that may not necessarily share
+  all the desired aspects of a hardware wallet. There are many viruses known
+  to look for Bitcoin private keys in memory or hard drives. The keys are not
+  outright "leaked" but they are still vulnerable.
+  
+  
+  
