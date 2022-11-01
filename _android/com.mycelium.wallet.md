@@ -20,10 +20,15 @@ issue:
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2022-05-08
+verdict: nosource
+date: 2022-11-01
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-05-08
+  version: 3.14.1.0
+  appHash: 51b5a576f1e7a7580e15a7e3fffe43d3920584b319e8cfe3ad7f7ba091056ffa
+  gitRevision: 24c873b9ba2f55ad0ccf495f823a00d23ea09b19
+  verdict: reproducible
 - date: 2022-04-15
   version: 3.14.1.0
   appHash: a06c4711f34abf0d3fb3c9648f55e6879953b552cb08013c0eb5b738dd6e85ad
@@ -228,21 +233,15 @@ Here we test if the latest version also can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
 ```
-===== Begin Results =====
-appId:          com.mycelium.wallet
-signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.14.1.0
-apkVersionCode: 3140100
-verdict:        reproducible
-appHash:        51b5a576f1e7a7580e15a7e3fffe43d3920584b319e8cfe3ad7f7ba091056ffa
-commit:         ab6081e3d08564735b9d01497ba3ac42bf2bb5d7
-
-Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3140100/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3140100/META-INF/CERT.RSA differ
-
-Revision, tag (and its signature):
-
-===== End Results =====
++ git clone --quiet --branch v3.16.0.13 --depth 1 https://github.com/mycelium-com/wallet-android app
+warning: Could not find remote branch v3.16.0.13 to clone.
+fatal: Remote branch v3.16.0.13 not found in upstream origin
++ exit 1
 ```
 
-which is what we want to see to give this wallet the verdict: **reproducible**
+This is not good. The current version on Play Store is `v3.16.0.13` yet the
+latest version
+[on their public repository is 3.16.0.8](https://github.com/mycelium-com/wallet-android/blame/master/mbw/build.gradle#L223)
+authored on 2022-07-27, more than three months ago!
+
+This wallet is **not verifiable**!
