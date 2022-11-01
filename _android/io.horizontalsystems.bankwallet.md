@@ -19,11 +19,16 @@ repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2022-08-07
+date: 2022-11-01
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2022-08-07
+  version: 0.24.2
+  appHash: 50becb19846c2cd2f686a0ad40f2889f99793558f58941ab9a492f8fb817a899
+  gitRevision: 8dca998f3c99ffa6bcc0bd52cf64d17ff2acdc00
+  verdict: reproducible
 - date: 2022-04-15
   version: 0.24.1
   appHash: ecff4a80f259ea4d7dc4f701c87000c5a6f1c93b3fc5f4235aa038cab41ff528
@@ -200,16 +205,16 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.24.2
-apkVersionCode: 61
+apkVersionName: 0.27.0
+apkVersionCode: 68
 verdict:        reproducible
-appHash:        50becb19846c2cd2f686a0ad40f2889f99793558f58941ab9a492f8fb817a899
-commit:         fea4c5d96759a865408f92e661a13e10faa66226
+appHash:        d8fea2bae72514eddb4c32ccb21b3ba3c699ce95ee4d7fbb20b8da0b8b473c41
+commit:         645d587fb3c3825da0ebfb9be13ff9fd31837a09
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_61/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_61/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_61/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
