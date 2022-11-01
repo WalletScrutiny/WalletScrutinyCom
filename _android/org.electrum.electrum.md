@@ -19,9 +19,9 @@ repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7640
 icon: org.electrum.electrum.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-04-17
+date: 2022-11-01
 signer: 
 reviewArchive:
 - date: 2022-04-15
@@ -58,6 +58,9 @@ redirect_from:
 - /posts/org.electrum.electrum/
 
 ---
+
+**Update 2022-11-01**: The latest binary does not compile with our current
+script. We have to look into it and potentially consult with the provider.
 
 With our {% include testScript.html %} we get:
 
