@@ -3,12 +3,12 @@ wsId:
 title: Shah Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.wa.shah
 appCountry: 
 released: Mar 28, 2022
-updated: 2022-06-25
-version: '2.4'
+updated: 2022-09-17
+version: '2.8'
 stars: 
 ratings: 
 reviews: 

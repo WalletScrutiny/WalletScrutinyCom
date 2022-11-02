@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
 appCountry: br
 released: 2021-02-21
-updated: 2022-10-11
-version: 1.8.46
-stars: 4.5
+updated: 2022-10-28
+version: 1.8.47
+stars: 4.6
 ratings: 808
-reviews: 639
+reviews: 644
 size: 
 website: https://bitpreco.com/
 repository: 

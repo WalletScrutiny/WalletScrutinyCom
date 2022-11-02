@@ -3,12 +3,12 @@ wsId:
 title: UsePAY
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: kr.hndsoft.usepay
 appCountry: 
 released: Jun 6, 2022
-updated: 2022-06-24
-version: 1.1.4
+updated: 2022-09-23
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

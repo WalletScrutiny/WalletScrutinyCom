@@ -3,15 +3,15 @@ wsId:
 title: Stibits
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.stibits
 appCountry: 
 released: Mar 10, 2022
-updated: 2022-07-18
-version: 0.12BETA
-stars: 
+updated: 2022-10-08
+version: 0.15BETA
+stars: 4.9
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://stibits.com
 repository: 

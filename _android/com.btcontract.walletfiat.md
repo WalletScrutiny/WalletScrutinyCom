@@ -3,11 +3,11 @@ wsId:
 title: StandardSats SBW
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.btcontract.walletfiat
 appCountry: 
 released: 
-updated: 2022-06-14
+updated: 2022-09-20
 version: VARY
 stars: 
 ratings: 

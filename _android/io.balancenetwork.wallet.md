@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Balance Wallet
+title: BalanceWallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.balancenetwork.wallet
 appCountry: 
 released: May 6, 2022
-updated: 2022-07-23
+updated: 2022-10-10
 version: 1.0.0
 stars: 
 ratings: 

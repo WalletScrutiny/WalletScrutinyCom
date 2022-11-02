@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Wallet LKRcoin - Bitcoin - Litecoin
+title: Wallet LKRcoin - Bitcoin - Lit
 altTitle: 
 authors: 
 users: 500

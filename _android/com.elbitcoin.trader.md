@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.elbitcoin.trader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

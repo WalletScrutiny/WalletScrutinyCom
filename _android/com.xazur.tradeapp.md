@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Xazur Digital - Buy & Sell Cryptocurrencies
+title: Xazur Digital - Buy & Sell Cry
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xazur.tradeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

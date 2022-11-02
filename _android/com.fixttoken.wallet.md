@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Fixttoken - Fixt token Smart Wallet
+title: Fixttoken - Fixt token Smart W
 altTitle: 
 authors: 
 users: 100

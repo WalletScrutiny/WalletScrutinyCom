@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: SENCOINEX - Bitcoin & Crypto Exchange & Trade
+title: SENCOINEX - Bitcoin & Crypto E
 altTitle: 
 authors: 
 users: 100

@@ -12,7 +12,7 @@ updated: 2022-09-12
 version: 6.2.4
 stars: 4.1
 ratings: 20
-reviews: 4
+reviews: 5
 size: 
 website: https://mybitstore.com
 repository: 

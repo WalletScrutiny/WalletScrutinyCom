@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Nebeus: Buy & Borrow Crypto'
+title: 'Nebeus: IBANs for Crypto'
 altTitle: 
 authors: 
 users: 50000
 appId: com.nebeus.android
 appCountry: 
 released: 
-updated: 2022-06-14
-version: 1.4.11
+updated: 2022-10-13
+version: 1.4.19
 stars: 
 ratings: 
 reviews: 

@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - emanuel
-users: 100000
+users: 500000
 appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
-updated: 2022-06-23
-version: 2.17.0
-stars: 4.1
+updated: 2022-10-29
+version: 2.25.0
+stars: 3.7
 ratings: 3880
-reviews: 579
+reviews: 599
 size: 
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

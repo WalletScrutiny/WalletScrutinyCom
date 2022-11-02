@@ -4,7 +4,7 @@ title: 'imToken: Crypto & DeFi Wallet'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31

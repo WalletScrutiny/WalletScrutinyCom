@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Excoin Trades: Trade App'
+title: 'Rocket Trades: Trade App'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: app.excointrades.com
 appCountry: 
 released: Mar 28, 2022
-updated: 2022-05-09
-version: 1.0.6
+updated: 2022-09-20
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

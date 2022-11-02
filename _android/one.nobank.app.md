@@ -3,12 +3,12 @@ wsId:
 title: nobank
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: one.nobank.app
 appCountry: 
 released: May 12, 2022
-updated: 2022-07-25
-version: 0.17.8
+updated: 2022-10-28
+version: 0.36.2
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: one.nobank.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

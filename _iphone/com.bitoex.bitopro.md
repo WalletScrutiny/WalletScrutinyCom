@@ -8,11 +8,11 @@ appId: com.bitoex.bitopro
 appCountry: us
 idd: 1393007496
 released: 2018-08-03
-updated: 2022-09-21
-version: 4.3.3
+updated: 2022-10-25
+version: 4.4.0
 stars: 2
 reviews: 4
-size: '142336000'
+size: '142574592'
 website: https://www.bitopro.com/
 repository: 
 issue: 

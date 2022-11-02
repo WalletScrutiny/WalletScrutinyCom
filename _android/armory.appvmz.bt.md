@@ -3,7 +3,7 @@ wsId:
 title: Armory Secure Wallet
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: armory.appvmz.bt
 appCountry: 
 released: Jun 7, 2022

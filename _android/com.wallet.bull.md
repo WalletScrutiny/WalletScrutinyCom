@@ -10,18 +10,18 @@ appCountry: us
 released: 2021-06-28
 updated: 2021-10-13
 version: 1.4.1-947
-stars: 4.4
+stars: 4.1
 ratings: 713
-reviews: 24
+reviews: 26
 size: 
 website: https://bullcoin.finance/
 repository: 
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-30
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: bullcoinfinance

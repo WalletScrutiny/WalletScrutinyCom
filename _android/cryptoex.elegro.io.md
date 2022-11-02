@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: elegro Exchange - Bitcoin and crypto exchange
+title: 'elegro Exchange - Bitcoin and '
 altTitle: 
 authors:
 - leo

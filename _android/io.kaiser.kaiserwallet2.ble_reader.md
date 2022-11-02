@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: KaiserWallet2 BLE - Cold wallet, Hardware wallet
+title: KaiserWallet2 BLE - Cold walle
 altTitle: 
 authors: 
 users: 100

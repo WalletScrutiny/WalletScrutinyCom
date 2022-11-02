@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chat.bullionblock.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

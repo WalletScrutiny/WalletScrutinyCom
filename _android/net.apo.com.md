@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: APO Multi-cryptocurrency Wallet
+title: APO Multi-cryptocurrency Walle
 altTitle: 
 authors: 
 users: 100

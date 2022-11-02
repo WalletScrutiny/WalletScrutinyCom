@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Funex
+title: Funex Coin
 altTitle: 
 authors: 
-users: 5
+users: 1000
 appId: com.funex.coin
 appCountry: 
 released: Feb 18, 2022
-updated: 2022-05-31
-version: 1.0.5
+updated: 2022-10-22
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.funex.coin.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

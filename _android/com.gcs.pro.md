@@ -3,7 +3,7 @@ wsId:
 title: GCex
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.gcs.pro
 appCountry: 
 released: 

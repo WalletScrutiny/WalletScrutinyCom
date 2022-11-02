@@ -8,20 +8,20 @@ users: 5000000
 appId: com.payeer
 appCountry: 
 released: 2018-01-03
-updated: 2020-12-24
+updated: 2022-10-18
 version: VARY
-stars: 4.3
+stars: 4.4
 ratings: 36999
-reviews: 163
+reviews: 166
 size: 
 website: https://payeer.com
 repository: 
 issue: 
 icon: com.payeer.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2021-12-19
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

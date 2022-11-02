@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Exchange -  Buy & Sell Cryptocurrency
+title: 'Crypto Exchange -  Buy & Sell '
 altTitle: 
 authors:
 - danny

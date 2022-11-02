@@ -7,8 +7,8 @@ users: 1000
 appId: com.safesenda
 appCountry: 
 released: Mar 11, 2022
-updated: 2022-07-29
-version: 1.1.5
+updated: 2022-08-16
+version: 1.1.10
 stars: 
 ratings: 
 reviews: 

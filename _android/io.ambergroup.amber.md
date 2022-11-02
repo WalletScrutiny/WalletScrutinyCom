@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: 'WhaleFin: buy Crypto, BTC, ETH'
+title: 'WhaleFin: Trade Crypto, BTC'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2022-09-01
-version: 2.8.5
+updated: 2022-10-27
+version: 2.9.6
 stars: 4.7
 ratings: 2656
 reviews: 261

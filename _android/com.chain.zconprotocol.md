@@ -3,7 +3,7 @@ wsId:
 title: BISKIT Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.chain.zconprotocol
 appCountry: 
 released: Jan 5, 2022

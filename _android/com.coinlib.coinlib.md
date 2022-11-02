@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinlib - Crypto Trading Made Easy
+title: 'Coinlib - Crypto Trading Made '
 altTitle: 
 authors: 
 users: 10000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinlib.coinlib.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

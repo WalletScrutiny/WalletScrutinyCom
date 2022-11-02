@@ -9,9 +9,9 @@ appCountry:
 released: May 26, 2022
 updated: 2022-07-12
 version: 1.6.0
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://fulldive.com
 repository: 

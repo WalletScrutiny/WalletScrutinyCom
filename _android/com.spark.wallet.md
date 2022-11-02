@@ -11,9 +11,9 @@ appCountry:
 released: 2018-12-10
 updated: 2021-11-08
 version: 0.3.1
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://github.com/shesek/spark-wallet
 repository: https://github.com/shesek/spark-wallet

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For FTX - Trade much faster
+title: ProfitTradingApp for FTX
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25
-updated: 2022-06-06
-version: 1.0.15
+updated: 2022-09-13
+version: 1.2.1
 stars: 5
 ratings: 30
 reviews: 1

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pkg.JusPay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

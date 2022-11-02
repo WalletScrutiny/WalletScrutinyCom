@@ -3,12 +3,12 @@ wsId:
 title: 'LYO WALLET: NFTs & Crypto'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.lyofi.wallet
 appCountry: 
 released: May 20, 2022
-updated: 2022-07-21
-version: 1.1.1
+updated: 2022-10-13
+version: 1.2.4
 stars: 
 ratings: 
 reviews: 

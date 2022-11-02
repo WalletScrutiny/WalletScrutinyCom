@@ -3,7 +3,7 @@ wsId:
 title: Q7Trades
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.wQ7Trades_15018357
 appCountry: 
 released: Jan 13, 2022

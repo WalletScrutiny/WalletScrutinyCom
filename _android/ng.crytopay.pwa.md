@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptopay.ng | Buy, Sell & Exchange Crypto|
+title: Cryptopay.ng | Buy, Sell & Exc
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ng.crytopay.pwa.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-18
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2019-11-05
 updated: 2022-08-09
 version: 4.8.1
 stars: 4.9
-reviews: 39
+reviews: 40
 size: '114859008'
 website: https://frontier.xyz
 repository: 

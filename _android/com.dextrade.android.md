@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-07-03
 updated: 2022-04-01
 version: 1.2.4
-stars: 3
+stars: 3.1
 ratings: 218
-reviews: 17
+reviews: 18
 size: 
 website: https://dex-trade.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: aryainvest
-title: ARYA Invest smart, live better
+title: 'ARYA: investor community'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 100000
 appId: com.techx.arya
 appCountry: us
 released: 2019-09-10
-updated: 2022-03-01
-version: 2.15.0
-stars: 3.7
+updated: 2022-10-13
+version: 2.20.0
+stars: 3.8
 ratings: 379
 reviews: 7
 size: 

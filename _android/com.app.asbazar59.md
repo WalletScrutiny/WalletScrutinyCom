@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ASBAZAR Bitcoin Marketplace & Crypto Wallet
+title: 'ASBAZAR Bitcoin Marketplace & '
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.asbazar59.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-07
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: asbazarofficial

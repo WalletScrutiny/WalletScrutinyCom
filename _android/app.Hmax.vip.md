@@ -3,7 +3,7 @@ wsId:
 title: Hmax logistics
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: app.Hmax.vip
 appCountry: 
 released: Sep 17, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.Hmax.vip.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

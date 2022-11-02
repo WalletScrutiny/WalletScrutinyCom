@@ -9,9 +9,9 @@ appCountry:
 released: Mar 13, 2020
 updated: 2021-12-10
 version: 5.4.0
-stars: 3
+stars: 2.8
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://banq.com
 repository: 

@@ -3,12 +3,12 @@ wsId:
 title: Miracle Pos
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.ofinans.miraclepos
 appCountry: 
 released: Apr 30, 2022
-updated: 2022-07-25
-version: 1.2.1
+updated: 2022-10-31
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 

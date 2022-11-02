@@ -7,8 +7,8 @@ users: 1000
 appId: com.sketch.wallet
 appCountry: 
 released: Jul 28, 2021
-updated: 2022-10-11
-version: 1.0.3
+updated: 2022-10-25
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 

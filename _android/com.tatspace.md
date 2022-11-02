@@ -3,12 +3,12 @@ wsId:
 title: TATSPACE
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.tatspace
 appCountry: 
 released: Feb 13, 2022
-updated: 2022-07-25
-version: 1.2.4
+updated: 2022-11-01
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 

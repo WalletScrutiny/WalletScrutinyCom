@@ -8,9 +8,9 @@ users: 50000
 appId: com.paybis
 appCountry: 
 released: 2021-09-06
-updated: 2021-10-07
-version: 1.0.3
-stars: 3
+updated: 2022-10-25
+version: 1.1.0
+stars: 3.1
 ratings: 173
 reviews: 17
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.paybis.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-10-21
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: paybis

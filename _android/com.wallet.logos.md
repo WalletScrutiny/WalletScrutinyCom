@@ -7,8 +7,8 @@ users: 10000
 appId: com.wallet.logos
 appCountry: 
 released: Sep 16, 2020
-updated: 2022-06-28
-version: 0.3.5
+updated: 2022-10-13
+version: 0.3.9
 stars: 
 ratings: 
 reviews: 

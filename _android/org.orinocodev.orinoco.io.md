@@ -3,15 +3,15 @@ wsId:
 title: Orinoco.io
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: org.orinocodev.orinoco.io
 appCountry: 
 released: Apr 26, 2020
-updated: 2022-06-30
+updated: 2022-10-27
 version: 1.0.0
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://orinoco.io
 repository: 

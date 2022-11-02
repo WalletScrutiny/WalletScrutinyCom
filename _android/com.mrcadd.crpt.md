@@ -3,7 +3,7 @@ wsId:
 title: Mercado bitcoin crypto token
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mrcadd.crpt
 appCountry: 
 released: 

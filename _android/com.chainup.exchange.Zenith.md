@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: ZenithCex
+title: Fuzionx
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.chainup.exchange.Zenith
 appCountry: 
 released: Mar 6, 2022
-updated: 2022-03-06
-version: 5.3.6
+updated: 2022-09-30
+version: 5.5.1_push_v2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://zenithcex.com
+website: https://fuzionx.io
 repository: 
 issue: 
 icon: com.chainup.exchange.Zenith.jpg

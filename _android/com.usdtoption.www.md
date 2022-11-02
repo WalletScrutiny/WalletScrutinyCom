@@ -3,13 +3,13 @@ wsId:
 title: USDT Option
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.usdtoption.www
 appCountry: 
 released: 2020-05-10
 updated: 2020-05-10
 version: 1.1.1
-stars: 2.9
+stars: 3.1
 ratings: 
 reviews: 6
 size: 

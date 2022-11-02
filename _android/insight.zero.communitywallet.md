@@ -3,15 +3,15 @@ wsId:
 title: Zero Mobile Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: insight.zero.communitywallet
 appCountry: 
 released: 2018-07-09
 updated: 2019-01-01
 version: 1.0.1
-stars: 4.5
+stars: 4.6
 ratings: 67
-reviews: 6
+reviews: 7
 size: 
 website: https://zerocurrency.io/
 repository: 

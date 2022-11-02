@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Trx global
+title: Transaction
 altTitle: 
 authors: 
 users: 10000
 appId: com.trxglobal.owgkf
 appCountry: 
 released: Mar 27, 2022
-updated: 2022-04-12
-version: '1.1'
+updated: 2022-09-05
+version: '1.3'
 stars: 
 ratings: 
 reviews: 

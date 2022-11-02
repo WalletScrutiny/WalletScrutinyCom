@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Vibra
+title: 'VIBRA Wallet: Buy BTC and ETH'
 altTitle: 
 authors: 
 users: 100000
 appId: com.abl.vibra
 appCountry: 
 released: Oct 21, 2021
-updated: 2022-09-23
-version: 1.6.0
+updated: 2022-11-01
+version: 1.6.11
 stars: 3.9
 ratings: 
 reviews: 5

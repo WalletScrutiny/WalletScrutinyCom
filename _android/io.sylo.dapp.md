@@ -8,8 +8,8 @@ users: 100000
 appId: io.sylo.dapp
 appCountry: 
 released: 2019-09-10
-updated: 2022-09-15
-version: 4.0.11
+updated: 2022-10-27
+version: 4.0.14
 stars: 4
 ratings: 758
 reviews: 45

@@ -4,15 +4,15 @@ title: Zamzam - money transfers
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: ru.zamzamwallet
 appCountry: ru
 released: 2020-06-26
 updated: 2022-10-10
 version: 2.8.63
-stars: 3.9
+stars: 3.7
 ratings: 139
-reviews: 208
+reviews: 209
 size: 
 website: https://zam.me/
 repository: 

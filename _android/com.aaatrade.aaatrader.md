@@ -7,8 +7,8 @@ users: 100
 appId: com.aaatrade.aaatrader
 appCountry: 
 released: 
-updated: 2022-05-12
-version: 1.1.1
+updated: 2022-11-02
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 

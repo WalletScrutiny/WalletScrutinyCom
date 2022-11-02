@@ -8,11 +8,11 @@ appId: com.huobi.kr
 appCountry: kr
 idd: 1375898166
 released: 2018-05-26
-updated: 2022-10-06
-version: 3.7.9
+updated: 2022-10-31
+version: 3.8.2
 stars: 2.9
-reviews: 274
-size: '157852672'
+reviews: 275
+size: '154905600'
 website: http://www.hb.co.kr
 repository: 
 issue: 

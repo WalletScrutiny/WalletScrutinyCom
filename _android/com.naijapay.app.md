@@ -3,7 +3,7 @@ wsId:
 title: Naijapay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.naijapay.app
 appCountry: 
 released: Jan 21, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.naijapay.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

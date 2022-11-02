@@ -8,11 +8,11 @@ appId: com.boquanhash.dotwallet
 appCountry: us
 idd: 1509685349
 released: 2021-01-05
-updated: 2022-08-05
-version: 2.16.8
+updated: 2022-10-28
+version: 2.16.15
 stars: 5
 reviews: 4
-size: '76229632'
+size: '78651392'
 website: https://www.dotwallet.com
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: PQI Crypto Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.pqi.wallet
 appCountry: 
 released: Mar 24, 2022

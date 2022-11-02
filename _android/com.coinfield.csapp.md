@@ -10,18 +10,18 @@ appCountry: ca
 released: 2019-05-16
 updated: 2021-07-26
 version: 2.6.0
-stars: 3.5
+stars: 3.4
 ratings: 1231
-reviews: 95
+reviews: 98
 size: 
 website: http://www.coinfield.com
 repository: 
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

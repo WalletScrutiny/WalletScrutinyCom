@@ -1,6 +1,6 @@
 ---
 wsId: unifyre
-title: 'Unifyre: One Wallet, Endless  Possibilities'
+title: 'Unifyre: One Wallet, Endless  '
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ferrum.unifyre.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2021-09-16
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: UnifyreWallet

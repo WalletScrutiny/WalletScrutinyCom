@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Trofi: Earn Interest on Crypto'
+title: Trofi - Crypto Investment App
 altTitle: 
 authors: 
 users: 1000
 appId: com.trofi
 appCountry: 
 released: Apr 12, 2022
-updated: 2022-07-26
-version: 3.1.4
+updated: 2022-09-21
+version: 3.2.0
 stars: 5
 ratings: 
 reviews: 99

@@ -3,7 +3,7 @@ wsId:
 title: Luna Trading
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.cmgroup.luna
 appCountry: 
 released: May 10, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cmgroup.luna.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

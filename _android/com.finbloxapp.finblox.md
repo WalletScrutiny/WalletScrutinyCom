@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: Finblox - Earn Crypto Yield
+title: 'Finblox: Earn Bitcoin & Crypto'
 altTitle: 
 authors: 
 users: 10000
 appId: com.finbloxapp.finblox
 appCountry: 
 released: Dec 28, 2021
-updated: 2022-10-18
-version: 0.64.0
-stars: 3.5
+updated: 2022-11-01
+version: 0.66.0
+stars: 3.7
 ratings: 
-reviews: 19
+reviews: 17
 size: 
 website: https://www.finbloxapp.com/
 repository: 

@@ -7,8 +7,8 @@ users: 1000
 appId: com.tbit.android
 appCountry: 
 released: Feb 8, 2022
-updated: 2022-10-11
-version: 2.1.4
+updated: 2022-10-31
+version: 2.1.6
 stars: 5
 ratings: 
 reviews: 13

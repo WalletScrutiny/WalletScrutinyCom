@@ -3,7 +3,7 @@ wsId:
 title: ContaCripto
 altTitle: 
 authors: 
-users: 5
+users: 1
 appId: com.contacripto.app
 appCountry: 
 released: Jun 7, 2022

@@ -3,7 +3,7 @@ wsId:
 title: Alcoin4naira
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.app.alcoin4naira
 appCountry: 
 released: Apr 4, 2022

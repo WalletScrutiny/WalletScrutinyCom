@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Fluency - The Global Cryptobank of the Future.
+title: Fluency - The Global Cryptoban
 altTitle: 
 authors: 
 users: 1000
@@ -9,9 +9,9 @@ appCountry:
 released: 2020-02-27
 updated: 2020-04-29
 version: 1.0.0
-stars: 4.1
+stars: 3.9
 ratings: 420
-reviews: 7
+reviews: 8
 size: 
 website: https://www.fluencybank.com/
 repository: 

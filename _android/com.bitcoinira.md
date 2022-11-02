@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitcoinira
 appCountry: us
 released: 2021-06-15
-updated: 2022-10-14
-version: 1.5.24
-stars: 4.7
+updated: 2022-10-21
+version: 1.5.25
+stars: 4.5
 ratings: 508
-reviews: 345
+reviews: 359
 size: 
 website: https://bitcoinira.com/
 repository: 

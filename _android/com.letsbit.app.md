@@ -3,12 +3,12 @@ wsId:
 title: Let’sBit · Tus criptos a mano
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.letsbit.app
 appCountry: 
 released: May 6, 2022
-updated: 2022-07-18
-version: v1.1.14
+updated: 2022-10-24
+version: v1.3.7
 stars: 
 ratings: 
 reviews: 

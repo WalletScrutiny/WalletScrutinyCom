@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: OTPPAY - Crypto Exchange & Merchant Payments
+title: OTPPAY - Crypto Exchange & Mer
 altTitle: 
 authors: 
 users: 1000

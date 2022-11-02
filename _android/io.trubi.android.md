@@ -3,7 +3,7 @@ wsId:
 title: Trubi Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.trubi.android
 appCountry: 
 released: 

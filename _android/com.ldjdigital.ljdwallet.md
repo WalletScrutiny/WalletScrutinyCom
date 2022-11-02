@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: LDJ Wallet, your preferred multi-currency wallet.
+title: LDJ Wallet, your preferred mul
 altTitle: 
 authors: 
 users: 50
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ldjdigital.ljdwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-29
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

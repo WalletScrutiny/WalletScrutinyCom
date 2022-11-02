@@ -7,8 +7,8 @@ users: 500
 appId: com.cm.coinmark
 appCountry: 
 released: Sep 17, 2021
-updated: 2022-07-07
-version: 1.2.10
+updated: 2022-08-27
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 

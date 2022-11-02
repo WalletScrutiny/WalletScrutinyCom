@@ -9,9 +9,9 @@ appCountry:
 released: Aug 28, 2019
 updated: 2022-08-09
 version: 1.6.11
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 93
+reviews: 95
 size: 
 website: http://vault12.com
 repository: 

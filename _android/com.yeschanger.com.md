@@ -3,15 +3,15 @@ wsId:
 title: Yeschanger Ecurrency Exchanger
 altTitle: 
 authors: 
-users: 10
+users: 5000
 appId: com.yeschanger.com
 appCountry: 
 released: Jun 2, 2022
-updated: 2022-06-02
-version: 2.8.0
-stars: 
+updated: 2022-08-25
+version: 2.91.12
+stars: 3.9
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.yeschanger.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.yeschanger.com.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

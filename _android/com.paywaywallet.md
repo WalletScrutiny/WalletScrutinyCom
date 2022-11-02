@@ -9,11 +9,11 @@ users: 50000
 appId: com.paywaywallet
 appCountry: 
 released: 2019-02-13
-updated: 2022-06-30
-version: '3.2.6 (build: #1233/20220630132601)'
-stars: 4.2
+updated: 2022-10-24
+version: '3.5.1 (build: #1269/20221024161541)'
+stars: 4.3
 ratings: 254
-reviews: 2
+reviews: 3
 size: 
 website: https://www.payway.ug
 repository: 

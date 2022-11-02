@@ -22,7 +22,7 @@ meta: ok
 verdict: nosource
 date: 2022-11-02
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2019-11-29
   version: 
   appHash: 

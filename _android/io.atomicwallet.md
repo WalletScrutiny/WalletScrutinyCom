@@ -1,6 +1,6 @@
 ---
 wsId: atomic
-title: Bitcoin Wallet & Ethereum Ripple ZIL DOT
+title: Bitcoin Wallet Crypto Ethereum
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: io.atomicwallet
 appCountry: 
 released: 2019-01-30
-updated: 2022-06-24
-version: 0.90.2
-stars: 4.5
+updated: 2022-10-24
+version: 0.99.5
+stars: 4.6
 ratings: 62655
-reviews: 5170
+reviews: 5284
 size: 
 website: https://atomicwallet.io
 repository: 

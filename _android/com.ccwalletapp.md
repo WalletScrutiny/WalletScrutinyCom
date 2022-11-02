@@ -1,6 +1,6 @@
 ---
 wsId: ccwallet
-title: 'CCWallet: Your Bitcoin Wallet. Blockchain App'
+title: 'CCWallet: Your Bitcoin Wallet.'
 altTitle: 
 authors:
 - leo
@@ -13,16 +13,16 @@ updated: 2020-07-29
 version: 1.3.1
 stars: 4.2
 ratings: 555
-reviews: 69
+reviews: 70
 size: 
 website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: ftbfs
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: CoinCasso

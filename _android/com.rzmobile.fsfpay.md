@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptocurrency Payment Gateway - FSFPAY.com
+title: Cryptocurrency Payment Gateway
 altTitle: 
 authors: 
 users: 100

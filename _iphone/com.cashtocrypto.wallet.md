@@ -8,11 +8,11 @@ appId: com.cashtocrypto.wallet
 appCountry: us
 idd: 1554808338
 released: 2021-03-30
-updated: 2022-10-19
-version: 2.1.0
+updated: 2022-11-01
+version: 2.1.1
 stars: 3.7
-reviews: 63
-size: '82142208'
+reviews: 66
+size: '82475008'
 website: https://bitcoindepot.com/
 repository: 
 issue: 

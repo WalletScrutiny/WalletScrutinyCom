@@ -8,8 +8,8 @@ users: 10000
 appId: com.kelta.app
 appCountry: sk
 released: 2018-05-15
-updated: 2021-11-22
-version: 3.1.1
+updated: 2022-07-29
+version: 3.1.2
 stars: 2.9
 ratings: 1251
 reviews: 1103

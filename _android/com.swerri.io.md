@@ -3,11 +3,11 @@ wsId:
 title: Swerri
 altTitle: 
 authors: 
-users: 1000
+users: 10000
 appId: com.swerri.io
 appCountry: 
 released: 
-updated: 2022-07-05
+updated: 2022-10-24
 version: VARY
 stars: 
 ratings: 

@@ -7,8 +7,8 @@ users: 10000
 appId: com.taotao_ex.android
 appCountry: 
 released: May 29, 2019
-updated: 2022-09-21
-version: 3.1.1
+updated: 2022-10-19
+version: 3.2.0
 stars: 
 ratings: 
 reviews: 

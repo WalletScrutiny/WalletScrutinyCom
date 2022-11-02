@@ -11,7 +11,7 @@ released: 2019-10-10
 updated: 2022-10-17
 version: 1.0.103
 stars: 4.7
-reviews: 172753
+reviews: 172953
 size: '51147776'
 website: https://pro.coinbase.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BetaFunds - The Smart Beta Index Fund
+title: BetaFunds - The Smart Beta Ind
 altTitle: 
 authors: 
 users: 50

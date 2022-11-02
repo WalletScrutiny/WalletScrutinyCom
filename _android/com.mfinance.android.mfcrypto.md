@@ -3,7 +3,7 @@ wsId:
 title: mF Crypto
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.mfinance.android.mfcrypto
 appCountry: 
 released: Oct 7, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mfinance.android.mfcrypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

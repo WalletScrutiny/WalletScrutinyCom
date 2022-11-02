@@ -7,8 +7,8 @@ users: 500
 appId: com.stablex
 appCountry: 
 released: Oct 27, 2021
-updated: 2022-10-14
-version: 2.3.5
+updated: 2022-10-24
+version: 2.3.5.1
 stars: 
 ratings: 
 reviews: 

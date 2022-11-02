@@ -8,11 +8,11 @@ users: 100000
 appId: com.token.lpnt
 appCountry: 
 released: 2021-05-03
-updated: 2022-06-15
-version: '5.0'
-stars: 3.7
+updated: 2022-10-23
+version: '6.5'
+stars: 4.5
 ratings: 
-reviews: 3
+reviews: 2
 size: 
 website: https://www.lpntoken.io
 repository: 

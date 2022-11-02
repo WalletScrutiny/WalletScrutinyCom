@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'MoonPos: Accept payments in crypto easily'
+title: 'MoonPos: Accept payments in cr'
 altTitle: 
 authors: 
 users: 500

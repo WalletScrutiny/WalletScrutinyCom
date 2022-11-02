@@ -3,12 +3,12 @@ wsId:
 title: Xfacia Buy BTC & Crypto
 altTitle: 
 authors: 
-users: 1000
+users: 10000
 appId: com.web.XFacia
 appCountry: 
 released: Apr 21, 2022
-updated: 2022-07-13
-version: '1.9'
+updated: 2022-09-28
+version: '1.3'
 stars: 
 ratings: 
 reviews: 

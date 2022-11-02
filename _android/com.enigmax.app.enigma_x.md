@@ -7,8 +7,8 @@ users: 5
 appId: com.enigmax.app.enigma_x
 appCountry: 
 released: Jan 17, 2022
-updated: 2022-07-28
-version: '1.2'
+updated: 2022-08-11
+version: '1.3'
 stars: 
 ratings: 
 reviews: 

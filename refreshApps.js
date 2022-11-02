@@ -6,7 +6,7 @@ const readline = require('readline')
 
 async function refresh (skip) {
   fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), 'yyyy-mm-dd')}:\n`)
-  appStore.refreshAll()
+  if (!skip) appStore.refreshAll()
   playStore.refreshAll(skip)
   const updateMillis = 500
   var msg = ''

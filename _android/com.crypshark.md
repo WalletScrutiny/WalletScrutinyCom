@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Crypshark Fincity Wallet - Buy Bitcoin & Crypto
+title: Crypshark Fincity Wallet - Buy
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.crypshark
 appCountry: 
 released: 2021-05-20
-updated: 2021-09-09
-version: 1.0.0.37
+updated: 2022-07-19
+version: 1.0.0.39-cryptoshark
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.crypshark.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive: 

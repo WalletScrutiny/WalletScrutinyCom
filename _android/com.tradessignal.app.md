@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Trades Signal (Forex, Stock, Crypto)
+title: Trades Signal (Forex, Stock, C
 altTitle: 
 authors:
 - danny

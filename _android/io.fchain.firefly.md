@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-08
 updated: 2022-02-10
 version: 3.4.2
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://wallet.fchain.io
 repository: https://github.com/fchainio/firefly#readme

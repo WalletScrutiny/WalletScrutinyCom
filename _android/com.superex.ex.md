@@ -3,15 +3,15 @@ wsId:
 title: 'SuperEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 100000
+users: 1000000
 appId: com.superex.ex
 appCountry: 
 released: Mar 23, 2022
-updated: 2022-07-14
-version: 2.3.1
-stars: 4.4
+updated: 2022-10-25
+version: 2.4.6
+stars: 4
 ratings: 
-reviews: 70
+reviews: 163
 size: 
 website: https://www.superex.com
 repository: 

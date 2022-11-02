@@ -3,7 +3,7 @@ wsId:
 title: Gebo KEI
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.zoid.geboapp
 appCountry: 
 released: May 12, 2021

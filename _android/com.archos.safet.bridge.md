@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Safe-T Companion for ARCHOS Safe-T touch
+title: Safe-T Companion for ARCHOS Sa
 altTitle: 
 authors: 
 users: 5000

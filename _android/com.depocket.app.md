@@ -3,12 +3,12 @@ wsId:
 title: DePocket
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.depocket.app
 appCountry: 
 released: Jan 20, 2022
-updated: 2022-07-05
-version: 1.1.0
+updated: 2022-08-29
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 

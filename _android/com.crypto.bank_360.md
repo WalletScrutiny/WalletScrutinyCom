@@ -3,7 +3,7 @@ wsId:
 title: CryptoCash360
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.crypto.bank_360
 appCountry: 
 released: Apr 18, 2022

@@ -3,7 +3,7 @@ wsId:
 title: Swap Crypto Exchange
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.crypto.exchange.trading
 appCountry: 
 released: Jun 11, 2022

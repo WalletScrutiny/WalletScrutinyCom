@@ -7,8 +7,8 @@ users: 100
 appId: com.tradenext.android
 appCountry: 
 released: 
-updated: 2022-04-27
-version: 1.0.0
+updated: 2022-08-31
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Secure Atm
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.btcatm.btcatm
 appCountry: 
 released: Jun 8, 2022

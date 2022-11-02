@@ -3,7 +3,7 @@ wsId:
 title: Capricoin Copay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.capricoin.copay
 appCountry: 
 released: 2020-05-14

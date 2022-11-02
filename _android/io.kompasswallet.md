@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kompass Market - OTC, Crypto Wallet, USDT Trading
+title: Kompass Market - OTC, Crypto W
 altTitle: 
 authors: 
 users: 10000

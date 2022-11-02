@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Trader
 altTitle: 
 authors: 
-users: 10
+users: 1000
 appId: com.wBitcoinTrader_15119149
 appCountry: 
 released: Feb 2, 2022
@@ -19,7 +19,7 @@ issue:
 icon: com.wBitcoinTrader_15119149.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

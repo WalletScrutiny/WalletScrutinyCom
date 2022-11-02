@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Forex Simulator - trading with real market data
+title: Forex Simulator - trading with
 altTitle: 
 authors:
 - danny

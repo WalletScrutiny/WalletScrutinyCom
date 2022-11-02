@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: im TRX
+title: marmetal
 altTitle: 
 authors: 
 users: 1000
 appId: com.imtrx.dhou
 appCountry: 
 released: Apr 11, 2022
-updated: 2022-04-22
-version: '1.1'
+updated: 2022-09-13
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.imtrx.dhou.jpg
+icon: com.imtrx.dhou.png
 bugbounty: 
 meta: ok
 verdict: wip

@@ -3,15 +3,15 @@ wsId:
 title: Assure
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.neuxs.assure
 appCountry: 
 released: Jan 27, 2022
-updated: 2022-07-29
-version: 1.0.58
-stars: 
+updated: 2022-10-31
+version: 1.0.77
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 13
 size: 
 website: 
 repository: 

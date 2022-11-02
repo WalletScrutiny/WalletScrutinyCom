@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Titan Wallet- Gateway to DeFi
+title: Covo Wallet- Gateway to DeFi
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: io.android.titanwallet
 appCountry: 
 released: May 7, 2022
-updated: 2022-05-07
-version: 1.0.1
+updated: 2022-09-22
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 

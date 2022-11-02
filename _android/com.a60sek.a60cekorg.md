@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Купить Биткоин за рубли – 60cek
+title: Купить Биткоин за рубли – 60ce
 altTitle: 
 authors:
 - danny

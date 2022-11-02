@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-07
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: protonxpr

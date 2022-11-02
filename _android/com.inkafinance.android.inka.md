@@ -7,7 +7,7 @@ users: 10
 appId: com.inkafinance.android.inka
 appCountry: 
 released: 
-updated: 2022-07-05
+updated: 2022-08-01
 version: VARY
 stars: 
 ratings: 

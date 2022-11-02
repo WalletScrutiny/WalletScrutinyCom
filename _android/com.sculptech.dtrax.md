@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: DTrax - Crypto wallet, Payment, Crypto Exchange
+title: DTrax - Crypto wallet, Payment
 altTitle: 
 authors: 
 users: 10000

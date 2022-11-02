@@ -9,7 +9,7 @@ appId: com.coindcx
 appCountry: 
 released: 2018-11-02
 updated: 2022-10-20
-version: 2.06.012
+version: 2.06.023
 stars: 4.7
 ratings: 13567
 reviews: 181

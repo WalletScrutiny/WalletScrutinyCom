@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For Coinbase and Coinbase PRO
+title: ProfitTradingApp for Coinbase
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2021-05-16
 version: VARY
 stars: 4.3
 ratings: 156
-reviews: 25
+reviews: 26
 size: 
 website: https://profittradingapp.com/
 repository: 

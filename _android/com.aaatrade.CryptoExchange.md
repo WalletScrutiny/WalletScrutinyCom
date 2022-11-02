@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CryptoExchange - Simply buy cryptos with your Card
+title: CryptoExchanger-CryptoExchange
 altTitle: 
 authors: 
 users: 500

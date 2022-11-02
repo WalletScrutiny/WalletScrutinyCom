@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto1 - CryptoOne Best Crypto BOT
+title: Crypto1 - CryptoOne Best Crypt
 altTitle: 
 authors: 
 users: 1000
