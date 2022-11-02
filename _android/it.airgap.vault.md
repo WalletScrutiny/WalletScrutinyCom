@@ -21,9 +21,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: outdated
 verdict: reproducible
-date: 2022-08-07
+date: 2022-11-02
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2022-08-07
+  version: 3.17.2
+  appHash: 8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0
+  gitRevision: 8238c6c2f1e6d2818f9da90500d9b31e32fc5e85
+  verdict: reproducible
 - date: 2022-05-25
   version: 3.17.0
   appHash: 08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf
@@ -168,68 +173,36 @@ redirect_from:
 
 ---
 
+**Update 2022-11-02**: While last week's latest build coudl be reproduced, the
+now latest build fails to compile with our script. We have to look into what's
+causing this but `Too many open files` looks like the build environment needs
+tweaking.
+
 We ran our {% include testScript.html %} which delivered these results:
 
 ```
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.17.2
-apkVersionCode: 41719
+apkVersionName: 3.18.0
+apkVersionCode: 44587
 verdict:        reproducible
-appHash:        8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0
-commit:         bef8ff57622047e48c060138109490875f8473aa
+appHash:        c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998
+commit:         1cc56548e3bf450bdf87f6440105e2d464cea29b
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_41719/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object bef8ff57622047e48c060138109490875f8473aa
+object 1cc56548e3bf450bdf87f6440105e2d464cea29b
 type commit
-tag v3.17.2
-tagger Mike Godenzi  1652370558 +0200
+tag v3.18.0
+tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1661770048 +0200
 
-version 3.17.2
+   v3.18.0
 ===== End Results =====
 ```
 
 Which is what we want to see to give it the verdict **reproducible**.
-
-## Older Versions
-
-For the record, we tested an older version after 3.17.2 which fixed a
-reproducibility issue. For completeness, here it is.
-
-```
-===== Begin Results =====
-appId:          it.airgap.vault
-signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.17.0
-apkVersionCode: 40643
-verdict:        
-appHash:        08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf
-commit:         7df4dccebf60394cd0be4cb490f78807801d19b5
-
-Diff:
-Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: 3.5a9c4e98d51999ad15a4.js
-Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: 3.7b3b1c20ea4da581d9b2.js
-Files /tmp/fromPlay_it.airgap.vault_40643/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_40643/assets/public/index.html differ
-Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: main.6fb58d6fabc4e86a32c2.js
-Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: main.ace25affef6405ca9b3c.js
-Only in /tmp/fromPlay_it.airgap.vault_40643/assets/public: runtime.08084bd89534cb816de6.js
-Only in /tmp/fromBuild_it.airgap.vault_40643/assets/public: runtime.ba9d2467a394032e87bc.js
-Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_40643/META-INF: PAPERS.SF
-
-Revision, tag (and its signature):
-object 7df4dccebf60394cd0be4cb490f78807801d19b5
-type commit
-tag v3.17.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1650367671 +0200
-
-version 3.17.0
-===== End Results =====
-```
