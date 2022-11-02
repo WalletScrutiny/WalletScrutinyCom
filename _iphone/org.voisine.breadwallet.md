@@ -15,14 +15,19 @@ reviews: 12496
 size: '83665920'
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
-issue: https://github.com/breadwallet/brd-mobile/issues/1
+issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-04-07
+verdict: nosource
+date: 2022-11-02
 signer: 
 reviewArchive:
+- date: 2022-04-07
+  version: 4.10.0
+  appHash: 
+  gitRevision: 7ef2f58d84c1778fe019c9d0b085187b6ac7228e
+  verdict: nonverifiable
 - date: 2021-06-27
   version: 4.10.0
   appHash: 

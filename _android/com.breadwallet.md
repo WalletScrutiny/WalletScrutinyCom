@@ -16,14 +16,19 @@ reviews: 1475
 size: 
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
-issue: https://github.com/breadwallet/brd-mobile/issues/1
+issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-04-07
+verdict: nosource
+date: 2022-11-02
 signer: 
 reviewArchive:
+- date: 2022-04-07
+  version: 4.10.0
+  appHash: 
+  gitRevision: 7ef2f58d84c1778fe019c9d0b085187b6ac7228e
+  verdict: nonverifiable
 - date: 2021-06-27
   version: 4.10.0
   appHash: 
@@ -42,6 +47,10 @@ social:
 redirect_from: 
 
 ---
+
+**Update 2022-11-02**: The repository has not been updated in a long time and
+the provider has not reacted to our enquiry to do so. This product is
+**not verifiable**.
 
 **Update 2022-04-07**: This product's provider appears to be partnering with
 [Coinbase](https://www.coinbase.com) and with their latest update they now
