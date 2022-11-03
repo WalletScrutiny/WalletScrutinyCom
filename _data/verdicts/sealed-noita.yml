@@ -2,9 +2,21 @@ short: Blind signing
 title: Transactions are signed blindly
 color: 'var(--indifferent, #3d506d)'
 redflag: false
-message:  It's easy to lose one's coins for non-experts but provider can't exit-scam.
+message:  Once unsealed, this device doesn't let the user verify what is being signed.
 question: Can the user verify and approve transactions on the device?
 details: >
-  Although the private keys may be sealed, these bearer tokens require a third-party
-  device such as a companion app.
- 
+  Devices in this category are first sealed. Once the seal is broken, they sign
+  transactions that they are presented with but have no built-in screen to verify
+  what's being signed.
+
+
+  That makes them prone to malicious companion apps that they rely on for
+  sending.
+
+
+  While this leaves little room for major exit scams, the handling of
+  such devices is delicate.
+
+
+  To redeem your funds safely, create your transaction on an offline machine and
+  verify the signed transaction on a different machine before broadcasting it.
