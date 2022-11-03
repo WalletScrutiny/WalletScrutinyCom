@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
       return `<span style="background:${window.verdicts[v].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[v].short}</span>`
     }
 
-    return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222);${wallet.meta === 'outdated' ? 'filter: grayscale(1) blur(2px)' : ''}" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">
+    return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222)" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">
       <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
         src="/images/${wallet.icon
           ? `wIcons/${wallet.folder}/small/${wallet.icon}`
@@ -26,7 +26,7 @@ window.addEventListener('load', () => {
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
-        ${verdictBadge(wallet.verdict)}
+        ${wallet.meta !== 'outdated' ? verdictBadge(wallet.verdict) : ''}
         ${wallet.meta !== 'ok' ? verdictBadge(wallet.meta) : ''}
       </div>
     </a>

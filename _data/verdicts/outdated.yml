@@ -1,8 +1,8 @@
-short: Review Outdated!
+short: Rev. Outdated
 title: Review might be outdated
 color: 'var(--indifferent, #3d506d)'
 redflag: false
-message: This product's review and verdict might not fit to their latest release!
+message: This verdict may change pending updated analysis.
 question: Does our review and verdict apply to their latest release?
 details: >
   Verdicts apply to very specific releases of products and never to the product
@@ -12,7 +12,7 @@ details: >
   have changed for the better or worse.
   
   
-  This meta verdict is applied manually in cases of reviews that we identify as
+  This meta verdict is applied in cases of reviews that we identify as
   requiring an update.
   
   

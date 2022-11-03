@@ -41,7 +41,9 @@ layout: default
             </span>.
           </span>
 
-          {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% if page.meta != "outdated" %}
+            {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% endif %}
           {% if page.meta != "ok" %}
             {% include verdictBadge.html verdict=page.meta type='medium' %}
           {% endif %}

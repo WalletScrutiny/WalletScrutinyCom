@@ -216,7 +216,7 @@ function getBadge(wallet) {
                   : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>
-            <span class="stamp stamp-${wallet.verdict}" alt=""></span>
+            ${ wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
             ${ wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
           </div>
         </div>
