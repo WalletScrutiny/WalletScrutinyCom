@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.vouchermoney.mobilewallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-02-27
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.iwallet.iwallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-01
+date: 2022-05-26
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,4 +29,8 @@ social:
 
 ---
 
- {% include copyFromAndroid.html %}
+**Update 2022-05-26**: This app is not on the app store anymore.
+
+
+
+{% include copyFromAndroid.html %}

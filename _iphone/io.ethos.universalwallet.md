@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2021-11-12
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: ethos_io
@@ -28,6 +28,8 @@ social:
 - https://www.reddit.com/r/ethos_io
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 They claim:
 
