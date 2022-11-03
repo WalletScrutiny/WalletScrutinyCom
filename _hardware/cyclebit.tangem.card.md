@@ -25,7 +25,7 @@ icon: cyclebit.tangem.card.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-29
+date: 2022-11-03
 signer: 
 reviewArchive: 
 twitter: Cycle_bit
@@ -40,11 +40,6 @@ social:
 ## Product Description 
 
 > Cycle Card is a 'cold storage' wallet with high-grade hardware protection, developed by Tangem. Non-retrievable private keys prohibit the replication of the card and assets stored on it
-
-The product was developed in tandem with Tangem, which offers similar devices: 
-
-- {% include walletLink.html wallet='bearer/tangem' verdict='true' %}
-- {% include walletLink.html wallet='bearer/tangemnote' verdict='true' %}
 
 > Each Cycle Card is bound to a one-off depersonalized wallet address on the blockchain without any personal accounts or private servers. Backed by 100% uptime and an unblockable P2P network of all blockchain nodes.
 

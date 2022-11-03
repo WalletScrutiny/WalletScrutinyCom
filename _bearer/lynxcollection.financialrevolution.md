@@ -22,7 +22,7 @@ issue:
 icon: lynxcollection.financialrevolution.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: sealed-plainkey
 date: 2022-04-29
 signer: 
 reviewArchive: 

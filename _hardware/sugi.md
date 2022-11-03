@@ -26,7 +26,7 @@ icon: sugi.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-23
+date: 2022-11-03
 signer: 
 reviewArchive: 
 twitter: SugiCard
@@ -36,9 +36,11 @@ social:
 
 ---
 
-## Addendum 2022-03-19
+## Updated 2022-11-03
 
-The Sugi card is very similar to {% include walletLink.html wallet='bearer/satodime' verdict='true' %}. It has NFC, has a secure element for authentication and has a companion app. Although it is marketed primarily as a "NFC wallet card", it can function with the intention of passing it to another user. 
+- NFC-enabled 
+- Has a secure element for authentication and has a companion app. 
+- There are no indications that it has a seal or has a sealing function.
 
 ## Previous Review 2021-08-08
 
