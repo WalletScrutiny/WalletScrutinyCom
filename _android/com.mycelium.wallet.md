@@ -16,7 +16,7 @@ reviews: 1218
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: https://github.com/mycelium-com/wallet-android/issues/647
+issue: https://github.com/mycelium-com/wallet-android/issues/648
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
