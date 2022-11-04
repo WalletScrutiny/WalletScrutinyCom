@@ -126,6 +126,9 @@ additional verdicts:
 
 {% include /review/whatIsBearer.html %}
 
+{% include verdictMethodology.html verdict="sealed-plainkey" %}
+{% include verdictMethodology.html verdict="sealed-noita" %}
+
 ## Priorities
 
 We cannot re-evaluate all the wallets every hour and as this is a side-project

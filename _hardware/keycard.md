@@ -34,6 +34,17 @@ social:
 
 ---
 
+## Update 2022-11-03
+
+- This device is NFC-enabled
+- It is paired with the [Status.im mobile app](https://status.im/keycard-integration/)
+- The keys are generated via the app and then later on stored on the card.
+- Secured with passcode, PUK code, pairing code, 12-word seedphrase.
+
+A demo is available here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oBVLwXL7JJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Addendum
 
 Its [affordability](https://keycard.tech/) also allows for physical value transfer by passing it along other users:

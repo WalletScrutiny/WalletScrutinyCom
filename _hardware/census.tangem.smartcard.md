@@ -40,8 +40,8 @@ Census has a [Facebook account](https://www.facebook.com/census.cx) with some ac
 
 The product may bear resemblance to: 
 
-- {% include walletLink.html wallet='bearer/tangem' verdict='true' %}
-- {% include walletLink.html wallet='bearer/tangemnote' verdict='true' %}
+- {% include walletLink.html wallet='hardware/tangem' verdict='true' %}
+- {% include walletLink.html wallet='hardware/tangemnote' verdict='true' %}
 
 ## Internet Archives
 
