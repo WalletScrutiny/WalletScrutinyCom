@@ -35,9 +35,9 @@ social:
 
 ---
 
-Tangem Wallet and {% include walletLink.html wallet='bearer/tangemnote' verdict='true' %} are from the same providers.
+Tangem Wallet and {% include walletLink.html wallet='hardware/tangemnote' verdict='true' %} are from the same providers.
 
-{% include walletLink.html wallet='bearer/tangemnote' %} is described as being ["for those who are new to crypto."](https://shop.tangem.com/products/tangem-note) while Tangem Wallet is advertised as:
+{% include walletLink.html wallet='hardware/tangemnote' %} is described as being ["for those who are new to crypto."](https://shop.tangem.com/products/tangem-note) while Tangem Wallet is advertised as:
 
 > [A multicurrency hardware wallet to manage various crypto with access to DeFi, NFT, DeEx and more – all in one card.](https://shop.tangem.com/products/tangem-wallet)
 
