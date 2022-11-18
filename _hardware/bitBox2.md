@@ -5,8 +5,8 @@ authors:
 - leo
 released: 
 discontinued: 
-updated: 2022-06-15
-version: 9.12.0
+updated: 2022-11-18
+version: 9.13.1
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -18,15 +18,15 @@ providerWebsite:
 website: https://shiftcrypto.ch/
 shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
-price: 119EUR
+price: 139EUR
 repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/901
 icon: bitBox2.png
 bugbounty: 
 meta: outdated
-verdict: nonverifiable
-date: 2022-08-07
-signer: 
+verdict: verifiable
+date: 2022-11-18
+signer: Joko
 reviewArchive:
 - date: 2022-02-17
   version: 9.9.0
@@ -98,3 +98,39 @@ index c699881c..bbbd065a 100644
 ```
 
 This version is **not verifiable**.
+
+**Update 2022-11-18**: The reproducibility of firmware v9.13.1 has been confirmed by [sutterseba](https://github.com/digitalbitbox/bitbox02-firmware/pull/1019/commits)
+and [Joko](https://twitter.com/jokoono/status/1593611834027827200?s=20&t=hXIF4vnz7W6r8RgwLohc8w).
+
+Steps to reproduce on MacOS (Intel):
+
+Install Docker (4.14.1 (91661) used).
+
+```
+$ cd releases
+$ ./build.sh firmware-btc-only/v9.13.1 "make firmware-btc"
+...
+firmware.bin created at:
+.../bitbox02-firmware-master/releases/temp/build/bin/firmware.bin
+or
+.../bitbox02-firmware-master/releases/temp/build/bin/firmware-btc.bin
+
+$shasum -a 256 temp/build/bin/firmware-btc.bin
+b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  temp/build/bin/firmware-btc.bin
+```
+
+This matches the signed firmware, which we can verify by downloading the binary, moving it into the release-folder and running:
+
+```
+./describe_signed_firmware.py firmware-btc.v9.13.1.signed.bin 
+The following information assumes the provided binary was signed correctly; the signatures are not being verified.
+This is a Bitcoin-only edition firmware.
+The hash of the unsigned firmware binary is (compare with reproducible build):
+b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2
+The monotonic firmware version is: 30
+The hash of the firmware as verified/shown by the bootloader is:
+3b14ac4b65f954d19bb5faf66422838e0647a3a29987fda604fd421575bd4dae
+```
+
+This version is **verifiable**.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
