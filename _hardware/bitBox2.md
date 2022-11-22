@@ -3,9 +3,10 @@ title: BitBox02
 appId: bitBox2
 authors:
 - leo
+- Joko Ono
 released: 
 discontinued: 
-updated: 2022-11-18
+updated: 2022-11-09
 version: 9.13.1
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
@@ -23,11 +24,16 @@ repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/901
 icon: bitBox2.png
 bugbounty: 
-meta: outdated
-verdict: verifiable
+meta: ok
+verdict: reproducible
 date: 2022-11-18
-signer: Joko
+signer: 
 reviewArchive:
+- date: 2022-08-07
+  version: 9.12.0
+  appHash: e3cf692d4ef288f27f22af2413acd9a43aa0ee445f83729f7b6c1fce55443293
+  gitRevision: 0b7fec3e080550d57837a9ee6d79594c4e8f3061
+  verdict: nonverifiable
 - date: 2022-02-17
   version: 9.9.0
   appHash: 93d8e89f6edc7813a34901395a13291a3435bbc21c146e177f77c85095fc1311
@@ -56,50 +62,8 @@ social:
 
 ---
 
-**Update 2022-01-22**: The
-[provider's reply to our issue](https://github.com/digitalbitbox/bitbox02-firmware/issues/901#issuecomment-1101263747)
-indicates they are not inclined to fix reproducibility for this version and point
-to [this GitHub account](https://github.com/cstenglein) that approved
-reproducibility at the time of the original release. As we do not know this
-account, we recommend people who don't know them neither to not use this version
-and wait for a future release that probably will be reproducible again.
-
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-
-We wrapped the findings from prior reviews in a {% include testScript.html %}
-which gave us these results:
-
-```
-$ scripts/test/hardware/bitBox2.sh 9.10.0
-...
-Hashes of
-signed download             e3cf692d4ef288f27f22af2413acd9a43aa0ee445f83729f7b6c1fce55443293  firmware-btc.v9.10.0.signed.bin
-signed download minus sig.  03b4f1c845fbb221109684163d1bd6d3b558b446e283d3217867f76074ef8745  p_firmware.bin
-built binary                cd8dc14824a99c7b85be06787562238c5e9330becfa49569352500b385a81611  temp/build/bin/firmware-btc.bin
-firmware as shown in device f2a3c20ee64147cff85c5a66e8a466bf9c98de2ea281b8211ce6788ec70a81cb
-                            (The latter is a double sha256 over version, firmware and padding)
-```
-
-This does not look good. The second and third hash should be the same. Diffing
-the respective files using `diffoscope ~/wsTest/bitbox02-firmware/{temp/build/bin/firmware-btc.bin,p_firmware.bin}` yields binary differences all over the place.
-
-The build instructions don't look like they changed substantially:
-
-```
-$ git diff firmware-btc-only/v9.9.0 firmware-btc-only/v9.10.0 BUILD.md
-diff --git a/BUILD.md b/BUILD.md
-index c699881c..bbbd065a 100644
---- a/BUILD.md
-+++ b/BUILD.md
-@@ -175,6 +175,9 @@ Then you can run the tests by executing
-+Rust unit tests, if not invoked via `make run-rust-unit-tests`, must be run with
-+`-- --test-threads 1` due to unsafe concurrent access to `SafeData`, `mock_sd()` and `mock_memory()`.
-+
-```
-
-This version is **not verifiable**.
-
-**Update 2022-11-18**: The reproducibility of firmware v9.13.1 has been confirmed by [sutterseba](https://github.com/digitalbitbox/bitbox02-firmware/pull/1019/commits)
+The reproducibility of firmware v9.13.1 has been confirmed by
+[sutterseba](https://github.com/digitalbitbox/bitbox02-firmware/pull/1019/commits)
 and [Joko](https://twitter.com/jokoono/status/1593611834027827200?s=20&t=hXIF4vnz7W6r8RgwLohc8w).
 
 Steps to reproduce on MacOS (Intel):
@@ -132,5 +96,23 @@ The hash of the firmware as verified/shown by the bootloader is:
 3b14ac4b65f954d19bb5faf66422838e0647a3a29987fda604fd421575bd4dae
 ```
 
-This version is **verifiable**.
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+The [test script](/scripts/test/hardware/bitBox2.sh) also yields a positive
+result:
+
+```
+$ scripts/test/hardware/bitBox2.sh 9.13.1
+...
+firmware.bin created at:
+/home/leo/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
+or
+/home/leo/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
+Hashes of
+signed download             0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995  firmware-btc.v9.13.1.signed.bin
+signed download minus sig.  b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  p_firmware-btc.bin
+built binary                b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  temp/build/bin/firmware-btc.bin
+firmware as shown in device 3b14ac4b65f954d19bb5faf66422838e0647a3a29987fda604fd421575bd4dae
+                            (The latter is a double sha256 over version,
+                             firmware and padding)
+```
+
+This version is **reproducible**.
