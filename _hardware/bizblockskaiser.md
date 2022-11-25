@@ -23,9 +23,9 @@ repository:
 issue: 
 icon: bizblockskaiser.png
 bugbounty: 
-meta: stale
-verdict: unreleased
-date: 2022-02-17
+meta: ok
+verdict: vapor
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: bizblocks7
@@ -33,6 +33,12 @@ social:
 - https://www.facebook.com/kaiserwallet
 
 ---
+
+## Updated Verdict 2022-11-25
+
+There being no change in any social media channel or on the official website, we are marking this project as 
+
+## Previous Verdict 2022-02-17
 
 Kaiser Card was announced on [May 25, 2018 via twitter](https://twitter.com/bizblocks7/status/999953368826105858). The last twitter post of the account was made on [January 2, 2020](https://twitter.com/bizblocks7/status/1212546988895375365). The last facebook post of the bizblocks fb account [was on [January 2, 2020](https://www.facebook.com/KaiserWallet22/posts/496914114264390) as well.
 
