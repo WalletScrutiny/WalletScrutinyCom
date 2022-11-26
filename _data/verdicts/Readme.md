@@ -11,3 +11,41 @@ main definition is here in this folder. The fields are:
 
 New verdicts might need addition to lists like in [grid_of_wallets](/_includes/grid_of_wallets.html)
 or the two `verdictOrder` variables.
+
+## Step-by-Step Process of Adding Verdicts 
+
+### Step 1
+
+Navigate to the _data/verdicts folder and duplicate one of the .yml files. Change the file name and the contents of the new .yml file. 
+
+For example, a new verdict can be named “newverdict.yml”
+
+### Step 2
+
+Look out for these three files. Each of them has a list of all the site’s verdicts. 
+
+- _includes/grid_of_wallets.html
+- _includes/grid_of_wallets_proportional.html
+- scripts/migrate.js
+
+It will typically look like this: 
+
+> *verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled"*
+
+Add the new verdict:
+
+> *verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled,newverdict"*
+
+Make sure to modify each of the three files with the list of all verdicts.
+
+### Step 3
+
+**Edit the Methodology**
+
+Search for and open “methodology.md”
+
+Paste “{% include verdictMethodology.html verdict="Replace this with the name of your new verdict. Do not include the file extension." %}” in the methodology.
+
+For example: 
+
+> {% include verdictMethodology.html verdict="newverdict" %}
