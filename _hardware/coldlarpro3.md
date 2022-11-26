@@ -34,6 +34,14 @@ social:
 
 ---
 
+## Updated Review 2022-11-26
+
+The primary domain for this site coldlar.com is currently blank. However, a Chinese sounding site seems to have details pertaining to information about coldlar.com: hengshengjia.com. We do not know if this is official, but it links to the original coldlar.com.
+
+The device seems to be still for sale in Amazon. We are retaining its verdict. 
+
+## Previous Review 2021-11-26
+
 ## Private keys can be created offline - ✔️
 
 From the [Licensing Agreement](https://www.coldlar.com/licenargument):
