@@ -21,8 +21,8 @@ issue:
 icon: clcard.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-02-18
+verdict: nowallet
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: BaanxGroup
@@ -31,6 +31,30 @@ social:
 - https://www.facebook.com/baanxgroup
 
 ---
+
+## Updated Review 2022-11-25
+
+According to the [Ledger website](https://www.ledger.com/cl-card#ledger-product), the CL Card is currently available to customers in the UK and EEA.
+
+Further into the page, there is a notice:
+
+> The CL card is only available to Ledger users who own a Ledger wallet. Order yours now.
+
+The "How to Start" section features some steps for users to follow:
+
+> 
+1. Get a Ledger wallet and download Ledger Live app
+2. Go to the Card section and create a CL Card account
+3. Top up the CL Card account securely with crypto using your Ledger wallet
+4. You’re ready to spend at over 90 million merchants and online stores
+
+The purpose of this product, from CL Card's [Medium article](https://medium.com/@cryptolifeCL/why-your-card-is-powered-by-ledger-195e3feb8e45):
+
+> Baanx and Ledger teamed up to build and develop the CL card, with the goal of allowing the Ledger community to use their digital assets in real-life, all with the same safety and convenience of a regular debit card.
+
+Because the CL Card relies on the Ledger Wallet and Ledger Live to move assets, we **do not consider it as a hardware wallet.**
+
+## Old Review
 
 Announced on twitter on December 9, 2021, the CL Card is a part of the suite of services provided by Ledger called [Ledger Live](https://www.ledger.com/ledger-live). In essence, a fiat debit card that links with Visa. Among its advertised features include:
 

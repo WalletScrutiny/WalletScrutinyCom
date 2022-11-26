@@ -22,7 +22,7 @@ icon: coinpass.bio.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-27
+date: 2022-11-26
 signer: 
 reviewArchive: 
 twitter: FEITIAN_Tech
@@ -32,7 +32,11 @@ social:
 
 ---
 
-## Product Description
+## Updated Review 2022-11-26
+
+It's been 7 months since we last reviewed this product. We noticed that Feitian Tech's social media account is still actively posting. We asked on [twitter](https://twitter.com/dannybuntu/status/1596324021863608320)  
+
+## Previous Review 2022-04-27
 
 > The first digital currency hardware wallet that FEITIAN released supports for fingerprint biometric identification.The product has secure chip platform and security protection mechanisms the same level as EMVCo and CC EAL4+ which makes it substantial increase in anti-attack capability. FEITIAN digital currency hardware wallet product supports a variety of applications based on block chain and comprehensive supports for multiple security algorithms. The users could flexible switch to the application currently in use through simple configuration. CoinPass Bio also supports multiple communication interfaces to meet the needs of all the PC and mobile users. The digital currency hardware wallet can quickly enter the market and provide full service for digital currency applications.
 

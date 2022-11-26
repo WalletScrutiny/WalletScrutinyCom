@@ -24,7 +24,7 @@ issue:
 icon: 
 bugbounty: 
 meta: defunct
-verdict: noita
+verdict: vapor
 date: 2022-04-29
 signer: 
 reviewArchive: 
@@ -34,6 +34,15 @@ social:
 - https://www.facebook.com/cmcmglobal/
 
 ---
+
+## Updated Review 2022-11-25
+
+While there are a few scattered headlines on the internet involving Cheetah releasing a "SafeWallet Pro," the articles refer to the product as a *mobile app.* [One site](https://www.prnewswire.com/news-releases/cheetah-mobile-releases-safewallet-cryptocurrenc) that linked to the app [on Google Play](https://play.google.com/store/apps/details?id=com.cmcm.blockchain.bitcoin.ethereum.safewallet) returned a "not found" page.
+
+[cmcm.com](https://www.cmcm.com/en/) is still accessible, although it now only appears to be offering "AI-driven Robotic Solutions." There's no indication that this product has ever come into production. Because of this, we mark this wallet as **vaporware.**
+
+
+## Old Review
 
 **⚠️ Note:** Cheetah Mobile Inc. was reportedly involved in [corporate irregularities](https://finance.yahoo.com/news/prescience-point-claims-cheetah-mobile-134910547.html) and other [allegations](https://www.buzzfeednews.com/article/craigsilverman/android-apps-cheetah-mobile-kika-kochava-ad-fraud). The company has two domains associated with SafeWallet, cmcm.com and [cmcmbc.com](https://web.archive.org/web/20180309162424/https://www.cmcmbc.com/en-us/). The latter of which, is no longer available. It is Cheetah Mobile Blockchain Research Lab's website.
 
