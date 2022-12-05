@@ -6,8 +6,8 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: 
-version: 
+updated: 2022-12-5
+version: 0.4.773
 binaries: 
 dimensions: 
 weight: 5
@@ -16,67 +16,60 @@ providerWebsite: https://cypherock.com/
 website: https://www.cypherock.com/
 shop: https://shop.cypherock.com/
 country: IN
-price: 99USD
-repository: 
+price: 199USD
+repository: https://github.com/Cypherock/x1_wallet_firmware
 issue: 
 icon: cypherockx1.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2021-12-03
+verdict: reproducible
+date: 2022-12-01
 signer: 
 reviewArchive: 
 twitter: CypherockWallet
 social:
 - https://www.linkedin.com/company/cypherockwallet
-- https://www.facebook.com/cypherock
 
 ---
 
 Cypherock was announced in a Bitcointalk ANN thread on February 14, 2020.
 
-It's key innovation point is it makes use of keycards to "divide" the private keys through a process called "sharding". Each keycard has to be scanned or tapped individually on the Cypherock hardware wallet in order to restore a wallet. To protect the private key, the user then has the option to physically locate each "X1 card" in a different location. After tapping the cards, the users can then verify the words by typing on the interface of the device. The users are then prompted with the option to destroy the paper backup.
+Cypherock X1 uses Shamir Secret Sharing to split the private key into 5 shards. Each of the 5 shards are independently stored on the hardware components, namely the X1 Wallet and 4 NFC enabled X1 cards. By implementing a 2/5 cryptographic threshold, a user only requires the X1 Wallet and 1 X1 card to re-create the private key and conduct transactions. Additionally, users don’t need to maintain any form of seed phrase backup as the hardware components themselves act as recovery tools. Cypherock’s private key management architecture not only eliminates the single point of failure of storing private keys in a singular location, but also solves for risks associated with seed phrase backups.
  
-## Private keys can be created offline
-
-> The Cypherock X1 uses 2 of 5 Shamir Secret Sharing (with the option to change the threshold in future) along with tamper-resistant hardware to secure the user’s private keys. Simply put, it is like Multi-sig but for the wallet recovery phrase.The seed phrase gets divided into 4 shards and the device using the 2 of 5 SSS scheme and each of those shards gets stored in a unique X1 cards. The X1 cards can store upto 4 Wallets (read: Seed Phrase), each of which will be able to support multiple coins.
-
-Source: [Bitcointalk ANN thread](https://bitcointalk.org/index.php?topic=5225800.0)
-
-## Private keys are not shared 
-
-> - The code for the X1 wallet **is** open source
-> - Each shard will be stored in a EAL6+ tamper resistant secure element chips. As comparison, an iPhone has the same level of security chip for securing fingerprints.
-> - Nothing will be stored in the X1 Wallet on which the computation will be done.
-> - Keys can be recovered by tapping any 2 out of the 4 X1 cards on the X1 Wallet. Each X1 card can also be protected by a PIN just like any other hardware wallet. The recovered keys are stored in a volatile memory on the X1 Wallet which gets wiped out as soon as the operation is done.
-> - The user can store 4 wallet recovery phrases in a single product.
-> - The X1 cards can be distributed around different places to increase security of the funds and protect against $5 wrench attacks.
+## Key features
+> - The code for the X1 Wallet is [open source](https://github.com/Cypherock/x1_wallet_firmware)
+> - Users can create a new wallet on the device or import their existing BIP39 compatible wallet to Cypherock X1 without connecting to the internet
+> - The X1 Wallet is the interfacing device on which the seed regeneration and transaction operations are performed. X1 Wallet also stores 1 of the 5 Shamir shares.
+> - Each of the 4 remaining Shamir shares is stored in a EAL5+ tamper resistant secure element chips. These are the same smart cards that are used in commercial debit and credit cards.
+> - Private keys can be recovered by tapping any 1 out of the 4 X1 cards on the X1 Wallet. Shamir secret share stored in the X1 cards and X1 Wallet can optionally be protected using a PIN. The recovered keys are stored in a volatile memory on the X1 Wallet which gets wiped out as soon as the operation is done.
+> - As Cypherock X1 Wallet does not store the private key as a whole, it is impossible to steal crypto assets in rest state.
+> - X1 Wallet supports upto 4 wallet recovery phrases, which can be used for transactions or even as a backup.
+> - X1 Wallet user can view the portfolio of all the 4 wallets from a single screen on their PC on the companion Cypherock CySync desktop application.
+> - X1 Wallet provides increased security against $5 wrench attack by distributing card into different geographical locations.
+> - X1 Wallet provides a 5 way navigation switch to perform user actions such as screen navigation and text input.
 
 From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal the digital assets of the user?
-
-> It is not possible for the company to steal the digital assets of the users. You can use Cypherock X1 without internet access. The device would need to be connected to an internet connected device just for broadcasting the transaction. The private keys need not ever come in contact with an internet connected device.
-
-## Interface
-
-The device has a screen and one circular button that allows users to select the letters. It is quite tedious as the single button is very limited in the number of letters it can select with one push of this button. This is evident in the [video shown here](https://www.youtube.com/watch?v=VadX0ERgEn0).
+> - It is not possible for the company to steal the digital assets of the users. Cypherock X1 Wallet can recreate the private keys without internet access. The device needs to be connected to the internet just for broadcasting the transaction on the blockchain.
+> - Cypherock X1 Wallet is audited by [Keylabs](https://keylabs.io/), and the audit report can be found [here](https://dl.keylabs.io/keylabs_cypherock_x1_wallet_audit_final.pdf). Their report testifies that “The Cypherock X1 is an innovative wallet that uses many hardware and software security best practices and even features several security firsts that we have not yet seen in other wallets".
+> - As an organization, Cypherock  follows Kerckhoff's principle, and is therefore open source. Any user can download, audit the source code and design documents, and compile the firmware. 
+> - Cypherock X1 Wallet team is committed to providing an open source project in 2023 which can run on an NFC-enabled mobile device or on DIY hardware, by which a user can recover their seed phrase even if the company shuts down.
 
 ## Public repository containing source code:
-> - Cypherock X1 wallet firmware is open sourced, hosted in GitHub repo: [Cypherock/x1_wallet_firmware](https://github.com/Cypherock/x1_wallet_firmware)
+> - Cypherock X1 Wallet firmware is open sourced, hosted in GitHub repo: [Cypherock/x1_wallet_firmware](https://github.com/Cypherock/x1_wallet_firmware)
 > - Latest release source code: [Release v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.4.773)
-> - Cypherock X1 wallet firmware is released in 2 flavors, “***initial firmware***” and “***main firmware***”.
-    > - ***Initial firmware*** is installed on the device during manufacturing. It provides minimum functionality such as device authentication and card authentication which checks the genuinity of the product. This firmware does not support any wallet related functionality. The initial firmware ceases to exist before any wallet activity is initiated.
-   > - ***Main firmware provides*** full fledged wallet related functionality and is installed on the device via the companion Cypherock CySync desktop application.
-## Fingerprint of the latest release binary: 
-> - Fingerprint (SHA256 digest) of the latest Cypherock X1 wallet firmware binary (unsigned) can be found on the release page: [Release v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.4.773)
+> - Cypherock X1 Wallet firmware is released in 2 flavors, “***initial firmware***” and “***main firmware***”.
+    > - ***Initial firmware*** is installed on the device during manufacturing. It provides minimum functionality such as X1 Wallet and X1 Card authentication which checks if the product is genuine or not. This firmware does not support any wallet related functionality. The initial firmware ceases to exist before any wallet activity is initiated.
+   > - ***Main firmware*** full fledged wallet related functionality and is installed on the device via the companion Cypherock CySync desktop application.
 
 ## Reproducibility of the release binary from the source code
-> - Cypherock X1 wallet firmware binary is signed by two private keys. The signature and a signed header is appended on top of firmware binary to form the complete Cypherock X1 wallet firmware image. 
-> - An important thing to note here is that the Cypherock X1 wallet firmware release binary is compiled using Docker, so, the binary will be reproducible only if the environment settings match. 
+> - Cypherock X1 Wallet firmware binary is signed by two private keys. The signature and a signed header is appended on top of firmware binary to form the complete Cypherock X1 Wallet firmware image. 
+> - An important thing to note here is that the Cypherock X1 Wallet firmware release binary is compiled using Docker. 
+> - Fingerprint (SHA256 digest) of the latest Cypherock X1 Wallet firmware binary (unsigned) can be found on the release page: [Release v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.4.773)
 > - The docker file corresponding to the latest release can be found here: [Dockerfile v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.773/Dockerfile)
 > - List of tools required to successfully build the project can be found here: [Building project](https://github.com/Cypherock/x1_wallet_firmware/tree/v0.4.773#building-project)
 > - Sequence of commands run on docker can be found here: [Docker commands v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.773/.github/workflows/containerized-build.yml)
 
-Alternatively, one can follow below commands in a *powershell* window to build the Cypherock X1 wallet firmware:
+Alternatively, one can follow below commands in a *powershell* window to build the Cypherock X1 Wallet firmware:
 * For Initial firmware - unsigned binary will be generated at build/initial/Cypherock-Initial.bin
         
         docker build . --file Dockerfile --tag x1-wallet-app-env
@@ -100,7 +93,8 @@ Alternatively, one can follow below commands in a *powershell* window to build t
         ninja
         cp Cypherock-*.* /dist/main && cp -a /dist/. /out
         exit
-## User action before firmware update
+
+## Installing firmware updates
 > - The user has the flexibility to install a firmware update or not. The secure bootloader, which forms the root of trust, verifies if the firmware is a newer version than the currently installed version and [verifies the source of the firmware](https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/bootloader.md) (through 2 signatures).
-> - Users can view the installed version and the commit hash of the release corresponding to the installed Cypherock X1 wallet firmware binary and can verify it against the GitHub repository. This cross check should provide enough confidence to the user that the installed firmware binary matches the release binary on the public source. 
-> - However, based on feedback received from different users, Cypherock X1 wallet team is planning to add a user configurable functionality, through which SHA256 digest of the newly installed firmware is displayed after a successful firmware update.
+> - Users can view the installed version and the commit hash of the release corresponding to the installed Cypherock X1 Wallet firmware binary and can verify it against the GitHub repository. This cross check should provide enough confidence to the user that the installed firmware binary matches the release binary on the public source. 
+> - However, based on feedback received from different users, Cypherock X1 Wallet team is planning to add a user configurable functionality, through which SHA256 digest of the newly installed firmware is displayed after a successful firmware update.
