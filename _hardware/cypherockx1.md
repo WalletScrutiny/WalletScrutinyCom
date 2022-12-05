@@ -118,7 +118,7 @@ Alternatively, compare using 256 bytes stripped off from Cypherock-Initial-signe
 
         MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ sha256sum.exe initial-release-outputs/release/Cypherock-Initial.bin
         d5588503c149f76352af631b32c8e04a20a2953d4dc7bb8bcad0d7d98a693069 *initial-release-outputs/release/Cypherock-Initial.bin
-***Signature of released unsigned initial X1 Wallet firmware binary and compiled initial X1 Wallet firmware binary matches.***
+***Fingerprint (SHA256 hash) of released unsigned initial X1 Wallet firmware binary and compiled initial X1 Wallet firmware binary matches. Therefore, we conclude that the firmware is reproducible.***
 
 
 ### Reproducing the Cypherock X1 Wallet Main firmware v0.4.773 on Windows 11
@@ -144,7 +144,7 @@ Alternatively, compare using 256 bytes stripped off from Cypherock-Initial-signe
         MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773))
         $ sha256sum.exe main-release-outputs/release/Cypherock-Main.bin
         54a2e548f3cb2f8a2f56671fe8b9df20ed90d084a9d68d435672e586e76c3903 *main-release-outputs/release/Cypherock-Main.bin
-***Signature of released unsigned main X1 Wallet firmware binary and compiled main X1 Wallet firmware binary matches.***
+***Fingerprint (SHA256 hash) of released unsigned main X1 Wallet firmware binary and compiled main X1 Wallet firmware binary matches. Therefore, we conclude that the firmware is reproducible.***
 
 
 ## Installing firmware updates
