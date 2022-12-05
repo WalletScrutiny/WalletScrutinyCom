@@ -5,8 +5,8 @@ authors:
 - leo
 released: 2014-07-29
 discontinued: 
-updated: 2022-05-18
-version: 1.11.1
+updated: 2022-08-17
+version: 1.11.2
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
 - 60
@@ -23,11 +23,16 @@ repository: https://github.com/trezor/trezor-firmware
 issue: https://github.com/trezor/trezor-firmware/issues/1713
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2022-08-07
+date: 2022-12-05
 signer: 
 reviewArchive:
+- date: 2022-08-07
+  version: 1.10.5
+  appHash: dfac7b21f88d3077ebba0928adb8c75040498379a77d5969136a15d1aa7978a9
+  gitRevision: c27741da56057bd7e525048b7b4f80d5984eb5f2
+  verdict: reproducible
 - date: 2022-01-10
   version: 1.10.4
   appHash: 8ead447cab0ee12af244edc7a18125e71df133730d9c67d627557804bafc57ee
@@ -55,24 +60,29 @@ social:
 
 ---
 
-For the latest firmware version, we try the same as last time, wrapped
-into [this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorOne.sh):
+With our
+[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorOne.sh)
+this is the result:
 
 ```
-$ ./scripts/test/hardware/trezorOne.sh 1.10.5
+$ ./scripts/test/hardware/trezorOne.sh 1.11.2
 ...
 Fingerprints:
-b589b3a7d605b83094078f775f66d415a27d090abd3a31ccae7912a9d712a684 build/core/firmware/firmware.bin
-7b432fe4e5d8fa4f00fe088ef449d63b4bc217c35c49f4d893508dc718aed220 build/core-bitcoinonly/firmware/firmware.bin
-3e473d85eadbe6306deadd77f46547e076596507835e9cf6aafbb2ebeec2601b build/legacy/firmware/firmware.bin
-61c418684cba2c9dc3db8f752a755feab2dea98df618cce6bf72750ae2ca6e21 build/legacy-bitcoinonly/firmware/firmware.bin
+8f81bea82fdf0d83450cb7299c37b046846b42bd6875becc57de44e8e05e95a4 build/legacy/firmware/firmware.bin
+dfae2000d1a8a7c5600dae9b1f53910311e35ce01c771702c4eafb5221ed3fde build/legacy-bitcoinonly/firmware/firmware.bin
 
-Hash of non-signature parts downloaded/compiled:
-869d959bc3a6d9facdfb1993249cfd21d7657bc08c2b4e370fdac52057f8366c  -
-869d959bc3a6d9facdfb1993249cfd21d7657bc08c2b4e370fdac52057f8366c  -
+Hash of non-signature parts downloaded/compiled standard:
+9996665928ff72e5575412cc6cf2ba825cb3db459cb38caf4922f78b64ce34f9  -
+9996665928ff72e5575412cc6cf2ba825cb3db459cb38caf4922f78b64ce34f9  -
+
+Hash of non-signature parts downloaded/compiled bitcoinonly:
+8fb3da9003abbe5d1409f24978f6b4abb0de358f61f2c259d0486a1e77c1169c  -
+8fb3da9003abbe5d1409f24978f6b4abb0de358f61f2c259d0486a1e77c1169c  -
 
 Hash of the signed firmware:
-dfac7b21f88d3077ebba0928adb8c75040498379a77d5969136a15d1aa7978a9  trezor-1.10.5.bin
+948098e56cf02f1d7b0660d44f02451dfd81b3114af87c962e7c6012f58853bb  trezor-1.11.2.bin
+9f1544dd77483e9d39d1430325ae27574bf3604a463d5a59a03396cfc6cc5ca7  trezor-1.11.2-bitcoinonly.bin
 ```
 
-That is a match. This firmware is **reproducible**.
+That is a match. This firmware is **reproducible** for both the standard and the
+bitcoinonly version.
