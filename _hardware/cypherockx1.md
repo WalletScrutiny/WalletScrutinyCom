@@ -54,7 +54,7 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 > - As an organization, Cypherock  follows Kerckhoff's principle, and is therefore open source. Any user can download, audit the source code and design documents, and compile the firmware. 
 > - Cypherock X1 Wallet team is committed to providing an open source project in 2023 which can run on an NFC-enabled mobile device or on DIY hardware, by which a user can recover their seed phrase even if the company shuts down.
 
-## Public repository containing source code:
+## Public repository containing source code
 > - Cypherock X1 Wallet firmware is open sourced, hosted in GitHub repo: [Cypherock/x1_wallet_firmware](https://github.com/Cypherock/x1_wallet_firmware)
 > - Latest release source code: [Release v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.4.773)
 > - Cypherock X1 Wallet firmware is released in 2 flavors, “***initial firmware***” and “***main firmware***”.
@@ -69,7 +69,7 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 > - List of tools required to successfully build the project can be found here: [Building project](https://github.com/Cypherock/x1_wallet_firmware/tree/v0.4.773#building-project)
 > - Sequence of commands run on docker can be found here: [Docker commands v0.4.773](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.773/.github/workflows/containerized-build.yml)
 
-Alternatively, one can follow below commands in a *powershell* window to build the Cypherock X1 Wallet firmware:
+### Alternatively, one can follow below commands in a *powershell* window to build the Cypherock X1 Wallet firmware:
 * For Initial firmware - unsigned binary will be generated at build/initial/Cypherock-Initial.bin
         
         docker build . --file Dockerfile --tag x1-wallet-app-env
@@ -93,6 +93,59 @@ Alternatively, one can follow below commands in a *powershell* window to build t
         ninja
         cp Cypherock-*.* /dist/main && cp -a /dist/. /out
         exit
+
+
+### Reproducing the Cypherock X1 Wallet Initial firmware v0.4.773 on Windows 11
+* On Git Bash Shell, checkout using tag:
+        
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ git clone git@github.com:Cypherock/x1_wallet_firmware.git .
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ git checkout v0.4.773
+        .
+        .
+
+* On Powershell, setup Docker and compile:
+
+        PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.773>  docker run -v ${pwd}/build:/out -it x1-wallet-app-env /bin/ash docker build . --file Dockerfile --tag x1-wallet-app-env
+        .
+        .
+        /home/build/Release # cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Initial -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../
+        /home/build/Release # ninja
+        /home/build/Release # sha256sum Cypherock-Initial.bin
+        d5588503c149f76352af631b32c8e04a20a2953d4dc7bb8bcad0d7d98a693069  Cypherock-Initial.bin
+
+* Compare from the Cypherock-Initial.bin (unsigned) [release binary](https://github.com/Cypherock/x1_wallet_firmware/actions/runs/3521309283).
+Alternatively, compare using 256 bytes stripped off from Cypherock-Initial-signed.bin
+
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ sha256sum.exe initial-release-outputs/release/Cypherock-Initial.bin
+        d5588503c149f76352af631b32c8e04a20a2953d4dc7bb8bcad0d7d98a693069 *initial-release-outputs/release/Cypherock-Initial.bin
+***Signature of released unsigned initial X1 Wallet firmware binary and compiled initial X1 Wallet firmware binary matches.***
+
+
+### Reproducing the Cypherock X1 Wallet Main firmware v0.4.773 on Windows 11
+* On Git Bash Shell, checkout using tag:
+        
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ git clone git@github.com:Cypherock/x1_wallet_firmware.git .
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773)) $ git checkout v0.4.773
+        .
+        .
+
+* On Powershell, setup Docker and compile:
+
+        PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.773>  docker run -v ${pwd}/build:/out -it x1-wallet-app-env /bin/ash docker build . --file Dockerfile --tag x1-wallet-app-env
+        .
+        .
+        /home/build/Release # cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Main -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../
+        /home/build/Release # ninja
+        /home/build/Release # sha256sum Cypherock-Main.bin
+        54a2e548f3cb2f8a2f56671fe8b9df20ed90d084a9d68d435672e586e76c3903  Cypherock-Main.bin
+
+* Compare from the Cypherock-Main.bin (unsigned) [release binary](https://github.com/Cypherock/x1_wallet_firmware/actions/runs/3521309283). Alternatively, compare using 256 bytes stripped off from Cypherock-Main-signed.bin
+
+        MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.773 ((v0.4.773))
+        $ sha256sum.exe main-release-outputs/release/Cypherock-Main.bin
+        54a2e548f3cb2f8a2f56671fe8b9df20ed90d084a9d68d435672e586e76c3903 *main-release-outputs/release/Cypherock-Main.bin
+***Signature of released unsigned main X1 Wallet firmware binary and compiled main X1 Wallet firmware binary matches.***
+
 
 ## Installing firmware updates
 > - The user has the flexibility to install a firmware update or not. The secure bootloader, which forms the root of trust, verifies if the firmware is a newer version than the currently installed version and [verifies the source of the firmware](https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/bootloader.md) (through 2 signatures).
