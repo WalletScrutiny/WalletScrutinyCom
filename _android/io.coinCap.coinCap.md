@@ -21,7 +21,7 @@ icon: io.coinCap.coinCap.png
 bugbounty: 
 meta: stale
 verdict: nowallet
-date: date: 2022-11-02
+date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: CoinCap_io

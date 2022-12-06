@@ -19,8 +19,8 @@ issue:
 icon: com.hi.dollars.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-06-23
+verdict: custodial
+date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: hi_com_official

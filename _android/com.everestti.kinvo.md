@@ -21,7 +21,7 @@ icon: com.everestti.kinvo.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
-date: 2022-06-23
+date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: kinvoapp

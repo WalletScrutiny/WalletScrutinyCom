@@ -20,7 +20,7 @@ icon: com.devere.dcx.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-06-22
+date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: deveregroup
@@ -36,7 +36,7 @@ redirect_from:
 
 Based on the description and images, it looks like this app is a trading platform or crypto exchange.
 
-The official YouTube channel has an [introduction to the app](https://youtu.be/jO39qX8Bx_s?t=109) where it features various wallets for the supported cryptocurrencies. The wallets have options to buy, sell, or exchange money. There is no option to backup the wallet.
+The official YouTube channel has an [introduction to the app](https://youtu.be/jO39qX8Bx_s?t=109) where it features various wallets for the supported cryptocurrencies. The wallets have options to buy, sell, or exchange money. There is no option to back up the wallet.
 
 The Frequently Asked Questions has a tab on security where it states that deVere Crypto is in a partnership with the custodial exchange, {% include walletLink.html wallet='android/com.kraken.trade' %}
 
