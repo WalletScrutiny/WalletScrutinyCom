@@ -1,6 +1,6 @@
 ---
 wsId: monnos
-title: Monnos | Buy Bitcoin and Cryptocurrencies
+title: Monnos | Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.monnos.android
 appCountry: br
 released: 2019-09-17
-updated: 2022-05-13
-version: 5.4.4
-stars: 4
+updated: 2022-10-27
+version: 5.6.0
+stars: 3.9
 ratings: 931
-reviews: 460
+reviews: 465
 size: 
 website: https://monnos.com
 repository: 

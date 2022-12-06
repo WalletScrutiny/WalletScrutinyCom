@@ -11,7 +11,7 @@ released: 2019-06-25
 updated: 2022-04-03
 version: 2.6.5
 stars: 2.5
-reviews: 75
+reviews: 76
 size: '90276864'
 website: https://www.bithumb.pro/alliance
 repository: 

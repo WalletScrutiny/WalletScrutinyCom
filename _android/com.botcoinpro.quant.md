@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.botcoinpro.quant.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

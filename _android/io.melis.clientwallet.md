@@ -1,6 +1,6 @@
 ---
 wsId: melisclientwallet
-title: Melis Bitcoin, Bitcoin Cash, Litecoin Wallet
+title: Melis Bitcoin, Bitcoin Cash, L
 altTitle: 
 authors:
 - leo
@@ -19,9 +19,9 @@ repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: ftbfs
-date: 2020-04-07
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HashKey Hub - The Key to Infinity
+title: HashKey Hub - The Key to Infin
 altTitle: 
 authors: 
 users: 1000

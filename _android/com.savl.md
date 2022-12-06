@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: Savl Wallet Bitcoin & Solana
+title: 'Savl Wallet: Web3 & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2022-06-03
-version: 3.0.0
-stars: 4.4
+updated: 2022-10-10
+version: 3.5.0
+stars: 4.1
 ratings: 570
-reviews: 201
+reviews: 207
 size: 
 website: https://savl.com
 repository: 

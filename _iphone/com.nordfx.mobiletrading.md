@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.nordfx.mobiletrading.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-19
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: NordFX
 social: 
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

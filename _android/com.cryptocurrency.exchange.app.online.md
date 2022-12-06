@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Exchange - Trade Crypto Instantly
+title: Crypto Exchange - Trade Crypto
 altTitle: 
 authors:
 - danny

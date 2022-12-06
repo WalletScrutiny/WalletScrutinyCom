@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: trade.io - Smarter crypto trading
+title: trade.io - Smarter crypto trad
 altTitle: 
 authors: 
 users: 5000
@@ -9,9 +9,9 @@ appCountry:
 released: 2019-07-22
 updated: 2019-09-20
 version: 1.0.0
-stars: 
+stars: 1
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: http://trade.io
 repository: 

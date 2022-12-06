@@ -7,11 +7,11 @@ users: 10000
 appId: br.com.yappi
 appCountry: 
 released: Feb 2, 2021
-updated: 2022-05-20
-version: 1.1.0
-stars: 
+updated: 2022-07-28
+version: 1.2.0
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://yappi.com.br/
 repository: 

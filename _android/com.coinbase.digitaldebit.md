@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cashlis - Real-Time Bitcoin mPOS P2P for Coinbase
+title: Cashlis - Real-Time Bitcoin mP
 altTitle: 
 authors: 
 users: 50

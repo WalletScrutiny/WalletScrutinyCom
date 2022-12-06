@@ -1,6 +1,6 @@
 ---
 wsId: bacoorhbwallet
-title: Ethereum Wallet | HB Wallet – DeFi & Buy BTC, ETH
+title: HB Wallet | ETH Wallet, DeFi
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: co.bacoor.android.hbwallet
 appCountry: us
 released: 2017-07-17
-updated: 2022-04-07
+updated: 2022-06-13
 version: 3.6.0
 stars: 4.5
 ratings: 2137
-reviews: 47
+reviews: 48
 size: 
 website: https://www.hb-wallet.com/
 repository: 

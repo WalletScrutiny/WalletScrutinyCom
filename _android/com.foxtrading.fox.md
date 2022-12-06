@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Fox Global - Automated Crypto and Forex Trading
+title: 'Fox Global - Automated Crypto '
 altTitle: 
 authors: 
 users: 5000

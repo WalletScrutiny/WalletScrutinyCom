@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: Crypterium | Bitcoin Wallet
+title: Choise.com Buy & earn crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2022-06-10
-version: 2.6.74.33
-stars: 3.6
+updated: 2022-11-01
+version: 2.6.75.47
+stars: 3.5
 ratings: 8728
-reviews: 422
+reviews: 424
 size: 
 website: https://crypterium.com
 repository: 

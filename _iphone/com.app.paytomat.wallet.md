@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-01-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: paytomat
@@ -29,5 +29,7 @@ social:
 - https://www.facebook.com/paytomat
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

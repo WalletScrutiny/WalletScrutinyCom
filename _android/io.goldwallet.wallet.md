@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: GoldWallet - Bitcoin Vault Wallet
+title: GoldWallet - Bitcoin Vault Wal
 altTitle: 
 authors: 
 users: 50000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2020-12-14
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

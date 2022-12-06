@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Xchange – купить и продать криптовалюту Биткоин
+title: Xchange – купить и продать кри
 altTitle: 
 authors: 
 users: 1000

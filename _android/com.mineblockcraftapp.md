@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Mine Block Craft - Blockchain wallet and Dapps
+title: 'Mine Block Craft - Blockchain '
 altTitle: 
 authors: 
 users: 500

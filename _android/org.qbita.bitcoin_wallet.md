@@ -9,9 +9,9 @@ appCountry:
 released: 2019-08-28
 updated: 2019-08-28
 version: '1.0'
-stars: 4.4
+stars: 4.5
 ratings: 93
-reviews: 9
+reviews: 10
 size: 
 website: https://qbita.org
 repository: 

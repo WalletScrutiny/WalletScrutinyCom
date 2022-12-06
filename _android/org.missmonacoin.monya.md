@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Monya - Monacoin & Altcoins Wallet
+title: Monya - Monacoin & Altcoins Wa
 altTitle: 
 authors:
 - danny

@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
 version: 1.5.20
-stars: 4.5
+stars: 4.4
 ratings: 613
 reviews: 76
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-07
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: protonxpr

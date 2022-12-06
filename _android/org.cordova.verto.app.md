@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Verto: Bitcoin VTX EOS ETH Wallet'
+title: 'Verto: Bitcoin VTX EOS ETH Wal'
 altTitle: 
 authors: 
 users: 1000

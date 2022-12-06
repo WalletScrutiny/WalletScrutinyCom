@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Wallet UI - Flutter App | Android – iOS
+title: Crypto Wallet UI - Flutter App
 altTitle: 
 authors: 
 users: 100

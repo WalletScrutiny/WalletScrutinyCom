@@ -8,11 +8,11 @@ users: 10000
 appId: com.fatbtc.App
 appCountry: us
 released: 2018-06-02
-updated: 2021-11-08
-version: '2.45'
-stars: 2.5
+updated: 2022-07-26
+version: '2.50'
+stars: 2.7
 ratings: 160
-reviews: 11
+reviews: 10
 size: 
 website: https://www.fatbtc.com
 repository: 

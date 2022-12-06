@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'ETHLYTE CRYPTO: Bitcoin /Cryptocurrency /Money App'
+title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
 altTitle: 
 authors: 
 users: 5000

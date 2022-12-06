@@ -1,6 +1,6 @@
 ---
 wsId: ATAIX
-title: ATAIX – Bitcoin Crypto Exchange
+title: ATAIX – Bitcoin Crypto Exchang
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2022-06-07
 version: 2.1.4
 stars: 3.5
 ratings: 48
-reviews: 25
+reviews: 26
 size: 
 website: https://ataix.com
 repository: 

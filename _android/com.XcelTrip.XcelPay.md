@@ -1,6 +1,6 @@
 ---
 wsId: XcelPay
-title: 'XcelPay: Bitcoin, Crypto & Ethereum Wallet App'
+title: XcelPay Crypto Bitcoin Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.XcelTrip.XcelPay
 appCountry: 
 released: 2019-05-30
-updated: 2022-06-02
-version: 2.70.5
+updated: 2022-09-11
+version: 2.71.10
 stars: 4.6
 ratings: 3713
-reviews: 72
+reviews: 73
 size: 
 website: http://www.xcelpay.io
 repository: 

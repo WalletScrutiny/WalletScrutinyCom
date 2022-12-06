@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'HFTrading: Forex, Bitcoin, Gold & Stock Trading'
+title: 'HFTrading: Forex, Bitcoin, Gol'
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hftrading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bit7Pay Bitcoin and Other Cryptocurrency Wallet
+title: Bit7Pay Bitcoin and Other Cryp
 altTitle: 
 authors: 
 users: 5000

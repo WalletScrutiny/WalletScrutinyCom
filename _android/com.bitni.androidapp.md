@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Anonymous Crypto Exchange bitni.com - No KYC or ID
+title: bitni.com Anon Crypto Exchange
 altTitle: 
 authors: 
 users: 1000

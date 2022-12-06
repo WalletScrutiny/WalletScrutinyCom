@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: olizx india's crypto currency exchange
+title: 'olizx india''s crypto currency '
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.olizx.app
 appCountry: 
 released: Oct 19, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.olizx.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

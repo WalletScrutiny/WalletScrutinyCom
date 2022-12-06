@@ -3,11 +3,12 @@ title: Coldcard Mk4
 appId: coldcardMk4
 authors:
 - danny
-released: 
+- leo
+released: 2022-05-01
 discontinued: 
-updated: 
-version: 
-binaries: 
+updated: 2022-07-29
+version: v5.0.6
+binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
 provider: Coinkite
@@ -20,9 +21,9 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardMk4.png
 bugbounty: 
-meta: ok
-verdict: unreleased
-date: 2022-03-23
+meta: outdated
+verdict: wip
+date: 2022-08-07
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet

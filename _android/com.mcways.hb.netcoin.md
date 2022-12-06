@@ -3,7 +3,7 @@ wsId:
 title: Vitarabrit
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.mcways.hb.netcoin
 appCountry: 
 released: May 31, 2018

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digifinex.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-04-26
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: DigiFinex
@@ -30,6 +30,8 @@ social:
 - https://www.reddit.com/r/DigiFinex
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 > DigiFinex is a world’s leading crypto finance exchange
 

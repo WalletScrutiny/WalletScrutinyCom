@@ -10,25 +10,35 @@ idd: 1334702542
 released: 2018-01-19
 updated: 2022-05-24
 version: 4.4.1
-stars: 3.6
-reviews: 118
+stars: 3.7
+reviews: 121
 size: '97623040'
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue: https://github.com/cake-tech/cake_wallet/issues/112
+issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2021-04-14
+verdict: ftbfs
+date: 2022-11-02
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2021-04-14
+  version: 4.1.4
+  appHash: 
+  gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
+  verdict: nonverifiable
 twitter: cakewallet
 social:
 - https://www.facebook.com/cakewallet
 - https://www.reddit.com/r/cakewallet
 
 ---
+
+**Update  2022-11-02**: Apparently this product fails to build from source. The
+relatively old
+[issue](https://github.com/cake-tech/cake_wallet/issues/337) was not closed yet.
+We have to assume this product remains to be **not verifiable**.
 
 **Update 2021-04-14**: They now do have a public issue tracker and
 [emanuel](/authors/emanuel) tried to build with

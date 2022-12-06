@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bit Stock - Trading Bitcoin online
+title: Bit Stock - Trading Bitcoin on
 altTitle: 
 authors: 
 users: 1000

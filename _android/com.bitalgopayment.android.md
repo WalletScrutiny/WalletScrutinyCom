@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitalgopayment.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-05
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

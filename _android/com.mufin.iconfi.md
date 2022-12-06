@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ICONFi
+title: GROW - Make Crypto Simple
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: com.mufin.iconfi
 appCountry: 
 released: 2021-01-27
-updated: 2022-05-03
-version: 1.0.7
+updated: 2022-10-17
+version: 1.2.1
 stars: 4.6
 ratings: 220
 reviews: 19
 size: 
-website: https://www.icon-fi.com
+website: https://www.grow3.io
 repository: 
 issue: 
 icon: com.mufin.iconfi.png

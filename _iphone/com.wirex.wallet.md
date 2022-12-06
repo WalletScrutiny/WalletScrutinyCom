@@ -10,8 +10,8 @@ idd: 1594165139
 released: 2021-12-07
 updated: 2022-05-10
 version: 0.2.12
-stars: 5
-reviews: 2
+stars: 4.2
+reviews: 5
 size: '50302976'
 website: https://wirexapp.com/wirex-wallet
 repository: 

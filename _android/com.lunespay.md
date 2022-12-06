@@ -19,7 +19,7 @@ repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
 icon: com.lunespay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 date: 2022-06-24
 signer: 

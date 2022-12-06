@@ -3,7 +3,7 @@ wsId:
 title: CRYPTO CREW
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.cryptocrew
 appCountry: 
 released: Jun 23, 2020

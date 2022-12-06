@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Supreme CrypX | Bitcoin Exchange | Crypto Wallet
+title: Supreme CrypX | Bitcoin Exchan
 altTitle: 
 authors: 
 users: 100

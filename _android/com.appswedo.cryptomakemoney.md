@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: PayLink Maker for crypto currency coins
+title: PayLink Maker for crypto curre
 altTitle: 
 authors: 
 users: 100

@@ -1,6 +1,6 @@
 ---
 wsId: PTPWallet
-title: PTPWallet - Bitcoin, Ethereum, and Other Crypto
+title: PTPWallet - Bitcoin, Ethereum,
 altTitle: 
 authors:
 - leo

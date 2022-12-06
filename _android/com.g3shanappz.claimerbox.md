@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Claimer Box Multi Coins in One App
+title: Claimer Box Multi Coins in One
 altTitle: 
 authors: 
 users: 1000

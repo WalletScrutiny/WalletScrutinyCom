@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.co.smartapp.gowallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2021-10-04
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: gowallet_app_
@@ -28,5 +28,7 @@ social:
 - https://www.facebook.com/gowalletappli
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

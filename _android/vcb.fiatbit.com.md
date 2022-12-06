@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: FiatBit
+title: 'FiatBit: Crypto & Global remit'
 altTitle: 
 authors: 
 users: 1000
 appId: vcb.fiatbit.com
 appCountry: 
 released: Sep 12, 2019
-updated: 2022-04-25
-version: 2.3.9
+updated: 2022-09-16
+version: 2.5.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://fiatbit.com
+website: https://www.fiatbit.com
 repository: 
 issue: 
 icon: vcb.fiatbit.com.png

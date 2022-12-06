@@ -1,6 +1,6 @@
 ---
 wsId: enjin
-title: 'Enjin: Bitcoin, Ethereum, NFT Crypto Wallet'
+title: 'Enjin: Crypto & NFT Wallet'
 altTitle: 
 authors:
 - leo
@@ -12,16 +12,16 @@ updated: 2021-08-04
 version: 1.15.1-r
 stars: 4.1
 ratings: 12608
-reviews: 993
+reviews: 1023
 size: 
 website: https://enjin.io/wallet
 repository: 
 issue: 
 icon: com.enjin.mobile.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-10-12
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: enjin

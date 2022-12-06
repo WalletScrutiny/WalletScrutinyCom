@@ -1,6 +1,6 @@
 ---
 wsId: Moneybrain
-title: Moneybrain - Peer to Peer Digital Banking
+title: Moneybrain Financial SuperApp
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.moneybrain.moneybrain
 appCountry: gb
 released: 2019-10-17
-updated: 2022-03-29
-version: 2.1.0
+updated: 2022-10-14
+version: 2.3.28
 stars: 
 ratings: 
 reviews: 

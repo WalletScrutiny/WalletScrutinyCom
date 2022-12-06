@@ -8,11 +8,11 @@ users: 10000
 appId: ru.koshelek
 appCountry: ru
 released: 2020-07-28
-updated: 2022-04-28
-version: 1.11.2
+updated: 2022-09-01
+version: 1.12.2
 stars: 4.2
 ratings: 122
-reviews: 61
+reviews: 73
 size: 
 website: https://koshelek.ru/
 repository: 

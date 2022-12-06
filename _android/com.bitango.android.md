@@ -3,7 +3,7 @@ wsId:
 title: Bitango
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bitango.android
 appCountry: 
 released: Dec 17, 2021

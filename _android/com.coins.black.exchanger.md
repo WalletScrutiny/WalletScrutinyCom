@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coins.Black — Buy & Sell Crypto
+title: Coins.Black — Buy & Sell Crypt
 altTitle: 
 authors: 
 users: 100

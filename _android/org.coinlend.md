@@ -9,7 +9,7 @@ appCountry:
 released: 2018-07-19
 updated: 2020-06-30
 version: 0.0.36
-stars: 4.3
+stars: 4.4
 ratings: 83
 reviews: 3
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.coinlend.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,12 +3,12 @@ wsId:
 title: HiDAO
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.probe.wallet
 appCountry: 
 released: Aug 4, 2021
-updated: 2022-05-23
-version: 3.0.0
+updated: 2022-10-17
+version: 3.3.0
 stars: 
 ratings: 
 reviews: 

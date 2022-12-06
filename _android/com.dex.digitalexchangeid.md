@@ -4,11 +4,11 @@ title: digitalexchange.id Crypto Aset
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2022-06-10
+updated: 2022-10-28
 version: VARY
 stars: 
 ratings: 

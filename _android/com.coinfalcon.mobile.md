@@ -1,6 +1,6 @@
 ---
 wsId: coinfalcon
-title: CoinFalcon – Buy & sell Bitcoin
+title: CoinFalcon – Buy & sell Bitcoi
 altTitle: 
 authors:
 - leo

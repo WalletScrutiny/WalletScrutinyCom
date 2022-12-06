@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: 'Huobi: Trade Crypto & Bitcoin'
+title: 'Huobi: Trade Crypto,Bitcoin&HT'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2022-06-04
-version: 7.0.2
-stars: 4.7
+updated: 2022-10-31
+version: 7.3.0
+stars: 4.5
 ratings: 31840
-reviews: 510
+reviews: 597
 size: 
 website: http://www.hbg.com
 repository: 

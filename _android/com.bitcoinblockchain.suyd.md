@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitcoin Blockchain: Crypto Wallet'
+title: 'Bitcoin Blockchain: Crypto Wal'
 altTitle: 
 authors: 
 users: 500

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bull App - Bitcoin & ETH Secure DeFi Crypto Wallet
+title: Bull App - Bitcoin & ETH DeFi
 altTitle: 
 authors: 
 users: 1000

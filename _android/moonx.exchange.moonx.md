@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MoonX - Crypto Trading Platform
+title: MoonX - Crypto Trading Platfor
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: moonx.exchange.moonx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-03
 updated: 2022-04-20
 version: 1.9.94
-stars: 4.4
+stars: 4.3
 ratings: 513
-reviews: 19
+reviews: 21
 size: 
 website: https://www.counos.io
 repository: 

@@ -7,8 +7,8 @@ users: 5000
 appId: com.reap.crypty
 appCountry: 
 released: Sep 9, 2021
-updated: 2022-02-01
-version: 1.2.234
+updated: 2022-07-28
+version: 1.4.0
 stars: 4.9
 ratings: 
 reviews: 1

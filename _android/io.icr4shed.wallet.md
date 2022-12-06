@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MultiWallet - Crypto Wallet
+title: Wiolet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000
 appId: io.icr4shed.wallet
 appCountry: 
 released: 2021-09-10
-updated: 2022-04-18
-version: '3.71'
-stars: 4.5
+updated: 2022-10-17
+version: '6.01'
+stars: 4.4
 ratings: 87
-reviews: 16
+reviews: 13
 size: 
 website: https://multiwallet.tech/
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ch.smd.icynote.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-02-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

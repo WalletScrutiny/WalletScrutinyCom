@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitci - Bitcoin ve Altcoin Alım Satım Borsası
+title: Bitci - Bitcoin ve Altcoin Alı
 altTitle: 
 authors: 
 users: 100000
@@ -9,7 +9,7 @@ appCountry:
 released: Mar 30, 2020
 updated: 2022-04-15
 version: 4.0.2
-stars: 4.4
+stars: 4.3
 ratings: 
 reviews: 13
 size: 

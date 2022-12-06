@@ -3,7 +3,7 @@ wsId:
 title: Capricoin Copay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.capricoin.copay
 appCountry: 
 released: 2020-05-14
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.capricoin.copay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

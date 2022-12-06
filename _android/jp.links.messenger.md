@@ -3,7 +3,7 @@ wsId:
 title: Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: jp.links.messenger
 appCountry: 
 released: Mar 21, 2021
