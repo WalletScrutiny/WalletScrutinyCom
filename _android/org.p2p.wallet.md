@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: P2P Wallet
+title: Key App
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: org.p2p.wallet
 appCountry: 
 released: Oct 23, 2021
-updated: 2022-06-07
-version: 1.6.0
+updated: 2022-11-02
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://wallet.p2p.org
+website: https://key.app/
 repository: 
 issue: 
 icon: org.p2p.wallet.png

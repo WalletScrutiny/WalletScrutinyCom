@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Kanga - multi-chain crypt wallet for DeFI
+title: Kanga - multi-chain crypt wall
 altTitle: 
 authors: 
 users: 100
 appId: com.cuckoo.wallet
 appCountry: 
 released: 2021-06-29
-updated: 2022-05-30
-version: 3.5.0
+updated: 2022-06-27
+version: 3.6.0
 stars: 
 ratings: 
 reviews: 

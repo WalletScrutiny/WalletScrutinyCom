@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: BitMart - Cryptocurrency Exchange
+title: 'BitMart: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitmart.bitmarket
 appCountry: 
 released: 2018-05-09
-updated: 2022-06-01
-version: 2.10.4
+updated: 2022-10-26
+version: 2.10.27
 stars: 4.6
 ratings: 41983
-reviews: 6988
+reviews: 6406
 size: 
 website: http://www.bitmart.com
 repository: 

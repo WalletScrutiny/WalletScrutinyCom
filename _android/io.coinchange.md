@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: Coinchange – Earn & Buy Crypto
+title: Coinchange
 altTitle: 
 authors: 
 users: 50000
 appId: io.coinchange
 appCountry: 
 released: Oct 31, 2021
-updated: 2022-06-03
-version: 1.5.3
-stars: 3.8
+updated: 2022-09-30
+version: 2.0.0
+stars: 3.7
 ratings: 
-reviews: 144
+reviews: 151
 size: 
 website: https://coinchange.io
 repository: 

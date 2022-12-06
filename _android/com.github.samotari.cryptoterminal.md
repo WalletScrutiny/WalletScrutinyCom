@@ -3,7 +3,7 @@ wsId:
 title: CryptoTerminal
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.github.samotari.cryptoterminal
 appCountry: 
 released: Jan 14, 2020

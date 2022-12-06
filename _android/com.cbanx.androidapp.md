@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CBANX - Cryptocurrency Exchange
+title: CBANX - Cryptocurrency Exchang
 altTitle: 
 authors: 
 users: 100

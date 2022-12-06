@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: br.com.bloco1.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

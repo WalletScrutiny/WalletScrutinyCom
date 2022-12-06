@@ -3,7 +3,7 @@ wsId:
 title: DTCWallet
 altTitle: 
 authors: 
-users: 1
+users: 10
 appId: com.dtcwallet.dtcwallet
 appCountry: 
 released: Apr 20, 2020

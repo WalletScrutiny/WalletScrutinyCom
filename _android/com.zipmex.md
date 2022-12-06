@@ -8,11 +8,11 @@ users: 1000000
 appId: com.zipmex
 appCountry: cn
 released: 2020-03-30
-updated: 2022-06-08
-version: 22.6.1.1.598
-stars: 4.1
+updated: 2022-07-20
+version: 22.7.3.644
+stars: 3.8
 ratings: 17923
-reviews: 11482
+reviews: 11677
 size: 
 website: https://zipmex.co.th/
 repository: 

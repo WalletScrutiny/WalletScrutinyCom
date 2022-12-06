@@ -4,15 +4,15 @@ title: ompfinex (او ام پی فینکس)
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.ompfinex.app
 appCountry: 
 released: Jul 20, 2021
-updated: 2022-06-08
-version: '1.7'
-stars: 4.5
+updated: 2022-10-27
+version: 2.1.7
+stars: 4.2
 ratings: 
-reviews: 6
+reviews: 12
 size: 
 website: https://ompfinex.com
 repository: 

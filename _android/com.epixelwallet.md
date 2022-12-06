@@ -3,7 +3,7 @@ wsId:
 title: Epixel Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.epixelwallet
 appCountry: 
 released: Nov 20, 2019

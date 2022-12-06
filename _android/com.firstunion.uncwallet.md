@@ -11,16 +11,16 @@ updated: 2021-07-05
 version: 1.1.5
 stars: 5
 ratings: 
-reviews: 12
+reviews: 7
 size: 
 website: https://first-union.com
 repository: 
 issue: 
 icon: com.firstunion.uncwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

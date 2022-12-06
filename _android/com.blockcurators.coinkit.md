@@ -3,7 +3,7 @@ wsId:
 title: CoinKit
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.blockcurators.coinkit
 appCountry: 
 released: Dec 19, 2021

@@ -21,7 +21,7 @@ issue:
 icon: coinkite.satscard.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: wip
 date: 2022-04-29
 signer: 
 reviewArchive: 

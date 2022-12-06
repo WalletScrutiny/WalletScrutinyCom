@@ -7,8 +7,8 @@ users: 10000
 appId: com.banofinancial.app
 appCountry: 
 released: May 13, 2021
-updated: 2022-06-02
-version: 1.3.51
+updated: 2022-10-27
+version: 1.3.90
 stars: 
 ratings: 
 reviews: 

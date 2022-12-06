@@ -3,15 +3,15 @@ wsId:
 title: CoinW
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: huolongluo.byw
 appCountry: 
 released: Oct 24, 2021
-updated: 2022-06-22
-version: 9.4.2a
-stars: 3.8
+updated: 2022-10-14
+version: 9.5.21
+stars: 4.8
 ratings: 
-reviews: 17
+reviews: 108
 size: 
 website: 
 repository: 

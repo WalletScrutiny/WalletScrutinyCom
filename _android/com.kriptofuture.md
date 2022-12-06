@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-27
 updated: 2021-07-30
 version: Version 16
-stars: 2.8
+stars: 2.5
 ratings: 183
 reviews: 9
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kriptofuture.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-18
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

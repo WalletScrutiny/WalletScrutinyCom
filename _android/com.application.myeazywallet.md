@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: MyEazyWallet
+title: EPTA
 altTitle: 
 authors: 
 users: 50
 appId: com.application.myeazywallet
 appCountry: 
 released: Apr 1, 2021
-updated: 2021-04-01
-version: 1.0.2
+updated: 2022-10-10
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -16,11 +16,11 @@ size:
 website: https://myeazywallet.com/
 repository: 
 issue: 
-icon: com.application.myeazywallet.png
+icon: com.application.myeazywallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

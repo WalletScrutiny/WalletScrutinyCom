@@ -12,16 +12,16 @@ updated: 2021-07-16
 version: 2.0.2
 stars: 4.6
 ratings: 15329
-reviews: 546
+reviews: 551
 size: 
 website: https://pay98.app/
 repository: 
 issue: 
 icon: app.pay98.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-08-27
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

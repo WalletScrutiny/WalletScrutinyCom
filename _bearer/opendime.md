@@ -5,6 +5,7 @@ authors:
 - kiwilamb
 - felipe
 - leo
+- danny
 released: 2016-04-01
 discontinued: 
 updated: 
@@ -23,8 +24,8 @@ issue:
 icon: opendime.png
 bugbounty: 
 meta: ok
-verdict: plainkey
-date: 2022-03-23
+verdict: sealed-plainkey
+date: 2022-10-31
 signer: 
 reviewArchive:
 - date: 2021-07-11
@@ -37,6 +38,12 @@ social:
 - https://github.com/opendime
 
 ---
+
+## Updated Verdict 
+
+1. The user plugs the device via USB and generates entropy by saving a random file on the device.
+2. To have access to the private key, the user must poke a hole through a seal on the device.
+3. The device's private keys are then displayed via a text file, where it can be imported to another wallet.
 
 ## Verdict
 

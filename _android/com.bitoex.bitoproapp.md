@@ -1,6 +1,6 @@
 ---
 wsId: bitopro
-title: BitoPro Cryptocurrency Exchange-BTC,ETH,TWD
+title: BitoPro Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitoex.bitoproapp
 appCountry: us
 released: 2018-07-30
-updated: 2022-04-19
-version: 4.1.4
+updated: 2022-10-18
+version: 4.4.0
 stars: 
 ratings: 
 reviews: 

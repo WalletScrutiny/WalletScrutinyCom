@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BITCOIN 2020 - New Improved Crypto - Wallet App
+title: BITCOIN 2020 - New Improved Cr
 altTitle: 
 authors: 
 users: 100

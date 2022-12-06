@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.tradecrypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

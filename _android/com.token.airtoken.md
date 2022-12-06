@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Air Token Wallet - Social Wealth Wallet
+title: Air Token Wallet - Social Weal
 altTitle: 
 authors: 
 users: 1000

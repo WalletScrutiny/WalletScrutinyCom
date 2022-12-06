@@ -12,7 +12,7 @@ updated: 2022-04-29
 version: '1.35'
 stars: 4.8
 ratings: 
-reviews: 1227
+reviews: 1228
 size: 
 website: https://www.gokumarket.com
 repository: 

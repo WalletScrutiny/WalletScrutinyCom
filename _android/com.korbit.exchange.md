@@ -8,11 +8,11 @@ users: 100000
 appId: com.korbit.exchange
 appCountry: us
 released: 2018-07-22
-updated: 2022-06-03
-version: 4.10.0
-stars: 
+updated: 2022-11-01
+version: 6.0.5
+stars: 2.7
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.korbit.co.kr
 repository: 

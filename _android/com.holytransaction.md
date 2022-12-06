@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HolyTransaction - Crypto Wallet
+title: HolyTransaction - Crypto Walle
 altTitle: 
 authors: 
 users: 500

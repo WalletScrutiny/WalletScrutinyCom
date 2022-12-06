@@ -4,7 +4,7 @@ title: Atechcoins
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.app.atechcoins
 appCountry: 
 released: 2020-11-10

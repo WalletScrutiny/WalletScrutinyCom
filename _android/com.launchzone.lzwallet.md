@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: LZ Wallet - Crypto & Bitcoin Wallet
+title: LZ Wallet - Crypto & Bitcoin W
 altTitle: 
 authors: 
 users: 1000
 appId: com.launchzone.lzwallet
 appCountry: 
 released: Nov 30, 2021
-updated: 2022-04-25
-version: 1.0.3
+updated: 2022-09-08
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 

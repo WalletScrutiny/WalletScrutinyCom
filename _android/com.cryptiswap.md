@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CryptiSwap - Non-Custodial Crypto Exchange & Swaps
+title: CryptiSwap - Non-Custodial Cry
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptiswap.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-02
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'PocketBits: 0% Fee Bitcoin & Crypto Trading India'
+title: 'PocketBits: 0% Fee Bitcoin & C'
 altTitle: 
 authors:
 - danny
@@ -12,16 +12,16 @@ updated: 2021-10-24
 version: 1.3.0
 stars: 5
 ratings: 
-reviews: 45
+reviews: 40
 size: 
 website: https://pocketbits.in/
 repository: 
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-08-08
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: PocketBitsIndia

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BitFin - Buy And Sell Digital Currency
+title: 'BitFin - Buy And Sell Digital '
 altTitle: 
 authors: 
 users: 100

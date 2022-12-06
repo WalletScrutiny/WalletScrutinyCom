@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Wyretrade: Invest in Stocks, ETFs & Crypto'
+title: 'Wyretrade: Invest in Stocks, E'
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wyre.trade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-19
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: wyretrade

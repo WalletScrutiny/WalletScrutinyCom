@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Wallet Gun: Farm Beauty Crypto Account BTC/ETH'
+title: 'Wallet Gun: Farm Beauty Crypto'
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: su.akoda.walletgun.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

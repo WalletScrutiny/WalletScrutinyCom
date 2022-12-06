@@ -7,8 +7,8 @@ users: 10000
 appId: com.wbtcb.bitstock
 appCountry: 
 released: Jun 17, 2020
-updated: 2022-05-30
-version: 2.5.1
+updated: 2022-11-02
+version: 2.5.2
 stars: 
 ratings: 
 reviews: 

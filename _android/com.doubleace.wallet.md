@@ -3,12 +3,12 @@ wsId:
 title: ACE eWallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.doubleace.wallet
 appCountry: 
 released: 
-updated: 2022-02-14
-version: 1.1.8
+updated: 2022-10-19
+version: 1.1.9
 stars: 
 ratings: 
 reviews: 

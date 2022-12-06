@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Altcoin Wallet. Your coins protected
+title: Altcoin Wallet. Your coins pro
 altTitle: 
 authors: 
 users: 10000
@@ -9,9 +9,9 @@ appCountry:
 released: 2018-03-19
 updated: 2020-01-21
 version: v1.6
-stars: 2.5
+stars: 2.3
 ratings: 102
-reviews: 12
+reviews: 11
 size: 
 website: https://altcoin-wallet.online/
 repository: 

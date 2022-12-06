@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitholic - Global Digital Asset Exchange
+title: Bitholic - Global Digital Asse
 altTitle: 
 authors:
 - leo
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-05-29
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: Colodax
-title: Colodax - Bitcoin & Cryptocurrency exchange
+title: Colodax - Bitcoin & Cryptocurr
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-03
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: colodax

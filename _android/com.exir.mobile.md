@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: EXIR | اکسچنج اکسیر
+title: EXIR | اکسیر
 altTitle: 
 authors: 
 users: 100000
 appId: com.exir.mobile
 appCountry: 
 released: Nov 12, 2020
-updated: 2021-11-28
-version: 0.7.6
-stars: 3.9
+updated: 2022-10-31
+version: 1.1.0
+stars: 3.8
 ratings: 
-reviews: 9
+reviews: 11
 size: 
 website: 
 repository: 

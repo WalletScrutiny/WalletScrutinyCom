@@ -40,19 +40,13 @@ function lsTest(){
 </div>
 
 
-<h2 id="featuredOn" class="section-label">As featured on:</h2>
-
-{% include press.html %}
-
-<br>
+<h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
 <div class="-sticky fragmented-controls-master">
 <h2 class="section-label fragmented-controls -sticky">Showing</h2>
 <h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdict">reproducible</span> </h2>
 <h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
 </div>
 <br>
-
-<h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
 
 
 <div id="modularWalletPayload">
@@ -63,32 +57,11 @@ function lsTest(){
   {% assign platform = "android" %}
   {% assign verdicts = "reproducible" | split: "," %}
   {% assign selectedVerdict = "reproducible" %}
-  {% include list_of_wallets.html %}
-
+  <div class="page-section"></div>
 </div>
 
-{% if site.environment != "development" %}
-  {% include grid_of_wallets.html %}
-  {% include grid_of_wallets_proportional.html %}
-{% else %}
-  <b>Grids of Wallets only in production ...</b>
-{% endif %}
-
-{% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
-<h2 class="section-label" id="recently">Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }}{% if recent_posts.last.date != recent_posts.first.date %} to {{ recent_posts.last.date | date: '%b %e' }}{% endif %})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
-<div id="recentPosts">
-<div class="page-section">
-  <div id="tableofwallets3">
-    <div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onClick="toggleApp(lastId);">&nbsp;</div>
-    <div class="flexi-list">
-      {% for post in recent_posts %}
-        {% include list_of_wallets_item.html %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-<a onClick="loadMoreApps()">load more ...</a>
-</div>
+{% include grid_of_wallets.html %}
+{% include grid_of_wallets_proportional.html %}
 
 <script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>

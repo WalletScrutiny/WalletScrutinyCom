@@ -8,9 +8,9 @@ users: 100000
 appId: com.coinut.app
 appCountry: 
 released: Feb 4, 2018
-updated: 2021-12-30
-version: 0.7.0
-stars: 3.8
+updated: 2022-11-01
+version: 0.8.2
+stars: 3.7
 ratings: 
 reviews: 14
 size: 

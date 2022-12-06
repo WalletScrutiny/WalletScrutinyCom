@@ -1,6 +1,6 @@
 ---
 wsId: coinCRED
-title: CoinCRED
+title: 'CoinCRED: Crypto Trading app'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.coincred.android
 appCountry: 
 released: Sep 1, 2021
-updated: 2022-06-18
-version: 1.2.3
-stars: 5
+updated: 2022-10-31
+version: 2.0.8
+stars: 4.9
 ratings: 
-reviews: 162
+reviews: 163
 size: 
 website: https://coincred.org/
 repository: 

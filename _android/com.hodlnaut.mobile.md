@@ -7,11 +7,11 @@ users: 10000
 appId: com.hodlnaut.mobile
 appCountry: 
 released: Oct 26, 2021
-updated: 2022-04-19
-version: 1.4.12
-stars: 4.6
+updated: 2022-08-21
+version: 1.4.15
+stars: 3.9
 ratings: 
-reviews: 18
+reviews: 22
 size: 
 website: https://www.hodlnaut.com
 repository: 

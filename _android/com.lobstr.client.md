@@ -1,6 +1,6 @@
 ---
 wsId: lobstrco
-title: LOBSTR Stellar Lumens Wallet. Buy XLM Trade Crypto
+title: LOBSTR Wallet. Buy Stellar XLM
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.lobstr.client
 appCountry: us
 released: 2015-04-27
-updated: 2022-06-10
-version: 8.4.0
+updated: 2022-10-25
+version: 8.8.7
 stars: 4.7
 ratings: 11618
-reviews: 1343
+reviews: 1488
 size: 
 website: https://lobstr.co/
 repository: 

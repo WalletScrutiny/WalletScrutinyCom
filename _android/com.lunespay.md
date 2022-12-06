@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'LunesPay: Pagamentos Via QR Code, Compre Bitcoin!'
+title: 'LunesPay: Pagamentos Via QR Co'
 altTitle: 
 authors: 
 users: 100000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lunespay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'YANT Wallet : Bitcoin Ethereum Ripple Dash'
+title: 'YANT Wallet : Bitcoin Ethereum'
 altTitle: 
 authors: 
 users: 10000

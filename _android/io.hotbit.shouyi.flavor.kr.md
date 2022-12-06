@@ -10,9 +10,9 @@ appCountry: cn
 released: 2020-07-07
 updated: 2022-04-12
 version: 1.0.75
-stars: 3.5
+stars: 3.6
 ratings: 600
-reviews: 242
+reviews: 241
 size: 
 website: https://www.bitclover.io/
 repository: 

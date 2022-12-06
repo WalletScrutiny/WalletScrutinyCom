@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aofex.exchange1.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-21
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: Aofex2
@@ -28,6 +28,8 @@ social:
 - https://www.facebook.com/AofexDigitalCurrencyExchange
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}
 

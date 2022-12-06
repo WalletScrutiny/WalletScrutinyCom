@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.BizzCoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-30
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: bizz_coin

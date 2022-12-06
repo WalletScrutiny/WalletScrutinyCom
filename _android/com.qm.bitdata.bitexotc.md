@@ -3,12 +3,12 @@ wsId:
 title: BitDATA Exchange (BitEx)
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.qm.bitdata.bitexotc
 appCountry: 
 released: Aug 18, 2021
-updated: 2022-03-28
-version: 1.5.8
+updated: 2022-09-02
+version: 1.6.1
 stars: 
 ratings: 
 reviews: 

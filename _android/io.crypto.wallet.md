@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CryptoWallet - Bittrex and Binance
+title: CryptoWallet - Bittrex and Bin
 altTitle: 
 authors: 
 users: 10

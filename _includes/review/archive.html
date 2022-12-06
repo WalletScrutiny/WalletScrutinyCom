@@ -1,6 +1,6 @@
 {% if page.reviewArchive %}
 <div id="reviews" style="display:none">
-  <h1>Older reviews</h1>
+  <h1>Older Reviews</h1>
   <table>
     {% assign total = 0 %}
     {% assign good = 0 %}
@@ -23,6 +23,5 @@
     {% endfor %}
   </table>
 </div>
-<h1 id="collapsedReviews">Older reviews <a onclick="$('#reviews').show();$('#collapsedReviews').hide()">(show {{
-    good }} of {{ total }} reproducible)</a></h1>
+<h1 id="collapsedReviews"><a onclick="$('#reviews').show();$('#collapsedReviews').hide()">Show Older Reviews</a></h1>
 {% endif %}

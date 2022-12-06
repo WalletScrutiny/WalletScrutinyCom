@@ -12,17 +12,17 @@ idd: 1438224938
 released: 2018-10-25
 updated: 2021-07-21
 version: 1.2.7
-stars: 3.2
-reviews: 13
+stars: 3.3
+reviews: 14
 size: '34306048'
 website: https://www.coindirect.com/
 repository: 
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: coindirectcom
