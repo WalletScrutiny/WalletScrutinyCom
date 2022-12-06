@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Koinex - India's largest digital assets exchange
+title: Koinex - India's largest digit
 altTitle: 
 authors: 
 users: 100000

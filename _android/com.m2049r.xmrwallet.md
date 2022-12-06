@@ -4,15 +4,15 @@ title: 'monerujo: Monero Wallet'
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2022-05-23
-version: 2.4.3 'Baldaŭ'
+updated: 2022-10-22
+version: 3.0.3 'Fluorine Fermi'
 stars: 3.1
 ratings: 821
-reviews: 160
+reviews: 166
 size: 
 website: https://monerujo.io/
 repository: 

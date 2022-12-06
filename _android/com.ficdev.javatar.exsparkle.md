@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'EX Sparkle: Buy&Sell Bitcoin - Checkout News&Price'
+title: 'EX Sparkle: Buy&Sell Bitcoin -'
 altTitle: 
 authors: 
 users: 100

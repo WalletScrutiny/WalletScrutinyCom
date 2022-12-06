@@ -7,8 +7,8 @@ users: 1000
 appId: com.hashkey.me.google
 appCountry: 
 released: Jun 23, 2021
-updated: 2022-04-20
-version: 1.9.1
+updated: 2022-10-17
+version: 2.2.1
 stars: 
 ratings: 
 reviews: 

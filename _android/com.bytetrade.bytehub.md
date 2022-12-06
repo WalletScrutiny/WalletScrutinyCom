@@ -1,6 +1,6 @@
 ---
 wsId: bytehub
-title: ByteHub - Multiple Cryptocurrency Wallet& Exchange
+title: ByteHub - Multiple Cryptocurre
 altTitle: 
 authors:
 - danny
@@ -12,16 +12,16 @@ updated: 2021-09-09
 version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
-reviews: 1311
+reviews: 1309
 size: 
 website: https://www.bytetrade.io/
 repository: 
 issue: 
 icon: com.bytetrade.bytehub.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-08-27
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: ByteTradeIo

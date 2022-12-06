@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TycoTrader - Trade in Forex & Crypto Currency
+title: 'TycoTrader - Trade in Forex & '
 altTitle: 
 authors: 
 users: 10

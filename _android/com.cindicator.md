@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Cindicator: become a financial analyst'
+title: 'Cindicator: become a financial'
 altTitle: 
 authors: 
 users: 100000
@@ -11,7 +11,7 @@ updated: 2019-09-30
 version: 3.0.10
 stars: 4.1
 ratings: 1690
-reviews: 134
+reviews: 133
 size: 
 website: http://cindicator.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: IndocoDex - The Advanced Decentralized Exchange
+title: IndocoDex - The Advanced Decen
 altTitle: 
 authors: 
 users: 1000

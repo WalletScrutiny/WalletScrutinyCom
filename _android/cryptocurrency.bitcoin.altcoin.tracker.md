@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Tracker - Buy Bitcoin BTC, Ethereum, Ripple
+title: Crypto Tracker - Buy Bitcoin B
 altTitle: 
 authors: 
 users: 1000

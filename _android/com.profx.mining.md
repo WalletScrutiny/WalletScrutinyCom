@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Profxmining - High Yield Investment Platform
+title: Profxmining - High Yield Inves
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.profx.mining.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

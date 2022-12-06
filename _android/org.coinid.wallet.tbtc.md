@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Testnet Wallet for COINiD
+title: Bitcoin Testnet Wallet for COI
 altTitle: 
 authors:
 - danny

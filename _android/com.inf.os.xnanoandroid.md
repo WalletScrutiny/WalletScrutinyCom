@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: xNANO | Compre e Venda Bitcoin e Criptomoedas
+title: xNANO | Compre e Venda Bitcoin
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.inf.os.xnanoandroid.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-04
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

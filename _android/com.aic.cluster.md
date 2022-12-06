@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cluster - Send, Save, Receive & Trade Bitcoin
+title: 'Cluster - Send, Save, Receive '
 altTitle: 
 authors: 
 users: 10

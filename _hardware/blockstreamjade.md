@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2021-01-01
 discontinued: 
-updated: 2021-10-19
-version: 0.1.30
+updated: 2022-05-27
+version: 0.1.34
 binaries: 
 dimensions:
 - 24
@@ -24,9 +24,9 @@ repository: https://github.com/Blockstream/jade
 issue: https://github.com/Blockstream/Jade/issues/26
 icon: blockstreamjade.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: nonverifiable
-date: 2022-03-24
+date: 2022-08-07
 signer: 
 reviewArchive: 
 twitter: Blockstream

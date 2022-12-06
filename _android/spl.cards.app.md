@@ -3,7 +3,7 @@ wsId:
 title: SPL Cards
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: spl.cards.app
 appCountry: 
 released: Sep 23, 2021

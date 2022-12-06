@@ -1,6 +1,6 @@
 ---
 wsId: AltcoinFantasy
-title: Crypto & Bitcoin & DeFi Trading Game
+title: Crypto & Bitcoin & DeFi Tradin
 altTitle: 
 authors:
 - kiwilamb
@@ -11,9 +11,9 @@ appCountry: us
 released: 2018-01-05
 updated: 2021-01-07
 version: 3.3.6-google
-stars: 4.2
+stars: 4.1
 ratings: 2310
-reviews: 242
+reviews: 241
 size: 
 website: https://altcoinfantasy.com
 repository: 

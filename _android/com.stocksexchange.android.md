@@ -8,11 +8,11 @@ users: 100000
 appId: com.stocksexchange.android
 appCountry: us
 released: 2018-05-15
-updated: 2022-05-12
-version: 2.1.4
-stars: 4.4
+updated: 2022-08-01
+version: 2.1.6
+stars: 4.5
 ratings: 2148
-reviews: 37
+reviews: 39
 size: 
 website: https://stex.com
 repository: 

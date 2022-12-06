@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Multi Crypto Wallet: for Bitcoin and 20 currencies'
+title: 'Multi Crypto Wallet: for Bitco'
 altTitle: 
 authors:
 - leo

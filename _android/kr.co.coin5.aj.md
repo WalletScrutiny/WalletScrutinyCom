@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.coin5.aj.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

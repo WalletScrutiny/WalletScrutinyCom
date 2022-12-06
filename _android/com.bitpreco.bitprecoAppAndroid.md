@@ -1,6 +1,6 @@
 ---
 wsId: BitPreco
-title: Bitpreço
+title: BitPreço
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
 appCountry: br
 released: 2021-02-21
-updated: 2022-06-07
-version: 1.8.28
-stars: 4.5
+updated: 2022-10-28
+version: 1.8.47
+stars: 4.6
 ratings: 808
-reviews: 557
+reviews: 644
 size: 
 website: https://bitpreco.com/
 repository: 

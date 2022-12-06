@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ldvbank_test.ldvbank_test.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

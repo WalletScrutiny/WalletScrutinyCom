@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BitShield Wallet - Bitcoin Wallet
+title: BitShield Wallet - Btc Wallet
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2021-04-12
 version: '1.28'
 stars: 4.6
 ratings: 1809
-reviews: 1266
+reviews: 1285
 size: 
 website: https://bitshieldwallet.com
 repository: 

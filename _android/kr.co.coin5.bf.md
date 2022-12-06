@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호화폐소득쉐어서비스
+title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.coin5.bf.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

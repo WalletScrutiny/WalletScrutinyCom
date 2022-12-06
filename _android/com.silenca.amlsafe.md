@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AMLSafe - bitcoin wallet
+title: AMLSafe - Crypto Defi Wallet
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ users: 10000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2022-04-27
-version: 1.30.62
-stars: 4.4
+updated: 2022-10-17
+version: 1.34.3
+stars: 4
 ratings: 
 reviews: 1
 size: 

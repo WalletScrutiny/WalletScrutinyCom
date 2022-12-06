@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptex Exchange - Buy and Sell Bitcoin
+title: Cryptex Exchange - Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2021-04-29
 version: 3.0.0.0
 stars: 4.9
 ratings: 474
-reviews: 17
+reviews: 19
 size: 
 website: http://exchange.cryptex.net/
 repository: 

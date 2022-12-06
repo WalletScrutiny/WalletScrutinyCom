@@ -1,6 +1,6 @@
 ---
 wsId: VoucherMoney
-title: Voucher Money Vouchers and Bitcoin
+title: Voucher Money Vouchers and Bit
 altTitle: 
 authors:
 - danny

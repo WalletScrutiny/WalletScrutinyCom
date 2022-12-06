@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: Mnemonic Phrase Generator - Secret Words
+title: Mnemonic Phrase Generator - Se
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.fourthwavestudios.joseph.mnemonic
 appCountry: 
 released: May 18, 2021

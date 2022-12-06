@@ -8,7 +8,7 @@ users: 100000
 appId: com.samourai.wallet
 appCountry: 
 released: 
-updated: 2022-02-26
+updated: 2022-09-29
 version: VARY
 stars: 
 ratings: 
@@ -21,7 +21,7 @@ icon: com.samourai.wallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2021-10-07
+date: 2022-11-02
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive: 
 twitter: SamouraiWallet
@@ -33,6 +33,36 @@ redirect_from:
 - /posts/com.samourai.wallet/
 
 ---
+
+**Update 2022-11-02**: As of now, {{ page.title }} is the
+{% include verdictBadge.html verdict='nonverifiable' type='short' %} product
+with the most users so we gave it yet another spin for their version `0.99.98f`
+with hash `0a5711195d96f13f41a71107f1b1035505b33afd3a299828e43e9d1b5101e9c0`
+even though the related issue is closed without resolution. Compilation was easy:
+
+```
+$ git clone https://code.samourai.io/wallet/samourai-wallet-android.git
+$ cd samourai-wallet-android/
+$ git checkout 0.99.98f
+$ podman run -it --rm -v$PWD:/mnt --workdir=/mnt walletscrutiny/android
+root@374550c30c4e:/mnt# apt update; apt install openjdk-11-jdk; ./gradlew assembleRelease
+```
+
+As always, the binaries from Play Store and compilation do not match:
+
+```
+$ unzip -d fromDownload path/to/Samourai\ 0.99.98f\ \(com.samourai.wallet\).apk
+$ unzip -d fromBuild app/build/outputs/apk/production/release/app-production-release-unsigned.apk
+$ diff -r from*
+Binary files fromBuild/assets/dexopt/baseline.prof and fromDownload/assets/dexopt/baseline.prof differ
+Binary files fromBuild/classes2.dex and fromDownload/classes2.dex differ
+Only in fromDownload/META-INF: CERT.RSA
+Only in fromDownload/META-INF: CERT.SF
+Only in fromDownload/META-INF: MANIFEST.MF
+```
+
+While the bottom three lines are expected due to the signature, the other two
+are not ok. This product is **not verifiable**.
 
 **Update 2021-10-07**: [Erik Nylund](https://twitter.com/Erik_Nylund) reached
 out to let us know of his failed attempt to reproduce this app. He wrote he

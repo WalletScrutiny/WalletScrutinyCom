@@ -3,12 +3,12 @@ wsId:
 title: SimpleHold - Crypto Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.simplehold.app
 appCountry: 
 released: 
-updated: 2022-06-06
-version: '1.9'
+updated: 2022-10-29
+version: '1.19'
 stars: 
 ratings: 
 reviews: 

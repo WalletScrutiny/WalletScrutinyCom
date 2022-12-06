@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: GENE Wallet (Bitcoin, Ether, GENE, ERC-20)
+title: GENE Wallet (Bitcoin, Ether, G
 altTitle: 
 authors: 
 users: 5000

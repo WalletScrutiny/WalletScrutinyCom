@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: Crypterium | Bitcoin Wallet
+title: Choise.com Buy & earn crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.Crypterium.Crypterium
 appCountry: 
 idd: 1360632912
 released: 2018-03-26
-updated: 2022-04-08
-version: 1.19.5
+updated: 2022-06-27
+version: 2.0.1
 stars: 4.3
-reviews: 936
-size: '275817472'
+reviews: 939
+size: '295241728'
 website: https://cards.crypterium.com/visa
 repository: 
 issue: 

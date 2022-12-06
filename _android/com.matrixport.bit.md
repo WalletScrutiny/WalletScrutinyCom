@@ -4,15 +4,15 @@ title: bit.com
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2022-06-02
-version: 1.1.1
+updated: 2022-10-22
+version: 1.2.1
 stars: 4.6
 ratings: 245
-reviews: 5
+reviews: 7
 size: 
 website: https://www.bit.com
 repository: 

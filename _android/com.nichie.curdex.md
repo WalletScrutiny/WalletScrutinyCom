@@ -7,13 +7,13 @@ users: 100
 appId: com.nichie.curdex
 appCountry: 
 released: Sep 23, 2020
-updated: 2022-05-16
-version: 3.0.04
+updated: 2022-10-16
+version: 3.2.00
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://scurdex.com
+website: https://scurdexcapital.com
 repository: 
 issue: 
 icon: com.nichie.curdex.png

@@ -3,7 +3,7 @@ wsId:
 title: Timebitex - Crypto Trading
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.timebit.exchange
 appCountry: 
 released: Feb 18, 2021

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitbox Bitcoin Wallet & Exchange
+title: Bitbox Bitcoin Wallet & Exchan
 altTitle: 
 authors: 
 users: 1000

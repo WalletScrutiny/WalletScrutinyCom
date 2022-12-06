@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: bit4you - Cryptocurrency Trading Platform
+title: bit4you
 altTitle: 
 authors: 
 users: 10000

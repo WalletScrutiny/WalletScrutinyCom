@@ -17,7 +17,7 @@ size:
 website: https://www.kapitalrs.com/
 repository: 
 issue: 
-icon: com.kapitalrs.pro.png
+icon: com.kapitalrs.pro.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc

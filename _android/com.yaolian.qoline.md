@@ -8,8 +8,8 @@ users: 50
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14
-updated: 2022-06-06
-version: 1.9.12
+updated: 2022-08-11
+version: 1.9.14
 stars: 
 ratings: 
 reviews: 

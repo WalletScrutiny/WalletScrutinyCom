@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bithesap - Bitcoin & Altcoin Alım Satım Borsası
+title: Bithesap - Bitcoin & Altcoin A
 altTitle: 
 authors: 
 users: 5000

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 굿비트-P2P암호화폐 거래소(비트코인, 이더리움, 알트코인)
+title: 굿비트-P2P암호화폐 거래소(비트코인, 이더리움, 알트
 altTitle: 
 authors: 
 users: 500

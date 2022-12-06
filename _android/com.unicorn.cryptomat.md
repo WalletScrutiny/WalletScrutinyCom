@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: Cryptomat. Cryptocurrency exchange in two clicks
+title: Cryptomat. Cryptocurrency exch
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.unicorn.cryptomat
 appCountry: 
 released: 2020-01-28
@@ -19,7 +19,7 @@ issue:
 icon: com.unicorn.cryptomat.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-04-14
 signer: 
 reviewArchive: 

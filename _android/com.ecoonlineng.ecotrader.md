@@ -9,18 +9,18 @@ appCountry:
 released: Nov 13, 2020
 updated: 2021-11-03
 version: 3.7.0
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 7
+reviews: 12
 size: 
 website: https://programmerscourt.com
 repository: 
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

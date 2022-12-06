@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Thodex – Global Kripto Para Alım Satımı
+title: Thodex – Global Kripto Para Al
 altTitle: 
 authors: 
 users: 100000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.uho.thodex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

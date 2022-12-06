@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.bitfirst.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

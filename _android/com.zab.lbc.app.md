@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ZabTech Ads Based Exchange - Demo
+title: ZabTech Ads Based Exchange - D
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zab.lbc.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

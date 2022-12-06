@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kelta.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,4 +28,6 @@ social:
 
 ---
 
-{% include copyFromAndroid.html %}
+{**Update 2022-10-21**: This app is not available anymore.
+
+% include copyFromAndroid.html %}

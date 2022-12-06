@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: WallBTC кошелек и обменник криптовалют BITCOIN
+title: WallBTC кошелек и обменник кри
 altTitle: 
 authors: 
 users: 10000

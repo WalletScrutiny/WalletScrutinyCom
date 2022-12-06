@@ -7,8 +7,8 @@ users: 500
 appId: com.bitenium.apptrading
 appCountry: 
 released: Aug 15, 2021
-updated: 2022-02-22
-version: 1.0.5
+updated: 2022-07-19
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

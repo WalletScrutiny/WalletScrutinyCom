@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptoit - Mock Trade Cryptocurrency
+title: Cryptoit - Mock Trade Cryptocu
 altTitle: 
 authors: 
 users: 100

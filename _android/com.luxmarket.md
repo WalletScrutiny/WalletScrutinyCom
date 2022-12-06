@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.luxmarket.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

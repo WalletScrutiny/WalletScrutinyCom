@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Crypto Wallet: Buy Swap Store'
+title: 'NOW Wallet: Buy & Store Crypto'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.nowwallet
 appCountry: 
 released: Oct 20, 2021
-updated: 2022-06-21
-version: 2.7.0
-stars: 4
+updated: 2022-10-26
+version: 3.1.7
+stars: 4.3
 ratings: 
-reviews: 15
+reviews: 42
 size: 
 website: https://walletnow.app
 repository: 

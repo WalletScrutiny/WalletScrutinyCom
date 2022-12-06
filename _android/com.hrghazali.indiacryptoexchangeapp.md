@@ -3,7 +3,7 @@ wsId:
 title: 'India: Crypto Exchange App'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hrghazali.indiacryptoexchangeapp
 appCountry: 
 released: 2021-09-12
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hrghazali.indiacryptoexchangeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

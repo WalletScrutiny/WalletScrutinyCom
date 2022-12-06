@@ -3,7 +3,7 @@ wsId:
 title: Trade Bit
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.onlybit.wallet
 appCountry: 
 released: 2020-11-13
@@ -19,7 +19,7 @@ issue:
 icon: com.onlybit.wallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-02-03
 signer: 
 reviewArchive: 

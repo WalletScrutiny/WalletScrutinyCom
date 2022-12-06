@@ -1,6 +1,6 @@
 ---
 wsId: bridgeWallet
-title: Bridge Wallet, the Swiss app for Bitcoin & Crypto
+title: Bridge Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2022-03-21
-version: '1.23'
+updated: 2022-09-24
+version: '1.26'
 stars: 3.6
 ratings: 178
-reviews: 10
+reviews: 11
 size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

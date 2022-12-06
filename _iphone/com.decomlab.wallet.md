@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.decomlab.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-21
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: gomoonwallet

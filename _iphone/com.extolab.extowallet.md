@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.extolab.extowallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-04-27
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: Exto_Labs
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/extolabs/
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 **Note:** As of April 6, 2022, we were not able to find the corresponding Android counterpart to this app. 
 

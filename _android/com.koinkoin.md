@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: KoinKoin - Crypto Exchange & Wallet
+title: KoinKoin - Crypto Exchange & W
 altTitle: 
 authors: 
 users: 100

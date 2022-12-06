@@ -1,6 +1,6 @@
 ---
 wsId: valr
-title: VALR - Crypto Exchange & Payments
+title: VALR Crypto Exchange
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 100000
 appId: com.valr.app
 appCountry: 
 released: 2019-09-13
-updated: 2022-05-18
-version: 1.0.49
+updated: 2022-10-12
+version: 1.0.62
 stars: 4.1
 ratings: 1725
-reviews: 9
+reviews: 10
 size: 
 website: https://www.valr.com
 repository: 

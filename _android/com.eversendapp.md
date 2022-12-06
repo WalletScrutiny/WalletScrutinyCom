@@ -4,15 +4,15 @@ title: 'Eversend: Send money abroad'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.eversendapp
 appCountry: lv
 released: 2019-02-01
-updated: 2022-05-31
-version: 0.2.80
-stars: 4
+updated: 2022-10-11
+version: 0.3.57
+stars: 3.6
 ratings: 5009
-reviews: 2570
+reviews: 2957
 size: 
 website: http://eversend.co
 repository: 

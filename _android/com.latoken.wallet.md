@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'LATOKEN: Bitcoin Wallet, Crypto Exchange'
+title: 'LATOKEN: Buy Bitcoin & Ether'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2022-06-02
-version: 1.110.00
-stars: 4.3
+updated: 2022-11-02
+version: 1.120.16
+stars: 4.2
 ratings: 35079
-reviews: 98
+reviews: 99
 size: 
 website: http://latoken.com
 repository: 

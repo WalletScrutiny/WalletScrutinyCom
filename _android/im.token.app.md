@@ -4,15 +4,15 @@ title: 'imToken: Crypto & DeFi Wallet'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31
-updated: 2022-05-21
-version: 2.10.2
-stars: 3.8
+updated: 2022-09-13
+version: 2.11.0
+stars: 4
 ratings: 4350
-reviews: 200
+reviews: 217
 size: 
 website: https://token.im
 repository: 

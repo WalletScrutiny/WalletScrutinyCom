@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Trading Apps, Cryptocurrency, Buy Bitcoin BTC, XRP
+title: 'Trading Apps, Cryptocurrency, '
 altTitle: 
 authors: 
 users: 10000

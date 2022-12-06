@@ -1,6 +1,6 @@
 ---
 wsId: CoinPayments
-title: CoinPayments - Crypto Wallet for Bitcoin/Altcoins
+title: CoinPayments - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 released: 2016-11-15
-updated: 2022-06-06
+updated: 2022-09-28
 version: VARY
 stars: 3.6
 ratings: 2277
-reviews: 116
+reviews: 120
 size: 
 website: https://www.coinpayments.net/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BitStash Wallet - Multi Cryptocurrency Wallet
+title: BitStash Wallet - Multi Crypto
 altTitle: 
 authors: 
 users: 100

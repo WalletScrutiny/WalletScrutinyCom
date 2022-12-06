@@ -8,11 +8,11 @@ users: 10000
 appId: com.vita_wallet
 appCountry: cl
 released: 2019-10-16
-updated: 2022-06-04
-version: 4.5.0
+updated: 2022-11-02
+version: 5.0.2
 stars: 4.6
 ratings: 458
-reviews: 288
+reviews: 384
 size: 
 website: https://vitawallet.io/
 repository: 
