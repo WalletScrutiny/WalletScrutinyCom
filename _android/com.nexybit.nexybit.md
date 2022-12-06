@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Nexybit - Mining and Futures Exchange
+title: Nexybit - Mining and Futures E
 altTitle: 
 authors: 
 users: 10000

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Wallet Exchange - exchange BTC ETH & more
+title: Bitcoin Wallet Exchange - exch
 altTitle: 
 authors:
 - kiwilamb
@@ -12,16 +12,16 @@ updated: 2020-10-13
 version: '1.01'
 stars: 4.7
 ratings: 110
-reviews: 11
+reviews: 12
 size: 
 website: 
 repository: 
 issue: 
 icon: com.BitcoinWalletExchange.org.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2021-10-09
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

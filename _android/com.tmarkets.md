@@ -1,6 +1,6 @@
 ---
 wsId: T1Markets
-title: 'T1Markets: Online Trading on Forex and Stocks'
+title: 'T1Markets: Online Trading on F'
 altTitle: 
 authors:
 - danny

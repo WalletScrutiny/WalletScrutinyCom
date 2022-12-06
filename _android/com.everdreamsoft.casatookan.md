@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.everdreamsoft.casatookan.png
 bugbounty: 
-meta: ok
-verdict: nosource
-date: 2022-07-13
+meta: stale
+verdict: wip
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: everdreamsoft

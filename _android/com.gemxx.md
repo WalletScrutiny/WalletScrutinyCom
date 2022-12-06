@@ -3,7 +3,7 @@ wsId:
 title: GEMXX Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.gemxx
 appCountry: 
 released: Oct 30, 2021

@@ -7,8 +7,8 @@ users: 1000
 appId: com.bit.eu
 appCountry: 
 released: 2019-07-03
-updated: 2022-06-23
-version: 1.12.0
+updated: 2022-08-22
+version: 1.12.2
 stars: 
 ratings: 
 reviews: 

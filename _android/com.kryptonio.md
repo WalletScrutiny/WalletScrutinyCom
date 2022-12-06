@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kryptonio.com - Bitcoin & Crypto Wallet
+title: Kryptonio.com - Bitcoin & Cryp
 altTitle: 
 authors: 
 users: 100

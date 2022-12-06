@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nakitcoins.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: nakitcoins
@@ -28,5 +28,7 @@ social:
 - https://www.facebook.com/NakitCoins
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

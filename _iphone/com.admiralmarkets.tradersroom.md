@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: 'Admirals: Trade CFDs & Stocks'
+title: 'Admirals: Trade Stocks & CFDs'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.admiralmarkets.tradersroom
 appCountry: us
 idd: 1222861799
 released: 2017-06-28
-updated: 2022-05-27
-version: 5.10.0
+updated: 2022-10-31
+version: 5.15.1
 stars: 4.8
-reviews: 17
-size: '61735936'
+reviews: 23
+size: '70617088'
 website: https://admiralmarkets.com/
 repository: 
 issue: 

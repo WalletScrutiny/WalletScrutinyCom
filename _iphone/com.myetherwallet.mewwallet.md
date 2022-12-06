@@ -1,6 +1,6 @@
 ---
 wsId: mewEthereum
-title: 'MEW wallet: Ethereum and DeFi'
+title: 'MEW wallet: Ethereum DeFi Web3'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.myetherwallet.mewwallet
 appCountry: us
 idd: 1464614025
 released: 2020-03-12
-updated: 2022-06-06
-version: 1.6.2
+updated: 2022-10-23
+version: '1.8'
 stars: 4.7
-reviews: 4291
-size: '86344704'
+reviews: 4440
+size: '114325504'
 website: http://mewwallet.com
 repository: 
 issue: 

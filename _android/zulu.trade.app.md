@@ -1,6 +1,6 @@
 ---
 wsId: ZuluTrade
-title: ZuluTrade - Copy Trading Platform
+title: ZuluTrade - Copy Trading Platf
 altTitle: 
 authors:
 - danny

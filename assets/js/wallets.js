@@ -1,8 +1,26 @@
-window.verdictOrder = ("nobinary,reproducible,diy,nonverifiable,ftbfs,nosource," +
-    "custodial,nosendreceive,obfuscated,fake,noita,plainkey,prefilled,wip," +
-    "fewusers,unreleased,vapor,nobtc,nowallet").split(",")
+window.verdictOrder = `nobinary
+reproducible
+diy
+nonverifiable
+ftbfs
+nosource
+custodial
+nosendreceive
+sealed-noita
+noita
+sealed-plainkey
+plainkey
+obfuscated
+prefilled
+fake
+wip
+fewusers
+unreleased
+vapor
+nobtc
+nowallet`.split("\n")
 const platformOrder = "hardware,android,iphone,bearer"
-const metaOrder = "ok,stale,obsolete,defunct"
+const metaOrder = "ok,outdated,stale,obsolete,defunct"
 
 window.wallets.sort((a, b) => {
   const diff = function(a, b) {

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pipezi.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

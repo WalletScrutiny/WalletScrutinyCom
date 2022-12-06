@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Break Bitcoin - find money for free
+title: Break Bitcoin - find money for
 altTitle: 
 authors:
 - danny

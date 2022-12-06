@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'BBC Token : Big Blockchain Community'
+title: 'BBC Token : Big Blockchain Com'
 altTitle: 
 authors: 
 users: 10000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bbctoken.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-12
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

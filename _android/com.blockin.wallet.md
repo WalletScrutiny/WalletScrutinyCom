@@ -1,6 +1,6 @@
 ---
 wsId: PoolinWallet
-title: Poolin Wallet -  HODL, Swap, Earn, Loan, DeFi
+title: PoolinWallet - Secure Custody
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.blockin.wallet
 appCountry: us
 released: 2020-03-23
-updated: 2022-06-23
-version: 2.4.4
-stars: 3.8
+updated: 2022-10-21
+version: 2.5.4
+stars: 3.6
 ratings: 225
-reviews: 15
+reviews: 17
 size: 
 website: https://poolin.fi/
 repository: 

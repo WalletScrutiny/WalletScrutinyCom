@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BITBLINX - Bitcoin Exchange & Crypto Trading
+title: 'BITBLINX - Bitcoin Exchange & '
 altTitle: 
 authors: 
 users: 10000

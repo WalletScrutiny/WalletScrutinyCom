@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: fox.exchange Cryptocurrency Express Exchange
+title: fox.exchange Cryptocurrency Ex
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: exchange.fox.android
 appCountry: 
 released: 2019-06-11

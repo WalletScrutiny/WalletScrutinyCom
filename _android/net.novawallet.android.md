@@ -7,11 +7,11 @@ users: 50000
 appId: net.novawallet.android
 appCountry: 
 released: Oct 25, 2021
-updated: 2022-05-13
-version: 2.2.3
-stars: 5
+updated: 2022-07-26
+version: 2.2.5
+stars: 4.9
 ratings: 
-reviews: 716
+reviews: 717
 size: 
 website: http://www.vsolidus.com/
 repository: 

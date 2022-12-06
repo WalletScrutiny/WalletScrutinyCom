@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Sinance
+title: SNEX
 altTitle: 
 authors: 
 users: 1000
 appId: com.sinance.exchange
 appCountry: 
 released: Jan 7, 2021
-updated: 2021-12-01
-version: 1.1.0
+updated: 2022-07-06
+version: 1.2.1
 stars: 5
 ratings: 
 reviews: 

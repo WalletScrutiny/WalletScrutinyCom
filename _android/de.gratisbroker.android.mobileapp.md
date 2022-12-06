@@ -3,12 +3,12 @@ wsId:
 title: finanzen.net zero Aktien & ETF
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: Jun 2, 2021
-updated: 2022-06-17
-version: 2.3.0
+updated: 2022-10-26
+version: 3.4.3
 stars: 
 ratings: 
 reviews: 

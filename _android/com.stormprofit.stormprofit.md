@@ -1,26 +1,26 @@
 ---
 wsId: 
-title: StormProfit - Passive income without investment!
+title: StormProfit - Passive income w
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.stormprofit.stormprofit
 appCountry: 
 released: Sep 17, 2021
 updated: 2021-09-17
 version: '1.0'
-stars: 
+stars: 1.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://stormprofit.trade/
 repository: 
 issue: 
 icon: com.stormprofit.stormprofit.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

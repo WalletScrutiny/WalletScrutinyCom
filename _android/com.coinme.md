@@ -1,18 +1,18 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin & Crypto'
+title: 'Coinme: Buy BTC, ETH, & Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinme
 appCountry: 
 released: 2021-05-06
-updated: 2022-06-15
-version: 1.9.9
+updated: 2022-10-31
+version: 2.0.2
 stars: 4.1
 ratings: 782
-reviews: 313
+reviews: 416
 size: 
 website: https://www.coinme.com
 repository: 

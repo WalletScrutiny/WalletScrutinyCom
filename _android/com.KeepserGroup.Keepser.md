@@ -4,7 +4,7 @@ title: KEEPSER
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: com.KeepserGroup.Keepser
 appCountry: 
 released: 2021-07-22

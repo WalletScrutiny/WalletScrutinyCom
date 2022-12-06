@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Portals : Crypto Wallet Generator - Bitcoin'
+title: 'Portals : Crypto Wallet Genera'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2020-12-20
 version: 0.0.4a
 stars: 4.3
 ratings: 138
-reviews: 21
+reviews: 24
 size: 
 website: https://portals.nz
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ramzingate | رمزین گیت بستر معاملات رمزارزها
+title: Ramzingate | رمزین گیت بستر مع
 altTitle: 
 authors: 
 users: 1000

@@ -3,7 +3,7 @@ wsId:
 title: OrbitEx
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.exchange.orbitex
 appCountry: 
 released: Jan 5, 2021

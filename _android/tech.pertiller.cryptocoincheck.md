@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Crypto Coin Check - Free Price & Arbitrage Tracker
+title: Crypto Coin Check
 altTitle: 
 authors: 
 users: 10000
 appId: tech.pertiller.cryptocoincheck
 appCountry: 
 released: 2018-04-05
-updated: 2018-10-26
-version: 1.6.0
+updated: 2022-10-24
+version: 1.7.0
 stars: 4.2
 ratings: 
 reviews: 1
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: tech.pertiller.cryptocoincheck.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2021-08-21
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

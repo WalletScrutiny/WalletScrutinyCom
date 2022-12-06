@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'WeCrypto: The Future of Digital Payments'
+title: 'WeCrypto: The Future of Digita'
 altTitle: 
 authors: 
 users: 500

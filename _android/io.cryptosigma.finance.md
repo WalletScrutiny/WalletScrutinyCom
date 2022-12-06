@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Sigma Wallet - Crypto Wallet
+title: Sigma Wallet
 altTitle: 
 authors:
 - danny

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: اوکی اکسچنج، خرید بیت کوین و ارز دیجیتال
+title: اوکی اکسچنج، خرید ارز دیجیتال
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: co.okex.app
 appCountry: 
 released: 2019-09-11
-updated: 2022-04-30
-version: 6.3.4
-stars: 3.8
+updated: 2022-10-04
+version: 6.4.6
+stars: 4
 ratings: 7353
-reviews: 170
+reviews: 179
 size: 
 website: https://ok-ex.co
 repository: 

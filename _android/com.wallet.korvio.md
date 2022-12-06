@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Korvio Wallet - Multichain Blockchain Technology
+title: Korvio Wallet - Multichain Blo
 altTitle: 
 authors:
 - danny

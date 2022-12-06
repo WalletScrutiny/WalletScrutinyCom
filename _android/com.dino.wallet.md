@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dino.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-10-26
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

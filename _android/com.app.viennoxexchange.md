@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.viennoxexchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

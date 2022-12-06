@@ -3,12 +3,12 @@ wsId:
 title: 'Cryptox: Flutter Template'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.flutter.cryptox
 appCountry: 
 released: Jul 31, 2021
-updated: 2021-07-31
-version: 1.0.0
+updated: 2022-07-29
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 

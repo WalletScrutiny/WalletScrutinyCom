@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ychanger – доступный каждому обмен криптовалют
+title: Ychanger – доступный каждому о
 altTitle: 
 authors: 
 users: 500

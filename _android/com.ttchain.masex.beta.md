@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MASEx Wallet-多鏈錢包 ✕ 跨鏈平台 ✕ 移動經濟
+title: MASEx Wallet-多鏈錢包 ✕ 跨鏈平台 ✕ 移動經
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ttchain.masex.beta.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,20 +8,20 @@ users: 100000
 appId: com.app.bitay
 appCountry: us
 released: 2019-04-15
-updated: 2020-11-09
-version: 2.1.1
-stars: 3.9
+updated: 2022-11-01
+version: 3.1.4
+stars: 4.4
 ratings: 5765
-reviews: 12
+reviews: 27
 size: 
 website: https://www.bitay.com
 repository: 
 issue: 
 icon: com.app.bitay.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2021-11-07
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: BitayTurkiye

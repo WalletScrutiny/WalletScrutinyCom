@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinsclone Ads Based Exchange - Demo
+title: 'Coinsclone Ads Based Exchange '
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lbc.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

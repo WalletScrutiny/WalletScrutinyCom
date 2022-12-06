@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading for Bybit - Trade much faster
+title: ProfitTradingApp for Bybit
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 5000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22
-updated: 2020-07-24
-version: 2.0.0
-stars: 4.2
+updated: 2022-09-13
+version: 3.0.8
+stars: 4.3
 ratings: 41
 reviews: 2
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forbybit.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2021-09-20
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

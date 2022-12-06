@@ -1,6 +1,6 @@
 ---
 wsId: africa.bundle
-title: Bundle Africa - Send/Get Cash, Buy & Sell Bitcoin
+title: Bundle - Cash & Crypto Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 1000000
 appId: africa.bundle.mobile.app
 appCountry: 
 released: 2020-04-20
-updated: 2022-06-17
-version: 3.7.3
-stars: 3.9
+updated: 2022-07-08
+version: 3.10.2
+stars: 4.1
 ratings: 13846
-reviews: 341
+reviews: 351
 size: 
 website: https://bundle.africa
 repository: 

@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-02-03
 updated: 2021-05-14
 version: 3.0.1
-stars: 4.2
+stars: 4.3
 ratings: 60
-reviews: 26
+reviews: 25
 size: 
 website: https://baksman.org
 repository: 

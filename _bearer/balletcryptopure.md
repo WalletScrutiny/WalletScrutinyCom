@@ -25,7 +25,7 @@ issue:
 icon: balletcryptopure.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: sealed-plainkey
 date: 2022-03-23
 signer: 
 reviewArchive: 

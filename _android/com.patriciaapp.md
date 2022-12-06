@@ -8,11 +8,11 @@ users: 100000
 appId: com.patriciaapp
 appCountry: us
 released: 2020-02-14
-updated: 2022-05-05
-version: 1.3.5
-stars: 1.9
+updated: 2022-10-27
+version: 1.3.7
+stars: 2
 ratings: 3910
-reviews: 406
+reviews: 422
 size: 
 website: https://mypatricia.co
 repository: 

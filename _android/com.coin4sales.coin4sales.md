@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coin4sales Wallet - Buy Bitcoin, Send, Spend, More
+title: Coin4sales Wallet - Buy Bitcoi
 altTitle: 
 authors: 
 users: 100

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For Binance - Trade much faster
+title: ProfitTradingApp For Binance
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.profittrading.forbinance
 appCountry: 
 released: 2018-01-09
-updated: 2022-02-20
-version: 10.11.2
+updated: 2022-09-09
+version: 10.12.3
 stars: 4.4
 ratings: 1851
-reviews: 108
+reviews: 109
 size: 
 website: https://profittradingapp.com/
 repository: 

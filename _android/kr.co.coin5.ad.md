@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BISPEX스코어-비스펙스분석 비트코인 마진거래 재테크플랫폼
+title: BISPEX스코어-비스펙스분석 비트코인 마진거래 재테크
 altTitle: 
 authors: 
 users: 10

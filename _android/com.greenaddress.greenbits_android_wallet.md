@@ -8,9 +8,9 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2022-06-20
-version: 3.8.4
-stars: 3.8
+updated: 2022-10-13
+version: 3.8.9
+stars: 3.9
 ratings: 946
 reviews: 100
 size: 
@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-05-31
+date: 2022-11-01
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2022-08-07
+  version: 3.8.2
+  appHash: 76127774e3e59557e605fb5b4e8804f8d2c0ef03dd0eabe8de48df0fe49f0ca3
+  gitRevision: 5a0d398fa30c074b529a9a655cf3f07370fc6dc7
+  verdict: reproducible
 - date: 2022-05-08
   version: 3.8.0
   appHash: 800949a6583a347102ba33bbcfe337ae6193892e2a956acbec75444492ad8b3c
@@ -197,24 +202,24 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.8.2
-apkVersionCode: 22000382
+apkVersionName: 3.8.9
+apkVersionCode: 22000389
 verdict:        reproducible
-appHash:        76127774e3e59557e605fb5b4e8804f8d2c0ef03dd0eabe8de48df0fe49f0ca3
-commit:         2f7a778af047332d1b41f99715b91c97c375c943
+appHash:        c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
+commit:         c8239d1de8b6982590daf5d7222f0f8bc991e185
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000382/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 2f7a778af047332d1b41f99715b91c97c375c943
+object c8239d1de8b6982590daf5d7222f0f8bc991e185
 type commit
-tag release_3.8.2
-tagger Domenico Gabriele <domenico@blockstream.com> 1652979147 +0200
+tag release_3.8.9
+tagger Domenico Gabriele <domenico@blockstream.com> 1665492338 +0200
 
-Release 3.8.2
+Release 3.8.9
 ===== End Results =====
 ```
 

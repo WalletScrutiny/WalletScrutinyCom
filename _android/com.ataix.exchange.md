@@ -1,6 +1,6 @@
 ---
 wsId: ATAIX
-title: ATAIX – Bitcoin Crypto Exchange
+title: ATAIX – Bitcoin Crypto Exchang
 altTitle: 
 authors:
 - danny

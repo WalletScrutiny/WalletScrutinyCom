@@ -1,6 +1,6 @@
 ---
 wsId: DigitalMoney
-title: Digital Money - Buy/Send/Recieve Crypto.
+title: Digital Money - Buy/Send/Recie
 altTitle: 
 authors:
 - danny
@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://digital-money.co/
+website: https://dmexchange.com
 repository: 
 issue: 
 icon: co.digitalmoney.dmapp.png

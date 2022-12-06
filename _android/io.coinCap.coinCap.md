@@ -11,16 +11,16 @@ updated: 2021-10-11
 version: 3.1.33
 stars: 4
 ratings: 
-reviews: 356
+reviews: 357
 size: 
 website: http://coincap.io/
 repository: 
 issue: 
 icon: io.coinCap.coinCap.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

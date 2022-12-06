@@ -3,7 +3,7 @@ wsId:
 title: Vista Money
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: app.vistamoney.mobilewallet
 appCountry: 
 released: Apr 29, 2021

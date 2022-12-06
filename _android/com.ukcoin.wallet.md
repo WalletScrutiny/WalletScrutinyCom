@@ -3,7 +3,7 @@ wsId:
 title: UKCOIN
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ukcoin.wallet
 appCountry: 
 released: Jul 16, 2020
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ukcoin.wallet.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2022-06-22
+meta: obsolete
+verdict: wip
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

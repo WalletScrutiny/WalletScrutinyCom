@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Banko Wallet - Bitcoin, ETH, TRON, Crypto Wallet
+title: Banko Wallet - Bitcoin, ETH, T
 altTitle: 
 authors: 
 users: 1000

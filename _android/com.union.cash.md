@@ -3,12 +3,12 @@ wsId:
 title: Union Cash
 altTitle: 
 authors: 
-users: 50
+users: 500
 appId: com.union.cash
 appCountry: 
 released: Jun 25, 2021
-updated: 2022-06-23
-version: 1.0.9
+updated: 2022-10-27
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 

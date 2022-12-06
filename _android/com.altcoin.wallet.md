@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Altcoin Wallet. Your coins protected
+title: Altcoin Wallet. Your coins pro
 altTitle: 
 authors: 
 users: 10000

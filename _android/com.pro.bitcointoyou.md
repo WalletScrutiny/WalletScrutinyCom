@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-31
 updated: 2022-06-21
 version: 0.0.209
-stars: 3.3
+stars: 3.1
 ratings: 1359
-reviews: 4
+reviews: 5
 size: 
 website: https://www.bitcointoyou.com
 repository: 

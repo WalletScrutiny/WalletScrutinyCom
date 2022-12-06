@@ -3,7 +3,7 @@ wsId:
 title: Bitamp Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitamp.mobile
 appCountry: 
 released: 2021-04-10

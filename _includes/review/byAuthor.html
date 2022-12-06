@@ -1,6 +1,7 @@
-{% if page.authors %}
+{% assign authors = include.authors | default: page.authors %}
+{% if authors %}
   <p><small>
-  ({% for a in page.authors %}{%
+  ({% for a in authors %}{%
     if forloop.index > 1 %}, {%
     endif %}{%
     assign author = site.authors | where: 'slug', a | first %}{%

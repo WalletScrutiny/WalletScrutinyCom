@@ -10,17 +10,17 @@ idd: 1574175142
 released: 2021-06-30
 updated: 2021-10-19
 version: 1.0.3
-stars: 3.9
-reviews: 13
+stars: 3.2
+reviews: 19
 size: '22011904'
 website: https://gcbuying.com/
 repository: 
 issue: 
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-02
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: gcbuying

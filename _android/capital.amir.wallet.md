@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Amir Wallet
+title: 'Crypto Wallet App: Amir Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: capital.amir.wallet
 appCountry: 
 released: 2021-08-03
-updated: 2022-05-25
-version: 3.15.2
+updated: 2022-10-25
+version: 3.19.6
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ size:
 website: https://amir.capital/
 repository: 
 issue: 
-icon: capital.amir.wallet.png
+icon: capital.amir.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

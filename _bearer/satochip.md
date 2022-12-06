@@ -25,8 +25,8 @@ issue:
 icon: satochip.png
 bugbounty: 
 meta: ok
-verdict: noita
-date: 2022-03-23
+verdict: sealed-noita
+date: 2022-11-03
 signer: 
 reviewArchive: 
 twitter: satochipwallet
@@ -34,6 +34,12 @@ social:
 - https://www.linkedin.com/company/satochip
 
 ---
+
+## Updated Information
+
+The Satochip has a sealing function which is executed from the Satodime Tool, a source-available software on GitHub.
+
+## Previous Verdict
 
 From this product's homepage:
 

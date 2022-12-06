@@ -4,15 +4,15 @@ title: 'ZixiPay: Tether Wallet'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.zixipay.wallet
 appCountry: us
 released: 2019-12-18
-updated: 2022-06-09
-version: '1.78'
-stars: 4.7
+updated: 2022-10-05
+version: '1.80'
+stars: 4.8
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://zixipay.com
 repository: 

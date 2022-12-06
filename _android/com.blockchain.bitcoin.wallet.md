@@ -12,16 +12,16 @@ updated: 2021-09-24
 version: 1.0.3.8
 stars: 4.3
 ratings: 729
-reviews: 54
+reviews: 57
 size: 
 website: https://adslab-2b1c2.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fake
-date: 2021-07-26
+date: 2022-10-21
 signer: 
 reviewArchive:
 - date: 2021-06-04

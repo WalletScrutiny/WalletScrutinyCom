@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'CoinPort: Buy and Sell Bitcoin & Ethereum (P2P)'
+title: 'CoinPort: Buy and Sell Bitcoin'
 altTitle: 
 authors: 
 users: 1000

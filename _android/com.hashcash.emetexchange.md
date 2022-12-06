@@ -3,7 +3,7 @@ wsId:
 title: Emet Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hashcash.emetexchange
 appCountry: 
 released: Oct 5, 2021

@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2022-06-28
-version: 2.0.12
-stars: 4.2
+updated: 2022-10-17
+version: 2.0.51
+stars: 
 ratings: 
-reviews: 4
+reviews: 
 size: 
 website: https://galoy.io/
 repository: 

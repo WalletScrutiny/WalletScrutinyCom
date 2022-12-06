@@ -1,6 +1,6 @@
 ---
 wsId: bitfortip
-title: Bitfortip | Now with Tezos support
+title: Bitfortip | Now with Tezos sup
 altTitle: 
 authors:
 - danny

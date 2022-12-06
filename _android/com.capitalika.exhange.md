@@ -10,9 +10,9 @@ appCountry:
 released: Mar 18, 2019
 updated: 2022-06-06
 version: 2.0.12
-stars: 
+stars: 1.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://capitalika.com/
 repository: 

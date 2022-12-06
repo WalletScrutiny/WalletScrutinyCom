@@ -3,7 +3,7 @@ wsId:
 title: Baloo - Bitcoin Wallet
 altTitle: 
 authors: 
-users: 50
+users: 10
 appId: it.baloo.bitcoinpeople
 appCountry: 
 released: 2020-07-08

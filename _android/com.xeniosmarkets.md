@@ -3,7 +3,7 @@ wsId:
 title: Xenios Markets
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.xeniosmarkets
 appCountry: 
 released: 

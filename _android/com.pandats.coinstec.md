@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinstec - Buy & sell Bitcoin, Cryptocurrencies TP
+title: Coinstec - Buy & sell Bitcoin,
 altTitle: 
 authors: 
 users: 500
