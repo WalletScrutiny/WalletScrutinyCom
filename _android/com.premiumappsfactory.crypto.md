@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Buy Trade Bitcoin App
+title: Crypto Exchange App
 altTitle: 
 authors: 
 users: 50

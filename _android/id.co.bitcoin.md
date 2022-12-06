@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: Indodax
+title: Indodax Crypto Asset & Bitcoin
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2022-06-24
-version: 4.4.0
-stars: 4.5
+updated: 2022-11-01
+version: 4.5.0
+stars: 4.6
 ratings: 97568
-reviews: 392
+reviews: 433
 size: 
 website: http://indodax.com
 repository: 

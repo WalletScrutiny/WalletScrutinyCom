@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bot Binance Auto | Altcoin, Bitcoin, Ethereum, BTC
+title: Bot Binance Auto | Altcoin, Bi
 altTitle: 
 authors: 
 users: 10000

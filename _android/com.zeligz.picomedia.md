@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'pmgc: Bitcoin and crypto currency wallet'
+title: 'pmgc: Bitcoin and crypto curre'
 altTitle: 
 authors: 
 users: 100

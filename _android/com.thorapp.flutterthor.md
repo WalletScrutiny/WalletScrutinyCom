@@ -7,7 +7,7 @@ users: 100
 appId: com.thorapp.flutterthor
 appCountry: 
 released: Sep 30, 2021
-updated: 2022-06-20
+updated: 2022-08-29
 version: 1.3.9
 stars: 
 ratings: 

@@ -8,13 +8,13 @@ users: 1000000
 appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
-updated: 2022-05-11
-version: 5.37.1
-stars: 3.3
+updated: 2022-10-26
+version: 5.40.0
+stars: 3.4
 ratings: 34376
-reviews: 161
+reviews: 162
 size: 
-website: https://www.ripio.com
+website: https://ripio.com
 repository: 
 issue: 
 icon: com.ripio.android.png

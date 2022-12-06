@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: 'Binance.US: Buy BTC, ETH, more'
+title: 'Binance.US: No Fee BTC Trading'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.binance.us
 appCountry: 
 released: 2019-12-23
-updated: 2022-07-01
-version: 2.11.1
-stars: 2.8
+updated: 2022-11-01
+version: 2.17.1
+stars: 3
 ratings: 7187
-reviews: 5257
+reviews: 5408
 size: 
 website: https://www.binance.us
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.barong.chankura.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

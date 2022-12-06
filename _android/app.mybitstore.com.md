@@ -1,18 +1,18 @@
 ---
 wsId: mybitstore
-title: MyBitStore-Buy & Sell Bitcoin
+title: Mybitstore - Buy & Sell BTC
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: app.mybitstore.com
 appCountry: 
 released: 2021-08-12
-updated: 2022-05-19
-version: '5.7'
-stars: 4.3
+updated: 2022-09-12
+version: 6.2.4
+stars: 4.1
 ratings: 20
-reviews: 2
+reviews: 5
 size: 
 website: https://mybitstore.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: DigiCafe - Mobile DigiByte Point of Sale
+title: DigiCafe - Mobile DigiByte Poi
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-16
 updated: 2022-03-15
 version: '2.2'
-stars: 5
+stars: 4.9
 ratings: 28
-reviews: 5
+reviews: 6
 size: 
 website: https://www.digibytecafe.com
 repository: 

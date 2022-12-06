@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.ferrum.unifyre.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2022-01-13
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: UnifyreWallet
 social: 
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}
 

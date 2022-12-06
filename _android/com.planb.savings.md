@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: PlanB - Bitcoin Savings Planner
+title: PlanB - Bitcoin Savings Planne
 altTitle: 
 authors: 
 users: 10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.planb.savings.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

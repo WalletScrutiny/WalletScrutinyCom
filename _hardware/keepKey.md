@@ -5,8 +5,8 @@ authors:
 - leo
 released: 2014-08-01
 discontinued: 
-updated: 2021-09-10
-version: 7.2.1
+updated: 2022-04-26
+version: 7.3.2
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -23,9 +23,9 @@ repository: https://github.com/keepkey/keepkey-firmware
 issue: https://github.com/keepkey/keepkey-firmware/issues/283
 icon: keepKey.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2021-10-17
+date: 2022-08-07
 signer: 
 reviewArchive:
 - date: 2021-07-31

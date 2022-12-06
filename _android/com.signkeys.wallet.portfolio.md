@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: SignKeys PRO - Portfolio, Bitcoin & Crypto Wallet
+title: SignKeys PRO - Portfolio, Bitc
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-21
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

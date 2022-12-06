@@ -7,8 +7,8 @@ users: 10000
 appId: com.tagcash
 appCountry: 
 released: Oct 19, 2016
-updated: 2021-05-17
-version: 7.10.7
+updated: 2022-10-30
+version: 8.0.4
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tagcash.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: Mexo
-title: Mexo.io -- BTC,Cripto & Más
+title: 'TruBit Pro: Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
-updated: 2022-06-30
-version: 2.2.2
-stars: 4.5
+updated: 2022-11-01
+version: 3.0.3
+stars: 5
 ratings: 401
-reviews: 38
+reviews: 99
 size: 
 website: http://www.mexo.io
 repository: 

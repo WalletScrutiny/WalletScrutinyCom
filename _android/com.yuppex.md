@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yuppex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-09-20
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

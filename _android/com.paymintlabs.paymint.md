@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Paymint - Secure Bitcoin Wallet
+title: Paymint - Secure Bitcoin Walle
 altTitle: 
 authors:
 - leo
@@ -19,9 +19,9 @@ repository: https://github.com/Paymint-Labs/Paymint
 issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-01
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: paymint_wallet

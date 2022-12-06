@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Paribu | Bitcoin-Kripto Para Alım Satım
+title: Paribu | Bitcoin - Kripto Para
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.paribu.app
 appCountry: 
 released: 2019-06-14
-updated: 2022-02-09
-version: 3.4.2
-stars: 4.7
+updated: 2022-08-11
+version: 3.4.5
+stars: 4.6
 ratings: 73042
-reviews: 93
+reviews: 96
 size: 
 website: https://www.paribu.com
 repository: 

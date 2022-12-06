@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CoinPlug - Buy & Sell BTC and AltCoins in Nigeria
+title: 'CoinPlug - Buy & Sell BTC and '
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.coinplug.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

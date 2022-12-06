@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AInvesting - CFD trading for professionals!
+title: AInvesting - CFD trading for p
 altTitle: 
 authors: 
 users: 1000

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Hurbito - Buy & Sell Bitcoin Instantly
+title: Hurbito - Buy & Sell Bitcoin I
 altTitle: 
 authors: 
 users: 100

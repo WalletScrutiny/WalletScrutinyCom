@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호화폐소득쉐어서비스
+title: BISPEX서비스-비트코인 마진거래  비트코인렌트 암호
 altTitle: 
 authors: 
 users: 10

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Investment & Crypto Hub - 100%Secure
+title: Bitcoin Investment & Crypto Hu
 altTitle: 
 authors: 
 users: 5000

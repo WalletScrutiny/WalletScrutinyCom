@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BISPEX마진거래-소액투자 비트코인 렌트 모의투자 재테크플랫폼
+title: BISPEX마진거래-소액투자 비트코인 렌트 모의투자 재
 altTitle: 
 authors: 
 users: 50

@@ -3,7 +3,7 @@ wsId:
 title: Krypto Exchange - Trade easily
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.webapp.KryptoExchange
 appCountry: 
 released: Nov 2, 2019

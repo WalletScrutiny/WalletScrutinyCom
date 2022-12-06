@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MBC Wallet - MicroBitcoin Wallet
+title: MBC Wallet - MicroBitcoin Wall
 altTitle: 
 authors: 
 users: 5000

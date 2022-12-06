@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'ProBit Global: Trade, HODL'
+title: 'ProBit Global: Buy BTC, Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: com.probit.app.android2.release.global
 appCountry: 
 released: 2019-06-19
-updated: 2022-06-28
-version: 1.41.2
-stars: 3.2
+updated: 2022-10-20
+version: 1.47.2
+stars: 3.6
 ratings: 6161
-reviews: 286
+reviews: 302
 size: 
 website: https://www.probit.com
 repository: 

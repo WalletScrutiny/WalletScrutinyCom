@@ -1,6 +1,6 @@
 ---
 wsId: TrustKeys
-title: TrustKeys Blockchain SuperApp
+title: TrustKeys Web3 SocialFi
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.trustkeysnetwork
 appCountry: us
 released: 2019-03-02
-updated: 2022-06-06
-version: 1.1.94
+updated: 2022-10-26
+version: 1.1.142
 stars: 4.8
 ratings: 583
 reviews: 23

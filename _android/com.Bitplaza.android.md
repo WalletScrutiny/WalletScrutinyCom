@@ -1,6 +1,6 @@
 ---
 wsId: bitplaza
-title: Bitplaza - Shopping With Bitcoin
+title: Bitplaza - Shopping With Bitco
 altTitle: 
 authors: 
 users: 10000

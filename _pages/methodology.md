@@ -85,12 +85,12 @@ We answer the following questions usually in this order:
 {% include verdictMethodology.html verdict="reproducible" %}
 {% include verdictMethodology.html verdict="nobinary" %}
 
-Independent of the detailed analysis, we might assign a meta-verdict based on a
-project's availability:
+Independent of the detailed analysis, we might assign a meta-verdict:
 
 {% include verdictMethodology.html verdict="defunct" %}
 {% include verdictMethodology.html verdict="obsolete" %}
 {% include verdictMethodology.html verdict="stale" %}
+{% include verdictMethodology.html verdict="outdated" %}
 
 ## What is a hardware wallet?
 
@@ -125,6 +125,9 @@ additional verdicts:
 {% include verdictMethodology.html verdict="noita" %}
 
 {% include /review/whatIsBearer.html %}
+
+{% include verdictMethodology.html verdict="sealed-plainkey" %}
+{% include verdictMethodology.html verdict="sealed-noita" %}
 
 ## Priorities
 

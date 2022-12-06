@@ -1,6 +1,6 @@
 ---
 wsId: phoenix
-title: Phoenix | The Bitcoin wallet from the future
+title: Phoenix - LN Bitcoin wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2022-03-23
-version: 1.4.22
+updated: 2022-09-16
+version: 1.4.23
 stars: 4.4
 ratings: 314
-reviews: 27
+reviews: 28
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

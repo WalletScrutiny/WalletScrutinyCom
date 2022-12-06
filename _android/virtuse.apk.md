@@ -3,7 +3,7 @@ wsId:
 title: Virtuse
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: virtuse.apk
 appCountry: 
 released: 

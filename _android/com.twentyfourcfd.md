@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 24CFD - Online Trading Platform
+title: 24CFD - Online Trading Platfor
 altTitle: 
 authors: 
 users: 500

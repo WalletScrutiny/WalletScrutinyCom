@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HitBTC – Cryptocurrency Exchange & Trading BTC App
+title: HitBTC Crypto Exchange&Trading
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-04
 updated: 2022-04-12
 version: 3.2.0
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 7
 size: 
 website: https://hitbtc.com/
 repository: 

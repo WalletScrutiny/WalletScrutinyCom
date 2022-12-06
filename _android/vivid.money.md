@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Vivid: Investments & Banking & Crypto'
+title: 'Vivid: Mobile Banking'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2022-06-30
-version: 2.17.1
-stars: 
+updated: 2022-11-02
+version: 2.35.1
+stars: 4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://vivid.money/
 repository: 

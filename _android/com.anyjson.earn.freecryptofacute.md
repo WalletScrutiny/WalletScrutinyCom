@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Cryptodot - Earn Free Cryptocoins Faucets
+title: Cryptodot - Earn Cryptocoins
 altTitle: 
 authors: 
 users: 5000
 appId: com.anyjson.earn.freecryptofacute
 appCountry: 
 released: May 16, 2021
-updated: 2021-05-16
-version: '1.0'
+updated: 2022-09-28
+version: '1.5 '
 stars: 3.4
 ratings: 
 reviews: 5
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.anyjson.earn.freecryptofacute.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

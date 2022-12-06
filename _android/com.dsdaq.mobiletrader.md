@@ -1,6 +1,6 @@
 ---
 wsId: Dsdaq
-title: Dsdaq - Trade stock, gold, oil, index using USDT
+title: Dsdaq - Trade stock, gold, oil
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2022-01-20
 version: 3.0.4
 stars: 5
 ratings: 510
-reviews: 51
+reviews: 34
 size: 
 website: https://dsdaq.com
 repository: 

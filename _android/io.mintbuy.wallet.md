@@ -3,7 +3,7 @@ wsId:
 title: Mint Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.mintbuy.wallet
 appCountry: 
 released: Jul 7, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.mintbuy.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: VelcomEx - The Leading P2P Cryptocurrency Exchange
+title: VelcomEx - The Leading P2P Cry
 altTitle: 
 authors: 
 users: 100

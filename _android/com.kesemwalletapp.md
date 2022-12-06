@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kesem - Secured Crypto Wallet for Bitcoin
+title: 'Kesem - Secured Crypto Wallet '
 altTitle: 
 authors: 
 users: 100

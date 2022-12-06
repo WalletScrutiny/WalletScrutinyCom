@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Monedero: Wallet Bitcoin, Ethereum, Dash'
+title: 'Monedero: Wallet Bitcoin, Ethe'
 altTitle: 
 authors:
 - leo

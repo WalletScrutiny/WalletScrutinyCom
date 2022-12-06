@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitbns: Bitcoin, Crypto Trading Exchange India'
+title: 'BNS: Crypto Trading Exchange'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-21
 updated: 2022-06-22
 version: 6.4.9
-stars: 3.6
+stars: 3.5
 ratings: 15779
-reviews: 34
+reviews: 36
 size: 
 website: https://bitbns.com/
 repository: 

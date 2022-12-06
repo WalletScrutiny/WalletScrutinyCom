@@ -3,7 +3,7 @@ wsId:
 title: H-Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.molecule.jointwallet
 appCountry: 
 released: Dec 6, 2021

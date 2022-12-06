@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: Rock Wallet - Buy, Send & Receive Bitcoin
+title: Rock Wallet - Buy, Send & Rece
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: za.co.rockwallet
 appCountry: 
 released: 2020-09-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: za.co.rockwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

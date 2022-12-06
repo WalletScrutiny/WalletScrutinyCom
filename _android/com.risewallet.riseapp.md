@@ -12,7 +12,7 @@ updated: 2022-04-14
 version: 1.7.0
 stars: 4.8
 ratings: 42
-reviews: 14
+reviews: 15
 size: 
 website: https://wellwallet.ca/
 repository: 

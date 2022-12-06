@@ -7,8 +7,8 @@ users: 1000
 appId: com.coinzix.android
 appCountry: 
 released: Oct 27, 2021
-updated: 2021-11-29
-version: '1.7'
+updated: 2022-08-10
+version: '1.94'
 stars: 
 ratings: 
 reviews: 

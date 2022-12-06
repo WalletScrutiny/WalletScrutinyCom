@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'TruthX : Sell Gift Cards And Bitcoins'
+title: 'TruthX : Sell Gift Cards And B'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-04
 updated: 2022-01-22
 version: 1.0.4
-stars: 3.4
+stars: 3.5
 ratings: 346
 reviews: 27
 size: 

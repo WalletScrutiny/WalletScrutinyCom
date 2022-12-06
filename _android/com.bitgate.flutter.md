@@ -8,8 +8,8 @@ users: 100
 appId: com.bitgate.flutter
 appCountry: 
 released: 
-updated: 2022-06-27
-version: 0.9.0
+updated: 2022-08-08
+version: 0.9.1
 stars: 
 ratings: 
 reviews: 

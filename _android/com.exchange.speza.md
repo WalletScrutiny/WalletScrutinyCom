@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: SPEZA - Regulated Digital Asset Exchange
+title: SPEZA - Regulated Digital Asse
 altTitle: 
 authors: 
 users: 10

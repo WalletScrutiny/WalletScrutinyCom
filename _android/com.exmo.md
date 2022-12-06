@@ -1,6 +1,6 @@
 ---
 wsId: exmo
-title: 'EXMO: Buy & Sell Bitcoin (BTC) on Crypto Exchange'
+title: 'EXMO: buy, sell crypto and BTC'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 100000
 appId: com.exmo
 appCountry: 
 released: 2019-11-12
-updated: 2022-06-23
-version: 3.7.0
-stars: 3.9
+updated: 2022-10-26
+version: 3.10.1
+stars: 4.1
 ratings: 2774
-reviews: 66
+reviews: 91
 size: 
 website: https://exmo.com/
 repository: 

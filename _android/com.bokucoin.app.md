@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bokucoin - Buy, Sell & Store Bitcoin
+title: Bokucoin - Buy, Sell & Store B
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bokucoin.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-06
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

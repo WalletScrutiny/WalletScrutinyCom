@@ -9,9 +9,9 @@ appCountry:
 released: 2018-09-06
 updated: 2022-06-27
 version: 1.2.3
-stars: 2.7
+stars: 2.6
 ratings: 69
-reviews: 13
+reviews: 16
 size: 
 website: https://bisq.network/mobile-notifications
 repository: 

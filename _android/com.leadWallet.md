@@ -1,6 +1,6 @@
 ---
 wsId: LeadWallet
-title: Lead Wallet – Swap, Multisend BTC, BNB, ETH, LEAD
+title: 'Lead Wallet – Swap, Multisend '
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.leadWallet
 appCountry: ng
 released: 2021-07-29
-updated: 2022-06-30
-version: 1.0.36
+updated: 2022-07-30
+version: 1.0.39
 stars: 4.4
 ratings: 1683
-reviews: 53
+reviews: 54
 size: 
 website: https://leadwallet.io
 repository: 

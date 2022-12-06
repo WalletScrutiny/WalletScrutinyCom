@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Electron Cash wallet for Bitcoin Cash
+title: Electron Cash wallet for Bitco
 altTitle: 
 authors: 
 users: 10000
@@ -9,7 +9,7 @@ appCountry:
 released: 2018-12-08
 updated: 2021-10-03
 version: 4.2.5-5
-stars: 4.3
+stars: 4.2
 ratings: 191
 reviews: 10
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.electroncash.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2019-12-20
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

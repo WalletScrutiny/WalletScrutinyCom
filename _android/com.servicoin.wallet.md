@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.servicoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

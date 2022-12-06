@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallet: Store and Trade Coins'
+title: 'Crypto Wallet: Store and Trade'
 altTitle: 
 authors: 
 users: 500

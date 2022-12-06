@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'ETFinance: Bitcoin, Stock, & Forex online trading'
+title: 'ETFinance: Bitcoin, Stock, & F'
 altTitle: 
 authors: 
 users: 1000

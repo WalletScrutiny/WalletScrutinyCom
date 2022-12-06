@@ -3,11 +3,11 @@ wsId:
 title: Inout Blockchain AltExchanger
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: net.inoutscripts.demo.inoutblockchainaltexchanger
 appCountry: 
 released: Oct 2, 2021
-updated: 2021-10-05
+updated: 2022-09-14
 version: '1.0'
 stars: 
 ratings: 

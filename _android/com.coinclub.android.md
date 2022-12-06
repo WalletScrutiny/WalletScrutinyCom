@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coin Club - Bitcoin,BTC,ETH,EOS,Cryptocurrency,ICO
+title: Coin Club - Bitcoin,BTC,ETH,EO
 altTitle: 
 authors: 
 users: 100000

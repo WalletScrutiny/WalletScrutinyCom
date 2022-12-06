@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Xensor Box:Easy-to-use, safe cryptocurrency wallet
+title: Xensor Box:Easy-to-use, safe c
 altTitle: 
 authors: 
 users: 1000

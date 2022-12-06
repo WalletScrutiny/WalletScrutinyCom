@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: Elite Trade - Buy & Sell Bitcoin PerfectMoney
+title: Elite Trade - Buy & Sell Bitco
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ahyoxsoft.elite
 appCountry: 
 released: 2020-06-15
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ahyoxsoft.elite.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

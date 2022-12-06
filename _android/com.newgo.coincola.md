@@ -1,6 +1,6 @@
 ---
 wsId: coincola
-title: CoinCola - Buy Bitcoin & more
+title: CoinCola - Bitcoin Trading
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.newgo.coincola
 appCountry: 
 released: 2017-07-07
-updated: 2022-06-30
-version: 4.10.3
+updated: 2022-10-25
+version: 4.13.0
 stars: 3.1
 ratings: 1597
-reviews: 83
+reviews: 90
 size: 
 website: https://www.coincola.com
 repository: 

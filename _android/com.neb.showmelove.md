@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.neb.showmelove.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-09-12
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

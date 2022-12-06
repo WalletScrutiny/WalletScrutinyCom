@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: gCryptoTrade - GDAX trading app
+title: gCryptoTrade - GDAX trading ap
 altTitle: 
 authors: 
 users: 1000

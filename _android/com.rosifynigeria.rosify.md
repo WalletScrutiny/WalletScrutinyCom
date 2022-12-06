@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Rosify: Sell and Buy in Nigeria & Ghana'
+title: 'Rosify: Sell and Buy in Nigeri'
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rosifynigeria.rosify.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

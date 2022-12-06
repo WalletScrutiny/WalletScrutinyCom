@@ -1,6 +1,6 @@
 ---
 wsId: GCBuying
-title: GCBuying - Sell & exchange Giftcard for Cash/Naira
+title: GCBuying - Sell & exchange Gif
 altTitle: 
 authors:
 - danny
@@ -10,18 +10,18 @@ appCountry: ng
 released: 2021-01-26
 updated: 2021-09-17
 version: 1.0.10
-stars: 4.2
+stars: 3.7
 ratings: 405
-reviews: 60
+reviews: 80
 size: 
 website: http://www.gcbuying.com
 repository: 
 issue: 
 icon: com.gcbuying.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-02
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: gcbuying

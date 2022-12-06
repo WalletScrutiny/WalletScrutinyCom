@@ -1,6 +1,6 @@
 ---
 wsId: B4UWallet
-title: 'B4U Wallet: Crypto Bitcoin Wallet Exchange'
+title: 'B4U Wallet: Crypto Bitcoin Wal'
 altTitle: 
 authors:
 - kiwilamb

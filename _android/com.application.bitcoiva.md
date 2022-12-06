@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoiva-Bitcoin & Cryptocurrency Exchange India
+title: Bitcoiva-Bitcoin & Cryptocurre
 altTitle: 
 authors:
 - leo

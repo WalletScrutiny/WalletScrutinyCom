@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Block Cloud - Buy Bitcoin, ETH, & Crypto
+title: Block Cloud - Buy Bitcoin, ETH
 altTitle: 
 authors: 
 users: 500

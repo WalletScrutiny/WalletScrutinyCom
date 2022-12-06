@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'MCS (Web): Your Crypto Futures Exchange'
+title: 'MCS (Web): Your Crypto Futures'
 altTitle: 
 authors: 
 users: 500

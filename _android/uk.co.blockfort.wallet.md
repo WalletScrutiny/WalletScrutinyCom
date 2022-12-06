@@ -3,7 +3,7 @@ wsId:
 title: Blockfort Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: uk.co.blockfort.wallet
 appCountry: 
 released: 2021-05-24

@@ -8,11 +8,11 @@ appId: com.nitroex.nitrobotapp
 appCountry: us
 idd: 1541146988
 released: 2020-12-09
-updated: 2022-03-03
-version: 5.0.2
+updated: 2022-07-08
+version: 5.0.6
 stars: 1
 reviews: 1
-size: '79744000'
+size: '79764480'
 website: https://www.nitroex.io
 repository: 
 issue: 

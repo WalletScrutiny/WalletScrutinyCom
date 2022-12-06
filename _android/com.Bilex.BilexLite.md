@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Bilex.BilexLite.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

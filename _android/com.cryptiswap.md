@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CryptiSwap - Non-Custodial Crypto Exchange & Swaps
+title: CryptiSwap - Non-Custodial Cry
 altTitle: 
 authors: 
 users: 1000

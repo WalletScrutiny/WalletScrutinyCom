@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digitalcrypto.xchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

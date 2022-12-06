@@ -3,12 +3,12 @@ wsId:
 title: ArgoTrade
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.argotrade.android
 appCountry: 
 released: Oct 16, 2020
-updated: 2022-04-26
-version: 1.7.0
+updated: 2022-07-29
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 
