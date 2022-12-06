@@ -9,17 +9,18 @@ appCountry:
 released: Nov 17, 2020
 updated: 2021-08-13
 version: 3.0.1
-stars: 4.2300887
+stars: 4.2
 ratings: 
-reviews: 2110
+reviews: 3021
+size: 
 website: https://goarbit.com/
 repository: 
 issue: 
 icon: com.goarbit.goarbit.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

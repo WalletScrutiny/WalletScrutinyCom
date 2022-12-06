@@ -3,7 +3,7 @@ wsId:
 title: Moen
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.app.moen.ex
 appCountry: 
 released: Apr 28, 2022
@@ -12,6 +12,7 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

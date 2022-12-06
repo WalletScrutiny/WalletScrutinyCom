@@ -12,6 +12,7 @@ version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://escrowblock.net
 repository: 
 issue: 

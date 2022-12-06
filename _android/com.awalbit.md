@@ -7,11 +7,12 @@ users: 100
 appId: com.awalbit
 appCountry: 
 released: Feb 26, 2022
-updated: 2022-07-30
-version: 0.21.0
+updated: 2022-09-11
+version: 0.29.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

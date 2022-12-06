@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Pouch Lightning Wallet
+title: Pouch.ph - Lightning Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: pouch.ph
 appCountry: 
 released: Sep 8, 2021
-updated: 2022-06-22
-version: 0.3.10
+updated: 2022-10-26
+version: 0.6.20
 stars: 
 ratings: 
 reviews: 

@@ -4,7 +4,7 @@ title: BitPocket
 altTitle: 
 authors:
 - kiwilamb
-users: 100
+users: 500
 appId: at.bitpocket.pos
 appCountry: 
 released: 2016-07-08

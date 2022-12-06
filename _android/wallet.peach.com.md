@@ -12,6 +12,7 @@ version: 0.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://peachwallet.com
 repository: 
 issue: 

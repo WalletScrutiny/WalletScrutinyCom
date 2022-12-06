@@ -7,11 +7,11 @@ users: 50000
 appId: com.web.unitedexchange
 appCountry: 
 released: Jun 16, 2021
-updated: 2022-05-26
-version: '3.1'
-stars: 
+updated: 2022-08-16
+version: '3.4'
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://unitedexchange.io/
 repository: 

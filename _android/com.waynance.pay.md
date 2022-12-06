@@ -3,7 +3,7 @@ wsId:
 title: Waynance
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.waynance.pay
 appCountry: 
 released: Apr 16, 2022
@@ -12,6 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://waynance.com
 repository: 
 issue: 

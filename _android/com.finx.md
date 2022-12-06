@@ -1,17 +1,18 @@
 ---
 wsId: 
-title: FINX WALLET
+title: FINX UK WALLET
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.finx
 appCountry: 
 released: Mar 11, 2022
-updated: 2022-03-11
-version: 1.0.0.3-finx
+updated: 2022-07-29
+version: 1.0.0.5-finx
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://finx.global/
 repository: 
 issue: 

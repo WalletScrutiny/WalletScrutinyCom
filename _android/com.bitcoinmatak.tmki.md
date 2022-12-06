@@ -12,6 +12,7 @@ version: '4.8'
 stars: 5
 ratings: 
 reviews: 70
+size: 
 website: 
 repository: 
 issue: 

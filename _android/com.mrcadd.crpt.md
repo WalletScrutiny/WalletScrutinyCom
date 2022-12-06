@@ -3,14 +3,16 @@ wsId:
 title: Mercado bitcoin crypto token
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mrcadd.crpt
 appCountry: 
+released: 
 updated: 2022-04-28
 version: '0.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

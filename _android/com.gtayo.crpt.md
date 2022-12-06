@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.gtayo.crpt
 appCountry: 
+released: 
 updated: 2022-04-08
 version: '0.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

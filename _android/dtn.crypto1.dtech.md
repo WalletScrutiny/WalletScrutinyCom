@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto1 - CryptoOne Best Crypto BOT
+title: Crypto1 - CryptoOne Best Crypt
 altTitle: 
 authors: 
 users: 1000
@@ -12,6 +12,7 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bisnis188.tech
 repository: 
 issue: 

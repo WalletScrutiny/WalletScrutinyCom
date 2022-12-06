@@ -4,15 +4,15 @@ title: 'Quicrypto: Play to Earn Crypto'
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.quicrypto
 appCountry: 
 released: 2019-11-12
-updated: 2022-06-27
-version: 3.48.0
-stars: 3.9
+updated: 2022-11-02
+version: 3.67.0
+stars: 4.6
 ratings: 4934
-reviews: 442
+reviews: 585
 size: 
 website: http://www.quicrypto.com
 repository: 

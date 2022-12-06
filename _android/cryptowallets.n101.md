@@ -3,7 +3,7 @@ wsId:
 title: Crypto Wallets
 altTitle: 
 authors: 
-users: 0
+users: 1
 appId: cryptowallets.n101
 appCountry: 
 released: Dec 24, 2021
@@ -12,6 +12,7 @@ version: '1.01'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://thecryptoyo.com
 repository: 
 issue: 

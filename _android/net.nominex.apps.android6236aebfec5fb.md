@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nominex.io/?r=90687
 repository: 
 issue: 

@@ -7,11 +7,12 @@ users: 10
 appId: com.easyex.easyex
 appCountry: 
 released: May 17, 2022
-updated: 2022-06-06
-version: '2.5'
+updated: 2022-10-12
+version: '35.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitandpay.com
 repository: 
 issue: 

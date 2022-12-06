@@ -1,17 +1,18 @@
 ---
 wsId: 
-title: ZSTRX
+title: Golden Hour
 altTitle: 
 authors: 
 users: 1000
 appId: com.zstrx.owigv
 appCountry: 
 released: Mar 29, 2022
-updated: 2022-04-08
-version: 1.0.4
+updated: 2022-09-05
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

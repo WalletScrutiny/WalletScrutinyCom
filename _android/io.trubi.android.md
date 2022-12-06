@@ -3,14 +3,16 @@ wsId:
 title: Trubi Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.trubi.android
 appCountry: 
+released: 
 updated: 2021-01-25
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.trubi.io
 repository: 
 issue: 

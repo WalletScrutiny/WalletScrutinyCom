@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kanga - multi-chain crypt wallet for DeFI
+title: Kanga - multi-chain crypt wall
 altTitle: 
 authors: 
 users: 100

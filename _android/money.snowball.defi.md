@@ -3,12 +3,12 @@ wsId:
 title: 'Snowball: Smart DeFi wallet'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: money.snowball.defi
 appCountry: 
 released: Sep 30, 2020
-updated: 2022-06-28
-version: 2.6.3
+updated: 2022-10-31
+version: 2.6.11
 stars: 3.6
 ratings: 
 reviews: 9

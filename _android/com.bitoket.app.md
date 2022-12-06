@@ -7,8 +7,8 @@ users: 100
 appId: com.bitoket.app
 appCountry: 
 released: Oct 10, 2021
-updated: 2022-04-06
-version: 1.5.0
+updated: 2022-08-16
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 

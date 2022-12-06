@@ -12,6 +12,7 @@ version: 1.1.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bztex.co/
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.evermarkets.emx
 appCountry: 
+released: 
 updated: 2020-04-08
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.emx.com
 repository: 
 issue: 

@@ -12,14 +12,15 @@ version: 5.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 
 icon: com.chainup.exchange.BITBE.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

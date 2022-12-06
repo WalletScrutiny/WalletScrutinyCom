@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exc Cripto - Exchange de Criptomoedas
+title: Exc Cripto - Exchange de Cript
 altTitle: 
 authors: 
 users: 50
@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://exccripto.com
 repository: 
 issue: 

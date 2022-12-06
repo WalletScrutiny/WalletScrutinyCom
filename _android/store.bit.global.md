@@ -7,11 +7,12 @@ users: 100000
 appId: store.bit.global
 appCountry: 
 released: Jun 16, 2022
-updated: 2022-06-17
-version: 2.1.8
+updated: 2022-09-22
+version: 2.2.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

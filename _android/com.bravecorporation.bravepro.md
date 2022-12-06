@@ -7,11 +7,12 @@ users: 10
 appId: com.bravecorporation.bravepro
 appCountry: 
 released: May 15, 2022
-updated: 2022-07-07
-version: 1.0.1
+updated: 2022-07-28
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bravepay.net/
 repository: 
 issue: 

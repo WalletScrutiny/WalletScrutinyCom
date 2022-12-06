@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TrackonBTC is fast, easy, and secure.
+title: 'TrackonBTC is fast, easy, and '
 altTitle: 
 authors: 
 users: 1000

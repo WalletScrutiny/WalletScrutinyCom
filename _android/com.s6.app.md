@@ -3,15 +3,16 @@ wsId:
 title: S6 Global Exchange
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.s6.app
 appCountry: 
 released: Mar 1, 2022
-updated: 2022-03-02
-version: 1.0.0
+updated: 2022-09-05
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

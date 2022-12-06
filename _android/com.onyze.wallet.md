@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Onyze Wallet: Full Security for Crypto'
+title: 'Onyze Wallet: Full Security fo'
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.onyze.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-09-01
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

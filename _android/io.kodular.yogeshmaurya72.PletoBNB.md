@@ -12,6 +12,7 @@ version: 3.0.3.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.pletobnb.io/
 repository: 
 issue: 

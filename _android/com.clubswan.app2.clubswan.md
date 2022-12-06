@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Club Swan: Lifestyle & Finance Membership for all'
+title: 'Club Swan: Lifestyle & Finance'
 altTitle: 
 authors: 
 users: 500

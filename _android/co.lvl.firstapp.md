@@ -10,18 +10,18 @@ appCountry: us
 released: 2020-06-30
 updated: 2021-09-09
 version: 1.0.5
-stars: 3.9
+stars: 3.8
 ratings: 159
-reviews: 60
+reviews: 63
 size: 
 website: https://lvl.co
 repository: 
 issue: 
 icon: co.lvl.firstapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-18
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: BankWithLVL

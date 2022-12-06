@@ -3,14 +3,16 @@ wsId:
 title: GCex
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.gcs.pro
 appCountry: 
+released: 
 updated: 2022-05-09
 version: 1.0.4.220509
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

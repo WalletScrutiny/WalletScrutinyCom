@@ -7,11 +7,12 @@ users: 1000
 appId: cm.viaziza.smalldeals
 appCountry: 
 released: Mar 8, 2022
-updated: 2022-07-29
-version: '20107'
+updated: 2022-08-28
+version: '20108'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://viaziza.com
 repository: 
 issue: 

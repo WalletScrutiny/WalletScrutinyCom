@@ -9,9 +9,10 @@ appCountry:
 released: Sep 15, 2020
 updated: 2021-04-12
 version: 1.0.6
-stars: 4.75
+stars: 4.8
 ratings: 
 reviews: 
+size: 
 website: https://www.b4uglobal.com
 repository: 
 issue: 

@@ -1,18 +1,19 @@
 ---
 wsId: 
-title: Boo!
+title: bobablocks - Multichain Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: io.bumoon.boo
 appCountry: 
 released: Nov 29, 2021
-updated: 2022-03-19
-version: 1.0.5
+updated: 2022-10-10
+version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-website: https://bumoon.io
+size: 
+website: https://bobablocks.io
 repository: 
 issue: 
 icon: io.bumoon.boo.png

@@ -3,7 +3,7 @@ wsId:
 title: AvaPay Wallet
 altTitle: 
 authors: 
-users: 5
+users: 100
 appId: com.yolllo.mobile
 appCountry: 
 released: Apr 29, 2022
@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://avapayltd.com
 repository: 
 issue: 

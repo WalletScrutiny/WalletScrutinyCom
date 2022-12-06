@@ -12,16 +12,16 @@ updated: 2021-10-03
 version: '4.6'
 stars: 4.2
 ratings: 931
-reviews: 33
+reviews: 34
 size: 
 website: 
 repository: 
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-13
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

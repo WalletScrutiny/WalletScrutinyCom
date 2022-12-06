@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: elegro Business wallet - your online banking
+title: 'elegro Business wallet - your '
 altTitle: 
 authors: 
 users: 100
 appId: paybusiness.elegro.eu
 appCountry: 
 released: 2020-07-15
-updated: 2022-06-15
-version: 1.2.2
+updated: 2022-08-24
+version: 1.2.3
 stars: 
 ratings: 
 reviews: 

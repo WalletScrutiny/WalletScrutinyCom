@@ -1,6 +1,6 @@
 ---
 wsId: jubiter
-title: JuBiter Wallet 2.0 - Secure Hardware Crypto Wallet
+title: JuBiter Wallet 2.0 - Secure Ha
 altTitle: 
 authors:
 - leo

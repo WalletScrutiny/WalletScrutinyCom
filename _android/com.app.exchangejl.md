@@ -12,6 +12,7 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.krypterz.com
 repository: 
 issue: 

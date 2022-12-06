@@ -12,14 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://paapaasi.com
 repository: 
 issue: 
 icon: com.paapaasi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

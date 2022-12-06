@@ -12,14 +12,15 @@ version: 0.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.digibot99.com
 repository: 
 issue: 
 icon: com.digibot99.dgb.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

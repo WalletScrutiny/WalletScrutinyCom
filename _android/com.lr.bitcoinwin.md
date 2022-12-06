@@ -12,6 +12,7 @@ version: 2.10.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitcoinwin.io
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: Perfect E-currency Exchange
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: perfect.currency.exchange
 appCountry: 
 released: 2019-07-22

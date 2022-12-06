@@ -8,11 +8,11 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2022-06-05
-version: 2.1.1
-stars: 3.7
+updated: 2022-07-09
+version: 2.2.0
+stars: 3.8
 ratings: 3741
-reviews: 71
+reviews: 79
 size: 
 website: https://sarmayex.com
 repository: 

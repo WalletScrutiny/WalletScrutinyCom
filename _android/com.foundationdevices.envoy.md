@@ -3,15 +3,16 @@ wsId:
 title: Envoy
 altTitle: 
 authors: 
-users: 5
+users: 50
 appId: com.foundationdevices.envoy
 appCountry: 
 released: Apr 1, 2022
-updated: 2022-07-21
-version: 1.0.4
+updated: 2022-10-17
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://foundationdevices.com/
 repository: 
 issue: 

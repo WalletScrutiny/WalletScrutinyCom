@@ -3,7 +3,7 @@ wsId:
 title: Echo Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.echo.wallet
 appCountry: 
 released: Apr 4, 2019

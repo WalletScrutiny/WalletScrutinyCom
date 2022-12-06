@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-03-22
+date: 2022-05-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+**Update 2022-05-27**: This app is not available anymore.
 
 This app appears not to get access to spend your Bitcoins:
 

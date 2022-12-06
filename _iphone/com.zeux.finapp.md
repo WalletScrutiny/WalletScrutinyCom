@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zeux.finapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: ZeuxApp
@@ -29,5 +29,7 @@ social:
 - https://www.facebook.com/Zeuxglobal
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

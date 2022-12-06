@@ -8,20 +8,20 @@ users: 5000000
 appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
-updated: 2021-12-19
-version: VARY
+updated: 2022-10-26
+version: '9.23'
 stars: 4
 ratings: 29247
-reviews: 1740
+reviews: 1763
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-03-10
+date: 2022-11-01
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2022-01-11
@@ -163,6 +163,9 @@ redirect_from:
 - /posts/de.schildbach.wallet/
 
 ---
+
+**Update 2022-11-01**: The latest binary does not compile with our current
+script. We have to look into it and potentially consult with the provider.
 
 For the latest version the {% include testScript.html %} came to these results:
 

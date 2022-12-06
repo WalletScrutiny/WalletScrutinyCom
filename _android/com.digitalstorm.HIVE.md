@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'HIVE : Crypto Forecast AI - Trading Bot - Bitcoin'
+title: 'HIVE : Crypto Forecast AI - Tr'
 altTitle: 
 authors: 
 users: 1000

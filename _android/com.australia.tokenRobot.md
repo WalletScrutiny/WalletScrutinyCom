@@ -12,6 +12,7 @@ version: 0.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.tokenrobot.net/
 repository: 
 issue: 

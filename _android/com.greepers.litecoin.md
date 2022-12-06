@@ -12,14 +12,15 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://24litecoin.co.ua
 repository: 
 issue: 
 icon: com.greepers.litecoin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

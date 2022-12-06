@@ -8,11 +8,11 @@ users: 1000
 appId: com.payperless.wallet
 appCountry: 
 released: 2021-06-03
-updated: 2022-06-17
-version: 1.5.1
-stars: 
+updated: 2022-10-11
+version: 1.9.0
+stars: 4.3
 ratings: 
-reviews: 
+reviews: 10
 size: 
 website: https://www.payperless.com
 repository: 

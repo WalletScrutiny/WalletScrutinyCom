@@ -12,6 +12,7 @@ version: 1.3.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://worldofwallet.io
 repository: 
 issue: 

@@ -3,15 +3,16 @@ wsId:
 title: RapiXchangE
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.rapiexchange
 appCountry: 
 released: Apr 19, 2022
-updated: 2022-07-28
-version: '1.6'
+updated: 2022-10-19
+version: '2.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.rapixchange.com/
 repository: 
 issue: 

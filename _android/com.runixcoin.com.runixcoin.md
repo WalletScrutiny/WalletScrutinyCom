@@ -12,6 +12,7 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.runixcoin.com/
 repository: 
 issue: 

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Glamster | The All-In-One Smart Messaging DApp!
+title: Glamster | The Smart Messenger
 altTitle: 
 authors: 
 users: 10000
 appId: com.glamster
 appCountry: 
 released: Aug 19, 2020
-updated: 2021-04-25
-version: 1.6.8
+updated: 2022-06-23
+version: 2.0.0
 stars: 2.8
 ratings: 
 reviews: 6
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.glamster.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

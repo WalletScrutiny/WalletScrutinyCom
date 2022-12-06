@@ -3,7 +3,7 @@ wsId:
 title: MetaU Crypto
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.metau.droidapp
 appCountry: 
 released: Apr 10, 2022
@@ -12,6 +12,7 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.metauco.com
 repository: 
 issue: 

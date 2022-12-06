@@ -12,14 +12,15 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://torex.one/ru/
 repository: 
 issue: 
 icon: com.torexapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

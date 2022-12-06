@@ -1,6 +1,6 @@
 ---
 wsId: QPocket
-title: 'QPocket: ETH TRON QKC Crypto Wallet with DApps'
+title: 'QPocket: ETH TRON QKC Crypto W'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.quarkonium.qpocket
 appCountry: us
 released: 2019-07-22
-updated: 2021-05-06
-version: 5.4.2
+updated: 2022-10-09
+version: 5.4.4
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository: https://github.com/QuarkChain/QPocket-Android
 issue: https://github.com/QuarkChain/QPocket-Android/issues/2
 icon: com.quarkonium.qpocket.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2022-05-03
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: qPocket_wallet

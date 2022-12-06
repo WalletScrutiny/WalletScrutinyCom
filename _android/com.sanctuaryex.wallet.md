@@ -7,11 +7,12 @@ users: 50
 appId: com.sanctuaryex.wallet
 appCountry: 
 released: May 10, 2021
-updated: 2022-02-15
-version: 1.5.40
+updated: 2022-09-02
+version: 2.0.16
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

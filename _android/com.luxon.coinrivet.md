@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.luxon.coinrivet
 appCountry: 
+released: 
 updated: 2022-05-12
 version: 1.0.0.53
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinrivet.com/
 repository: 
 issue: 

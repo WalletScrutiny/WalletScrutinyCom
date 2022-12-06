@@ -3,15 +3,16 @@ wsId:
 title: IH Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: mn.ihbit.ihcwallet
 appCountry: 
 released: Apr 10, 2022
-updated: 2022-06-13
-version: 1.2.4
-stars: 3.6923077
+updated: 2022-08-30
+version: 1.3.1
+stars: 4.6
 ratings: 
-reviews: 9
+reviews: 5
+size: 
 website: https://www.ihcoin.io
 repository: 
 issue: 

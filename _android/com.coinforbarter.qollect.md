@@ -7,11 +7,12 @@ users: 10
 appId: com.coinforbarter.qollect
 appCountry: 
 released: Mar 15, 2022
-updated: 2022-04-17
+updated: 2022-09-22
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinforbarter.com
 repository: 
 issue: 

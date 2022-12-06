@@ -9,9 +9,10 @@ appCountry:
 released: Nov 15, 2021
 updated: 2022-06-07
 version: 1.8.3
-stars: 
+stars: 3
 ratings: 
-reviews: 
+reviews: 3
+size: 
 website: https://wetoken.io/
 repository: 
 issue: 

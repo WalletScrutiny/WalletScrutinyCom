@@ -3,22 +3,23 @@ wsId:
 title: CPASS
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.digilab24.apps
 appCountry: 
 released: Apr 6, 2022
-updated: 2022-07-29
-version: 1.2.1
+updated: 2022-11-01
+version: 1.8.13
 stars: 
 ratings: 
 reviews: 
-website: https://digilab24.com/
+size: 
+website: https://cpass.exchange/
 repository: 
 issue: 
 icon: com.digilab24.apps.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

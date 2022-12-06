@@ -20,14 +20,16 @@ repository:
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-03-16
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: BHEXOfficial
 social: 
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

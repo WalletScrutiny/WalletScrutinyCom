@@ -12,14 +12,15 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://159.65.248.120/
 repository: 
 issue: 
 icon: com.krypwallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

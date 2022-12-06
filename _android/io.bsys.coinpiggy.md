@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bsys.coinpiggy.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

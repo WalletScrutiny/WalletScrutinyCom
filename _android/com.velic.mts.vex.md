@@ -3,7 +3,7 @@ wsId:
 title: VELIC
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.velic.mts.vex
 appCountry: 
 released: Apr 3, 2019
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.velic.mts.vex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

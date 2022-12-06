@@ -1,6 +1,6 @@
 ---
 wsId: RocketByChiji
-title: Rocket by Chiji14xchange - buy and sell crypto
+title: Rocket by Chiji14xchange - buy
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: ng
 released: 2019-04-22
 updated: 2021-05-22
 version: 3.0.5
-stars: 2.4
+stars: 2
 ratings: 1121
-reviews: 911
+reviews: 929
 size: 
 website: https://chiji14xchange.com
 repository: 

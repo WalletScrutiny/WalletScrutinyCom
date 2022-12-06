@@ -12,6 +12,7 @@ version: 3.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.npasglobal.com/
 repository: 
 issue: 

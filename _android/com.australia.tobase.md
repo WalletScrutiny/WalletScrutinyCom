@@ -12,6 +12,7 @@ version: 0.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.tobases.com
 repository: 
 issue: 

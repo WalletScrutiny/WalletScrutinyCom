@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Mona-bey – Р2Р Обменник ВTС, купить продать
+title: Mona-bey – Р2Р Обменник ВTС, к
 altTitle: 
 authors: 
 users: 100
@@ -12,14 +12,15 @@ version: '2.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monabey.com
 repository: 
 issue: 
 icon: com.monabey.monachanger.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

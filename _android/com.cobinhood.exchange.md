@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: COBINHOOD - Zero Fees Bitcoin Exchange & Wallet
+title: 'COBINHOOD - Zero Fees Bitcoin '
 altTitle: 
 authors:
 - leo

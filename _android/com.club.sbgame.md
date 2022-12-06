@@ -3,15 +3,16 @@ wsId:
 title: SBG GLOBAL
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.club.sbgame
 appCountry: 
 released: Feb 1, 2022
-updated: 2022-03-05
-version: '5.0'
+updated: 2022-09-07
+version: '6.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -7,11 +7,12 @@ users: 1000
 appId: com.bitkipi
 appCountry: 
 released: Dec 23, 2021
-updated: 2022-04-23
-version: 1.3.0
+updated: 2022-09-30
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitkipi.com
 repository: 
 issue: 

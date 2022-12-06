@@ -12,14 +12,15 @@ version: 1.8.7
 stars: 3.4
 ratings: 
 reviews: 4
+size: 
 website: http://menapay.io
 repository: 
 issue: 
 icon: io.menapay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

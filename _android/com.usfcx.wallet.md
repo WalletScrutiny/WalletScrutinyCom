@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: USFCX_US Foundry Cryptocurrency Exchange
+title: USFCX_US Foundry Cryptocurrenc
 altTitle: 
 authors: 
 users: 100
@@ -12,14 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://usfcx.com/
 repository: 
 issue: 
 icon: com.usfcx.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

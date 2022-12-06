@@ -7,11 +7,12 @@ users: 1000
 appId: app.foxwallet.my
 appCountry: 
 released: Apr 10, 2022
-updated: 2022-05-10
-version: '1.28'
+updated: 2022-09-05
+version: '1.29'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://severus.finance
 repository: 
 issue: 

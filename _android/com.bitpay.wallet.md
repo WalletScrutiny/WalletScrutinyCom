@@ -9,23 +9,28 @@ users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
 released: 2016-10-01
-updated: 2022-05-19
-version: 12.12.0
+updated: 2022-10-28
+version: 14.6.6
 stars: 4.3
 ratings: 9809
-reviews: 1879
+reviews: 1982
 size: 
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
-issue: https://github.com/bitpay/wallet/issues/10425
+issue: https://github.com/bitpay/wallet/issues/12065
 icon: com.bitpay.wallet.png
 bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: ftbfs
-date: 2019-11-29
+verdict: nosource
+date: 2022-11-02
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2019-11-29
+  version: 
+  appHash: 
+  gitRevision: 8a474ddd867e50ed46404ed9d81f2a893bbf6619
+  verdict: ftbfs
 twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-
@@ -37,6 +42,12 @@ redirect_from:
 - /posts/com.bitpay.wallet/
 
 ---
+
+**Update 2022-11-02**: The [two](https://github.com/bitpay/wallet/issues/11748)
+[issues](https://github.com/bitpay/wallet/issues/12046) about not being able to
+build this product did not get any attention from the provider but what's sadly
+even worse: The version `14.7.4` has no published source code. This product is
+**not verifiable**.
 
 ## Updated Review
 

@@ -12,6 +12,7 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pasaraset.com
 repository: 
 issue: 

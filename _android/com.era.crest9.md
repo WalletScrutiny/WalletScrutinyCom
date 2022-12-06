@@ -12,14 +12,15 @@ version: 1.0.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 
 icon: com.era.crest9.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

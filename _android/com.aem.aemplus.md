@@ -12,6 +12,7 @@ version: '0.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.aemalgorithm.io/aem-plus/main
 repository: 
 issue: 

@@ -12,14 +12,15 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dashwallet.com
 repository: 
 issue: 
 icon: prince.darlington.DashWallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

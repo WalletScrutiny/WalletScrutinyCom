@@ -7,11 +7,12 @@ users: 500
 appId: com.firstWallet
 appCountry: 
 released: Apr 12, 2022
-updated: 2022-07-07
-version: 1.1.3
+updated: 2022-07-30
+version: 1.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://firstwallet.pro
 repository: 
 issue: 

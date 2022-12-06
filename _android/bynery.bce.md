@@ -3,7 +3,7 @@ wsId:
 title: Bynery
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: bynery.bce
 appCountry: 
 released: Apr 4, 2022
@@ -12,6 +12,7 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bynery.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Safe-T Companion for ARCHOS Safe-T touch
+title: Safe-T Companion for ARCHOS Sa
 altTitle: 
 authors: 
 users: 5000
@@ -12,6 +12,7 @@ version: 1.11-Release
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.archos.com
 repository: 
 issue: 

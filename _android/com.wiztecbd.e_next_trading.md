@@ -1,17 +1,18 @@
 ---
 wsId: 
-title: Gi Next
+title: 'Gi Next: Crypto Trading App'
 altTitle: 
 authors: 
 users: 100
 appId: com.wiztecbd.e_next_trading
 appCountry: 
 released: Mar 18, 2022
-updated: 2022-06-22
-version: 2.0.0
+updated: 2022-10-06
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ginexttradingcorp.com/
 repository: 
 issue: 

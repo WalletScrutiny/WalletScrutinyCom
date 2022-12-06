@@ -1,6 +1,6 @@
 ---
 wsId: ROInvesting
-title: 'ROInvesting: Trading Forex, Stocks and Bitcoin'
+title: 'ROInvesting: Trading Forex, St'
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.roinvesting.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-10-16
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: Roinvesting

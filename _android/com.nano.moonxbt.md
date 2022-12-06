@@ -4,15 +4,15 @@ title: MoonXBT - Social Trading
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.nano.moonxbt
 appCountry: us
 released: 2021-05-11
-updated: 2022-06-18
-version: 4.1.1
+updated: 2022-10-01
+version: 5.3.1
 stars: 4.5
 ratings: 481
-reviews: 16
+reviews: 17
 size: 
 website: https://www.moonxbt.com
 repository: 

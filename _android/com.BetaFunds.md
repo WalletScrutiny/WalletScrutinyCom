@@ -1,16 +1,18 @@
 ---
 wsId: 
-title: BetaFunds - The Smart Beta Index Fund
+title: BetaFunds - The Smart Beta Ind
 altTitle: 
 authors: 
 users: 50
 appId: com.BetaFunds
 appCountry: 
+released: 
 updated: 2020-05-18
 version: 2.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://betafunds.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: ankerPay
-title: 'AnkerPay: Blockchain Crypto Wallet – BTC, ETH, LTC'
+title: 'AnkerPay: Blockchain Crypto Wa'
 altTitle: 
 authors:
 - leo

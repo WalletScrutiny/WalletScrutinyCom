@@ -8,11 +8,11 @@ users: 500000
 appId: com.okinc.okcoin.intl
 appCountry: us
 released: 2018-06-22
-updated: 2022-06-30
-version: 5.3.41
-stars: 4
+updated: 2022-11-02
+version: 5.3.67
+stars: 3.9
 ratings: 4636
-reviews: 562
+reviews: 584
 size: 
 website: http://www.okcoin.com
 repository: 

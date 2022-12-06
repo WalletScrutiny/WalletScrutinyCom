@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pluto - High Secure Crypto Wallet
+title: Pluto - High Secure Crypto Wal
 altTitle: 
 authors: 
 users: 100

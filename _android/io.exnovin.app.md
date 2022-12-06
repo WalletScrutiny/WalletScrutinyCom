@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exnovin - اکس نوین | بازار معاملاتی رمزارزها
+title: Exnovin - اکس نوین | بازار معا
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: io.exnovin.app
 appCountry: 
 released: 2020-12-12
-updated: 2022-04-30
-version: 2.6.2
+updated: 2022-09-20
+version: 2.7.0
 stars: 4.2
 ratings: 930
 reviews: 17

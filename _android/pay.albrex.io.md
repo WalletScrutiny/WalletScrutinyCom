@@ -12,14 +12,15 @@ version: 4.7.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://albrex.io
 repository: 
 issue: 
 icon: pay.albrex.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

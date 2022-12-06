@@ -3,7 +3,7 @@ wsId:
 title: MSC Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.metex.exchange
 appCountry: 
 released: Oct 24, 2019

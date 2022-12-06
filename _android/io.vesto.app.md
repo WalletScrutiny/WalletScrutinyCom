@@ -3,7 +3,7 @@ wsId:
 title: Vesto
 altTitle: 
 authors: 
-users: 10
+users: 1000
 appId: io.vesto.app
 appCountry: 
 released: Jun 1, 2022
@@ -12,13 +12,14 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vesto.io
 repository: 
 issue: 
 icon: io.vesto.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

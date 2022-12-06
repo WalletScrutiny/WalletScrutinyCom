@@ -12,6 +12,7 @@ version: 1.0.6.7
 stars: 4.5
 ratings: 
 reviews: 5
+size: 
 website: https://coinhe.io/
 repository: 
 issue: 

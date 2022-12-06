@@ -7,11 +7,12 @@ users: 10000
 appId: com.cyclebas
 appCountry: 
 released: Aug 30, 2021
-updated: 2022-07-08
-version: 3.0.12
-stars: 4.8509316
+updated: 2022-10-06
+version: 3.0.16
+stars: 4.8
 ratings: 
-reviews: 91
+reviews: 94
+size: 
 website: https://www.cyclebas.com/
 repository: 
 issue: 

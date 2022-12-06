@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: StipenX - Official Stipendium Exchange
+title: 'StipenX - Official Stipendium '
 altTitle: 
 authors: 
 users: 10
@@ -12,6 +12,7 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.stipend.com
 repository: 
 issue: 

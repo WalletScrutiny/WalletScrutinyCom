@@ -12,14 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.blocklink.live/
 repository: 
 issue: 
 icon: com.wBlocklink_11263223.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Testnet Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bitcoin.wallet.btc.testnet
 appCountry: 
 released: 2019-07-04

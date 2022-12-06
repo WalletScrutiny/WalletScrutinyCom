@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Qume -  Crypto Derivatives Exchange
+title: Qume -  Crypto Derivatives Exc
 altTitle: 
 authors: 
 users: 50
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.qume.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

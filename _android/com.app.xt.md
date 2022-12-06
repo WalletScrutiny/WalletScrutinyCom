@@ -1,17 +1,18 @@
 ---
 wsId: 
-title: 'XT.com: Buy & Sell Crypto'
+title: 'XT.com: Buy Bitcoin & Ethereum'
 altTitle: 
 authors: 
 users: 100000
 appId: com.app.xt
 appCountry: 
 released: Apr 14, 2021
-updated: 2022-07-26
-version: 3.10.8
-stars: 3.16
+updated: 2022-11-01
+version: 4.0.6
+stars: 4.6
 ratings: 
-reviews: 236
+reviews: 326
+size: 
 website: http://www.xt.com
 repository: 
 issue: 

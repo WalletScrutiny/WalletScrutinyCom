@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: 'Abra: Buy Bitcoin & Earn Yield'
+title: 'Abra: Buy & Trade BTC & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.plutus.wallet
 appCountry: 
 released: 2015-03-04
-updated: 2022-06-17
-version: '124.0'
-stars: 4
+updated: 2022-10-25
+version: '132.0'
+stars: 3.9
 ratings: 44411
-reviews: 2808
+reviews: 2848
 size: 
 website: https://www.abra.com/
 repository: 

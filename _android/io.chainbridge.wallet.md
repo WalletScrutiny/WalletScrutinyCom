@@ -7,11 +7,11 @@ users: 100000
 appId: io.chainbridge.wallet
 appCountry: 
 released: Sep 15, 2019
-updated: 2022-05-17
-version: 1.1.20220516
-stars: 4
+updated: 2022-09-07
+version: 1.1.20220907
+stars: 3.9
 ratings: 
-reviews: 28
+reviews: 30
 size: 
 website: https://www.chain-bridge.io
 repository: 

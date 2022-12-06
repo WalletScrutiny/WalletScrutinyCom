@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 코베스트 - Covest
+title: 코베스트 - COVEST
 altTitle: 
 authors: 
 users: 1000

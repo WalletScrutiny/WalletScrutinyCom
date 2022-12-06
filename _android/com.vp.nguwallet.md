@@ -3,7 +3,7 @@ wsId:
 title: NguWallet
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.vp.nguwallet
 appCountry: 
 released: May 4, 2022
@@ -12,6 +12,7 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.nguwallet.com
 repository: 
 issue: 

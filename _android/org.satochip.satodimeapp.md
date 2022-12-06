@@ -3,7 +3,7 @@ wsId:
 title: Satodime
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.satochip.satodimeapp
 appCountry: 
 released: Feb 21, 2022
@@ -12,6 +12,7 @@ version: 0.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://satodime.io/
 repository: 
 issue: 

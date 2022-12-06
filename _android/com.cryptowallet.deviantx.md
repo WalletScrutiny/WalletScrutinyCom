@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'DeviantX Wallet : Bitcoin Ethereum Altcoins Tokens'
+title: 'DeviantX Wallet : Bitcoin Ethe'
 altTitle: 
 authors: 
 users: 1000

@@ -12,14 +12,15 @@ version: 0.21.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://dabblex.com
 repository: 
 issue: 
 icon: com.dabblex.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

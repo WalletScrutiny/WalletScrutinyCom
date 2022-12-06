@@ -3,12 +3,12 @@ wsId:
 title: Lunu Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.lunu.wallet
 appCountry: 
 released: 2020-09-08
-updated: 2021-09-28
-version: 1.3.2
+updated: 2022-08-24
+version: 1.3.12
 stars: 
 ratings: 
 reviews: 

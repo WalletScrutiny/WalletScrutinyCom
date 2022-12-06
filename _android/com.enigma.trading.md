@@ -1,21 +1,22 @@
 ---
 wsId: 
-title: 'Enigma Network: Crypto & Forex'
+title: 'BFX Standard: Crypto & Forex'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.enigma.trading
 appCountry: 
 released: Apr 27, 2022
-updated: 2022-07-17
-version: 1.1.4
+updated: 2022-09-29
+version: 1.1.8
 stars: 
 ratings: 
 reviews: 
-website: https://enigmanetwork.io/
+size: 
+website: https://bfxstandard.com/
 repository: 
 issue: 
-icon: com.enigma.trading.png
+icon: com.enigma.trading.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers

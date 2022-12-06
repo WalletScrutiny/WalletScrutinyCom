@@ -3,7 +3,7 @@ wsId:
 title: Satoshi Bot
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: www.satoshibot.org
 appCountry: 
 released: May 20, 2022
@@ -12,6 +12,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

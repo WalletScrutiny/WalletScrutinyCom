@@ -3,7 +3,7 @@ wsId:
 title: Global Token Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.apetroop.multichainwallet
 appCountry: 
 released: Aug 10, 2020
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.apetroop.multichainwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

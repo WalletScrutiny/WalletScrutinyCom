@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: 'Admirals: Trade CFDs & Stocks'
+title: 'Admirals: Trade Stocks & CFDs'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
-updated: 2022-06-13
-version: 1.5.7
-stars: 
+updated: 2022-10-14
+version: 1.6.2
+stars: 3.7
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.admiralmarkets.com
 repository: 

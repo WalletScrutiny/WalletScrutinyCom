@@ -3,15 +3,16 @@ wsId:
 title: Yield App
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.yieldapp_mobile
 appCountry: 
 released: Jun 10, 2022
-updated: 2022-06-12
-version: '1.0'
+updated: 2022-09-27
+version: '22.0927'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.yield.app
 repository: 
 issue: 

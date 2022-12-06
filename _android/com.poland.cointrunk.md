@@ -12,6 +12,7 @@ version: 0.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://cointrunk.net
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: ezdefi
-title: ezDeFi - Crypto & Bitcoin Wallet
+title: ezDeFi - Crypto & Bitcoin Wall
 altTitle: 
 authors:
 - leo
@@ -11,18 +11,18 @@ appCountry:
 released: 2019-11-29
 updated: 2021-09-08
 version: 0.3.9
-stars: 4.2
+stars: 4.1
 ratings: 633
-reviews: 12
+reviews: 13
 size: 
 website: https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-12-14
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: ezDeFi

@@ -3,15 +3,16 @@ wsId:
 title: 5A Crypto Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.fivea.app
 appCountry: 
 released: Feb 15, 2022
-updated: 2022-06-02
-version: 1.0.4
+updated: 2022-10-25
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

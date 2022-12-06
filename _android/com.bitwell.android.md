@@ -7,11 +7,11 @@ users: 10000
 appId: com.bitwell.android
 appCountry: 
 released: Jul 10, 2020
-updated: 2022-05-28
-version: 1.8.0
-stars: 
+updated: 2022-07-09
+version: 1.8.1
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: http://www.bitwellex.com
 repository: 

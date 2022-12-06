@@ -9,9 +9,10 @@ appCountry:
 released: Mar 18, 2022
 updated: 2022-07-06
 version: 3.0.0
-stars: 4.8333335
+stars: 4.8
 ratings: 
 reviews: 5
+size: 
 website: https://business.paybolt.com
 repository: 
 issue: 

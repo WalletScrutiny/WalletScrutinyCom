@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 바이맥스(BIMAX) - 세계 최초 정액제 암호화폐 거래소(바로가기)
+title: 바이맥스(BIMAX) - 세계 최초 정액제 암호화폐 거
 altTitle: 
 authors: 
 users: 1000

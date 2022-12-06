@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Decrypt - Bitcoin & crypto news
+title: Decrypt - Bitcoin & crypto new
 altTitle: 
 authors:
 - leo
@@ -11,9 +11,9 @@ appCountry:
 released: 2020-05-06
 updated: 2022-02-01
 version: 3.0.1
-stars: 4.2
+stars: 4.1
 ratings: 2220
-reviews: 222
+reviews: 224
 size: 
 website: https://decrypt.co/
 repository: 

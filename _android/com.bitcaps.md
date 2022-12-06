@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcaps - Digital Assets Exchange
+title: Bitcaps - Digital Assets Excha
 altTitle: 
 authors: 
 users: 100

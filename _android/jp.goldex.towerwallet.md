@@ -12,6 +12,7 @@ version: 3.3.35
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.goldex.jp/
 repository: 
 issue: 

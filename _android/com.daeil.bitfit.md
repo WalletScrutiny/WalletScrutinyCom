@@ -3,7 +3,7 @@ wsId:
 title: Bitfit - 우리는 다르다! 비트핏 거래소
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.daeil.bitfit
 appCountry: 
 released: Sep 10, 2019

@@ -3,15 +3,16 @@ wsId:
 title: Catecoin-Crypto Bitcoin Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.crypto.wallet.catecoin
 appCountry: 
 released: Apr 16, 2022
-updated: 2022-04-20
+updated: 2022-10-31
 version: 1.0.0
-stars: 4.894737
+stars: 4.6
 ratings: 
-reviews: 36
+reviews: 43
+size: 
 website: https://catecoin.club
 repository: 
 issue: 

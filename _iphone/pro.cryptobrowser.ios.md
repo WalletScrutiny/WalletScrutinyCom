@@ -11,16 +11,16 @@ released: 2020-09-21
 updated: 2020-09-24
 version: 5.4.4
 stars: 2.7
-reviews: 130
+reviews: 138
 size: '121089024'
 website: https://cryptobrowser.site/
 repository: 
 issue: 
 icon: pro.cryptobrowser.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-01-07
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

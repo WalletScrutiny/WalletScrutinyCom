@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: net.treeum.multi.invest
 appCountry: 
-updated: 2022-07-13
-version: 1.0.22
+released: 
+updated: 2022-09-01
+version: 1.0.31
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://multi.ua
 repository: 
 issue: 

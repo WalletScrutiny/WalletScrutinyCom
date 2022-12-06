@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ShiftBuy. Cryptocurrency exchange in two clicks.
+title: ShiftBuy. Cryptocurrency excha
 altTitle: 
 authors: 
 users: 500

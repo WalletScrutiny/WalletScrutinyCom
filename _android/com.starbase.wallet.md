@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: StarBase Crypto Wallet - Buy, Sell, Swap Dex
+title: 'StarBase Crypto Wallet - Buy, '
 altTitle: 
 authors: 
 users: 1000
@@ -9,7 +9,7 @@ appCountry:
 released: Sep 9, 2021
 updated: 2021-10-20
 version: 0.22.1
-stars: 3.8
+stars: 3.6
 ratings: 
 reviews: 9
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.starbase.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

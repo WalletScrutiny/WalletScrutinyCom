@@ -12,14 +12,15 @@ version: 1.0.28
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://otcxpert.com/
 repository: 
 issue: 
 icon: hk.unisoft.otcxpert.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

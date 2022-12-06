@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitlo: Bitcoin ve Kripto Para Borsası'
+title: 'Bitlo: Bitcoin ve Kripto Para '
 altTitle: 
 authors: 
 users: 100000

@@ -3,7 +3,7 @@ wsId:
 title: Gebo KEI
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.zoid.geboapp
 appCountry: 
 released: May 12, 2021
@@ -12,6 +12,7 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://gebo.io/
 repository: 
 issue: 

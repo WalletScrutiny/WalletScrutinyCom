@@ -12,14 +12,15 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://zezo.in
 repository: 
 issue: 
 icon: com.coinsvalue.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

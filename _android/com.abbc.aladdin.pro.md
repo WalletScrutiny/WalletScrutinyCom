@@ -8,11 +8,11 @@ users: 100000
 appId: com.abbc.aladdin.pro
 appCountry: us
 released: 2019-11-15
-updated: 2022-06-21
-version: 1.11.3
-stars: 4.9
+updated: 2022-09-13
+version: 1.13.2
+stars: 4.8
 ratings: 5401
-reviews: 162
+reviews: 164
 size: 
 website: http://abbcpayment.com
 repository: 

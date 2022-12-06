@@ -3,7 +3,7 @@ wsId:
 title: BitcoinCore for Android
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: org.lndroid.bitcoincore
 appCountry: 
 released: 2020-07-02

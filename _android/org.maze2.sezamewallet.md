@@ -3,7 +3,7 @@ wsId:
 title: Sezame Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: org.maze2.sezamewallet
 appCountry: 
 released: Mar 31, 2022
@@ -12,6 +12,7 @@ version: 0.9.17
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://sesame-wallet.io
 repository: 
 issue: 

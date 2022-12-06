@@ -8,20 +8,20 @@ users: 500000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2022-05-28
-version: 4.2.2.0
-stars: 3.6
+updated: 2022-09-29
+version: 4.3.2.0
+stars: 3.5
 ratings: 2500
-reviews: 287
+reviews: 292
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/7640
 icon: org.electrum.electrum.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-04-17
+date: 2022-11-01
 signer: 
 reviewArchive:
 - date: 2022-04-15
@@ -58,6 +58,9 @@ redirect_from:
 - /posts/org.electrum.electrum/
 
 ---
+
+**Update 2022-11-01**: The latest binary does not compile with our current
+script. We have to look into it and potentially consult with the provider.
 
 With our {% include testScript.html %} we get:
 

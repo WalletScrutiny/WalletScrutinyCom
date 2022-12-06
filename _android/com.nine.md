@@ -12,14 +12,15 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 
 icon: com.nine.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,6 +12,7 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.gonechain.io
 repository: 
 issue: 

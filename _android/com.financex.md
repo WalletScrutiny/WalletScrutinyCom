@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FinanceX - Crypto Trading with Fiat
+title: FinanceX - Crypto Trading with
 altTitle: 
 authors: 
 users: 1000

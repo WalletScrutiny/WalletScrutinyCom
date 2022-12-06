@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'CryptoRefills: Buy Gift Cards & Topup with Bitcoin'
+title: 'CryptoRefills: Buy Gift Cards '
 altTitle: 
 authors: 
 users: 10000
@@ -9,9 +9,10 @@ appCountry:
 released: Apr 22, 2019
 updated: 2019-05-14
 version: 1.0.2
-stars: 4.047619
+stars: 4
 ratings: 
-reviews: 40
+reviews: 42
+size: 
 website: https://www.cryptorefills.com
 repository: 
 issue: 

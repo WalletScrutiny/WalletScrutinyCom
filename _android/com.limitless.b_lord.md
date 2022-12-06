@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.limitless.b_lord.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-31
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

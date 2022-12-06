@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: online.figcoin.figvault.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-15
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

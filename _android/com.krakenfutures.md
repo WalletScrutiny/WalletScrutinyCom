@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Kraken Futures: Bitcoin & Crypto Futures Trading'
+title: 'Kraken Futures: Bitcoin & Cryp'
 altTitle: 
 authors:
 - leo

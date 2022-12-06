@@ -3,7 +3,7 @@ wsId:
 title: CASH FX GROUP
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: cloud.cashforexgroup.com
 appCountry: 
 released: Apr 30, 2022
@@ -12,13 +12,14 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 
 icon: cloud.cashforexgroup.com.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 
