@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Global Cryptocurrency Exchanges
+title: Global Cryptocurrency Exchange
 altTitle: 
 authors: 
 users: 1000

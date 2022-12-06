@@ -1,6 +1,6 @@
 ---
 wsId: MathWallet
-title: 'MathWallet: Ethereum,Polkadot'
+title: MathWallet1
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 100000
 appId: com.medishares.android
 appCountry: 
 released: 2018-04-17
-updated: 2022-05-24
-version: 4.3.8
-stars: 3.9
+updated: 2022-10-08
+version: 4.5.1
+stars: 3.8
 ratings: 2172
-reviews: 190
+reviews: 185
 size: 
 website: https://www.mathwallet.org/
 repository: 
 issue: 
-icon: com.medishares.android.jpg
+icon: com.medishares.android.png
 bugbounty: 
 meta: ok
 verdict: nosource

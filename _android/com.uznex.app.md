@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: UZNEX - UZbekistan Cryptocurrency Exchange
+title: UZNEX - UZbekistan Cryptocurre
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.uznex.app
 appCountry: 
 released: 2020-04-28

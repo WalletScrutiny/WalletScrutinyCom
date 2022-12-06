@@ -1,6 +1,5 @@
 {% assign v=site.data.verdicts[page.verdict]
-%}<h1 id="verdictExplained">Verdict Explained</h1>
-<p>{{ v.message }}</p>
+%}<p>{{ v.message }}</p>
 
 <p>As part of <a href="/methodology/#{{ page.verdict }}">our Methodology</a>, we ask:</p>
 
@@ -9,14 +8,4 @@
 {% if page.meta != "ok" %}
   <p>But we also ask:</p>
   {% include verdictMethodology.html verdict=page.meta %}
-{% endif %}
-
-{% if v.redflag %}
-  <strong>The product cannot be independently verified. If the provider puts your funds at
-  risk on purpose or by accident, you will probably not know about the issue
-  before people start losing money. If the provider is more criminally inclined
-  he might have collected all the backups of all the wallets, ready to be
-  emptied at the press of a button. The product might have a formidable track record
-  but out of distress or change in management turns out to be evil from some
-  point on, with nobody outside ever knowing before it is too late.</strong>
 {% endif %}

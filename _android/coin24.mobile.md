@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coin24 - Bitcoin, cryptocurrency exchange
+title: Coin24 - Bitcoin, cryptocurren
 altTitle: 
 authors: 
 users: 5000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: coin24.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-24
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinSuisse
-title: Bitcoin Suisse – Buy & Sell Crypto
+title: Bitcoin Suisse – Buy Crypto
 altTitle: 
 authors:
 - danny

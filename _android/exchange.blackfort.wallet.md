@@ -4,7 +4,7 @@ title: BlackFort Wallet & Exchange
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: exchange.blackfort.wallet
 appCountry: ee
 released: 2020-08-31
@@ -12,16 +12,16 @@ updated: 2021-10-27
 version: 1.3.18
 stars: 4.1
 ratings: 64
-reviews: 35
+reviews: 42
 size: 
 website: https://blackfort.exchange
 repository: 
 issue: 
 icon: exchange.blackfort.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: BlackFort_Tech

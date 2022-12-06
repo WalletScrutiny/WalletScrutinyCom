@@ -7,11 +7,11 @@ users: 1000
 appId: com.txtba.app
 appCountry: 
 released: Dec 21, 2021
-updated: 2022-06-18
-version: 1.1.6
+updated: 2022-10-20
+version: 1.2.10
 stars: 5
 ratings: 
-reviews: 133
+reviews: 119
 size: 
 website: 
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Meet TKEYSPACE — New World’s Most Advanced Wallet.
+title: Meet TKEYSPACE — New World’s M
 altTitle: 
 authors: 
 users: 1000

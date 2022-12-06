@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'BAF: Multicurrency Wallet & Exchange'
+title: 'BAF: Multicurrency Wallet & Ex'
 altTitle: 
 authors: 
 users: 50

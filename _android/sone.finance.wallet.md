@@ -7,8 +7,8 @@ users: 10000
 appId: sone.finance.wallet
 appCountry: 
 released: Jul 9, 2021
-updated: 2022-03-11
-version: 1.0.7
+updated: 2022-10-18
+version: 1.0.12
 stars: 2.9
 ratings: 
 reviews: 7

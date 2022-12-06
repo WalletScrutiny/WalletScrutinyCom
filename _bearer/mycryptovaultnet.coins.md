@@ -1,5 +1,5 @@
 ---
-title: MyCryptoVaulet.net Cold Storage Coins
+title: MyCryptoVault.net Cold Storage Coins
 appId: mycryptovaultnet.coins
 authors:
 - danny
@@ -21,7 +21,7 @@ issue:
 icon: mycryptovaultnet.coins.png
 bugbounty: 
 meta: defunct
-verdict: plainkey
+verdict: sealed-plainkey
 date: 2022-04-29
 signer: 
 reviewArchive: 

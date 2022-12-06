@@ -7,11 +7,11 @@ users: 10000
 appId: com.movocash.movo
 appCountry: 
 released: Apr 1, 2021
-updated: 2022-04-13
-version: '4.1'
+updated: 2022-09-28
+version: 4.2.3
 stars: 3.3
 ratings: 
-reviews: 70
+reviews: 124
 size: 
 website: http://movo.cash
 repository: 

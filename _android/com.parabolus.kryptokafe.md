@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Tracking, Wallet & Global Payment App.
+title: Crypto Tracking, Wallet & Glob
 altTitle: 
 authors: 
 users: 50

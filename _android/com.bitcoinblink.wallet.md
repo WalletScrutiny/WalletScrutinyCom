@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinblink.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-28
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

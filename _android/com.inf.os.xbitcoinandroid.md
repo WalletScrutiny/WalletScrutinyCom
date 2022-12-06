@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: xBitcoin | Compre e Venda Bitcoin e Criptomoedas
+title: xBitcoin | Compre e Venda Bitc
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.inf.os.xbitcoinandroid.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

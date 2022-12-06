@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mn.blockchain.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2022-02-21
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: EDCBlockchain
@@ -29,5 +29,7 @@ social:
 - https://www.facebook.com/EDCBlockchain
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

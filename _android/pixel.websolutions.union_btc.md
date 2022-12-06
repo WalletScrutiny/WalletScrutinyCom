@@ -3,11 +3,11 @@ wsId:
 title: Union Btc
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: pixel.websolutions.union_btc
 appCountry: 
 released: Sep 29, 2021
-updated: 2021-11-24
+updated: 2022-09-07
 version: 1.0.0
 stars: 
 ratings: 

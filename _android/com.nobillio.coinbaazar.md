@@ -1,6 +1,6 @@
 ---
 wsId: CoinBaazar
-title: Coinbaazar - Buy/Sell Bitcoins Exchange
+title: Coinbaazar- Crypto Marketplace
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.nobillio.coinbaazar
 appCountry: us
 released: 2020-08-31
-updated: 2021-10-14
-version: 1.3.10
+updated: 2022-10-28
+version: 1.3.12
 stars: 
 ratings: 
 reviews: 

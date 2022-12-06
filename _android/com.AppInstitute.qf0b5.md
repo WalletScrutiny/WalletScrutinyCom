@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Blockscart: Wallet - Exchange - P2P Platform'
+title: 'Blockscart: Wallet - Exchange '
 altTitle: 
 authors: 
 users: 100

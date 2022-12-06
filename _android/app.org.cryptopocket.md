@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptopocket - Multi Currency Mobile Wallet
+title: 'Cryptopocket - Multi Currency '
 altTitle: 
 authors: 
 users: 1000

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: bitjeem - Dubai's Premier Digital Assets Platform
+title: bitjeem - Dubai's Premier Digi
 altTitle: 
 authors: 
 users: 50
 appId: com.bitjeem.android
 appCountry: 
 released: Nov 16, 2020
-updated: 2022-04-15
-version: 1.21.1
+updated: 2022-08-22
+version: 1.22.0
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Arum Trade — Investing  & Trading
+title: Arum Trade — Investing  & Trad
 altTitle: 
 authors: 
 users: 1000

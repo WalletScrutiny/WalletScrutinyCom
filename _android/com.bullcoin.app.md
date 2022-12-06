@@ -3,7 +3,7 @@ wsId:
 title: Bulltrade
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bullcoin.app
 appCountry: 
 released: Feb 22, 2021

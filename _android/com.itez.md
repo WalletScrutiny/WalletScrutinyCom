@@ -4,7 +4,7 @@ title: Itez
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.itez
 appCountry: 
 released: 2020-03-26

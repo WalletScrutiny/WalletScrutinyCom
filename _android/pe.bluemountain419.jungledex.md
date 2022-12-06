@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: JungleDEX Wallet (Bitcoin,Ethereum,EOS,XRP)
+title: JungleDEX Wallet (Bitcoin,Ethe
 altTitle: 
 authors: 
 users: 10

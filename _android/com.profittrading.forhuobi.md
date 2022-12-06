@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading for Huobi - Trade much faster
+title: ProfitTradingApp for Huobi
 altTitle: 
 authors:
 - danny

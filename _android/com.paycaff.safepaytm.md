@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: SafePayTm- Automatic Exchanger
+title: SafePayTm - Money Exchanger
 altTitle: 
 authors: 
 users: 10000
 appId: com.paycaff.safepaytm
 appCountry: 
 released: 2019-05-29
-updated: 2019-07-10
-version: '3.0'
+updated: 2022-08-14
+version: '6.0'
 stars: 4.3
 ratings: 143
 reviews: 1
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paycaff.safepaytm.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2021-08-21
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

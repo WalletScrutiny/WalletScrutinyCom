@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'BtcTurk | PRO : BTC|ETH|SHIB'
+title: 'BtcTurk | PRO: USDT|SHIB|AVAX'
 altTitle: 
 authors: 
 appId: com.btcturk.pro
 appCountry: 
 idd: 1471639720
 released: 2019-07-10
-updated: 2022-05-16
-version: 1.46.0
+updated: 2022-06-20
+version: 1.47.0
 stars: 4.9
-reviews: 1370
-size: '142582784'
+reviews: 1407
+size: '144987136'
 website: https://pro.btcturk.com
 repository: 
 issue: 

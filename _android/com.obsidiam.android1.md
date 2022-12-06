@@ -7,8 +7,8 @@ users: 1000
 appId: com.obsidiam.android1
 appCountry: 
 released: Aug 24, 2020
-updated: 2022-06-03
-version: 1.3.3
+updated: 2022-10-19
+version: 1.4.5
 stars: 
 ratings: 
 reviews: 

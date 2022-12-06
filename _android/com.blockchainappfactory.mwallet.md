@@ -3,7 +3,7 @@ wsId:
 title: M Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.blockchainappfactory.mwallet
 appCountry: 
 released: 2020-03-08
@@ -19,7 +19,7 @@ issue:
 icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-02-28
 signer: 
 reviewArchive: 

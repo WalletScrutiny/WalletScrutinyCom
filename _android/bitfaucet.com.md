@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bitfaucet.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

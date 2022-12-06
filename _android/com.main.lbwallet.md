@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: LocalBit - buy/sell/lend coin(s) for Cash
+title: LocalBit - buy/sell/lend coin(
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.main.lbwallet
 appCountry: 
 released: 2021-04-22

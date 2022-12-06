@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: ngrave liquid
+title: NGRAVE LIQUID - Crypto app
 altTitle: 
 authors: 
 users: 1000
 appId: io.ngrave.liquid
 appCountry: 
 released: Nov 6, 2021
-updated: 2022-06-01
-version: 1.5.0
-stars: 
+updated: 2022-10-31
+version: 2.0.0
+stars: 2.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.ngrave.io/
 repository: 

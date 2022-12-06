@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For Binance US - Trade much faster
+title: ProfitTradingApp for BinanceUS
 altTitle: 
 authors:
 - danny

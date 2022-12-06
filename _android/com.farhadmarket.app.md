@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FarhadMarket - Cryptocurrency Trading Market
+title: 'FarhadMarket - Cryptocurrency '
 altTitle: 
 authors:
 - danny

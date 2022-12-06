@@ -8,11 +8,11 @@ users: 10000000
 appId: org.fxclub.libertex
 appCountry: cl
 released: 2015-05-22
-updated: 2022-02-16
-version: 2.30.0
-stars: 4.2
+updated: 2022-08-01
+version: 2.31.0
+stars: 3.8
 ratings: 77624
-reviews: 1006
+reviews: 1053
 size: 
 website: https://libertex.org
 repository: 

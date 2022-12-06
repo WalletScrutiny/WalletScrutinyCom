@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Quantic Mobile – Forex, CFDs on Stocks
+title: Quantic Mobile – Forex, CFDs o
 altTitle: 
 authors: 
 users: 100
 appId: com.quanticmobileapp
 appCountry: 
 released: Feb 16, 2021
-updated: 2022-02-22
-version: 2.0.29
+updated: 2022-09-08
+version: 2.0.37
 stars: 
 ratings: 
 reviews: 

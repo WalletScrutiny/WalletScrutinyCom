@@ -10,18 +10,18 @@ appCountry: us
 released: 2021-08-19
 updated: 2021-08-19
 version: 1.0.0
-stars: 3
+stars: 3.1
 ratings: 155
-reviews: 23
+reviews: 24
 size: 
 website: https://mandala.exchange
 repository: 
 issue: 
 icon: com.cloud.app.mandala.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: mandalaex

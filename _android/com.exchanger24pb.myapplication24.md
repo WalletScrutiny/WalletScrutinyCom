@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: '24Paybank: Купить и продать Биткоин'
+title: '24Paybank: Купить и продать Би'
 altTitle: 
 authors: 
 users: 5000

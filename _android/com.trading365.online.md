@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Trading 365—Forex, Crypto, Goldand Indices
+title: Trading 365—Forex, Crypto, Gol
 altTitle: 
 authors: 
 users: 100

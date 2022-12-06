@@ -7,8 +7,8 @@ users: 1000
 appId: io.nekoinvest.wallet
 appCountry: 
 released: Sep 23, 2021
-updated: 2022-06-22
-version: 2.0.2
+updated: 2022-10-28
+version: 2.1.0
 stars: 
 ratings: 
 reviews: 

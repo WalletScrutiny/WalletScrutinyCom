@@ -5,15 +5,15 @@ altTitle:
 authors:
 - kiwilamb
 - danny
-users: 1000000
+users: 5000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2022-06-11
-version: 1.10.7
-stars: 4.1
+updated: 2022-10-28
+version: 1.16.0
+stars: 4.3
 ratings: 59630
-reviews: 1601
+reviews: 2113
 size: 
 website: https://chippercash.com
 repository: 

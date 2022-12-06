@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BITZAPP BITCOIN WALLET - BUY / TRADE BITCOINS
+title: BITZAPP BITCOIN WALLET - BUY /
 altTitle: 
 authors: 
 users: 50
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitzapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

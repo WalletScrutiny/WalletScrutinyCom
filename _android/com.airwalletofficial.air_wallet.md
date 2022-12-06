@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AIRWALLET - Secure Cryptocurrency Multi-Wallet
+title: AIRWALLET - Secure Cryptocurre
 altTitle: 
 authors: 
 users: 1000

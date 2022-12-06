@@ -9,7 +9,7 @@ try {
   verdicts = Object.keys(x)
 } catch (e) {
   console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
-  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource'.split(',')
+  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource,sealed-noita,sealed-plainkey'.split(',')
 }
 
 const migration = function (header, body, fileName, category) {

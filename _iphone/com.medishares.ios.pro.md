@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2021-08-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: Mathwallet
 social: 
 
 ---
+
+**Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}

@@ -4,15 +4,15 @@ title: excoino | اکسکوینو
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.excoino.excoino
 appCountry: 
 released: 2018-09-27
-updated: 2022-03-16
-version: 8.1.8
-stars: 3.9
+updated: 2022-08-22
+version: 8.4.2
+stars: 4.2
 ratings: 8653
-reviews: 183
+reviews: 196
 size: 
 website: https://www.excoino.com/
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-05-30
+date: 2022-06-02
 signer: 
 reviewArchive: 
 twitter: payizamoney
@@ -28,5 +28,8 @@ social:
 - https://www.facebook.com/payizamoney
 
 ---
+
+**Update 2022-06-02**: This app is not available anymore.
+
 
 {% include copyFromAndroid.html %}

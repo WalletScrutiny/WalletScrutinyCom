@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pluang - Safe Online Investing
+title: Pluang–Crypto, US Stocks, Gold
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2022-06-01
-version: 4.9.8
-stars: 4
+updated: 2022-11-02
+version: 5.1.5
+stars: 4.1
 ratings: 27168
-reviews: 94
+reviews: 98
 size: 
 website: https://pluang.com
 repository: 

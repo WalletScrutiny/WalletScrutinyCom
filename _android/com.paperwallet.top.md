@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Paper Wallet Generator for Bitcoin & Altcoins
+title: Paper Crypto Wallet Generator
 altTitle: 
 authors: 
 users: 10000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paperwallet.top.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-14
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

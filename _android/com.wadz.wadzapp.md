@@ -7,8 +7,8 @@ users: 1000
 appId: com.wadz.wadzapp
 appCountry: 
 released: Dec 29, 2020
-updated: 2021-09-14
-version: 2.0.0
+updated: 2022-06-26
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 

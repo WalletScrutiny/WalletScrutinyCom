@@ -1,6 +1,6 @@
 ---
 wsId: Nominex
-title: 'Nominex: Cryptocurrency trading without commission'
+title: 'Nominex: Cryptocurrency tradin'
 altTitle: 
 authors:
 - danny

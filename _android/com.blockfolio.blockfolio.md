@@ -1,6 +1,6 @@
 ---
 wsId: blockfolio
-title: 'FTX: Buy & Sell Crypto'
+title: FTX - Buy Crypto, Stocks, ETFs
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.blockfolio.blockfolio
 appCountry: us
 released: 2015-10-01
-updated: 2022-06-02
-version: 4.10.1
+updated: 2022-11-01
+version: 4.12.5
 stars: 4
 ratings: 164833
-reviews: 11522
+reviews: 11863
 size: 
 website: https://www.blockfolio.com
 repository: 

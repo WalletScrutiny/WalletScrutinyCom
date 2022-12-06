@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BeyondCC - Cryptocurrency Exchange
+title: BeyondCC - Cryptocurrency Exch
 altTitle: 
 authors: 
 users: 100

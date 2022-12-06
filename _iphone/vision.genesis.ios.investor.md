@@ -10,8 +10,8 @@ idd: 1369865290
 released: 2018-04-23
 updated: 2022-03-17
 version: 2.3.0
-stars: 4.9
-reviews: 144
+stars: 4.8
+reviews: 145
 size: '48808960'
 website: https://genesis.vision/
 repository: 

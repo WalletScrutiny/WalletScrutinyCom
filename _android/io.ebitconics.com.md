@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: eBitcoinics Inc - Simplified gateway to blockchain
+title: eBitcoinics Inc - Simplified g
 altTitle: 
 authors:
 - danny

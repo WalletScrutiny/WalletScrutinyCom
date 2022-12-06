@@ -7,8 +7,8 @@ users: 100
 appId: ch.vrfy
 appCountry: 
 released: 2019-10-03
-updated: 2022-04-06
-version: 2.0.0
+updated: 2022-06-17
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 

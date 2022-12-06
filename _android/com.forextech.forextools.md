@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Forex Game - Trading 4 Beginners: Bitcoin Ethereum'
+title: Forex Game - Trading 4 Beginne
 altTitle: 
 authors: 
 users: 1000

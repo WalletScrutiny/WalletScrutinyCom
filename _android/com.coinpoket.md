@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinpoket – Crypto Exchange & Wallet
+title: 'Coinpoket – Crypto Exchange & '
 altTitle: 
 authors: 
 users: 100

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unodax.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: Unocoin

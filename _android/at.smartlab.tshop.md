@@ -8,11 +8,11 @@ users: 500000
 appId: at.smartlab.tshop
 appCountry: 
 released: 2012-12-22
-updated: 2022-04-17
-version: '205'
-stars: 3.9
+updated: 2022-09-08
+version: '206'
+stars: 4
 ratings: 3750
-reviews: 261
+reviews: 263
 size: 
 website: https://tabshop.smartlab.at/
 repository: 

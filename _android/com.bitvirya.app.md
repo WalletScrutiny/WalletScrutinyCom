@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitvirya - cryptocurrency exchange
+title: Bitvirya - cryptocurrency exch
 altTitle: 
 authors: 
 users: 10

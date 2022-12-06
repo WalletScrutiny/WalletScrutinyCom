@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Card Wallet by Cardstack
+title: Cardstack Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: com.cardstack.cardpay
 appCountry: 
 released: Apr 6, 2022
-updated: 2022-05-30
-version: 1.1.3
+updated: 2022-10-18
+version: 1.1.10
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: White Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.mg8.bankwallet
 appCountry: 
 released: Nov 22, 2020

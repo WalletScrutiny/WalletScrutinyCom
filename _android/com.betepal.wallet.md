@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Betepal Wallet - 币宝 钱包 安全加密 USDT 比特币BTC 区块链 以太坊ETH
+title: Betepal Wallet - 币宝 钱包 安全加密 US
 altTitle: 
 authors: 
 users: 1000

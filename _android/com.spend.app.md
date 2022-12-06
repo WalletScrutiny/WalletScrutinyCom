@@ -4,24 +4,24 @@ title: Spend App
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.spend.app
 appCountry: 
 released: 2018-08-07
 updated: 2020-07-15
 version: '3.09'
-stars: 3.6
+stars: 3.5
 ratings: 479
-reviews: 173
+reviews: 174
 size: 
 website: https://www.spend.com
 repository: 
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2021-08-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: Spendcom

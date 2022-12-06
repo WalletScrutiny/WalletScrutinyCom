@@ -3,7 +3,7 @@ wsId:
 title: FMX Trade
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: fmx.trade.cryptocurrency.exchange.finance
 appCountry: 
 released: May 24, 2021
@@ -19,7 +19,7 @@ issue:
 icon: fmx.trade.cryptocurrency.exchange.finance.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

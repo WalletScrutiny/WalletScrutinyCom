@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2019-04-06
 discontinued: 
-updated: 2019-08-26
-version: v2.0.2
+updated: 2022-10-05
+version: v4.1.6
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -20,9 +20,9 @@ repository: https://github.com/Coldcard/firmware/releases/tag/2019-04-09T1600-v2
 issue: 
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
-meta: obsolete
-verdict: nonverifiable
-date: 2022-05-19
+meta: 
+verdict: wip
+date: 2022-10-25
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -30,6 +30,20 @@ social:
 - https://t.me/coldcard
 
 ---
+
+## Update 2022-10-25
+
+The [ColdCard website](https://coldcard.com/downloads/) states that the latest
+firmware update (4.1.6) for the MK3 is the same as the MK2. Pending verification
+for v4.1.6, we'll mark this review as a work-in-progress.
+
+If you are a user of the Mk2, please check the
+{% include walletLink.html wallet='hardware/coldcardMk3' verdict='true' %} for
+your binary updates' reproducibility. As this product still is being used by
+many, we might update the review in tandem with the Mk3 despite being out of
+production.
+
+### Old Review
 
 ## Background 
 
@@ -61,4 +75,4 @@ Above they briefly state how the attack is performed:
 
 ## Analysis 
 
-As mentioned above, the {{ page.title }} has been obsoleted by the manufacturer, further analysis would be moot and academic.
+As mentioned above, the {{ page.title }} has been obsoleted by the manufacturer.

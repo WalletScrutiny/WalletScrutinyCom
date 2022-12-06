@@ -8,11 +8,11 @@ appId: com.hebeblock.hebewallet
 appCountry: us
 idd: 1453374447
 released: 2019-02-24
-updated: 2022-05-25
-version: 1.4.9
+updated: 2022-06-28
+version: 1.5.0
 stars: 3.9
 reviews: 13
-size: '114153472'
+size: '134195200'
 website: https://hebe.cc
 repository: 
 issue: 

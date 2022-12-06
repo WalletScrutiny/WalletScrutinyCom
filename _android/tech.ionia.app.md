@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ionia, Blockchain Financial Platform
+title: Ionia, Blockchain Financial Pl
 altTitle: 
 authors: 
 users: 5000
