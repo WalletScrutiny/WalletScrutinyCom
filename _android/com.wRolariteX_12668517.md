@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'RolariteX: Buy and Sell Gift Cards, Bitcoin & USDT'
+title: 'RolariteX: Buy and Sell Gift C'
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wRolariteX_12668517.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

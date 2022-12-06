@@ -4,15 +4,15 @@ title: Cake DeFi
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16
-updated: 2022-05-24
-version: 3.5.0
-stars: 3.7
+updated: 2022-09-16
+version: 3.8.0
+stars: 3.4
 ratings: 1135
-reviews: 112
+reviews: 146
 size: 
 website: https://cakedefi.com
 repository: 

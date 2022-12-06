@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HODLER Open Source Multi-Asset Wallet
+title: HODLER Open Source Multi-Asset
 altTitle: 
 authors:
 - leo

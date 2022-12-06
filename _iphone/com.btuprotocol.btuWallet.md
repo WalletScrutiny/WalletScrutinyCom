@@ -1,6 +1,6 @@
 ---
 wsId: Verso
-title: 'Verso Wallet : Get into crypto'
+title: Verso Wallet - Crypto & NFT
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.btuprotocol.btuWallet
 appCountry: ba
 idd: 1539304605
 released: 2021-03-15
-updated: 2022-05-04
-version: 2.5.7
+updated: 2022-06-28
+version: 2.6.9
 stars: 0
 reviews: 0
-size: '92546048'
+size: '64095232'
 website: https://get-verso.com
 repository: 
 issue: 

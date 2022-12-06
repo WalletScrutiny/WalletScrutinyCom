@@ -16,26 +16,28 @@ window.addEventListener("load", () => {
     window.verdictCount[wallet.folder]["all"]++
   }
   recreateDropdowns("reproducible", "android")
-  window.addEventListener("scroll", ignore => {
-    const p = document.getElementById("modularWalletPayload")
-    const o = p.getBoundingClientRect().bottom
-    document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
-    if (o <= 100) {
-      p.style.height = `${p.getBoundingClientRect().height}px`
-      p.style.overflow = "hidden"
-      document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-        e.style.transform = `translateY(${o - 100}px)`
-        e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
-      })
-    } else {
-      document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-        e.style.transform = `translateY(0px)`
-        e.style.display = ""
-        p.style.height = ""
-        p.style.overflow = ""
-      })
-    }
-  })
+  if (document.getElementById("modularWalletPayload")) {
+    window.addEventListener("scroll", ignore => {
+      const p = document.getElementById("modularWalletPayload")
+      const o = p.getBoundingClientRect().bottom
+      document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
+      if (o <= 100) {
+        p.style.height = `${p.getBoundingClientRect().height}px`
+        p.style.overflow = "hidden"
+        document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
+          e.style.transform = `translateY(${o - 100}px)`
+          e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
+        })
+      } else {
+        document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
+          e.style.transform = `translateY(0px)`
+          e.style.display = ""
+          p.style.height = ""
+          p.style.overflow = ""
+        })
+      }
+    })
+  }
 
   var x, y
   x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
@@ -56,7 +58,7 @@ window.addEventListener("load", () => {
 })
 
 function recreateDropdowns(verdict, platform) {
-  if (window.verdictOrder && window.verdictOrder.length > 0) {
+  if (window.verdictOrder && window.verdictOrder.length > 0 && document.getElementById("modularVerdict")) {
     const verdictSelect = document.createElement("select")
     verdictSelect.setAttribute("id", "modularVerdict")
     verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
@@ -141,7 +143,7 @@ function updateModularPayload() {
   var appIds = []
   var presort = []
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
-  const metaOrder = 'ok,stale,obsolete,defunct'.split(',')
+  const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
         (verdict === "all" || String(obj.verdict) === verdict) &&
@@ -174,6 +176,8 @@ function updateModularPayload() {
 }
 
 function renderBadgesToDiv(wallets, anchor) {
+  if (!anchor)
+    return
   var badgesHtml = ``
   wallets.forEach(obj => {
     badgesHtml += getBadge(obj)
@@ -202,12 +206,6 @@ function getBadge(wallet) {
 
   return  `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
       <div style="width:7em;position: relative;" onclick="toggleApp('${walletId}')">
-        <div id="show_${walletId}" class="card-expand-close">
-          <i class="fas fa-plus-square"></i>
-        </div>
-        <div id="hide_${walletId}" style="display:none" class="card-expand-close card-close" onclick="toggleApp()">
-          <i class="fas fa-minus-square"></i>
-        </div>
         <div style="position:relative">
           <div class="flex-r">
             <div class="app_logo">
@@ -216,7 +214,7 @@ function getBadge(wallet) {
                   : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
                 <i class="platform-logo ${ faCollection }"></i>
             </div>
-            <span class="stamp stamp-${wallet.verdict}" alt=""></span>
+            ${ wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
             ${ wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
           </div>
         </div>

@@ -3,12 +3,12 @@ wsId:
 title: Welthee Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.welthee.wallet
 appCountry: 
 released: Sep 7, 2021
-updated: 2022-05-31
-version: 2.5.2
+updated: 2022-11-01
+version: 3.0.1
 stars: 
 ratings: 
 reviews: 

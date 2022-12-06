@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: UnifiedPurse - Receive,Exchange,Sell,Trade Bitcoin
+title: UnifiedPurse - Receive,Exchang
 altTitle: 
 authors: 
 users: 100

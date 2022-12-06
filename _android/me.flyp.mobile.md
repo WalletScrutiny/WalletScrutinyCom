@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: me.flyp.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-04
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 1000
 appId: io.horizontalsystems.erium
 appCountry: 
 released: Sep 28, 2021
-updated: 2022-03-08
-version: 0.21.14
+updated: 2022-10-14
+version: 0.21.17
 stars: 
 ratings: 
 reviews: 

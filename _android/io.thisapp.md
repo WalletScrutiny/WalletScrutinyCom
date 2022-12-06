@@ -3,12 +3,12 @@ wsId:
 title: thisApp
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.thisapp
 appCountry: 
 released: Sep 27, 2018
-updated: 2022-01-01
-version: 0.19.0
+updated: 2022-10-01
+version: 0.20.1
 stars: 
 ratings: 
 reviews: 

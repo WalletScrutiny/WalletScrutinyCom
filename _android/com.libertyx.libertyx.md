@@ -10,18 +10,18 @@ appCountry: us
 released: 2015-06-05
 updated: 2021-07-28
 version: 4.1.2
-stars: 3.4
+stars: 3.1
 ratings: 427
-reviews: 267
+reviews: 286
 size: 
 website: https://libertyx.com
 repository: 
 issue: 
 icon: com.libertyx.libertyx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-09-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: libertyx

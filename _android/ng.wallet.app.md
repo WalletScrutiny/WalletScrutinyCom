@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: Wallets Africa - Seamless Digital Transactions
+title: Wallets Africa - Seamless Digi
 altTitle: 
 authors:
 - kiwilamb
@@ -11,18 +11,18 @@ appCountry:
 released: 2017-06-22
 updated: 2021-09-04
 version: '2.480'
-stars: 3.4
+stars: 2.8
 ratings: 2049
-reviews: 85
+reviews: 109
 size: 
 website: https://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: walletsafrica

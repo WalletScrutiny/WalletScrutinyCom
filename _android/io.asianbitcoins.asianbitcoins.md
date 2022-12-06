@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AsianBitcoins - Making Bitcoins Trading Simpler
+title: AsianBitcoins - Making Bitcoin
 altTitle: 
 authors: 
 users: 5000
@@ -11,16 +11,16 @@ updated: 2020-08-11
 version: 1.0.0
 stars: 5
 ratings: 3899
-reviews: 116
+reviews: 115
 size: 
 website: https://asianbitcoins.org
 repository: 
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-08-17
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

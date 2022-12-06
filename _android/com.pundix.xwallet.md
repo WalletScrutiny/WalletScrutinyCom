@@ -21,9 +21,9 @@ repository:
 issue: 
 icon: com.pundix.xwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-06-16
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

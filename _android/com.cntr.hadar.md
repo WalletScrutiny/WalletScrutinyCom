@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cntr.hadar.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 코인애드(CoinAD)- 가상화폐 전환 돈버는앱 (비트코인&이더리움)
+title: 코인애드(CoinAD)- 가상화폐 전환 돈버는앱 (비트
 altTitle: 
 authors: 
 users: 10000

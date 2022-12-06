@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kryptonio.com - Bitcoin & Crypto Wallet
+title: Kryptonio.com - Bitcoin & Cryp
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptonio.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-21
+date: 2022-07-01
 signer: 
 reviewArchive: 
 twitter: 

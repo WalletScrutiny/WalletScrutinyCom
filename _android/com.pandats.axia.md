@@ -4,13 +4,13 @@ title: Axia Investments
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
-updated: 2022-03-27
-version: 1.0.45
-stars: 4.5
+updated: 2022-10-03
+version: 1.0.49
+stars: 4.1
 ratings: 744
 reviews: 3
 size: 

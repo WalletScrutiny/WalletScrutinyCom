@@ -8,11 +8,11 @@ appId: com.asiainnovations.ace
 appCountry: ng
 idd: 1446866556
 released: 2019-01-28
-updated: 2022-05-23
-version: 35.0.0
+updated: 2022-06-15
+version: 36.0.0
 stars: 5
-reviews: 1
-size: '65144832'
+reviews: 2
+size: '67678208'
 website: https://www.ace.io
 repository: 
 issue: 

@@ -3,15 +3,15 @@ wsId:
 title: 'BTCEX: Trade Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.btcex.exchange
 appCountry: 
 released: Oct 25, 2021
-updated: 2022-05-28
-version: 0.3.41
-stars: 4.9
+updated: 2022-11-01
+version: 1.2.06
+stars: 4.7
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.btcex.com/
 repository: 

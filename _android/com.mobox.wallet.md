@@ -4,15 +4,15 @@ title: MOBOX
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.mobox.wallet
 appCountry: us
 released: 2021-02-02
-updated: 2022-05-19
-version: 1.4.4
-stars: 4.5
+updated: 2022-07-06
+version: 1.4.6
+stars: 4.7
 ratings: 2457
-reviews: 117
+reviews: 159
 size: 
 website: https://mobox.io/
 repository: 

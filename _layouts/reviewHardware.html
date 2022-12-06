@@ -48,7 +48,9 @@ layout: default
             </span>.
           </span>
 
-          {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% if page.meta != "outdated" %}
+            {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% endif %}
           {% if page.meta != "ok" %}
             {% include verdictBadge.html verdict=page.meta type='medium' %}
           {% endif %}
@@ -98,10 +100,7 @@ layout: default
 
       <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
 
-      <p>
-        <a href="#verdictExplained">Jump to verdict&nbsp;<i class="fas fa-arrow-down"></i></a>
-      </p>
-
+      {% include verdict_explained.html %}
       {% include /review/archive.html %}
       {% include /review/tweetAtProvider.html %}
       {% include /review/disclaimer.html %}
@@ -111,7 +110,6 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
         {% include /review/byAuthor.html %}
-        {% include verdict_explained.html %}
       </section>
 
       {% if page.share %}

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ferrum.kudi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-10-14
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

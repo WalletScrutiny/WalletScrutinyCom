@@ -11,7 +11,7 @@ updated: 2020-08-14
 version: 1.1.4
 stars: 4.8
 ratings: 2623
-reviews: 1372
+reviews: 1329
 size: 
 website: https://www.ieoption.com/
 repository: 

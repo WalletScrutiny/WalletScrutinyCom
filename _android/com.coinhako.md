@@ -1,6 +1,6 @@
 ---
 wsId: coinhako
-title: 'Coinhako: Buy Bitcoin, Crypto Wallet & Trading'
+title: 'Coinhako: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2022-05-28
-version: 4.3.5
-stars: 2.3
+updated: 2022-10-29
+version: 4.6.2
+stars: 2.4
 ratings: 3064
-reviews: 17
+reviews: 18
 size: 
 website: https://coinhako.com
 repository: 

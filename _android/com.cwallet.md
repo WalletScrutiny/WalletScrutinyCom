@@ -1,6 +1,6 @@
 ---
 wsId: Xapa
-title: Xapa Wallet - BTC, ETH, DOGE, LTC, DASH, ERC20
+title: 'Xapa Wallet - BTC, ETH, DOGE, '
 altTitle: 
 authors:
 - kiwilamb
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-06-04
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: WalletXapa

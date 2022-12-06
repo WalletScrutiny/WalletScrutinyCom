@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: OK Wallet-Bitcoin & Altcoin Crypto Wallet
+title: OK Wallet-Bitcoin & Altcoin Cr
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ok.crypto.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-09-16
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

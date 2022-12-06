@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dok.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-17
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

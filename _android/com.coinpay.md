@@ -1,6 +1,6 @@
 ---
 wsId: coinpayapp
-title: 'Coinpay: Buy & Send Bitcoin Fast Cryptocurrency 😇'
+title: 'Coinpay: Buy & Send Bitcoin Fa'
 altTitle: 
 authors:
 - leo
@@ -11,7 +11,7 @@ appCountry:
 released: 2020-05-26
 updated: 2020-08-23
 version: 1.0.7
-stars: 3.1
+stars: 3.2
 ratings: 29
 reviews: 14
 size: 
@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.coinpay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2021-08-19
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

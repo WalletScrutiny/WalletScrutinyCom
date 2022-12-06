@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Flashift - Exchange crypto at best rates
+title: 'Flashift - Exchange crypto at '
 altTitle: 
 authors: 
 users: 100

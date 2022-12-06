@@ -3,7 +3,7 @@ wsId:
 title: EFC Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.efc.wallet
 appCountry: 
 released: Mar 30, 2021

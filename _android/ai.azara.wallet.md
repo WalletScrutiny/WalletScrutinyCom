@@ -1,6 +1,6 @@
 ---
 wsId: azara
-title: 'Azara Crypto & Bitcoin Wallet: Buy, Sell, Exchange'
+title: 'Azara Crypto & Bitcoin Wallet:'
 altTitle: 
 authors:
 - leo

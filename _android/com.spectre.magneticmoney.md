@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Magnetic Money - exchange search
+title: Magnetic Money - exchange sear
 altTitle: 
 authors:
 - danny

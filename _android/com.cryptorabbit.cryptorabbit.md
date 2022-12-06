@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CryptoRabbt! New Free Cryptocurrency Arbitrage App
+title: CryptoRabbt! New Free Cryptocu
 altTitle: 
 authors: 
 users: 100

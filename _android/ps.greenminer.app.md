@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto - Bitcoins
+title: Crypto Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: ps.greenminer.app
 appCountry: 
 released: 2021-06-04
-updated: 2021-09-02
-version: 1.39b
-stars: 4.4
+updated: 2022-06-28
+version: 3.13.28-0d7a9f0
+stars: 
 ratings: 5347
-reviews: 339
+reviews: 
 size: 
 website: http://crypto.promo-miner.com/
 repository: 

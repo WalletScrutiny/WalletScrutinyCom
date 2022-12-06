@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: StiB P2P - Bitcoin Ethereum Decentralized Exchange
+title: StiB P2P - Bitcoin Ethereum De
 altTitle: 
 authors: 
 users: 5000

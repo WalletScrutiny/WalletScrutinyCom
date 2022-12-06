@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTrading For Bittrex
+title: ProfitTradingApp for Bittrex
 altTitle: 
 authors:
 - danny

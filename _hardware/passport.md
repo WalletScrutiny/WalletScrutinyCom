@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2020-07-01
 discontinued: 
-updated: 2021-12-31
-version: v1.0.8
+updated: 2022-08-02
+version: v1.1.0
 binaries: https://github.com/Foundation-Devices/passport-firmware/releases
 dimensions:
 - 38
@@ -24,9 +24,9 @@ repository: https://github.com/Foundation-Devices/passport-firmware
 issue: https://github.com/Foundation-Devices/passport-firmware/issues/40
 icon: passport.png
 bugbounty: https://foundationdevices.com/security/
-meta: ok
+meta: outdated
 verdict: reproducible
-date: 2022-01-10
+date: 2022-08-07
 signer: 
 reviewArchive:
 - date: 2021-12-01

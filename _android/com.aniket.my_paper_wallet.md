@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'My Paper Wallet: Bitcoin Paper Wallet Generator'
+title: 'My Paper Wallet: Bitcoin Paper'
 altTitle: 
 authors:
 - danny

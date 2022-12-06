@@ -1,6 +1,6 @@
 ---
 wsId: bitthumbglobal
-title: BitGlobal (formerly Bithumb Global)
+title: BitGlobal (formerly Bithumb Gl
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: global.bithumb.android
 appCountry: us
 released: 2019-07-05
-updated: 2021-08-05
-version: 2.6.24
-stars: 3.4
+updated: 2022-09-13
+version: 2.6.25
+stars: 3.3
 ratings: 3090
-reviews: 76
+reviews: 77
 size: 
 website: https://www.bithumb.pro
 repository: 

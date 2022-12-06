@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitfairex: Digital Assets Marketplace'
+title: 'Bitfairex: Digital Assets Mark'
 altTitle: 
 authors: 
 users: 100

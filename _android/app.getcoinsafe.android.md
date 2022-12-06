@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinsafe - Never Lose Your Crypto. Mainnet Beta
+title: Coinsafe - Never Lose Your Cry
 altTitle: 
 authors: 
 users: 100

@@ -7,8 +7,8 @@ users: 5000
 appId: com.quadency.app
 appCountry: 
 released: Oct 24, 2021
-updated: 2022-05-20
-version: 1.3.1
+updated: 2022-07-01
+version: 1.4.1
 stars: 2.2
 ratings: 
 reviews: 4

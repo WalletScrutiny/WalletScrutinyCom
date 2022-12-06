@@ -3,15 +3,15 @@ wsId:
 title: WorldPay
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.worldpay.wallet
 appCountry: 
 released: Feb 11, 2019
 updated: 2019-06-19
 version: 1.0.3
-stars: 
+stars: 2.8
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://wc-s.com/wallet
 repository: 

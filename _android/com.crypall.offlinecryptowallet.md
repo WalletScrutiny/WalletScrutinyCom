@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: THE MOST SECURE CRYPTOCURRENCY WALLET
+title: THE MOST SECURE CRYPTOCURRENCY
 altTitle: 
 authors: 
 users: 10

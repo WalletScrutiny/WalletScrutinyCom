@@ -3,7 +3,7 @@ wsId:
 title: Crypto Wallet Guard - Offline
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: co.crypto.wallet.guard
 appCountry: 
 released: 2021-05-07

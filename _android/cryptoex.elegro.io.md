@@ -1,10 +1,10 @@
 ---
 wsId: 
-title: elegro Exchange - Bitcoin and crypto exchange
+title: 'elegro Exchange - Bitcoin and '
 altTitle: 
 authors:
 - leo
-users: 500
+users: 1000
 appId: cryptoex.elegro.io
 appCountry: 
 released: 2019-06-26
@@ -20,7 +20,7 @@ issue:
 icon: cryptoex.elegro.io.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-04-25
 signer: 
 reviewArchive: 

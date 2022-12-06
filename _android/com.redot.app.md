@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Redot Exchange - Bitcoin, Ethereum, Crypto Trading
+title: 'Redot: ETH&BTC Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.redot.app
 appCountry: 
 released: 2020-03-03
-updated: 2022-05-18
-version: 1.0.53
+updated: 2022-08-04
+version: 1.0.56
 stars: 4.3
 ratings: 37
 reviews: 3

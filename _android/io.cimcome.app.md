@@ -1,18 +1,18 @@
 ---
 wsId: CoinCome
-title: COINCOME Wallet - Cryptowallet
+title: COINCOME-Cryptowallet&Rebate
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 10000
 appId: io.cimcome.app
 appCountry: bm
 released: 2020-12-09
-updated: 2021-10-22
-version: 1.0.15
+updated: 2022-09-15
+version: 2.0.3
 stars: 4.4
 ratings: 10
-reviews: 7
+reviews: 27
 size: 
 website: https://cimcome.io/
 repository: 

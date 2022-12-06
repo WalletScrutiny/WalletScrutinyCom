@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinTrends
-title: 'Bitcoin Trends: Cryptocurrency trading signals'
+title: 'Bitcoin Trends: Cryptocurrency'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-02-04
 updated: 2021-05-28
 version: '2.3'
-stars: 4.5
+stars: 4.4
 ratings: 3455
-reviews: 155
+reviews: 159
 size: 
 website: https://trading4pro.com/
 repository: 

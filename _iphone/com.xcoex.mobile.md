@@ -9,11 +9,11 @@ appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
 released: 2019-01-21
-updated: 2022-03-22
-version: 1.24.0
+updated: 2022-10-17
+version: 1.27.0
 stars: 0
 reviews: 0
-size: '58996736'
+size: '72139776'
 website: https://xcoex.com/
 repository: 
 issue: 

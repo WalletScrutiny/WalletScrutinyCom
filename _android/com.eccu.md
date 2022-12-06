@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Kointo - Wallet Bitcoin, Ethereum, ECCU
+title: Kointo - Wallet Bitcoin, Ether
 altTitle: 
 authors: 
 users: 50
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.eccu.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

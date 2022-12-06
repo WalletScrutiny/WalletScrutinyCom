@@ -4,15 +4,15 @@ title: 'Bitazza TH: Crypto Exchange'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bitazza.android
 appCountry: th
 released: 2020-09-29
-updated: 2022-06-06
-version: 2.3.1
-stars: 4.1
+updated: 2022-10-25
+version: 2.6.0
+stars: 4.4
 ratings: 5028
-reviews: 1589
+reviews: 1816
 size: 
 website: http://bitazza.com/
 repository: 

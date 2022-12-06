@@ -4,17 +4,17 @@ title: BTCC - Trade Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.btcc.hy
 appCountry: us
 released: 2020-08-04
-updated: 2022-06-01
-version: 6.2.2
+updated: 2022-09-26
+version: 6.5.1
 stars: 4.3
 ratings: 11611
-reviews: 51
+reviews: 105
 size: 
-website: https://www.btcc.com/
+website: https://www.btcc.com/en-US
 repository: 
 issue: 
 icon: com.btcc.hy.png

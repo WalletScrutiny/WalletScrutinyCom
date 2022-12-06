@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TokenBacon digital tokens wallet
+title: TokenBacon digital tokens wall
 altTitle: 
 authors: 
 users: 500
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tokenbacon.TokenBaconApp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

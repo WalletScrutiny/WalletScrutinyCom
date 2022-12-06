@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ex-money – обменять Биткоин на рубли
+title: Ex-money – обменять Биткоин на
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.exmoneyapps.ex_money.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

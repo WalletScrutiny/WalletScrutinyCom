@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.app.forgingblock.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-10-15
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

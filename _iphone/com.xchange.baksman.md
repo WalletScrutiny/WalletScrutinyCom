@@ -8,11 +8,11 @@ appId: com.xchange.baksman
 appCountry: ru
 idd: 1436169013
 released: 2018-09-21
-updated: 2022-03-05
-version: 2.2.2
+updated: 2022-06-27
+version: 2.2.3
 stars: 4.7
 reviews: 61
-size: '12940288'
+size: '73590784'
 website: 
 repository: 
 issue: 

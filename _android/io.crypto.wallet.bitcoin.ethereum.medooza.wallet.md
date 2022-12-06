@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Medooza wallet- Best Crypto wallet for android app
+title: Medooza wallet- Best Crypto wa
 altTitle: 
 authors: 
 users: 1000

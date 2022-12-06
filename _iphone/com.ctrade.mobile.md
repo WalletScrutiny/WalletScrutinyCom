@@ -8,11 +8,11 @@ appId: com.ctrade.mobile
 appCountry: us
 idd: 1542759541
 released: 2021-01-08
-updated: 2022-01-25
-version: 1.1.7
+updated: 2022-08-03
+version: 1.2.2
 stars: 4.6
 reviews: 17
-size: '32552960'
+size: '34134016'
 website: https://c-trade.com
 repository: 
 issue: 

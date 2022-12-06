@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: InvestXE.com  - Live Bitcoin Asset Trading
+title: InvestXE.com  - Live Bitcoin A
 altTitle: 
 authors:
 - danny

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.trustpocket.trustpocket.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-05
+date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 

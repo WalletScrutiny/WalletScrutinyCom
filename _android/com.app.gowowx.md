@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'WOW Exchange : Professional Cryptocurrency Trading'
+title: 'WOW Exchange : Professional Cr'
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.gowowx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 

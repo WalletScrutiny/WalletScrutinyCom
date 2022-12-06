@@ -1,6 +1,6 @@
 ---
 wsId: roqqu
-title: 'Roqqu: Buy & Sell Bitcoin and Cryptocurrency Fast'
+title: 'Roqqu: Buy & Sell Bitcoin and '
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ users: 500000
 appId: com.roqqu.app
 appCountry: 
 released: 2019-09-30
-updated: 2022-06-06
-version: 1.4.84
-stars: 3.5
+updated: 2022-09-28
+version: 1.4.97
+stars: 3.6
 ratings: 24688
-reviews: 614
+reviews: 676
 size: 
 website: https://roqqu.com
 repository: 

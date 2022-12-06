@@ -8,8 +8,8 @@ users: 10000
 appId: com.zsdk.exchange
 appCountry: 
 released: 2019-01-18
-updated: 2022-04-04
-version: 3.1.5
+updated: 2022-10-07
+version: 3.2.0
 stars: 1.9
 ratings: 187
 reviews: 45

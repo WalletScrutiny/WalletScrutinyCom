@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Wallet Latinio LTN Android v1.0.0
+title: Wallet Latinio LTN Android v1.
 altTitle: 
 authors: 
 users: 50

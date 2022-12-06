@@ -1,0 +1,25 @@
+short: Plain Keys
+title: Plain Keys when spending
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This product eventually requires sharing private key material.
+question: Does the device hide your keys from other devices at all time?
+details: >
+  These devices keep the user's private key sealed until the seal is broken
+  or removed.
+
+  
+  In order for a transfer to commence, the private keys
+  have to be brought onto a different system that might not be secure.
+
+
+  There are many viruses known
+  to look for Bitcoin private keys in memory or hard drives.
+
+
+  While this aspect should not leave room for major exit scams, the handling of
+  such devices is delicate and prone to loss of funds to hackers.
+
+
+  To redeem your funds safely, create your transaction on an offline machine and
+  verify the signed transaction on a different machine before broadcasting it.

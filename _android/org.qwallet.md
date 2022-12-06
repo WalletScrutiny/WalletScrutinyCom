@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Q-Wallet | Wallet For Ethereum & ERC Tokens
+title: Q-Wallet | Wallet For Ethereum
 altTitle: 
 authors: 
 users: 10000

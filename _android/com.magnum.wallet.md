@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Magnum Wallet – Bitcoin, Ethereum, Crypto Exchange
+title: Magnum Wallet – Bitcoin, Ether
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry:
 released: 2019-04-23
 updated: 2019-08-29
 version: 1.0.12
-stars: 4.5
+stars: 4.2
 ratings: 232
-reviews: 12
+reviews: 14
 size: 
 website: https://magnumwallet.co
 repository: 
