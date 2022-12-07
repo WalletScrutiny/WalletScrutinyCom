@@ -60,4 +60,4 @@ Build instructions are all on the blog post noted above.
 
 ## Analysis 
 
-Unlike the {% include walletLink.html wallet='hardware/seedsigner' %} or the {% include walletLink.html wallet='hardware/pitrezor' %}, this device does not have a screen display. It is a **do-it-yourself** project and all the instructions are documented. The project has **not seen any updates beyond 2017**.   
+Unlike the {% include walletLink.html wallet='hardware/seedsigner' %} or the {% include walletLink.html wallet='hardware/pitrezor' %}, this device does not have a display. It is a **do-it-yourself** project and all the instructions are documented. The project has **not seen any updates beyond 2017**.   
