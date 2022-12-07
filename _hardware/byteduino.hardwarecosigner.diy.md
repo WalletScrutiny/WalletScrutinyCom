@@ -21,8 +21,8 @@ issue:
 icon: byteduino.hardwarecosigner.diy.png
 bugbounty: 
 meta: obsolete
-verdict: diy
-date: 2022-05-23
+verdict: nobtc
+date: 2022-12-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -52,5 +52,5 @@ Below the description, there are instructions on how to use the Arduino IDE, dow
 
 ## Analysis 
 
-This project's last commit was made in 2020.
+This project's last commit was made in 2020. Byteball is an altcoin that does not support Bitcoin.
 

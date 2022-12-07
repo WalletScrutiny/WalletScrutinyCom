@@ -24,8 +24,8 @@ issue:
 icon: waltonchain.bamboo.png
 bugbounty: 
 meta: obsolete
-verdict: plainkey
-date: 2022-05-23
+verdict: vapor
+date: 2022-12-07
 signer: 
 reviewArchive: 
 twitter: Waltonchain
@@ -35,6 +35,10 @@ social:
 - https://t.me/waltonchaincommunity_cn
 
 ---
+
+## Updated Verdict 2022-12-07
+
+Given the lack of a product plus some scam accusations on social media, this product is best categorized as vaporware.
 
 ## Background
 
