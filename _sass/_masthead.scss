@@ -6,12 +6,11 @@
   position: relative;
   // border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
+  animation-delay: 0.15s;
   z-index: 20;
-  background-color:var(--nav);
-  
+  background-color: var(--nav);
 
   &__inner-wrap {
     @include container;
@@ -34,13 +33,172 @@
 }
 
 .masthead__menu {
-
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 20px;
   align-items: center;
   max-width: 100vw;
-  // justify-content: end;
-  
+  .wallet-search {
+    color: var(--permanent-white);
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    .searchbar {
+      font-size: 1rem;
+      padding: 5px;
+      height: 35px;
+      width: calc(100% - 2px);
+      margin: auto;
+      position: relative;
+      box-shadow: 0 0 0 1px var(--shadow-3);
+      border-radius: 3px;
+      width: 100%;
+      margin-top: 6px;
+      cursor: pointer;
+      transition: 0.1s linear;
+      &:focus,
+      &:active {
+        outline: none;
+        box-shadow: 0 0 0 1px var(--text);
+        &::after {
+          opacity: 0;
+        }
+      }
+      &::after {
+        pointer-events: none;
+        content: "Search wallets...";
+        opacity: 0.4;
+        position: absolute;
+        margin: auto;
+        line-height: 24px;
+        margin-left: 5px;
+        transition: 0.1s linear;
+      }
+      &.active {
+        &::after {
+          content: "";
+        }
+      }
+    }
+    .search-results {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      max-height: 40vh;
+      grid-column: 1/3;
+      grid-row: 2/3;
+      overflow: hidden scroll;
+      background: var(--white, var(--white));
+      box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      scrollbar-width: thin;
+      li {
+        padding: 10px;
+        margin: 0;
+        position: relative;
+        z-index: 1;
+        &:not(:last-child) {
+          box-shadow: 0px 1px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
+        }
+        &.actionable {
+          opacity: 0;
+          transform: translateX(20px);
+          animation: slideAcrossFadeIn 0.2s ease-in forwards 1;
+          @keyframes slideAcrossFadeIn {
+            to {
+              opacity: 1;
+              transform: translateX(0px);
+            }
+          }
+        }
+        .wallet-icon {
+          max-height: calc(2rem + 4px);
+          max-width: calc(2rem + 4px);
+          border-radius: 25%;
+          background-color: var(--white);
+          box-shadow: 0 0 0 1px var(--white);
+        }
+        .badge {
+          font-weight: 800;
+          text-transform: uppercase;
+          font-size: 0.6rem;
+          box-shadow: 0 0 2px 0;
+          padding: 1px 0.5rem;
+          text-align: center;
+          border-radius: 100px;
+          background: var(--white);
+        }
+        &:hover,
+        &:active,
+        &:not(:last-child):hover,
+        &:not(:last-child):active {
+          &::before {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 4px;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            animation: highlightListItem 0.2s ease forwards 1;
+          }
+        }
+        &:last-child:hover,
+        &:last-child:active {
+          box-shadow: inset 4px 0 0 0 var(--accent-text);
+        }
+        &:focus {
+          background: var(--accent);
+        }
+        &:not(.-hom) {
+          .result-pl-inner > span:not(.badge-2),
+          .-hom .result-pl-inner > span:not(.badge-2) {
+            opacity: 0.7;
+            transition: 0.2s ease;
+          }
+          &:hover {
+            .result-pl-inner > span:not(.badge-2),
+            .-hom .result-pl-inner:hover > span:not(.badge-2) {
+              opacity: 1;
+            }
+          }
+        }
+        @keyframes highlightListItem {
+          from {
+            box-shadow: inset 0px 0 0 0 var(--accent-text), 0px 0px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
+          }
+          to {
+            box-shadow: inset 4px 0 0 0 var(--accent-text), 0px 1px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
+          }
+        }
+      }
+      &.visible {
+        position: absolute;
+        background: var(--nav);
+        top: 100%;
+        width: 550px;
+        max-height: 400px;
+        overflow: scroll;
+        max-width: 100vw;
+        // using a before pseudo element for easier inspection
+        &::before {
+          position: fixed;
+          content: "";
+          height: 100vh;
+          width: 100vw;
+          background: var(--body);
+          top: 50px;
+          left: 0;
+          z-index: -1;
+          opacity: 0.75;
+          backdrop-filter: blur(10px);
+        }
+      }
+    }
+  }
+
   ul {
     margin: 0 0 0 auto;
     padding: 0;
@@ -49,15 +207,14 @@
   }
 }
 
-
 .masthead-logo {
   display: block;
   padding: 10px;
-  height: 90px;
-  min-width: 120px;
+  height: 45px;
+  // min-width: 120px;
 }
 
-.masthead-logo-link:hover{
+.masthead-logo-link:hover {
   border: 0;
 }
 

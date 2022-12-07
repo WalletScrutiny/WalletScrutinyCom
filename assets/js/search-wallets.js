@@ -69,7 +69,6 @@ function focusResults(e) {
     document.querySelectorAll(".results-list")[0].querySelectorAll(".li")[0].focus()
   }
 }
-window.temporarySearchValue = ""
 function searchCatalogue(input) {
   const activityIndicationClearTrigger = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
   const result = document.createElement("ul")

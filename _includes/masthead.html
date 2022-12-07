@@ -5,7 +5,11 @@
 {% endif %}>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-        <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><img class="masthead-logo" src="{{ base_path }}/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
+      <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><img class="masthead-logo" src="{{ base_path }}/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
+      <div class="wallet-search">
+        <div class="searchbar" contenteditable="true"></div>
+        <ul class="search-results results-target"></ul>
+      </div>
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
@@ -23,7 +27,7 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-  </div>
+  </div> 
 </div>
 
 <script>
@@ -41,3 +45,4 @@
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
   }
 </script>
+<script src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>
