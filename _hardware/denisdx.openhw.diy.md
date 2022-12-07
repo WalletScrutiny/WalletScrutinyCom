@@ -34,6 +34,8 @@ social:
 
 From the [GitHub page:](https://github.com/DenisDx/openHW)
 
+> Open hardware wallet. Supports Arduino AVR / ESP/ STM chips (atmega328 included), Emercoin / Bitcoin / Ethereum etc compatible
+>
 > OpenHW is an open-source free-licensed project aimed at developing a universal hardware wallet code that supports a wide range of computer chips (including the weakest ones) as well as a wide range of popular boards The main emphasis is on the simplicity of program code integration, simplicity of building and configuring. However, the cryptography used to preserve sensitive data is strong enough to ensure the security of the data at an industrial level if the wallet used correctly.
 >
 > One of the scenarios for using this code is when the end user buys the device compatible with the code and flashes it himself. An alternative is to buy a device specially designed for use with this firmware, but with the subsequent flashing of the code by the user himself.

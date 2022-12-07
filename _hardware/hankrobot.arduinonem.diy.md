@@ -22,8 +22,8 @@ issue:
 icon: hankrobot.arduinonem.diy.png
 bugbounty: 
 meta: obsolete
-verdict: diy
-date: 2022-05-26
+verdict: nobtc
+date: 2022-12-07
 signer: 
 reviewArchive: 
 twitter: 
