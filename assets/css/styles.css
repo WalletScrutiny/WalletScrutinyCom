@@ -344,7 +344,7 @@ pre.highlight code {
   overflow: hidden;
   box-shadow: 0px 6px 10px -6px var(--shadow-3);
   background-color: var(--dark-grey);
-  margin: .15rem;
+  margin: .75rem;
 }
 
 .press img {
