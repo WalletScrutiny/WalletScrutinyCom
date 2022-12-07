@@ -2,27 +2,46 @@ function exitSearchUI() {
   const ui = document.querySelector(".results-target")
   ui.innerHTML = ""
   ui.classList.remove("visible")
+  document.body.classList.remove("search-ui-active")
 }
-document.querySelector(".results-target").addEventListener("click", () => {
-  exitSearchUI()
+document.querySelectorAll(".exit-search-target").forEach((ele) => {
+  ele.addEventListener("click", () => {
+    exitSearchUI()
+  })
+})
+document.querySelectorAll(".search-trigger-target").forEach((ele) => {
+  ele.addEventListener("click", () => {
+    searchTrigger()
+  })
 })
 document.querySelector(".searchbar").addEventListener("input", () => {
   window.searchTerm = document.querySelector(".searchbar").innerHTML
   searchTrigger()
 })
 document.querySelector(".searchbar").addEventListener("click", () => {
-  searchTrigger()
+  document.querySelector(".search-controls").classList.add("hint-return")
+  // searchTrigger()
 })
 function searchTrigger() {
-  if (window.searchTerm?.length > 0) { document.querySelector(".searchbar").classList.add("active") }
-  else { document.querySelector(".searchbar").classList.remove("active") }
+  if (window.searchTerm?.length > 0) {
+    document.querySelector(".wallet-search").classList.add("active")
+    document.querySelector(".search-controls").classList.add("working")
+    document.querySelector(".search-controls").classList.add("edited")
+    document.querySelector(".search-controls").classList.remove("hint-return")
+  }
+  else {
+    document.querySelector(".wallet-search").classList.remove("active")
+    document.querySelector(".search-controls").classList.remove("working")
+  }
 
   clearTimeout(window.walletSearchTimeoutTrigger)
-  window.walletSearchTimeoutTrigger = setTimeout(() => { searchCatalogueNav(window.searchTerm) }, 200)
+  if (window.searchTerm?.length > 0) {
+    window.walletSearchTimeoutTrigger = setTimeout(() => { searchCatalogueNav(window.searchTerm) }, 200)
+  }
 }
 window.temporarySearchValue = ""
 function searchCatalogueNav(input) {
-  const activityIndicationClearTrigger = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
+  document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
   const term = input.trim().toUpperCase()
@@ -44,9 +63,6 @@ function searchCatalogueNav(input) {
             if (matchCounter == 0) {
               result.innerHTML = ""
             }
-
-            activityIndicationClearTrigger.classList.remove("fa-times")
-            activityIndicationClearTrigger.classList.add("fa-circle-notch")
             const walletRow = document.createElement("li")
             if (matchCounter < 10) {
               walletRow.style['animation-delay'] = matchCounter * .2 + 's'
@@ -65,7 +81,7 @@ function searchCatalogueNav(input) {
               det = "-hom"
             }
             walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
-
+            document.querySelector(".search-controls").classList.remove("working")
             result.append(walletRow)
             matchCounter++
           }

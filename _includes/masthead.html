@@ -8,7 +8,12 @@
       <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><img class="masthead-logo" src="{{ base_path }}/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
       <div class="wallet-search">
         <div class="searchbar" contenteditable="true"></div>
-        <ul class="search-results results-target"></ul>
+        <div class="search-controls">
+          <i class="fas fa-circle-notch"></i>
+          <i class="enter search-trigger-target" data-symbol="⏎"></i>
+          <i class="fas fa-times exit-search-target"></i>
+        </div>
+        <ul class="search-results results-target exit-search-target"></ul>
       </div>
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>

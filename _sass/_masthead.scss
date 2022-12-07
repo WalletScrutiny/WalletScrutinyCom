@@ -52,16 +52,15 @@
       width: calc(100% - 2px);
       margin: auto;
       position: relative;
-      box-shadow: 0 0 0 1px var(--shadow-3);
+      box-shadow: 0 0 0 1px var(--text);
       border-radius: 3px;
-      width: 100%;
-      margin-top: 6px;
+      opacity: .6;
       cursor: pointer;
       transition: 0.1s linear;
       &:focus,
       &:active {
         outline: none;
-        box-shadow: 0 0 0 1px var(--text);
+        opacity: 1;
         &::after {
           opacity: 0;
         }
@@ -76,9 +75,46 @@
         margin-left: 5px;
         transition: 0.1s linear;
       }
-      &.active {
+    }
+    &.active,
+    &.edited {
+      .searchbar {
         &::after {
+          opacity: 0;
           content: "";
+        }
+      }
+      .search-controls {
+        &.hint-return {
+          i.enter {
+            display: inline-block;
+            &::before {
+              font-style: normal;
+              content: attr(data-symbol);
+            }
+          }
+        }
+      }
+    }
+    .search-controls {
+      position: absolute;
+      right: 10px;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      i {
+        display: none;
+        cursor:pointer;
+      }
+      &.working {
+        .fa-circle-notch {
+          display: inline-block;
+          animation: loader-spin 1s linear forwards infinite;
+        }
+      }
+      &.edited {
+        .fa-times {
+          display: inline-block;
         }
       }
     }
@@ -94,6 +130,7 @@
       box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
       border-radius: 5px;
       scrollbar-width: thin;
+      position: absolute;
       li {
         padding: 10px;
         margin: 0;
@@ -175,7 +212,6 @@
         }
       }
       &.visible {
-        position: absolute;
         background: var(--nav);
         top: 100%;
         width: 550px;
