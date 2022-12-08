@@ -17,7 +17,7 @@ website: >-
 shop: 
 country: 
 price: 
-repository: 
+repository: https://github.com/LiquidEOS/eoshwwallet
 issue: 
 icon: liquideos.rpi.png
 bugbounty: 
