@@ -10,6 +10,7 @@ document.querySelector(".exit-search-target").addEventListener("click", () => {
 })
 document.querySelector(".reset-search").addEventListener("click", (event) => {
   event.stopPropagation()
+  window.searchTerm = ""
   document.querySelector(".searchbar").value = ""
   document.querySelector(".search-controls").classList.remove("hint-return")
   document.querySelector(".wallet-search").classList.remove("active")
@@ -34,15 +35,18 @@ document.querySelector(".searchbar").addEventListener("keyup", (e) => {
   }
 })
 document.querySelector(".searchbar").addEventListener("click", () => {
-  document.querySelector(".search-controls").classList.add("hint-return")
-  // searchTrigger()
+  if (window.searchTerm?.length > 0) {
+    document.querySelector(".search-controls").classList.add("hint-return")
+  } else {
+    document.querySelector(".search-controls").classList.remove("hint-return")
+  }
 })
 function searchTrigger() {
   if (window.searchTerm?.length > 0) {
     document.querySelector(".wallet-search").classList.add("active")
     document.querySelector(".search-controls").classList.add("working")
     document.querySelector(".search-controls").classList.add("edited")
-    document.querySelector(".search-controls").classList.remove("hint-return")
+    // document.querySelector(".search-controls").classList.remove("hint-return")
   }
   else {
     document.querySelector(".wallet-search").classList.remove("active")
@@ -122,10 +126,10 @@ function makeCompactResultsHTML(w) {
     <img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' />
       <span class="result-title-wrapper">
         <span>${w.altTitle || w.title}</span>
-        <small><i class="${window.platforms[w.folder].css}"></i> <span class="category">${w.folder}</span></small>
+        <small><i class="${window.platforms[w.folder].css}"></i> <span class="category">${w.category}</span></small>
       </span>
       <span class="badge">
-      <span>${window.platforms[verdicts[w.verdict].short].category}</span>
+      <span>${w.verdict}</span>
     </span>
     </a>`
   return result
