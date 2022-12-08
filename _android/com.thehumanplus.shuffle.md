@@ -21,7 +21,7 @@ icon: com.thehumanplus.shuffle.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-07-14
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: hupayx
@@ -43,8 +43,8 @@ We tried out the app and created an account. To create or backup a wallet, we fi
 Users cannot send out assets without completing KYC verification:
 
 > 1. Submit a photo of your passport or ID card.
-1. Submit a photo of your face.
+> 2. Submit a photo of your face.
 
-We searched the linked GitHub profile, but did not find results pertaining to the wallet's reproducibility.
+We searched the linked GitHub profile, but did not find results pertaining to the wallet's repository.
 
-There is no indication that this product's source code is up for review.
+There is no indication that this product's source code is available.

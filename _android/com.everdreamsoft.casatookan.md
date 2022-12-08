@@ -20,8 +20,8 @@ issue:
 icon: com.everdreamsoft.casatookan.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2022-11-02
+verdict: nosource
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: everdreamsoft

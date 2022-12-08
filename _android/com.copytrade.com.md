@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: com.copytrade.com.png
 bugbounty: 
-meta: ok
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2022-07-14
 signer: 
 reviewArchive: 
@@ -29,6 +29,12 @@ social:
 redirect_from: 
 
 ---
+
+## Updated Review 
+
+The Google Play page now shows a 404.
+
+## Previous Review 2022-12-08
 
 Attempting to use this app returns an error:
 
