@@ -20,8 +20,8 @@ issue:
 icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2022-07-01
+verdict: nobtc
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: bitcoin_asia
@@ -33,7 +33,16 @@ redirect_from:
 
 ---
 
-## App Description
+## Updated Verdict 2022-12-08
+
+We downloaded the app and the 'wallet' option displayed '0 BTCA' after registering.
+There was also another option to 'Buy BTCA'. 
+
+This seems more like an app that is used to pay for travel services but BTC is converted to BTCA to pay for the app. There are affiliated and little known exchanges when tapping on 'Buy BTCA' namely: XT.com, IndoEx and ConsBit. 
+
+Although there seems to be a 'wallet' (albeit for BTCA, and with no QR code, no private keys) we now have doubts whether this is a wallet at all. Without digging deeper, it is certain that this app does not support BTC.
+
+## Previous Verdict 2022-07-01
 
 > BitcoinAsia aims to transform the travel & tourism industry through an interesting method. It brings every service that you could ever need into one place, ensuring that you get to do all you need to do without hopping from one platform to another. With this product, everyone will be able to make seamless payments for the entirety of their travel journey. While there have been services that make it easy to do just one thing, BitcoinAsia brings these services altogether.<br />
 The platform also provides interesting payment structures, thanks to its incorporation of cryptocurrencies. <br />

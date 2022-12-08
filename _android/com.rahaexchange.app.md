@@ -38,7 +38,9 @@ Registration involves account verification and high security protocols are imple
 
 > Security: Highest security protocols and standards have been implemented by the Raha Exchange team to ensure the protection of our customer’s assets. Furthermore, to better ensure our users, all of the participants within the market will be verified
 >
-> Simple verification: In Raha Exchange you, the esteemed user will be verified and registered with the help of our professional support team.
+> Simple verification: In Raha Exchange you, the esteemed user will be verified and registered with the help of our professional support team. 
+
+Furthermore, the account of the user is synchronized between the mobile app and a web app. Tapping the wallet icon on the mobile app brings up a login screen. There are many indications that the custodian here is the exchange itself.
 
 We searched the website although could find **no evidence that private keys are held by the user.**
 

@@ -15,13 +15,13 @@ ratings:
 reviews: 3
 size: 
 website: https://citadel.one/
-repository: https://github.com/citadeldao
+repository: 
 issue: 
 icon: one.citadel.mobile.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-01
+verdict: nosource
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: CitadelDAO
@@ -35,6 +35,16 @@ social:
 redirect_from: 
 
 ---
+
+## Updated verdict 2022-12-08
+
+- The multicurrency wallet generated a 12-word seed upon first initialization of the app. 
+- It is possible to add a BTC wallet via, importing a file, entering a seed phrase or by importing a private key. 
+- We were **not able to find a GitHub repository for the specific app**. There is an [organizational](https://github.com/citadeldao?tab=repositories) account.
+- There were no links to a specific GitHub repository and no overt claims that it is source-available.
+
+
+## Previous Update 2022-07-01
 
 Citadel One is a staking platform that also serves as a multi-currency crypto wallet.
 

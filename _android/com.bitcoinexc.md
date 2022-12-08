@@ -41,5 +41,7 @@ Because the app advertises a cold wallet and the providers protecting your keys,
 
 > You hereby agree that, FMCPay shall have the right to terminate all or part of FMCPay Service to you, temporarily freeze or permanently freeze (cancel) the authorizations of your account on FMCPay at FMCPay's sole discretion, without any prior notice, for whatsoever reason, and FMCPay shall not be liable to you; however, FMCPay shall have the right to keep and use the transaction data, records and other information that is related to such account. 
 
+The app allows multiple coin wallets to be created. However, none of these allow for backing up the private keys. Once the user finishes the registration, additional features will be made available after passing identity verification. 
+
 This app advertises a cold wallet and claims that the providers protect your keys with "Secure Enclave" technology. We feel that this is enough to qualify it as **custodial.** 
 

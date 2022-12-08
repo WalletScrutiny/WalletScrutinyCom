@@ -20,8 +20,8 @@ issue:
 icon: network.gridlock.AppGridlock.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-07-01
+verdict: nobtc
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: GridlockCrypto
@@ -30,6 +30,23 @@ social:
 redirect_from: 
 
 ---
+
+## Updated Verdict 2022-12-08
+
+Upon sign-up to the service, the app generates multiple wallets. We encountered an error and a Solana wallet was the only wallet created. 
+
+We had to verify our email before we could create wallets for other coins: BUSD, Chainlink, Cronos, Dai, Ethereum, Polkadot, Polygon, Shiba Inu, Tether, USD Coin, Uniswap and Wrapped Bitcoin. 
+
+We were not able to find a BTC wallet. 
+
+There were features which we were not able to verify since it would require additional registration steps. But on the surface, this app does not provide a BTC wallet.
+
+Found via [FAQ:](https://docs.gridlock.network/faq/general-faq?q=bitcoin) 
+
+> Which cryptocurrencies does Gridlock support?
+> Currently, Gridlock supports Ethereum and Solana, but support for all other cryptocurrencies, including Bitcoin, is coming soon.
+
+## Previous Verdict 2022-07-01
 
 > Gridlock is the easiest way to securely store cryptocurrencies and realize the potential of blockchain technology. Gridlock is not only more secure than other cryptocurrency wallets, but it also gives you complete control over your crypto.
 > 

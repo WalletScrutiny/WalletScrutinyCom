@@ -20,8 +20,8 @@ issue:
 icon: com.app.awqsome.ennowallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-07-08
+verdict: nobtc
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: ennowallet
@@ -34,6 +34,12 @@ social:
 redirect_from: 
 
 ---
+
+## Updated Verdict 2022-12-08
+
+We previously thought that the wallet supports BTC because the wording on the [documentation](https://ennowallet.com/learn/getting-started/adding-funds-to-your-wallet/) made us believe so. However, upon retesting, we found that it only supports the following: Waves, Avalance C-Chain, Ethereum and Binance Smart Chain. There were no options for BTC.
+
+## Previous Verdict
 
 This app is a crypto wallet which allows users to "store, manage, swap, stake, buy, sell digital assets." In the final paragraph of the app's description, it claims to be a non-custodial wallet.
 
