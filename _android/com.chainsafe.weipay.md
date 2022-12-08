@@ -20,8 +20,8 @@ issue:
 icon: com.chainsafe.weipay.png
 bugbounty: 
 meta: obsolete
-verdict: nobtc
-date: 2022-06-29
+verdict: fewusers
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -16,7 +16,7 @@ reviews:
 size: 
 website: https://coingrig.com
 repository: https://github.com/coingrig/coingrig-wallet
-issue: 
+issue: https://github.com/coingrig/coingrig-wallet/issues/22
 icon: com.coingrig.png
 bugbounty: 
 meta: ok
