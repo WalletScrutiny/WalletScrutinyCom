@@ -19,7 +19,7 @@ issue:
 icon: com.devere.dcx.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosendreceive
 date: 2022-12-06
 signer: 
 reviewArchive: 
@@ -48,8 +48,9 @@ From [23. Deposits and withdrawals:](https://www.devere-crypto.com/faq)
 
 > You may initiate a transfer from your bank account to fund your Wallet through the banking facility found on the FIAT section in the deVere Crypto app. Fees may apply to deposits and withdrawals from your Currency Wallet. All fees will be clearly disclosed in your account. For deposits, deVere Crypto will credit your Wallet a corresponding amount of Fiat Currency after funds are delivered to deVere Investment, typically within two to three business days after you authorise a deposit. For withdrawals, deVere Investment will immediately debit your Wallet when you authorise a withdrawal and funds will typically settle to you within two to three business days. Bank fees are netted out of transfers to or from deVere Investment. We will not process a transfer if associated bank fees exceed the value of the transfer.
 
-The FAQ states you can send digital coins to other users:
+The [FAQ](https://devere-crypto.com/faq) states you can send digital coins to other users:
 
 > Yes, the app allows you to send to, as well as receive digital coins from other deVere Crypto users.
 
-While this app can be used for trading and storing cryptocurrencies, you are not in control of your private keys. This is a **custodial** offering.
+While this app can be used for trading and storing cryptocurrencies, you are not in control of your private keys. When we retested the app, it is not possible to deposit directly using an address. An option to send (Bitcoin) is only made available if the account is funded. Funding the account requires passing through KYC. So, while this app does have the appearance of a custodial service, it **cannot send and receive** in the same sense as a regular Bitcoin app. You can only send to *other deVere app users.* 
+
