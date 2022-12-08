@@ -33,7 +33,7 @@ Numbrs is a Swiss-based self-custodial wallet.
 
 > Securely store your Bitcoins in Switzerland. The Numbrs Bitcoin Account is the new standard for highly secure self-custody.
 
-With the Numbrs Bitcoin Account, your Bitcoins belong to you and you alone. The Numbrs Bitcoin Account provides you with full control over your Private Key, so your Bitcoins are truly yours and fully protected in Switzerland.
+> With the Numbrs Bitcoin Account, your Bitcoins belong to you and you alone. The Numbrs Bitcoin Account provides you with full control over your Private Key, so your Bitcoins are truly yours and fully protected in Switzerland.
 
 [Here](https://www.numbrs.com/terms-and-conditions-numbrs-app/) is what the site's TOS says about security:
 
@@ -45,4 +45,4 @@ Upon closing your account, Numbrs will keep a copy of your personal data only to
 
 ## Verdict
 
-We could not find any reviewable source code for this app.
+While the provider claims this product to be self-custodial, we could not find source code to verify this.
