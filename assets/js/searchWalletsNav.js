@@ -4,19 +4,33 @@ function exitSearchUI() {
   ui.classList.remove("visible")
   document.body.classList.remove("search-ui-active")
 }
-document.querySelectorAll(".exit-search-target").forEach((ele) => {
-  ele.addEventListener("click", () => {
-    exitSearchUI()
-  })
+document.querySelector(".exit-search-target").addEventListener("click", () => {
+  exitSearchUI()
+})
+document.querySelector(".reset-search").addEventListener("click", (event) => {
+  event.stopPropagation()
+  document.querySelector(".searchbar").value = ""
+  document.querySelector(".search-controls").classList.remove("hint-return")
+  document.querySelector(".wallet-search").classList.remove("active")
+  document.querySelector(".search-controls").classList.remove("working")
+  document.querySelector(".search-controls").classList.remove("edited")
+  exitSearchUI()
 })
 document.querySelectorAll(".search-trigger-target").forEach((ele) => {
   ele.addEventListener("click", () => {
     searchTrigger()
   })
 })
+document.querySelector(".searchbar").value = ""
 document.querySelector(".searchbar").addEventListener("input", () => {
-  window.searchTerm = document.querySelector(".searchbar").innerHTML
+  window.searchTerm = document.querySelector(".searchbar").value
   searchTrigger()
+})
+document.querySelector(".searchbar").addEventListener("keyup", (e) => {
+  if (e.key === 'Enter' || e.keyCode === 13) {
+    window.searchTerm = document.querySelector(".searchbar").value
+    searchTrigger()
+  }
 })
 document.querySelector(".searchbar").addEventListener("click", () => {
   document.querySelector(".search-controls").classList.add("hint-return")
@@ -32,6 +46,7 @@ function searchTrigger() {
   else {
     document.querySelector(".wallet-search").classList.remove("active")
     document.querySelector(".search-controls").classList.remove("working")
+    document.querySelector(".search-controls").classList.remove("edited")
   }
 
   clearTimeout(window.walletSearchTimeoutTrigger)
@@ -56,7 +71,7 @@ function searchCatalogueNav(input) {
 
           if (matchCounter < 1)
             result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
-
+          document.querySelector(".search-controls").classList.remove("working")
           let index = searchableTerms.toLocaleUpperCase().indexOf(term)
 
           if (index !== -1) {

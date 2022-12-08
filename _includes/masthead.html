@@ -7,11 +7,11 @@
     <div class="masthead__menu">
       <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><img class="masthead-logo" src="{{ base_path }}/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
       <div class="wallet-search">
-        <div class="searchbar" contenteditable="true"></div>
+        <input class="searchbar" type="text" placeholder="Search wallets..." />
         <div class="search-controls">
           <i class="fas fa-circle-notch"></i>
           <i class="enter search-trigger-target" data-symbol="⏎"></i>
-          <i class="fas fa-times exit-search-target"></i>
+          <i class="fas fa-times reset-search"></i> 
         </div>
         <ul class="search-results results-target exit-search-target"></ul>
       </div>
@@ -27,7 +27,7 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li><a class="theme-parent" onclick="toggleTheme()"><i class="fas fa-moon">&nbsp;<label>dark</label></i><i class="fas fa-sun">&nbsp;<label>light</label></i></a></li>
+          <li><a class="theme-parent" onclick="toggleTheme()"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

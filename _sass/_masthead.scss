@@ -15,6 +15,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    padding: 5px 0;
     // padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
@@ -52,11 +53,16 @@
       width: calc(100% - 2px);
       margin: auto;
       position: relative;
-      box-shadow: 0 0 0 1px var(--text);
+      box-shadow: 0 0 0 0;
       border-radius: 3px;
       opacity: .6;
+      text-overflow: ellipsis;
+      overflow: hidden;
       cursor: pointer;
       transition: 0.1s linear;
+      border: none;
+      background: var(--white);
+      color: var(--text);
       &:focus,
       &:active {
         outline: none;
@@ -71,7 +77,6 @@
         opacity: 0.4;
         position: absolute;
         margin: auto;
-        line-height: 24px;
         margin-left: 5px;
         transition: 0.1s linear;
       }
@@ -79,6 +84,8 @@
     &.active,
     &.edited {
       .searchbar {
+        box-shadow: 0 0 0 1px var(--text);
+        // background: transparent;
         &::after {
           opacity: 0;
           content: "";
@@ -102,6 +109,8 @@
       display: flex;
       gap: 15px;
       align-items: center;
+      background: var(--nav);
+      padding-left: 10px;
       i {
         display: none;
         cursor:pointer;
