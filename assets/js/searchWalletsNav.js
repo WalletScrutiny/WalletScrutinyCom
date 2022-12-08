@@ -3,6 +3,7 @@ function exitSearchUI() {
   ui.innerHTML = ""
   ui.classList.remove("visible")
   document.body.classList.remove("search-ui-active")
+  document.querySelector(".wallet-search").classList.remove("active")
 }
 document.querySelector(".exit-search-target").addEventListener("click", () => {
   exitSearchUI()
@@ -117,17 +118,16 @@ function makeCompactResultsHTML(w) {
   let result = ""
   const basePath = w.base_path || ""
   var analysisUrl = `${basePath}${w.url}`
-  result += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';"
-  href='${analysisUrl}'>
-  <img src='${w.icon
-      ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}`
-      : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' />
-<span>${w.altTitle || w.title}</span>
-<span class="badge-2 ${w.verdict}">
-    <i class="${window.platforms[w.folder].css}"></i>
-    <span><nobr>${verdicts[w.verdict].short}</nobr></span>
-</span>
-</a>`
+  result += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
+    <img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' />
+      <span class="result-title-wrapper">
+        <span>${w.altTitle || w.title}</span>
+        <small><i class="${window.platforms[w.folder].css}"></i> <span class="category">${w.folder}</span></small>
+      </span>
+      <span class="badge">
+      <span>${window.platforms[verdicts[w.verdict].short].category}</span>
+    </span>
+    </a>`
   return result
 }
 function searchScrollToTop() {

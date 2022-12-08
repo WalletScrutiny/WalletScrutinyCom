@@ -48,14 +48,14 @@
     align-items: center;
     .searchbar {
       font-size: 1rem;
-      padding: 5px;
+      padding: 5px 10px;
       height: 35px;
       width: calc(100% - 2px);
       margin: auto;
       position: relative;
       box-shadow: 0 0 0 0;
       border-radius: 3px;
-      opacity: .6;
+      opacity: 0.6;
       text-overflow: ellipsis;
       overflow: hidden;
       cursor: pointer;
@@ -103,17 +103,22 @@
         }
       }
     }
+    &.active {
+      .search-controls {
+        background: var(--white);
+      }
+    }
     .search-controls {
       position: absolute;
       right: 10px;
       display: flex;
       gap: 15px;
       align-items: center;
-      background: var(--nav);
+      color: var(--text);
       padding-left: 10px;
       i {
         display: none;
-        cursor:pointer;
+        cursor: pointer;
       }
       &.working {
         .fa-circle-notch {
@@ -166,15 +171,30 @@
           background-color: var(--white);
           box-shadow: 0 0 0 1px var(--white);
         }
+        .result-title-wrapper {
+          display: grid;
+          > span {
+            font-size: 16px;
+            font-weight: 500;
+          }
+          small {
+            font-size: 13px;
+            line-height: 13px;
+            opacity: 0.6;
+          }
+        }
         .badge {
           font-weight: 800;
           text-transform: uppercase;
           font-size: 0.6rem;
-          box-shadow: 0 0 2px 0;
-          padding: 1px 0.5rem;
+          // box-shadow: 0 0 2px 0;
+          padding: 3px 0.5rem;
           text-align: center;
-          border-radius: 100px;
+          border-radius: 3px;
           background: var(--white);
+          span {
+            color: var(--text);
+          }
         }
         &:hover,
         &:active,
@@ -234,7 +254,7 @@
           height: 100vh;
           width: 100vw;
           background: var(--body);
-          top: 50px;
+          top: 58px;
           left: 0;
           z-index: -1;
           opacity: 0.75;
