@@ -51,8 +51,12 @@ The site confirms that account verification is mandatory for:
 - purchase of PLN°, EUR°, and USD° stablecoins via Kanga Cash,
 - token trading on some markets (in rare cases, only if required by the issuer).
 
+[Deposit Instructions](https://support.kanga.exchange/guide/deposit-assets-to-kanga-exchange/)
+
 Additionally, the providers are capable of suspending accounts. From the [Terms and Conditions](https://support.kanga.exchange/terms-of-use/), section 7.3:
 
 > The Operator reserves the right to immediately block the functionality of the User account in part or fully (including the possibility to make withdrawals, use the services provided by the Operator on the basis of these Terms and Conditions of Use or other regulations) in case of breaching these Terms and Conditions of Use or the provisions of the law. 
+
+
 
 This is a **custodial** offering, and as such it is **not verifiable.**

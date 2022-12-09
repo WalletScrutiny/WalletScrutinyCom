@@ -21,7 +21,7 @@ icon: com.munawallet.muna.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-07-15
+date: 2022-12-09
 signer: 
 reviewArchive: 
 twitter: munawallet
@@ -31,6 +31,12 @@ social:
 redirect_from: 
 
 ---
+
+## Updated Review 2022-12-09
+
+Deposit and Withdrawl using the Bitcoin network is possible. However, when we retested the app on December 9, 2022, we found that this has been disabled. It is possible that this is temporary.
+
+## Previous Review 2022-07-15
 
 From the app description:
 

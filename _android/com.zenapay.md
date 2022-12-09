@@ -20,7 +20,7 @@ issue:
 icon: com.zenapay.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: nobtc
 date: 2022-08-01
 signer: 
 reviewArchive: 
@@ -32,6 +32,12 @@ social:
 redirect_from: 
 
 ---
+
+## Update 2022-12-09
+
+We re-tested the app and found that only an Ethereum address is generated. We do not know if this is a bug or an intended behavior. We did not test the app further.
+
+## Previous Review 2022-12-09
 
 ZenaPay is a bitcoin and ethereum wallet.
 

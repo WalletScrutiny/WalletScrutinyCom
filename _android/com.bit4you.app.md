@@ -21,7 +21,7 @@ icon: com.bit4you.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2022-07-20
+date: 2022-12-09
 signer: 
 reviewArchive: 
 twitter: Bit4you1
@@ -39,3 +39,12 @@ bit4you is an exchange platform.
 > Unless otherwise provided by law, BIT4YOU may decide to terminate an account without having to give reasons, notice, formalities or indemnities to the client and will not be required to send any notification of refusal to the CLIENT but may According to its assessment, immediately close or suspend the CLIENT's wallet (or) and consistently refuse all exchange orders[...]
 
 [From Terms and Conditions, section 24.](https://www.bit4you.io/terms-and-conditions) It is capable of suspending a customer's wallet.
+
+## Support 
+
+- [How to send crypto](https://academy.bit4you.io/how-to-send-crypto-assets-to-another-wallet/)
+- [From the Terms and Conditions](https://www.bit4you.io/terms-and-conditions)
+
+> The CUSTOMER may receive CRYPTOASSETS in his CRYPTOASSETS WALLET whose address is generated and accessible via the WEBSITE or the APPLICATION.
+
+We were not able to find private key backup or importation functions.
