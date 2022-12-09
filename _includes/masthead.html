@@ -16,9 +16,8 @@
         <ul class="search-results results-target exit-search-target"></ul>
       </div>
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"></li>
+          <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -29,7 +28,9 @@
           {% endfor %}
           <li><a class="theme-parent" onclick="toggleTheme()"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
         </ul>
+        <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
+        <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
       </nav>
     </div>
   </div> 

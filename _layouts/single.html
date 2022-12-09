@@ -10,11 +10,11 @@ layout: default
     {% assign float = "unset !important" %}
     <header>
       {% if page.title %}
-      <div class="">
+      <div class="hero-parent">
         <!-- <img src="{{ base_path }}/images/hero.png" class="hero-banner -light" /> -->
         <!-- <img src="{{ base_path }}/images/hero-mesh.png" class="hero-banner -dark" /> -->
-        <div class="">
-          <!-- <div id="exitSearchTrigger"></div> -->
+        <div class="hero-cta">
+          <div id="exitSearchTrigger"></div>
           <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           {% if page.summary %}
           <p>{{page.summary}}<br><a href="#all-wallets-ordered-by-verifiability-downloads-and-ratings" class="cta-learn-more"><i class="fas fa-info-circle"></i>&nbsp;Learn more.</a></p>

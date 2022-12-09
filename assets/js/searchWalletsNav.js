@@ -34,6 +34,16 @@ document.querySelector(".searchbar").addEventListener("keyup", (e) => {
     searchTrigger()
   }
 })
+
+document.querySelector(".mobile-search-shortcut").addEventListener("click", () => {
+  if (!document.querySelector(".wallet-search").classList.contains("mobile-active")) {
+    document.querySelector(".wallet-search").classList.add("mobile-active")
+    document.querySelector(".mobile-search-shortcut").classList.add("active")
+  } else {
+    document.querySelector(".wallet-search").classList.remove("mobile-active")
+    document.querySelector(".mobile-search-shortcut").classList.remove("active")
+  }
+})
 document.querySelector(".searchbar").addEventListener("click", () => {
   if (window.searchTerm?.length > 0) {
     document.querySelector(".search-controls").classList.add("hint-return")
@@ -126,7 +136,7 @@ function makeCompactResultsHTML(w) {
     <img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' />
       <span class="result-title-wrapper">
         <span>${w.altTitle || w.title}</span>
-        <small><i class="${window.platforms[w.folder].css}"></i> <span class="category">${w.category}</span></small>
+        <small><!--<i class="${window.platforms[w.folder].css}"></i> --><span class="category">${w.category}</span></small>
       </span>
       <span class="badge">
       <span>${w.verdict}</span>
