@@ -86,14 +86,14 @@
         -webkit-transition: $global-transition;
         transition: $global-transition;
         -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
+        -ms-transform: scaleX(0);
+        transform: scaleX(0); /* hide*/
       }
 
       &:hover:before {
         -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+        -ms-transform: scaleX(1);
+        transform: scaleX(1); /* reveal*/
       }
     }
   }
@@ -107,13 +107,13 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: var(--white);
-    color:var(--text);
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      color: var(--text);
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -157,7 +157,6 @@
     }
   }
 }
-
 
 /*
    Navigation list
@@ -213,7 +212,6 @@
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
-
 
 /*
    Table of contents navigation
@@ -282,40 +280,40 @@
 }
 
 .tooltip {
- position: relative;
- display: inline-block;
- border-bottom: 1px dotted black;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
- visibility: hidden;
- width: 120px;
- background-color: #555;
- color: var(--white);
- text-align: center;
- padding: 5px 0;
- border-radius: 6px;
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: var(--white);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
 
- position: absolute;
- z-index: 1;
- bottom: 125%;
- left: 50%;
- margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
 
- opacity: 0;
- transition: opacity 0.3s;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 /* Tooltip arrow */
 .tooltip .tooltiptext::after {
- content: "";
- position: absolute;
- top: 100%;
- left: 50%;
- margin-left: -5px;
- border-width: 5px;
- border-style: solid;
- border-color: #555 transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -324,10 +322,9 @@
   opacity: 1;
 }
 
-
 .userCount {
-    font-size: smalller;
-    text-align: right;
+  font-size: smalller;
+  text-align: right;
 }
 
 thead {
@@ -343,93 +340,105 @@ thead {
 }
 
 #donateButton {
-    -moz-animation: 1.5s ease 0s normal none infinite swing;
-    -moz-transform-origin: 50% -250%;
-    -webkit-animation:swing 1.5s infinite ease-in-out;
-    -webkit-transform-origin: 50% -250%;
+  -moz-animation: 1.5s ease 0s normal none infinite swing;
+  -moz-transform-origin: 50% -250%;
+  -webkit-animation: swing 1.5s infinite ease-in-out;
+  -webkit-transform-origin: 50% -250%;
 }
 
 @-moz-keyframes swing {
-    0%{-moz-transform:rotate(-9deg)}
-    50%{-moz-transform:rotate(9deg)}
-    100%{-moz-transform:rotate(-9deg)}
+  0% {
+    -moz-transform: rotate(-9deg);
+  }
+  50% {
+    -moz-transform: rotate(9deg);
+  }
+  100% {
+    -moz-transform: rotate(-9deg);
+  }
 }
 
 @-webkit-keyframes swing {
-    0%{-webkit-transform:rotate(-9deg)}
-    50%{-webkit-transform:rotate(9deg)}
-    100%{-webkit-transform:rotate(-9deg)}
+  0% {
+    -webkit-transform: rotate(-9deg);
+  }
+  50% {
+    -webkit-transform: rotate(9deg);
+  }
+  100% {
+    -webkit-transform: rotate(-9deg);
+  }
 }
 
 .btcpay-form {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btcpay-form--inline {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .btcpay-form--block {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .btcpay-form--inline .submit {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .btcpay-form--block select {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .btcpay-form .btcpay-custom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btcpay-form .plus-minus {
-    cursor: pointer;
-    font-size: 25px;
-    line-height: 25px;
-    background: #DFE0E1;
-    height: 30px;
-    width: 45px;
-    border: none;
-    border-radius: 60px;
-    margin: auto 5px;
-    display: inline-flex;
-    justify-content: center;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 25px;
+  background: #dfe0e1;
+  height: 30px;
+  width: 45px;
+  border: none;
+  border-radius: 60px;
+  margin: auto 5px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .btcpay-form select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-    color: currentColor;
-    background: transparent;
-    border: 1px solid transparent;
-    display: block;
-    padding: 1px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: currentColor;
+  background: transparent;
+  border: 1px solid transparent;
+  display: block;
+  padding: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
 }
 
-    .btcpay-form select:hover {
-        border-color: #ccc;
-    }
+.btcpay-form select:hover {
+  border-color: #ccc;
+}
 
 #btcpay-input-price {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border: none;
-    box-shadow: none;
-    text-align: center;
-    font-size: 25px;
-    margin: auto;
-    border-radius: 5px;
-    line-height: 35px;
-    background: var(--white);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  border-radius: 5px;
+  line-height: 35px;
+  background: var(--white);
 }

@@ -5,6 +5,11 @@ function exitSearchUI() {
   document.body.classList.remove("search-ui-active")
   document.querySelector(".wallet-search").classList.remove("active")
 }
+window.addEventListener("resize", () => {
+  if (window.outerWidth <= 650) {
+    exitSearchUI()
+  }
+})
 document.querySelector(".exit-search-target").addEventListener("click", () => {
   exitSearchUI()
 })
@@ -133,7 +138,7 @@ function makeCompactResultsHTML(w) {
   const basePath = w.base_path || ""
   var analysisUrl = `${basePath}${w.url}`
   result += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' />
+    <div class="icon-wrapper"><img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' loading="lazy"/></div>
       <span class="result-title-wrapper">
         <span>${w.altTitle || w.title}</span>
         <small><!--<i class="${window.platforms[w.folder].css}"></i> --><span class="category">${w.category}</span></small>

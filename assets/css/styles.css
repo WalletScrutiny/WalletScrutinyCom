@@ -11,6 +11,7 @@
   --white: #fff;
   --dark-grey: #222;
   --nav: #222;
+  --nav-contrast: #000;
   --body: #eee;
   --transparent: rgba(238, 238, 238, 0);
   --text: #424242;
@@ -42,6 +43,7 @@
   --shadow-2: rgba(255, 255, 255, 0.1);
   --light-grey: #222;
   --nav: #000;
+  --nav-contrast: #222;
   --white: #222;
   --dark-grey: #fafafa;
   --body: #111;
