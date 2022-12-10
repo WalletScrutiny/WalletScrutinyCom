@@ -15,6 +15,6 @@ test() {
         apt install -y sdkmanager gradle openjdk-11-jdk-headless wget
         yes | sdkmanager --licenses >/dev/null || true
         cd /app
-        gradle :wallet:assProdRel
+        ANDROID_HOME=/opt/android-sdk gradle --no-build-cache --no-daemon --no-parallel clean :wallet:assembleRelease
         $takeUserActionCommand"
 }
