@@ -3,7 +3,15 @@
 
 {%- assign verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled" | split: "," -%}
 
-<h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
+<div class="title-wrapper">
+  <h2 class="section-label">Wallets per Category&nbsp;<a href="#gridOfWallets1" style="color:#ccc">&para;</a></h2>
+  <div class="filter">
+    <div class="component component-platform">
+      <label>Platform</label>
+      <div class="dropdown-options dropdown-platform"></div>
+    </div>
+  </div>
+</div>
 <a class="switch-link-btn-long-string" id="SwitchToDownloadsView">Switch to Downloads per Category&nbsp;<i class="fas fa-random"></i></a>
 
 <script>

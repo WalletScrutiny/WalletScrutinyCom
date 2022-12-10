@@ -39,17 +39,37 @@ function lsTest(){
 </p>
 </div>
 
-
+<div class="title-wrapper">
 <h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
-<div class="-sticky fragmented-controls-master">
-<h2 class="section-label fragmented-controls -sticky">Showing</h2>
-<h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdict">reproducible</span> </h2>
-<h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
+<!-- <div class="-sticky fragmented-controls-master">
+  <h2 class="section-label fragmented-controls -sticky">Showing</h2>
+  <h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdict">reproducible</span> </h2>
+  <h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
+</div> -->
+
+
+<div class="filter">
+  <div class="component component-verdict">
+    <label>Verdict</label>
+    <div class="dropdown-options dropdown-verdict"></div>
+  </div>
+  <div class="component component-platform">
+    <label>Platform</label>
+    <div class="dropdown-options dropdown-platform"></div>
+  </div>
+  <div class="component component-view">
+    <label>View</label>
+    <div class="dropdown-options dropdown-view">
+    <div class="option tiles selected" data="tiles"><i class="fas fa-th-large"></i> tiles</div>
+    <div class="option list" data="list"><i class="fas fa-list"></i> list</div>
+    </div>
+  </div>
+</div>
 </div>
 <br>
 
 
-<div id="modularWalletPayload">
+<div id="modularWalletPayload" class="tile-list-ui">
 
   <!--
     The content of this div gets replaced if JS is enabled.
@@ -65,4 +85,5 @@ function lsTest(){
 
 <script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
+<script src="{{ base_path }}/assets/js/walletFilters.js"></script>
 <script src="{{ base_path }}/assets/js/landingPage.js"></script>

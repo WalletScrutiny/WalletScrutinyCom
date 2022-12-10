@@ -13,6 +13,7 @@
   --nav: #222;
   --nav-contrast: #000;
   --body: #eee;
+  --body-50: rgba(238, 238, 238, .6);
   --transparent: rgba(238, 238, 238, 0);
   --text: #424242;
   --gauze: rgba(255, 255, 255, 0.7);
@@ -47,6 +48,7 @@
   --white: #222;
   --dark-grey: #fafafa;
   --body: #111;
+  --body-50: rgba(17, 17, 17,.6);
   --transparent: rgba(17, 17, 17, 0);
   --text: #eee;
   --hide-dark: none;
@@ -1234,9 +1236,6 @@ label.stamp::before, .AppDisplayCard .stamp::before {
     grid-column: 1/3 !important;
     grid-row: 4/5 !important;
   }
-  .flexi-list {
-    justify-content: center !important;
-  }
 }
 
 .input-org input {
@@ -1275,6 +1274,11 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   align-items: start;
   justify-content: start;
   position: relative;
+}
+
+.flexi-list::after{
+  content: "";
+  flex: auto;
 }
 
 .input-org>#modal {

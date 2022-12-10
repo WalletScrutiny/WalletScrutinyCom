@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
   const platformNames = Object.keys(window.platforms)
   for (var p in platformNames) {
     const platform = platformNames[p]
-    window.verdictCount[platform] = {all: 0}
+    window.verdictCount[platform] = { all: 0 }
     for (var v in window.verdictOrder) {
       const verdict = window.verdictOrder[v]
       window.verdictCount[platform][verdict] = 0
@@ -16,28 +16,6 @@ window.addEventListener("load", () => {
     window.verdictCount[wallet.folder]["all"]++
   }
   recreateDropdowns("reproducible", "android")
-  if (document.getElementById("modularWalletPayload")) {
-    window.addEventListener("scroll", ignore => {
-      const p = document.getElementById("modularWalletPayload")
-      const o = p.getBoundingClientRect().bottom
-      document.querySelectorAll(".fragmented-controls-master")[0].getBoundingClientRect().top
-      if (o <= 100) {
-        p.style.height = `${p.getBoundingClientRect().height}px`
-        p.style.overflow = "hidden"
-        document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-          e.style.transform = `translateY(${o - 100}px)`
-          e.getBoundingClientRect().bottom <= 0 && (e.style.display = "none")
-        })
-      } else {
-        document.querySelectorAll(".fragmented-controls-master")[0].querySelectorAll(".-disappearable").forEach(e => {
-          e.style.transform = `translateY(0px)`
-          e.style.display = ""
-          p.style.height = ""
-          p.style.overflow = ""
-        })
-      }
-    })
-  }
 
   var x, y
   x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
@@ -58,54 +36,98 @@ window.addEventListener("load", () => {
 })
 
 function recreateDropdowns(verdict, platform) {
-  if (window.verdictOrder && window.verdictOrder.length > 0 && document.getElementById("modularVerdict")) {
-    const verdictSelect = document.createElement("select")
-    verdictSelect.setAttribute("id", "modularVerdict")
-    verdictSelect.setAttribute("oninput", "window.modularSelectedVerdict = this.value; updateModularPayload()")
-    
-    var verdictOption = document.createElement("option")
-    verdictOption.value = "all"
-    verdictOption.innerHTML = `all (${productCount('all', platform)})`
-    verdictSelect.append(verdictOption)
-    if ("all" == verdict)
-      verdictOption.selected = true
-    
-    window.verdictOrder.forEach(t => {
-      const count = productCount(t, platform)
-      if (0 == count) {
-        return
+  if (window.verdictOrder?.length > 0 && document.querySelector(".dropdown-verdict")) {
+    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all">All verdicts</div>`
+    for (const instanceVerdict of window.verdictOrder) {
+      const count = productCount(instanceVerdict, platform)
+      if (count > 0) {
+        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>${count} wallets</small></div>`
+      } else {
+        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>none found</small></div>`
       }
-      verdictOption = document.createElement("option")
-      verdictOption.value = t
-      verdictOption.innerHTML = `${verdicts[t].short} (${count})`
-      verdictSelect.append(verdictOption)
-      if (t == verdict)
-        verdictOption.selected = true
-    })
-
-    document.getElementById("modularVerdict").replaceWith(verdictSelect)
-    if (verdict != "all" && 0 == productCount(verdict, platform)) {
-      document.getElementById("modularVerdict").selectedIndex = 1
     }
+    document.querySelector(".dropdown-verdict").innerHTML = html
   }
 
-  if (document.getElementById("modularPlatformPH") && window.platformObs && window.platformObs.length > 0) {
-    const platformSelect = document.createElement("select")
-    platformSelect.setAttribute("id", "modularPlatform")
-    platformSelect.setAttribute("oninput", "window.modularSelectedPlatform = this.value; updateModularPayload()")
-    
-    window.platformObs.forEach(t => {
-      const platformOption = document.createElement("option")
-      platformOption.value = t
-      platformOption.innerHTML = window.platforms[t].category
-      platformSelect.append(platformOption)
-      if (t == platform)
-        platformOption.selected = true
-    })
-
-    document.getElementById("modularPlatformPH").replaceWith(platformSelect)
+  if (window.platformObs?.length > 0 && document.querySelector(".dropdown-platform")) {
+    let html = ``
+    for (const instancePlatform of window.platformObs) {
+      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> ${instancePlatform}</div>`
+    }
+    document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
 }
+function getIcon(name) {
+  let faCollection = ''
+  switch (name) {
+    case "android": faCollection = "fab fa-google-play"; break
+    case "iphone": faCollection = "fab fa-app-store"; break
+    case "hardware": faCollection = "fas fa-toolbox"; break
+    case "bearer": faCollection = "fab fa-bitcoin"; break
+  }
+  return faCollection
+}
+document.body.addEventListener("click", () => { document.querySelectorAll(".dropdown-options.opened").forEach((ele) => { ele.classList.remove("opened") }) })
+
+for (const target of ["verdict", "platform"]) {
+  for (const dropdown of document.querySelectorAll(".dropdown-" + target)) {
+    dropdown.addEventListener("click", (event) => {
+      
+      //IF TARGET IS AN UN-SELECTED CHILD ELEMENT
+      if (!event.target.classList.contains("selected") && event.target.classList.contains("option")) {
+        event.stopPropagation()
+        let parentEle = event.target.parentNode
+        parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
+        event.target.classList.add("selected")
+        parentEle.classList.remove("opened")
+        const platform = parentEle.classList.contains("dropdown-platform") ? event.target.getAttribute("data") : false
+        if (platform) {
+          document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected")})
+          document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected")})
+        }
+        updateUrl()
+        updateModularPayload()
+        return
+      }
+      event.stopPropagation()
+      if (event.target.parentNode.classList.contains("opened")) {
+        event.target.parentNode.classList.remove("opened")
+      } else {
+        //RESET ALL DROPDOWNS TO CLOSED STATE ONLY WHEN OPENING NEW DROPDOWN
+        for (const drop of document.querySelectorAll(".dropdown-options")) { drop.classList.remove("opened") }
+        event.target.parentNode.classList.add("opened")
+      }
+    })
+  }
+}
+
+//SEPARATE FUNCTION FOR GRID / LIST TO AVOID MAKING THE LOGIC CONFUSING
+let userSelectView = localStorage.getItem("userSelectView") ? localStorage.getItem("userSelectView") : 'tiles'
+document.querySelector(".dropdown-view > .selected").classList.remove("selected")
+document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
+for (const view of document.querySelectorAll(".tile-list-ui")){ view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }  
+    document.querySelector(".dropdown-view").addEventListener("click", (event) => {
+  if (!event.target.classList.contains("selected") && event.target.classList.contains("option")) {
+    //TARGET IS AN UN-SELECTED CHILD ELEMENT
+    event.stopPropagation()
+    let parentEle = event.target.parentNode
+    parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
+    event.target.classList.add("selected")
+    parentEle.classList.remove("opened")
+    for (const view of document.querySelectorAll(".tile-list-ui")) {
+      let newView = event.target.getAttribute("data")
+      view.setAttribute("class", `tile-list-ui view-${newView}`)
+      localStorage.setItem("userSelectView", newView)
+    }
+    return
+  }
+  event.stopPropagation()
+  if (event.target.parentNode.classList.contains("opened")) {
+    event.target.parentNode.classList.remove("opened")
+  } else {
+    event.target.parentNode.classList.add("opened")
+  }
+})
 
 /**
  * @return how many products in the platform have the verdict.
@@ -115,19 +137,19 @@ function productCount(verdict, platform) {
 }
 
 function updateModularPayload() {
-  var verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
-  const platform = (document.getElementById("modularPlatform") || {}).value || "android"
+  let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
+  const platform =  document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "android"
   // remove empty verdicts
   recreateDropdowns(verdict, platform)
-  verdict = (document.getElementById("modularVerdict") || {}).value || "reproducible"
+  verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
 
   document.querySelectorAll(".-filter-element").forEach(e => {
-    e.classList.contains(`-${platform}`) ? (e.style.display="flex") : (e.style.display="none")
+    e.classList.contains(`-${platform}`) ? (e.style.display = "flex") : (e.style.display = "none")
   })
 
-  switch(platform) {
+  switch (platform) {
     case 'android':
-      ((document.getElementById("SwitchToDownloadsView")||{}).style||{}).display = ""
+      ((document.getElementById("SwitchToDownloadsView") || {}).style || {}).display = ""
       break
     case 'iphone':
     case 'hardware':
@@ -146,8 +168,8 @@ function updateModularPayload() {
   const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
   window.wallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
-        (verdict === "all" || String(obj.verdict) === verdict) &&
-        (platform === "all" || String(obj.folder) === platform)) {
+      (verdict === "all" || String(obj.verdict) === verdict) &&
+      (platform === "all" || String(obj.folder) === platform)) {
       presort.push(obj)
       appIds.push(obj.appId)
       c++
@@ -197,25 +219,21 @@ function renderBadgesToDiv(wallets, anchor) {
 
 function getBadge(wallet) {
   const walletId = wallet.folder + String(wallet.appId).replaceAll(".", "")
-  switch(wallet.folder) {
-    case "android": faCollection = "fab fa-google-play"; break
-    case "iphone": faCollection = "fab fa-app-store"; break
-    case "hardware": faCollection = "fas fa-toolbox"; break
-    case "bearer": faCollection = "fab fa-bitcoin"; break
-  }
+  let faCollection = getIcon(wallet.folder)
 
-  return  `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
+  return `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
       <div style="width:7em;position: relative;" onclick="toggleApp('${walletId}')">
         <div style="position:relative">
           <div class="flex-r">
             <div class="app_logo">
                 <img loading="lazy" src="${wallet.icon
-                  ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
-                  : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
-                <i class="platform-logo ${ faCollection }"></i>
+      ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
+    : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
+    <h3 class="list-title">${wallet.altTitle || wallet.title}</h3>
+                <i class="platform-logo ${faCollection}"></i>
             </div>
-            ${ wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
-            ${ wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+            ${wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
+            ${wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
           </div>
         </div>
           <div class="app_info_box">

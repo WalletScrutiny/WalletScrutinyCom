@@ -8,8 +8,8 @@ window.addEventListener('load', () => {
     params[1].split('&').forEach(item => {
       var kv = item.split('=')
       switch (kv[0]) {
-        case 'verdict': $('#modularVerdict')[0].value = kv[1]; window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
-        case 'platform': $('#modularPlatform')[0].value = kv[1]; window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
+        case 'verdict': setDropdown("verdict",kv[1]); window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
+        case 'platform': setDropdown("platform",kv[1]); window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
       }
     })
   }
@@ -35,6 +35,11 @@ window.addEventListener('load', () => {
     })
 })
 
+function setDropdown(parent, child) {
+  for(const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")){ ele.classList.remove("selected") }
+  document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
+}
+
 function updateUrl () {
   if (dontUpdateUrl) {
     return
@@ -45,8 +50,8 @@ function updateUrl () {
   } else {
     hash = ''
   }
-  const verdict = (document.getElementById('modularVerdict') || {}).value || 'reproducible'
-  const platform = (document.getElementById('modularPlatform') || {}).value || 'android'
+  const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
+  const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "android"
   window.history.pushState('data', null, `/?verdict=${verdict}&platform=${platform}${hash}`)
 }
 

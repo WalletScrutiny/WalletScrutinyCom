@@ -4,7 +4,15 @@
 {%- assign verdicts = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive" | split: "," -%}
 {%- assign metas = "ok,outdated,stale,obsolete,defunct" | split: "," -%}
 {%- assign posts = site.android | sort: "users" | reverse -%}
-<h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
+<div class="title-wrapper">
+  <h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
+  <div class="filter">
+    <div class="component component-platform">
+      <label>Platform</label>
+      <div class="dropdown-options dropdown-platform"></div>
+    </div>
+  </div>
+</div>
 <a class="switch-link-btn-long-string" id="SwitchToWalletsView">Switch to Wallets per Category&nbsp;<i class="fas fa-random"></i></a>
 <table id="gridOfWallets2">
   <tr>
