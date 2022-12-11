@@ -181,9 +181,9 @@ body.modal-open {
   overflow: hidden;
 }
 
-body.modal-open #main {
+/* body.modal-open #main {
   filter: blur(5px);
-}
+} */
 
 @media (max-width:756px) {
   #newTitle::after {
@@ -1353,8 +1353,9 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   width: 100vw;
   align-content: center;
   justify-content: center;
-  background-color: var(--shadow-3);
+  background-color: var(--shadow-2);
   z-index: 999;
+  backdrop-filter: blur(10px);
 }
 
 .flexi-list.opened::after {
