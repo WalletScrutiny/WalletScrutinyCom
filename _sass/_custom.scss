@@ -40,7 +40,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: end;
-  gap: 50px 0px;
+  gap: 30px 0px;
+  @media (max-width: 500px) {
+    justify-content: start;
+  }
   .component {
     display: grid;
     grid-template: 12px 1.5rem / 1fr;
@@ -121,48 +124,118 @@
       width: 100% !important;
       margin: 0;
       background: transparent;
-      &:nth-last-of-type(odd){
+      &:nth-last-of-type(odd) {
         background: var(--white);
       }
-      &:hover{
+      &:hover {
         box-shadow: none;
       }
       > div {
         width: 100% !important;
-         > div {
-          .flex-r{
+        > div {
+          .flex-r {
             display: grid;
             grid-auto-flow: column;
             align-items: center;
             grid-template-columns: 1fr auto;
-            .app_logo{
-              .platform-logo {
+            .app_logo {
+              display: grid;
+              width: 100%;
+              height: initial;
+              align-items: center;
+              grid-template-columns: auto 1fr 1fr;
+              gap: 5px;
+              .platform-info {
                 position: relative;
+                font-size: initial;
+                top: unset;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+                @media (max-width: 500px) {
+                    grid-row: 2/3;
+                    grid-column: 1/4;
+                    gap: 5px 20px;
+                }
+              }
+              .list-view-only {
+                display: inline-block;
+                &.stats {
+                  .star-rating {
+                    font-size: initial;
+                  }
+                }
+              }
+              h3 {
+                margin-bottom: 0;
               }
               img {
-              max-width: 50px;
-              height: 50px;
-            }}
+                max-width: 50px;
+                height: 50px;
+              }
+            }
+            .stamps {
+              display: grid;
+              grid-auto-flow: row;
+            }
           }
-         }
+        }
         //  > div {
         //   display: grid;
         //   grid-template-columns: repeat(3, auto);
         // }
       }
-      .app_info_box{
+      .app_info_box {
         display: none;
       }
-      .list-title{
+      .list-title {
         display: inline-block;
         margin-top: 0;
       }
-      &.meta_outdated, &.meta_obsolete{
+      &.meta_outdated,
+      &.meta_obsolete {
         border: none;
       }
     }
   }
 }
-.list-title{
+.list-title,
+.list-view-only {
   display: none;
+}
+
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  &::after,&::before{
+    @media (max-width:650px) {
+      display: none;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    height: 340px;
+    aspect-ratio: 1/1;
+    display: block;
+    background-image: radial-gradient(var(--accent) 9%, transparent 9%);
+    background-size: 13px 13px;
+    background-repeat: repeat;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
+  &::after {
+    background-image: url(/images/is-your-wallet-secure.png);
+    height: 500px;
+    aspect-ratio: 1/1;
+    content: "";
+    max-height: 45vw;
+    display: block;
+    background-size: contain;
+  }
 }

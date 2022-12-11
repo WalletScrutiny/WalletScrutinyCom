@@ -73,14 +73,16 @@ for (const target of ["verdict", "platform"]) {
   for (const dropdown of document.querySelectorAll(".dropdown-" + target)) {
     dropdown.addEventListener("click", (event) => {
       
+      let self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : event.target
+      let parentEle = self.parentNode
       //IF TARGET IS AN UN-SELECTED CHILD ELEMENT
-      if (!event.target.classList.contains("selected") && event.target.classList.contains("option")) {
+      if (!self.classList.contains("selected") && self.classList.contains("option")) {
         event.stopPropagation()
-        let parentEle = event.target.parentNode
+        
         parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
-        event.target.classList.add("selected")
+        self.classList.add("selected")
         parentEle.classList.remove("opened")
-        const platform = parentEle.classList.contains("dropdown-platform") ? event.target.getAttribute("data") : false
+        const platform = parentEle.classList.contains("dropdown-platform") ? self.getAttribute("data") : false
         if (platform) {
           document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected")})
           document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected")})
@@ -90,12 +92,12 @@ for (const target of ["verdict", "platform"]) {
         return
       }
       event.stopPropagation()
-      if (event.target.parentNode.classList.contains("opened")) {
-        event.target.parentNode.classList.remove("opened")
+      if (parentEle.classList.contains("opened")) {
+        parentEle.classList.remove("opened")
       } else {
         //RESET ALL DROPDOWNS TO CLOSED STATE ONLY WHEN OPENING NEW DROPDOWN
         for (const drop of document.querySelectorAll(".dropdown-options")) { drop.classList.remove("opened") }
-        event.target.parentNode.classList.add("opened")
+        parentEle.classList.add("opened")
       }
     })
   }
@@ -106,26 +108,27 @@ let userSelectView = localStorage.getItem("userSelectView") ? localStorage.getIt
 document.querySelector(".dropdown-view > .selected").classList.remove("selected")
 document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
 for (const view of document.querySelectorAll(".tile-list-ui")){ view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }  
-    document.querySelector(".dropdown-view").addEventListener("click", (event) => {
-  if (!event.target.classList.contains("selected") && event.target.classList.contains("option")) {
+document.querySelector(".dropdown-view").addEventListener("click", (event) => {
+  let self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : event.target
+  let parentEle = self.parentNode
+  if (!self.classList.contains("selected") && self.classList.contains("option")) {
     //TARGET IS AN UN-SELECTED CHILD ELEMENT
     event.stopPropagation()
-    let parentEle = event.target.parentNode
     parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
-    event.target.classList.add("selected")
+    self.classList.add("selected")
     parentEle.classList.remove("opened")
     for (const view of document.querySelectorAll(".tile-list-ui")) {
-      let newView = event.target.getAttribute("data")
+      let newView = self.getAttribute("data")
       view.setAttribute("class", `tile-list-ui view-${newView}`)
       localStorage.setItem("userSelectView", newView)
     }
     return
   }
   event.stopPropagation()
-  if (event.target.parentNode.classList.contains("opened")) {
-    event.target.parentNode.classList.remove("opened")
+  if (parentEle.classList.contains("opened")) {
+    parentEle.classList.remove("opened")
   } else {
-    event.target.parentNode.classList.add("opened")
+    parentEle.classList.add("opened")
   }
 })
 
@@ -230,10 +233,19 @@ function getBadge(wallet) {
       ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
     : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
     <h3 class="list-title">${wallet.altTitle || wallet.title}</h3>
-                <i class="platform-logo ${faCollection}"></i>
+                <div class="platform-logo platform-info">
+                <span><i class="${faCollection}"></i><span class="list-view-only"> ${wallet.category}</span></span>
+                <div class="list-view-only stats">
+                <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+                </div>
+                <span class="list-view-only updated">${wallet.updated || wallet.released}</span>
+                </div>
+               
             </div>
+            <div class="stamps">
             ${wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
             ${wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
+            </div>
           </div>
         </div>
           <div class="app_info_box">

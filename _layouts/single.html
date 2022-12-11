@@ -10,10 +10,10 @@ layout: default
     {% assign float = "unset !important" %}
     <header>
       {% if page.title %}
-      <div class="hero-parent">
+      <div class="hero">
         <!-- <img src="{{ base_path }}/images/hero.png" class="hero-banner -light" /> -->
         <!-- <img src="{{ base_path }}/images/hero-mesh.png" class="hero-banner -dark" /> -->
-        <div class="hero-cta">
+        <div class="hero-text">
           <div id="exitSearchTrigger"></div>
           <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           {% if page.summary %}
