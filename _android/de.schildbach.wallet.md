@@ -19,11 +19,16 @@ repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2022-11-01
+date: 2022-12-12
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2022-11-01
+  version: '9.03'
+  appHash: 3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58
+  gitRevision: 9ba26b4af98ac4e291f2fadef1d25227fdde1689
+  verdict: reproducible
 - date: 2022-01-11
   version: '9.03'
   appHash: 90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd
@@ -164,34 +169,32 @@ redirect_from:
 
 ---
 
-**Update 2022-11-01**: The latest binary does not compile with our current
-script. We have to look into it and potentially consult with the provider.
-
 For the latest version the {% include testScript.html %} came to these results:
 
 ```
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 9.03
-apkVersionCode: 903
+apkVersionName: 9.23
+apkVersionCode: 923
 verdict:        reproducible
-appHash:        3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58
-commit:         c43c146a339d9387fb11859599d634ecf15232d0
+appHash:        0ea97bf63ceff167b1d2a701b94c569c251b00cc1b06e98f02384e10493e202b
+commit:         586b1cca72f430730f290fe8f878fdc9881cdcc3
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_903/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_903/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_903/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_903/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_923/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_923/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_923/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_923/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object c43c146a339d9387fb11859599d634ecf15232d0
+object 586b1cca72f430730f290fe8f878fdc9881cdcc3
 type commit
-tag v9.03
-tagger Andreas Schildbach <andreas@schildbach.de> 1639855261 +0100
+tag v9.23
+tagger Andreas Schildbach <andreas@schildbach.de> 1666196489 +0200
 
-9.03 release
+9.23 release
 ===== End Results =====
+
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
