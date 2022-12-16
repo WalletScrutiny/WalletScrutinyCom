@@ -39,6 +39,7 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.updated) ? `<tr><td>Latest Update</td><td>${wallet.updated}</td></tr>` : ""}
     ${ hasValue(wallet.discontinued) ? `<tr><td><strong>Discontinued</strong></td><td>${wallet.discontinued}</td></tr>` : ""}
     ${ (wallet.dimensions && wallet.dimensions.length == 3) ? `<tr><td>Size</td><td>${wallet.dimensions[0]}mm x ${wallet.dimensions[1]}mm x ${wallet.dimensions[2]}mm</td></tr>` : ""}
+    <tr><td><strong>Opinions</strong></td><td>${wallet.opinion?.positive || 0} 🙂 / ${wallet.opinion?.neutral || 0} 😐 / ${wallet.opinion?.negative || 0} 🙁</td></tr>
     <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
     <tr><td>Links</td><td>
     ${ wallet.folder == "iphone"
