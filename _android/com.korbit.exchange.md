@@ -4,12 +4,12 @@ title: korbit
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.korbit.exchange
 appCountry: us
 released: 2018-07-22
-updated: 2022-11-01
-version: 6.0.5
+updated: 2022-11-30
+version: 6.2.2
 stars: 2.7
 ratings: 
 reviews: 1

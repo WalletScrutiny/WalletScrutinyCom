@@ -3,15 +3,15 @@ wsId:
 title: TraderWagon
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.traderwagon.android
 appCountry: 
 released: May 24, 2022
-updated: 2022-10-24
-version: 1.3.0
-stars: 4.3
+updated: 2022-11-09
+version: 1.3.4
+stars: 4.5
 ratings: 
-reviews: 2
+reviews: 4
 size: 
 website: https://www.traderwagon.com/
 repository: 

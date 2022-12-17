@@ -7,8 +7,8 @@ users: 10000
 appId: com.glamster
 appCountry: 
 released: Aug 19, 2020
-updated: 2022-06-23
-version: 2.0.0
+updated: 2022-11-24
+version: 3.0.0
 stars: 2.8
 ratings: 
 reviews: 6

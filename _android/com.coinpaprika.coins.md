@@ -1,6 +1,6 @@
 ---
 wsId: coinsonepaprika
-title: 'COINS: One App For Crypto by C'
+title: 'COINS: One App For Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 100000
 appId: com.coinpaprika.coins
 appCountry: us
 released: 2020-06-15
-updated: 2022-10-18
+updated: 2022-12-13
 version: 1.16.6
 stars: 4.3
 ratings: 1401

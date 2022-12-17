@@ -3,12 +3,12 @@ wsId:
 title: 'BBAE Pro: Stocks, Crypto, ETFs'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.bbae.pro
 appCountry: 
 released: Jun 17, 2021
-updated: 2022-10-25
-version: 5.0.4
+updated: 2022-11-28
+version: 5.0.5
 stars: 4.7
 ratings: 
 reviews: 3

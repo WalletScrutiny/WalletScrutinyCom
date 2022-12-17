@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-22
 updated: 2022-09-29
 version: 1.4.28
-stars: 4.8
+stars: 4.9
 ratings: 1214
-reviews: 406
+reviews: 487
 size: 
 website: https://www.bitwallet.org
 repository: 

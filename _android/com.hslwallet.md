@@ -7,8 +7,8 @@ users: 10
 appId: com.hslwallet
 appCountry: 
 released: Aug 4, 2021
-updated: 2021-08-04
-version: 2.4.1
+updated: 2022-11-29
+version: 4.0.6
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hslwallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-11-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

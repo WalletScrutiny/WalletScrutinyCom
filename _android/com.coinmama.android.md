@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinmama - Buy cryptocurrency
+title: Coinmama
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-10
 updated: 2021-08-10
 version: 0.17.0
-stars: 3
+stars: 2.9
 ratings: 105
-reviews: 15
+reviews: 16
 size: 
 website: https://www.coinmama.com
 repository: 

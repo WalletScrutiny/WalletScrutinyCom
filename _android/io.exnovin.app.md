@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-12
 updated: 2022-09-20
 version: 2.7.0
-stars: 4.2
+stars: 4.1
 ratings: 930
-reviews: 17
+reviews: 18
 size: 
 website: https://exnovin.io
 repository: 

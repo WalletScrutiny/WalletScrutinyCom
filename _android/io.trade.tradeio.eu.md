@@ -9,9 +9,9 @@ appCountry:
 released: 2019-07-22
 updated: 2019-09-20
 version: 1.0.0
-stars: 1
+stars: 1.7
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: http://trade.io
 repository: 

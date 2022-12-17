@@ -8,8 +8,8 @@ users: 1000
 appId: com.net_cents.netcents2
 appCountry: us
 released: 2017-10-12
-updated: 2022-04-18
-version: 2.11.11
+updated: 2022-11-19
+version: 2.11.15
 stars: 3.5
 ratings: 150
 reviews: 3

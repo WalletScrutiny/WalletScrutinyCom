@@ -7,8 +7,8 @@ users: 500
 appId: com.hashcash.emetexchange
 appCountry: 
 released: Oct 5, 2021
-updated: 2022-06-07
-version: 1.0.7
+updated: 2022-11-16
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 

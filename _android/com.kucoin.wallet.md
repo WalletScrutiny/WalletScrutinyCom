@@ -3,15 +3,15 @@ wsId:
 title: 'KuCoin Wallet: Crypto & NFT'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: May 31, 2022
-updated: 2022-10-25
-version: 1.0.25
-stars: 4.4
+updated: 2022-12-13
+version: 1.2.0
+stars: 4.3
 ratings: 
-reviews: 23
+reviews: 42
 size: 
 website: 
 repository: 

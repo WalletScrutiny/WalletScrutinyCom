@@ -3,7 +3,7 @@ wsId:
 title: G-wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.gwallet.main
 appCountry: 
 released: Aug 11, 2021
@@ -12,6 +12,7 @@ version: '1.06'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.g-wallet.io
 repository: 
 issue: 

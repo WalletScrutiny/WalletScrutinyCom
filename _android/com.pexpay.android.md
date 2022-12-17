@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Pexpay: Buy BTC, ETH, Crypto'
+title: 'Pexpay: 0 Fee Buy and Sell BTC'
 altTitle: 
 authors: 
 users: 10000
 appId: com.pexpay.android
 appCountry: 
 released: Mar 24, 2022
-updated: 2022-11-01
-version: 1.9.0
-stars: 4
+updated: 2022-12-15
+version: 1.11.1
+stars: 3.8
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://www.pexpay.com/
 repository: 

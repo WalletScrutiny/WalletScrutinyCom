@@ -7,8 +7,8 @@ users: 100
 appId: com.app.toropal
 appCountry: 
 released: 2019-02-18
-updated: 2022-06-20
-version: 1.8.3
+updated: 2022-11-29
+version: 1.9.5
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: https://www.toropal.com
 repository: 
 issue: 
-icon: com.app.toropal.png
+icon: com.app.toropal.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers

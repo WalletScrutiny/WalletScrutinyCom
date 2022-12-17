@@ -4,15 +4,15 @@ title: Choise.com Buy & earn crypto
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2022-11-01
-version: 2.6.75.47
+updated: 2022-11-30
+version: 2.6.75.58
 stars: 3.5
 ratings: 8728
-reviews: 424
+reviews: 427
 size: 
 website: https://crypterium.com
 repository: 

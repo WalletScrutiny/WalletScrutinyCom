@@ -7,8 +7,8 @@ users: 100000
 appId: com.devere.dcx
 appCountry: 
 released: Jan 29, 2018
-updated: 2022-06-14
-version: 4.3.0
+updated: 2022-12-01
+version: 4.3.1
 stars: 3.9
 ratings: 
 reviews: 1

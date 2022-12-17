@@ -3,12 +3,12 @@ wsId:
 title: EasyCoins
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.easycoin.exchange
 appCountry: 
 released: May 16, 2022
-updated: 2022-10-22
-version: 1.0.46
+updated: 2022-12-11
+version: 1.0.55
 stars: 
 ratings: 
 reviews: 

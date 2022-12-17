@@ -3,13 +3,13 @@ wsId:
 title: Ejara
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.ejara.ejarav2
 appCountry: 
 released: Mar 8, 2021
-updated: 2022-10-28
-version: 3.3.9
-stars: 4.4
+updated: 2022-11-28
+version: 3.4.1
+stars: 4.3
 ratings: 
 reviews: 7
 size: 

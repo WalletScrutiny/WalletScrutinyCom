@@ -4,15 +4,15 @@ title: DigiFinex - Buy BTC Memes&Meta
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.digifinex.app
 appCountry: 
 released: 2018-06-26
-updated: 2022-10-19
-version: 2022.10.19
+updated: 2022-12-14
+version: 2022.12.14
 stars: 4.9
 ratings: 4414
-reviews: 499
+reviews: 501
 size: 
 website: https://www.digifinex.com/
 repository: 

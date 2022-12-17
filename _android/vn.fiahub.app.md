@@ -7,8 +7,8 @@ users: 10000
 appId: vn.fiahub.app
 appCountry: 
 released: Oct 11, 2019
-updated: 2022-10-28
-version: 2.17.5
+updated: 2022-12-02
+version: 2.17.9
 stars: 
 ratings: 
 reviews: 

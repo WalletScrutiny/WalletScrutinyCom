@@ -3,7 +3,7 @@ wsId:
 title: 'Onyze Wallet: Full Security fo'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.onyze.wallet
 appCountry: 
 released: 

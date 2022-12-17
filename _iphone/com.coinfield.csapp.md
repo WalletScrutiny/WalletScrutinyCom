@@ -11,16 +11,16 @@ released: 2019-05-21
 updated: 2021-07-27
 version: 2.6.0
 stars: 4.4
-reviews: 514
+reviews: 527
 size: '68434944'
-website: https://www.coinfield.com
+website: https://www.coinfield.com/company/pr
 repository: 
 issue: 
 icon: com.coinfield.csapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

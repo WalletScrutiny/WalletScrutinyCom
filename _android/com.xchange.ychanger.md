@@ -3,7 +3,7 @@ wsId:
 title: Ychanger – доступный каждому о
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.xchange.ychanger
 appCountry: 
 released: 2021-06-08
@@ -19,7 +19,7 @@ issue:
 icon: com.xchange.ychanger.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-06-10
 signer: 
 reviewArchive: 

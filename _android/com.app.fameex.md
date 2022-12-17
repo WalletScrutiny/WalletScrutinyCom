@@ -4,15 +4,15 @@ title: FAMEEX-APP
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
-updated: 2022-10-31
-version: 2.13.8
+updated: 2022-12-14
+version: 2.13.14
 stars: 4.8
 ratings: 1588
-reviews: 78
+reviews: 79
 size: 
 website: https://www.fameex.com
 repository: 

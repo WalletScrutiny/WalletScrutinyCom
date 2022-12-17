@@ -11,7 +11,7 @@ updated: 2022-10-06
 version: 3.0.16
 stars: 4.8
 ratings: 
-reviews: 94
+reviews: 93
 size: 
 website: https://www.cyclebas.com/
 repository: 

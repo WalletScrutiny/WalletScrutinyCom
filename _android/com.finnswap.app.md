@@ -3,7 +3,7 @@ wsId:
 title: Finn Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.finnswap.app
 appCountry: 
 released: Mar 14, 2022

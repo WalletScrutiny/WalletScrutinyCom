@@ -7,19 +7,19 @@ appId: com.nthkey.app
 appCountry: 
 idd: 1491367033
 released: 2021-06-18
-updated: 2021-11-02
-version: 1.0.6
+updated: 2022-11-27
+version: 1.0.7
 stars: 3
 reviews: 2
-size: '2874368'
+size: '3976192'
 website: https://nthkey.com
 repository: 
 issue: 
 icon: com.nthkey.app.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-11-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

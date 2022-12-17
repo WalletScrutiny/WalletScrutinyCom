@@ -7,8 +7,8 @@ users: 10000
 appId: exchange.waves.invest
 appCountry: 
 released: Sep 11, 2021
-updated: 2022-10-22
-version: 1.10.8
+updated: 2022-11-10
+version: 1.10.9
 stars: 4.5
 ratings: 
 reviews: 6

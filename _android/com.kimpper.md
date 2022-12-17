@@ -7,8 +7,8 @@ users: 1000
 appId: com.kimpper
 appCountry: 
 released: Dec 22, 2021
-updated: 2022-07-11
-version: 1.1.6
+updated: 2022-11-11
+version: 1.1.8
 stars: 
 ratings: 
 reviews: 

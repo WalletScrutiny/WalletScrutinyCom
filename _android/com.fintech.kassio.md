@@ -7,8 +7,8 @@ users: 10000
 appId: com.fintech.kassio
 appCountry: 
 released: Feb 18, 2022
-updated: 2022-09-23
-version: 2.1.5
+updated: 2022-11-30
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 

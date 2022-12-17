@@ -8,19 +8,19 @@ appId: com.nano.moonxbt
 appCountry: us
 idd: 1566536854
 released: 2021-06-08
-updated: 2021-06-08
-version: 4.0.2
+updated: 2022-12-07
+version: 5.4.0
 stars: 3.7
 reviews: 10
-size: '54601728'
+size: '68521984'
 website: https://www.moonxbt.com
 repository: 
 issue: 
 icon: com.nano.moonxbt.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-06-10
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global

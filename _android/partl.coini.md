@@ -8,8 +8,8 @@ users: 10000
 appId: partl.coini
 appCountry: 
 released: 2018-02-04
-updated: 2022-10-18
-version: 2.4.16
+updated: 2022-12-16
+version: 2.4.19
 stars: 4.5
 ratings: 291
 reviews: 36

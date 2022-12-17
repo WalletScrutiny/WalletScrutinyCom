@@ -7,11 +7,12 @@ users: 50
 appId: com.sendVillageHQ.comi_block
 appCountry: 
 released: Sep 11, 2022
-updated: 2022-10-27
+updated: 2022-11-05
 version: 1.1.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://comiblock.com/
 repository: 
 issue: 

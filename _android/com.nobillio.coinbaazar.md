@@ -8,8 +8,8 @@ users: 1000
 appId: com.nobillio.coinbaazar
 appCountry: us
 released: 2020-08-31
-updated: 2022-10-28
-version: 1.3.12
+updated: 2022-12-11
+version: 1.3.16
 stars: 
 ratings: 
 reviews: 

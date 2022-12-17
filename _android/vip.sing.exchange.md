@@ -7,8 +7,8 @@ users: 500
 appId: vip.sing.exchange
 appCountry: 
 released: May 11, 2021
-updated: 2022-08-25
-version: 3.4.6.1
+updated: 2022-12-15
+version: 3.4.7.5
 stars: 
 ratings: 
 reviews: 

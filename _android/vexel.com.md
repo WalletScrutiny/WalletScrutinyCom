@@ -7,8 +7,8 @@ users: 50000
 appId: vexel.com
 appCountry: 
 released: Apr 27, 2021
-updated: 2022-11-01
-version: 1.47.0
+updated: 2022-12-15
+version: 1.50.0
 stars: 
 ratings: 
 reviews: 

@@ -9,9 +9,9 @@ appCountry:
 released: Feb 26, 2021
 updated: 2022-07-29
 version: 1.0.0.20-gleec
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://gleec.com/app-ads.txt
 repository: 

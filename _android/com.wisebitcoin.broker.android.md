@@ -8,11 +8,11 @@ users: 10000
 appId: com.wisebitcoin.broker.android
 appCountry: cn
 released: 2021-01-04
-updated: 2022-10-05
-version: 3.9.1
-stars: 3.2
+updated: 2022-11-28
+version: 3.9.7
+stars: 3.1
 ratings: 116
-reviews: 94
+reviews: 95
 size: 
 website: https://www.wisebitcoin.com
 repository: 

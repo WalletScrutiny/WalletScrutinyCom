@@ -7,9 +7,9 @@ users: 5000
 appId: com.walker.jtech
 appCountry: 
 released: Sep 26, 2021
-updated: 2021-10-19
-version: '1.3'
-stars: 3.8
+updated: 2022-12-14
+version: 1.0.4
+stars: 3.9
 ratings: 
 reviews: 7
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.walker.jtech.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-10-21
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

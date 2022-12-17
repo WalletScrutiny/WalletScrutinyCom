@@ -3,15 +3,15 @@ wsId:
 title: LATOKEN DeFi Crypto Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.app.defi
 appCountry: 
 released: Jan 23, 2022
-updated: 2022-11-01
-version: 1.11.22
+updated: 2022-11-25
+version: 1.11.25
 stars: 4.3
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: https://lachain.io
 repository: 

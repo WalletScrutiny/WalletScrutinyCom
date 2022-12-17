@@ -12,7 +12,7 @@ updated: 2022-09-13
 version: 3.16.0.13
 stars: 4.1
 ratings: 11650
-reviews: 1218
+reviews: 1219
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android

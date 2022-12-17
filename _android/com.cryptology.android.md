@@ -10,7 +10,7 @@ appCountry: gb
 released: 2018-03-23
 updated: 2022-09-09
 version: '3.18'
-stars: 3.4
+stars: 3.6
 ratings: 
 reviews: 3
 size: 
