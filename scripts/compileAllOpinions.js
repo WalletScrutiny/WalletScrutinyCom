@@ -1,5 +1,6 @@
 const Summariser = require('./nostr-opinion-summariser').default;
 const fs = require('fs/promises');
+const experts = require('../assets/js/experts');
 
 const getNames = async () => {
   const folders = ['iphone', 'android', 'hardware', 'bearer'];
@@ -23,6 +24,7 @@ const getNames = async () => {
   const names = await getNames();
   const summariser = new Summariser({
     relay: 'wss://relay.nostr.info',
+    trustedAuthors: experts
   });
   await summariser.onReady();
 
