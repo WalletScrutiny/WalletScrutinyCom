@@ -7838,7 +7838,7 @@ var Summariser = class {
     setTimeout(() => {
       sub.unsub();
       resolve();
-    }, 2e3);
+    }, 15e3);
   });
   get(key) {
     const ops = this.opinions[key];
@@ -7848,12 +7848,19 @@ var Summariser = class {
         neutral: 0,
         negative: 0
       };
-    const counts = ops.reduce((acc, curr) => {
-      const current = curr.tags.find((tag) => tag[0] === "sentiment")[1];
-      const k = current === "1" ? "positive" : current === "0" ? "neutral" : "negative";
-      acc[k] = (acc[k] || 0) + 1;
-      return acc;
-    }, {});
+    const counts = ops.reduce(
+      (acc, curr) => {
+        const current = curr.tags.find((tag) => tag[0] === "sentiment")[1];
+        const k = current === "1" ? "positive" : current === "0" ? "neutral" : "negative";
+        acc[k] = (acc[k] || 0) + 1;
+        return acc;
+      },
+      {
+        positive: 0,
+        neutral: 0,
+        negative: 0
+      }
+    );
     return counts;
   }
 };

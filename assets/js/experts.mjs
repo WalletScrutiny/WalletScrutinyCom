@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   '8d57446448a2fea22be1fcf7e526b87e917999ffc83ef5c6823a757fb58527f4',
   '64c9e18a36a04803111d21abae88d315f44d3235a4997101d8e2dff3dc82dd70'
 ]

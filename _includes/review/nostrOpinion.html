@@ -3,4 +3,9 @@
 {% endif %}
 <h2>Nostr login</h2>
 <nostr-opinion-login></nostr-opinion-login>
-<script type="module" src="/assets/js/nostr-opinion.js"></script>
+<script type="module">
+  import { expertOpinions } from '/assets/js/nostr-opinion.js';
+  import experts from '/assets/js/experts.mjs';
+
+  expertOpinions.trustedAuthors = experts;
+</script>
