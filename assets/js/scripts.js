@@ -110,6 +110,7 @@ document.querySelector(".dropdown-view > .selected").classList.remove("selected"
 document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
 for (const view of document.querySelectorAll(".tile-list-ui")){ view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }  
 document.querySelector(".dropdown-view").addEventListener("click", (event) => {
+  document.querySelectorAll(".dropdown-options.opened").forEach((ele) => { ele.classList.remove("opened") })
   let self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : event.target
   let parentEle = self.parentNode
   if (!self.classList.contains("selected") && self.classList.contains("option")) {
