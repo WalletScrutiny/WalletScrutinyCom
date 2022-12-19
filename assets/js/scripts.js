@@ -43,9 +43,9 @@ function recreateDropdowns(verdict, platform) {
       if (count > 0) {
         html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>${count} wallets</small></div>`
       }
-      // else {
-      //   html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>none found</small></div>`
-      // }
+      else if(verdict === instanceVerdict) {
+        html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>none found</small></div>`
+      }
     }
     document.querySelector(".dropdown-verdict").innerHTML = html
   }
