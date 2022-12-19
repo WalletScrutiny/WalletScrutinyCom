@@ -82,7 +82,7 @@
       }
       &.opened {
         background: var(--body-50);
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(80px);
         box-shadow: 0 10px 30px -15px #000;
         position: absolute;
         top: 16px;
