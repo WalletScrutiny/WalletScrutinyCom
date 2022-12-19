@@ -224,6 +224,7 @@
           background: var(--white);
           span {
             color: var(--text);
+            text-transform: none;
           }
         }
         &:hover,
