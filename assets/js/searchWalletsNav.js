@@ -146,7 +146,7 @@ function makeCompactResultsHTML(w) {
         <small><!--<i class="${window.platforms[w.folder].css}"></i> --><span class="category">${w.category}</span></small>
       </span>
       <span class="badge">
-      <span>${w.verdict}</span>
+      <span>${window.verdicts[w.verdict].short}</span>
     </span>
     </a>`
   return result
