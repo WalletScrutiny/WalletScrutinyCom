@@ -10,7 +10,7 @@ window.addEventListener("resize", () => {
     exitSearchUI()
   }
 })
-document.querySelector(".exit-search-target").addEventListener("click", () => {
+document.body.addEventListener("click", () => {
   exitSearchUI()
 })
 document.querySelector(".reset-search").addEventListener("click", (event) => {
@@ -24,7 +24,8 @@ document.querySelector(".reset-search").addEventListener("click", (event) => {
   exitSearchUI()
 })
 document.querySelectorAll(".search-trigger-target").forEach((ele) => {
-  ele.addEventListener("click", () => {
+  ele.addEventListener("click", (event) => {
+    event.stopPropagation()
     searchTrigger()
   })
 })
@@ -49,7 +50,8 @@ document.querySelector(".mobile-search-shortcut").addEventListener("click", () =
     document.querySelector(".mobile-search-shortcut").classList.remove("active")
   }
 })
-document.querySelector(".searchbar").addEventListener("click", () => {
+document.querySelector(".searchbar").addEventListener("click", (event) => {
+  event.stopPropagation()
   if (window.searchTerm?.length > 0) {
     document.querySelector(".search-controls").classList.add("hint-return")
   } else {
@@ -57,7 +59,7 @@ document.querySelector(".searchbar").addEventListener("click", () => {
   }
 })
 function searchTrigger() {
-  if (window.searchTerm?.length > 0) {
+  if (window.searchTerm?.length > 1) {
     document.querySelector(".wallet-search").classList.add("active")
     document.querySelector(".search-controls").classList.add("working")
     document.querySelector(".search-controls").classList.add("edited")
@@ -70,8 +72,10 @@ function searchTrigger() {
   }
 
   clearTimeout(window.walletSearchTimeoutTrigger)
-  if (window.searchTerm?.length > 0) {
-    window.walletSearchTimeoutTrigger = setTimeout(() => { searchCatalogueNav(window.searchTerm) }, 200)
+  if (window.searchTerm?.length > 1) {
+    window.walletSearchTimeoutTrigger = setTimeout(() => {
+      searchCatalogueNav(window.searchTerm)
+    }, 200)
   }
 }
 window.temporarySearchValue = ""
@@ -81,56 +85,54 @@ function searchCatalogueNav(input) {
   result.classList.add("visible")
   const term = input.trim().toUpperCase()
   const minTermLength = 1
-  if (window.temporarySearchValue !== term) {
-    window.temporarySearchValue = term;
-    if (term.length > minTermLength) {
-      var matchCounter = 0
-      window.orderedObs.forEach(wallet => {
-        if (wallet.title) {
-          let searchableTerms = `${[wallet, ...(wallet.versions || [])].map(v => ` ${v.title} ${v.folder}/${v.appId} ${v.website}`).join(" ")}`
+  window.temporarySearchValue = term;
+  if (term.length > minTermLength) {
+    var matchCounter = 0
+    window.orderedObs.forEach(wallet => {
+      if (wallet.title) {
+        let searchableTerms = `${[wallet, ...(wallet.versions || [])].map(v => ` ${v.title} ${v.folder}/${v.appId} ${v.website}`).join(" ")}`
 
-          if (matchCounter < 1)
-            result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
-          document.querySelector(".search-controls").classList.remove("working")
-          let index = searchableTerms.toLocaleUpperCase().indexOf(term)
+        if (matchCounter < 1)
+          result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
+        document.querySelector(".search-controls").classList.remove("working")
+        let index = searchableTerms.toLocaleUpperCase().indexOf(term)
 
-          if (index !== -1) {
-            if (matchCounter == 0) {
-              result.innerHTML = ""
-            }
-            const walletRow = document.createElement("li")
-            if (matchCounter < 10) {
-              walletRow.style['animation-delay'] = matchCounter * .2 + 's'
-            }
-            walletRow.classList.add("actionable")
-            let compactedResults = ""
-            compactedResults += makeCompactResultsHTML(wallet)
-
-
-            var det = ""
-            if (wallet.versions && wallet.versions.length > 0) {
-              for (let i = 0; i < wallet.versions.length; i++) {
-                searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
-                compactedResults += makeCompactResultsHTML(wallet.versions[i])
-              }
-              det = "-hom"
-            }
-            walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
-            document.querySelector(".search-controls").classList.remove("working")
-            result.append(walletRow)
-            matchCounter++
+        if (index !== -1) {
+          if (matchCounter == 0) {
+            result.innerHTML = ""
           }
+          const walletRow = document.createElement("li")
+          if (matchCounter < 10) {
+            walletRow.style['animation-delay'] = matchCounter * .2 + 's'
+          }
+          walletRow.classList.add("actionable")
+          let compactedResults = ""
+          compactedResults += makeCompactResultsHTML(wallet)
+
+
+          var det = ""
+          if (wallet.versions && wallet.versions.length > 0) {
+            for (let i = 0; i < wallet.versions.length; i++) {
+              searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
+              compactedResults += makeCompactResultsHTML(wallet.versions[i])
+            }
+            det = "-hom"
+          }
+          walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
+          document.querySelector(".search-controls").classList.remove("working")
+          result.append(walletRow)
+          matchCounter++
         }
-      })
-    } else if (term.length != 0) {
-      var l = document.createElement("li")
-      var rem = (minTermLength + 1) - term.length
-      var s = rem > 1 ? "s" : ""
-      l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
-      result.append(l)
-    }
-    searchScrollToTop()
+      }
+    })
+  } else if (term.length != 0) {
+    var l = document.createElement("li")
+    var rem = (minTermLength + 1) - term.length
+    var s = rem > 1 ? "s" : ""
+    l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
+    result.append(l)
   }
+  searchScrollToTop()
 }
 
 function makeCompactResultsHTML(w) {

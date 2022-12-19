@@ -39,11 +39,10 @@
       content: "";
       height: 100vh;
       width: 200vw;
-      background: var(--body);
+      background: var(--body-50);
       top: 3rem;
       left: -100vw;
       z-index: -3;
-      opacity: 0.75;
       backdrop-filter: blur(10px);
     }
   }
