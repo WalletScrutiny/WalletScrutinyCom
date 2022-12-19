@@ -243,8 +243,7 @@ function getBadge(wallet) {
                
             </div>
             <div class="stamps">
-            ${wallet.meta != "outdated" ? `<span class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
-            ${wallet.meta != "ok" ? `<span class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
+            <span data-text="${wallet.verdict}" alt=""></span>
             </div>
           </div>
         </div>
