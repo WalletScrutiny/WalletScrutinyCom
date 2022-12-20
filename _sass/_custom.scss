@@ -255,6 +255,13 @@
       content: unset;
   }
   }
+  .hero-text {
+    max-width: 500px;
+    @media (max-width: 650px) {
+      max-width: 89vw;
+      margin: auto;
+    }
+  }
 }
 
 .stamps {
