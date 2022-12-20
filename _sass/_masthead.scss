@@ -50,8 +50,8 @@
 }
 .masthead__menu {
   display: grid;
-  grid-template-columns: auto 1fr 1fr;
-  gap: 5px 20px;
+  grid-template-columns: auto 1fr auto;
+  gap: 5px 40px;
   align-items: center;
   max-width: 100vw;
   .wallet-search {
@@ -340,7 +340,7 @@
   }
 }
 .masthead-logo {
-  padding: 0 10px;
+  padding-left:20px;
   &::before {
     display: block;
     height: 22px;
