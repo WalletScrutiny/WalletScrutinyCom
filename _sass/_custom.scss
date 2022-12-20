@@ -226,12 +226,6 @@
   flex-direction: row;
   align-items: center;
   position: relative;
-  &::after,
-  &::before {
-    @media (max-width: 650px) {
-      display: none;
-    }
-  }
   &::before {
     content: "";
     position: absolute;
@@ -253,6 +247,13 @@
     max-height: 45vw;
     display: block;
     background-size: contain;
+  }
+  &::after,
+  &::before {
+    @media (max-width: 650px) {
+      display: none;
+      content: unset;
+  }
   }
 }
 
