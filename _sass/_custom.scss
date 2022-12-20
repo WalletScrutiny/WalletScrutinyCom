@@ -211,7 +211,13 @@
 .list-view-only {
   display: none;
 }
-
+.light{
+  .hero{
+  &::after {
+    background-image: url(/images/is-your-bitcoin-wallet-secure-light.svg);
+  }
+}
+}
 .hero {
   display: flex;
   flex-direction: row;
@@ -237,7 +243,7 @@
     bottom: 0;
   }
   &::after {
-    background-image: url(/images/is-your-wallet-secure.png);
+    background-image: url(/images/is-your-bitcoin-wallet-secure-dark.svg);
     height: 500px;
     aspect-ratio: 1/1;
     content: "";
