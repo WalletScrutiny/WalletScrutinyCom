@@ -176,6 +176,9 @@
               }
               h3 {
                 margin-bottom: 0;
+                @media (max-width: 500px) {
+                  grid-column: 2/4;
+                }
               }
               img {
                 max-width: 50px;

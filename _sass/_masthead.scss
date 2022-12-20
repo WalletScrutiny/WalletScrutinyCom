@@ -315,6 +315,7 @@
       width: 2rem;
       text-align: center;
       margin-left: 1rem;
+      color: var(--masthead-text);
       &.active {
         background: var(--accent-text);
         border-radius: 3px;
@@ -338,6 +339,7 @@
   }
 }
 .masthead-logo {
+  padding: 0 10px;
   &::before {
     display: block;
     height: 22px;

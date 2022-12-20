@@ -51,4 +51,14 @@
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
   }
 </script>
+
+<script>
+  document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
+    const self = document.querySelector(".navicon").parentNode
+    console.log(window.outerWidth, self.getBoundingClientRect().right,(self.clientWidth/2))
+    const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2)
+    console.log(right)
+    document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`
+  })
+</script>
 <script src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>
