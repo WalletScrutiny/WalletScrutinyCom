@@ -7494,7 +7494,8 @@ function relayConnect(url, onNotice = () => {
       resolveOpen = resolve;
     });
   }
-  var channels = {};
+  var eventListeners = {};
+  var eoseListeners = {};
   function connect() {
     ws = new WebSocket(url);
     ws.onopen = () => {
@@ -7504,8 +7505,9 @@ function relayConnect(url, onNotice = () => {
         wasClosed = false;
         for (let channel in openSubs) {
           let filters = openSubs[channel];
-          let cb = channels[channel];
-          sub({ cb, filter: filters }, channel);
+          let eventCb = eventListeners[channel];
+          let eoseCb = eoseListeners[channel];
+          sub({ eventCb, filter: filters }, channel, eoseCb);
         }
       }
     };
@@ -7538,23 +7540,34 @@ function relayConnect(url, onNotice = () => {
       } catch (err) {
         data = e.data;
       }
-      if (data.length > 1) {
-        if (data[0] === "NOTICE") {
-          if (data.length < 2)
+      if (data.length >= 1) {
+        switch (data[0]) {
+          case "NOTICE":
+            if (data.length != 2) {
+              return;
+            }
+            console.log(`message from relay ${url}: ${data[1]}`);
+            onNotice(data[1]);
             return;
-          console.log("message from relay " + url + ": " + data[1]);
-          onNotice(data[1]);
-          return;
-        }
-        if (data[0] === "EVENT") {
-          if (data.length < 3)
+          case "EOSE":
+            if (data.length != 2) {
+              return;
+            }
+            console.log(`Channel ${data[1]}: End-of-stored-events`);
+            if (eoseListeners[data[1]]) {
+              eoseListeners[data[1]]();
+            }
             return;
-          let channel = data[1];
-          let event = data[2];
-          if (validateEvent(event) && (isSetToSkipVerification[channel] || verifySignature(event)) && channels[channel] && matchFilters(openSubs[channel], event)) {
-            channels[channel](event);
-          }
-          return;
+          case "EVENT":
+            if (data.length != 3) {
+              return;
+            }
+            let channel = data[1];
+            let event = data[2];
+            if (validateEvent(event) && (isSetToSkipVerification[channel] || verifySignature(event)) && eventListeners[channel] && matchFilters(openSubs[channel], event)) {
+              eventListeners[channel](event);
+            }
+            return;
         }
       }
     };
@@ -7569,7 +7582,7 @@ function relayConnect(url, onNotice = () => {
     await untilOpen;
     ws.send(msg);
   }
-  const sub = ({ cb, filter, beforeSend, skipVerification }, channel = Math.random().toString().slice(2)) => {
+  const sub = ({ cb, filter, beforeSend, skipVerification }, channel = Math.random().toString().slice(2), eoseCb) => {
     var filters = [];
     if (Array.isArray(filter)) {
       filters = filter;
@@ -7581,7 +7594,8 @@ function relayConnect(url, onNotice = () => {
       filters = beforeSendResult.filter;
     }
     trySend(["REQ", channel, ...filters]);
-    channels[channel] = cb;
+    eventListeners[channel] = cb;
+    eoseListeners[channel] = eoseCb;
     openSubs[channel] = filters;
     isSetToSkipVerification[channel] = skipVerification;
     const activeCallback = cb;
@@ -7595,7 +7609,8 @@ function relayConnect(url, onNotice = () => {
       }) => sub({ cb: cb2, filter: filter2, beforeSend: beforeSend2, skipVerification }, channel),
       unsub: () => {
         delete openSubs[channel];
-        delete channels[channel];
+        delete eventListeners[channel];
+        delete eoseListeners[channel];
         delete isSetToSkipVerification[channel];
         trySend(["CLOSE", channel]);
       }
@@ -7653,13 +7668,17 @@ function relayPool() {
     }
   }
   const activeSubscriptions = {};
-  const sub = ({ cb, filter, beforeSend }, id) => {
+  const sub = ({ cb, filter, beforeSend }, id, cbEose) => {
     if (!id)
       id = Math.random().toString().slice(2);
     const subControllers = Object.fromEntries(
       Object.values(relays).filter(({ policy }) => policy.read).map(({ relay }) => [
         relay.url,
-        relay.sub({ cb: (event) => cb(event, relay.url), filter, beforeSend }, id)
+        relay.sub(
+          { cb: (event) => cb(event, relay.url), filter, beforeSend },
+          id,
+          cbEose
+        )
       ])
     );
     const activeCallback = cb;
@@ -7683,7 +7702,8 @@ function relayPool() {
     const addRelay = (relay) => {
       subControllers[relay.url] = relay.sub(
         { cb: (event) => cb(event, relay.url), filter, beforeSend },
-        id
+        id,
+        () => cbEose(relay.url)
       );
       return activeSubscriptions[id];
     };
@@ -7824,21 +7844,24 @@ var Summariser = class {
     this.trustedAuthors = trustedAuthors;
   }
   onReady = () => new Promise((resolve) => {
-    const sub = this.pool.sub({
-      cb: (event, relay) => {
-        var _a;
-        const d = event.tags.find((tag) => tag[0] === "d")[1];
-        this.opinions[d] = [...((_a = this.opinions) == null ? void 0 : _a[d]) || [], event];
+    const sub = this.pool.sub(
+      {
+        cb: (event, relay) => {
+          var _a;
+          const d = event.tags.find((tag) => tag[0] === "d")[1];
+          this.opinions[d] = [...((_a = this.opinions) == null ? void 0 : _a[d]) || [], event];
+        },
+        filter: {
+          kinds: [30234],
+          authors: this.trustedAuthors
+        }
       },
-      filter: {
-        kinds: [30234],
-        authors: this.trustedAuthors
+      null,
+      () => {
+        sub.unsub();
+        resolve();
       }
-    });
-    setTimeout(() => {
-      sub.unsub();
-      resolve();
-    }, 15e3);
+    );
   });
   get(key) {
     const ops = this.opinions[key];
