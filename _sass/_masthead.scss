@@ -11,7 +11,8 @@
   animation-delay: 0.15s;
   z-index: 20;
   background-color: var(--nav);
-
+  box-shadow: 0 0 1px;
+  
   &__inner-wrap {
     @include container;
     @include clearfix;
