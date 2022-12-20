@@ -311,13 +311,13 @@
       display: block;
       height: 2rem;
       margin: auto;
-      line-height: 2rem;
+      line-height: 1rem;
       width: 2rem;
       text-align: center;
-      margin-left: 1rem;
+      padding: .5rem;
       color: var(--masthead-text);
       &.active {
-        background: var(--accent-text);
+        background: var(--accent);
         border-radius: 3px;
       }
     }

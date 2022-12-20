@@ -45,6 +45,7 @@ document.querySelector(".mobile-search-shortcut").addEventListener("click", () =
   if (!document.querySelector(".wallet-search").classList.contains("mobile-active")) {
     document.querySelector(".wallet-search").classList.add("mobile-active")
     document.querySelector(".mobile-search-shortcut").classList.add("active")
+    document.querySelector(".searchbar").focus()
   } else {
     document.querySelector(".wallet-search").classList.remove("mobile-active")
     document.querySelector(".mobile-search-shortcut").classList.remove("active")
@@ -160,3 +161,9 @@ function searchScrollToTop() {
     })
   }
 }
+
+
+//PLACING MENU BUTTON SCRIPT HERE AS IT PERTAINS TO THE NAV
+//MAY MOVE TO MORE SUITABLE FILE LATER
+
+// MOVED TO MASTHEAD HTML
