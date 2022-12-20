@@ -268,3 +268,14 @@
     }
   }
 }
+
+&:not(.view-list){
+  .stamps {
+    span {
+      &::before {
+        background: var(--text);
+        color: var(--white);
+      }
+    }
+  }
+}
