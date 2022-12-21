@@ -10,9 +10,9 @@ appCountry:
 released: 2020-05-11
 updated: 2022-12-15
 version: 1.48.1
-stars: 4.3
+stars: 4.5
 ratings: 13620
-reviews: 2346
+reviews: 2376
 size: 
 website: https://www.crypto.com
 repository: 

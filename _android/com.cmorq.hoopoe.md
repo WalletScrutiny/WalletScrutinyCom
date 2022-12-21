@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: cmorq, banking built for all.
+title: cmorq, Web3 banking for all.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: Aug 15, 2021
-updated: 2022-12-01
-version: 4.9.6
+updated: 2022-12-19
+version: 4.9.7
 stars: 4
 ratings: 
 reviews: 29

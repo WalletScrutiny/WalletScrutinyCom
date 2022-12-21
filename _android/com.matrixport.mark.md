@@ -9,10 +9,10 @@ appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
 updated: 2022-12-15
-version: 1.7.2
+version: 1.7.3
 stars: 4.2
 ratings: 1103
-reviews: 890
+reviews: 891
 size: 
 website: https://invest.matrixport.com
 repository: 

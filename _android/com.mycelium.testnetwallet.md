@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 146
 reviews: 9
 size: 
-website: http://mycelium.com
+website: https://mycelium.com
 repository: 
 issue: 
 icon: com.mycelium.testnetwallet.png

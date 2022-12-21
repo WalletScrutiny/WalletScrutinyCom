@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-15
 updated: 2022-12-06
 version: 3.4.0
-stars: 4.3
+stars: 4.2
 ratings: 621
-reviews: 36
+reviews: 37
 size: 
 website: https://viawallet.com
 repository: 

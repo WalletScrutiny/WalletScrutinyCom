@@ -8,8 +8,8 @@ appId: br.com.foxbit
 appCountry: ph
 idd: 1435319194
 released: 2019-03-24
-updated: 2022-12-05
-version: 2.29.0
+updated: 2022-12-20
+version: 2.29.1
 stars: 0
 reviews: 0
 size: '124600320'

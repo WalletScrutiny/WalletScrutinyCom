@@ -8,8 +8,8 @@ users: 100000
 appId: com.exmo
 appCountry: 
 released: 2019-11-12
-updated: 2022-12-16
-version: 3.11.7
+updated: 2022-12-19
+version: 3.12.1
 stars: 4.5
 ratings: 2774
 reviews: 106

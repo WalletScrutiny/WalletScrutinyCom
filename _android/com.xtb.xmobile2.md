@@ -12,7 +12,7 @@ updated: 2022-12-13
 version: VARY
 stars: 4.4
 ratings: 22753
-reviews: 84
+reviews: 85
 size: 
 website: http://www.xtb.com
 repository: 

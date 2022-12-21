@@ -8,8 +8,8 @@ users: 50000
 appId: com.coinfield.csapp
 appCountry: ca
 released: 2019-05-16
-updated: 2021-07-26
-version: 2.6.0
+updated: 2022-12-19
+version: 3.1.5
 stars: 3.5
 ratings: 1231
 reviews: 99
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-11-02
+date: 2022-12-21
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

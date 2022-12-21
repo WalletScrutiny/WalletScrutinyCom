@@ -3,12 +3,12 @@ wsId:
 title: Jtechtrade:Crypto & Giftcards
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.walker.jtech
 appCountry: 
 released: Sep 26, 2021
-updated: 2022-12-14
-version: 1.0.4
+updated: 2022-12-20
+version: 1.0.5
 stars: 3.9
 ratings: 
 reviews: 7

@@ -10,7 +10,7 @@ appCountry: ph
 released: 2021-01-18
 updated: 2022-12-09
 version: 2.8.0
-stars: 3.5
+stars: 3.4
 ratings: 3291
 reviews: 1980
 size: 

@@ -13,12 +13,12 @@ updated: 2022-12-09
 version: 3.0.0
 stars: 4.8
 ratings: 5008
-reviews: 1132
+reviews: 1135
 size: 
 website: https://changelly.com/
 repository: 
 issue: 
-icon: com.changelly.app.jpg
+icon: com.changelly.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet

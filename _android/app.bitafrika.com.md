@@ -3,7 +3,7 @@ wsId:
 title: BitAfrika - Buy & Sell Crypto
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: app.bitafrika.com
 appCountry: 
 released: Jul 19, 2021

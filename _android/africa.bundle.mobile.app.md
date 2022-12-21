@@ -8,11 +8,11 @@ users: 1000000
 appId: africa.bundle.mobile.app
 appCountry: 
 released: 2020-04-20
-updated: 2022-12-06
-version: 4.2.5
+updated: 2022-12-18
+version: 4.2.7
 stars: 3.9
 ratings: 13846
-reviews: 356
+reviews: 357
 size: 
 website: https://bundle.africa
 repository: 
