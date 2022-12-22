@@ -36,8 +36,11 @@ window.addEventListener('load', () => {
 })
 
 function setDropdown(parent, child) {
-  for(const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")){ ele.classList.remove("selected") }
-  document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
+  // TRY / CATCH HERE FOR TESTING PURPOSES
+  try {
+    for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
+    document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
+  }catch(err){console.log("failed to set dropdown for:", parent, child)}
 }
 
 function updateUrl () {

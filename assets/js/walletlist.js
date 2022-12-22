@@ -32,7 +32,17 @@ function toggleApp(id, show) {
     lastId = ""
   } else {
     lastId = id
-    var t = document.getElementById("card_" + id)
+    let thisCard = false
+    for (const walletInstance of window.wallets) {
+      if (walletInstance.folder + walletInstance.appId === id) {
+        thisCard = getBadge(walletInstance)
+        thisCard += getWidgetDetails(walletInstance)
+        thisCard+=`<p><a href="${walletInstance.url}" rel="permalink">
+        <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
+        </a></p>`
+        break
+      }
+    }
     if (document.querySelectorAll(".temp_card_" + id).length > 0) {
       // correct card is open already
       if (!show) {
@@ -44,12 +54,10 @@ function toggleApp(id, show) {
     } else {
       var temp = document.createElement("div")
       var tempInner = document.createElement("div")
-      tempInner.classList.add("opened")
-      tempInner.classList.add("AppDisplayCard")
-      tempInner.innerHTML = String(t.innerHTML).replace("onclick=", "_disabled=")
+      tempInner.setAttribute("class", "opened AppDisplayCard")
+      tempInner.innerHTML = String(thisCard).replace("onclick=", "_disabled=")
       tempInner.setAttribute("onclick", "event.stopPropagation()")
-      temp.classList.add("temp_card_" + id)
-      temp.classList.add("temp_card")
+      temp.setAttribute("class", "temp_card_" + id + " temp_card")
       temp.append(tempInner)
       temp.setAttribute("onclick", "toggleApp()")
       document.body.append(temp)

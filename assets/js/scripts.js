@@ -224,41 +224,30 @@ function renderBadgesToDiv(wallets, anchor) {
 }
 
 function getBadge(wallet) {
-  const walletId = wallet.folder + String(wallet.appId).replaceAll(".", "")
+  const walletId = wallet.folder + String(wallet.appId)
   let faCollection = getIcon(wallet.folder)
-
-  return `<div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" style="cursor:pointer;cursor:hand;float:left;" href="${wallet.url}">
-      <div style="width:7em;position: relative;" onclick="toggleApp('${walletId}')">
-        <div style="position:relative">
-          <div class="flex-r">
-            <div class="app_logo">
-                <img loading="lazy" src="${wallet.icon
-      ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}`
-    : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
-    <h3 class="list-title">${wallet.altTitle || wallet.title}</h3>
-                <div class="platform-logo platform-info">
-                <span><i class="${faCollection}"></i><span class="list-view-only"> ${wallet.category}</span></span>
-                <div class="list-view-only stats">
-                <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
-                </div>
-                <span class="list-view-only updated">${wallet.updated ? wallet.updated : wallet.date}</span>
-                </div>
-               
-            </div>
-            <div class="stamps">
-            <span data-text="${wallet.verdict}" alt=""></span>
-            </div>
+  // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
+  // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN 
+  // USER WANTS TO SEE MORE ABOUT A WALLET
+  return `
+  <div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" href="${wallet.url}">
+    <div onclick="toggleApp('${walletId}')">
+      <div class="tile-head">
+        <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
+        <h3>${wallet.altTitle || wallet.title}</h3>
+        <span class="platform tile-view-only"><i class="${faCollection}"></i><span> ${wallet.category}</span></span>
+        <div class="wallet-details">
+          <div class="stamps">
+            <span data-text="${window.verdicts[wallet.verdict].short}" alt=""></span>
           </div>
+          <span class="platform list-view-only">
+            <i class="${faCollection}"></i><span> ${wallet.category}</span></span>
+          <div class="list-view-only stats">
+            <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+          </div>
+          <span class="updated" data-text="${wallet.updated ? 'updated' : 'reviewed'}">${wallet.updated ? wallet.updated : wallet.date}</span>
         </div>
-          <div class="app_info_box">
-              <strong>${wallet.altTitle || wallet.title}</strong>
-          </div>
       </div>
-      <div id="details_${walletId}" class="item-detail-container" style="width:20em;display:none">
-        ${getWidgetDetails(wallet)}
-        <p><a href="${wallet.url}" rel="permalink">
-        <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
-        </a></p>
-      </div>
-      </div>`
+    </div>
+  </div>`
 }

@@ -126,13 +126,6 @@
       background: transparent;
       &:nth-last-of-type(odd) {
         background: var(--white);
-        .stamps {
-          span {
-            &::before {
-              box-shadow: 0 0 4px -2px;
-            }
-          }
-        }
       }
       &:hover {
         box-shadow: none;
@@ -144,30 +137,50 @@
             display: grid;
             grid-auto-flow: column;
             align-items: center;
-            grid-template-columns: 1fr auto;
+            grid-template-columns: 1fr 120px;
+            @media (max-width: 650px) {
+              grid-template-columns: 1fr auto;
+            }
             .app_logo {
               display: grid;
               width: 100%;
               height: initial;
               align-items: center;
-              grid-template-columns: auto 1fr 1fr;
-              gap: 5px;
+              grid-template-columns: 50px 30vw 1fr;
+              gap: 10px;
+              @media (max-width: 650px) {
+                grid-template-columns: 50px 20vw 1fr;
+              }
               .platform-info {
                 position: relative;
                 font-size: initial;
                 top: unset;
-                display: flex;
-                flex-direction: row;
+                display: grid;
+                grid-template: 1fr / 1fr 1fr 1fr;
                 flex-wrap: wrap;
-                gap: 20px;
-                @media (max-width: 500px) {
+                gap: 10px;
+                @media (max-width: 650px) {
                   grid-row: 2/3;
                   grid-column: 1/4;
                   gap: 5px 20px;
+                  display: flex;
+                  flex-direction: row;
                 }
               }
               .list-view-only {
                 display: inline-block;
+                position: relative;
+                margin-top: auto;
+                margin-bottom: auto;
+                &::after {
+                  content: attr(data-text);
+                  font-size: 11px;
+                  position: absolute;
+                  bottom: -12px;
+                  left: 0;
+                  opacity: 0.6;
+                  text-transform: capitalize;
+                }
                 &.stats {
                   .star-rating {
                     font-size: initial;
@@ -191,10 +204,6 @@
             }
           }
         }
-        //  > div {
-        //   display: grid;
-        //   grid-template-columns: repeat(3, auto);
-        // }
       }
       .app_info_box {
         display: none;
@@ -214,12 +223,12 @@
 .list-view-only {
   display: none;
 }
-.light{
-  .hero{
-  &::after {
-    background-image: url(/images/is-your-bitcoin-wallet-secure-light.svg);
+.light {
+  .hero {
+    &::after {
+      background-image: url(/images/is-your-bitcoin-wallet-secure-light.svg);
+    }
   }
-}
 }
 .hero {
   display: flex;
@@ -253,28 +262,46 @@
     @media (max-width: 650px) {
       display: none;
       content: unset;
-  }
+    }
   }
 }
 
 .stamps {
   span {
+    margin-left: auto;
     &::before {
       content: attr(data-text);
-      font-weight: 800;
-      text-transform: capitalize;
-      font-size: 16px;
-      padding: 3px 0.5rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 11px;
+      padding: 3px 15px;
       text-align: center;
-      border-radius: 3px;
-      background: var(--white);
-      color: var(--text);
+      border-radius: 30px;
+      // background: var(--white);
+      // color: var(--text);
+      background: var(--text);
+      color: var(--white);
+      letter-spacing: 0.55px;
     }
   }
 }
 
-.view-tiles{
+.view-tiles {
+  .flexi-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    gap: 40px;
+    &::after {
+      content: "";
+      flex: auto;
+    }
+  }
   .stamps {
+    margin-left: unset;
     span {
       &::before {
         background: var(--text);
@@ -282,4 +309,22 @@
       }
     }
   }
+}
+
+
+.temp_card {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--shadow-2);
+  z-index: 999;
+  backdrop-filter: blur(10px);
 }
