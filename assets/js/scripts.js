@@ -228,11 +228,12 @@ function renderBadgesToDiv(wallets, anchor) {
 function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
   let faCollection = getIcon(wallet.folder)
+  const delay = num>29?0:num*80
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${num*80}ms;">
+  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${delay}ms;">
     <div class="tile-head">
       <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>
