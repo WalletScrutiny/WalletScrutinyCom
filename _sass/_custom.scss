@@ -347,10 +347,10 @@
       opacity: 0;
       transform: translateX(40px);
       animation: list-slide-in 200ms ease forwards 1;
-      @media (max-width: 700px) {
+      @media (max-width: 800px) {
         grid-template-columns: 1fr auto;
       }
-      @media (max-width: 400px) {
+      @media (max-width: 500px) {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -364,18 +364,9 @@
       }
       .tile-head {
         display: grid;
-        grid-template-columns: 50px 20vw;
+        grid-template-columns: 50px 1fr;
         align-items: center;
         gap: 10px;
-        @media (max-width: 800px) {
-          grid-template-columns: 50px 20vw;
-        }
-        @media (max-width: 700px) {
-          grid-template-columns: 50px 40vw;
-        }
-        @media (max-width: 400px) {
-          grid-template-columns: 50px 1fr;
-        }
         .app_logo {
           width: 40px;
           max-height: 40px;
@@ -389,20 +380,20 @@
       }
       .list-details {
         display: grid;
-        width: 40vw;
+        width: 375px;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         font-size: 15px;
-        @media (max-width: 700px) {
+        @media (max-width: 800px) {
           grid-column: 1/2;
           grid-row: 2/3;
-          width: 50vw;
+          width: max-content;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
           margin-left: 5px;
         }
-        @media (max-width: 400px) {
+        @media (max-width: 500px) {
           width: 100%;
         }
         .star-rating {
@@ -410,6 +401,7 @@
         }
         .updated {
           position: relative;
+          margin-bottom: 6px;
           &::after {
             content: attr(data-text);
             position: absolute;
@@ -419,6 +411,11 @@
             text-transform: capitalize;
             font-weight: 300;
             opacity: 0.7;
+            width: max-content;
+            @media (max-width: 800px) {
+              bottom: -14px;
+              font-size: 11px;
+            }
           }
         }
         span i {
