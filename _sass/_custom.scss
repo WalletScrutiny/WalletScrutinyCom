@@ -41,7 +41,7 @@
   flex-wrap: wrap;
   justify-content: end;
   gap: 30px 0px;
-  @media (max-width: 500px) {
+  @media (max-width: 550px) {
     justify-content: start;
   }
   .component {
@@ -252,7 +252,8 @@
         }
       }
     }
-    &.obsolete, &.defunct {
+    &.obsolete,
+    &.defunct {
       .tile-head {
         opacity: 0.75;
       }
@@ -284,10 +285,10 @@
       transform: translateX(40px);
       animation: list-slide-in 200ms ease forwards 1;
       transition: 200ms ease;
-      @media (max-width: 800px) {
+      @media (max-width: 950px) {
         grid-template-columns: 1fr auto;
       }
-      @media (max-width: 500px) {
+      @media (max-width: 550px) {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -296,7 +297,7 @@
         background: var(--white);
       }
       &:hover {
-        box-shadow: 0 0 0 2px var(--white),0 0 40px -20px #000;
+        box-shadow: 0 0 0 2px var(--white), 0 0 40px -20px #000;
         background: var(--white);
         z-index: 1;
       }
@@ -318,20 +319,21 @@
       }
       .list-details {
         display: grid;
-        width: 375px;
+        width: 440px;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         font-size: 15px;
-        @media (max-width: 800px) {
+        @media (max-width: 950px) {
           grid-column: 1/2;
           grid-row: 2/3;
-          width: max-content;
           display: flex;
+          width: max-content;
           flex-direction: row;
           flex-wrap: wrap;
           margin-left: 5px;
+          margin-bottom: 8px;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 550px) {
           width: 100%;
         }
         .star-rating {
@@ -339,7 +341,8 @@
         }
         .updated {
           position: relative;
-          margin-bottom: 6px;
+          margin-bottom: auto;
+          margin-top: auto;
           &::after {
             content: attr(data-text);
             position: absolute;
@@ -350,7 +353,7 @@
             font-weight: 300;
             opacity: 0.7;
             width: max-content;
-            @media (max-width: 800px) {
+            @media (max-width: 950px) {
               bottom: -14px;
               font-size: 11px;
             }
