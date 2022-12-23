@@ -3,6 +3,9 @@
   flex-direction: row;
   align-items: center;
   position: relative;
+  max-width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
   &::before {
     content: "";
     position: absolute;
