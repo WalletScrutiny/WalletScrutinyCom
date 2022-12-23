@@ -228,7 +228,7 @@ function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
   let faCollection = getIcon(wallet.folder)
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
-  // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN 
+  // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
   <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${num*80}ms;">
@@ -246,8 +246,8 @@ function getBadge(wallet, num) {
     </div>
     <div class="wallet-details">
       <div class="stamps">
-      ${ wallet.meta != "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
-      ${ wallet.meta != "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+      ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
+      ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
       </div>
     </div>
   </div>`
