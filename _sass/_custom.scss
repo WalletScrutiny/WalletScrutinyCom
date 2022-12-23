@@ -336,7 +336,7 @@
       background: transparent;
       display: grid;
       gap: 10px;
-      grid-template-columns: 1fr 1fr auto;
+      grid-template-columns: 1fr 1fr 180px;
       align-items: center;
       padding: 10px;
       border-radius: 15px;
@@ -360,7 +360,7 @@
       }
       .tile-head {
         display: grid;
-        grid-template-columns: 50px 30vw;
+        grid-template-columns: 50px 25vw;
         align-items: center;
         gap: 10px;
         @media (max-width: 800px) {
@@ -385,7 +385,7 @@
       }
       .list-details {
         display: grid;
-        width: 30vw;
+        width: 35vw;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         font-size: 15px;
@@ -420,6 +420,7 @@
         background: var(--white);
         padding: 1px 10px;
         border-radius: 10px;
+        margin-right: auto;
         @media (max-width: 700px) {
           font-size: 11px;
         }
