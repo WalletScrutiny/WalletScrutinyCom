@@ -41,7 +41,7 @@ function recreateDropdowns(verdict, platform) {
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
       if (count > 0) {
-        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>${count} wallets</small></div>`
+        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${window.verdicts[instanceVerdict].short} <small>${count} wallets</small></div>`
       }
       else if(verdict === instanceVerdict) {
         html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>none found</small></div>`
@@ -207,8 +207,10 @@ function renderBadgesToDiv(wallets, anchor) {
   if (!anchor)
     return
   var badgesHtml = ``
+  let counter = 0
   wallets.forEach(obj => {
-    badgesHtml += getBadge(obj)
+    badgesHtml += getBadge(obj, counter)
+    counter++
   })
   var d = document.createElement("div")
   d.classList.add("page-section")
@@ -223,30 +225,30 @@ function renderBadgesToDiv(wallets, anchor) {
   anchor.querySelectorAll(".page-section")[0].replaceWith(d)
 }
 
-function getBadge(wallet) {
+function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
   let faCollection = getIcon(wallet.folder)
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN 
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
-  <div id="card_${walletId}" class="AppDisplayCard meta_${wallet.meta}" href="${wallet.url}">
-    <div onclick="toggleApp('${walletId}')">
-      <div class="tile-head">
-        <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
-        <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${faCollection}"></i><span> ${wallet.category}</span></span>
-        <div class="wallet-details">
-          <div class="stamps">
-            <span data-text="${window.verdicts[wallet.verdict].short}" alt=""></span>
-          </div>
-          <span class="platform list-view-only">
-            <i class="${faCollection}"></i><span> ${wallet.category}</span></span>
-          <div class="list-view-only stats">
-            <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
-          </div>
-          <span class="updated" data-text="${wallet.updated ? 'updated' : 'reviewed'}">${wallet.updated ? wallet.updated : wallet.date}</span>
+  <div id="card_${walletId}" class="AppDisplayCard item" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${num*80}ms;">
+    <div class="tile-head">
+      <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
+      <h3>${wallet.altTitle || wallet.title}</h3>
+      <span class="platform tile-view-only"><i class="${faCollection}"></i><span> ${wallet.category}</span></span>
+    </div>
+    <div class="list-view-only list-details">
+      <span><i class="${faCollection}"></i> ${wallet.category}</span>
+        <div class="stats">
+          <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
         </div>
+        <span class="updated" data-text="${wallet.updated ? 'updated' : 'reviewed'}">${wallet.updated ? wallet.updated : wallet.date}</span>
+    </div>
+    <div class="wallet-details">
+      <div class="stamps">
+      ${ wallet.meta != "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
+      ${ wallet.meta != "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
       </div>
     </div>
   </div>`

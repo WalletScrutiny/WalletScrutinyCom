@@ -1,3 +1,47 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    height: 340px;
+    aspect-ratio: 1/1;
+    display: block;
+    background-image: radial-gradient(var(--accent) 9%, transparent 9%);
+    background-size: 13px 13px;
+    background-repeat: repeat;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+  }
+  &::after {
+    background-image: url(/images/is-your-bitcoin-wallet-secure-dark.svg);
+    height: 500px;
+    aspect-ratio: 1/1;
+    content: "";
+    max-height: 45vw;
+    display: block;
+    background-size: contain;
+  }
+  &::after,
+  &::before {
+    @media (max-width: 650px) {
+      display: none;
+      content: unset;
+    }
+  }
+}
+
+.light {
+  .hero {
+    &::after {
+      background-image: url(/images/is-your-bitcoin-wallet-secure-light.svg);
+    }
+  }
+}
+
 .dropdown-content {
   position: absolute;
   background-color: #f9f9f9;

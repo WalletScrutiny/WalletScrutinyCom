@@ -24,7 +24,7 @@
   }
 }
 .component-verdict {
-  width: 160px;
+  width: 200px;
 }
 .component-platform {
   width: 145px;
@@ -115,177 +115,138 @@
   }
 }
 
+.list-title,
+.list-view-only,
+.tile-view-only {
+  display: none;
+}
+
+.flexi-list {
+  .item {
+    display: none;
+  }
+  .stamps {
+      display: grid;
+      gap: 5px;
+    span {
+      &::after {
+        content: attr(data-text);
+        color: var(--text);
+        text-transform: uppercase;
+      }
+      &::before {
+        content: "";
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px -1px;
+        margin-right: 5px;
+      }
+      &.stamp-reproducible {
+        &::before {
+          content: "";
+          display: inline-block;
+          height: 10px;
+          width: 10px;
+          background: var(--accent);
+          border-radius: 5px;
+          box-shadow: 0 0 5px var(--accent);
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+
 .view-list {
   .flexi-list {
     display: grid;
     width: 100%;
-    justify-content: normal;
-    .AppDisplayCard {
+    gap: 10px;
+    .item {
       width: 100% !important;
       margin: 0;
       background: transparent;
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      align-items: center;
+      padding: 10px;
+      border-radius: 15px;
+      opacity: 0;
+      transform: translateX(40px);
+      animation: list-slide-in 200ms ease forwards 1;
       &:nth-last-of-type(odd) {
         background: var(--white);
       }
       &:hover {
         box-shadow: none;
       }
-      > div {
-        width: 100% !important;
-        > div {
-          .flex-r {
-            display: grid;
-            grid-auto-flow: column;
-            align-items: center;
-            grid-template-columns: 1fr 120px;
-            @media (max-width: 650px) {
-              grid-template-columns: 1fr auto;
-            }
-            .app_logo {
-              display: grid;
-              width: 100%;
-              height: initial;
-              align-items: center;
-              grid-template-columns: 50px 30vw 1fr;
-              gap: 10px;
-              @media (max-width: 650px) {
-                grid-template-columns: 50px 20vw 1fr;
-              }
-              .platform-info {
-                position: relative;
-                font-size: initial;
-                top: unset;
-                display: grid;
-                grid-template: 1fr / 1fr 1fr 1fr;
-                flex-wrap: wrap;
-                gap: 10px;
-                @media (max-width: 650px) {
-                  grid-row: 2/3;
-                  grid-column: 1/4;
-                  gap: 5px 20px;
-                  display: flex;
-                  flex-direction: row;
-                }
-              }
-              .list-view-only {
-                display: inline-block;
-                position: relative;
-                margin-top: auto;
-                margin-bottom: auto;
-                &::after {
-                  content: attr(data-text);
-                  font-size: 11px;
-                  position: absolute;
-                  bottom: -12px;
-                  left: 0;
-                  opacity: 0.6;
-                  text-transform: capitalize;
-                }
-                &.stats {
-                  .star-rating {
-                    font-size: initial;
-                  }
-                }
-              }
-              h3 {
-                margin-bottom: 0;
-                @media (max-width: 500px) {
-                  grid-column: 2/4;
-                }
-              }
-              img {
-                max-width: 50px;
-                height: 50px;
-              }
-            }
-            .stamps {
-              display: grid;
-              grid-auto-flow: row;
-            }
-          }
+      .tile-head {
+        display: grid;
+        grid-template-columns: 50px 25vw;
+        align-items: center;
+        gap: 10px;
+        .app_logo {
+          width: 40px;
+          max-height: 40px;
+          border-radius: 25%;
+        }
+        h3 {
+          margin: 0;
+          font-weight: 400;
+          font-size: 18px;
         }
       }
-      .app_info_box {
-        display: none;
+      .list-details {
+        display: grid;
+        width: 25vw;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        font-size: 15px;
+        .star-rating {
+          font-size: 15px;
+        }
       }
-      .list-title {
-        display: inline-block;
-        margin-top: 0;
+      .wallet-details {
+        font-size: 15px;
+        display: grid;
+        gap: 5px;
+        font-size: 13px;
+        font-weight: 600;
       }
-      &.meta_outdated,
-      &.meta_obsolete {
-        border: none;
+      .stamp {
+        background: var(--white);
+        padding: 1px 10px;
+        border-radius: 10px;
       }
     }
+    // .list-view-only {
+    //   display: unset;
+    // }
   }
 }
-.list-title,
-.list-view-only {
-  display: none;
-}
-.light {
-  .hero {
-    &::after {
-      background-image: url(/images/is-your-bitcoin-wallet-secure-light.svg);
-    }
+@keyframes list-slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
   }
-}
-.hero {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  &::before {
-    content: "";
-    position: absolute;
-    height: 340px;
-    aspect-ratio: 1/1;
-    display: block;
-    background-image: radial-gradient(var(--accent) 9%, transparent 9%);
-    background-size: 13px 13px;
-    background-repeat: repeat;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
-  }
-  &::after {
-    background-image: url(/images/is-your-bitcoin-wallet-secure-dark.svg);
-    height: 500px;
-    aspect-ratio: 1/1;
-    content: "";
-    max-height: 45vw;
-    display: block;
-    background-size: contain;
-  }
-  &::after,
-  &::before {
-    @media (max-width: 650px) {
-      display: none;
-      content: unset;
-    }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
   }
 }
 
-.stamps {
-  span {
-    margin-left: auto;
-    &::before {
-      content: attr(data-text);
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 11px;
-      padding: 3px 15px;
-      text-align: center;
-      border-radius: 30px;
-      // background: var(--white);
-      // color: var(--text);
-      background: var(--text);
-      color: var(--white);
-      letter-spacing: 0.55px;
+.dark {
+  .view-tiles {
+    .item {
+      &:hover {
+        background: var(--shadow-2);
+        box-shadow: 0 10px 30px 0px #000;
+      }
     }
   }
 }
-
 .view-tiles {
   .flexi-list {
     display: flex;
@@ -294,23 +255,104 @@
     align-items: start;
     justify-content: start;
     position: relative;
-    gap: 40px;
+    gap: 30px;
+    @media (max-width: 700px) {
+      gap: 15px;
+      justify-content: space-around;
+    }
     &::after {
       content: "";
       flex: auto;
     }
   }
-  .stamps {
-    margin-left: unset;
-    span {
-      &::before {
-        background: var(--text);
-        color: var(--white);
+  .item {
+    display: block;
+    transform-origin: center;
+    opacity: 0;
+    transform: scale(0.8);
+    animation: tile-pop-in 200ms ease forwards 1;
+    width: 200px;
+    padding: 10px;
+    background: var(--white);
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0px 30px -25px #000;
+    transition: 200ms ease;
+    @media (max-width: 700px) {
+      width: 150px;
+      max-width: calc(50vw - 40px);
+    }
+    &:hover {
+      box-shadow: 0 10px 30px -20px #000;
+    }
+
+    .tile-head {
+      display: grid;
+      gap: 10px;
+      grid-template: auto 1fr / auto 1fr;
+      @media (max-width: 700px) {
+        grid-template: unset;
+      }
+      .app_logo {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        width: 55px;
+        border-radius: 8px;
+        @media (max-width: 700px) {
+          grid-column: unset;
+          grid-row: 1/2;
+          width: 60px;
+        }
+      }
+      h3 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        margin: 0;
+        font-size: 17px;
+        font-weight: 400;
+        @media (max-width: 700px) {
+          grid-column: unset;
+          grid-row: 2/3;
+          font-size: 16px;
+        }
+      }
+      .platform {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        font-size: 12px;
+        transform: translateY(-6px);
+        font-weight: 300;
+        @media (max-width: 700px) {
+          font-size: 11px;
+          grid-column: unset;
+          grid-row: 3/4;
+        }
+      }
+    }
+    .wallet-details {
+      font-size: 13px;
+      display: grid;
+      gap: 5px;
+      padding: 10px 5px 0px 5px;
+      @media (max-width: 700px) {
+        font-size: 10px;
+        padding: 10px 0 0 0;
+        font-weight: 600;
       }
     }
   }
 }
 
+@keyframes tile-pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
 .temp_card {
   display: grid;
