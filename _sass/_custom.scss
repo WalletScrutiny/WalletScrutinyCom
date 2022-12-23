@@ -56,6 +56,12 @@
     }
     .dropdown-options {
       display: grid;
+      cursor: pointer;
+      &:hover {
+        .selected {
+          color: var(--accent-text);
+        }
+      }
       .option {
         text-transform: capitalize;
         cursor: pointer;

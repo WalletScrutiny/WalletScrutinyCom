@@ -72,10 +72,9 @@ document.body.addEventListener("click", () => { document.querySelectorAll(".drop
 
 for (const target of ["verdict", "platform"]) {
   for (const dropdown of document.querySelectorAll(".dropdown-" + target)) {
-    dropdown.addEventListener("click", (event) => {
-      
-      let self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : event.target
-      let parentEle = self.parentNode
+    dropdown.addEventListener("click", (event) => {  
+      const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected"):event.target)
+      const parentEle = self.parentNode
       //IF TARGET IS AN UN-SELECTED CHILD ELEMENT
       if (!self.classList.contains("selected") && self.classList.contains("option")) {
         event.stopPropagation()
@@ -110,8 +109,8 @@ document.querySelector(".dropdown-view > .selected").classList.remove("selected"
 document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
 for (const view of document.querySelectorAll(".tile-list-ui")){ view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }  
 document.querySelector(".dropdown-view").addEventListener("click", (event) => {
-  let self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : event.target
-  let parentEle = self.parentNode
+  const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected") : event.target)
+  const parentEle = self.parentNode
   if (!self.classList.contains("selected") && self.classList.contains("option")) {
     //TARGET IS AN UN-SELECTED CHILD ELEMENT
     event.stopPropagation()
@@ -232,7 +231,7 @@ function getBadge(wallet, num) {
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN 
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${num*80}ms;">
+  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${num*80}ms;">
     <div class="tile-head">
       <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>
