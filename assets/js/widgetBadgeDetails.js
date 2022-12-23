@@ -21,7 +21,7 @@ function getWidgetDetails(wallet) {
       : ''
   }
 
-  return `<table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
+  return `<table>
     ${ hasValue(wallet.users) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ""}
     ${ hasValue(wallet.stars)
       ? `<tr><td>Rating (${wallet.appCountry || "us"})</td><td>${Math.round(wallet.stars * 10) / 10} stars${ hasValue(wallet.ratings)
