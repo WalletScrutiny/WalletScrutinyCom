@@ -69,9 +69,9 @@
 }
 
 .dropped_l {
-    display: block;
-    text-align: right;
-    padding: 10px 0px;
+  display: block;
+  text-align: right;
+  padding: 10px 0px;
 }
 
 .dropdown {
@@ -86,5 +86,38 @@
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
+  }
 }
+
+.stamps {
+  display: grid;
+  gap: 5px;
+  span {
+    &::after {
+      content: attr(data-text);
+      color: var(--text);
+      text-transform: uppercase;
+    }
+    &::before {
+      content: "";
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px -1.5px;
+      margin-right: 5px;
+    }
+    &.stamp-reproducible {
+      &::before {
+        content: "";
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        background: var(--accent);
+        border-radius: 5px;
+        box-shadow: 0 0 5px var(--accent);
+        margin-right: 5px;
+      }
+    }
+  }
 }

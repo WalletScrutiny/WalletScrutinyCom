@@ -104,7 +104,7 @@ function searchCatalogueNav(input) {
           }
           const walletRow = document.createElement("li")
           if (matchCounter < 10) {
-            walletRow.style['animation-delay'] = matchCounter * .2 + 's'
+            walletRow.style['animation-delay'] = matchCounter * 80 + 'ms'
           }
           walletRow.classList.add("actionable")
           let compactedResults = ""
@@ -136,18 +136,22 @@ function searchCatalogueNav(input) {
   searchScrollToTop()
 }
 
-function makeCompactResultsHTML(w) {
+function makeCompactResultsHTML(wallet) {
   let result = ""
-  const basePath = w.base_path || ""
-  var analysisUrl = `${basePath}${w.url}`
-  result += `<a class="result-pl-inner" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <div class="icon-wrapper"><img src='${w.icon ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' loading="lazy"/></div>
+  let faCollection = window.getIcon(wallet.folder)
+  const basePath = wallet.base_path || ""
+  var analysisUrl = `${basePath}${wallet.url}`
+  result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
+    <div class="icon-wrapper"><img src='${wallet.icon ? `${basePath}/images/wIcons/${wallet.folder}/small/${wallet.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' loading="lazy"/></div>
       <span class="result-title-wrapper">
-        <span>${w.altTitle || w.title}</span>
-        <small><!--<i class="${window.platforms[w.folder].css}"></i> --><span class="category">${w.category}</span></small>
+        <span>${wallet.altTitle || wallet.title}</span>
+        <small>
+          <span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>
+        </small>
       </span>
-      <span class="badge">
-      <span>${window.verdicts[w.verdict].short}</span>
+      <span class="stamps">
+      ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
+      ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
     </span>
     </a>`
   return result

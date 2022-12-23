@@ -58,6 +58,7 @@ function recreateDropdowns(verdict, platform) {
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
 }
+window.getFAIcon = function(data){getIcon(data)}
 function getIcon(name) {
   let faCollection = ''
   switch (name) {
