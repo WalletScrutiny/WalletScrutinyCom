@@ -53,14 +53,14 @@ document.querySelector(".mobile-search-shortcut").addEventListener("click", () =
 })
 document.querySelector(".searchbar").addEventListener("click", (event) => {
   event.stopPropagation()
-  if (window.searchTerm?.length > 0) {
+  if (window.searchTerm && window.searchTerm.length > 0) {
     document.querySelector(".search-controls").classList.add("hint-return")
   } else {
     document.querySelector(".search-controls").classList.remove("hint-return")
   }
 })
 function searchTrigger() {
-  if (window.searchTerm?.length > 1) {
+  if (window.searchTerm && window.searchTerm.length > 1) {
     document.querySelector(".wallet-search").classList.add("active")
     document.querySelector(".search-controls").classList.add("working")
     document.querySelector(".search-controls").classList.add("edited")
@@ -73,7 +73,7 @@ function searchTrigger() {
   }
 
   clearTimeout(window.walletSearchTimeoutTrigger)
-  if (window.searchTerm?.length > 1) {
+  if (window.searchTerm && window.searchTerm.length > 1) {
     window.walletSearchTimeoutTrigger = setTimeout(() => {
       searchCatalogueNav(window.searchTerm)
     }, 200)

@@ -36,7 +36,7 @@ window.addEventListener("load", () => {
 })
 
 function recreateDropdowns(verdict, platform) {
-  if (window.verdictOrder?.length > 0 && document.querySelector(".dropdown-verdict")) {
+  if (window.verdictOrder && window.verdictOrder.length > 0 && document.querySelector(".dropdown-verdict")) {
     let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all">All verdicts</div>`
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
@@ -50,7 +50,7 @@ function recreateDropdowns(verdict, platform) {
     document.querySelector(".dropdown-verdict").innerHTML = html
   }
 
-  if (window.platformObs?.length > 0 && document.querySelector(".dropdown-platform")) {
+  if (window.platformObs && window.platformObs.length > 0 && document.querySelector(".dropdown-platform")) {
     let html = ``
     for (const instancePlatform of window.platformObs) {
       html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> ${instancePlatform}</div>`
