@@ -254,10 +254,27 @@
     }
     &.obsolete,
     &.defunct {
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        background: linear-gradient(-60deg, transparent, var(--shadow-3));
+        height: 100%;
+        width: 100%;
+        border-radius: 12px;
+        z-index: 1;
+        // opacity: .5;
+        transition: 200ms ease;
+      }
       .tile-head {
         opacity: 0.75;
       }
       &:hover {
+        &::before{
+          opacity: 0;
+        }
         .tile-head {
           opacity: 1;
         }
