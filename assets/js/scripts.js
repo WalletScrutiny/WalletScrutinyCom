@@ -228,7 +228,7 @@ function renderBadgesToDiv(wallets, anchor) {
 function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
   let faCollection = getIcon(wallet.folder)
-  const delay = num>29?0:num*80
+  const delay = num>25?2000:num*80
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
