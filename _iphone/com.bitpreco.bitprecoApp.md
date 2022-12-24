@@ -1,6 +1,6 @@
 ---
 wsId: BitPreco
-title: BitPreço Oficial
+title: Bitypreço
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitpreco.bitprecoApp
 appCountry: br
 idd: 1545825554
 released: 2021-03-18
-updated: 2022-06-28
-version: 1.8.31
+updated: 2022-12-05
+version: 2.0.03
 stars: 4.8
-reviews: 434
-size: '75915264'
+reviews: 584
+size: '74467328'
 website: https://bitpreco.com/
 repository: 
 issue: 

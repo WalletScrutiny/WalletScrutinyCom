@@ -3,7 +3,7 @@ wsId:
 title: 'UFUND: Fundraising, Investing'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ufund.app
 appCountry: 
 released: Oct 21, 2021
@@ -19,7 +19,7 @@ issue:
 icon: com.ufund.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Electron Cash wallet for Bitco
+title: Electron Cash wallet for BCH
 altTitle: 
 authors: 
 users: 10000

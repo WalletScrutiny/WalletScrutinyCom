@@ -3,12 +3,12 @@ wsId:
 title: Quan2um Crypto Exchange
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.mobile.quantum
 appCountry: 
 released: Apr 18, 2022
-updated: 2022-09-29
-version: 1.0.1
+updated: 2022-12-02
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.mobile.quantum.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

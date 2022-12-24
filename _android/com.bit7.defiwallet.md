@@ -7,8 +7,8 @@ users: 10
 appId: com.bit7.defiwallet
 appCountry: 
 released: May 18, 2022
-updated: 2022-10-25
-version: 1.1.10
+updated: 2022-11-21
+version: 1.1.11
 stars: 
 ratings: 
 reviews: 

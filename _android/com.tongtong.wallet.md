@@ -3,12 +3,12 @@ wsId:
 title: 통통지갑 – 내 손안의 블록체인 지갑
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.tongtong.wallet
 appCountry: 
 released: Apr 21, 2022
-updated: 2022-10-21
-version: 1.3.0
+updated: 2022-12-05
+version: 1.3.4
 stars: 
 ratings: 
 reviews: 

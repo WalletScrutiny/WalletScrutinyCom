@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.cryptobankwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-12-06
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

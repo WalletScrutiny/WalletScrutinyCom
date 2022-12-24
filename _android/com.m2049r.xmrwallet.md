@@ -10,9 +10,9 @@ appCountry:
 released: 2017-09-29
 updated: 2022-10-22
 version: 3.0.3 'Fluorine Fermi'
-stars: 3.1
+stars: 3.2
 ratings: 821
-reviews: 166
+reviews: 167
 size: 
 website: https://monerujo.io/
 repository: 

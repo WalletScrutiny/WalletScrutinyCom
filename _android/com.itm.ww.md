@@ -12,6 +12,7 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.wampum1st.com
 repository: 
 issue: 

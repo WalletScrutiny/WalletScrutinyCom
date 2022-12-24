@@ -3,12 +3,12 @@ wsId:
 title: Fizen Super App
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.fizen.io.wallet
 appCountry: 
 released: Feb 25, 2022
-updated: 2022-10-30
-version: 1.8.0
+updated: 2022-12-19
+version: 1.8.3
 stars: 5
 ratings: 
 reviews: 120

@@ -3,15 +3,15 @@ wsId:
 title: 'CoinZoom: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.coinzoom.android
 appCountry: 
 released: Mar 25, 2022
-updated: 2022-10-21
-version: 1.0.0.10064
-stars: 3.6
+updated: 2022-12-19
+version: 1.0.0.10067
+stars: 3.5
 ratings: 
-reviews: 21
+reviews: 24
 size: 
 website: https://www.coinzoom.com
 repository: 

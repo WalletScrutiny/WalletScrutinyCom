@@ -7,8 +7,8 @@ users: 100
 appId: com.exchange.wethio.io
 appCountry: 
 released: Oct 21, 2021
-updated: 2022-10-21
-version: 2.3.2
+updated: 2022-11-24
+version: 2.3.3
 stars: 
 ratings: 
 reviews: 

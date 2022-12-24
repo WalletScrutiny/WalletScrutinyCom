@@ -1,6 +1,6 @@
 ---
 wsId: bitberry
-title: 'Bitberry : Safe Cryptocurrency'
+title: Bitberry - Safe crypto Wallet
 altTitle: 
 authors:
 - danny

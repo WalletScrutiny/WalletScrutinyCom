@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Eweb Meta
+title: Eweb Meta:Buy&Sell BTC &Crypto
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ewebmeta.ewebmeta
 appCountry: 
 released: Mar 13, 2022
-updated: 2022-10-28
+updated: 2022-12-20
 version: 2.0.0
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: com.ewebmeta.ewebmeta.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

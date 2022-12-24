@@ -4,15 +4,15 @@ title: 'Gekkard: Banking Alternative'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.papaya.gekkard
 appCountry: mt
 released: 2020-01-30
 updated: 2022-03-18
 version: 1.0.6
-stars: 2.4
+stars: 2.3
 ratings: 43
-reviews: 37
+reviews: 42
 size: 
 website: https://gekkoin.com/index.html
 repository: 

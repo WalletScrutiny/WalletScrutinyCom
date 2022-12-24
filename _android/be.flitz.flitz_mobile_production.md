@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: be.flitz.flitz_mobile_production.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

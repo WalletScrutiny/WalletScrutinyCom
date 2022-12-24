@@ -10,9 +10,9 @@ appCountry: cn
 released: 2020-03-30
 updated: 2022-07-20
 version: 22.7.3.644
-stars: 3.8
+stars: 3.7
 ratings: 17923
-reviews: 11677
+reviews: 11686
 size: 
 website: https://zipmex.co.th/
 repository: 

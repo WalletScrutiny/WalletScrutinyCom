@@ -7,7 +7,7 @@ users: 10000
 appId: com.bit4you.app
 appCountry: 
 released: Jan 18, 2018
-updated: 2022-05-24
+updated: 2022-11-10
 version: 0.9.1
 stars: 
 ratings: 

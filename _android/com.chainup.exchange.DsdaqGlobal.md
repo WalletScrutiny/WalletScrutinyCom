@@ -12,6 +12,7 @@ version: 5.4.1_push_v2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dsdaq.com
 repository: 
 issue: 

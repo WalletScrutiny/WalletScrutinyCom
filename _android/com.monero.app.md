@@ -3,15 +3,15 @@ wsId:
 title: Monero.com
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.monero.app
 appCountry: 
 released: Jan 7, 2022
-updated: 2022-09-26
-version: 1.1.1
-stars: 4.5
+updated: 2022-12-15
+version: 1.2.3
+stars: 4.3
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://cakewallet.com
 repository: 

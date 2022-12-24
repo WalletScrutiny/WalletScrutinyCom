@@ -11,7 +11,7 @@ released: 2017-05-15
 updated: 2022-02-08
 version: '1.34'
 stars: 2.6
-reviews: 28
+reviews: 29
 size: '71872512'
 website: https://stex.com
 repository: 

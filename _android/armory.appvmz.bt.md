@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Armory Secure Wallet
+title: Ja­xx lib­erty
 altTitle: 
 authors: 
 users: 100

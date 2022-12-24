@@ -3,12 +3,12 @@ wsId:
 title: SBI VCTRADE mobile 暗号資産(仮想通貨)
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.taotao_ex.android
 appCountry: 
 released: May 29, 2019
-updated: 2022-10-19
-version: 3.2.0
+updated: 2022-12-13
+version: 3.3.0
 stars: 
 ratings: 
 reviews: 

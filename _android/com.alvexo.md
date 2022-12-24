@@ -12,7 +12,7 @@ updated: 2022-09-28
 version: 3.0.118
 stars: 4.1
 ratings: 826
-reviews: 29
+reviews: 33
 size: 
 website: https://www.alvexo.com
 repository: 

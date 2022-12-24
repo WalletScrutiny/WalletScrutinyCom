@@ -3,15 +3,15 @@ wsId:
 title: ByteWallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.bytewallet.bytewallet
 appCountry: 
 released: Jul 20, 2021
-updated: 2022-09-26
+updated: 2022-12-01
 version: VARY
-stars: 3
+stars: 3.1
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://www.bytefederal.com
 repository: 

@@ -9,11 +9,11 @@ users: 10000
 appId: kr.co.keypair.keywalletTouch
 appCountry: 
 released: 2018-05-13
-updated: 2022-10-19
+updated: 2022-12-19
 version: VARY
 stars: 4.5
 ratings: 109
-reviews: 12
+reviews: 13
 size: 
 website: http://keywallet.co.kr/en/
 repository: 

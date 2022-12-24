@@ -8,11 +8,11 @@ appId: com.LYOPAY.LYOPAY
 appCountry: eg
 idd: 1537945402
 released: 2020-11-06
-updated: 2022-10-28
-version: '8.11'
+updated: 2022-12-16
+version: '8.13'
 stars: 0
 reviews: 0
-size: '63409152'
+size: '66282496'
 website: https://lyopay.com/
 repository: 
 issue: 

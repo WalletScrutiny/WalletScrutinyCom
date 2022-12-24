@@ -1,6 +1,6 @@
 ---
 wsId: iCrypex
-title: 'ICRYPEX: Bitcoin ve Kripto Para Al Sat'
+title: 'ICRYPEX: Bitcoin Al Sat'
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
 released: Sep 2, 2021
-updated: 2022-06-23
-version: 1.4.3
-stars: 4.2
+updated: 2022-11-30
+version: 1.6.0
+stars: 4.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.icrypex.com/
 repository: 
 issue: 
-icon: app.mobile.android.icrypex.jpg
+icon: app.mobile.android.icrypex.png
 bugbounty: 
 meta: ok
 verdict: custodial

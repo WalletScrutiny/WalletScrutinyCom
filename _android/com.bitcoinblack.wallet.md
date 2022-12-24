@@ -13,16 +13,16 @@ updated: 2020-12-25
 version: 1.0.6
 stars: 3.9
 ratings: 1690
-reviews: 66
+reviews: 67
 size: 
 website: https://bitcoin.black
 repository: 
 issue: 
 icon: com.bitcoinblack.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2021-12-21
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: BCB_Official1

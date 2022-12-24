@@ -3,7 +3,7 @@ wsId:
 title: Trade Crypto. Binance Ftx Okex
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.mayex.trading
 appCountry: 
 released: Mar 7, 2022

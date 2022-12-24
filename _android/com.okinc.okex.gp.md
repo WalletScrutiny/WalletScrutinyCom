@@ -4,15 +4,15 @@ title: 'OKX: Buy Bitcoin, ETH, Crypto'
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.okinc.okex.gp
 appCountry: 
 released: 2019-10-29
-updated: 2022-10-24
-version: 6.1.31
-stars: 4.3
+updated: 2022-12-05
+version: 6.1.43
+stars: 4.4
 ratings: 188391
-reviews: 1060
+reviews: 1124
 size: 
 website: https://www.okx.com/
 repository: 

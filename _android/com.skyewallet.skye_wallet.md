@@ -8,8 +8,8 @@ users: 10000
 appId: com.skyewallet.skye_wallet
 appCountry: us
 released: 2021-05-01
-updated: 2022-08-26
-version: 2.12.4
+updated: 2022-12-19
+version: 2.12.5
 stars: 3.6
 ratings: 290
 reviews: 12

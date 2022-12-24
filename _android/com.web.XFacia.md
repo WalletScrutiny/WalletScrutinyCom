@@ -7,8 +7,8 @@ users: 10000
 appId: com.web.XFacia
 appCountry: 
 released: Apr 21, 2022
-updated: 2022-09-28
-version: '1.3'
+updated: 2022-12-01
+version: '1.9'
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: PalmPay - Cryptocurrency Point
+title: PalmPay - Crypto Point of Sale
 altTitle: 
 authors:
 - danny

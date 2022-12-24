@@ -6,11 +6,13 @@ authors:
 users: 10000
 appId: com.matbea
 appCountry: 
-updated: 2022-10-24
-version: 1.4.4
+released: 
+updated: 2022-12-16
+version: 1.4.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://matbea.com
 repository: 
 issue: 

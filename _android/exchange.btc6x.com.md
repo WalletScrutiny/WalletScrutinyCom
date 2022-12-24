@@ -9,9 +9,9 @@ appCountry:
 released: Mar 4, 2022
 updated: 2022-03-04
 version: '1.1'
-stars: 4.2
+stars: 3.8
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://btc6x.com
 repository: 

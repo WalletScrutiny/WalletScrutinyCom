@@ -3,7 +3,7 @@ wsId:
 title: Dormant Bitcoin Seeker
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.BlockchainExplorer.DormantBitcoinSeeker
 appCountry: 
 released: Jun 4, 2022
@@ -19,7 +19,7 @@ issue:
 icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

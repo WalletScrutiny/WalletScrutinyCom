@@ -3,12 +3,12 @@ wsId:
 title: KryptoGO -Bitcoin & NFT Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.kryptogo.walletapp
 appCountry: 
 released: Dec 28, 2021
-updated: 2022-10-22
-version: 2.1.3
+updated: 2022-12-19
+version: 2.2.0
 stars: 4
 ratings: 
 reviews: 2

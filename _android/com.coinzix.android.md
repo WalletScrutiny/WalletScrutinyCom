@@ -3,15 +3,15 @@ wsId:
 title: Coinzix
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.coinzix.android
 appCountry: 
 released: Oct 27, 2021
 updated: 2022-08-10
 version: '1.94'
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.coinzix.com
 repository: 

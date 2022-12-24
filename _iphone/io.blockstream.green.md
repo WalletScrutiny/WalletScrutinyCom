@@ -8,11 +8,11 @@ appId: io.blockstream.green
 appCountry: 
 idd: 1402243590
 released: 2019-03-22
-updated: 2022-10-13
-version: 3.8.9
+updated: 2022-12-07
+version: 3.9.0
 stars: 4.8
-reviews: 78
-size: '52890624'
+reviews: 126
+size: '53242880'
 website: https://blockstream.com/green/
 repository: 
 issue: 

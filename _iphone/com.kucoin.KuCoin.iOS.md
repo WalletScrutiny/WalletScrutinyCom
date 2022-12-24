@@ -1,6 +1,6 @@
 ---
 wsId: kucoin
-title: KuCoin- Buy cryptocurrency
+title: KuCoin- Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.kucoin.KuCoin.iOS
 appCountry: 
 idd: 1378956601
 released: 2018-05-14
-updated: 2022-07-01
-version: 3.61.0
+updated: 2022-12-13
+version: 3.73.0
 stars: 4.6
-reviews: 15475
-size: '164915200'
+reviews: 18296
+size: '188783616'
 website: 
 repository: 
 issue: 

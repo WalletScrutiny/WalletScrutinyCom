@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Investing for everyone'
+title: 'Change: Invest securely'
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2022-10-03
-version: 20.32.1
+updated: 2022-12-11
+version: 20.35.1
 stars: 4
 ratings: 2833
 reviews: 23
@@ -18,7 +18,7 @@ size:
 website: https://changeinvest.com
 repository: 
 issue: 
-icon: com.getchange.wallet.cordova.jpg
+icon: com.getchange.wallet.cordova.png
 bugbounty: 
 meta: ok
 verdict: custodial

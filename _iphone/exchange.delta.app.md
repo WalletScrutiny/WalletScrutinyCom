@@ -8,11 +8,11 @@ appId: exchange.delta.app
 appCountry: nz
 idd: 1567218518
 released: 2021-06-05
-updated: 2022-10-14
-version: 1.6.1
+updated: 2022-12-02
+version: 1.6.4
 stars: 0
 reviews: 0
-size: '36751360'
+size: '37529600'
 website: https://www.delta.exchange/
 repository: 
 issue: 

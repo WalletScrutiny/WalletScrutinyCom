@@ -1,6 +1,6 @@
 ---
 wsId: bitbuy
-title: Bitbuy
+title: 'Bitbuy: Buy Bitcoin Canada'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitbuy.mobileApp
 appCountry: ca
 released: 2019-10-15
-updated: 2022-08-20
+updated: 2022-12-09
 version: 3.96.0
-stars: 3.3
+stars: 3.2
 ratings: 1381
-reviews: 818
+reviews: 823
 size: 
 website: https://bitbuy.ca/
 repository: 

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Union Cash
+title: Unioncash
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.union.cash
 appCountry: 
 released: Jun 25, 2021
-updated: 2022-10-27
-version: 1.1.7
+updated: 2022-12-06
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.union.cash.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

@@ -8,11 +8,11 @@ appId: com.coinbase.pro
 appCountry: 
 idd: 1446636681
 released: 2019-10-10
-updated: 2022-10-17
-version: 1.0.103
+updated: 2022-12-09
+version: 1.0.104
 stars: 4.7
-reviews: 172953
-size: '51147776'
+reviews: 173347
+size: '51325952'
 website: https://pro.coinbase.com
 repository: 
 issue: 

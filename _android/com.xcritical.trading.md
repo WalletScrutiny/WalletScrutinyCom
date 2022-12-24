@@ -7,8 +7,8 @@ users: 100000
 appId: com.xcritical.trading
 appCountry: 
 released: 
-updated: 2022-07-21
-version: 2.23.2
+updated: 2022-11-11
+version: 2.23.5
 stars: 
 ratings: 
 reviews: 

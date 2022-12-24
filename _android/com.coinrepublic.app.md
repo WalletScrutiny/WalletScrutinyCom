@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinrepublic.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

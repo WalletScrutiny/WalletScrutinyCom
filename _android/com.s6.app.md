@@ -7,8 +7,8 @@ users: 5000
 appId: com.s6.app
 appCountry: 
 released: Mar 1, 2022
-updated: 2022-09-05
-version: 1.0.9
+updated: 2022-12-01
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: usdxwallet
-title: USDX Wallet - blockchain wallet with stable crypto
+title: USDX Wallet - blockchain walle
 altTitle: 
 authors:
 - kiwilamb
@@ -10,7 +10,7 @@ appCountry:
 released: 2018-03-22
 updated: 2020-11-25
 version: 1.34.2
-stars: 4.4
+stars: 4.3
 ratings: 5482
 reviews: 236
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2021-12-01
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: USDXwallet

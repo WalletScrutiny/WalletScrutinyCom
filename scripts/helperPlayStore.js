@@ -6,7 +6,7 @@ const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
 
-const sem = new Semaphore(5)
+const sem = new Semaphore(50)
 const stats = {
   defunct: 0,
   updated: 0,
@@ -68,8 +68,7 @@ function refreshFile (fileName, content) {
         gplay.app({
           appId: appId,
           lang: 'en',
-          country: appCountry,
-          throttle: 20
+          country: appCountry
         }).then(app => {
           const iconPath = `images/wIcons/android/${appId}`
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
