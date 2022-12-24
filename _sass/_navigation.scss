@@ -46,7 +46,7 @@
     color: var(--white);
     cursor: pointer;
     background: var(--nav);
-    margin-left: 1.5rem;
+    margin-left: 1rem;
   }
 
   .visible-links {
@@ -61,13 +61,13 @@
         font-weight: bold;
 
         a {
-          margin-left: 0;
+          margin-left: 1rem;
         }
       }
 
       &:last-child {
         a {
-          margin-right: 0;
+          margin-right: .5rem;
         }
       }
     }

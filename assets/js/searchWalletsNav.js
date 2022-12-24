@@ -6,7 +6,7 @@ function exitSearchUI() {
   document.querySelector(".wallet-search").classList.remove("active")
 }
 window.addEventListener("resize", () => {
-  if (window.outerWidth <= 650) {
+  if (window.outerWidth <= 700) {
     exitSearchUI()
   }
 })

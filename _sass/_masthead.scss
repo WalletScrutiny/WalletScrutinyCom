@@ -259,7 +259,7 @@
   .mobile-search-shortcut {
     display: none;
   }
-  @media (max-width: 650px) {
+  @media (max-width: 700px) {
     // CHILD OF MASTHEAD
     grid-template: 1fr auto / 1fr auto;
     .search-results {
@@ -286,7 +286,7 @@
     .mobile-search-shortcut {
       display: block;
       height: 2rem;
-      margin: auto 1.5rem;
+      margin: auto auto auto 1.5rem;
       line-height: 1rem;
       width: 2rem;
       text-align: center;
