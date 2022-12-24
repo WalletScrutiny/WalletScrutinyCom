@@ -12,7 +12,7 @@
   z-index: 20;
   background-color: var(--nav);
   box-shadow: 0 0 1px;
-  
+
   &__inner-wrap {
     @include container;
     @include clearfix;
@@ -45,6 +45,14 @@
       left: -100vw;
       z-index: -3;
       backdrop-filter: blur(10px);
+    }
+  }
+}
+.dark {
+  .masthead__menu .wallet-search .searchbar {
+    opacity: 0.8;
+    &::after {
+      opacity: 0.6;
     }
   }
 }
@@ -290,8 +298,8 @@
       line-height: 1rem;
       width: 2rem;
       text-align: center;
-      padding: .5rem;
-    color: var(--masthead-text);
+      padding: 0.5rem;
+      color: var(--masthead-text);
       &.active {
         background: var(--accent);
         border-radius: 3px;
@@ -307,7 +315,7 @@
   }
 }
 
-.light{
+.light {
   .masthead-logo {
     &::before {
       content: url(/images/logo_2022-black.svg);
@@ -315,12 +323,12 @@
   }
 }
 .masthead-logo {
-  padding-left:20px;
+  padding-left: 20px;
   &::before {
     display: block;
     height: 22px;
     content: url(/images/logo_2022-white.svg);
-    aspect-ratio: 1/.147;
+    aspect-ratio: 1/0.147;
   }
 }
 
