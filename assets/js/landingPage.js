@@ -37,10 +37,13 @@ window.addEventListener('load', () => {
 
 function setDropdown(parent, child) {
   // TRY / CATCH HERE FOR TESTING PURPOSES
-  try {
+  // DISABLE TRY+CATCH+LOG - ISSUE HAS DISAPPEARED.
+  // LIKELY CAUSED BY MODIFYING THE _SITE ASSETS DIRECTLY
+  
+  // try {
     for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
     document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
-  }catch(err){console.log("failed to set dropdown for:", parent, child)}
+  // }catch(err){console.log("failed to set dropdown for:", parent, child)}
 }
 
 function updateUrl () {
