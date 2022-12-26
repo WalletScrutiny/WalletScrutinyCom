@@ -8,11 +8,11 @@ users: 100000
 appId: com.cryptokara
 appCountry: 
 released: Sep 28, 2021
-updated: 2022-11-30
-version: 1.6.5
+updated: 2022-12-22
+version: 1.6.6
 stars: 4.1
 ratings: 
-reviews: 93
+reviews: 94
 size: 
 website: https://www.cryptokara.com/
 repository: 

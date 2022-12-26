@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thecirclewalletapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-01-06
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: 

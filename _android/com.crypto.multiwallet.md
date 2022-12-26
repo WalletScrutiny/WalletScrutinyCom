@@ -12,7 +12,7 @@ updated: 2022-11-09
 version: 2.73.7
 stars: 4.4
 ratings: 3831
-reviews: 473
+reviews: 476
 size: 
 website: https://guarda.com
 repository: 

@@ -17,7 +17,7 @@ size:
 website: https://hitbtc.com/wallet
 repository: 
 issue: 
-icon: com.hitbtc.wallet.png
+icon: com.hitbtc.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

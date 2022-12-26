@@ -8,11 +8,11 @@ appId: com.xiangjiao.tg
 appCountry: kr
 idd: '1491126681'
 released: '2019-12-23T08:00:00Z'
-updated: 2022-01-28
-version: 4.2.0
+updated: 2022-09-02
+version: 4.3.0
 stars: 4.1
-reviews: 266
-size: '38505472'
+reviews: 264
+size: '53908480'
 website: http://bananatok.com
 repository: 
 issue: 

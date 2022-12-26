@@ -3,7 +3,7 @@ wsId:
 title: 'Rocket: Mobile Trade App'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: app.excoin.com
 appCountry: 
 released: Mar 20, 2022

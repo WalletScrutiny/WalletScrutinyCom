@@ -8,7 +8,7 @@ users: 100000
 appId: com.stocksexchange.android
 appCountry: us
 released: 2018-05-15
-updated: 2022-12-14
+updated: 2022-12-21
 version: 2.1.7
 stars: 4.5
 ratings: 2148

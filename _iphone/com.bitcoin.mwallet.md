@@ -1,6 +1,6 @@
 ---
 wsId: mwallet
-title: 'Bitcoin Wallet: buy BTC & BCH'
+title: 'Bitcoin Wallet: BTC, ETH & BCH'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitcoin.mwallet
 appCountry: 
 idd: 1252903728
 released: 2017-07-11
-updated: 2022-05-27
-version: 7.19.2
-stars: 4.5
-reviews: 14018
-size: '142992384'
+updated: 2022-12-06
+version: 7.33.0
+stars: 4.6
+reviews: 18556
+size: '174958592'
 website: https://wallet.bitcoin.com/
 repository: 
 issue: 
