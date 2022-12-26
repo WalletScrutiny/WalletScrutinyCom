@@ -272,7 +272,7 @@
         opacity: 0.75;
       }
       &:hover {
-        &::before{
+        &::before {
           opacity: 0;
         }
         .tile-head {
@@ -439,6 +439,9 @@
     @media (max-width: 700px) {
       gap: 15px;
       justify-content: center;
+    }
+    @media (max-width: 500px) {
+      justify-content: space-evenly;
     }
     &::after {
       content: "";
