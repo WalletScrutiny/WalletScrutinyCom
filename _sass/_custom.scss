@@ -558,3 +558,11 @@
   z-index: 999;
   backdrop-filter: blur(10px);
 }
+
+.stamps {
+  &.in-article {
+    text-decoration: navajowhite;
+    font-size: 15px;
+    font-weight: 800;
+  }
+}

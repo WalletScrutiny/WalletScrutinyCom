@@ -1,5 +1,5 @@
 {%- assign v = site.data.verdicts[include.verdict]
--%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" class="stamps {{ include.verdict }}"><span class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
+-%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" class="stamps in-article {{ include.verdict }}"><span class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
   {%- when "short" -%}{{- v.short -}}
   {%- when "medium" -%}{{- v.title -}}
   {%- when "long" -%}{{- v.message -}}

@@ -27,7 +27,9 @@ layout: default
             {% endif %}
           </h1>
 
-          <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+          <span class="version" title="version {{ page.version }}">v{{ page.version }}</span>
+
+          <!-- <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
             data="{{ page.updated | date: '%s' }}">
             {{ page.updated | date_to_long_string: "ordinal" }}
           </span>)</span>
@@ -37,7 +39,7 @@ layout: default
               data="{{ page.date | date: '%s' }}">
               {{ page.date | date_to_long_string: "ordinal" }}
             </span>.
-          </span>
+          </span> -->
 
           {% if page.meta != "outdated" %}
             {% include verdictBadge.html verdict=page.verdict type='medium' %}
@@ -67,11 +69,9 @@ layout: default
 
           {% if page.stars > 0 %}
           <div title="Rated {{ page.stars }}/5 stars">
-
             <label>
               <i class="fab fa-google-play"></i>&nbsp;Play Store ({{ page.appCountry | default: "us" }})
             </label>
-
             <div>
               {{ page.stars }}
               <span class="star-rating"
@@ -120,6 +120,34 @@ layout: default
           </div>
           {% endif %}
 
+          {% if page.version %}
+          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}">
+            <label>
+              <i class="fas fa-history"></i>&nbsp;Latest Release
+            </label>
+            <div>
+              <span>v{{ page.version }}</span>
+            </div>
+            <span class="calculate-time-elapsed" data="{{ page.updated | date: '%s' }}">
+              {{ page.updated | date_to_long_string: "ordinal" }}
+            </span>
+          </div>
+          {% endif %}
+
+          {% if page.date %}
+          <div title="Latest Analysis: {{ page.date | date_to_long_string: 'ordinal' }}">
+            <label>
+              <i class="fas fa-history"></i>&nbsp;Latest Analysis
+            </label>
+            <div>
+              <span>{{ page.date | date_to_long_string: "ordinal" }}</span>
+            </div>
+            <span class="calculate-time-elapsed" data="{{ page.date | date: '%s' }}">
+              {{ page.updated | date_to_long_string: "ordinal" }}
+            </span>
+          </div>
+          {% endif %}
+          
         </div>
       </div>
 
