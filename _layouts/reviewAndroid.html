@@ -25,9 +25,10 @@ layout: default
             {% else %}
               {{ page.title }}
             {% endif %}
+            <span class="version" title="version {{ page.version }}">v{{ page.version }}</span>
           </h1>
 
-          <span class="version" title="version {{ page.version }}">v{{ page.version }}</span>
+          
 
           <!-- <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
             data="{{ page.updated | date: '%s' }}">
@@ -93,11 +94,11 @@ layout: default
               <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
                 {% assign s = page.users %}
                 {% if s > 999999999 %}
-                  {{ s | remove_first: '000000000' }} <n>billion</n>
+                  {{ s | remove_first: '000000000' }} <span class="numb secondary-text">billion</span>
                 {% elsif s > 999999 %}
-                  {{ s | remove_first: '000000' }} <n>million</n>
+                  {{ s | remove_first: '000000' }} <span class="numb secondary-text">million</span>
                 {% elsif s > 999 %}
-                  {{ s | remove_first: '000' }} <n>thousand</n>
+                  {{ s | remove_first: '000' }} <span class="numb secondary-text">thousand</span>
                 {% else %}
                   {{ s }}
                 {% endif %}
@@ -126,7 +127,7 @@ layout: default
               <i class="fas fa-history"></i>&nbsp;Latest Release
             </label>
             <div>
-              <span>v{{ page.version }}</span>
+              <span><span class="secondary-text">v</span>{{ page.version }}</span>
             </div>
             <span class="calculate-time-elapsed" data="{{ page.updated | date: '%s' }}">
               {{ page.updated | date_to_long_string: "ordinal" }}
