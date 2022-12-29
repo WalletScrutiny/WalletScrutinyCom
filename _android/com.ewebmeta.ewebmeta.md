@@ -7,7 +7,7 @@ users: 1000
 appId: com.ewebmeta.ewebmeta
 appCountry: 
 released: Mar 13, 2022
-updated: 2022-12-20
+updated: 2022-12-26
 version: 2.0.0
 stars: 
 ratings: 

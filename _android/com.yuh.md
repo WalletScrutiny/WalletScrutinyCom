@@ -8,7 +8,7 @@ appId: com.yuh
 appCountry: 
 released: Apr 6, 2021
 updated: 2022-12-22
-version: 1.16.23
+version: 1.16.26
 stars: 
 ratings: 
 reviews: 

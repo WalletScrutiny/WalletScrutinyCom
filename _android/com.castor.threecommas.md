@@ -7,11 +7,11 @@ users: 100000
 appId: com.castor.threecommas
 appCountry: 
 released: Mar 2, 2018
-updated: 2022-11-29
+updated: 2022-12-27
 version: 2.1.1
 stars: 4.5
 ratings: 
-reviews: 635
+reviews: 636
 size: 
 website: https://3commas.io
 repository: 

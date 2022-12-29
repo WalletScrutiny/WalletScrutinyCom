@@ -8,8 +8,8 @@ appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
 updated: 2022-12-23
-version: 5.6.0
-stars: 4.6
+version: 5.6.1
+stars: 4.7
 ratings: 14091
 reviews: 1120
 size: 

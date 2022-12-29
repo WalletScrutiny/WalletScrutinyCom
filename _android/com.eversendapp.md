@@ -12,7 +12,7 @@ updated: 2022-10-11
 version: 0.3.57
 stars: 3.8
 ratings: 5009
-reviews: 3671
+reviews: 3852
 size: 
 website: http://eversend.co
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: fibermode
-title: 'Mode: Buy, Earn & Grow Bitcoin'
+title: 'Mode: Buy, Earn & Grow Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.fibermode.Mode-Wallet
 appCountry: gb
 idd: 1483284435
 released: 2019-11-26
-updated: 2022-10-27
-version: 5.6.0
+updated: 2022-12-16
+version: 5.6.6
 stars: 4.2
-reviews: 1004
-size: '55823360'
+reviews: 1011
+size: '57227264'
 website: https://www.modeapp.com
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cdmdefi.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: 

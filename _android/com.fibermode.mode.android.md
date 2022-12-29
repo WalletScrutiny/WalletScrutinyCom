@@ -12,7 +12,7 @@ updated: 2022-12-15
 version: 3.0.5
 stars: 3.4
 ratings: 372
-reviews: 182
+reviews: 183
 size: 
 website: https://www.modeapp.com
 repository: 

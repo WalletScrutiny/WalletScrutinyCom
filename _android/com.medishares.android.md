@@ -8,8 +8,8 @@ users: 100000
 appId: com.medishares.android
 appCountry: 
 released: 2018-04-17
-updated: 2022-12-23
-version: 4.5.3
+updated: 2022-12-27
+version: 4.5.4
 stars: 3.9
 ratings: 2172
 reviews: 184

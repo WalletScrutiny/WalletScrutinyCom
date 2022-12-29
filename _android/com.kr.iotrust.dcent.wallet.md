@@ -8,11 +8,11 @@ users: 100000
 appId: com.kr.iotrust.dcent.wallet
 appCountry: cn
 released: 2018-10-16
-updated: 2022-11-28
-version: 5.21.1
+updated: 2022-12-27
+version: 5.21.2
 stars: 4.1
 ratings: 756
-reviews: 701
+reviews: 702
 size: 
 website: https://dcentwallet.com/
 repository: 
