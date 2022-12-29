@@ -1,7 +1,7 @@
 {%- assign v = site.data.verdicts[include.verdict]
--%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" class="stamps in-article {{ include.verdict }}"><span class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
+-%}<a id="{{ include.verdict }}" href="/methodology/#{{ include.verdict }}" class="stamp in-article {{ include.verdict }}"><span class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
   {%- when "short" -%}{{- v.short -}}
   {%- when "medium" -%}{{- v.title -}}
   {%- when "long" -%}{{- v.message -}}
   {%- else -%}error2: {{- include.verdict -}}
-{%- endcase -%}"></span>&nbsp;<i class="fas fa-info-circle"></i></a> 
+{%- endcase -%}" title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a> 

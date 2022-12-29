@@ -1120,6 +1120,7 @@ table tr td label {
   align-items: center;
   font-weight: 900;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .star-rating {
@@ -1228,8 +1229,7 @@ table tr td label {
 
 .app-summary-grid {
   display: grid;
-  row-gap: 1rem;
-  column-gap: 1rem;
+  gap: 40px;
   grid-template-columns: auto 1fr;
   margin-bottom: 2rem;
 }
@@ -1325,6 +1325,12 @@ table tr td label {
   font-size: .75rem;
   font-weight: bold;
   cursor: unset;
+  opacity: .5;
+  color: var(--text);
+}
+
+.app-payload-flex .label-lower .secondary-text {
+  opacity: 1;
 }
 
 .app-payload-flex>div>div {
@@ -1540,4 +1546,12 @@ html {
 
 .verdictMethodology>h2 {
   margin-top: 0px;
+}
+
+.verdictMethodology .badge {
+  margin-bottom: 20px;
+}
+
+.verdictMethodology .badge .diy-info-circle {
+  display: none;
 }

@@ -559,10 +559,42 @@
   backdrop-filter: blur(10px);
 }
 
-.stamps {
+.stamp {
   &.in-article {
-    text-decoration: navajowhite;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 800;
+    &:hover {
+      .diy-info-circle {
+        &::before {
+          opacity: 1;
+          box-shadow: 0 0 0 0;
+          color: var(--body);
+          background: var(--text);
+        }
+      }
+    }
+  }
+}
+
+.diy-info-circle {
+  &::before {
+    content: "i";
+    font-family: Courier, monospace;
+    font-style: normal;
+    font-size: 14px;
+    height: 18px;
+    width: 18px;
+    display: inline-grid;
+    box-shadow: 0 0 0 1px;
+    border-radius: 100px;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    font-weight: 300;
+    color: var(--text);
+    transform: translateY(-3px);
+    margin-left: 10px;
+    opacity: 0.5;
   }
 }

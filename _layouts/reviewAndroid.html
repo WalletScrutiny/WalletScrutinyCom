@@ -80,7 +80,7 @@ layout: default
             </div>
 
             {% if page.ratings %}
-              <span>{{ page.ratings }} ratings</span>
+              <span class="label-lower">{{ page.ratings }} ratings</span>
             {% endif %}
 
           </div>
@@ -129,7 +129,7 @@ layout: default
             <div>
               <span><span class="secondary-text">v</span>{{ page.version }}</span>
             </div>
-            <span class="calculate-time-elapsed" data="{{ page.updated | date: '%s' }}">
+            <span class="calculate-time-elapsed label-lower" data="{{ page.updated | date: '%s' }}">
               {{ page.updated | date_to_long_string: "ordinal" }}
             </span>
           </div>
@@ -143,7 +143,7 @@ layout: default
             <div>
               <span>{{ page.date | date_to_long_string: "ordinal" }}</span>
             </div>
-            <span class="calculate-time-elapsed" data="{{ page.date | date: '%s' }}">
+            <span class="calculate-time-elapsed label-lower" data="{{ page.date | date: '%s' }}">
               {{ page.updated | date_to_long_string: "ordinal" }}
             </span>
           </div>
