@@ -11,7 +11,7 @@ updated: 2022-09-28
 version: '8.700'
 stars: 3.8
 ratings: 
-reviews: 209
+reviews: 210
 size: 
 website: https://www.antcoin.online/
 repository: 

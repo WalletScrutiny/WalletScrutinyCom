@@ -17,7 +17,7 @@ size:
 website: https://hitbtc.com/
 repository: 
 issue: 
-icon: com.hittechsexpertlimited.hitbtc.png
+icon: com.hittechsexpertlimited.hitbtc.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

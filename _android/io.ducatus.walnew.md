@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-05
 updated: 2022-11-23
 version: 2.13.21
-stars: 3.8
+stars: 3.9
 ratings: 346
-reviews: 6
+reviews: 7
 size: 
 website: https://ducatus.net/
 repository: 

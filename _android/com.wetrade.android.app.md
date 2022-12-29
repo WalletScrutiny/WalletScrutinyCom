@@ -7,7 +7,7 @@ users: 100000
 appId: com.wetrade.android.app
 appCountry: 
 released: May 11, 2022
-updated: 2022-12-12
+updated: 2022-12-23
 version: '1.1'
 stars: 
 ratings: 

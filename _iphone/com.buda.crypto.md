@@ -1,6 +1,6 @@
 ---
 wsId: buda
-title: Buda
+title: Buda.com
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.buda.crypto
 appCountry: 
 idd: 1321460860
 released: 2018-01-04
-updated: 2022-05-26
-version: 2.0.24
+updated: 2022-12-12
+version: 2.4.3
 stars: 5
 reviews: 4
-size: '73629696'
+size: '25324544'
 website: 
 repository: 
 issue: 

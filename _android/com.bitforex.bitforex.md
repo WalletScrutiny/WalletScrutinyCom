@@ -8,7 +8,7 @@ appId: com.bitforex.bitforex
 appCountry: 
 released: Mar 17, 2022
 updated: 2022-12-16
-version: 3.2.3
+version: 3.2.4
 stars: 5
 ratings: 
 reviews: 78

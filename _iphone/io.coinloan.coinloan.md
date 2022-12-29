@@ -1,6 +1,6 @@
 ---
 wsId: CoinLoan
-title: CoinLoan Сrypto Wallet & Loans
+title: CoinLoan Crypto Wallet & Loans
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.coinloan.coinloan
 appCountry: us
 idd: 1506572788
 released: 2020-04-24
-updated: 2022-05-12
-version: 1.5.3
+updated: 2022-12-22
+version: 1.7.4
 stars: 4.8
-reviews: 406
-size: '55086080'
+reviews: 421
+size: '52673536'
 website: https://coinloan.io
 repository: 
 issue: 

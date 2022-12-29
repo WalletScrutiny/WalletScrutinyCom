@@ -3,7 +3,7 @@ wsId:
 title: Falcon Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.wallet.falcon
 appCountry: 
 released: 2021-04-01

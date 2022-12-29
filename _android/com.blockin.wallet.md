@@ -8,8 +8,8 @@ users: 10000
 appId: com.blockin.wallet
 appCountry: us
 released: 2020-03-23
-updated: 2022-10-21
-version: 2.5.4
+updated: 2022-12-21
+version: 2.5.5
 stars: 3.5
 ratings: 225
 reviews: 18

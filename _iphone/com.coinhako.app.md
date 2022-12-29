@@ -1,6 +1,6 @@
 ---
 wsId: coinhako
-title: 'Coinhako: Bitcoin Wallet Asia'
+title: 'Coinhako: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.coinhako.app
 appCountry: 
 idd: 1137855704
 released: 2016-09-04
-updated: 2022-06-30
-version: 4.4.1
+updated: 2022-12-02
+version: 4.6.7
 stars: 4.1
 reviews: 28
-size: '86081536'
+size: '107054080'
 website: https://www.coinhako.com
 repository: 
 issue: 

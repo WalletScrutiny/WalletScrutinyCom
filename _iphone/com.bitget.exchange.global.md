@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: Bitget - Trade BTC, DOGE, more
+title: Bitget- Buy Bitcoin & Ether
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2022-05-21
-version: 1.2.41
-stars: 4
-reviews: 3
-size: '141166592'
+updated: 2022-11-28
+version: 1.2.68
+stars: 2.8
+reviews: 108
+size: '245739520'
 website: https://www.bitget.com/en
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: ShapeShift
-title: 'ShapeShift: Buy & Trade Crypto'
+title: 'ShapeShift: Crypto Platform'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.shapeShift.shapeShift
 appCountry: 
 idd: 996569075
 released: 2015-06-09
-updated: 2022-05-18
-version: 2.20.0 (109)
-stars: 2.7
-reviews: 547
-size: '58823680'
+updated: 2022-10-22
+version: 3.0.3
+stars: 4.5
+reviews: 23
+size: '11074560'
 website: https://shapeshift.com
 repository: 
 issue: 

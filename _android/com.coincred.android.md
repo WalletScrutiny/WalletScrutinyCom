@@ -1,6 +1,6 @@
 ---
 wsId: coinCRED
-title: 'CoinCRED: Crypto Trading app'
+title: CoinCRED
 altTitle: 
 authors:
 - danny

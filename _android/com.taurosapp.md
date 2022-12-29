@@ -7,8 +7,8 @@ users: 10000
 appId: com.taurosapp
 appCountry: 
 released: Oct 3, 2019
-updated: 2022-12-14
-version: '9.3'
+updated: 2022-12-22
+version: '9.4'
 stars: 3.1
 ratings: 
 reviews: 5

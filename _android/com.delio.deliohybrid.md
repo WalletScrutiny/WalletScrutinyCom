@@ -8,8 +8,8 @@ users: 10000
 appId: com.delio.deliohybrid
 appCountry: cn
 released: 2020-02-27
-updated: 2022-12-12
-version: 1.3.19
+updated: 2022-12-22
+version: 1.4.1
 stars: 2.8
 ratings: 48
 reviews: 48

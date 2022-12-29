@@ -8,11 +8,11 @@ appId: coinunited.io
 appCountry: hk
 idd: 1565764339
 released: 2021-05-14
-updated: 2022-10-31
-version: 3.6.1
+updated: 2022-12-11
+version: 3.6.9
 stars: 4.9
-reviews: 270
-size: '133760000'
+reviews: 281
+size: '87219200'
 website: https://www.coinunited.io/
 repository: 
 issue: 

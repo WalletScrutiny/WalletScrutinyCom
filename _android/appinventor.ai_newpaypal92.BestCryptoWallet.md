@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: appinventor.ai_newpaypal92.BestCryptoWallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-01-09
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: 
