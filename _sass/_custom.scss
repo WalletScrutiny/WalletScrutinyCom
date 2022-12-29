@@ -310,6 +310,12 @@
         flex-direction: row;
         flex-wrap: wrap;
       }
+      &.obsolete,
+      &.defunct {
+        &::before {
+          display: none;
+        }
+      }
       &:nth-last-of-type(odd) {
         background: var(--white);
       }
