@@ -244,7 +244,7 @@ function getBadge(wallet, num) {
         <div class="stats">
           <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
         </div>
-        <span class="updated" data-text="${wallet.updated ? 'review updated' : 'reviewed'}">${wallet.updated ? wallet.updated : wallet.date}</span>
+        <span class="updated" data-text="latest analysis">${wallet.updated ? wallet.updated : wallet.date}</span>
     </div>
     <div class="wallet-details">
       <div class="stamps">
