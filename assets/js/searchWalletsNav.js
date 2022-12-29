@@ -136,9 +136,20 @@ function searchCatalogueNav(input) {
   searchScrollToTop()
 }
 
+function getIcon(name) {
+  let faCollection = ''
+  switch (name) {
+    case "android": faCollection = "fab fa-google-play"; break
+    case "iphone": faCollection = "fab fa-app-store"; break
+    case "hardware": faCollection = "fas fa-toolbox"; break
+    case "bearer": faCollection = "fab fa-bitcoin"; break
+  }
+  return faCollection
+}
+
 function makeCompactResultsHTML(wallet) {
   let result = ""
-  let faCollection = window.getIcon(wallet.folder)
+  let faCollection = getIcon(wallet.folder)
   const basePath = wallet.base_path || ""
   var analysisUrl = `${basePath}${wallet.url}`
   result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
