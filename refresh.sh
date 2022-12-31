@@ -33,3 +33,4 @@ echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
 ./refreshResults.sh
+node ./scripts/compileAllOpinions.js
