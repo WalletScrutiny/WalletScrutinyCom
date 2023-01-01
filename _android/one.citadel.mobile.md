@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Citadel One
+title: Citadel.one Super App
 altTitle: 
 authors: 
 users: 10000

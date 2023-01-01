@@ -12,7 +12,7 @@ updated: 2022-07-06
 version: 1.4.6
 stars: 4.6
 ratings: 2457
-reviews: 174
+reviews: 175
 size: 
 website: https://mobox.io/
 repository: 

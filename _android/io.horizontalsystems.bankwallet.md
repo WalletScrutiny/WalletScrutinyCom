@@ -1,6 +1,6 @@
 ---
 wsId: Unstoppable
-title: Unstoppable Wallet
+title: Unstoppable Crypto Wallet
 altTitle: 
 authors:
 - leo

@@ -10,14 +10,14 @@ appCountry:
 released: 2021-08-19
 updated: 2022-12-22
 version: 1.2.2
-stars: 3.7
+stars: 3.4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: 
 repository: 
 issue: 
-icon: com.willtrade.trading.jpg
+icon: com.willtrade.trading.png
 bugbounty: 
 meta: ok
 verdict: custodial

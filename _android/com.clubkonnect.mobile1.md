@@ -9,9 +9,9 @@ appCountry:
 released: Oct 31, 2017
 updated: 2022-12-21
 version: 2.0.10
-stars: 3.1
+stars: 3
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: http://www.clubkonnect.com
 repository: 

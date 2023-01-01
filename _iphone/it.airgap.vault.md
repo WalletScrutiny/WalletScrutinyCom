@@ -10,8 +10,8 @@ idd: 1417126841
 released: 2018-08-24
 updated: 2022-10-18
 version: 3.19.0
-stars: 4.3
-reviews: 12
+stars: 4.4
+reviews: 13
 size: '85392384'
 website: 
 repository: https://github.com/airgap-it/airgap-vault

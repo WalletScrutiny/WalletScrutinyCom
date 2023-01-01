@@ -3,7 +3,7 @@ wsId:
 title: LMAX Global Trading
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.mobiletradingpartners.lmax
 appCountry: 
 released: Sep 22, 2014

@@ -8,11 +8,11 @@ users: 100000
 appId: com.nano.moonxbt
 appCountry: us
 released: 2021-05-11
-updated: 2022-12-22
-version: 5.4.1
-stars: 4.6
+updated: 2022-12-28
+version: 5.4.2
+stars: 4.7
 ratings: 481
-reviews: 22
+reviews: 23
 size: 
 website: https://www.moonxbt.com
 repository: 

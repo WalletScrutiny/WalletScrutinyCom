@@ -3,7 +3,7 @@ wsId:
 title: BalanceWallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.balancenetwork.wallet
 appCountry: 
 released: May 6, 2022

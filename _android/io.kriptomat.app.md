@@ -9,7 +9,7 @@ appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
 updated: 2022-12-28
-version: 2.3.50
+version: 2.3.101
 stars: 
 ratings: 
 reviews: 
