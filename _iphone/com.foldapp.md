@@ -8,11 +8,11 @@ appId: com.foldapp
 appCountry: us
 idd: 1480424785
 released: 2019-11-18
-updated: 2022-11-20
-version: 139.17.6
+updated: 2022-12-28
+version: 139.17.9
 stars: 4.4
-reviews: 1355
-size: '238431232'
+reviews: 1362
+size: '238486528'
 website: http://foldapp.com
 repository: 
 issue: 

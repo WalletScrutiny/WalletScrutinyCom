@@ -3,7 +3,7 @@ wsId:
 title: BitcoinPoint
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinpoint.uk
 appCountry: 
 released: Apr 28, 2022

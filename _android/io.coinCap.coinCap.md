@@ -11,7 +11,7 @@ updated: 2021-10-11
 version: 3.1.33
 stars: 3.9
 ratings: 
-reviews: 358
+reviews: 359
 size: 
 website: http://coincap.io/
 repository: 
