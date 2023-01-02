@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fiboda.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-11-03
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

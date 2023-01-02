@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinet.bitcoinet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-13
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

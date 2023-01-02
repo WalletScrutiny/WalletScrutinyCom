@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.phonegap.Zloadr.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

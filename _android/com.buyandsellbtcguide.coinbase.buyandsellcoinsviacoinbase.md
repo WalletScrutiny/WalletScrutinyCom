@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-10-18
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ps.btcserverminer.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-09-17
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
