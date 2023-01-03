@@ -16,7 +16,7 @@ function elapsedTime(ts) {
   for (k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
-      return `${r} <span class="secondary-text">${k}${r > 1 ? "s" : ""} ago</span>`
+      return `${r} <span class="secondary-text">${k}${r > 1 ? "s" : ""}</span>`
   }
   return `<span class="secondary-text">today</span>`
 }
