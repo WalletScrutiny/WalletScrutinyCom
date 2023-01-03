@@ -9,22 +9,27 @@ users: 1000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
-updated: 2022-11-15
-version: 1.9.21
+updated: 2022-12-29
+version: 1.9.23
 stars: 4.7
 ratings: 26
 reviews: 10
 size: 
 website: https://nunchuk.io
-repository: 
-issue: https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5
+repository: https://github.com/nunchuk-io/nunchuk-android
+issue: https://github.com/nunchuk-io/nunchuk-android-nativesdk/issues/1
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2021-12-15
+verdict: ftbfs
+date: 2022-12-29
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2021-12-15
+  version: 1.9.21
+  appHash: 
+  gitRevision: f9bb0384d334f1ab3cd67824f43ff0053e7e51e7
+  verdict: nosource
 twitter: 
 social:
 - https://nunchuk.medium.com/
@@ -34,24 +39,78 @@ redirect_from:
 
 ---
 
-On their description we read:
+The app's version for Android was released as open source under the GPLv3
+[here](https://github.com/nunchuk-io/nunchuk-android).
 
-> Compared with normal Bitcoin wallets, Nunchuk’s multi-user multisig wallet gives you two extra levels of protection. First, the use of multisig technology means that losing any one key will not compromise your bitcoin. Second, our multi-user features allow you to co-manage your bitcoin with your trusted ones, effectively reducing the burden of key management.
+It's build instructions are:
 
-and
+1. Follow the build instructions for [Nunchuk Android Native SDK](https://github.com/nunchuk-io/nunchuk-android-nativesdk).
+2. Publish the SDK to the local maven. Note the SDK version number.
+3. Open dependencies.gradle and update nativeSdkVersion to the SDK version you just published.
+4. Build and run the app on your device.
 
-> FULL DATA CONTROL
-> 
-> All data is stored on your local devices. With the provided backup, your wallet could be safely recovered anytime, anywhere. You have complete control over your keys, your funds, your data.
-> 
-> HARDWARE KEY COMPATIBILITY
-> 
-> Nunchuk supports all major hardware keys, including but not limited to: Trezor, COLDCARD, Keystone, Ledger, and BitBox02.
+So, what are the "build instructions for Nunchuk Android Native SDK"?
+First of all, Xcode is required. That's a bit of an issue for us, as all
+contributors who do builds do not have a Mac and Xcode only works on Mac.
+It's not immediately clear if it really is required, so lets look further ...
 
-so this is a self-custodial Bitcoin wallet supporting multi-signature and it
-also functions as companion app for all major hardware wallets (or hardware
-keys as they quite rightfully call them).
+```
+git submodule add --force -b main https://gitlab.com/nunchuck/libnunchuk.git
+```
 
-Sadly they do have a "code" repository for mobile but use it only for its
-[issue tracker](https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5).
-Without actual source code, this app is **not verifiable**.
+but the user [nunchuck](https://gitlab.com/nunchuck) doesn't exist on
+gitlab.com.
+
+As Nunchuk Android's code is on GitHub, we can guess the right repo might be
+[nunchuk-io/libnunchuk](https://github.com/nunchuk-io/libnunchuk).
+
+Which is weird is that the repo's
+[git submodule](https://github.com/nunchuk-io/nunchuk-android-nativesdk/blob/main/.gitmodules)
+also still points to GitLab, so the error is not only in the documentation.
+
+Let's try:
+
+```
+$ git clone https://github.com/nunchuk-io/nunchuk-android-nativesdk.git
+$ cd nunchuk-android-nativesdk/
+$ cat .gitmodules 
+[submodule "src/main/native/libnunchuk"]
+	path = src/main/native/libnunchuk
+	url = https://gitlab.com/nunchuck/libnunchuk.git
+	branch = main
+$ git submodule update --init --recursive
+Submodule 'src/main/native/libnunchuk' (https://gitlab.com/nunchuck/libnunchuk.git) registered for path 'src/main/native/libnunchuk'
+Cloning into '/home/leo/tmp/nunchuk-android-nativesdk/src/main/native/libnunchuk'...
+Username for 'https://gitlab.com': 
+```
+
+This repo isn't a public repo but as it might be private, git asks for a login.
+As discussed above, we'll use libnunchuk from GitHub:
+
+```
+$ git submodule set-url src/main/native/libnunchuk https://github.com/nunchuk-io/libnunchuk.git
+$ git submodule update --init --recursive
+Cloning into '/home/leo/tmp/nunchuk-android-nativesdk/src/main/native/libnunchuk'...
+Submodule path 'src/main/native/libnunchuk': checked out 'c168cf715cbe768b5cd5004609f2db6d0ebfe254'
+...
+error: object e35e28f52d20df27561b2780f6b9c86669a9de21: zeroPaddedFilemode: contains zero-padded file modes
+fatal: fsck error in packed object
+fatal: index-pack failed
+fatal: clone of 'https://github.com/sqlcipher/sqlcipher' into submodule path '/home/leo/tmp/nunchuk-android-nativesdk/src/main/native/libnunchuk/contrib/sqlcipher' failed
+Failed to clone 'contrib/sqlcipher'. Retry scheduled
+```
+
+So ... we can't clone that dependency. Seriously?
+
+```
+$ git clone https://github.com/sqlcipher/sqlcipher
+Cloning into 'sqlcipher'...
+remote: Enumerating objects: 15498, done.
+remote: Counting objects: 100% (1910/1910), done.
+remote: Compressing objects: 100% (816/816), done.
+error: object e35e28f52d20df27561b2780f6b9c86669a9de21: zeroPaddedFilemode: contains zero-padded file modes
+fatal: fsck error in packed object
+fatal: index-pack failed
+```
+
+So for now we give up at this point and file this product as **not verifiable**.

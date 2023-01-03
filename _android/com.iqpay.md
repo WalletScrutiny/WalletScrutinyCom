@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.iqpay.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-03-19
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

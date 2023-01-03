@@ -8,11 +8,11 @@ appId: com.nitroex.nitroexexchangeapp
 appCountry: tt
 idd: 1569267465
 released: 2021-07-05
-updated: 2022-10-11
-version: 2.2.0
+updated: 2022-11-18
+version: 2.2.1
 stars: 0
 reviews: 0
-size: '95544320'
+size: '95581184'
 website: https://www.nitroex.io/
 repository: 
 issue: 

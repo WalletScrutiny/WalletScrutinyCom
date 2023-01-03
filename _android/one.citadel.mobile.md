@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Citadel One
+title: Citadel.one Super App
 altTitle: 
 authors: 
 users: 10000
 appId: one.citadel.mobile
 appCountry: 
 released: Dec 29, 2020
-updated: 2022-12-23
-version: 2.5.2
+updated: 2022-12-28
+version: 2.6.0
 stars: 4.3
 ratings: 
 reviews: 3

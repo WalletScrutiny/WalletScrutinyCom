@@ -1,6 +1,6 @@
 ---
 wsId: dcoin
-title: Dcoin - Trade Bitcoin,Ethereum
+title: Dcoin - Bitcoin Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
 released: 2018-12-20
-updated: 2022-06-17
-version: 5.3.6
-stars: 3.1
-reviews: 18
-size: '48732160'
+updated: 2022-12-22
+version: 5.6.1
+stars: 3
+reviews: 20
+size: '61146112'
 website: https://www.dcoin.com/
 repository: 
 issue: 

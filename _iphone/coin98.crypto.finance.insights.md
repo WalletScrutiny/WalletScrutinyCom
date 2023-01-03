@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: Coin98 Finance
+title: Coin98 Super App
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: coin98.crypto.finance.insights
 appCountry: us
 idd: 1561969966
 released: 2021-05-14
-updated: 2022-06-26
-version: 12.0.2
-stars: 4.6
-reviews: 568
-size: '103166976'
+updated: 2022-12-28
+version: 12.8.3
+stars: 4.5
+reviews: 588
+size: '122450944'
 website: https://coin98.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2022-12-15
 version: 2.1.0
 stars: 4.9
 ratings: 
-reviews: 164
+reviews: 165
 size: 
 website: https://coincred.org/
 repository: 

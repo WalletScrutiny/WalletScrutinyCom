@@ -7,8 +7,8 @@ users: 10000
 appId: com.bitfxt.boundlesspay
 appCountry: 
 released: Sep 19, 2021
-updated: 2022-11-22
-version: 1.9.95
+updated: 2022-12-27
+version: 2.0.0
 stars: 4.7
 ratings: 
 reviews: 8

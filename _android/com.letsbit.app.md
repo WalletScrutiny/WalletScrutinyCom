@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Let’sBit  Tu billetera virtual
+title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors: 
 users: 10000
 appId: com.letsbit.app
 appCountry: 
 released: May 6, 2022
-updated: 2022-12-21
-version: v1.5.1
+updated: 2023-01-02
+version: v1.6.0
 stars: 3.6
 ratings: 
 reviews: 4

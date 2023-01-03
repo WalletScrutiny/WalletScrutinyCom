@@ -8,8 +8,8 @@ users: 1000
 appId: com.keystone.mobile
 appCountry: 
 released: 2021-06-01
-updated: 2022-12-12
-version: 1.2.1
+updated: 2022-12-21
+version: 1.2.2
 stars: 4.2
 ratings: 
 reviews: 4

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.elaphant.wallets.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-04-29
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

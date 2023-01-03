@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sculptech.dtrax.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-05-15
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

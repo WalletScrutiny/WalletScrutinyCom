@@ -9,9 +9,9 @@ appCountry:
 released: Apr 26, 2020
 updated: 2022-11-28
 version: 1.0.0
-stars: 4.6
+stars: 4.4
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://orinoco.io
 repository: 

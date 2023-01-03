@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2020-05-29
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: coinsquare

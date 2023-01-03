@@ -11,16 +11,16 @@ released: 2019-01-26
 updated: 2020-12-29
 version: 2.9.4
 stars: 3.9
-reviews: 82
+reviews: 83
 size: '276264960'
 website: https://pundix.com
 repository: 
 issue: 
 icon: com.pundix.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2021-12-26
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

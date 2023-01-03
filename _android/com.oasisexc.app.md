@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oasisexc.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

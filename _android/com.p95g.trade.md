@@ -3,7 +3,7 @@ wsId:
 title: Virgo Trade
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.p95g.trade
 appCountry: 
 released: Sep 10, 2019

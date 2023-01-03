@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ufund.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-01-01
 signer: 
 reviewArchive: 
 twitter: 

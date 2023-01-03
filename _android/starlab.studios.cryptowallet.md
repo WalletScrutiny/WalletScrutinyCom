@@ -4,7 +4,7 @@ title: 'Crypto Wallets: BTC, USDT, ETH'
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
-users: 1000
+users: 5000
 appId: starlab.studios.cryptowallet
 appCountry: 
 released: 2021-06-01

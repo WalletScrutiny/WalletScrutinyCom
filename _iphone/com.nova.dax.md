@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: NovaDAX - Buy & Sell Bitcoin
+title: NovaDAX - Bitcoin Exchange
 altTitle: 
 authors: 
 appId: com.nova.dax
 appCountry: 
 idd: 1472203612
 released: 2019-10-02
-updated: 2022-11-10
-version: 2.0.8
+updated: 2022-12-28
+version: 3.0.1
 stars: 4.7
 reviews: 36
-size: '63799296'
+size: '63512576'
 website: 
 repository: 
 issue: 
