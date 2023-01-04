@@ -1167,9 +1167,10 @@ table tr td label {
   font-size: 14px;
   line-height: 14px;
   border-radius: 100px;
-  background-color: var(--masthead-text);
+  background-color: transparent;
   opacity: .8;
-  color: var(--white);
+  color: var(--text);
+  box-shadow: 0 0 0 1px var(--shadow-2);
 }
 .social-row ul li a:hover {
   opacity: 1;
