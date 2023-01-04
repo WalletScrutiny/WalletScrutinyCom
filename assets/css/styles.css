@@ -1126,7 +1126,7 @@ table tr td label {
   margin: 0;
 }
 
-.social-row ul li a {
+/* .social-row ul li a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
@@ -1142,9 +1142,9 @@ table tr td label {
 
 .social-row ul li a i {
   font-size: 1.2rem;
-}
+} */
 
-.social-row ul li a>span {
+/* .social-row ul li a>span {
   display: none;
   font-size: 11px;
   opacity: .3;
@@ -1152,24 +1152,63 @@ table tr td label {
 
 .social-row ul li a:hover>span {
   opacity: 1;
+} */
+
+.social-row ul li a {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  text-decoration: none;
+  text-align: center;
+  padding: 3px 7px;
+  margin: 4px;
+  gap: 6px;
+  transition: none;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 100px;
+  background-color: var(--masthead-text);
+  opacity: .8;
+  color: var(--white);
+}
+.social-row ul li a:hover {
+  opacity: 1;
+  background-color: var(--accent);
+  color: var(--white);
+}
+.social-row ul li a:active {
+  opacity: .6;
+}
+.social-row ul li a::after {
+  content: attr(title);
 }
 
-.link-web:hover {
-  color: var(--gold);
+.app-summary-grid .social-row ul li a i {
+  font-size: 11px;
+  line-height: 15px;
 }
 
+.social-row ul li a.link-twitter:hover{
+  background-color: #00aeff;
+}
 .link-twitter:hover {
   color: #00aeff;
 }
-
+.social-row ul li a.link-facebook:hover{
+  background-color: #0044ff;
+}
 .link-facebook:hover {
   color: #0044ff;
 }
-
+.social-row ul li a.link-reddit:hover{
+  background-color: #ff7b00;
+}
 .link-reddit:hover {
   color: #ff7b00;
 }
-
+.social-row ul li a.link-linkedin:hover{
+  background-color: #003cff;
+}
 .link-linkedin:hover {
   color: #003cff;
 }
@@ -1210,9 +1249,9 @@ table tr td label {
   text-align: center;
 }
 
-.app-summary-grid .social-row ul li a i {
+/* .app-summary-grid .social-row ul li a i {
   font-size: .9rem;
-}
+} */
 
 .app-summary-grid>.app-payload-flex {
   grid-column: 1/3;
