@@ -26,7 +26,7 @@
   --gold: #ff9b00;
   --blue: #003395;
   --light-blue: #0064ff;
-  --reproducible-badge: url(/images/reproducible-badge-dark.svg);
+  --reproducible-badge: url(/images/reproducible-2-dark.svg);
   --masthead-text: #000;
 }
 
@@ -62,7 +62,7 @@
   --blue-notify-background: #101040;
   --gold: #ffb300;
   --blue: #a0b6f9;
-  --reproducible-badge: url(/images/reproducible-badge-light.svg);
+  --reproducible-badge: url(/images/reproducible-2-light.svg);
   --masthead-text: #fff;
 }
 
@@ -1354,7 +1354,7 @@ table tr td label {
 
 .svg.reproducible {
   background-image: var(--reproducible-badge);
-  transform: rotate(-25deg);
+  /* transform: rotate(-25deg); */
 }
 
 .app-payload-flex>div>span {
