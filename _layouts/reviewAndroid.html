@@ -177,8 +177,16 @@ layout: default
       </section>
 
       {% if page.share %}
-        {% include social-share.html %}
-        {% include embed.html %}
+        <div class="tab-view">
+          <div class="labels">
+            <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
+            <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
+          </div>
+          <div class="payloads">
+            <div class="social-share active">{% include social-share.html %}</div>
+            <div class="embed-widget">{% include embed.html %}</div>
+          </div>
+        </div>
       {% endif %}
     </div>
   </article>

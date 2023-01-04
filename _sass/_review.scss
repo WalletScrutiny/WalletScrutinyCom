@@ -1,0 +1,124 @@
+.verdictMethodology {
+  border-radius: 5px;
+  background-color: #8884;
+  padding: 40px 50px;
+  margin: 10px 0;
+  > h2 {
+    margin-top: 0px;
+  }
+
+  .badge {
+    margin-bottom: 20px;
+    .diy-info-circle {
+      display: none;
+    }
+  }
+}
+
+.subsect {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 80px 0;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    font-weight: 300;
+  }
+  .fa-bullhorn {
+    transform-origin: center;
+    transform: rotate(-20deg);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    background: var(--indifferent);
+    line-height: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    color: var(--permanent-white);
+  }
+  .fa-twitter {
+    color: #1da1f2;
+    font-size: 1.3rem;
+    border-radius: 20%;
+    margin-right: 0.5rem;
+    padding: 0;
+  }
+  p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0;
+    font-weight: 300;
+    justify-content: center;
+  }
+}
+
+.tab-view {
+  display: grid;
+  gap: 20px;
+  margin-right: auto;
+  width: auto;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  margin-top: 60px;
+  .labels {
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 2px 0 var(--white);
+    .label {
+      display: grid;
+      line-height: 20px;
+      padding: 10px 15px;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+      &.active {
+        background: var(--white);
+      }
+      &::before {
+        content: attr(data-text);
+        font-size: 20px;
+        font-weight: 700;
+      }
+      &::after {
+        content: attr(data-suffix);
+        font-size: 17px;
+      }
+      @media (max-width: 500px) {
+        &::after {
+          content: unset;
+        }
+      }
+      &:not(.active) {
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .payloads {
+    > :not(.active) {
+      display: none;
+    }
+    .page__share {
+      float: unset !important;
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+    .page__share-title {
+      display: none;
+    }
+    pre {
+      max-width: 80vw;
+    }
+  }
+}

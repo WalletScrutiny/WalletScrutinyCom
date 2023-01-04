@@ -59,3 +59,17 @@ if (document.getElementById("versions").hasAttribute("wsId")) {
   })
   document.getElementById("versions").innerHTML = `See also ${html}`
 }
+
+// TAB VIEW
+// document.querySelectorAll(".tab-view").forEach((ele) => {
+//   ele.querySelectorAll(".label")
+// })
+
+document.querySelectorAll(".tab-view .label").forEach((ele) => {
+  ele.addEventListener("click", (event) => {
+    const self = event.target
+    document.querySelectorAll(".active").forEach((active) => { active.classList.remove('active') })
+    self.classList.add("active")
+    document.querySelector(`.${self.getAttribute("data-for")}`).classList.add("active")
+  })
+})
