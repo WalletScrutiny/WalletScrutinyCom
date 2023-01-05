@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Rocket Trades: Trade App'
+title: BTC GAMES-Rocket Trade
 altTitle: 
 authors: 
 users: 10000

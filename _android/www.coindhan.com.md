@@ -7,7 +7,7 @@ users: 10000
 appId: www.coindhan.com
 appCountry: 
 released: Sep 5, 2021
-updated: 2022-12-30
+updated: 2023-01-04
 version: '1.0'
 stars: 
 ratings: 

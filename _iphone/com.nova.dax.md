@@ -7,11 +7,11 @@ appId: com.nova.dax
 appCountry: 
 idd: 1472203612
 released: 2019-10-02
-updated: 2022-12-28
-version: 3.0.1
+updated: 2023-01-03
+version: 3.0.2
 stars: 4.7
 reviews: 36
-size: '63512576'
+size: '63412224'
 website: 
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
 released: 2014-06-22
-updated: 2022-12-20
-version: 10.49.11
+updated: 2023-01-03
+version: 11.0.0
 stars: 4.7
-reviews: 1680843
-size: '105699328'
+reviews: 1680994
+size: '105645056'
 website: http://www.coinbase.com
 repository: 
 issue: 

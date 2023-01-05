@@ -7,7 +7,7 @@ users: 100
 appId: com.wiser.app
 appCountry: 
 released: 
-updated: 2022-08-22
+updated: 2023-01-03
 version: VARY
 stars: 
 ratings: 

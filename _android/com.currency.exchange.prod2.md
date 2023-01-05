@@ -9,7 +9,7 @@ appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
 updated: 2023-01-02
-version: 1.33.1
+version: 1.34.0
 stars: 
 ratings: 
 reviews: 

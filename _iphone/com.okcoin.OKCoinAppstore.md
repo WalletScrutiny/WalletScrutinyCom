@@ -11,7 +11,7 @@ released: 2014-07-18
 updated: 2022-12-28
 version: 5.3.80
 stars: 4.8
-reviews: 3498
+reviews: 3499
 size: '223381504'
 website: https://www.okcoin.com/mobile
 repository: 

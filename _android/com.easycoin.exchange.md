@@ -7,8 +7,8 @@ users: 10000
 appId: com.easycoin.exchange
 appCountry: 
 released: May 16, 2022
-updated: 2022-12-24
-version: 1.0.57
+updated: 2022-12-31
+version: 1.0.58
 stars: 
 ratings: 
 reviews: 

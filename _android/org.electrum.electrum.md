@@ -8,9 +8,9 @@ users: 500000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2022-09-29
-version: 4.3.2.0
-stars: 3.6
+updated: 2023-01-03
+version: 4.3.3.0
+stars: 3.7
 ratings: 2500
 reviews: 297
 size: 
