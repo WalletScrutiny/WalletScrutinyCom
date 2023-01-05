@@ -37,9 +37,9 @@ function toggleApp(id, show) {
       if (walletInstance.folder + walletInstance.appId === id) {
         thisCard = getBadge(walletInstance)
         thisCard += getWidgetDetails(walletInstance)
-        thisCard+=`<p><a href="${walletInstance.url}" rel="permalink">
-        <strong style="float:right">Full Analysis&nbsp;<i class="fas fa-arrow-right"></i></strong>
-        </a></p>`
+        thisCard+=`<a href="${walletInstance.url}" rel="permalink" class="article-link">
+        Full Analysis&nbsp;<i class="fas fa-arrow-right"></i>
+        </a>`
         break
       }
     }

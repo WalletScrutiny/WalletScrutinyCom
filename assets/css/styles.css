@@ -1160,7 +1160,7 @@ table tr td label {
   opacity: 1;
 } */
 
-.social-row ul li a {
+.social-row a {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr;
@@ -1178,42 +1178,44 @@ table tr td label {
   color: var(--text);
   box-shadow: 0 0 0 1px var(--shadow-2);
 }
-.social-row ul li a:hover {
+.social-row a:hover {
   opacity: 1;
   background-color: var(--accent);
   color: var(--white);
+  box-shadow: none;
 }
-.social-row ul li a:active {
+.social-row a:active {
   opacity: .6;
 }
-.social-row ul li a::after {
+.social-row a::after {
   content: attr(title);
 }
 
-.app-summary-grid .social-row ul li a i {
+.app-summary-grid .social-row a i {
   font-size: 11px;
   line-height: 15px;
+  transition: none;
 }
 
-.social-row ul li a.link-twitter:hover{
+.social-row a.link-twitter:hover{
   background-color: #00aeff;
 }
 .link-twitter:hover {
   color: #00aeff;
 }
-.social-row ul li a.link-facebook:hover{
+.social-row a.link-facebook:hover{
   background-color: #0044ff;
 }
 .link-facebook:hover {
   color: #0044ff;
 }
-.social-row ul li a.link-reddit:hover{
+.social-row a.link-reddit:hover{
   background-color: #ff7b00;
 }
 .link-reddit:hover {
   color: #ff7b00;
 }
-.social-row ul li a.link-linkedin:hover{
+.social-row a.link-linkedin:hover{
   background-color: #003cff;
 }
 .link-linkedin:hover {

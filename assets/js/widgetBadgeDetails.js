@@ -16,7 +16,7 @@ function getWidgetDetails(wallet) {
   function getSocialLinks(social) {
     return social
       ? social.map( s => linkIf(s,
-        (new URL(s)).hostname.replace('www.', ''),
+        "Provider " + (new URL(s)).hostname.replace('www.', ''),
         '<i class="fas fa-globe"></i>')).join(' ')
       : ''
   }
@@ -40,20 +40,23 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.discontinued) ? `<tr><td><strong>Discontinued</strong></td><td>${wallet.discontinued}</td></tr>` : ""}
     ${ (wallet.dimensions && wallet.dimensions.length == 3) ? `<tr><td>Size</td><td>${wallet.dimensions[0]}mm x ${wallet.dimensions[1]}mm x ${wallet.dimensions[2]}mm</td></tr>` : ""}
     <tr><td>Latest Analysis</td><td>${wallet.date}</td></tr>
-    <tr><td>Links</td><td>
-    ${ wallet.folder == "iphone"
-      ? `<a target="_blank" href="https://apps.apple.com/${wallet.appCountry || "us"}/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
-      : wallet.folder == "android"
-        ? `<a target="_blank" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
-        : ""
-    }
-    ${ linkIf(wallet.website,          "Provider Website",  '<i class="fas fa-globe"></i>') }
-    ${ linkIf(wallet.shop,             "Official Store",    '<i class="fas fa-shopping-cart"></i>') }
-    ${ linkIf(wallet.binaries,         "Binaries",          '<i class="fas fa-file-archive"></i>') }
-    ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fa fa-file-code"></i>') }
-    ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
-    ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Provider Twitter", '<i class="fab fa-twitter"></i>') }
-    ${ getSocialLinks(wallet.social) }
+    <tr><td>Links</td><td></td>
+    <tr><td colspan="2">
+      <div class="social-row flex-parent">
+      ${ wallet.folder == "iphone"
+        ? `<a target="_blank" title="App Store" href="https://apps.apple.com/${wallet.appCountry || "us"}/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
+        : wallet.folder == "android"
+          ? `<a target="_blank" title="Play Store" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
+          : ""
+      }
+      ${ linkIf(wallet.website,          "Provider Website",  '<i class="fas fa-globe"></i>') }
+      ${ linkIf(wallet.shop,             "Official Store",    '<i class="fas fa-shopping-cart"></i>') }
+      ${ linkIf(wallet.binaries,         "Binaries",          '<i class="fas fa-file-archive"></i>') }
+      ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fa fa-file-code"></i>') }
+      ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
+      ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Provider Twitter", '<i class="fab fa-twitter"></i>') }
+      ${ getSocialLinks(wallet.social) }
+      </div>
     </td></tr>
     </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`
 }

@@ -125,3 +125,42 @@
     }
   }
 }
+
+.article-link {
+  text-decoration: none;
+  margin-top: 8px;
+  display: inline-block;
+  font-weight: 600;
+  text-align: right;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  &:hover {
+    color: var(--accent);
+  }
+  @media (max-width: 500px) {
+    text-align: center;
+    background: var(--accent-text);
+    color: var(--permanent-white);
+    padding: 8px;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 5px;
+    &:hover {
+      color: var(--permanent-white);
+      background: var(--accent);
+    }
+    i {
+      display: none;
+    }
+  }
+}
+
+.flex-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px 1px;
+  &.social-row {
+    margin-top: 0px;
+  }
+}
