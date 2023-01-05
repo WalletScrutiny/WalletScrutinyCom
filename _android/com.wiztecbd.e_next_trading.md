@@ -7,8 +7,8 @@ users: 1000
 appId: com.wiztecbd.e_next_trading
 appCountry: 
 released: Mar 18, 2022
-updated: 2022-12-13
-version: 2.1.1
+updated: 2023-01-01
+version: 2.1.2
 stars: 
 ratings: 
 reviews: 

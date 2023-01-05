@@ -7,7 +7,7 @@ users: 100
 appId: com.zinary.apps
 appCountry: 
 released: 
-updated: 2022-12-30
+updated: 2023-01-04
 version: VARY
 stars: 
 ratings: 

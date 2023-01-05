@@ -10,8 +10,8 @@ idd: 1561857024
 released: 2021-06-30
 updated: 2022-12-22
 version: 1.0.62
-stars: 3.8
-reviews: 13
+stars: 3.6
+reviews: 14
 size: '105325568'
 website: https://www.bitmama.io/
 repository: 

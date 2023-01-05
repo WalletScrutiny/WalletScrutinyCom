@@ -8,11 +8,11 @@ appId: org.pionex
 appCountry: us
 idd: 1485348891
 released: 2020-04-18
-updated: 2022-12-22
-version: 2.1.0
+updated: 2023-01-04
+version: 2.1.1
 stars: 4.4
 reviews: 463
-size: '96286720'
+size: '96189440'
 website: https://www.pionex.com
 repository: 
 issue: 
