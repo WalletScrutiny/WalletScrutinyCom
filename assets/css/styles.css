@@ -1112,6 +1112,12 @@ table tr td label {
   opacity: .5;
 }
 
+.social-row {
+  margin-top: 10px;
+  margin-left: -3px;
+}
+
+
 .social-row ul {
   display: flex;
   flex-direction: row;
