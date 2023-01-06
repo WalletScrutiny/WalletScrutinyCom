@@ -11,7 +11,7 @@ updated: 2020-01-22
 version: 2.0.16
 stars: 2
 ratings: 4008
-reviews: 178
+reviews: 179
 size: 
 website: https://cloudtokenwallet.com/
 repository: 
