@@ -12,7 +12,7 @@ updated: 2023-01-04
 version: 202212.1.6
 stars: 4.2
 ratings: 115830
-reviews: 5755
+reviews: 5756
 size: 
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

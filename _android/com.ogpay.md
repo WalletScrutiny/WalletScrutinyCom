@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-07-31
 updated: 2022-12-14
 version: VARY
-stars: 4.6
+stars: 4.5
 ratings: 42
 reviews: 85
 size: 

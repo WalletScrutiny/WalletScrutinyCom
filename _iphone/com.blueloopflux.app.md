@@ -11,7 +11,7 @@ released: 2020-10-15
 updated: 2022-12-11
 version: 3.0.20
 stars: 3.9
-reviews: 68
+reviews: 69
 size: '67110912'
 website: https://iflux.app/
 repository: 

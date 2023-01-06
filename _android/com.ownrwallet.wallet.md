@@ -12,7 +12,7 @@ updated: 2022-12-23
 version: 1.64.1
 stars: 4.8
 ratings: 2072
-reviews: 359
+reviews: 360
 size: 
 website: https://ownrwallet.com
 repository: 

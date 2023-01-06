@@ -12,7 +12,7 @@ updated: 2022-12-26
 version: 7.19.0
 stars: 3.9
 ratings: 4430
-reviews: 1414
+reviews: 1415
 size: 
 website: https://bitflyer.com
 repository: 

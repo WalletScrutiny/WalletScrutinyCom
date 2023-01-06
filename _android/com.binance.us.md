@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: Buy BTC & ETH | 0% Fee Trading
+title: 'Binance.US: Buy Bitcoin & ETH'
 altTitle: 
 authors:
 - leo
