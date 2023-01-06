@@ -441,12 +441,12 @@
     align-items: start;
     justify-content: start;
     position: relative;
-    gap: 30px;
-    @media (max-width: 700px) {
-      gap: 15px;
-      justify-content: center;
+    gap: 37px;
+    @media (max-width: 1334px) {
+      gap: 4vw 3vw;
     }
     @media (max-width: 500px) {
+      gap: 5vw;
       justify-content: space-evenly;
     }
     &::after {
@@ -463,15 +463,20 @@
     opacity: 0;
     transform: scale(0.8);
     animation: tile-pop-in 200ms ease forwards 1;
-    width: 200px;
+    width: 210px;
     padding: 10px;
     background: var(--white);
     border-radius: 12px;
     box-shadow: 0 0px 30px -25px #000;
     transition: 200ms ease;
-    @media (max-width: 700px) {
-      width: 150px;
-      max-width: calc(50vw - 40px);
+    @media (max-width: 1334px) {
+      width: 20vw;
+    }
+    @media (max-width: 950px) {
+      width: 28vw;
+    }
+    @media (max-width: 500px) {
+      width: 42vw;
     }
     &:hover {
       box-shadow: 0 10px 30px -20px #000;
