@@ -17,12 +17,12 @@ reviews: 10
 size: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android
-issue: https://github.com/nunchuk-io/nunchuk-android-nativesdk/issues/1
+issue: https://github.com/nunchuk-io/nunchuk-android/issues/7
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2022-12-29
+verdict: nonverifiable
+date: 2023-01-06
 signer: 
 reviewArchive:
 - date: 2021-12-15
@@ -30,7 +30,7 @@ reviewArchive:
   appHash: 
   gitRevision: f9bb0384d334f1ab3cd67824f43ff0053e7e51e7
   verdict: nosource
-twitter: 
+twitter: nunchuk_io
 social:
 - https://nunchuk.medium.com/
 - >-
@@ -114,3 +114,19 @@ fatal: index-pack failed
 ```
 
 So for now we give up at this point and file this product as **not verifiable**.
+
+**Update 2023-01-06**: As laid out in
+[this issue](https://github.com/nunchuk-io/nunchuk-android/issues/7), we managed
+to compile the app but with substantial differences:
+
+```
+Files ./GooglePlay/classes2.dex and ./LocalBuild/classes2.dex differ
+Files ./GooglePlay/classes3.dex and ./LocalBuild/classes3.dex differ
+Files ./GooglePlay/classes4.dex and ./LocalBuild/classes4.dex differ
+Files ./GooglePlay/classes5.dex and ./LocalBuild/classes5.dex differ
+Files ./GooglePlay/classes.dex and ./LocalBuild/classes.dex differ
+Files ./GooglePlay/lib/arm64-v8a/libnunchuk-android.so and ./LocalBuild/lib/arm64-v8a/libnunchuk-android.so differ
+```
+
+Until these issues are resolved, the app is **not verifiable**.
+
