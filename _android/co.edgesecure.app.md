@@ -1,73 +1,92 @@
 ---
-title: "Edge - Bitcoin, Ethereum, Monero, Ripple Wallet"
+wsId: edge
+title: Edge - Bitcoin & Crypto Wallet
 altTitle: 
-
-users: 100000
+authors:
+- leo
+- emanuel
+users: 500000
 appId: co.edgesecure.app
-launchDate: 2018-03-01
-latestUpdate: 2020-09-06
-apkVersionName: "1.16.7"
-stars: 4.1
-ratings: 1485
-reviews: 847
-size: 64M
-website: https://edge.app/
+appCountry: 
+released: 2018-03-01
+updated: 2022-12-17
+version: 2.28.0
+stars: 3.6
+ratings: 3880
+reviews: 612
+size: 
+website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-10
-reviewStale: true
+meta: ok
+verdict: ftbfs
+date: 2022-11-02
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+- date: 2022-03-13
+  version: 2.12.0
+  appHash: 
+  gitRevision: 26a46f55d9739ede4c8b778ac3ae1ce6c91995b9
+  verdict: ftbfs
+- date: 2019-11-10
+  version: 1.10.1
+  appHash: 
+  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
+  verdict: nonverifiable
+twitter: edgewallet
+social:
+- https://www.linkedin.com/company/edgeapp
+- https://www.reddit.com/r/EdgeWallet
 redirect_from:
-  - /edge/
-  - /co.edgesecure.app/
-  - /posts/2019/11/edge/
-  - /posts/co.edgesecure.app/
+- /edge/
+- /co.edgesecure.app/
+- /posts/2019/11/edge/
+- /posts/co.edgesecure.app/
+
 ---
 
+Their latest version on Play Store is 2.25.0. The last version we checked did
+not match the code. Let's see how it goes now ...
 
-Edge - Bitcoin, Ethereum, Monero, Ripple Wallet
-is the successor of [Airbitz](/airbitz/) and claims to be *non-custodial* and
-*open source*.
+Using [Emanuel's Container file](https://github.com/EdgeApp/edge-react-gui/issues/1748#issuecomment-1065934661)
+updated to 2.25.0:
 
-The Playstore description points to [this link](https://github.com/Airbitz) as
-their open source, where we are greeted with **"This organization has no public
-repositories."**. Not good. But ... above we find `*** WE'VE MOVED. See
-github.com/EdgeApp ***` and sure enough,
-[this](https://github.com/EdgeApp/edge-react-gui) looks better.
+```
+...
++ cp /home/appuser/app/edgeUpstreamAPK/res/raw/env.json ./env.json
+cp: can't stat '/home/appuser/app/edgeUpstreamAPK/res/raw/env.json': No such file or directory
+Error: error building at STEP "RUN set -ex;     cd edge-react-gui;     git checkout v2.25.0;     yarnpkg install --frozen-lockfile --ignore-optional --ignore-scripts;     yarnpkg prepare;     cp /home/appuser/app/edgeUpstreamAPK/res/raw/env.json ./env.json;     cd android;     ./gradlew assembleRelease": error while running runtime: exit status 1
+```
 
-So here we have to give up for now. We cannot find any claim of verifiability of
-the builds but worse, the wording of the build
-[Requirements](https://github.com/EdgeApp/edge-react-gui#requirements) doesn't
-sound as if it was well established what was needed to successfully build the
-wallet at all.
+ran into an error. The `env.json` configuration file that Emanuel had extracted
+from the binary we are trying to test is not in the binary anymore.
 
-> Edge is known to build with this exact tool set. Updated versions of these toolsets may break the build or app. If you have issues, try mirroring these exact versions.
+After removing that part of the container file, it **fails to build from source**:
+  
+```
+$ podman build --rm -t edge_build_apk -f scripts/test/container/co.edgesecure.app
+...
+> Task :bugsnag_react-native:compileReleaseKotlin
+w: /home/appuser/app/edge/edge-react-gui/node_modules/@bugsnag/react-native/android/src/main/java/com/bugsnag/android/BugsnagReactNative.kt: (204, 48): Elvis operator (?:) always returns the left operand of non-nullable type ReadableMap
 
-Android Studio 3.1.3 is a requirement? Version 3.5.1 being the current version I
-would not be too happy to down-grade but for our standards of verification being
-easy, we would probably require the verification to be possible to automate
-meaning to at least work head-less in a docker container for example. A Docker
-container would allow to define all the versions nicely and we hope the wallet
-will provide such verification support soon.
+> Task :bugsnag_react-native:javaPreCompileRelease
+> Task :disklet:generateReleaseBuildConfig
 
-Lastly the app can currently not be verified because the playstore version
-`1.10.1` is ahead of the latest tag
-[published on GitHub](https://github.com/EdgeApp/edge-react-gui/tags) being
-`1.9.8`.
+> Task :bugsnag_react-native:compileReleaseJavaWithJavac FAILED
+/home/appuser/app/edge/edge-react-gui/node_modules/@bugsnag/react-native/android/src/main/java/com/bugsnag/android/BugsnagPackage.java:1: error: cannot access com.bugsnag.android
+package com.bugsnag.android;
+^
+  /home/appuser/.gradle/caches/transforms-3/db229a6e5f4fe0ba69c000c5a66ca523/transformed/swiperefreshlayout-1.0.0-api.jar: No file descriptors available
+/home/appuser/app/edge/edge-react-gui/node_modules/@bugsnag/react-native/android/build/generated/source/buildConfig/release/com/bugsnag/reactnative/BuildConfig.java:4: error: cannot access com.bugsnag.reactnative
+package com.bugsnag.reactnative;
+^
+  /home/appuser/.gradle/caches/transforms-3/db229a6e5f4fe0ba69c000c5a66ca523/transformed/swiperefreshlayout-1.0.0-api.jar: No file descriptors available
+2 errors
 
+FAILURE: Build failed with an exception.
+...
+```
 
-Verdict
-=======
-
-This wallet is currently **not verifiable**.
+This release is **not verifiable**.

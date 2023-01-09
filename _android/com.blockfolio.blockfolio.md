@@ -1,39 +1,56 @@
 ---
-title: "Blockfolio - Bitcoin and Cryptocurrency Tracker"
+wsId: blockfolio
+title: FTX - Buy Crypto, Stocks, ETFs
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 5000000
 appId: com.blockfolio.blockfolio
-launchDate: 2015-10-01
-latestUpdate: 2020-06-11
-apkVersionName: "2.5.10"
-stars: 4.7
-ratings: 109461
-reviews: 33350
-size: 49M
-website: https://www.blockfolio.com/
+appCountry: us
+released: 2015-10-01
+updated: 2022-11-01
+version: 4.12.5
+stars: 4
+ratings: 164833
+reviews: 11863
+size: 
+website: https://www.blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
-verdict: nowallet # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-10
-reviewStale: true
+meta: defunct
+verdict: custodial
+date: 2023-01-02
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+- date: 2019-11-10
+  version: 4.0.1
+  appHash: 
+  gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
+  verdict: nowallet
+twitter: Blockfolio
+social:
+- https://www.facebook.com/Blockfolio
 redirect_from:
-  - /blockfolio/
-  - /com.blockfolio.blockfolio/
-  - /posts/2019/11/blockfolio/
-  - /posts/com.blockfolio.blockfolio/
+- /blockfolio/
+- /com.blockfolio.blockfolio/
+- /posts/2019/11/blockfolio/
+- /posts/com.blockfolio.blockfolio/
+
 ---
 
+**Update 2021-08-09**: By now this app clearly sounds like an exchange that lets
+you buy, hold, send and receive BTC but as an exchange it's certainly custodial
+and thus **not verifiable**. There are a total of 6 related apps that all appear to belong to the same "FTX":
+
+* {% include walletLink.html wallet='android/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='iphone/com.blockfolio.blockfolio' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftx' %}
+* {% include walletLink.html wallet='iphone/org.reactjs.native.example.FTXMobile.FTX' %}
+* {% include walletLink.html wallet='android/com.ftxmobile.ftxus' %}
+* {% include walletLink.html wallet='iphone/com.ftx.FTXMobile.FTXUS' %}
+
+# Old Analysis
 
 This is not a wallet.

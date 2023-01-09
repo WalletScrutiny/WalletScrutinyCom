@@ -1,39 +1,38 @@
 ---
-title: "BLW: Bitcoin and Lightning Wallet"
+wsId: 
+title: 'BLW: Bitcoin and Lightning Wal'
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.lightning.walletapp
-launchDate: 2018-05-01
-latestUpdate: 2020-05-19
-apkVersionName: "0.4.5"
-stars: 4.0
-ratings: 311
-reviews: 203
-size: 4.9M
-website: http://lightning-wallet.com/
+appCountry: 
+released: 2018-05-01
+updated: 2021-03-13
+version: 0.4.8
+stars: 4.2
+ratings: 368
+reviews: 61
+size: 
+website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet
 issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-11
-reviewStale: true
+meta: stale
+verdict: ftbfs
+date: 2022-03-09
 warnings:
 - defaultSPV
 signer: 
 reviewArchive:
 - date: 2019-11-23
-  version: "0.4"
-  apkHash: 
+  version: '0.4'
+  appHash: 
   gitRevision: e511edf295583aebceb624641e41f26e73064022
   verdict: nonverifiable
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social: 
 redirect_from:
   - /bictcoinlightningwallet/
   - /com.lightning.walletapp/
@@ -41,6 +40,10 @@ redirect_from:
   - /posts/com.lightning.walletapp/
 ---
 
+**Update 2021-08-21**: The provider
+[stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)
+that {% include walletLink.html wallet='android/com.lightning.walletapp' verdict='true' %}
+was discontinued and its successor is {% include walletLink.html wallet='android/com.btcontract.wallet' verdict='true' %}
 
 So the provider contacted us and 
 [cleared many issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/106)

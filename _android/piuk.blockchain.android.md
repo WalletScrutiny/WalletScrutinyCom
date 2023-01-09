@@ -1,22 +1,26 @@
 ---
-title: "Blockchain Wallet: Buy and Sell Bitcoin & Crypto"
+wsId: blockchainWallet
+title: 'Blockchain.com: Crypto Wallet'
 altTitle: 
-
-users: 5000000
+authors:
+- leo
+users: 10000000
 appId: piuk.blockchain.android
-launchDate: 2013-02-01
-latestUpdate: 2020-09-14
-apkVersionName: "Varies with device"
-stars: 4.0
-ratings: 90633
-reviews: 44137
-size: Varies with device
-website: https://www.blockchain.com/
+appCountry: 
+released: 2013-02-01
+updated: 2023-01-04
+version: 202212.1.6
+stars: 4.2
+ratings: 115830
+reviews: 5756
+size: 
+website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
-issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1256
+issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1294
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 warnings:
 - custom:
   verdictAlert: high
@@ -46,31 +50,37 @@ warnings:
         %,#,!,*, or &
     
     yet the password "password" is acceptable for the app.
-date: 2020-07-15
-reviewStale: false
+date: 2021-07-15
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
-
-
-providerTwitter: blockchain
-providerLinkedIn: company/blockchain
-providerFacebook: blockchain
-providerReddit: 
-
+- date: 2020-07-11
+  version: 6.35.0
+  appHash: 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
+  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
+  verdict: nonverifiable
+twitter: blockchain
+social:
+- https://www.linkedin.com/company/blockchain
+- https://www.facebook.com/blockchain
 redirect_from:
-  - /blockchainwallet/
-  - /piuk.blockchain.android/
-  - /posts/2019/11/blockchainwallet/
-  - /posts/piuk.blockchain.android/
+- /blockchainwallet/
+- /piuk.blockchain.android/
+- /posts/2019/11/blockchainwallet/
+- /posts/piuk.blockchain.android/
+
 ---
 
+**Update 2021-07-15**: The app on Play Store is version **8.8.7**. The source
+repository does not contain any such version. The latest version on their GitHub
+repository as of writing this is **8.8.5**. Without source available, this app
+is **not verifiable**.
 
-**Update**: In
+**Update 2020-07-11**: In
 [this comment to our now closed issue](https://github.com/blockchain/My-Wallet-V3-Android/issues/1256#issuecomment-651718119)
 they claim to have addressed the issues we had earlier reported. A first update
 went not so good as the new version was not yet rolled out but now we have both
 the latest binary and the updated build instructions, all integrated in our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/test.sh).
+{% include testScript.html %}.
 
 The result is underwhelming:
 
@@ -80,7 +90,7 @@ appId:          piuk.blockchain.android
 signer:         87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 apkVersionName: 6.35.0
 apkVersionCode: 551
-apkHash:        07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
+appHash:        07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
 
 Diff:
 Files /tmp/fromPlay_piuk.blockchain.android_551/AndroidManifest.xml and /tmp/fromBuild_piuk.blockchain.android_551/AndroidManifest.xml differ

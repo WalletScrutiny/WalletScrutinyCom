@@ -1,0 +1,12 @@
+short: DIY
+title: Do-It-Yourself Project
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This project is not meant for non-technical end users.
+question: Is the product meant to be ready for use "out of the box"?
+details: >
+  Many hardware wallet projects aim to be as transparent as possible by using
+  only off-the-shelf hardware with an open design and open code. If the product
+  reviewed is not available in an assembled form - if the user has to source his
+  own hardware to then maybe solder and compile software to install on the
+  device it falls into this category.

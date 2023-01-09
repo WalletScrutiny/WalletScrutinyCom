@@ -1,38 +1,38 @@
 ---
-title: "Kraken Pro: Advanced Bitcoin & Crypto Trading"
+wsId: krakent
+title: 'Kraken Pro: Crypto Trading'
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: com.kraken.trade
-launchDate: 
-latestUpdate: 2020-09-02
-apkVersionName: "1.5.6-5378"
-stars: 4.6
-ratings: 3443
-reviews: 1226
-size: 45M
-website: https://www.kraken.com/
+appCountry: 
+released: 2019-10-24
+updated: 2023-01-06
+version: 2.25.0-35262
+stars: 4.5
+ratings: 25287
+reviews: 2964
+size: 
+website: https://www.kraken.com
 repository: 
 issue: 
 icon: com.kraken.trade.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: krakenfx
-providerLinkedIn: company/krakenfx
-providerFacebook: KrakenFX
-providerReddit: 
-
+reviewArchive: 
+twitter: krakenfx
+social:
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
 redirect_from:
-  - /com.kraken.trade/
-  - /posts/com.kraken.trade/
----
+- /com.kraken.trade/
+- /posts/com.kraken.trade/
 
+---
 
 On their website we read:
 

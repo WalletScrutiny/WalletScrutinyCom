@@ -1,40 +1,40 @@
 ---
-title: "Trust Crypto Wallet: Bitcoin Ethereum Tron XRP PAX"
+wsId: sixdays
+title: 'Trust: Crypto & Bitcoin Wallet'
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 10000000
 appId: com.wallet.crypto.trustapp
-launchDate: 2017-10-01
-latestUpdate: 2020-09-18
-apkVersionName: "1.16.17"
-stars: 4.5
-ratings: 93359
-reviews: 40343
-size: 32M
+appCountry: 
+released: 2017-10-01
+updated: 2022-12-15
+version: '6.66'
+stars: 4.6
+ratings: 841930
+reviews: 12952
+size: 
 website: https://trustwallet.com/
 repository: 
 issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2019-11-20
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: trustwalletapp
-providerLinkedIn: 
-providerFacebook: trustwalletapp
-providerReddit: 
-
+reviewArchive: 
+twitter: trustwalletapp
+social:
+- https://www.facebook.com/trustwalletapp
+- https://www.reddit.com/r/trustapp
 redirect_from:
-  - /trust/
-  - /com.wallet.crypto.trustapp/
-  - /posts/2019/11/trust/
-  - /posts/com.wallet.crypto.trustapp/
----
+- /trust/
+- /com.wallet.crypto.trustapp/
+- /posts/2019/11/trust/
+- /posts/com.wallet.crypto.trustapp/
 
+---
 
 Trust - Crypto & Bitcoin Wallet
 claims to be a non-custodial wallet. In the description on Google Play we read:
@@ -60,7 +60,7 @@ Above quote
 
 > We would like to support Coinomi wallet on this critical issue
 
-made us to look into [Coinomi](/coinomi/) more closely.
+made us to look into {% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %} more closely.
 
 Also in the description we read:
 

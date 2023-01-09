@@ -1,43 +1,46 @@
 ---
-title: "Bitcoin OX Wallet — Exchange Wallet for Crypto"
+wsId: 
+title: Bitcoin OX — Crypto Wallet
 altTitle: 
-
-users: 500
+authors:
+- leo
+users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
-launchDate: 
-latestUpdate: 2020-05-19
-apkVersionName: "2.2.26"
-stars: 4.8
-ratings: 18
-reviews: 14
-size: Varies with device
-website: 
+appCountry: 
+released: 2019-02-04
+updated: 2022-11-28
+version: 2.8.5
+stars: 4
+ratings: 32
+reviews: 4
+size: 
+website: https://bitcoinox.com
 repository: 
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2022-02-09
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: bitcoin_ox
+social:
+- https://www.facebook.com/bitcoinoxwallet
 redirect_from:
-  - /org.bitcoinox.bitcoinoxwallet/
-  - /posts/org.bitcoinox.bitcoinoxwallet/
+- /org.bitcoinox.bitcoinoxwallet/
+- /posts/org.bitcoinox.bitcoinoxwallet/
+
 ---
 
+> Safety
+> 
+> • Due to Bitcoin OX, only you are in control of your Private Keys and manage
+>   your Digital Assets
+> 
+> • No copies on our or public servers
+> 
+> • Compatible with BIP39 mnemonic code for generating deterministic keys
 
-This page was created by a script from the **appId** "org.bitcoinox.bitcoinoxwallet" and public
-information found
-[here](https://play.google.com/store/apps/details?id=org.bitcoinox.bitcoinoxwallet).
-
-Probably an engineer will soon have a deeper look at this app.
-
-So far we are not even sure it is a wallet ... Please check back later.
+sounds like a non-custodial wallet but as there is no public source code linked
+on their Google Play description or their website. This wallet is **not verifiable**.

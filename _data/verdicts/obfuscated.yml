@@ -1,0 +1,32 @@
+short: Obfuscated!
+title: Obfuscated
+color: '#d33100'
+redflag: true
+message: The binary contains active obfuscation!
+question: Is the decompiled binary legible?
+details: >
+  When compiling source code to binary, usually a lot of meta information is
+  retained. A variable storing a masterseed would usually still be called
+  `masterseed`, so an auditor could inspect what happens to the masterseed. Does
+  it get sent to some server?  But obfuscation would rename it for example to
+  `_t12`, making it harder to find what the product is doing with the masterseed.
+  
+  
+  In benign cases, code symbols are replaced by short strings to make the binary
+  smaller but for the sake of transparency this should not be done for 
+  non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the
+  binary for size improvements as the reproducibility would assure the link between
+  code and binary.)
+
+
+  Especially in the public source cases, obfuscation is a red flag. If the code
+  is public, why obfuscate it?
+  
+  
+  As obfuscation is such a red flag when looking for transparency, we do also
+  sometimes inspect the binaries of closed source apps.
+  
+  
+  As looking for code obfuscation is a more involved task, we do not inspect
+  many apps but if we see other red flags, we might test this
+  to then put the product into this **red-flag category**.

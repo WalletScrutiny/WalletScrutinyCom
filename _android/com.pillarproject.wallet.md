@@ -1,38 +1,35 @@
 ---
-title: "Pillar Wallet - Crypto Made Easy & Free"
+wsId: 
+title: Pillar- Multichain DeFi Wallet
 altTitle: 
-
-users: 10000
+authors: 
+users: 100000
 appId: com.pillarproject.wallet
-launchDate: 2018-12-13
-latestUpdate: 2020-06-10
-apkVersionName: "2.9.2"
-stars: 3.9
-ratings: 400
-reviews: 213
-size: 44M
-website: https://pillarproject.io
+appCountry: 
+released: 2018-12-13
+updated: 2022-11-25
+version: 3.18.4
+stars: 4
+ratings: 1007
+reviews: 90
+size: 
+website: http://pillarproject.io
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 
 icon: com.pillarproject.wallet.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nobtc
 date: 2020-02-20
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: PillarWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: PillarWallet
+social: 
 redirect_from:
-  - /com.pillarproject.wallet/
-  - /posts/com.pillarproject.wallet/
----
+- /com.pillarproject.wallet/
+- /posts/com.pillarproject.wallet/
 
+---
 
 This app is not a Bitcoin wallet. Neither the description nor the website claim
 support of BTC and when installing it, you can find tokens with "Bitcoin" in

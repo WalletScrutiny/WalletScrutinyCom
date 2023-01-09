@@ -1,38 +1,37 @@
 ---
-title: "Poloniex Crypto Exchange"
+wsId: Poloniex
+title: Poloniex Crypto Exchange
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: com.plunien.poloniex
-launchDate: 
-latestUpdate: 2020-09-09
-apkVersionName: "1.21.7"
-stars: 4.4
-ratings: 2321
-reviews: 1272
-size: 39M
+appCountry: 
+released: 2017-06-19
+updated: 2023-01-06
+version: 1.41.3
+stars: 3.8
+ratings: 7425
+reviews: 205
+size: 
 website: https://support.poloniex.com/
 repository: 
 issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: Poloniex
-providerLinkedIn: 
-providerFacebook: poloniex
-providerReddit: 
-
+reviewArchive: 
+twitter: Poloniex
+social:
+- https://www.facebook.com/poloniex
 redirect_from:
-  - /com.plunien.poloniex/
-  - /posts/com.plunien.poloniex/
----
+- /com.plunien.poloniex/
+- /posts/com.plunien.poloniex/
 
+---
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto
 exchange but on the Google Play description we read:

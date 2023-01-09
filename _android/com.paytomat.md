@@ -1,38 +1,38 @@
 ---
-title: "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens"
+wsId: paytomat
+title: 'Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens'
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: com.paytomat
-launchDate: 2018-06-20
-latestUpdate: 2020-07-06
-apkVersionName: "1.37.0"
+appCountry: 
+released: 2018-06-20
+updated: 2021-02-01
+version: 1.37.2
 stars: 4.1
-ratings: 720
-reviews: 377
-size: 6.4M
+ratings: 798
+reviews: 14
+size: 
 website: http://www.paytomat.com
 repository: 
 issue: 
 icon: com.paytomat.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-25
-reviewStale: true
+meta: defunct
+verdict: nosource
+date: 2023-01-02
 signer: 
-reviewArchive:
-
-
-providerTwitter: paytomat
-providerLinkedIn: company/11433285
-providerFacebook: paytomat
-providerReddit: 
-
+reviewArchive: 
+twitter: paytomat
+social:
+- https://www.linkedin.com/company/11433285
+- https://www.facebook.com/paytomat
 redirect_from:
-  - /com.paytomat/
-  - /posts/com.paytomat/
----
+- /com.paytomat/
+- /posts/com.paytomat/
 
+---
 
 This app gets straight to the point:
 

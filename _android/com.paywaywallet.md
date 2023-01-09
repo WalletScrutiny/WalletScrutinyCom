@@ -1,39 +1,41 @@
 ---
-title: "PayWay Wallet"
+wsId: 
+title: PayWay Wallet
 altTitle: 
-
-users: 10000
+authors:
+- leo
+- danny
+users: 50000
 appId: com.paywaywallet
-launchDate: 2019-02-13
-latestUpdate: 2020-09-11
-apkVersionName: "3.1.2 (build: #1092/20200911164630)"
-stars: 3.8
-ratings: 166
-reviews: 106
-size: 19M
-website: http://www.payway.ug
+appCountry: 
+released: 2019-02-13
+updated: 2022-10-24
+version: '3.5.1 (build: #1269/20221024161541)'
+stars: 4.3
+ratings: 254
+reviews: 3
+size: 
+website: https://www.payway.ug
 repository: 
 issue: 
 icon: com.paywaywallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-25
-reviewStale: true
+meta: ok
+verdict: nobtc
+date: 2022-05-21
 signer: 
-reviewArchive:
-
-
-providerTwitter: pay_way
-providerLinkedIn: 
-providerFacebook: paywayuganda
-providerReddit: 
-
+reviewArchive: 
+twitter: pay_way
+social:
+- https://www.facebook.com/paywayuganda
 redirect_from:
-  - /com.paywaywallet/
-  - /payway/
-  - /posts/com.paywaywallet/
+- /com.paywaywallet/
+- /payway/
+- /posts/com.paywaywallet/
+
 ---
 
+**UPDATE:** Payway does not have crypto service on their end.
 
 This app looks like BitRefill in its features and also its property as a wallet:
 It's not advertised as being a wallet but in the screenshots you see an available

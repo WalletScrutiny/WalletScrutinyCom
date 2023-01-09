@@ -1,40 +1,34 @@
 ---
-title: "DoWallet: Bitcoin Wallet. A Secure Crypto Wallet."
+wsId: dowallet
+title: 'DoWallet: Bitcoin Wallet. A Se'
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.dowallet
-launchDate: 2019-01-01
-latestUpdate: 2020-07-27
-apkVersionName: "1.1.30"
-stars: 4.3
-ratings: 743
-reviews: 394
-size: 31M
+appCountry: 
+released: 2019-01-01
+updated: 2022-11-22
+version: 1.1.41
+stars: 4
+ratings: 883
+reviews: 91
+size: 
 website: https://www.dowallet.app/
 repository: 
 issue: 
 icon: com.dowallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2019-11-23
-reviewStale: true
 signer: 
-reviewArchive:
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-  - /dowallet/
-  - /com.dowallet/
-  - /posts/2019/11/dowallet/
-  - /posts/com.dowallet/
 ---
-
 
 This wallet sounds like non-custodial. From their description:
 

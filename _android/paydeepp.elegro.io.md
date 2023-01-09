@@ -1,43 +1,58 @@
 ---
-title: "elegro Wallet: instant crypto-fiat payments"
+wsId: 
+title: 'Elegro: multi-currency wallet'
 altTitle: 
-
-users: 500
+authors:
+- leo
+users: 1000
 appId: paydeepp.elegro.io
-launchDate: 
-latestUpdate: 2020-09-15
-apkVersionName: "4.9.3"
-stars: 4.2
-ratings: 18
-reviews: 8
-size: 8.3M
-website: 
+appCountry: 
+released: 2018-11-09
+updated: 2022-12-15
+version: 5.2.4
+stars: 3.4
+ratings: 
+reviews: 1
+size: 
+website: https://elegro.eu/
 repository: 
 issue: 
 icon: paydeepp.elegro.io.jpg
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2020-12-14
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: NikoTech
+social:
+- https://www.linkedin.com/company/niko-technologies-ou
 redirect_from:
-  - /paydeepp.elegro.io/
-  - /posts/paydeepp.elegro.io/
+- /paydeepp.elegro.io/
+- /posts/paydeepp.elegro.io/
+
 ---
 
+We have no idea what they claim here:
 
-This page was created by a script from the **appId** "paydeepp.elegro.io" and public
-information found
-[here](https://play.google.com/store/apps/details?id=paydeepp.elegro.io).
+> elegro Wallet is currently the only solution you can use to buy things for
+  crypto in brick-and-mortar stores.
 
-Probably an engineer will soon have a deeper look at this app.
+And this one?
 
-So far we are not even sure it is a wallet ... Please check back later.
+> 100% fund safety - Blockchain technologies ensure the highest possible fund protection.
+
+We have seen many apps disappear their users' funds, which is precisely why we
+have a closer look.
+
+... and here is an amusing review exchange which in their defense is the only
+1-star comment:
+
+> **joey levy**:<br>
+  This app is the worst sent money and never got it then their emails bounced
+  back stole money from me watch out crooks<br>
+  **Niko Technologies**:<br>
+  This is our ex-CEO who took the company's money. Please, ignore the review.
+
+But we can't find any claims about who has the keys so we assume it is a
+custodial wallet and thus **not verifiable**.

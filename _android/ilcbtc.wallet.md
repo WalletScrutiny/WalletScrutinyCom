@@ -1,38 +1,38 @@
 ---
-title: "ILC / BTC Wallet"
+wsId: 
+title: ILC / BTC Wallet
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: ilcbtc.wallet
-launchDate: 2018-02-27
-latestUpdate: 2020-09-08
-apkVersionName: "4.17"
-stars: 4.6
-ratings: 181
-reviews: 102
-size: 20M
+appCountry: 
+released: 2018-02-27
+updated: 2021-03-23
+version: '4.26'
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://www.ilcoincrypto.com/
 repository: 
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-28
-reviewStale: true
+meta: stale
+verdict: custodial
+date: 2022-03-21
 signer: 
-reviewArchive:
-
-
-providerTwitter: ILC_B_Project
-providerLinkedIn: 
-providerFacebook: ILCoinBlockchainProject
-providerReddit: ILCoin
-
+reviewArchive: 
+twitter: ILC_B_Project
+social:
+- https://www.facebook.com/ILCoinBlockchainProject
+- https://www.reddit.com/r/ILCoin
 redirect_from:
-  - /ilcbtc.wallet/
-  - /posts/ilcbtc.wallet/
----
+- /ilcbtc.wallet/
+- /posts/ilcbtc.wallet/
 
+---
 
 The description talking about
 

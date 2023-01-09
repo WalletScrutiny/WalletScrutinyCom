@@ -19,9 +19,9 @@ Education
 Work experience
 ======
 
-* Since Nov. 2019 [Wallet Scrutiny](https://walletscrutiny.com)
+* Since Nov. 2019 [WalletScrutiny](https://walletscrutiny.com)
   * Founder and main contributor
-* Since Oct. 2015 [Mycelium Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.mycelium.wallet)
+* Oct. 2015 – May 2021 [Mycelium Bitcoin Wallet](https://play.google.com/store/apps/details?id=com.mycelium.wallet)
   * Lead Android Developer and Release Manager
   * Software Security, Bitcoin, Android, git, Java, Kotlin, Linux
 * Nov. 2014 – Sep. 2015 [*thisApp](https://thisapp.io/)

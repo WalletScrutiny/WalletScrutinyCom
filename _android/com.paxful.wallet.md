@@ -1,55 +1,60 @@
 ---
-title: "Paxful Bitcoin Wallet"
+wsId: Paxful
+title: Paxful | Bitcoin Wallet
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.paxful.wallet
-launchDate: 2019-04-30
-latestUpdate: 2020-09-13
-apkVersionName: "1.6.4.483"
-stars: 3.7
-ratings: 10162
-reviews: 6413
-size: 33M
-website: https://paxful.com/mobile-wallet-app
+appCountry: 
+released: 2019-04-30
+updated: 2022-11-22
+version: 2.9.5.667
+stars: 3.2
+ratings: 21528
+reviews: 1792
+size: 
+website: https://Paxful.com
 repository: 
 issue: 
 icon: com.paxful.wallet.png
-bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-20
-reviewStale: true
+bugbounty: https://paxful.com/bug-bounty-policy
+meta: ok
+verdict: custodial
+date: 2020-10-12
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: paxful
+social:
+- https://www.facebook.com/paxful
+- https://www.reddit.com/r/paxful
+- https://www.youtube.com/PaxfulOfficial
+- https://www.instagram.com/paxful/
 redirect_from:
-  - /paxful/
-  - /com.paxful.wallet/
-  - /posts/2019/11/paxful/
-  - /posts/com.paxful.wallet/
+- /paxful/
+- /com.paxful.wallet/
+- /posts/2019/11/paxful/
+- /posts/com.paxful.wallet/
+
 ---
 
+According to their [TOS](https://paxful.com/terms-of-service):
 
-According to their Playstore description:
+> The **hosted digital currency wallet** service provided by Paxful is a secure
+  method of storing, sending, and receiving digital currency. Paxful
+  **does not store or custody any Digital Assets**. Digital Assets are always
+  stored on its respective networks or blockchains.
 
-> The bitcoin wallet app is also the ultimate companion tool to Paxful, one of
-the world’s biggest peer-to-peer bitcoin marketplaces.
+and further down:
 
-> Track your open trades on Paxful so you know the current status of your most
-recent transactions as you buy and sell bitcoin
+> Paxful reserves the right to **refuse to process any transaction** if required
+  by law or if we deem the transactions to be against our terms and conditions
+  in this Agreement.
 
-which sounds like a tool to manage coins on [paxful](https://paxful.com/).
+So although they claim "does not store or custody", they also claim to be a
+"hosted [...] wallet" and to have the power to "refuse to process any
+transaction".
 
-Nowhere on the Playstore or on their website did we find a link to source code.
-
-[Nowhere on GitHub](https://github.com/search?p=3&q=%22com.paxful.wallet%22) did
-we find their applicationId `com.paxful.wallet` as an actual applicationId in
-an Android project.
+That sounds an awful lot like a custodial service.
 
 Our verdict thus is: **not verifiable** and probably custodial.

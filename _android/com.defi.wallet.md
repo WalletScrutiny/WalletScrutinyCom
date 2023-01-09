@@ -1,48 +1,55 @@
 ---
-title: "Crypto.com l DeFi Wallet"
+wsId: cryptoComDefi
+title: Crypto.com l DeFi Wallet
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 1000000
 appId: com.defi.wallet
-launchDate: 
-latestUpdate: 2020-09-11
-apkVersionName: "1.1.1"
-stars: 3.8
-ratings: 461
-reviews: 207
-size: 21M
-website: https://www.crypto.com/
+appCountry: 
+released: 2020-05-11
+updated: 2022-12-15
+version: 1.48.1
+stars: 4.7
+ratings: 13620
+reviews: 2401
+size: 
+website: https://www.crypto.com
 repository: 
 issue: 
 icon: com.defi.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-07-14
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-10-24
 signer: 
-reviewArchive:
-
-
-providerTwitter: cryptocom
-providerLinkedIn: company/cryptocom
-providerFacebook: CryptoComOfficial
-providerReddit: Crypto_com
-
+reviewArchive: 
+twitter: cryptocom
+social:
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 redirect_from:
-  - /com.defi.wallet/
-  - /posts/com.defi.wallet/
----
+- /com.defi.wallet/
+- /posts/com.defi.wallet/
 
+---
 
 This app's description is promising:
 
 > Decentralized:
 > - Gain full control of your crypto and private keys [...]
 
-On their website though we find only links to
-[their other app](/co.mona.android/) and no source code.
+On their website though we cannot find any links to source code.
 
 Searching their `appId` on GitHub,
 [yields nothing](https://github.com/search?q=%22com.defi.wallet%22) neither.
 
 This brings us to the verdict: **not verifiable**.
+
+The provider has a family of three apps that we triple-checked to be linked from
+their website:
+
+* {% include walletLink.html wallet='android/com.crypto.exchange' verdict='true' %}
+* {% include walletLink.html wallet='android/co.mona.android' verdict='true' %}
+* {% include walletLink.html wallet='android/com.defi.wallet' verdict='true' %}

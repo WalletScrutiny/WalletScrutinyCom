@@ -1,38 +1,37 @@
 ---
-title: "Flare Wallet"
+wsId: FlareWallet
+title: Flare Wallet
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 5000
 appId: com.flare
-launchDate: 2020-02-22
-latestUpdate: 2020-09-08
-apkVersionName: "1.3.1"
-stars: 4.5
-ratings: 201
-reviews: 164
-size: 9.9M
-website: https://flarewallet.io/
+appCountry: 
+released: 2020-02-22
+updated: 2021-03-13
+version: 1.4.0
+stars: 3.7
+ratings: 233
+reviews: 43
+size: 
+website: https://flarewallet.io
 repository: 
 issue: 
 icon: com.flare.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-08-04
-reviewStale: true
+meta: stale
+verdict: nosource
+date: 2022-03-08
 signer: 
-reviewArchive:
-
-
-providerTwitter: flarewallet
-providerLinkedIn: 
-providerFacebook: FlareWallet
-providerReddit: 
-
+reviewArchive: 
+twitter: flarewallet
+social:
+- https://www.facebook.com/FlareWallet
 redirect_from:
-  - /com.flare/
-  - /posts/com.flare/
----
+- /com.flare/
+- /posts/com.flare/
 
+---
 
 This app claims to be non-custodial:
 

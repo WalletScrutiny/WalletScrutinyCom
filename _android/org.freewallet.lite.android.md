@@ -1,43 +1,40 @@
 ---
-title: "Lite HD Wallet – Your Coin Base"
+wsId: 
+title: Lite HD Wallet – Your Coin Base
 altTitle: 
-
+authors:
+- leo
 users: 500
 appId: org.freewallet.lite.android
-launchDate: 
-latestUpdate: 2019-03-01
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2019-03-01
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
 size: Varies with device
-website: https://freewallet.org/
+website: https://freewallet.org
 repository: 
 issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-29
-reviewStale: false
+meta: defunct
+verdict: fewusers
+date: 2021-05-25
 signer: 
-reviewArchive:
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-  - /lite/
-  - /org.freewallet.lite.android/
-  - /posts/2019/11/lite/
-  - /posts/org.freewallet.lite.android/
 ---
 
+**Update 2021-05-25**: This app is not on the Play Store anymore. The app's
+website links to {% include walletLink.html wallet='android/mw.org.freewallet.app' %} now.
 
-**Update**: This wallet shares no source code but was categorized as too small,
-which makes it irrelevant for some listings.
+**Update 2019-11-29**: This wallet shares no source code but was categorized as
+too small, which makes it irrelevant for listings.
 
 In their description they claim
 

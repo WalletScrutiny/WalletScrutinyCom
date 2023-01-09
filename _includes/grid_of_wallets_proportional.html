@@ -1,65 +1,106 @@
-<div class="page-section">
-{% include base_path %}
+<div id="proportionalViewContainer" class="page-section">
+{%- include base_path -%}
 
-{% assign verdicts = "reproducible,nonverifiable,nosource,custodial" | split: "," %}
-{% assign posts = site.android | sort: "users" | reverse %}
+{%- assign verdicts = "reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive" | split: "," -%}
+{%- assign metas = "ok,outdated,stale,obsolete,defunct" | split: "," -%}
+{%- assign posts = site.android | sort: "users" | reverse -%}
+<h2 class="section-label">Downloads per Category&nbsp;<a href="#gridOfWallets2" style="color:#ccc">&para;</a></h2>
+<a class="switch-link-btn-long-string" id="SwitchToWalletsView">Switch to Wallets per Category&nbsp;<i class="fas fa-random"></i></a>
 <table id="gridOfWallets2">
   <tr>
     <td>
-      <count>0</count><label>Audited?</label>
+      <count><span class="humanised-numbers -bold"><l>0</l></span></count><span><a href="/methodology/#noAudit">Audited?</a></span>
     </td>
     <td>
+      {%- include grid_of_wallets_donations.html -%}
     </td>
   </tr>
-  {% for v in verdicts %}
-    {% assign total = 0 %}
-    {% for post in site.android %}
-      {% if post.verdict == v %}
-        {% assign total = total | plus: post.users %}
-      {% endif %}
-    {% endfor %}
+  {%- for v in verdicts -%}
+    {%- assign total = 0 -%}
+    {%- for post in site.android -%}
+      {%- if post.verdict == v -%}
+        {%- assign total = total | plus: post.users -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if total > 0 -%}
     <tr>
       <td>
-        <count>{{ total }}</count>
-        <label class="stamp stamp-{{ site.data.verdicts[v].short }}">{{ site.data.verdicts[v].short }}</label>
+        <count title="{{ total }} downloads">
+          <span class="humanised-numbers -bold">
+            {%- assign s = total -%}
+            {%- if s > 999999999 -%}
+              {%- assign a = s | divided_by: 1000000000 -%}
+              <l>{{ a }}</l>
+              <n>billion&nbsp;<i class="fas fa-plus"></i></n>
+            {%- elsif s > 999999 -%}
+              {%- assign a = s | divided_by: 1000000 -%}
+              <l>{{ a }}</l>
+              <n>million&nbsp;<i class="fas fa-plus"></i></n>
+            {%- elsif s > 999 -%}
+              {%- assign a = s | divided_by: 1000 -%}
+              <l>{{ a }}</l>
+              <n>thousand&nbsp;<i class="fas fa-plus"></i></n>
+            {%- else -%}
+              {{ s }}
+            {%- endif -%}
+          </span>
+        </count>
+        <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
       </td>
       <td>
-        {% for post in posts %}
-          {% case post.users %}
-            {% when 500000000 %}
-              {% assign height = 70 %}
-            {% when 100000000 %}
-              {% assign height = 32 %}
-            {% when 50000000 %}
-              {% assign height = 22 %}
-            {% when 10000000 %}
-              {% assign height = 10 %}
-            {% when 5000000 %}
-              {% assign height = 7 %}
-            {% when 1000000 %}
-              {% assign height = 3.2 %}
-            {% when 500000 %}
-              {% assign height = 2.2 %}
-            {% when 100000 %}
-              {% assign height = 1 %}
-            {% when 50000 %}
-              {% assign height = 0.7 %}
-            {% when 10000 %}
-              {% assign height = 0.3 %}
-            {% when 5000 %}
-              {% assign height = 0.2 %}
-            {% else %}
-              {% assign height = 0.1 %}
-          {% endcase %}
-          {% if post.verdict == v %}
+      {%- for meta in metas -%}
+        {%- for post in posts -%}
+          {%- case post.users -%}
+            {%- when 500000000 -%}
+              {%- assign height = 70 -%}
+            {%- when 100000000 -%}
+              {%- assign height = 32 -%}
+            {%- when 50000000 -%}
+              {%- assign height = 22 -%}
+            {%- when 10000000 -%}
+              {%- assign height = 10 -%}
+            {%- when 5000000 -%}
+              {%- assign height = 7 -%}
+            {%- when 1000000 -%}
+              {%- assign height = 3.2 -%}
+            {%- when 500000 -%}
+              {%- assign height = 2.2 -%}
+            {%- when 100000 -%}
+              {%- assign height = 1 -%}
+            {%- when 50000 -%}
+              {%- assign height = 0.7 -%}
+            {%- when 10000 -%}
+              {%- assign height = 0.3 -%}
+            {%- when 5000 -%}
+              {%- assign height = 0.2 -%}
+            {%- else -%}
+              {%- assign height = 0.1 -%}
+          {%- endcase -%}
+          {%- if post.users > 5000000 -%}
+            {%- assign picSize = "" -%}
+          {%- elsif post.users > 100000 -%}
+            {%- assign picSize = "/small" -%}
+          {%- else -%}
+            {%- assign picSize = "/tiny" -%}
+          {%- endif -%}
+          {%- if post.verdict == v and post.meta == meta -%}
+            {%- if post.icon -%}
+              {%- assign icon = base_path | append: '/images/wIcons/'
+                | append: post.collection | append: picSize | append: '/'
+                | append: post.icon -%}
+            {%- else -%}
+              {%- assign icon = base_path  | append: '/images/smallNoicon.png' -%}
+            {%- endif -%}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">
-              <img src="{{ base_path }}/images/wallet_icons/small/{{ post.icon }}" class="app_logo"
-                alt="Wallet Logo" style="height:{{ height }}em;{% if height < 0.5 %}border: 1px solid var(--text);{% endif %}">
+              <img loading="lazy" src="{{ icon }}" class="lazy app_logo meta_{{ post.meta }}"
+                alt="Wallet Logo" style="height:{{ height }}em;width:{{ height }}em;{%- if height < 0.5 -%}border: 1px solid var(--text);{%- endif -%}">
             </a> 
-          {% endif %}
-        {% endfor %}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
       </td>
     </tr>
-  {% endfor %}
+    {%- endif -%}
+  {%- endfor -%}
 </table>
 </div>

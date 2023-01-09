@@ -1,43 +1,55 @@
 ---
-title: "ZenGo Crypto & Bitcoin Wallet: Buy, Earn & Trade"
+wsId: ZenGo
+title: 'ZenGo: Crypto & Bitcoin Wallet'
 altTitle: 
-
-users: 10000
+authors:
+- leo
+- emanuel
+users: 500000
 appId: com.zengo.wallet
-launchDate: 
-latestUpdate: 2020-09-15
-apkVersionName: "2.16.1"
-stars: 4.4
-ratings: 674
-reviews: 395
-size: 47M
-website: https://www.zengo.com/
+appCountry: 
+released: 2020-01-19
+updated: 2023-01-05
+version: 5.1.1
+stars: 4.7
+ratings: 3936
+reviews: 410
+size: 
+website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 
 icon: com.zengo.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-20
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2020-06-18
 signer: 
-reviewArchive:
-
-
-providerTwitter: zengo
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: zengo
+social: 
 redirect_from:
-  - /com.zengo.wallet/
-  - /posts/com.zengo.wallet/
+- /com.zengo.wallet/
+- /posts/com.zengo.wallet/
+
 ---
 
+**Update 2021-03-08:** As
+[Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),
+ZenGo [claims](https://www.zengo.com/zengo-and-open-source/) what we are doing
+is impossible:
+
+> It is important to note,
+  that even if we had exposed our code, there is no good way to verify that the
+  downloaded mobile app was indeed created from it.
+
+That is exactly what we are doing here. Let's see if ZenGo answers to
+[our tweet](https://twitter.com/WalletScrutiny/status/1369071552722010121).
+
+# The original analysis
 
 This app claims on Google Play:
 
-> ** Never worry about losing your private keys again **
-> 
+> **Never worry about losing your private keys again**<br>
 > With ZenGo’s advanced cryptography, there is no private key. Instead, the
   responsibility of signing transactions is divided between us and our
   customers, so that neither party sees the other's secret information. It also
@@ -50,8 +62,7 @@ them? If they lose them or go out of business, can you still use your money?
 Also if they don't use established standards, can you still spend your coins if
 their wallet stops working? They [claim you can](https://zengo.com/?p=1268).
 
-> ** Stay in control **
-> 
+> **Stay in control**<br>
 > ZenGo does not have access to your funds. All transactions happen directly on
   the blockchain. With securely encrypted biometrics and our password-free
   security, only you control your funds.

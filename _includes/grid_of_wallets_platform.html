@@ -1,0 +1,43 @@
+{% assign metas = "ok,outdated,stale,obsolete,defunct" | split: "," %}
+{%- assign total = 0 -%}
+{%- for post in include.platformPosts -%}
+  {%- if post.verdict == v -%}
+    {%- assign total = total | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if total > 0 -%}
+  <tr class="-filter-element -{{ include.platform }}">
+    <td>
+      <count><span class="humanised-numbers -bold"><l>{{ total }}</l></span></count>
+      <a href="/methodology/#{{ v }}"><span class="stamp {{ v }}">{{ site.data.verdicts[v].short }}</span></a>
+    </td>
+    <td>
+      {%- assign itemCounter = 0 -%}
+      {%- for meta in metas -%}
+        {%- for post in include.platformPosts -%}
+          {%- if post.verdict == v and post.meta == meta -%}
+            {%- assign itemCounter = itemCounter | plus: 1 -%}
+            {%- if itemCounter == 31 -%}
+              <div class="noMoreIcons" onclick="showAll();" style="cursor:pointer"><br style="clear:both">Show all…</div>
+              <span class="moreIcons hidden">
+            {%- endif -%}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">
+              {%- if post.icon -%}
+                {%- assign icon = base_path | append: '/images/wIcons/'
+                  | append: post.collection | append:  '/small/'
+                  | append: post.icon -%}
+              {%- else -%}
+                {%- assign icon = base_path  | append: '/images/smallNoicon.png' -%}
+              {%- endif -%}
+              <img loading="lazy" src="{{ icon }}" class="app_logo meta_{{ post.meta }}"
+                alt="Logo {{ post.altTitle | default: post.title }}">
+            </a>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- if itemCounter >= 31 -%}
+        </span>
+      {%- endif -%}
+    </td>
+  </tr>
+{%- endif -%}

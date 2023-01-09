@@ -1,46 +1,45 @@
 ---
-title: "Unocoin Wallet"
+wsId: Unocoin
+title: 'Unocoin: Bitcoin & 85+ Cryptos'
 altTitle: 
-
+authors:
+- leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
-launchDate: 2016-11-30
-latestUpdate: 2020-09-05
-apkVersionName: "3.2.12"
-stars: 4.4
-ratings: 13802
-reviews: 7359
-size: 8.6M
+appCountry: 
+released: 2016-11-30
+updated: 2023-01-04
+version: 4.4.1
+stars: 4.7
+ratings: 20365
+reviews: 215
+size: 
 website: https://www.unocoin.com
 repository: 
 issue: 
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: Unocoin
-providerLinkedIn: company/unocoin
-providerFacebook: unocoin
-providerReddit: 
-
+reviewArchive: 
+twitter: Unocoin
+social:
+- https://www.linkedin.com/company/unocoin
+- https://www.facebook.com/unocoin
 redirect_from:
-  - /com.unocoin.unocoinwallet/
-  - /posts/com.unocoin.unocoinwallet/
----
+- /com.unocoin.unocoinwallet/
+- /posts/com.unocoin.unocoinwallet/
 
+---
 
 This app appears to be the interface to a trading platform. The description on
 Google Play does not talk about where the keys are stored but it links to their
 website and there we read
 
-> AES-256 Encryption
-> 
-> The address-private key pairs obtained are encrypted using AES-256, sealed in
+> AES-256 Encryption<br>
+  The address-private key pairs obtained are encrypted using AES-256, sealed in
   envelopes and stored in multiple safe deposit lockers.
 
 which clearly means they have the keys and you don't. As a custodial service,

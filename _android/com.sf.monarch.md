@@ -1,38 +1,39 @@
 ---
-title: "Monarch Wallet"
+wsId: Monarch
+title: Monarch Wallet
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.sf.monarch
-launchDate: 2018-10-19
-latestUpdate: 2020-09-14
-apkVersionName: "2.1.5"
-stars: 4.1
-ratings: 694
-reviews: 353
-size: 18M
-website: https://monarchwallet.com
+appCountry: 
+released: 2018-10-19
+updated: 2022-11-04
+version: 2.5.1
+stars: 4.3
+ratings: 821
+reviews: 160
+size: 
+website: http://splashfactory.com
 repository: 
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2020-04-12
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: Monarchtoken
-providerLinkedIn: company/monarchtoken
-providerFacebook: MonarchWallet
-providerReddit: MonarchToken
-
+reviewArchive: 
+twitter: Monarchtoken
+social:
+- https://www.linkedin.com/company/monarchtoken
+- https://www.facebook.com/MonarchWallet
+- https://www.reddit.com/r/MonarchToken
 redirect_from:
-  - /com.sf.monarch/
-  - /posts/com.sf.monarch/
----
+- /com.sf.monarch/
+- /posts/com.sf.monarch/
 
+---
 
 This app appears to have been created for Monarch Tokens but it also features a
 Bitcoin wallet.

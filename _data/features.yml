@@ -1,0 +1,333 @@
+segwit:
+  short: Full SegWit Support
+  long: >
+    SegWit which is short for "Segregated Witness" was an August 2017 upgrade
+    to the Bitcoin protocol which came with new address types.
+    
+    
+    **Full SegWit Support** means that the wallet can both send to and receive
+    to all SegWit address types, including bech32 starting with "bc1...".
+  benefit: >
+    * *Receiving to SegWit addresses* provides fee savings, as sending these
+    funds is possible using less base-block space. In Bitcoin, transaction fees
+    are proportional to the transaction size in bytes.
+    
+    * *Receiving to bech32 addresses* provides more fee savings than P2SH
+    Segwit addresses.
+    
+    * *Sending to SegWit addresses* is sometimes required in order to use more
+    modern
+    tools that dropped support for legacy addresses, often because of another
+    core property of SegWit transactions: They are not malleable, meaning that
+    the transaction ID cannot be changed "in transit" (on unconfirmed
+    transactions).
+taproot:
+  short: Full Taproot Support
+  long: >
+    Taproot is an improvement of how Bitcoin transactions work and was
+    activated on 2021-11-12. It uses a new address format, defined in
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0350.mediawiki'>BIP 350</a>.
+    
+    
+    While some wallets will be able to send to but not receive to Taproot, this
+    feature only tracks those that support both.
+  benefit: >
+    * **Compatibility:** Recipients have to choose an address format and due to
+      efficiency improvements,
+      they will tend more and more to expect being paid to a Taproot address.
+      Wallets supporting this are generally more compatible.
+    * **Cheaper:** Taproot allows for smaller transactions, especially for more
+      complex uses of Bitcoin such as multi signature.
+    
+    * **More private:** As public data of a complicated transaction is usually
+      indistinguishable from that of a simple transactions, special uses "hide in
+      a bigger crowd" and become more private.
+    
+    * **More efficient for offline wallets:** Hardware wallets ususally have only
+      a very limited knowledge of the funds being spent, with the user confirming
+      amounts sent but only implicitly the fee being paid. When spending from
+      Taproot, the fee becomes knowable to the offline wallet, making protection
+      against fee overpayment easier.
+  drawback: Initially the privacy will be worse, as using Taproot will make
+    transactions stand out from the crowd. 
+ln:
+  short: Lightning Network support
+  long: >
+    The lightning Network (LN) is a layer two protocol that promises instant,
+    low fee micro payments. Some wallets do not support receiving transactions
+    which disqualifies them for this feature.
+  benefit: >
+    Transactions on LN are
+    
+    * *instant*: It usually takes less than five seconds to finish a
+    transaction.
+    
+    * *cheap*: Transactions usually cost a tiny percentage (0.1%) of the
+    transferred amount and might also be free.
+    
+    * *micro payments*: The unit of account on the LN is micro Satoshis (mSat)
+    or 0.00000000001 BTC.
+  drawback:
+    LN is still in early development and several very feasible attacks are known
+    that can cost users money or disrupt the network.
+bip37spv:
+  short: SPV using bloom filters
+  long: >
+    Simple Payment Verification (SPV) means the app connects to regular Bitcoin
+    full nodes but it does not download the full blockchain. Only the
+    transactions relevant to the own wallets.
+  benefit: The client doesn't need to download all the block chain.
+  drawback: >
+    **Privacy:** The client leaks all the user's addresses to the node.
+bip158spv:
+  short: SPV using compact block filters
+  long: >
+    Compact block filters as in
+    [BIP158](https://github.com/bitcoin/bips/blob/master/bip-0158.mediawiki)
+    are relatively tiny, probabilistic representation of the full
+    blockchain which tell the client which block contains transactions
+    relevant to specific addresses
+  benefit: >
+    Compared to SPV using bloom filters:
+    
+    * **Private:** Avoid the leak of the client's addresses to the full nodes it talks to.
+    If the blocks are downloaded through TOR with new TOR identities for each
+    request from different nodes, the privacy of this mode is almost as good
+    as running a full node. An attacker would have to control a big part of
+    the TOR network to still learn about which addresses are of interes.
+    
+    * **Fast:** No re-scan of the full chain needed when importing a wallet.
+    
+    Compared to using an indexing server of the provider, it leaks no data to
+    the provider
+  drawback: >
+    Compared to using an indexing server it is slower and more bandwidth is
+    needed.
+apiServer:
+  short: API server provided
+  long: >
+    The provider runs indexing servers that provide quick access to the state
+    of the blockchain.
+  benefit: >
+    * **Speed:** Quick access to blockchain data. This wallet probably supports
+      cold wallet spending or importing accounts
+    
+    * **Speed:** Low bandwidth requirements. The servers can deliver data
+      tailored to the client's needs without overhead.
+    
+    * **Speed:** Low CPU and storage requirements. As the server does the
+      heavy-lifting, the client doesn't have to.
+    
+    * **Privacy:** Random full nodes cannot spy on the user.
+  drawback: >
+    * **Privacy:** The provider can spy on the user and usually knows all the
+      transactions and holdings per wallet.
+TOR:
+  short: TOR - The Onion Router
+  long: >
+    TOR is a tool to shield the IP address of communicating parties. When
+    communicating with a node on the TOR network, the communication is also
+    necessarily end to end encrypted but not when communicating to a server
+    on the internet that does neither use TOR nor ssl (https).
+    
+    *Modern Androids allow to put apps behind a local TOR node independently of
+    the provider offering TOR features. While this can be desirable to shield
+    one's IP address, it also might expose unencrypted data to different,
+    probably more aware third parties. It also does not replace more advanced
+    TOR features in which the wallet creates multiple TOR identities for
+    different requests.*
+  benefit: >
+    * **Privacy:** TOR shields the client's IP address and thus his real world location or
+    identity from servers it talks to.
+  drawback: >
+    * **Speed:** TOR means bouncing messages around a bit more with extra encryption.
+    That makes it slower.
+lnWatchTowers:
+  short: Lightning Watch Towers
+  long: >
+    **Non-custodial** Lightning Network wallets that **can receive payments**
+    have to be on guard about all transactions happening on the Bitcoin
+    blockchain to avoid financial loss. With Watch Towers, this can be
+    outsourced in a very private and efficient way.
+  benefit: >
+    * **Security:** The wallet can remain offline for extended periods without
+      danger of losing funds.
+ownLN:
+  short: Connect To Own Lightning Node
+  long: The LN is very demanding on the wallet, especially for mobile devices,
+    making custodial LN wallets somewhat acceptable. To have a light-weight client
+    without having to trust a centralized provider, one can run ones own Lightning
+    Node and remote-control it with this app.
+  benefit: Always online lightning node with the convenience of a mobile app.
+ownFullNode:
+hd:
+  short: Hierarchically Deterministic
+  long: All accounts and keys are derived from one masterseed as defined in
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki'>BIP 32</a>,
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki'>BIP 39</a>,
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki'>BIP 44</a>,
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki'>BIP 49</a>,
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki'>BIP 84</a> and
+    <a href='https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki'>BIP 86</a>.
+    While some wallets might use different definitions and not all support
+    SegWit or Taproot, we only consider this feature as given if
+    
+    * the backup is a BIP 39 mnemonic
+
+    * the funds are recoverable on a competitor's product correctly implementing
+      those standards
+  benefit: >
+    * no address reuse
+    
+    * simple backup
+    
+    * no vendor lock-in
+multiAccount:
+  short: Unlimited Accounts
+  long: The user can create or restore secondary BTC accounts
+  benefit: >
+    * **Accounting:** Multiple accounts allow for easier separation of funds.
+    
+    * **Privacy:** Using an account with a positive balance at all time makes it
+      relatively easy for blockchain analysis companies to determine the full
+      history of the wallet. By using multiple accounts, emptying them at times,
+      the user can retain some privacy.
+RBF:
+  short: Replace By Fee (RBF)
+  long: >
+    This wallet can create transactions that can be replaced until it is
+    confirmed by the network.
+
+    Transactions marked as RBF signal the network that they might be replaced
+    but with a higher fee per byte.
+  benefit: >
+    * **Cheaper:** Transactions can be sent with very low fee and if later a soon
+    confirmation is desired, the fee can be increased which allows the user to
+    use lower fees with more confidence and thus results in fee savings.
+    
+    * **Cheaper:** RBF in combination with batching allows the wallet to batch
+    transactions [transparent to the
+    user](https://en.wikipedia.org/wiki/Transparency_%28human%E2%80%93computer_interaction%29),
+    making the individual payment cheaper in transaction fees.
+  drawback: >
+    * Services will normally not accept a payment with RBF until it has a
+    confirmation on the blockchain. Wallets that support RBF therefore always
+    allow to send transactions without RBF, too but the user might not notice
+    this detail while waiting for the recipient to confirm the payment. If
+    this happens, a finalizing replacement transaction can be sent.
+    
+    * RBF sparked some controversy among users portraing RBF transactions as
+    double-spend attempts.
+    
+    * Some wallets that are not aware of the mechanism still might get
+    confused and stick to the first transaction seen, ignoring the later
+    replacement transaction for longer than necessary.
+batching:
+  short: Transaction Batching
+  long: >
+    Batching allows to aggregate multiple payments into one Bitcoin
+    transaction.
+  benefit: >
+    In Bitcoin, transactions always empty the output of received, prior
+    transactions, so called "unspent transaction outputs" or UTXOs. Without
+    batching, sending to five recipients requires the creation of five
+    transactions with their change outputs - if you don't have the exact
+    amount you want to send to the recipient, you send "change" to yourself.
+    This change UTXO gets then immediately spent in the next transaction and
+    so on, building a chain of transactions.
+    
+    * Batching avoids creating intermediate outputs, making the transaction
+    smaller and thus cheaper in terms of mining fees.
+    
+    * Batching avoids building chains of transactions. If one were to pay
+    more than ten recipients, the network would probably not broadcast the
+    later transactions as only short chains of unconfirmed transactions are
+    being handled by full nodes. Batching fixes that.
+multiSignature:
+  short: Multi Signature
+  long: >
+    Bitcoin allows to define addresses controlled by more than one private
+    key. Two-of-three for example would mean that any two of a list of three
+    private keys would be required to send coins from this address.
+  benefit: >
+    With keys from distinct devices or users, an attacker would have to
+    compromise multiple devices or users at once. Multi signature thus allows
+    to protect against one device catching a virus, one wallet having a
+    backdoor (if the multi signature works across different providers'
+    wallets), one hardware wallet not being trusted (if hardware wallets can
+    be used for multi signature), etc.
+  drawback: >
+    * There are no good standards yet for multi signature accounts. This might
+    mean that an account that works with one provider's wallet won't load in
+    any other wallet which can complicate recovery should that wallet go out
+    of business.
+    
+    * Using Multi Signature results in bigger and thus more expensive
+    transactions.
+    
+    * Using Multi Signature accounts makes it easier for blockchain analysis
+    companies to follow the trail of a wallet.
+    
+    * Multi Signature accounts require backups of additional descriptors, making
+    financial loss from user error more likely.
+tradeAlts:
+  short: Trade from and to other crypto currencies
+  long: >
+    Exchange
+    one crypto currency for another. You "receive Xcoin to your Ycoin account"
+    while in the background the wallet sends your Ycoin address to a service
+    provider which gives it an Xcoin address which it then displays. Funds
+    sent to that Xcoin address - to that service provider - are then sold for
+    Ycoin and the returns are sent to the wallet's Ycoin address.
+  benefit: Easily accept receiving more coins without actually holding them.
+  drawback: >
+    * Sometimes the service is less favorable in its fees when used through a
+    wallet integration than when using the service's website.
+    
+    * Some of those services require registration which links your
+    transactions to your ID.
+    
+    * The exchange provider might not deliver, making it complicated to prove
+    what happened, who to talk to and how to ultimately recover funds.
+buyWithCC:
+  short: Buy with Credit Card
+  long: Buy coins with your credit card from within the product.
+  benefit: Ease of use.
+  drawback: Buying with Credit Card usually comes with huge fees and the same
+    exchange provider often offers a better rate when not using via a wallet
+    integration.
+mix:
+  short: Mix coins
+  long: >
+    Transactions on the Bitcoin network are public and companies like
+    Chainalysis get a very good picture of a users' past and future spendings,
+    knowing just one transaction, following that public data. Coin mixing breaks
+    heuristics those companies use and thus gives the user and those he
+    shares transactions with privacy.
+    
+    On a more fundamental level, transactional privacy is required for
+    fungibility - the concept of all Bitcoins being equal. If transactions can
+    be tracked and attributed to certain activity - gambling, prostitution,
+    donations to dissidents, ... - users could discriminate against certain
+    sources of payments. Sadly there are already big exchanges that discriminate
+    precisely against mixed coins.
+  benefit: >
+    * **privacy** for you
+    
+    * **fungibility** for all
+  drawback: Some services flag mixing itself as suspicious.
+airGapped:
+  short: "Air Gapped: App works without internet"
+  long: >
+    Some apps mimic hardware wallets in that they don't request permission to
+    connect to the internet but instead they communicate through a companion
+    app which has internet. That companion app might be on the same phone but
+    with internet permission or it might be on a secondary phone such that the
+    Air Gapped app can run on a phone that has no mobile or wifi internet
+    configured at all.
+  benefit: >
+    **Security:** Splitting an app into a part that keeps the keys safe without access to
+    leak them online and an app that has internet and all the rest can reduce
+    the attack surface for the private keys. In theory this setup can be
+    much more secure than the usual app that has both the private keys and
+    internet access in one.

@@ -3,3 +3,6 @@ node_modules/
 .idea/
 .jekyll-metadata
 .jekyll-cache/
+.history
+.settings/
+.project

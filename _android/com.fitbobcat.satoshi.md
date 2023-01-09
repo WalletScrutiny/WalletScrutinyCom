@@ -1,38 +1,33 @@
 ---
-title: "Satoshi Wallet App"
+wsId: 
+title: Satoshi Wallet App
 altTitle: 
-
-users: 1000
+authors: 
+users: 5000
 appId: com.fitbobcat.satoshi
-launchDate: 2018-01-16
-latestUpdate: 2018-01-16
-apkVersionName: "1.0"
-stars: 4
-ratings: 18
-reviews: 10
+appCountry: 
+released: 2018-01-16
+updated: 2018-01-16
+version: '1.0'
+stars: 3.6
+ratings: 25
+reviews: 15
 size: 3.0M
 website: https://www.satoshiera.com
 repository: 
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-verdict: nobtc # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-28
-reviewStale: false
+meta: defunct
+verdict: nobtc
+date: 2021-06-08
 signer: 
-reviewArchive:
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-  - /com.fitbobcat.satoshi/
-  - /posts/com.fitbobcat.satoshi/
 ---
-
 
 This project appears to be a parody on Bitcoin forks?
 

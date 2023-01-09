@@ -1,38 +1,38 @@
 ---
-title: "CoinEx"
+wsId: CoinEx
+title: CoinEx - Buy BTC, ETH Easily
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 1000000
 appId: com.coinex.trade.play
-launchDate: 
-latestUpdate: 2020-09-07
-apkVersionName: "1.9.0"
+appCountry: 
+released: 2019-12-27
+updated: 2022-12-20
+version: 3.17.0
 stars: 4.4
-ratings: 875
-reviews: 440
-size: 9.8M
-website: https://www.coinex.co/
+ratings: 60269
+reviews: 1340
+size: 
+website: https://www.coinex.com/
 repository: 
 issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-04-15
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: coinexcom
-providerLinkedIn: 
-providerFacebook: TheCoinEx
-providerReddit: Coinex
-
+reviewArchive: 
+twitter: coinexcom
+social:
+- https://www.facebook.com/TheCoinEx
+- https://www.reddit.com/r/Coinex
 redirect_from:
-  - /com.coinex.trade.play/
-  - /posts/com.coinex.trade.play/
----
+- /com.coinex.trade.play/
+- /posts/com.coinex.trade.play/
 
+---
 
 The description on Google Play starts not so promising:
 

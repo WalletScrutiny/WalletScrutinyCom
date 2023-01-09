@@ -1,38 +1,39 @@
 ---
-title: "STASIS Stablecoin Wallet"
+wsId: STASISStablecoinWallet
+title: STASIS Stablecoin Wallet
 altTitle: 
-
-users: 5000
+authors:
+- leo
+users: 10000
 appId: com.stasis.stasiswallet
-launchDate: 2018-06-13
-latestUpdate: 2020-08-21
-apkVersionName: "1.8.77"
-stars: 4.5
-ratings: 137
-reviews: 83
-size: 18M
-website: https://stasis.net/wallet/
-repository: https://github.com/stasisnet
+appCountry: 
+released: 2018-06-13
+updated: 2022-12-19
+version: 1.9.70
+stars: 3.7
+ratings: 169
+reviews: 5
+size: 
+website: https://stasis.net
+repository: 
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-03
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: stasisnet
-providerLinkedIn: company/stasisnet/
-providerFacebook: stasisnet
-providerReddit: 
-
+reviewArchive: 
+twitter: stasisnet
+social:
+- https://www.linkedin.com/company/stasisnet
+- https://www.facebook.com/stasisnet
+- https://github.com/stasisnet
 redirect_from:
-  - /com.stasis.stasiswallet/
-  - /posts/com.stasis.stasiswallet/
----
+- /com.stasis.stasiswallet/
+- /posts/com.stasis.stasiswallet/
 
+---
 
 On Google Play and their website there is no mention of being non-custodial and
 certainly there is no source code available. Until we hear opposing claims

@@ -1,38 +1,38 @@
 ---
-title: "Bit2Me - Buy and Sell Cryptocurrencies"
+wsId: bit2me
+title: 'Bit2Me: BTC and +150 coins'
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.phonegap.bit2me
-launchDate: 
-latestUpdate: 2020-06-10
-apkVersionName: "1.36.1"
-stars: 2.9
-ratings: 158
-reviews: 110
-size: 5.0M
-website: https://bit2me.com/
+appCountry: 
+released: 2015-01-08
+updated: 2022-12-26
+version: 2.2.29
+stars: 4.4
+ratings: 5162
+reviews: 325
+size: 
+website: https://bit2me.com
 repository: 
 issue: 
 icon: com.phonegap.bit2me.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: bit2me
-providerLinkedIn: company/bit2me
-providerFacebook: bit2me
-providerReddit: 
-
+reviewArchive: 
+twitter: bit2me
+social:
+- https://www.linkedin.com/company/bit2me
+- https://www.facebook.com/bit2me
 redirect_from:
-  - /com.phonegap.bit2me/
-  - /posts/com.phonegap.bit2me/
----
+- /com.phonegap.bit2me/
+- /posts/com.phonegap.bit2me/
 
+---
 
 This appears to be the interface for an exchange. We could not find any claims
 about you owning your keys. As a custodial service it is **not verifiable**.

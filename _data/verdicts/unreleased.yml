@@ -1,0 +1,15 @@
+short: Un-Released!
+title: Un-Released
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: This product is not released yet.
+question: Is this product available yet?
+details: >
+  We focus on products that have the biggest impact if things go wrong and while
+  pre-sales sometimes reach many thousands to buy into promises that never
+  materialize, the damage is limited and there would be little definite to be
+  said about an unreleased product anyway.
+  
+  
+  If you find a product in this category that was released meanwhile, please
+  contact us to do a proper review!

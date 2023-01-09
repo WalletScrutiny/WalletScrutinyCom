@@ -1,38 +1,37 @@
 ---
-title: "Coinsquare"
+wsId: 
+title: Coinsquare
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: coinsquare.io.coinsquare
-launchDate: 
-latestUpdate: 2020-07-29
-apkVersionName: "2.13.8"
-stars: 2.8
-ratings: 334
-reviews: 248
-size: 8.2M
-website: https://coinsquare.com/
+appCountry: 
+released: 2017-08-30
+updated: 2022-03-18
+version: 2.13.15
+stars: 2.7
+ratings: 790
+reviews: 15
+size: 7.4M
+website: http://coinsquare.com
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: defunct
+verdict: custodial
+date: 2023-01-02
 signer: 
-reviewArchive:
-
-
-providerTwitter: coinsquare
-providerLinkedIn: 
-providerFacebook: coinsquare.io
-providerReddit: 
-
+reviewArchive: 
+twitter: coinsquare
+social:
+- https://www.facebook.com/coinsquare.io
 redirect_from:
-  - /coinsquare.io.coinsquare/
-  - /posts/coinsquare.io.coinsquare/
----
+- /coinsquare.io.coinsquare/
+- /posts/coinsquare.io.coinsquare/
 
+---
 
 This is the interface for an exchange. In the description we read:
 

@@ -1,38 +1,36 @@
 ---
-title: "Exodus: Crypto Bitcoin Wallet"
+wsId: ExodusCryptoBitcoinWallet
+title: 'Exodus: Crypto Bitcoin Wallet'
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 1000000
 appId: exodusmovement.exodus
-launchDate: 2019-06-06
-latestUpdate: 2020-09-10
-apkVersionName: "20.9.10"
-stars: 4.6
-ratings: 16594
-reviews: 5979
-size: 35M
-website: https://www.exodus.io/mobile
-repository: https://github.com/exodusmovement
+appCountry: 
+released: 2019-06-06
+updated: 2022-12-28
+version: 23.1.2
+stars: 4.5
+ratings: 81868
+reviews: 6415
+size: 
+website: https://exodus.com/mobile
+repository: 
 issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-20
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2020-10-12
 signer: 
-reviewArchive:
+reviewArchive: 
+twitter: exodus_io
+social:
+- https://www.facebook.com/exodus.io
+- https://github.com/exodusmovement
+redirect_from: 
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-  - /exodusmovement.exodus/
-  - /posts/exodusmovement.exodus/
 ---
-
 
 This app certainly sounds like it is non-custodial:
 

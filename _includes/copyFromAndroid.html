@@ -1,0 +1,8 @@
+(Analysis from Android review)
+{% if site.environment != "development" %}
+  {%- assign otherPost = site.android | where:"wsId", page.wsId | first -%}
+
+  {{ otherPost.content }}
+{% else %}
+  <b>Other post's content only in production ...</b>
+{% endif %}

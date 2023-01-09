@@ -1,42 +1,42 @@
 ---
-title: "Trustee Wallet - best bitcoin and crypto wallet"
+wsId: Trustee
+title: Trustee | crypto & btc wallet
 altTitle: 
-
-users: 50000
+authors:
+- leo
+users: 100000
 appId: com.trusteewallet
-launchDate: 2019-05-01
-latestUpdate: 2020-08-20
-apkVersionName: "1.30.436"
-stars: 4.3
-ratings: 750
-reviews: 478
-size: 15M
-website: https://trustee.deals/
+appCountry: 
+released: 2019-05-01
+updated: 2022-11-25
+version: 1.51.0
+stars: 3.9
+ratings: 2467
+reviews: 47
+size: 
+website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nonverifiable
 date: 2020-01-24
-reviewStale: true
 signer: 
 reviewArchive:
 - date: 2019-12-28
-  version: "1.0"
-  apkHash: 
+  version: '1.0'
+  appHash: 
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: Trustee.Wallet
-providerReddit: 
-
+twitter: Trustee_Wallet
+social:
+- https://www.facebook.com/Trustee.Wallet
 redirect_from:
-  - /com.trusteewallet/
-  - /posts/com.trusteewallet/
----
+- /com.trusteewallet/
+- /posts/com.trusteewallet/
 
+---
 
 They [asked us to re-evaluate](https://github.com/trustee-wallet/trusteeWallet/issues/1#issuecomment-577612039),
 so ... here we go:

@@ -1,4 +1,4 @@
-Wallet Scrutiny
+WalletScrutiny
 ===============
 
 This is the repository backing [WalletScrutiny.com](https://walletscrutiny.com/).
@@ -25,6 +25,12 @@ Each build takes around 7s.
 
 ```
 npx gulp serve
+```
+
+or
+
+```
+bundle exec jekyll serve --profile --trace
 ```
 
 ### For production deployment

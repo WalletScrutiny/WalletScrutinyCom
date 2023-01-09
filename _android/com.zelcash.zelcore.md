@@ -1,38 +1,37 @@
 ---
-title: "ZelCore - Multi Asset Crypto Wallet"
+wsId: ZelCore
+title: Zelcore - Crypto Wallet
 altTitle: 
-
-users: 10000
+authors:
+- leo
+users: 100000
 appId: com.zelcash.zelcore
-launchDate: 2018-09-21
-latestUpdate: 2020-09-15
-apkVersionName: "3.6.0"
-stars: 3.9
-ratings: 303
-reviews: 205
-size: 16M
-website: https://zel.network/project/zelcore/
+appCountry: 
+released: 2018-09-21
+updated: 2022-12-01
+version: 6.2.0
+stars: 3.7
+ratings: 834
+reviews: 122
+size: 
+website: https://zelcore.io
 repository: 
 issue: 
 icon: com.zelcash.zelcore.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2020-04-07
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: zelcash
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: ZelCash
-
+reviewArchive: 
+twitter: zelcash
+social:
+- https://www.reddit.com/r/ZelCash
 redirect_from:
-  - /com.zelcash.zelcore/
-  - /posts/com.zelcash.zelcore/
----
+- /com.zelcash.zelcore/
+- /posts/com.zelcash.zelcore/
 
+---
 
 This application claims on their Google Play description:
 

@@ -1,38 +1,36 @@
 ---
-title: "elegro Exchange - Bitcoin and crypto exchange"
+wsId: 
+title: 'elegro Exchange - Bitcoin and '
 altTitle: 
-
-users: 100
+authors:
+- leo
+users: 1000
 appId: cryptoex.elegro.io
-launchDate: 
-latestUpdate: 2020-07-07
-apkVersionName: "1.0.3"
-stars: 4.9
-ratings: 106
-reviews: 12
-size: 12M
-website: 
+appCountry: 
+released: 2019-06-26
+updated: 2021-04-29
+version: 1.0.4
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://personal.elegro.eu/exchange
 repository: 
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-verdict: fewusers # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: stale
+verdict: wip
+date: 2022-04-25
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: 
+social: 
 redirect_from:
-  - /cryptoex.elegro.io/
-  - /posts/cryptoex.elegro.io/
----
+- /cryptoex.elegro.io/
+- /posts/cryptoex.elegro.io/
 
+---
 
 This page was created by a script from the **appId** "cryptoex.elegro.io" and public
 information found

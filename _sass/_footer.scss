@@ -9,12 +9,8 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  /* sticky footer fix start */
-  position: absolute;
   bottom: 0em;
   height: auto;
-  /* sticky footer fix end */
-  margin-top: 3em;
   color: var(--accent);
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
@@ -26,8 +22,6 @@
   .footer-links{
     display: inline-flex;
     flex-direction: row;
-    column-gap: 1rem;
-    row-gap:1rem;
     flex-wrap: wrap;
 
     a {
@@ -36,6 +30,8 @@
       background: #333;
       padding: 4px 8px;
       border-radius: 8px;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
   
       &:hover {
         background: #444;
@@ -62,7 +58,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
     }
   }
 

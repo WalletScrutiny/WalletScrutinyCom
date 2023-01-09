@@ -1,40 +1,44 @@
 ---
-title: "Casa App - Secure your Bitcoin"
+wsId: casaapp
+title: Casa App - Secure your Bitcoin
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 10000
 appId: casa.keymaster
-launchDate: 
-latestUpdate: 2020-09-17
-apkVersionName: "2.26.4"
-stars: 3.8
-ratings: 26
-reviews: 11
-size: 30M
-website: https://keys.casa/
+appCountry: 
+released: 2019-03-01
+updated: 2022-11-16
+version: 3.14.8
+stars: 4.6
+ratings: 204
+reviews: 24
+size: 
+website: https://keys.casa
 repository: 
 issue: 
 icon: casa.keymaster.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-23
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-22
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: CasaHODL
+social: 
 redirect_from:
-  - /casa.keymaster/
-  - /posts/casa.keymaster/
+- /casa.keymaster/
+- /posts/casa.keymaster/
+
 ---
 
+**Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
+least version `2.27.10` and inspect the code or modify it to compile it back
+into an app. Clearly licensing stops honest people from publishing the result to
+any users but we don't see any argument left to not publish the code under a
+non-permissive license.
 
-**Update**: This app and its review here were also discussed in a
+**Update 2019-12-20**: This app and its review here were also discussed in a
 [great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust).
 
 This app follows an interesting concept with a multi-signature setup.
@@ -78,14 +82,14 @@ Lopp goes on to say:
 > Now, when we’re talking about open source versus closed source in the context
   of mobile apps, then it gets even trickier because it is difficult if not
   impossible. And in fact, we have not yet really found a way to verify the
-  build of a mobile app that is on the Apple store or the Google play store.
+  build of a mobile app that is on the Apple store or the Google Play Store.
 
 which is a direct hint to what we are doing at WalletScrutiny. Is he claiming we
 are promoting something that cannot exist? Or that he has not yet figured out,
 which given he is a professional in the space since before Bitcoin would be hard
 to believe? He explains:
 
-> The way that these mobile app stores work is that they require the
+> The way that these mobile App Stores work is that they require the
   applications to be cryptographically signed by the developers in order to get
   pushed out to the store, but the actual build process for the app, the actual
   you know, attestation of what the code that’s that’s being run on the app is

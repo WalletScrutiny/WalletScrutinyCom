@@ -1,0 +1,28 @@
+short: Leaks Keys!
+title: Leaks Keys
+color: '#d33100'
+redflag: true
+message: This product requires sharing private key material!
+question: Does the device hide your keys from other devices?
+details: >
+  Some people claim their paper wallet is a hardware wallet. Others use RFID
+  chips with the private keys on them. A very crucial drawback of those
+  systems is that in order to send a transaction, the private key has to be
+  brought onto a different system that doesn't necessarily share all the
+  desired aspects of a hardware wallet.
+  
+  
+  Paper wallets need to be printed, exposing the keys to the PC and the
+  printer even before sending funds to it.
+  
+  
+  Simple RFID based devices can't sign transactions - they share the keys
+  with whoever asked to use them for whatever they please.
+  
+  
+  There are even products that are perfectly capable of working in an
+  air-gapped fashion but they still expose the keys to connected devices.
+  
+  
+  This verdict is reserved for key leakage under normal operation and does not
+  apply to devices where a hack is known to be possible with special hardware.

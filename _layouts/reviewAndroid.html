@@ -2,172 +2,144 @@
 layout: default
 ---
 
-{% include base_path %}
-
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-{% include page__hero.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-{% unless paginator %}
-{% include breadcrumbs.html %}
-{% endunless %}
-{% endif %}
-
-<div id="main" role="main">
+<div id="main" class="app-review" role="main">
   {% include sidebar.html %}
   {% assign float = "" %}
 
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}
-    <meta itemprop="headline" content="{{ page.title }}">
-    {% endif %}
+    <meta itemprop="headline" content="{{ page.altTitle | default: page.title }}">
     {% if page.excerpt %}
-    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
     {% endif %}
     {% if page.date %}
-    <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+      <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
     {% if page.modified %}
-    <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+      <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% if page.url != "/" %}
-      {% unless page.header.overlay_color or page.header.overlay_image %}
-      <header>
-        {% if page.title %}<h1 class="page__title" itemprop="headline">
-          {{ page.title }}</h1>{% endif %}
-        {% if page.read_time %}
-        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
-        {% if page.modified %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
-            datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+      <div class="app-summary-grid">
+        <img src="/images/wIcons/{{ page.collection }}/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+        <div class="app-sum-head">
 
-        {% if page.date %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-            {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time
-            datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
-        </p>
-        {% endif %}
+          <h1 class="page__title -va-c" itemprop="headline">
+            {% if page.altTitle %}
+              {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </h1>
 
-      </header>
-      {% endunless %}
-      {% endif %}
+          <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+            data="{{ page.updated | date: '%s' }}">
+            {{ page.updated | date_to_long_string: "ordinal" }}
+          </span>)</span>
 
-      {% include base_path %}
-      {% if page.altTitle %}
-        {% assign title = page.altTitle %}
-      {% else %}
-        {% assign title = page.title %}
-      {% endif %}
+          <span>🔍 Last analysed
+            <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+              data="{{ page.date | date: '%s' }}">
+              {{ page.date | date_to_long_string: "ordinal" }}
+            </span>.
+          </span>
 
-      <img src="{{ base_path }}/images/wallet_icons/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-      <p>This Android app
-      {% if page.launchDate %}
-        was first launched on {{ page.launchDate | date_to_long_string: "ordinal" }} and
-      {% endif %}
-      currently
-      has more than {{ page.users }} downloads{%
-        if page.stars %}, a {{ page.stars }} stars rating from {{ page.ratings }} users
-      {% endif %}
-      and the latest release is version {{ page.apkVersionName }}.</p>
-
-      <p>Our last analysis was done on {{ page.date | date_to_long_string: "ordinal" }}
-      based on data found in their
-      <a href="https://play.google.com/store/apps/details?id={{ page.appId }}">Google
-        Play description</a>
-      {% if page.website %}and <a href="{{ page.website }}">their website</a>{% endif %}{%
-        if page.repository %} and their <a href="{{ page.repository }}">source repository</a>{% endif %}.
-      {% if page.issue %} We discuss issues with the provider
-      <a href="{{ page.issue }}">here</a>.{% endif %} Our verdict was <span
-      style="background:{{ site.data.verdicts[page.verdict].color }};padding:3px 10px;border-radius:100px;color:var(--white, #fff);text-transform:uppercase;font-weight:600;">
-      {{ site.data.verdicts[page.verdict].title }}</span> (<a href="#verdictExplained">details below</a>).</p>
-
-      <p>We found these ways of contacting the developers:
-      <ul>
-      {% if page.website          %}<li>Website:  <a href="{{                          page.website          }}">{{ page.website | replace: "http://", "" | replace: "https://", "" }}</a></li>{% endif %}
-      {% if page.providerTwitter  %}<li>Twitter:  <a href="https://twitter.com/{{      page.providerTwitter  }}">@{{ page.providerTwitter }}</a></li>{% endif %}
-      {% if page.providerFacebook %}<li>Facebook: <a href="https://www.facebook.com/{{ page.providerFacebook }}">{{ page.providerFacebook }}</a></li>{% endif %}
-      {% if page.providerReddit   %}<li>Reddit:   <a href="https://www.reddit.com/r/{{ page.providerReddit   }}">r/{{ page.providerReddit   }}</a></li>{% endif %}
-      {% if page.providerLinkedIn %}<li>LinkedIn: <a href="https://www.linkedin.com/{{ page.providerLinkedIn }}">{{ page.providerLinkedIn }}</a></li>{% endif %}
-      </ul></p>
-      {% if page.reviewArchive %}
-      <div id="reviews" style="display:none">
-      <h1>Older reviews</h1>
-      <table>
-      {% assign total = 0 %}
-      {% assign good = 0 %}
-        <tr><th>Date</th><th>Version</th><th>Verdict</th><th>Links</th></tr>
-        {% for review in page.reviewArchive %}
-          {% if review.verdict == "reproducible" %}
-            {% assign good = good | plus:1 %}
+          {% if page.meta != "outdated" %}
+            {% include verdictBadge.html verdict=page.verdict type='medium' %}
           {% endif %}
-          {% assign total = total | plus:1 %}
-          <tr>
-            <td>{{ review.date | date_to_long_string: "ordinal" }}</td>
-            <td>{{ review.version }}</td>
-            <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
-            <td><a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_posts/2019-12-20-{{ page.appId }}.md">[1]</a>
-              <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_android/{{ page.appId }}.md">[2]</a></td>
-          </tr>
-        {% endfor %}
-      </table>
+          {% if page.meta != "ok" %}
+            {% include verdictBadge.html verdict=page.meta type='medium' %}
+          {% endif %}
+
+          <div class="social-row">
+            <ul>
+              <li
+                title='Link to {{ page.title | replace: "'", " " }} on the Play Store'>
+                <a href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web">
+                  <i class="fab fa-google-play"></i>
+                </a>
+              </li>
+              {% include /review/providerSocial.html %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="app-payload-flex">
+
+          {% if page.verdict == "reproducible" %}
+            <div class="svg {{ page.verdict }}"></div>
+          {% endif %}
+
+          {% if page.stars > 0 %}
+          <div title="Rated {{ page.stars }}/5 stars">
+
+            <label>
+              <i class="fab fa-google-play"></i>&nbsp;Play Store ({{ page.appCountry | default: "us" }})
+            </label>
+
+            <div>
+              {{ page.stars }}
+              <span class="star-rating"
+                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+            </div>
+
+            {% if page.ratings %}
+              <span>{{ page.ratings }} ratings</span>
+            {% endif %}
+
+          </div>
+          {% endif %}
+
+          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.version }})">
+            <label>
+              <i class="fas fa-download"></i>&nbsp;Downloads
+            </label>
+            <div>
+              <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
+                {% assign s = page.users %}
+                {% if s > 999999999 %}
+                  {{ s | remove_first: '000000000' }} <n>billion</n>
+                {% elsif s > 999999 %}
+                  {{ s | remove_first: '000000' }} <n>million</n>
+                {% elsif s > 999 %}
+                  {{ s | remove_first: '000' }} <n>thousand</n>
+                {% else %}
+                  {{ s }}
+                {% endif %}
+              </span>
+            </div>
+          </div>
+
+          {% if page.released %}
+          <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
+
+            <label>
+              <i class="fas fa-rocket"></i>&nbsp;Launched
+            </label>
+
+            <div>
+              <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
+                {{ page.released | date_to_long_string: "ordinal" }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+
+        </div>
       </div>
-      <h1 id="collapsedReviews">Older reviews <a onclick="$('#reviews').show();$('#collapsedReviews').hide()">(show {{ good }} of {{ total }} reproducible)</a></h1>
-      {% endif %}
 
-      {% if page.providerTwitter  %}
-        <h1>Help spread awareness for build reproducibility</h1>
-        <p><img src="{{ base_path }}/images/twitter.svg" style="height:2em;width:auto;float:left;margin:.5em">
-        {% if page.verdict == "reproducible" %}
-          Please follow {{ title }} and thank them for being reproducible
-        {% else if page.verdict == nonverifiable %}
-          Please help us spread the word, asking {{ title }} to support reproducible builds
-        {% else if page.verdict == nosource %}
-          Please help us spread the word discussing transparency with {{ title }}
-        {% else if page.verdict == custodial %}
-          Please help us spread the word discussing the risks of centralized custodians with {{ title }}
-        {% else %}
-          Please help us spread the word discussing build reproducibility with {{ title }}
-        {% endif %}
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=.%20@{{ page.providerTwitter }}%20@WalletScrutiny&url={{ site.url }}{{ page.redirect_from[0] }}">via their Twitter</a>!</p>
-      {% endif %}
+      {% assign title = page.altTitle | default: page.title %}
 
-      {% if page.verdict == "reproducible" %} 
-      <h1>Disclaimer</h1> 
-      <p>The following Analysis is not a full code review!
-      We plan to make code reviews available in the future but even then it will never
-      be a stamp of approval but rather a list of incidents and questionable coding practice.
-      Nasa sends probes to space that
-      <a href="https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure">crash
-      due to software bugs</a> despite a huge budget and stringent scrutiny.</p>
-      {% endif %}
+      <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
 
-      <h1>Do your own research!</h1> 
-      <p>Try out searching
-      for "lost bitcoins", "stole my money" or "scammers" together with the wallet's
-      name, even if you
-      think the wallet is generally trustworthy. For all the bigger wallets you will
-      find accusations. Make sure you understand why they were made and if you are
-      comfortable with the provider's reaction.</p>
-
-      <h1>The Analysis</h1>
+      {% include verdict_explained.html %}
+      {% include /review/archive.html %}
+      {% include /review/tweetAtProvider.html %}
+      {% include /review/disclaimer.html %}
+      {% include /review/ownResearch.html %}
+      <h1 id="analysis">The Analysis&nbsp;<a href="#analysis" style="color:#ccc">&para;</a></h1>
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% include verdict_explained.html %}
-        {% if page.link %}<div><a href="{{ page.link }}"
-            class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
-        {% endif %}
+        {% include /review/byAuthor.html %}
       </section>
-
-      <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-        <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-      </footer>
 
       {% if page.share %}
         {% include social-share.html %}
@@ -176,3 +148,5 @@ layout: default
     </div>
   </article>
 </div>
+
+<script src="/assets/js/review.js"></script>

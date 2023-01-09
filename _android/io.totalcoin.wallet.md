@@ -1,52 +1,41 @@
 ---
-title: "Bitcoin Wallet Totalcoin - Buy and Sell Bitcoin"
+wsId: Totalcoin
+title: Totalcoin - Buy & Sell Bitcoin
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 500000
 appId: io.totalcoin.wallet
-launchDate: 2018-04-01
-latestUpdate: 2020-09-15
-apkVersionName: "4.5.7"
-stars: 4.3
-ratings: 3944
-reviews: 1989
-size: 10M
-website: http://totalcoin.io/
+appCountry: 
+released: 2018-04-01
+updated: 2022-12-28
+version: 5.4.1.485
+stars: 3.8
+ratings: 7981
+reviews: 67
+size: 
+website: http://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-23
-reviewStale: true
+meta: ok
+verdict: custodial
+date: 2021-05-24
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: 
+social:
+- https://www.facebook.com/totalcoin.io
 redirect_from:
-  - /totalcoin/
-  - /io.totalcoin.wallet/
-  - /posts/2019/11/totalcoin/
-  - /posts/io.totalcoin.wallet/
+- /totalcoin/
+- /io.totalcoin.wallet/
+- /posts/2019/11/totalcoin/
+- /posts/io.totalcoin.wallet/
+
 ---
 
+On the wallet's website there is no claim about custodianship which makes us
+assume it is a custodial product.
 
-On the wallet's description we read:
-
-> Your Bitcoin, Ethereum and Bitcoin Cash are securely hidden in your blockchain
-wallet and always under your control.
-
-which is the most "explicit" hint at the wallet being non-custodial.
-
-On their website we find not much about the wallet apart from a link to Google
-Play.
-
-On GitHub we
-[find no hits searching for their application ID](https://github.com/search?q="io.totalcoin.wallet").
-
-Our verdict: This wallet is **not verifiable**.
+As such it is **not verifiable**.

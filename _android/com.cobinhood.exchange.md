@@ -1,38 +1,36 @@
 ---
-title: "COBINHOOD - Zero Fees Bitcoin Exchange & Wallet"
+wsId: 
+title: 'COBINHOOD - Zero Fees Bitcoin '
 altTitle: 
-
+authors:
+- leo
 users: 50000
 appId: com.cobinhood.exchange
-launchDate: 
-latestUpdate: 2019-04-29
-apkVersionName: "3.50.1"
-stars: 2.3
-ratings: 633
-reviews: 372
-size: 7.7M
-website: https://cobinhood.com/
+appCountry: 
+released: 2017-12-25
+updated: 2019-04-29
+version: 3.50.1
+stars: 2.9
+ratings: 648
+reviews: 117
+size: 
+website: https://cobinhood.com
 repository: 
 issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-05-29
-reviewStale: true
+meta: obsolete
+verdict: custodial
+date: 2021-08-17
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: 
+social: 
 redirect_from:
-  - /com.cobinhood.exchange/
-  - /posts/com.cobinhood.exchange/
----
+- /com.cobinhood.exchange/
+- /posts/com.cobinhood.exchange/
 
+---
 
 This exchange and wallet claims:
 

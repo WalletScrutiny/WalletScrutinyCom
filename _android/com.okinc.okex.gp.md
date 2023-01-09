@@ -1,38 +1,38 @@
 ---
-title: "OKEx - Bitcoin/Crypto Trading Platform"
+wsId: OKEx
+title: 'OKX: Buy Bitcoin, ETH, Crypto'
 altTitle: 
-
-users: 100000
+authors:
+- leo
+users: 5000000
 appId: com.okinc.okex.gp
-launchDate: 
-latestUpdate: 2020-09-03
-apkVersionName: "4.2.7"
-stars: 5.0
-ratings: 33174
-reviews: 25548
-size: 99M
-website: https://www.okex.com/
+appCountry: 
+released: 2019-10-29
+updated: 2022-12-05
+version: 6.1.43
+stars: 4.4
+ratings: 188391
+reviews: 1129
+size: 
+website: https://www.okx.com/
 repository: 
 issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-05-29
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: OKEx
-providerLinkedIn: 
-providerFacebook: okexofficial
-providerReddit: OKEx
-
+reviewArchive: 
+twitter: OKEx
+social:
+- https://www.facebook.com/okexofficial
+- https://www.reddit.com/r/OKEx
 redirect_from:
-  - /com.okinc.okex.gp/
-  - /posts/com.okinc.okex.gp/
----
+- /com.okinc.okex.gp/
+- /posts/com.okinc.okex.gp/
 
+---
 
 This app gives you access to a trading platform which sounds fully custodial and
 therefore **not verifiable**.

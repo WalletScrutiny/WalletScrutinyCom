@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+<div id="main" class="app-review" role="main">
+  {% include sidebar.html %}
+  {% assign float = "" %}
+
+  <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ page.altTitle | default: page.title }}">
+    {% if page.excerpt %}
+      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
+    {% if page.modified %}
+      <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      <div class="app-summary-grid">
+        {%- if page.icon -%}
+          {%- assign icon = base_path | append: '/images/wIcons/'
+            | append: page.collection | append:  '/'
+            | append: page.icon -%}
+        {%- else -%}
+          {%- assign icon = base_path  | append: '/images/noicon.png' -%}
+        {%- endif -%}
+        <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
+        <div class="app-sum-head">
+
+          <h1 class="page__title -va-c" itemprop="headline">
+            {% if page.altTitle %}
+              {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
+            {% else %}
+              {{ page.title }}
+            {% endif %}
+          </h1>
+
+          {% if page.updated %}<span><i class="fas fa-history"></i> Latest release: {{ page.version | default: "??" }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+            data="{{ page.updated | date: '%s' }}">
+            {{ page.updated | date_to_long_string: "ordinal" }}
+          </span>)</span>{% endif %}
+
+          <span>🔍 Last analysed
+            <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
+              data="{{ page.date | date: '%s' }}">
+              {{ page.date | date_to_long_string: "ordinal" }}
+            </span>.
+          </span>
+
+          {% if page.meta != "outdated" %}
+            {% include verdictBadge.html verdict=page.verdict type='medium' %}
+          {% endif %}
+          {% if page.meta != "ok" %}
+            {% include verdictBadge.html verdict=page.meta type='medium' %}
+          {% endif %}
+
+          <div class="social-row">
+            <ul>
+              {% include /review/providerSocial.html %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="app-payload-flex">
+
+          {% if page.verdict == "reproducible" %}
+            <div class="svg {{ page.verdict }}"></div>
+          {% endif %}
+
+          {% if page.released %}
+          <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
+            <label>
+              <i class="fas fa-rocket"></i>&nbsp;Launched
+            </label>
+            <div>
+              <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
+                {{ page.released | date_to_long_string: "ordinal" }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+          {% if page.discontinued %}
+          <div title='{{ page.discontinued | date_to_long_string: "ordinal" }}'>
+            <label>
+              <i class="fas fa-cross"></i>&nbsp;Discontinued
+            </label>
+            <div>
+              <span class="calculate-time-elapsed" data="{{ page.discontinued | date: '%s' }}">
+                {{ page.discontinued | date_to_long_string: "ordinal" }}
+              </span>
+            </div>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+
+      {% assign title = page.altTitle | default: page.title %}
+
+      <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
+
+      {% include verdict_explained.html %}
+      {% include /review/archive.html %}
+      {% include /review/tweetAtProvider.html %}
+      {% include /review/disclaimer.html %}
+      {% include /review/ownResearch.html %}
+      {% include /review/whatIsBearer.html %}
+      <h1 id="analysis">The Analysis&nbsp;<a href="#analysis" style="color:#ccc">&para;</a></h1>
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+        {% include /review/byAuthor.html %}
+      </section>
+
+      {% if page.share %}
+        {% include social-share.html %}
+        {% include embed.html %}
+      {% endif %}
+    </div>
+  </article>
+</div>
+
+<script src="/assets/js/review.js"></script>

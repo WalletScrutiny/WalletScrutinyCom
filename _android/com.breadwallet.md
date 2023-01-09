@@ -1,40 +1,83 @@
 ---
-title: "BRD Bitcoin Wallet. Buy BTC Bitcoin Cash, Ethereum"
+wsId: BRDBitcoin
+title: BRD Bitcoin Wallet Bitcoin BTC
 altTitle: 
-
-users: 1000000
+authors:
+- leo
+users: 5000000
 appId: com.breadwallet
-launchDate: 2016-07-21
-latestUpdate: 2020-09-18
-apkVersionName: "4.5.0"
-stars: 4.1
-ratings: 13548
-reviews: 5678
-size: 23M
-website: https://brd.com/
-repository: https://github.com/breadwallet/breadwallet-android
-issue: https://github.com/breadwallet/breadwallet-android/issues/117
+appCountry: 
+released: 2016-07-21
+updated: 2022-03-18
+version: 4.18.0
+stars: 3.4
+ratings: 33632
+reviews: 1479
+size: 
+website: https://brd.com
+repository: https://github.com/breadwallet/brd-mobile
+issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-16
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2022-11-02
 signer: 
 reviewArchive:
+- date: 2022-04-07
+  version: 4.10.0
+  appHash: 
+  gitRevision: 7ef2f58d84c1778fe019c9d0b085187b6ac7228e
+  verdict: nonverifiable
+- date: 2021-06-27
+  version: 4.10.0
+  appHash: 
+  gitRevision: 5f9d3e8bf00be2ad8968b129c27258ea45ce2680
+  verdict: nosource
+- date: 2019-12-16
+  version: 4.9.1.1
+  appHash: 
+  gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
+  verdict: nonverifiable
+twitter: BRDHQ
+social:
+- https://www.linkedin.com/company/brdhq
+- https://www.facebook.com/brdhq
+- https://www.reddit.com/r/brdapp
+redirect_from: 
 
-
-providerTwitter: BRDHQ
-providerLinkedIn: company/brdhq
-providerFacebook: brdhq
-providerReddit: brdapp
-
-redirect_from:
-  - /brd/
-  - /com.breadwallet/
-  - /posts/2019/11/brd/
-  - /posts/com.breadwallet/
 ---
 
+**Update 2022-11-02**: The repository has not been updated in a long time and
+the provider has not reacted to our enquiry to do so. This product is
+**not verifiable**.
+
+**Update 2022-04-07**: This product's provider appears to be partnering with
+[Coinbase](https://www.coinbase.com) and with their latest update they now
+[encourage and help their users to migrate](https://brd.com/brd-joins-coinbase)
+to [Coinbase Wallet](https://www.coinbase.com/wallet), a browser extension based
+self-custodial wallet. The article is not (yet) talking about {{ page.title }}
+being in sunset mode or obsolete but some consolidation appears to be going on.
+
+**Update 2021-06-29**: The provider
+[informed us](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869938323)
+that the latest code can be found in a new repository. Apparently the
+[new repository](https://github.com/breadwallet/brd-mobile)
+is a fork of the
+[old repository](https://github.com/breadwallet/breadwallet-android)
+where they
+[changed the license](https://github.com/breadwallet/brd-mobile/commit/9c563ce83521bebee375641a65e965392fa7057a)
+from open source to some look-dont-touch license. For us, both provide the same
+degree of transparency so we have to revert the last change in verdict. This app
+does indeed share up to date source code although the git tag and the Play Store
+version name [do differ](https://github.com/breadwallet/brd-mobile/issues/1).
+
+**Update 2021-06-27**: As pointed out
+[here](https://github.com/breadwallet/breadwallet-android/issues/117#issuecomment-869031603),
+the provider stopped updating the public source repository and thus is to be
+considered closed source. The current version on the Play Store is 4.10.0 from
+yesterday. The latest version available on their GitHub is 4.9.1.1 from
+2021-03-03.
 
 This wallet claims not to be custodial and we found its supposed
 [source code](https://github.com/breadwallet/breadwallet-android)

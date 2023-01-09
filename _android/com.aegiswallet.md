@@ -1,38 +1,35 @@
 ---
-title: "Aegis Bitcoin Wallet"
+wsId: 
+title: Aegis Bitcoin Wallet
 altTitle: 
-
+authors: 
 users: 1000
 appId: com.aegiswallet
-launchDate: 2014-06-01
-latestUpdate: 2017-12-20
-apkVersionName: "1.2"
+appCountry: 
+released: 2014-06-01
+updated: 2017-12-20
+version: '1.2'
 stars: 3.8
 ratings: 95
 reviews: 60
 size: 7.2M
-website: http://aegisbtc.com/
+website: http://aegisbtc.com
 repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png
 bugbounty: 
-verdict: defunct # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: defunct
+verdict: wip
 date: 2020-04-07
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: 
+social: 
 redirect_from:
-  - /com.aegiswallet/
-  - /posts/com.aegiswallet/
----
+- /com.aegiswallet/
+- /posts/com.aegiswallet/
 
+---
 
 This app stopped working a long time ago but it's still available on Google
 Play. Don't install it. Apparently it is possible to receive funds but it is not

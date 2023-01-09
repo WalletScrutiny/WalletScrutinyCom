@@ -1,44 +1,42 @@
 ---
-title: "Coinbase Wallet — Crypto Wallet & DApp Browser"
+wsId: CoinbaseWallet
+title: 'Coinbase Wallet: NFTs & Crypto'
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 5000000
 appId: org.toshi
-launchDate: 2017-09-20
-latestUpdate: 2020-09-09
-apkVersionName: "22.4.315"
-stars: 3.9
-ratings: 7282
-reviews: 3206
-size: Varies with device
+appCountry: 
+released: 2017-09-20
+updated: 2023-01-05
+version: 28.20.17
+stars: 4.2
+ratings: 38828
+reviews: 9913
+size: 
 website: https://wallet.coinbase.com/
 repository: 
 issue: 
 icon: org.toshi.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-20
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2021-05-31
 signer: 
-reviewArchive:
-
-
-providerTwitter: CoinbaseWallet
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: CoinbaseWallet
+social: 
 redirect_from:
-  - /coinbasewallet/
-  - /org.toshi/
-  - /posts/2019/11/coinbasewallet/
-  - /posts/org.toshi/
+- /coinbasewallet/
+- /org.toshi/
+- /posts/2019/11/coinbasewallet/
+- /posts/org.toshi/
+
 ---
 
-
-Coinbase Wallet — Crypto Wallet & DApp Browser
-certainly sounds a lot like this other Coinbase wallet we reviewed
-[here](/coinbase/) but this is actually a second wallet
+Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like
+{% include walletLink.html wallet='android/com.coinbase.android' verdict='true' %}
+but this is actually a second wallet
 [endorsed by the same Coinbase](https://wallet.coinbase.com/).
 
 From their [FAQ](https://wallet.coinbase.com/faq/):

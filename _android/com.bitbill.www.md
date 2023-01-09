@@ -1,38 +1,36 @@
 ---
-title: "Ownbit - Blockchain Wallet"
+wsId: ownbit
+title: 'Ownbit: Cold & MultiSig Wallet'
 altTitle: 
-
-users: 1000
+authors:
+- leo
+users: 10000
 appId: com.bitbill.www
-launchDate: 
-latestUpdate: 2020-09-16
-apkVersionName: "4.22.1"
-stars: 4.3
-ratings: 39
-reviews: 23
-size: 28M
-website: http://www.bitbill.com
+appCountry: 
+released: 2018-03-22
+updated: 2022-12-15
+version: 4.39.0
+stars: 3.6
+ratings: 79
+reviews: 11
+size: 
+website: https://ownbit.io
 repository: 
 issue: 
 icon: com.bitbill.www.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2020-04-15
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+reviewArchive: 
+twitter: 
+social: 
 redirect_from:
-  - /com.bitbill.www/
-  - /posts/com.bitbill.www/
----
+- /com.bitbill.www/
+- /posts/com.bitbill.www/
 
+---
 
 On the Google Play description we read:
 

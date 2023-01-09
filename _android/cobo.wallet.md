@@ -1,40 +1,42 @@
 ---
-title: "Cobo Wallet: Bitcoin, Ethereum, Dash, XRP, XLM"
+wsId: cobowallet
+title: 'Cobo: Support crypto savings, PoS, gain products.'
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: cobo.wallet
-launchDate: 2018-07-01
-latestUpdate: 2020-09-11
-apkVersionName: "4.23"
-stars: 3.6
-ratings: 3888
-reviews: 2372
-size: 41M
-website: https://cobo.com/
+appCountry: 
+released: 2018-07-01
+updated: 2022-04-14
+version: 5.19.3
+stars: 3.2
+ratings: 4018
+reviews: 61
+size: 70M
+website: https://cobo.com
 repository: 
 issue: 
 icon: cobo.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2020-06-18
-reviewStale: true
+meta: defunct
+verdict: nosource
+date: 2022-05-31
 signer: 
-reviewArchive:
-
-
-providerTwitter: Cobo_Wallet
-providerLinkedIn: company/coboofficial
-providerFacebook: coboOfficial
-providerReddit: 
-
+reviewArchive: 
+twitter: Cobo_Wallet
+social:
+- https://www.linkedin.com/company/coboofficial
+- https://www.facebook.com/coboOfficial
 redirect_from:
-  - /cobo/
-  - /cobo.wallet/
-  - /posts/2019/11/cobo/
-  - /posts/cobo.wallet/
+- /cobo/
+- /cobo.wallet/
+- /posts/2019/11/cobo/
+- /posts/cobo.wallet/
+
 ---
 
+**Update 2022-05-15**: This app is not available anymore.
 
 **Update:** This wallet was one of the first wallets that was analyzed and back
 then the custodial wallet was detrimental to call the full wallet custodial.

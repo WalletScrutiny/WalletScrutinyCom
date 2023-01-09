@@ -1,40 +1,39 @@
 ---
-title: "Jaxx Liberty: Blockchain Wallet"
+wsId: jaxxliberty
+title: Jaxx Liberty - Trade Crypto
 altTitle: 
-
+authors:
+- leo
 users: 100000
 appId: com.liberty.jaxx
-launchDate: 2018-09-01
-latestUpdate: 2020-08-26
-apkVersionName: "2.4.6"
-stars: 3.9
-ratings: 3596
-reviews: 2021
-size: 17M
-website: https://jaxx.io/
+appCountry: 
+released: 2018-09-01
+updated: 2022-06-15
+version: 3.0.0
+stars: 3.8
+ratings: 5474
+reviews: 420
+size: 
+website: https://jaxx.io
 repository: 
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: nosource
 date: 2019-11-02
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: jaxx_io
-providerLinkedIn: 
-providerFacebook: JaxxWallet
-providerReddit: 
-
+reviewArchive: 
+twitter: jaxx_io
+social:
+- https://www.facebook.com/JaxxWallet
 redirect_from:
-  - /jaxx/
-  - /com.liberty.jaxx/
-  - /posts/2019/11/jaxx/
-  - /posts/com.liberty.jaxx/
----
+- /jaxx/
+- /com.liberty.jaxx/
+- /posts/2019/11/jaxx/
+- /posts/com.liberty.jaxx/
 
+---
 
 Jaxx Liberty: Blockchain Wallet
 is non-custodial:

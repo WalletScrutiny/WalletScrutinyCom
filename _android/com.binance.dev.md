@@ -1,39 +1,39 @@
 ---
-title: "Binance: Bitcoin Marketplace & Crypto Wallet"
+wsId: binance
+title: 'Binance: BTC, Crypto and NFTS'
 altTitle: 
-
-users: 5000000
+authors:
+- leo
+users: 50000000
 appId: com.binance.dev
-launchDate: 2017-10-25
-latestUpdate: 2020-09-15
-apkVersionName: "1.29.2"
-stars: 4.5
-ratings: 57495
-reviews: 22258
-size: Varies with device
+appCountry: 
+released: 2017-10-25
+updated: 2022-12-29
+version: 2.58.4
+stars: 4.4
+ratings: 619117
+reviews: 9216
+size: 
 website: https://www.binance.com/
 repository: 
 issue: 
 icon: com.binance.dev.png
 bugbounty: 
-verdict: custodial # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
+meta: ok
+verdict: custodial
 date: 2020-03-15
-reviewStale: true
 signer: 
-reviewArchive:
-
-
-providerTwitter: binance
-providerLinkedIn: 
-providerFacebook: binance
-providerReddit: 
-
+reviewArchive: 
+twitter: binance
+social:
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
 redirect_from:
-  - /binance/
-  - /com.binance.dev/
-  - /posts/com.binance.dev/
----
+- /binance/
+- /com.binance.dev/
+- /posts/com.binance.dev/
 
+---
 
 This app appears to be an app interface for the Binance exchange and at first we
 cannot find anything indicating that there is also a non-custodial feature to

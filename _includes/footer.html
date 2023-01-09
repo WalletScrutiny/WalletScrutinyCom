@@ -1,39 +1,8 @@
 {% include base_path %}
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    {% endif %}
-  </ul>
+<div class="page__footer-copyright">Page last compiled {{ "now" | date: "%b %d, %Y" }}.
+  Designed with input from <a href="https://flat18.co.uk" target="_blank" alt="Link to Flat18 website">Flat18</a>.
+  {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-<script>
-  window.chatwootSettings = {
-    type: 'expanded_bubble',
-    launcherTitle: 'Chat with Wallet Support'
-  };
-  (function(d,t) {
-    var BASE_URL = "https://chat-web.support.walletscrutiny.com";
-    var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src= BASE_URL + "/packs/js/sdk.js";
-    s.parentNode.insertBefore(g,s);
-    g.onload=function(){
-      window.chatwootSDK.run({
-        websiteToken: 'AFJCUb95WFZtMeNazDi5MKiU',
-        baseUrl: BASE_URL
-      })
-    }
-  })(document,"script");
-
-  window.addEventListener("load", function() {
-    setTimeout(function() {
-      if (!$chatwoot.isOpen && !window.matchMedia("only screen and (max-width: 760px)").matches) {
-        // only on big screens, open the chat window
-        $chatwoot.toggle()
-      }
-    }, 3000)
-  })
-</script>
+<script src="{{ base_path }}/assets/js/search-wallets.js"></script>

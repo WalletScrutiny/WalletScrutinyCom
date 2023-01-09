@@ -1,40 +1,37 @@
 ---
-title: "Enjin: Bitcoin, Ethereum, Blockchain Crypto Wallet"
+wsId: enjin
+title: 'Enjin: Crypto & NFT Wallet'
 altTitle: 
-
-users: 500000
+authors:
+- leo
+users: 1000000
 appId: com.enjin.mobile.wallet
-launchDate: 2018-01-01
-latestUpdate: 2020-08-26
-apkVersionName: "1.9.2-r"
-stars: 4.4
-ratings: 5929
-reviews: 3602
-size: 32M
-website: https://enjin.io/products/wallet
+appCountry: 
+released: 2018-01-01
+updated: 2023-01-04
+version: 2.0.52
+stars: 4
+ratings: 12608
+reviews: 1037
+size: 
+website: https://enjin.io/wallet
 repository: 
 issue: 
 icon: com.enjin.mobile.wallet.png
 bugbounty: 
-verdict: nosource # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-11-12
-reviewStale: true
+meta: ok
+verdict: nosource
+date: 2022-12-17
 signer: 
-reviewArchive:
+reviewArchive: 
+twitter: enjin
+social:
+- https://www.linkedin.com/company/enjin
+- https://www.facebook.com/enjinsocial
+- https://www.reddit.com/r/EnjinCoin
+redirect_from: 
 
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
-redirect_from:
-  - /enjin/
-  - /com.enjin.mobile.wallet/
-  - /posts/2019/11/enjin/
-  - /posts/com.enjin.mobile.wallet/
 ---
-
 
 Enjin: Blockchain & Crypto Wallet
 description starts promising:
@@ -43,12 +40,13 @@ description starts promising:
 
 They advertise advanced securing techniques among which are:
 
-> "An extensive independent security audit and penetration test found no
-> security issues."
+> An extensive independent security audit and penetration test found no security
+  issues.
 
-(You can read the report [here](https://cdn.enjin.io/files/pdfs/enjin-wallet-security-audit.pdf))
+(You can read the report
+[here](https://cdn.enjin.io/files/pdfs/enjin-wallet-security-audit.pdf))
 
-but source code isn't available on [their website](https://github.com/enjin).
+But source code isn't available on [their website](https://github.com/enjin).
 So the user is left with only one choice: trust.
 
 Our verdict: **not verifiable**.
@@ -63,10 +61,15 @@ Other observations
 > safety of your crypto wallet."
 
 looks very advanced, the list of features is tremendous. also an old player:
-"ABOUT ENJIN
-Founded in 2009 and based in Singapore, Enjin offers an ecosystem of integrated, user-first blockchain products that enable anyone to easily manage, explore, distribute, and integrate blockchain-based assets."
+
+> ABOUT ENJIN<br>
+  Founded in 2009 and based in Singapore, Enjin offers an ecosystem of
+  integrated, user-first blockchain products that enable anyone to easily
+  manage, explore, distribute, and integrate blockchain-based assets.
 
 on their main page, they advertise advanced securing techniques amongst which are:
-- "An extensive independent security audit and penetration test found no security issues." (with ability to read the [report](https://cdn.enjin.io/files/pdfs/enjin-wallet-security-audit.pdf))
-- "Custom ARM instructions ensure that sensitive data is instantly deleted from your phone's memory."
-- "Enjin Keyboard. Built from scratch to protect you from any form of data sniffing or keyloggers."
+
+> * Custom ARM instructions ensure that sensitive data is instantly deleted from
+    your phone's memory.
+> * Enjin Keyboard. Built from scratch to protect you from any form of data
+    sniffing or keyloggers.

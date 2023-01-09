@@ -1,36 +1,35 @@
 ---
-title: "ABCore"
+wsId: 
+title: ABCore
 altTitle: 
-
+authors:
+- leo
 users: 1000
 appId: com.greenaddress.abcore
-launchDate: 
-latestUpdate: 2019-10-16
-apkVersionName: "Varies with device"
+appCountry: 
+released: 
+updated: 2019-10-16
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: http://abco.re/
+size: 
+website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
+meta: obsolete
 verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
 warnings:
 - notProductionReady
 - highDataUse
-date: 2020-03-02
+date: 2021-10-06
 reviewStale: false
 signer: 
 reviewArchive:
-
-
-providerTwitter: 
-providerLinkedIn: 
-providerFacebook: 
-providerReddit: 
-
+twitter: 
+social: 
 redirect_from:
   - /com.greenaddress.abcore/
   - /posts/com.greenaddress.abcore/
@@ -70,7 +69,10 @@ Files fromGoogle/original/META-INF/MANIFEST.MF and fromBuild/original/META-INF/M
 ```
 
 This looks good. This app is **reproducible**.
+
 (As the provider doesn't recommend using this app as a wallet and as it uses
 tons of resources, please investigate well if you want to use this as an actual
 wallet on your phone or maybe better only as a bitcoin full node on your Android
 TV.)
+
+

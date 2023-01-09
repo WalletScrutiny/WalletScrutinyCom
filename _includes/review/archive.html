@@ -1,0 +1,27 @@
+{% if page.reviewArchive %}
+<div id="reviews" style="display:none">
+  <h1>Older Reviews</h1>
+  <table>
+    {% assign total = 0 %}
+    {% assign good = 0 %}
+    <tr>
+      <th>Date</th>
+      <th>Version</th>
+      <th>Verdict</th>
+    </tr>
+    {% for review in page.reviewArchive %}
+    {% if review.verdict == "reproducible" %}
+    {% assign good = good | plus:1 %}
+    {% endif %}
+    {% assign total = total | plus:1 %}
+    <tr>
+      <td><a
+          href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_{{ page.collection }}/{{ page.appId }}.md">{{ review.date | date_to_long_string: "ordinal" }}</a></td>
+      <td>{{ review.version }}</td>
+      <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+<h1 id="collapsedReviews"><a onclick="$('#reviews').show();$('#collapsedReviews').hide()">Show Older Reviews</a></h1>
+{% endif %}

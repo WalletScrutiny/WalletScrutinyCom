@@ -1,0 +1,15 @@
+{% assign parts = include.wallet | split: "/"
+%}{% assign collection = site.collections | where: "label", parts[0] | first
+%}{% assign w = collection.docs | where: "appId", parts[1] | first
+%}{% if w.icon
+%}{% assign icon = base_path | append: '/images/wIcons/'
+  | append: w.collection | append:  '/tiny/' | append: w.icon
+%}{% else
+%}{% assign icon = base_path | append: '/images/tinyNoicon.png'
+%}{% endif
+%}<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{w.url}}">{{
+  w.altTitle | default: w.title }}</a>{% if include.verdict %}&nbsp;{%
+  include verdictBadge.html verdict=w.verdict type="short"
+  %}{%if w.meta != "ok" %}{%
+  include verdictBadge.html verdict=w.meta type="short"
+  %}{% endif %}{% endif %}</span> 

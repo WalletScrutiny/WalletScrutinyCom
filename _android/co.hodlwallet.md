@@ -1,38 +1,37 @@
 ---
-title: "HODL Wallet : Bitcoin Wallet"
+wsId: hodl
+title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
-
+authors:
+- leo
 users: 10000
 appId: co.hodlwallet
-launchDate: 2018-09-24
-latestUpdate: 2020-05-18
-apkVersionName: "3.3.5"
-stars: 3.8
-ratings: 83
-reviews: 47
-size: 12M
+appCountry: 
+released: 2018-09-24
+updated: 2020-05-18
+version: 3.3.5
+stars: 3.6
+ratings: 124
+reviews: 48
+size: 
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
-verdict: nonverifiable # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-date: 2019-12-28
-reviewStale: true
+meta: obsolete
+verdict: nonverifiable
+date: 2022-05-09
 signer: 
-reviewArchive:
-
-
-providerTwitter: hodlwallet
-providerLinkedIn: 
-providerFacebook: hodlwallet
-providerReddit: 
-
+reviewArchive: 
+twitter: hodlwallet
+social:
+- https://www.facebook.com/hodlwallet
 redirect_from:
-  - /co.hodlwallet/
-  - /posts/co.hodlwallet/
----
+- /co.hodlwallet/
+- /posts/co.hodlwallet/
 
+---
 
 **Update**: The developer closed
 [the issue where we asked for help](https://github.com/hodlwallet/hodl-wallet-android/issues/50)
@@ -73,7 +72,8 @@ see how it goes:
 
 > Go to github.co/hodlwallet/breadwallet-android and clone or download the project
 
-[Breadwallet](/brd/)? Ok, good to know where the code comes from but this alone
+{% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}?
+Ok, good to know where the code comes from but this alone
 lets us doubt a bit how dedicated the team is working on the project. Also: more
 guessing on our part:
 
@@ -127,7 +127,7 @@ Play release. We'll try that one: `394f23041b`. We will raise the bar in the fut
 and refuse to search for commits like that though. Have a tag or we can't
 verify the build.
 
-Anyway ... we'll try the same we tried with [BRD](/brd/):
+Anyway ... we'll try the same we tried with {% include walletLink.html wallet='android/com.breadwallet' %}:
 
 ```
 $ git checkout 394f23041b
