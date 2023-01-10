@@ -1,0 +1,23 @@
+{% if page.warnings %}
+  <div class="warningReview">
+    <h2>Warnings</h2>
+    <p>Warnings are listed if there are reservations about a wallet that might
+      make it unsuitable for certain users or when the verdict only applies to
+      parts of a wallet.</p>
+    <p>Warnings are listed on a best-effort basis. If you think we missed to
+      warn about an aspect or should tune down a warning, please open an issue
+      on <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/new">
+        our GitLab repository</a>.</p>
+    
+    {% for w in page.warnings %}
+      {% if w.short %}
+        {% assign warning = w %}
+      {% else %}
+        {% assign warning = site.data.warnings[w] %}
+      {% endif %}
+      {% if warning.verdictAlert %}
+      {% endif %}
+      <p class="warning verdict-{{ warning.verdictAlert }} security-{{ warning.securityAlert }} verdict-{{ warning.privacyAlert }}"><strong>Warning – {{warning.short}}</strong> {{ warning.message | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    {% endfor %}
+  </div>
+{% endif %}

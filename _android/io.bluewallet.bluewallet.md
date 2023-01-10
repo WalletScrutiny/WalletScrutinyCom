@@ -22,13 +22,12 @@ bugbounty:
 meta: ok
 verdict: custodial
 warnings:
-- custom:
+- short: Not all features are non-custodial!
   verdictAlert: high
-  short: Not all features are non-custodial!
   message: >
     This app features lightning network accounts but despite their advertisement
-    of being in control and non-custodial, this type of account **is custodial**
-    without an appropriate warning!
+    of users being in control and non-custodial, this type of account **is custodial**
+    without any disclaimer!
 date: 2020-07-14
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:

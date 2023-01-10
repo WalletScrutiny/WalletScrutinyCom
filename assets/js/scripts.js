@@ -219,7 +219,10 @@ function getBadge(wallet) {
           </div>
         </div>
           <div class="app_info_box">
-              <strong>${wallet.altTitle || wallet.title}</strong>
+            ${wallet.warnings && wallet.warnings[0] && wallet.warnings[0].verdictAlert
+              ? `<span class="warning verdict-${wallet.warnings[0].verdictAlert}"</span><br>`
+              : ""}
+            <strong>${wallet.altTitle || wallet.title}</strong>
           </div>
       </div>
       <div id="details_${walletId}" class="item-detail-container" style="width:20em;display:none">

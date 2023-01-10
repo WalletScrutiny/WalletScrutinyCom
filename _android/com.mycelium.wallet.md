@@ -22,9 +22,8 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 warnings:
-- custom:
+- short: "Weak privacy!"
   privacyAlert: high
-  short: Weak privacy!
   message: >
     This wallet advertises connection using TOR but does not connect through TOR
     anymore. If you rely on your IP address not being knowable by the servers
@@ -33,7 +32,6 @@ warnings:
     has this feature.
     This warning is "high severity" as the wallet specifically claims to connect
     through TOR when it doesn't.
-- defaultProviderApi
 date: 2022-11-04
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:

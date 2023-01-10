@@ -21,9 +21,6 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-warnings:
-- defaultSPV
-- defaultProviderApi
 date: 2022-11-01
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:

@@ -24,6 +24,9 @@ window.addEventListener('load', () => {
           ? `wIcons/${wallet.folder}/small/${wallet.icon}`
           : 'smallNoicon.png'}" alt="Wallet Logo">
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
+      ${wallet.warnings && wallet.warnings[0] && wallet.warnings[0].verdictAlert
+        ? `<span class="warning verdict-${wallet.warnings[0].verdictAlert}"</span><br>`
+        : ""}
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
         ${wallet.meta !== 'outdated' ? verdictBadge(wallet.verdict) : ''}

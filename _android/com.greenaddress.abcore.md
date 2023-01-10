@@ -20,12 +20,8 @@ issue:
 icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: obsolete
-verdict: reproducible # May be any of: wip, fewusers, nowallet, nobtc, custodial, nosource, nonverifiable, reproducible, bounty, defunct
-warnings:
-- notProductionReady
-- highDataUse
+verdict: reproducible
 date: 2021-10-06
-reviewStale: false
 signer: 
 reviewArchive:
 twitter: 
@@ -33,8 +29,8 @@ social:
 redirect_from:
   - /com.greenaddress.abcore/
   - /posts/com.greenaddress.abcore/
----
 
+---
 
 This app is a full node for Android, so running it on your phone is probably
 not recommended unless you have unlimited data and don't mind your phone

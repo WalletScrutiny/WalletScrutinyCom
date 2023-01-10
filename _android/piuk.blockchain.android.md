@@ -22,13 +22,12 @@ bugbounty: https://hackerone.com/blockchain
 meta: ok
 verdict: nosource
 warnings:
-- custom:
+- short: Very weak key security!
   verdictAlert: high
   securityAlert: high
-  short: Very weak key security!
   message: >
     Your private keys are stored online, encrypted with a password of your
-    choosing while the app allows weak passwords. Humans are terrible at
+    choosing while the app allows weak passwords. Humans are not good at
     choosing secure passwords, so whoever has access to that database probably
     also has access to many if not most of the accounts' funds. Or in
     [the provider's own words](https://www.blockchain.com/learning-portal/security):

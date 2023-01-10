@@ -1817,6 +1817,41 @@ html {
   margin-top: 0px;
 }
 
+.warningReview {
+  border-radius: 20px;
+  background-color: salmon;
+  padding: 20px;
+  margin: 40px;
+}
+
+.warningReview > h2 {
+  margin-top: 0px;
+}
+
+.warning.privacy-medium::before {
+  content: "👁👁";
+}
+
+.warning.privacy-high::before {
+  content: "👁👁👁";
+}
+
+.warning.security-medium::before {
+  content: "⛨⛨";
+}
+
+.warning.security-high::before {
+  content: "⛨⛨⛨";
+}
+
+.warning.verdict-medium::before {
+  content: "🚨🚨";
+}
+
+.warning.verdict-high::before {
+  content: "🚨🚨🚨";
+}
+
 .badge {
   float: right;
 }

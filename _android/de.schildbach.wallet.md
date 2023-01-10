@@ -21,8 +21,6 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-warnings:
-- defaultSPV
 date: 2022-12-12
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:

@@ -20,6 +20,12 @@ function getWidgetDetails(wallet) {
         '<i class="fas fa-globe"></i>')).join(' ')
       : ''
   }
+  
+  function getWarnings(warnings) {
+    return warnings
+      ? warnings.map( w => `<tr><td>Warning</td><td><span class="warning verdict-${w.verdictAlert} security-${w.verdictAlert} privacy-${w.verdictAlert}"></span>${w.short}</td></tr>` )
+      : ''
+  }
 
   return `<table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
     ${ hasValue(wallet.users) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ""}
@@ -28,12 +34,7 @@ function getWidgetDetails(wallet) {
         ? ` with ${ wallet.ratings} ratings`
         : "" }</td></tr>`
       : ""}
-    ${ wallet.folder == "iphone"
-      ? `<tr><td>App size</td><td>${ Math.round(wallet.size / 100000 ) / 10 }MB</td></tr>`
-      : wallet.folder == "android" && wallet.size != "Varies with device"
-        ? `<tr><td>App size</td><td>${ wallet.size }B</td></tr>`
-        : ""
-    }
+    ${ getWarnings(wallet.warnings) }
     ${ hasValue(wallet.price) ? `<tr><td>Price</td><td>${wallet.price}</td></tr>` : ""}
     ${ hasValue(wallet.released) ? `<tr><td>Released</td><td>${wallet.released}</td></tr>` : ""}
     ${ hasValue(wallet.updated) ? `<tr><td>Latest Update</td><td>${wallet.updated}</td></tr>` : ""}

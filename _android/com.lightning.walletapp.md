@@ -22,8 +22,6 @@ bugbounty:
 meta: stale
 verdict: ftbfs
 date: 2022-03-09
-warnings:
-- defaultSPV
 signer: 
 reviewArchive:
 - date: 2019-11-23
