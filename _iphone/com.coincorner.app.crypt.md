@@ -8,11 +8,11 @@ appId: com.coincorner.app.crypt
 appCountry: 
 idd: 917721788
 released: 2014-09-22
-updated: 2022-12-23
-version: 4.3.1
+updated: 2023-01-09
+version: 4.3.2
 stars: 4
 reviews: 10
-size: '42433536'
+size: '42458112'
 website: https://www.coincorner.com
 repository: 
 issue: 

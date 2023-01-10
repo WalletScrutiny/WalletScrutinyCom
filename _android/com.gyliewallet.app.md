@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gyliewallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: 

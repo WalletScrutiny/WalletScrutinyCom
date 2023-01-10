@@ -10,8 +10,8 @@ idd: 1383851676
 released: 2019-01-07
 updated: 2022-12-20
 version: 2.6.37
-stars: 4.7
-reviews: 23
+stars: 4.8
+reviews: 24
 size: '53827584'
 website: https://saltlending.com/
 repository: 

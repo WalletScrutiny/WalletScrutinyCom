@@ -11,7 +11,7 @@ released: 2019-04-23
 updated: 2023-01-02
 version: 1.34.0
 stars: 4.8
-reviews: 3294
+reviews: 3297
 size: '96167936'
 website: https://currency.com/
 repository: 

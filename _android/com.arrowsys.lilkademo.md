@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arrowsys.lilkademo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-04
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: 
