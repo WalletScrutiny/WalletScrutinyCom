@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptoneedpro.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-04-27
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 

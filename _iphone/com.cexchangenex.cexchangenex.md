@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cexchangenex.cexchangenex.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-07-01
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 

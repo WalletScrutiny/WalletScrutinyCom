@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-01-16
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: BudaPuntoCom
