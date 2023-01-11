@@ -3,16 +3,15 @@ const playStore = require('./scripts/helperPlayStore.js')
 const fs = require('fs')
 const dateFormat = require('dateformat')
 const readline = require('readline')
-const appIds = process.argv.slice(2)
 
-async function refresh (markDefunct, apps) {
+async function refresh (markDefunct, apps, githubApi) {
   fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), 'yyyy-mm-dd')}:\n`)
   if (apps) {
     const ids = apps.split(',')
     const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1])
     const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1])
-    appStore.refreshAll(appStoreIds, markDefunct)
-    playStore.refreshAll(playStoreIds, markDefunct)
+    appStore.refreshAll(appStoreIds, markDefunct, githubApi)
+    playStore.refreshAll(playStoreIds, markDefunct, githubApi)
   } else {
     appStore.refreshAll()
     playStore.refreshAll()

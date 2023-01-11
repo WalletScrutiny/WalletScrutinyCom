@@ -20,7 +20,7 @@ const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'icon bugbounty meta verdict date signer reviewArchive ' +
                 'twitter social').split(' ')
 
-async function refreshAll (ids, markDefunct) {
+async function refreshAll (ids, markDefunct, githubApi) {
   var files
   if (ids) {
     files = ids.map(it => `${it}.md`)

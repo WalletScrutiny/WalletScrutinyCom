@@ -5,7 +5,7 @@ const fs = require('fs/promises')
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
-
+const { Octokit } = require("octokit")
 const sem = new Semaphore(50)
 const stats = {
   defunct: 0,
@@ -20,7 +20,8 @@ const headers = ('wsId title altTitle authors users appId appCountry released ' 
                 'issue icon bugbounty meta verdict date signer reviewArchive ' +
                 'twitter social redirect_from').split(' ')
 
-async function refreshAll (ids, markDefunct) {
+async function refreshAll (ids, markDefunct, githubApi) {
+  const octokit = new Octokit({ auth: githubApi })
   var files
   if (ids) {
     files = ids.map(it => `${it}.md`)
@@ -29,10 +30,10 @@ async function refreshAll (ids, markDefunct) {
   }
   console.log(`Updating ${files.length} 🤖 files ...`)
   stats.remaining = files.length
-  files.forEach(file => { refreshFile(file, undefined, markDefunct) })
+  files.forEach(file => { refreshFile(file, undefined, markDefunct, octokit) })
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content, markDefunct, octokit) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
@@ -45,6 +46,20 @@ function refreshFile (fileName, content, markDefunct) {
     helper.checkHeaderKeys(header, headers)
     if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
       try {
+        if (header.repository && header.repository.startsWith('https://github.com/')) {
+          const parts = header.repository.split('/')
+          const owner = parts[3]
+          const repo = parts[4]
+          octokit.request('GET /repos/{owner}/{repo}/releases{?per_page,page}', { owner: owner, repo: repo })
+            .then( result => {
+              const release = result.data[0]
+              const count = result.data.length
+              console.log(`${header.title}: ${count} releases. Last release was ${release.name} on ${release.created_at}.`)
+            })
+            .catch(err => {
+              console.log(`Error with ${header.title}:`, err)
+            })
+        }
         gplay.app({
           appId: appId,
           lang: 'en',
