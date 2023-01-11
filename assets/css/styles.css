@@ -444,6 +444,17 @@ pre.highlight code {
   justify-content: center;
   margin: 0 auto 150px auto;
 }
+@media (max-width:1200px) {
+  .page-section {
+    margin: 0 auto 80px auto;
+  }
+}
+
+@media (max-width:700px) {
+  .page-section {
+    margin: 0 auto 40px auto;
+  }
+}
 
 .hero-parent {
   width: 100%;
@@ -1231,6 +1242,12 @@ table tr td label {
   margin-bottom: 2rem;
 }
 
+@media (max-width:500px) {
+  .app-summary-grid {
+    gap: 10px;
+  }
+}
+
 .app-summary-grid>.app_logo_big {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -1275,6 +1292,12 @@ table tr td label {
   gap: 40px;
 }
 
+@media (max-width:500px) {
+  .app-payload-flex {
+    gap: 15px;
+  }
+}
+
 .app-payload-flex>div {
   display: grid;
   grid-template: 1fr 2fr 1fr / 1fr;
@@ -1293,6 +1316,7 @@ table tr td label {
   .app-summary-grid>.app-payload-flex {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
   }
 
   .app-payload-flex>svg, .app-payload-flex>.svg {
@@ -1308,11 +1332,11 @@ table tr td label {
   }
 
   .app-payload-flex>div {
-    text-align: left;
+    text-align: center;
     box-shadow: inset 0px 0px 0px 1px var(--body);
     background: var(--white);
-    min-height: 90px;
     height: 100%;
+    padding: 10px;
   }
 }
 

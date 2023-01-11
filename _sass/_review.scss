@@ -3,6 +3,9 @@
   background-color: #8884;
   padding: 40px 50px;
   margin: 10px 0;
+  @media (max-width:500px) {
+    padding: 10px 15px;
+  }
   > h2 {
     margin-top: 0px;
   }
