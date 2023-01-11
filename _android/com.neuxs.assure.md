@@ -7,8 +7,8 @@ users: 10000
 appId: com.neuxs.assure
 appCountry: 
 released: Jan 27, 2022
-updated: 2022-12-23
-version: 1.0.89
+updated: 2023-01-10
+version: 1.0.92
 stars: 4
 ratings: 
 reviews: 18

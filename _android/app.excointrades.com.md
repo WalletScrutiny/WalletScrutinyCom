@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BTC GAMES-Rocket Trade
+title: Rocket Excoin Trades
 altTitle: 
 authors: 
 users: 10000

@@ -12,7 +12,7 @@ updated: 2022-12-20
 version: 2.6.4
 stars: 4.4
 ratings: 1735
-reviews: 122
+reviews: 131
 size: 
 website: https://tap.global
 repository: 

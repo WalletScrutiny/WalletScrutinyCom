@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: 'ZEBEDEE: Play and earn Bitcoin'
+title: 'ZEBEDEE: Play. Earn. Shop.'
 altTitle: 
 authors:
 - leo

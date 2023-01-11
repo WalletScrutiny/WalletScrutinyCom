@@ -7,8 +7,8 @@ users: 1000
 appId: iforexcrypto.clients.android
 appCountry: 
 released: 
-updated: 2022-11-09
-version: 2.1.42
+updated: 2023-01-09
+version: 2.1.43
 stars: 
 ratings: 
 reviews: 

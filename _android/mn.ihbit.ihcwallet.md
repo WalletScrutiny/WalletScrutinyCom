@@ -11,7 +11,7 @@ updated: 2022-12-26
 version: 1.5.0
 stars: 4.7
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.ihcoin.io
 repository: 

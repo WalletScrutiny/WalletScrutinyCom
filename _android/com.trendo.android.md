@@ -9,7 +9,7 @@ appCountry:
 released: Oct 5, 2021
 updated: 2023-01-09
 version: 3.2.90_googleplay
-stars: 4.9
+stars: 4.8
 ratings: 
 reviews: 151
 size: 
