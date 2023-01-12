@@ -20,10 +20,15 @@ issue: https://github.com/mycelium-com/wallet-android/issues/648
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-11-04
+verdict: reproducible
+date: 2023-01-12
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2022-11-04
+  version: 3.16.0.13
+  appHash: 76a431f30c9257c478c6d1072aeaaaddc4807f2a9f9379791c768866ec4bdec7
+  gitRevision: 06e9a98aaea55673fd8894e4bede8423461d6f0f
+  verdict: nonverifiable
 - date: 2022-05-08
   version: 3.14.1.0
   appHash: 51b5a576f1e7a7580e15a7e3fffe43d3920584b319e8cfe3ad7f7ba091056ffa
@@ -222,204 +227,38 @@ redirect_from:
 
 ---
 
-**Update 2022-11-04**: After the provider had failed to publish the source code
-resulting in a {% include verdictBadge.html verdict='nosource' type='short' %}
-on 2022-11-01, the source was released today and we ran our test script again:
+Here we test if the latest version can be reproduced, following the known
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.16.0.13
-apkVersionCode: 3160013
-verdict:        
-appHash:        76a431f30c9257c478c6d1072aeaaaddc4807f2a9f9379791c768866ec4bdec7
-commit:         1544c49cdde85dc060875ae601415016537f5419
+apkVersionName: 3.16.0.15
+apkVersionCode: 3160015
+verdict:        reproducible
+appHash:        50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
+commit:         48c4143403d94cf29a968f1510d714fd7c49efcf
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3160013/classes3.dex and /tmp/fromBuild_com.mycelium.wallet_3160013/classes3.dex differ
-Files /tmp/fromPlay_com.mycelium.wallet_3160013/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160013/META-INF/CERT.RSA differ
-Files /tmp/fromPlay_com.mycelium.wallet_3160013/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160013/META-INF/CERT.SF differ
-Files /tmp/fromPlay_com.mycelium.wallet_3160013/META-INF/MANIFEST.MF and /tmp/fromBuild_com.mycelium.wallet_3160013/META-INF/MANIFEST.MF differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160015/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160015/META-INF/CERT.RSA differ
 
 Revision, tag (and its signature):
+object 48c4143403d94cf29a968f1510d714fd7c49efcf
+type commit
+tag v3.16.0.15
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1672914653 +0400
 
+Mycelium Bitcoin Wallet v3.16.0.15:
+
+30eb7b1de704b63bdaf464f703a202ee59304a2d952808a95282c0ef390f336baa7292d68cdd0cb29a06a3c1ed183a577cf2b3ed2d992f4f99c0e8b887be4d42  prodnet/release/mbw-prodnet-release.apk
+62abe33861761fb6679149d2049eb8ac10dcfed851def21649565a8dc6d7c08a797f789e4a22107641c7d39ca273dc682759e5fe217b1b3340cf5fef8fe576d4  btctestnet/release/mbw-btctestnet-release.apk
+79a7bfd3adf83f03162ca2b49470cf360f64c1b56c3e3473be8e6b7d1b7ba71710b19be3175a0abcec1db53982481de226b6d2af2a8c39af5777ea3bdb143a0d  prodnet/debug/mbw-prodnet-debug.apk
+475dbc82bfbf9767c06ba77cde559b8fa06f9e6f66afd72ae23f7849d3d8a5e3adce28ebf60a335113aabab8e08ced92707b9960555d062ae40202839cf171b4  btctestnet/debug/mbw-btctestnet-debug.apk
 ===== End Results =====
 ```
 
-With a diff in `classes3.dex` this product is **not verifiable** from its source
-code.
-
-The `diffoscope` output for `classes3.dex`:
-
-```
-├── classes3.dex
-│ ├── classes3.jar
-│ │ ├── zipinfo {}
-│ │ │ @@ -1,8 +1,8 @@
-│ │ │ -Zip file size: 16107502 bytes, number of entries: 7492
-│ │ │ +Zip file size: 16107503 bytes, number of entries: 7492
-│ │ │  ?rwxrwxr-x  2.0 unx      245 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/AddressType$Companion.class
-│ │ │  ?rwxrwxr-x  2.0 unx     1087 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/AddressType.class
-│ │ │  ?rwxrwxr-x  2.0 unx       81 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/Bech32$1.class
-│ │ │  ?rwxrwxr-x  2.0 unx      366 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/Bech32$Bech32Data.class
-│ │ │  ?rwxrwxr-x  2.0 unx      180 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/Bech32$Bech32Exception.class
-│ │ │  ?rwxrwxr-x  2.0 unx     3870 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/Bech32.class
-│ │ │  ?rwxrwxr-x  2.0 unx      649 b- stor 80-Jan-01 00:00 com/mrd/bitlib/model/BitcoinAddress$1.class
-│ │ │ @@ -7487,8 +7487,8 @@
-│ │ │  ?rwxrwxr-x  2.0 unx      689 b- stor 80-Jan-01 00:00 com/mycelium/wallet/activity/receive/ReceiveCoinsViewModel$init$1.class
-│ │ │  ?rwxrwxr-x  2.0 unx      698 b- stor 80-Jan-01 00:00 com/mycelium/wallet/activity/receive/ReceiveCoinsViewModel$isInitialized$1.class
-│ │ │  ?rwxrwxr-x  2.0 unx      698 b- stor 80-Jan-01 00:00 com/mycelium/wallet/activity/send/model/SendCoinsViewModel$isInitialized$1.class
-│ │ │  ?rwxrwxr-x  2.0 unx     1099 b- stor 80-Jan-01 00:00 com/mycelium/wapi/wallet/bch/bip44/Bip44BCHAccount.class
-│ │ │  ?rwxrwxr-x  2.0 unx     1292 b- stor 80-Jan-01 00:00 com/mycelium/wapi/wallet/bch/single/SingleAddressBCHAccount.class
-│ │ │  ?rwxrwxr-x  2.0 unx     5651 b- stor 80-Jan-01 00:00 com/mycelium/wapi/wallet/btc/bip44/HDAccountExternalSignature.class
-│ │ │  ?rwxrwxr-x  2.0 unx     1139 b- stor 80-Jan-01 00:00 com/mycelium/wapi/wallet/btc/bip44/HDPubOnlyAccount.class
-│ │ │ -7492 files, 17610442 bytes uncompressed, 14518228 bytes compressed:  17.6%
-│ │ │ +7492 files, 17610442 bytes uncompressed, 14518229 bytes compressed:  17.6%
-│ │ ├── com/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl.class
-│ │ │ ├── procyon -ec {}
-│ │ │ │ @@ -30,16 +30,16 @@
-│ │ │ │  
-│ │ │ │  public class FragmentChangelly2ExchangeBindingImpl extends FragmentChangelly2ExchangeBinding
-│ │ │ │  {
-│ │ │ │      private static final ViewDataBinding$IncludedLayouts sIncludes;
-│ │ │ │      private static final SparseIntArray sViewsWithIds;
-│ │ │ │      private ViewDataBinding$PropertyChangedInverseListener buyLayoutvalue;
-│ │ │ │      private long mDirtyFlags;
-│ │ │ │ -    private InverseBindingListener mOldEventValue2130743879;
-│ │ │ │ -    private InverseBindingListener mOldEventValue880387685;
-│ │ │ │ +    private InverseBindingListener mOldEventValue1158656703;
-│ │ │ │ +    private InverseBindingListener mOldEventValue881725763;
-│ │ │ │      private final FrameLayout mboundView0;
-│ │ │ │      private final ConstraintLayout mboundView1;
-│ │ │ │      private final TextView mboundView7;
-│ │ │ │      private ViewDataBinding$PropertyChangedInverseListener sellLayoutvalue;
-│ │ │ │      
-│ │ │ │      static {
-│ │ │ │          final ViewDataBinding$IncludedLayouts viewDataBinding$IncludedLayouts = sIncludes = new ViewDataBinding$IncludedLayouts(18);
-│ │ │ │ @@ -1067,17 +1067,17 @@
-│ │ │ │              }
-│ │ │ │              if ((mDirtyFlags & n3) != n30) {
-│ │ │ │                  this.buyLayout.setFiatValue(fiatValue2);
-│ │ │ │              }
-│ │ │ │              final long n32 = 0x4000000L & mDirtyFlags;
-│ │ │ │              if (n32 != n30) {
-│ │ │ │                  this.buyLayout.setPartLabel(this.getRoot().getResources().getString(2131951799));
-│ │ │ │ -                setBindingInverseListener((ViewDataBinding)this.buyLayout, this.mOldEventValue2130743879, this.buyLayoutvalue);
-│ │ │ │ +                setBindingInverseListener((ViewDataBinding)this.buyLayout, this.mOldEventValue1158656703, this.buyLayoutvalue);
-│ │ │ │                  this.sellLayout.setPartLabel(this.getRoot().getResources().getString(2131951800));
-│ │ │ │ -                setBindingInverseListener((ViewDataBinding)this.sellLayout, this.mOldEventValue880387685, this.sellLayoutvalue);
-│ │ │ │ +                setBindingInverseListener((ViewDataBinding)this.sellLayout, this.mOldEventValue881725763, this.sellLayoutvalue);
-│ │ │ │              }
-│ │ │ │              final long n33 = 0x5004000L & mDirtyFlags;
-│ │ │ │              final long n34 = 0L;
-│ │ │ │              if (n33 != n34) {
-│ │ │ │                  this.buyLayout.setValue(value2);
-│ │ │ │              }
-│ │ │ │              if ((0x5002000L & mDirtyFlags) != n34) {
-│ │ │ │ @@ -1128,16 +1128,16 @@
-│ │ │ │              if ((mDirtyFlags & 0x5800000L) != n36) {
-│ │ │ │                  this.swapAccount.setEnabled(enabled);
-│ │ │ │                  if (getBuildSdkInt() >= 11) {
-│ │ │ │                      this.swapAccount.setAlpha(alpha);
-│ │ │ │                  }
-│ │ │ │              }
-│ │ │ │              if (n32 != 0L) {
-│ │ │ │ -                this.mOldEventValue2130743879 = (InverseBindingListener)this.buyLayoutvalue;
-│ │ │ │ -                this.mOldEventValue880387685 = (InverseBindingListener)this.sellLayoutvalue;
-│ │ │ │ +                this.mOldEventValue1158656703 = (InverseBindingListener)this.buyLayoutvalue;
-│ │ │ │ +                this.mOldEventValue881725763 = (InverseBindingListener)this.sellLayoutvalue;
-│ │ │ │              }
-│ │ │ │              executeBindingsOn((ViewDataBinding)this.sellLayout);
-│ │ │ │              executeBindingsOn((ViewDataBinding)this.buyLayout);
-│ │ │ │          }
-│ │ │ │      }
-│ │ │ │      
-│ │ │ │      public boolean hasPendingBindings() {
-
-...
-
-├── smali_classes3/com/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl.smali
-│ @@ -10,17 +10,17 @@
-│  
-│  
-│  # instance fields
-│  .field private buyLayoutvalue:Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;
-│  
-│  .field private mDirtyFlags:J
-│  
-│ -.field private mOldEventValue2130743879:Landroidx/databinding/InverseBindingListener;
-│ +.field private mOldEventValue1158656703:Landroidx/databinding/InverseBindingListener;
-│  
-│ -.field private mOldEventValue880387685:Landroidx/databinding/InverseBindingListener;
-│ +.field private mOldEventValue881725763:Landroidx/databinding/InverseBindingListener;
-│  
-│  .field private final mboundView0:Landroid/widget/FrameLayout;
-│  
-│  .field private final mboundView1:Landroidx/constraintlayout/widget/ConstraintLayout;
-│  
-│  .field private final mboundView7:Landroid/widget/TextView;
-│  
-│ @@ -3076,15 +3076,15 @@
-│      move-result-object v10
-│  
-│      invoke-virtual {v4, v10}, Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;->setPartLabel(Ljava/lang/String;)V
-│  
-│      .line 989
-│      iget-object v4, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->buyLayout:Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;
-│  
-│ -    iget-object v10, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue2130743879:Landroidx/databinding/InverseBindingListener;
-│ +    iget-object v10, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue1158656703:Landroidx/databinding/InverseBindingListener;
-│  
-│      iget-object v11, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->buyLayoutvalue:Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;
-│  
-│      invoke-static {v4, v10, v11}, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->setBindingInverseListener(Landroidx/databinding/ViewDataBinding;Landroidx/databinding/InverseBindingListener;Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;)V
-│  
-│      .line 990
-│      iget-object v4, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->sellLayout:Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;
-│ @@ -3104,15 +3104,15 @@
-│      move-result-object v10
-│  
-│      invoke-virtual {v4, v10}, Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;->setPartLabel(Ljava/lang/String;)V
-│  
-│      .line 991
-│      iget-object v4, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->sellLayout:Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;
-│  
-│ -    iget-object v10, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue880387685:Landroidx/databinding/InverseBindingListener;
-│ +    iget-object v10, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue881725763:Landroidx/databinding/InverseBindingListener;
-│  
-│      iget-object v11, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->sellLayoutvalue:Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;
-│  
-│      invoke-static {v4, v10, v11}, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->setBindingInverseListener(Landroidx/databinding/ViewDataBinding;Landroidx/databinding/InverseBindingListener;Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;)V
-│  
-│      :cond_50
-│      const-wide/32 v10, 0x5004000
-│ @@ -3384,20 +3384,20 @@
-│      cmp-long v0, v7, v2
-│  
-│      if-eqz v0, :cond_60
-│  
-│      .line 1078
-│      iget-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->buyLayoutvalue:Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;
-│  
-│ -    iput-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue2130743879:Landroidx/databinding/InverseBindingListener;
-│ +    iput-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue1158656703:Landroidx/databinding/InverseBindingListener;
-│  
-│      .line 1079
-│      iget-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->sellLayoutvalue:Landroidx/databinding/ViewDataBinding$PropertyChangedInverseListener;
-│  
-│ -    iput-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue880387685:Landroidx/databinding/InverseBindingListener;
-│ +    iput-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->mOldEventValue881725763:Landroidx/databinding/InverseBindingListener;
-│  
-│      .line 1081
-│      :cond_60
-│      iget-object v0, v1, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->sellLayout:Lcom/mycelium/wallet/databinding/LayoutChangelly2CoinValueBinding;
-│  
-│      invoke-static {v0}, Lcom/mycelium/wallet/databinding/FragmentChangelly2ExchangeBindingImpl;->executeBindingsOn(Landroidx/databinding/ViewDataBinding;)V
-```
-
-The diff looks benign. Two geenrated variable names differ between the two
-binaries.
+This looks good. This product is **reproducible**.
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.
 
@@ -427,20 +266,3 @@ binaries.
 
 * [2021-04-01 by Emanuel Bronshtein for v3.8.9.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/197#note_543234399)
 * [2019-12-17 by Andreas Schildbach for v3.2.0.11](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566489272)
-
-Here we test if the latest version also can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}:
-
-```
-+ git clone --quiet --branch v3.16.0.13 --depth 1 https://github.com/mycelium-com/wallet-android app
-warning: Could not find remote branch v3.16.0.13 to clone.
-fatal: Remote branch v3.16.0.13 not found in upstream origin
-+ exit 1
-```
-
-This is not good. The current version on Play Store is `v3.16.0.13` yet the
-latest version
-[on their public repository is 3.16.0.8](https://github.com/mycelium-com/wallet-android/blame/master/mbw/build.gradle#L223)
-authored on 2022-07-27, more than three months ago!
-
-This wallet is **not verifiable**!
