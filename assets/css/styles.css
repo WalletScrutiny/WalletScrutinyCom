@@ -1312,12 +1312,13 @@ table tr td label {
 
 .app-payload-flex>div {
   display: grid;
-  grid-template: 1fr 1.2fr auto / 1fr;
+  grid-template: repeat(3, auto) / 1fr;
   max-width: 50vw;
   justify-items: center;
   padding: 10px 15px;
   align-items: center;
   margin-bottom: auto;
+  gap: 5px;
 }
 
 .app-payload-flex>div:not(.reproducible) {
@@ -1384,6 +1385,7 @@ table tr td label {
 
 .app-payload-flex>div>div * {
   font-size: 18px;
+  line-height: 20px;
 }
 
 .app-payload-flex>div>div a {
@@ -1396,6 +1398,7 @@ table tr td label {
   flex-direction: row;
   flex-wrap: wrap;
   color: var(--text);
+  justify-content: center;
 }
 
 .app-payload-flex>div>div a .fa-chevron-right {
@@ -1411,6 +1414,16 @@ table tr td label {
 
 .app-payload-flex>div>div img {
   height: 16px;
+}
+
+@media (max-width:700px) {
+  .app-payload-flex>div>div a {
+    color: var(--accent-text);
+  }
+  .app-payload-flex>div>div a .fa-chevron-right,
+  .app-payload-flex>div>div img {
+    display: none;
+  }
 }
 
 
