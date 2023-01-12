@@ -58,16 +58,6 @@ function recreateDropdowns(verdict, platform) {
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
 }
-function getIcon(name) {
-  let faCollection = ''
-  switch (name) {
-    case "android": faCollection = "fab fa-google-play"; break
-    case "iphone": faCollection = "fab fa-app-store"; break
-    case "hardware": faCollection = "fas fa-toolbox"; break
-    case "bearer": faCollection = "fab fa-bitcoin"; break
-  }
-  return faCollection
-}
 document.body.addEventListener("click", () => { document.querySelectorAll(".dropdown-options.opened").forEach((ele) => { ele.classList.remove("opened") }) })
 
 for (const target of ["verdict", "platform"]) {
