@@ -12,7 +12,7 @@ updated: 2022-03-19
 version: 1.26.0
 stars: 4.3
 ratings: 39950
-reviews: 2114
+reviews: 2118
 size: 
 website: https://www.Coinomi.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Qmall APP
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.qmall.exchange
 appCountry: 
 released: Dec 14, 2021

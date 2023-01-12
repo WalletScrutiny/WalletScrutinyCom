@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Quan2um Crypto Exchange
+title: Quan2um
 altTitle: 
 authors: 
 users: 1000

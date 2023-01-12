@@ -3,15 +3,15 @@ wsId:
 title: 'OneKey: Blockchain DeFi Wallet'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: so.onekey.app.wallet
 appCountry: 
 released: Apr 27, 2022
 updated: 2023-01-04
 version: 3.25.0
-stars: 5
+stars: 4.9
 ratings: 
-reviews: 36
+reviews: 37
 size: 
 website: https://onekey.so
 repository: 

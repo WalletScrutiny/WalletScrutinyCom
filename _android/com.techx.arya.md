@@ -8,11 +8,11 @@ users: 100000
 appId: com.techx.arya
 appCountry: us
 released: 2019-09-10
-updated: 2022-12-28
+updated: 2023-01-04
 version: 2.20.1
-stars: 3.8
+stars: 3.7
 ratings: 379
-reviews: 7
+reviews: 6
 size: 
 website: https://www.aryatrading.com
 repository: 

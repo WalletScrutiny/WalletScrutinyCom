@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: Quantfury – Honest Trading
+title: 'Quantfury: Trading Made Honest'
 altTitle: 
 authors:
 - danny

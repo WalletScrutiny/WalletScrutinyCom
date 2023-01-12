@@ -12,7 +12,7 @@ updated: 2023-01-03
 version: 4.3.3.0
 stars: 3.7
 ratings: 2500
-reviews: 297
+reviews: 298
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

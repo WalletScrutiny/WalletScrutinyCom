@@ -8,11 +8,11 @@ appId: io.klever.secure.exchange
 appCountry: us
 idd: 1553486059
 released: 2021-09-25
-updated: 2022-11-11
-version: 1.5.4
+updated: 2023-01-07
+version: 1.5.5
 stars: 4.7
 reviews: 53
-size: '121944064'
+size: '121762816'
 website: https://klever.io
 repository: 
 issue: 
