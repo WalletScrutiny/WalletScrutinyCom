@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div id="main" class="app-review" role="main">
-
+  {% if page.wsId %} 
+    <script>window.wsId="{{ page.wsId }}"</script> 
+  {% endif %}
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.altTitle | default: page.title }}">
     {% if page.excerpt %}
@@ -52,6 +54,9 @@ layout: default
           {% if page.meta != "ok" %}
             {% include verdictBadge.html verdict=page.meta type='medium' %}
           {% endif %}
+
+          {% assign v=site.data.verdicts[page.verdict]
+            %}<p class="verdict-message">{{ v.message }}</p>
 
           <div class="social-row">
             <ul>
@@ -161,8 +166,6 @@ layout: default
       </div>
 
       {% assign title = page.altTitle | default: page.title %}
-
-      <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
 
       {% include verdict_explained.html %}
       {% include /review/archive.html %}

@@ -444,6 +444,7 @@ pre.highlight code {
   justify-content: center;
   margin: 0 auto 150px auto;
 }
+
 @media (max-width:1200px) {
   .page-section {
     margin: 0 auto 80px auto;
@@ -1119,7 +1120,8 @@ table tr td label {
 .humanised-numbers .numb {
   margin-left: .5rem;
 }
-.secondary-text{
+
+.secondary-text {
   opacity: .5;
 }
 
@@ -1189,15 +1191,18 @@ table tr td label {
   color: var(--text);
   box-shadow: 0 0 0 1px var(--shadow-2);
 }
+
 .social-row a:hover {
   opacity: 1;
   background-color: var(--accent);
   color: var(--white);
   box-shadow: none;
 }
+
 .social-row a:active {
   opacity: .6;
 }
+
 .social-row a::after {
   content: attr(title);
 }
@@ -1208,27 +1213,34 @@ table tr td label {
   transition: none;
 }
 
-.social-row a.link-twitter:hover{
+.social-row a.link-twitter:hover {
   background-color: #00aeff;
 }
+
 .link-twitter:hover {
   color: #00aeff;
 }
-.social-row a.link-facebook:hover{
+
+.social-row a.link-facebook:hover {
   background-color: #0044ff;
 }
+
 .link-facebook:hover {
   color: #0044ff;
 }
-.social-row a.link-reddit:hover{
+
+.social-row a.link-reddit:hover {
   background-color: #ff7b00;
 }
+
 .link-reddit:hover {
   color: #ff7b00;
 }
-.social-row a.link-linkedin:hover{
+
+.social-row a.link-linkedin:hover {
   background-color: #003cff;
 }
+
 .link-linkedin:hover {
   color: #003cff;
 }
@@ -1289,7 +1301,7 @@ table tr td label {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
-  gap: 40px;
+  gap: 30px;
 }
 
 @media (max-width:500px) {
@@ -1300,11 +1312,17 @@ table tr td label {
 
 .app-payload-flex>div {
   display: grid;
-  grid-template: 1fr 2fr 1fr / 1fr;
+  grid-template: 1fr 1.2fr auto / 1fr;
   max-width: 50vw;
   justify-items: center;
-  padding: 20px;
+  padding: 10px 15px;
   align-items: center;
+  margin-bottom: auto;
+}
+
+.app-payload-flex>div:not(.reproducible) {
+  box-shadow: 0 0 60px -20px var(--shadow-2);
+  border-radius: 15px;
 }
 
 @media (max-width: 500px) {
@@ -1343,11 +1361,17 @@ table tr td label {
 .app-payload-flex>div>label {
   grid-column: 1/2;
   grid-row: 1/2;
-  font-size: .75rem;
+  font-size: 13px;
   font-weight: bold;
   cursor: unset;
   opacity: .5;
   color: var(--text);
+  margin-bottom: 0;
+}
+
+.app-payload-flex>div>label>i {
+  font-size: 10px;
+  transform: translateY(-2px);
 }
 
 .app-payload-flex .label-lower .secondary-text {
@@ -1359,14 +1383,42 @@ table tr td label {
 }
 
 .app-payload-flex>div>div * {
-  font-size: 1.2rem;
+  font-size: 18px;
 }
+
+.app-payload-flex>div>div a {
+  transform: translateY(-2px);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-decoration: none;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--text);
+}
+
+.app-payload-flex>div>div a .fa-chevron-right {
+  transform: translateX(-2px);
+}
+
+.app-payload-flex>div>div a:hover .fa-chevron-right {
+  transform: translateX(2px);
+}
+.app-payload-flex>div>div a:hover {
+  color: var(--accent-text);
+}
+
+.app-payload-flex>div>div img {
+  height: 16px;
+}
+
 
 .app-payload-flex>svg, .app-payload-flex>.svg {
   height: 100%;
-  width: 110px;
+  width: 100px;
   padding: 0;
-  max-height: 110px;
+  max-height: 100px;
   max-width: 50vw;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1376,10 +1428,11 @@ table tr td label {
 .svg.reproducible {
   background-image: var(--reproducible-badge);
   /* transform: rotate(-25deg); */
+  background-position: 50% 50%;
 }
 
 .app-payload-flex>div>span {
-  font-size: .75rem;
+  font-size: 13px;
 }
 
 /* SIDEBAR UI MOBILE */
@@ -1557,4 +1610,3 @@ html {
 .gridDonationCall {
   font-weight: bold;
 }
-
