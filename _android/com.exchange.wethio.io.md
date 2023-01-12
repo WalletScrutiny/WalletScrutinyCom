@@ -3,7 +3,7 @@ wsId:
 title: WethioX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.exchange.wethio.io
 appCountry: 
 released: Oct 21, 2021

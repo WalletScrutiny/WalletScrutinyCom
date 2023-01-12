@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'monerujo: Monero Wallet'
+title: Monerujo - Monero Wallet
 altTitle: 
 authors:
 - leo

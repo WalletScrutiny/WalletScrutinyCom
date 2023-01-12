@@ -15,7 +15,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://galoy.io/
+website: https://bbw.sv/
 repository: 
 issue: 
 icon: com.galoyapp.png

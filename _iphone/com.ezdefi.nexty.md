@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ezdefi.nexty.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-04-26
+date: 2023-01-12
 signer: 
 reviewArchive: 
 twitter: ezDeFi

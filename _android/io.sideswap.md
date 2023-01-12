@@ -3,7 +3,7 @@ wsId:
 title: SideSwap
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.sideswap
 appCountry: 
 released: 2021-03-09
@@ -19,7 +19,7 @@ issue:
 icon: io.sideswap.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-01-28
 signer: 
 reviewArchive: 

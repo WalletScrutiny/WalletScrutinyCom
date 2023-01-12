@@ -10,8 +10,8 @@ idd: 1363753409
 released: 2018-08-15
 updated: 2023-01-11
 version: '5.8'
-stars: 4.3
-reviews: 6
+stars: 4.2
+reviews: 5
 size: '106401792'
 website: https://bitcoinpoint.com
 repository: 

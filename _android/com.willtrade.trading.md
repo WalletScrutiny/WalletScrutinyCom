@@ -12,7 +12,7 @@ updated: 2022-12-22
 version: 1.2.2
 stars: 3.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: 
 repository: 

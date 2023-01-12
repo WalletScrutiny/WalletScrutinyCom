@@ -11,7 +11,7 @@ updated: 2019-06-19
 version: 1.0.3
 stars: 2.8
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://wc-s.com/wallet
 repository: 
