@@ -1,5 +1,5 @@
 let dateFields = document.querySelectorAll(".calculate-time-elapsed")
-for(i=0; i<dateFields.length; i++) {
+for (let i = 0; i < dateFields.length; i++) {
   let t = dateFields[i].getAttribute("data")
   dateFields[i].innerHTML = elapsedTime(t)
 }
@@ -13,7 +13,7 @@ function elapsedTime(ts) {
     week: dt / 7,
     day: dt
   }
-  for (k in options) {
+  for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
       return `${r} <span class="secondary-text">${k}${r > 1 ? "s" : ""}</span>`
@@ -26,38 +26,51 @@ function verdictBadge(v) {
 }
 
 function walletLink(w) {
-  return `<span class="wallet-link">
-<img
-  class="app_logo ${w.folder}"
-  src="/images/wIcons/${w.folder}/tiny/${w.icon}"
-  alt="Wallet Logo">
-<a href="${w.url}">${w.altTitle || w.title}</a>&nbsp;${verdictBadge(w.verdict)} </span>`
+  return `
+  <label>
+    <i class="${getIcon(w.folder)}"></i>&nbsp;Also for ${w.folder}
+  </label>
+  <div>
+    <a href="${w.url}">
+      <img class="app_logo ${w.folder}"
+      src="/images/wIcons/${w.folder}/tiny/${w.icon}"
+      alt="Wallet Logo">${w.altTitle || w.title}<i class="fas fa-chevron-right"></i></a>
+  </div>
+  <span>
+    <div class="stamps">
+      <span data-text="${w.verdict}" class="stamp stamp-${w.verdict}" alt=""></span>
+    </div>
+  </span>`
 }
 
-if (document.getElementById("versions").hasAttribute("wsId")) {
-  var cVId = document.getElementById("versions").getAttribute("wsID")
-  var folder = window.location.pathname.split("/")[1]
-  var html = ''
-  window.orderedObs.forEach(e => {
-    if (e.wsId === cVId) {
-      if (e.folder !== folder) {
-        html+= `${walletLink(e)}<br>`
-      } else if (e.versions) {
-        e.versions.forEach(v => {
-          html+= `${walletLink(v)}<br>`
+if (window.wsId) {
+  const folder = window.location.pathname.split("/")[1]
+
+  window.orderedObs.forEach(obj => {
+    let html = ''
+    if (obj.wsId === window.wsId) {
+      if (obj.folder !== folder) {
+        html += walletLink(obj)
+      } else if (obj.versions) {
+        obj.versions.forEach(v => {
+          html += walletLink(v)
         })
       }
     } else {
-      if (e.versions && Array.isArray(e.versions)) {
-        e.versions.forEach(v => {
-          if (v.wsId === cVId) {
-            html+= `${walletLink(v)}<br>`
+      if (obj.versions && Array.isArray(obj.versions)) {
+        obj.versions.forEach(version => {
+          if (version.wsId === window.wsId) {
+            html += walletLink(version)
           }
         })
       }
     }
+    if (html.length > 0) {
+      const htmlEle = document.createElement("div")
+      htmlEle.innerHTML = html
+      document.querySelector(".app-payload-flex").append(htmlEle)
+    }
   })
-  document.getElementById("versions").innerHTML = `See also ${html}`
 }
 
 // TAB VIEW
