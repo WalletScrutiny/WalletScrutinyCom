@@ -11,7 +11,7 @@ released: 2018-11-02
 updated: 2023-01-06
 version: 1.4.53
 stars: 4.1
-reviews: 36780
+reviews: 36823
 size: '108239872'
 website: http://www.paddle-inc.jp/
 repository: 

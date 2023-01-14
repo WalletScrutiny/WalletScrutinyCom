@@ -12,7 +12,7 @@ updated: 2023-01-12
 version: 3.4.7
 stars: 4.3
 ratings: 46866
-reviews: 362
+reviews: 363
 size: 
 website: https://vndc.io
 repository: 

@@ -10,9 +10,9 @@ appCountry: th
 released: 2020-09-29
 updated: 2023-01-09
 version: 2.6.7
-stars: 4.4
+stars: 4.3
 ratings: 5028
-reviews: 1916
+reviews: 1917
 size: 
 website: http://bitazza.com/
 repository: 

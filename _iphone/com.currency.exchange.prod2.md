@@ -8,11 +8,11 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2023-01-02
-version: 1.34.0
+updated: 2023-01-13
+version: 1.35.0
 stars: 4.8
-reviews: 3301
-size: '96167936'
+reviews: 3303
+size: '95840256'
 website: https://currency.com/
 repository: 
 issue: 
