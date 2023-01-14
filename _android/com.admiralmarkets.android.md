@@ -8,8 +8,8 @@ users: 100000
 appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
-updated: 2022-12-14
-version: 1.6.7
+updated: 2023-01-12
+version: 1.6.9
 stars: 3.9
 ratings: 
 reviews: 3

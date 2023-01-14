@@ -13,7 +13,7 @@ updated: 2022-12-29
 version: 1.9.23
 stars: 4.7
 ratings: 26
-reviews: 10
+reviews: 11
 size: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android

@@ -10,9 +10,9 @@ appCountry:
 released: 2014-09-10
 updated: 2023-01-04
 version: 4.5.4
-stars: 
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://www.coincorner.com
 repository: 

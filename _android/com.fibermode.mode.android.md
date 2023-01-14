@@ -8,11 +8,11 @@ users: 50000
 appId: com.fibermode.mode.android
 appCountry: gb
 released: 2021-02-11
-updated: 2023-01-03
-version: 3.0.6
+updated: 2023-01-12
+version: 3.0.8
 stars: 3.3
 ratings: 372
-reviews: 183
+reviews: 185
 size: 
 website: https://www.modeapp.com
 repository: 

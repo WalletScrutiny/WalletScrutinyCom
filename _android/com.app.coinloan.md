@@ -12,7 +12,7 @@ updated: 2022-12-28
 version: 1.7.4
 stars: 3.9
 ratings: 309
-reviews: 72
+reviews: 73
 size: 
 website: https://coinloan.io/
 repository: 

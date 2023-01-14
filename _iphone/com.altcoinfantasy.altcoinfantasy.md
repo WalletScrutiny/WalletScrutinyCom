@@ -10,8 +10,8 @@ idd: 1356209063
 released: 2018-03-14
 updated: 2020-02-06
 version: 2.1.3
-stars: 4.5
-reviews: 2
+stars: 3.3
+reviews: 3
 size: '87098368'
 website: https://altcoinfantasy.com
 repository: 

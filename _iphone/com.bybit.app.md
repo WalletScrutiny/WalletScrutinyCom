@@ -1,6 +1,6 @@
 ---
 wsId: bybit
-title: 'Bybit: Buy & Trade Crypto'
+title: Bybit:Buy Bitcoin,Trade Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2022-12-16
-version: 4.8.0
+updated: 2023-01-08
+version: 4.9.1
 stars: 3.9
-reviews: 728
-size: '295265280'
+reviews: 736
+size: '301784064'
 website: https://www.bybit.com
 repository: 
 issue: 

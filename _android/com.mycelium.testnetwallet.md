@@ -12,7 +12,7 @@ updated: 2022-12-29
 version: 3.16.0.15-TESTNET
 stars: 4.3
 ratings: 146
-reviews: 9
+reviews: 10
 size: 
 website: https://mycelium.com
 repository: 

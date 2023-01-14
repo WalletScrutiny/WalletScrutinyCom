@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-10-25
 updated: 2022-12-29
 version: 5.0.18
-stars: 4.7
+stars: 4.6
 ratings: 2781
-reviews: 508
+reviews: 509
 size: 
 website: https://hyperpay.tech
 repository: 
