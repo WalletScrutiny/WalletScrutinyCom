@@ -8,8 +8,8 @@ users: 50000
 appId: com.dowallet
 appCountry: 
 released: 2019-01-01
-updated: 2022-10-19
-version: 1.1.40
+updated: 2022-11-22
+version: 1.1.41
 stars: 4
 ratings: 883
 reviews: 91

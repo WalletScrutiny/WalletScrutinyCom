@@ -3,7 +3,7 @@ wsId:
 title: EPTA
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.application.myeazywallet
 appCountry: 
 released: Apr 1, 2021

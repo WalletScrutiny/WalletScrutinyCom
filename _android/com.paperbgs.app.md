@@ -3,7 +3,7 @@ wsId:
 title: PaperBGS
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.paperbgs.app
 appCountry: 
 released: Feb 4, 2021

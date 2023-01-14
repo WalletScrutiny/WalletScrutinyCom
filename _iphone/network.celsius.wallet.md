@@ -10,8 +10,8 @@ idd: 1387885523
 released: 2018-06-20
 updated: 2022-07-01
 version: v5.2.0
-stars: 3.5
-reviews: 2279
+stars: 3.3
+reviews: 2461
 size: '76317696'
 website: https://celsius.network/
 repository: 

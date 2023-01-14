@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: MOVO ON-DEMAND MOBILE BANKING
+title: MOVO - Send to Spend
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.movocash.movo
 appCountry: 
 released: Apr 1, 2021
-updated: 2022-09-28
-version: 4.2.3
-stars: 3.3
+updated: 2022-12-13
+version: 4.3.3
+stars: 3.4
 ratings: 
-reviews: 124
+reviews: 137
 size: 
 website: http://movo.cash
 repository: 

@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: Let’sBit · Tus criptos a mano
+title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors: 
 users: 10000
 appId: com.letsbit.app
 appCountry: 
 released: May 6, 2022
-updated: 2022-10-24
-version: v1.3.7
-stars: 
+updated: 2023-01-09
+version: v1.6.2
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://letsbit.io
 repository: 

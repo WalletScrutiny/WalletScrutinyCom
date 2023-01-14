@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: 'Phemex Bitcoin Wallet: BTC,ETH'
+title: 'Phemex: Crypto & BTC Trading'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2022-05-20
-version: 3.1.4
-stars: 4.4
-reviews: 1008
-size: '76015616'
+updated: 2022-10-30
+version: 3.4.2
+stars: 4.5
+reviews: 1429
+size: '82032640'
 website: https://phemex.com/
 repository: 
 issue: 

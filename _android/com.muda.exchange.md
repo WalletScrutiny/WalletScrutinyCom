@@ -3,11 +3,11 @@ wsId:
 title: MUDA
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.muda.exchange
 appCountry: 
 released: May 4, 2022
-updated: 2022-10-27
+updated: 2022-12-13
 version: '1.0'
 stars: 
 ratings: 

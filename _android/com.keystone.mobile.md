@@ -8,11 +8,11 @@ users: 1000
 appId: com.keystone.mobile
 appCountry: 
 released: 2021-06-01
-updated: 2022-08-26
-version: 1.1.2
+updated: 2022-12-21
+version: 1.2.2
 stars: 4.1
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://keyst.one/
 repository: 

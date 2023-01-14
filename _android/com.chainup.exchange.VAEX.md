@@ -3,7 +3,7 @@ wsId:
 title: VAEX
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.chainup.exchange.VAEX
 appCountry: 
 released: Feb 9, 2022

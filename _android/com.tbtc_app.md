@@ -7,8 +7,8 @@ users: 1000
 appId: com.tbtc_app
 appCountry: 
 released: Mar 17, 2022
-updated: 2022-10-10
-version: 0.1.22
+updated: 2022-12-08
+version: 0.1.24
 stars: 4.3
 ratings: 
 reviews: 6

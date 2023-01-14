@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: bit.com
+title: BIT
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2022-10-22
-version: 1.2.1
-stars: 4.6
+updated: 2023-01-07
+version: 1.3.2
+stars: 3.8
 ratings: 245
-reviews: 7
+reviews: 19
 size: 
 website: https://www.bit.com
 repository: 

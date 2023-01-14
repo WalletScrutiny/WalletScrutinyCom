@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: Tap - Buy & Sell Bitcoin Secur
+title: Tap - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.tapngo.tap
 appCountry: gb
 released: 2019-12-19
-updated: 2022-10-17
-version: 2.5.8
-stars: 4.5
+updated: 2022-12-20
+version: 2.6.4
+stars: 4.3
 ratings: 1735
-reviews: 113
+reviews: 133
 size: 
 website: https://tap.global
 repository: 

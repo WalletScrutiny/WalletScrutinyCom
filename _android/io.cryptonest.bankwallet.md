@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.cryptonest.bankwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

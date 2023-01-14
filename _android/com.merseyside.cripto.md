@@ -12,6 +12,7 @@ version: '1.34'
 stars: 3.4
 ratings: 
 reviews: 3
+size: 
 website: 
 repository: 
 issue: 

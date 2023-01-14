@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinlist.trade.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-10
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: coinlist

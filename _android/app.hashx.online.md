@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.hashx.online.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

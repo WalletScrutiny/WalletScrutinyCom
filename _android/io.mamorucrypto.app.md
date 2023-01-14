@@ -3,12 +3,12 @@ wsId:
 title: Mamoru
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.mamorucrypto.app
 appCountry: 
 released: 
-updated: 2022-10-24
-version: 1.0.19
+updated: 2023-01-13
+version: 1.0.33
 stars: 
 ratings: 
 reviews: 

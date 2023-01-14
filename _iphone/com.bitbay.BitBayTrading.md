@@ -10,8 +10,8 @@ idd: 1409644952
 released: 2018-11-20
 updated: 2022-06-23
 version: 1.4.5
-stars: 3.5
-reviews: 25
+stars: 3.6
+reviews: 27
 size: '65312768'
 website: https://zondaglobal.com
 repository: 

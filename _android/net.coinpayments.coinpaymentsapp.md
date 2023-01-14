@@ -10,9 +10,9 @@ appCountry:
 released: 2016-11-15
 updated: 2022-09-28
 version: VARY
-stars: 3.6
+stars: 3.7
 ratings: 2277
-reviews: 120
+reviews: 121
 size: 
 website: https://www.coinpayments.net/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitrah
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitrah.pos
 appCountry: 
 released: 2020-07-21
@@ -19,7 +19,7 @@ issue:
 icon: com.bitrah.pos.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-11-02
 signer: 
 reviewArchive: 

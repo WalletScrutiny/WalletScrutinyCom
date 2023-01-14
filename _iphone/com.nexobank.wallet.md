@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: 'Nexo: Buy BTC, ETH, SOL & AVAX'
+title: 'Nexo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2022-06-28
-version: 2.2.33
-stars: 3.6
-reviews: 867
-size: '57311232'
+updated: 2022-11-21
+version: 2.2.43
+stars: 3.8
+reviews: 1061
+size: '60554240'
 website: https://nexo.io
 repository: 
 issue: 

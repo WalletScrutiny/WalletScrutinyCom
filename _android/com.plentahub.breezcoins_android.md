@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Breezcoins: Cryptocurrency & Investment'
+title: 'Breezcoins: Cryptocurrency & I'
 altTitle: 
 authors: 
 users: 50

@@ -3,12 +3,12 @@ wsId:
 title: HotX
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.exchange.hotxapp
 appCountry: 
 released: Feb 27, 2022
-updated: 2022-10-30
-version: 1.0.20
+updated: 2022-12-23
+version: 1.0.26
 stars: 
 ratings: 
 reviews: 

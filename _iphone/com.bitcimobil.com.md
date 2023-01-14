@@ -11,16 +11,16 @@ released: '2019-04-17T02:30:04Z'
 updated: 2021-09-07
 version: 3.8.0
 stars: 4.3
-reviews: 1804
+reviews: 1753
 size: '52859904'
 website: https://www.bitci.com/
 repository: 
 issue: 
 icon: com.bitcimobil.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-06-28
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: bitcicom

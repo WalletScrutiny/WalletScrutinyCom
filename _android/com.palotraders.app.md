@@ -7,8 +7,8 @@ users: 100
 appId: com.palotraders.app
 appCountry: 
 released: 
-updated: 2022-06-06
-version: 1.1.77
+updated: 2023-01-05
+version: 1.1.93
 stars: 
 ratings: 
 reviews: 

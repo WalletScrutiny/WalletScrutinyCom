@@ -1,6 +1,6 @@
 ---
 wsId: gopax
-title: GOPAX
+title: 고팍스 - GOPAX
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: kr.co.gopax
 appCountry: kr
 idd: 1369896843
 released: 2018-06-21
-updated: 2022-06-27
-version: 1.9.4
-stars: 2.8
-reviews: 443
-size: '109593600'
+updated: 2023-01-11
+version: 2.1.7
+stars: 2.9
+reviews: 485
+size: '109426688'
 website: https://www.gopax.co.kr/notice
 repository: 
 issue: 

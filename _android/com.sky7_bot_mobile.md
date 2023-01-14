@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sky7_bot_mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: 

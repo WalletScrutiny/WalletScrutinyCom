@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: Biscoint - Bitcoin e Ethereum
+title: Biscoint agora é Bitybank
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: io.biscoint.lite
 appCountry: 
 released: Apr 5, 2022
-updated: 2022-11-02
-version: 1.5.4
-stars: 
+updated: 2023-01-10
+version: 2.0.14
+stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://biscoint.io
+website: https://biscoint.io/terms
 repository: 
 issue: 
 icon: io.biscoint.lite.png

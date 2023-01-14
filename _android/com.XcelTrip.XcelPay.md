@@ -1,6 +1,6 @@
 ---
 wsId: XcelPay
-title: XcelPay Crypto Bitcoin Wallet
+title: 'XcelPay: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: com.XcelTrip.XcelPay
 appCountry: 
 released: 2019-05-30
-updated: 2022-09-11
-version: 2.71.10
+updated: 2023-01-13
+version: 2.75.2
 stars: 4.6
 ratings: 3713
 reviews: 73

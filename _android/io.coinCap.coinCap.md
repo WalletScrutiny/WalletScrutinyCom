@@ -9,9 +9,9 @@ appCountry:
 released: Apr 26, 2016
 updated: 2021-10-11
 version: 3.1.33
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 357
+reviews: 359
 size: 
 website: http://coincap.io/
 repository: 

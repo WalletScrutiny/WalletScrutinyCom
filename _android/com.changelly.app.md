@@ -9,16 +9,16 @@ users: 100000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2022-10-17
-version: 2.8.7
+updated: 2022-12-29
+version: 3.1.1
 stars: 4.8
 ratings: 5008
-reviews: 1095
+reviews: 1205
 size: 
 website: https://changelly.com/
 repository: 
 issue: 
-icon: com.changelly.app.jpg
+icon: com.changelly.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet

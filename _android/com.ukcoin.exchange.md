@@ -3,7 +3,7 @@ wsId:
 title: UKCoin Exchange
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.ukcoin.exchange
 appCountry: 
 released: Jul 16, 2020

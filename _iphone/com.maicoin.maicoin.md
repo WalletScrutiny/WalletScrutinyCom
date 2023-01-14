@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.maicoin.maicoin.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-05
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: Max_exch

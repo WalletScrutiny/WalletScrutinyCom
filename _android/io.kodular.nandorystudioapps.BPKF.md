@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.kodular.nandorystudioapps.BPKF.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-05-06
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

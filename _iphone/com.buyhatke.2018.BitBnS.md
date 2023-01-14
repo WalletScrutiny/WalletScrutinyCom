@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitbns-Crypto Trading Exchange
+title: BNS-Crypto Trading Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076
 released: 2018-05-29
-updated: 2022-06-28
-version: 6.0.5
-stars: 3.3
-reviews: 750
-size: '49539072'
+updated: 2022-08-22
+version: 6.0.6
+stars: 3.2
+reviews: 816
+size: '48483328'
 website: https://bitbns.com
 repository: 
 issue: 

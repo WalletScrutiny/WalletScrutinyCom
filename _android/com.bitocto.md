@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitocto
 appCountry: 
 released: 2019-07-18
-updated: 2022-06-08
-version: '3.18'
+updated: 2022-11-30
+version: '3.22'
 stars: 5
 ratings: 1532
 reviews: 6

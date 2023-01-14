@@ -8,8 +8,8 @@ users: 10000
 appId: com.ocean.exchange
 appCountry: us
 released: 2019-07-04
-updated: 2021-10-21
-version: 1.4.24
+updated: 2022-11-06
+version: 1.4.26
 stars: 4.2
 ratings: 159
 reviews: 15
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ocean.exchange.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: OceanexOfficial

@@ -7,9 +7,9 @@ users: 1000
 appId: com.fincrypt.paybolt
 appCountry: 
 released: Apr 3, 2022
-updated: 2022-10-22
-version: 3.3.2
-stars: 5
+updated: 2022-11-17
+version: 3.4.0
+stars: 4.6
 ratings: 
 reviews: 5
 size: 

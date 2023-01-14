@@ -8,11 +8,11 @@ appId: mobiletradingpartners.lmax.exchange.iphone
 appCountry: hu
 idd: 884042608
 released: 2014-06-06
-updated: 2022-03-15
-version: 4.4.33
+updated: 2022-11-18
+version: 4.4.69
 stars: 0
 reviews: 0
-size: '129524736'
+size: '125380608'
 website: https://www.lmax.com/mobile
 repository: 
 issue: 

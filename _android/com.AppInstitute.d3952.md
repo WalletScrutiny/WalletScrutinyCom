@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.AppInstitute.d3952.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

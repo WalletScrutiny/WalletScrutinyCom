@@ -11,7 +11,7 @@ released: '2018-08-25T23:25:40Z'
 updated: 2022-01-26
 version: 3.0.5
 stars: 4.4
-reviews: 58
+reviews: 56
 size: '69942272'
 website: https://wallet.ecomi.com/
 repository: 

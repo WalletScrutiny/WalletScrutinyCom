@@ -12,7 +12,7 @@ updated: 2022-08-09
 version: 0.1.58
 stars: 3.6
 ratings: 771
-reviews: 34
+reviews: 35
 size: 
 website: https://www.localbitcoins.com
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.payplux
 appCountry: 
 released: 2020-01-22
-updated: 2022-07-29
-version: 1.1.84
+updated: 2022-11-02
+version: 1.1.85
 stars: 3.5
 ratings: 291
 reviews: 11
