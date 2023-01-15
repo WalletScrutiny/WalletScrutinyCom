@@ -169,12 +169,12 @@ layout: default
 
       {% include verdict_explained.html %}
       {% include /review/archive.html %}
-      {% include /review/tweetAtProvider.html %}
-      {% include /review/disclaimer.html %}
-      {% include /review/ownResearch.html %}
+      <!-- {% include /review/tweetAtProvider.html %} -->
+
       <h1 id="analysis">The Analysis&nbsp;<a href="#analysis" style="color:#ccc">&para;</a></h1>
 
       <section class="page__content" itemprop="text">
+        <p><i class="fas fa-exclamation-triangle"></i>&nbsp;This does not represent a full code review.</p>
         {{ content }}
         {% include /review/byAuthor.html %}
       </section>
@@ -191,6 +191,13 @@ layout: default
           </div>
         </div>
       {% endif %}
+
+      <div class="article-after">
+        <!-- <div>{% include /review/disclaimer.html %}</div> -->
+        <div>{% include /review/ownResearch.html %}</div>
+        
+        
+      </div>
     </div>
   </article>
 </div>

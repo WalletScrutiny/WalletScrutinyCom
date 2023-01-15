@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Is your Bitcoin wallet secure?"
-summary: "The aim of this project is to improve the security of Bitcoin wallets by examining products for transparency and potential attacks."
+summary: "This project examines wallet products for build transparency and potential vulnerabilities."
 excerpt: "Many wallets are not open to public scrutiny"
 author_profile: true
 ---
