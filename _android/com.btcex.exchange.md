@@ -11,7 +11,7 @@ updated: 2023-01-06
 version: 1.3.01
 stars: 4.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.btcex.com/
 repository: 

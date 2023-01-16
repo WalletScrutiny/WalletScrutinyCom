@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Rocket  Trade EX
+title: Rocket Trade EX
 altTitle: 
 authors: 
 users: 10000

@@ -9,7 +9,7 @@ appId: com.capital.trading
 appCountry: 
 released: 2017-10-18
 updated: 2023-01-13
-version: 1.54.0
+version: 1.55.0
 stars: 4.7
 ratings: 29536
 reviews: 17

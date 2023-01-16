@@ -11,7 +11,7 @@ updated: 2022-12-08
 version: 3.12.0
 stars: 4.6
 ratings: 6090
-reviews: 1538
+reviews: 1539
 size: 
 website: https://www.ledger.com
 repository: 

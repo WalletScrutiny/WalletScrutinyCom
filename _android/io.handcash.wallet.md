@@ -11,7 +11,7 @@ updated: 2022-12-02
 version: 4.6.4
 stars: 4.5
 ratings: 581
-reviews: 85
+reviews: 86
 size: 
 website: https://handcash.io
 repository: 

@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2022-12-20
 version: 3.1.5
 stars: 4.4
-reviews: 529
+reviews: 528
 size: '65037312'
 website: https://www.coinfield.com/company/pr
 repository: 

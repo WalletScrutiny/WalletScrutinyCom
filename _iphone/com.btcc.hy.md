@@ -10,8 +10,8 @@ idd: 1462880009
 released: 2019-05-11
 updated: 2023-01-11
 version: 7.0.0
-stars: 4.1
-reviews: 67
+stars: 4
+reviews: 68
 size: '243136512'
 website: https://www.btcc.com/en-US
 repository: 

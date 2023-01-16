@@ -3,7 +3,7 @@ wsId:
 title: Blockchain.com Exchange
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.blockchain.exchange
 appCountry: 
 released: Oct 27, 2021

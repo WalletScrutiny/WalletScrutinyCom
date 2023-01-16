@@ -12,7 +12,7 @@ updated: 2022-10-07
 version: 3.2.0
 stars: 1.9
 ratings: 187
-reviews: 46
+reviews: 47
 size: 
 website: https://www.zbg.com
 repository: 

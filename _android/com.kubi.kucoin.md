@@ -4,15 +4,15 @@ title: 'KuCoin: BTC, Crypto Exchange'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
 updated: 2023-01-10
-version: 3.74.0
+version: 3.75.0
 stars: 4.3
 ratings: 72555
-reviews: 4057
+reviews: 4059
 size: 
 website: https://www.kucoin.com
 repository: 

@@ -20,9 +20,9 @@ repository: https://github.com/btcontract/wallet
 issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: reproducible
-date: 2022-05-30
+date: 2023-01-16
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
 - date: 2022-01-31

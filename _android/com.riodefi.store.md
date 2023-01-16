@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-04-29
 updated: 2022-08-11
 version: 2.9.8
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://riodefi.com/
 repository: 
