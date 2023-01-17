@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trade.btctradelink.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2021-08-17
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

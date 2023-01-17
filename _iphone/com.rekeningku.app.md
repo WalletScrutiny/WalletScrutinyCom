@@ -1,6 +1,6 @@
 ---
 wsId: rekeningku
-title: Rekeningku.com
+title: Reku
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.rekeningku.app
 appCountry: us
 idd: 1458706382
 released: 2019-04-27
-updated: 2022-06-14
-version: 2.1.81
+updated: 2022-10-17
+version: 2.1.91
 stars: 4.7
-reviews: 26
-size: '55647232'
-website: https://www.rekeningku.com
+reviews: 30
+size: '55745536'
+website: https://www.reku.id/
 repository: 
 issue: 
 icon: com.rekeningku.app.jpg

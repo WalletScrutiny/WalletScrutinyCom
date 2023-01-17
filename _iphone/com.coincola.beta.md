@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-24
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: CoinCola_Global

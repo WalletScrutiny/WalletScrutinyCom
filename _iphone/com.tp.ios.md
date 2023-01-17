@@ -18,9 +18,9 @@ repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: obfuscated
-date: 2022-01-09
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: TokenPocket_TP

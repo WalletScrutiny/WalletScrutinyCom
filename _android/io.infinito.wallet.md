@@ -12,7 +12,7 @@ updated: 2022-09-06
 version: 2.36.16
 stars: 3.8
 ratings: 2198
-reviews: 108
+reviews: 107
 size: 
 website: https://www.infinitowallet.io
 repository: 

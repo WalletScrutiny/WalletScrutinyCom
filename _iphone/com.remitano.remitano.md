@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.remitano.remitano.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-01-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: remitano

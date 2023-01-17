@@ -41,12 +41,13 @@ function downloadImageFile (url, iconPath, callback) {
   })
 }
 
-function addReviewArchive (reviewArchive, header) {
+function addReviewArchive (header) {
   // don't archive undefined or pseudo verdicts
-  if (header.verdict === undefined || 'wip,fewusers,stale,obsolete'.includes(header.verdict)) {
+  if (header.verdict === undefined || 'wip,fewusers,stale,obsolete,defunct'.includes(header.verdict)) {
     return
   }
-  reviewArchive.unshift({
+  header.reviewArchive = header.reviewArchive || []
+  header.reviewArchive.unshift({
     date: header.date,
     version: header.version,
     appHash: '',

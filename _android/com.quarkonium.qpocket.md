@@ -8,8 +8,8 @@ users: 10000
 appId: com.quarkonium.qpocket
 appCountry: us
 released: 2019-07-22
-updated: 2022-10-09
-version: 5.4.4
+updated: 2022-12-22
+version: 5.5.0
 stars: 
 ratings: 
 reviews: 

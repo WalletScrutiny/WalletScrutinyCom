@@ -3,7 +3,7 @@ wsId:
 title: All Crypto Trading Bot
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.botcrypto.finance.mygreatapp
 appCountry: 
 released: Mar 22, 2022

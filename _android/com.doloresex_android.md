@@ -3,7 +3,7 @@ wsId:
 title: IX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.doloresex_android
 appCountry: 
 released: May 6, 2019

@@ -9,13 +9,13 @@ users: 50000
 appId: com.blockchain.explorer
 appCountry: 
 released: 2019-12-30
-updated: 2022-03-26
-version: 1.2.0.6
+updated: 2022-12-01
+version: 1.2.0.7
 stars: 4.5
 ratings: 409
-reviews: 30
+reviews: 32
 size: 
-website: https://adslab-2b1c2.web.app
+website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.explorer.png

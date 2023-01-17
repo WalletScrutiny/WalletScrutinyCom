@@ -3,15 +3,15 @@ wsId:
 title: Overline
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.overline
 appCountry: 
 released: Sep 9, 2021
 updated: 2021-09-16
 version: '1.1'
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://overline.network
 repository: 

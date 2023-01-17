@@ -11,7 +11,7 @@ updated: 2021-11-01
 version: '2'
 stars: 2.9
 ratings: 
-reviews: 36
+reviews: 42
 size: 
 website: https://swapitway.com
 repository: 

@@ -3,12 +3,12 @@ wsId:
 title: 'CryptoXpress: Crypto Made Easy'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: Sep 20, 2021
-updated: 2022-04-22
-version: 1.0.1-beta.3
+updated: 2022-12-27
+version: 1.0.1-beta.6
 stars: 
 ratings: 
 reviews: 

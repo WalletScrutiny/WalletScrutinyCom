@@ -9,13 +9,13 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2022-10-17
-version: 2.0.51
+updated: 2022-12-22
+version: 2.0.64
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://galoy.io/
+website: https://bbw.sv/
 repository: 
 issue: 
 icon: com.galoyapp.png

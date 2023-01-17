@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.a60sek.a60cekorg.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-12-18
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

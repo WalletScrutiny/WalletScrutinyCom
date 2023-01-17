@@ -8,11 +8,11 @@ appId: com.rootone.bitberry
 appCountry: us
 idd: 1411817291
 released: 2018-10-09
-updated: 2022-02-18
-version: 1.3.8
+updated: 2022-12-28
+version: 1.4.0
 stars: 4.1
 reviews: 7
-size: '70423552'
+size: '89567232'
 website: http://bitberry.app
 repository: 
 issue: 

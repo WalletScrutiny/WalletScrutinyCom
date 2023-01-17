@@ -3,7 +3,7 @@ wsId:
 title: Crypto Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.ubrain.cryptowallet
 appCountry: 
 released: Apr 22, 2022

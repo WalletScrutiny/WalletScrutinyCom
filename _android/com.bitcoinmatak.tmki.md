@@ -3,7 +3,7 @@ wsId:
 title: Boin
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bitcoinmatak.tmki
 appCountry: 
 released: Apr 27, 2022
@@ -11,7 +11,7 @@ updated: 2022-06-22
 version: '4.8'
 stars: 5
 ratings: 
-reviews: 70
+reviews: 66
 size: 
 website: 
 repository: 

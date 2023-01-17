@@ -10,9 +10,9 @@ appCountry: KR
 released: Aug 11, 2019
 updated: 2022-08-30
 version: 4.4.0
-stars: 4.5
+stars: 4
 ratings: 
-reviews: 12
+reviews: 1550
 size: 
 website: http://www.bananatok.com
 repository: 

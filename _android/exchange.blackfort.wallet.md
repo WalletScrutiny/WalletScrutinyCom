@@ -10,9 +10,9 @@ appCountry: ee
 released: 2020-08-31
 updated: 2021-10-27
 version: 1.3.18
-stars: 4.1
+stars: 4.2
 ratings: 64
-reviews: 42
+reviews: 43
 size: 
 website: https://blackfort.exchange
 repository: 

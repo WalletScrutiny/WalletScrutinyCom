@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unicornx.exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-08-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

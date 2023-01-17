@@ -11,16 +11,16 @@ released: 2020-02-12
 updated: 2021-12-29
 version: '2.10'
 stars: 4.5
-reviews: 74
+reviews: 75
 size: '176444416'
 website: https://www.beaxy.com/
 repository: 
 issue: 
 icon: com.beaxy.cryptoexchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-07
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: BeaxyExchange

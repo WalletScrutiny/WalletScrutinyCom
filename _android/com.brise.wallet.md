@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.brise.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2022-01-09
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,19 +7,19 @@ appId: com.satpile.app
 appCountry: 
 idd: 1510284403
 released: 2020-05-20
-updated: 2021-01-25
-version: 1.6.6
+updated: 2022-12-19
+version: 1.7.3
 stars: 4
 reviews: 4
-size: '25571328'
+size: '19050496'
 website: http://satpile.com
 repository: 
 issue: 
 icon: com.satpile.app.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-01-23
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: 

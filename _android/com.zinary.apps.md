@@ -3,11 +3,11 @@ wsId:
 title: Zinary
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.zinary.apps
 appCountry: 
 released: 
-updated: 2022-10-20
+updated: 2023-01-13
 version: VARY
 stars: 
 ratings: 
