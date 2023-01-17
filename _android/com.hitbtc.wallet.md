@@ -1,6 +1,6 @@
 ---
 wsId: HitBTCWallet
-title: HitBTC Crypto Сoin Wallet
+title: HitBTC Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -17,7 +17,7 @@ size:
 website: https://hitbtc.com/wallet
 repository: 
 issue: 
-icon: com.hitbtc.wallet.jpg
+icon: com.hitbtc.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial

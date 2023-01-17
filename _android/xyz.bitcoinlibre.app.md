@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-09-20
 updated: 2023-01-11
 version: 3.2.7
-stars: 4.2
+stars: 4.3
 ratings: 2887
-reviews: 132
+reviews: 131
 size: 
 website: https://www.bitcoinlibre.io
 repository: 

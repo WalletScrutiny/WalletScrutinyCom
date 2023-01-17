@@ -10,8 +10,8 @@ idd: 1476827262
 released: 2019-10-15
 updated: 2022-12-13
 version: 2.3.30
-stars: 4.9
-reviews: 7
+stars: 4.8
+reviews: 6
 size: '30492672'
 website: https://bips.moneybrain.com
 repository: 

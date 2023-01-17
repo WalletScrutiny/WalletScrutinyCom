@@ -12,7 +12,7 @@ updated: 2023-01-07
 version: 3.1.0 'Fluorine Fermi'
 stars: 3.2
 ratings: 821
-reviews: 168
+reviews: 169
 size: 
 website: https://monerujo.io/
 repository: 

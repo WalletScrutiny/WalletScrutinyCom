@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: خرید و فروش رمزارز - ایکس نوین
+title: فروش و خرید رمزارز - ایکس نوین
 altTitle: 
 authors:
 - danny

@@ -9,10 +9,10 @@ appId: com.blockfi.mobile
 appCountry: 
 released: 2020-04-30
 updated: 2023-01-10
-version: 5.11.4
+version: 5.11.5
 stars: 2.7
 ratings: 4802
-reviews: 1507
+reviews: 1509
 size: 
 website: https://blockfi.com/
 repository: 

@@ -9,11 +9,11 @@ appId: com.coinhako.app
 appCountry: 
 idd: 1137855704
 released: 2016-09-04
-updated: 2022-12-28
-version: 4.6.9
+updated: 2023-01-16
+version: 4.6.11
 stars: 4.1
 reviews: 28
-size: '113122304'
+size: '178479104'
 website: https://www.coinhako.com
 repository: 
 issue: 

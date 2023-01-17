@@ -4,7 +4,7 @@ title: BitGate
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.bitgate.flutter
 appCountry: 
 released: 

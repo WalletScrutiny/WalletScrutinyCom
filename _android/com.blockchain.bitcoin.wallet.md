@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 729
 reviews: 57
 size: 
-website: https://adslab-2b1c2.web.app
+website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png

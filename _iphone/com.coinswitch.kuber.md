@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2023-01-15
 version: 4.4.1
 stars: 4.5
-reviews: 45712
+reviews: 45763
 size: '105396224'
 website: https://coinswitch.co/in
 repository: 

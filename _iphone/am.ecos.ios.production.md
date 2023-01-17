@@ -10,8 +10,8 @@ idd: 1528964374
 released: 2020-11-25
 updated: 2022-12-30
 version: 1.30.5
-stars: 3.8
-reviews: 139
+stars: 3.5
+reviews: 121
 size: '84228096'
 website: https://ecos.am/
 repository: 

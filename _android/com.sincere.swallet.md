@@ -9,14 +9,14 @@ appCountry:
 released: Apr 11, 2022
 updated: 2023-01-02
 version: 2.0.0
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://s-wallet.ai
 repository: 
 issue: 
-icon: com.sincere.swallet.png
+icon: com.sincere.swallet.jpg
 bugbounty: 
 meta: ok
 verdict: wip

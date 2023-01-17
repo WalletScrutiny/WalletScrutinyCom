@@ -8,8 +8,8 @@ appId: com.gmo.exchange
 appCountry: th
 idd: 1525862502
 released: 2020-08-09
-updated: 2023-01-15
-version: 2.0.4
+updated: 2023-01-17
+version: 2.0.5
 stars: 3.7
 reviews: 25
 size: '77768704'
