@@ -19,8 +19,8 @@ issue:
 icon: one.citadel.mobile.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-01
+verdict: nosource
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: CitadelDAO

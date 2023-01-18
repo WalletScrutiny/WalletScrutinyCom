@@ -20,7 +20,7 @@ issue:
 icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
 meta: ok
-verdict: nobtc
+verdict: nowallet
 date: 2022-12-08
 signer: 
 reviewArchive: 

@@ -19,8 +19,8 @@ issue:
 icon: com.ennowallet.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-07-08
+verdict: nobtc
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: ennowallet

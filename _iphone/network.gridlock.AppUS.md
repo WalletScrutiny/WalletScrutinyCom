@@ -7,7 +7,7 @@ authors:
 appId: network.gridlock.AppUS
 appCountry: us
 idd: '1567057330'
-released: '2021-06-07T07:00:00Z'
+released: '2021-06-07'
 updated: 2022-06-30
 version: 1.3.20
 stars: 4.7
@@ -19,8 +19,8 @@ issue:
 icon: network.gridlock.AppUS.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-07-01
+verdict: nobtc
+date: 2022-12-08
 signer: 
 reviewArchive: 
 twitter: GridlockCrypto

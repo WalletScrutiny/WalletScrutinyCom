@@ -51,4 +51,4 @@ In the same page:
 > Logos will store private key using secure enclave and security
 keystore provided by platforms from iOS and Android.
 
-DV Wallet's code is not up for review and there's nothing on the website on how to backup/restore a wallet. It does not look as though the user holds the keys. As such, we conclude that this app is **custodial.**
+DV Wallet's code is not up for review and there's nothing on the website on how to backup/restore a wallet. While the provider does claim that private keys will store private keys protected by mobile phone features, the fact that transactions between {{ page.title }}'s users are advertised as free strongly hints to this product being **custodial** as else, Bitcoin transactions would cost at least a small fee always.
