@@ -20,7 +20,7 @@ issue:
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2022-12-08
 signer: 
 reviewArchive: 

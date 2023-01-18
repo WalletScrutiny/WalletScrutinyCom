@@ -20,7 +20,7 @@ issue:
 icon: com.finq.android.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: nosendreceive
 date: 2022-07-11
 signer: 
 reviewArchive: 
@@ -49,6 +49,6 @@ Finq.com charges no commission on trades.
 >
 Trading CFDs (Contract for Difference) has never been more popular as a preferred method of investment. You don’t have to buy a share or a Bitcoin or a gold bar, instead you trade on the underlying asset as it moves up and down in the market.
 
-This platform only allows trading cryptocurrencies via CFDs. Thus, **no bitcoin wallet** is created. Deposits and withdrawals are in fiat. 
+This platform only allows getting exposure to Bitcoin and cryptocurrencies but **not to send or receive bitcoins**. Deposits and withdrawals are in fiat. 
 
 The types of trading accounts are listed on this [page.](https://www.finq.com/en/trading-accounts)

@@ -1,12 +1,12 @@
 ---
-wsId: 
+wsId: CAPITALIKA
 title: Capitalika
 altTitle: 
 authors: 
 appId: com.capitalika.exchange
 appCountry: ec
 idd: '1570799130'
-released: '2021-10-04T07:00:00Z'
+released: '2021-10-04'
 updated: 2022-06-08
 version: 1.0.9
 stars: 4.6
@@ -18,7 +18,7 @@ issue:
 icon: com.capitalika.exchange.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2022-07-14
 signer: 
 reviewArchive: 
@@ -27,3 +27,4 @@ social:
 
 ---
 
+{% include copyFromAndroid.html %}

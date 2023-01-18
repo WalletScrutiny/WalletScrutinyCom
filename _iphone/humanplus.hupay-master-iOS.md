@@ -19,7 +19,7 @@ issue:
 icon: humanplus.hupay-master-iOS.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2022-07-14
 signer: 
 reviewArchive: 
