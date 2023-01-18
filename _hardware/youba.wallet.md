@@ -1,5 +1,5 @@
 ---
-title: "Youba Wallet"
+title: Youba Wallet
 appId: youba.wallet
 authors:
 - danny
@@ -18,7 +18,7 @@ country: DE
 price: 
 repository: 
 issue: 
-icon: youba.png
+icon: youba.wallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: yooba_io
 social: 
+
 ---
 
 ## Product Description 
