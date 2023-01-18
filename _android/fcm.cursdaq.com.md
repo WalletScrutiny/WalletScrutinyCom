@@ -3,7 +3,7 @@ wsId:
 title: Cursdaq
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: fcm.cursdaq.com
 appCountry: 
 released: Aug 1, 2021

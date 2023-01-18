@@ -10,8 +10,8 @@ idd: 1479400295
 released: 2021-09-15
 updated: 2021-09-16
 version: 1.0.0
-stars: 1
-reviews: 1
+stars: 0
+reviews: 0
 size: '12212224'
 website: http://www.bekonta.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Etor Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.etorexchange
 appCountry: 
 released: Apr 26, 2022

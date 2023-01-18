@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kozwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 

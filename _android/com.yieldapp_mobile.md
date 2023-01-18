@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Yield App
+title: Yield App - Earn on Crypto
 altTitle: 
 authors: 
 users: 5000
 appId: com.yieldapp_mobile
 appCountry: 
 released: Jun 10, 2022
-updated: 2022-09-27
-version: '22.0927'
+updated: 2023-01-14
+version: '23.0114'
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: https://www.yield.app
 repository: 
 issue: 
-icon: com.yieldapp_mobile.png
+icon: com.yieldapp_mobile.jpg
 bugbounty: 
 meta: ok
 verdict: wip

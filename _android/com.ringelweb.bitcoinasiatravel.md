@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 date: 2022-12-08
 signer: 

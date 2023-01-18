@@ -3,7 +3,7 @@ wsId:
 title: 'Vimepay : Peer To Peer Escrow'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.vimepay
 appCountry: 
 released: Sep 18, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vimepay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

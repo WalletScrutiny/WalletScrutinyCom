@@ -7,8 +7,8 @@ users: 100
 appId: com.defixwallet
 appCountry: 
 released: 2021-09-22
-updated: 2022-03-10
-version: '1.5'
+updated: 2022-12-12
+version: '2.1'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defixwallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-10-18
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 

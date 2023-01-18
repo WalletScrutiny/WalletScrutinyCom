@@ -1,6 +1,6 @@
 ---
 wsId: goabra
-title: 'Abra: Buy Bitcoin & Earn Yield'
+title: 'Abra: Buy & Trade BTC & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.goabra.abra
 appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2022-06-20
-version: 124.0.0
+updated: 2022-12-27
+version: 135.0.0
 stars: 4.6
-reviews: 18411
-size: '122798080'
+reviews: 18577
+size: '218830848'
 website: 
 repository: 
 issue: 

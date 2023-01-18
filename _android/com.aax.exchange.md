@@ -10,9 +10,9 @@ appCountry:
 released: 2019-03-04
 updated: 2022-10-31
 version: 3.3.7
-stars: 4.2
+stars: 4
 ratings: 3299
-reviews: 87
+reviews: 91
 size: 
 website: https://www.aax.com/
 repository: 

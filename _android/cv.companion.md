@@ -3,7 +3,7 @@ wsId:
 title: QR Watch-Only Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: cv.companion
 appCountry: 
 released: Sep 1, 2021

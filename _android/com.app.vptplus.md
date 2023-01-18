@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: SendAM Xchange
+title: SendAM
 altTitle: 
 authors: 
 users: 1000
 appId: com.app.vptplus
 appCountry: 
 released: Sep 2, 2020
-updated: 2022-04-25
-version: '1.0'
+updated: 2022-11-09
+version: '4.0'
 stars: 
 ratings: 
 reviews: 

@@ -7,11 +7,11 @@ users: 1000
 appId: com.thoryield.androidapp
 appCountry: 
 released: Mar 30, 2022
-updated: 2022-10-17
-version: 2.0.16
-stars: 4.8
+updated: 2022-12-29
+version: 2.0.26
+stars: 4.7
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://thoryield.com
 repository: 

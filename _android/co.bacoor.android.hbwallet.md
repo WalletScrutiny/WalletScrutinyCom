@@ -12,7 +12,7 @@ updated: 2022-06-13
 version: 3.6.0
 stars: 4.5
 ratings: 2137
-reviews: 48
+reviews: 47
 size: 
 website: https://www.hb-wallet.com/
 repository: 

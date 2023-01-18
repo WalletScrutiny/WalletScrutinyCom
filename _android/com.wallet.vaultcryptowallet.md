@@ -8,11 +8,11 @@ users: 1000
 appId: com.wallet.vaultcryptowallet
 appCountry: 
 released: 2021-08-18
-updated: 2022-05-02
-version: 1.0.8
-stars: 4.5
+updated: 2022-11-10
+version: 1.1.5
+stars: 4.1
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://bitcoinpay.com.co/contact.php
 repository: 

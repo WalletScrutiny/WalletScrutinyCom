@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.smartholdem.client.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-11-16
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

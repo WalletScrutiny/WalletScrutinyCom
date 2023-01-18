@@ -3,15 +3,15 @@ wsId:
 title: BitForex
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.bitforex.bitforex
 appCountry: 
 released: Mar 17, 2022
-updated: 2022-10-20
-version: 3.1.9
+updated: 2022-12-16
+version: 3.2.4
 stars: 5
 ratings: 
-reviews: 77
+reviews: 78
 size: 
 website: https://www.bitforex.com
 repository: 

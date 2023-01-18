@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: engineering.lightning.LightningApp.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-01-28
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

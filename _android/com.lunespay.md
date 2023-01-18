@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'LunesPay: Pagamentos Via QR Code, Compre Bitcoin!'
+title: 'LunesPay: Pagamentos Via QR Co'
 altTitle: 
 authors:
 - danny

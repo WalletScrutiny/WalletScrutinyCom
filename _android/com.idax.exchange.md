@@ -12,6 +12,7 @@ version: 5.5.0_push_v2
 stars: 3.3
 ratings: 
 reviews: 5
+size: 
 website: https://www.idax.exchange
 repository: 
 issue: 

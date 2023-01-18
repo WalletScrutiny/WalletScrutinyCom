@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.wallet.pro.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-19
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: io_wallet

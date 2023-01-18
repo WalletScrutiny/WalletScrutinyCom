@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: خرید و فروش رمزارز - ایکس نوین
+title: فروش و خرید رمزارز - ایکس نوین
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.exnovin
 appCountry: 
 released: 2018-07-06
-updated: 2022-10-07
-version: 1.0.15
+updated: 2022-11-30
+version: 1.0.17
 stars: 4.1
 ratings: 2380
-reviews: 63
+reviews: 65
 size: 
 website: https://exnovin.net
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bicool.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

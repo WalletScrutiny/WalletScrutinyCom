@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: StandardSats SBW
+title: Valet
 altTitle: 
 authors: 
 users: 50
 appId: com.btcontract.walletfiat
 appCountry: 
 released: 
-updated: 2022-09-20
+updated: 2022-11-06
 version: VARY
 stars: 
 ratings: 

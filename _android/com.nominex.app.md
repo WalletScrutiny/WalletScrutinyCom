@@ -12,16 +12,16 @@ updated: 2021-12-13
 version: 1.4.0
 stars: 3.7
 ratings: 173
-reviews: 36
+reviews: 37
 size: 
 website: https://nominex.io/defi-nmx
 repository: 
 issue: 
 icon: com.nominex.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-18
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: NominexExchange

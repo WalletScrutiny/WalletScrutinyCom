@@ -8,11 +8,11 @@ appId: com.rinnas.ajGlobal
 appCountry: us
 idd: 1519859460
 released: 2020-09-08
-updated: 2022-08-01
-version: 1.0.16
+updated: 2023-01-06
+version: 1.0.18
 stars: 3.1
-reviews: 29
-size: '48560128'
+reviews: 33
+size: '56373248'
 website: https://ajglobalv.com/
 repository: 
 issue: 

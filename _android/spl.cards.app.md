@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: spl.cards.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

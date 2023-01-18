@@ -1,6 +1,6 @@
 ---
 wsId: flitpay
-title: Flitpay - Bitcoin,Crypto Tradi
+title: 'Flitpay: Crypto Trading App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.core.app.flitpay
 appCountry: dk
 released: 2017-05-17
-updated: 2022-07-16
-version: 1.0.38
-stars: 3.9
+updated: 2022-12-16
+version: 1.0.41
+stars: 4.9
 ratings: 2217
-reviews: 2023
+reviews: 3065
 size: 
 website: https://www.flitpay.com/
 repository: 

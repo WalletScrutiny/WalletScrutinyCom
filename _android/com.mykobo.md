@@ -3,12 +3,12 @@ wsId:
 title: MYKOBO
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mykobo
 appCountry: 
 released: 2020-10-29
-updated: 2022-06-29
-version: 2.0.7
+updated: 2022-11-16
+version: 2.0.8
 stars: 
 ratings: 
 reviews: 

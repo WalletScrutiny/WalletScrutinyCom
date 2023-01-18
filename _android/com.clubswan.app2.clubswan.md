@@ -3,7 +3,7 @@ wsId:
 title: 'Club Swan: Lifestyle & Finance'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.clubswan.app2.clubswan
 appCountry: 
 released: Oct 12, 2021
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.clubswan.app2.clubswan.jpg
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2022-06-22
+meta: stale
+verdict: wip
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

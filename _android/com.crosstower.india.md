@@ -1,6 +1,6 @@
 ---
 wsId: crossTowerIn
-title: 'CrossTower: Trade Crypto & NFT'
+title: CrossTower
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.crosstower.india
 appCountry: 
 released: Sep 8, 2021
-updated: 2022-10-20
-version: '3.24'
-stars: 4.3
+updated: 2022-12-02
+version: '3.26'
+stars: 3.9
 ratings: 
-reviews: 1
+reviews: 2
 size: 
-website: https://www.crosstower.in
+website: https://www.crosstower.com
 repository: 
 issue: 
 icon: com.crosstower.india.png

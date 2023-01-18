@@ -12,7 +12,7 @@ updated: 2021-10-07
 version: 2.20.0
 stars: 4.2
 ratings: 1655
-reviews: 1239
+reviews: 1240
 size: 
 website: https://www.zeux.com
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04
-updated: 2022-07-29
-version: 2.13.0
+updated: 2023-01-11
+version: 2.15.0
 stars: 4.4
 ratings: 336
 reviews: 10

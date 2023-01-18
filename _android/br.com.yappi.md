@@ -7,8 +7,8 @@ users: 10000
 appId: br.com.yappi
 appCountry: 
 released: Feb 2, 2021
-updated: 2022-07-28
-version: 1.2.0
+updated: 2022-11-12
+version: 1.2.1
 stars: 3.8
 ratings: 
 reviews: 3

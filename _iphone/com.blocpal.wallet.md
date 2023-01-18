@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blocpal.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-01-20
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

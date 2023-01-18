@@ -9,9 +9,9 @@ appCountry:
 released: Jun 15, 2019
 updated: 2020-03-18
 version: 2.4.9
-stars: 
+stars: 1
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://cryptonex.org/
 repository: 

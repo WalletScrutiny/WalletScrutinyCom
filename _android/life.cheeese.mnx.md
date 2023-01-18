@@ -4,7 +4,7 @@ title: チーズ - ビットコインがもらえる仮想通貨ポイ活アプ�
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: life.cheeese.mnx
 appCountry: 
 released: Mar 22, 2019

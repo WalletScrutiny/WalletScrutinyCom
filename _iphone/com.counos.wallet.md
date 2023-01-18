@@ -10,8 +10,8 @@ idd: 1408806845
 released: 2018-08-01
 updated: 2021-07-04
 version: 1.9.5
-stars: 4
-reviews: 24
+stars: 3.9
+reviews: 23
 size: '26215424'
 website: >-
   https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
