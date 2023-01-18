@@ -19,7 +19,7 @@ issue:
 icon: com.zenapay.jpg
 bugbounty: 
 meta: ok
-verdict: nobtc
+verdict: nosource
 date: 2022-08-01
 signer: 
 reviewArchive: 

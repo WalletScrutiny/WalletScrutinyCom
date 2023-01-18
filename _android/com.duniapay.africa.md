@@ -54,3 +54,5 @@ Section 9, translated from French:
 > If you engage in any of the above acts and we learn of it, we will consider it a violation of these Terms and we may limit, suspend or otherwise terminate your access to our Platforms and use of our Services.
 
 This app is custodial, and as such, **not verifiable.**
+
+As this app was [removed on iPhone](https://apps.apple.com/in/app/duniapay/id1474570971) and their Twitter account was closed, we advice extra caution.
