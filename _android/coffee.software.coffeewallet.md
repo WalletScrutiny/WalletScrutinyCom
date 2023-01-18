@@ -48,4 +48,4 @@ From Google Play page:
 
 We downloaded the app and created a wallet. It is possible to back up the BTC wallet using BIP39 compliant seed words.
 
-This app is for verification.
+This app is [for verification](https://github.com/coffee-software/coffee.wallet/issues/89).

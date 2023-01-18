@@ -57,4 +57,4 @@ We installed the app and found that it supports sending and receiving BTC as wel
 
 There is an option to back up the seed phrases.
 
-This app is for verification. 
+This app is [for verification](https://github.com/coingrig/coingrig-wallet/issues/22).
