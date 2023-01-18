@@ -21,7 +21,7 @@ icon: com.copytrade.com.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-07-14
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,7 +7,7 @@ users: 100000
 appId: com.sessip.Sessipapp
 appCountry: 
 released: Aug 18, 2021
-updated: 2022-10-18
+updated: 2022-12-10
 version: VARY
 stars: 3.8
 ratings: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinbase.wallite.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2021-08-17
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

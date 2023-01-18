@@ -11,16 +11,16 @@ released: 2018-03-30
 updated: 2020-09-05
 version: 3.2.6
 stars: 4
-reviews: 335
+reviews: 336
 size: '124011520'
 website: https://spend.com
 repository: 
 issue: 
 icon: com.DCS.SpendWallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2021-09-01
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: Spendcom

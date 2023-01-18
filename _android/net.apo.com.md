@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.apo.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-12-31
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: 

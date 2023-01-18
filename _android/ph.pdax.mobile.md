@@ -1,6 +1,6 @@
 ---
 wsId: pdax
-title: PDAX
+title: PDAX - Trade Directly with PHP
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2022-10-07
-version: 2.4.3
-stars: 3.5
+updated: 2023-01-12
+version: 2.8.3
+stars: 3.4
 ratings: 3291
-reviews: 1954
+reviews: 1990
 size: 
 website: https://pdax.ph
 repository: 

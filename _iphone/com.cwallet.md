@@ -8,19 +8,19 @@ appId: com.cwallet
 appCountry: 
 idd: 1471981089
 released: 2019-07-26
-updated: 2021-04-08
-version: 0.738.47
+updated: 2022-10-03
+version: 0.741.11
 stars: 4.2
 reviews: 11
-size: '44941312'
+size: '37095424'
 website: https://xapawallet.com/
 repository: 
 issue: 
 icon: com.cwallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-04-04
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: WalletXapa

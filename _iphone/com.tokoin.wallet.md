@@ -8,11 +8,11 @@ appId: com.tokoin.wallet
 appCountry: us
 idd: 1489276175
 released: 2019-12-12
-updated: 2022-05-21
-version: 3.3.2
+updated: 2022-12-23
+version: 3.4.11
 stars: 4.5
 reviews: 2
-size: '53360640'
+size: '71311360'
 website: https://www.tokoin.io/
 repository: 
 issue: 

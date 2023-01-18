@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptosaver.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pt.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-02-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

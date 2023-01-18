@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: lk.suncapital.chp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

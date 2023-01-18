@@ -11,7 +11,7 @@ updated: 2022-09-30
 version: 2.0.0
 stars: 3.7
 ratings: 
-reviews: 151
+reviews: 153
 size: 
 website: https://coinchange.io
 repository: 

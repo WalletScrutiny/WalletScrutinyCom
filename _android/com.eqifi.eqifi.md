@@ -3,7 +3,7 @@ wsId:
 title: EQIFi | Hold & Transfer Crypto
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.eqifi.eqifi
 appCountry: 
 released: Apr 3, 2022
@@ -19,7 +19,7 @@ issue:
 icon: com.eqifi.eqifi.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

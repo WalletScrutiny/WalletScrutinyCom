@@ -8,19 +8,19 @@ appId: com.app.Bitay
 appCountry: us
 idd: 1458595661
 released: 2019-04-14
-updated: 2020-11-07
-version: 2.1.0
-stars: 4.1
-reviews: 7
-size: '13966336'
+updated: 2022-11-25
+version: 3.1.9
+stars: 4.3
+reviews: 8
+size: '43004928'
 website: 
 repository: 
 issue: 
 icon: com.app.Bitay.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2021-11-03
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: BitayTurkiye

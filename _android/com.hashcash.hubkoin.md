@@ -3,12 +3,12 @@ wsId:
 title: Hubkoin
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.hashcash.hubkoin
 appCountry: 
 released: Apr 11, 2022
-updated: 2022-10-19
-version: 1.0.2
+updated: 2022-11-21
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 

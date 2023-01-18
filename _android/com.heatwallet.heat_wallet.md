@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.heatwallet.heat_wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

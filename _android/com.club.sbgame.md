@@ -7,8 +7,8 @@ users: 10000
 appId: com.club.sbgame
 appCountry: 
 released: Feb 1, 2022
-updated: 2022-09-07
-version: '6.0'
+updated: 2023-01-16
+version: '7.0'
 stars: 
 ratings: 
 reviews: 

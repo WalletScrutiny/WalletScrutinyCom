@@ -7,8 +7,8 @@ users: 1000
 appId: io.trustverse.mars
 appCountry: 
 released: May 27, 2020
-updated: 2022-02-14
-version: 2.3.5G
+updated: 2022-11-22
+version: 2.4.0G
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: http://www.trustverse.io
 repository: 
 issue: 
-icon: io.trustverse.mars.png
+icon: io.trustverse.mars.jpg
 bugbounty: 
 meta: ok
 verdict: wip

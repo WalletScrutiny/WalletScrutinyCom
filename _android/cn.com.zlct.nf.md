@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-10-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

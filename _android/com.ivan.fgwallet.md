@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: ivanFGWallet
 title: FG Wallet
 altTitle: 
 authors: 
+- danny
 users: 10000
 appId: com.ivan.fgwallet
 appCountry: 
 released: Dec 28, 2017
-updated: 2022-08-30
-version: 3.5.0
+updated: 2023-01-10
+version: 3.5.2
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +20,23 @@ issue:
 icon: com.ivan.fgwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nosource
+date: 2022-06-30
 signer: 
 reviewArchive: 
-twitter: 
+twitter: srsfintech
 social: 
+- https://www.linkedin.com/company/srsfintech/
 redirect_from: 
 
 ---
 
+## App Description 
+
+> An ultra-secure multi-cryptocurrency wallet that supports BTC, ETH, XRP, ADA and ERC-20 tokens. Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
+
+## Analysis 
+
+The recovery phrase was displayed and verified after we received the sms verification. This is also displayed in the 'Settings' option. 
+
+We were **not able to find links to a repository**.

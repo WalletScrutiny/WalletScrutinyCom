@@ -4,12 +4,12 @@ title: BitGate
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.bitgate.flutter
 appCountry: 
 released: 
-updated: 2022-08-08
-version: 0.9.1
+updated: 2022-12-22
+version: 0.9.2
 stars: 
 ratings: 
 reviews: 

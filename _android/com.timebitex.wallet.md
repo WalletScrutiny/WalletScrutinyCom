@@ -3,12 +3,12 @@ wsId:
 title: Timebit DeFi
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.timebitex.wallet
 appCountry: 
 released: Feb 25, 2021
-updated: 2022-08-24
-version: 3.0.1
+updated: 2022-12-13
+version: 3.1.4
 stars: 
 ratings: 
 reviews: 

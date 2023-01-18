@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mtobit.aos.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-09-25
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

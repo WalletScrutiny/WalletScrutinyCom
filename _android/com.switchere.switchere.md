@@ -7,11 +7,11 @@ users: 10000
 appId: com.switchere.switchere
 appCountry: 
 released: Nov 15, 2021
-updated: 2022-09-27
-version: 1.0.1
+updated: 2023-01-04
+version: 1.1.4
 stars: 3.8
 ratings: 
-reviews: 37
+reviews: 39
 size: 
 website: https://switchere.com/
 repository: 

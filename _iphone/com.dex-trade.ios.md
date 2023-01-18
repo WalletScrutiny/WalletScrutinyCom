@@ -8,19 +8,19 @@ appId: com.dex-trade.ios
 appCountry: us
 idd: 1496672790
 released: 2020-01-28
-updated: 2021-09-20
-version: 2.1.5
-stars: 3.8
-reviews: 5
-size: '7494656'
+updated: 2022-12-13
+version: 2.1.7
+stars: 3.3
+reviews: 6
+size: '8896512'
 website: https://dex-trade.com/
 repository: 
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: dextrade_

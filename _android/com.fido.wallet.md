@@ -3,7 +3,7 @@ wsId:
 title: Fido Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.fido.wallet
 appCountry: 
 released: Mar 1, 2022
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fido.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,0 +1,7 @@
+# Develop override settings
+
+exclude:
+  - _iphone
+  - _hardware
+  - _bearer
+  - _desktop

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: '7b: Сrypto Wallet. Buy Bitcoin'
+title: '7b: BTC Wallet. Buy Dogecoin'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 5000
 appId: io.sevenb.terminal
 appCountry: 
 released: 2021-05-04
-updated: 2022-10-27
-version: 0.2.1
-stars: 3.7
+updated: 2022-12-15
+version: 0.3.2
+stars: 3.8
 ratings: 56
 reviews: 4
 size: 

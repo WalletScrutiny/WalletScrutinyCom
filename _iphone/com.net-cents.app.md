@@ -8,11 +8,11 @@ appId: com.net-cents.app
 appCountry: us
 idd: 1105188361
 released: 2016-04-23
-updated: 2022-04-18
-version: 2.11.11
+updated: 2022-11-18
+version: 2.11.12
 stars: 3
 reviews: 8
-size: '69246976'
+size: '68983808'
 website: https://www.net-cents.com
 repository: 
 issue: 

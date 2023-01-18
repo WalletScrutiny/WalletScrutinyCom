@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: 'eToro: Crypto. Stocks. Social.'
+title: 'eToro: Investing made social'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
 released: 2017-06-26
-updated: 2022-05-19
-version: 441.0.0
+updated: 2023-01-15
+version: 511.0.0
 stars: 4.2
-reviews: 5182
-size: '160549888'
+reviews: 5409
+size: '181834752'
 website: https://www.etoro.com/en-us/
 repository: 
 issue: 

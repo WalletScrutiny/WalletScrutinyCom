@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-03
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: colodax

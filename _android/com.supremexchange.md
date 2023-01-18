@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.supremexchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-12-03
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

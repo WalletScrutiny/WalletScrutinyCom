@@ -12,7 +12,7 @@ updated: 2022-10-25
 version: 1.6.9
 stars: 4.6
 ratings: 221
-reviews: 22
+reviews: 23
 size: 
 website: https://zupago.app
 repository: 

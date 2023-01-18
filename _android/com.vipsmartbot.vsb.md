@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vipsmartbot.vsb.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2021-11-14
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Muna: Crypto for Everyone'
+title: Muna - Crypto App for Africans
 altTitle: 
 authors: 
 users: 10000
 appId: com.munawallet.muna
 appCountry: 
 released: Mar 28, 2021
-updated: 2022-10-24
-version: 2.6.1
+updated: 2023-01-17
+version: 2.7.1
 stars: 4.6
 ratings: 
 reviews: 14
