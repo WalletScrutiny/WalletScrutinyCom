@@ -8,11 +8,11 @@ appId: bit.coin.Coindess
 appCountry: us
 idd: '1316631103'
 released: '2017-11-29T00:11:34Z'
-updated: 2022-07-05
-version: 2.15.6
+updated: 2022-12-12
+version: 2.17.7
 stars: 5
-reviews: 1
-size: '149754880'
+reviews: 2
+size: '224644096'
 website: https://www.fiahub.com
 repository: 
 issue: 

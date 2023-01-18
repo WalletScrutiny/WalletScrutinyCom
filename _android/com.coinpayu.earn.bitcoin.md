@@ -2,7 +2,7 @@
 wsId: 
 title: Coinpayu
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: com.coinpayu.earn.bitcoin
@@ -25,7 +25,7 @@ date: 2022-06-29
 signer: 
 reviewArchive: 
 twitter: CoinPayU
-social: 
+social:
 - https://www.facebook.com/coinpayu
 redirect_from: 
 

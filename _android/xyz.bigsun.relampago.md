@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://web.archive.org/web/20210305223631/https://bigsun.xyz/
+website: https://relampago.bigsun.xyz
 repository: 
 issue: 
 icon: xyz.bigsun.relampago.png

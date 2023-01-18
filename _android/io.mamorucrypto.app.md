@@ -7,8 +7,8 @@ users: 50
 appId: io.mamorucrypto.app
 appCountry: 
 released: 
-updated: 2023-01-15
-version: 1.0.34
+updated: 2023-01-18
+version: 1.0.35
 stars: 
 ratings: 
 reviews: 

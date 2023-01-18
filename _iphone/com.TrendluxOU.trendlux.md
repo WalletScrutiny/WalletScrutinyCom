@@ -1,18 +1,18 @@
 ---
 wsId: 3Commas
-title: '3Commas: Crypto Trading Tools'
+title: '3Commas: Crypto Trading Bots'
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.TrendluxOU.trendlux
 appCountry: us
 idd: '1370977008'
 released: '2018-05-14T01:40:40Z'
-updated: 2022-05-27
-version: '3.0'
-stars: 4.74113
-reviews: 2144
-size: '41017344'
+updated: 2022-11-11
+version: 3.3.3
+stars: 4.8
+reviews: 2455
+size: '42996736'
 website: https://3commas.io/blog
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 3commas_io
 social:
 - https://www.facebook.com/3commas.io/
-- https://t.me/commas 
+- https://t.me/commas
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 
 ---

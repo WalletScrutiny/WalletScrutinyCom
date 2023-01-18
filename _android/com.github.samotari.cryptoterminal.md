@@ -2,7 +2,7 @@
 wsId: 
 title: CryptoTerminal
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100
 appId: com.github.samotari.cryptoterminal

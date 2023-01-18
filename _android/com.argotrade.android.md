@@ -2,7 +2,7 @@
 wsId: 
 title: ArgoTrade
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.argotrade.android

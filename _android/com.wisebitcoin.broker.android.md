@@ -12,7 +12,7 @@ updated: 2023-01-11
 version: 3.9.8
 stars: 3.1
 ratings: 116
-reviews: 95
+reviews: 96
 size: 
 website: https://www.wisebitcoin.com
 repository: 

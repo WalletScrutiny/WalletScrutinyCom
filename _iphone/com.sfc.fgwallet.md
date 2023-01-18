@@ -2,17 +2,17 @@
 wsId: ivanFGWallet
 title: FG Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
 released: '2018-02-27T17:03:17Z'
-updated: 2022-06-03
-version: 3.4.45
+updated: 2023-01-18
+version: 3.5.8
 stars: 5
 reviews: 1
-size: '26102784'
+size: '37761024'
 website: https://srsfc.com/
 repository: 
 issue: 
@@ -24,8 +24,9 @@ date: 2022-06-30
 signer: 
 reviewArchive: 
 twitter: srsfintech
-social: 
+social:
 - https://www.linkedin.com/company/srsfintech/
 
 ---
+
 {% include copyFromAndroid.html %}

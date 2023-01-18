@@ -8,11 +8,11 @@ appId: com.wallet.logos
 appCountry: us
 idd: '1537557477'
 released: '2020-11-08T08:00:00Z'
-updated: 2022-06-27
-version: v0.2.0
+updated: 2022-10-17
+version: v0.2.4
 stars: 0
 reviews: 0
-size: '24994816'
+size: '25027584'
 website: https://logos-foundation.org/logos
 repository: 
 issue: 

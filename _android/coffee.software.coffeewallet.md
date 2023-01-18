@@ -2,7 +2,7 @@
 wsId: 
 title: Coffee Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: coffee.software.coffeewallet
@@ -25,7 +25,7 @@ date: 2022-06-29
 signer: 
 reviewArchive: 
 twitter: CoffeeWallet
-social: 
+social:
 - https://www.reddit.com/r/CoffeeWallet/
 - https://t.me/CoffeeWallet
 redirect_from: 

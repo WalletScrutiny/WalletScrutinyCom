@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 6
 size: 
-website: https://rahaexchange.org/
+website: https://rahaexchange.com
 repository: 
 issue: 
 icon: com.rahaexchange.app.png

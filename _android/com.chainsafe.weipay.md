@@ -2,7 +2,7 @@
 wsId: 
 title: WeiPay
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50
 appId: com.chainsafe.weipay

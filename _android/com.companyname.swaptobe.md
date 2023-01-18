@@ -2,7 +2,7 @@
 wsId: 
 title: Swap Tobe - Crypto Exchange
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: com.companyname.swaptobe
@@ -25,7 +25,7 @@ date: 2022-06-29
 signer: 
 reviewArchive: 
 twitter: swap_tobe
-social: 
+social:
 - https://t.me/swaptobeglobal
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
 - https://www.facebook.com/swaptobe

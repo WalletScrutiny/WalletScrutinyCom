@@ -2,7 +2,7 @@
 wsId: 3Commas
 title: '3Commas: Crypto trading tools'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: com.castor.threecommas
@@ -27,12 +27,11 @@ reviewArchive:
 twitter: 3commas_io
 social:
 - https://www.facebook.com/3commas.io/
-- https://t.me/commas 
+- https://t.me/commas
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 redirect_from: 
 
 ---
-
 
 ## App Description
 

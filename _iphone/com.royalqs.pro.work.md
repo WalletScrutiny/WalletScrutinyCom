@@ -8,11 +8,11 @@ appId: com.royalqs.pro.work
 appCountry: us
 idd: '1587849038'
 released: '2021-10-06T07:00:00Z'
-updated: 2022-06-22
-version: 4.3.1
+updated: 2022-11-21
+version: 4.6.1
 stars: 4.2
-reviews: 119
-size: '154174464'
+reviews: 123
+size: '124294144'
 website: https://royalqs.com
 repository: 
 issue: 

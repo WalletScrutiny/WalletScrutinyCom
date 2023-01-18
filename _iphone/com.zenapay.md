@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zenapay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-08-01
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 

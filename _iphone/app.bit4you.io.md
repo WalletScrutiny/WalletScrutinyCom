@@ -8,11 +8,11 @@ appId: app.bit4you.io
 appCountry: us
 idd: '1444871913'
 released: '2018-12-12T13:56:52Z'
-updated: 2022-05-28
-version: '3.1'
+updated: 2022-11-12
+version: '3.2'
 stars: 0
 reviews: 0
-size: '83428352'
+size: '87621632'
 website: 
 repository: 
 issue: 

@@ -2,7 +2,7 @@
 wsId: coinGrig
 title: Coingrig Digital Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.coingrig.app
 appCountry: us
@@ -24,8 +24,9 @@ date: 2022-06-30
 signer: 
 reviewArchive: 
 twitter: coingrig
-social: 
+social:
 - https://www.linkedin.com/company/coingrig/
 
 ---
+
 {% include copyFromAndroid.html %}

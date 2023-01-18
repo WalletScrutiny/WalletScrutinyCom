@@ -12,7 +12,7 @@ updated: 2023-01-14
 version: 4.4.0
 stars: 4.1
 ratings: 413931
-reviews: 137767
+reviews: 137786
 size: 
 website: https://coinswitch.co/in
 repository: 

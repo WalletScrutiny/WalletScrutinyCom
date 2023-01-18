@@ -7,8 +7,8 @@ users: 10000
 appId: com.matbea
 appCountry: 
 released: 
-updated: 2022-12-27
-version: 1.4.8
+updated: 2023-01-18
+version: 1.4.9
 stars: 
 ratings: 
 reviews: 

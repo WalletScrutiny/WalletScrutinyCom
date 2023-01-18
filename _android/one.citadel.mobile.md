@@ -1,6 +1,6 @@
 ---
 wsId: CitadelOne
-title: Citadel One.one Super App
+title: Citadel.one Super App
 altTitle: 
 authors:
 - danny

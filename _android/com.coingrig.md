@@ -2,7 +2,7 @@
 wsId: coinGrig
 title: 'Coingrig: Digital Wallet'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.coingrig
@@ -25,7 +25,7 @@ date: 2022-06-29
 signer: 
 reviewArchive: 
 twitter: coingrig
-social: 
+social:
 - https://www.linkedin.com/company/coingrig/
 redirect_from: 
 

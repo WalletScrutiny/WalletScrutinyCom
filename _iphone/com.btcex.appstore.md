@@ -1,6 +1,6 @@
 ---
 wsId: BTCEX
-title: 'BTCEX: Trade Bitcoin & Crypto'
+title: 'BTCEX: Buy BTC, Cryptocurrency'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.btcex.appstore
 appCountry: am
 idd: '1580680668'
 released: '2021-10-22T07:00:00Z'
-updated: 2022-07-15
-version: 1.1.1
+updated: 2023-01-16
+version: 1.2.9
 stars: 0
 reviews: 0
-size: '86839296'
+size: '95778816'
 website: https://www.btcex.com/
 repository: 
 issue: 

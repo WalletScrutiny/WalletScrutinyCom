@@ -7,11 +7,11 @@ appId: pouch.ph
 appCountry: us
 idd: '1584404678'
 released: '2021-10-02T07:00:00Z'
-updated: 2022-06-24
-version: 0.3.10
+updated: 2022-12-30
+version: 0.6.35
 stars: 5
-reviews: 2
-size: '31100928'
+reviews: 3
+size: '36434944'
 website: https://pouch.ph/
 repository: 
 issue: 

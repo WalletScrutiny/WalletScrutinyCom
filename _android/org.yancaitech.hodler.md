@@ -2,7 +2,7 @@
 wsId: 
 title: Hodler
 altTitle: 
-authors: 
+authors:
 - danny
 users: 0
 appId: org.yancaitech.hodler

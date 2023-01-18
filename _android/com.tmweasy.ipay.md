@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tmweasy.ipay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 

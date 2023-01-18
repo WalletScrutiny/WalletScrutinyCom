@@ -1,6 +1,6 @@
 ---
 wsId: NamiExchange
-title: Nami Exchange - Crypto Futures
+title: 'Nami Exchange: Buy BTC, Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.namicorp.exchange
 appCountry: us
 idd: '1480302334'
 released: '2019-09-30T07:00:00Z'
-updated: 2022-03-23
-version: 2.0.4
-stars: 3.1
-reviews: 12
-size: '88663040'
+updated: 2023-01-14
+version: 2.0.8
+stars: 2.9
+reviews: 15
+size: '88696832'
 website: https://nami.io/
 repository: 
 issue: 

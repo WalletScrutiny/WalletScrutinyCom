@@ -10,7 +10,7 @@ appCountry: lv
 released: 2021-02-16
 updated: 2022-12-29
 version: 3.0.0-dreambit
-stars: 3.8
+stars: 3.9
 ratings: 21
 reviews: 8
 size: 

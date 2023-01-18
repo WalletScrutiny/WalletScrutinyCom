@@ -10,8 +10,8 @@ idd: 1149581638
 released: 2016-10-24
 updated: 2023-01-05
 version: 14.8.2
-stars: 4
-reviews: 1562
+stars: 3.9
+reviews: 1563
 size: '53839872'
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet

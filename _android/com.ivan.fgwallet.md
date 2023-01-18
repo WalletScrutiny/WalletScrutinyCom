@@ -2,7 +2,7 @@
 wsId: ivanFGWallet
 title: FG Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.ivan.fgwallet
@@ -25,7 +25,7 @@ date: 2022-06-30
 signer: 
 reviewArchive: 
 twitter: srsfintech
-social: 
+social:
 - https://www.linkedin.com/company/srsfintech/
 redirect_from: 
 
