@@ -3,7 +3,7 @@ wsId:
 title: TT - easier trading your token
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.trading.token_app
 appCountry: 
 released: Apr 11, 2022

@@ -7,8 +7,8 @@ users: 10
 appId: prestopaybusiness.eu
 appCountry: 
 released: Mar 23, 2021
-updated: 2022-08-24
-version: 1.0.4
+updated: 2022-12-15
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 

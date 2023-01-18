@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: bitcoin.invest.crypto.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-03-14
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

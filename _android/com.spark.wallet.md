@@ -20,9 +20,9 @@ repository: https://github.com/shesek/spark-wallet
 issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
-date: 2021-12-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

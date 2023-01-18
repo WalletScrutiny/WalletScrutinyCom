@@ -7,8 +7,8 @@ users: 1000
 appId: com.cardstack.cardpay
 appCountry: 
 released: Apr 6, 2022
-updated: 2022-10-18
-version: 1.1.10
+updated: 2022-12-08
+version: 1.1.13
 stars: 
 ratings: 
 reviews: 

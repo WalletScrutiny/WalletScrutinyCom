@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Excelon.GO - Digital money don
+title: Excelon.GO - Digital money
 altTitle: 
 authors: 
 users: 10000

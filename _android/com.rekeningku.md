@@ -12,7 +12,7 @@ updated: 2022-10-17
 version: 2.1.91
 stars: 4.2
 ratings: 22977
-reviews: 43
+reviews: 42
 size: 
 website: https://www.rekeningku.com
 repository: 

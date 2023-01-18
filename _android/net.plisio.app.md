@@ -3,7 +3,7 @@ wsId:
 title: Plisio
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: net.plisio.app
 appCountry: 
 released: Jul 27, 2021
@@ -19,7 +19,7 @@ issue:
 icon: net.plisio.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

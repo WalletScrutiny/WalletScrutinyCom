@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wellswallet.wells.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-10-18
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000
+users: 5000
 appId: com.monederoapp
 appCountry: 
 released: 2020-03-13

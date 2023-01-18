@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.treenwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

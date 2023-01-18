@@ -12,16 +12,16 @@ updated: 2021-12-10
 version: 3.0.0
 stars: 3.9
 ratings: 379
-reviews: 233
+reviews: 235
 size: 
 website: https://coinus.io/
 repository: 
 issue: 
 icon: com.theblockchain.coinus.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-17
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: CoinUs_Official

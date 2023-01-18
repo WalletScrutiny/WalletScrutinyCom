@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wallet Scrutiny"
+title                    : "WalletScrutiny"
 title_separator          : "-"
 name                     : &name "Leo Wandersleb"
 description              : &description "A project to improve wallet security"

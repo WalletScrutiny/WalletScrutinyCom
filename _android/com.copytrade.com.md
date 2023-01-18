@@ -2,7 +2,8 @@
 wsId: 
 title: GS TRADER-Online Investing And Social Trading
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.copytrade.com
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.copytrade.com.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,12 @@ redirect_from:
 
 ---
 
+## Updated Review 
+
+The Google Play page now shows a 404.
+
+## Previous Review 2022-12-08
+
+Attempting to use this app returns an error:
+
+> The configuration request failed, please double-click the return button to exit the App and re-enter the App

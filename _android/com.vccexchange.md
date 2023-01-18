@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vccexchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-22
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: VCCExchange

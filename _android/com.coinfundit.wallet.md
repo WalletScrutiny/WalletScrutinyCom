@@ -3,7 +3,7 @@ wsId:
 title: CoinFundIt.com
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.coinfundit.wallet
 appCountry: 
 released: Mar 17, 2022

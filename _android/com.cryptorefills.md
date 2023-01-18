@@ -3,7 +3,7 @@ wsId:
 title: 'CryptoRefills: Buy Gift Cards '
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.cryptorefills
 appCountry: 
 released: Apr 22, 2019

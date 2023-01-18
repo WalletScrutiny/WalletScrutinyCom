@@ -7,8 +7,8 @@ users: 1000
 appId: com.tusker.bytexio
 appCountry: 
 released: Apr 28, 2022
-updated: 2022-10-06
-version: 1.0.7
+updated: 2022-11-25
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 

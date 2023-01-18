@@ -4,7 +4,7 @@ title: Monya - Monacoin & Altcoins Wa
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: org.missmonacoin.monya
 appCountry: 
 released: 2018-01-02
@@ -19,9 +19,9 @@ repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
-date: 2021-11-11
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: monya_wallet

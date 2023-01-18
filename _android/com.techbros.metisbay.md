@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.techbros.metisbay.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

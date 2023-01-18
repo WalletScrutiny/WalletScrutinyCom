@@ -3,7 +3,7 @@ wsId:
 title: WL Crypto Payments
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinsuisse.pay
 appCountry: 
 released: 2021-06-06

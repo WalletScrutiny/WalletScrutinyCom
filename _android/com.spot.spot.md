@@ -1,6 +1,6 @@
 ---
 wsId: SpotWalletapp
-title: 'Spot wallet: crypto & DeFi'
+title: 'Spot: bitcoin & crypto wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
-updated: 2022-10-06
-version: 4.71.1
+updated: 2022-11-28
+version: 4.71.5
 stars: 4.3
 ratings: 4767
-reviews: 498
+reviews: 500
 size: 
 website: https://www.spot-wallet.com
 repository: 

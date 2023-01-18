@@ -3,15 +3,15 @@ wsId:
 title: Arculus Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: co.arculus.wallet.android
 appCountry: 
 released: Oct 6, 2021
-updated: 2022-08-20
-version: 2.1.2
+updated: 2022-11-09
+version: 2.2.2
 stars: 3.4
 ratings: 
-reviews: 37
+reviews: 44
 size: 
 website: https://getarculus.com
 repository: 

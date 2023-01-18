@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.midasprotocol.wallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-01
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: MidasProtocol

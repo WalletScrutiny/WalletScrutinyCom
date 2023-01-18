@@ -8,8 +8,8 @@ users: 10000
 appId: com.zenapay
 appCountry: 
 released: Dec 30, 2017
-updated: 2021-12-21
-version: '4.7'
+updated: 2022-12-05
+version: 1.0.5
 stars: 5
 ratings: 
 reviews: 3

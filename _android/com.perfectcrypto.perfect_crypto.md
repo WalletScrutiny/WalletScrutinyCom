@@ -10,9 +10,9 @@ appCountry:
 released: 2020-11-09
 updated: 2022-01-25
 version: 1.1.6
-stars: 4.7
+stars: 4.6
 ratings: 809
-reviews: 31
+reviews: 34
 size: 
 website: https://perfectcrypto.net/
 repository: 

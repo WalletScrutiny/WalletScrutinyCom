@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: eu.wunderbit.trading_web.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-01-16
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: Wunder_bit

@@ -7,8 +7,8 @@ users: 500
 appId: com.hashcash.billbitcoins
 appCountry: 
 released: 2021-03-17
-updated: 2021-04-28
-version: 1.0.3
+updated: 2023-01-17
+version: 1.0.6
 stars: 4.9
 ratings: 98
 reviews: 11
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashcash.billbitcoins.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-04-23
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

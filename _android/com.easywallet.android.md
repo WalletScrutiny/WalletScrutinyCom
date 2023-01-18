@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.easywallet.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-01-09
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

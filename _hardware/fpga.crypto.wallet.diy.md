@@ -1,5 +1,5 @@
 ---
-title: FPGA Crypto-wallet DIY 
+title: FPGA Crypto-wallet DIY
 appId: fpga.crypto.wallet.diy
 authors:
 - danny

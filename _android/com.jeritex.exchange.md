@@ -3,12 +3,12 @@ wsId:
 title: Jeritex
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.jeritex.exchange
 appCountry: 
 released: May 5, 2022
-updated: 2022-07-27
-version: 1.1.7
+updated: 2022-11-09
+version: 1.1.13
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.jeritex.exchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

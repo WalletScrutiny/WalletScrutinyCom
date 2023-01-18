@@ -8,11 +8,11 @@ appId: com.bitvoapp.bitvo
 appCountry: ca
 idd: 1400304552
 released: 2018-08-06
-updated: 2022-10-18
-version: 3.6.2
+updated: 2022-11-18
+version: 3.6.4
 stars: 3
 reviews: 24
-size: '39185408'
+size: '49477632'
 website: http://www.bitvo.com
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-07-26
 updated: 2021-09-02
 version: 1.2.1
-stars: 3.4
+stars: 3.5
 ratings: 121
-reviews: 7
+reviews: 8
 size: 
 website: https://moonwallet.net/
 repository: 

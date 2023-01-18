@@ -7,8 +7,8 @@ users: 5000
 appId: jp.co.monex.ms.mt_crypto
 appCountry: 
 released: Jul 7, 2020
-updated: 2022-01-14
-version: 1.0.6
+updated: 2022-11-25
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 

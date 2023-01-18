@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'MEXC Global: BTC, ETH, Gamefi'
+title: MEXC Global-Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 1000000
 appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
-updated: 2022-10-31
-version: 3.7.3
-stars: 4.3
+updated: 2023-01-07
+version: 3.8.3
+stars: 4.1
 ratings: 12371
-reviews: 392
+reviews: 426
 size: 
 website: https://www.mexc.com
 repository: 
 issue: 
-icon: com.mexcpro.client.png
+icon: com.mexcpro.client.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

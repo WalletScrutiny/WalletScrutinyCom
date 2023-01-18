@@ -8,11 +8,11 @@ appId: com.coinut.app
 appCountry: us
 idd: '1331328939'
 released: '2018-02-06T04:20:12Z'
-updated: 2022-01-06
-version: 2.6.0
+updated: 2022-11-01
+version: 2.8.0
 stars: 4
 reviews: 5
-size: '67877888'
+size: '75849728'
 website: https://coinut.com
 repository: 
 issue: 

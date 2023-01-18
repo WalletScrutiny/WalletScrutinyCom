@@ -7,8 +7,8 @@ users: 1000
 appId: cryptnex.ai.autobot
 appCountry: 
 released: Apr 12, 2022
-updated: 2022-10-28
-version: 3.8.7
+updated: 2022-12-09
+version: 3.8.9
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Rocket Trades: Trade App'
+title: Rocket Trade EX
 altTitle: 
 authors: 
 users: 10000
@@ -16,7 +16,7 @@ size:
 website: 
 repository: 
 issue: 
-icon: app.excointrades.com.png
+icon: app.excointrades.com.jpg
 bugbounty: 
 meta: ok
 verdict: wip

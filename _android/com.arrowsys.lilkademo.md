@@ -10,7 +10,7 @@ appCountry: mn
 released: 2015-10-08
 updated: 2022-01-15
 version: 3.1.4
-stars: 4.5
+stars: 4.4
 ratings: 217
 reviews: 51
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arrowsys.lilkademo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-04
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: 
