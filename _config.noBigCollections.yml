@@ -1,0 +1,6 @@
+# Develop override settings
+
+exclude:
+  - _android
+  - _iphone
+  - _hardware

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.enkrypt.blockchain.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

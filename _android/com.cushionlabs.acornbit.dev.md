@@ -7,8 +7,8 @@ users: 5000
 appId: com.cushionlabs.acornbit.dev
 appCountry: 
 released: Dec 9, 2021
-updated: 2022-10-29
-version: 1.2.8
+updated: 2022-12-17
+version: 1.2.10
 stars: 
 ratings: 
 reviews: 

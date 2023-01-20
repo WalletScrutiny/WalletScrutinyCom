@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-04-27
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

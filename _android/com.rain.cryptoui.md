@@ -7,8 +7,8 @@ users: 100
 appId: com.rain.cryptoui
 appCountry: 
 released: 2021-05-13
-updated: 2021-05-13
-version: 1.0.0
+updated: 2023-01-18
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rain.cryptoui.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-05-09
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

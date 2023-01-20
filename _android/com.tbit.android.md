@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Tbitex
+title: Tbit
 altTitle: 
 authors: 
 users: 1000
 appId: com.tbit.android
 appCountry: 
 released: Feb 8, 2022
-updated: 2022-10-31
-version: 2.1.6
+updated: 2023-01-09
+version: 2.2.2
 stars: 5
 ratings: 
 reviews: 13

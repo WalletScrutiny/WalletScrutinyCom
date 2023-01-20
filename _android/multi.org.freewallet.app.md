@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: multi.org.freewallet.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2021-11-03
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: freewalletorg

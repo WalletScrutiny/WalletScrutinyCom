@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Scurdex
+title: Scurdex Wallet
 altTitle: 
 authors: 
 users: 100

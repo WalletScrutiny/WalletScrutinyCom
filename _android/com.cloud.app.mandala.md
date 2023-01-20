@@ -8,20 +8,20 @@ users: 10000
 appId: com.cloud.app.mandala
 appCountry: us
 released: 2021-08-19
-updated: 2021-08-19
-version: 1.0.0
-stars: 3.1
+updated: 2022-12-01
+version: 1.2.0
+stars: 3.2
 ratings: 155
-reviews: 24
+reviews: 25
 size: 
 website: https://mandala.exchange
 repository: 
 issue: 
 icon: com.cloud.app.mandala.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-11-02
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: mandalaex

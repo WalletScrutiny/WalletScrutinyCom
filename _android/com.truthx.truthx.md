@@ -10,18 +10,18 @@ appCountry:
 released: 2020-07-04
 updated: 2022-01-22
 version: 1.0.4
-stars: 3.5
+stars: 3.4
 ratings: 346
-reviews: 27
+reviews: 28
 size: 
 website: https://gifttokenweb.herokuapp.com/
 repository: 
 issue: 
 icon: com.truthx.truthx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-01
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 

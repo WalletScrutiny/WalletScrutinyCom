@@ -7,8 +7,8 @@ users: 50
 appId: com.bitjeem.android
 appCountry: 
 released: Nov 16, 2020
-updated: 2022-08-22
-version: 1.22.0
+updated: 2022-12-03
+version: 1.11.0
 stars: 
 ratings: 
 reviews: 

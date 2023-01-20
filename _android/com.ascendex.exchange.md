@@ -8,11 +8,11 @@ users: 500000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2022-10-31
-version: 2.9.1
-stars: 3.9
+updated: 2023-01-16
+version: 2.9.5
+stars: 4
 ratings: 6660
-reviews: 57
+reviews: 60
 size: 
 website: https://asdx.io/
 repository: 

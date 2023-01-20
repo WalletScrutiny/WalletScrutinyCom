@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: metaCodeChainbridge
 title: MetaCode Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: io.chainbridge.wallet
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: io.chainbridge.wallet.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2022-06-22
+meta: defunct
+verdict: nobtc
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ redirect_from:
 
 ---
 
+We downloaded and installed the app and could not find support for BTC. It supports altcoins and tokens. 

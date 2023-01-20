@@ -7,8 +7,8 @@ users: 100
 appId: com.lianghua
 appCountry: 
 released: Mar 22, 2022
-updated: 2022-10-10
-version: 1.2.2
+updated: 2022-11-26
+version: 1.2.8
 stars: 
 ratings: 
 reviews: 

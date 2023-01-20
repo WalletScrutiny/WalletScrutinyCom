@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coincheck Bitcoin Wallet
+title: Coincheck
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: jp.coincheck.android
 appCountry: 
 released: 2015-04-23
-updated: 2022-11-02
-version: 4.5.6
-stars: 3.7
+updated: 2023-01-16
+version: 4.6.3
+stars: 3.6
 ratings: 10711
-reviews: 8
+reviews: 9
 size: 
 website: http://coincheck.com
 repository: 

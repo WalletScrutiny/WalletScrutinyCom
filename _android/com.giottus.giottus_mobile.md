@@ -8,11 +8,11 @@ users: 500000
 appId: com.giottus.giottus_mobile
 appCountry: us
 released: 2021-02-01
-updated: 2022-09-13
-version: 2.1.53
-stars: 4.8
+updated: 2023-01-18
+version: 2.1.55
+stars: 4.7
 ratings: 15803
-reviews: 21
+reviews: 23
 size: 
 website: https://www.giottus.com
 repository: 

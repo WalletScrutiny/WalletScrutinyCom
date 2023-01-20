@@ -8,7 +8,7 @@ appId: com.ankerpay.ioswallet
 appCountry: us
 idd: 1487931971
 released: 2019-11-22
-updated: 2019-11-22
+updated: 2022-03-26
 version: '1.25'
 stars: 0
 reviews: 0
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nosource
-date: 2022-01-10
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: AnkerPay

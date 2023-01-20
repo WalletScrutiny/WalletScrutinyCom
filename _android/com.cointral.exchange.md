@@ -12,7 +12,7 @@ updated: 2021-08-18
 version: 1.3.6
 stars: 3.9
 ratings: 118
-reviews: 69
+reviews: 70
 size: 
 website: https://cointral.com
 repository: 

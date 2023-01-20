@@ -3,7 +3,7 @@ wsId:
 title: OTCXPERT - 專業級數位錢包及交易平台
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: hk.unisoft.otcxpert
 appCountry: 
 released: Mar 17, 2020

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.evercoin.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2021-11-18
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: everc0in

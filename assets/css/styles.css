@@ -1670,8 +1670,8 @@ label.stamp::before, .AppDisplayCard .stamp::before {
 
 .platform-logo {
     position: absolute;
-    top: 47px;
-    font-size: 18px;
+    top: 4px;
+    font-size: 22px;
     right: 0px;
 }
 
@@ -1679,6 +1679,12 @@ label.stamp::before, .AppDisplayCard .stamp::before {
   white-space:nowrap;
   font-weight:bold;
   line-height:2em;
+}
+
+.wallet-link > .verdictBadge > span {
+  font-size: .5em;
+  border-radius: 5px !important;
+  padding: 3px !important;
 }
 
 .verdictBadge {

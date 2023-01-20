@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Armory Secure Wallet
+title: Ja­xx lib­erty
 altTitle: 
 authors: 
 users: 100
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: armory.appvmz.bt.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.quras.plus.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 

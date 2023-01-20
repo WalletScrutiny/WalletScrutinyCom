@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sats21.sat21.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-04
 signer: 
 reviewArchive: 
 twitter: 

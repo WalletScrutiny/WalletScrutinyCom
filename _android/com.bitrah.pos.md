@@ -3,12 +3,12 @@ wsId:
 title: Bitrah
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitrah.pos
 appCountry: 
 released: 2020-07-21
-updated: 2020-11-02
-version: 2.0.0
+updated: 2023-01-15
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitrah.pos.png
 bugbounty: 
-meta: obsolete
-verdict: fewusers
-date: 2022-11-02
+meta: ok
+verdict: wip
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,23 +4,24 @@ title: Tangem - Crypto wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
-updated: 2022-10-29
-version: '3.51'
-stars: 4.4
+updated: 2022-12-31
+version: '3.55'
+stars: 4.5
 ratings: 89
-reviews: 12
+reviews: 14
 size: 
 website: https://tangem.com
-repository: 
+repository: https://github.com/tangem/tangem-app-android
 issue: 
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 date: 2021-04-10
 signer: 
 reviewArchive: 
@@ -30,6 +31,12 @@ social:
 redirect_from: 
 
 ---
+
+The repository for the Tangem Android app is [now available](https://github.com/tangem/tangem-app-android). 
+
+The app is now for verification. 
+
+**Update 2022-08-01**
 
 This app is the companion app to an NFC card that is promoted as something like
 a hardware wallet but without a screen or a button it can only do what the

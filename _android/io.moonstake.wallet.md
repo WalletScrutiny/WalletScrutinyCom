@@ -1,6 +1,6 @@
 ---
 wsId: Moonstake
-title: Moonstake Wallet
+title: 'Moonstake Wallet: Coin Staking'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: io.moonstake.wallet
 appCountry: us
 released: 2020-03-24
-updated: 2022-06-29
-version: 2.18.0
-stars: 3.5
+updated: 2023-01-17
+version: 2.21.2
+stars: 3.6
 ratings: 2237
 reviews: 14
 size: 

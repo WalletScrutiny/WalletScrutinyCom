@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HitBTC Crypto Exchange&Trading
+title: HitBTC crypto coin exchange
 altTitle: 
 authors:
 - leo
@@ -12,12 +12,12 @@ updated: 2022-04-12
 version: 3.2.0
 stars: 4.4
 ratings: 
-reviews: 7
+reviews: 9
 size: 
 website: https://hitbtc.com/
 repository: 
 issue: 
-icon: com.hittechsexpertlimited.hitbtc.png
+icon: com.hittechsexpertlimited.hitbtc.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

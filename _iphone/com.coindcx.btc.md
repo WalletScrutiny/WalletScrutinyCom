@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-11
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: coindcx

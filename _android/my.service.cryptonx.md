@@ -3,7 +3,7 @@ wsId:
 title: CryptonX
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: my.service.cryptonx
 appCountry: 
 released: Sep 28, 2021

@@ -3,7 +3,7 @@ wsId:
 title: 'XBTS: Crypto wallet and DeFi'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.xbts.app
 appCountry: 
 released: 2021-04-26
@@ -19,7 +19,7 @@ issue:
 icon: io.xbts.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

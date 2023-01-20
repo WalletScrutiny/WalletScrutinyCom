@@ -3,7 +3,7 @@ wsId:
 title: Love Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.lovewallet.bfic
 appCountry: 
 released: Apr 12, 2022

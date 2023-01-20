@@ -3,7 +3,7 @@ wsId:
 title: 'CoinPlug - Buy & Sell BTC and '
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.coinplug
 appCountry: 
 released: Oct 19, 2021

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.krypti.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-11-15
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

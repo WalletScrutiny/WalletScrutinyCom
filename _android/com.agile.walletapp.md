@@ -3,7 +3,7 @@ wsId:
 title: Crypto Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.agile.walletapp
 appCountry: 
 released: 2019-06-06

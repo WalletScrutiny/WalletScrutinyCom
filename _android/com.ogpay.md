@@ -4,15 +4,15 @@ title: OGPay
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.ogpay
 appCountry: us
 released: 2019-07-31
-updated: 2022-06-07
+updated: 2023-01-15
 version: VARY
-stars: 4.1
+stars: 4.5
 ratings: 42
-reviews: 9
+reviews: 86
 size: 
 website: https://www.ogpaywallet.com
 repository: 

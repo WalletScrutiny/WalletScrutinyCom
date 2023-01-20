@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.theluxurybank.bankwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2021-11-18
+date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 

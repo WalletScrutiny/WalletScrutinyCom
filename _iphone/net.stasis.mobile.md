@@ -8,11 +8,11 @@ appId: net.stasis.mobile
 appCountry: 
 idd: 1371949230
 released: 2018-07-06
-updated: 2022-04-11
-version: '7.16'
+updated: 2022-12-01
+version: '7.18'
 stars: 3
 reviews: 4
-size: '23080960'
+size: '14777344'
 website: https://stasis.net
 repository: 
 issue: 

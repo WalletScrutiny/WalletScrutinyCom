@@ -11,7 +11,7 @@ updated: 2022-08-01
 version: 1.3.3
 stars: 5
 ratings: 
-reviews: 16
+reviews: 15
 size: 
 website: https://awallet.digital
 repository: 

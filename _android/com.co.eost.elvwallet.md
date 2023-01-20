@@ -7,8 +7,8 @@ users: 500
 appId: com.co.eost.elvwallet
 appCountry: 
 released: Nov 30, 2021
-updated: 2022-02-02
-version: 1.1.8
+updated: 2022-09-08
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 

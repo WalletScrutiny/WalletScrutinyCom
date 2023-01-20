@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Key App
+title: Key App — Solana Crypto Wallet
 altTitle: 
 authors: 
 users: 5000
 appId: org.p2p.wallet
 appCountry: 
 released: Oct 23, 2021
-updated: 2022-11-02
-version: 2.0.2
+updated: 2023-01-12
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 
