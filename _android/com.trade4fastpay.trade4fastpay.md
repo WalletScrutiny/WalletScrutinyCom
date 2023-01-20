@@ -3,7 +3,7 @@ wsId:
 title: Trade4FastPay
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.trade4fastpay.trade4fastpay
 appCountry: 
 released: Oct 15, 2021

@@ -12,7 +12,7 @@ updated: 2022-12-26
 version: 2.5.0
 stars: 3.5
 ratings: 648
-reviews: 13
+reviews: 14
 size: 
 website: https://buda.com
 repository: 

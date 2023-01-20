@@ -7,8 +7,8 @@ users: 10000
 appId: com.cryptoswapp
 appCountry: 
 released: May 18, 2020
-updated: 2023-01-18
-version: 0.1.6
+updated: 2023-01-19
+version: 0.1.7
 stars: 
 ratings: 
 reviews: 

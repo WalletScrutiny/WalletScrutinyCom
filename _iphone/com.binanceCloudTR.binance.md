@@ -11,7 +11,7 @@ released: 2021-02-18
 updated: 2022-12-27
 version: 1.16.0
 stars: 4.5
-reviews: 24032
+reviews: 25094
 size: '145260544'
 website: https://www.trbinance.com/
 repository: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2022-12-29
-version: 5.0.18
+updated: 2023-01-16
+version: 5.0.19
 stars: 4.6
 ratings: 2781
 reviews: 509

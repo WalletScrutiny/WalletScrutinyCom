@@ -8,11 +8,11 @@ appId: keystone.mobile
 appCountry: 
 idd: 1567857965
 released: 2021-06-03
-updated: 2022-12-26
-version: 1.2.2
+updated: 2023-01-18
+version: 1.2.4
 stars: 3.3
 reviews: 16
-size: '43799552'
+size: '43811840'
 website: https://keyst.one/
 repository: 
 issue: 

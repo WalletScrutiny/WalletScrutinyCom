@@ -4,7 +4,7 @@ title: 'Metal Pay: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14

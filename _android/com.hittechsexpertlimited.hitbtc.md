@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HitBTC Crypto Exchange&Trading
+title: HitBTC crypto coin exchange
 altTitle: 
 authors:
 - leo

@@ -3,7 +3,7 @@ wsId:
 title: 'Sun Crypto: Buy & Sell Coins'
 altTitle: 
 authors: 
-users: 500000
+users: 1000000
 appId: com.suncrypto.in
 appCountry: 
 released: 2021-06-28

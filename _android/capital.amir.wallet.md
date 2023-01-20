@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallet App: Amir Wallet'
+title: 'Crypto Wallet Amir: buy BTC'
 altTitle: 
 authors:
 - danny
