@@ -3,6 +3,7 @@ title: CL Card
 appId: clcard
 authors:
 - danny
+- leo
 released: 
 discontinued: 
 updated: 
@@ -22,7 +23,7 @@ icon: clcard.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-11-25
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: BaanxGroup
@@ -52,7 +53,8 @@ The purpose of this product, from CL Card's [Medium article](https://medium.com/
 
 > Baanx and Ledger teamed up to build and develop the CL card, with the goal of allowing the Ledger community to use their digital assets in real-life, all with the same safety and convenience of a regular debit card.
 
-Because the CL Card relies on the Ledger Wallet and Ledger Live to move assets, we **do not consider it as a hardware wallet.**
+While this product is designed to work in tandem with Ledger's line of Bitcoin
+products, it is a fiat currency debit card and not a wallet.
 
 ## Old Review
 

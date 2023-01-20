@@ -22,7 +22,7 @@ icon: coincorner.hoffline.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-11-26
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: CoinCorner
@@ -30,9 +30,9 @@ social:
 
 ---
 
-## Updated Review 2022-11-26
-
-To date, Danny Scott has not replied about the status of the project. We tried to ask another [CoinCorner account on twitter](https://twitter.com/dannybuntu/status/1596318390691725312) and await their reply. At this point, it would be fair to assume that this can be considered as vaporware.
+**Update 2023-01-20**: As
+[confirmed by Danny Scott](https://twitter.com/CoinCornerDanny/status/1596604740070035456)
+this product is "shelved".
 
 ## Previous Review 2022-05-17
 

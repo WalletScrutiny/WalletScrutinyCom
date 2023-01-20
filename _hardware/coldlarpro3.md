@@ -16,7 +16,7 @@ dimensions:
 weight: 163
 provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
-website: https://www.coldlar.com/productDetails/10062
+website: 
 shop: https://www.coldlar.com/productDetails/10062
 country: CH
 price: 620USD

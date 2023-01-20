@@ -25,7 +25,7 @@ issue:
 icon: cypherockx1.png
 bugbounty: 
 meta: ok
-verdict: pending
+verdict: wip
 date: 2022-11-26
 signer: 
 reviewArchive: 
@@ -38,8 +38,8 @@ social:
 
 ## Update Review 2022-11-26
 
-- Updated price. 
-- Due for reproducibility testing.
+- Updated price
+- [Due for reproducibility testing](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/463)
 
 ## Previous Review 2021-12-03
 

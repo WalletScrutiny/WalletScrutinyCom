@@ -32,9 +32,11 @@ social:
 
 ---
 
-## Updated Review 2022-11-26
+## Updated Review 2023-01-20
 
-It's been 7 months since we last reviewed this product. We noticed that Feitian Tech's social media account is still actively posting. We asked on [twitter](https://twitter.com/dannybuntu/status/1596324021863608320)  
+We noticed that Feitian Tech's social media account is still actively posting
+and asked on [twitter](https://twitter.com/dannybuntu/status/1596324021863608320)
+but got now reply.
 
 ## Previous Review 2022-04-27
 

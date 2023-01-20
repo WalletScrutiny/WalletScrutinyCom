@@ -25,7 +25,7 @@ icon: bizblockskaiser.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-11-25
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: bizblocks7
@@ -34,9 +34,10 @@ social:
 
 ---
 
-## Updated Verdict 2022-11-25
+## Updated Verdict 2023-01-20
 
-There being no change in any social media channel or on the official website, we are marking this project as 
+There being no change in any social media channel or on the official website, we
+are marking this project as **vapor ware**.
 
 ## Previous Verdict 2022-02-17
 

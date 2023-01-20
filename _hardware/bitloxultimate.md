@@ -39,7 +39,7 @@ social:
 ## Updated Verdict 2022-11-25
 
 The device's firmware has recently been updated on April 20, 2022. 
-Will mark this device for verification.
+We [mark this device for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/443).
 
 ## Private keys can be created offline - ✔️
 

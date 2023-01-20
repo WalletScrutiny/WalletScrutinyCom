@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: cccoin.png
 bugbounty: 
-meta: discontinued
+meta: defunct
 verdict: wip
 date: 2022-11-25
 signer: 
