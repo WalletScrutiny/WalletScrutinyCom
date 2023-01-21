@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-30
+date: 2023-01-21
 signer: 
 reviewArchive: 
 twitter: irPerfectCrypto

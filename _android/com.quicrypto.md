@@ -12,7 +12,7 @@ updated: 2022-12-13
 version: 3.81.0
 stars: 4.7
 ratings: 4934
-reviews: 672
+reviews: 675
 size: 
 website: http://www.quicrypto.com
 repository: 

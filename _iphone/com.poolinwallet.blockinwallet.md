@@ -11,7 +11,7 @@ released: 2020-01-23
 updated: 2022-12-30
 version: 2.5.5
 stars: 3.6
-reviews: 37
+reviews: 38
 size: '99765248'
 website: https://poolin.fi/
 repository: 

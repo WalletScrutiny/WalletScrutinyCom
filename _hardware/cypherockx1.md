@@ -9,7 +9,7 @@ discontinued:
 updated: 2022-11-22
 version: 0.4.773
 binaries: 
-dimensions: 
+dimensions:
 - 30
 - 64
 - 15

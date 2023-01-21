@@ -12,7 +12,7 @@ released: 2020-07-30
 updated: 2022-12-21
 version: 7.9.2
 stars: 4.7
-reviews: 743
+reviews: 742
 size: '171144192'
 website: https://wallet.pointpay.io
 repository: 

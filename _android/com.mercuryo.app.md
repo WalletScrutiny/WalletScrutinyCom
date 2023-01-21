@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: 2.4.22
 stars: 4.2
 ratings: 2732
-reviews: 65
+reviews: 66
 size: 
 website: https://mercuryo.io
 repository: 

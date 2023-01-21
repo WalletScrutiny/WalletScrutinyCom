@@ -1,5 +1,5 @@
 ---
-title: "Ammer Cards"
+title: Ammer Cards
 appId: ammer.cards
 authors:
 - danny
@@ -26,9 +26,10 @@ date: 2022-11-10
 signer: 
 reviewArchive: 
 twitter: AmmerCards
-social: 
+social:
 - https://www.facebook.com/ammercards
 - https://www.linkedin.com/showcase/ammer-cards/
+
 ---
 
 ## Product Description 

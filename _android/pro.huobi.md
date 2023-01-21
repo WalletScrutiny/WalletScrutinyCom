@@ -4,7 +4,7 @@ title: 'Huobi: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01

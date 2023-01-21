@@ -2,17 +2,17 @@
 wsId: 
 title: Cryptnox Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.cryptnox.companion
 appCountry: us
 idd: '1583011693'
 released: '2021-10-10T07:00:00Z'
-updated: 2022-11-18
-version: 2.1.7
+updated: 2022-12-19
+version: 2.1.8
 stars: 5
 reviews: 1
-size: '58085376'
+size: '63045632'
 website: https://www.cryptnox.com
 repository: 
 issue: 

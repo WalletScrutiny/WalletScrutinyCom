@@ -8,10 +8,10 @@ discontinued:
 updated: 
 version: 1.1.0
 binaries: https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip
-dimensions: 
+dimensions:
 - 75
 - 71
-- 10.5
+- 11
 weight: 
 provider: Ellipal
 providerWebsite: https://www.ellipal.com/
@@ -29,8 +29,9 @@ date: 2022-11-10
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
-social: 
-  - https://www.facebook.com/ellipalclub
+social:
+- https://www.facebook.com/ellipalclub
+
 ---
 
 ## Product Description 

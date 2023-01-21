@@ -1,6 +1,6 @@
 ---
-title: walliT 
-appId: appId
+title: walliT
+appId: walliT
 authors:
 - danny
 released: 
@@ -13,7 +13,8 @@ weight:
 provider: oderem0 - an eBay seller
 providerWebsite: 
 website: 
-shop: https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true&si=wNIoKyvq8YnrTuLkYDBFxXzHl64%253D&orig_cvip=true&nordt=true&rt=nc&_trksid=p2047675.l2557
+shop: >-
+  https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true&si=wNIoKyvq8YnrTuLkYDBFxXzHl64%253D&orig_cvip=true&nordt=true&rt=nc&_trksid=p2047675.l2557
 country: UK
 price: 3.69 GBP
 repository: 
@@ -27,6 +28,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+
 ---
 
 ## Product Description from eBay

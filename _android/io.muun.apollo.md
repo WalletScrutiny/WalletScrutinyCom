@@ -8,7 +8,7 @@ users: 100000
 appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
-updated: 2023-01-10
+updated: 2023-01-20
 version: '50.1'
 stars: 4.6
 ratings: 650

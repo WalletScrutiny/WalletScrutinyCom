@@ -1,6 +1,6 @@
 ---
 title: Bitpiggys Opendime
-appId: bitpiggy.opendime
+appId: bitpiggys.opendime
 authors:
 - danny
 released: 2019-07-16
@@ -13,7 +13,8 @@ weight:
 provider: Bitpiggys
 providerWebsite: https://web.archive.org/web/20220330033813/https://www.bitpiggys.com/
 website: 
-shop: https://web.archive.org/web/20220331021237/https://www.bitpiggys.com/online-store
+shop: >-
+  https://web.archive.org/web/20220331021237/https://www.bitpiggys.com/online-store
 country: 
 price: 
 repository: 
@@ -26,8 +27,9 @@ date: 2022-11-11
 signer: 
 reviewArchive: 
 twitter: bitpiggys
-social: 
+social:
 - https://www.facebook.com/Bitpiggys/
+
 ---
 
 ## Product Description 

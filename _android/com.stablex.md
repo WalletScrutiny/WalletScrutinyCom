@@ -3,7 +3,7 @@ wsId:
 title: Stablex | Kripto Para Al-Sat
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.stablex
 appCountry: 
 released: Oct 27, 2021
@@ -19,7 +19,7 @@ issue:
 icon: com.stablex.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

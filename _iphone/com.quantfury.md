@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: Quantfury
+title: 'Quantfury: Trading Made Honest'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.quantfury
 appCountry: gb
 idd: 1445564443
 released: 2018-12-15
-updated: 2022-12-31
-version: 1.54.4
+updated: 2023-01-20
+version: 1.55.0
 stars: 4.5
 reviews: 60
-size: '58725376'
+size: '59051008'
 website: https://quantfury.com/
 repository: 
 issue: 

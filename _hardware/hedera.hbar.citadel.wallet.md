@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 54
 - 9.5
 weight: 
@@ -29,6 +29,7 @@ signer:
 reviewArchive: 
 twitter: citadelwallet
 social: 
+
 ---
 
 ## Product Description 
