@@ -91,6 +91,7 @@ Independent of the detailed analysis, we might assign a meta-verdict:
 {% include verdictMethodology.html verdict="obsolete" %}
 {% include verdictMethodology.html verdict="stale" %}
 {% include verdictMethodology.html verdict="outdated" %}
+{% include verdictMethodology.html verdict="discontinued" %}
 
 ## What is a hardware wallet?
 
@@ -123,6 +124,7 @@ additional verdicts:
 {% include verdictMethodology.html verdict="prefilled" %}
 {% include verdictMethodology.html verdict="plainkey" %}
 {% include verdictMethodology.html verdict="noita" %}
+
 
 {% include /review/whatIsBearer.html %}
 
