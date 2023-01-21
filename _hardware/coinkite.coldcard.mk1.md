@@ -20,9 +20,9 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coinkite.coldcard.mk1.png
 bugbounty: https://coinkite.com/responsible-disclosure
-meta: obsolete
+meta: discontinued
 verdict: wip
-date: 2022-10-25
+date: 2022-11-24
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -30,6 +30,10 @@ social:
 - https://t.me/coldcard
 
 ---
+
+## Update 2022-11-24
+
+Added the new verdict indicating the product is no longer available in the market.
 
 ## Update 2022-10-25
 
