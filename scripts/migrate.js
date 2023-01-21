@@ -9,22 +9,16 @@ try {
   verdicts = Object.keys(x)
 } catch (e) {
   console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
-  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource,sealed-noita,sealed-plainkey'.split(',')
+  // ls -1 _data/verdicts/ | grep yml | sed 's/.yml//g' | paste -sd ","
+  verdicts = 'custodial,fewusers,noita,nowallet,plainkey,sealed-noita,vapor,defunct,ftbfs,nonverifiable,obfuscated,prefilled,sealed-plainkey,wip,diy,nobinary,nosendreceive,obsolete,stale,fake,nobtc,nosource,outdated,reproducible,unreleased'.split(',')
 }
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3)
-  // migrate social links to more flexible format
-  // Twitter being used for other stuff and also being the most common remains
-  // its own item
-  header.twitter = header.twitter || header.providerTwitter || null
   header.social = header.social || []
   if (header.stars) header.stars = Number(header.stars.toPrecision(2))
-  if (header.providerLinkedIn) { header.social.push(`https://www.linkedin.com/company/${header.providerLinkedIn}`) }
-  if (header.providerFacebook) { header.social.push(`https://www.facebook.com/${header.providerFacebook}`) }
-  if (header.providerReddit) { header.social.push(`https://www.reddit.com/r/${header.providerReddit}`) }
   if (header.social.length < 1) header.social = null
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries
   if (category === 'hardware') {

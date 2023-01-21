@@ -10,6 +10,7 @@ version:
 binaries: 
 dimensions:
 - 54
+- 54
 - 9.5
 weight: 
 provider: Citadel Wallet LLC
