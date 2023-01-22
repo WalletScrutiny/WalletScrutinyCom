@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.swissborg.android.community.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-09-15
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: cchallengesborg

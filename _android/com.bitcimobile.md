@@ -1,6 +1,6 @@
 ---
 wsId: bitci
-title: Bitci - Bitcoin ve Altcoin Alı
+title: 'Bitci TR: BTC | ETH | USDT'
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: Mar 30, 2020
-updated: 2022-04-15
-version: 4.0.2
+updated: 2023-01-20
+version: 5.3.3
 stars: 4.3
 ratings: 
 reviews: 13
 size: 
-website: https://www.bitci.com/
+website: https://www.bitci.com.tr/
 repository: 
 issue: 
 icon: com.bitcimobile.png

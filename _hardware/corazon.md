@@ -23,7 +23,7 @@ icon: corazon.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-03
+date: 2022-11-26
 signer: 
 reviewArchive: 
 twitter: graysingapore
@@ -32,6 +32,10 @@ social:
 - https://www.facebook.com/graysingapore
 
 ---
+
+## Updated Review 2022-11-26
+
+We [asked on twitter](https://twitter.com/dannybuntu/status/1596397331569856512) whether its forked version of Trezor's repository is publicly available.
 
 ## Updated Review 2021-11-25
 

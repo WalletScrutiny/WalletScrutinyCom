@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: nosource
 date: 2022-04-07
 signer: 
@@ -33,6 +33,8 @@ redirect_from:
 - /posts/com.bitpie/
 
 ---
+
+**Update 2022-11-23**: This app is available once more.
 
 **Update 2022-03-30**: This app is not available anymore.
 

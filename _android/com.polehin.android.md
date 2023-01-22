@@ -12,16 +12,16 @@ updated: 2022-01-09
 version: 3.7.4
 stars: 4.3
 ratings: 22277
-reviews: 1035
+reviews: 1034
 size: 
 website: https://coinbox.org
 repository: 
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: obfuscated
-date: 2022-01-09
+date: 2023-01-04
 signer: 
 reviewArchive:
 - date: 2020-03-30

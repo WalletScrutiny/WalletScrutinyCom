@@ -1,6 +1,6 @@
 ---
 wsId: vantageFX
-title: 'Vantage: Trade Smarter'
+title: Vantage:All-In-One Trading App
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
-updated: 2022-11-25
+updated: 2023-01-17
 version: 3.0.6
-stars: 4.2
+stars: 4.9
 ratings: 8949
-reviews: 1632
+reviews: 1728
 size: 
 website: https://www.vantagemarkets.com/
 repository: 

@@ -24,9 +24,9 @@ repository:
 issue: 
 icon: cerber.png
 bugbounty: 
-meta: ok
-verdict: nosource
-date: 2021-12-03
+meta: defunct
+verdict: wip
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -34,7 +34,11 @@ social:
 
 ---
 
-## New Review 2021-11-25
+## Updated Review 2022-11-25
+
+The domains and social media accounts for the Cerber Wallet are now no longer accessible. Marking it as defunct until further updates are available.
+
+## Old Review
 
 It's worth noting that there is another cryptocurrency hardware wallet provider with the name of "Cerber Wallet". The domain for the other wallet provider is cerber.net.
 

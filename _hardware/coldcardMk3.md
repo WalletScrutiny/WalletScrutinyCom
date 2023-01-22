@@ -4,6 +4,7 @@ appId: coldcardMk3
 authors:
 - kiwilamb
 - leo
+- danny
 released: 2018-04-01
 discontinued: 
 updated: 2022-11-14
@@ -24,9 +25,9 @@ repository: https://github.com/Coldcard/firmware
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340
 icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
-meta: ok
+meta: discontinued
 verdict: nonverifiable
-date: 2022-11-22
+date: 2022-11-25
 signer: 
 reviewArchive:
 - date: 2022-08-07

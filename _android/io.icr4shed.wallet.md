@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Wiolet
+title: 'Wiolet: Crypto Wallet'
 altTitle: 
 authors:
 - danny

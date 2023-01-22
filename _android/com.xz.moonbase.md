@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xz.moonbase.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: 

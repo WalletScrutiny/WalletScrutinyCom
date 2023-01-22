@@ -7,8 +7,8 @@ users: 1000
 appId: com.cryptex24
 appCountry: 
 released: 
-updated: 2022-12-05
-version: 2.15.0
+updated: 2023-01-05
+version: 2.16.0
 stars: 
 ratings: 
 reviews: 

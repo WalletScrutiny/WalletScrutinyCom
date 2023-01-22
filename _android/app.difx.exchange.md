@@ -7,8 +7,8 @@ users: 50000
 appId: app.difx.exchange
 appCountry: 
 released: 
-updated: 2022-12-11
-version: 4.1.4
+updated: 2023-01-02
+version: 4.1.6
 stars: 
 ratings: 
 reviews: 

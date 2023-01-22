@@ -7,8 +7,8 @@ users: 5000
 appId: com.gleec
 appCountry: 
 released: Feb 26, 2021
-updated: 2022-07-29
-version: 1.0.0.20-gleec
+updated: 2022-12-29
+version: 3.0.0-gleec
 stars: 3.3
 ratings: 
 reviews: 6

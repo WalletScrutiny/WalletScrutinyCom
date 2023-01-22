@@ -3,15 +3,15 @@ wsId:
 title: 'Ledger Live: Crypto & NFT App'
 altTitle: 
 authors: 
-users: 500000
+users: 1000000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2022-12-08
-version: 3.12.0
-stars: 4.7
+updated: 2023-01-16
+version: 3.13.0
+stars: 4.6
 ratings: 6090
-reviews: 1526
+reviews: 1571
 size: 
 website: https://www.ledger.com
 repository: 

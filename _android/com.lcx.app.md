@@ -9,9 +9,9 @@ appCountry:
 released: Oct 26, 2021
 updated: 2022-09-15
 version: 1.2.8
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 20
+reviews: 22
 size: 
 website: https://lcx.com
 repository: 

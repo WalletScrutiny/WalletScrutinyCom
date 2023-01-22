@@ -3,12 +3,12 @@ wsId:
 title: Trade4FastPay
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.trade4fastpay.trade4fastpay
 appCountry: 
 released: Oct 15, 2021
-updated: 2021-10-16
-version: '1.1'
+updated: 2023-01-17
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trade4fastpay.trade4fastpay.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-11-02
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 

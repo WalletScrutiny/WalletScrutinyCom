@@ -3,15 +3,15 @@ wsId:
 title: Blockchain.com Exchange
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.blockchain.exchange
 appCountry: 
 released: Oct 27, 2021
-updated: 2022-12-02
-version: 202211.2.1
+updated: 2022-12-20
+version: 202212.1.1
 stars: 4.4
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://www.blockchain.com
 repository: 

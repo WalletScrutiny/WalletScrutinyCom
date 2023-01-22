@@ -9,9 +9,9 @@ appCountry:
 released: Feb 11, 2019
 updated: 2019-06-19
 version: 1.0.3
-stars: 2.8
+stars: 2.1
 ratings: 
-reviews: 2
+reviews: 5
 size: 
 website: https://wc-s.com/wallet
 repository: 

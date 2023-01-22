@@ -8,19 +8,19 @@ appId: com.xchangecapital.prostocash
 appCountry: ru
 idd: '1477838562'
 released: '2019-09-09T07:00:00Z'
-updated: 2020-06-22
-version: 2.0.2
-stars: 4
-reviews: 36
-size: '90692608'
+updated: 2022-12-22
+version: 2.0.3
+stars: 3.9
+reviews: 37
+size: '70281216'
 website: https://prostocash.com
 repository: 
 issue: 
 icon: com.xchangecapital.prostocash.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2022-06-13
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: 

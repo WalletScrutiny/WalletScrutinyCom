@@ -3,12 +3,12 @@ wsId:
 title: Qmall APP
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.qmall.exchange
 appCountry: 
 released: Dec 14, 2021
-updated: 2022-11-24
-version: 1.1.30
+updated: 2022-12-28
+version: 1.1.32
 stars: 
 ratings: 
 reviews: 

@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Bitkub : Buy & Sell Bitcoin'
+title: 'Bitkub :  ซื้อ  & ขาย บิตคอยน์'
 altTitle: 
 authors: 
 appId: com.bitkub.app
 appCountry: ph
 idd: 1437814700
 released: 2019-04-24
-updated: 2021-11-27
-version: '3.8'
+updated: 2022-12-06
+version: '3.15'
 stars: 0
 reviews: 0
-size: '63395840'
+size: '96697344'
 website: https://www.bitkub.com/download
 repository: 
 issue: 

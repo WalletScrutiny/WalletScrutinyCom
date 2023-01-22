@@ -8,11 +8,11 @@ appId: com.monnos
 appCountry: br
 idd: 1476884342
 released: 2019-09-30
-updated: 2022-12-19
-version: 5.6.19
+updated: 2023-01-14
+version: 5.6.21
 stars: 4.5
-reviews: 196
-size: '125050880'
+reviews: 197
+size: '125034496'
 website: https://monnos.com
 repository: 
 issue: 

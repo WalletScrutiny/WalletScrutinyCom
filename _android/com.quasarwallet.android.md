@@ -3,7 +3,7 @@ wsId:
 title: Quasar Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.quasarwallet.android
 appCountry: 
 released: Apr 5, 2022

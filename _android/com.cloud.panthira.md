@@ -7,8 +7,8 @@ users: 5000
 appId: com.cloud.panthira
 appCountry: 
 released: 
-updated: 2021-08-19
-version: 1.0.0
+updated: 2022-12-21
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.panthira.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-10-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

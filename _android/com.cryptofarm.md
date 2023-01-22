@@ -8,11 +8,11 @@ users: 500000
 appId: com.cryptofarm
 appCountry: 
 released: 2021-06-10
-updated: 2022-12-09
-version: 1.0.318
-stars: 4.1
+updated: 2022-12-28
+version: 1.0.319
+stars: 3.9
 ratings: 6172
-reviews: 415
+reviews: 431
 size: 
 website: https://cryptotab.farm/
 repository: 

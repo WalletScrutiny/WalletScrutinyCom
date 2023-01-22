@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Vault12 Inheritance Crypto/NFT
+title: Vault12 Inherit Crypto & NFTs
 altTitle: 
 authors: 
 users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: Aug 28, 2019
-updated: 2022-11-08
-version: 1.7.0
+updated: 2022-12-21
+version: 1.7.10
 stars: 4.4
 ratings: 
 reviews: 99

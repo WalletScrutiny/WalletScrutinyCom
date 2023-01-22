@@ -12,7 +12,7 @@ updated: 2022-04-20
 version: 1.9.94
 stars: 4.2
 ratings: 513
-reviews: 22
+reviews: 21
 size: 
 website: https://www.counos.io
 repository: 

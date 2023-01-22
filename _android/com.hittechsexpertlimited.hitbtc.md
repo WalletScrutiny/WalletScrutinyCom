@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HitBTC Crypto Exchange&Trading
+title: HitBTC crypto coin exchange
 altTitle: 
 authors:
 - leo
@@ -17,7 +17,7 @@ size:
 website: https://hitbtc.com/
 repository: 
 issue: 
-icon: com.hittechsexpertlimited.hitbtc.png
+icon: com.hittechsexpertlimited.hitbtc.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

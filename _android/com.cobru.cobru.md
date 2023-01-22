@@ -3,7 +3,7 @@ wsId:
 title: Cobru
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.cobru.cobru
 appCountry: 
 released: Jun 26, 2021

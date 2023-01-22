@@ -11,7 +11,7 @@ released: 2020-09-21
 updated: 2022-12-11
 version: 2.11.2
 stars: 4.8
-reviews: 385
+reviews: 384
 size: '279813120'
 website: https://www.whalefin.com
 repository: 

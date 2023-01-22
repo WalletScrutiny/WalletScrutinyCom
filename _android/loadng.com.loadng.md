@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: loadng.com.loadng.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-03
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: loadngautomated

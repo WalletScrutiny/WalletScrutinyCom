@@ -12,7 +12,7 @@ updated: 2021-12-13
 version: 1.4.0
 stars: 3.7
 ratings: 173
-reviews: 36
+reviews: 37
 size: 
 website: https://nominex.io/defi-nmx
 repository: 

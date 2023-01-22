@@ -7,8 +7,8 @@ users: 1000
 appId: com.bitgo.mobile
 appCountry: 
 released: Apr 15, 2022
-updated: 2022-11-02
-version: 1.5.0
+updated: 2023-01-19
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 

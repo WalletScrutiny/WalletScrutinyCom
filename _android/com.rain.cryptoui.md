@@ -7,8 +7,8 @@ users: 100
 appId: com.rain.cryptoui
 appCountry: 
 released: 2021-05-13
-updated: 2022-11-17
-version: 1.1.0
+updated: 2023-01-18
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

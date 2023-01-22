@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coincollect.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-04-17
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: coincollectHQ

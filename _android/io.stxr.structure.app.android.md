@@ -7,11 +7,11 @@ users: 5000
 appId: io.stxr.structure.app.android
 appCountry: 
 released: May 6, 2022
-updated: 2022-12-15
-version: 1.4.0-prod
-stars: 4
+updated: 2022-12-28
+version: 1.4.2-prod
+stars: 3.7
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://structure.fi
 repository: 

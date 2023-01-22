@@ -8,8 +8,11 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-weight: 
+dimensions:
+- 70
+- 40
+- 10
+weight: 35
 provider: Chelpis Co., Ltd.
 providerWebsite: https://www.chelpis.com/
 website: https://www.kelvinwallet.com
@@ -22,13 +25,19 @@ icon: chelpis.kelvinwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-29
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 
 ---
+
+## Updated Review 2022-11-25
+
+Unfortunately, we did not receive a reply to our email. As there is still no evidence of the source being available for review, this wallet will remain non-verifiable.
+
+
 
 ## Product Description 
 

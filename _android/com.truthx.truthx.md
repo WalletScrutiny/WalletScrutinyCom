@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.truthx.truthx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-01
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 

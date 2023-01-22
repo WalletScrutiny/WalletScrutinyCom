@@ -8,11 +8,11 @@ users: 50000
 appId: com.Android.Inc.bitwallet
 appCountry: 
 released: 2019-07-22
-updated: 2022-09-29
-version: 1.4.28
-stars: 4.9
+updated: 2022-12-24
+version: 1.4.30
+stars: 4.7
 ratings: 1214
-reviews: 489
+reviews: 580
 size: 
 website: https://www.bitwallet.org
 repository: 

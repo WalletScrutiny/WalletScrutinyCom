@@ -8,11 +8,11 @@ users: 10000
 appId: com.papaya.gekkard
 appCountry: mt
 released: 2020-01-30
-updated: 2022-03-18
-version: 1.0.6
+updated: 2023-01-10
+version: 1.0.7
 stars: 2.3
 ratings: 43
-reviews: 42
+reviews: 45
 size: 
 website: https://gekkoin.com/index.html
 repository: 

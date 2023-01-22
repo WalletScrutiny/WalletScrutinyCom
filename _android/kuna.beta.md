@@ -12,7 +12,7 @@ updated: 2022-12-09
 version: 1.4.25
 stars: 3.4
 ratings: 1118
-reviews: 11
+reviews: 12
 size: 
 website: https://kuna.io/
 repository: 

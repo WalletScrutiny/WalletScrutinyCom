@@ -4,15 +4,15 @@ title: 'Metal Pay: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
-updated: 2022-10-25
-version: 2.6.17-prod
-stars: 3.9
+updated: 2023-01-18
+version: 2.6.22-prod
+stars: 4
 ratings: 564
-reviews: 300
+reviews: 304
 size: 
 website: https://metalpay.com
 repository: 

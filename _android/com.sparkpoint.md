@@ -11,9 +11,9 @@ appCountry: us
 released: 2019-07-20
 updated: 2022-12-16
 version: 11.1.0
-stars: 3.8
+stars: 3.7
 ratings: 608
-reviews: 69
+reviews: 68
 size: 
 website: https://sparkpoint.io/
 repository: 

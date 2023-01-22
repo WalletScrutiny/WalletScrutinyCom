@@ -22,9 +22,9 @@ repository:
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekey.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: nosource
-date: 2022-01-05
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: OneKeyHQ
@@ -32,6 +32,10 @@ social:
 - https://www.reddit.com/r/OneKeyHQ
 
 ---
+
+**Update 2022-12-28**: The provider sent us a
+[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
+We have to check this.
 
 OneKey is an open source hardware wallet by Bixin. The primary language for the website is Chinese. OneKey, the company claims to be based in Singapore
 

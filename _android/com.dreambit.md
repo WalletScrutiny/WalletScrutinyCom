@@ -8,9 +8,9 @@ users: 1000
 appId: com.dreambit
 appCountry: lv
 released: 2021-02-16
-updated: 2022-07-29
-version: 1.0.0.55-dreambit
-stars: 3.8
+updated: 2022-12-29
+version: 3.0.0-dreambit
+stars: 3.9
 ratings: 21
 reviews: 8
 size: 

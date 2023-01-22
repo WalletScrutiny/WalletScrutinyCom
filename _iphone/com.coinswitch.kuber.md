@@ -8,11 +8,11 @@ appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
 released: 2020-12-01
-updated: 2022-12-19
-version: 4.3.3
+updated: 2023-01-15
+version: 4.4.1
 stars: 4.5
-reviews: 45360
-size: '105306112'
+reviews: 45827
+size: '105396224'
 website: https://coinswitch.co/in
 repository: 
 issue: 

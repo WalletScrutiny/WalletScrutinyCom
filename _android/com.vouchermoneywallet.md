@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vouchermoneywallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-02-27
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 
