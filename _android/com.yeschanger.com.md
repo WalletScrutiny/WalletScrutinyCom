@@ -3,7 +3,7 @@ wsId:
 title: Yeschanger Ecurrency Exchanger
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.yeschanger.com
 appCountry: 
 released: Jun 2, 2022

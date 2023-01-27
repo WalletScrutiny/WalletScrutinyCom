@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 116
 reviews: 96
 size: 
-website: https://www.wisebitcoin.com
+website: https://www.batonex.com
 repository: 
 issue: 
 icon: com.wisebitcoin.broker.android.png

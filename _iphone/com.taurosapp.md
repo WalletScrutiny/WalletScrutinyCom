@@ -8,11 +8,11 @@ appId: com.taurosapp
 appCountry: mx
 idd: '1480919460'
 released: '2019-12-08T08:00:00Z'
-updated: 2022-12-31
-version: '9.5'
+updated: 2023-01-26
+version: '9.6'
 stars: 3.5
-reviews: 185
-size: '88692736'
+reviews: 186
+size: '87051264'
 website: 
 repository: 
 issue: 

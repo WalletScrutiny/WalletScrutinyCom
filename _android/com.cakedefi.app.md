@@ -12,7 +12,7 @@ updated: 2022-12-09
 version: 4.0.1
 stars: 3.5
 ratings: 1135
-reviews: 156
+reviews: 157
 size: 
 website: https://cakedefi.com
 repository: 

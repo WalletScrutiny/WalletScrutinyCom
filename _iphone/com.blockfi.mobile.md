@@ -9,8 +9,8 @@ idd: 1506274532
 released: 2020-05-05
 updated: 2022-12-04
 version: 5.12.3
-stars: 2.9
-reviews: 1128
+stars: 2.8
+reviews: 1131
 size: '118866944'
 website: https://blockfi.com/
 repository: 

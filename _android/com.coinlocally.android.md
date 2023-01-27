@@ -3,7 +3,7 @@ wsId:
 title: Coinlocally
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.coinlocally.android
 appCountry: 
 released: Apr 21, 2022

@@ -10,8 +10,8 @@ idd: '1573381060'
 released: '2021-08-19T07:00:00Z'
 updated: 2022-04-20
 version: '5.8'
-stars: 2
-reviews: 1
+stars: 3
+reviews: 2
 size: '37640192'
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract

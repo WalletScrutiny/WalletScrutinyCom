@@ -1,5 +1,5 @@
 ---
-title: "Xellox Zifer"
+title: Xellox Zifer
 appId: xellox.zifer
 authors:
 - danny
@@ -26,8 +26,9 @@ date: 2022-11-23
 signer: 
 reviewArchive: 
 twitter: xelloxWallet
-social: 
-  - https://www.linkedin.com/company/xellox/
+social:
+- https://www.linkedin.com/company/xellox/
+
 ---
 
 No information is available prior to release date.

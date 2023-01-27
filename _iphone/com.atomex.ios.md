@@ -8,11 +8,11 @@ appId: com.atomex.ios
 appCountry: 
 idd: 1534717828
 released: 2020-12-03
-updated: 2022-09-26
-version: '1.21'
+updated: 2023-01-23
+version: '1.22'
 stars: 3.4
 reviews: 10
-size: '140784640'
+size: '47008768'
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: 

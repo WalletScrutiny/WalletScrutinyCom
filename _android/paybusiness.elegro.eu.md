@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'elegro Business wallet - your '
+title: elegro Business online banking
 altTitle: 
 authors: 
 users: 100

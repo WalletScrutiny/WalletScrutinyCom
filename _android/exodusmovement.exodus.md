@@ -12,7 +12,7 @@ updated: 2023-01-13
 version: 23.1.16
 stars: 4.5
 ratings: 81868
-reviews: 6441
+reviews: 6453
 size: 
 website: https://exodus.com/mobile
 repository: 

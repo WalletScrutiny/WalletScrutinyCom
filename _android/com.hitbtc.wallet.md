@@ -1,6 +1,6 @@
 ---
 wsId: HitBTCWallet
-title: HitBTC Crypto & Bitcoin Wallet
+title: HitBTC altcoin crypto wallet
 altTitle: 
 authors:
 - danny

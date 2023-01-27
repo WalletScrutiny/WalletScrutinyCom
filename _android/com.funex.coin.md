@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Funex Coin
+title: 'Funex: Crypto & Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 1000

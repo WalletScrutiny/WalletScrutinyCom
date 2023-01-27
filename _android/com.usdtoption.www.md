@@ -9,9 +9,9 @@ appCountry:
 released: 2020-05-10
 updated: 2020-05-10
 version: 1.1.1
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://www.usdtoption.com
 repository: 

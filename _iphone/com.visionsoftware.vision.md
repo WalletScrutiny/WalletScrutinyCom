@@ -9,11 +9,11 @@ appId: com.visionsoftware.vision
 appCountry: 
 idd: 1500186931
 released: 2020-04-01
-updated: 2022-12-09
-version: 2.4.45
+updated: 2023-01-22
+version: 2.4.46
 stars: 4.7
 reviews: 38
-size: '109739008'
+size: '122827776'
 website: https://www.vision-crypto.com
 repository: 
 issue: 

@@ -1,20 +1,20 @@
 ---
 wsId: 
-title: SecuX Wallet for SecuX Nifty Hardware Wallet
+title: SecuX Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 500
 appId: com.secuxtech.secuxtwallet
 appCountry: TW
 released: 2022-05-20
-updated: 2022-10-07
+updated: 2022-11-01
 version: 1.2.00
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.secuxtech.com
+website: https://secuxtech.com/
 repository: 
 issue: 
 icon: com.secuxtech.secuxtwallet.png

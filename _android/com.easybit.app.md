@@ -3,7 +3,7 @@ wsId:
 title: EasyBit
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.easybit.app
 appCountry: 
 released: 2020-01-16
@@ -19,7 +19,7 @@ issue:
 icon: com.easybit.app.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-12-17
 signer: 
 reviewArchive: 

@@ -4,7 +4,7 @@ title: Pouch.ph - Lightning Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: pouch.ph
 appCountry: 
 released: Sep 8, 2021

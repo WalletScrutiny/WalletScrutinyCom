@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 82.9
-- 50.9
+- 83
+- 51
 - 5.3
 weight: 45.2
 provider: BitHD
@@ -21,13 +21,13 @@ country: CN
 price: 69.99 USD
 repository: 
 issue: 
-icon: bitHDRazorPro.png
+icon: bithdrazorpro.png
 bugbounty: 
 meta: ok
 verdict: nosource
 date: 2022-11-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: bitpiewallet
 social: 
 

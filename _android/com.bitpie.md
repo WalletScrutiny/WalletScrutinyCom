@@ -1,6 +1,6 @@
 ---
 wsId: bitpie
-title: Bitpie Wallet - Bitcoin USDT ETH EOS BCH TRON LTC
+title: Bitpie Wallet
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: com.bitpie
 appCountry: 
 released: 2016-10-23
-updated: 2021-12-27
-version: 5.0.056
+updated: 2022-12-26
+version: 5.0.121.g
 stars: 3.9
 ratings: 847
-reviews: 112
-size: 57M
+reviews: 113
+size: 
 website: http://bitpie.com
 repository: 
 issue: 

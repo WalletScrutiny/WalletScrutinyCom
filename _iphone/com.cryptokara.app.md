@@ -11,7 +11,7 @@ released: '2021-10-19T07:00:00Z'
 updated: 2022-06-25
 version: 1.4.0
 stars: 4.1
-reviews: 34
+reviews: 35
 size: '41851904'
 website: https://crypto-kara-site.vercel.app/
 repository: 
