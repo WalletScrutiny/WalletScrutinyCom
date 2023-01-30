@@ -9,7 +9,7 @@ discontinued:
 updated: 2022-11-22
 version: 0.4.773
 binaries: 
-dimensions:
+dimensions: 
 - 30
 - 64
 - 15
@@ -33,6 +33,7 @@ twitter: CypherockWallet
 social:
 - https://www.linkedin.com/company/cypherockwallet
 - https://www.facebook.com/cypherock
+- https://www.youtube.com/playlist?list=PL0db5IfQ4iyriWCgby_rJKeG31BLoxW7k
 
 ---
 
