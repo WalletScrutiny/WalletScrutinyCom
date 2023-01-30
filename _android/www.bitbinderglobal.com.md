@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: www.bitbinderglobal.com.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-01-16
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

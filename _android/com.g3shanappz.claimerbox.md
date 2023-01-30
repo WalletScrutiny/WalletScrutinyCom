@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.g3shanappz.claimerbox.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

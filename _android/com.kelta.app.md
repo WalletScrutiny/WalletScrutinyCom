@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kelta.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-23
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

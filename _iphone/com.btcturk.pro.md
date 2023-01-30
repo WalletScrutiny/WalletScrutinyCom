@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.btcturk.pro.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

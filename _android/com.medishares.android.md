@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.medishares.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-06-18
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: Mathwallet

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cyclebas.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

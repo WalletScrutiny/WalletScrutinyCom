@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.duniapay.africa.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-08-01
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: dunia_pay
