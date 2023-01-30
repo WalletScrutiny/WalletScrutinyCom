@@ -8,8 +8,8 @@ appId: com.traderwagon.android
 appCountry: 
 released: May 24, 2022
 updated: 2023-01-20
-version: 1.4.0
-stars: 4.5
+version: 1.4.1
+stars: 4.6
 ratings: 
 reviews: 5
 size: 

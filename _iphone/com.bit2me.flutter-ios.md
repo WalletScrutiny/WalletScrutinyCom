@@ -11,7 +11,7 @@ released: 2019-06-04
 updated: 2023-01-24
 version: 2.2.31
 stars: 4.3
-reviews: 49
+reviews: 50
 size: '130611200'
 website: https://bit2me.com
 repository: 

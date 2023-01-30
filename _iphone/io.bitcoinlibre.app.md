@@ -11,7 +11,7 @@ released: 2021-10-27
 updated: 2023-01-26
 version: 3.3.1
 stars: 4.4
-reviews: 444
+reviews: 447
 size: '35616768'
 website: http://bitcoinlibre.io/
 repository: 

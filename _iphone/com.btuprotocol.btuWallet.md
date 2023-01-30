@@ -8,8 +8,8 @@ appId: com.btuprotocol.btuWallet
 appCountry: ba
 idd: 1539304605
 released: 2021-03-15
-updated: 2023-01-24
-version: 2.12.0
+updated: 2023-01-27
+version: 2.13.1
 stars: 0
 reviews: 0
 size: '66740224'

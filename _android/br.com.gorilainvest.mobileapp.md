@@ -10,9 +10,9 @@ appCountry:
 released: May 13, 2019
 updated: 2023-01-20
 version: 4.0.0
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://gorila.com.br
 repository: 

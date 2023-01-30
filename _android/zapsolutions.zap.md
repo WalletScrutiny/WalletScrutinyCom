@@ -8,7 +8,7 @@ users: 10000
 appId: zapsolutions.zap
 appCountry: 
 released: 
-updated: 2022-03-20
+updated: 2023-01-29
 version: VARY
 stars: 
 ratings: 

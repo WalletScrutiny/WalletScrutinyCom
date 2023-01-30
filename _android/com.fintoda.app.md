@@ -3,7 +3,7 @@ wsId:
 title: Fintoda Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.fintoda.app
 appCountry: 
 released: Aug 26, 2021

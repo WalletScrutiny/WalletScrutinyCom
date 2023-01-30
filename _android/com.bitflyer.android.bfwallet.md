@@ -10,9 +10,9 @@ appCountry: jp
 released: 2019-10-19
 updated: 2023-01-23
 version: 7.21.0
-stars: 3.9
+stars: 4
 ratings: 4430
-reviews: 1421
+reviews: 1423
 size: 
 website: https://bitflyer.com
 repository: 

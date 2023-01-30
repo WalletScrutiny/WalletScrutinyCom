@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vistabitz.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-01-28
 signer: 
 reviewArchive: 
 twitter: 

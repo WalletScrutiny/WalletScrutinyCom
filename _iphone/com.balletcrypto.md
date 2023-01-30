@@ -10,7 +10,7 @@ released: 2019-09-11
 updated: 2023-01-16
 version: 2.5.0
 stars: 4.9
-reviews: 807
+reviews: 808
 size: '126350336'
 website: https://www.ballet.com/
 repository: 

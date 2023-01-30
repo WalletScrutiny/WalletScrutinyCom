@@ -9,9 +9,9 @@ appCountry:
 released: 2021-05-27
 updated: 2023-01-23
 version: 8.12.0
-stars: 2.9
+stars: 2.8
 ratings: 603
-reviews: 20
+reviews: 19
 size: 
 website: https://xapo.com
 repository: 

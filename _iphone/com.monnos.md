@@ -11,7 +11,7 @@ released: 2019-09-30
 updated: 2023-01-14
 version: 5.6.21
 stars: 4.5
-reviews: 197
+reviews: 198
 size: '125034496'
 website: https://monnos.com
 repository: 

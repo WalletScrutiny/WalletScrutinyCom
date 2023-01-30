@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: DFX Swiss
+title: DFX DeFiChain Wallet
 altTitle: 
 authors: 
 users: 5000
 appId: com.defichain.app.dfx
 appCountry: 
 released: Aug 24, 2021
-updated: 2023-01-23
-version: 1.19.0
+updated: 2023-01-28
+version: 1.19.3
 stars: 3.5
 ratings: 
 reviews: 3

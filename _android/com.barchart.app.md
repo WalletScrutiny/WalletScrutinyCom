@@ -12,16 +12,16 @@ updated: 2022-02-01
 version: 3.0.7
 stars: 4.6
 ratings: 9788
-reviews: 2114
+reviews: 2115
 size: 
 website: http://www.barchart.com/app
 repository: 
 issue: 
 icon: com.barchart.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-01
+date: 2023-01-28
 signer: 
 reviewArchive: 
 twitter: Barchart
