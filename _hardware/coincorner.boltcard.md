@@ -3,7 +3,7 @@ title: CoinCorner Bolt Card
 appId: coincorner.boltcard
 authors:
 - danny
-released: 
+released: 2022-05-17
 discontinued: 
 updated: 
 version: 
@@ -12,24 +12,29 @@ dimensions:
 weight: 
 provider: CoinCorner
 providerWebsite: https://www.coincorner.com/
-website: 
-shop: 
+website: https://www.coincorner.com/theboltcard
+shop: https://www.coincorner.com/BuyTheBoltCard
 country: UK
-price: 
+price: £4.99
 repository: 
 issue: 
 icon: coincorner.boltcard.png
 bugbounty: 
 meta: ok
 verdict: noita
+features: 
+- ln
 date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: CoinCorner
 social: 
+- https://www.facebook.com/CoinCorner/
+- https://www.linkedin.com/company/coincorner-ltd/
+- https://www.youtube.com/channel/UC_Jkoc7F2bmrZJu6akhJPkw
+- https://blog.coincorner.com/
 
 ---
-
 ## Updated Review 2022-11-25
 
 Bolt Card is now available for purchase. CoinCorner's homepage describes it as a physical card that you can tap to pay via Lightning in person or on a website on your phone.
@@ -66,9 +71,6 @@ From the FAQ on the official [Coin Corner](https://www.coincorner.com/TheBoltCar
 > Using a standard NFC card, the Bitcoin Lightning Network and LNURL, The Bolt Card enables a user to simply tap their card on a point of sale device displaying a Lightning invoice and the Lightning payment is made in the background. This transaction is carried out over the Bitcoin Lightning Network with not a single legacy payment system used.
 
 The Bolt Card can communicate with point of sale devices via NFC. It is also compatible with protocols such as Lightning and LNURL.
-
-
-
 
 ## Background 
 

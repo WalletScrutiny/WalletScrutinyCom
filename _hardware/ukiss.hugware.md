@@ -3,7 +3,7 @@ title: UKISS Hugware®
 appId: ukiss.hugware
 authors:
 - danny
-released: 
+released: 2022-06-20
 discontinued: 
 updated: 
 version: 
@@ -21,8 +21,8 @@ issue:
 icon: ukiss.hugware.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-03-23
+verdict: noita
+date: 2022-11-09
 signer: 
 reviewArchive: 
 twitter: UKISSTech
@@ -36,6 +36,59 @@ social:
 - https://www.instagram.com/ukisstech/
 
 ---
+
+## Updated Analysis 2022-11-09
+
+The {{page.title}} is unique in its security implementation. Most of the mainstream devices are stand-alone or paired with a mobile phone. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4-OMRrQ2pkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+The two devices: 
+
+- Have no interface
+- Have to be connected to a desktop computer with the UKiss Hub Software installed (currently at v.1.1.3) or the UKiss app when connected to a mobile phone.
+- [Require user registration](www.ukiss.io/my-account/.) to activate 5-year warranty
+- Does not use recovery phrases
+
+> Hugware comes in a pair. During setup, the master seed is generated in the Authentication Key (A-Key) and synchronised with the Rescue Key (R-Key). Use the A-Key to manage your crypto assets and keep your R-Key for when you need to recover access in the future. 
+>
+> Our state-of-the-art key pairing feature lets users do away with recovery phrases, thereby minimising instances of human error, phishing, and theft. However, it is your responsibility to ensure the security of your Hugware. Store your devices in a safe location and guard your authentication with a strong PIN.
+
+| KEY FUNCTIONS         |                    |            |
+|-----------------------|--------------------|------------|
+|                       | Authentication-Key | Rescue-Key |
+| Add wallet            | ✅                  | ✘          |
+| Import wallet         | ✅                  | ✅          |
+| Create account        | ✅                  | ✘          |
+| Remove account/wallet | ✅                  | ✘          |
+| Add asset             | ✅                  | ✘          |
+| Add token             | ✅                  | ✘          |
+| Move asset            | ✅                  | ✘          |
+| Send asset            | ✅                  | ✅          |
+| Add contact           | ✅                  | ✅          |
+| Reset PIN             | ✅                  | ✅          |
+| Recover key           | ✅                  | ✅          |
+| Duplicate keys        | ✅                  | ✅          |
+
+### Setup 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MFZrnEa9Eos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Notes
+
+If the user loses the A-key device (Authentication) which contains the master key, the user can request the manufacturer to send a replacement. Once the replacement arrives, the A-key and the R-key are then synchronized. 
+
+The desktop software and firmware are both not source-available.
+
+## Verdict 
+
+Both the A-key and the R-key **do not have a display or an interface** the user can interact with. Both devices are intended to be plugged in via USB-A or USB-C.
+
+
+## Documentation
+
+[User guide](https://www.ukiss.io/userguide/)
 
 ## Product Description 
 
