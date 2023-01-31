@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: zebedeeio
 social: 
+features:
+- ln
 
 ---
 

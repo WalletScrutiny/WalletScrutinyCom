@@ -27,6 +27,8 @@ twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx
 - https://www.facebook.com/KrakenFX
+features:
+- ln
 
 ---
 

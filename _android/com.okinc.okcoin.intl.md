@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/okcoin
 - https://www.facebook.com/OkcoinOfficial
 redirect_from: 
+features:
+- ln
 
 ---
 

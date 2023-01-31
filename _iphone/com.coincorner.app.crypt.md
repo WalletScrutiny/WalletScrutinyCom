@@ -26,6 +26,8 @@ reviewArchive:
 twitter: CoinCorner
 social:
 - https://www.facebook.com/CoinCorner
+features:
+- ln
 
 ---
 

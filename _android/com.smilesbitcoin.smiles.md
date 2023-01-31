@@ -28,6 +28,8 @@ twitter: smilesbitcoin
 social:
 - https://www.facebook.com/smilesbitcoin
 redirect_from: 
+features:
+- ln
 
 ---
 

@@ -31,6 +31,8 @@ social:
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
 redirect_from: 
+features:
+- ln
 
 ---
 

@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.spark.wallet/
 - /posts/com.spark.wallet/
+features:
+- ln
 
 ---
 

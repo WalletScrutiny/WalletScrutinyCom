@@ -31,6 +31,8 @@ social:
 redirect_from:
 - /com.kraken.trade/
 - /posts/com.kraken.trade/
+features:
+- ln
 
 ---
 

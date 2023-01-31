@@ -9,8 +9,9 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 85.6
-- 53.98
+- 86
+- 54
+- 0.8
 weight: 
 provider: eSignus Security Solutions, S.L.
 providerWebsite: https://www.esignus.com/

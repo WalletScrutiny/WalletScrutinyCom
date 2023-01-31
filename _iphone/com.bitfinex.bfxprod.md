@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/bitfinex
 - https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
+features:
+- ln
 
 ---
 

@@ -37,6 +37,8 @@ redirect_from:
 - /io.bluewallet.bluewallet/
 - /posts/2019/12/bluewallet/
 - /posts/io.bluewallet.bluewallet/
+features:
+- ln
 
 ---
 

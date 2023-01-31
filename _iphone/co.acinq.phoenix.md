@@ -26,6 +26,8 @@ signer:
 reviewArchive: 
 twitter: PhoenixWallet
 social: 
+features:
+- ln
 
 ---
 

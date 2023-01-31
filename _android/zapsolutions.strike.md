@@ -27,6 +27,8 @@ twitter: ln_strike
 social: 
 redirect_from:
 - /zapsolutions.strike/
+features:
+- ln
 
 ---
 
