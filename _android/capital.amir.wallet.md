@@ -4,7 +4,7 @@ title: 'Crypto Wallet Amir: buy BTC'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: capital.amir.wallet
 appCountry: 
 released: 2021-08-03

@@ -26,7 +26,8 @@ date: 2022-11-17
 signer: 
 reviewArchive: 
 twitter: offlinecashco
-social:
+social: 
+
 ---
 
 ## [Product Description from the FAQ](https://offline.cash/pages/faq)

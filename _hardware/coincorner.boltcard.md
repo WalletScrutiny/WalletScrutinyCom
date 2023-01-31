@@ -22,19 +22,20 @@ icon: coincorner.boltcard.png
 bugbounty: 
 meta: ok
 verdict: noita
-features: 
-- ln
 date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: CoinCorner
-social: 
+social:
 - https://www.facebook.com/CoinCorner/
 - https://www.linkedin.com/company/coincorner-ltd/
 - https://www.youtube.com/channel/UC_Jkoc7F2bmrZJu6akhJPkw
 - https://blog.coincorner.com/
+features:
+- ln
 
 ---
+
 ## Updated Review 2022-11-25
 
 Bolt Card is now available for purchase. CoinCorner's homepage describes it as a physical card that you can tap to pay via Lightning in person or on a website on your phone.

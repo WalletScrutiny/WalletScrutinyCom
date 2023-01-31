@@ -3,7 +3,7 @@ wsId:
 title: B2Z Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.interakt.b2z
 appCountry: 
 released: Apr 12, 2022

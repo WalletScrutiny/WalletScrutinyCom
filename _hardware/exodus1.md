@@ -35,7 +35,6 @@ social:
 
 ---
 
-
 The HTC Exodus 1 Cryptophone is not comparable to other hardware wallets such as Trezor or Ledger Nano because it is in essence, still a smartphone.
 
 [Here is a video review](https://www.youtube.com/watch?v=PR5PkTa1ags) of this product.

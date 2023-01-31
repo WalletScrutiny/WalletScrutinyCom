@@ -1,5 +1,5 @@
 ---
-title: "eSignus Hashwallet Link"
+title: eSignus Hashwallet Link
 appId: esignus.hashwallet.link
 authors:
 - danny
@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 85.6
 - 53.98
 weight: 
@@ -28,9 +28,10 @@ date: 2022-11-08
 signer: 
 reviewArchive: 
 twitter: esignus
-social: 
+social:
 - https://www.linkedin.com/company/esignus/
 - https://www.facebook.com/hashwalletofficial/
+
 ---
 
 ## Product Description 

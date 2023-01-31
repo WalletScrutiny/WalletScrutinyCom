@@ -9,10 +9,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-- 82.5
+dimensions:
+- 83
 - 52
-- 4 
+- 4
 weight: 41
 provider: HITO Lab GmbH
 providerWebsite: https://hito.xyz/
@@ -30,9 +30,10 @@ date: 2022-11-17
 signer: 
 reviewArchive: 
 twitter: hito_xyz
-social: 
+social:
 - https://www.facebook.com/wallethito
 - https://www.linkedin.com/company/hito-ai/
+
 ---
 
 ## Update 2022-11-17

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: coincircle

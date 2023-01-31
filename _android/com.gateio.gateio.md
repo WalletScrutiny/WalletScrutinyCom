@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 3.11.4
 stars: 4.8
 ratings: 17546
-reviews: 2086
+reviews: 2091
 size: 
 website: https://gate.io/
 repository: 

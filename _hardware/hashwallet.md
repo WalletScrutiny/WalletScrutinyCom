@@ -34,6 +34,7 @@ twitter: hashwallet
 social:
 - https://www.linkedin.com/company/esignus
 - https://www.facebook.com/hashwalletofficial/
+
 ---
 
 **Update 2023-01-30**: This product is now available for 450 users. As it has no

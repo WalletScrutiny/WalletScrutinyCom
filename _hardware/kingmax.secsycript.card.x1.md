@@ -8,9 +8,9 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-- 85.6
-- 53.96
+dimensions:
+- 86
+- 54
 - 0.9
 weight: 
 provider: KingMax
@@ -29,10 +29,11 @@ date: 2021-03-11
 signer: 
 reviewArchive: 
 twitter: KINGMAX_tweet
-social: 
+social:
 - https://www.facebook.com/kingmax.global/
 - https://www.instagram.com/kingmax.global/
 - https://www.youtube.com/channel/UCSt179072OoLbwJtv-qvxWw
+
 ---
 
 ## Companion App 

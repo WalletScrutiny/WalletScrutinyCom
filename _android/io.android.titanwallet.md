@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Covo Wallet: Gateway to DeFi'
+title: 'Covo Finance: DeFi Wallet'
 altTitle: 
 authors: 
 users: 10
