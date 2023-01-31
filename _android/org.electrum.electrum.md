@@ -56,6 +56,8 @@ redirect_from:
 - /org.electrum.electrum/
 - /posts/2019/12/elecrtum/
 - /posts/org.electrum.electrum/
+features:
+- ln
 
 ---
 

@@ -27,6 +27,8 @@ twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin
 - https://www.facebook.com/OkcoinOfficial
+features:
+- ln
 
 ---
 

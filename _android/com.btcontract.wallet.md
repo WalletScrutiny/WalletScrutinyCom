@@ -88,6 +88,8 @@ reviewArchive:
 twitter: SimpleBtcWallet
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

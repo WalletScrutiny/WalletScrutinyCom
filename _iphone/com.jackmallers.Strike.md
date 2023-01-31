@@ -24,6 +24,8 @@ signer:
 reviewArchive: 
 twitter: ln_strike
 social: 
+features:
+- ln
 
 ---
 

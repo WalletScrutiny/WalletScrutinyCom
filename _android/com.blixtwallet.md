@@ -4,6 +4,7 @@ title: Blixt Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000
 appId: com.blixtwallet
 appCountry: 
@@ -27,6 +28,8 @@ reviewArchive:
 twitter: BlixtWallet
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

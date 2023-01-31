@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /app.zeusln.zeus/
 - /posts/app.zeusln.zeus/
+features:
+- ln
 
 ---
 

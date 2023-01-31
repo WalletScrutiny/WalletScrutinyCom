@@ -26,6 +26,8 @@ reviewArchive:
 twitter: walletofsatoshi
 social:
 - https://www.facebook.com/walletofsatoshi
+features:
+- ln
 
 ---
 

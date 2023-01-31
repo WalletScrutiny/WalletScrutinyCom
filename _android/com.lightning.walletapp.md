@@ -36,6 +36,8 @@ redirect_from:
 - /com.lightning.walletapp/
 - /posts/2019/11/bictcoinlightningwallet/
 - /posts/com.lightning.walletapp/
+features:
+- ln
 
 ---
 

@@ -27,6 +27,8 @@ twitter: BitpieWallet
 social:
 - https://www.facebook.com/BitpieOfficial
 - https://www.reddit.com/r/BitpieWallet
+features:
+- ln
 
 ---
 

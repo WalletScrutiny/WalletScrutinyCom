@@ -24,6 +24,8 @@ signer:
 reviewArchive: 
 twitter: ZeusLN
 social: 
+features:
+- ln
 
 ---
 

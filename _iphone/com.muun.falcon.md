@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: muunwallet
 social: 
+features:
+- ln
 
 ---
 

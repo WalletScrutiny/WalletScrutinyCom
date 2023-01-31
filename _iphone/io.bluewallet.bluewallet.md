@@ -26,6 +26,8 @@ reviewArchive:
 twitter: bluewalletio
 social:
 - https://www.reddit.com/r/bluewallet
+features:
+- ln
 
 ---
 

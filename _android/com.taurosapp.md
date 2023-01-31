@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/tauros.io
 - https://www.linkedin.com/company/taurosio/
 redirect_from: 
+features:
+- ln
 
 ---
 
