@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/perkscoin
 redirect_from:
 - /com.ptpwallet/
+features: 
 
 ---
 

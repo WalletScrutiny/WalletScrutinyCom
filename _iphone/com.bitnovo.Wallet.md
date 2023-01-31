@@ -27,6 +27,7 @@ twitter: bitnovo
 social:
 - https://www.linkedin.com/company/Bitnovo
 - https://www.facebook.com/BitcoinBitnovo
+features: 
 
 ---
 

@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 redirect_from: 
+features: 
 
 ---
 

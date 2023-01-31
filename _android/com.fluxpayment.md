@@ -28,6 +28,7 @@ twitter: ifluxdotapp
 social:
 - https://www.linkedin.com/company/iflux-pay
 redirect_from: 
+features: 
 
 ---
 

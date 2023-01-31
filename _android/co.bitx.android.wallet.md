@@ -38,6 +38,7 @@ redirect_from:
 - /co.bitx.android.wallet/
 - /posts/2019/11/luno/
 - /posts/co.bitx.android.wallet/
+features: 
 
 ---
 

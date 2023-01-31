@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
 redirect_from: 
+features: 
 
 ---
 

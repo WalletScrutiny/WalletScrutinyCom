@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 500000
+users: 1000000
 appId: com.roqqu.app
 appCountry: 
 released: 2019-09-30
@@ -29,6 +29,7 @@ twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay
 redirect_from: 
+features: 
 
 ---
 

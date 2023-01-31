@@ -11,7 +11,7 @@ released: 2018-12-01
 updated: 2022-12-06
 version: 2.75.0
 stars: 4.2
-reviews: 831
+reviews: 832
 size: '163475456'
 website: https://guarda.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: GuardaWallet
 social:
 - https://www.facebook.com/guarda.co
 - https://www.reddit.com/r/GuardaWallet
+features: 
 
 ---
 

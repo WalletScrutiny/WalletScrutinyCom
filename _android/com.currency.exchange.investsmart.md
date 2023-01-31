@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 redirect_from: 
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/Kriptofuture
 redirect_from: 
+features: 
 
 ---
 

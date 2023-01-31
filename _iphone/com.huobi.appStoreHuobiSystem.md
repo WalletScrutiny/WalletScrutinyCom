@@ -11,7 +11,7 @@ released: 2015-08-19
 updated: 2023-01-19
 version: 9.5.0
 stars: 4.5
-reviews: 2442
+reviews: 2443
 size: '255113216'
 website: https://www.huobi.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
+features: 
 
 ---
 

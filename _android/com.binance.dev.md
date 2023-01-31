@@ -12,7 +12,7 @@ updated: 2023-01-21
 version: 2.59.3
 stars: 4.4
 ratings: 619117
-reviews: 9287
+reviews: 9281
 size: 
 website: https://www.binance.com/
 repository: 
@@ -32,6 +32,7 @@ redirect_from:
 - /binance/
 - /com.binance.dev/
 - /posts/com.binance.dev/
+features: 
 
 ---
 

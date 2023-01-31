@@ -35,6 +35,7 @@ social:
   https://www.google.com/maps/place/BlockchainMind/@43.6485686,-79.3780473,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cd7ccb1664cf:0xa20fcd79fe163a0a!8m2!3d43.6485686!4d-79.3780473
 - >-
   https://api.whatsapp.com/send?phone=+14167053572&text=Hi%20there!%20I%20have%20a%20question%20:)
+features: 
 
 ---
 

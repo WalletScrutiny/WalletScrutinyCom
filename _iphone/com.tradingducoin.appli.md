@@ -26,6 +26,7 @@ reviewArchive:
 twitter: TradingduCoin
 social:
 - https://www.facebook.com/TradingduCoin
+features: 
 
 ---
 

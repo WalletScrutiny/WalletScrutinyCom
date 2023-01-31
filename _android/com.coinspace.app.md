@@ -33,6 +33,7 @@ redirect_from:
 - /com.coinspace.app/
 - /posts/2019/11/coin/
 - /posts/com.coinspace.app/
+features: 
 
 ---
 

@@ -31,6 +31,7 @@ social:
 - https://medium.com/scallopx
 - https://www.instagram.com/scallop_app/
 - https://t.me/Scallop_Official
+features: 
 
 ---
 

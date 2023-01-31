@@ -28,6 +28,7 @@ reviewArchive:
 twitter: xelloxWallet
 social:
 - https://www.linkedin.com/company/xellox/
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-26
 version: 3.28.9
 stars: 4.2
 ratings: 40512
-reviews: 262
+reviews: 263
 size: 
 website: https://bitso.com/app
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitsoex
 redirect_from:
 - /com.bitso.wallet/
+features: 
 
 ---
 

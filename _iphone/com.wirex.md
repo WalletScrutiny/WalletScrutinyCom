@@ -27,6 +27,7 @@ twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited
 - https://www.facebook.com/wirexapp
+features: 
 
 ---
 

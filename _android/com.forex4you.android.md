@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/forex4you
 redirect_from: 
+features: 
 
 ---
 

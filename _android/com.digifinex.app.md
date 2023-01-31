@@ -12,7 +12,7 @@ updated: 2023-01-13
 version: 2023.01.13
 stars: 4.9
 ratings: 4414
-reviews: 504
+reviews: 499
 size: 
 website: https://www.digifinex.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/DigiFinex
 redirect_from:
 - /com.digifinex.app/
+features: 
 
 ---
 

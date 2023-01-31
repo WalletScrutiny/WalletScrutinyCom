@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hitbtc
 - https://www.reddit.com/r/hitbtc
 redirect_from: 
+features: 
 
 ---
 

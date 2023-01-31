@@ -12,7 +12,7 @@ updated: 2023-01-20
 version: 4.10.0
 stars: 4.5
 ratings: 107859
-reviews: 634
+reviews: 631
 size: 
 website: https://www.bybit.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
 redirect_from: 
+features: 
 
 ---
 

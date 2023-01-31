@@ -28,6 +28,7 @@ twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
+features: 
 
 ---
 

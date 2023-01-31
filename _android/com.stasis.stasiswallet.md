@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.stasis.stasiswallet/
 - /posts/com.stasis.stasiswallet/
+features: 
 
 ---
 

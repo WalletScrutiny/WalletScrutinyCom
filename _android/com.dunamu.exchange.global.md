@@ -8,8 +8,8 @@ users: 100000
 appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
-updated: 2023-01-25
-version: 1.7.3
+updated: 2023-01-30
+version: 1.7.3p1
 stars: 3.2
 ratings: 3998
 reviews: 31
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/upbit.exchange
 redirect_from:
 - /com.dunamu.exchange/
+features: 
 
 ---
 

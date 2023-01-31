@@ -12,7 +12,7 @@ updated: 2022-10-12
 version: 5.0.11
 stars: 3.9
 ratings: 4823
-reviews: 1704
+reviews: 1706
 size: 
 website: http://tradestation.com/contact-us/
 repository: 
@@ -28,6 +28,7 @@ twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
 redirect_from: 
+features: 
 
 ---
 

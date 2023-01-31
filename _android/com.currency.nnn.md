@@ -11,7 +11,7 @@ updated: 2022-04-25
 version: 2.1.0
 stars: 4.9
 ratings: 
-reviews: 52
+reviews: 51
 size: 
 website: https://nnn.am
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

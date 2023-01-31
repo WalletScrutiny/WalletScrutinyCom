@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
 redirect_from: 
+features: 
 
 ---
 

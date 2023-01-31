@@ -28,6 +28,7 @@ twitter: token_vera
 social:
 - https://www.linkedin.com/company/vera-token-74a925218
 redirect_from: 
+features: 
 
 ---
 

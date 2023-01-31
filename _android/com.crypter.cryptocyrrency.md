@@ -8,7 +8,7 @@ users: 1000000
 appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
-updated: 2022-11-23
+updated: 2023-01-30
 version: 3.2.2
 stars: 4.4
 ratings: 78687
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 redirect_from: 
+features: 
 
 ---
 

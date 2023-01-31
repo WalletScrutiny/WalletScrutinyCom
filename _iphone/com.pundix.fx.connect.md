@@ -27,6 +27,7 @@ twitter: FUNCTIONX_IO
 social:
 - https://www.linkedin.com/company/functionx
 - https://www.facebook.com/FunctionX.io
+features: 
 
 ---
 

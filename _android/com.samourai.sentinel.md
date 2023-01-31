@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.samourai.sentinel/
 - /posts/com.samourai.sentinel/
+features: 
 
 ---
 

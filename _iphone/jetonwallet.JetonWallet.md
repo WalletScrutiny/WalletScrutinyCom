@@ -10,8 +10,8 @@ idd: 1190240579
 released: 2017-01-04
 updated: 2022-12-21
 version: 3.7.1
-stars: 3.7
-reviews: 24
+stars: 3.6
+reviews: 25
 size: '177212416'
 website: https://jeton.com
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: jetonwallet
 social: 
+features: 
 
 ---
 

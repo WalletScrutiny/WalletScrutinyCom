@@ -9,8 +9,8 @@ appId: kr.co.keypair.keywalletTouchiOS
 appCountry: 
 idd: 1473941321
 released: 2019-07-28
-updated: 2023-01-20
-version: 3.0.23
+updated: 2023-01-30
+version: 3.0.24
 stars: 0
 reviews: 0
 size: '87618560'
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/quickx
 - https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
+features: 
 
 ---
 

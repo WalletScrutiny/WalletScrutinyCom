@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 5.4.9
 stars: 4.6
 ratings: 2703
-reviews: 531
+reviews: 532
 size: 
 website: https://www.bitrue.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitrueOfficial
 redirect_from:
 - /com.bitrue.currency.exchange/
+features: 
 
 ---
 

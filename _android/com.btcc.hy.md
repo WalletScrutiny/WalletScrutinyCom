@@ -12,7 +12,7 @@ updated: 2023-01-11
 version: 7.0.0
 stars: 4.2
 ratings: 11611
-reviews: 136
+reviews: 137
 size: 
 website: https://www.btcc.com/en-US
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/yourbtcc
 - https://www.reddit.com/r/YourBTCC
 redirect_from: 
+features: 
 
 ---
 

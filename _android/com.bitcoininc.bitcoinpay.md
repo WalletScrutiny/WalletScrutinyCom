@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.bitcoininc.bitcoinpay/
 - /posts/com.bitcoininc.bitcoinpay/
+features: 
 
 ---
 

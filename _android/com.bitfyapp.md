@@ -28,6 +28,7 @@ twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
 redirect_from: 
+features: 
 
 ---
 

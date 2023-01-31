@@ -35,6 +35,7 @@ redirect_from:
 - /com.paxful.wallet/
 - /posts/2019/11/paxful/
 - /posts/com.paxful.wallet/
+features: 
 
 ---
 

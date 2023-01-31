@@ -12,7 +12,7 @@ updated: 2023-01-16
 version: 3.9.1417
 stars: 4.2
 ratings: 659
-reviews: 57
+reviews: 56
 size: 
 website: https://fintap.app
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
 redirect_from: 
+features: 
 
 ---
 

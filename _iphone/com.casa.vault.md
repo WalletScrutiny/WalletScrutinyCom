@@ -11,7 +11,7 @@ released: 2018-08-02
 updated: 2023-01-24
 version: 3.14.8
 stars: 4.9
-reviews: 746
+reviews: 747
 size: '57342976'
 website: https://keys.casa
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: CasaHODL
 social: 
+features: 
 
 ---
 

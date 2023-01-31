@@ -10,8 +10,8 @@ idd: '1331328939'
 released: '2018-02-06T04:20:12Z'
 updated: 2022-11-01
 version: 2.8.0
-stars: 4
-reviews: 5
+stars: 3.5
+reviews: 6
 size: '75849728'
 website: https://coinut.com
 repository: 
@@ -27,6 +27,7 @@ twitter: coinut_exchange
 social:
 - https://www.facebook.com/CoinutExchange
 - https://t.me/coinut
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-25
 version: 2.252.7
 stars: 4.7
 ratings: 3484084
-reviews: 811117
+reviews: 811224
 size: 
 website: http://www.mercadopago.com
 repository: 
@@ -28,6 +28,7 @@ twitter: mercadopago
 social:
 - https://www.facebook.com/mercadopago
 redirect_from: 
+features: 
 
 ---
 

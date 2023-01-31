@@ -12,7 +12,7 @@ updated: 2022-10-11
 version: 0.3.57
 stars: 4.4
 ratings: 5009
-reviews: 4212
+reviews: 4214
 size: 
 website: http://eversend.co
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/eversend
 - https://www.facebook.com/eversendapp
 redirect_from: 
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/localbitcoins
 - https://www.facebook.com/LocalBitcoinsCom
 redirect_from: 
+features: 
 
 ---
 

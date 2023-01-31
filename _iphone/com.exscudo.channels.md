@@ -28,6 +28,7 @@ twitter: ex_scudo
 social:
 - https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
+features: 
 
 ---
 

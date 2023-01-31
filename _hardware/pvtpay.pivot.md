@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/PVTPAY/
 - https://www.instagram.com/pvt_pay
 - https://www.youtube.com/channel/UCPfYhIwqmOfFzQdoeb_QHDQ
+features: 
 
 ---
 

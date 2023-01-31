@@ -27,6 +27,7 @@ twitter: SwftCoin
 social:
 - https://www.linkedin.com/company/swftcoin
 - https://www.facebook.com/SWFTBlockchain
+features: 
 
 ---
 

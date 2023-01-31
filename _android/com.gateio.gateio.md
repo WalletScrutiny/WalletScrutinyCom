@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 3.11.4
 stars: 4.8
 ratings: 17546
-reviews: 2091
+reviews: 2095
 size: 
 website: https://gate.io/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
 redirect_from: 
+features: 
 
 ---
 

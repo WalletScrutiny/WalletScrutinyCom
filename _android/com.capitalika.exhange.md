@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
 - https://www.instagram.com/capitalika/
 redirect_from: 
+features: 
 
 ---
 

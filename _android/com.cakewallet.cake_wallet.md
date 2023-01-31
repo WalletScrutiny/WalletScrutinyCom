@@ -34,6 +34,7 @@ social:
 - https://www.facebook.com/cakewallet
 - https://www.reddit.com/r/cakewallet
 redirect_from: 
+features: 
 
 ---
 

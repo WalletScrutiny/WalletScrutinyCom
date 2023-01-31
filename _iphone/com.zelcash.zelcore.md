@@ -11,7 +11,7 @@ released: 2018-09-23
 updated: 2023-01-28
 version: v6.4.0
 stars: 3.6
-reviews: 133
+reviews: 134
 size: '83186688'
 website: https://zelcore.io
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: zelcash
 social:
 - https://www.reddit.com/r/ZelCash
+features: 
 
 ---
 

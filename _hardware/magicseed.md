@@ -29,6 +29,7 @@ twitter:
 social:
 - https://www.facebook.com/magicseedcrypto
 - https://www.instagram.com/magicseed.io/
+features: 
 
 ---
 

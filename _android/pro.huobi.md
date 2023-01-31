@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 9.5.0
 stars: 4.8
 ratings: 31840
-reviews: 629
+reviews: 625
 size: 
 website: http://www.hbg.com
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /pro.huobi/
 - /posts/pro.huobi/
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/AvaTrade
 - https://www.facebook.com/AvaTrade
 redirect_from: 
+features: 
 
 ---
 

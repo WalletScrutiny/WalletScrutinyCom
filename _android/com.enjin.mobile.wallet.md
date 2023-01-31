@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
 redirect_from: 
+features: 
 
 ---
 

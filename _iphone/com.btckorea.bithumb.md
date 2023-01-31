@@ -26,6 +26,7 @@ reviewArchive:
 twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
+features: 
 
 ---
 

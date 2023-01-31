@@ -29,6 +29,7 @@ twitter: SATSCARD
 social:
 - https://www.facebook.com/CoinKite/
 - https://www.linkedin.com/company/coinkite/
+features: 
 
 ---
 

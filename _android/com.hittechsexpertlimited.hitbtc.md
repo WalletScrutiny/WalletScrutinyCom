@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 3.2.1
 stars: 4.4
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: https://hitbtc.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.hittechsexpertlimited.hitbtc/
 - /posts/com.hittechsexpertlimited.hitbtc/
+features: 
 
 ---
 

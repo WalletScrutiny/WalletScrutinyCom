@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/freewallet.io
 redirect_from:
 - /io.freewallet.mobile/
+features: 
 
 ---
 

@@ -36,6 +36,7 @@ social:
 - https://www.linkedin.com/company/ledgerhq
 - https://www.tiktok.com/@ledger
 - https://www.youtube.com/Ledger
+features: 
 
 ---
 

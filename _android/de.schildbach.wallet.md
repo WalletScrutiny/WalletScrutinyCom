@@ -166,6 +166,7 @@ redirect_from:
 - /de.schildbach.wallet/
 - /posts/2019/10/schildbach/
 - /posts/de.schildbach.wallet/
+features: 
 
 ---
 

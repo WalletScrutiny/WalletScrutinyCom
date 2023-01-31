@@ -10,8 +10,8 @@ idd: 1437346368
 released: 2019-02-22
 updated: 2023-01-29
 version: 4.9.51
-stars: 4.1
-reviews: 575
+stars: 4.3
+reviews: 723
 size: '218755072'
 website: https://www.lbank.info/
 repository: 
@@ -27,6 +27,7 @@ twitter: LBank_Exchange
 social:
 - https://www.linkedin.com/company/lbank
 - https://www.facebook.com/LBank.info
+features: 
 
 ---
 

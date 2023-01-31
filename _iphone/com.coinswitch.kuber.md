@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2023-01-26
 version: 4.5.1
 stars: 4.5
-reviews: 46034
+reviews: 46072
 size: '105644032'
 website: https://coinswitch.co/in
 repository: 
@@ -27,6 +27,7 @@ twitter: CoinSwitchKuber
 social:
 - https://www.linkedin.com/company/coinswitch
 - https://www.facebook.com/coinswitch
+features: 
 
 ---
 

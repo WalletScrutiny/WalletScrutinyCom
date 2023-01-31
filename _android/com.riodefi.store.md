@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/riodefiofficial
 - https://github.com/riodefi
 redirect_from: 
+features: 
 
 ---
 

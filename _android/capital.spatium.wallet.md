@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
 redirect_from: 
+features: 
 
 ---
 

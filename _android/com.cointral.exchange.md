@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cointral
 - https://www.facebook.com/Cointral
 redirect_from: 
+features: 
 
 ---
 

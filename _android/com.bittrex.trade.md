@@ -28,6 +28,7 @@ twitter: BittrexGlobal
 social:
 - https://www.facebook.com/BittrexGlobal
 redirect_from: 
+features: 
 
 ---
 

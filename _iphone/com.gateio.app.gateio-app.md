@@ -11,7 +11,7 @@ released: 2017-11-03
 updated: 2022-10-30
 version: 3.10.1
 stars: 4.3
-reviews: 388
+reviews: 389
 size: '417817600'
 website: https://www.gate.io
 repository: 
@@ -27,6 +27,7 @@ twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
+features: 
 
 ---
 

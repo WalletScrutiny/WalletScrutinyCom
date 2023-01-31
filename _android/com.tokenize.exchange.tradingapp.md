@@ -28,6 +28,7 @@ twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange
 redirect_from: 
+features: 
 
 ---
 

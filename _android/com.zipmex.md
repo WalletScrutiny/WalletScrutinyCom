@@ -28,6 +28,7 @@ twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
 redirect_from: 
+features: 
 
 ---
 

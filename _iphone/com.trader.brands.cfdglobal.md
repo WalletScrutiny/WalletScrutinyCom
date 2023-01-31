@@ -27,6 +27,7 @@ twitter: capex_en
 social:
 - https://www.linkedin.com/company/capexglobal
 - https://www.facebook.com/CAPEXSeychelles
+features: 
 
 ---
 

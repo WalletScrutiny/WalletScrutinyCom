@@ -26,6 +26,7 @@ reviewArchive:
 twitter: gomoonwallet
 social:
 - https://www.facebook.com/moonwallet.net
+features: 
 
 ---
 

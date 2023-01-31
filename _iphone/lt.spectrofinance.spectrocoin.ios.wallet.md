@@ -27,6 +27,7 @@ twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin
 - https://www.facebook.com/spectrocoin
+features: 
 
 ---
 

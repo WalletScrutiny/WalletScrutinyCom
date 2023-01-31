@@ -28,6 +28,7 @@ twitter: instantcoins_ng
 social:
 - https://www.facebook.com/instantcoins
 redirect_from: 
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
 redirect_from: 
+features: 
 
 ---
 

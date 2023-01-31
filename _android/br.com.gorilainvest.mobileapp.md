@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw
 - https://www.linkedin.com/company/gorila
 redirect_from: 
+features: 
 
 ---
 

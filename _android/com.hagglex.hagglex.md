@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
 redirect_from: 
+features: 
 
 ---
 

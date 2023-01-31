@@ -27,6 +27,7 @@ twitter: foxbit
 social:
 - https://www.linkedin.com/company/foxbit
 - https://www.facebook.com/foxbitcoin
+features: 
 
 ---
 

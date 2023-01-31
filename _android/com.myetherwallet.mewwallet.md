@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
 redirect_from: 
+features: 
 
 ---
 

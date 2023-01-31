@@ -11,7 +11,7 @@ updated: 2022-12-16
 version: 3.2.4
 stars: 5
 ratings: 
-reviews: 78
+reviews: 76
 size: 
 website: https://www.bitforex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

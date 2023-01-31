@@ -27,6 +27,7 @@ twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide
 - https://www.facebook.com/Bitexofficial
+features: 
 
 ---
 

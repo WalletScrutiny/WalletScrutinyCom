@@ -30,6 +30,7 @@ twitter: BaanxGroup
 social:
 - https://www.linkedin.com/company/baanxgroup
 - https://www.facebook.com/baanxgroup
+features: 
 
 ---
 

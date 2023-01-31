@@ -27,6 +27,7 @@ twitter: CoinFieldEx
 social:
 - https://www.linkedin.com/company/coinfield
 - https://www.facebook.com/coinfieldexchange
+features: 
 
 ---
 

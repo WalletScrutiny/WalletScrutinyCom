@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 10.10.1
 stars: 4.2
 ratings: 
-reviews: 252649
+reviews: 252773
 size: 
 website: https://venmo.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 
+features: 
 
 ---
 

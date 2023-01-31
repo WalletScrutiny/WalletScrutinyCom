@@ -26,6 +26,7 @@ reviewArchive:
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
+features: 
 
 ---
 

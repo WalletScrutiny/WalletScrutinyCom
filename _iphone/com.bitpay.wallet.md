@@ -11,7 +11,7 @@ released: 2016-10-24
 updated: 2023-01-27
 version: 14.9.1
 stars: 3.9
-reviews: 1564
+reviews: 1567
 size: '54171648'
 website: https://bitpay.com
 repository: https://github.com/bitpay/wallet
@@ -32,6 +32,7 @@ twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-
 - https://www.facebook.com/BitPayOfficial
+features: 
 
 ---
 

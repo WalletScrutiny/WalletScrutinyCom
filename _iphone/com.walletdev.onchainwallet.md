@@ -27,6 +27,7 @@ reviewArchive:
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
+features: 
 
 ---
 

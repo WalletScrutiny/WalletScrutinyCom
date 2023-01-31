@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
 redirect_from: 
+features: 
 
 ---
 

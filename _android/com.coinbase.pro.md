@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.coinbase.pro/
 - /posts/com.coinbase.pro/
+features: 
 
 ---
 

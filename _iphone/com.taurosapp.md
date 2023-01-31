@@ -11,7 +11,7 @@ released: '2019-12-08T08:00:00Z'
 updated: 2023-01-26
 version: '9.6'
 stars: 3.5
-reviews: 186
+reviews: 187
 size: '87051264'
 website: 
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/tauros.io/
 - https://www.facebook.com/tauros.io
 - https://www.linkedin.com/company/taurosio/
+features: 
 
 ---
 

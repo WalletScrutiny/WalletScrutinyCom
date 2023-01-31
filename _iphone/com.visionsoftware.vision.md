@@ -26,6 +26,7 @@ signer:
 reviewArchive: 
 twitter: VisionCryptoApp
 social: 
+features: 
 
 ---
 

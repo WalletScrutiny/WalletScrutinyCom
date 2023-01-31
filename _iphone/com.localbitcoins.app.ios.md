@@ -27,6 +27,7 @@ twitter: LocalBitcoins
 social:
 - https://www.linkedin.com/company/localbitcoins
 - https://www.facebook.com/LocalBitcoinsCom
+features: 
 
 ---
 

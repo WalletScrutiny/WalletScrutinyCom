@@ -36,6 +36,7 @@ social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
 redirect_from: 
+features: 
 
 ---
 

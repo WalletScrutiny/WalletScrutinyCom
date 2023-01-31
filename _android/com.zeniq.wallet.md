@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/ZENIQTech
 - https://t.me/zeniq_hub
 redirect_from: 
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bit4you.io/
 - https://www.instagram.com/bit4you.io/
 redirect_from: 
+features: 
 
 ---
 

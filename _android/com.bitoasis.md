@@ -12,7 +12,7 @@ updated: 2023-01-09
 version: 3.0.11
 stars: 4
 ratings: 3007
-reviews: 513
+reviews: 514
 size: 
 website: https://bitoasis.net/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
 - https://www.facebook.com/bitoasis
 redirect_from: 
+features: 
 
 ---
 

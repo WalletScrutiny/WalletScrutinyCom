@@ -28,6 +28,7 @@ twitter: SimpleFXcom
 social:
 - https://www.facebook.com/simplefxltd
 redirect_from: 
+features: 
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: vegawallet
 social:
 - https://www.facebook.com/VegaWallet
+features: 
 
 ---
 

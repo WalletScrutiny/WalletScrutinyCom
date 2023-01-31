@@ -10,7 +10,7 @@ appCountry: jp
 released: 2019-09-03
 updated: 2023-01-05
 version: 1.4.39
-stars: 2.6
+stars: 2.7
 ratings: 3029
 reviews: 1471
 size: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

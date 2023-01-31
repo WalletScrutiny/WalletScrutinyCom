@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/klever-app
 - https://www.facebook.com/klever.io
 redirect_from: 
+features: 
 
 ---
 

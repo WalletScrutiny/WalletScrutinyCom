@@ -11,7 +11,7 @@ released: 2021-06-02
 updated: 2022-09-25
 version: '1.24'
 stars: 2.7
-reviews: 71
+reviews: 72
 size: '60614656'
 website: https://www.koinbazar.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
+features: 
 
 ---
 

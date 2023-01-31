@@ -27,6 +27,7 @@ twitter: TizerWallet
 social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
+features: 
 
 ---
 

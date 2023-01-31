@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: '6.73'
 stars: 4.6
 ratings: 841930
-reviews: 13170
+reviews: 13177
 size: 
 website: https://trustwallet.com/
 repository: 
@@ -33,6 +33,7 @@ redirect_from:
 - /com.wallet.crypto.trustapp/
 - /posts/2019/11/trust/
 - /posts/com.wallet.crypto.trustapp/
+features: 
 
 ---
 

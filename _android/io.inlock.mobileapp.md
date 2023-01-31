@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/income-locker
 - https://www.facebook.com/incomelocker
 redirect_from: 
+features: 
 
 ---
 

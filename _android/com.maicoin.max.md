@@ -28,6 +28,7 @@ twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
+features: 
 
 ---
 

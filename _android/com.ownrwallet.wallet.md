@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 1.65.0
 stars: 4.8
 ratings: 2072
-reviews: 371
+reviews: 362
 size: 
 website: https://ownrwallet.com
 repository: 
@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/ownrwallet
 redirect_from:
 - /com.ownrwallet.wallet/
+features: 
 
 ---
 

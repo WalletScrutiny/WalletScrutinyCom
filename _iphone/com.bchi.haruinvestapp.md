@@ -26,6 +26,7 @@ reviewArchive:
 twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest
+features: 
 
 ---
 

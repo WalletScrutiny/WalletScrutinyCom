@@ -34,6 +34,7 @@ social:
 redirect_from:
 - /ru.valle.btc/
 - /posts/ru.valle.btc/
+features: 
 
 ---
 

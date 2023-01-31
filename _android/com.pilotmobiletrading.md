@@ -28,6 +28,7 @@ twitter: tradewithpilot
 social:
 - https://www.facebook.com/tradewithpilot
 redirect_from: 
+features: 
 
 ---
 

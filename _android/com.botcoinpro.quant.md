@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/botcoinpro/
 redirect_from: 
+features: 
 
 ---
 

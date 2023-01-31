@@ -12,7 +12,7 @@ updated: 2023-01-26
 version: 8.4.642
 stars: 4.3
 ratings: 7723
-reviews: 932
+reviews: 931
 size: 
 website: http://ibkr.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
 redirect_from: 
+features: 
 
 ---
 

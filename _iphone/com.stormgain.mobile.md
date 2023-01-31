@@ -11,7 +11,7 @@ released: 2019-07-21
 updated: 2022-10-18
 version: 1.26.0
 stars: 4.3
-reviews: 1322
+reviews: 1379
 size: '70961152'
 website: https://stormgain.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
+features: 
 
 ---
 

@@ -27,6 +27,7 @@ twitter: deltastock
 social:
 - https://www.linkedin.com/company/deltastock-ad
 - https://www.facebook.com/Deltastock
+features: 
 
 ---
 

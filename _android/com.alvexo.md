@@ -12,7 +12,7 @@ updated: 2023-01-20
 version: 3.0.144
 stars: 4.2
 ratings: 826
-reviews: 38
+reviews: 37
 size: 
 website: https://www.alvexo.com
 repository: 
@@ -28,6 +28,7 @@ twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
 redirect_from: 
+features: 
 
 ---
 

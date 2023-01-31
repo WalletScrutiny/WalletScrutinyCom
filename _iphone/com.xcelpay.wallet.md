@@ -11,7 +11,7 @@ released: 2019-05-26
 updated: 2022-11-10
 version: 2.72.5
 stars: 4.3
-reviews: 48
+reviews: 49
 size: '40573952'
 website: http://xcelpay.io
 repository: 
@@ -27,6 +27,7 @@ twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
+features: 
 
 ---
 

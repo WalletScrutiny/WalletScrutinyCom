@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/pallapay/
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
 - https://t.me/pallapay_channel
+features: 
 
 ---
 

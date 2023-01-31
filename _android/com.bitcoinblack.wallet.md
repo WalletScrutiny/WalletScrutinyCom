@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bitcoinblackofficial
 - https://www.reddit.com/r/AllAboardBitcoinBlack
 redirect_from: 
+features: 
 
 ---
 

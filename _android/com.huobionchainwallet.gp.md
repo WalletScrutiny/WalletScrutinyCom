@@ -12,7 +12,7 @@ updated: 2023-01-18
 version: 3.03.02.014
 stars: 4.8
 ratings: 33247
-reviews: 207
+reviews: 206
 size: 
 website: https://www.itoken.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
 redirect_from: 
+features: 
 
 ---
 

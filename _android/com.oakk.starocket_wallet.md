@@ -11,7 +11,7 @@ updated: 2023-01-03
 version: 1.7.1
 stars: 4.9
 ratings: 
-reviews: 75
+reviews: 73
 size: 
 website: https://trubit.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

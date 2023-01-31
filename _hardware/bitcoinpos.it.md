@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: bitcoinPOS_it
 social: 
+features: 
 
 ---
 

@@ -34,6 +34,7 @@ social:
 - https://www.linkedin.com/company/opolo-ltd
 - https://www.facebook.com/opolo.wallet.3
 - https://medium.com/@OPOLOCosmos
+features: 
 
 ---
 

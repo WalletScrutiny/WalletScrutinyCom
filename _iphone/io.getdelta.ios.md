@@ -10,7 +10,7 @@ released: 2017-09-25
 updated: 2023-01-27
 version: 2023.1.0
 stars: 4.7
-reviews: 10342
+reviews: 10347
 size: '63904768'
 website: https://delta.app
 repository: 
@@ -24,6 +24,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

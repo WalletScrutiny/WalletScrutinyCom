@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/freewallet.org
 - https://www.reddit.com/r/Freewallet_org
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: 3.1.3
 stars: 5
 ratings: 401
-reviews: 99
+reviews: 98
 size: 
 website: http://www.mexo.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
 redirect_from: 
+features: 
 
 ---
 

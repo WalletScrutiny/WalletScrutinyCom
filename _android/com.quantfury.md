@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 11645
 reviews: 41
 size: 
-website: https://quantfury.com/
+website: https://www.quantfury.com/
 repository: 
 issue: 
 icon: com.quantfury.png
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: quantfury
 social: 
 redirect_from: 
+features: 
 
 ---
 

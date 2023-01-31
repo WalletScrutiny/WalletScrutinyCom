@@ -27,6 +27,7 @@ reviewArchive:
 twitter: VisionCryptoApp
 social: 
 redirect_from: 
+features: 
 
 ---
 

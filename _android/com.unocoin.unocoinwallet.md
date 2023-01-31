@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.unocoin.unocoinwallet/
 - /posts/com.unocoin.unocoinwallet/
+features: 
 
 ---
 

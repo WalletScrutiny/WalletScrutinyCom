@@ -26,6 +26,7 @@ reviewArchive:
 twitter: jaxx_io
 social:
 - https://www.facebook.com/JaxxWallet
+features: 
 
 ---
 

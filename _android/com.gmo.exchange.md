@@ -28,6 +28,7 @@ twitter: ZcomExchange
 social:
 - https://www.facebook.com/ZcomCrypto
 redirect_from: 
+features: 
 
 ---
 

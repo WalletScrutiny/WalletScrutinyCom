@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
 redirect_from: 
+features: 
 
 ---
 

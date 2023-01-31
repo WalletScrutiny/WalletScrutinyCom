@@ -3,7 +3,7 @@ wsId:
 title: HubEx Exchange
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.menttechhubex
 appCountry: 
 released: Jun 1, 2020
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
 - /io.changenow.changenow/
+features: 
 
 ---
 

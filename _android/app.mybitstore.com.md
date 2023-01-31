@@ -30,6 +30,7 @@ social:
 - https://instagram.com/mybitstore_app/
 - https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw
 redirect_from: 
+features: 
 
 ---
 

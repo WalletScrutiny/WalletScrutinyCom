@@ -3,7 +3,7 @@ wsId:
 title: Sendenero
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.techio.sendenero
 appCountry: 
 released: Feb 24, 2021
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

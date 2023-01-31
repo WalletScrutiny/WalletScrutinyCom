@@ -33,6 +33,7 @@ redirect_from:
 - /com.crypto.multiwallet/
 - /posts/2019/11/guardawallet/
 - /posts/com.crypto.multiwallet/
+features: 
 
 ---
 

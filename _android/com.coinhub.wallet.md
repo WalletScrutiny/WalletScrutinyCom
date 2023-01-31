@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Coinhub_Wallet
 social: 
 redirect_from: 
+features: 
 
 ---
 

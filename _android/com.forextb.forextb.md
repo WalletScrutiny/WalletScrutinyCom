@@ -12,7 +12,7 @@ updated: 2022-12-04
 version: 2.1.7
 stars: 2.7
 ratings: 339
-reviews: 282
+reviews: 281
 size: 
 website: https://www.forextb.com/eu/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

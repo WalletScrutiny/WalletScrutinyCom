@@ -27,6 +27,7 @@ twitter: vitawallet
 social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
+features: 
 
 ---
 

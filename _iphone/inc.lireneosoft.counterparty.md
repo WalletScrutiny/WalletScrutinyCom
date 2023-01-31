@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
+features: 
 
 ---
 

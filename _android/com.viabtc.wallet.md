@@ -12,7 +12,7 @@ updated: 2023-01-09
 version: 3.5.1
 stars: 4.2
 ratings: 621
-reviews: 38
+reviews: 39
 size: 
 website: https://viawallet.com
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.viabtc.wallet/
 - /posts/com.viabtc.wallet/
+features: 
 
 ---
 

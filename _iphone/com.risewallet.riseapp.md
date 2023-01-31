@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: RiseWallet
 social: 
+features: 
 
 ---
 

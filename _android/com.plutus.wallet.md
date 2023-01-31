@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.plutus.wallet/
 - /posts/com.plutus.wallet/
+features: 
 
 ---
 

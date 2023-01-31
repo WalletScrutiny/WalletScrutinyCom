@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bitcoin_asia_btca/
 - https://www.linkedin.com/company/bitcoinasia/
 redirect_from: 
+features: 
 
 ---
 

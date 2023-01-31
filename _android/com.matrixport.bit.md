@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
+features: 
 
 ---
 

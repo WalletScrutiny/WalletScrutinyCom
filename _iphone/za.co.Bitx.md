@@ -11,7 +11,7 @@ released: 2014-11-03
 updated: 2023-01-18
 version: 8.25.0
 stars: 4.3
-reviews: 3448
+reviews: 3449
 size: '145312768'
 website: https://www.luno.com
 repository: 
@@ -27,6 +27,7 @@ twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal
 - https://www.facebook.com/luno
+features: 
 
 ---
 

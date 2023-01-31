@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 23.1.30
 stars: 4.5
 ratings: 81868
-reviews: 6460
+reviews: 6461
 size: 
 website: https://exodus.com/mobile
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exodus.io
 - https://github.com/exodusmovement
 redirect_from: 
+features: 
 
 ---
 

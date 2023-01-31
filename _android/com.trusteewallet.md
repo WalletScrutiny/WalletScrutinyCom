@@ -35,6 +35,7 @@ social:
 redirect_from:
 - /com.trusteewallet/
 - /posts/com.trusteewallet/
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitpreco
 - https://www.facebook.com/BitPreco
 redirect_from: 
+features: 
 
 ---
 

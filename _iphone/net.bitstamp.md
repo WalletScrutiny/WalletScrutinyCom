@@ -11,7 +11,7 @@ released: 2019-01-30
 updated: 2022-11-17
 version: 3.8.1
 stars: 4.8
-reviews: 5070
+reviews: 5071
 size: '123482112'
 website: https://www.bitstamp.net/
 repository: 
@@ -27,6 +27,7 @@ twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp
 - https://www.facebook.com/Bitstamp
+features: 
 
 ---
 

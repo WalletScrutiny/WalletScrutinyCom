@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /io.getdelta.android/
+features: 
 
 ---
 

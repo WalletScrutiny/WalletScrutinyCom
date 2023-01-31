@@ -27,6 +27,7 @@ twitter: dextrade_
 social:
 - https://www.linkedin.com/company/dex-trade-exchange
 - https://www.facebook.com/DexTradeExchange
+features: 
 
 ---
 

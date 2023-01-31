@@ -11,7 +11,7 @@ released: 2019-03-27
 updated: 2022-12-14
 version: 4.3.4
 stars: 4.5
-reviews: 57
+reviews: 58
 size: '172052480'
 website: https://kuna.io
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
+features: 
 
 ---
 

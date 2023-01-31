@@ -32,6 +32,7 @@ social:
 - https://blog.naver.com/btcex
 - https://medium.com/@BTCEX
 redirect_from: 
+features: 
 
 ---
 

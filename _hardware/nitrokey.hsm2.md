@@ -34,6 +34,7 @@ social:
 - https://www.youtube.com/nitrokey
 - https://social.nitrokey.com/@nitrokey
 - https://www.facebook.com/nitrokey
+features: 
 
 ---
 

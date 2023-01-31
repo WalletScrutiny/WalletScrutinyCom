@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cobak
 - https://www.facebook.com/coindaebak
 redirect_from: 
+features: 
 
 ---
 

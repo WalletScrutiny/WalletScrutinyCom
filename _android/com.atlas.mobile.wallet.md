@@ -29,6 +29,7 @@ social:
 - https://github.com/centfinance
 redirect_from:
 - /com.atlas.mobile.wallet/
+features: 
 
 ---
 

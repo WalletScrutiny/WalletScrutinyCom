@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
+features: 
 
 ---
 

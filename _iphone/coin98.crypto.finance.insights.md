@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
+features: 
 
 ---
 

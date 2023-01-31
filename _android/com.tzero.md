@@ -9,7 +9,7 @@ appId: com.tzero
 appCountry: us
 released: 2019-07-24
 updated: 2023-01-30
-version: 2.0.10731
+version: 2.0.10733
 stars: 3.4
 ratings: 322
 reviews: 137
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

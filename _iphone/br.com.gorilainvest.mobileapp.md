@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/gorilainvest
 - https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw
 - https://www.linkedin.com/company/gorila
+features: 
 
 ---
 

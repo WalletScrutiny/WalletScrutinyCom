@@ -12,7 +12,7 @@ updated: 2022-10-11
 version: 2.2.0
 stars: 4.4
 ratings: 231
-reviews: 179
+reviews: 178
 size: 
 website: https://www.nitroex.io/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/nitroex.io
 - https://www.reddit.com/r/nitroexchange
 redirect_from: 
+features: 
 
 ---
 

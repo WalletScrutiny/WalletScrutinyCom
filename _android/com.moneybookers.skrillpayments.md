@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 3.102.1-2023011912
 stars: 4.2
 ratings: 142059
-reviews: 2815
+reviews: 2817
 size: 
 website: https://www.skrill.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/Paysafe Group
 - https://www.facebook.com/PlugIntoPaysafe
 redirect_from: 
+features: 
 
 ---
 

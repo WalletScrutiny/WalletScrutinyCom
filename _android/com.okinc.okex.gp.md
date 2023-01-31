@@ -8,11 +8,11 @@ users: 5000000
 appId: com.okinc.okex.gp
 appCountry: 
 released: 2019-10-29
-updated: 2023-01-16
-version: 6.1.53
+updated: 2023-01-18
+version: 6.1.55
 stars: 4.5
 ratings: 188391
-reviews: 1172
+reviews: 1167
 size: 
 website: https://www.okx.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.okinc.okex.gp/
 - /posts/com.okinc.okex.gp/
+features: 
 
 ---
 

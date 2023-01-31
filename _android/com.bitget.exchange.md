@@ -12,7 +12,7 @@ updated: 2023-01-29
 version: 1.4.2
 stars: 4.6
 ratings: 5691
-reviews: 669
+reviews: 653
 size: 
 website: https://www.bitget.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
 redirect_from: 
+features: 
 
 ---
 

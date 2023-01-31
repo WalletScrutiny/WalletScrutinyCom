@@ -27,6 +27,7 @@ twitter: QuppyPay
 social:
 - https://www.linkedin.com/company/quppy
 - https://www.facebook.com/quppyPay
+features: 
 
 ---
 

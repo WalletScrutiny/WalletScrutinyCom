@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
 redirect_from: 
+features: 
 
 ---
 

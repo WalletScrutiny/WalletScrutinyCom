@@ -11,7 +11,7 @@ released: 2018-09-14
 updated: 2023-01-20
 version: 2.9.20
 stars: 4.3
-reviews: 4219
+reviews: 4220
 size: '173422592'
 website: https://metalpay.com
 repository: 
@@ -27,6 +27,7 @@ twitter: metalpaysme
 social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
+features: 
 
 ---
 

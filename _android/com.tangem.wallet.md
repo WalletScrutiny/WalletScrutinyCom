@@ -9,9 +9,9 @@ users: 10000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
-updated: 2022-12-31
-version: '3.55'
-stars: 4.5
+updated: 2023-01-31
+version: '4.0'
+stars: 4.6
 ratings: 89
 reviews: 15
 size: 
@@ -29,6 +29,7 @@ twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
 redirect_from: 
+features: 
 
 ---
 

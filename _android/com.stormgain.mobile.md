@@ -12,7 +12,7 @@ updated: 2022-10-20
 version: 1.26.1
 stars: 4.6
 ratings: 114954
-reviews: 1878
+reviews: 1859
 size: 
 website: https://stormgain.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
 redirect_from: 
+features: 
 
 ---
 

@@ -34,6 +34,7 @@ twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
 redirect_from: 
+features: 
 
 ---
 

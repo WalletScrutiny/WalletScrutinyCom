@@ -12,7 +12,7 @@ updated: 2022-12-16
 version: 1.0.41
 stars: 4.9
 ratings: 2217
-reviews: 3192
+reviews: 3055
 size: 
 website: https://www.flitpay.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
 redirect_from: 
+features: 
 
 ---
 

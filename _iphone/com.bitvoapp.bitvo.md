@@ -27,6 +27,7 @@ twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
 - https://www.facebook.com/BitvoExchange
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
+features: 
 
 ---
 

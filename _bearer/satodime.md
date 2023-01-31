@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/satochip
 - https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
 - https://t.me/Satochip
+features: 
 
 ---
 

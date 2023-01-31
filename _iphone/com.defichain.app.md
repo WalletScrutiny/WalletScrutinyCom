@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/defichain
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
+features: 
 
 ---
 

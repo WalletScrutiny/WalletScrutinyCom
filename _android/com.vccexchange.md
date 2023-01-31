@@ -28,6 +28,7 @@ twitter: VCCExchange
 social:
 - https://www.facebook.com/vccexchange
 redirect_from: 
+features: 
 
 ---
 

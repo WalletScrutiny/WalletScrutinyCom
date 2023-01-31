@@ -7,7 +7,7 @@ users: 10000
 appId: com.finbloxapp.finblox
 appCountry: 
 released: Dec 28, 2021
-updated: 2023-01-24
+updated: 2023-01-31
 version: 0.79.0
 stars: 3.8
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

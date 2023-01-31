@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /co.busha.android/
 - /posts/co.busha.android/
+features: 
 
 ---
 

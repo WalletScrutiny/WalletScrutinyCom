@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar
+features: 
 
 ---
 

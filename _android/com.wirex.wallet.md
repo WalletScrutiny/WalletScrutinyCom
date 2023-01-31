@@ -28,6 +28,7 @@ twitter: wirexapp
 social:
 - https://github.com/wirexapp
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-30
 version: 11.3.6
 stars: 4.1
 ratings: 666901
-reviews: 86191
+reviews: 86204
 size: 
 website: https://coinbase.com/
 repository: 
@@ -34,6 +34,7 @@ redirect_from:
 - /com.coinbase.android/
 - /posts/2019/10/coinbase/
 - /posts/com.coinbase.android/
+features: 
 
 ---
 

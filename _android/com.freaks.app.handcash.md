@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.freaks.app.handcash/
 - /posts/com.freaks.app.handcash/
+features: 
 
 ---
 

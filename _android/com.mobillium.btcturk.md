@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+features: 
 
 ---
 

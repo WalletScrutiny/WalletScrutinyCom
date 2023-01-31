@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bigomexofficial
 - https://www.reddit.com/r/bigomex
 redirect_from: 
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: incognitochain
 social: 
 redirect_from:
 - /com.incognito.wallet/
+features: 
 
 ---
 

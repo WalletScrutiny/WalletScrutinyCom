@@ -26,6 +26,7 @@ reviewArchive:
 twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp
+features: 
 
 ---
 

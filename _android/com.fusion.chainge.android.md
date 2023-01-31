@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 0.5.7
 stars: 4.6
 ratings: 8141
-reviews: 93
+reviews: 91
 size: 
 website: https://chainge.finance
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/chainge-finance
 - https://www.facebook.com/chainge.finance
 redirect_from: 
+features: 
 
 ---
 

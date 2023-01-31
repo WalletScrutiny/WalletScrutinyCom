@@ -28,6 +28,7 @@ twitter: coinmama
 social:
 - https://www.linkedin.com/company/coinmama
 redirect_from: 
+features: 
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/probitexchange
 redirect_from:
 - /com.probit.app.android2.release.global/
+features: 
 
 ---
 

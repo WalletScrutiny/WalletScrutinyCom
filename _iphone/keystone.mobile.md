@@ -26,6 +26,7 @@ reviewArchive:
 twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
+features: 
 
 ---
 

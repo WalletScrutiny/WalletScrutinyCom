@@ -12,7 +12,7 @@ updated: 2023-01-13
 version: 5.3.0
 stars: 4
 ratings: 109535
-reviews: 487
+reviews: 488
 size: 
 website: https://coins.ph
 repository: 
@@ -38,6 +38,7 @@ redirect_from:
 - /asia.coins.mobile/
 - /posts/2019/11/coinsph/
 - /posts/asia.coins.mobile/
+features: 
 
 ---
 

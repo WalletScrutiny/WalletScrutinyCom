@@ -12,7 +12,7 @@ updated: 2021-10-24
 version: 1.3.0
 stars: 5
 ratings: 
-reviews: 40
+reviews: 39
 size: 
 website: https://pocketbits.in/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/pocketbits.in
 - https://www.facebook.com/Pocketbits.in
 redirect_from: 
+features: 
 
 ---
 

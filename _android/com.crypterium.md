@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/crypterium.org
 redirect_from:
 - /com.crypterium/
+features: 
 
 ---
 

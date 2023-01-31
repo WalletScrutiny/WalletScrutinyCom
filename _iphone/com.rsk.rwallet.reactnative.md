@@ -27,6 +27,7 @@ twitter: rsksmart
 social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock
+features: 
 
 ---
 

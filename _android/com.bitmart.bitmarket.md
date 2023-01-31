@@ -12,7 +12,7 @@ updated: 2023-01-15
 version: 2.11.11
 stars: 4.5
 ratings: 41983
-reviews: 5936
+reviews: 5865
 size: 
 website: http://www.bitmart.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.bitmart.bitmarket/
 - /posts/com.bitmart.bitmarket/
+features: 
 
 ---
 

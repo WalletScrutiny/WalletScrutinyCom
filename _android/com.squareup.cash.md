@@ -12,7 +12,7 @@ updated: 2023-01-24
 version: VARY
 stars: 4.7
 ratings: 1066810
-reviews: 294815
+reviews: 295052
 size: 
 website: https://cash.app
 repository: 
@@ -28,6 +28,7 @@ twitter: cashapp
 social: 
 redirect_from:
 - /com.squareup.cash/
+features: 
 
 ---
 

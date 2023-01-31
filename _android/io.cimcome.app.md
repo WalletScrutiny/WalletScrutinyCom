@@ -12,7 +12,7 @@ updated: 2023-01-10
 version: 2.1.1
 stars: 4.4
 ratings: 10
-reviews: 26
+reviews: 27
 size: 
 website: https://cimcome.io/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: cimcome
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -11,7 +11,7 @@ released: 2017-07-11
 updated: 2023-01-27
 version: 7.34.1
 stars: 4.6
-reviews: 19359
+reviews: 19402
 size: '185692160'
 website: https://wallet.bitcoin.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
+features: 
 
 ---
 

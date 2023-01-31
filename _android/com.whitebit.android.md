@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 2.21.6
 stars: 4.1
 ratings: 1962
-reviews: 257
+reviews: 258
 size: 
 website: https://whitebit.com/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
 redirect_from: 
+features: 
 
 ---
 

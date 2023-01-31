@@ -28,6 +28,7 @@ twitter: OfficialXcoex
 social:
 - https://www.facebook.com/xcoex
 redirect_from: 
+features: 
 
 ---
 

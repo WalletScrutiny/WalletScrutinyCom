@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.swftcoin.client.android/
 - /posts/com.swftcoin.client.android/
+features: 
 
 ---
 

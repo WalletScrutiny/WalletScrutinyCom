@@ -28,6 +28,7 @@ twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
+features: 
 
 ---
 

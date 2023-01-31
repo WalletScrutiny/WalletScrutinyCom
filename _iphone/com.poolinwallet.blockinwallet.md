@@ -26,6 +26,7 @@ reviewArchive:
 twitter: PoolinWallet
 social:
 - https://www.linkedin.com/company/poolinwallet
+features: 
 
 ---
 

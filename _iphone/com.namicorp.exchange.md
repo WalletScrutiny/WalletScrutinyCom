@@ -28,6 +28,7 @@ social:
 - https://www.reddit.com/r/NAMIcoin/
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/xtb-international
 - https://www.facebook.com/xtb
 redirect_from: 
+features: 
 
 ---
 

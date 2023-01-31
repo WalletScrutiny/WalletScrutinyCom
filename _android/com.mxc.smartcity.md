@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MXCfoundation
 - https://www.reddit.com/r/MXC_Foundation
 redirect_from: 
+features: 
 
 ---
 

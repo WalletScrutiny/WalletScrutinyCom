@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/yellowcardapp
 - https://www.facebook.com/yellowcardapp
 redirect_from: 
+features: 
 
 ---
 

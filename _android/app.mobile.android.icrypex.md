@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 redirect_from: 
+features: 
 
 ---
 

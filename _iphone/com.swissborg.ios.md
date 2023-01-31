@@ -11,7 +11,7 @@ released: 2020-03-31
 updated: 2023-01-27
 version: 1.53.0
 stars: 4.2
-reviews: 1001
+reviews: 1002
 size: '98067456'
 website: https://swissborg.com
 repository: 
@@ -27,6 +27,7 @@ twitter: swissborg
 social:
 - https://www.linkedin.com/company/swissborg
 - https://www.facebook.com/swissborg
+features: 
 
 ---
 

@@ -31,6 +31,7 @@ redirect_from:
 - https://coinstore.medium.com
 - https://www.facebook.com/coinstoreglobal
 - https://t.me/coinstore_english
+features: 
 
 ---
 

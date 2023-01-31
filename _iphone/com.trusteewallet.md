@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet
+features: 
 
 ---
 

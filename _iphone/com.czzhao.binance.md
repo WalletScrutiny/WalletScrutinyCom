@@ -11,7 +11,7 @@ released: 2018-10-06
 updated: 2023-01-20
 version: 2.59.3
 stars: 4.7
-reviews: 140954
+reviews: 141136
 size: '582177792'
 website: https://www.binance.com
 repository: 
@@ -27,6 +27,7 @@ twitter: binance
 social:
 - https://www.facebook.com/binance
 - https://www.reddit.com/r/binance
+features: 
 
 ---
 

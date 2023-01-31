@@ -28,6 +28,7 @@ twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-18
 version: 2.21.1
 stars: 3.9
 ratings: 7187
-reviews: 5542
+reviews: 5543
 size: 
 website: https://www.binance.us
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BinanceUS
 redirect_from:
 - /com.binance.us/
+features: 
 
 ---
 

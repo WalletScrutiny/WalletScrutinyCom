@@ -10,7 +10,7 @@ appCountry: cn
 released: 2019-07-06
 updated: 2023-01-21
 version: 3.1.0
-stars: 4.9
+stars: 4.8
 ratings: 8949
 reviews: 1777
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
 redirect_from: 
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
 redirect_from: 
+features: 
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
+features: 
 
 ---
 

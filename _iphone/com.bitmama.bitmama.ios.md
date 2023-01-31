@@ -10,8 +10,8 @@ idd: 1561857024
 released: 2021-06-30
 updated: 2023-01-27
 version: 1.0.66
-stars: 3.7
-reviews: 15
+stars: 3.8
+reviews: 16
 size: '98166784'
 website: https://www.bitmama.io/
 repository: 
@@ -27,6 +27,7 @@ twitter: bitmama
 social:
 - https://www.facebook.com/bitmama
 - https://www.instagram.com/bitmamaexchange/
+features: 
 
 ---
 

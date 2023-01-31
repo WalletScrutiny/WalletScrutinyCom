@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/flybit.exchange
 redirect_from: 
+features: 
 
 ---
 

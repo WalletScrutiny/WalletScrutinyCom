@@ -10,7 +10,7 @@ appCountry:
 released: 2018-10-14
 updated: 2021-02-20
 version: 1.5.5
-stars: 3.7
+stars: 3.8
 ratings: 
 reviews: 1
 size: 
@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /org.coinid.vault/
 - /posts/org.coinid.vault/
+features: 
 
 ---
 

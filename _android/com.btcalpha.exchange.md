@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btcalpha
 - https://www.facebook.com/btcalpha
 redirect_from: 
+features: 
 
 ---
 

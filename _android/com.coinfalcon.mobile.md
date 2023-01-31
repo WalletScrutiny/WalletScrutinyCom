@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinFalcon
 - https://www.reddit.com/r/CoinFalcon
 redirect_from: 
+features: 
 
 ---
 

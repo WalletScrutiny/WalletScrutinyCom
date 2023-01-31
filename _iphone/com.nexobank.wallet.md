@@ -11,7 +11,7 @@ released: 2019-06-30
 updated: 2022-11-21
 version: 2.2.43
 stars: 3.8
-reviews: 1078
+reviews: 1079
 size: '60554240'
 website: https://nexo.io
 repository: 
@@ -27,6 +27,7 @@ twitter: NexoFinance
 social:
 - https://www.facebook.com/nexofinance
 - https://www.reddit.com/r/Nexo
+features: 
 
 ---
 

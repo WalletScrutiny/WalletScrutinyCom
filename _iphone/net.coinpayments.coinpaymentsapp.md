@@ -27,6 +27,7 @@ twitter: CoinPaymentsNET
 social:
 - https://www.linkedin.com/company/coinpayments-inc
 - https://www.facebook.com/CoinPayments
+features: 
 
 ---
 

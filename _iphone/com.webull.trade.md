@@ -12,7 +12,7 @@ released: 2017-01-18
 updated: 2023-01-04
 version: 8.3.8
 stars: 4.7
-reviews: 282051
+reviews: 282140
 size: '349562880'
 website: https://www.webull.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: WebullGlobal
 social:
 - https://www.linkedin.com/company/webullfinancialllc
+features: 
 
 ---
 

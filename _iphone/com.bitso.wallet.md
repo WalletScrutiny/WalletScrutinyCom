@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Bitso
 social:
 - https://www.facebook.com/bitsoex
+features: 
 
 ---
 

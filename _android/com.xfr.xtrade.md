@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/xtrade
 - https://www.facebook.com/XTrade
 redirect_from: 
+features: 
 
 ---
 

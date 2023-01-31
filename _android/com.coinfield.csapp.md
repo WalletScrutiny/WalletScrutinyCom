@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinfield
 - https://www.facebook.com/coinfieldexchange
 redirect_from: 
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coolwallet
 redirect_from:
 - /com.coolbitx.cwsapp/
+features: 
 
 ---
 

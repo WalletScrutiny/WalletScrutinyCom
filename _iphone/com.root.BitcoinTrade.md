@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
+features: 
 
 ---
 

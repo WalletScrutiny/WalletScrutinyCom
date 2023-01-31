@@ -32,6 +32,7 @@ redirect_from:
 - /io.totalcoin.wallet/
 - /posts/2019/11/totalcoin/
 - /posts/io.totalcoin.wallet/
+features: 
 
 ---
 

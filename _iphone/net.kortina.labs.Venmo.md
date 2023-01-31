@@ -11,7 +11,7 @@ released: '2010-04-03T05:41:47Z'
 updated: 2023-01-27
 version: 10.10.1
 stars: 4.9
-reviews: 15224584
+reviews: 15234392
 size: '524483584'
 website: https://venmo.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: venmo
 social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
+features: 
 
 ---
 

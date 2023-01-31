@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.krakenfutures/
 - /posts/com.krakenfutures/
+features: 
 
 ---
 

@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.shaketh/
 - /posts/com.shaketh/
+features: 
 
 ---
 

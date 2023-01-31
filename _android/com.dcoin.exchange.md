@@ -12,7 +12,7 @@ updated: 2023-01-18
 version: 5.6.4-play
 stars: 4.2
 ratings: 1346
-reviews: 84
+reviews: 85
 size: 
 website: https://www.dcoin.com
 repository: 
@@ -28,6 +28,7 @@ twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange
 redirect_from: 
+features: 
 
 ---
 

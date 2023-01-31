@@ -27,6 +27,7 @@ twitter: PtpWallet
 social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
+features: 
 
 ---
 

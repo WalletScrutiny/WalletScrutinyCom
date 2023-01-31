@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2023-01-25
 version: 518.0.0
 stars: 4.2
-reviews: 5432
+reviews: 5434
 size: '182260736'
 website: https://www.etoro.com/en-us/
 repository: 
@@ -27,6 +27,7 @@ twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
+features: 
 
 ---
 

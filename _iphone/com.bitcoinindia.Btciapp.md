@@ -27,6 +27,7 @@ twitter: BTC_india
 social:
 - https://www.linkedin.com/company/bitcoin-india
 - https://www.facebook.com/Bitcoin.India.Org
+features: 
 
 ---
 
