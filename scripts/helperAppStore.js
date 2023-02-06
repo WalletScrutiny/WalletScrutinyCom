@@ -1,9 +1,7 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
 const apple = require('app-store-scraper')
-const fs = require('fs')
-// const fs = require('fs/promises')
-// Danny erased the commented line above, and it worked.
+const fs = require('fs/promises')
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
