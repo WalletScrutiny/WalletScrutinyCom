@@ -8,11 +8,11 @@ appId: com.SwftBlockChain.client
 appCountry: 
 idd: 1435569339
 released: 2018-09-28
-updated: 2023-01-20
-version: 5.19.20
+updated: 2023-02-01
+version: 5.19.21
 stars: 4.4
-reviews: 148
-size: '168520704'
+reviews: 146
+size: '168635392'
 website: http://www.swft.pro
 repository: 
 issue: 

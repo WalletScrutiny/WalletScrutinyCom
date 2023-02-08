@@ -12,7 +12,7 @@ updated: 2021-02-22
 version: '1.0'
 stars: 4.2
 ratings: 70
-reviews: 7
+reviews: 8
 size: 
 website: https://www.exchangernet.com/
 repository: 

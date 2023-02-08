@@ -10,9 +10,9 @@ appCountry: gb
 released: 2018-07-13
 updated: 2023-01-20
 version: 3.0.144
-stars: 4.2
+stars: 4.1
 ratings: 826
-reviews: 37
+reviews: 28
 size: 
 website: https://www.alvexo.com
 repository: 

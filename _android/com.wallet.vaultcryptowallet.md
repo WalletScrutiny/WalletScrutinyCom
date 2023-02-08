@@ -4,7 +4,7 @@ title: Vault Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.wallet.vaultcryptowallet
 appCountry: 
 released: 2021-08-18

@@ -10,7 +10,7 @@ idd: '1596466402'
 released: '2021-12-31T08:00:00Z'
 updated: 2022-12-06
 version: 2.0.2
-stars: 3.6
+stars: 3.5
 reviews: 101
 size: '41768960'
 website: https://coincred.org/

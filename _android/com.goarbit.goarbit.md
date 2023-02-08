@@ -9,9 +9,9 @@ appCountry:
 released: Nov 17, 2020
 updated: 2021-08-13
 version: 3.0.1
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 3155
+reviews: 3167
 size: 
 website: https://goarbit.com/
 repository: 

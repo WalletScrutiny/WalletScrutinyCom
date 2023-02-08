@@ -9,8 +9,8 @@ idd: 1485385044
 released: 2019-11-06
 updated: 2023-01-30
 version: 2.3.410
-stars: 4.4
-reviews: 107
+stars: 4.5
+reviews: 106
 size: '184008704'
 website: https://big.one
 repository: 

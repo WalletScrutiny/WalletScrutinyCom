@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 12.9.0
 stars: 4.3
 ratings: 18096
-reviews: 296
+reviews: 295
 size: 
 website: https://coin98.com/
 repository: 

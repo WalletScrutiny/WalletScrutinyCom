@@ -8,9 +8,9 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: Mar 30, 2020
-updated: 2023-01-20
-version: 5.3.3
-stars: 4.3
+updated: 2023-02-02
+version: 5.6.0
+stars: 4.1
 ratings: 
 reviews: 13
 size: 

@@ -12,7 +12,7 @@ updated: 2023-01-04
 version: 5.0.1
 stars: 4.7
 ratings: 20365
-reviews: 215
+reviews: 212
 size: 
 website: https://www.unocoin.com
 repository: 

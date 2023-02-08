@@ -7,8 +7,8 @@ users: 100
 appId: com.mykobo
 appCountry: 
 released: 2020-10-29
-updated: 2022-11-16
-version: 2.0.8
+updated: 2023-02-06
+version: 2.0.10
 stars: 
 ratings: 
 reviews: 

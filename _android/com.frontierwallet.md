@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: 6.0.0
 stars: 4.6
 ratings: 1003
-reviews: 100
+reviews: 101
 size: 
 website: https://frontier.xyz/
 repository: 

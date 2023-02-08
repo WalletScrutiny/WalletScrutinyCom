@@ -7,11 +7,11 @@ users: 100000
 appId: com.plena
 appCountry: 
 released: Jul 6, 2022
-updated: 2023-01-20
-version: 1.9.2
+updated: 2023-02-03
+version: 1.9.4
 stars: 4.8
 ratings: 
-reviews: 46
+reviews: 47
 size: 
 website: https://www.plena.finance/
 repository: 
