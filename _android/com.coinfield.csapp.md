@@ -10,7 +10,7 @@ appCountry: ca
 released: 2019-05-16
 updated: 2022-12-19
 version: 3.1.5
-stars: 3.5
+stars: 3.4
 ratings: 1231
 reviews: 99
 size: 

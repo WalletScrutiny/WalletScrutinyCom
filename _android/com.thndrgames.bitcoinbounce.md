@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-20
 updated: 2022-12-19
 version: 1.13.2
-stars: 4.8
+stars: 4.7
 ratings: 1913
-reviews: 251
+reviews: 252
 size: 
 website: http://thndr.games
 repository: 

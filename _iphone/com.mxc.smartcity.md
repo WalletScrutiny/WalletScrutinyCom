@@ -10,8 +10,8 @@ idd: 1509218470
 released: 2020-06-30
 updated: 2023-01-25
 version: 5.0.4
-stars: 4
-reviews: 104
+stars: 3.9
+reviews: 106
 size: '86538240'
 website: http://mxc.org
 repository: 

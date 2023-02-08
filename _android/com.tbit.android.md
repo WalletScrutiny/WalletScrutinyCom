@@ -11,7 +11,7 @@ updated: 2023-01-09
 version: 2.2.2
 stars: 5
 ratings: 
-reviews: 13
+reviews: 9
 size: 
 website: https://www.tbitex.com/
 repository: 

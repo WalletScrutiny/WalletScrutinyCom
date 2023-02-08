@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'TruBit: Bitcoin Wallet'
+title: 'TruBit: Crypto Wallet'
 altTitle: 
 authors: 
 users: 5000
 appId: com.oakk.starocket_wallet
 appCountry: 
 released: May 29, 2022
-updated: 2023-01-03
-version: 1.7.1
+updated: 2023-02-02
+version: 1.7.4
 stars: 4.9
 ratings: 
-reviews: 73
+reviews: 59
 size: 
 website: https://trubit.com/
 repository: 

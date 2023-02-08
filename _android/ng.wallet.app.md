@@ -11,9 +11,9 @@ appCountry:
 released: 2017-06-22
 updated: 2021-09-04
 version: '2.480'
-stars: 2.8
+stars: 2.7
 ratings: 2049
-reviews: 111
+reviews: 113
 size: 
 website: https://wallets.africa
 repository: 

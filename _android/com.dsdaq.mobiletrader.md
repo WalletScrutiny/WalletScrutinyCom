@@ -12,7 +12,7 @@ updated: 2022-01-20
 version: 3.0.4
 stars: 4.9
 ratings: 510
-reviews: 32
+reviews: 27
 size: 
 website: https://dsdaq.com
 repository: 

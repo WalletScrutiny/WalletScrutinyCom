@@ -3,7 +3,7 @@ wsId:
 title: 7/24 Borsa
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.yyborsa
 appCountry: 
 released: Aug 20, 2021

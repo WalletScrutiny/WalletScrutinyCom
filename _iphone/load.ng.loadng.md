@@ -10,7 +10,7 @@ idd: 1537865343
 released: 2020-11-02
 updated: 2021-12-28
 version: '2.3'
-stars: 4.1
+stars: 4
 reviews: 43
 size: '42514432'
 website: https://app.load.ng/

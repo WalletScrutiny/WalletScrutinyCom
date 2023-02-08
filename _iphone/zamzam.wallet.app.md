@@ -11,7 +11,7 @@ released: 2018-10-17
 updated: 2022-10-12
 version: 3.2.0
 stars: 4.2
-reviews: 73
+reviews: 72
 size: '43224064'
 website: https://zam.io
 repository: 

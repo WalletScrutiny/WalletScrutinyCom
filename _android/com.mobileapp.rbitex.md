@@ -11,7 +11,7 @@ updated: 2022-06-12
 version: 3.0.2
 stars: 5
 ratings: 
-reviews: 25
+reviews: 14
 size: 
 website: https://rbitex.com
 repository: 

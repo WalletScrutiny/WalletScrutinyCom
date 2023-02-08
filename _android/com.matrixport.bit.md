@@ -12,7 +12,7 @@ updated: 2023-01-20
 version: 1.3.2
 stars: 3.8
 ratings: 245
-reviews: 19
+reviews: 18
 size: 
 website: https://www.bit.com
 repository: 

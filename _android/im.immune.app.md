@@ -7,8 +7,8 @@ users: 10000
 appId: im.immune.app
 appCountry: 
 released: Nov 29, 2019
-updated: 2022-12-13
-version: 2.0.30
+updated: 2023-02-03
+version: 2.0.31
 stars: 
 ratings: 
 reviews: 

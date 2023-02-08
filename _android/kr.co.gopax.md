@@ -12,7 +12,7 @@ updated: 2023-01-31
 version: 1.6.56.eff5
 stars: 4.7
 ratings: 1387
-reviews: 1510
+reviews: 1509
 size: 
 website: https://www.gopax.co.kr
 repository: 

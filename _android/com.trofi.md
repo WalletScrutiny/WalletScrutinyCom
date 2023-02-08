@@ -11,7 +11,7 @@ updated: 2023-01-31
 version: 3.2.5
 stars: 5
 ratings: 
-reviews: 97
+reviews: 79
 size: 
 website: https://www.trofi.group/
 repository: 
