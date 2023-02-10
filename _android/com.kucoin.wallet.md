@@ -2,7 +2,8 @@
 wsId: 
 title: 'KuCoin Wallet: Crypto & NFT'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.kucoin.wallet
 appCountry: 
@@ -13,20 +14,24 @@ stars: 4.3
 ratings: 
 reviews: 51
 size: 
-website: 
+website: https://kuwallet.com
 repository: 
 issue: 
 icon: com.kucoin.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nobtc
+date: 2023-02-10
 signer: 
 reviewArchive: 
-twitter: 
+twitter: KuWallet
 social: 
 redirect_from: 
 features: 
 
 ---
+
+The app asked to backup some seed phrases. 
+
+We checked for a Bitcoin wallet and found the receive address, but it was a BEP20/KRC20 coin which is not on the BTC blockchain and therefore not a real Bitcoin and thus, does **not have bitcoin support**.
 
