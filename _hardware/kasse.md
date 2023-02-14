@@ -4,10 +4,11 @@ appId: kasse
 authors:
 - kiwilamb
 - leo
+- danny
 released: 
 discontinued: 
-updated: 2020-04-16
-version: 2.11.0
+updated: 2022-02-08
+version: 2.12.0
 binaries: 
 dimensions:
 - 60
@@ -24,22 +25,29 @@ repository:
 issue: 
 icon: kasse.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2021-09-01
+date: 2023-02-13
 signer: 
 reviewArchive: 
+- date: 2021-09-01
+  version: 2.11.0
+  appHash: 
+  gitRevision: 8762a3742
+  verdict: nosource
 twitter: KasseUSA
 social: 
+- https://www.instagram.com/kasseusa/?hl=en
+- https://www.youtube.com/channel/UCZH9-FUQTPFgZZgLFsKvY3w
 features: 
 
 ---
 
-{{ page.title }} has screen and buttons and a secure element with a true
-random number generator but there appears to be no public source code, so their
-claims are **not verifiable**.
+{{ page.title }} is currently available for both Windows and MacOS. 
 
-Also the [latest software update](https://kasseusa.com/software/) is from
-2020-04-16 which makes the product **stale** by our definition.
+Here's a link to the official YouTube channel's [Setup Overview.](https://www.youtube.com/watch?v=1Gq9GhM1nZw) As demonstrated in the video, this device has a screen, buttons, and a secure element with a true
+random number generator. 
 
-The product *only working with Windows* would be yet another down-side.
+## Verdict
+
+We were unable to locate any relevant results for Kasse's source code. With no public source code up for review, Kasse's claims are **not verifiable.**
