@@ -55,5 +55,5 @@ MyTokenPocket is the companion app for this device.
 
 > The KeyPal hardware wallet communicates with the companion app via dual-channel Bluetooth and USB. In the process of Bluetooth communication, the link layer will not transmit any sensitive privacy data, preventing any sensitive data from being intercepted through Bluetooth communication. [Source](https://www.keypal.pro/#/security)
 
-Like the {% include walletLink.html wallet='android/keypal' verdict='true' %} that that this device **does not have its firmware available for scrutiny.**
+Like the {% include walletLink.html wallet='hardware/keypal' verdict='true' %} this device **does not have its firmware available for scrutiny.**
 
