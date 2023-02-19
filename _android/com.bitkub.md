@@ -37,6 +37,12 @@ features:
 
 This sounds like an exchange.
 
+Company Information: 
+
+> Bitkub Online Co., Ltd. (the “Company”) is considered as Financial Institution by virtue of the anti-money laundering laws pursuant to the Emergency Decree on Digital Asset Businesses B.E. 2561 (2018) Section 7, and shall comply with the applicable laws, including Anti-money Laundering Act B.E. 2542 (1999), Counter-Terrorism and Proliferation of Weapon of Mass Destruction Financing Act B.E. 2559 (2016) including ministerial regulation, rules, and notification of the Anti-money Laundering Office (“AMLO”) and The Securities and Exchanges Commission (“SEC”)
+
+[AML Policy](https://www.bitkub.com/en/content/aml-policy)
+
 > We require pin code protection and other security measures such as biometric and fingerprint scan.
 
 Identity verification is almost always a trait of custodial products.
