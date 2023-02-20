@@ -8,8 +8,8 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: Aug 15, 2021
-updated: 2023-02-07
-version: 5.2.1
+updated: 2023-02-17
+version: 5.2.10
 stars: 4
 ratings: 
 reviews: 28

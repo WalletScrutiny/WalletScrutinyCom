@@ -8,11 +8,11 @@ appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
-updated: 2023-02-02
-version: 2.23.5
+updated: 2023-02-17
+version: 2.23.6
 stars: 4.4
-reviews: 385
-size: '256507904'
+reviews: 381
+size: '256573440'
 website: https://whitebit.com
 repository: 
 issue: 

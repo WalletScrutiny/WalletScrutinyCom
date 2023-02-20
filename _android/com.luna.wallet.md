@@ -9,9 +9,9 @@ appCountry:
 released: Apr 6, 2022
 updated: 2022-07-01
 version: 1.0.4
-stars: 5
+stars: 4.9
 ratings: 
-reviews: 1
+reviews: 
 size: 
 website: https://lunawallet.ae
 repository: 

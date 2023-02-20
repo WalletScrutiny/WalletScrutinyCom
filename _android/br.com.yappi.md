@@ -11,7 +11,7 @@ updated: 2022-11-12
 version: 1.2.1
 stars: 3.8
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://yappi.com.br/
 repository: 

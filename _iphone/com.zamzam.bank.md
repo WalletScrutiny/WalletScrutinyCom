@@ -10,8 +10,8 @@ idd: 1521900439
 released: 2020-07-04
 updated: 2023-01-21
 version: 1.10.1
-stars: 3.8
-reviews: 68
+stars: 4
+reviews: 76
 size: '81599488'
 website: https://zam.me
 repository: 

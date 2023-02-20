@@ -11,7 +11,7 @@ released: 2019-08-03
 updated: 2023-01-26
 version: '9.1'
 stars: 4.7
-reviews: 136
+reviews: 140
 size: '189899776'
 website: https://ogpaywallet.com/
 repository: 

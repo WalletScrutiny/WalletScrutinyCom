@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Eweb Meta:Crypto & Gift Cards
+title: 'Eweb Meta: Crypto & Gift Cards'
 altTitle: 
 authors: 
 users: 1000

@@ -12,7 +12,7 @@ updated: 2022-08-08
 version: 1.11.2
 stars: 4.2
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://btc-alpha.com/
 repository: 

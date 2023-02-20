@@ -9,9 +9,9 @@ appCountry:
 released: Sep 30, 2020
 updated: 2023-01-20
 version: 2.7.1
-stars: 4.1
+stars: 4.4
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.snowball.money/
 repository: 

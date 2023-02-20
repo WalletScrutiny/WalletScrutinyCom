@@ -9,8 +9,8 @@ users: 100000
 appId: com.etoro.wallet
 appCountry: 
 released: 2018-11-27
-updated: 2023-01-25
-version: 54.0.0
+updated: 2023-02-10
+version: 55.0.0
 stars: 3.2
 ratings: 1122
 reviews: 96

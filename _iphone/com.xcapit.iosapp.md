@@ -11,7 +11,7 @@ released: '2020-12-28T08:00:00Z'
 updated: 2023-02-06
 version: 3.14.5
 stars: 4.6
-reviews: 28
+reviews: 27
 size: '59560960'
 website: https://xcapit.com
 repository: 

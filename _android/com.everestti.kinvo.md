@@ -11,7 +11,7 @@ updated: 2023-02-01
 version: 3.12.0
 stars: 3.9
 ratings: 
-reviews: 30
+reviews: 31
 size: 
 website: http://www.kinvo.com.br
 repository: 

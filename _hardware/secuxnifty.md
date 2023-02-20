@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 100
 - 60
 - 12
@@ -20,16 +20,18 @@ shop: https://shop.secuxtech.com/products/nifty-nft-wallet
 country: TW
 price: 199 USD
 repository: 
-issue:  
+issue: 
 icon: secuxnifty.png
-bugbounty:  
+bugbounty: 
 meta: ok
-verdict: nobtc 
+verdict: nobtc
 date: 2023-02-02
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
 social: 
+features: 
+
 ---
 
 ## Product Specifications

@@ -7,16 +7,16 @@ users: 50000
 appId: com.bitforex.bitforex
 appCountry: 
 released: Mar 17, 2022
-updated: 2022-12-16
-version: 3.2.4
+updated: 2023-02-11
+version: 3.4.1
 stars: 5
 ratings: 
-reviews: 51
+reviews: 33
 size: 
 website: https://www.bitforex.com
 repository: 
 issue: 
-icon: com.bitforex.bitforex.jpg
+icon: com.bitforex.bitforex.png
 bugbounty: 
 meta: ok
 verdict: wip

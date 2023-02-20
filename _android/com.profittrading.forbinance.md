@@ -12,7 +12,7 @@ updated: 2023-02-08
 version: 11.0.5
 stars: 4.4
 ratings: 1851
-reviews: 110
+reviews: 109
 size: 
 website: https://profittradingapp.com/
 repository: 

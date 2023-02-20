@@ -7,8 +7,8 @@ users: 10
 appId: com.aem.aemplus
 appCountry: 
 released: Feb 27, 2022
-updated: 2023-01-13
-version: '0.8'
+updated: 2023-02-10
+version: '1.0'
 stars: 
 ratings: 
 reviews: 

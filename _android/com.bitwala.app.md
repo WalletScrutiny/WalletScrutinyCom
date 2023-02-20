@@ -12,7 +12,7 @@ updated: 2023-01-31
 version: 2.4.26
 stars: 3.6
 ratings: 4416
-reviews: 3598
+reviews: 3593
 size: 
 website: https://www.nuri.com
 repository: 

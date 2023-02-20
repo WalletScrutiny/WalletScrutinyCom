@@ -7,11 +7,11 @@ users: 1000
 appId: com.trofi
 appCountry: 
 released: Apr 12, 2022
-updated: 2023-01-31
-version: 3.2.5
+updated: 2023-02-09
+version: 3.2.6
 stars: 5
 ratings: 
-reviews: 79
+reviews: 50
 size: 
 website: https://www.trofi.group/
 repository: 

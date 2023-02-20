@@ -10,8 +10,8 @@ idd: '1370977008'
 released: '2018-05-14T01:40:40Z'
 updated: 2023-01-31
 version: '3.4'
-stars: 4.8
-reviews: 2467
+stars: 4.7
+reviews: 2473
 size: '46838784'
 website: https://3commas.io/blog
 repository: 

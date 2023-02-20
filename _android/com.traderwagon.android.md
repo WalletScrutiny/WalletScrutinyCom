@@ -9,9 +9,9 @@ appCountry:
 released: May 24, 2022
 updated: 2023-02-05
 version: 1.4.3
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.traderwagon.com/
 repository: 

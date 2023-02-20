@@ -11,7 +11,7 @@ updated: 2022-12-02
 version: '1.13'
 stars: 4.9
 ratings: 10629
-reviews: 784
+reviews: 604
 size: 
 website: https://suncrypto.in
 repository: 

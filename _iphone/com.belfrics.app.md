@@ -11,7 +11,7 @@ released: 2017-12-23
 updated: 2023-01-07
 version: 2.5.21
 stars: 4.9
-reviews: 26
+reviews: 25
 size: '29628416'
 website: https://www.belfrics.io/
 repository: 

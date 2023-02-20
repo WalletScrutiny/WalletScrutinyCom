@@ -8,10 +8,10 @@ appId: co.clabs.valora
 appCountry: 
 released: Aug 31, 2020
 updated: 2023-01-31
-version: 1.49.1
-stars: 4.3
+version: 1.50.0
+stars: 4.4
 ratings: 
-reviews: 281
+reviews: 282
 size: 
 website: https://valoraapp.com
 repository: 

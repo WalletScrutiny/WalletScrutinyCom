@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Invest securely'
+title: 'Change: Invest & Buy Bitcoin'
 altTitle: 
 authors:
 - leo

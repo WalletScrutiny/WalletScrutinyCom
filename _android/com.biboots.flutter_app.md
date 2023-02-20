@@ -3,7 +3,7 @@ wsId:
 title: Fairdesk Go:Trade Bitcoin, ETH
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
 released: Sep 25, 2021

@@ -26,7 +26,7 @@ date: 2023-02-02
 signer: 
 reviewArchive: 
 twitter: Bitsafecard
-social:
+social: 
 features: 
 
 ---

@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 91
 - 55
-- 7 
+- 7
 weight: 53
 provider: Keypal
 providerWebsite: 
@@ -21,7 +21,7 @@ country: CN
 price: 110 USD
 repository: 
 issue: 
-icon: keypal.pro.png
+icon: keypal.png
 bugbounty: 
 meta: ok
 verdict: nosource
@@ -29,8 +29,10 @@ date: 2023-02-01
 signer: 
 reviewArchive: 
 twitter: KeyPalWallet
-social: 
-- https://medium.com/@Keypal 
+social:
+- https://medium.com/@Keypal
+features: 
+
 ---
 
 ## Product Description 

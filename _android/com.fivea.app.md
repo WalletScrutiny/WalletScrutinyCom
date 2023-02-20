@@ -7,8 +7,8 @@ users: 1000
 appId: com.fivea.app
 appCountry: 
 released: Feb 15, 2022
-updated: 2022-11-24
-version: 1.0.9
+updated: 2023-02-17
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

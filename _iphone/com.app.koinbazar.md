@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: Koinbazar
+title: KoinBX
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.app.koinbazar
 appCountry: in
 idd: 1567360326
 released: 2021-06-02
-updated: 2022-09-25
-version: '1.24'
+updated: 2023-02-19
+version: '2.0'
 stars: 2.6
-reviews: 71
-size: '60614656'
-website: https://www.koinbazar.com/
+reviews: 72
+size: '64775168'
+website: https://www.koinbx.com/
 repository: 
 issue: 
 icon: com.app.koinbazar.jpg

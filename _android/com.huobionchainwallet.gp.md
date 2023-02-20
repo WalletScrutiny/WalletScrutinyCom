@@ -8,11 +8,11 @@ users: 1000000
 appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
-updated: 2023-01-18
-version: 3.03.02.014
-stars: 4.8
+updated: 2023-02-15
+version: 3.03.03.012
+stars: 4.2
 ratings: 33247
-reviews: 200
+reviews: 190
 size: 
 website: https://www.itoken.com/
 repository: 

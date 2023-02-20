@@ -11,7 +11,7 @@ updated: 2022-12-20
 version: 202212.1.1
 stars: 4.4
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://www.blockchain.com
 repository: 

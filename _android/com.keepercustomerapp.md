@@ -7,8 +7,8 @@ users: 10000
 appId: com.keepercustomerapp
 appCountry: 
 released: Feb 25, 2019
-updated: 2022-05-23
-version: 3.8.1
+updated: 2023-02-10
+version: 3.8.3
 stars: 
 ratings: 
 reviews: 
