@@ -43,10 +43,9 @@ features:
 
 ---
 
-{{ page.title }} is currently available for both Windows and MacOS. 
+Here's a link to the official YouTube channel's [Setup Overview.](https://www.youtube.com/watch?v=1Gq9GhM1nZw) As demonstrated in the video, this device has a screen, buttons, and a secure element with a true random number generator. 
 
-Here's a link to the official YouTube channel's [Setup Overview.](https://www.youtube.com/watch?v=1Gq9GhM1nZw) As demonstrated in the video, this device has a screen, buttons, and a secure element with a true
-random number generator. 
+The [desktop software](https://kasseusa.com/software/) for managing the {{ page.title }} is currently available for both Windows and MacOS. 
 
 ## Verdict
 
