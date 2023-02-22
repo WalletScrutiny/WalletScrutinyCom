@@ -21,7 +21,7 @@ issue:
 icon: pundix.xpass.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: discontinued
 date: 2023-02-06
 signer: 
 reviewArchive: 
@@ -31,6 +31,17 @@ social:
 - https://www.youtube.com/channel/UCOIf6WeLEzZi3DQxzenTZeA
 - https://www.facebook.com/pundixlabs
 ---
+
+## Updated Review 2023-02-22
+
+The provider Joao, has responded to our email inquiry: 
+
+> Thanks for reaching out to Pundi X.
+> I went to learn more about Wallet Scrutiny and found the service very helpful, congratulations on your work.
+>
+> To answer your question, the XPASS card is a custodial wallet that is currently being discontinued. The new product, p(x)Card will be a non-custodial, cold wallet device. Still undergoing development.
+>
+> Please let me know if you have any questions.
 
 ## Product Description 
 
