@@ -11,7 +11,7 @@ updated: 2023-02-15
 version: 1.8.0
 stars: 5
 ratings: 
-reviews: 19
+reviews: 13
 size: 
 website: https://trubit.com/
 repository: 

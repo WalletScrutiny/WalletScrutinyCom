@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-04-15
 updated: 2023-01-11
 version: 3.1.15
-stars: 4.3
+stars: 4.2
 ratings: 5765
-reviews: 21
+reviews: 19
 size: 
 website: https://bitay.com.tr
 repository: 

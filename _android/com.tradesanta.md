@@ -12,7 +12,7 @@ updated: 2022-12-05
 version: 3.1.5
 stars: 3.7
 ratings: 707
-reviews: 64
+reviews: 63
 size: 
 website: https://tradesanta.com
 repository: 

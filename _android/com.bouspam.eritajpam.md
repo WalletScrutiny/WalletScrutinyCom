@@ -3,7 +3,7 @@ wsId:
 title: Bous Echanj
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: Mar 28, 2022

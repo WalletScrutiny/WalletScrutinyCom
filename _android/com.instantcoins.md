@@ -10,9 +10,9 @@ appCountry: ng
 released: 2020-06-19
 updated: 2021-04-05
 version: 1.0.6
-stars: 3.2
+stars: 2.7
 ratings: 214
-reviews: 163
+reviews: 157
 size: 
 website: https://instantcoins.ng
 repository: 

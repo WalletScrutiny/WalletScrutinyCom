@@ -8,11 +8,11 @@ users: 500000
 appId: com.bitrue.currency.exchange
 appCountry: 
 released: 2018-07-18
-updated: 2023-01-19
-version: 5.4.9
+updated: 2023-02-22
+version: 5.5.0
 stars: 4.6
 ratings: 2703
-reviews: 542
+reviews: 543
 size: 
 website: https://www.bitrue.com/
 repository: 

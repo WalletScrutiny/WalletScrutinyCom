@@ -11,7 +11,7 @@ released: '2017-08-01T23:45:42Z'
 updated: 2023-02-10
 version: '8.64'
 stars: 4.8
-reviews: 34428
+reviews: 34436
 size: '62032896'
 website: https://www.hodl.mobi
 repository: 

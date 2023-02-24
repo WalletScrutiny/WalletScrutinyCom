@@ -11,7 +11,7 @@ updated: 2022-08-20
 version: '1.8'
 stars: 4.4
 ratings: 
-reviews: 100
+reviews: 99
 size: 
 website: https://foxnetwork.app/
 repository: 

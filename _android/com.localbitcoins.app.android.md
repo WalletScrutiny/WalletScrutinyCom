@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-09-06
 updated: 2023-02-08
 version: 0.1.65
-stars: 3.6
+stars: 3.7
 ratings: 771
-reviews: 35
+reviews: 36
 size: 
 website: https://www.localbitcoins.com
 repository: 

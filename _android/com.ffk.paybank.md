@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ffk.paybank.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

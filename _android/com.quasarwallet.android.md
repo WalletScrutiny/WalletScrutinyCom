@@ -9,9 +9,9 @@ appCountry:
 released: Apr 5, 2022
 updated: 2022-04-05
 version: '1.2'
-stars: 
+stars: 2
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://quasarwallet.com
 repository: 

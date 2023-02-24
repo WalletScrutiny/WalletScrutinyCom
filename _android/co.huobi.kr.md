@@ -12,7 +12,7 @@ updated: 2023-02-10
 version: 3.8.6
 stars: 3.1
 ratings: 3505
-reviews: 766
+reviews: 760
 size: 
 website: https://www.huobi.co.kr
 repository: 

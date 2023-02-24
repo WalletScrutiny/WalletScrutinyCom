@@ -10,8 +10,8 @@ idd: 1567360326
 released: 2021-06-02
 updated: 2023-02-19
 version: '2.0'
-stars: 2.6
-reviews: 72
+stars: 2.7
+reviews: 74
 size: '64775168'
 website: https://www.koinbx.com/
 repository: 

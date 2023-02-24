@@ -3,7 +3,7 @@ wsId:
 title: BTCPAY POS
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: technoprepay.btcpay.pos
 appCountry: 
 released: Apr 16, 2022

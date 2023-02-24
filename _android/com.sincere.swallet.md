@@ -7,11 +7,11 @@ users: 10000
 appId: com.sincere.swallet
 appCountry: 
 released: Apr 11, 2022
-updated: 2023-01-29
-version: 2.1.0
+updated: 2023-02-21
+version: 2.2.1
 stars: 4
 ratings: 
-reviews: 6
+reviews: 12
 size: 
 website: https://s-wallet.ai
 repository: 

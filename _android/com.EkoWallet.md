@@ -7,8 +7,8 @@ users: 100
 appId: com.EkoWallet
 appCountry: 
 released: 
-updated: 2021-07-12
-version: VARY
+updated: 2023-02-23
+version: 1.0.13
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.EkoWallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-11-02
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

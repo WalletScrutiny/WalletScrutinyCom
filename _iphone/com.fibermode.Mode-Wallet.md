@@ -11,7 +11,7 @@ released: 2019-11-26
 updated: 2023-02-14
 version: 5.7.2
 stars: 4.2
-reviews: 1017
+reviews: 1018
 size: '54929408'
 website: https://www.modeapp.com
 repository: 

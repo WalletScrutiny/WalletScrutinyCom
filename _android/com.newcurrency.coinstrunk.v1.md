@@ -12,7 +12,7 @@ updated: 2022-03-09
 version: '1.12'
 stars: 4.1
 ratings: 635
-reviews: 51
+reviews: 52
 size: 
 website: http://firstdaotrust.com
 repository: 

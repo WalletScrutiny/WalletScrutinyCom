@@ -11,7 +11,7 @@ released: 2021-08-04
 updated: 2023-02-11
 version: 0.5.28
 stars: 4.6
-reviews: 49
+reviews: 50
 size: '93249536'
 website: https://www.chainge.finance/
 repository: 

@@ -7,11 +7,11 @@ users: 100000
 appId: com.deepcoin.app.global
 appCountry: 
 released: Dec 8, 2020
-updated: 2023-02-11
-version: 6.2.5
+updated: 2023-02-24
+version: 6.3.3
 stars: 4.2
 ratings: 
-reviews: 32
+reviews: 31
 size: 
 website: https://www.deepcoin.com
 repository: 

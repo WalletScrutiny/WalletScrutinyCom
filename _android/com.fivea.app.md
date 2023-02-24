@@ -3,7 +3,7 @@ wsId:
 title: 5A Crypto Exchange
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.fivea.app
 appCountry: 
 released: Feb 15, 2022

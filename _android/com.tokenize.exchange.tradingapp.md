@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-12-03
 updated: 2023-01-09
 version: 2.0.15
-stars: 4.3
+stars: 4.1
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: https://tokenize.exchange/
 repository: 

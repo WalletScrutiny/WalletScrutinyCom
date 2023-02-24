@@ -8,11 +8,11 @@ appId: com.rainydayapps.Blockchain
 appCountry: 
 idd: 493253309
 released: 2012-04-13
-updated: 2023-02-06
-version: 202301.2.0
+updated: 2023-02-21
+version: 202301.2.2
 stars: 4.7
-reviews: 145169
-size: '224076800'
+reviews: 145347
+size: '224699392'
 website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 

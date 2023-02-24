@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: dtn.crypto1.dtech.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

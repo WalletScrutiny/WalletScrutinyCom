@@ -9,8 +9,8 @@ users: 500000
 appId: com.crypto.exchange
 appCountry: nz
 released: 2021-05-26
-updated: 2023-02-09
-version: 2.5.1
+updated: 2023-02-21
+version: 2.6.0
 stars: 4.7
 ratings: 4430
 reviews: 11

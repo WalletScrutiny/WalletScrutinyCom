@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.digitalmoney.dmapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-22
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

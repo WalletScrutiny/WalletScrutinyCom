@@ -9,9 +9,9 @@ appCountry:
 released: Sep 10, 2021
 updated: 2023-02-10
 version: V3.37
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 6408
+reviews: 6407
 size: 
 website: https://safemoon.com
 repository: 
