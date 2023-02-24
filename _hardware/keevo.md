@@ -10,7 +10,10 @@ updated:
 version: 
 binaries: 
 dimensions: 
-weight: 
+- 95
+- 58
+- 11
+weight: 120
 provider: BitKey Technogies
 providerWebsite: https://www.keevowallet.com
 website: https://www.keevowallet.com/products/keevo-model-1
@@ -32,6 +35,8 @@ social:
 features: 
 
 ---
+
+*This comes with the {% include walletLink.html wallet='hardware/keevo.carbonkey' verdict='false' %}
 
 One of Keevo's main advertised features is:
 
