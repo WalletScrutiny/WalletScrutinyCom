@@ -1,10 +1,12 @@
 let dateFields = document.querySelectorAll(".calculate-time-elapsed")
 for (let i = 0; i < dateFields.length; i++) {
   let t = dateFields[i].getAttribute("data")
-  dateFields[i].innerHTML = elapsedTime(t)
+  const secondary = (dateFields.classList.contains("sec") || dateFields.classList.contains("secondary")) ? true : false
+  dateFields[i].innerHTML = elapsedTime(t, secondary)
 }
 
-function elapsedTime(ts) {
+function elapsedTime(ts, secondary) {
+  const sec = secondary ? 'class="secondary-text"' : ''
   const nowTs = new Date().getTime() / 1000
   var dt = Math.floor((nowTs - ts) / 60 / 60 / 24) // time elapsed in days
   const options = {
@@ -16,9 +18,9 @@ function elapsedTime(ts) {
   for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
-      return `${r} <span class="secondary-text">${k}${r > 1 ? "s" : ""}</span>`
+      return `${r} <span ${sec}>${k}${r > 1 ? "s" : ""}</span>`
   }
-  return `<span class="secondary-text">today</span>`
+  return `<span ${sec}>today</span>`
 }
 
 function verdictBadge(v) {

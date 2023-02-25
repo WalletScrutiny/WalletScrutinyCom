@@ -27,11 +27,11 @@ layout: default
             {% else %}
               {{ page.title }}
             {% endif %}
-            <span class="version" title="version {{ page.version }}">
+           <!-- <span class="version" title="version {{ page.version }}">
               {% if page.version != 'VARY' %}
               v
             {% endif %}
-            {{ page.version }}</span>
+            {{ page.version }}</span> -->
           </h1>
 
           
@@ -48,6 +48,8 @@ layout: default
             </span>.
           </span> -->
 
+
+            <!-- 
           {% if page.meta != "outdated" %}
             {% include verdictBadge.html verdict=page.verdict type='medium' %}
           {% endif %}
@@ -56,7 +58,7 @@ layout: default
           {% endif %}
 
           {% assign v=site.data.verdicts[page.verdict]
-            %}<p class="verdict-message">{{ v.message }}</p>
+            %}<p class="verdict-message">{{ v.message }}</p> 
 
           <div class="social-row">
             <ul>
@@ -68,8 +70,28 @@ layout: default
               </li>
               {% include /review/providerSocial.html %}
             </ul>
+          </div>-->
+
+          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">
+            <i class="fab fa-google-play"></i> Google Play
+          </a>
+
+          {% if page.version %}
+          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
+              Latest Release: 
+              {% if page.version != 'VARY' %}
+                <span>v</span>
+              {% endif %}
+              {{ page.version }}
+                <span class="calculate-time-elapsed label-lower" data="{{ page.updated | date: '%s' }}">
+              {{ page.updated | date_to_long_string: "ordinal" }}
+            </span>
           </div>
+          {% endif %}
+
         </div>
+
+        <!-- END OF PAGE HEAD -->
 
         <div class="app-payload-flex">
 

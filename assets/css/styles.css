@@ -1081,9 +1081,10 @@ table tr td label {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  font-weight: 900;
+  font-weight: 500;
   gap: 10px;
   margin-bottom: 10px;
+  font-size: 48px;
 }
 
 .star-rating {

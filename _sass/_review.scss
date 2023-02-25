@@ -3,7 +3,7 @@
   background-color: var(--shadow-1);
   padding: 40px 50px;
   margin: 10px 0;
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     padding: 10px 15px;
   }
   > h2 {
@@ -133,9 +133,13 @@
   transform: translate(0px, -5px);
 }
 
-.app-sum-head{
+.app-sum-head {
+  grid-template: 1fr auto auto / 1fr;
+  padding: 15px 0;
+  font-size: 17px;
   .stamp span::before {
-    display: none;}
+    display: none;
+  }
 }
 
 .verdict-methodology-head {
@@ -145,7 +149,7 @@
   justify-content: space-between;
   gap: 20px 100px;
   margin-bottom: 40px;
-  h2{
+  h2 {
     margin: 0px;
   }
   .badge {
@@ -179,3 +183,8 @@
   margin-bottom: 80px;
 }
 
+.subtle {
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
