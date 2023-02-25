@@ -32,6 +32,11 @@ features:
 
 ---
 
+## Note
+
+It's unclear how exactly this app is related to LMAX, as it isn't linked on the website. The official site links to a different app: {% include walletLink.html wallet='android/com.mobiletradingpartners.lmax' verdict='true' %}. Both apps have different [Google](https://play.google.com/store/apps/developer?id=LMAX+BROKER+LIMITED) [Play](https://play.google.com/store/apps/developer?id=LMAX+DIGITAL+EXCHANGE+LIMITED) developers.
+
+
 ## App Description
 
 > Provide access to the LMAX Digital central limit order book streaming firm, deep liquidity for the most liquid crypto currencies: BTC, ETH, LTC, BCH and XRP (all against USD, EUR & JPY)
