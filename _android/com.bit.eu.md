@@ -1,26 +1,26 @@
 ---
 wsId: 
-title: Biteeu
+title: Bit.Eu
 altTitle: 
 authors: 
-users: 1000
-appId: com.bit.eu
+users: 10
+appId: com.Bit.Eu
 appCountry: 
-released: 2019-07-03
-updated: 2022-08-22
-version: 1.12.2
+released: Mar 14, 2019
+updated: 2019-03-14
+version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.biteeu.com
+website: https://bit.eu
 repository: 
 issue: 
-icon: com.bit.eu.png
+icon: com.Bit.Eu.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2021-08-02
+meta: obsolete
+verdict: fewusers
+date: 2022-06-22
 signer: 
 reviewArchive: 
 twitter: 
