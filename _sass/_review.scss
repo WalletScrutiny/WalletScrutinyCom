@@ -137,6 +137,7 @@
   grid-template: 1fr auto auto / 1fr;
   padding: 15px 0;
   font-size: 17px;
+  font-weight: 300;
   .stamp span::before {
     display: none;
   }
@@ -187,4 +188,25 @@
   text-decoration: none;
   color: inherit;
   font-size: 13px;
+}
+
+.security-overview {
+  h2 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .steps {
+    font-size: 17px;
+    font-weight: 300;
+  }
+}
+
+.page__inner-wrap {
+  max-width: 860px;
+  margin: auto !important;
+  float: unset !important;
 }

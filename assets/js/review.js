@@ -1,7 +1,8 @@
 let dateFields = document.querySelectorAll(".calculate-time-elapsed")
 for (let i = 0; i < dateFields.length; i++) {
-  let t = dateFields[i].getAttribute("data")
-  const secondary = (dateFields.classList.contains("sec") || dateFields.classList.contains("secondary")) ? true : false
+  const instance = dateFields[i]
+  let t = instance.getAttribute("data")
+  const secondary = (instance.classList.contains("sec") || instance.classList.contains("secondary")) ? true : false
   dateFields[i].innerHTML = elapsedTime(t, secondary)
 }
 
@@ -18,7 +19,7 @@ function elapsedTime(ts, secondary) {
   for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
-      return `${r} <span ${sec}>${k}${r > 1 ? "s" : ""}</span>`
+      return `(${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago)</span>`
   }
   return `<span ${sec}>today</span>`
 }
