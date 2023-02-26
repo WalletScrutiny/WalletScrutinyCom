@@ -4,34 +4,46 @@ appId: cypherockx1
 authors:
 - kiwilamb
 - danny
-released: 
+released: 2022-09-13
 discontinued: 
-updated: 
-version: 
+updated: 2022-11-22
+version: 0.4.773
 binaries: 
-dimensions: 
-weight: 5
+dimensions:
+- 30
+- 64
+- 15
+weight: 200
 provider: Cypherock
 providerWebsite: https://cypherock.com/
 website: https://www.cypherock.com/
 shop: https://shop.cypherock.com/
 country: IN
-price: 99USD
-repository: 
+price: 199USD
+repository: https://github.com/Cypherock/x1_wallet_firmware
 issue: 
 icon: cypherockx1.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2021-12-03
+verdict: wip
+date: 2022-11-26
 signer: 
 reviewArchive: 
 twitter: CypherockWallet
 social:
 - https://www.linkedin.com/company/cypherockwallet
 - https://www.facebook.com/cypherock
+- https://www.youtube.com/playlist?list=PL0db5IfQ4iyriWCgby_rJKeG31BLoxW7k
+features: 
 
 ---
+
+## Update Review 2022-11-26
+
+- Updated price
+- [Due for reproducibility testing](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/463)
+
+## Previous Review 2021-12-03
 
 Cypherock was announced in a Bitcointalk ANN thread on February 14, 2020.
 

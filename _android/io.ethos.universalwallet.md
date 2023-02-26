@@ -11,7 +11,7 @@ updated: 2019-12-05
 version: 2.0.5
 stars: 3.1
 ratings: 1529
-reviews: 197
+reviews: 195
 size: 
 website: https://www.ethos.io/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ethosplatform
 - https://www.reddit.com/r/ethos_io
 redirect_from: 
+features: 
 
 ---
 

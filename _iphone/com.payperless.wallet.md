@@ -8,11 +8,11 @@ appId: com.payperless.wallet
 appCountry: us
 idd: '1552741313'
 released: '2021-06-16T07:00:00Z'
-updated: 2023-01-10
-version: 1.12.0
+updated: 2023-02-23
+version: 1.14.1
 stars: 4.6
 reviews: 11
-size: '102789120'
+size: '109108224'
 website: https://www.payperless.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Payperlesscom
 social:
 - https://www.facebook.com/payperlesscom/
 - https://www.instagram.com/payperlesscom/
+features: 
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
 redirect_from: 
+features: 
 
 ---
 

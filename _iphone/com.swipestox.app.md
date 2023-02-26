@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.swipestox.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-10
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting
 - https://www.facebook.com/nagainvesting
+features: 
 
 ---
 

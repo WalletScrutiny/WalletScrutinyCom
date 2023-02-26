@@ -10,7 +10,7 @@ appCountry:
 released: 2017-09-29
 updated: 2023-01-07
 version: 3.1.0 'Fluorine Fermi'
-stars: 3.2
+stars: 3.3
 ratings: 821
 reviews: 168
 size: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

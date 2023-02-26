@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/starteos.io.7
 - https://github.com/StarteosIO
 redirect_from: 
+features: 
 
 ---
 

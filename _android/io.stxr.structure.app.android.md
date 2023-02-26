@@ -7,8 +7,8 @@ users: 5000
 appId: io.stxr.structure.app.android
 appCountry: 
 released: May 6, 2022
-updated: 2022-12-28
-version: 1.4.2-prod
+updated: 2023-01-30
+version: 1.5.0-prod
 stars: 3.7
 ratings: 
 reviews: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

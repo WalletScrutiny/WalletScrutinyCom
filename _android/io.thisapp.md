@@ -7,8 +7,8 @@ users: 500
 appId: io.thisapp
 appCountry: 
 released: Sep 27, 2018
-updated: 2022-10-01
-version: 0.20.1
+updated: 2023-01-20
+version: 0.21.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -9,9 +9,9 @@ appCountry:
 released: Apr 22, 2019
 updated: 2019-05-14
 version: 1.0.2
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 42
+reviews: 43
 size: 
 website: https://www.cryptorefills.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

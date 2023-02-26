@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/ataixcom
 - https://www.facebook.com/ATAIXcom
 redirect_from: 
+features: 
 
 ---
 

@@ -7,8 +7,8 @@ users: 10000
 appId: com.bottlepay
 appCountry: 
 released: 
-updated: 2022-12-19
-version: 2.2.5
+updated: 2023-02-14
+version: 2.2.7
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

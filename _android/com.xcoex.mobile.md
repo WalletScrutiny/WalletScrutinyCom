@@ -8,8 +8,8 @@ users: 10000
 appId: com.xcoex.mobile
 appCountry: 
 released: 2019-01-17
-updated: 2022-10-20
-version: 1.27.1
+updated: 2023-02-13
+version: 1.28.0
 stars: 3
 ratings: 159
 reviews: 6
@@ -28,6 +28,7 @@ twitter: OfficialXcoex
 social:
 - https://www.facebook.com/xcoex
 redirect_from: 
+features: 
 
 ---
 

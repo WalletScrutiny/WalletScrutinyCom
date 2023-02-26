@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/maxonrow
 - https://www.facebook.com/maxonrowblockchain
 redirect_from: 
+features: 
 
 ---
 

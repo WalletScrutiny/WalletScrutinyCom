@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/genesis-vision
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
 redirect_from: 
+features: 
 
 ---
 

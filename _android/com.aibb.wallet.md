@@ -28,6 +28,7 @@ twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank
 redirect_from: 
+features: 
 
 ---
 

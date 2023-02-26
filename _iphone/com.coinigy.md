@@ -11,7 +11,7 @@ released: 2018-04-28
 updated: 2022-10-16
 version: 0.5.32
 stars: 3.9
-reviews: 50
+reviews: 49
 size: '57791488'
 website: https://www.coinigy.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: coinigy
 social:
 - https://www.linkedin.com/company/coinigy
 - https://www.facebook.com/coinigy
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.afriex.afriex
 appCountry: us
 released: 2020-03-05
-updated: 2022-11-14
-version: '11.60'
-stars: 4.2
+updated: 2023-02-01
+version: '11.61'
+stars: 3.8
 ratings: 1165
-reviews: 493
+reviews: 432
 size: 
 website: https://afriexapp.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/afriex
 - https://www.facebook.com/AfriexApp
 redirect_from: 
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2022-12-29
-version: 1.28.0
-stars: 4.1
+updated: 2023-02-22
+version: 1.31.3
+stars: 3.7
 ratings: 377
-reviews: 201
+reviews: 173
 size: 
 website: https://ecos.finance
 repository: 
@@ -28,6 +28,7 @@ twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
 redirect_from: 
+features: 
 
 ---
 

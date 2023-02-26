@@ -11,7 +11,7 @@ released: 2020-09-21
 updated: 2022-12-11
 version: 2.11.2
 stars: 4.8
-reviews: 385
+reviews: 382
 size: '279813120'
 website: https://www.whalefin.com
 repository: 
@@ -27,6 +27,7 @@ twitter: ambergroup_io
 social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
+features: 
 
 ---
 

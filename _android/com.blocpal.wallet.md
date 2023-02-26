@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.blocpal.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-01-19
+date: 2023-01-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

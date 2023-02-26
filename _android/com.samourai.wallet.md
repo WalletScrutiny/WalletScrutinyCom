@@ -31,6 +31,7 @@ redirect_from:
 - /com.samourai.wallet/
 - /posts/2019/11/samourai/
 - /posts/com.samourai.wallet/
+features: 
 
 ---
 

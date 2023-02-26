@@ -10,8 +10,8 @@ idd: 1460001613
 released: 2019-04-30
 updated: 2021-05-14
 version: '2.15'
-stars: 3.9
-reviews: 30
+stars: 4
+reviews: 29
 size: '49214464'
 website: https://www.bitleague.com
 repository: 
@@ -27,6 +27,7 @@ twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
+features: 
 
 ---
 

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: BithumbOfficial
 social: 
 redirect_from: 
+features: 
 
 ---
 

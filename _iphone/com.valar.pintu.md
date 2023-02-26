@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.valar.pintu.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: pintuid
 social:
 - https://www.facebook.com/pintucrypto
+features: 
 
 ---
 

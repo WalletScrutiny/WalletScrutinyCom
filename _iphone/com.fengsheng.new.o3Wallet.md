@@ -10,8 +10,8 @@ idd: 1528451572
 released: 2020-08-31
 updated: 2022-12-27
 version: 3.3.0
-stars: 4.2
-reviews: 20
+stars: 4.1
+reviews: 19
 size: '73953280'
 website: https://o3.network
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: O3_Labs
 social:
 - https://github.com/O3Labs
+features: 
 
 ---
 

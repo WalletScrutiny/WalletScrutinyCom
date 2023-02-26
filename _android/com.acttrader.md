@@ -3,7 +3,7 @@ wsId:
 title: ActTrader
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.acttrader
 appCountry: 
 released: Dec 29, 2021
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 1000000
 appId: atws.app
 appCountry: us
 released: 2010-12-15
-updated: 2023-01-11
-version: 8.4.634
+updated: 2023-02-18
+version: 8.4.646
 stars: 4.4
 ratings: 7723
-reviews: 926
+reviews: 939
 size: 
 website: http://ibkr.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
 redirect_from: 
+features: 
 
 ---
 

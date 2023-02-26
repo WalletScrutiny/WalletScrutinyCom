@@ -8,8 +8,8 @@ users: 1000
 appId: com.baanx.baanx
 appCountry: us
 released: 2019-10-10
-updated: 2021-09-07
-version: 3.1.0
+updated: 2023-02-02
+version: 3.1.1
 stars: 
 ratings: 
 reviews: 
@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.baanx.baanx.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-11-02
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp
 redirect_from: 
+features: 
 
 ---
 

@@ -11,7 +11,7 @@ updated: 2022-09-28
 version: '1.5 '
 stars: 3.6
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://www.teamanyjson.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

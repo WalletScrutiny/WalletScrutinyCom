@@ -9,8 +9,8 @@ idd: 1223340174
 released: 2017-06-08
 updated: 2022-12-28
 version: 1.59.1
-stars: 4.6
-reviews: 306
+stars: 4.5
+reviews: 307
 size: '67917824'
 website: https://cryptopay.me/
 repository: 
@@ -26,6 +26,7 @@ twitter: cryptopay
 social:
 - https://www.linkedin.com/company/cryptopay
 - https://www.facebook.com/cryptopayme
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/gin-blockchain
 - https://www.facebook.com/ginnetworks
 redirect_from: 
+features: 
 
 ---
 

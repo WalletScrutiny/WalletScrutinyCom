@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.pumapay.pumawallet/
 - /posts/com.pumapay.pumawallet/
+features: 
 
 ---
 

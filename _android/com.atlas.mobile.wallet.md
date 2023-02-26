@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-11-22
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: Cent_Finance
@@ -29,6 +29,7 @@ social:
 - https://github.com/centfinance
 redirect_from:
 - /com.atlas.mobile.wallet/
+features: 
 
 ---
 

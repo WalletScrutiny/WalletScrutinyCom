@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.elrond.maiar.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-01-05
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: getMaiar
 social:
 - https://www.linkedin.com/company/getmaiar
 - https://www.facebook.com/getMaiar
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
 redirect_from: 
+features: 
 
 ---
 

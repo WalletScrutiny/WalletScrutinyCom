@@ -28,6 +28,7 @@ twitter: CTrade_official
 social:
 - https://www.facebook.com/CTradeProOfficial
 redirect_from: 
+features: 
 
 ---
 

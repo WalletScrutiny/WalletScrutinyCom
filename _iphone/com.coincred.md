@@ -10,8 +10,8 @@ idd: '1596466402'
 released: '2021-12-31T08:00:00Z'
 updated: 2022-12-06
 version: 2.0.2
-stars: 3.5
-reviews: 100
+stars: 3.4
+reviews: 97
 size: '41768960'
 website: https://coincred.org/
 repository: 
@@ -27,6 +27,7 @@ twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
+features: 
 
 ---
 

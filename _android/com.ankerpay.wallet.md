@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.ankerpay.wallet/
 - /posts/com.ankerpay.wallet/
+features: 
 
 ---
 

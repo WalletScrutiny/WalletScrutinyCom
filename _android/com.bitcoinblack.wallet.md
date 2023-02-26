@@ -13,7 +13,7 @@ updated: 2020-12-25
 version: 1.0.6
 stars: 3.9
 ratings: 1690
-reviews: 67
+reviews: 66
 size: 
 website: https://bitcoin.black
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bitcoinblackofficial
 - https://www.reddit.com/r/AllAboardBitcoinBlack
 redirect_from: 
+features: 
 
 ---
 

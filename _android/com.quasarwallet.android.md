@@ -3,15 +3,15 @@ wsId:
 title: Quasar Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.quasarwallet.android
 appCountry: 
 released: Apr 5, 2022
 updated: 2022-04-05
 version: '1.2'
-stars: 
+stars: 2
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://quasarwallet.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

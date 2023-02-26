@@ -8,7 +8,7 @@ users: 10000
 appId: zapsolutions.zap
 appCountry: 
 released: 
-updated: 2022-03-20
+updated: 2023-02-10
 version: VARY
 stars: 
 ratings: 
@@ -76,6 +76,8 @@ social:
   https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LWQ1OGMyMWI3YTdmYTQ0YTVmODg4ZmNkYjQ1MzUxNGExMGRmZWEyNTUyOGQzMzZkYTdhODE3NmQxZWZiOGFkYWI
 redirect_from:
 - /posts/zapsolutions.zap/
+features:
+- ln
 
 ---
 

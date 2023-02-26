@@ -3,7 +3,7 @@ wsId:
 title: Small Deals
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: cm.viaziza.smalldeals
 appCountry: 
 released: Mar 8, 2022
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

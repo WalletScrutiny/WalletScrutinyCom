@@ -11,7 +11,7 @@ released: 2014-12-17
 updated: 2022-01-14
 version: '1.17'
 stars: 2.2
-reviews: 345
+reviews: 348
 size: '7613440'
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/mycelium
 - https://www.facebook.com/myceliumcom
 - https://www.reddit.com/r/mycelium
+features: 
 
 ---
 

@@ -3,7 +3,7 @@ wsId:
 title: Flutter Crypto App
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.geekyants.fluttercryptocurrency
 appCountry: 
 released: 2020-04-30
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

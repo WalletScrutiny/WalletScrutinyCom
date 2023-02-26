@@ -27,6 +27,7 @@ twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
 - https://www.facebook.com/paytomat
+features: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/icrypex-crypto-exchange/
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
+features: 
 
 ---
 

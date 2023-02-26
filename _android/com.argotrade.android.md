@@ -2,7 +2,8 @@
 wsId: 
 title: ArgoTrade
 altTitle: 
-authors: 
+authors:
+- danny
 users: 50000
 appId: com.argotrade.android
 appCountry: 
@@ -19,13 +20,23 @@ issue:
 icon: com.argotrade.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nosendreceive
+date: 2022-07-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+From the app's description:
+
+> ArgoTrade mobile app is built to robust standards, keeping the markets open for traders on the go and providing access to +2100 of the most coveted assets on the global market.
+>
+> All this through the high-tech and yet simple to use WebTrader platform that incorporates deposit and withdrawal facilities and 1-click execution on all trades.
+>
+> Select from 7 asset classes – Forex, Crypto, Stocks, commodities, bonds, ETFs, indices – and choose your favorite.
+
+This app advertises CFD trading. Upon installing the app, there's no indication that it offers a bitcoin wallet.

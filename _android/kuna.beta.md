@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-07-22
 updated: 2022-12-09
 version: 1.4.25
-stars: 3.4
+stars: 3.5
 ratings: 1118
-reviews: 12
+reviews: 13
 size: 
 website: https://kuna.io/
 repository: 
@@ -28,6 +28,7 @@ twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
 redirect_from: 
+features: 
 
 ---
 

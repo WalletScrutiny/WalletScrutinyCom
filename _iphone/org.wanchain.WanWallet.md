@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/wanchainfoundation
 - https://www.reddit.com/r/wanchain
 - https://github.com/wanchain
+features: 
 
 ---
 

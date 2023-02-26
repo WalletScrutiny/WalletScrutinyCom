@@ -8,11 +8,11 @@ users: 500000
 appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
-updated: 2023-01-09
-version: 3.8.1
+updated: 2023-01-16
+version: 3.9.1
 stars: 3.7
 ratings: 11088
-reviews: 582
+reviews: 586
 size: 
 website: https://www.bitstamp.net
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitstamp
 - https://www.facebook.com/Bitstamp
 redirect_from: 
+features: 
 
 ---
 

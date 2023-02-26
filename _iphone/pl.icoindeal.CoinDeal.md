@@ -27,6 +27,7 @@ twitter: coindealcom
 social:
 - https://www.linkedin.com/company/coindealcom
 - https://www.facebook.com/coindealcom
+features: 
 
 ---
 

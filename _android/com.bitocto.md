@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitocto
 - https://www.facebook.com/Bitocto
 redirect_from: 
+features: 
 
 ---
 

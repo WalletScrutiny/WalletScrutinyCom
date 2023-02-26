@@ -11,7 +11,7 @@ released: 2021-04-28
 updated: 2022-05-18
 version: 1.1.85
 stars: 4
-reviews: 26
+reviews: 24
 size: '22723584'
 website: http://buycoins.africa
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

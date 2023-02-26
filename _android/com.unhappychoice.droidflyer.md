@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-01-24
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

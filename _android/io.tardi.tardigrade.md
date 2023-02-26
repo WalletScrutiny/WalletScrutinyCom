@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Tardi: Crypto for Institution'
+title: 'Keywa: Crypto for Institution'
 altTitle: 
 authors: 
 users: 10
@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tardi.io
+website: https://keywa.io
 repository: 
 issue: 
 icon: io.tardi.tardigrade.png
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-02-25
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

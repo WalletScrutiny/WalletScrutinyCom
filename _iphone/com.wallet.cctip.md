@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.wallet.cctip.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-28
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: cctip_com
 social:
 - https://www.reddit.com/r/CCTip/
+features: 
 
 ---
 

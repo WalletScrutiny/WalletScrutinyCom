@@ -15,7 +15,7 @@ stars: 4.5
 ratings: 409
 reviews: 32
 size: 
-website: https://adslab-2b1c2.web.app
+website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.explorer.png
@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2022-12-01
 version: 1.21.0
 stars: 3.4
 ratings: 428
-reviews: 439
+reviews: 445
 size: 
 website: https://flitaa.com
 repository: 
@@ -28,6 +28,7 @@ twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa
 redirect_from: 
+features: 
 
 ---
 

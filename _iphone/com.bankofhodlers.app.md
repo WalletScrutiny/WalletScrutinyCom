@@ -10,8 +10,8 @@ idd: 1509251174
 released: 2020-05-12
 updated: 2022-06-30
 version: 2.7.1
-stars: 4
-reviews: 291
+stars: 4.1
+reviews: 288
 size: '83932160'
 website: https://www.vauld.com/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/vauld
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
+features: 
 
 ---
 

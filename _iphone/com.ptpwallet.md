@@ -10,8 +10,8 @@ idd: 1428589045
 released: 2018-12-12
 updated: 2022-04-11
 version: 1.0.235
-stars: 4.3
-reviews: 23
+stars: 4.2
+reviews: 24
 size: '47893504'
 website: https://ptpwallet.com
 repository: 
@@ -27,6 +27,7 @@ twitter: PtpWallet
 social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
+features: 
 
 ---
 

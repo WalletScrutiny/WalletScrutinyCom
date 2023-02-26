@@ -1,6 +1,6 @@
 ---
 wsId: spatium
-title: 'Spatium: NFT & Crypto Wallet'
+title: Spatium MPC Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -9,8 +9,8 @@ users: 1000
 appId: capital.spatium.wallet
 appCountry: us
 released: 2018-08-31
-updated: 2022-11-29
-version: 3.1.8
+updated: 2023-02-14
+version: 3.1.10
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
 redirect_from: 
+features: 
 
 ---
 

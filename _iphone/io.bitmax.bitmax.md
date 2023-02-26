@@ -12,7 +12,7 @@ released: 2019-06-13
 updated: 2022-11-14
 version: 2.8.8
 stars: 4.7
-reviews: 319
+reviews: 318
 size: '120030208'
 website: 
 repository: 
@@ -28,6 +28,7 @@ twitter: AscendEX_Global
 social:
 - https://www.facebook.com/AscendEXOfficial
 - https://www.reddit.com/r/AscendEX_Official
+features: 
 
 ---
 

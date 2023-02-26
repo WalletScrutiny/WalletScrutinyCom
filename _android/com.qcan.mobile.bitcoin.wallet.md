@@ -28,6 +28,7 @@ twitter:
 social: 
 redirect_from:
 - /com.qcan.mobile.bitcoin.wallet/
+features: 
 
 ---
 

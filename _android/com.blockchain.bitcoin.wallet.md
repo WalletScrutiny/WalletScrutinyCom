@@ -10,11 +10,11 @@ appCountry:
 released: 2021-01-19
 updated: 2021-09-24
 version: 1.0.3.8
-stars: 4.3
+stars: 4.4
 ratings: 729
 reviews: 57
 size: 
-website: https://adslab-2b1c2.web.app
+website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
@@ -32,6 +32,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -7,8 +7,8 @@ users: 5000
 appId: com.xbank247.app
 appCountry: 
 released: Dec 30, 2021
-updated: 2022-07-17
-version: '10'
+updated: 2023-01-20
+version: '15'
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

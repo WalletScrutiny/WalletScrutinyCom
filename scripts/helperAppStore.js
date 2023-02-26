@@ -18,7 +18,7 @@ const folder = `_${category}/`
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'updated version stars reviews size website repository issue ' +
                 'icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social').split(' ')
+                'twitter social features').split(' ')
 
 async function refreshAll (ids, markDefunct) {
   var files

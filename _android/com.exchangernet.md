@@ -12,22 +12,23 @@ updated: 2021-02-22
 version: '1.0'
 stars: 4.2
 ratings: 70
-reviews: 7
+reviews: 8
 size: 
 website: https://www.exchangernet.com/
 repository: 
 issue: 
 icon: com.exchangernet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-02-18
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
+features: 
 
 ---
 

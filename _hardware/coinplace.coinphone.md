@@ -28,6 +28,7 @@ reviewArchive:
 twitter: CoinPlacePro
 social:
 - https://www.facebook.com/CoinPlaceWorld/
+features: 
 
 ---
 

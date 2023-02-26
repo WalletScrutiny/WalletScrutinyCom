@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Digitra.com
+title: Digitra.com - Zero fee trading
 altTitle: 
 authors: 
 users: 10000
 appId: com.digitra.digitraHB
 appCountry: 
 released: Mar 5, 2022
-updated: 2023-01-02
-version: 1.0.32
+updated: 2023-02-15
+version: 1.0.37
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-11
 version: 5.13.0
 stars: 4.3
 ratings: 13093
-reviews: 169
+reviews: 168
 size: 
 website: https://www.cointiger.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinTigerEX
 - https://www.reddit.com/r/CoinTigerExchange
 redirect_from: 
+features: 
 
 ---
 

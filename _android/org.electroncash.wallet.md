@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /org.electroncash.wallet/
 - /posts/org.electroncash.wallet/
+features: 
 
 ---
 

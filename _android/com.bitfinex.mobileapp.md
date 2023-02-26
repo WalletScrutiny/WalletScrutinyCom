@@ -8,9 +8,9 @@ users: 100000
 appId: com.bitfinex.mobileapp
 appCountry: 
 released: 2019-02-11
-updated: 2023-01-11
-version: 5.17.0
-stars: 3.5
+updated: 2023-01-31
+version: 5.18.0
+stars: 3.6
 ratings: 1986
 reviews: 52
 size: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
 redirect_from: 
+features:
+- ln
 
 ---
 

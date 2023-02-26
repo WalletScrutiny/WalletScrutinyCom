@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/DiviProject
 - https://github.com/DiviProject
 redirect_from: 
+features: 
 
 ---
 

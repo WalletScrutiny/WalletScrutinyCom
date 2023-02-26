@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: com.ecomi.securewallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-11
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: ecomi_
 social: 
+features: 
 
 ---
 

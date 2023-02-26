@@ -10,9 +10,9 @@ appCountry: mt
 released: 2020-01-30
 updated: 2023-01-10
 version: 1.0.7
-stars: 2.3
+stars: 2.5
 ratings: 43
-reviews: 43
+reviews: 45
 size: 
 website: https://gekkoin.com/index.html
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/gekkoin.official
 redirect_from: 
+features: 
 
 ---
 

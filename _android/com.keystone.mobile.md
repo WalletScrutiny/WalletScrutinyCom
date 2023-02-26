@@ -4,12 +4,12 @@ title: Keystone Hardware Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.keystone.mobile
 appCountry: 
 released: 2021-06-01
-updated: 2022-12-21
-version: 1.2.2
+updated: 2023-01-17
+version: 1.2.4
 stars: 4.1
 ratings: 
 reviews: 4
@@ -28,6 +28,7 @@ twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
 redirect_from: 
+features: 
 
 ---
 

@@ -11,7 +11,7 @@ released: 2021-05-10
 updated: 2022-10-26
 version: 1.0.52
 stars: 4.6
-reviews: 52
+reviews: 51
 size: '71836672'
 website: https://zupago.app
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

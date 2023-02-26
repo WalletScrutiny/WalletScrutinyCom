@@ -27,6 +27,7 @@ twitter: MUIcommunity
 social:
 - https://www.linkedin.com/company/metamui
 - https://www.facebook.com/SovereignWallet
+features: 
 
 ---
 

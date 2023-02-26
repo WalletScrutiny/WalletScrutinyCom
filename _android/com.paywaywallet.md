@@ -32,6 +32,7 @@ redirect_from:
 - /com.paywaywallet/
 - /payway/
 - /posts/com.paywaywallet/
+features: 
 
 ---
 

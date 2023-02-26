@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: cy.agorise.palmpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-26
+date: 2023-01-16
 signer: 
 reviewArchive: 
 twitter: Agorise_world
 social: 
 redirect_from: 
+features: 
 
 ---
 

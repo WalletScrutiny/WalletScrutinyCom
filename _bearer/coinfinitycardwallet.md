@@ -32,6 +32,7 @@ twitter: CardwalletCom
 social:
 - https://www.linkedin.com/company/coinfinity
 - https://www.facebook.com/cardwalletcoinfinity
+features: 
 
 ---
 

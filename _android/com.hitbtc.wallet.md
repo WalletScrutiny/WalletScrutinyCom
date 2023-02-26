@@ -1,6 +1,6 @@
 ---
 wsId: HitBTCWallet
-title: HitBTC Crypto Сoin Wallet
+title: HitBTC altcoin crypto wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.hitbtc.wallet
 appCountry: au
 released: 2021-08-31
-updated: 2022-12-30
-version: 1.3.9
+updated: 2023-02-09
+version: 1.3.12
 stars: 5
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hitbtc
 - https://www.reddit.com/r/hitbtc
 redirect_from: 
+features: 
 
 ---
 

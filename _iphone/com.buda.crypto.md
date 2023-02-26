@@ -27,6 +27,8 @@ twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom
 - https://www.facebook.com/BudaPuntoCom
+features:
+- ln
 
 ---
 

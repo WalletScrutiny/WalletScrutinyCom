@@ -3,7 +3,7 @@ wsId:
 title: Dawn Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.dawn.wallet
 appCountry: 
 released: 2021-01-13
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

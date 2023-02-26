@@ -26,6 +26,7 @@ reviewArchive:
 twitter: gowallet_app_
 social:
 - https://www.facebook.com/gowalletappli
+features: 
 
 ---
 

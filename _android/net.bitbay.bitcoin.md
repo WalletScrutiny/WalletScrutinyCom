@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BitBay
 - https://www.reddit.com/r/BitBayExchange
 redirect_from: 
+features: 
 
 ---
 
