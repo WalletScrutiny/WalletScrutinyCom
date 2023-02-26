@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /cryptoex.elegro.io/
 - /posts/cryptoex.elegro.io/
+features: 
 
 ---
 

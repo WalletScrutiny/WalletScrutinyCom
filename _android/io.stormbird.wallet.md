@@ -8,11 +8,11 @@ users: 50000
 appId: io.stormbird.wallet
 appCountry: us
 released: 2018-05-19
-updated: 2022-12-09
-version: 3.60.8
-stars: 4.4
+updated: 2023-02-15
+version: 3.62.0
+stars: 4.5
 ratings: 247
-reviews: 32
+reviews: 34
 size: 
 website: https://alphawallet.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
 redirect_from: 
+features: 
 
 ---
 

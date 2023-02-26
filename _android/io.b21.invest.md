@@ -12,16 +12,16 @@ updated: 2022-01-30
 version: 0.8.0
 stars: 2.8
 ratings: 592
-reviews: 289
+reviews: 290
 size: 
 website: https://b21.io
 repository: 
 issue: 
 icon: io.b21.invest.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-17
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: B21Official
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/B21Official
 - https://www.reddit.com/r/B21Invest
 redirect_from: 
+features: 
 
 ---
 

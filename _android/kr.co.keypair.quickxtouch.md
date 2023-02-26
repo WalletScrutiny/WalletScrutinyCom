@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
 redirect_from: 
+features: 
 
 ---
 

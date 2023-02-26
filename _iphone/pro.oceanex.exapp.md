@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: pro.oceanex.exapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-18
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: OceanexOfficial
 social:
 - https://www.facebook.com/OceanExPROOfficial
 - https://www.reddit.com/r/OceanExOfficial
+features: 
 
 ---
 

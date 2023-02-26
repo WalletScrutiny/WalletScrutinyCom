@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cryptooriented.exchanges.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

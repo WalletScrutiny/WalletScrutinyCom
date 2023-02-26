@@ -10,18 +10,18 @@ appCountry: us
 released: 2021-04-26
 updated: 2022-02-04
 version: 1.2.24.10222
-stars: 4.6
+stars: 4.5
 ratings: 438
-reviews: 227
+reviews: 238
 size: 
 website: https://coincircle.com
 repository: 
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: coincircle
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
 redirect_from: 
+features: 
 
 ---
 

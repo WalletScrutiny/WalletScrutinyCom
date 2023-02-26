@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: co.bnbex.n.broker.android.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

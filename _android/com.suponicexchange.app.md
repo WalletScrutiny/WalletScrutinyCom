@@ -9,9 +9,9 @@ appCountry:
 released: Jan 23, 2020
 updated: 2020-01-23
 version: '1.0'
-stars: 4
+stars: 3.5
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://www.suponic.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

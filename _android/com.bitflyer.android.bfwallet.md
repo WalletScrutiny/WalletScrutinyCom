@@ -4,15 +4,15 @@ title: bitFlyer Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.bitflyer.android.bfwallet
 appCountry: jp
 released: 2019-10-19
-updated: 2022-10-12
-version: 7.17.0
+updated: 2023-02-14
+version: 8.0.1
 stars: 3.9
 ratings: 4430
-reviews: 1411
+reviews: 1431
 size: 
 website: https://bitflyer.com
 repository: 
@@ -28,6 +28,7 @@ twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
 redirect_from: 
+features: 
 
 ---
 

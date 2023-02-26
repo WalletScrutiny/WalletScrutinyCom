@@ -7,8 +7,8 @@ users: 5000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: Sep 20, 2021
-updated: 2022-12-13
-version: 1.0.1-beta.5
+updated: 2022-12-27
+version: 1.0.1-beta.6
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

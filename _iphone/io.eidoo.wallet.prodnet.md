@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-05-25
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: eidoo_io
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/eidoo
 - https://www.facebook.com/eidoocrypto
 - https://www.reddit.com/r/eidooapp
+features: 
 
 ---
 

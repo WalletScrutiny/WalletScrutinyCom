@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-09
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: FTX_Official
 social:
 - https://www.facebook.com/ftx.official
+features: 
 
 ---
 

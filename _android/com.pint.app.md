@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.pint.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-03-02
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: bitfialabs
 social:
 - https://www.linkedin.com/company/bitfia-labs
 redirect_from: 
+features: 
 
 ---
 

@@ -11,7 +11,7 @@ released: 2020-10-26
 updated: 2022-09-26
 version: 2.11.2
 stars: 4.9
-reviews: 70
+reviews: 69
 size: '27799552'
 website: https://bitcoin.global/
 repository: 
@@ -27,6 +27,7 @@ twitter: BitcoinGlobalEx
 social:
 - https://www.facebook.com/BitcoinGlobalEx
 - https://www.reddit.com/r/BITCOIN_GLOBAL
+features: 
 
 ---
 

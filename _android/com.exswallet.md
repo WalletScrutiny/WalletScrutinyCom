@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.exswallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -11,7 +11,7 @@ updated: 2020-05-10
 version: 1.1.1
 stars: 3.2
 ratings: 
-reviews: 10
+reviews: 13
 size: 
 website: https://www.usdtoption.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

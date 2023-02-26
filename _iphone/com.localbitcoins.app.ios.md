@@ -8,11 +8,11 @@ appId: com.localbitcoins.app.ios
 appCountry: us
 idd: 1559014308
 released: 2021-11-02
-updated: 2022-09-14
-version: 1.0.58
-stars: 3.6
-reviews: 55
-size: '37492736'
+updated: 2023-02-10
+version: 1.0.65
+stars: 3.7
+reviews: 53
+size: '77495296'
 website: https://localbitcoins.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: LocalBitcoins
 social:
 - https://www.linkedin.com/company/localbitcoins
 - https://www.facebook.com/LocalBitcoinsCom
+features: 
 
 ---
 

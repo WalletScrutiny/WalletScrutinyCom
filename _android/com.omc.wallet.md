@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.omc.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

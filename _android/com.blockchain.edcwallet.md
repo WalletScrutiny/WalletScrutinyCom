@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockchain.edcwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2022-02-07
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: EDCBlockchain
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
 redirect_from: 
+features: 
 
 ---
 

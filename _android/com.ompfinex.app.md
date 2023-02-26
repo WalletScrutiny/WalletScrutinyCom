@@ -10,9 +10,9 @@ appCountry:
 released: Jul 20, 2021
 updated: 2022-12-01
 version: 2.1.9
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 15
+reviews: 19
 size: 
 website: https://ompfinex.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/ompfinex/
 - https://www.youtube.com/channel/UC7BfUYMUwddfnwCNvq29QpQ
 redirect_from: 
+features: 
 
 ---
 

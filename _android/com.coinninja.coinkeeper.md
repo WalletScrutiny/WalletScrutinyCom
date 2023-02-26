@@ -32,6 +32,8 @@ redirect_from:
 - /com.coinninja.coinkeeper/
 - /posts/2019/11/dropbit/
 - /posts/com.coinninja.coinkeeper/
+features:
+- ln
 
 ---
 

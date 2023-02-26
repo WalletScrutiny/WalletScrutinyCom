@@ -11,21 +11,22 @@ released: 2020-01-27
 updated: 2022-10-31
 version: 3.22.0
 stars: 4.7
-reviews: 57
+reviews: 58
 size: '111729664'
 website: https://pintu.co.id/
 repository: 
 issue: 
 icon: com.valar.pintu.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: pintuid
 social:
 - https://www.facebook.com/pintucrypto
+features: 
 
 ---
 

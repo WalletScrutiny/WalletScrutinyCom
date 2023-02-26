@@ -12,7 +12,7 @@ updated: 2022-08-01
 version: 1.8.7
 stars: 4.4
 ratings: 1058
-reviews: 115
+reviews: 118
 size: 
 website: https://goodcrypto.app
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/GoodCrypto
 redirect_from:
 - /app.goodcrypto/
+features: 
 
 ---
 

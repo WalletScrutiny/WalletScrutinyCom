@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: io.sperax.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2022-06-28
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: SperaxUSD
 social: 
+features: 
 
 ---
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-19
 updated: 2022-11-11
 version: 1.18.1
-stars: 4
+stars: 3.9
 ratings: 758
-reviews: 111
+reviews: 122
 size: 
 website: http://www.walletofsatoshi.com
 repository: 
@@ -32,6 +32,8 @@ redirect_from:
 - /com.livingroomofsatoshi.wallet/
 - /posts/2019/12/walletofsatoshi/
 - /posts/com.livingroomofsatoshi.wallet/
+features:
+- ln
 
 ---
 

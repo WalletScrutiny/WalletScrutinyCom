@@ -11,7 +11,7 @@ updated: 2020-09-10
 version: 2.0.0
 stars: 4.1
 ratings: 125
-reviews: 5
+reviews: 6
 size: 
 website: https://ariomex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

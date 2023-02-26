@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.polispay.copay/
 - /posts/com.polispay.copay/
+features: 
 
 ---
 

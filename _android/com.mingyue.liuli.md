@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.mingyue.liuli.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

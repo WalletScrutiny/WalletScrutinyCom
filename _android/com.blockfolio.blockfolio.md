@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-09
+date: 2023-01-02
 signer: 
 reviewArchive:
 - date: 2019-11-10
@@ -37,6 +37,7 @@ redirect_from:
 - /com.blockfolio.blockfolio/
 - /posts/2019/11/blockfolio/
 - /posts/com.blockfolio.blockfolio/
+features: 
 
 ---
 

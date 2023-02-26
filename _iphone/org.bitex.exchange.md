@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: org.bitex.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-04
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide
 - https://www.facebook.com/Bitexofficial
+features: 
 
 ---
 

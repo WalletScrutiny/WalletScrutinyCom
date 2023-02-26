@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.genesisblock.production.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: genesisblockhq
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/genesisblockhq
 - https://www.reddit.com/r/genesisblockhq
 redirect_from: 
+features: 
 
 ---
 

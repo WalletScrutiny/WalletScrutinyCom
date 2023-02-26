@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.silenca.cryptoneed.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-04-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/cryptoneedwallet
 redirect_from: 
+features: 
 
 ---
 

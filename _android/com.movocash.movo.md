@@ -3,15 +3,15 @@ wsId:
 title: MOVO - Send to Spend
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.movocash.movo
 appCountry: 
 released: Apr 1, 2021
 updated: 2022-12-13
 version: 4.3.3
-stars: 3.5
+stars: 3.3
 ratings: 
-reviews: 133
+reviews: 144
 size: 
 website: http://movo.cash
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

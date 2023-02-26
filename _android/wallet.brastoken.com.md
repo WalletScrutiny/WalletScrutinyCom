@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: wallet.brastoken.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: co.lvl.firstapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-18
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: BankWithLVL
 social:
 - https://www.linkedin.com/company/bankwithlvl
 - https://www.facebook.com/BankWithLVL
+features: 
 
 ---
 

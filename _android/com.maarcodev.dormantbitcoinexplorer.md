@@ -7,8 +7,8 @@ users: 1000
 appId: com.maarcodev.dormantbitcoinexplorer
 appCountry: 
 released: Oct 17, 2021
-updated: 2022-06-16
-version: '1.4'
+updated: 2023-01-06
+version: '1.5'
 stars: 3.4
 ratings: 
 reviews: 2
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

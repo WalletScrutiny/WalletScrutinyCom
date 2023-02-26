@@ -37,6 +37,7 @@ social:
 - https://www.reddit.com/r/QuickX/
 - https://medium.com/quickxprotocol
 - https://t.me/quickxprotocol
+features: 
 
 ---
 

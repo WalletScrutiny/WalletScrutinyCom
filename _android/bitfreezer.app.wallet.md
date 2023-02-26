@@ -29,6 +29,7 @@ twitter:
 social:
 - https://www.facebook.com/TheBitFreezer
 redirect_from: 
+features: 
 
 ---
 

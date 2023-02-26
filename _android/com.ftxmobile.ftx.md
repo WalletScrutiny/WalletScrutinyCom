@@ -10,9 +10,9 @@ appCountry:
 released: 2020-05-08
 updated: 2022-10-14
 version: 2.0.8
-stars: 4.7
+stars: 4.4
 ratings: 9850
-reviews: 600
+reviews: 525
 size: 
 website: https://ftx.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: FTX_Official
 social:
 - https://www.facebook.com/ftx.official
 redirect_from: 
+features: 
 
 ---
 

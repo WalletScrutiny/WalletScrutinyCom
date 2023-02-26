@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: io.kriptomat.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: kriptomat
 social:
 - https://www.linkedin.com/company/kriptomat
 - https://www.facebook.com/kriptomat.io
+features: 
 
 ---
 

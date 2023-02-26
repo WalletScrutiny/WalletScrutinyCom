@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.digitalstorm.HIVE.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-10-05
+date: 2023-01-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

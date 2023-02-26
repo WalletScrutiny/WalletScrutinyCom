@@ -3,7 +3,7 @@ wsId:
 title: Coinfib
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.coinfib.coinfibmobile
 appCountry: 
 released: Mar 16, 2022
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

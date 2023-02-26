@@ -8,12 +8,12 @@ appId: com.andinadefi.defiant
 appCountry: ar
 idd: 1559622756
 released: 2021-04-07
-updated: 2022-05-19
-version: 3.1.1+197
-stars: 4.8
-reviews: 13
-size: '63555584'
-website: https://defiantapp.tech/home/
+updated: 2023-02-23
+version: 4.2.5+266
+stars: 4.9
+reviews: 19
+size: '83793920'
+website: https://defiantapp.tech/
 repository: 
 issue: 
 icon: com.andinadefi.defiant.jpg
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: defiantApp
 social: 
+features: 
 
 ---
 

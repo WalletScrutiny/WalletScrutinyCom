@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.cointral.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-19
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: Cointral
 social:
 - https://www.linkedin.com/company/cointral
 - https://www.facebook.com/Cointral
+features: 
 
 ---
 

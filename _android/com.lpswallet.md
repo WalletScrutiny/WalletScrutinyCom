@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.lpswallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

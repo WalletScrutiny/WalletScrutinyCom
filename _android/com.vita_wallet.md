@@ -4,15 +4,15 @@ title: Vita Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.vita_wallet
 appCountry: cl
 released: 2019-10-16
-updated: 2022-12-15
-version: 5.0.8
-stars: 4.6
+updated: 2023-02-22
+version: 5.2.2
+stars: 4.8
 ratings: 458
-reviews: 416
+reviews: 451
 size: 
 website: https://vitawallet.io/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
 redirect_from: 
+features: 
 
 ---
 

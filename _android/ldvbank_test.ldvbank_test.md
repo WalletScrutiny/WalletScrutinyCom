@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: ldvbank_test.ldvbank_test.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

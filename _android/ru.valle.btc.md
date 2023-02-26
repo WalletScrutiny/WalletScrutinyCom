@@ -10,9 +10,9 @@ appCountry:
 released: 2013-04-19
 updated: 2021-11-05
 version: VARY
-stars: 4.6
+stars: 4.5
 ratings: 163
-reviews: 14
+reviews: 16
 size: 
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
@@ -34,6 +34,7 @@ social:
 redirect_from:
 - /ru.valle.btc/
 - /posts/ru.valle.btc/
+features: 
 
 ---
 

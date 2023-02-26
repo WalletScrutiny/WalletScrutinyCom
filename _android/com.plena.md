@@ -3,15 +3,15 @@ wsId:
 title: Plena:The Smartest DeFi Wallet
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.plena
 appCountry: 
 released: Jul 6, 2022
-updated: 2022-12-22
-version: 1.9.0
-stars: 
+updated: 2023-02-03
+version: 1.9.4
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 49
 size: 
 website: https://www.plena.finance/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

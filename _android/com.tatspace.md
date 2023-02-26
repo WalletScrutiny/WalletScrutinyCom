@@ -3,15 +3,15 @@ wsId:
 title: TATSPACE
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.tatspace
 appCountry: 
 released: Feb 13, 2022
-updated: 2022-12-05
-version: 1.3.3
-stars: 4.3
+updated: 2023-02-19
+version: 1.3.6
+stars: 3.5
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://www.tatcoin.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

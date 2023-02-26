@@ -1,6 +1,6 @@
 ---
 wsId: Unstoppable
-title: Unstoppable Wallet
+title: Unstoppable Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2022-12-14
-version: 0.28.2
-stars: 3.8
+updated: 2023-02-07
+version: 0.30.0
+stars: 3.9
 ratings: 556
-reviews: 63
+reviews: 66
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
@@ -195,6 +195,7 @@ social:
 redirect_from:
 - /io.horizontalsystems.bankwallet/
 - /posts/io.horizontalsystems.bankwallet/
+features: 
 
 ---
 

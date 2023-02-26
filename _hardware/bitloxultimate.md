@@ -7,9 +7,9 @@ authors:
 - leo
 released: 2015-01-01
 discontinued: 
-updated: 2017-02-12
-version: v67_BIP44
-binaries: 
+updated: 2022-04-20
+version: 67_signed
+binaries: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
 dimensions:
 - 54
 - 85
@@ -21,11 +21,11 @@ website: https://www.bitlox.com/products/bitlox-ultimate
 shop: https://www.bitlox.com/products/bitlox-ultimate
 country: HK
 price: 148USD
-repository: https://github.com/BitLox/bitlox-firmware
+repository: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
 issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
 date: 2021-12-12
 signer: 
@@ -33,8 +33,14 @@ reviewArchive:
 twitter: bitlox
 social:
 - https://www.facebook.com/BitLoxWallet
+features: 
 
 ---
+
+## Updated Verdict 2022-11-25
+
+The device's firmware has recently been updated on April 20, 2022. 
+We [mark this device for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/443).
 
 ## Private keys can be created offline - ✔️
 

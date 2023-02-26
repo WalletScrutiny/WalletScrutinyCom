@@ -7,11 +7,11 @@ appId: com.ittrendex.liteforex
 appCountry: us
 idd: 1400177519
 released: 2018-08-01
-updated: 2022-12-22
-version: '1.66'
-stars: 3.7
-reviews: 23
-size: '22445056'
+updated: 2023-02-07
+version: '1.68'
+stars: 3.8
+reviews: 21
+size: '22463488'
 website: 
 repository: 
 issue: 
@@ -24,6 +24,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

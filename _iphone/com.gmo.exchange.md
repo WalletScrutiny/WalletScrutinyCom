@@ -8,11 +8,11 @@ appId: com.gmo.exchange
 appCountry: th
 idd: 1525862502
 released: 2020-08-09
-updated: 2022-12-18
-version: 2.0.2
+updated: 2023-02-19
+version: 2.0.6
 stars: 3.7
 reviews: 25
-size: '77621248'
+size: '77797376'
 website: https://ex.z.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ZcomExchange
 social:
 - https://www.facebook.com/ZcomCrypto
+features: 
 
 ---
 

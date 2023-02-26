@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-30
 updated: 2022-06-28
 version: 2.7.1
-stars: 3.8
+stars: 3.7
 ratings: 8047
-reviews: 90
+reviews: 89
 size: 
 website: https://vauld.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 redirect_from: 
+features: 
 
 ---
 

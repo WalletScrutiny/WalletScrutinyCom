@@ -19,13 +19,14 @@ repository:
 issue: 
 icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-05-24
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

@@ -3,7 +3,7 @@ wsId:
 title: 스케치월렛 (SKETCH WALLET)
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.sketch.wallet
 appCountry: 
 released: Jul 28, 2021
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

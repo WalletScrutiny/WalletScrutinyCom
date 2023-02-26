@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.stealthtrader.pilot.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-08
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: tradewithpilot
 social:
 - https://www.facebook.com/tradewithpilot
+features: 
 
 ---
 

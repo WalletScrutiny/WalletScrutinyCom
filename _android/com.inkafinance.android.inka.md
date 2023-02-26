@@ -3,7 +3,7 @@ wsId:
 title: Inka | Crypto & DeFi wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.inkafinance.android.inka
 appCountry: 
 released: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

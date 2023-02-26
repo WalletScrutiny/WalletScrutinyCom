@@ -18,15 +18,16 @@ repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: ftbfs
-date: 2022-01-10
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: rsksmart
 social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock
+features: 
 
 ---
 

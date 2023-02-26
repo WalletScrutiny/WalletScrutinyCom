@@ -1,6 +1,6 @@
 ---
 wsId: iconomi
-title: 'ICONOMI: Buy & Sell Crypto'
+title: 'ICONOMI: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: net.iconomi.android
 appCountry: si
 released: 2017-10-17
-updated: 2022-11-25
-version: 2.4.2
-stars: 4.1
+updated: 2023-01-25
+version: 2.5.2
+stars: 4.2
 ratings: 291
-reviews: 153
+reviews: 154
 size: 
 website: https://www.iconomi.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/iconomicom
 - https://www.reddit.com/r/ICONOMI
 redirect_from: 
+features: 
 
 ---
 

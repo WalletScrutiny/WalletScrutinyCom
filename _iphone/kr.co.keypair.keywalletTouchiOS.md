@@ -1,6 +1,6 @@
 ---
 wsId: KeyWalletTouch
-title: KeyWallet Touch - Bitcoin
+title: 'KeyWallet Touch: Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: kr.co.keypair.keywalletTouchiOS
 appCountry: 
 idd: 1473941321
 released: 2019-07-28
-updated: 2022-12-19
-version: 3.0.6
+updated: 2023-02-22
+version: 3.0.25
 stars: 0
 reviews: 0
-size: '105626624'
+size: '83974144'
 website: http://keywallet.co.kr
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/quickx
 - https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
+features: 
 
 ---
 

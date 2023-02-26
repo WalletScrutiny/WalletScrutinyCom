@@ -10,9 +10,9 @@ appCountry: vn
 released: 2021-03-16
 updated: 2022-11-30
 version: 2.3.43
-stars: 4.7
+stars: 4.6
 ratings: 578
-reviews: 61
+reviews: 62
 size: 
 website: http://roseon.world
 repository: 
@@ -28,6 +28,7 @@ twitter: RoseonFinance
 social:
 - https://www.facebook.com/Roseon.Finance
 redirect_from: 
+features: 
 
 ---
 

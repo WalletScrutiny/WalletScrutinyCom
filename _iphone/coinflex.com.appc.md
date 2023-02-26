@@ -27,6 +27,7 @@ twitter: coinflexdotcom
 social:
 - https://www.linkedin.com/company/coinflex
 - https://www.facebook.com/coinflexdotcom
+features: 
 
 ---
 

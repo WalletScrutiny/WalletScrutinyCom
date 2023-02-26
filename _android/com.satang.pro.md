@@ -8,8 +8,8 @@ users: 100000
 appId: com.satang.pro
 appCountry: 
 released: Apr 12, 2020
-updated: 2022-12-18
-version: 1.18.2
+updated: 2023-02-22
+version: 1.18.41
 stars: 3
 ratings: 
 reviews: 4
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC4U0T8JSB82E5JW6ATKKqiw
 - https://www.instagram.com/satang.official/
 redirect_from: 
+features: 
 
 ---
 

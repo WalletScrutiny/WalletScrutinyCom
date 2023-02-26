@@ -21,9 +21,9 @@ repository:
 issue: https://github.com/OneKeyHQ/firmware/issues/17
 icon: onekeymini.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: nosource
-date: 2022-03-11
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: onekeyhq
@@ -31,8 +31,13 @@ social:
 - https://discord.gg/onekey
 - https://weibo.com/yourKeysyourBitcoin
 - https://www.reddit.com/r/OneKeyHQ/
+features: 
 
 ---
+
+**Update 2022-12-28**: The provider sent us a
+[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
+We have to check this.
 
 ## Product Description 
 

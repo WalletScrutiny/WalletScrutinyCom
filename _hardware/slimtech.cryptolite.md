@@ -29,6 +29,7 @@ twitter: SlimTechGearCo
 social:
 - https://www.instagram.com/slimtechgearco
 - https://www.facebook.com/slimTECHGEARCo/
+features: 
 
 ---
 

@@ -9,9 +9,9 @@ appCountry:
 released: 2021-08-29
 updated: 2021-08-29
 version: 1.0.3
-stars: 3.2
+stars: 4
 ratings: 
-reviews: 18
+reviews: 24
 size: 
 website: https://thunderboltwallet.com
 repository: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

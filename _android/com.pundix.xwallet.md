@@ -12,9 +12,9 @@ appCountry:
 released: 2018-10-22
 updated: 2021-06-24
 version: 2.8.3
-stars: 3.1
+stars: 3.2
 ratings: 5049
-reviews: 210
+reviews: 211
 size: 
 website: https://www.pundix.com
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/pundix
 - https://www.facebook.com/pundixlabs
 redirect_from: 
+features: 
 
 ---
 

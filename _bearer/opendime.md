@@ -36,6 +36,7 @@ reviewArchive:
 twitter: COLDCARDwallet
 social:
 - https://github.com/opendime
+features: 
 
 ---
 

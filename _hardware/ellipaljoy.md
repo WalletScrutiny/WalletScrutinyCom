@@ -29,6 +29,7 @@ twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub
 - https://github.com/ellipal
+features: 
 
 ---
 

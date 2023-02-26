@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/student-coin-worldwide
 - https://www.facebook.com/studentcoin.org
 - https://www.reddit.com/r/Studentcoin
+features: 
 
 ---
 

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bgg.bgg_exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2021-09-05
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

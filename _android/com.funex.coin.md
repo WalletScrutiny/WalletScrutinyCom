@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Funex Coin
+title: 'Funex: Crypto & Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 1000
 appId: com.funex.coin
 appCountry: 
 released: Feb 18, 2022
-updated: 2022-10-22
-version: 1.0.15
+updated: 2023-01-13
+version: 1.0.19
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

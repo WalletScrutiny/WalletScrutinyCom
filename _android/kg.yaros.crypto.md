@@ -3,7 +3,7 @@ wsId:
 title: Crypto Invoice
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: kg.yaros.crypto
 appCountry: 
 released: Dec 3, 2021
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

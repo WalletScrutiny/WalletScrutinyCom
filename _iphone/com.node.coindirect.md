@@ -20,15 +20,16 @@ repository:
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-10-21
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: coindirectcom
 social:
 - https://www.linkedin.com/company/coindirect
 - https://www.facebook.com/coindirectcom
+features: 
 
 ---
 

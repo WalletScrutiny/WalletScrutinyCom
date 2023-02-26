@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.Wallet.Bulls.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-01
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: bullcoinfinance
 social:
 - https://www.reddit.com/r/bullcoinfinance
+features: 
 
 ---
 

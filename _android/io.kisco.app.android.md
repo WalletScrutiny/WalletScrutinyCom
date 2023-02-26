@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: io.kisco.app.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

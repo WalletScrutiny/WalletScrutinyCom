@@ -10,22 +10,23 @@ idd: 1460563713
 released: 2019-04-30
 updated: 2021-02-09
 version: '4.4'
-stars: 4
-reviews: 72
+stars: 3.9
+reviews: 73
 size: '82679808'
 website: https://flitsnode.app
 repository: 
 issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-02-09
+date: 2023-01-31
 signer: 
 reviewArchive: 
 twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
+features: 
 
 ---
 

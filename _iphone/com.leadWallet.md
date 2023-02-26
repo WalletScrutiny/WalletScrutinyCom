@@ -18,15 +18,16 @@ repository: https://github.com/leadwallet/leadwallet-core
 issue: 
 icon: com.leadWallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-26
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
+features: 
 
 ---
 

@@ -27,6 +27,7 @@ twitter: coinut_exchange
 social:
 - https://www.facebook.com/CoinutExchange
 - https://t.me/coinut
+features: 
 
 ---
 

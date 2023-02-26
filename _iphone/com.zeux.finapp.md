@@ -27,6 +27,7 @@ twitter: ZeuxApp
 social:
 - https://www.linkedin.com/company/zeux
 - https://www.facebook.com/Zeuxglobal
+features: 
 
 ---
 

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.uphold.card.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

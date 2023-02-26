@@ -7,8 +7,8 @@ users: 1000
 appId: com.digilab24.apps
 appCountry: 
 released: Apr 6, 2022
-updated: 2022-12-21
-version: 1.8.32
+updated: 2023-02-23
+version: 1.9.9
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

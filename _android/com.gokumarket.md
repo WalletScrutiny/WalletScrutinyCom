@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gokumarket.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-28
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: GokuMarket
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
 - https://www.facebook.com/gokumarket/
 redirect_from: 
+features: 
 
 ---
 

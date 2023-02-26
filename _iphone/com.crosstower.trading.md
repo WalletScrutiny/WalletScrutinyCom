@@ -8,11 +8,11 @@ appId: com.crosstower.trading
 appCountry: us
 idd: '1586136066'
 released: '2021-09-30T07:00:00Z'
-updated: 2022-06-17
-version: '3.9'
+updated: 2022-12-03
+version: '3.26'
 stars: 4.7
 reviews: 3
-size: '44983296'
+size: '40751104'
 website: https://www.crosstower.in/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
 - https://www.instagram.com/crosstowerindia/
 - https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
+features: 
 
 ---
 

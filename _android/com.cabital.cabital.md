@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cabital.cabital.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-08
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: cabitalglobal
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cabital
 - https://www.facebook.com/CabitalGlobal
 redirect_from: 
+features: 
 
 ---
 

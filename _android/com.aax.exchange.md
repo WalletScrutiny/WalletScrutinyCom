@@ -12,7 +12,7 @@ updated: 2022-10-31
 version: 3.3.7
 stars: 4
 ratings: 3299
-reviews: 91
+reviews: 88
 size: 
 website: https://www.aax.com/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/AAXExchange
 - https://www.reddit.com/r/AAXExchange
 redirect_from: 
+features: 
 
 ---
 

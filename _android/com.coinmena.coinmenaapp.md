@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinmena.coinmenaapp
 appCountry: us
 released: 2021-08-07
-updated: 2022-07-28
-version: 1.8.0
+updated: 2023-02-02
+version: 2.1.1
 stars: 3.6
 ratings: 914
 reviews: 41
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinmena
 - https://www.facebook.com/CoinMENA.Bahrain
 redirect_from: 
+features: 
 
 ---
 

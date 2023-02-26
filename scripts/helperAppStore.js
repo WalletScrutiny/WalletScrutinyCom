@@ -1,7 +1,7 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
 const apple = require('app-store-scraper')
-const fs = require('fs')
+const fs = require('fs/promises')
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
@@ -18,38 +18,21 @@ const folder = `_${category}/`
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'updated version stars reviews size website repository issue ' +
                 'icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social').split(' ')
+                'twitter social features').split(' ')
 
-async function refreshAll () {
-  fs.readdir(folder, async (err, files) => {
-    if (err) {
-      console.error(`Could not list the directory ${folder}.`, err)
-      process.exit(1)
-    }
-    // HACK: The script fails syncing all apps but maybe if it works for less,
-    //       eventually all get updated every now and then ...
-    // To have some determinism, the files get sorted by the sha256(file name)
-    // and depending on time, another chunk is used exclusively.
-    const hashes = {}
-    await Promise.all(files.map(async (f) => {
-      hashes[f] = crypto.createHash('sha256').update(f).digest('hex')
-    }))
-    // take 1/fraction per round
-    const fraction = 3
-    const t = Math.round(((new Date()) - (new Date(0))) / 1000 / 60 / 60 / 24)
-    const mod = t % fraction
-    files = files
-      .sort((a, b) => {
-        return (hashes[a]).localeCompare(hashes[b])
-      })
-      .filter((v, i) => { return i % fraction === mod })
-    console.log(`Updating ${files.length} 🍎 files ...`)
-    stats.remaining = files.length
-    files.forEach(file => { refreshFile(file) })
-  })
+async function refreshAll (ids, markDefunct) {
+  var files
+  if (ids) {
+    files = ids.map(it => `${it}.md`)
+  } else {
+    files = await fs.readdir(folder)
+  }
+  console.log(`Updating ${files.length} 🍎 files ...`)
+  stats.remaining = files.length
+  files.forEach(file => { refreshFile(file, undefined, markDefunct) })
 }
 
-function refreshFile (fileName, content) {
+function refreshFile (fileName, content, markDefunct) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
@@ -79,7 +62,13 @@ function refreshFile (fileName, content) {
         })
       }, (err) => {
         if (`${err}`.search(/404/) > -1) {
-          helper.addDefunctIfNew(`_iphone/${appId}`)
+          if (markDefunct) {
+            header.meta = "defunct"
+            header.date = new Date()
+            helper.writeResult(folder, header, body)
+          } else {
+            helper.addDefunctIfNew(`_iphone/${appId}`)
+          }
         } else {
           console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`)
         }

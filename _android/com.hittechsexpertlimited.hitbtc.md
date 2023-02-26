@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HitBTC Crypto Exchange&Trading
+title: HitBTC cryptocurrency exchange
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
 released: 2020-03-04
-updated: 2022-04-12
-version: 3.2.0
-stars: 4.4
+updated: 2023-01-27
+version: 3.2.1
+stars: 
 ratings: 
-reviews: 9
+reviews: 
 size: 
 website: https://hitbtc.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.hittechsexpertlimited.hitbtc/
 - /posts/com.hittechsexpertlimited.hitbtc/
+features: 
 
 ---
 

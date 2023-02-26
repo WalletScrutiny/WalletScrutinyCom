@@ -3,15 +3,15 @@ wsId:
 title: Bous Echanj
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: Mar 28, 2022
-updated: 2022-12-17
-version: 2.1.0
-stars: 2.5
+updated: 2023-02-10
+version: 2.2.0
+stars: 2.8
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://bourseechange.net/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

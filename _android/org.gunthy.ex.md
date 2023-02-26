@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: org.gunthy.ex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-01-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

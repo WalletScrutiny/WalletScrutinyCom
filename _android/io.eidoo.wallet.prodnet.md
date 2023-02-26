@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-05-25
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: eidoo_io
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /io.eidoo.wallet.prodnet/
 - /posts/io.eidoo.wallet.prodnet/
+features: 
 
 ---
 

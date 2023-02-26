@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.upay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

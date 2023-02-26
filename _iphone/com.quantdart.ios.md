@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.quantdart.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-26
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: QuantDART
 social:
 - https://www.facebook.com/quantdart
+features: 
 
 ---
 

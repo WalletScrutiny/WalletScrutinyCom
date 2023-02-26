@@ -8,11 +8,11 @@ appId: org.wanchain.WanWallet
 appCountry: us
 idd: 1477039507
 released: 2019-08-22
-updated: 2021-08-05
-version: '5.1'
+updated: 2022-07-27
+version: '6.0'
 stars: 3.9
 reviews: 21
-size: '23052288'
+size: '22142976'
 website: https://www.wanchain.org
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/wanchainfoundation
 - https://www.reddit.com/r/wanchain
 - https://github.com/wanchain
+features: 
 
 ---
 

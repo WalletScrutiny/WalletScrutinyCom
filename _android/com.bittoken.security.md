@@ -7,8 +7,8 @@ users: 50
 appId: com.bittoken.security
 appCountry: 
 released: May 23, 2022
-updated: 2022-12-23
-version: 1.5.17
+updated: 2023-01-29
+version: 1.5.19
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

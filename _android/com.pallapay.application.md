@@ -3,7 +3,7 @@ wsId:
 title: PallaPay
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.pallapay.application
 appCountry: 
 released: May 6, 2022
@@ -19,13 +19,14 @@ issue:
 icon: com.pallapay.application.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

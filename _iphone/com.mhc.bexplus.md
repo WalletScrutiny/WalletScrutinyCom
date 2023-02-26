@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.mhc.bexplus.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-04-24
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: BexplusExchange
 social:
 - https://www.reddit.com/r/Bexplus
+features: 
 
 ---
 

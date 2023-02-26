@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: ps.greenminer.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-09-23
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: io.ebitconics.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-01-16
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: eBitcoinics
 social:
 - https://www.facebook.com/eBitcoinics
 redirect_from: 
+features: 
 
 ---
 

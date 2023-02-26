@@ -1,6 +1,6 @@
 ---
 wsId: atomex
-title: Atomex Crypto Wallet, Exchange
+title: Atomex Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.atomex.ios
 appCountry: 
 idd: 1534717828
 released: 2020-12-03
-updated: 2022-04-02
-version: '1.14'
-stars: 2.6
-reviews: 5
-size: '133581824'
+updated: 2023-02-19
+version: '1.24'
+stars: 3.4
+reviews: 10
+size: '47049728'
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: atomex_official
 social: 
+features: 
 
 ---
 

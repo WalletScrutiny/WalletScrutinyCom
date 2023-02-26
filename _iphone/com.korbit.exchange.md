@@ -1,6 +1,6 @@
 ---
 wsId: korbit
-title: korbit
+title: 코빗 - 대한민국 최초, 가상자산 거래소
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.korbit.exchange
 appCountry: us
 idd: 1434511619
 released: 2018-10-18
-updated: 2022-12-19
-version: 6.3.0
+updated: 2023-02-23
+version: 7.0.1
 stars: 2.8
 reviews: 16
-size: '182397952'
+size: '191748096'
 website: http://www.korbit.co.kr
 repository: 
 issue: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

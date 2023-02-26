@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.mobuyg.nmx.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-09-01
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

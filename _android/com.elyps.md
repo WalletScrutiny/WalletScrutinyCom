@@ -7,8 +7,8 @@ users: 1000
 appId: com.elyps
 appCountry: 
 released: Apr 29, 2020
-updated: 2022-10-29
-version: 9.5.0
+updated: 2023-02-20
+version: 10.1.1
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

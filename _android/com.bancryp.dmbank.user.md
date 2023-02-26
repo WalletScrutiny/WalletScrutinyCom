@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bancryp.dmbank.user.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-31
+date: 2023-01-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2022-06-24
-version: '3.14'
+updated: 2023-02-16
+version: 4.0.2
 stars: 4.9
-reviews: 649
-size: '51109888'
+reviews: 760
+size: '120904704'
 website: https://keys.casa
 repository: 
 issue: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: CasaHODL
 social: 
+features: 
 
 ---
 

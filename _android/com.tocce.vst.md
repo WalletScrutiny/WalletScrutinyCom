@@ -7,8 +7,8 @@ users: 10000
 appId: com.tocce.vst
 appCountry: 
 released: 
-updated: 2022-11-14
-version: 1.2.9
+updated: 2023-01-04
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

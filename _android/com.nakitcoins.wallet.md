@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.nakitcoins.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-22
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: nakitcoins
 social:
 - https://www.facebook.com/NakitCoins
 redirect_from: 
+features: 
 
 ---
 

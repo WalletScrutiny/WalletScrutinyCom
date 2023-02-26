@@ -3,7 +3,7 @@ wsId:
 title: Faswet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.emet.faswet
 appCountry: 
 released: Jun 8, 2020
@@ -19,13 +19,14 @@ issue:
 icon: com.emet.faswet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-11-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

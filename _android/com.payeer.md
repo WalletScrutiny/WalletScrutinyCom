@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/payeercoins
 redirect_from: 
+features: 
 
 ---
 

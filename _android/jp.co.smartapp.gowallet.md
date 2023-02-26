@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: jp.co.smartapp.gowallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2021-10-03
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: gowallet_app_
 social:
 - https://www.facebook.com/gowalletappli
 redirect_from: 
+features: 
 
 ---
 

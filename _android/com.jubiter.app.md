@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.jubiter.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-09-16
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: JuBiterWallet
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
 redirect_from: 
+features: 
 
 ---
 

@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.ideypay.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: ideypay
 social:
 - https://www.facebook.com/ideypay
 redirect_from: 
+features: 
 
 ---
 

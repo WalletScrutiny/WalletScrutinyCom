@@ -7,7 +7,7 @@ users: 10000
 appId: app.com.unihash
 appCountry: 
 released: Oct 31, 2018
-updated: 2020-12-09
+updated: 2023-02-08
 version: '4.0'
 stars: 2.5
 ratings: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: app.com.unihash.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-12-17
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

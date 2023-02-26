@@ -30,6 +30,7 @@ social:
 - https://medium.com/@sealblockio
 - https://www.facebook.com/SealBlock/
 - https://www.instagram.com/sealblock/
+features: 
 
 ---
 

@@ -27,6 +27,7 @@ twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
 - https://www.facebook.com/coinpal.me
+features: 
 
 ---
 

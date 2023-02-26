@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-05-07
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.onlybit.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-02-03
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

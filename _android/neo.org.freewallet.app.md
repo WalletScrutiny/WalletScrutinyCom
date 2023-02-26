@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-10-04
+date: 2023-01-02
 signer: 
 reviewArchive:
 - date: 2021-05-02
@@ -34,6 +34,7 @@ twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org
 redirect_from: 
+features: 
 
 ---
 

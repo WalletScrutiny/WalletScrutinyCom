@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-31
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: indodax
 social: 
 redirect_from:
 - /co.id.dompet.btc.indonesia/
+features: 
 
 ---
 

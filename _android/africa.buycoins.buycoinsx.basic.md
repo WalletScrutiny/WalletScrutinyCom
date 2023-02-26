@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: africa.buycoins.buycoinsx.basic.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: buycoins
 social:
 - https://www.facebook.com/buycoinsafrica
 redirect_from: 
+features: 
 
 ---
 

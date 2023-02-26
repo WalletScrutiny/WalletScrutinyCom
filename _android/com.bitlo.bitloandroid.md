@@ -1,31 +1,32 @@
 ---
 wsId: 
-title: 'Bitlo: Bitcoin ve Kripto Para '
+title: 'Bitlo: Bitcoin & Kripto Para'
 altTitle: 
 authors: 
 users: 100000
 appId: com.bitlo.bitloandroid
 appCountry: 
 released: Dec 18, 2020
-updated: 2020-12-18
+updated: 2023-02-01
 version: '1.0'
-stars: 3.3
+stars: 3.6
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.bitlo.com/
 repository: 
 issue: 
 icon: com.bitlo.bitloandroid.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-12-17
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -3,7 +3,7 @@ wsId:
 title: Plark
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.plarkapp
 appCountry: 
 released: Apr 14, 2020
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

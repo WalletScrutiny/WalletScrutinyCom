@@ -7,11 +7,11 @@ users: 500000
 appId: com.bituniverse.portfolio
 appCountry: 
 released: Sep 30, 2017
-updated: 2022-03-16
-version: 3.8.0
+updated: 2022-12-27
+version: 3.8.1
 stars: 4
 ratings: 
-reviews: 505
+reviews: 504
 size: 
 website: http://www.bituniverse.org/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

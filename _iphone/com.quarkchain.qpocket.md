@@ -10,8 +10,8 @@ idd: 1442761980
 released: 2019-08-22
 updated: 2020-12-02
 version: 5.4.0
-stars: 4
-reviews: 23
+stars: 3.9
+reviews: 22
 size: '140385280'
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: qPocket_wallet
 social: 
+features: 
 
 ---
 

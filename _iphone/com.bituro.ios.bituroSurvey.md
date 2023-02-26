@@ -11,7 +11,7 @@ released: 2017-07-15
 updated: 2022-07-27
 version: 2.1.1
 stars: 4.5
-reviews: 423
+reviews: 420
 size: '20940800'
 website: https://bituro.com/app/views/contact.php
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp
+features: 
 
 ---
 

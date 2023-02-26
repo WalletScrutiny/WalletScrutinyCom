@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2022-12-15
 version: 3.10.0
 stars: 4.4
-reviews: 382
+reviews: 387
 size: '68462592'
 website: https://www.muchbetter.com
 repository: 
@@ -27,6 +27,7 @@ twitter: paymuchbetter
 social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
+features: 
 
 ---
 

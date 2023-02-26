@@ -10,8 +10,8 @@ idd: 1406282615
 released: 2018-08-05
 updated: 2022-11-23
 version: 5.19.6
-stars: 3.7
-reviews: 7
+stars: 3.5
+reviews: 6
 size: '81119232'
 website: https://cobo.com
 repository: 
@@ -27,6 +27,7 @@ twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/coboofficial
 - https://www.facebook.com/coboOfficial
+features: 
 
 ---
 

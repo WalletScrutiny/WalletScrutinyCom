@@ -12,7 +12,7 @@ updated: 2021-10-03
 version: '4.6'
 stars: 4.2
 ratings: 931
-reviews: 34
+reviews: 35
 size: 
 website: 
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

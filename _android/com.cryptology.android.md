@@ -8,11 +8,11 @@ users: 100000
 appId: com.cryptology.android
 appCountry: gb
 released: 2018-03-23
-updated: 2022-09-09
+updated: 2023-01-08
 version: '3.18'
-stars: 3.7
+stars: 4
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://cryptology.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: Cryptologyexch
 social:
 - https://www.facebook.com/Cryptologyexch
 redirect_from: 
+features: 
 
 ---
 

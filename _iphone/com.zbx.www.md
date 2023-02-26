@@ -8,11 +8,11 @@ appId: com.zbx.www
 appCountry: us
 idd: 1458088759
 released: 2019-05-26
-updated: 2022-10-27
-version: 2.3.1
+updated: 2023-01-13
+version: 2.3.2
 stars: 4.3
 reviews: 4
-size: '59970560'
+size: '57952256'
 website: https://www.zbx.one/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: zbx_com
 social:
 - https://www.linkedin.com/company/zbx
 - https://www.facebook.com/ZBXExchange
+features: 
 
 ---
 

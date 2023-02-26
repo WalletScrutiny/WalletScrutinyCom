@@ -10,7 +10,7 @@ appCountry:
 released: 2018-07-23
 updated: 2021-08-07
 version: VARY
-stars: 4.4
+stars: 4.5
 ratings: 41
 reviews: 3
 size: 
@@ -28,6 +28,7 @@ twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+features: 
 
 ---
 

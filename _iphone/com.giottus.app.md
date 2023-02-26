@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.giottus.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-08-27
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: giottus
 social:
 - https://www.linkedin.com/company/giottus
 - https://www.facebook.com/Giottus
+features: 
 
 ---
 

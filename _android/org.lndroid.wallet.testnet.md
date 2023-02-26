@@ -3,7 +3,7 @@ wsId:
 title: Lndroid.Wallet Testnet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: org.lndroid.wallet.testnet
 appCountry: 
 released: 2020-03-23
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

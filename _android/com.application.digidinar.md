@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.application.digidinar.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-02-26
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

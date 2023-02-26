@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.monederoapp/
 - /posts/com.monederoapp/
+features: 
 
 ---
 

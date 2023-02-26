@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
 redirect_from: 
+features: 
 
 ---
 

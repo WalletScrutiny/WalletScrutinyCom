@@ -4,15 +4,15 @@ title: 'Huobi: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2022-12-18
-version: 9.2.2
-stars: 4.9
+updated: 2023-02-20
+version: 9.6.1
+stars: 4.3
 ratings: 31840
-reviews: 619
+reviews: 449
 size: 
 website: http://www.hbg.com
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /pro.huobi/
 - /posts/pro.huobi/
+features: 
 
 ---
 

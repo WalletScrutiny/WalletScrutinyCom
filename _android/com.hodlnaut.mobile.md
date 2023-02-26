@@ -9,9 +9,9 @@ appCountry:
 released: Oct 26, 2021
 updated: 2022-08-21
 version: 1.4.15
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: https://www.hodlnaut.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

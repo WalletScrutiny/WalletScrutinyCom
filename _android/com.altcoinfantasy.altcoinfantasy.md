@@ -20,15 +20,16 @@ repository:
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-01-03
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: altcoinfantasy
 social:
 - https://www.facebook.com/altcoinfantasy
 redirect_from: 
+features: 
 
 ---
 

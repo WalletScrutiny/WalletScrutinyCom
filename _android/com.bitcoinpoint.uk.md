@@ -3,12 +3,12 @@ wsId:
 title: BitcoinPoint
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinpoint.uk
 appCountry: 
 released: Apr 28, 2022
-updated: 2022-08-30
-version: 1.1.1
+updated: 2023-02-09
+version: 6.1.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

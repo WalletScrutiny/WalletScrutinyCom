@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.leadWallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-26
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: leadwallet
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
 redirect_from: 
+features: 
 
 ---
 

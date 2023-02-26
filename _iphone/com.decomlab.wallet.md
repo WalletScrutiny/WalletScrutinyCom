@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.decomlab.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-10-21
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: gomoonwallet
 social:
 - https://www.facebook.com/moonwallet.net
+features: 
 
 ---
 

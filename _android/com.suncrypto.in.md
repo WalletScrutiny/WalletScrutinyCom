@@ -3,15 +3,15 @@ wsId:
 title: 'Sun Crypto: Buy & Sell Coins'
 altTitle: 
 authors: 
-users: 500000
+users: 1000000
 appId: com.suncrypto.in
 appCountry: 
 released: 2021-06-28
 updated: 2022-12-02
 version: '1.13'
-stars: 4.9
+stars: 4.8
 ratings: 10629
-reviews: 906
+reviews: 550
 size: 
 website: https://suncrypto.in
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: suncryptoin
 social: 
 redirect_from: 
+features: 
 
 ---
 

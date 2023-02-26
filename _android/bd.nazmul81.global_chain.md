@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: bd.nazmul81.global_chain.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

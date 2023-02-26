@@ -3,15 +3,15 @@ wsId:
 title: Assure-BTC&ETH Wallet
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.neuxs.assure
 appCountry: 
 released: Jan 27, 2022
-updated: 2022-12-23
-version: 1.0.89
+updated: 2023-02-06
+version: 1.0.96
 stars: 3.8
 ratings: 
-reviews: 17
+reviews: 20
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

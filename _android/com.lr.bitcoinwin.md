@@ -3,7 +3,7 @@ wsId:
 title: Bitcoinwin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.lr.bitcoinwin
 appCountry: 
 released: Jun 27, 2020
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

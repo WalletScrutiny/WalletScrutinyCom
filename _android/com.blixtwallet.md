@@ -4,11 +4,12 @@ title: Blixt Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000
 appId: com.blixtwallet
 appCountry: 
 released: 
-updated: 2022-11-16
+updated: 2023-02-16
 version: VARY
 stars: 
 ratings: 
@@ -27,6 +28,8 @@ reviewArchive:
 twitter: BlixtWallet
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

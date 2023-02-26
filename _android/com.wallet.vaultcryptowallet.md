@@ -4,13 +4,13 @@ title: Vault Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.wallet.vaultcryptowallet
 appCountry: 
 released: 2021-08-18
 updated: 2022-11-10
 version: 1.1.5
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 4
 size: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/Bitcoin-Pay-110590501255347
 redirect_from: 
+features: 
 
 ---
 

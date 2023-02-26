@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-31
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: indodax
 social: 
+features: 
 
 ---
 

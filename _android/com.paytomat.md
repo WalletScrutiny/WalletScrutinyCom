@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.paytomat.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-01-28
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: paytomat
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.paytomat/
 - /posts/com.paytomat/
+features: 
 
 ---
 

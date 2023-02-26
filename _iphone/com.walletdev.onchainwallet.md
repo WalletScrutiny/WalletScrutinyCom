@@ -1,6 +1,6 @@
 ---
 wsId: HuobiWallet
-title: iToken Wallet
+title: 'iToken: Secure Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2022-10-22
-version: 3.2.8
-stars: 4
-reviews: 194
-size: '119665664'
+updated: 2023-02-16
+version: 3.3.3
+stars: 3.9
+reviews: 177
+size: '119716864'
 website: https://www.itoken.com/en/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
+features: 
 
 ---
 

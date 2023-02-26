@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.tradessignal.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2021-12-28
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

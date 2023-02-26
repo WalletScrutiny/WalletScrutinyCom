@@ -8,11 +8,11 @@ appId: com.okcoin.OKCoinAppstore
 appCountry: us
 idd: 867444712
 released: 2014-07-18
-updated: 2022-05-26
-version: 5.3.29
+updated: 2023-02-15
+version: 5.3.87
 stars: 4.8
-reviews: 3470
-size: '403724288'
+reviews: 3501
+size: '186677248'
 website: https://www.okcoin.com/mobile
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin
 - https://www.facebook.com/OkcoinOfficial
+features:
+- ln
 
 ---
 

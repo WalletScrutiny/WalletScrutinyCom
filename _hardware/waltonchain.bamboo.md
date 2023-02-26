@@ -33,6 +33,7 @@ social:
 - https://www.reddit.com/r/waltonchain
 - https://weibo.com/waltonchain
 - https://t.me/waltonchaincommunity_cn
+features: 
 
 ---
 

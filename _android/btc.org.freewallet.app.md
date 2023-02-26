@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: btc.org.freewallet.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2020-10-12
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: freewalletorg
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /btc.org.freewallet.app/
 - /posts/btc.org.freewallet.app/
+features: 
 
 ---
 

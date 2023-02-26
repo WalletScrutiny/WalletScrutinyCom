@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.coin.titan.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-03
+date: 2022-12-28
 signer: 
 reviewArchive: 
 twitter: ProjectsTitan
 social:
 - https://www.linkedin.com/company/titanprojects
 - https://www.facebook.com/titanprojectsco
+features: 
 
 ---
 

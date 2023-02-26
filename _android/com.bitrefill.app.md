@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitrefill.app
 appCountry: 
 released: 2018-04-10
-updated: 2022-06-17
-version: 1.31.2
+updated: 2023-02-15
+version: 1.31.11
 stars: 3.6
 ratings: 1039
-reviews: 152
+reviews: 155
 size: 
 website: https://www.bitrefill.com
 repository: 
@@ -36,6 +36,7 @@ social:
 redirect_from:
 - /com.bitrefill.app/
 - /posts/com.bitrefill.app/
+features: 
 
 ---
 

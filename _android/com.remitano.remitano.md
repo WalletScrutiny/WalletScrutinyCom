@@ -12,7 +12,7 @@ updated: 2022-12-21
 version: 6.70.0
 stars: 4.3
 ratings: 19172
-reviews: 403
+reviews: 407
 size: 
 website: https://remitano.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/remitano
 redirect_from:
 - /posts/com.remitano.remitano/
+features: 
 
 ---
 

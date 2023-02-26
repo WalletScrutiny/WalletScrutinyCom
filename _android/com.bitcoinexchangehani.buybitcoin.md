@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.bitcoinexchangehani.buybitcoin/
 - /posts/com.bitcoinexchangehani.buybitcoin/
+features: 
 
 ---
 

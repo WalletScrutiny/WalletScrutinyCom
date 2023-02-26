@@ -3,7 +3,7 @@ wsId:
 title: Crypto Net
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.piece.father
 appCountry: 
 released: Mar 31, 2022
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

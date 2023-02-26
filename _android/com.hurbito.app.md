@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.hurbito.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-01-16
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

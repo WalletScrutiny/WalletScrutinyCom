@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.flashift.flashift.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-01-14
+date: 2023-01-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
