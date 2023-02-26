@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Yappi Software e Serviços LTDA
 features: 
 
 ---

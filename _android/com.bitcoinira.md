@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcoinira
 - https://www.facebook.com/BitcoinIRA
 redirect_from: 
+developerName: Bitcoin IRA
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/libertyx
 - https://www.facebook.com/getlibertyx
 redirect_from: 
+developerName: LibertyX
 features: 
 
 ---

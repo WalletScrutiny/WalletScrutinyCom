@@ -12,7 +12,7 @@ updated: 2023-02-21
 version: VARY
 stars: 4
 ratings: 445358
-reviews: 243417
+reviews: 243435
 size: 
 website: https://robinhood.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/robinhood
 - https://www.facebook.com/robinhoodapp
 redirect_from: 
+developerName: Robinhood
 features: 
 
 ---

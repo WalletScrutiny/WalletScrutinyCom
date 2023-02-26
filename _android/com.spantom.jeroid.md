@@ -27,6 +27,7 @@ reviewArchive:
 twitter: jeroidng
 social: 
 redirect_from: 
+developerName: JeroidNG LTD
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-07-31
 updated: 2023-02-21
 version: VARY
-stars: 4.3
+stars: 4.2
 ratings: 42
-reviews: 38
+reviews: 32
 size: 
 website: https://www.ogpaywallet.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Original Digital Corporation
 features: 
 
 ---

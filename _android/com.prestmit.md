@@ -28,6 +28,7 @@ twitter: prestmit
 social:
 - https://www.facebook.com/prestmit
 redirect_from: 
+developerName: Prestmit
 features: 
 
 ---

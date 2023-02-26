@@ -10,7 +10,7 @@ appCountry:
 released: 2016-03-02
 updated: 2023-01-26
 version: 4.3.4.0
-stars: 3.7
+stars: 3.8
 ratings: 2500
 reviews: 301
 size: 
@@ -56,6 +56,7 @@ redirect_from:
 - /org.electrum.electrum/
 - /posts/2019/12/elecrtum/
 - /posts/org.electrum.electrum/
+developerName: Electrum Technologies GmbH
 features:
 - ln
 

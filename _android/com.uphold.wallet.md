@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 4.84.1
 stars: 4.7
 ratings: 20716
-reviews: 4919
+reviews: 4933
 size: 
 website: https://uphold.com
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.uphold.wallet/
 - /posts/com.uphold.wallet/
+developerName: Uphold
 features: 
 
 ---

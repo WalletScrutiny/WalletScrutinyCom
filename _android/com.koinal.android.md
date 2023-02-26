@@ -11,9 +11,9 @@ appCountry: gb
 released: 2020-06-04
 updated: 2023-01-09
 version: 1.4.8
-stars: 4.7
+stars: 4.5
 ratings: 1938
-reviews: 10
+reviews: 8
 size: 
 website: https://www.koinal.io
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/Koinal.io
 redirect_from:
 - /com.koinal.android/
+developerName: SG Veteris
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
 redirect_from: 
+developerName: XcelTrip LLC
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/moonstake
 - https://www.facebook.com/moonstakekorea
 redirect_from: 
+developerName: Moonstake Developer
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/isunone
 - https://www.facebook.com/iSunOne
 redirect_from: 
+developerName: 
 features: 
 
 ---

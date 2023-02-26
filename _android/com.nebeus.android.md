@@ -7,8 +7,8 @@ users: 50000
 appId: com.nebeus.android
 appCountry: 
 released: 
-updated: 2023-02-17
-version: 1.4.33
+updated: 2023-02-22
+version: 1.4.34
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Rintral Trading SL
 features: 
 
 ---

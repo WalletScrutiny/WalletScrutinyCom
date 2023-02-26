@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 1.49.1
 stars: 4
 ratings: 6161
-reviews: 311
+reviews: 312
 size: 
 website: https://www.probit.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/probitexchange
 redirect_from:
 - /com.probit.app.android2.release.global/
+developerName: Probit Global Services Limited
 features: 
 
 ---

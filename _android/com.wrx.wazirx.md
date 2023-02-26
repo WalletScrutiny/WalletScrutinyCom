@@ -13,7 +13,7 @@ updated: 2023-02-01
 version: '2.32'
 stars: 4
 ratings: 543310
-reviews: 118362
+reviews: 118385
 size: 
 website: https://wazirx.com
 repository: 
@@ -35,6 +35,7 @@ social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
 redirect_from: 
+developerName: Zanmai Labs Private Limited
 features: 
 
 ---

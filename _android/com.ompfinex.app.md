@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/ompfinex/
 - https://www.youtube.com/channel/UC7BfUYMUwddfnwCNvq29QpQ
 redirect_from: 
+developerName: Mammute.co
 features: 
 
 ---

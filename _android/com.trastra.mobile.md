@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/trastra
 - https://www.facebook.com/trastra.ltd
 redirect_from: 
+developerName: TRASTRA Limited
 features: 
 
 ---

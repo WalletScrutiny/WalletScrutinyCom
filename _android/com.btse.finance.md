@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/btsecom
 - https://www.reddit.com/r/btsecom
 redirect_from: 
+developerName: BTSE Holdings Limited
 features: 
 
 ---

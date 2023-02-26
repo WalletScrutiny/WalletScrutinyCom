@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/MtPelerin
 redirect_from:
 - /com.mtpelerin.bridge/
+developerName: Mt Pelerin Group SA
 features: 
 
 ---

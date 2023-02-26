@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: 5.0.1
 stars: 3.1
 ratings: 1597
-reviews: 89
+reviews: 88
 size: 
 website: https://www.coincola.com
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/coincolaofficial
 redirect_from:
 - /com.newgo.coincola/
+developerName: CoinCola Limited
 features: 
 
 ---

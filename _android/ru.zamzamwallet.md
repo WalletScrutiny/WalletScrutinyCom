@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-06-26
 updated: 2022-12-30
 version: 2.8.84
-stars: 4
+stars: 3.9
 ratings: 139
-reviews: 245
+reviews: 246
 size: 
 website: https://zam.me/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zamzam Tech
 features: 
 
 ---

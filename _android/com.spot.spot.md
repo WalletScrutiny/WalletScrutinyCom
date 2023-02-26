@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/spot.bitcoin
 redirect_from:
 - /com.spot.spot/
+developerName: Spot crypto wallet
 features: 
 
 ---

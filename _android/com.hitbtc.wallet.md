@@ -10,7 +10,7 @@ appCountry: au
 released: 2021-08-31
 updated: 2023-02-09
 version: 1.3.12
-stars: 5
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hitbtc
 - https://www.reddit.com/r/hitbtc
 redirect_from: 
+developerName: HitBTC Exchange
 features: 
 
 ---

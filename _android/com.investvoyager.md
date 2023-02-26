@@ -12,7 +12,7 @@ updated: 2023-02-04
 version: 3.2.12
 stars: 3.7
 ratings: 26380
-reviews: 8209
+reviews: 8208
 size: 
 website: https://www.investvoyager.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/Invest_Voyager
 redirect_from:
 - /com.investvoyager/
+developerName: Voyager Digital, LLC
 features: 
 
 ---

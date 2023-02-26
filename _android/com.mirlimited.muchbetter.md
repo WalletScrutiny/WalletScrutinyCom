@@ -12,7 +12,7 @@ updated: 2022-12-15
 version: 3.10.0
 stars: 3.4
 ratings: 10117
-reviews: 141
+reviews: 140
 size: 
 website: https://www.muchbetter.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
 redirect_from: 
+developerName: Mir Limited
 features: 
 
 ---

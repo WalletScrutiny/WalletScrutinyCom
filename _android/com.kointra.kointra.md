@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Kointra Bilişim ve Teknoloji A.Ş.
 features: 
 
 ---

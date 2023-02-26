@@ -88,6 +88,7 @@ reviewArchive:
 twitter: SimpleBtcWallet
 social: 
 redirect_from: 
+developerName: anton kumaigorodski
 features:
 - ln
 

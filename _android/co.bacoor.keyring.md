@@ -27,6 +27,7 @@ reviewArchive:
 twitter: KEYRING_PRO
 social: 
 redirect_from: 
+developerName: bacoor inc.
 features: 
 
 ---

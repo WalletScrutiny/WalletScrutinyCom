@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/satoshitangoargentina
 redirect_from:
 - /com.SatoshiTango.SatoshiTango/
+developerName: SatoshiTango
 features: 
 
 ---

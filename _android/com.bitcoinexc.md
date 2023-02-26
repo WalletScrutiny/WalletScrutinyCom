@@ -10,7 +10,7 @@ appCountry:
 released: Sep 1, 2021
 updated: 2022-11-23
 version: '1.12'
-stars: 3.6
+stars: 3.7
 ratings: 
 reviews: 8
 size: 
@@ -28,6 +28,7 @@ twitter: fmcpay
 social:
 - https://www.facebook.com/fmcpay/
 redirect_from: 
+developerName: FUINRE INC
 features: 
 
 ---

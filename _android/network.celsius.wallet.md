@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/CelsiusNetwork
 redirect_from:
 - /network.celsius.wallet/
+developerName: Celsius Network Crypto Wallet
 features: 
 
 ---

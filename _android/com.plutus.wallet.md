@@ -12,7 +12,7 @@ updated: 2023-02-07
 version: '136.1'
 stars: 3.9
 ratings: 44411
-reviews: 2860
+reviews: 2861
 size: 
 website: https://www.abra.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.plutus.wallet/
 - /posts/com.plutus.wallet/
+developerName: Plutus Financial Inc
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid
 redirect_from: 
+developerName: PT Indonesia Digital Exchange
 features: 
 
 ---

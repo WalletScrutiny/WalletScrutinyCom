@@ -27,6 +27,7 @@ reviewArchive:
 twitter: HBWallet_Ether
 social: 
 redirect_from: 
+developerName: bacoor inc.
 features: 
 
 ---

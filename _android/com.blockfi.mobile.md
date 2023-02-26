@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BlockFi
 - https://www.reddit.com/r/blockfi
 redirect_from: 
+developerName: BlockFi
 features: 
 
 ---

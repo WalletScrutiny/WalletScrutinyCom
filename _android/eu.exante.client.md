@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/exante-ltd
 - https://www.facebook.com/exante.global
 redirect_from: 
+developerName: XNT Ltd
 features: 
 
 ---

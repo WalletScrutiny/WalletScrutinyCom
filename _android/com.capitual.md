@@ -7,8 +7,8 @@ users: 50000
 appId: com.capitual
 appCountry: 
 released: Mar 28, 2019
-updated: 2023-01-29
-version: 3.38.0
+updated: 2023-02-24
+version: 3.40.3
 stars: 3.5
 ratings: 
 reviews: 6
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Capitual
 features: 
 
 ---

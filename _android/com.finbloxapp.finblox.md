@@ -11,7 +11,7 @@ updated: 2023-02-21
 version: 0.82.0
 stars: 3.8
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://www.finbloxapp.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Finblox
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinberry
 - https://www.facebook.com/CoinberryOfficial
 redirect_from: 
+developerName: Coinberry
 features: 
 
 ---

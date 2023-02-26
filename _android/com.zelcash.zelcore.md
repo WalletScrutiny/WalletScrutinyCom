@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.zelcash.zelcore/
 - /posts/com.zelcash.zelcore/
+developerName: Zelcore Technologies Inc
 features: 
 
 ---

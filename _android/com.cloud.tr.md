@@ -12,7 +12,7 @@ updated: 2023-02-18
 version: 1.19.2
 stars: 3.3
 ratings: 42784
-reviews: 15318
+reviews: 15325
 size: 
 website: https://www.trbinance.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR
 redirect_from: 
+developerName: Binance TR
 features: 
 
 ---

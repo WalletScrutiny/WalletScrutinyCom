@@ -12,7 +12,7 @@ updated: 2023-02-22
 version: 5.2.2
 stars: 4.8
 ratings: 458
-reviews: 451
+reviews: 452
 size: 
 website: https://vitawallet.io/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
 redirect_from: 
+developerName: Vita Solutions SpA
 features: 
 
 ---

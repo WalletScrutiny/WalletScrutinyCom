@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.spark.wallet/
 - /posts/com.spark.wallet/
+developerName: Nadav Ivgi
 features:
 - ln
 

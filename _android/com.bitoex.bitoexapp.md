@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 features: 
 
 ---

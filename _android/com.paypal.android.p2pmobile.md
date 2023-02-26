@@ -13,7 +13,7 @@ updated: 2023-02-21
 version: 8.33.0
 stars: 4.3
 ratings: 2452159
-reviews: 367700
+reviews: 367840
 size: 
 website: https://www.paypal.com/mobile
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/PayPal
 - https://www.reddit.com/r/paypal
 redirect_from: 
+developerName: PayPal Mobile
 features: 
 
 ---

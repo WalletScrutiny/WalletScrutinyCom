@@ -36,6 +36,7 @@ social:
 redirect_from:
 - /com.bitrefill.app/
 - /posts/com.bitrefill.app/
+developerName: Bitrefill
 features: 
 
 ---

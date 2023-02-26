@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/klever.io
 redirect_from:
 - /cash.klever.blockchain.wallet/
+developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 
 
 ---

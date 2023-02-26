@@ -10,9 +10,9 @@ appCountry:
 released: Apr 17, 2020
 updated: 2023-02-02
 version: 4.7.3
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 513
+reviews: 515
 size: 
 website: https://www.nicehash.com/my/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
 redirect_from: 
+developerName: H-BIT d.o.o.
 features:
 - ln
 

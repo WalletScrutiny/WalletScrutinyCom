@@ -10,9 +10,9 @@ appCountry: jp
 released: 2019-09-03
 updated: 2023-02-14
 version: 1.4.45
-stars: 2.6
+stars: 2.5
 ratings: 3029
-reviews: 1483
+reviews: 1521
 size: 
 website: https://www.paddle-inc.jp/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Paddle,inc
 features: 
 
 ---

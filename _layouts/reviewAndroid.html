@@ -199,7 +199,16 @@ layout: default
             <i class="i-person circle"></i>
             <div class="title">
               <h3>Developer</h3>
-              <p></p>
+              <p>
+              {% if page.developerName %}
+                {{page.developerName}}
+              {% endif %}
+              </p>
+            </div>
+            <div class="data">
+              {% if page.website %}
+                <a href="{{page.website}}" title="Website">Website</a>
+              {% endif %}
             </div>
           </div>
         </div>

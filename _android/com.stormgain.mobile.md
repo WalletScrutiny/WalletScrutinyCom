@@ -10,9 +10,9 @@ appCountry: de
 released: 2019-07-08
 updated: 2023-02-13
 version: 1.27.0
-stars: 3.9
+stars: 3.8
 ratings: 114954
-reviews: 1283
+reviews: 1227
 size: 
 website: https://stormgain.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
 redirect_from: 
+developerName: StormGain Limited
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/AAXExchange
 - https://www.reddit.com/r/AAXExchange
 redirect_from: 
+developerName: AAX
 features: 
 
 ---

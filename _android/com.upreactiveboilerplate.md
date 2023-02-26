@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Joint Stock and Trading Safe OÜ
 features: 
 
 ---

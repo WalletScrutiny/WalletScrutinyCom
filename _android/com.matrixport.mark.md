@@ -12,7 +12,7 @@ updated: 2023-02-16
 version: 1.8.1
 stars: 4.1
 ratings: 1103
-reviews: 895
+reviews: 896
 size: 
 website: https://invest.matrixport.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/matrixport
 - https://www.reddit.com/r/Matrixport
 redirect_from: 
+developerName: Matrixport Technologies Ltd
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.mk.cryptofolio/
 - /posts/com.mk.cryptofolio/
+developerName: The CryptoFolio App
 features: 
 
 ---

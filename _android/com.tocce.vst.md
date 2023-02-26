@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: VSTMEX Technology PTE.LTD.
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2023-02-15
 version: 2.4.23
 stars: 4.1
 ratings: 2732
-reviews: 64
+reviews: 63
 size: 
 website: https://mercuryo.io
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/mercuryo
 redirect_from:
 - /com.mercuryo.app/
+developerName: Mercuryo
 features: 
 
 ---

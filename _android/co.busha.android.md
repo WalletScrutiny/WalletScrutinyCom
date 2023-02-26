@@ -12,7 +12,7 @@ updated: 2023-02-20
 version: 6.0.3
 stars: 4.1
 ratings: 3575
-reviews: 154
+reviews: 155
 size: 
 website: https://busha.co
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /co.busha.android/
 - /posts/co.busha.android/
+developerName: Busha, Inc.
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2023-01-24
 version: v1.9.2197.3
 stars: 4.4
 ratings: 11645
-reviews: 34
+reviews: 33
 size: 
 website: https://www.quantfury.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: quantfury
 social: 
 redirect_from: 
+developerName: Quantfury Ltd
 features: 
 
 ---

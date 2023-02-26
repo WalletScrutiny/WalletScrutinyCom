@@ -27,6 +27,7 @@ reviewArchive:
 twitter: FreedaWallet
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

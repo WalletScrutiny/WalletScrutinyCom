@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.viabtc.wallet/
 - /posts/com.viabtc.wallet/
+developerName: ViaBTC
 features: 
 
 ---

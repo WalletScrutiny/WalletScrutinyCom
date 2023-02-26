@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/thearyaapp
 - https://www.facebook.com/WeloveArya
 redirect_from: 
+developerName: TECHX FZ LLC
 features: 
 
 ---

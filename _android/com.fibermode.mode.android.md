@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/modeapp-com
 - https://www.facebook.com/themodeapp
 redirect_from: 
+developerName: Fibermode Limited
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-12-03
 updated: 2023-01-09
 version: 2.0.15
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 8
+reviews: 6
 size: 
 website: https://tokenize.exchange/
 repository: 
@@ -28,6 +28,7 @@ twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange
 redirect_from: 
+developerName: Tokenize Xchange
 features: 
 
 ---

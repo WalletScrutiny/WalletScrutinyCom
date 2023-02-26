@@ -12,7 +12,7 @@ updated: 2023-02-20
 version: 6.2.1
 stars: 4.5
 ratings: 188391
-reviews: 1003
+reviews: 985
 size: 
 website: https://www.okx.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.okinc.okex.gp/
 - /posts/com.okinc.okex.gp/
+developerName: OKX
 features: 
 
 ---

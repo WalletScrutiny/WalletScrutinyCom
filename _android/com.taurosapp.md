@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/tauros.io
 - https://www.linkedin.com/company/taurosio/
 redirect_from: 
+developerName: Tauros Exchange S.A. de C.V.
 features:
 - ln
 

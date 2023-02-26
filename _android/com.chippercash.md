@@ -13,7 +13,7 @@ updated: 2023-02-22
 version: 1.23.0
 stars: 4.3
 ratings: 59630
-reviews: 2428
+reviews: 2432
 size: 
 website: https://chippercash.com
 repository: 
@@ -29,6 +29,7 @@ twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp
 redirect_from: 
+developerName: Critical Ideas, Inc.
 features: 
 
 ---

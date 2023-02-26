@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.pillarproject.wallet/
 - /posts/com.pillarproject.wallet/
+developerName: Pillar Project
 features: 
 
 ---

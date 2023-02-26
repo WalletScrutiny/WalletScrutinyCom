@@ -12,7 +12,7 @@ updated: 2023-02-15
 version: 2.5.3
 stars: 4.5
 ratings: 7093
-reviews: 552
+reviews: 551
 size: 
 website: http://mewwallet.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
 redirect_from: 
+developerName: MyEtherWallet
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.bitpie/
 - /posts/com.bitpie/
+developerName: getcai
 features:
 - ln
 

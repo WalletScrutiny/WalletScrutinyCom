@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-03-23
 updated: 2022-12-28
 version: 2.5.6
-stars: 3.4
+stars: 3.3
 ratings: 225
 reviews: 20
 size: 
@@ -28,6 +28,7 @@ twitter: PoolinWallet
 social:
 - https://www.linkedin.com/company/poolinwallet
 redirect_from: 
+developerName: Poolin Singapore - Make the Most of Crypto Assets
 features: 
 
 ---

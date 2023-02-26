@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitcoinGlobalEx
 - https://www.reddit.com/r/BITCOIN_GLOBAL
 redirect_from: 
+developerName: Bitcoin Global Ex
 features: 
 
 ---

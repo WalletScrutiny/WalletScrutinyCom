@@ -9,10 +9,10 @@ appId: com.venmo
 appCountry: 
 released: May 17, 2010
 updated: 2023-02-23
-version: 10.11.0
+version: 10.12.0
 stars: 4.2
 ratings: 
-reviews: 254870
+reviews: 255102
 size: 
 website: https://venmo.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 
+developerName: PayPal, Inc.
 features: 
 
 ---

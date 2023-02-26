@@ -9,9 +9,9 @@ appCountry:
 released: Jul 21, 2020
 updated: 2023-02-09
 version: 2.3.6
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 142
+reviews: 138
 size: 
 website: https://cwallet.com
 repository: 
@@ -27,6 +27,7 @@ twitter: cctip_com
 social:
 - https://www.reddit.com/r/CCTip/
 redirect_from: 
+developerName: Cwallet
 features: 
 
 ---

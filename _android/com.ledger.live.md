@@ -11,7 +11,7 @@ updated: 2023-02-15
 version: 3.15.2
 stars: 4.9
 ratings: 6090
-reviews: 1781
+reviews: 1791
 size: 
 website: https://www.ledger.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Ledger
 redirect_from:
 - /com.ledger.live/
+developerName: Ledger
 features: 
 
 ---

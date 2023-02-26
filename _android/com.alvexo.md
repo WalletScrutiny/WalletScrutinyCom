@@ -28,6 +28,7 @@ twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
 redirect_from: 
+developerName: Alvexo
 features: 
 
 ---

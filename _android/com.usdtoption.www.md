@@ -3,7 +3,7 @@ wsId:
 title: USDT Option
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.usdtoption.www
 appCountry: 
 released: 2020-05-10
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: USDT OPTION
 features: 
 
 ---

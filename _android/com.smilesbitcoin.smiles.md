@@ -28,6 +28,7 @@ twitter: smilesbitcoin
 social:
 - https://www.facebook.com/smilesbitcoin
 redirect_from: 
+developerName: StandApp, Inc.
 features:
 - ln
 

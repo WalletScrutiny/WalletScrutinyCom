@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bitvalve
 social: 
 redirect_from: 
+developerName: BitValve Developer
 features: 
 
 ---

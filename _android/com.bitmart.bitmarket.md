@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitmart.bitmarket
 appCountry: 
 released: 2018-05-09
-updated: 2023-02-10
+updated: 2023-02-24
 version: 2.11.12
-stars: 3.7
+stars: 3.4
 ratings: 41983
-reviews: 3801
+reviews: 3612
 size: 
 website: http://www.bitmart.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.bitmart.bitmarket/
 - /posts/com.bitmart.bitmarket/
+developerName: GBM Foundation Company
 features: 
 
 ---

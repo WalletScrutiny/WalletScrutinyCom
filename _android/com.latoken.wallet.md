@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/latoken
 - https://www.facebook.com/LiquidAssetToken
 redirect_from: 
+developerName: LATOKEN
 features: 
 
 ---

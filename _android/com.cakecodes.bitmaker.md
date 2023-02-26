@@ -12,7 +12,7 @@ updated: 2023-02-09
 version: 8.17.5
 stars: 4.2
 ratings: 84499
-reviews: 3450
+reviews: 3451
 size: 
 website: https://stormx.io/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/stormxio
 - https://www.reddit.com/r/stormxio
 redirect_from: 
+developerName: StormX Singapore PTE LTD.
 features: 
 
 ---

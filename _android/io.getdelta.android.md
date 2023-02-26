@@ -11,7 +11,7 @@ updated: 2023-02-02
 version: 2023.1.1
 stars: 4.3
 ratings: 26395
-reviews: 1818
+reviews: 1819
 size: 
 website: https://delta.app
 repository: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /io.getdelta.android/
+developerName: Opus Labs NV
 features: 
 
 ---

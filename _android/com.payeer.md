@@ -12,7 +12,7 @@ updated: 2022-10-18
 version: VARY
 stars: 4.4
 ratings: 36999
-reviews: 166
+reviews: 165
 size: 
 website: https://payeer.com
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/payeercoins
 redirect_from: 
+developerName: Payeer Official
 features: 
 
 ---

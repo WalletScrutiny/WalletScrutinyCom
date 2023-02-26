@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Buy Crypto - Crypto Exchange - Sell Crypto
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
+developerName: LUMI SOFTWARE LTD
 features: 
 
 ---

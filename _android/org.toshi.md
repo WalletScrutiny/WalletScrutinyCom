@@ -9,10 +9,10 @@ appId: org.toshi
 appCountry: 
 released: 2017-09-20
 updated: 2023-02-17
-version: 28.27.15
+version: 28.28.0
 stars: 4.3
 ratings: 38828
-reviews: 10053
+reviews: 10057
 size: 
 website: https://wallet.coinbase.com/
 repository: 
@@ -31,6 +31,7 @@ redirect_from:
 - /org.toshi/
 - /posts/2019/11/coinbasewallet/
 - /posts/org.toshi/
+developerName: Coinbase Wallet
 features: 
 
 ---

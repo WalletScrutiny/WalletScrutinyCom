@@ -12,7 +12,7 @@ updated: 2023-02-14
 version: 3.41.0
 stars: 3.5
 ratings: 26258
-reviews: 1034
+reviews: 1026
 size: 
 website: https://wirexapp.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/wirex-limited
 - https://www.facebook.com/wirexapp
 redirect_from: 
+developerName: Wirex
 features: 
 
 ---

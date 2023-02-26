@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BTCボックス株式会社
 features: 
 
 ---

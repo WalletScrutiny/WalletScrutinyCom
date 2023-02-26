@@ -28,6 +28,7 @@ twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp
 redirect_from: 
+developerName: Baanx.com Ltd
 features: 
 
 ---

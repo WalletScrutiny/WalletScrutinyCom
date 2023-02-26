@@ -27,6 +27,7 @@ reviewArchive:
 twitter: versoapp
 social: 
 redirect_from: 
+developerName: Get Verso
 features: 
 
 ---

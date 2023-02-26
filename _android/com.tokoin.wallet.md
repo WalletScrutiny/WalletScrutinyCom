@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/tokoinindonesia
 - https://github.com/tokoinofficial
 redirect_from: 
+developerName: Tokoin
 features: 
 
 ---

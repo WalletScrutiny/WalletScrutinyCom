@@ -11,7 +11,7 @@ appCountry:
 released: 2018-10-24
 updated: 2023-02-09
 version: 4.0.1
-stars: 4.5
+stars: 4.6
 ratings: 89
 reviews: 15
 size: 
@@ -29,6 +29,7 @@ twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
 redirect_from: 
+developerName: Tangem AG
 features: 
 
 ---

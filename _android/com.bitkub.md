@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitkub
 - https://www.facebook.com/bitkubofficial
 redirect_from: 
+developerName: BITKUB ONLINE CO., LTD.
 features: 
 
 ---

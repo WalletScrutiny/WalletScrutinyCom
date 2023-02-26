@@ -11,7 +11,7 @@ updated: 2022-12-20
 version: 202212.1.1
 stars: 4.4
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://www.blockchain.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

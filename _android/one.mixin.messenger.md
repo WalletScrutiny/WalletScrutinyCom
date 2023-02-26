@@ -10,7 +10,7 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2023-02-06
+updated: 2023-02-21
 version: 0.38.4
 stars: 4.7
 ratings: 1252
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/MixinNetwork
 - https://www.reddit.com/r/mixin
 redirect_from: 
+developerName: Mixin Ltd
 features: 
 
 ---

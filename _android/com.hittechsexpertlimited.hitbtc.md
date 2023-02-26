@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.hittechsexpertlimited.hitbtc/
 - /posts/com.hittechsexpertlimited.hitbtc/
+developerName: HitBTC Exchange
 features: 
 
 ---

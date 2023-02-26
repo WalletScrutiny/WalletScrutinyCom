@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blocktradecom
 - https://www.facebook.com/Blocktradecom
 redirect_from: 
+developerName: Blocktrade
 features: 
 
 ---

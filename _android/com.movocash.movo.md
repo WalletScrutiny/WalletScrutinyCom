@@ -11,7 +11,7 @@ updated: 2022-12-13
 version: 4.3.3
 stars: 3.3
 ratings: 
-reviews: 144
+reviews: 140
 size: 
 website: http://movo.cash
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MovoCash, Inc.
 features: 
 
 ---

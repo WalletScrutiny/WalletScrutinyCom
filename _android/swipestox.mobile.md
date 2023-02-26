@@ -10,7 +10,7 @@ appCountry: gb
 released: 2015-10-20
 updated: 2023-02-21
 version: 8.0.283
-stars: 3.4
+stars: 3.3
 ratings: 5636
 reviews: 196
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/nagainvesting
 - https://www.facebook.com/nagainvesting
 redirect_from: 
+developerName: NAGA Markets Ltd.
 features: 
 
 ---

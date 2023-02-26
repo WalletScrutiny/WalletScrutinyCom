@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.flare/
 - /posts/com.flare/
+developerName: flarewallet.io
 features: 
 
 ---

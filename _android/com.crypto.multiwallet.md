@@ -12,7 +12,7 @@ updated: 2023-02-16
 version: 3.0.31
 stars: 4.1
 ratings: 3831
-reviews: 493
+reviews: 495
 size: 
 website: https://guarda.com
 repository: 
@@ -33,6 +33,7 @@ redirect_from:
 - /com.crypto.multiwallet/
 - /posts/2019/11/guardawallet/
 - /posts/com.crypto.multiwallet/
+developerName: GUARDA
 features: 
 
 ---

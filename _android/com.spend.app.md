@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/spend
 - https://www.reddit.com/r/Spend
 redirect_from: 
+developerName: Spend CA Inc
 features: 
 
 ---

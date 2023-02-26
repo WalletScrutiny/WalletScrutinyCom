@@ -12,7 +12,7 @@ updated: 2023-02-21
 version: 3.7.8
 stars: 4.8
 ratings: 151
-reviews: 201
+reviews: 196
 size: 
 website: https://coinunited.io/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: realcoinunited
 social: 
 redirect_from: 
+developerName: CoinUnited
 features: 
 
 ---

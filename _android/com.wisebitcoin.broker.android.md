@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 4.0.0
 stars: 3.1
 ratings: 116
-reviews: 88
+reviews: 87
 size: 
 website: https://www.batonex.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: wisebitcoin
 social: 
 redirect_from: 
+developerName: WiseEX LTD
 features: 
 
 ---

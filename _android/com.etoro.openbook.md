@@ -10,7 +10,7 @@ appCountry:
 released: 2013-11-05
 updated: 2023-02-22
 version: 528.0.0
-stars: 4.1
+stars: 4
 ratings: 111823
 reviews: 3063
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
 redirect_from: 
+developerName: eToro
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2019-02-22
 updated: 2023-02-21
 version: 4.9.54
 stars: 4.4
-reviews: 862
+reviews: 861
 size: '222776320'
 website: https://www.lbank.com/
 repository: 

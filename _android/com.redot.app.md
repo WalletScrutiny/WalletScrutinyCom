@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/redotexchange
 - https://www.reddit.com/r/redot_com
 redirect_from: 
+developerName: Redot.com
 features: 
 
 ---

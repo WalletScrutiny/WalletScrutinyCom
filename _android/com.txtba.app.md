@@ -9,9 +9,9 @@ appCountry:
 released: Dec 21, 2021
 updated: 2022-10-20
 version: 1.2.10
-stars: 5
+stars: 4.9
 ratings: 
-reviews: 19
+reviews: 11
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Txtba
 features: 
 
 ---

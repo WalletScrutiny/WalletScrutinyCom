@@ -12,7 +12,7 @@ updated: 2023-02-20
 version: 1.0.335
 stars: 4.1
 ratings: 6172
-reviews: 453
+reviews: 455
 size: 
 website: https://cryptotab.farm/
 repository: 
@@ -28,6 +28,7 @@ twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFarm
 redirect_from: 
+developerName: CryptoCompany OU
 features: 
 
 ---

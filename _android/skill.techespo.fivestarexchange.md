@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Pingulkars Technology Solutions Private Limited
 features: 
 
 ---

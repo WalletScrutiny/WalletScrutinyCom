@@ -7,8 +7,8 @@ users: 100000
 appId: hkd.com
 appCountry: 
 released: Sep 11, 2020
-updated: 2023-02-10
-version: 2.4.9
+updated: 2023-02-26
+version: 2.5.0
 stars: 4.8
 ratings: 
 reviews: 4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Hong Kong Digital Asset Exchange Limited
 features: 
 
 ---

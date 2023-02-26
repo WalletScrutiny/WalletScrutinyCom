@@ -12,7 +12,7 @@ updated: 2023-02-08
 version: 1.54.0
 stars: 4.3
 ratings: 9203
-reviews: 853
+reviews: 854
 size: 
 website: https://swissborg.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/swissborg
 - https://www.facebook.com/swissborg
 redirect_from: 
+developerName: SwissBorg
 features: 
 
 ---

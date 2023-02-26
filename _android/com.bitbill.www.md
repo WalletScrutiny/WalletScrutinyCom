@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.bitbill.www/
 - /posts/com.bitbill.www/
+developerName: ownbit
 features: 
 
 ---

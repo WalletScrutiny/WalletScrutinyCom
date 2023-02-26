@@ -12,7 +12,7 @@ updated: 2023-02-17
 version: 3.8.7
 stars: 4.1
 ratings: 12371
-reviews: 405
+reviews: 398
 size: 
 website: https://www.mexc.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
+developerName: MEXC Global
 features: 
 
 ---

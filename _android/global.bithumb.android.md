@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bithumb.global
 - https://www.reddit.com/r/BithumbGlobal
 redirect_from: 
+developerName: Bithumb Global Holdings Limited
 features: 
 
 ---

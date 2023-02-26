@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zbx
 - https://www.facebook.com/ZBXExchange
 redirect_from: 
+developerName: ZBX
 features: 
 
 ---

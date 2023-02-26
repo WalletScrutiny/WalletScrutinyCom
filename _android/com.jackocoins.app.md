@@ -28,6 +28,7 @@ twitter: jackocoins
 social:
 - https://www.facebook.com/jackocoins
 redirect_from: 
+developerName: Jackocoins
 features: 
 
 ---

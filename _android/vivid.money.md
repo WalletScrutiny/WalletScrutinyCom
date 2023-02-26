@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vividmoney
 - https://www.facebook.com/vivid.money.en
 redirect_from: 
+developerName: Vivid Money GmbH
 features: 
 
 ---

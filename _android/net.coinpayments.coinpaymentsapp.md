@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /net.coinpayments.coinpaymentsapp/
 - /posts/net.coinpayments.coinpaymentsapp/
+developerName: Coinpayments Inc
 features: 
 
 ---

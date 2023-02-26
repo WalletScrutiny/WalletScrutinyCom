@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 3.18.4
 stars: 4.3
 ratings: 60269
-reviews: 1360
+reviews: 1359
 size: 
 website: https://www.coinex.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.coinex.trade.play/
 - /posts/com.coinex.trade.play/
+developerName: CoinEx
 features: 
 
 ---

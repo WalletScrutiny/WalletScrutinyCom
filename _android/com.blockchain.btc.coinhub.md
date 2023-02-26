@@ -9,7 +9,7 @@ appCountry:
 released: 2021-05-13
 updated: 2023-02-07
 version: 1.2.0.7.7
-stars: 4.4
+stars: 4.5
 ratings: 1577
 reviews: 87
 size: 
@@ -31,6 +31,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: InvoVN Solutions
 features: 
 
 ---

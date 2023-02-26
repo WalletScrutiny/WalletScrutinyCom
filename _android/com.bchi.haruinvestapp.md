@@ -28,6 +28,7 @@ twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest
 redirect_from: 
+developerName: Haru Invest
 features: 
 
 ---

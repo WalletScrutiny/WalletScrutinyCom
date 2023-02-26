@@ -12,7 +12,7 @@ updated: 2023-02-22
 version: 5.0.21
 stars: 4.5
 ratings: 2781
-reviews: 365
+reviews: 353
 size: 
 website: https://hyperpay.tech
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hyperpayofficial
 redirect_from:
 - /com.legendwd.hyperpayW/
+developerName: LEGEND INTERNET SERVICES PTY LTD
 features: 
 
 ---

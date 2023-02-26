@@ -12,7 +12,7 @@ updated: 2022-10-24
 version: '5.6'
 stars: 4.3
 ratings: 
-reviews: 22
+reviews: 21
 size: 
 website: https://swaptobe.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
 - https://www.facebook.com/swaptobe
 redirect_from: 
+developerName: EG Tech Group LLC
 features: 
 
 ---

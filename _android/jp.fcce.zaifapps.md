@@ -28,6 +28,7 @@ twitter: zaifdotjp
 social:
 - https://www.facebook.com/zaifdotjp
 redirect_from: 
+developerName: 株式会社カイカエクスチェンジ
 features: 
 
 ---

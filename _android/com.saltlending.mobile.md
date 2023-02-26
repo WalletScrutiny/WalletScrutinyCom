@@ -8,8 +8,8 @@ users: 50000
 appId: com.saltlending.mobile
 appCountry: us
 released: 2019-01-07
-updated: 2023-02-10
-version: 2.7.10
+updated: 2023-02-23
+version: 2.7.13
 stars: 4.6
 ratings: 231
 reviews: 39
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/saltlending
 - https://www.facebook.com/SALTLENDING
 redirect_from: 
+developerName: SALT Blockchain, Inc.
 features: 
 
 ---

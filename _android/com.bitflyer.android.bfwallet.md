@@ -12,7 +12,7 @@ updated: 2023-02-14
 version: 8.0.1
 stars: 3.9
 ratings: 4430
-reviews: 1431
+reviews: 1432
 size: 
 website: https://bitflyer.com
 repository: 
@@ -28,6 +28,7 @@ twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
 redirect_from: 
+developerName: bitFlyer
 features: 
 
 ---

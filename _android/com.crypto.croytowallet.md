@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.crypto.croytowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-02-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: IMSMART Company LTD
 features: 
 
 ---

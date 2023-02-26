@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/KrakenFX
 - https://www.reddit.com/r/Kraken
 redirect_from: 
+developerName: Payward, Inc.
 features:
 - ln
 

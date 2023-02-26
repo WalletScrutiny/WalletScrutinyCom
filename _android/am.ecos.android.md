@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-22
 updated: 2023-02-22
 version: 1.31.3
-stars: 3.7
+stars: 3.5
 ratings: 377
-reviews: 173
+reviews: 159
 size: 
 website: https://ecos.finance
 repository: 
@@ -28,6 +28,7 @@ twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
 redirect_from: 
+developerName: ECOS CJSC
 features: 
 
 ---

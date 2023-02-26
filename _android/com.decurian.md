@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.decurian.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Decurian Cryptocurrency
 features: 
 
 ---

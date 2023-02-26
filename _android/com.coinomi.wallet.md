@@ -34,6 +34,7 @@ redirect_from:
 - /com.coinomi.wallet/
 - /posts/2019/11/coinomi/
 - /posts/com.coinomi.wallet/
+developerName: Coinomi
 features: 
 
 ---

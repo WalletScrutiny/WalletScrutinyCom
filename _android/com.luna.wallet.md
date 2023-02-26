@@ -9,7 +9,7 @@ appCountry:
 released: Apr 6, 2022
 updated: 2022-07-01
 version: 1.0.4
-stars: 5
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CHAIN SENSE LTD
 features: 
 
 ---

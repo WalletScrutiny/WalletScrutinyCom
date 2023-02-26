@@ -12,7 +12,7 @@ updated: 2023-02-17
 version: 3.77.2
 stars: 4.3
 ratings: 72555
-reviews: 4096
+reviews: 4100
 size: 
 website: https://www.kucoin.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 redirect_from: 
+developerName: Kucoin Technology Co., Ltd.
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/giottus
 - https://www.facebook.com/Giottus
 redirect_from: 
+developerName: Giottus Technologies Private Limited
 features: 
 
 ---

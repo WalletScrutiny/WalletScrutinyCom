@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/easymarkets
 - https://www.facebook.com/easyMarkets
 redirect_from: 
+developerName: easyMarkets
 features: 
 
 ---

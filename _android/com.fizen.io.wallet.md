@@ -11,7 +11,7 @@ updated: 2023-02-13
 version: 1.8.8
 stars: 5
 ratings: 
-reviews: 25
+reviews: 10
 size: 
 website: https://fizen.io
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Fizen.IO
 features: 
 
 ---

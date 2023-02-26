@@ -9,9 +9,9 @@ appCountry:
 released: Oct 9, 2019
 updated: 2022-09-21
 version: 3.36.4
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 23
+reviews: 19
 size: 
 website: https://www.aex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AEX
 features: 
 
 ---

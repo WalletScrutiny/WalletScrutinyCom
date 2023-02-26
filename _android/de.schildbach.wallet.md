@@ -12,7 +12,7 @@ updated: 2023-02-04
 version: VARY
 stars: 4
 ratings: 29247
-reviews: 1815
+reviews: 1816
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -166,6 +166,7 @@ redirect_from:
 - /de.schildbach.wallet/
 - /posts/2019/10/schildbach/
 - /posts/de.schildbach.wallet/
+developerName: Bitcoin Wallet developers
 features: 
 
 ---

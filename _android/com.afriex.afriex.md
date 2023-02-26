@@ -12,7 +12,7 @@ updated: 2023-02-01
 version: '11.61'
 stars: 3.8
 ratings: 1165
-reviews: 432
+reviews: 428
 size: 
 website: https://afriexapp.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/afriex
 - https://www.facebook.com/AfriexApp
 redirect_from: 
+developerName: Afriex
 features: 
 
 ---

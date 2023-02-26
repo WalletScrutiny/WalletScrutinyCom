@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 3.1.5
 stars: 2.9
 ratings: 4531
-reviews: 2980
+reviews: 2981
 size: 
 website: https://rain.bh
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/rainfinancial
 - https://www.facebook.com/rainfinancial
 redirect_from: 
+developerName: Rain Financial Inc
 features: 
 
 ---

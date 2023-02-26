@@ -12,7 +12,7 @@ updated: 2023-01-11
 version: 3.1.15
 stars: 4.2
 ratings: 5765
-reviews: 19
+reviews: 18
 size: 
 website: https://bitay.com.tr
 repository: 
@@ -28,6 +28,7 @@ twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
 redirect_from: 
+developerName: Bitay Technology
 features: 
 
 ---

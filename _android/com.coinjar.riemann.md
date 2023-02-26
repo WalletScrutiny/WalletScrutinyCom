@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinjar
 - https://www.facebook.com/CoinJar
 redirect_from: 
+developerName: CoinJar
 features: 
 
 ---

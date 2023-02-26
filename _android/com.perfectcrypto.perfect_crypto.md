@@ -27,6 +27,7 @@ reviewArchive:
 twitter: irPerfectCrypto
 social: 
 redirect_from: 
+developerName: Perfect Crypto
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.pinterest.com/opolowallet/_saved/
 - https://medium.com/@OPOLOCosmos
 redirect_from: 
+developerName: OPOLO
 features: 
 
 ---

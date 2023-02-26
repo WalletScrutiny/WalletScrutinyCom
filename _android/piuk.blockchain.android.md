@@ -8,8 +8,8 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2023-02-22
-version: 202301.2.10
+updated: 2023-02-24
+version: 202301.2.11
 stars: 4.2
 ratings: 115830
 reviews: 5797
@@ -38,6 +38,7 @@ redirect_from:
 - /piuk.blockchain.android/
 - /posts/2019/11/blockchainwallet/
 - /posts/piuk.blockchain.android/
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

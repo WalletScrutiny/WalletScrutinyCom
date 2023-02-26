@@ -12,7 +12,7 @@ updated: 2023-01-31
 version: 1.12.0
 stars: 4.3
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: https://www.payperless.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/payperlesscom/
 - https://www.instagram.com/payperlesscom/
 redirect_from: 
+developerName: Payperless
 features: 
 
 ---

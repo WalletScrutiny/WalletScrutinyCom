@@ -12,7 +12,7 @@ updated: 2023-02-24
 version: 9.2.2
 stars: 4.6
 ratings: 11618
-reviews: 1603
+reviews: 1608
 size: 
 website: https://lobstr.co/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Lobstrco
 social: 
 redirect_from: 
+developerName: LOBSTR Stellar Wallet
 features: 
 
 ---

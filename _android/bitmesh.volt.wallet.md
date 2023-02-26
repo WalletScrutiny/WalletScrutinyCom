@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Voltfinance
 social: 
 redirect_from: 
+developerName: Volt Wallet
 features: 
 
 ---

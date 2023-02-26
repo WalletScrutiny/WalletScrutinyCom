@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /zebpay.Application/
 - /posts/zebpay.Application/
+developerName: ZEBRUARY TECHNOLOGIES PTE. LTD.
 features: 
 
 ---

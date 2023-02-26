@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.cobinhood.exchange/
 - /posts/com.cobinhood.exchange/
+developerName: COBINHOOD, Ltd.
 features: 
 
 ---

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: biboexchange
 social: 
 redirect_from: 
+developerName: Bibo Market Inc
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DIGITIDE, LLC
 features: 
 
 ---

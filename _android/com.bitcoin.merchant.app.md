@@ -11,7 +11,7 @@ updated: 2023-01-24
 version: 5.3.18
 stars: 4.3
 ratings: 504
-reviews: 27
+reviews: 29
 size: 
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.bitcoin.merchant.app/
 - /posts/com.bitcoin.merchant.app/
+developerName: Bitcoin.com
 features: 
 
 ---

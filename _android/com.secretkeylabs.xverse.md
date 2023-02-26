@@ -12,7 +12,7 @@ updated: 2023-02-19
 version: 1.11.0
 stars: 4.7
 ratings: 34
-reviews: 70
+reviews: 72
 size: 
 website: https://www.xverse.app/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: secretkeylabs
 social: 
 redirect_from: 
+developerName: Secret Key Labs
 features: 
 
 ---

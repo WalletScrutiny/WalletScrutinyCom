@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/gekkoin.official
 redirect_from: 
+developerName: PAPAYA LTD
 features: 
 
 ---

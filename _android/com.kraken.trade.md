@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.kraken.trade/
 - /posts/com.kraken.trade/
+developerName: Payward, Inc.
 features:
 - ln
 

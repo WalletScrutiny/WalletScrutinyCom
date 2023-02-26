@@ -12,7 +12,7 @@ updated: 2023-02-09
 version: 2.17.0
 stars: 4
 ratings: 319
-reviews: 256
+reviews: 257
 size: 
 website: https://defichain.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
 redirect_from: 
+developerName: DeFiChain
 features: 
 
 ---

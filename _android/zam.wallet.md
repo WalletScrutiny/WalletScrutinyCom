@@ -28,6 +28,7 @@ twitter: zam_io
 social:
 - https://www.linkedin.com/company/11770701
 redirect_from: 
+developerName: ZamZam Technology
 features: 
 
 ---

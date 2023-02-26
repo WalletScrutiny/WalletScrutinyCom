@@ -27,6 +27,7 @@ reviewArchive:
 twitter: argentHQ
 social: 
 redirect_from: 
+developerName: Argent Labs
 features: 
 
 ---

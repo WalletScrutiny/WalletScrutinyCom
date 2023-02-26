@@ -8,11 +8,11 @@ users: 50000
 appId: com.blockin.google
 appCountry: 
 released: 2020-03-12
-updated: 2023-01-17
-version: 3.6.4
+updated: 2023-02-24
+version: 3.6.5
 stars: 4.2
 ratings: 764
-reviews: 30
+reviews: 31
 size: 
 website: https://www.poolin.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/poolin
 - https://www.facebook.com/poolinpool
 redirect_from: 
+developerName: Beijing Satoshi Smart Co.,Ltd.
 features: 
 
 ---

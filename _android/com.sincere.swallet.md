@@ -9,7 +9,7 @@ appCountry:
 released: Apr 11, 2022
 updated: 2023-02-21
 version: 2.2.1
-stars: 4
+stars: 4.4
 ratings: 
 reviews: 12
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Swallet OU
 features: 
 
 ---

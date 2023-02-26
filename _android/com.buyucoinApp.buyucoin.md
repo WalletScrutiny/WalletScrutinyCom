@@ -10,9 +10,9 @@ appCountry:
 released: 2019-02-15
 updated: 2023-02-12
 version: '3.41'
-stars: 2.9
+stars: 2.8
 ratings: 3529
-reviews: 14
+reviews: 13
 size: 
 website: https://www.buyucoin.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.buyucoinApp.buyucoin/
 - /posts/com.buyucoinApp.buyucoin/
+developerName: Iblock Technologies Private Limited
 features: 
 
 ---

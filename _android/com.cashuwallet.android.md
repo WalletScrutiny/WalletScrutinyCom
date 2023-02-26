@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cashuwallet.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-03-02
+date: 2023-02-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: raugfer
 features: 
 
 ---

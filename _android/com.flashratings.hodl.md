@@ -12,7 +12,7 @@ updated: 2023-02-11
 version: '8.64'
 stars: 4.7
 ratings: 
-reviews: 445
+reviews: 446
 size: 
 website: http://www.hodlfinance.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: HODL Media Inc.
 features: 
 
 ---

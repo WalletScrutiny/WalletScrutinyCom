@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/pundix
 - https://www.facebook.com/pundixlabs
 redirect_from: 
+developerName: Pundi X Labs
 features: 
 
 ---

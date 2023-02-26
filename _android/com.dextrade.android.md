@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/dex-trade-exchange
 - https://www.facebook.com/DexTradeExchange
 redirect_from: 
+developerName: Dex-Trade
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-08
 updated: 2023-02-23
 version: 3.52.13
-stars: 4.2
+stars: 3.7
 ratings: 46317
-reviews: 548
+reviews: 466
 size: 
 website: https://www.lbank.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/lbank
 - https://www.facebook.com/LBank.info
 redirect_from: 
+developerName: LBank
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://medium.com/bananatok
 - https://www.instagram.com/bananatok_official/
 redirect_from: 
+developerName: ZooHoldings Limited
 features: 
 
 ---

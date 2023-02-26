@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinmetro
 - https://www.facebook.com/CoinMetro
 redirect_from: 
+developerName: Coinmetro
 features: 
 
 ---

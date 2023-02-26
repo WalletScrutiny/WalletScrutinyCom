@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/LykkeCity
 - https://www.reddit.com/r/lykke
 redirect_from: 
+developerName: Lykke
 features: 
 
 ---

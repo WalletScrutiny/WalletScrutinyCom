@@ -12,7 +12,7 @@ updated: 2023-02-14
 version: 1.11.1
 stars: 4.3
 ratings: 34617
-reviews: 39128
+reviews: 39125
 size: 
 website: https://www.tokocrypto.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/toko
 - https://www.facebook.com/TCDXOfficial
 redirect_from: 
+developerName: Tokocrypto
 features: 
 
 ---

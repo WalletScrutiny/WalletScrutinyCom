@@ -27,6 +27,7 @@ reviewArchive:
 twitter: grgarside
 social: 
 redirect_from: 
+developerName: George Garside
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/TeamDunia/
 - https://www.youtube.com/channel/UCPJXe02QbAg3906lfr4pXzw
 redirect_from: 
+developerName: Dunia
 features: 
 
 ---

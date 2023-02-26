@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 4.6.0
 stars: 4.2
 ratings: 413931
-reviews: 138304
+reviews: 138314
 size: 
 website: https://coinswitch.co/in
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinswitch
 - https://www.facebook.com/coinswitch
 redirect_from: 
+developerName: CoinSwitch
 features: 
 
 ---

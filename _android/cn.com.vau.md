@@ -10,9 +10,9 @@ appCountry: cn
 released: 2019-07-06
 updated: 2023-01-21
 version: 3.1.0
-stars: 3.8
+stars: 3.9
 ratings: 8949
-reviews: 1782
+reviews: 1776
 size: 
 website: https://www.vantagemarkets.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
 redirect_from: 
+developerName: Vantage Global Prime PTY LTD
 features: 
 
 ---

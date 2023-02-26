@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/litebiteu
 redirect_from:
 - /com.flutter.litebit/
+developerName: 2525 Ventures BV
 features: 
 
 ---

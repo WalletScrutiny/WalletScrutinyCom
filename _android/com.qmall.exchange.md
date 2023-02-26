@@ -7,8 +7,8 @@ users: 50000
 appId: com.qmall.exchange
 appCountry: 
 released: Dec 14, 2021
-updated: 2023-02-13
-version: 1.1.34
+updated: 2023-02-24
+version: 1.1.35
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Prof-IT Blockchain Limited
 features: 
 
 ---

@@ -195,6 +195,7 @@ social:
 redirect_from:
 - /io.horizontalsystems.bankwallet/
 - /posts/io.horizontalsystems.bankwallet/
+developerName: Horizontal Systems
 features: 
 
 ---

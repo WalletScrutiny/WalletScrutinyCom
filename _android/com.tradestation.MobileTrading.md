@@ -10,7 +10,7 @@ appCountry: us
 released: 2013-09-09
 updated: 2022-10-12
 version: 5.0.11
-stars: 3.8
+stars: 3.9
 ratings: 4823
 reviews: 1711
 size: 
@@ -28,6 +28,7 @@ twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
 redirect_from: 
+developerName: TradeStation Technologies
 features: 
 
 ---

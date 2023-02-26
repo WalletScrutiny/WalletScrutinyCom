@@ -28,6 +28,7 @@ twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
 redirect_from: 
+developerName: LMAX DIGITAL EXCHANGE LIMITED
 features: 
 
 ---

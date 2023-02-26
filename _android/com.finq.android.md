@@ -27,6 +27,7 @@ reviewArchive:
 twitter: finqcom
 social: 
 redirect_from: 
+developerName: Leadcapital Corp LTD
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: hotbit_korea
 social: 
 redirect_from: 
+developerName: TresLab
 features: 
 
 ---

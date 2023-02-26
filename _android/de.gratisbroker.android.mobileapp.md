@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: finanzen.net zero GmbH
 features: 
 
 ---

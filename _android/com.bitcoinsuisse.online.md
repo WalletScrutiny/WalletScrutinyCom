@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
 - https://www.facebook.com/BitcoinSuisse
 redirect_from: 
+developerName: Bitcoin Suisse AG
 features: 
 
 ---

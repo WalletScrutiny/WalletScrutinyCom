@@ -12,7 +12,7 @@ updated: 2022-11-11
 version: 1.18.1
 stars: 3.9
 ratings: 758
-reviews: 122
+reviews: 123
 size: 
 website: http://www.walletofsatoshi.com
 repository: 
@@ -32,6 +32,7 @@ redirect_from:
 - /com.livingroomofsatoshi.wallet/
 - /posts/2019/12/walletofsatoshi/
 - /posts/com.livingroomofsatoshi.wallet/
+developerName: Wallet of Satoshi
 features:
 - ln
 

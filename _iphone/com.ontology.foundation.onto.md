@@ -11,7 +11,7 @@ released: 2018-09-21
 updated: 2023-02-14
 version: 4.4.7
 stars: 4.1
-reviews: 80
+reviews: 79
 size: '255271936'
 website: https://www.onto.app
 repository: 

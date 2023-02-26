@@ -12,7 +12,7 @@ updated: 2023-02-15
 version: 3.11.8
 stars: 3.5
 ratings: 8304
-reviews: 4763
+reviews: 4764
 size: 
 website: http://www.bitcointrade.com.br
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
 redirect_from: 
+developerName: PeerTrade Digital Ltda
 features: 
 
 ---

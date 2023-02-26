@@ -12,7 +12,7 @@ updated: 2023-02-20
 version: 2.0.1
 stars: 3.7
 ratings: 7090
-reviews: 2654
+reviews: 2655
 size: 
 website: https://www.koinbazar.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
 redirect_from: 
+developerName: KoinBX
 features: 
 
 ---

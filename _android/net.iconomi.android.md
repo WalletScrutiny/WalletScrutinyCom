@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/iconomicom
 - https://www.reddit.com/r/ICONOMI
 redirect_from: 
+developerName: ICONOMI
 features: 
 
 ---

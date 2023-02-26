@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-26
 updated: 2023-02-22
 version: 2023.02.16
-stars: 4.8
+stars: 4.5
 ratings: 4414
-reviews: 336
+reviews: 322
 size: 
 website: https://www.digifinex.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/DigiFinex
 redirect_from:
 - /com.digifinex.app/
+developerName: Digifinex Team
 features: 
 
 ---

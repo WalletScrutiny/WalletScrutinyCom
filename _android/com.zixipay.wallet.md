@@ -28,6 +28,7 @@ twitter: zixipay
 social:
 - https://www.facebook.com/ZixiPay
 redirect_from: 
+developerName: ZixiPay LLC
 features: 
 
 ---

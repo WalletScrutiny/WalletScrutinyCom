@@ -12,7 +12,7 @@ updated: 2022-10-27
 version: 1.3.7
 stars: 2
 ratings: 3910
-reviews: 429
+reviews: 430
 size: 
 website: https://mypatricia.co
 repository: 
@@ -28,6 +28,7 @@ twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
 redirect_from: 
+developerName: Patricia Technologies
 features: 
 
 ---

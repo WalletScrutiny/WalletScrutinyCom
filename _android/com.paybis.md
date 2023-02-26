@@ -27,6 +27,7 @@ reviewArchive:
 twitter: paybis
 social: 
 redirect_from: 
+developerName: PAYBIS
 features: 
 
 ---

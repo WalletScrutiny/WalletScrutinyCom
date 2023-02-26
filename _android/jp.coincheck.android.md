@@ -28,6 +28,7 @@ twitter: coincheckjp
 social:
 - https://www.facebook.com/coincheck
 redirect_from: 
+developerName: coincheck
 features: 
 
 ---

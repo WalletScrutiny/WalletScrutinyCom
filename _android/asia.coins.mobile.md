@@ -38,6 +38,7 @@ redirect_from:
 - /asia.coins.mobile/
 - /posts/2019/11/coinsph/
 - /posts/asia.coins.mobile/
+developerName: Coins Asia
 features: 
 
 ---

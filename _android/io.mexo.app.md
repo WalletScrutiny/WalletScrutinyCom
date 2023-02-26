@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-30
 updated: 2023-02-22
 version: 3.2.4
-stars: 4.5
+stars: 4.3
 ratings: 401
-reviews: 52
+reviews: 44
 size: 
 website: http://www.mexo.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
 redirect_from: 
+developerName: TruBit Ltd
 features: 
 
 ---

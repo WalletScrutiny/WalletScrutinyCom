@@ -33,6 +33,7 @@ twitter: atomicwallet
 social:
 - https://www.facebook.com/atomicwallet
 redirect_from: 
+developerName: Atomic Wallet
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zulutrade
 - https://www.facebook.com/zulutrade
 redirect_from: 
+developerName: Zulutrade International Limited
 features: 
 
 ---
