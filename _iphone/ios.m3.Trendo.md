@@ -10,10 +10,10 @@ idd: 1530580389
 released: 2020-09-29
 updated: 2023-01-18
 version: 3.2.93
-stars: 4.9
+stars: 4.875
 reviews: 8
 size: '61362176'
-website: 
+website: https://fxtrendo.com
 repository: 
 issue: 
 icon: ios.m3.Trendo.jpg
@@ -24,7 +24,8 @@ date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.instagram.com/fxtrendo/ 
 features: 
 
 ---
