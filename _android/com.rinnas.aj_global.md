@@ -28,6 +28,7 @@ twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
 redirect_from: 
+features: 
 
 ---
 

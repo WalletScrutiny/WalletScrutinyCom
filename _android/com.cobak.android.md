@@ -8,8 +8,8 @@ users: 100000
 appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
-updated: 2023-01-18
-version: 1.42.89
+updated: 2023-02-20
+version: 1.42.92
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cobak
 - https://www.facebook.com/coindaebak
 redirect_from: 
+features: 
 
 ---
 

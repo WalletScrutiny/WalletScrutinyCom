@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/decryptmedia
 redirect_from:
 - /co.decrypt.app/
+features: 
 
 ---
 

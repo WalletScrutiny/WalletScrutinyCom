@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-12-24
 updated: 2022-01-20
 version: 3.0.4
-stars: 4.9
+stars: 4.8
 ratings: 510
-reviews: 33
+reviews: 15
 size: 
 website: https://dsdaq.com
 repository: 
@@ -28,6 +28,7 @@ twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
 redirect_from: 
+features: 
 
 ---
 

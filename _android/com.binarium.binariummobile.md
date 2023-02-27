@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/binariumcom
 redirect_from: 
+features: 
 
 ---
 

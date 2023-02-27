@@ -28,6 +28,7 @@ twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
 redirect_from: 
+features: 
 
 ---
 

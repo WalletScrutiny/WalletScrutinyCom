@@ -11,7 +11,7 @@ updated: 2022-10-20
 version: 1.2.10
 stars: 5
 ratings: 
-reviews: 119
+reviews: 19
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

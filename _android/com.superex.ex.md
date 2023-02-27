@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/superexdex
 - https://www.youtube.com/@superexdex 
 redirect_from: 
+features: 
 
 ---
 ## Play Store App Description

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: wirexapp
 social:
 - https://github.com/wirexapp
+features: 
 
 ---
 

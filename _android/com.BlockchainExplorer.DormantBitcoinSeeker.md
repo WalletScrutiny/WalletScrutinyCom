@@ -9,7 +9,7 @@ appCountry:
 released: Jun 4, 2022
 updated: 2023-01-15
 version: 1.0.9
-stars: 3
+stars: 3.2
 ratings: 
 reviews: 2
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

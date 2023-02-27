@@ -10,9 +10,9 @@ appCountry:
 released: Mar 14, 2021
 updated: 2022-09-01
 version: '1.007'
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 6
+reviews: 5
 size: 
 website: https://rahaexchange.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.aparat.com/rahaexchange
 - https://www.instagram.com/rahaexchange/
 redirect_from: 
+features: 
 
 ---
 

@@ -30,6 +30,7 @@ twitter: LynxCollection
 social:
 - https://www.facebook.com/lynxartcollection/
 - https://www.instagram.com/lynxartcollection/?hl=en
+features: 
 
 ---
 

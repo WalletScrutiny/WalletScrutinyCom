@@ -29,6 +29,7 @@ twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 redirect_from: 
+features: 
 
 ---
 

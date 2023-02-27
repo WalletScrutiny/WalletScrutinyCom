@@ -7,7 +7,7 @@ users: 5000
 appId: io.kamix.kamix
 appCountry: 
 released: Mar 14, 2019
-updated: 2023-01-30
+updated: 2023-02-22
 version: 2.1.6
 stars: 
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

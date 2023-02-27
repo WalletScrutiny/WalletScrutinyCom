@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Cardstack Wallet
+title: Card Pay Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: com.cardstack.cardpay
 appCountry: 
 released: Apr 6, 2022
-updated: 2023-01-24
-version: 1.1.15
+updated: 2023-02-16
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

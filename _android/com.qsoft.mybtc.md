@@ -28,6 +28,7 @@ twitter: btc_nigeria
 social:
 - https://www.facebook.com/mybtcnigeria
 redirect_from: 
+features: 
 
 ---
 

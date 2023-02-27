@@ -10,9 +10,9 @@ appCountry:
 released: 2015-10-26
 updated: 2022-11-14
 version: 3.0.2
-stars: 3.1
+stars: 3.2
 ratings: 2913
-reviews: 513
+reviews: 514
 size: 
 website: https://ShapeShift.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ShapeShiftPlatform
 redirect_from:
 - /com.shapeshift.droid_shapeshift/
+features: 
 
 ---
 

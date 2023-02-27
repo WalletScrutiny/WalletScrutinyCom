@@ -12,7 +12,7 @@ updated: 2023-01-24
 version: 2.1.13
 stars: 4
 ratings: 12608
-reviews: 1043
+reviews: 1046
 size: 
 website: https://enjin.io/wallet
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
 redirect_from: 
+features: 
 
 ---
 

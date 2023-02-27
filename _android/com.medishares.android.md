@@ -28,6 +28,7 @@ twitter: Mathwallet
 social: 
 redirect_from:
 - /com.medishares.android/
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-17
 version: 5.5.0
 stars: 4.2
 ratings: 5083
-reviews: 59
+reviews: 61
 size: 
 website: https://youhodler.com
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.youhodler.youhodler/
 - /posts/com.youhodler.youhodler/
+features: 
 
 ---
 

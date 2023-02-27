@@ -7,13 +7,13 @@ users: 10000
 appId: com.cube.beepay
 appCountry: 
 released: Jul 14, 2021
-updated: 2022-12-15
-version: 2.1.2
+updated: 2023-02-04
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://befiwalletdao.com/
+website: https://befiwallet.io/
 repository: 
 issue: 
 icon: com.cube.beepay.png
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

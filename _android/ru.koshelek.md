@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-07-28
 updated: 2022-09-01
 version: 1.12.2
-stars: 4.2
+stars: 4.3
 ratings: 122
-reviews: 87
+reviews: 89
 size: 
 website: https://koshelek.ru/
 repository: 
@@ -28,6 +28,7 @@ twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru
 redirect_from: 
+features: 
 
 ---
 

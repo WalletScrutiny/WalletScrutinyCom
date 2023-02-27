@@ -9,9 +9,9 @@ appCountry:
 released: Apr 10, 2022
 updated: 2023-01-26
 version: 1.5.4
-stars: 4.7
+stars: 4.4
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.ihcoin.io
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

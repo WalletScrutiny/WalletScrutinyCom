@@ -11,7 +11,7 @@ updated: 2020-05-30
 version: 5.5.1
 stars: 4.1
 ratings: 134
-reviews: 18
+reviews: 17
 size: 
 website: https://particl.io
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

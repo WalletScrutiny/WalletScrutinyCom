@@ -4,7 +4,7 @@ title: Obiex - Swap, Buy & Sell BTC
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: africa.obiex.app
 appCountry: 
 released: Jun 9, 2021
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 redirect_from: 
+features: 
 
 ---
 

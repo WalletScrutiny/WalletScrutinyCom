@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
 redirect_from: 
+features: 
 
 ---
 

@@ -10,9 +10,9 @@ appCountry: ng
 released: 2021-01-26
 updated: 2021-09-17
 version: 1.0.10
-stars: 3.8
+stars: 3.6
 ratings: 405
-reviews: 81
+reviews: 82
 size: 
 website: http://www.gcbuying.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: gcbuying
 social: 
 redirect_from: 
+features: 
 
 ---
 

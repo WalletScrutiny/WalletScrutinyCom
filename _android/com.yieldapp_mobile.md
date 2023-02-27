@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Yield App - Earn on Crypto
+title: 'Yield App : Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 5000
 appId: com.yieldapp_mobile
 appCountry: 
 released: Jun 10, 2022
-updated: 2023-01-19
-version: '23.0119'
+updated: 2023-02-01
+version: '23.0130'
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

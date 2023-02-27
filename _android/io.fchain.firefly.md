@@ -19,14 +19,15 @@ repository: https://github.com/fchainio/firefly#readme
 issue: 
 icon: io.fchain.firefly.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-04-11
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

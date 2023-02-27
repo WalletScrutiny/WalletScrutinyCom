@@ -9,11 +9,11 @@ appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
 released: 2018-02-09
-updated: 2023-01-14
-version: 3.1.0
+updated: 2023-02-21
+version: 3.3.1
 stars: 4.4
-reviews: 1252
-size: '64885760'
+reviews: 1260
+size: '65802240'
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
@@ -33,6 +33,7 @@ twitter: edgewallet
 social:
 - https://www.linkedin.com/company/edgeapp
 - https://www.reddit.com/r/EdgeWallet
+features: 
 
 ---
 

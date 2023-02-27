@@ -28,6 +28,7 @@ twitter: ProBit_Exchange
 social:
 - https://www.facebook.com/probitexchange
 redirect_from: 
+features: 
 
 ---
 

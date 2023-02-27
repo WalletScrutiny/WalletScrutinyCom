@@ -11,7 +11,7 @@ released: 2018-05-25
 updated: 2023-01-20
 version: '3.61'
 stars: 4.7
-reviews: 256
+reviews: 258
 size: '106765312'
 website: https://alphawallet.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: Alpha_wallet
 social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
+features: 
 
 ---
 

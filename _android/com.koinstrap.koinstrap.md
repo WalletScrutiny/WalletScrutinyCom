@@ -28,6 +28,7 @@ twitter: koinstrap
 social:
 - https://www.facebook.com/koinstrap
 redirect_from: 
+features: 
 
 ---
 

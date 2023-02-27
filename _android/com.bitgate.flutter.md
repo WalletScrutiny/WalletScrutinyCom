@@ -8,8 +8,8 @@ users: 500
 appId: com.bitgate.flutter
 appCountry: 
 released: 
-updated: 2022-12-22
-version: 0.9.2
+updated: 2023-02-08
+version: 0.9.3
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitgate
 - https://www.facebook.com/bitgatex
 redirect_from: 
+features: 
 
 ---
 

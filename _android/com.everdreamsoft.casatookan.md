@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/EverdreamSoft/
 - https://www.youtube.com/user/Everdreamsoft
 redirect_from: 
+features: 
 
 ---
 

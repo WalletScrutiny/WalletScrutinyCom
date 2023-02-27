@@ -11,7 +11,7 @@ released: 2021-04-02
 updated: 2022-01-21
 version: 1.1.1
 stars: 4.6
-reviews: 635
+reviews: 634
 size: '119739392'
 website: https://coincircle.com
 repository: 
@@ -27,6 +27,7 @@ twitter: coincircle
 social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
+features: 
 
 ---
 

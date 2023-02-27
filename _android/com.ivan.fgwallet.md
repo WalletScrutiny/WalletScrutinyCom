@@ -8,8 +8,8 @@ users: 10000
 appId: com.ivan.fgwallet
 appCountry: 
 released: Dec 28, 2017
-updated: 2023-01-21
-version: 3.5.4
+updated: 2023-02-07
+version: 3.5.5
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: srsfintech
 social:
 - https://www.linkedin.com/company/srsfintech/
 redirect_from: 
+features: 
 
 ---
 

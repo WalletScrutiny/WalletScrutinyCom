@@ -7,11 +7,11 @@ users: 10000
 appId: money.snowball.defi
 appCountry: 
 released: Sep 30, 2020
-updated: 2023-01-20
-version: 2.7.1
-stars: 4.7
+updated: 2023-02-17
+version: 2.7.2
+stars: 4.5
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.snowball.money/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

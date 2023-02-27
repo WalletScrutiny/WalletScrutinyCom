@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: FreedaWallet
 social: 
+features: 
 
 ---
 

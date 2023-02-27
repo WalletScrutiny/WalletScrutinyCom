@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.bitcoin.merchant.app/
 - /posts/com.bitcoin.merchant.app/
+features: 
 
 ---
 

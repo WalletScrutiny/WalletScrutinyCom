@@ -11,7 +11,7 @@ released: 2020-01-21
 updated: 2022-10-18
 version: 2.3.0
 stars: 3.3
-reviews: 14
+reviews: 13
 size: '63347712'
 website: https://btc.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: btccom_official
 social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
+features: 
 
 ---
 

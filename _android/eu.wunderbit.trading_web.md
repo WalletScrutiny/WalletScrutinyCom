@@ -28,6 +28,7 @@ twitter: Wunder_bit
 social:
 - https://www.facebook.com/wunderbit.co
 redirect_from: 
+features: 
 
 ---
 

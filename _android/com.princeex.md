@@ -7,8 +7,8 @@ users: 500
 appId: com.princeex
 appCountry: 
 released: Mar 15, 2022
-updated: 2023-01-25
-version: 1.0.6
+updated: 2023-02-13
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

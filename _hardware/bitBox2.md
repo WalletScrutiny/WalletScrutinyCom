@@ -59,6 +59,7 @@ social:
 - https://www.linkedin.com/company/shift-crypto
 - https://www.facebook.com/Shiftcrypto
 - https://www.reddit.com/r/BitBoxWallet
+features: 
 
 ---
 

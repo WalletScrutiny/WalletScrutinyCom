@@ -28,6 +28,7 @@ twitter: indodax
 social: 
 redirect_from:
 - /co.id.dompet.btc.indonesia/
+features: 
 
 ---
 

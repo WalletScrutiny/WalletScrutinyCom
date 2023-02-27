@@ -11,7 +11,7 @@ idd: 1367425342
 released: 2018-05-16
 updated: 2023-01-18
 version: 3.7.0
-stars: 4.6
+stars: 4.5
 reviews: 57
 size: '176125952'
 website: https://fintap.app/
@@ -28,6 +28,7 @@ twitter: ex_scudo
 social:
 - https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
+features: 
 
 ---
 

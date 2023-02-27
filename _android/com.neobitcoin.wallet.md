@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /com.neobitcoin.wallet/
+features: 
 
 ---
 

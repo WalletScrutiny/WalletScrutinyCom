@@ -12,7 +12,7 @@ updated: 2021-08-13
 version: 3.0.1
 stars: 4.2
 ratings: 
-reviews: 3154
+reviews: 3195
 size: 
 website: https://goarbit.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 The app seems to be dysfunctional. We installed it and the first screen advises us to update the app, with no other method to bypass the update reminder. However, the app was last updated on August 2021. 

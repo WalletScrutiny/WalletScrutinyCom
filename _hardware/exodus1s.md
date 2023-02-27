@@ -31,6 +31,7 @@ twitter: htcexodus
 social:
 - https://www.facebook.com/htcexodus
 - https://www.reddit.com/r/HTCExodus
+features: 
 
 ---
 

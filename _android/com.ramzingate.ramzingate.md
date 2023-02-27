@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ramzingate | رمزین گیت بستر مع
+title: رمزینگیت|خرید آنی تتر و رمزارز
 altTitle: 
 authors: 
 users: 1000
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

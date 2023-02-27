@@ -11,7 +11,7 @@ released: 2020-05-15
 updated: 2022-12-24
 version: 3.1.17
 stars: 4.5
-reviews: 13
+reviews: 14
 size: '48773120'
 website: https://simpleswap.io/mobile-app
 repository: 
@@ -27,6 +27,7 @@ twitter: SimpleSwap_io
 social:
 - https://www.facebook.com/SimpleSwap.io
 - https://www.reddit.com/r/simpleswapexchange
+features: 
 
 ---
 

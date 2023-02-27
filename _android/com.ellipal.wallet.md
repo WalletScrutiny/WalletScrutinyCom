@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-07-02
 updated: 2023-01-14
 version: 3.8.0
-stars: 4.3
+stars: 4.2
 ratings: 933
-reviews: 302
+reviews: 312
 size: 
 website: http://www.ellipal.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ellipalclub
 - https://www.reddit.com/r/ELLIPAL_Official
 redirect_from: 
+features: 
 
 ---
 

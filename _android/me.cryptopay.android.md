@@ -9,9 +9,9 @@ appCountry: de
 released: 2017-11-09
 updated: 2023-01-10
 version: 1.44.1
-stars: 4.5
+stars: 4.4
 ratings: 1142
-reviews: 41
+reviews: 43
 size: 
 website: https://cryptopay.me
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/cryptopay
 - https://www.facebook.com/cryptopayme
 redirect_from: 
+features: 
 
 ---
 

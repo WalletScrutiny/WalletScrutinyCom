@@ -33,6 +33,7 @@ twitter: hito_xyz
 social:
 - https://www.facebook.com/wallethito
 - https://www.linkedin.com/company/hito-ai/
+features: 
 
 ---
 

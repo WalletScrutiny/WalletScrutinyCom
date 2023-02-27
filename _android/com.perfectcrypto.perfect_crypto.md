@@ -12,7 +12,7 @@ updated: 2022-01-25
 version: 1.1.6
 stars: 4.6
 ratings: 809
-reviews: 34
+reviews: 31
 size: 
 website: https://perfectcrypto.net/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: irPerfectCrypto
 social: 
 redirect_from: 
+features: 
 
 ---
 

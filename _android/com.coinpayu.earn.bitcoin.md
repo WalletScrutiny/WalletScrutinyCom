@@ -28,6 +28,7 @@ twitter: CoinPayU
 social:
 - https://www.facebook.com/coinpayu
 redirect_from: 
+features: 
 
 ---
 

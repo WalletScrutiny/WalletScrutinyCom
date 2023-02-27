@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
 - https://t.me/pallapay_channel
 redirect_from: 
+features: 
 
 ---
 

@@ -10,8 +10,8 @@ idd: 1354755812
 released: 2018-09-29
 updated: 2023-01-18
 version: 5.0.19
-stars: 3.9
-reviews: 121
+stars: 3.8
+reviews: 110
 size: '391145472'
 website: https://hyperpay.tech
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
+features: 
 
 ---
 

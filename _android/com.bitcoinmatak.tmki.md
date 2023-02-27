@@ -9,9 +9,9 @@ appCountry:
 released: Apr 27, 2022
 updated: 2022-06-22
 version: '4.8'
-stars: 5
+stars: 4.8
 ratings: 
-reviews: 66
+reviews: 19
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

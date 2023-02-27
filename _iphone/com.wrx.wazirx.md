@@ -10,7 +10,7 @@ released: 2018-03-07
 updated: 2023-01-10
 version: 1.26.1
 stars: 4.2
-reviews: 47753
+reviews: 47967
 size: '53696512'
 website: https://wazirx.com
 repository: 
@@ -26,6 +26,7 @@ twitter: WazirxIndia
 social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
+features: 
 
 ---
 

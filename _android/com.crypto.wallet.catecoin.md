@@ -7,7 +7,7 @@ users: 5000
 appId: com.crypto.wallet.catecoin
 appCountry: 
 released: Apr 16, 2022
-updated: 2023-01-26
+updated: 2023-02-22
 version: 2.1.0
 stars: 4.4
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

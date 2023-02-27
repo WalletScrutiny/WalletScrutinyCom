@@ -34,6 +34,7 @@ social:
 - https://www.instagram.com/coldstoragecoins
 - https://www.facebook.com/coldstoragecoins
 - https://github.com/ReardenMetals
+features: 
 
 ---
 

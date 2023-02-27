@@ -10,7 +10,7 @@ appCountry: si
 released: 2017-10-17
 updated: 2023-01-25
 version: 2.5.2
-stars: 4.1
+stars: 4.2
 ratings: 291
 reviews: 154
 size: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/iconomicom
 - https://www.reddit.com/r/ICONOMI
 redirect_from: 
+features: 
 
 ---
 

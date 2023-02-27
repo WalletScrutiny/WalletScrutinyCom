@@ -33,6 +33,7 @@ social:
 - https://www.facebook.com/kingmax.global/
 - https://www.instagram.com/kingmax.global/
 - https://www.youtube.com/channel/UCSt179072OoLbwJtv-qvxWw
+features: 
 
 ---
 

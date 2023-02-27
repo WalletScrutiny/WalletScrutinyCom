@@ -28,6 +28,7 @@ twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS
 redirect_from: 
+features: 
 
 ---
 

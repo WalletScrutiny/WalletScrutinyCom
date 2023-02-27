@@ -12,7 +12,7 @@ updated: 2021-04-23
 version: '1.0'
 stars: 4.6
 ratings: 220
-reviews: 188
+reviews: 187
 size: 
 website: http://crypto-exchange.club
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
+features: 
 
 ---
 

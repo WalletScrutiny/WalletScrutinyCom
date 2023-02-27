@@ -33,6 +33,7 @@ twitter: Prismicide
 social:
 - https://www.linkedin.com/in/frederic2/
 - https://www.youtube.com/channel/UCZ5UcwULpFnUM2I_qAXAEvA
+features: 
 
 ---
 

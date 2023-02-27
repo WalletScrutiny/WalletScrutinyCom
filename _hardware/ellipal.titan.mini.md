@@ -31,6 +31,7 @@ reviewArchive:
 twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub
+features: 
 
 ---
 

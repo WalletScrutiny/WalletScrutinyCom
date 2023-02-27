@@ -28,6 +28,7 @@ reviewArchive:
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
+features: 
 
 ---
 

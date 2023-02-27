@@ -28,6 +28,7 @@ twitter: nakitcoins
 social:
 - https://www.facebook.com/NakitCoins
 redirect_from: 
+features: 
 
 ---
 

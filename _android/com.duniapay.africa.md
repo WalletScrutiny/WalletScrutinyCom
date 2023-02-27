@@ -10,7 +10,7 @@ appCountry:
 released: Oct 2, 2019
 updated: 2022-03-29
 version: 3.0.9
-stars: 4.8
+stars: 4.7
 ratings: 
 reviews: 1
 size: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/TeamDunia/
 - https://www.youtube.com/channel/UCPJXe02QbAg3906lfr4pXzw
 redirect_from: 
+features: 
 
 ---
 

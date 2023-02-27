@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitbay.BitBayPay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-11
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: zondaglobal
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/zondaglobal/
 - https://www.facebook.com/ZondaGlobal/
 - https://www.instagram.com/zondaglobal/
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 10000
 appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04
-updated: 2023-01-11
-version: 2.15.0
+updated: 2023-02-06
+version: 2.16.0
 stars: 4.4
 ratings: 336
-reviews: 10
+reviews: 8
 size: 
 website: https://www.capex.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/capexglobal
 - https://www.facebook.com/CAPEXSeychelles
 redirect_from: 
+features: 
 
 ---
 

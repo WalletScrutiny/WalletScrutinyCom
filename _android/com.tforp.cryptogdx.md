@@ -12,7 +12,7 @@ updated: 2021-05-28
 version: '2.3'
 stars: 4.4
 ratings: 3455
-reviews: 159
+reviews: 158
 size: 
 website: https://trading4pro.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Trading4Pro
 social: 
 redirect_from: 
+features: 
 
 ---
 

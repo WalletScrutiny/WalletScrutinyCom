@@ -9,7 +9,7 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2022-11-22
+updated: 2023-02-02
 version: 3.23.0
 stars: 4
 reviews: 10
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bingbon
 - https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
+features: 
 
 ---
 

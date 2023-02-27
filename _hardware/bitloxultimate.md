@@ -33,6 +33,7 @@ reviewArchive:
 twitter: bitlox
 social:
 - https://www.facebook.com/BitLoxWallet
+features: 
 
 ---
 

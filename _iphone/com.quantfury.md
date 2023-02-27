@@ -11,7 +11,7 @@ released: 2018-12-15
 updated: 2023-01-24
 version: 1.55.3
 stars: 4.5
-reviews: 60
+reviews: 58
 size: '59055104'
 website: https://quantfury.com/
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: quantfury
 social: 
+features: 
 
 ---
 

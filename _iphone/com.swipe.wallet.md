@@ -26,6 +26,7 @@ reviewArchive:
 twitter: SwipeWallet
 social:
 - https://www.facebook.com/Swipe
+features: 
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: xapo
 social:
 - https://www.facebook.com/xapoapp
+features: 
 
 ---
 

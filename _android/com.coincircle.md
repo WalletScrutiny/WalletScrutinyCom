@@ -12,7 +12,7 @@ updated: 2022-02-04
 version: 1.2.24.10222
 stars: 4.5
 ratings: 438
-reviews: 236
+reviews: 238
 size: 
 website: https://coincircle.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
 redirect_from: 
+features: 
 
 ---
 

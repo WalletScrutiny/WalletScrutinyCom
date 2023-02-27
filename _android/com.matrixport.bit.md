@@ -8,9 +8,9 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2023-01-20
-version: 1.3.2
-stars: 3.8
+updated: 2023-02-13
+version: 1.3.3
+stars: 3.7
 ratings: 245
 reviews: 19
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
+features: 
 
 ---
 

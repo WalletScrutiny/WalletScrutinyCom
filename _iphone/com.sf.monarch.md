@@ -11,7 +11,7 @@ released: 2018-06-12
 updated: 2023-01-03
 version: 1.6.19
 stars: 4.7
-reviews: 397
+reviews: 398
 size: '137478144'
 website: https://monarchwallet.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/monarchtoken
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
+features: 
 
 ---
 

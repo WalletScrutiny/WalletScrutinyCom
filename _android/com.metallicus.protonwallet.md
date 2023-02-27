@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/ProtonChain
 - https://github.com/ProtonProtocol
 redirect_from: 
+features: 
 
 ---
 

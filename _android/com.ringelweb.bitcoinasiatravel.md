@@ -12,7 +12,7 @@ updated: 2021-11-23
 version: 2.2.4
 stars: 4.8
 ratings: 
-reviews: 173
+reviews: 172
 size: 
 website: https://bitcoinasia.travel
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bitcoin_asia_btca/
 - https://www.linkedin.com/company/bitcoinasia/
 redirect_from: 
+features: 
 
 ---
 

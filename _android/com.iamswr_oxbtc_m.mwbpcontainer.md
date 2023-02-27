@@ -9,9 +9,9 @@ appCountry:
 released: Aug 23, 2021
 updated: 2021-08-24
 version: 1.3.8
-stars: 2.7
+stars: 2.6
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.oxbtc.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: zaifdotjp
 social:
 - https://www.facebook.com/zaifdotjp
 redirect_from: 
+features: 
 
 ---
 

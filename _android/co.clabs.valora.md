@@ -8,11 +8,11 @@ users: 500000
 appId: co.clabs.valora
 appCountry: 
 released: Aug 31, 2020
-updated: 2023-01-18
-version: 1.49.1
+updated: 2023-01-31
+version: 1.50.0
 stars: 4.4
 ratings: 
-reviews: 281
+reviews: 283
 size: 
 website: https://valoraapp.com
 repository: 
@@ -28,6 +28,7 @@ twitter: valoraApp
 social:
 - https://www.facebook.com/ValoraApp 
 redirect_from: 
+features: 
 
 ---
 This app only supports cash-ins via Celo, cUSD, cEUR, or cREAL. Other mediums include Coinbase Pay, but only for Celo. This app does not support BTC.

@@ -12,7 +12,7 @@ updated: 2022-03-18
 version: 4.18.0
 stars: 3.4
 ratings: 33632
-reviews: 1479
+reviews: 1476
 size: 
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
@@ -45,6 +45,7 @@ social:
 - https://www.facebook.com/brdhq
 - https://www.reddit.com/r/brdapp
 redirect_from: 
+features: 
 
 ---
 

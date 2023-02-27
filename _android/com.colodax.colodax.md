@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/colodax
 - https://www.facebook.com/colodax
 redirect_from: 
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169
 redirect_from: 
+features: 
 
 ---
 

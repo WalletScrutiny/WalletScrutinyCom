@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /io.infinito.wallet/
 - /posts/io.infinito.wallet/
+features: 
 
 ---
 

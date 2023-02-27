@@ -11,7 +11,7 @@ released: 2018-02-19
 updated: 2022-12-01
 version: '3.25'
 stars: 4.7
-reviews: 698
+reviews: 696
 size: '199983104'
 website: https://bitso.com/app
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Bitso
 social:
 - https://www.facebook.com/bitsoex
+features: 
 
 ---
 

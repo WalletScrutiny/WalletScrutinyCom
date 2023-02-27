@@ -11,7 +11,7 @@ released: 2020-07-06
 updated: 2023-01-19
 version: 2.0.11
 stars: 4.6
-reviews: 4330
+reviews: 4323
 size: '72166400'
 website: https://bitoasis.net/en/home
 repository: 
@@ -27,6 +27,7 @@ twitter: bitoasis
 social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
 - https://www.facebook.com/bitoasis
+features: 
 
 ---
 
