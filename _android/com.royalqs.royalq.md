@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: RoyalQ
 title: Royal Q
 altTitle: 
 authors:

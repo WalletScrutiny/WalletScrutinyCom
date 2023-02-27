@@ -37,5 +37,5 @@ This is related to the following apps:
 
 - {% include walletLink.html wallet='android/com.cryptofarm' verdict='true' %}
 - {% include walletLink.html wallet='android/pro.cryptotab.android' verdict='true' %}
-- {% include walletLink.html wallet='android/pro.cryptobrowser.ios' verdict='true' %}
+- {% include walletLink.html wallet='iphone/pro.cryptobrowser.ios' verdict='true' %}
 - {% include walletLink.html wallet='android/lite.cryptotab.android' verdict='true' %}

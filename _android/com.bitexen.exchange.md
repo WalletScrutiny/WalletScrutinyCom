@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: Bitexen
 title: Bitexen - Trade Bitcoin and Altcoin
 altTitle: 
 authors:
@@ -40,7 +40,7 @@ As of 2023-02-01, the website is now accessible. It is primarily a Turkish websi
 
 > The user accepts that he will not hold Bitexen responsible if his membership is not approved and/or terminated due to not providing the necessary information and documents and/or updating the necessary information and documents immediately. The User shall be liable for all damages, including the indirect damages that Bitexen may suffer due to incomplete or untrue information provided by the User to Bitexen/Site, or if it is out of date/outdated.
 
-It conducts KYC and ID checks. We were also not able to find a way to backup the seedp phrases. 
+It conducts KYC and ID checks. We were also not able to find a way to backup the seed phrases. 
 
 This is a **custodial service**.
 
