@@ -1,0 +1,18 @@
+<div class="steps" id="results">
+  <div class="step application-build">
+    {% if page.verdict == 'reproducible' %}
+    <i class="i-reproducible circle"></i>
+    {% else %}
+    <i class="fas fa-exclamation-triangle circle"></i>
+    {% endif %}
+    <div class="title">
+      <h2>Application build test result</h2>
+      <p>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="section">
+  {{ content }}
+  {% include /review/byAuthor.html %}
+</div>

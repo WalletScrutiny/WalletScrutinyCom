@@ -77,7 +77,7 @@ window.platformObs.reverse()
 
 window.platforms = {
   iphone: {
-    css: 'fab fa-app-store',
+    css: 'i-app-store',
     category: 'App Store'
   },
   android: {
@@ -97,7 +97,7 @@ window.platforms = {
     category: 'Hardware Wallet'
   },
   bearer: {
-    css: 'fab fa-bitcoin',
+    css: 'i-btc',
     category: 'Bearer Token'
   }
 }

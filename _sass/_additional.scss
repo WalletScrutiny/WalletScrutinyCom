@@ -101,7 +101,7 @@
   &::after {
     content: attr(data-text);
     color: var(--text);
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
   &::before {
     content: "";
@@ -111,6 +111,7 @@
     border-radius: 5px;
     box-shadow: 0 0 5px -1.5px;
     margin-right: 5px;
+    display: none;
   }
   &.stamp-reproducible {
     &::before {
@@ -122,7 +123,8 @@
       border-radius: 5px;
       box-shadow: 0 0 5px var(--accent);
       margin-right: 5px;
-    }
+      display: none;
+  }
   }
 }
 

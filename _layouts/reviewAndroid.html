@@ -27,50 +27,9 @@ layout: default
             {% else %}
               {{ page.title }}
             {% endif %}
-           <!-- <span class="version" title="version {{ page.version }}">
-              {% if page.version != 'VARY' %}
-              v
-            {% endif %}
-            {{ page.version }}</span> -->
           </h1>
 
-          
-
-          <!-- <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
-            data="{{ page.updated | date: '%s' }}">
-            {{ page.updated | date_to_long_string: "ordinal" }}
-          </span>)</span>
-
-          <span>🔍 Last analysed
-            <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
-              data="{{ page.date | date: '%s' }}">
-              {{ page.date | date_to_long_string: "ordinal" }}
-            </span>.
-          </span> -->
-
-
-            <!-- 
-          {% if page.meta != "outdated" %}
-            {% include verdictBadge.html verdict=page.verdict type='medium' %}
-          {% endif %}
-          {% if page.meta != "ok" %}
-            {% include verdictBadge.html verdict=page.meta type='medium' %}
-          {% endif %}
-
-          {% assign v=site.data.verdicts[page.verdict]
-            %}<p class="verdict-message">{{ v.message }}</p> 
-
-          <div class="social-row">
-            <ul>
-              <li
-                title='Link to {{ page.title | replace: "'", " " }} on the Play Store'>
-                <a title="Play store" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web">
-                  <i class="fab fa-google-play"></i>
-                </a>
-              </li>
-              {% include /review/providerSocial.html %}
-            </ul>
-          </div>-->
+  
 
           <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">
             <i class="fab fa-google-play"></i> Google Play
@@ -91,101 +50,6 @@ layout: default
 
         </div>
 
-        <!-- END OF PAGE HEAD -->
-
-        <!--
-        <div class="app-payload-flex">
-
-          {% if page.verdict == "reproducible" %}
-            <div class="svg {{ page.verdict }}"></div>
-          {% endif %}
-
-          {% if page.stars > 0 %}
-          <div title="Rated {{ page.stars }}/5 stars">
-            <label>
-              <i class="fab fa-google-play"></i>&nbsp;Play Store ({{ page.appCountry | default: "us" }})
-            </label>
-            <div>
-              {{ page.stars }}
-              <span class="star-rating"
-                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
-            </div>
-
-            {% if page.ratings %}
-              <span class="label-lower">{{ page.ratings }} ratings</span>
-            {% endif %}
-
-          </div>
-          {% endif %}
-
-          <div title="Downloaded over {{ page.users }} times. (Latest version: {{ page.version }})">
-            <label>
-              <i class="fas fa-download"></i>&nbsp;Downloads
-            </label>
-            <div>
-              <span class="humanised-numbers"><i class="fas fa-chevron-right"></i>
-                {% assign s = page.users %}
-                {% if s > 999999999 %}
-                  {{ s | remove_first: '000000000' }} <span class="numb secondary-text">billion</span>
-                {% elsif s > 999999 %}
-                  {{ s | remove_first: '000000' }} <span class="numb secondary-text">million</span>
-                {% elsif s > 999 %}
-                  {{ s | remove_first: '000' }} <span class="numb secondary-text">thousand</span>
-                {% else %}
-                  {{ s }}
-                {% endif %}
-              </span>
-            </div>
-          </div>
-
-          {% if page.released %}
-          <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
-
-            <label>
-              <i class="fas fa-rocket"></i>&nbsp;Launched
-            </label>
-
-            <div>
-              <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
-                {{ page.released | date_to_long_string: "ordinal" }}
-              </span>
-            </div>
-          </div>
-          {% endif %}
-
-          {% if page.version %}
-          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}">
-            <label>
-              <i class="fas fa-history"></i>&nbsp;Latest Release
-            </label>
-            <div>
-              <span>
-                {% if page.version != 'VARY' %}
-                  <span class="secondary-text">v</span>
-                {% endif %}
-                {{ page.version }}</span>
-            </div>
-            <span class="calculate-time-elapsed label-lower" data="{{ page.updated | date: '%s' }}">
-              {{ page.updated | date_to_long_string: "ordinal" }}
-            </span>
-          </div>
-          {% endif %}
-
-          {% if page.date %}
-          <div title="Latest Analysis: {{ page.date | date_to_long_string: 'ordinal' }}">
-            <label>
-              <i class="fas fa-history"></i>&nbsp;Latest Analysis
-            </label>
-            <div>
-              <span>{{ page.date | date_to_long_string: "ordinal" }}</span>
-            </div>
-            <span class="calculate-time-elapsed label-lower" data="{{ page.date | date: '%s' }}">
-              {{ page.updated | date_to_long_string: "ordinal" }}
-            </span>
-          </div>
-          {% endif %}
-          
-        </div>-->
       </div>
 
       <div class="security-overview">
@@ -194,41 +58,30 @@ layout: default
 
         <div class="spacer"></div>
 
-        <div class="steps">
-          <div class="step">
-            <i class="i-person circle"></i>
-            <div class="title">
-              <h3>Developer</h3>
-              <p>
-              {% if page.developerName %}
-                {{page.developerName}}
-              {% endif %}
-              </p>
-            </div>
-            <div class="data">
-              {% if page.website %}
-                <a href="{{page.website}}" title="Website">Website</a>
-              {% endif %}
-            </div>
-          </div>
-        </div>
+        {% include /review/securitySteps.html %}
+
+        <div class="see-also"></div>
+
+        <div class="spacer x2"></div>
+
+        {% include /review/results.html %}
+
+        {% include /review/archive.html %}
+
+        <div class="spacer x2"></div>
+
       </div>
 
-      {% assign title = page.altTitle | default: page.title %}
+      
 
-      {% include verdict_explained.html %}
-      {% include /review/archive.html %}
-      <!-- {% include /review/tweetAtProvider.html %} -->
-
-      <h1 id="analysis">The Analysis&nbsp;<a href="#analysis" style="color:#ccc">&para;</a></h1>
-
-      <section class="page__content" itemprop="text">
-        <p><i class="fas fa-exclamation-triangle"></i>&nbsp;This does not represent a full code review.</p>
-        {{ content }}
-        {% include /review/byAuthor.html %}
-      </section>
+      <div class="article-after disclaimer">
+        {% include /review/disclaimer.html %}
+        {% include /review/ownResearch.html %}
+      </div>
 
       {% if page.share %}
+      <div class="spacer x2"></div>
+
         <div class="tab-view">
           <div class="labels">
             <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
@@ -241,12 +94,6 @@ layout: default
         </div>
       {% endif %}
 
-      <div class="article-after">
-        <!-- <div>{% include /review/disclaimer.html %}</div> -->
-        <div>{% include /review/ownResearch.html %}</div>
-        
-        
-      </div>
     </div>
   </article>
 </div>

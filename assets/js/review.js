@@ -19,7 +19,7 @@ function elapsedTime(ts, secondary) {
   for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
-      return `(${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago)</span>`
+      return `${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>`
   }
   return `<span ${sec}>today</span>`
 }
@@ -30,20 +30,16 @@ function verdictBadge(v) {
 
 function walletLink(w) {
   return `
-  <label>
-    <i class="${getIcon(w.folder)}"></i>&nbsp;Also for ${w.folder}
-  </label>
-  <div>
+  <div class="also-for">
     <a href="${w.url}">
       <img class="app_logo ${w.folder}"
       src="/images/wIcons/${w.folder}/tiny/${w.icon}"
-      alt="Wallet Logo">${w.altTitle || w.title}<i class="fas fa-chevron-right"></i></a>
+      alt="Wallet Logo">
+      <span>${w.altTitle || w.title}</span>
+      <span><i class="${window.platforms[w.folder].css}"></i>&nbsp;${window.platforms[w.folder].category}</span>
+      </a>
   </div>
-  <span>
-    <div class="stamps">
-      <span data-text="${w.verdict}" class="stamp stamp-${w.verdict}" alt=""></span>
-    </div>
-  </span>`
+  `
 }
 
 if (window.wsId) {
@@ -70,8 +66,9 @@ if (window.wsId) {
     }
     if (html.length > 0) {
       const htmlEle = document.createElement("div")
+      htmlEle.classList.add("see-also-container")
       htmlEle.innerHTML = html
-      document.querySelector(".app-payload-flex").append(htmlEle)
+      document.querySelector(".see-also").replaceWith(htmlEle)
     }
   })
 }

@@ -1,14 +1,14 @@
 {% if page.reviewArchive %}
-<div id="reviews" style="display:none">
-  <h1>Older Reviews</h1>
-  <table>
+
+  <h3>Previous application build tests</h3>
+  <table class="previous-build-test-results truncated" id="resultsArchive">
     {% assign total = 0 %}
     {% assign good = 0 %}
-    <tr>
+    <!-- <tr>
       <th>Date</th>
       <th>Version</th>
       <th>Verdict</th>
-    </tr>
+    </tr> -->
     {% for review in page.reviewArchive %}
     {% if review.verdict == "reproducible" %}
     {% assign good = good | plus:1 %}
@@ -22,6 +22,8 @@
     </tr>
     {% endfor %}
   </table>
-</div>
-<h1 id="collapsedReviews"><a onclick="$('#reviews').show();$('#collapsedReviews').hide()">Show Older Reviews</a></h1>
+
+  {% if total >= 3 %}
+    <a href="#resultsArchive" onclick="document.querySelector('.previous-build-test-results').classList.remove('truncated');this.style.display='none';">Show more</a>
+  {% endif %}
 {% endif %}

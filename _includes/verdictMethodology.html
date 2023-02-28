@@ -1,11 +1,11 @@
 <div class="verdictMethodology">
 <div class="verdict-methodology-head">
   <h2>{{ site.data.verdicts[include.verdict].question }}</h2>
-  <div class="badge">{% include verdictBadge.html verdict=include.verdict type='short' %}</div>
+  <!-- <div class="badge">{% include verdictBadge.html verdict=include.verdict type='short' %}</div> -->
 </div>
 If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".
 
-<div class="details">
+<div class="details truncated">
 {{ site.data.verdicts[include.verdict].details | markdownify }}
 {% if site.data.verdicts[include.verdict].redflag and page.url != "/methodology/" %}
   <strong>The product cannot be independently verified. If the provider puts your funds at
@@ -17,4 +17,5 @@ If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verd
   point on, with nobody outside ever knowing before it is too late.</strong>
 {% endif %}
 </div>
+<script>document.querySelector(".details.truncated").addEventListener("click", ()=>{document.querySelector(".details.truncated").classList.remove('truncated')})</script>
 </div>

@@ -1,72 +1,6 @@
 /* GENERAL STYLES */
 
-:root, .light {
-  --accent: rgb(97, 200, 97);
-  --accent-text: #4da84d;
-  --rust: #af2900;
-  --indifferent: #3d506d;
-  --shadow-3: rgba(0, 0, 0, 0.3);
-  --shadow-2: rgba(0, 0, 0, 0.2);
-  --shadow-1: rgba(0, 0, 0, 0.05);
-  --light-grey: #fafafa;
-  --white: #fff;
-  --dark-grey: #222;
-  --nav: #e3e3e3;
-  --nav-contrast: #dfdfdf;
-  --body: #eee;
-  --body-50: rgba(238, 238, 238, .6);
-  --transparent: rgba(238, 238, 238, 0);
-  --text: #424242;
-  --gauze: rgba(255, 255, 255, 0.7);
-  --cb-red: #880000;
-  --permanent-black: #333;
-  --permanent-white: #fafafa;
-  --green-notify-background: #b5fdb5;
-  --red-notify-background: #fdb5b5;
-  --blue-notify-background: #d0d0ff;
-  --gold: #ff9b00;
-  --blue: #003395;
-  --light-blue: #0064ff;
-  --reproducible-badge: url(/images/reproducible-2-dark.svg);
-  --masthead-text: #000;
-}
 
-.light {
-  --hide-light: none;
-  --hide-dark: unset;
-}
-
-.dark {
-  --accent: rgb(97, 200, 97);
-  --accent-text: #4da84d;
-  --rust: #b32a00;
-  --indifferent: #5b82bf;
-  --shadow-3: rgba(255, 255, 255, 0.2);
-  --shadow-2: rgba(255, 255, 255, 0.1);
-  --shadow-1: rgba(255, 255, 255, 0.05);
-  --light-grey: #222;
-  --nav: #000;
-  --nav-contrast: #000;
-  --white: #232323;
-  --dark-grey: #fafafa;
-  --body: #111;
-  --body-50: rgba(17, 17, 17, .6);
-  --transparent: rgba(17, 17, 17, 0);
-  --text: #d2d2d2;
-  --hide-dark: none;
-  --hide-light: unset;
-  --gauze: rgba(0, 0, 0, 0.7);
-  --cb-red: #df7d00;
-  --permanent-black: #000;
-  --permanent-white: #e2e2e2;
-  --green-notify-background: #00b900;
-  --red-notify-background: #b90000;
-  --blue-notify-background: #101040;
-  --gold: #ffb300;
-  --blue: #a0b6f9;
-  --reproducible-badge: url(/images/reproducible-2-light.svg);
-  --masthead-text: #fff;
-}
 
 body, input {
   color: var(--text)
@@ -212,9 +146,13 @@ body.modal-open {
 
 .code-block-holder {
   background: var(--light-grey);
-  padding: 0px 1rem 1rem 1rem;
+  padding: 20px;
   margin: 1rem 0;
   border-radius: .5rem;
+  max-width: 860px;
+  font-family: 'Monaco';
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .copy_to_clipboard {
@@ -230,11 +168,6 @@ body.modal-open {
 
 .copy_to_clipboard:hover, .copy_to_clipboard:active {
   box-shadow: 0px 4px 6px 0px var(--shadow-3);
-}
-
-pre.highlight code {
-  font-size: 14px;
-  line-height: 1rem;
 }
 
 .cb {
