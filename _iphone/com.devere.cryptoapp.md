@@ -19,8 +19,8 @@ issue:
 icon: com.devere.cryptoapp.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2022-06-23
+verdict: nosendreceive
+date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: deveregroup

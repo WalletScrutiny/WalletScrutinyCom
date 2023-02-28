@@ -2,7 +2,8 @@
 wsId: devereCrypto 
 title: deVere Crypto
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.devere.dcx
 appCountry: 
@@ -29,6 +30,32 @@ social:
 redirect_from: 
 
 ---
+
+## Updated Review 2023-02-28
+
+Successfully passed KYC for devere. 
+There were no noticeable changes in functionalities.
+
+The possibly custodial wallet still has no receiving capability.
+
+The way it works is this: 
+
+- Fund the fiat account 'wallet' using bank
+- Buy bitcoin from the platform using fiat wallet.  
+- No bitcoin addresses are generated on the app.
+- The 'Sending' option (bitcoin) requires that the "bitcoin wallet" is funded.
+- If the "bitcoin wallet" is not funded, it will not show the form/interface for sending the bitcoin
+
+My suspicion's are:
+
+- The app custodies a wallet with more control to limit functions
+- This reflects the fact that the wallet does not have a receive function
+- It can only send with the approval of the platform
+- Support is not responsive
+
+I would conclude that the verdict remains the same.
+
+## Previous Review 2022-12-06
 
 > Use the deVere Crypto wallet to easily and securely buy, sell transfer and exchange Crypto-Currencies…. Effectively managing your digital money!
 >
