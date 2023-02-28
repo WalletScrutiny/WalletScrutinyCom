@@ -24,14 +24,22 @@ issue:
 icon: crayonic.keyvault.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-02-09
+verdict: nowallet
+date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: crayonic_com
 social: 
 - https://www.linkedin.com/company/crayonic/ 
 ---
+
+## Updated Review 2023-02-28
+
+Pavol Schmitzer, the former Chief Commercial Officer of Crayonic, gave us an update: 
+
+> Thanks for reaching out. Crayonic decided to focus on other use cases than the crypto-related ones. But you can try and contact Peter Kolarov, Founder and CEO to see if there is an overlap with what you do. Wishing you all the best.
+
+## Previous Review 2023-02-06
 
 ## Product Description 
 
