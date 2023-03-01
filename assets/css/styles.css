@@ -1058,7 +1058,7 @@ table tr td label {
 }
 
 .secondary-text {
-  opacity: .5;
+  color: var(--neutral-3);
 }
 
 .social-row {

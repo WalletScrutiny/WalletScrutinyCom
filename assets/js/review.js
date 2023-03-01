@@ -3,11 +3,14 @@ for (let i = 0; i < dateFields.length; i++) {
   const instance = dateFields[i]
   let t = instance.getAttribute("data")
   const secondary = (instance.classList.contains("sec") || instance.classList.contains("secondary")) ? true : false
-  dateFields[i].innerHTML = elapsedTime(t, secondary)
+  const brackets = (instance.classList.contains("brackets") || instance.classList.contains("brackets")) ? true : false
+  dateFields[i].innerHTML = elapsedTime(t, secondary, brackets)
 }
 
-function elapsedTime(ts, secondary) {
+function elapsedTime(ts, secondary, brackets) {
   const sec = secondary ? 'class="secondary-text"' : ''
+  let bra = brackets ? ['(',')'] : ['','']
+
   const nowTs = new Date().getTime() / 1000
   var dt = Math.floor((nowTs - ts) / 60 / 60 / 24) // time elapsed in days
   const options = {
@@ -19,7 +22,8 @@ function elapsedTime(ts, secondary) {
   for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0)
-      return `${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>`
+      bra = k==='year' ?  ['(<span class="warn">','</span>)'] : bra
+      return `${bra[0]}${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>${bra[1]}`
   }
   return `<span ${sec}>today</span>`
 }

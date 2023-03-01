@@ -251,6 +251,9 @@
 .capitalise {
   text-transform: capitalize;
 }
+.lower{
+  text-transform: lowercase;
+}
 .steps {
   font-size: 17px;
   &.linked {
@@ -497,3 +500,8 @@
     }
   }
 }
+// .calculate-time-elapsed{
+  .warn{
+    color: var(--orange);
+  }
+// }

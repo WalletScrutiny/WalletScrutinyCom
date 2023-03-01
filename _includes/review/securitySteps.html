@@ -45,10 +45,13 @@
       <p>
       {% if page.keyOwnershipVerdict %}
         {{page.keyOwnershipVerdict}}
-      {% elsif page.meta != "outdated" %}
-        {% include verdictBadge.html verdict=page.verdict type='short' %}
-      {% elsif page.meta != "ok" %}
-        {% include verdictBadge.html verdict=page.meta type='short' %}
+      {% else %}
+        {{ site.data.verdicts[page.verdict].short }}
+      {% endif %}
+      {% if page.meta != "ok" %}
+        <p class="warn">However, 
+          <span class="lower">{{ site.data.verdicts[page.meta].message }}</span>
+        </p>
       {% endif %}
       </p>
       {% include verdict_explained.html %}
