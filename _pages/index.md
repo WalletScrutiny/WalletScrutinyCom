@@ -20,7 +20,8 @@ function lsTest(){
     }
 }
 </script>
-
+<style>
+</style>
 <div class="page-section">
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
 <div style="width:100%;text-align:center;">

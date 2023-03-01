@@ -124,7 +124,7 @@
       box-shadow: 0 0 5px var(--accent);
       margin-right: 5px;
       display: none;
-  }
+    }
   }
 }
 
@@ -165,4 +165,12 @@
   &.social-row {
     margin-top: 0px;
   }
+}
+
+.page__inner-wrap {
+  &:not(.home) {
+    max-width: 860px;
+  }
+  margin: auto !important;
+  float: unset !important;
 }

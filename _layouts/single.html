@@ -43,7 +43,12 @@ layout: default
     {% if page.modified %}
     <meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="page__inner-wrap">
+    {% if page.url == "/" %}
+    {% assign class = 'home' %}
+    {% else %}
+    {% assign class = '' %}
+    {% endif %}
+    <div class="page__inner-wrap {{class}}">
       {% if page.url != "/" %}
       <header>
         {% if page.title %}<h1 class="page__title" itemprop="headline">
