@@ -110,4 +110,6 @@ Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' ve
 
 The device needs to be paired with {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %} in order to function. 
 
+We verified with OneKey support whether the seed phrases are encrypted, they [responded](https://twitter.com/OneKey_Support/status/1630986937027956736) and said that it was.
+
 It requires the use of an NFC capable phone that has the app installed.
