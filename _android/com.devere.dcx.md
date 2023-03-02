@@ -31,6 +31,18 @@ redirect_from:
 
 ---
 
+## Updated Review 2023-03-02
+
+DeVere Support responded to our email:
+
+> The deVere Crypto app is a closed loop system.
+> 
+> Once cannot send / receive cryptocurrency from external wallets.
+> 
+> The option to send within the app, would be to another deVere Crypto user. KYC would be required.
+>
+> Let us know if you have any other questions.
+
 ## Updated Review 2023-02-28
 
 Successfully passed KYC for devere. 
