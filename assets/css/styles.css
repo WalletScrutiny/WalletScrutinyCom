@@ -879,8 +879,9 @@ table tr td label {
   width: 100%;
 }
 
-#gridOfWallets1 tr:hover, #gridOfWallets2 tr:hover {
-  box-shadow: 0px 7px 15px -3px var(--permanent-black, rgba(0, 0, 0, 0.3)), 0px -5px 15px -10px var(--permanent-white);
+#gridOfWallets1 tr:hover count, #gridOfWallets2 tr:hover count {
+  color: var(--accent-text);
+  /* box-shadow: 0px 7px 15px -3px var(--permanent-black, rgba(0, 0, 0, 0.3)), 0px -5px 15px -10px var(--permanent-white); */
 }
 
 #gridOfWallets2 img.app_logo {
