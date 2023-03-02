@@ -22,7 +22,7 @@ function lsTest(){
 </script>
 <style>
 </style>
-<div class="page-section">
+<!-- <div class="page-section">
 <h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
 <div style="width:100%;text-align:center;">
 <img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
@@ -38,7 +38,7 @@ function lsTest(){
   To understand in more detail read about <a title="our methodology"
   href="{{ base_path }}/methodology/">our methodology</a>.
 </p>
-</div>
+</div> -->
 
 <div class="title-wrapper">
 <h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>

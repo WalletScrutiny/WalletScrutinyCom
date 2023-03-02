@@ -893,11 +893,11 @@ table tr td label {
   .page {
     padding-left: 0% !important;
     padding-right: 0% !important;
-    width: 90vw !important;
+    width: 95vw !important;
   }
 
   .app-review .page {
-    margin-top: 1rem;
+    margin-top: 40px;
   }
 
   .hero-banner {
