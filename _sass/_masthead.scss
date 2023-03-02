@@ -301,7 +301,8 @@
     }
     .mobile-search-shortcut {
       @media(max-width:500px){
-        display: none;
+        opacity: 0;
+        pointer-events: none;
       }
       display: block;
       height: 2rem;

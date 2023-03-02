@@ -5,6 +5,7 @@
 $(document).ready(function(){
    // Sticky footer
   var bumpIt = function() {
+      $("body").setAttribute("_margin-bottom", $(".page__footer").outerHeight(true));
     },
     didResize = false;
 
