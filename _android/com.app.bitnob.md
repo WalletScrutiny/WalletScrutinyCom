@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-05-25
 updated: 2023-02-22
 version: 1.0.126
-stars: 4
+stars: 3.8
 ratings: 275
-reviews: 21
+reviews: 23
 size: 
 website: https://bitnob.com
 repository: 

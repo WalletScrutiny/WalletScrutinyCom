@@ -8,11 +8,11 @@ users: 1000000
 appId: io.cex.app.prod
 appCountry: 
 released: 2015-12-22
-updated: 2023-02-20
+updated: 2023-03-03
 version: VARY
 stars: 4.1
 ratings: 16669
-reviews: 1666
+reviews: 1704
 size: 
 website: https://cex.io
 repository: 

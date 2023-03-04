@@ -10,9 +10,9 @@ appCountry: gb
 released: 2017-10-04
 updated: 2023-02-06
 version: 2.16.0
-stars: 4.4
+stars: 4.3
 ratings: 336
-reviews: 8
+reviews: 7
 size: 
 website: https://www.capex.com
 repository: 

@@ -11,7 +11,7 @@ updated: 2022-12-15
 version: 1.9.1
 stars: 3.9
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: https://getbabb.com/
 repository: 

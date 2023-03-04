@@ -3,12 +3,12 @@ wsId:
 title: 'DIFX Exchange : Buy Crypto'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: app.difx.exchange
 appCountry: 
 released: 
-updated: 2023-01-29
-version: 4.1.7
+updated: 2023-03-03
+version: 5.0.1
 stars: 
 ratings: 
 reviews: 

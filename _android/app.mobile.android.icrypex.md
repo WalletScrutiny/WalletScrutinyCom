@@ -8,8 +8,8 @@ users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
 released: Sep 2, 2021
-updated: 2022-12-27
-version: 1.6.1
+updated: 2023-02-27
+version: 1.6.2
 stars: 4.3
 ratings: 
 reviews: 6

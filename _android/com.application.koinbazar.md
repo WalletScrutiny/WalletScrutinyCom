@@ -12,7 +12,7 @@ updated: 2023-02-20
 version: 2.0.1
 stars: 3.7
 ratings: 7090
-reviews: 2654
+reviews: 2660
 size: 
 website: https://www.koinbazar.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: bitay
-title: Bitay | Bitcoin & 100+ Altcoin
+title: Bitay | Bitcoin & 200+ Altcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.app.bitay
 appCountry: us
 released: 2019-04-15
-updated: 2023-01-11
-version: 3.1.15
-stars: 4.2
+updated: 2023-03-02
+version: 3.1.18
+stars: 4.1
 ratings: 5765
-reviews: 19
+reviews: 17
 size: 
 website: https://bitay.com.tr
 repository: 

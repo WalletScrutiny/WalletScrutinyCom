@@ -9,9 +9,9 @@ appCountry:
 released: Jan 7, 2022
 updated: 2023-02-08
 version: 1.2.7
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 7
+reviews: 6
 size: 
 website: https://cakewallet.com
 repository: 

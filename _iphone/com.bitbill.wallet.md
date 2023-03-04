@@ -11,7 +11,7 @@ released: 2018-02-07
 updated: 2022-12-15
 version: 4.39.0
 stars: 4.4
-reviews: 52
+reviews: 51
 size: '124878848'
 website: http://www.bitbill.com
 repository: 
