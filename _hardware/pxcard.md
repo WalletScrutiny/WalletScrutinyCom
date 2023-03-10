@@ -38,4 +38,6 @@ As of this review, it does not have an official store page yet.
 
 {{ page.title }} does not have a screen or buttons for confirming transactions and it appears to be able to connect via NFC. 
 
-Verdict: Unreleased.
+## Verdict 
+
+This is not yet released.
