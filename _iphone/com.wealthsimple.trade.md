@@ -8,11 +8,11 @@ appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
 released: 2019-02-26
-updated: 2023-02-27
-version: 2.79.0
+updated: 2023-03-06
+version: 2.80.0
 stars: 4.7
-reviews: 123638
-size: '181411840'
+reviews: 123652
+size: '184535040'
 website: https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 

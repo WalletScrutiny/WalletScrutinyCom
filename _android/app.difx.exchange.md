@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://app.difx.io
+website: https://app.difx.com
 repository: 
 issue: 
 icon: app.difx.exchange.png

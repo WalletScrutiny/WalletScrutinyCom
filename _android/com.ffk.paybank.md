@@ -7,8 +7,8 @@ users: 5000
 appId: com.ffk.paybank
 appCountry: 
 released: Sep 19, 2019
-updated: 2022-02-25
-version: 2.6.3
+updated: 2023-03-10
+version: 2.6.5
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ffk.paybank.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2023-02-24
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

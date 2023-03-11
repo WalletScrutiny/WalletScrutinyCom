@@ -7,8 +7,8 @@ users: 50000
 appId: io.masterbank.app
 appCountry: 
 released: Oct 29, 2021
-updated: 2023-02-27
-version: 0.9.8
+updated: 2023-03-08
+version: 0.9.11
 stars: 4.7
 ratings: 
 reviews: 14

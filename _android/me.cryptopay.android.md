@@ -8,10 +8,10 @@ appId: me.cryptopay.android
 appCountry: de
 released: 2017-11-09
 updated: 2023-02-23
-version: 1.44.1
-stars: 4.4
+version: 1.45.1
+stars: 4.3
 ratings: 1142
-reviews: 44
+reviews: 45
 size: 
 website: https://cryptopay.me
 repository: 

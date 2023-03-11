@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-19
 updated: 2023-03-02
 version: 1.49.1.1
-stars: 4
+stars: 4.1
 ratings: 6161
-reviews: 313
+reviews: 314
 size: 
 website: https://www.probit.com
 repository: 

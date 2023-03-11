@@ -8,8 +8,8 @@ users: 50000
 appId: com.mxc.smartcity
 appCountry: us
 released: 2020-05-18
-updated: 2023-01-23
-version: 5.0.4
+updated: 2023-03-03
+version: 5.0.6
 stars: 3.6
 ratings: 1945
 reviews: 95

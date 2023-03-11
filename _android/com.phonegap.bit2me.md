@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 2.4.1
 stars: 4.4
 ratings: 5162
-reviews: 323
+reviews: 322
 size: 
 website: https://bit2me.com
 repository: 
