@@ -26,6 +26,7 @@ reviewArchive:
 twitter: skyewallet
 social: 
 features: 
+developerName: Skye Innovation Technology Limited
 
 ---
 

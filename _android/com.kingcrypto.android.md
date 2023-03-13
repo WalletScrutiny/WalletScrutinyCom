@@ -3,7 +3,7 @@ wsId:
 title: King Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.kingcrypto.android
 appCountry: 
 released: Oct 17, 2021

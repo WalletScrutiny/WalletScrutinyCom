@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-25
 updated: 2019-04-29
 version: 3.50.1
-stars: 2.9
+stars: 2.8
 ratings: 648
-reviews: 117
+reviews: 118
 size: 
 website: https://cobinhood.com
 repository: 

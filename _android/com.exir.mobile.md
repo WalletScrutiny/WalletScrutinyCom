@@ -9,9 +9,9 @@ appCountry:
 released: Nov 12, 2020
 updated: 2023-02-23
 version: 1.2.4
-stars: 3.5
+stars: 3.6
 ratings: 
-reviews: 14
+reviews: 13
 size: 
 website: 
 repository: 

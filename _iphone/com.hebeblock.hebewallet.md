@@ -26,6 +26,7 @@ reviewArchive:
 twitter: BlockHebe
 social: 
 features: 
+developerName: Hebeblock Co., Ltd.
 
 ---
 

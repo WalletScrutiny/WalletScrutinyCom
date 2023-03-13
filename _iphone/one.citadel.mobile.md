@@ -8,11 +8,11 @@ appId: one.citadel.mobile
 appCountry: us
 idd: '1546701475'
 released: '2021-04-06T07:00:00Z'
-updated: 2023-02-11
-version: 2.6.3
+updated: 2023-03-10
+version: 2.7.0
 stars: 3.4
 reviews: 5
-size: '94906368'
+size: '95420416'
 website: https://citadel.one/
 repository: https://github.com/citadeldao
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://www.linkedin.com/company/citadel-one/
 - https://www.facebook.com/Citadel.One
 features: 
+developerName: Citadel.one LTD
 
 ---
 

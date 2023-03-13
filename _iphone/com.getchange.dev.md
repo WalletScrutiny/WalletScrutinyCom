@@ -8,8 +8,8 @@ appId: com.getchange.dev
 appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2023-02-25
-version: 20.38.1
+updated: 2023-03-09
+version: 30.38.2
 stars: 4.1
 reviews: 33
 size: '119922688'
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/changeinvest
 - https://www.facebook.com/changeinvest
 features: 
+developerName: xChange AS
 
 ---
 

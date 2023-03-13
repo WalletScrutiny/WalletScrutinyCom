@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
 features: 
+developerName: CaspianTechnologies
 
 ---
 

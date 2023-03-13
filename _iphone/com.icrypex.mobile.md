@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 features: 
+developerName: 
 
 ---
 

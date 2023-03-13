@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinTigerEX
 - https://www.reddit.com/r/CoinTigerExchange
 features: 
+developerName: 
 
 ---
 

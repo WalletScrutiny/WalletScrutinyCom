@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
 features: 
+developerName: Cake DeFi
 
 ---
 

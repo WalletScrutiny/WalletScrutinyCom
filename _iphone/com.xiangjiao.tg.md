@@ -29,6 +29,7 @@ social:
 - https://medium.com/bananatok
 - https://www.instagram.com/bananatok_official/
 features: 
+developerName: 
 
 ---
 

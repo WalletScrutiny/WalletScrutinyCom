@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/payperlesscom/
 - https://www.instagram.com/payperlesscom/
 features: 
+developerName: Payperless OÜ
 
 ---
 

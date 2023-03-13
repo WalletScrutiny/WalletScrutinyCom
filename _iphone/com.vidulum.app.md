@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/VidulumTeam
 - https://www.reddit.com/r/VidulumOfficial
 features: 
+developerName: Vidulum LLC
 
 ---
 

@@ -11,7 +11,7 @@ released: 2020-01-30
 updated: 2023-02-10
 version: 1.19.1
 stars: 4.3
-reviews: 5176
+reviews: 5177
 size: '51127296'
 website: https://www.tryanchor.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: anchorusd
 social: 
 features: 
+developerName: Anchor US LLC
 
 ---
 

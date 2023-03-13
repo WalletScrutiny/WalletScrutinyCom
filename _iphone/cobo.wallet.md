@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coboofficial
 - https://www.facebook.com/coboOfficial
 features: 
+developerName: Cobo Global Limited
 
 ---
 

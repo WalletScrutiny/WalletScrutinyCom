@@ -7,11 +7,11 @@ appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2023-02-23
-version: '112.0'
+updated: 2023-03-10
+version: '114.0'
 stars: 4.8
-reviews: 12047
-size: '92861440'
+reviews: 12114
+size: '89741312'
 website: https://strike.me/en/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ twitter: ln_strike
 social: 
 features:
 - ln
+developerName: Zap Solutions, Inc
 
 ---
 

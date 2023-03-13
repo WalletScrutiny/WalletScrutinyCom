@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ecomi_
 social: 
 features: 
+developerName: ECOMI Technology PTE Ltd
 
 ---
 

@@ -27,6 +27,7 @@ twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp
 features: 
+developerName: WARP INTERMEDIACOES E SERVICOS DE PAGAMENTO LTDA
 
 ---
 

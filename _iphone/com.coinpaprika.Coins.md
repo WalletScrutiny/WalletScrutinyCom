@@ -8,10 +8,10 @@ appId: com.coinpaprika.Coins
 appCountry: us
 idd: 1475233621
 released: 2019-12-03
-updated: 2023-02-25
-version: 2.8.3
+updated: 2023-03-01
+version: 2.8.4
 stars: 4.8
-reviews: 928
+reviews: 930
 size: '49601536'
 website: http://coins.coinpaprika.com
 repository: 
@@ -27,6 +27,7 @@ twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp
 features: 
+developerName: Coinpaprika Sp. z o.o.
 
 ---
 

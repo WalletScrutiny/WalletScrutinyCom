@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Talken_
 social: 
 features: 
+developerName: Colligence Inc.
 
 ---
 

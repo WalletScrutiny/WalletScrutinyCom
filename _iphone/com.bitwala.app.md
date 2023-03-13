@@ -8,11 +8,11 @@ appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
 released: 2019-05-11
-updated: 2023-02-22
-version: 2.4.27
+updated: 2023-03-07
+version: 2.4.28
 stars: 0
 reviews: 0
-size: '96926720'
+size: '96963584'
 website: https://www.nuri.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 features: 
+developerName: Bitwala
 
 ---
 

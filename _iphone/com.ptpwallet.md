@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
 features: 
+developerName: 8870985 Canada Corp
 
 ---
 

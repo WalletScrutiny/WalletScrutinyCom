@@ -27,6 +27,7 @@ twitter: mobimeglobal
 social:
 - https://www.facebook.com/mobimeglobal
 features: 
+developerName: Mobi Me Limited
 
 ---
 

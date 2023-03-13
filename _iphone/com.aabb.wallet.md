@@ -26,6 +26,7 @@ reviewArchive:
 twitter: AsiaBroadband
 social: 
 features: 
+developerName: Asia Broadband, Inc.
 
 ---
 

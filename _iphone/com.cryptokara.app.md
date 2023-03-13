@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: AUTOMATED CHAIN LIMITED
 
 ---
 

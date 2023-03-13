@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinloan.project
 - https://www.reddit.com/r/coinloan
 features: 
+developerName: CoinLoan OU
 
 ---
 

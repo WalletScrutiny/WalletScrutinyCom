@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/stormxio
 - https://www.reddit.com/r/stormxio
 features: 
+developerName: StormX Singapore PTE. LTD.
 
 ---
 

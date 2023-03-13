@@ -11,7 +11,7 @@ released: 2020-09-08
 updated: 2023-01-06
 version: 1.0.18
 stars: 3.1
-reviews: 32
+reviews: 31
 size: '56373248'
 website: https://ajglobalv.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
 features: 
+developerName: AJ TRUST MERCHANTS GLOBAL LIMITED
 
 ---
 

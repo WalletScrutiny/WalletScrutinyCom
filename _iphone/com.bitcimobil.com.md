@@ -30,6 +30,7 @@ social:
 - https://medium.com/@bitcicom
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
 features: 
+developerName: Bitci Teknoloji Anonim Sirketi
 
 ---
 

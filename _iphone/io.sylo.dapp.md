@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/sylo.io
 - https://www.reddit.com/r/sylo_io
 features: 
+developerName: Sylo Licensing Limited
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/MoonXBT
 - https://www.reddit.com/r/MoonXBT
 features: 
+developerName: NANO TRADE GLOBAL
 
 ---
 

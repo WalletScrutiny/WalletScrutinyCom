@@ -26,6 +26,7 @@ reviewArchive:
 twitter: CardWallet_fi
 social: 
 features: 
+developerName: CardSoft OU
 
 ---
 

@@ -37,14 +37,14 @@ window.addEventListener("load", () => {
 
 function recreateDropdowns(verdict, platform) {
   if (window.verdictOrder && window.verdictOrder.length > 0 && document.querySelector(".dropdown-verdict")) {
-    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all">All verdicts</div>`
+    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All verdicts</span></div>`
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
       if (count > 0) {
-        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}">${window.verdicts[instanceVerdict].short} <small>${count} wallets</small></div>`
+        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${count} wallets</small></div>`
       }
       else if(verdict === instanceVerdict) {
-        html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}">${instanceVerdict} <small>none found</small></div>`
+        html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
       }
     }
     document.querySelector(".dropdown-verdict").innerHTML = html
@@ -53,7 +53,7 @@ function recreateDropdowns(verdict, platform) {
   if (window.platformObs && window.platformObs.length > 0 && document.querySelector(".dropdown-platform")) {
     let html = ``
     for (const instancePlatform of window.platformObs) {
-      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> ${instancePlatform}</div>`
+      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> <span>${instancePlatform}</span></div>`
     }
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }

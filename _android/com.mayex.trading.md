@@ -7,8 +7,8 @@ users: 10000
 appId: com.mayex.trading
 appCountry: 
 released: Mar 7, 2022
-updated: 2023-02-20
-version: 1.2.20
+updated: 2023-03-07
+version: 1.6.60
 stars: 4.4
 ratings: 
 reviews: 3

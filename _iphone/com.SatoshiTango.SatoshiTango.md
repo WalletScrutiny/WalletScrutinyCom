@@ -28,6 +28,7 @@ twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
 features: 
+developerName: SatoshiTango
 
 ---
 

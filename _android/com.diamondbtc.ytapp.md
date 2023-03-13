@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.diamondbtc.ytapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-13
 signer: 
 reviewArchive: 
 twitter: 

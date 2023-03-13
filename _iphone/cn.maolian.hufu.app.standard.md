@@ -11,7 +11,7 @@ released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
 stars: 2.9
-reviews: 142
+reviews: 143
 size: '135105536'
 website: https://hoo.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/hooexchange
 - https://www.reddit.com/r/HooExchange
 features: 
+developerName: Hoo Technology Limited
 
 ---
 

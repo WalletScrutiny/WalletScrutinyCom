@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BudaPuntoCom
 features:
 - ln
+developerName: 
 
 ---
 

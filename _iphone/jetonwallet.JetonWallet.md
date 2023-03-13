@@ -10,8 +10,8 @@ idd: 1190240579
 released: 2017-01-04
 updated: 2023-02-02
 version: 3.7.2
-stars: 3.7
-reviews: 26
+stars: 3.6
+reviews: 27
 size: '177341440'
 website: https://jeton.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: jetonwallet
 social: 
 features: 
+developerName: LA ORANGE LIMITED
 
 ---
 

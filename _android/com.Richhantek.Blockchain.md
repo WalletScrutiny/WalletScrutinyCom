@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Blockchain Token Exchange
+title: Crypto Exchange Explorer
 altTitle: 
 authors: 
 users: 1000

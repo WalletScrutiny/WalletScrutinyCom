@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
 features: 
+developerName: Beijing GuiXinYangHang Technology Co., Ltd.
 
 ---
 

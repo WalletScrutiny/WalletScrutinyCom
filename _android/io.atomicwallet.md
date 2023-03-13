@@ -8,11 +8,11 @@ users: 1000000
 appId: io.atomicwallet
 appCountry: 
 released: 2019-01-30
-updated: 2023-02-13
-version: 1.8.6
+updated: 2023-02-27
+version: 1.9.1
 stars: 4.6
 ratings: 62655
-reviews: 5389
+reviews: 5396
 size: 
 website: https://atomicwallet.io
 repository: 

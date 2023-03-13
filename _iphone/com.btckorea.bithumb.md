@@ -8,11 +8,11 @@ appId: com.btckorea.bithumb
 appCountry: 
 idd: 1299421592
 released: 2017-12-05
-updated: 2023-02-24
-version: 2.0.4
+updated: 2023-03-13
+version: 2.0.5
 stars: 1.9
 reviews: 35
-size: '146309120'
+size: '146383872'
 website: https://en.bithumb.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
 features: 
+developerName: Bithumb Korea Co., Ltd.
 
 ---
 

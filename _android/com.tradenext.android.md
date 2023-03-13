@@ -3,7 +3,7 @@ wsId:
 title: TradeNext
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tradenext.android
 appCountry: 
 released: 

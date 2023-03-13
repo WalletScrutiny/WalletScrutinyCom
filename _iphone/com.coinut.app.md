@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinutExchange
 - https://t.me/coinut
 features: 
+developerName: Coinut Pte. Ltd.
 
 ---
 

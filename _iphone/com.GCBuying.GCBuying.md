@@ -26,6 +26,7 @@ reviewArchive:
 twitter: gcbuying
 social: 
 features: 
+developerName: GCBuying Technology
 
 ---
 

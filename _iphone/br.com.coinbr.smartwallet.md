@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
 features: 
+developerName: 
 
 ---
 

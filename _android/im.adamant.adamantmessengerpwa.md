@@ -7,8 +7,8 @@ users: 10000
 appId: im.adamant.adamantmessengerpwa
 appCountry: 
 released: Jun 13, 2020
-updated: 2020-06-14
-version: 1.0.0
+updated: 2023-03-03
+version: 3.3.0
 stars: 4
 ratings: 
 reviews: 13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-06-22
+date: 2023-03-13
 signer: 
 reviewArchive: 
 twitter: 

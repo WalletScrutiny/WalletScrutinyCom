@@ -12,7 +12,7 @@
   font-display: block;
 }
 
-[class^="i-"], [class*=" i-"]  {
+[class^="i-"], [class*=" i-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: '#{$svg-font-family}' !important;
   speak: never;

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: defiantApp
 social: 
 features: 
+developerName: Andina Defi Ltd
 
 ---
 

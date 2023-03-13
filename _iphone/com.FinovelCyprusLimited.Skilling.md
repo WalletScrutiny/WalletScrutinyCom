@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/skilling
 - https://www.facebook.com/SkillingTrading
 features: 
+developerName: Skilling Limited
 
 ---
 

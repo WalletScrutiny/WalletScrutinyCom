@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coindealcom
 - https://www.facebook.com/coindealcom
 features: 
+developerName: CoinDeal Limited
 
 ---
 

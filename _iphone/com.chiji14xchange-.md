@@ -27,6 +27,7 @@ twitter: myrocketapp
 social:
 - https://www.facebook.com/myrocketapp
 features: 
+developerName: CHIJI14XCHANGE
 
 ---
 

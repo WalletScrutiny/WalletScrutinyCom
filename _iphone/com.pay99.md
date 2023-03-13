@@ -8,11 +8,11 @@ appId: com.pay99
 appCountry: br
 idd: 1588184260
 released: 2021-10-02
-updated: 2023-02-09
-version: 7.1.50
+updated: 2023-03-02
+version: 7.1.52
 stars: 4.3
-reviews: 1433
-size: '251189248'
+reviews: 1448
+size: '251549696'
 website: 
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/99app
 - https://www.facebook.com/voude99
 features: 
+developerName: 99Pay S.A
 
 ---
 

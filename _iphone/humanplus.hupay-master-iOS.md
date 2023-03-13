@@ -28,6 +28,7 @@ social:
 - https://medium.com/@hupayx
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 features: 
+developerName: 
 
 ---
 

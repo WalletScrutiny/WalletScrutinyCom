@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Tagcash
+title: Tagcash Wallet
 altTitle: 
 authors: 
 users: 10000

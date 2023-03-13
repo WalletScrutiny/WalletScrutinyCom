@@ -11,7 +11,7 @@ released: 2019-06-07
 updated: 2023-02-17
 version: 5.1.5
 stars: 4.7
-reviews: 2577
+reviews: 2616
 size: '91640832'
 website: https://www.zengo.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: zengo
 social: 
 features: 
+developerName: ZenGo Ltd.
 
 ---
 

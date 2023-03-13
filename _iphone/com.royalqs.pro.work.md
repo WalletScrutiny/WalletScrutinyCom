@@ -11,7 +11,7 @@ released: '2021-10-06T07:00:00Z'
 updated: 2022-11-21
 version: 4.6.1
 stars: 4.2
-reviews: 120
+reviews: 121
 size: '124294144'
 website: https://royalqs.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Royal Quantify Investment Management Co., Limited
 
 ---
 

@@ -27,6 +27,7 @@ twitter: O3_Labs
 social:
 - https://github.com/O3Labs
 features: 
+developerName: O3 Labs Inc
 
 ---
 

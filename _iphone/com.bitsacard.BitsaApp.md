@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitsacard
 - https://www.facebook.com/BitsaCard
 features: 
+developerName: 
 
 ---
 

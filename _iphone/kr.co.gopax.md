@@ -11,7 +11,7 @@ released: 2018-06-21
 updated: 2023-02-21
 version: 2.2.1
 stars: 2.9
-reviews: 486
+reviews: 485
 size: '108966912'
 website: https://www.gopax.co.kr/notice
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Streami Inc.
 
 ---
 

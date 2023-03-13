@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/starteos.io.7
 - https://github.com/StarteosIO
 features: 
+developerName: Starteos Limited
 
 ---
 

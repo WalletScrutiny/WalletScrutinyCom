@@ -11,7 +11,7 @@ released: 2018-09-24
 updated: 2021-11-12
 version: 2.0.8
 stars: 4.9
-reviews: 86
+reviews: 85
 size: '145725440'
 website: https://midasprotocol.io/
 repository: 
@@ -27,6 +27,7 @@ twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
 features: 
+developerName: Midas Core Pte Ltd
 
 ---
 

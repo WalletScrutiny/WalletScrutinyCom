@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallet Amir: buy BTC'
+title: 'Bitcoin Crypto Wallet: Amir'
 altTitle: 
 authors:
 - danny

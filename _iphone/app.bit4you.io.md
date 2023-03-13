@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bit4you.io/
 - https://www.instagram.com/bit4you.io/
 features: 
+developerName: bit4you
 
 ---
 

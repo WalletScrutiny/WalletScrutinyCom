@@ -11,7 +11,7 @@ released: 2020-11-16
 updated: 2023-01-13
 version: 1.0.56
 stars: 4.7
-reviews: 35
+reviews: 36
 size: '83615744'
 website: https://www.axiainvestments.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Deloce LTD
 
 ---
 

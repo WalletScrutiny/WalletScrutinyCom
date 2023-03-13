@@ -11,7 +11,7 @@ released: 2015-03-12
 updated: 2023-02-07
 version: 136.1.0
 stars: 4.6
-reviews: 18565
+reviews: 18561
 size: '219194368'
 website: 
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/abra
 - https://www.facebook.com/GoAbraGlobal
 features: 
+developerName: Plutus Financial
 
 ---
 

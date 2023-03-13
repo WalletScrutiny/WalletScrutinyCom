@@ -11,7 +11,7 @@ released: 2019-11-26
 updated: 2023-02-26
 version: 1.57.1
 stars: 4.8
-reviews: 815
+reviews: 816
 size: '87494656'
 website: https://capital.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: CAPITAL BULGARIA
 
 ---
 

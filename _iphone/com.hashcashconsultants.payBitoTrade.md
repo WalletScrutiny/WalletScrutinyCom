@@ -27,6 +27,7 @@ twitter: paybito
 social:
 - https://www.facebook.com/paybito
 features: 
+developerName: HashCash Consultants LLC
 
 ---
 

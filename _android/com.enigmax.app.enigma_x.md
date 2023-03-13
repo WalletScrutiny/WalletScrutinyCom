@@ -3,7 +3,7 @@ wsId:
 title: EnigmaX
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.enigmax.app.enigma_x
 appCountry: 
 released: Jan 17, 2022

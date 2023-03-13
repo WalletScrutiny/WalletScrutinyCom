@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
 features: 
+developerName: Velas
 
 ---
 

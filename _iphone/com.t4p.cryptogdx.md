@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Trading4Pro
 social: 
 features: 
+developerName: Finansoft s.r.o.
 
 ---
 

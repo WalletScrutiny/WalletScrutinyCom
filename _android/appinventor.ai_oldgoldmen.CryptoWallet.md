@@ -4,7 +4,7 @@ title: 'Multi Crypto Wallet: for Bitco'
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: appinventor.ai_oldgoldmen.CryptoWallet
 appCountry: 
 released: 2020-02-01
@@ -12,7 +12,7 @@ updated: 2021-02-23
 version: '3.0'
 stars: 4.1
 ratings: 44
-reviews: 5
+reviews: 4
 size: 
 website: 
 repository: 

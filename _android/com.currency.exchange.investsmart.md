@@ -9,7 +9,7 @@ appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
 updated: 2023-02-24
-version: 1.36.2
+version: 1.37.1
 stars: 4.3
 ratings: 216
 reviews: 83

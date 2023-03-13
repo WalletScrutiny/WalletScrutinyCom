@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/easymarkets
 - https://www.facebook.com/easyMarkets
 features: 
+developerName: Blue Capital Markets Limited
 
 ---
 

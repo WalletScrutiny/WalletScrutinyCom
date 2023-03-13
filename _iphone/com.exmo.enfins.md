@@ -9,11 +9,11 @@ appId: com.exmo.enfins
 appCountry: 
 idd: 1505496232
 released: 2020-04-07
-updated: 2023-02-22
-version: 2.22.0
-stars: 4.3
-reviews: 86
-size: '88379392'
+updated: 2023-03-10
+version: 2.23.1
+stars: 4.2
+reviews: 85
+size: '88620032'
 website: https://exmo.com/en
 repository: 
 issue: 
@@ -28,6 +28,7 @@ twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
 features: 
+developerName: EXMO EXCHANGE LTD
 
 ---
 

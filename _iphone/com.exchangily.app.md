@@ -27,6 +27,7 @@ twitter: ExchangilyC
 social:
 - https://www.facebook.com/Exchangily-439040053240813
 features: 
+developerName: Exchangily LLC
 
 ---
 

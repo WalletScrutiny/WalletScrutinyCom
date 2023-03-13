@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 features: 
+developerName: Paylot technologies Ltd
 
 ---
 

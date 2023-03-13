@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
 features: 
+developerName: Exscudo OU
 
 ---
 

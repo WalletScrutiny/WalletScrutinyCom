@@ -9,9 +9,9 @@ appCountry:
 released: Mar 28, 2022
 updated: 2023-02-10
 version: 2.2.0
-stars: 2.8
+stars: 2.7
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://bourseechange.net/
 repository: 

@@ -8,11 +8,11 @@ appId: partl.coini
 appCountry: us
 idd: 1563051934
 released: 2021-04-21
-updated: 2023-02-17
-version: 2.4.38
+updated: 2023-02-27
+version: 2.4.44
 stars: 4.7
 reviews: 13
-size: '60342272'
+size: '60293120'
 website: https://timopartl.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Timo P
 
 ---
 

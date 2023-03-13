@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AfrBTC.com
+title: AfrBTC:Sell gift cards
 altTitle: 
 authors: 
 users: 50000
@@ -9,9 +9,9 @@ appCountry:
 released: May 5, 2019
 updated: 2023-02-20
 version: 4.0.3
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 94
+reviews: 95
 size: 
 website: https://www.afrbtc.com
 repository: 

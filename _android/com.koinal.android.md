@@ -11,9 +11,9 @@ appCountry: gb
 released: 2020-06-04
 updated: 2023-01-09
 version: 1.4.8
-stars: 4.5
+stars: 4.1
 ratings: 1938
-reviews: 8
+reviews: 6
 size: 
 website: https://www.koinal.io
 repository: 

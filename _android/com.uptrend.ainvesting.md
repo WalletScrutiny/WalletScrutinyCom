@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AInvesting - CFD trading for p
+title: AInvesting - CFD trading
 altTitle: 
 authors: 
 users: 1000
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Up Trend Ltd.
+developerName: Uptrend LTD
 features: 
 
 ---

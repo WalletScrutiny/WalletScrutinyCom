@@ -27,6 +27,7 @@ twitter: SIGENpro
 social:
 - https://www.facebook.com/sigen.pro
 features: 
+developerName: Lergen Style LP
 
 ---
 

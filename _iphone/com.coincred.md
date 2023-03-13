@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
 features: 
+developerName: CoinCRED
 
 ---
 

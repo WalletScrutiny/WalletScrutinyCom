@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2022-12-28
 version: 1.34.5.511
 stars: 4.9
-reviews: 70
+reviews: 74
 size: '76917760'
 website: https://amlsafe.io/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Avelot Limited
 
 ---
 

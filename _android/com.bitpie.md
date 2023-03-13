@@ -10,9 +10,9 @@ appCountry:
 released: 2016-10-23
 updated: 2023-02-15
 version: 5.0.128.g
-stars: 3.8
+stars: 3.7
 ratings: 847
-reviews: 114
+reviews: 116
 size: 
 website: http://bitpie.com
 repository: 

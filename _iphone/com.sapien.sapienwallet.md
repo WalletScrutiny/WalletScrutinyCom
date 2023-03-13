@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/SapienWallet
 features: 
+developerName: Sapien
 
 ---
 

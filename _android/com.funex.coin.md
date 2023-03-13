@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://funexcoin.com/
 repository: 
 issue: 
 icon: com.funex.coin.png

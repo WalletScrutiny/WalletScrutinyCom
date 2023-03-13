@@ -7,8 +7,8 @@ users: 10000
 appId: com.sixmultiverse.heartnumber
 appCountry: 
 released: May 22, 2019
-updated: 2021-12-01
-version: 3.53.1
+updated: 2023-03-03
+version: 3.55.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-12-17
+date: 2023-03-13
 signer: 
 reviewArchive: 
 twitter: 

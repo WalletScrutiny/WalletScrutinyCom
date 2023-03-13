@@ -1,6 +1,6 @@
 ---
 wsId: bytehub
-title: ByteHub - Multiple Cryptocurre
+title: ByteHub
 altTitle: 
 authors:
 - danny

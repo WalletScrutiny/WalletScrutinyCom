@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Global Videotrading
+developerName: Criptoclases
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/tauros.io
 - https://www.linkedin.com/company/taurosio/
 features: 
+developerName: Tauros Exchange SA de CV
 
 ---
 

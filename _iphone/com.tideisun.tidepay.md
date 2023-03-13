@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/isunone
 - https://www.facebook.com/iSunOne
 features: 
+developerName: TIDENET LIMITED
 
 ---
 

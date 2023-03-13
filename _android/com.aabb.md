@@ -4,7 +4,7 @@ title: AABB Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.aabb
 appCountry: ca
 released: 2021-03-08

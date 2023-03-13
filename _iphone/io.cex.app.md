@@ -12,7 +12,7 @@ released: 2015-12-22
 updated: 2023-02-20
 version: 8.0.5
 stars: 4.6
-reviews: 5457
+reviews: 5483
 size: '92384256'
 website: https://cex.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
 features: 
+developerName: CEX.IO LTD
 
 ---
 

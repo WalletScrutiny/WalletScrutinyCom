@@ -8,8 +8,8 @@ users: 10000
 appId: zam.wallet
 appCountry: ru
 released: 2018-09-17
-updated: 2022-10-10
-version: 3.3.7
+updated: 2023-02-28
+version: 3.5.5
 stars: 4
 ratings: 288
 reviews: 56

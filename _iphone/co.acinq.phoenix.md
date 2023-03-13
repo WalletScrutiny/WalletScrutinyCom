@@ -28,6 +28,7 @@ twitter: PhoenixWallet
 social: 
 features:
 - ln
+developerName: ACINQ
 
 ---
 

@@ -11,7 +11,7 @@ released: '2018-05-14T01:40:40Z'
 updated: 2023-01-31
 version: '3.4'
 stars: 4.7
-reviews: 2477
+reviews: 2493
 size: '46838784'
 website: https://3commas.io/blog
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://t.me/commas
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 features: 
+developerName: 3Commas Technologies OU
 
 ---
 

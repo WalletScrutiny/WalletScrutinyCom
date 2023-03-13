@@ -140,9 +140,9 @@ function getIcon(name) {
   let faCollection = ''
   switch (name) {
     case "android": faCollection = "fab fa-google-play"; break
-    case "iphone": faCollection = "fab fa-app-store"; break
+    case "iphone": faCollection = "i-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break
-    case "bearer": faCollection = "fab fa-bitcoin"; break
+    case "bearer": faCollection = "i-btc"; break
   }
   return faCollection
 }

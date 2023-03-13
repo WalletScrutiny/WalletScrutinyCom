@@ -9,7 +9,7 @@ for (let i = 0; i < dateFields.length; i++) {
 
 function elapsedTime(ts, secondary, brackets) {
   const sec = secondary ? 'class="secondary-text"' : ''
-  let bra = brackets ? ['(',')'] : ['','']
+  let bra = brackets ? ['(', ')'] : ['', '']
 
   const nowTs = new Date().getTime() / 1000
   var dt = Math.floor((nowTs - ts) / 60 / 60 / 24) // time elapsed in days
@@ -19,13 +19,16 @@ function elapsedTime(ts, secondary, brackets) {
     week: dt / 7,
     day: dt
   }
+  let processed = `<span ${sec}>today</span>`
   for (const k in options) {
     let r = Math.floor(options[k])
-    if (r > 0)
-      bra = k==='year' ?  ['(<span class="warn">','</span>)'] : bra
-      return `${bra[0]}${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>${bra[1]}`
+    if (r > 0) {
+      bra = k === 'year' ? ['(<span class="warn">', '</span>)'] : bra
+      processed = `${bra[0]}${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>${bra[1]}`
+      break
+    }
   }
-  return `<span ${sec}>today</span>`
+  return processed
 }
 
 function verdictBadge(v) {

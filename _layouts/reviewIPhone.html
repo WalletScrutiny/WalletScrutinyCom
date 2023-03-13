@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div id="main" class="app-review" role="main">
-
+  {% if page.wsId %} 
+    <script>window.wsId="{{ page.wsId }}"</script> 
+  {% endif %}
   <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.altTitle | default: page.title }}">
     {% if page.excerpt %}
@@ -27,100 +29,71 @@ layout: default
             {% endif %}
           </h1>
 
-          <span><i class="fas fa-history"></i> Latest release: {{ page.version }} (<span title='{{ page.updated | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
-            data="{{ page.updated | date: '%s' }}">
-            {{ page.updated | date_to_long_string: "ordinal" }}
-          </span>)</span>
+  
 
-          <span>🔍 Last analysed
-            <span title='{{ page.date | date_to_long_string: "ordinal" }}' class="calculate-time-elapsed"
-              data="{{ page.date | date: '%s' }}">
-              {{ page.date | date_to_long_string: "ordinal" }}
-            </span>.
-          </span>
+          <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle">
+            <i class="i-app-store"></i> App Store
+          </a>
 
-          {% if page.meta != "outdated" %}
-            {% include verdictBadge.html verdict=page.verdict type='medium' %}
-          {% endif %}
-          {% if page.meta != "ok" %}
-            {% include verdictBadge.html verdict=page.meta type='medium' %}
-          {% endif %}
-
-          <div class="social-row">
-            <ul>
-              <li
-                title='Link to {{ page.title }} on the App Store'>
-                <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web">
-                  <i class="fab fa-app-store"></i>
-                </a>
-              </li>
-              {% include /review/providerSocial.html %}
-            </ul>
-          </div>
-        </div>
-
-        <div class="app-payload-flex">
-
-          {% if page.verdict == "reproducible" %}
-            <div class="svg {{ page.verdict }}"></div>
-          {% endif %}
-
-          {% if page.stars %}
-          <div title="Rated {{ page.stars }}/5 stars">
-
-            <label>
-              <i class="fab fa-app-store"></i>&nbsp;App Store ({{ page.appCountry | default: "us" }})
-            </label>
-
-            <div>
-              {{ page.stars | round: 1 }}
-              <span class="star-rating"
-                style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc({{ page.stars }} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
-            </div>
-
-            <span>{{ page.reviews }} ratings</span>
-
-          </div>
-          {% endif %}
-
-          {% if page.released %}
-          <div title='{{ page.released | date_to_long_string: "ordinal" }}'>
-
-            <label>
-              <i class="fas fa-rocket"></i>&nbsp;Launched
-            </label>
-
-            <div>
-              <span class="calculate-time-elapsed" data="{{ page.released | date: '%s' }}">
-                {{ page.released | date_to_long_string: "ordinal" }}
-              </span>
-            </div>
+          {% if page.version %}
+          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
+              Latest Release: 
+              {% if page.version != 'VARY' %}
+                <span>v</span>
+              {% endif %}
+              {{ page.version }}
+                <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
+              {{ page.updated | date_to_long_string: "ordinal" }}
+            </span>
           </div>
           {% endif %}
 
         </div>
+
       </div>
 
-      {% assign title = page.altTitle | default: page.title %}
+      <div class="security-overview">
+        <h2>Security overview</h2>
+        <p>Applications undergo a series of steps from development to your device. Find an outline of these steps with security tips and test results for each step below.</p>
 
-      <div id="versions" {% if page.wsId %} wsId="{{ page.wsId }}" {% endif %}></div>
+        <div class="spacer"></div>
 
-      {% include verdict_explained.html %}
-      {% include /review/archive.html %}
-      {% include /review/tweetAtProvider.html %}
-      {% include /review/disclaimer.html %}
-      {% include /review/ownResearch.html %}
-      <h1 id="analysis">The Analysis&nbsp;<a href="#analysis" style="color:#ccc">&para;</a></h1>
+        {% include /review/securitySteps.html platform='iphone' %}
 
-      <section class="page__content" itemprop="text">
-        {{ content }}
-        {% include /review/byAuthor.html %}
-      </section>
+        <div class="see-also"></div>
+
+        <div class="spacer x2"></div>
+
+        {% include /review/results.html %}
+
+        {% include /review/archive.html %}
+
+        <div class="spacer x2"></div>
+
+      </div>
+
+      
+
+      <div class="article-after disclaimer">
+        {% include /review/disclaimer.html %}
+        {% include /review/ownResearch.html %}
+      </div>
 
       {% if page.share %}
-        {% include social-share.html %}
-        {% include embed.html %}
+      <div class="spacer x2"></div>
+
+        <div class="tab-view">
+          <div class="labels">
+            <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
+            <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
+          </div>
+          <div class="payloads">
+            <div class="social-share active">{% include social-share.html %}</div>
+            <div class="embed-widget">{% include embed.html %}</div>
+          </div>
+        </div>
       {% endif %}
+
     </div>
   </article>
 </div>

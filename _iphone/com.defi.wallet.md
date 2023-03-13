@@ -11,7 +11,7 @@ released: 2020-05-20
 updated: 2023-02-21
 version: 1.52.0
 stars: 4.6
-reviews: 5020
+reviews: 5218
 size: '193655808'
 website: https://crypto.com/defi-wallet
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 features: 
+developerName: DeFi Labs
 
 ---
 

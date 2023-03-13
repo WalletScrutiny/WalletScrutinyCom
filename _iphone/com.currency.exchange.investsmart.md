@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 features: 
+developerName: Currency Com EU Sp z o.o.
 
 ---
 

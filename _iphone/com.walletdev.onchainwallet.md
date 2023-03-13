@@ -12,7 +12,7 @@ released: 2018-09-29
 updated: 2023-02-16
 version: 3.3.3
 stars: 3.9
-reviews: 177
+reviews: 178
 size: '119716864'
 website: https://www.itoken.com/en/
 repository: 
@@ -28,6 +28,7 @@ twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
 features: 
+developerName: BlazekTech Internet Technology Service Limited
 
 ---
 

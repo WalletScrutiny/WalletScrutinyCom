@@ -10,8 +10,8 @@ idd: 1396382871
 released: 2018-08-02
 updated: 2023-02-13
 version: 2.11.13
-stars: 2.8
-reviews: 2784
+stars: 2.9
+reviews: 2988
 size: '100733952'
 website: https://www.bitmart.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitmartexchange
 - https://www.reddit.com/r/BitMartExchange
 features: 
+developerName: GBM Foundation Company Ltd
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/quidax
 - https://www.facebook.com/quidaxafrica
 features: 
+developerName: 
 
 ---
 

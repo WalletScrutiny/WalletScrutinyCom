@@ -11,7 +11,7 @@ released: 2020-05-25
 updated: 2022-12-28
 version: 2.8.16
 stars: 3.9
-reviews: 719
+reviews: 721
 size: '158401536'
 website: https://www.bitazza.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitazza
 - https://www.facebook.com/bitazza
 features: 
+developerName: Bitazza Company Limited
 
 ---
 

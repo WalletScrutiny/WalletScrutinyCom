@@ -27,6 +27,7 @@ twitter: zelcash
 social:
 - https://www.reddit.com/r/ZelCash
 features: 
+developerName: 
 
 ---
 

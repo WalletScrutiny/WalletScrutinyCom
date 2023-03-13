@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
 features: 
+developerName: FEITIAN Technologies Co.,Ltd.
 
 ---
 

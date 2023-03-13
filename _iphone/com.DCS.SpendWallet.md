@@ -11,7 +11,7 @@ released: 2018-03-30
 updated: 2020-09-05
 version: 3.2.6
 stars: 4
-reviews: 336
+reviews: 335
 size: '124011520'
 website: https://spend.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/spend
 - https://www.reddit.com/r/Spend
 features: 
+developerName: Spend Inc
 
 ---
 

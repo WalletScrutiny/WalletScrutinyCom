@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
 - https://www.facebook.com/BitcoinSuisse
 features: 
+developerName: Bitcoin Suisse
 
 ---
 

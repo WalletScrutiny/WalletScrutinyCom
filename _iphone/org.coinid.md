@@ -26,6 +26,7 @@ reviewArchive:
 twitter: COINiDGroup
 social: 
 features: 
+developerName: COINiD Group
 
 ---
 

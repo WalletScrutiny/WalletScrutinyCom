@@ -3,7 +3,7 @@ wsId:
 title: 'NOBI: Own Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.usenobi
 appCountry: 
 released: Jul 15, 2020

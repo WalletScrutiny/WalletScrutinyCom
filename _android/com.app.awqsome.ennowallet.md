@@ -8,8 +8,8 @@ users: 10000
 appId: com.app.awqsome.ennowallet
 appCountry: 
 released: Aug 22, 2021
-updated: 2023-02-24
-version: 2.6.3
+updated: 2023-03-01
+version: 2.6.4
 stars: 4.5
 ratings: 
 reviews: 16

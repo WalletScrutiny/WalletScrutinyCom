@@ -12,7 +12,7 @@ updated: 2023-02-24
 version: 3.6.5
 stars: 4.2
 ratings: 764
-reviews: 31
+reviews: 30
 size: 
 website: https://www.poolin.com/
 repository: 

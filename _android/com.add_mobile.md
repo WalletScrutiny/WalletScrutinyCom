@@ -11,7 +11,7 @@ updated: 2022-04-28
 version: '1.4'
 stars: 4.8
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://add.xyz/
 repository: 

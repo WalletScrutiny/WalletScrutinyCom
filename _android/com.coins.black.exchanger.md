@@ -3,7 +3,7 @@ wsId:
 title: Coins.Black — Buy & Sell Crypt
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.coins.black.exchanger
 appCountry: 
 released: 2021-04-11
