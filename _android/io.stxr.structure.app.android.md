@@ -8,7 +8,7 @@ appId: io.stxr.structure.app.android
 appCountry: 
 released: May 6, 2022
 updated: 2023-03-07
-version: 1.5.3
+version: 1.5.2-prod
 stars: 3.7
 ratings: 
 reviews: 5

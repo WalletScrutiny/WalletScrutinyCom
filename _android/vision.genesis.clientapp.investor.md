@@ -21,7 +21,7 @@ icon: vision.genesis.clientapp.investor.png
 bugbounty: 
 meta: stale
 verdict: custodial
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: genesis_vision

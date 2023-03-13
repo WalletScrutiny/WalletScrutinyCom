@@ -20,7 +20,7 @@ icon: com.ffk.paybank.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

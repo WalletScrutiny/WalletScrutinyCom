@@ -8,7 +8,7 @@ appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
 updated: 2023-03-07
-version: v1.73
+version: v1.72
 stars: 4.4
 ratings: 6726
 reviews: 2013

@@ -21,7 +21,7 @@ icon: com.wallet.korvio.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-22
 updated: 2023-03-07
 version: 1.31.4
-stars: 3.4
+stars: 3.5
 ratings: 377
-reviews: 159
+reviews: 158
 size: 
 website: https://ecos.finance
 repository: 

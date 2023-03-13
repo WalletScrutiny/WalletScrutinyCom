@@ -20,7 +20,7 @@ icon: com.ubsdreamdigital.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2023-03-13
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

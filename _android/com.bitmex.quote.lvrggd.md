@@ -21,7 +21,7 @@ icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
 meta: stale
 verdict: nowallet
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

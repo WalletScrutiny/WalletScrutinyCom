@@ -21,7 +21,7 @@ icon: com.lightning.walletapp.png
 bugbounty: 
 meta: obsolete
 verdict: ftbfs
-date: 2023-03-13
+date: 2023-03-03
 signer: 
 reviewArchive:
 - date: 2019-11-23

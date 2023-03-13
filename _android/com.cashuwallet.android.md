@@ -20,7 +20,7 @@ icon: com.cashuwallet.android.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2023-02-26
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

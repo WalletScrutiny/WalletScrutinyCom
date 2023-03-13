@@ -20,7 +20,7 @@ icon: exchange.btc6x.com.jpg
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2023-03-13
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,7 +20,7 @@ icon: com.chiji14xchange-.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
-date: 2023-02-26
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: myrocketapp

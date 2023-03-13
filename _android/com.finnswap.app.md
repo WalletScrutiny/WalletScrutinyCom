@@ -20,7 +20,7 @@ icon: com.finnswap.app.png
 bugbounty: 
 meta: stale
 verdict: fewusers
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

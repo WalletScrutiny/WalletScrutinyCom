@@ -20,7 +20,7 @@ icon: com.paradise.finance.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2023-03-13
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

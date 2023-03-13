@@ -21,7 +21,7 @@ icon: com.itez.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: Itezofficial

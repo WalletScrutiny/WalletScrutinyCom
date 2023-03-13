@@ -20,7 +20,7 @@ icon: io.kompasswallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2023-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

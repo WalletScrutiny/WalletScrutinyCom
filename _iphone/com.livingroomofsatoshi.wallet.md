@@ -11,7 +11,7 @@ released: 2019-05-20
 updated: 2023-02-28
 version: 2.1.2
 stars: 5
-reviews: 20
+reviews: 19
 size: '53224448'
 website: https://www.walletofsatoshi.com
 repository: 
