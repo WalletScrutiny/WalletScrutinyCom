@@ -9,9 +9,9 @@ appCountry:
 released: Feb 8, 2022
 updated: 2023-02-13
 version: 2.2.3
-stars: 5
+stars: 
 ratings: 
-reviews: 5
+reviews: 
 size: 
 website: https://www.tbitex.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Catecoin-Crypto Bitcoin Wallet
+title: Bitcoin Defi Crypto Wallet
 altTitle: 
 authors: 
 users: 5000

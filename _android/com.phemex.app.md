@@ -1,6 +1,6 @@
 ---
 wsId: phemex
-title: 'Phemex: Buy Crypto & Bitcoin'
+title: 'Phemex: Crypto & BTC Trading'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
-updated: 2023-02-14
-version: 4.1.3
-stars: 4.4
+updated: 2023-03-03
+version: 4.1.6
+stars: 4.5
 ratings: 15997
-reviews: 1126
+reviews: 1112
 size: 
 website: https://phemex.com
 repository: 

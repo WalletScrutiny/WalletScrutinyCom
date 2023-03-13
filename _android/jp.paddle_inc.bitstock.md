@@ -8,11 +8,11 @@ users: 100000
 appId: jp.paddle_inc.bitstock
 appCountry: jp
 released: 2019-09-03
-updated: 2023-02-14
-version: 1.4.45
-stars: 2.6
+updated: 2023-03-01
+version: 1.4.47
+stars: 2.3
 ratings: 3029
-reviews: 1483
+reviews: 1538
 size: 
 website: https://www.paddle-inc.jp/
 repository: 

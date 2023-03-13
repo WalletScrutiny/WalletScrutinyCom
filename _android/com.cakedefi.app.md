@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-16
 updated: 2023-02-17
 version: 4.2.0
-stars: 3.5
+stars: 3.6
 ratings: 1135
-reviews: 163
+reviews: 165
 size: 
 website: https://cakedefi.com
 repository: 

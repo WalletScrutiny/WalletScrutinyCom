@@ -9,7 +9,7 @@ appId: com.flutter.litebit
 appCountry: 
 released: 2019-12-12
 updated: 2023-01-26
-version: 3.3.17
+version: 3.3.18
 stars: 
 ratings: 
 reviews: 

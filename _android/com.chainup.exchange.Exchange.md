@@ -9,9 +9,9 @@ appCountry:
 released: Jun 21, 2022
 updated: 2022-09-30
 version: 5.4.12
-stars: 3.8
+stars: 4
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: http://www.scallop.exchange
 repository: 

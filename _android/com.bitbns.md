@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-21
 updated: 2022-12-29
 version: 6.6.0
-stars: 3.4
+stars: 3.5
 ratings: 15779
-reviews: 39
+reviews: 38
 size: 
 website: https://bitbns.com/
 repository: 

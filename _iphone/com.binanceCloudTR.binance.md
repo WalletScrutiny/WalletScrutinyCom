@@ -11,7 +11,7 @@ released: 2021-02-18
 updated: 2023-02-16
 version: 1.17.1
 stars: 4.6
-reviews: 35837
+reviews: 38207
 size: '146085888'
 website: https://www.trbinance.com/
 repository: 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.livingroomofsatoshi.wallet
 appCountry: 
 released: 2019-05-19
-updated: 2022-11-11
-version: 1.18.1
+updated: 2023-02-26
+version: 2.1.2
 stars: 3.9
 ratings: 758
-reviews: 122
+reviews: 128
 size: 
 website: http://www.walletofsatoshi.com
 repository: 
