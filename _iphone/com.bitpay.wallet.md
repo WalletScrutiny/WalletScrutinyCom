@@ -4,6 +4,7 @@ title: BitPay - Bitcoin Wallet & Card
 altTitle: 
 authors:
 - leo
+- emanuel
 appId: com.bitpay.wallet
 appCountry: 
 idd: 1149581638
@@ -14,15 +15,20 @@ stars: 3.9
 reviews: 1581
 size: '54429696'
 website: https://bitpay.com
-repository: https://github.com/bitpay/wallet
-issue: https://github.com/bitpay/wallet/issues/12065
+repository: https://github.com/bitpay/bitpay-app
+issue: https://github.com/bitpay/bitpay-app/issues/686
 icon: com.bitpay.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-11-02
+verdict: ftbfs
+date: 2023-03-13
 signer: 
 reviewArchive:
+- date: 2022-11-02
+  version: "12.6.4"
+  appHash: 
+  gitRevision: b323422a62c5d226572c32bffc8b499bbd9716a1
+  verdict: nosource
 - date: 2019-11-29
   version: 
   appHash: 
