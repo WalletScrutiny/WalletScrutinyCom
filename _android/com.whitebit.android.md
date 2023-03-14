@@ -12,7 +12,7 @@ updated: 2023-03-09
 version: 2.21.15
 stars: 3.9
 ratings: 1962
-reviews: 251
+reviews: 255
 size: 
 website: https://whitebit.com/
 repository: 

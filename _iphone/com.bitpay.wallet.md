@@ -25,7 +25,7 @@ date: 2023-03-13
 signer: 
 reviewArchive:
 - date: 2022-11-02
-  version: "12.6.4"
+  version: 12.6.4
   appHash: 
   gitRevision: b323422a62c5d226572c32bffc8b499bbd9716a1
   verdict: nosource

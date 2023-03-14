@@ -12,7 +12,7 @@ updated: 2021-04-05
 version: 1.0.6
 stars: 2.1
 ratings: 214
-reviews: 153
+reviews: 154
 size: 
 website: https://instantcoins.ng
 repository: 

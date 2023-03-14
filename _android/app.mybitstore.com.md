@@ -12,7 +12,7 @@ updated: 2023-02-10
 version: 6.3.0
 stars: 4.3
 ratings: 20
-reviews: 5
+reviews: 6
 size: 
 website: https://mybitstore.com
 repository: 

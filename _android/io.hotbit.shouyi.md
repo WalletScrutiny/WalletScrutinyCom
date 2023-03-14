@@ -12,7 +12,7 @@ updated: 2023-02-24
 version: 1.4.31
 stars: 3.5
 ratings: 75096
-reviews: 1566
+reviews: 1567
 size: 
 website: https://www.hotbit.io/
 repository: 

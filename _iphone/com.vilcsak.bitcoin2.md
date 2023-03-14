@@ -11,7 +11,7 @@ released: 2014-06-22
 updated: 2023-03-08
 version: 11.9.4
 stars: 4.7
-reviews: 1688124
+reviews: 1688220
 size: '106535936'
 website: http://www.coinbase.com
 repository: 

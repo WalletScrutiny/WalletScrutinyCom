@@ -12,7 +12,7 @@ updated: 2022-11-14
 version: 3.0.2
 stars: 3.4
 ratings: 2913
-reviews: 522
+reviews: 523
 size: 
 website: https://ShapeShift.com
 repository: 

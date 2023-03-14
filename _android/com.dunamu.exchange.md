@@ -8,7 +8,7 @@ users: 5000000
 appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
-updated: 2023-03-03
+updated: 2023-03-10
 version: 1.19.12
 stars: 3.4
 ratings: 29440

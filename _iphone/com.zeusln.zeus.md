@@ -10,7 +10,7 @@ released: 2021-04-22
 updated: 2023-03-09
 version: v0.7.3
 stars: 4.6
-reviews: 26
+reviews: 27
 size: '61840384'
 website: https://ZeusLN.app
 repository: https://github.com/ZeusLN/zeus
