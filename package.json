@@ -18,7 +18,8 @@
   },
   "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "engines": {
-    "node": ">= 16.17.1"
+    "node": ">= 16.17.1",
+    "npm": ">= 8.19.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.40.1",
