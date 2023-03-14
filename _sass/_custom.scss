@@ -107,9 +107,8 @@
         }
       }
       &.opened {
-        background: var(--body-50);
-        backdrop-filter: blur(80px);
-        box-shadow: 0 10px 30px -15px #000;
+        background: var(--body);
+        box-shadow: 0 20px 35px -20px #000;
         position: absolute;
         top: -8px;
         padding: 10px 15px;
