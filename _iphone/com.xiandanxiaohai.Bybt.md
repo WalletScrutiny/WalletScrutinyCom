@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinglass - BTC Futures Market
+title: Coinglass - Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2023-03-09
-version: 1.6.0
+updated: 2023-03-14
+version: 1.6.1
 stars: 4.9
-reviews: 678
+reviews: 686
 size: '20637696'
 website: https://www.coinglass.com
 repository: 

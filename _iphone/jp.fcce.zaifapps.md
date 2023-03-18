@@ -8,11 +8,11 @@ appId: jp.fcce.zaifapps
 appCountry: in
 idd: 1505715935
 released: 2020-05-15
-updated: 2023-01-25
-version: 1.1.18
+updated: 2023-03-15
+version: 1.1.19
 stars: 0
 reviews: 0
-size: '26241024'
+size: '26251264'
 website: https://zaif.jp/
 repository: 
 issue: 

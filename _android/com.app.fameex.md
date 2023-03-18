@@ -1,6 +1,6 @@
 ---
 wsId: FAMEEX
-title: FameEX-APP
+title: 'FameEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny

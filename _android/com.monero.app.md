@@ -3,7 +3,7 @@ wsId:
 title: Monero.com
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.monero.app
 appCountry: 
 released: Jan 7, 2022

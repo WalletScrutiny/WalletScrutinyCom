@@ -10,7 +10,7 @@ appCountry: il
 released: 2020-11-16
 updated: 2023-01-09
 version: 1.0.55
-stars: 4.2
+stars: 4.6
 ratings: 744
 reviews: 3
 size: 

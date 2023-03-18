@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinomi.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-05-20
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: CoinomiWallet

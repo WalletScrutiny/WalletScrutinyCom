@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: 'Bit2Me: BTC and +150 coins'
+title: 'Bit2Me: BTC and +200 coins'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
-updated: 2023-02-23
-version: 2.4.1
+updated: 2023-03-16
+version: 2.6.0
 stars: 4.4
 ratings: 5162
-reviews: 308
+reviews: 227
 size: 
 website: https://bit2me.com
 repository: 

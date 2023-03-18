@@ -8,11 +8,11 @@ users: 500000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2023-02-21
-version: 2.9.2
+updated: 2023-03-14
+version: 3.0.0
 stars: 3.3
 ratings: 3291
-reviews: 2026
+reviews: 2034
 size: 
 website: https://pdax.ph
 repository: 

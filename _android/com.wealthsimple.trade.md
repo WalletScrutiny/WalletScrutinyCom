@@ -1,6 +1,6 @@
 ---
 wsId: WealthsimpleTrade
-title: Wealthsimple
+title: Wealthsimple - Grow your money
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-03-13
 version: 2.81.0
 stars: 4.6
 ratings: 54327
-reviews: 10884
+reviews: 10896
 size: 
 website: https://www.wealthsimple.com/en-ca/
 repository: 

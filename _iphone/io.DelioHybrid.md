@@ -10,8 +10,8 @@ idd: 1498891184
 released: 2020-02-26
 updated: 2023-03-14
 version: 1.4.2
-stars: 3
-reviews: 22
+stars: 3.1
+reviews: 24
 size: '63857664'
 website: https://www.delio.foundation/
 repository: 
