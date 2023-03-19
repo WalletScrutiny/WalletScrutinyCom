@@ -3,7 +3,7 @@ wsId:
 title: PayBank
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.ffk.paybank
 appCountry: 
 released: Sep 19, 2019

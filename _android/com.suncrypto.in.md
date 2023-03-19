@@ -8,10 +8,10 @@ appId: com.suncrypto.in
 appCountry: 
 released: 2021-06-28
 updated: 2023-03-09
-version: '1.13'
+version: '1.15'
 stars: 4.8
 ratings: 10629
-reviews: 506
+reviews: 499
 size: 
 website: https://suncrypto.in
 repository: 

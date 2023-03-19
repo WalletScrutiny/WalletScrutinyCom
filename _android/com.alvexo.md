@@ -1,6 +1,6 @@
 ---
 wsId: alvexo
-title: Alvexo Online CFD Trading
+title: 'Alvexo: OnlineTrading Platform'
 altTitle: 
 authors:
 - danny

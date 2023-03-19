@@ -20,7 +20,7 @@ icon: com.app.Chainblock.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2023-03-13
+date: 2023-03-14
 signer: 
 reviewArchive: 
 twitter: 

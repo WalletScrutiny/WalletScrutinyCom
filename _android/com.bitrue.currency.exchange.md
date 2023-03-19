@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-18
 updated: 2023-03-08
 version: 5.5.1
-stars: 4.6
+stars: 4.4
 ratings: 2703
-reviews: 547
+reviews: 550
 size: 
 website: https://www.bitrue.com/
 repository: 

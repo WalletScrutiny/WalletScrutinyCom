@@ -21,7 +21,7 @@ icon: ilcbtc.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
-date: 2023-03-13
+date: 2023-03-14
 signer: 
 reviewArchive: 
 twitter: ILC_B_Project

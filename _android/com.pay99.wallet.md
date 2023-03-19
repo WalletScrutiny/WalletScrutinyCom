@@ -8,11 +8,11 @@ users: 1000000
 appId: com.pay99.wallet
 appCountry: br
 released: 2021-09-23
-updated: 2023-03-02
+updated: 2023-03-17
 version: 7.1.52
-stars: 2.7
+stars: 2.6
 ratings: 4563
-reviews: 6683
+reviews: 6728
 size: 
 website: 
 repository: 
