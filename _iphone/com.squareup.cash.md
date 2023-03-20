@@ -8,11 +8,11 @@ appId: com.squareup.cash
 appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2023-03-07
-version: '3.86'
+updated: 2023-03-20
+version: '3.87'
 stars: 4.8
-reviews: 4471538
-size: '444675072'
+reviews: 4492644
+size: '419149824'
 website: https://cash.app
 repository: 
 issue: 

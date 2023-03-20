@@ -11,7 +11,7 @@ released: 2020-02-12
 updated: 2023-03-15
 version: 1.4.68
 stars: 4.9
-reviews: 723
+reviews: 728
 size: '169455616'
 website: https://www.amarkets.com/
 repository: 

@@ -4,7 +4,7 @@ title: FMCPAY
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitcoinexc
 appCountry: 
 released: Sep 1, 2021

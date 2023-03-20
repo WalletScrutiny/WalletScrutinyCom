@@ -11,9 +11,9 @@ appCountry:
 released: 2018-07-07
 updated: 2023-03-09
 version: 1.25.0
-stars: 4.2
+stars: 4.3
 ratings: 59630
-reviews: 2470
+reviews: 2474
 size: 
 website: https://chippercash.com
 repository: 

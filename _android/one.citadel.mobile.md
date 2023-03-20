@@ -10,9 +10,9 @@ appCountry:
 released: Dec 29, 2020
 updated: 2023-03-10
 version: 2.7.0
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://citadel.one/
 repository: 

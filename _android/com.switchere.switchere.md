@@ -9,9 +9,9 @@ appCountry:
 released: Nov 15, 2021
 updated: 2023-01-04
 version: 1.1.4
-stars: 3.5
+stars: 3.7
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: https://switchere.com/
 repository: 

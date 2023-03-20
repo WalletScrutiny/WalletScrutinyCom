@@ -7,8 +7,8 @@ users: 50000
 appId: com.sincere.swallet
 appCountry: 
 released: Apr 11, 2022
-updated: 2023-03-02
-version: 2.3.0
+updated: 2023-03-19
+version: 2.4.0
 stars: 4.6
 ratings: 
 reviews: 25

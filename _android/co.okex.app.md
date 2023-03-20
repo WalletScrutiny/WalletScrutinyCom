@@ -8,8 +8,8 @@ users: 100000
 appId: co.okex.app
 appCountry: 
 released: 2019-09-11
-updated: 2023-02-19
-version: 7.0.6
+updated: 2023-03-18
+version: 7.0.8
 stars: 4.3
 ratings: 7353
 reviews: 225

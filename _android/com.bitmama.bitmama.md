@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitmama.bitmama
 appCountry: us
 released: 2020-07-11
-updated: 2023-03-14
-version: 1.1.28
+updated: 2023-03-20
+version: 1.1.29
 stars: 3.8
 ratings: 65
 reviews: 8
