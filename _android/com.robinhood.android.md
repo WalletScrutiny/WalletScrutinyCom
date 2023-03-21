@@ -12,7 +12,7 @@ updated: 2023-03-20
 version: VARY
 stars: 4
 ratings: 445358
-reviews: 243810
+reviews: 243840
 size: 
 website: https://robinhood.com/
 repository: 

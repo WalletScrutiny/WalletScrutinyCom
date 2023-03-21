@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Biconomy
+title: 'Biconomy: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
 users: 50000

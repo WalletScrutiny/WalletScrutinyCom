@@ -10,7 +10,7 @@ appCountry: si
 released: 2017-10-17
 updated: 2023-03-13
 version: 2.6.0
-stars: 4.2
+stars: 4.1
 ratings: 291
 reviews: 154
 size: 
