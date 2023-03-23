@@ -8,11 +8,11 @@ users: 10000
 appId: com.wisebitcoin.broker.android
 appCountry: cn
 released: 2021-01-04
-updated: 2023-01-27
-version: 4.0.0
+updated: 2023-03-21
+version: 4.0.1
 stars: 3.1
 ratings: 116
-reviews: 88
+reviews: 81
 size: 
 website: https://www.batonex.com
 repository: 
