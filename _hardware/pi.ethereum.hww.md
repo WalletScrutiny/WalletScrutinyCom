@@ -1,6 +1,6 @@
 ---
 title: Pi Ethereum Hardware Wallet
-appId: pi.ethereum.hww.md
+appId: pi.ethereum.hww
 authors:
 - danny
 released: 2022-09-10
@@ -26,8 +26,10 @@ date: 2023-02-09
 signer: 
 reviewArchive: 
 twitter: NftYdaze
-social: 
-- https://www.instagram.com/nftydaze/ 
+social:
+- https://www.instagram.com/nftydaze/
+features: 
+
 ---
 
 ## Product Description 

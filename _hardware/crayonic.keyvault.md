@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 74
 - 24
-- 13 
+- 13
 weight: 
 provider: Crayonic
 providerWebsite: https://www.crayonic.com
@@ -29,8 +29,10 @@ date: 2023-02-09
 signer: 
 reviewArchive: 
 twitter: crayonic_com
-social: 
-- https://www.linkedin.com/company/crayonic/ 
+social:
+- https://www.linkedin.com/company/crayonic/
+features: 
+
 ---
 
 ## Product Description 
