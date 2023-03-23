@@ -4,15 +4,15 @@ title: Capex
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04
-updated: 2023-01-11
-version: 2.15.0
-stars: 4.4
+updated: 2023-03-21
+version: 2.19.0
+stars: 4.3
 ratings: 336
-reviews: 10
+reviews: 7
 size: 
 website: https://www.capex.com
 repository: 

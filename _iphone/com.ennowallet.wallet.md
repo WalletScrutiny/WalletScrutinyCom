@@ -8,11 +8,11 @@ appId: com.ennowallet.wallet
 appCountry: us
 idd: '1577011660'
 released: '2021-07-28T07:00:00Z'
-updated: 2023-01-12
-version: 1.9.1
+updated: 2023-02-27
+version: 1.9.7
 stars: 5
 reviews: 3
-size: '83482624'
+size: '89588736'
 website: https://www.ennowallet.com
 repository: 
 issue: 

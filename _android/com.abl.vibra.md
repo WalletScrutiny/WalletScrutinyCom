@@ -8,8 +8,8 @@ users: 100000
 appId: com.abl.vibra
 appCountry: 
 released: Oct 21, 2021
-updated: 2023-01-18
-version: 1.6.50
+updated: 2023-02-24
+version: 1.6.60
 stars: 3.9
 ratings: 
 reviews: 5

@@ -10,7 +10,7 @@ idd: 1382342568
 released: 2018-08-01
 updated: 2020-05-19
 version: '1.12'
-stars: 4
+stars: 3.9
 reviews: 119
 size: '42128384'
 website: https://hodlwallet.com

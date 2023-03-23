@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Pillar Cross-Chain DeFi Wallet
+title: Pillar Multichain DeFi Wallet
 altTitle: 
 authors: 
 users: 100000
 appId: com.pillarproject.wallet
 appCountry: 
 released: 2018-12-13
-updated: 2023-01-26
-version: 3.19.9
+updated: 2023-03-10
+version: 3.21.4
 stars: 4
 ratings: 1007
 reviews: 90

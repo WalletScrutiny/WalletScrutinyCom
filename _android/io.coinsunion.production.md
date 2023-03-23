@@ -3,7 +3,7 @@ wsId:
 title: Coins Union
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.coinsunion.production
 appCountry: 
 released: Oct 20, 2021

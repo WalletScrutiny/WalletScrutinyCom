@@ -7,11 +7,11 @@ users: 10000
 appId: com.maskex.app
 appCountry: 
 released: Oct 20, 2021
-updated: 2023-01-04
-version: 4.0.7
-stars: 4
+updated: 2023-03-03
+version: 4.1.0
+stars: 
 ratings: 
-reviews: 3
+reviews: 
 size: 
 website: 
 repository: 

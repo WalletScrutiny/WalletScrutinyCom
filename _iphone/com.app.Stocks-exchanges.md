@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-03
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 

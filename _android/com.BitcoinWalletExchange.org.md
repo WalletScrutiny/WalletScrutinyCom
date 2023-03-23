@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-12
 updated: 2020-10-13
 version: '1.01'
-stars: 4.7
+stars: 4.6
 ratings: 110
-reviews: 12
+reviews: 14
 size: 
 website: 
 repository: 

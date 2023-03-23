@@ -8,8 +8,8 @@ users: 5000
 appId: pouch.ph
 appCountry: 
 released: Sep 8, 2021
-updated: 2023-01-16
-version: 0.6.36
+updated: 2023-03-21
+version: 0.6.72
 stars: 
 ratings: 
 reviews: 

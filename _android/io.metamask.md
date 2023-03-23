@@ -8,11 +8,11 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2023-01-28
-version: 5.12.1
+updated: 2023-03-03
+version: 6.1.1
 stars: 4.4
 ratings: 57131
-reviews: 3188
+reviews: 3418
 size: 
 website: https://metamask.io
 repository: 

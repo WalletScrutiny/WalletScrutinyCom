@@ -8,19 +8,19 @@ appId: mn.trade
 appCountry: us
 idd: 1303463253
 released: 2018-05-05
-updated: 2021-08-24
-version: 2.0.6
+updated: 2023-02-17
+version: 3.0.3
 stars: 2
 reviews: 29
-size: '40311808'
+size: '35132416'
 website: https://trade.mn
 repository: 
 issue: 
 icon: mn.trade.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: TradeMnOfficial

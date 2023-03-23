@@ -3,7 +3,7 @@ wsId:
 title: ODDS - Blockchain Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.project.odds
 appCountry: 
 released: Mar 29, 2022

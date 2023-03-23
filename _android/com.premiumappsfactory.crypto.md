@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Exchange App
+title: Crypto  App
 altTitle: 
 authors: 
 users: 50

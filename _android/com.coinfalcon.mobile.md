@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinfalcon.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-02-09
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: coinfalcon

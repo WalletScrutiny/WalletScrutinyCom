@@ -10,9 +10,9 @@ appCountry: ng
 released: 2021-05-15
 updated: 2022-12-01
 version: 1.21.0
-stars: 3.3
+stars: 3.5
 ratings: 428
-reviews: 441
+reviews: 449
 size: 
 website: https://flitaa.com
 repository: 
