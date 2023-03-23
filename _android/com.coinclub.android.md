@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinclub.android.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-10-18
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

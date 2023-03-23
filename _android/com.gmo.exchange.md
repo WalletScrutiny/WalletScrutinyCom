@@ -4,7 +4,7 @@ title: Z.com EX - Buy/Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07

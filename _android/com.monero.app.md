@@ -3,12 +3,12 @@ wsId:
 title: Monero.com
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.monero.app
 appCountry: 
 released: Jan 7, 2022
-updated: 2023-02-08
-version: 1.2.7
+updated: 2023-03-20
+version: 1.3.1
 stars: 4.3
 ratings: 
 reviews: 6

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.corbito.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-02-20
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

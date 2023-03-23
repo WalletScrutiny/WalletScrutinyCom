@@ -8,11 +8,11 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2023-03-03
-version: '115.8'
-stars: 4.4
+updated: 2023-03-22
+version: '116.4'
+stars: 4.2
 ratings: 9327
-reviews: 7
+reviews: 9
 size: 
 website: http://www.avatrade.com
 repository: 

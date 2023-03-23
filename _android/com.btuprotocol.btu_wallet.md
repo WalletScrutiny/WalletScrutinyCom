@@ -8,8 +8,8 @@ users: 10000
 appId: com.btuprotocol.btu_wallet
 appCountry: ba
 released: 2021-03-15
-updated: 2023-03-03
-version: 2.14.6
+updated: 2023-03-06
+version: 2.14.8
 stars: 4.2
 ratings: 156
 reviews: 130
