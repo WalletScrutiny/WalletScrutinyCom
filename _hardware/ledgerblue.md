@@ -25,8 +25,8 @@ issue:
 icon: ledgerblue.png
 bugbounty: 
 meta: discontinued
-verdict: wip
-date: 2023-03-07
+verdict: nosource
+date: 2023-03-23
 signer: 
 reviewArchive: 
 twitter: Ledger
@@ -40,11 +40,15 @@ features:
 
 ---
 
-This hardware device still seems to be supported via the Ledger website, however it is not currently being promoted from the websites product range. This hardware device may soon be discontinued.
+## Update 2023-03-23 
+
+We updated the verdict to reflect {{ page.title }}'s current status. The last update to its repository was made on March 24, 2017. Our analysis ends as the product is discontinued and the 8-year old source code available on GitHub is very much obsolete.
 
 ## Update 2023-03-07
 
-Trezor's official website now lists Ledger Blue with other [discontinued projects](https://support.ledger.com/hc/en-us/sections/4404369868433-Discontinued-products)
+This hardware device still seems to be supported via the Ledger website, however it is not currently being promoted from the websites product range. This hardware device may soon be discontinued.
+
+Ledger's official website now lists Ledger Blue with other [discontinued projects](https://support.ledger.com/hc/en-us/sections/4404369868433-Discontinued-products)
 
 Ledger Blue's firmware is not available, as stated on its [official page.](https://support.ledger.com/hc/en-us/articles/360005885733-Update-Ledger-Blue-firmware?docs=true)
 
