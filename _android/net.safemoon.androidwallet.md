@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: safemoon
 title: SafeMoon
 altTitle: 
 authors:

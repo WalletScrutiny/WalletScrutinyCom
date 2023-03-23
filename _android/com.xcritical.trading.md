@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: xcritical
 title: XCritical
 altTitle: 
 authors: 

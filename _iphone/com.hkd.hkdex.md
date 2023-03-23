@@ -3,16 +3,16 @@ wsId: hkd
 title: HKD.com
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
 released: '2020-07-13T07:00:00Z'
-updated: 2023-02-09
-version: 2.4.8
-stars: 3.75
-reviews: 4
-size: '112904192'
+updated: 2023-03-16
+version: 2.5.3
+stars: 2.70588
+reviews: 17
+size: '113502208'
 website: http://hkd.com
 repository: 
 issue: 
@@ -27,8 +27,9 @@ twitter: HKD_exchange
 social:
 - https://www.facebook.com/hkdexchange/
 - https://www.youtube.com/c/hkdexchange
-- https://www.instagram.com/hkdexchange/?hl=en 
+- https://www.instagram.com/hkdexchange/?hl=en
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

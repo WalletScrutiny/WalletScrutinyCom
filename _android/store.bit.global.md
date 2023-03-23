@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitStore
 title: Bit.Store - Klaim max 1.4jt
 altTitle: 
 authors:

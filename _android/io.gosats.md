@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: gosats
 title: GoSats - Bitcoin Rewards App
 altTitle: 
 authors:
@@ -49,8 +49,7 @@ From their Play Store:
 
 ## Analysis 
 
-We were not able to install the app so we can only make our analysis based on publicly 
-available information. 
+We were not able to install the app so we can only make our analysis based on publicly available information. 
 
 We looked at the [terms and conditions](https://gosats.io/terms.html) for signs of a custodial service:
 
