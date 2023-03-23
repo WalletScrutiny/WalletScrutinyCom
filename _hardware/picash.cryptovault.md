@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 85.60
-- 53.98 
+- 85.6
+- 53.98
 weight: 
 provider: International Linked Solutions LTD
 providerWebsite: 
@@ -20,7 +20,7 @@ country: UK
 price: 24.99 EUR
 repository: 
 issue: 
-icon: picash.hww.png
+icon: picash.cryptovault.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
@@ -28,8 +28,10 @@ date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: ilinkeds
-social: 
+social:
 - https://www.linkedin.com/in/ilinkeds/
+features: 
+
 ---
 
 ## Product Description 

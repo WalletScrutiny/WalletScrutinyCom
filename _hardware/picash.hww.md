@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 85.60
-- 53.98 
+- 85.6
+- 53.98
 weight: 
 provider: International Linked Solutions LTD
 providerWebsite: 
@@ -28,8 +28,10 @@ date: 2023-02-09
 signer: 
 reviewArchive: 
 twitter: ilinkeds
-social: 
+social:
 - https://www.linkedin.com/in/ilinkeds/
+features: 
+
 ---
 
 ## Product Description 
