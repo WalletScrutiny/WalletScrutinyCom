@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xiangjiao.tg.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-27
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: kr_bna

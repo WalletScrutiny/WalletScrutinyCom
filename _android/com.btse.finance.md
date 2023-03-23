@@ -8,8 +8,8 @@ users: 10000
 appId: com.btse.finance
 appCountry: ng
 released: 2020-11-30
-updated: 2023-02-23
-version: 1.51.1
+updated: 2023-03-17
+version: 1.53.0
 stars: 4.6
 ratings: 62
 reviews: 12
