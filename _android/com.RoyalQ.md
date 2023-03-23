@@ -1,5 +1,5 @@
 ---
-wsId: RoyalQ
+wsId: 
 title: Royal Q App - Auto Trading bot
 altTitle: 
 authors:
