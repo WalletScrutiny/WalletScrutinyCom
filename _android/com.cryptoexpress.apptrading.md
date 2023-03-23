@@ -3,7 +3,7 @@ wsId:
 title: Crpyto Express Exchange
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.cryptoexpress.apptrading
 appCountry: 
 released: May 10, 2022

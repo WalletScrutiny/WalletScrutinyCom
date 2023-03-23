@@ -9,9 +9,9 @@ appCountry:
 released: Nov 13, 2020
 updated: 2021-11-03
 version: 3.7.0
-stars: 4.1
+stars: 3.9
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://programmerscourt.com
 repository: 

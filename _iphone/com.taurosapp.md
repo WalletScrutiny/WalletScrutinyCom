@@ -11,7 +11,7 @@ released: '2019-12-08T08:00:00Z'
 updated: 2023-02-01
 version: 9.6.1
 stars: 3.5
-reviews: 187
+reviews: 182
 size: '87055360'
 website: 
 repository: 

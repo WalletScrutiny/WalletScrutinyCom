@@ -7,9 +7,9 @@ users: 100000
 appId: com.bitso.alpha
 appCountry: 
 released: Sep 28, 2021
-updated: 2022-11-22
-version: 1.15.1
-stars: 3.5
+updated: 2023-03-20
+version: 1.15.4
+stars: 3.4
 ratings: 
 reviews: 6
 size: 

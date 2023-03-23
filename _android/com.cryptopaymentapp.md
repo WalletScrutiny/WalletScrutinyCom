@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptopaymentapp.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

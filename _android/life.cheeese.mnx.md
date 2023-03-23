@@ -8,8 +8,8 @@ users: 50000
 appId: life.cheeese.mnx
 appCountry: 
 released: Mar 22, 2019
-updated: 2023-01-28
-version: 3.0.5
+updated: 2023-02-17
+version: 3.1.0
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ramzingate | رمزین گیت بستر مع
+title: رمزینگیت|خرید آنی تتر و رمزارز
 altTitle: 
 authors: 
 users: 1000
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ramzingate.ramzingate.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

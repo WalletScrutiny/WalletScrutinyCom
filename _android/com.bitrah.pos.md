@@ -7,8 +7,8 @@ users: 1000
 appId: com.bitrah.pos
 appCountry: 
 released: 2020-07-21
-updated: 2023-01-15
-version: 3.0.0
+updated: 2023-02-07
+version: 3.0.1
 stars: 
 ratings: 
 reviews: 

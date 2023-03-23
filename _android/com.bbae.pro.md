@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'BBAE Pro: Stocks, Crypto, ETFs'
+title: 'BBAE Pro: Stocks & Options'
 altTitle: 
 authors: 
 users: 5000
 appId: com.bbae.pro
 appCountry: 
 released: Jun 17, 2021
-updated: 2022-11-28
-version: 5.0.5
-stars: 4.8
+updated: 2023-03-01
+version: 5.0.7
+stars: 4.7
 ratings: 
-reviews: 3
+reviews: 5
 size: 
 website: https://www.bbae.com
 repository: 

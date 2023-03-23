@@ -12,7 +12,7 @@ updated: 2023-02-07
 version: 0.30.0
 stars: 3.9
 ratings: 556
-reviews: 65
+reviews: 66
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android

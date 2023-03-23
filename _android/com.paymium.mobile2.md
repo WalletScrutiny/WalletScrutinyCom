@@ -4,12 +4,12 @@ title: Paymium
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.paymium.mobile2
 appCountry: us
 released: 2018-09-24
-updated: 2022-10-20
-version: '3.6'
+updated: 2023-02-03
+version: '3.7'
 stars: 
 ratings: 
 reviews: 

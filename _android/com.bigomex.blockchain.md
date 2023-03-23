@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-14
 updated: 2021-06-22
 version: 1.2.7
-stars: 4.2
+stars: 4
 ratings: 319
-reviews: 13
+reviews: 6
 size: 
 website: https://www.bigomex.com
 repository: 

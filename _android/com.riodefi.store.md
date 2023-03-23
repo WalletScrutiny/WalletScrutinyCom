@@ -4,13 +4,13 @@ title: 'RioWallet: Web3 Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.riodefi.store
 appCountry: us
 released: 2021-04-29
 updated: 2022-08-11
 version: 2.9.8
-stars: 4
+stars: 4.2
 ratings: 
 reviews: 3
 size: 

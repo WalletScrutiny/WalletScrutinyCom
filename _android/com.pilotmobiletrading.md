@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pilotmobiletrading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-08
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: tradewithpilot

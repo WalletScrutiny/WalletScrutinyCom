@@ -3,7 +3,7 @@ wsId:
 title: Valet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.btcontract.walletfiat
 appCountry: 
 released: 
