@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: f2pool
 title: F2Pool
 altTitle: 
 authors:

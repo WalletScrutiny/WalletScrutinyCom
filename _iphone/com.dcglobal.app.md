@@ -3,7 +3,7 @@ wsId: deepcoin
 title: 'Deepcoin Pro: Trade Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.dcglobal.app
 appCountry: us
 idd: '1610058833'
@@ -24,10 +24,11 @@ date: 2023-02-10
 signer: 
 reviewArchive: 
 twitter: 
-social: 
-- https://www.linkedin.com/company/deepcoinpro/ 
+social:
+- https://www.linkedin.com/company/deepcoinpro/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

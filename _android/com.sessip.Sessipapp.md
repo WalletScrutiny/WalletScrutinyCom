@@ -55,7 +55,7 @@ It was difficult to analyze this app since we cannot register (we keep getting a
 
 We were able to find a [YouTube video](https://youtu.be/76NGlVurBz4?t=153) showing the app's features by some random user. 
 
-Luckily, the twitter account responded and we promptly asked if the app provides the private keys of the user. 
+Luckily, the twitter account [responded](https://twitter.com/sessipapp/status/1624002850232705025) and we promptly asked if the app provides the private keys of the user. Alas, that was the extent of their interaction with us.
 
 We also emailed them: 
 
