@@ -3,12 +3,12 @@ wsId:
 title: Fintoda Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.fintoda.app
 appCountry: 
 released: Aug 26, 2021
-updated: 2022-09-27
-version: 1.4.4
+updated: 2023-03-14
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.fintoda.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

@@ -3,7 +3,7 @@ wsId:
 title: MADI
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.centerprime.madi
 appCountry: 
 released: May 17, 2021

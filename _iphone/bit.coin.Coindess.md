@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bit.coin.Coindess.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-07-13
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: FIAHUBVN

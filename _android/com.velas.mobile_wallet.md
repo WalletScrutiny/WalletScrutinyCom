@@ -12,9 +12,9 @@ appCountry: us
 released: 2020-11-17
 updated: 2023-02-16
 version: 2.3.9
-stars: 3.9
+stars: 4
 ratings: 545
-reviews: 20
+reviews: 21
 size: 
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet

@@ -7,8 +7,8 @@ users: 100
 appId: cloud.accredited.wallet
 appCountry: 
 released: Jun 2, 2021
-updated: 2022-12-23
-version: 3.2.44
+updated: 2023-03-08
+version: 3.2.46
 stars: 
 ratings: 
 reviews: 

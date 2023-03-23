@@ -7,8 +7,8 @@ users: 10000
 appId: io.wetoken2.app
 appCountry: 
 released: Nov 15, 2021
-updated: 2022-06-07
-version: 1.8.3
+updated: 2023-02-21
+version: 1.8.4
 stars: 3
 ratings: 
 reviews: 3

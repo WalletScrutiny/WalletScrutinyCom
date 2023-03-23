@@ -11,7 +11,7 @@ updated: 2021-04-27
 version: '2.0'
 stars: 4.8
 ratings: 52
-reviews: 20
+reviews: 15
 size: 
 website: https://www.bitamp.com
 repository: 
