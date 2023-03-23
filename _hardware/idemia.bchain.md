@@ -21,7 +21,7 @@ issue:
 icon: idemia.bchain.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: plainkey
 date: 2023-02-09
 signer: 
 reviewArchive: 
@@ -47,4 +47,6 @@ From their [website.](https://www.idemia.com/card-based-crypto-hardware-wallet)
 
 Their marketing point of *"No tiny display. No tiny buttons. With B.CHAIN, crypto wallet providers can make a non-custodial wallet accessible to the greatest number of people."* is also one of its weak security points. 
 
-Having **no interface and buttons**, and relying on an app on another device may have the possibility to expose the private keys to an adversary. 
+The key to the verdict is in this statement as it may have the possibility of sharing the private key with the mobile app: 
+
+> - Sign transactions: Transactions are driven by the mobile app. Users enter all data using the app interface, and when a crypto transfer is ready, users simply tap their B.CHAIN card on the back of their phone to generate a signature. They then authenticate the signature using their fingerprint on their card, or by entering the card PIN code in their mobile app.

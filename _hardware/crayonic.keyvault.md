@@ -35,6 +35,12 @@ features:
 
 ---
 
+## Update 2023-03-23 
+
+Peter Kolarov responded to us on [LinkedIn:](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/388#note_1325007402) 
+
+> Yes, currently we dont offer BTC wallet functionality as we are busy with passwordless use cases. this may change if there would be some market interest.
+
 ## Updated Review 2023-02-28
 
 Pavol Schmitzer, the former Chief Commercial Officer of Crayonic, gave us an update: 
