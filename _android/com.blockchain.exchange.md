@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: blockchainExchange
 title: Blockchain.com Exchange
 altTitle: 
 authors:

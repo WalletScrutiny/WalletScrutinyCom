@@ -20,7 +20,7 @@ issue:
 icon: com.b4uglobal.app.png
 bugbounty: 
 meta: stale
-verdict: discontinued
+verdict: defunct
 date: 2023-02-08
 signer: 
 reviewArchive: 

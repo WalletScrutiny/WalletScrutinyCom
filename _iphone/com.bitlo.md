@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitlo
 title: 'Bitlo: Bitcoin & Kripto Para'
 altTitle: 
 authors:
