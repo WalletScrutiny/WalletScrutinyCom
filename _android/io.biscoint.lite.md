@@ -32,6 +32,12 @@ features:
 
 ---
 
+## Updated Review 2023-03-23 
+
+They replied: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">...users can convert their crypto into fiat and withdraw to their bank accounts. Important: users who make level-2 register (KYC, documents and stuff) are allowed to move their crypto to any crypto wallet they want. Thank you for reaching out!</p>&mdash; Biscoint Oficial (@biscoint) <a href="https://twitter.com/biscoint/status/1636339629686239232?ref_src=twsrc%5Etfw">March 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## App Description 
 
 [Terms of Use](https://www.bity.com.br/terms/)
