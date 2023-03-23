@@ -20,7 +20,7 @@ issue:
 icon: com.cloudwallet.android.png
 bugbounty: 
 meta: obsolete
-verdict: discontinued
+verdict: defunct
 date: 2023-02-08
 signer: 
 reviewArchive: 
