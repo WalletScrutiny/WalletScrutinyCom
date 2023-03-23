@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bicheng.newtw.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-02-25
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

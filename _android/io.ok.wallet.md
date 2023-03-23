@@ -3,7 +3,7 @@ wsId:
 title: OK钱包—比特币钱包OKCoin bitcoin walle
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.ok.wallet
 appCountry: 
 released: 2021-04-10

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.payble.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 

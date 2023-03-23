@@ -3,7 +3,7 @@ wsId:
 title: Centralex Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.centralex.app
 appCountry: 
 released: Mar 16, 2022

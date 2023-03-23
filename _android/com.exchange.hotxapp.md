@@ -7,8 +7,8 @@ users: 100
 appId: com.exchange.hotxapp
 appCountry: 
 released: Feb 27, 2022
-updated: 2022-12-23
-version: 1.0.26
+updated: 2023-02-28
+version: 1.0.29
 stars: 
 ratings: 
 reviews: 

@@ -3,15 +3,15 @@ wsId:
 title: Fairdesk Go:Trade Bitcoin, ETH
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
 released: Sep 25, 2021
-updated: 2022-09-15
-version: 1.3.2
-stars: 
+updated: 2023-03-01
+version: 1.4.0
+stars: 2.6
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.fairdesk.com/
 repository: 

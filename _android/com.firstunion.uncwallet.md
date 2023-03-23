@@ -9,9 +9,9 @@ appCountry:
 released: Apr 14, 2021
 updated: 2021-07-05
 version: 1.1.5
-stars: 5
+stars: 
 ratings: 
-reviews: 5
+reviews: 
 size: 
 website: https://first-union.com
 repository: 

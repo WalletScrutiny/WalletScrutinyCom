@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aqn.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2022-03-01
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

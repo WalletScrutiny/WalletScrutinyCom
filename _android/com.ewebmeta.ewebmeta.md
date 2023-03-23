@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Eweb Meta:Crypto & Gift Cards
+title: 'Eweb Meta: Crypto & Gift Cards'
 altTitle: 
 authors: 
 users: 1000
 appId: com.ewebmeta.ewebmeta
 appCountry: 
 released: Mar 13, 2022
-updated: 2022-12-30
+updated: 2023-03-17
 version: 2.0.0
 stars: 
 ratings: 

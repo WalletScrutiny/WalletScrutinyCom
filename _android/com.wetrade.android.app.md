@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'weTrade : Buy Bitcoin & Crypto'
+title: weTrade
 altTitle: 
 authors: 
 users: 100000

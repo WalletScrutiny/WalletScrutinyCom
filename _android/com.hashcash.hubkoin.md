@@ -7,8 +7,8 @@ users: 100
 appId: com.hashcash.hubkoin
 appCountry: 
 released: Apr 11, 2022
-updated: 2022-11-21
-version: 1.0.3
+updated: 2023-02-16
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 

@@ -12,7 +12,7 @@ updated: 2022-11-15
 version: 2.5.0
 stars: 4.4
 ratings: 
-reviews: 70
+reviews: 71
 size: 
 website: https://www.f2pool.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.trader.brands.cfdglobal
 appCountry: gb
 idd: 1304998844
 released: 2018-02-03
-updated: 2022-12-22
-version: '1.39'
+updated: 2023-03-20
+version: '1.40'
 stars: 5
 reviews: 8
-size: '125836288'
+size: '142270464'
 website: http://www.capex.com/
 repository: 
 issue: 
