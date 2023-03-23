@@ -9,9 +9,9 @@ appCountry:
 released: Oct 29, 2021
 updated: 2022-06-12
 version: 3.0.2
-stars: 5
+stars: 
 ratings: 
-reviews: 14
+reviews: 
 size: 
 website: https://rbitex.com
 repository: 

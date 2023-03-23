@@ -3,7 +3,7 @@ wsId:
 title: Rodinia Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.rodiniawallet.app
 appCountry: 
 released: Aug 15, 2021

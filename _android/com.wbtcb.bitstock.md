@@ -9,9 +9,9 @@ appCountry:
 released: Jun 17, 2020
 updated: 2022-11-02
 version: 2.5.2
-stars: 
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.futured.app/
 repository: 

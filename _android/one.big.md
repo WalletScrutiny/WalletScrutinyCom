@@ -8,11 +8,11 @@ users: 50000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2023-01-16
-version: 2.3.402
+updated: 2023-03-15
+version: 2.3.6
 stars: 4
 ratings: 836
-reviews: 53
+reviews: 54
 size: 
 website: https://www.b1.zone/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Buy Bitcoin & Ethereum'
+title: 'Change: Invest & Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.getchange.dev
 appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2023-02-06
-version: 20.37.1
+updated: 2023-03-09
+version: 30.38.2
 stars: 4.1
 reviews: 33
-size: '120172544'
+size: '119922688'
 website: https://www.changeinvest.com/
 repository: 
 issue: 
