@@ -8,11 +8,11 @@ users: 1000000
 appId: com.xtb.xmobile2
 appCountry: 
 released: 2014-12-17
-updated: 2023-02-27
+updated: 2023-03-20
 version: VARY
 stars: 4.2
 ratings: 22753
-reviews: 93
+reviews: 94
 size: 
 website: http://www.xtb.com
 repository: 

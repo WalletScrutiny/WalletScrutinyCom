@@ -8,11 +8,11 @@ appId: us.binance.fiat
 appCountry: 
 idd: 1492670702
 released: 2020-01-05
-updated: 2023-03-15
-version: 2.23.0
+updated: 2023-03-22
+version: 2.23.1
 stars: 4.2
-reviews: 107442
-size: '259648512'
+reviews: 107459
+size: '259746816'
 website: https://www.binance.us/en/home
 repository: 
 issue: 

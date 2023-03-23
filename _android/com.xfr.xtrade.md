@@ -11,7 +11,7 @@ updated: 2023-02-08
 version: 6.0.87
 stars: 4.3
 ratings: 37358
-reviews: 68
+reviews: 69
 size: 
 website: http://www.xtrade.com
 repository: 

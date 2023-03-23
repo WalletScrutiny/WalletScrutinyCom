@@ -8,7 +8,7 @@ appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
 updated: 2023-03-13
-version: 2023.1.2
+version: 2023.2.0
 stars: 4.3
 ratings: 26395
 reviews: 1824

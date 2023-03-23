@@ -7,8 +7,8 @@ users: 5000
 appId: com.defichain.app.dfx
 appCountry: 
 released: Aug 24, 2021
-updated: 2023-01-28
-version: 1.19.3
+updated: 2023-03-22
+version: 1.20.1
 stars: 3.7
 ratings: 
 reviews: 3
