@@ -29,7 +29,17 @@ twitter: opolowallet
 social: 
 ---
 
-## Product Description 
+## Updated Review 2023-03-23
+
+Opolo's twitter account responded: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The mnemonics seed is stored on the secure card which is protected by the password (upto 128 characters long). To read more about protections please check out our kickstarter page <a href="https://t.co/qevRseey53">https://t.co/qevRseey53</a></p>&mdash; OPOLO Hardware Wallet (www.OPOLO.io) (@OpoloWallet) <a href="https://twitter.com/OpoloWallet/status/1638129725284524033?ref_src=twsrc%5Etfw">March 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+> The mnemonics seed is stored on the secure card which is protected by the password (upto 128 characters long). To read more about protections please check out our kickstarter page
+
+## Previous Review 2023-02-28
+
+### Product Description 
 
 The card is a backup mechanism for the {% include walletLink.html wallet='hardware/opolocosmos' verdict='true' %}
 
