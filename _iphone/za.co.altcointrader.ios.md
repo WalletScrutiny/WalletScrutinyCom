@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: altcoinTrader
 title: AltCoinTrader - Bitcoin Crypto
 altTitle: 
 authors: 

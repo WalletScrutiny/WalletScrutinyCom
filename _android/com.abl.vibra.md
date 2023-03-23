@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: vibra
 title: 'VIBRA Wallet: Buy BTC and ETH'
 altTitle: 
 authors:
