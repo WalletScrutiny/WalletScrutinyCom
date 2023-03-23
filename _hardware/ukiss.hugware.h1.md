@@ -1,6 +1,6 @@
 ---
-title: UKISS Hugware®
-appId: ukiss.hugware
+title: UKISS Hugware® H1
+appId: ukiss.hugware.h1
 authors:
 - danny
 released: 2022-06-20
@@ -13,7 +13,7 @@ weight:
 provider: UKISS Technology
 providerWebsite: 
 website: https://www.ukiss.io/
-shop: https://www.ukiss.io/h2bundle/
+shop: https://web.archive.org/web/20220623141833/https://www.ukiss.io/launch-bundle/
 country: SG
 price: 169USD
 repository: 
