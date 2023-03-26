@@ -9,9 +9,9 @@ appCountry:
 released: Sep 25, 2021
 updated: 2023-03-01
 version: 1.4.0
-stars: 2.6
+stars: 4.4
 ratings: 
-reviews: 4
+reviews: 30
 size: 
 website: https://www.fairdesk.com/
 repository: 

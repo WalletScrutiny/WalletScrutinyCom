@@ -3,7 +3,7 @@ wsId:
 title: Valora - Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: co.clabs.valora
 appCountry: 
@@ -26,11 +26,12 @@ signer:
 reviewArchive: 
 twitter: valoraApp
 social:
-- https://www.facebook.com/ValoraApp 
+- https://www.facebook.com/ValoraApp
 redirect_from: 
 features: 
 
 ---
+
 This app only supports cash-ins via Celo, cUSD, cEUR, or cREAL. Other mediums include Coinbase Pay, but only for Celo. This app does not support BTC.
 
 [Terms](https://valoraapp.com/terms)

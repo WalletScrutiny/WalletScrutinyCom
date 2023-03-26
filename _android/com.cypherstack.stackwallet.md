@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.cypherstack.stackwallet
 appCountry: 
-updated: 2023-03-18
+released: 
+updated: 2023-03-23
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -13,7 +13,7 @@ stars: 4
 ratings: 
 reviews: 3
 size: 
-website: https://www.yeschanger.com
+website: https://yeschangers.com
 repository: 
 issue: 
 icon: com.yeschanger.com.png

@@ -9,9 +9,9 @@ appCountry:
 released: Apr 27, 2022
 updated: 2023-03-21
 version: 4.1.0
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: https://onekey.so
 repository: 

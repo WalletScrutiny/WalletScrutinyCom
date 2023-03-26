@@ -2,7 +2,7 @@
 wsId: 
 title: CryptoTab Browser Max Speed
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000000
 appId: max.cryptotab.android
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CryptoTabnet
 social:
-- https://www.facebook.com/CryptoTabFamilyOfficial 
+- https://www.facebook.com/CryptoTabFamilyOfficial
 redirect_from: 
 features: 
 

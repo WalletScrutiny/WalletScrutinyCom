@@ -3,7 +3,7 @@ wsId: RoyalQ
 title: Royal Q
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.royalqs.royalq
 appCountry: 

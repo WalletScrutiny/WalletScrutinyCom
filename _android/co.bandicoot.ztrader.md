@@ -2,7 +2,7 @@
 wsId: 
 title: zTrader Altcoin/Bitcoin Trader
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: co.bandicoot.ztrader

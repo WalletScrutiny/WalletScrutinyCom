@@ -10,9 +10,9 @@ appCountry:
 released: 2017-11-01
 updated: 2023-03-22
 version: 9.8.3
-stars: 4
+stars: 4.1
 ratings: 31840
-reviews: 425
+reviews: 427
 size: 
 website: http://www.hbg.com
 repository: 

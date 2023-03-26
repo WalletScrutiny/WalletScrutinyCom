@@ -12,7 +12,7 @@ released: 2018-09-29
 updated: 2023-02-16
 version: 3.3.3
 stars: 3.9
-reviews: 178
+reviews: 174
 size: '119716864'
 website: https://www.itoken.com/en/
 repository: 

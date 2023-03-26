@@ -8,11 +8,11 @@ appId: one.citadel.mobile
 appCountry: us
 idd: '1546701475'
 released: '2021-04-06T07:00:00Z'
-updated: 2023-03-21
-version: 2.7.1
+updated: 2023-03-24
+version: 2.7.2
 stars: 3.4
 reviews: 5
-size: '96355328'
+size: '96703488'
 website: https://citadel.one/
 repository: https://github.com/citadeldao
 issue: 

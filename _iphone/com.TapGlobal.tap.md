@@ -11,7 +11,7 @@ released: 2019-12-20
 updated: 2023-03-20
 version: 2.6.7
 stars: 4.7
-reviews: 1210
+reviews: 1220
 size: '192497664'
 website: https://www.tap.global/
 repository: 
