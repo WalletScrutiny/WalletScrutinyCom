@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: biconomy
 title: 'Biconomy: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 

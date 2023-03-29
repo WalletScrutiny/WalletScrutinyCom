@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: capitual
 title: Capitual - Multiple Currencies
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.capitual
 appCountry: us
 idd: '1458793819'
@@ -18,13 +19,18 @@ issue:
 icon: com.capitual.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-02-17
 signer: 
 reviewArchive: 
-twitter: 
+twitter: capitual
 social: 
+- https://www.instagram.com/capitual/
+- https://www.facebook.com/Capitual/
+- https://www.youtube.com/c/Capitual
+- https://www.linkedin.com/company/capitual/
 features: 
 
 ---
 
+{% include copyFromAndroid.html %}

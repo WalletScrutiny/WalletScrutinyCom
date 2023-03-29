@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitkubNext
 title: Bitkub NEXT
 altTitle: 
 authors: 
@@ -24,8 +24,9 @@ verdict: nobtc
 date: 2023-02-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: bitkubchain
+social:
+- https://www.facebook.com/bitkubchainofficial 
 redirect_from: 
 features: 
 
@@ -37,7 +38,7 @@ From the app description:
 
 The Terms and Conditions found on the app states that the exchange is capable of freezing the customers' funds, marking it as a custodial exchange.
 
-## 1.2.7.     Prohibited Use, Prohibited Business and Conditional Use
+## 1.2.7. Prohibited Use, Prohibited Business and Conditional Use
 
 > (3)  The Company reserves the right and in its own discretion to cancel and/or suspend the Customer’s Account and/or block any transactions (including but not limited to the Transfer Transaction (defined below) and the Matching Transaction (defined below) or immediately freeze funds without any prior notice, in case the Customer’s Account is associated with aprohibited business, prohibited use or conditional use.
 
