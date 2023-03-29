@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.upbots.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 

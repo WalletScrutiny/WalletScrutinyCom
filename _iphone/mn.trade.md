@@ -8,11 +8,11 @@ appId: mn.trade
 appCountry: us
 idd: 1303463253
 released: 2018-05-05
-updated: 2023-02-03
-version: 2.0.7
+updated: 2023-02-17
+version: 3.0.3
 stars: 2
 reviews: 29
-size: '35128320'
+size: '35132416'
 website: https://trade.mn
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
 stars: 2.9
-reviews: 143
+reviews: 142
 size: '135105536'
 website: https://hoo.com
 repository: 

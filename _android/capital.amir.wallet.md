@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallet Amir: buy BTC'
+title: 'Bitcoin Crypto Wallet: Amir'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: capital.amir.wallet
 appCountry: 
 released: 2021-08-03
-updated: 2023-02-01
-version: 3.21.2.04
+updated: 2023-02-20
+version: 3.21.3.08
 stars: 
 ratings: 
 reviews: 

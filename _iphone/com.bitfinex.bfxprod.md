@@ -10,7 +10,7 @@ idd: 1436383182
 released: 2019-01-25
 updated: 2022-12-16
 version: 5.16.0
-stars: 4.1
+stars: 4
 reviews: 121
 size: '42568704'
 website: https://www.bitfinex.com/mobile-trading/

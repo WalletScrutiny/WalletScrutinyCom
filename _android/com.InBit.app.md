@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.InBit.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

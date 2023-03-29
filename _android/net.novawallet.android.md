@@ -11,7 +11,7 @@ updated: 2022-07-26
 version: 2.2.5
 stars: 4.9
 ratings: 
-reviews: 717
+reviews: 715
 size: 
 website: http://www.vsolidus.com/
 repository: 

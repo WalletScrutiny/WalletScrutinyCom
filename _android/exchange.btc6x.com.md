@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.btc6x.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 

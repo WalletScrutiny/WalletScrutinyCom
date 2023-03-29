@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: Key App — Solana Crypto Wallet
+title: 'Key App: send & receive crypto'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: org.p2p.wallet
 appCountry: 
 released: Oct 23, 2021

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptotrader.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-02-20
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 

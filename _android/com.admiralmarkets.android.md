@@ -4,15 +4,15 @@ title: 'Admirals: Trade Stocks & CFDs'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
-updated: 2023-01-12
-version: 1.6.9
-stars: 4
+updated: 2023-03-20
+version: 1.7.2
+stars: 4.4
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://www.admiralmarkets.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitfairex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-03-21
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: 

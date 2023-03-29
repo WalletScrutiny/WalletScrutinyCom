@@ -12,16 +12,16 @@ updated: 2022-02-16
 version: 12.02.18
 stars: 3.9
 ratings: 235
-reviews: 103
+reviews: 102
 size: 
 website: https://www.coin.cloud
 repository: 
 issue: 
 icon: com.bitpay.coincloud.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-05-12
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: CoinCloudATM

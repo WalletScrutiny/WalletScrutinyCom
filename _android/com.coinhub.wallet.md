@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinhub.wallet
 appCountry: 
 released: 2021-07-13
-updated: 2023-01-31
-version: 2.6.9
-stars: 4
+updated: 2023-03-09
+version: 2.7.2
+stars: 3.9
 ratings: 869
-reviews: 37
+reviews: 35
 size: 
 website: https://www.coinhub.org
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.eicapp.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-01-01
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
