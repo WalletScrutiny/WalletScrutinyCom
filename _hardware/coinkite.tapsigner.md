@@ -40,7 +40,7 @@ features:
 
 ## Background 
 
-{{ page.title }} is an NFC card from the same providers as {% include walletLink.html wallet='bearer/coinkite.satscard' verdict=0 %}. 
+{{ page.title }} is an NFC card from the same providers as {% include walletLink.html wallet='bearer/coinkite.satscard' verdict='true' %}. 
 
 ## The Site
 
