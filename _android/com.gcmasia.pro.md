@@ -20,8 +20,8 @@ issue:
 icon: com.gcmasia.pro.png
 bugbounty: 
 meta: ok
-verdict: nowallet
-date: 2023-02-10
+verdict: nosendreceive
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
@@ -52,7 +52,7 @@ Users can withdraw by filling up a downloadable form with the following fields:
 
 We opened a demo account and noticed that the account is denominated in USD. It is possible to search for a BTC/USD pair. 
 
-This app does **not have a bitcoin wallet.** 
+This app does not have a bitcoin wallet, but offers opportunities to "buy" BTC/USD via CFD.
 
 
 

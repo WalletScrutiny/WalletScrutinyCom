@@ -1,5 +1,5 @@
 ---
-wsId: kucoin
+wsId: kucoinExchange
 title: 'KuCoin: BTC, Crypto Exchange'
 altTitle: 
 authors:
