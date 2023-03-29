@@ -19,8 +19,8 @@ repository:
 issue: 
 icon: com.b4uglobal.app.png
 bugbounty: 
-meta: stale
-verdict: defunct
+meta: defunct
+verdict: wip
 date: 2023-02-08
 signer: 
 reviewArchive: 
