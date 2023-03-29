@@ -2,7 +2,8 @@
 wsId: 
 title: Bitflash Exchange
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.bitflash.exchange
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.bitflash.exchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,6 @@ features:
 
 ---
 
+The homepage for this app is currently parked. When we tried to sign in, the app gave a blank error. 
+
+This app is most likely no longer functional.
