@@ -26,8 +26,10 @@ date: 2023-02-07
 signer: 
 reviewArchive: 
 twitter: specterwallet
-social: 
+social:
 - https://www.linkedin.com/company/specterlabs/
+features: 
+
 ---
 
 ## Product Description 

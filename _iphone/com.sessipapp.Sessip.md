@@ -3,7 +3,7 @@ wsId: sessip
 title: Sessip par S2IP
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.sessipapp.Sessip
 appCountry: us
 idd: '1582234240'
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

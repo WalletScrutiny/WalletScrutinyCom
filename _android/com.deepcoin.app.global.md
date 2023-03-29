@@ -3,7 +3,7 @@ wsId: deepcoin
 title: 'Deepcoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.deepcoin.app.global
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/deepcoinpro/ 
+- https://www.linkedin.com/company/deepcoinpro/
 redirect_from: 
 features: 
 

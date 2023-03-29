@@ -7,8 +7,8 @@ users: 10000
 appId: com.yeschanger.com
 appCountry: 
 released: Jun 2, 2022
-updated: 2022-08-25
-version: 2.91.12
+updated: 2023-03-27
+version: 3.92.13
 stars: 4
 ratings: 
 reviews: 3

@@ -3,7 +3,7 @@ wsId:
 title: 'KuCoin Wallet: Crypto & NFT'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.kucoin.wallet
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2023-03-09
 version: 1.8.0
 stars: 4.3
 ratings: 
-reviews: 57
+reviews: 58
 size: 
 website: https://kuwallet.com
 repository: 

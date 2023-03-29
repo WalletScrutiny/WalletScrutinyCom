@@ -9,8 +9,8 @@ updated:
 version: 0.1
 binaries: https://github.com/Toporin/Seedkeeper-Applet/releases/tag/v0.1
 dimensions:
-- 85.60
-- 53.98 
+- 85.6
+- 53.98
 weight: 
 provider: Satochip
 providerWebsite: https://satochip.io
@@ -28,8 +28,10 @@ date: 2023-02-07
 signer: 
 reviewArchive: 
 twitter: satochipwallet
-social: 
+social:
 - https://www.linkedin.com/company/satochip/
+features: 
+
 ---
 
 ## Product Description 

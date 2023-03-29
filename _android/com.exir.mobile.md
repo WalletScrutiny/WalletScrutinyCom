@@ -3,7 +3,7 @@ wsId:
 title: EXIR | اکسیر
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.exir.mobile
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: EXIR_Official
 social:
-- https://www.linkedin.com/company/exirexchange/ 
+- https://www.linkedin.com/company/exirexchange/
 redirect_from: 
 features: 
 

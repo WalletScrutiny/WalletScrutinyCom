@@ -3,7 +3,7 @@ wsId: f2pool
 title: F2Pool
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.f2pool.f2pool
 appCountry: 

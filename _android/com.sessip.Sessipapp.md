@@ -3,7 +3,7 @@ wsId: sessip
 title: Sessip
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.sessip.Sessipapp
 appCountry: 

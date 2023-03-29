@@ -3,11 +3,11 @@ wsId: gcmasiapro
 title: GCMAsia Pro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.gcmasia.pro
 appCountry: HK
-released: 
+released: Apr 24, 2017
 updated: 2022-11-27
 version: 90.3.010
 stars: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/GCMASIA.Forex.Trading.Platform 
+- https://www.facebook.com/GCMASIA.Forex.Trading.Platform
 redirect_from: 
 features: 
 

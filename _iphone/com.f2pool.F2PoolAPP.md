@@ -3,15 +3,15 @@ wsId: f2pool
 title: F2Pool
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.f2pool.F2PoolAPP
 appCountry: us
 idd: '1403702113'
 released: '2018-09-06T21:37:03Z'
 updated: 2022-11-18
 version: 2.5.0
-stars: 4.12994
-reviews: 177
+stars: 4.1
+reviews: 176
 size: '82092032'
 website: https://www.f2pool.com/
 repository: 

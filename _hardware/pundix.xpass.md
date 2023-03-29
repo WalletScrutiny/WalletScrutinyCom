@@ -26,10 +26,12 @@ date: 2023-02-06
 signer: 
 reviewArchive: 
 twitter: PundiXLabs
-social: 
+social:
 - https://www.linkedin.com/company/pundix/
 - https://www.youtube.com/channel/UCOIf6WeLEzZi3DQxzenTZeA
 - https://www.facebook.com/pundixlabs
+features: 
+
 ---
 
 ## Updated Review 2023-02-22

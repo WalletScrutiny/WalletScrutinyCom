@@ -1,6 +1,6 @@
 ---
 wsId: Pintu
-title: 'Pintu: Buy/Sell Digital Assets'
+title: 'Pintu: Buy & Invest Crypto'
 altTitle: 
 authors:
 - danny

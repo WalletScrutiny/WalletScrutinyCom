@@ -13,7 +13,7 @@ version: 1.5.3
 stars: 4.7
 reviews: 15
 size: '52917248'
-website: http://vault12.com
+website: https://vault12.com
 repository: https://github.com/vault12
 issue: 
 icon: com.vault12.vault12.jpg

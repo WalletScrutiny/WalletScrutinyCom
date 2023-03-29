@@ -7,8 +7,8 @@ users: 10000
 appId: com.blofin.android
 appCountry: 
 released: May 13, 2022
-updated: 2023-03-16
-version: 2.1.0
+updated: 2023-03-23
+version: 2.1.1
 stars: 3.9
 ratings: 
 reviews: 7
