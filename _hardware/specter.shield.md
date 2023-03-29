@@ -1,5 +1,5 @@
 ---
-title: Specter Solutions Specter Shield
+title: Specter Shield
 appId: specter.shield
 authors:
 - danny
@@ -38,7 +38,7 @@ Specter Solutions was acquired by Swan in 2022.
 > - Extension board for F469-Discovery board by STMicroelectronics
 > - It includes a QR scanner, smartcard slot and a battery. All elements are not security-critical - QR scanner only captures images and sends scanned data to the main MCU over dead-simple serial interface, smartcard controller learns nothing about the data transmitted to the secure element as communication with it is encrypted.
 
-The repository for the shield is under the subfolder of {% include walletLink.html wallet='hardware/specterdiy' verdict='true' %}
+This product being a copy of the open hardware and open source {% include walletLink.html wallet='hardware/specterdiy' verdict='true' %}, you can find the source code there.
 
 ### [BitcoinMagazine Description by Moritz Wietersheim](https://bitcoinmagazine.com/business/moritz-wietersheim-specter-bitcoin)
 
@@ -46,4 +46,4 @@ The repository for the shield is under the subfolder of {% include walletLink.ht
 
 ## Analysis 
 
-Although this product can be bought entirely assembled from Specter Solutions website (though it is out-of-stock as of 2023-02-07), this project may still qualify as a **do it yourself** project.
+Although this product can be bought entirely assembled from Specter Solutions website, we still list it as a **do it yourself** project as it is out of stock but can be assembled from off-the-shelf components.
