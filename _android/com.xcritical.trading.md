@@ -2,7 +2,7 @@
 wsId: xcritical
 title: XCritical
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: com.xcritical.trading

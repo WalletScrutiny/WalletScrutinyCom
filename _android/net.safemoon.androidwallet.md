@@ -3,7 +3,7 @@ wsId: safemoon
 title: SafeMoon
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: net.safemoon.androidwallet
 appCountry: 

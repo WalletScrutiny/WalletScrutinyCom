@@ -1,16 +1,16 @@
 ---
 wsId: vault12
-title: Vault12 Inherit Crypto & NFTs
+title: Vault12 Guard, Inherit, Backup
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: Aug 28, 2019
-updated: 2022-12-21
-version: 1.7.10
-stars: 4.4
+updated: 2023-03-14
+version: 1.7.24
+stars: 4.3
 ratings: 
 reviews: 99
 size: 
@@ -25,7 +25,7 @@ date: 2023-02-13
 signer: 
 reviewArchive: 
 twitter: _vault12_
-social: 
+social:
 - https://www.facebook.com/GetVault12/
 - https://www.linkedin.com/company/vault12/
 - https://www.instagram.com/vault12/

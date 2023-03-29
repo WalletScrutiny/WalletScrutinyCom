@@ -3,7 +3,7 @@ wsId: gosats
 title: GoSats - Bitcoin Rewards App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: io.gosats
 appCountry: 

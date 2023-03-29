@@ -2,7 +2,7 @@
 wsId: hkd
 title: HKD.com
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: hkd.com
@@ -25,7 +25,7 @@ date: 2023-02-13
 signer: 
 reviewArchive: 
 twitter: HKD_exchange
-social: 
+social:
 - https://www.facebook.com/hkdexchange/
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en

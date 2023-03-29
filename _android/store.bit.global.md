@@ -3,7 +3,7 @@ wsId: bitStore
 title: Bit.Store - Klaim max 1.4jt
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: store.bit.global
 appCountry: 

@@ -2,7 +2,7 @@
 wsId: xcritical
 title: XCritical
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.xcritical.trading
 appCountry: ca

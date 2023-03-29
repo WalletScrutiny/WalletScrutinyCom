@@ -3,7 +3,7 @@ wsId: bitStore
 title: Bit.Store
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitstore.uab
 appCountry: us
 idd: '1640445212'

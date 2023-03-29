@@ -3,7 +3,7 @@ wsId:
 title: 'Attlas: Buy Bitcoin Securely'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: io.attlas
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/attlas.io/ 
+- https://www.facebook.com/attlas.io/
 redirect_from: 
 features: 
 
