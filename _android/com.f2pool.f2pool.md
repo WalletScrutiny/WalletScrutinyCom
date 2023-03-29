@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: f2pool
 title: F2Pool
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.f2pool.f2pool
 appCountry: 
@@ -19,14 +20,16 @@ issue:
 icon: com.f2pool.f2pool.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-23
+verdict: nowallet
+date: 2023-02-10
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: F2Pool_Official
+social:
+- https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
 redirect_from: 
 features: 
 
 ---
 
+This is a mining pool management app. The user is asked to provide his own address for payouts.

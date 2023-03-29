@@ -1,5 +1,5 @@
 ---
-wsId: kucoin
+wsId: kucoinExchange
 title: KuCoin- Buy Bitcoin & Crypto
 altTitle: 
 authors:
