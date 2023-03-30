@@ -21,7 +21,7 @@ issue:
 icon: frogwallets.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: plainkey
 date: 2023-03-29
 signer: 
 reviewArchive: 
