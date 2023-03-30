@@ -12,7 +12,7 @@ updated: 2023-03-27
 version: 2.5.6
 stars: 4.9
 ratings: 
-reviews: 7
+reviews: 6
 size: 
 website: http://hkd.com
 repository: 

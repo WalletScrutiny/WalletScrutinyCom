@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Sun Crypto: Buy & Sell Coins'
+title: 'Sun Crypto: Buy & Sell Crypto'
 altTitle: 
 authors: 
 users: 1000000

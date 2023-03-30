@@ -3,16 +3,16 @@ wsId:
 title: Bitso Alpha - Crypto trader Pr
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.bitso.alpha
 appCountry: GI
 released: Sep 28, 2021
 updated: 2023-03-20
 version: 1.15.4
-stars: 3.4
+stars: 4
 ratings: 
-reviews: 6
+reviews: 439
 size: 
 website: https://bitso.com/alpha/landing
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Bitso
 social:
-- https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668 
+- https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
 redirect_from: 
 features: 
 

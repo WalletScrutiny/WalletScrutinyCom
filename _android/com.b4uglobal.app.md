@@ -3,7 +3,7 @@ wsId:
 title: B4U Global
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.b4uglobal.app
 appCountry: 

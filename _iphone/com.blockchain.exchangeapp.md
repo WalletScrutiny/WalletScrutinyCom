@@ -3,15 +3,15 @@ wsId: blockchainExchange
 title: Blockchain.com Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.blockchain.exchangeapp
 appCountry: us
 idd: '1557515848'
 released: '2021-09-13T07:00:00Z'
 updated: 2023-01-24
 version: 202301.1.1
-stars: 4.09734
-reviews: 113
+stars: 4.1
+reviews: 110
 size: '123141120'
 website: https://exchange.blockchain.com/
 repository: 
@@ -29,4 +29,5 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

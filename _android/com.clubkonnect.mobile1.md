@@ -3,7 +3,7 @@ wsId:
 title: clubkonnect
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.clubkonnect.mobile1
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: clubkonnect247
 social:
-- https://www.facebook.com/clubkonnect247 
+- https://www.facebook.com/clubkonnect247
 redirect_from: 
 features: 
 

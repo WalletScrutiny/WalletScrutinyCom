@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Thunderbolt - Bitcoin and Ligh
+title: Thunderbolt Lightning Wallet
 altTitle: 
 authors: 
 users: 500

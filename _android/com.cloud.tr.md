@@ -9,10 +9,10 @@ appId: com.cloud.tr
 appCountry: tr
 released: 2021-07-16
 updated: 2023-03-26
-version: 1.20.3
+version: 1.21.1
 stars: 3.2
 ratings: 42784
-reviews: 15477
+reviews: 15479
 size: 
 website: https://www.trbinance.com/
 repository: 

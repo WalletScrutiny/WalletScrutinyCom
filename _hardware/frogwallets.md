@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Frog Wallets, LLC dba FrogWallets.com
 providerWebsite: 
@@ -27,6 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+
 ---
 
 ## Updated Review 2023-03-29
