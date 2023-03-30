@@ -1,6 +1,6 @@
 ---
 wsId: WealthsimpleTrade
-title: Wealthsimple
+title: Wealthsimple - Grow your money
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wealthsimple.trade
 appCountry: ca
 idd: 1403491709
 released: 2019-02-26
-updated: 2023-02-22
-version: 2.78.1
+updated: 2023-03-27
+version: 2.83.0
 stars: 4.7
-reviews: 123631
-size: '181712896'
+reviews: 123703
+size: '186024960'
 website: https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 

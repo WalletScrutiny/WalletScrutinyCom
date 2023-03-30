@@ -7,9 +7,9 @@ users: 10000
 appId: com.pexpay.android
 appCountry: 
 released: Mar 24, 2022
-updated: 2023-02-23
-version: 1.14.0
-stars: 4.3
+updated: 2023-03-16
+version: 1.15.0
+stars: 4.4
 ratings: 
 reviews: 6
 size: 

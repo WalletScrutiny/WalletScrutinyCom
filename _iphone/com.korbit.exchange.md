@@ -8,11 +8,11 @@ appId: com.korbit.exchange
 appCountry: us
 idd: 1434511619
 released: 2018-10-18
-updated: 2023-02-23
-version: 7.0.1
+updated: 2023-03-21
+version: 7.1.0
 stars: 2.8
 reviews: 16
-size: '191748096'
+size: '191899648'
 website: http://www.korbit.co.kr
 repository: 
 issue: 

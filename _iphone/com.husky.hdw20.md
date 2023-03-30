@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.husky.hdw20.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-03-29
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 

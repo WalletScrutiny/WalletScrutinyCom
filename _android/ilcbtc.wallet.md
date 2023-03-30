@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-03-21
+date: 2023-03-14
 signer: 
 reviewArchive: 
 twitter: ILC_B_Project

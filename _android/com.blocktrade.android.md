@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-10-28
 updated: 2023-02-14
 version: 2.3.1
-stars: 2.8
+stars: 2.9
 ratings: 187
-reviews: 10
+reviews: 9
 size: 
 website: http://blocktrade.com
 repository: 
