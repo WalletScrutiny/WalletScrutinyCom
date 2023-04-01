@@ -2,7 +2,8 @@
 wsId: 
 title: 'YANT Wallet : Bitcoin Ethereum'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.gbih.yantwallet
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.gbih.yantwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,4 +30,6 @@ redirect_from:
 features: 
 
 ---
+
+The last time this app was updated was in 2019.
 
