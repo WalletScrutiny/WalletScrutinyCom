@@ -8,7 +8,7 @@ users: 1000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2023-03-07
+updated: 2023-03-30
 version: 5.3.2
 stars: 4
 ratings: 27168

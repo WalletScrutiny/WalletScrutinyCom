@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kapitalrs.pro.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2022-04-11
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: Kapital_RS

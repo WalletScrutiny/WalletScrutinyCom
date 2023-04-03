@@ -8,8 +8,8 @@ users: 50000
 appId: com.qmall.exchange
 appCountry: 
 released: Dec 14, 2021
-updated: 2023-03-02
-version: 1.1.36
+updated: 2023-03-30
+version: 1.1.37
 stars: 
 ratings: 
 reviews: 

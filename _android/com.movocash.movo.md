@@ -12,7 +12,7 @@ updated: 2022-12-13
 version: 4.3.3
 stars: 3.4
 ratings: 
-reviews: 147
+reviews: 145
 size: 
 website: https://movo.cash/
 repository: 

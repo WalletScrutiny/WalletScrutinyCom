@@ -11,7 +11,7 @@ updated: 2023-02-10
 version: 2.2.0
 stars: 2.6
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://bourseechange.net/
 repository: 
