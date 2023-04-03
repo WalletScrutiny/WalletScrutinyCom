@@ -12,9 +12,9 @@ updated: 2023-03-21
 version: 3.1.0
 stars: 4.1
 ratings: 21149
-reviews: 1754
+reviews: 1757
 size: 
-website: https://nexo.io
+website: https://nexo.com
 repository: 
 issue: 
 icon: com.nexowallet.png

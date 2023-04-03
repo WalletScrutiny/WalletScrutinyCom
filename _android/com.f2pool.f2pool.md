@@ -8,8 +8,8 @@ users: 100000
 appId: com.f2pool.f2pool
 appCountry: 
 released: Sep 4, 2018
-updated: 2022-11-15
-version: 2.5.0
+updated: 2023-03-31
+version: 2.5.1
 stars: 4.4
 ratings: 
 reviews: 71

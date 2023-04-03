@@ -1,9 +1,9 @@
 ---
-wsId: devereCrypto 
+wsId: devereCrypto
 title: deVere Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.devere.dcx
 appCountry: 
@@ -25,7 +25,7 @@ date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: deveregroup
-social: 
+social:
 - https://www.facebook.com/deVere-Crypto-196359191107070
 redirect_from: 
 features: 

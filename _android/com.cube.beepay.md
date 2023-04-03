@@ -9,9 +9,9 @@ appCountry:
 released: Jul 14, 2021
 updated: 2023-02-04
 version: 2.1.3
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://befiwallet.io/
 repository: 

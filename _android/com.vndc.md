@@ -8,8 +8,8 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2023-03-30
-version: 4.1.3
+updated: 2023-04-01
+version: 4.1.4
 stars: 4.3
 ratings: 46866
 reviews: 366

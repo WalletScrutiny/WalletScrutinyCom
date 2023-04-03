@@ -2,7 +2,7 @@
 wsId: börseFinanzen
 title: Börse & Aktien - finanzen.net
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000000
 appId: de.finanzen.net
@@ -25,7 +25,7 @@ date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: FinanzenNet
-social: 
+social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 

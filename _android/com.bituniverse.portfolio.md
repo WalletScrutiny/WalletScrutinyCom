@@ -2,7 +2,7 @@
 wsId: bitUniverse
 title: BitUniverse:Crypto Trading Bot
 altTitle: 
-authors: 
+authors:
 - danny
 users: 500000
 appId: com.bituniverse.portfolio

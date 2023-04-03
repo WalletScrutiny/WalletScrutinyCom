@@ -2,7 +2,7 @@
 wsId: coinCap
 title: CoinCap.io
 altTitle: 
-authors: 
+authors:
 - danny
 users: 500000
 appId: io.coinCap.coinCap
@@ -25,7 +25,7 @@ date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: CoinCap_io
-social: 
+social:
 - https://www.facebook.com/watch/?v=365220420785166
 redirect_from: 
 features: 

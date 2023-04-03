@@ -2,7 +2,7 @@
 wsId: 
 title: Bidarz - بیدارز
 altTitle: 
-authors: 
+authors:
 - danny
 users: 100000
 appId: kajesabz.ir.bidarz
@@ -10,9 +10,9 @@ appCountry: IR
 released: 2019-01-16
 updated: 2023-03-02
 version: 4.3.28
-stars: 4.2
+stars: 4.3
 ratings: 4010
-reviews: 85
+reviews: 1539
 size: 
 website: https://www.bidarz.ir
 repository: 
@@ -25,7 +25,7 @@ date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: bidarzpro
-social: 
+social:
 - https://www.linkedin.com/company/bidarz/
 - https://www.facebook.com/Bidarz/
 redirect_from: 

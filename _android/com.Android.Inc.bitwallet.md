@@ -12,7 +12,7 @@ updated: 2022-12-24
 version: 1.4.30
 stars: 4.7
 ratings: 1214
-reviews: 263
+reviews: 266
 size: 
 website: https://www.bitwallet.org
 repository: 

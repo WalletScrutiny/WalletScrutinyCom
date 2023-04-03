@@ -9,9 +9,9 @@ appCountry: EE
 released: Nov 4, 2021
 updated: 2023-03-06
 version: 2.5.0
-stars: 2.1
+stars: 2
 ratings: 
-reviews: 268
+reviews: 10726
 size: 
 website: https://hi.com/
 repository: 
@@ -24,7 +24,7 @@ date: 2022-12-06
 signer: 
 reviewArchive: 
 twitter: hi_com_official
-social: 
+social:
 - https://www.facebook.com/hi.com.official
 - https://www.instagram.com/hi.com.official
 - https://www.reddit.com/r/hi_official
