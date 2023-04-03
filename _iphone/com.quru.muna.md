@@ -2,9 +2,10 @@
 wsId: munawallet
 title: Muna Africa
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.quru.muna
+appCountry: 
 idd: '1560415690'
 released: 2021-08-26
 updated: 2023-03-25
@@ -23,7 +24,7 @@ date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: munawallet
-social: 
+social:
 - https://www.facebook.com/munawallet
 - https://www.instagram.com/munawallet/
 features: 
