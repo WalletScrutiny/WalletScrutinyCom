@@ -1,5 +1,5 @@
 ---
-wsId: LMAX
+wsId: LMAXGlobal
 title: LMAX Global Trading
 altTitle: 
 authors:

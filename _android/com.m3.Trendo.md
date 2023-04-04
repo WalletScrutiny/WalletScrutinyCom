@@ -1,5 +1,5 @@
 ---
-wsId: trendofx
+wsId: 
 title: Forex Broker , bitcoin , forex , stock - Trendo
 altTitle: 
 authors:
@@ -32,7 +32,6 @@ features:
 ---
 
 **Update 2021-10-07**: This app is not on Play Store anymore.
-
 
 From its Google Play app summary:
 

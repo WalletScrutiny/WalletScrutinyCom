@@ -20,8 +20,8 @@ issue:
 icon: com.trendo.android.png
 bugbounty: 
 meta: ok
-verdict: nowallet
-date: 2023-02-27
+verdict: custodial
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,31 @@ features:
 
 ---
 
-## App Description from the [Play Store](https://play.google.com/store/apps/details?id=com.trendo.android)
+## Updated Analysis 2023-04-04 
+
+To date, Trendo has not replied to us from any channel. But there were some things that are more apparent now. 
+
+### Depositing Cryptocurrencies is Possible Through a Payment Processor Called NowPayments.io
+
+When we tried to use {{ page.title }}'s deposit options via the app, we were eventually led to a third-party payment processor called NowPayments.io. It was NowPayments that generated the BTC Address. 
+
+[(Screenshot)](https://twitter.com/BitcoinWalletz/status/1643194854762217473)
+
+### A Withdrawal Option in BTC is Present 
+
+[(Screenshot)](https://twitter.com/BitcoinWalletz/status/1643203463483133952)
+
+[Monitoring of Transactions in Trendo](https://fxtrendo.com/transactions)
+
+> To meet anti-money laundering laws, Trendo is entitled to monitor the deposits and withdrawals of all users. In case any abuse related to deposit and withdrawal policies is observed, Trendo Company can investigate the matter and take action according to the anti-money laundering laws of the financial market.
+
+## Updated Verdict 
+
+The ability to deposit and withdraw cryptocurrencies together with monitoring, means this platform provides a Bitcoin wallet and is a **custodial provider**.  
+
+## Previous Analysis 2023-02-27
+
+### App Description from the [Play Store](https://play.google.com/store/apps/details?id=com.trendo.android)
 
 Trendo allows trading in Forex, Stocks and cryptocurrencies. 
 
