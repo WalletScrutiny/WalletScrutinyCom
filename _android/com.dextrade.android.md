@@ -12,7 +12,7 @@ updated: 2022-12-30
 version: 1.2.6
 stars: 3.3
 ratings: 218
-reviews: 20
+reviews: 21
 size: 
 website: https://dex-trade.com
 repository: 

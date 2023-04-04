@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'KuCoin Wallet: Crypto & NFT'
+title: 'Halo Wallet: Web3 Wallet'
 altTitle: 
 authors:
 - danny
@@ -17,7 +17,7 @@ size:
 website: https://kuwallet.com
 repository: 
 issue: 
-icon: com.kucoin.wallet.png
+icon: com.kucoin.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc

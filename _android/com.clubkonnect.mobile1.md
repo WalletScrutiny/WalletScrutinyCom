@@ -3,7 +3,7 @@ wsId:
 title: clubkonnect
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.clubkonnect.mobile1
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2023-02-27
 version: 2.0.12
 stars: 3
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: http://www.clubkonnect.com
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: clubkonnect247
 social:
-- https://www.facebook.com/clubkonnect247 
+- https://www.facebook.com/clubkonnect247
 redirect_from: 
 features: 
 

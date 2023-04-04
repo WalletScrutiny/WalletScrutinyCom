@@ -9,9 +9,9 @@ users: 100000
 appId: com.koinal.android
 appCountry: gb
 released: 2020-06-04
-updated: 2023-03-17
-version: 1.4.9
-stars: 4.1
+updated: 2023-03-31
+version: 1.4.10
+stars: 4.2
 ratings: 1938
 reviews: 6
 size: 

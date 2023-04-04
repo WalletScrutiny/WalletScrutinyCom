@@ -3,7 +3,7 @@ wsId:
 title: Cloud 2.0
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.cloudwallet.android
 appCountry: 
@@ -30,6 +30,7 @@ redirect_from:
 features: 
 
 ---
+
 ## App Description
 
 It was described as a multicurrency wallet.

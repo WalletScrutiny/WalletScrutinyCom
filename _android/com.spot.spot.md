@@ -10,9 +10,9 @@ appCountry:
 released: 2018-08-02
 updated: 2023-03-27
 version: 4.75.5
-stars: 4.4
+stars: 4.3
 ratings: 4767
-reviews: 500
+reviews: 502
 size: 
 website: https://www.spot-wallet.com
 repository: 

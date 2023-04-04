@@ -12,7 +12,7 @@ updated: 2022-08-01
 version: 2.31.0
 stars: 3.4
 ratings: 77624
-reviews: 1104
+reviews: 1103
 size: 
 website: https://libertex.org
 repository: 

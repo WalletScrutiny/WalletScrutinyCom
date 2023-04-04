@@ -3,15 +3,15 @@ wsId: cindicator
 title: Cindicator
 altTitle: 
 authors:
-- danny 
+- danny
 appId: thevoteapp
 appCountry: us
 idd: '1050619919'
 released: '2016-01-18T01:30:41Z'
 updated: 2019-12-02
 version: 3.0.11
-stars: 4.80033
-reviews: 611
+stars: 4.8
+reviews: 610
 size: '92138496'
 website: https://cindicator.com
 repository: 
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: Cindicator
 social:
-- https://www.facebook.com/crowdindicator 
+- https://www.facebook.com/crowdindicator
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

@@ -3,7 +3,7 @@ wsId:
 title: 'Ant Network: Phone Based'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.creativeoffice.ripcoin
 appCountry: 
