@@ -19,12 +19,13 @@ issue:
 icon: ios.m3.Trendo.jpg
 bugbounty: 
 meta: ok
-verdict: nowallet
-date: 2021-10-01
+verdict: custodial
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.instagram.com/fxtrendo/ 
 features: 
 
 ---
