@@ -8,8 +8,8 @@ appId: coinunited.io
 appCountry: hk
 idd: 1565764339
 released: 2021-05-14
-updated: 2023-03-20
-version: 3.8.2
+updated: 2023-03-27
+version: 3.8.3
 stars: 4.9
 reviews: 281
 size: '107297792'

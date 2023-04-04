@@ -8,7 +8,7 @@ appId: com.nebeus.android
 appCountry: 
 released: 
 updated: 2023-03-10
-version: 1.4.34
+version: 1.4.35
 stars: 
 ratings: 
 reviews: 

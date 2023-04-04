@@ -11,7 +11,7 @@ updated: 2023-02-01
 version: 1.0.6
 stars: 3.5
 ratings: 
-reviews: 10
+reviews: 9
 size: 
 website: http://www.jtechtrade.com
 repository: 

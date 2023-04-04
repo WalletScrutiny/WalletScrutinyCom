@@ -7,8 +7,8 @@ users: 50000
 appId: com.coinhub.pro
 appCountry: 
 released: Aug 20, 2021
-updated: 2023-03-15
-version: 1.2.14.230315
+updated: 2023-03-29
+version: 1.3.2.230329
 stars: 4.4
 ratings: 
 reviews: 7

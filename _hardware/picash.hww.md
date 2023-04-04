@@ -9,8 +9,8 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 85.6
-- 53.98
+- 86
+- 54
 - 0.68
 weight: 
 provider: International Linked Solutions LTD

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'TabShop: POS & Invoice App'
+title: 'TabShop: POS & Point of Sales'
 altTitle: 
 authors:
 - danny
