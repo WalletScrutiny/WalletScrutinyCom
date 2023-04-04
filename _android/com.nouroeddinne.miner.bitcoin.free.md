@@ -12,7 +12,7 @@ updated: 2022-08-11
 version: '20.18'
 stars: 4.8
 ratings: 3855
-reviews: 668
+reviews: 672
 size: 
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 

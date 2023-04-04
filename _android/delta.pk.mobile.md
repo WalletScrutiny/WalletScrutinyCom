@@ -1,6 +1,6 @@
 ---
 wsId: DeltaTrading
-title: Delta Trading – FX, Shares, In
+title: Delta Trading – FX&Shares CFDs
 altTitle: 
 authors:
 - danny
