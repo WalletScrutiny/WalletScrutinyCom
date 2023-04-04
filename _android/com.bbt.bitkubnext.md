@@ -32,6 +32,17 @@ features:
 
 ---
 
+## Update Review 2023-04-04
+
+There are some concerns that BitKub has multiple apps and that some may need checking: 
+
+- {% include walletLink.html wallet='android/com.bitkub' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bitkub.app' verdict='true' %}
+
+We [verified on the support page](https://support.bitkub.com/en/support/solutions/articles/151000034663-bitkub-chain-whitepaper) of bitkub.com that it is connected to bitkubchain.com. 
+
+## Previous Review 2023-02-15
+
 From the app description:
 
 > Bitkub NEXT is a crypto wallet on the Bitkub chain. Bitkub NEXT aims to provide user-friendly access to Bitkub Chain, which securely keeps cryptocurrency and digital assets.

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitkubExchange
 title: Bitkub - Bitcoin & Crypto
 altTitle: 
 authors:
@@ -21,7 +21,7 @@ icon: com.bitkub.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-08-21
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: bitkubofficial
@@ -32,6 +32,22 @@ redirect_from:
 features: 
 
 ---
+
+## Update Review 2023-04-04
+
+There are some concerns that BitKub has multiple apps and that some may need checking: 
+
+- {% include walletLink.html wallet='iphone/com.bitkub.app' verdict='true' %}
+- {% include walletLink.html wallet='android/com.bbt.bitkubnext' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bbt.bitkubnext.app' verdict='true' %}
+
+We [verified on the support page](https://support.bitkub.com/en/support/solutions/articles/151000034663-bitkub-chain-whitepaper) of bitkub.com that it is connected to bitkubchain.com.  
+
+Here's the description for {% include walletLink.html wallet='android/com.bbt.bitkubnext' %}: 
+
+> Bitkub NEXT is a crypto wallet on the Bitkub chain. Bitkub NEXT aims to provide user-friendly access to Bitkub Chain, which securely keeps cryptocurrency and digital assets.
+
+## Previous Review 2023-02-16
 
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform
 
