@@ -3,7 +3,7 @@ wsId:
 title: Bixter
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: org.bixter.twa
 appCountry: 
 released: Dec 19, 2020
@@ -19,7 +19,7 @@ issue:
 icon: org.bixter.twa.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-12-17
 signer: 
 reviewArchive: 

@@ -8,11 +8,11 @@ appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076
 released: 2018-05-29
-updated: 2022-08-22
-version: 6.0.6
+updated: 2023-02-24
+version: 6.0.7
 stars: 3.2
-reviews: 819
-size: '48483328'
+reviews: 822
+size: '38435840'
 website: https://bitbns.com
 repository: 
 issue: 

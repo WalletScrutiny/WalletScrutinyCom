@@ -19,9 +19,9 @@ repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: ftbfs
-date: 2022-02-16
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

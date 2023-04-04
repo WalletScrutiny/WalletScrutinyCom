@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 91
 - 55
-- 9 
+- 9
 weight: 63
 provider: Keypal
 providerWebsite: 
@@ -29,8 +29,10 @@ date: 2023-02-02
 signer: 
 reviewArchive: 
 twitter: KeyPalWallet
-social: 
-- https://medium.com/@Keypal 
+social:
+- https://medium.com/@Keypal
+features: 
+
 ---
 
 ## Product Description 

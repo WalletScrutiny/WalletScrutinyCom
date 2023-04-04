@@ -3,7 +3,7 @@ wsId:
 title: WLLT
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: pro.smartym.wllt
 appCountry: 
 released: 2019-03-19

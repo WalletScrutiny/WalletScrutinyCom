@@ -10,9 +10,9 @@ appCountry:
 released: 2019-04-04
 updated: 2022-09-01
 version: '2.5'
-stars: 4.8
+stars: 4.6
 ratings: 106
-reviews: 9
+reviews: 10
 size: 
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app

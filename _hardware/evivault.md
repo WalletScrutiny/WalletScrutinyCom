@@ -1,6 +1,6 @@
 ---
 title: EviVault NFC
-appId: evivault.nfc 
+appId: evivault
 authors:
 - danny
 released: 2019-05-27
@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 35
 - 28
-- 6 
+- 6
 weight: 3.9
 provider: FreeMindTronic
 providerWebsite: https://freemindtronic.com
@@ -29,8 +29,10 @@ date: 2023-02-02
 signer: 
 reviewArchive: 
 twitter: EviVault
-social: 
-  - 
+social:
+- 
+features: 
+
 ---
 
 ## Product Description 

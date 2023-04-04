@@ -8,11 +8,11 @@ appId: com.satang-pro.ios
 appCountry: us
 idd: '1513155132'
 released: '2021-08-25T07:00:00Z'
-updated: 2022-12-29
-version: 1.3.1
+updated: 2023-03-13
+version: 1.4.2
 stars: 4.2
 reviews: 5
-size: '165781504'
+size: '170748928'
 website: https://satangcorp.com
 repository: 
 issue: 

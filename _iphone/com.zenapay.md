@@ -11,7 +11,7 @@ released: '2017-10-26T21:04:54Z'
 updated: 2021-12-07
 version: '4.7'
 stars: 4.9
-reviews: 8
+reviews: 7
 size: '40471552'
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 

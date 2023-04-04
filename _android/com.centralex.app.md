@@ -3,7 +3,7 @@ wsId:
 title: Centralex Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.centralex.app
 appCountry: 
 released: Mar 16, 2022
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.centralex.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 

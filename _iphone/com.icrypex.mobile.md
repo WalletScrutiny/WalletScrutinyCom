@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.icrypex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-24
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: icrypex

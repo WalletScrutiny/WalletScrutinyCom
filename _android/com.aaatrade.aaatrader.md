@@ -3,7 +3,7 @@ wsId:
 title: AAATrader - Worldwide Trading
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.aaatrade.aaatrader
 appCountry: 
 released: 

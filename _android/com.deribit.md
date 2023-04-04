@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Deribit
+title: 'Deribit: BTC Options & Futures'
 altTitle: 
 authors: 
 users: 10000
 appId: com.deribit
 appCountry: 
 released: Jan 10, 2018
-updated: 2022-08-29
-version: 2.0.6
+updated: 2023-03-24
+version: 3.1.0
 stars: 4
 ratings: 
 reviews: 5

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
-updated: 2022-12-15
-version: 3.10.0
-stars: 3.5
+updated: 2023-04-03
+version: 3.12.0
+stars: 3.3
 ratings: 10117
-reviews: 140
+reviews: 144
 size: 
 website: https://www.muchbetter.com
 repository: 

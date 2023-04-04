@@ -11,7 +11,7 @@ released: '2019-09-09T07:00:00Z'
 updated: 2022-12-22
 version: 2.0.3
 stars: 3.9
-reviews: 37
+reviews: 31
 size: '70281216'
 website: https://prostocash.com
 repository: 

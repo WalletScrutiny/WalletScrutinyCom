@@ -3,12 +3,12 @@ wsId:
 title: BitToken
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bittoken.security
 appCountry: 
 released: May 23, 2022
-updated: 2023-01-29
-version: 1.5.19
+updated: 2023-03-28
+version: 1.5.20
 stars: 
 ratings: 
 reviews: 

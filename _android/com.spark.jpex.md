@@ -4,12 +4,12 @@ title: JPEX Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30
-updated: 2023-02-02
-version: 2.68.738
+updated: 2023-03-29
+version: 2.71.784
 stars: 
 ratings: 
 reviews: 
