@@ -3,7 +3,7 @@ wsId:
 title: Cryptodot - Earn Cryptocoins
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.anyjson.earn.freecryptofacute
 appCountry: 
 released: May 16, 2021

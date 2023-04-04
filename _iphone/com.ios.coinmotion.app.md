@@ -8,11 +8,11 @@ appId: com.ios.coinmotion.app
 appCountry: in
 idd: 1518765595
 released: 2020-11-19
-updated: 2022-12-13
-version: 1.8.3
+updated: 2023-03-10
+version: 1.8.5
 stars: 0
 reviews: 0
-size: '38372352'
+size: '38626304'
 website: https://coinmotion.com/
 repository: 
 issue: 

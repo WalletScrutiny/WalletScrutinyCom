@@ -3,7 +3,7 @@ wsId:
 title: Flamer Swap
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.flamer.swap
 appCountry: 
 released: Sep 25, 2021

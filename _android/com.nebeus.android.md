@@ -7,8 +7,8 @@ users: 50000
 appId: com.nebeus.android
 appCountry: 
 released: 
-updated: 2023-01-27
-version: 1.4.32
+updated: 2023-03-10
+version: 1.4.35
 stars: 
 ratings: 
 reviews: 

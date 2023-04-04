@@ -1,6 +1,6 @@
 ---
 wsId: GridLock
-title: Gridlock - Crypto & NFT Wallet
+title: Gridlock Crypto & NFT Wallet
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: network.gridlock.AppGridlock
 appCountry: 
 released: May 14, 2021
-updated: 2022-12-07
-version: 1.9.30
-stars: 4.5
+updated: 2023-03-31
+version: 2.0.4
+stars: 4.6
 ratings: 
 reviews: 12
 size: 

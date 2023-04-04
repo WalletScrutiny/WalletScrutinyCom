@@ -9,9 +9,9 @@ appCountry:
 released: Oct 9, 2019
 updated: 2022-09-21
 version: 3.36.4
-stars: 4.9
+stars: 4.4
 ratings: 
-reviews: 86
+reviews: 12
 size: 
 website: https://www.aex.com
 repository: 

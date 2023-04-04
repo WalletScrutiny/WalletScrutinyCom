@@ -8,11 +8,11 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2023-02-03
-version: 1.36.1
-stars: 4.4
+updated: 2023-03-28
+version: 1.37.1
+stars: 4.3
 ratings: 216
-reviews: 80
+reviews: 85
 size: 
 website: https://expcapital.com/
 repository: 

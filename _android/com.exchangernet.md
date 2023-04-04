@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchangernet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-02-18
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: echangerbd

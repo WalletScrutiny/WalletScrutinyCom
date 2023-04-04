@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: sone.finance.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

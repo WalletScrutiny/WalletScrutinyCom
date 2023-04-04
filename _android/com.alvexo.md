@@ -1,6 +1,6 @@
 ---
 wsId: alvexo
-title: Alvexo Online CFD Trading
+title: 'Alvexo: OnlineTrading Platform'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13
-updated: 2023-01-20
-version: 3.0.144
-stars: 4.1
+updated: 2023-02-09
+version: 3.0.156
+stars: 4
 ratings: 826
-reviews: 28
+reviews: 22
 size: 
 website: https://www.alvexo.com
 repository: 

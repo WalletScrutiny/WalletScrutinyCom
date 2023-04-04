@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hipcibot.hip.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
