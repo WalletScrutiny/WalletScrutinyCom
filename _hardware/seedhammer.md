@@ -16,19 +16,23 @@ website:
 shop: 
 country: 
 price: 999 USD
-repository: 
+repository: https://github.com/seedhammer/seedhammer
 issue: 
 icon: seedhammer.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2023-02-24
+verdict: nowallet
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: SeedHammer
 social: 
 
 ---
+
+## Updated Review 2023-04-04
+
+We changed the verdict to indicate that it is not a wallet. On another note, it has recently made the software for its engraving machine, [publicly available](https://github.com/seedhammer/seedhammer).
 
 ## Product Description 
 

@@ -26,7 +26,7 @@ icon: keevo.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-10
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: keevowallet
@@ -36,7 +36,36 @@ features:
 
 ---
 
-*This comes with the {% include walletLink.html wallet='hardware/keevo.carbonkey' verdict='false' %}
+## Updated Review 2023-04-04
+
+Merging the review for the accessory of this device, the Carbon Key. 
+
+Described by the manufacturer: 
+
+> It is a piece of hardware separate from your Keevo device that is a secondary encrypted memory device. No keys are stored on the Carbon Key, just encrypted hashes of 3 key shares which require the users password and fingerprint to decrypt.
+
+As a precautionary measure for the user, the Carbon Key can be sent to a custodial service, Iron Mountain. There, it will be kept in secure storage for a fee of $6 a month. 
+
+> The Carbon Key is a separate backup device which has its own unique and randomly generated key along with a secure memory unit where Keevo also stores all of your other encrypted sub keys. All the electronic communication and information transferred between the Keevo Wallet and Keevo Carbon Key are transmitted through custom contacts and encrypted communication protocols.
+
+More information [from the Keevo blog post](https://www.keevowallet.com/blogs/news/why-we-built-keevo-part-2-the-tech-behind-the-device):
+
+### Recovery in case the Keevo Hardware Wallet is Lost
+
+> If your device breaks or is lost, you can use your Carbon Key to restore your coins on another Keevo device. We offer a Keevo Care service for this exact purpose where you can purchase another Keevo at a discounted price.
+>
+> Your Carbon Key is a separate piece of hardware that backs up your encrypted password and fingerprint, along with a 4th unique key share! It can then be securely stored at one of Iron Mountain's vaults or you can choose your own location. 
+>
+> If you would like, you always have the option to use your seed phrase to restore as well.
+
+But at the interim: 
+
+- The Carbon Key on its own cannot sign transactions
+- It still needs the other multi-factor components 
+
+### The verdict remains the same.
+
+## Previous Review 2021-12-10
 
 One of Keevo's main advertised features is:
 
