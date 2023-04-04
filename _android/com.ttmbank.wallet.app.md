@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ttmbank.com
+website: https://ttmwallet.io
 repository: 
 issue: 
 icon: com.ttmbank.wallet.app.png

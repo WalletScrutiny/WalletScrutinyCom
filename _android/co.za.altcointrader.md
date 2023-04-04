@@ -3,7 +3,7 @@ wsId: altcoinTrader
 title: 'AltCoinTrader: Bitcoin, Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: co.za.altcointrader
 appCountry: 

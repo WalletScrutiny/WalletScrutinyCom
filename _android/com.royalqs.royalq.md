@@ -3,7 +3,7 @@ wsId: RoyalQ
 title: Royal Q
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.royalqs.royalq
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2023-03-21
 version: 4.8.7
 stars: 4.3
 ratings: 
-reviews: 140
+reviews: 141
 size: 
 website: https://royalqs.com/
 repository: 

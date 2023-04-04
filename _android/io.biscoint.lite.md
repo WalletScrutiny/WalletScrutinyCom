@@ -1,15 +1,15 @@
 ---
 wsId: biscoint
-title: Bitybank | Biscoint
+title: Bitybank | Bitypreço
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 50000
 appId: io.biscoint.lite
 appCountry: 
 released: Apr 5, 2022
-updated: 2023-03-08
-version: 2.2.0
+updated: 2023-03-22
+version: 2.2.2
 stars: 5
 ratings: 
 reviews: 
@@ -25,7 +25,7 @@ date: 2023-03-02
 signer: 
 reviewArchive: 
 twitter: BityOficial
-social:
+social: 
 - https://www.facebook.com/bitybankoficial 
 redirect_from: 
 features: 
@@ -89,8 +89,4 @@ If the translation is accurate, then this means without KYC, the platform disall
 We went on [twitter to clarify the matter](https://twitter.com/BitcoinWalletz/status/1631216074879545344). 
 
 Tentatively, we will label this service as a platform that **does not allow sending and receiving of Bitcoins**.
-
-
-
-
 

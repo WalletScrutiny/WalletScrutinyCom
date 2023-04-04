@@ -3,7 +3,7 @@ wsId:
 title: Admiral Option
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.admiral
 appCountry: 

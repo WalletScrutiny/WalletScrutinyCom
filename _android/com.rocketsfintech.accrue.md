@@ -3,7 +3,7 @@ wsId:
 title: 'Accrue: Send. Save. Invest.'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: Oct 9, 2021
