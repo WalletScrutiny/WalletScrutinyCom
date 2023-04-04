@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.bacoor.ios.hbwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: HBWallet_Ether

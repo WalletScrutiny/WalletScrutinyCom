@@ -3,7 +3,7 @@ wsId: coinkit
 title: CoinKit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.blockcurators.coinkit
 appCountry: 

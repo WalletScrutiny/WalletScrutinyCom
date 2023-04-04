@@ -4,7 +4,7 @@ title: 'Bitfinex: Trade Digital Assets'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bitfinex.mobileapp
 appCountry: 
 released: 2019-02-11

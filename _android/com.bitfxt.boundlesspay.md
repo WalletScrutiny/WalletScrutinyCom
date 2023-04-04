@@ -2,7 +2,7 @@
 wsId: boundlessPay
 title: BoundlessPay
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.bitfxt.boundlesspay
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: boundlesspay
 social:
 - https://www.facebook.com/boundlesspayofficial/
-- https://www.linkedin.com/company/boundlesspayofficial/ 
+- https://www.linkedin.com/company/boundlesspayofficial/
 redirect_from: 
 features: 
 

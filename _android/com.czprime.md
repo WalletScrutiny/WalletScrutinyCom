@@ -12,7 +12,7 @@ updated: 2023-03-28
 version: 1.5.59
 stars: 3.7
 ratings: 2461
-reviews: 390
+reviews: 391
 size: 
 website: https://www.coinzoom.com
 repository: 

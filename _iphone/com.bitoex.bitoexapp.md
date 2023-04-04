@@ -24,8 +24,9 @@ signer:
 reviewArchive: 
 twitter: BitoEX_Official
 social:
-- https://www.facebook.com/bitoex 
+- https://www.facebook.com/bitoex
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

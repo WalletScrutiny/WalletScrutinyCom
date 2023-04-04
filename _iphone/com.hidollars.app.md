@@ -11,7 +11,7 @@ released: '2021-10-06T07:00:00Z'
 updated: 2023-01-19
 version: 2.4.6
 stars: 3.7
-reviews: 179
+reviews: 180
 size: '187669504'
 website: https://hi.com/
 repository: 

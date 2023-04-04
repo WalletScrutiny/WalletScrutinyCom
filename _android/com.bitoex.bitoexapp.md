@@ -3,7 +3,7 @@ wsId: bitoEXOld
 title: BitoEX幣託-虛擬通貨錢包
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitoex.bitoexapp
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BitoEX_Official
 social:
-- https://www.facebook.com/bitoex 
+- https://www.facebook.com/bitoex
 redirect_from: 
 features: 
 

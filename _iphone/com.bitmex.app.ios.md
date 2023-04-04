@@ -3,7 +3,7 @@ wsId: bitMEXNew
 title: 'BitMEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitmex.app.ios
 appCountry: bh
 idd: '1589023233'
@@ -26,8 +26,9 @@ reviewArchive:
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX/
-- https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA 
+- https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

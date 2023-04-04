@@ -3,7 +3,7 @@ wsId:
 title: Bitflash Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitflash.exchange
 appCountry: 

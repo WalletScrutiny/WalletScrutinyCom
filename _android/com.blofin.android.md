@@ -3,7 +3,7 @@ wsId: blofin
 title: Blofin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.blofin.android
 appCountry: 
