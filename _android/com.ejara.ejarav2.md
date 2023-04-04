@@ -42,6 +42,6 @@ We downloaded the app and it featured a Bitcoin wallet that can send and receive
 
 Most notably, it also provided the ability to backup the private keys using seed phrases.
 
-It however, does not make any claim that it is Open Source. 
+It however does not make any claim that its source is public for audit.
 
 It had a repository but they were unrelated to the Android or iOS apps.
