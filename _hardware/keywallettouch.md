@@ -25,7 +25,7 @@ issue:
 icon: keywallettouch.png
 bugbounty: 
 meta: ok
-verdict: sealed-noita
+verdict: noita
 date: 2023-02-07
 signer: 
 reviewArchive: 
@@ -55,6 +55,6 @@ Here are our reviews of {{ page.title }}'s companion apps.
 
 According to the [site's technical specifications](http://www.keywallet.co.kr), this product is CC EAL 5+ and FIDO certified. It resembles a credit card in appearance and is meant to connect with an external device with NFC.
 
-As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app is responsible for making transactions but it depends on the card to sign them. Unfortunately, because the companion app is non-verifiable, we also cannot verify the security of this product.
+As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app is responsible for making transactions but it depends on the card to sign them. The card signs whatever the non-verifiable companion app asks to sign.
 
 Verdict: Transactions are signed blindly.

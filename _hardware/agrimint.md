@@ -21,7 +21,7 @@ issue:
 icon: agrimint.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: unreleased
 date: 2023-03-08
 signer: 
 reviewArchive: 
@@ -57,5 +57,5 @@ social:
 
 ## Analysis 
 
-This product is still in Alpha. 
+This is not a released product yet.
 
