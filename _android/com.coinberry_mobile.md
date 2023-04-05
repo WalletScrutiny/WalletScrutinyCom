@@ -8,11 +8,11 @@ users: 50000
 appId: com.coinberry_mobile
 appCountry: ca
 released: 2018-12-19
-updated: 2023-02-23
-version: 1.36.03
-stars: 3.2
+updated: 2023-03-02
+version: 137.2.0
+stars: 3
 ratings: 1118
-reviews: 648
+reviews: 654
 size: 
 website: https://www.coinberry.com
 repository: 

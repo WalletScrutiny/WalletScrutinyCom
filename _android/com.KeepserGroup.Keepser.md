@@ -8,8 +8,8 @@ users: 50
 appId: com.KeepserGroup.Keepser
 appCountry: 
 released: 2021-07-22
-updated: 2022-05-10
-version: 1.6.0
+updated: 2023-03-23
+version: 1.6.4
 stars: 
 ratings: 
 reviews: 

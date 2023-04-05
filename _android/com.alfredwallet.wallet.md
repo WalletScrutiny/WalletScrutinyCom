@@ -3,12 +3,12 @@ wsId:
 title: AlfredWallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.alfredwallet.wallet
 appCountry: 
 released: Aug 12, 2021
-updated: 2023-01-06
-version: '1.15'
+updated: 2023-03-02
+version: '1.16'
 stars: 
 ratings: 
 reviews: 

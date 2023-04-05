@@ -4,15 +4,15 @@ title: 'YouHodler Wallet: Buy Crypto'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.youhodler.youhodler
 appCountry: 
 released: 2019-07-11
-updated: 2023-01-17
-version: 5.5.0
+updated: 2023-03-17
+version: 6.0.1
 stars: 4.2
 ratings: 5083
-reviews: 61
+reviews: 65
 size: 
 website: https://youhodler.com
 repository: 

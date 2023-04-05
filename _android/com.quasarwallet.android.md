@@ -9,18 +9,18 @@ appCountry:
 released: Apr 5, 2022
 updated: 2022-04-05
 version: '1.2'
-stars: 2
+stars: 2.5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://quasarwallet.com
 repository: 
 issue: 
 icon: com.quasarwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 

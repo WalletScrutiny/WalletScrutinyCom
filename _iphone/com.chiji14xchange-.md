@@ -11,16 +11,16 @@ released: 2019-08-19
 updated: 2022-03-01
 version: 3.0.0
 stars: 3.4
-reviews: 293
+reviews: 294
 size: '58226688'
 website: https://chiji14xchange.com
 repository: 
 issue: 
 icon: com.chiji14xchange-.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: myrocketapp

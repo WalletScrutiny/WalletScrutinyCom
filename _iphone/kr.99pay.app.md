@@ -1,6 +1,6 @@
 ---
 wsId: 99Recharge
-title: 99pay Recharge mobile & 00301
+title: 99pay Mobile recharge
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: kr.99pay.app
 appCountry: kr
 idd: 1229582503
 released: 2017-05-05
-updated: 2023-02-16
-version: 5.0.1
+updated: 2023-03-28
+version: 5.0.2
 stars: 4.3
 reviews: 24
-size: '76634112'
+size: '77341696'
 website: http://www.99pay.kr
 repository: 
 issue: 

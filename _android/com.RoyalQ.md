@@ -1,5 +1,5 @@
 ---
-wsId: RoyalQ
+wsId: 
 title: Royal Q App - Auto Trading bot
 altTitle: 
 authors:
@@ -12,7 +12,7 @@ updated: 2022-09-02
 version: '4.6'
 stars: 4.9
 ratings: 
-reviews: 412
+reviews: 271
 size: 
 website: https://royalq.cloud
 repository: 

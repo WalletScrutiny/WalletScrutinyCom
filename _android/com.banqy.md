@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.banqy.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

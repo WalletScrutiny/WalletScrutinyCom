@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptoswapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
