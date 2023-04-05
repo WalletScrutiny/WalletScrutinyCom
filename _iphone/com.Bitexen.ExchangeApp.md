@@ -2,7 +2,7 @@
 wsId: Bitexen
 title: Bitexen - Bitcoin and Altcoins
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.Bitexen.ExchangeApp
 appCountry: 
@@ -27,6 +27,7 @@ twitter: bitexencom
 social:
 - https://www.linkedin.com/company/bitexen
 - https://www.facebook.com/bitexen
+features: 
 
 ---
 

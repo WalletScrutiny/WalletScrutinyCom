@@ -11,7 +11,7 @@ updated: 2023-03-21
 version: 4.1.0
 stars: 4.8
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: https://onekey.so
 repository: 

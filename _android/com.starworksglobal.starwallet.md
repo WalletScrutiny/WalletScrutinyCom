@@ -3,12 +3,12 @@ wsId:
 title: StarWALLET 2.0
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.starworksglobal.starwallet
 appCountry: 
 released: Feb 1, 2021
-updated: 2023-03-02
-version: 2.5.84
+updated: 2023-03-30
+version: 2.5.88
 stars: 
 ratings: 
 reviews: 

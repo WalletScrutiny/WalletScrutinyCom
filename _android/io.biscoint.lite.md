@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitybank | Biscoint
+title: Bitybank | Bitypreço
 altTitle: 
 authors: 
 users: 50000
 appId: io.biscoint.lite
 appCountry: 
 released: Apr 5, 2022
-updated: 2023-03-08
-version: 2.2.0
+updated: 2023-03-22
+version: 2.2.2
 stars: 5
 ratings: 
 reviews: 

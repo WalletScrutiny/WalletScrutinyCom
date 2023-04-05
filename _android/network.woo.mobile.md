@@ -11,7 +11,7 @@ updated: 2023-03-15
 version: 3.1.2
 stars: 4.1
 ratings: 
-reviews: 10
+reviews: 9
 size: 
 website: https://woo.org/
 repository: 

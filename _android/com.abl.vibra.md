@@ -3,7 +3,7 @@ wsId: vibra
 title: 'VIBRA Wallet: Buy BTC and ETH'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.abl.vibra
 appCountry: 
@@ -28,7 +28,7 @@ twitter: VibraAfrica
 social:
 - https://www.linkedin.com/company/vibraafrica/
 - https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
-- https://www.facebook.com/VibraAfrica 
+- https://www.facebook.com/VibraAfrica
 redirect_from: 
 features: 
 

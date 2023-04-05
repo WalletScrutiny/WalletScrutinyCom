@@ -8,8 +8,8 @@ users: 10000
 appId: com.aabb
 appCountry: ca
 released: 2021-03-08
-updated: 2022-04-08
-version: 1.0.1256
+updated: 2023-03-23
+version: 1.0.1266
 stars: 4.8
 ratings: 614
 reviews: 32
