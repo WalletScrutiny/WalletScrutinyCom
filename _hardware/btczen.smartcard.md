@@ -20,7 +20,7 @@ repository: https://github.com/wangganggithub/btczen_public
 issue: 
 icon: btczen.smartcard.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2023-03-01
 signer: 
