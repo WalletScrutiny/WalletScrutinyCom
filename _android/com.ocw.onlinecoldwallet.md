@@ -92,7 +92,7 @@ code will provide you with additional safety.
 
 We were not able to find a technical specification sheet.
 
-Its GitHub page only shows one repository entitled "Docs". This merely features their Gitbook entries for common procedures such as how to withdraw, [how to create a wallet](https://github.com/ocwallet/docs/blob/main/computer-information/create-a-wallet.md), etc.
+Its GitHub page only shows one repository titled "Docs". This merely features their Gitbook entries for common procedures such as how to withdraw, [how to create a wallet](https://github.com/ocwallet/docs/blob/main/computer-information/create-a-wallet.md), etc.
 
 ## Analysis 
 

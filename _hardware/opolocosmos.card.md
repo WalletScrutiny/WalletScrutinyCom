@@ -88,15 +88,7 @@ The last phrase is very telling - *"someone who gets the card can restore the wa
 
 In conclusion: 
 
-1. The private keys are created on another device {% include walletLink.html wallet='hardware/opolocosmos' verdict='false' %}
+1. The card has no input or output interface, so transactions could not be securely confirmed with this form factor
+2. The private keys are **created on another device** {% include walletLink.html wallet='hardware/opolocosmos' verdict='false' %}
 
-2. The private keys are shared with the other device.
-
-3. There is no interface on the card itself
-
-Thus, the conclusion closest to our verdict is that it shares private key material. 
-
-
-
-
-
+The security of this product is **not verifiable**.
