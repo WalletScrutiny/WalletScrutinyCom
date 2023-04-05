@@ -3,7 +3,7 @@ wsId: mnCoinHub
 title: Coinhub
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.coinhub.pro
 appCountry: 

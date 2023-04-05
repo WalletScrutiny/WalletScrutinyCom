@@ -3,16 +3,16 @@ wsId: unitedExchange
 title: Avner - United Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.vsmart.UnitedExchange
 appCountry: az
 idd: '1578830443'
 released: '2021-07-30T07:00:00Z'
-updated: 2022-12-20
-version: '9.1'
+updated: 2023-03-02
+version: '10.0'
 stars: 0
 reviews: 0
-size: '82911232'
+size: '82944000'
 website: https://unitedexchange.io
 repository: 
 issue: 
@@ -29,4 +29,5 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

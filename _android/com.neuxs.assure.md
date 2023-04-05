@@ -3,7 +3,7 @@ wsId:
 title: Assure-BTC&ETH Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.neuxs.assure
 appCountry: 

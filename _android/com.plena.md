@@ -3,7 +3,7 @@ wsId: plenaDefi
 title: Plena:The Smartest DeFi Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.plena
 appCountry: 

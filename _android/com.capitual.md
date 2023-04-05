@@ -2,7 +2,7 @@
 wsId: capitual
 title: Capitual - Multiple Currencies
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.capitual
@@ -25,7 +25,7 @@ date: 2023-02-16
 signer: 
 reviewArchive: 
 twitter: capitual
-social: 
+social:
 - https://www.instagram.com/capitual/
 - https://www.facebook.com/Capitual/
 - https://www.youtube.com/c/Capitual

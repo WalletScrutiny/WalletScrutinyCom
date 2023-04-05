@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.instagram.com/fxtrendo/ 
+- https://www.instagram.com/fxtrendo/
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 50000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30
-updated: 2023-03-29
-version: 2.71.784
+updated: 2023-04-04
+version: 2.72.788
 stars: 
 ratings: 
 reviews: 

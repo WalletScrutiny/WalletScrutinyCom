@@ -3,7 +3,7 @@ wsId:
 title: 5ROI Global
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.fiveroi
 appCountry: 

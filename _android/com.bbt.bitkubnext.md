@@ -2,7 +2,7 @@
 wsId: bitkubNext
 title: Bitkub NEXT
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.bbt.bitkubnext
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: bitkubchain
 social:
-- https://www.facebook.com/bitkubchainofficial 
+- https://www.facebook.com/bitkubchainofficial
 redirect_from: 
 features: 
 

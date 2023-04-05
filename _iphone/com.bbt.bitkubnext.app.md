@@ -3,14 +3,14 @@ wsId: bitkubNext
 title: Bitkub NEXT
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bbt.bitkubnext.app
 appCountry: th
 idd: '6444399387'
 released: '2022-12-07T08:00:00Z'
 updated: 2023-03-23
 version: 1.4.2
-stars: 4.96237
+stars: 5
 reviews: 186
 size: '113704960'
 website: https://www.bitkubchain.com
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: bitkubchain
 social:
-- https://www.facebook.com/bitkubchainofficial 
+- https://www.facebook.com/bitkubchainofficial
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

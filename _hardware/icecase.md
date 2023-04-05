@@ -31,7 +31,6 @@ features:
 
 ---
 
-
 As of today, IceCase is an unreleased hardware wallet that advertises a "secure way to protect bitcoin and cryptocurrency assets offline." There is no information regarding the wallet's specifications such as its price, dimensions, or even the date it will be released.
 
 The site claims that IceCase wallets have received over 547 pre-orders. Users can pre-order through a short form that asks for the user's contact info.

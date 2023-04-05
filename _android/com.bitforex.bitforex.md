@@ -2,7 +2,7 @@
 wsId: 
 title: BitForex
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.bitforex.bitforex

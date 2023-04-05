@@ -9,7 +9,7 @@ appId: com.btcex.exchange
 appCountry: 
 released: Oct 25, 2021
 updated: 2023-04-03
-version: 1.3.51
+version: 1.3.57
 stars: 4.2
 ratings: 
 reviews: 7

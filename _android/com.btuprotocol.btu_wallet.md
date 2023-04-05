@@ -12,7 +12,7 @@ updated: 2023-04-03
 version: 2.15.0
 stars: 4.2
 ratings: 156
-reviews: 130
+reviews: 131
 size: 
 website: https://get-verso.com
 repository: 

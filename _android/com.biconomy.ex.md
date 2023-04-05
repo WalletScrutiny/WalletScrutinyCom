@@ -2,7 +2,7 @@
 wsId: biconomy
 title: 'Biconomy: Buy Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.biconomy.ex
@@ -25,7 +25,7 @@ date: 2023-02-15
 signer: 
 reviewArchive: 
 twitter: BiconomyCom
-social: 
+social:
 - https://www.facebook.com/BiconomyCom
 - https://www.linkedin.com/company/biconomycom/
 - https://biconomycom.medium.com/

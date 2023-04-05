@@ -3,15 +3,15 @@ wsId: bitkubExchange
 title: 'Bitkub :  ซื้อ  & ขาย บิตคอยน์'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitkub.app
 appCountry: th
 idd: 1437814700
 released: 2019-04-24
 updated: 2023-02-28
 version: 3.17.1
-stars: 0
-reviews: 0
+stars: 4
+reviews: 7145
 size: '84255744'
 website: https://www.bitkub.com/download
 repository: 
@@ -30,5 +30,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

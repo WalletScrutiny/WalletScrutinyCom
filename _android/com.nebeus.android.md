@@ -3,11 +3,11 @@ wsId: nebeus
 title: 'Nebeus: IBANs for Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.nebeus.android
 appCountry: gt
-released: 
+released: May 24, 2021
 updated: 2023-03-10
 version: 1.4.35
 stars: 
@@ -26,8 +26,9 @@ signer:
 reviewArchive: 
 twitter: NebeusWorld
 social:
-- https://www.linkedin.com/company/nebeus/ 
+- https://www.linkedin.com/company/nebeus/
 redirect_from: 
+features: 
 
 ---
 

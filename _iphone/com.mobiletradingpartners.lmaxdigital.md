@@ -3,7 +3,7 @@ wsId: LMAXDigital
 title: LMAX Digital Trading
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mobiletradingpartners.lmaxdigital
 appCountry: us
 idd: '1375900638'
@@ -13,7 +13,7 @@ version: 4.4.120
 stars: 0
 reviews: 0
 size: '134691840'
-website: https://www.lmaxdigital.com/trading/
+website: https://www.lmax.com/mobile
 repository: 
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.jpg

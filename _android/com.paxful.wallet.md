@@ -12,7 +12,7 @@ updated: 2023-03-07
 version: 2.9.6.668
 stars: 3.2
 ratings: 21528
-reviews: 1831
+reviews: 1832
 size: 
 website: https://Paxful.com
 repository: 

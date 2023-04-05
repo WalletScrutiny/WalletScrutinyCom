@@ -3,7 +3,7 @@ wsId:
 title: Solareum Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.solareum
 appCountry: 

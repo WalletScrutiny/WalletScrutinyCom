@@ -3,7 +3,7 @@ wsId: unitedExchange
 title: UnitedExchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.web.unitedexchange
 appCountry: 
@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 
 reviews: 7
 size: 
-website: https://unitedexchange.io
+website: https://unitedexchange.io/
 repository: 
 issue: 
 icon: com.web.unitedexchange.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: exchange_united
 social:
-- https://www.facebook.com/UnitedExchange.io 
+- https://www.facebook.com/UnitedExchange.io
 redirect_from: 
 features: 
 

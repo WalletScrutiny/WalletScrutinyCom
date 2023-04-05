@@ -3,7 +3,7 @@ wsId: idax
 title: iDAX Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.idax.exchange
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/daxmnofficial 
+- https://www.facebook.com/daxmnofficial
 redirect_from: 
 features: 
 

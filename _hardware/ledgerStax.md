@@ -5,7 +5,7 @@ authors:
 - danny
 released: 
 discontinued: 
-updated:
+updated: 
 version: 
 binaries: 
 dimensions:
@@ -27,14 +27,14 @@ meta: ok
 verdict: unreleased
 date: 2023-02-23
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Ledger
 social:
-  - https://www.linkedin.com/company/ledgerhq
-  - https://www.facebook.com/Ledger
-  - https://www.instagram.com/ledger
-  - https://www.youtube.com/Ledger
-  - https://www.tiktok.com/@ledger
+- https://www.linkedin.com/company/ledgerhq
+- https://www.facebook.com/Ledger
+- https://www.instagram.com/ledger
+- https://www.youtube.com/Ledger
+- https://www.tiktok.com/@ledger
 features: 
 
 ---

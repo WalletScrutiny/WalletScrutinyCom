@@ -3,16 +3,16 @@ wsId: mnCoinHub
 title: Coinhub.mn
 altTitle: 
 authors:
-- danny 
+- danny
 appId: mn.coinhub.coinhub
 appCountry: us
 idd: '1585102002'
 released: '2021-09-23T07:00:00Z'
-updated: 2022-12-10
-version: 1.2.10.221209
-stars: 3.45455
+updated: 2023-04-04
+version: 1.3.2
+stars: 3.5
 reviews: 11
-size: '51768320'
+size: '58156032'
 website: https://about.coinhub.mn
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: CoinhubMongolia
 social:
-- https://www.linkedin.com/company/coinhub-mongolia/ 
+- https://www.linkedin.com/company/coinhub-mongolia/
 features: 
 
 ---

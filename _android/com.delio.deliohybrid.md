@@ -12,7 +12,7 @@ updated: 2023-03-16
 version: 1.4.4
 stars: 3
 ratings: 48
-reviews: 59
+reviews: 60
 size: 
 website: https://www.delio.foundation
 repository: 

@@ -9,7 +9,7 @@ appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
 updated: 2023-03-31
-version: 1.42.94
+version: 1.42.95
 stars: 
 ratings: 
 reviews: 

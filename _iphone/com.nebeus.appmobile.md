@@ -3,7 +3,7 @@ wsId: nebeus
 title: 'Nebeus: IBANs for Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.nebeus.appmobile
 appCountry: gt
 idd: '1568251064'
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: NebeusWorld
 social:
-- https://www.linkedin.com/company/nebeus/ 
+- https://www.linkedin.com/company/nebeus/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

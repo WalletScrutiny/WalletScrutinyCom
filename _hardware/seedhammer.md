@@ -1,6 +1,6 @@
 ---
 title: SeedHammer
-appId: SeedHammer
+appId: seedhammer
 authors:
 - danny
 released: 2022-08-07
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: SeedHammer
 social: 
+features: 
 
 ---
 

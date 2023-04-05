@@ -8,11 +8,11 @@ users: 100000
 appId: net.safemoon.androidwallet
 appCountry: 
 released: Sep 10, 2021
-updated: 2023-03-21
-version: V3.40
+updated: 2023-04-03
+version: V3.41
 stars: 4.3
 ratings: 
-reviews: 6404
+reviews: 6405
 size: 
 website: https://safemoon.com
 repository: 

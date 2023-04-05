@@ -2,7 +2,7 @@
 wsId: qmallExchange
 title: Qmall APP
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.qmall.exchange
@@ -28,7 +28,7 @@ twitter: QmallExchange
 social:
 - https://www.linkedin.com/company/qmallexchange/about/
 - https://www.facebook.com/qmall.io
-- https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag 
+- https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag
 redirect_from: 
 features: 
 

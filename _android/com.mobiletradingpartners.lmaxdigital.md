@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 27
 reviews: 2
 size: 
-website: https://www.lmaxdigital.com/trading/
+website: http://www.lmax.com/mobile
 repository: 
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png

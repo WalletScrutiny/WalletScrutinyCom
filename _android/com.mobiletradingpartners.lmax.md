@@ -2,7 +2,7 @@
 wsId: LMAXGlobal
 title: LMAX Global Trading
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.mobiletradingpartners.lmax

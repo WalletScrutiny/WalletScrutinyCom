@@ -3,7 +3,7 @@ wsId: coinlocally
 title: Coinlocally
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.coinlocally.android
 appCountry: 

@@ -3,7 +3,7 @@ wsId: idax
 title: 'iDAX: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.idax.exchange
 appCountry: us
 idd: '1619039755'
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/daxmnofficial 
+- https://www.facebook.com/daxmnofficial
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

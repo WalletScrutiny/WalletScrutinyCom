@@ -2,7 +2,7 @@
 wsId: MOVOCash
 title: MOVO - Send to Spend
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.movocash.movo
@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 145
 size: 
-website: https://movo.cash/
+website: http://movo.cash
 repository: 
 issue: 
 icon: com.movocash.movo.jpg
@@ -25,7 +25,7 @@ date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: MovoCash
-social: 
+social:
 - https://www.facebook.com/movocash/
 - https://www.instagram.com/movocash.app/
 - https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw

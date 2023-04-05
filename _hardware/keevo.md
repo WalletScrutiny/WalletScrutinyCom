@@ -9,7 +9,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 95
 - 58
 - 11

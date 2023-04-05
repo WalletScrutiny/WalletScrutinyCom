@@ -12,7 +12,7 @@ updated: 2023-03-28
 version: 6.7.1
 stars: 4.5
 ratings: 188391
-reviews: 1018
+reviews: 1019
 size: 
 website: https://www.okx.com/
 repository: 

@@ -3,7 +3,7 @@ wsId: ejara
 title: Ejara
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.ejara.ejarav2
 appCountry: 
@@ -25,7 +25,7 @@ date: 2022-02-22
 signer: 
 reviewArchive: 
 twitter: EjaraApp
-social: 
+social:
 - https://www.facebook.com/Ejaracapital
 redirect_from: 
 features: 
