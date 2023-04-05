@@ -37,7 +37,7 @@ features:
 Note: This provider has 2 other apps on Google Play.
 
 1. {% include walletLink.html wallet='android/com.bitazza.android' verdict='true' %}
-2. The [Bitazza Freedom Wallet](https://play.google.com/store/apps/details?id=com.bitazza.freedom.wallet&hl=en&gl=US)
+2. The [Bitazza Freedom Wallet](https://play.google.com/store/apps/details?id=com.bitazza.freedom.wallet&hl=en&gl=US) (not a Bitcoin wallet)
 
 ## App Description on [Google Play](https://play.google.com/store/apps/details?id=com.bitazza.android.gl) 
 
