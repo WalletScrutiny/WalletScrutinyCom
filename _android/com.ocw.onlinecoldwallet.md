@@ -20,7 +20,7 @@ issue:
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: noita
 date: 2023-02-28
 signer: 
 reviewArchive: 
@@ -33,12 +33,17 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.ocw.onlinecoldwallet) 
+## Updated Review 2023-04-05
+
+At best this device **does not have the input/output** interface to securely verify and sign transactions. 
+
+## Previous Review 2023-02-28
+
+### App Description from [Google Play](https://play.google.com/store/apps/details?id=com.ocw.onlinecoldwallet) 
 
 > The Smart, Secure, Choice for Your Digital Asset Management. 1000+ Currencies & Digital Assets Supported.
 
 This is an app paired with the {% include walletLink.html wallet='hardware/com.ocw.onlinecoldwallet' verdict='true' %}
-
 
 ## Analysis 
 

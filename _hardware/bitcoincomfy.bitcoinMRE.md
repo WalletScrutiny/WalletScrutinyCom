@@ -18,7 +18,7 @@ country:
 price: 
 repository: https://github.com/BitcoinComfy/BitcoinMRE
 issue: 
-icon: bitcoincomfy.bitcoinMRE.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: diy

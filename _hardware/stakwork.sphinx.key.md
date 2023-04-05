@@ -18,7 +18,7 @@ country:
 price: 
 repository: https://github.com/stakwork/sphinx-key/releases
 issue: 
-icon: noicon.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: unreleased
