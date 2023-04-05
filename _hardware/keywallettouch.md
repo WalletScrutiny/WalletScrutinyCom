@@ -57,4 +57,4 @@ According to the [site's technical specifications](http://www.keywallet.co.kr), 
 
 As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app is responsible for making transactions but it depends on the card to sign them. The card signs whatever the non-verifiable companion app asks to sign.
 
-Verdict: Transactions are signed blindly.
+**Updated Verdict 2023-04-05**: the device **does not have input/output interfaces.**
