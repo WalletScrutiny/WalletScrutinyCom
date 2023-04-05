@@ -9,7 +9,7 @@ appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
 updated: 2023-03-30
-version: 1.7.2
+version: 1.7.3
 stars: 3.9
 ratings: 
 reviews: 4

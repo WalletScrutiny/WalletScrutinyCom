@@ -2,7 +2,7 @@
 wsId: 
 title: LATOKEN DeFi Crypto Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.app.defi

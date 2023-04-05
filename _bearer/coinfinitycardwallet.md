@@ -28,7 +28,7 @@ meta: ok
 verdict: sealed-plainkey
 date: 2023-03-07
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2022-03-23
   version: 
   appHash: 

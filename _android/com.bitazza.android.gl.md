@@ -3,7 +3,7 @@ wsId: bitazzaGL
 title: 'Bitazza: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitazza.android.gl
 appCountry: 
@@ -28,7 +28,7 @@ twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal
 - https://www.linkedin.com/company/bitazza/
-- https://t.me/bitazzaglobal 
+- https://t.me/bitazzaglobal
 redirect_from: 
 features: 
 

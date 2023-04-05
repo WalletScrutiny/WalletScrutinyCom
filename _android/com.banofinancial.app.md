@@ -3,7 +3,7 @@ wsId: banosuperapp
 title: Bano - Connect Your Life
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.banofinancial.app
 appCountry: 
@@ -28,7 +28,7 @@ twitter: banosuperapp
 social:
 - https://www.facebook.com/banosuperapp
 - https://www.instagram.com/banosuperapp
-- https://www.linkedin.com/company/banoapp 
+- https://www.linkedin.com/company/banoapp
 redirect_from: 
 features: 
 

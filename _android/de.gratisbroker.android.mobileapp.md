@@ -3,8 +3,8 @@ wsId: finanzenZero
 title: finanzen.net zero Aktien & ETF
 altTitle: 
 authors:
-- danny 
-users: 50000
+- danny
+users: 100000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: Jun 2, 2021
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net
-- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg 
+- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 
 features: 
 

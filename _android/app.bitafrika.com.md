@@ -7,8 +7,8 @@ users: 10000
 appId: app.bitafrika.com
 appCountry: 
 released: Jul 19, 2021
-updated: 2023-03-31
-version: '4.3'
+updated: 2023-04-05
+version: 4.3.1
 stars: 4.3
 ratings: 
 reviews: 13

@@ -3,16 +3,16 @@ wsId: masterbank
 title: MasterBank
 altTitle: 
 authors:
-- danny 
+- danny
 appId: masterbank.ai
 appCountry: kr
 idd: '1599645061'
 released: '2022-02-27T08:00:00Z'
-updated: 2023-02-01
-version: 0.8.9
-stars: 3.5625
+updated: 2023-03-21
+version: 0.10.5
+stars: 3.6
 reviews: 16
-size: '62080000'
+size: '60042240'
 website: https://masterbank.org/
 repository: 
 issue: 
@@ -25,9 +25,10 @@ signer:
 reviewArchive: 
 twitter: masterpay7
 social:
-- https://t.me/mastercoin_official 
+- https://t.me/mastercoin_official
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

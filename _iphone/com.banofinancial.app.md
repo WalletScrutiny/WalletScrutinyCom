@@ -3,16 +3,16 @@ wsId: banosuperapp
 title: Bano - Connect Your Life
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.banofinancial.app
 appCountry: au
 idd: '1562849570'
 released: '2021-05-13T07:00:00Z'
-updated: 2023-03-07
-version: 1.4.40
-stars: 3.91667
-reviews: 36
-size: '91184128'
+updated: 2023-03-25
+version: 1.4.50
+stars: 4
+reviews: 38
+size: '91167744'
 website: https://bano.app
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: banosuperapp
 social:
 - https://www.facebook.com/banosuperapp
 - https://www.instagram.com/banosuperapp
-- https://www.linkedin.com/company/banoapp/ 
+- https://www.linkedin.com/company/banoapp/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

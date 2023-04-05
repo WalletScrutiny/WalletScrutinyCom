@@ -1,9 +1,9 @@
 ---
 wsId: biscoint
-title: Bitybank | Biscoint
+title: Bitybank | Bitypreço
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: io.biscoint.lite
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BityOficial
 social:
-- https://www.facebook.com/bitybankoficial 
+- https://www.facebook.com/bitybankoficial
 redirect_from: 
 features: 
 

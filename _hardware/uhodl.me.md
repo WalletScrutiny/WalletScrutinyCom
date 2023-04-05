@@ -1,5 +1,5 @@
 ---
-title: U-Hodl 
+title: U-Hodl
 appId: uhodl.me
 authors:
 - danny
@@ -26,10 +26,12 @@ date: 2023-03-08
 signer: 
 reviewArchive: 
 twitter: uhodl
-social: 
+social:
 - https://twitter.com/art_k42
 - https://www.facebook.com/UHODL
 - https://www.instagram.com/uhodl_official/
+features: 
+
 ---
 
 ## Product Description from [Website](https://uhodl.me/)

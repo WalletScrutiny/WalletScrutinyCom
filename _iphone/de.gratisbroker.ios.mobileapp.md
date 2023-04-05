@@ -3,16 +3,16 @@ wsId: finanzenZero
 title: finanzen.net zero Aktien & ETF
 altTitle: 
 authors:
-- danny 
+- danny
 appId: de.gratisbroker.ios.mobileapp
 appCountry: de
 idd: '1556711130'
 released: '2021-06-07T07:00:00Z'
-updated: 2023-02-21
-version: 3.13.0
-stars: 4.723
-reviews: 4213
-size: '122110976'
+updated: 2023-04-03
+version: 3.16.0
+stars: 4.7
+reviews: 4742
+size: '122548224'
 website: https://www.finanzen.net/zero/
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net
-- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg 
+- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 features: 
 
 ---

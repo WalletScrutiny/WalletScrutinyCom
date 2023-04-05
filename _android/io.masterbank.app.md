@@ -3,7 +3,7 @@ wsId: masterbank
 title: Master Bank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: io.masterbank.app
 appCountry: 
@@ -25,13 +25,12 @@ date: 2023-03-02
 signer: 
 reviewArchive: 
 twitter: masterpay7
-social: 
+social:
 - https://t.me/mastercoin_official
 redirect_from: 
 features: 
 
 ---
-
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=io.masterbank.app)
 

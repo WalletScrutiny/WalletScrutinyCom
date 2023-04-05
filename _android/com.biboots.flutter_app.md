@@ -3,7 +3,7 @@ wsId: fairdesk
 title: Fairdesk Go:Trade Bitcoin, ETH
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official
-- https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w 
+- https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
 redirect_from: 
 features: 
 

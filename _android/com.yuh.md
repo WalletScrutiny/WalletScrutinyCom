@@ -3,13 +3,13 @@ wsId: yuh
 title: 'Yuh: Pay. Save. Invest.'
 altTitle: 
 authors:
-- danny 
-users: 50000
+- danny
+users: 100000
 appId: com.yuh
 appCountry: 
 released: Apr 6, 2021
 updated: 2023-03-31
-version: 1.19.0
+version: 1.19.1
 stars: 
 ratings: 
 reviews: 
@@ -25,7 +25,7 @@ date: 2023-03-02
 signer: 
 reviewArchive: 
 twitter: yuh_app
-social: 
+social:
 - https://www.facebook.com/yuhapp.en/
 redirect_from: 
 features: 

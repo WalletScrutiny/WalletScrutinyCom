@@ -9,11 +9,11 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 54
 - 85
 - 0.8
-weight: 5.4 
+weight: 5.4
 provider: 
 providerWebsite: http://www.keywallet.co.kr
 website: 
@@ -28,14 +28,14 @@ meta: ok
 verdict: noita
 date: 2023-02-07
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-08-01
   version: 
   appHash: 
   gitRevision: 8762a3742
   verdict: wip
 twitter: keywallet
-social: 
+social:
 - https://www.youtube.com/channel/UCpw_1bcmnaI-TIHZP5hXXww/videos
 - https://www.facebook.com/profile.php?id=100050621501094
 - https://medium.com/@keywallet

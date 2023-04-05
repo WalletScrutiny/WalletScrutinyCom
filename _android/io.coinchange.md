@@ -3,7 +3,7 @@ wsId: coinchange
 title: Coinchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: io.coinchange
 appCountry: 
@@ -28,7 +28,7 @@ twitter: coinchangeio
 social:
 - https://www.linkedin.com/company/coinchange/
 - https://www.facebook.com/coinchangeio/
-- https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg 
+- https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
 redirect_from: 
 features: 
 

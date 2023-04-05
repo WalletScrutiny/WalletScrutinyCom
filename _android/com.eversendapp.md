@@ -10,7 +10,7 @@ appCountry: lv
 released: 2019-02-01
 updated: 2023-04-04
 version: 0.3.83
-stars: 3.8
+stars: 3.9
 ratings: 5009
 reviews: 4379
 size: 

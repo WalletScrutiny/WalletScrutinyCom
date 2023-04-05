@@ -3,14 +3,14 @@ wsId: bitazzaGL
 title: 'Bitazza: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: '2022-04-07T07:00:00Z'
 updated: 2022-12-28
 version: 2.8.16
-stars: 3.91304
+stars: 3.9
 reviews: 23
 size: '159729664'
 website: https://www.bitazza.com
@@ -27,9 +27,10 @@ twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal
 - https://www.linkedin.com/company/bitazza/
-- https://t.me/bitazzaglobal 
+- https://t.me/bitazzaglobal
 features: 
 
 ---
+
 {% include walletLink.html wallet='android/' verdict='true' %}
 

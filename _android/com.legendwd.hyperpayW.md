@@ -12,7 +12,7 @@ updated: 2023-04-02
 version: 5.0.24
 stars: 4.4
 ratings: 2781
-reviews: 331
+reviews: 330
 size: 
 website: https://hyperpay.tech
 repository: 

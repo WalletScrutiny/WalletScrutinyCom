@@ -27,6 +27,8 @@ signer:
 reviewArchive: 
 twitter: radoystoyanov
 social: 
+features: 
+
 ---
 
 ## Product Description from [GitHub repository](https://github.com/agrimint/hardwareWallet)

@@ -11,7 +11,7 @@ updated: 2021-08-29
 version: 1.0.3
 stars: 4.1
 ratings: 
-reviews: 34
+reviews: 38
 size: 
 website: https://thunderboltwallet.com
 repository: 
