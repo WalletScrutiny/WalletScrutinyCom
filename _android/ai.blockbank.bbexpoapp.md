@@ -1,6 +1,6 @@
 ---
-wsId: blockbank
-title: blockbank
+wsId: blockbank.v2
+title: blockbank V2
 altTitle: 
 authors: 
 - danny
@@ -20,8 +20,8 @@ issue:
 icon: ai.blockbank.bbexpoapp.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-03-06
+verdict: custodial
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
@@ -34,7 +34,45 @@ features:
 
 ---
 
-## App Description
+## Updated Review 2023-04-05 
+
+There are currently 4 blockbank apps on WalletScrutiny and still available on Google Play and iOS. 
+
+**Version 1 includes:**
+
+- {% include walletLink.html wallet='android/com.aibb.wallet' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.aibb.wallet1' verdict='true' %}
+
+**Version 2 includes:**
+
+- {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %} (This one)
+- {% include walletLink.html wallet='iphone/ai.blockbank.blockbankv2' verdict='true' %}
+
+This is addressed in the [FAQ](https://blockbank.ai/faq/), with the following information on how to migrate 1 to V2: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1IySkOTIjwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Multiple verdicts? 
+
+We can say that the app has 3 distinct options: CeFi, DeFi and NFT. We're primarily concerned with CeFi and DeFi. 
+
+The DeFi portion of the app **does not support Bitcoin.** 
+
+The CeFi portion is custodial, and there are mentions that it does support Bitcoin. We're currently verifying this.
+
+As two possible verdicts are present, we are choosing the verdict that warns the users more about a product. In this case, it is a **custodial** offering that's non-verifiable.
+
+## Reviews on Google Play 
+
+> [Gabriel Philip](https://play.google.com/store/apps/details?id=ai.blockbank.bbexpoapp&gl=us)<br>
+  ★★☆☆☆ January 5, 2022 <br>
+       I am still trying the app based on recommendation but some USDT tokens I transferred since Sunday has not reflected but it was successful from kucoin This situation is very sad
+
+> [Abdul Alim](https://play.google.com/store/apps/details?id=ai.blockbank.bbexpoapp&gl=us)<br>
+  ★☆☆☆☆ May 24, 2022 <br>
+       Very bad app withdraw & deposit to many late😡😡😡😡
+
+## Previous Review 2023-03-06
 
 > Download the blockbank app today and tap into the centralized, decentralized, and traditional finance world, minus the complexity.
 >

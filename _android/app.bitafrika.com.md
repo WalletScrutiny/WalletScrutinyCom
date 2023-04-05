@@ -1,5 +1,5 @@
 ---
-wsId: BitAfrika
+wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 altTitle: 
 authors: 

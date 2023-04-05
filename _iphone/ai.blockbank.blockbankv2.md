@@ -1,6 +1,6 @@
 ---
-wsId: blockbank
-title: blockbank
+wsId: blockbank.v2
+title: blockbank V2
 altTitle: 
 authors: 
 - danny
@@ -19,7 +19,7 @@ issue:
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: custodial
 date: 2023-03-06
 signer: 
 reviewArchive: 

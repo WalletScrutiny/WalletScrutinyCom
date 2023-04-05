@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: app.bitafrika.com
 appCountry: us
 idd: '1577083741'
@@ -18,13 +19,17 @@ issue:
 icon: app.bitafrika.com.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-03-07
+verdict: custodial
+date: 2023-04-05
 signer: 
 reviewArchive: 
-twitter: 
+twitter: _bitafrika
 social: 
+- https://www.facebook.com/bitafrika
+- https://www.instagram.com/bitafrika/
 features: 
 
 ---
+{% include copyFromAndroid.html %}
+
 
