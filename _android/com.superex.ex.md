@@ -3,16 +3,16 @@ wsId:
 title: 'SuperEx: Trade Crypto & BTC'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.superex.ex
 appCountry: 
 released: Mar 23, 2022
-updated: 2023-03-20
-version: 2.5.8
-stars: 4.1
+updated: 2023-03-29
+version: 2.5.9
+stars: 4
 ratings: 
-reviews: 208
+reviews: 207
 size: 
 website: https://www.superex.com
 repository: 
@@ -27,11 +27,12 @@ reviewArchive:
 twitter: SuperExet
 social:
 - https://www.facebook.com/superexdex
-- https://www.youtube.com/@superexdex 
+- https://www.youtube.com/@superexdex
 redirect_from: 
 features: 
 
 ---
+
 ## Play Store App Description
 
 > SuperEx main services include cryptocurrency trading, derivatives trading and decentralized high-security storage for digital assets. While also supporting more innovative services such DeFi, NFTs, savings, mining, stocks etc.

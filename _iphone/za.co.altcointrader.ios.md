@@ -2,7 +2,7 @@
 wsId: altcoinTrader
 title: AltCoinTrader - Bitcoin Crypto
 altTitle: 
-authors: 
+authors:
 - danny
 appId: za.co.altcointrader.ios
 appCountry: za
@@ -11,7 +11,7 @@ released: '2020-02-21T08:00:00Z'
 updated: 2020-02-22
 version: '1.0'
 stars: 3
-reviews: 60
+reviews: 58
 size: '545792'
 website: https://www.altcointrader.co.za/
 repository: 
@@ -28,4 +28,5 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

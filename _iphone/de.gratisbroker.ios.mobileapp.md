@@ -19,7 +19,7 @@ issue:
 icon: de.gratisbroker.ios.mobileapp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosendreceive
 date: 2023-03-02
 signer: 
 reviewArchive: 

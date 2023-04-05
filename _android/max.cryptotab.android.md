@@ -2,7 +2,7 @@
 wsId: 
 title: CryptoTab Browser Max Speed
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000000
 appId: max.cryptotab.android
@@ -12,7 +12,7 @@ updated: 2023-01-23
 version: 7.0.24
 stars: 4.1
 ratings: 
-reviews: 663
+reviews: 672
 size: 
 website: https://cryptocompany.site/
 repository: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CryptoTabnet
 social:
-- https://www.facebook.com/CryptoTabFamilyOfficial 
+- https://www.facebook.com/CryptoTabFamilyOfficial
 redirect_from: 
 features: 
 

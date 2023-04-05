@@ -3,16 +3,16 @@ wsId: xtcom
 title: 'XT.com: Buy Bitcoin & Ethereum'
 altTitle: 
 authors:
-- danny 
-users: 100000
+- danny
+users: 500000
 appId: com.app.xt
 appCountry: 
 released: Apr 14, 2021
-updated: 2023-03-14
-version: 4.14.0
-stars: 2.9
+updated: 2023-04-04
+version: 4.16.1
+stars: 3.4
 ratings: 
-reviews: 119
+reviews: 125
 size: 
 website: http://www.xt.com
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/
-- https://www.facebook.com/XT.comexchange 
+- https://www.facebook.com/XT.comexchange
 redirect_from: 
 features: 
 

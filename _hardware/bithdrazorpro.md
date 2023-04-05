@@ -21,7 +21,7 @@ country: CN
 price: 69.99 USD
 repository: 
 issue: 
-icon: bithdrazorpro.png
+icon: 
 bugbounty: 
 meta: ok
 verdict: nosource

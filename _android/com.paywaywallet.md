@@ -11,9 +11,9 @@ appCountry:
 released: 2019-02-13
 updated: 2022-10-24
 version: '3.5.1 (build: #1269/20221024161541)'
-stars: 4.4
+stars: 4.3
 ratings: 254
-reviews: 4
+reviews: 3
 size: 
 website: https://www.payway.ug
 repository: 

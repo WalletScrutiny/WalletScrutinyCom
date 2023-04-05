@@ -1,23 +1,23 @@
 ---
 wsId: Bitexen
-title: Bitexen - Trade Bitcoin and Altcoin
+title: Bitexen - Bitcoin and Altcoins
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
-updated: 2021-07-29
-version: '0.42'
-stars: 3.2
+updated: 2023-03-03
+version: '0.88'
+stars: 3.5
 ratings: 8237
-reviews: 6026
-size: 14M
+reviews: 36
+size: 
 website: https://www.bitexen.com
 repository: 
 issue: 
-icon: com.bitexen.exchange.png
+icon: com.bitexen.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

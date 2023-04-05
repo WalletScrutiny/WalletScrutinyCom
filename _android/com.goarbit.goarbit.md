@@ -2,7 +2,7 @@
 wsId: 
 title: GoArbit
 altTitle: 
-authors: 
+authors:
 - danny
 users: 500000
 appId: com.goarbit.goarbit
@@ -30,6 +30,7 @@ redirect_from:
 features: 
 
 ---
+
 The app seems to be dysfunctional. We installed it and the first screen advises us to update the app, with no other method to bypass the update reminder. However, the app was last updated on August 2021. 
 
 Our observations are corroborated by the most recent reviews:
