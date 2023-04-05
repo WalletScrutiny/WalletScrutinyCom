@@ -1,6 +1,6 @@
 ---
 wsId: roseon
-title: 'Roseon: Play & Earn'
+title: 'Roseon: Trade & Earn'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: roseon.finance
 appCountry: vn
 released: 2021-03-16
-updated: 2023-02-25
-version: 2.4.0
+updated: 2023-03-31
+version: 2.4.3
 stars: 4.6
 ratings: 578
-reviews: 62
+reviews: 63
 size: 
 website: http://roseon.world
 repository: 

@@ -18,9 +18,9 @@ repository: https://github.com/Samourai-Wallet/sentinel-android
 issue: 
 icon: com.samourai.sentinel.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-09
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: samouraiwallet

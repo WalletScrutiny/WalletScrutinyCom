@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://m.excoin.cloud
+website: https://web.excoin.cloud/
 repository: 
 issue: 
 icon: app.excointrades.com.jpg

@@ -10,9 +10,9 @@ appCountry:
 released: Oct 14, 2021
 updated: 2022-10-24
 version: '5.6'
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 21
+reviews: 20
 size: 
 website: https://swaptobe.com
 repository: 

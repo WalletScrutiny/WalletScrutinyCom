@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.EftMarkets.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-08
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

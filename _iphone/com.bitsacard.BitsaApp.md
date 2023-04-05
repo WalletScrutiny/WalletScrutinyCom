@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-01
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: bitsa_oficial

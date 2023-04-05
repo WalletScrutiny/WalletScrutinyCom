@@ -1,6 +1,6 @@
 ---
 wsId: DeltaTrading
-title: Delta Trading – FX, Shares, In
+title: Delta Trading – FX&Shares CFDs
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2021-05-17
 version: 5.8.7
 stars: 4.1
 ratings: 410
-reviews: 55
+reviews: 56
 size: 
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 

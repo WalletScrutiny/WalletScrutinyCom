@@ -4,15 +4,15 @@ title: Z.com EX - Buy/Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
-updated: 2023-02-19
-version: 2.0.6
+updated: 2023-03-25
+version: 2.0.7
 stars: 4.3
 ratings: 82
-reviews: 21
+reviews: 22
 size: 
 website: https://ex.z.com/
 repository: 

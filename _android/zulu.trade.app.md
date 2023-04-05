@@ -12,7 +12,7 @@ updated: 2022-05-19
 version: 4.25.1
 stars: 3.8
 ratings: 2010
-reviews: 67
+reviews: 66
 size: 
 website: https://www.zulutrade.com
 repository: 

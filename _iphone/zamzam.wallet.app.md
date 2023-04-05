@@ -8,11 +8,11 @@ appId: zamzam.wallet.app
 appCountry: ru
 idd: 1436344249
 released: 2018-10-17
-updated: 2023-03-01
-version: 3.3.0
+updated: 2023-03-16
+version: 3.3.1
 stars: 4.2
 reviews: 72
-size: '44645376'
+size: '45771776'
 website: https://zam.io
 repository: 
 issue: 

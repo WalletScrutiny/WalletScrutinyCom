@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-07-29
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.bitcoinira
 appCountry: us
 idd: 1534638949
 released: 2021-06-20
-updated: 2023-01-17
-version: 1.5.28
+updated: 2023-04-04
+version: 1.5.30
 stars: 4.5
-reviews: 557
-size: '71474176'
+reviews: 584
+size: '72819712'
 website: https://bitcoinira.com/
 repository: 
 issue: 

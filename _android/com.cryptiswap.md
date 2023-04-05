@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: CryptiSwap - Non-Custodial Cry
+title: Quantex - Swap & Trade Crypto!
 altTitle: 
 authors: 
 users: 1000
 appId: com.cryptiswap
 appCountry: 
 released: 2021-03-16
-updated: 2021-06-29
-version: 1.0.6
+updated: 2023-03-10
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptiswap.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2022-07-01
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 

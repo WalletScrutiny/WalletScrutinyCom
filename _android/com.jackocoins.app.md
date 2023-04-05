@@ -10,7 +10,7 @@ appCountry:
 released: 2020-07-18
 updated: 2022-04-04
 version: 2.0.0
-stars: 4.1
+stars: 4
 ratings: 148
 reviews: 15
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.jackocoins.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-11-03
+date: 2023-03-30
 signer: 
 reviewArchive: 
 twitter: jackocoins

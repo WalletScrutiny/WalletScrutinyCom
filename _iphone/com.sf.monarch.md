@@ -11,7 +11,7 @@ released: 2018-06-12
 updated: 2023-01-03
 version: 1.6.19
 stars: 4.7
-reviews: 398
+reviews: 397
 size: '137478144'
 website: https://monarchwallet.com
 repository: 
