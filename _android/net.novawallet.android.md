@@ -48,6 +48,6 @@ features:
 
 Upon installing the app, Nova Wallet provides the option to create or import a wallet. The user is provided with an 18 word seed phrase as the recovery key and asked to write them down. Verification methods include a password and either a fingerprint, a pin lock, or a pattern lock.
 
-Although the wallet is self-custodial and the developers have a (seemingly inactive) [GitHub profile](https://github.com/VSolidus) we did not find any information {{ page.title }}'s source code.
+Although the provider claims it is self-custodial and they have a (seemingly inactive) [GitHub profile](https://github.com/VSolidus) we did not find any source code for {{ page.title }}.
 
 Verdict: No source available for review makes this app **not verifiable.**

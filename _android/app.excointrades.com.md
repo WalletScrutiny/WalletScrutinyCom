@@ -64,4 +64,4 @@ While depositing BTC is possible through an auto-generated wallet address, we fi
 
 We were not able to test whether we can withdraw as our balances are empty. 
 
-We are inclined to identify many reasons why this app may be custodial, but we feel that there are other factors that may not allow for the platform to allow the user to send Bitcoin from their platform. We emailed their support email and await their reply. While we wait, we'll temporarily label this provider as partially being able to **deposit** BTC, but as per section 4.4, **not able to withdraw using BTC**. We will change our verdict upon feedback from the provider.
+The app looks custodial but we could not validate if withdrawing to an external wallet was possible. We emailed their support. While waiting for a reply, we'll temporarily label this provider as partially being able to **deposit** BTC, but as per section 4.4, **not able to withdraw using BTC**. We will change our verdict upon feedback from the provider.
