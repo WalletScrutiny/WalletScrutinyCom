@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-14
 updated: 2023-03-31
 version: 4.0.2
-stars: 3
+stars: 2.9
 ratings: 73042
-reviews: 84
+reviews: 85
 size: 
 website: https://www.paribu.com
 repository: 

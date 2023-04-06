@@ -8,11 +8,11 @@ appId: com.btuprotocol.btuWallet
 appCountry: ba
 idd: 1539304605
 released: 2021-03-15
-updated: 2023-03-28
-version: 2.14.9
+updated: 2023-04-04
+version: 2.15.0
 stars: 0
 reviews: 0
-size: '73515008'
+size: '73527296'
 website: https://get-verso.com
 repository: 
 issue: 

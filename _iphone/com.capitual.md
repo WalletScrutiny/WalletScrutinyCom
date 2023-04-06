@@ -8,11 +8,11 @@ appId: com.capitual
 appCountry: us
 idd: '1458793819'
 released: '2019-09-20T07:00:00Z'
-updated: 2023-02-25
-version: 3.40.3
+updated: 2023-04-06
+version: 3.42.0
 stars: 4.3
 reviews: 6
-size: '72662016'
+size: '86144000'
 website: https://www.capitual.com
 repository: 
 issue: 

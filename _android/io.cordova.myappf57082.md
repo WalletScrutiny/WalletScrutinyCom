@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.cordova.myappf57082.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-11
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: BTCofAmerica

@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 12
 size: 
-website: https://www.liteforex.com
+website: https://www.liteforex.eu
 repository: 
 issue: 
 icon: com.litefinance.cabinet.jpg

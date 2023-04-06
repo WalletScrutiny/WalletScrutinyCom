@@ -12,9 +12,9 @@ updated: 2023-03-25
 version: '9100'
 stars: 3.7
 ratings: 
-reviews: 202
+reviews: 203
 size: 
-website: https://www.antcoin.online/
+website: https://antcoin.tech/
 repository: 
 issue: 
 icon: com.creativeoffice.ripcoin.png

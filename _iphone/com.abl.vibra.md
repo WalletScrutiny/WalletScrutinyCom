@@ -11,7 +11,7 @@ released: '2021-10-24T07:00:00Z'
 updated: 2023-02-25
 version: 1.6.60
 stars: 4.7
-reviews: 43
+reviews: 37
 size: '49396736'
 website: https://www.vibra.one/
 repository: 

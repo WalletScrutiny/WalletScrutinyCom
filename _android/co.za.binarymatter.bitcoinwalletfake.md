@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-21
 updated: 2021-04-16
 version: '1.3'
-stars: 3.2
+stars: 3.3
 ratings: 64
 reviews: 8
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.za.binarymatter.bitcoinwalletfake.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-12
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 

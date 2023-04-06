@@ -9,7 +9,7 @@ appId: com.cmorq.hoopoe
 appCountry: 
 released: Aug 15, 2021
 updated: 2023-04-05
-version: 5.6.3
+version: 5.6.5
 stars: 4.1
 ratings: 
 reviews: 29

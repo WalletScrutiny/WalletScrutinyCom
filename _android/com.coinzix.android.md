@@ -11,7 +11,7 @@ updated: 2023-01-09
 version: '1.95'
 stars: 4
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://www.coinzix.com
 repository: 

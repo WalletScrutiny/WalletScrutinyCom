@@ -11,7 +11,7 @@ discontinued:
 updated: 2023-04-04
 version: 0.4.2307
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
-dimensions: 
+dimensions:
 - 30
 - 64
 - 15

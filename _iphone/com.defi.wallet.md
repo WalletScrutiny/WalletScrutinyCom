@@ -11,7 +11,7 @@ released: 2020-05-20
 updated: 2023-03-22
 version: 1.53.0
 stars: 4.6
-reviews: 5490
+reviews: 5512
 size: '201943040'
 website: https://crypto.com/defi-wallet
 repository: 

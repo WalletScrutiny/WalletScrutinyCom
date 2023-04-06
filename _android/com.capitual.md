@@ -8,8 +8,8 @@ users: 50000
 appId: com.capitual
 appCountry: 
 released: Mar 28, 2019
-updated: 2023-02-24
-version: 3.40.3
+updated: 2023-04-06
+version: 3.42.0
 stars: 3.5
 ratings: 
 reviews: 6

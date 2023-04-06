@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-05
 updated: 2023-03-26
 version: '11.63'
-stars: 4
+stars: 3.9
 ratings: 1165
-reviews: 452
+reviews: 453
 size: 
 website: https://afriexapp.com
 repository: 

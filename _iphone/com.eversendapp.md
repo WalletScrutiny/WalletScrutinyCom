@@ -8,8 +8,8 @@ appId: com.eversendapp
 appCountry: lv
 idd: 1438341192
 released: 2020-05-28
-updated: 2023-04-01
-version: 0.3.82
+updated: 2023-04-06
+version: 0.3.84
 stars: 0
 reviews: 0
 size: '94811136'

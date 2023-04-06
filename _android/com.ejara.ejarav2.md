@@ -4,7 +4,7 @@ title: Ejara
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.ejara.ejarav2
 appCountry: 
 released: Mar 8, 2021

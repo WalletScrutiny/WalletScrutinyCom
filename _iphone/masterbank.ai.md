@@ -8,11 +8,11 @@ appId: masterbank.ai
 appCountry: kr
 idd: '1599645061'
 released: '2022-02-27T08:00:00Z'
-updated: 2023-03-21
-version: 0.10.5
+updated: 2023-04-05
+version: 0.10.6
 stars: 3.6
 reviews: 16
-size: '60042240'
+size: '59995136'
 website: https://masterbank.org/
 repository: 
 issue: 
