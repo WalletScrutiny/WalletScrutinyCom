@@ -21,7 +21,7 @@ issue:
 icon: magicw.keybox.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: nosource
 date: 2023-03-03
 signer: 
 reviewArchive: 
@@ -29,6 +29,10 @@ twitter:
 social: 
 - https://t.me/keyboxdev 
 ---
+
+## Updated Verdict 2023-04-06 
+
+As per [Leo](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/398#note_1342685484), the repository available is of the companion app and bridge software. In the interim, we'll assign a verdict reflecting that the firmware is not publicly available, until further notice. 
 
 ## Product Description from {{ page.title }} [web page](https://keybox.magicw.net/indexen.html#hdTech)
 

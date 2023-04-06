@@ -24,7 +24,7 @@ issue:
 icon: lubanso.png
 bugbounty: 
 meta: ok
-verdict: plainkey
+verdict: nosource
 date: 2023-03-03
 signer: 
 reviewArchive: 
