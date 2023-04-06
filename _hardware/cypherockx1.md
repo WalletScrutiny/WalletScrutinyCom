@@ -142,8 +142,35 @@ fe5dd33a719eff4e2aa869108ba139e6f87204e6263870b0c5da1113b72ac32c *main-release-o
 
 ***Fingerprint (SHA256 hash) of released unsigned main X1 Wallet firmware binary and compiled main X1 Wallet firmware binary matches. Therefore, we conclude that the firmware is reproducible.***
 
-
 ## Installing firmware updates
+
 - The user has the flexibility to install a firmware update or not. The secure bootloader, which forms the root of trust, verifies if the firmware is a newer version than the currently installed version and [verifies the source of the firmware](https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/bootloader.md) (through 2 signatures).
 - Users can view the installed version and the commit hash of the release corresponding to the installed Cypherock X1 Wallet firmware binary and can verify it against the GitHub repository. This cross check should provide enough confidence to the user that the installed firmware binary matches the release binary on the public source. 
 - However, based on feedback received from different users, Cypherock X1 Wallet team is planning to add a user configurable functionality, through which SHA256 digest of the newly installed firmware is displayed after a successful firmware update.
+
+## Reproduced above procedure by Leo
+
+Leo independently reproduced the latest version `v0.4.2307` as follows:
+
+```
+$ git clone git@github.com:Cypherock/x1_wallet_firmware.git
+$ cd x1_wallet_firmware/
+$ git checkout v0.4.2307 
+$ git submodule update --init --recursive
+$ podman run --volume=${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
+    mkdir -p /dist/initial && cd /home/build/Release/ ;\
+    cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Initial -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ; \
+    ninja; \
+    cp Cypherock-*.* /dist/initial && cp -a /dist/. /out"
+$ podman run --volume=${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
+    mkdir -p /dist/initial && cd /home/build/Release/ ;\
+    cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Main -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ; \
+    ninja; \
+    cp Cypherock-*.* /dist/initial && cp -a /dist/. /out"
+$ wget https://github.com/Cypherock/x1_wallet_firmware/releases/download/v0.4.2307/Cypherock-{Initial,Main}.bin
+$ sha256sum build/initial/Cypherock-Initial.bin Cypherock-Initial.bin build/initial/Cypherock-Main.bin Cypherock-Main.bin
+757d8c49b8f084400e7c8631b7e8f5cbfe4b7d527cfd8a7e056c1f43f9232e63  build/initial/Cypherock-Initial.bin
+757d8c49b8f084400e7c8631b7e8f5cbfe4b7d527cfd8a7e056c1f43f9232e63  Cypherock-Initial.bin
+09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d  build/initial/Cypherock-Main.bin
+09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d  Cypherock-Main.bin
+```
