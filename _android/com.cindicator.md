@@ -3,7 +3,7 @@ wsId: cindicator
 title: 'Cindicator: become a financial'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.cindicator
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Cindicator
 social:
-- https://www.facebook.com/crowdindicator 
+- https://www.facebook.com/crowdindicator
 redirect_from: 
 features: 
 

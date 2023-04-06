@@ -11,7 +11,7 @@ released: 2018-10-25
 updated: 2023-03-26
 version: 4.14.1
 stars: 4.6
-reviews: 1971
+reviews: 1983
 size: '100125696'
 website: https://www.argent.xyz
 repository: 

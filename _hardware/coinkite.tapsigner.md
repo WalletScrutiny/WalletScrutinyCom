@@ -24,7 +24,7 @@ meta: ok
 verdict: sealed-noita
 date: 2023-02-13
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2022-04-29
   version: 
   appHash: 

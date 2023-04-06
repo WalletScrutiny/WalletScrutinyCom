@@ -3,7 +3,7 @@ wsId:
 title: 'Ant Network: Phone Based'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.creativeoffice.ripcoin
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2023-03-25
 version: '9100'
 stars: 3.7
 ratings: 
-reviews: 201
+reviews: 202
 size: 
 website: https://www.antcoin.online/
 repository: 

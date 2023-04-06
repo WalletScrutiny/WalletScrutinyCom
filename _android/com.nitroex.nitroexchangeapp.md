@@ -4,7 +4,7 @@ title: NitroEx Exchange
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.nitroex.nitroexchangeapp
 appCountry: tt
 released: 2021-06-23

@@ -11,9 +11,9 @@ appCountry:
 released: 2020-01-19
 updated: 2023-03-26
 version: 5.4.1
-stars: 4.4
+stars: 4.5
 ratings: 3936
-reviews: 431
+reviews: 433
 size: 
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

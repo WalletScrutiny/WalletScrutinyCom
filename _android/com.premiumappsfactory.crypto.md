@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.premiumappsfactory.crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-10-18
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: 

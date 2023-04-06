@@ -11,7 +11,7 @@ released: 2019-06-30
 updated: 2023-03-24
 version: 3.1.0
 stars: 3.8
-reviews: 1094
+reviews: 1095
 size: '78802944'
 website: https://nexo.com
 repository: 
