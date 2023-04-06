@@ -29,7 +29,8 @@ date: 2023-04-01
 signer: 
 reviewArchive: 
 twitter: dorjwa
-social: 
+social:
+- https://t.me/dorjwa 
 ---
 
 ## Product Description taken from the Dorj homepage
