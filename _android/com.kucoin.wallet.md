@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'KuCoin Wallet: Crypto & NFT'
+title: 'Halo Wallet: Web3 Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: May 31, 2022
-updated: 2023-03-09
-version: 1.8.0
+updated: 2023-04-03
+version: 2.0.0
 stars: 4.3
 ratings: 
-reviews: 58
+reviews: 59
 size: 
 website: https://kuwallet.com
 repository: 
 issue: 
-icon: com.kucoin.wallet.png
+icon: com.kucoin.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc

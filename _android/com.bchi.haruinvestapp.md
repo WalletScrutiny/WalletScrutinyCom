@@ -12,7 +12,7 @@ updated: 2023-03-13
 version: 2.17.0
 stars: 4.7
 ratings: 277
-reviews: 47
+reviews: 48
 size: 
 website: https://haruinvest.com
 repository: 

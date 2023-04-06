@@ -1,5 +1,5 @@
 ---
-wsId: BitPreco
+wsId: BityPreco
 title: Bitypreço
 altTitle: 
 authors:

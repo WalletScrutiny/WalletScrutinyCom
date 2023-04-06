@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.narkasa.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 

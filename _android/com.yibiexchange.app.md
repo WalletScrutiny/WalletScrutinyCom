@@ -3,12 +3,12 @@ wsId:
 title: YIBI - Buy Bitcoin Instantly
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.yibiexchange.app
 appCountry: 
 released: Apr 11, 2022
-updated: 2023-03-28
-version: 1.3.50
+updated: 2023-04-03
+version: 1.3.51
 stars: 
 ratings: 
 reviews: 

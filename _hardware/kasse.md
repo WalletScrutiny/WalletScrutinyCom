@@ -29,14 +29,14 @@ meta: ok
 verdict: nosource
 date: 2023-02-13
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-09-01
   version: 2.11.0
   appHash: 
   gitRevision: 8762a3742
   verdict: nosource
 twitter: KasseUSA
-social: 
+social:
 - https://www.instagram.com/kasseusa/?hl=en
 - https://www.youtube.com/channel/UCZH9-FUQTPFgZZgLFsKvY3w
 features: 

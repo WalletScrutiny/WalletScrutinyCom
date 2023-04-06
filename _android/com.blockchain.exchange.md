@@ -3,7 +3,7 @@ wsId: blockchainExchange
 title: Blockchain.com Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.blockchain.exchange
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2022-12-20
 version: 202212.1.1
 stars: 4.4
 ratings: 
-reviews: 31
+reviews: 32
 size: 
 website: https://www.blockchain.com
 repository: 

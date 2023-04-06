@@ -12,7 +12,7 @@ updated: 2023-02-23
 version: 1.2.4
 stars: 3.7
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://www.exir.io/
 repository: 

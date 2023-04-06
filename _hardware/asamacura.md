@@ -25,7 +25,7 @@ meta: discontinued
 verdict: noita
 date: 2023-02-13
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2021-08-01
   version: 
   appHash: 

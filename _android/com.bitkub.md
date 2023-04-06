@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitkubExchange
 title: Bitkub - Bitcoin & Crypto
 altTitle: 
 authors:
@@ -10,9 +10,9 @@ appCountry:
 released: 2019-04-20
 updated: 2023-03-24
 version: 3.17.4
-stars: 4.3
+stars: 4.2
 ratings: 18826
-reviews: 33
+reviews: 34
 size: 
 website: http://www.bitkub.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.bitkub.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-08-21
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: bitkubofficial
@@ -33,9 +33,31 @@ features:
 
 ---
 
+## Update Review 2023-04-04
+
+There are some concerns that BitKub has multiple apps and that some may need checking: 
+
+- {% include walletLink.html wallet='iphone/com.bitkub.app' verdict='true' %}
+- {% include walletLink.html wallet='android/com.bbt.bitkubnext' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bbt.bitkubnext.app' verdict='true' %}
+
+We [verified on the support page](https://support.bitkub.com/en/support/solutions/articles/151000034663-bitkub-chain-whitepaper) of bitkub.com that it is connected to bitkubchain.com.  
+
+Here's the description for {% include walletLink.html wallet='android/com.bbt.bitkubnext' %}: 
+
+> Bitkub NEXT is a crypto wallet on the Bitkub chain. Bitkub NEXT aims to provide user-friendly access to Bitkub Chain, which securely keeps cryptocurrency and digital assets.
+
+## Previous Review 2023-02-16
+
 > Bitkub is a new generation digital asset and cryptocurrency exchange platform
 
 This sounds like an exchange.
+
+Company Information: 
+
+> Bitkub Online Co., Ltd. (the “Company”) is considered as Financial Institution by virtue of the anti-money laundering laws pursuant to the Emergency Decree on Digital Asset Businesses B.E. 2561 (2018) Section 7, and shall comply with the applicable laws, including Anti-money Laundering Act B.E. 2542 (1999), Counter-Terrorism and Proliferation of Weapon of Mass Destruction Financing Act B.E. 2559 (2016) including ministerial regulation, rules, and notification of the Anti-money Laundering Office (“AMLO”) and The Securities and Exchanges Commission (“SEC”)
+
+[AML Policy](https://www.bitkub.com/en/content/aml-policy)
 
 > We require pin code protection and other security measures such as biometric and fingerprint scan.
 

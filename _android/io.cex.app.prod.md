@@ -10,9 +10,9 @@ appCountry:
 released: 2015-12-22
 updated: 2023-03-28
 version: VARY
-stars: 4
+stars: 3.9
 ratings: 16669
-reviews: 1735
+reviews: 1740
 size: 
 website: https://cex.io
 repository: 
