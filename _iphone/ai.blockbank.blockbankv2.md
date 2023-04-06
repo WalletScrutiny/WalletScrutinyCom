@@ -19,7 +19,7 @@ issue:
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 date: 2023-03-06
 signer: 
 reviewArchive: 

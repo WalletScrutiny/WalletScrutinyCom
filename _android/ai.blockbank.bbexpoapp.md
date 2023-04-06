@@ -20,7 +20,7 @@ issue:
 icon: ai.blockbank.bbexpoapp.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 date: 2023-04-05
 signer: 
 reviewArchive: 
