@@ -37,7 +37,7 @@ features:
 
 ## Analysis 
 
-In a nutshell, {{ page.title }} is primarily a messaging app with an integrated wallet that supports BTC and GLAM. We downloaded the app and was successfully able to create a wallet. We were then given a 12-word seed phrase for backing up the wallet. 
+In a nutshell, Glamster is primarily a messaging app with an integrated wallet that supports BTC and GLAM. We downloaded the app and was successfully able to create a wallet. We were then given a 12-word seed phrase for backing up the wallet. 
 
 However when we tried to import these unto Electrum, we failed. 
 
