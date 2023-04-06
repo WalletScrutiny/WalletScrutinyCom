@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: meek.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2023-03-10
 signer: 
