@@ -50,5 +50,5 @@ features:
 
 ## Analysis 
 
-Bitgo is a well-known custodian for platforms and services like {{ page.title }}. This is a good indicator for its **custodial** nature.
+Kassio uses Bitgo as a third-party custodian for its services. This indicates that {{ page.title }} is **custodial** in nature and therefore, **not-verifiable**.
 
