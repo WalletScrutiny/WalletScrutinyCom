@@ -38,22 +38,7 @@ features:
 
 An announcement is emblazoned on its [front page](https://twitter.com/BitcoinWalletz/status/1641368754042068992).
 
-In Turkish: 
-
-> Değerli Coinzo Kullanıcıları,
-> 
-> Coinzo Teknoloji A.Ş. olarak 2018 yılından beri faaliyet içinde olduğumuz dijital varlık servis sağlayıcı (kripto para platformu) hizmetimizi sonlandırma kararı aldık. www.coinzo.com’a erişim 6 ay süresince açık olacaktır.
-> 
-> Kullanıcılarımız bu süreç içerisinde TRY ve kripto para bakiyelerini çekebilecek, alım/satım işlemleri hariç tüm özellikleri kullanabileceklerdir.
-> 
-> Coinzo platformunda alım/satım işlemleri 11 Ekim 2021 Pazartesi saat 09:00 itibariyle durdurulmuştur. Faaliyet sonlandırma süreci için ilgili kurumlara bilgi verilmiştir. Destek ekibimiz bu süre boyunca kullanıcılarımızın sorunlarına çözüm üretmeye devam edecektir. Süreç hiç bir kullanıcımızın mağdur olmaması için özenle yönetilecektir.
->
-> Coinzo Teknoloji A.Ş. olarak kullanıcılarımızın karşısına yine “kripto para ve blockchain” sektöründe yeni projelerle çıkmayı hedeflemekteyiz.
->
-> Kamuoyuna saygıyla duyurulur.
-> Coinzo Ekibi
-
-Translated into English: 
+Translated from Turkish: 
 
 > Dear Coinzo Users,
 >
