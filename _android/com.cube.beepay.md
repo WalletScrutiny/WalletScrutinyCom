@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: beFiWeb3
 title: BeFi - Web3.0 Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.cube.beepay
 appCountry: 
@@ -19,14 +20,16 @@ issue:
 icon: com.cube.beepay.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nobtc
+date: 2023-03-31
 signer: 
 reviewArchive: 
-twitter: 
+twitter: BeFiWalletverse
 social: 
+- https://t.me/befiwallet
 redirect_from: 
 features: 
 
 ---
 
+This wallet only supports altchains like ETH, TRON, KLAY and others. Thus, it only supports tokenized "BTC" such wBTC, which is not really Bitcoin.

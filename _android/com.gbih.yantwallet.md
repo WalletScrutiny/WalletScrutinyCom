@@ -2,7 +2,8 @@
 wsId: 
 title: 'YANT Wallet : Bitcoin Ethereum'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.gbih.yantwallet
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.gbih.yantwallet.png
 bugbounty: 
-meta: obsolete
-verdict: nosource
-date: 2022-06-22
+meta: defunct
+verdict: wip
+date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +30,13 @@ redirect_from:
 features: 
 
 ---
+
+
+## Updated Review 2023-03-31 
+
+The last time this app was updated was in 2019.
+
+## Previous Review 2022-06-22
 
 The app screenshots suggest that this is a non-custodial wallet as it has a "wallet email backup" and "wallet paper key backup and recovery"
 
