@@ -12,7 +12,7 @@ updated: 2023-03-22
 version: 6.4.7
 stars: 4.2
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://www.deepcoin.com
 repository: 

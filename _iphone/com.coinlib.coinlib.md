@@ -3,7 +3,7 @@ wsId: coinlibIO
 title: Coinlib
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinlib.coinlib
 appCountry: us
 idd: '1413265839'
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: coinlibio
 social:
-- https://www.facebook.com/coinlib/ 
+- https://www.facebook.com/coinlib/
 features: 
 
 ---

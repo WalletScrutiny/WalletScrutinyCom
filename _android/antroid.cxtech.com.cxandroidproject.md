@@ -2,7 +2,7 @@
 wsId: 
 title: DX.Exchange - Buy&Sell Bitcoin
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: antroid.cxtech.com.cxandroidproject

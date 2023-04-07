@@ -2,7 +2,7 @@
 wsId: coinZoom
 title: 'CoinZoom: Buy Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.coinzoom.android
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: GetCoinZoom
 social:
 - https://www.facebook.com/CoinZoom
-- https://www.linkedin.com/company/coinzoomhq/ 
+- https://www.linkedin.com/company/coinzoomhq/
 redirect_from: 
 features: 
 

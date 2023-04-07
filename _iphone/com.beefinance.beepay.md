@@ -2,7 +2,7 @@
 wsId: beFiWeb3
 title: BeFi
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.beefinance.beepay
 appCountry: sg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BeFiWalletverse
 social:
-- https://t.me/befiwallet 
+- https://t.me/befiwallet
 features: 
 
 ---

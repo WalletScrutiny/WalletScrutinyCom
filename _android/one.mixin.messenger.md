@@ -14,7 +14,7 @@ updated: 2023-03-29
 version: 0.38.10
 stars: 4.7
 ratings: 1252
-reviews: 152
+reviews: 153
 size: 
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app

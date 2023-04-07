@@ -2,7 +2,7 @@
 wsId: 
 title: 'Finblox: Earn Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.finbloxapp.finblox
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: finblox
 social:
-- https://www.facebook.com/finbloxapp 
+- https://www.facebook.com/finbloxapp
 redirect_from: 
 features: 
 

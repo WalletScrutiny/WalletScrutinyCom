@@ -2,7 +2,7 @@
 wsId: 
 title: BIP Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: network.minter.bipwallet.mainnet

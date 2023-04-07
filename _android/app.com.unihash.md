@@ -2,7 +2,7 @@
 wsId: 
 title: Neuron
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: app.com.unihash

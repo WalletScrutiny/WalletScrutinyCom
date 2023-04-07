@@ -3,7 +3,7 @@ wsId: conglex
 title: Conglex
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.conglex.mobile
 appCountry: us
 idd: '1626252670'
@@ -24,7 +24,7 @@ date: 2023-03-30
 signer: 
 reviewArchive: 
 twitter: conglexglobal
-social: 
+social:
 - https://www.linkedin.com/company/conglex-nigeria/
 features: 
 

@@ -3,7 +3,7 @@ wsId: fizenWallet
 title: Fizen Super App
 altTitle: 
 authors:
-- danny 
+- danny
 appId: fizen.io.wallet
 appCountry: us
 idd: '1621269508'
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/fizen-io/
 - https://www.facebook.com/web3fizen
 - https://www.instagram.com/fizen.io/
-- https://t.me/fizen_io 
+- https://t.me/fizen_io
 features: 
 
 ---

@@ -3,7 +3,7 @@ wsId:
 title: SBG GLOBAL
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.club.sbgame
 appCountry: 

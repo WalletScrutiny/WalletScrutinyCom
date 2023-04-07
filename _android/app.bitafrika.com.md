@@ -2,7 +2,7 @@
 wsId: bitAfrika
 title: BitAfrika - Buy & Sell Crypto
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: app.bitafrika.com
@@ -10,9 +10,9 @@ appCountry: GH
 released: Jul 19, 2021
 updated: 2023-04-05
 version: 4.3.1
-stars: 4.2
+stars: 4
 ratings: 
-reviews: 13
+reviews: 101
 size: 
 website: https://bitafrika.com
 repository: 
@@ -25,7 +25,7 @@ date: 2023-03-06
 signer: 
 reviewArchive: 
 twitter: _bitafrika
-social: 
+social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 redirect_from: 

@@ -9,9 +9,9 @@ appCountry:
 released: Mar 6, 2022
 updated: 2022-08-20
 version: '1.8'
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 95
+reviews: 94
 size: 
 website: https://foxnetwork.app/
 repository: 

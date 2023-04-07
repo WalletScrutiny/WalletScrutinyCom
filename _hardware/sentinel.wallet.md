@@ -10,7 +10,7 @@ version:
 binaries: 
 dimensions: 
 weight: 
-provider: Sentinel Wallet LLC 
+provider: Sentinel Wallet LLC
 providerWebsite: 
 website: https://sentinelwallet.com
 shop: 
@@ -27,6 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+
 ---
 
 ## Product Description from the {{ page.title }} [Website](https://sentinelwallet.com/)

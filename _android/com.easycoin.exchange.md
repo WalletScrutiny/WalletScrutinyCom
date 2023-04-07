@@ -3,7 +3,7 @@ wsId: easycoinExchange
 title: EasyCoins
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.easycoin.exchange
 appCountry: 
@@ -28,7 +28,7 @@ twitter: EasyCoinsCrypto
 social:
 - https://www.instagram.com/easycoinscryptoglobal/
 - https://www.reddit.com/r/EasyCoins/
-- https://t.me/easycoins888 
+- https://t.me/easycoins888
 redirect_from: 
 features: 
 

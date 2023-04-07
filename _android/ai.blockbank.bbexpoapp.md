@@ -1,8 +1,8 @@
 ---
 wsId: blockbank.v2
-title: blockbank V2
+title: blockbank
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: ai.blockbank.bbexpoapp
@@ -25,7 +25,7 @@ date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
-social: 
+social:
 - https://www.facebook.com/blockbank
 - https://www.linkedin.com/company/blockbankapp/
 - https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg

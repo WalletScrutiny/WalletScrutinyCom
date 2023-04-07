@@ -3,7 +3,7 @@ wsId:
 title: 비트코인 거래소&지갑 유빗(Youbit)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.ddengle.bts
 appCountry: 

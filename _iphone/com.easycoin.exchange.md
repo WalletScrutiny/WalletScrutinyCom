@@ -3,16 +3,16 @@ wsId: easycoinExchange
 title: EasyCoins
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.easycoin.exchange
 appCountry: in
 idd: '1617986309'
 released: '2022-09-28T07:00:00Z'
-updated: 2023-03-13
-version: 1.0.64
+updated: 2023-04-06
+version: 1.0.65
 stars: 5
-reviews: 11
-size: '105138176'
+reviews: 10
+size: '105146368'
 website: https://www.easycoins.com/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: EasyCoinsCrypto
 social:
 - https://www.instagram.com/easycoinscryptoglobal/
 - https://www.reddit.com/r/EasyCoins/
-- https://t.me/easycoins888 
+- https://t.me/easycoins888
 features: 
 
 ---

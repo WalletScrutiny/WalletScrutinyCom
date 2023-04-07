@@ -3,7 +3,7 @@ wsId: beFiWeb3
 title: BeFi - Web3.0 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.cube.beepay
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: BeFiWalletverse
-social: 
+social:
 - https://t.me/befiwallet
 redirect_from: 
 features: 

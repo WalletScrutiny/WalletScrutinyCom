@@ -3,7 +3,7 @@ wsId: conglex
 title: Conglex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.conglex.conglex
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: conglexglobal
 social:
-- https://www.linkedin.com/company/conglex-nigeria/ 
+- https://www.linkedin.com/company/conglex-nigeria/
 redirect_from: 
 features: 
 

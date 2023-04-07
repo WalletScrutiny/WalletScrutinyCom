@@ -2,7 +2,7 @@
 wsId: scallopExchange
 title: Scallop Exchange
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.scallop.exchange.SCLPExchange
 appCountry: us
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: ScallopOfficial
 social:
-- https://www.linkedin.com/company/scallopx/ 
+- https://www.linkedin.com/company/scallopx/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

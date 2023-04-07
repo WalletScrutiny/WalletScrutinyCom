@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-10
 updated: 2023-03-26
 version: 3.0.1
-stars: 4.7
+stars: 4.6
 ratings: 1588
-reviews: 31
+reviews: 18
 size: 
 website: https://www.fameex.com
 repository: 

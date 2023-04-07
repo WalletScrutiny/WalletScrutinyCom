@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 62
 - 28
-- 7 
+- 7
 weight: 36
 provider: Hangzhou LUBANSO Technology Co., Ltd
 providerWebsite: https://www.lubanso.com
@@ -29,9 +29,11 @@ date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: lubanso
-social: 
+social:
 - https://t.me/lubanso
 - https://www.facebook.com/LUBANSO
+features: 
+
 ---
 
 ## Product Description from [Website](https://www.lubanso.com/x1)

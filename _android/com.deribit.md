@@ -3,7 +3,7 @@ wsId: deribitOptions
 title: 'Deribit: BTC Options & Futures'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.deribit
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: deribitexchange
-social: 
+social:
 - https://www.linkedin.com/company/deribit/
 - https://www.reddit.com/r/DeribitExchange/
 - https://t.me/deribit

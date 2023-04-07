@@ -3,7 +3,7 @@ wsId:
 title: First Kudi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.ferrum.kudi
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: firstkudiapp
 social:
 - https://www.youtube.com/channel/UCBLGJET0P902_vywOy3PzwA
-- https://www.instagram.com/first_kudi/ 
+- https://www.instagram.com/first_kudi/
 redirect_from: 
 features: 
 

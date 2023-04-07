@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: hotbit_korea

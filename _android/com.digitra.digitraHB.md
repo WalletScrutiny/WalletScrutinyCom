@@ -25,7 +25,7 @@ date: 2022-07-31
 signer: 
 reviewArchive: 
 twitter: Digitra_com
-social: 
+social:
 - https://www.facebook.com/DigitraGlobal/
 - https://www.linkedin.com/company/digitra-global/
 - https://www.instagram.com/digitracom/

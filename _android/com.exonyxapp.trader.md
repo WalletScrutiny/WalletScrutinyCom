@@ -3,7 +3,7 @@ wsId:
 title: Exonyx | اکس اونیکس
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.exonyxapp.trader
 appCountry: 
@@ -25,13 +25,12 @@ date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: Exonyxir
-social: 
+social:
 - https://www.facebook.com/exonyxir
 redirect_from: 
 features: 
 
 ---
-
 
 ## App Description from Google Play
 

@@ -3,7 +3,7 @@ wsId: bottlepay
 title: 'Bottlepay: Buy & Send Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bottlepay
 appCountry: 

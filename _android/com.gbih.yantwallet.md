@@ -3,7 +3,7 @@ wsId:
 title: 'YANT Wallet : Bitcoin Ethereum'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.gbih.yantwallet
 appCountry: 
@@ -30,7 +30,6 @@ redirect_from:
 features: 
 
 ---
-
 
 ## Updated Review 2023-03-31 
 

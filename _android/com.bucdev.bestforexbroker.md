@@ -3,7 +3,7 @@ wsId:
 title: Forex Broker
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bucdev.bestforexbroker
 appCountry: 

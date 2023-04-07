@@ -3,7 +3,7 @@ wsId: yappi
 title: Yappi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: br.com.yappi
 appCountry: 
@@ -20,7 +20,7 @@ issue:
 icon: br.com.yappi.png
 bugbounty: 
 meta: ok
-verdict: nowallet 
+verdict: nowallet
 date: 2023-03-07
 signer: 
 reviewArchive: 
@@ -28,7 +28,7 @@ twitter: yappi_br
 social:
 - https://www.facebook.com/yappi.br
 - https://www.instagram.com/yappi.br/
-- https://www.linkedin.com/company/yappi-br/ 
+- https://www.linkedin.com/company/yappi-br/
 redirect_from: 
 features: 
 

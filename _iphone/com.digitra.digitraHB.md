@@ -3,7 +3,7 @@ wsId: digitraTrading
 title: Digitra.com - Zero fee trading
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.digitra.digitraHB
 appCountry: us
 idd: '1577787451'
@@ -24,7 +24,7 @@ date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: Digitra_com
-social: 
+social:
 - https://www.facebook.com/DigitraGlobal/
 - https://www.linkedin.com/company/digitra-global/
 - https://www.instagram.com/digitracom/

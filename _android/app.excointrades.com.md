@@ -3,7 +3,7 @@ wsId:
 title: Rocket Trade EX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: app.excointrades.com
 appCountry: 
@@ -30,7 +30,6 @@ redirect_from:
 features: 
 
 ---
-
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=app.excointrades.com)
 

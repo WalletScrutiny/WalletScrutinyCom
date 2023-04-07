@@ -2,7 +2,7 @@
 wsId: vexelcom
 title: Vexel.com
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: vexel.com
@@ -25,7 +25,7 @@ date: 2023-03-05
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://vk.com/vexel_is
 - https://www.instagram.com/vexel_com/
 redirect_from: 

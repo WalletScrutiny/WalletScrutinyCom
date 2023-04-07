@@ -3,7 +3,7 @@ wsId: kassio
 title: Kassio
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.fintech.kassio
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/kassionetwork/
 - https://www.facebook.com/KassioNetwork
 - https://www.instagram.com/kassionetwork/
-- https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA 
+- https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 redirect_from: 
 features: 
 

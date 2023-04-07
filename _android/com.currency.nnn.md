@@ -3,7 +3,7 @@ wsId:
 title: NNN-Trade Crypto,BTC,ETH,Defi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.currency.nnn
 appCountry: 

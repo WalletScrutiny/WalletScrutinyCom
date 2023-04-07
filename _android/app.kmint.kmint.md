@@ -3,7 +3,7 @@ wsId:
 title: KMINT:All-in-One Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: app.kmint.kmint
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: KMINT_protocol
 social:
 - https://t.me/KMINT_protocol
-- https://kmint-protocol.medium.com/ 
+- https://kmint-protocol.medium.com/
 redirect_from: 
 features: 
 

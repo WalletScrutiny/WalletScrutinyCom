@@ -3,7 +3,7 @@ wsId: coinlibIO
 title: 'Coinlib - Crypto Trading Made '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.coinlib.coinlib
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: coinlibio
 social:
-- https://www.facebook.com/coinlib/ 
+- https://www.facebook.com/coinlib/
 redirect_from: 
 features: 
 

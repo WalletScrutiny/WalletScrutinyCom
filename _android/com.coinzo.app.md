@@ -3,7 +3,7 @@ wsId:
 title: Coinzo
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.coinzo.app
 appCountry: 

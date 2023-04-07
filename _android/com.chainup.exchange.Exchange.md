@@ -3,7 +3,7 @@ wsId: scallopExchange
 title: Scallop Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.chainup.exchange.Exchange
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-03-30
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial
-social: 
+social:
 - https://www.linkedin.com/company/scallopx/
 redirect_from: 
 features: 

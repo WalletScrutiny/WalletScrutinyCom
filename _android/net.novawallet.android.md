@@ -2,7 +2,7 @@
 wsId: vsolidusnova
 title: Nova Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: net.novawallet.android
@@ -25,7 +25,7 @@ date: 2023-03-05
 signer: 
 reviewArchive: 
 twitter: solidus_v
-social: 
+social:
 - https://www.facebook.com/vsolidus
 - https://www.linkedin.com/company/vsolidus/
 - https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw

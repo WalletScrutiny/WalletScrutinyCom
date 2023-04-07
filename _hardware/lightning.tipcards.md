@@ -26,8 +26,10 @@ date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: SatoshiEngTech
-social: 
+social:
 - https://www.youtube.com/@satoshiengineering
+features: 
+
 ---
 
 ## Product Description From Their [About Page](https://tipcards.io/about)

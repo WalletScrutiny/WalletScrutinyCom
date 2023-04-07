@@ -3,7 +3,7 @@ wsId: cobru
 title: Cobru
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.cobru.cobru
 appCountry: us
 idd: '1574045983'
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: cobruapp
 social:
 - https://www.facebook.com/cobruapp
-- https://www.instagram.com/cobruapp/ 
+- https://www.instagram.com/cobruapp/
 features: 
 
 ---
