@@ -1,6 +1,6 @@
 ---
-wsId: blockbank
-title: BlockBank
+wsId: blockbank.v1
+title: BlockBank V1
 altTitle: 
 authors:
 - danny

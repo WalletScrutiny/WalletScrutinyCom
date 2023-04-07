@@ -3,6 +3,7 @@ wsId:
 title: DX.Exchange - Buy&Sell Bitcoin
 altTitle: 
 authors: 
+- danny
 users: 10000
 appId: antroid.cxtech.com.cxandroidproject
 appCountry: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app's listed homepage is no longer available online. The app itself can no longer be installed as it requires an older version of Android. It was last updated in 2019, therefore this app is **obsolete**.
