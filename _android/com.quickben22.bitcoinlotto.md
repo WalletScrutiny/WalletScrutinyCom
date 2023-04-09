@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Key Hunter
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.quickben22.bitcoinlotto
 appCountry: 
 released: 2018-03-29

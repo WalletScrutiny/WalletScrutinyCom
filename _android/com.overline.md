@@ -9,9 +9,9 @@ appCountry:
 released: Sep 9, 2021
 updated: 2021-09-16
 version: '1.1'
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://overline.network
 repository: 

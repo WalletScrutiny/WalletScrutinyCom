@@ -3,7 +3,7 @@ wsId:
 title: 'Covo: Crypto DeFi Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.android.titanwallet
 appCountry: 
 released: May 7, 2022
@@ -19,7 +19,7 @@ issue:
 icon: io.android.titanwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

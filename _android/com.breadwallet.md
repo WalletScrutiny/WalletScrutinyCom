@@ -21,7 +21,7 @@ icon: com.breadwallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-date: 2023-03-13
+date: 2023-03-14
 signer: 
 reviewArchive:
 - date: 2022-04-07

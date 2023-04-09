@@ -8,7 +8,7 @@ users: 100000
 appId: com.techx.arya
 appCountry: us
 released: 2019-09-10
-updated: 2023-02-14
+updated: 2023-03-14
 version: 2.21.0
 stars: 3.7
 ratings: 379

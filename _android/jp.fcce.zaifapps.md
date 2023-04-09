@@ -8,8 +8,8 @@ users: 10000
 appId: jp.fcce.zaifapps
 appCountry: in
 released: 2020-05-07
-updated: 2023-01-24
-version: 1.1.18
+updated: 2023-03-15
+version: 1.1.19
 stars: 
 ratings: 
 reviews: 

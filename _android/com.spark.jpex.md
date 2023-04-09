@@ -4,7 +4,7 @@ title: JPEX Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30

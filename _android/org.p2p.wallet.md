@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Key App — Solana Crypto Wallet
+title: 'Key App: send & receive crypto'
 altTitle: 
 authors: 
 users: 10000

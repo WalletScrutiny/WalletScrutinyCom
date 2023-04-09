@@ -1,6 +1,6 @@
 ---
 wsId: Bitmama
-title: Bitmama - Buy, Sell Bitcoin
+title: Bitmama-Buy, Sell, Earn Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.bitmama.bitmama
 appCountry: us
 released: 2020-07-11
-updated: 2023-03-09
-version: 1.1.26
+updated: 2023-03-14
+version: 1.1.28
 stars: 3.8
 ratings: 65
-reviews: 7
+reviews: 8
 size: 
 website: https://www.bitmama.io
 repository: 
