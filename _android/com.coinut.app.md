@@ -12,7 +12,7 @@ updated: 2022-11-01
 version: 0.8.2
 stars: 3.7
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://coinut.com
 repository: 

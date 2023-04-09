@@ -1,6 +1,6 @@
 ---
 wsId: yellowcard
-title: 'YellowCard: Buy & Sell Bitcoin'
+title: 'Yellow Card: Buy & Sell Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 1000000
 appId: io.yellowcard.app
 appCountry: za
 released: 2019-05-14
-updated: 2023-02-26
-version: 4.13.1
+updated: 2023-04-03
+version: 4.15.1
 stars: 3.5
 ratings: 4440
-reviews: 262
+reviews: 268
 size: 
 website: https://www.yellowcard.io/
 repository: 

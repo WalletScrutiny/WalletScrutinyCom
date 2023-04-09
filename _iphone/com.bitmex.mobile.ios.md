@@ -1,5 +1,5 @@
 ---
-wsId: BitMEX
+wsId: BitMEXOld
 title: BitMEX
 altTitle: 
 authors:

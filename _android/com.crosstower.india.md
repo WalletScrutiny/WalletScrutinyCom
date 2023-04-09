@@ -8,8 +8,8 @@ users: 100000
 appId: com.crosstower.india
 appCountry: 
 released: Sep 8, 2021
-updated: 2022-12-02
-version: '3.26'
+updated: 2023-04-02
+version: '3.27'
 stars: 3.9
 ratings: 
 reviews: 2

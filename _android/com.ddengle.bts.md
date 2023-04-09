@@ -2,7 +2,8 @@
 wsId: 
 title: 비트코인 거래소&지갑 유빗(Youbit)
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.ddengle.bts
 appCountry: 
@@ -18,7 +19,7 @@ repository:
 issue: 
 icon: com.ddengle.bts.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
 date: 2021-08-17
 signer: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This is YouBit.co.kr's app for its exchange. The exchange has been [hacked in 2017](https://www.reuters.com/article/idUSKBN1ED0NJ) and subsequently declared bankruptcy.

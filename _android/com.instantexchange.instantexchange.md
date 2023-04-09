@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.instantexchange.instantexchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-03-20
 signer: 
 reviewArchive: 
 twitter: 

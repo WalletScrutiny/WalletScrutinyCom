@@ -8,11 +8,11 @@ users: 100000
 appId: com.czprime
 appCountry: 
 released: 2020-06-11
-updated: 2023-03-09
-version: 1.5.55
+updated: 2023-03-28
+version: 1.5.59
 stars: 3.7
 ratings: 2461
-reviews: 388
+reviews: 392
 size: 
 website: https://www.coinzoom.com
 repository: 
@@ -32,6 +32,30 @@ redirect_from:
 features: 
 
 ---
+
+## Additional Information 2023-04-06
+
+CoinZoom has two apps, for Android and iOS:
+
+- {% include walletLink.html wallet='android/com.coinzoom.android' verdict='true' %}
+- {% include walletLink.html wallet='android/com.czprime' verdict='true' %}
+
+Both have the same basic functions, but the Pro version has more features: 
+
+|**Feature/Functionality**|**CoinZoom App**|**CoinZoom Pro**|
+|:----|:----|:----|
+|Buy, Sell, Trade on the Go|**X**|**X**|
+|Send money and crypto for free to your friends and family anywhere in the world with a touch of a button****|**X**|**X**|
+|Easily spend crypto on your virtual CoinZoom Visa card|**X**|**X**|
+|Available in iOS and Android|**X**|**X**|
+|Over 100 Technical Indicators| |**X**|
+|Detailed order book| |**X**|
+|Detailed depth chart view| |**X**|
+|Market orders|**X**|**X**|
+|Limit orders| |**X**|
+|Stop orders| |**X**|
+
+To find out more, visit CoinZoom's [Support Page](https://support.coinzoom.com/support/solutions/articles/43000664330-coinzoom-app-compared-with-coinzoom-pro)
 
 The CoinZoom [support FAQ](https://www.coinzoom.com/support/) states the wallet is custodial... 
 Found under "Where can I find the private keys for my wallet?"

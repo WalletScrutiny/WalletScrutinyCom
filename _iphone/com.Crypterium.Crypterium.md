@@ -8,11 +8,11 @@ appId: com.Crypterium.Crypterium
 appCountry: 
 idd: 1360632912
 released: 2018-03-26
-updated: 2023-02-16
-version: '3.1'
+updated: 2023-03-15
+version: '3.2'
 stars: 4.3
-reviews: 930
-size: '468311040'
+reviews: 926
+size: '224012288'
 website: https://cards.crypterium.com/visa
 repository: 
 issue: 

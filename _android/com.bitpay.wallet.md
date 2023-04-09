@@ -5,27 +5,33 @@ altTitle:
 authors:
 - leo
 - danny
+- emanuel
 users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
 released: 2016-10-01
 updated: 2023-03-08
-version: 14.10.1
-stars: 4.2
+version: 14.10.2
+stars: 4.1
 ratings: 9809
-reviews: 2056
+reviews: 2061
 size: 
 website: https://bitpay.com
-repository: https://github.com/bitpay/wallet
-issue: https://github.com/bitpay/wallet/issues/12065
+repository: https://github.com/bitpay/bitpay-app
+issue: https://github.com/bitpay/bitpay-app/issues/686
 icon: com.bitpay.wallet.png
 bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: nosource
-date: 2022-11-02
+verdict: ftbfs
+date: 2023-03-13
 signer: 
 reviewArchive:
+- date: 2022-11-02
+  version: 12.6.4
+  appHash: 
+  gitRevision: b323422a62c5d226572c32bffc8b499bbd9716a1
+  verdict: nosource
 - date: 2019-11-29
   version: 
   appHash: 
@@ -43,6 +49,82 @@ redirect_from:
 features: 
 
 ---
+
+**Update 2023-03-12**: The source code of the last review was missing and was
+provided later on. That was version 12.6.4. Currently Google Play gives us
+version 14.10.1 and on GitHub ... the
+[14.10.1 release](https://github.com/bitpay/bitpay-app/releases/tag/v.14.10.1)
+was published one day prior. Time to take a deeper look.
+
+They moved to a [new repository](https://github.com/bitpay/bitpay-app).
+Hopefully that resolves the issue that didn't allow us to compile the app
+earlier. As the respective bug is
+[still open](https://github.com/bitpay/wallet/issues/11748) albeit on the old
+repository, hopes are not too high.
+
+On the new repo there is no build instructions. Only development instructions on
+how to deploy the app to a locally connected device.
+
+The old repo does not hint at being obsolete or even mention the existance of
+the new one.
+
+Their website doesn't link to any repository but to the owner of both repos.
+I opened an issue [here](https://github.com/bitpay/wallet/issues/12084).
+
+So ... let's try to compile using
+[prior attempts by Emanuel](https://github.com/bitpay/wallet/issues/11748#issue-949862307) ...
+
+```
+$ podman build --pull --rm -t bitpay_build_apk_new -f scripts/test/container/com.bitpay.wallet_v14.10.1
+```
+
+While compiling for the n-th time the container file, here are some issues I ran
+into:
+
+* wallet is now bitpay-app. Of course I had missed to replace it in all lines.
+* once the original build file worked, adding that other run command ... missed a rename again.
+* node 10 was not high enough. Node > 12 please.
+* node 14 container decided not to like the github.com certificate
+* node 16.19.1 ... doesn't like github.com certificate neither. What was it
+  Emanuel did in such a case? ...
+  [This old StackOverflow](https://stackoverflow.com/questions/35821245/github-server-certificate-verification-failed)
+  isn't conclusive. Do I really have to add `ca-certificates` "manually"? Yeah,
+  it did the trick ...
+* `warning Resolution field "@jest/create-cache-key-function@26.5.0" is incompatible with requested version "@jest/create-cache-key-function@^27.0.1"`
+  sounds like a problem. Let's see ... 
+* `ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.`
+  Fair enough. Guess that's missing ...
+* `error Failed to install the app.` ... yeah, we don't want to install it. Did
+  I guess wrong? Wasn't `android:release` the right command? Let's see if
+  `build:android:release` works better ...
+* ```
+  A problem occurred configuring project ':react-native-user-agent'.
+  > java.util.concurrent.ExecutionException: org.gradle.api.UncheckedIOException: Failed to create receipt for instrumented classpath file '92608205640f72a123b87543424bbbc3/builder-test-api-3.5.3.jar'.
+  ```
+  ... time to ask Google ...
+* Somehow `Error: EMFILE: too many open files, scandir 'node_modules/scheduler/umd'`
+  cropped up again. Upping limits further ...
+* Next up we have ... `Could not find com.google.android.gms:play-services-tapandpay:18.2.0.`.
+  Google? Any suggestions?
+
+```
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':app:lintVitalRelease'.
+> Could not resolve all artifacts for configuration ':app:debugCompileClasspath'.
+   > Could not find com.google.android.gms:play-services-tapandpay:18.2.0.
+     Required by:
+         project :app
+```
+
+Others ran into this, too and it seams the app can
+[only be compiled by play-services-tapandpay "authorized partners"](https://github.com/bitpay/bitpay-app/issues/686).
+
+That's how much effort we put into this for now. {{ page.title }} is currently
+**not verifiable**.
+  
+## Older Review
 
 **Update 2022-11-02**: The [two](https://github.com/bitpay/wallet/issues/11748)
 [issues](https://github.com/bitpay/wallet/issues/12046) about not being able to

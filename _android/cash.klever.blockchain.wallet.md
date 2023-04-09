@@ -10,11 +10,11 @@ appCountry:
 released: 2020-08-27
 updated: 2023-01-30
 version: 4.24.11
-stars: 3.7
+stars: 3.6
 ratings: 10676
-reviews: 587
+reviews: 591
 size: 
-website: https://www.klever.io/
+website: https://klever.org/
 repository: 
 issue: 
 icon: cash.klever.blockchain.wallet.png

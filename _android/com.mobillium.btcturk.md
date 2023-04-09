@@ -8,11 +8,11 @@ users: 500000
 appId: com.mobillium.btcturk
 appCountry: tr
 released: 2020-05-06
-updated: 2023-02-27
+updated: 2023-03-22
 version: 1.26.0
 stars: 4.5
 ratings: 14766
-reviews: 4997
+reviews: 5015
 size: 
 website: https://www.btcturk.com
 repository: 

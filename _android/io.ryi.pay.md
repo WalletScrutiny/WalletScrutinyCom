@@ -9,9 +9,9 @@ appCountry:
 released: 2021-06-12
 updated: 2022-06-14
 version: 1.0.8
-stars: 4.8
+stars: 4.9
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://ryipay.app
 repository: 

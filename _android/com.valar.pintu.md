@@ -1,6 +1,6 @@
 ---
 wsId: Pintu
-title: 'Pintu: Buy/Sell Digital Assets'
+title: 'Pintu: Buy & Invest Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2023-03-03
-version: 3.27.1
-stars: 4.4
+updated: 2023-03-31
+version: 3.28.0
+stars: 4.5
 ratings: 28130
-reviews: 149
+reviews: 168
 size: 
 website: https://pintu.co.id/
 repository: 

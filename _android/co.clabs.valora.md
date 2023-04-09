@@ -2,16 +2,17 @@
 wsId: 
 title: Valora - Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 500000
 appId: co.clabs.valora
 appCountry: 
 released: Aug 31, 2020
-updated: 2023-02-28
-version: 1.52.1
+updated: 2023-03-27
+version: 1.54.0
 stars: 4.3
 ratings: 
-reviews: 284
+reviews: 285
 size: 
 website: https://valoraapp.com
 repository: 
@@ -19,14 +20,20 @@ issue:
 icon: co.clabs.valora.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nobtc
+date: 2023-02-01
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: valoraApp
+social:
+- https://www.facebook.com/ValoraApp
 redirect_from: 
 features: 
 
 ---
 
+This app only supports cash-ins via Celo, cUSD, cEUR, or cREAL. Other mediums include Coinbase Pay, but only for Celo. This app does not support BTC.
+
+[Terms](https://valoraapp.com/terms)
+
+> VALORA DOES NOT COLLECT OR HOLD YOUR PRIVATE KEYS, AND VALORA CANNOT ACCESS WALLETS; RECOVER KEYS, PASSWORDS, OR OTHER INFORMATION; RESET PASSWORDS; OR REVERSE TRANSACTIONS. YOU ARE SOLELY RESPONSIBLE FOR YOUR USE OF THE VALORA SERVICES, INCLUDING, WITHOUT LIMITATION, FOR STORING, BACKING-UP, AND MAINTAINING THE CONFIDENTIALITY OF YOUR KEYS, PASSWORDS, AND INFORMATION, AND FOR THE SECURITY OF ANY TRANSACTIONS YOU PERFORM USING THE VALORA SERVICES. YOU EXPRESSLY RELIEVE, RELEASE AND INDEMNIFY VALORA FROM AND AGAINST ANY AND ALL LIABILITY AND/OR LOSS ARISING FROM YOUR USE OF VALORA SERVICES.

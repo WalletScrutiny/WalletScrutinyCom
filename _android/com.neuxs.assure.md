@@ -2,7 +2,8 @@
 wsId: 
 title: Assure-BTC&ETH Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 50000
 appId: com.neuxs.assure
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.neuxs.assure.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+As of 2023-02-25 the app could not be found in Google Play. (404)
