@@ -1,4 +1,12 @@
 :root, .light {
+  --neutral-7:#ffffff;
+  --neutral-6:#f4f4f4;
+  --neutral-5:#d9d9d9;
+  --neutral-4:#BBBBBB;
+  --neutral-3:#808080;
+  --neutral-2:#606060;
+  --neutral-1:#404040;
+  --neutral-0:#000000;
   --accent: rgb(97, 200, 97);
   --accent-text: #4da84d;
   --rust: #af2900;
@@ -7,18 +15,18 @@
   --shadow-2: rgba(0, 0, 0, 0.2);
   --shadow-1: rgba(0, 0, 0, 0.05);
   --light-grey: #fafafa;
-  --white: #fff;
+  --white: var(--neutral-7);
   --dark-grey: #222;
-  --nav: #e3e3e3;
-  --nav-contrast: #dfdfdf;
-  --body: #eee;
+  --nav: var(--neutral-5);
+  --nav-contrast: var(--neutral-6);
+  --body: var(--neutral-6);
   --body-50: rgba(238, 238, 238, .6);
   --transparent: rgba(238, 238, 238, 0);
-  --text: #424242;
+  --text: var(--neutral-1);
   --gauze: rgba(255, 255, 255, 0.7);
   --cb-red: #880000;
-  --permanent-black: #333;
-  --permanent-white: #fafafa;
+  --permanent-black: var(--neutral-1);
+  --permanent-white: var(--neutral-6);
   --green-notify-background: #b5fdb5;
   --red-notify-background: #fdb5b5;
   --blue-notify-background: #d0d0ff;
@@ -26,9 +34,7 @@
   --blue: #003395;
   --light-blue: #0064ff;
   --reproducible-badge: url(/images/reproducible-2-dark.svg);
-  --masthead-text: #000;
-  --neutral-4:#BBBBBB;
-  --neutral-3:#808080;
+  --masthead-text: var(--neutral-0);
 }
 
 .light {
