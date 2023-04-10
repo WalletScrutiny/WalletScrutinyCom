@@ -143,6 +143,9 @@
       </i>
     </div>
   </div>
+  {% if include.filterPlatform %}
+  <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
+  {% else %}
   {% if include.platform %}
   <div class="step distrubition">
     {% if include.platform == 'iphone' %}
@@ -216,4 +219,5 @@
       </i>
     </div>
   </div>
+  {% endif %}
 </div>
