@@ -216,13 +216,32 @@ function renderBadgesToDiv(wallets, anchor) {
 
 function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
+  let wIdforDOM = String(walletId).replace(/\./g, "_")
   let faCollection = getIcon(wallet.folder)
-  const delay = num>25?2000:num*80
+  const delay = num > 25 ? 2000 : num * 80
+
+  if (wallet.icon) {
+    let imgObj = new Image();
+    imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
+    imgObj.onload = function () {
+      // document.querySelector(`.${wIdforDOM} img.app_logo`).src = this.src
+      let colorThief = new ColorThief();
+      let target = document.querySelector(`.${wIdforDOM}`)
+      if (target) {
+        for (const rgb of colorThief.getPalette(imgObj, 3)) {
+          if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
+          if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
+          if (target.style && target.style['background-image']) { break; }
+          target.style['background-image'] = `linear-gradient(var(--white) -100%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 400%)`
+        }
+      }
+    }
+  }
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${delay}ms;">
+  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${delay}ms;">
     <div class="tile-head">
       <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>

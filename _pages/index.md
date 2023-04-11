@@ -84,6 +84,7 @@ function lsTest(){
 {% include grid_of_wallets.html %}
 {% include grid_of_wallets_proportional.html %}
 
+<script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 <script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
 <script src="{{ base_path }}/assets/js/walletFilters.js"></script>
