@@ -517,6 +517,7 @@ h1 {
 h2.section-label {
   text-align: left;
   font-size: 2.5rem;
+  margin-right: auto;
 }
 
 h2.section-label>a {

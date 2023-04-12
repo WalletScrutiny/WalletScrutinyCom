@@ -27,7 +27,8 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li><a class="theme-parent" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
+          <li><a class="vibrancy no-hover" onclick="toggleVibrancy()" title="Toggle vibrant website theme"></a></li>
         </ul>
         <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
@@ -49,6 +50,25 @@
       document.body.classList.add("light");
     }
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
+  }
+</script>
+
+<script>
+  let vibrancy = localStorage.getItem("vibrancy") ? localStorage.getItem("vibrancy") : 'grey'
+  window.vibrancy = vibrancy
+  document.body.classList.add(vibrancy);
+
+  function toggleVibrancy(){
+    if(window.vibrancy !== "grey"){
+      window.vibrancy = "grey"
+      document.body.classList.remove("vibrant")
+      document.body.classList.add("grey")
+    } else {
+      window.vibrancy = "vibrant"
+      document.body.classList.remove("grey")
+      document.body.classList.add("vibrant")
+    }
+    try { localStorage.setItem('vibrancy', window.vibrancy) } catch (e) {}
   }
 </script>
 
