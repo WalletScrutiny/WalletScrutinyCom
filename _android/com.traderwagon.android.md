@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: traderWagon
 title: TraderWagon
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.traderwagon.android
 appCountry: 
@@ -19,14 +20,20 @@ issue:
 icon: com.traderwagon.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nowallet
+date: 2023-04-12
 signer: 
 reviewArchive: 
-twitter: 
+twitter: traderwagon
 social: 
 redirect_from: 
 features: 
 
 ---
+
+## App Description from Google Play 
+
+> TraderWagon uses Binance’s Single Sign-On API, allowing traders to use their Binance account log-in to conveniently and securely create their TraderWagon account and manage their copy trading portfolio.
+
+It does **not have its own wallet functionality**. 
 

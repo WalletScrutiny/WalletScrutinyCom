@@ -24,9 +24,18 @@ date: 2022-12-17
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.instagram.com/jtechtrade
+- https://www.linkedin.com/company/jtech-global-resources-limited 
 redirect_from: 
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> This App enables you to transact and exchange bitcoins and gift cards with adequate security features that guarantees safety for clients at all times.
+
+## Analysis 
+
+We tried to register but the website and app's clunky interface would not send a mobile verification code. We will try again tomorrow.
