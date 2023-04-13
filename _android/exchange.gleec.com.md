@@ -3,7 +3,7 @@ wsId:
 title: Gleec Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17

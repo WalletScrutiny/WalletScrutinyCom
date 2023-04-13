@@ -10,8 +10,8 @@ idd: '1536263998'
 released: '2021-01-05T08:00:00Z'
 updated: 2023-03-15
 version: 2.2.4
-stars: 4.5
-reviews: 168
+stars: 4.4
+reviews: 171
 size: '34457600'
 website: https://gosats.io
 repository: 

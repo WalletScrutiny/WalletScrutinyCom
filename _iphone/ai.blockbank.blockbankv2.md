@@ -8,11 +8,11 @@ appId: ai.blockbank.blockbankv2
 appCountry: us
 idd: '1592298073'
 released: '2021-11-01T07:00:00Z'
-updated: 2023-03-24
-version: 3.3.2
+updated: 2023-04-09
+version: 3.3.3
 stars: 4.8
 reviews: 13
-size: '45617152'
+size: '45170688'
 website: https://twitter.com/BLOCKBANKapp
 repository: 
 issue: 

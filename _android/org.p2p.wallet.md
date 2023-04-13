@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Key App: send & receive crypto'
+title: 'Key App: send & receive money'
 altTitle: 
 authors: 
 users: 10000

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: get2Coin - Wallet - g2c
+title: get2coin - Wallet - g2c
 altTitle: 
 authors: 
 users: 1000
@@ -13,7 +13,7 @@ stars: 3.3
 ratings: 
 reviews: 3
 size: 
-website: http://www.get2clouds.com
+website: https://get2coin.com
 repository: 
 issue: 
 icon: com.nosapps.android.get2cloudsx.png

@@ -8,11 +8,11 @@ appId: com.btcex.appstore
 appCountry: am
 idd: '1580680668'
 released: '2021-10-22T07:00:00Z'
-updated: 2023-03-23
-version: 1.3.5
+updated: 2023-04-11
+version: 1.3.7
 stars: 0
 reviews: 0
-size: '96487424'
+size: '97216512'
 website: https://www.btcex.com/
 repository: 
 issue: 
