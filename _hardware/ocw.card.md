@@ -1,53 +1,39 @@
 ---
-wsId: 
-title: Online Cold Wallet
-altTitle: 
+title: Online Cold Wallet Card
+appId: ocw.card
 authors:
-- danny 
-users: 1000
-appId: com.ocw.onlinecoldwallet
-appCountry: 
-released: Oct 1, 2021
-updated: 2022-05-27
-version: 2.2.0
-stars: 
-ratings: 
-reviews: 
-size: 
-website: https://onlinecoldwallet.com/
+- danny
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
+provider: 
+providerWebsite: 
+website: https://www.onlinecoldwallet.com/
+shop: 
+country: US
+price: 
 repository: 
 issue: 
-icon: com.ocw.onlinecoldwallet.png
+icon: ocw.card.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: wip
 date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: ocwallet
-social:
+social: 
 - https://www.instagram.com/ocwallet
-- https://medium.com/@ocwallet 
-redirect_from: 
-features: 
-
+- https://medium.com/@ocwallet
 ---
 
-## Updated Review 2023-04-05
+## Product Description 
 
-At best this device **does not have the input/output** interface to securely verify and sign transactions. 
-
-## Previous Review 2023-02-28
-
-### App Description from [Google Play](https://play.google.com/store/apps/details?id=com.ocw.onlinecoldwallet) 
-
-> The Smart, Secure, Choice for Your Digital Asset Management. 1000+ Currencies & Digital Assets Supported.
-
-This is an app paired with the {% include walletLink.html wallet='hardware/com.ocw.onlinecoldwallet' verdict='true' %}
-
-## Analysis 
-
-This is a copy of the hardware wallet review which was quite extensive: 
+This is an NFC card paired with {% include walletLink.html wallet='android/com.ocw.onlinecoldwallet' verdict='true' %}
 
 They have a token sale [$OCW](https://coinmarketcap.com/currencies/online-cold-wallet/)
 
@@ -97,7 +83,7 @@ code will provide you with additional safety.
 
 We were not able to find a technical specification sheet.
 
-Its GitHub page only shows one repository titled "Docs". This merely features their Gitbook entries for common procedures such as how to withdraw, [how to create a wallet](https://github.com/ocwallet/docs/blob/main/computer-information/create-a-wallet.md), etc.
+Its GitHub page only shows one repository entitled "Docs". This merely features their Gitbook entries for common procedures such as how to withdraw, [how to create a wallet](https://github.com/ocwallet/docs/blob/main/computer-information/create-a-wallet.md), etc.
 
 ## Analysis 
 
@@ -128,5 +114,4 @@ We were also not able to find the option to buy the card, but instead we found, 
 ## Verdict 
 
 For now, we are not able to find a conclusion for the product. We will await further information from the provider.
-
 
