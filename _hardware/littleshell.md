@@ -22,7 +22,7 @@ issue:
 icon: littleshell.png
 bugbounty: 
 meta: defunct
-verdict: plainkey
+verdict: wip
 date: 2023-03-23
 signer: 
 reviewArchive: 
