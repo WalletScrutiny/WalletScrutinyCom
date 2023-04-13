@@ -26,9 +26,11 @@ date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: ocwallet
-social: 
+social:
 - https://www.instagram.com/ocwallet
 - https://medium.com/@ocwallet
+features: 
+
 ---
 
 ## Product Description 

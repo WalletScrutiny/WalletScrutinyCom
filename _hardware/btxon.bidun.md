@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 69.96
 - 56
 weight: 
@@ -29,6 +29,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+
 ---
 
 ## Product Description 

@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 87
 - 54
 - 4
@@ -27,17 +27,18 @@ meta: ok
 verdict: unreleased
 date: 2023-03-01
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2022-04-29
   version: 
   appHash: 
   gitRevision: 8762a3742
   verdict: unreleased
 twitter: hrdwlt
-social: 
+social:
 - https://medium.com/@hrdwlt
 - https://www.linkedin.com/company/hwlt/
 features: 
+
 ---
 
 ## Updated Review 2023-03-01
