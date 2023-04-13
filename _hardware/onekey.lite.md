@@ -54,7 +54,7 @@ Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' ve
 > - MyEtherWallet
 > - Electrum-DASH
 
-## [Backup Mnemonics Using One Key Lite](https://help.onekey.so/hc/en-us/articles/4911475744527-Using-OneKey-Lite-to-back-up-mnemonics) 
+## [Backup Mnemonics Using OneKey Lite](https://help.onekey.so/hc/en-us/articles/4911475744527-Using-OneKey-Lite-to-back-up-mnemonics) 
 
 > ★ OneKey Lite only supports backup of hot wallet's helper words.
 >
@@ -112,4 +112,7 @@ The device needs to be paired with {% include walletLink.html wallet='android/so
 
 We verified with OneKey support whether the seed phrases are encrypted, they [responded](https://twitter.com/OneKey_Support/status/1630986937027956736) and said that it was.
 
-It requires the use of an NFC capable phone that has the app installed.
+
+Nevertheless the device is [not capable to generate or use private keys for signing](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/396#note_1345783839) meaning that it can only store a plain key which has to pass through other devices unencrypted. For this it requires the use of an NFC capable phone that has the app installed.
+
+This product's security is **not verifiable**.
