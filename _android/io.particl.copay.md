@@ -2,7 +2,8 @@
 wsId: 
 title: Particl Copay
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: io.particl.copay
 appCountry: 
@@ -20,7 +21,7 @@ icon: io.particl.copay.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2022-05-22
+date: 2023-04-12
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is obsolete and there are some scam allegations. We did not download this app, as it was meant for an older version of Android.    

@@ -2,7 +2,8 @@
 wsId: 
 title: BitAnex Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: org.bitanex.bitanex
 appCountry: 
@@ -20,7 +21,7 @@ icon: org.bitanex.bitanex.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-04-15
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app cannot be installed since it uses an older version of Android. The homepage now leads to a site that does not look like an exchange. 
