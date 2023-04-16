@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.agea.trade.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

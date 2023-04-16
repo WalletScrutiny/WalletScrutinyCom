@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wBitcoinPrime_15557726.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
