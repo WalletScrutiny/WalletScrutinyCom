@@ -9,8 +9,9 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 69.96
+- 70
 - 56
+- 0.67
 weight: 
 provider: Ren Feng BTXON
 providerWebsite: 

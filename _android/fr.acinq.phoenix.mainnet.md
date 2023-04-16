@@ -25,7 +25,7 @@ date: 2023-04-15
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2022-01-24
-  version: "1.4.0"
+  version: 1.4.0
   appHash: 
   gitRevision: 9e8019958ef1d5e0558fc160cde8c84a949850aa
   verdict: ftbfs
