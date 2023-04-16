@@ -11,7 +11,7 @@ released: 2019-06-14
 updated: 2023-04-04
 version: 1.51.3
 stars: 2.6
-reviews: 24
+reviews: 25
 size: '68715520'
 website: https://trusteeglobal.com/
 repository: 

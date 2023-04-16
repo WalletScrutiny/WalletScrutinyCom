@@ -1,6 +1,6 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin & Crypto'
+title: 'Coinme: Buy Bitcoin With Cash'
 altTitle: 
 authors:
 - danny

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.badgermobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2019-12-28
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: badgerwallet

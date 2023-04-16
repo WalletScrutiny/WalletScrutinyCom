@@ -8,8 +8,8 @@ users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
 released: Sep 25, 2021
-updated: 2023-03-01
-version: 1.4.0
+updated: 2023-04-12
+version: 1.4.2
 stars: 3
 ratings: 
 reviews: 5

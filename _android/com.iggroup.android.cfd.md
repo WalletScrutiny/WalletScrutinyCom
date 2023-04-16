@@ -9,10 +9,10 @@ appId: com.iggroup.android.cfd
 appCountry: br
 released: May 11, 2015
 updated: 2023-04-07
-version: 23.3.2
-stars: 3.6
+version: '23.4'
+stars: 3.7
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: http://www.ig.com
 repository: 

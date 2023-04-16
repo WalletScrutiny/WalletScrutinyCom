@@ -1,15 +1,15 @@
 ---
 wsId: nowWallet
-title: 'NOW Wallet: Buy & Store Crypto'
+title: 'NOW Wallet: Crypto & Bitcoin'
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 10000
 appId: com.nowwallet
 appCountry: 
 released: Oct 20, 2021
-updated: 2023-04-06
-version: 3.5.1
+updated: 2023-04-11
+version: 3.5.3
 stars: 4.5
 ratings: 
 reviews: 62
@@ -25,7 +25,7 @@ date: 2023-04-08
 signer: 
 reviewArchive: 
 twitter: NOW_Wallet
-social:
+social: 
 - https://www.facebook.com/ChangeNOW.io/
 - https://t.me/NOWWallet_channel
 - https://www.reddit.com/r/ChangeNOW_io/
@@ -33,7 +33,6 @@ redirect_from:
 features: 
 
 ---
-
 ## App Description from Google Play 
 
 > NOW Wallet is a fast and secure non-custodial crypto wallet 
@@ -59,5 +58,4 @@ features:
 ## Analysis 
 
 We downloaded the app and got the seed phrases. As the review mentioned, it took quite a bit of time to load. They make **no claims about the public availability of their code and we have not found their repository**.
-       
 
