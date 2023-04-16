@@ -3,7 +3,7 @@ wsId: matbeaExchange
 title: Matbea
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.matbea
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/matbea/ 
+- https://t.me/matbea/
 redirect_from: 
 features: 
 

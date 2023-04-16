@@ -3,7 +3,7 @@ wsId: lcxExchange
 title: 'LCX: Regulated Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.lcx.app
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: lcx
 social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ
-- https://www.instagram.com/lcx.exchange/ 
+- https://www.instagram.com/lcx.exchange/
 redirect_from: 
 features: 
 

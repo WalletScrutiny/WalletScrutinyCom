@@ -3,17 +3,17 @@ wsId: matbeaExchange
 title: Matbea
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.Matbea
 appCountry: ru
 idd: '1518987729'
 released: '2020-06-30T07:00:00Z'
 updated: 2023-02-28
 version: 1.4.4
-stars: 3.84685
+stars: 3.8
 reviews: 111
 size: '34983936'
-website: ''
+website: 
 repository: 
 issue: 
 icon: org.Matbea.jpg
@@ -25,9 +25,10 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/matbea/ 
+- https://t.me/matbea/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

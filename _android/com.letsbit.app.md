@@ -3,7 +3,7 @@ wsId: letsBit
 title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.letsbit.app
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw
 - https://www.linkedin.com/company/letsbit/
 - https://www.facebook.com/LetsBit
-- https://www.instagram.com/letsbit/ 
+- https://www.instagram.com/letsbit/
 redirect_from: 
 features: 
 

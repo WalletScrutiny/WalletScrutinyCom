@@ -12,7 +12,7 @@ updated: 2023-04-05
 version: 2.4.29
 stars: 3.6
 ratings: 4416
-reviews: 3592
+reviews: 3593
 size: 
 website: https://www.bitwala.com
 repository: 

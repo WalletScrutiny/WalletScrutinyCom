@@ -3,7 +3,7 @@ wsId: maskEX
 title: MaskEX Crypto & Privacy Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.maskex.app
 appCountry: 
@@ -30,12 +30,11 @@ social:
 - https://www.instagram.com/maskexglobal/
 - https://www.youtube.com/channel/UClSeew7MEmHi6i19GBEun9w
 - https://t.me/maskextg
-- https://www.linkedin.com/company/maskex-global/ 
+- https://www.linkedin.com/company/maskex-global/
 redirect_from: 
 features: 
 
 ---
-
 
 ## App Description from Google Play 
 

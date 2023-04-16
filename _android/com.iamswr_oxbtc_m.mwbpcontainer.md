@@ -3,7 +3,7 @@ wsId:
 title: OXBTC PRO
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.iamswr_oxbtc_m.mwbpcontainer
 appCountry: 

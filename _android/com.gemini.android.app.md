@@ -12,7 +12,7 @@ updated: 2023-04-13
 version: 23.411.1
 stars: 4.3
 ratings: 38767
-reviews: 7124
+reviews: 7123
 size: 
 website: https://gemini.com
 repository: 

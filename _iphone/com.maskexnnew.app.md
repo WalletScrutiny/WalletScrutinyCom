@@ -3,7 +3,7 @@ wsId: maskEX
 title: MaskEX Crypto & Privacy Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.maskexnnew.app
 appCountry: us
 idd: '1600880394'
@@ -29,9 +29,10 @@ social:
 - https://www.instagram.com/maskexglobal/
 - https://www.youtube.com/channel/UClSeew7MEmHi6i19GBEun9w
 - https://t.me/maskextg
-- https://www.linkedin.com/company/maskex-global/ 
+- https://www.linkedin.com/company/maskex-global/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

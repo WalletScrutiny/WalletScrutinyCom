@@ -3,7 +3,7 @@ wsId:
 title: HUOBI MY
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.huobilbn.appstore
 appCountry: 

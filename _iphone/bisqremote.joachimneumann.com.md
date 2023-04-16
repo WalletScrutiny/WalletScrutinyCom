@@ -3,7 +3,7 @@ wsId: bisqMobileNotifications
 title: 'Bisq: Mobile Notifications'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: bisqremote.joachimneumann.com
 appCountry: us
 idd: '1424420411'

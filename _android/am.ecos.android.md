@@ -12,7 +12,7 @@ updated: 2023-04-05
 version: 1.32.0
 stars: 3.3
 ratings: 377
-reviews: 160
+reviews: 161
 size: 
 website: https://ecos.finance
 repository: 

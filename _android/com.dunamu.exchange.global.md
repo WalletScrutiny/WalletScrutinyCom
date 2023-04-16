@@ -12,7 +12,7 @@ updated: 2023-04-10
 version: 1.8.3p1
 stars: 3.2
 ratings: 3998
-reviews: 32
+reviews: 33
 size: 
 website: https://www.dunamu.com
 repository: 

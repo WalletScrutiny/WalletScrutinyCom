@@ -3,7 +3,7 @@ wsId:
 title: 'Hodlnaut: Earn Crypto Interest'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.hodlnaut.mobile
 appCountry: SG
