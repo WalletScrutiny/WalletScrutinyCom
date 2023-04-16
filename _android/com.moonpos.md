@@ -7,8 +7,8 @@ users: 500
 appId: com.moonpos
 appCountry: 
 released: May 4, 2018
-updated: 2021-04-20
-version: 1.2.5
+updated: 2023-04-14
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.moonpos.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-04-13
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

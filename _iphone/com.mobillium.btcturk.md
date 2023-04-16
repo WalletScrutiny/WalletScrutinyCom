@@ -8,11 +8,11 @@ appId: com.mobillium.btcturk
 appCountry: tr
 idd: 1503482896
 released: 2020-04-09
-updated: 2023-01-06
-version: 1.25.1
+updated: 2023-04-14
+version: 1.26.0
 stars: 4.6
-reviews: 25348
-size: '224487424'
+reviews: 25355
+size: '224420864'
 website: https://www.btcturk.com
 repository: 
 issue: 

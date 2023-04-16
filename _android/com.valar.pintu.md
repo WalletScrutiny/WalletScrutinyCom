@@ -12,7 +12,7 @@ updated: 2023-03-31
 version: 3.28.0
 stars: 4.6
 ratings: 28130
-reviews: 172
+reviews: 173
 size: 
 website: https://pintu.co.id/
 repository: 

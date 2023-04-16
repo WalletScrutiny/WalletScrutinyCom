@@ -8,8 +8,8 @@ users: 10000
 appId: app.pagosalinstante.com
 appCountry: 
 released: 2019-02-03
-updated: 2023-04-10
-version: 1.08.888
+updated: 2023-04-14
+version: 1.08.890
 stars: 4.8
 ratings: 934
 reviews: 40

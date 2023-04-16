@@ -9,10 +9,10 @@ appId: com.bitoasis
 appCountry: ae
 released: 2020-08-20
 updated: 2023-04-11
-version: 3.0.17
+version: 3.0.18
 stars: 3.9
 ratings: 3007
-reviews: 527
+reviews: 528
 size: 
 website: https://bitoasis.net/
 repository: 

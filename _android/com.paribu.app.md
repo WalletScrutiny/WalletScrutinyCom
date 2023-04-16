@@ -8,8 +8,8 @@ users: 5000000
 appId: com.paribu.app
 appCountry: 
 released: 2019-06-14
-updated: 2023-03-31
-version: 4.0.2
+updated: 2023-04-10
+version: 4.0.3
 stars: 2.5
 ratings: 73042
 reviews: 87

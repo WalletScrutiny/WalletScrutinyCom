@@ -9,7 +9,7 @@ appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
 updated: 2023-04-09
-version: 1.4.1
+version: 1.4.2
 stars: 3.7
 ratings: 245
 reviews: 21
