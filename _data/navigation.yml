@@ -1,6 +1,6 @@
 # main links links
 main:
-  - title: "<div id=\"newTitle\">Methodology</div>"
+  - title: "<div id=\"__newTitle\">Methodology</div>"
     url: /methodology/
   - title: "<div id=\"aboutButton\">About</div>"
     url: /about/

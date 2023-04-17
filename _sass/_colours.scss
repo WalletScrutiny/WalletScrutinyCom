@@ -1,12 +1,13 @@
-:root, .light {
-  --neutral-7:#ffffff;
-  --neutral-6:#f4f4f4;
-  --neutral-5:#d9d9d9;
-  --neutral-4:#BBBBBB;
-  --neutral-3:#808080;
-  --neutral-2:#606060;
-  --neutral-1:#404040;
-  --neutral-0:#000000;
+:root,
+.light {
+  --neutral-7: #ffffff;
+  --neutral-6: #f4f4f4;
+  --neutral-5: #d9d9d9;
+  --neutral-4: #bbbbbb;
+  --neutral-3: #808080;
+  --neutral-2: #606060;
+  --neutral-1: #404040;
+  --neutral-0: #000000;
   --accent: rgb(97, 200, 97);
   --accent-text: #4da84d;
   --rust: #af2900;
@@ -20,7 +21,7 @@
   --nav: var(--neutral-5);
   --nav-contrast: var(--neutral-6);
   --body: var(--neutral-6);
-  --body-50: rgba(238, 238, 238, .6);
+  --body-50: rgba(238, 238, 238, 0.6);
   --transparent: rgba(238, 238, 238, 0);
   --text: var(--neutral-1);
   --gauze: rgba(255, 255, 255, 0.7);
@@ -30,7 +31,7 @@
   --green-notify-background: #b5fdb5;
   --red-notify-background: #fdb5b5;
   --blue-notify-background: #d0d0ff;
-  --orange: #F7931A;
+  --orange: #f7931a;
   --blue: #003395;
   --light-blue: #0064ff;
   --reproducible-badge: url(/images/reproducible-2-dark.svg);
@@ -56,7 +57,7 @@
   --white: #232323;
   --dark-grey: #fafafa;
   --body: #111;
-  --body-50: rgba(17, 17, 17, .6);
+  --body-50: rgba(17, 17, 17, 0.6);
   --transparent: rgba(17, 17, 17, 0);
   --text: #d2d2d2;
   --hide-dark: none;
@@ -68,10 +69,51 @@
   --green-notify-background: #00b900;
   --red-notify-background: #b90000;
   --blue-notify-background: #101040;
-  --orange: #F7931A;
+  --orange: #f7931a;
   --blue: #a0b6f9;
   --reproducible-badge: url(/images/reproducible-2-light.svg);
   --masthead-text: #fff;
-  --neutral-4:#727272;
-  --neutral-3:#979797;
+  --neutral-4: #727272;
+  --neutral-3: #979797;
+}
+
+.grey {
+  :root {
+    // --shadow-1: var(--wallet-gradient);
+  }
+  .searchbar {
+    // --white: var(--wallet-gradient);
+  }
+}
+.vibrant {
+  --shadow-1: var(--wallet-gradient);
+  &[data-colour-available="true"] {
+    .searchbar {
+      --white: var(--wallet-gradient, --white);
+    }
+    .masthead {
+      box-shadow: none;
+      background-color: var(--wallet-gradient);
+    }
+  }
+  .opened.AppDisplayCard {
+    background-image: linear-gradient(transparent, var(--white) 50%),
+      radial-gradient(ellipse at top, var(--wallet-gradient-2), var(--white));
+    background-color: var(--white);
+  }
+  .app-review {
+    &::after {
+      content: "";
+      background: linear-gradient(transparent, var(--body) 50%),
+        radial-gradient(ellipse at top, var(--wallet-gradient), var(--body));
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      display: block;
+      opacity: 0.5;
+    }
+  }
 }

@@ -43,7 +43,7 @@ function recreateDropdowns(verdict, platform) {
       if (count > 0) {
         html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${count} wallets</small></div>`
       }
-      else if(verdict === instanceVerdict) {
+      else if (verdict === instanceVerdict) {
         html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
       }
     }
@@ -62,20 +62,20 @@ document.body.addEventListener("click", () => { document.querySelectorAll(".drop
 
 for (const target of ["verdict", "platform"]) {
   for (const dropdown of document.querySelectorAll(".dropdown-" + target)) {
-    dropdown.addEventListener("click", (event) => {  
-      const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected"):event.target)
+    dropdown.addEventListener("click", (event) => {
+      const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected") : event.target)
       const parentEle = self.parentNode
       //IF TARGET IS AN UN-SELECTED CHILD ELEMENT
       if (!self.classList.contains("selected") && self.classList.contains("option")) {
         event.stopPropagation()
-        
+
         parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
         self.classList.add("selected")
         parentEle.classList.remove("opened")
         const platform = parentEle.classList.contains("dropdown-platform") ? self.getAttribute("data") : false
         if (platform) {
-          document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected")})
-          document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected")})
+          document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected") })
+          document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected") })
         }
         updateUrl()
         updateModularPayload()
@@ -97,7 +97,7 @@ for (const target of ["verdict", "platform"]) {
 let userSelectView = localStorage.getItem("userSelectView") ? localStorage.getItem("userSelectView") : 'tiles'
 document.querySelector(".dropdown-view > .selected").classList.remove("selected")
 document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
-for (const view of document.querySelectorAll(".tile-list-ui")){ view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }  
+for (const view of document.querySelectorAll(".tile-list-ui")) { view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }
 document.querySelector(".dropdown-view").addEventListener("click", (event) => {
   const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected") : event.target)
   const parentEle = self.parentNode
@@ -133,7 +133,7 @@ function productCount(verdict, platform) {
 
 function updateModularPayload() {
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
-  const platform =  document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "android"
+  const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "android"
   // remove empty verdicts
   recreateDropdowns(verdict, platform)
   verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
@@ -233,6 +233,8 @@ function getBadge(wallet, num) {
           if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
           if (target.style && target.style['background-image']) { break; }
           target.style['background-image'] = `linear-gradient(var(--white) -100%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 400%)`
+          let colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`;
+          target.setAttribute("data-colour", colour);
         }
       }
     }
@@ -241,7 +243,7 @@ function getBadge(wallet, num) {
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}')" style="animation-delay:${delay}ms;">
+  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}', false, this)" style="animation-delay:${delay}ms;">
     <div class="tile-head">
       <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>
@@ -256,8 +258,8 @@ function getBadge(wallet, num) {
     </div>
     <div class="wallet-details">
       <div class="stamps">
-      ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
-      ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+      ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
+      ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       </div>
     </div>
   </div>`

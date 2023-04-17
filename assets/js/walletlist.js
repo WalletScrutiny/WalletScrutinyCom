@@ -21,7 +21,7 @@ function toggleWalletList() {
 
 var lastId = ""
 
-function toggleApp(id, show) {
+function toggleApp(id, show, self) {
   if (!id) { 
     // no id provided means close whatever is open
     const modal = document.querySelectorAll(".temp_card")[0]
@@ -53,7 +53,8 @@ function toggleApp(id, show) {
       }
     } else {
       var temp = document.createElement("div")
-      var tempInner = document.createElement("div")
+      var tempInner = document.createElement("div")      
+      tempInner.style.setProperty("--wallet-gradient-2", self.getAttribute("data-colour"))
       tempInner.setAttribute("class", "opened AppDisplayCard")
       tempInner.innerHTML = String(thisCard).replace("onclick=", "_disabled=")
       tempInner.setAttribute("onclick", "event.stopPropagation()")

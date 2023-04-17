@@ -81,9 +81,6 @@ if (window.wsId) {
 }
 
 // TAB VIEW
-// document.querySelectorAll(".tab-view").forEach((ele) => {
-//   ele.querySelectorAll(".label")
-// })
 
 document.querySelectorAll(".tab-view .label").forEach((ele) => {
   ele.addEventListener("click", (event) => {
@@ -93,3 +90,21 @@ document.querySelectorAll(".tab-view .label").forEach((ele) => {
     document.querySelector(`.${self.getAttribute("data-for")}`).classList.add("active")
   })
 })
+
+
+if (document.querySelector(".app_logo_big")) {
+  let imgObj = new Image();
+  imgObj.src = document.querySelector(".app_logo_big").src;
+      imgObj.onload = function () {
+        let colorThief = new ColorThief();
+        let colour = false
+    for (const rgb of colorThief.getPalette(imgObj, 3)) {
+      if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
+      if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
+      if (colour) { break; }
+      colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`
+      document.documentElement.style.setProperty('--wallet-gradient', colour);
+      document.body.setAttribute("data-colour-available", "true")
+    }
+  }
+}
