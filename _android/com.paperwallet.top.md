@@ -20,7 +20,7 @@ issue:
 icon: com.paperwallet.top.png
 bugbounty: 
 meta: obsolete
-verdict: nosource
+verdict: wip
 date: 2023-04-08
 signer: 
 reviewArchive: 
@@ -61,4 +61,8 @@ Some key findings:
 
 The Android app has not been updated in years when compared with the GitHub repository, which [has recently been updated 3 months ago](https://github.com/technologiespro/paper-wallet-generator/releases/tag/2.0.23). 
 
-Although, the source is publicly available, an updated repository that is **not in sync with the Play Store version would qualify this as having no source** that is publicly available. (Until a different verdict for out-of-sync app versions is approved.)
+Although, the source is publicly available, an updated repository that is **not in sync with the Play Store version would qualify this as having no source** that is publicly available. (Until a different verdict for out-of-sync app versions is approved.) 
+
+## Update 2023-04-18 
+
+We're changing the verdict to work-in-progress and marking it for verification. 
