@@ -3,7 +3,7 @@ wsId:
 title: Vesto
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.vesto.app
 appCountry: 
 released: Jun 1, 2022

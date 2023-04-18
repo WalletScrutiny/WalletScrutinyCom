@@ -8,8 +8,8 @@ users: 50000
 appId: com.web.unitedexchange
 appCountry: 
 released: Jun 16, 2021
-updated: 2023-02-28
-version: '3.5'
+updated: 2023-04-11
+version: '3.6 '
 stars: 4.9
 ratings: 
 reviews: 6

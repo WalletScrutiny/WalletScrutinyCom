@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gcmasia.pro.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-02-10
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 

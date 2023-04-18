@@ -11,7 +11,7 @@ released: '2020-04-29T07:00:00Z'
 updated: 2023-03-31
 version: 5.3.0
 stars: 4.4
-reviews: 1673
+reviews: 1734
 size: '95906816'
 website: https://www.nicehash.com/
 repository: 

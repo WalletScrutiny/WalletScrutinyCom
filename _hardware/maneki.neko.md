@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: TheNeko_io
 social:
-- http://medium.com/@thenekoofficial
+- https://medium.com/@thenekoofficial
 - https://www.instagram.com/theneko_io/
 - https://t.me/TheNekoOfficial
 features: 

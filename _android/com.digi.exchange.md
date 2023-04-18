@@ -10,9 +10,9 @@ appCountry:
 released: 2019-03-11
 updated: 2022-04-24
 version: 1.1.7
-stars: 4.4
+stars: 4.3
 ratings: 265
-reviews: 10
+reviews: 11
 size: 
 website: https://digiexchange.net/
 repository: 

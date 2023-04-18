@@ -12,7 +12,7 @@ updated: 2023-02-14
 version: 2.3.7-g
 stars: 4
 ratings: 3741
-reviews: 86
+reviews: 87
 size: 
 website: https://sarmayex.com
 repository: 

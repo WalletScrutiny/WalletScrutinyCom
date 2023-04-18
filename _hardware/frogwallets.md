@@ -18,7 +18,7 @@ country: US
 price: 9.95 USD
 repository: 
 issue: 
-icon: 
+icon: frogwallets.png
 bugbounty: 
 meta: ok
 verdict: plainkey
