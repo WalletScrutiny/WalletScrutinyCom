@@ -8,6 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
+dimensions: 
 weight: 
 provider: FunctionX
 providerWebsite: https://www.functionx.io/home

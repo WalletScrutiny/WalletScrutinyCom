@@ -11,7 +11,7 @@ updated: 2023-03-31
 version: 2.6.0
 stars: 2.1
 ratings: 
-reviews: 10738
+reviews: 10742
 size: 
 website: https://hi.com/
 repository: 

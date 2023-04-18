@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: multico.in.btctrade.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-04-15
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

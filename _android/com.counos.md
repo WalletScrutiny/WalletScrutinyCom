@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.counos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-05-21
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: counoscoin

@@ -1,6 +1,6 @@
 ---
 title: Beli Bitcoin Card
-appId: beli.bitcoin
+appId: belibitcoin
 authors:
 - danny
 released: 2019-11-05
@@ -26,9 +26,11 @@ date: 2023-03-10
 signer: 
 reviewArchive: 
 twitter: belibitcoinindo
-social: 
+social:
 - https://www.facebook.com/beli.bitcoin.indonesia/
 - https://www.instagram.com/belibitcoin/
+features: 
+
 ---
 
 ## Product Description 

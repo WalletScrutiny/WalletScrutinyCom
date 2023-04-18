@@ -18,13 +18,13 @@ country: SG
 price: 169USD
 repository: 
 issue: 
-icon: ukiss.hugware.png
+icon: ukiss.hugware.h1.png
 bugbounty: 
 meta: ok
 verdict: noita
 date: 2023-02-10
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2022-11-09
   version: 
   appHash: 
@@ -42,7 +42,6 @@ social:
 features: 
 
 ---
-
 
 The {{page.title}} is unique in its security implementation. Most of the mainstream devices are stand-alone or paired with a mobile phone. 
 

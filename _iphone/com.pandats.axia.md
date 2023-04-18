@@ -8,8 +8,8 @@ appId: com.pandats.axia
 appCountry: il
 idd: 1538965141
 released: 2020-11-16
-updated: 2023-04-09
-version: 1.0.59
+updated: 2023-04-14
+version: 1.0.60
 stars: 4.7
 reviews: 37
 size: '83946496'

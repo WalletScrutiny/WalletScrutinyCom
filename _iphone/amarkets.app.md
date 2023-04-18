@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: amarkets.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-13
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btcpaypos.com
+website: https://technoprepay.com
 repository: 
 issue: 
 icon: technoprepay.btcpay.pos.png

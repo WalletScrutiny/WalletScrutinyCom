@@ -3,7 +3,7 @@ wsId:
 title: Online Cold Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ocw.onlinecoldwallet
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: ocwallet
 social:
 - https://www.instagram.com/ocwallet
-- https://medium.com/@ocwallet 
+- https://medium.com/@ocwallet
 redirect_from: 
 features: 
 

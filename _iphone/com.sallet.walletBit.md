@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sallet.walletBit.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-02-17
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: salletone

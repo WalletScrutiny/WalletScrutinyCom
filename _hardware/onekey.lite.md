@@ -26,8 +26,10 @@ date: 2023-03-01
 signer: 
 reviewArchive: 
 twitter: OneKeyHQ
-social: 
+social:
 - https://discord.com/invite/nwUJaTzjzv
+features: 
+
 ---
 
 Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}

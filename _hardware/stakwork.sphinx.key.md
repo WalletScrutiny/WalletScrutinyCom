@@ -10,7 +10,7 @@ version: 0.2.0
 binaries: 
 dimensions: 
 weight: 
-provider: StakWork 
+provider: StakWork
 providerWebsite: 
 website: 
 shop: 
@@ -27,6 +27,8 @@ signer:
 reviewArchive: 
 twitter: stakwork
 social: 
+features: 
+
 ---
 
 ## Product Description 

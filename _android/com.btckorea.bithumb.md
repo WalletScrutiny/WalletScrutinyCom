@@ -12,7 +12,7 @@ updated: 2023-03-29
 version: 2.9.2
 stars: 3
 ratings: 25850
-reviews: 61
+reviews: 62
 size: 
 website: http://www.bithumb.com/
 repository: 

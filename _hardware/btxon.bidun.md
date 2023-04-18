@@ -8,9 +8,10 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-- 69.96
+dimensions:
+- 70
 - 56
+- 0.67
 weight: 
 provider: Ren Feng BTXON
 providerWebsite: 
@@ -29,6 +30,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+
 ---
 
 ## Product Description 
