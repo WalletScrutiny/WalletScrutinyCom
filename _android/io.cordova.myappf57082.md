@@ -12,7 +12,7 @@ updated: 2022-04-11
 version: 11.5.0
 stars: 4.4
 ratings: 152
-reviews: 24
+reviews: 25
 size: 
 website: https://bitcoinofamerica.org/
 repository: 

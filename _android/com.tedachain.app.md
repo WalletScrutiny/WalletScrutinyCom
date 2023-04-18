@@ -2,7 +2,7 @@
 wsId: 
 title: Teda Chain
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 10000
 appId: com.tedachain.app
@@ -21,7 +21,7 @@ icon: com.tedachain.app.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-04-12
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.centralway.numbrs.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-06-22
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 

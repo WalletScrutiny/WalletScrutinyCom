@@ -11,7 +11,7 @@ released: 2020-07-04
 updated: 2023-04-05
 version: 1.10.3
 stars: 3.9
-reviews: 80
+reviews: 81
 size: '96448512'
 website: https://zam.me
 repository: 

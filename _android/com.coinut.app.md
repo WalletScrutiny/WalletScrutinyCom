@@ -1,6 +1,6 @@
 ---
 wsId: CoinutExchange
-title: Coinut - Coin Ultimate Trading
+title: Coins U Trust
 altTitle: 
 authors:
 - danny

@@ -102,11 +102,11 @@ function migrateFile (category, file, migration, defaultHeader) {
  * @param outHeaderAndBody Potentially pre-filled object {header: {}, body: ''}
  **/
 function loadFromFile (file, outHeaderAndBody) {
-  var parts = fs.readFileSync(file, 'utf8').split('---')
+  var parts = fs.readFileSync(file, 'utf8').split('---\n')
   const header = yaml.load(parts[1])
   outHeaderAndBody.header = outHeaderAndBody.header || {}
   Object.keys(header).forEach(k => { outHeaderAndBody.header[k] = header[k] })
-  outHeaderAndBody.body = parts.slice(2).join('---').replace(/^\s*[\r\n]/g, '')
+  outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '')
 }
 
 function dateOrEmpty (d) {

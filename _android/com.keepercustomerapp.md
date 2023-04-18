@@ -2,7 +2,8 @@
 wsId: 
 title: AP First
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.keepercustomerapp
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.keepercustomerapp.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: custodial
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,22 @@ features:
 
 ---
 
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.keepercustomerapp)
+
+> AP First is an app that allows you to make payments in the real economy using virtual currencies such as BTC and ETH. You can convert virtual currency into TOSP, which is equivalent to cash, and use this TOSP to make payments quickly and easily.
+
+## Analysis 
+
+We downloaded and installed the app. In the wallet section, there are 5 supported cryptocurrencies: TOSC, MQLL, ETH and BTC. It is possible to create a BTC wallet through the app, but it is currently showing an error whenever we try to tap on the "Create Wallet" option. The error reads: 
+
+> Server connection failed. Please try again. 
+
+We believe this is a custodial app for the following reasons: 
+
+- It does not provide the public/private key pair. 
+- It currently cannot generate a wallet through the app itself, it needs to connect to the Server
+- Since the app or the server are not configured correctly, their software cannot generate a Bitcoin wallet. 
+
+The promotional materials on the site point to 2017-2018 as the date for most of the content. There has been no significant update since and its social media presence is hard-to-find, if it exists at all. 
+
+We were not able to find the seed phrases and no options to import or back these up. This is highly likely to be a **custodial** provider that was started in Korea during the 2017-2018 bullrun.

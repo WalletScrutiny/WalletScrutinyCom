@@ -9,7 +9,7 @@ appId: com.bitbns
 appCountry: 
 released: 2019-09-21
 updated: 2023-03-30
-version: 6.6.0
+version: 6.9.0
 stars: 3.5
 ratings: 15779
 reviews: 38

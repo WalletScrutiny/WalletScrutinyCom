@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tzero.tzerocrypto.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -21,7 +21,7 @@ country: CN
 price: 110 USD
 repository: 
 issue: 
-icon: 
+icon: keypal.png
 bugbounty: 
 meta: ok
 verdict: nosource

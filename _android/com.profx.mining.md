@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Profxmining - High Yield Inves
+title: Profxmining
 altTitle: 
 authors: 
 users: 100
