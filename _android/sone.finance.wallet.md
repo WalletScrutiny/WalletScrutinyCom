@@ -2,7 +2,8 @@
 wsId: 
 title: S-ONE Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: sone.finance.wallet
 appCountry: 
@@ -20,7 +21,7 @@ icon: sone.finance.wallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-03-21
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404).
