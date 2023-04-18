@@ -1,6 +1,6 @@
 ---
-title: Dorj One Plus
-appId: dorj.one.plus
+title: Dorj T
+appId: dorj.T
 authors:
 - danny
 released: 
@@ -21,7 +21,7 @@ issue:
 icon: dorj.T.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 date: 2023-04-06
 signer: 
 reviewArchive: 

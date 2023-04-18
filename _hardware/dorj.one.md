@@ -24,7 +24,7 @@ issue:
 icon: dorj.one.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 date: 2023-04-01
 signer: 
 reviewArchive: 

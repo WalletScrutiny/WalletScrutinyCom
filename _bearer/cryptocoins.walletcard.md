@@ -24,7 +24,7 @@ issue:
 icon: cryptocoins.walletcard.png
 bugbounty: 
 meta: defunct
-verdict: sealed-plainkey
+verdict: prefilled
 date: 2023-04-06
 signer: 
 reviewArchive: 
@@ -54,4 +54,4 @@ From the FAQ:
 
 ## Verdict 
 
-The **existence of a seal on a card** with both the public keys and private keys means that it has to be brought unto a different system. 
+Both the public keys and the private keys are **printed by the provider** prior to reaching the user.
