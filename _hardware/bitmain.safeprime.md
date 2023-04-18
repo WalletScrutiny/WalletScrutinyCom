@@ -85,5 +85,5 @@ The device seems to be heavily reliant on this Multibit software.
 
 As this is a really old device with no further operation instructions except from the one found in a document dated 2016, we can never really be sure how exactly it worked. Does it generate keys offline independent of any other device? We don't know. Can it confirm transactions using its screen? We don't know. 
 
-But it is heavily reliant on the desktop software as indicated in the document. For the moment, and since the device is no longer commercially available anyway, 
+But it is heavily reliant on the desktop software as indicated in the document. For the moment, as we couldn't find claims to the contrary, 
 we suspect that it **leaks keys** from the device to the desktop software. We'll change our verdict as more information gets available.
