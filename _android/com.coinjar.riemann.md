@@ -12,7 +12,7 @@ updated: 2023-04-04
 version: 2.56.0
 stars: 3.7
 ratings: 1248
-reviews: 883
+reviews: 885
 size: 
 website: https://www.coinjar.com
 repository: 

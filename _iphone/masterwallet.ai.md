@@ -3,7 +3,7 @@ wsId: masterWallet
 title: 마스터월렛(MasterWallet)
 altTitle: 
 authors:
-- danny 
+- danny
 appId: masterwallet.ai
 appCountry: sa
 idd: '1608828891'
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

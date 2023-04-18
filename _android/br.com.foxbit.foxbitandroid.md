@@ -12,7 +12,7 @@ updated: 2023-04-10
 version: 2.34.2
 stars: 4.4
 ratings: 6740
-reviews: 5439
+reviews: 5442
 size: 
 website: http://www.foxbit.com.br
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Paper Crypto Wallet Generator
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.paperwallet.top
 appCountry: 
@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 55
 reviews: 4
 size: 
-website: https://paperwallet.top/
+website: https://github.com/technologiespro/paper-wallet-generator
 repository: https://github.com/technologiespro/paper-wallet-generator
 issue: 
 icon: com.paperwallet.top.png

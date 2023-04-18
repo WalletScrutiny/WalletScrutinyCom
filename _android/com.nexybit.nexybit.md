@@ -3,7 +3,7 @@ wsId:
 title: Nexybit - Mining and Futures E
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.nexybit.nexybit
 appCountry: 

@@ -3,7 +3,7 @@ wsId: masterWallet
 title: MasterWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.msline.mw
 appCountry: 

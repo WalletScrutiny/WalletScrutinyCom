@@ -12,7 +12,7 @@ updated: 2023-04-10
 version: 2.0.1
 stars: 4
 ratings: 5691
-reviews: 266
+reviews: 264
 size: 
 website: https://www.bitget.com/
 repository: 

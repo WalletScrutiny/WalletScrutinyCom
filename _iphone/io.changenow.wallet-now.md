@@ -1,18 +1,18 @@
 ---
 wsId: nowWallet
-title: 'NOW Wallet: Buy & Swap Bitcoin'
+title: 'NOW Wallet: Crypto & Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.changenow.wallet-now
 appCountry: us
 idd: '1591216386'
 released: '2021-10-23T07:00:00Z'
-updated: 2023-04-07
-version: 3.5.1
-stars: 4.51029
-reviews: 243
-size: '103389184'
+updated: 2023-04-13
+version: 3.5.3
+stars: 4.5
+reviews: 251
+size: '103409664'
 website: https://walletnow.app
 repository: 
 issue: 
@@ -31,5 +31,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

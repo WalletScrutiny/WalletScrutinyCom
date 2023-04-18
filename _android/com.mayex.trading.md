@@ -3,7 +3,7 @@ wsId: mayexTrading
 title: Trade Crypto.BinanceKucoinOkex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.mayex.trading
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Mayex_Global
 social:
 - https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA
 - https://www.linkedin.com/company/mayex/
-- https://t.me/mayex_official 
+- https://t.me/mayex_official
 redirect_from: 
 features: 
 

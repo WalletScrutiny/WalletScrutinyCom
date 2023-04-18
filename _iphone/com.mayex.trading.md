@@ -1,19 +1,19 @@
 ---
 wsId: mayexTrading
-title: Trade Crypto.Binance Ftx Okex
+title: Mayex:Trade Crypto.
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mayex.trading
 appCountry: us
 idd: '1614659988'
 released: '2022-04-06T07:00:00Z'
-updated: 2023-03-25
-version: 1.8.8
+updated: 2023-04-11
+version: 1.9.8
 stars: 3
 reviews: 2
 size: '54935552'
-website: https://www.mayex.com/
+website: https://www.mayex.com/referral
 repository: 
 issue: 
 icon: com.mayex.trading.jpg
@@ -31,5 +31,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

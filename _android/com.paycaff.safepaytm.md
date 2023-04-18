@@ -3,7 +3,7 @@ wsId:
 title: SafePayTm - Money Exchanger
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.paycaff.safepaytm
 appCountry: 
