@@ -20,7 +20,7 @@ issue:
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: wip
 date: 2023-02-28
 signer: 
 reviewArchive: 
@@ -28,14 +28,51 @@ twitter: ocwallet
 social:
 - https://www.instagram.com/ocwallet
 - https://medium.com/@ocwallet
+- https://t.me/ocwallet
+- https://t.me/ocwalletglobal
 redirect_from: 
 features: 
 
 ---
 
-## Updated Review 2023-04-05
+## Updated Review 2023-04-19 
 
-At best this device **does not have the input/output** interface to securely verify and sign transactions. 
+We tried to register again in reference to our [first attempt](https://twitter.com/BitcoinWalletz/status/1630398696402845696). We encountered the same error. 
+
+The most recent descriptive announcement dated June 24, 2022 from the official telegram group:
+
+> Hello dear Online Cold Wallet users!
+>
+> We are aware that we have received a lot of questions lately, and we apologize for the silence and unanswered questions for a while. We had to focus on our work, keep developing our ideas to develop our project.
+>
+> As stated in our roadmap, we have come a long way since the start of our project. These are, in order:
+>
+> - APP Beta Testing
+> - ICO Sale
+> - Alpha Test
+> - Crowdfunding Integration
+>
+> While we are getting to this stage, we have not lacked in any way and we have not delayed any feature that we have committed in the roadmap. That's why we are happy and joyful!
+>
+> As stated in the Crowdfunding Integration field, physical wallet sales and distributions were supposed to occur in the 2022 Q2 phase. However, due to our recent meetings with VISA and MASTERCARD companies, we have decided to take this process to the Q3 stage. The biggest reason for this is that it offers great advantages to us and our users in case of joint agreement with these companies.
+>
+> Some of our investors say that they are complaining about the insufficient buyer portfolio. However, as stated in our roadmap, the creation date of the Global user base is stated as 2022 Q3 and since we stand behind our word, this has been placed on our site since the first day.
+>
+> But we want to return to the advantages of VISA and MASTERCARD. What advantages do these offer our users?
+>
+> If users incur losses caused by the company (OnlineColdWallet/Crypteirum), losses will be covered by an insurance of 100 million dollars.
+>
+> With the USD, EUR, GBP, CNY and JPY you have loaded on your OnlineColdWallet card, you will be able to shop in European/Asian countries like a credit card (150 countries).
+>
+> You will have a contracted card with Visa and MasterCard.
+>
+> With your OnlineColdWallet card, you will be able to transfer cash to exchanges with master/visa support.
+>
+> You will be able to send the crypto money in your OnlineColdWallet card to the stock market in a single transaction.
+>
+> OCW will be integrated into your physical card, so you will be able to send OCW to the companies that we will deal with in the future and convert it to cash in a single transaction without waiting for the buyer's order.
+>
+> Thanks for your understanding, Online Cold Wallet official announcement.
 
 ## Previous Review 2023-02-28
 
@@ -43,7 +80,7 @@ At best this device **does not have the input/output** interface to securely ver
 
 > The Smart, Secure, Choice for Your Digital Asset Management. 1000+ Currencies & Digital Assets Supported.
 
-This is an app paired with the {% include walletLink.html wallet='hardware/com.ocw.onlinecoldwallet' verdict='true' %}
+This is an app paired with the {% include walletLink.html wallet='hardware/ocw.card' verdict='true' %}
 
 ## Analysis 
 
