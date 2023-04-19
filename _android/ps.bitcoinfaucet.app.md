@@ -2,7 +2,8 @@
 wsId: 
 title: Bitcoin Faucet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: ps.bitcoinfaucet.app
 appCountry: 
@@ -20,7 +21,7 @@ icon: ps.bitcoinfaucet.app.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).
