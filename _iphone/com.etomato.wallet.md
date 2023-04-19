@@ -3,7 +3,7 @@ wsId: etomato
 title: 통통지갑
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.etomato.wallet
 appCountry: kr
 idd: '1618695778'
@@ -19,14 +19,14 @@ issue:
 icon: com.etomato.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2023-04-12
 signer: 
 reviewArchive: 
 twitter: tomatochain
 social:
 - https://www.instagram.com/tomatochain_official/
-- https://t.me/tomatochain_official_Eng 
+- https://t.me/tomatochain_official_Eng
 features: 
 
 ---

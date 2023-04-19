@@ -58,7 +58,17 @@ features:
 This app has many negative reviews and scam allegations on social networks. The homepage is no longer online and the app simply shows the splash screen [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1646005334757249024). 
 
 We'll mark this app as defunct and **custodial**, as the app description itself states:
-**Security is our highest priority to safeguard your Bitcoin and other digital assets**. We deemed it defunct because the homepage is no longer online (domain for sale), which could be a reason for all the complaints. 
+**Security is our highest priority to safeguard your Bitcoin and other digital assets**. 
 
-Because the service is custodial, and the app **cannot be verified**.
+On the [archived homepage](https://web.archive.org/web/20220518081049/https://vstmex.com/), we have more clues of its custodial nature.
+ 
+> - The use of cold wallets to storage important assets
+> - Two-factor authentication
+> - Customer insurance funds – We created an Insurance Asset > - Fund for Users (IAF), where we store 2% of the received trading fees to protect VSTMEX’s users and their crypto assets.
+> - Our own anti-fraud department
+> - Passing security audits -the System and Organization Control audits (SOC 1,2,3,4)
+
+We deemed it defunct because the homepage is no longer online (domain for sale), which could be a reason for all the complaints. 
+
+The service is custodial, and the app **cannot be verified**.
 

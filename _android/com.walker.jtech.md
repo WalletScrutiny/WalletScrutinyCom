@@ -2,7 +2,8 @@
 wsId: 
 title: Jtechtrade:Crypto & Giftcards
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.walker.jtech
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.walker.jtech.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-12-17
+verdict: nowallet
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,6 +32,10 @@ redirect_from:
 features: 
 
 ---
+
+## Updated Review 2023-04-19 
+
+We reached out via their chat support and confirmed that the service does not provide a Bitcoin wallet to the user. [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1648525697173028864)
 
 ## App Description from Google Play 
 
