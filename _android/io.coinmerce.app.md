@@ -49,4 +49,4 @@ features:
 
 ## Analysis 
 
-Most providers that have bank bank payment integration are **custodial** since they are primarily geared towards onboarding new users. Coinmerce is one such service. This is a proprietary app whose source is not publicly available and **not verifiable**.
+This is a **custodial** service and therefore, the app is **not verifiable**.

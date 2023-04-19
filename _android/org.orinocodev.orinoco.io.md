@@ -20,7 +20,7 @@ issue:
 icon: org.orinocodev.orinoco.io.png
 bugbounty: 
 meta: ok
-verdict: nobtc
+verdict: nowallet
 date: 2023-04-15
 signer: 
 reviewArchive: 
@@ -56,4 +56,8 @@ Quite frankly, we had a difficult time analyzing this app as it is in another la
 
 ## Verdict 
 
-We believe that this app **does not provide a Bitcoin wallet**, but rather exchanges this.  
+We believe that this app does not provide a Bitcoin wallet, but rather exchanges this in a way that is similar to ShapeShift:
+
+The user enters a coin address to receive, the provider enters another address for the user to send to. 
+
+This app **does not have a wallet**. 

@@ -20,7 +20,7 @@ issue:
 icon: mn.telexa.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-04-15
 signer: 
 reviewArchive: 
@@ -44,3 +44,10 @@ We had difficulty registering with this service since the interface is primarily
 
 We contacted support to ask if their app supports BTC deposits/withdrawals and await their response. 
 
+## Analysis 
+
+We downloaded the app and registered. [(Screenshots)](https://twitter.com/BitcoinWalletz/status/1648588977895768064)
+
+As far as we can tell, the app did not have a Bitcoin wallet. We had to translate each page of the app, and the input only accepted Mongolian characters. We were not able to find anything that resembles a send/receive function, nor a logo of Bitcoin attached to what we normally see in apps that has this functionality.  
+
+As [@Giszmo](https://gitlab.com/Giszmo) pointed out [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/417#note_1357965806), the app seems to be geared towards other investment products.
