@@ -42,6 +42,6 @@ features:
 - An option to register via email is also available. 
 - It is possible to deposit/withdraw Bitcoin. 
 - We have not seen any overt claim that the code for the Android app is publicly available. 
-- We confirmed with their tech support via chat [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1646456760507727873) that the **code for the app is not shared to the public.** 
+- We confirmed with their tech support via chat [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1648569893397344256) that the **code for the app is not shared to the public.** 
 
 

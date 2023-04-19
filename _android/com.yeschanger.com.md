@@ -41,9 +41,7 @@ features:
 
 Access to the site's main features are restricted by their verification procedures. We contacted their support and [posted a screenshot of the conversation online](https://twitter.com/BitcoinWalletz/status/1646410702188613633). 
 
-Initially, they claimed that the service has a Bitcoin Wallet. After a few more questions, they then reneged this position and [said](https://twitter.com/BitcoinWalletz/status/1646424060900024321) that the service "is not a Bitcoin wallet".
-
-Anyway, nowhere did we see that the app provides a Bitcoin wallet for the user, in the conventional sense just like major cryptocurrency exchanges.  
+We contacted support and they [said](https://twitter.com/BitcoinWalletz/status/1646424060900024321) that the service "is not a Bitcoin wallet".
 
 ## Terms 
 
@@ -51,16 +49,14 @@ Anyway, nowhere did we see that the app provides a Bitcoin wallet for the user, 
 
 ## Analysis 
 
-This review is not as clean cut as we would like it to be. First, if the exchange does offer a Bitcoin wallet, the user would have to pass through several layers of verification before being able to access it. In this scenario it would be a **custodial** provider as the private keys are clearly not provided to the user. 
+This service is similar to:
 
-Second, we were not able to see any interface with a BTC denomination nor a deposit QR code or address. Having users pass through several layers of KYC before letting them see this very basic functionality is not standard. 
+- {% include walletLink.html wallet='android/com.shapeshift.droid_shapeshift' verdict='true' %}
 
-## Verdict 
+- You provide a BTC (or some other coin) address
+- You ask them for a USDT address (or some other payment method) to send to
+- You send
+- They send
 
-The verdict we came up with is that this service is **not a wallet provider**. Our justification hinges on this statement on the Terms: 
+This app **does not provide a bitcoin wallet**.
 
-> The client agrees to an automated AML verification of all wallet addresses participating in the exchange.
-
-We believe this to be an adequate clue that the user must provide these addresses in the event when the user wants to receive any cryptocurrency. And the fact that the user needs to provide an address means that the platform itself does not have this mechanism. 
-
-We are open to amending this verdict should new information arise. 

@@ -21,7 +21,7 @@ icon: com.xsjys.bbtc.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive 
-date: 2023-04-13
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
@@ -36,9 +36,19 @@ features:
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.xsjys.bbtc) 
 
 > CDEX has Bitcoin (BTC), Ether (ETH), Cardano (ADA), Bitcoin Cash (BCH), FIL (Filecoin), Polkadot (DOT), Solana (SOL), Uniswap (UNI) ), DOGE (Dogecoin) and hundreds of other cryptocurrencies.
->
-> CDEX is designed to provide safe and secure trading services
+
+## [Terms](https://t.cd-ex.com/terms/?lang=en)
+
+> 2.1. The Services allow all Users to conducting trading activities in relation to the Cryptocurrency Contracts on the Platform. 
+
+To further clarify: 
+
+> 10.1. The Platform allows the User to submit the Orders to buy or sell Cryptocurrency Contracts. 
 
 ## Analysis 
 
-Most exchanges that offer multi-wallet support are custodial in nature. There are some things that are unique to CDEX which give us pause before giving it a custodial verdict. For one, despite claims that it 'has Bitcoin', users can only deposit and withdraw USDT [(Screenshot Proof on Twitter)](https://twitter.com/BitcoinWalletz/status/1646403887610617856/photo/2). Furthermore, users can also trade this USDT to BTC. This qualifies it as an app that can **neither send or receive BTC**. This makes it also a custodial provider, thus, the app **cannot be verified**.
+Users can only deposit and withdraw USDT [(Screenshot Proof on Twitter)](https://twitter.com/BitcoinWalletz/status/1646403887610617856/photo/2). 
+
+There are no options to deposit or withdraw actual cryptocurrencies apart from USDT.
+
+This qualifies it as an app that can **neither send or receive BTC**. 

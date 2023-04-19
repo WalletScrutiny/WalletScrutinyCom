@@ -40,14 +40,13 @@ features:
 >
 > All major Token and Crypto like (Bitcoin, Tether, litecoin, Ethereum, Tron, BNB tokens, SHIBA, Counos )
 
-This is a regulated cryptocurrency exchange that complies with existing KYC/AML regulations.
+This cryptocurrency exchange implements KYC/AML regulations.
 
 ## [Security](https://btc6x.com/info/security)
 
-> Security of assets and user data stored on the website is our first priority.
-To increase security, the service constantly adds new levels of protection, improves audit processes and reduces the any risk in its infrastructure. **Within the frame of the intellectual property security and protection, we cannot disclose all the information about the protective measures used on our platform.**
+> Security of assets and user data stored on the website is our first priority. To increase security, the service constantly adds new levels of protection, improves audit processes and reduces the any risk in its infrastructure. **Within the frame of the intellectual property security and protection, we cannot disclose all the information about the protective measures used on our platform.**
 >
-> As such, we do not divulge user information to any third party. In addition, many security features are considered in order to offer a higher level of security and confidence in the website. Along these lines, constant monitoring and observations are carried out.
+> As such, **we do not divulge user information to any third party**. In addition, many security features are considered in order to offer a higher level of security and confidence in the website. Along these lines, constant monitoring and observations are carried out.
 
 ## Analysis 
 
