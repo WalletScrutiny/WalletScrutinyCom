@@ -30,3 +30,4 @@ features:
 
 ---
 
+The app is no longer available on Google Play (404).
