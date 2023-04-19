@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: weltheeWallet
 title: Welthee Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.welthee.wallet
 appCountry: 
@@ -19,14 +20,34 @@ issue:
 icon: com.welthee.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nobtc
+date: 2023-04-13
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: Welthee
+social:
+- https://www.linkedin.com/company/welthee/ 
 redirect_from: 
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Welthee Wallet is the official wallet of the Welthee investment platform.
+
+> Supported cryptocurrencies
+>
+> - Welthee (WELT)
+> - Ethereum (ETH)
+> - Matic - Polygon
+> - USDC (Polygon)
+> - Launchpad tokens
+> - RiftOne (RFT)
+> - Dexvers(DXVS)
+> - TOKHITT (HITT)
+> - Superkoin (SK)
+
+## Analysis 
+
+{{ page.title }} does not list BTC among its supported currencies.
