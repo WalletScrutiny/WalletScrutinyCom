@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Vault12 Inherit Crypto & NFTs
+title: 'Vault12 Guard: Web3 Assets'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
 released: '2019-08-28T07:00:00Z'
-updated: 2023-03-17
-version: 1.5.3
+updated: 2023-04-11
+version: 2.0.1
 stars: 4.7
 reviews: 15
-size: '52917248'
+size: '43483136'
 website: https://vault12.com
 repository: https://github.com/vault12
 issue: 

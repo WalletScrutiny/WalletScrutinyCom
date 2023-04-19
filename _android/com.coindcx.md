@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-02
 updated: 2023-03-01
 version: 3.01.010
-stars: 4.6
+stars: 4.5
 ratings: 13567
-reviews: 181
+reviews: 182
 size: 
 website: https://coindcx.com
 repository: 

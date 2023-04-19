@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.forextech.forextools.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-10-05
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

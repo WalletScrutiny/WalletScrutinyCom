@@ -1,6 +1,6 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin & Crypto'
+title: 'Coinme: Buy Bitcoin With Cash'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-03-28
 version: 2.0.9
 stars: 4.1
 ratings: 782
-reviews: 553
+reviews: 556
 size: 
 website: https://www.coinme.com
 repository: 

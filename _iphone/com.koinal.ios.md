@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.koinal.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-09-03
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: koinal_io

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paritex.paritexapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-24
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: paritexexchange
