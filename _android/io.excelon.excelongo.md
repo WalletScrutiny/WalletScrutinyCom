@@ -51,4 +51,4 @@ features:
 
 ## Verdict 
 
-As a service that allows users to connect their banking account, with the option to buy/sell Bitcoin, with a Bitcoin wallet, the app lacks private key backup and restoration features. It performs KYC on its users. As of April 15, 2023, We were also not able to see a copy of user Terms and Conditions. This is a **custodial** app and therefore, it is **not verifiable**.
+As a service that allows users to connect their banking account, with the option to buy/sell Bitcoin, with a Bitcoin wallet, the app lacks private key backup and restoration features. It performs KYC on its users. We were also not able to see a copy of user Terms and Conditions. This is a **custodial** app and therefore, it is **not verifiable**.

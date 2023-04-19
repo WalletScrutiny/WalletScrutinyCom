@@ -16,7 +16,7 @@ reviews: 17
 size: 
 website: https://particl.io
 repository: https://github.com/particl/copay/commits/ratefix
-issue: 
+issue: https://github.com/particl/copay/issues/58
 icon: io.particl.copay.png
 bugbounty: 
 meta: obsolete
