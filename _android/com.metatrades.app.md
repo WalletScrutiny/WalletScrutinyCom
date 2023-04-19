@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.metatrades.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

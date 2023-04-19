@@ -11,7 +11,7 @@ released: '2022-02-26T08:00:00Z'
 updated: 2023-01-11
 version: 6.1.3
 stars: 5
-reviews: 6
+reviews: 5
 size: '108967936'
 website: https://www.deepcoin.pro
 repository: 

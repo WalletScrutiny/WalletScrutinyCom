@@ -8,11 +8,11 @@ appId: com.astontek.stockmaster
 appCountry: us
 idd: 591644846
 released: 2013-03-07
-updated: 2023-02-14
-version: '6.77'
+updated: 2023-04-16
+version: '6.79'
 stars: 4.6
-reviews: 66039
-size: '86948864'
+reviews: 66069
+size: '88364032'
 website: https://www.astontek.com
 repository: 
 issue: 

@@ -10,7 +10,7 @@ released: 2018-10-03
 updated: 2023-04-03
 version: 0.6.1
 stars: 4.9
-reviews: 38
+reviews: 39
 size: '17111040'
 website: https://fullynoded.app
 repository: 

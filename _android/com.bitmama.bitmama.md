@@ -12,7 +12,7 @@ updated: 2023-03-22
 version: 1.1.31
 stars: 3.9
 ratings: 65
-reviews: 8
+reviews: 9
 size: 
 website: https://www.bitmama.io
 repository: 

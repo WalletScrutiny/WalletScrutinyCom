@@ -10,9 +10,9 @@ appCountry:
 released: Oct 27, 2021
 updated: 2022-12-20
 version: 202212.1.1
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 32
+reviews: 33
 size: 
 website: https://www.blockchain.com
 repository: 

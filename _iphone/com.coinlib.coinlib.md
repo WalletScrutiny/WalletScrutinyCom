@@ -10,8 +10,8 @@ idd: '1413265839'
 released: '2018-07-30T03:22:22Z'
 updated: 2018-07-30
 version: '1.0'
-stars: 3.8
-reviews: 10
+stars: 3.7
+reviews: 11
 size: '70871040'
 website: https://coinlib.io
 repository: 

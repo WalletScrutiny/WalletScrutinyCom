@@ -1,6 +1,6 @@
 ---
-title: UKISS Hugware®
-appId: ukiss.hugware
+title: UKISS Hugware® H1
+appId: ukiss.hugware.h1
 authors:
 - danny
 released: 2022-06-20
@@ -13,18 +13,23 @@ weight:
 provider: UKISS Technology
 providerWebsite: 
 website: https://www.ukiss.io/
-shop: https://www.ukiss.io/product/hugware-set-key/
+shop: https://web.archive.org/web/20220623141833/https://www.ukiss.io/launch-bundle/
 country: SG
-price: 139USD
+price: 169USD
 repository: 
 issue: 
-icon: ukiss.hugware.png
+icon: ukiss.hugware.h1.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-09
+date: 2023-02-10
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2022-11-09
+  version: 
+  appHash: 
+  gitRevision: 8762a3742
+  verdict: 
 twitter: UKISSTech
 social:
 - https://www.linkedin.com/company/ukiss-tech/
@@ -37,8 +42,6 @@ social:
 features: 
 
 ---
-
-## Updated Analysis 2022-11-09
 
 The {{page.title}} is unique in its security implementation. Most of the mainstream devices are stand-alone or paired with a mobile phone. 
 
@@ -108,6 +111,7 @@ Integrated Digital Security Solutions
 - Ransomware protection
 - Secure social messaging
 
-UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [Twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source.
+UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [Twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source. They replied with a link to the site's [whitepaper](https://whitepaper.ukiss.io/), and confirmed that the firmware would not be made open source.
 
-As of today March 15, 2022, the UKISS hugware is still in the middle of its soft launch. The site still asks for an email address for **Pre-Order discounts and promos**. Documentation, tutorials and other technical information such as private key generation are still not readily available online.  
+As of this review, UKISS is officially released and is now marketing its H2 bundle.
+

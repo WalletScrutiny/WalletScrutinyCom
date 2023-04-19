@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Bitexen.ExchangeApp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-26
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: bitexencom
