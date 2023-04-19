@@ -20,7 +20,7 @@ issue:
 icon: so.onekey.app.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-04-18
 signer: 
 reviewArchive: 
@@ -64,8 +64,4 @@ As [@loatheb1](https://gitlab.com/loatheb1) has explained on [GitLab](https://gi
 
 > "None of these three products can be used without our APP. We all need our APP to send data, process the received information inside the hardware, and then return it. This ensures that the private key in our hardware must be is safe." 
 
-As this point, it would be fitting to have the app for verification to have it examined by more people and tested on different hardware. 
-
-We'll keep it as a work-in-progress and proceed to create an issue on GitLab.
-
-
+As a **companion app** to OneKey's hardware wallets, the app does not function as a wallet itself. 

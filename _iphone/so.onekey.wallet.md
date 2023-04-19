@@ -19,7 +19,7 @@ issue:
 icon: so.onekey.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-04-18
 signer: 
 reviewArchive: 
