@@ -45,7 +45,32 @@
 {% for s in page.social %}
 <li>
   <a href="{{ s }}" class="link-web">
-    <i class="fas fa-globe"></i>
+    {% assign domain = s | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
+
+    {% case domain %}
+      {% when "bitcointalk" %}{% assign fa = "fab fa-bitcoin" %}
+      {% when "discord"     %}{% assign fa = "fab fa-discord" %}
+      {% when "facebook"    %}{% assign fa = "fab fa-facebook" %}
+      {% when "github"      %}{% assign fa = "fab fa-github" %}
+      {% when "google"      %}{% assign fa = "fab fa-google" %}
+      {% when "instagram"   %}{% assign fa = "fab fa-instagram" %}
+      {% when "keybase"     %}{% assign fa = "fab fa-keybase" %}
+      {% when "linkedin"    %}{% assign fa = "fab fa-linkedin" %}
+      {% when "medium"      %}{% assign fa = "fab fa-medium" %}
+      {% when "pinterest"   %}{% assign fa = "fab fa-pinterest" %}
+      {% when "reddit"      %}{% assign fa = "fab fa-reddit" %}
+      {% when "slack"       %}{% assign fa = "fab fa-slack" %}
+      {% when "t"           %}{% assign fa = "fab fa-telegram" %}
+      {% when "tiktok"      %}{% assign fa = "fab fa-tiktok" %}
+      {% when "twitter"     %}{% assign fa = "fab fa-twitter" %}
+      {% when "vimeo"       %}{% assign fa = "fab fa-vimeo" %}
+      {% when "vk"          %}{% assign fa = "fab fa-vk" %}
+      {% when "weibo"       %}{% assign fa = "fab fa-weibo" %}
+      {% when "whatsapp"    %}{% assign fa = "fab fa-whatsapp" %}
+      {% when "youtube"     %}{% assign fa = "fab fa-youtube" %}
+      {% else               %}{% assign fa = "fas fa-globe" %}
+    {% endcase %}
+    <i class="{{ fa }}"></i>
   </a>
 </li>
 {% endfor %}

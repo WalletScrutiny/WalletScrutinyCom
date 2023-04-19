@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: 'Bitwala: Bitcoin Wallet'
+title: Bitwala Bitcoin & Ether Wallet
 altTitle: 
 authors:
 - danny

@@ -9,10 +9,10 @@ appCountry:
 idd: 1488296980
 released: 2020-01-06
 updated: 2023-04-14
-version: 4.15.5
+version: 4.15.0
 stars: 3.9
-reviews: 840
-size: '318558208'
+reviews: 825
+size: '318103552'
 website: https://www.bybit.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: kleverexchange
-title: Klever Exchange
+title: Bitcoin.me
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 50000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30
-updated: 2023-03-21
-version: 1.3.1
+updated: 2023-04-14
+version: 1.4.0
 stars: 4
 ratings: 500
 reviews: 44
 size: 
-website: https://klever.io
+website: https://bitcoin.me
 repository: 
 issue: 
 icon: io.klever.secure.exchange.png
