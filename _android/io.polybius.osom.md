@@ -2,7 +2,8 @@
 wsId: 
 title: OSOM Finance
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: io.polybius.osom
 appCountry: 
@@ -20,7 +21,7 @@ icon: io.polybius.osom.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-04-16
+date: 2023-04-15
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).

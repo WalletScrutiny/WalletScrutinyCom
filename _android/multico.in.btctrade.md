@@ -2,7 +2,8 @@
 wsId: 
 title: BTCTrade
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: multico.in.btctrade
 appCountry: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer online on Google Play (404).
