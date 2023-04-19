@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ubrain.cryptowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 

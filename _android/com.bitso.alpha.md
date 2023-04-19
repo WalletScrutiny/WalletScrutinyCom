@@ -12,7 +12,7 @@ updated: 2023-03-20
 version: 1.16.0
 stars: 4.1
 ratings: 
-reviews: 442
+reviews: 443
 size: 
 website: https://bitso.com/alpha/landing
 repository: 

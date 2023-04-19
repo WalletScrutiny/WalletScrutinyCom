@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: 
 providerWebsite: 
@@ -27,7 +27,9 @@ signer:
 reviewArchive: 
 twitter: dorjwa
 social:
-- https://t.me/dorjwa 
+- https://t.me/dorjwa
+features: 
+
 ---
 
 ## Product Description taken from the [Dorj T page](https://mydorj.com/?page_id=367)

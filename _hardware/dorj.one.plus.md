@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: 
 providerWebsite: 
@@ -26,8 +26,10 @@ date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: dorjwa
-social: 
+social:
 - https://t.me/dorjwa
+features: 
+
 ---
 
 ## Product Description taken from the Dorj homepage

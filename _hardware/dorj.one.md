@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 72
 - 27
-- 7 
+- 7
 weight: 23
 provider: 
 providerWebsite: http://dorj.io/
@@ -30,7 +30,9 @@ signer:
 reviewArchive: 
 twitter: dorjwa
 social:
-- https://t.me/dorjwa 
+- https://t.me/dorjwa
+features: 
+
 ---
 
 ## Product Description taken from the Dorj homepage

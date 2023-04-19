@@ -1,6 +1,6 @@
 ---
 wsId: CoinutExchange
-title: Coinut - Coin Ultimate Trading
+title: Coins U Trust
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: Feb 4, 2018
 updated: 2022-11-01
 version: 0.8.2
-stars: 3.8
+stars: 3.7
 ratings: 
 reviews: 15
 size: 

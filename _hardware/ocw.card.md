@@ -21,19 +21,24 @@ issue:
 icon: ocw.card.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-02-28
+verdict: noita
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: ocwallet
 social:
 - https://www.instagram.com/ocwallet
 - https://medium.com/@ocwallet
+- https://t.me/ocwallet
 features: 
 
 ---
 
-## Product Description 
+## Updated Review 2023-04-05
+
+At best this device **does not have the input/output** interface to securely verify and sign transactions. 
+
+## Previous Review 2023-02-28
 
 This is an NFC card paired with {% include walletLink.html wallet='android/com.ocw.onlinecoldwallet' verdict='true' %}
 

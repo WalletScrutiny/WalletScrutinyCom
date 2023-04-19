@@ -1,5 +1,5 @@
 ---
-title: Bitmain SafePrime 
+title: Bitmain SafePrime
 appId: bitmain.safeprime
 authors:
 - danny
@@ -12,7 +12,8 @@ dimensions:
 weight: 
 provider: Bitmain
 providerWebsite: https://bitmain.com
-website: https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
+website: >-
+  https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
 shop: 
 country: CN
 price: 
@@ -26,10 +27,12 @@ date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: BITMAINtech
-social: 
+social:
 - https://t.me/bitmain
 - https://www.youtube.com/c/Bitmain_official
 - https://www.facebook.com/BITMAIN
+features: 
+
 ---
 
 ## Product Description 
