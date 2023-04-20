@@ -2,7 +2,8 @@
 wsId: 
 title: Bitdd.com - Buy BTC, ETH
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.bitdd.appoo
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.bitdd.appoo.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404)

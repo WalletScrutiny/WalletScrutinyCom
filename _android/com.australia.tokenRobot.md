@@ -2,7 +2,8 @@
 wsId: 
 title: TokenRobot
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.australia.tokenRobot
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.australia.tokenRobot.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404)

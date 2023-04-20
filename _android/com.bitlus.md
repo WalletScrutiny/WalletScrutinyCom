@@ -2,7 +2,8 @@
 wsId: 
 title: Bitlus
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.bitlus
 appCountry: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404)

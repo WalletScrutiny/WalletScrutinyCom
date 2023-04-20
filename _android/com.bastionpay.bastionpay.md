@@ -2,7 +2,8 @@
 wsId: 
 title: Bastionpay
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.bastionpay.bastionpay
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.bastionpay.bastionpay.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).

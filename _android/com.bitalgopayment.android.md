@@ -2,7 +2,8 @@
 wsId: 
 title: BitalGo Multi Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.bitalgopayment.android
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.bitalgopayment.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-04-16
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).
