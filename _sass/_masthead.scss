@@ -10,8 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background-color: var(--nav);
-  box-shadow: 0 0 1px;
+  padding-bottom: 3px;
 
   &__inner-wrap {
     @include container;
@@ -50,21 +49,18 @@
 }
 .dark {
   .masthead__menu .wallet-search .searchbar {
-    opacity: 0.8;
-    &::after {
-      opacity: 0.6;
-    }
+    opacity: 1;
   }
 }
 .masthead__menu {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  gap: 5px 40px;
+  gap: 15px 40px;
   align-items: center;
   max-width: 100vw;
   padding-top: 5px;
   .wallet-search {
-    color: var(--masthead-text);
+    color: var(--accent-text);
     position: relative;
     height: 100%;
     width: 100%;
@@ -79,25 +75,26 @@
       position: relative;
       box-shadow: 0 0 0 0;
       border-radius: 3px;
-      opacity: 0.6;
+      opacity: 1;
       text-overflow: ellipsis;
       overflow: hidden;
       cursor: pointer;
       transition: 0.1s linear;
       border: none;
-      background: var(--white);
-      color: var(--masthead-text);
+      background: var(--accent-50);
+      color: var(--accent);
       &:focus,
       &:active {
         outline: none;
         opacity: 1;
+        box-shadow: 0 0 0 1px;
         &::after {
           opacity: 0;
         }
       }
       &::after {
         pointer-events: none;
-        content: "Search wallets...";
+        content: "Search wallet reviews...";
         opacity: 0.4;
         position: absolute;
         margin: auto;
@@ -110,7 +107,6 @@
       .searchbar {
         opacity: 1;
         box-shadow: 0 0 0 1px var(--text);
-        // background: transparent;
         &::after {
           opacity: 0;
           content: "";
@@ -199,7 +195,6 @@
         .icon-wrapper {
           display: flex;
           background-color: var(--nav-contrast);
-          //
           box-shadow: 0 0 0 1px var(--nav-contrast);
           height: calc(2rem + 4px);
           width: calc(2rem + 4px);
@@ -256,7 +251,7 @@
       }
       &.visible {
         background: var(--white);
-        top: calc(100% + 5px);
+        top: calc(100% + 9px);
         width: 550px;
         max-height: 400px;
         overflow: scroll;
@@ -279,7 +274,7 @@
     }
     .wallet-search {
       display: none;
-      @media(max-width:500px){
+      @media (max-width: 500px) {
         display: grid;
         grid-column: 1/3;
         grid-row: 2/3;
@@ -300,7 +295,7 @@
       }
     }
     .mobile-search-shortcut {
-      @media(max-width:500px){
+      @media (max-width: 500px) {
         opacity: 0;
         pointer-events: none;
       }
@@ -311,9 +306,8 @@
       width: 2rem;
       text-align: center;
       padding: 0.5rem;
-      color: var(--masthead-text);
       &.active {
-        background: var(--accent);
+        box-shadow: 0 0 0 2px;
         border-radius: 3px;
       }
     }
@@ -330,17 +324,34 @@
 .light {
   .masthead-logo {
     &::before {
-      content: url(/images/logo_2022-black.svg);
+      background-image: url(/images/dog-logo.svg);
+    }
+    &::after {
+      content: "Wallet Scrutiny";
     }
   }
 }
 .masthead-logo {
   padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
   &::before {
+    content: "";
     display: block;
-    height: 22px;
-    content: url(/images/logo_2022-white.svg);
-    aspect-ratio: 1/0.147;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 35px;
+    width: 35px;
+    background-image: url(/images/dog-logo-light.svg);
+  }
+  &::after {
+    content: "Wallet Scrutiny";
+    display: block;
+    line-height: 1;
+    font-size: 21px;
+    color: var(--accent-text);
   }
 }
 

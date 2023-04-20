@@ -8,8 +8,9 @@
   --neutral-2: #606060;
   --neutral-1: #404040;
   --neutral-0: #000000;
-  --accent: rgb(97, 200, 97);
-  --accent-text: #4da84d;
+  --accent: #16b9b1;
+  --accent-text: #1CAAA2;
+  --accent-50: rgba(28, 171, 164, .1);
   --rust: #af2900;
   --indifferent: #3d506d;
   --shadow-3: rgba(0, 0, 0, 0.3);
@@ -44,8 +45,9 @@
 }
 
 .dark {
-  --accent: rgb(97, 200, 97);
-  --accent-text: #4da84d;
+  --accent: #12bd95;
+  --accent-text: #1CAA89;
+  --accent-50: rgba(28, 170, 137, .1);
   --rust: #b32a00;
   --indifferent: #5b82bf;
   --shadow-3: rgba(255, 255, 255, 0.2);

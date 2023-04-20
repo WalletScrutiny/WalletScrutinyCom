@@ -15,7 +15,7 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   searchInput.setAttribute("onfocus", "blockEvent(event);heroUX(this)")
   searchInput.setAttribute("onmouseenter", "blockEvent(event);scOOff()")
   searchInput.setAttribute("onmouseleave", "blockEvent(event);scOOn()")
-  searchInput.setAttribute("placeholder", "Search wallets...")
+  searchInput.setAttribute("placeholder", "Search wallet reviews...")
   searchInput.classList.add("walletSearch")
   searchParent.append(searchInput)
   searchParent.append(searchExitButton)
