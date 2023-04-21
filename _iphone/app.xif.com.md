@@ -3,7 +3,7 @@ wsId: xInfinity
 title: X Infinity
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.xif.com
 appCountry: us
 idd: '1401101777'
@@ -25,9 +25,10 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/xinfinityholding/ 
+- https://www.linkedin.com/company/xinfinityholding/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

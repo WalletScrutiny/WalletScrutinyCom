@@ -3,16 +3,16 @@ wsId: pexpaypeaceful
 title: 'Pexpay: 0 Fee BTC trading'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.peaceful.pexpay.app.ios
 appCountry: us
 idd: '1618178873'
 released: '2022-04-11T07:00:00Z'
-updated: 2023-04-07
-version: 1.16.0
-stars: 3.44444
+updated: 2023-04-11
+version: 1.16.1
+stars: 3.4
 reviews: 9
-size: '349596672'
+size: '336881664'
 website: https://www.pexpay.com
 repository: 
 issue: 
@@ -28,9 +28,10 @@ social:
 - https://www.facebook.com/pexpay.official/
 - https://www.linkedin.com/company/pexpay/
 - https://www.youtube.com/@pexpay
-- https://vk.com/pexpayofficial 
+- https://vk.com/pexpayofficial
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

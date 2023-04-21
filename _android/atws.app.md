@@ -12,7 +12,7 @@ updated: 2023-04-05
 version: 8.4.666
 stars: 4.7
 ratings: 7723
-reviews: 975
+reviews: 976
 size: 
 website: http://ibkr.com
 repository: 

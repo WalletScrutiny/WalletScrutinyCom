@@ -11,7 +11,7 @@ released: 2017-09-27
 updated: 2023-04-05
 version: '8.5'
 stars: 4.7
-reviews: 192544
+reviews: 192557
 size: '57845760'
 website: https://trustwallet.com
 repository: 

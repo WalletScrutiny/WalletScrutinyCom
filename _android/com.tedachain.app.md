@@ -2,8 +2,8 @@
 wsId: 
 title: Teda Chain
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 10000
 appId: com.tedachain.app
 appCountry: 

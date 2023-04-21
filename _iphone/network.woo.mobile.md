@@ -3,7 +3,7 @@ wsId: wooXTrading
 title: 'WOO X: Zero-fee crypto trading'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
@@ -28,4 +28,5 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}

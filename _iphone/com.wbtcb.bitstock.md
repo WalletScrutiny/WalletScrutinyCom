@@ -3,7 +3,7 @@ wsId: bitPlusbyWBTCb
 title: Bit.plus by wBTCb
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

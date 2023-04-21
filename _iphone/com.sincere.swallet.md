@@ -3,15 +3,15 @@ wsId: sincereSWallet
 title: S-Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.sincere.swallet
 appCountry: ua
 idd: '1594397830'
 released: '2022-04-06T07:00:00Z'
-updated: 2023-03-21
-version: 2.4.0
-stars: 4.84564
-reviews: 149
+updated: 2023-04-18
+version: 2.5.0
+stars: 4.8
+reviews: 151
 size: '49352704'
 website: https://s-wallet.ai
 repository: 
@@ -26,9 +26,10 @@ reviewArchive:
 twitter: SWallet_ai
 social:
 - https://www.facebook.com/SWallet.en
-- https://t.me/SWallet_ai 
+- https://t.me/SWallet_ai
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

@@ -8,8 +8,8 @@ appId: com.blocktrade.ios
 appCountry: us
 idd: 1360294403
 released: 2018-10-30
-updated: 2023-04-11
-version: 2.4.0
+updated: 2023-04-18
+version: 2.4.1
 stars: 5
 reviews: 9
 size: '28695552'

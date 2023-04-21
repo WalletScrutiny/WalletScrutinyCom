@@ -3,7 +3,7 @@ wsId: coinmerce
 title: Coinmerce - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.coinmerce.app
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: coinmerce
 social:
 - https://www.facebook.com/CoinmerceNL
-- https://www.linkedin.com/company/coinmerce/ 
+- https://www.linkedin.com/company/coinmerce/
 redirect_from: 
 features: 
 

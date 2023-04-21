@@ -3,7 +3,7 @@ wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.switchere.switchere
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Switchere_com
 social:
 - https://www.facebook.com/switchere.official
 - https://t.me/switchere
-- https://www.reddit.com/user/switchere 
+- https://www.reddit.com/user/switchere
 redirect_from: 
 features: 
 

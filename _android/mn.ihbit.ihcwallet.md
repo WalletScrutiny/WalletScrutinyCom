@@ -3,7 +3,7 @@ wsId:
 title: IH Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: mn.ihbit.ihcwallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: IHCoinofficial
 social:
-- https://www.facebook.com/IHCoinGlobal 
+- https://www.facebook.com/IHCoinGlobal
 redirect_from: 
 features: 
 

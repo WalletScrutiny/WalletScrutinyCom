@@ -8,11 +8,11 @@ appId: io.coinchange
 appCountry: us
 idd: '1585629448'
 released: '2021-11-09T08:00:00Z'
-updated: 2023-02-01
-version: 2.0.1
-stars: 4.2
-reviews: 39
-size: '149376000'
+updated: 2023-04-18
+version: 2.0.2
+stars: 4.1
+reviews: 40
+size: '149646336'
 website: https://www.coinchange.io
 repository: 
 issue: 

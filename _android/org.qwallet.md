@@ -3,7 +3,7 @@ wsId:
 title: Q-Wallet | Wallet For Ethereum
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: org.qwallet
 appCountry: 

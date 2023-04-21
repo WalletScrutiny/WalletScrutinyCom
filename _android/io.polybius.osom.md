@@ -3,7 +3,7 @@ wsId:
 title: OSOM Finance
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.polybius.osom
 appCountry: 

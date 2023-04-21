@@ -3,7 +3,7 @@ wsId: usenobi
 title: 'NOBI: Own Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.usenobi
 appCountry: 

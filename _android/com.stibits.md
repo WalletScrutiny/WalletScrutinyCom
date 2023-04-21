@@ -3,7 +3,7 @@ wsId: stibits
 title: Stibits
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.stibits
 appCountry: 

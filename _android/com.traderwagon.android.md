@@ -3,7 +3,7 @@ wsId: traderWagon
 title: TraderWagon
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.traderwagon.android
 appCountry: 

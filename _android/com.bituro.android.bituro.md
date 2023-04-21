@@ -12,7 +12,7 @@ updated: 2022-07-22
 version: 1.20.0
 stars: 4.1
 ratings: 9148
-reviews: 533
+reviews: 534
 size: 
 website: https://bituro.com
 repository: 

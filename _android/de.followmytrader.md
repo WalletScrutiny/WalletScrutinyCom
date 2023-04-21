@@ -3,7 +3,7 @@ wsId: followMyTrader
 title: Follow MyMoney
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: de.followmytrader
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/FollowMyMoneyOfficial
 - https://www.instagram.com/followmymoney_official
 - https://www.youtube.com/c/FollowMyMoneyYT
-- https://www.linkedin.com/company/fels-group/ 
+- https://www.linkedin.com/company/fels-group/
 redirect_from: 
 features: 
 

@@ -3,7 +3,7 @@ wsId: vstmex
 title: VSTMEX
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.vstmexvstmex1.vstmexvstmex
 appCountry: sg
 idd: '1614816279'
@@ -25,9 +25,10 @@ signer:
 reviewArchive: 
 twitter: VSTMEX
 social:
-- https://t.me/VSTMEX001  
+- https://t.me/VSTMEX001
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

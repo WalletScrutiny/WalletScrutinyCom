@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/pexpay.official/
 - https://www.linkedin.com/company/pexpay/
 - https://www.youtube.com/@pexpay
-- https://vk.com/pexpayofficial 
+- https://vk.com/pexpayofficial
 redirect_from: 
 features: 
 

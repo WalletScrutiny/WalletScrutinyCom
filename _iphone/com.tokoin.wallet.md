@@ -10,7 +10,7 @@ idd: 1489276175
 released: 2019-12-12
 updated: 2023-04-18
 version: 3.4.18
-stars: 3.3
+stars: 4.7
 reviews: 3
 size: '74945536'
 website: https://www.tokoin.io/

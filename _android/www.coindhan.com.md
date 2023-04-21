@@ -3,7 +3,7 @@ wsId: coindhan
 title: 'Coindhan: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: www.coindhan.com
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://t.me/coindhan/
 - https://www.instagram.com/coindhan/
 - https://www.youtube.com/channel/UCAPICkLqsUx1qTPa1RPQVUw
-- https://www.reddit.com/user/Coin_Dhan/ 
+- https://www.reddit.com/user/Coin_Dhan/
 redirect_from: 
 features: 
 

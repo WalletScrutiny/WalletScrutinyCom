@@ -3,7 +3,7 @@ wsId:
 title: BitAnex Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: org.bitanex.bitanex
 appCountry: 

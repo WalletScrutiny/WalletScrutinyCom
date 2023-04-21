@@ -3,7 +3,7 @@ wsId: vstmex
 title: VSTMEX - Buy Bitcoin & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.tocce.vst
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: VSTMEX
 social:
-- https://t.me/VSTMEX001 
+- https://t.me/VSTMEX001
 redirect_from: 
 features: 
 

@@ -3,7 +3,7 @@ wsId:
 title: S-ONE Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: sone.finance.wallet
 appCountry: 

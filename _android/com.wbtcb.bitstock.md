@@ -3,7 +3,7 @@ wsId: bitPlusbyWBTCb
 title: Bit.plus
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.wbtcb.bitstock
 appCountry: 

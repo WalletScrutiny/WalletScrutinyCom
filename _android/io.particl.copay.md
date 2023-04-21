@@ -3,7 +3,7 @@ wsId:
 title: Particl Copay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.particl.copay
 appCountry: 

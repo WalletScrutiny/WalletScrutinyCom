@@ -3,7 +3,7 @@ wsId:
 title: Swerri
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.swerri.io
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/3MxvPhQ6Yk
 - https://t.me/Swerri_app
 - https://www.instagram.com/swerriapp/
-- https://www.facebook.com/OfficialSwerri 
+- https://www.facebook.com/OfficialSwerri
 redirect_from: 
 features: 
 

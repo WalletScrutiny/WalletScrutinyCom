@@ -12,7 +12,7 @@ updated: 2023-03-03
 version: 3.5.6
 stars: 2.8
 ratings: 3260
-reviews: 14
+reviews: 15
 size: 
 website: https://jeton.com/
 repository: 

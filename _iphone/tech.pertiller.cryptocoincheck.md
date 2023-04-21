@@ -3,7 +3,7 @@ wsId: cryptoCoinCheck
 title: Crypto Coin Check
 altTitle: 
 authors:
-- danny 
+- danny
 appId: tech.pertiller.cryptocoincheck
 appCountry: us
 idd: '1367107864'

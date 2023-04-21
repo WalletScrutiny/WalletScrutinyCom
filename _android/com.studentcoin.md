@@ -8,8 +8,8 @@ users: 50000
 appId: com.studentcoin
 appCountry: pl
 released: 2021-04-01
-updated: 2023-03-13
-version: 1.14.1
+updated: 2023-04-17
+version: 1.15.0
 stars: 
 ratings: 
 reviews: 

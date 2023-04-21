@@ -3,7 +3,7 @@ wsId: tatspace
 title: TATSPACE
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.tatspace
 appCountry: 
@@ -28,12 +28,11 @@ twitter: tatspaceapp
 social:
 - https://www.linkedin.com/company/the-abit-app/
 - https://t.me/tatspaceapp
-- https://www.instagram.com/tatspaceapp/ 
+- https://www.instagram.com/tatspaceapp/
 redirect_from: 
 features: 
 
 ---
-
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.tatspace) 
 

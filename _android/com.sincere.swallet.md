@@ -3,13 +3,13 @@ wsId: sincereSWallet
 title: S-Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.sincere.swallet
 appCountry: 
 released: Apr 11, 2022
-updated: 2023-03-21
-version: 2.4.0
+updated: 2023-04-06
+version: 2.5.0
 stars: 4.6
 ratings: 
 reviews: 25
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: SWallet_ai
 social:
 - https://www.facebook.com/SWallet.en
-- https://t.me/SWallet_ai 
+- https://t.me/SWallet_ai
 redirect_from: 
 features: 
 

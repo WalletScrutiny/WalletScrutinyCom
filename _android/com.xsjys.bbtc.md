@@ -3,7 +3,7 @@ wsId:
 title: CDEX-Trade Bitcoin & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.xsjys.bbtc
 appCountry: 
@@ -20,7 +20,7 @@ issue:
 icon: com.xsjys.bbtc.png
 bugbounty: 
 meta: ok
-verdict: nosendreceive 
+verdict: nosendreceive
 date: 2023-04-18
 signer: 
 reviewArchive: 

@@ -10,8 +10,8 @@ idd: 1494556510
 released: 2020-04-13
 updated: 2023-04-10
 version: 1.63.0
-stars: 4
-reviews: 2
+stars: 4.3
+reviews: 3
 size: '99691520'
 website: https://btse.com
 repository: 

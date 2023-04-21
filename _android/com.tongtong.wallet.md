@@ -3,7 +3,7 @@ wsId: etomato
 title: 통통지갑 – 내 손안의 블록체인 지갑
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.tongtong.wallet
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: tomatochain
 social:
 - https://www.instagram.com/tomatochain_official/
-- https://t.me/tomatochain_official_Eng 
+- https://t.me/tomatochain_official_Eng
 redirect_from: 
 features: 
 

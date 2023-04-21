@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.digi.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-04
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: digiexchange3

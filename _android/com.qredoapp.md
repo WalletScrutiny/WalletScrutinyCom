@@ -3,7 +3,7 @@ wsId: qredoNetwork
 title: 'Qredo: Signing App'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.qredoapp
 appCountry: 
@@ -24,9 +24,9 @@ verdict: nowallet
 date: 2023-04-11
 signer: 
 reviewArchive: 
-twitter: QredoNetwork 
+twitter: QredoNetwork
 social:
-- https://www.linkedin.com/company/qredo/ 
+- https://www.linkedin.com/company/qredo/
 redirect_from: 
 features: 
 

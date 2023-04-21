@@ -3,7 +3,7 @@ wsId:
 title: 'ZB Pro: Buy BTC, ETH, Luna&GMT'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.zb.global
 appCountry: 

@@ -3,7 +3,7 @@ wsId: excelonGo
 title: Excelon.GO
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.excelon.excelon.go
 appCountry: sa
 idd: '1553611472'
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

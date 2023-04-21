@@ -3,7 +3,7 @@ wsId:
 title: BTCTrade
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: multico.in.btctrade
 appCountry: 

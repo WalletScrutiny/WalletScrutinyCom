@@ -3,7 +3,7 @@ wsId:
 title: World Money Trade
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: world.money.trade.worldmoneytrade
 appCountry: 

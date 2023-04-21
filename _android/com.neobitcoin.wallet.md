@@ -9,9 +9,9 @@ appCountry:
 released: 2020-07-03
 updated: 2020-07-03
 version: 1.0.0
-stars: 1.1
+stars: 1
 ratings: 131
-reviews: 8
+reviews: 7
 size: 
 website: https://neobitcoin.org/
 repository: 

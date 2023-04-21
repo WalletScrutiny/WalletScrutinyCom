@@ -3,7 +3,7 @@ wsId:
 title: Jtechtrade:Crypto & Giftcards
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.walker.jtech
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.instagram.com/jtechtrade
-- https://www.linkedin.com/company/jtech-global-resources-limited 
+- https://www.linkedin.com/company/jtech-global-resources-limited
 redirect_from: 
 features: 
 

@@ -3,7 +3,7 @@ wsId: narkasaExchange
 title: Narkasa
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.narkasa
 appCountry: us
 idd: '1530697327'
@@ -27,7 +27,7 @@ twitter: narkasacom
 social:
 - https://www.facebook.com/narkasacom
 - https://www.instagram.com/narkasacom
-- https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w 
+- https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 features: 
 
 ---

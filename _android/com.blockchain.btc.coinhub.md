@@ -11,7 +11,7 @@ updated: 2023-04-11
 version: 1.2.0.8.2
 stars: 4.4
 ratings: 1577
-reviews: 88
+reviews: 89
 size: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android

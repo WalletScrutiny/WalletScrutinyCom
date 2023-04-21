@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Faucet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: ps.bitcoinfaucet.app
 appCountry: 

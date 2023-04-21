@@ -3,7 +3,7 @@ wsId:
 title: Torque Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.torque.android.torquewallet
 appCountry: 
@@ -14,7 +14,8 @@ stars: 4.2
 ratings: 
 reviews: 13
 size: 
-website: https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
+website: >-
+  https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
 repository: 
 issue: 
 icon: com.torque.android.torquewallet.png

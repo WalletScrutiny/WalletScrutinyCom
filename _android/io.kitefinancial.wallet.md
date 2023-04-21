@@ -3,7 +3,7 @@ wsId: kiteFinancialWallet
 title: Kite Financial  Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.kitefinancial.wallet
 appCountry: 
@@ -28,7 +28,7 @@ twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial
 - https://www.instagram.com/kite_financial
-- https://www.linkedin.com/company/kitefinancial 
+- https://www.linkedin.com/company/kitefinancial
 redirect_from: 
 features: 
 

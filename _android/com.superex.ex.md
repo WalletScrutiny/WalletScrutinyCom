@@ -10,9 +10,9 @@ appCountry:
 released: Mar 23, 2022
 updated: 2023-04-14
 version: 2.6.1
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 206
+reviews: 211
 size: 
 website: https://www.superex.com
 repository: 

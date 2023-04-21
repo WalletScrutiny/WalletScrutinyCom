@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pulsarbank.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 

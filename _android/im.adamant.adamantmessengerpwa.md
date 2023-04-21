@@ -3,7 +3,7 @@ wsId: adamanyMessenger
 title: ADAMANT Messenger
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: im.adamant.adamantmessengerpwa
 appCountry: 
@@ -28,7 +28,7 @@ twitter: adamant_im
 social:
 - https://vk.com/adamant_im
 - https://t.me/adamant_eng
-- https://www.youtube.com/c/ADAMANTMessenger 
+- https://www.youtube.com/c/ADAMANTMessenger
 redirect_from: 
 features: 
 

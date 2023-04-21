@@ -3,13 +3,13 @@ wsId: boxTradexExchange
 title: BOXTradEx
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.plusblocks.boxtradex
 appCountry: 
 released: May 4, 2021
-updated: 2023-04-07
-version: 1.5.15
+updated: 2023-04-19
+version: 1.5.16
 stars: 4.4
 ratings: 
 reviews: 6
@@ -26,11 +26,12 @@ signer:
 reviewArchive: 
 twitter: box_trad
 social:
-- https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA 
+- https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 redirect_from: 
 features: 
 
 ---
+
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.plusblocks.boxtradex)
 
 > BOXTradEx is a one-stop blockchain exchange!

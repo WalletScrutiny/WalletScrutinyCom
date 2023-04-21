@@ -12,7 +12,7 @@ updated: 2023-04-03
 version: 4.6.2
 stars: 3.8
 ratings: 730
-reviews: 226
+reviews: 227
 size: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

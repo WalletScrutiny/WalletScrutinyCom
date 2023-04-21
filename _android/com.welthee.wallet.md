@@ -3,13 +3,13 @@ wsId: weltheeWallet
 title: Welthee Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.welthee.wallet
 appCountry: 
 released: Sep 7, 2021
-updated: 2023-03-29
-version: 4.2.1
+updated: 2023-04-19
+version: 4.3.0
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Welthee
 social:
-- https://www.linkedin.com/company/welthee/ 
+- https://www.linkedin.com/company/welthee/
 redirect_from: 
 features: 
 
