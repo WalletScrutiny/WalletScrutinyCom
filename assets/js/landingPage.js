@@ -8,8 +8,9 @@ window.addEventListener('load', () => {
     params[1].split('&').forEach(item => {
       var kv = item.split('=')
       switch (kv[0]) {
-        case 'verdict': setDropdown("verdict",kv[1]); window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
-        case 'platform': setDropdown("platform",kv[1]); window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
+        case 'verdict': setDropdown("verdict", kv[1]); window.modularSelectedVerdict = kv[1]; updateModularPayload(); break
+        case 'platform': setDropdown("platform", kv[1]); window.modularSelectedPlatform = kv[1]; updateModularPayload(); break
+        case 'page': updatePageinationUI(Number(kv[1].replace("page=", "")) - 1); break;
       }
     })
   }
@@ -19,7 +20,7 @@ window.addEventListener('load', () => {
       const anchor = $(window.location.hash)
       var top = 0
       if (anchor) {
-        top = (anchor.offset() || {top: 0}).top
+        top = (anchor.offset() || { top: 0 }).top
       }
       if (top > 0) {
         $('html, body').animate({
@@ -39,14 +40,12 @@ function setDropdown(parent, child) {
   // TRY / CATCH HERE FOR TESTING PURPOSES
   // DISABLE TRY+CATCH+LOG - ISSUE HAS DISAPPEARED.
   // LIKELY CAUSED BY MODIFYING THE _SITE ASSETS DIRECTLY
-  
-  // try {
-    for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
-    document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
-  // }catch(err){console.log("failed to set dropdown for:", parent, child)}
+
+  for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
+  document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
 }
 
-function updateUrl () {
+function updateUrl(pageZero) {
   if (dontUpdateUrl) {
     return
   }
@@ -58,11 +57,12 @@ function updateUrl () {
   }
   const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "android"
-  window.history.pushState('data', null, `/?verdict=${verdict}&platform=${platform}${hash}`)
+  const page = pageZero ? 0 : (window.pageIndex ? window.pageIndex + 1 : 1)
+  window.history.pushState('data', null, `/?verdict=${verdict}&platform=${platform}${hash}&page=${page}`)
 }
 
 var limit = 10
-function loadMoreApps () {
+function loadMoreApps() {
   // Show the most recent products as badges
   const mostRecent = [].concat(window.wallets)
   mostRecent.sort((a, b) => {
@@ -78,3 +78,5 @@ function loadMoreApps () {
   renderBadgesToDiv(mostRecent.slice(0, limit), document.getElementById('recentPosts'))
   limit *= 2
 }
+
+

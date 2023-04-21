@@ -1,5 +1,6 @@
 window.verdictCount = {}
 
+window.filteredWallets = window.wallets
 window.addEventListener("load", () => {
   const platformNames = Object.keys(window.platforms)
   for (var p in platformNames) {
@@ -10,8 +11,8 @@ window.addEventListener("load", () => {
       window.verdictCount[platform][verdict] = 0
     }
   }
-  for (var w in window.wallets) {
-    const wallet = window.wallets[w]
+  for (var w in window.filteredWallets) {
+    const wallet = window.filteredWallets[w]
     window.verdictCount[wallet.folder][wallet.verdict]++
     window.verdictCount[wallet.folder]["all"]++
   }
@@ -38,15 +39,19 @@ window.addEventListener("load", () => {
 function recreateDropdowns(verdict, platform) {
   if (window.verdictOrder && window.verdictOrder.length > 0 && document.querySelector(".dropdown-verdict")) {
     let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All verdicts</span></div>`
+    let availableFilteredWallets = 0
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
       if (count > 0) {
+        if (verdict === instanceVerdict) { availableFilteredWallets = count>0?`Search ${count} wallet reviews...`:`Search wallet reviews...` }
         html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${count} wallets</small></div>`
       }
       else if (verdict === instanceVerdict) {
+        availableFilteredWallets = `No wallets matched`
         html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
       }
     }
+    document.querySelector('.search-filtered-wallets').setAttribute("placeholder", availableFilteredWallets)
     document.querySelector(".dropdown-verdict").innerHTML = html
   }
 
@@ -77,7 +82,7 @@ for (const target of ["verdict", "platform"]) {
           document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected") })
           document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected") })
         }
-        updateUrl()
+        updateUrl(true)
         updateModularPayload()
         return
       }
@@ -131,7 +136,7 @@ function productCount(verdict, platform) {
   return window.verdictCount[platform][verdict]
 }
 
-function updateModularPayload() {
+function updateModularPayload(page) {
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "android"
   // remove empty verdicts
@@ -156,22 +161,19 @@ function updateModularPayload() {
       break
   }
 
-  var c = 0
   var appIds = []
   var presort = []
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
   const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
-  window.wallets.forEach(obj => {
+  window.filteredWallets.forEach(obj => {
     if (obj.appId && obj.verdict && obj.folder &&
       (verdict === "all" || String(obj.verdict) === verdict) &&
       (platform === "all" || String(obj.folder) === platform)) {
       presort.push(obj)
       appIds.push(obj.appId)
-      c++
     }
   })
   appIds.sort().reverse()
-  // presort = presort.filter(it => it.meta=="ok")
   presort.sort((a, b) => {
     if (a.verdict != b.verdict)
       return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
@@ -187,32 +189,75 @@ function updateModularPayload() {
       return b.reviews - a.reviews
     return 0
   })
-  renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"))
+  page = page ? page : 0
+  renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"), page)
   resizeLabelBold()
   updateUrl()
 }
 
-function renderBadgesToDiv(wallets, anchor) {
+const paginationLimit = 20
+function renderBadgesToDiv(wallets, anchor, page) {
+  page = page ? page : 0
+  const maxPages = Math.ceil(wallets.length / paginationLimit)
   if (!anchor)
     return
-  var badgesHtml = ``
-  let counter = 0
-  wallets.forEach(obj => {
-    badgesHtml += getBadge(obj, counter)
-    counter++
-  })
+  let badgesHtml = ``
+  let pagination = document.createElement("div")
+  let allowedTargets = processAllowedTargetArray(page, maxPages)
+  let gapAdded = false
+  for (let i = 0; i < maxPages; i++) {
+    const clickTarget = document.createElement("div")
+    clickTarget.classList.add("click-target")
+    clickTarget.innerHTML = i + 1
+    clickTarget.addEventListener("click", () => {
+      updatePageinationUI(i)
+    })
+    if (i == page) { clickTarget.classList.add("selected") }
+    if (allowedTargets.indexOf(i) < 0) { clickTarget.style.display = 'none' }
+    if ((allowedTargets[i] + 1 !== allowedTargets[i + 1]) && !gapAdded) {
+      clickTarget.classList.add("major-gap")
+      gapAdded = true
+    }
+    clickTarget.setAttribute("data-index", i)
+    pagination.append(clickTarget)
+  }
+
+  for (let i = 0; i < paginationLimit; i++) {
+    const numb = (page * paginationLimit) + i
+    const instance = wallets[numb]
+    if (!instance) { break }
+    badgesHtml += getBadge(instance, numb)
+  }
   var d = document.createElement("div")
   d.classList.add("page-section")
-  var f = document.createElement("div")
-  f.classList.add("flexi-list")
+  let flexListEle = document.createElement("div")
+  pagination.classList.add("pagination")
+  flexListEle.classList.add("flexi-list")
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
-  f.innerHTML = badgesHtml.length == 0 ? `<h2>No wallets...</h2>` : badgesHtml
+  flexListEle.innerHTML = badgesHtml.length == 0 ? `<h2>No wallets...</h2>` : badgesHtml
   d.append(g)
-  d.append(f)
+  d.append(flexListEle)
+  d.append(pagination)
   anchor.querySelectorAll(".page-section")[0].replaceWith(d)
 }
+function processAllowedTargetArray(page, maxPages) {
+  let allowedTargets = [0, 1, 2, page - 2, page - 1, page, page + 1, page + 2, maxPages - 3, maxPages - 2, maxPages - 1]
+  allowedTargets = [...new Set(allowedTargets)];
+  allowedTargets = allowedTargets.filter(function (numb) { return numb > -1 });
+  return allowedTargets
+}
+function updatePageinationUI(index) {
+  index=index<0?0:index
+  window.pageIndex = index
+  const allTargetEle = document.querySelectorAll(".click-target")
+  for (const target of allTargetEle) { target.classList.remove("selected") }
+  allTargetEle[index].classList.add("selected")
+  updateUrl(true)
+  updateModularPayload(index)
+}
+
 
 function getBadge(wallet, num) {
   const walletId = wallet.folder + String(wallet.appId)
@@ -264,3 +309,20 @@ function getBadge(wallet, num) {
     </div>
   </div>`
 }
+
+function filterWalletsByName() {
+  let searchTerm = document.querySelector(".search-filtered-wallets").value.trim().toUpperCase()
+  if (searchTerm.length < 1) { window.filteredWallets = window.wallets }
+  else {
+    window.filteredWallets = []
+
+    for (const wallet of window.wallets) {
+      if (wallet.title.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+    }
+  }
+  const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
+  const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "android"
+  recreateDropdowns(verdict, platform)
+  updateModularPayload(0)
+}
+document.querySelector(".search-filtered-wallets").addEventListener("input", filterWalletsByName)
