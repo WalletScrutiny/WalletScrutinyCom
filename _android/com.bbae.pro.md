@@ -20,7 +20,7 @@ issue:
 icon: com.bbae.pro.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-04-20
 signer: 
 reviewArchive: 
@@ -30,6 +30,12 @@ redirect_from:
 features: 
 
 ---
+
+## Update 2023-04-21 
+
+They have replied to our email and confirmed that they no longer offer cryptocurrency products.
+
+> We no longer offer cryptocurrency.
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.bbae.pro)
 
