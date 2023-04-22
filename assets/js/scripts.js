@@ -195,7 +195,7 @@ function updateModularPayload(page) {
   updateUrl()
 }
 
-const paginationLimit = 20
+const paginationLimit = 15
 function renderBadgesToDiv(wallets, anchor, page) {
   page = page ? page : 0
   const maxPages = Math.ceil(wallets.length / paginationLimit)
@@ -236,7 +236,7 @@ function renderBadgesToDiv(wallets, anchor, page) {
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
-  flexListEle.innerHTML = badgesHtml.length == 0 ? `<h2>No wallets...</h2>` : badgesHtml
+  flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">No wallets match for "${document.querySelector(".search-filtered-wallets").value}".<br>You can search for wallets by name or description.</p>` : badgesHtml
   d.append(g)
   d.append(flexListEle)
   d.append(pagination)

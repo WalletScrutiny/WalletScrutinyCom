@@ -1,0 +1,6 @@
+{% assign android = site.android %}
+{% assign iphone = site.iphone %}
+{% assign hardware = site.hardware %}
+{% assign posts = android | concat: iphone | concat: hardware %}
+
+{{ posts.size | thousands_separated }}

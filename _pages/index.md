@@ -20,8 +20,8 @@ function lsTest(){
     }
 }
 </script>
-<style>
-</style>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css">
+
 
 <div class="title-wrapper">
 
@@ -39,8 +39,10 @@ function lsTest(){
   <div class="page-section"></div>
 </div>
 
-{% include grid_of_wallets.html %}
-{% include grid_of_wallets_proportional.html %}
+{% include homepage/cta.html %}
+
+{% include homepage/stats.html %}
+
 
 <script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 <script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
