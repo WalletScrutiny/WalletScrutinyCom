@@ -20,7 +20,7 @@ issue:
 icon: com.dantown.Dantownapp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-04-21
 signer: 
 reviewArchive: 
@@ -35,6 +35,12 @@ Note: there are two domains associated with Dantown:
 
 - dantownms.com 
 - godantown.com
+
+## Update 2023-04-22
+
+Dantown replied. Apparently, there is no BRP-20 and it was an error. [(Twitter)](https://twitter.com/godantown/status/1649438834344484864). It was a Bitcoin address that we verified on Blockchair. 
+
+We were not able to access the private keys. Therefore this service is a **custodial** one.
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.dantown.Dantownapp&gl=us) 
 
