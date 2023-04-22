@@ -66,6 +66,8 @@
     width: 100%;
     display: grid;
     align-items: center;
+    max-width: 550px;
+    margin: auto;
     .searchbar {
       font-size: 1rem;
       padding: 5px 10px;
@@ -131,7 +133,7 @@
       display: flex;
       gap: 15px;
       align-items: center;
-      color: var(--masthead-text);
+      color: var(--accent-text);
       padding-left: 10px;
       i {
         display: none;

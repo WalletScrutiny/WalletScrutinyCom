@@ -191,8 +191,17 @@
   position: relative;
   margin-bottom: 100px;
   gap: 50px;
+  @media (max-width: 600px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .text {
-    max-width: 90vw;
+    @media (max-width: 600px) {
+      max-width: 90vw;
+      width: 100%;
+    }
+    max-width: calc(55vw - 50px);
     width: calc((1200px * 0.6) - 50px);
     h2,
     h4 {
@@ -271,6 +280,13 @@
       grid-template: 1fr / 1fr 290px;
       gap: 20px;
       margin-bottom: 20px;
+      @media (max-width: 956px) {
+        display: flex;
+        flex-direction: column;
+      }
+      @media (max-width: 600px) {
+        display: grid;
+      }
       .data {
         h2 {
           margin: 0 0 5px 0;
@@ -322,5 +338,5 @@
   text-align: center;
   width: 100%;
   font-weight: 300;
-  opacity: .6;
+  opacity: 0.6;
 }

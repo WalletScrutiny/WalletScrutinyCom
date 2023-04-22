@@ -62,7 +62,7 @@
   }
 
   a {
-    color: inherit;
+    color: var(--accent-text);
     text-decoration: none;
 
     &:hover {
