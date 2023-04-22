@@ -3,6 +3,7 @@ wsId:
 title: Bitcoin InstaForex
 altTitle: 
 authors: 
+- danny
 users: 5000
 appId: com.instaforex.bitcoin
 appCountry: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404).

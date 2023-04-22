@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: gleecbtc
 title: Gleec Exchange
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 500
 appId: exchange.gleec.com
 appCountry: 
@@ -20,7 +21,7 @@ icon: exchange.gleec.com.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2023-04-03
+date: 2023-04-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,4 +30,5 @@ redirect_from:
 features: 
 
 ---
+{% include copyFromAndroid.html %}
 

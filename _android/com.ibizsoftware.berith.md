@@ -2,7 +2,8 @@
 wsId: 
 title: Berith Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.ibizsoftware.berith
 appCountry: 
@@ -20,13 +21,30 @@ icon: com.ibizsoftware.berith.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-04-22
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: Berith_co
+social:
+- https://www.facebook.com/berithcoin
+- https://t.me/berithcoin 
 redirect_from: 
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Berith Wallet supports almost all cryptocurrencies like Ethereum, Bitcoin, Quantum, NEO and even more!
+>
+> Berith Wallet is safe from hackers and cyber attacks because it is protected by account password, private key, and security code.
+
+## Analysis 
+
+We successfully registered with the service. We were given the private key to the app created with the option to save it to our phone or on the server. [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1649668040399949824/photo/2). However, when it came to generating a BTC address, we received a [server error.](https://twitter.com/BitcoinWalletz/status/1649668040399949824/photo/4) 
+
+On another note, when we were trying to save the private key to the phone, the app did nothing. It only proceeded when we clicked on the option to save on the server. 
+
+Since the private key is provided, and (theoretically) a Bitcoin wallet is present, the next step is to find the source code for the app if it is publicly available. There is no repository that matches the appID of the app.
+
+We'll email them to ask about the status of the Bitcoin wallet, but for now, we'll keep this app as a work-in-progress.
