@@ -186,9 +186,6 @@
         }
       }
       .option {
-        &:not(.no-caps) {
-          text-transform: capitalize;
-        }
         cursor: pointer;
         line-height: 1;
         row-gap: 4px;

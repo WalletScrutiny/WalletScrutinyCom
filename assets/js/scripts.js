@@ -58,7 +58,8 @@ function recreateDropdowns(verdict, platform) {
   if (window.platformObs && window.platformObs.length > 0 && document.querySelector(".dropdown-platform")) {
     let html = ``
     for (const instancePlatform of window.platformObs) {
-      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> <span>${instancePlatform}</span></div>`
+      const instancePlatformText = instancePlatform==='iphone'? 'iPhone':instancePlatform.charAt(0).toUpperCase() + instancePlatform.slice(1)
+      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> <span>${instancePlatformText}</span></div>`
     }
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
