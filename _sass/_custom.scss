@@ -81,10 +81,11 @@
     background-color: var(--shadow-2);
     padding: 3px 6px;
     font-size: 15px;
-    display: block;
+    display: flex;
     aspect-ratio: 1/1;
     flex-shrink: 0;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     &.selected {
       background-color: var(--accent);
       color: var(--body);
