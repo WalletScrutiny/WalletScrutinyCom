@@ -39,9 +39,10 @@ function lsTest(){
   <div class="page-section"></div>
 </div>
 
+{% include homepage/stats.html %}
+
 {% include homepage/cta.html %}
 
-{% include homepage/stats.html %}
 
 
 <script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
