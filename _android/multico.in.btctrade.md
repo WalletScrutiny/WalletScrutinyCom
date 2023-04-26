@@ -2,7 +2,8 @@
 wsId: 
 title: BTCTrade
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: multico.in.btctrade
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: multico.in.btctrade.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer online on Google Play (404).

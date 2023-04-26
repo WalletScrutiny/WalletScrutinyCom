@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.bitex.exchange.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-02-08
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: bitexexch

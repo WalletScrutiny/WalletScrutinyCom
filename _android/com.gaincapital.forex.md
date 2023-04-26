@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: 'FOREX.com: CFD & Forex Trading'
+title: FOREX.com FX & CFD Trading App
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11
-updated: 2023-03-28
-version: '1.134'
+updated: 2023-04-18
+version: '1.137'
 stars: 3.6
 ratings: 392
 reviews: 20

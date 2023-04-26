@@ -2,7 +2,8 @@
 wsId: 
 title: Q-Wallet | Wallet For Ethereum
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: org.qwallet
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: org.qwallet.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-06-22
+verdict: nobtc
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This obsolete app is for Ethereum only and **cannot send/receive Bitcoins**. Its homepage is also offline.

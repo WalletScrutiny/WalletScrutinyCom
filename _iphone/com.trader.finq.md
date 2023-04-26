@@ -11,7 +11,7 @@ released: '2017-09-23T07:21:04Z'
 updated: 2019-12-19
 version: '2.8'
 stars: 2.7
-reviews: 38
+reviews: 37
 size: '103240704'
 website: http://www.finq.com
 repository: 

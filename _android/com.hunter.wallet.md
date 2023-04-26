@@ -3,7 +3,7 @@ wsId:
 title: Hunter Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hunter.wallet
 appCountry: 
 released: Mar 25, 2021

@@ -8,11 +8,11 @@ users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
 released: Sep 25, 2021
-updated: 2023-03-01
-version: 1.4.0
-stars: 3
+updated: 2023-04-12
+version: 1.4.2
+stars: 2.6
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://www.fairdesk.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: Choise.com Buy & earn crypto
+title: 'Сhoise.com: Crypto Wallet. NFT'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 500000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2023-03-14
-version: 3.2.0
+updated: 2023-04-11
+version: 3.3.0
 stars: 3.6
 ratings: 8728
 reviews: 432

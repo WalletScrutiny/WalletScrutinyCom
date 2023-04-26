@@ -7,7 +7,7 @@ users: 10
 appId: com.trade4fastpay.trade4fastpay
 appCountry: 
 released: Oct 15, 2021
-updated: 2023-03-29
+updated: 2023-04-15
 version: 1.0.0
 stars: 
 ratings: 

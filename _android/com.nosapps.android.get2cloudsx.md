@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: get2Coin - Wallet - g2c
+title: get2coin - Wallet - g2c
 altTitle: 
 authors: 
 users: 1000
 appId: com.nosapps.android.get2cloudsx
 appCountry: 
 released: Aug 12, 2020
-updated: 2023-03-31
-version: 1.1.493
+updated: 2023-04-13
+version: 1.1.495
 stars: 3.3
 ratings: 
 reviews: 3
 size: 
-website: http://www.get2clouds.com
+website: https://get2coin.com
 repository: 
 issue: 
 icon: com.nosapps.android.get2cloudsx.png

@@ -8,8 +8,8 @@ users: 100000
 appId: kajesabz.ir.bidarz
 appCountry: IR
 released: 2019-01-16
-updated: 2023-03-02
-version: 4.3.28
+updated: 2023-04-11
+version: 4.4.05
 stars: 4.3
 ratings: 4010
 reviews: 1539

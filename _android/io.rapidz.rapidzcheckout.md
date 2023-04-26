@@ -3,7 +3,7 @@ wsId:
 title: Rapidz Checkout
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.rapidz.rapidzcheckout
 appCountry: 
 released: Jun 6, 2022

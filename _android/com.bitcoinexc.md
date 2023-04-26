@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitcoinexc
 appCountry: 
 released: Sep 1, 2021
-updated: 2022-11-23
+updated: 2023-04-15
 version: '1.12'
-stars: 3.6
+stars: 3.8
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract

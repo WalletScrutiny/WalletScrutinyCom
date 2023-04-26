@@ -3,7 +3,7 @@ wsId:
 title: Kora
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.kora.koracryptowallet
 appCountry: 
 released: May 31, 2022
