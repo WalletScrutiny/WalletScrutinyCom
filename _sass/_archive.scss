@@ -18,8 +18,18 @@
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
+  padding: 0 !important;
+}
+  padding: 2rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  h1{
+    margin-bottom: 40px;
+    text-align: center;
   }
-
+  p, ul, ol{
+    font-weight: 300;
+  }
   a {
     text-decoration: underline;
 
