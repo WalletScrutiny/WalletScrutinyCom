@@ -8,11 +8,11 @@ users: 1000000
 appId: com.cakecodes.bitmaker
 appCountry: us
 released: 2014-09-07
-updated: 2023-02-09
-version: 8.17.5
+updated: 2023-04-03
+version: 8.18.1
 stars: 4.2
 ratings: 84499
-reviews: 3446
+reviews: 3444
 size: 
 website: https://stormx.io/
 repository: 

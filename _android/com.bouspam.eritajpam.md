@@ -7,11 +7,11 @@ users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: Mar 28, 2022
-updated: 2023-02-10
-version: 2.2.0
-stars: 2.7
+updated: 2023-04-19
+version: 2.2.4
+stars: 2.8
 ratings: 
-reviews: 9
+reviews: 12
 size: 
 website: https://bourseechange.net/
 repository: 

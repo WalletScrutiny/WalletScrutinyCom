@@ -8,9 +8,9 @@ users: 5000
 appId: com.keystone.mobile
 appCountry: 
 released: 2021-06-01
-updated: 2023-03-13
-version: 1.3.1
-stars: 3.8
+updated: 2023-04-17
+version: 1.3.3
+stars: 3.6
 ratings: 
 reviews: 5
 size: 

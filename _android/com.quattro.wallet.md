@@ -3,7 +3,7 @@ wsId:
 title: QWallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.quattro.wallet
 appCountry: 
 released: Jul 12, 2021

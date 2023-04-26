@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitni.androidapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-12-17
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

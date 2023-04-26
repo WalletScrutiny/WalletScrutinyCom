@@ -3,12 +3,12 @@ wsId:
 title: Rapidz Checkout
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.rapidz.rapidzcheckout
 appCountry: 
 released: Jun 6, 2022
-updated: 2023-02-21
-version: 1.2.1
+updated: 2023-03-14
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xbank247.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

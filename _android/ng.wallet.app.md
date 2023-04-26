@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: Wallets Africa - Seamless Digi
+title: Wallets - for daily payments
 altTitle: 
 authors:
 - kiwilamb
@@ -11,9 +11,9 @@ appCountry:
 released: 2017-06-22
 updated: 2021-09-04
 version: '2.480'
-stars: 2.7
+stars: 2.6
 ratings: 2049
-reviews: 115
+reviews: 116
 size: 
 website: https://wallets.africa
 repository: 

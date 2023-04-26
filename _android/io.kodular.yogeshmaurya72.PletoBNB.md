@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 

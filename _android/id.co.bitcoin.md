@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: Indodax Crypto Asset & Bitcoin
+title: Indodax Buy Sell Crypto Assets
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2023-03-15
-version: 4.5.5
-stars: 4.4
+updated: 2023-04-18
+version: 5.0.3
+stars: 4.3
 ratings: 97568
-reviews: 447
+reviews: 450
 size: 
 website: http://indodax.com
 repository: 

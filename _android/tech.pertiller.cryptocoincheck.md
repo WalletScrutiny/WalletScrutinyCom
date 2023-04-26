@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: cryptoCoinCheck
 title: Crypto Coin Check
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: tech.pertiller.cryptocoincheck
 appCountry: 
@@ -19,11 +20,11 @@ issue:
 icon: tech.pertiller.cryptocoincheck.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-11-02
+verdict: nowallet
+date: 2023-04-18
 signer: 
 reviewArchive: 
-twitter: 
+twitter: BitcoinMonitor1
 social: 
 redirect_from: 
 developerName: David Pertiller
@@ -31,3 +32,10 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> Get a broad insight into the cryptocurrency markets for Bitcoin, Ethereum, Ripple, Cardano, Solana, Litecoin, Stellar, Bitcoin Cash, EOS, IOTA, Dash & more.
+
+## Analysis
+
+This app does not have a bitcoin wallet.

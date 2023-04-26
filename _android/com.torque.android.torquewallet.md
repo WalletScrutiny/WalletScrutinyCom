@@ -2,7 +2,8 @@
 wsId: 
 title: Torque Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.torque.android.torquewallet
 appCountry: 
@@ -13,14 +14,15 @@ stars: 4.2
 ratings: 
 reviews: 13
 size: 
-website: https://torque.asia/
+website: >-
+  https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
 repository: 
 issue: 
 icon: com.torque.android.torquewallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-01-27
+date: 2023-04-12
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +33,8 @@ features:
 
 ---
 
+## App Description 
+
+A cryptocurrency app whose company has gone into [liquidation proceedings](https://www.eccourts.org/philip-smith-v-torque-group-holdings-limited-et-al/).
+
+The homepage is no longer online and its social media accounts has been scrubbed. We were not able to register an account as it returned an error '402'.

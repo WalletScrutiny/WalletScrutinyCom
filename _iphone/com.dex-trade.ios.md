@@ -8,8 +8,8 @@ appId: com.dex-trade.ios
 appCountry: us
 idd: 1496672790
 released: 2020-01-28
-updated: 2022-12-13
-version: 2.1.7
+updated: 2023-03-31
+version: 2.1.8
 stars: 3.3
 reviews: 6
 size: '8896512'

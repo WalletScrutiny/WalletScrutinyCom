@@ -3,7 +3,7 @@ wsId:
 title: Crypto Engine
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.wCryptoEngine_15484990
 appCountry: 
 released: May 5, 2022

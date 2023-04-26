@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.u8ex.app22.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: 

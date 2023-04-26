@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ch.cointract.cryptmonnaie.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-02-20
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

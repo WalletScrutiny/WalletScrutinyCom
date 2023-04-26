@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AfrBTC:Sell gift cards
+title: AfrBTC:Sell Gift Cards& Redeem
 altTitle: 
 authors: 
 users: 50000

@@ -12,16 +12,16 @@ released: 2020-06-08
 updated: 2023-02-09
 version: 1.4.7
 stars: 4.9
-reviews: 516
+reviews: 513
 size: '86676480'
 website: https://www.koinal.io
 repository: 
 issue: 
 icon: com.koinal.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-09-03
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: koinal_io

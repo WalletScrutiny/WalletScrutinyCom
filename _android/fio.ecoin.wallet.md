@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-23
+date: 2023-04-06
 signer: 
 reviewArchive:
 - date: 2021-09-03

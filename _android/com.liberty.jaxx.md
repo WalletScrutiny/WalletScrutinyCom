@@ -10,18 +10,18 @@ appCountry:
 released: 2018-09-01
 updated: 2022-06-15
 version: 3.0.0
-stars: 3.8
+stars: 3.7
 ratings: 5474
-reviews: 426
+reviews: 428
 size: 
 website: https://jaxx.io
 repository: 
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2019-11-02
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: jaxx_io

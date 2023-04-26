@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Tokero
+title: TOKERO
 altTitle: 
 authors: 
 users: 5000
 appId: com.ldvtech.tokero
 appCountry: 
 released: Jun 2, 2021
-updated: 2023-02-17
-version: 4.0.1
+updated: 2023-04-04
+version: 4.0.3
 stars: 
 ratings: 
 reviews: 

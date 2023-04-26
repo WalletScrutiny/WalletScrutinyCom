@@ -2,13 +2,14 @@
 wsId: 
 title: WeToken
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: io.wetoken2.app
 appCountry: 
 released: Nov 15, 2021
-updated: 2022-06-07
-version: 1.8.3
+updated: 2023-02-21
+version: 1.8.4
 stars: 3
 ratings: 
 reviews: 3
@@ -19,15 +20,39 @@ issue:
 icon: io.wetoken2.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nobtc
+date: 2023-04-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: wetokenpro
+social:
+- https://www.facebook.com/WetokenPro
+- https://www.reddit.com/user/WeTokenPay
+- https://t.me/WeToken_English
 redirect_from: 
 developerName: 
 features: 
 
 ---
+
+⚠️ Note: The 'download iOS app' image links to a different domain, funtoken.top, which is currently offline. 
+
+⚠️ Warning: A search for the domain name plus the word 'scam', nets some allegations.
+
+We were also not able to find an iOS counterpart, despite the logo on the site making it appear that it does.
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=io.wetoken2.app&gl=us) 
+
+The app is described as a multi-wallet app that supports mnemonic restoration. It supports:
+
+- ETH 
+- BSC 
+- HECO 
+- TRON
+- OKEX
+
+## Analysis 
+
+We were not able to find a BTC wallet. 
+
 

@@ -4,7 +4,7 @@ title: ProfitTradingApp for FTX
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25

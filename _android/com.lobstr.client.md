@@ -4,15 +4,15 @@ title: LOBSTR Wallet. Buy Stellar XLM
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.lobstr.client
 appCountry: us
 released: 2015-04-27
-updated: 2023-03-10
-version: 9.3.0
-stars: 4.6
+updated: 2023-04-06
+version: 9.3.3
+stars: 4.7
 ratings: 11618
-reviews: 1645
+reviews: 1693
 size: 
 website: https://lobstr.co/
 repository: 

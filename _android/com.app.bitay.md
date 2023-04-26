@@ -8,8 +8,8 @@ users: 100000
 appId: com.app.bitay
 appCountry: us
 released: 2019-04-15
-updated: 2023-03-06
-version: 3.1.19
+updated: 2023-04-07
+version: 3.1.20
 stars: 4.1
 ratings: 5765
 reviews: 17

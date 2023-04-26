@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.credtech.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-08
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

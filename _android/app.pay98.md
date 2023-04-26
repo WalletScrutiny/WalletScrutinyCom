@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.pay98.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-11-02
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 

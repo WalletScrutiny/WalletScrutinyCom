@@ -9,7 +9,7 @@ users: 1000
 appId: it.inbitcoin.altana
 appCountry: 
 released: 2017-04-18
-updated: 2023-02-07
+updated: 2023-04-18
 version: VARY
 stars: 
 ratings: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Zumo: Buy Bitcoin & Ether'
+title: 'Zumo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000
 appId: com.zumopay.core
 appCountry: 
 released: 2019-10-28
-updated: 2023-01-25
-version: 4.5.2
+updated: 2023-04-05
+version: 5.0.1
 stars: 
 ratings: 
 reviews: 

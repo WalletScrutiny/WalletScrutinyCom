@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.spectre.magneticmoney.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-05
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 

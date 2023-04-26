@@ -12,16 +12,16 @@ updated: 2021-04-05
 version: 1.0.6
 stars: 2.1
 ratings: 214
-reviews: 155
+reviews: 158
 size: 
 website: https://instantcoins.ng
 repository: 
 issue: 
 icon: com.instantcoins.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2022-04-01
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: instantcoins_ng

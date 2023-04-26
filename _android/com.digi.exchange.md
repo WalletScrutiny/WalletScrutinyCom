@@ -10,18 +10,18 @@ appCountry:
 released: 2019-03-11
 updated: 2022-04-24
 version: 1.1.7
-stars: 4.4
+stars: 4.3
 ratings: 265
-reviews: 10
+reviews: 11
 size: 
 website: https://digiexchange.net/
 repository: 
 issue: 
 icon: com.digi.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-04
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: digiexchange3

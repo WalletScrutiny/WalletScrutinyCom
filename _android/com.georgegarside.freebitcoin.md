@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-30
 updated: 2021-05-25
 version: 3.1.1
-stars: 3
+stars: 2.9
 ratings: 129
-reviews: 10
+reviews: 11
 size: 
 website: https://georgegarside.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-25
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: bit2me

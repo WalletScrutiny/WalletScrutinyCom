@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ru.borik.cryptomarket.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-03-28
+date: 2023-03-23
 signer: 
 reviewArchive: 
 twitter: 

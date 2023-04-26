@@ -8,11 +8,11 @@ users: 100000
 appId: roseon.finance
 appCountry: vn
 released: 2021-03-16
-updated: 2023-03-08
-version: 2.4.2
+updated: 2023-04-13
+version: 2.4.8
 stars: 4.6
 ratings: 578
-reviews: 62
+reviews: 64
 size: 
 website: http://roseon.world
 repository: 

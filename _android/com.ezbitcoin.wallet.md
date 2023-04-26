@@ -3,7 +3,7 @@ wsId:
 title: EZ Bitcoin
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.ezbitcoin.wallet
 appCountry: 
 released: Oct 9, 2019

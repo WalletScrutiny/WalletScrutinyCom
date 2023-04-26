@@ -8,11 +8,11 @@ users: 10000
 appId: com.delio.deliohybrid
 appCountry: cn
 released: 2020-02-27
-updated: 2023-03-13
-version: 1.4.3
-stars: 2.8
+updated: 2023-03-16
+version: 1.4.4
+stars: 3.1
 ratings: 48
-reviews: 52
+reviews: 62
 size: 
 website: https://www.delio.foundation
 repository: 

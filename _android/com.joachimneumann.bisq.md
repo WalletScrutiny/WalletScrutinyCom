@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bisqMobileNotifications
 title: Bisq Notifications
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.joachimneumann.bisq
 appCountry: 
@@ -14,20 +15,28 @@ ratings: 69
 reviews: 15
 size: 
 website: https://bisq.network/mobile-notifications
-repository: 
+repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: com.joachimneumann.bisq.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-01
+verdict: nowallet
+date: 2023-04-07
 signer: 
 reviewArchive: 
-twitter: 
+twitter: devinbileck
 social: 
 redirect_from: 
 developerName: Devin Bileck
 features: 
 
 ---
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.joachimneumann.bisq) 
+
+> Since Bisq is a desktop-based application, this app enables you to receive important notifications such as trade updates and offer alerts when you are not near your computer.
+
+## Analysis 
+
+We downloaded both the Bisq desktop software and this [app](https://twitter.com/BitcoinWalletz/status/1644225454768021504). We were given a QR code on the mobile app to pair with the desktop software. Since there is no "Scan QR code" option on Bisq desktop, we converted the QR into string. We then inputted the string on the desktop software and successfully paired the {{ page.title }} with the desktop software. As the app description states, it's a mobile notification app, nothing more and nothing less. It does **not have a bitcoin wallet**. 
 

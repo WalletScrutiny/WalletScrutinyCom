@@ -125,12 +125,13 @@ function add (appIds) {
 
   appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    if (!fs.existsSync(path)) {
-      const header = helper.getEmptyHeader(headers)
-      header.appId = appId
-      header.verdict = 'wip'
-      refreshFile(`${appId}.md`, { header: header, body: '' })
-    }
+    fs.access(path)
+      .catch(() => {
+        const header = helper.getEmptyHeader(headers)
+        header.appId = appId
+        header.verdict = 'wip'
+        refreshFile(`${appId}.md`, { header: header, body: '' })
+      })
   })
 }
 
@@ -139,9 +140,10 @@ function update (appIds) {
 
   appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    if (fs.existsSync(path)) {
-      refreshFile(`${appId}.md`)
-    }
+    fs.access(path)
+      .then(() => {
+        refreshFile(`${appId}.md`)
+      })
   })
 }
 

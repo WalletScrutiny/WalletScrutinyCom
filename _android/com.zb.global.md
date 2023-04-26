@@ -2,7 +2,8 @@
 wsId: 
 title: 'ZB Pro: Buy BTC, ETH, Luna&GMT'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.zb.global
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.zb.global.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,4 @@ features:
 
 ---
 
+This app no longer exists on Google Play (404).

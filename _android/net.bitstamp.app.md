@@ -1,6 +1,6 @@
 ---
 wsId: Bitstamp
-title: 'Bitstamp: Buy Bitcoin & Crypto'
+title: 'Bitstamp Pro: Trade Crypto BTC'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
-updated: 2023-03-03
-version: '3.11'
-stars: 3.7
+updated: 2023-04-05
+version: 3.12.1
+stars: 3.8
 ratings: 11088
-reviews: 586
+reviews: 594
 size: 
 website: https://www.bitstamp.net
 repository: 

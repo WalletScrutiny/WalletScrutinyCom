@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.unime.securesms.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

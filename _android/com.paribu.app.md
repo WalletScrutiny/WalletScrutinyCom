@@ -4,15 +4,15 @@ title: Paribu | Bitcoin - Kripto Para
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.paribu.app
 appCountry: 
 released: 2019-06-14
-updated: 2023-01-12
-version: 3.4.5
-stars: 3
+updated: 2023-04-10
+version: 4.0.3
+stars: 2.5
 ratings: 73042
-reviews: 82
+reviews: 88
 size: 
 website: https://www.paribu.com
 repository: 

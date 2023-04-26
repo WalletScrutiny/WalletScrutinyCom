@@ -10,9 +10,9 @@ appCountry: ca
 released: 2019-10-15
 updated: 2023-02-21
 version: 4.2.1
-stars: 3.2
+stars: 3
 ratings: 1381
-reviews: 827
+reviews: 873
 size: 
 website: https://bitbuy.ca/
 repository: 

@@ -8,11 +8,11 @@ users: 500000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2023-03-16
-version: 3.1.01
-stars: 4.2
+updated: 2023-04-11
+version: 3.1.03
+stars: 4.1
 ratings: 22977
-reviews: 42
+reviews: 43
 size: 
 website: https://www.rekeningku.com
 repository: 

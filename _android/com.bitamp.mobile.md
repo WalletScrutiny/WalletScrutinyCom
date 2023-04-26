@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitamp.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-04-23
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 

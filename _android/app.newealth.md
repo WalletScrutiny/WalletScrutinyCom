@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.newealth.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 

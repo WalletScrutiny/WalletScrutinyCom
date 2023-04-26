@@ -1,5 +1,5 @@
 ---
-wsId: LMAX
+wsId: LMAXDigital
 title: LMAX Digital Trading
 altTitle: 
 authors:
@@ -8,8 +8,8 @@ users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
 appCountry: gb
 released: 2018-05-18
-updated: 2023-01-18
-version: 4.4.177
+updated: 2023-03-24
+version: 4.4.195
 stars: 4.2
 ratings: 27
 reviews: 2
@@ -20,8 +20,8 @@ issue:
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
 meta: ok
-verdict: nosendreceive
-date: 2021-11-10
+verdict: custodial
+date: 2023-04-04
 signer: 
 reviewArchive: 
 twitter: LMAX
@@ -32,6 +32,43 @@ developerName: LMAX DIGITAL EXCHANGE LIMITED
 features: 
 
 ---
+
+## Updated Analysis 2023-04-04
+
+LMAX Digital is a part of the LMAX Group. The app is linked [here.](https://www.lmaxdigital.com/trading/)
+
+> LMAX Digital is a trading name of LMAX Digital Broker Limited, authorised and regulated by the Gibraltar Financial Services Commission (license number FSC1342B) and is a company registered in Gibraltar (number 117528). LMAX Digital is part of the LMAX Group, whose registered address is Yellow Building, 1A Nicholas Road, London W11 4AN.
+
+### Description from the LMAX Digital [homepage](https://www.lmaxdigital.com/overview/)
+
+> LMAX Digital is the institutional crypto currency exchange, operated by LMAX Group.
+>
+> Leveraging LMAX Group proven, robust technology and liquidity relationships, LMAX Digital delivers a market-leading solution for physical trading and custodial services for the most liquid crypto currencies – such as BTC (Bitcoin), ETH (Ethereum), LTC (Litecoin), BCH (Bitcoin Cash), XRP (Ripple) and SOL (Solana).
+
+## Updated Verdict 
+
+Based on information from lmaxdigital.com, it is possible to send and receive BTC from the app. However, it is **custodial** as described in the [Terms of Business:](https://www.lmaxdigital.com/documents/LMAXDigital-Terms-of-Business.pdf) 
+
+> **Funding your LMAX Digital Account.** 
+> 
+> In order to complete an order, you must first deposit funds in to your LMAX Digital Account. You may be required to verify that the bank account or digital wallet that you use to deposit funds from belongs to you. You may be charged fees
+by your bank or digital wallet provider. LMAX Digital is not responsible for any such fees.
+>
+> **11.2 About Funds Held in Your LMAX Digital Account.** Proceeds from the sale of Digital Currency will be credited to your LMAX Digital Account, less any transactional or other fees.
+>
+> **11.3 Rejected Transactions**. In some cases, your bank or digital wallet provider may reject the funds or Digital Currency that we send to it. You agree that you will not hold LMAX Digital liable for any damages resulting from such rejected transactions.
+>
+> **11.4 Digital Currency Trades.** LMAX Digital cannot reverse a Digital Currency Contract which has been broadcast to a Digital Currency network. You cannot cancel, reverse, or amend any transaction marked as complete or pending.
+>
+> **11.5 Digital Currency Storage.** LMAX Digital securely stores all Digital Currency private keys in our control in a combination of online and offline storage. It may therefore be necessary for LMAX Digital to retrieve certain information from offline storage in order to facilitate a withdrawal in accordance with your instructions. You acknowledge and agree that a withdrawal facilitated by LMAX Digital may be delayed as a result.
+>
+> **12.6 Withdrawal of Digital Currencies.** We may also request additional information from time to time to verify the wallet details, the identity of the wallet holder and the destination of transfer before we process a request to withdraw Digital Currencies. Settlement of Digital Currencies to your wallet may take up to three business days from the date when your withdrawal request has been processed by us.
+
+## Previous Analysis
+
+### Note
+
+It's unclear how exactly this app is related to LMAX, as it isn't linked on the website. The official site links to a different app: {% include walletLink.html wallet='android/com.mobiletradingpartners.lmax' verdict='true' %}. Both apps have different [Google](https://play.google.com/store/apps/developer?id=LMAX+BROKER+LIMITED) [Play](https://play.google.com/store/apps/developer?id=LMAX+DIGITAL+EXCHANGE+LIMITED) developers.
 
 ## App Description
 

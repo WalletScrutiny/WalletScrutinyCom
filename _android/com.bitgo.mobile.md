@@ -3,7 +3,7 @@ wsId:
 title: BitGo
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.bitgo.mobile
 appCountry: 
 released: Apr 15, 2022

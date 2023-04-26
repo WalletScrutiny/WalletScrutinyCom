@@ -8,8 +8,8 @@ users: 10000
 appId: com.xrex.mobile
 appCountry: au
 released: 2020-02-20
-updated: 2023-03-09
-version: 2.0.502
+updated: 2023-04-19
+version: 2.0.534
 stars: 
 ratings: 
 reviews: 

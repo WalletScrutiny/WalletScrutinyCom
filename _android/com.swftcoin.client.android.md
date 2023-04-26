@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2020-04-15
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: SwftCoin

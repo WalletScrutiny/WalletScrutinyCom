@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fibermode.mode.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-04
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: modeapp_

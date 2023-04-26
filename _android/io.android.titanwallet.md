@@ -7,8 +7,8 @@ users: 1000
 appId: io.android.titanwallet
 appCountry: 
 released: May 7, 2022
-updated: 2023-02-04
-version: 1.0.4
+updated: 2023-03-28
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

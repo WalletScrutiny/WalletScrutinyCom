@@ -10,9 +10,9 @@ appCountry:
 released: Sep 1, 2021
 updated: 2023-03-01
 version: 2.1.2
-stars: 4.9
+stars: 4.8
 ratings: 
-reviews: 105
+reviews: 96
 size: 
 website: https://coincred.org/
 repository: 

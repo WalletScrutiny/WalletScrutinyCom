@@ -3,7 +3,7 @@ wsId:
 title: KoinKoin Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.koinkoin
 appCountry: 
 released: Feb 22, 2021

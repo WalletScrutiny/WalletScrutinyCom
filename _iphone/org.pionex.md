@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.pionex.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-03
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

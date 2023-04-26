@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quasarwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 

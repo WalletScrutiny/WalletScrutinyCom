@@ -1,6 +1,6 @@
 ---
 wsId: Raido
-title: 'Multifunctional crypto wallet '
+title: Crypto wallet - Raido
 altTitle: 
 authors:
 - danny

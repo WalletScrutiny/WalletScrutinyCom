@@ -3,7 +3,7 @@ wsId:
 title: Bittrade
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.app.bittrade
 appCountry: 
 released: Feb 28, 2022

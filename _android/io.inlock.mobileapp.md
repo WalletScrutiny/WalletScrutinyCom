@@ -8,8 +8,8 @@ users: 1000
 appId: io.inlock.mobileapp
 appCountry: us
 released: 2020-08-04
-updated: 2022-11-08
-version: 2.1.0
+updated: 2023-04-01
+version: 2.1.1
 stars: 3.9
 ratings: 108
 reviews: 6
