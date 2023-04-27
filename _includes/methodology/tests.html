@@ -1,1 +1,107 @@
-tests
+{%- assign fixedGrouping = "hardware,iphone|android,bearer" | split: "," -%}
+
+
+<div class="test-subcat">
+  <h3>Looking for tests we run on <span class="others">other wallet types</span>?</h3>
+  <p>Choose a different subcategory.</p>
+  <div title="Test Categories" class="component component-test-categories">
+    <div class="dropdown-options dropdown-test-categories">
+      {% for key in fixedGrouping %}
+      {% case key %}
+      {% when 'hardware' %}
+      <div class="option hardware" data="hardware wallets" data-id="{{key}}"><i class="fas fa-toolbox"></i>
+        <span>Hardware</span></div>
+      {% when 'bearer' %}
+      <div class="option bearer" data="bearer tokens" data-id="{{key}}"><i class="i-btc"></i> <span>Bearer</span></div>
+      {% when 'iphone|android' %}
+      <div class="option selected mobile-wallet-apps" data="mobile wallet apps" data-id="{{key}}"><i
+          class="i-device"></i> <span>Mobile Wallet Apps</span></div>
+      {% else %}
+      <div class="option category-{{key}}" data="{{key}}" data-id="{{key}}"><i class="fas fa-circle"></i>
+        <span>{{key}}</span></div>
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="methodology-container">
+  {% for key in fixedGrouping %}
+  {% assign verdicts = "" | split: ',' %}
+  {% assign metas = "" | split: ',' %}
+
+  {% case key %}
+  {% when 'iphone|android' %}
+  {% assign description = site.data.platformMeta.iphone.description | replace_first: "Apple App Store", "Apple App Store and Google Play Store" %}
+  {% else %}
+  {% assign description = site.data.platformMeta[key].description %}
+  {% endcase %}
+
+  {%- assign obj = key | split: "|" -%}
+  {% for category in obj %}
+  {% assign verdicts = verdicts | concat: site.data.platformMeta[category].verdicts %}
+  {% assign metas = metas | concat: site.data.platformMeta[category].metas %}
+  {% endfor %}
+
+
+
+  {% if verdicts.size != 0 %}
+  {% assign verdicts = verdicts | uniq %}
+  <div class="methodology-item {{item}}" data-id="{{key}}">
+
+  <div class="info">
+    {{description | markdownify}}
+  </div>
+
+  <h2>We answer the following questions usually in this order:</h2>
+
+    {% for ver in verdicts %}
+    {% include verdictMethodology.html verdict=ver %}
+    {% endfor %}
+    {% if metas.size != 0 %}
+    {% assign metas = metas | uniq %}
+      <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+      {% for meta in metas %}
+      {% include verdictMethodology.html verdict=meta %}
+      {% endfor %}
+    {% endif %}
+</div>
+  {% endif %}
+  {% endfor %}
+
+</div>
+
+<script>
+  for (const accordion of document.querySelectorAll(".verdictMethodology")) {
+    accordion.setAttribute("data-dropdown-open", "false")
+    accordion.addEventListener("click", (event) => { event.target.setAttribute("data-dropdown-open", "true") })
+    accordion.querySelector(".verdict-methodology-head").addEventListener("click", (event) => { event.target.parentNode.setAttribute("data-dropdown-open", "false") }, false)
+  }
+  addDropdownEvents("test-categories", () => { processSelectedSubcategory() })
+
+  if (window.testSubcat) {
+    for (const option of document.querySelectorAll(".dropdown-test-categories .option")) {
+      if (option.getAttribute("data-id") === window.testSubcat) {
+        document.querySelector(".dropdown-test-categories .selected").classList.remove("selected")
+        option.classList.add("selected")
+        break
+      }
+    }
+  } else {
+    window.testSubcat = "iphone|android"
+  }
+
+  function processSelectedSubcategory() {
+    const current = document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
+    let unused = ``
+    for (const option of document.querySelectorAll(".dropdown-options .option")) {
+      if (!option.classList.contains('selected')) { unused += `, ${option.getAttribute("data")}` }
+    }
+    document.querySelector(".test-subcat .others").innerHTML = unused.substring(2)
+    for (const method of document.querySelectorAll(".methodology-item")) {
+      if (method.getAttribute("data-id") !== current) { method.classList.remove('active') }
+      else { method.classList.add('active') }
+    }
+    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}`)
+  }
+</script>

@@ -1,0 +1,978 @@
+<div class="archive">
+  <h1 class="page__title">Methodology</h1>
+  <p>We concentrate on a tiny aspect of wallet security and to better understand
+    what we do and do not do, this page explains the rough process of how we work.</p>
+
+  <h2 id="what-we-do">What we do</h2>
+
+  <p>To put it dramatically, we search for the obvious potential to empty all the wallets
+    of all the users at once. Could the provider of the wallet, with enough criminal
+    energy, defraud all its users at once, without this being possible to be
+    detected before it is
+    too late? (If he could in theory, then a sufficiently motivated criminal could
+    also put him under duress to steal your funds or manipulate him into stealing
+    your coins with social engineering or with a backdoor.)</p>
+
+  <p>This horror scenario is possible whenever the provider can obtain a copy of the wallet
+    backup and thus access all the users’ funds at once. He could collect the
+    backups and once the amount of coins he could access stops growing, empty all
+    the wallets in one big transaction. This form of scam got known as <a
+      href="https://medium.com/@michaelflaxman/how-should-i-store-my-bitcoin-43874ac208e4">“retirement
+      attack”</a>.</p>
+
+  <p>Seeing that some wallets have millions of users, it is plausible to assume that
+    some wallets manage billions of dollars. This would be a huge incentive for criminally
+    inclined employees, even if the wallet was not set up to scam its users from the
+    start, which probably is the case for some wallets, too.</p>
+
+  <h2 id="what-we-do-not-do">What we do not do</h2>
+
+  <ul>
+    <li><strong><span id="noAudit">We do not</span></strong> provide a security audit of the wallet.
+      The empty row “Audited?” on <a href="/">the landing page</a> is merely to emphasize
+      this fact. As any public source wallet gets potentially audited all the time
+      and paid audits certainly help the team to improve their product, those audits
+      do not help prevent exit scams or most other ways where all users lose all
+      their funds at once, which we are mainly focused on.</li>
+    <li><strong><span id="foss">We do not</span></strong> care about licenses as long as all the
+      source is public.
+      Advocates of <a href="https://opensource.org/osd">Free and Open Source Software (FOSS)</a>
+      argue that a permissive license has security benefits as it allows other
+      projects to use the code, which then results in more developers caring about
+      the auditability and security of that code. As we strongly agree with this
+      view, we hope to expand to cover licenses in the future, too.</li>
+    <li><strong>We do not</strong> endorse the security of any wallet.</li>
+    <li><strong>We do not</strong> guarantee that your version of the wallet is verified to match
+      the public code or the version that we investigated. A tool for that is under
+      development. If version 3.4.5 of your wallet is reproducible according to us
+      then you might still have received a different version 3.4.5 than the one we
+      reviewed. For example Google lets the developers slice the market by country,
+      device brand
+      and even individual users. You would have to compare the fingerprint of the
+      binary on your device with the one reported here. For hardware wallets it’s even
+      harder to make general statements about the device you hold in hands.</li>
+  </ul>
+
+  <h2 id="our-manual-review-goes-as-follows">Our manual review goes as follows:</h2>
+
+  <p>We take the perspective of a <strong>curious potential user</strong> of the respective product.
+    We take all information from publicly available sources as we do not assume that
+    potential users would sign NDAs prior to using a wallet. We also do not consider
+    hard to find information. Our verdict therefore is based on what we can find
+    within a <em>few clicks</em> from the product’s description. We occasionally search
+    GitHub for the identifiers but without endorsement from the official website,
+    any repository we find this way is not very promising to provide reproducible
+    builds but we are happy to leave an issue on a source code repository about our
+    findings.</p>
+
+  <p>We answer the following questions usually in this order:</p>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Did we get to a conclusion on the verdict of this product yet?</h2>
+      <div class="badge"><a id="wip" href="/methodology/#wip" class="stamp in-article wip"><span class="stamp-wip"
+            data-text="Development" title="Click or tap here to learn more about this verdict"></span>&nbsp;<i
+            class="diy-info-circle"></i></a> </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Under development</strong>".
+
+    <div class="details">
+      <p>This product still needs to be evaluated some more. We only gathered name, logo and maybe some more details but
+        we have not yet come to a conclusion what to make of this product.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is this product the original?</h2>
+      <div class="badge"><a id="fake" href="/methodology/#fake" class="stamp in-article fake"><span class="stamp-fake"
+            data-text="Fake!" title="Click or tap here to learn more about this verdict"></span>&nbsp;<i
+            class="diy-info-circle"></i></a> </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Fake</strong>".
+
+    <div class="details">
+      <p>The bigger wallets often get imitated by scammers that abuse the reputation of the product by imitating its
+        name, logo or both.</p>
+      <div class="alertBox">
+        <div>
+          <p>Imitating a competitor is a huge red flag and we urge you to not put any money into this product!</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Can we expect the product to ever be released?</h2>
+      <div class="badge"><a id="vapor" href="/methodology/#vapor" class="stamp in-article vapor"><span
+            class="stamp-vapor" data-text="Vaporware!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Announced but never delivered</strong>".
+
+    <div class="details">
+      <p>Some products are promoted with great fund raising, marketing and ICOs, to disappear from one day to the other
+        a week later or they are one-man side projects that get refined for months or even years to still never
+        materialize in an actual product. Regardless, those are projects we consider “vaporware”.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is this product available yet?</h2>
+      <div class="badge"><a id="unreleased" href="/methodology/#unreleased" class="stamp in-article unreleased"><span
+            class="stamp-unreleased" data-text="Un-Released!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Un-Released</strong>".
+
+    <div class="details">
+      <p>We focus on products that have the biggest impact if things go wrong and while pre-sales sometimes reach many
+        thousands to buy into promises that never materialize, the damage is limited and there would be little definite
+        to be said about an unreleased product anyway.</p>
+
+      <p>If you find a product in this category that was released meanwhile, please contact us to do a proper review!
+      </p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Do many people use this product?</h2>
+      <div class="badge"><a id="fewusers" href="/methodology/#fewusers" class="stamp in-article fewusers"><span
+            class="stamp-fewusers" data-text="Few Users"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Few users</strong>".
+
+    <div class="details">
+      <p>We focus on products that have the biggest impact if things go wrong and this one probably doesn’t have many
+        users according to data publicly available.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is it a wallet?</h2>
+      <div class="badge"><a id="nowallet" href="/methodology/#nowallet" class="stamp in-article nowallet"><span
+            class="stamp-nowallet" data-text="No Wallet"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Not a wallet</strong>".
+
+    <div class="details">
+      <p>If it’s called “wallet” but is actually only a portfolio tracker, we don’t look any deeper, assuming it is not
+        meant to control funds. What has no funds, can’t lose your coins. <em>It might still leak your financial
+          history!</em></p>
+
+      <p>If you can buy Bitcoins with this app but only into another wallet, it’s not a wallet itself.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is it for bitcoins?</h2>
+      <div class="badge"><a id="nobtc" href="/methodology/#nobtc" class="stamp in-article nobtc"><span
+            class="stamp-nobtc" data-text="No BTC"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>A wallet but not for Bitcoin</strong>".
+
+    <div class="details">
+      <p>At this point we only look into wallets that at least also support BTC.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Can it send and receive bitcoins?</h2>
+      <div class="badge"><a id="nosendreceive" href="/methodology/#nosendreceive"
+          class="stamp in-article nosendreceive"><span class="stamp-nosendreceive" data-text="No send/receive!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Can't send or receive bitcoins</strong>".
+
+    <div class="details">
+      <p>If it is for holding BTC but you can’t actually send or receive them with this product then it doesn’t function
+        like a wallet for BTC but you might still be using it to hold your bitcoins with the intention to convert back
+        to fiat when you “cash out”.</p>
+
+      <p>All products in this category are custodial and thus funds are at the mercy of the provider.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the product self-custodial?</h2>
+      <div class="badge"><a id="custodial" href="/methodology/#custodial" class="stamp in-article custodial"><span
+            class="stamp-custodial" data-text="Custodial!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Custodial: The provider holds the keys</strong>".
+
+    <div class="details">
+      <p>A custodial service is a service where the funds are held by a third party like the provider. The custodial
+        service can at any point steal all the funds of all the users at their discretion. Our investigations stop
+        there.</p>
+
+      <p>Some services might claim their setup is super secure, that they don’t actually have access to the funds, or
+        that the access is shared between multiple parties. For our evaluation of it being a wallet, these details are
+        irrelevant. They might be a trustworthy Bitcoin bank and they might be a better fit for certain users than being
+        your own bank but our investigation still stops there as we are only interested in wallets.</p>
+
+      <p><strong>Products that claim to be non-custodial but feature custodial accounts without very clearly marking
+          those as custodial are also considered “custodial” as a whole to avoid misguiding users that follow our
+          assessment.</strong></p>
+
+      <p>This verdict means that the provider might or might not publish source code and maybe it is even possible to
+        reproduce the build from the source code but as it is custodial, the provider already has control over the
+        funds, so it is not a wallet where you would be in exclusive control of your funds.</p>
+
+      <p>We have to acknowledge that a huge majority of Bitcoiners are currently using custodial Bitcoin banks. If you
+        do, please:</p>
+
+      <ul>
+        <li>Do your own research if the provider is trust-worthy!</li>
+        <li>Check if you know at least enough about them so you can sue them when you have to!</li>
+        <li>Check if the provider is under a jurisdiction that will allow them to
+          release your funds when you need them?</li>
+        <li>Check if the provider is taking security measures proportional to the amount of
+          funds secured? If they have a million users and don’t use cold storage,
+          that hot wallet is a million times more valuable for hackers to attack.
+          A million times more effort will be taken by hackers to infiltrate their
+          security systems.</li>
+      </ul>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the source code publicly available?</h2>
+      <div class="badge"><a id="nosource" href="/methodology/#nosource" class="stamp in-article nosource"><span
+            class="stamp-nosource" data-text="No Source!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>No source for current release found</strong>".
+
+    <div class="details">
+      <p>A wallet that claims to not give the provider the means to steal the users’ funds might actually be lying. In
+        the spirit of <em>“Don’t trust - verify!”</em> you don’t want to take the provider at his word, but trust that
+        people hunting for fame and bug bounties could actually find flaws and back-doors in the wallet so the provider
+        doesn’t dare to put these in.</p>
+
+      <p>Back-doors and flaws are frequently found in closed source products but some remain hidden for years. And even
+        in open source security software there might be <a
+          href="https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&amp;product_id=585&amp;version_id=&amp;page=1&amp;hasexp=0&amp;opdos=0&amp;opec=0&amp;opov=0&amp;opcsrf=0&amp;opgpriv=0&amp;opsqli=0&amp;opxss=0&amp;opdirt=0&amp;opmemc=0&amp;ophttprs=0&amp;opbyp=0&amp;opfileinc=0&amp;opginf=0&amp;cvssscoremin=0&amp;cvssscoremax=0&amp;year=0&amp;month=0&amp;cweid=0&amp;order=3&amp;trc=98&amp;sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71">catastrophic
+          flaws</a> undiscovered for years.</p>
+
+      <p>An evil wallet provider would certainly prefer not to publish the code, as hiding it makes audits orders of
+        magnitude harder.</p>
+
+      <p>For your security, you thus want the code to be available for review.</p>
+
+      <p>If the wallet provider doesn’t share up to date code, our analysis stops there as the wallet could steal your
+        funds at any time, and there is no protection except the provider’s word.</p>
+
+      <p><strong>“Up to date” strictly means that any instance of the product being updated without the source code
+          being updated counts as closed source.</strong> This puts the burden on the provider to always first release
+        the source code before releasing the product’s update. This paragraph is a clarification to our rules following
+        <a href="https://twitter.com/WalletScrutiny/status/1408933028227956736">a little poll</a>.</p>
+
+      <p>We are not concerned about the license as long as it allows us to perform our analysis. For a security audit,
+        it is not necessary that the provider allows others to use their code for a competing wallet. You should still
+        prefer <a href="https://en.wikipedia.org/wiki/The_Open_Source_Definition">actual open source licenses</a> as a
+        competing wallet won’t use the code without giving it careful scrutiny.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the decompiled binary legible?</h2>
+      <div class="badge"><a id="obfuscated" href="/methodology/#obfuscated" class="stamp in-article obfuscated"><span
+            class="stamp-obfuscated" data-text="Obfuscated!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Obfuscated</strong>".
+
+    <div class="details">
+      <p>When compiling source code to binary, usually a lot of meta information is retained. A variable storing a
+        masterseed would usually still be called <code class="language-plaintext highlighter-rouge">masterseed</code>,
+        so an auditor could inspect what happens to the masterseed. Does it get sent to some server? But obfuscation
+        would rename it for example to <code class="language-plaintext highlighter-rouge">_t12</code>, making it harder
+        to find what the product is doing with the masterseed.</p>
+
+      <p>In benign cases, code symbols are replaced by short strings to make the binary smaller but for the sake of
+        transparency this should not be done for non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate
+        the binary for size improvements as the reproducibility would assure the link between code and binary.)</p>
+
+      <p>Especially in the public source cases, obfuscation is a red flag. If the code is public, why obfuscate it?</p>
+
+      <p>As obfuscation is such a red flag when looking for transparency, we do also sometimes inspect the binaries of
+        closed source apps.</p>
+
+      <p>As looking for code obfuscation is a more involved task, we do not inspect many apps but if we see other red
+        flags, we might test this to then put the product into this <strong>red-flag category</strong>.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Can the product be built from the source provided?</h2>
+      <div class="badge"><a id="ftbfs" href="/methodology/#ftbfs" class="stamp in-article ftbfs"><span
+            class="stamp-ftbfs" data-text="Build Error!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Failed to build from source provided!</strong>".
+
+    <div class="details">
+      <p>Published code doesn’t help much if the app fails to compile.</p>
+
+      <p>We try to compile the published source code using the published build instructions into a binary. If that
+        fails, we might try to work around issues but if we consistently fail to build the app, we give it this verdict
+        and open an issue in the issue tracker of the provider to hopefully verify their app later.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the published binary matching the published source code?</h2>
+      <div class="badge"><a id="nonverifiable" href="/methodology/#nonverifiable"
+          class="stamp in-article nonverifiable"><span class="stamp-nonverifiable" data-text="Unreproducible!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Not reproducible from source provided</strong>".
+
+    <div class="details">
+      <p>Published code doesn’t help much if it is not what the published binary was built from. That is why we try to
+        reproduce the binary. We</p>
+      <ol>
+        <li>obtain the binary from the provider</li>
+        <li>compile the published source code using the published build instructions into a binary</li>
+        <li>compare the two binaries</li>
+        <li>we might spend some time working around <a href="https://issuetracker.google.com/issues/110237303">issues
+            that are easy to work around</a></li>
+      </ol>
+
+      <p>If this fails, we might search if other revisions match or if we can deduct the source of the mismatch but
+        generally consider it on the provider to provide the correct source code and build instructions to reproduce the
+        build, so we usually open a ticket in their code repository.</p>
+
+      <p>In any case, the result is a discrepancy between the binary we can create and the binary we can find for
+        download and any discrepancy might leak your backup to the server on purpose or by accident.</p>
+
+      <p>As we cannot verify that the source provided is the source the binary was compiled from, this category is only
+        slightly better than <strong>closed source</strong> but for now we have hope projects come around and fix
+        verifiability issues.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Does the binary we built differ from what we downloaded?</h2>
+      <div class="badge"><a id="reproducible" href="/methodology/#reproducible"
+          class="stamp in-article reproducible"><span class="stamp-reproducible" data-text="Reproducible"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Reproducible when tested</strong>".
+
+    <div class="details">
+      <p>If we can reproduce the binary we downloaded from the public source code, with all bytes accounted for, we call
+        the product reproducible. This does not mean we audited the code but it’s the precondition to make sure the
+        public code has relevance for the provided binary.</p>
+
+      <p>If the provider puts your funds at risk on purpose or by accident, security researchers can see this if they
+        care to look. It also means that inside the company, engineers can verify that the release manager is releasing
+        the product based on code known to all engineers on the team. A scammer would have to work under the potential
+        eyes of security researchers. He would have to take more effort in hiding any exploit.</p>
+
+      <p>“Reproducible” does not mean “verified”. <strong>There is good reason to believe that security researchers as
+          of today would not detect very blatant backdoors in the public source code before it gets exploited</strong>,
+        much less if the attacker takes moderate efforts to hide it. This is especially true for less popular projects.
+      </p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Does this product come with a binary?</h2>
+      <div class="badge"><a id="nobinary" href="/methodology/#nobinary" class="stamp in-article nobinary"><span
+            class="stamp-nobinary" data-text="No Binary"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>No Binary provided</strong>".
+
+    <div class="details">
+      <p>If the product is run from the source code using an interpreted language or the user is required to compile the
+        binary himself, transparency is given in that the provided source code is what runs on the product.</p>
+
+      <p>This does not mean we audited the code but any reviews of the public code are immediately relevant for the
+        security of the product.</p>
+
+      <p>If the provider puts your funds at risk on purpose or by accident, security researchers can see this if they
+        care to look. A scammer would have to work under the potential eyes of security researchers. He would have to
+        take more effort in hiding any exploit.</p>
+
+      <p><strong>There is good reason to believe that security researchers as of today would not detect very blatant
+          backdoors in the public source code before it gets exploited</strong>, much less if the attacker takes
+        moderate efforts to hide it. This is especially true for less popular projects.</p>
+
+      <p>We feature this verdict above the “reproducible” verdict as it completely side-steps the issue of binary
+        transparency. There can be no reproducibility issues with the next release. On the other hand, using these
+        products might be more involved as compiling is required and interpreted languages like Java Script might be
+        inherently less secure than other languages.</p>
+
+
+    </div>
+  </div>
+
+  <p>Independent of the detailed analysis, we might assign a meta-verdict:</p>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the product still supported by the still existing provider?</h2>
+      <div class="badge"><a id="defunct" href="/methodology/#defunct" class="stamp in-article defunct"><span
+            class="stamp-defunct" data-text="Defunct!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Not functioning anymore</strong>".
+
+    <div class="details">
+      <p>Discontinued products or worse, products of providers that are not active anymore, are problematic, especially
+        if they were not formerly reproducible and well audited to be self-custodial following open standards. If the
+        provider hasn’t answered inquiries for a year but their server is still running or similar circumstances might
+        get this verdict, too.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Was the product updated during the last two years?</h2>
+      <div class="badge"><a id="obsolete" href="/methodology/#obsolete" class="stamp in-article obsolete"><span
+            class="stamp-obsolete" data-text="Obsolete!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Not updated in a long time</strong>".
+
+    <div class="details">
+      <p>Bitcoin wallets are complex products and Bitcoin is a new, advancing technolgy. Projects that don’t get updated
+        in a long time are probably not well maintained. It is questionable if the provider even has staff at hands that
+        is familiar with the product, should issues arise.</p>
+
+      <p>This verdict may not get applied if the provider is active and expresses good reasons for not updating the
+        product.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Was the product updated during the last year?</h2>
+      <div class="badge"><a id="stale" href="/methodology/#stale" class="stamp in-article stale"><span
+            class="stamp-stale" data-text="Stale!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Not updated in a while</strong>".
+
+    <div class="details">
+      <p>Bitcoin wallets are complex products and Bitcoin is a new, advancing technolgy. Projects that don’t get updated
+        in a year are probably not well maintained.</p>
+
+      <p>This verdict may not get applied if the provider is active and expresses good reasons for not updating the
+        product.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Does our review and verdict apply to their latest release?</h2>
+      <div class="badge"><a id="outdated" href="/methodology/#outdated" class="stamp in-article outdated"><span
+            class="stamp-outdated" data-text="Rev. Outdated"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Review might be outdated</strong>".
+
+    <div class="details">
+      <p>Verdicts apply to very specific releases of products and never to the product as a whole. A new release of a
+        product can change the product completely and thus also the verdict. This product remains listed according to
+        its latest verdict but readers are advised to do their own research as this product might have changed for the
+        better or worse.</p>
+
+      <p>This meta verdict is applied in cases of reviews that we identify as requiring an update.</p>
+
+      <p>This meta verdict applies to all products with verdict “reproducible” as soon as a new version is released
+        until we test that new version, too. It also applies in cases where issues we opened are marked as resolved by
+        the provider.</p>
+
+      <p>If we had <a href="/donate">more resources</a>, we would update reviews more timely instead of assigning this
+        meta verdict ;)</p>
+
+
+    </div>
+  </div>
+
+  <h2 id="what-is-a-hardware-wallet">What is a hardware wallet?</h2>
+
+  <p>There is no globally accepted definition of a hardware wallet. Some consider a
+    paper with 12 words a hardware wallet - after all paper is a sort of hardware or
+    at least not software and the 12 words are arguably a wallet(‘s backup).</p>
+
+  <p>For the purpose of this project we adhere to higher standards in the hardware
+    wallet section. We only consider a hardware wallet if <strong>dedicated hardware</strong>
+    protects the private keys in a way that leaves the user in <strong>full and exclusive
+      control</strong> of what transactions he signs or not. That means:</p>
+
+  <ul>
+    <li>The device allows to create private keys offline</li>
+    <li>The device never shares private key material apart from an offline backup
+      mechanism</li>
+    <li>The device displays receive addresses for confirmation</li>
+    <li>The device shares signed transactions after informed approval on the device
+      without reliance on insecure external hardware</li>
+  </ul>
+
+  <h2 id="our-steps-when-reviewing-a-hardware-wallet">Our steps when reviewing a hardware wallet</h2>
+
+  <p>We try to follow the
+    spirit of the software review process, looking at the firmware and its updates
+    for public source and reproducibility.</p>
+
+  <p>We also look at physical properties of the device and came up with these
+    additional verdicts:</p>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Is the product meant to be ready for use "out of the box"?</h2>
+      <div class="badge"><a id="diy" href="/methodology/#diy" class="stamp in-article diy"><span class="stamp-diy"
+            data-text="DIY" title="Click or tap here to learn more about this verdict"></span>&nbsp;<i
+            class="diy-info-circle"></i></a> </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Do-It-Yourself Project</strong>".
+
+    <div class="details">
+      <p>Many hardware wallet projects aim to be as transparent as possible by using only off-the-shelf hardware with an
+        open design and open code. If the product reviewed is not available in an assembled form - if the user has to
+        source his own hardware to then maybe solder and compile software to install on the device it falls into this
+        category.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Are the keys never shared with the provider?</h2>
+      <div class="badge"><a id="prefilled" href="/methodology/#prefilled" class="stamp in-article prefilled"><span
+            class="stamp-prefilled" data-text="Provided Keys!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Provided private keys</strong>".
+
+    <div class="details">
+      <p>The best hardware wallet cannot guarantee that the provider deleted the keys if the private keys were put onto
+        the device by them in the first place.</p>
+
+      <p>There is no way of knowing if the provider took a copy in the process. If they did, all funds controlled by
+        those devices are potentially also under the control of the provider and could be moved out of the client’s
+        control at any time at the provider’s discretion.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Does the device hide your keys from other devices?</h2>
+      <div class="badge"><a id="plainkey" href="/methodology/#plainkey" class="stamp in-article plainkey"><span
+            class="stamp-plainkey" data-text="Leaks Keys!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Leaks Keys</strong>".
+
+    <div class="details">
+      <p>Some people claim their paper wallet is a hardware wallet. Others use RFID chips with the private keys on them.
+        A very crucial drawback of those systems is that in order to send a transaction, the private key has to be
+        brought onto a different system that doesn’t necessarily share all the desired aspects of a hardware wallet.</p>
+
+      <p>Paper wallets need to be printed, exposing the keys to the PC and the printer even before sending funds to it.
+      </p>
+
+      <p>Simple RFID based devices can’t sign transactions - they share the keys with whoever asked to use them for
+        whatever they please.</p>
+
+      <p>There are even products that are perfectly capable of working in an air-gapped fashion but they still expose
+        the keys to connected devices.</p>
+
+      <p>This verdict is reserved for key leakage under normal operation and does not apply to devices where a hack is
+        known to be possible with special hardware.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Can the user verify and approve transactions on the device?</h2>
+      <div class="badge"><a id="noita" href="/methodology/#noita" class="stamp in-article noita"><span
+            class="stamp-noita" data-text="Bad Interface!"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Bad Interface</strong>".
+
+    <div class="details">
+      <p>These are devices that might generate secure private key material, outside the reach of the provider but that
+        do not have the means to let the user verify transactions on the device itself. This verdict includes
+        screen-less smart cards or USB-dongles.</p>
+
+      <p>The wallet lacks either an output device such as a screen, an input device such as touch or physical buttons or
+        both. In consequence, crucial elements of approving transactions is being delegated to other hardware such as a
+        general purpose PC or phone which defeats the purpose of a hardware wallet.</p>
+
+      <p>Another consquence of a missing screen is that the user is faced with the dilemma of either not making a backup
+        or having to pass the backup through an insecure device for display or storage.</p>
+
+      <p>The software of the device might be perfect but this device cannot be recommended due to this fundamental flaw.
+      </p>
+
+
+    </div>
+  </div>
+
+  <h1 style="clear:both">What is a bearer token?</h1>
+  <p>Bearer tokens are meant to be passed on from one user to another similar
+    to cash or a banking check. Unlike hardware wallets, this comes with an
+    enormous "supply chain" risk if the token gets handed from user to user
+    anonymously - all bearer past and present have plausible deniability if the
+    funds move. We used to categorize bearer tokens as hardware wallets, but
+    decided that they deserved an altogether different category. Generally, bearer
+    tokens require these attributes:
+
+  </p>
+  <ul>
+    <li>Secure initial setup</li>
+    <li>Tamper evidence</li>
+    <li>Balance check without revealing private keys</li>
+    <li>Small size</li>
+    <li>Low unit price</li>
+  </ul>
+
+  and either of these applies:
+  <ul>
+    <li>Somebody has a backup and needs to be trusted.</li>
+    <li>Nobody has a backup and funds are destroyed if the token is lost or damaged.</li>
+  </ul>
+  <p></p>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Does the device hide your keys from other devices at all time?</h2>
+      <div class="badge"><a id="sealed-plainkey" href="/methodology/#sealed-plainkey"
+          class="stamp in-article sealed-plainkey"><span class="stamp-sealed-plainkey" data-text="Plain Keys"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Plain Keys when spending</strong>".
+
+    <div class="details">
+      <p>These devices keep the user’s private key sealed until the seal is broken or removed.</p>
+
+      <p>In order for a transfer to commence, the private keys have to be brought onto a different system that might not
+        be secure.</p>
+
+      <p>There are many viruses known to look for Bitcoin private keys in memory or hard drives.</p>
+
+      <p>While this aspect should not leave room for major exit scams, the handling of such devices is delicate and
+        prone to loss of funds to hackers.</p>
+
+      <p>To redeem your funds safely, create your transaction on an offline machine and verify the signed transaction on
+        a different machine before broadcasting it.</p>
+
+
+    </div>
+  </div>
+
+  <div class="verdictMethodology">
+    <div class="verdict-methodology-head">
+      <h2>Can the user verify and approve transactions on the device?</h2>
+      <div class="badge"><a id="sealed-noita" href="/methodology/#sealed-noita"
+          class="stamp in-article sealed-noita"><span class="stamp-sealed-noita" data-text="Blind signing"
+            title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      </div>
+    </div>
+    If the answer is "no", we mark it as "<strong>Transactions are signed blindly</strong>".
+
+    <div class="details">
+      <p>Devices in this category are first sealed. Once the seal is broken, they sign transactions that they are
+        presented with but have no built-in screen to verify what’s being signed.</p>
+
+      <p>That makes them prone to malicious companion apps that they rely on for sending.</p>
+
+      <p>While this leaves little room for major exit scams, the handling of such devices is delicate.</p>
+
+      <p>To redeem your funds safely, create your transaction on an offline machine and verify the signed transaction on
+        a different machine before broadcasting it.</p>
+
+
+    </div>
+  </div>
+
+  <h2 id="priorities">Priorities</h2>
+
+  <p>We cannot re-evaluate all the wallets every hour and as this is a side-project
+    still, we might not be able to update anything for a month or three straight.</p>
+
+  <p>But when we update reviews, we try to proceed as follows:</p>
+
+  <ol>
+    <li>Re-evaluate new releases of <a id="reproducible" href="/methodology/#reproducible"
+        class="stamp in-article reproducible"><span class="stamp-reproducible" data-text="Reproducible"
+          title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      wallets as they become available. If
+      users opt for a wallet because it is reproducible, they <strong>should be waiting for
+        this re-evaluation</strong> before updating.</li>
+    <li>Check if any of the <a id="nonverifiable" href="/methodology/#nonverifiable"
+        class="stamp in-article nonverifiable"><span class="stamp-nonverifiable" data-text="Unreproducible!"
+          title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      wallets updated their issues on their
+      repositories.</li>
+    <li>Make general improvements of the platform</li>
+    <li>Evaluate the most relevant
+      <a id="wip" href="/methodology/#wip" class="stamp in-article wip"><span class="stamp-wip" data-text="Development"
+          title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+      wallets
+    </li>
+  </ol>
+
+  <h2 id="wrap-it-up">Wrap it up</h2>
+
+  <p>In the end we report our findings. All wallets that fail at any of the above
+    questions are considered high risk in our estimate. We might contact the wallet
+    provider, try to find out what went wrong and report on the respective
+    communication.</p>
+
+  <p>In the end, even if we conclude not to trust a wallet this doesn’t mean the
+    wallet was out to steal your coins. It just means that we are confident that
+    with enough criminal energy this wallet could theoretically steal all the funds
+    of all its users.</p>
+
+  <h2 id="no-reproducible-apps-on-apple-app-store">No reproducible apps on Apple App Store?</h2>
+
+  <p>WalletScrutiny started out looking only into Android. Mobile wallets are the
+    most used wallets and Android the most used among mobile wallets but looking
+    into iPhone wallets was high on the list from the start.</p>
+
+  <p>For Android, the process of reproducing builds was relatively clear and some
+    apps did this before we started the project. For iPhone this was not the case.
+    Reproducibility of iPhone apps was an open question.</p>
+
+  <p>One year passed. We asked around. Nobody could reproduce any iPhone app.</p>
+
+  <p>At this point we shift the burden of proof onto the providers (or Apple). If you
+    want people to trust your app (or platform), explain how it can be audited. We
+    will move on in
+    the meantime and list iPhone apps with an empty reproducible section until
+    then.</p>
+
+  <p>Else, our methodology is the same as for Android wallets.</p>
+
+  <h2 id="further-considerations">Further considerations</h2>
+
+  <p>We will list as we stumble into them things like</p>
+
+  <ul>
+    <li>Bug bounties</li>
+    <li>External audits</li>
+    <li>Past and present serious flaws</li>
+    <li>Security relevant observations. While this might be comments on the code, this
+      is not a complete code review. It’s only what we see when looking at the code
+      for some minutes. A full code review takes man-months.</li>
+  </ul>
+
+  <h2 id="what-could-still-go-wrong">What could still go wrong?</h2>
+
+  <p>The verdict <a id="reproducible" href="/methodology/#reproducible" class="stamp in-article reproducible"><span
+        class="stamp-reproducible" data-text="Reproducible"
+        title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+    unfortunately means very little. It means that
+    at the random point in time that we decided to verify the code to match the
+    binary, the code actually did match the binary. It does not mean that the next update
+    will or that the prior one did and it does not mean that the reproducible code is
+    not doing evil things.</p>
+
+  <p>In fact, we believe the most likely scenario for an exit scam is that the wallet
+    would bait-and-switch. It would see to how many users it could grow the product or
+    even buy out a successful wallet in financial trouble to then introduce
+    code to leak the backups.</p>
+
+  <p>The evil code would not be present until the product is losing users (or funds under
+    management) for whatever other reason.</p>
+
+  <p>Any stamp of approval, any past security audit or build verification would be
+    obsolete. Therefore we don’t see our mission as fulfilled when all wallets are
+    reproducible. There is a long road ahead from there. For users running reproducible
+    wallets, the wallets would need actual code audits – Before releasing the binary to
+    its users.</p>
+
+  <p>To put things into perspective, reviewing the code some 5 developers put out is
+    a full time job. Testing the reproducibility of a wallet is an hour of work the
+    first time and thanks to automation, 5 minutes for every update.</p>
+
+  <p>To achieve a situation where most users are running verified apps, the release
+    process would have to be massively decelerated and there would have to be strong
+    incentives in place for security researchers to find issues.</p>
+
+  <p>Often users are in a big hurry to get bug-fixes and wallet managers are in a big
+    hurry to roll out new features but this hurry is standing against the security
+    of all wallet users. Wallet developers “screw up” all the time and almost always
+    it’s just some crash affecting some corner case they didn’t anticipate when
+    writing the code and these crashes, while highly inconvenient for the users who
+    expected to use their wallet now, usually do not put at risk any funds in the
+    wallet. This hurry does, however, put reviewers in the uncomfortable position of
+    having to approve something that would need more review. Most reviewers are
+    reviewing the work of their colleagues and trusting them is kind of expected at
+    least by the colleagues themselves but all it takes is one slip up and the code
+    might be compromised. And compromising code in ways that go unnoticed by an
+    auditor is <a href="https://en.wikipedia.org/wiki/Underhanded_C_Contest">kind of a sport</a>.</p>
+
+  <h2 id="what-about-android-keystore-provider-tee-apple-secure-enclave-">What About Android KeyStore Provider, TEE,
+    Apple Secure Enclave, …?</h2>
+
+  <p>General computing devices like mobile phones have a huge
+    <a href="https://en.wikipedia.org/wiki/Attack_surface">attack surface</a>.
+  </p>
+
+  <p>While the operating system promises to separate one app from the other, users
+    today have hundreds of apps installed, each of which might exploit a weakness.
+    And weaknesses do happen.</p>
+
+  <p>To improve the security, vendors offer varying systems to secure sensitive data.</p>
+
+  <p>The simplest approach is to have a special file encrypted by the
+    operating system with a key supposedly unknown to anybody, with special logic
+    that requires the user to enter his credentials to access that file.
+    That key might be in a so called “secure element” (<strong>“SE”</strong>) that requires the
+    user’s pin to surrender the key but whoever gains administrative access to the
+    operating system can wait for the user to enter the pin and once the “SE”
+    produces the key, keep a copy of it. Most notably, the app that stores some
+    secret in that file can also abuse the data once it gains access. In other
+    words, if the wallet provider uses this type of “KeyStore” for the wallet’s
+    master seed, the seed might be protected against extraction from somebody who
+    obtains a copy of the main storage or some other app that gains such access to
+    leak data online but it does not protect against a privileged user or the wallet
+    app itself.</p>
+
+  <p>The most common approach is to have the app’s secret itself in the “secure
+    element” which again allows a compromised app or OS to copy secrets once the
+    user makes use of them. Here, the app could store 20 secrets for 20 wallet
+    accounts in addition to storing the master secret - the “12 words” - in the
+    “SE” and by that reduce the damage of secrets being copied in transit
+    but if the app is compromised, it can always show the user “enter pin to pay for
+    coffee” and in fact ask for the master secret from the “SE”. Now,
+    the app could empty the wallet or just pay the coffee and leak the master secret
+    to some server to empty all users’ wallets at once later.</p>
+
+  <p>The next step is to not ever share the secret in the “SE” with the app but to
+    sign transactions within the “SE” instead. <em>Not all “SE” support this</em>. But
+    again, this
+    does not protect against a malicious app. The app can again ask to enter the pin
+    for a coffee but send over a transaction emptying the wallet to the “SE”. While
+    the app now could empty this user’s wallet, <strong>this situation is better than all
+      the prior situations</strong>! The evil app cannot simply leak what it obtained to some
+    server for later use as paying the coffee will invalidate that other big,
+    emptying transaction as both spend the same funds. The app provider could though
+    present the user with some variant of “Failed to send transaction. Please try
+    again!” a few times to accumulate secondary account “emptying” transactions for
+    later rug-pulling.</p>
+
+  <p>The most advanced approach is to run in a
+    “<a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted Execution Environment (TEE)</a>”,
+    a secondary (actually
+    <a href="https://en.wikipedia.org/wiki/Baseband_processor">tertiary</a>) operating system
+    or firmware. In the most extreme case, this has its own screen like in the
+    <span class="wallet-link"><img class="app_logo" src="/images/wIcons/hardware/tiny/finney.png" alt="Wallet Logo"> <a
+        href="/hardware/finney/">FINNEY</a>&nbsp;<a id="nosource" href="/methodology/#nosource"
+        class="stamp in-article nosource"><span class="stamp-nosource" data-text="No Source!"
+          title="Click or tap here to learn more about this verdict"></span>&nbsp;<i class="diy-info-circle"></i></a>
+    </span> but may
+    also work through some indicator light that shows which OS currently controls
+    screen output and touch input or not indicate being active at all. Such a TEE ensures
+    that no other apps can run in the background, that not all the features of the
+    main OS gain access to its resources and by being able to control input and
+    output it allows to interact with the user for example in the creation of a
+    Bitcoin transaction.
+  </p>
+
+  <p>Those TEEs though are highly proprietary and access to them is not open to
+    “random wallet developers”. For example here is
+    <a href="https://source.android.com/security/trusty/#third-party_trusty_applications">android.com on their TEE</a>’s
+    availability for third-party apps:
+  </p>
+
+  <blockquote>
+    <p><strong>Third-party Trusty applications</strong><br>
+      Currently all Trusty applications are developed by a single party and packaged
+      with the Trusty kernel image. The entire image is signed and verified by the
+      bootloader during boot. Third-party application development is not supported
+      in Trusty at this time.</p>
+  </blockquote>
+
+  <p>In addition to this, not all Android phones possess the hardware required to
+    provide a “Trusty” TEE, so for the time being, a TEE supporting Bitcoin wallet
+    is something for wallets that come pre-installed on the device but not for any
+    other wallets.</p>
+
+
+</div>

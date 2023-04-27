@@ -397,14 +397,44 @@
     }
     .tab:nth-of-type(#{$i}) {
       background: var(--accent-text);
-      color: var(--permanent-white);
+      color: var(--body);
     }
   }
 }
-.tab-container{
+.tab-container {
   animation: fade-in-up 600ms ease forwards 1;
 }
 @keyframes fade-in-up {
-  from{opacity: 0; transform: translateY(-3vh);}
-  to{opacity: 1; transform: translateY(0vh);}
+  from {
+    opacity: 0;
+    transform: translateY(-3vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0vh);
+  }
+}
+.test-subcat {
+  display: grid;
+  grid-template: auto auto / 2fr 1fr;
+  padding: 25px;
+  margin: 20px auto;
+  background: var(--accent-50);
+  border-radius: 10px;
+  h3 {
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  p {
+    margin: 0;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .component-test-categories {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin: auto;
+    min-width: 215px;
+  }
 }

@@ -64,39 +64,9 @@ function recreateDropdowns(verdict, platform) {
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
 }
-document.body.addEventListener("click", () => { document.querySelectorAll(".dropdown-options.opened").forEach((ele) => { ele.classList.remove("opened") }) })
 
 for (const target of ["verdict", "platform"]) {
-  for (const dropdown of document.querySelectorAll(".dropdown-" + target)) {
-    dropdown.addEventListener("click", (event) => {
-      const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected") : event.target)
-      const parentEle = self.parentNode
-      //IF TARGET IS AN UN-SELECTED CHILD ELEMENT
-      if (!self.classList.contains("selected") && self.classList.contains("option")) {
-        event.stopPropagation()
-
-        parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
-        self.classList.add("selected")
-        parentEle.classList.remove("opened")
-        const platform = parentEle.classList.contains("dropdown-platform") ? self.getAttribute("data") : false
-        if (platform) {
-          document.querySelectorAll(".dropdown-platform > .selected").forEach((selected) => { selected.classList.remove("selected") })
-          document.querySelectorAll(".dropdown-platform > ." + platform).forEach((newOpt) => { newOpt.classList.add("selected") })
-        }
-        updateUrl(true)
-        updateModularPayload()
-        return
-      }
-      event.stopPropagation()
-      if (parentEle.classList.contains("opened")) {
-        parentEle.classList.remove("opened")
-      } else {
-        //RESET ALL DROPDOWNS TO CLOSED STATE ONLY WHEN OPENING NEW DROPDOWN
-        for (const drop of document.querySelectorAll(".dropdown-options")) { drop.classList.remove("opened") }
-        parentEle.classList.add("opened")
-      }
-    })
-  }
+  addDropdownEvents(target, () => {updateUrl(true); updateModularPayload()})
 }
 
 //SEPARATE FUNCTION FOR GRID / LIST TO AVOID MAKING THE LOGIC CONFUSING
@@ -120,14 +90,7 @@ document.querySelector(".dropdown-view").addEventListener("click", (event) => {
     }
     return
   }
-  event.stopPropagation()
-  if (parentEle.classList.contains("opened")) {
-    parentEle.classList.remove("opened")
-  } else {
-    //RESET ALL DROPDOWNS TO CLOSED STATE ONLY WHEN OPENING NEW DROPDOWN
-    for (const drop of document.querySelectorAll(".dropdown-options")) { drop.classList.remove("opened") }
-    parentEle.classList.add("opened")
-  }
+  resetDropdowns(event, parentEle)
 })
 
 /**

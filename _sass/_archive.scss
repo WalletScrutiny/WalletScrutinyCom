@@ -14,20 +14,22 @@
     @include prefix(0.5 of 12);
   }
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     max-width: 90vw;
     margin-left: auto;
     margin-right: auto;
-  padding: 0 !important;
-}
+    padding: 0 !important;
+  }
   padding: 0 2rem 2rem 2rem !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  h1{
+  h1 {
     margin-bottom: 40px;
     text-align: center;
   }
-  p, ul, ol{
+  p,
+  ul,
+  ol {
     font-weight: 300;
   }
   a {
@@ -38,6 +40,75 @@
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
+  .methodology-container {
+    display: grid;
+    gap: 20px;
+    .verdictMethodology {
+      background: var(--shadow-2);
+      padding: 15px 25px;
+      .verdict-methodology-head,
+      .verdict-methodology-head > * {
+        pointer-events: none;
+      }
+      .verdict-methodology-head {
+        align-items: center;
+      }
+      .chevron {
+        pointer-events: none;
+        i {
+          display: none;
+        }
+      }
+      &[data-dropdown-open="true"] {
+        p,
+        div:not(.verdict-methodology-head),
+        .chevron,
+        .fa-chevron-down {
+          display: block;
+        }
+        .verdict-methodology-head {
+          cursor: pointer;
+          pointer-events: all !important;
+        }
+        .truncated {
+          cursor: unset;
+          ul,
+          strong {
+            display: block !important;
+          }
+          p {
+            display: none;
+          }
+          &::after {
+            display: none !important;
+          }
+        }
+      }
+      &[data-dropdown-open="false"] {
+        cursor: pointer;
+        p,
+        div:not(.verdict-methodology-head) {
+          display: none;
+        }
+        .chevron,
+        .fa-chevron-left {
+          display: block !important;
+        }
+        .verdict-methodology-head {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .methodology-item{
+      animation: fade-in-up 600ms ease forwards 1;
+      > h2,.info{
+        margin-bottom:20px;
+      }
+      &:not(.active){
+        display: none;
       }
     }
   }
@@ -66,7 +137,6 @@
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -100,7 +170,6 @@
   }
 }
 
-
 /*
    List view
    ========================================================================== */
@@ -122,7 +191,6 @@
     margin: 0 0 4px;
   }
 }
-
 
 /*
    Grid view
@@ -166,7 +234,6 @@
     }
   }
 }
-
 
 /*
    Features

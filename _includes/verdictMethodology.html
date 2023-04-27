@@ -1,9 +1,10 @@
 <div class="verdictMethodology">
 <div class="verdict-methodology-head">
   <h2>{{ site.data.verdicts[include.verdict].question }}</h2>
-  <!-- <div class="badge">{% include verdictBadge.html verdict=include.verdict type='short' %}</div> -->
+  <div class="chevron"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-down"></i></div>
 </div>
-If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".
+
+<p>If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".</p>
 
 <div class="details truncated">
 {{ site.data.verdicts[include.verdict].details | markdownify }}
@@ -17,5 +18,6 @@ If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verd
   point on, with nobody outside ever knowing before it is too late.</strong>
 {% endif %}
 </div>
-<script>document.querySelector(".details.truncated").addEventListener("click", ()=>{document.querySelector(".details.truncated").classList.remove('truncated')})</script>
+<script>if(document.querySelectorAll(".details.truncated").length==1)
+{document.querySelector(".details.truncated").addEventListener("click", ()=>{document.querySelector(".details.truncated").classList.remove('truncated')})}</script>
 </div>

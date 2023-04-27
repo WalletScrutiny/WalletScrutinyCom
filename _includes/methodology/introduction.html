@@ -1,51 +1,64 @@
-<h2>We’re focused on one security feature above all others. This page explains why and how.</h2>
-<p>
-  Put simply, we search for wallets with the potential to empty all of their users’ funds at once. This scenario is
-  possible if the wallet provider or a malicious actor can obtain a copy of all their users’ wallet backups and thus
-  access all funds simultaneously. Once the number of accessible coins stops growing, this hypothetical wallet provider
-  could seize everyone’s coins at once. This is known as a <a href="https://medium.com/@michaelflaxman/how-should-i-store-my-bitcoin-43874ac208e4">“retirement attack"</a>, and it’s what we are primarily concerned
-  with stopping.</p>
-<h2>
-  What we don’t do</h2>
+<p>We concentrate on a tiny aspect of wallet security and to better understand
+  what we do and do not do, this page explains the rough process of how we work.</p>
+
+<h2 id="what-we-do">What we do</h2>
+
+<p>To put it dramatically, we search for the obvious potential to empty all the wallets
+  of all the users at once. Could the provider of the wallet, with enough criminal
+  energy, defraud all its users at once, without this being possible to be
+  detected before it is
+  too late? (If he could in theory, then a sufficiently motivated criminal could
+  also put him under duress to steal your funds or manipulate him into stealing
+  your coins with social engineering or with a backdoor.)</p>
+
+<p>This horror scenario is possible whenever the provider can obtain a copy of the wallet
+  backup and thus access all the users’ funds at once. He could collect the
+  backups and once the amount of coins he could access stops growing, empty all
+  the wallets in one big transaction. This form of scam got known as <a
+    href="https://medium.com/@michaelflaxman/how-should-i-store-my-bitcoin-43874ac208e4">“retirement
+    attack”</a>.</p>
+
+<p>Seeing that some wallets have millions of users, it is plausible to assume that
+  some wallets manage billions of dollars. This would be a huge incentive for criminally
+  inclined employees, even if the wallet was not set up to scam its users from the
+  start, which probably is the case for some wallets, too.</p>
+
+<h2 id="what-we-do-not-do">What we do not do</h2>
+
 <ul>
-  <li>We do not provide a security audit of wallets. Since any open-source wallet gets potentially audited all the time,
-    and paid audits certainly help teams improve products, we focus on what receives less attention from auditors: the
-    possibility for exit scams or other scenarios in which users could lose all their funds at once.</li>
-  <li>We only care about licenses when all the source is public. Advocates of <a href="https://opensource.org/osd">Free and Open Source Software (FOSS)</a> argue
-    that permissive licenses have security benefits since they allow projects to use code over and over, resulting in
-    more scrutiny of that code. Since we strongly agree, we hope to cover licenses in the future.</li>
-  <li>We do not endorse the security of any wallet.</li>
-  <li>We do not guarantee that your wallet version is verified to match the public code or the version we investigated.
-    A tool for that is under development. If version XYZ of a wallet is reproducible (what we’re looking for), you might
-    still have received a different version than the one we reviewed. For example, Google lets developers slice versions
-    by country, device brand, and individual users. You would have to compare the fingerprint of the binary on your
-    device with the one reported here. This is even more complicated when it comes to hardware wallets.
-  </li>
+  <li><strong><span id="noAudit">We do not</span></strong> provide a security audit of the wallet.
+    The empty row “Audited?” on <a href="/">the landing page</a> is merely to emphasize
+    this fact. As any public source wallet gets potentially audited all the time
+    and paid audits certainly help the team to improve their product, those audits
+    do not help prevent exit scams or most other ways where all users lose all
+    their funds at once, which we are mainly focused on.</li>
+  <li><strong><span id="foss">We do not</span></strong> care about licenses as long as all the
+    source is public.
+    Advocates of <a href="https://opensource.org/osd">Free and Open Source Software (FOSS)</a>
+    argue that a permissive license has security benefits as it allows other
+    projects to use the code, which then results in more developers caring about
+    the auditability and security of that code. As we strongly agree with this
+    view, we hope to expand to cover licenses in the future, too.</li>
+  <li><strong>We do not</strong> endorse the security of any wallet.</li>
+  <li><strong>We do not</strong> guarantee that your version of the wallet is verified to match
+    the public code or the version that we investigated. A tool for that is under
+    development. If version 3.4.5 of your wallet is reproducible according to us
+    then you might still have received a different version 3.4.5 than the one we
+    reviewed. For example Google lets the developers slice the market by country,
+    device brand
+    and even individual users. You would have to compare the fingerprint of the
+    binary on your device with the one reported here. For hardware wallets it’s even
+    harder to make general statements about the device you hold in hands.</li>
 </ul>
 
+<h2 id="our-manual-review-goes-as-follows">Our manual review goes as follows:</h2>
 
-
-<h2>Priorities</h2>
-
-<p>We cannot re-evaluate every wallet upgrade whenever one is released. Since Wallet Scrutiny is a side project, we
-  might only be able to update intermittently.
-</p>
-<p>When we update reviews, we do so as follows:</p>
-
-<ol>
-  <li>Re-evaluate new releases of REPRODUCIBLE wallets as they become available. If users opt for a wallet because it is
-    reproducible, they should wait for this re-evaluation before updating
-  </li>
-  <li>Determine if any UNREPRODUCIBLE wallets updated issue in their repositories
-  </li>
-  <li>Make general improvements to the platform
-  </li>
-  <li>Evaluate the most relevant WORK IN PROGRESS wallets
-  </li>
-</ol>
-
-<h2>Wrap it up</h2>
-<p>In the end, we report our findings. Our estimate considers all wallets that fail the above priorities high risk.
-  However, we may contact the wallet provider, find out what went wrong, and report on the communication.</p>
-<p>In the end, even if we conclude isn’t trustworthy, this doesn’t mean it was out to steal your coins. It just means
-  that we are confident that with enough criminal ambition, someone could use this wallet to steal its users funds. </p>
+<p>We take the perspective of a <strong>curious potential user</strong> of the respective product.
+  We take all information from publicly available sources as we do not assume that
+  potential users would sign NDAs prior to using a wallet. We also do not consider
+  hard to find information. Our verdict therefore is based on what we can find
+  within a <em>few clicks</em> from the product’s description. We occasionally search
+  GitHub for the identifiers but without endorsement from the official website,
+  any repository we find this way is not very promising to provide reproducible
+  builds but we are happy to leave an issue on a source code repository about our
+  findings.</p>
