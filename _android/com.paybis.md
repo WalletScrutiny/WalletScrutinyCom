@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Paybis crypto wallet: Buy BTC'
+title: Paybis Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-04-19
 version: 1.5.0
 stars: 3.1
 ratings: 173
-reviews: 33
+reviews: 34
 size: 
 website: https://paybis.com/contacts/
 repository: 

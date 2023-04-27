@@ -12,7 +12,7 @@ updated: 2023-04-04
 version: 1.22.0
 stars: 4
 ratings: 5144
-reviews: 643
+reviews: 644
 size: 
 website: https://global.bittrex.com
 repository: 

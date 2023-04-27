@@ -8,8 +8,8 @@ users: 10000
 appId: de.followmytrader
 appCountry: 
 released: Mar 9, 2020
-updated: 2023-03-31
-version: 2.1.0
+updated: 2023-04-27
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 

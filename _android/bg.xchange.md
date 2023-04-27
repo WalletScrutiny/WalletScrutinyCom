@@ -8,8 +8,8 @@ users: 5000
 appId: bg.xchange
 appCountry: 
 released: 2020-12-22
-updated: 2023-04-26
-version: 2.2.0
+updated: 2023-04-27
+version: 2.2.1
 stars: 
 ratings: 
 reviews: 

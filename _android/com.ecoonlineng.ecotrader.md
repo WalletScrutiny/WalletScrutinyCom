@@ -3,7 +3,7 @@ wsId:
 title: Eco Trader
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.ecoonlineng.ecotrader
 appCountry: 
 released: Nov 13, 2020
