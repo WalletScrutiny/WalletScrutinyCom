@@ -10,7 +10,7 @@ author_profile: true
 <div class="tabulation-scroll-container">
 <div class="tabulation">
   <div class="tab">Introduction</div>
-  <div class="tab">Tests we run</div>
+  <div class="tab tests-we-run">Tests we run</div>
   <div class="tab">FAQ</div>
 </div>
 </div>
@@ -22,9 +22,11 @@ author_profile: true
 </div>
 
 <script>
+  let testSubcat = false
   let urlIndex = 1
   if(window.location.search.indexOf('?')>=0){
   const query = window.location.search.split('?')
+
     let urlIndexCounter = 1
     let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1]
     for(const tab of document.querySelectorAll(".tabulation .tab")){
@@ -34,20 +36,22 @@ author_profile: true
       }
       urlIndexCounter++
     }
-    window.testSubcat = query[1].indexOf("/")>0?query[1].split("/")[1]:false
+    testSubcat = query[1].indexOf("/")>0?query[1].split("/")[1]:false
+
   }
 
   let index = 1
   for(const tab of document.querySelectorAll(".tabulation .tab")){
+
     tab.setAttribute("data-index", index)
     tab.addEventListener("click", (event)=>{
       document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"))
-      window.history.pushState('data', null, `/methodology/?${event.target.innerHTML.replace(/ /g, '-').toLowerCase()}`)
+      window.history.pushState('data', null, `/methodology/?${event.target.innerHTML.replace(/ /g, '-').toLowerCase()}` )
     })
     index++
+
   }
-    if(urlIndex==2)
-  {processSelectedSubcategory()}
+
+  if(urlIndex==2){processSelectedSubcategory(testSubcat)}
   document.body.setAttribute("data-active-index", urlIndex)
 </script>
-

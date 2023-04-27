@@ -79,21 +79,12 @@
   }
   addDropdownEvents("test-categories", () => { processSelectedSubcategory() })
 
-  if (window.testSubcat) {
-    for (const option of document.querySelectorAll(".dropdown-test-categories .option")) {
-      if (option.getAttribute("data-id") === window.testSubcat) {
-        document.querySelector(".dropdown-test-categories .selected").classList.remove("selected")
-        option.classList.add("selected")
-        break
-      }
-    }
-  } else {
-    window.testSubcat = "iphone|android"
-  }
-
-  function processSelectedSubcategory() {
-    const current = document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
+  function processSelectedSubcategory(subcat) {
+    const current = subcat?subcat:document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
     let unused = ``
+    for (const option of document.querySelectorAll(".dropdown-options .option")) {
+      if (option.getAttribute('data-id')!==current) { option.classList.remove("selected") }else{ option.classList.add("selected") }
+    }
     for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (!option.classList.contains('selected')) { unused += `, ${option.getAttribute("data")}` }
     }
@@ -104,4 +95,6 @@
     }
     window.history.pushState('data', null, `/methodology/?tests-we-run/${current}`)
   }
+
+  document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})
 </script>
