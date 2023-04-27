@@ -8,11 +8,11 @@ appId: com.lcx.app
 appCountry: us
 idd: '1604594068'
 released: '2022-06-27T07:00:00Z'
-updated: 2023-04-03
-version: 2.0.2
+updated: 2023-04-21
+version: 2.0.3
 stars: 4.3
 reviews: 36
-size: '57523200'
+size: '57239552'
 website: 
 repository: 
 issue: 

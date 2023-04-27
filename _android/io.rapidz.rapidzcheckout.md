@@ -7,8 +7,8 @@ users: 50
 appId: io.rapidz.rapidzcheckout
 appCountry: 
 released: Jun 6, 2022
-updated: 2023-03-14
-version: 1.2.2
+updated: 2023-04-24
+version: 1.2.3
 stars: 
 ratings: 
 reviews: 

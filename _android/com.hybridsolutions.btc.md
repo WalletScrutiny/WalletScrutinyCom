@@ -10,9 +10,9 @@ appCountry:
 released: 2020-08-24
 updated: 2022-04-21
 version: '1.3'
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://hybridsolutions.com/
 repository: 

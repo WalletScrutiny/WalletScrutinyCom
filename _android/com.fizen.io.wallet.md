@@ -4,7 +4,7 @@ title: Fizen Super App
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.fizen.io.wallet
 appCountry: 
 released: Feb 25, 2022

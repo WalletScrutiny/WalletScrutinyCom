@@ -11,7 +11,7 @@ released: 2019-02-03
 updated: 2023-04-19
 version: 8.38.1
 stars: 4.8
-reviews: 6172093
+reviews: 6171871
 size: '438345728'
 website: https://www.paypal.com/mobile
 repository: 

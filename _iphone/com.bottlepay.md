@@ -11,7 +11,7 @@ released: '2021-02-10T08:00:00Z'
 updated: 2023-03-30
 version: 2.2.8
 stars: 4.4
-reviews: 275
+reviews: 277
 size: '166542336'
 website: https://bottlepay.com
 repository: 

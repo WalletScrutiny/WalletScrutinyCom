@@ -10,9 +10,9 @@ appCountry:
 released: Jun 5, 2019
 updated: 2019-06-06
 version: 0.1.4
-stars: 
+stars: 4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://qpay.group
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.xcapit.app
 appCountry: 
 released: Nov 4, 2020
-updated: 2023-04-18
-version: 3.19.0
+updated: 2023-04-21
+version: 3.19.1
 stars: 3.3
 ratings: 
 reviews: 5

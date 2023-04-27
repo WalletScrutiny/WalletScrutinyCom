@@ -12,7 +12,7 @@ updated: 2023-04-20
 version: 1.43.1
 stars: 3.9
 ratings: 7425
-reviews: 207
+reviews: 208
 size: 
 website: https://support.poloniex.com/
 repository: 

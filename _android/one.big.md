@@ -12,7 +12,7 @@ updated: 2023-04-19
 version: 2.3.7
 stars: 4
 ratings: 836
-reviews: 54
+reviews: 53
 size: 
 website: https://www.b1.zone/
 repository: 

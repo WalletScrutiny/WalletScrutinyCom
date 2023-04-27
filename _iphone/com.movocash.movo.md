@@ -11,7 +11,7 @@ released: '2021-04-01T07:00:00Z'
 updated: 2022-12-09
 version: 4.3.2
 stars: 4.4
-reviews: 409
+reviews: 411
 size: '95207424'
 website: https://movo.cash
 repository: 

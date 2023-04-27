@@ -12,7 +12,7 @@ updated: 2023-04-10
 version: 1.7.2
 stars: 4.5
 ratings: 16862
-reviews: 503
+reviews: 504
 size: 
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android

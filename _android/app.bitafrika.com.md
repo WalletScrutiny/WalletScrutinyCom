@@ -12,7 +12,7 @@ updated: 2023-04-05
 version: 4.3.1
 stars: 3.9
 ratings: 
-reviews: 102
+reviews: 104
 size: 
 website: https://bitafrika.com
 repository: 

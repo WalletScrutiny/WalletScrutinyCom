@@ -13,7 +13,7 @@ stars: 2.8
 ratings: 
 reviews: 12
 size: 
-website: https://bourseechange.net/
+website: https://bousechanj.com/
 repository: 
 issue: 
 icon: com.bouspam.eritajpam.png

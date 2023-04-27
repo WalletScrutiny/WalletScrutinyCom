@@ -8,9 +8,9 @@ users: 50000
 appId: com.coinlocally.android
 appCountry: 
 released: Apr 21, 2022
-updated: 2023-04-17
-version: 2.5.10
-stars: 3.4
+updated: 2023-04-24
+version: 2.5.12
+stars: 4.8
 ratings: 
 reviews: 47
 size: 
