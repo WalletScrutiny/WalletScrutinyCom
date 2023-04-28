@@ -2,7 +2,8 @@
 wsId: 
 title: Monero.com
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.monero.app
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.monero.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nobtc
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.monero.app) 
+
+> Monero.com is a Monero (XMR) only wallet. Monero.com allows you to safely store, exchange, and spend your Monero. Monero.com is focused on an excellent transaction experience.
+
+## Analysis 
+
+The app does not support BTC.
