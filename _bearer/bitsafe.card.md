@@ -21,8 +21,8 @@ issue:
 icon: bitsafe.card.png
 bugbounty: 
 meta: ok
-verdict: plainkey
-date: 2023-02-02
+verdict: prefilled
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: Bitsafecard
@@ -31,7 +31,30 @@ features:
 
 ---
 
-## Product Description 
+## Updated Review 2023-04-28
+
+- The public key is at the front of the card. 
+- The private key is at the back of the card.
+- The card can be gifted to loved ones. 
+- There is no mention of seals. 
+- Keywords in the description are "cold" and "vault" 
+
+> Bitsafecard is [not a hot wallet](https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard). It protects you from the risk of sharing requested credentials in online applications and the risk of this information being stolen.
+> 
+> The [cold wallet we offer to you](https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard) allows you to keep your digital savings safely and easily, away from the risk of sharing your confidential information. With our Signature series crypto assets wallet, you can safely and easily store more than 100 different cryptocurrencies on your card.
+>
+> The security key of your wallet, which stores your digital savings, is entirely yours before it passes to 2nd and 3rd parties. Our [Signature series wallets are a safe](https://www.bitsafecard.com/en/Signature) safe that keeps your cryptocurrencies safely and only you have the key.
+
+### Gift 
+
+> [You can gift it.](https://www.bitsafecard.com/en/Signature)
+> SIGNATURE Series wallets are designed to be a physical representation of your crypto assets. Easily load your digital coins into your wallet and carry them with you safely as you wish. If you want, gift it to your loved ones. Show them how easy and secure it is to save cryptocurrencies.
+
+## Analysis 
+
+We contacted [BitSafe via twitter](https://twitter.com/BitcoinWalletz/status/1651780122431856640) to clarify some details. But based on the information at hand as summarized above, we tentively marked the product as **being filled with key information** before being shipped to the customer. 
+
+## Product Description 2023-02-02
 
 The website for the product is written primarily in Turkish so some details are not very clear to us. 
 
