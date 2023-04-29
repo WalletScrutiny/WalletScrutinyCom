@@ -20,8 +20,8 @@ issue:
 icon: com.profittrading.forbybit.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-11-02
+verdict: custodial
+date: 2023-04-29
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
@@ -31,6 +31,12 @@ redirect_from:
 features: 
 
 ---
+
+## Updated Review 2023-04-29
+
+Verdict changed to reflect the previous reviews conclusion.
+
+## Previous Review 2022-11-02
 
 The provider [ProfitTradingApp](https://play.google.com/store/apps/dev?id=6470884744111312194) features a list of apps:
 
