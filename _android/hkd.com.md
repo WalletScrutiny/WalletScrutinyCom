@@ -9,10 +9,10 @@ appId: hkd.com
 appCountry: 
 released: Sep 11, 2020
 updated: 2023-04-26
-version: 2.5.8
+version: 2.5.9
 stars: 3.9
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: http://hkd.com
 repository: 

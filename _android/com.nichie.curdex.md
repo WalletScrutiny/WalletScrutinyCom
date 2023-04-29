@@ -7,8 +7,8 @@ users: 100
 appId: com.nichie.curdex
 appCountry: 
 released: Sep 23, 2020
-updated: 2023-04-21
-version: 3.6.0
+updated: 2023-04-27
+version: 3.8.0
 stars: 
 ratings: 
 reviews: 

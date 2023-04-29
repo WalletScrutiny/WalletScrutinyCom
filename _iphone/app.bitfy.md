@@ -9,10 +9,10 @@ appCountry: us
 idd: 1483269793
 released: 2019-11-26
 updated: 2023-04-25
-version: 3.12.21
+version: 3.12.20
 stars: 2.8
 reviews: 5
-size: '56594432'
+size: '56598528'
 website: https://bitfy.app
 repository: 
 issue: 

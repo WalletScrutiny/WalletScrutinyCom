@@ -10,9 +10,9 @@ appCountry:
 released: Oct 8, 2021
 updated: 2022-09-02
 version: '4.6'
-stars: 4.9
+stars: 5
 ratings: 
-reviews: 253
+reviews: 252
 size: 
 website: https://royalq.cloud
 repository: 
