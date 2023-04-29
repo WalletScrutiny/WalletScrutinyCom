@@ -18,7 +18,7 @@ country: TR
 price: 
 repository: 
 issue: 
-icon: bitsafe.card.png
+icon: bitsafecard.png
 bugbounty: 
 meta: ok
 verdict: prefilled
