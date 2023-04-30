@@ -1,4 +1,5 @@
 window.verdictCount = {}
+window.walletTotal = 0
 
 window.filteredWallets = window.wallets
 window.addEventListener("load", () => {
@@ -15,6 +16,7 @@ window.addEventListener("load", () => {
     const wallet = window.filteredWallets[w]
     window.verdictCount[wallet.folder][wallet.verdict]++
     window.verdictCount[wallet.folder]["all"]++
+    window.walletTotal++
   }
   recreateDropdowns("reproducible", "android")
 
@@ -39,15 +41,13 @@ window.addEventListener("load", () => {
 function recreateDropdowns(verdict, platform) {
   if (window.verdictOrder && window.verdictOrder.length > 0 && document.querySelector(".dropdown-verdict")) {
     let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All verdicts</span></div>`
-    let availableFilteredWallets = 0
+    let availableFilteredWallets = `Search ${window.walletTotal} wallet reviews...`
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
       if (count > 0) {
-        if (verdict === instanceVerdict) { availableFilteredWallets = count>0?`Search ${count} wallet reviews...`:`Search wallet reviews...` }
         html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${count} wallets</small></div>`
       }
       else if (verdict === instanceVerdict) {
-        availableFilteredWallets = `No wallets matched`
         html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
       }
     }
@@ -100,7 +100,7 @@ function productCount(verdict, platform) {
   return window.verdictCount[platform][verdict]
 }
 
-function updateModularPayload(page) {
+function updateModularPayload(page, unrestrictedSearch) {
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "android"
   // remove empty verdicts
@@ -130,7 +130,11 @@ function updateModularPayload(page) {
   const paltformOrder = 'android,iphone,hardware,bearer'.split(',')
   const metaOrder = 'ok,outdated,stale,obsolete,defunct'.split(',')
   window.filteredWallets.forEach(obj => {
-    if (obj.appId && obj.verdict && obj.folder &&
+    if (unrestrictedSearch) {
+      presort.push(obj)
+      appIds.push(obj.appId)
+    }
+    else if (obj.appId && obj.verdict && obj.folder &&
       (verdict === "all" || String(obj.verdict) === verdict) &&
       (platform === "all" || String(obj.folder) === platform)) {
       presort.push(obj)
@@ -154,13 +158,13 @@ function updateModularPayload(page) {
     return 0
   })
   page = page ? page : 0
-  renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"), page)
+  renderBadgesToDiv(presort, document.getElementById("modularWalletPayload"), page, verdict, platform)
   resizeLabelBold()
   updateUrl()
 }
 
 const paginationLimit = 15
-function renderBadgesToDiv(wallets, anchor, page) {
+function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   page = page ? page : 0
   const maxPages = Math.ceil(wallets.length / paginationLimit)
   if (!anchor)
@@ -200,7 +204,9 @@ function renderBadgesToDiv(wallets, anchor, page) {
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
-  flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">No wallets match for "${document.querySelector(".search-filtered-wallets").value}".<br>You can search for wallets by name or description.</p>` : badgesHtml
+  let queryEcho = document.querySelector(".search-filtered-wallets").value.length > 0 ? `No wallets match for "${document.querySelector(".search-filtered-wallets").value}".` : `Enter some text to search all wallets.`
+  let categoryMessage = productCount(verdict, platform)<1?`No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length>0?`<br>Showing results from all categories and platforms.`:``)}<br><br>`:`Showing results from <b>all</b> platforms and categories.`
+  flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
   d.append(pagination)
@@ -217,7 +223,7 @@ function updatePageinationUI(index) {
   window.pageIndex = index
   const allTargetEle = document.querySelectorAll(".click-target")
   for (const target of allTargetEle) { target.classList.remove("selected") }
-  allTargetEle[index].classList.add("selected")
+  if (allTargetEle[index]) { allTargetEle[index].classList.add("selected") }
   updateUrl(true)
   updateModularPayload(index)
 }
@@ -279,14 +285,17 @@ function filterWalletsByName() {
   if (searchTerm.length < 1) { window.filteredWallets = window.wallets }
   else {
     window.filteredWallets = []
-
     for (const wallet of window.wallets) {
       if (wallet.title.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+      else if (wallet.folder.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+      else if (wallet.category.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+      else if (wallet.appId.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
     }
   }
   const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "android"
   recreateDropdowns(verdict, platform)
-  updateModularPayload(0)
+  updateModularPayload(0, searchTerm.length >0?true:false)
 }
 document.querySelector(".search-filtered-wallets").addEventListener("input", filterWalletsByName)
+document.querySelector(".search-filtered-wallets").value=""

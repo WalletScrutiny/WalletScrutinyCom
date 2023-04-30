@@ -159,6 +159,9 @@
   min-height: 46px;
   &.component-verdict {
     width: 200px;
+    .option {
+      text-transform: capitalize;
+    }
   }
   &.component-platform {
     width: 156px;
