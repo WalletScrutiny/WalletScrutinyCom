@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: VARY
 stars: 4.6
 ratings: 1066810
-reviews: 313214
+reviews: 313426
 size: 
 website: https://cash.app
 repository: 
