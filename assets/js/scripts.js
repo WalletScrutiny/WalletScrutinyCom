@@ -205,7 +205,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   g.setAttribute("id", "tableofwallets")
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
   let queryEcho = document.querySelector(".search-filtered-wallets").value.length > 0 ? `No wallets match for "${document.querySelector(".search-filtered-wallets").value}".` : `Enter some text to search all wallets.`
-  let categoryMessage = productCount(verdict, platform)<1?`No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length>0?`<br>Showing results from all categories and platforms.`:``)}<br><br>`:`Showing results from <b>all</b> platforms and categories.`
+  let categoryMessage = productCount(verdict, platform)<1?`No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length>0?`<br>Showing ${wallets.length} results from all categories and platforms.`:``)}<br><br>`:`Showing ${wallets.length} results from <b>all</b> platforms and categories.`
   flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
