@@ -4,7 +4,8 @@
 {% assign android = site.android %}
 {% assign iphone = site.iphone %}
 {% assign hardware = site.hardware %}
-{% assign posts = android | concat: iphone | concat: hardware %}
+{% assign bearer = site.bearer %}
+{% assign posts = android | concat: iphone | concat: hardware | concat:bearer %}
 
 
 {%- for verdict_group in verdicts_grouped -%}
