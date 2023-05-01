@@ -56,11 +56,13 @@
   <h2>We answer the following questions usually in this order:</h2>
 
     {% for ver in verdicts %}
+    {% include /methodology/section_title.html verdict=ver type="verdict" %}
     {% include verdictMethodology.html verdict=ver %}
     {% endfor %}
     {% if metas.size != 0 %}
     {% assign metas = metas | uniq %}
       <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+      {% include /methodology/section_title.html type="meta" %}
       {% for meta in metas %}
       {% include verdictMethodology.html verdict=meta %}
       {% endfor %}

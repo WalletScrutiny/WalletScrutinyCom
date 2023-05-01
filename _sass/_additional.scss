@@ -438,3 +438,26 @@
     min-width: 215px;
   }
 }
+
+.section-title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+  .circle{
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--text);
+    color: var(--body);
+    border-radius: 100px;
+  }
+  h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
