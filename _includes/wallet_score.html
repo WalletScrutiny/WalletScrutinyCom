@@ -1,7 +1,7 @@
-{% if site.data.platformMeta[include.platform].metas > 0 %}
-{% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
+{% if site.data.platformMeta[include.platform].metas.size > 0 %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
 {% else %}
-{% assign criteria = site.data.platformMeta[include.platform].verdicts %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
 {% endif %}
 {% assign count = 1 %}
 {% for criterion in criteria %}
