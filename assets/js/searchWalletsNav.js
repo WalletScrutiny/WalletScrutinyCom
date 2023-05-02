@@ -139,6 +139,7 @@ function searchCatalogueNav(input) {
 function getIcon(name) {
   let faCollection = ''
   switch (name) {
+    case "all": faCollection = "i-all-devices"; break
     case "android": faCollection = "fab fa-google-play"; break
     case "iphone": faCollection = "i-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break

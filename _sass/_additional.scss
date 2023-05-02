@@ -444,7 +444,7 @@
   gap: 10px;
   align-items: center;
   margin-top: 30px;
-  .circle{
+  .circle {
     font-size: 18px;
     width: 40px;
     height: 40px;
@@ -455,9 +455,37 @@
     color: var(--body);
     border-radius: 100px;
   }
-  h3{
+  h3 {
     margin: 0;
     font-size: 14px;
     font-weight: 300;
+  }
+}
+
+.score {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+  span {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  div {
+    display: flex;
+    gap: 3px;
+    .pass,
+    .fail {
+      display: block;
+      height: 4px;
+      min-width: 3px;
+      border-radius: 2px;
+      background-color: var(--text);
+      flex-grow: 1;
+    }
+    .fail {
+      opacity: 0.3;
+    }
   }
 }

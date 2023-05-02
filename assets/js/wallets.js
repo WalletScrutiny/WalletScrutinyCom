@@ -44,7 +44,7 @@ window.wallets.sort((a, b) => {
     )
 })
 
-window.platformObs = []
+window.platformObs = ["all"]
 window.orderedObs = []
 var readerRec = []
 window.wallets.forEach(e => {
