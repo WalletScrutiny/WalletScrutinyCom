@@ -461,7 +461,13 @@
     font-weight: 300;
   }
 }
-
+.AppDisplayCard.opened{
+  .score{
+    span{
+      text-align: left;
+    }
+  }
+}
 .score {
   width: 100%;
   display: grid;
