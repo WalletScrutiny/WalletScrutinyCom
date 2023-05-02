@@ -421,6 +421,11 @@
   margin: 20px auto;
   background: var(--accent-50);
   border-radius: 10px;
+  @media (max-width: 550px) {
+    grid-template: repeat(3, auto) / 1fr;
+    text-align: center;
+    gap: 20px;
+  }
   h3 {
     margin: 0;
     grid-column: 1/2;
@@ -436,6 +441,10 @@
     grid-row: 1/3;
     margin: auto;
     min-width: 215px;
+    @media (max-width: 550px) {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
   }
 }
 
@@ -461,9 +470,9 @@
     font-weight: 300;
   }
 }
-.AppDisplayCard.opened{
-  .score{
-    span{
+.AppDisplayCard.opened {
+  .score {
+    span {
       text-align: left;
     }
   }
