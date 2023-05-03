@@ -3,13 +3,13 @@ wsId: followMyTrader
 title: Follow MyMoney
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: de.followmytrader
 appCountry: 
 released: Mar 9, 2020
-updated: 2023-03-31
-version: 2.1.0
+updated: 2023-04-27
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/FollowMyMoneyOfficial
 - https://www.instagram.com/followmymoney_official
 - https://www.youtube.com/c/FollowMyMoneyYT
-- https://www.linkedin.com/company/fels-group/ 
+- https://www.linkedin.com/company/fels-group/
 redirect_from: 
 features: 
 

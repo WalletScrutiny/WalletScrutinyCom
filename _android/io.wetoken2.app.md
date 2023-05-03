@@ -3,7 +3,7 @@ wsId:
 title: WeToken
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.wetoken2.app
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-04-15
 signer: 
 reviewArchive: 
 twitter: wetokenpro
-social: 
+social:
 - https://www.facebook.com/WetokenPro
 - https://www.reddit.com/user/WeTokenPay
 - https://t.me/WeToken_English

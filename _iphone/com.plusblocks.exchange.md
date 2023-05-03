@@ -12,7 +12,7 @@ version: 1.5.13
 stars: 0
 reviews: 0
 size: '122064896'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.plusblocks.exchange.jpg
@@ -24,7 +24,7 @@ signer:
 reviewArchive: 
 twitter: box_trad
 social:
-- https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA  
+- https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 features: 
 
 ---

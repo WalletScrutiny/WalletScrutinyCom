@@ -3,16 +3,16 @@ wsId: weltheeWallet
 title: Welthee Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.CapiteraAG.Welthee
 appCountry: sg
 idd: '1562108720'
 released: '2021-07-19T07:00:00Z'
-updated: 2023-03-29
-version: 4.3.0
+updated: 2023-04-20
+version: 4.3.1
 stars: 0
 reviews: 0
-size: '75803648'
+size: '95833088'
 website: https://welthee.com
 repository: 
 issue: 
@@ -29,5 +29,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

@@ -3,7 +3,7 @@ wsId: wxInvest
 title: WX Invest
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: exchange.waves.invest
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: WXNetwork
 social:
-- https://www.facebook.com/WavesExchange-110844914984722  
+- https://www.facebook.com/WavesExchange-110844914984722
 redirect_from: 
 features: 
 

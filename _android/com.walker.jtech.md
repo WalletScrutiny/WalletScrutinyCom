@@ -3,16 +3,16 @@ wsId:
 title: Jtechtrade:Crypto & Giftcards
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.walker.jtech
 appCountry: 
 released: Sep 26, 2021
 updated: 2023-04-17
 version: 1.0.7
-stars: 3.2
+stars: 3.3
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: http://www.jtechtrade.com
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.instagram.com/jtechtrade
-- https://www.linkedin.com/company/jtech-global-resources-limited 
+- https://www.linkedin.com/company/jtech-global-resources-limited
 redirect_from: 
 features: 
 

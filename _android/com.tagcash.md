@@ -3,7 +3,7 @@ wsId:
 title: Tagcash Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.tagcash
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/tagcash-ltd/
-- https://www.facebook.com/tagcashrewards 
+- https://www.facebook.com/tagcashrewards
 redirect_from: 
 features: 
 

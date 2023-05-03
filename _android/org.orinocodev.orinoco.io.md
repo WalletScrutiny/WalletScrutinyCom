@@ -3,14 +3,14 @@ wsId:
 title: Orinoco.io
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: org.orinocodev.orinoco.io
 appCountry: 
 released: Apr 26, 2020
-updated: 2023-04-05
+updated: 2023-04-24
 version: 1.0.0
-stars: 4.2
+stars: 4.1
 ratings: 
 reviews: 10
 size: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/teamorinoco/videos/554519616420848 
+- https://www.facebook.com/teamorinoco/videos/554519616420848
 redirect_from: 
 features: 
 

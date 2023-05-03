@@ -2,7 +2,7 @@
 wsId: 
 title: SafePay
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: org.safecoin.safepay
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/safecoins/
 - https://www.instagram.com/safecoinproject/
 - https://www.linkedin.com/company/safecoins/
-- https://www.youtube.com/c/Safecoin 
+- https://www.youtube.com/c/Safecoin
 redirect_from: 
 features: 
 

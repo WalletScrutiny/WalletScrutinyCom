@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.techio.sendenero.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

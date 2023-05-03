@@ -3,7 +3,7 @@ wsId:
 title: CforCoins
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.vdcloud.cforcoins
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CoinsCfor
 social:
-- https://www.instagram.com/cforcoins/ 
+- https://www.instagram.com/cforcoins/
 redirect_from: 
 features: 
 

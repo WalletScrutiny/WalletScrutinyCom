@@ -3,16 +3,16 @@ wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.switchere.switchere
 appCountry: 
 released: Nov 15, 2021
 updated: 2023-01-04
 version: 1.1.4
-stars: 3.5
+stars: 3.6
 ratings: 
-reviews: 37
+reviews: 38
 size: 
 website: https://switchere.com/
 repository: 
@@ -28,7 +28,7 @@ twitter: Switchere_com
 social:
 - https://www.facebook.com/switchere.official
 - https://t.me/switchere
-- https://www.reddit.com/user/switchere 
+- https://www.reddit.com/user/switchere
 redirect_from: 
 features: 
 

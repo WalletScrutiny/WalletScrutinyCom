@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MYKOBO
+title: 'MYKOBO: Buy, Sell, Use EURC'
 altTitle: 
 authors: 
 users: 100

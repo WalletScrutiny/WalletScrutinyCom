@@ -3,7 +3,7 @@ wsId:
 title: Shah Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.wa.shah
 appCountry: 
@@ -28,7 +28,7 @@ twitter: ShahOfCryptoApp
 social:
 - https://www.facebook.com/shahofcrypto/
 - https://t.me/shahofcryptoofficial
-- https://www.instagram.com/shahofcryptoapp/ 
+- https://www.instagram.com/shahofcryptoapp/
 redirect_from: 
 features: 
 

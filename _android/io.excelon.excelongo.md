@@ -3,7 +3,7 @@ wsId: excelonGo
 title: Excelon.GO - Digital money
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.excelon.excelongo
 appCountry: 

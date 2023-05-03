@@ -3,7 +3,7 @@ wsId: immuneMessenger
 title: IMMUNE Messenger
 altTitle: 
 authors:
-- danny 
+- danny
 appId: im.immune.app
 appCountry: ru
 idd: '1489335158'
@@ -13,7 +13,7 @@ version: 2.0.33
 stars: 5
 reviews: 4
 size: '86696960'
-website: https://immune.im/
+website: https://imm.app/
 repository: 
 issue: 
 icon: im.immune.app.jpg

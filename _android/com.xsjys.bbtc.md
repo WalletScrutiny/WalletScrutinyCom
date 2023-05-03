@@ -3,12 +3,12 @@ wsId:
 title: CDEX-Trade Bitcoin & Crypto
 altTitle: 
 authors:
-- danny 
-users: 10000
+- danny
+users: 50000
 appId: com.xsjys.bbtc
 appCountry: 
 released: Mar 1, 2022
-updated: 2023-04-03
+updated: 2023-04-23
 version: 1.4.7
 stars: 
 ratings: 
@@ -20,7 +20,7 @@ issue:
 icon: com.xsjys.bbtc.png
 bugbounty: 
 meta: ok
-verdict: nosendreceive 
+verdict: nosendreceive
 date: 2023-04-18
 signer: 
 reviewArchive: 

@@ -3,7 +3,7 @@ wsId: xInfinity
 title: X Infinity
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.pellar.xifapp
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/xinfinityholding/ 
+- https://www.linkedin.com/company/xinfinityholding/
 redirect_from: 
 features: 
 

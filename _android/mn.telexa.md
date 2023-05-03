@@ -3,7 +3,7 @@ wsId: mnTelexa
 title: Telexa.mn - Хөрөнгө оруулалт
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: mn.telexa
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Telexa.mn/ 
+- https://www.facebook.com/Telexa.mn/
 redirect_from: 
 features: 
 

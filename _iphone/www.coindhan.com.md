@@ -3,7 +3,7 @@ wsId: coindhan
 title: Coindhan
 altTitle: 
 authors:
-- danny  
+- danny
 appId: www.coindhan.com
 appCountry: us
 idd: '1601649228'
@@ -24,7 +24,7 @@ date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: coin_dhan
-social: 
+social:
 - https://www.facebook.com/CoinDhanOfficial/
 - https://www.linkedin.com/company/coindhan/
 - https://t.me/coindhan/
@@ -34,5 +34,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

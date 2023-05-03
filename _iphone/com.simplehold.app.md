@@ -3,7 +3,7 @@ wsId: simpleholdCrypto
 title: SimpleHold - Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.simplehold.app
 appCountry: gb
 idd: '1589064973'
@@ -26,9 +26,10 @@ reviewArchive:
 twitter: SimpleHold
 social:
 - https://t.me/simplehold_io
-- https://www.reddit.com/r/SH_Cryptowallet/ 
+- https://www.reddit.com/r/SH_Cryptowallet/
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

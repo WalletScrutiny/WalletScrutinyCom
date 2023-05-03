@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.satochip.satodimeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: 

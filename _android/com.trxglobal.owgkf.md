@@ -3,7 +3,7 @@ wsId:
 title: Transaction
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.trxglobal.owgkf
 appCountry: 

@@ -7,8 +7,8 @@ users: 50
 appId: com.gk8.network
 appCountry: 
 released: Sep 1, 2021
-updated: 2023-04-11
-version: 11.1.0
+updated: 2023-04-21
+version: 11.1.1
 stars: 
 ratings: 
 reviews: 

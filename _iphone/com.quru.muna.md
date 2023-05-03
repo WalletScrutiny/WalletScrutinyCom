@@ -10,8 +10,8 @@ idd: '1560415690'
 released: 2021-08-26
 updated: 2023-03-25
 version: 2.5.2
-stars: 4.5
-reviews: 2
+stars: 3.3
+reviews: 3
 size: '55870464'
 website: https://muna.app
 repository: 

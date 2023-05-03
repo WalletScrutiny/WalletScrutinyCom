@@ -3,16 +3,16 @@ wsId: kiteFinancialWallet
 title: Kite Financial  Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.kitefinancial.wallet
 appCountry: 
 released: Jul 22, 2020
 updated: 2022-10-03
 version: 2.2.7
-stars: 
+stars: 2.6
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://kitefinancial.io
 repository: 
@@ -28,7 +28,7 @@ twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial
 - https://www.instagram.com/kite_financial
-- https://www.linkedin.com/company/kitefinancial 
+- https://www.linkedin.com/company/kitefinancial
 redirect_from: 
 features: 
 

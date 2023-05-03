@@ -3,16 +3,16 @@ wsId: usenobi
 title: 'NOBI: Own Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.usenobi
 appCountry: 
 released: Jul 15, 2020
 updated: 2023-02-22
 version: 3.5.2
-stars: 3.7
+stars: 3.3
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://usenobi.com
 repository: 

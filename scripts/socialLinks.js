@@ -51,7 +51,7 @@ const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
 
 const sl = function (header, body, fileName, category) {
-  (header.social || []).forEach(it => console.log(it))
+  (header.social || []).forEach(console.log)
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {

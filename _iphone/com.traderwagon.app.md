@@ -1,18 +1,18 @@
 ---
 wsId: traderWagon
-title: 'TraderWagon: Trade Crypto'
+title: 'TraderWagon: Copy Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.traderwagon.app
 appCountry: sg
 idd: '1605104202'
 released: '2022-02-21T08:00:00Z'
-updated: 2023-04-10
-version: 1.5.1
+updated: 2023-04-27
+version: 1.6.0
 stars: 5
-reviews: 3
-size: '111746048'
+reviews: 4
+size: '111950848'
 website: https://www.traderwagon.com/
 repository: 
 issue: 
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

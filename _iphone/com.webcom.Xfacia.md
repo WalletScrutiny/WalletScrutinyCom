@@ -3,7 +3,7 @@ wsId: xfacia
 title: Xfacia
 altTitle: 
 authors:
-- danny  
+- danny
 appId: com.webcom.Xfacia
 appCountry: br
 idd: '1620527067'
@@ -24,12 +24,13 @@ date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange
-social: 
+social:
 - https://www.facebook.com/XFACIAXCHANGE
 - https://www.instagram.com/p/CTeDT7Ui0Ee
 - https://t.me/XfaciaXchange
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

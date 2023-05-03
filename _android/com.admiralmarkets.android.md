@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: 'Admirals: Trade Stocks & CFDs'
+title: 'Admirals: Learn, Invest, Trade'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-10-07
 updated: 2023-03-30
 version: 1.7.3
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 4
 size: 

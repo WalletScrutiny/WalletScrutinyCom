@@ -8,8 +8,8 @@ users: 5000
 appId: com.bbae.pro
 appCountry: 
 released: Jun 17, 2021
-updated: 2023-03-01
-version: 5.0.7
+updated: 2023-04-23
+version: 5.2.0
 stars: 4.7
 ratings: 
 reviews: 5

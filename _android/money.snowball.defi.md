@@ -3,7 +3,7 @@ wsId: snowballDeFi
 title: 'Snowball: Smart DeFi wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: money.snowball.defi
 appCountry: 

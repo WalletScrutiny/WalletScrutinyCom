@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.add_mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

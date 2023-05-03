@@ -3,7 +3,7 @@ wsId: wooXTrading
 title: 'WOO X: Zero-fee crypto trading'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: network.woo.mobile
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: WOOnetwork
 social:
 - https://www.facebook.com/WOOnetwork.official
-- https://www.linkedin.com/company/woonetwork/ 
+- https://www.linkedin.com/company/woonetwork/
 redirect_from: 
 features: 
 

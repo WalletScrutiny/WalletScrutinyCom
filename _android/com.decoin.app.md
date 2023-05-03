@@ -3,7 +3,7 @@ wsId:
 title: Decoin
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.decoin.app
 appCountry: 
 released: Feb 11, 2022

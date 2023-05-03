@@ -3,7 +3,7 @@ wsId:
 title: BTC6X Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: exchange.btc6x.com
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/btc6x
 - https://t.me/btc6x
-- https://www.instagram.com/btc.6x/ 
+- https://www.instagram.com/btc.6x/
 redirect_from: 
 features: 
 

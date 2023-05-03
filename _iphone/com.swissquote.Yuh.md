@@ -10,8 +10,8 @@ idd: '1493935010'
 released: '2021-05-10T07:00:00Z'
 updated: 2023-03-17
 version: 1.13.2
-stars: 4.6
-reviews: 6665
+stars: 4.7
+reviews: 6862
 size: '67756032'
 website: https://www.yuh.com
 repository: 

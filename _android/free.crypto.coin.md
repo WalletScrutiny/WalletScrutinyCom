@@ -3,7 +3,7 @@ wsId:
 title: Free Crypto Coin & Airdrops
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: free.crypto.coin
 appCountry: 
@@ -30,5 +30,6 @@ redirect_from:
 features: 
 
 ---
+
 This app is no longer on Google Play (404).
 

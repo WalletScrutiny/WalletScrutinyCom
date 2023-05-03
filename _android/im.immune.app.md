@@ -3,18 +3,18 @@ wsId: immuneMessenger
 title: IMMUNE Messenger
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: im.immune.app
 appCountry: 
 released: Nov 29, 2019
-updated: 2023-02-14
-version: 2.0.32
+updated: 2023-04-26
+version: 2.0.33
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://immune.im/
+website: https://imm.app/
 repository: 
 issue: 
 icon: im.immune.app.png

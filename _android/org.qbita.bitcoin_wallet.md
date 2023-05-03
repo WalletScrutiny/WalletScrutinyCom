@@ -3,7 +3,7 @@ wsId:
 title: QBita - Mercado de Bitcoin
 altTitle: 
 authors:
-- danny   
+- danny
 users: 10000
 appId: org.qbita.bitcoin_wallet
 appCountry: 
