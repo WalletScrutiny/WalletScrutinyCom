@@ -16,11 +16,11 @@ reviews:
 size: 
 website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android
-issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
+issue: 
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: reproducible
 date: 2023-04-30
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive: 
@@ -34,6 +34,8 @@ redirect_from:
 features: 
 
 ---
+
+**Update 2023-05-04**: Emanuel from WalletScrutiny and Stephan Oeste were able to reproduce the latest release under certain conditions and specific environment configs, Which is slightly different from our default script that causes different results. So with this claim we can mark Samourai Wallet as {% include verdictBadge.html verdict='reproducible' type='short' %}. For more info you can follow [this thread](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/468).
 
 **Update 2023-04-30**: The latest version of {{ page.title }}, `0.99.98g`, is still
 {% include verdictBadge.html verdict='nonverifiable' type='short' %} with the same result as `0.99.98f`.
