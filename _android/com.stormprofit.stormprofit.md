@@ -2,7 +2,8 @@
 wsId: 
 title: StormProfit - Passive income w
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.stormprofit.stormprofit
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.stormprofit.stormprofit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404).

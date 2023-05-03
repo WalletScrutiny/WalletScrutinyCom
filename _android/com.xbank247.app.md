@@ -2,7 +2,8 @@
 wsId: 
 title: XBank - Blockchain Bank
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.xbank247.app
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.xbank247.app.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-03-21
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).
