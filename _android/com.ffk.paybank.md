@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.ffk.paybank) 
+## App Description from Google Play
 
 Translated from Korean
 
@@ -54,4 +54,4 @@ The [Terms](https://web.archive.org/web/20220625053945/https://www.paybank.com/t
 
 > We reserve a right to restrict or terminate provision of services discussed in these Terms and Conditions of the Agreement to you, to suspend fulfilment of concluded Virtual Currency Purchase-Sale Agreement and (or) to repudiate it at any time without any prior warning as well as to block or delete your Account 
 
-Without the private keys, this **cannot be a non-custodial app**.  
+Without the private keys, this must be **a custodial app**.

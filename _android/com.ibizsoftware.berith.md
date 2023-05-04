@@ -45,6 +45,6 @@ We successfully registered with the service. We were given the private key to th
 
 On another note, when we were trying to save the private key to the phone, the app did nothing. It only proceeded when we clicked on the option to save on the server. 
 
-Since the private key is provided, and (theoretically) a Bitcoin wallet is present, the next step is to find the source code for the app if it is publicly available. There is no repository that matches the appID of the app.
+Since the private key is provided, and (theoretically) a Bitcoin wallet is present, the next step is to find the source code for the app if it is publicly available. We could not finda repository that matches the appID of the app on GitHub.
 
 We'll email them to ask about the status of the Bitcoin wallet, but for now, we'll keep this app as a work-in-progress.
