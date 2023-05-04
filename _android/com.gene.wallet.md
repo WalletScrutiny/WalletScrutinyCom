@@ -31,7 +31,7 @@ features:
 
 ---
 
-Note: The app is very old. It won't even run on BS5 Pie (64-bit)
+Note: The app is very old. It won't even run on BlueStacks 5 with an Android Pie (64-bit Android 9) instance.
 
 ## App Description from Google Play 
 
@@ -53,6 +53,6 @@ Interestingly their website is still online and we were successfully able to rec
 
 Without the private keys, this is a **custodial** app.
 
-Note that this is most likely an obsolete app. 
+Note, that this is an obsolete app so it is not advisable to use it.
 
  

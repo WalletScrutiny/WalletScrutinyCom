@@ -30,6 +30,13 @@ redirect_from:
 features: 
 
 ---
+
+<div class="alertBox">
+<div>
+<p>⚠️ A Word of Caution: The generator might not generate actually random seeds. The provider of this app might be after your bitcoins and this app should only be used after closer inspection.</p>
+</div>
+</div>
+
 ## App Description from Google Play 
 
 > Use to generate seed phrases, secret words. It uses the word list from BIP-39 and all phrases has a correct checksum. No ads. No storage or other permissions needed. We can not help you recover any phrases after the app is closed or new phrases are generated.

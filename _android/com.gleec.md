@@ -1,5 +1,5 @@
 ---
-wsId: gleecbtc
+wsId: gleecCard
 title: Gleec Card
 altTitle: 
 authors:
@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 6
 size: 
-website: https://gleecbtc.com
+website: https://gleec.com
 repository: 
 issue: 
 icon: com.gleec.png
@@ -32,6 +32,8 @@ redirect_from:
 features: 
 
 ---
+
+**Clarification:** The app called "Gleec Card" is an Android app. The card is optional and can be ordered via the app. The card is a Visa card. 
 
 ## App Description from Google Play 
 

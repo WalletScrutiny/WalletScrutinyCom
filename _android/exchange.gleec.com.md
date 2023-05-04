@@ -1,9 +1,8 @@
 ---
-wsId: gleecbtc
+wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
 authors:
-- danny 
 users: 500
 appId: exchange.gleec.com
 appCountry: 
@@ -30,5 +29,6 @@ redirect_from:
 features: 
 
 ---
-{% include copyFromAndroid.html %}
+
+
 

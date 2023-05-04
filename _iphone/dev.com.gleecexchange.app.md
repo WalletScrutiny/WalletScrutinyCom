@@ -1,9 +1,8 @@
 ---
-wsId: 
+wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
 authors:
-- danny 
 appId: dev.com.gleecexchange.app
 appCountry: us
 idd: '1541005487'
@@ -19,7 +18,7 @@ issue:
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
 meta: obsolete
-verdict: custodial
+verdict: fewusers
 date: 2023-04-22
 signer: 
 reviewArchive: 
