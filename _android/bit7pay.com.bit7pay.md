@@ -31,11 +31,7 @@ features:
 
 ---
 
-Note: The app name is similar to 
-
-- {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}
-
-The only difference is this app has a '7' between the word 'bit' and 'pay'. 
+Despite its name resembling {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}, it doesn't look like a fake "BitPay" wallet trying to fool users. 
 
 The homepage for this app is no longer online. 
 
