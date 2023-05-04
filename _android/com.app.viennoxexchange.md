@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.viennoxexchange
 appCountry: 
-released: Oct 12, 2021
+released: 2021-10-12
 updated: 2021-10-18
 version: '1.1'
 stars: 

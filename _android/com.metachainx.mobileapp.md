@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.metachainx.mobileapp
 appCountry: 
-released: May 3, 2022
+released: 2022-05-03
 updated: 2022-05-06
 version: '1.1'
 stars: 

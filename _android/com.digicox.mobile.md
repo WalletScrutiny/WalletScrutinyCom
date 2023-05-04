@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.digicox.mobile
 appCountry: 
-released: Jul 13, 2021
+released: 2021-07-13
 updated: 2021-07-13
 version: '1.0'
 stars: 4.4

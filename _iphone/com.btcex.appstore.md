@@ -7,7 +7,7 @@ authors:
 appId: com.btcex.appstore
 appCountry: am
 idd: '1580680668'
-released: '2021-10-22T07:00:00Z'
+released: 2021-10-22
 updated: 2023-04-27
 version: 1.3.9
 stars: 0

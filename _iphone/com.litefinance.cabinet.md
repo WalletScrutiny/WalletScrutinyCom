@@ -7,7 +7,7 @@ authors:
 appId: com.litefinance.cabinet
 appCountry: us
 idd: '1661254805'
-released: '2023-01-11T08:00:00Z'
+released: 2023-01-11
 updated: 2023-04-27
 version: '1.50'
 stars: 3.6

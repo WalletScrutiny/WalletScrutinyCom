@@ -7,7 +7,7 @@ authors:
 appId: africa.obiex.app
 appCountry: ng
 idd: '1567887163'
-released: '2021-06-18T07:00:00Z'
+released: 2021-06-18
 updated: 2023-04-01
 version: 3.3.4
 stars: 4.7

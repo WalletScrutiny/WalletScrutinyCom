@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bvcrypto
 appCountry: 
-released: May 28, 2019
+released: 2019-05-28
 updated: 2019-05-28
 version: '1.2'
 stars: 

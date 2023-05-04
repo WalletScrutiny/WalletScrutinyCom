@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.zoid.geboapp
 appCountry: 
-released: May 12, 2021
+released: 2021-05-12
 updated: 2021-05-12
 version: 2.0.0
 stars: 

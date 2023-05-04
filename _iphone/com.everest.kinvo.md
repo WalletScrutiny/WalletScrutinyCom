@@ -7,7 +7,7 @@ authors:
 appId: com.everest.kinvo
 appCountry: BR
 idd: '1327335329'
-released: '2018-01-03T22:03:52Z'
+released: 2018-01-03
 updated: 2023-04-17
 version: 3.16.3
 stars: 4.6

@@ -7,7 +7,7 @@ authors:
 appId: com.nicehash.mobile
 appCountry: us
 idd: '1372054956'
-released: '2020-04-29T07:00:00Z'
+released: 2020-04-29
 updated: 2023-04-26
 version: 5.3.3
 stars: 4.4

@@ -7,7 +7,7 @@ authors:
 appId: com.satang-pro.ios
 appCountry: us
 idd: '1513155132'
-released: '2021-08-25T07:00:00Z'
+released: 2021-08-25
 updated: 2023-04-28
 version: 1.4.4
 stars: 3.7

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.exchanger24pb.myapplication24
 appCountry: 
-released: Feb 7, 2020
+released: 2020-02-07
 updated: 2020-02-27
 version: '1.2'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.app.gowowx
 appCountry: 
-released: Oct 11, 2019
+released: 2019-10-11
 updated: 2020-07-13
 version: 1.0.9
 stars: 

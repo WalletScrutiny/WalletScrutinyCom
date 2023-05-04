@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.bituniverse.portfolio
 appCountry: 
-released: Sep 30, 2017
+released: 2017-09-30
 updated: 2022-12-27
 version: 3.8.1
 stars: 4

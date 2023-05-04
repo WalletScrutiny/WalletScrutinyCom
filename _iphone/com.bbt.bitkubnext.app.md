@@ -7,7 +7,7 @@ authors:
 appId: com.bbt.bitkubnext.app
 appCountry: th
 idd: '6444399387'
-released: '2022-12-07T08:00:00Z'
+released: 2022-12-07
 updated: 2023-04-29
 version: 1.5.1
 stars: 5

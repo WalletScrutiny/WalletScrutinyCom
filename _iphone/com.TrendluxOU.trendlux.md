@@ -7,7 +7,7 @@ authors:
 appId: com.TrendluxOU.trendlux
 appCountry: us
 idd: '1370977008'
-released: '2018-05-14T01:40:40Z'
+released: 2018-05-14
 updated: 2023-03-22
 version: '3.5'
 stars: 4.7

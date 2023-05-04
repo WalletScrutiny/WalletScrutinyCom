@@ -7,7 +7,7 @@ authors:
 appId: money.snowball.app
 appCountry: us
 idd: '1449662311'
-released: '2019-07-18T18:21:25Z'
+released: 2019-07-18
 updated: 2023-01-22
 version: 2.7.1
 stars: 4.2

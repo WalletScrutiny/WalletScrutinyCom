@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.zbbtc.app
 appCountry: 
-released: Apr 9, 2022
+released: 2022-04-09
 updated: 2022-04-09
 version: '1.0'
 stars: 5

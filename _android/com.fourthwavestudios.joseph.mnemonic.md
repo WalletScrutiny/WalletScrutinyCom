@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.fourthwavestudios.joseph.mnemonic
 appCountry: 
-released: May 18, 2021
+released: 2021-05-18
 updated: 2021-05-18
 version: '2'
 stars: 

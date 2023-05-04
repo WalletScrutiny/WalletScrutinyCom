@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.kangamobile
 appCountry: 
-released: Jan 3, 2020
+released: 2020-01-03
 updated: 2023-04-20
 version: 1.14.0
 stars: 

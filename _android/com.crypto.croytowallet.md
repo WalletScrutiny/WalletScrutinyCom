@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.crypto.croytowallet
 appCountry: 
-released: Feb 16, 2021
+released: 2021-02-16
 updated: 2023-03-01
 version: 13.2.1
 stars: 

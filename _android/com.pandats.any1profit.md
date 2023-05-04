@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.pandats.any1profit
 appCountry: 
-released: May 2, 2019
+released: 2019-05-02
 updated: 2019-05-02
 version: 1.0.1
 stars: 

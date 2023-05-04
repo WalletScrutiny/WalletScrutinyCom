@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bitdd.appoo
 appCountry: 
-released: May 14, 2022
+released: 2022-05-14
 updated: 2022-05-19
 version: 1.0.2
 stars: 

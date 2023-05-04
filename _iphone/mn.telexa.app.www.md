@@ -7,7 +7,7 @@ authors:
 appId: mn.telexa.app.www
 appCountry: mn
 idd: '1596968900'
-released: '2021-12-02T08:00:00Z'
+released: 2021-12-02
 updated: 2022-12-14
 version: '5.6'
 stars: 4.8

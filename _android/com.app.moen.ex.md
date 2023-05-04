@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.app.moen.ex
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-05-06
 version: 1.0.1
 stars: 

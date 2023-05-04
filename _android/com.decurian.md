@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.decurian
 appCountry: 
-released: Dec 27, 2021
+released: 2021-12-27
 updated: 2022-03-02
 version: '2.0'
 stars: 5

@@ -6,7 +6,7 @@ authors:
 users: 100000
 appId: com.uho.thodex
 appCountry: 
-released: Mar 13, 2020
+released: 2020-03-13
 updated: 2020-08-18
 version: 1.0.10
 stars: 3.8

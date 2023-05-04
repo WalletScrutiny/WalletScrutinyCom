@@ -7,7 +7,7 @@ authors:
 appId: com.nebeus.appmobile
 appCountry: gt
 idd: '1568251064'
-released: '2021-05-26T07:00:00Z'
+released: 2021-05-26
 updated: 2023-02-25
 version: 1.3.34
 stars: 0

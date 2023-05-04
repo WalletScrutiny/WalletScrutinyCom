@@ -7,7 +7,7 @@ authors:
 appId: com.boundless.boundlesspay
 appCountry: ng
 idd: '1598547096'
-released: '2021-12-28T08:00:00Z'
+released: 2021-12-28
 updated: 2023-04-02
 version: 2.1.1
 stars: 4.6

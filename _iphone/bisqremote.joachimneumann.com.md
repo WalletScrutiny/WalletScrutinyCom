@@ -7,7 +7,7 @@ authors:
 appId: bisqremote.joachimneumann.com
 appCountry: us
 idd: '1424420411'
-released: '2018-09-09T23:04:55Z'
+released: 2018-09-09
 updated: 2022-05-13
 version: '1.5'
 stars: 4.4

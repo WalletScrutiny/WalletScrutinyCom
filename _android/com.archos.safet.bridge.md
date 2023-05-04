@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.archos.safet.bridge
 appCountry: 
-released: Sep 11, 2019
+released: 2019-09-11
 updated: 2019-12-18
 version: 1.11-Release
 stars: 

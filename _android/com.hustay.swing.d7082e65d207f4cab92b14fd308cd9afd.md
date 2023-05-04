@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.hustay.swing.d7082e65d207f4cab92b14fd308cd9afd
 appCountry: 
-released: Apr 8, 2022
+released: 2022-04-08
 updated: 2022-04-08
 version: '0.6'
 stars: 

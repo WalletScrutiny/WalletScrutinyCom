@@ -7,7 +7,7 @@ authors:
 appId: com.digitra.digitraHB
 appCountry: us
 idd: '1577787451'
-released: '2022-03-12T08:00:00Z'
+released: 2022-03-12
 updated: 2023-04-26
 version: 1.0.47
 stars: 0

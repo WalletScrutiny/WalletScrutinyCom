@@ -7,7 +7,7 @@ authors:
 appId: fizen.io.wallet
 appCountry: us
 idd: '1621269508'
-released: '2022-04-28T07:00:00Z'
+released: 2022-04-28
 updated: 2023-04-18
 version: 1.9.1
 stars: 5

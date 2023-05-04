@@ -7,7 +7,7 @@ authors:
 appId: com.blofin.app
 appCountry: tt
 idd: '1616804346'
-released: '2022-04-15T07:00:00Z'
+released: 2022-04-15
 updated: 2023-04-11
 version: 2.1.2
 stars: 0

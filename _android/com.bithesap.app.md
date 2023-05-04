@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bithesap.app
 appCountry: 
-released: Aug 3, 2018
+released: 2018-08-03
 updated: 2019-05-08
 version: '1.3'
 stars: 

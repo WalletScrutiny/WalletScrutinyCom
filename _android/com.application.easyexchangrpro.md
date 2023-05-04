@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.application.easyexchangrpro
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2022-06-22
 version: 2.4.6
 stars: 

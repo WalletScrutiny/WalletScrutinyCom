@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: org.cryptonex.android
 appCountry: 
-released: Jun 15, 2019
+released: 2019-06-15
 updated: 2020-03-18
 version: 2.4.9
 stars: 1

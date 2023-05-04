@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cilia.wallet
 appCountry: 
-released: May 18, 2021
+released: 2021-05-18
 updated: 2021-05-18
 version: 1.0.1
 stars: 

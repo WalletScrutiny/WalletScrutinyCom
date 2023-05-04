@@ -7,7 +7,7 @@ authors:
 appId: com.ejara.ejarav2
 appCountry: fr
 idd: '1541127587'
-released: '2021-03-22T07:00:00Z'
+released: 2021-03-22
 updated: 2023-04-13
 version: 3.4.0+180
 stars: 4.1

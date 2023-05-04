@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.colover.coin
 appCountry: 
-released: Sep 18, 2018
+released: 2018-09-18
 updated: 2019-03-11
 version: 1.13.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.excelplusremit.app
 appCountry: 
-released: Mar 17, 2021
+released: 2021-03-17
 updated: 2022-07-12
 version: 3.0.8
 stars: 

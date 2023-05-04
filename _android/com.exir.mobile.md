@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.exir.mobile
 appCountry: 
-released: Nov 12, 2020
+released: 2020-11-12
 updated: 2023-02-23
 version: 1.2.4
 stars: 3.7

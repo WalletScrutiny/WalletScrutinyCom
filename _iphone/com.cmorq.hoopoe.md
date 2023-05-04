@@ -7,7 +7,7 @@ authors:
 appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
-released: '2020-12-13T08:00:00Z'
+released: 2020-12-13
 updated: 2023-04-10
 version: 5.0.2
 stars: 4.5

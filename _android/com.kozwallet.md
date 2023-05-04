@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.kozwallet
 appCountry: 
-released: Jun 13, 2020
+released: 2020-06-13
 updated: 2021-01-26
 version: '2.3'
 stars: 

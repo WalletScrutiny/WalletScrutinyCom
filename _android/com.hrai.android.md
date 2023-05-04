@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.hrai.android
 appCountry: 
-released: Apr 26, 2022
+released: 2022-04-26
 updated: 2022-05-26
 version: '1.2'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.instaforex.bitcoin
 appCountry: 
-released: Dec 15, 2016
+released: 2016-12-15
 updated: 2020-08-26
 version: 0.12.3
 stars: 

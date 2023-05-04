@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.conv5049zapx
 appCountry: 
-released: May 12, 2021
+released: 2021-05-12
 updated: 2021-05-12
 version: '1.0'
 stars: 

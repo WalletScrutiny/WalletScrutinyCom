@@ -7,7 +7,7 @@ authors:
 appId: com.coinstore.sg
 appCountry: us
 idd: '1567160644'
-released: '2021-05-12T07:00:00Z'
+released: 2021-05-12
 updated: 2023-04-24
 version: 2.0.0
 stars: 4

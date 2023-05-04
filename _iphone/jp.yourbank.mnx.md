@@ -7,7 +7,7 @@ authors:
 appId: jp.yourbank.mnx
 appCountry: jp
 idd: '1417085535'
-released: '2018-12-10T09:44:07Z'
+released: 2018-12-10
 updated: 2023-02-04
 version: 1.3.9
 stars: 4.4

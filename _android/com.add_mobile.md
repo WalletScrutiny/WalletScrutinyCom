@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.add_mobile
 appCountry: 
-released: Dec 10, 2021
+released: 2021-12-10
 updated: 2022-04-28
 version: '1.4'
 stars: 4.8

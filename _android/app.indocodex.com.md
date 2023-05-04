@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: app.indocodex.com
 appCountry: 
-released: Jun 23, 2020
+released: 2020-06-23
 updated: 2021-05-18
 version: 1.1.7
 stars: 

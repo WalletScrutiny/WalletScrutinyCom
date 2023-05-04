@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.anyjson.earn.freecryptofacute
 appCountry: 
-released: May 16, 2021
+released: 2021-05-16
 updated: 2022-09-28
 version: '1.5 '
 stars: 3.6

@@ -7,7 +7,7 @@ authors:
 appId: com.royalqs.pro.work
 appCountry: us
 idd: '1587849038'
-released: '2021-10-06T07:00:00Z'
+released: 2021-10-06
 updated: 2022-11-21
 version: 4.6.1
 stars: 4.2

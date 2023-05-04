@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.pallapay.application
 appCountry: 
-released: May 6, 2022
+released: 2022-05-06
 updated: 2022-05-07
 version: 1.0.3
 stars: 

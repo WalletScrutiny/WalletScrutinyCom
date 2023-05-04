@@ -6,7 +6,7 @@ authors:
 appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
-released: '2021-05-12T07:00:00Z'
+released: 2021-05-12
 updated: 2023-02-21
 version: 1.5.13
 stars: 0

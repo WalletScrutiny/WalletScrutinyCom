@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.centerprime.madi
 appCountry: 
-released: May 17, 2021
+released: 2021-05-17
 updated: 2021-06-02
 version: 1.0.2
 stars: 

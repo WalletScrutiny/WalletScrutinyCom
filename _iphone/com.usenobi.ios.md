@@ -7,7 +7,7 @@ authors:
 appId: com.usenobi.ios
 appCountry: id
 idd: '1510269362'
-released: '2020-07-15T07:00:00Z'
+released: 2020-07-15
 updated: 2023-02-24
 version: 3.5.2
 stars: 4.8

@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.bitcoinexc
 appCountry: 
-released: Sep 1, 2021
+released: 2021-09-01
 updated: 2023-04-15
 version: '1.12'
 stars: 3.8

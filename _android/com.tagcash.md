@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.tagcash
 appCountry: 
-released: Oct 19, 2016
+released: 2016-10-19
 updated: 2022-10-30
 version: 8.0.4
 stars: 

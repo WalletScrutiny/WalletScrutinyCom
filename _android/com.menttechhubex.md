@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.menttechhubex
 appCountry: 
-released: Jun 1, 2020
+released: 2020-06-01
 updated: 2020-06-04
 version: '3.0'
 stars: 

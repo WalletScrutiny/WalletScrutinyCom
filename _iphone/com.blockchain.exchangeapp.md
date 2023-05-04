@@ -7,7 +7,7 @@ authors:
 appId: com.blockchain.exchangeapp
 appCountry: us
 idd: '1557515848'
-released: '2021-09-13T07:00:00Z'
+released: 2021-09-13
 updated: 2023-04-27
 version: 202303.1.1
 stars: 4

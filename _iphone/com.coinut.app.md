@@ -7,7 +7,7 @@ authors:
 appId: com.coinut.app
 appCountry: us
 idd: '1331328939'
-released: '2018-02-06T04:20:12Z'
+released: 2018-02-06
 updated: 2022-11-01
 version: 2.8.0
 stars: 4

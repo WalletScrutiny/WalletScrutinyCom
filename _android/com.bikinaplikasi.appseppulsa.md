@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bikinaplikasi.appseppulsa
 appCountry: 
-released: Jul 6, 2020
+released: 2020-07-06
 updated: 2020-09-15
 version: '21.0'
 stars: 

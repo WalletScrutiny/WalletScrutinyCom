@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.ciclex.app
 appCountry: 
-released: Mar 11, 2021
+released: 2021-03-11
 updated: 2021-05-11
 version: v1.0.4
 stars: 

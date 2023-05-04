@@ -7,7 +7,7 @@ authors:
 appId: de.gratisbroker.ios.mobileapp
 appCountry: de
 idd: '1556711130'
-released: '2021-06-07T07:00:00Z'
+released: 2021-06-07
 updated: 2023-04-29
 version: 3.18.0
 stars: 4.7

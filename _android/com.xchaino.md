@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xchaino
 appCountry: 
-released: Sep 22, 2021
+released: 2021-09-22
 updated: 2022-06-14
 version: 2.1.3
 stars: 

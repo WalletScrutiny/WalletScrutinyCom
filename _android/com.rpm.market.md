@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.rpm.market
 appCountry: 
-released: Apr 20, 2021
+released: 2021-04-20
 updated: 2021-06-15
 version: 0.0.6
 stars: 

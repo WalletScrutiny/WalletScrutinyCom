@@ -7,7 +7,7 @@ authors:
 appId: im.adamant.adamant-messenger
 appCountry: us
 idd: '1341473829'
-released: '2018-08-04T21:54:44Z'
+released: 2018-08-04
 updated: 2023-04-12
 version: 2.9.1
 stars: 4.9

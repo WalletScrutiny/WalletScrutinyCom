@@ -7,7 +7,7 @@ authors:
 appId: so.onekey.wallet
 appCountry: us
 idd: '1609559473'
-released: '2022-04-27T07:00:00Z'
+released: 2022-04-27
 updated: 2023-04-26
 version: 4.4.0
 stars: 5

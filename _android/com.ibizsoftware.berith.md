@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.ibizsoftware.berith
 appCountry: 
-released: Mar 7, 2018
+released: 2018-03-07
 updated: 2019-05-10
 version: 1.1.3
 stars: 

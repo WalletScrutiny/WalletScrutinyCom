@@ -7,7 +7,7 @@ authors:
 appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
-released: '2022-02-09T08:00:00Z'
+released: 2022-02-09
 updated: 2023-04-25
 version: 2.2.5
 stars: 4.9

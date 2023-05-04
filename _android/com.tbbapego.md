@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tbbapego
 appCountry: 
-released: Oct 7, 2020
+released: 2020-10-07
 updated: 2020-10-07
 version: '3.0'
 stars: 

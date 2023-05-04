@@ -7,7 +7,7 @@ authors:
 appId: com.f2pool.F2PoolAPP
 appCountry: us
 idd: '1403702113'
-released: '2018-09-06T21:37:03Z'
+released: 2018-09-06
 updated: 2023-04-04
 version: 2.5.1
 stars: 4.2

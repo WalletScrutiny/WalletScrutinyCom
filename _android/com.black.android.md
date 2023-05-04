@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.black.android
 appCountry: 
-released: Jul 9, 2021
+released: 2021-07-09
 updated: 2023-01-18
 version: '23'
 stars: 

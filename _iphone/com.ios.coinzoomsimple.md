@@ -7,7 +7,7 @@ authors:
 appId: com.ios.coinzoomsimple
 appCountry: us
 idd: '1575983875'
-released: '2022-01-21T08:00:00Z'
+released: 2022-01-21
 updated: 2023-04-03
 version: 1.0.38
 stars: 4.4

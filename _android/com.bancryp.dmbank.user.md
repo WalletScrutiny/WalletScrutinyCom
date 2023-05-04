@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bancryp.dmbank.user
 appCountry: 
-released: Jul 31, 2020
+released: 2020-07-31
 updated: 2021-01-13
 version: 1.4.5
 stars: 

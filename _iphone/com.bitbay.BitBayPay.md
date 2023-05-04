@@ -7,7 +7,7 @@ authors:
 appId: com.bitbay.BitBayPay
 appCountry: us
 idd: '1205935259'
-released: '2017-03-17T19:10:44Z'
+released: 2017-03-17
 updated: 2022-02-10
 version: 2.1.1
 stars: 0

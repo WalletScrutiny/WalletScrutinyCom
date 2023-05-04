@@ -7,7 +7,7 @@ authors:
 appId: net.kortina.labs.Venmo
 appCountry: us
 idd: '351727428'
-released: '2010-04-03T05:41:47Z'
+released: 2010-04-03
 updated: 2023-04-28
 version: 10.16.0
 stars: 4.9

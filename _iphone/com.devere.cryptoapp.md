@@ -7,7 +7,7 @@ authors:
 appId: com.devere.cryptoapp
 appCountry: us
 idd: '1335720589'
-released: '2018-02-01T00:09:09Z'
+released: 2018-02-01
 updated: 2022-01-20
 version: '5.1'
 stars: 2.8

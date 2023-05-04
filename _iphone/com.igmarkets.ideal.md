@@ -7,7 +7,7 @@ authors:
 appId: com.igmarkets.ideal
 appCountry: sg
 idd: '406492428'
-released: '2011-01-24T10:11:59Z'
+released: 2011-01-24
 updated: 2023-04-28
 version: 10.917.0
 stars: 4.5

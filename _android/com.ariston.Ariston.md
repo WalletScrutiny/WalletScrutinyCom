@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ariston.Ariston
 appCountry: 
-released: Jul 2, 2019
+released: 2019-07-02
 updated: 2019-07-09
 version: 0.1.7
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitsmoney.mobile
 appCountry: 
-released: Apr 1, 2021
+released: 2021-04-01
 updated: 2021-05-17
 version: 1.0.2
 stars: 5

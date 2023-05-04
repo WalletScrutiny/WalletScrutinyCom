@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ufund.app
 appCountry: 
-released: Oct 21, 2021
+released: 2021-10-21
 updated: 2022-01-06
 version: '1.4'
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: com.hidollars.app
 appCountry: US
 idd: '1583215766'
-released: '2021-10-06T07:00:00Z'
+released: 2021-10-06
 updated: 2023-01-19
 version: 2.4.6
 stars: 3.7

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.vp.nguwallet
 appCountry: 
-released: May 4, 2022
+released: 2022-05-04
 updated: 2022-05-09
 version: 1.0.2
 stars: 

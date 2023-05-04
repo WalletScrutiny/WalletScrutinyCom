@@ -7,7 +7,7 @@ authors:
 appId: masterbank.ai
 appCountry: kr
 idd: '1599645061'
-released: '2022-02-27T08:00:00Z'
+released: 2022-02-27
 updated: 2023-04-05
 version: 0.10.6
 stars: 3.6

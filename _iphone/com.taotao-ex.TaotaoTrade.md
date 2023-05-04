@@ -7,7 +7,7 @@ authors:
 appId: com.taotao-ex.TaotaoTrade
 appCountry: jp
 idd: '1461654946'
-released: '2019-06-02T03:02:12Z'
+released: 2019-06-02
 updated: 2023-04-19
 version: 3.7.0
 stars: 1.8

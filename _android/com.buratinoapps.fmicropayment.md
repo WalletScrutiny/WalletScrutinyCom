@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.buratinoapps.fmicropayment
 appCountry: 
-released: May 6, 2022
+released: 2022-05-06
 updated: 2022-07-11
 version: '1.6'
 stars: 

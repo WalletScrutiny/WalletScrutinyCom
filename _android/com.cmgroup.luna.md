@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.cmgroup.luna
 appCountry: 
-released: May 10, 2021
+released: 2021-05-10
 updated: 2021-07-24
 version: 1.0.8
 stars: 

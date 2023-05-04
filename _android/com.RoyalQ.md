@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.RoyalQ
 appCountry: 
-released: Oct 8, 2021
+released: 2021-10-08
 updated: 2022-09-02
 version: '4.6'
 stars: 4.9

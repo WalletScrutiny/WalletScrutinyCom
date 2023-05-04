@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.avivawallets
 appCountry: 
-released: May 2, 2022
+released: 2022-05-02
 updated: 2022-05-02
 version: '1.0'
 stars: 

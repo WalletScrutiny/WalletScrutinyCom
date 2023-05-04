@@ -7,7 +7,7 @@ authors:
 appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
-released: '2022-12-07T08:00:00Z'
+released: 2022-12-07
 updated: 2023-04-07
 version: 1.11.0
 stars: 4.6
