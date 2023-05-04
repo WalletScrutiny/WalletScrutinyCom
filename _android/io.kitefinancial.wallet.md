@@ -10,9 +10,9 @@ appCountry:
 released: Jul 22, 2020
 updated: 2022-10-03
 version: 2.2.7
-stars: 
+stars: 2.6
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://kitefinancial.io
 repository: 

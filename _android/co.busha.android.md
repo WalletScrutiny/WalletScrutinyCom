@@ -12,7 +12,7 @@ updated: 2023-04-24
 version: 6.0.9
 stars: 4.2
 ratings: 3575
-reviews: 163
+reviews: 164
 size: 
 website: https://busha.co
 repository: 

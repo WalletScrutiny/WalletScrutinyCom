@@ -3,7 +3,6 @@ wsId:
 title: HyperW
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.legend.hyperw
 appCountry: 
@@ -31,4 +30,4 @@ features:
 
 ---
 
-This app no longer exists on Google Play (404).
+
