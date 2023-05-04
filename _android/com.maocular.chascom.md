@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.maocular.chascom.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: '6.81'
 stars: 4.6
 ratings: 2711
-reviews: 771
+reviews: 772
 size: 
 website: http://www.astontek.com
 repository: 

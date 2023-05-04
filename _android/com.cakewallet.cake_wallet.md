@@ -10,7 +10,7 @@ appCountry:
 released: 2020-01-01
 updated: 2023-04-26
 version: 4.6.4
-stars: 4
+stars: 4.1
 ratings: 730
 reviews: 229
 size: 

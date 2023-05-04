@@ -12,7 +12,7 @@ updated: 2023-04-17
 version: 1.6.75.5fb3
 stars: 4.5
 ratings: 1387
-reviews: 1510
+reviews: 1509
 size: 
 website: https://www.gopax.co.kr
 repository: 

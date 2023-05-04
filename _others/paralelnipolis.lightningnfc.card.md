@@ -21,8 +21,8 @@ issue:
 icon: paralelnipolis.lightningnfc.card.png
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2022-05-17
+verdict: wip
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,30 @@ features:
 
 ---
 
-## Background
+## Updated Review 2023-04-27
+
+### [How it Works](https://www.paralelnipolis.cz/en/wallet/)
+
+> You can find 3 different QR codes on your card. Two codes on the front (white) side are used for payments – sending and receiving. Content of these is also on your NFC badge which you can use to interact with ATMs and payment terminals.
+>
+> Black button allows you to receive funds – tap it on ATM while receiving or scan to receive.
+>
+> Red button – send can be used to withdraw funds. Single payment with send code is by default limited to 100k sats
+(~40€). For bigger payment, you have to use web wallet interface or withdraw money to your own wallet.
+> 
+> These two codes are LNURLs and can be used with many Bitcoin Lightning wallets and services. You can top up your badge or withdraw money with your own Phoenix, Breez, BlueWallet, Wallet of Satoshi, Muun and many others by simply scanning these QR codes.
+>
+> You may also receive another sticker with receive code which can be used by anybody to send you money. Stick it anywhere and get tips.
+>
+> Third code on the black side of the card is address of your wallet. Scan it and open in your browser to access web application which can be used as Bitcoin Lightning wallet. Application is hosted by Paralelní Polis which is provider of Lightning infrastructure and liquidity.
+
+The setup does come with a disclaimer: 
+
+> Send code on your badge represents LNURL-withdraw. Anybody who accesses this code can steal your funds. By default withdraws are limited to 100k sats per withdraw with maximum 100 withdraws and 10 seconds between them. You can modify it to achieve higher security. In web interface of your wallet go to Manage extensions and enable LNURLw. Open it under Extensions field and modify withdraw link you see.
+
+We clarified with them [some concerns on twitter](https://twitter.com/dannybuntu/status/1651540698100015104).
+
+## Background (Previous Review 2022-05-17)
 
 Rather than a company, Paralelní Polis embraces cypherpunk culture and is a socio-political movement. The ideals of decentralization and cryptoanarchy are emphasized in this group thus, it aligns with some core tenets of Bitcoin. 
 
