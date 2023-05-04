@@ -1,6 +1,6 @@
 ---
 wsId: ECOS
-title: 'ECOS: Crypto Mining & Wallet'
+title: 'ECOS: Bitcoin & Crypto Mining'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2023-04-05
-version: 1.32.0
+updated: 2023-04-21
+version: 1.33.4
 stars: 3.3
 ratings: 377
-reviews: 162
+reviews: 167
 size: 
 website: https://ecos.finance
 repository: 

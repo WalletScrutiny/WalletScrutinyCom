@@ -11,7 +11,7 @@ released: '2021-07-28T07:00:00Z'
 updated: 2023-02-21
 version: 4.2.0
 stars: 4.7
-reviews: 633
+reviews: 635
 size: '25928704'
 website: https://bitafrika.com/contact
 repository: 

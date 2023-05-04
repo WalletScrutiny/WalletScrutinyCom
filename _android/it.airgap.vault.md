@@ -10,7 +10,7 @@ appCountry:
 released: 2018-08-06
 updated: 2023-03-21
 version: 3.25.0
-stars: 4.3
+stars: 4.2
 ratings: 110
 reviews: 16
 size: 
@@ -19,11 +19,16 @@ repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/127
 icon: it.airgap.vault.png
 bugbounty: 
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2022-11-02
+date: 2023-04-27
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- data: 2022-11-02
+  version: 3.18.0
+  appHash: c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998
+  gitRevision: 1cc56548e3bf450bdf87f6440105e2d464cea29b
+  verdict: reproducible
 - date: 2022-08-07
   version: 3.17.2
   appHash: 8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0
@@ -185,24 +190,24 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.18.0
-apkVersionCode: 44587
+apkVersionName: 3.25.0
+apkVersionCode: 50665
 verdict:        reproducible
-appHash:        c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998
-commit:         1cc56548e3bf450bdf87f6440105e2d464cea29b
+appHash:        5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
+commit:         35f35e68120480b84f511f869dcbcfce89e59ac5
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_44587/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 1cc56548e3bf450bdf87f6440105e2d464cea29b
+object 35f35e68120480b84f511f869dcbcfce89e59ac5
 type commit
-tag v3.18.0
-tagger Andreas Gassmann <andreas@andreasgassmann.ch> 1661770048 +0200
+tag v3.25.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1679663469 +0100
 
-   v3.18.0
+version 3.25.0
 ===== End Results =====
 ```
 

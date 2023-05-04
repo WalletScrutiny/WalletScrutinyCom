@@ -24,8 +24,8 @@ issue:
 icon: picash.cryptovault.png
 bugbounty: 
 meta: ok
-verdict: sealed-plainkey
-date: 2023-02-08
+verdict: noita
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: ilinkeds
@@ -34,6 +34,10 @@ social:
 features: 
 
 ---
+
+## Updated Review 2023-04-28
+
+We've updated the review to reflect this device's lack of input/output interfaces.
 
 ## Product Description 
 

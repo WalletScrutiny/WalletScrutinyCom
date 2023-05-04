@@ -3,7 +3,7 @@ wsId:
 title: Heart Number - Bitcoin trading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.sixmultiverse.heartnumber
 appCountry: 

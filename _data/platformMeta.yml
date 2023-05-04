@@ -1,0 +1,153 @@
+android:
+  description: >
+    On the Google Play Store, there are many apps that have Bitcoin in their
+    name or description but don't allow the user to use Bitcoin or they don't
+    look like Bitcoin wallets but turn out to be. We run our tests and document
+    our findings.
+  verdicts:
+    - wip
+    - fake
+    - fewusers
+    - nowallet
+    - nobtc
+    - nosendreceive
+    - custodial
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - reproducible
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+iphone:
+  description: >
+    On the Apple App Store, there are many apps that have Bitcoin in their
+    name or description but don't allow the user to use Bitcoin or they don't
+    look like Bitcoin wallets but turn out to be. We run our tests and document
+    our findings.
+    
+    
+    Wallet Scrutiny started out looking only into Android. This is because
+    mobile wallets are the most used wallets, and Android is the most used among
+    mobile wallets, but looking into iPhone wallets was high on the list from
+    the start.
+    
+    
+    For Android, the reproducing build process is relatively clear; some apps
+    did this before we started the project. For iPhone, this was not the case.
+    As a result, iPhone app reproducibility was an open question.
+    
+    
+    We asked around. Several years passed. Nobody could reproduce any iPhone
+    app.
+    
+    
+    At this point, we shift the burden of proof onto the providers (or Apple).
+    If you want people to trust your app (or platform), explain how it can be
+    audited. We will move on in the meantime and list iPhone apps with an empty
+    reproducible section until then.
+  verdicts:
+    - wip
+    - fake
+    - fewusers
+    - nowallet
+    - nobtc
+    - nosendreceive
+    - custodial
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+hardware:
+  description: >
+    There is no globally accepted definition of a hardware wallet. Some consider
+    a paper with 12 words a hardware wallet - after all paper is a sort of
+    hardware or at least not software and the 12 words are arguably a
+    wallet(‘s backup).
+    
+    For the purpose of this project we adhere to higher standards in the
+    hardware wallet section. We only consider a hardware wallet if dedicated
+    hardware protects the private keys in a way that leaves the user in full and
+    exclusive control of what transactions he signs or not. That means:
+    
+    * The device allows to create private keys offline
+    * The device never shares private key material apart from an offline backup
+      mechanism
+    * The device displays receive addresses for confirmation
+    * The device shares signed transactions after informed approval on the
+      device without reliance on insecure external hardware
+  verdicts:
+    - wip
+    - fake
+    - vapor
+    - unreleased
+    - fewusers
+    - nowallet
+    - nobtc
+    - prefilled
+    - plainkey
+    - noita
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - reproducible
+    - nobinary
+    - diy
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+    - discontinued
+bearer:
+  description: >
+    Bearer tokens are meant to be passed on from one user to another similar
+    to cash or a banking check. Unlike hardware wallets, this comes with an
+    enormous "supply chain" risk if the token gets handed from user to user
+    anonymously - all bearer past and present have plausible deniability if the 
+    funds move. We used to categorize bearer tokens as hardware wallets, but 
+    decided that they deserved an altogether different category. Generally,
+    bearer tokens have these attributes:
+    * Secure initial setup
+    * Tamper evidence
+    * Balance check without revealing private keys
+    * Small size
+    * Low unit price
+
+
+    and either of these applies:
+    * Somebody has a backup and needs to be trusted
+    * Nobody has a backup and funds are destroyed if the token is lost or damaged
+  verdicts:
+    - wip
+    - fake
+    - vapor
+    - unreleased
+    - fewusers
+    - nowallet
+    - nobtc
+    - prefilled
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - sealed-plainkey
+    - sealed-noita
+    - reproducible
+    - nobinary
+    - diy
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+    - discontinued

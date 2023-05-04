@@ -8,11 +8,11 @@ appId: mn.coinhub.coinhub
 appCountry: us
 idd: '1585102002'
 released: '2021-09-23T07:00:00Z'
-updated: 2023-04-04
-version: 1.3.2
+updated: 2023-04-19
+version: 1.3.3
 stars: 3.5
 reviews: 11
-size: '58156032'
+size: '58322944'
 website: https://about.coinhub.mn
 repository: 
 issue: 

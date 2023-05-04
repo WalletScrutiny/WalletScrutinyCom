@@ -3,7 +3,7 @@ wsId: xSpringDigital
 title: XSpring Digital
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.se.digital.brokerage.mobile
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/XSpringDigital
 - https://page.line.me/xspringdigital
-- https://www.linkedin.com/company/xspring/ 
+- https://www.linkedin.com/company/xspring/
 redirect_from: 
 features: 
 

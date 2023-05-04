@@ -3,7 +3,7 @@ wsId:
 title: Sanctuary Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.sanctuaryex.wallet
 appCountry: 
 released: May 10, 2021

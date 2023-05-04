@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-29
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

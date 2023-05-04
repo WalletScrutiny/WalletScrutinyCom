@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://zumo.money
+website: https://zumo.tech
 repository: 
 issue: 
 icon: com.zumopay.core.png

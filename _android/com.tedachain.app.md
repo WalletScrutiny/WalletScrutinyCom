@@ -2,7 +2,8 @@
 wsId: 
 title: Teda Chain
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.tedachain.app
 appCountry: 
@@ -30,3 +31,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).

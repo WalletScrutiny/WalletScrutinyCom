@@ -3,7 +3,7 @@ wsId:
 title: Cape Crypto Exchange
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.capecrypto
 appCountry: 
 released: Apr 25, 2022
@@ -19,7 +19,7 @@ issue:
 icon: com.capecrypto.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 
