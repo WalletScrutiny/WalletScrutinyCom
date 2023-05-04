@@ -31,7 +31,7 @@ features:
 
 ---
 
-Not to be mistaken from other projects that bear the same name: 
+Not to be mistaken for other projects that bear the same name: 
 
 - {% include walletLink.html wallet='android/com.luna.wallet' verdict='true' %}
 - {% include walletLink.html wallet='android/com.cmgroup.luna' verdict='true' %}

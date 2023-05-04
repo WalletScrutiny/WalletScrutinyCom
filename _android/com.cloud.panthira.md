@@ -32,7 +32,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.cloud.panthira)
+## App Description from Google Play
 
 > Absolute Security
 > - All of our outstanding systems are in place for your asset protection and secure transactions.

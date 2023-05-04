@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.cmgroup.luna)
+## App Description from Google Play
 
 > Luna is a cryptocurrency trading app aiming to help people trade crypto more effectively. Automate your crypto trading, get notifications when market is moving, and monitor your positions to know exactly your trading performance.
 > 

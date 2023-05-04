@@ -33,7 +33,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.cushionlabs.acornbit.dev) 
+## App Description from Google Play
 
 > AcornBit is an app that allows you to experience various cryptocurrency transactions.
 
