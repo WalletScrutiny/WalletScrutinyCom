@@ -54,7 +54,7 @@ We were not able to install this app. Here are some interesting things about thi
 
 ### [Terms](https://quasarwallet.com/documents/terms-en.pdf) 
 
-It defines deposit as:
+It defines terms as such:
 
 > “Deposit”: means the operation of inflow of cash on the account held at the custodian bank Banco di Napoli
 Intesa San Paolo, branch in Corso Mazzini, Cosenza; 

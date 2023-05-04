@@ -33,7 +33,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.richamster.app)
+## App Description from Google Play
 
 > Deposit & withdraw:
 >

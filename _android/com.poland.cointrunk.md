@@ -3,7 +3,6 @@ wsId:
 title: CoinTrunk
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.poland.cointrunk
 appCountry: 
@@ -31,4 +30,4 @@ features:
 
 ---
 
-The app not on Google Play anymore (404)
+

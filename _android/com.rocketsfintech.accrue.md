@@ -21,7 +21,7 @@ icon: com.rocketsfintech.accrue.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-04-29
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: useaccrue
@@ -32,7 +32,15 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.rocketsfintech.accrue) 
+## Update 2023-05-04
+
+The provider [responded](https://twitter.com/useaccrue/status/1652292974854696960) to our tweet.
+
+> Yes. It's a deposit address for people off-ramping BTC to their local currency.
+
+## Previous Review 2023-04-29
+
+### App Description from Google Play
 
 > Once you sign up for Accrue, you are assigned a Deposit Link you can share with anyone. Deposit Links allow you to receive local currency like Cedis, Naira, or Kenyan Shillings (auto-converted to dollars) and crypto from anywhere in the world.
 

@@ -3,7 +3,6 @@ wsId:
 title: 'PayFrequent Wallet: PayFQ, PUSD, PEUR, PINR, TOMO'
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.payfrequent
 appCountry: 
@@ -30,5 +29,3 @@ redirect_from:
 features: 
 
 ---
-
-This app no longer exists on Google Play (404).

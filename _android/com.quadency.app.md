@@ -34,7 +34,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.quadency.app) 
+## App Description from Google Play
 
 > Quadency is a unified cryptocurrency trading and strategy automation platform. We offer a smart trading terminal that makes it easy for users and investors of all levels, like you, to manage your portfolios across all the major crypto exchanges. With real-time portfolio analytics and a growing library of easy-to-configure automation strategies, Quadency provides a seamless and accessible investment experience for every cryptocurrency investor.
 

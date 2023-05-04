@@ -49,4 +49,4 @@ features:
 
 ## Analysis 
 
-This app is so old (2018) we can't install it. Based on the information provided from the Google Play description, this does not bear the hallmarks of a bitcoin wallet.
+This app is so old (2018) we can't install it. Based on the information provided from the Google Play description, this does not bear the hallmarks of a wallet.

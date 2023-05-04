@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.reap.crypty) 
+## App Description from Google Play
 
 > Crypty Crypto Bitcoin Ethereum bot is a great way to start investing in cryptocurrency like Bitcoin (BTC), Ethereum (ETH), Chainlink (Link), Tezos (XTZ), Cardano (ADA), Ripple (XRP), Litecoin (LTC) and gain invaluable experience on the cryptocurrency exchange with minimal risk.
 
@@ -47,5 +47,5 @@ features:
 
 ## Analysis 
 
-We inspected the app and it did **not have a Bitcoin wallet.**
+We inspected the app and it did **not have a Bitcoin or any other wallet.**
 [(Screenshots)](https://twitter.com/BitcoinWalletz/status/1652279755700572161)

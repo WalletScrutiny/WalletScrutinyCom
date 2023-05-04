@@ -34,7 +34,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.quanli.ibtc) 
+## App Description from Google Play
 
 > IBTCex is a cryptocurrency trading platform serving the Asian market, providing digital asset and cryptocurrency trading services. High liquidity trading volume, providing multiple cryptocurrency options, including the 5 most popular currencies.
 >
