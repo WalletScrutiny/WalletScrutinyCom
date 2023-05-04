@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.bancryp.dmbank.user)
+## App Description from Google Play
 
 > - Buy and Sell BITCOIN;
 > - Reload numerous services, such as: NETFLIX, SPOTFY, VIVO, CLARO, OI, TIM .

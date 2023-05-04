@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.bithesap.app)
+## App Description from Google Play
 
 > "the easiest and most secure way to exchange platform where you can purchase in Turkey can open an account of a Bitcoin as Bithesap free member and the Turkish lira can easily earn money by selling your Bitcoin-denominated crypto money"
 >

@@ -37,7 +37,7 @@ They have replied to our email and confirmed that they no longer offer cryptocur
 
 > We no longer offer cryptocurrency.
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.bbae.pro)
+## App Description
 
 The app does not mention 'Bitcoin', 'crypto' or 'wallet' in its description.
 
