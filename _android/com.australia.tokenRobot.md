@@ -3,7 +3,6 @@ wsId:
 title: TokenRobot
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.australia.tokenRobot
 appCountry: 
@@ -31,4 +30,4 @@ features:
 
 ---
 
-The app is no longer on Google Play (404)
+

@@ -19,8 +19,8 @@ issue:
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-04-20
+verdict: custodial
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,7 +30,19 @@ features:
 
 ---
 
-## App Description from Google Play 
+## Updated Review 2023-05-04
+
+We were finally able to successfully register using a different email address. 
+
+- The app features a BTC wallet that can send and receive
+- However, the seed phrases were not provided. 
+- Documentation is still sparse as we believe the app is still in development. 
+
+Absent the private keys, this is highly likely to be a **custodial** provider.
+
+## Previous Review 
+
+### App Description from Google Play 
 
 > Bancryp is the 1st Brazilian cryptobank and our mission is to democratize access to buy and sell Bitcoin.
 >

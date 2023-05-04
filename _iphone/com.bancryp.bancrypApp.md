@@ -3,7 +3,7 @@ wsId: bancrypV2
 title: Bancryp
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bancryp.bancrypApp
 appCountry: us
 idd: '1467221603'
@@ -19,8 +19,8 @@ issue:
 icon: com.bancryp.bancrypApp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-04-20
+verdict: custodial
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 

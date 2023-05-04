@@ -3,7 +3,6 @@ wsId:
 title: Bastionpay
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.bastionpay.bastionpay
 appCountry: 
@@ -30,5 +29,3 @@ redirect_from:
 features: 
 
 ---
-
-This app is no longer on Google Play (404).

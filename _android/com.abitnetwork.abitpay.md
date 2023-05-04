@@ -3,7 +3,6 @@ wsId:
 title: ABiTPay
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.abitnetwork.abitpay
 appCountry: 
@@ -31,4 +30,3 @@ features:
 
 ---
 
-2023-04-20: The app is no longer on Google Play (404).

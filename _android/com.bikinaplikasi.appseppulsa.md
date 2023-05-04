@@ -3,7 +3,6 @@ wsId:
 title: Seppulsa
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.bikinaplikasi.appseppulsa
 appCountry: 
@@ -31,4 +30,3 @@ features:
 
 ---
 
-This app is no longer on Google Play (404).
