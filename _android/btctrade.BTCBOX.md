@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: btcboxJP
 title: 【BTCBOX】ビットコイン・暗号資産取引所。安心・安全な暗
 altTitle: 
 authors:
@@ -24,8 +24,9 @@ verdict: custodial
 date: 2023-04-19
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: BtcboxE
+social:
+- https://www.facebook.com/btcbox/ 
 redirect_from: 
 features: 
 

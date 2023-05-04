@@ -21,7 +21,7 @@ icon: bit7pay.com.bit7pay.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2022-03-30
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: bit7pay
@@ -30,8 +30,6 @@ redirect_from:
 features: 
 
 ---
-
-Despite its name resembling {% include walletLink.html wallet='android/com.bitpay.wallet' verdict='true' %}, it doesn't look like a fake "BitPay" wallet trying to fool users. 
 
 The homepage for this app is no longer online. 
 
@@ -42,10 +40,6 @@ The homepage for this app is no longer online.
 > Securely store cryptocurrency- After you purchase a Cryptocurrency , you can safely store them in your Bit7Pay digital wallet. Our cloud based servers are secured with double encryption mechanisms to prevent unauthorized access to your digital assets.
 
 ## Analysis 
-
-We were able to acquire a copy of this app's APK, and install it on our virtual device. The splash screen and login screen was displayed. When we clicked Sign Up, we were greeted with a blank screen. 
-
-We surmise this is because of the offline status of its website. 
 
 It is highly probable this app is already **defunct**.
 
