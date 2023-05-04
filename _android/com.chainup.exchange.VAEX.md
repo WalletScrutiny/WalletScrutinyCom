@@ -34,9 +34,6 @@ features:
 
 ---
 
-The app has a similar prefix with:
-- {% include walletLink.html wallet='android/com.chainup.exchange.Zenith' verdict='true' %}
-
 ## App Description from Website 
 
 > The world's first A.I exchange

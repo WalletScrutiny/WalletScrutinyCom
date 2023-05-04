@@ -33,7 +33,15 @@ features:
 
 ---
 
-## App Description from Google Play
+## Updated Review 2023-05-04
+
+It's been a few weeks since we sent our email and they haven't responded. We managed to access the 'real' account using the sites' web app. The user can only deposit/withdraw USDT, ACORN and CU. In the trading page, users can short or long, BTCUSDT. 
+
+This app cannot send and receive bitcoins.
+
+## Previous Review 2023-04-21
+
+### App Description from Google Play
 
 > AcornBit is an app that allows you to experience various cryptocurrency transactions.
 

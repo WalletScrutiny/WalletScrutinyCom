@@ -3,7 +3,6 @@ wsId:
 title: FaucetPay Micro Wallet
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.buratinoapps.fmicropayment
 appCountry: 
@@ -31,4 +30,3 @@ features:
 
 ---
 
-This app is no longer on Google Play (404).

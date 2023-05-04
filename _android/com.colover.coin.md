@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://web.archive.org/web/20191004081856/http://www.colover.com/
+website: http://www.colover.com/
 repository: 
 issue: 
 icon: com.colover.coin.png
@@ -25,7 +25,8 @@ date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://web.archive.org/web/20191004081856/http://www.colover.com/ 
 redirect_from: 
 features: 
 

@@ -36,7 +36,9 @@ Not to be mistaken for other projects that bear the same name:
 - {% include walletLink.html wallet='android/com.luna.wallet' verdict='true' %}
 - {% include walletLink.html wallet='android/com.cmgroup.luna' verdict='true' %}
 
-This project's listed website is no longer online (Domain for sale).
+This project's listed website is no longer online (Domain for sale). 
+
+Although the terms might be confusing, this is a different project from Do Kwon's [Terra Luna debacle](https://www.forbes.com/sites/qai/2022/09/20/what-really-happened-to-luna-crypto/?sh=47e954f14ff1). The Do Kwon Terra Luna site is at terra.money.
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.btcwallet) 
 
