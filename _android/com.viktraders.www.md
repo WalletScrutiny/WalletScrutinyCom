@@ -3,7 +3,6 @@ wsId:
 title: Viktraders
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.viktraders.www
 appCountry: 
@@ -31,4 +30,3 @@ features:
 
 ---
 
-The app is no longer on Google Play (404).

@@ -34,7 +34,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.yieldapp_mobile) 
+## App Description from Google Play
 
 > Earn daily compounding interest on your crypto assets. Earn up to 10% p.a. on your crypto now.
 

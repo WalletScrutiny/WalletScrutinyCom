@@ -3,7 +3,6 @@ wsId:
 title: StormProfit - Passive income w
 altTitle: 
 authors:
-- danny 
 users: 5000
 appId: com.stormprofit.stormprofit
 appCountry: 
@@ -31,4 +30,3 @@ features:
 
 ---
 
-The app is no longer on Google Play (404).

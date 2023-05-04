@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.sketch.wallet) 
+## App Description from Google Play
 
 > Sketch Wallet allows you to easily and safely manage various mainnet coins and tokens such as Sketchcoin, Bitcoin, Ethereum, Klaytn, Ripple, and EOS
 

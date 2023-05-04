@@ -32,7 +32,7 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=cz.anycoin.mobile) 
+## App Description from Google Play
 
 > Buy Bitcoin, Ethereum, Dogecoin, Cardano and many other cryptocurrencies easily, quickly and safely.
 >
