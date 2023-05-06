@@ -3,7 +3,7 @@ wsId:
 title: Satodime
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: org.satochip.satodimeapp
 appCountry: 
 released: 2022-02-21

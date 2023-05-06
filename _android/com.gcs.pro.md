@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gcs.pro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 

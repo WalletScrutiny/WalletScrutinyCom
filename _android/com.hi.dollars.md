@@ -7,11 +7,11 @@ users: 1000000
 appId: com.hi.dollars
 appCountry: EE
 released: 2021-11-04
-updated: 2023-03-31
-version: 2.6.0
+updated: 2023-05-04
+version: 2.7.0
 stars: 2
 ratings: 
-reviews: 10754
+reviews: 10763
 size: 
 website: https://hi.com/
 repository: 

@@ -7,8 +7,8 @@ users: 1000
 appId: com.mobile.quantum
 appCountry: 
 released: 2022-04-18
-updated: 2023-04-03
-version: 1.0.6
+updated: 2023-05-04
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: 'خرید بیت کوین و ارزدیجیتال: اک'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.xchaino
 appCountry: 
 released: 2021-09-22

@@ -8,8 +8,8 @@ users: 10000
 appId: mn.telexa
 appCountry: 
 released: 2021-12-08
-updated: 2022-12-14
-version: '5.6'
+updated: 2023-05-04
+version: '5.9'
 stars: 4.7
 ratings: 
 reviews: 11

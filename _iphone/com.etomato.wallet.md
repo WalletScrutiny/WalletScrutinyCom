@@ -8,11 +8,11 @@ appId: com.etomato.wallet
 appCountry: kr
 idd: '1618695778'
 released: 2022-04-24
-updated: 2023-02-27
-version: 1.3.1
+updated: 2023-05-03
+version: 1.3.2
 stars: 4
 reviews: 2
-size: '54213632'
+size: '54343680'
 website: https://tongtongwallet.com/
 repository: 
 issue: 

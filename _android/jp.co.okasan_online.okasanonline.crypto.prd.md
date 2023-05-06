@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.co.okasan_online.okasanonline.crypto.prd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 
