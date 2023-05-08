@@ -343,7 +343,7 @@
       border-collapse: collapse;
       margin: 20px 10px;
       font-size: 14px;
-      font-family: "Lato", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue",
+      font-family: "Barlow", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue",
         "Lucida Grande", Arial, sans-serif;
       border: 0px;
       padding-bottom: 15px;
@@ -641,33 +641,21 @@
         grid-template: unset;
       }
       .app_logo {
-        // grid-column: 1/2;
-        // grid-row: 1/3;
+        background: var(--permanent-white);
         width: 80px;
         border-radius: 10px;
         box-shadow: 0 15px 30px -15px var(--permanent-black);
-        @media (max-width: 700px) {
-          // grid-column: unset;
-          // grid-row: 1/2;
-          // width: 80px;
-        }
       }
       h3 {
-        // grid-column: 2/3;
-        // grid-row: 1/2;
         margin: 0;
         font-size: 19px;
         font-weight: 400;
         line-break: auto;
         @media (max-width: 700px) {
-          // grid-column: unset;
-          // grid-row: 2/3;
           font-size: 16px;
         }
       }
       .platform {
-        // grid-column: 2/3;
-        // grid-row: 2/3;
         font-size: 12px;
         transform: translateY(-6px);
         font-weight: 300;
@@ -677,8 +665,6 @@
         }
         @media (max-width: 700px) {
           font-size: 11px;
-          // grid-column: unset;
-          // grid-row: 3/4;
         }
       }
     }

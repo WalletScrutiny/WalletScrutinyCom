@@ -12,7 +12,7 @@ body, input {
 }
 
 .theme-parent>i>label {
-  font-family: "Lato", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Barlow", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
   display: inline;
   color: var(--masthead-text);
   font-weight: 600;
