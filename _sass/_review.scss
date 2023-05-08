@@ -379,6 +379,7 @@
       }
     }
     .tooltip-element {
+      &:not(.exists){opacity: 0; pointer-events: none;}
       margin-bottom: auto;
       margin-top: 10px;
       @media(max-width:500px){

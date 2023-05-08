@@ -32,10 +32,19 @@
         {% endfor %}
       {% endif %}
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.developer %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.developer %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.developer | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step custody">
@@ -58,10 +67,19 @@
     </div>
     <div class="data">
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.custody %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.custody %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.custody | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step source-code">
@@ -83,10 +101,19 @@
     </div>
     <div class="data">
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.source %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.source %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.source | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step privacy">
@@ -107,10 +134,19 @@
     </div>
     <div class="data">
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.privacy %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.privacy %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.privacy | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step application-build">
@@ -137,10 +173,19 @@
       </span>
       {% endif %}
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.verdict %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.verdict %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.verdict | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   {% if include.filterPlatform %}
@@ -173,10 +218,19 @@
       {% endif %}
       </span>
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.distribution %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.distribution %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.distribution | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step operating-system">
@@ -193,10 +247,19 @@
     </div>
     <div class="data">
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.os %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.os %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.os | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   <div class="step smartphone">
@@ -213,10 +276,19 @@
     </div>
     <div class="data">
     </div>
-    <div class="tooltip-element">
+    {% if page.tooltip.notes %}
+      {% assign exists = 'exists' %}
+    {% endif %}
+    <div class="tooltip-element {{exists}}">
       <i class="info-circle">
         <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
       </i>
+    {% if page.tooltip.notes %}
+      <div class="tooltip-payload">
+        <h3></h3>
+        {{ page.tooltip.notes | markdownify }}
+      </div>
+    {% endif %}
     </div>
   </div>
   {% endif %}
