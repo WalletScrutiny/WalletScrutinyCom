@@ -80,9 +80,12 @@ hardware:
     exclusive control of what transactions he signs or not. That means:
     
     * The device allows to create private keys offline
+
     * The device never shares private key material apart from an offline backup
       mechanism
+
     * The device displays receive addresses for confirmation
+
     * The device shares signed transactions after informed approval on the
       device without reliance on insecure external hardware
   verdicts:
@@ -122,15 +125,24 @@ bearer:
     funds move. We used to categorize bearer tokens as hardware wallets, but 
     decided that they deserved an altogether different category. Generally,
     bearer tokens have these attributes:
-    * Secure initial setup
-    * Tamper evidence
-    * Balance check without revealing private keys
-    * Small size
-    * Low unit price
+    
+
+    - Secure initial setup
+
+    - Tamper evidence
+
+    - Balance check without revealing private keys
+
+    - Small size
+
+    - Low unit price
 
 
     and either of these applies:
+    
+
     * Somebody has a backup and needs to be trusted
+
     * Nobody has a backup and funds are destroyed if the token is lost or damaged
   verdicts:
     - wip
