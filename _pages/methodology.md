@@ -15,10 +15,17 @@ author_profile: true
 </div>
 </div>
 
+{% capture faq %}
+  {% include methodology/faq.md %}
+{% endcapture %}
+{% capture introduction %}
+  {% include methodology/introduction.md %}
+{% endcapture %}
+
 <div class="tab-payloads">
-  <div class="tab-container">{% include methodology/introduction.html %}</div>
+  <div class="tab-container">{{ introduction | markdownify }}</div>
   <div class="tab-container">{% include methodology/tests.html %}</div>
-  <div class="tab-container">{% include methodology/faq.html %}</div>
+  <div class="tab-container">{{ faq | markdownify }}</div>
 </div>
 
 <script>
