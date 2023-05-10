@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: partl.coini.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-10-29
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quotatrade.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

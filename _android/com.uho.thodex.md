@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.uho.thodex.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

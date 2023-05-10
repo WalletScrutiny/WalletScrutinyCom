@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.satang.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-02-20
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

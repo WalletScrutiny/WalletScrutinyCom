@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.stormprofit.stormprofit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

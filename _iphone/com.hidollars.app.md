@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hidollars.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-23
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: hi_com_official
