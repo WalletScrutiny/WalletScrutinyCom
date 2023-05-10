@@ -2,7 +2,7 @@
 wsId: 
 title: Bitlus
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.bitlus
 appCountry: 
