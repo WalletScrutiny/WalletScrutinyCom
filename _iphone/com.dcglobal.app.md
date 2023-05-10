@@ -7,7 +7,7 @@ authors:
 appId: com.dcglobal.app
 appCountry: us
 idd: '1610058833'
-released: '2022-02-26T08:00:00Z'
+released: 2022-02-26
 updated: 2023-01-11
 version: 6.1.3
 stars: 5

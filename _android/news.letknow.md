@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: news.letknow
 appCountry: 
-released: Apr 27, 2018
+released: 2018-04-27
 updated: 2020-01-13
 version: '0.7'
 stars: 

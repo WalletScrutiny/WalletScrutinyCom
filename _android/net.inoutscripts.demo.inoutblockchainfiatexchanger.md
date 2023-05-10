@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: net.inoutscripts.demo.inoutblockchainfiatexchanger
 appCountry: 
-released: Oct 1, 2021
+released: 2021-10-01
 updated: 2021-10-02
 version: '1.0'
 stars: 

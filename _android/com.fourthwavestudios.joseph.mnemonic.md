@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.fourthwavestudios.joseph.mnemonic
 appCountry: 
-released: May 18, 2021
+released: 2021-05-18
 updated: 2021-05-18
 version: '2'
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fourthwavestudios.joseph.mnemonic.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

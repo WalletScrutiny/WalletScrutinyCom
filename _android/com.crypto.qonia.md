@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.crypto.qonia
 appCountry: 
-released: May 21, 2021
+released: 2021-05-21
 updated: 2021-05-26
 version: '1.1'
 stars: 

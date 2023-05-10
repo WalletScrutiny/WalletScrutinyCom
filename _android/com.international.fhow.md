@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.international.fhow
 appCountry: 
-released: Mar 24, 2022
+released: 2022-03-24
 updated: 2022-09-08
 version: '1.1'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tuned.TunedApp
 appCountry: 
-released: Sep 2, 2021
+released: 2021-09-02
 updated: 2022-08-08
 version: 5.2.0
 stars: 3.8

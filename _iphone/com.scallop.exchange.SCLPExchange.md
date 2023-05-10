@@ -7,7 +7,7 @@ authors:
 appId: com.scallop.exchange.SCLPExchange
 appCountry: us
 idd: '1628290736'
-released: '2022-06-15T07:00:00Z'
+released: 2022-06-15
 updated: 2022-08-16
 version: 1.0.2
 stars: 4.7

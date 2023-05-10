@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.gefarapay
 appCountry: 
-released: Aug 2, 2018
+released: 2018-08-02
 updated: 2021-03-03
 version: '1.21'
 stars: 

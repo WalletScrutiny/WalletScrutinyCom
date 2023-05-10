@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.pasaraset.dex
 appCountry: 
-released: Apr 18, 2021
+released: 2021-04-18
 updated: 2021-04-21
 version: '2.0'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.chat.bullionblock
 appCountry: 
-released: Jun 6, 2020
+released: 2020-06-06
 updated: 2020-10-14
 version: '1.3'
 stars: 

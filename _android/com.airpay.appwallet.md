@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.airpay.appwallet
 appCountry: 
-released: Apr 15, 2022
+released: 2022-04-15
 updated: 2022-04-15
 version: 1.0.8
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: exchange.vcce
 appCountry: us
 idd: '1449103217'
-released: '2020-01-07T08:00:00Z'
+released: 2020-01-07
 updated: 2021-10-06
 version: 3.18.0
 stars: 3

@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: demoapp.acceptify.mobilewallet
 appCountry: 
-released: May 28, 2021
+released: 2021-05-28
 updated: 2021-05-28
 version: 0.0.3
 stars: 

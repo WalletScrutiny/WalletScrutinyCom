@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bitlouis.bitlouis
 appCountry: 
-released: Jan 28, 2021
+released: 2021-01-28
 updated: 2021-01-28
 version: '1.0'
 stars: 

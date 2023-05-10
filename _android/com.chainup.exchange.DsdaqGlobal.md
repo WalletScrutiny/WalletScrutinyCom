@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.chainup.exchange.DsdaqGlobal
 appCountry: 
-released: Oct 26, 2021
+released: 2021-10-26
 updated: 2022-07-18
 version: 5.4.1_push_v2
 stars: 

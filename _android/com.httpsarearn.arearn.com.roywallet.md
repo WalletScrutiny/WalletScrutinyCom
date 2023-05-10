@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.httpsarearn.arearn.com.roywallet
 appCountry: 
-released: Oct 22, 2021
+released: 2021-10-22
 updated: 2021-10-22
 version: '1.0'
 stars: 

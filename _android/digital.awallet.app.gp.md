@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: digital.awallet.app.gp
 appCountry: 
-released: Mar 9, 2022
+released: 2022-03-09
 updated: 2022-08-01
 version: 1.3.3
 stars: 5

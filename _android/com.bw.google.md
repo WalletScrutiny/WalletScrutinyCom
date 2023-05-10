@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bw.google
 appCountry: 
-released: Jul 26, 2021
+released: 2021-07-26
 updated: 2021-08-16
 version: 2.1.4
 stars: 3.1

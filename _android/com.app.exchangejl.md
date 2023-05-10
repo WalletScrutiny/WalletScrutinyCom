@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.exchangejl
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2022-07-24
 version: '1.1'
 stars: 

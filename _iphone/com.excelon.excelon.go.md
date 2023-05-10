@@ -7,7 +7,7 @@ authors:
 appId: com.excelon.excelon.go
 appCountry: sa
 idd: '1553611472'
-released: '2021-07-30T07:00:00Z'
+released: 2021-07-30
 updated: 2022-07-04
 version: 1.7.0
 stars: 0

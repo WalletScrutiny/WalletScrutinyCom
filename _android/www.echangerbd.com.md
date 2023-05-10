@@ -2,7 +2,8 @@
 wsId: 
 title: Exchangernet-old
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: www.echangerbd.com
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: www.echangerbd.com.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-04-14
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,4 +30,10 @@ redirect_from:
 features: 
 
 ---
+
+As indicated by the name, this is an old archived version of 
+{% include walletLink.html wallet='android/com.exchangernet' verdict='true' %}. 
+
+We installed it, and it was blank. We can now mark it as **defunct**
+
 

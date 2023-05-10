@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.kodular.yogeshmaurya72.PletoBNB
 appCountry: 
-released: Apr 11, 2022
+released: 2022-04-11
 updated: 2022-04-11
 version: 3.0.3.1
 stars: 

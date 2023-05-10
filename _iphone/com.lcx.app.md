@@ -7,7 +7,7 @@ authors:
 appId: com.lcx.app
 appCountry: us
 idd: '1604594068'
-released: '2022-06-27T07:00:00Z'
+released: 2022-06-27
 updated: 2023-04-21
 version: 2.0.3
 stars: 4.3

@@ -7,7 +7,7 @@ authors:
 appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
-released: '2020-06-22T07:00:00Z'
+released: 2020-06-22
 updated: 2022-11-02
 version: 2.5.1
 stars: 5

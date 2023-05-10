@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.universecoincellphone
 appCountry: 
-released: Dec 12, 2019
+released: 2019-12-12
 updated: 2020-08-10
 version: '4.0'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.fujidon.android
 appCountry: 
-released: May 6, 2021
+released: 2021-05-06
 updated: 2021-05-07
 version: 1.1.1
 stars: 

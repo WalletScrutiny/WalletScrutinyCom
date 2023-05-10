@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.ni.RyptonWallet
 appCountry: 
-released: Apr 13, 2020
+released: 2020-04-13
 updated: 2020-04-13
 version: '1.0'
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: exchange.waves.invest
 appCountry: us
 idd: '1582794195'
-released: '2021-09-10T07:00:00Z'
+released: 2021-09-10
 updated: 2022-12-20
 version: 1.10.10
 stars: 4.1

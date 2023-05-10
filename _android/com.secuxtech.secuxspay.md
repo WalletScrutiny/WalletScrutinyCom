@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.secuxtech.secuxspay
 appCountry: 
-released: Nov 7, 2020
+released: 2020-11-07
 updated: 2022-01-12
 version: 1.0.4
 stars: 

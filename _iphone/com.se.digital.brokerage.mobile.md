@@ -7,7 +7,7 @@ authors:
 appId: com.se.digital.brokerage.mobile
 appCountry: us
 idd: '1582937571'
-released: '2022-02-28T08:00:00Z'
+released: 2022-02-28
 updated: 2023-04-11
 version: 2.0.3
 stars: 5

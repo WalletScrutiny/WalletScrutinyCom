@@ -7,7 +7,7 @@ authors:
 appId: com.simplehold.app
 appCountry: gb
 idd: '1589064973'
-released: '2021-12-14T08:00:00Z'
+released: 2021-12-14
 updated: 2023-02-23
 version: '1.21'
 stars: 1

@@ -7,7 +7,7 @@ authors:
 appId: app.bitafrika.com
 appCountry: us
 idd: '1577083741'
-released: '2021-07-28T07:00:00Z'
+released: 2021-07-28
 updated: 2023-02-21
 version: 4.2.0
 stars: 4.7

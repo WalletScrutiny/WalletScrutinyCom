@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.gokumarket
 appCountry: 
-released: Nov 16, 2019
+released: 2019-11-16
 updated: 2022-04-29
 version: '1.35'
 stars: 4.8

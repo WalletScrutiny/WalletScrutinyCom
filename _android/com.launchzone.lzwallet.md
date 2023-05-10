@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.launchzone.lzwallet
 appCountry: 
-released: Nov 30, 2021
+released: 2021-11-30
 updated: 2022-09-08
 version: 1.0.4
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.piece.father
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2022-03-31
 version: 1.11.8
 stars: 

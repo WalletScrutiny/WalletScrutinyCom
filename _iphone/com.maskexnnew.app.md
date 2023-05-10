@@ -7,7 +7,7 @@ authors:
 appId: com.maskexnnew.app
 appCountry: us
 idd: '1600880394'
-released: '2021-12-22T08:00:00Z'
+released: 2021-12-22
 updated: 2023-04-21
 version: 2.0.4
 stars: 5

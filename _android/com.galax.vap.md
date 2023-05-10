@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.galax.vap
 appCountry: 
-released: Oct 3, 2021
+released: 2021-10-03
 updated: 2021-10-03
 version: '1.0'
 stars: 

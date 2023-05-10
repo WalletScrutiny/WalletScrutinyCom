@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.neurogine.taurus
 appCountry: 
-released: Sep 27, 2021
+released: 2021-09-27
 updated: 2022-04-27
 version: 1.0.8
 stars: 
