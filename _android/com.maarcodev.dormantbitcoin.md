@@ -5,19 +5,18 @@ altTitle:
 authors:
 - danny 
 users: 1000
-appId: com.BlockchainExplorer.DormantBitcoinSeeker
+appId: com.maarcodev.dormantbitcoin
 appCountry: 
-released: 2022-06-04
-updated: 2023-01-15
-version: 1.0.9
-stars: 3.2
+released: Jan 1, 2021
+updated: 2023-01-06
+version: '1.3'
+stars: 3.5
 ratings: 
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
-icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
+icon: com.maarcodev.dormantbitcoin.png
 bugbounty: 
 meta: defunct
 verdict: wip
@@ -31,19 +30,14 @@ features:
 
 ---
 
-There are at least 3 different apps with the same name, but with the following app IDs:
+Note that there are 3 other apps with some similarity
 
+- {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinSeeker' verdict='true' %}
 - {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' verdict='true' %}
 - {% include walletLink.html wallet='android/com.maarcodev.dormantbitcoinexplorer' verdict='true' %}
-- {% include walletLink.html wallet='android/com.maarcodev.dormantbitcoin' verdict='true' %}
 
-This app refers the user to the newer app, which is: 
+This app merely points to:
 
 - {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' verdict='true' %}
 
-This app is **defunct.**
-
-
-
-
-
+...as the newer app. This makes this app **defunct.**

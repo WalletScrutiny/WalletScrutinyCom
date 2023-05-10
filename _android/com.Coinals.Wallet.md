@@ -59,4 +59,4 @@ Notably, the only two reviews are both scam accusations.
 
 [We tried out the app](https://twitter.com/BitcoinWalletz/status/1461168102629003267). Notably, it attempted to load the webpage: [coinals.com.](https://coinals.com/)
 
-As seen in the screenshots, the page did not load. As a result, we are obligated to classify this app as **defunct.**
+As seen in the screenshots, the page did not load. As a result, we will classify this app as **defunct.**

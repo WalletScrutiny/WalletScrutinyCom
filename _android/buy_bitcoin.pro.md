@@ -2,7 +2,8 @@
 wsId: 
 title: buy-bitcoin.pro
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: buy_bitcoin.pro
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: buy_bitcoin.pro.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-05-10
+date: 2023-05-09
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,11 @@ features:
 
 ---
 
+- Site is down. Error: "Origin is unreachable"
+- The last update for this app was in 2020. 
+- The app opened with an error written in Russian. [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1655841752270663680)
+- Translated from Russian, it reads: 
+
+> "Server is not available. Server availability issue. Wanna try again. Load Data"
+
+- We believe this app is already **defunct.**
