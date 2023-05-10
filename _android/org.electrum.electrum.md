@@ -4,6 +4,7 @@ title: Electrum Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- Mohammad Rafigh
 users: 500000
 appId: org.electrum.electrum
 appCountry: 
@@ -58,9 +59,6 @@ twitter: ElectrumWallet
 social: 
 redirect_from:
 - /electrum/
-- /org.electrum.electrum/
-- /posts/2019/12/elecrtum/
-- /posts/org.electrum.electrum/
 features:
 - ln
 
