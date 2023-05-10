@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: jp.links.messenger
 appCountry: 
-released: Mar 21, 2021
+released: 2021-03-21
 updated: 2022-05-19
 version: 1.35.9
 stars: 

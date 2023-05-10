@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.hunter.wallet
 appCountry: 
-released: Mar 25, 2021
+released: 2021-03-25
 updated: 2022-10-12
 version: 1.4.2
 stars: 

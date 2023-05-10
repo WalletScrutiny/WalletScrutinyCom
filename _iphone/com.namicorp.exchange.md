@@ -7,7 +7,7 @@ authors:
 appId: com.namicorp.exchange
 appCountry: us
 idd: '1480302334'
-released: '2019-09-30T07:00:00Z'
+released: 2019-09-30
 updated: 2023-04-13
 version: 2.1.1
 stars: 3

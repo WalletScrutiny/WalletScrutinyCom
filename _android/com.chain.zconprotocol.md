@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: com.chain.zconprotocol
 appCountry: 
-released: Jan 5, 2022
+released: 2022-01-05
 updated: 2022-01-26
 version: 1.0.2
-stars: 2.6
+stars: 3
 ratings: 
 reviews: 4
 size: 

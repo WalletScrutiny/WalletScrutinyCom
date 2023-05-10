@@ -7,7 +7,7 @@ authors:
 appId: com.capitual
 appCountry: us
 idd: '1458793819'
-released: '2019-09-20T07:00:00Z'
+released: 2019-09-20
 updated: 2023-04-06
 version: 3.42.0
 stars: 4.3

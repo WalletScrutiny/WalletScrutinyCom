@@ -7,7 +7,7 @@ authors:
 users: 100
 appId: com.github.samotari.cryptoterminal
 appCountry: 
-released: Jan 14, 2020
+released: 2020-01-14
 updated: 2020-01-14
 version: 1.6.0
 stars: 

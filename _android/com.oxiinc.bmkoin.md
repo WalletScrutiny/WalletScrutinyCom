@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.oxiinc.bmkoin
 appCountry: 
-released: Oct 24, 2020
+released: 2020-10-24
 updated: 2020-11-25
 version: '1.1'
 stars: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.hodlnaut.mobile
 appCountry: SG
-released: Oct 26, 2021
+released: 2021-10-26
 updated: 2022-08-21
 version: 1.4.15
 stars: 3.8

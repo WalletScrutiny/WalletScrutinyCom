@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: co.bnbex.n.broker.android
 appCountry: 
-released: Feb 18, 2021
+released: 2021-02-18
 updated: 2021-02-25
 version: 3.9.3
 stars: 

@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.fiveroi
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2022-05-18
 version: 4.3.4
 stars: 1.9

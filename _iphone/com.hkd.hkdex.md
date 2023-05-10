@@ -7,12 +7,12 @@ authors:
 appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
-released: '2020-07-13T07:00:00Z'
-updated: 2023-03-16
-version: 2.5.3
+released: 2020-07-13
+updated: 2023-04-24
+version: 2.5.7
 stars: 2.7
 reviews: 27
-size: '113502208'
+size: '113563648'
 website: http://hkd.com
 repository: 
 issue: 

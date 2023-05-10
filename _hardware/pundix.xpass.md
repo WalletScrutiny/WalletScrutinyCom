@@ -20,8 +20,8 @@ repository:
 issue: 
 icon: pundix.xpass.png
 bugbounty: 
-meta: ok
-verdict: discontinued
+meta: discontinued
+verdict: nowallet
 date: 2023-02-06
 signer: 
 reviewArchive: 

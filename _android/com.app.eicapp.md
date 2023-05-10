@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.eicapp
 appCountry: 
-released: Jan 11, 2021
+released: 2021-01-11
 updated: 2021-01-11
 version: '1.3'
 stars: 

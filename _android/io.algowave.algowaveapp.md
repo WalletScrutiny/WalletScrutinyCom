@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: io.algowave.algowaveapp
 appCountry: 
-released: Jul 9, 2018
+released: 2018-07-09
 updated: 2021-04-29
 version: '3.0'
 stars: 

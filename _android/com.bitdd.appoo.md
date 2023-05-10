@@ -2,11 +2,11 @@
 wsId: 
 title: Bitdd.com - Buy BTC, ETH
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.bitdd.appoo
 appCountry: 
-released: May 14, 2022
+released: 2022-05-14
 updated: 2022-05-19
 version: 1.0.2
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitdd.appoo.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,4 +29,5 @@ redirect_from:
 features: 
 
 ---
+
 

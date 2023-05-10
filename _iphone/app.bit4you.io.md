@@ -7,7 +7,7 @@ authors:
 appId: app.bit4you.io
 appCountry: us
 idd: '1444871913'
-released: '2018-12-12T13:56:52Z'
+released: 2018-12-12
 updated: 2022-11-12
 version: '3.2'
 stars: 0

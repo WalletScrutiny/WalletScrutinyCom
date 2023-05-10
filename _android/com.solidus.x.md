@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: 'SolidusX: Investing ReVisioned'
+title: SolidusX Trading
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.solidus.x
 appCountry: 
 released: 

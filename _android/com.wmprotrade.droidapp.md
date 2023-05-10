@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.wmprotrade.droidapp
 appCountry: 
-released: May 17, 2020
+released: 2020-05-17
 updated: 2021-02-06
 version: '1.2'
 stars: 

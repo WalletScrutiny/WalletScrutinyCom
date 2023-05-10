@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.sixmultiverse.heartnumber
 appCountry: 
-released: May 22, 2019
+released: 2019-05-22
 updated: 2023-03-03
 version: 3.55.0
 stars: 

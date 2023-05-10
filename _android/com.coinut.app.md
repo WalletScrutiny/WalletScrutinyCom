@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.coinut.app
 appCountry: 
-released: Feb 4, 2018
+released: 2018-02-04
 updated: 2022-11-01
 version: 0.8.2
 stars: 3.7

@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.oasisexc.app
 appCountry: 
-released: Aug 19, 2019
+released: 2019-08-19
 updated: 2021-04-30
 version: 2.2.3
 stars: 

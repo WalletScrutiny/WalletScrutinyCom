@@ -8,11 +8,11 @@ appId: com.cashin.store
 appCountry: gb
 idd: 1363753409
 released: 2018-08-15
-updated: 2023-03-22
-version: '6.2'
+updated: 2023-05-03
+version: '6.3'
 stars: 5
 reviews: 4
-size: '107437056'
+size: '122640384'
 website: https://bitcoinpoint.com
 repository: 
 issue: 

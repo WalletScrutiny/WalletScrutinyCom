@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.instantexchange.instantexchange
 appCountry: 
-released: Mar 25, 2022
+released: 2022-03-25
 updated: 2022-03-25
 version: 2.0.0
 stars: 

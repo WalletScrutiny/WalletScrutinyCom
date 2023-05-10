@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.naryex
 appCountry: 
-released: Aug 18, 2021
+released: 2021-08-18
 updated: 2021-11-18
 version: 1.2.4
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: kr.co.a131t
 appCountry: 
-released: Jun 26, 2019
+released: 2019-06-26
 updated: 2019-06-27
 version: 1.0-R
 stars: 

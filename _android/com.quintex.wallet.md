@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.quintex.wallet
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-05-28
 version: 1.0.0
 stars: 

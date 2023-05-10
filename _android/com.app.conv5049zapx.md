@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.conv5049zapx
 appCountry: 
-released: May 12, 2021
+released: 2021-05-12
 updated: 2021-05-12
 version: '1.0'
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.conv5049zapx.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 

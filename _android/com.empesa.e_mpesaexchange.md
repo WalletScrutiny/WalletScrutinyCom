@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.empesa.e_mpesaexchange
 appCountry: 
-released: Feb 28, 2020
+released: 2020-02-28
 updated: 2020-02-28
 version: '1.1'
 stars: 

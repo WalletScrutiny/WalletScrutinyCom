@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.btcatm.btcatm
 appCountry: 
-released: Jun 8, 2022
+released: 2022-06-08
 updated: 2022-06-24
 version: 1.0.8
 stars: 

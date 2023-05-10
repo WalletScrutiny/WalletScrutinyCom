@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.daeapp
 appCountry: 
-released: Jan 2, 2021
+released: 2021-01-02
 updated: 2021-09-12
 version: '12.0'
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: com.webcom.Xfacia
 appCountry: br
 idd: '1620527067'
-released: '2022-08-15T07:00:00Z'
+released: 2022-08-15
 updated: 2022-12-21
 version: '4.1'
 stars: 0

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptox.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-05-03
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

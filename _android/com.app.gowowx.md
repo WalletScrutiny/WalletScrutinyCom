@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.app.gowowx
 appCountry: 
-released: Oct 11, 2019
+released: 2019-10-11
 updated: 2020-07-13
 version: 1.0.9
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.gowowx.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

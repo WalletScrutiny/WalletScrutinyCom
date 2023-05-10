@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.biqihuo
 appCountry: 
-released: Aug 21, 2019
+released: 2019-08-21
 updated: 2019-08-21
 version: '1.0'
 stars: 

@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.walker.jtech
 appCountry: 
-released: Sep 26, 2021
+released: 2021-09-26
 updated: 2023-04-17
 version: 1.0.7
 stars: 3.2
 ratings: 
-reviews: 11
+reviews: 13
 size: 
 website: http://www.jtechtrade.com
 repository: 

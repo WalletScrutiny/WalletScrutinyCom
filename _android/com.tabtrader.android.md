@@ -11,10 +11,10 @@ appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
 updated: 2023-04-04
-version: 5.2.3
-stars: 4.5
+version: 5.3.6
+stars: 4.6
 ratings: 57218
-reviews: 1117
+reviews: 1116
 size: 
 website: http://www.tab-trader.com
 repository: 

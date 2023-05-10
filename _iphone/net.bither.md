@@ -10,7 +10,7 @@ released: 2014-07-25
 updated: 2022-10-10
 version: 2.0.7
 stars: 3
-reviews: 49
+reviews: 50
 size: '13320192'
 website: https://bither.net
 repository: https://github.com/bither/bither-ios

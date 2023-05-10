@@ -7,11 +7,11 @@ authors:
 appId: io.coinCap.coinCap
 appCountry: us
 idd: '1074052280'
-released: '2016-01-25T19:14:42Z'
+released: 2016-01-25
 updated: 2021-10-13
 version: 3.1.33
 stars: 4.7
-reviews: 41603
+reviews: 41581
 size: '69145600'
 website: http://coincap.io
 repository: 

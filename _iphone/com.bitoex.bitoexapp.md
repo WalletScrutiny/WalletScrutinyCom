@@ -6,11 +6,11 @@ authors:
 appId: com.bitoex.bitoexapp
 appCountry: tw
 idd: '1461042737'
-released: '2019-11-18T08:00:00Z'
+released: 2019-11-18
 updated: 2020-03-12
 version: 1.0.1
 stars: 2.5
-reviews: 84
+reviews: 85
 size: '41635840'
 website: https://www.bitoex.com/?locale=en
 repository: 
