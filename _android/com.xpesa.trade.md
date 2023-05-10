@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xpesa.trade
 appCountry: 
-released: Aug 31, 2018
+released: 2018-08-31
 updated: 2020-09-04
 version: 2.1.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

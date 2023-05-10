@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bit.teo
 appCountry: 
-released: Dec 27, 2019
+released: 2019-12-27
 updated: 2021-05-24
 version: '1.014'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

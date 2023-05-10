@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.keplerk.blockchain.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-04
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: BykepFR
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bykepfr
 - https://www.facebook.com/BykepFR
 redirect_from: 
+features: 
 
 ---
 

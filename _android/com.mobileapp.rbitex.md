@@ -6,12 +6,12 @@ authors:
 users: 1000
 appId: com.mobileapp.rbitex
 appCountry: 
-released: Oct 29, 2021
+released: 2021-10-29
 updated: 2022-06-12
 version: 3.0.2
-stars: 5
+stars: 
 ratings: 
-reviews: 27
+reviews: 
 size: 
 website: https://rbitex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

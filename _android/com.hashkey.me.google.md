@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: HashKey Me - Identity Wallet
+title: HashKey Me - Your Web3 Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: com.hashkey.me.google
 appCountry: 
-released: Jun 23, 2021
-updated: 2022-12-15
-version: 3.2.1
+released: 2021-06-23
+updated: 2023-02-04
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

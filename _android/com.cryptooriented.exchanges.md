@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cryptooriented.exchanges
 appCountry: 
-released: Jan 10, 2018
+released: 2018-01-10
 updated: 2022-01-10
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

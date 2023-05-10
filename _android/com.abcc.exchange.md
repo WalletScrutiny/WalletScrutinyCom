@@ -8,8 +8,8 @@ users: 100000
 appId: com.abcc.exchange
 appCountry: us
 released: 2018-08-23
-updated: 2022-12-29
-version: 1.9.29
+updated: 2023-03-01
+version: 1.9.30
 stars: 4.8
 ratings: 1541
 reviews: 45
@@ -28,6 +28,7 @@ twitter: ABCCExOfficial
 social:
 - https://www.facebook.com/ABCC-Exchange-558472047871367
 redirect_from: 
+features: 
 
 ---
 

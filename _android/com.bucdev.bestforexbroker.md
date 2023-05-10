@@ -2,7 +2,8 @@
 wsId: 
 title: Forex Broker
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.bucdev.bestforexbroker
 appCountry: 
@@ -20,12 +21,16 @@ icon: com.bucdev.bestforexbroker.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2022-11-02
+date: 2023-03-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+We tried installing this but the app said it was made for an older version of Android. 
+
+The homepage of the site also points to knightgames.co which does not have a register or sign-up/sign-in option. It only has a contact form. 

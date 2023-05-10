@@ -28,6 +28,7 @@ reviewArchive:
 twitter: CaseWallet
 social:
 - https://www.facebook.com/casewallet
+features: 
 
 ---
 

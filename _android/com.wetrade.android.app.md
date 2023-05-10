@@ -1,12 +1,12 @@
 ---
 wsId: 
-title: 'weTrade : Buy Bitcoin & Crypto'
+title: weTrade
 altTitle: 
 authors: 
 users: 100000
 appId: com.wetrade.android.app
 appCountry: 
-released: May 11, 2022
+released: 2022-05-11
 updated: 2022-12-23
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

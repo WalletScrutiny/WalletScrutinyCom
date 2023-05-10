@@ -6,12 +6,12 @@ authors:
 users: 5000
 appId: io.bytewallet.bytewallet
 appCountry: 
-released: Jul 20, 2021
-updated: 2022-12-01
+released: 2021-07-20
+updated: 2023-04-19
 version: VARY
 stars: 3.1
 ratings: 
-reviews: 27
+reviews: 31
 size: 
 website: https://www.bytefederal.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

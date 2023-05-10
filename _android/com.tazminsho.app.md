@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.tazminsho.app
 appCountry: 
-released: Feb 22, 2020
+released: 2020-02-22
 updated: 2020-07-12
 version: '2.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

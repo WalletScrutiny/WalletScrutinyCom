@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.itez.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-03-14
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: Itezofficial
 social:
 - https://www.facebook.com/itezofficial
 redirect_from: 
+features: 
 
 ---
 

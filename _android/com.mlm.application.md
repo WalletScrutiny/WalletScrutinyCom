@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.mlm.application
 appCountry: 
-released: Mar 25, 2021
+released: 2021-03-25
 updated: 2022-04-20
 version: '2.6'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.mlm.application.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

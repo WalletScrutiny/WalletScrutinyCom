@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.metau.droidapp
 appCountry: 
-released: Apr 10, 2022
+released: 2022-04-10
 updated: 2022-04-10
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.metau.droidapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bastionpay.betrapay
 appCountry: 
-released: Oct 30, 2019
+released: 2019-10-30
 updated: 2019-11-20
 version: v1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

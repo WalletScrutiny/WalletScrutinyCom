@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cryptohome.android.ab
 appCountry: 
-released: Nov 10, 2021
+released: 2021-11-10
 updated: 2021-11-10
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

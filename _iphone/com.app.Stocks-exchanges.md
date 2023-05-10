@@ -10,7 +10,7 @@ idd: 1200812360
 released: 2017-05-15
 updated: 2022-02-08
 version: '1.34'
-stars: 2.6
+stars: 2.4
 reviews: 29
 size: '71872512'
 website: https://stex.com
@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-03
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

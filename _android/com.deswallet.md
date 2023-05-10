@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.deswallet
 appCountry: 
-released: Mar 4, 2020
+released: 2020-03-04
 updated: 2020-03-12
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

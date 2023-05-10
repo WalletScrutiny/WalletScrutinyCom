@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.safeblast.wallet
 appCountry: 
-released: Jul 14, 2021
+released: 2021-07-14
 updated: 2021-07-14
 version: 0.1.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

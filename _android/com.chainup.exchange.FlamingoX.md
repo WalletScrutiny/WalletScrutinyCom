@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.chainup.exchange.FlamingoX
 appCountry: 
-released: Apr 13, 2022
+released: 2022-04-13
 updated: 2022-04-13
 version: 5.3.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

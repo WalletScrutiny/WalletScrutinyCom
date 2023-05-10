@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.paed.paed
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2022-02-25
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.paed.paed.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

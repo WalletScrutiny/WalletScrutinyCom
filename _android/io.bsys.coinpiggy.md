@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.bsys.coinpiggy
 appCountry: 
-released: Nov 5, 2018
+released: 2018-11-05
 updated: 2020-09-10
 version: '1.106'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

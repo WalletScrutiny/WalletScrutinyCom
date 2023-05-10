@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-04-25
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /cryptoex.elegro.io/
 - /posts/cryptoex.elegro.io/
+features: 
 
 ---
 

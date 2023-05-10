@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: prestopaybusiness.eu
 appCountry: 
-released: Mar 23, 2021
+released: 2021-03-23
 updated: 2022-12-15
 version: 1.0.5
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: prestopaybusiness.eu.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

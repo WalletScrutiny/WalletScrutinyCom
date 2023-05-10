@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cdmdefi.app
 appCountry: 
-released: Dec 31, 2021
+released: 2021-12-31
 updated: 2021-12-31
 version: '1.3'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cdmdefi.app.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-12-28
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

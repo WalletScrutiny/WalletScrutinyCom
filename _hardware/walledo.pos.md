@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/WalledoTeam
 - https://www.instagram.com/walledoteam/
 - https://www.youtube.com/channel/UCYNH4PvL0ssEn5MrpA8ff0Q
+features: 
 
 ---
 

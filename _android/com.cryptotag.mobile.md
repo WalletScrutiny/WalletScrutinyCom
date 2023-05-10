@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cryptotag.mobile
 appCountry: 
-released: Nov 6, 2017
+released: 2017-11-06
 updated: 2021-09-30
 version: 1.14.40.00000
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

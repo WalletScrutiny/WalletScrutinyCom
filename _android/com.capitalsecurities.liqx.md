@@ -3,12 +3,12 @@ wsId:
 title: 'LiquidityX: CFD Online Trading'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.capitalsecurities.liqx
 appCountry: 
 released: 
-updated: 2022-12-28
-version: 2.2.0
+updated: 2023-04-14
+version: 2.2.3
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

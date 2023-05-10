@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /engineering.lightning.LightningMainnet/
 - /posts/engineering.lightning.LightningMainnet/
+features: 
 
 ---
 

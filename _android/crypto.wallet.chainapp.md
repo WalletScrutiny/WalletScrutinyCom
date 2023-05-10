@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: crypto.wallet.chainapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-02
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

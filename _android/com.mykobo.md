@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: MYKOBO
+title: 'MYKOBO: Buy, Sell, Use EURC'
 altTitle: 
 authors: 
 users: 100
 appId: com.mykobo
 appCountry: 
 released: 2020-10-29
-updated: 2022-11-16
-version: 2.0.8
+updated: 2023-04-11
+version: 2.0.14
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -3,10 +3,10 @@ wsId:
 title: Flamer Swap
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.flamer.swap
 appCountry: 
-released: Sep 25, 2021
+released: 2021-09-25
 updated: 2021-09-25
 version: '4'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

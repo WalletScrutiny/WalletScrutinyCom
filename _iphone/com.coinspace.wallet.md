@@ -8,25 +8,31 @@ appId: com.coinspace.wallet
 appCountry: 
 idd: 980719434
 released: 2015-12-14
-updated: 2022-12-16
-version: 5.9.3
+updated: 2023-03-07
+version: 5.10.0
 stars: 4.4
-reviews: 184
-size: '49174528'
+reviews: 200
+size: '49213440'
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
 issue: 
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 meta: ok
-verdict: ftbfs
-date: 2020-12-20
+verdict: nonverifiable
+date: 2023-04-22
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2019-12-16
+  version: v2.16.3
+  appHash: 
+  gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
+  verdict: ftbfs
 twitter: coinappwallet
 social:
 - https://www.linkedin.com/company/coin-space
 - https://www.facebook.com/coinappwallet
+features: 
 
 ---
 

@@ -18,7 +18,7 @@ const folder = `_${category}/`
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
                 'updated version stars ratings reviews size website repository ' +
                 'issue icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social redirect_from').split(' ')
+                'twitter social redirect_from features').split(' ')
 
 async function refreshAll (ids, markDefunct, githubApi) {
   const octokit = new Octokit({ auth: githubApi })
@@ -139,12 +139,13 @@ function add (appIds) {
 
   appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    if (!fs.existsSync(path)) {
-      const header = helper.getEmptyHeader(headers)
-      header.appId = appId
-      header.verdict = 'wip'
-      refreshFile(`${appId}.md`, { header: header, body: '' })
-    }
+    fs.access(path)
+      .catch(() => {
+        const header = helper.getEmptyHeader(headers)
+        header.appId = appId
+        header.verdict = 'wip'
+        refreshFile(`${appId}.md`, { header: header, body: '' })
+      })
   })
 }
 
@@ -153,9 +154,10 @@ function update (appIds) {
 
   appIds.forEach(appId => {
     const path = `_android/${appId}.md`
-    if (fs.existsSync(path)) {
-      refreshFile(`${appId}.md`)
-    }
+    fs.access(path)
+      .then(() => {
+        refreshFile(`${appId}.md`)
+      })
   })
 }
 

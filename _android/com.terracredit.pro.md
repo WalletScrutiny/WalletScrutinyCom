@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.terracredit.pro.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-02-26
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: terrabitcrypto
 social: 
 redirect_from: 
+features: 
 
 ---
 

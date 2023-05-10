@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.banqy
 appCountry: 
-released: Mar 20, 2020
+released: 2020-03-20
 updated: 2020-03-20
 version: 1.0.1209
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.banqy.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

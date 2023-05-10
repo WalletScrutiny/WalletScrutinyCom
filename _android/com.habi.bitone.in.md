@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.habi.bitone.in.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

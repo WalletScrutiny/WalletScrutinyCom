@@ -8,11 +8,11 @@ appId: am.ecos.ios.production
 appCountry: us
 idd: 1528964374
 released: 2020-11-25
-updated: 2022-12-30
-version: 1.30.5
-stars: 3.8
-reviews: 144
-size: '84228096'
+updated: 2023-03-08
+version: 1.31.4
+stars: 3.6
+reviews: 146
+size: '83386368'
 website: https://ecos.am/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
+features: 
 
 ---
 

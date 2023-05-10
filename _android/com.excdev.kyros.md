@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.excdev.kyros
 appCountry: 
-released: Sep 2, 2020
+released: 2020-09-02
 updated: 2022-02-07
 version: 3.2.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.excdev.kyros.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

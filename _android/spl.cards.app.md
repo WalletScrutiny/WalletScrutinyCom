@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: spl.cards.app
 appCountry: 
-released: Sep 23, 2021
+released: 2021-09-23
 updated: 2021-11-22
 version: 1.3.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

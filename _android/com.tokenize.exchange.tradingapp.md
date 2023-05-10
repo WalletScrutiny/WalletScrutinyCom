@@ -8,11 +8,11 @@ users: 50000
 appId: com.tokenize.exchange.tradingapp
 appCountry: us
 released: 2019-12-03
-updated: 2023-01-09
-version: 2.0.15
-stars: 4.3
+updated: 2023-04-14
+version: 2.0.16
+stars: 4.1
 ratings: 
-reviews: 10
+reviews: 6
 size: 
 website: https://tokenize.exchange/
 repository: 
@@ -28,6 +28,7 @@ twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.hashkey.hub
 appCountry: 
-released: Mar 17, 2019
+released: 2019-03-17
 updated: 2022-04-07
 version: 4.0.0
 stars: 4.3
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.hashkey.hub.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

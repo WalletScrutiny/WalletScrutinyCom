@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.kratosapp
 appCountry: 
-released: Feb 1, 2021
+released: 2021-02-01
 updated: 2021-02-01
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

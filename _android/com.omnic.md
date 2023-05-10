@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.omnic
 appCountry: 
-released: Sep 3, 2019
+released: 2019-09-03
 updated: 2021-05-04
 version: 1.0.81
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.omnic.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

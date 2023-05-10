@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.architech.act.plutowallet
 appCountry: 
-released: Mar 26, 2019
+released: 2019-03-26
 updated: 2019-04-19
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

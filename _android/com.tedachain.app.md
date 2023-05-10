@@ -2,11 +2,12 @@
 wsId: 
 title: Teda Chain
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.tedachain.app
 appCountry: 
-released: Mar 17, 2022
+released: 2022-03-17
 updated: 2022-04-01
 version: 2.6.7
 stars: 4.4
@@ -18,14 +19,16 @@ repository:
 issue: 
 icon: com.tedachain.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+This app is no longer on Google Play (404).

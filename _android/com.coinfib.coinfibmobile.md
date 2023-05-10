@@ -3,10 +3,10 @@ wsId:
 title: Coinfib
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.coinfib.coinfibmobile
 appCountry: 
-released: Mar 16, 2022
+released: 2022-03-16
 updated: 2022-04-01
 version: 1.0.4
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.coinfib.coinfibmobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

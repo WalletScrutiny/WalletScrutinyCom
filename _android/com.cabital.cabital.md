@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cabital
 - https://www.facebook.com/CabitalGlobal
 redirect_from: 
+features: 
 
 ---
 

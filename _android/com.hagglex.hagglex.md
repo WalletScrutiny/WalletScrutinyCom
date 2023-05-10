@@ -12,7 +12,7 @@ updated: 2021-11-26
 version: 1.1.2
 stars: 4.3
 ratings: 2775
-reviews: 92
+reviews: 90
 size: 
 website: http://www.hagglex.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
 redirect_from: 
+features: 
 
 ---
 

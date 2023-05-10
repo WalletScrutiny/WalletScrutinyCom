@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-07-22
 updated: 2022-12-22
 version: 5.5.0
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: qPocket_wallet
 social: 
 redirect_from: 
+features: 
 
 ---
 

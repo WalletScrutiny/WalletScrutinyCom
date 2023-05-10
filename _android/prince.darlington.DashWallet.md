@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: prince.darlington.DashWallet
 appCountry: 
-released: Oct 6, 2020
+released: 2020-10-06
 updated: 2020-10-06
 version: '2.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

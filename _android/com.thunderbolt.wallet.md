@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Thunderbolt - Bitcoin and Ligh
+title: Thunderbolt Lightning Wallet
 altTitle: 
 authors: 
 users: 500
@@ -9,9 +9,9 @@ appCountry:
 released: 2021-08-29
 updated: 2021-08-29
 version: 1.0.3
-stars: 4.1
+stars: 4.3
 ratings: 
-reviews: 27
+reviews: 43
 size: 
 website: https://thunderboltwallet.com
 repository: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

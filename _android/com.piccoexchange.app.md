@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.piccoexchange.app
 appCountry: 
-released: Dec 25, 2019
+released: 2019-12-25
 updated: 2019-12-25
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: app.hashx.online
 appCountry: 
-released: Sep 3, 2021
+released: 2021-09-03
 updated: 2021-09-13
 version: 1.0.15
 stars: 3.5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

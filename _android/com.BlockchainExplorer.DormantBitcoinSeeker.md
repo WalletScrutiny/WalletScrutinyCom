@@ -6,12 +6,12 @@ authors:
 users: 1000
 appId: com.BlockchainExplorer.DormantBitcoinSeeker
 appCountry: 
-released: Jun 4, 2022
-updated: 2023-01-03
-version: 1.0.8
-stars: 
+released: 2022-06-04
+updated: 2023-01-15
+version: 1.0.9
+stars: 3.2
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

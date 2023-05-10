@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.exchange.bitcnex
 appCountry: 
-released: Apr 19, 2019
+released: 2019-04-19
 updated: 2019-04-19
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

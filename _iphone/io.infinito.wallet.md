@@ -11,7 +11,7 @@ released: 2018-01-17
 updated: 2022-09-06
 version: 2.36.15
 stars: 4.1
-reviews: 182
+reviews: 180
 size: '107215872'
 website: https://www.infinitowallet.io
 repository: 
@@ -27,6 +27,7 @@ twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices
 - https://www.facebook.com/InfinitoWallet
+features: 
 
 ---
 

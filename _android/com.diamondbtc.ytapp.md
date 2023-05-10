@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.diamondbtc.ytapp
 appCountry: 
-released: Mar 13, 2021
+released: 2021-03-13
 updated: 2021-03-13
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.diamondbtc.ytapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

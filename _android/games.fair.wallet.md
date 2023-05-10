@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: games.fair.wallet
 appCountry: 
-released: Dec 12, 2019
+released: 2019-12-12
 updated: 2020-03-13
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

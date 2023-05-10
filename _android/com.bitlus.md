@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bitlus
 appCountry: 
-released: Dec 24, 2020
+released: 2020-12-24
 updated: 2021-11-27
 version: '1.9'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

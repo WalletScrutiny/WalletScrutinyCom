@@ -1,6 +1,6 @@
 ---
 wsId: casaapp
-title: Casa App - Secure your Bitcoin
+title: 'Casa App: Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ users: 10000
 appId: casa.keymaster
 appCountry: 
 released: 2019-03-01
-updated: 2022-11-16
-version: 3.14.8
-stars: 4.6
+updated: 2023-05-03
+version: 4.1.0
+stars: 4.8
 ratings: 204
 reviews: 24
 size: 
@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /casa.keymaster/
 - /posts/casa.keymaster/
+features: 
 
 ---
 

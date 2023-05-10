@@ -13,16 +13,16 @@ updated: 2022-02-01
 version: 3.0.1
 stars: 4.1
 ratings: 2220
-reviews: 223
+reviews: 221
 size: 
 website: https://decrypt.co/
 repository: 
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-01
+date: 2023-01-28
 signer: 
 reviewArchive: 
 twitter: decryptmedia
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/decryptmedia
 redirect_from:
 - /co.decrypt.app/
+features: 
 
 ---
 

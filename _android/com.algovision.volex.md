@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.algovision.volex
 appCountry: 
-released: Oct 4, 2021
+released: 2021-10-04
 updated: 2022-02-02
 version: 1.2.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

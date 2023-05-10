@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitbankiosdnge.app
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2021-09-30
 version: '456'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

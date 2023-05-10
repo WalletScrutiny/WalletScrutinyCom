@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ourpaywallet
 appCountry: 
-released: Feb 18, 2021
+released: 2021-02-18
 updated: 2021-02-22
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ourpaywallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

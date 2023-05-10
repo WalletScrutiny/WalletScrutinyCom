@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitopapps.fanhukj
 appCountry: 
-released: Dec 10, 2021
+released: 2021-12-10
 updated: 2021-12-10
 version: '1.0'
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

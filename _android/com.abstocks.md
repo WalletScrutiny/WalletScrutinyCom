@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.abstocks
 appCountry: 
-released: Aug 30, 2021
+released: 2021-08-30
 updated: 2022-02-07
 version: 1.6.106
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.abstocks.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

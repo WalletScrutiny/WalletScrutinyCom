@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.crebit
 appCountry: 
-released: Jun 23, 2019
+released: 2019-06-23
 updated: 2019-06-24
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: net.plisio.app
 appCountry: 
-released: Jul 27, 2021
+released: 2021-07-27
 updated: 2022-02-02
 version: 1.3.9
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: net.plisio.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-01-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.uphold.card
 appCountry: 
-released: Mar 27, 2020
+released: 2020-03-27
 updated: 2021-05-28
 version: 1.2.1
 stars: 2.9
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

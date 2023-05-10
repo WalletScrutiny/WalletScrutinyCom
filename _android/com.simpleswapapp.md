@@ -10,9 +10,9 @@ appCountry: gb
 released: 2020-05-23
 updated: 2022-12-24
 version: 3.1.17
-stars: 4.6
+stars: 4.4
 ratings: 575
-reviews: 76
+reviews: 49
 size: 
 website: https://simpleswap.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/SimpleSwap.io
 - https://www.reddit.com/r/simpleswapexchange
 redirect_from: 
+features: 
 
 ---
 

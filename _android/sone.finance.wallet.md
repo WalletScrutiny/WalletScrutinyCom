@@ -2,11 +2,12 @@
 wsId: 
 title: S-ONE Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: sone.finance.wallet
 appCountry: 
-released: Jul 9, 2021
+released: 2021-07-09
 updated: 2022-10-18
 version: 1.0.12
 stars: 2.9
@@ -18,14 +19,16 @@ repository:
 issue: 
 icon: sone.finance.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+The app is no longer on Google Play (404).

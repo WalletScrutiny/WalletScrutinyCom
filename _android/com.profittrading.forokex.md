@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.profittrading.forokex.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+features: 
 
 ---
 

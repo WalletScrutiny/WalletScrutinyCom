@@ -1,12 +1,12 @@
 ---
 wsId: 
-title: Ramzingate | رمزین گیت بستر مع
+title: رمزینگیت|خرید آنی تتر و رمزارز
 altTitle: 
 authors: 
 users: 1000
 appId: com.ramzingate.ramzingate
 appCountry: 
-released: Aug 29, 2021
+released: 2021-08-29
 updated: 2022-03-03
 version: 1.2.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ramzingate.ramzingate.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

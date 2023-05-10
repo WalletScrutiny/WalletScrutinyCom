@@ -10,9 +10,9 @@ appCountry:
 released: 2018-10-19
 updated: 2022-11-04
 version: 2.5.1
-stars: 4.3
+stars: 4.2
 ratings: 821
-reviews: 160
+reviews: 149
 size: 
 website: http://splashfactory.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.sf.monarch/
 - /posts/com.sf.monarch/
+features: 
 
 ---
 

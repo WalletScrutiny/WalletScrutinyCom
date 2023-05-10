@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.cyclebas
 appCountry: 
-released: Aug 30, 2021
+released: 2021-08-30
 updated: 2022-10-06
 version: 3.0.16
 stars: 4.8
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cyclebas.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -12,21 +12,22 @@ updated: 2022-04-11
 version: 11.5.0
 stars: 4.4
 ratings: 152
-reviews: 24
+reviews: 25
 size: 
 website: https://bitcoinofamerica.org/
 repository: 
 issue: 
 icon: io.cordova.myappf57082.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-04-11
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: BTCofAmerica
 social: 
 redirect_from: 
+features: 
 
 ---
 

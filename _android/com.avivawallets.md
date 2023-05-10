@@ -3,10 +3,10 @@ wsId:
 title: Aviva Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.avivawallets
 appCountry: 
-released: May 2, 2022
+released: 2022-05-02
 updated: 2022-05-02
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.avivawallets.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: maiarwallet
-title: 'Maiar: Crypto & eGold Wallet'
+title: xPortal
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 1000000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2023-01-09
-version: 1.5.58
-stars: 4
+updated: 2023-05-03
+version: 2.0.31
+stars: 3.9
 ratings: 6106
-reviews: 161
+reviews: 190
 size: 
-website: https://maiar.com/
+website: https://xportal.com/
 repository: 
 issue: 
 icon: com.elrond.maiar.wallet.png
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/getmaiar
 - https://www.facebook.com/getMaiar
 redirect_from: 
+features: 
 
 ---
 

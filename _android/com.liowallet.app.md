@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.liowallet.app
 appCountry: 
-released: Feb 27, 2019
+released: 2019-02-27
 updated: 2021-06-24
 version: '3.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

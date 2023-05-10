@@ -8,11 +8,11 @@ appId: com.zipmex.app
 appCountry: sg
 idd: 1485647781
 released: 2019-11-06
-updated: 2022-10-12
-version: 22.7.1
+updated: 2023-01-23
+version: 23.0.0
 stars: 4.2
-reviews: 125
-size: '84703232'
+reviews: 124
+size: '84723712'
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
+features: 
 
 ---
 

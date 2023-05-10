@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cointify.exchange
 appCountry: 
-released: Apr 29, 2019
+released: 2019-04-29
 updated: 2019-06-24
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

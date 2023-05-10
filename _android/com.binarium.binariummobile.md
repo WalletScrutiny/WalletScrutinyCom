@@ -8,9 +8,9 @@ users: 100000
 appId: com.binarium.binariummobile
 appCountry: 
 released: 2019-09-16
-updated: 2022-10-19
-version: 1.0.1.3
-stars: 3.2
+updated: 2023-04-14
+version: 1.0.1.8
+stars: 3.3
 ratings: 2731
 reviews: 14
 size: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/binariumcom
 redirect_from: 
+features: 
 
 ---
 

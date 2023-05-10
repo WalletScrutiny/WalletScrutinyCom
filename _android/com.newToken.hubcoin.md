@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.newToken.hubcoin
 appCountry: 
-released: May 4, 2022
+released: 2022-05-04
 updated: 2022-06-03
 version: 0.0.36
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

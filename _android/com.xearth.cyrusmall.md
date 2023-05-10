@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.xearth.cyrusmall
 appCountry: 
-released: Sep 14, 2021
+released: 2021-09-14
 updated: 2021-09-15
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitdonate
 appCountry: 
-released: Apr 28, 2021
+released: 2021-04-28
 updated: 2021-07-26
 version: '2.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

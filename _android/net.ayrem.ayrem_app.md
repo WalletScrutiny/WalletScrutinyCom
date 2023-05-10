@@ -6,12 +6,12 @@ authors:
 users: 500
 appId: net.ayrem.ayrem_app
 appCountry: 
-released: Oct 2, 2021
-updated: 2022-12-31
+released: 2021-10-02
+updated: 2023-03-04
 version: 1.0.2
-stars: 
+stars: 3.2
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: http://ayrem.net
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

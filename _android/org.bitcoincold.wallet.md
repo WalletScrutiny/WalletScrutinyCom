@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: org.bitcoincold.wallet
 appCountry: 
-released: Aug 23, 2017
+released: 2017-08-23
 updated: 2017-08-23
 version: 1.4.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

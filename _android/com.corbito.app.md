@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.corbito.app
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2022-02-15
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.corbito.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

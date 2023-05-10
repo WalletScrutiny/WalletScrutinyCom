@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: btm.wlw
 appCountry: 
-released: Oct 25, 2018
+released: 2018-10-25
 updated: 2018-11-28
 version: 1.0.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: btm.wlw.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

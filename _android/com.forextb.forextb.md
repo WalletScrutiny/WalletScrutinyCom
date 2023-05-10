@@ -8,11 +8,11 @@ users: 50000
 appId: com.forextb.forextb
 appCountry: dk
 released: 2020-09-24
-updated: 2022-12-04
-version: 2.1.7
-stars: 2.7
+updated: 2023-04-14
+version: 2.2.3
+stars: 2.6
 ratings: 339
-reviews: 282
+reviews: 254
 size: 
 website: https://www.forextb.com/eu/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.lianghua
 appCountry: 
-released: Mar 22, 2022
+released: 2022-03-22
 updated: 2022-11-26
 version: 1.2.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.joydc.app
 appCountry: 
-released: Jan 24, 2020
+released: 2020-01-24
 updated: 2020-02-02
 version: 1.0.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

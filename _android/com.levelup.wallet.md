@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.levelup.wallet
 appCountry: 
-released: Nov 16, 2021
+released: 2021-11-16
 updated: 2021-11-16
 version: 0.20.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

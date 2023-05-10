@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.babel.pro
 appCountry: 
-released: Sep 27, 2021
+released: 2021-09-27
 updated: 2022-05-30
 version: 1.7.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

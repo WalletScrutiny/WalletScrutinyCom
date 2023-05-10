@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.brsoftech.Zuo
 appCountry: 
-released: Dec 3, 2017
+released: 2017-12-03
 updated: 2017-12-04
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.brsoftech.Zuo.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

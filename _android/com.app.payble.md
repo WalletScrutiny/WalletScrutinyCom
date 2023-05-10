@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.payble
 appCountry: 
-released: Jan 7, 2018
+released: 2018-01-07
 updated: 2021-03-01
 version: 2.1.5
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.payble.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

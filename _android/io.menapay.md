@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: io.menapay
 appCountry: 
-released: Mar 8, 2019
+released: 2019-03-08
 updated: 2020-09-18
 version: 1.8.7
 stars: 3.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

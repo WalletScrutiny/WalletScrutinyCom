@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tomyaapp.android
 appCountry: 
-released: Nov 6, 2020
+released: 2020-11-06
 updated: 2022-07-26
 version: 1.1.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

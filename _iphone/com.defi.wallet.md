@@ -8,11 +8,11 @@ appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
 released: 2020-05-20
-updated: 2022-12-28
-version: 1.49.0
-stars: 4.5
-reviews: 3771
-size: '192410624'
+updated: 2023-05-01
+version: 1.57.0
+stars: 4.6
+reviews: 5894
+size: '205096960'
 website: https://crypto.com/defi-wallet
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/cryptocom
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
+features: 
 
 ---
 

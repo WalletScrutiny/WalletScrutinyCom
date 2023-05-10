@@ -3,6 +3,7 @@ title: BitcoinPaperWallet.com
 appId: bitcoinpaperwallet
 authors:
 - danny
+- leo
 released: 2013-04-14
 discontinued: 
 updated: 2017-09-22
@@ -27,14 +28,33 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 
-## Background 
+<div class="alertBox"><div>
+<p>There are credible scam accusations about this product! The Brave browser
+warns its users about this page. Given the owner of the domain is anonymous,
+there is not accountability in case of financial loss.</p>
+<p>There is no way of using this product securely if it generates keys known to
+the provider. Running it offline, encrypting the keys, ... don't work if the
+keys are known to the provider.</p>
+</div></div>
 
-Originally started by [Canton Becker](https://github.com/cantonbecker/) in 2013, bitcoinpaperwallet used the same code as [bitaddress.org](https://github.com/pointbiz/bitaddress.org). Becker sold it to an unknown buyer in 2018. This has generated some [controversy and warnings](https://www.reddit.com/r/Bitcoin/comments/gl6v7d/vulnerability_discovered_on_bitcoinpaperwalletcom/fqvpo7v/).
+## Background
 
-The site allowed users to generate public and private key pairs through the website. Users can save a copy of the website and run it on an offline computer. It supports BIP38 and users can put an encrypted password to make the private key more secure. 
+Originally started by [Canton Becker](https://github.com/cantonbecker/) in 2013,
+bitcoinpaperwallet used the same code as
+[bitaddress.org](https://github.com/pointbiz/bitaddress.org). Becker sold it to
+an **unknown buyer** in 2018. This has generated some
+[controversy and warnings](https://www.reddit.com/r/Bitcoin/comments/gl6v7d/vulnerability_discovered_on_bitcoinpaperwalletcom/fqvpo7v/).
+
+The site allows users to generate public and private key pairs. Users can save a
+copy of the website and run it on an offline computer **which does not protect
+against the code generating keys known to the writer of the code!** It supports
+BIP38 which allows to encrypt the private keys, making them secure against
+leaking to the printer for example but it does not protect against the keys
+themselves being weak.
 
 Users can also order a "kit" which included a custom Ubuntu Live CD with the {{ page.title }} software, some printing medium and stickers. 
 

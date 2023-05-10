@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bispex.bispex
 appCountry: 
-released: Dec 4, 2019
+released: 2019-12-04
 updated: 2020-04-14
 version: 1.1.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

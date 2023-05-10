@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.haladinarwallet
 appCountry: 
-released: Nov 4, 2018
+released: 2018-11-04
 updated: 2019-09-23
 version: 1.0.13
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

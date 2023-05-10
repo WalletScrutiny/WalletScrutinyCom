@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.kmoxxllp.cryptozone
 appCountry: 
-released: Feb 16, 2022
+released: 2022-02-16
 updated: 2022-02-25
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.kmoxxllp.cryptozone.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

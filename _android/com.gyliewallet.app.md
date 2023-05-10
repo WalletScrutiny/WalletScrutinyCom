@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.gyliewallet.app
 appCountry: 
-released: Aug 8, 2021
+released: 2021-08-08
 updated: 2022-01-12
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

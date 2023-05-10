@@ -3,7 +3,7 @@ wsId:
 title: fox.exchange Cryptocurrency Ex
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: exchange.fox.android
 appCountry: 
 released: 2019-06-11
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

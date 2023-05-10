@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: com.depocket.app
 appCountry: 
-released: Jan 20, 2022
-updated: 2022-12-23
-version: 1.1.5
+released: 2022-01-20
+updated: 2023-01-12
+version: 1.1.6
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

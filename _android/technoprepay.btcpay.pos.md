@@ -3,17 +3,17 @@ wsId:
 title: BTCPAY POS
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: technoprepay.btcpay.pos
 appCountry: 
-released: Apr 16, 2022
-updated: 2022-06-11
-version: 6.3.0
+released: 2022-04-16
+updated: 2023-04-01
+version: 6.9.0
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://btcpaypos.com
+website: https://technoprepay.com
 repository: 
 issue: 
 icon: technoprepay.btcpay.pos.png
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

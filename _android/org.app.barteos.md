@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: org.app.barteos
 appCountry: 
-released: Apr 30, 2021
+released: 2021-04-30
 updated: 2022-11-10
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

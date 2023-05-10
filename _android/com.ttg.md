@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.ttg
 appCountry: 
-released: Feb 17, 2022
-updated: 2022-09-02
-version: 5.10.16
+released: 2022-02-17
+updated: 2023-02-13
+version: 5.10.21
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

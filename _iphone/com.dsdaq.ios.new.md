@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.dsdaq.ios.new.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
+features: 
 
 ---
 

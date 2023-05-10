@@ -3,10 +3,10 @@ wsId:
 title: Bittrade
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.app.bittrade
 appCountry: 
-released: Feb 28, 2022
+released: 2022-02-28
 updated: 2022-03-01
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.bittrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

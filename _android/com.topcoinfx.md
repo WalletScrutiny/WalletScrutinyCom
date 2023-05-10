@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.topcoinfx
 appCountry: 
-released: Aug 12, 2019
+released: 2019-08-12
 updated: 2020-02-11
 version: '2.5'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

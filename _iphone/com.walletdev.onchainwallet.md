@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2022-12-29
-version: 3.3.1
-stars: 4
-reviews: 190
-size: '121307136'
+updated: 2023-03-29
+version: 3.3.4
+stars: 3.8
+reviews: 163
+size: '119942144'
 website: https://www.itoken.com/en/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
+features: 
 
 ---
 

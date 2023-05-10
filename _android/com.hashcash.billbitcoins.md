@@ -7,8 +7,8 @@ users: 500
 appId: com.hashcash.billbitcoins
 appCountry: 
 released: 2021-03-17
-updated: 2022-11-16
-version: 1.0.5
+updated: 2023-05-02
+version: 2.0.2
 stars: 4.9
 ratings: 98
 reviews: 11
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

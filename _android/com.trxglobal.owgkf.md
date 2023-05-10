@@ -2,11 +2,12 @@
 wsId: 
 title: Transaction
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.trxglobal.owgkf
 appCountry: 
-released: Mar 27, 2022
+released: 2022-03-27
 updated: 2022-09-05
 version: '1.3'
 stars: 
@@ -18,14 +19,16 @@ repository:
 issue: 
 icon: com.trxglobal.owgkf.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-04-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+The app can no longer be found on Google Play (404).

@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.ghana.highgold
 appCountry: 
-released: Apr 2, 2022
+released: 2022-04-02
 updated: 2022-05-25
 version: 0.0.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: secfutures.aab
 appCountry: 
-released: Apr 30, 2022
+released: 2022-04-30
 updated: 2022-04-30
 version: 1.0.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

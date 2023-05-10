@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.mintbuy.wallet
 appCountry: 
-released: Jul 7, 2021
+released: 2021-07-07
 updated: 2021-07-07
 version: 0.21.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

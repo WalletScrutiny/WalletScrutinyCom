@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: org.mediatec.coinsnex
 appCountry: 
-released: Jul 19, 2018
+released: 2018-07-19
 updated: 2018-07-19
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

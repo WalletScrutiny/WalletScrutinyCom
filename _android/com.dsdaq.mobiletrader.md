@@ -10,24 +10,25 @@ appCountry: us
 released: 2019-12-24
 updated: 2022-01-20
 version: 3.0.4
-stars: 4.9
+stars: 4.8
 ratings: 510
-reviews: 33
+reviews: 11
 size: 
 website: https://dsdaq.com
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-30
+date: 2023-01-16
 signer: 
 reviewArchive: 
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
 redirect_from: 
+features: 
 
 ---
 

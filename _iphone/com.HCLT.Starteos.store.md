@@ -11,7 +11,7 @@ released: 2019-01-21
 updated: 2022-11-09
 version: 02.00.25
 stars: 3.8
-reviews: 14
+reviews: 9
 size: '115696640'
 website: http://starteos.io
 repository: 
@@ -27,6 +27,7 @@ twitter: Starteos
 social:
 - https://www.facebook.com/starteos.io.7
 - https://github.com/StarteosIO
+features: 
 
 ---
 

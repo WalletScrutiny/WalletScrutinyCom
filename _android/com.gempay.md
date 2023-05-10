@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.gempay
 appCountry: 
-released: Sep 23, 2021
+released: 2021-09-23
 updated: 2021-10-08
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

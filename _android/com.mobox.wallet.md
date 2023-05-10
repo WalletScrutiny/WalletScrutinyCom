@@ -10,23 +10,24 @@ appCountry: us
 released: 2021-02-02
 updated: 2022-07-06
 version: 1.4.6
-stars: 4.6
+stars: 4.4
 ratings: 2457
-reviews: 178
+reviews: 188
 size: 
 website: https://mobox.io/
 repository: 
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-10-01
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: MOBOX_Official
 social: 
 redirect_from: 
+features: 
 
 ---
 

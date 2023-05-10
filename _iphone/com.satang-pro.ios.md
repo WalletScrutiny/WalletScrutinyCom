@@ -7,12 +7,12 @@ authors:
 appId: com.satang-pro.ios
 appCountry: us
 idd: '1513155132'
-released: '2021-08-25T07:00:00Z'
-updated: 2022-12-29
-version: 1.3.1
-stars: 4.2
-reviews: 5
-size: '165781504'
+released: 2021-08-25
+updated: 2023-05-04
+version: 1.4.7
+stars: 3.7
+reviews: 6
+size: '172387328'
 website: https://satangcorp.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/satangcorp
 - https://www.youtube.com/channel/UC4U0T8JSB82E5JW6ATKKqiw
 - https://www.instagram.com/satang.official/
+features: 
 
 ---
 

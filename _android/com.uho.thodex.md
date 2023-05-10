@@ -6,7 +6,7 @@ authors:
 users: 100000
 appId: com.uho.thodex
 appCountry: 
-released: Mar 13, 2020
+released: 2020-03-13
 updated: 2020-08-18
 version: 1.0.10
 stars: 3.8
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.uho.thodex.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

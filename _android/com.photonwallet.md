@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.photonwallet
 appCountry: 
-released: Jun 22, 2018
+released: 2018-06-22
 updated: 2018-06-22
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

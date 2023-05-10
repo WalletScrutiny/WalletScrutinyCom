@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.coinbucket
 appCountry: 
-released: May 26, 2018
+released: 2018-05-26
 updated: 2022-05-02
 version: PRODUCTION (v1580502023)
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

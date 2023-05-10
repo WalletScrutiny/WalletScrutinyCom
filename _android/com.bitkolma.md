@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.bitkolma
 appCountry: 
-released: Jan 21, 2021
+released: 2021-01-21
 updated: 2021-01-21
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitkolma.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

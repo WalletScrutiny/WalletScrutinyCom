@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.firstWallet
 appCountry: 
-released: Apr 12, 2022
+released: 2022-04-12
 updated: 2022-07-30
 version: 1.1.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

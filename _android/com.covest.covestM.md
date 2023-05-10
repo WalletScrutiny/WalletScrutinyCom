@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.covest.covestM
 appCountry: 
-released: 
-updated: 2022-06-08
-version: '1.201'
+released: 2022-11-03
+updated: 2023-04-20
+version: '1.202'
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

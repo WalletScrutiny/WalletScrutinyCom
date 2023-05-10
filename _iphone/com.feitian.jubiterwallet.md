@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.feitian.jubiterwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-08
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: JuBiterWallet
 social:
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
+features: 
 
 ---
 

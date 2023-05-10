@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.satsapp/
 - /posts/com.satsapp/
+features: 
 
 ---
 

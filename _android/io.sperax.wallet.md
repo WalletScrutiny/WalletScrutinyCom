@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: io.sperax.wallet
 appCountry: 
-released: Feb 11, 2021
+released: 2021-02-11
 updated: 2022-03-30
 version: 1.6.1
 stars: 3.3
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: SperaxUSD
 social: 
 redirect_from: 
+features: 
 
 ---
 

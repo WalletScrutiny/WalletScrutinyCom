@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.btmex.exchange
 appCountry: 
-released: Sep 11, 2019
+released: 2019-09-11
 updated: 2019-12-03
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.btmex.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

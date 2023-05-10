@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.newealth
 appCountry: 
-released: Jan 6, 2021
+released: 2021-01-06
 updated: 2021-04-16
 version: 1.2.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: app.newealth.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

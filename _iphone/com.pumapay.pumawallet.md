@@ -27,6 +27,7 @@ twitter: PumaPay
 social:
 - https://www.linkedin.com/company/decentralized-vision
 - https://www.facebook.com/PumaPayOfficial
+features: 
 
 ---
 

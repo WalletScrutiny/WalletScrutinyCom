@@ -11,22 +11,23 @@ released: 2021-05-26
 updated: 2022-10-12
 version: 1.4.13
 stars: 3.4
-reviews: 726
+reviews: 718
 size: '49262592'
 website: https://www.hotbit.io
 repository: 
 issue: 
 icon: io.chainbase.global.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: Hotbit_news
 social:
 - https://www.linkedin.com/company/hotbitexchange
 - https://www.facebook.com/hotbitexchange
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: ae.phoenixfund
 appCountry: 
-released: Jan 29, 2021
+released: 2021-01-29
 updated: 2022-04-12
 version: 1.1.4
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: ae.phoenixfund.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

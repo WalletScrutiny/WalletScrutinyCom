@@ -1,6 +1,6 @@
 ---
 wsId: Bitget
-title: Bitget- Buy Bitcoin & Ether
+title: Bitget- Buy bitcoin & crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitget.exchange.global
 appCountry: ua
 idd: 1442778704
 released: 2018-11-29
-updated: 2022-11-28
-version: 1.2.68
-stars: 2.8
-reviews: 109
-size: '245739520'
+updated: 2023-04-29
+version: 2.1.1
+stars: 4
+reviews: 188
+size: '201991168'
 website: https://www.bitget.com/en
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
+features: 
 
 ---
 

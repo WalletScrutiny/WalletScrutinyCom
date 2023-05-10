@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitcaps
 appCountry: 
-released: Oct 30, 2020
+released: 2020-10-30
 updated: 2021-04-06
 version: 1.5.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitcaps.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -2,7 +2,8 @@
 wsId: 
 title: Nexybit - Mining and Futures E
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.nexybit.nexybit
 appCountry: 
@@ -18,14 +19,16 @@ repository:
 issue: 
 icon: com.nexybit.nexybit.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-09-01
+date: 2023-04-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+This exchange's homepage is no longer online. We dug a bit deeper and found some allegations against its 'advisors' [Hangkyul Park](https://thenews.asia/hankyul-park-guilty-of-fraud-at-boscoin/). We're marking this app defunct. 

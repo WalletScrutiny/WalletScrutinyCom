@@ -10,9 +10,9 @@ appCountry:
 released: 2020-08-18
 updated: 2022-10-23
 version: 1.10.6
-stars: 4.4
+stars: 3.9
 ratings: 5332
-reviews: 92
+reviews: 44
 size: 
 website: https://bitpapa.com
 repository: 
@@ -28,6 +28,7 @@ twitter: bitpapa_com
 social:
 - https://www.facebook.com/bitpapacom
 redirect_from: 
+features: 
 
 ---
 

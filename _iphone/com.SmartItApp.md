@@ -18,13 +18,14 @@ repository:
 issue: 
 icon: com.SmartItApp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

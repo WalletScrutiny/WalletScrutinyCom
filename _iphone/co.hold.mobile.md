@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: co.hold.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-03-11
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: HoldHQ
 social:
 - https://www.linkedin.com/company/holdhq
 - https://www.facebook.com/HoldHQ
+features: 
 
 ---
 

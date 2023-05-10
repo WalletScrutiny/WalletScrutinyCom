@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bitsquad.traders
 appCountry: 
-released: Feb 9, 2022
+released: 2022-02-09
 updated: 2022-02-09
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitsquad.traders.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

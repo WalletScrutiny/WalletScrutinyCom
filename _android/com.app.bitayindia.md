@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.app.bitayindia
 appCountry: 
-released: May 25, 2022
+released: 2022-05-25
 updated: 2022-05-25
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

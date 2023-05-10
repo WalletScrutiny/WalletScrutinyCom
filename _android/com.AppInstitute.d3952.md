@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.AppInstitute.d3952
 appCountry: 
-released: Dec 10, 2021
+released: 2021-12-10
 updated: 2021-12-10
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

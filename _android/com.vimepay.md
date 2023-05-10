@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.vimepay
 appCountry: 
-released: Sep 18, 2021
+released: 2021-09-18
 updated: 2021-09-18
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

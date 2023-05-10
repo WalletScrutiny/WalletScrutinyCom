@@ -3,10 +3,10 @@ wsId:
 title: Crypto Engine
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.wCryptoEngine_15484990
 appCountry: 
-released: May 5, 2022
+released: 2022-05-05
 updated: 2022-05-05
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.wCryptoEngine_15484990.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

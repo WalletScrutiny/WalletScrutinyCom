@@ -3,10 +3,10 @@ wsId:
 title: Decoin
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.decoin.app
 appCountry: 
-released: Feb 11, 2022
+released: 2022-02-11
 updated: 2022-07-26
 version: '1.127'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

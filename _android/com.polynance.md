@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.polynance
 appCountry: 
-released: Jul 26, 2019
+released: 2019-07-26
 updated: 2019-10-15
 version: '1.3'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

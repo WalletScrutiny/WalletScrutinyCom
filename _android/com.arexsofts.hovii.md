@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.arexsofts.hovii
 appCountry: 
-released: Apr 22, 2022
+released: 2022-04-22
 updated: 2022-04-22
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

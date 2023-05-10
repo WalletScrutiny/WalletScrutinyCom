@@ -7,7 +7,7 @@ authors:
 appId: com.icrypex.mobile
 appCountry: us
 idd: '1571270449'
-released: '2021-07-07T07:00:00Z'
+released: 2021-07-07
 updated: 2022-11-01
 version: '2.1'
 stars: 5
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.icrypex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-24
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: icrypex
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/icrypex-crypto-exchange/
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
+features: 
 
 ---
 

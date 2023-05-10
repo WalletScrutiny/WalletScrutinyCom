@@ -1,6 +1,6 @@
 ---
 wsId: Bibox
-title: 'Bibox Pro: Buy & Sell BTC,ETH,'
+title: Bibox Pro
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.biboxpro.release
 appCountry: us
 idd: 1505962519
 released: 2020-04-08
-updated: 2022-11-28
-version: 5.1.9
-stars: 4.4
-reviews: 71
-size: '218310656'
+updated: 2023-04-21
+version: 5.2.8
+stars: 3.8
+reviews: 72
+size: '219120640'
 website: https://www.bibox.pro
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
+features: 
 
 ---
 

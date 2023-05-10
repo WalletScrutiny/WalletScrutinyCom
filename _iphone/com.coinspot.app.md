@@ -8,11 +8,11 @@ appId: com.coinspot.app
 appCountry: au
 idd: 1541949985
 released: 2020-12-13
-updated: 2022-12-13
-version: 2.2.22
+updated: 2023-04-27
+version: 2.2.31
 stars: 4.8
-reviews: 14374
-size: '39911424'
+reviews: 15885
+size: '46757888'
 website: https://www.coinspot.com.au/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau
+features: 
 
 ---
 

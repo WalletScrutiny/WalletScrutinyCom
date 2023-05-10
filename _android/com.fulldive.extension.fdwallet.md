@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.fulldive.extension.fdwallet
 appCountry: 
-released: May 26, 2022
+released: 2022-05-26
 updated: 2022-07-12
 version: 1.6.0
 stars: 4.3
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

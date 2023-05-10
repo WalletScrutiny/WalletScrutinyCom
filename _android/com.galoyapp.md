@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Beach Wallet
+title: Bitcoin Beach Wallet (Blink)
 altTitle: 
 authors:
 - leo
@@ -9,13 +9,13 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2022-12-22
-version: 2.0.64
+updated: 2023-04-29
+version: 2.2.34
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://galoy.io/
+website: https://bbw.sv/
 repository: 
 issue: 
 icon: com.galoyapp.png
@@ -28,6 +28,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features:
+- ln
 
 ---
 

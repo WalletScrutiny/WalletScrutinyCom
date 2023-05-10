@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.metachainx.mobileapp
 appCountry: 
-released: May 3, 2022
+released: 2022-05-03
 updated: 2022-05-06
 version: '1.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.metachainx.mobileapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

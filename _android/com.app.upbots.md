@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.upbots
 appCountry: 
-released: Dec 14, 2021
+released: 2021-12-14
 updated: 2022-02-25
 version: 1.9.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.upbots.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

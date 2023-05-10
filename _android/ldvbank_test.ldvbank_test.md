@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: ldvbank_test.ldvbank_test
 appCountry: 
-released: Dec 20, 2020
+released: 2020-12-20
 updated: 2020-08-26
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

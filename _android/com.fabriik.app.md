@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.fabriik.app
 appCountry: 
-released: Apr 18, 2022
+released: 2022-04-18
 updated: 2022-10-25
 version: 4.15.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

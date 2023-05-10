@@ -1,31 +1,43 @@
 ---
-wsId: 
-title: 'Bitlo: Bitcoin ve Kripto Para '
+wsId: bitlo
+title: 'Bitlo: Bitcoin & Kripto Para'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: com.bitlo.bitloandroid
-appCountry: 
-released: Dec 18, 2020
-updated: 2020-12-18
-version: '1.0'
-stars: 3.3
+appCountry: TR
+released: 2020-12-18
+updated: 2023-04-28
+version: 2.1.0
+stars: 2.6
 ratings: 
-reviews: 5
+reviews: 784
 size: 
 website: https://www.bitlo.com/
 repository: 
 issue: 
 icon: com.bitlo.bitloandroid.png
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2022-12-17
+meta: ok
+verdict: custodial
+date: 2023-02-08
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: bitlocom
+social:
+- https://www.linkedin.com/company/bitlo/
 redirect_from: 
+features: 
 
 ---
 
+## App Description 
+
+This is primarily a Turkish cryptocurrency exchange app. Once the app is installed, the app asks you to register. We were not able to register as it needed a Turkish ID number/Turkish foreigner number. 
+
+> Your digital coins are stored in offline wallets. In our high security system, your investments are always safe.
+
+## Analysis 
+
+As a cryptocurrency exchange that stores coins in cold storage on behalf of customers, this is a **custodial** service.

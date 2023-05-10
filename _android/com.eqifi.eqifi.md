@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.eqifi.eqifi
 appCountry: 
-released: Apr 3, 2022
-updated: 2022-08-12
-version: 1.5.1
+released: 2022-04-03
+updated: 2023-04-20
+version: 1.7.3
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: co.bitfrost
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-06-02
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.fincrypt.payboltmerchant
 appCountry: 
-released: Mar 18, 2022
+released: 2022-03-18
 updated: 2022-10-25
 version: 3.0.2
 stars: 4.7
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.brickstream.gluwallet
 appCountry: 
-released: Feb 12, 2020
+released: 2020-02-12
 updated: 2020-12-29
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

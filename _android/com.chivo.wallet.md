@@ -9,11 +9,11 @@ users: 1000000
 appId: com.chivo.wallet
 appCountry: sv
 released: 2021-09-06
-updated: 2022-08-23
-version: 2.2.0
-stars: 3.4
+updated: 2023-04-21
+version: 2.3.0
+stars: 3.3
 ratings: 27085
-reviews: 13094
+reviews: 13258
 size: 
 website: https://chivowallet.com
 repository: 
@@ -34,6 +34,7 @@ twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
 redirect_from: 
+features: 
 
 ---
 

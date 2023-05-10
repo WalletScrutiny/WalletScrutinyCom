@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.chiba.client
 appCountry: 
-released: Apr 19, 2018
+released: 2018-04-19
 updated: 2018-05-08
 version: 1.0.11
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.etorexchange
 appCountry: 
-released: Apr 26, 2022
+released: 2022-04-26
 updated: 2022-06-06
 version: '1.2'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.etorexchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

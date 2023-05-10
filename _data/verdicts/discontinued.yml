@@ -1,0 +1,12 @@
+short: Discontinued
+title: Discontinued
+color: 'var(--indifferent, #3d506d)'
+message: The provider discontinued this product
+question: Is the product still for sale?
+details: >
+  Providers may discontinue sales of hardware but still support its use
+  with firmware updates.
+    
+  We continue reviews of discontinued products as they often have a
+  substantial user base for many more years.
+  

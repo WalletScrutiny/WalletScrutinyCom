@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.casirn
 appCountry: 
-released: Nov 1, 2020
+released: 2020-11-01
 updated: 2020-12-29
 version: 4.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

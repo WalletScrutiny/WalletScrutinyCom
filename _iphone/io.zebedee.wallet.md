@@ -8,11 +8,11 @@ appId: io.zebedee.wallet
 appCountry: 
 idd: 1484394401
 released: 2020-11-28
-updated: 2022-12-19
-version: 2.77.4
-stars: 4.2
-reviews: 398
-size: '133416960'
+updated: 2023-04-20
+version: 2.92.2
+stars: 4.1
+reviews: 434
+size: '147722240'
 website: https://zebedee.io
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: zebedeeio
 social: 
+features:
+- ln
 
 ---
 

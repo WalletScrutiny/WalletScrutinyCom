@@ -9,8 +9,8 @@ users: 10000
 appId: com.sparkpoint
 appCountry: us
 released: 2019-07-20
-updated: 2022-12-16
-version: 11.1.0
+updated: 2023-04-13
+version: 12.1.0
 stars: 3.7
 ratings: 608
 reviews: 68
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/sparkpointio
 - https://www.reddit.com/r/SparkPoint
 redirect_from: 
+features: 
 
 ---
 

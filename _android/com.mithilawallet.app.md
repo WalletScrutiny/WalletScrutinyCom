@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.mithilawallet.app
 appCountry: 
-released: Jun 3, 2021
+released: 2021-06-03
 updated: 2021-06-03
 version: 3.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

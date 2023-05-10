@@ -35,8 +35,12 @@ social:
 - https://www.reddit.com/r/satochip
 - https://www.youtube.com/channel/UCPmmfB5PpuwMtha9mbaRNlg
 - https://t.me/Satochip
+features: 
 
 ---
+
+Link to companion app: {% include walletLink.html wallet='android/org.satochip.satodimeapp' verdict='true' %}
+
 
 ## Product Description
 
@@ -54,7 +58,6 @@ Apart from that, details of how the keys are handled are elaborated in the same 
 
 > Private/public keypairs stored on the Satodime are always generated randomly inside the secure chip. As long as the keyslot is sealed, nobody has access to the private key. To prove that the private keys were not pre-generated during manufacturing and that no backdoor was inserted in the firmware, the user is prompted for a 64-hex random value during the sealing process. This random input is used to provide entropy during the key generation process. When the keyslot is unsealed and the private key is revealed, the entropy data (including user input) is provided and allows to ensure that the key generation process was indeed random.
 
-A [Satodime Android app](https://github.com/Toporin/Satodime-Android/releases) is still in beta.
 
 ## Retrieving the Private key
 

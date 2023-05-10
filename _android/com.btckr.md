@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.btckr
 appCountry: 
-released: Sep 11, 2019
+released: 2019-09-11
 updated: 2019-09-11
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

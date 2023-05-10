@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: TTM Wallet
+title: MDAO Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: com.ttmbank.wallet.app
 appCountry: 
-released: Aug 5, 2021
-updated: 2022-12-05
-version: 2.1.0
+released: 2021-08-05
+updated: 2023-04-18
+version: 2.2.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ttmbank.com
+website: https://ttmwallet.io
 repository: 
 issue: 
 icon: com.ttmbank.wallet.app.png
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

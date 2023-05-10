@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.sinance.exchange
 appCountry: 
-released: Jan 7, 2021
+released: 2021-01-07
 updated: 2022-07-06
 version: 1.2.1
-stars: 5
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

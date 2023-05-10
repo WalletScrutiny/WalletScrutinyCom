@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.q8ecoin.bankwallet
 appCountry: 
-released: Jan 9, 2020
+released: 2020-01-09
 updated: 2020-01-14
 version: 0.10.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

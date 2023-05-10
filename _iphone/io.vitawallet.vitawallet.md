@@ -8,11 +8,11 @@ appId: io.vitawallet.vitawallet
 appCountry: cl
 idd: 1486999955
 released: 2019-11-15
-updated: 2023-01-05
-version: 5.1.1
-stars: 4.6
-reviews: 87
-size: '49702912'
+updated: 2023-04-29
+version: 5.3.0
+stars: 4.7
+reviews: 107
+size: '55985152'
 website: https://www.vitawallet.io
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: vitawallet
 social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
+features: 
 
 ---
 

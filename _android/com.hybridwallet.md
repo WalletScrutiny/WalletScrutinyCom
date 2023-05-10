@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hybridwallet
 appCountry: 
-released: Apr 25, 2022
+released: 2022-04-25
 updated: 2022-05-12
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.hybridwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

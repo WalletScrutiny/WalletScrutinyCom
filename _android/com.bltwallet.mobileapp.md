@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bltwallet.mobileapp
 appCountry: 
-released: Dec 24, 2021
+released: 2021-12-24
 updated: 2022-02-01
 version: '2.5'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bltwallet.mobileapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

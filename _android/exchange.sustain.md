@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: exchange.sustain
 appCountry: 
-released: Dec 13, 2021
+released: 2021-12-13
 updated: 2022-03-21
 version: 1.0.17
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: exchange.sustain.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

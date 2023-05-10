@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.jeritex.exchange
 appCountry: 
-released: May 5, 2022
-updated: 2022-11-09
-version: 1.1.13
+released: 2022-05-05
+updated: 2023-04-10
+version: 1.1.19
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

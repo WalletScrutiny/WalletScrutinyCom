@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bizzaria.darbfinance
 appCountry: 
-released: Oct 2, 2019
+released: 2019-10-02
 updated: 2019-10-07
 version: 1.3.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

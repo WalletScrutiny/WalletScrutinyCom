@@ -27,6 +27,8 @@ twitter: Bitnob_official
 social:
 - https://www.linkedin.com/company/bitnob
 - https://www.facebook.com/bitnob
+features:
+- ln
 
 ---
 

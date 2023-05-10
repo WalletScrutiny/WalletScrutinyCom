@@ -2,11 +2,12 @@
 wsId: 
 title: BotCoinPro
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.botcoinpro.quant
 appCountry: 
-released: Jun 5, 2021
+released: 2021-06-05
 updated: 2021-06-29
 version: 1.0.3
 stars: 
@@ -19,13 +20,24 @@ issue:
 icon: com.botcoinpro.quant.jpg
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2022-07-01
+verdict: nowallet
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.facebook.com/botcoinpro/
 redirect_from: 
+features: 
 
 ---
+
+> BotCoinPro offer the most reliable platform crypto bot trading.
+>
+> Top Features:
+  1. Trade up to 300 crypto currency
+  1. Select the strategy yourself
+  1. API link to huobi, binance, okex and gateio  
+
+This app is not a wallet.
 

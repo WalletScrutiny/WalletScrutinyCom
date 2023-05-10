@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.fme.wallet
 appCountry: 
-released: Apr 26, 2020
+released: 2020-04-26
 updated: 2020-06-22
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.safecoin.safecoinwallet
 appCountry: 
-released: Jul 10, 2018
+released: 2018-07-10
 updated: 2019-03-18
 version: 0.0.6
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: org.safecoin.safecoinwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

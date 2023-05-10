@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.gdywgydggwf.wtewsd
 appCountry: 
-released: Mar 26, 2022
+released: 2022-03-26
 updated: 2022-03-27
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

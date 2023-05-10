@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.cryp2pay.customerfinal
 appCountry: 
-released: Feb 11, 2022
+released: 2022-02-11
 updated: 2022-05-22
 version: '1.5'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

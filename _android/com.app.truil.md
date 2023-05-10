@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.truil
 appCountry: 
-released: Sep 9, 2020
+released: 2020-09-09
 updated: 2020-09-17
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

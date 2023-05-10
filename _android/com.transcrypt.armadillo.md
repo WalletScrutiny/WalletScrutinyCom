@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.transcrypt.armadillo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: TizerWallet
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
 redirect_from: 
+features: 
 
 ---
 

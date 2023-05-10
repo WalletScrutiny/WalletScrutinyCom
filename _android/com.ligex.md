@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ligex
 appCountry: 
-released: Oct 9, 2021
+released: 2021-10-09
 updated: 2022-03-05
 version: '1.3'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ligex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

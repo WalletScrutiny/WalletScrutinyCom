@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitin.android
 appCountry: 
-released: Mar 11, 2018
+released: 2018-03-11
 updated: 2022-02-11
 version: 2.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitin.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

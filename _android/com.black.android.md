@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: black.com
+title: black.com - Email. Reinvented.
 altTitle: 
 authors: 
 users: 10000
 appId: com.black.android
 appCountry: 
-released: Jul 9, 2021
-updated: 2023-01-06
-version: '22'
+released: 2021-07-09
+updated: 2023-05-05
+version: '25.0'
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

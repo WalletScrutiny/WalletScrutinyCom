@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.wiCashwallet_12832409
 appCountry: 
-released: Dec 22, 2020
+released: 2020-12-22
 updated: 2020-12-22
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

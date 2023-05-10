@@ -2,11 +2,12 @@
 wsId: 
 title: FANDOM Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.hanryubank.fnsWallet
 appCountry: 
-released: Jul 30, 2021
+released: 2021-07-30
 updated: 2022-10-17
 version: 2.1.2
 stars: 4.6
@@ -18,14 +19,16 @@ repository:
 issue: 
 icon: com.hanryubank.fnsWallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 
+This app no longer exists on Google Play as of 2023-04-07. Marking it manually as defunct.

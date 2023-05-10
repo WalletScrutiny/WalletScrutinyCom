@@ -10,7 +10,7 @@ appCountry:
 released: 2018-11-28
 updated: 2021-05-03
 version: 1.4.3
-stars: 3.7
+stars: 3.8
 ratings: 225
 reviews: 39
 size: 
@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-29
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

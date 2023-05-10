@@ -34,6 +34,7 @@ social:
 - https://www.youtube.com/channel/UCFGwLS7yggzVkP6ozte0m1w/featured
 - https://t.me/tangemcash
 - https://github.com/tangem
+features: 
 
 ---
 

@@ -30,7 +30,7 @@
     "gulp-load-plugins": "^2.0.8",
     "gulp-sass": "^5.0.0",
     "gulp-shell": "^0.8.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^8.0.0",
     "npm-run-all": "^1.8.0",
     "onchange": "^7.1.0",
     "uglify-js": "^2.8.29"
@@ -51,7 +51,7 @@
     "google-play-scraper": "git+https://github.com/facundoolano/google-play-scraper.git",
     "gulp-cli": "^2.3.0",
     "gulp-htmlmin": "^5.0.1",
-    "gulp-minify": "^3.1.0",
+    "gulp-minify": "^3.0.0",
     "gulp-rename": "^2.0.0",
     "js-yaml": "^4.1.0",
     "octokit": "^2.0.11",

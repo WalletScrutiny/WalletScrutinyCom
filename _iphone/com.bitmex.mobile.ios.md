@@ -1,5 +1,5 @@
 ---
-wsId: BitMEX
+wsId: BitMEXOld
 title: BitMEX
 altTitle: 
 authors:
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX
+features: 
 
 ---
 

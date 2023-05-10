@@ -3,10 +3,10 @@ wsId:
 title: 'Jetbot : AI Cryptocurrency Bot'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.jetbot
 appCountry: 
-released: Mar 8, 2022
+released: 2022-03-08
 updated: 2022-04-28
 version: '1.19'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.jetbot.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

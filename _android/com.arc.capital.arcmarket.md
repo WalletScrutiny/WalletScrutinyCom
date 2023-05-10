@@ -3,10 +3,10 @@ wsId:
 title: Arcmarket
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.arc.capital.arcmarket
 appCountry: 
-released: Sep 24, 2021
+released: 2021-09-24
 updated: 2021-09-24
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -2,7 +2,8 @@
 wsId: 
 title: Vex Block Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: co.vexblock.android
 appCountry: 
@@ -18,14 +19,18 @@ repository:
 issue: 
 icon: co.vexblock.android.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-10-04
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
+
+The app description on Google Play is not very helpful. The homepage is no longer online. Archived version shows a suspended account. The app required a referral code - and we got about three, [which all resulted in errors](https://twitter.com/BitcoinWalletz/status/1648899641315065856). We assume this to be **defunct** since the app is probably referencing from a source website which is no longer online. 
+
 

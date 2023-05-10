@@ -10,18 +10,18 @@ appCountry:
 released: 2020-08-24
 updated: 2022-04-21
 version: '1.3'
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://hybridsolutions.com/
 repository: 
 issue: 
 icon: com.hybridsolutions.btc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: VertexFXTrader
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/hybrid-solutions-hs-
 - https://www.facebook.com/VertexFXTrader
 redirect_from: 
+features: 
 
 ---
 

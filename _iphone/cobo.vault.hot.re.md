@@ -27,6 +27,7 @@ twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/cobo-official
 - https://www.facebook.com/coboOfficial
+features: 
 
 ---
 

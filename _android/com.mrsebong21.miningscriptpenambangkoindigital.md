@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.mrsebong21.miningscriptpenambangkoindigital
 appCountry: 
-released: Jun 29, 2020
+released: 2020-06-29
 updated: 2020-12-18
 version: 3.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

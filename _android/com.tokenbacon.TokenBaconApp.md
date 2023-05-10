@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tokenbacon.TokenBaconApp
 appCountry: 
-released: Oct 7, 2019
+released: 2019-10-07
 updated: 2020-07-29
 version: 0.8.6.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

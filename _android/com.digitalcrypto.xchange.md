@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.digitalcrypto.xchange
 appCountry: 
-released: Sep 6, 2021
+released: 2021-09-06
 updated: 2021-09-17
 version: '1.04'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

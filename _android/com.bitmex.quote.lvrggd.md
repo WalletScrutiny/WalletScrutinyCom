@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.pulsarbank
 appCountry: 
-released: Apr 28, 2021
+released: 2021-04-28
 updated: 2021-04-28
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.pulsarbank.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

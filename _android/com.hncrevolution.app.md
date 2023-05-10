@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hncrevolution.app
 appCountry: 
-released: Jul 7, 2021
+released: 2021-07-07
 updated: 2021-08-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

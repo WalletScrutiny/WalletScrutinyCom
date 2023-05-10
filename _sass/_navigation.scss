@@ -336,25 +336,6 @@ thead {
   border-radius: 20%;
 }
 
-#donateButton {
-    -moz-animation: 1.5s ease 0s normal none infinite swing;
-    -moz-transform-origin: 50% -250%;
-    -webkit-animation:swing 1.5s infinite ease-in-out;
-    -webkit-transform-origin: 50% -250%;
-}
-
-@-moz-keyframes swing {
-    0%{-moz-transform:rotate(-9deg)}
-    50%{-moz-transform:rotate(9deg)}
-    100%{-moz-transform:rotate(-9deg)}
-}
-
-@-webkit-keyframes swing {
-    0%{-webkit-transform:rotate(-9deg)}
-    50%{-webkit-transform:rotate(9deg)}
-    100%{-webkit-transform:rotate(-9deg)}
-}
-
 .btcpay-form {
     display: inline-flex;
     align-items: center;

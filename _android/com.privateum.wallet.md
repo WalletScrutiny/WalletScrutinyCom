@@ -6,12 +6,12 @@ authors:
 users: 1000
 appId: com.privateum.wallet
 appCountry: 
-released: Dec 14, 2021
-updated: 2022-07-08
-version: 2.0.14
+released: 2021-12-14
+updated: 2023-02-28
+version: 2.0.22
 stars: 5
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://privateum.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -7,12 +7,12 @@ authors:
 appId: com.nicehash.mobile
 appCountry: us
 idd: '1372054956'
-released: '2020-04-29T07:00:00Z'
-updated: 2023-01-10
-version: 5.2.0
-stars: 4.3
-reviews: 1288
-size: '93429760'
+released: 2020-04-29
+updated: 2023-04-26
+version: 5.3.3
+stars: 4.4
+reviews: 1821
+size: '96809984'
 website: https://www.nicehash.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/nicehash_official
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
+features: 
 
 ---
 

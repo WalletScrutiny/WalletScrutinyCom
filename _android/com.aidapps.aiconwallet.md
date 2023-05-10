@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.aidapps.aiconwallet
 appCountry: 
-released: Oct 5, 2020
+released: 2020-10-05
 updated: 2021-03-04
 version: 1.0.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.aidapps.aiconwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

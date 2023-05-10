@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.litebit.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-30
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: litebiteu
 social:
 - https://www.linkedin.com/company/litebit
 - https://www.facebook.com/litebiteu
+features: 
 
 ---
 

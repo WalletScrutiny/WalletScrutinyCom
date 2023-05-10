@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'The Bitcoin Co: Shop & Wallet'
+title: The Bitcoin Company Wallet
 altTitle: 
 authors: 
 users: 1000
 appId: com.tbtc_app
 appCountry: 
-released: Mar 17, 2022
-updated: 2022-12-08
-version: 0.1.24
-stars: 4.3
+released: 2022-03-17
+updated: 2023-05-04
+version: 0.1.28
+stars: 4.2
 ratings: 
-reviews: 6
+reviews: 9
 size: 
 website: https://thebitcoincompany.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

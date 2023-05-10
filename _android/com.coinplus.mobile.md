@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.coinplus.mobile
 appCountry: 
-released: Mar 15, 2018
+released: 2018-03-15
 updated: 2020-12-15
 version: 1.3.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

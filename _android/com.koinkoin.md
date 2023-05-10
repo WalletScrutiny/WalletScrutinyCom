@@ -3,12 +3,12 @@ wsId:
 title: KoinKoin Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.koinkoin
 appCountry: 
-released: Feb 22, 2021
-updated: 2023-01-05
-version: 2.1.0
+released: 2021-02-22
+updated: 2023-05-04
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

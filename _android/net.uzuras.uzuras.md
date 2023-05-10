@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: net.uzuras.uzuras
 appCountry: 
-released: Feb 1, 2019
+released: 2019-02-01
 updated: 2021-10-15
 version: '4.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

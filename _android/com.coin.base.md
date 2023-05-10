@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.coin.base
 appCountry: 
-released: May 1, 2022
+released: 2022-05-01
 updated: 2022-05-29
 version: '1.1'
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

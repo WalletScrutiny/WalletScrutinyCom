@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: tech.qoden.mythology
 appCountry: 
-released: Jan 31, 2020
+released: 2020-01-31
 updated: 2020-01-31
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

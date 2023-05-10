@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: cbc.wallet
 appCountry: 
-released: Mar 27, 2022
+released: 2022-03-27
 updated: 2022-03-27
 version: '9.8'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: cbc.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

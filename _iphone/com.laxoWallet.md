@@ -10,8 +10,8 @@ idd: 1504656252
 released: 2020-04-03
 updated: 2022-07-18
 version: 2.3.9
-stars: 5
-reviews: 51
+stars: 4.9
+reviews: 53
 size: '90454016'
 website: https://volt.id/
 repository: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: Voltfinance
 social: 
+features: 
 
 ---
 

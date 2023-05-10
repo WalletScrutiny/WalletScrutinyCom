@@ -1,6 +1,6 @@
 ---
 wsId: Hexa2
-title: Hexa Bitcoin App
+title: Bitcoin Tribe
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: io.hexawallet.hexa2
 appCountry: in
 released: 2021-09-30
-updated: 2022-12-20
-version: 2.1.1
+updated: 2023-05-08
+version: 2.1.6
 stars: 5
 ratings: 30
 reviews: 5
@@ -28,6 +28,7 @@ twitter: HexaWallet
 social:
 - https://www.linkedin.com/company/bithyve
 redirect_from: 
+features: 
 
 ---
 

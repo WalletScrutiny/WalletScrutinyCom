@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.safepay.live
 appCountry: 
-released: Nov 12, 2021
+released: 2021-11-12
 updated: 2022-03-30
 version: 3.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.safepay.live.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

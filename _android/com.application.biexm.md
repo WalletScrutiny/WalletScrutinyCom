@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.application.biexm
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2022-02-24
 version: '1.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.application.biexm.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

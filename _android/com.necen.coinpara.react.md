@@ -6,9 +6,9 @@ authors:
 users: 100
 appId: com.necen.coinpara.react
 appCountry: 
-released: Apr 11, 2022
-updated: 2022-12-21
-version: 3.3.1
+released: 2022-04-11
+updated: 2023-03-10
+version: 3.3.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

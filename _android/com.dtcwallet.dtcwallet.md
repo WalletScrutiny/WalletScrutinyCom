@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.dtcwallet.dtcwallet
 appCountry: 
-released: Apr 20, 2020
+released: 2020-04-20
 updated: 2020-04-20
 version: 1.9.20
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

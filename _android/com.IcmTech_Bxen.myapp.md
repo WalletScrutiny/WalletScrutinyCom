@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.IcmTech_Bxen.myapp
 appCountry: 
-released: Sep 28, 2019
+released: 2019-09-28
 updated: 2019-09-28
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: net.nominex.apps.android6236aebfec5fb
 appCountry: 
-released: Mar 20, 2022
+released: 2022-03-20
 updated: 2022-03-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -8,22 +8,27 @@ users: 500000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2023-01-03
-version: 4.3.3.0
-stars: 3.7
+updated: 2023-05-04
+version: 4.4.2.0
+stars: 3.8
 ratings: 2500
-reviews: 298
+reviews: 307
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: https://github.com/spesmilo/electrum/issues/7640
+issue: 
 icon: org.electrum.electrum.png
 bugbounty: 
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2022-11-01
+date: 2023-05-09
 signer: 
 reviewArchive:
+- date: 2022-11-01
+  version: 4.2.1.0
+  appHash: f7da55a86aca86080884c1864f8db383d29116d9409ed7f37179785514f1ecf0
+  gitRevision: 90e5984b647eb0211524e604b6fedff08894f6fd
+  verdict: reproducible
 - date: 2022-04-15
   version: 4.1.5.0
   appHash: 5042c47441ffa110f3edf0669d8135e77643e314d63428c262f8e091555b3588
@@ -56,88 +61,36 @@ redirect_from:
 - /org.electrum.electrum/
 - /posts/2019/12/elecrtum/
 - /posts/org.electrum.electrum/
+features:
+- ln
 
 ---
 
-**Update 2022-11-01**: The latest binary does not compile with our current
-script. We have to look into it and potentially consult with the provider.
-
-With our {% include testScript.html %} we get:
-
-```
-...
-+ cp contrib/deterministic-build/requirements-build-android.txt contrib/android/
-+ docker build -t electrum-android-builder-img contrib/android/
-Sending build context to Docker daemon  101.9kB
-Step 1/51 : FROM ubuntu:20.04@sha256:86ac87f73641c920fb42cc9612d4fb57b5626b56ea2a19b894d0673fd5b4f2e9
-...
-Removing intermediate container e83920d3fae6
- ---> 6609b240a7d9
-Step 44/51 : COPY contrib/deterministic-build/requirements-build-base.txt /opt/deterministic-build/
-COPY failed: file not found in build context or excluded by .dockerignore: stat contrib/deterministic-build/requirements-build-base.txt: file does not exist
-+ mkdir --parents .buildozer/.gradle
-+ docker run -it --rm --name electrum-android-builder-cont --volume /tmp/test_org.electrum.electrum/app:/home/user/wspace/electrum --volume /tmp/test_org.electrum.electrum/app/.buildozer/.gradle:/home/user/.gradle --workdir /home/user/wspace/electrum electrum-android-builder-img /bin/bash -c './contrib/android/make_apk release-unsigned;
-        echo "CTRL-D to continue";
-  bash'
-Unable to find image 'electrum-android-builder-img:latest' locally
-docker: Error response from daemon: pull access denied for electrum-android-builder-img, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
-...
-```
-
-which means something changed how to build this app.
-
-Checking `git diff 4.1.5 4.2.1` indeed, the `Dockerfile` changed in the line of
-the error:
-
-```
--COPY requirements-build-android.txt /opt/deterministic-build/
-+COPY contrib/deterministic-build/requirements-build-base.txt /opt/deterministic-build/
-+COPY contrib/deterministic-build/requirements-build-android.txt /opt/deterministic-build/
-```
-
-the way the `Dockerfile` was used to build changed:
-
-```
--sudo docker build \
-+docker build \
-     $DOCKER_BUILD_FLAGS \
-     -t electrum-android-builder-img \
--    "$CONTRIB_ANDROID"
-+    --file "$CONTRIB_ANDROID/Dockerfile" \
-+    "$PROJECT_ROOT"
-```
-
-and ... the build instructions also slightly changed:
-
-```
--    $ ELECBUILD_COMMIT=HEAD ELECBUILD_NOCACHE=1 ./build.sh release-unsigned
-+    $ ELECBUILD_COMMIT=HEAD ELECBUILD_NOCACHE=1 ./build.sh kivy all release-unsigned
-```
-
-Time to update our {% include testScript.html %} and run it again:
+Here we test if the latest version can be reproduced, following the known
+procedure expressed in our {% include testScript.html %}:
 
 ```
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.2.1.0
-apkVersionCode: 34020100
+apkVersionName: 4.4.2.0
+apkVersionCode: 34040200
 verdict:        reproducible
-appHash:        f7da55a86aca86080884c1864f8db383d29116d9409ed7f37179785514f1ecf0
-commit:         90e5984b647eb0211524e604b6fedff08894f6fd
+appHash:        d668878b77b2a7accf819bcd9559e2eb088fc31d00163c8665b62e7cfefccb4a
+commit:         ff287e518fcc34010420ce413c95dd790ab544bd
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34020100/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34020100/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34020100/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34020100/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_org.electrum.electrum_34040200/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34040200/META-INF: CERT.SF
+Files /tmp/fromPlay_org.electrum.electrum_34040200/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040200/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 90e5984b647eb0211524e604b6fedff08894f6fd
+object ff287e518fcc34010420ce413c95dd790ab544bd
 type commit
-tag 4.2.1
-tagger ThomasV <thomasv@electrum.org> 1648320121 +0100
+tag 4.4.2
+tagger ThomasV <thomasv@electrum.org> 1683203165 +0200
 
-4.2.1
+4.4.2
 ===== End Results =====
 ```
 

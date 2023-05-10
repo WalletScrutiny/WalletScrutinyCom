@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.zcglq.vghkrt
 appCountry: 
-released: Apr 21, 2022
+released: 2022-04-21
 updated: 2022-04-22
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.payizadlt.pp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-04-13
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney
 redirect_from: 
+features: 
 
 ---
 

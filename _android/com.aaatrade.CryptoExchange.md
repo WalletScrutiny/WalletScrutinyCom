@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.aaatrade.CryptoExchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-03-14
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

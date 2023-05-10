@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.coldwallet
 appCountry: 
-released: Jun 6, 2019
+released: 2019-06-06
 updated: 2019-06-15
 version: 1.2.8.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

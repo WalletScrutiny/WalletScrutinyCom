@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.swiftywallet
 appCountry: 
-released: Mar 7, 2022
+released: 2022-03-07
 updated: 2022-05-25
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

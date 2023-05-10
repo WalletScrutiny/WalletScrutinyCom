@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.cryptoadvantagemobile
 appCountry: 
-released: Mar 10, 2020
+released: 2020-03-10
 updated: 2020-10-18
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

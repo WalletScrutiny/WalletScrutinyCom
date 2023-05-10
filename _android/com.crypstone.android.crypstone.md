@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.crypstone.android.crypstone
 appCountry: 
-released: Jul 3, 2018
+released: 2018-07-03
 updated: 2018-07-03
 version: '2.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

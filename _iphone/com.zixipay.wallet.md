@@ -26,6 +26,7 @@ reviewArchive:
 twitter: zixipay
 social:
 - https://www.facebook.com/ZixiPay
+features: 
 
 ---
 

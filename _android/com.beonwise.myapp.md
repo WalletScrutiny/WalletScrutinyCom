@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.beonwise.myapp
 appCountry: 
-released: May 3, 2022
+released: 2022-05-03
 updated: 2022-05-03
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

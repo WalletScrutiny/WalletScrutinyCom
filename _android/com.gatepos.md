@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.gatepos
 appCountry: 
-released: May 14, 2021
+released: 2021-05-14
 updated: 2021-05-21
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

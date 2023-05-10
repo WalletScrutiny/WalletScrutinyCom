@@ -1,6 +1,6 @@
 ---
-wsId: blockbank
-title: BlockBank
+wsId: blockbank.v1
+title: BlockBank V1
 altTitle: 
 authors:
 - danny
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank
+features: 
 
 ---
 

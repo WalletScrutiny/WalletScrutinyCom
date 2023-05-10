@@ -8,8 +8,8 @@ users: 1000
 appId: com.beecrypt.beecrypthd
 appCountry: us
 released: 2020-05-27
-updated: 2022-11-11
-version: '5.0'
+updated: 2023-05-05
+version: 6.0.7
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: money_pipe
 social:
 - https://www.facebook.com/moneypipewallet
 redirect_from: 
+features: 
 
 ---
 

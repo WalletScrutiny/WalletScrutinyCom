@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.plarkapp
 appCountry: 
-released: Apr 14, 2020
+released: 2020-04-14
 updated: 2022-04-06
 version: 2.5.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.plarkapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

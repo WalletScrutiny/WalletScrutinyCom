@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.seadex.seadex
 appCountry: 
-released: Aug 11, 2018
+released: 2018-08-11
 updated: 2018-09-05
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

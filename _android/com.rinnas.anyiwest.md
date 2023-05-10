@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rinnas.anyiwest
 appCountry: 
-released: Jun 4, 2021
+released: 2021-06-04
 updated: 2021-06-20
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

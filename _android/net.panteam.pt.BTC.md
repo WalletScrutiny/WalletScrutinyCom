@@ -7,7 +7,7 @@ users: 500
 appId: net.panteam.pt.BTC
 appCountry: 
 released: 
-updated: 2022-08-19
+updated: 2023-02-22
 version: VARY
 stars: 
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

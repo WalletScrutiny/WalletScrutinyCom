@@ -3,10 +3,10 @@ wsId:
 title: ODDS - Blockchain Wallet
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.project.odds
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2022-03-30
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.project.odds.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

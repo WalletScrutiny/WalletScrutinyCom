@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.hypertherm.app
 appCountry: 
-released: Aug 23, 2018
+released: 2018-08-23
 updated: 2021-03-22
 version: '3.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.hypertherm.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-23
+date: 2023-03-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

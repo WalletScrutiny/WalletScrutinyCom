@@ -12,7 +12,7 @@ updated: 2022-12-19
 version: 3.4.0
 stars: 4.8
 ratings: 474
-reviews: 14
+reviews: 13
 size: 
 website: https://o3.network
 repository: 
@@ -28,6 +28,7 @@ twitter: O3_Labs
 social:
 - https://github.com/O3Labs
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.dbx_mobile_app
 appCountry: 
-released: Apr 3, 2022
+released: 2022-04-03
 updated: 2022-07-01
 version: '18.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.dbx_mobile_app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

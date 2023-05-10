@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: club.whalechat.app
 appCountry: 
-released: Oct 13, 2019
+released: 2019-10-13
 updated: 2020-03-07
 version: 0.4.19
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

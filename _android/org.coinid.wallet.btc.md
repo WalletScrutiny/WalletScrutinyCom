@@ -10,18 +10,18 @@ appCountry:
 released: 2018-10-14
 updated: 2021-02-20
 version: 1.8.0
-stars: 4.7
+stars: 4.4
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: ftbfs
-date: 2022-02-16
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: COINiDGroup
@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /org.coinid.wallet.btc/
 - /posts/org.coinid.wallet.btc/
+features: 
 
 ---
 

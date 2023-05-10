@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cryptoasx.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

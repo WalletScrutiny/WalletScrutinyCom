@@ -12,16 +12,16 @@ updated: 2022-09-13
 version: 2.6.25
 stars: 3.3
 ratings: 3090
-reviews: 77
+reviews: 78
 size: 
 website: https://www.bithumb.pro
 repository: 
 issue: 
 icon: global.bithumb.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: BithumbGlobal
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bithumb.global
 - https://www.reddit.com/r/BithumbGlobal
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.ejfhp.bitonpaper
 appCountry: 
-released: Feb 13, 2021
+released: 2021-02-13
 updated: 2021-06-14
 version: v2.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

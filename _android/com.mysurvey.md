@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.mysurvey
 appCountry: 
-released: Oct 22, 2019
+released: 2019-10-22
 updated: 2019-11-12
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

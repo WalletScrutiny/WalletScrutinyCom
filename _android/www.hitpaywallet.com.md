@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: www.hitpaywallet.com
 appCountry: 
-released: Dec 21, 2019
+released: 2019-12-21
 updated: 2020-01-27
 version: '1.17'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.echri.dz
 appCountry: 
-released: May 18, 2019
+released: 2019-05-18
 updated: 2020-01-18
 version: 4.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

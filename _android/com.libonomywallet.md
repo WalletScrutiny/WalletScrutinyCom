@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.libonomywallet
 appCountry: 
-released: Sep 10, 2021
+released: 2021-09-10
 updated: 2022-03-24
 version: 2.1.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.libonomywallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-03-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.greepers.litecoin
 appCountry: 
-released: Sep 3, 2021
+released: 2021-09-03
 updated: 2021-11-01
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

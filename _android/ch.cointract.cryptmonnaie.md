@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: ch.cointract.cryptmonnaie
 appCountry: 
-released: Jul 5, 2021
+released: 2021-07-05
 updated: 2022-02-14
 version: 2.0.28
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: ch.cointract.cryptmonnaie.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

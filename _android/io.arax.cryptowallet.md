@@ -20,12 +20,15 @@ icon: io.arax.cryptowallet.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-12-29
+date: 2023-04-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
+
+This app is no longer on Google Play (404).
 

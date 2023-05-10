@@ -8,11 +8,11 @@ appId: keystone.mobile
 appCountry: 
 idd: 1567857965
 released: 2021-06-03
-updated: 2022-12-26
-version: 1.2.2
-stars: 3.3
-reviews: 16
-size: '43799552'
+updated: 2023-04-18
+version: 1.3.3
+stars: 2.8
+reviews: 23
+size: '46765056'
 website: https://keyst.one/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
+features: 
 
 ---
 

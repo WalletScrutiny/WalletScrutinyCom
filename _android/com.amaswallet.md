@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.amaswallet
 appCountry: 
-released: Sep 19, 2020
+released: 2020-09-19
 updated: 2020-11-17
 version: 1.1.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tool.altintorr.polocompanion
 appCountry: 
-released: Sep 8, 2017
+released: 2017-09-08
 updated: 2020-12-08
 version: 3.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

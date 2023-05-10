@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.tyuiwfjnev2rf3e.rtrtefewccvdg
 appCountry: 
-released: Apr 8, 2022
+released: 2022-04-08
 updated: 2022-04-08
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

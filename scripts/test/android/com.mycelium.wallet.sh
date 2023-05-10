@@ -16,15 +16,16 @@ test() {
       --rm \
       --device /dev/fuse \
       --cap-add SYS_ADMIN \
+      --security-opt apparmor=unconfined \
       --volume $workDir/app:/app \
       --interactive \
       --tty \
       mycelium_builder \
       bash -c "apt update;
         apt install -y disorderfs;
-        mkdir /sorted/
-        disorderfs --sort-dirents=yes --reverse-dirents=no /app/ /sorted/;
-        cd /sorted/
+        mkdir /project/
+        disorderfs --sort-dirents=yes --reverse-dirents=no /app/ /project/;
+        cd /project/
         ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
         $takeUserActionCommand"
 

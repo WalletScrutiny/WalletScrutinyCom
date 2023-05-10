@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: Savl Web3 & Crypto Wallet
+title: Savl Crypto & Web3 Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2022-12-28
-version: 4.0.0
-stars: 4.1
+updated: 2023-02-28
+version: 4.1.2
+stars: 4
 ratings: 570
-reviews: 207
+reviews: 206
 size: 
 website: https://savl.com
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/savl.official
 redirect_from: 
+features: 
 
 ---
 

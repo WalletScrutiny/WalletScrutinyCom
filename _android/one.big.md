@@ -8,8 +8,8 @@ users: 50000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2023-01-06
-version: 2.3.401
+updated: 2023-05-08
+version: 2.3.701
 stars: 4
 ratings: 836
 reviews: 53
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exBigONE
 - https://www.reddit.com/r/BigONEExchange
 redirect_from: 
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 5000000
 appId: com.capital.trading
 appCountry: 
 released: 2017-10-18
-updated: 2023-01-10
-version: 1.52.1
+updated: 2023-05-04
+version: 1.60.1
 stars: 4.7
 ratings: 29536
-reviews: 16
+reviews: 19
 size: 
 website: https://capital.com
 repository: https://capital.com/
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/capital.com
 - https://www.facebook.com/capitalcom
 redirect_from: 
+features: 
 
 ---
 

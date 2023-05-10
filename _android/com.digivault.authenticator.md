@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.digivault.authenticator
 appCountry: 
-released: Jul 28, 2021
+released: 2021-07-28
 updated: 2022-02-21
 version: 1.0.4
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.digivault.authenticator.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

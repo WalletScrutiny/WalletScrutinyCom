@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.glions.wallet
 appCountry: 
-released: Apr 7, 2021
+released: 2021-04-07
 updated: 2021-05-05
 version: 0.0.8
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: app.glions.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

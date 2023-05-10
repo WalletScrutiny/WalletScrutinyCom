@@ -8,8 +8,8 @@ users: 10000
 appId: io.divipay.divi
 appCountry: gb
 released: 2021-04-28
-updated: 2023-01-09
-version: 2.1.00154
+updated: 2023-04-25
+version: 2.2.00190
 stars: 5
 ratings: 273
 reviews: 13
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/DiviProject
 - https://github.com/DiviProject
 redirect_from: 
+features: 
 
 ---
 

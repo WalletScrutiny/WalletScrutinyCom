@@ -3,7 +3,7 @@ wsId:
 title: CriptoActivo
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.cryptowallet
 appCountry: 
 released: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

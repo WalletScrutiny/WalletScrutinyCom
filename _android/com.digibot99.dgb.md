@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.digibot99.dgb
 appCountry: 
-released: Nov 7, 2020
+released: 2020-11-07
 updated: 2020-11-07
 version: 0.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

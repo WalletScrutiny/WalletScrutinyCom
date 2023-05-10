@@ -10,17 +10,17 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2022-03-21
 version: 1.14.0
-stars: 4.5
-reviews: 1665
+stars: 4.6
+reviews: 1699
 size: '140368896'
 website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-05-20
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: CoinomiWallet
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinomi
 - https://www.facebook.com/coinomi
 - https://www.reddit.com/r/COINOMI
+features: 
 
 ---
 

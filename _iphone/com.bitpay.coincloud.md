@@ -26,6 +26,7 @@ reviewArchive:
 twitter: CoinCloudATM
 social:
 - https://www.facebook.com/coincloudATM
+features: 
 
 ---
 

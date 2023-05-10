@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ubsdreamdigital
 appCountry: 
-released: Feb 17, 2021
+released: 2021-02-17
 updated: 2021-03-12
 version: '1.01'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ubsdreamdigital.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

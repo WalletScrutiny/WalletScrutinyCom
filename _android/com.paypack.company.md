@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.paypack.company
 appCountry: 
-released: Jan 4, 2021
+released: 2021-01-04
 updated: 2021-02-04
 version: '1.5'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.paypack.company.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

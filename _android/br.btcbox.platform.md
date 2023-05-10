@@ -3,10 +3,10 @@ wsId:
 title: BTCBOX Trading
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: br.btcbox.platform
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2021-09-30
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

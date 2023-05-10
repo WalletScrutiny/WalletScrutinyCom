@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.zab.lbc.app
 appCountry: 
-released: Jul 13, 2020
+released: 2020-07-13
 updated: 2020-08-07
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -10,24 +10,25 @@ appCountry:
 released: 2020-05-08
 updated: 2022-10-14
 version: 2.0.8
-stars: 4.6
+stars: 4.4
 ratings: 9850
-reviews: 610
+reviews: 525
 size: 
 website: https://ftx.com/
 repository: 
 issue: 
 icon: com.ftxmobile.ftx.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-09
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: FTX_Official
 social:
 - https://www.facebook.com/ftx.official
 redirect_from: 
+features: 
 
 ---
 

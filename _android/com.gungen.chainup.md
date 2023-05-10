@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.gungen.chainup
 appCountry: 
-released: Aug 17, 2020
+released: 2020-08-17
 updated: 2022-07-11
 version: 2.7.3
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.gungen.chainup.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

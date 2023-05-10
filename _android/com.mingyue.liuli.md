@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.mingyue.liuli
 appCountry: 
-released: Jun 4, 2021
+released: 2021-06-04
 updated: 2021-08-20
 version: 4.2.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

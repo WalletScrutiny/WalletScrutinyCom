@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: app.truste.wallet
 appCountry: 
-released: Jul 1, 2021
+released: 2021-07-01
 updated: 2021-07-01
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

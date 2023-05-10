@@ -8,13 +8,13 @@ users: 100000
 appId: app.coingram
 appCountry: 
 released: 2019-07-02
-updated: 2022-06-07
-version: 3.5.0
+updated: 2023-03-10
+version: 4.0.3
 stars: 4.9
 ratings: 43980
-reviews: 1384
+reviews: 1310
 size: 
-website: http://www.coingraam.com/
+website: https://www.coingraam.com/
 repository: 
 issue: 
 icon: app.coingram.png
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.eicapp
 appCountry: 
-released: Jan 11, 2021
+released: 2021-01-11
 updated: 2021-01-11
 version: '1.3'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.eicapp.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-01-01
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

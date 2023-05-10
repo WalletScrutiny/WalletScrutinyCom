@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.coinforbarter
 appCountry: 
-released: May 28, 2022
+released: 2022-05-28
 updated: 2022-05-28
 version: '2.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

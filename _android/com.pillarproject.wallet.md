@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Pillar- Multichain DeFi Wallet
+title: Pillar Multichain DeFi Wallet
 altTitle: 
 authors: 
 users: 100000
 appId: com.pillarproject.wallet
 appCountry: 
 released: 2018-12-13
-updated: 2022-11-25
-version: 3.18.4
+updated: 2023-04-12
+version: 3.22.5
 stars: 4
 ratings: 1007
 reviews: 90
@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.pillarproject.wallet/
 - /posts/com.pillarproject.wallet/
+features: 
 
 ---
 

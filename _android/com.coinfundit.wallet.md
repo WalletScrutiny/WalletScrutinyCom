@@ -6,9 +6,9 @@ authors:
 users: 10
 appId: com.coinfundit.wallet
 appCountry: 
-released: Mar 17, 2022
-updated: 2022-03-17
-version: 1.0.1
+released: 2022-03-17
+updated: 2023-03-12
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

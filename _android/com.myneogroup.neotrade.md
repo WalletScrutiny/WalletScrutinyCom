@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.myneogroup.neotrade
 appCountry: 
-released: Apr 8, 2022
+released: 2022-04-08
 updated: 2022-05-12
 version: '1.23'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

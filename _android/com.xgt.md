@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.xgt
 appCountry: 
-released: Jan 16, 2020
+released: 2020-01-16
 updated: 2020-01-17
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

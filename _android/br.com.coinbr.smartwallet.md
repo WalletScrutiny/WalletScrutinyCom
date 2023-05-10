@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: br.com.coinbr.smartwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: stratumhk
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
 redirect_from: 
+features: 
 
 ---
 

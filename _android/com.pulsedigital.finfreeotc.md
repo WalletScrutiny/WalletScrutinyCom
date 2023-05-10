@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.pulsedigital.finfreeotc
 appCountry: 
-released: Aug 13, 2020
+released: 2020-08-13
 updated: 2020-09-04
 version: 1.0.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2021-10-27
 version: 1.3.18
 stars: 4.2
 ratings: 64
-reviews: 43
+reviews: 49
 size: 
 website: https://blackfort.exchange
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
 redirect_from: 
+features: 
 
 ---
 

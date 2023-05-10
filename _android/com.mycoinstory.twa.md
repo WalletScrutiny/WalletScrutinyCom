@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.mycoinstory.twa
 appCountry: 
-released: Feb 22, 2021
+released: 2021-02-22
 updated: 2021-02-23
 version: '2'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.mycoinstory.twa.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

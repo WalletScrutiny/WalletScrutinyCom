@@ -9,9 +9,9 @@ appCountry:
 released: 2021-07-01
 updated: 2021-08-09
 version: 1.1.0
-stars: 
+stars: 3.3
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://treenwallet.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

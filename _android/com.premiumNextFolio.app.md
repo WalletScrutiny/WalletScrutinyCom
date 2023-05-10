@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.premiumNextFolio.app
 appCountry: 
-released: Jan 10, 2020
+released: 2020-01-10
 updated: 2020-01-16
 version: '1.2'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.premiumNextFolio.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

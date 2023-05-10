@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.vynkpay
 appCountry: 
-released: Jun 30, 2020
+released: 2020-06-30
 updated: 2022-08-18
 version: '3.7'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

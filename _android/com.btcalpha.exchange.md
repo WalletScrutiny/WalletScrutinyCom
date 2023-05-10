@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-07-23
 updated: 2022-08-08
 version: 1.11.2
-stars: 4.2
+stars: 3.9
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://btc-alpha.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btcalpha
 - https://www.facebook.com/btcalpha
 redirect_from: 
+features: 
 
 ---
 

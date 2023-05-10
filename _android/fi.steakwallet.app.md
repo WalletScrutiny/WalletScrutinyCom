@@ -3,15 +3,15 @@ wsId:
 title: Omni Web3 Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: fi.steakwallet.app
 appCountry: 
-released: Jul 7, 2021
-updated: 2023-01-10
-version: 3.0.31
-stars: 4.1
+released: 2021-07-07
+updated: 2023-04-02
+version: 3.0.40
+stars: 4.2
 ratings: 
-reviews: 17
+reviews: 20
 size: 
 website: https://steakwallet.fi
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

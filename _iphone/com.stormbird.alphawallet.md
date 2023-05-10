@@ -8,11 +8,11 @@ appId: com.stormbird.alphawallet
 appCountry: us
 idd: 1358230430
 released: 2018-05-25
-updated: 2023-01-09
-version: '3.60'
+updated: 2023-03-21
+version: '3.63'
 stars: 4.7
-reviews: 252
-size: '106513408'
+reviews: 268
+size: '113225728'
 website: https://alphawallet.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Alpha_wallet
 social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
+features: 
 
 ---
 

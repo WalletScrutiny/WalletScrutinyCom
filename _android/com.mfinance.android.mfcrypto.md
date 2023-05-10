@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.mfinance.android.mfcrypto
 appCountry: 
-released: Oct 7, 2021
+released: 2021-10-07
 updated: 2021-10-08
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

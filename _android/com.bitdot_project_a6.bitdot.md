@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitdot_project_a6.bitdot
 appCountry: 
-released: Jun 13, 2022
+released: 2022-06-13
 updated: 2022-06-14
 version: 1.2.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

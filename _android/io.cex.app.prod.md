@@ -8,11 +8,11 @@ users: 1000000
 appId: io.cex.app.prod
 appCountry: 
 released: 2015-12-22
-updated: 2023-01-09
+updated: 2023-05-07
 version: VARY
-stars: 4.4
+stars: 3.7
 ratings: 16669
-reviews: 1642
+reviews: 1752
 size: 
 website: https://cex.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
 redirect_from: 
+features: 
 
 ---
 

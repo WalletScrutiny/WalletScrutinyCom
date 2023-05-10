@@ -6,9 +6,9 @@ authors:
 users: 10000
 appId: com.cryptoswapp
 appCountry: 
-released: May 18, 2020
-updated: 2022-07-23
-version: 0.1.4
+released: 2020-05-18
+updated: 2023-01-19
+version: 0.1.7
 stars: 
 ratings: 
 reviews: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cryptoswapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

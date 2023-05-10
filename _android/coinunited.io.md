@@ -4,15 +4,15 @@ title: CoinUnited - Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: coinunited.io
 appCountry: cn
 released: 2021-04-30
-updated: 2022-12-09
-version: 3.6.8
-stars: 4.8
+updated: 2023-04-20
+version: 3.9.0
+stars: 4.7
 ratings: 151
-reviews: 241
+reviews: 195
 size: 
 website: https://coinunited.io/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: realcoinunited
 social: 
 redirect_from: 
+features: 
 
 ---
 

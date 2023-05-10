@@ -8,11 +8,11 @@ users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
-updated: 2023-01-10
-version: 1.64.2
-stars: 4.8
+updated: 2023-04-26
+version: 1.68.0
+stars: 4.7
 ratings: 2072
-reviews: 360
+reviews: 195
 size: 
 website: https://ownrwallet.com
 repository: 
@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/ownrwallet
 redirect_from:
 - /com.ownrwallet.wallet/
+features: 
 
 ---
 

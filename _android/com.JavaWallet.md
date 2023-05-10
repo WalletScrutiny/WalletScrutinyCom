@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.JavaWallet
 appCountry: 
-released: Dec 23, 2020
+released: 2020-12-23
 updated: 2021-02-05
 version: '1.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.JavaWallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

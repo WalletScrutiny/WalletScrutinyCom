@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.sicuradata.wallet
 appCountry: 
-released: Sep 15, 2020
+released: 2020-09-15
 updated: 2020-11-07
 version: 0.31.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

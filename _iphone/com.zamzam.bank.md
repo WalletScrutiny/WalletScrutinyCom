@@ -1,6 +1,6 @@
 ---
 wsId: ZamZam
-title: Zamzam денежные переводы в СНГ
+title: Zamzam – money transfers
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.zamzam.bank
 appCountry: ru
 idd: 1521900439
 released: 2020-07-04
-updated: 2022-12-21
-version: 1.9.1
-stars: 3.8
-reviews: 68
-size: '81583104'
+updated: 2023-05-06
+version: 1.10.4
+stars: 3.9
+reviews: 82
+size: '54175744'
 website: https://zam.me
 repository: 
 issue: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

@@ -7,7 +7,7 @@ authors:
 appId: io.fchain.Fireflyz
 appCountry: us
 idd: '1440455650'
-released: '2019-08-20T07:00:00Z'
+released: 2019-08-20
 updated: 2022-01-29
 version: 3.1.6
 stars: 3.3
@@ -18,13 +18,14 @@ repository: https://github.com/fchainio/firefly#readme
 issue: 
 icon: io.fchain.Fireflyz.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-04-11
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

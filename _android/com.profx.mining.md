@@ -1,12 +1,12 @@
 ---
 wsId: 
-title: Profxmining - High Yield Inves
+title: Profxmining
 altTitle: 
 authors: 
 users: 100
 appId: com.profx.mining
 appCountry: 
-released: Aug 26, 2021
+released: 2021-08-26
 updated: 2021-09-14
 version: '2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

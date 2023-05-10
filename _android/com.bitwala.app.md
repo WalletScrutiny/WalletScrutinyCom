@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: 'Nuri: Bitcoin Wallet & Crypto'
+title: Bitwala Bitcoin & Ether Wallet
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2022-12-01
-version: 2.4.24
+updated: 2023-04-19
+version: '2.5'
 stars: 3.6
 ratings: 4416
-reviews: 3598
+reviews: 3588
 size: 
-website: https://www.nuri.com
+website: https://www.bitwala.com
 repository: 
 issue: 
 icon: com.bitwala.app.png
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 redirect_from: 
+features: 
 
 ---
 

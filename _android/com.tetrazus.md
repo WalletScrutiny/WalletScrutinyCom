@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tetrazus
 appCountry: 
-released: Nov 6, 2019
+released: 2019-11-06
 updated: 2020-02-11
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

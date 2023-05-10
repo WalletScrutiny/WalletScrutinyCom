@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.unifiedpurse.app
 appCountry: 
-released: May 19, 2018
+released: 2018-05-19
 updated: 2018-08-30
 version: 1.0.9
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

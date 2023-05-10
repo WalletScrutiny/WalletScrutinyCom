@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.coinsliberty.wallet
 appCountry: 
-released: Dec 21, 2020
+released: 2020-12-21
 updated: 2021-02-02
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.coinsliberty.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

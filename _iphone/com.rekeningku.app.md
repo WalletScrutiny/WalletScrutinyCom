@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.rekeningku.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com
 - https://www.facebook.com/Rekeningkucom
+features: 
 
 ---
 

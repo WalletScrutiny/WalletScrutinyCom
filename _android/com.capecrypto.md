@@ -3,12 +3,12 @@ wsId:
 title: Cape Crypto Exchange
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.capecrypto
 appCountry: 
-released: Apr 25, 2022
-updated: 2022-12-22
-version: 2.3.1
+released: 2022-04-25
+updated: 2023-02-27
+version: 2.3.3
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +19,14 @@ issue:
 icon: com.capecrypto.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

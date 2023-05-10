@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.wallet.ntc
 appCountry: 
-released: Jun 2, 2022
+released: 2022-06-02
 updated: 2022-06-03
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

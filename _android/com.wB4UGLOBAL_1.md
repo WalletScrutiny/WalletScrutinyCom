@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.wB4UGLOBAL_1
 appCountry: 
-released: Aug 17, 2020
+released: 2020-08-17
 updated: 2021-04-16
 version: 1.2.92
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.wB4UGLOBAL_1.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

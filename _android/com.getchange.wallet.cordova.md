@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Invest securely'
+title: 'Change: Invest & Trade'
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2023-01-05
-version: 20.35.3
-stars: 4
+updated: 2023-05-04
+version: 30.41.2
+stars: 4.1
 ratings: 2833
 reviews: 23
 size: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.getchange.wallet.cordova/
 - /posts/com.getchange.wallet.cordova/
+features: 
 
 ---
 

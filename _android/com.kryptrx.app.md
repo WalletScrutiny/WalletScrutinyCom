@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.kryptrx.app
 appCountry: 
-released: Nov 18, 2021
+released: 2021-11-18
 updated: 2021-11-19
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

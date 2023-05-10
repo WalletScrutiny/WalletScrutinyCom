@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.upreactiveboilerplate
 appCountry: 
-released: Jan 16, 2021
+released: 2021-01-16
 updated: 2021-05-25
 version: 1.5.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

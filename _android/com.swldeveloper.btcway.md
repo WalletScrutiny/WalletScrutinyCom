@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.swldeveloper.btcway
 appCountry: 
-released: Jun 15, 2020
+released: 2020-06-15
 updated: 2020-06-15
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

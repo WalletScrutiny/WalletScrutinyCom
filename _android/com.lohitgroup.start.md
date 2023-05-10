@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.lohitgroup.start
 appCountry: 
-released: May 4, 2020
+released: 2020-05-04
 updated: 2020-10-05
 version: 0.1.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

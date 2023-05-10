@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/aximetriagmbh
 - https://www.facebook.com/aximetriagmbh
 redirect_from: 
+features: 
 
 ---
 

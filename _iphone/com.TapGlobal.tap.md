@@ -8,12 +8,12 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: 1492263993
 released: 2019-12-20
-updated: 2022-12-21
-version: 2.6.4
+updated: 2023-05-03
+version: 2.7.2
 stars: 4.7
-reviews: 815
-size: '193138688'
-website: https://www.tap.global/
+reviews: 1297
+size: '202445824'
+website: https://www.withtap.com
 repository: 
 issue: 
 icon: com.TapGlobal.tap.jpg
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

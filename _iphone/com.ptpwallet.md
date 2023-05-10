@@ -8,11 +8,11 @@ appId: com.ptpwallet
 appCountry: 
 idd: 1428589045
 released: 2018-12-12
-updated: 2022-04-11
-version: 1.0.235
-stars: 4.3
-reviews: 23
-size: '47893504'
+updated: 2023-03-27
+version: 1.0.246
+stars: 4.2
+reviews: 24
+size: '19973120'
 website: https://ptpwallet.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: PtpWallet
 social:
 - https://www.facebook.com/PTPWalletPage
 - https://www.reddit.com/r/perkscoin
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.blockbyte.mobile
 appCountry: 
-released: Apr 5, 2021
+released: 2021-04-05
 updated: 2021-04-05
 version: 2.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.blockbyte.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

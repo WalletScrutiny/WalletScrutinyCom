@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-06-05
 updated: 2021-07-28
 version: 4.1.2
-stars: 3.1
+stars: 3
 ratings: 427
-reviews: 290
+reviews: 297
 size: 
 website: https://libertyx.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/libertyx
 - https://www.facebook.com/getlibertyx
 redirect_from: 
+features: 
 
 ---
 

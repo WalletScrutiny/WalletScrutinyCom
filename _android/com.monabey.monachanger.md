@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.monabey.monachanger
 appCountry: 
-released: Sep 1, 2020
+released: 2020-09-01
 updated: 2020-09-16
 version: '2.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

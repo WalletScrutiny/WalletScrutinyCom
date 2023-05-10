@@ -8,11 +8,11 @@ appId: com.ontology.foundation.onto
 appCountry: us
 idd: 1436009823
 released: 2018-09-21
-updated: 2023-01-04
-version: 4.4.5
-stars: 4.1
+updated: 2023-04-27
+version: 4.5.0
+stars: 4
 reviews: 78
-size: '287603712'
+size: '256077824'
 website: https://www.onto.app
 repository: 
 issue: 
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: ONTOWallet
 social: 
+features: 
 
 ---
 

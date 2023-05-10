@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.ocm.exchange
 appCountry: 
-released: Feb 22, 2022
+released: 2022-02-22
 updated: 2022-03-22
 version: '1.01'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ocm.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

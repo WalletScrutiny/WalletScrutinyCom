@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.runixcoin.com.runixcoin
 appCountry: 
-released: Apr 13, 2022
+released: 2022-04-13
 updated: 2022-04-19
 version: '3.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.runixcoin.com.runixcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

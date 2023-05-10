@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.creativesolutions.bitwidget
 appCountry: 
-released: Apr 25, 2021
+released: 2021-04-25
 updated: 2021-04-29
 version: 1.2.7
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.creativesolutions.bitwidget.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

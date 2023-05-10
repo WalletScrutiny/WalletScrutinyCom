@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bonsystem.gone.appwallet
 appCountry: 
-released: Jan 7, 2020
+released: 2020-01-07
 updated: 2020-01-08
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

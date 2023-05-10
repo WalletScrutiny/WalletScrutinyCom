@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bitcoincashsystems.app
 appCountry: 
-released: Feb 22, 2022
+released: 2022-02-22
 updated: 2022-02-23
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

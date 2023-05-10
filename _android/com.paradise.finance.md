@@ -6,9 +6,9 @@ authors:
 users: 50
 appId: com.paradise.finance
 appCountry: 
-released: Jul 6, 2021
-updated: 2021-07-21
-version: 1.1.0
+released: 2021-07-06
+updated: 2023-03-01
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.paradise.finance.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-11-02
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.gleec.gleecdex
 appCountry: 
-released: May 16, 2021
+released: 2021-05-16
 updated: 2021-10-18
 version: 0.4.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

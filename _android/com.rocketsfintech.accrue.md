@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Accrue: Send. Save. Invest.'
+title: 'Accrue: Send. Spend. Save.'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.rocketsfintech.accrue
 appCountry: 
-released: Oct 9, 2021
-updated: 2023-01-06
-version: 1.97.10
-stars: 
+released: 2021-10-09
+updated: 2023-04-17
+version: 2.0.4
+stars: 4.1
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://useaccrue.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

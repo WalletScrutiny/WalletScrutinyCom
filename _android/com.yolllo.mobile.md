@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.yolllo.mobile
 appCountry: 
-released: Apr 29, 2022
+released: 2022-04-29
 updated: 2022-06-23
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

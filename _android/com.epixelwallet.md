@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.epixelwallet
 appCountry: 
-released: Nov 20, 2019
+released: 2019-11-20
 updated: 2020-01-07
 version: 1.3.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -3,10 +3,10 @@ wsId:
 title: QWallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.quattro.wallet
 appCountry: 
-released: Jul 12, 2021
+released: 2021-07-12
 updated: 2021-07-12
 version: 0.21.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

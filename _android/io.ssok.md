@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.ssok
 appCountry: 
-released: Aug 2, 2021
+released: 2021-08-02
 updated: 2021-08-23
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

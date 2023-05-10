@@ -1,5 +1,5 @@
 ---
-wsId: LMAX
+wsId: LMAXGlobal
 title: LMAX Global Trading
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ appId: mobiletradingpartners.lmax.exchange.iphone
 appCountry: hu
 idd: 884042608
 released: 2014-06-06
-updated: 2022-11-18
-version: 4.4.69
+updated: 2023-03-29
+version: 4.4.120
 stars: 0
 reviews: 0
-size: '125380608'
+size: '133399552'
 website: https://www.lmax.com/mobile
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
+features: 
 
 ---
 

@@ -6,9 +6,9 @@ authors:
 users: 5000
 appId: com.s6.app
 appCountry: 
-released: Mar 1, 2022
-updated: 2022-12-01
-version: 1.1.1
+released: 2022-03-01
+updated: 2023-02-01
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

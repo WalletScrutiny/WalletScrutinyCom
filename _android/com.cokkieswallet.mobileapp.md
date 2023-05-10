@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cokkieswallet.mobileapp
 appCountry: 
-released: Dec 21, 2021
+released: 2021-12-21
 updated: 2022-02-26
 version: '1.5'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cokkieswallet.mobileapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

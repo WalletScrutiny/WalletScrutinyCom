@@ -3,10 +3,10 @@ wsId:
 title: EZ Bitcoin
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.ezbitcoin.wallet
 appCountry: 
-released: Oct 9, 2019
+released: 2019-10-09
 updated: 2020-11-18
 version: 1.2.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.fortuvest.fortuvest
 appCountry: 
-released: Mar 27, 2020
+released: 2020-03-27
 updated: 2020-03-27
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

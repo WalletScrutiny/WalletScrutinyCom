@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.waspbit.witcashpdn
 appCountry: 
-released: Dec 10, 2018
+released: 2018-12-10
 updated: 2021-07-14
 version: 2.0.9
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

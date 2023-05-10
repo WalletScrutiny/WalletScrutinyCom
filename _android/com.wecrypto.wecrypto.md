@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.wecrypto.wecrypto
 appCountry: 
-released: Jan 12, 2018
+released: 2018-01-12
 updated: 2018-01-12
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

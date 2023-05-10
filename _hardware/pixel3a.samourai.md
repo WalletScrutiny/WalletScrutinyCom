@@ -31,6 +31,7 @@ reviewArchive:
 twitter: 
 social:
 - https://t.me/PixelWallet
+features: 
 
 ---
 

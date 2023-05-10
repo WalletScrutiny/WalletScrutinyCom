@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: btc.life
 appCountry: 
-released: Oct 20, 2020
+released: 2020-10-20
 updated: 2020-10-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

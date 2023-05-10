@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.wadz.wadzapp
 appCountry: 
-released: Dec 29, 2020
+released: 2020-12-29
 updated: 2022-06-26
 version: 2.1.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

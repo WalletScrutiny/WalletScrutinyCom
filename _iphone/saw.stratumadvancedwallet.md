@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: saw.stratumadvancedwallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-03-14
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: stratumhk
 social:
 - https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
+features: 
 
 ---
 

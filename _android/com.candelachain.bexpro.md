@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.candelachain.bexpro
 appCountry: 
-released: Mar 25, 2019
+released: 2019-03-25
 updated: 2021-02-20
 version: 1.0.8
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.candelachain.bexpro.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

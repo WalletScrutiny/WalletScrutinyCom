@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.daeil.bitfit
 appCountry: 
-released: Sep 10, 2019
+released: 2019-09-10
 updated: 2019-09-11
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

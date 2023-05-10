@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.openbit.app
 appCountry: 
-released: Nov 10, 2021
+released: 2021-11-10
 updated: 2022-03-25
 version: 1.1.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

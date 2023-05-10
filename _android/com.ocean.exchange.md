@@ -8,8 +8,8 @@ users: 10000
 appId: com.ocean.exchange
 appCountry: us
 released: 2019-07-04
-updated: 2022-11-06
-version: 1.4.26
+updated: 2023-04-27
+version: 2.0.2
 stars: 4.2
 ratings: 159
 reviews: 15
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/OceanExPROOfficial
 - https://www.reddit.com/r/OceanExOfficial
 redirect_from: 
+features: 
 
 ---
 

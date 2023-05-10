@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cmbcwallet.uk
 appCountry: 
-released: Jun 10, 2019
+released: 2019-06-10
 updated: 2019-07-02
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-08
 updated: 2021-06-25
 version: '1.1'
-stars: 3.6
+stars: 3.8
 ratings: 48
-reviews: 8
+reviews: 10
 size: 
 website: 
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

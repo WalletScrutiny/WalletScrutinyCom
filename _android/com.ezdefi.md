@@ -29,6 +29,7 @@ twitter: ezDeFi
 social:
 - https://www.facebook.com/ezdefi
 redirect_from: 
+features: 
 
 ---
 

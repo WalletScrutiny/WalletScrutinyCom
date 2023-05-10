@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.hybridblock.basetrade
 appCountry: 
-released: May 23, 2019
+released: 2019-05-23
 updated: 2020-02-13
 version: '5.8'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

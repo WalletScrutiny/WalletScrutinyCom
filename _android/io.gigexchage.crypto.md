@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.gigexchage.crypto
 appCountry: 
-released: Mar 21, 2022
+released: 2022-03-21
 updated: 2022-04-30
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: io.gigexchage.crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

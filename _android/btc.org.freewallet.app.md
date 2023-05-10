@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /btc.org.freewallet.app/
 - /posts/btc.org.freewallet.app/
+features: 
 
 ---
 

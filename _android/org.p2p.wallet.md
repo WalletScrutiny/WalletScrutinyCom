@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: Key App — Solana Crypto Wallet
+title: 'Key App: send & receive money'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: org.p2p.wallet
 appCountry: 
-released: Oct 23, 2021
-updated: 2022-12-08
-version: 2.2.0
-stars: 
+released: 2021-10-23
+updated: 2023-05-03
+version: 2.6.1
+stars: 4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://key.app/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

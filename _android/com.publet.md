@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.publet
 appCountry: 
-released: Jun 11, 2020
+released: 2020-06-11
 updated: 2020-11-20
 version: '1.9'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

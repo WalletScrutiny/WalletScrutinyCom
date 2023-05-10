@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ibt.quarashi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-08-02
+date: 2023-04-30
 signer: 
 reviewArchive: 
 twitter: QuarashiN
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/QuarashiNetwork
 - https://www.reddit.com/r/Quarashinetwork
 redirect_from: 
+features: 
 
 ---
 

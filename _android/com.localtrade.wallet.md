@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.localtrade.wallet
 appCountry: 
-released: May 18, 2022
+released: 2022-05-18
 updated: 2022-06-29
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

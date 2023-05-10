@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.coinxplus
 appCountry: 
-released: Apr 25, 2021
+released: 2021-04-25
 updated: 2021-08-13
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

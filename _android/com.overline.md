@@ -6,12 +6,12 @@ authors:
 users: 5000
 appId: com.overline
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2021-09-16
 version: '1.1'
-stars: 4.7
+stars: 4.5
 ratings: 
-reviews: 2
+reviews: 4
 size: 
 website: https://overline.network
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

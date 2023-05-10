@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bizonbit
 appCountry: 
-released: Feb 9, 2020
+released: 2020-02-09
 updated: 2020-03-28
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

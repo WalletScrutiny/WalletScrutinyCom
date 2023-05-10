@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.eurekax.app
 appCountry: 
-released: Mar 9, 2020
+released: 2020-03-09
 updated: 2020-10-31
 version: 1.1.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -11,22 +11,23 @@ released: 2021-04-02
 updated: 2022-01-21
 version: 1.1.1
 stars: 4.6
-reviews: 632
+reviews: 636
 size: '119739392'
 website: https://coincircle.com
 repository: 
 issue: 
 icon: com.coincircle.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-18
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: coincircle
 social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
+features: 
 
 ---
 

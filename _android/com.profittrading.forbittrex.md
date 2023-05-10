@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.profittrading.forbittrex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-04-23
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+features: 
 
 ---
 

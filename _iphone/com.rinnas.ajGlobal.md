@@ -10,7 +10,7 @@ idd: 1519859460
 released: 2020-09-08
 updated: 2023-01-06
 version: 1.0.18
-stars: 3.1
+stars: 3
 reviews: 33
 size: '56373248'
 website: https://ajglobalv.com/
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
+features: 
 
 ---
 

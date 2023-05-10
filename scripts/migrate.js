@@ -3,28 +3,17 @@ const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
-var verdicts
-try {
-  const x = require('../_site/allVerdicts.js').verdicts
-  verdicts = Object.keys(x)
-} catch (e) {
-  console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
-  verdicts = 'nowallet,fewusers,unreleased,nonverifiable,custodial,fake,obsolete,noita,wip,stale,ftbfs,obfuscated,nosendreceive,vapor,nobtc,diy,prefilled,reproducible,plainkey,defunct,nobinary,nosource,sealed-noita,sealed-plainkey'.split(',')
-}
+const fs = require('fs')
+const yaml = require('js-yaml')
+var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'))
+const df = /^\d{4}-\d{2}-\d{2}$/ // the only date format we use
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3)
-  // migrate social links to more flexible format
-  // Twitter being used for other stuff and also being the most common remains
-  // its own item
-  header.twitter = header.twitter || header.providerTwitter || null
   header.social = header.social || []
   if (header.stars) header.stars = Number(header.stars.toPrecision(2))
-  if (header.providerLinkedIn) { header.social.push(`https://www.linkedin.com/company/${header.providerLinkedIn}`) }
-  if (header.providerFacebook) { header.social.push(`https://www.facebook.com/${header.providerFacebook}`) }
-  if (header.providerReddit) { header.social.push(`https://www.reddit.com/r/${header.providerReddit}`) }
   if (header.social.length < 1) header.social = null
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries
   if (category === 'hardware') {
@@ -52,8 +41,14 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`)
       console.error(`# ${folder}${header.appId}.md: ${e}.`)
     }
   }
-  if (!verdicts.includes(header.verdict)) {
-    console.error(`# ${folder}${header.appId}.md uses unknown verdict "${header.verdict}".`)
+  if (!meta[category].verdicts.includes(header.verdict)) {
+    console.error(`# ${folder}${header.appId}.md uses wrong verdict "${header.verdict}".`)
+  }
+  if (!meta[category].metas.includes(header.meta) && 'ok' !== header.meta) {
+    console.error(`# ${folder}${header.appId}.md uses wrong meta "${header.meta}".`)
+  }
+  if (header.released && !df.test(header.released)) {
+    header.released = new Date(Date.parse(header.released))
   }
 }; // crucial semicolon!
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.splishpay
 appCountry: 
-released: Jul 28, 2021
+released: 2021-07-28
 updated: 2022-02-13
 version: '2.2'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.splishpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

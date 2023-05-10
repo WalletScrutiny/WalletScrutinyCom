@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.suzaishu.universex
 appCountry: 
-released: Oct 22, 2021
+released: 2021-10-22
 updated: 2021-10-22
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

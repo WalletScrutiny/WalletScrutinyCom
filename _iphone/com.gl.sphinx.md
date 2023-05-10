@@ -17,13 +17,14 @@ repository:
 issue: 
 icon: com.gl.sphinx.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-05-03
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

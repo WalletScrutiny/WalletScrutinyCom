@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.safesenda
 appCountry: 
-released: Mar 11, 2022
+released: 2022-03-11
 updated: 2022-08-16
 version: 1.1.10
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

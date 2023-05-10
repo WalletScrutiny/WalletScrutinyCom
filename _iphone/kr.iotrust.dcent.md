@@ -8,11 +8,11 @@ appId: kr.iotrust.dcent
 appCountry: kr
 idd: 1447206611
 released: 2019-01-26
-updated: 2023-01-06
-version: 5.21.5
-stars: 4
-reviews: 61
-size: '57143296'
+updated: 2023-04-25
+version: 5.24.0
+stars: 3.9
+reviews: 63
+size: '57693184'
 website: https://dcentwallet.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
+features: 
 
 ---
 

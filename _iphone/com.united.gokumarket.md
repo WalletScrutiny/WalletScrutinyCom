@@ -7,7 +7,7 @@ authors:
 appId: com.united.gokumarket
 appCountry: in
 idd: '1489128011'
-released: '2019-12-02T08:00:00Z'
+released: 2019-12-02
 updated: 2022-05-03
 version: '1.28'
 stars: 4.5
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.united.gokumarket.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-06-28
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: GokuMarket
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/gokumarket
 - https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
 - https://www.facebook.com/gokumarket
+features: 
 
 ---
 

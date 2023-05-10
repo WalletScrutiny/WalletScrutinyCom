@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.dalongpay.dalongpay
 appCountry: 
-released: Dec 5, 2017
+released: 2017-12-05
 updated: 2018-12-26
 version: 1.2.26
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

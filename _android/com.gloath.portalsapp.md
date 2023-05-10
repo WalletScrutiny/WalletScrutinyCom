@@ -10,7 +10,7 @@ appCountry:
 released: 2018-03-20
 updated: 2020-12-20
 version: 0.0.4a
-stars: 4.3
+stars: 4.4
 ratings: 138
 reviews: 24
 size: 
@@ -28,6 +28,7 @@ twitter:
 social: 
 redirect_from:
 - /com.gloath.portalsapp/
+features: 
 
 ---
 

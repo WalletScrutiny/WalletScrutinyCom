@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tabank
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2022-02-14
 version: 1.3.7
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.tabank.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -9,9 +9,9 @@ appCountry:
 released: 2020-09-10
 updated: 2020-09-10
 version: 2.0.0
-stars: 4.2
+stars: 3.8
 ratings: 125
-reviews: 5
+reviews: 6
 size: 
 website: https://ariomex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

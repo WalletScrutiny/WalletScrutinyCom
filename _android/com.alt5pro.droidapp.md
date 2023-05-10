@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.alt5pro.droidapp
 appCountry: 
-released: Mar 23, 2020
+released: 2020-03-23
 updated: 2022-02-16
 version: '1.9'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.alt5pro.droidapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

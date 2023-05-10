@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: cn.com.mlt.sallsc
 appCountry: 
-released: Nov 21, 2021
+released: 2021-11-21
 updated: 2021-12-08
 version: 1.0.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

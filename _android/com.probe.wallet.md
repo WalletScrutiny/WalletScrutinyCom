@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.probe.wallet
 appCountry: 
-released: Aug 4, 2021
+released: 2021-08-04
 updated: 2022-10-17
 version: 3.3.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

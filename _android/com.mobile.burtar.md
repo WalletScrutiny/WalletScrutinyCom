@@ -7,7 +7,7 @@ authors:
 users: 500
 appId: com.mobile.burtar
 appCountry: 
-released: Jun 26, 2021
+released: 2021-06-26
 updated: 2021-06-26
 version: '1.0'
 stars: 4.5
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

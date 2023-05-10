@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.quanta.qiksa
 appCountry: 
-released: May 3, 2020
+released: 2020-05-03
 updated: 2020-09-07
 version: 1.1.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

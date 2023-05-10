@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-21
 updated: 2021-09-23
 version: 1.1.3
-stars: 2.9
+stars: 2.6
 ratings: 127
-reviews: 3
+reviews: 4
 size: 
 website: https://verafti.uk
 repository: 
@@ -28,6 +28,7 @@ twitter: token_vera
 social:
 - https://www.linkedin.com/company/vera-token-74a925218
 redirect_from: 
+features: 
 
 ---
 

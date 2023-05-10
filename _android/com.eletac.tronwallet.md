@@ -8,11 +8,11 @@ users: 50000
 appId: com.eletac.tronwallet
 appCountry: 
 released: 2018-05-13
-updated: 2022-12-09
-version: 2.4.45
+updated: 2023-03-07
+version: 2.4.56
 stars: 4.2
 ratings: 1199
-reviews: 110
+reviews: 111
 size: 
 website: https://vision-crypto.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: VisionCryptoApp
 social: 
 redirect_from: 
+features: 
 
 ---
 

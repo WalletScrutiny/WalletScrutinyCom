@@ -7,12 +7,12 @@ authors:
 appId: net.kortina.labs.Venmo
 appCountry: us
 idd: '351727428'
-released: '2010-04-03T05:41:47Z'
-updated: 2022-12-19
-version: 10.5.1
+released: 2010-04-03
+updated: 2023-05-03
+version: 10.17.0
 stars: 4.9
-reviews: 15138753
-size: '451743744'
+reviews: 15347799
+size: '429388800'
 website: https://venmo.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: venmo
 social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
+features: 
 
 ---
 

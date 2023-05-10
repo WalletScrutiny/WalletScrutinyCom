@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.waynance.pay
 appCountry: 
-released: Apr 16, 2022
+released: 2022-04-16
 updated: 2022-04-16
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.waynance.pay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

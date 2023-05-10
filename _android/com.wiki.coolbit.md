@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.wiki.coolbit
 appCountry: 
-released: Mar 9, 2021
+released: 2021-03-09
 updated: 2021-05-10
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

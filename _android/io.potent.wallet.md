@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.potent.wallet
 appCountry: 
-released: Aug 12, 2021
+released: 2021-08-12
 updated: 2021-08-13
 version: 0.20.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

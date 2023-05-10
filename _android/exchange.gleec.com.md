@@ -1,9 +1,9 @@
 ---
-wsId: 
+wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: exchange.gleec.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-04-08
+date: 2023-04-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

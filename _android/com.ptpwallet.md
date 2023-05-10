@@ -8,11 +8,11 @@ users: 10000
 appId: com.ptpwallet
 appCountry: 
 released: 2018-12-04
-updated: 2022-04-08
-version: 1.0.1256
-stars: 4.3
+updated: 2023-03-23
+version: 1.0.1266
+stars: 4.4
 ratings: 352
-reviews: 17
+reviews: 18
 size: 
 website: https://ptpwallet.com
 repository: 
@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/perkscoin
 redirect_from:
 - /com.ptpwallet/
+features: 
 
 ---
 

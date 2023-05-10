@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.tsrpay.transcrypt.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-10-10
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: TizerWallet
 social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
+features: 
 
 ---
 

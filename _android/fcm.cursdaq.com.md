@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: fcm.cursdaq.com
 appCountry: 
-released: Aug 1, 2021
+released: 2021-08-01
 updated: 2021-08-02
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

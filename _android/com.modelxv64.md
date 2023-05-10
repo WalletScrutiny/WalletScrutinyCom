@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.modelxv64.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-03-14
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: stratumhk
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
 redirect_from: 
+features: 
 
 ---
 

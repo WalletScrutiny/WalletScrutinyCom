@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: fcm.dbx24.com
 appCountry: 
-released: Mar 12, 2021
+released: 2021-03-12
 updated: 2021-10-14
 version: '4.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

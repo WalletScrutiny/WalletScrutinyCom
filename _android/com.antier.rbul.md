@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.antier.rbul
 appCountry: 
-released: Dec 24, 2021
+released: 2021-12-24
 updated: 2022-02-17
 version: '1.3'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.antier.rbul.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

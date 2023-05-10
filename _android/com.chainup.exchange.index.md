@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.chainup.exchange.index
 appCountry: 
-released: May 23, 2020
+released: 2020-05-23
 updated: 2020-05-25
 version: 4.4.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

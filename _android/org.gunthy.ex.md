@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: org.gunthy.ex
 appCountry: 
-released: Jan 12, 2021
+released: 2021-01-12
 updated: 2021-01-14
 version: 1.26.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

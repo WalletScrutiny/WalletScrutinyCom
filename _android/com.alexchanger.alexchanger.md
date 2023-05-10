@@ -9,7 +9,7 @@ appCountry:
 released: 2020-06-12
 updated: 2020-06-12
 version: '1.0'
-stars: 4.3
+stars: 4.4
 ratings: 271
 reviews: 26
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

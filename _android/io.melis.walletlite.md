@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /io.melis.walletlite/
 - /posts/io.melis.walletlite/
+features: 
 
 ---
 

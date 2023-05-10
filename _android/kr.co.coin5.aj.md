@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: kr.co.coin5.aj
 appCountry: 
-released: Jul 5, 2020
+released: 2020-07-05
 updated: 2020-07-05
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

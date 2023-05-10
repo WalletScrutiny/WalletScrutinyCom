@@ -1,6 +1,6 @@
 ---
-wsId: blockbank
-title: BlockBank
+wsId: blockbank.v1
+title: BlockBank V1
 altTitle: 
 authors:
 - danny
@@ -21,15 +21,35 @@ icon: com.aibb.wallet.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
-date: 2021-11-10
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank
 redirect_from: 
+features: 
 
 ---
+
+## Updated Review 2023-04-05 
+
+There are currently 4 blockbank apps on WalletScrutiny and still available on Google Play and iOS.
+
+**Version 1 includes:**
+
+- {% include walletLink.html wallet='android/com.aibb.wallet' verdict='true' %} (This one)
+- {% include walletLink.html wallet='iphone/com.aibb.wallet1' verdict='true' %}
+
+**Version 2 includes:**
+
+- {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %} 
+- {% include walletLink.html wallet='iphone/ai.blockbank.blockbankv2' verdict='true' %}
+
+This is addressed in the [FAQ](https://blockbank.ai/faq/), with the following information on how to migrate V1 to V2: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1IySkOTIjwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 **Update 2021-11-03**: This app is no more.
 

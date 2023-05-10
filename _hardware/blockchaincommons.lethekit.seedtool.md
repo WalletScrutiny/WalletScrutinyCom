@@ -6,7 +6,7 @@ authors:
 released: 2020-10-16
 discontinued: 
 updated: 2021-10-07
-version: 
+version: 0.5.0
 binaries: 
 dimensions: 
 weight: 
@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: BlockchainComns
 social: 
+features: 
 
 ---
 

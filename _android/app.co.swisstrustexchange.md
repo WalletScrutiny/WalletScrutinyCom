@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: app.co.swisstrustexchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-04-13
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

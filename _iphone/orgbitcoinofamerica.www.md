@@ -7,7 +7,7 @@ authors:
 appId: orgbitcoinofamerica.www
 appCountry: us
 idd: '1290848115'
-released: '2018-01-25T00:10:37Z'
+released: 2018-01-25
 updated: 2020-04-16
 version: 11.2.6
 stars: 3.5
@@ -25,6 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

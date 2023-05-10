@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.maicoin.max.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
+features: 
 
 ---
 

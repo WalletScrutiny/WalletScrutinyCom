@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: finance.tradepal.app
 appCountry: 
-released: Apr 2, 2022
+released: 2022-04-02
 updated: 2022-04-02
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: finance.tradepal.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

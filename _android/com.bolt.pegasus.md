@@ -10,9 +10,9 @@ appCountry:
 released: 2019-08-26
 updated: 2022-12-14
 version: 1.22.5
-stars: 3.8
+stars: 3.6
 ratings: 365
-reviews: 21
+reviews: 20
 size: 
 website: https://bolt.global/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bolt-global
 - https://www.facebook.com/Global.Bolt
 redirect_from: 
+features: 
 
 ---
 

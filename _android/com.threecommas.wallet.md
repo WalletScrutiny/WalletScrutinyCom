@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.threecommas.wallet
 appCountry: 
-released: Mar 19, 2022
+released: 2022-03-19
 updated: 2022-10-05
 version: '1.7'
-stars: 3.8
+stars: 4
 ratings: 
 reviews: 2
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

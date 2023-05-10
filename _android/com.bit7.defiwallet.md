@@ -3,10 +3,10 @@ wsId:
 title: 'DeXoo: Crypto DeFi wallet'
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.bit7.defiwallet
 appCountry: 
-released: May 18, 2022
+released: 2022-05-18
 updated: 2022-12-26
 version: 1.1.12
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

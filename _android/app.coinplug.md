@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: app.coinplug
 appCountry: 
-released: Oct 19, 2021
+released: 2021-10-19
 updated: 2021-10-19
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

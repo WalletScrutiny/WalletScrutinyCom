@@ -7,12 +7,12 @@ authors:
 appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
-released: '2020-12-13T08:00:00Z'
-updated: 2023-01-08
-version: 4.7.6
+released: 2020-12-13
+updated: 2023-05-03
+version: 5.0.9
 stars: 4.5
 reviews: 138
-size: '172614656'
+size: '164350976'
 website: https://www.cmorq.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCzgf-7dC4hNbIb0TGtOuX6g
 - https://www.tiktok.com/@_cmorq?
 - https://www.facebook.com/DeFiBanking/
+features: 
 
 ---
 

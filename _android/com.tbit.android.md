@@ -6,12 +6,12 @@ authors:
 users: 1000
 appId: com.tbit.android
 appCountry: 
-released: Feb 8, 2022
-updated: 2023-01-09
-version: 2.2.2
-stars: 5
+released: 2022-02-08
+updated: 2023-05-09
+version: 2.2.9
+stars: 
 ratings: 
-reviews: 13
+reviews: 
 size: 
 website: https://www.tbitex.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

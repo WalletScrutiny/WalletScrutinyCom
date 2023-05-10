@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.dgc.wallet
 appCountry: 
-released: Jul 25, 2021
+released: 2021-07-25
 updated: 2021-07-25
 version: 0.21.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

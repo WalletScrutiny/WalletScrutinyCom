@@ -8,11 +8,11 @@ users: 500000
 appId: com.quicrypto
 appCountry: 
 released: 2019-11-12
-updated: 2022-12-13
-version: 3.81.0
-stars: 4.8
+updated: 2023-01-23
+version: 3.82.0
+stars: 4.7
 ratings: 4934
-reviews: 661
+reviews: 743
 size: 
 website: http://www.quicrypto.com
 repository: 
@@ -28,6 +28,7 @@ twitter: quicrypto
 social:
 - https://www.facebook.com/Quicrypto
 redirect_from: 
+features: 
 
 ---
 

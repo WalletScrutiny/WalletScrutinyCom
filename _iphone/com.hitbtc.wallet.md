@@ -27,6 +27,7 @@ twitter: hitbtc
 social:
 - https://www.facebook.com/hitbtc
 - https://www.reddit.com/r/hitbtc
+features: 
 
 ---
 

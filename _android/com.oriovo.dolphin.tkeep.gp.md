@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.oriovo.dolphin.tkeep.gp
 appCountry: 
-released: May 17, 2021
+released: 2021-05-17
 updated: 2021-09-08
 version: 1.2.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

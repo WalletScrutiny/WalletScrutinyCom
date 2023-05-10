@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-01-21
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

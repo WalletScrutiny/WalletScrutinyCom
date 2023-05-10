@@ -8,8 +8,8 @@ users: 100000
 appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
-updated: 2022-12-23
-version: 1.7.4
+updated: 2023-05-02
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/deltaexchg
 - https://www.reddit.com/r/Delta_Exchange
 redirect_from: 
+features: 
 
 ---
 

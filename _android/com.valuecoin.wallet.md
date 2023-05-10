@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.valuecoin.wallet
 appCountry: 
-released: Apr 20, 2020
+released: 2020-04-20
 updated: 2022-08-24
 version: '3.4'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

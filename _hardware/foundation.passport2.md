@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/foundationdevices/
 - https://www.facebook.com/foundationdevices/
 - https://t.me/foundationdevices
+features: 
 
 ---
 

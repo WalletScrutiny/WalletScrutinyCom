@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: 'RolariteX: Buy and Sell Gift C'
+title: 'Noones: Buy Bitcoin & Giftcard'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.wRolariteX_12668517
 appCountry: 
 released: 2021-09-08
-updated: 2021-09-09
-version: 1.0.58
-stars: 
+updated: 2023-04-05
+version: 1.0.62
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.wRolariteX_12668517.jpg
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2022-11-02
+meta: ok
+verdict: wip
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

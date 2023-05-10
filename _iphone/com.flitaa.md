@@ -10,8 +10,8 @@ idd: 1566777501
 released: 2021-05-25
 updated: 2022-07-06
 version: 1.18.5
-stars: 3.9
-reviews: 55
+stars: 3.8
+reviews: 56
 size: '63601664'
 website: https://flitbase.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa
+features: 
 
 ---
 

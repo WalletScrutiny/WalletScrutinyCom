@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.criptex
 appCountry: 
-released: Sep 1, 2019
+released: 2019-09-01
 updated: 2020-01-04
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

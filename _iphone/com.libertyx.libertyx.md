@@ -11,7 +11,7 @@ released: 2015-02-20
 updated: 2021-06-15
 version: 4.1.0
 stars: 3.9
-reviews: 157
+reviews: 158
 size: '14478336'
 website: https://libertyx.com
 repository: 
@@ -27,6 +27,7 @@ twitter: libertyx
 social:
 - https://www.linkedin.com/company/libertyx
 - https://www.facebook.com/getlibertyx
+features: 
 
 ---
 

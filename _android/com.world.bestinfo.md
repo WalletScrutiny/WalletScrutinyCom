@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.world.bestinfo
 appCountry: 
-released: Feb 29, 2020
+released: 2020-02-29
 updated: 2020-02-29
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

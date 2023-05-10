@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.satang.app
 appCountry: 
-released: Aug 7, 2019
+released: 2019-08-07
 updated: 2021-02-18
 version: 1.5.3
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.satang.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

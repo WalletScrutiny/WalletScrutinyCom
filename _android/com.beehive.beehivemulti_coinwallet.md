@@ -6,12 +6,12 @@ authors:
 users: 1000
 appId: com.beehive.beehivemulti_coinwallet
 appCountry: 
-released: Sep 13, 2021
+released: 2021-09-13
 updated: 2021-12-01
 version: '1.1'
-stars: 3.4
+stars: 3.3
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://beehivewallet.link
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

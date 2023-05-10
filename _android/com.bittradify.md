@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bittradify
 appCountry: 
-released: Jun 17, 2021
+released: 2021-06-17
 updated: 2021-06-17
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

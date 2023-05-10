@@ -28,6 +28,7 @@ reviewArchive:
 twitter: blackbirdwallet
 social:
 - https://www.facebook.com/blackbirdwallet
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.plusblocks.wallet
 appCountry: 
-released: Mar 23, 2022
+released: 2022-03-23
 updated: 2022-04-01
 version: 1.3.4
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.plusblocks.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

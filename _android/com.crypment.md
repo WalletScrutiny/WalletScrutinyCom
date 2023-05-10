@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.crypment
 appCountry: 
-released: Jan 27, 2020
+released: 2020-01-27
 updated: 2021-10-22
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

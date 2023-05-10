@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Plasmapay
 - https://www.reddit.com/r/PlasmaPay
 redirect_from: 
+features: 
 
 ---
 

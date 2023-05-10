@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.koinzaar.app
 appCountry: 
-released: Jan 13, 2020
+released: 2020-01-13
 updated: 2020-01-24
 version: '1.5'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.koinzaar.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 100000
+users: 500000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2022-12-29
-version: 3.1.1
-stars: 4.8
+updated: 2023-05-05
+version: 3.4.6
+stars: 4.7
 ratings: 5008
-reviews: 1183
+reviews: 879
 size: 
 website: https://changelly.com/
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.changelly.app/
 - /posts/com.changelly.app/
+features: 
 
 ---
 

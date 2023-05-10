@@ -27,6 +27,7 @@ twitter: Cointopay
 social:
 - https://www.facebook.com/CointopayInternational
 - https://www.reddit.com/r/Cointopay
+features: 
 
 ---
 

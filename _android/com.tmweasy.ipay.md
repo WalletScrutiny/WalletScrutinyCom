@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tmweasy.ipay
 appCountry: 
-released: Aug 12, 2020
+released: 2020-08-12
 updated: 2022-01-23
 version: '1.3'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.tmweasy.ipay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-01-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+features: 
 
 ---
 

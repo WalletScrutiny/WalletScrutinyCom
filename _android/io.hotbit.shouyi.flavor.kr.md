@@ -12,21 +12,22 @@ updated: 2022-04-12
 version: 1.0.75
 stars: 3.6
 ratings: 600
-reviews: 240
+reviews: 239
 size: 
 website: https://www.bitclover.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: hotbit_korea
 social: 
 redirect_from: 
+features: 
 
 ---
 
