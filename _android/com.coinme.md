@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: 2.1.2
 stars: 4.3
 ratings: 782
-reviews: 573
+reviews: 579
 size: 
 website: https://www.coinme.com
 repository: 

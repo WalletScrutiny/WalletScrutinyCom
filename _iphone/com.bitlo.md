@@ -9,10 +9,10 @@ appCountry: tr
 idd: '1544492069'
 released: 2020-12-28
 updated: 2023-04-29
-version: 2.1.0
-stars: 3.7
-reviews: 320
-size: '48929792'
+version: 2.0.55
+stars: 3.6
+reviews: 315
+size: '39494656'
 website: https://www.bitlo.com/
 repository: 
 issue: 

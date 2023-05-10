@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fourthwavestudios.joseph.mnemonic.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

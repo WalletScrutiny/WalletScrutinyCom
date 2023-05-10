@@ -11,7 +11,7 @@ released: 2021-10-06
 updated: 2023-04-04
 version: '3.41'
 stars: 4.8
-reviews: 14589
+reviews: 14585
 size: '113786880'
 website: https://safemoon.com/
 repository: 

@@ -11,7 +11,7 @@ released: 2018-10-30
 updated: 2023-04-28
 version: 2.4.2
 stars: 5
-reviews: 8
+reviews: 9
 size: '28897280'
 website: https://blocktrade.com
 repository: 

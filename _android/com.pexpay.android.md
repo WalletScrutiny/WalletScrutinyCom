@@ -4,7 +4,7 @@ title: 'Pexpay: 0 Fee Buy and Sell BTC'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.pexpay.android
 appCountry: 
 released: 2022-03-24

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cz.hundredspires.crypton.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

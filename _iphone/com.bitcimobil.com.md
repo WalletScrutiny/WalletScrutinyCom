@@ -11,7 +11,7 @@ released: 2019-04-17
 updated: 2023-01-20
 version: 3.9.0
 stars: 4.3
-reviews: 1758
+reviews: 1759
 size: '153221120'
 website: https://www.bitci.com/
 repository: 
