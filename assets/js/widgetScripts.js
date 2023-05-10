@@ -15,7 +15,7 @@ function lsTest () {
 window.addEventListener('load', () => {
   function getWidgetHtml (wallet, includeDetails) {
     function verdictBadge (v) {
-      return `<span style="background:${window.verdicts[v].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: 600;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[v].short}</span>`
+      return `<span style="background:${window.verdicts[v].color};font-size: 10px;padding: 3px 10px;border-radius: 100px;color: var(--white, #fff);text-transform: uppercase;font-weight: $title-font-weight;margin-right: auto;margin-top: 5px;" alt="">${window.verdicts[v].short}</span>`
     }
 
     return `<a target="_blank" style="display: flex;flex-direction: row;justify-content: start;align-items: center;text-decoration: none;color: var(--text, #222)" href="https://walletscrutiny.com/${wallet.folder}/${wallet.appId}/">

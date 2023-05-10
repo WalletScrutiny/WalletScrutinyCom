@@ -1,3 +1,16 @@
+/* barlow-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-200.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Barlow/barlow-v12-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Barlow/barlow-v12-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/Barlow/barlow-v12-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Barlow/barlow-v12-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Barlow/barlow-v12-latin-200.svg#Barlow') format('svg'); /* Legacy iOS */
+}
 /* barlow-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */

@@ -78,7 +78,7 @@
   gap: 2px;
   margin-top: 20px;
   .click-target {
-    background-color: var(--shadow-2);
+    background-color: var(--neutral-5);
     padding: 3px 6px;
     font-size: 15px;
     display: flex;
@@ -86,6 +86,12 @@
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    transition: 0.2s ease;
+    &:not(.selected) {
+      &:hover {
+        background-color: var(--neutral-6);
+      }
+    }
     &.selected {
       background-color: var(--accent);
       color: var(--body);
@@ -164,7 +170,7 @@
     }
   }
   &.component-platform {
-    width: 156px;
+    width: 160px;
     grid-template-rows: 1fr;
     align-items: center;
   }
@@ -182,7 +188,7 @@
   .dropdown-options {
     display: grid;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: $paragraph-font-weight;
     font-size: 17px;
     margin: auto 0;
     &:hover {
@@ -230,7 +236,7 @@
       .selected {
         grid-row: 1/2;
         color: var(--accent-text);
-        // font-weight: 600;
+        box-shadow: 0 1px 0 0 var(--shadow-3);
       }
       .option {
         display: grid;
@@ -305,7 +311,7 @@
         }
         h3 {
           margin: 0;
-          font-weight: 600;
+          font-weight: $title-font-weight;
           font-size: 20px;
         }
         .platform.tile-view-only {
@@ -323,7 +329,7 @@
         font-size: 15px;
         display: grid;
         gap: 5px;
-        font-weight: 600;
+        font-weight: $title-font-weight;
         margin-top: 2px;
         margin-left: 80px;
       }
@@ -474,16 +480,35 @@
         }
         h3 {
           margin: 0;
-          font-weight: 400;
+          font-weight: $paragraph-font-weight;
           font-size: 18px;
         }
+      }
+      .tests-passed {
+        margin-bottom: 0;
+        gap: 2px;
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        span {
+          bottom: -13px;
+          left: 0;
+          font-size: 12px;
+          font-weight: $paragraph-font-weight;
+          opacity: 0.7;
+        }
+      }
+      .score {
+        display: none;
       }
       .list-details {
         display: grid;
         width: 440px;
         grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
+        gap: 15px;
         font-size: 15px;
+        justify-items: center;
+        align-items: center;
         @media (max-width: 950px) {
           grid-column: 1/2;
           grid-row: 2/3;
@@ -506,14 +531,14 @@
           margin-top: auto;
           &::after {
             content: attr(data-text);
-            position: absolute;
-            bottom: -13px;
-            left: 0;
+            position: relative;
             font-size: 12px;
             text-transform: capitalize;
-            font-weight: 300;
+            font-weight: $paragraph-font-weight;
             opacity: 0.7;
             width: max-content;
+            display: block;
+            line-height: 11px;
             @media (max-width: 950px) {
               bottom: -14px;
               font-size: 11px;
@@ -528,7 +553,7 @@
         font-size: 15px;
         display: grid;
         gap: 5px;
-        font-weight: 600;
+        font-weight: $title-font-weight;
         @media (max-width: 700px) {
           grid-column: 2/3;
           grid-row: 1/3;
@@ -536,7 +561,6 @@
         }
       }
       .stamp {
-        background: var(--white);
         padding: 1px 10px;
         border-radius: 100px;
         margin-right: auto;
@@ -649,7 +673,7 @@
       h3 {
         margin: 0;
         font-size: 19px;
-        font-weight: 400;
+        font-weight: $paragraph-font-weight;
         line-break: auto;
         @media (max-width: 700px) {
           font-size: 16px;
@@ -658,7 +682,7 @@
       .platform {
         font-size: 12px;
         transform: translateY(-6px);
-        font-weight: 300;
+        font-weight: $paragraph-font-weight;
         display: block;
         i {
           margin-right: 4px;
@@ -678,7 +702,7 @@
       @media (max-width: 700px) {
         font-size: 10px;
         padding: 10px 0 0 0;
-        font-weight: 600;
+        font-weight: $title-font-weight;
       }
     }
   }
@@ -744,7 +768,7 @@
     align-content: center;
     justify-items: center;
     text-align: center;
-    font-weight: 300;
+    font-weight: $paragraph-font-weight;
     color: var(--text);
     transform: translateY(-3px);
     margin-left: 10px;

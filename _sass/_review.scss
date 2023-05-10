@@ -79,7 +79,7 @@
   h1 {
     font-size: 1.2rem;
     margin-top: 0;
-    font-weight: 300;
+    font-weight: $paragraph-font-weight;
   }
   .fa-bullhorn {
     transform-origin: center;
@@ -106,7 +106,7 @@
     flex-direction: row;
     align-items: center;
     margin: 0.5rem 0;
-    font-weight: 300;
+    font-weight: $paragraph-font-weight;
     justify-content: center;
   }
 }
@@ -139,7 +139,7 @@
       }
       &::after {
         content: attr(data-suffix);
-        font-weight: 300;
+        font-weight: $paragraph-font-weight;
         font-size: 17px;
       }
       @media (max-width: 500px) {
@@ -177,7 +177,7 @@
 .verdict-message {
   margin: 0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: $title-font-weight;
   transform: translate(0px, -5px);
 }
 
@@ -185,7 +185,7 @@
   grid-template: 1fr auto auto / 1fr;
   padding: 15px 0;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: $paragraph-font-weight;
   .stamp span::before {
     display: none;
   }
@@ -224,10 +224,10 @@
 }
 
 .security-overview {
-  font-weight: 300;
+  font-weight: $paragraph-font-weight;
   h2 {
     font-size: 21px;
-    font-weight: 600;
+    font-weight: $title-font-weight;
   }
   p {
     font-size: 15px;
@@ -338,12 +338,12 @@
      > h2 {
         font-size: 24px;
         margin: 0;
-        font-weight: 600;
+        font-weight: $title-font-weight;
       }
      > h3 {
         font-size: 14px;
         margin: 0;
-        font-weight: 600;
+        font-weight: $title-font-weight;
       }
      > p {
         font-size: 17px;
@@ -484,7 +484,7 @@
   display: flex;
   gap: 25px;
   flex-direction: row;
-  font-weight: 300;
+  font-weight: $paragraph-font-weight;
   @media (max-width: 900px) {
     flex-wrap: wrap;
   }

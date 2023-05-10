@@ -289,7 +289,10 @@ function getBadge(wallet, num) {
     <div class="list-view-only list-details">
       <span><i class="${faCollection}"></i> ${wallet.category}</span>
         <div class="stats">
-          <span title="${wallet.stars} stars" class="star-rating" style="background-image: linear-gradient(90deg,var(--dark-grey, #ffd900) calc(${wallet.stars} / 5 * 100%), var(--shadow-3, #eee) 0%);">★★★★★</span>
+          <div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
+            <span>Passed ${wallet.score.numerator} of ${wallet.score.denominator} tests</span>
+            <div>${passed}${failed}</div>
+          </div>
         </div>
         <span class="updated" data-text="latest analysis">${wallet.updated ? wallet.updated : wallet.date}</span>
     </div>
