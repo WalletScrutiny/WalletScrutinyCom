@@ -3,7 +3,7 @@ wsId:
 title: VAEX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.chainup.exchange.VAEX
 appCountry: 
@@ -28,7 +28,7 @@ twitter: VaexExchange
 social:
 - https://www.instagram.com/vaex2022/
 - https://t.me/Vaex_Exchange
-- https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw 
+- https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw
 redirect_from: 
 features: 
 

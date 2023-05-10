@@ -3,7 +3,7 @@ wsId:
 title: Luna Trading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.cmgroup.luna
 appCountry: 

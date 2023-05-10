@@ -3,7 +3,7 @@ wsId:
 title: CFD Trading Forex investing ap
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.faerlik.firewin
 appCountry: 

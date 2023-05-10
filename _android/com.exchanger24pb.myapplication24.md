@@ -3,7 +3,7 @@ wsId: paybankExchange
 title: '24Paybank: Купить и продать Би'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.exchanger24pb.myapplication24
 appCountry: 

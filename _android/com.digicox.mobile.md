@@ -3,7 +3,7 @@ wsId:
 title: DigiCOX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.digicox.mobile
 appCountry: 

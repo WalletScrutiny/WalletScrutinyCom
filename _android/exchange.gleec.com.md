@@ -2,7 +2,7 @@
 wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
-authors:
+authors: 
 users: 500
 appId: exchange.gleec.com
 appCountry: 
@@ -29,6 +29,4 @@ redirect_from:
 features: 
 
 ---
-
-
 

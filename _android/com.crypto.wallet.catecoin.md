@@ -3,7 +3,7 @@ wsId: catecoin
 title: Bitcoin Defi Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.crypto.wallet.catecoin
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: catecoin
-social: 
+social:
 - https://www.instagram.com/cate.coin/
 - https://t.me/catecoin
 redirect_from: 

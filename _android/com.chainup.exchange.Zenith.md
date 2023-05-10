@@ -2,7 +2,7 @@
 wsId: 
 title: Fuzionx
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: com.chainup.exchange.Zenith

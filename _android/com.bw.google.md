@@ -3,7 +3,7 @@ wsId:
 title: BW Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bw.google
 appCountry: 

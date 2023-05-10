@@ -2,7 +2,7 @@
 wsId: 
 title: Seppulsa
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.bikinaplikasi.appseppulsa
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Arculus Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: co.arculus.wallet.android
 appCountry: 

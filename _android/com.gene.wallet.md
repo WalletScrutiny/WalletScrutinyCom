@@ -3,7 +3,7 @@ wsId:
 title: GENE Wallet (Bitcoin, Ether, G
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.gene.wallet
 appCountry: 

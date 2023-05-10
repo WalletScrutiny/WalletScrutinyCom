@@ -2,7 +2,7 @@
 wsId: 
 title: Bastionpay
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.bastionpay.bastionpay
 appCountry: 
@@ -29,3 +29,4 @@ redirect_from:
 features: 
 
 ---
+

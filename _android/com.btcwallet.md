@@ -3,7 +3,7 @@ wsId:
 title: LUNA - Blockchain Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.btcwallet
 appCountry: 

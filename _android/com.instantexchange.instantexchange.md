@@ -3,7 +3,7 @@ wsId:
 title: InstantExchangers - Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.instantexchange.instantexchange
 appCountry: 

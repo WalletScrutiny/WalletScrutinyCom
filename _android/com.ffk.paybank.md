@@ -3,7 +3,7 @@ wsId:
 title: PayBank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.ffk.paybank
 appCountry: 

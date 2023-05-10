@@ -3,7 +3,7 @@ wsId: aceEwallet
 title: ACE eWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.doubleace.wallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: DAAFinance
 social:
-- https://www.facebook.com/aceewallet 
+- https://www.facebook.com/aceewallet
 redirect_from: 
 features: 
 

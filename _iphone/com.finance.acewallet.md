@@ -3,11 +3,11 @@ wsId: aceEwallet
 title: Ace eWallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.finance.acewallet
 appCountry: us
 idd: '1567143706'
-released: '2021-07-26T07:00:00Z'
+released: 2021-07-26
 updated: 2023-03-21
 version: 1.2.3
 stars: 0
@@ -25,9 +25,10 @@ signer:
 reviewArchive: 
 twitter: DAAFinance
 social:
-- https://www.facebook.com/aceewallet 
+- https://www.facebook.com/aceewallet
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

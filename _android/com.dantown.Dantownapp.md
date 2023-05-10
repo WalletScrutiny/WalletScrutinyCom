@@ -3,7 +3,7 @@ wsId:
 title: Dantown
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.dantown.Dantownapp
 appCountry: 

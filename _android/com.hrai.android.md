@@ -3,7 +3,7 @@ wsId:
 title: HRAI
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.hrai.android
 appCountry: 

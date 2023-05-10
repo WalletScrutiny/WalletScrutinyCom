@@ -3,7 +3,7 @@ wsId:
 title: Bithesap - Bitcoin & Altcoin A
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bithesap.app
 appCountry: 

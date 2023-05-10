@@ -3,7 +3,7 @@ wsId:
 title: 'Sàn giao dịch Bitcoin và tiền '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.e.bitmoondotnet
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: DMBank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bancryp.dmbank.user
 appCountry: 

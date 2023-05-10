@@ -3,7 +3,7 @@ wsId:
 title: StiB P2P - Bitcoin Ethereum De
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.StiBLabs.StiBp2p
 appCountry: 

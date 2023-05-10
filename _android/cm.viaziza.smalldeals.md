@@ -2,7 +2,7 @@
 wsId: 
 title: Small Deals
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: cm.viaziza.smalldeals

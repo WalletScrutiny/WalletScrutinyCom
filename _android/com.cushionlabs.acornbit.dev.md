@@ -3,7 +3,7 @@ wsId:
 title: Acorn BIT
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.cushionlabs.acornbit.dev
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: acornbitsupport
 social:
-- https://t.me/acornbitofficial 
+- https://t.me/acornbitofficial
 - https://www.youtube.com/channel/UCm5SSnSICxpGHHBPVHBSigA
 redirect_from: 
 features: 

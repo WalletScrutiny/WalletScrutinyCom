@@ -3,7 +3,7 @@ wsId:
 title: Safe-T Companion for ARCHOS Sa
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.archos.safet.bridge
 appCountry: 

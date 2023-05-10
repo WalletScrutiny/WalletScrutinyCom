@@ -3,11 +3,11 @@ wsId: BBAEPro
 title: BBAE
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bbae.anno
 appCountry: ca
 idd: '1123918627'
-released: '2016-06-25T08:10:44Z'
+released: 2016-06-25
 updated: 2022-10-28
 version: 5.0.4
 stars: 4
@@ -28,5 +28,6 @@ social:
 features: 
 
 ---
+
 {% include copyFromAndroid.html %}
 

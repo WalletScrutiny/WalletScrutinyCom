@@ -3,7 +3,7 @@ wsId: coinzix
 title: Coinzix
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.coinzix.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: coinzixcom
 social:
 - https://www.facebook.com/coinzixcom
 - https://www.instagram.com/coinzixcom
-- https://t.me/coinzixCEX 
+- https://t.me/coinzixCEX
 redirect_from: 
 features: 
 

@@ -3,7 +3,7 @@ wsId: BBAEPro
 title: 'BBAE Pro: Stocks & Options'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bbae.pro
 appCountry: 

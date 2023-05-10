@@ -3,7 +3,7 @@ wsId:
 title: Buy Sell Signals App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.BuySellSignals.app
 appCountry: 

@@ -3,11 +3,11 @@ wsId: cryptoXpress
 title: CryptoXpress
 altTitle: 
 authors:
-- danny  
+- danny
 appId: com.cryptoxpress.mobile
 appCountry: ph
 idd: '1591792414'
-released: '2021-11-18T08:00:00Z'
+released: 2021-11-18
 updated: 2023-01-23
 version: 1.0.6
 stars: 0
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: crypto_xpress
 social:
-- https://www.facebook.com/iamCryptoxpress/ 
+- https://www.facebook.com/iamCryptoxpress/
 features: 
 
 ---

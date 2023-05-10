@@ -3,7 +3,7 @@ wsId: cryptoXpress
 title: 'CryptoXpress: Crypto Made Easy'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.cryptoxpressmobile
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: crypto_xpress
 social:
-- https://www.facebook.com/iamCryptoxpress/ 
+- https://www.facebook.com/iamCryptoxpress/
 redirect_from: 
 features: 
 

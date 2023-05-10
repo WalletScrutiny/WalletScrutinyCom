@@ -2,8 +2,8 @@
 wsId: 
 title: Mnemonic Phrase Generator - Se
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: com.fourthwavestudios.joseph.mnemonic
 appCountry: 

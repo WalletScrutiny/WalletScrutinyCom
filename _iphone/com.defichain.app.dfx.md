@@ -3,11 +3,11 @@ wsId: dfxDefichainWallet
 title: DFX DeFiChain Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.defichain.app.dfx
 appCountry: us
 idd: '1582633093'
-released: '2021-09-02T07:00:00Z'
+released: 2021-09-02
 updated: 2023-02-06
 version: 1.19.4
 stars: 5
@@ -27,7 +27,7 @@ twitter: DFX_Swiss
 social:
 - https://www.instagram.com/dfx.swiss/
 - https://www.linkedin.com/company/dfxswiss/
-- https://t.me/DFXswiss_en 
+- https://t.me/DFXswiss_en
 features: 
 
 ---

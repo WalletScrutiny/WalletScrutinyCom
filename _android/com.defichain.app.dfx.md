@@ -3,7 +3,7 @@ wsId: dfxDefichainWallet
 title: DFX DeFiChain Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.defichain.app.dfx
 appCountry: 
@@ -28,7 +28,7 @@ twitter: DFX_Swiss
 social:
 - https://www.instagram.com/dfx.swiss/
 - https://www.linkedin.com/company/dfxswiss/
-- https://t.me/DFXswiss_en 
+- https://t.me/DFXswiss_en
 redirect_from: 
 features: 
 

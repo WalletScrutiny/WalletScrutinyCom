@@ -2,11 +2,11 @@
 wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
-authors:
+authors: 
 appId: dev.com.gleecexchange.app
 appCountry: us
 idd: '1541005487'
-released: '2021-02-18T08:00:00Z'
+released: 2021-02-18
 updated: 2021-02-18
 version: '1.0'
 stars: 0
@@ -25,7 +25,7 @@ reviewArchive:
 twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial
-- https://t.me/officialgleecoin 
+- https://t.me/officialgleecoin
 features: 
 
 ---

@@ -3,7 +3,7 @@ wsId:
 title: Panthira
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.cloud.panthira
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/panthira_official 
+- https://t.me/panthira_official
 redirect_from: 
 features: 
 

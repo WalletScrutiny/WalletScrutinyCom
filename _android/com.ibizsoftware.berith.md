@@ -3,7 +3,7 @@ wsId:
 title: Berith Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.ibizsoftware.berith
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Berith_co
 social:
 - https://www.facebook.com/berithcoin
-- https://t.me/berithcoin 
+- https://t.me/berithcoin
 redirect_from: 
 features: 
 

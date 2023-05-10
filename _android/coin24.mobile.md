@@ -3,7 +3,7 @@ wsId:
 title: Coin24 - Bitcoin, cryptocurren
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: coin24.mobile
 appCountry: 

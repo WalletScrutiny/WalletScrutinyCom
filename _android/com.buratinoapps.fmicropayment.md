@@ -2,7 +2,7 @@
 wsId: 
 title: FaucetPay Micro Wallet
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.buratinoapps.fmicropayment
 appCountry: 

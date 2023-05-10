@@ -3,16 +3,17 @@ wsId: bancrypV2
 title: Bancryp
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bancryp.mobuser.v2
 appCountry: 
-released: May 18, 2020
+released: 2020-05-18
 updated: 2023-04-14
 version: 1.6.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://bancryp.com
 repository: 
 issue: 

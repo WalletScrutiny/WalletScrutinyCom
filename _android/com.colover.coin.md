@@ -3,7 +3,7 @@ wsId:
 title: 코러버 - 전 세계 최초 하이브리드 암호화폐 거래소
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.colover.coin
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://web.archive.org/web/20191004081856/http://www.colover.com/ 
+- https://web.archive.org/web/20191004081856/http://www.colover.com/
 redirect_from: 
 features: 
 

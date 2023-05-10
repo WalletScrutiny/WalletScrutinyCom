@@ -3,7 +3,7 @@ wsId:
 title: Vex Block Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: co.vexblock.android
 appCountry: 

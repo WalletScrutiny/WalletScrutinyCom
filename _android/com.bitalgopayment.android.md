@@ -2,7 +2,7 @@
 wsId: 
 title: BitalGo Multi Wallet
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.bitalgopayment.android
 appCountry: 

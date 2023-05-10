@@ -2,7 +2,7 @@
 wsId: 
 title: Bitcoin InstaForex
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: com.instaforex.bitcoin

@@ -3,14 +3,14 @@ wsId: btcmarkets
 title: BTC Markets
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.btcmarkets.btcm
 appCountry: au
 idd: '1546957530'
-released: '2022-03-19T07:00:00Z'
+released: 2022-03-19
 updated: 2023-03-08
 version: 1.5.0
-stars: 4.10203
+stars: 4.1
 reviews: 49
 size: '29328384'
 website: https://www.btcmarkets.net

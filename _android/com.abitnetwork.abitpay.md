@@ -2,7 +2,7 @@
 wsId: 
 title: ABiTPay
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.abitnetwork.abitpay
 appCountry: 

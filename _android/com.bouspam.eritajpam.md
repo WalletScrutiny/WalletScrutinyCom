@@ -2,8 +2,8 @@
 wsId: bousechanj
 title: Bous Echanj
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 

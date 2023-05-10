@@ -3,7 +3,7 @@ wsId:
 title: CROSS exchange -secure exchange-
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.cbasefintechlab.exchange
 appCountry: 

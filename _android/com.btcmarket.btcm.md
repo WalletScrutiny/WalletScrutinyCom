@@ -3,7 +3,7 @@ wsId: btcmarkets
 title: BTC Markets
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.btcmarket.btcm
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/btcmarkets
 - https://www.linkedin.com/company/btc-markets
 - https://t.me/BTCMkts
-- https://www.instagram.com/btcmarkets_ 
+- https://www.instagram.com/btcmarkets_
 redirect_from: 
 features: 
 

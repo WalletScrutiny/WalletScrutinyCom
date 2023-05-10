@@ -3,7 +3,7 @@ wsId:
 title: BCD Pay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.chimpion.bcdpay
 appCountry: 
@@ -28,7 +28,7 @@ twitter: chimpionio
 social:
 - https://www.facebook.com/Chimpionio/
 - https://www.linkedin.com/company/chimpion/about/
-- https://www.instagram.com/chimpion.io/ 
+- https://www.instagram.com/chimpion.io/
 redirect_from: 
 features: 
 

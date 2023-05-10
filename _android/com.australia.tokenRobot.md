@@ -2,7 +2,7 @@
 wsId: 
 title: TokenRobot
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.australia.tokenRobot
 appCountry: 
@@ -29,5 +29,4 @@ redirect_from:
 features: 
 
 ---
-
 

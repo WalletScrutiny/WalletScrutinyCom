@@ -3,7 +3,7 @@ wsId:
 title: 'Fox Global - Automated Crypto '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.foxtrading.fox
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-04-22
 signer: 
 reviewArchive: 
 twitter: foxtradingauto
-social: 
+social:
 - https://www.facebook.com/FoxTradingSignals
 - https://www.instagram.com/foxtradingsignals/
 redirect_from: 

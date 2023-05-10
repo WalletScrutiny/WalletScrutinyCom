@@ -3,14 +3,14 @@ wsId: catecoin
 title: Catecoin-Bitcoin Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.catecoin.crypto.wallet
 appCountry: us
 idd: '1637850589'
-released: '2022-09-13T07:00:00Z'
+released: 2022-09-13
 updated: 2023-02-09
 version: '8.2'
-stars: 4.82353
+stars: 4.8
 reviews: 17
 size: '57957376'
 website: https://catecoin.club
