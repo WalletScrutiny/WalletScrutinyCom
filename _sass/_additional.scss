@@ -470,14 +470,26 @@
     font-weight: $paragraph-font-weight;
   }
 }
-.AppDisplayCard.opened {
-  .score {
-    span {
-      text-align: left;
+.AppDisplayCard {
+  &.Hardware.Wallet{
+    .app_logo{
+      background: var(--permanent-white);
+    }
+  }
+  &.opened {
+    .score {
+      span {
+        text-align: left;
+      }
+      div,
+      .tests-passed div {
+        margin-left: 0;
+      }
     }
   }
 }
-.score,.tests-passed {
+.score,
+.tests-passed {
   width: 100%;
   display: grid;
   gap: 10px;
@@ -490,6 +502,8 @@
   div {
     display: flex;
     gap: 3px;
+    width: 150px;
+    margin: auto;
     .pass,
     .fail {
       display: block;

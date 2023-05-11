@@ -42,12 +42,12 @@ window.addEventListener("load", () => {
 
 function recreateDropdowns(verdict, platform) {
   if (window.verdictOrder && window.verdictOrder.length > 0 && document.querySelector(".dropdown-verdict")) {
-    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All verdicts</span></div>`
+    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All verdicts</span><small>${String(productCount('all', platform)).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</small></div>`
     let availableFilteredWallets = `Search ${window.full_wallet_count} wallet reviews...`
     for (const instanceVerdict of window.verdictOrder) {
       const count = productCount(instanceVerdict, platform)
       if (count > 0) {
-        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${count} wallets</small></div>`
+        html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${String(count).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</small></div>`
       }
       else if (verdict === instanceVerdict) {
         html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
@@ -71,7 +71,7 @@ function recreateDropdowns(verdict, platform) {
         default:
           instancePlatformText = instancePlatform.charAt(0).toUpperCase() + instancePlatform.slice(1)
       }
-      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><i class="${getIcon(instancePlatform)}"></i> <span>${instancePlatformText}</span></div>`
+      html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><span>${instancePlatformText}</span></div>`
     }
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
   }
@@ -128,20 +128,6 @@ function updateModularPayload(page, unrestrictedSearch) {
     e.classList.contains(`-${platform}`) ? (e.style.display = "flex") : (e.style.display = "none")
   })
 
-  // switch (platform) {
-  //   case 'all':
-  //     ((document.getElementById("SwitchToDownloadsView") || {}).style || {}).display = ""
-  //     break
-  //   case 'android':
-  //   case 'iphone':
-  //   case 'hardware':
-  //   case 'bearer':
-  //     var x
-  //     x = document.getElementById("SwitchToDownloadsView"); if (x) x.style.display = "none"
-  //     x = document.getElementById("walletsPerCatContainer"); if (x) x.classList.add("selected")
-  //     x = document.getElementById("proportionalViewContainer"); if (x) x.classList.remove("selected")
-  //     break
-  // }
 
   var appIds = []
   var presort = []
@@ -181,7 +167,7 @@ function updateModularPayload(page, unrestrictedSearch) {
   updateUrl()
 }
 
-const paginationLimit = 15
+const paginationLimit = 12
 function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   page = page ? page : 0
   const maxPages = Math.ceil(wallets.length / paginationLimit)

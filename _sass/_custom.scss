@@ -34,17 +34,18 @@
     text-align: center;
     gap: 20px;
     &:not(.opened),
-    .opened {
+    &.opened {
       .option {
         &:not(.selected) {
           display: grid;
-          opacity: 0.5;
+          opacity: 0.6;
           margin: auto;
+          color: var(--text);
           i {
             margin: auto;
           }
           &:hover {
-            opacity: 0.75;
+            opacity: 1;
           }
         }
         &.selected {
@@ -61,17 +62,6 @@
   }
 }
 
-.option.selected.reproducible[data="reproducible"] {
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto auto;
-  &::before {
-    content: "\e902";
-    font-family: "svg-font";
-    grid-column: 1/2;
-    grid-row: 1/3;
-    margin-right: 5px;
-  }
-}
 .pagination {
   display: flex;
   cursor: pointer;
@@ -160,13 +150,14 @@
   background: var(--accent-50);
   border-radius: 8px;
   box-shadow: 0 0 0 1px var(--accent-text);
-  color: var(--accent);
-  padding: 5px 15px;
   min-height: 46px;
   &.component-verdict {
     width: 200px;
     .option {
       text-transform: capitalize;
+      &.selected {
+        padding-right: 20px;
+      }
     }
   }
   &.component-platform {
@@ -191,24 +182,19 @@
     font-weight: $paragraph-font-weight;
     font-size: 17px;
     margin: auto 0;
-    &:hover {
-      .selected {
-        color: var(--accent-text);
-      }
-    }
+    padding: 15px;
     .option {
       cursor: pointer;
       line-height: 1;
       row-gap: 4px;
-      grid-template-columns: auto auto 1fr;
+      grid-template-columns: 1fr auto;
       position: relative;
+      &.selected {
+        color: var(--accent);
+      }
       small {
-        grid-row: 2/3;
         display: block;
-        font-size: 10px;
-        opacity: 0.6;
-        line-height: 10px;
-        font-weight: 500;
+        font-size: 17px;
       }
       &:hover {
         color: var(--accent-text);
@@ -222,7 +208,7 @@
         margin-right: 5px;
       }
     }
-    &.opened {
+    &.opened:not(.linear-switch) {
       background-image: linear-gradient(var(--accent-50), var(--accent-50));
       box-shadow: 0 20px 35px -20px #000, 0 0 0 1px var(--accent);
       position: absolute;
@@ -240,7 +226,6 @@
       }
       .option {
         display: grid;
-        grid-auto-flow: column;
         margin-right: auto;
         padding: 16px 5px;
         width: 100%;
@@ -606,26 +591,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: start;
-    justify-content: space-around;
+    justify-content: start;
     position: relative;
-    gap: 37px;
+    gap: 25px;
     width: 100%;
-    @media (max-width: 1334px) {
-      gap: 4vw 3vw;
+    @media (max-width: 1100px) {
+      gap: 20px;
     }
-    @media (max-width: 950px) {
-      gap: 4vw 2vw;
+    @media (max-width: 756px) {
+      gap: 25px;
     }
     @media (max-width: 500px) {
       gap: 5vw;
       justify-content: space-evenly;
-    }
-    &::after {
-      content: "";
-      flex: auto;
-      @media (max-width: 500px) {
-        display: none;
-      }
     }
   }
   .item {
@@ -634,23 +612,23 @@
     opacity: 0;
     transform: scale(0.8);
     animation: tile-pop-in 200ms ease forwards 1;
-    width: 210px;
+    width: calc(25% - (25px * 0.75));
     padding: 20px 10px 10px 10px;
     background: var(--white);
     border-radius: 12px;
     box-shadow: 0 0px 30px -25px #000;
     transition: 200ms ease;
-    @media (max-width: 1334px) {
-      width: calc((95vw / 5) - 3vw);
+    @media (max-width: 1100px) {
+      width: calc(33.33% - (20px * 0.66));
     }
-    @media (max-width: 950px) {
-      width: calc((95vw / 5) - 2vw);
-    }
-    @media (max-width: 750px) {
-      width: calc((95vw / 4) - 2vw);
+    @media (max-width: 756px) {
+      width: calc(50% - (25px * 0.5));
     }
     @media (max-width: 500px) {
       width: 42vw;
+    }
+    @media (max-width: 400px) {
+      width: 90vw;
     }
     &:hover {
       box-shadow: 0 10px 30px -20px #000;
@@ -665,8 +643,7 @@
         grid-template: unset;
       }
       .app_logo {
-        background: var(--permanent-white);
-        width: 80px;
+        width: 75px;
         border-radius: 10px;
         box-shadow: 0 15px 30px -15px var(--permanent-black);
       }
@@ -695,10 +672,10 @@
     .wallet-details {
       font-size: 13px;
       display: grid;
-      gap: 15px;
+      gap: 5px;
       justify-items: center;
       text-align: center;
-      padding: 10px 5px 0px 5px;
+      padding: 24px 5px 0px 5px;
       @media (max-width: 700px) {
         font-size: 10px;
         padding: 10px 0 0 0;

@@ -98,6 +98,7 @@
     .masthead {
       box-shadow: none;
       background-color: var(--wallet-gradient);
+      background-image: linear-gradient(var(--body-50),var(--body-50));
     }
   }
   .opened.AppDisplayCard {
