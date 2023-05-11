@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.astrolltd.astrollax
 appCountry: 
-released: Jan 16, 2022
+released: 2022-01-16
 updated: 2022-01-16
 version: '1.5'
 stars: 

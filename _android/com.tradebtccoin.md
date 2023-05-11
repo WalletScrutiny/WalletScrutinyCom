@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.tradebtccoin
 appCountry: 
-released: Aug 20, 2019
+released: 2019-08-20
 updated: 2019-08-20
 version: 1.0.1
 stars: 

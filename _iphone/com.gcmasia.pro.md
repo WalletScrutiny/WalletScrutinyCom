@@ -7,7 +7,7 @@ authors:
 appId: com.gcmasia.pro
 appCountry: my
 idd: '1223411781'
-released: '2017-05-01T18:48:03Z'
+released: 2017-05-01
 updated: 2022-04-13
 version: '3.50'
 stars: 4.1

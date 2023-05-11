@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.imtrx.dhou
 appCountry: 
-released: Apr 11, 2022
+released: 2022-04-11
 updated: 2022-09-13
 version: '1.2'
 stars: 

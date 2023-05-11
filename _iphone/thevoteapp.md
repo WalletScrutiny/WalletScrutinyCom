@@ -7,7 +7,7 @@ authors:
 appId: thevoteapp
 appCountry: us
 idd: '1050619919'
-released: '2016-01-18T01:30:41Z'
+released: 2016-01-18
 updated: 2019-12-02
 version: 3.0.11
 stars: 4.8

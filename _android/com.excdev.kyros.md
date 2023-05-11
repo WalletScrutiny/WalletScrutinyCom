@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.excdev.kyros
 appCountry: 
-released: Sep 2, 2020
+released: 2020-09-02
 updated: 2022-02-07
 version: 3.2.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bittide
 appCountry: 
-released: Feb 8, 2020
+released: 2020-02-08
 updated: 2020-05-07
 version: '1.4'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.csesg.cs9
 appCountry: 
-released: Sep 28, 2020
+released: 2020-09-28
 updated: 2021-07-28
 version: 1.2.9
 stars: 

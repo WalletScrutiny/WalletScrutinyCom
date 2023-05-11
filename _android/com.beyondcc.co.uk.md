@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.beyondcc.co.uk
 appCountry: 
-released: Oct 21, 2019
+released: 2019-10-21
 updated: 2019-10-21
 version: 0.0.1
 stars: 

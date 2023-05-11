@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.emet.faswet
 appCountry: 
-released: Jun 8, 2020
+released: 2020-06-08
 updated: 2021-07-14
 version: 1.9.2
 stars: 

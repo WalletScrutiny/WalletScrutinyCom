@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.dashwallet
 appCountry: 
-released: Apr 5, 2020
+released: 2020-04-05
 updated: 2020-11-30
 version: '1.6'
 stars: 

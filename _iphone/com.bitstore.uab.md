@@ -7,7 +7,7 @@ authors:
 appId: com.bitstore.uab
 appCountry: us
 idd: '1640445212'
-released: '2022-09-01T07:00:00Z'
+released: 2022-09-01
 updated: 2022-11-17
 version: 2.4.0
 stars: 5

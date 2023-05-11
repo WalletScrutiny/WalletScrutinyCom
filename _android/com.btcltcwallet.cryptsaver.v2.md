@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.btcltcwallet.cryptsaver.v2
 appCountry: 
-released: Oct 9, 2020
+released: 2020-10-09
 updated: 2020-10-09
 version: '1.0'
 stars: 

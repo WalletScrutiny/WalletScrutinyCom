@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.cloud.gooplex
 appCountry: 
-released: Dec 28, 2020
+released: 2020-12-28
 updated: 2021-10-20
 version: 1.2.0
 stars: 

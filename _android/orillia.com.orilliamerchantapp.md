@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: orillia.com.orilliamerchantapp
 appCountry: 
-released: Jun 3, 2015
+released: 2015-06-03
 updated: 2015-06-03
 version: '0.18'
 stars: 

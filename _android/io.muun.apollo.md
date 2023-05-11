@@ -10,9 +10,9 @@ appCountry:
 released: 2017-04-25
 updated: 2023-04-28
 version: '50.11'
-stars: 4.5
+stars: 4.6
 ratings: 650
-reviews: 136
+reviews: 138
 size: 
 website: https://muun.com
 repository: https://github.com/muun/apollo

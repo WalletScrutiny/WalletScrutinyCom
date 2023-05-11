@@ -7,7 +7,7 @@ authors:
 appId: io.coinmerce.app
 appCountry: nl
 idd: '1409599830'
-released: '2018-07-29T17:30:58Z'
+released: 2018-07-29
 updated: 2023-04-13
 version: 5.6.3
 stars: 3.8

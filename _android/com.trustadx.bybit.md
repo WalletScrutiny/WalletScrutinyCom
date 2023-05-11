@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.trustadx.bybit
 appCountry: 
-released: Sep 3, 2021
+released: 2021-09-03
 updated: 2022-01-18
 version: '5.0'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.iqcash.wallet
 appCountry: 
-released: May 5, 2020
+released: 2020-05-05
 updated: 2020-05-05
 version: v1.0.6
 stars: 

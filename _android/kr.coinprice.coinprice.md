@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: kr.coinprice.coinprice
 appCountry: 
-released: Aug 19, 2017
+released: 2017-08-19
 updated: 2017-10-23
 version: '5.0'
 stars: 

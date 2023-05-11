@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: appinventor.ai_suporte.bancobitcoin
 appCountry: 
-released: Dec 18, 2020
+released: 2020-12-18
 updated: 2020-12-18
 version: '1.0'
 stars: 

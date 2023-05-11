@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.brsoftech.Zuo
 appCountry: 
-released: Dec 3, 2017
+released: 2017-12-03
 updated: 2017-12-04
 version: '1.0'
 stars: 

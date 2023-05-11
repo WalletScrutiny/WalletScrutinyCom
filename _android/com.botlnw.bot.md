@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.botlnw.bot
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2022-07-18
 version: 2.1.7
 stars: 

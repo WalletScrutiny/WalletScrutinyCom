@@ -7,7 +7,7 @@ authors:
 appId: com.coingrig.app
 appCountry: us
 idd: '1583464451'
-released: '2021-11-05T07:00:00Z'
+released: 2021-11-05
 updated: 2022-06-22
 version: 1.3.11
 stars: 5

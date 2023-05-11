@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.app.foxexchangeapp
 appCountry: 
-released: Mar 6, 2022
+released: 2022-03-06
 updated: 2022-08-20
 version: '1.8'
 stars: 4.2

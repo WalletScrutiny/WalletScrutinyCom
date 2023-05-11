@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: capital.novum.cryptohero
 appCountry: 
-released: Jul 16, 2021
+released: 2021-07-16
 updated: 2023-04-21
 version: 2.1.0.10
 stars: 3.8

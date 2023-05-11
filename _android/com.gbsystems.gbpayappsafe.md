@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.gbsystems.gbpayappsafe
 appCountry: 
-released: Jun 1, 2019
+released: 2019-06-01
 updated: 2019-06-02
 version: 1.0.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.wxfx.fairs
 appCountry: 
-released: Apr 9, 2022
+released: 2022-04-09
 updated: 2022-07-21
 version: 1.2.9
 stars: 3.8

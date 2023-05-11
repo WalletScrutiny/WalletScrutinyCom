@@ -7,7 +7,7 @@ authors:
 appId: com.banofinancial.app
 appCountry: au
 idd: '1562849570'
-released: '2021-05-13T07:00:00Z'
+released: 2021-05-13
 updated: 2023-04-28
 version: 1.4.70
 stars: 4

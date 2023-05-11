@@ -8,8 +8,8 @@ users: 1000
 appId: com.beecrypt.beecrypthd
 appCountry: us
 released: 2020-05-27
-updated: 2023-04-27
-version: 6.0.6
+updated: 2023-05-05
+version: 6.0.7
 stars: 
 ratings: 
 reviews: 

@@ -6,6 +6,7 @@ const helperBearer = require('./helperBearer')
 const fs = require('fs')
 const yaml = require('js-yaml')
 var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'))
+const df = /^\d{4}-\d{2}-\d{2}$/ // the only date format we use
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
@@ -45,6 +46,9 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`)
   }
   if (!meta[category].metas.includes(header.meta) && 'ok' !== header.meta) {
     console.error(`# ${folder}${header.appId}.md uses wrong meta "${header.meta}".`)
+  }
+  if (header.released && !df.test(header.released)) {
+    header.released = new Date(Date.parse(header.released))
   }
 }; // crucial semicolon!
 

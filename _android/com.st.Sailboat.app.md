@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.st.Sailboat.app
 appCountry: 
-released: Mar 16, 2022
+released: 2022-03-16
 updated: 2022-03-24
 version: '1.1'
 stars: 

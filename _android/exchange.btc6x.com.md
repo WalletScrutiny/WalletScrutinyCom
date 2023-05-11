@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: exchange.btc6x.com
 appCountry: 
-released: Mar 4, 2022
+released: 2022-03-04
 updated: 2022-03-04
 version: '1.1'
 stars: 3.7

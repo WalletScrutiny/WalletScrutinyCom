@@ -3,14 +3,14 @@ wsId: btcboxJP
 title: BTCBOXビットコイン取引所
 altTitle: 
 authors:
-- danny 
+- danny
 appId: btctrade.btcbox
 appCountry: jp
 idd: '1076075645'
-released: '2016-01-22T22:17:09Z'
+released: 2016-01-22
 updated: 2023-01-06
 version: '1.215'
-stars: 2.64286
+stars: 2.6
 reviews: 14
 size: '18725888'
 website: http://www.btcbox.co.jp
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BtcboxE
 social:
-- https://www.facebook.com/btcbox/ 
+- https://www.facebook.com/btcbox/
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.am.flashtrade
 appCountry: 
-released: Oct 13, 2020
+released: 2020-10-13
 updated: 2020-10-13
 version: '1.0'
 stars: 

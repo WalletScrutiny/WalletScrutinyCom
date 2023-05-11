@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: plus.ARQ.D2020120901
 appCountry: 
-released: Dec 9, 2020
+released: 2020-12-09
 updated: 2021-01-06
 version: '2021010601'
 stars: 
