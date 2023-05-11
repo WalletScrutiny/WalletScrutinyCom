@@ -10,8 +10,8 @@ idd: 1436009823
 released: 2018-09-21
 updated: 2023-04-27
 version: 4.5.0
-stars: 4.1
-reviews: 79
+stars: 4
+reviews: 78
 size: '256077824'
 website: https://www.onto.app
 repository: 

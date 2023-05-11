@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.wQ7Trades_15018357
 appCountry: 
-released: Jan 13, 2022
+released: 2022-01-13
 updated: 2022-01-13
 version: 1.0.2
 stars: 

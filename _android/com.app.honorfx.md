@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.honorfx
 appCountry: 
-released: Sep 22, 2021
+released: 2021-09-22
 updated: 2021-10-09
 version: '1.3'
 stars: 

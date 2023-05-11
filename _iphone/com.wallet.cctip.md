@@ -7,7 +7,7 @@ authors:
 appId: com.wallet.cctip
 appCountry: ca
 idd: '1576466746'
-released: '2021-09-22T07:00:00Z'
+released: 2021-09-22
 updated: 2022-12-24
 version: 2.3.3
 stars: 0

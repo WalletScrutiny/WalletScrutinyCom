@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: em.elevationmarkets
 appCountry: 
-released: Dec 21, 2021
+released: 2021-12-21
 updated: 2021-12-22
 version: 1.0.1
 stars: 

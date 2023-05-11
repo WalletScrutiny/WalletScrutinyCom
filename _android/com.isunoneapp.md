@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.isunoneapp
 appCountry: 
-released: Mar 10, 2022
+released: 2022-03-10
 updated: 2022-04-26
 version: 3.0.3
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.micoo.cryptoxchange
 appCountry: 
-released: Apr 3, 2017
+released: 2017-04-03
 updated: 2019-10-03
 version: '1.9'
 stars: 

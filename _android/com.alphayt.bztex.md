@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.alphayt.bztex
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2022-04-28
 version: 1.1.9
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: com.xt.app
 appCountry: us
 idd: '1556596708'
-released: '2021-03-08T08:00:00Z'
+released: 2021-03-08
 updated: 2023-04-23
 version: 4.20.1
 stars: 3.2

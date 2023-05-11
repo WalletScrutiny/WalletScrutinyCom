@@ -7,7 +7,7 @@ authors:
 appId: one.citadel.mobile
 appCountry: us
 idd: '1546701475'
-released: '2021-04-06T07:00:00Z'
+released: 2021-04-06
 updated: 2023-04-22
 version: 2.9.1
 stars: 3.9

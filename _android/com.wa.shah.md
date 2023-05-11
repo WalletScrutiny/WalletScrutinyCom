@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.wa.shah
 appCountry: 
-released: Mar 28, 2022
+released: 2022-03-28
 updated: 2022-09-17
 version: '2.8'
 stars: 

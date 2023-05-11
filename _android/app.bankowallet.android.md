@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.bankowallet.android.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-05-06
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: BankoWallet1
@@ -34,6 +34,24 @@ redirect_from:
 features: 
 
 ---
+
+## Update 2023-05-11
+
+The email we sent bounced with the following error message:
+
+> Message not delivered
+>
+> There was a problem delivering your message to support@bankowallet.com. See the technical details below.
+>
+> LEARN MORE
+>
+> The response was:
+>
+> The recipient server did not accept our requests to connect. Learn more at https://support.google.com/mail/answer/7720 [bankowallet.com 2606:4700:3032::6815:1459: timed out] [bankowallet.com 2606:4700:3035::ac43:c006: timed out] [bankowallet.com 172.67.192.6: timed out] [bankowallet.com 104.21.20.89: timed out]
+
+With no point-of-contact, and together with the findings we have below, we're marking this app as **defunct**
+
+## Previous Review 2023-05-10
 
 ## App Description from Google Play 
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.plarkapp
 appCountry: 
-released: Apr 14, 2020
+released: 2020-04-14
 updated: 2022-04-06
 version: 2.5.0
 stars: 

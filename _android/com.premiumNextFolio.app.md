@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.premiumNextFolio.app
 appCountry: 
-released: Jan 10, 2020
+released: 2020-01-10
 updated: 2020-01-16
 version: '1.2'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.australia.tokenRobot
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2022-03-31
 version: 0.0.1
 stars: 
@@ -20,7 +20,7 @@ icon: com.australia.tokenRobot.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 

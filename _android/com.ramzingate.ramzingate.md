@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ramzingate.ramzingate
 appCountry: 
-released: Aug 29, 2021
+released: 2021-08-29
 updated: 2022-03-03
 version: 1.2.1
 stars: 

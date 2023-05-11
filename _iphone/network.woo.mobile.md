@@ -7,7 +7,7 @@ authors:
 appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
-released: '2021-09-17T07:00:00Z'
+released: 2021-09-17
 updated: 2023-04-10
 version: 3.2.0
 stars: 5

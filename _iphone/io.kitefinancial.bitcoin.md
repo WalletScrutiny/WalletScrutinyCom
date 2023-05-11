@@ -7,11 +7,11 @@ authors:
 appId: io.kitefinancial.bitcoin
 appCountry: us
 idd: '1524242232'
-released: '2020-07-21T07:00:00Z'
+released: 2020-07-21
 updated: 2022-10-04
 version: 2.2.7
-stars: 3.2
-reviews: 27
+stars: 3.3
+reviews: 28
 size: '61706240'
 website: 
 repository: 

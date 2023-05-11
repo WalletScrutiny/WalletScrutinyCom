@@ -7,7 +7,7 @@ authors:
 appId: com.stibits.wallet
 appCountry: us
 idd: '1492464010'
-released: '2020-03-10T07:00:00Z'
+released: 2020-03-10
 updated: 2022-09-22
 version: 0.5.1.4
 stars: 4.6

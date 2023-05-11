@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bcnex
 appCountry: 
-released: Feb 2, 2020
+released: 2020-02-02
 updated: 2020-02-03
 version: 1.0.0
 stars: 

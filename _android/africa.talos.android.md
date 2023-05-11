@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: africa.talos.android
 appCountry: 
-released: Jul 4, 2021
+released: 2021-07-04
 updated: 2022-05-27
 version: 2.2.5
 stars: 

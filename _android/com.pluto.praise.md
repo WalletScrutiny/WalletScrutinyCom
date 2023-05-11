@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.pluto.praise
 appCountry: 
-released: Jun 23, 2021
+released: 2021-06-23
 updated: 2021-07-01
 version: '1.4'
 stars: 

@@ -8,8 +8,8 @@ users: 1000
 appId: io.hexawallet.hexa2
 appCountry: in
 released: 2021-09-30
-updated: 2023-04-29
-version: 2.1.5
+updated: 2023-05-08
+version: 2.1.6
 stars: 5
 ratings: 30
 reviews: 5

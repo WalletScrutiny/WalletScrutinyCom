@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.contacripto.app
 appCountry: 
-released: Jun 7, 2022
+released: 2022-06-07
 updated: 2022-06-08
 version: 1.0.0
 stars: 

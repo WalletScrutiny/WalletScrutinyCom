@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: io.quras.plus
 appCountry: 
-released: Jan 19, 2021
+released: 2021-01-19
 updated: 2022-01-21
 version: 3.0.3
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.seanfreiburg.cryptotrader
 appCountry: 
-released: Feb 20, 2018
+released: 2018-02-20
 updated: 2018-03-15
 version: '1.5'
 stars: 4

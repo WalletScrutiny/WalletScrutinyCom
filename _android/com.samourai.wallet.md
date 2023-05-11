@@ -16,12 +16,12 @@ reviews:
 size: 
 website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android
-issue: https://code.samourai.io/wallet/samourai-wallet-android/-/issues/376
+issue: 
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-11-02
+verdict: reproducible
+date: 2023-04-30
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive: 
 twitter: SamouraiWallet
@@ -34,6 +34,34 @@ redirect_from:
 features: 
 
 ---
+
+**Update 2023-05-04**: Emanuel from WalletScrutiny and Stephan Oeste were able to reproduce the latest release under certain conditions and specific environment configs, Which is slightly different from our default script that causes different results. So with this claim we can mark Samourai Wallet as {% include verdictBadge.html verdict='reproducible' type='short' %}. For more info you can follow [this thread](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/468).
+
+**Update 2023-04-30**: The latest version of {{ page.title }}, `0.99.98g`, is still
+{% include verdictBadge.html verdict='nonverifiable' type='short' %} with the same result as `0.99.98f`.
+
+
+```
+===== Begin Results =====
+appId:          com.samourai.wallet
+signer:         6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
+apkVersionName: 0.99.98g
+apkVersionCode: 194
+verdict:        nonverifiable
+appHash:        2e67af86400d69ae3ecb8b05e57e960d481800c15cd68bb204537a093fee99c8
+commit:         534b9ecde412d6ed3e5e33788371091f66f2cc3c
+
+Diff:
+Files /tmp/fromPlay_com.samourai.wallet_194/assets/dexopt/baseline.prof and /tmp/fromBuild_com.samourai.wallet_194/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.samourai.wallet_194/classes3.dex and /tmp/fromBuild_com.samourai.wallet_194/classes3.dex differ
+Only in /tmp/fromPlay_com.samourai.wallet_194/META-INF: CERT.RSA
+Only in /tmp/fromPlay_com.samourai.wallet_194/META-INF: CERT.SF
+Only in /tmp/fromPlay_com.samourai.wallet_194/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
 
 **Update 2022-11-02**: As of now, {{ page.title }} is the
 {% include verdictBadge.html verdict='nonverifiable' type='short' %} product

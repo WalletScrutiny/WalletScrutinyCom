@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: fmx.trade.cryptocurrency.exchange.finance
 appCountry: 
-released: May 24, 2021
+released: 2021-05-24
 updated: 2021-05-25
 version: 2.1.0
 stars: 

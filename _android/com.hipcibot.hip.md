@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.hipcibot.hip
 appCountry: 
-released: Mar 1, 2021
+released: 2021-03-01
 updated: 2021-03-01
 version: 0.0.1
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hipcibot.hip.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-20
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

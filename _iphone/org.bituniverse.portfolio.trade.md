@@ -7,7 +7,7 @@ authors:
 appId: org.bituniverse.portfolio.trade
 appCountry: us
 idd: '1450715704'
-released: '2019-02-01T13:10:18Z'
+released: 2019-02-01
 updated: 2022-03-17
 version: 3.8.0
 stars: 3.9

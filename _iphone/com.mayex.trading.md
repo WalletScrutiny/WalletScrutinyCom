@@ -7,7 +7,7 @@ authors:
 appId: com.mayex.trading
 appCountry: us
 idd: '1614659988'
-released: '2022-04-06T07:00:00Z'
+released: 2022-04-06
 updated: 2023-04-11
 version: 1.9.8
 stars: 3

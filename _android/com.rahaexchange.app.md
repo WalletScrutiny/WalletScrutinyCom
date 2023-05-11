@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.rahaexchange.app
 appCountry: 
-released: Mar 14, 2021
+released: 2021-03-14
 updated: 2022-09-01
 version: '1.007'
 stars: 4.2

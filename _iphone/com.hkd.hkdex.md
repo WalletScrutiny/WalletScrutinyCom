@@ -7,7 +7,7 @@ authors:
 appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
-released: '2020-07-13T07:00:00Z'
+released: 2020-07-13
 updated: 2023-04-24
 version: 2.5.7
 stars: 2.7

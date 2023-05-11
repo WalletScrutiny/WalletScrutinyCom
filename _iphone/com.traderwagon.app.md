@@ -7,7 +7,7 @@ authors:
 appId: com.traderwagon.app
 appCountry: sg
 idd: '1605104202'
-released: '2022-02-21T08:00:00Z'
+released: 2022-02-21
 updated: 2023-04-27
 version: 1.6.0
 stars: 5

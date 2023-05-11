@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.exchange.orbitex
 appCountry: 
-released: Jan 5, 2021
+released: 2021-01-05
 updated: 2021-01-29
 version: 2.0.1
 stars: 

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.application.btctr
 appCountry: 
-released: Mar 18, 2022
+released: 2022-03-18
 updated: 2022-04-30
 version: 1.0.3
 stars: 
