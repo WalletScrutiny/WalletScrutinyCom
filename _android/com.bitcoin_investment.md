@@ -2,7 +2,8 @@
 wsId: 
 title: Bitcoin Investment
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.bitcoin_investment
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.bitcoin_investment.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2021-08-17
+verdict: nowallet
+date: 2023-05-12
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> Bitcoin is the future of the world and a hard investment to understand. Download our app and understand the investment of Bitcoin. Know how to invest and when to invest keeping track of bitcoin daily through us. Enjoy the adventure.
+
+## Analysis
+
+The app features some links to Amazon and other websites. It does **not have a wallet**. 
