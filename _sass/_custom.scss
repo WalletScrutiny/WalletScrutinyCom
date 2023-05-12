@@ -182,8 +182,9 @@
     font-weight: $paragraph-font-weight;
     font-size: 17px;
     margin: auto 0;
-    padding: 15px;
+    overflow: hidden;
     .option {
+      padding: 15px;
       cursor: pointer;
       line-height: 1;
       row-gap: 4px;
@@ -208,7 +209,7 @@
         margin-right: 5px;
       }
     }
-    &.opened:not(.linear-switch) {
+    &.opened {
       background-image: linear-gradient(var(--accent-50), var(--accent-50));
       box-shadow: 0 20px 35px -20px #000, 0 0 0 1px var(--accent);
       position: absolute;

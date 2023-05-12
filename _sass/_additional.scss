@@ -415,35 +415,37 @@
   }
 }
 .test-subcat {
-  display: grid;
-  grid-template: auto auto / 2fr 1fr;
-  padding: 25px;
-  margin: 20px auto;
-  background: var(--accent-50);
-  border-radius: 10px;
-  @media (max-width: 550px) {
-    grid-template: repeat(3, auto) / 1fr;
-    text-align: center;
-    gap: 20px;
-  }
-  h3 {
-    margin: 0;
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-  p {
-    margin: 0;
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
   .component-test-categories {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    margin: auto;
+    margin: auto auto 20px auto;
     min-width: 215px;
-    @media (max-width: 550px) {
-      grid-column: 1/2;
-      grid-row: 3/4;
+    .dropdown-test-categories {
+    gap: 5px;
+      @media (max-width:500px) {
+        grid-auto-flow: row;
+      }
+      .option {
+        @media (max-width: 500px) {
+          width: 100%;
+        }
+        &:first-of-type {
+          border-radius: 5px 0 0 5px;
+          @media (max-width: 500px) {
+            border-radius: 5px 5px 0 0;
+          }
+        }
+        &:last-of-type {
+          border-radius: 0 5px 5px 0;
+          @media (max-width: 500px) {
+            border-radius: 0 0 5px 5px;
+          }
+        }
+        &.selected {
+          background-color: var(--accent);
+          span {
+            color: var(--body);
+          }
+        }
+      }
     }
   }
 }
@@ -471,8 +473,8 @@
   }
 }
 .AppDisplayCard {
-  &.Hardware.Wallet{
-    .app_logo{
+  &.Hardware.Wallet {
+    .app_logo {
       background: var(--permanent-white);
     }
   }
