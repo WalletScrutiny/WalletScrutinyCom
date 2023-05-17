@@ -1,5 +1,5 @@
 .dropdown-options {
-  &:not(.opened) {
+  &:not(.linear-switch) {
     .option {
       &:not(.selected) {
         display: none;
@@ -7,12 +7,12 @@
       &.selected {
         display: grid;
         margin-right: auto;
-        width: 100%;
+        width: calc(100% - 15px);
         &::after {
           content: "";
           display: block;
           grid-column: 3/4;
-          grid-row: 1/3;
+          grid-row: 1/2;
           height: 8px;
           width: 8px;
           box-shadow: 2px 2px 0;
@@ -32,7 +32,6 @@
     align-content: center;
     justify-items: center;
     text-align: center;
-    gap: 20px;
     &:not(.opened),
     &.opened {
       .option {
@@ -167,6 +166,17 @@
   }
   &.component-view {
     grid-template: 1fr / 1fr;
+    .dropdown-options {
+      gap: 15px;
+      .option {
+        &:first-of-type {
+          padding-right: 0;
+        }
+        &:last-of-type {
+          padding-left: 0;
+        }
+      }
+    }
   }
   label {
     font-weight: 800;
@@ -247,6 +257,7 @@
   flex-wrap: wrap;
   margin-top: 90px;
   .filter {
+    padding-top: 15px;
     gap: 20px;
   }
 }

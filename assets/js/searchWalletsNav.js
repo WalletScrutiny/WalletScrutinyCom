@@ -81,6 +81,10 @@ function searchTrigger() {
 }
 window.temporarySearchValue = ""
 function searchCatalogueNav(input) {
+  if (window.isHomepage) {
+    deferSearch(input)
+    return
+  }
   document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
@@ -134,6 +138,13 @@ function searchCatalogueNav(input) {
     result.append(l)
   }
   searchScrollToTop()
+}
+
+function deferSearch(input) {
+  document.querySelector("#homepageSearch").scrollIntoView({ block: "start" })
+  document.querySelector(".search-filtered-wallets").value = input
+  filterWalletsByName()
+  document.querySelector(".search-filtered-wallets").focus()
 }
 
 function getIcon(name) {

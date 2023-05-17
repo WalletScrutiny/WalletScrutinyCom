@@ -424,9 +424,7 @@
         grid-auto-flow: row;
       }
       .option {
-        @media (max-width: 500px) {
-          width: 100%;
-        }
+        width: 100%;
         &:first-of-type {
           border-radius: 5px 0 0 5px;
           @media (max-width: 500px) {
