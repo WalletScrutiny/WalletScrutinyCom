@@ -6,12 +6,12 @@ authors:
 users: 10000
 appId: org.p2p.wallet
 appCountry: 
-released: Oct 23, 2021
-updated: 2023-03-30
-version: 2.5.1
-stars: 3.8
+released: 2021-10-23
+updated: 2023-05-03
+version: 2.6.1
+stars: 4
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://key.app/
 repository: 

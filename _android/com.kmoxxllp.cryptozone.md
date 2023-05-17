@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.kmoxxllp.cryptozone
 appCountry: 
-released: Feb 16, 2022
+released: 2022-02-16
 updated: 2022-02-25
 version: 1.0.2
 stars: 

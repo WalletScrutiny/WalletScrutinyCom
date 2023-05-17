@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.paypack.company
 appCountry: 
-released: Jan 4, 2021
+released: 2021-01-04
 updated: 2021-02-04
 version: '1.5'
 stars: 

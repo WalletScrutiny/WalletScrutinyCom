@@ -12,7 +12,7 @@ updated: 2023-03-06
 version: 5.10.0
 stars: 4.4
 ratings: 1234
-reviews: 63
+reviews: 64
 size: 
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace
@@ -25,7 +25,7 @@ date: 2023-04-22
 signer: 
 reviewArchive:
 - date: 2019-12-16
-  version: "v2.16.3"
+  version: v2.16.3
   appHash: 
   gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
   verdict: ftbfs

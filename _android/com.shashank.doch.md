@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.shashank.doch
 appCountry: 
-released: Aug 7, 2019
+released: 2019-08-07
 updated: 2020-08-11
 version: 1.6.7
 stars: 

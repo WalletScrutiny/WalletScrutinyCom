@@ -7,12 +7,12 @@ authors:
 appId: com.idax.exchange
 appCountry: us
 idd: '1619039755'
-released: '2022-04-27T07:00:00Z'
-updated: 2022-09-19
-version: 1.1.1
+released: 2022-04-27
+updated: 2023-04-27
+version: 1.1.2
 stars: 1
 reviews: 2
-size: '131643392'
+size: '144814080'
 website: https://www.idax.exchange
 repository: 
 issue: 

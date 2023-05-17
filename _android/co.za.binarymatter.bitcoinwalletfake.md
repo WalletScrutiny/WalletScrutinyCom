@@ -4,7 +4,7 @@ title: Fake Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: co.za.binarymatter.bitcoinwalletfake
 appCountry: 
 released: 2021-03-21

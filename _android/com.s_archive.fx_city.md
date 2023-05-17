@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.s_archive.fx_city
 appCountry: 
-released: Apr 17, 2020
+released: 2020-04-17
 updated: 2020-05-21
 version: 1.1.0
 stars: 

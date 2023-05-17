@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.asiainnovations.ace.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-16
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

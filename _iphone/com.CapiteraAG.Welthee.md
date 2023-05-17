@@ -7,7 +7,7 @@ authors:
 appId: com.CapiteraAG.Welthee
 appCountry: sg
 idd: '1562108720'
-released: '2021-07-19T07:00:00Z'
+released: 2021-07-19
 updated: 2023-04-20
 version: 4.3.1
 stars: 0

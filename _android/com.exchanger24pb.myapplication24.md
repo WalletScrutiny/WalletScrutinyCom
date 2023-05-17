@@ -1,12 +1,13 @@
 ---
-wsId: 
+wsId: paybankExchange
 title: '24Paybank: Купить и продать Би'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.exchanger24pb.myapplication24
 appCountry: 
-released: Feb 7, 2020
+released: 2020-02-07
 updated: 2020-02-27
 version: '1.2'
 stars: 
@@ -19,14 +20,25 @@ issue:
 icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-06-23
+verdict: nowallet
+date: 2023-04-22
 signer: 
 reviewArchive: 
-twitter: 
+twitter: 24Paybank
 social: 
 redirect_from: 
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Buy or sell Bitcoin for rubles, as well as other currencies, using bank cards or popular electronic payment systems
+
+## Analysis 
+
+- The app merely shows the website in a mobile format 
+- It is similar to Shapeshift.io: 
+  - the user inputs the amount to be exchange, the processor, and the receiving address.
+
+This app **does not have a wallet**. 

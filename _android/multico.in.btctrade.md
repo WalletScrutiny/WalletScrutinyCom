@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: multico.in.btctrade
 appCountry: 
-released: Jan 30, 2017
+released: 2017-01-30
 updated: 2018-09-05
 version: '1.5'
 stars: 

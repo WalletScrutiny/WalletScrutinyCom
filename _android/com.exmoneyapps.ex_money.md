@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.exmoneyapps.ex_money
 appCountry: 
-released: Oct 2, 2020
+released: 2020-10-02
 updated: 2020-10-02
 version: '1.0'
 stars: 

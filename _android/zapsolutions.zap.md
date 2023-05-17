@@ -21,9 +21,14 @@ icon: zapsolutions.zap.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-03-24
+date: 2023-04-27
 signer: 
 reviewArchive:
+- date: 2022-03-24
+  version: 0.5.6-beta
+  appHash: cdb21de8cc9fd0268a13ddacbc4bc5e453396808e0c764cacaccc8087af29d39
+  gitRevision: acffc0ec81320d08c2bd4686991f0d2fa1a26a45
+  verdict: reproducible
 - date: 2022-02-17
   version: 0.5.5-beta
   appHash: af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982
@@ -87,11 +92,11 @@ Here is the output using our {% include testScript.html %} on the binary from Go
 ===== Begin Results =====
 appId:          zapsolutions.zap
 signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.6-beta
-apkVersionCode: 3036
+apkVersionName: 0.5.10-beta
+apkVersionCode: 3040
 verdict:        reproducible
-appHash:        cdb21de8cc9fd0268a13ddacbc4bc5e453396808e0c764cacaccc8087af29d39
-commit:         acffc0ec81320d08c2bd4686991f0d2fa1a26a45
+appHash:        22b3821bb6f97aa9522be2600b50ac834f939ecf4a194b7d40043e13f17f381b
+commit:         e644701264e11c134e3ea177026a0495d681a227
 
 Diff:
 

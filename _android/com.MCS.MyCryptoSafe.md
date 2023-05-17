@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.MCS.MyCryptoSafe
 appCountry: 
-released: Oct 8, 2020
+released: 2020-10-08
 updated: 2020-10-08
 version: '1.0'
 stars: 

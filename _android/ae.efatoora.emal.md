@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: ae.efatoora.emal
 appCountry: 
-released: Jul 16, 2018
+released: 2018-07-16
 updated: 2020-01-02
 version: '3.2'
 stars: 

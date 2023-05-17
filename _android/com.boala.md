@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.boala
 appCountry: 
-released: Jul 6, 2021
+released: 2021-07-06
 updated: 2021-07-06
 version: '1.0'
 stars: 

@@ -7,12 +7,12 @@ authors:
 appId: com.btcex.appstore
 appCountry: am
 idd: '1580680668'
-released: '2021-10-22T07:00:00Z'
-updated: 2023-04-15
-version: 1.3.8
+released: 2021-10-22
+updated: 2023-05-07
+version: 1.4.0
 stars: 0
 reviews: 0
-size: '97953792'
+size: '99367936'
 website: https://www.btcex.com/
 repository: 
 issue: 

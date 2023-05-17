@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: kg.yaros.crypto
 appCountry: 
-released: Dec 3, 2021
+released: 2021-12-03
 updated: 2021-12-08
 version: '1.016'
 stars: 

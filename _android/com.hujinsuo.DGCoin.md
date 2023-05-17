@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.hujinsuo.DGCoin
 appCountry: 
-released: May 13, 2022
+released: 2022-05-13
 updated: 2022-05-13
 version: 1.4.1
 stars: 

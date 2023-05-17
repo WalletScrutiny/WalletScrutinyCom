@@ -7,7 +7,7 @@ authors:
 appId: tech.pertiller.cryptocoincheck
 appCountry: us
 idd: '1367107864'
-released: '2018-04-06T01:59:17Z'
+released: 2018-04-06
 updated: 2022-10-25
 version: 1.7.0
 stars: 5

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.pulsarbank
 appCountry: 
-released: Apr 28, 2021
+released: 2021-04-28
 updated: 2021-04-28
 version: 1.0.2
 stars: 

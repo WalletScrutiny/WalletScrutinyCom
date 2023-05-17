@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ligex
 appCountry: 
-released: Oct 9, 2021
+released: 2021-10-09
 updated: 2022-03-05
 version: '1.3'
 stars: 

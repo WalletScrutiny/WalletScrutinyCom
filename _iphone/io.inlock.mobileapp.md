@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.inlock.mobileapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: inlock_token

@@ -7,7 +7,7 @@ authors:
 appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
-released: '2022-04-07T07:00:00Z'
+released: 2022-04-07
 updated: 2022-12-28
 version: 2.8.16
 stars: 3.9

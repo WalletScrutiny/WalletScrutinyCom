@@ -7,7 +7,7 @@ authors:
 appId: com.sessipapp.Sessip
 appCountry: us
 idd: '1582234240'
-released: '2021-09-08T07:00:00Z'
+released: 2021-09-08
 updated: 2022-09-08
 version: '2.2'
 stars: 3.5

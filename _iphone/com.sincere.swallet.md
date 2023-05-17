@@ -7,12 +7,12 @@ authors:
 appId: com.sincere.swallet
 appCountry: ua
 idd: '1594397830'
-released: '2022-04-06T07:00:00Z'
-updated: 2023-04-18
-version: 2.5.0
+released: 2022-04-06
+updated: 2023-04-24
+version: 2.6.0
 stars: 4.8
-reviews: 151
-size: '49352704'
+reviews: 157
+size: '49532928'
 website: https://s-wallet.ai
 repository: 
 issue: 

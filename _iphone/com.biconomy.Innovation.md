@@ -7,7 +7,7 @@ authors:
 appId: com.biconomy.Innovation
 appCountry: us
 idd: '1486151349'
-released: '2019-11-06T08:00:00Z'
+released: 2019-11-06
 updated: 2023-03-31
 version: 2.1.11
 stars: 4.1

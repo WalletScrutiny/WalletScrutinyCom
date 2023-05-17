@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.trex.exchange
 appCountry: 
-released: Dec 19, 2019
+released: 2019-12-19
 updated: 2022-06-20
 version: 2.2.9
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: ir.egiby.bank
 appCountry: 
-released: Nov 16, 2021
+released: 2021-11-16
 updated: 2021-11-22
 version: 1.2.0
 stars: 

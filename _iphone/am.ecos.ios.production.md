@@ -10,7 +10,7 @@ idd: 1528964374
 released: 2020-11-25
 updated: 2023-03-08
 version: 1.31.4
-stars: 3.7
+stars: 3.6
 reviews: 146
 size: '83386368'
 website: https://ecos.am/

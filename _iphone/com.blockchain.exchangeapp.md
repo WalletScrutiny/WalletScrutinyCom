@@ -7,12 +7,12 @@ authors:
 appId: com.blockchain.exchangeapp
 appCountry: us
 idd: '1557515848'
-released: '2021-09-13T07:00:00Z'
-updated: 2023-01-24
-version: 202301.1.1
-stars: 4.1
-reviews: 113
-size: '123141120'
+released: 2021-09-13
+updated: 2023-05-08
+version: 202304.1.1
+stars: 4
+reviews: 117
+size: '123292672'
 website: https://exchange.blockchain.com/
 repository: 
 issue: 

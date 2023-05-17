@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cdmdefi.app
 appCountry: 
-released: Dec 31, 2021
+released: 2021-12-31
 updated: 2021-12-31
 version: '1.3'
 stars: 

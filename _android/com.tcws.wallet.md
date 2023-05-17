@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tcws.wallet
 appCountry: 
-released: Oct 15, 2019
+released: 2019-10-15
 updated: 2019-10-15
 version: '2.1'
 stars: 

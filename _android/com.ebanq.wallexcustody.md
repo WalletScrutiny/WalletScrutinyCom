@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ebanq.wallexcustody
 appCountry: 
-released: Apr 14, 2021
+released: 2021-04-14
 updated: 2021-06-17
 version: 1.1.0
 stars: 

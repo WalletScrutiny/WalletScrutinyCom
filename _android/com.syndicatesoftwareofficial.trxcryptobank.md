@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.syndicatesoftwareofficial.trxcryptobank
 appCountry: 
-released: Aug 6, 2019
+released: 2019-08-06
 updated: 2019-08-07
 version: '1.0'
 stars: 3.3

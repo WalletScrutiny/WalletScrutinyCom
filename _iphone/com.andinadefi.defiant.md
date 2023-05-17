@@ -8,11 +8,11 @@ appId: com.andinadefi.defiant
 appCountry: ar
 idd: 1559622756
 released: 2021-04-07
-updated: 2023-02-26
-version: 4.2.8+273
+updated: 2023-05-09
+version: 5.0.5+289
 stars: 4.9
 reviews: 19
-size: '82405376'
+size: '87383040'
 website: https://defiantapp.tech/
 repository: 
 issue: 

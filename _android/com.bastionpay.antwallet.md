@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bastionpay.antwallet
 appCountry: 
-released: Sep 23, 2019
+released: 2019-09-23
 updated: 2019-10-09
 version: v1.0.2
 stars: 

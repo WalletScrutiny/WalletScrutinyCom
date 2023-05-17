@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.application.btctr
 appCountry: 
-released: Mar 18, 2022
+released: 2022-03-18
 updated: 2022-04-30
 version: 1.0.3
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.application.btctr.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

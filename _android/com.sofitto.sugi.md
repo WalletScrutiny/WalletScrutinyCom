@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.sofitto.sugi
 appCountry: 
-released: Mar 20, 2019
+released: 2019-03-20
 updated: 2020-10-12
 version: 1.8.2
 stars: 
