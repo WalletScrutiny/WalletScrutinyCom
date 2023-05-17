@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.wisekey.wisewallet
 appCountry: 
-released: Apr 23, 2018
+released: 2018-04-23
 updated: 2020-10-28
 version: 1.1.1
 stars: 

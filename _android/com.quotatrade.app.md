@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.quotatrade.app
 appCountry: 
-released: Jan 13, 2020
+released: 2020-01-13
 updated: 2020-12-23
 version: 1.1.43
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quotatrade.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 

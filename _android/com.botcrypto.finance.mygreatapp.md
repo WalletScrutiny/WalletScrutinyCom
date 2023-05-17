@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.botcrypto.finance.mygreatapp
 appCountry: 
-released: Mar 22, 2022
+released: 2022-03-22
 updated: 2022-03-23
 version: '1.0'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cexchange.app
 appCountry: 
-released: Feb 21, 2021
+released: 2021-02-21
 updated: 2023-02-16
 version: 1.0.10
 stars: 

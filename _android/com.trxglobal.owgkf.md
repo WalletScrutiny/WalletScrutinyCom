@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.trxglobal.owgkf
 appCountry: 
-released: Mar 27, 2022
+released: 2022-03-27
 updated: 2022-09-05
 version: '1.3'
 stars: 

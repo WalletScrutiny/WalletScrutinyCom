@@ -7,11 +7,11 @@ authors:
 appId: com.movocash.movo
 appCountry: us
 idd: '1538828856'
-released: '2021-04-01T07:00:00Z'
+released: 2021-04-01
 updated: 2022-12-09
 version: 4.3.2
 stars: 4.4
-reviews: 409
+reviews: 410
 size: '95207424'
 website: https://movo.cash
 repository: 

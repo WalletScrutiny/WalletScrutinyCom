@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: crypto.base.goodesq
 appCountry: 
-released: Jun 6, 2019
+released: 2019-06-06
 updated: 2019-06-06
 version: 1.0.0
 stars: 

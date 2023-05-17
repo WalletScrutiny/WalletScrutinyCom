@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.viktraders.www
 appCountry: 
-released: Jun 24, 2019
+released: 2019-06-24
 updated: 2019-06-25
 version: 1.0.0
 stars: 

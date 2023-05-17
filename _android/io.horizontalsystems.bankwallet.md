@@ -8,22 +8,27 @@ users: 10000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2023-04-03
-version: 0.31.0
+updated: 2023-04-29
+version: 0.32.1
 stars: 3.9
 ratings: 556
-reviews: 67
+reviews: 69
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: 
+issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/6071
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2022-11-01
+verdict: nonverifiable
+date: 2023-04-27
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2022-11-01
+  version: 0.27.0
+  appHash: d8fea2bae72514eddb4c32ccb21b3ba3c699ce95ee4d7fbb20b8da0b8b473c41
+  gitRevision: 645d587fb3c3825da0ebfb9be13ff9fd31837a09
+  verdict: reproducible
 - date: 2022-08-07
   version: 0.24.2
   appHash: 50becb19846c2cd2f686a0ad40f2889f99793558f58941ab9a492f8fb817a899
@@ -207,23 +212,24 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.27.0
-apkVersionCode: 68
-verdict:        reproducible
-appHash:        d8fea2bae72514eddb4c32ccb21b3ba3c699ce95ee4d7fbb20b8da0b8b473c41
-commit:         645d587fb3c3825da0ebfb9be13ff9fd31837a09
+apkVersionName: 0.32.0
+apkVersionCode: 76
+verdict:        nonverifiable
+appHash:        722b430fa6e62ad15c625a24e8beae5002e000f6326c7246229091c4a6a768b4
+commit:         4592db10ed053d8e973a4d871bedf8b1c7cd3094
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_68/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_76/assets/dexopt/baseline.profm and /tmp/fromBuild_io.horizontalsystems.bankwallet_76/assets/dexopt/baseline.profm differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_76/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_76/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_76/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 ```
 
-which is what we want to see to give this wallet the verdict: **reproducible**
+The diff for this version shows some differences in `baseline.profm` which is a binary file and we cannot verify reproducibility of this version, So we give it the verdict **nonverifiable**.
 
 ### Thank you to Horizontal Systems for repeat donations
 

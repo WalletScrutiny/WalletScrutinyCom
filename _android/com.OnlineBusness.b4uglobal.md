@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.OnlineBusness.b4uglobal
 appCountry: 
-released: Jan 4, 2021
+released: 2021-01-04
 updated: 2021-01-22
 version: 1.0.3
 stars: 

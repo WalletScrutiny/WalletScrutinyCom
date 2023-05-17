@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.Bit.Eu
 appCountry: 
-released: Mar 14, 2019
+released: 2019-03-14
 updated: 2019-03-14
 version: '1.0'
 stars: 

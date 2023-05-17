@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.keyperwallet
 appCountry: 
-released: Oct 22, 2019
+released: 2019-10-22
 updated: 2020-09-02
 version: '1.7'
 stars: 

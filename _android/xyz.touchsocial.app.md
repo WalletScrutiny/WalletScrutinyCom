@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: xyz.touchsocial.app
 appCountry: 
-released: Feb 27, 2020
+released: 2020-02-27
 updated: 2020-08-11
 version: 1.2.1
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.olizx.app
 appCountry: 
-released: Oct 19, 2021
+released: 2021-10-19
 updated: 2021-10-28
 version: '1.0'
 stars: 

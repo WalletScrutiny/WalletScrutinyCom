@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.dobuyapplication
 appCountry: 
-released: Jun 21, 2021
+released: 2021-06-21
 updated: 2021-11-30
 version: 1.0.1
 stars: 

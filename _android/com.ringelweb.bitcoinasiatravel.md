@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.ringelweb.bitcoinasiatravel
 appCountry: 
-released: Feb 11, 2021
+released: 2021-02-11
 updated: 2021-11-23
 version: 2.2.4
 stars: 4.8

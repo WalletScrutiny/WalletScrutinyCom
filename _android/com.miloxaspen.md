@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.miloxaspen
 appCountry: 
-released: Feb 8, 2022
+released: 2022-02-08
 updated: 2022-03-16
 version: '1.0'
 stars: 

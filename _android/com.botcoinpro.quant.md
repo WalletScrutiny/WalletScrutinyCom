@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.botcoinpro.quant
 appCountry: 
-released: Jun 5, 2021
+released: 2021-06-05
 updated: 2021-06-29
 version: 1.0.3
 stars: 

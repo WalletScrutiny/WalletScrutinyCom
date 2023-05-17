@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.token.airtoken
 appCountry: 
-released: Jun 18, 2019
+released: 2019-06-18
 updated: 2019-07-11
 version: 1.0.18
 stars: 

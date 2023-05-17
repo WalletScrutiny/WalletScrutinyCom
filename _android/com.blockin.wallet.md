@@ -12,7 +12,7 @@ updated: 2023-02-27
 version: 2.5.7
 stars: 3.3
 ratings: 225
-reviews: 20
+reviews: 21
 size: 
 website: https://poolin.fi/
 repository: 

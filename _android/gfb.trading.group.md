@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: gfb.trading.group
 appCountry: 
-released: Feb 14, 2020
+released: 2020-02-14
 updated: 2020-02-18
 version: '1.1'
 stars: 

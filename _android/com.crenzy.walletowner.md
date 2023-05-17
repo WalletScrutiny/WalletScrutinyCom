@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.crenzy.walletowner
 appCountry: 
-released: Apr 25, 2020
+released: 2020-04-25
 updated: 2020-05-16
 version: 1.0.1
 stars: 

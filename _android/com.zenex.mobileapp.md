@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.zenex.mobileapp
 appCountry: 
-released: May 24, 2022
+released: 2022-05-24
 updated: 2022-05-28
 version: '1.0'
 stars: 

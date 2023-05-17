@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.creadigol.amaano
 appCountry: 
-released: Feb 14, 2022
+released: 2022-02-14
 updated: 2022-11-15
 version: 1.1.4
 stars: 

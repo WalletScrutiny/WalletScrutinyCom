@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.trincocoins.app
 appCountry: 
-released: Feb 21, 2022
+released: 2022-02-21
 updated: 2022-02-21
 version: '1.2'
 stars: 

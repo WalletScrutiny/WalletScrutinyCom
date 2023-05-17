@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.namicorp.exchange
 appCountry: 
-released: Nov 6, 2019
+released: 2019-11-06
 updated: 2023-04-12
 version: 2.1.1
 stars: 3.4

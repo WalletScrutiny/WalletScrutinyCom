@@ -7,7 +7,7 @@ authors:
 appId: io.sperax.wallet
 appCountry: us
 idd: '1553015512'
-released: '2021-02-15T08:00:00Z'
+released: 2021-02-15
 updated: 2022-03-30
 version: 1.6.1
 stars: 3

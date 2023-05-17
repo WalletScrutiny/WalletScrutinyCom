@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.galaxy.exchange
 appCountry: 
-released: Dec 15, 2021
+released: 2021-12-15
 updated: 2021-12-16
 version: 1.1.4
 stars: 

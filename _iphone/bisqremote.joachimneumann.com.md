@@ -7,7 +7,7 @@ authors:
 appId: bisqremote.joachimneumann.com
 appCountry: us
 idd: '1424420411'
-released: '2018-09-09T23:04:55Z'
+released: 2018-09-09
 updated: 2022-05-13
 version: '1.5'
 stars: 4.4
@@ -18,9 +18,9 @@ repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: bisqremote.joachimneumann.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-07
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: devinbileck

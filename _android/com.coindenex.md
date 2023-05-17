@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.coindenex
 appCountry: 
-released: May 2, 2021
+released: 2021-05-02
 updated: 2021-05-02
 version: '2.0'
 stars: 

@@ -12,7 +12,7 @@ updated: 2023-04-18
 version: VARY
 stars: 4.5
 ratings: 2457
-reviews: 197
+reviews: 198
 size: 
 website: https://www.forex4you.com/en/
 repository: 

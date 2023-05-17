@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.Go9tro.newwallet
 appCountry: 
-released: Oct 24, 2020
+released: 2020-10-24
 updated: 2020-10-24
 version: '0.6'
 stars: 

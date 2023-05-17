@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: in.spiegel.ixtokens
 appCountry: 
-released: Jul 21, 2021
+released: 2021-07-21
 updated: 2021-11-29
 version: 2.0.1
 stars: 

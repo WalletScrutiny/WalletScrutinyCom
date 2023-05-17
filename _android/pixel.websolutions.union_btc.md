@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: pixel.websolutions.union_btc
 appCountry: 
-released: Sep 29, 2021
+released: 2021-09-29
 updated: 2022-09-07
 version: 1.0.0
 stars: 

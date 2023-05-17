@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitni.androidapp
 appCountry: 
-released: Sep 24, 2021
+released: 2021-09-24
 updated: 2021-11-08
 version: '1.05'
 stars: 4.9

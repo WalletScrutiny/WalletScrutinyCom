@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: net.cryptorobotics.app
 appCountry: 
-released: Oct 7, 2019
+released: 2019-10-07
 updated: 2019-10-07
 version: '1.0'
 stars: 

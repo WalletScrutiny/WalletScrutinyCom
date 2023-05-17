@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tmweasy.ipay
 appCountry: 
-released: Aug 12, 2020
+released: 2020-08-12
 updated: 2022-01-23
 version: '1.3'
 stars: 

@@ -7,7 +7,7 @@ authors:
 appId: com.beefinance.beepay
 appCountry: sg
 idd: '1592439709'
-released: '2021-11-10T08:00:00Z'
+released: 2021-11-10
 updated: 2023-04-13
 version: 2.1.7
 stars: 0

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.gbih.yantwallet
 appCountry: 
-released: Feb 26, 2019
+released: 2019-02-26
 updated: 2019-09-24
 version: 1.1.28
 stars: 

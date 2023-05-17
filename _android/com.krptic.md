@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.krptic
 appCountry: 
-released: Aug 13, 2021
+released: 2021-08-13
 updated: 2022-09-04
 version: 4.0.4
 stars: 

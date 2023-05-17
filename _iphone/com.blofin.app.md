@@ -7,12 +7,12 @@ authors:
 appId: com.blofin.app
 appCountry: tt
 idd: '1616804346'
-released: '2022-04-15T07:00:00Z'
-updated: 2023-04-11
-version: 2.1.2
+released: 2022-04-15
+updated: 2023-05-03
+version: 2.2.0
 stars: 0
 reviews: 0
-size: '100416512'
+size: '110760960'
 website: https://blofin.com
 repository: 
 issue: 

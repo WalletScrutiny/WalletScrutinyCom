@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.digitalbitbox.tfa
 appCountry: 
-released: Jan 24, 2016
+released: 2016-01-24
 updated: 2019-10-17
 version: 3.0.5
 stars: 

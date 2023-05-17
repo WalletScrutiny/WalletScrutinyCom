@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.companyname.swaptobe
 appCountry: 
-released: Oct 14, 2021
+released: 2021-10-14
 updated: 2022-10-24
 version: '5.6'
 stars: 4.2

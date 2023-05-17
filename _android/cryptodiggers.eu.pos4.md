@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: cryptodiggers.eu.pos4
 appCountry: 
-released: Apr 26, 2016
+released: 2016-04-26
 updated: 2020-02-19
 version: 1.1.16
 stars: 

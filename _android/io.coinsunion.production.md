@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: io.coinsunion.production
 appCountry: 
-released: Oct 20, 2021
+released: 2021-10-20
 updated: 2022-01-18
 version: 1.4.4
 stars: 

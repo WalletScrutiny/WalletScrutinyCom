@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.vdcloud.cforcoins
 appCountry: 
-released: May 13, 2018
+released: 2018-05-13
 updated: 2020-05-13
 version: 2.7.0
 stars: 

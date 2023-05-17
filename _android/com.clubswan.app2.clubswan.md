@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.clubswan.app2.clubswan
 appCountry: 
-released: Oct 12, 2021
+released: 2021-10-12
 updated: 2021-11-10
 version: 2.3.0
 stars: 

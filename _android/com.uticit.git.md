@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.uticit.git
 appCountry: 
-released: Oct 22, 2021
+released: 2021-10-22
 updated: 2021-12-01
 version: 1.0.9
 stars: 

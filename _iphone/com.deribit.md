@@ -7,7 +7,7 @@ authors:
 appId: com.deribit
 appCountry: gb
 idd: '1293674041'
-released: '2017-11-17T06:33:50Z'
+released: 2017-11-17
 updated: 2023-03-26
 version: 3.1.0
 stars: 5

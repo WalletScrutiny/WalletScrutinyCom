@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitro2
 appCountry: 
-released: Dec 9, 2020
+released: 2020-12-09
 updated: 2021-12-30
 version: 1.0.80
 stars: 

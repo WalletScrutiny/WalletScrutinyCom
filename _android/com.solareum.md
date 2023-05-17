@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.solareum
 appCountry: 
-released: Aug 6, 2021
+released: 2021-08-06
 updated: 2022-10-23
 version: 2.23.4
 stars: 4.1

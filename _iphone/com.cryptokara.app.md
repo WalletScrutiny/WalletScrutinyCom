@@ -7,7 +7,7 @@ authors:
 appId: com.cryptokara.app
 appCountry: us
 idd: '1581610129'
-released: '2021-10-19T07:00:00Z'
+released: 2021-10-19
 updated: 2022-06-25
 version: 1.4.0
 stars: 4.1

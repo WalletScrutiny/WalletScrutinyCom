@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rainball.app
 appCountry: 
-released: Jun 15, 2021
+released: 2021-06-15
 updated: 2021-06-16
 version: 1.0.0
 stars: 

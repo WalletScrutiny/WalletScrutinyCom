@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.corbito.app
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2022-02-15
 version: 1.0.0
 stars: 

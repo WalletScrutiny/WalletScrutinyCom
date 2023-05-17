@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitcoin.wallet.btc
 appCountry: 
 released: 2019-05-01
-updated: 2023-04-04
-version: 3.0.4
+updated: 2023-05-04
+version: 3.0.5
 stars: 4.3
 ratings: 6495
-reviews: 305
+reviews: 304
 size: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

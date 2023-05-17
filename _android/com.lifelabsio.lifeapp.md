@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.lifelabsio.lifeapp
 appCountry: 
-released: Oct 5, 2018
+released: 2018-10-05
 updated: 2020-03-20
 version: 0.6.1
 stars: 4.3

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xeliuqa.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-05-07
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 

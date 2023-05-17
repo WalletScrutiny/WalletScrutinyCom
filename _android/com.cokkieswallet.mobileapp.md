@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cokkieswallet.mobileapp
 appCountry: 
-released: Dec 21, 2021
+released: 2021-12-21
 updated: 2022-02-26
 version: '1.5'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.application.morebit
 appCountry: 
-released: May 6, 2019
+released: 2019-05-06
 updated: 2019-10-23
 version: '1.2'
 stars: 

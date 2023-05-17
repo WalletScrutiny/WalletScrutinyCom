@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.latiniocoin.wallet
 appCountry: 
-released: May 11, 2021
+released: 2021-05-11
 updated: 2021-05-12
 version: v1.0.0
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.latiniocoin.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 

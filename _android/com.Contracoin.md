@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.Contracoin
 appCountry: 
-released: Nov 19, 2020
+released: 2020-11-19
 updated: 2020-11-19
 version: '1.00'
 stars: 

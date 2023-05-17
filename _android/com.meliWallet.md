@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.meliWallet
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2022-04-11
 version: '2.1'
 stars: 4.3

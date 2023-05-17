@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitinvest.tradeearninterestoncrypto
 appCountry: 
-released: Oct 25, 2021
+released: 2021-10-25
 updated: 2021-10-25
 version: '9.03'
 stars: 

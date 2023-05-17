@@ -11,7 +11,7 @@ released: 2020-04-08
 updated: 2023-04-21
 version: 5.2.8
 stars: 3.8
-reviews: 71
+reviews: 72
 size: '219120640'
 website: https://www.bibox.pro
 repository: 

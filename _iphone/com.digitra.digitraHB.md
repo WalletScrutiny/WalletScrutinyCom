@@ -7,12 +7,12 @@ authors:
 appId: com.digitra.digitraHB
 appCountry: us
 idd: '1577787451'
-released: '2022-03-12T08:00:00Z'
-updated: 2023-04-10
-version: 1.0.44
+released: 2022-03-12
+updated: 2023-05-09
+version: 1.0.50
 stars: 0
 reviews: 0
-size: '96116736'
+size: '92386304'
 website: https://www.digitra.com
 repository: 
 issue: 

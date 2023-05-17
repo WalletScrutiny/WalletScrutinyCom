@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.onpie.mobile.wallet
 appCountry: 
-released: Oct 13, 2021
+released: 2021-10-13
 updated: 2022-11-04
 version: 1.1.11
 stars: 

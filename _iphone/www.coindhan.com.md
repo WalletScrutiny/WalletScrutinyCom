@@ -7,7 +7,7 @@ authors:
 appId: www.coindhan.com
 appCountry: us
 idd: '1601649228'
-released: '2021-12-27T08:00:00Z'
+released: 2021-12-27
 updated: 2023-03-20
 version: '1.29'
 stars: 0

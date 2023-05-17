@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.coinsdebits.wallet
 appCountry: 
-released: Jun 26, 2017
+released: 2017-06-26
 updated: 2017-11-21
 version: 0.0.6
 stars: 

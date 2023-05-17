@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.oryxcoin.wallet
 appCountry: 
-released: Mar 29, 2018
+released: 2018-03-29
 updated: 2018-03-29
 version: v5.0.0
 stars: 

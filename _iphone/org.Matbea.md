@@ -7,7 +7,7 @@ authors:
 appId: org.Matbea
 appCountry: ru
 idd: '1518987729'
-released: '2020-06-30T07:00:00Z'
+released: 2020-06-30
 updated: 2023-04-18
 version: 1.4.5
 stars: 3.8

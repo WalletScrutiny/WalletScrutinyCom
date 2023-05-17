@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.startxchange.apps.startxchange
 appCountry: 
-released: Oct 10, 2021
+released: 2021-10-10
 updated: 2021-10-11
 version: '1.0'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.Weownomy
 appCountry: 
-released: Nov 8, 2021
+released: 2021-11-08
 updated: 2022-08-01
 version: 1.0.4
 stars: 4.9

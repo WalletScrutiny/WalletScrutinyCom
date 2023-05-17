@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.wenlite.dcx
 appCountry: 
-released: Mar 11, 2022
+released: 2022-03-11
 updated: 2023-02-22
 version: 2.0.4
 stars: 

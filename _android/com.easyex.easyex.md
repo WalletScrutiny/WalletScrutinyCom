@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.easyex.easyex
 appCountry: 
-released: May 17, 2022
+released: 2022-05-17
 updated: 2022-10-12
 version: '35.0'
 stars: 

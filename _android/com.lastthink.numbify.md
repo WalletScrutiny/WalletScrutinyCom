@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.lastthink.numbify
 appCountry: 
-released: Jan 24, 2018
+released: 2018-01-24
 updated: 2018-01-30
 version: '1.12'
 stars: 

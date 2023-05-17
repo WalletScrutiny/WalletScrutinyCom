@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.aisx
 appCountry: 
-released: Feb 11, 2020
+released: 2020-02-11
 updated: 2020-07-29
 version: 1.0.6
 stars: 

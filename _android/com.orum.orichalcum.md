@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.orum.orichalcum
 appCountry: 
-released: Sep 19, 2019
+released: 2019-09-19
 updated: 2019-09-20
 version: '1.0'
 stars: 

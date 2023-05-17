@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: kr.co.binaries.bimaxbeta
 appCountry: 
-released: Oct 1, 2018
+released: 2018-10-01
 updated: 2018-10-02
 version: 1.0.6
 stars: 

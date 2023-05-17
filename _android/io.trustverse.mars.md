@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.trustverse.mars
 appCountry: 
-released: May 27, 2020
+released: 2020-05-27
 updated: 2022-11-22
 version: 2.4.0G
 stars: 

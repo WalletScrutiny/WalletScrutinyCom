@@ -6,12 +6,12 @@ authors:
 users: 5000
 appId: com.bitgo.mobile
 appCountry: 
-released: Apr 15, 2022
+released: 2022-04-15
 updated: 2023-01-19
 version: 1.7.0
-stars: 
+stars: 3.2
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://bitgo.com
 repository: 

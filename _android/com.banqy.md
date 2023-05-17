@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.banqy
 appCountry: 
-released: Mar 20, 2020
+released: 2020-03-20
 updated: 2020-03-20
 version: 1.0.1209
 stars: 

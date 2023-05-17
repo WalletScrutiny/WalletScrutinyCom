@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.sky7_bot_mobile
 appCountry: 
-released: Dec 7, 2021
+released: 2021-12-07
 updated: 2021-12-29
 version: 1.0.5
 stars: 

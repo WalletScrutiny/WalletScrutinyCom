@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.rebix.app.android
 appCountry: 
-released: Jan 25, 2022
+released: 2022-01-25
 updated: 2022-10-16
 version: 0.6.7
 stars: 

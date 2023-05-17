@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.skb_app
 appCountry: 
-released: Jul 21, 2018
+released: 2018-07-21
 updated: 2020-10-21
 version: '3.25'
 stars: 

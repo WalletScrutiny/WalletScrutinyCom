@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.geswallet.start
 appCountry: 
-released: Apr 14, 2020
+released: 2020-04-14
 updated: 2020-04-17
 version: 0.0.2
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.doloresex_android
 appCountry: 
-released: May 6, 2019
+released: 2019-05-06
 updated: 2021-02-19
 version: 2.5.5
 stars: 

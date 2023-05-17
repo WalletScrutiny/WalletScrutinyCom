@@ -3,7 +3,7 @@ wsId:
 title: Oduwa Trust Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.oduwamultiwallet
 appCountry: 
 released: 2021-07-24
@@ -19,7 +19,7 @@ issue:
 icon: com.oduwamultiwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-02
 signer: 
 reviewArchive: 

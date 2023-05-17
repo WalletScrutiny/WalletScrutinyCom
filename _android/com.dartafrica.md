@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.dartafrica
 appCountry: 
-released: Nov 5, 2021
+released: 2021-11-05
 updated: 2022-04-01
 version: 1.1.1
 stars: 

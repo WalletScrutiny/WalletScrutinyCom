@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.snark.wallet
 appCountry: 
-released: Sep 25, 2019
+released: 2019-09-25
 updated: 2020-02-05
 version: 0.1.0
 stars: 

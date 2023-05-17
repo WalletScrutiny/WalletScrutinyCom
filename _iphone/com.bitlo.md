@@ -7,8 +7,8 @@ authors:
 appId: com.bitlo
 appCountry: tr
 idd: '1544492069'
-released: '2020-12-28T08:00:00Z'
-updated: 2023-02-16
+released: 2020-12-28
+updated: 2023-04-29
 version: 2.0.55
 stars: 3.6
 reviews: 315

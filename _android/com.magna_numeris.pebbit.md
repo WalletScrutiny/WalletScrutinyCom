@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.magna_numeris.pebbit
 appCountry: 
-released: Nov 12, 2021
+released: 2021-11-12
 updated: 2022-02-23
 version: 0.9.39
 stars: 

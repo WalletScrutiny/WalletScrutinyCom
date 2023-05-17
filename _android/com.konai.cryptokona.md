@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.konai.cryptokona
 appCountry: 
-released: Oct 25, 2019
+released: 2019-10-25
 updated: 2019-10-25
 version: 0.2.8
 stars: 

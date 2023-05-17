@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.KeepMySeed.nfc
 appCountry: 
-released: Oct 26, 2019
+released: 2019-10-26
 updated: 2019-12-24
 version: '1.01'
 stars: 

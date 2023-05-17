@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.beaxy.cryptoexchange.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-12-26
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: BeaxyExchange

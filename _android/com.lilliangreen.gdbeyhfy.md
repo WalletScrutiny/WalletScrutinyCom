@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.lilliangreen.gdbeyhfy
 appCountry: 
-released: Dec 2, 2021
+released: 2021-12-02
 updated: 2021-12-02
 version: 1.0.0
 stars: 

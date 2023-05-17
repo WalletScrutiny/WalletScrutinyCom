@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.volt.messenger
 appCountry: 
-released: Feb 18, 2019
+released: 2019-02-18
 updated: 2020-06-18
 version: 3.6.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.appsquest.tionchuantung.iqc
 appCountry: 
-released: Jun 1, 2018
+released: 2018-06-01
 updated: 2019-01-04
 version: '1.1'
 stars: 

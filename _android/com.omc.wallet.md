@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.omc.wallet
 appCountry: 
-released: Mar 15, 2020
+released: 2020-03-15
 updated: 2022-02-15
 version: 1.1.38
 stars: 

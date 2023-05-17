@@ -7,7 +7,7 @@ authors:
 appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
-released: '2019-08-28T07:00:00Z'
+released: 2019-08-28
 updated: 2023-04-11
 version: 2.0.1
 stars: 4.7

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.alphayt.bztex
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2022-04-28
 version: 1.1.9
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.alphayt.bztex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-04-27
 signer: 
 reviewArchive: 
 twitter: 

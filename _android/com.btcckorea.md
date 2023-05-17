@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.btcckorea
 appCountry: 
-released: Jan 22, 2019
+released: 2019-01-22
 updated: 2019-07-01
 version: 1.0.19
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hitek.wallet
 appCountry: 
-released: Mar 28, 2018
+released: 2018-03-28
 updated: 2018-03-28
 version: v5.0.0
 stars: 

@@ -4,12 +4,12 @@ title: CDEX-Trade Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.xsjys.bbtc
 appCountry: 
-released: Mar 1, 2022
-updated: 2023-04-03
-version: 1.4.7
+released: 2022-03-01
+updated: 2023-05-03
+version: 1.4.9
 stars: 
 ratings: 
 reviews: 

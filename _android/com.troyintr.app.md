@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.troyintr.app
 appCountry: 
-released: May 23, 2019
+released: 2019-05-23
 updated: 2019-05-23
 version: '1.0'
 stars: 

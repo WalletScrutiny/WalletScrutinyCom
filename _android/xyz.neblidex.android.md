@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: xyz.neblidex.android
 appCountry: 
-released: Sep 29, 2019
+released: 2019-09-29
 updated: 2020-05-14
 version: 11.0.2
 stars: 

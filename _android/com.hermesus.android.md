@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.hermesus.android
 appCountry: 
-released: Apr 17, 2022
+released: 2022-04-17
 updated: 2022-04-17
 version: '1.1'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ubsdreamdigital
 appCountry: 
-released: Feb 17, 2021
+released: 2021-02-17
 updated: 2021-03-12
 version: '1.01'
 stars: 

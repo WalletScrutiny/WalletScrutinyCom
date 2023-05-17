@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.ompfinex.app
 appCountry: 
-released: Jul 20, 2021
+released: 2021-07-20
 updated: 2022-12-01
 version: 2.1.9
 stars: 4.1
 ratings: 
-reviews: 21
+reviews: 27
 size: 
 website: https://ompfinex.com
 repository: 

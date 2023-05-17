@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cluzstudio.marketbtc
 appCountry: 
-released: Mar 2, 2020
+released: 2020-03-02
 updated: 2020-03-02
 version: 1.0.1
 stars: 

@@ -2,11 +2,12 @@
 wsId: 
 title: Mat Coin
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.drbtb.btbmatcoinbuerqi
 appCountry: 
-released: Oct 28, 2021
+released: 2021-10-28
 updated: 2021-10-28
 version: '5.0'
 stars: 
@@ -31,3 +32,4 @@ features:
 
 ---
 
+This app is no longer on Google Play (404).

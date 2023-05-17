@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.dabblex.wallet
 appCountry: 
-released: Aug 16, 2021
+released: 2021-08-16
 updated: 2021-08-16
 version: 0.21.3
 stars: 

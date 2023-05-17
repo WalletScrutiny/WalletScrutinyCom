@@ -8,8 +8,8 @@ users: 10000
 appId: io.chainex.app
 appCountry: 
 released: 
-updated: 2022-12-15
-version: 2.1.11
+updated: 2023-04-25
+version: 2.1.12
 stars: 
 ratings: 
 reviews: 

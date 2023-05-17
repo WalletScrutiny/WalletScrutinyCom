@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.lunespay
 appCountry: 
-released: Jul 14, 2021
+released: 2021-07-14
 updated: 2021-08-10
 version: 1.0.7
 stars: 

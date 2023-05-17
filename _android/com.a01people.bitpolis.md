@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.a01people.bitpolis
 appCountry: 
-released: Oct 31, 2019
+released: 2019-10-31
 updated: 2020-05-19
 version: 0.1.2
 stars: 

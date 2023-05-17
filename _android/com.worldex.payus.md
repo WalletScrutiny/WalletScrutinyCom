@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.worldex.payus
 appCountry: 
-released: Feb 1, 2019
+released: 2019-02-01
 updated: 2019-02-05
 version: '1.1'
 stars: 

@@ -7,12 +7,12 @@ authors:
 appId: one.citadel.mobile
 appCountry: us
 idd: '1546701475'
-released: '2021-04-06T07:00:00Z'
-updated: 2023-04-16
-version: 2.9.0
+released: 2021-04-06
+updated: 2023-04-22
+version: 2.9.1
 stars: 3.9
 reviews: 7
-size: '94535680'
+size: '96770048'
 website: https://citadel.one/
 repository: https://github.com/citadeldao
 issue: 
