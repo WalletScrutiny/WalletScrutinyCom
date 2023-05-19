@@ -215,6 +215,12 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   d.append(flexListEle)
   d.append(pagination)
   anchor.querySelectorAll(".page-section")[0].replaceWith(d)
+  for (let i = 0; i < paginationLimit; i++) {
+    const numb = (page * paginationLimit) + i
+    const instance = wallets[numb]
+    if (!instance) { break }
+    processStyle(instance)
+  }
 }
 function processAllowedTargetArray(page, maxPages) {
   let allowedTargets = [0, 1, 2, page - 2, page - 1, page, page + 1, page + 2, maxPages - 3, maxPages - 2, maxPages - 1]
@@ -232,43 +238,56 @@ function updatePageinationUI(index) {
   updateModularPayload(index)
 }
 
+async function processStyle(wallet) {
+  if (!wallet.icon) { return '' }
+  const walletId = wallet.folder + String(wallet.appId)
+  let wIdforDOM = String(walletId).replace(/\./g, "_")
+  let target = await document.querySelector(`.${wIdforDOM}`)
+  if (!target) { return }
+  let imgObj = new Image();
+  imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
+  imgObj.onload = function () {
+    if(wallet.folder!=='bearer' && wallet.folder!=='hardware')
+    {let instanceCanvas = document.createElement("canvas")
+    instanceCanvas.setAttribute("class", `${wIdforDOM}-instance-canvas instance-canvas`)
+    instanceCanvas.height = imgObj.height*.25
+    instanceCanvas.width = imgObj.width*.25
+    document.body.append(instanceCanvas)
+    let canvasEle = document.querySelector(`.${wIdforDOM}-instance-canvas`)
+    canvasEle.getContext("2d").drawImage(imgObj, 0, 0);
+    const canvasEleData = canvasEle.getContext("2d").getImageData(0, 0, canvasEle.width, canvasEle.height);
+    if (canvasEleData.data[3] == 0 && canvasEleData.data[canvasEleData.data.length-1] == 0) { target.setAttribute("data-icon-shape", "free") }
+    else if (canvasEleData.data[3] < 255) { target.setAttribute("data-icon-shape", "round") }}
 
-function getBadge(wallet, num) {
+    let colorThief = new ColorThief();
+
+    for (const rgb of colorThief.getPalette(imgObj, 3)) {
+      if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
+      if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
+      if (target.style && target.style['background-image']) { break; }
+      target.style['background-image'] = `linear-gradient(var(--white) -100%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 400%)`
+      let colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`;
+      target.setAttribute("data-colour", colour);
+    }
+  }
+}
+
+function getBadge(wallet, numb) {
   const walletId = wallet.folder + String(wallet.appId)
   let wIdforDOM = String(walletId).replace(/\./g, "_")
   let faCollection = getIcon(wallet.folder)
-  const delay = num > 25 ? 2000 : num * 80
-
-  if (wallet.icon) {
-    let imgObj = new Image();
-    imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
-    imgObj.onload = function () {
-      // document.querySelector(`.${wIdforDOM} img.app_logo`).src = this.src
-      let colorThief = new ColorThief();
-      let target = document.querySelector(`.${wIdforDOM}`)
-      if (target) {
-        for (const rgb of colorThief.getPalette(imgObj, 3)) {
-          if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
-          if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
-          if (target.style && target.style['background-image']) { break; }
-          target.style['background-image'] = `linear-gradient(var(--white) -100%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 400%)`
-          let colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`;
-          target.setAttribute("data-colour", colour);
-        }
-      }
-    }
-  }
+  const delay = numb > 25 ? 2000 : numb * 80
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
   let passed = ``
   let failed = ``
-  for (let i = 0; i< wallet.score.numerator; i++){passed+=`<i class="pass"></i>`}
-  for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++){failed+=`<i class="fail"></i>`}
+  for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
+  for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}', false, this)" style="animation-delay:${delay}ms;">
+  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}', false, this)" style="animation-delay:${delay}ms;">
     <div class="tile-head">
-      <img loading="lazy" src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
+      <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>
       <span class="platform tile-view-only"><i class="${faCollection}"></i><span> ${wallet.category}</span></span>
     </div>

@@ -642,6 +642,17 @@
     @media (max-width: 400px) {
       width: 90vw;
     }
+    &[data-icon-shape='round']{
+      .app_logo{
+        border-radius: 400px !important;
+      }
+    }
+    &[data-icon-shape='free'], &.hardware, &.bearer{
+      .app_logo{
+        border-radius: 0px !important;
+        box-shadow: none !important;
+      }
+    }
     &:hover {
       box-shadow: 0 10px 30px -20px #000;
     }
@@ -658,6 +669,9 @@
         width: 75px;
         border-radius: 10px;
         box-shadow: 0 15px 30px -15px var(--permanent-black);
+        &.circle{
+          border-radius: 200px;
+        }
       }
       h3 {
         margin: 0;

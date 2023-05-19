@@ -518,3 +518,10 @@
     }
   }
 }
+
+.instance-canvas{
+  position:absolute;
+  pointer-events: none;
+  bottom: 0;
+  z-index: -100;
+}
