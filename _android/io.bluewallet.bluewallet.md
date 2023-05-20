@@ -4,6 +4,8 @@ title: BlueWallet Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- emanuel
+- Mohammad Rafigh
 users: 100000
 appId: io.bluewallet.bluewallet
 appCountry: 
@@ -20,8 +22,8 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2023-02-25
+verdict: nonverifiable
+date: 2023-05-21
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2020-07-14
@@ -46,6 +48,39 @@ features:
 - ln
 
 ---
+
+**Update 2023-05-21**:
+Emanuel from WalletScrutiny was able to reproduce the apk downloaded from github
+under [certain conditions](https://github.com/BlueWallet/BlueWallet/issues/758#issuecomment-1517256502) 
+with some manual modifications in `AndroidManifest.xml` which could be different 
+from release to release. However, Mohammad test results for the latest version (6.4.4) 
+indicates that there is still a diff in `AndroidManifest.xml` file, 
+So for now we still mark the app as nonverifiable. Here are the test results:
+
+```
+===== Begin Results =====
+appId:          io.bluewallet.bluewallet
+signer:         f0573fec6d1afb62f7eaa901f57a6c242f181a32eb901a77f443e589c333a3e5
+apkVersionName: 6.4.4
+apkVersionCode: 1683399586
+verdict:        nonverifiable
+appHash:        566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
+commit:         f2b4536854aee3468ad1e8a25abb3959ff666bba
+
+Diff:
+Files s/tmp/fromPlay_io.bluewallet.bluewallet_1683399586/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1683399586/AndroidManifest.xml differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MBLUEWAL.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MBLUEWAL.SF
+
+Revision, tag (and its signature):
+object f2b4536854aee3468ad1e8a25abb3959ff666bba
+type commit
+tag v6.4.4
+tagger Marcos Rodriguez Velez <marcospr@pm.me> 1683415665 -0400
+===== End Results =====
+
+```
 
 As [announced two days ago](https://bluewallet.io/sunsetting-lndhub/), the
 default custodial LN backend for {{ page.title }} is being discontinued. We tried it
