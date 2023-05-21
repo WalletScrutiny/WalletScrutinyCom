@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CDEX-Trade Bitcoin & Crypto
+title: CDEX - Bitcoin & ETH CFDs
 altTitle: 
 authors:
 - danny

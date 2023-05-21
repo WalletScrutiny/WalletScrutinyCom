@@ -8,11 +8,11 @@ appId: com.se.digital.brokerage.mobile
 appCountry: us
 idd: '1582937571'
 released: 2022-02-28
-updated: 2023-04-11
-version: 2.0.3
+updated: 2023-05-11
+version: 2.0.4
 stars: 5
 reviews: 1
-size: '93239296'
+size: '93451264'
 website: https://trade.xspringdigital.com
 repository: 
 issue: 

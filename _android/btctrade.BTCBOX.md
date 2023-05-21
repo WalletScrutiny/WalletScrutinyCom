@@ -1,6 +1,6 @@
 ---
 wsId: btcboxJP
-title: 【BTCBOX】ビットコイン・暗号資産取引所。安心・安全な暗
+title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
 altTitle: 
 authors:
 - danny

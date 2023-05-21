@@ -12,7 +12,7 @@ updated: 2023-04-14
 version: 2.0.16
 stars: 4.1
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://tokenize.exchange/
 repository: 

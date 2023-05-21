@@ -3,7 +3,7 @@ wsId:
 title: BitDATA Exchange (BitEx)
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.qm.bitdata.bitexotc
 appCountry: 
 released: 2021-08-18
@@ -19,7 +19,7 @@ issue:
 icon: com.qm.bitdata.bitexotc.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

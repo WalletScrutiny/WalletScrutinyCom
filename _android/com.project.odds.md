@@ -7,8 +7,8 @@ users: 100
 appId: com.project.odds
 appCountry: 
 released: 2022-03-29
-updated: 2022-03-30
-version: 1.0.0
+updated: 2023-05-16
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.project.odds.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-03-26
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

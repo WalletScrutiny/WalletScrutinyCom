@@ -8,11 +8,11 @@ appId: com.defichain.app.dfx
 appCountry: us
 idd: '1582633093'
 released: 2021-09-02
-updated: 2023-02-06
-version: 1.19.4
+updated: 2023-04-25
+version: 1.20.1
 stars: 5
 reviews: 2
-size: '29109248'
+size: '29605888'
 website: https://dfx.swiss
 repository: 
 issue: 

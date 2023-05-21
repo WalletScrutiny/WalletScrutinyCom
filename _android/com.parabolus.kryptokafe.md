@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.parabolus.kryptokafe.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

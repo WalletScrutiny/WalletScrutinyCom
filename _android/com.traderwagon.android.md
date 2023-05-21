@@ -12,7 +12,7 @@ updated: 2023-04-27
 version: 1.6.0
 stars: 4.6
 ratings: 
-reviews: 8
+reviews: 10
 size: 
 website: https://www.traderwagon.com/
 repository: 

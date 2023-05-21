@@ -9,10 +9,10 @@ appCountry:
 idd: 1436799971
 released: 2018-10-06
 updated: 2023-05-10
-version: 2.64.0
+version: 2.63.4
 stars: 4.7
-reviews: 147701
-size: '665020416'
+reviews: 146823
+size: '663691264'
 website: https://www.binance.com
 repository: 
 issue: 
