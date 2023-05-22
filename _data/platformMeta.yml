@@ -61,7 +61,6 @@ iphone:
     - obfuscated
     - ftbfs
     - nonverifiable
-    - reproducible
   metas: 
     - defunct
     - obsolete
