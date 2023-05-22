@@ -50,7 +50,7 @@ function recreateDropdowns(verdict, platform) {
         html += `<div class="option ${verdict === instanceVerdict ? 'selected' : ''} ${instanceVerdict}" data="${instanceVerdict}"><span>${window.verdicts[instanceVerdict].short}</span> <small>${String(count).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</small></div>`
       }
       else if (verdict === instanceVerdict) {
-        html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>none found</small></div>`
+        html += `<div class="option selected ${instanceVerdict}" data="${instanceVerdict}"><span>${instanceVerdict}</span> <small>0</small></div>`
       }
     }
     document.querySelector('.search-filtered-wallets').setAttribute("placeholder", availableFilteredWallets)
