@@ -1,4 +1,4 @@
-FROM node:16
+FROM docker.io/node:16.20.0-bullseye
 
 ARG UID=1000
 ARG TAG
@@ -30,7 +30,6 @@ RUN set -ex; \
     npm install --production --no-optional --omit=optional --no-audit --no-fund --ignore-scripts; \
     npm run postinstall; \
     sed -i "s/versionCode 1/versionCode $VERSION/g" android/app/build.gradle; \
-    sed -i '/^\s*<\/application>\s*/i <meta-data android:name="com.bugsnag.android.BUILD_UUID" android:value="8699182a-9b70-4ef4-ab1c-d7a0d2020499"\/>' android/app/src/main/AndroidManifest.xml; \
     echo '"master"' > current-branch.json;
 
 RUN set -ex; \
