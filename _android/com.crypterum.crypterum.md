@@ -45,3 +45,5 @@ features:
 - The last accessible archive was in 2019
 - We emailed support at support@crypterum.com to verify the status of the project. For now, we'll mark this as **defunct**
 
+**UPDATE:** The provider responded and confirmed the project was defunct.
+
