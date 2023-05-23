@@ -3,7 +3,7 @@ wsId:
 title: 'RYIPAY: Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.ryi.pay
 appCountry: 
 released: 2021-06-12
@@ -19,7 +19,7 @@ issue:
 icon: io.ryi.pay.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2021-08-21
 signer: 
 reviewArchive: 

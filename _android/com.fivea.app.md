@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fivea.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 

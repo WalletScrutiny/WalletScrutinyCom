@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quru.muna.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-03
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: munawallet

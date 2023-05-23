@@ -1,6 +1,6 @@
 ---
 wsId: bitkubExchange
-title: Bitkub - Bitcoin & Crypto
+title: 'Bitkub: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2023-04-21
-version: 3.17.6
+updated: 2023-05-19
+version: 3.17.10
 stars: 4.2
 ratings: 18826
 reviews: 34

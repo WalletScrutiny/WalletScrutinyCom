@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 - emanuel
-users: 1000
+users: 5000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
-updated: 2023-05-08
+updated: 2023-05-10
 version: 1.9.30
-stars: 4.7
+stars: 4.6
 ratings: 26
 reviews: 12
 size: 

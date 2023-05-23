@@ -1,6 +1,6 @@
 ---
 wsId: OGPay
-title: OGPay
+title: OGPay Business
 altTitle: 
 authors:
 - danny
