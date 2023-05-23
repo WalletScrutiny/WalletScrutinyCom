@@ -2,7 +2,8 @@
 wsId: 
 title: DDT Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.ddt.ddtmobile
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.ddt.ddtmobile.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-03-14
+verdict: nosource
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,3 +31,16 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> DeepDive Tech (DDT) Wallet is a multi-currency and multi-platform digital wallet
+>
+> Keep your cryptos in an accessible and secure wallet! A mnemonic phrase, easy migration, cloud backup/restore, ERC-20 token transaction support, resource management, and so much more in the best non-custodial DDT crypto wallet app!
+
+## Analysis 
+
+- The app's listed website is no longer online 
+- We were able to install and succesfully run the app. 
+- There was a BTC wallet that can send/receive. 
+- A 24-word mnemonic phrase was provided 
+- There are **no claims that the app is source-available.**
