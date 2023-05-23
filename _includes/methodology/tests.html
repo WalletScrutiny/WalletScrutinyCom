@@ -48,14 +48,14 @@
 
     {% for ver in verdicts %}
     {% include /methodology/section_title.html verdict=ver type="verdict" %}
-    {% include verdictMethodology.html verdict=ver %}
+    {% include verdictMethodology.html verdict=ver category=key %}
     {% endfor %}
     {% if metas.size != 0 %}
     {% assign metas = metas | uniq %}
       <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
       {% include /methodology/section_title.html type="meta" %}
       {% for meta in metas %}
-      {% include verdictMethodology.html verdict=meta %}
+      {% include verdictMethodology.html verdict=meta category=key %}
       {% endfor %}
     {% endif %}
 </div>
@@ -74,6 +74,7 @@
 
   function processSelectedSubcategory(subcat) {
     const current = subcat?subcat:document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
+    const test = String(window.location.search.split('?')).split("/").length>=3?String(window.location.search.split('?')).split("/")[2]:''
     let unused = ``
     for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (option.getAttribute('data-id')!==current) { option.classList.remove("selected") }else{ option.classList.add("selected") }
@@ -85,7 +86,11 @@
       if (method.getAttribute("data-id") !== current) { method.classList.remove('active') }
       else { method.classList.add('active') }
     }
-    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}`)
+    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
+    if(test){setTimeout(()=>{
+      document.querySelector(`#${current}-${test}`).scrollIntoView({ block: "start" })
+      document.querySelector(`#${current}-${test}`).setAttribute("data-dropdown-open", 'true')
+    },200)}
   }
 
   document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})

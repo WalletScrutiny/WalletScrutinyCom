@@ -1,0 +1,35 @@
+<div class="step custody">
+  <i class="i-key circle"></i>
+  <div class="title">
+    <h3>Custody</h3>
+    <p>
+    {% if page.keyOwnershipVerdict %}
+      {{page.keyOwnershipVerdict}}
+    {% else %}
+      {{ site.data.verdicts[page.verdict].short }}
+    {% endif %}
+    {% if page.meta != "ok" %}
+      <p class="warn">But 
+        <span class="lower">{{ site.data.verdicts[page.meta].message }}</span>
+      </p>
+    {% endif %}
+    </p>
+    {% include verdict_explained.html %}
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.custody %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.custody %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.custody | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

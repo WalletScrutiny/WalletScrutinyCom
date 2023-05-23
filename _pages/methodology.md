@@ -29,36 +29,36 @@ author_profile: true
 </div>
 
 <script>
-  let testSubcat = false
-  let urlIndex = 1
-  if(window.location.search.indexOf('?')>=0){
-  const query = window.location.search.split('?')
+  function url(){
+    let urlPlatformCategory = false
+    let urlIndex = 1
+    if(window.location.search.indexOf('?')>=0){
+    const query = window.location.search.split('?')
 
-    let urlIndexCounter = 1
-    let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1]
-    for(const tab of document.querySelectorAll(".tabulation .tab")){
-      if(tabQuery===tab.innerHTML.replace(/ /g, '-').toLowerCase()){
-        urlIndex = urlIndexCounter
-        break
+      let urlIndexCounter = 1
+      let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1]
+      for(const tab of document.querySelectorAll(".tabulation .tab")){
+        if(tabQuery===tab.innerHTML.replace(/ /g, '-').toLowerCase()){
+          urlIndex = urlIndexCounter
+          break
+        }
+        urlIndexCounter++
       }
-      urlIndexCounter++
+      urlPlatformCategory = query[1].indexOf("/")>0?query[1].split("/")[1]:false
     }
-    testSubcat = query[1].indexOf("/")>0?query[1].split("/")[1]:false
-
+    if(urlIndex==2){processSelectedSubcategory(urlPlatformCategory)}
+    document.body.setAttribute("data-active-index", urlIndex)
   }
 
   let index = 1
   for(const tab of document.querySelectorAll(".tabulation .tab")){
-
     tab.setAttribute("data-index", index)
     tab.addEventListener("click", (event)=>{
       document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"))
       window.history.pushState('data', null, `/methodology/?${event.target.innerHTML.replace(/ /g, '-').toLowerCase()}` )
     })
     index++
-
   }
-
-  if(urlIndex==2){processSelectedSubcategory(testSubcat)}
-  document.body.setAttribute("data-active-index", urlIndex)
+  // window.addEventListener('popstate', function () {url()})
+  url()
 </script>

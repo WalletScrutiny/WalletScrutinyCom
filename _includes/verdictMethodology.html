@@ -1,4 +1,4 @@
-<div class="verdictMethodology">
+<div class="verdictMethodology" id="{{include.category}}-{{include.verdict}}">
 <div class="verdict-methodology-head">
   <h2>{{ site.data.verdicts[include.verdict].question }}</h2>
   <div class="chevron"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-down"></i></div>
@@ -6,7 +6,7 @@
 
 <p>If the answer is "no", we mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".</p>
 
-<div class="details truncated">
+<div class="details truncated truncated-target-{{include.category}}-{{include.verdict}}">
 {{ site.data.verdicts[include.verdict].details | markdownify }}
 {% if site.data.verdicts[include.verdict].redflag and page.url != "/methodology/" %}
   <strong>The product cannot be independently verified. If the provider puts your funds at
@@ -18,6 +18,6 @@
   point on, with nobody outside ever knowing before it is too late.</strong>
 {% endif %}
 </div>
-<script>if(document.querySelectorAll(".details.truncated").length==1)
-{document.querySelector(".details.truncated").addEventListener("click", ()=>{document.querySelector(".details.truncated").classList.remove('truncated')})}</script>
+<script>if(document.querySelectorAll(".details.truncated.truncated-target-{{include.category}}-{{include.verdict}}").length==1)
+{document.querySelector(".details.truncated.truncated-target-{{include.category}}-{{include.verdict}}").addEventListener("click", ()=>{document.querySelector(".details.truncated.truncated-target-{{include.category}}-{{include.verdict}}").classList.remove('truncated')})}</script>
 </div>

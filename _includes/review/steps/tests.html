@@ -1,0 +1,58 @@
+{% assign meta = include.meta %}
+{% if meta != "ok" %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
+{% else %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
+{% endif %}
+{% assign count = 1 %}
+{% assign failPoint = 0 %}
+{% assign platform = include.platform %}
+
+
+<div class="step methodology">
+  <i class="fas fa-vial circle"></i>
+  <div class="title">
+    <h3>Applied Methodology</h3>
+    <p class="applied-methodology steps">We answer the following questions, usually in this order:</p>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.appliedMethodology %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.appliedMethodology %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.appliedMethodology | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+  <div class="methodology-tests-list">
+  {% for criterion in criteria %}
+    {% if include.verdict == criterion %}
+      {% unless include.verdict == 'reproducible' %}
+        {% assign failPoint = failPoint | plus: 1 %}
+        {% assign class = 'fail'%}
+        {% assign icon = '<i class="fas fa-times-circle"></i>' %}
+      {% endunless %}
+    {% else %} 
+      {% if failPoint == 0 %}
+        {% assign class = 'pass'%}
+      {% assign icon = '<i class="fas fa-check-circle"></i>' %}
+      {% else %} 
+        {% assign class = 'untested'%}
+      {% assign icon = '<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h17v17h-17z" fill="none"/><path d="m8.5.1c4.636 0 8.4 3.764 8.4 8.4s-3.764 8.4-8.4 8.4-8.4-3.764-8.4-8.4 3.764-8.4 8.4-8.4zm6.4 7.269c0-.199-.161-.36-.36-.36-1.846 0-10.234 0-12.08 0-.199 0-.36.161-.36.36v2.262c0 .199.161.36.36.36h12.08c.199 0 .36-.161.36-.36 0-.574 0-1.688 0-2.262z" fill="var(--neutral-3)"/></svg>' %}
+      {% endif %}
+    {% endif %}
+      <a href="/methodology/?tests-we-run/{{platform}}/{{criterion}}" class="{{class}}">
+        <span class="badge {{class}}">{{icon}}</span>
+        <span>{{ site.data.verdicts[criterion].question }}</span>
+        <i class="fas fa-chevron-right"></i></a>
+    {% assign count = count | plus: 1 %}
+  {% endfor %}
+  </div>
+</div>

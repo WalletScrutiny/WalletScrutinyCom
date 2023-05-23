@@ -280,6 +280,9 @@
     align-items: center;
     gap: 10px;
     position: relative;
+    .wide{
+      grid-column: 1/5;
+    }
     &:not(:last-of-type) {
       margin-top: 20px;
       margin-bottom: 20px;
@@ -296,6 +299,14 @@
       }
     }
     &:last-of-type {
+      &::after {
+        content: "";
+        background: var(--body);
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        left: 19px;
+      }
       &:not(:last-of-type) {
         margin-bottom: 60px;
       }

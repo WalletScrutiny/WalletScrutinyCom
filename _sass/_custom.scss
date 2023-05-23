@@ -230,11 +230,6 @@
       width: 100%;
       border-radius: 8px;
       background-color: var(--body);
-      .selected {
-        grid-row: 1/2;
-        color: var(--accent-text);
-        box-shadow: 0 1px 0 0 var(--shadow-3);
-      }
       .option {
         display: grid;
         margin-right: auto;
@@ -244,6 +239,12 @@
         row-gap: 6px;
         &:not(:last-of-type) {
           box-shadow: 0 1px 0 0 var(--shadow-3);
+        }
+        &.selected {
+          grid-row: 1/2;
+          color: var(--accent-text);
+          box-shadow: 0 1px 0 0 var(--shadow-3);
+          padding-right: 20px;
         }
       }
     }
@@ -642,13 +643,15 @@
     @media (max-width: 400px) {
       width: 90vw;
     }
-    &[data-icon-shape='round']{
-      .app_logo{
+    &[data-icon-shape="round"] {
+      .app_logo {
         border-radius: 400px !important;
       }
     }
-    &[data-icon-shape='free'], &.hardware, &.bearer{
-      .app_logo{
+    &[data-icon-shape="free"],
+    &.hardware,
+    &.bearer {
+      .app_logo {
         border-radius: 0px !important;
         box-shadow: none !important;
       }
@@ -669,7 +672,7 @@
         width: 75px;
         border-radius: 10px;
         box-shadow: 0 15px 30px -15px var(--permanent-black);
-        &.circle{
+        &.circle {
           border-radius: 200px;
         }
       }
@@ -776,5 +779,51 @@
     transform: translateY(-3px);
     margin-left: 10px;
     opacity: 0.5;
+  }
+}
+
+.methodology-tests-list {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: grid;
+  gap: 2px;
+  a {
+    text-decoration: none;
+    .fa-chevron-right {
+      opacity: 0;
+    }
+    &:hover {
+      text-decoration: underline;
+      .fa-chevron-right {
+        transform: translateX(5px);
+        opacity: 1;
+      }
+    }
+
+    .badge {
+      margin-right: 4px;
+      &.pass {
+        color: var(--green-notify-background);
+        // &::after {
+        //   content: "pass";
+        // }
+      }
+      &.fail {
+        color: var(--red-notify-background);
+        // &::after {
+        //   content: "fail";
+        // }
+      }
+      &.untested {
+        svg {
+          height: 17px;
+          width: 17px;
+          transform: translateY(2px);
+        }
+        // &::after {
+        //   content: "not tested";
+        // }
+      }
+    }
   }
 }

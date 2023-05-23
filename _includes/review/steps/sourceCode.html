@@ -1,0 +1,34 @@
+<div class="step source-code">
+  <i class="i-code circle"></i>
+  <div class="title">
+    <h3>Source code</h3>
+    <p>
+    {% if page.repository %}
+      {{'Public on '}} 
+      {% assign string = page.repository | replace: "https://", "" %}
+      {% assign split = string | split:"/" %}
+      {% assign name = split[0] | split:"." %}
+      {% assign name = name[0] %}
+      <a href="{{ page.repository }}" target="_blank" class="capitalise">{{name}}</a>
+    {% else %}
+      {{'Private'}}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.source %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.source %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.source | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>
