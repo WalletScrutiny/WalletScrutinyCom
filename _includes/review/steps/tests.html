@@ -8,12 +8,24 @@
 {% assign failPoint = 0 %}
 {% assign platform = include.platform %}
 
+{% for criterion in criteria %}
+  {% if include.verdict == criterion %}
+    {% unless include.verdict == 'reproducible' %}
+      {% assign failText = '<br>We stopped asking questions after we encountered a failed answer.' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
 
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>
   <div class="title">
     <h3>Applied Methodology</h3>
-    <p class="applied-methodology steps">We answer the following questions, usually in this order:</p>
+    <p class="applied-methodology steps">We answered the following questions in this order:
+      {{ failText }}
+      {% if meta != "ok" %}
+        <!-- TEXT FOR DEALING WITH NOT-OK METAS -->
+      {% endif %}
+    </p>
   </div>
   <div class="data">
   </div>

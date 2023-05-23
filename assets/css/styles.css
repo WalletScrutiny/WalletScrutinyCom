@@ -1470,26 +1470,21 @@ html {
 }
 
 .alertBox {
-  border: solid 3px black;
-  border-radius: 20px;
+  border-radius: 10px;
   background: var(--red-notify-background);
   margin-bottom: 1em;
-  font-weight: bold
-}
-
-.alertBox>div {
-  margin: 1em;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 15px;
 }
 
 .infoBox {
-  border: solid 3px black;
-  border-radius: 20px;
+  border-radius: 10px;
   background: var(--blue-notify-background);
   margin-bottom: 1em;
-}
-
-.infoBox>div {
-  margin: 1em;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 15px;
 }
 
 .meta_stale {

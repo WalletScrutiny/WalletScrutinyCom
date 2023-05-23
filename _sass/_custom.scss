@@ -803,13 +803,13 @@
     .badge {
       margin-right: 4px;
       &.pass {
-        color: var(--green-notify-background);
+        color: var(--good);
         // &::after {
         //   content: "pass";
         // }
       }
       &.fail {
-        color: var(--red-notify-background);
+        color: var(--bad);
         // &::after {
         //   content: "fail";
         // }
