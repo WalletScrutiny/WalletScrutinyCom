@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: wethiox
 title: WethioX
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.exchange.wethio.io
 appCountry: 
@@ -19,14 +20,29 @@ issue:
 icon: com.exchange.wethio.io.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-23
+verdict: custodial
+date: 2023-05-24
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: wethiox
+social:
+- https://www.wethiox.io
+- https://www.facebook.com/WethioX/about
+- https://t.me/joinchat/VvLjmtVVAVJiMTQ0
+- https://wethio.medium.com/
 redirect_from: 
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> We become the best place to trade crypto online by providing excellent services, low-cost transaction fees, flexible funding options, and high-grade security standards. With WethioX, you can buy, sell, and trade digital currencies on the go with confidence and trust.
+
+## Description from the [website](https://www.wethiox.io/landing)
+
+> **Easy to use and custodial**
+
+## Analysis 
+
+The site itself describes its app as **custodial**.
