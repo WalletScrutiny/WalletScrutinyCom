@@ -49,3 +49,7 @@ features:
 - We'll email the provider to ask about the app at the listed email address: sunwaytradingcompany@gmail.com
 - Based from the description, the app seems to be a **custodial** app, but without the ability to test it, we can't really know for sure. One thing we can get from this is the app is no longer working properly, and is thus, **defunct**.
 
+**Addendum:**
+
+- The provider has responded and told us that the project has ceased but they have plans on bringing it back in the unforeseeable future.
+
