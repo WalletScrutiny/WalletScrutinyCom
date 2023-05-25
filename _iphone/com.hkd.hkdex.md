@@ -10,8 +10,8 @@ idd: '1522416988'
 released: 2020-07-13
 updated: 2023-05-18
 version: 2.5.8
-stars: 2.6
-reviews: 30
+stars: 2.8
+reviews: 32
 size: '120650752'
 website: http://hkd.com
 repository: 

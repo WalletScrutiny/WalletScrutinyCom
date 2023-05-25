@@ -11,7 +11,7 @@ appCountry: nl
 released: 2018-06-07
 updated: 2023-05-17
 version: 30.42.1
-stars: 4.1
+stars: 4.2
 ratings: 2833
 reviews: 23
 size: 

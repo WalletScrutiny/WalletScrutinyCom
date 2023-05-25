@@ -9,10 +9,10 @@ appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
 updated: 2023-05-15
-version: 3.82.0
+version: 3.83.1
 stars: 4.3
 ratings: 72555
-reviews: 4206
+reviews: 4211
 size: 
 website: https://www.kucoin.com
 repository: 

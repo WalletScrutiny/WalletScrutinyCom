@@ -9,10 +9,10 @@ appCountry: mn
 idd: '1596968900'
 released: 2021-12-02
 updated: 2023-05-04
-version: '5.6'
+version: '5.8'
 stars: 4.8
-reviews: 1926
-size: '51632128'
+reviews: 2117
+size: '54828032'
 website: https://www.telexa.mn/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2021-05-20
 version: '1.0'
 stars: 4.6
 ratings: 151
-reviews: 78
+reviews: 74
 size: 
 website: http://cryptocurrency-exchange.site
 repository: 

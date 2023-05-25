@@ -8,10 +8,10 @@ appId: com.abl.vibra
 appCountry: ng
 idd: '1583907652'
 released: 2021-10-24
-updated: 2023-05-19
-version: 1.6.80
-stars: 4.7
-reviews: 37
+updated: 2023-05-22
+version: 1.6.81
+stars: 4.6
+reviews: 38
 size: '65753088'
 website: https://www.vibra.one/
 repository: 

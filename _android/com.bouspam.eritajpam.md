@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-28
 updated: 2023-04-19
 version: 2.2.4
-stars: 2.6
+stars: 2.7
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://bousechanj.com/
 repository: 
