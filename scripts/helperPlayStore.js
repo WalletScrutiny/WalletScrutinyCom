@@ -34,7 +34,7 @@ async function refreshAll (ids, markDefunct, githubApi) {
 }
 
 function refreshFile (fileName, content, markDefunct, octokit) {
-  sem.acquire().then(function ([, release]) {
+  sem.acquire().then(async function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
       helper.loadFromFile(path.join(folder, fileName), content)
@@ -45,54 +45,50 @@ function refreshFile (fileName, content, markDefunct, octokit) {
     const appCountry = header.appCountry || 'us'
     helper.checkHeaderKeys(header, headers)
     if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
+      let githubRelease
       try {
         if (header.repository && header.repository.startsWith('https://github.com/')) {
           const parts = header.repository.split('/')
           const owner = parts[3]
           const repo = parts[4]
-          octokit.request('GET /repos/{owner}/{repo}/releases{?per_page,page}', { owner: owner, repo: repo })
-            .then( result => {
-              const release = result.data[0]
-              const count = result.data.length
-              console.log(`${header.title}: ${count} releases. Last release was ${release.name} on ${release.created_at}.`)
-            })
-            .catch(err => {
-              console.log(`Error with ${header.title}:`, err)
-            })
+          const githubResult = await octokit.request('GET /repos/{owner}/{repo}/releases{?per_page,page}', { owner: owner, repo: repo })
+          githubRelease = githubResult.data[0]
+          const count = githubResult.data.length
+          console.log(`${header.title}: ${count} releases. Last release was ${githubRelease.name} on ${githubRelease.created_at}.`)
         }
-        gplay.app({
+      } catch (err) {
+        console.error(`Error with ${header.title}:`, err)
+      }
+
+      try {
+        const app = await gplay.app({
           appId: appId,
           lang: 'en',
           country: appCountry
-        }).then(app => {
-          const iconPath = `images/wIcons/android/${appId}`
-          helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
-            header.icon = `${appId}.${iconExtension}`
-            updateFromApp(header, app)
-            stats.updated++
-            helper.writeResult(folder, header, body)
-            stats.remaining--
-            release()
-          })
-        }, (err) => {
-          if (`${err}`.search(/404/) > -1) {
-            if (markDefunct) {
-              header.meta = "defunct"
-              header.date = new Date()
-              helper.writeResult(folder, header, body)
-            } else {
-              helper.addDefunctIfNew(`_android/${appId}`)
-            }
-          } else {
-            console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
-          }
+        })
+        const iconPath = `images/wIcons/android/${appId}`
+        helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
+          header.icon = `${appId}.${iconExtension}`
+          updateFromApp(header, app)
+          stats.updated++
+          helper.writeResult(folder, header, body)
           stats.remaining--
           release()
-        }).catch(err => {
-          console.error(`Does this ever get triggered 1? ${err}`)
         })
       } catch (err) {
-        console.error(`Does this ever get triggered 2? ${err}`)
+        if (`${err}`.search(/404/) > -1) {
+          if (markDefunct) {
+            header.meta = "defunct"
+            header.date = new Date()
+            helper.writeResult(folder, header, body)
+          } else {
+            helper.addDefunctIfNew(`_android/${appId}`)
+          }
+        } else {
+          console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
+        }
+        stats.remaining--
+        release()
       }
     } else {
       stats.defunct++
