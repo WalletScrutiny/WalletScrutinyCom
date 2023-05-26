@@ -8,10 +8,10 @@ appId: com.bottlepay
 appCountry: gb
 idd: '1510029326'
 released: 2021-02-10
-updated: 2023-05-22
-version: 2.2.11
+updated: 2023-05-25
+version: 2.2.12
 stars: 4.4
-reviews: 291
+reviews: 294
 size: '166460416'
 website: https://bottlepay.com
 repository: 

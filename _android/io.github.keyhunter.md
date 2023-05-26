@@ -11,7 +11,7 @@ updated: 2023-05-22
 version: 2.0.5
 stars: 4.9
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: 
 repository: 

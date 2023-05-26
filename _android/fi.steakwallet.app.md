@@ -7,8 +7,8 @@ users: 10000
 appId: fi.steakwallet.app
 appCountry: 
 released: 2021-07-07
-updated: 2023-04-27
-version: 3.0.41
+updated: 2023-05-25
+version: 3.0.42
 stars: 4.2
 ratings: 
 reviews: 21

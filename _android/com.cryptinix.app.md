@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-11-24
 updated: 2021-02-09
 version: 1.2.0
-stars: 4.3
+stars: 4.2
 ratings: 62
-reviews: 6
+reviews: 5
 size: 
 website: https://cryptinix.com
 repository: 

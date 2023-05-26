@@ -12,7 +12,7 @@ updated: 2022-06-27
 version: 5.2.0
 stars: 1.5
 ratings: 7732
-reviews: 1743
+reviews: 1744
 size: 
 website: https://celsius.network
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-05-12
 version: 3.0.22
 stars: 3.9
 ratings: 3007
-reviews: 531
+reviews: 530
 size: 
 website: https://bitoasis.net/
 repository: 
