@@ -25,7 +25,7 @@ issue: https://github.com/keepkey/keepkey-firmware/issues/342
 icon: keepKey.png
 bugbounty: 
 meta: ok
-verdict: notverifiable
+verdict: nonverifiable
 date: 2023-05-25
 signer: 
 reviewArchive:
