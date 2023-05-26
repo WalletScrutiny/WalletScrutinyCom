@@ -74,12 +74,11 @@
 
   function processSelectedSubcategory(subcat) {
     const current = subcat?subcat:document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
-    const test = String(window.location.search.split('?')).split("/").length>=3?String(window.location.search.split('?')).split("/")[2]:''
+    let test = ''
+    if(!subcat || current===subcat){test = String(window.location.search.split('?')).split("/").length>=3?String(window.location.search.split('?')).split("/")[2]:''}
     let unused = ``
     for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (option.getAttribute('data-id')!==current) { option.classList.remove("selected") }else{ option.classList.add("selected") }
-    }
-    for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (!option.classList.contains('selected')) { unused += `, ${option.getAttribute("data")}` }
     }
     for (const method of document.querySelectorAll(".methodology-item")) {
@@ -88,8 +87,11 @@
     }
     window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
     if(test){setTimeout(()=>{
-      document.querySelector(`#${current}-${test}`).scrollIntoView({ block: "start" })
-      document.querySelector(`#${current}-${test}`).setAttribute("data-dropdown-open", 'true')
+      const target = document.querySelector(`#${current}-${test}`)
+      target.scrollIntoView({ block: "start" })
+      target.setAttribute("data-dropdown-open", 'true')
+      for(let neon of document.querySelectorAll('.neon-lights')){neon.classList.remove('neon-lights')}
+      setTimeout(()=>{target.classList.add('neon-lights')},100)
     },200)}
   }
 

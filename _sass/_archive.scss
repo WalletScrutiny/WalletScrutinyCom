@@ -49,6 +49,48 @@
     .verdictMethodology {
       background: var(--neutral-5);
       padding: 15px 25px;
+      &.neon-lights {
+        position: relative;
+        &::after {
+          content: "";
+          background: var(--accent);
+          height: calc(100% + 4px);
+          width: calc(100% + 4px);
+          left: -2px;
+          top: -2px;
+          position: absolute;
+          z-index: -1;
+          border-radius: 11px;
+          transform-origin: center;
+          animation: glow 2s linear forwards 1;
+          @keyframes glow {
+            0% {
+              opacity: 0;
+              height: calc(100% + 4px);
+              width: calc(100% + 4px);
+              left: -2px;
+              top: -2px;
+              border-radius: 11px;
+            }
+            50% {
+              opacity: 1;
+              height: calc(100% + 8px);
+              width: calc(100% + 8px);
+              left: -4px;
+              top: -4px;
+              border-radius: 13px;
+            }
+            100% {
+              opacity: 0;
+              height: calc(100% + 8px);
+              width: calc(100% + 8px);
+              left: -4px;
+              top: -4px;
+              border-radius: 13px;
+            }
+          }
+        }
+      }
       .verdict-methodology-head,
       .verdict-methodology-head > * {
         pointer-events: none;
@@ -103,12 +145,13 @@
         }
       }
     }
-    .methodology-item{
+    .methodology-item {
       animation: fade-in-up 600ms ease forwards 1;
-      > h2,.info{
-        margin-bottom:20px;
+      > h2,
+      .info {
+        margin-bottom: 20px;
       }
-      &:not(.active){
+      &:not(.active) {
         display: none;
       }
     }
