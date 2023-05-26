@@ -2,7 +2,7 @@
 wsId: 
 title: HyperW
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.legend.hyperw
 appCountry: 
@@ -29,5 +29,4 @@ redirect_from:
 features: 
 
 ---
-
 

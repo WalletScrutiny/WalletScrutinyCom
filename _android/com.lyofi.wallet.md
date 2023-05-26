@@ -3,7 +3,7 @@ wsId: lyowallet
 title: 'LYO WALLET: NFTs & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.lyofi.wallet
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.instagram.com/lyopayofficial/
 - https://t.me/lyopay
-- https://www.linkedin.com/company/lyopay/ 
+- https://www.linkedin.com/company/lyopay/
 redirect_from: 
 features: 
 

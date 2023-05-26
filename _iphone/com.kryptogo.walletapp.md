@@ -3,7 +3,7 @@ wsId: kryptogo
 title: KryptoGO - Bitcoin& NFT Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.kryptogo.walletapp
 appCountry: us
 idd: '1593830910'

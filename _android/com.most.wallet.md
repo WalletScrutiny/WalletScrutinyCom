@@ -3,7 +3,7 @@ wsId:
 title: MOST Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.most.wallet
 appCountry: 

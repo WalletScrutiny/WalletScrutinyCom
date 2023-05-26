@@ -3,7 +3,7 @@ wsId: kointra
 title: Kointra - Crypto Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.kointra.kointra
 appCountry: 

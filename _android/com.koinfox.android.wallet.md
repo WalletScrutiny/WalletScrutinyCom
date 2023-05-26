@@ -3,7 +3,7 @@ wsId:
 title: Koinfox
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.koinfox.android.wallet
 appCountry: 
@@ -28,7 +28,7 @@ twitter: koinfox
 social:
 - https://www.facebook.com/koinfox/
 - https://www.instagram.com/koinfoxofficial/
-- https://www.linkedin.com/company/koinfox/ 
+- https://www.linkedin.com/company/koinfox/
 redirect_from: 
 features: 
 

@@ -3,7 +3,7 @@ wsId: tokero
 title: TOKERO
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.ldvtech.tokero
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/TokeroExchange/
 - https://www.linkedin.com/company/tokero-crypto-exchange/
 - https://www.instagram.com/tokerocryptoexchange/
-- https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw 
+- https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw
 redirect_from: 
 features: 
 

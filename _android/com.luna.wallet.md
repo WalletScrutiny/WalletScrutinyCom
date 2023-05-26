@@ -3,7 +3,7 @@ wsId:
 title: 'Lunar: Crypto & DeFi Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.luna.wallet
 appCountry: 

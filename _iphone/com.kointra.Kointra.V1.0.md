@@ -3,14 +3,14 @@ wsId: kointra
 title: Kointra
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.kointra.Kointra.V1.0
 appCountry: tr
 idd: '1486286836'
 released: '2019-11-15T08:00:00Z'
 updated: 2021-09-15
 version: 3.1.2
-stars: 4.73332
+stars: 4.7
 reviews: 30
 size: '69696512'
 website: https://kointra.com

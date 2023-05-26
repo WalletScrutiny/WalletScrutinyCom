@@ -3,7 +3,7 @@ wsId: kryptogo
 title: KryptoGO -Bitcoin & NFT Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.kryptogo.walletapp
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/kryptogo/
 - https://www.instagram.com/kryptogo_/
 - https://t.me/kryptogocom
-- https://www.youtube.com/channel/UCrj-kZUkRde6tvin7DKhfQQ 
+- https://www.youtube.com/channel/UCrj-kZUkRde6tvin7DKhfQQ
 redirect_from: 
 features: 
 
