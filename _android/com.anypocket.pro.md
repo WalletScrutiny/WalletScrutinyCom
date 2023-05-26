@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.anypocket.pro
 appCountry: 
-released: Aug 20, 2019
+released: 2019-08-20
 updated: 2019-09-27
 version: Beta1.0.7
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: volum.aplihqm
 appCountry: 
-released: Nov 20, 2021
+released: 2021-11-20
 updated: 2021-11-21
 version: '9.8'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.Kprit.theappkeyonebit
 appCountry: 
-released: Nov 1, 2021
+released: 2021-11-01
 updated: 2021-11-12
 version: '4.0'
 stars: 

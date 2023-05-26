@@ -1,0 +1,50 @@
+<div class="step developer">
+  <i class="i-person circle"></i>
+  <div class="title">
+    <h3>Developer</h3>
+    <p class="capitalise">
+    {% if page.developerName %}
+      {{page.developerName}}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+    {% if page.website %}
+      <a href="{{page.website}}" title="Website" target="_blank">Website</a>
+    {% endif %}
+    {% if page.twitter %}
+    <a href="{{page.twitter}}" title="Twitter" target="_blank">Twitter</a>
+    {% endif %}
+    {% if page.social %}
+      {% for link in page.social %}
+        {% assign string = link | replace: "https://", "" %}
+        {% assign split = string | split:"/" %}
+        {% assign name = split[0] | split:"." %}
+        {% if name[0] == 't' %}
+          {% assign name = 'Telegram' %}
+        {% elsif name[0] == 'join' %}
+          {% assign name = name[1] %}
+        {% elsif name[0] == 'www' %}
+          {% assign name = name[1] %}
+        {% else %}
+          {% assign name = name[0] %}
+        {% endif %}
+        <a href="{{link}}" title="{{name}}" class="capitalise" target="_blank">{{name}}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+  {% if page.tooltip.developer %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.developer %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.developer | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

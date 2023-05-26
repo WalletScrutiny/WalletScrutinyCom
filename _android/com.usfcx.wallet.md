@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.usfcx.wallet
 appCountry: 
-released: Apr 19, 2021
+released: 2021-04-19
 updated: 2021-08-25
 version: '1.0'
 stars: 

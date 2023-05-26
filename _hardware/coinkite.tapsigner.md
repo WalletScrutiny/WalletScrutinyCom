@@ -21,7 +21,7 @@ issue:
 icon: coinkite.tapsigner.png
 bugbounty: 
 meta: ok
-verdict: sealed-noita
+verdict: noita
 date: 2023-02-13
 signer: 
 reviewArchive:

@@ -7,7 +7,7 @@ authors:
 appId: com.conglex.mobile
 appCountry: us
 idd: '1626252670'
-released: '2022-06-03T07:00:00Z'
+released: 2022-06-03
 updated: 2023-03-08
 version: 1.3.9
 stars: 0

@@ -1,0 +1,31 @@
+{% assign verdict = include.verdict %}
+{% if include.type == 'verdict' %}
+    <div class="section-title">
+  {% case verdict %}
+
+    {% when 'wip' %}
+    <i class="fas fa-square circle"></i><h3>General</h3>
+
+    {% when 'fewusers' %}
+    <i class="fas fa-users circle"></i><h3>Users</h3>
+
+    {% when 'nowallet' %}
+    <i class="i-wallet circle"></i><h3>Wallet functions</h3>
+
+    {% when 'nosource' %}
+    <i class="i-code circle"></i><h3>Source code</h3>
+
+    {% when 'nonverifiable' %}
+    <i class="i-reproducible circle"></i><h3>Reproducibility</h3>
+
+    {% when 'fake' %}
+    <i class="i-person circle"></i><h3>Developer</h3>
+
+
+  {% endcase %}
+  </div>
+{% elsif include.type == 'meta' %}
+
+<div class="section-title"><i class="fas fa-exclamation-triangle circle"></i><h3>Metas</h3></div>
+
+{% endif %}

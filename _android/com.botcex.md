@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.botcex
 appCountry: 
-released: May 29, 2021
+released: 2021-05-29
 updated: 2021-05-30
 version: '1.3'
 stars: 

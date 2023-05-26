@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.definitex.walllet
 appCountry: 
-released: Apr 14, 2021
+released: 2021-04-14
 updated: 2021-04-14
 version: 0.18.2
 stars: 5

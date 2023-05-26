@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.exnomy
 appCountry: 
-released: Nov 24, 2020
+released: 2020-11-24
 updated: 2021-09-21
 version: 1.0.18
 stars: 

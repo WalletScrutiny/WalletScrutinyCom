@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.whalecomp.whalecomp
 appCountry: 
-released: Dec 8, 2021
+released: 2021-12-08
 updated: 2022-02-25
 version: 1.0.0.2
 stars: 

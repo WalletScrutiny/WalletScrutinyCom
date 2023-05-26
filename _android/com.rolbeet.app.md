@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rolbeet.app
 appCountry: 
-released: Jun 4, 2020
+released: 2020-06-04
 updated: 2020-10-28
 version: 1.4.0
 stars: 

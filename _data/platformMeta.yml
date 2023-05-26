@@ -92,8 +92,9 @@ hardware:
     - fewusers
     - nowallet
     - nobtc
-    - nosendreceive
-    - custodial
+    - prefilled
+    - plainkey
+    - noita
     - nosource
     - obfuscated
     - ftbfs
@@ -101,11 +102,6 @@ hardware:
     - reproducible
     - nobinary
     - diy
-    - prefilled
-    - plainkey
-    - noita
-    - sealed-plainkey
-    - sealed-noita
   metas: 
     - defunct
     - obsolete
@@ -139,15 +135,11 @@ bearer:
     - fewusers
     - nowallet
     - nobtc
-    - nosendreceive
-    - custodial
+    - prefilled
     - nosource
     - obfuscated
     - ftbfs
     - nonverifiable
-    - prefilled
-    - plainkey
-    - noita
     - sealed-plainkey
     - sealed-noita
     - reproducible

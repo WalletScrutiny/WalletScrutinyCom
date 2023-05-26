@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: 'Admirals: Trade Stocks & CFDs'
+title: 'Admirals: Learn, Invest, Trade'
 altTitle: 
 authors:
 - danny

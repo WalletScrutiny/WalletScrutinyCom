@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.rapiexchange
 appCountry: 
-released: Apr 19, 2022
+released: 2022-04-19
 updated: 2023-04-20
 version: '2.11'
 stars: 

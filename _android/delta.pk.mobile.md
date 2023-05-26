@@ -10,7 +10,7 @@ appCountry: bg
 released: 2013-03-29
 updated: 2021-05-17
 version: 5.8.7
-stars: 4.1
+stars: 4
 ratings: 410
 reviews: 56
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2022-05-13
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: deltastock

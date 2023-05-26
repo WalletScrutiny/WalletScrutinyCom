@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.oxisapp2
 appCountry: 
-released: Jun 17, 2021
+released: 2021-06-17
 updated: 2021-06-24
 version: 4.1.0
 stars: 

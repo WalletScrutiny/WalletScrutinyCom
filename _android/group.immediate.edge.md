@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: group.immediate.edge
 appCountry: 
-released: Apr 21, 2022
+released: 2022-04-21
 updated: 2022-04-22
 version: '1.0'
 stars: 

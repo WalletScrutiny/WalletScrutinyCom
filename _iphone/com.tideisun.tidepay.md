@@ -10,8 +10,8 @@ idd: 1384802533
 released: 2018-06-09
 updated: 2022-09-09
 version: 3.0.4
-stars: 4.4
-reviews: 7
+stars: 4.5
+reviews: 8
 size: '90828800'
 website: https://isun1.com
 repository: 

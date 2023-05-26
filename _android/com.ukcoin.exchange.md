@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ukcoin.exchange
 appCountry: 
-released: Jul 16, 2020
+released: 2020-07-16
 updated: 2020-07-17
 version: '1.0'
 stars: 

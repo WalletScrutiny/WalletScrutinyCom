@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.app.alcoin4naira
 appCountry: 
-released: Apr 4, 2022
+released: 2022-04-04
 updated: 2022-04-04
 version: '1.0'
 stars: 

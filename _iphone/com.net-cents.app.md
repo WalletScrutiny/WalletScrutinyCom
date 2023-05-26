@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.net-cents.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-10
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: netcentshq

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.flashxchanger.app
 appCountry: 
-released: Apr 29, 2021
+released: 2021-04-29
 updated: 2021-10-12
 version: 1.1.5
 stars: 

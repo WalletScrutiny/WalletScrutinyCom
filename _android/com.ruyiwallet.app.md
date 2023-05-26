@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.ruyiwallet.app
 appCountry: 
-released: Apr 5, 2022
+released: 2022-04-05
 updated: 2022-07-22
 version: 2.3.82
 stars: 4.8

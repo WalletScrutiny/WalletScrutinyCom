@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.emoney_365
 appCountry: 
-released: Oct 16, 2020
+released: 2020-10-16
 updated: 2020-10-16
 version: 1.0.0
 stars: 

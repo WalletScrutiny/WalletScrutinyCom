@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: online.coinbuddy.wallet
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-05-20
 version: 1.5.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: io.vesto.app
 appCountry: 
-released: Jun 1, 2022
+released: 2022-06-01
 updated: 2022-06-01
 version: '1.0'
 stars: 

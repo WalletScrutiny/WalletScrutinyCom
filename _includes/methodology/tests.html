@@ -1,25 +1,22 @@
-{%- assign fixedGrouping = "hardware,iphone|android,bearer" | split: "," -%}
+{%- assign fixedGrouping = "hardware,iphone,android,bearer" | split: "," -%}
 
 
 <div class="test-subcat">
-  <h3>Looking for tests we run on <span class="others">other wallet types</span>?</h3>
-  <p>Choose a different subcategory.</p>
   <div title="Test Categories" class="component component-test-categories">
-    <div class="dropdown-options dropdown-test-categories">
+    <div class="dropdown-options dropdown-test-categories linear-switch">
       {% for key in fixedGrouping %}
-      {% case key %}
-      {% when 'hardware' %}
-      <div class="option hardware" data="hardware wallets" data-id="{{key}}"><i class="fas fa-toolbox"></i>
-        <span>Hardware</span></div>
-      {% when 'bearer' %}
-      <div class="option bearer" data="bearer tokens" data-id="{{key}}"><i class="i-btc"></i> <span>Bearer</span></div>
-      {% when 'iphone|android' %}
-      <div class="option selected mobile-wallet-apps" data="mobile wallet apps" data-id="{{key}}"><i
-          class="i-device"></i> <span>Mobile Wallet Apps</span></div>
+      {% if key == 'iphone' %}
+      {% assign name = 'iPhone' %}
       {% else %}
-      <div class="option category-{{key}}" data="{{key}}" data-id="{{key}}"><i class="fas fa-circle"></i>
-        <span>{{key}}</span></div>
-      {% endcase %}
+      {% assign name = key | capitalize %}
+      {% endif %}
+
+      {% if key == 'android' %}
+      {% assign selected = 'selected' %}
+      {% else %}
+      {% assign selected = '' %}
+      {% endif %}
+      <div class="option {{key}} {{selected}}" data="{{key}} wallets" data-id="{{key}}"><span>{{name}}</span></div>
       {% endfor %}
     </div>
   </div>
@@ -29,13 +26,7 @@
   {% for key in fixedGrouping %}
   {% assign verdicts = "" | split: ',' %}
   {% assign metas = "" | split: ',' %}
-
-  {% case key %}
-  {% when 'iphone|android' %}
-  {% assign description = site.data.platformMeta.iphone.description | replace_first: "Apple App Store", "Apple App Store and Google Play Store" %}
-  {% else %}
   {% assign description = site.data.platformMeta[key].description %}
-  {% endcase %}
 
   {%- assign obj = key | split: "|" -%}
   {% for category in obj %}
@@ -56,13 +47,15 @@
   <h2>We answer the following questions usually in this order:</h2>
 
     {% for ver in verdicts %}
-    {% include verdictMethodology.html verdict=ver %}
+    {% include /methodology/section_title.html verdict=ver type="verdict" %}
+    {% include verdictMethodology.html verdict=ver category=key %}
     {% endfor %}
     {% if metas.size != 0 %}
     {% assign metas = metas | uniq %}
       <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+      {% include /methodology/section_title.html type="meta" %}
       {% for meta in metas %}
-      {% include verdictMethodology.html verdict=meta %}
+      {% include verdictMethodology.html verdict=meta category=key %}
       {% endfor %}
     {% endif %}
 </div>
@@ -81,6 +74,7 @@
 
   function processSelectedSubcategory(subcat) {
     const current = subcat?subcat:document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
+    const test = String(window.location.search.split('?')).split("/").length>=3?String(window.location.search.split('?')).split("/")[2]:''
     let unused = ``
     for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (option.getAttribute('data-id')!==current) { option.classList.remove("selected") }else{ option.classList.add("selected") }
@@ -88,12 +82,15 @@
     for (const option of document.querySelectorAll(".dropdown-options .option")) {
       if (!option.classList.contains('selected')) { unused += `, ${option.getAttribute("data")}` }
     }
-    document.querySelector(".test-subcat .others").innerHTML = unused.substring(2)
     for (const method of document.querySelectorAll(".methodology-item")) {
       if (method.getAttribute("data-id") !== current) { method.classList.remove('active') }
       else { method.classList.add('active') }
     }
-    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}`)
+    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
+    if(test){setTimeout(()=>{
+      document.querySelector(`#${current}-${test}`).scrollIntoView({ block: "start" })
+      document.querySelector(`#${current}-${test}`).setAttribute("data-dropdown-open", 'true')
+    },200)}
   }
 
   document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})

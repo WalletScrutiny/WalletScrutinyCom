@@ -7,9 +7,9 @@ authors:
 appId: com.xcapit.iosapp
 appCountry: ar
 idd: '1545648148'
-released: '2020-12-28T08:00:00Z'
-updated: 2023-04-18
-version: 3.19.0
+released: 2020-12-28
+updated: 2023-04-24
+version: 3.19.1
 stars: 4.6
 reviews: 27
 size: '61411328'

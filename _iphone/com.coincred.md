@@ -7,7 +7,7 @@ authors:
 appId: com.coincred
 appCountry: in
 idd: '1596466402'
-released: '2021-12-31T08:00:00Z'
+released: 2021-12-31
 updated: 2022-12-06
 version: 2.0.2
 stars: 3.4

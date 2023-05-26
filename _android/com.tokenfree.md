@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tokenfree
 appCountry: 
-released: Sep 10, 2021
+released: 2021-09-10
 updated: 2021-10-22
 version: '2.1'
 stars: 

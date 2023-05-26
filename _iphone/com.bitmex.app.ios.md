@@ -7,7 +7,7 @@ authors:
 appId: com.bitmex.app.ios
 appCountry: bh
 idd: '1589023233'
-released: '2022-04-11T07:00:00Z'
+released: 2022-04-11
 updated: 2023-04-17
 version: 2.2.14
 stars: 0

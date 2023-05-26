@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pl.icoindeal.CoinDeal.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2022-10-21
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: coindealcom

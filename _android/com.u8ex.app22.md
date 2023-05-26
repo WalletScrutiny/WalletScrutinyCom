@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.u8ex.app22
 appCountry: 
-released: Apr 8, 2022
+released: 2022-04-08
 updated: 2022-04-09
 version: '1.0'
 stars: 

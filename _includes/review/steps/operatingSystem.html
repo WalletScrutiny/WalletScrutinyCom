@@ -1,0 +1,29 @@
+<div class="step operating-system">
+  <i class="i-android circle"></i>
+  <div class="title">
+    <h3>Operating System</h3>
+    <p>
+    {% if page.osNotes %}
+      {{page.osNotes}}
+    {% else %}
+     {{ 'OS security notes not available' }}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.os %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.os %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.os | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

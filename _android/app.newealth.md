@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.newealth
 appCountry: 
-released: Jan 6, 2021
+released: 2021-01-06
 updated: 2021-04-16
 version: 1.2.1
 stars: 

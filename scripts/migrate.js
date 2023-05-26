@@ -3,15 +3,10 @@ const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
 const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
-var verdicts
-try {
-  const x = require('../_site/allVerdicts.js').verdicts
-  verdicts = Object.keys(x)
-} catch (e) {
-  console.error('"Unknown verdict" errors might be safe to ignore if the verdict is new and looks spelled right')
-  // ls -1 _data/verdicts/ | grep yml | sed 's/.yml//g' | paste -sd ","
-  verdicts = 'custodial,fewusers,noita,nowallet,plainkey,sealed-noita,vapor,defunct,ftbfs,nonverifiable,obfuscated,prefilled,sealed-plainkey,wip,diy,nobinary,nosendreceive,obsolete,stale,fake,nobtc,nosource,outdated,reproducible,unreleased'.split(',')
-}
+const fs = require('fs')
+const yaml = require('js-yaml')
+var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'))
+const df = /^\d{4}-\d{2}-\d{2}$/ // the only date format we use
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`
@@ -46,8 +41,14 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`)
       console.error(`# ${folder}${header.appId}.md: ${e}.`)
     }
   }
-  if (!verdicts.includes(header.verdict)) {
-    console.error(`# ${folder}${header.appId}.md uses unknown verdict "${header.verdict}".`)
+  if (!meta[category].verdicts.includes(header.verdict)) {
+    console.error(`# ${folder}${header.appId}.md uses wrong verdict "${header.verdict}".`)
+  }
+  if (!meta[category].metas.includes(header.meta) && 'ok' !== header.meta) {
+    console.error(`# ${folder}${header.appId}.md uses wrong meta "${header.meta}".`)
+  }
+  if (header.released && !df.test(header.released)) {
+    header.released = new Date(Date.parse(header.released))
   }
 }; // crucial semicolon!
 

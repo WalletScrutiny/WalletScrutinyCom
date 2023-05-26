@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.pkg.JusPay
 appCountry: 
-released: Sep 16, 2020
+released: 2020-09-16
 updated: 2020-11-10
 version: 3.0.0
 stars: 

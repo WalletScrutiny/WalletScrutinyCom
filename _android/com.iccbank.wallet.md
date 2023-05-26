@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.iccbank.wallet
 appCountry: 
-released: Jan 29, 2021
+released: 2021-01-29
 updated: 2021-01-29
 version: 1.0.0
 stars: 

@@ -7,12 +7,12 @@ authors:
 appId: com.usenobi.ios
 appCountry: id
 idd: '1510269362'
-released: '2020-07-15T07:00:00Z'
-updated: 2023-02-24
-version: 3.5.2
+released: 2020-07-15
+updated: 2023-05-08
+version: 3.5.3
 stars: 4.8
 reviews: 67
-size: '55609344'
+size: '57792512'
 website: https://usenobi.com
 repository: 
 issue: 

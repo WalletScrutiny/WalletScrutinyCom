@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.stss.bloxxwop
 appCountry: 
-released: May 10, 2021
+released: 2021-05-10
 updated: 2021-05-10
 version: '1.0'
 stars: 

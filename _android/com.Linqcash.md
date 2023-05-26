@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.Linqcash
 appCountry: 
-released: Apr 28, 2020
+released: 2020-04-28
 updated: 2020-05-18
 version: 0.0.2
 stars: 

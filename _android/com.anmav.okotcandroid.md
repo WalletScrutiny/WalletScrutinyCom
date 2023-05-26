@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.anmav.okotcandroid
 appCountry: 
-released: Nov 8, 2019
+released: 2019-11-08
 updated: 2019-12-09
 version: 1.2.0
 stars: 

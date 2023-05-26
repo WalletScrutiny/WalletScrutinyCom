@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.luxmarket
 appCountry: 
-released: Jan 11, 2021
+released: 2021-01-11
 updated: 2021-11-07
 version: 1.0.3
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: jp.co.okasan_online.okasanonline.crypto.prd
 appCountry: 
-released: Jan 28, 2022
+released: 2022-01-28
 updated: 2022-05-11
 version: 1.11.1
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.co.okasan_online.okasanonline.crypto.prd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 

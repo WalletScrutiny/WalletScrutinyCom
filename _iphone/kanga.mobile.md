@@ -7,7 +7,7 @@ authors:
 appId: kanga.mobile
 appCountry: us
 idd: '1471634153'
-released: '2020-02-13T08:00:00Z'
+released: 2020-02-13
 updated: 2022-10-08
 version: 1.12.1
 stars: 3.4

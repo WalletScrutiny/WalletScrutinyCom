@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.web.unitedexchange
 appCountry: 
-released: Jun 16, 2021
-updated: 2023-04-11
-version: '3.6 '
-stars: 4.9
+released: 2021-06-16
+updated: 2023-05-04
+version: '3.7'
+stars: 4.8
 ratings: 
 reviews: 6
 size: 

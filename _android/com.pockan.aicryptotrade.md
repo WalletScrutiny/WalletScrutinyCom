@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.pockan.aicryptotrade
 appCountry: 
-released: Apr 4, 2022
+released: 2022-04-04
 updated: 2022-04-04
 version: '11.0'
 stars: 

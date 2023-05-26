@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.traintechnical.ttgen
 appCountry: 
-released: Aug 31, 2019
+released: 2019-08-31
 updated: 2019-10-07
 version: '1.3'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.wTheTesler_15223307
 appCountry: 
-released: Feb 24, 2022
+released: 2022-02-24
 updated: 2022-02-24
 version: '1.0'
 stars: 

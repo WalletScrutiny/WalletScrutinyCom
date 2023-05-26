@@ -7,11 +7,11 @@ authors:
 appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
-released: '2019-04-17T02:30:04Z'
+released: 2019-04-17
 updated: 2023-01-20
 version: 3.9.0
 stars: 4.3
-reviews: 1754
+reviews: 1759
 size: '153221120'
 website: https://www.bitci.com/
 repository: 

@@ -7,11 +7,11 @@ appId: com.fontaine.FullyNoded
 appCountry: 
 idd: 1436425586
 released: 2018-10-03
-updated: 2023-04-03
-version: 0.6.1
+updated: 2023-05-04
+version: 0.6.5
 stars: 4.9
 reviews: 39
-size: '17111040'
+size: '16916480'
 website: https://fullynoded.app
 repository: 
 issue: 

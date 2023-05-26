@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.letsbit.app
 appCountry: 
-released: May 6, 2022
-updated: 2023-03-27
-version: v1.11.0
+released: 2022-05-06
+updated: 2023-05-04
+version: v1.13.0
 stars: 3.9
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://letsbit.io
 repository: 

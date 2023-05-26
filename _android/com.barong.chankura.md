@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.barong.chankura
 appCountry: 
-released: Oct 28, 2020
+released: 2020-10-28
 updated: 2020-11-02
 version: 1.0.0
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.northcrypto.northcrypto_wearos_app
 appCountry: 
-released: Jul 17, 2020
+released: 2020-07-17
 updated: 2020-07-31
 version: 1.0.0
 stars: 

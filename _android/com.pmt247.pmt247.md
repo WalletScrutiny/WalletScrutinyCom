@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.pmt247.pmt247
 appCountry: 
-released: Oct 2, 2019
+released: 2019-10-02
 updated: 2019-10-02
 version: 1.0.1
 stars: 

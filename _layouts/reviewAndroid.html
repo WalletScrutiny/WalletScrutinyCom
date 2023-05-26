@@ -52,27 +52,7 @@ layout: default
 
       </div>
 
-      <div class="security-overview">
-        <h2>Security overview</h2>
-        <p>Applications undergo a series of steps from development to your device. Find an outline of these steps with security tips and test results for each step below.</p>
-
-        <div class="spacer"></div>
-
-        {% include /review/securitySteps.html platform='android' %}
-
-        <div class="see-also"></div>
-
-        <div class="spacer x2"></div>
-
-        {% include /review/results.html %}
-
-        {% include /review/archive.html %}
-
-        <div class="spacer x2"></div>
-
-      </div>
-
-      
+      {% include /review/securityOverview.html verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
       <div class="article-after disclaimer">
         {% include /review/disclaimer.html %}

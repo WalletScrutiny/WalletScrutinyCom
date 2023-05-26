@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.pellar.xifapp
 appCountry: 
-released: Jun 11, 2018
+released: 2018-06-11
 updated: 2021-06-15
 version: 5.3.7
 stars: 4.9

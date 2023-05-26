@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.n195.app
 appCountry: 
-released: Jul 1, 2019
+released: 2019-07-01
 updated: 2019-07-01
 version: 1.0.1
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.abit.abitraderapp
 appCountry: 
-released: May 18, 2021
+released: 2021-05-18
 updated: 2021-12-11
 version: 2.9.7
 stars: 3.8

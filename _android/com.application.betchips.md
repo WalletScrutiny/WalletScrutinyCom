@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.application.betchips
 appCountry: 
-released: Mar 20, 2020
+released: 2020-03-20
 updated: 2020-04-24
 version: '1.4'
 stars: 

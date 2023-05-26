@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.niuupeak.app
 appCountry: 
-released: Jul 2, 2020
+released: 2020-07-02
 updated: 2020-07-02
 version: '1.0'
 stars: 

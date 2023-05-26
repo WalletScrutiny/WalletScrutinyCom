@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tabank
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2022-02-14
 version: 1.3.7
 stars: 

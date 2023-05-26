@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.interakt.pakt
 appCountry: 
-released: Jan 20, 2020
+released: 2020-01-20
 updated: 2020-01-22
 version: 0.0.2
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tentybit.otc
 appCountry: 
-released: Jun 12, 2019
+released: 2019-06-12
 updated: 2019-06-21
 version: '1.2'
 stars: 

@@ -30,7 +30,7 @@
   p,
   ul,
   ol {
-    font-weight: 300;
+    font-weight: $paragraph-font-weight;
   }
   a {
     text-decoration: underline;
@@ -55,6 +55,7 @@
       }
       .verdict-methodology-head {
         align-items: center;
+        flex-wrap: nowrap;
       }
       .chevron {
         pointer-events: none;

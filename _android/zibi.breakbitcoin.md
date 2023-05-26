@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-17
 updated: 2021-03-17
 version: '2.00'
-stars: 3.8
+stars: 4
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: 
 repository: 

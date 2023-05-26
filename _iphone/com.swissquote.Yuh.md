@@ -7,12 +7,12 @@ authors:
 appId: com.swissquote.Yuh
 appCountry: ch
 idd: '1493935010'
-released: '2021-05-10T07:00:00Z'
-updated: 2023-03-17
-version: 1.13.2
+released: 2021-05-10
+updated: 2023-05-09
+version: 1.14.0
 stars: 4.7
-reviews: 6725
-size: '67756032'
+reviews: 6981
+size: '78764032'
 website: https://www.yuh.com
 repository: 
 issue: 

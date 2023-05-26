@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.eyewallet.io
 appCountry: 
-released: Jul 26, 2019
+released: 2019-07-26
 updated: 2020-07-02
 version: 4.5.7
 stars: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.tedachain.app
 appCountry: 
-released: Mar 17, 2022
+released: 2022-03-17
 updated: 2022-04-01
 version: 2.6.7
 stars: 4.4

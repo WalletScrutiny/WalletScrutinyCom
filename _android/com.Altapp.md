@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.Altapp
 appCountry: 
-released: Jun 27, 2019
+released: 2019-06-27
 updated: 2019-08-02
 version: '1.1'
 stars: 

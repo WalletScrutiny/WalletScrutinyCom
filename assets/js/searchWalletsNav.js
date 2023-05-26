@@ -81,6 +81,10 @@ function searchTrigger() {
 }
 window.temporarySearchValue = ""
 function searchCatalogueNav(input) {
+  if (window.isHomepage) {
+    deferSearch(input)
+    return
+  }
   document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
@@ -136,9 +140,17 @@ function searchCatalogueNav(input) {
   searchScrollToTop()
 }
 
+function deferSearch(input) {
+  document.querySelector("#homepageSearch").scrollIntoView({ block: "start" })
+  document.querySelector(".search-filtered-wallets").value = input
+  filterWalletsByName()
+  document.querySelector(".search-filtered-wallets").focus()
+}
+
 function getIcon(name) {
   let faCollection = ''
   switch (name) {
+    case "all": faCollection = "i-all-devices"; break
     case "android": faCollection = "fab fa-google-play"; break
     case "iphone": faCollection = "i-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break

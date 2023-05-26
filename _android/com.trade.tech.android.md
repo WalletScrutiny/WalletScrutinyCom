@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.trade.tech.android
 appCountry: 
-released: Jan 2, 2019
+released: 2019-01-02
 updated: 2022-07-29
 version: 1.15.0
 stars: 

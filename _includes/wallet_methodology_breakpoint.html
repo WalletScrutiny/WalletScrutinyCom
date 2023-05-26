@@ -1,0 +1,12 @@
+{% if include.meta != "ok" %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
+{% else %}
+  {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
+{% endif %}
+{% assign count = 1 %}
+{% for criterion in criteria %}
+  {% if include.verdict == criterion %}
+    {% break %}
+  {% endif %}
+  {% assign count = count | plus: 1 %}
+{% endfor %}

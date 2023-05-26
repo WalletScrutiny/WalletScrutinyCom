@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.capitalika.exhange
 appCountry: 
-released: Mar 18, 2019
+released: 2019-03-18
 updated: 2022-06-06
 version: 2.0.12
 stars: 1.8

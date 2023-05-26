@@ -1,0 +1,29 @@
+<div class="step smartphone">
+  <i class="i-device circle"></i>
+  <div class="title">
+    <h3>Smartphone</h3>
+    <p>
+    {% if page.deviceNotes %}
+      {{page.deviceNotes}}
+    {% else %}
+     {{ 'Device security notes not available' }}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.notes %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.notes %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.notes | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

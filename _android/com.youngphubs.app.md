@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.youngphubs.app
 appCountry: 
-released: Oct 6, 2019
+released: 2019-10-06
 updated: 2019-10-06
 version: '2.0'
 stars: 

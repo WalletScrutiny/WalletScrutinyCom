@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.cedigo
 appCountry: 
-released: Aug 19, 2020
+released: 2020-08-19
 updated: 2020-10-29
 version: '1.3'
 stars: 

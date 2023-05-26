@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.mymoneymachine.app
 appCountry: 
-released: Apr 19, 2022
+released: 2022-04-19
 updated: 2022-08-05
 version: '1.4'
 stars: 

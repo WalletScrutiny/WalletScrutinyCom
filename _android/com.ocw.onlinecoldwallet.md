@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ocw.onlinecoldwallet
 appCountry: 
-released: Oct 1, 2021
+released: 2021-10-01
 updated: 2022-05-27
 version: 2.2.0
 stars: 

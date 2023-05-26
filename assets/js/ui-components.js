@@ -3,6 +3,7 @@ document.body.addEventListener("click", () => { document.querySelectorAll(".drop
 
 function resetDropdowns(event, parent) {
   event.stopPropagation()
+  if (parent.classList.contains("linear-switch")) { return }
   if (parent.classList.contains("opened")) {
     parent.classList.remove("opened")
   } else {

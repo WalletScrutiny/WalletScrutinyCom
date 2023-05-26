@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.javvy
 appCountry: 
-released: Jul 14, 2018
+released: 2018-07-14
 updated: 2019-05-16
 version: 1.0.4
 stars: 5

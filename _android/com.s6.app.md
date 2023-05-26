@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.s6.app
 appCountry: 
-released: Mar 1, 2022
+released: 2022-03-01
 updated: 2023-02-01
 version: 1.1.2
 stars: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ZebPay Crypto Exchange
+title: 'ZebPay: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 5000000
 appId: zebpay.Application
 appCountry: 
 released: 2014-12-23
-updated: 2023-03-14
-version: 3.24.00
+updated: 2023-04-26
+version: 3.25.01
 stars: 3.3
 ratings: 103840
 reviews: 72

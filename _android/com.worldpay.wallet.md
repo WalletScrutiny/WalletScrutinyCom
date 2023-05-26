@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.worldpay.wallet
 appCountry: 
-released: Feb 11, 2019
+released: 2019-02-11
 updated: 2019-06-19
 version: 1.0.3
 stars: 2.1

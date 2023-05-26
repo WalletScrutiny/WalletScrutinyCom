@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: net.primecoin.app.gemmer
 appCountry: 
-released: Dec 20, 2020
+released: 2020-12-20
 updated: 2021-12-24
 version: 0.4.4
 stars: 

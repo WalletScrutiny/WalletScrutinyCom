@@ -10,9 +10,9 @@ appCountry: jp
 released: 2019-10-19
 updated: 2023-04-19
 version: VARY
-stars: 3.9
+stars: 4
 ratings: 4430
-reviews: 1450
+reviews: 1455
 size: 
 website: https://bitflyer.com
 repository: 

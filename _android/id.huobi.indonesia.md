@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: id.huobi.indonesia
 appCountry: 
-released: Mar 9, 2020
+released: 2020-03-09
 updated: 2021-07-01
 version: 2.0.2
 stars: 

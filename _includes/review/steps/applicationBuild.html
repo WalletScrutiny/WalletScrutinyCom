@@ -1,0 +1,39 @@
+<div class="step application-build">
+  {% if page.verdict == 'reproducible' %}
+  <i class="i-reproducible circle"></i>
+  {% else %}
+  <i class="i-reproducible circle disabled"></i>
+  {% endif %}
+  <div class="title">
+    <h3>Application build</h3>
+    <p>
+      {% assign v=site.data.verdicts[page.verdict] %}
+      {{ v.message }}
+    </p>
+    <a class="" href="#result">See test result</a>
+  </div>
+  <div class="data">
+    {% if page.date %}
+    <span>
+      {{'Tested '}}
+      <span class="calculate-time-elapsed" data="{{ page.date | date: '%s' }}">
+        {{ page.date | date_to_long_string: "ordinal" }}
+      </span>
+    </span>
+    {% endif %}
+  </div>
+  {% if page.tooltip.verdict %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.verdict %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.verdict | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

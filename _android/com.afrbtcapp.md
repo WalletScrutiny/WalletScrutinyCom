@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.afrbtcapp
 appCountry: 
-released: May 5, 2019
+released: 2019-05-05
 updated: 2023-02-20
 version: 4.0.3
 stars: 3.9

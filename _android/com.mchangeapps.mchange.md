@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.mchangeapps.mchange
 appCountry: 
-released: Sep 1, 2021
+released: 2021-09-01
 updated: 2021-09-02
 version: '1.0'
 stars: 

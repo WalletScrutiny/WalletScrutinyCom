@@ -10,9 +10,9 @@ appCountry: cn
 released: 2019-08-11
 updated: 2022-10-03
 version: 2.4.5
-stars: 3.8
+stars: 3.7
 ratings: 400
-reviews: 289
+reviews: 290
 size: 
 website: https://www.bytesmix.com
 repository: 

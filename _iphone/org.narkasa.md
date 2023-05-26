@@ -7,7 +7,7 @@ authors:
 appId: org.narkasa
 appCountry: us
 idd: '1530697327'
-released: '2020-11-14T08:00:00Z'
+released: 2020-11-14
 updated: 2021-04-11
 version: '1.27'
 stars: 0

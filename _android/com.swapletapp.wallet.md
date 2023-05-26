@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.swapletapp.wallet
 appCountry: 
-released: Sep 1, 2019
+released: 2019-09-01
 updated: 2019-12-08
 version: 1.1.4
 stars: 

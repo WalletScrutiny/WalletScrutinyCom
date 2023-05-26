@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.paed.paed
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2022-02-25
 version: 1.0.0
 stars: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-06-11
 updated: 2022-10-14
 version: 0.5.32
-stars: 3.9
+stars: 4
 ratings: 225
-reviews: 44
+reviews: 45
 size: 
 website: https://www.coinigy.com
 repository: 

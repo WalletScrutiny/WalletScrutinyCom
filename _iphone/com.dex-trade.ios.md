@@ -10,8 +10,8 @@ idd: 1496672790
 released: 2020-01-28
 updated: 2023-03-31
 version: 2.1.8
-stars: 3.3
-reviews: 6
+stars: 3
+reviews: 7
 size: '8896512'
 website: https://dex-trade.com/
 repository: 

@@ -2,11 +2,12 @@
 wsId: 
 title: Bitcoin InstaForex
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.instaforex.bitcoin
 appCountry: 
-released: Dec 15, 2016
+released: 2016-12-15
 updated: 2020-08-26
 version: 0.12.3
 stars: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.instaforex.bitcoin.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,4 @@ features:
 
 ---
 
+The app is no longer on Google Play (404).

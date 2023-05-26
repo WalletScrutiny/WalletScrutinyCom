@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ttchain.poseidon
 appCountry: 
-released: Apr 8, 2020
+released: 2020-04-08
 updated: 2020-07-30
 version: 1.0.9
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.libonomywallet
 appCountry: 
-released: Sep 10, 2021
+released: 2021-09-10
 updated: 2022-03-24
 version: 2.1.0
 stars: 

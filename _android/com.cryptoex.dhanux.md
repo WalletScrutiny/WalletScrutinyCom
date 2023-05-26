@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cryptoex.dhanux
 appCountry: 
-released: Mar 2, 2022
+released: 2022-03-02
 updated: 2023-01-12
 version: '4.2'
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitcoinmatak.tmki
 appCountry: 
-released: Apr 27, 2022
+released: 2022-04-27
 updated: 2022-06-22
 version: '4.8'
 stars: 4.8

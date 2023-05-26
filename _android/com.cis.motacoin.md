@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.cis.motacoin
 appCountry: 
-released: Oct 2, 2021
+released: 2021-10-02
 updated: 2022-05-05
 version: '2.0'
 stars: 

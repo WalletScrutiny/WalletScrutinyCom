@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: au.com.btex.app
 appCountry: 
-released: Jan 15, 2020
+released: 2020-01-15
 updated: 2020-01-19
 version: 1.0.2
 stars: 

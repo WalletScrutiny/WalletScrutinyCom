@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.xm.exchief
 appCountry: 
-released: Dec 18, 2019
+released: 2019-12-18
 updated: 2020-01-28
 version: 4.1.1_exchief
 stars: 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.starbase.wallet
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2021-10-20
 version: 0.22.1
 stars: 3.6

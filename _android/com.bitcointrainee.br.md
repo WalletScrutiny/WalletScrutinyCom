@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitcointrainee.br
 appCountry: 
-released: Sep 9, 2018
+released: 2018-09-09
 updated: 2018-09-10
 version: 1.0.4
 stars: 

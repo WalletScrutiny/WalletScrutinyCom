@@ -8,22 +8,27 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2023-04-18
-version: 4.0.1
+updated: 2023-05-04
+version: 4.0.4
 stars: 4.5
 ratings: 946
-reviews: 110
+reviews: 111
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
-issue: https://github.com/Blockstream/green_android/issues/124
+issue: https://github.com/Blockstream/green_android/issues/169
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2022-11-01
+verdict: nonverifiable
+date: 2023-04-27
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2022-11-01
+  version: 3.8.9
+  appHash: c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
+  gitRevision: c8239d1de8b6982590daf5d7222f0f8bc991e185
+  verdict: reproducible
 - date: 2022-08-07
   version: 3.8.2
   appHash: 76127774e3e59557e605fb5b4e8804f8d2c0ef03dd0eabe8de48df0fe49f0ca3
@@ -204,25 +209,26 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 3.8.9
-apkVersionCode: 22000389
-verdict:        reproducible
-appHash:        c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
-commit:         c8239d1de8b6982590daf5d7222f0f8bc991e185
+apkVersionName: 4.0.1
+apkVersionCode: 22000401
+verdict:        nonverifiable
+appHash:        70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
+commit:         c6738c5565f1c594288b7a05130fc1af89fc7561
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000389/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object c8239d1de8b6982590daf5d7222f0f8bc991e185
+object c6738c5565f1c594288b7a05130fc1af89fc7561
 type commit
-tag release_3.8.9
-tagger Domenico Gabriele <domenico@blockstream.com> 1665492338 +0200
+tag release_4.0.1
+tagger Domenico Gabriele <domenico@blockstream.com> 1681853805 +0200
 
-Release 3.8.9
+Release 4.0.1
 ===== End Results =====
 ```
 
-which is what we want to see to give it the verdict **reproducible**.
+The diff for this version shows some differences in `baseline.profm` which is a binary file and we cannot verify reproducibility of this version, So we give it the verdict **nonverifiable**.

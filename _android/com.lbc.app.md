@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.lbc.app
 appCountry: 
-released: Jun 25, 2020
+released: 2020-06-25
 updated: 2020-08-07
 version: 1.0.0
 stars: 

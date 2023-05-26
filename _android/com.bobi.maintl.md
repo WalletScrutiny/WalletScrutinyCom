@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bobi.maintl
 appCountry: 
-released: Mar 18, 2021
+released: 2021-03-18
 updated: 2021-06-17
 version: 0.2.3
 stars: 
