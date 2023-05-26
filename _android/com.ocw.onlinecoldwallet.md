@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-02-28
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: ocwallet

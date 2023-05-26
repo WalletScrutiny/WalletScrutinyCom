@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptiswap.org/
+website: https://www.myquantex.com
 repository: 
 issue: 
 icon: com.cryptiswap.png

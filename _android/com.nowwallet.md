@@ -1,6 +1,6 @@
 ---
 wsId: nowWallet
-title: 'NOW Wallet: Buy Bitcoin Crypto'
+title: 'NOW Wallet: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2023-05-05
-version: 3.5.7
+updated: 2023-05-17
+version: 3.6.0
 stars: 4.5
 ratings: 
 reviews: 67

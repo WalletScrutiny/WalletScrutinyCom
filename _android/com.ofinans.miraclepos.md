@@ -7,8 +7,8 @@ users: 10
 appId: com.ofinans.miraclepos
 appCountry: 
 released: 2022-04-30
-updated: 2023-04-17
-version: 1.3.1
+updated: 2023-05-15
+version: 1.3.3
 stars: 
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ appId: org.studentcoin.mobile
 appCountry: pl
 idd: 1559718559
 released: 2021-03-30
-updated: 2023-04-18
-version: 1.15.0
+updated: 2023-05-14
+version: 1.15.1
 stars: 4.7
 reviews: 21
 size: '25800704'

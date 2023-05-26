@@ -8,8 +8,8 @@ users: 10000
 appId: com.bchi.haruinvestapp
 appCountry: us
 released: 2021-08-11
-updated: 2023-04-28
-version: 5.0.0
+updated: 2023-05-15
+version: 5.1.0
 stars: 4.7
 ratings: 277
 reviews: 48

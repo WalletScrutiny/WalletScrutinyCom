@@ -4,7 +4,7 @@ title: Relampago
 altTitle: 
 authors:
 - danny
-users: 50
+users: 100
 appId: xyz.bigsun.relampago
 appCountry: 
 released: 

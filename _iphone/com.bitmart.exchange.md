@@ -1,6 +1,6 @@
 ---
 wsId: bitmart
-title: 'BitMart: Trade BTC, ETH, SHIB'
+title: 'BitMart: Trade BTC, ETH, DOGE'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2023-02-13
-version: 2.11.13
+updated: 2023-05-20
+version: 2.12.5
 stars: 3
-reviews: 3148
-size: '100733952'
+reviews: 3119
+size: '110111744'
 website: https://www.bitmart.com/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 100000
 appId: io.gosats
 appCountry: 
 released: 2021-01-06
-updated: 2023-05-08
-version: 2.3.2
+updated: 2023-05-23
+version: 2.3.5
 stars: 2.3
 ratings: 
 reviews: 4

@@ -3,7 +3,7 @@ wsId:
 title: AfrBTC:Sell Gift Cards& Redeem
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.afrbtcapp
 appCountry: 
 released: 2019-05-05

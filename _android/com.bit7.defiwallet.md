@@ -3,7 +3,7 @@ wsId:
 title: 'DeXoo: Crypto DeFi wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bit7.defiwallet
 appCountry: 
 released: 2022-05-18

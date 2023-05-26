@@ -3,11 +3,11 @@ wsId:
 title: AInvesting - CFD trading
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.uptrend.ainvesting
 appCountry: 
 released: 
-updated: 2023-04-28
+updated: 2023-05-12
 version: 7.0.9
 stars: 
 ratings: 

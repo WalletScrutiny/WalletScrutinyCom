@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.studio.clubok.cryptobot.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-08
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 

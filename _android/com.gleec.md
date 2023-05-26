@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 6
 size: 
-website: https://gleec.com
+website: https://gleec.com/app-ads.txt
 repository: 
 issue: 
 icon: com.gleec.png
