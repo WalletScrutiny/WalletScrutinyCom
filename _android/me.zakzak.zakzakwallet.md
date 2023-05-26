@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: me.zakzak.zakzakwallet
 appCountry: 
-released: Apr 1, 2019
+released: 2019-04-01
 updated: 2020-06-10
 version: '2.3'
 stars: 

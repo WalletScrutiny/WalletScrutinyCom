@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: cryptowallets.n101
 appCountry: 
-released: Dec 24, 2021
+released: 2021-12-24
 updated: 2021-12-24
 version: '1.01'
 stars: 

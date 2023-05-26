@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: infii.app.ionewallet
 appCountry: 
-released: Mar 12, 2020
+released: 2020-03-12
 updated: 2020-05-12
 version: 1.0.3
 stars: 

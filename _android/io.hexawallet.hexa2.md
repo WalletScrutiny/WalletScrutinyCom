@@ -8,13 +8,13 @@ users: 1000
 appId: io.hexawallet.hexa2
 appCountry: in
 released: 2021-09-30
-updated: 2023-04-29
-version: 2.1.5
+updated: 2023-05-12
+version: 2.1.7
 stars: 5
 ratings: 30
 reviews: 5
 size: 
-website: https://hexawallet.io/
+website: https://bitcointribe.app/
 repository: https://github.com/bithyve/hexa
 issue: 
 icon: io.hexawallet.hexa2.png

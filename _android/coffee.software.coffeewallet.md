@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: coffee.software.coffeewallet
 appCountry: 
-released: Jun 4, 2018
+released: 2018-06-04
 updated: 2022-07-13
 version: '0.22'
 stars: 4.3

@@ -7,7 +7,7 @@ authors:
 appId: im.immune.app
 appCountry: ru
 idd: '1489335158'
-released: '2019-12-09T08:00:00Z'
+released: 2019-12-09
 updated: 2023-03-27
 version: 2.0.33
 stars: 5

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.wBlocklink_11263223
 appCountry: 
-released: Aug 26, 2020
+released: 2020-08-26
 updated: 2020-08-26
 version: '1.0'
 stars: 

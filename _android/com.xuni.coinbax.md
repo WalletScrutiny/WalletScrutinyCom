@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.xuni.coinbax
 appCountry: 
-released: Oct 14, 2021
+released: 2021-10-14
 updated: 2021-10-14
 version: '1.0'
 stars: 

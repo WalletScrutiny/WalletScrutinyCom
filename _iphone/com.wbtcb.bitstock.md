@@ -7,12 +7,12 @@ authors:
 appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
-released: '2020-06-22T07:00:00Z'
-updated: 2022-11-02
-version: 2.5.1
+released: 2020-06-22
+updated: 2023-05-22
+version: 2.6.0
 stars: 5
 reviews: 1
-size: '68898816'
+size: '69480448'
 website: https://bit.plus
 repository: 
 issue: 

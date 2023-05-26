@@ -1,13 +1,13 @@
 ---
 wsId: vault12
-title: 'Vault12 Guard: Inherit Web3'
+title: 'Vault12 Guard: Inherit+Secure'
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.vault12.vault12
 appCountry: 
-released: Aug 28, 2019
+released: 2019-08-28
 updated: 2023-04-14
 version: 2.0.4
 stars: 4.3

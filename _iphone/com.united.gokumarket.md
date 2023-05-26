@@ -7,7 +7,7 @@ authors:
 appId: com.united.gokumarket
 appCountry: in
 idd: '1489128011'
-released: '2019-12-02T08:00:00Z'
+released: 2019-12-02
 updated: 2022-05-03
 version: '1.28'
 stars: 4.5

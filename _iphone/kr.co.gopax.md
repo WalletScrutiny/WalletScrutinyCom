@@ -8,11 +8,11 @@ appId: kr.co.gopax
 appCountry: kr
 idd: 1369896843
 released: 2018-06-21
-updated: 2023-04-25
-version: 2.2.5
+updated: 2023-05-15
+version: 2.2.7
 stars: 2.9
 reviews: 487
-size: '109129728'
+size: '109092864'
 website: https://www.gopax.co.kr/notice
 repository: 
 issue: 

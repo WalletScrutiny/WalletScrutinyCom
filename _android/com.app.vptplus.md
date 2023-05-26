@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.vptplus
 appCountry: 
-released: Sep 2, 2020
+released: 2020-09-02
 updated: 2022-11-09
 version: '4.0'
 stars: 

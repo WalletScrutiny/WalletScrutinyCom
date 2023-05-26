@@ -8,11 +8,11 @@ users: 100000
 appId: com.czprime
 appCountry: 
 released: 2020-06-11
-updated: 2023-04-12
-version: 1.5.64
-stars: 3.6
+updated: 2023-05-19
+version: 1.5.65
+stars: 3.5
 ratings: 2461
-reviews: 398
+reviews: 402
 size: 
 website: https://www.coinzoom.com
 repository: 

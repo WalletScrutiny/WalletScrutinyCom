@@ -3,10 +3,10 @@ wsId:
 title: Klepon Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.klepon.wallet
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2022-03-29
 version: '1.0'
 stars: 

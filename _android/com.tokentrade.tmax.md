@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tokentrade.tmax
 appCountry: 
-released: Nov 3, 2020
+released: 2020-11-03
 updated: 2020-11-04
 version: 3.5.6
 stars: 

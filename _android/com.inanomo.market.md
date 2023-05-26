@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.inanomo.market
 appCountry: 
-released: Apr 6, 2021
+released: 2021-04-06
 updated: 2022-08-23
 version: 1.1.0
 stars: 

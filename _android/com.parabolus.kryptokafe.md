@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.parabolus.kryptokafe
 appCountry: 
-released: Feb 19, 2021
+released: 2021-02-19
 updated: 2022-05-18
 version: 1.0.8
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.parabolus.kryptokafe.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

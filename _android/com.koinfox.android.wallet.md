@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.koinfox.android.wallet
 appCountry: 
-released: Jan 25, 2019
+released: 2019-01-25
 updated: 2020-07-21
 version: '2.0'
 stars: 

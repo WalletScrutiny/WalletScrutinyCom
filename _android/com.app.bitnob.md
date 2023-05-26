@@ -4,15 +4,15 @@ title: Bitnob
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.app.bitnob
 appCountry: us
 released: 2020-05-25
-updated: 2023-04-27
-version: 1.0.132
-stars: 3.9
+updated: 2023-05-05
+version: 1.0.133
+stars: 3.8
 ratings: 275
-reviews: 31
+reviews: 33
 size: 
 website: https://bitnob.com
 repository: 

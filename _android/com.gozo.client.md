@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.gozo.client
 appCountry: 
-released: Mar 28, 2019
+released: 2019-03-28
 updated: 2023-01-11
 version: 4.39.8
 stars: 

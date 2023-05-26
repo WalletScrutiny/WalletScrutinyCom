@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.optherium.wallet
 appCountry: 
-released: Aug 23, 2018
+released: 2018-08-23
 updated: 2019-03-12
 version: 1.3.5
 stars: 5

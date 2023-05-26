@@ -7,11 +7,11 @@ authors:
 appId: com.coingrig.app
 appCountry: us
 idd: '1583464451'
-released: '2021-11-05T07:00:00Z'
+released: 2021-11-05
 updated: 2022-06-22
 version: 1.3.11
-stars: 5
-reviews: 1
+stars: 0
+reviews: 0
 size: '42355712'
 website: https://coingrig.com
 repository: https://github.com/coingrig/coingrig-wallet

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.overline
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2021-09-16
 version: '1.1'
 stars: 4.5

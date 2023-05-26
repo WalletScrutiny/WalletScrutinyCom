@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.kpapwallet
 appCountry: 
-released: Mar 23, 2020
+released: 2020-03-23
 updated: 2020-07-06
 version: 1.0.3
 stars: 

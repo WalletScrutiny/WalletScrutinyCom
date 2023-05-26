@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.botcoinpro.quant
 appCountry: 
-released: Jun 5, 2021
+released: 2021-06-05
 updated: 2021-06-29
 version: 1.0.3
 stars: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.botcoinpro.quant.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2023-01-18
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.nonadirect
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-05-20
 version: '2.0'
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nonadirect.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.upreactiveboilerplate
 appCountry: 
-released: Jan 16, 2021
+released: 2021-01-16
 updated: 2021-05-25
 version: 1.5.2
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.upreactiveboilerplate.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

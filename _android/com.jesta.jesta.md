@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.jesta.jesta
 appCountry: 
-released: Apr 15, 2022
+released: 2022-04-15
 updated: 2022-04-15
 version: 1.0.0
 stars: 

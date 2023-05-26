@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.paapaasi
 appCountry: 
-released: Aug 24, 2021
+released: 2021-08-24
 updated: 2021-09-15
 version: '1.0'
 stars: 

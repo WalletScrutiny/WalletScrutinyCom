@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: existv2.com
 appCountry: 
-released: Jun 29, 2019
+released: 2019-06-29
 updated: 2019-06-30
 version: '3.0'
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 4
 size: 

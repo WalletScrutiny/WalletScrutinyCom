@@ -9,10 +9,10 @@ appCountry: cl
 idd: 1486999955
 released: 2019-11-15
 updated: 2023-04-29
-version: 5.3.0
+version: 5.2.3
 stars: 4.7
 reviews: 106
-size: '55985152'
+size: '53438464'
 website: https://www.vitawallet.io
 repository: 
 issue: 

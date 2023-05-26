@@ -3,10 +3,10 @@ wsId:
 title: MyPaytril - Crypto Exchanger
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mypaytrilversion2.mypaytrilversion2
 appCountry: 
-released: Oct 25, 2021
+released: 2021-10-25
 updated: 2021-10-25
 version: '2.0'
 stars: 

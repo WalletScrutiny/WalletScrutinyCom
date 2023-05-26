@@ -7,12 +7,12 @@ authors:
 appId: com.TrendluxOU.trendlux
 appCountry: us
 idd: '1370977008'
-released: '2018-05-14T01:40:40Z'
-updated: 2023-03-22
-version: '3.5'
+released: 2018-05-14
+updated: 2023-05-02
+version: 3.5.1
 stars: 4.7
-reviews: 2549
-size: '95959040'
+reviews: 2565
+size: '95251456'
 website: https://3commas.io/blog
 repository: 
 issue: 

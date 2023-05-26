@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.application.biexm
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2022-02-24
 version: '1.1'
 stars: 

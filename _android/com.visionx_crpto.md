@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.visionx_crpto
 appCountry: 
-released: Feb 21, 2021
+released: 2021-02-21
 updated: 2021-03-28
 version: 1.0.6
 stars: 

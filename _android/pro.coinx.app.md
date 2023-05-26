@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: pro.coinx.app
 appCountry: 
-released: Oct 11, 2018
+released: 2018-10-11
 updated: 2020-01-15
 version: 1.0.23
 stars: 

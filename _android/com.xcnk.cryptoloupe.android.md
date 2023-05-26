@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xcnk.cryptoloupe.android
 appCountry: 
-released: Jul 2, 2021
+released: 2021-07-02
 updated: 2022-02-01
 version: 1.0.5
 stars: 3.5

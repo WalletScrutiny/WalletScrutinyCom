@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.botcex
 appCountry: 
-released: May 29, 2021
+released: 2021-05-29
 updated: 2021-05-30
 version: '1.3'
 stars: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.botcex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

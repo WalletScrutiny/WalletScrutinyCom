@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.unime.securesms
 appCountry: 
-released: Mar 28, 2021
+released: 2021-03-28
 updated: 2022-11-01
 version: 4.3.0
 stars: 5

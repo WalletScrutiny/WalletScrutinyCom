@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: eu.bitdorado.app
 appCountry: 
-released: May 1, 2021
+released: 2021-05-01
 updated: 2022-05-02
 version: 1.0.15
 stars: 

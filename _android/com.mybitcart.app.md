@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.mybitcart.app
 appCountry: 
-released: Apr 23, 2020
+released: 2020-04-23
 updated: 2020-04-24
 version: 1.0.0
 stars: 

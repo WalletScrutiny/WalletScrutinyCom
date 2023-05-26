@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.finnswap.app
 appCountry: 
-released: Mar 14, 2022
+released: 2022-03-14
 updated: 2022-03-14
 version: '1.0'
 stars: 

@@ -12,7 +12,7 @@ updated: 2023-04-27
 version: 4.5.0
 stars: 4.5
 ratings: 1170
-reviews: 122
+reviews: 124
 size: 
 website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO

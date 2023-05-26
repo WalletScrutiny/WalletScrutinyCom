@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tech2mart
 appCountry: 
-released: Apr 23, 2020
+released: 2020-04-23
 updated: 2020-04-23
 version: '1.0'
 stars: 

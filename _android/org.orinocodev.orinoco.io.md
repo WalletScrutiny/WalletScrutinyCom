@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: org.orinocodev.orinoco.io
 appCountry: 
-released: Apr 26, 2020
-updated: 2023-04-24
+released: 2020-04-26
+updated: 2023-05-18
 version: 1.0.0
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 10
 size: 

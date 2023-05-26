@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.fixttoken.wallet
 appCountry: 
-released: Aug 26, 2019
+released: 2019-08-26
 updated: 2019-08-27
 version: 2.0.7
 stars: 

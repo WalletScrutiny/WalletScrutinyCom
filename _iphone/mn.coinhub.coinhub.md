@@ -7,7 +7,7 @@ authors:
 appId: mn.coinhub.coinhub
 appCountry: us
 idd: '1585102002'
-released: '2021-09-23T07:00:00Z'
+released: 2021-09-23
 updated: 2023-04-19
 version: 1.3.3
 stars: 3.5

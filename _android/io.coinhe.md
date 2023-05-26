@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: io.coinhe
 appCountry: 
-released: Mar 19, 2019
+released: 2019-03-19
 updated: 2020-06-05
 version: 1.0.6.7
 stars: 4.5

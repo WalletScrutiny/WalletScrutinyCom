@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: ps.bitcoinfaucet.app
 appCountry: 
-released: Oct 9, 2021
+released: 2021-10-09
 updated: 2022-02-17
 version: 1.29b
 stars: 4.5

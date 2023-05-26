@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xccg.xchange
 appCountry: 
-released: May 12, 2020
+released: 2020-05-12
 updated: 2020-06-07
 version: '1.1'
 stars: 

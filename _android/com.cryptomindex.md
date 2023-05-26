@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cryptomindex
 appCountry: 
-released: Aug 17, 2021
+released: 2021-08-17
 updated: 2021-08-17
 version: '1.0'
 stars: 
