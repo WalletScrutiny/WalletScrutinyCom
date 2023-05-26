@@ -3,6 +3,7 @@ name: Leo Wandersleb
 short: lw
 since: 2019-11-15
 avatar: leo.jpg
+role: Wallet Reviewer, Founder
 ---
 
 Leo is the founder and main contributor to WalletScrutiny. From October 2015 to
