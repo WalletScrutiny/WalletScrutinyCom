@@ -3,10 +3,11 @@ title: KeepKey
 appId: keepKey
 authors:
 - leo
+- Mohammad
 released: 2014-08-01
 discontinued: 
-updated: 2022-04-26
-version: 7.3.2
+updated: 2023-04-15
+version: 7.8.0
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -20,14 +21,19 @@ shop: https://shapeshift.com/keepkey
 country: US
 price: 49USD
 repository: https://github.com/keepkey/keepkey-firmware
-issue: https://github.com/keepkey/keepkey-firmware/issues/283
+issue: https://github.com/keepkey/keepkey-firmware/issues/342
 icon: keepKey.png
 bugbounty: 
-meta: outdated
-verdict: reproducible
-date: 2022-08-07
+meta: ok
+verdict: nonverifiable
+date: 2023-05-25
 signer: 
 reviewArchive:
+- date: 2022-08-07
+  version: 7.2.1
+  appHash: c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff
+  gitRevision: d676685e46f55e2adc586138dab8ad0506505969
+  verdict: reproducible
 - date: 2021-07-31
   version: 7.1.7
   appHash: 2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594
@@ -39,7 +45,37 @@ social:
 features: 
 
 ---
+**Update 2023-05-25**
+Running
+[our script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh)
+on v7.8.0 we get these results:
 
+```
+$ scripts/test/hardware/keepKey.sh 7.8.0
+...
+31c1cdd945a7331e01b3cced866cb28add5b49eef87c2bbc08370e5aa7daf9bf  firmware.keepkey.bin
+b0fc047c7789bee9fba72e5720fb5c8129c9a32f94f7fe9dca4f4675c8d3ddc2  -
+aa5d303ae15d2b5dd3ace06ad4d8665c644efbfba1946c25aa5e25d6d17ed917  -
+```
+The diff of the binaries after removing the signature is as follows:
+
+```
+18563,18566c18563,18566
+< 00048820: 3a00 556e 6b6e 6f77 6e00 3036 3834 3465  :.Unknown.06844e
+< 00048830: 6239 3761 3765 3563 3430 6366 6161 3835  b97a7e5c40cfaa85
+< 00048840: 3232 3935 3437 6163 3534 6235 3734 6536  229547ac54b574e6
+< 00048850: 3339 004e 6f74 2069 6e20 626f 6f74 6c6f  39.Not in bootlo
+---
+> 00048820: 3a00 556e 6b6e 6f77 6e00 3737 3933 6539  :.Unknown.7793e9
+> 00048830: 3236 3938 3863 3063 3364 6164 3664 3062  26988c0c3dad6d0b
+> 00048840: 3762 6639 3937 3235 3734 6139 3232 3864  7bf9972574a9228d
+> 00048850: 6131 004e 6f74 2069 6e20 626f 6f74 6c6f  a1.Not in bootlo
+```
+So we marked this firmware version as **not verifiable** as far as 
+this [issue](https://github.com/keepkey/keepkey-firmware/issues/342) 
+gets resolved by the team.
+
+**Review of version 7.2.1**
 Running
 [our script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh)
 on the latest version we get these results:
