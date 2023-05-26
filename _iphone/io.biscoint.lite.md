@@ -11,7 +11,7 @@ released: 2022-02-09
 updated: 2023-05-05
 version: 2.2.6
 stars: 4.9
-reviews: 3084
+reviews: 3085
 size: '67522560'
 website: https://bitybank.com.br/
 repository: 

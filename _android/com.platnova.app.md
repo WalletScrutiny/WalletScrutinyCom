@@ -7,8 +7,8 @@ users: 500
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28
-updated: 2023-04-29
-version: 0.6.1
+updated: 2023-05-24
+version: 0.6.2
 stars: 
 ratings: 
 reviews: 

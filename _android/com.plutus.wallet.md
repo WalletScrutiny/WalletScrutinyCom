@@ -12,7 +12,7 @@ updated: 2023-03-29
 version: '140.0'
 stars: 3.8
 ratings: 44411
-reviews: 2871
+reviews: 2870
 size: 
 website: https://www.abra.com/
 repository: 

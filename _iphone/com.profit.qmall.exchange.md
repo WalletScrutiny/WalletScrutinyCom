@@ -8,11 +8,11 @@ appId: com.profit.qmall.exchange
 appCountry: gb
 idd: '1600467380'
 released: 2021-12-21
-updated: 2023-05-16
-version: 1.1.41
+updated: 2023-05-24
+version: 1.1.42
 stars: 5
 reviews: 8
-size: '24157184'
+size: '24390656'
 website: https://qmall.io/
 repository: 
 issue: 

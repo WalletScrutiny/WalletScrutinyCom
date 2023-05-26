@@ -11,7 +11,7 @@ updated: 2023-05-18
 version: 2.5.0
 stars: 3.9
 ratings: 
-reviews: 136
+reviews: 137
 size: 
 website: https://cwallet.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.easycoin.exchange
 appCountry: in
 idd: '1617986309'
 released: 2022-09-28
-updated: 2023-05-15
-version: 1.0.68
+updated: 2023-05-24
+version: 1.0.72
 stars: 5
 reviews: 10
-size: '106318848'
+size: '106365952'
 website: https://www.easycoins.com/
 repository: 
 issue: 
