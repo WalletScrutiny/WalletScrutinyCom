@@ -18,7 +18,7 @@ done
 echo "installing missing stuff"
 npm install
 
-echo "Updating from Google and Apple $apps ..."
+echo "Updating from Google, Apple and Github (Hardware) $apps ..."
 echo "markDefunct is $markDefunct."
 node -e "require(\"./refreshApps\").refresh($markDefunct, \"$apps\", \"$githubApi\")"
 
