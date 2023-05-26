@@ -27,6 +27,7 @@ twitter: masterpay7
 social:
 - https://t.me/mastercoin_official
 features: 
+developerName: 
 
 ---
 

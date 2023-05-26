@@ -27,6 +27,7 @@ twitter: DAAFinance
 social:
 - https://www.facebook.com/aceewallet
 features: 
+developerName: 
 
 ---
 

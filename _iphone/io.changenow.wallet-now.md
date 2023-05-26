@@ -29,6 +29,7 @@ social:
 - https://t.me/NOWWallet_channel
 - https://www.reddit.com/r/ChangeNOW_io/
 features: 
+developerName: 
 
 ---
 

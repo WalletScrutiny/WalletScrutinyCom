@@ -27,6 +27,7 @@ twitter: Welthee
 social:
 - https://www.linkedin.com/company/welthee
 features: 
+developerName: 
 
 ---
 

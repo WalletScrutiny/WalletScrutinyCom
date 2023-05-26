@@ -59,6 +59,7 @@ twitter: ElectrumWallet
 social: 
 redirect_from:
 - /electrum/
+developerName: 
 features:
 - ln
 

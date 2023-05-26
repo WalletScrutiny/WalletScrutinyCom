@@ -29,6 +29,7 @@ social:
 - https://t.me/switchere
 - https://www.reddit.com/user/switchere
 features: 
+developerName: 
 
 ---
 

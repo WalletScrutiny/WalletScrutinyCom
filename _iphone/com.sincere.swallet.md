@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/SWallet.en
 - https://t.me/SWallet_ai
 features: 
+developerName: 
 
 ---
 

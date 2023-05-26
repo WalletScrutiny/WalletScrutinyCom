@@ -26,6 +26,7 @@ reviewArchive:
 twitter: gosatsapp
 social: 
 features: 
+developerName: 
 
 ---
 

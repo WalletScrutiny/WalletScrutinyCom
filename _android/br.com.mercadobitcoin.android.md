@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mercado-bitcoin
 - https://www.facebook.com/MercadoBitcoin
 redirect_from: 
+developerName: 
 features: 
 
 ---

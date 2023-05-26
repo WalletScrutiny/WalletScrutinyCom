@@ -27,6 +27,7 @@ twitter: yuh_app
 social:
 - https://www.facebook.com/yuhapp.en/
 features: 
+developerName: 
 
 ---
 

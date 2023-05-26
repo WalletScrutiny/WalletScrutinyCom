@@ -27,6 +27,7 @@ social:
 - https://www.facebook.com/gleecofficial
 - https://t.me/officialgleecoin
 features: 
+developerName: 
 
 ---
 

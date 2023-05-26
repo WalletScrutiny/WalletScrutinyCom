@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/EasyCoins/
 - https://t.me/easycoins888
 features: 
+developerName: 
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://t.me/BTCMkts
 - https://www.instagram.com/btcmarkets_
 features: 
+developerName: 
 
 ---
 

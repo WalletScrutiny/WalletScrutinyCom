@@ -26,6 +26,7 @@ reviewArchive:
 twitter: BitcoinMonitor1
 social: 
 features: 
+developerName: 
 
 ---
 

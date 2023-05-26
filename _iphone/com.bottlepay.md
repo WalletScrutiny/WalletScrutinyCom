@@ -27,6 +27,7 @@ twitter: bottlepay
 social: 
 features:
 - ln
+developerName: 
 
 ---
 

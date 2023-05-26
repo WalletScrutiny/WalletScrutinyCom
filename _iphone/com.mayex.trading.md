@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mayex/
 - https://t.me/mayex_official
 features: 
+developerName: 
 
 ---
 

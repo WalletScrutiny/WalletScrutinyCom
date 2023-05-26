@@ -27,6 +27,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 features: 
+developerName: 
 
 ---
 

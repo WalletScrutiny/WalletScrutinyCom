@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coinkit_
 social: 
 features: 
+developerName: 
 
 ---
 
