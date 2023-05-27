@@ -116,6 +116,9 @@
   flex-grow: 1;
   height: 100%;
   display: block;
+  @media (max-width: $small) {
+    grid-column: 1/3;
+  }
   .search-filtered-wallets {
     border: 0;
     color: var(--accent);
@@ -152,6 +155,11 @@
   min-height: 46px;
   &.component-verdict {
     width: 200px;
+    @media (max-width: $small) {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      width: 100%;
+    }
     .option {
       text-transform: capitalize;
       &.selected {
@@ -163,9 +171,18 @@
     width: 160px;
     grid-template-rows: 1fr;
     align-items: center;
+    @media (max-width: $small) {
+      grid-column: 1/2;
+      grid-row: 3/4;
+      width: 100%;
+    }
   }
   &.component-view {
     grid-template: 1fr / 1fr;
+    @media (max-width: $small) {
+      grid-column: 2/3;
+      grid-row: 3/4;
+    }
     .dropdown-options {
       gap: 15px;
       .option {
@@ -260,6 +277,10 @@
   .filter {
     padding-top: 15px;
     gap: 20px;
+    @media (max-width: $small) {
+      display: grid;
+      grid-template: repeat(3, 1fr) / 1fr auto;
+    }
   }
 }
 
