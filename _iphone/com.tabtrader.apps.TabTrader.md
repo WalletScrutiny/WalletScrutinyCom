@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/tabtrader
 - https://www.facebook.com/tabtrader
 features: 
+developerName: TabTrader B.V.
 
 ---
 

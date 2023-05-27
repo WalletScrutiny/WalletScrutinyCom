@@ -26,6 +26,7 @@ reviewArchive:
 twitter: incognitochain
 social: 
 features: 
+developerName: Incognito Core Team LLC
 
 ---
 

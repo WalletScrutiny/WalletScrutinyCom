@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.zengo.wallet/
 - /posts/com.zengo.wallet/
+developerName: ZenGo
 features: 
 
 ---

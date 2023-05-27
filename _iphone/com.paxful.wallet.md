@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/paxful
 - https://www.reddit.com/r/paxful
 features: 
+developerName: Paxful Inc
 
 ---
 

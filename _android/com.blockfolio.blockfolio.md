@@ -37,6 +37,7 @@ redirect_from:
 - /com.blockfolio.blockfolio/
 - /posts/2019/11/blockfolio/
 - /posts/com.blockfolio.blockfolio/
+developerName: 
 features: 
 
 ---

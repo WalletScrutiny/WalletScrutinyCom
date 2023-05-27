@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/balletcrypto.global
 - https://www.reddit.com/r/BalletCrypto
 features: 
+developerName: BALLET GLOBAL INC.
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
 features: 
+developerName: Interactive Brokers LLC
 
 ---
 

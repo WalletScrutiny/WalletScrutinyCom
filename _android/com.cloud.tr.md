@@ -28,6 +28,7 @@ twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR
 redirect_from: 
+developerName: Binance TR
 features: 
 
 ---

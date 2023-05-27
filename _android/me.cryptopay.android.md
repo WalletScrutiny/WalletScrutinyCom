@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/cryptopay
 - https://www.facebook.com/cryptopayme
 redirect_from: 
+developerName: Cryptopay Ltd
 features: 
 
 ---

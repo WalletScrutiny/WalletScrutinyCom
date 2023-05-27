@@ -27,6 +27,7 @@ twitter: Bitso
 social:
 - https://www.facebook.com/bitsoex
 features: 
+developerName: Bitso SAPI de CV
 
 ---
 

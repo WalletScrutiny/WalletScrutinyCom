@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/lmax-group
 - https://www.youtube.com/user/lmax
 redirect_from: 
+developerName: LMAX BROKER LIMITED
 features: 
 
 ---

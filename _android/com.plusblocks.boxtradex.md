@@ -28,6 +28,7 @@ twitter: box_trad
 social:
 - https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 redirect_from: 
+developerName: PlusBlocks Technology Ltd.
 features: 
 
 ---

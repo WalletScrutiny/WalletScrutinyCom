@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.reddit.com/r/LYOPAY
 features: 
+developerName: DIGILYO APP LTD
 
 ---
 

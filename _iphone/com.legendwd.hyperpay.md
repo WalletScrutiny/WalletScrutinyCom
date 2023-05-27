@@ -27,6 +27,7 @@ twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 features: 
+developerName: LEGEND INTERNET SERVICES PTY LTD
 
 ---
 

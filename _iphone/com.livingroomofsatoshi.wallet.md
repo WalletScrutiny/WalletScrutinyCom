@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/walletofsatoshi
 features:
 - ln
+developerName: Living Room of Satoshi Pty Ltd
 
 ---
 

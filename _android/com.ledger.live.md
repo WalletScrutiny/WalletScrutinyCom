@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Ledger
 redirect_from:
 - /com.ledger.live/
+developerName: Ledger
 features: 
 
 ---

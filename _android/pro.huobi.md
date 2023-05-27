@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /pro.huobi/
 - /posts/pro.huobi/
+developerName: Huobi
 features: 
 
 ---

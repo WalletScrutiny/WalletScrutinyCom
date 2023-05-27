@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/PayPal
 - https://www.reddit.com/r/paypal
 redirect_from: 
+developerName: PayPal Mobile
 features: 
 
 ---

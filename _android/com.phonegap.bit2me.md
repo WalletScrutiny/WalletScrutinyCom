@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.phonegap.bit2me/
 - /posts/com.phonegap.bit2me/
+developerName: Bit2Me
 features: 
 
 ---

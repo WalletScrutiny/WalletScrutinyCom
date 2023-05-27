@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/pdaxph
 - https://www.facebook.com/pdaxph
 redirect_from: 
+developerName: PDAX (Philippine Digital Asset Exchange)
 features: 
 
 ---

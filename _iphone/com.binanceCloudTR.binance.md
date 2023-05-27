@@ -27,6 +27,7 @@ twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR
 features: 
+developerName: BN TEKNOLOJİ ANONİM ŞİRKETİ
 
 ---
 

@@ -28,6 +28,7 @@ twitter: SIGENpro
 social:
 - https://www.facebook.com/sigen.pro
 redirect_from: 
+developerName: Lergen Style LLP
 features: 
 
 ---

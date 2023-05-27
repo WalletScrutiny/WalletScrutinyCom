@@ -27,6 +27,7 @@ reviewArchive:
 twitter: gosatsapp
 social: 
 redirect_from: 
+developerName: Saffron Technologies Pte Ltd
 features: 
 
 ---

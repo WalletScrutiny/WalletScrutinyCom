@@ -28,6 +28,7 @@ twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv
 redirect_from: 
+developerName: OneKey Limited
 features: 
 
 ---

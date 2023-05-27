@@ -39,6 +39,7 @@ social:
 - https://www.linkedin.com/company/bitpay-inc-
 - https://www.facebook.com/BitPayOfficial
 features: 
+developerName: BitPay, Inc.
 
 ---
 

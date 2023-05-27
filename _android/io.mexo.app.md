@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
 redirect_from: 
+developerName: TruBit Ltd
 features: 
 
 ---

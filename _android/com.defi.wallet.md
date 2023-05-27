@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.defi.wallet/
 - /posts/com.defi.wallet/
+developerName: Growth Labs
 features: 
 
 ---

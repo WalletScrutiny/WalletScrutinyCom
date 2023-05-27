@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/forex4you
 redirect_from: 
+developerName: E-Global Trade & Finance Group Inc.
 features: 
 
 ---

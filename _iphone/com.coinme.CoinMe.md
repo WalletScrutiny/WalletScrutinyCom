@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinme
 - https://www.facebook.com/Coinme
 features: 
+developerName: Coinme Inc.
 
 ---
 

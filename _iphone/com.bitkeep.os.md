@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitkeep
 - https://github.com/bitkeepcom
 features: 
+developerName: BitKeep Global Inc.
 
 ---
 

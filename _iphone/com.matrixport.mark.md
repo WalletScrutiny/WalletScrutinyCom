@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/matrixport
 - https://www.reddit.com/r/Matrixport
 features: 
+developerName: Matrixport Technologies Ltd
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: cashapp
 social: 
 features: 
+developerName: Square, Inc.
 
 ---
 

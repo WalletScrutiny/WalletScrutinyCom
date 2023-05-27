@@ -27,6 +27,7 @@ twitter: Ember_Fund
 social:
 - https://github.com/ember-fund
 features: 
+developerName: Ember Fund LLC
 
 ---
 

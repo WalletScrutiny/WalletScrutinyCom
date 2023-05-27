@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
 features: 
+developerName: GATE GLOBAL UAB
 
 ---
 

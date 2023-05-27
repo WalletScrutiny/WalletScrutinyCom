@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Novum Global Ventures Pte Ltd
 features: 
 
 ---

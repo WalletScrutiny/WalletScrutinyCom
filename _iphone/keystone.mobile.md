@@ -27,6 +27,7 @@ twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
 features: 
+developerName: YANSSIE HK LIMITED
 
 ---
 

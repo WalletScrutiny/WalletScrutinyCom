@@ -27,6 +27,7 @@ reviewArchive:
 twitter: imTokenOfficial
 social: 
 redirect_from: 
+developerName: IMTOKEN PTE.LTD.
 features: 
 
 ---

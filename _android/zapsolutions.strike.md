@@ -27,6 +27,7 @@ twitter: ln_strike
 social: 
 redirect_from:
 - /zapsolutions.strike/
+developerName: Zap Solutions Holdings, Inc
 features:
 - ln
 

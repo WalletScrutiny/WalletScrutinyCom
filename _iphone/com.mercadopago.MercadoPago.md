@@ -27,6 +27,7 @@ twitter: mercadopago
 social:
 - https://www.facebook.com/mercadopago
 features: 
+developerName: MercadoLibre
 
 ---
 

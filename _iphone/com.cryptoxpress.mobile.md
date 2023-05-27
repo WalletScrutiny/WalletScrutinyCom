@@ -27,6 +27,7 @@ twitter: crypto_xpress
 social:
 - https://www.facebook.com/iamCryptoxpress/
 features: 
+developerName: 
 
 ---
 

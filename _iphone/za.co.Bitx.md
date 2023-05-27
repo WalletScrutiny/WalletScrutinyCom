@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/lunoglobal
 - https://www.facebook.com/luno
 features: 
+developerName: Luno Pte Ltd
 
 ---
 

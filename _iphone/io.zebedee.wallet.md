@@ -27,6 +27,7 @@ twitter: zebedeeio
 social: 
 features:
 - ln
+developerName: Zebedee Inc.
 
 ---
 

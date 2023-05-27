@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ONTOWallet
 social: 
 features: 
+developerName: Ontology Foundation
 
 ---
 

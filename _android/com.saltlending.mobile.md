@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/saltlending
 - https://www.facebook.com/SALTLENDING
 redirect_from: 
+developerName: SALT Blockchain, Inc.
 features: 
 
 ---

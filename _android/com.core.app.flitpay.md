@@ -28,6 +28,7 @@ twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
 redirect_from: 
+developerName: FLITPAY PVT LTD
 features: 
 
 ---

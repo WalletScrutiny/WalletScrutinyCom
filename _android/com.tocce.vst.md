@@ -28,6 +28,7 @@ twitter: VSTMEX
 social:
 - https://t.me/VSTMEX001
 redirect_from: 
+developerName: VSTMEX Technology PTE.LTD.
 features: 
 
 ---

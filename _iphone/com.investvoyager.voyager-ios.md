@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/InvestVoyager
 - https://www.reddit.com/r/Invest_Voyager
 features: 
+developerName: Voyager Digital, LLC
 
 ---
 

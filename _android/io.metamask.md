@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MetaMask Web3 Wallet
 features: 
 
 ---

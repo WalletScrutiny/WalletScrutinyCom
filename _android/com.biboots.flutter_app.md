@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/user/Fairdesk_Official
 - https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
 redirect_from: 
+developerName: Fairdesk Technology Limited
 features: 
 
 ---

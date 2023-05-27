@@ -33,6 +33,7 @@ social:
 - https://www.facebook.com/cakewallet
 - https://www.reddit.com/r/cakewallet
 features: 
+developerName: Cake Technologies, LLC
 
 ---
 

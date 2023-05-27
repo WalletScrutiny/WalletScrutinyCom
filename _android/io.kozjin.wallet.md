@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Kozjin International Pte. Ltd.
 features: 
 
 ---

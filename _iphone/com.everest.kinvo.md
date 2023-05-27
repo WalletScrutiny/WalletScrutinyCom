@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kinvoapp
 - https://www.youtube.com/kinvoapp
 features: 
+developerName: 
 
 ---
 

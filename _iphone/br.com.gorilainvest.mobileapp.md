@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw
 - https://www.linkedin.com/company/gorila
 features: 
+developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA
 
 ---
 

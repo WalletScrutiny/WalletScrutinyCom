@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
 features: 
+developerName: Bitbuy Inc
 
 ---
 

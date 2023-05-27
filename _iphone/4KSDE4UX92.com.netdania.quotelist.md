@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/NetDania-146001445410373
 features: 
+developerName: NetDania SRL
 
 ---
 

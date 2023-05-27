@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 redirect_from: 
+developerName: Ubuntu Labs
 features: 
 
 ---

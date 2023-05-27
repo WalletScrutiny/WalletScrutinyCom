@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
 redirect_from: 
+developerName: Bybit
 features: 
 
 ---

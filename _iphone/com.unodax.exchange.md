@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
 features: 
+developerName: Unocoin Technologies Private Limited
 
 ---
 

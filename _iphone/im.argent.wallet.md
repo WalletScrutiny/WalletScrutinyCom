@@ -26,6 +26,7 @@ reviewArchive:
 twitter: argentHQ
 social: 
 features: 
+developerName: Argent
 
 ---
 

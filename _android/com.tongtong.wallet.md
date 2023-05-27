@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/tomatochain_official/
 - https://t.me/tomatochain_official_Eng
 redirect_from: 
+developerName: Tomato Group
 features: 
 
 ---

@@ -54,6 +54,7 @@ social:
 redirect_from:
 - /io.muun.apollo/
 - /posts/io.muun.apollo/
+developerName: muun
 features:
 - ln
 

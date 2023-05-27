@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en
 redirect_from: 
+developerName: Hong Kong Digital Asset Exchange Limited
 features: 
 
 ---

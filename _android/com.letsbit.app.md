@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/LetsBit
 - https://www.instagram.com/letsbit/
 redirect_from: 
+developerName: Let'sBit
 features: 
 
 ---

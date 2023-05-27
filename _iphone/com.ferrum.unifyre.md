@@ -26,6 +26,7 @@ reviewArchive:
 twitter: UnifyreWallet
 social: 
 features: 
+developerName: 
 
 ---
 

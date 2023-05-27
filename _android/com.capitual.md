@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/Capitual
 - https://www.linkedin.com/company/capitual/
 redirect_from: 
+developerName: Capitual
 features: 
 
 ---

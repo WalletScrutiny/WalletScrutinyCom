@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitcoinira
 - https://www.facebook.com/BitcoinIRA
 features: 
+developerName: BitcoinIRA
 
 ---
 

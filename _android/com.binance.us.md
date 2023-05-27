@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BinanceUS
 redirect_from:
 - /com.binance.us/
+developerName: BinanceUS
 features: 
 
 ---

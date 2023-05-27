@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/ace.exchange.tw
 redirect_from: 
+developerName: ACE Exchange
 features: 
 
 ---

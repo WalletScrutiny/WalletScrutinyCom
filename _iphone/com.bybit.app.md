@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
 features: 
+developerName: Bybit Fintech Limited
 
 ---
 

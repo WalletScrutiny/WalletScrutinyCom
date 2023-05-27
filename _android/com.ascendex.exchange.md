@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/AscendEXOfficial
 - https://www.reddit.com/r/AscendEX_Official
 redirect_from: 
+developerName: AscendEX
 features: 
 
 ---

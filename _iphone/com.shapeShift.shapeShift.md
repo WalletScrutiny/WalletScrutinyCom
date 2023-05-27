@@ -27,6 +27,7 @@ twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 features: 
+developerName: ShapeShift AG
 
 ---
 

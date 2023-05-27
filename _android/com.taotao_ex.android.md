@@ -28,6 +28,7 @@ twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg
 redirect_from: 
+developerName: SBI VC Trade Co., Ltd.
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/yourbtcc
 - https://www.reddit.com/r/YourBTCC
 redirect_from: 
+developerName: BTCC.COM
 features: 
 
 ---

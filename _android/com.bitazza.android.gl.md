@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bitazza/
 - https://t.me/bitazzaglobal
 redirect_from: 
+developerName: Bitazza Company Limited
 features: 
 
 ---

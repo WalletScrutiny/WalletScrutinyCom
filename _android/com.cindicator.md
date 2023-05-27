@@ -28,6 +28,7 @@ twitter: Cindicator
 social:
 - https://www.facebook.com/crowdindicator
 redirect_from: 
+developerName: Cindicator
 features: 
 
 ---

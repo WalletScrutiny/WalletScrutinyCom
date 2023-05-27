@@ -33,6 +33,7 @@ twitter:
 social: 
 redirect_from:
 - /co.okex.app/
+developerName: Technical team
 features: 
 
 ---

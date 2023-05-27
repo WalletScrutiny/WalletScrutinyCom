@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/blockchain
 - https://www.facebook.com/Blockchain
 features: 
+developerName: Blockchain
 
 ---
 

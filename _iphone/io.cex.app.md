@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
 features: 
+developerName: CEX.IO LTD
 
 ---
 

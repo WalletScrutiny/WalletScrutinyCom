@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/thinkmarkets
 - https://www.facebook.com/ThinkMarkets
 redirect_from: 
+developerName: ThinkMarkets
 features: 
 
 ---

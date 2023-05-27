@@ -27,6 +27,7 @@ twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap
 features: 
+developerName: Papers GmbH
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mercuryo.io
 - https://www.reddit.com/r/mercuryo
 features: 
+developerName: MoneySwap OU
 
 ---
 

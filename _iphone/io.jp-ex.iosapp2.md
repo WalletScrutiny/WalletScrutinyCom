@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---
 

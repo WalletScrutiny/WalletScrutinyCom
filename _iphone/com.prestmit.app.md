@@ -27,6 +27,7 @@ twitter: prestmit
 social:
 - https://www.facebook.com/prestmit
 features: 
+developerName: Prestmit Technologies LTD.
 
 ---
 

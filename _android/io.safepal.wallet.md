@@ -27,6 +27,7 @@ reviewArchive:
 twitter: iSafePal
 social: 
 redirect_from: 
+developerName: SafePal Wallet
 features: 
 
 ---

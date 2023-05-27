@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
 redirect_from: 
+developerName: Interactive Brokers Group
 features: 
 
 ---

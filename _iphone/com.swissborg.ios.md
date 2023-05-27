@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/swissborg
 - https://www.facebook.com/swissborg
 features: 
+developerName: SBorg SA
 
 ---
 

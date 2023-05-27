@@ -27,6 +27,7 @@ twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
 features: 
+developerName: Ecos am
 
 ---
 

@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/Invest_Voyager
 redirect_from:
 - /com.investvoyager/
+developerName: Voyager Digital, LLC
 features: 
 
 ---

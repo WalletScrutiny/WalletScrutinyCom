@@ -27,6 +27,7 @@ twitter: zam_io
 social:
 - https://www.linkedin.com/company/11770701
 features: 
+developerName: ZAMZAMTECHNOLOGY OU
 
 ---
 

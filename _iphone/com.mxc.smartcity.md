@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/MXCfoundation
 - https://www.reddit.com/r/MXC_Foundation
 features: 
+developerName: MXC Foundation LLC
 
 ---
 

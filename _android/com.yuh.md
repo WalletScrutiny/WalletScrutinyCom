@@ -28,6 +28,7 @@ twitter: yuh_app
 social:
 - https://www.facebook.com/yuhapp.en/
 redirect_from: 
+developerName: Swissquote Mobile
 features: 
 
 ---

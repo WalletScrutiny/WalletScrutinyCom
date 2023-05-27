@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/chainge-finance
 - https://www.facebook.com/chainge.finance
 redirect_from: 
+developerName: Chainge
 features: 
 
 ---

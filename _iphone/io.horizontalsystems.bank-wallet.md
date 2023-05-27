@@ -27,6 +27,7 @@ twitter: unstoppablebyhs
 social:
 - https://www.reddit.com/r/UNSTOPPABLEWallet
 features: 
+developerName: Horizontal Systems
 
 ---
 

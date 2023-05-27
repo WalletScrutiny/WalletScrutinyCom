@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/phemex
 - https://www.facebook.com/Phemex.official
 features: 
+developerName: Phemex
 
 ---
 

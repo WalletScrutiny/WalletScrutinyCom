@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/spot-bitcoin
 - https://www.facebook.com/spot.bitcoin
 features: 
+developerName: Spot
 
 ---
 

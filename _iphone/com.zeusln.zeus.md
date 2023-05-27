@@ -26,6 +26,7 @@ twitter: ZeusLN
 social: 
 features:
 - ln
+developerName: Zeus LN LLC
 
 ---
 

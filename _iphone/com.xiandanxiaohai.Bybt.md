@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coinglass_com
 social: 
 features: 
+developerName: Coinglass Technology Co., Limited
 
 ---
 

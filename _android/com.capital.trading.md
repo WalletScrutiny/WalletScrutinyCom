@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/capital.com
 - https://www.facebook.com/capitalcom
 redirect_from: 
+developerName: Capital Com SV Investments Limited
 features: 
 
 ---

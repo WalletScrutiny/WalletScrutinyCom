@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
 redirect_from: 
+developerName: H-BIT d.o.o.
 features:
 - ln
 

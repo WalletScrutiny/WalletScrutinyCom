@@ -27,6 +27,7 @@ reviewArchive:
 twitter: libertex_latam
 social: 
 redirect_from: 
+developerName: Libertex International Company Limited
 features: 
 
 ---

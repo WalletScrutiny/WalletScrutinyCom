@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
 redirect_from: 
+developerName: KoinBX
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/qmall.io
 - https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag
 features: 
+developerName: 
 
 ---
 

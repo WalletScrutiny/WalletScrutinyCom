@@ -27,6 +27,7 @@ reviewArchive:
 twitter: wisebitcoin
 social: 
 redirect_from: 
+developerName: WiseEX LTD
 features: 
 
 ---

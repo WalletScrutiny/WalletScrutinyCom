@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
 redirect_from: 
+developerName: Singapore Bitget pte ltd.
 features: 
 
 ---

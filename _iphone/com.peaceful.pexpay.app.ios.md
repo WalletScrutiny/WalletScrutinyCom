@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@pexpay
 - https://vk.com/pexpayofficial
 features: 
+developerName: 
 
 ---
 

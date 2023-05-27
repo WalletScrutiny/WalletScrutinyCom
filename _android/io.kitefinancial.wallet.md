@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kite_financial
 - https://www.linkedin.com/company/kitefinancial
 redirect_from: 
+developerName: Kite Financial (Kite Tech Ltd UK)
 features: 
 
 ---

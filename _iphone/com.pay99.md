@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/99app
 - https://www.facebook.com/voude99
 features: 
+developerName: 99Pay S.A
 
 ---
 

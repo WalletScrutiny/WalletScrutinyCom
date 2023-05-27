@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/coin-space
 - https://www.facebook.com/coinappwallet
 features: 
+developerName: CoinSpace
 
 ---
 

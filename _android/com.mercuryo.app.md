@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/mercuryo
 redirect_from:
 - /com.mercuryo.app/
+developerName: Mercuryo
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 features: 
+developerName: Trustswap Inc.
 
 ---
 

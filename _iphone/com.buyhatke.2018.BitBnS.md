@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
 features: 
+developerName: Buyhatke Internet Private Limited
 
 ---
 

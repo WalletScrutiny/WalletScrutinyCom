@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitrueOfficial
 redirect_from:
 - /com.bitrue.currency.exchange/
+developerName: Bitrue Support
 features: 
 
 ---

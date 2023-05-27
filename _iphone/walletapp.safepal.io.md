@@ -26,6 +26,7 @@ reviewArchive:
 twitter: iSafePal
 social: 
 features: 
+developerName: SAFEPAL LTD.
 
 ---
 

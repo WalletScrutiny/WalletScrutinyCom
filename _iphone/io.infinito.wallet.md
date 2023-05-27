@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/infinitoservices
 - https://www.facebook.com/InfinitoWallet
 features: 
+developerName: Infinito Solution PTE
 
 ---
 

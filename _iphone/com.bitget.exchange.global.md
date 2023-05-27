@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
 features: 
+developerName: SINGAPORE BITGET PTE.LTD
 
 ---
 

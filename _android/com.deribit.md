@@ -31,6 +31,7 @@ social:
 - https://t.me/deribit
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
 redirect_from: 
+developerName: Deribit
 features: 
 
 ---

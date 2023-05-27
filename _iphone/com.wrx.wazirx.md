@@ -27,6 +27,7 @@ social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
 features: 
+developerName: Zanmai Labs Private Limited
 
 ---
 

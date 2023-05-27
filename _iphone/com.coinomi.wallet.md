@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinomi
 - https://www.reddit.com/r/COINOMI
 features: 
+developerName: Coinomi Limited
 
 ---
 

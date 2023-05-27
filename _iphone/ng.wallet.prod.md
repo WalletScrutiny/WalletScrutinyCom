@@ -29,6 +29,7 @@ twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
 features: 
+developerName: Enterprise Wallet Payments Limited
 
 ---
 

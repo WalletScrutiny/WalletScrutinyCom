@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 features: 
+developerName: Venmo
 
 ---
 

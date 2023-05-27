@@ -26,6 +26,7 @@ reviewArchive:
 twitter: sessipapp
 social: 
 features: 
+developerName: 
 
 ---
 

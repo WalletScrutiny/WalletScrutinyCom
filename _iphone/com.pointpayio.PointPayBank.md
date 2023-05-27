@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/PointPayLtd
 - https://www.reddit.com/r/PointPay
 features: 
+developerName: Point Pay LTD
 
 ---
 

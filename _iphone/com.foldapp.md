@@ -26,6 +26,7 @@ reviewArchive:
 twitter: fold_app
 social: 
 features: 
+developerName: Fold
 
 ---
 

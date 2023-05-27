@@ -32,6 +32,7 @@ redirect_from:
 - /binance/
 - /com.binance.dev/
 - /posts/com.binance.dev/
+developerName: Binance Inc.
 features: 
 
 ---

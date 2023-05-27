@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/OkcoinOfficial
 features:
 - ln
+developerName: OKCoin USA Inc
 
 ---
 

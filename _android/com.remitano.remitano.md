@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/remitano
 redirect_from:
 - /posts/com.remitano.remitano/
+developerName: Remitano
 features: 
 
 ---

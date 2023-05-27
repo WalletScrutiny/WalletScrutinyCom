@@ -26,6 +26,7 @@ reviewArchive:
 twitter: Lobstrco
 social: 
 features: 
+developerName: ULTRA STELLAR, LLC
 
 ---
 

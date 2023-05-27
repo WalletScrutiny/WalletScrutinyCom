@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinme
 - https://www.facebook.com/Coinme
 redirect_from: 
+developerName: Coinme
 features: 
 
 ---

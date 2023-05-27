@@ -28,6 +28,7 @@ twitter: GridlockCrypto
 social:
 - https://www.facebook.com/GridlockNetwork
 redirect_from: 
+developerName: Gridlock Inc.
 features: 
 
 ---

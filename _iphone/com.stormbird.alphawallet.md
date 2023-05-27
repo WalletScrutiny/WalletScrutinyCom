@@ -28,6 +28,7 @@ social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
 features: 
+developerName: Stormbird Pte. Ltd.
 
 ---
 

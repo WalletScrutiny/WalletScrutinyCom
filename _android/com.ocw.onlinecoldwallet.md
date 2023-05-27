@@ -31,6 +31,7 @@ social:
 - https://t.me/ocwallet
 - https://t.me/ocwalletglobal
 redirect_from: 
+developerName: Online Cold Wallet
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
 redirect_from: 
+developerName: Bitay Technology
 features: 
 
 ---

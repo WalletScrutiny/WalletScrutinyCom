@@ -28,6 +28,7 @@ twitter: Welthee
 social:
 - https://www.linkedin.com/company/welthee/
 redirect_from: 
+developerName: Capitera AG
 features: 
 
 ---

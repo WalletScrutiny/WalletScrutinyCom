@@ -31,6 +31,7 @@ social:
 - https://t.me/maskextg
 - https://www.linkedin.com/company/maskex-global/
 features: 
+developerName: 
 
 ---
 

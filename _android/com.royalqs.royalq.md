@@ -30,6 +30,7 @@ social:
 - https://t.me/Royal_Q_Official
 - https://www.youtube.com/channel/UCG_24GCm1wdzJsBcSXRYD1Q
 redirect_from: 
+developerName: Royal Q
 features: 
 
 ---

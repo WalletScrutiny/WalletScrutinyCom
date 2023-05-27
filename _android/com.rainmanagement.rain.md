@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/rainfinancial
 - https://www.facebook.com/rainfinancial
 redirect_from: 
+developerName: Rain Financial Inc
 features: 
 
 ---

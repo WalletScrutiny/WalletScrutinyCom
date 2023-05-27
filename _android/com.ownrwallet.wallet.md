@@ -35,6 +35,7 @@ social:
 - https://www.reddit.com/r/ownrwallet
 redirect_from:
 - /com.ownrwallet.wallet/
+developerName: OWNR WALLET OU
 features: 
 
 ---

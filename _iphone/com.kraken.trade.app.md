@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/KrakenFX
 features:
 - ln
+developerName: Kraken
 
 ---
 

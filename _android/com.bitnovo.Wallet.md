@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/Bitnovo
 - https://www.facebook.com/BitcoinBitnovo
 redirect_from: 
+developerName: BITNOVO
 features: 
 
 ---

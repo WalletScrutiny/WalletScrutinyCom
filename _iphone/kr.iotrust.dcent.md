@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
 features: 
+developerName: IoTrust Co., Ltd
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coins-ph
 - https://www.facebook.com/coinsph
 features: 
+developerName: 
 
 ---
 

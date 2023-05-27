@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitkub
 - https://www.facebook.com/bitkubofficial
 features: 
+developerName: Bitkub Online Co., Ltd
 
 ---
 

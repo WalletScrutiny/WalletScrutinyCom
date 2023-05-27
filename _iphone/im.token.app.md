@@ -26,6 +26,7 @@ reviewArchive:
 twitter: imTokenOfficial
 social: 
 features: 
+developerName: IMTOKEN PTE. LTD.
 
 ---
 

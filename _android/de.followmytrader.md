@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/
 redirect_from: 
+developerName: FELS Group GmbH
 features: 
 
 ---

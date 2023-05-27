@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/kinvoapp
 - https://www.youtube.com/kinvoapp
 redirect_from: 
+developerName: Kinvo Tecnologia da Informação
 features: 
 
 ---

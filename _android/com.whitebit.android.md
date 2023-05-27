@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
 redirect_from: 
+developerName: WhiteBit
 features: 
 
 ---

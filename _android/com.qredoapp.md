@@ -28,6 +28,7 @@ twitter: QredoNetwork
 social:
 - https://www.linkedin.com/company/qredo/
 redirect_from: 
+developerName: Qredo Services Ltd.
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/xt-com-exchange/
 - https://www.facebook.com/XT.comexchange
 redirect_from: 
+developerName: XT.COM Inc.
 features: 
 
 ---

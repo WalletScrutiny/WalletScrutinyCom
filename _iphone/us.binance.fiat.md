@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/binance-us
 - https://www.facebook.com/BinanceUS
 features: 
+developerName: BAM Trading Services, Inc.
 
 ---
 

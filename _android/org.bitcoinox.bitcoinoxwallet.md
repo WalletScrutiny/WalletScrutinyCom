@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
+developerName: Excdev
 features: 
 
 ---

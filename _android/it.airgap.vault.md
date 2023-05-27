@@ -175,6 +175,7 @@ social:
 redirect_from:
 - /it.airgap.vault/
 - /posts/it.airgap.vault/
+developerName: Papers AG
 features: 
 
 ---

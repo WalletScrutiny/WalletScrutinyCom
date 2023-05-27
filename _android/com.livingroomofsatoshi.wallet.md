@@ -32,6 +32,7 @@ redirect_from:
 - /com.livingroomofsatoshi.wallet/
 - /posts/2019/12/walletofsatoshi/
 - /posts/com.livingroomofsatoshi.wallet/
+developerName: Wallet of Satoshi
 features:
 - ln
 

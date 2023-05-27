@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinmerceNL
 - https://www.linkedin.com/company/coinmerce/
 redirect_from: 
+developerName: Coinmerce B.V.
 features: 
 
 ---

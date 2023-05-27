@@ -32,6 +32,7 @@ social:
 - https://t.me/maskextg
 - https://www.linkedin.com/company/maskex-global/
 redirect_from: 
+developerName: Maskunion Investments L.L.C.
 features: 
 
 ---

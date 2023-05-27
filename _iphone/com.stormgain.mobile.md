@@ -27,6 +27,7 @@ twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official
 features: 
+developerName: Stormgain Limited
 
 ---
 

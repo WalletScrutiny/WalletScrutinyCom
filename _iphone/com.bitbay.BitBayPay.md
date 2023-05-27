@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ZondaGlobal/
 - https://www.instagram.com/zondaglobal/
 features: 
+developerName: BitBay Sp. z o.o.
 
 ---
 

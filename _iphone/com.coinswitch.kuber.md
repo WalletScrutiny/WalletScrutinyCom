@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinswitch
 - https://www.facebook.com/coinswitch
 features: 
+developerName: CoinSwitch
 
 ---
 

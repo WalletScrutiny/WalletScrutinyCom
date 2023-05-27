@@ -28,6 +28,7 @@ twitter: cashapp
 social: 
 redirect_from:
 - /com.squareup.cash/
+developerName: Square, Inc.
 features: 
 
 ---

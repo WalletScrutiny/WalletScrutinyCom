@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
 features: 
+developerName: eToro
 
 ---
 

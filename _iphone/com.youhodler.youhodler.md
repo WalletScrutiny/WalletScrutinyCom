@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/youhodler
 - https://www.facebook.com/YouHodler
 features: 
+developerName: YouHodler
 
 ---
 

@@ -27,6 +27,7 @@ twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/
 features: 
+developerName: Qubevo
 
 ---
 

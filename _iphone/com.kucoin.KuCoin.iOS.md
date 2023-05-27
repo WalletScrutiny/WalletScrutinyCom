@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 features: 
+developerName: Kucoin Technology Co.,Ltd.
 
 ---
 

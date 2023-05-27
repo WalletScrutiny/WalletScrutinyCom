@@ -27,6 +27,7 @@ twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
 features: 
+developerName: Tangem AG
 
 ---
 

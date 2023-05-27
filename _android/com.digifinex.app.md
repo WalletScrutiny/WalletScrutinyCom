@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/DigiFinex
 redirect_from:
 - /com.digifinex.app/
+developerName: Digifinex Team
 features: 
 
 ---

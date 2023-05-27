@@ -31,6 +31,7 @@ redirect_from:
 - /org.toshi/
 - /posts/2019/11/coinbasewallet/
 - /posts/org.toshi/
+developerName: Coinbase Wallet
 features: 
 
 ---

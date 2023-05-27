@@ -35,6 +35,7 @@ social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
 redirect_from: 
+developerName: Zanmai Labs Private Limited
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/coinzixcom
 - https://t.me/coinzixCEX
 redirect_from: 
+developerName: COINZIX
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/rainfinancial
 - https://www.facebook.com/rainfinancial
 features: 
+developerName: Rain Management
 
 ---
 

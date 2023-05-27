@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/deepcoinpro/
 redirect_from: 
+developerName: DEEPCOIN LIMITED
 features: 
 
 ---

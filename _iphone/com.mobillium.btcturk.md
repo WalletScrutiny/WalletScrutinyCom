@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 features: 
+developerName: ELIPTIK YAZILIM VE TICARET ANONIM SIRKETI
 
 ---
 

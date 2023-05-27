@@ -28,6 +28,7 @@ twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
 redirect_from: 
+developerName: TradeStation Technologies
 features: 
 
 ---

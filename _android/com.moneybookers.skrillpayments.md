@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/Paysafe Group
 - https://www.facebook.com/PlugIntoPaysafe
 redirect_from: 
+developerName: Paysafe
 features: 
 
 ---

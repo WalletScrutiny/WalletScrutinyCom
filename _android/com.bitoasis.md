@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
 - https://www.facebook.com/bitoasis
 redirect_from: 
+developerName: BitOasis
 features: 
 
 ---

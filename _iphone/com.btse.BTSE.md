@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btsecom
 - https://www.reddit.com/r/btsecom
 features: 
+developerName: BTSE Holdings Limited
 
 ---
 

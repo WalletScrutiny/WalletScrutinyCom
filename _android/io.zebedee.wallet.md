@@ -27,6 +27,7 @@ reviewArchive:
 twitter: zebedeeio
 social: 
 redirect_from: 
+developerName: ZEBEDEE
 features:
 - ln
 

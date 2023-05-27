@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitoasis-technologies-fze
 - https://www.facebook.com/bitoasis
 features: 
+developerName: BitOasis Technologies FZE
 
 ---
 

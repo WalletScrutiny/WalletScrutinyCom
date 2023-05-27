@@ -27,6 +27,7 @@ twitter: muunwallet
 social: 
 features:
 - ln
+developerName: Muun Wallet, Inc
 
 ---
 

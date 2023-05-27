@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/afriex
 - https://www.facebook.com/AfriexApp
 features: 
+developerName: Afriex Inc
 
 ---
 

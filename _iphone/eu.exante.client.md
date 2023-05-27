@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/exante-ltd
 - https://www.facebook.com/exante.global
 features: 
+developerName: XNT Ltd
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.tiktok.com/@Coincast
 - https://www.reddit.com/r/Coincast/
 features: 
+developerName: Minty Networks, LLC.
 
 ---
 

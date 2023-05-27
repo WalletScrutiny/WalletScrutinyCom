@@ -27,6 +27,7 @@ twitter: crypterium
 social:
 - https://www.facebook.com/crypterium.org
 features: 
+developerName: Crypterium AS
 
 ---
 

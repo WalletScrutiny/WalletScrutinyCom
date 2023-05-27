@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BitMEX/
 - https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
 redirect_from: 
+developerName: BitMEX
 features: 
 
 ---

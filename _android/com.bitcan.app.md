@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bitkanofficial
 social: 
 redirect_from: 
+developerName: bitkan.com
 features: 
 
 ---

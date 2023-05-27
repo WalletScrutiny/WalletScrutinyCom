@@ -30,6 +30,7 @@ social:
 - https://t.me/NOWWallet_channel
 - https://www.reddit.com/r/ChangeNOW_io/
 redirect_from: 
+developerName: ChangeNOW
 features: 
 
 ---

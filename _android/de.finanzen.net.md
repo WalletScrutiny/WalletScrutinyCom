@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 
+developerName: finanzen.net GmbH
 features: 
 
 ---

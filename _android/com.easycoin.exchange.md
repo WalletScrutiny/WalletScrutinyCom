@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/EasyCoins/
 - https://t.me/easycoins888
 redirect_from: 
+developerName: EasyCoins
 features: 
 
 ---

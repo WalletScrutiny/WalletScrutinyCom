@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mtpelerin
 - https://www.reddit.com/r/MtPelerin
 features: 
+developerName: Mt Pelerin
 
 ---
 

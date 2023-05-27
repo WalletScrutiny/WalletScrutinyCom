@@ -26,6 +26,7 @@ reviewArchive:
 twitter: jetonwallet
 social: 
 features: 
+developerName: LA ORANGE LIMITED
 
 ---
 

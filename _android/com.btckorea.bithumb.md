@@ -28,6 +28,7 @@ twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
 redirect_from: 
+developerName: Bithumb Korea
 features: 
 
 ---

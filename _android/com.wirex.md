@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/wirex-limited
 - https://www.facebook.com/wirexapp
 redirect_from: 
+developerName: Wirex
 features: 
 
 ---

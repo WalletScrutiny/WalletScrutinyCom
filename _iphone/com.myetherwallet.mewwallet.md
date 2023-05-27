@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
 features: 
+developerName: MyEtherWallet, Inc.
 
 ---
 

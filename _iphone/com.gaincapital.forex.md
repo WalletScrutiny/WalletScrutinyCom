@@ -27,6 +27,7 @@ twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom
 features: 
+developerName: GAIN Capital Group LLC
 
 ---
 

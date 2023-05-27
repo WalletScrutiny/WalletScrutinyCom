@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
 redirect_from: 
+developerName: BingX
 features: 
 
 ---

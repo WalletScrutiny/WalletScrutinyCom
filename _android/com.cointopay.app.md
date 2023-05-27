@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CointopayInternational
 - https://www.reddit.com/r/Cointopay
 redirect_from: 
+developerName: Surplus17, Inc
 features: 
 
 ---

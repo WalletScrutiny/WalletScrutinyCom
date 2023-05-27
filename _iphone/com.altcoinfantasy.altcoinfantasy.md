@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Altcoin Fantasy Limited
 
 ---
 

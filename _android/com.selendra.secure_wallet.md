@@ -28,6 +28,7 @@ twitter: SelendraChain
 social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from: 
+developerName: 
 features: 
 
 ---

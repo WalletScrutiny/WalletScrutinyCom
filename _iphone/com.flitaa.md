@@ -27,6 +27,7 @@ twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa
 features: 
+developerName: FLITBASE
 
 ---
 

@@ -33,6 +33,7 @@ social:
 - https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
 features: 
+developerName: Bitrefill
 
 ---
 

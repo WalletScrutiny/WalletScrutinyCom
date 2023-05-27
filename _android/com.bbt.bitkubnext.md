@@ -28,6 +28,7 @@ twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial
 redirect_from: 
+developerName: Bitkub Blockchain Technology
 features: 
 
 ---

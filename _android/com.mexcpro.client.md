@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
+developerName: MEXC Global
 features: 
 
 ---

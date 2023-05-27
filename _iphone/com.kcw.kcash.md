@@ -27,6 +27,7 @@ twitter: kcashofficial
 social:
 - https://www.facebook.com/KcashOfficial
 features: 
+developerName: 
 
 ---
 

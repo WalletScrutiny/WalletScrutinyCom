@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.gemini.android.app/
 - /posts/com.gemini.android.app/
+developerName: Gemini Trust Company LLC
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/hooexchange
 - https://www.reddit.com/r/HooExchange
 features: 
+developerName: Hoo Technology Limited
 
 ---
 

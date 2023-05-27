@@ -34,6 +34,7 @@ social:
 - https://www.linkedin.com/company/yellowcardapp
 - https://www.facebook.com/yellowcardapp
 features: 
+developerName: Yellow Card Financial, Inc
 
 ---
 

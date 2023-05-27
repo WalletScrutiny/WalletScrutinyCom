@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/guarda.co
 - https://www.reddit.com/r/GuardaWallet
 features: 
+developerName: GUARDACO LDA
 
 ---
 

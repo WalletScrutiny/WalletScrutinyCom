@@ -27,6 +27,7 @@ twitter: zixipay
 social:
 - https://www.facebook.com/ZixiPay
 features: 
+developerName: ZixiPay LLC
 
 ---
 

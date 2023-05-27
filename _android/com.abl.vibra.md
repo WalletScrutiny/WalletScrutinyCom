@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
 - https://www.facebook.com/VibraAfrica
 redirect_from: 
+developerName: Vibra Africa
 features: 
 
 ---

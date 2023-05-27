@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitsoex
 redirect_from:
 - /com.bitso.wallet/
+developerName: Bitso
 features: 
 
 ---

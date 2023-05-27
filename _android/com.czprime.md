@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinzoomhq
 - https://www.facebook.com/CoinZoom
 redirect_from: 
+developerName: CoinZoom
 features: 
 
 ---

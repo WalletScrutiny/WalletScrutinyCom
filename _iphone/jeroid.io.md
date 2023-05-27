@@ -26,6 +26,7 @@ reviewArchive:
 twitter: jeroidng
 social: 
 features: 
+developerName: JeroidNG Ltd
 
 ---
 

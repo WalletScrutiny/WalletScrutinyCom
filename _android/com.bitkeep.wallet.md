@@ -30,6 +30,7 @@ social:
 - https://github.com/bitkeepcom
 redirect_from:
 - /com.bitkeep.wallet/
+developerName: BitKeep Global Inc
 features: 
 
 ---

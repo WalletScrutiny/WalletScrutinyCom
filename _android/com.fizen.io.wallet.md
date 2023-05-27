@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/fizen.io/
 - https://t.me/fizen_io
 redirect_from: 
+developerName: Fizen.IO
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: BityOficial
 social:
 - https://www.facebook.com/bitybankoficial
 redirect_from: 
+developerName: Biscoint.io
 features: 
 
 ---

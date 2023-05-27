@@ -26,6 +26,7 @@ reviewArchive:
 twitter: anchorusd
 social: 
 features: 
+developerName: Anchor US LLC
 
 ---
 

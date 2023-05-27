@@ -30,6 +30,7 @@ redirect_from:
 - /com.kisswallet/
 - /moonshine/
 - /posts/com.kisswallet/
+developerName: Ferryman Fin LLC
 features: 
 
 ---

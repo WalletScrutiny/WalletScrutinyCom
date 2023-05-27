@@ -28,6 +28,7 @@ twitter: betconix
 social:
 - https://www.facebook.com/GNBetconixSTOU
 redirect_from: 
+developerName: GN Betconix ST s.r.o.
 features: 
 
 ---

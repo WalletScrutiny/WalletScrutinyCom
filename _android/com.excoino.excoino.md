@@ -28,6 +28,7 @@ twitter: excoino
 social:
 - https://www.linkedin.com/company/excoino-com
 redirect_from: 
+developerName: Ernyka Co
 features: 
 
 ---

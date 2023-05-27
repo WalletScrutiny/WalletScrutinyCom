@@ -27,6 +27,7 @@ twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
 features: 
+developerName: bitFlyer, Inc.
 
 ---
 

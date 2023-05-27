@@ -28,6 +28,7 @@ twitter: WebullGlobal
 social:
 - https://www.linkedin.com/company/webullfinancialllc
 features: 
+developerName: Webull Technologies Pte. Ltd.
 
 ---
 

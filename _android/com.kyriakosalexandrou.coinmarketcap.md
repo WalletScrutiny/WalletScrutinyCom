@@ -28,6 +28,7 @@ twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
 redirect_from: 
+developerName: Cortex AG
 features: 
 
 ---

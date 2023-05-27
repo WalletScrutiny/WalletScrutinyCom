@@ -27,6 +27,7 @@ twitter: BittrexGlobal
 social:
 - https://www.facebook.com/BittrexGlobal
 features: 
+developerName: Bittrex, Inc.
 
 ---
 

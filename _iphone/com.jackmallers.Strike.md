@@ -26,6 +26,7 @@ twitter: ln_strike
 social: 
 features:
 - ln
+developerName: Zap Solutions, Inc
 
 ---
 

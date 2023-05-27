@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/qmall.io
 - https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag
 redirect_from: 
+developerName: Prof-IT Blockchain Limited
 features: 
 
 ---

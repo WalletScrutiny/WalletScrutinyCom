@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/pdaxph
 - https://www.facebook.com/pdaxph
 features: 
+developerName: PDAX
 
 ---
 

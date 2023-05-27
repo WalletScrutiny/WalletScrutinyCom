@@ -27,6 +27,7 @@ reviewArchive:
 twitter: fold_app
 social: 
 redirect_from: 
+developerName: Fold, Inc.
 features: 
 
 ---

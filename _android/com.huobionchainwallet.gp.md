@@ -28,6 +28,7 @@ twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
 redirect_from: 
+developerName: BlazekTech Internet Technology Service Limited
 features: 
 
 ---

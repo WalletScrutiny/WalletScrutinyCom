@@ -27,6 +27,7 @@ twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES
 features: 
+developerName: AJ TRUST MERCHANTS GLOBAL LIMITED
 
 ---
 

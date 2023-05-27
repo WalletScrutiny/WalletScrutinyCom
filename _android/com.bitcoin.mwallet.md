@@ -36,6 +36,7 @@ social:
 redirect_from:
 - /com.bitcoin.mwallet/
 - /posts/com.bitcoin.mwallet/
+developerName: Bitcoin.com
 features: 
 
 ---

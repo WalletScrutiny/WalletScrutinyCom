@@ -27,6 +27,7 @@ twitter: getbusha
 social:
 - https://www.facebook.com/getbusha
 features: 
+developerName: Busha Digital
 
 ---
 

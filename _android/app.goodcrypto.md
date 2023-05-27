@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/GoodCrypto
 redirect_from:
 - /app.goodcrypto/
+developerName: GoodCrypto.App
 features: 
 
 ---

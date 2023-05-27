@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/blockstream
 - https://www.facebook.com/Blockstream
 features: 
+developerName: Blockstream
 
 ---
 

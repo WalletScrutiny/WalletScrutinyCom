@@ -38,6 +38,7 @@ redirect_from:
 - /piuk.blockchain.android/
 - /posts/2019/11/blockchainwallet/
 - /posts/piuk.blockchain.android/
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

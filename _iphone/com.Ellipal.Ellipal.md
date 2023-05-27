@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ellipalclub
 - https://www.reddit.com/r/ELLIPAL_Official
 features: 
+developerName: Ellipal
 
 ---
 

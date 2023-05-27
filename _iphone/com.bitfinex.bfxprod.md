@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/bitfinex
 features:
 - ln
+developerName: Bitfinex
 
 ---
 

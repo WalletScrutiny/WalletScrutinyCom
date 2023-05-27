@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/kinesismoney
 - https://www.reddit.com/r/Kinesis_money
 features: 
+developerName: Kinesis AG
 
 ---
 

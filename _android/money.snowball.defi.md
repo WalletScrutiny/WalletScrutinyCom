@@ -27,6 +27,7 @@ reviewArchive:
 twitter: snowball_money
 social: 
 redirect_from: 
+developerName: Snowball Money
 features: 
 
 ---

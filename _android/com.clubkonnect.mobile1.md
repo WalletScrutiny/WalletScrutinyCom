@@ -28,6 +28,7 @@ twitter: clubkonnect247
 social:
 - https://www.facebook.com/clubkonnect247
 redirect_from: 
+developerName: Nellobyte Systems Ltd.
 features: 
 
 ---

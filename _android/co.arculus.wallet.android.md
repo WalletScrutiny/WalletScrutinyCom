@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ
 - https://www.instagram.com/thisisarculus/
 redirect_from: 
+developerName: Arculus Holdings L.L.C.
 features: 
 
 ---

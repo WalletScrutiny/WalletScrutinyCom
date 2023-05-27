@@ -44,6 +44,7 @@ redirect_from:
 - /co.edgesecure.app/
 - /posts/2019/11/edge/
 - /posts/co.edgesecure.app/
+developerName: Edge (formerly Airbitz)
 features: 
 
 ---

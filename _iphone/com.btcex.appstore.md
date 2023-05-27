@@ -31,6 +31,7 @@ social:
 - https://blog.naver.com/btcex
 - https://medium.com/@BTCEX
 features: 
+developerName: BTCEX EXCHANGE LIMITED
 
 ---
 

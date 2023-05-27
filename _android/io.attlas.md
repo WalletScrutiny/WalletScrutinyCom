@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/attlas.io/
 redirect_from: 
+developerName: ATTLAS PTE. LTD
 features: 
 
 ---

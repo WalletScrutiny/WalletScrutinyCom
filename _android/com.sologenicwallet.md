@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.sologenicwallet/
 - /posts/com.sologenicwallet/
+developerName: Sologenic
 features: 
 
 ---

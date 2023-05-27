@@ -28,6 +28,7 @@ twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
 redirect_from: 
+developerName: Coin98 Finance LTD.
 features: 
 
 ---

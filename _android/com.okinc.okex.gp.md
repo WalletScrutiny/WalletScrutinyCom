@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.okinc.okex.gp/
 - /posts/com.okinc.okex.gp/
+developerName: OKX
 features: 
 
 ---

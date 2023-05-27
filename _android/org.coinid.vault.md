@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /org.coinid.vault/
 - /posts/org.coinid.vault/
+developerName: COINiD Group
 features: 
 
 ---

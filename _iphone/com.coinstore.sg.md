@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/coinstoreglobal
 - https://t.me/coinstore_english
 features: 
+developerName: COINSTORE PTE. LTD.
 
 ---
 

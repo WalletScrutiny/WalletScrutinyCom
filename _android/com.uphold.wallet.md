@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.uphold.wallet/
 - /posts/com.uphold.wallet/
+developerName: Uphold
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter: hodlwallet
 social:
 - https://www.facebook.com/hodlwallet
 features: 
+developerName: Hodl Wallet Inc
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/amarkets
 - https://www.facebook.com/AMarketsFirm
 redirect_from: 
+developerName: AMarkets Ltd.
 features: 
 
 ---

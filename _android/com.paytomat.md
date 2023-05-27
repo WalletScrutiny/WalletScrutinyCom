@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.paytomat/
 - /posts/com.paytomat/
+developerName: 
 features: 
 
 ---

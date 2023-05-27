@@ -27,6 +27,7 @@ twitter: cctip_com
 social:
 - https://www.reddit.com/r/CCTip/
 redirect_from: 
+developerName: Cwallet
 features: 
 
 ---

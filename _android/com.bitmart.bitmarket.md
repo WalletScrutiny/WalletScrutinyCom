@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.bitmart.bitmarket/
 - /posts/com.bitmart.bitmarket/
+developerName: GBM Foundation Company
 features: 
 
 ---

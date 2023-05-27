@@ -27,6 +27,7 @@ social:
 - https://www.facebook.com/exBigONE
 - https://www.reddit.com/r/BigONEExchange
 features: 
+developerName: Base Investing Corporation
 
 ---
 

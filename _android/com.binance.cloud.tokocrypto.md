@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/toko
 - https://www.facebook.com/TCDXOfficial
 redirect_from: 
+developerName: Tokocrypto
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Lobstrco
 social: 
 redirect_from: 
+developerName: LOBSTR Stellar Wallet
 features: 
 
 ---

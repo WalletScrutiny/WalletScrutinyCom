@@ -26,6 +26,7 @@ reviewArchive:
 twitter: quantfury
 social: 
 features: 
+developerName: Quantfury Ltd
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/eversend
 - https://www.facebook.com/eversendapp
 redirect_from: 
+developerName: Eversend
 features: 
 
 ---

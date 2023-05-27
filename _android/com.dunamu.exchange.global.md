@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/upbit.exchange
 redirect_from:
 - /com.dunamu.exchange/
+developerName: Dunamu
 features: 
 
 ---

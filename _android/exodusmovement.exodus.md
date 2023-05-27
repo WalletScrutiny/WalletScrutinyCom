@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exodus.io
 - https://github.com/exodusmovement
 redirect_from: 
+developerName: Exodus Movement, Inc.
 features: 
 
 ---

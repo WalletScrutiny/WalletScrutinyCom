@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ChangeNOW.io
 - https://www.reddit.com/r/ChangeNOW_io
 features: 
+developerName: CHN Group Limited
 
 ---
 

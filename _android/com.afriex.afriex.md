@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/afriex
 - https://www.facebook.com/AfriexApp
 redirect_from: 
+developerName: Afriex
 features: 
 
 ---

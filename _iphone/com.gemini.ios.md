@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/geminitrust
 - https://www.facebook.com/GeminiTrust
 features: 
+developerName: Gemini Trust Company, LLC
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinhako
 - https://www.facebook.com/coinhako
 features: 
+developerName: 
 
 ---
 

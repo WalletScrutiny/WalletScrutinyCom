@@ -28,6 +28,7 @@ twitter: paiexchange
 social:
 - https://www.facebook.com/paiexchange
 redirect_from: 
+developerName: PAI Exchange
 features: 
 
 ---

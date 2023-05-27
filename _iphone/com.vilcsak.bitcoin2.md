@@ -27,6 +27,7 @@ twitter: coinbase
 social:
 - https://www.facebook.com/coinbase
 features: 
+developerName: Coinbase, Inc.
 
 ---
 

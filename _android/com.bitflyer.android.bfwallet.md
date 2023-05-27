@@ -28,6 +28,7 @@ twitter: bitFlyer
 social:
 - https://www.facebook.com/bitflyer
 redirect_from: 
+developerName: bitFlyer
 features: 
 
 ---

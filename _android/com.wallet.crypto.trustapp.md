@@ -33,6 +33,7 @@ redirect_from:
 - /com.wallet.crypto.trustapp/
 - /posts/2019/11/trust/
 - /posts/com.wallet.crypto.trustapp/
+developerName: DApps Platform, Inc.
 features: 
 
 ---

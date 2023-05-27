@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
 features: 
+developerName: AMBER AI LIMITED
 
 ---
 

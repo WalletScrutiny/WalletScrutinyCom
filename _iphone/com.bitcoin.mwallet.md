@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
 features: 
+developerName: Bitcoin.com
 
 ---
 

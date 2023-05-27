@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
 redirect_from: 
+developerName: Gate Global, Corp.
 features: 
 
 ---

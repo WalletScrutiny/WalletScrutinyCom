@@ -27,6 +27,7 @@ reviewArchive:
 twitter: thndrgames
 social: 
 redirect_from: 
+developerName: THNDR
 features:
 - ln
 

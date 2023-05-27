@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/cd_exglobal
 - https://www.facebook.com/CDEX-109585638344013
 redirect_from: 
+developerName: CDEX
 features: 
 
 ---

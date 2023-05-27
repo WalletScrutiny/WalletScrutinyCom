@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/tabtrader
 - https://www.facebook.com/tabtrader
 redirect_from: 
+developerName: Tabtrader BV
 features: 
 
 ---

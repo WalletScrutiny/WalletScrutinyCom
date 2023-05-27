@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.reddit.com/r/LYOPAY
 redirect_from: 
+developerName: DIGILYO APP LTD
 features: 
 
 ---

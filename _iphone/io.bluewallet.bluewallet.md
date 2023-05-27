@@ -38,6 +38,7 @@ social:
 - https://www.reddit.com/r/bluewallet
 features:
 - ln
+developerName: Bluewallet Services, S. R. L.
 
 ---
 

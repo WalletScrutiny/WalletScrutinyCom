@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/binance
 - https://www.reddit.com/r/binance
 features: 
+developerName: Binance LTD
 
 ---
 

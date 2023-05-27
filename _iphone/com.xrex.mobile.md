@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/xrexinc
 - https://www.facebook.com/xrexinfo
 features: 
+developerName: XREX
 
 ---
 

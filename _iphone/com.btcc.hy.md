@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/yourbtcc
 - https://www.reddit.com/r/YourBTCC
 features: 
+developerName: BTCC Global Limited
 
 ---
 

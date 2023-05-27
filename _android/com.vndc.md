@@ -27,6 +27,7 @@ reviewArchive:
 twitter: vncd_official
 social: 
 redirect_from: 
+developerName: ONUS FINANCE UAB
 features: 
 
 ---

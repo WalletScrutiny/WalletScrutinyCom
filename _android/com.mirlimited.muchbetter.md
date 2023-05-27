@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
 redirect_from: 
+developerName: Mir Limited
 features: 
 
 ---

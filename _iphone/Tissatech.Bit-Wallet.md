@@ -27,6 +27,7 @@ twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc
 features: 
+developerName: BitWallet, Inc.
 
 ---
 

@@ -27,6 +27,7 @@ twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
 features: 
+developerName: Gobierno de El Salvador
 
 ---
 

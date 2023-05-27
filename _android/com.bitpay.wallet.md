@@ -46,6 +46,7 @@ redirect_from:
 - /com.bitpay.wallet/
 - /posts/2019/11/bitpay/
 - /posts/com.bitpay.wallet/
+developerName: BitPay, Inc.
 features: 
 
 ---

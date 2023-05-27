@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinmena
 - https://www.facebook.com/CoinMENA.Bahrain
 features: 
+developerName: CoinMENA
 
 ---
 

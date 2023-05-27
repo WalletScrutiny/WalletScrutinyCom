@@ -20,12 +20,13 @@ icon: com.crypto.croytowallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-06-23
+date: 2023-03-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: IMSMART Company LTD
 features: 
 
 ---

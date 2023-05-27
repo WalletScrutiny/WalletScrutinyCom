@@ -54,6 +54,7 @@ social:
 redirect_from:
 - /fr.acinq.phoenix.mainnet/
 - /posts/fr.acinq.phoenix.mainnet/
+developerName: ACINQ
 features:
 - ln
 

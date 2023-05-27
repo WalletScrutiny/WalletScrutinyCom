@@ -30,6 +30,7 @@ social:
 - https://www.tiktok.com/@_cmorq?
 - https://www.facebook.com/DeFiBanking/
 features: 
+developerName: cmorq inc.
 
 ---
 

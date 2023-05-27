@@ -28,6 +28,7 @@ twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFarm
 redirect_from: 
+developerName: CryptoCompany OU
 features: 
 
 ---

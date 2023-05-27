@@ -29,6 +29,7 @@ twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay
 redirect_from: 
+developerName: Roqqu
 features: 
 
 ---

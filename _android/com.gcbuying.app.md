@@ -27,6 +27,7 @@ reviewArchive:
 twitter: gcbuying
 social: 
 redirect_from: 
+developerName: GCBUYING
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: CoinoneOfficial
 social:
 - https://www.facebook.com/coinone
 redirect_from: 
+developerName: Coinone
 features: 
 
 ---

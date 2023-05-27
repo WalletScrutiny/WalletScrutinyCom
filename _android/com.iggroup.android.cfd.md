@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/IGInternational2
 - https://www.youtube.com/channel/UCZj-ae-S_X-mocAH3xQnpUw
 redirect_from: 
+developerName: IG Group
 features: 
 
 ---

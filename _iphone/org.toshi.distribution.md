@@ -26,6 +26,7 @@ reviewArchive:
 twitter: CoinbaseWallet
 social: 
 features: 
+developerName: Coinbase Wallet
 
 ---
 

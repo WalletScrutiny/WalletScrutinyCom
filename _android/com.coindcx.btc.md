@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
 redirect_from: 
+developerName: CoinDCX Official
 features: 
 
 ---

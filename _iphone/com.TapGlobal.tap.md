@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Tap Global Limited
 
 ---
 

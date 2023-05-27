@@ -34,6 +34,7 @@ social:
 - https://www.linkedin.com/company/edgeapp
 - https://www.reddit.com/r/EdgeWallet
 features: 
+developerName: Airbitz Inc
 
 ---
 

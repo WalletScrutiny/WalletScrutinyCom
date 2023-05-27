@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw
 - https://www.linkedin.com/company/movocash-inc-/
 redirect_from: 
+developerName: MovoCash, Inc.
 features: 
 
 ---

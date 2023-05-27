@@ -28,6 +28,7 @@ twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial
 redirect_from: 
+developerName: Brasil Bitcoin
 features: 
 
 ---

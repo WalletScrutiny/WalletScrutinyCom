@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/PayPal
 - https://www.reddit.com/r/paypal
 features: 
+developerName: PayPal, Inc.
 
 ---
 

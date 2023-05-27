@@ -26,6 +26,7 @@ reviewArchive:
 twitter: litefinanceeng
 social: 
 redirect_from: 
+developerName: LITEFOREX (EUROPE) LTD
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /it.airgap.wallet/
 - /posts/it.airgap.wallet/
+developerName: Papers AG
 features: 
 
 ---

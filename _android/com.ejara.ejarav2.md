@@ -28,6 +28,7 @@ twitter: EjaraApp
 social:
 - https://www.facebook.com/Ejaracapital
 redirect_from: 
+developerName: Ejara
 features: 
 
 ---

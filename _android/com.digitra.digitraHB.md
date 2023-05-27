@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/digitracom/
 - https://www.youtube.com/@digitracom
 redirect_from: 
+developerName: Digitra.com
 features: 
 
 ---

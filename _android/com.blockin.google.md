@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/poolin
 - https://www.facebook.com/poolinpool
 redirect_from: 
+developerName: Beijing Satoshi Smart Co.,Ltd.
 features: 
 
 ---

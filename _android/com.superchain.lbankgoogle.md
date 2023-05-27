@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/lbank
 - https://www.facebook.com/LBank.info
 redirect_from: 
+developerName: LBank
 features: 
 
 ---

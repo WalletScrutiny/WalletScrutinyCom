@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.instagram.com/fxtrendo/
 redirect_from: 
+developerName: Trendo LLC
 features: 
 
 ---

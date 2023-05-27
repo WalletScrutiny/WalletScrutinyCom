@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/ace.exchange.tw
 features: 
+developerName: 王牌數位創新股份有限公司
 
 ---
 

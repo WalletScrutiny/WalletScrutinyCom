@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BitpieWallet
 features:
 - ln
+developerName: BITPIE HK LIMITED
 
 ---
 

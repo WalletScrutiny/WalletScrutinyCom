@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 features: 
+developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---
 

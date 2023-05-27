@@ -28,6 +28,7 @@ twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from: 
+developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 features: 
 
 ---

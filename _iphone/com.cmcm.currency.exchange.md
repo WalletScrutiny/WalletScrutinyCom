@@ -27,6 +27,7 @@ twitter: BitrueOfficial
 social:
 - https://www.facebook.com/BitrueOfficial
 features: 
+developerName: BITRUE SINGAPORE PTE. LTD.
 
 ---
 

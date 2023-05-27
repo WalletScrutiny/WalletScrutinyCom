@@ -28,6 +28,7 @@ twitter: Wealthsimple
 social:
 - https://www.facebook.com/wealthsimple
 redirect_from: 
+developerName: Wealthsimple
 features: 
 
 ---

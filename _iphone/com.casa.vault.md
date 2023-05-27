@@ -26,6 +26,7 @@ reviewArchive:
 twitter: CasaHODL
 social: 
 features: 
+developerName: Casa Inc.
 
 ---
 

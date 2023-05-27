@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/citadel-one/
 - https://www.facebook.com/Citadel.One
 redirect_from: 
+developerName: Citadel.one
 features: 
 
 ---

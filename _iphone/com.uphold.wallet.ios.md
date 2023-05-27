@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/upholdinc
 - https://www.facebook.com/UpholdInc
 features: 
+developerName: Uphold
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
 features: 
+developerName: MIR LIMITED
 
 ---
 

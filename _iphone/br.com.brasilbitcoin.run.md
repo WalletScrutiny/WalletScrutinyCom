@@ -27,6 +27,7 @@ twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial
 features: 
+developerName: Brasil Bitcoin Servicos Digitais LTDA
 
 ---
 

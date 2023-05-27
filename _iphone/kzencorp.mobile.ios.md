@@ -26,6 +26,7 @@ reviewArchive:
 twitter: zengo
 social: 
 features: 
+developerName: ZenGo Ltd.
 
 ---
 

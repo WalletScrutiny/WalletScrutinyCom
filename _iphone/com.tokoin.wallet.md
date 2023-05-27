@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/tokoinindonesia
 - https://github.com/tokoinofficial
 features: 
+developerName: TOKOIN
 
 ---
 

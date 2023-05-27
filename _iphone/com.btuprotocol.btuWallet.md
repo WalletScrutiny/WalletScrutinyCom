@@ -26,6 +26,7 @@ reviewArchive:
 twitter: versoapp
 social: 
 features: 
+developerName: 808 Labs
 
 ---
 

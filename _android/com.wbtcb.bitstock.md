@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: IP wBTCb solutions, s.r.o.
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.changelly.app/
 - /posts/com.changelly.app/
+developerName: Changelly – Instant Crypto Exchange
 features: 
 
 ---

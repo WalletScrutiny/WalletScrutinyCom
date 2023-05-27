@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/capexglobal
 - https://www.facebook.com/CAPEXSeychelles
 features: 
+developerName: Key Way Investment Ltd
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/robinhood
 - https://www.facebook.com/robinhoodapp
 features: 
+developerName: Robinhood Markets, Inc.
 
 ---
 

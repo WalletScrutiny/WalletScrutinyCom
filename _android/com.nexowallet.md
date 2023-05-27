@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Nexo
 redirect_from:
 - /com.nexowallet/
+developerName: Nexo Capital Inc
 features: 
 
 ---

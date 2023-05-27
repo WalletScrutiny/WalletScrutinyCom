@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/robinhood
 - https://www.facebook.com/robinhoodapp
 redirect_from: 
+developerName: Robinhood
 features: 
 
 ---

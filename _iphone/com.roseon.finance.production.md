@@ -27,6 +27,7 @@ twitter: RoseonFinance
 social:
 - https://www.facebook.com/Roseon.Finance
 features: 
+developerName: MYBITOK OU
 
 ---
 

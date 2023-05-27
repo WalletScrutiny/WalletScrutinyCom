@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 
+developerName: PayPal, Inc.
 features: 
 
 ---

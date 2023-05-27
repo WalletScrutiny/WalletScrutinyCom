@@ -34,6 +34,7 @@ redirect_from:
 - /com.coinbase.android/
 - /posts/2019/10/coinbase/
 - /posts/com.coinbase.android/
+developerName: Coinbase Android
 features: 
 
 ---

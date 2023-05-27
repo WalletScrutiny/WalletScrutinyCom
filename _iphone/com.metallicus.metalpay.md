@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
 features: 
+developerName: Metallicus, Inc.
 
 ---
 

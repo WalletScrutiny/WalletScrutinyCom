@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/nagainvesting
 - https://www.facebook.com/nagainvesting
 redirect_from: 
+developerName: NAGA Markets Ltd.
 features: 
 
 ---

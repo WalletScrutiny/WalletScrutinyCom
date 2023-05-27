@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/digitracom/
 - https://www.youtube.com/@digitracom
 features: 
+developerName: 
 
 ---
 

@@ -28,6 +28,7 @@ twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
 redirect_from: 
+developerName: Bitso
 features: 
 
 ---

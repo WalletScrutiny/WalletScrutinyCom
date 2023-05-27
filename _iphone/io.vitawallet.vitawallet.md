@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/vita-wallet
 - https://www.facebook.com/vitawallet
 features: 
+developerName: Vita Solutions S.p.A
 
 ---
 

@@ -28,6 +28,7 @@ twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau
 redirect_from: 
+developerName: CoinSpot
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinjar
 - https://www.facebook.com/CoinJar
 features: 
+developerName: CoinJar Pty Ltd
 
 ---
 

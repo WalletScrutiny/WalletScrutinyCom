@@ -34,6 +34,7 @@ redirect_from:
 - /co.mona.android/
 - /crypto.com/
 - /posts/co.mona.android/
+developerName: Crypto Technology Holdings Limited
 features: 
 
 ---

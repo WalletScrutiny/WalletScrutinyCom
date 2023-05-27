@@ -28,6 +28,7 @@ twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi
 redirect_from: 
+developerName: ECOS CJSC
 features: 
 
 ---

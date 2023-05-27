@@ -27,6 +27,7 @@ reviewArchive:
 twitter: eritajpam
 social: 
 redirect_from: 
+developerName: Ezechias Caillot
 features: 
 
 ---

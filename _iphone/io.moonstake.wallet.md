@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/moonstake
 - https://www.facebook.com/moonstakekorea
 features: 
+developerName: Moonstake Limited
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coinlocallyclyc
 social: 
 features: 
+developerName: 
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/valr
 - https://www.facebook.com/VALRdotcom
 features: 
+developerName: VALR Pty Ltd
 
 ---
 

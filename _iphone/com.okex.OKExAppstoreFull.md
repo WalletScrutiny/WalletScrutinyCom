@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/okexofficial
 - https://www.reddit.com/r/OKEx
 features: 
+developerName: OKEX MALTA LTD
 
 ---
 

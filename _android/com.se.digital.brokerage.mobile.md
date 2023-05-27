@@ -30,6 +30,7 @@ social:
 - https://page.line.me/xspringdigital
 - https://www.linkedin.com/company/xspring/
 redirect_from: 
+developerName: XSpring Digital Co., Ltd.
 features: 
 
 ---

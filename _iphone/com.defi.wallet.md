@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 features: 
+developerName: DeFi Labs
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
 features: 
+developerName: Splash Factory
 
 ---
 

@@ -31,6 +31,7 @@ social:
 - https://medium.com/@bitcicom
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
 redirect_from: 
+developerName: Bitci Borsa Teknoloji Anonim Sirketi
 features: 
 
 ---

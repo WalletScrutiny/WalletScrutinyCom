@@ -29,6 +29,7 @@ twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp
 redirect_from: 
+developerName: Critical Ideas, Inc.
 features: 
 
 ---

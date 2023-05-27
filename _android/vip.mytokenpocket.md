@@ -28,6 +28,7 @@ twitter: TokenPocket_TP
 social:
 - https://www.facebook.com/TokenPocket
 redirect_from: 
+developerName: TokenPocket Foundation
 features: 
 
 ---

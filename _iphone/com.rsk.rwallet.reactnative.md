@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock
 features: 
+developerName: IOV Labs S.A
 
 ---
 

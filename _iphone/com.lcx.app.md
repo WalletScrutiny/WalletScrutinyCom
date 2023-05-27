@@ -28,6 +28,7 @@ social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ
 - https://www.instagram.com/lcx.exchange/
 features: 
+developerName: 
 
 ---
 

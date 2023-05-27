@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 redirect_from: 
+developerName: Dunamu
 features: 
 
 ---

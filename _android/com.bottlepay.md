@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bottlepay
 social: 
 redirect_from: 
+developerName: Bottlepay Ltd.
 features:
 - ln
 

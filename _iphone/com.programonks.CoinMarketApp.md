@@ -27,6 +27,7 @@ twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
 features: 
+developerName: CORTEX AG
 
 ---
 

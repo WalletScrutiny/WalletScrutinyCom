@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/jtechtrade
 - https://www.linkedin.com/company/jtech-global-resources-limited
 redirect_from: 
+developerName: Jtech Global Resources Limited
 features: 
 
 ---

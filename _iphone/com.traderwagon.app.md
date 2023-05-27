@@ -26,6 +26,7 @@ reviewArchive:
 twitter: traderwagon
 social: 
 features: 
+developerName: 
 
 ---
 

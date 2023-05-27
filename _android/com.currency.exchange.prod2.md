@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.currency.exchange.prod2/
 - /posts/com.currency.exchange.prod2/
+developerName: CURRENCY.COM STV
 features: 
 
 ---

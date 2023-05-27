@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/spend
 - https://www.reddit.com/r/Spend
 features: 
+developerName: Spend Inc
 
 ---
 

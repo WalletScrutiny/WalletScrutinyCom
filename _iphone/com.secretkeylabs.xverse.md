@@ -26,6 +26,7 @@ reviewArchive:
 twitter: secretkeylabs
 social: 
 features: 
+developerName: Secret Key Labs
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
 redirect_from: 
+developerName: DeFiChain
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/trustwalletapp
 - https://www.reddit.com/r/trustapp
 features: 
+developerName: SIX DAYS LLC
 
 ---
 

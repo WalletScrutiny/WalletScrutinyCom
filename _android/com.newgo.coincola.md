@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/coincolaofficial
 redirect_from:
 - /com.newgo.coincola/
+developerName: CoinCola Limited
 features: 
 
 ---

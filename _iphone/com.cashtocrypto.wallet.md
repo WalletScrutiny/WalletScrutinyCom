@@ -27,6 +27,7 @@ twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
 features: 
+developerName: Bitcoin Depot
 
 ---
 

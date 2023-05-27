@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitmama
 - https://www.instagram.com/bitmamaexchange/
 features: 
+developerName: Bitmama Inc
 
 ---
 

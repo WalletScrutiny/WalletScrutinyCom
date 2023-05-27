@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/SWallet.en
 - https://t.me/SWallet_ai
 redirect_from: 
+developerName: Swallet OU
 features: 
 
 ---

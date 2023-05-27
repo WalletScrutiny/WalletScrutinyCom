@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Galoy Inc
 features:
 - ln
 

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/nexofinance
 - https://www.reddit.com/r/Nexo
 features: 
+developerName: Nexo Capital Inc.
 
 ---
 

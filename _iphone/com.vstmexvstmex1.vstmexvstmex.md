@@ -27,6 +27,7 @@ twitter: VSTMEX
 social:
 - https://t.me/VSTMEX001
 features: 
+developerName: 
 
 ---
 

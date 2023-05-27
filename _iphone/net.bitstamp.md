@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitstamp
 - https://www.facebook.com/Bitstamp
 features: 
+developerName: Bitstamp Ltd.
 
 ---
 

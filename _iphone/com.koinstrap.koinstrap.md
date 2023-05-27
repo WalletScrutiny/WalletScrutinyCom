@@ -27,6 +27,7 @@ twitter: koinstrap
 social:
 - https://www.facebook.com/koinstrap
 features: 
+developerName: Koinstrap, Inc.
 
 ---
 

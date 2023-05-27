@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 'Eagle Network : Digital Currency For Phone'
 features: 
 
 ---

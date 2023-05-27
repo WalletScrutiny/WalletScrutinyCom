@@ -27,6 +27,7 @@ twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
 features: 
+developerName: Exodus Movement, Inc.
 
 ---
 

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 redirect_from: 
+developerName: Nuri GmbH
 features: 
 
 ---

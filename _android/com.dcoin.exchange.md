@@ -28,6 +28,7 @@ twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange
 redirect_from: 
+developerName: Dcoin
 features: 
 
 ---

@@ -31,6 +31,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: E-Global Trade & Finance Group, Inc.
 
 ---
 

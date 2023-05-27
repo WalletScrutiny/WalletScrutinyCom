@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.coinex.trade.play/
 - /posts/com.coinex.trade.play/
+developerName: CoinEx
 features: 
 
 ---
