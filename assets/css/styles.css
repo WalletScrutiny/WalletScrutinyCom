@@ -227,88 +227,7 @@ body.modal-open {
 
 /* END BACKEND WIDGET STYLE */
 
-/* PRESS */
 
-.press-button-holder>.check {
-  display: none;
-  transition: .4s ease;
-  opacity: 0;
-  transform-origin: center;
-  transform: scale(0);
-}
-
-.press-button-holder.activated>.check {
-  display: inline-block;
-  opacity: 1;
-  transform: scale(1);
-  color: var(--accent, var(--accent));
-}
-
-.press-button-holder {
-  border-radius: 5px;
-  padding: 4px 8px;
-  align-items: baseline;
-  flex-direction: row;
-  flex-wrap: wrap;
-  -webkit-column-gap: 4px;
-  -moz-column-gap: 4px;
-  column-gap: 4px;
-  -webkit-row-gap: 4px;
-  -moz-row-gap: 4px;
-  row-gap: 4px;
-  margin-right: 0.5rem;
-  margin-bottom: .5rem;
-  background: var(--white);
-}
-
-.press-button-holder input {
-  background: transparent;
-}
-
-.press-button-holder:not(.activated) {
-  opacity: .8;
-}
-
-.press-button-holder.activated {
-  opacity: 1;
-}
-
-.press-button-holder input.activated {
-  color: var(--accent-text);
-}
-
-.press-button-holder>input {
-  border: 0;
-  box-shadow: unset;
-  margin: 0;
-}
-
-.press {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 6px 10px -6px var(--shadow-3);
-  background-color: var(--dark-grey);
-  margin: .75rem;
-}
-
-.press img {
-  height: 8em;
-  width: 8em;
-}
-
-.press:hover, .press:hover>img {
-  box-shadow: 0px 7px 15px -3px var(--permanent-black, rgba(0, 0, 0, 0.3)), 0px -5px 15px -10px var(--permanent-white);
-}
-
-.press-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1rem;
-}
-
-/* END PRESS */
 
 /* HERO */
 
@@ -529,33 +448,6 @@ h2.section-label>a:hover {
   opacity: 1
 }
 
-.press::before {
-  position: absolute;
-  font-size: 0.5rem;
-  background: var(--accent-text, rgb(97, 200, 97));
-  padding: .1rem .5rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin: 4px;
-  border-radius: 100px;
-  color: var(--white);
-}
-
-.press.EN::before {
-  content: "English";
-}
-
-.press.DE::before {
-  content: "Deutsch";
-}
-
-.press.NL::before {
-  content: "Nederlands";
-}
-
-.press.ES::before {
-  content: "Español";
-}
 
 .walletSearch-parent {
   display: grid;

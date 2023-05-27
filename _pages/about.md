@@ -28,8 +28,6 @@ function lsTest(){
 <p>To better understand our methodology, check out our <a href="/methodology/?faq">FAQ</a> or the podcast appearances below.</p>
 </div>
 
-<h2 id="featuredOn"></h2>
-
 {% include press.html %}
 
 {% include about/meetTheTeam.html %}
@@ -67,47 +65,6 @@ h2{
 p{
     font-weight: 300;
 }
-.team{
-    display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-.team-member{
-  display:grid; 
-  gap: 5px; 
-  justify-content: center;
-    width: 200px;
-    text-align: center;
-}
-.team-member h3{margin:auto; font-size: 17px; font-weight: 300px;}
-.team-member p{margin:auto;font-weight: 200;font-size: 17px;}
-.team-member .image {
-  height: 100px;
-  width: 100px;
-  background-position: 50% 50%;
-  border-radius: 100px;
-  background-size: cover;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-image: url(/images/avatarPlaceholder.jpg);
-}
-.sponsors {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
-.sponsors a {
-color: var(--text); 
-text-decoration: none; 
-font-size: 17px; font-weight: 300px;
-}
-.sponsors a:hover {
-    color: var(--accent-text);
-} 
-.sponsors a .image {
-    max-width: 100px;
-    height: 100px;
-}
+
 
 </style>

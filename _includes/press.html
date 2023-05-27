@@ -1,46 +1,220 @@
 {% include base_path %}
-<div class="page-section">
-<div class="press-button-holder press-button-holder-EN activated">
-  <i class="fas fa-check check"></i>
-  <input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
-</div>
-<div class="press-button-holder press-button-holder-DE activated">
-  <i class="fas fa-check check"></i>
-<input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
-</div>
-<div class="press-button-holder press-button-holder-NL activated">
-  <i class="fas fa-check check"></i>
-<input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
-</div>
-<div class="press-button-holder press-button-holder-ES activated">
-  <i class="fas fa-check check"></i>
-<input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
-</div>
-
-<span style="width: 100%;text-align: center;margin-bottom: 1rem;" class="help-text">Filter grid by publication language.</span>
+<div class="page-section" id="featuredOn">
+  <div style="opacity:0;pointer-events:none;position: absolute;" class="press-controls">
+    <div class="press-button-holder press-button-holder-EN activated">
+      <i class="fas fa-check check"></i>
+      <input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
+    </div>
+    <div class="press-button-holder press-button-holder-DE activated">
+      <i class="fas fa-check check"></i>
+    <input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
+    </div>
+    <div class="press-button-holder press-button-holder-NL activated">
+      <i class="fas fa-check check"></i>
+    <input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
+    </div>
+    <div class="press-button-holder press-button-holder-ES activated">
+      <i class="fas fa-check check"></i>
+    <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
+    </div>
+    <span style="width: 100%;text-align: center;margin-bottom: 1rem;" class="help-text">Filter grid by publication language.</span>
+  </div>
 <script>
   function fpress(el) {
     $( ".press-button-holder-" + el ).toggleClass( 'activated' );
     $( "#press_button_" + el ).toggleClass( 'activated' );
     $( ".press." + el ).toggleClass( 'hidden' );
   }
+
+  function showAllPublications(self){
+    self.style.display="none"
+    document.querySelector('.press-container.truncated').classList.remove('truncated')
+    document.querySelector('.press-controls').removeAttribute('style')
+  }
 </script>
 
-<div class="press-container">
-{% for p in site.press reversed
-  %}<div class="press {{ p.language }} {{ p.format }}"><a href="{{ p.link }}"
-    title="{{ p.platform }} {{ p.publicationName }}"><img
-      src="{{ base_path }}/images/press/{{ p.image }}"
-      alt="{{ p.platform }} {{ p.publicationName }}"
-      title="{{ p.platform }}
+<div class="press-container truncated">
+{% for p in site.press reversed %}
+<a class="press {{ p.format }}" href="{{ p.link }}" title="{{ p.platform }}
 {{ p.publicationName }}
 {{ p.date  | date: '%Y-%m-%d' }}
 published by {{ p.author }}
 language: {{ p.language }}
 format: {{ p.format }}
-
-{{ p.content | strip_html }}" /></a></div>{%
-endfor %}
+{{ p.content | strip_html }}">
+  <div>
+    <span class="press-img"
+      style="background-image:url({{ base_path }}/images/press/{{ p.image }});"
+      alt="{{ p.platform }} {{ p.publicationName }}"
+      ></span>
+    <span class="press-summary">
+    <span class="title">{{ p.platform }}</span> 
+      <span class="subtitle">{{p.publicationName }}</span> 
+      <span class="details">{{ p.content | strip_html }}</span>
+      <span class="info">
+        <span>Released: {{ p.date  | date: '%Y-%m-%d' }}</span>
+        <span class="{{ p.language }}"></span>
+        <span>Format: {{ p.format }}</span>
+      </span>
+    </span>
+  </div>
+</a>
+{% endfor %}
+</div>
+<a onclick="showAllPublications(this)" style="margin-top:20px;text-decoration: none;cursor: pointer;">View all publications</a>
 </div>
 
-</div>
+<style>
+  /* PRESS */
+.press-controls {
+  display: grid;
+  grid-template: 1fr auto / repeat(4, 1fr);
+  text-align: center;
+}
+
+.press-button-holder>.check {
+  display: none;
+  transition: .4s ease;
+  opacity: 0;
+  transform-origin: center;
+  transform: scale(0);
+}
+
+.press-button-holder.activated>.check {
+  display: inline-block;
+  opacity: 1;
+  transform: scale(1);
+  color: var(--accent, var(--accent));
+}
+
+.press-button-holder {
+  border-radius: 5px;
+  padding: 4px 8px;
+  align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-column-gap: 4px;
+  -moz-column-gap: 4px;
+  column-gap: 4px;
+  -webkit-row-gap: 4px;
+  -moz-row-gap: 4px;
+  row-gap: 4px;
+  margin-right: 0.5rem;
+  margin-bottom: .5rem;
+  background: var(--white);
+}
+
+.press-button-holder input {
+  background: transparent;
+}
+
+.press-button-holder:not(.activated) {
+  opacity: .8;
+}
+
+.press-button-holder.activated {
+  opacity: 1;
+}
+
+.press-button-holder input.activated {
+  color: var(--accent-text);
+}
+
+.press-button-holder>input {
+  border: 0;
+  box-shadow: unset;
+  margin: 0;
+}
+
+.press {
+  text-decoration: none !important;
+  color: var(--text);
+}
+
+.press div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.press-img {
+  height:200px;
+  width: 200px;
+  background-size: cover;
+  background-position: 0% 0%;
+  border-radius: 10px;
+}
+
+
+.press-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 20px;
+}
+
+.press-summary {
+  display: grid;
+  margin: auto;
+  gap: 5px;
+  width: 400px;
+  max-width: 80vw;
+}
+
+.press-summary .title {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.press-summary .subtitle, .press-summary .details {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.press-summary .info {
+  display: grid;
+  font-size: 14px;
+  opacity: .5;
+}
+.press-container.truncated .press{
+  display:none;
+}
+.press-container.truncated .press:first-child,
+.press-container.truncated .press:nth-child(2){
+  display: unset !important;
+}
+
+
+.press::before {
+  position: absolute;
+  font-size: 0.5rem;
+  background: var(--accent-text, rgb(97, 200, 97));
+  padding: .1rem .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 4px;
+  border-radius: 100px;
+  color: var(--white);
+}
+
+.press .EN::before {
+  content: "Language: English";
+}
+
+.press .DE::before {
+  content: "Language: Deutsch";
+}
+
+.press .NL::before {
+  content: "Language: Nederlands";
+}
+
+.press .ES::before {
+  content: "Language: Español";
+}
+
+/* END PRESS */
+</style>

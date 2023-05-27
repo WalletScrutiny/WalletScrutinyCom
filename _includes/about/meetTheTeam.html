@@ -2,7 +2,8 @@
 
 <div class="team">
 {% assign authors = site.authors %}
-<!-- % assign authors = authors | concat: site.contributors % -->
+{% assign contributors = site.contributors %}
+<!-- % assign authors2 = authors | concat: contributors % -->
 
 {% for author in authors %}
 
@@ -24,3 +25,31 @@
 {% endfor %}
 
 </div>
+
+<style>
+  .team{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 25px 10px;
+}
+.team-member{
+  display:grid; 
+  gap: 5px; 
+  justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+.team-member h3{margin:auto; font-size: 17px; font-weight: 300px;}
+.team-member p{margin:auto;font-weight: 200;font-size: 17px;}
+.team-member .image {
+  height: 100px;
+  width: 100px;
+  background-position: 50% 50%;
+  border-radius: 100px;
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url(/images/avatarPlaceholder.jpg);
+}
+</style>
