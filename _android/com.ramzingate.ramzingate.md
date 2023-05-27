@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: رمزینگیت|خرید آنی تتر و رمزارز
+title: Ramzingate | Crypto exchange
 altTitle: 
 authors: 
 users: 1000

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rahaexchange.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-07-06
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: rahaexchange

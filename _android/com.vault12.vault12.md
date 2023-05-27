@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: 'Vault12 Guard: Inherit Web3'
+title: 'Vault12 Guard: Inherit+Secure'
 altTitle: 
 authors:
 - danny

@@ -4,7 +4,7 @@ title: 'Aries: Investing & Trading'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.trading.aries
 appCountry: ng
 released: 2021-06-23

@@ -1,6 +1,6 @@
 ---
 wsId: OGPay
-title: OGPay Wallet
+title: OGPay Business
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.unifiedsignal.ogpaywallet
 appCountry: us
 idd: 1471960731
 released: 2019-08-03
-updated: 2023-05-01
-version: '9.6'
+updated: 2023-05-11
+version: '9.7'
 stars: 4.7
-reviews: 170
-size: '197766144'
+reviews: 173
+size: '198282240'
 website: https://ogpaywallet.com/
 repository: 
 issue: 
