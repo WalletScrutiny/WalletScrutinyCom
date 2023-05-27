@@ -4,3 +4,5 @@ main:
     url: /methodology/
   - title: "<div id=\"aboutButton\">About</div>"
     url: /about/
+  - title: "<div id=\"donate\">Donate</div>"
+    url: /donate/
