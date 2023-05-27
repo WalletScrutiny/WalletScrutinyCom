@@ -1,6 +1,6 @@
 ---
 wsId: bitcointerminal.zondapay
-title: zondacrypto Pay Terminal
+title: zondacrypto pay terminal
 altTitle: 
 authors:
 - danny

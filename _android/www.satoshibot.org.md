@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: www.satoshibot.org.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

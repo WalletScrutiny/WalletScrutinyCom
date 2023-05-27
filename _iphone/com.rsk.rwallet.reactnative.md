@@ -18,9 +18,9 @@ repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: ftbfs
-date: 2022-12-28
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: rsksmart

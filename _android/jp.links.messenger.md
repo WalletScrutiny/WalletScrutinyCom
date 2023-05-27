@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.links.messenger.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

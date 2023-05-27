@@ -1,26 +1,26 @@
 ---
 wsId: 
-title: 'HIVE : Crypto Forecast AI - Tr'
+title: 'HIVE : Crypto Forecast AI'
 altTitle: 
 authors: 
 users: 1000
 appId: com.digitalstorm.HIVE
 appCountry: 
 released: 2021-06-12
-updated: 2022-01-08
-version: 1.9.0
+updated: 2023-05-15
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://mtx.digital/
+website: https://fuza.site/
 repository: 
 issue: 
 icon: com.digitalstorm.HIVE.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2023-01-04
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 

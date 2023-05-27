@@ -3,7 +3,7 @@ wsId:
 title: AirPay wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.airpay.appwallet
 appCountry: 
 released: 2022-04-15

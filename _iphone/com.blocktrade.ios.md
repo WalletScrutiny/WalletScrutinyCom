@@ -13,7 +13,7 @@ version: 2.4.2
 stars: 5
 reviews: 9
 size: '28897280'
-website: https://blocktrade.com
+website: https://blocktrade.com/
 repository: 
 issue: 
 icon: com.blocktrade.ios.jpg

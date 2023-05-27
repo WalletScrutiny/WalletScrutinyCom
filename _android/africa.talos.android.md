@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: africa.talos.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 

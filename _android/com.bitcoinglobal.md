@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-25
 updated: 2023-04-18
 version: 2.12.0
-stars: 2.7
+stars: 2.5
 ratings: 91
-reviews: 3
+reviews: 4
 size: 
 website: https://bitcoin.global/
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-03-30
 version: VARY
 stars: 4.4
 ratings: 390
-reviews: 21
+reviews: 22
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: 

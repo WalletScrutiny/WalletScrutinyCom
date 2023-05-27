@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - emanuel
-users: 1000
+users: 5000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
-updated: 2023-05-08
-version: 1.9.30
-stars: 4.7
+updated: 2023-05-24
+version: 1.9.31
+stars: 4.6
 ratings: 26
-reviews: 12
+reviews: 13
 size: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android

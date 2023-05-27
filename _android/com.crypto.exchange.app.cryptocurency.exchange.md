@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-23
 updated: 2021-04-23
 version: '1.0'
-stars: 4.6
+stars: 4.5
 ratings: 220
-reviews: 100
+reviews: 74
 size: 
 website: http://crypto-exchange.club
 repository: 

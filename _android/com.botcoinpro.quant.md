@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.botcoinpro.quant.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2023-01-18
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,15 +4,15 @@ title: Bybit:Buy Bitcoin,Trade Crypto
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.bybit.app
 appCountry: 
 released: 2019-10-31
-updated: 2023-05-04
-version: 4.16.5
-stars: 4.5
+updated: 2023-05-25
+version: 4.17.1
+stars: 4.6
 ratings: 107859
-reviews: 648
+reviews: 698
 size: 
 website: https://www.bybit.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: SecuX Firmware Update
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.secux.firmwareupdate
 appCountry: 
 released: 2021-09-28
