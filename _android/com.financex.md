@@ -2,7 +2,8 @@
 wsId: 
 title: FinanceX - Crypto Trading with
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.financex
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.financex.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-01-03
+verdict: custodial
+date: 2023-05-25
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,13 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> FinanceX ensure all of your information is confidential and money is safely stored in your wallet by using Protection from DDoS attacks, Two-factor authentication (2FA), Withdrawals protection, **Cold wallets**
+
+## Analysis 
+
+- When we registered, we registered with Vinamon
+- This looks like a cryptocurrency exchange 
+- KYC verification increases users' withdrawal limits
+- As a cryptocurrency exchange which makes use of cold wallets, we can say that this app is **custodial.**
