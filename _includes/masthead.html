@@ -54,25 +54,6 @@
 </script>
 
 <script>
-  let vibrancy = localStorage.getItem("vibrancy") ? localStorage.getItem("vibrancy") : 'grey'
-  window.vibrancy = vibrancy
-  document.body.classList.add(vibrancy);
-
-  function toggleVibrancy(){
-    if(window.vibrancy !== "grey"){
-      window.vibrancy = "grey"
-      document.body.classList.remove("vibrant")
-      document.body.classList.add("grey")
-    } else {
-      window.vibrancy = "vibrant"
-      document.body.classList.remove("grey")
-      document.body.classList.add("vibrant")
-    }
-    try { localStorage.setItem('vibrancy', window.vibrancy) } catch (e) {}
-  }
-</script>
-
-<script>
   document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
     const self = document.querySelector(".navicon").parentNode
     const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2)
