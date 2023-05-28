@@ -516,6 +516,16 @@
           font-weight: $paragraph-font-weight;
           opacity: 0.7;
         }
+        div {
+          @media (max-width: 550px) {
+            width: 120px;
+          }
+          .pass,
+          .fail {
+            height: .5rem;
+            margin-top: .5rem;
+          }
+        }
       }
       .score {
         display: none;
@@ -528,6 +538,7 @@
         font-size: 15px;
         justify-items: center;
         align-items: center;
+        margin: 0;
         @media (max-width: 950px) {
           grid-column: 1/2;
           grid-row: 2/3;
@@ -559,7 +570,6 @@
             display: block;
             line-height: 11px;
             @media (max-width: 950px) {
-              bottom: -14px;
               font-size: 11px;
             }
           }
