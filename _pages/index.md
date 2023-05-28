@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "Is your Bitcoin wallet secure?"
-summary: "This project examines wallet products for build transparency and potential vulnerabilities."
-excerpt: "Many wallets are not open to public scrutiny"
+title: "Know your wallet like you built it."
+summary: "Wallet Scrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure."
+excerpt: "Not everyone is a developer. Not everyone has to be."
 author_profile: true
 ---
 
