@@ -771,6 +771,7 @@
   background-color: var(--shadow-2);
   z-index: 999;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .stamp {
