@@ -3,7 +3,7 @@ wsId:
 title: 2FA (BitBox01)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.digitalbitbox.tfa
 appCountry: 

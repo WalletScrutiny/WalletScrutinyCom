@@ -3,7 +3,7 @@ wsId:
 title: Eyewallet Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.eyewallet.io
 appCountry: 

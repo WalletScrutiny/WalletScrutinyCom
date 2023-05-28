@@ -3,7 +3,7 @@ wsId: dyorEX
 title: DyorEX Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.dyorex.dyorex_mobile_app
 appCountry: 

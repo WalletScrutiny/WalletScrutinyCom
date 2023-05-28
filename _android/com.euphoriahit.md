@@ -3,7 +3,7 @@ wsId:
 title: Euphoria Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.euphoriahit
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Euphoria_Hit
 social:
-- https://t.me/euphoriahitchat 
+- https://t.me/euphoriahitchat
 redirect_from: 
 developerName: Euphoria-Wallet
 features: 

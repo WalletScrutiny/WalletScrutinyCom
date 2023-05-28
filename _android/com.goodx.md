@@ -3,7 +3,7 @@ wsId:
 title: GoodX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.goodx
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: OTPPAY - Crypto Exchange & Mer
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.idbtec.otppaycrypto
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://t.me/otppaychat
-- https://www.youtube.com/watch?v=otjCnt4qN1E  
+- https://www.youtube.com/watch?v=otjCnt4qN1E
 redirect_from: 
 developerName: Otppay OU
 features: 

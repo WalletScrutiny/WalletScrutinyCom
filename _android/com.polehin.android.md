@@ -12,7 +12,7 @@ updated: 2022-01-09
 version: 3.7.4
 stars: 4
 ratings: 22277
-reviews: 917
+reviews: 916
 size: 
 website: https://coinbox.org
 repository: 

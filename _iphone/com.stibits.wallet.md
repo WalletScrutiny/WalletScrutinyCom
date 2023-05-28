@@ -26,7 +26,7 @@ reviewArchive:
 twitter: stibits
 social: 
 features: 
-developerName: 
+developerName: Stibits
 
 ---
 

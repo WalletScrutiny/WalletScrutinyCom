@@ -27,7 +27,7 @@ twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
 features: 
-developerName: Huobi Global Limited
+developerName: Huobi LTD
 
 ---
 

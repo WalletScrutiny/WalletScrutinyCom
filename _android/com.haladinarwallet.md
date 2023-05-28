@@ -3,7 +3,7 @@ wsId:
 title: Haladinar HDN wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.haladinarwallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: haladinar
 social:
-- https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html 
+- https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html
 - https://facebook.com/haladinar.io
 - https://github.com/haladinar
 - https://t.me/haladinar

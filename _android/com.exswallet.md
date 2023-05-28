@@ -3,7 +3,7 @@ wsId:
 title: '미라클 월렛: MiraQle Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.exswallet
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: MIRAQLE_MQL
 social:
 - https://www.instagram.com/miraqle_official
-- https://t.me/MiraQle_Official 
+- https://t.me/MiraQle_Official
 redirect_from: 
 developerName: OrangeEnt
 features: 

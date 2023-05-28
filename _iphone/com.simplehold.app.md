@@ -28,7 +28,7 @@ social:
 - https://t.me/simplehold_io
 - https://www.reddit.com/r/SH_Cryptowallet/
 features: 
-developerName: 
+developerName: Simple Swap LTD
 
 ---
 

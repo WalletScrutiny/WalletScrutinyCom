@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /samourai/
 - /com.samourai.wallet/
-developerName: 
+developerName: Samourai
 features: 
 
 ---

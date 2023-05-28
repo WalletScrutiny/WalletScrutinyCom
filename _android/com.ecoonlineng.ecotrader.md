@@ -3,7 +3,7 @@ wsId: ecoTrader
 title: Eco Trader
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.ecoonlineng.ecotrader
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://ecoonlineng.com/ 
+- https://ecoonlineng.com/
 redirect_from: 
 developerName: Eco Online Services
 features: 

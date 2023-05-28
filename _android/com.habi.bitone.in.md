@@ -3,7 +3,7 @@ wsId:
 title: BitOne
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.habi.bitone.in
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-26
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.bitone.trade
 redirect_from: 
 developerName: BitOne

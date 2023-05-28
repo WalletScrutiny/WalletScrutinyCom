@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw
 - https://www.instagram.com/vsolidus/
 features: 
-developerName: 
+developerName: NOVA COIN LIMITED
 
 ---
 

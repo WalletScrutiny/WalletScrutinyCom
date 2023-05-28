@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Anycoin.cz
+developerName: MP Developers s.r.o.
 features: 
 
 ---

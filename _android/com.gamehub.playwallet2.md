@@ -3,7 +3,7 @@ wsId:
 title: PlayWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.gamehub.playwallet2
 appCountry: 

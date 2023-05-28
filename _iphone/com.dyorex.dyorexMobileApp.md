@@ -3,11 +3,11 @@ wsId: dyorEX
 title: DyorEX Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.dyorex.dyorexMobileApp
 appCountry: tr
 idd: '1602952926'
-released: '2022-02-25T08:00:00Z'
+released: 2022-02-25
 updated: 2023-05-18
 version: 1.4.2
 stars: 4.7
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCRa9XU1sdPeUb3Y9vZ94IBA
 - https://t.me/dyorexdestek
 features: 
+developerName: DyorEX Exchange
 
 ---
 

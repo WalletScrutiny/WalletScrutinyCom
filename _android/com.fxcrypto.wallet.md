@@ -3,7 +3,7 @@ wsId:
 title: 'FX Crypto (FXC) - Forex Robot '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.fxcrypto.wallet
 appCountry: 

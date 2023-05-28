@@ -28,7 +28,7 @@ twitter: money_pipe
 social:
 - https://www.facebook.com/moneypipewallet
 redirect_from: 
-developerName: MoneyPipe
+developerName: MadCats
 features: 
 
 ---

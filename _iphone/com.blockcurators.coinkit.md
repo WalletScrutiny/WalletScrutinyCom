@@ -26,7 +26,7 @@ reviewArchive:
 twitter: coinkit_
 social: 
 features: 
-developerName: 
+developerName: BLOCKCURATORS GMBH
 
 ---
 

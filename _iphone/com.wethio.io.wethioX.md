@@ -3,11 +3,11 @@ wsId: wethiox
 title: WethioX
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.wethio.io.wethioX
 appCountry: in
 idd: '1546041711'
-released: '2022-02-11T08:00:00Z'
+released: 2022-02-11
 updated: 2023-01-31
 version: 3.0.6
 stars: 5
@@ -30,6 +30,7 @@ social:
 - https://t.me/joinchat/VvLjmtVVAVJiMTQ0
 - https://wethio.medium.com/
 features: 
+developerName: Applinum
 
 ---
 

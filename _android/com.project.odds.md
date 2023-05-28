@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: kim junghoon
+developerName: ODDS Technology Limited
 features: 
 
 ---

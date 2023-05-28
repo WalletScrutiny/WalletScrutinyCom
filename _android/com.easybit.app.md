@@ -3,7 +3,7 @@ wsId:
 title: EasyBit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.easybit.app
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: EasyBit_com
 social:
 - https://www.instagram.com/EasyBit_com
-- https://t.me/easybit_official 
+- https://t.me/easybit_official
 redirect_from: 
 developerName: EasyBit.
 features: 

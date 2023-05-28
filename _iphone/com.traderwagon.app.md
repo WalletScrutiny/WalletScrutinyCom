@@ -26,7 +26,7 @@ reviewArchive:
 twitter: traderwagon
 social: 
 features: 
-developerName: 
+developerName: TraderWagon Ltd
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin Beach Wallet (Blink)
+title: Blink (Bitcoin Beach Wallet)
 altTitle: 
 authors:
 - leo

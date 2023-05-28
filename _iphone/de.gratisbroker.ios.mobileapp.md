@@ -11,7 +11,7 @@ released: 2021-06-07
 updated: 2023-05-19
 version: 3.19.0
 stars: 4.7
-reviews: 5469
+reviews: 5492
 size: '122952704'
 website: https://www.finanzen.net/zero/
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 features: 
-developerName: 
+developerName: Gratisbroker GmbH
 
 ---
 

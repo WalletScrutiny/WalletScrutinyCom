@@ -6,13 +6,13 @@ authors:
 appId: com.fincrypt.payboltmerchant
 appCountry: us
 idd: '1612770866'
-released: '2022-03-24T07:00:00Z'
+released: 2022-03-24
 updated: 2022-07-08
 version: 3.0.0
 stars: 5
 reviews: 5
 size: '38138880'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.fincrypt.payboltmerchant.jpg
@@ -28,8 +28,9 @@ social:
 - https://www.instagram.com/paybolt
 - https://www.facebook.com/PayBolt
 - https://www.linkedin.com/company/payboltofficial
-- https://t.me/PayBolt 
+- https://t.me/PayBolt
 features: 
+developerName: FINCRYPT PTE. LTD.
 
 ---
 

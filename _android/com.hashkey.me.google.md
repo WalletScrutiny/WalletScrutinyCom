@@ -3,7 +3,7 @@ wsId: hashKeyMe
 title: HashKey Me - Your Web3 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hashkey.me.google
 appCountry: 
@@ -28,7 +28,7 @@ twitter: hashkey_me
 social:
 - https://hashkey.com
 - https://www.facebook.com/HashKeyMe
-- https://discord.gg/zs569ytTkd 
+- https://discord.gg/zs569ytTkd
 redirect_from: 
 developerName: HASHKEY HUB LIMITED
 features: 

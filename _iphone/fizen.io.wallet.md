@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/fizen.io/
 - https://t.me/fizen_io
 features: 
-developerName: 
+developerName: Fizen GmbH
 
 ---
 

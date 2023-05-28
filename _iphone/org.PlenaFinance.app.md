@@ -26,7 +26,7 @@ reviewArchive:
 twitter: PlenaFinance
 social: 
 features: 
-developerName: 
+developerName: Plena Finance
 
 ---
 

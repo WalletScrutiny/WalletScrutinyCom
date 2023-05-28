@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/cobruapp
 - https://www.instagram.com/cobruapp/
 features: 
-developerName: 
+developerName: Cobru S.A.S.
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-05-18
 version: 4.5.0
 stars: 4.6
 ratings: 15997
-reviews: 1124
+reviews: 1125
 size: 
 website: https://phemex.com
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/phemex
 - https://www.facebook.com/Phemex.official
 redirect_from: 
-developerName: PHEMEX TECHNOLOGY PTE. LTD.
+developerName: Phemex Lithuania UAB
 features: 
 
 ---

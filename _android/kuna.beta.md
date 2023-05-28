@@ -28,7 +28,7 @@ twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
 redirect_from: 
-developerName: KUNA FINTECH LIMITED
+developerName: UAB Kuna Pro
 features: 
 
 ---

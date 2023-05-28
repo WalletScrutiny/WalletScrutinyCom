@@ -3,7 +3,7 @@ wsId: hashkeyHub
 title: HashKey Hub - The Key to Infin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hashkey.hub
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/hashkeygroup
 - https://www.linkedin.com/company/hashkey-digital-asset-group/
 - https://medium.com/hashkey-group
-- https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw 
+- https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw
 redirect_from: 
 developerName: HASHKEY HUB LIMITED
 features: 

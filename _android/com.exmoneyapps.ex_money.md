@@ -3,7 +3,7 @@ wsId: exMoney
 title: Ex-money – обменять Биткоин на
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.exmoneyapps.ex_money
 appCountry: 

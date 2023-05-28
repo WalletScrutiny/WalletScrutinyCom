@@ -6,7 +6,7 @@ authors:
 appId: com.elyps
 appCountry: tn
 idd: '1493791290'
-released: '2020-05-13T07:00:00Z'
+released: 2020-05-13
 updated: 2023-03-29
 version: 10.4.0
 stars: 5
@@ -25,6 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Elyps
 
 ---
 

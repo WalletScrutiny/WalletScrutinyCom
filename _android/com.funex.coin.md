@@ -3,7 +3,7 @@ wsId: funexCrypto
 title: 'Funex: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.funex.coin
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Funexclub
 social:
 - https://www.facebook.com/officialfunexcoin
 - https://t.me/Funex_official
-- https://www.youtube.com/c/FunexClub 
+- https://www.youtube.com/c/FunexClub
 redirect_from: 
 developerName: Funex Coin
 features: 

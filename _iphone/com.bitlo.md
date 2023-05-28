@@ -27,7 +27,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 features: 
-developerName: 
+developerName: Bitlo Teknoloji Anonim Şirketi
 
 ---
 

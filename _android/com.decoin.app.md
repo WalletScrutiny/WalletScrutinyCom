@@ -3,7 +3,7 @@ wsId:
 title: Decoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.decoin.app
 appCountry: 
@@ -26,15 +26,13 @@ signer:
 reviewArchive: 
 twitter: decoin_io
 social:
-- https://www.facebook.com/DECOIN.io 
+- https://www.facebook.com/DECOIN.io
 - https://www.linkedin.com/company/decoin-xde
 redirect_from: 
 developerName: decoin.io
 features: 
 
 ---
-
-
 
 <div class="alertBox">
 <div>

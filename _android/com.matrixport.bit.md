@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
-developerName: Matrixport Technologies Ltd
+developerName: BIT Technologies Holding Company
 features: 
 
 ---

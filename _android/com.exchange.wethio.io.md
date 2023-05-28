@@ -3,7 +3,7 @@ wsId: wethiox
 title: WethioX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.exchange.wethio.io
 appCountry: 

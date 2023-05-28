@@ -3,7 +3,7 @@ wsId:
 title: FinanceX - Crypto Trading with
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.financex
 appCountry: 

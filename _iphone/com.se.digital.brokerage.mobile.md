@@ -29,7 +29,7 @@ social:
 - https://page.line.me/xspringdigital
 - https://www.linkedin.com/company/xspring/
 features: 
-developerName: 
+developerName: XSPRING DIGITAL COMPANY LIMITED
 
 ---
 

@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/CoinmerceNL
 - https://www.linkedin.com/company/coinmerce/
 features: 
-developerName: 
+developerName: Coinmerce BV
 
 ---
 

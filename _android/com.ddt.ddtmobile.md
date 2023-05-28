@@ -3,7 +3,7 @@ wsId:
 title: DDT Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ddt.ddtmobile
 appCountry: 

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Sigma Networks
+developerName: MeeMob
 features: 
 
 ---

@@ -3,7 +3,7 @@ wsId:
 title: Javvy
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.javvy
 appCountry: 
@@ -28,7 +28,7 @@ twitter: javvycrypto
 social:
 - https://www.linkedin.com/company/javvy/about
 - https://www.reddit.com/r/javvy
-- https://medium.com/javvy-crypto-analysis 
+- https://medium.com/javvy-crypto-analysis
 - https://t.me/javvychat
 redirect_from: 
 developerName: Javvy Technologies Ltd

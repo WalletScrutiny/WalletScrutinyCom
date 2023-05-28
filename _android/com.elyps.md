@@ -3,7 +3,7 @@ wsId:
 title: 'Elyps: Think out of the Bank'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.elyps
 appCountry: 

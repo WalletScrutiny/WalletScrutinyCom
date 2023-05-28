@@ -3,7 +3,7 @@ wsId:
 title: The Kyros mobile app
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.excdev.kyros
 appCountry: 

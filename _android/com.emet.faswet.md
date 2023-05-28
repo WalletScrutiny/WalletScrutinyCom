@@ -3,7 +3,7 @@ wsId: faswet
 title: Faswet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.emet.faswet
 appCountry: 
@@ -28,7 +28,7 @@ twitter: emet_group_eng
 social:
 - https://www.instagram.com/emetbusinessgroupeng
 - https://www.youtube.com/channel/UCI2fkUC8efC-oP8nKkO_wMQ
-- https://www.reddit.com/user/EmetEnjoy 
+- https://www.reddit.com/user/EmetEnjoy
 redirect_from: 
 developerName: EBG Malta Business Group
 features: 

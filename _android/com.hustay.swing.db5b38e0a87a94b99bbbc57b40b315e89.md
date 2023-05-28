@@ -3,7 +3,7 @@ wsId:
 title: 스마일빗 Smile-Bit Buy&Sell Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89
 appCountry: 

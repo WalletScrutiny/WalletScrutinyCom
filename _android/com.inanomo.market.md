@@ -3,7 +3,7 @@ wsId:
 title: Inanomo
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.inanomo.market
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://vk.com/inanomo
-- https://www.facebook.com/Inanomo/ 
+- https://www.facebook.com/Inanomo/
 redirect_from: 
 developerName: Inanomo Technologies LLC
 features: 

@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/bitazza/
 - https://t.me/bitazzaglobal
 features: 
-developerName: 
+developerName: Bitazza Company Limited
 
 ---
 

@@ -27,7 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/GCMASIA.Forex.Trading.Platform
 features: 
-developerName: 
+developerName: GCM Asia Mobile Trader
 
 ---
 

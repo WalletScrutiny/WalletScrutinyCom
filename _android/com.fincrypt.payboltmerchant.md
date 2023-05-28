@@ -2,7 +2,7 @@
 wsId: payBoltBusiness
 title: PayBolt Business
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.fincrypt.payboltmerchant
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/paybolt
 - https://www.facebook.com/PayBolt
 - https://www.linkedin.com/company/payboltofficial
-- https://t.me/PayBolt 
+- https://t.me/PayBolt
 redirect_from: 
 developerName: FinCrypt
 features: 

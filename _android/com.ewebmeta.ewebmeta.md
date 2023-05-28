@@ -3,7 +3,7 @@ wsId:
 title: 'Eweb Meta: Crypto & Gift Cards'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ewebmeta.ewebmeta
 appCountry: 

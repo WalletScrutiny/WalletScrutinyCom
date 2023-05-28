@@ -3,7 +3,7 @@ wsId:
 title: اشري بيع و شراء العملات الالكت
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.echri.dz
 appCountry: 

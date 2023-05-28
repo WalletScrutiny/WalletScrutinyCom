@@ -3,7 +3,7 @@ wsId:
 title: EXPO Mobile Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.expo.wallet
 appCountry: 

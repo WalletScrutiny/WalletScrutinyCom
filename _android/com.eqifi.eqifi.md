@@ -3,7 +3,7 @@ wsId: eqifi
 title: EQIFi | Hold & Transfer Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.eqifi.eqifi
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/EQIFi
 - https://www.instagram.com/eqifi_finance
 - https://www.linkedin.com/company/eqifi
-- https://www.reddit.com/r/EQIFI 
+- https://www.reddit.com/r/EQIFI
 redirect_from: 
 developerName: EQIFi
 features: 

@@ -3,7 +3,7 @@ wsId:
 title: 'HIVE : Crypto Forecast AI'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.digitalstorm.HIVE
 appCountry: 

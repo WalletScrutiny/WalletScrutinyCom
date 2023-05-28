@@ -3,7 +3,7 @@ wsId: getcoinsWallet
 title: GetCoins Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.getcoins.gcwallet2
 appCountry: 

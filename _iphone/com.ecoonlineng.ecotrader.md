@@ -3,17 +3,17 @@ wsId: ecoTrader
 title: Eco Trader
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.ecoonlineng.ecotrader
 appCountry: us
 idd: '1535823080'
-released: '2020-11-05T08:00:00Z'
+released: 2020-11-05
 updated: 2021-10-31
 version: 3.7.0
-stars: 3.61111
+stars: 3.6
 reviews: 36
 size: '71578624'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- - https://ecoonlineng.com/  
+- - https://ecoonlineng.com/
 features: 
+developerName: Uche Shadrach Onuigbo
 
 ---
 

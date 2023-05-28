@@ -30,7 +30,7 @@ social:
 - https://t.me/deribit
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
 features: 
-developerName: 
+developerName: Deribit
 
 ---
 

@@ -3,17 +3,17 @@ wsId: exMoney
 title: EX-money
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.xchangecapital.exmoney
 appCountry: ru
 idd: '1512922324'
-released: '2020-05-14T07:00:00Z'
+released: 2020-05-14
 updated: 2022-12-29
 version: 1.0.4
 stars: 5
 reviews: 16
 size: '79970304'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.xchangecapital.exmoney.jpg
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: XChangeCapitalGroup
 
 ---
 

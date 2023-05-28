@@ -3,7 +3,7 @@ wsId:
 title: FinWhaleX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.finwhalex
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: finwhalex
 social:
 - https://finwhalex.com
-- https://www.facebook.com/FinWhaleX 
+- https://www.facebook.com/FinWhaleX
 redirect_from: 
 developerName: FinWhaleX PTE. LTD.
 features: 

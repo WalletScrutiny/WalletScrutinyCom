@@ -26,7 +26,7 @@ reviewArchive:
 twitter: Blofin_Official
 social: 
 features: 
-developerName: 
+developerName: Blofin Inc.
 
 ---
 

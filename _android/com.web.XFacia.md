@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/p/CTeDT7Ui0Ee
 - https://t.me/XfaciaXchange
 redirect_from: 
-developerName: 
+developerName: Xfacia Labs Pvt Ltd
 features: 
 
 ---

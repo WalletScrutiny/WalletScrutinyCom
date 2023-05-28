@@ -3,7 +3,7 @@ wsId:
 title: FME Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.fme.wallet
 appCountry: 

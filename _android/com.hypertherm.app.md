@@ -3,7 +3,7 @@ wsId:
 title: C2CX Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hypertherm.app
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Jeritex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.jeritex.exchange
 appCountry: 
