@@ -45,7 +45,7 @@ Further, Smart contracts will be added to the BNB main network.
 ## Analysis 
 
 - Curiously, the app is still in beta-access despite being updated almost 2 years ago. 
-- We tried registering but had difficulty both on the virtual device and on a real phone. The circle statud just kept circling with no other feedback.
+- We tried registering but had difficulty both on the virtual device and on a real phone. The circle status just kept circling with no other feedback.
 - When we clicked on the Terms and Conditions link, it showed a short message:
 
 > Online Card Games and betting may be illegal under the laws of your country of residence or the country where you are currently located. In such cases, you may not make use of the services of the company. 
