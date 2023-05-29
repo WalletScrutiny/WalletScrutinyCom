@@ -1,13 +1,20 @@
+{% assign platform = include.platform %}
+
 <div class="step operating-system">
+  {% case platform %}
+  {% when "android" %}
   <i class="i-android circle"></i>
+  {% when "iphone" %}
+  <i class="fab fa-apple circle"></i>
+  {% when "hardware" %}
+  <i class="i-device circle"></i>
+  {% when "bearer" %}
+  <i class="i-device circle"></i>
+  {% endcase %}
   <div class="title">
-    <h3>Operating System</h3>
+    <h3>Platform notes</h3>
     <p>
-    {% if page.osNotes %}
-      {{page.osNotes}}
-    {% else %}
-     {{ 'OS security notes not available' }}
-    {% endif %}
+      {{site.data.platformMeta[platform].description | markdownify}}
     </p>
   </div>
   <div class="data">

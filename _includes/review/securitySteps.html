@@ -16,10 +16,8 @@
   <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
 
 
-  {% assign platform = include.platform %}
   {% include /review/steps/distribution.html platform=platform %}
-  {% include /review/steps/operatingSystem.html %}
-  {% include /review/steps/smartphone.html %}
+  {% include /review/steps/platformNotes.html platform=platform %}
   
 
   {% endif %}
