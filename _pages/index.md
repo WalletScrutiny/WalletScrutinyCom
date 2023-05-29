@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Know your wallet like you built it."
-summary: "Wallet Scrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure."
+summary: "WalletScrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure."
 excerpt: "Not everyone is a developer. Not everyone has to be."
 author_profile: true
 ---

@@ -1,7 +1,7 @@
 ---
 platform: "Einundzwanzig Podcast"
 date: 2020-04-27
-publicationName: "Einundzwanzig Stammtisch #23 Wallet Scrutiny"
+publicationName: "Einundzwanzig Stammtisch #23 WalletScrutiny"
 author: ""
 image: Einundzwanzig.png
 language: DE

@@ -1,7 +1,7 @@
 ---
 platform: "Blockchain Summit Latam Podcast"
 date: 2021-01-12
-publicationName: "#bslPodcast [33] con Leo Wandersleb de Wallet Scrutiny sobre seguridad de wallets, consejos, como elegir una wallet, y más!"
+publicationName: "#bslPodcast [33] con Leo Wandersleb de WalletScrutiny sobre seguridad de wallets, consejos, como elegir una wallet, y más!"
 author: "Cristobal Pereira @cristpereirag"
 image: bslPodcast.jpg
 language: ES
