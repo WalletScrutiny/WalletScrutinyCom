@@ -198,7 +198,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
     const numb = (page * paginationLimit) + i
     const instance = wallets[numb]
     if (!instance) { break }
-    badgesHtml += getBadge(instance, numb)
+    badgesHtml += getBadge(instance, i)
   }
   var d = document.createElement("div")
   d.classList.add("page-section")
@@ -272,11 +272,11 @@ async function processStyle(wallet) {
   }
 }
 
-function getBadge(wallet, numb) {
+function getBadge(wallet, numbInPage) {
   const walletId = wallet.folder + String(wallet.appId)
   let wIdforDOM = String(walletId).replace(/\./g, "_")
   let faCollection = getIcon(wallet.folder)
-  const delay = numb > 25 ? 2000 : numb * 80
+  const delay = numbInPage > 25 ? 2000 : numbInPage * 80
   // USER WILL LIKELY NEVER BROWSE AS MUCH AS 1% OF THE WALLETS
   // THEREFORE MOVING PARTS OF LOGIC TO ONLY BE CALLED WHEN
   // USER WANTS TO SEE MORE ABOUT A WALLET
