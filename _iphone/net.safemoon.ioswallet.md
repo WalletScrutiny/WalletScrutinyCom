@@ -26,6 +26,7 @@ reviewArchive:
 twitter: safemoon
 social: 
 features: 
+developerName: 
 
 ---
 

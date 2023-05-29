@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 features: 
+developerName: 
 
 ---
 

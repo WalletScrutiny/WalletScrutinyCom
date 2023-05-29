@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/LetsBit
 - https://www.instagram.com/letsbit/
 features: 
+developerName: 
 
 ---
 

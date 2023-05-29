@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/usenobi
 - https://discord.com/invite/hNGkFeQHQD
 features: 
+developerName: 
 
 ---
 

@@ -27,6 +27,7 @@ twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial
 features: 
+developerName: 
 
 ---
 

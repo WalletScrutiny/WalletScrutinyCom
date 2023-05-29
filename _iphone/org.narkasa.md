@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/narkasacom
 - https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 features: 
+developerName: 
 
 ---
 

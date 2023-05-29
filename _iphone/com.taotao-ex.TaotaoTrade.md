@@ -27,6 +27,7 @@ twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg
 features: 
+developerName: 
 
 ---
 

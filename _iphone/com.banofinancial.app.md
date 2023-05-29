@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/banosuperapp
 - https://www.linkedin.com/company/banoapp/
 features: 
+developerName: 
 
 ---
 

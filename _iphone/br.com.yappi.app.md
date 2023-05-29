@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/yappi.br/
 - https://www.linkedin.com/company/yappi-br/
 features: 
+developerName: 
 
 ---
 

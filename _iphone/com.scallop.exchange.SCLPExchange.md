@@ -27,6 +27,7 @@ twitter: ScallopOfficial
 social:
 - https://www.linkedin.com/company/scallopx/
 features: 
+developerName: 
 
 ---
 

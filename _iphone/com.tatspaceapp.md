@@ -29,6 +29,7 @@ social:
 - https://t.me/tatspaceapp
 - https://www.instagram.com/tatspaceapp/
 features: 
+developerName: 
 
 ---
 
