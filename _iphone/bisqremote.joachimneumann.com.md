@@ -26,7 +26,7 @@ reviewArchive:
 twitter: devinbileck
 social: 
 features: 
-developerName: 
+developerName: Devin Bileck
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-05-10
 version: 4.0.0
 stars: 3.6
 ratings: 26380
-reviews: 8208
+reviews: 8209
 size: 
 website: https://www.investvoyager.com/
 repository: 

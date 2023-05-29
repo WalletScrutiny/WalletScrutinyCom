@@ -2,7 +2,8 @@
 wsId: 
 title: Exchanger101
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.exchanger101.app
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.exchanger101.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: custodial
+date: 2023-05-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> Exchanger101 is the all-in-one trading App that helps you convert your Giftcards and cryptocurrencies to Naira
+
+## Analysis 
+
+- [Screenshots](https://twitter.com/BitcoinWalletz/status/1661255161518637056)
+- We successfully installed the app and registered
+- The app had a BTC wallet that can be sold/bought, and, can be sent/received. 
+- The option to backup the private keys was not provided. 
+- The app also links to tradfi and other banking related features.
+- This app is **custodial**.

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Executive Fintech LTD
+developerName: Decentralized Finance
 features: 
 
 ---

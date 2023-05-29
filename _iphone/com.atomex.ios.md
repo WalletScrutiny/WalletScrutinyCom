@@ -26,7 +26,7 @@ reviewArchive:
 twitter: atomex_official
 social: 
 features: 
-developerName: 
+developerName: Atomex OÜ
 
 ---
 

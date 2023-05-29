@@ -11,7 +11,7 @@ released: 2018-01-03
 updated: 2023-05-24
 version: 3.18.1
 stars: 4.6
-reviews: 14041
+reviews: 14077
 size: '57769984'
 website: http://www.kinvo.com.br
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/kinvoapp
 - https://www.youtube.com/kinvoapp
 features: 
-developerName: 
+developerName: EVEREST.TI
 
 ---
 

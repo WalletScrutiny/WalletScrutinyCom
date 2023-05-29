@@ -27,7 +27,7 @@ twitter: BtcboxE
 social:
 - https://www.facebook.com/btcbox/
 features: 
-developerName: 
+developerName: BTCBOX CO.,LTD
 
 ---
 

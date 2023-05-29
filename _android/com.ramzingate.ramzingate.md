@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Ramzingate
+developerName: OnMind AI
 features: 
 
 ---

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: IP wBTCB solutions, s.r.o.
 
 ---
 

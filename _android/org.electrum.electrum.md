@@ -11,7 +11,7 @@ appCountry:
 released: 2016-03-02
 updated: 2023-05-11
 version: 4.4.3.0
-stars: 3.8
+stars: 3.7
 ratings: 2500
 reviews: 308
 size: 
@@ -59,7 +59,7 @@ twitter: ElectrumWallet
 social: 
 redirect_from:
 - /electrum/
-developerName: 
+developerName: Electrum Technologies GmbH
 features:
 - ln
 

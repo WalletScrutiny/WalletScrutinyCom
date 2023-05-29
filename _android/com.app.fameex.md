@@ -28,7 +28,7 @@ twitter: FameexGlobal
 social:
 - https://www.facebook.com/FAMEEXGLOBAL
 redirect_from: 
-developerName: FAMEEX FOUNDATION LTD.
+developerName: FAMEEX INTERNATIONAL PTY LTD
 features: 
 
 ---

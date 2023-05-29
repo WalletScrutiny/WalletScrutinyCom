@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
 features: 
-developerName: WHITEBIT SOLUTIONS LLP
+developerName: UAB Clear White Technologies
 
 ---
 

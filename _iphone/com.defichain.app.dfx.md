@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/dfxswiss/
 - https://t.me/DFXswiss_en
 features: 
-developerName: 
+developerName: DFX AG
 
 ---
 

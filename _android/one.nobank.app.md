@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: NBK Labs
+developerName: NBK Labs AG
 features: 
 
 ---

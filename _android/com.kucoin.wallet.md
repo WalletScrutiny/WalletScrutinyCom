@@ -27,7 +27,7 @@ reviewArchive:
 twitter: KuWallet
 social: 
 redirect_from: 
-developerName: KuCoin Wallet
+developerName: Halo Wallet
 features: 
 
 ---

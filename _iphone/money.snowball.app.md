@@ -26,7 +26,7 @@ reviewArchive:
 twitter: snowball_money
 social: 
 features: 
-developerName: 
+developerName: Snowball Finance
 
 ---
 

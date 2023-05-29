@@ -26,7 +26,7 @@ reviewArchive:
 twitter: wallet_dot
 social: 
 features: 
-developerName: 
+developerName: Fuzhou Boquan Network Science & Technology Co., Ltd.
 
 ---
 

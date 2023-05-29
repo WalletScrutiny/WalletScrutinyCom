@@ -27,7 +27,7 @@ twitter: CoinCap_io
 social:
 - https://www.facebook.com/watch/?v=365220420785166
 features: 
-developerName: 
+developerName: ShapeShift AG
 
 ---
 

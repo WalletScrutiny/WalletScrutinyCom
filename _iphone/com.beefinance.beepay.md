@@ -27,7 +27,7 @@ twitter: BeFiWalletverse
 social:
 - https://t.me/befiwallet
 features: 
-developerName: 
+developerName: BEFI FOUNDATION LTD.
 
 ---
 

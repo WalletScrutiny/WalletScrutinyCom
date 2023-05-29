@@ -28,7 +28,7 @@ social:
 - https://vk.com/vexel_is
 - https://www.instagram.com/vexel_com/
 features: 
-developerName: 
+developerName: Vexel
 
 ---
 
