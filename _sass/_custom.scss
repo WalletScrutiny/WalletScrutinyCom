@@ -831,31 +831,5 @@
         opacity: 1;
       }
     }
-
-    .badge {
-      margin-right: 4px;
-      &.pass {
-        color: var(--good);
-        // &::after {
-        //   content: "pass";
-        // }
-      }
-      &.fail {
-        color: var(--bad);
-        // &::after {
-        //   content: "fail";
-        // }
-      }
-      &.untested {
-        svg {
-          height: 17px;
-          width: 17px;
-          transform: translateY(2px);
-        }
-        // &::after {
-        //   content: "not tested";
-        // }
-      }
-    }
   }
 }
