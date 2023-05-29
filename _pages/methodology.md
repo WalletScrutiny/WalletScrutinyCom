@@ -59,6 +59,5 @@ author_profile: true
     })
     index++
   }
-  // window.addEventListener('popstate', function () {url()})
   url()
 </script>
