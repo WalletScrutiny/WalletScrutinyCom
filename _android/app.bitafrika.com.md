@@ -8,11 +8,11 @@ users: 10000
 appId: app.bitafrika.com
 appCountry: GH
 released: 2021-07-19
-updated: 2023-05-25
-version: 4.4.5
+updated: 2023-05-28
+version: 4.4.6
 stars: 3.8
 ratings: 
-reviews: 111
+reviews: 113
 size: 
 website: https://bitafrika.com
 repository: 

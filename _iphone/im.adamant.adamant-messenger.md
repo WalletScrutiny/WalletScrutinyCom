@@ -29,7 +29,7 @@ social:
 - https://t.me/adamant_eng
 - https://www.youtube.com/c/ADAMANTMessenger
 features: 
-developerName: 
+developerName: ADAMANT TECH LABS LP
 
 ---
 

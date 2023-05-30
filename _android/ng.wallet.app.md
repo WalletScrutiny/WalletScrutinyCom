@@ -29,7 +29,7 @@ twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
 redirect_from: 
-developerName: Wallet.ng
+developerName: Wallets Africa Inc
 features: 
 
 ---

@@ -27,7 +27,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/deepcoinpro/
 features: 
-developerName: 
+developerName: DEEPCOIN PTE. LTD
 
 ---
 

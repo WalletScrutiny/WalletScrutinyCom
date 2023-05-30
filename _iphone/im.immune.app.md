@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: IMM Money Messenger Limited
 
 ---
 

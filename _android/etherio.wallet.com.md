@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Etherio Team
+developerName: PayLink
 features: 
 
 ---

@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
 redirect_from: 
-developerName: Bitcointoyou Internacional (B2U Limited)
+developerName: B2U Limited
 features: 
 
 ---

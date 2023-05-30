@@ -27,7 +27,7 @@ twitter: bottlepay
 social: 
 features:
 - ln
-developerName: 
+developerName: Bottlepay Limited
 
 ---
 

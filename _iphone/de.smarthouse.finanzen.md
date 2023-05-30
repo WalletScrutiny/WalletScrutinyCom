@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 features: 
-developerName: 
+developerName: finanzen.net GmbH
 
 ---
 

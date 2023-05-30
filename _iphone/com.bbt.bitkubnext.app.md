@@ -27,7 +27,7 @@ twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial
 features: 
-developerName: 
+developerName: Bitkub Blockchain Technology Co., Ltd.
 
 ---
 

@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
 - https://www.facebook.com/VibraAfrica
 features: 
-developerName: 
+developerName: ABL Management Limited
 
 ---
 

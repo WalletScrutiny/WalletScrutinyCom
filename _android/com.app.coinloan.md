@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/coinloan.project
 - https://www.reddit.com/r/coinloan
 redirect_from: 
-developerName: 
+developerName: CoinLoan
 features: 
 
 ---

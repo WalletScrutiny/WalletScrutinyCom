@@ -1,27 +1,23 @@
 <h2>Meet our core team.</h2>
 
 <div class="team">
-{% assign authors = site.authors %}
-{% assign contributors = site.contributors %}
-<!-- % assign authors2 = authors | concat: contributors % -->
+{% assign team = "lw,dg,ml,em,ts" | split: "," %}
+{% for a in team %}
+  {% assign author = site.authors | where: 'short', a | first %}
+  {% assign avatar = author.avatar %}
+  {% if avatar contains '://' %}
+    {% assign prefix = '' %}
+  {% elsif avatar.size > 0 %}
+    {% assign prefix = "/images/" %}
+  {% else %}
+    {% assign prefix = "/images/avatarPlaceholder.jpg" %}
+  {% endif %}
 
-{% for author in authors %}
-
-{% assign avatar = author.avatar %}
-{% if avatar contains '://' %}
-  {% assign prefix = '' %}
-{% elsif avatar.size > 0 %}
-  {% assign prefix = "/images/" %}
-{% else %}
-  {% assign prefix = "/images/avatarPlaceholder.jpg" %}
-{% endif %}
-
-<div class="team-member">
-  <div class="image" style="background-image:url({{prefix}}{{author.avatar}});"></div>
-  <h3>{{author.name}}</h3>
-  <p>{{author.role}}</p>
-</div>
-
+  <a href="{{ author.url }}"><div class="team-member">
+    <div class="image" style="background-image:url({{prefix}}{{author.avatar}});"></div>
+    <h3>{{author.name}}</h3>
+    <p>{{author.role}}</p>
+  </div></a>
 {% endfor %}
 
 </div>

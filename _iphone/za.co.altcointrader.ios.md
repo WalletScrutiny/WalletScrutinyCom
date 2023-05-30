@@ -26,7 +26,7 @@ reviewArchive:
 twitter: AltCoinTraderSA
 social: 
 features: 
-developerName: 
+developerName: AltCoinTrader
 
 ---
 

@@ -27,7 +27,7 @@ twitter:
 social:
 - https://t.me/matbea/
 features: 
-developerName: 
+developerName: MATBEA LTD
 
 ---
 

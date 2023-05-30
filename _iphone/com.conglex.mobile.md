@@ -27,7 +27,7 @@ twitter: conglexglobal
 social:
 - https://www.linkedin.com/company/conglex-nigeria/
 features: 
-developerName: 
+developerName: Conglex Limited
 
 ---
 

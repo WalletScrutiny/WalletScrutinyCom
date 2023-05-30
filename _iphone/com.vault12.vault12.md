@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/vault12/
 - https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 features: 
-developerName: 
+developerName: Vault12, Inc.
 
 ---
 

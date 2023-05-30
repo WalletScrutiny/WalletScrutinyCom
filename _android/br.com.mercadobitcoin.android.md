@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/mercado-bitcoin
 - https://www.facebook.com/MercadoBitcoin
 redirect_from: 
-developerName: 
+developerName: Mercado Bitcoin Serviços Digitais Ltda.
 features: 
 
 ---

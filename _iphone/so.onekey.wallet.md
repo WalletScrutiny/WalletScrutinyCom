@@ -27,7 +27,7 @@ twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv
 features: 
-developerName: 
+developerName: ONEKEY LIMITED
 
 ---
 

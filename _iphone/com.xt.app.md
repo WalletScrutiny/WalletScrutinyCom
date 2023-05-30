@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/xt-com-exchange/
 - https://www.facebook.com/XT.comexchange
 features: 
-developerName: 
+developerName: XT LTD, LLC
 
 ---
 

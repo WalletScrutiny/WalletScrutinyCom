@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Surplus17, Inc
+developerName: Cointopay.com
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2021-05-10
 updated: 2023-05-26
 version: 1.14.1
 stars: 4.7
-reviews: 7173
+reviews: 7189
 size: '78759936'
 website: https://www.yuh.com
 repository: 
@@ -27,7 +27,7 @@ twitter: yuh_app
 social:
 - https://www.facebook.com/yuhapp.en/
 features: 
-developerName: 
+developerName: Swissquote
 
 ---
 

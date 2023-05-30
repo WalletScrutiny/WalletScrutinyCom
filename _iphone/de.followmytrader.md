@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/
 features: 
-developerName: 
+developerName: FELS Group GmbH
 
 ---
 

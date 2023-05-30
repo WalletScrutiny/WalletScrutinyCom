@@ -27,7 +27,7 @@ twitter: QredoNetwork
 social:
 - https://www.linkedin.com/company/qredo/
 features: 
-developerName: 
+developerName: Qredo Limited
 
 ---
 

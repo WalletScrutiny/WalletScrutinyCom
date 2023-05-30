@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/boundlesspayofficial/
 - https://www.linkedin.com/company/boundlesspayofficial/
 features: 
-developerName: 
+developerName: BOUNDLESS NEXUS LIMITED
 
 ---
 

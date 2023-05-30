@@ -1,7 +1,6 @@
-{% assign android = site.android %}
-{% assign iphone = site.iphone %}
-{% assign hardware = site.hardware %}
-{% assign bearer = site.bearer %}
-{% assign posts = android | concat: iphone | concat: hardware | concat:bearer %}
+{% assign posts = site.android
+  | concat: site.iphone
+  | concat: site.hardware
+  | concat: site.bearer %}
 
 {{ posts.size | thousands_separated }}

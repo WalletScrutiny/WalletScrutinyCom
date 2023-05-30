@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: TheMetaDAO
+developerName: Omniverse
 features: 
 
 ---

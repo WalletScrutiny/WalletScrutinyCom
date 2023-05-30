@@ -30,7 +30,7 @@ social:
 - https://biconomycom.medium.com/
 - https://www.youtube.com/c/BiconomyGlobal
 features: 
-developerName: 
+developerName: Biconomy Ltd.
 
 ---
 

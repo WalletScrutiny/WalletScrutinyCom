@@ -27,7 +27,7 @@ twitter: Cindicator
 social:
 - https://www.facebook.com/crowdindicator
 features: 
-developerName: 
+developerName: Vote, Inc.
 
 ---
 

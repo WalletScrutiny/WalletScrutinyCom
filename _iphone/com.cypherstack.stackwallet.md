@@ -25,7 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: Cypher Stack LLC
 
 ---
 

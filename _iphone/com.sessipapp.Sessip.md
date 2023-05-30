@@ -26,7 +26,7 @@ reviewArchive:
 twitter: sessipapp
 social: 
 features: 
-developerName: 
+developerName: SOCIETE IVOIRIENNE D'INVESTISSEMENT PARTICIPATIF
 
 ---
 

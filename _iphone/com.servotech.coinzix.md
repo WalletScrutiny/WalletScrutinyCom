@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/coinzixcom
 - https://t.me/coinzixCEX
 features: 
-developerName: 
+developerName: COINZIX S.R.L.
 
 ---
 

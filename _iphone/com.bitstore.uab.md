@@ -26,7 +26,7 @@ reviewArchive:
 twitter: www_bit_store
 social: 
 features: 
-developerName: 
+developerName: BitStore Europe UAB
 
 ---
 
