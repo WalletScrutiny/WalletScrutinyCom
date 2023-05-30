@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.vivid.money.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-19
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
