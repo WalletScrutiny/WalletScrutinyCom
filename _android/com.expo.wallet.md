@@ -47,5 +47,7 @@ features:
 - We tested on another instance of BlueStacks and the status gear icon just kept spinning. 
 - We will email the provider to get more information at contact@expo.biz, but note that if the domain is already for sale, we think the email will quickly bounce.
 - Most indications above point to a **defunct** app. We'll update this information once further feedback is provided. 
+
+**Update:** *Message not delivered. The recipient server did not accept our requests to connect.*
  
 
