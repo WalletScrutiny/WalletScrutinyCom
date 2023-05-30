@@ -1,6 +1,14 @@
 {% include base_path %}
+{% if include.full %}
+{% assign truncatedStyle = '' %}
+{% assign truncatedClass = '' %}
+{% else %}
+{% assign truncatedStyle = 'style="opacity:0;pointer-events:none;position: absolute;"' %}
+{% assign truncatedClass = 'truncated' %}
+{% endif %}
+
 <div class="page-section" id="featuredOn">
-  <div style="opacity:0;pointer-events:none;position: absolute;" class="press-controls">
+  <div {{truncatedStyle}} class="press-controls">
     <div class="press-button-holder press-button-holder-EN activated">
       <i class="fas fa-check check"></i>
       <input type="button" class="activated" id="press_button_EN" value="English" onclick="fpress('EN');" />
@@ -17,7 +25,7 @@
       <i class="fas fa-check check"></i>
     <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
     </div>
-    <span style="width: 100%;text-align: center;margin-bottom: 1rem;" class="help-text">Filter grid by publication language.</span>
+    <span class="help-text">Filter by publication language.</span>
   </div>
 <script>
   function fpress(el) {
@@ -33,9 +41,9 @@
   }
 </script>
 
-<div class="press-container truncated">
+<div class="press-container {{truncatedClass}}">
 {% for p in site.press reversed %}
-<a class="press {{ p.format }}" href="{{ p.link }}" title="{{ p.platform }}
+<a class="press {{ p.language }} {{ p.format }}" href="{{ p.link }}" title="{{ p.platform }}
 {{ p.publicationName }}
 {{ p.date  | date: '%Y-%m-%d' }}
 published by {{ p.author }}
@@ -61,15 +69,34 @@ format: {{ p.format }}
 </a>
 {% endfor %}
 </div>
+{% if include.full %}
+{% else %}
 <a onclick="showAllPublications(this)" style="margin-top:20px;text-decoration: none;cursor: pointer;">View all publications</a>
+{% endif %}
 </div>
 
 <style>
   /* PRESS */
+
+  .help-text{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    grid-column: 1/5;
+  }
+  
 .press-controls {
   display: grid;
   grid-template: 1fr auto / repeat(4, 1fr);
   text-align: center;
+}
+
+@media (max-width: 600px){
+  .press-controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 }
 
 .press-button-holder>.check {
@@ -81,10 +108,14 @@ format: {{ p.format }}
 }
 
 .press-button-holder.activated>.check {
-  display: inline-block;
+  display: block;
   opacity: 1;
   transform: scale(1);
   color: var(--accent, var(--accent));
+  position: absolute;
+  left: 1rem;
+  top: .5rem;
+  pointer-events: none;
 }
 
 .press-button-holder {
@@ -102,10 +133,12 @@ format: {{ p.format }}
   margin-right: 0.5rem;
   margin-bottom: .5rem;
   background: var(--neutral-6);
+  position: relative;
 }
 
 .press-button-holder input {
   background: transparent;
+  width: 100%;
 }
 
 .press-button-holder:not(.activated) {
@@ -116,8 +149,9 @@ format: {{ p.format }}
   opacity: 1;
 }
 
-.press-button-holder input.activated {
+.press-button-holder.activated input {
   color: var(--accent-text);
+  padding-left: 2rem;
 }
 
 .press-button-holder>input {
