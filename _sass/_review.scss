@@ -74,7 +74,7 @@
   margin: 80px 0;
   align-items: center;
   justify-content: center;
-  background: var(--white);
+  background: var(--neutral-6);
   border-radius: 5px;
   position: relative;
   z-index: 1;
@@ -124,7 +124,7 @@
   .labels {
     display: flex;
     gap: 10px;
-    box-shadow: 0 2px 0 var(--white);
+    box-shadow: 0 2px 0 var(--neutral-6);
     .label {
       display: grid;
       line-height: 20px;
@@ -132,7 +132,7 @@
       border-radius: 10px 10px 0 0;
       cursor: pointer;
       &.active {
-        background: var(--white);
+        background: var(--neutral-6);
       }
       &::before {
         content: attr(data-text);

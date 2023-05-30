@@ -613,7 +613,7 @@ h2.section-label>a:hover {
 }
 
 .cta-button:hover {
-  background: var(--white);
+  background: var(--neutral-6);
 }
 
 .cta-button.primary:hover {
@@ -1183,7 +1183,7 @@ table tr td label {
   .app-payload-flex>div {
     text-align: center;
     box-shadow: inset 0px 0px 0px 1px var(--body);
-    background: var(--white);
+    background: var(--neutral-6);
     height: 100%;
     padding: 10px;
   }

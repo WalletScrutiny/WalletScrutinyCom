@@ -32,6 +32,7 @@
     align-content: center;
     justify-items: center;
     text-align: center;
+    font-weight: 400;
     &:not(.opened),
     &.opened {
       .option {
@@ -206,7 +207,7 @@
   .dropdown-options {
     display: grid;
     cursor: pointer;
-    font-weight: $paragraph-font-weight;
+    font-weight: $label-font-weight;
     font-size: 17px;
     margin: auto 0;
     overflow: hidden;
@@ -292,7 +293,7 @@
 
 .temp_card {
   .opened {
-    background: var(--white);
+    background: var(--neutral-6);
     padding: 15px;
     border-radius: 10px;
     height: max-content;
@@ -480,11 +481,11 @@
         }
       }
       &:nth-last-of-type(odd) {
-        background: var(--white);
+        background: var(--neutral-6);
       }
       &:hover {
         box-shadow: 0 0 0 2px var(--white), 0 0 40px -20px #000;
-        background: var(--white);
+        background: var(--neutral-6);
         z-index: 1;
       }
       .tile-head {
@@ -658,7 +659,7 @@
     animation: tile-pop-in 200ms ease forwards 1;
     width: calc(25% - (25px * 0.75));
     padding: 20px 10px 10px 10px;
-    background: var(--white);
+    background: var(--neutral-6);
     border-radius: 12px;
     box-shadow: 0 0px 30px -25px #000;
     transition: 200ms ease;

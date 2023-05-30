@@ -10,7 +10,7 @@
   --neutral-0: #000000;
   --accent: #16b9b1;
   --accent-text: #1CAAA2;
-  --accent-50: rgba(28, 171, 164, .1);
+  --accent-50: rgba(28, 171, 164, .08);
   --rust: #af2900;
   --indifferent: #3d506d;
   --shadow-3: rgba(0, 0, 0, 0.3);
@@ -20,15 +20,15 @@
   --white: var(--neutral-7);
   --dark-grey: #222;
   --nav: var(--neutral-5);
-  --nav-contrast: var(--neutral-6);
-  --body: var(--neutral-6);
+  --nav-contrast: var(--neutral-7);
+  --body: var(--neutral-7);
   --body-50: rgba(238, 238, 238, 0.6);
   --transparent: rgba(238, 238, 238, 0);
   --text: var(--neutral-1);
   --gauze: rgba(255, 255, 255, 0.7);
   --cb-red: #880000;
   --permanent-black: var(--neutral-1);
-  --permanent-white: var(--neutral-6);
+  --permanent-white: var(--neutral-7);
   --green-notify-background: #b5fdb5;
   --red-notify-background: #fdb5b5;
   --good: #1bde1b;
@@ -49,7 +49,7 @@
 .dark {
   --accent: #12bd95;
   --accent-text: #1CAA89;
-  --accent-50: rgba(28, 170, 137, .1);
+  --accent-50: rgba(28, 170, 137, .08);
   --rust: #b32a00;
   --indifferent: #5b82bf;
   --shadow-3: rgba(255, 255, 255, 0.2);
@@ -79,6 +79,7 @@
   --blue: #a0b6f9;
   --reproducible-badge: url(/images/reproducible-2-light.svg);
   --masthead-text: #fff;
+  --neutral-7: #262626;
   --neutral-6: #2e2e2e;
   --neutral-5: #434343;
   --neutral-4: #727272;
