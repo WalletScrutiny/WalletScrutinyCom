@@ -66,3 +66,5 @@ This is the only description:
 - It is apparent from the description that this is a **custodial** provider, which has either recently experienced some technical difficulties with both their site and app, or, has intentionally disabled both their app and website. 
 - Since the app was last updated in 2022, we will email at 	info@inanomo.com them to see if they would respond. Tentatively, and based on the description, it is possible to designate this as a **custodial** provider.
 
+**Update:** The email bounced.
+
