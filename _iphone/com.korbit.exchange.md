@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.korbit.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-10
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
