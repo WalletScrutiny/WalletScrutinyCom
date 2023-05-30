@@ -26,7 +26,6 @@
   {% for key in fixedGrouping %}
   {% assign verdicts = "" | split: ',' %}
   {% assign metas = "" | split: ',' %}
-  {% assign description = site.data.platformMeta[key].description %}
 
   {%- assign obj = key | split: "|" -%}
   {% for category in obj %}
@@ -41,9 +40,8 @@
   <div class="methodology-item {{item}}" data-id="{{key}}">
 
   <div class="info">
-    {{description | markdownify}}
+    {{site.data.platformMeta[key].description | markdownify}}
   </div>
-
   <h2>We answer the following questions usually in this order:</h2>
 
     {% for ver in verdicts %}
@@ -62,6 +60,14 @@
   {% endif %}
   {% endfor %}
 
+  <div class="methodology-item all" data-id="all">
+    <h2>These are all the questions we might ask as part of our tests for all platforms.</h2>
+    {% for verdict in site.data.verdicts %}
+      {% assign ver = verdict[0] %}
+      {% include /methodology/section_title.html verdict=ver type="verdict" %}
+      {% include verdictMethodology.html verdict=ver category='all' %}
+    {% endfor %}
+  </div>
 </div>
 
 <script>
@@ -96,4 +102,12 @@
   }
 
   document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})
+
+  if(window.location.href.indexOf('#')>=0){
+    const test = window.location.href.split("#")[1]
+    window.history.pushState('data', null, `/methodology/?tests-we-run/all/${test}`)
+    document.querySelector(".option.selected").classList.remove('selected')
+    document.querySelector(".methodology-item.active").classList.remove('active')
+    document.querySelector(".methodology-item.all").classList.add('active')
+  }
 </script>
