@@ -117,6 +117,7 @@ bearer:
     funds move. We used to categorize bearer tokens as hardware wallets, but 
     decided that they deserved an altogether different category. Generally,
     bearer tokens have these attributes:
+
     * Secure initial setup
     * Tamper evidence
     * Balance check without revealing private keys
@@ -125,6 +126,7 @@ bearer:
 
 
     and either of these applies:
+    
     * Somebody has a backup and needs to be trusted
     * Nobody has a backup and funds are destroyed if the token is lost or damaged
   verdicts:
