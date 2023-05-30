@@ -556,7 +556,7 @@
     transition: 0.2s ease;
   }
   &[data-open="false"] {
-    .fa-caret-left {
+    .fa-caret-right {
       display: inline-block;
     }
     .fa-caret-down {
@@ -564,7 +564,7 @@
     }
   }
   &[data-open="true"] {
-    .fa-caret-left {
+    .fa-caret-right {
       display: none;
     }
     .fa-caret-down {
