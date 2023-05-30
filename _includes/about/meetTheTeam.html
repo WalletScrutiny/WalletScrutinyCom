@@ -13,11 +13,11 @@
     {% assign prefix = "/images/avatarPlaceholder.jpg" %}
   {% endif %}
 
-  <a href="{{ author.url }}"><div class="team-member">
+  <a href="{{ author.url }}" class="team-member">
     <div class="image" style="background-image:url({{prefix}}{{author.avatar}});"></div>
     <h3>{{author.name}}</h3>
     <p>{{author.role}}</p>
-  </div></a>
+  </a>
 {% endfor %}
 
 </div>
@@ -25,16 +25,22 @@
 <style>
   .team{
     display: flex;
-justify-content: center;
-flex-wrap: wrap;
-gap: 25px 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 10px;
 }
 .team-member{
   display:grid; 
   gap: 5px; 
   justify-content: center;
-    width: 200px;
-    text-align: center;
+  width: 200px;
+  text-align: center;
+  text-decoration: none !important;
+  color: var(--text);
+}
+.team-member:hover{
+  text-decoration: underline !important;
+  color: var(--accent-text);
 }
 .team-member h3{margin:auto; font-size: 17px; font-weight: 300px;}
 .team-member p{margin:auto;font-weight: 200;font-size: 17px;}
