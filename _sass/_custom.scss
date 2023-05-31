@@ -523,8 +523,8 @@
           }
           .pass,
           .fail {
-            height: .5rem;
-            margin-top: .5rem;
+            height: 0.5rem;
+            margin-top: 0.5rem;
           }
         }
       }
@@ -820,6 +820,9 @@
   grid-row: 2/3;
   display: grid;
   gap: 2px;
+  @media (max-width: 600px) {
+    gap: 5px;
+  }
   a {
     text-decoration: none;
     .fa-chevron-right {

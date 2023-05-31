@@ -16,10 +16,17 @@
   {% endif %}
 {% endfor %}
 
+{% for criterion in criteria %}
+  {% if include.verdict == criterion %}
+    {% break %}
+  {% endif %}
+  {% assign count = count | plus: 1 %}
+{% endfor %}
+
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>
   <div class="title">
-    <h3>Applied Methodology</h3>
+    <h3>Passed {{count}} of {{criteria.size}} tests</h3>
     <p class="applied-methodology steps">We answered the following questions in this order:
       {{ failText }}
       {% if meta != "ok" %}
@@ -27,7 +34,18 @@
       {% endif %}
     </p>
   </div>
-  <div class="data">
+  <div class="data score-data">
+    <div class="score">
+      <div>
+      {% for instance in (0..count) %}
+        <i class="pass"></i>
+      {% endfor %}
+      {% assign remainder = criteria.size | minus:count %}
+      {% for instance in (1..remainder) %}
+        <i class="fail"></i>
+      {% endfor %}
+      </div>
+    </div>
   </div>
   {% if page.tooltip.appliedMethodology %}
     {% assign exists = 'exists' %}
@@ -71,7 +89,6 @@
           {% include /review/steps/verdict_methodology_review_embed.html verdict=criterion %}
         </div>
       </div>
-    {% assign count = count | plus: 1 %}
   {% endfor %}
   </div>
 </div>

@@ -362,6 +362,19 @@
       .important {
         color: var(--accent-text);
       }
+      &.score-data {
+        @media (max-width: 800px) {
+          position: absolute;
+          right: 10px;
+          top: 5px;
+          grid-row: 1/2 !important;
+        }
+        .score {
+          div {
+            max-width: 40vw;
+          }
+        }
+      }
     }
     .tooltip-element {
       &:not(.exists) {
@@ -555,6 +568,10 @@
     transform: translateY(5px);
     transition: 0.2s ease;
   }
+  .fa-caret-right,
+  .fa-caret-down {
+    margin: auto auto auto 0;
+  }
   &[data-open="false"] {
     .fa-caret-right {
       display: inline-block;
@@ -580,6 +597,14 @@
   .accordion-head {
     color: var(--accent-text);
     cursor: pointer;
+    display: grid;
+    grid-template: 1fr / repeat(2, auto) 1fr;
+    align-items: start;
+    gap: 5px;
+    line-height: 1.5rem;
+    @media (max-width: 600px) {
+      grid-template: 1fr / auto 1fr auto;
+    }
     .badge {
       &.pass {
         color: var(--good);
