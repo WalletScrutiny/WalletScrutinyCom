@@ -1,36 +1,10 @@
-{%- assign verdicts_grouped = "reproducible,nonverifiable|nobinary|ftbfs,custodial,nosource,nosendreceive,sealed-noita|noita|sealed-plainkey|plainkey|prefilled,fewusers" | split: "," -%}
+{% assign posts = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
 
-
-{% assign android = site.android %}
-{% assign iphone = site.iphone %}
-{% assign hardware = site.hardware %}
-{% assign bearer = site.bearer %}
-{% assign posts = android | concat: iphone | concat: hardware | concat:bearer %}
-
-
-{%- for verdict_group in verdicts_grouped -%}
+{%- for verdict_group in site.data.verdictGroups -%}
   {%- assign total = 0 -%}
   <div class="statistic-tile">
     <div class="data">
-    {% case verdict_group %}
-    {% when 'reproducible' %}
-      {%- assign text = 'All tests passed.' -%}
-    {% when 'nonverifiable|nobinary|ftbfs' %}
-      {%- assign text = 'Build issues or source-code issues.' -%}
-    {% when 'custodial' %}
-      {%- assign text = 'Custodial.' -%}
-    {% when 'nosource' %}
-      {%- assign text = 'Missing Source code.' -%}
-    {% when 'nosendreceive' %}
-      {%- assign text = 'Not a real wallet. (No ability to send or receive)' -%}
-    {% when 'sealed-noita|noita|sealed-plainkey|plainkey|prefilled' %}
-      {%- assign text = 'Untrustworthy handling of keys.' -%}
-    {% when 'fewusers' %}
-      {%- assign text = 'Few users.' -%}
-    {%- else -%}
-      {%- assign text = '' -%}
-    {%- endcase -%}
-{%- assign verdicts = verdict_group | split: "|" -%}
+{%- assign verdicts = verdict_group.verdicts -%}
   {%- for verdict in verdicts -%}
 
     {%- for post in posts -%}
@@ -41,30 +15,30 @@
 
   {%- endfor -%}
       <h2>{{ total | thousands_separated }}</h2>
-      <p>{{ text }}</p>
+      <p>{{ verdict_group.title }}</p>
     </div>
     <div class="visualised">
       {%- if total >= 100 -%}
-        {%- assign hundreds = total | divided_by:100 -%}
+        {%- assign hundreds = total | divided_by: 100 -%}
         {%- assign hundreds = hundreds | floor -%}
         {%- for i in (1..hundreds) -%}
           <div class="century complete"></div>
         {%- endfor -%}
-        {%- assign hundreds = hundreds | times:100 -%}
-        {%- assign remainder = total | minus:hundreds -%}
+        {%- assign hundreds = hundreds | times: 100 -%}
+        {%- assign remainder = total | minus: hundreds -%}
         <div class="century fraction">
           {%- for i in (1..remainder) -%}
           <div class="fr"></div>
           {%- endfor -%}
         </div>
-        {%- assign hundreds = hundreds | divided_by:100 -%}
-        {%- assign buffer_count = hundreds | divided_by:5 -%}
+        {%- assign hundreds = hundreds | divided_by: 100 -%}
+        {%- assign buffer_count = hundreds | divided_by: 5 -%}
         {%- assign buffer_count = buffer_count | floor -%}
-        {%- assign buffer_count = buffer_count | times:5 -%}
-        {%- assign buffer_count = hundreds | minus:buffer_count -%}
-        {%- assign buffer_count = 5 | minus:buffer_count -%}
+        {%- assign buffer_count = buffer_count | times: 5 -%}
+        {%- assign buffer_count = hundreds | minus: buffer_count -%}
+        {%- assign buffer_count = 5 | minus: buffer_count -%}
         {%- if remainder >= 1 -%}
-          {%- assign buffer_count = buffer_count | minus:1 -%}
+          {%- assign buffer_count = buffer_count | minus: 1 -%}
         {%- endif -%}
         {%- if buffer_count >= 1 -%}
           {%- for i in (1..buffer_count) -%}

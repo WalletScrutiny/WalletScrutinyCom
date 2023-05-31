@@ -1,0 +1,45 @@
+- verdicts:
+  - reproducible
+  - nobinary
+  - diy
+  title: All tests passed.
+  comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
+- verdicts:
+  - nonverifiable
+  - ftbfs
+  - obfuscated
+  title: Build issues or source-code issues.
+  comment: Although code was provided, we could not verify that the binary provided was generated from it.
+- verdicts:
+  - custodial
+  - nosendreceive
+  title: User only gets an IOU.
+  comment: The provider might or might not hold BTC on behalf of the user.
+- verdicts:
+  - nosource
+  title: Missing source code.
+  comment: The provider does not provide all the source code needed to compile the product.
+- verdicts:
+  - noita
+  - plainkey
+  - sealed-noita
+  - sealed-plainkey
+  - prefilled
+  title: Untrustworthy handling of keys.
+  comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
+- verdicts:
+  - fewusers
+  - vapor
+  - unreleased
+  - nobtc
+  - nowallet
+  title: Not relevant.
+  comment: The product is not a BTC wallet or has little to no users.
+- verdicts:
+  - fake
+  title: Fake.
+  comment: The product is an immitation of a popular product and very likely fraudulent.
+- verdicts:
+  - wip
+  title: To be reviewed.
+  comment: Products that look relevant. We have to review them.
