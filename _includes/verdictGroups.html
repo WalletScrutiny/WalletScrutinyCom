@@ -1,0 +1,19 @@
+{% assign verdict = include.verdict %}
+{% assign return = include.return %}
+
+{% for group in site.data.verdictGroups %}
+  {% for ver in group.verdicts %}
+    {% if ver == verdict %}
+      {% case return %}
+        {% when 'comment' %}
+          {{group.comment}}
+        {% when 'title' %}
+          {{group.title}}
+        {% else %}
+          {% assign comment = group.comment %}
+          {% assign title = group.title %}
+      {% endcase %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
