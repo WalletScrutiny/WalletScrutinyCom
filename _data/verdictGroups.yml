@@ -38,7 +38,7 @@
 - verdicts:
   - fake
   title: Fake.
-  comment: The product is an immitation of a popular product and very likely fraudulent.
+  comment: The product is an imitation of a popular product and very likely fraudulent.
 - verdicts:
   - wip
   title: To be reviewed.
