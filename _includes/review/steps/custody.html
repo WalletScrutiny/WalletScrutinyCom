@@ -3,10 +3,10 @@
   <div class="title">
     <h3>Custody</h3>
     <p>
-    {% if page.keyOwnershipVerdict %}
-      {{page.keyOwnershipVerdict}}
-    {% else %}
+    {% if page.verdict == 'custodial' %}
       {{ site.data.verdicts[page.verdict].short }}
+    {% else %}
+      {{"Self-custodial: The user holds the keys"}}
     {% endif %}
     {% if page.meta != "ok" %}
       <p class="warn">But 
@@ -14,7 +14,10 @@
       </p>
     {% endif %}
     </p>
-    {% include verdict_explained.html %}
+    <div class="textbox">
+      <p>As part of <a href="/methodology/#custodial">our Methodology</a>, we ask: <b>{{ site.data.verdicts['custodial'].question }}</b></p>
+      <p>If the answer is "no", we mark it as "<strong>{{ site.data.verdicts['custodial'].title }}</strong>".<br><a href="#custodial">Read more</a></p></div>
+    </div>
   </div>
   <div class="data">
   </div>
