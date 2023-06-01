@@ -18,7 +18,7 @@
       <td><a
           href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/{{ review.gitRevision }}/_{{ page.collection }}/{{ page.appId }}.md">{{ review.date | date_to_long_string: "ordinal" }}</a></td>
       <td>{{ review.version }}</td>
-      <td>{% include verdictBadge.html verdict=review.verdict type='medium' %}</td>
+      <td>{% include verdictBadge.html verdict=review.verdict type='medium' noHash='true' %}</td>
     </tr>
     {% endfor %}
   </table>
