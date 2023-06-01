@@ -40,7 +40,6 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.discontinued) ? `<tr><td><strong>Discontinued</strong></td><td>${wallet.discontinued}</td></tr>` : ""}
     ${ (wallet.dimensions && wallet.dimensions.length == 3) ? `<tr><td>Size</td><td>${wallet.dimensions[0]}mm x ${wallet.dimensions[1]}mm x ${wallet.dimensions[2]}mm</td></tr>` : ""}
     <tr><td>Latest Analysis</td><td>${wallet.date}</td></tr>
-    <tr><td>Links</td><td></td>
     <tr><td colspan="2">
       <div class="social-row flex-parent">
       ${ wallet.folder == "iphone"
