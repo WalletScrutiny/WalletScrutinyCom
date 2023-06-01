@@ -78,7 +78,7 @@
       {% assign icon = '<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h17v17h-17z" fill="none"/><path d="m8.5.1c4.636 0 8.4 3.764 8.4 8.4s-3.764 8.4-8.4 8.4-8.4-3.764-8.4-8.4 3.764-8.4 8.4-8.4zm6.4 7.269c0-.199-.161-.36-.36-.36-1.846 0-10.234 0-12.08 0-.199 0-.36.161-.36.36v2.262c0 .199.161.36.36.36h12.08c.199 0 .36-.161.36-.36 0-.574 0-1.688 0-2.262z" fill="var(--neutral-3)"/></svg>' %}
       {% endif %}
     {% endif %}
-      <div class="{{class}} {{criterion}} methodology-accordion" data-open="false" onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')">
+      <div id="{{criterion}}" class="{{class}} {{criterion}} methodology-accordion" data-open="false" onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')">
         <div class="accordion-head">
           <span class="badge {{class}}">{{icon}}</span>
           <span>{{ site.data.verdicts[criterion].question }}</span>
@@ -92,3 +92,11 @@
   {% endfor %}
   </div>
 </div>
+
+<script>
+  window.addEventListener("hashchange", () => {
+    if(document.querySelector(`${location.hash}`)){
+      document.querySelector(`${location.hash}`).setAttribute("data-open", "true")
+    }
+  });
+</script>
