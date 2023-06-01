@@ -73,7 +73,7 @@ form br {
   display: inline-block; 
   padding-bottom: 10px; 
   color: var(--text); 
-  font-weight: 300; 
+  font-weight: 400; 
 }
 h4 {
   font-size: 1rem; 
@@ -87,7 +87,7 @@ h4 {
   border: 0; 
   background: var(--neutral-5); 
   box-shadow: 0 0 0 1px var(--neutral-6); 
-  font-weight: 300; 
+  font-weight: 400; 
   border-radius: 3px; 
 }
 .submit {
@@ -122,12 +122,12 @@ table, table *{border:0; }
   td:nth-of-type(2){
     grid-column: 1/2; 
     grid-row: 2/3; 
-    font-weight: 300; 
+    font-weight: 400; 
   }
   td:last-of-type{
     grid-column: 2/3; 
     grid-row: 2/3; 
-    font-weight: 300; 
+    font-weight: 400; 
   }
   th{
     display:none; 

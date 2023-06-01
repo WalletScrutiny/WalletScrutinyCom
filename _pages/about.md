@@ -53,7 +53,7 @@ margin: 10px;
 }
 .atf-head p{
 font-size: 21px;
-font-weight: 200;
+font-weight: 400;
 }
 h1,h2{
   text-align: center;
@@ -63,7 +63,7 @@ h2{
 
 }
 p{
-    font-weight: 300;
+    font-weight: 400;
 }
 
 

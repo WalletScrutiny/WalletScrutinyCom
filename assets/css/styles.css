@@ -522,7 +522,7 @@ h2.section-label>a:hover {
   align-items: center;
   text-decoration: none;
   color: inherit;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
   grid-template-columns: auto 1fr 28%;
   column-gap: .75rem;
@@ -889,7 +889,7 @@ table tr td label {
 
 #sidebarWalletList>div a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 13px;
   color: var(--dark-grey);
   display: inline-flex;
