@@ -95,18 +95,19 @@ document.querySelectorAll(".tab-view .label").forEach((ele) => {
 if (document.querySelector(".app_logo_big")) {
   let imgObj = new Image();
   imgObj.src = document.querySelector(".app_logo_big").src;
-      imgObj.onload = function () {
-        let colorThief = new ColorThief();
-        let colour = false
+  imgObj.onload = setTimeout( ()=> {
+    let colorThief = new ColorThief();
+    let colour = false
     for (const rgb of colorThief.getPalette(imgObj, 3)) {
       if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
       if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
       if (colour) { break; }
       colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`
       document.documentElement.style.setProperty('--wallet-gradient', colour);
+      document.documentElement.style.setProperty('--wallet-solid', `rgb(${rgb[0]},${rgb[1]},${rgb[2]})`);
       document.body.setAttribute("data-colour-available", "true")
     }
-  }
+  }, 100)
 }
 
 
