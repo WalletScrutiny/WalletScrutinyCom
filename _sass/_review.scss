@@ -276,7 +276,7 @@
     &:last-of-type {
       &::after {
         content: "";
-        background: var(--body);
+        background: linear-gradient(var(--wallet-solid)-3000vh,var(--body));
         position: absolute;
         width: 3px;
         height: 100%;
