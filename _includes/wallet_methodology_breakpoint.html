@@ -3,10 +3,4 @@
 {% else %}
   {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
 {% endif %}
-{% assign count = 1 %}
-{% for criterion in criteria %}
-  {% if include.verdict == criterion %}
-    {% break %}
-  {% endif %}
-  {% assign count = count | plus: 1 %}
-{% endfor %}
+{% include tests_passed.html criteria=criteria verdict=include.verdict %}

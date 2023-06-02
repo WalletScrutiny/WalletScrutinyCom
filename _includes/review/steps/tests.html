@@ -1,27 +1,14 @@
 {% assign meta = include.meta %}
+{% assign platform = include.platform %}
 {% if meta != "ok" %}
-  {% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
+  {% assign criteria = site.data.platformMeta[platform].verdicts | concat: site.data.platformMeta[platform].metas %}
 {% else %}
-  {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
+{% assign criteria = site.data.platformMeta[platform].verdicts %}
 {% endif %}
 {% assign count = 1 %}
 {% assign failPoint = 0 %}
-{% assign platform = include.platform %}
 
-{% for criterion in criteria %}
-  {% if include.verdict == criterion %}
-    {% unless include.verdict == 'reproducible' %}
-      {% assign failText = '<br>We stopped asking questions after we encountered a failed answer.' %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
-
-{% for criterion in criteria %}
-  {% if include.verdict == criterion %}
-    {% break %}
-  {% endif %}
-  {% assign count = count | plus: 1 %}
-{% endfor %}
+{% include tests_passed.html criteria=criteria verdict=include.verdict %}
 
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>
@@ -64,7 +51,7 @@
   <div class="methodology-tests-list">
   {% for criterion in criteria %}
     {% if include.verdict == criterion %}
-      {% unless include.verdict == 'reproducible' %}
+      {% unless include.verdict == 'reproducible' or include.verdict == 'diy' or include.verdict == 'nobinary %}
         {% assign failPoint = failPoint | plus: 1 %}
         {% assign class = 'fail'%}
         {% assign icon = '<i class="fas fa-times-circle"></i>' %}
