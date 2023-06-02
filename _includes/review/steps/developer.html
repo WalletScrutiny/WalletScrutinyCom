@@ -20,15 +20,22 @@
         {% assign string = link | replace: "https://", "" %}
         {% assign split = string | split:"/" %}
         {% assign name = split[0] | split:"." %}
-        {% if name[0] == 't' %}
+        {% case name[0] %}
+          {% when "t" %}
           {% assign name = 'Telegram' %}
-        {% elsif name[0] == 'join' %}
+          {% when "join" %}
+          {% when "www" %}
           {% assign name = name[1] %}
-        {% elsif name[0] == 'www' %}
-          {% assign name = name[1] %}
-        {% else %}
+          {% else %}
           {% assign name = name[0] %}
-        {% endif %}
+        {% endcase %}
+
+        {% case name[1] %}
+          {% when "medium" %}
+          {% assign name = 'Medium' %}
+          {% else %}
+        {% endcase %}
+
         <a href="{{link}}" title="{{name}}" class="capitalise" target="_blank">{{name}}</a>
       {% endfor %}
     {% endif %}
