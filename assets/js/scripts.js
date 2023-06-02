@@ -81,29 +81,6 @@ for (const target of ["verdict", "platform"]) {
   addDropdownEvents(target, () => { updateUrl(true); updateModularPayload() })
 }
 
-//SEPARATE FUNCTION FOR GRID / LIST TO AVOID MAKING THE LOGIC CONFUSING
-let userSelectView = localStorage.getItem("userSelectView") ? localStorage.getItem("userSelectView") : 'tiles'
-document.querySelector(".dropdown-view > .selected").classList.remove("selected")
-document.querySelector(".dropdown-view > ." + userSelectView).classList.add("selected")
-for (const view of document.querySelectorAll(".tile-list-ui")) { view.setAttribute("class", `tile-list-ui view-${userSelectView}`) }
-document.querySelector(".dropdown-view").addEventListener("click", (event) => {
-  const self = event.target.parentNode.classList.contains("option") ? event.target.parentNode : (event.target.querySelector(".option.selected") ? event.target.querySelector(".option.selected") : event.target)
-  const parentEle = self.parentNode
-  if (!self.classList.contains("selected") && self.classList.contains("option")) {
-    //TARGET IS AN UN-SELECTED CHILD ELEMENT
-    event.stopPropagation()
-    parentEle.querySelectorAll(".selected").forEach((ele) => { ele.classList.remove("selected") })
-    self.classList.add("selected")
-    parentEle.classList.remove("opened")
-    for (const view of document.querySelectorAll(".tile-list-ui")) {
-      let newView = self.getAttribute("data")
-      view.setAttribute("class", `tile-list-ui view-${newView}`)
-      localStorage.setItem("userSelectView", newView)
-    }
-    return
-  }
-  resetDropdowns(event, parentEle)
-})
 
 /**
  * @return how many products in the platform have the verdict.
