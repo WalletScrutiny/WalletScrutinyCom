@@ -5,7 +5,6 @@
 {% else %}
 {% assign criteria = site.data.platformMeta[platform].verdicts %}
 {% endif %}
-{% assign count = 1 %}
 {% assign failPoint = 0 %}
 
 {% include tests_passed.html criteria=criteria verdict=include.verdict %}
@@ -24,7 +23,7 @@
   <div class="data score-data">
     <div class="score">
       <div>
-      {% for instance in (0..count) %}
+      {% for instance in (1..count) %}
         <i class="pass"></i>
       {% endfor %}
       {% assign remainder = criteria.size | minus:count %}
@@ -79,11 +78,3 @@
   {% endfor %}
   </div>
 </div>
-
-<script>
-  window.addEventListener("hashchange", () => {
-    if(document.querySelector(`${location.hash}`)){
-      document.querySelector(`${location.hash}`).setAttribute("data-open", "true")
-    }
-  });
-</script>

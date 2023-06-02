@@ -1,5 +1,6 @@
 {% assign verdict = include.verdict %}
 {% assign criteria = include.criteria %}
+{% assign count = 1 %}
 {% for criterion in criteria %}
   {% if verdict == criterion %}
     {% case verdict %}
