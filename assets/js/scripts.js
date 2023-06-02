@@ -236,6 +236,7 @@ function updatePageinationUI(index) {
   if (allTargetEle[index]) { allTargetEle[index].classList.add("selected") }
   updateUrl(true)
   updateModularPayload(index)
+  document.querySelector("#homepageSearch").scrollIntoView({ block: "start" })
 }
 
 async function processStyle(wallet) {
