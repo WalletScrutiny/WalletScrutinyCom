@@ -1,5 +1,6 @@
 short: Custodial!
 title: 'Custodial: The provider holds the keys'
+pass: The user holds the keys
 color: '#d33100'
 redflag: true
 message: >

@@ -1,5 +1,6 @@
 short: Provided Keys!
 title: Provided private keys
+pass: The keys are generated under the user's exclusive control
 color: '#d33100'
 redflag: true
 message: The device gets delivered with private keys as defined by the provider!

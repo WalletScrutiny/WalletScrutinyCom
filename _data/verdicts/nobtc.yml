@@ -1,5 +1,6 @@
 short: No BTC
 title: A wallet but not for Bitcoin
+pass: It is a wallet for Bitcoin
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: The product is not for BTC.

@@ -1,5 +1,6 @@
 short: Unreproducible!
 title: Not reproducible from source provided
+pass: The product is reproducible from the source provided
 color: '#d33100'
 redflag: true
 message: We could not verify that the provided code matches the binary!

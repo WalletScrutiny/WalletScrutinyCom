@@ -1,5 +1,6 @@
 short: Build Error!
 title: Failed to build from source provided!
+pass: The product can be compiled from source
 color: '#d33100'
 redflag: true
 message: We encountered a build error while compiling from source code!
