@@ -1,5 +1,6 @@
 short: No send/receive!
 title: Can't send or receive bitcoins
+pass: The product can both send and receive actual BTC
 color: '#d33100'
 redflag: true
 message: The product can't send or receive BTC.

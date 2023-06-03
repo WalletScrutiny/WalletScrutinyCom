@@ -1,5 +1,6 @@
 short: Few Users
 title: Few users
+pass: Many users
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: This product has too few users for now to be reviewed in detail.
