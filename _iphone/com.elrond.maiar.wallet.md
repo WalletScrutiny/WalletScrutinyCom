@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/getmaiar
 - https://www.facebook.com/getMaiar
 features: 
+developerName: 
 
 ---
 

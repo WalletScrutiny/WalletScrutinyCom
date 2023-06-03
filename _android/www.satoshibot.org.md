@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: www.satoshibot.org
 appCountry: 
-released: May 20, 2022
+released: 2022-05-20
 updated: 2022-05-20
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: www.satoshibot.org.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: NFT Beast
 features: 
 
 ---

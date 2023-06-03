@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.mahcard.mahcardapp
 appCountry: 
-released: Oct 5, 2019
+released: 2019-10-05
 updated: 2019-10-06
 version: '2.6'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Mahcard Enterprise
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.torexapp
 appCountry: 
-released: Aug 3, 2020
+released: 2020-08-03
 updated: 2020-09-29
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Torex.one
 features: 
 
 ---

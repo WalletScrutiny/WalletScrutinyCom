@@ -7,12 +7,12 @@ authors:
 appId: com.everest.kinvo
 appCountry: BR
 idd: '1327335329'
-released: '2018-01-03T22:03:52Z'
-updated: 2023-04-17
-version: 3.16.3
+released: 2018-01-03
+updated: 2023-05-24
+version: 3.18.1
 stars: 4.6
-reviews: 13579
-size: '57624576'
+reviews: 14077
+size: '57769984'
 website: http://www.kinvo.com.br
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kinvoapp
 - https://www.youtube.com/kinvoapp
 features: 
+developerName: EVEREST.TI
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/cryptowalletcom
 - https://www.reddit.com/r/CryptoWallet_com
 features: 
+developerName: 
 
 ---
 

@@ -11,7 +11,7 @@ released: 2021-06-03
 updated: 2023-04-18
 version: 1.3.3
 stars: 2.9
-reviews: 22
+reviews: 25
 size: '46765056'
 website: https://keyst.one/
 repository: 
@@ -27,6 +27,7 @@ twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ
 features: 
+developerName: YANSSIE HK LIMITED
 
 ---
 

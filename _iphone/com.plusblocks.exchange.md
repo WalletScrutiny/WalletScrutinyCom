@@ -6,12 +6,12 @@ authors:
 appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
-released: '2021-05-12T07:00:00Z'
-updated: 2023-02-21
-version: 1.5.13
+released: 2021-05-12
+updated: 2023-05-03
+version: 1.5.14
 stars: 0
 reviews: 0
-size: '122064896'
+size: '122455040'
 website: 
 repository: 
 issue: 
@@ -26,6 +26,7 @@ twitter: box_trad
 social:
 - https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 features: 
+developerName: PlusBlocks Technology Limited
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
 redirect_from: 
+developerName: CoinCircle, Inc.
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.tardi.tardigrade
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-06-30
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Mobius Excellent Group Ltd.
 features: 
 
 ---

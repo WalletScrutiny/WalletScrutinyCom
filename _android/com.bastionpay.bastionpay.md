@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.bastionpay.bastionpay
 appCountry: 
-released: Jan 4, 2019
+released: 2019-01-04
 updated: 2019-11-20
 version: v3.0.3
 stars: 5
@@ -20,12 +20,13 @@ icon: com.bastionpay.bastionpay.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

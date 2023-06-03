@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xytwww
 appCountry: 
-released: Feb 25, 2021
+released: 2021-02-25
 updated: 2021-04-14
 version: 1.3.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: XYT Pro
 features: 
 
 ---

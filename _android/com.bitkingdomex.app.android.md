@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitkingdomex.app.android
 appCountry: 
-released: Dec 23, 2020
+released: 2020-12-23
 updated: 2021-01-19
 version: 1.0.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 키스톤랩
 features: 
 
 ---

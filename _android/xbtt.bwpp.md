@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: xbtt.bwpp
 appCountry: 
-released: Apr 27, 2022
+released: 2022-04-27
 updated: 2022-04-27
 version: '3'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

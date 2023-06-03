@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: QQTRADE Co., Ltd.
 
 ---
 

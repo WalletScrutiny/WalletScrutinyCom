@@ -9,7 +9,7 @@ users: 1000
 appId: com.blixtwallet
 appCountry: 
 released: 
-updated: 2023-04-07
+updated: 2023-05-03
 version: VARY
 stars: 
 ratings: 
@@ -28,6 +28,7 @@ reviewArchive:
 twitter: BlixtWallet
 social: 
 redirect_from: 
+developerName: Hampus Sjöberg
 features:
 - ln
 

@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: w3axis.com.epocket
 appCountry: 
-released: Jun 23, 2018
-updated: 2023-04-20
-version: '1.80'
+released: 2018-06-23
+updated: 2023-05-01
+version: '1.81'
 stars: 5
 ratings: 
 reviews: 1
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: e-Pocket Pty Ltd
 features: 
 
 ---

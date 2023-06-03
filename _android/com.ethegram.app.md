@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ethegram.app
 appCountry: 
-released: May 7, 2020
+released: 2020-05-07
 updated: 2020-07-19
 version: '6771'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 이더그램
 features: 
 
 ---

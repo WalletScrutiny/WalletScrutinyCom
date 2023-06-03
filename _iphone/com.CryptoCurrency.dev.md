@@ -8,11 +8,11 @@ appId: com.CryptoCurrency.dev
 appCountry: us
 idd: 1339112917
 released: 2018-02-21
-updated: 2023-03-23
-version: 3.1.4
+updated: 2023-05-10
+version: 3.1.5
 stars: 4.7
-reviews: 2256
-size: '253483008'
+reviews: 2261
+size: '253845504'
 website: https://thecrypto.app
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 features: 
+developerName: Trustswap Inc.
 
 ---
 

@@ -27,6 +27,7 @@ twitter: wirexapp
 social:
 - https://github.com/wirexapp
 features: 
+developerName: Wirex Limited
 
 ---
 

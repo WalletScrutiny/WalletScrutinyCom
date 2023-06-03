@@ -7,8 +7,8 @@ users: 1000
 appId: iforexcrypto.clients.android
 appCountry: 
 released: 
-updated: 2023-01-31
-version: 2.1.44
+updated: 2023-05-28
+version: 2.1.46
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Formula Investments House LTD
 features: 
 
 ---

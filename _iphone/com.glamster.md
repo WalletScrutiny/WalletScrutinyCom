@@ -7,7 +7,7 @@ authors:
 appId: com.glamster
 appCountry: de
 idd: '1528839992'
-released: '2020-09-14T07:00:00Z'
+released: 2020-09-14
 updated: 2023-03-08
 version: 4.0.0
 stars: 4.6
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Glamster
 
 ---
 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.cobru.cobru
 appCountry: 
-released: Jun 26, 2021
+released: 2021-06-26
 updated: 2023-04-24
 version: 4.0.93
 stars: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/cobruapp
 - https://www.instagram.com/cobruapp/
 redirect_from: 
+developerName: Cobru SAS
 features: 
 
 ---

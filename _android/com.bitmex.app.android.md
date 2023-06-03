@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitmex.app.android
 appCountry: 
 released: 
-updated: 2023-04-14
-version: 2.2.14
+updated: 2023-05-25
+version: 2.2.16
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BitMEX/
 - https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
 redirect_from: 
+developerName: BitMEX
 features: 
 
 ---

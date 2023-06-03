@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.currency.nnn
 appCountry: 
-released: May 15, 2022
+released: 2022-05-15
 updated: 2022-04-25
 version: 2.1.0
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: nanaya
 features: 
 
 ---

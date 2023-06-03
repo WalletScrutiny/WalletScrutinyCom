@@ -8,11 +8,11 @@ appId: com.gaincapital.forex
 appCountry: gb
 idd: 1506581586
 released: 2020-10-14
-updated: 2023-04-21
-version: 1.138.3015
-stars: 3.7
-reviews: 40
-size: '120535040'
+updated: 2023-05-16
+version: 1.140.3090
+stars: 3.6
+reviews: 41
+size: '120518656'
 website: https://www.forex.com/en-uk/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom
 features: 
+developerName: GAIN Capital Group LLC
 
 ---
 

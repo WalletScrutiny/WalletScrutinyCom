@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.mithilawallet.app
 appCountry: 
-released: Jun 3, 2021
+released: 2021-06-03
 updated: 2021-06-03
 version: 3.0.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.mithilawallet.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: HyperCompute
 features: 
 
 ---

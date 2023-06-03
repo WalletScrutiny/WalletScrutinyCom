@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.panterozo.chauchatraderpro
 appCountry: 
-released: Jan 19, 2018
+released: 2018-01-19
 updated: 2022-07-31
 version: 4.3.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-10-01
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: MOBOX_Official
 social: 
 redirect_from: 
+developerName: MOBOX Ltd.
 features: 
 
 ---

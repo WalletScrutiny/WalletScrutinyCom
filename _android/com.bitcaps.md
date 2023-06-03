@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitcaps
 appCountry: 
-released: Oct 30, 2020
+released: 2020-10-30
 updated: 2021-04-06
 version: 1.5.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitcaps
 features: 
 
 ---

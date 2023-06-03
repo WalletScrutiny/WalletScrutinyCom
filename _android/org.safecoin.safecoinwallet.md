@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.safecoin.safecoinwallet
 appCountry: 
-released: Jul 10, 2018
+released: 2018-07-10
 updated: 2019-03-18
 version: 0.0.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

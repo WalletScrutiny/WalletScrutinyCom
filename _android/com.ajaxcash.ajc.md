@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ajaxcash.ajc
 appCountry: 
-released: Feb 19, 2022
+released: 2022-02-19
 updated: 2022-03-29
 version: '10.03'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ajax Fintech Limited
 features: 
 
 ---

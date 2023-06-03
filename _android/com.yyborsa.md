@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.yyborsa
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2021-08-20
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Aksoyhlc
 features: 
 
 ---

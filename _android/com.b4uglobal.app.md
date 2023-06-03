@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.b4uglobal.app
 appCountry: 
-released: Sep 15, 2020
+released: 2020-09-15
 updated: 2021-04-12
 version: 1.0.6
 stars: 4.8
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: b4u global
 features: 
 
 ---

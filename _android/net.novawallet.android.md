@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: net.novawallet.android
 appCountry: 
-released: Oct 25, 2021
+released: 2021-10-25
 updated: 2022-07-26
 version: 2.2.5
 stars: 4.9
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw
 - https://www.instagram.com/vsolidus/
 redirect_from: 
+developerName: Nova Coin Ltd.
 features: 
 
 ---

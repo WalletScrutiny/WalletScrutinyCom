@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.efktb.disl
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-04-28
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: chunboscaskolsk
 features: 
 
 ---

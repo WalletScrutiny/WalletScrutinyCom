@@ -3,10 +3,10 @@ wsId:
 title: SecuX Firmware Update
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.secux.firmwareupdate
 appCountry: 
-released: Sep 28, 2021
+released: 2021-09-28
 updated: 2022-07-04
 version: 1.0.5
 stars: 2.6
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SecuX
 features: 
 
 ---

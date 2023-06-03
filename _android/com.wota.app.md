@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: com.wota.app
 appCountry: 
-released: Jan 11, 2021
-updated: 2023-03-10
-version: 1.4.2
+released: 2021-01-11
+updated: 2023-05-01
+version: 1.4.3
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: WOTA LTD
 features: 
 
 ---

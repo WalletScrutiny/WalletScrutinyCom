@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitango.android
 appCountry: 
-released: Dec 17, 2021
+released: 2021-12-17
 updated: 2022-06-04
 version: 1.1.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitango Technologies
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 0
 appId: org.yancaitech.porter
 appCountry: 
-released: Jun 1, 2020
+released: 2020-06-01
 updated: 2020-06-08
 version: V0.2.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: yancaitech
 features: 
 
 ---

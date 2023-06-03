@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCBLGJET0P902_vywOy3PzwA
 - https://www.instagram.com/first_kudi/
 redirect_from: 
+developerName: Ferrum Network
 features: 
 
 ---

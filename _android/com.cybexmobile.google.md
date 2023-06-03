@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cybexmobile.google
 appCountry: 
-released: Oct 10, 2018
+released: 2018-10-10
 updated: 2019-04-28
 version: 1.10.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Cybex
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.stakelead.stakelead
 appCountry: 
-released: Jun 4, 2022
+released: 2022-06-04
 updated: 2022-06-04
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: PROYA INT.
 features: 
 
 ---

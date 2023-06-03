@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.ckgdesigns.com.bitlord_us
 appCountry: 
-released: Sep 26, 2019
+released: 2019-09-26
 updated: 2019-09-27
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Store of Value
 features: 
 
 ---

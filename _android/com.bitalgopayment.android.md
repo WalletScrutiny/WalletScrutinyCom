@@ -20,12 +20,13 @@ icon: com.bitalgopayment.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-04-16
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Mahakarya Infotech
 features: 
 
 ---

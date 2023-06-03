@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: bynery.bce
 appCountry: 
-released: Apr 4, 2022
+released: 2022-04-04
 updated: 2022-06-02
 version: 1.5.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: bynery.bce.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bynery
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: OfficialXcoex
 social:
 - https://www.facebook.com/xcoex
 features: 
+developerName: XCOEX LIMITED
 
 ---
 

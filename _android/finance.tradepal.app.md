@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: finance.tradepal.app
 appCountry: 
-released: Apr 2, 2022
+released: 2022-04-02
 updated: 2022-04-02
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zemin
 features: 
 
 ---

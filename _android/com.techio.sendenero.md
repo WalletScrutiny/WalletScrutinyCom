@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.techio.sendenero
 appCountry: 
-released: Feb 24, 2021
+released: 2021-02-24
 updated: 2022-05-02
 version: '3.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Techio Services Ltd
 features: 
 
 ---

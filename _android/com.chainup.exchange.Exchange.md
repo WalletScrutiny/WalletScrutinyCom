@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.chainup.exchange.Exchange
 appCountry: 
-released: Jun 21, 2022
+released: 2022-06-21
 updated: 2022-09-30
 version: 5.4.12
 stars: 4
@@ -28,6 +28,7 @@ twitter: ScallopOfficial
 social:
 - https://www.linkedin.com/company/scallopx/
 redirect_from: 
+developerName: Scallop
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: jp.links.messenger
 appCountry: 
-released: Mar 21, 2021
+released: 2021-03-21
 updated: 2022-05-19
 version: 1.35.9
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: jp.links.messenger.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Links K.K.
 features: 
 
 ---

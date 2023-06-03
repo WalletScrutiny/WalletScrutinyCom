@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: 2.3.2
 stars: 3.9
 ratings: 261
-reviews: 17
+reviews: 18
 size: 
 website: https://btc.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
 redirect_from: 
+developerName: FINE BRAND LIMITED
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 50
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14
-updated: 2023-03-09
-version: 1.9.20
+updated: 2023-05-05
+version: 1.9.22
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/salletone
 - https://github.com/SalletOne
 redirect_from: 
+developerName: Sallet One
 features: 
 
 ---

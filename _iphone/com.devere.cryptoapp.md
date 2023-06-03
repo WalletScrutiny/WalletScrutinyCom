@@ -7,7 +7,7 @@ authors:
 appId: com.devere.cryptoapp
 appCountry: us
 idd: '1335720589'
-released: '2018-02-01T00:09:09Z'
+released: 2018-02-01
 updated: 2022-01-20
 version: '5.1'
 stars: 2.8
@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.devere.cryptoapp.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosendreceive
-date: 2023-04-03
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070/
 features: 
+developerName: 
 
 ---
 

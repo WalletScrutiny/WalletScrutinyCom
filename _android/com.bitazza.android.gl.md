@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.bitazza.android.gl
 appCountry: 
-released: Mar 1, 2022
-updated: 2023-04-26
-version: 3.1.2
+released: 2022-03-01
+updated: 2023-05-23
+version: 3.2.0
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bitazza/
 - https://t.me/bitazzaglobal
 redirect_from: 
+developerName: Bitazza Company Limited
 features: 
 
 ---

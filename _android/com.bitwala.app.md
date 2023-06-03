@@ -12,7 +12,7 @@ updated: 2023-04-19
 version: '2.5'
 stars: 3.6
 ratings: 4416
-reviews: 3591
+reviews: 3585
 size: 
 website: https://www.bitwala.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 redirect_from: 
+developerName: Bitwala  GmbH
 features: 
 
 ---

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MAK International Inc, USA
 features: 
 
 ---

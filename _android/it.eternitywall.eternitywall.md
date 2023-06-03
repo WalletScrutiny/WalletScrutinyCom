@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: it.eternitywall.eternitywall
 appCountry: 
-released: Sep 2, 2015
+released: 2015-09-02
 updated: 2016-10-14
 version: 1.0.44
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Eternity Wall
 features: 
 
 ---

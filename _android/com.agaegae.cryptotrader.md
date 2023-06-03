@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.agaegae.cryptotrader
 appCountry: 
-released: Oct 23, 2021
+released: 2021-10-23
 updated: 2021-10-24
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

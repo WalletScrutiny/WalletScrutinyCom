@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-04
 updated: 2022-06-27
 version: 5.2.0
-stars: 1.6
+stars: 1.5
 ratings: 7732
-reviews: 1741
+reviews: 1744
 size: 
 website: https://celsius.network
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/CelsiusNetwork
 redirect_from:
 - /network.celsius.wallet/
+developerName: Celsius Network Crypto Wallet
 features: 
 
 ---

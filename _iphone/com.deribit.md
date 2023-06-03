@@ -7,11 +7,11 @@ authors:
 appId: com.deribit
 appCountry: gb
 idd: '1293674041'
-released: '2017-11-17T06:33:50Z'
+released: 2017-11-17
 updated: 2023-03-26
 version: 3.1.0
 stars: 5
-reviews: 1
+reviews: 2
 size: '27543552'
 website: http://www.deribit.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/deribit
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
 features: 
+developerName: Deribit
 
 ---
 

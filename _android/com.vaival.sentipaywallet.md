@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.vaival.sentipaywallet
 appCountry: 
-released: Mar 31, 2021
+released: 2021-03-31
 updated: 2021-03-31
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

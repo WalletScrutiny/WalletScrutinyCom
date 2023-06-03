@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.netlink.exchange
 appCountry: 
-released: Aug 27, 2019
+released: 2019-08-27
 updated: 2019-08-27
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

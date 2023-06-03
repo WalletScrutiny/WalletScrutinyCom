@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.Duende.Duende
 appCountry: 
-released: Aug 23, 2021
+released: 2021-08-23
 updated: 2021-08-24
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Duende
 features: 
 
 ---

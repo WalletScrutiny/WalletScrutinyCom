@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitkipi
 appCountry: 
-released: Dec 23, 2021
+released: 2021-12-23
 updated: 2022-09-30
 version: 1.5.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitkipi
 features: 
 
 ---

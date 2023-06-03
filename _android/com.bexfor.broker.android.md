@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bexfor.broker.android
 appCountry: 
-released: Dec 21, 2020
+released: 2020-12-21
 updated: 2020-12-22
 version: 3.8.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

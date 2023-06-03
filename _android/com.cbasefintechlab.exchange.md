@@ -2,7 +2,8 @@
 wsId: 
 title: CROSS exchange -secure exchange-
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.cbasefintechlab.exchange
 appCountry: 
@@ -20,13 +21,15 @@ icon: com.cbasefintechlab.exchange.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---
 
+This app is no longer on Google Play (404).

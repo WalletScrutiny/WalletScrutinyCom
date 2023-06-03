@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.bumoon.boo
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2022-10-10
 version: 3.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bumoonio
 features: 
 
 ---

@@ -8,8 +8,8 @@ appId: me.mobi.app
 appCountry: au
 idd: 1180017272
 released: 2016-12-31
-updated: 2023-04-18
-version: 2.36.2
+updated: 2023-05-02
+version: 2.36.3
 stars: 0
 reviews: 0
 size: '46117888'
@@ -27,6 +27,7 @@ twitter: mobimeglobal
 social:
 - https://www.facebook.com/mobimeglobal
 features: 
+developerName: Mobi Me Limited
 
 ---
 

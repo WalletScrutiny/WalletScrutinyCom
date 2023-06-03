@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-23
 updated: 2021-04-23
 version: '1.0'
-stars: 4.6
+stars: 4.4
 ratings: 220
-reviews: 107
+reviews: 65
 size: 
 website: http://crypto-exchange.club
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Buy Crypto - Crypto Exchange - Sell Crypto
 features: 
 
 ---

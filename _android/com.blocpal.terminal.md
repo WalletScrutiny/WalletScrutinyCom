@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.blocpal.terminal
 appCountry: 
-released: Oct 30, 2018
+released: 2018-10-30
 updated: 2019-07-23
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BlocPal International Inc.
 features: 
 
 ---

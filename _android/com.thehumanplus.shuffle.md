@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.thehumanplus.shuffle
 appCountry: 
-released: Apr 6, 2020
+released: 2020-04-06
 updated: 2022-06-22
 version: 1.9.9
 stars: 
@@ -29,6 +29,7 @@ social:
 - https://medium.com/@hupayx
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 redirect_from: 
+developerName: HUPAYX
 features: 
 
 ---

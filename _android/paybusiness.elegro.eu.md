@@ -7,8 +7,8 @@ users: 100
 appId: paybusiness.elegro.eu
 appCountry: 
 released: 2020-07-15
-updated: 2023-01-17
-version: 1.2.5
+updated: 2023-05-10
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Niko Technologies
 features: 
 
 ---

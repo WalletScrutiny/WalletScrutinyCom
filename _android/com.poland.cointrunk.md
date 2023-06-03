@@ -2,11 +2,11 @@
 wsId: 
 title: CoinTrunk
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.poland.cointrunk
 appCountry: 
-released: Apr 18, 2022
+released: 2022-04-18
 updated: 2022-04-28
 version: 0.0.3
 stars: 
@@ -26,7 +26,9 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---
+
 

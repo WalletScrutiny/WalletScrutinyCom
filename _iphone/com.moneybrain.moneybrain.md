@@ -26,6 +26,7 @@ reviewArchive:
 twitter: MoneybrainBiPS
 social: 
 features: 
+developerName: Moneybrain LTD
 
 ---
 

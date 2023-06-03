@@ -7,7 +7,7 @@ authors:
 appId: com.viabtc.pool2
 appCountry: hk
 idd: '1334584229'
-released: '2018-01-18T22:20:08Z'
+released: 2018-01-18
 updated: 2023-04-26
 version: 3.7.3
 stars: 4.8
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 features: 
+developerName: Viabtc Technology Limited
 
 ---
 

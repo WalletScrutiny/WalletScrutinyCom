@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.vimepaypeer2peer
 appCountry: 
-released: May 9, 2021
+released: 2021-05-09
 updated: 2021-05-09
 version: 1.1.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

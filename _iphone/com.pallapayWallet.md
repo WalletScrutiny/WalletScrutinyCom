@@ -7,7 +7,7 @@ authors:
 appId: com.pallapayWallet
 appCountry: ae
 idd: '1579865730'
-released: '2021-08-05T07:00:00Z'
+released: 2021-08-05
 updated: 2022-03-03
 version: '1.6'
 stars: 5
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
 - https://t.me/pallapay_channel
 features: 
+developerName: 
 
 ---
 

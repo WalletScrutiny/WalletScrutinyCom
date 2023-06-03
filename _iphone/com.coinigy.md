@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinigy
 - https://www.facebook.com/coinigy
 features: 
+developerName: Coinigy
 
 ---
 

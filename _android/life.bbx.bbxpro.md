@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: life.bbx.bbxpro
 appCountry: 
-released: May 8, 2021
+released: 2021-05-08
 updated: 2022-01-13
 version: 1.3.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bigbit tech
 features: 
 
 ---

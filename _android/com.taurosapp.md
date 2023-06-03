@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.taurosapp
 appCountry: 
-released: Oct 3, 2019
+released: 2019-10-03
 updated: 2023-03-31
 version: 9.6.4
 stars: 3.1
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/tauros.io
 - https://www.linkedin.com/company/taurosio/
 redirect_from: 
+developerName: Tauros Exchange S.A. de C.V.
 features:
 - ln
 

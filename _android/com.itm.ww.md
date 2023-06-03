@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.itm.ww
 appCountry: 
-released: Oct 14, 2018
+released: 2018-10-14
 updated: 2019-03-22
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Wampum 1st. An ITM Business.
 features: 
 
 ---

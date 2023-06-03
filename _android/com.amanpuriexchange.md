@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.amanpuriexchange
 appCountry: 
-released: Jan 15, 2020
+released: 2020-01-15
 updated: 2020-10-02
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AMANPURI CO., LTD.
 features: 
 
 ---

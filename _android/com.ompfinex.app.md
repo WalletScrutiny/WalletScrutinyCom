@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.ompfinex.app
 appCountry: 
-released: Jul 20, 2021
-updated: 2022-12-01
-version: 2.1.9
+released: 2021-07-20
+updated: 2023-05-18
+version: 3.0.0
 stars: 4
 ratings: 
-reviews: 25
+reviews: 30
 size: 
 website: https://ompfinex.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/ompfinex/
 - https://www.youtube.com/channel/UC7BfUYMUwddfnwCNvq29QpQ
 redirect_from: 
+developerName: Mammute.co
 features: 
 
 ---

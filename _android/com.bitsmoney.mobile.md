@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitsmoney.mobile
 appCountry: 
-released: Apr 1, 2021
+released: 2021-04-01
 updated: 2021-05-17
 version: 1.0.2
 stars: 5
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitsmoney.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bits Money Ltd.
 features: 
 
 ---

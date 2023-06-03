@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bbko.hcu_wallet
 appCountry: 
-released: Jul 27, 2020
+released: 2020-07-27
 updated: 2021-08-11
 version: '1.9'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

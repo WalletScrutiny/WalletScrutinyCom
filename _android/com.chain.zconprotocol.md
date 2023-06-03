@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.chain.zconprotocol
 appCountry: 
-released: Jan 5, 2022
+released: 2022-01-05
 updated: 2022-01-26
 version: 1.0.2
 stars: 3
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: KCNET CO.,LTD
 features: 
 
 ---

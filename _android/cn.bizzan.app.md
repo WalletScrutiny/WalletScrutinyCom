@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: cn.bizzan.app
 appCountry: 
-released: Sep 3, 2020
+released: 2020-09-03
 updated: 2020-11-09
 version: 1.0.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 祥云科技有限公司
 features: 
 
 ---

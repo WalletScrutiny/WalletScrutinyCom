@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.era.crest9
 appCountry: 
-released: Oct 8, 2021
+released: 2021-10-08
 updated: 2021-10-16
 version: 1.0.12
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Crest9 Tech
 features: 
 
 ---

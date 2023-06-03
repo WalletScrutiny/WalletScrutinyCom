@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: bd.nazmul81.global_chain
 appCountry: 
-released: Jan 28, 2021
+released: 2021-01-28
 updated: 2021-01-29
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: blackrobot
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hustay.swing.da688fa802d034bdf8e82fa910d35e4a4
 appCountry: 
-released: Feb 3, 2021
+released: 2021-02-03
 updated: 2021-02-04
 version: '0.3'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 양송만
 features: 
 
 ---

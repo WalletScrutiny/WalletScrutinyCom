@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.mycoinstory.twa
 appCountry: 
-released: Feb 22, 2021
+released: 2021-02-22
 updated: 2021-02-23
 version: '2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MKT Partners Ltd.
 features: 
 
 ---

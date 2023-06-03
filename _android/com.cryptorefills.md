@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.cryptorefills
 appCountry: 
-released: Apr 22, 2019
+released: 2019-04-22
 updated: 2019-05-14
 version: 1.0.2
 stars: 3.9
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoRefills
 features: 
 
 ---

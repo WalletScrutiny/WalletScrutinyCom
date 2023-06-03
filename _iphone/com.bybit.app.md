@@ -8,11 +8,11 @@ appId: com.bybit.app
 appCountry: 
 idd: 1488296980
 released: 2020-01-06
-updated: 2023-04-27
-version: 4.16.0
-stars: 4
-reviews: 934
-size: '341541888'
+updated: 2023-05-27
+version: 4.17.5
+stars: 4.2
+reviews: 1365
+size: '397213696'
 website: https://www.bybit.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
 features: 
+developerName: Bybit Fintech Limited
 
 ---
 

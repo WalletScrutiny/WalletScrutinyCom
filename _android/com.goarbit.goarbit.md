@@ -7,7 +7,7 @@ authors:
 users: 500000
 appId: com.goarbit.goarbit
 appCountry: 
-released: Nov 17, 2020
+released: 2020-11-17
 updated: 2021-08-13
 version: 3.0.1
 stars: 4.2
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GoArbit Inc
 features: 
 
 ---

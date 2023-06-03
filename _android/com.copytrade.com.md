@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.copytrade.com
 appCountry: 
-released: Sep 14, 2021
+released: 2021-09-14
 updated: 2021-08-24
 version: 1.5.2
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

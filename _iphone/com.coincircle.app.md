@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
 features: 
+developerName: Coincircle, Inc
 
 ---
 

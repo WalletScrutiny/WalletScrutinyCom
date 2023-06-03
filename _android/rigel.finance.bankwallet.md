@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: rigel.finance.bankwallet
 appCountry: 
-released: Dec 3, 2020
+released: 2020-12-03
 updated: 2020-12-23
 version: 0.17.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Rigel Wallet Team
 features: 
 
 ---

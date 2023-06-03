@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: app.africoin.pellar
 appCountry: 
-released: Sep 30, 2020
+released: 2020-09-30
 updated: 2020-12-16
 version: 1.8.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Brickion Technologies
 features: 
 
 ---

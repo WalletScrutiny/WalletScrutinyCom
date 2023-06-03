@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: mobi.androapp.asellmybitcoin4cash.c8927
 appCountry: 
-released: Nov 25, 2019
+released: 2019-11-25
 updated: 2019-11-25
 version: '19.02'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DavidAps
 features: 
 
 ---

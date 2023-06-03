@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ubakasi.kolicoin
 appCountry: 
-released: Nov 5, 2021
+released: 2021-11-05
 updated: 2023-02-21
 version: 5.1.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Kolicoin Limited
 features: 
 
 ---

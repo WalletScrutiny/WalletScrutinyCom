@@ -3,10 +3,10 @@ wsId:
 title: Crypto Net
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.piece.father
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2022-03-31
 version: 1.11.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: pontv015
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: vn.fiahub.app
 appCountry: 
-released: Oct 11, 2019
-updated: 2023-04-10
-version: 2.18.6
+released: 2019-10-11
+updated: 2023-05-12
+version: 2.18.9
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.fiahub.com/blog/
 - https://www.linkedin.com/company/fiahub/
 redirect_from: 
+developerName: DIGITEX PTE LTD
 features: 
 
 ---

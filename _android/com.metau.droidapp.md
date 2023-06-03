@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.metau.droidapp
 appCountry: 
-released: Apr 10, 2022
+released: 2022-04-10
 updated: 2022-04-10
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MetaU Corp.
 features: 
 
 ---

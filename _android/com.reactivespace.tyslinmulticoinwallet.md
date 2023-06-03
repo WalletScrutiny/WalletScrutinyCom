@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.reactivespace.tyslinmulticoinwallet
 appCountry: 
-released: Jul 26, 2019
+released: 2019-07-26
 updated: 2020-09-21
 version: 2.1.38
 stars: 4.2
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Tyslin Blockchain
 features: 
 
 ---

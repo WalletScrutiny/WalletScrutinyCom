@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.binancebutler
 appCountry: 
-released: Jul 6, 2019
+released: 2019-07-06
 updated: 2021-06-09
 version: 1.2.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Inno ideas
 features: 
 
 ---

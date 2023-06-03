@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.velic.mts.vex
 appCountry: 
-released: Apr 3, 2019
+released: 2019-04-03
 updated: 2021-08-04
 version: 2.2.0
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: VELIC Services
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coincasso
 - https://www.facebook.com/ccwallet.mobileapp
 features: 
+developerName: 
 
 ---
 

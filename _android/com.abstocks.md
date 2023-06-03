@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.abstocks
 appCountry: 
-released: Aug 30, 2021
+released: 2021-08-30
 updated: 2022-02-07
 version: 1.6.106
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ABStocks.com
 features: 
 
 ---

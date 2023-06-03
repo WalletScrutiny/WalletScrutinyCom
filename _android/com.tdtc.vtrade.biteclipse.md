@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.tdtc.vtrade.biteclipse
 appCountry: 
-released: Nov 20, 2019
+released: 2019-11-20
 updated: 2021-07-03
 version: 1.0.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BitEclipse
 features: 
 
 ---

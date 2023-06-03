@@ -2,11 +2,12 @@
 wsId: 
 title: BW Exchange
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.bw.google
 appCountry: 
-released: Jul 26, 2021
+released: 2021-07-26
 updated: 2021-08-16
 version: 2.1.4
 stars: 3.1
@@ -18,15 +19,26 @@ repository:
 issue: 
 icon: com.bw.google.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: bwexchange
 features: 
 
 ---
 
+The description is mostly filler marketing language. But this seems to be an exchange. The listed website is no longer online. 
+
+The app's contact information are linked to at least 3 different domains:
+
+- bwex.vip
+- bw.com 
+
+## Analysis 
+
+We were not able to register and believe this exchange to be **defunct**. 

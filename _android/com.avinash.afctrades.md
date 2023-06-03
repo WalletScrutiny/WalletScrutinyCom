@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.avinash.afctrades
 appCountry: 
-released: Aug 20, 2020
+released: 2020-08-20
 updated: 2020-08-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AFC Trading Group
 features: 
 
 ---

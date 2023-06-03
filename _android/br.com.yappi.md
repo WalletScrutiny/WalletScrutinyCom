@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: br.com.yappi
 appCountry: 
-released: Feb 2, 2021
+released: 2021-02-02
 updated: 2022-11-12
 version: 1.2.1
 stars: 3.4
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/yappi.br/
 - https://www.linkedin.com/company/yappi-br/
 redirect_from: 
+developerName: Yappi Software e Serviços LTDA
 features: 
 
 ---

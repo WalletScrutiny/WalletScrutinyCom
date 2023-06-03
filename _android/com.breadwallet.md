@@ -45,6 +45,7 @@ social:
 - https://www.facebook.com/brdhq
 - https://www.reddit.com/r/brdapp
 redirect_from: 
+developerName: breadwallet
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.cryptobasex.wallet
 appCountry: 
-released: Jan 31, 2020
+released: 2020-01-31
 updated: 2020-04-23
 version: 0.0.3
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cryptobasex.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Cryptoking
 features: 
 
 ---

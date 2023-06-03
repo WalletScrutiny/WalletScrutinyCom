@@ -7,7 +7,7 @@ authors:
 appId: ai.blockbank.blockbankv2
 appCountry: us
 idd: '1592298073'
-released: '2021-11-01T07:00:00Z'
+released: 2021-11-01
 updated: 2023-04-26
 version: 3.3.6
 stars: 4.8
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blockbankapp/
 - https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg
 features: 
+developerName: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.cm.coinmark
 appCountry: 
-released: Sep 17, 2021
+released: 2021-09-17
 updated: 2022-08-27
 version: 1.3.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CoinMark Pro
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.mlm.application
 appCountry: 
-released: Mar 25, 2021
+released: 2021-03-25
 updated: 2022-04-20
 version: '2.6'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SR Corporation
 features: 
 
 ---

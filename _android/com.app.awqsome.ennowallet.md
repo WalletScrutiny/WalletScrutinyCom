@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.app.awqsome.ennowallet
 appCountry: 
-released: Aug 22, 2021
+released: 2021-08-22
 updated: 2023-04-13
 version: 2.6.5
 stars: 4.5
@@ -32,6 +32,7 @@ social:
 - https://blog.ennowallet.com/
 - https://www.instagram.com/ennowallet/
 redirect_from: 
+developerName: EnnoFund Limited
 features: 
 
 ---

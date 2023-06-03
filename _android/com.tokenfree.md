@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tokenfree
 appCountry: 
-released: Sep 10, 2021
+released: 2021-09-10
 updated: 2021-10-22
 version: '2.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.tokenfree.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FunV Internet
 features: 
 
 ---

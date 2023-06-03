@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: fx렌트 fx마진거래 렌트서비스
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cashbtc.io
 appCountry: 
-released: Dec 21, 2019
+released: 2019-12-21
 updated: 2019-12-22
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Just ESCROW
 features: 
 
 ---

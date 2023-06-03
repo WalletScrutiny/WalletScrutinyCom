@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bestexchange.bestexchange
 appCountry: 
-released: Mar 27, 2022
+released: 2022-03-27
 updated: 2022-03-27
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Best Exchange
 features: 
 
 ---

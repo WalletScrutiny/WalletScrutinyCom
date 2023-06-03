@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.saifu
 appCountry: 
-released: Aug 21, 2018
+released: 2018-08-21
 updated: 2019-02-15
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.logik.cmcinsight
 appCountry: 
-released: Nov 2, 2020
+released: 2020-11-02
 updated: 2020-11-02
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Babatunde Dallas
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.upay
 appCountry: 
-released: Jul 13, 2020
+released: 2020-07-13
 updated: 2021-01-07
 version: '1.1'
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: The Value Group Inc.
 features: 
 
 ---

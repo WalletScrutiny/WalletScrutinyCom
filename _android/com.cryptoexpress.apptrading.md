@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cryptoexpress.apptrading
 appCountry: 
-released: May 10, 2022
+released: 2022-05-10
 updated: 2022-05-10
 version: 1.0.5
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.cryptoexpress.apptrading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitenium Exchange LLC
 features: 
 
 ---

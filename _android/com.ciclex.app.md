@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.ciclex.app
 appCountry: 
-released: Mar 11, 2021
+released: 2021-03-11
 updated: 2021-05-11
 version: v1.0.4
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ciclex.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Ciclex development
 features: 
 
 ---

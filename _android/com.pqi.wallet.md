@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.pqi.wallet
 appCountry: 
-released: Mar 24, 2022
+released: 2022-03-24
 updated: 2023-01-17
 version: v2.0.11
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Power Quotient International Co., Ltd.
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ficdev.javatar.exsparkle
 appCountry: 
-released: Dec 1, 2017
+released: 2017-12-01
 updated: 2018-01-15
 version: 3.4.5
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ficdev.javatar.exsparkle.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FICTION DEVELOPER
 features: 
 
 ---

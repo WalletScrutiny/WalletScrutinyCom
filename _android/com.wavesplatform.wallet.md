@@ -27,6 +27,7 @@ reviewArchive:
 twitter: waves_exchange
 social: 
 redirect_from: 
+developerName: waves.exchange
 features: 
 
 ---

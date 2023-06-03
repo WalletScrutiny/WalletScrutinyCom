@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.gow
 appCountry: 
-released: Nov 14, 2021
+released: 2021-11-14
 updated: 2021-12-29
 version: '1.12'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

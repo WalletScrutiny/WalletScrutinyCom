@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /com.algorand.android/
+developerName: Pera Wallet
 features: 
 
 ---

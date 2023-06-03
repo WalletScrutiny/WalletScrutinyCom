@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: network.minter.bipwallet.mainnet
 appCountry: 
-released: May 13, 2019
+released: 2019-05-13
 updated: 2022-06-12
 version: 2.4.1
 stars: 4.6
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DeCenter
 features: 
 
 ---

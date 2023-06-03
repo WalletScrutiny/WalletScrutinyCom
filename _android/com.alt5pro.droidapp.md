@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.alt5pro.droidapp
 appCountry: 
-released: Mar 23, 2020
+released: 2020-03-23
 updated: 2022-02-16
 version: '1.9'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Alt 5 Pro
 features: 
 
 ---

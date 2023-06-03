@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.xchange.baksman.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-10
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/baksmancom
 redirect_from: 
+developerName: XchangeCapitalGroup OU
 features: 
 
 ---

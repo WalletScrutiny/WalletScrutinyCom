@@ -7,7 +7,7 @@ authors:
 appId: com.vstmexvstmex1.vstmexvstmex
 appCountry: sg
 idd: '1614816279'
-released: '2022-04-06T07:00:00Z'
+released: 2022-04-06
 updated: 2023-01-05
 version: 1.3.1
 stars: 5
@@ -27,6 +27,7 @@ twitter: VSTMEX
 social:
 - https://t.me/VSTMEX001
 features: 
+developerName: 
 
 ---
 

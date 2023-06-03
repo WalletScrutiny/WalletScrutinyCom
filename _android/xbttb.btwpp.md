@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: xbttb.btwpp
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-04-28
 version: '3'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

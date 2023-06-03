@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.secure.pay
 appCountry: 
-released: Sep 21, 2016
+released: 2016-09-21
 updated: 2020-06-21
 version: '2.6'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Secure Paymentz
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 appId: de.followmytrader
 appCountry: us
 idd: '1487657162'
-released: '2020-03-06T08:00:00Z'
+released: 2020-03-06
 updated: 2023-04-27
 version: 2.1.1
 stars: 0
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/
 features: 
+developerName: FELS Group GmbH
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.app.bittrade
 appCountry: 
-released: Feb 28, 2022
+released: 2022-02-28
 updated: 2022-03-01
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AAROTA SOFT TECH
 features: 
 
 ---

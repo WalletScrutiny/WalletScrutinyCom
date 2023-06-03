@@ -2,7 +2,8 @@
 wsId: 
 title: Bitcoin Investment & Crypto Hu
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: app.bitcoininvestmenthub.com
 appCountry: 
@@ -18,15 +19,17 @@ repository:
 issue: 
 icon: app.bitcoininvestmenthub.com.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-04-25
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Dhirrr
 features: 
 
 ---
 
+We downloaded the app. It only showed the splash logo, and the subsequent screen only showed an error. The homepage is also offline. We'll classify this as **defunct**.

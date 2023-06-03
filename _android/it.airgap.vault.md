@@ -8,8 +8,8 @@ users: 10000
 appId: it.airgap.vault
 appCountry: 
 released: 2018-08-06
-updated: 2023-03-21
-version: 3.25.0
+updated: 2023-05-16
+version: 3.26.0
 stars: 4.2
 ratings: 110
 reviews: 16
@@ -175,6 +175,7 @@ social:
 redirect_from:
 - /it.airgap.vault/
 - /posts/it.airgap.vault/
+developerName: Papers AG
 features: 
 
 ---

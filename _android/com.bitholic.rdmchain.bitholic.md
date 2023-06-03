@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.bitholic.rdmchain.bitholic/
 - /posts/com.bitholic.rdmchain.bitholic/
+developerName: RDMCHAIN.pte.ltd.
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.bitnow.wallet
 appCountry: 
-released: Jun 24, 2021
+released: 2021-06-24
 updated: 2021-06-24
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: bitnow.team
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter: AnkerPay
 social:
 - https://www.facebook.com/AnkerPlatform
 features: 
+developerName: AnkerPay
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: id.sagara.javapool
 appCountry: 
-released: Aug 30, 2021
+released: 2021-08-30
 updated: 2021-08-30
 version: 0.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: JavaPool
 features: 
 
 ---

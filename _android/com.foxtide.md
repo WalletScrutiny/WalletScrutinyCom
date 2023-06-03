@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.foxtide
 appCountry: 
-released: Apr 23, 2020
+released: 2020-04-23
 updated: 2020-05-09
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DIGITIDE, LLC
 features: 
 
 ---

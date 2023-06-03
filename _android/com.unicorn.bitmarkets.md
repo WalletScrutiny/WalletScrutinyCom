@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.unicorn.bitmarkets
 appCountry: 
-released: Apr 5, 2022
+released: 2022-04-05
 updated: 2022-04-15
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

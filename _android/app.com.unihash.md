@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: app.com.unihash
 appCountry: 
-released: Oct 31, 2018
+released: 2018-10-31
 updated: 2023-02-08
 version: '4.0'
 stars: 2.5
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Neubee
 features: 
 
 ---

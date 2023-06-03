@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.cricketrade.com
 appCountry: 
-released: Oct 23, 2019
+released: 2019-10-23
 updated: 2019-10-23
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Software Development 4 the Future Inc.
 features: 
 
 ---

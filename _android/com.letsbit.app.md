@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.letsbit.app
 appCountry: 
-released: May 6, 2022
-updated: 2023-04-24
-version: v1.12.0
-stars: 3.9
+released: 2022-05-06
+updated: 2023-05-04
+version: v1.13.0
+stars: 4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://letsbit.io
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/LetsBit
 - https://www.instagram.com/letsbit/
 redirect_from: 
+developerName: Let'sBit
 features: 
 
 ---

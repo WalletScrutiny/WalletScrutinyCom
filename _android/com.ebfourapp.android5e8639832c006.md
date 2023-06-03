@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.ebfourapp.android5e8639832c006
 appCountry: 
-released: Jun 24, 2020
+released: 2020-06-24
 updated: 2020-08-10
 version: '2.5'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: LIV8 LLC
 features: 
 
 ---

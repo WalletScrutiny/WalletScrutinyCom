@@ -27,6 +27,7 @@ twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
 features: 
+developerName: Kuna Fintech Limited
 
 ---
 

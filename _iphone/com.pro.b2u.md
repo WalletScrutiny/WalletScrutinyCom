@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
 features: 
+developerName: 
 
 ---
 

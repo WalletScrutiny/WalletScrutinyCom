@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/pundix
 - https://www.facebook.com/pundixlabs
 features: 
+developerName: PUNDI X LABS
 
 ---
 

@@ -3,11 +3,11 @@ wsId:
 title: Zinary
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.zinary.apps
 appCountry: 
 released: 
-updated: 2023-04-01
+updated: 2023-05-24
 version: VARY
 stars: 
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zinary Analytica Limited
 features: 
 
 ---

@@ -12,8 +12,8 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-09-04
 version: '2.480'
-stars: 3.4
-reviews: 165
+stars: 3.5
+reviews: 162
 size: '63362048'
 website: http://wallets.africa
 repository: 
@@ -29,6 +29,7 @@ twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
 features: 
+developerName: Enterprise Wallet Payments Limited
 
 ---
 

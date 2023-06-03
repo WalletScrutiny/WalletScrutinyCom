@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.coinzoom.android
 appCountry: 
-released: Mar 25, 2022
-updated: 2023-04-26
-version: 1.0.0.10108
-stars: 3.6
+released: 2022-03-25
+updated: 2023-05-23
+version: 1.0.0.10112
+stars: 3.4
 ratings: 
-reviews: 36
+reviews: 41
 size: 
 website: https://www.coinzoom.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinZoom
 - https://www.linkedin.com/company/coinzoomhq/
 redirect_from: 
+developerName: CoinZoom
 features: 
 
 ---

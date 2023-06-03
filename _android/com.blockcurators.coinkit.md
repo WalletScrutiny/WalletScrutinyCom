@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.blockcurators.coinkit
 appCountry: 
-released: Dec 19, 2021
+released: 2021-12-19
 updated: 2022-01-19
 version: 1.1.2
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: coinkit_
 social: 
 redirect_from: 
+developerName: Blockcurators GmbH
 features: 
 
 ---
