@@ -2,7 +2,8 @@
 wsId: 
 title: 3Commas Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.threecommas.wallet
 appCountry: 
@@ -19,15 +20,34 @@ issue:
 icon: com.threecommas.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nosource
+date: 2023-06-03
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: 3commas_io
+social:
+- https://www.facebook.com/3Commas.io
+- https://t.me/commas
+- https://discord.com/invite/3commas
+- https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos 
 redirect_from: 
 developerName: 3Сommas - Cryptocurrency trading terminal and bots
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> With the 3Commas wallet you’ll be able to do a lot of things, including:
+> - Create and store your private keys locally on your device.
+- Restore your wallet via recovery phrase.
+- Get info on your current balances and coin prices across the Ethereum, Binance Smart Chain, and Polygon networks to start with.
+- Send and receive crypto.
+- Add custom tokens.
+
+## Analysis 
+
+- The app provided a 12-word mnemonic phrase
+- The app has a BTC wallet among other things. This wallet can send/receive. 
+- Although they have an organization GitHub with several [repositories](https://github.com/orgs/3commas-io/repositories), none of them seem to involve the Android app.
+- We did **not find any claims to being source-available**.

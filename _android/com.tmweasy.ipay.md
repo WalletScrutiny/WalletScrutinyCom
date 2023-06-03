@@ -2,7 +2,8 @@
 wsId: 
 title: Ipay Exchange
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.tmweasy.ipay
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.tmweasy.ipay.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2023-01-18
+verdict: nowallet
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Ipay Exchange Securely exchange Paypal and Bitcoin. Withdraw Paypal to bank instantly 24 hours a day. 
+
+## Analysis 
+
+- The app is an exchange service specifically covering the Thailand geographic. 
+- Bitcoin to bank account, Paypal and other eWallet exchange services are included. 
+- The app itself **has no Bitcoin wallet** and merely reflects the website.
