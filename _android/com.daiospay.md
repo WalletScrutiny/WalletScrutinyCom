@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.daiospay
 appCountry: 
-released: Aug 5, 2019
+released: 2019-08-05
 updated: 2019-08-16
 version: 1.0.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 다이브 주식회사
 features: 
 
 ---

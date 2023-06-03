@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.cryptocortex.trade
 appCountry: 
-released: Sep 18, 2019
+released: 2019-09-18
 updated: 2019-09-18
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Deltix
 features: 
 
 ---

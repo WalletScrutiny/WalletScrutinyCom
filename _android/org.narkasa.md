@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: org.narkasa
 appCountry: 
-released: Oct 30, 2020
+released: 2020-10-30
 updated: 2021-04-11
 version: '1.27'
 stars: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/narkasacom
 - https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 redirect_from: 
+developerName: NARKASA
 features: 
 
 ---

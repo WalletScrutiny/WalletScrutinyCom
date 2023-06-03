@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.youseeme.bwallet
 appCountry: 
-released: Nov 22, 2018
+released: 2018-11-22
 updated: 2019-05-22
 version: '1.27'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Youseeme
 features: 
 
 ---

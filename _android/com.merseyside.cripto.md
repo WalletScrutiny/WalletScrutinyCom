@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.merseyside.cripto
 appCountry: 
-released: Aug 20, 2018
+released: 2018-08-20
 updated: 2021-02-12
 version: '1.34'
 stars: 3.4
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Mersey Software
 features: 
 
 ---

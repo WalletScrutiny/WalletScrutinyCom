@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/Paratica
 - https://t.me/paratica 
 redirect_from: 
+developerName: Paratica
 features: 
 
 ---

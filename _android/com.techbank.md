@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.techbank
 appCountry: 
-released: Mar 16, 2022
+released: 2022-03-16
 updated: 2022-12-23
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BEE INTERNATIONAL CONSULTANCY PVT LTD
 features: 
 
 ---

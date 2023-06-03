@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.hujinsuo.gexio
 appCountry: 
-released: May 9, 2022
+released: 2022-05-09
 updated: 2022-05-09
 version: 1.4.2
 stars: 4.7
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

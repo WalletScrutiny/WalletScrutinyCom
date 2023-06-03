@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.zoid.geboapp
 appCountry: 
-released: May 12, 2021
+released: 2021-05-12
 updated: 2021-05-12
 version: 2.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.zoid.geboapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Zoid Domain Awareness, Inc
 features: 
 
 ---

@@ -7,12 +7,12 @@ authors:
 appId: capital.novum.CryptoHero
 appCountry: us
 idd: '1488574255'
-released: '2019-12-18T08:00:00Z'
-updated: 2023-03-16
-version: 2.1.1
+released: 2019-12-18
+updated: 2023-05-25
+version: 2.1.9
 stars: 3.6
 reviews: 21
-size: '90272768'
+size: '92114944'
 website: https://www.cryptohero.ai
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Novum Global Ventures Pte Ltd
 
 ---
 

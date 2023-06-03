@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.coinsvalue
 appCountry: 
-released: Sep 10, 2021
+released: 2021-09-10
 updated: 2021-11-07
 version: '1.3'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zezo Softwares Pvt. Ltd.
 features: 
 
 ---

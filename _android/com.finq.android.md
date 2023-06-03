@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.finq.android
 appCountry: 
-released: Oct 2, 2017
+released: 2017-10-02
 updated: 2023-01-12
 version: 2.5.0
 stars: 2.7
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: finqcom
 social: 
 redirect_from: 
+developerName: Leadcapital Corp LTD
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2022-11-04
 version: 2.5.1
 stars: 4.2
 ratings: 821
-reviews: 149
+reviews: 145
 size: 
 website: http://splashfactory.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.sf.monarch/
 - /posts/com.sf.monarch/
+developerName: Splash Factory
 features: 
 
 ---

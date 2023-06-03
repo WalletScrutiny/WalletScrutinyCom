@@ -7,7 +7,7 @@ authors:
 appId: bit.coin.Coindess
 appCountry: us
 idd: '1316631103'
-released: '2017-11-29T00:11:34Z'
+released: 2017-11-29
 updated: 2022-12-12
 version: 2.17.7
 stars: 5
@@ -29,6 +29,7 @@ social:
 - https://www.fiahub.com/blog/
 - https://www.linkedin.com/company/fiahub/
 features: 
+developerName: 
 
 ---
 

@@ -27,6 +27,7 @@ twitter: Cryptologyexch
 social:
 - https://www.facebook.com/Cryptologyexch
 features: 
+developerName: Cypher OU
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rinnas.pgold
 appCountry: 
-released: Apr 27, 2022
+released: 2022-04-27
 updated: 2022-06-07
 version: 1.0.12
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

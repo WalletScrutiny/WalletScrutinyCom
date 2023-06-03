@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.logmethod.hsr
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2022-02-18
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: HaloStar
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.Hmax.vip
 appCountry: 
-released: Sep 17, 2021
+released: 2021-09-17
 updated: 2021-10-07
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Lorena Barr
 features: 
 
 ---

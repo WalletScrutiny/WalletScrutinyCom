@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.blockchain.exchange
 appCountry: 
-released: Oct 27, 2021
-updated: 2023-04-27
-version: 202212.1.1
+released: 2021-10-27
+updated: 2023-05-08
+version: 202304.1.1
 stars: 4.4
 ratings: 
-reviews: 33
+reviews: 36
 size: 
 website: https://www.blockchain.com
 repository: 
@@ -28,6 +28,7 @@ twitter: blockchain
 social:
 - https://www.instagram.com/blockchainofficial
 redirect_from: 
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

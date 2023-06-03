@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-21
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 🥇 CryptWallet - Finance Services
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/decentralized-vision
 - https://www.facebook.com/PumaPayOfficial
 features: 
+developerName: Decentralized Vision Limited
 
 ---
 

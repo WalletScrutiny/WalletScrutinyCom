@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.lynengine.beautycryptowallet
 appCountry: 
-released: Jul 23, 2018
+released: 2018-07-23
 updated: 2018-08-29
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

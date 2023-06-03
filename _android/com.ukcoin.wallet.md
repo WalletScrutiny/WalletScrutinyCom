@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ukcoin.wallet
 appCountry: 
-released: Jul 16, 2020
+released: 2020-07-16
 updated: 2020-07-16
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: UKCOIN
 features: 
 
 ---

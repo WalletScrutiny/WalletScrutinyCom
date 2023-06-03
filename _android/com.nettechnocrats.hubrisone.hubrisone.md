@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.nettechnocrats.hubrisone.hubrisone
 appCountry: 
-released: Dec 13, 2018
+released: 2018-12-13
 updated: 2020-10-29
 version: 2.1.6
 stars: 3.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: HubrisOne Technologies
 features: 
 
 ---

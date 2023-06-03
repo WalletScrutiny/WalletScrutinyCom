@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ourpaywallet
 appCountry: 
-released: Feb 18, 2021
+released: 2021-02-18
 updated: 2021-02-22
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SAW SZE VINCE
 features: 
 
 ---

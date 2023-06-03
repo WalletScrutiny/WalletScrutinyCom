@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.digy
 appCountry: 
-released: May 16, 2021
+released: 2021-05-16
 updated: 2021-08-25
 version: 1.2.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DIGYCODE
 features: 
 
 ---

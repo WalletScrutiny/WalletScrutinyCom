@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.gemxx
 appCountry: 
-released: Oct 30, 2021
+released: 2021-10-30
 updated: 2022-05-11
 version: 1.0.1260
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

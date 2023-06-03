@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: net.appdevs.cryptodirect
 appCountry: 
-released: Mar 26, 2022
+released: 2022-03-26
 updated: 2022-04-04
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Modiba Jones
 features: 
 
 ---

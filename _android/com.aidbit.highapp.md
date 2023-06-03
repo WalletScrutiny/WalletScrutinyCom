@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.aidbit.highapp
 appCountry: 
-released: Jan 10, 2022
+released: 2022-01-10
 updated: 2022-02-23
 version: 1.2.4
 stars: 4.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.kingcrypto.android
 appCountry: 
-released: Oct 17, 2021
+released: 2021-10-17
 updated: 2021-11-17
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: King Crypto
 features: 
 
 ---

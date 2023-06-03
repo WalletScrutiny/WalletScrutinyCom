@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.exchange.speza
 appCountry: 
-released: Aug 7, 2019
+released: 2019-08-07
 updated: 2019-12-21
 version: 0.1.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SPEZA Inc
 features: 
 
 ---

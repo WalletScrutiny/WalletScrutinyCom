@@ -31,6 +31,7 @@ redirect_from:
 - /com.breez.client/
 - /posts/2019/12/breez/
 - /posts/com.breez.client/
+developerName: Breez Development LTD
 features:
 - ln
 

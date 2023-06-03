@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/tradearies
 - https://www.facebook.com/TradeAries
 features: 
+developerName: Aries Financial
 
 ---
 

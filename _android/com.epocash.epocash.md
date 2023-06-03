@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.epocash.epocash
 appCountry: 
-released: Sep 20, 2020
+released: 2020-09-20
 updated: 2020-10-21
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: EPO Cash
 features: 
 
 ---

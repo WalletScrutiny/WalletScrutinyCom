@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.polybius.osom
 appCountry: 
-released: Oct 2, 2019
+released: 2019-10-02
 updated: 2022-11-28
 version: 1.24.74
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Polybius Tech OÜ
 features: 
 
 ---

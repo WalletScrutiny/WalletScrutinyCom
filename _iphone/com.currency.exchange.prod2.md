@@ -11,7 +11,7 @@ released: 2019-04-23
 updated: 2023-02-09
 version: 1.36.2
 stars: 4.8
-reviews: 3388
+reviews: 3405
 size: '97994752'
 website: https://currency.com/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 features: 
+developerName: Currency Com Global LLC
 
 ---
 

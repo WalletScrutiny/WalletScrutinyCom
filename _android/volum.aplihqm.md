@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: volum.aplihqm
 appCountry: 
-released: Nov 20, 2021
+released: 2021-11-20
 updated: 2021-11-21
 version: '9.8'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: volum.aplihqm.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Eipol ST
 features: 
 
 ---

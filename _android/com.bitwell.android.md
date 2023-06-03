@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.bitwell.android
 appCountry: 
-released: Jul 10, 2020
+released: 2020-07-10
 updated: 2022-07-09
 version: 1.8.1
 stars: 3.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

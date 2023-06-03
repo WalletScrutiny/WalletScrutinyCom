@@ -7,12 +7,12 @@ authors:
 appId: com.banofinancial.app
 appCountry: au
 idd: '1562849570'
-released: '2021-05-13T07:00:00Z'
-updated: 2023-04-28
-version: 1.4.70
+released: 2021-05-13
+updated: 2023-05-23
+version: 1.4.80
 stars: 4
 reviews: 39
-size: '90701824'
+size: '90710016'
 website: https://bano.app
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/banosuperapp
 - https://www.linkedin.com/company/banoapp/
 features: 
+developerName: Bano Pty Ltd
 
 ---
 

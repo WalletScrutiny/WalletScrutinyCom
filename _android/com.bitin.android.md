@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bitin.android
 appCountry: 
-released: Mar 11, 2018
+released: 2018-03-11
 updated: 2022-02-11
 version: 2.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BITIN group
 features: 
 
 ---

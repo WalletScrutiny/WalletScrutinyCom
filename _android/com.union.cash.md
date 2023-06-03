@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.union.cash
 appCountry: 
-released: Jun 25, 2021
+released: 2021-06-25
 updated: 2023-04-27
 version: 1.2.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Union Cash
 features: 
 
 ---

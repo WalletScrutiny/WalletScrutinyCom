@@ -7,12 +7,12 @@ authors:
 appId: br.com.gorilainvest.mobileapp
 appCountry: us
 idd: '1447950043'
-released: '2019-01-27T14:35:53Z'
-updated: 2023-04-27
-version: 4.5.1
+released: 2019-01-27
+updated: 2023-05-24
+version: 5.0.0
 stars: 4.7
-reviews: 213
-size: '33055744'
+reviews: 215
+size: '35747840'
 website: https://gorila.com.br/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw
 - https://www.linkedin.com/company/gorila
 features: 
+developerName: GORILA DESENVOLVIMENTO CUSTOMIZACAO SOFTWARES INVESTIMENTO LTDA
 
 ---
 

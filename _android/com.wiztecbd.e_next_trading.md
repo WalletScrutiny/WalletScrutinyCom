@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.wiztecbd.e_next_trading
 appCountry: 
-released: Mar 18, 2022
+released: 2022-03-18
 updated: 2023-01-01
 version: 2.1.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.wiztecbd.e_next_trading.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Ginext
 features: 
 
 ---

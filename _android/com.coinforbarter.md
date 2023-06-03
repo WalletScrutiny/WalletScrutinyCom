@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.coinforbarter
 appCountry: 
-released: May 28, 2022
+released: 2022-05-28
 updated: 2022-05-28
 version: '2.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.coinforbarter.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CoinForBarter
 features: 
 
 ---

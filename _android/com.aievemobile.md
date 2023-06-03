@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.aievemobile
 appCountry: 
-released: Nov 13, 2018
+released: 2018-11-13
 updated: 2019-05-25
 version: '1.5'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AIEVE Ltd
 features: 
 
 ---

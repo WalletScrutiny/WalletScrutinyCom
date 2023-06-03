@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.centerprime.madi
 appCountry: 
-released: May 17, 2021
+released: 2021-05-17
 updated: 2021-06-02
 version: 1.0.2
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.centerprime.madi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CenterPrime Ltd
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.empesa.e_mpesaexchange
 appCountry: 
-released: Feb 28, 2020
+released: 2020-02-28
 updated: 2020-02-28
 version: '1.1'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.empesa.e_mpesaexchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BH Enterprises
 features: 
 
 ---

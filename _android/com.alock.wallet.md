@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.alock.wallet
 appCountry: 
-released: Jul 26, 2021
+released: 2021-07-26
 updated: 2022-05-30
 version: 4.3.11
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

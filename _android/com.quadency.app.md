@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.quadency.app
 appCountry: 
-released: Oct 24, 2021
+released: 2021-10-24
 updated: 2023-03-06
 version: 1.6.0
 stars: 2.3
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/quadency
 - https://t.me/quadency 
 redirect_from: 
+developerName: Quadency
 features: 
 
 ---

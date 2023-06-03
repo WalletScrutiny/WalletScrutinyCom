@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
 features: 
+developerName: Bitpeza Technology Limited
 
 ---
 

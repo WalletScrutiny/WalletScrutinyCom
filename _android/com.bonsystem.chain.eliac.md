@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.bonsystem.chain.eliac
 appCountry: 
-released: Mar 25, 2022
+released: 2022-03-25
 updated: 2022-04-05
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: c&hsoft
 features: 
 
 ---

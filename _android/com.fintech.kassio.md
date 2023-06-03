@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.fintech.kassio
 appCountry: 
-released: Feb 18, 2022
+released: 2022-02-18
 updated: 2023-03-24
 version: 2.2.5
 stars: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/kassionetwork/
 - https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 redirect_from: 
+developerName: Digital Pung ApS
 features: 
 
 ---

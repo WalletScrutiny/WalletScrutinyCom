@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.payble
 appCountry: 
-released: Jan 7, 2018
+released: 2018-01-07
 updated: 2021-03-01
 version: 2.1.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Payble
 features: 
 
 ---

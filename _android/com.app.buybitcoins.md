@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 'Fetch - Local Pet Marketplace by : Darryl McGee'
 features: 
 
 ---

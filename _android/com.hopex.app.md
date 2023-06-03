@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hopex.app
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2021-10-25
 version: 3.17.27
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

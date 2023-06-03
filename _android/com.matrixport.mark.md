@@ -8,8 +8,8 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2023-04-29
-version: 1.9.0
+updated: 2023-05-12
+version: 1.9.1
 stars: 4.1
 ratings: 1103
 reviews: 897
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/matrixport
 - https://www.reddit.com/r/Matrixport
 redirect_from: 
+developerName: Matrixport Technologies Ltd
 features: 
 
 ---

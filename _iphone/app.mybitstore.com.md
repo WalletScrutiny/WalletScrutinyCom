@@ -7,12 +7,12 @@ authors:
 appId: app.mybitstore.com
 appCountry: us
 idd: '1579519877'
-released: '2021-08-12T07:00:00Z'
-updated: 2023-02-11
-version: 2.8.9
+released: 2021-08-12
+updated: 2023-05-19
+version: 2.8.91
 stars: 4.7
-reviews: 332
-size: '28082176'
+reviews: 348
+size: '45472768'
 website: 
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://instagram.com/mybitstore_app/
 - https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw
 features: 
+developerName: MyBitStore Limited
 
 ---
 

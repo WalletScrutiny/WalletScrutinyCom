@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zeux
 - https://www.facebook.com/Zeuxglobal
 redirect_from: 
+developerName: Zeux Ltd
 features: 
 
 ---

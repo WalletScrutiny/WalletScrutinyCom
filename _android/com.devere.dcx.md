@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.devere.dcx
 appCountry: 
-released: Jan 29, 2018
+released: 2018-01-29
 updated: 2023-04-20
 version: 4.4.0
 stars: 3.9
@@ -28,6 +28,7 @@ twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070
 redirect_from: 
+developerName: deVere Group
 features: 
 
 ---

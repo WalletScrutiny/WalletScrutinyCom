@@ -29,6 +29,7 @@ twitter: TokenizeM
 social:
 - https://www.facebook.com/tokenizemalaysia
 redirect_from: 
+developerName: 
 features: 
 
 ---

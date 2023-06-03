@@ -7,7 +7,7 @@ authors:
 appId: com.icrypex.mobile
 appCountry: us
 idd: '1571270449'
-released: '2021-07-07T07:00:00Z'
+released: 2021-07-07
 updated: 2022-11-01
 version: '2.1'
 stars: 5
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 features: 
+developerName: 
 
 ---
 

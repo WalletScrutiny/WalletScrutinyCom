@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: coinvest.investment
 appCountry: 
-released: Dec 12, 2020
+released: 2020-12-12
 updated: 2020-12-18
 version: '9.8'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MTB SMARTNET
 features: 
 
 ---

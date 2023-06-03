@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/richamstercom
 - https://t.me/richamster_chat 
 redirect_from: 
+developerName: Richamster
 features: 
 
 ---

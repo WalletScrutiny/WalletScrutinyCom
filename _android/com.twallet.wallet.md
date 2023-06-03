@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.twallet.wallet
 appCountry: 
-released: Jul 13, 2021
+released: 2021-07-13
 updated: 2021-07-13
 version: 0.22.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: clambiz
 features: 
 
 ---

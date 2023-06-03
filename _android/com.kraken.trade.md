@@ -8,11 +8,11 @@ users: 1000000
 appId: com.kraken.trade
 appCountry: 
 released: 2019-10-24
-updated: 2023-04-24
-version: 2.32.1
+updated: 2023-05-17
+version: 2.35.0
 stars: 4.5
 ratings: 25287
-reviews: 3017
+reviews: 3025
 size: 
 website: https://www.kraken.com
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.kraken.trade/
 - /posts/com.kraken.trade/
+developerName: Payward, Inc.
 features:
 - ln
 

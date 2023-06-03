@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.coinzo.app
 appCountry: 
-released: Feb 24, 2021
+released: 2021-02-24
 updated: 2021-05-11
 version: 1.0.1
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Coinzo
 features: 
 
 ---

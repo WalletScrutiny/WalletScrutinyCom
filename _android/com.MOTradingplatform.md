@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.MOTradingplatform
 appCountry: 
-released: Jul 31, 2020
+released: 2020-07-31
 updated: 2020-08-07
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 1minuteoptions
 features: 
 
 ---

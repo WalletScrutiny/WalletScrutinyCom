@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.btckorea.bithumb.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-25
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
 features: 
+developerName: Bithumb Korea Co., Ltd.
 
 ---
 

@@ -27,6 +27,7 @@ twitter: Blockfolio
 social:
 - https://www.facebook.com/Blockfolio
 features: 
+developerName: 
 
 ---
 

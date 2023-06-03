@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.taotao_ex.android
 appCountry: 
-released: May 29, 2019
+released: 2019-05-29
 updated: 2023-04-12
 version: 3.7.0
 stars: 
@@ -28,6 +28,7 @@ twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg
 redirect_from: 
+developerName: SBI VC Trade Co., Ltd.
 features: 
 
 ---

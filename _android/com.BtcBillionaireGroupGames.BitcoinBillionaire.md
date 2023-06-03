@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.BtcBillionaireGroupGames.BitcoinBillionaire
 appCountry: 
-released: Mar 21, 2022
+released: 2022-03-21
 updated: 2022-03-21
 version: '0.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

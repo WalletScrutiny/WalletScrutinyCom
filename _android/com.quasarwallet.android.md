@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.quasarwallet.android
 appCountry: 
-released: Apr 5, 2022
+released: 2022-04-05
 updated: 2022-04-05
 version: '1.2'
 stars: 2.5
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/reflextoken
 - https://www.instagram.com/reflextoken
 redirect_from: 
+developerName: ReflexToken
 features: 
 
 ---

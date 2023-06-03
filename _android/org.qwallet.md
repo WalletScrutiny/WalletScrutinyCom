@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: org.qwallet
 appCountry: 
-released: Jun 5, 2019
+released: 2019-06-05
 updated: 2019-06-06
 version: 0.1.4
 stars: 4
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: QPay Global
 features: 
 
 ---

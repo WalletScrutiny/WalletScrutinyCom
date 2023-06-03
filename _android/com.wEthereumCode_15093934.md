@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.wEthereumCode_15093934
 appCountry: 
-released: Jan 28, 2022
+released: 2022-01-28
 updated: 2022-01-28
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: mypatternappstudio
 features: 
 
 ---

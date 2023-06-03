@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.sanctuaryex.wallet
 appCountry: 
-released: May 10, 2021
+released: 2021-05-10
 updated: 2022-09-02
 version: 2.0.16
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Sanctuary Dex Corp.
 features: 
 
 ---

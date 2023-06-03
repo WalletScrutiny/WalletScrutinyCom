@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.p95g.trade
 appCountry: 
-released: Sep 10, 2019
+released: 2019-09-10
 updated: 2020-03-10
 version: 1.5.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Point95 Global
 features: 
 
 ---

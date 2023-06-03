@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.chainup.exchange.BITBE
 appCountry: 
-released: Oct 13, 2021
+released: 2021-10-13
 updated: 2021-10-13
 version: 5.3.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: KKOrange
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.yawa
 appCountry: 
-released: Apr 14, 2021
+released: 2021-04-14
 updated: 2021-04-21
 version: 1.0.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Viktor Yandolin
 features: 
 
 ---

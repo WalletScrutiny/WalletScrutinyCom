@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: air.SmartTerminal4
 appCountry: 
-released: Jul 28, 2019
+released: 2019-07-28
 updated: 2019-09-08
 version: '0_43'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DieGOplay
 features: 
 
 ---

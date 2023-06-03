@@ -6,7 +6,7 @@ authors:
 users: 50000
 appId: com.bitturkmobile.android
 appCountry: 
-released: Apr 5, 2019
+released: 2019-04-05
 updated: 2022-02-08
 version: '1.21'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
 features: 
 
 ---

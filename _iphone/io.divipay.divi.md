@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/DiviProject
 - https://github.com/DiviProject
 features: 
+developerName: Qbito Technologies S.A.
 
 ---
 

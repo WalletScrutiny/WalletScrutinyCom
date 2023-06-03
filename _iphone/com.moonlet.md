@@ -27,6 +27,7 @@ twitter: moonlet_wallet
 social:
 - https://github.com/Moonlet
 features: 
+developerName: Moonlet
 
 ---
 

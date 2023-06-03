@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.agea.trade
 appCountry: 
-released: Jan 21, 2020
+released: 2020-01-21
 updated: 2020-08-26
 version: '1.3'
 stars: 3.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AGEA International AD
 features: 
 
 ---

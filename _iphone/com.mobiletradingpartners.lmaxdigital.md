@@ -7,7 +7,7 @@ authors:
 appId: com.mobiletradingpartners.lmaxdigital
 appCountry: us
 idd: '1375900638'
-released: '2018-06-11T05:42:19Z'
+released: 2018-06-11
 updated: 2023-03-29
 version: 4.4.120
 stars: 0
@@ -27,6 +27,7 @@ twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group
 features: 
+developerName: LMAX DIGITAL EXCHANGE LIMITED
 
 ---
 

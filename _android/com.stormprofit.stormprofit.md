@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.stormprofit.stormprofit
 appCountry: 
-released: Sep 17, 2021
+released: 2021-09-17
 updated: 2021-09-17
 version: '1.0'
 stars: 1.7
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.stormprofit.stormprofit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-10-21
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: StormProfit
 features: 
 
 ---

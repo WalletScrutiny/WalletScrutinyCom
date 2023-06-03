@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: intowin.co.kr.p2coin
 appCountry: 
-released: Aug 30, 2018
+released: 2018-08-30
 updated: 2018-08-31
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Goodbit Korea
 features: 
 
 ---

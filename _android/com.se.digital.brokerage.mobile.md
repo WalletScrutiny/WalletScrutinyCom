@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.se.digital.brokerage.mobile
 appCountry: 
-released: Dec 8, 2021
-updated: 2023-04-11
-version: 2.0.3
+released: 2021-12-08
+updated: 2023-05-08
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://page.line.me/xspringdigital
 - https://www.linkedin.com/company/xspring/
 redirect_from: 
+developerName: XSpring Digital Co., Ltd.
 features: 
 
 ---

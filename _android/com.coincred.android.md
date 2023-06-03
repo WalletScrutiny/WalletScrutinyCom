@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.coincred.android
 appCountry: 
-released: Sep 1, 2021
+released: 2021-09-01
 updated: 2023-03-01
 version: 2.1.2
 stars: 4.8
 ratings: 
-reviews: 89
+reviews: 69
 size: 
 website: https://coincred.org/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
 redirect_from: 
+developerName: CoinCRED
 features: 
 
 ---

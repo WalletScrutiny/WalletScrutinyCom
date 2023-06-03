@@ -11,7 +11,7 @@ released: 2019-10-21
 updated: 2023-02-21
 version: 4.2.1
 stars: 4.6
-reviews: 6534
+reviews: 6537
 size: '30977024'
 website: https://bitbuy.ca/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
 features: 
+developerName: Bitbuy Inc
 
 ---
 

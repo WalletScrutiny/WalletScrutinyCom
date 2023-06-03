@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.appswedo.cryptomakemoney
 appCountry: 
-released: May 19, 2021
+released: 2021-05-19
 updated: 2021-05-19
 version: '1.11'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.appswedo.cryptomakemoney.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AppsWeDo
 features: 
 
 ---

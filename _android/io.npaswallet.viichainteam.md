@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.npaswallet.viichainteam
 appCountry: 
-released: Feb 25, 2022
+released: 2022-02-25
 updated: 2022-07-07
 version: 3.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: NPAS Wallet
 features: 
 
 ---

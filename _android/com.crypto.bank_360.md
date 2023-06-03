@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.crypto.bank_360
 appCountry: 
-released: Apr 18, 2022
+released: 2022-04-18
 updated: 2022-04-19
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: RYDEUM Technologies, Inc.
 features: 
 
 ---

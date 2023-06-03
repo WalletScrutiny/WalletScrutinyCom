@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/quppyPay
 redirect_from:
 - /com.quppy/
+developerName: Quppy Europe OU
 features: 
 
 ---

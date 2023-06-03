@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.libertypool.lpx
 appCountry: 
-released: Jan 1, 2020
+released: 2020-01-01
 updated: 2020-01-01
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Libertypool
 features: 
 
 ---

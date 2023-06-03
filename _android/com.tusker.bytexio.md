@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.tusker.bytexio
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-11-25
 version: 1.0.9
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ByteX Financial LTD.
 features: 
 
 ---

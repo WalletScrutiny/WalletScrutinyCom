@@ -12,7 +12,7 @@ updated: 2022-11-25
 version: 1.11.25
 stars: 4.2
 ratings: 
-reviews: 11
+reviews: 13
 size: 
 website: https://lachain.io
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: LATOKEN
 features: 
 
 ---

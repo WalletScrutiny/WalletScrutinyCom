@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.duniapay.africa
 appCountry: 
-released: Oct 2, 2019
+released: 2019-10-02
 updated: 2022-03-29
 version: 3.0.9
 stars: 4.6
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/TeamDunia/
 - https://www.youtube.com/channel/UCPJXe02QbAg3906lfr4pXzw
 redirect_from: 
+developerName: Dunia
 features: 
 
 ---

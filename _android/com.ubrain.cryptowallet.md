@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.ubrain.cryptowallet
 appCountry: 
-released: Apr 22, 2022
+released: 2022-04-22
 updated: 2023-04-18
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Skyclones
 features: 
 
 ---

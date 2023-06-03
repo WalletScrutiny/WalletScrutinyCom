@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.project.cryptobank
 appCountry: 
-released: May 27, 2021
+released: 2021-05-27
 updated: 2021-06-02
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

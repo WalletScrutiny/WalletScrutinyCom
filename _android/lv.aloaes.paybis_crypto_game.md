@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: lv.aloaes.paybis_crypto_game
 appCountry: 
-released: Jun 1, 2022
+released: 2022-06-01
 updated: 2022-06-01
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: cl
 released: 2015-05-22
 updated: 2023-04-07
 version: 2.32.0
-stars: 3.3
+stars: 3.1
 ratings: 77624
-reviews: 1110
+reviews: 1106
 size: 
 website: https://libertex.org
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: libertex_latam
 social: 
 redirect_from: 
+developerName: Libertex International Company Limited
 features: 
 
 ---

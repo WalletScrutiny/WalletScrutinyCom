@@ -1,15 +1,15 @@
 ---
 wsId: iCrypex
-title: 'ICRYPEX: Bitcoin Al Sat'
+title: 'ICRYPEX: Buy and Sell Bitcoin'
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
-released: Sep 2, 2021
-updated: 2023-03-11
-version: 1.6.2
+released: 2021-09-02
+updated: 2023-05-24
+version: '8.1'
 stars: 4.3
 ratings: 
 reviews: 6
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 redirect_from: 
+developerName: ICRYPEX BILISIM ANONIM SIRKETI
 features: 
 
 ---

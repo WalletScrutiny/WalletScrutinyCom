@@ -7,7 +7,7 @@ authors:
 appId: com.coinlib.coinlib
 appCountry: us
 idd: '1413265839'
-released: '2018-07-30T03:22:22Z'
+released: 2018-07-30
 updated: 2018-07-30
 version: '1.0'
 stars: 3.7
@@ -27,6 +27,7 @@ twitter: coinlibio
 social:
 - https://www.facebook.com/coinlib/
 features: 
+developerName: Eran Mei Tal
 
 ---
 

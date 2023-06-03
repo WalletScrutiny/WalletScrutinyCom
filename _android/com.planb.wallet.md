@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.planb.wallet
 appCountry: 
-released: Jul 8, 2021
+released: 2021-07-08
 updated: 2021-09-14
 version: 1.1.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: PlanB Wallet Developers
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.blockbyte.mobile
 appCountry: 
-released: Apr 5, 2021
+released: 2021-04-05
 updated: 2021-04-05
 version: 2.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: slmaicon
 features: 
 
 ---

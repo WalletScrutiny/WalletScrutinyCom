@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.bitlink.smarttrade
 appCountry: 
-released: May 4, 2021
+released: 2021-05-04
 updated: 2021-05-05
 version: 1.2.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitflash.exchange
 appCountry: 
-released: Apr 7, 2022
+released: 2022-04-07
 updated: 2022-04-28
 version: '4.0'
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitflash Cryptocurrency Exchange
 features: 
 
 ---

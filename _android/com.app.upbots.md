@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.upbots
 appCountry: 
-released: Dec 14, 2021
+released: 2021-12-14
 updated: 2022-02-25
 version: 1.9.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Upbots Gmbh
 features: 
 
 ---

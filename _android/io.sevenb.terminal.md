@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/SevenBbroker
 - https://www.reddit.com/r/SevenB_roker
 redirect_from: 
+developerName: Stash Tech Solutions Limited
 features: 
 
 ---

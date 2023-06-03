@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.app.ringworld
 appCountry: 
-released: Feb 26, 2022
+released: 2022-02-26
 updated: 2022-02-27
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: LGA SOFT USA
 features: 
 
 ---

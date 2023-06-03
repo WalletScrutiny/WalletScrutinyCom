@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.sendVillageHQ.comi_block
 appCountry: 
-released: Sep 11, 2022
+released: 2022-09-11
 updated: 2022-11-05
 version: 1.1.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ComiBlock Capital
 features: 
 
 ---

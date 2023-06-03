@@ -10,8 +10,8 @@ idd: 1112839581
 released: 2016-05-20
 updated: 2023-03-24
 version: 7.43.0
-stars: 4.3
-reviews: 29
+stars: 4.2
+reviews: 30
 size: '79804416'
 website: https://lykke.com/wallet
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/LykkeCity
 - https://www.reddit.com/r/lykke
 features: 
+developerName: Lykke Corp
 
 ---
 

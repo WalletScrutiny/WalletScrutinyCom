@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: app.bitafrika.com
 appCountry: GH
-released: Jul 19, 2021
-updated: 2023-04-05
-version: 4.3.1
-stars: 3.9
+released: 2021-07-19
+updated: 2023-05-28
+version: 4.4.6
+stars: 3.8
 ratings: 
-reviews: 105
+reviews: 113
 size: 
 website: https://bitafrika.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 redirect_from: 
+developerName: Ubuntu Labs
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.fido.wallet
 appCountry: 
-released: Mar 1, 2022
+released: 2022-03-01
 updated: 2022-07-12
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

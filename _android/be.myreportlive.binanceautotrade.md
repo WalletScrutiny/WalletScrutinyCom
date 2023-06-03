@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: be.myreportlive.binanceautotrade
 appCountry: 
-released: May 30, 2021
+released: 2021-05-30
 updated: 2022-05-26
 version: 1.0.32
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

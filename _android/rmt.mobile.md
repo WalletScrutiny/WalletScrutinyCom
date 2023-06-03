@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: rmt.mobile
 appCountry: 
-released: May 19, 2020
+released: 2020-05-19
 updated: 2020-05-19
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: RMTKOR
 features: 
 
 ---

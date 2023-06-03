@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.stablex
 appCountry: 
-released: Oct 27, 2021
-updated: 2023-04-27
-version: 2.3.15
+released: 2021-10-27
+updated: 2023-05-10
+version: 2.3.17
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Stablex Bilişim
 features: 
 
 ---

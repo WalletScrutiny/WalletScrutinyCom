@@ -7,7 +7,7 @@ authors:
 appId: app.xif.com
 appCountry: us
 idd: '1401101777'
-released: '2018-07-28T23:07:12Z'
+released: 2018-07-28
 updated: 2021-06-15
 version: 5.2.2b270
 stars: 5
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/xinfinityholding/
 features: 
+developerName: X-Inifinity
 
 ---
 

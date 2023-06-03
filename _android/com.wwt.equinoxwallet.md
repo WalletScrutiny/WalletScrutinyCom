@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.wwt.equinoxwallet
 appCountry: 
-released: Nov 17, 2021
+released: 2021-11-17
 updated: 2022-05-09
 version: 3.40.9
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

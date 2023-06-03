@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.godsend.app
 appCountry: 
-released: Jan 24, 2022
+released: 2022-01-24
 updated: 2022-02-21
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Godsend Vip
 features: 
 
 ---

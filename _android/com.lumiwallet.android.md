@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-15
 updated: 2022-09-26
 version: 4.1.5
-stars: 4.5
+stars: 4.2
 ratings: 6388
-reviews: 283
+reviews: 281
 size: 
 website: https://lumiwallet.com
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
+developerName: LUMI SOFTWARE LTD
 features: 
 
 ---

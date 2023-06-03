@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: www.coindhan.com
 appCountry: 
-released: Sep 5, 2021
+released: 2021-09-05
 updated: 2023-03-06
 version: '1.0'
 stars: 
@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/channel/UCAPICkLqsUx1qTPa1RPQVUw
 - https://www.reddit.com/user/Coin_Dhan/
 redirect_from: 
+developerName: Wollfish Labs Private Limited
 features: 
 
 ---

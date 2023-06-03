@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.veroxai
 appCountry: 
-released: Dec 19, 2021
+released: 2021-12-19
 updated: 2022-04-12
 version: '2.3'
 stars: 3.8
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

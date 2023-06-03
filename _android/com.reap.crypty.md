@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.reap.crypty
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2022-07-28
 version: 1.4.0
 stars: 4.9
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Tech360Zone
 features: 
 
 ---

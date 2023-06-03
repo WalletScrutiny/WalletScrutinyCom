@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.lotuscfd.app
 appCountry: 
-released: Sep 28, 2019
+released: 2019-09-28
 updated: 2019-09-25
 version: 1.0.14
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CITFRIX
 features: 
 
 ---

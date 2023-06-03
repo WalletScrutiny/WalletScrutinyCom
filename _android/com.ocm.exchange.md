@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.ocm.exchange
 appCountry: 
-released: Feb 22, 2022
+released: 2022-02-22
 updated: 2022-03-22
 version: '1.01'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: OCMX
 features: 
 
 ---

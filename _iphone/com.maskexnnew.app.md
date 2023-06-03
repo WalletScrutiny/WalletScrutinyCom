@@ -7,12 +7,12 @@ authors:
 appId: com.maskexnnew.app
 appCountry: us
 idd: '1600880394'
-released: '2021-12-22T08:00:00Z'
-updated: 2023-04-21
-version: 2.0.4
+released: 2021-12-22
+updated: 2023-05-23
+version: 2.0.5
 stars: 5
 reviews: 5
-size: '73736192'
+size: '73978880'
 website: https://maskex.com/en
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://t.me/maskextg
 - https://www.linkedin.com/company/maskex-global/
 features: 
+developerName: Mask Global Market Co., Ltd
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: app.xpay.tehranramzarz
 appCountry: 
-released: Oct 5, 2019
+released: 2019-10-05
 updated: 2019-11-11
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: charset
 features: 
 
 ---

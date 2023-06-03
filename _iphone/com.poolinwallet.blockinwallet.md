@@ -27,6 +27,7 @@ twitter: PoolinWallet
 social:
 - https://www.linkedin.com/company/poolinwallet
 features: 
+developerName: POOLIN TECHNOLOGY PTE.LTD.
 
 ---
 

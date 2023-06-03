@@ -12,7 +12,7 @@ updated: 2020-10-13
 version: '1.01'
 stars: 4.5
 ratings: 110
-reviews: 14
+reviews: 15
 size: 
 website: 
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ATMwallet
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.wSryptoGenius_15089239
 appCountry: 
-released: Jan 27, 2022
+released: 2022-01-27
 updated: 2022-01-27
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.JavaWallet
 appCountry: 
-released: Dec 23, 2020
+released: 2020-12-23
 updated: 2021-02-05
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Java wallet Technologies
 features: 
 
 ---

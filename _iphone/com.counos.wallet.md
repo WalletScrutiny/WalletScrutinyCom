@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/counosplatform
 - https://www.facebook.com/CounosPlatform
 features: 
+developerName: CSC Int GmbH
 
 ---
 

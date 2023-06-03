@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.wBitcoinPrime_15557726
 appCountry: 
-released: May 26, 2022
+released: 2022-05-26
 updated: 2022-05-26
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BTC Prime
 features: 
 
 ---

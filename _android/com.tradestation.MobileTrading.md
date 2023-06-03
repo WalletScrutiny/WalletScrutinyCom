@@ -12,7 +12,7 @@ updated: 2023-02-27
 version: 5.0.12
 stars: 3.9
 ratings: 4823
-reviews: 1744
+reviews: 1750
 size: 
 website: http://tradestation.com/contact-us/
 repository: 
@@ -28,6 +28,7 @@ twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
 redirect_from: 
+developerName: TradeStation Technologies
 features: 
 
 ---

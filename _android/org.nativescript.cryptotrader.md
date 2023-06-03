@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.nativescript.cryptotrader
 appCountry: 
-released: Feb 13, 2019
+released: 2019-02-13
 updated: 2019-04-04
 version: '0.17'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Christian Arnold
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: excoinge.excoinge
 appCountry: 
-released: Dec 4, 2017
+released: 2017-12-04
 updated: 2018-05-13
 version: '1.020180512'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Excoinge Ecommerce
 features: 
 
 ---

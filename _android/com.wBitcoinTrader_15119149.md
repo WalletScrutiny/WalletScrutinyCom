@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.wBitcoinTrader_15119149
 appCountry: 
-released: Feb 2, 2022
+released: 2022-02-02
 updated: 2022-02-02
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

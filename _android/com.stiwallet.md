@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.stiwallet
 appCountry: 
-released: Mar 9, 2021
+released: 2021-03-09
 updated: 2021-04-13
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 아토유니버스
 features: 
 
 ---

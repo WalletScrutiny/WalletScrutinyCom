@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.hashfinanciero.prod
 appCountry: 
-released: Feb 8, 2020
+released: 2020-02-08
 updated: 2020-02-08
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DevPala
 features: 
 
 ---

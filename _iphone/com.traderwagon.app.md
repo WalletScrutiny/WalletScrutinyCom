@@ -7,12 +7,12 @@ authors:
 appId: com.traderwagon.app
 appCountry: sg
 idd: '1605104202'
-released: '2022-02-21T08:00:00Z'
-updated: 2023-04-27
-version: 1.6.0
+released: 2022-02-21
+updated: 2023-05-24
+version: 1.7.1
 stars: 5
-reviews: 4
-size: '111950848'
+reviews: 6
+size: '112915456'
 website: https://www.traderwagon.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: traderwagon
 social: 
 features: 
+developerName: TraderWagon Ltd
 
 ---
 

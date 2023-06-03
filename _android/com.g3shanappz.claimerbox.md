@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.g3shanappz.claimerbox
 appCountry: 
-released: Jun 19, 2020
+released: 2020-06-19
 updated: 2020-06-19
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

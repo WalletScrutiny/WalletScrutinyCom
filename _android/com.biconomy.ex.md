@@ -1,15 +1,15 @@
 ---
 wsId: biconomy
-title: 'Biconomy: Buy Bitcoin & Crypto'
+title: 'Biconomy: Bitcoin, ETH &Crypto'
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.biconomy.ex
 appCountry: 
-released: Jan 14, 2020
-updated: 2023-04-03
-version: 2.1.13
+released: 2020-01-14
+updated: 2023-05-24
+version: 2.1.18
 stars: 3.8
 ratings: 
 reviews: 52
@@ -31,6 +31,7 @@ social:
 - https://biconomycom.medium.com/
 - https://www.youtube.com/c/BiconomyGlobal
 redirect_from: 
+developerName: Biconomy
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.coinsliberty.wallet
 appCountry: 
-released: Dec 21, 2020
+released: 2020-12-21
 updated: 2021-02-02
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Captiva Cay Platforms
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitfxt.boundlesspay
 appCountry: 
-released: Sep 19, 2021
+released: 2021-09-19
 updated: 2023-04-18
 version: 2.1.5
 stars: 4.7
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/boundlesspayofficial/
 - https://www.linkedin.com/company/boundlesspayofficial/
 redirect_from: 
+developerName: Boundless Nexus
 features: 
 
 ---

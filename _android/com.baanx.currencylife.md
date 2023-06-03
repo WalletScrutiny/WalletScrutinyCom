@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.baanx.currencylife
 appCountry: 
-released: Feb 6, 2020
+released: 2020-02-06
 updated: 2021-02-26
 version: 1.4.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

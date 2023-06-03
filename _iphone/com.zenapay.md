@@ -7,7 +7,7 @@ authors:
 appId: com.zenapay
 appCountry: us
 idd: '1292806306'
-released: '2017-10-26T21:04:54Z'
+released: 2017-10-26
 updated: 2021-12-07
 version: '4.7'
 stars: 4.9
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zenapay1/about/
 - https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
 features: 
+developerName: Epazz
 
 ---
 

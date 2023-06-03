@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.ixxgoogle_android
 appCountry: 
-released: Sep 23, 2021
+released: 2021-09-23
 updated: 2021-11-16
 version: 2.3.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: IXX
 features: 
 
 ---

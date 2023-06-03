@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: trade.nexus.mobile
 appCountry: 
-released: Sep 21, 2021
+released: 2021-09-21
 updated: 2022-10-07
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Nexus Markets LLC
 features: 
 
 ---

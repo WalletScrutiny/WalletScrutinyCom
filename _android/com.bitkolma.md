@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.bitkolma
 appCountry: 
-released: Jan 21, 2021
+released: 2021-01-21
 updated: 2021-01-21
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Og Software Solutions
 features: 
 
 ---

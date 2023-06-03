@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Anycoin.cz: Směnárna kryptoměn'
+title: 'Anycoin.cz: Crypto exchange'
 altTitle: 
 authors: 
 users: 5000
 appId: cz.anycoin.mobile
 appCountry: 
-released: May 7, 2022
-updated: 2023-04-14
-version: 1.21.1
+released: 2022-05-07
+updated: 2023-05-06
+version: 1.23.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MP Developers s.r.o.
 features: 
 
 ---

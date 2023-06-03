@@ -8,8 +8,8 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2023-04-29
-version: 4.3.2
+updated: 2023-05-27
+version: 4.4.8
 stars: 4.2
 ratings: 46866
 reviews: 369
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: vncd_official
 social: 
 redirect_from: 
+developerName: ONUS FINANCE UAB
 features: 
 
 ---

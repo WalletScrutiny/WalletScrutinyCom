@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.aeio.incoin
 appCountry: 
-released: May 17, 2021
+released: 2021-05-17
 updated: 2021-05-14
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.aeio.incoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Fei2021
 features: 
 
 ---

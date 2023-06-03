@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: io.kompasswallet
 appCountry: 
-released: Dec 19, 2020
+released: 2020-12-19
 updated: 2021-03-20
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: KOMPASSWALLET
 features: 
 
 ---

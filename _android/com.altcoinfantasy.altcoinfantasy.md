@@ -29,6 +29,7 @@ twitter: altcoinfantasy
 social:
 - https://www.facebook.com/altcoinfantasy
 redirect_from: 
+developerName: Altcoin Fantasy Limited
 features: 
 
 ---

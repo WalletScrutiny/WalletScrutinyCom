@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.bixter.twa
 appCountry: 
-released: Dec 19, 2020
+released: 2020-12-19
 updated: 2020-12-07
 version: '1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BIXTER.ORG
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.xensorbox
 appCountry: 
-released: Sep 27, 2019
+released: 2019-09-27
 updated: 2019-12-02
 version: 1.3.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: xenix studio
 features: 
 
 ---

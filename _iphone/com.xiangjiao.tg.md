@@ -7,7 +7,7 @@ authors:
 appId: com.xiangjiao.tg
 appCountry: kr
 idd: '1491126681'
-released: '2019-12-23T08:00:00Z'
+released: 2019-12-23
 updated: 2022-09-02
 version: 4.3.0
 stars: 4.1
@@ -29,6 +29,7 @@ social:
 - https://medium.com/bananatok
 - https://www.instagram.com/bananatok_official/
 features: 
+developerName: 
 
 ---
 

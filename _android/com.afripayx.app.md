@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.afripayx.app
 appCountry: 
-released: Jan 4, 2022
+released: 2022-01-04
 updated: 2022-04-21
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: TAJIRI Project
 features: 
 
 ---

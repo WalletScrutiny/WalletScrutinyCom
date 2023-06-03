@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.app.exchanger12
 appCountry: 
-released: Mar 27, 2021
+released: 2021-03-27
 updated: 2021-03-27
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

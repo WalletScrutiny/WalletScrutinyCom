@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: my.service.cryptonx
 appCountry: 
-released: Sep 28, 2021
+released: 2021-09-28
 updated: 2021-09-28
 version: '1.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptonX - Wallet
 features: 
 
 ---

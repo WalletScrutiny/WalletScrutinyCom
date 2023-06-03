@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.EkoWallet
 appCountry: 
-released: Feb 23, 2023
+released: 2023-02-23
 updated: 2023-02-23
 version: 1.0.13
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ekowallet.com
 features: 
 
 ---

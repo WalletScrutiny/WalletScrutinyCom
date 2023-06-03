@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: mobile.cryptoscanner.com.cryptoscanner
 appCountry: 
-released: Jul 10, 2018
+released: 2018-07-10
 updated: 2020-05-14
 version: '1.2'
 stars: 4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.dhruvar.bitsmoney
 appCountry: 
-released: Sep 14, 2021
+released: 2021-09-14
 updated: 2021-09-23
 version: 3.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: fd
 features: 
 
 ---

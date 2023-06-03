@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.quintex.wallet
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-05-28
 version: 1.0.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.quintex.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Quintex Network
 features: 
 
 ---

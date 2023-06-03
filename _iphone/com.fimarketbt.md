@@ -7,7 +7,7 @@ authors:
 appId: com.fimarketbt
 appCountry: us
 idd: '1573381060'
-released: '2021-08-19T07:00:00Z'
+released: 2021-08-19
 updated: 2022-04-20
 version: '5.8'
 stars: 3
@@ -27,6 +27,7 @@ twitter: fmcpay
 social:
 - https://www.facebook.com/fmcpay/
 features: 
+developerName: FUINRE, INC
 
 ---
 

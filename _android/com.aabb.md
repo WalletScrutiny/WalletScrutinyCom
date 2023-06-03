@@ -27,6 +27,7 @@ reviewArchive:
 twitter: AsiaBroadband
 social: 
 redirect_from: 
+developerName: AABB Gold Token
 features: 
 
 ---

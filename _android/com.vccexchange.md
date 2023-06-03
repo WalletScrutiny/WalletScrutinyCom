@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.vccexchange
 appCountry: 
-released: Dec 12, 2019
+released: 2019-12-12
 updated: 2021-10-06
 version: 3.18.0
 stars: 4.9
@@ -28,6 +28,7 @@ twitter: VCCExchange
 social:
 - https://www.facebook.com/vccexchange
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.admiral
 appCountry: 
-released: Jan 22, 2021
+released: 2021-01-22
 updated: 2021-03-10
 version: 1.9.3
 stars: 2.7
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Admiral Option Limited
 features: 
 
 ---
