@@ -3,16 +3,16 @@ wsId: accrue
 title: 'Accrue: Send. Spend. Save.'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.rocketsfintech.accrue-dca
 appCountry: gh
 idd: '1604973055'
-released: '2022-01-18T08:00:00Z'
-updated: 2023-04-28
-version: 2.0.4
-stars: 4.52672
-reviews: 131
-size: '52397056'
+released: 2022-01-18
+updated: 2023-05-14
+version: 2.1.5
+stars: 4.5
+reviews: 180
+size: '53683200'
 website: https://useaccrue.com
 repository: 
 issue: 
@@ -25,8 +25,9 @@ signer:
 reviewArchive: 
 twitter: useaccrue
 social:
-- https://www.instagram.com/useaccrue/ 
+- https://www.instagram.com/useaccrue/
 features: 
+developerName: Accrue DCA Limited
 
 ---
 

@@ -3,7 +3,7 @@ wsId: accrue
 title: 'Accrue: Send. Spend. Save.'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.rocketsfintech.accrue
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: useaccrue
 social:
-- https://www.instagram.com/useaccrue/ 
+- https://www.instagram.com/useaccrue/
 redirect_from: 
 developerName: Accrue Wealth Inc
 features: 

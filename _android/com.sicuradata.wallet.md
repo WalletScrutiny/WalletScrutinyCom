@@ -3,7 +3,7 @@ wsId:
 title: SicuraPay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.sicuradata.wallet
 appCountry: 

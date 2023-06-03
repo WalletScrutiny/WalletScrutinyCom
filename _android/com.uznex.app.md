@@ -3,7 +3,7 @@ wsId:
 title: UZNEX - UZbekistan Cryptocurre
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.uznex.app
 appCountry: 

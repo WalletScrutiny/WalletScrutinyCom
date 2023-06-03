@@ -3,13 +3,13 @@ wsId: obrinvest
 title: 'OBRinvest:  Online Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.obrinvestment.obrinvest
 appCountry: 
 released: 
-updated: 2023-04-14
-version: 2.2.3
+updated: 2023-05-31
+version: 2.2.5
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: S6 Global Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.s6.app
 appCountry: 

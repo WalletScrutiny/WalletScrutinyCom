@@ -3,7 +3,7 @@ wsId:
 title: Crypty Crypto Bitcoin Ethereum
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.reap.crypty
 appCountry: 

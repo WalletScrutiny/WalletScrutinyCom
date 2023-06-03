@@ -11,7 +11,7 @@ released: 2022-09-28
 updated: 2023-05-24
 version: 1.0.72
 stars: 5
-reviews: 10
+reviews: 5
 size: '106365952'
 website: https://www.easycoins.com/
 repository: 

@@ -4,7 +4,7 @@ title: 'Celsius: Buy and Earn Crypto'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: network.celsius.wallet
 appCountry: 
 released: 2018-06-04
@@ -12,7 +12,7 @@ updated: 2022-06-27
 version: 5.2.0
 stars: 1.5
 ratings: 7732
-reviews: 1744
+reviews: 1745
 size: 
 website: https://celsius.network
 repository: 

@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-20
 updated: 2022-12-05
 version: 3.1.5
-stars: 3.8
+stars: 3.7
 ratings: 707
-reviews: 61
+reviews: 60
 size: 
 website: https://tradesanta.com
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: TradeSanta
+developerName: TradeSanta - Crypto Trading Bot
 features: 
 
 ---

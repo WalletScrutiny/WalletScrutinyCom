@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-20
 updated: 2021-05-20
 version: '1.0'
-stars: 4.6
+stars: 4.5
 ratings: 151
-reviews: 56
+reviews: 40
 size: 
 website: http://cryptocurrency-exchange.site
 repository: 

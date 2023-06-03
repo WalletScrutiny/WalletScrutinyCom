@@ -7,7 +7,7 @@ authors:
 appId: com.americancenturiongroup.borderless
 appCountry: us
 idd: '1520123027'
-released: '2021-03-22T07:00:00Z'
+released: 2021-03-22
 updated: 2022-01-08
 version: '1.17'
 stars: 3.8
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/overline.network
 - https://www.tiktok.com/@overlinenetwork
 features: 
+developerName: American Centurion Group, Inc.
 
 ---
 

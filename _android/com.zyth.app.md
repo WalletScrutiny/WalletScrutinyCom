@@ -3,7 +3,7 @@ wsId: zythWallet
 title: ZYTH Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.zyth.app
 appCountry: 
@@ -28,7 +28,7 @@ twitter: UZythOfficial
 social:
 - https://www.facebook.com/profile.php?id=100075999047886
 - https://www.linkedin.com/company/uzyth-ecosystem/
-- https://t.me/uzythofficial 
+- https://t.me/uzythofficial
 redirect_from: 
 developerName: Zyth Technology
 features: 

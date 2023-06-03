@@ -3,7 +3,7 @@ wsId: trubit
 title: 'TruBit: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.oakk.starocket_wallet
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/trubit-oficial/
 - https://www.facebook.com/TruBit.Latam
 - https://www.youtube.com/@TruBit_Latam
-- https://www.instagram.com/trubit_latam/ 
+- https://www.instagram.com/trubit_latam/
 redirect_from: 
 developerName: TruBit Ltd.
 features: 

@@ -3,7 +3,7 @@ wsId:
 title: 스포와이드
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.spowide.www
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Huobi  Indonesia
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: id.huobi.indonesia
 appCountry: 

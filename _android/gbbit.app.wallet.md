@@ -3,7 +3,7 @@ wsId:
 title: GBBIT Bitcoin Wallet India
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: gbbit.app.wallet
 appCountry: 

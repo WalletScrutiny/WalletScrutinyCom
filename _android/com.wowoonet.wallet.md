@@ -2,7 +2,7 @@
 wsId: 
 title: WowooWallet
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.wowoonet.wallet
 appCountry: 

@@ -11,7 +11,7 @@ released: 2021-08-18
 updated: 2023-04-12
 version: 1.4.2
 stars: 4.9
-reviews: 73
+reviews: 72
 size: '15740928'
 website: https://www.fairdesk.com
 repository: 

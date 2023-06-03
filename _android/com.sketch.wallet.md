@@ -3,7 +3,7 @@ wsId:
 title: 스케치월렛 (SKETCH WALLET)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.sketch.wallet
 appCountry: 

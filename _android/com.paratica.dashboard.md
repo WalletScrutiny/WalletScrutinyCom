@@ -3,7 +3,7 @@ wsId:
 title: 'Paratica: Bitcoin Auto Trade'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.paratica.dashboard
 appCountry: 
@@ -28,7 +28,7 @@ twitter: paraticacom
 social:
 - https://www.linkedin.com/company/paratica/
 - https://www.youtube.com/c/Paratica
-- https://t.me/paratica 
+- https://t.me/paratica
 redirect_from: 
 developerName: Paratica
 features: 

@@ -2,7 +2,7 @@
 wsId: 
 title: Viktraders
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.viktraders.www
 appCountry: 

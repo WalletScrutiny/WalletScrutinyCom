@@ -2,8 +2,8 @@
 wsId: anycoinCZ
 title: 'Anycoin.cz: Crypto exchange'
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: cz.anycoin.mobile
 appCountry: 
@@ -25,8 +25,8 @@ date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: anycoin_cz
-social: 
-- https://www.facebook.com/anycoinCZ 
+social:
+- https://www.facebook.com/anycoinCZ
 redirect_from: 
 developerName: MP Developers s.r.o.
 features: 

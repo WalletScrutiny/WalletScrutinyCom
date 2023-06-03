@@ -2,7 +2,7 @@
 wsId: 
 title: Flixpay
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.redot.flixpay
 appCountry: 

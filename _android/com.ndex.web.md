@@ -3,7 +3,7 @@ wsId:
 title: 뉴드림이엑스-거래소(암호화폐, 비트코인,비트코인캐시,이
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.ndex.web
 appCountry: 

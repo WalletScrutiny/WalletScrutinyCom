@@ -3,17 +3,17 @@ wsId: yieldApp
 title: 'Yield App : Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.yield
 appCountry: ng
 idd: '1591189242'
-released: '2022-06-15T07:00:00Z'
-updated: 2023-04-18
-version: '23.0415'
+released: 2022-06-15
+updated: 2023-06-02
+version: '23.0601'
 stars: 1
 reviews: 1
-size: '65751040'
-website: https://www.yield.app
+size: '64312320'
+website: https://yield.app
 repository: 
 issue: 
 icon: app.yield.jpg
@@ -27,8 +27,9 @@ twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp/
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn 
+- https://discord.com/invite/crwD3JgMgn
 features: 
+developerName: Yield App
 
 ---
 

@@ -3,16 +3,16 @@ wsId: obrinvest
 title: 'OBRinvest: Online Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.obrinvestment.obrinvest
 appCountry: mm
 idd: '1557891972'
-released: '2021-05-03T07:00:00Z'
-updated: 2023-02-14
-version: 2.5.2
+released: 2021-05-03
+updated: 2023-05-31
+version: 2.5.4
 stars: 0
 reviews: 0
-size: '111482880'
+size: '111793152'
 website: https://www.obrinvest.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: OBR Investment Ltd
 
 ---
 

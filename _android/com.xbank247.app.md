@@ -2,7 +2,7 @@
 wsId: 
 title: XBank - Blockchain Bank
 altTitle: 
-authors:
+authors: 
 users: 5000
 appId: com.xbank247.app
 appCountry: 

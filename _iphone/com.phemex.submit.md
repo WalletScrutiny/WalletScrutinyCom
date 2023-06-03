@@ -9,11 +9,11 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2023-05-20
-version: 4.5.0
+updated: 2023-06-02
+version: 4.6.0
 stars: 4.5
-reviews: 1602
-size: '93850624'
+reviews: 1609
+size: '91896832'
 website: https://phemex.com/
 repository: 
 issue: 

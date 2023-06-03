@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-16
 updated: 2023-05-24
 version: '6.90'
-stars: 4.5
+stars: 4.6
 ratings: 2711
-reviews: 783
+reviews: 788
 size: 
 website: http://www.astontek.com
 repository: 

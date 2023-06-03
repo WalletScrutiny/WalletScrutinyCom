@@ -3,11 +3,11 @@ wsId: rapixchange
 title: RapiXchangE
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.rapixchangeapp
 appCountry: us
 idd: '1635550806'
-released: '2022-08-30T07:00:00Z'
+released: 2022-08-30
 updated: 2023-03-21
 version: '2.4'
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Money&Crypto Exchange Corporation
 
 ---
 

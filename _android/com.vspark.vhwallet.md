@@ -3,7 +3,7 @@ wsId:
 title: VHWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.vspark.vhwallet
 appCountry: 

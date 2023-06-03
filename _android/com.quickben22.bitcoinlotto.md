@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Key Hunter
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.quickben22.bitcoinlotto
 appCountry: 

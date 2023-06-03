@@ -3,7 +3,7 @@ wsId: quadency
 title: Quadency - Crypto Platform
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.quadency.app
 appCountry: 
@@ -28,7 +28,7 @@ twitter: quadency
 social:
 - https://www.linkedin.com/company/quadency/
 - https://www.facebook.com/quadency
-- https://t.me/quadency 
+- https://t.me/quadency
 redirect_from: 
 developerName: Quadency
 features: 

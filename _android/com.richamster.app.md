@@ -3,7 +3,7 @@ wsId:
 title: 'Richamster: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.richamster.app
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Richamster_com
 social:
 - https://www.facebook.com/richamstercom
-- https://t.me/richamster_chat 
+- https://t.me/richamster_chat
 redirect_from: 
 developerName: Richamster
 features: 

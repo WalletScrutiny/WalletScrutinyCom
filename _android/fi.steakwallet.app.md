@@ -3,7 +3,7 @@ wsId:
 title: Omni Web3 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: fi.steakwallet.app
 appCountry: 

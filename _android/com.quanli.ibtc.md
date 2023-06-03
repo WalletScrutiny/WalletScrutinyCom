@@ -2,8 +2,8 @@
 wsId: ibtcex
 title: iBTCex
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: com.quanli.ibtc
 appCountry: 
@@ -25,10 +25,10 @@ date: 2023-04-29
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.instagram.com/ibtcex
 - http://t.me/ibtc_official
-- https://www.facebook.com/ibtcex  
+- https://www.facebook.com/ibtcex
 redirect_from: 
 developerName: iBTC Technology
 features: 

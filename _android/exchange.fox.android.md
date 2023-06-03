@@ -3,7 +3,7 @@ wsId:
 title: fox.exchange Cryptocurrency Ex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: exchange.fox.android
 appCountry: 

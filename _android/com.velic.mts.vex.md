@@ -3,7 +3,7 @@ wsId:
 title: VELIC
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.velic.mts.vex
 appCountry: 

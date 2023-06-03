@@ -9,9 +9,9 @@ appCountry:
 released: 2020-07-21
 updated: 2023-05-18
 version: 2.5.0
-stars: 3.9
+stars: 4
 ratings: 
-reviews: 137
+reviews: 136
 size: 
 website: https://cwallet.com
 repository: 

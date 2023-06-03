@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitforex.bitforex
 appCountry: 
 released: 2022-03-17
-updated: 2023-04-17
-version: 3.4.5
+updated: 2023-05-31
+version: 3.4.6
 stars: 4.8
 ratings: 
 reviews: 19

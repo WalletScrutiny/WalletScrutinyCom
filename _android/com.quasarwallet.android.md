@@ -3,7 +3,7 @@ wsId:
 title: Quasar Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.quasarwallet.android
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-04-29
 signer: 
 reviewArchive: 
 twitter: reflextoken
-social: 
+social:
 - https://www.facebook.com/reflextoken
 - https://www.linkedin.com/company/reflextoken
 - https://www.instagram.com/reflextoken

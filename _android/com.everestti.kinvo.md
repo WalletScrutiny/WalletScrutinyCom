@@ -1,6 +1,6 @@
 ---
 wsId: everestKinvo
-title: 'Kinvo: Gestão de Investimentos'
+title: 'Kinvo: otimize investimentos'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-05-23
 version: 3.18.1
 stars: 4
 ratings: 
-reviews: 6648
+reviews: 6664
 size: 
 website: http://www.kinvo.com.br
 repository: 

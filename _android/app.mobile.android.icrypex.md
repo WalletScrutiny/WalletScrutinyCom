@@ -12,7 +12,7 @@ updated: 2023-05-24
 version: '8.1'
 stars: 4.3
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.icrypex.com/
 repository: 

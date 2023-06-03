@@ -11,7 +11,7 @@ released: 2020-09-08
 updated: 2023-01-06
 version: 1.0.18
 stars: 3
-reviews: 33
+reviews: 32
 size: '56373248'
 website: https://ajglobalv.com/
 repository: 

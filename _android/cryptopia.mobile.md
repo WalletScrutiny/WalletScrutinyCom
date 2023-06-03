@@ -3,7 +3,7 @@ wsId:
 title: CryptoPia
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: cryptopia.mobile
 appCountry: 

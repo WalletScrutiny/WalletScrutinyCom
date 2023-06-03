@@ -3,7 +3,7 @@ wsId:
 title: UPAY - Personal
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.upay
 appCountry: 

@@ -3,7 +3,7 @@ wsId: rapixchange
 title: RapiXchangE
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.rapiexchange
 appCountry: 
