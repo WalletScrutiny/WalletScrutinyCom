@@ -1,0 +1,32 @@
+---
+wsId: 
+title: Vast Crypto Banking
+altTitle: 
+authors: 
+users: 10000
+appId: crypto.vast.bank
+appCountry: 
+released: Aug 22, 2021
+updated: 2023-03-01
+version: 1.7.8
+stars: 4.2
+ratings: 
+reviews: 67
+website: https://www.vast.bank
+repository: 
+issue: 
+icon: crypto.vast.bank.png
+bugbounty: 
+meta: ok
+verdict: wip
+date: 2023-06-02
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Vast Bank
+features: 
+
+---
+

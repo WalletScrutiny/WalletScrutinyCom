@@ -1,0 +1,32 @@
+---
+wsId: 
+title: The Kingdom Bank | Crypto Fiat
+altTitle: 
+authors: 
+users: 1000
+appId: com.thekingdombank.app
+appCountry: 
+released: Dec 17, 2021
+updated: 2023-04-19
+version: 8.4.8
+stars: 
+ratings: 
+reviews: 
+website: https://thekingdombank.com
+repository: 
+issue: 
+icon: com.thekingdombank.app.png
+bugbounty: 
+meta: ok
+verdict: wip
+date: 2023-06-03
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: TheKingdomBank
+features: 
+
+---
+
