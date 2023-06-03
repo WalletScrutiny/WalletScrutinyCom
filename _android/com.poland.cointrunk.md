@@ -2,7 +2,7 @@
 wsId: 
 title: CoinTrunk
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.poland.cointrunk
 appCountry: 
@@ -30,4 +30,5 @@ developerName:
 features: 
 
 ---
+
 

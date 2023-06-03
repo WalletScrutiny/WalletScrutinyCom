@@ -2,7 +2,7 @@
 wsId: 
 title: 'PayFrequent Wallet: PayFQ, PUSD, PEUR, PINR, TOMO'
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.payfrequent
 appCountry: 
@@ -30,4 +30,3 @@ developerName:
 features: 
 
 ---
-

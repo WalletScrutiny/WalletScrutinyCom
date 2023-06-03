@@ -2,7 +2,7 @@
 wsId: 
 title: Flixpay
 altTitle: 
-authors: 
+authors:
 users: 5000
 appId: com.redot.flixpay
 appCountry: 
@@ -20,7 +20,7 @@ icon: com.redot.flixpay.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-04-29
 signer: 
 reviewArchive: 
 twitter: 
