@@ -1,6 +1,13 @@
-
-<p class="response pass">The answer is "yes".<br>If the answer was "no", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:<br></p>
-<p class="response fail">The answer is "no". We marked it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".</p>
+{% case include.verdict %}
+  {% when 'reproducible' %}
+    {% assign passTxt = 'The answer is "no".<br>If the answer was "yes"' %}
+    {% assign failTxt = 'The answer is "yes"' %}
+  {% else %}
+    {% assign passTxt = 'The answer is "yes".<br>If the answer was "no"' %}
+    {% assign failTxt = 'The answer is "no".' %}
+{% endcase %}
+<p class="response pass">{{passTxt}}, we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:<br></p>
+<p class="response fail">{{failTxt}} We marked it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".</p>
 <p class="response untested">We did not ask this question because we failed at a previous question.<br>If the answer was "no", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:</p>
 
 
