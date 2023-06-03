@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.legendwd.hyperpay.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: obfuscated
-date: 2022-01-10
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: HyperPay_tech

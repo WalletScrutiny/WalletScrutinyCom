@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.baanx.baanx.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-08
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: baanx_bxx

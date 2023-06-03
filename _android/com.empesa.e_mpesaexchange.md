@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.empesa.e_mpesaexchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 

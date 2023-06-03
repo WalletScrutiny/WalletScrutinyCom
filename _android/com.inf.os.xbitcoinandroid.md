@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.inf.os.xbitcoinandroid.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
