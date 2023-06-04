@@ -1,13 +1,8 @@
 {% assign meta = include.meta %}
 {% assign platform = include.platform %}
-{% if meta != "ok" %}
-  {% assign criteria = site.data.platformMeta[platform].verdicts | concat: site.data.platformMeta[platform].metas %}
-{% else %}
-{% assign criteria = site.data.platformMeta[platform].verdicts %}
-{% endif %}
 {% assign failPoint = 0 %}
 
-{% include tests_passed.html criteria=criteria verdict=include.verdict %}
+{% include wallet_score.html meta=meta platform=platform verdict=include.verdict %}
 
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>

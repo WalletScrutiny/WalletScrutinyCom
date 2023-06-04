@@ -1,6 +1,0 @@
-{% if include.meta != "ok" %}
-  {% assign criteria = site.data.platformMeta[include.platform].verdicts | concat: site.data.platformMeta[include.platform].metas %}
-{% else %}
-  {% assign criteria = site.data.platformMeta[include.platform].verdicts %}
-{% endif %}
-{% include tests_passed.html criteria=criteria verdict=include.verdict %}
