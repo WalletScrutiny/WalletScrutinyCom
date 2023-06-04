@@ -34,11 +34,11 @@ features:
 
 ## App Description from Google Play 
 
-> - Based on the powerful technology of China Blockchain
-- Ability to trade with the most common currency code
+> - Based on the powerful technology of Blockchain
+- Ability to trade with the most common cryptocurrencies
 - High security
 - International sales and payment in Rials
-- Ability to create online port and PC POS
+- Ability to create online gateway and PC POS
 - Support 24 hours a day
 - Ability to interact financially with the world
 - Ability to pay at any time and place
@@ -46,7 +46,7 @@ features:
 
 ## App Description from Website 
 
-> Bit Rah-e-Ali as an Iranian company relying on powerful technology and its creative team in the field of Chinese block and currency password، It has introduced a new way to facilitate the receipt of funds for the sale or provision of services to foreign customers. This collection has made it possible to expand international trade for online and offline trade, thus removing the burden of sanctions from Iranian businesses.
+> BitRah as an Iranian company relying on powerful technology and its creative team in the field of blockchain and cryptocurrency, It has introduced a new way to facilitate the receipt of funds for the sale or provision of services to foreign customers. This collection has made it possible to expand international trade for online and offline trade, thus removing the burden of sanctions from Iranian businesses.
 
 ### [Technical Documentation](https://bitrah.com/en/documents) 
 
