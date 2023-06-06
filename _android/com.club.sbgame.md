@@ -8,8 +8,8 @@ users: 50000
 appId: com.club.sbgame
 appCountry: 
 released: 2022-02-01
-updated: 2023-01-16
-version: '7.0'
+updated: 2023-04-05
+version: '8.0'
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ size:
 website: https://sbgame.club
 repository: 
 issue: 
-icon: com.club.sbgame.png
+icon: com.club.sbgame.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: sbg_global
 social: 
 redirect_from: 
+developerName: SBG GLOBAL
 features: 
 
 ---

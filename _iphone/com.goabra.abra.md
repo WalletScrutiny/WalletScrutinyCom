@@ -8,11 +8,11 @@ appId: com.goabra.abra
 appCountry: 
 idd: 966301394
 released: 2015-03-12
-updated: 2023-03-21
-version: 139.0.0
+updated: 2023-05-26
+version: 144.0.0
 stars: 4.6
-reviews: 18558
-size: '220228608'
+reviews: 18556
+size: '221257728'
 website: 
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/abra
 - https://www.facebook.com/GoAbraGlobal
 features: 
+developerName: Plutus Financial
 
 ---
 

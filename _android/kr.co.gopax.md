@@ -12,7 +12,7 @@ updated: 2023-04-28
 version: 1.6.80.7ee8
 stars: 4.5
 ratings: 1387
-reviews: 1509
+reviews: 1510
 size: 
 website: https://www.gopax.co.kr
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Streami Inc.
 features: 
 
 ---

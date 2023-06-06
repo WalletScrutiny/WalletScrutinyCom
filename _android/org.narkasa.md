@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/narkasacom
 - https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 redirect_from: 
+developerName: NARKASA
 features: 
 
 ---

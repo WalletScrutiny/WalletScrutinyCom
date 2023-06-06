@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/safecoins/
 - https://www.youtube.com/c/Safecoin
 redirect_from: 
+developerName: SafeCoin
 features: 
 
 ---

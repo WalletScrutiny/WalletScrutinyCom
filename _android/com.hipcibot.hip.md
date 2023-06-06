@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.hipcibot.hip.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-20
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Smart Crypto Studio
 features: 
 
 ---

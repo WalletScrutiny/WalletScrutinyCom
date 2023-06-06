@@ -12,7 +12,7 @@ updated: 2022-12-29
 version: 1.6.8
 stars: 4
 ratings: 
-reviews: 99
+reviews: 101
 size: 
 website: https://www.cryptokara.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 'Eagle Network : Digital Currency For Phone'
 features: 
 
 ---

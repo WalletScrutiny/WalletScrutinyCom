@@ -8,11 +8,11 @@ appId: com.trader.brands.cfdglobal
 appCountry: gb
 idd: 1304998844
 released: 2018-02-03
-updated: 2023-05-02
-version: '1.42'
+updated: 2023-05-22
+version: '1.44'
 stars: 5
 reviews: 8
-size: '128362496'
+size: '128382976'
 website: http://www.capex.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/capexglobal
 - https://www.facebook.com/CAPEXSeychelles
 features: 
+developerName: Key Way Investment Ltd
 
 ---
 

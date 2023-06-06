@@ -10,8 +10,8 @@ idd: '1612226119'
 released: 2022-04-07
 updated: 2022-12-28
 version: 2.8.16
-stars: 3.9
-reviews: 23
+stars: 4
+reviews: 24
 size: '159729664'
 website: https://www.bitazza.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitazza/
 - https://t.me/bitazzaglobal
 features: 
+developerName: Bitazza Company Limited
 
 ---
 

@@ -2,7 +2,8 @@
 wsId: 
 title: Safe-T Companion for ARCHOS Sa
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.archos.safet.bridge
 appCountry: 
@@ -19,14 +20,22 @@ issue:
 icon: com.archos.safet.bridge.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-07-31
+verdict: nowallet
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Archos S.A.
 features: 
 
 ---
+
+This is the companion app to the 
+
+{% include walletLink.html wallet='hardware/archossafettouch' verdict='true' %}
+
+The app closes if a hardware device is not paired to it via Bluetooth. This is **not a wallet app**.
+
 

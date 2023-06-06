@@ -11,7 +11,7 @@ released: 2018-06-20
 updated: 2022-07-01
 version: v5.2.0
 stars: 3.3
-reviews: 2468
+reviews: 2476
 size: '76317696'
 website: https://celsius.network/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/celsiusnetwork
 - https://www.facebook.com/CelsiusNetwork
 features: 
+developerName: Celsius Network
 
 ---
 

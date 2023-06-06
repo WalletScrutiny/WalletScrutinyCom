@@ -27,6 +27,7 @@ reviewArchive:
 twitter: CardWallet_fi
 social: 
 redirect_from: 
+developerName: CWallet
 features: 
 
 ---

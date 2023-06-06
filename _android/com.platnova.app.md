@@ -3,12 +3,12 @@ wsId:
 title: 'Platnova: Pay across the globe'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28
-updated: 2023-04-29
-version: 0.6.1
+updated: 2023-06-02
+version: 0.6.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Broadtray Inc.
 features: 
 
 ---

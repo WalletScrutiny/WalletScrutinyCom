@@ -12,7 +12,7 @@ updated: 2023-03-01
 version: 2.1.2
 stars: 4.8
 ratings: 
-reviews: 90
+reviews: 62
 size: 
 website: https://coincred.org/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
 redirect_from: 
+developerName: CoinCRED
 features: 
 
 ---

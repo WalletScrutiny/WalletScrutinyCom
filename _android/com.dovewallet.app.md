@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/dovewalleten
 - https://www.reddit.com/r/DoveWallet
 redirect_from: 
+developerName: 
 features: 
 
 ---

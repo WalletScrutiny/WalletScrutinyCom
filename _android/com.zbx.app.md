@@ -8,8 +8,8 @@ users: 5000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
-updated: 2023-05-05
-version: 2.2.4
+updated: 2023-05-22
+version: 2.2.5
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zbx
 - https://www.facebook.com/ZBXExchange
 redirect_from: 
+developerName: ZBX
 features: 
 
 ---

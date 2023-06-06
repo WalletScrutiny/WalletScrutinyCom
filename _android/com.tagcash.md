@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tagcash.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-12
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tagcash-ltd/
 - https://www.facebook.com/tagcashrewards
 redirect_from: 
+developerName: Tagcash Ltd
 features: 
 
 ---

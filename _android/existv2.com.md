@@ -9,7 +9,7 @@ appCountry:
 released: 2019-06-29
 updated: 2019-06-30
 version: '3.0'
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 4
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: New York Exchange Coin
 features: 
 
 ---

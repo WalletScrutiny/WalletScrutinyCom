@@ -12,7 +12,7 @@ updated: 2022-08-30
 version: 4.4.0
 stars: 4
 ratings: 
-reviews: 1539
+reviews: 1535
 size: 
 website: http://www.bananatok.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://medium.com/bananatok
 - https://www.instagram.com/bananatok_official/
 redirect_from: 
+developerName: ZooHoldings Limited
 features: 
 
 ---

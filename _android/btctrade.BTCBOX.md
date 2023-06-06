@@ -1,6 +1,6 @@
 ---
 wsId: btcboxJP
-title: 【BTCBOX】ビットコイン・暗号資産取引所。安心・安全な暗
+title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: btctrade.BTCBOX
 appCountry: 
 released: 2016-04-18
-updated: 2023-04-07
-version: '1.247'
+updated: 2023-06-01
+version: '1.251'
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: BtcboxE
 social:
 - https://www.facebook.com/btcbox/
 redirect_from: 
+developerName: BTCボックス株式会社
 features: 
 
 ---

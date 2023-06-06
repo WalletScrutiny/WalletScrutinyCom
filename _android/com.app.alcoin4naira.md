@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.alcoin4naira.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-03-30
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Webzoft Web solution
 features: 
 
 ---

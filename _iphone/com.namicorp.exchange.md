@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 features: 
+developerName: NAMI TRADE PTE. LTD.
 
 ---
 

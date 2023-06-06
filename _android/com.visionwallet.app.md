@@ -28,6 +28,7 @@ twitter:
 social: 
 redirect_from:
 - /com.visionwallet.app/
+developerName: VISION WALLET LTD
 features: 
 
 ---

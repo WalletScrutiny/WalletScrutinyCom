@@ -2,7 +2,8 @@
 wsId: 
 title: Mat Coin
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.drbtb.btbmatcoinbuerqi
 appCountry: 
@@ -26,7 +27,9 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---
 
+This app is no longer on Google Play (404).

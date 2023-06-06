@@ -10,8 +10,8 @@ idd: '1544492069'
 released: 2020-12-28
 updated: 2023-04-29
 version: 2.1.0
-stars: 3.7
-reviews: 320
+stars: 3.6
+reviews: 322
 size: '48929792'
 website: https://www.bitlo.com/
 repository: 
@@ -27,6 +27,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 features: 
+developerName: Bitlo Teknoloji Anonim Şirketi
 
 ---
 

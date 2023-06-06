@@ -8,8 +8,8 @@ users: 50000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30
-updated: 2023-04-14
-version: 1.4.0
+updated: 2023-05-22
+version: 1.5.1
 stars: 4.1
 ratings: 500
 reviews: 45
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/klever-app
 - https://www.facebook.com/klever.io
 redirect_from: 
+developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 
 
 ---

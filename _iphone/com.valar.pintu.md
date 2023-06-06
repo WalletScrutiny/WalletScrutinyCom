@@ -27,6 +27,7 @@ twitter: pintuid
 social:
 - https://www.facebook.com/pintucrypto
 features: 
+developerName: 
 
 ---
 

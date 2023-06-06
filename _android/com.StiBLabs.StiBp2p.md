@@ -2,7 +2,8 @@
 wsId: 
 title: StiB P2P - Bitcoin Ethereum De
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.StiBLabs.StiBp2p
 appCountry: 
@@ -18,15 +19,26 @@ repository:
 issue: 
 icon: com.StiBLabs.StiBp2p.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-03-02
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: StiBLabs
 features: 
 
 ---
 
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.StiBLabs.StiBp2p)
+
+> Decentralized P2P exchange
+
+## Analysis 
+
+- The homepage is no longer online. This app was designated as obsolete. 
+- The app cannot be installed on our phone, but was successfully installed on BlueStacks 5 Pie 64-bit.
+- We downloaded the app, and it showed the splash and registration screen. We were not able to register as the circle status indicator just kept spinning. 
+- With its homepage no longer online, it is **prudent** to determine this app as defunct. 

@@ -3,7 +3,7 @@ wsId:
 title: 'DXS: Trade Stocks and Crypto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.dxs.app
 appCountry: 
 released: 2022-04-25
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DXS Brokerage LLC
 features: 
 
 ---

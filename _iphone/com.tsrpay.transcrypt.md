@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
 features: 
+developerName: TizerWallet OU
 
 ---
 

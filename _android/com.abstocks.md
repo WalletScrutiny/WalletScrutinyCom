@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC3cfWOAJWygI7MKKTqhfDIQ
 - https://www.linkedin.com/company/abcexchange/ 
 redirect_from: 
+developerName: ABStocks.com
 features: 
 
 ---

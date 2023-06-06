@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.electroneum.mobile/
 - /posts/com.electroneum.mobile/
+developerName: Electroneum Ltd
 features: 
 
 ---

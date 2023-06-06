@@ -10,8 +10,8 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2023-04-27
 version: 7.3.4
-stars: 4.2
-reviews: 271
+stars: 4.3
+reviews: 302
 size: '135846912'
 website: https://bitkeep.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitkeep
 - https://github.com/bitkeepcom
 features: 
+developerName: BitKeep Global Inc.
 
 ---
 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.exmo
 appCountry: 
 released: 2019-11-12
-updated: 2023-05-04
-version: 3.18.2
+updated: 2023-05-18
+version: 3.20.0
 stars: 4
 ratings: 2774
-reviews: 89
+reviews: 90
 size: 
 website: https://exmo.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
 redirect_from: 
+developerName: EXMO EXCHANGE LTD
 features: 
 
 ---

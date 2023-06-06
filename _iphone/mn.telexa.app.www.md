@@ -11,7 +11,7 @@ released: 2021-12-02
 updated: 2023-05-04
 version: '5.8'
 stars: 4.8
-reviews: 2027
+reviews: 2154
 size: '54828032'
 website: https://www.telexa.mn/
 repository: 
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/Telexa.mn/
 features: 
+developerName: Save Inc.
 
 ---
 

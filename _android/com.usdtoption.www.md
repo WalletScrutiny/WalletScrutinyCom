@@ -9,7 +9,7 @@ appCountry:
 released: 2020-05-10
 updated: 2020-05-10
 version: 1.1.1
-stars: 3.2
+stars: 3.3
 ratings: 
 reviews: 14
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: USDT OPTION
 features: 
 
 ---

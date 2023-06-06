@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.idax.exchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/daxmnofficial
 redirect_from: 
+developerName: Ard Financial Group
 features: 
 
 ---

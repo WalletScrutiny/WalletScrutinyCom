@@ -8,11 +8,11 @@ appId: com.mobillium.btcturk
 appCountry: tr
 idd: 1503482896
 released: 2020-04-09
-updated: 2023-04-27
-version: 1.26.1
+updated: 2023-05-22
+version: 1.26.2
 stars: 4.6
-reviews: 25400
-size: '224420864'
+reviews: 25425
+size: '224732160'
 website: https://www.btcturk.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 features: 
+developerName: ELIPTIK YAZILIM VE TICARET ANONIM SIRKETI
 
 ---
 

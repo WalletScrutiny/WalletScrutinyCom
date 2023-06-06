@@ -11,7 +11,7 @@ released: 2020-07-27
 updated: 2023-04-12
 version: 2.9.13
 stars: 4.6
-reviews: 1790
+reviews: 1839
 size: '94938112'
 website: 
 repository: 
@@ -27,6 +27,7 @@ twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial
 features: 
+developerName: Brasil Bitcoin Servicos Digitais LTDA
 
 ---
 

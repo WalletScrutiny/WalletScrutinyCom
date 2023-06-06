@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.Tradesanta.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-10-16
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: Onion logic LLC
 
 ---
 

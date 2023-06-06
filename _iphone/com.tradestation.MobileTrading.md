@@ -11,7 +11,7 @@ released: 2012-12-10
 updated: 2023-03-20
 version: '6.3'
 stars: 4.5
-reviews: 17119
+reviews: 17204
 size: '76822528'
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
@@ -27,6 +27,7 @@ twitter: tradestation
 social:
 - https://www.facebook.com/TradeStation
 features: 
+developerName: TradeStation Technologies
 
 ---
 

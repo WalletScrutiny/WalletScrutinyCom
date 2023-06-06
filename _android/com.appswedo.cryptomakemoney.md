@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.appswedo.cryptomakemoney.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AppsWeDo
 features: 
 
 ---

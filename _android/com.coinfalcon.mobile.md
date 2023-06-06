@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinfalcon.mobile.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-02-08
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: coinfalcon
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinFalcon
 - https://www.reddit.com/r/CoinFalcon
 redirect_from: 
+developerName: CoinFalcon
 features: 
 
 ---

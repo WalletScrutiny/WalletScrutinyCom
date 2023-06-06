@@ -8,8 +8,8 @@ users: 50000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13
-updated: 2023-04-15
-version: 3.0.165
+updated: 2023-05-17
+version: 3.0.169
 stars: 4
 ratings: 826
 reviews: 22
@@ -28,6 +28,7 @@ twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
 redirect_from: 
+developerName: Alvexo
 features: 
 
 ---

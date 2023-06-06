@@ -2,7 +2,8 @@
 wsId: 
 title: Fuzionx
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.chainup.exchange.Zenith
 appCountry: 
@@ -20,13 +21,15 @@ icon: com.chainup.exchange.Zenith.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-30
+date: 2023-04-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---
 
+This app is no longer on Google Play (404).

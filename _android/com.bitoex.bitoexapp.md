@@ -28,6 +28,7 @@ twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitoex
 redirect_from: 
+developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 features: 
 
 ---

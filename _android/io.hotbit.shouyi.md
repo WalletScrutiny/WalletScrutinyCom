@@ -12,7 +12,7 @@ updated: 2023-04-11
 version: 1.4.33
 stars: 3.4
 ratings: 75096
-reviews: 1578
+reviews: 1585
 size: 
 website: https://www.hotbit.io/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/hotbitexchange
 - https://www.facebook.com/hotbitexchange
 redirect_from: 
+developerName: Hotbit Technology Limited
 features: 
 
 ---

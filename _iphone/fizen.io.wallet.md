@@ -8,11 +8,11 @@ appId: fizen.io.wallet
 appCountry: us
 idd: '1621269508'
 released: 2022-04-28
-updated: 2023-05-03
-version: 1.9.2
+updated: 2023-05-24
+version: 1.9.4
 stars: 5
 reviews: 1
-size: '94294016'
+size: '98401280'
 website: https://fizen.io
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/fizen.io/
 - https://t.me/fizen_io
 features: 
+developerName: Fizen GmbH
 
 ---
 

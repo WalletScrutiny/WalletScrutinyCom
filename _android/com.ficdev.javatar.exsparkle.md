@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.ficdev.javatar.exsparkle.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FICTION DEVELOPER
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2022-05-13
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: deltastock
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/deltastock-ad
 - https://www.facebook.com/Deltastock
 redirect_from: 
+developerName: Deltastock AD
 features: 
 
 ---

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.royalqs.pro.work.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2022-07-15
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: Royal Quantify Investment Management Co., Limited
 
 ---
 

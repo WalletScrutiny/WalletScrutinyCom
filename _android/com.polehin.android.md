@@ -12,7 +12,7 @@ updated: 2022-01-09
 version: 3.7.4
 stars: 4
 ratings: 22277
-reviews: 921
+reviews: 914
 size: 
 website: https://coinbox.org
 repository: 
@@ -42,6 +42,7 @@ redirect_from:
 - /com.polehin.android/
 - /posts/2019/11/bitcoinwallet/
 - /posts/com.polehin.android/
+developerName: BW DEV
 features: 
 
 ---

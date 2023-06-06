@@ -10,8 +10,8 @@ idd: 1473120022
 released: 2019-07-19
 updated: 2022-12-14
 version: 1.0.60
-stars: 4.4
-reviews: 17
+stars: 4.2
+reviews: 18
 size: '69273600'
 website: https://techbank.finance/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---
 

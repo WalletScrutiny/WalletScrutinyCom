@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: gleecExchange
 title: Gleec Exchange
 altTitle: 
 authors: 
@@ -20,12 +20,13 @@ icon: exchange.gleec.com.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
-date: 2023-04-03
+date: 2023-04-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Gleec BTC OU
 features: 
 
 ---

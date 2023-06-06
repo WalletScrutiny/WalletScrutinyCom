@@ -9,11 +9,11 @@ users: 10000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2023-04-29
-version: 3.159.0
-stars: 4.6
+updated: 2023-05-22
+version: 3.161.0
+stars: 4.5
 ratings: 281384
-reviews: 44326
+reviews: 44601
 size: 
 website: https://crypto.com/
 repository: 
@@ -34,6 +34,7 @@ redirect_from:
 - /co.mona.android/
 - /crypto.com/
 - /posts/co.mona.android/
+developerName: Crypto Technology Holdings Limited
 features: 
 
 ---

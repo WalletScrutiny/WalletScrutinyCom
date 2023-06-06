@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.gowowx.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: wowexchange oü
 features: 
 
 ---

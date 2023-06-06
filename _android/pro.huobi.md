@@ -10,9 +10,9 @@ appCountry:
 released: 2017-11-01
 updated: 2023-05-04
 version: 9.9.2
-stars: 3.8
+stars: 3.7
 ratings: 31840
-reviews: 441
+reviews: 445
 size: 
 website: http://www.hbg.com
 repository: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /pro.huobi/
 - /posts/pro.huobi/
+developerName: Huobi
 features: 
 
 ---

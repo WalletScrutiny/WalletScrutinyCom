@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.exir.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-10
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: EXIR_Official
 social:
 - https://www.linkedin.com/company/exirexchange/
 redirect_from: 
+developerName: EXIR
 features: 
 
 ---

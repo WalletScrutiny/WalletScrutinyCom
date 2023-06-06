@@ -10,8 +10,8 @@ idd: 1494556510
 released: 2020-04-13
 updated: 2023-04-25
 version: 1.64.0
-stars: 4.6
-reviews: 5
+stars: 4.8
+reviews: 8
 size: '110450688'
 website: https://btse.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btsecom
 - https://www.reddit.com/r/btsecom
 features: 
+developerName: BTSE Holdings Limited
 
 ---
 

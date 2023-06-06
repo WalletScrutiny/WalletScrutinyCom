@@ -28,6 +28,7 @@ twitter: bitwells
 social:
 - https://www.facebook.com/Bitwells
 redirect_from: 
+developerName: 
 features: 
 
 ---

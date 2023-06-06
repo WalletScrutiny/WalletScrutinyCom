@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: partl.coini.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2020-12-14
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
 - /partl.coini/
+developerName: Timo Partl
 features: 
 
 ---
