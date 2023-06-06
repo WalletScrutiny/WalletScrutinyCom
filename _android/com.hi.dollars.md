@@ -7,11 +7,11 @@ users: 1000000
 appId: com.hi.dollars
 appCountry: EE
 released: 2021-11-04
-updated: 2023-05-04
-version: 2.7.0
+updated: 2023-05-31
+version: 2.8.0
 stars: 2
 ratings: 
-reviews: 10767
+reviews: 10786
 size: 
 website: https://hi.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/hi.com.official
 - https://www.reddit.com/r/hi_official
 redirect_from: 
+developerName: hi.com
 features: 
 
 ---

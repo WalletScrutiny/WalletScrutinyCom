@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/cofinex.io
 - https://www.youtube.com/@cofinexexchange
 features: 
+developerName: 
 
 ---
 

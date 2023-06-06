@@ -29,6 +29,7 @@ social:
 - https://vk.com/vexel_is
 - https://www.instagram.com/vexel_com/
 redirect_from: 
+developerName: VEXEL LP
 features: 
 
 ---

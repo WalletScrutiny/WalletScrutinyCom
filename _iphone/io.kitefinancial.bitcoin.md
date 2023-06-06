@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/kite_financial
 - https://www.linkedin.com/company/kitefinancial
 features: 
+developerName: 
 
 ---
 

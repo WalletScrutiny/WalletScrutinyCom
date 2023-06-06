@@ -27,6 +27,7 @@ twitter: exchange_united
 social:
 - https://www.facebook.com/UnitedExchange.io
 features: 
+developerName: Avner Brokers
 
 ---
 

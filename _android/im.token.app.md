@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: 2.12.0
 stars: 4
 ratings: 4350
-reviews: 217
+reviews: 218
 size: 
 website: https://token.im
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: imTokenOfficial
 social: 
 redirect_from: 
+developerName: IMTOKEN PTE.LTD.
 features: 
 
 ---

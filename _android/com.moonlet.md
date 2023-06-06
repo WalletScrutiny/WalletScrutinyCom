@@ -29,6 +29,7 @@ social:
 - https://github.com/Moonlet
 redirect_from:
 - /com.moonlet/
+developerName: Moonlet
 features: 
 
 ---

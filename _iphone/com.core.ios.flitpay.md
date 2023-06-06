@@ -27,6 +27,7 @@ twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
 features: 
+developerName: FLITPAY PVT LTD
 
 ---
 

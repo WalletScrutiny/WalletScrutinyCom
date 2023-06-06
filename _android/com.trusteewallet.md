@@ -12,7 +12,7 @@ updated: 2023-05-04
 version: 1.51.4
 stars: 3.9
 ratings: 2467
-reviews: 48
+reviews: 49
 size: 
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
@@ -35,6 +35,7 @@ social:
 redirect_from:
 - /com.trusteewallet/
 - /posts/com.trusteewallet/
+developerName: BlockSoft Lab
 features: 
 
 ---

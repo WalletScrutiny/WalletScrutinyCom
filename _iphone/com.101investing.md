@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/73520735
 - https://www.facebook.com/101Investing
 features: 
+developerName: 
 
 ---
 

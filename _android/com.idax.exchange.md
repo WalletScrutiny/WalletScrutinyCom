@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/daxmnofficial
 redirect_from: 
+developerName: Ard Financial Group
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2020-05-12
 updated: 2023-04-25
 version: 2.8.1
 stars: 4
-reviews: 295
+reviews: 296
 size: '89300992'
 website: https://www.vauld.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 features: 
+developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---
 

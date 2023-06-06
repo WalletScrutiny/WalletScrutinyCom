@@ -8,8 +8,8 @@ users: 50000
 appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04
-updated: 2023-05-02
-version: 2.21.0
+updated: 2023-05-22
+version: 2.23.0
 stars: 4.3
 ratings: 336
 reviews: 7
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/capexglobal
 - https://www.facebook.com/CAPEXSeychelles
 redirect_from: 
+developerName: Key Way Investments Ltd
 features: 
 
 ---

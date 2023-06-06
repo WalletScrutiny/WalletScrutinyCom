@@ -3,7 +3,7 @@ wsId:
 title: Union Btc
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: pixel.websolutions.union_btc
 appCountry: 
 released: 2021-09-29
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoMaticAtm OÜ
 features: 
 
 ---

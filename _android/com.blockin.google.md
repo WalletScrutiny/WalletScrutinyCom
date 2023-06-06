@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-12
 updated: 2023-04-13
 version: 3.6.8
-stars: 4.2
+stars: 4.1
 ratings: 764
-reviews: 31
+reviews: 32
 size: 
 website: https://www.poolin.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/poolin
 - https://www.facebook.com/poolinpool
 redirect_from: 
+developerName: Beijing Satoshi Smart Co.,Ltd.
 features: 
 
 ---

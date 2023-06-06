@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bitango.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitango Technologies
 features: 
 
 ---

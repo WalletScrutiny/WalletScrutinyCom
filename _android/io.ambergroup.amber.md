@@ -8,11 +8,11 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2023-04-18
-version: 2.13.5
+updated: 2023-06-01
+version: 2.14.1
 stars: 4.7
 ratings: 2656
-reviews: 243
+reviews: 244
 size: 
 website: https://www.whalefin.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
 redirect_from: 
+developerName: Amber AI Limited
 features: 
 
 ---

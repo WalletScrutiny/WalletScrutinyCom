@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock
 redirect_from: 
+developerName: IoV Labs
 features: 
 
 ---

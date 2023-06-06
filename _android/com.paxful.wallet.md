@@ -12,7 +12,7 @@ updated: 2023-03-07
 version: 2.9.6.668
 stars: 3.3
 ratings: 21528
-reviews: 1838
+reviews: 1841
 size: 
 website: https://Paxful.com
 repository: 
@@ -35,6 +35,7 @@ redirect_from:
 - /com.paxful.wallet/
 - /posts/2019/11/paxful/
 - /posts/com.paxful.wallet/
+developerName: Paxful
 features: 
 
 ---

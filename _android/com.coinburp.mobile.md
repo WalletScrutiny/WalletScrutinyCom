@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinburp
 - https://www.facebook.com/thecoinburp
 redirect_from: 
+developerName: 
 features: 
 
 ---

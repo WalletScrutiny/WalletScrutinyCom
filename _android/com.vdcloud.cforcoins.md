@@ -28,6 +28,7 @@ twitter: CoinsCfor
 social:
 - https://www.instagram.com/cforcoins/
 redirect_from: 
+developerName: CforCoins
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: AiconOfficial
 social: 
 redirect_from: 
+developerName: AI-dapps
 features: 
 
 ---

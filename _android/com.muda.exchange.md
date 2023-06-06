@@ -7,7 +7,7 @@ users: 500
 appId: com.muda.exchange
 appCountry: 
 released: 2022-05-04
-updated: 2023-05-03
+updated: 2023-06-01
 version: '1.0'
 stars: 
 ratings: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Muda Exchange
 features: 
 
 ---

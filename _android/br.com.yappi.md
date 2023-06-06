@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/yappi.br/
 - https://www.linkedin.com/company/yappi-br/
 redirect_from: 
+developerName: Yappi Software e Serviços LTDA
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2018-05-14
 updated: 2023-04-12
 version: 3.81.0
 stars: 4.6
-reviews: 19483
+reviews: 19589
 size: '238804992'
 website: 
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 features: 
+developerName: Kucoin Technology Co.,Ltd.
 
 ---
 

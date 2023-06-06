@@ -27,6 +27,7 @@ twitter: srsfintech
 social:
 - https://www.linkedin.com/company/srsfintech/
 features: 
+developerName: SRS FINTECH COMMERCE LTD
 
 ---
 

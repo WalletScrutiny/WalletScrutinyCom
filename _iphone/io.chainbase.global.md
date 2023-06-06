@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/hotbitexchange
 - https://www.facebook.com/hotbitexchange
 features: 
+developerName: Chainbase Co.,Ltd.
 
 ---
 

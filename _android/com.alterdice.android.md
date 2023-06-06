@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/alterdice_
 - https://www.linkedin.com/company/alterdice/about/ 
 redirect_from: 
+developerName: Alterdice Developers
 features: 
 
 ---

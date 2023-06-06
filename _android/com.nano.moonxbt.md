@@ -12,7 +12,7 @@ updated: 2023-01-11
 version: 5.4.3
 stars: 4.4
 ratings: 481
-reviews: 25
+reviews: 24
 size: 
 website: https://www.moonxbt.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MoonXBT
 - https://www.reddit.com/r/MoonXBT
 redirect_from: 
+developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
 features: 
 
 ---

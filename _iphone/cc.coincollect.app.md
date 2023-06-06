@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coincollectHQ
 social: 
 features: 
+developerName: Autonomous Software Foundation
 
 ---
 

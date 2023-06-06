@@ -28,6 +28,7 @@ twitter: RealTPlatform
 social:
 - https://www.linkedin.com/company/realtplatform
 redirect_from: 
+developerName: Real Token Inc.
 features: 
 
 ---

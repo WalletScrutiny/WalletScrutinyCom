@@ -8,7 +8,7 @@ appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
-updated: 2023-05-08
+updated: 2023-05-11
 version: 2.23.20
 stars: 4.4
 reviews: 395
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
 features: 
+developerName: UAB Clear White Technologies
 
 ---
 

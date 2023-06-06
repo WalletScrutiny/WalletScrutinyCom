@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
 features: 
+developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED
 
 ---
 

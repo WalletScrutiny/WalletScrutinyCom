@@ -10,23 +10,24 @@ appCountry:
 released: 2021-05-20
 updated: 2021-05-20
 version: '1.0'
-stars: 4.6
+stars: 4.5
 ratings: 151
-reviews: 87
+reviews: 40
 size: 
 website: http://cryptocurrency-exchange.site
 repository: 
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-16
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Crypto Exchange App
 features: 
 
 ---

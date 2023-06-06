@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 redirect_from: 
+developerName: Obiex Inc.
 features: 
 
 ---

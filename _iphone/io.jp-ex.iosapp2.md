@@ -8,11 +8,11 @@ appId: io.jp-ex.iosapp2
 appCountry: jp
 idd: 1559708728
 released: 2021-04-22
-updated: 2023-04-14
-version: 2.73.794
-stars: 0
-reviews: 0
-size: '87549952'
+updated: 2023-06-02
+version: 2.78.818
+stars: 2
+reviews: 1
+size: '88273920'
 website: https://jp-ex.io/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 
 ---
 

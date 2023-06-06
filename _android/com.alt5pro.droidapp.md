@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
 - https://www.linkedin.com/company/alt-5-sigma 
 redirect_from: 
+developerName: Alt 5 Pro
 features: 
 
 ---

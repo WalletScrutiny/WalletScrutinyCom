@@ -12,7 +12,7 @@ updated: 2023-05-04
 version: 3.0.3
 stars: 3.4
 ratings: 
-reviews: 49
+reviews: 52
 size: 
 website: https://getarculus.com
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ
 - https://www.instagram.com/thisisarculus/
 redirect_from: 
+developerName: Arculus Holdings L.L.C.
 features: 
 
 ---

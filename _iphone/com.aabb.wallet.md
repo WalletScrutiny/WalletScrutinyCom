@@ -8,11 +8,11 @@ appId: com.aabb.wallet
 appCountry: ca
 idd: 1557298954
 released: 2021-03-14
-updated: 2023-03-27
-version: 1.0.246
+updated: 2023-05-29
+version: 1.0.256
 stars: 4.9
 reviews: 99
-size: '32274432'
+size: '33128448'
 website: https://aabbgoldtoken.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: AsiaBroadband
 social: 
 features: 
+developerName: Asia Broadband, Inc.
 
 ---
 

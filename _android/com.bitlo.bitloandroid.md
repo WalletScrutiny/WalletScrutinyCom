@@ -10,9 +10,9 @@ appCountry: TR
 released: 2020-12-18
 updated: 2023-04-28
 version: 2.1.0
-stars: 2.6
+stars: 2.8
 ratings: 
-reviews: 784
+reviews: 785
 size: 
 website: https://www.bitlo.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 redirect_from: 
+developerName: Bitlo Teknoloji A.Ş.
 features: 
 
 ---

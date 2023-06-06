@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 24Paybank
 social: 
 features: 
+developerName: XChangeCapitalGroup
 
 ---
 

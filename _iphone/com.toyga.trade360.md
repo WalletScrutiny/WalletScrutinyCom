@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/trade360ltd
 - https://www.facebook.com/Trade360LTD
 features: 
+developerName: Trade360 LTD
 
 ---
 

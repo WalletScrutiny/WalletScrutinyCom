@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bituniverse_org
 social: 
 redirect_from: 
+developerName: BitUniverse Co., Ltd (Cryptocurrency Portfolio)
 features: 
 
 ---

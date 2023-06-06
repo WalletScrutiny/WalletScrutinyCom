@@ -29,6 +29,7 @@ social:
 - https://t.me/AirWallet
 - https://www.facebook.com/airwalletofficial
 redirect_from: 
+developerName: AWTech Blockchain Solutions
 features: 
 
 ---
