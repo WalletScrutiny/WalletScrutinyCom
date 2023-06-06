@@ -3,7 +3,7 @@ wsId:
 title: MyPaytril - Crypto Exchanger
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mypaytrilversion2.mypaytrilversion2
 appCountry: 
 released: 2021-10-25
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: PROYA INT.
 features: 
 
 ---

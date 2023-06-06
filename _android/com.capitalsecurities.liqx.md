@@ -8,8 +8,8 @@ users: 5000
 appId: com.capitalsecurities.liqx
 appCountry: 
 released: 
-updated: 2023-04-14
-version: 2.2.3
+updated: 2023-05-31
+version: 2.2.5
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Capital Securities S.A.
 features: 
 
 ---

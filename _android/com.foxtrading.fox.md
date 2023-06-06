@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/FoxTradingSignals
 - https://www.instagram.com/foxtradingsignals/
 redirect_from: 
+developerName: Fox Trading SL
 features: 
 
 ---

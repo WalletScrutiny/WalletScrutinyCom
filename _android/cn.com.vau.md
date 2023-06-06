@@ -8,11 +8,11 @@ users: 1000000
 appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
-updated: 2023-04-05
-version: 3.2.2
-stars: 4
+updated: 2023-05-14
+version: 3.2.3
+stars: 3.9
 ratings: 8949
-reviews: 1877
+reviews: 1908
 size: 
 website: https://www.vantagemarkets.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
 redirect_from: 
+developerName: Vantage Global Prime PTY LTD
 features: 
 
 ---

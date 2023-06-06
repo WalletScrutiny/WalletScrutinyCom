@@ -10,8 +10,8 @@ idd: '1492464010'
 released: 2020-03-10
 updated: 2022-09-22
 version: 0.5.1.4
-stars: 4.6
-reviews: 16
+stars: 4.5
+reviews: 15
 size: '77135872'
 website: https://stibits.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: stibits
 social: 
 features: 
+developerName: Stibits
 
 ---
 

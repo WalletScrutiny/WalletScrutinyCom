@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Nguyen Van Tuyen
 features: 
 
 ---

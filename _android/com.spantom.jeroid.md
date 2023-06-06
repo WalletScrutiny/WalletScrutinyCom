@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-07-05
 updated: 2022-10-22
 version: 1.4.2
-stars: 2.5
+stars: 2.6
 ratings: 248
 reviews: 21
 size: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: jeroidng
 social: 
 redirect_from: 
+developerName: JeroidNG LTD
 features: 
 
 ---

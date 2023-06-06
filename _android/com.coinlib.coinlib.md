@@ -28,6 +28,7 @@ twitter: coinlibio
 social:
 - https://www.facebook.com/coinlib/
 redirect_from: 
+developerName: Coinlib
 features: 
 
 ---

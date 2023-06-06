@@ -8,11 +8,11 @@ appId: com.blockchain.exchangeapp
 appCountry: us
 idd: '1557515848'
 released: 2021-09-13
-updated: 2023-05-08
-version: 202304.1.1
-stars: 4
-reviews: 117
-size: '123292672'
+updated: 2023-05-14
+version: 202305.1.1
+stars: 4.1
+reviews: 120
+size: '123325440'
 website: https://exchange.blockchain.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: blockchain
 social:
 - https://www.instagram.com/blockchainofficial
 features: 
+developerName: Blockchain
 
 ---
 

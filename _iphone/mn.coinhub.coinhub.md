@@ -27,6 +27,7 @@ twitter: CoinhubMongolia
 social:
 - https://www.linkedin.com/company/coinhub-mongolia/
 features: 
+developerName: CoinHUB
 
 ---
 

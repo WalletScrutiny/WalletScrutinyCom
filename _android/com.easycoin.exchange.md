@@ -8,8 +8,8 @@ users: 10000
 appId: com.easycoin.exchange
 appCountry: 
 released: 2022-05-16
-updated: 2023-04-21
-version: 1.0.68
+updated: 2023-05-24
+version: 1.0.73
 stars: 5
 ratings: 
 reviews: 33
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/EasyCoins/
 - https://t.me/easycoins888
 redirect_from: 
+developerName: EasyCoins
 features: 
 
 ---

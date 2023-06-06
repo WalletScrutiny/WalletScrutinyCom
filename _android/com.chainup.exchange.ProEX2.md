@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/proex.io
 - https://www.proex.io 
 redirect_from: 
+developerName: ProEX
 features: 
 
 ---

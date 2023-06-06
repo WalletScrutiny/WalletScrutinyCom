@@ -27,6 +27,7 @@ twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb
 features: 
+developerName: Bithumb Korea Co., Ltd.
 
 ---
 

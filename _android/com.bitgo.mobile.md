@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg
 - https://www.linkedin.com/company/bitgo-inc 
 redirect_from: 
+developerName: BitGo, Inc
 features: 
 
 ---

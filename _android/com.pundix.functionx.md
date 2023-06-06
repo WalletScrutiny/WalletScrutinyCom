@@ -12,7 +12,7 @@ updated: 2023-03-17
 version: 2.5.0
 stars: 3.6
 ratings: 363
-reviews: 37
+reviews: 38
 size: 
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/functionx
 - https://www.facebook.com/FunctionX.io
 redirect_from: 
+developerName: Pundi X Labs
 features: 
 
 ---

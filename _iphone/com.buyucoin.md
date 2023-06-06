@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BuyUcoin
 - https://www.reddit.com/r/BuyUcoin
 features: 
+developerName: 
 
 ---
 

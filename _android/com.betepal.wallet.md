@@ -2,7 +2,7 @@
 wsId: 
 title: Betepal Wallet - 币宝 钱包 安全加密 US
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 1000
 appId: com.betepal.wallet
@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.betepal.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-05-12
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Betepal
 features: 
 
 ---

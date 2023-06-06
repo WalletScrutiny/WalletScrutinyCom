@@ -10,7 +10,7 @@ appCountry:
 released: 2021-11-15
 updated: 2023-01-04
 version: 1.1.4
-stars: 3.6
+stars: 3.5
 ratings: 
 reviews: 38
 size: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/switchere
 - https://www.reddit.com/user/switchere
 redirect_from: 
+developerName: Switchere
 features: 
 
 ---

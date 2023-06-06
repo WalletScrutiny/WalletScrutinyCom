@@ -8,8 +8,8 @@ users: 5000
 appId: com.doubleace.wallet
 appCountry: 
 released: 
-updated: 2023-03-21
-version: 1.2.3
+updated: 2023-05-06
+version: 1.3.11
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: DAAFinance
 social:
 - https://www.facebook.com/aceewallet
 redirect_from: 
+developerName: Maxi Anchor SDN BHD
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /paydeepp.elegro.io/
 - /posts/paydeepp.elegro.io/
+developerName: Niko Technologies
 features: 
 
 ---

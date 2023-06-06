@@ -20,12 +20,13 @@ icon: com.viktraders.www.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2023-01-02
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

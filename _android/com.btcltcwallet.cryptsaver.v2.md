@@ -3,7 +3,7 @@ wsId:
 title: Crypt Saver
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.btcltcwallet.cryptsaver.v2
 appCountry: 
 released: 2020-10-09
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ezze Soft House
 features: 
 
 ---

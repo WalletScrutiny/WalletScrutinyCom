@@ -11,7 +11,7 @@ updated: 2023-03-17
 version: 1.0.1
 stars: 2.5
 ratings: 1855
-reviews: 41
+reviews: 42
 size: 
 website: https://coinsbit.io/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Coinsbit
 features: 
 
 ---

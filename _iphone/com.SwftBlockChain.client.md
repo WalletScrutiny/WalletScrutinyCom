@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/swftcoin
 - https://www.facebook.com/SWFTBlockchain
 features: 
+developerName: Smart Worldwide Financial Technology Inc.
 
 ---
 

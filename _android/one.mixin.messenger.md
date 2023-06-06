@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/MixinNetwork
 - https://www.reddit.com/r/mixin
 redirect_from: 
+developerName: Mixin Ltd
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
 features: 
+developerName: BITLEAGUE LLC
 
 ---
 

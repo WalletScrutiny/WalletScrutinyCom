@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitpie
 appCountry: 
 released: 2016-10-23
-updated: 2023-05-06
-version: 5.0.138.g
+updated: 2023-05-30
+version: 5.0.141.g
 stars: 3.8
 ratings: 847
 reviews: 117
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.bitpie/
 - /posts/com.bitpie/
+developerName: getcai
 features:
 - ln
 

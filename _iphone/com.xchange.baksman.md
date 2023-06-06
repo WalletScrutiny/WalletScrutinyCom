@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/baksmancom
 features: 
+developerName: XChangeCapitalGroup
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2022-02-01
 version: 3.0.7
 stars: 4.6
 ratings: 9788
-reviews: 2129
+reviews: 2135
 size: 
 website: http://www.barchart.com/app
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/barchart.com-inc.
 - https://www.facebook.com/Barchart
 redirect_from: 
+developerName: Barchart.com
 features: 
 
 ---

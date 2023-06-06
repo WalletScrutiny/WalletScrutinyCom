@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: رمزینگیت|خرید آنی تتر و رمزارز
+title: Ramzingate | Crypto exchange
 altTitle: 
 authors: 
 users: 1000
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: OnMind AI
 features: 
 
 ---

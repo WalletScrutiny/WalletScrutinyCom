@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ZuPago HyBrid HD Wallet
 features: 
 
 ---

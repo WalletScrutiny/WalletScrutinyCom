@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/salletone
 - https://github.com/SalletOne
 redirect_from: 
+developerName: Sallet One
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: nowWallet
-title: 'NOW Wallet: Buy Bitcoin Crypto'
+title: 'NOW Wallet: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2023-05-05
-version: 3.5.7
-stars: 4.5
+updated: 2023-05-29
+version: 3.6.1
+stars: 4.6
 ratings: 
-reviews: 67
+reviews: 68
 size: 
 website: https://walletnow.app
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/NOWWallet_channel
 - https://www.reddit.com/r/ChangeNOW_io/
 redirect_from: 
+developerName: ChangeNOW
 features: 
 
 ---

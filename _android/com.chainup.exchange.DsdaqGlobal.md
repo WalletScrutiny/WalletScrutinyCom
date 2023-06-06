@@ -27,6 +27,7 @@ reviewArchive:
 twitter: DsdaqCom
 social: 
 redirect_from: 
+developerName: Dsdaq Market Ltd.
 features: 
 
 ---

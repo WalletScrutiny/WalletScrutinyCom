@@ -28,6 +28,7 @@ twitter:
 social:
 - https://t.me/panthira_official
 redirect_from: 
+developerName: Panthira Exchange
 features: 
 
 ---

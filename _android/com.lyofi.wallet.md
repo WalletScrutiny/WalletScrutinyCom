@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: lyowallet
 title: 'LYO WALLET: NFTs & Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.lyofi.wallet
 appCountry: 
 released: 2022-05-20
-updated: 2023-04-11
-version: 1.3.4
+updated: 2023-05-22
+version: 1.4.1
 stars: 
 ratings: 
 reviews: 
@@ -19,14 +20,28 @@ issue:
 icon: com.lyofi.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: nosource
+date: 2023-04-28
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: lyopayofficial
+social:
+- https://www.facebook.com/lyopayofficial
+- https://www.instagram.com/lyopayofficial/
+- https://t.me/lyopay
+- https://www.linkedin.com/company/lyopay/
 redirect_from: 
+developerName: DIGILYO APP LTD
 features: 
 
 ---
 
+## App Description 
+
+> LYOWALLET is a non-custodial crypto wallet. You have full control of your key and digital assets, such as cryptocurrencies, tokens, and NFTs. As it is non-custodial, your keys are stored on your device only and never shared with anyone.
+> 
+> Bitcoin (BTC), Ethereum (ETH), LYO Credit (LYO), and many others!
+
+## Analysis
+
+**Nowhere in the app description and in the website is the app described as having its source code publicly available**. We also did not find any pertinent repositories on GitHub containing the app ID of this app. 

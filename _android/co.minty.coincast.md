@@ -12,7 +12,7 @@ updated: 2022-05-13
 version: 1.2.15
 stars: 3.7
 ratings: 8
-reviews: 27
+reviews: 28
 size: 
 website: https://coincast.app
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.tiktok.com/@Coincast
 - https://www.reddit.com/r/Coincast/
 redirect_from: 
+developerName: Minty Networks, LLC
 features: 
 
 ---

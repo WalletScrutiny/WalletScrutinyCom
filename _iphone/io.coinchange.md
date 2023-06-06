@@ -10,8 +10,8 @@ idd: '1585629448'
 released: 2021-11-09
 updated: 2023-04-18
 version: 2.0.2
-stars: 4.1
-reviews: 40
+stars: 4.2
+reviews: 39
 size: '149646336'
 website: https://www.coinchange.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinchangeio/
 - https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
 features: 
+developerName: Coinchange Financials Inc
 
 ---
 

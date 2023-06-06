@@ -28,6 +28,7 @@ twitter: Xerium3
 social:
 - https://www.facebook.com/Xerium
 redirect_from: 
+developerName: Xeriumtech
 features: 
 
 ---

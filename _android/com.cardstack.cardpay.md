@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/cardstack
 - https://telegram.me/cardstack 
 redirect_from: 
+developerName: Cardstack Services Pte. Ltd
 features: 
 
 ---

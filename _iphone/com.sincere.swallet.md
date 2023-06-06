@@ -11,7 +11,7 @@ released: 2022-04-06
 updated: 2023-04-24
 version: 2.6.0
 stars: 4.8
-reviews: 157
+reviews: 159
 size: '49532928'
 website: https://s-wallet.ai
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/SWallet.en
 - https://t.me/SWallet_ai
 features: 
+developerName: Swallet OU
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinCola
 - https://www.reddit.com/r/coincolaofficial
 features: 
+developerName: 
 
 ---
 

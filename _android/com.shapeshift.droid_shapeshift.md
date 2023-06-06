@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ShapeShiftPlatform
 redirect_from:
 - /com.shapeshift.droid_shapeshift/
+developerName: ShapeShift.com
 features: 
 
 ---

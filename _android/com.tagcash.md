@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tagcash-ltd/
 - https://www.facebook.com/tagcashrewards
 redirect_from: 
+developerName: Tagcash Ltd
 features: 
 
 ---

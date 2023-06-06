@@ -1,6 +1,6 @@
 ---
 wsId: OGPay
-title: OGPay
+title: OGPay Business
 altTitle: 
 authors:
 - danny
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Original Digital Corporation
 features: 
 
 ---

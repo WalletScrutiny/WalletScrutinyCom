@@ -27,6 +27,7 @@ reviewArchive:
 twitter: ecomi_
 social: 
 redirect_from: 
+developerName: Ecomi
 features: 
 
 ---

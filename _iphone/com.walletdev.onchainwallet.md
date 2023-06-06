@@ -9,11 +9,11 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2023-03-29
-version: 3.3.4
-stars: 3.8
-reviews: 163
-size: '119942144'
+updated: 2023-05-22
+version: 3.3.5
+stars: 3.7
+reviews: 159
+size: '120071168'
 website: https://www.itoken.com/en/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
 features: 
+developerName: BlazekTech Internet Technology Service Limited
 
 ---
 
