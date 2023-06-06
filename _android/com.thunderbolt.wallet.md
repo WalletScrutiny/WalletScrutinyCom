@@ -9,9 +9,9 @@ appCountry:
 released: 2021-08-29
 updated: 2021-08-29
 version: 1.0.3
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 43
+reviews: 31
 size: 
 website: https://thunderboltwallet.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: EncryptDR
 features:
 - ln
 

@@ -11,7 +11,7 @@ released: 2019-05-30
 updated: 2023-05-05
 version: 2.0.2
 stars: 4.9
-reviews: 11
+reviews: 12
 size: '17238016'
 website: https://skilling.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/skilling
 - https://www.facebook.com/SkillingTrading
 features: 
+developerName: Skilling Limited
 
 ---
 

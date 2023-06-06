@@ -27,6 +27,7 @@ reviewArchive:
 twitter: sbg_global
 social: 
 redirect_from: 
+developerName: SBG GLOBAL
 features: 
 
 ---

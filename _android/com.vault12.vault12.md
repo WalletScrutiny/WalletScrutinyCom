@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: 'Vault12 Guard: Inherit Web3'
+title: 'Vault12 Guard: Inherit+Secure'
 altTitle: 
 authors:
 - danny
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/vault12/
 - https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 redirect_from: 
+developerName: Vault12
 features: 
 
 ---

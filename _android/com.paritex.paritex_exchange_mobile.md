@@ -27,6 +27,7 @@ reviewArchive:
 twitter: paritexexchange
 social: 
 redirect_from: 
+developerName: Paritex
 features: 
 
 ---

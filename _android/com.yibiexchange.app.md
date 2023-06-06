@@ -7,8 +7,8 @@ users: 5000
 appId: com.yibiexchange.app
 appCountry: 
 released: 2022-04-11
-updated: 2023-05-06
-version: 1.3.52
+updated: 2023-06-02
+version: 1.3.56
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: YIBI
 features: 
 
 ---

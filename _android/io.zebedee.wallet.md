@@ -4,15 +4,15 @@ title: 'ZEBEDEE: Play. Earn. Shop.'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2023-04-17
-version: 2.92.2
-stars: 3.6
+updated: 2023-05-09
+version: 2.99.0
+stars: 3.7
 ratings: 358
-reviews: 688
+reviews: 730
 size: 
 website: https://zebedee.io
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: zebedeeio
 social: 
 redirect_from: 
+developerName: ZEBEDEE
 features:
 - ln
 

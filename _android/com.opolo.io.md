@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.opolo.io.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-06-10
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: OpoloWallet
@@ -31,6 +31,7 @@ social:
 - https://www.pinterest.com/opolowallet/_saved/
 - https://medium.com/@OPOLOCosmos
 redirect_from: 
+developerName: OPOLO
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/ProtonChain
 - https://github.com/ProtonProtocol
 features: 
+developerName: 
 
 ---
 

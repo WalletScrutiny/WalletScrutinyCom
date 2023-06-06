@@ -28,6 +28,7 @@ twitter: CofinexExchange
 social:
 - https://www.linkedin.com/company/cofinex-exchange
 redirect_from: 
+developerName: 
 features: 
 
 ---

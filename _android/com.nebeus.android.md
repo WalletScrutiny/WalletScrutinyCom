@@ -28,6 +28,7 @@ twitter: NebeusWorld
 social:
 - https://www.linkedin.com/company/nebeus/
 redirect_from: 
+developerName: Rintral Trading SL
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cloud.app.mandala.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-12-17
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: mandalaex
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
 redirect_from: 
+developerName: MandalaEx
 features: 
 
 ---

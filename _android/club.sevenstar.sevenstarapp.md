@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: club.sevenstar.sevenstarapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-05-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Exchangily LLC
 features: 
 
 ---

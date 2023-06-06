@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.omnic.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-04-27
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AIO Synergy Holdings Bhd
 features: 
 
 ---

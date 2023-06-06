@@ -27,6 +27,7 @@ twitter: F2Pool_Official
 social:
 - https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
 features: 
+developerName: F2Pool Information Technology Co., Ltd.
 
 ---
 

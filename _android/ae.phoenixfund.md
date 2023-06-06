@@ -28,6 +28,7 @@ twitter:
 social: 
 - info@plana.ae
 redirect_from: 
+developerName: PLAN A WEB DESIGN
 features: 
 
 ---

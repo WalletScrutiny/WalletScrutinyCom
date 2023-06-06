@@ -28,6 +28,7 @@ twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org
 redirect_from: 
+developerName: 
 features: 
 
 ---

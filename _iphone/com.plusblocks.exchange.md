@@ -26,6 +26,7 @@ twitter: box_trad
 social:
 - https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 features: 
+developerName: PlusBlocks Technology Limited
 
 ---
 

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: RiseWallet
 social: 
 features: 
+developerName: 
 
 ---
 

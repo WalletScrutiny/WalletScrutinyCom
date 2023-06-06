@@ -13,7 +13,7 @@ updated: 2023-04-21
 version: 2.3.0
 stars: 3.3
 ratings: 27085
-reviews: 13258
+reviews: 13292
 size: 
 website: https://chivowallet.com
 repository: 
@@ -34,6 +34,7 @@ twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
 redirect_from: 
+developerName: Gobierno de El Salvador
 features: 
 
 ---

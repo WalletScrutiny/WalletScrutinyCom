@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.vidulumwallet.app/
 - /posts/com.vidulumwallet.app/
+developerName: Vidulum LLC
 features: 
 
 ---

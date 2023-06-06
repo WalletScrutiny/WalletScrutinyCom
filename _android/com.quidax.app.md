@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/quidax
 - https://www.facebook.com/quidaxafrica
 redirect_from: 
+developerName: 
 features: 
 
 ---

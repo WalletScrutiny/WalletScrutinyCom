@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/thearyaapp
 - https://www.facebook.com/WeloveArya
 features: 
+developerName: TechX
 
 ---
 

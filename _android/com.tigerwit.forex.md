@@ -28,6 +28,7 @@ twitter: TigerWitGlobal
 social:
 - https://www.linkedin.com/company/tigerwit-group-
 redirect_from: 
+developerName: TigerWit Limited
 features: 
 
 ---

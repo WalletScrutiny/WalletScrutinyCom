@@ -26,6 +26,7 @@ reviewArchive:
 twitter: realcoinunited
 social: 
 features: 
+developerName: CoinUnited Limited
 
 ---
 

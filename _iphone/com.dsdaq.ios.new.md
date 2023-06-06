@@ -27,6 +27,7 @@ twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
 features: 
+developerName: Dsdaq Market Ltd.
 
 ---
 

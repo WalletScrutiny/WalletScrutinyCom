@@ -8,8 +8,8 @@ users: 10000
 appId: one.citadel.mobile
 appCountry: 
 released: 2020-12-29
-updated: 2023-04-21
-version: 2.9.1
+updated: 2023-05-18
+version: 2.9.5
 stars: 4.5
 ratings: 
 reviews: 10
@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/citadel-one/
 - https://www.facebook.com/Citadel.One
 redirect_from: 
+developerName: Citadel.one
 features: 
 
 ---

@@ -4,15 +4,16 @@ title: Electrum Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- Mohammad Rafigh
 users: 500000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2023-05-04
-version: 4.4.2.0
-stars: 3.8
+updated: 2023-05-31
+version: 4.4.4.0
+stars: 3.7
 ratings: 2500
-reviews: 307
+reviews: 310
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -58,9 +59,7 @@ twitter: ElectrumWallet
 social: 
 redirect_from:
 - /electrum/
-- /org.electrum.electrum/
-- /posts/2019/12/elecrtum/
-- /posts/org.electrum.electrum/
+developerName: Electrum Technologies GmbH
 features:
 - ln
 

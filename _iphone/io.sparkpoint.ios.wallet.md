@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/sparkpointio
 - https://www.reddit.com/r/SparkPoint
 features: 
+developerName: SparkPoint Technologies, Inc.
 
 ---
 

@@ -28,6 +28,7 @@ twitter: IHCoinofficial
 social:
 - https://www.facebook.com/IHCoinGlobal
 redirect_from: 
+developerName: IHBIT
 features: 
 
 ---

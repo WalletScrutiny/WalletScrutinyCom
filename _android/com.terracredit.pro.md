@@ -27,6 +27,7 @@ reviewArchive:
 twitter: terrabitcrypto
 social: 
 redirect_from: 
+developerName: The Terra Foundation
 features: 
 
 ---

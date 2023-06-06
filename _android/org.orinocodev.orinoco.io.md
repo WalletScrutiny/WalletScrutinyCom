@@ -8,9 +8,9 @@ users: 10000
 appId: org.orinocodev.orinoco.io
 appCountry: 
 released: 2020-04-26
-updated: 2023-05-02
+updated: 2023-05-18
 version: 1.0.0
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 10
 size: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/teamorinoco/videos/554519616420848
 redirect_from: 
+developerName: Orinoco Dev
 features: 
 
 ---

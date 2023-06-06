@@ -8,8 +8,8 @@ users: 50000
 appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
-updated: 2023-04-13
-version: 3.0.2
+updated: 2023-05-24
+version: 3.0.3
 stars: 4.5
 ratings: 1588
 reviews: 24
@@ -28,6 +28,7 @@ twitter: FameexGlobal
 social:
 - https://www.facebook.com/FAMEEXGLOBAL
 redirect_from: 
+developerName: FAMEEX INTERNATIONAL PTY LTD
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 10000
 appId: com.deribit
 appCountry: 
 released: 2018-01-10
-updated: 2023-04-24
-version: 3.2.0
+updated: 2023-05-30
+version: 3.2.1
 stars: 4
 ratings: 
 reviews: 5
@@ -31,6 +31,7 @@ social:
 - https://t.me/deribit
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
 redirect_from: 
+developerName: Deribit
 features: 
 
 ---

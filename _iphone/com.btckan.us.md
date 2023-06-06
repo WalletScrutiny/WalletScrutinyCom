@@ -26,6 +26,7 @@ reviewArchive:
 twitter: bitkanofficial
 social: 
 features: 
+developerName: BITBANG LIMITED
 
 ---
 

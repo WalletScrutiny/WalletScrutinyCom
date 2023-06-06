@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-06
 updated: 2023-05-04
 version: v1.13.0
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 6
 size: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/LetsBit
 - https://www.instagram.com/letsbit/
 redirect_from: 
+developerName: Let'sBit
 features: 
 
 ---

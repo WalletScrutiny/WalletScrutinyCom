@@ -27,6 +27,7 @@ reviewArchive:
 twitter: ParticlProject
 social: 
 redirect_from: 
+developerName: Particl Foundation
 features: 
 
 ---

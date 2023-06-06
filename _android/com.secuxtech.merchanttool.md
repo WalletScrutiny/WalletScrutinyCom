@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SecuX
 features: 
 
 ---

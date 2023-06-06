@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinflex
 - https://www.facebook.com/coinflexdotcom
 redirect_from: 
+developerName: 
 features: 
 
 ---

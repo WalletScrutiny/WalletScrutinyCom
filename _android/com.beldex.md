@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/beldex-coin
 - https://www.facebook.com/beldexofficial
 redirect_from: 
+developerName: 
 features: 
 
 ---

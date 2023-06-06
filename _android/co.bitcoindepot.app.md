@@ -12,7 +12,7 @@ updated: 2023-03-28
 version: 2.2.6
 stars: 4
 ratings: 105
-reviews: 94
+reviews: 99
 size: 
 website: https://www.bitcoindepot.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
 redirect_from: 
+developerName: Bitcoin Depot
 features: 
 
 ---

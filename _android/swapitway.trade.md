@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/swapitway
 - swapitway@gmail.com 
 redirect_from: 
+developerName: Nairance Limited
 features: 
 
 ---
