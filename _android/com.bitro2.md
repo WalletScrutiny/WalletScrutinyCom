@@ -3,7 +3,7 @@ wsId:
 title: Bitro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitro2
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/%EA%B2%9C%ED%8D%BC-2178994162345350
-- https://www.youtube.com/channel/UCvF95zGgUlY2G6Lkb1GO-fw 
+- https://www.youtube.com/channel/UCvF95zGgUlY2G6Lkb1GO-fw
 redirect_from: 
 developerName: Gameper
 features: 

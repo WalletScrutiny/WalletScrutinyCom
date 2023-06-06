@@ -3,7 +3,7 @@ wsId:
 title: BitAnex Pro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: org.bitanex.bitanexpro
 appCountry: 

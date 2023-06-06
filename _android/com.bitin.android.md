@@ -3,7 +3,7 @@ wsId:
 title: BITIN קנה ומכור ביטקוין בביטין
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitin.android
 appCountry: 

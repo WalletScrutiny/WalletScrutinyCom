@@ -3,7 +3,7 @@ wsId:
 title: Bits.Money
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitsmoney.mobile
 appCountry: 

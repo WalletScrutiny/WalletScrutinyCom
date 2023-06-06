@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Investment
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitcoin_investment
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: COINVEST INVESTMENTS
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: coinvest.investment
 appCountry: 

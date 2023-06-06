@@ -2,8 +2,8 @@
 wsId: 
 title: Betepal Wallet - 币宝 钱包 安全加密 US
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 1000
 appId: com.betepal.wallet
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: AyrexTrading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ayrex.trading.dlvc
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-11
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 redirect_from: 
 developerName: Charu Prakash
 features: 

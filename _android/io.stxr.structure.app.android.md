@@ -3,7 +3,7 @@ wsId: structureBuyCrypto
 title: 'Structure: Buy Crypto & Stocks'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.stxr.structure.app.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: structure_fi
 social:
 - https://www.linkedin.com/company/structurefi
 - https://t.me/Structure_Official
-- https://discord.com/invite/5KGUYEsxBv 
+- https://discord.com/invite/5KGUYEsxBv
 redirect_from: 
 developerName: Structure
 features: 

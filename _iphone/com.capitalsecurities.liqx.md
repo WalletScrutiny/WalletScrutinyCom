@@ -3,16 +3,16 @@ wsId: liquidityX
 title: 'LiquidityX: CFD Online Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.capitalsecurities.liqx
 appCountry: ch
 idd: '1535931066'
-released: '2021-10-13T07:00:00Z'
-updated: 2023-04-16
-version: 2.5.3
+released: 2021-10-13
+updated: 2023-05-31
+version: 2.5.4
 stars: 0
 reviews: 0
-size: '112303104'
+size: '111727616'
 website: https://www.liquidityx.com/eu/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Capital Securities S.A.
 
 ---
 

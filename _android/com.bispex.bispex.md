@@ -3,7 +3,7 @@ wsId:
 title: BISPEX(비스펙스)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bispex.bispex
 appCountry: 

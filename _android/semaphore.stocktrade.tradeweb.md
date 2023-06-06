@@ -2,7 +2,7 @@
 wsId: 
 title: 증권통 가상화폐(코인원)
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: semaphore.stocktrade.tradeweb

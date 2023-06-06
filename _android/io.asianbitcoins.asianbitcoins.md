@@ -3,7 +3,7 @@ wsId:
 title: AsianBitcoins - Making Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.asianbitcoins.asianbitcoins
 appCountry: 
@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png
 bugbounty: 
-meta: defunct 
+meta: defunct
 verdict: wip
 date: 2023-05-05
 signer: 

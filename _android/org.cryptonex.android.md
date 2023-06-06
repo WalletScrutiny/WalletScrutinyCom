@@ -3,7 +3,7 @@ wsId:
 title: Cryptonex (CNX)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: org.cryptonex.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Cryptonex_CNX
 social:
 - https://www.linkedin.com/company/cryptonex
 - https://t.me/cryptonexCNX
-- https://www.facebook.com/Cryptonex.org 
+- https://www.facebook.com/Cryptonex.org
 redirect_from: 
 developerName: Cryptonex LP
 features: 

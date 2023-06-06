@@ -3,7 +3,7 @@ wsId: biteEU
 title: Biteeu
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bit.eu
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-12
 signer: 
 reviewArchive: 
 twitter: BiteeuExchange
-social: 
+social:
 - https://www.linkedin.com/company/biteeu
 - https://www.instagram.com/biteeu_exchange
 - https://t.me/biteeu_chat

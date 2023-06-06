@@ -3,7 +3,7 @@ wsId:
 title: BTC Bank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.application.btctr
 appCountry: 

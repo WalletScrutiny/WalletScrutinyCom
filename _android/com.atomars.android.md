@@ -3,7 +3,7 @@ wsId:
 title: Atomars
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.atomars.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: AtomarsExchange
 social:
 - https://t.me/AtomarsOfficial
 - https://www.facebook.com/AtomarsExchange
-- https://www.linkedin.com/company/atomars/ 
+- https://www.linkedin.com/company/atomars/
 redirect_from: 
 developerName: Atomars
 features: 

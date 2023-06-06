@@ -3,7 +3,7 @@ wsId:
 title: Zero Mobile Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: insight.zero.communitywallet
 appCountry: 

@@ -3,16 +3,17 @@ wsId:
 title: Dormant Bitcoin Seeker
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.maarcodev.dormantbitcoin
 appCountry: 
-released: Jan 1, 2021
+released: 2021-01-01
 updated: 2023-01-06
 version: '1.3'
 stars: 3.5
 ratings: 
 reviews: 2
+size: 
 website: 
 repository: 
 issue: 
@@ -26,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

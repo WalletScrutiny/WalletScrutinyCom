@@ -3,7 +3,7 @@ wsId:
 title: Folgory Merchant
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.folgory
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://web.archive.org/web/20220821164624/https://folgory.com/ 
+- https://web.archive.org/web/20220821164624/https://folgory.com/
 redirect_from: 
 developerName: Folgory
 features: 

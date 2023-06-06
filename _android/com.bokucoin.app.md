@@ -3,7 +3,7 @@ wsId:
 title: Bokucoin - Buy, Sell & Store B
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bokucoin.app
 appCountry: 

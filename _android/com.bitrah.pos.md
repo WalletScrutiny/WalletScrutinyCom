@@ -3,7 +3,7 @@ wsId:
 title: Bitrah
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitrah.pos
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/bitrah_com 
+- https://t.me/bitrah_com
 redirect_from: 
 developerName: Ernyka Co
 features: 

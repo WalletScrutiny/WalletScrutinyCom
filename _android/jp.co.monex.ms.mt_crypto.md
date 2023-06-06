@@ -3,7 +3,7 @@ wsId:
 title: MONEX TRADER CRYPTO　暗号資産CFD取引
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: jp.co.monex.ms.mt_crypto
 appCountry: 

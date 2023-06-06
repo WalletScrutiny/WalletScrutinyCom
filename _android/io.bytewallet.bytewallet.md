@@ -2,7 +2,7 @@
 wsId: byteWallet
 title: ByteWallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: io.bytewallet.bytewallet
@@ -25,7 +25,7 @@ date: 2023-05-05
 signer: 
 reviewArchive: 
 twitter: bytefederal
-social: 
+social:
 - https://www.facebook.com/bytefederal
 - https://www.instagram.com/bytefederalatm
 - https://www.youtube.com/channel/UCozOzfZ0MgqLT_TA7hbNh4g

@@ -3,7 +3,7 @@ wsId:
 title: Alterdice
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.alterdice.android
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/alterdice_channel_eng
 - https://www.facebook.com/profile.php?id=100083387708481
 - https://www.instagram.com/alterdice_
-- https://www.linkedin.com/company/alterdice/about/ 
+- https://www.linkedin.com/company/alterdice/about/
 redirect_from: 
 developerName: Alterdice Developers
 features: 

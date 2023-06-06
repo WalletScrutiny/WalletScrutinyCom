@@ -29,7 +29,7 @@ social:
 - https://t.me/emercoin_official
 - https://www.facebook.com/EmercoinOfficial
 - https://www.youtube.com/channel/UCeHlonUkITqe4PtpW8p4wmg
-- https://www.reddit.com/r/EmerCoin 
+- https://www.reddit.com/r/EmerCoin
 redirect_from: 
 developerName: olegarch
 features: 

@@ -8,8 +8,8 @@ users: 1000
 appId: app.jackbot
 appCountry: 
 released: 2021-01-05
-updated: 2023-06-03
-version: 4.5.2
+updated: 2023-06-06
+version: 4.5.5
 stars: 
 ratings: 
 reviews: 

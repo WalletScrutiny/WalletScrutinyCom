@@ -3,7 +3,7 @@ wsId: bitKipi
 title: Bitkipi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitkipi
 appCountry: 

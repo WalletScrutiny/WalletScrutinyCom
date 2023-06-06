@@ -3,7 +3,7 @@ wsId:
 title: Algowave
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.algowave.algowaveapp
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://web.archive.org/web/20211208164813/https://www.algowave.io/ 
+- https://web.archive.org/web/20211208164813/https://www.algowave.io/
 redirect_from: 
 developerName: Algowave LTD
 features: 

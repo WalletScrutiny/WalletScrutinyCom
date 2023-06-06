@@ -3,7 +3,7 @@ wsId:
 title: Bitkingdom
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitkingdomex.app.android
 appCountry: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-12-17
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: libertyx

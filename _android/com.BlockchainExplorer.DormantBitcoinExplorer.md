@@ -3,16 +3,17 @@ wsId:
 title: Dormant Bitcoin Explorer
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.BlockchainExplorer.DormantBitcoinExplorer
 appCountry: 
-released: Jan 3, 2023
+released: 2023-01-03
 updated: 2023-01-08
 version: 1.0.0
-stars: 3
+stars: 2.9
 ratings: 
-reviews: 3
+reviews: 4
+size: 
 website: 
 repository: 
 issue: 
@@ -26,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Blockchain Explorer
 features: 
 
 ---

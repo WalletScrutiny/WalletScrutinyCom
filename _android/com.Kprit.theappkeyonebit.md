@@ -3,7 +3,7 @@ wsId:
 title: Onekey&bit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.Kprit.theappkeyonebit
 appCountry: 
@@ -20,7 +20,7 @@ issue:
 icon: com.Kprit.theappkeyonebit.png
 bugbounty: 
 meta: stale
-verdict: fake 
+verdict: fake
 date: 2023-05-09
 signer: 
 reviewArchive: 

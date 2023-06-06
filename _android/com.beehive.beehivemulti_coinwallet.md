@@ -3,7 +3,7 @@ wsId:
 title: Beehive Multi-Coin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.beehive.beehivemulti_coinwallet
 appCountry: 

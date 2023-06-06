@@ -1,6 +1,6 @@
 ---
 wsId: Cofinex
-title: Cofinex Exchange
+title: Cofinex.io Buy BTC, ETH, LTC
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 1000
 appId: com.app.cofinexexchange34
 appCountry: sg
 released: 2021-02-12
-updated: 2021-02-12
-version: '1.0'
-stars: 3.3
+updated: 2022-12-08
+version: '3.0'
+stars: 
 ratings: 10
-reviews: 7
-size: 5.5M
-website: https://exchange.cofinex.io/
+reviews: 
+size: 
+website: https://cofinex.io
 repository: 
 issue: 
 icon: com.app.cofinexexchange34.png
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/cofinex.io
 - https://www.youtube.com/@cofinexexchange
 redirect_from: 
-developerName: 
+developerName: Cofinex Inc Ltd.
 features: 
 
 ---

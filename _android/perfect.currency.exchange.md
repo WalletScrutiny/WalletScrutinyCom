@@ -3,7 +3,7 @@ wsId:
 title: Perfect E-currency Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: perfect.currency.exchange
 appCountry: 

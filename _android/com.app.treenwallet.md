@@ -3,7 +3,7 @@ wsId:
 title: Treen Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.treenwallet
 appCountry: 

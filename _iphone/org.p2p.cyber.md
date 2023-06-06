@@ -1,18 +1,18 @@
 ---
 wsId: keyApp
-title: Key App — Solana Crypto Wallet
+title: 'Key App: send & receive USDC'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.p2p.cyber
 appCountry: CY
 idd: '1605603333'
-released: '2022-02-14T08:00:00Z'
-updated: 2023-02-23
-version: '2.3'
+released: 2022-02-14
+updated: 2023-06-01
+version: 2.7.1
 stars: 5
 reviews: 4
-size: '113541120'
+size: '127400960'
 website: https://key.app
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: P2P Wallet
 
 ---
 

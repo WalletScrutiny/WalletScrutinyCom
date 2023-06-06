@@ -3,7 +3,7 @@ wsId: liquidityX
 title: 'LiquidityX: CFD Online Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.capitalsecurities.liqx
 appCountry: 

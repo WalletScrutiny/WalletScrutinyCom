@@ -2,8 +2,8 @@
 wsId: 
 title: Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: jp.links.messenger
 appCountry: 

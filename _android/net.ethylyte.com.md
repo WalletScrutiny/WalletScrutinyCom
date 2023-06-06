@@ -3,7 +3,7 @@ wsId:
 title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: net.ethylyte.com
 appCountry: 

@@ -6,7 +6,7 @@ authors:
 appId: com.banexcoin.app.mobile
 appCountry: us
 idd: '1583296115'
-released: '2022-02-15T08:00:00Z'
+released: 2022-02-15
 updated: 2022-10-18
 version: 1.1.103
 stars: 4.2
@@ -25,6 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Banexcoin SA
 
 ---
 

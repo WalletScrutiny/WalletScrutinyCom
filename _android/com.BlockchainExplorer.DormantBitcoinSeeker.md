@@ -3,7 +3,7 @@ wsId:
 title: Dormant Bitcoin Seeker
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.BlockchainExplorer.DormantBitcoinSeeker
 appCountry: 

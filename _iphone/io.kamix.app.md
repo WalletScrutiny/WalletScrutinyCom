@@ -6,7 +6,7 @@ authors:
 appId: io.kamix.app
 appCountry: fr
 idd: '1496578894'
-released: '2020-06-05T07:00:00Z'
+released: 2020-06-05
 updated: 2023-04-04
 version: 2.1.6.2
 stars: 3
@@ -25,6 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Kamix
 
 ---
 

@@ -3,7 +3,7 @@ wsId:
 title: CoinHe
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.coinhe
 appCountry: 

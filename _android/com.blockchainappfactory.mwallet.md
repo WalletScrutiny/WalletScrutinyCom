@@ -3,7 +3,7 @@ wsId:
 title: M Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.blockchainappfactory.mwallet
 appCountry: 

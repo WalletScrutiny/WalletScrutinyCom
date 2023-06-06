@@ -3,7 +3,7 @@ wsId:
 title: BitcoinCore for Android
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: org.lndroid.bitcoincore
 appCountry: 

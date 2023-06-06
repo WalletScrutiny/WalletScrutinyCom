@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.defii
 appCountry: 
-released: Apr 24, 2021
+released: 2021-04-24
 updated: 2021-08-05
 version: 2.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://defii.app/
 repository: 
 issue: 
@@ -25,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CHT Innovative Technology PTE.  LTD
 features: 
 
 ---

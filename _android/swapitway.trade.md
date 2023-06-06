@@ -3,7 +3,7 @@ wsId:
 title: 'Swapitway: Gift Cards To Cash'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: swapitway.trade
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/swapitway
-- swapitway@gmail.com 
+- swapitway@gmail.com
 redirect_from: 
 developerName: Nairance Limited
 features: 

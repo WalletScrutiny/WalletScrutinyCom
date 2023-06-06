@@ -3,7 +3,7 @@ wsId:
 title: Bitbox Bitcoin Wallet & Exchan
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: bitbox.io
 appCountry: 

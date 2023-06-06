@@ -3,7 +3,7 @@ wsId:
 title: Kamix
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.kamix.kamix
 appCountry: 
@@ -28,7 +28,7 @@ twitter: KamixApp
 social:
 - https://www.linkedin.com/company/kamixapp
 - https://www.facebook.com/Kamixapp
-- https://www.instagram.com/kamixapp 
+- https://www.instagram.com/kamixapp
 redirect_from: 
 developerName: Kamix R&D
 features: 

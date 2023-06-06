@@ -3,7 +3,7 @@ wsId:
 title: BitBuddy –Buy & Sell Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: co.asachs.bitbuddy
 appCountry: 

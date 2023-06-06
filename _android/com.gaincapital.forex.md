@@ -8,8 +8,8 @@ users: 100000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11
-updated: 2023-06-01
-version: '1.141'
+updated: 2023-06-05
+version: '1.142'
 stars: 3.6
 ratings: 392
 reviews: 20

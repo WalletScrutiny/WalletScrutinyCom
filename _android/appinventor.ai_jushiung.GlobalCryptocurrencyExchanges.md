@@ -3,7 +3,7 @@ wsId:
 title: Global Cryptocurrency Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges
 appCountry: 

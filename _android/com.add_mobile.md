@@ -3,7 +3,7 @@ wsId:
 title: ADD - DeFi Wallet with Privacy
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.add_mobile
 appCountry: 

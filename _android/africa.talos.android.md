@@ -2,8 +2,8 @@
 wsId: 
 title: Talos
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 1000
 appId: africa.talos.android
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: TalosAfrica
-social: 
+social:
 - https://www.facebook.com/profile.php?id=100064741792233
 - https://www.linkedin.com/company/talos-africa
 - https://www.instagram.com/talos.africa

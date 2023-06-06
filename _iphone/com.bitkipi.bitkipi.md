@@ -3,11 +3,11 @@ wsId: bitKipi
 title: Bitkipi
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitkipi.bitkipi
 appCountry: gb
 idd: '1600263918'
-released: '2021-12-26T08:00:00Z'
+released: 2021-12-26
 updated: 2022-10-02
 version: 1.5.0
 stars: 0
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Kipi Technologies Sàrl
 
 ---
 

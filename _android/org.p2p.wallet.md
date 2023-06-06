@@ -3,7 +3,7 @@ wsId: keyApp
 title: 'Key App: send & receive money'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: org.p2p.wallet
 appCountry: 

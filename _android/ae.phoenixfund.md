@@ -2,7 +2,7 @@
 wsId: 
 title: Phoenix Fund
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: ae.phoenixfund
@@ -25,7 +25,7 @@ date: 2025-05-06
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - info@plana.ae
 redirect_from: 
 developerName: PLAN A WEB DESIGN

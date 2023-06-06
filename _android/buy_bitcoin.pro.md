@@ -3,7 +3,7 @@ wsId:
 title: buy-bitcoin.pro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: buy_bitcoin.pro
 appCountry: 

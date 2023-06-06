@@ -2,7 +2,7 @@
 wsId: 
 title: Ionia, Blockchain Financial Pl
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: tech.ionia.app

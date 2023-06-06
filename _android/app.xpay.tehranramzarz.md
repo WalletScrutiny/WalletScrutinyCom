@@ -3,7 +3,7 @@ wsId:
 title: تهران رمز ارز
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.xpay.tehranramzarz
 appCountry: 

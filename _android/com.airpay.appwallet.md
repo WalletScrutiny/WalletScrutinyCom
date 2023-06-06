@@ -2,7 +2,7 @@
 wsId: 
 title: AirPay wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 5000
 appId: com.airpay.appwallet
@@ -25,7 +25,7 @@ date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: airpayfinance
-social: 
+social:
 - https://facebook.com/airpaytoken
 - https://www.instagram.com/airpayofficial
 redirect_from: 

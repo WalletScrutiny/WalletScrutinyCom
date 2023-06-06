@@ -3,7 +3,7 @@ wsId: cardstack
 title: Card Pay Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cardstack.cardpay
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: cardstack
 social:
 - https://discord.com/invite/cardstack
-- https://telegram.me/cardstack 
+- https://telegram.me/cardstack
 redirect_from: 
 developerName: Cardstack Services Pte. Ltd
 features: 

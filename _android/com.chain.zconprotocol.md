@@ -3,7 +3,7 @@ wsId:
 title: BISKIT Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.chain.zconprotocol
 appCountry: 
@@ -28,7 +28,7 @@ twitter: BISKIT_TOKEN
 social:
 - https://t.me/biskitglobal
 - https://discord.com/invite/WSBke6hfWD
-- https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured 
+- https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured
 redirect_from: 
 developerName: KCNET CO.,LTD
 features: 

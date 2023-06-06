@@ -3,7 +3,7 @@ wsId:
 title: trade.io - Smarter crypto trad
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.trade.tradeio.eu
 appCountry: 

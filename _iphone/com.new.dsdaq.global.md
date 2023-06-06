@@ -3,11 +3,11 @@ wsId: dsdaqGlobal
 title: DsdaqGlobal
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.new.dsdaq.global
 appCountry: us
 idd: '1594151467'
-released: '2022-01-13T08:00:00Z'
+released: 2022-01-13
 updated: 2022-01-14
 version: 5.3.2
 stars: 0
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: DsdaqCom
 social: 
 features: 
+developerName: Dsdaq Market Ltd.
 
 ---
 

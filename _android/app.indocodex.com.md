@@ -2,7 +2,7 @@
 wsId: 
 title: IndocoDex - The Advanced Decen
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: app.indocodex.com
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/indocodex
 - https://www.youtube.com/channel/UCIxdFFckX14sU_1TD8fcFLQ
 - https://www.instagram.com/indocodex
-- admin@indocodex.com 
+- admin@indocodex.com
 redirect_from: 
 developerName: Indocodex - Rajacoin
 features: 

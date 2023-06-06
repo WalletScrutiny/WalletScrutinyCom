@@ -3,7 +3,7 @@ wsId:
 title: Arum Trade — Investing  & Trad
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.arumtrade.app.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: ArumTrade
 social:
 - https://www.facebook.com/arumtrade
 - https://www.instagram.com/arum_trade
-- https://web.archive.org/web/20220208231508/https://arumtrade.com/en/ 
+- https://web.archive.org/web/20220208231508/https://arumtrade.com/en/
 redirect_from: 
 developerName: Arum Trade Ltd
 features: 

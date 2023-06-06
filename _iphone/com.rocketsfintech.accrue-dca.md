@@ -10,8 +10,8 @@ idd: '1604973055'
 released: 2022-01-18
 updated: 2023-05-14
 version: 2.1.5
-stars: 4.5
-reviews: 180
+stars: 4.4
+reviews: 200
 size: '53683200'
 website: https://useaccrue.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Coinlend
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: org.coinlend
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Coinlend2018
 social:
 - https://www.facebook.com/Coinlend
-- https://t.me/CoinlendOfficial 
+- https://t.me/CoinlendOfficial
 - https://www.instagram.com/coinlend
 - https://www.reddit.com/r/Coinlend
 - https://www.youtube.com/channel/UCRxJGad2QnPFKnGuS8plqxg

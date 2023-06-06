@@ -3,7 +3,7 @@ wsId:
 title: e-Mal Digital Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: ae.efatoora.emal
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - info@e-mal.ae
 redirect_from: 
 developerName: eFatoora

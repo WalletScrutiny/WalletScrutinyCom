@@ -3,7 +3,7 @@ wsId:
 title: VTN Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: org.vrontonode.wallet
 appCountry: 

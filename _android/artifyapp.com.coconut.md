@@ -3,7 +3,7 @@ wsId:
 title: MELONA for BitMEX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: artifyapp.com.coconut
 appCountry: 

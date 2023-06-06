@@ -3,7 +3,7 @@ wsId:
 title: ABStocks
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.abstocks
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/ABStocksTR
 - https://www.youtube.com/channel/UC3cfWOAJWygI7MKKTqhfDIQ
-- https://www.linkedin.com/company/abcexchange/ 
+- https://www.linkedin.com/company/abcexchange/
 redirect_from: 
 developerName: ABStocks.com
 features: 

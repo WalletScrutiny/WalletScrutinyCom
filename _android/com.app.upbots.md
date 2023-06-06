@@ -3,7 +3,7 @@ wsId:
 title: UpBots
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.upbots
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/upbotscom
 - https://www.linkedin.com/company/upbots
 - https://www.youtube.com/channel/UCFjbtkzDJDlJVSS9AaBfLKA
-- https://www.facebook.com/UpBotscom 
+- https://www.facebook.com/UpBotscom
 redirect_from: 
 developerName: Upbots Gmbh
 features: 

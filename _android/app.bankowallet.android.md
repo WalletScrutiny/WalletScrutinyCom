@@ -3,7 +3,7 @@ wsId:
 title: Banko Wallet - Bitcoin, ETH, T
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.bankowallet.android
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - support@bankowallet.com
 - bankosup@gmail.com
 - https://www.facebook.com/BankoWallet
-- https://t.me/BankoWallet 
+- https://t.me/BankoWallet
 redirect_from: 
 developerName: BITROCK
 features: 

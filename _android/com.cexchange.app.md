@@ -3,7 +3,7 @@ wsId:
 title: 'c-Exchange: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cexchange.app
 appCountry: 
@@ -28,7 +28,7 @@ twitter: cExchange2
 social:
 - https://www.facebook.com/cexchange1
 - https://www.youtube.com/channel/UCrNgVFl6hE2gtBoNpjS0DVg
-- https://t.me/+SH-VNP--ecY15_fl 
+- https://t.me/+SH-VNP--ecY15_fl
 redirect_from: 
 developerName: NetMart Inc
 features: 

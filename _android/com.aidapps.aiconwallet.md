@@ -3,7 +3,7 @@ wsId:
 title: 에이콘 월렛
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.aidapps.aiconwallet
 appCountry: 

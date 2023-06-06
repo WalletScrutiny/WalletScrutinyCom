@@ -3,7 +3,7 @@ wsId:
 title: 페이블(Payble)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.payble
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-11
 signer: 
 reviewArchive: 
 twitter: mypayble
-social: 
+social:
 - https://www.instagram.com/mypayble
 - https://mypayble.com
 redirect_from: 

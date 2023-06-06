@@ -3,7 +3,7 @@ wsId:
 title: FFFEX Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.fffex
 appCountry: 

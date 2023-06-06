@@ -3,7 +3,7 @@ wsId:
 title: dCipher Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.androidwallet
 appCountry: 

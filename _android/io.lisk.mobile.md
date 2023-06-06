@@ -1,27 +1,28 @@
 ---
 wsId: liskMobile
+title: Lisk
 altTitle: 
 authors:
 - leo
 - danny
-users: 5000
+users: 10000
 appId: io.lisk.mobile
 appCountry: 
 released: 2018-10-02
-updated: 2021-03-25
-version: 1.4.1
+updated: 2022-03-21
+version: 2.1.1
 stars: 4.2
 ratings: 189
-reviews: 92
-size: 18M
-website: https://lisk.com
+reviews: 29
+size: 
+website: https://lisk.com/wallet
 repository: 
 issue: 
 icon: io.lisk.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-05-05
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: LiskHQ
@@ -30,9 +31,9 @@ social:
 - https://www.facebook.com/LiskHQ
 - https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg
 - https://t.me/Lisk_HQ
-- https://www.instagram.com/lisk_blockchain 
+- https://www.instagram.com/lisk_blockchain
 redirect_from: 
-developerName: 
+developerName: Lisk Foundation
 features: 
 
 ---

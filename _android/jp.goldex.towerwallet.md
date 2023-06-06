@@ -3,7 +3,7 @@ wsId:
 title: Tower Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: jp.goldex.towerwallet
 appCountry: 

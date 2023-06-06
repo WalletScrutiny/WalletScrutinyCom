@@ -3,11 +3,11 @@ wsId: biteEU
 title: BITEEU
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.idea-soft.biteeu
 appCountry: gb
 idd: '1472991783'
-released: '2019-07-24T07:00:00Z'
+released: 2019-07-24
 updated: 2022-08-25
 version: 1.5.0
 stars: 0
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: BITEEU LTD
 
 ---
 

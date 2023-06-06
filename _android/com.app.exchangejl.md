@@ -2,7 +2,7 @@
 wsId: 
 title: Krypterz
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.app.exchangejl
@@ -25,7 +25,7 @@ date: 2023-05-11
 signer: 
 reviewArchive: 
 twitter: Krypterzxchange
-social: 
+social:
 - https://www.facebook.com/Krypterz-101716118890363
 - https://www.linkedin.com/company/krypterz
 - info@krypterz.com

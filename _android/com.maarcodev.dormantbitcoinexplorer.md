@@ -3,7 +3,7 @@ wsId:
 title: Dormant Bitcoin Explorer
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.maarcodev.dormantbitcoinexplorer
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: AIRWALLET - Secure Cryptocurre
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.airwalletofficial.air_wallet
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://t.me/AirWallet
 - https://www.facebook.com/airwalletofficial
 redirect_from: 

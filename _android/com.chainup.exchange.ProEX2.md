@@ -3,7 +3,7 @@ wsId:
 title: Pro Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.chainup.exchange.ProEX2
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://t.me/ProExchange2
 - https://discord.com/invite/EG8rVx7qpU
 - https://www.instagram.com/proex.io
-- https://www.proex.io 
+- https://www.proex.io
 redirect_from: 
 developerName: ProEX
 features: 

@@ -3,7 +3,7 @@ wsId:
 title: 'Cryptopocket - Multi Currency '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.org.cryptopocket
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Banexcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.banexcoin.app.mobile
 appCountry: 
@@ -20,7 +20,7 @@ issue:
 icon: com.banexcoin.app.mobile.png
 bugbounty: 
 meta: ok
-verdict: custodial 
+verdict: custodial
 date: 2023-05-11
 signer: 
 reviewArchive: 
@@ -28,7 +28,7 @@ twitter: banexcoin
 social:
 - https://www.linkedin.com/company/banexcoin/
 - https://www.instagram.com/banexcoin/
-- https://www.facebook.com/banexcoin 
+- https://www.facebook.com/banexcoin
 redirect_from: 
 developerName: Banexcoin
 features: 

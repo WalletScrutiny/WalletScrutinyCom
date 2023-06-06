@@ -2,7 +2,7 @@
 wsId: 
 title: banq
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.banqreactnative

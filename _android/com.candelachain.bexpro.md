@@ -3,7 +3,7 @@ wsId:
 title: Bexpress pro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.candelachain.bexpro
 appCountry: 

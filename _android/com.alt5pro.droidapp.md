@@ -3,7 +3,7 @@ wsId:
 title: Alt 5 Pro
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.alt5pro.droidapp
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/alt5sigma
 - https://www.instagram.com/alt5sigma_
 - https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
-- https://www.linkedin.com/company/alt-5-sigma 
+- https://www.linkedin.com/company/alt-5-sigma
 redirect_from: 
 developerName: Alt 5 Pro
 features: 

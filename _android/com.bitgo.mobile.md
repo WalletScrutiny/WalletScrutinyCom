@@ -3,7 +3,7 @@ wsId: bitGo
 title: BitGo
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bitgo.mobile
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitGo
 social:
 - https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg
-- https://www.linkedin.com/company/bitgo-inc 
+- https://www.linkedin.com/company/bitgo-inc
 redirect_from: 
 developerName: BitGo, Inc
 features: 

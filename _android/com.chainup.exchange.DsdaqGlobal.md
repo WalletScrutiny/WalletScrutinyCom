@@ -3,7 +3,7 @@ wsId: dsdaqGlobal
 title: DsdaqGlobal
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.chainup.exchange.DsdaqGlobal
 appCountry: 

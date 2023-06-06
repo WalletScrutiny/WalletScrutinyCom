@@ -3,7 +3,7 @@ wsId:
 title: GCC
 altTitle: 
 authors:
-- danny  
+- danny
 users: 1000
 appId: com.baanx.gcc
 appCountry: 
