@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.application.bit900
 appCountry: 
-released: Oct 22, 2019
+released: 2019-10-22
 updated: 2020-06-26
 version: '1.24'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Trackon BTC
 features: 
 
 ---

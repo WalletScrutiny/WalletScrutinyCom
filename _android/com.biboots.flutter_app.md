@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.biboots.flutter_app
 appCountry: 
-released: Sep 25, 2021
+released: 2021-09-25
 updated: 2023-04-12
 version: 1.4.2
-stars: 2.3
+stars: 2.7
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.fairdesk.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/user/Fairdesk_Official
 - https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
 redirect_from: 
+developerName: Fairdesk Technology Limited
 features: 
 
 ---

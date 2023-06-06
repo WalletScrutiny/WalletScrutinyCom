@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.kangamobile
 appCountry: 
-released: Jan 3, 2020
-updated: 2023-04-20
-version: 1.14.0
-stars: 
+released: 2020-01-03
+updated: 2023-05-24
+version: 1.14.3
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://kanga.exchange
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
 - https://www.facebook.com/kanga.exchange/
 redirect_from: 
+developerName: Kanga Technologies
 features: 
 
 ---

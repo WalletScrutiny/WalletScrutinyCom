@@ -4,7 +4,7 @@ title: 'Aries: Investing & Trading'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.trading.aries
 appCountry: ng
 released: 2021-06-23
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tradearies
 - https://www.facebook.com/TradeAries
 redirect_from: 
+developerName: Aries Financial, LLC
 features: 
 
 ---

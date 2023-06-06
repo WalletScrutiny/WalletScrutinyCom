@@ -8,11 +8,11 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2023-04-28
+updated: 2023-06-02
 version: VARY
-stars: 3.9
+stars: 3.8
 ratings: 26669
-reviews: 1381
+reviews: 1382
 size: 
 website: https://www.dopamineapp.com
 repository: 
@@ -28,6 +28,7 @@ twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
 redirect_from: 
+developerName: Cortex AG
 features: 
 
 ---

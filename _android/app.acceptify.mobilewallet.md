@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.acceptify.mobilewallet
 appCountry: 
-released: Feb 17, 2021
+released: 2021-02-17
 updated: 2021-03-11
 version: 0.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Acceptify Limited
 features: 
 
 ---

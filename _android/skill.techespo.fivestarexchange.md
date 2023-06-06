@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: skill.techespo.fivestarexchange
 appCountry: 
-released: Aug 26, 2020
+released: 2020-08-26
 updated: 2020-08-27
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Pingulkars Technology Solutions Private Limited
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 users: 100000
 appId: com.yuh
 appCountry: 
-released: Apr 6, 2021
-updated: 2023-04-26
-version: 1.19.4
+released: 2021-04-06
+updated: 2023-05-30
+version: 1.19.8
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: yuh_app
 social:
 - https://www.facebook.com/yuhapp.en/
 redirect_from: 
+developerName: Swissquote Mobile
 features: 
 
 ---

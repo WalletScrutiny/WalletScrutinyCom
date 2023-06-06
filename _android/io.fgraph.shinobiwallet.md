@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: io.fgraph.shinobiwallet
 appCountry: 
-released: Jun 2, 2021
-updated: 2023-03-29
-version: 1.7.7
+released: 2021-06-02
+updated: 2023-05-10
+version: 1.7.9
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: FGRAPH OU
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.stibits
 appCountry: 
-released: Mar 10, 2022
+released: 2022-03-10
 updated: 2022-11-23
 version: 0.16BETA
 stars: 3.9
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: stibits
 social: 
 redirect_from: 
+developerName: Stibits
 features: 
 
 ---

@@ -3,11 +3,11 @@ wsId:
 title: Genbit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: br.com.treepart.genbit
 appCountry: 
-released: Nov 10, 2019
+released: 2019-11-10
 updated: 2019-11-16
 version: '1.2'
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: TreePart HDN
 features: 
 
 ---

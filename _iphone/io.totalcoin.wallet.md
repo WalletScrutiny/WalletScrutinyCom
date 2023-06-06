@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/totalcoin.io
 features: 
+developerName: 
 
 ---
 

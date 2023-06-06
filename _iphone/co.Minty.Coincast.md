@@ -7,7 +7,7 @@ authors:
 appId: co.Minty.Coincast
 appCountry: us
 idd: '1517543384'
-released: '2021-07-21T07:00:00Z'
+released: 2021-07-21
 updated: 2022-05-08
 version: 1.2.14
 stars: 4.7
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.Minty.Coincast.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-04-11
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: CoincastApp
@@ -30,6 +30,7 @@ social:
 - https://www.tiktok.com/@Coincast
 - https://www.reddit.com/r/Coincast/
 features: 
+developerName: Minty Networks, LLC.
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.trillionb.app
 appCountry: 
-released: Jan 14, 2022
+released: 2022-01-14
 updated: 2022-01-27
 version: 1.1.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Trillion Bot Asia
 features: 
 
 ---

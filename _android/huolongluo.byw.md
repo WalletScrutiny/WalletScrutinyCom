@@ -6,7 +6,7 @@ authors:
 users: 100000
 appId: huolongluo.byw
 appCountry: 
-released: Oct 24, 2021
+released: 2021-10-24
 updated: 2022-10-14
 version: 9.5.21
 stars: 4.8
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

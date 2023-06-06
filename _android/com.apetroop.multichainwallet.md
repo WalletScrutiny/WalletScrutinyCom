@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.apetroop.multichainwallet
 appCountry: 
-released: Aug 10, 2020
+released: 2020-08-10
 updated: 2020-09-04
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Global Token
 features: 
 
 ---

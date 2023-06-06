@@ -3,7 +3,7 @@ wsId:
 title: Bit7Pay Bitcoin and Other Cryp
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: bit7pay.com.bit7pay
 appCountry: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bit7pay
 social: 
 redirect_from: 
+developerName: Saizala Services Private Limited.
 features: 
 
 ---

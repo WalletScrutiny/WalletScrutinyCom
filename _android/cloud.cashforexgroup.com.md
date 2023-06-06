@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: cloud.cashforexgroup.com
 appCountry: 
-released: Apr 30, 2022
+released: 2022-04-30
 updated: 2022-05-01
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

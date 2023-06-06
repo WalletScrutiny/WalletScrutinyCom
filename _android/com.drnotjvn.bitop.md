@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.drnotjvn.bitop
 appCountry: 
-released: Oct 12, 2021
+released: 2021-10-12
 updated: 2021-10-13
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.plue_wallet
 appCountry: 
-released: Apr 1, 2019
+released: 2019-04-01
 updated: 2021-08-04
 version: 2.4.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Plue Wallet
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: br.com.cdb
 appCountry: 
-released: Aug 7, 2020
+released: 2020-08-07
 updated: 2020-11-01
 version: 1.0.13
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

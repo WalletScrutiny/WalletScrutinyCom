@@ -9,7 +9,7 @@ appId: com.maicoin.max
 appCountry: us
 released: 2018-07-01
 updated: 2023-04-24
-version: 8.0.0
+version: 9.0.0
 stars: 3.9
 ratings: 1049
 reviews: 8
@@ -28,6 +28,7 @@ twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
+developerName: MaiCoin Eng
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: uni.UNICB29B91
 appCountry: 
-released: Oct 29, 2021
+released: 2021-10-29
 updated: 2021-10-29
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

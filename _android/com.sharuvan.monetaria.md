@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.sharuvan.monetaria
 appCountry: 
-released: Dec 26, 2021
+released: 2021-12-26
 updated: 2021-12-23
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ahmed Sharuvan
 features: 
 
 ---

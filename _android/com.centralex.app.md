@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.centralex.app
 appCountry: 
-released: Mar 16, 2022
+released: 2022-03-16
 updated: 2022-04-07
 version: '1.02'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Centralex
 features: 
 
 ---

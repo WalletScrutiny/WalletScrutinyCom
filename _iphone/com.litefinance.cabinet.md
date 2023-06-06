@@ -7,12 +7,12 @@ authors:
 appId: com.litefinance.cabinet
 appCountry: us
 idd: '1661254805'
-released: '2023-01-11T08:00:00Z'
-updated: 2023-04-27
-version: '1.50'
-stars: 3.6
-reviews: 9
-size: '123621376'
+released: 2023-01-11
+updated: 2023-05-18
+version: '1.55'
+stars: 3.8
+reviews: 11
+size: '123772928'
 website: https://www.liteforex.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: litefinanceeng
 social: 
 features: 
+developerName: Liteforex (Europe) Limited
 
 ---
 

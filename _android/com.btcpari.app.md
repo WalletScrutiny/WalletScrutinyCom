@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.btcpari.app
 appCountry: 
-released: Feb 23, 2022
+released: 2022-02-23
 updated: 2022-04-19
 version: 1.0.13
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

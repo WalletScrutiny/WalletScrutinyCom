@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: org.bitanex.bitanex
 appCountry: 
-released: Mar 17, 2017
+released: 2017-03-17
 updated: 2019-04-27
 version: 1.2.49
 stars: 4.1
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BitAnex
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.moonpos
 appCountry: 
-released: May 4, 2018
+released: 2018-05-04
 updated: 2023-04-14
 version: 1.2.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MoonPos
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 appId: com.Kassio
 appCountry: in
 idd: '1610537547'
-released: '2022-03-25T07:00:00Z'
+released: 2022-03-25
 updated: 2023-04-01
 version: 1.1.1
 stars: 5
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kassionetwork/
 - https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 features: 
+developerName: Digital Pung ApS
 
 ---
 

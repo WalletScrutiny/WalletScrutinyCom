@@ -11,9 +11,9 @@ appCountry:
 released: 2019-09-30
 updated: 2023-03-26
 version: 2.0.10
-stars: 3.5
+stars: 3.4
 ratings: 24688
-reviews: 716
+reviews: 718
 size: 
 website: https://roqqu.com
 repository: 
@@ -29,6 +29,7 @@ twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay
 redirect_from: 
+developerName: Roqqu
 features: 
 
 ---

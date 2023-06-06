@@ -11,7 +11,7 @@ released: 2011-07-01
 updated: 2022-09-14
 version: 4.10.2
 stars: 4.7
-reviews: 12190
+reviews: 12221
 size: '77882368'
 website: http://www.netdania.com
 repository: 
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/NetDania-146001445410373
 features: 
+developerName: NetDania SRL
 
 ---
 

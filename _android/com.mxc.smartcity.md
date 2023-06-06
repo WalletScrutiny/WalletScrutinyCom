@@ -8,11 +8,11 @@ users: 50000
 appId: com.mxc.smartcity
 appCountry: us
 released: 2020-05-18
-updated: 2023-03-03
-version: 5.0.6
-stars: 3.6
+updated: 2023-05-11
+version: 6.2.0
+stars: 3.4
 ratings: 1945
-reviews: 98
+reviews: 102
 size: 
 website: https://www.mxc.org
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MXCfoundation
 - https://www.reddit.com/r/MXC_Foundation
 redirect_from: 
+developerName: MXC Foundation LLC
 features: 
 
 ---

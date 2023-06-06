@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/shamlatech
 - https://www.facebook.com/shamlatechsolutions
 redirect_from: 
+developerName: 
 features: 
 
 ---

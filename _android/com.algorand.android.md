@@ -9,7 +9,7 @@ appCountry:
 released: 2019-06-07
 updated: 2023-04-11
 version: 5.8.0
-stars: 4.6
+stars: 4.7
 ratings: 14091
 reviews: 1149
 size: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /com.algorand.android/
+developerName: Pera Wallet
 features: 
 
 ---

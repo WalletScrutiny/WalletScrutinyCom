@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: co.bitfrost
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-06-02
 version: '1.0'
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: co.bitfrost.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-05-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitfrost Wallet
 features: 
 
 ---

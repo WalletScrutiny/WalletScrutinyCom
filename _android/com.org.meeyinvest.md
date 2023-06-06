@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.org.meeyinvest
 appCountry: 
-released: Mar 23, 2020
+released: 2020-03-23
 updated: 2020-07-13
 version: '7.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MEEY INVEST GLOBAL PTE. LTD
 features: 
 
 ---

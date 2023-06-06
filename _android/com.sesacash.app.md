@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.sesacash.app
 appCountry: 
-released: Mar 15, 2020
+released: 2020-03-15
 updated: 2020-03-15
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Sesacash
 features: 
 
 ---

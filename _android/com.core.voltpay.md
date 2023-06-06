@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.core.voltpay
 appCountry: 
-released: Apr 7, 2022
+released: 2022-04-07
 updated: 2023-04-11
 version: 1.2.23
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CoreWeb
 features: 
 
 ---

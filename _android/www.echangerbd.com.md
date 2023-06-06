@@ -3,7 +3,7 @@ wsId:
 title: Exchangernet-old
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: www.echangerbd.com
 appCountry: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Exchangernet.com
 features: 
 
 ---

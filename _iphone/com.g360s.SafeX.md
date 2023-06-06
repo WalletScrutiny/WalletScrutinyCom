@@ -27,6 +27,7 @@ twitter: ecoinofficial
 social:
 - https://www.facebook.com/ecoinofficial
 features: 
+developerName: Kobopay Technologies
 
 ---
 

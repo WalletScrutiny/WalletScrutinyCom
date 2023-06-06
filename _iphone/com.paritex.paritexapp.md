@@ -26,6 +26,7 @@ reviewArchive:
 twitter: paritexexchange
 social: 
 features: 
+developerName: Paritex Bilişim Teknolojileri Anonim Şirketi
 
 ---
 

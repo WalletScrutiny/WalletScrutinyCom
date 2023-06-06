@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.msline.mw
 appCountry: 
-released: Jun 20, 2019
+released: 2019-06-20
 updated: 2022-06-20
 version: 2.3.3
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: x-widget
 features: 
 
 ---

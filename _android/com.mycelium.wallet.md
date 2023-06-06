@@ -229,6 +229,7 @@ redirect_from:
 - /com.mycelium.wallet/
 - /posts/2019/11/mycelium/
 - /posts/com.mycelium.wallet/
+developerName: Mycelium Developers
 features: 
 
 ---

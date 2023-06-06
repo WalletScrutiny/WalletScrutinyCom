@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: wallet.peach.com
 appCountry: 
-released: Apr 9, 2022
+released: 2022-04-09
 updated: 2022-06-06
 version: 0.0.5
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: wallet.peach.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: décript
 features: 
 
 ---

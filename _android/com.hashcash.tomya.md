@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hashcash.tomya
 appCountry: 
-released: Apr 28, 2020
+released: 2020-04-28
 updated: 2020-06-20
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: TOMYA TECHNOLOGY AS
 features: 
 
 ---

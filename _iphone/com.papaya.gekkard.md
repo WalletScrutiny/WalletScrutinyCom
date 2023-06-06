@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/gekkoin.official
 features: 
+developerName: Papaya Ltd
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.eccu
 appCountry: 
-released: Jul 6, 2020
+released: 2020-07-06
 updated: 2020-11-06
 version: '1.12'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

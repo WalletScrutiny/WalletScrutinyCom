@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.covest.covestM
 appCountry: 
-released: Nov 3, 2022
+released: 2022-11-03
 updated: 2023-04-20
 version: '1.202'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Covest PRO
 features: 
 
 ---

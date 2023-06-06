@@ -18,7 +18,7 @@ const folder = `_${category}/`
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'updated version stars reviews size website repository issue ' +
                 'icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social features').split(' ')
+                'twitter social features developerName').split(' ')
 
 async function refreshAll (ids, markDefunct) {
   var files
@@ -104,6 +104,7 @@ function updateFromApp (header, app) {
   header.size = app.size
   header.website = app.developerWebsite || header.website || ''
   header.date = header.date || new Date()
+  header.developerName = app.developer || header.developerName || 'Unknown Developer(s)'
   helper.updateMeta(header)
 }
 

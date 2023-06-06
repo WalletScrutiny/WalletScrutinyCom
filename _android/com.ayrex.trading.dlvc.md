@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ayrex.trading.dlvc
 appCountry: 
-released: May 14, 2020
+released: 2020-05-14
 updated: 2020-05-14
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Charu Prakash
 features: 
 
 ---

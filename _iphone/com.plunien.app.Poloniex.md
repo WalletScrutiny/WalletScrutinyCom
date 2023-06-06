@@ -32,6 +32,7 @@ twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex
 features: 
+developerName: Polo Digital Assets, Ltd
 
 ---
 

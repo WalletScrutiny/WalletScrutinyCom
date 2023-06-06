@@ -12,7 +12,7 @@ updated: 2021-08-18
 version: 1.3.6
 stars: 3.9
 ratings: 118
-reviews: 75
+reviews: 76
 size: 
 website: https://cointral.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/cointral
 - https://www.facebook.com/Cointral
 redirect_from: 
+developerName: Blockchain Lab Yazılım
 features: 
 
 ---

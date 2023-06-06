@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.diamondbtc.ytapp
 appCountry: 
-released: Mar 13, 2021
+released: 2021-03-13
 updated: 2021-03-13
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Diamond Brokers
 features: 
 
 ---

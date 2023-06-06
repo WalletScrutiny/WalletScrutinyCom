@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: io.gigexchage.crypto
 appCountry: 
-released: Mar 21, 2022
+released: 2022-03-21
 updated: 2022-04-30
 version: 1.0.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GIG INTERNATIONAL INVESTMENT LTD
 features: 
 
 ---

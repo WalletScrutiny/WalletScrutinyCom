@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: org.safecoin.safepay
 appCountry: 
-released: May 20, 2019
+released: 2019-05-20
 updated: 2020-08-14
 version: 7.2.8
 stars: 4.2
@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/safecoins/
 - https://www.youtube.com/c/Safecoin
 redirect_from: 
+developerName: SafeCoin
 features: 
 
 ---

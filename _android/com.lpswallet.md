@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.lpswallet
 appCountry: 
-released: Jan 14, 2022
+released: 2022-01-14
 updated: 2022-01-19
 version: 1.2.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

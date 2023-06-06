@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.wB4UGLOBAL_1
 appCountry: 
-released: Aug 17, 2020
+released: 2020-08-17
 updated: 2021-04-16
 version: 1.2.92
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Hard Working Man
 features: 
 
 ---

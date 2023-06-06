@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.torque.android.torquewallet
 appCountry: 
-released: Dec 11, 2019
+released: 2019-12-11
 updated: 2021-02-03
 version: 1.1.15
 stars: 4.2
@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Torque Group Holdings
 features: 
 
 ---

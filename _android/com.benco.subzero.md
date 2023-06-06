@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.benco.subzero
 appCountry: 
-released: Jan 28, 2022
+released: 2022-01-28
 updated: 2022-06-22
 version: 1.5.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SubZero Pay
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.vwallet.vwallet
 appCountry: 
-released: Dec 13, 2021
+released: 2021-12-13
 updated: 2021-12-14
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: VICTORIA TOKEN
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: cme.dpexbank.app
 appCountry: 
-released: Mar 25, 2021
+released: 2021-03-25
 updated: 2021-03-25
 version: '1.06'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: nicolas moore
 features: 
 
 ---

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MY AFRIQUE 2S2I SARL
 features: 
 
 ---

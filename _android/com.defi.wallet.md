@@ -8,11 +8,11 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2023-04-28
-version: 1.56.0
-stars: 4.8
+updated: 2023-05-26
+version: 1.59.0
+stars: 4.7
 ratings: 13620
-reviews: 2621
+reviews: 2654
 size: 
 website: https://www.crypto.com
 repository: 
@@ -32,6 +32,7 @@ social:
 redirect_from:
 - /com.defi.wallet/
 - /posts/com.defi.wallet/
+developerName: Growth Labs
 features: 
 
 ---

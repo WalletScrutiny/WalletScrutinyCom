@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: in.digitx
 appCountry: 
-released: Dec 20, 2020
+released: 2020-12-20
 updated: 2021-11-29
 version: 34.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Digital Techlab pvt ltd
 features: 
 
 ---

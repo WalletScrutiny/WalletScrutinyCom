@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.jetbot
 appCountry: 
-released: Mar 8, 2022
+released: 2022-03-08
 updated: 2022-04-28
 version: '1.19'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: spare x
 features: 
 
 ---

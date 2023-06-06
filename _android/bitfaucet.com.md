@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: bitfaucet.com
 appCountry: 
-released: Sep 16, 2021
+released: 2021-09-16
 updated: 2021-09-20
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Websidea
 features: 
 
 ---

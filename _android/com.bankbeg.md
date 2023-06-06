@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.bankbeg
 appCountry: 
-released: Oct 31, 2021
+released: 2021-10-31
 updated: 2021-10-31
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Opzop MarkPlace
 features: 
 
 ---

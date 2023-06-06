@@ -8,11 +8,11 @@ users: 100000
 appId: com.astontek.stock
 appCountry: us
 released: 2020-03-16
-updated: 2023-04-26
-version: '6.81'
+updated: 2023-05-24
+version: '6.90'
 stars: 4.6
 ratings: 2711
-reviews: 772
+reviews: 788
 size: 
 website: http://www.astontek.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Astontek, Inc.
 features: 
 
 ---

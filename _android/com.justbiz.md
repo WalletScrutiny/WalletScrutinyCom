@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.justbiz
 appCountry: 
-released: Feb 22, 2020
+released: 2020-02-22
 updated: 2020-02-22
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: JustBiz
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/titanprojects
 - https://www.facebook.com/titanprojectsco
 features: 
+developerName: Enfetter Technologies Services Private Limited
 
 ---
 

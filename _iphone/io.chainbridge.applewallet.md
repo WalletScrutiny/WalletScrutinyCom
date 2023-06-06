@@ -7,7 +7,7 @@ authors:
 appId: io.chainbridge.applewallet
 appCountry: us
 idd: '1477945380'
-released: '2019-11-27T08:00:00Z'
+released: 2019-11-27
 updated: 2022-06-24
 version: 1.5.2
 stars: 2
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

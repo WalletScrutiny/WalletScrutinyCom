@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: com.app.exchangejl
 appCountry: 
-released: Mar 29, 2022
-updated: 2022-07-24
-version: '1.1'
+released: 2022-03-29
+updated: 2023-05-22
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Krypterz Exchange
 features: 
 
 ---

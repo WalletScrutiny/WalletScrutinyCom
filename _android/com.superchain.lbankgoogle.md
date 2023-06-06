@@ -8,11 +8,11 @@ users: 1000000
 appId: com.superchain.lbankgoogle
 appCountry: us
 released: 2020-05-08
-updated: 2023-04-21
-version: 3.52.45
-stars: 3.6
+updated: 2023-05-29
+version: 3.52.48
+stars: 3.7
 ratings: 46317
-reviews: 429
+reviews: 433
 size: 
 website: https://www.lbank.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/lbank
 - https://www.facebook.com/LBank.info
 redirect_from: 
+developerName: LBank
 features: 
 
 ---

@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ifastbit Foreign Exchange
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.nfpfederal.investorsnfp
 appCountry: 
-released: Sep 23, 2020
+released: 2020-09-23
 updated: 2020-09-23
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: NFP Developer Team
 features: 
 
 ---

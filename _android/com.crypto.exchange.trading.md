@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.crypto.exchange.trading
 appCountry: 
-released: Jun 11, 2022
+released: 2022-06-11
 updated: 2022-06-11
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 users: 50000
 appId: com.bbt.bitkubnext
 appCountry: 
-released: Sep 21, 2021
-updated: 2023-04-26
-version: 1.5.0
+released: 2021-09-21
+updated: 2023-05-30
+version: 1.5.4
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial
 redirect_from: 
+developerName: Bitkub Blockchain Technology
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.blockfin.crypto
 appCountry: 
-released: Apr 17, 2022
+released: 2022-04-17
 updated: 2022-04-17
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

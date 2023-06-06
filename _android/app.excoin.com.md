@@ -3,11 +3,11 @@ wsId:
 title: 'Rocket: Mobile Trade App'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: app.excoin.com
 appCountry: 
-released: Mar 20, 2022
+released: 2022-03-20
 updated: 2022-09-16
 version: 1.1.2
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: betcoin
 features: 
 
 ---

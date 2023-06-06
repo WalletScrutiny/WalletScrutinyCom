@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.flutter.cryptox
 appCountry: 
-released: Jul 31, 2021
+released: 2021-07-31
 updated: 2022-07-29
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Opus LabWorks
 features: 
 
 ---

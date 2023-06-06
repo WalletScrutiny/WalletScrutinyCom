@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.huobilbn.appstore
 appCountry: 
-released: Nov 5, 2020
+released: 2020-11-05
 updated: 2020-11-17
 version: 2.0.1
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Huobi Labuan Limited
 features: 
 
 ---

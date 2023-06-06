@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ajeipay
 appCountry: 
-released: May 30, 2020
+released: 2020-05-30
 updated: 2021-10-09
 version: '2.2'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AjeiPay
 features: 
 
 ---

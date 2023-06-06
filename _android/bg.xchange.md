@@ -28,6 +28,7 @@ twitter: xchangebg
 social:
 - https://www.facebook.com/xchangebg
 redirect_from: 
+developerName: Global xChange LTD
 features: 
 
 ---

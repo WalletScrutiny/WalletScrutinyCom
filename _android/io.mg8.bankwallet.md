@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: io.mg8.bankwallet
 appCountry: 
-released: Nov 22, 2020
+released: 2020-11-22
 updated: 2020-11-22
 version: '1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: MG8 LTD
 features: 
 
 ---

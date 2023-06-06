@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.bitso.alpha
 appCountry: GI
-released: Sep 28, 2021
-updated: 2023-03-20
-version: 1.16.0
-stars: 4
+released: 2021-09-28
+updated: 2023-05-11
+version: 1.18.1
+stars: 4.2
 ratings: 
-reviews: 445
+reviews: 448
 size: 
 website: https://bitso.com/alpha/landing
 repository: 
@@ -28,6 +28,7 @@ twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
 redirect_from: 
+developerName: Bitso
 features: 
 
 ---

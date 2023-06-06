@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.palotraders.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: PaloTraders
 features: 
 
 ---

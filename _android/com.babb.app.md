@@ -6,9 +6,9 @@ authors:
 users: 50000
 appId: com.babb.app
 appCountry: 
-released: Feb 27, 2020
-updated: 2023-04-17
-version: 2.0.1
+released: 2020-02-27
+updated: 2023-05-15
+version: 2.0.2
 stars: 4
 ratings: 
 reviews: 39
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BABB
 features: 
 
 ---

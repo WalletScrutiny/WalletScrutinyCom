@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.pawnhub.droid
 appCountry: 
-released: Jan 16, 2020
+released: 2020-01-16
 updated: 2020-03-25
 version: '1.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.tropiky
 appCountry: 
-released: Sep 26, 2021
+released: 2021-09-26
 updated: 2022-03-05
 version: 2.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

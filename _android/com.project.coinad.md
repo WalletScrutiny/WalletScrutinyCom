@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.project.coinad
 appCountry: 
-released: Mar 27, 2018
+released: 2018-03-27
 updated: 2019-12-12
 version: '1.26'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

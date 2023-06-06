@@ -7,9 +7,9 @@ authors:
 users: 50000
 appId: com.mobiletradingpartners.lmax
 appCountry: 
-released: Sep 22, 2014
-updated: 2023-04-12
-version: 4.4.197
+released: 2014-09-22
+updated: 2023-05-27
+version: 4.4.214
 stars: 4.5
 ratings: 
 reviews: 2
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/lmax-group
 - https://www.youtube.com/user/lmax
 redirect_from: 
+developerName: LMAX BROKER LIMITED
 features: 
 
 ---

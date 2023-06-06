@@ -8,11 +8,11 @@ appId: io.klever.secure.exchange
 appCountry: us
 idd: 1553486059
 released: 2021-09-25
-updated: 2023-04-17
-version: 1.8.0
+updated: 2023-05-02
+version: 1.8.1
 stars: 4.7
 reviews: 54
-size: '133870592'
+size: '132121600'
 website: https://bitcoin.me
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/klever-app
 - https://www.facebook.com/klever.io
 features: 
+developerName: Klever Exchange
 
 ---
 

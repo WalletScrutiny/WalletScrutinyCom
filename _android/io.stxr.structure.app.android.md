@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: io.stxr.structure.app.android
 appCountry: 
-released: May 6, 2022
+released: 2022-05-06
 updated: 2023-03-21
 version: 1.5.6
 stars: 3.7
@@ -30,6 +30,7 @@ social:
 - https://t.me/Structure_Official
 - https://discord.com/invite/5KGUYEsxBv 
 redirect_from: 
+developerName: Structure
 features: 
 
 ---

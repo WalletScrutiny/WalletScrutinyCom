@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.idax.exchange
 appCountry: 
-released: Apr 24, 2022
+released: 2022-04-24
 updated: 2022-09-27
 version: 5.5.0_push_v2
 stars: 3.1
@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.idax.exchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-22
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/daxmnofficial
 redirect_from: 
+developerName: Ard Financial Group
 features: 
 
 ---

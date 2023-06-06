@@ -11,7 +11,7 @@ released: 2020-09-03
 updated: 2023-04-05
 version: 6.3.0
 stars: 4.7
-reviews: 37239
+reviews: 38816
 size: '67115008'
 website: https://metamask.io/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: MetaMask
 
 ---
 

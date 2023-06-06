@@ -7,7 +7,7 @@ authors:
 appId: io.fchain.Fireflyz
 appCountry: us
 idd: '1440455650'
-released: '2019-08-20T07:00:00Z'
+released: 2019-08-20
 updated: 2022-01-29
 version: 3.1.6
 stars: 3.3
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

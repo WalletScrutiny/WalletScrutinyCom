@@ -2,7 +2,8 @@
 wsId: 
 title: GBBIT Bitcoin Wallet India
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: gbbit.app.wallet
 appCountry: 
@@ -18,15 +19,17 @@ repository:
 issue: 
 icon: gbbit.app.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-04-27
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: GBBIT Technologies Private Limited
 features: 
 
 ---
 
+This app [announced its closure](https://twitter.com/BitcoinWalletz/status/1653711296427364353).

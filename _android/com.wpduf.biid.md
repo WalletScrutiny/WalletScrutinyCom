@@ -6,7 +6,7 @@ authors:
 users: 0
 appId: com.wpduf.biid
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2022-05-24
 version: 1.0.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

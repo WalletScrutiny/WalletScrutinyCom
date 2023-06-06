@@ -7,12 +7,12 @@ authors:
 appId: com.coinstore.sg
 appCountry: us
 idd: '1567160644'
-released: '2021-05-12T07:00:00Z'
-updated: 2023-04-24
-version: 2.0.0
-stars: 4
-reviews: 26
-size: '163894272'
+released: 2021-05-12
+updated: 2023-05-22
+version: 2.0.1
+stars: 4.3
+reviews: 44
+size: '163247104'
 website: https://www.coinstore.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/coinstoreglobal
 - https://t.me/coinstore_english
 features: 
+developerName: COINSTORE PTE. LTD.
 
 ---
 

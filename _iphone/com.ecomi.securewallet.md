@@ -7,7 +7,7 @@ authors:
 appId: com.ecomi.securewallet
 appCountry: 
 idd: '1432655565'
-released: '2018-08-25T23:25:40Z'
+released: 2018-08-25
 updated: 2022-01-26
 version: 3.0.5
 stars: 4.4
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: ecomi_
 social: 
 features: 
+developerName: ECOMI Technology PTE Ltd
 
 ---
 

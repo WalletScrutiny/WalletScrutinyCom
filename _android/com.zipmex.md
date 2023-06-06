@@ -12,7 +12,7 @@ updated: 2022-07-20
 version: 22.7.3.644
 stars: 3.7
 ratings: 17923
-reviews: 11679
+reviews: 11670
 size: 
 website: https://zipmex.co.th/
 repository: 
@@ -28,6 +28,7 @@ twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand
 redirect_from: 
+developerName: Zipmex
 features: 
 
 ---

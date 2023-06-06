@@ -7,11 +7,11 @@ users: 10000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2023-04-11
-version: 1.2.0.8.2
+updated: 2023-05-04
+version: 1.2.0.8.4
 stars: 4.4
 ratings: 1577
-reviews: 90
+reviews: 93
 size: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
@@ -31,6 +31,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: InvoVN Solutions
 features: 
 
 ---

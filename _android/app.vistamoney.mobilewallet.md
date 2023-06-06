@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: app.vistamoney.mobilewallet
 appCountry: 
-released: Apr 29, 2021
+released: 2021-04-29
 updated: 2021-04-30
 version: 0.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: VistaMoney
 features: 
 
 ---

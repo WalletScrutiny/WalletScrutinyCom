@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cmcodes.NexZone
 appCountry: 
-released: Dec 28, 2021
+released: 2021-12-28
 updated: 2021-12-28
 version: 3.0.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: NexzoneX
 features: 
 
 ---

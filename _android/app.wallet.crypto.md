@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: app.wallet.crypto
 appCountry: 
-released: Oct 30, 2021
+released: 2021-10-30
 updated: 2022-07-10
 version: 1.6.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: New Capital LT, UAB
 features: 
 
 ---

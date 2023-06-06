@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.exccripto.exccripto.exccripto
 appCountry: 
-released: Nov 4, 2018
+released: 2018-11-04
 updated: 2018-11-05
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ronney Ribeiro
 features: 
 
 ---

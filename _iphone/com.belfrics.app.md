@@ -27,6 +27,7 @@ twitter: Belfrics
 social:
 - https://www.facebook.com/Belfrics
 features: 
+developerName: Belfrics Group
 
 ---
 

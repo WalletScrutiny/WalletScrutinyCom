@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: net.plisio.app
 appCountry: 
-released: Jul 27, 2021
+released: 2021-07-27
 updated: 2022-02-02
 version: 1.3.9
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Plisio
 features: 
 
 ---

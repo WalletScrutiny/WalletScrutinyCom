@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: chukstem.xcoinance
 appCountry: 
-released: Jan 18, 2022
+released: 2022-01-18
 updated: 2022-03-05
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: xcoinance Capital
 features: 
 
 ---

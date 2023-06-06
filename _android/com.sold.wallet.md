@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.sold.wallet
 appCountry: 
-released: Jul 24, 2021
+released: 2021-07-24
 updated: 2021-11-18
 version: 1.3.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Sold wallet
 features: 
 
 ---

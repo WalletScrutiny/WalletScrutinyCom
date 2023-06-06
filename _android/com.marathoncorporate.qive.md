@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.marathoncorporate.qive
 appCountry: 
-released: Mar 2, 2020
+released: 2020-03-02
 updated: 2020-03-31
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Marathon Corporate Services Ltd
 features: 
 
 ---

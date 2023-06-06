@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.wallet.logos
 appCountry: 
-released: Sep 16, 2020
+released: 2020-09-16
 updated: 2022-10-13
 version: 0.3.9
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Logos Foundation PTE. LTD.
 features: 
 
 ---

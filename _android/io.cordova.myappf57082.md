@@ -27,6 +27,7 @@ reviewArchive:
 twitter: BTCofAmerica
 social: 
 redirect_from: 
+developerName: Software & Application Development LLC.
 features: 
 
 ---

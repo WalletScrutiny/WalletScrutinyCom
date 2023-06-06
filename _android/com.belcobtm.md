@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.belcobtm
 appCountry: 
-released: Jul 12, 2021
+released: 2021-07-12
 updated: 2022-08-15
 version: 2.7.0
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.belcobtm.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: ATUM Network LLC
 features: 
 
 ---

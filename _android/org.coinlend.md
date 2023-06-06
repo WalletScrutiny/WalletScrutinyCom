@@ -32,6 +32,7 @@ social:
 - https://www.reddit.com/r/Coinlend
 - https://www.youtube.com/channel/UCRxJGad2QnPFKnGuS8plqxg
 redirect_from: 
+developerName: Coinlend GmbH
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.crypto.otcfy
 appCountry: 
-released: Apr 15, 2022
+released: 2022-04-15
 updated: 2022-04-15
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

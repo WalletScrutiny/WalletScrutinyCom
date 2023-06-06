@@ -6,12 +6,12 @@ authors:
 users: 10000
 appId: com.orbitnetwork
 appCountry: 
-released: Dec 20, 2019
+released: 2019-12-20
 updated: 2021-08-20
 version: '2.2'
 stars: 4.3
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://orbitnetwork.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Orbit Network Limited
 features: 
 
 ---

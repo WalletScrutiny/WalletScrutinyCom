@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.secuxtech.merchanttool
 appCountry: 
-released: May 22, 2020
+released: 2020-05-22
 updated: 2021-06-10
 version: 2.1.1
 stars: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SecuX
 features: 
 
 ---

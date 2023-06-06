@@ -7,7 +7,7 @@ authors:
 appId: app.bitafrika.com
 appCountry: us
 idd: '1577083741'
-released: '2021-07-28T07:00:00Z'
+released: 2021-07-28
 updated: 2023-02-21
 version: 4.2.0
 stars: 4.7
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bitafrika.com.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-05
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: _bitafrika
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 features: 
+developerName: 
 
 ---
 

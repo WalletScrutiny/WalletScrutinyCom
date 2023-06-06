@@ -12,7 +12,7 @@ updated: 2023-04-11
 version: 1.3.396
 stars: 4.6
 ratings: 2509
-reviews: 87
+reviews: 90
 size: 
 website: https://www.amarkets.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/amarkets
 - https://www.facebook.com/AMarketsFirm
 redirect_from: 
+developerName: AMarkets LLC.
 features: 
 
 ---

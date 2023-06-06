@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitjeem.android
 appCountry: 
-released: Nov 16, 2020
+released: 2020-11-16
 updated: 2022-12-03
 version: 1.11.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: bitjeem
 features: 
 
 ---

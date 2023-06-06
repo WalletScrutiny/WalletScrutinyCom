@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.digivault.authenticator
 appCountry: 
-released: Jul 28, 2021
+released: 2021-07-28
 updated: 2022-02-21
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Digivault Limited
 features: 
 
 ---

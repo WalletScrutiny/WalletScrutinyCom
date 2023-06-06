@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cryptocrew
 appCountry: 
-released: Jun 23, 2020
+released: 2020-06-23
 updated: 2020-06-23
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: LIV8 LLC
 features: 
 
 ---

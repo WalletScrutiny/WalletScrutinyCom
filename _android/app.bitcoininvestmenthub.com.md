@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Investment & Crypto Hu
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: app.bitcoininvestmenthub.com
 appCountry: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Dhirrr
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: org.unhack.bip38decrypt
 appCountry: 
-released: Jun 17, 2016
+released: 2016-06-17
 updated: 2016-12-26
 version: 2.1.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Mike Butrimov
 features: 
 
 ---

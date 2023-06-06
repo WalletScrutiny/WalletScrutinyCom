@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.paperbgs.app
 appCountry: 
-released: Feb 4, 2021
+released: 2021-02-04
 updated: 2021-02-04
 version: '1.9'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: PaperBGS
 features: 
 
 ---

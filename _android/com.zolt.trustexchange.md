@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.zolt.trustexchange
 appCountry: 
-released: Dec 7, 2020
+released: 2020-12-07
 updated: 2020-12-07
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zolt
 features: 
 
 ---

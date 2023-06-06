@@ -10,7 +10,7 @@ appCountry: ru
 released: 2020-02-03
 updated: 2021-05-14
 version: 3.0.1
-stars: 4.3
+stars: 4.2
 ratings: 60
 reviews: 24
 size: 
@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.xchange.baksman.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-10
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/baksmancom
 redirect_from: 
+developerName: XchangeCapitalGroup OU
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.enigma.trading
 appCountry: 
-released: Apr 27, 2022
+released: 2022-04-27
 updated: 2022-09-29
 version: 1.1.8
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

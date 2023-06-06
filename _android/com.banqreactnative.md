@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.banqreactnative
 appCountry: 
-released: Mar 13, 2020
+released: 2020-03-13
 updated: 2021-12-10
 version: 5.4.0
-stars: 2.8
+stars: 2.7
 ratings: 
 reviews: 6
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Banq, Inc.
 features: 
 
 ---

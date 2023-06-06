@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2022-02-02
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: Altcoin Fantasy Limited
 
 ---
 

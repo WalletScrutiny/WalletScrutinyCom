@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.wCryptoExchanger_14131534
 appCountry: 
-released: Jul 20, 2021
+released: 2021-07-20
 updated: 2021-07-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: DEVILS
 features: 
 
 ---

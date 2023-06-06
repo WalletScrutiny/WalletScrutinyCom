@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: ge.cryptolive.venuswallet
 appCountry: 
-released: Dec 27, 2018
+released: 2018-12-27
 updated: 2020-03-10
 version: 1.0.15
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoLive OÜ
 features: 
 
 ---

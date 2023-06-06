@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.mify.trading
 appCountry: 
-released: Nov 18, 2020
+released: 2020-11-18
 updated: 2020-11-19
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 192Trade
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: Belfrics
 social:
 - https://www.facebook.com/Belfrics
 redirect_from: 
+developerName: Belfrics Holding Ltd
 features: 
 
 ---

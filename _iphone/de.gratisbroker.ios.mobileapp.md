@@ -7,12 +7,12 @@ authors:
 appId: de.gratisbroker.ios.mobileapp
 appCountry: de
 idd: '1556711130'
-released: '2021-06-07T07:00:00Z'
-updated: 2023-04-29
-version: 3.18.0
+released: 2021-06-07
+updated: 2023-05-29
+version: 3.20.0
 stars: 4.7
-reviews: 5107
-size: '122797056'
+reviews: 5605
+size: '123266048'
 website: https://www.finanzen.net/zero/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/finanzen.net
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 features: 
+developerName: finanzen.net zero GmbH
 
 ---
 

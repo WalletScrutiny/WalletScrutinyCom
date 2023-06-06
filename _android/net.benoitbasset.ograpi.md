@@ -12,7 +12,7 @@ updated: 2021-05-03
 version: 1.4.3
 stars: 3.8
 ratings: 225
-reviews: 38
+reviews: 40
 size: 
 website: http://ograpi.oblade.net
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Oblade
 features: 
 
 ---

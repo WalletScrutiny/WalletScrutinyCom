@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.koyn.com
 appCountry: 
-released: Jan 16, 2021
+released: 2021-01-16
 updated: 2021-01-16
 version: 0.18.0
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

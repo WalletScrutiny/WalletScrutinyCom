@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.etherenmbean.app
 appCountry: 
-released: Jun 1, 2022
+released: 2022-06-01
 updated: 2022-08-30
 version: 11.6.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: level01io
 social:
 - https://www.facebook.com/level01platform
 redirect_from: 
+developerName: Level01 Technologies Limited
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.slossfiws.ansfjiwu
 appCountry: 
-released: Mar 24, 2022
+released: 2022-03-24
 updated: 2022-03-24
 version: '2.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

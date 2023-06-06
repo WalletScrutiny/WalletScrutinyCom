@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.linkdada.application
 appCountry: 
-released: Apr 13, 2021
+released: 2021-04-13
 updated: 2021-06-18
 version: 1.4.2
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

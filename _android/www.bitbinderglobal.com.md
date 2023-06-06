@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: www.bitbinderglobal.com
 appCountry: 
-released: Jan 19, 2022
+released: 2022-01-19
 updated: 2022-01-19
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

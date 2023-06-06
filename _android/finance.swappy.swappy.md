@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: finance.swappy.swappy
 appCountry: 
-released: Mar 11, 2022
+released: 2022-03-11
 updated: 2022-05-05
 version: 0.0.3
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Swappy Team
 features: 
 
 ---

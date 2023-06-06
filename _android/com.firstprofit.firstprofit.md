@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.firstprofit.firstprofit
 appCountry: 
-released: Aug 31, 2020
+released: 2020-08-31
 updated: 2020-09-25
 version: '2.1'
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

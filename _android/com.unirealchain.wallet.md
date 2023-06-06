@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.unirealchain.wallet
 appCountry: 
-released: Nov 8, 2021
+released: 2021-11-08
 updated: 2021-11-18
 version: 3.40.5
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Unirealchain
 features: 
 
 ---

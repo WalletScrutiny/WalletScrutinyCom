@@ -7,12 +7,12 @@ authors:
 appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
-released: '2021-09-17T07:00:00Z'
-updated: 2023-04-10
-version: 3.2.0
+released: 2021-09-17
+updated: 2023-05-19
+version: 3.4.2
 stars: 5
 reviews: 2
-size: '68132864'
+size: '68855808'
 website: https://woo.org/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Wootech Limited
 
 ---
 

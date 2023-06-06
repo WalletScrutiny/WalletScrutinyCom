@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitcoke.activity
 appCountry: 
-released: Feb 13, 2022
+released: 2022-02-13
 updated: 2022-10-07
 version: 7.0.0.3
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: BitCokedotcom
 social: 
 redirect_from: 
+developerName: Bitcoke
 features: 
 
 ---

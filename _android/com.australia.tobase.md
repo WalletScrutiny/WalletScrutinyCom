@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.australia.tobase
 appCountry: 
-released: Mar 26, 2022
+released: 2022-03-26
 updated: 2022-07-23
 version: 0.0.4
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

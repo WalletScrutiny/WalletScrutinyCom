@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.bminingapp
 appCountry: 
-released: Aug 20, 2020
+released: 2020-08-20
 updated: 2020-09-18
 version: 1.4.1
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bmining
 features: 
 
 ---

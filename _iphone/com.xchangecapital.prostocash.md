@@ -7,7 +7,7 @@ authors:
 appId: com.xchangecapital.prostocash
 appCountry: ru
 idd: '1477838562'
-released: '2019-09-09T07:00:00Z'
+released: 2019-09-09
 updated: 2022-12-22
 version: 2.0.3
 stars: 3.9
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: XChangeCapitalGroup
 
 ---
 

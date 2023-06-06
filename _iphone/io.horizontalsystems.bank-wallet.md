@@ -8,11 +8,11 @@ appId: io.horizontalsystems.bank-wallet
 appCountry: 
 idd: 1447619907
 released: 2019-01-10
-updated: 2023-04-25
-version: '0.32'
+updated: 2023-05-03
+version: 0.32.1
 stars: 4.7
-reviews: 634
-size: '61627392'
+reviews: 646
+size: '61643776'
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
 issue: 
@@ -27,6 +27,7 @@ twitter: unstoppablebyhs
 social:
 - https://www.reddit.com/r/UNSTOPPABLEWallet
 features: 
+developerName: Horizontal Systems
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: cloud.accredited.wallet
 appCountry: 
-released: Jun 2, 2021
+released: 2021-06-02
 updated: 2023-04-26
 version: 3.2.53
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Brainsfield Advisory
 features: 
 
 ---

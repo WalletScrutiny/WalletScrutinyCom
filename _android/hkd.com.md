@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: hkd.com
 appCountry: 
-released: Sep 11, 2020
-updated: 2023-04-26
-version: 2.5.9
-stars: 4
+released: 2020-09-11
+updated: 2023-05-18
+version: 2.6.0
+stars: 4.2
 ratings: 
 reviews: 9
 size: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en
 redirect_from: 
+developerName: HKD.com Limited
 features: 
 
 ---

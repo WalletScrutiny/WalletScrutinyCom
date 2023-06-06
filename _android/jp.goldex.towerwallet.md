@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: jp.goldex.towerwallet
 appCountry: 
-released: Oct 22, 2018
+released: 2018-10-22
 updated: 2020-07-16
 version: 3.3.35
 stars: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GOLDEX.,Inc.
 features: 
 
 ---

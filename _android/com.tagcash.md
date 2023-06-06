@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.tagcash
 appCountry: 
-released: Oct 19, 2016
+released: 2016-10-19
 updated: 2022-10-30
 version: 8.0.4
 stars: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tagcash.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-12
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tagcash-ltd/
 - https://www.facebook.com/tagcashrewards
 redirect_from: 
+developerName: Tagcash Ltd
 features: 
 
 ---

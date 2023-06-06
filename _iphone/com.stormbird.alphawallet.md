@@ -11,7 +11,7 @@ released: 2018-05-25
 updated: 2023-03-21
 version: '3.63'
 stars: 4.7
-reviews: 269
+reviews: 272
 size: '113225728'
 website: https://alphawallet.com/
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.reddit.com/r/AlphaWallet
 - https://github.com/alphawallet
 features: 
+developerName: Stormbird Pte. Ltd.
 
 ---
 

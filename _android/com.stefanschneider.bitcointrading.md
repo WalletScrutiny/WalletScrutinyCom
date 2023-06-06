@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.stefanschneider.bitcointrading.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-10-02
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitcoin Trading Global
 features: 
 
 ---

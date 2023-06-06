@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.tallin.wallet
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2021-11-22
 version: 1.0.7
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Paytechno OU
 features: 
 
 ---

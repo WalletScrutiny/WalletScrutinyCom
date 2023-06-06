@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-16
 updated: 2023-03-17
 version: 4.3.0
-stars: 3.6
+stars: 3.7
 ratings: 1135
-reviews: 167
+reviews: 169
 size: 
 website: https://cakedefi.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 redirect_from: 
+developerName: Cake DeFi
 features: 
 
 ---

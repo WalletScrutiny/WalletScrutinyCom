@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: CDEX-Trade Bitcoin & Crypto
+title: CDEX - Crypto & Forex & CFDs
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.xsjys.bbtc
 appCountry: 
-released: Mar 1, 2022
-updated: 2023-04-23
-version: 1.4.7
+released: 2022-03-01
+updated: 2023-06-02
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/cd_exglobal
 - https://www.facebook.com/CDEX-109585638344013
 redirect_from: 
+developerName: CDEX
 features: 
 
 ---

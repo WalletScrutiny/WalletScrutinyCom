@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: io.starbit.portal
 appCountry: 
-released: Sep 10, 2019
+released: 2019-09-10
 updated: 2020-03-15
 version: 1.1.6
 stars: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: STAR_BIT_Innovation
 features: 
 
 ---

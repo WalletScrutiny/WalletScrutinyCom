@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.ocw.onlinecoldwallet
 appCountry: 
-released: Oct 1, 2021
+released: 2021-10-01
 updated: 2022-05-27
 version: 2.2.0
 stars: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-02-28
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: ocwallet
@@ -31,6 +31,7 @@ social:
 - https://t.me/ocwallet
 - https://t.me/ocwalletglobal
 redirect_from: 
+developerName: Online Cold Wallet
 features: 
 
 ---
