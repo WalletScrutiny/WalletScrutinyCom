@@ -8,8 +8,8 @@ users: 100000
 appId: com.qqtrade.gugupay
 appCountry: cn
 released: 2017-05-25
-updated: 2023-04-26
-version: 5.0.3
+updated: 2023-05-30
+version: 5.0.4
 stars: 4.2
 ratings: 658
 reviews: 253
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: (주)구구페이
 features: 
 
 ---

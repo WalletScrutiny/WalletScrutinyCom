@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.anwonder.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-05-28
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Anwonder
 features: 
 
 ---

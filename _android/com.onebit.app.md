@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.onebit.app/
 - /posts/com.onebit.app/
+developerName: 
 features: 
 
 ---

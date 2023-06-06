@@ -28,6 +28,7 @@ twitter: CoinUs_Official
 social:
 - https://www.facebook.com/CoinUsOfficial
 redirect_from: 
+developerName: 
 features: 
 
 ---

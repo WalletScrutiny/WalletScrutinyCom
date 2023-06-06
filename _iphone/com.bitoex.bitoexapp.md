@@ -26,6 +26,7 @@ twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitoex
 features: 
+developerName: BitoEX
 
 ---
 

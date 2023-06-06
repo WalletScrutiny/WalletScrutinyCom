@@ -8,8 +8,8 @@ users: 50000
 appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
-updated: 2023-05-04
-version: 2.2.6
+updated: 2023-05-30
+version: 2.2.9
 stars: 5
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: BityOficial
 social:
 - https://www.facebook.com/bitybankoficial
 redirect_from: 
+developerName: Biscoint.io
 features: 
 
 ---

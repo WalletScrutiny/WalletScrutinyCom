@@ -11,7 +11,7 @@ released: 2022-03-29
 updated: 2023-04-19
 version: 2.2.4
 stars: 3.2
-reviews: 22
+reviews: 32
 size: '56101888'
 website: https://bousechanj.com/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Eritajpam, LLC
 
 ---
 

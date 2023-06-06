@@ -27,6 +27,7 @@ twitter: vegawallet
 social:
 - https://www.facebook.com/VegaWallet
 features: 
+developerName: VegaWallet
 
 ---
 

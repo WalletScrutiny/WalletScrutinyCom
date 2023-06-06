@@ -32,6 +32,7 @@ social:
 - https://blog.ennowallet.com/
 - https://www.instagram.com/ennowallet/
 redirect_from: 
+developerName: EnnoFund Limited
 features: 
 
 ---

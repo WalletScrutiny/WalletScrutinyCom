@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.aic.cluster.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-05-20
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AIC LIMITED
 features: 
 
 ---

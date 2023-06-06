@@ -12,7 +12,7 @@ updated: 2023-03-16
 version: 1.4.4
 stars: 3.1
 ratings: 48
-reviews: 63
+reviews: 65
 size: 
 website: https://www.delio.foundation
 repository: 
@@ -28,6 +28,7 @@ twitter: happydelio
 social:
 - https://www.facebook.com/delio.io
 redirect_from: 
+developerName: Delio Corporation
 features: 
 
 ---

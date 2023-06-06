@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/banexcoin/
 - https://www.facebook.com/banexcoin 
 redirect_from: 
+developerName: Banexcoin
 features: 
 
 ---

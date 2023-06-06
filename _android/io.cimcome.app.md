@@ -27,6 +27,7 @@ reviewArchive:
 twitter: cimcome
 social: 
 redirect_from: 
+developerName: Makers Farm Pte. Ltd.
 features: 
 
 ---

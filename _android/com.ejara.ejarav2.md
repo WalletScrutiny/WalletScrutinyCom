@@ -8,8 +8,8 @@ users: 100000
 appId: com.ejara.ejarav2
 appCountry: 
 released: 2021-03-08
-updated: 2023-05-04
-version: 3.5.1
+updated: 2023-05-31
+version: 3.5.2
 stars: 3.8
 ratings: 
 reviews: 10
@@ -28,6 +28,7 @@ twitter: EjaraApp
 social:
 - https://www.facebook.com/Ejaracapital
 redirect_from: 
+developerName: Ejara
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/swerriapp/
 - https://www.facebook.com/OfficialSwerri
 redirect_from: 
+developerName: Swerri Limited
 features: 
 
 ---

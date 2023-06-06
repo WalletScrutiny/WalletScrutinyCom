@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GoldBit Technology Co., Ltd
 features: 
 
 ---

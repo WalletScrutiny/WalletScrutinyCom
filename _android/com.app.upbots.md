@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCFjbtkzDJDlJVSS9AaBfLKA
 - https://www.facebook.com/UpBotscom 
 redirect_from: 
+developerName: Upbots Gmbh
 features: 
 
 ---

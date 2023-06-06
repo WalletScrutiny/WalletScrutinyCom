@@ -28,6 +28,7 @@ twitter: BlockHebe
 social: 
 redirect_from:
 - /posts/com.hebeblock.hebewallet/
+developerName: HebeBlock
 features: 
 
 ---

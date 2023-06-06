@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-12
 updated: 2023-01-23
 version: 3.82.0
-stars: 4.7
+stars: 4.6
 ratings: 4934
-reviews: 743
+reviews: 756
 size: 
 website: http://www.quicrypto.com
 repository: 
@@ -28,6 +28,7 @@ twitter: quicrypto
 social:
 - https://www.facebook.com/Quicrypto
 redirect_from: 
+developerName: nukes
 features: 
 
 ---

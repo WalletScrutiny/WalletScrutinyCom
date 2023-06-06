@@ -2,7 +2,7 @@
 wsId: 
 title: Talos
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 1000
 appId: africa.talos.android
@@ -19,18 +19,19 @@ repository:
 issue: 
 icon: africa.talos.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: TalosAfrica
-social:
+social: 
 - https://www.facebook.com/profile.php?id=100064741792233
 - https://www.linkedin.com/company/talos-africa
 - https://www.instagram.com/talos.africa
 - info@talos.africa
 redirect_from: 
+developerName: Talos Africa
 features: 
 
 ---

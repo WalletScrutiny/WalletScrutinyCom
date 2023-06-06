@@ -28,6 +28,7 @@ twitter:
 social:
 - https://web.archive.org/web/20220821164624/https://folgory.com/ 
 redirect_from: 
+developerName: Folgory
 features: 
 
 ---

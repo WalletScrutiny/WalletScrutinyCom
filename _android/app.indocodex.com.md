@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/indocodex
 - admin@indocodex.com 
 redirect_from: 
+developerName: Indocodex - Rajacoin
 features: 
 
 ---

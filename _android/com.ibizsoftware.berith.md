@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/berithcoin
 - https://t.me/berithcoin
 redirect_from: 
+developerName: BERITH FOUNDATION PTE. LTD.
 features: 
 
 ---

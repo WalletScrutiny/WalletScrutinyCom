@@ -28,6 +28,7 @@ twitter: freewallet
 social:
 - https://www.facebook.com/freewallet.io
 features: 
+developerName: Jeremy Johnson
 
 ---
 

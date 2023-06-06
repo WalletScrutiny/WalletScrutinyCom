@@ -30,6 +30,7 @@ social:
 - https://t.me/Vaex_Exchange
 - https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw
 redirect_from: 
+developerName: VAEX
 features: 
 
 ---

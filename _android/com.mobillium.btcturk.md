@@ -12,7 +12,7 @@ updated: 2023-05-09
 version: 1.26.1
 stars: 4.5
 ratings: 14766
-reviews: 5023
+reviews: 5027
 size: 
 website: https://www.btcturk.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
+developerName: BTCTurk
 features: 
 
 ---

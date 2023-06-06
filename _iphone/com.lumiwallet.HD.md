@@ -27,6 +27,7 @@ twitter: Lumi_wallet
 social:
 - https://www.facebook.com/lumiwallet
 features: 
+developerName: 
 
 ---
 

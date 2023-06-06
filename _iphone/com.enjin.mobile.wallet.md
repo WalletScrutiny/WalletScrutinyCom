@@ -12,7 +12,7 @@ released: 2018-03-12
 updated: 2023-03-20
 version: 2.2.3
 stars: 4.4
-reviews: 843
+reviews: 844
 size: '50400256'
 website: https://enjin.io/products/wallet
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
 features: 
+developerName: Enjin PTE LTD
 
 ---
 

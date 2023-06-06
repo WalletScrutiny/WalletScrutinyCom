@@ -27,6 +27,7 @@ reviewArchive:
 twitter: invest_lite
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.conio.wallet/
 - /posts/com.conio.wallet/
+developerName: Conio Inc.
 features: 
 
 ---

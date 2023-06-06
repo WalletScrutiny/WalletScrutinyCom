@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/chimpion/about/
 - https://www.instagram.com/chimpion.io/
 redirect_from: 
+developerName: Chimpion
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter:
 social: 
 - info@e-mal.ae
 redirect_from: 
+developerName: eFatoora
 features: 
 
 ---

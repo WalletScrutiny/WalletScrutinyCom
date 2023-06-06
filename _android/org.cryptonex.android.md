@@ -30,6 +30,7 @@ social:
 - https://t.me/cryptonexCNX
 - https://www.facebook.com/Cryptonex.org 
 redirect_from: 
+developerName: Cryptonex LP
 features: 
 
 ---

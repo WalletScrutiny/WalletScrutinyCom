@@ -8,8 +8,8 @@ users: 100000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2023-05-05
-version: 3.1.3 'Fluorine Fermi'
+updated: 2023-05-29
+version: 3.2.0 'Decoy Selection'
 stars: 3.3
 ratings: 821
 reviews: 169
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: m2049r
 features: 
 
 ---

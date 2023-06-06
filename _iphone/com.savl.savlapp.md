@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/savl.official
 features: 
+developerName: Savl GmbH
 
 ---
 

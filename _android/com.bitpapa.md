@@ -28,6 +28,7 @@ twitter: bitpapa_com
 social:
 - https://www.facebook.com/bitpapacom
 redirect_from: 
+developerName: Bitpapa
 features: 
 
 ---

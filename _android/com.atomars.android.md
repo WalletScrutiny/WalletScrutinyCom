@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/AtomarsExchange
 - https://www.linkedin.com/company/atomars/ 
 redirect_from: 
+developerName: Atomars
 features: 
 
 ---

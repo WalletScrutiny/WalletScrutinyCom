@@ -8,8 +8,8 @@ users: 100000
 appId: com.abl.vibra
 appCountry: 
 released: 2021-10-21
-updated: 2023-04-26
-version: 1.6.70
+updated: 2023-05-22
+version: 1.6.81
 stars: 3.9
 ratings: 
 reviews: 5
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
 - https://www.facebook.com/VibraAfrica
 redirect_from: 
+developerName: Vibra Africa
 features: 
 
 ---

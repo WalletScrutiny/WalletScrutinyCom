@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/mypayble
 - https://mypayble.com
 redirect_from: 
+developerName: Payble
 features: 
 
 ---

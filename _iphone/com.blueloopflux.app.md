@@ -10,8 +10,8 @@ idd: 1534426282
 released: 2020-10-15
 updated: 2023-04-15
 version: 3.0.391
-stars: 3.8
-reviews: 63
+stars: 3.5
+reviews: 68
 size: '59254784'
 website: https://iflux.app/
 repository: 
@@ -27,6 +27,7 @@ twitter: ifluxdotapp
 social:
 - https://www.linkedin.com/company/iflux-pay
 features: 
+developerName: Blueloop
 
 ---
 

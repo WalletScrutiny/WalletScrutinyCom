@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/BankoWallet
 - https://t.me/BankoWallet 
 redirect_from: 
+developerName: BITROCK
 features: 
 
 ---

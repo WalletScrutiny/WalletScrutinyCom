@@ -26,6 +26,7 @@ twitter: HavenPrivacy
 social:
 - https://www.reddit.com/r/havenapp
 features: 
+developerName: 
 
 ---
 

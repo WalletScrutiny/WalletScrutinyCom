@@ -3,7 +3,7 @@ wsId:
 title: SANUSWALLET 2.0
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.sanuslife.sanuswallet2
 appCountry: 
 released: 2020-09-04
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: SANUSLIFE INTERNATIONAL
 features: 
 
 ---
