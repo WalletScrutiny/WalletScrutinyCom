@@ -299,16 +299,15 @@ function filterWalletsByName() {
     window.filteredWallets = []
     const searchTermWords = searchTerm.split(" ")
     for (const wallet of window.wallets) {
-      if (wallet.title.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
-      else if (wallet.folder.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
-      else if (wallet.category.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
-      else if (wallet.appId.toUpperCase().indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+      let walletAsStr = ''
+      for (const [key, value] of Object.entries(wallet)) {
+        walletAsStr+=Array.isArray(value)?JSON.stringify(value):value
+      }
+      walletAsStr = String(walletAsStr).toUpperCase()
+      if (walletAsStr.indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
       else {
         for (const word of searchTermWords) {
-          if (wallet.title.toUpperCase().indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
-          else if (wallet.folder.toUpperCase().indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
-          else if (wallet.category.toUpperCase().indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
-          else if (wallet.appId.toUpperCase().indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
+          if (walletAsStr.indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
         }
       }
     }
