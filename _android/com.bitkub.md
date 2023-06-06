@@ -12,7 +12,7 @@ updated: 2023-05-25
 version: 3.18.2
 stars: 4.2
 ratings: 18826
-reviews: 35
+reviews: 36
 size: 
 website: http://www.bitkub.com
 repository: 

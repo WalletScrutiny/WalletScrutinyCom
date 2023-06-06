@@ -2,7 +2,8 @@
 wsId: 
 title: Treen Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.app.treenwallet
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.app.treenwallet.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2022-12-17
+verdict: nobtc
+date: 2023-05-11
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> You can send, receive and store Bitcoin and many other cryptocurrencies and digital assets safely and securely with the TreenWallet mobile app.
+
+## Analysis 
+
+- [(Screenshots)](https://twitter.com/BitcoinWalletz/status/1656505018244288512)
+- Despite claims made on the Google Play description, the app only supports TRON and USDT
+- To be sure, we'll contact them. But for now, this app **does not have support for BTC**.

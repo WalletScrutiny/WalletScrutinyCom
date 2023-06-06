@@ -11,7 +11,7 @@ released: 2017-05-25
 updated: 2023-03-13
 version: 2.6.0
 stars: 4.6
-reviews: 82
+reviews: 81
 size: '74779648'
 website: http://www.iconomi.com
 repository: 

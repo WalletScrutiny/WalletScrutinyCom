@@ -7,7 +7,7 @@ authors:
 appId: com.ldvtech.tokero
 appCountry: ro
 idd: '1569586581'
-released: '2021-06-04T07:00:00Z'
+released: 2021-06-04
 updated: 2023-03-30
 version: 4.0.1
 stars: 0
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/tokerocryptoexchange/
 - https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw
 features: 
+developerName: Globe Monnaie SRL
 
 ---
 

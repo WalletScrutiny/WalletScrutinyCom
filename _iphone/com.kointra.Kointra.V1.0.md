@@ -7,7 +7,7 @@ authors:
 appId: com.kointra.Kointra.V1.0
 appCountry: tr
 idd: '1486286836'
-released: '2019-11-15T08:00:00Z'
+released: 2019-11-15
 updated: 2021-09-15
 version: 3.1.2
 stars: 4.7
@@ -27,6 +27,7 @@ twitter: KointraTR
 social:
 - https://www.instagram.com/kointracom/
 features: 
+developerName: Kointra A.S
 
 ---
 

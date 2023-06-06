@@ -1,6 +1,6 @@
 ---
 wsId: ECOS
-title: 'ECOS: Bitcoin & Crypto Mining'
+title: 'ECOS: Bitcoin Mining & Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: am.ecos.ios.production
 appCountry: us
 idd: 1528964374
 released: 2020-11-25
-updated: 2023-03-08
-version: 1.31.4
+updated: 2023-06-02
+version: 1.33.9
 stars: 3.7
 reviews: 154
-size: '83386368'
+size: '85984256'
 website: https://ecos.am/
 repository: 
 issue: 

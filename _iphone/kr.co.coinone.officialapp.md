@@ -7,10 +7,10 @@ appId: kr.co.coinone.officialapp
 appCountry: kr
 idd: 1326526995
 released: 2018-03-27
-updated: 2023-05-28
-version: 3.1.1
+updated: 2023-06-05
+version: 3.1.3
 stars: 2.7
-reviews: 816
+reviews: 818
 size: '82766848'
 website: 
 repository: 

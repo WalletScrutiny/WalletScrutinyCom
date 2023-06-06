@@ -8,8 +8,8 @@ appId: capital.novum.CryptoHero
 appCountry: us
 idd: '1488574255'
 released: 2019-12-18
-updated: 2023-05-25
-version: 2.1.9
+updated: 2023-06-02
+version: 2.2.0
 stars: 3.6
 reviews: 21
 size: '92114944'
