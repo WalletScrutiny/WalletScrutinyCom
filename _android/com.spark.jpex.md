@@ -8,8 +8,8 @@ users: 50000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30
-updated: 2023-05-16
-version: 2.76.814
+updated: 2023-05-31
+version: 2.78.818
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from: 
+developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 features: 
 
 ---

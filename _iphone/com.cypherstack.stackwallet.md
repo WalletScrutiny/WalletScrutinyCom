@@ -7,11 +7,11 @@ appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
 released: 2022-08-26
-updated: 2023-05-17
-version: 1.7.8
+updated: 2023-05-30
+version: 1.7.11
 stars: 4.2
 reviews: 10
-size: '103525376'
+size: '103875584'
 website: https://stackwallet.com/
 repository: 
 issue: 
@@ -25,6 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Cypher Stack LLC
 
 ---
 

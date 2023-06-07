@@ -12,7 +12,7 @@ updated: 2023-05-12
 version: 1.4.3
 stars: 3.7
 ratings: 245
-reviews: 21
+reviews: 22
 size: 
 website: https://www.bit.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
+developerName: BIT Technologies Holding Company
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitBay
 - https://www.reddit.com/r/BitBayExchange
 features: 
+developerName: BitBay Sp. z o.o.
 
 ---
 

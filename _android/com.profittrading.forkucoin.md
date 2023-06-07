@@ -8,11 +8,11 @@ users: 10000
 appId: com.profittrading.forkucoin
 appCountry: 
 released: 2020-12-27
-updated: 2023-05-19
-version: 2.7.0
-stars: 4
+updated: 2023-06-02
+version: 3.0.1
+stars: 4.1
 ratings: 102
-reviews: 17
+reviews: 18
 size: 
 website: https://profittradingapp.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
 features: 
 
 ---

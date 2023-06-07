@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitmartexchange
 - https://www.reddit.com/r/BitMartExchange
 features: 
+developerName: GBM Foundation Company Ltd
 
 ---
 

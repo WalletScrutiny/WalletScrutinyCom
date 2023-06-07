@@ -12,7 +12,7 @@ updated: 2023-05-14
 version: 7.1.0
 stars: 4.2
 ratings: 7353
-reviews: 229
+reviews: 230
 size: 
 website: https://ok-ex.co
 repository: 
@@ -33,6 +33,7 @@ twitter:
 social: 
 redirect_from:
 - /co.okex.app/
+developerName: Technical team
 features: 
 
 ---

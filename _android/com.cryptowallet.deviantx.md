@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/DeviantCoin
 - https://t.me/DeviantDEV
 redirect_from: 
+developerName: Deviant Coin
 features: 
 
 ---

@@ -9,8 +9,8 @@ users: 500000
 appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
-updated: 2023-05-10
-version: 3.9.0
+updated: 2023-05-24
+version: 3.10.0
 stars: 3.6
 ratings: 3880
 reviews: 629
@@ -44,6 +44,7 @@ redirect_from:
 - /co.edgesecure.app/
 - /posts/2019/11/edge/
 - /posts/co.edgesecure.app/
+developerName: Edge (formerly Airbitz)
 features: 
 
 ---

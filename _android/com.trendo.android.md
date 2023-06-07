@@ -12,7 +12,7 @@ updated: 2023-05-18
 version: 3.3.65_googleplay
 stars: 4.7
 ratings: 
-reviews: 172
+reviews: 177
 size: 
 website: https://fxtrendo.com
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.instagram.com/fxtrendo/
 redirect_from: 
+developerName: Trendo LLC
 features: 
 
 ---

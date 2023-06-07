@@ -11,7 +11,7 @@ released: 2020-03-12
 updated: 2023-05-18
 version: 2.3.3
 stars: 4.7
-reviews: 4626
+reviews: 4636
 size: '150171648'
 website: http://mewwallet.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
 features: 
+developerName: MyEtherWallet, Inc.
 
 ---
 

@@ -28,6 +28,7 @@ twitter: COVEST_Official
 social:
 - https://t.me/covestpro 
 redirect_from: 
+developerName: Covest PRO
 features: 
 
 ---

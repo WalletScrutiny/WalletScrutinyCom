@@ -8,8 +8,8 @@ users: 100000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11
-updated: 2023-05-12
-version: '1.140'
+updated: 2023-06-05
+version: '1.142'
 stars: 3.6
 ratings: 392
 reviews: 20
@@ -28,6 +28,7 @@ twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom
 redirect_from: 
+developerName: GAIN Capital Group, LLC
 features: 
 
 ---

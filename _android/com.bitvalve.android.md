@@ -12,7 +12,7 @@ updated: 2023-05-15
 version: 1.15.0
 stars: 4.5
 ratings: 300
-reviews: 17
+reviews: 22
 size: 
 website: https://www.bitvalve.com
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: bitvalve
 social: 
 redirect_from: 
+developerName: BitValve Developer
 features: 
 
 ---

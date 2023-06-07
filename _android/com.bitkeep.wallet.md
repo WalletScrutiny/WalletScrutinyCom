@@ -12,7 +12,7 @@ updated: 2023-05-15
 version: 7.3.5
 stars: 4.2
 ratings: 3949
-reviews: 411
+reviews: 423
 size: 
 website: https://bitkeep.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://github.com/bitkeepcom
 redirect_from:
 - /com.bitkeep.wallet/
+developerName: BitKeep Global Inc
 features: 
 
 ---

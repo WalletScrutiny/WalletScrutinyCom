@@ -11,7 +11,7 @@ released: 2018-02-21
 updated: 2023-05-10
 version: 3.1.5
 stars: 4.7
-reviews: 2257
+reviews: 2264
 size: '253845504'
 website: https://thecrypto.app
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 features: 
+developerName: Trustswap Inc.
 
 ---
 

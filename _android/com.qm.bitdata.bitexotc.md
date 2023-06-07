@@ -7,8 +7,8 @@ users: 1000
 appId: com.qm.bitdata.bitexotc
 appCountry: 
 released: 2021-08-18
-updated: 2023-05-06
-version: 1.6.6
+updated: 2023-05-26
+version: 1.6.7
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BitDATA Exchange
 features: 
 
 ---

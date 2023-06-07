@@ -8,8 +8,8 @@ users: 100000
 appId: com.flutter.litebit
 appCountry: 
 released: 2019-12-12
-updated: 2023-01-26
-version: 3.3.18
+updated: 2023-05-16
+version: 3.3.19
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/litebiteu
 redirect_from:
 - /com.flutter.litebit/
+developerName: 2525 Ventures BV
 features: 
 
 ---

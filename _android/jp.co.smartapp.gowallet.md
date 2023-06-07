@@ -28,6 +28,7 @@ twitter: gowallet_app_
 social:
 - https://www.facebook.com/gowalletappli
 redirect_from: 
+developerName: 
 features: 
 
 ---

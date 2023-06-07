@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
 redirect_from: 
+developerName: Bitfinex
 features:
 - ln
 

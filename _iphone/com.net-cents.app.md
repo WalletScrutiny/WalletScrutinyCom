@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/net-cents
 - https://www.facebook.com/NetCentsHQ
 features: 
+developerName: Net-Cents Technologies
 
 ---
 

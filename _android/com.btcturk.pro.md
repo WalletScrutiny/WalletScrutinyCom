@@ -8,8 +8,8 @@ users: 1000000
 appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
-updated: 2023-05-15
-version: 1.56.7
+updated: 2023-05-31
+version: 1.56.9
 stars: 4.5
 ratings: 169442
 reviews: 224
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
+developerName: BTCTurk
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: CryptoEngineApp
 social:
 - https://www.facebook.com/TheCryptoEngineApp 
 redirect_from: 
+developerName: Mart Hendricks
 features: 
 
 ---

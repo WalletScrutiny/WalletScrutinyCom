@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/coinchangeio/
 - https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
 redirect_from: 
+developerName: Coinchange  Financials Inc.
 features: 
 
 ---

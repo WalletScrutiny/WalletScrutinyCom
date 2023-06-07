@@ -8,25 +8,26 @@ users: 10000
 appId: net.benoitbasset.ograpi
 appCountry: 
 released: 2018-11-28
-updated: 2021-05-03
-version: 1.4.3
+updated: 2023-06-05
+version: 1.4.5
 stars: 3.8
 ratings: 225
-reviews: 39
+reviews: 40
 size: 
 website: http://ograpi.oblade.net
 repository: 
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-04-27
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Oblade
 features: 
 
 ---

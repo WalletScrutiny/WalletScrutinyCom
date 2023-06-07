@@ -29,6 +29,7 @@ social:
 - https://www.aparat.com/rahaexchange
 - https://www.instagram.com/rahaexchange/
 redirect_from: 
+developerName: RahaPay
 features: 
 
 ---

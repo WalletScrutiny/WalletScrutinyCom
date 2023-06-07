@@ -11,7 +11,7 @@ released: 2018-08-09
 updated: 2022-12-23
 version: 2.0.55
 stars: 2.7
-reviews: 32
+reviews: 33
 size: '76879872'
 website: https://quppy.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/quppy
 - https://www.facebook.com/quppyPay
 features: 
+developerName: Quppy Europe OU
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/cate.coin/
 - https://t.me/catecoin
 redirect_from: 
+developerName: Catecoin
 features: 
 
 ---

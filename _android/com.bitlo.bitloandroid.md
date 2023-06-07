@@ -28,6 +28,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 redirect_from: 
+developerName: Bitlo Teknoloji A.Ş.
 features: 
 
 ---

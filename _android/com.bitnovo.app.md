@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitcoinBitnovo
 redirect_from:
 - /com.bitnovo.app/
+developerName: 
 features: 
 
 ---

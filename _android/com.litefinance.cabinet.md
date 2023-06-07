@@ -9,7 +9,7 @@ appCountry:
 released: 2022-02-09
 updated: 2023-05-11
 version: 1.2.0
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 12
 size: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: litefinanceeng
 social: 
 redirect_from: 
+developerName: LITEFOREX (EUROPE) LTD
 features: 
 
 ---

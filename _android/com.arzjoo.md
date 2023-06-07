@@ -28,6 +28,7 @@ twitter: arzjoo
 social: 
 redirect_from:
 - /com.arzjoo/
+developerName: A to Z Crypto
 features: 
 
 ---

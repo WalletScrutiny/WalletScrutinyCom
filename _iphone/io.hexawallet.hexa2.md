@@ -27,6 +27,7 @@ twitter: HexaWallet
 social:
 - https://www.linkedin.com/company/bithyve
 features: 
+developerName: Bithyve
 
 ---
 

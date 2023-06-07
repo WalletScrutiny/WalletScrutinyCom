@@ -11,7 +11,7 @@ released: 2016-01-25
 updated: 2021-10-13
 version: 3.1.33
 stars: 4.7
-reviews: 41570
+reviews: 41550
 size: '69145600'
 website: http://coincap.io
 repository: 
@@ -27,6 +27,7 @@ twitter: CoinCap_io
 social:
 - https://www.facebook.com/watch/?v=365220420785166
 features: 
+developerName: ShapeShift AG
 
 ---
 

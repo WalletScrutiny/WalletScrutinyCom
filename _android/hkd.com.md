@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en
 redirect_from: 
+developerName: HKD.com Limited
 features: 
 
 ---

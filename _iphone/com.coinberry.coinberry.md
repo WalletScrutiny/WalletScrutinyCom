@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinberry
 - https://www.facebook.com/CoinberryOfficial
 features: 
+developerName: Coinberry
 
 ---
 

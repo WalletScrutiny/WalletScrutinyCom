@@ -8,8 +8,8 @@ users: 10000
 appId: com.welthee.wallet
 appCountry: 
 released: 2021-09-07
-updated: 2023-05-17
-version: 4.3.4
+updated: 2023-05-22
+version: 4.4.0
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: Welthee
 social:
 - https://www.linkedin.com/company/welthee/
 redirect_from: 
+developerName: Capitera AG
 features: 
 
 ---

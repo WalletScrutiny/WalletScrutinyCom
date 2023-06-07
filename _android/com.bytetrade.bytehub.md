@@ -12,7 +12,7 @@ updated: 2021-09-09
 version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
-reviews: 1306
+reviews: 1304
 size: 
 website: https://www.bytetrade.io/
 repository: 
@@ -28,6 +28,7 @@ twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
 redirect_from: 
+developerName: Bytetrade
 features: 
 
 ---

@@ -8,11 +8,11 @@ appId: com.biconomy.Innovation
 appCountry: us
 idd: '1486151349'
 released: 2019-11-06
-updated: 2023-05-19
-version: 2.1.12
+updated: 2023-05-25
+version: 2.1.13
 stars: 4.1
-reviews: 34
-size: '55397376'
+reviews: 35
+size: '56871936'
 website: http://www.biconomy.com/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://biconomycom.medium.com/
 - https://www.youtube.com/c/BiconomyGlobal
 features: 
+developerName: Biconomy Ltd.
 
 ---
 

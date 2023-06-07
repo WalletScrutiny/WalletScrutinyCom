@@ -8,11 +8,11 @@ users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
 released: 2021-09-02
-updated: 2023-05-09
-version: '7.9'
-stars: 4.3
+updated: 2023-05-24
+version: '8.1'
+stars: 3.9
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.icrypex.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 redirect_from: 
+developerName: ICRYPEX BILISIM ANONIM SIRKETI
 features: 
 
 ---

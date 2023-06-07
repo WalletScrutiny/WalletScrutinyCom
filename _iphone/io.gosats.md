@@ -8,11 +8,11 @@ appId: io.gosats
 appCountry: in
 idd: '1536263998'
 released: 2021-01-05
-updated: 2023-05-18
-version: 2.3.2
-stars: 4.3
-reviews: 188
-size: '62486528'
+updated: 2023-05-23
+version: 2.3.4
+stars: 4.2
+reviews: 200
+size: '62470144'
 website: https://gosats.io
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: gosatsapp
 social: 
 features: 
+developerName: Saffron Technologies Pte Ltd
 
 ---
 

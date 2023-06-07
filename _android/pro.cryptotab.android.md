@@ -12,7 +12,7 @@ updated: 2023-05-12
 version: 4.2.1
 stars: 3.1
 ratings: 63867
-reviews: 2424
+reviews: 2428
 size: 
 website: https://cryptocompany.site/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoCompany OU
 features: 
 
 ---

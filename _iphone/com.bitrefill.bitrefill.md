@@ -11,7 +11,7 @@ released: 2018-06-05
 updated: 2023-04-22
 version: 1.31.14
 stars: 4.8
-reviews: 239
+reviews: 243
 size: '27136000'
 website: https://www.bitrefill.com
 repository: 
@@ -33,6 +33,7 @@ social:
 - https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
 features: 
+developerName: Bitrefill
 
 ---
 

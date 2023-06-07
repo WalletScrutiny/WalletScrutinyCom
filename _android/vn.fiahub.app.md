@@ -30,6 +30,7 @@ social:
 - https://www.fiahub.com/blog/
 - https://www.linkedin.com/company/fiahub/
 redirect_from: 
+developerName: DIGITEX PTE LTD
 features: 
 
 ---

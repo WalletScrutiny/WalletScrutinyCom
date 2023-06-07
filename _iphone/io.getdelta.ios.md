@@ -7,11 +7,11 @@ appId: io.getdelta.ios
 appCountry: us
 idd: 1288676542
 released: 2017-09-25
-updated: 2023-05-20
-version: 2023.4.0
+updated: 2023-06-05
+version: 2023.4.1
 stars: 4.7
-reviews: 10406
-size: '74421248'
+reviews: 10431
+size: '96344064'
 website: https://delta.app
 repository: 
 issue: 
@@ -25,6 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Opus Labs CVBA
 
 ---
 

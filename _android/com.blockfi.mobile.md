@@ -12,7 +12,7 @@ updated: 2023-03-30
 version: 5.11.7
 stars: 2.5
 ratings: 4802
-reviews: 1529
+reviews: 1528
 size: 
 website: https://blockfi.com/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BlockFi
 - https://www.reddit.com/r/blockfi
 redirect_from: 
+developerName: BlockFi
 features: 
 
 ---

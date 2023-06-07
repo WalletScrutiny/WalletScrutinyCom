@@ -8,8 +8,8 @@ users: 50000
 appId: com.asiainnovations.ace.taiwan
 appCountry: us
 released: 2019-01-28
-updated: 2023-05-10
-version: 5.2.0_3570
+updated: 2023-06-05
+version: 5.2.0_3590
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/ace.exchange.tw
 redirect_from: 
+developerName: ACE Exchange
 features: 
 
 ---

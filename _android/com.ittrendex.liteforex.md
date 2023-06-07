@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/litefinance-official
 - https://www.facebook.com/LiteFinancebroker
 redirect_from: 
+developerName: 
 features: 
 
 ---

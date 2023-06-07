@@ -12,7 +12,7 @@ updated: 2023-05-11
 version: 1.40.0
 stars: 4.3
 ratings: 216
-reviews: 86
+reviews: 88
 size: 
 website: https://expcapital.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 redirect_from: 
+developerName: Currency.com PL
 features: 
 
 ---

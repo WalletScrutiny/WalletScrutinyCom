@@ -11,7 +11,7 @@ released: 2019-11-12
 updated: 2023-05-18
 version: 2.35.0
 stars: 4.5
-reviews: 11808
+reviews: 11826
 size: '108220416'
 website: https://www.kraken.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/KrakenFX
 features:
 - ln
+developerName: Kraken
 
 ---
 

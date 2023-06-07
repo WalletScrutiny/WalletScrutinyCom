@@ -12,7 +12,7 @@ updated: 2023-04-05
 version: 4.4.4
 stars: 4.5
 ratings: 24480
-reviews: 1196
+reviews: 1197
 size: 
 website: http://www.netdania.com
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/NetDania-146001445410373
 redirect_from: 
+developerName: NetDania SRL
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 10000
 appId: eu.exante.client
 appCountry: am
 released: 2014-04-25
-updated: 2023-05-12
-version: 4.46.8
+updated: 2023-05-29
+version: 4.47.10
 stars: 3.1
 ratings: 218
-reviews: 157
+reviews: 158
 size: 
 website: http://exante.eu
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/exante-ltd
 - https://www.facebook.com/exante.global
 redirect_from: 
+developerName: XNT Ltd
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: everestKinvo
-title: 'Kinvo: Gestão de Investimentos'
+title: 'Kinvo: otimize investimentos'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.everestti.kinvo
 appCountry: BR
 released: 2017-12-22
-updated: 2023-05-11
-version: 3.18.0
+updated: 2023-06-02
+version: 3.19.0
 stars: 4
 ratings: 
-reviews: 6622
+reviews: 6672
 size: 
 website: http://www.kinvo.com.br
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/kinvoapp
 - https://www.youtube.com/kinvoapp
 redirect_from: 
+developerName: Kinvo Tecnologia da Informação
 features: 
 
 ---

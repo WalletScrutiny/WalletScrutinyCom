@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 features: 
+developerName: Viabtc Technology Limited
 
 ---
 

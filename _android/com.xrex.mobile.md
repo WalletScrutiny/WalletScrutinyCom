@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/xrexinc
 - https://www.facebook.com/xrexinfo
 redirect_from: 
+developerName: XREX, Inc.
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2019-05-20
 updated: 2023-05-08
 version: 2.1.14
 stars: 4.5
-reviews: 30
+reviews: 31
 size: '54151168'
 website: https://www.walletofsatoshi.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/walletofsatoshi
 features:
 - ln
+developerName: Living Room of Satoshi Pty Ltd
 
 ---
 

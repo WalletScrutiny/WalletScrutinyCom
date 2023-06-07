@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /app.zeusln.zeus/
 - /posts/app.zeusln.zeus/
+developerName: Atlas 21 Inc.
 features:
 - ln
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Plasmapay
 - https://www.reddit.com/r/PlasmaPay
 features: 
+developerName: 
 
 ---
 

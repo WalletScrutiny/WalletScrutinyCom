@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitexworldwide
 - https://www.facebook.com/Bitexofficial
 features: 
+developerName: Trade Bit Commercial Brokers LLC
 
 ---
 

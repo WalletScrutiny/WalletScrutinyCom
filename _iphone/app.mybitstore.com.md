@@ -11,7 +11,7 @@ released: 2021-08-12
 updated: 2023-05-19
 version: 2.8.91
 stars: 4.7
-reviews: 345
+reviews: 349
 size: '45472768'
 website: 
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://instagram.com/mybitstore_app/
 - https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw
 features: 
+developerName: MyBitStore Limited
 
 ---
 

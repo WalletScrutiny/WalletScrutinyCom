@@ -8,11 +8,11 @@ appId: com.bchi.haruinvestapp
 appCountry: us
 idd: 1579344792
 released: 2021-08-19
-updated: 2023-05-17
-version: 5.1.0
+updated: 2023-05-24
+version: 5.2.0
 stars: 4.9
-reviews: 191
-size: '100429824'
+reviews: 193
+size: '100458496'
 website: https://haruinvest.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest
 features: 
+developerName: BCHI Limited
 
 ---
 

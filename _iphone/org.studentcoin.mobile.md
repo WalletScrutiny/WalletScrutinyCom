@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/studentcoin.org
 - https://www.reddit.com/r/Studentcoin
 features: 
+developerName: Student Coin
 
 ---
 

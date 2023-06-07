@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-03
 updated: 2022-10-18
 version: VARY
-stars: 4.3
+stars: 4.4
 ratings: 36999
 reviews: 159
 size: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/payeercoins
 redirect_from: 
+developerName: Payeer Official
 features: 
 
 ---

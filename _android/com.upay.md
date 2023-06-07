@@ -2,7 +2,8 @@
 wsId: 
 title: UPAY - Personal
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.upay
 appCountry: 
@@ -18,15 +19,19 @@ repository:
 issue: 
 icon: com.upay.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-12-28
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: The Value Group Inc.
 features: 
 
 ---
 
+The website is no longer online. We tried to register but the app opened a browser page with an error: "upay.company's server IP address could not be found.". 
+
+The app also automatically closes. We believe this app is **defunct**.

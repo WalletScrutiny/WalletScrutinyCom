@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blockbankapp/
 - https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg
 features: 
+developerName: 
 
 ---
 

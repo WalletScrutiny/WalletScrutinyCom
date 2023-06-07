@@ -12,7 +12,7 @@ updated: 2023-05-17
 version: 5.24.2
 stars: 4
 ratings: 756
-reviews: 737
+reviews: 736
 size: 
 website: https://dcentwallet.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
 redirect_from: 
+developerName: IoTrust Co., Ltd
 features: 
 
 ---

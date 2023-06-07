@@ -10,17 +10,17 @@ idd: 966538981
 released: 2015-02-20
 updated: 2021-06-15
 version: 4.1.0
-stars: 4
-reviews: 159
+stars: 3.9
+reviews: 160
 size: '14478336'
 website: https://libertyx.com
 repository: 
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-12-17
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: libertyx
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/libertyx
 - https://www.facebook.com/getlibertyx
 features: 
+developerName: Moon, Inc.
 
 ---
 

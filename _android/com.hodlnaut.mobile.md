@@ -27,6 +27,7 @@ reviewArchive:
 twitter: hodlnautdotcom
 social: 
 redirect_from: 
+developerName: Hodlnaut
 features: 
 
 ---

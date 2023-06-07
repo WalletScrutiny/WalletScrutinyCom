@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/rekeningku-com
 - https://www.facebook.com/Rekeningkucom
 features: 
+developerName: 
 
 ---
 

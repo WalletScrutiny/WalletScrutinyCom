@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/studentcoin.org
 - https://www.reddit.com/r/Studentcoin
 redirect_from: 
+developerName: Student Coin
 features: 
 
 ---

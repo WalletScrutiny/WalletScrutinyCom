@@ -8,7 +8,7 @@ users: 50000
 appId: com.btcex.exchange
 appCountry: 
 released: 2021-10-25
-updated: 2023-05-17
+updated: 2023-06-03
 version: 1.3.92
 stars: 4.3
 ratings: 
@@ -32,6 +32,7 @@ social:
 - https://blog.naver.com/btcex
 - https://medium.com/@BTCEX
 redirect_from: 
+developerName: BTCEX
 features: 
 
 ---

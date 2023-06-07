@@ -27,6 +27,7 @@ reviewArchive:
 twitter: FrontierDotXYZ
 social: 
 redirect_from: 
+developerName: Ohana Labs Pte Ltd
 features: 
 
 ---

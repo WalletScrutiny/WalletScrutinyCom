@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/chainge-finance
 - https://www.facebook.com/chainge.finance
 features: 
+developerName: Chainge Tech Limited
 
 ---
 

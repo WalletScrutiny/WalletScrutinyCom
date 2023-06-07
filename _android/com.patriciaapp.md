@@ -8,8 +8,8 @@ users: 100000
 appId: com.patriciaapp
 appCountry: us
 released: 2020-02-14
-updated: 2023-05-16
-version: 1.5.1
+updated: 2023-05-25
+version: 1.5.2
 stars: 2
 ratings: 3910
 reviews: 436
@@ -28,6 +28,7 @@ twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng
 redirect_from: 
+developerName: Patricia Technologies
 features: 
 
 ---

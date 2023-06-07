@@ -9,10 +9,10 @@ appCountry: us
 idd: '1403702113'
 released: 2018-09-06
 updated: 2023-05-05
-version: 2.5.1
+version: 2.5.2
 stars: 4.1
 reviews: 178
-size: '82797568'
+size: '82908160'
 website: https://www.f2pool.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: F2Pool_Official
 social:
 - https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
 features: 
+developerName: F2Pool Information Technology Co., Ltd.
 
 ---
 

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/Capitual
 - https://www.linkedin.com/company/capitual/
 features: 
+developerName: Capitual
 
 ---
 

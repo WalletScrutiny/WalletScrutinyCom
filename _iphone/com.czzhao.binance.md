@@ -8,11 +8,11 @@ appId: com.czzhao.binance
 appCountry: 
 idd: 1436799971
 released: 2018-10-06
-updated: 2023-05-10
-version: 2.63.4
+updated: 2023-05-29
+version: 2.65.2
 stars: 4.7
-reviews: 146823
-size: '663691264'
+reviews: 149314
+size: '674490368'
 website: https://www.binance.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/binance
 - https://www.reddit.com/r/binance
 features: 
+developerName: Binance LTD
 
 ---
 

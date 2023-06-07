@@ -11,7 +11,7 @@ released: 2018-08-07
 updated: 2023-05-16
 version: '5.11'
 stars: 4.6
-reviews: 6551
+reviews: 6577
 size: '180344832'
 website: https://spot-wallet.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/spot-bitcoin
 - https://www.facebook.com/spot.bitcoin
 features: 
+developerName: Spot
 
 ---
 

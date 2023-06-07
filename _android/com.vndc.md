@@ -8,11 +8,11 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2023-05-19
-version: 4.4.5
+updated: 2023-06-05
+version: 4.4.9
 stars: 4.2
 ratings: 46866
-reviews: 370
+reviews: 369
 size: 
 website: https://goonus.io
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: vncd_official
 social: 
 redirect_from: 
+developerName: ONUS FINANCE UAB
 features: 
 
 ---

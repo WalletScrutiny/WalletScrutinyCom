@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: C24 WORLD  LTD
 features: 
 
 ---

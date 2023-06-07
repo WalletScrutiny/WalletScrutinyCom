@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-01
 updated: 2022-12-13
 version: 4.3.3
-stars: 3.4
+stars: 3.3
 ratings: 
 reviews: 145
 size: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw
 - https://www.linkedin.com/company/movocash-inc-/
 redirect_from: 
+developerName: MovoCash, Inc.
 features: 
 
 ---

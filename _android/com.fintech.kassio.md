@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/kassionetwork/
 - https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 redirect_from: 
+developerName: Digital Pung ApS
 features: 
 
 ---

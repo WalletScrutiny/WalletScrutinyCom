@@ -8,8 +8,8 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2023-05-18
-version: 2.14.0
+updated: 2023-06-01
+version: 2.14.1
 stars: 4.7
 ratings: 2656
 reviews: 244
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
 redirect_from: 
+developerName: Amber AI Limited
 features: 
 
 ---

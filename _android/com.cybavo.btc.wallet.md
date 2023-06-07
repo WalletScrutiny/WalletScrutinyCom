@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.cybavo.btc.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-05-22
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CYBAVO Inc.
 features: 
 
 ---

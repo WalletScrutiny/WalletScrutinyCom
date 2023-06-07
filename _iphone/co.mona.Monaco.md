@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2023-05-15
-version: '3.160'
+updated: 2023-06-05
+version: '3.162'
 stars: 4.5
-reviews: 146247
-size: '438433792'
+reviews: 148520
+size: '454850560'
 website: https://crypto.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 features: 
+developerName: Crypto.com
 
 ---
 

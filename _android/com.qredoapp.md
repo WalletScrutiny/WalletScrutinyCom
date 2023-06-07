@@ -8,8 +8,8 @@ users: 10000
 appId: com.qredoapp
 appCountry: 
 released: 2020-09-24
-updated: 2023-05-17
-version: v1.1.3
+updated: 2023-05-26
+version: v1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ twitter: QredoNetwork
 social:
 - https://www.linkedin.com/company/qredo/
 redirect_from: 
+developerName: Qredo Services Ltd.
 features: 
 
 ---

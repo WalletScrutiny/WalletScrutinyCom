@@ -9,7 +9,7 @@ appCountry:
 released: 2020-02-04
 updated: 2023-04-13
 version: 2.4.1
-stars: 4.6
+stars: 4.5
 ratings: 3701
 reviews: 125
 size: 
@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.sologenicwallet/
 - /posts/com.sologenicwallet/
+developerName: Sologenic
 features: 
 
 ---

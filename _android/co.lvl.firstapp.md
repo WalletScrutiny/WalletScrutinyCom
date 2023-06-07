@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-06-30
 updated: 2021-09-09
 version: 1.0.5
-stars: 3.8
+stars: 3.7
 ratings: 159
 reviews: 62
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bankwithlvl
 - https://www.facebook.com/BankWithLVL
 redirect_from: 
+developerName: Samsa Technologies Inc.
 features: 
 
 ---

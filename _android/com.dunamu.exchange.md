@@ -8,8 +8,8 @@ users: 5000000
 appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
-updated: 2023-05-12
-version: 1.21.6
+updated: 2023-06-02
+version: 1.22.0p2
 stars: 3.4
 ratings: 29440
 reviews: 16
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 redirect_from: 
+developerName: Dunamu
 features: 
 
 ---

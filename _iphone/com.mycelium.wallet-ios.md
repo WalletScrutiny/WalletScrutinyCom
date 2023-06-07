@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/myceliumcom
 - https://www.reddit.com/r/mycelium
 features: 
+developerName: MRD X-Change GmbH
 
 ---
 

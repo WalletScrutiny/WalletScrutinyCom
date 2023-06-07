@@ -7,8 +7,8 @@ users: 1000
 appId: vip.sing.exchange
 appCountry: 
 released: 2021-05-11
-updated: 2023-05-16
-version: 3.5.1.1
+updated: 2023-06-01
+version: 3.5.2.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: starex.sg
 features: 
 
 ---

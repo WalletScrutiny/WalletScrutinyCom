@@ -11,7 +11,7 @@ released: 2020-01-05
 updated: 2023-05-10
 version: 3.1.0
 stars: 4.2
-reviews: 107622
+reviews: 107657
 size: '306661376'
 website: https://www.binance.us/en/home
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/binance-us
 - https://www.facebook.com/BinanceUS
 features: 
+developerName: BAM Trading Services, Inc.
 
 ---
 

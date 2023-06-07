@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 3Сommas - Cryptocurrency trading terminal and bots
 features: 
 
 ---

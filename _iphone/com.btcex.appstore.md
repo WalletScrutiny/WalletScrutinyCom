@@ -8,11 +8,11 @@ appId: com.btcex.appstore
 appCountry: am
 idd: '1580680668'
 released: 2021-10-22
-updated: 2023-05-14
-version: 1.4.1
+updated: 2023-05-21
+version: 1.4.2
 stars: 0
 reviews: 0
-size: '99400704'
+size: '99433472'
 website: https://www.btcex.com/
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://blog.naver.com/btcex
 - https://medium.com/@BTCEX
 features: 
+developerName: BTCEX EXCHANGE LIMITED
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-05-04
 version: '3.7'
 stars: 4.8
 ratings: 
-reviews: 6
+reviews: 4
 size: 
 website: https://unitedexchange.io/
 repository: 
@@ -28,6 +28,7 @@ twitter: exchange_united
 social:
 - https://www.facebook.com/UnitedExchange.io
 redirect_from: 
+developerName: United Exchange
 features: 
 
 ---

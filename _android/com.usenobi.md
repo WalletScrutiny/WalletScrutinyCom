@@ -8,8 +8,8 @@ users: 50000
 appId: com.usenobi
 appCountry: 
 released: 2020-07-15
-updated: 2023-04-12
-version: 3.5.3
+updated: 2023-05-22
+version: 3.6.0
 stars: 3.3
 ratings: 
 reviews: 5
@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/c/usenobi
 - https://discord.com/invite/hNGkFeQHQD
 redirect_from: 
+developerName: usenobi
 features: 
 
 ---

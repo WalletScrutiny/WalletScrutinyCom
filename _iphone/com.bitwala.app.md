@@ -26,6 +26,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 features: 
+developerName: Bitwala
 
 ---
 

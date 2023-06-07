@@ -8,11 +8,11 @@ users: 50000
 appId: ru.zamzamwallet
 appCountry: ru
 released: 2020-06-26
-updated: 2023-04-04
-version: 2.8.87
-stars: 3.7
+updated: 2023-05-27
+version: 2.8.92
+stars: 3.6
 ratings: 139
-reviews: 247
+reviews: 244
 size: 
 website: https://zam.me/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Zamzam Tech
 features: 
 
 ---

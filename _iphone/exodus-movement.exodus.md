@@ -8,11 +8,11 @@ appId: exodus-movement.exodus
 appCountry: 
 idd: 1414384820
 released: 2019-03-23
-updated: 2023-05-12
-version: 23.5.12
+updated: 2023-06-05
+version: 23.6.6
 stars: 4.6
-reviews: 18904
-size: '75576320'
+reviews: 18988
+size: '76343296'
 website: https://exodus.com/mobile
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
 features: 
+developerName: Exodus Movement, Inc.
 
 ---
 

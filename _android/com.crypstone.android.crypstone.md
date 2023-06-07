@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/crypstoneglobal
 - https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug 
 redirect_from: 
+developerName: Crypstone
 features: 
 
 ---

@@ -28,6 +28,7 @@ reviewArchive:
 twitter: BlixtWallet
 social: 
 redirect_from: 
+developerName: Hampus Sjöberg
 features:
 - ln
 

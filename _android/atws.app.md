@@ -10,9 +10,9 @@ appCountry: us
 released: 2010-12-15
 updated: 2023-04-21
 version: 8.4.670
-stars: 4.5
+stars: 4.6
 ratings: 7723
-reviews: 988
+reviews: 990
 size: 
 website: http://ibkr.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/interactive-brokers
 - https://www.facebook.com/InteractiveBrokers
 redirect_from: 
+developerName: Interactive Brokers Group
 features: 
 
 ---

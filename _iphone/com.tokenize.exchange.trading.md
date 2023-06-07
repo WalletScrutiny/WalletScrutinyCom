@@ -27,6 +27,7 @@ twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange
 features: 
+developerName: Tokenize Xchange Pte Ltd
 
 ---
 

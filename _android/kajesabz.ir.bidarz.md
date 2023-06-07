@@ -8,11 +8,11 @@ users: 100000
 appId: kajesabz.ir.bidarz
 appCountry: IR
 released: 2019-01-16
-updated: 2023-05-14
-version: 4.4.17
+updated: 2023-05-24
+version: 4.4.21
 stars: 4.3
 ratings: 4010
-reviews: 1539
+reviews: 1536
 size: 
 website: https://www.bidarz.ir
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bidarz/
 - https://www.facebook.com/Bidarz/
 redirect_from: 
+developerName: Kaj Sabz Sepehr Azin
 features: 
 
 ---

@@ -12,7 +12,7 @@ released: 2019-03-05
 updated: 2023-03-22
 version: 58.0.0
 stars: 1.7
-reviews: 131
+reviews: 135
 size: '67826688'
 website: https://www.etoro.com/crypto/wallet/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
 features: 
+developerName: eToro
 
 ---
 

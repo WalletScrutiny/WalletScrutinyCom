@@ -12,7 +12,7 @@ updated: 2020-07-15
 version: '3.09'
 stars: 3.5
 ratings: 479
-reviews: 175
+reviews: 164
 size: 
 website: https://www.spend.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/spend
 - https://www.reddit.com/r/Spend
 redirect_from: 
+developerName: Spend CA Inc
 features: 
 
 ---

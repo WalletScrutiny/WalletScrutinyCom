@@ -10,8 +10,8 @@ idd: '1661254805'
 released: 2023-01-11
 updated: 2023-05-18
 version: '1.55'
-stars: 3.7
-reviews: 10
+stars: 3.8
+reviews: 11
 size: '123772928'
 website: https://www.liteforex.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: litefinanceeng
 social: 
 features: 
+developerName: Liteforex (Europe) Limited
 
 ---
 

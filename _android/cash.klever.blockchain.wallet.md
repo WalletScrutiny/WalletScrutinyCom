@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-27
 updated: 2023-04-28
 version: 4.24.14
-stars: 3.5
+stars: 3.6
 ratings: 10676
 reviews: 593
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/klever.io
 redirect_from:
 - /cash.klever.blockchain.wallet/
+developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 
 
 ---

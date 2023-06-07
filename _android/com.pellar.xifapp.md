@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.pellar.xifapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-11
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/xinfinityholding/
 redirect_from: 
+developerName: X INFINITY
 features: 
 
 ---

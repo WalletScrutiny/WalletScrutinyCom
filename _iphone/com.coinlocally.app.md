@@ -11,7 +11,7 @@ released: 2020-01-28
 updated: 2023-04-11
 version: 2.2.6
 stars: 3.8
-reviews: 57
+reviews: 61
 size: '28285952'
 website: https://coinlocally.com
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: coinlocallyclyc
 social: 
 features: 
+developerName: Coinlocally
 
 ---
 

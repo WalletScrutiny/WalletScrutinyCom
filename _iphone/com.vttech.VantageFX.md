@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/vantage-fx
 - https://www.facebook.com/VantageFXBroker
 features: 
+developerName: Vantage Global Prime PTY LTD
 
 ---
 

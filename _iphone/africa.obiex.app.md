@@ -11,7 +11,7 @@ released: 2021-06-18
 updated: 2023-04-01
 version: 3.3.4
 stars: 4.7
-reviews: 411
+reviews: 417
 size: '78700544'
 website: 
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 features: 
+developerName: Paylot technologies Ltd
 
 ---
 

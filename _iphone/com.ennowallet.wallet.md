@@ -31,6 +31,7 @@ social:
 - https://blog.ennowallet.com/
 - https://www.instagram.com/ennowallet/
 features: 
+developerName: EnnoFund
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2023-01-23
 version: 3.82.0
 stars: 4.6
 ratings: 4934
-reviews: 754
+reviews: 758
 size: 
 website: http://www.quicrypto.com
 repository: 
@@ -28,6 +28,7 @@ twitter: quicrypto
 social:
 - https://www.facebook.com/Quicrypto
 redirect_from: 
+developerName: nukes
 features: 
 
 ---

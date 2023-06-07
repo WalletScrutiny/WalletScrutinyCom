@@ -32,6 +32,7 @@ social:
 - https://www.linkedin.com/company/citadel-one/
 - https://www.facebook.com/Citadel.One
 features: 
+developerName: Citadel.one LTD
 
 ---
 
