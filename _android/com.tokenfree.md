@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tokenfree.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 

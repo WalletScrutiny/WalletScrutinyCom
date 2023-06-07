@@ -3,7 +3,7 @@ wsId:
 title: StarWALLET 2.0
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.starworksglobal.starwallet
 appCountry: 
 released: 2021-02-01
@@ -19,7 +19,7 @@ issue:
 icon: com.starworksglobal.starwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

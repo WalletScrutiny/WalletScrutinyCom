@@ -8,8 +8,8 @@ users: 50000
 appId: com.coinberry_mobile
 appCountry: ca
 released: 2018-12-19
-updated: 2023-05-23
-version: 137.2.0
+updated: 2023-06-01
+version: 137.6.4
 stars: 2.9
 ratings: 1118
 reviews: 657

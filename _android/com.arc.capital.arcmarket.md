@@ -3,7 +3,7 @@ wsId:
 title: Arcmarket
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.arc.capital.arcmarket
 appCountry: 
 released: 2021-09-24
