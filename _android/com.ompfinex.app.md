@@ -8,8 +8,8 @@ users: 100000
 appId: com.ompfinex.app
 appCountry: 
 released: 2021-07-20
-updated: 2023-05-30
-version: 3.1.0
+updated: 2023-06-06
+version: 3.1.1
 stars: 4
 ratings: 
 reviews: 31

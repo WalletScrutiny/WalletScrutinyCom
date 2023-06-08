@@ -11,7 +11,7 @@ released: 2020-09-21
 updated: 2020-09-24
 version: 5.4.4
 stars: 2.7
-reviews: 143
+reviews: 142
 size: '121089024'
 website: https://cryptobrowser.site/
 repository: 

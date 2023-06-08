@@ -8,8 +8,8 @@ users: 10000
 appId: net.benoitbasset.ograpi
 appCountry: 
 released: 2018-11-28
-updated: 2023-06-05
-version: 1.4.5
+updated: 2023-06-07
+version: 1.4.6
 stars: 3.8
 ratings: 225
 reviews: 40
