@@ -13,6 +13,8 @@ const stats = {
   remaining: 0
 }
 
+const githubPattern =  /(https:\/\/github\.com)(\/[\w.@:\-~]+){2,}/g
+const ignoreVerdicts = ['nowallet', 'fake']
 const category = 'hardware'
 const folder = `_${category}/`
 const headers = ('title appId authors released discontinued updated version ' +
@@ -20,7 +22,7 @@ const headers = ('title appId authors released discontinued updated version ' +
                 'shop country price repository issue icon bugbounty meta ' +
                 'verdict date signer reviewArchive twitter social features').split(' ')
 
-async function refreshAll (ids, markDefunct, githubApi) {
+async function refreshAll (ids, githubApi) {
   const octokit = new Octokit({ auth: githubApi })
   var files
   if (ids) {
@@ -30,10 +32,10 @@ async function refreshAll (ids, markDefunct, githubApi) {
   }
   console.log(`Updating ${files.length} 🗃 files ...`)
   stats.remaining = files.length
-  files.forEach(file => { refreshFile(file, undefined, markDefunct, octokit) })
+  files.forEach(file => { refreshFile(file, undefined, octokit) })
 }
 
-function refreshFile (fileName, content, markDefunct, octokit) {
+function refreshFile (fileName, content, octokit) {
   sem.acquire().then(async function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
@@ -43,46 +45,50 @@ function refreshFile (fileName, content, markDefunct, octokit) {
     const body = content.body
     const appId = header.appId
     helper.checkHeaderKeys(header, headers)
-    if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
-      let githubRelease
+    if (helper.was404(`${folder}${appId}`) || 'defunct'.includes(header.meta)) {
+      stats.defunct++
+      helper.writeResult(folder, header, body)
+      stats.remaining--
+      return release()
+    }
+
+    // TODO: Mohammad 05-26-2023: support other repos and parse wallets like TREZOR differently
+    // we may need a helper for some wallets
+    if (githubPattern.test(header.repository) && !ignoreVerdicts.includes(header.verdict)) {
+      const parts = header.repository.split('/')
+      const owner = parts[3]
+      const repo = parts[4]
+      let githubResult
       try {
-        // TODO: Mohammad 05-26-2023: support other repos and parse wallets like TREZOR differently
-        // we may need a helper for some wallets
-        if (header.repository && header.repository.startsWith('https://github.com/')) {
-          const parts = header.repository.split('/')
-          const owner = parts[3]
-          const repo = parts[4]
-          const githubResult = await octokit.request('GET /repos/{owner}/{repo}/tags{?per_page,page}', { owner: owner, repo: repo })
-          githubRelease = githubResult.data[0]
-          const count = githubResult.data.length
-          console.log(`${header.title}: ${count} releases. Last release was ${githubRelease.name} on ${githubRelease.created_at}.`)
-
-          updateFromGithub(header, githubRelease)
-          stats.updated++
-          helper.writeResult(folder, header, body)
-        }
+        githubResult = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
       } catch (err) {
-        console.error(`Error with ${header.title}:`, err)
+        console.error(`Error while fetching releases from Github for ${header.title}:`, err)
 
-        if (`${err}`.search(/404/) > -1) {
-          if (markDefunct) {
-            header.meta = "defunct"
-            header.date = new Date()
-            helper.writeResult(folder, header, body)
-          } else {
-            helper.addDefunctIfNew(`_hardware/${appId}`)
+        if (err.status === 404) {
+          try {
+            console.log('Trying to get tags…')
+            const tag = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
+            const commitSHA = tag.commit.sha
+            const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
+            tag.created_at = commit.commit.author.date
+            githubResult = tag
+          } catch (err) {
+            console.log(`No version info available on Github for ${header.title}`)
           }
         }
       }
-    } else {
-      stats.defunct++
-      helper.writeResult(folder, header, body)
+
+      if (githubResult) {
+        console.log(`${header.title}: Last release was ${githubResult?.name} on ${githubResult?.created_at}.`)
+
+        updateFromGithub(header, githubResult)
+        stats.updated++
+        helper.writeResult(folder, header, body)
+      }
     }
     stats.remaining--
     release()
-  }).catch(err => {
-    console.error(`Does this ever get triggered 3? ${err}`)
-  })
+  }).catch(console.error)
 }
 
 /**
@@ -92,12 +98,12 @@ function updateFromGithub (header, app) {
   if (app === undefined) {
     return
   }
-  // TODO: Mohammad 05-26-2023: needs to be parsed correctly from tag_name or name
-  header.version = (app.name || 'various').replace(/["\\]*/g, '') // strip " and \ that won't be missed in the version string
+  const parsedVersion = (app.tag_name ?? app.name).match(/\d+(?:\.\d+)+/) // strip anything except standard version number
+  header.version = parsedVersion ? parsedVersion[0] : app.name
   // if api reports an older updated date than what we determined, keep our data
-  header.updated = header.updated && new Date(header.updated) > new Date(app.published_at)
+  header.updated = header.updated && new Date(header.updated) > new Date(app.created_at)
     ? header.updated
-    : new Date(app.published_at)
+    : new Date(app.created_at)
   header.meta = header.meta || 'ok'
   helper.updateMeta(header)
 }
