@@ -3,7 +3,7 @@ wsId:
 title: Quan2um
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mobile.quantum
 appCountry: 

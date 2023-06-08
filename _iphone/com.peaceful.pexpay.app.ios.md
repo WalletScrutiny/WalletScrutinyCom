@@ -10,8 +10,8 @@ idd: '1618178873'
 released: 2022-04-11
 updated: 2023-05-30
 version: 1.18.0
-stars: 3.9
-reviews: 9
+stars: 4
+reviews: 10
 size: '344730624'
 website: https://www.pexpay.com
 repository: 

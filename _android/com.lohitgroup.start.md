@@ -3,7 +3,7 @@ wsId:
 title: Lohit Group
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.lohitgroup.start
 appCountry: 

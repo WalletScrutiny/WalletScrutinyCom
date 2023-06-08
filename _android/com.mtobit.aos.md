@@ -3,7 +3,7 @@ wsId:
 title: Mtobit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mtobit.aos
 appCountry: 

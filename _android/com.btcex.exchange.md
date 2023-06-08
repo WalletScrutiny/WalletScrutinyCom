@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-25
 updated: 2023-06-03
 version: 1.3.92
-stars: 4.3
+stars: 4.1
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.btcex.com/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: 'Libonomy: Mobile Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.libonomywallet
 appCountry: 

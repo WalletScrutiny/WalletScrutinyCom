@@ -3,7 +3,7 @@ wsId:
 title: Peer2BTC
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mlm.application
 appCountry: 

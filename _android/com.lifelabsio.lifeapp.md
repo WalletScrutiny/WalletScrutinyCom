@@ -3,7 +3,7 @@ wsId:
 title: LIFE - Simply for Everyone
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.lifelabsio.lifeapp
 appCountry: 

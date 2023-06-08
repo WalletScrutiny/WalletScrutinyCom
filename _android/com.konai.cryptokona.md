@@ -3,7 +3,7 @@ wsId:
 title: CrypotoKona
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.konai.cryptokona
 appCountry: 

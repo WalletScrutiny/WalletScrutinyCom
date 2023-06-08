@@ -3,7 +3,7 @@ wsId:
 title: Lio App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.liowallet.app
 appCountry: 

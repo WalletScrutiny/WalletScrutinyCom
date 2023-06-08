@@ -3,7 +3,7 @@ wsId:
 title: rBitex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mobileapp.rbitex
 appCountry: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobileapp.rbitex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-30
+date: 2023-06-08
 signer: 
 reviewArchive: 
 twitter: 

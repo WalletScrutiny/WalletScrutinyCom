@@ -18,7 +18,7 @@ size:
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
-icon: co.edgesecure.app.jpg
+icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: ftbfs

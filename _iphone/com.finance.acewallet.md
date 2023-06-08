@@ -8,8 +8,8 @@ appId: com.finance.acewallet
 appCountry: us
 idd: '1567143706'
 released: 2021-07-26
-updated: 2023-05-11
-version: 1.3.11
+updated: 2023-06-07
+version: 1.3.12
 stars: 0
 reviews: 0
 size: '58900480'

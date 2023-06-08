@@ -3,7 +3,7 @@ wsId:
 title: Mobilink Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mobilink.token
 appCountry: 

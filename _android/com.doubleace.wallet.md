@@ -8,8 +8,8 @@ users: 5000
 appId: com.doubleace.wallet
 appCountry: 
 released: 
-updated: 2023-05-06
-version: 1.3.11
+updated: 2023-06-05
+version: 1.3.12
 stars: 
 ratings: 
 reviews: 

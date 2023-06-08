@@ -12,7 +12,7 @@ updated: 2023-06-02
 version: VARY
 stars: 3.8
 ratings: 26669
-reviews: 1382
+reviews: 1381
 size: 
 website: https://www.dopamineapp.com
 repository: 

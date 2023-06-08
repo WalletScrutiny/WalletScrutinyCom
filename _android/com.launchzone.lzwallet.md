@@ -3,7 +3,7 @@ wsId:
 title: LZ Wallet - Crypto & Bitcoin W
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.launchzone.lzwallet
 appCountry: 

@@ -8,8 +8,8 @@ appId: io.jp-ex.iosapp2
 appCountry: jp
 idd: 1559708728
 released: 2021-04-22
-updated: 2023-06-02
-version: 2.78.818
+updated: 2023-06-07
+version: 2.79.826
 stars: 2
 reviews: 1
 size: '88273920'

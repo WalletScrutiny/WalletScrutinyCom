@@ -3,7 +3,7 @@ wsId:
 title: 키퍼월렛 keyperWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.keyperwallet
 appCountry: 
