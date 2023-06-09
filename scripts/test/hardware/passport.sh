@@ -1,11 +1,19 @@
 #!/bin/bash
-# Provide this script with the version without "v"
+# Provide this script with the version without "v" and the screen (one of "color" or "mono")
 # You can also optionally provide the published build hash and SHA256 hash of the binary
 # to have the script compare hashes automatically.
 version=$1
-buildHash=$2
-releaseHash=$3
-fileName=v${version}-passport.bin
+screen=$2
+buildHash=$3
+releaseHash=$4
+if [[ $2 == "color" ]]; then
+    fileName=v${version}-passport.bin
+elif [[ $2 == "mono" ]]; then
+    fileName=v${version}-founders-passport.bin
+else
+    echo 'Please specify one of "color" or "mono"'
+    exit 1
+fi
 
 # Remove any previous build artifacts
 rm -rf /tmp/passport/
@@ -28,21 +36,34 @@ curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -
 
 # Build and verify the sha256 hash of the specified firmware version
 /tmp/passport/just build-docker
-/tmp/passport/just build-firmware color
-/tmp/passport/just build-bootloader color
+if [[ $2 == "color" ]]; then
+    /tmp/passport/just build-firmware color
+    /tmp/passport/just build-bootloader color
+elif [[ $2 == "mono" ]]; then
+    /tmp/passport/just build-firmware mono
+    /tmp/passport/just build-bootloader mono
+fi
 
 # Print build hash and expected build hash
 echo "Built v${version} binary sha256 hash:"
-shasum -b -a 256 ports/stm32/build-Passport/firmware-COLOR.bin
-if [[ "$2" ]]; then
+if [[ $2 == "color" ]]; then
+    shasum -b -a 256 ports/stm32/build-Passport/firmware-COLOR.bin
+elif [[ $2 == "mono" ]]; then
+    shasum -b -a 256 ports/stm32/build-Passport/firmware-MONO.bin
+fi
+if [[ "$3" ]]; then
     echo "Expected v${version} build hash:"
     echo $buildHash
-    echo "$buildHash *ports/stm32/build-Passport/firmware-COLOR.bin" | sha256sum --check
+    if [[ $2 == "color" ]]; then
+        echo "$buildHash *ports/stm32/build-Passport/firmware-COLOR.bin" | sha256sum --check
+    elif [[ $2 == "mono" ]]; then
+        echo "$buildHash *ports/stm32/build-Passport/firmware-MONO.bin" | sha256sum --check
+    fi
 fi
 # Print binary hash and expected binary hash
 echo "v${version} release binary sha256 hash:"
 shasum -b -a 256 ../${fileName}
-if [[ "$3" ]]; then
+if [[ "$4" ]]; then
     echo "Expected v${version} release binary hash:"
     echo $releaseHash
     echo "$releaseHash ../${fileName}" | sha256sum --check
