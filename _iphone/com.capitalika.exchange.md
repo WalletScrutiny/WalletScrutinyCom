@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.capitalika.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-07-14
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 

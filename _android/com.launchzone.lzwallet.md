@@ -2,7 +2,8 @@
 wsId: 
 title: LZ Wallet - Crypto & Bitcoin W
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.launchzone.lzwallet
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.launchzone.lzwallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,16 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> LZ Wallet is the ideal wallet for storing and trading your digital assets securely and conveniently, specifically tailoured for the explosive growth of DeFi platforms and decentralized applications (DApps).
+
+## Analysis 
+
+Emblazoned on the website is an announcement: 
+
+> LZ Finance has been dissolved and all the dapps have been closed.
+>
+> Thank you all for your supports over the periods.
+
+This app is **defunct.**

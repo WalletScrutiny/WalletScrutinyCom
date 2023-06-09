@@ -11,7 +11,7 @@ released: 2018-05-14
 updated: 2023-05-02
 version: 3.5.1
 stars: 4.7
-reviews: 2574
+reviews: 2582
 size: '95251456'
 website: https://3commas.io/blog
 repository: 
