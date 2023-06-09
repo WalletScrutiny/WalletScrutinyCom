@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: site.globex.bankwallet
 appCountry: 
-released: Jun 28, 2019
+released: 2019-06-28
 updated: 2019-06-28
 version: 0.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wallet.gex.exchange
 repository: 
 issue: 

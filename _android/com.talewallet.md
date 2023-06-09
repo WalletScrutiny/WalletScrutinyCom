@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.talewallet
 appCountry: 
-released: Apr 7, 2023
+released: 2023-04-07
 updated: 2023-05-05
 version: 5.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://talewallet.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.currency.tgcoin
 appCountry: 
-released: May 21, 2022
+released: 2022-05-21
 updated: 2022-05-22
 version: 2.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tgcoin4.com
 repository: 
 issue: 

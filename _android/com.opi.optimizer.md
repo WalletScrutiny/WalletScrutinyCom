@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.opi.optimizer
 appCountry: 
-released: Feb 24, 2022
+released: 2022-02-24
 updated: 2022-05-04
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://opermizer.zone
 repository: 
 issue: 

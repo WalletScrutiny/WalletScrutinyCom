@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.swappy.autocrypto
 appCountry: 
-released: May 20, 2022
+released: 2022-05-20
 updated: 2022-06-02
 version: 0.0.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://forintfinance.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.moonex
 appCountry: 
-released: Aug 18, 2020
+released: 2020-08-18
 updated: 2020-08-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

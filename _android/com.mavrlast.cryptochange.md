@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.mavrlast.cryptochange
 appCountry: 
-released: Sep 27, 2017
+released: 2017-09-27
 updated: 2017-09-27
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

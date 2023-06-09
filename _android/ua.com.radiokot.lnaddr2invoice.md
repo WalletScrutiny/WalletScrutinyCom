@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: ua.com.radiokot.lnaddr2invoice
 appCountry: 
-released: Feb 18, 2023
+released: 2023-02-18
 updated: 2023-03-17
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://radiokot.com.ua
 repository: 
 issue: 

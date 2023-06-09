@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitroyal.bitroyalapp
 appCountry: 
-released: Mar 6, 2021
+released: 2021-03-06
 updated: 2021-03-07
 version: '2.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitroyalexchange.com
 repository: 
 issue: 

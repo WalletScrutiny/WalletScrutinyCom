@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: kz.intebix
 appCountry: 
-released: Jan 9, 2023
+released: 2023-01-09
 updated: 2023-04-10
 version: 0.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.intebix.kz
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: ventures.aag.metaone
 appCountry: 
-released: Dec 22, 2022
+released: 2022-12-22
 updated: 2023-05-26
 version: 3.2.1
 stars: 4.5
 ratings: 
 reviews: 2
+size: 
 website: https://getmeta.one/
 repository: 
 issue: 

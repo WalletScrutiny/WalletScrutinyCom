@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.royalqpro
 appCountry: 
-released: Feb 22, 2022
+released: 2022-02-22
 updated: 2023-02-27
 version: '2.7'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://royalqs.com
 repository: 
 issue: 

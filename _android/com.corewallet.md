@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.corewallet
 appCountry: 
-released: Feb 1, 2023
+released: 2023-02-01
 updated: 2023-02-01
 version: 1.0.0
-stars: 4.571429
+stars: 4.6
 ratings: 
 reviews: 1
+size: 
 website: https://wallet.coremultichain.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.citify.crypto.exchange
 appCountry: 
-released: Sep 18, 2019
+released: 2019-09-18
 updated: 2019-09-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://exchange.citifymarketplace.com/
 repository: 
 issue: 

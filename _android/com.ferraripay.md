@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.ferraripay
 appCountry: 
-released: Jun 1, 2021
+released: 2021-06-01
 updated: 2023-05-19
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ferrari-pay.com
 repository: 
 issue: 

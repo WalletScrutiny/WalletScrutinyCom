@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.web.instafx
 appCountry: 
-released: Oct 29, 2021
+released: 2021-10-29
 updated: 2021-12-30
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://instfx.com/
 repository: 
 issue: 

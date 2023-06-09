@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: me.bvault.app
 appCountry: 
-released: Aug 16, 2021
+released: 2021-08-16
 updated: 2023-05-11
 version: 2.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mobiroller.mobi1940242759392
 appCountry: 
-released: Jun 17, 2022
+released: 2022-06-17
 updated: 2022-10-21
 version: 3.33.1.14
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

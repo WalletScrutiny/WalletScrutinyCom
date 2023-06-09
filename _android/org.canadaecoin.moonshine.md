@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: org.canadaecoin.moonshine
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2022-07-22
 version: 0.6.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ecoincore.com
 repository: 
 issue: 

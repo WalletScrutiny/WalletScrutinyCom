@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.alibitmobile.alibit
 appCountry: 
-released: May 9, 2021
+released: 2021-05-09
 updated: 2021-05-09
 version: 1.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://alibit.tech/
 repository: 
 issue: 

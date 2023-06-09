@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.vaultycrypto.wallet
 appCountry: 
-released: Aug 10, 2022
+released: 2022-08-10
 updated: 2022-08-10
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.vaulty.pro
 repository: 
 issue: 

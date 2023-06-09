@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.clic.bobmint
 appCountry: 
-released: Sep 8, 2022
+released: 2022-09-08
 updated: 2022-09-14
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bobmint.com
 repository: 
 issue: 

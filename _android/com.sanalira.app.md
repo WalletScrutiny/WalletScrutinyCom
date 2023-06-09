@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.sanalira.app
 appCountry: 
-released: Jan 28, 2022
+released: 2022-01-28
 updated: 2022-06-14
 version: 1.0.32
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.sanalira.com
 repository: 
 issue: 

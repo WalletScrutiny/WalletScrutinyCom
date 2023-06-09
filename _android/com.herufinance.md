@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.herufinance
 appCountry: 
-released: Aug 3, 2022
+released: 2022-08-03
 updated: 2022-12-05
 version: 1.2.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://heru.finance/
 repository: 
 issue: 

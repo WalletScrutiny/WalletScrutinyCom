@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.bitcoin.hack
 appCountry: 
-released: Aug 15, 2022
+released: 2022-08-15
 updated: 2022-08-15
 version: '1.0'
 stars: 5
 ratings: 
 reviews: 1
+size: 
 website: 
 repository: 
 issue: 

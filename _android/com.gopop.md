@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.gopop
 appCountry: 
-released: Aug 1, 2022
+released: 2022-08-01
 updated: 2023-04-10
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.gopop.app
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitswapltd.android
 appCountry: 
-released: May 18, 2022
+released: 2022-05-18
 updated: 2022-05-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitswapltd.com/
 repository: 
 issue: 

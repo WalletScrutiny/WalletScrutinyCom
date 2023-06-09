@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.ubgtech.ubg
 appCountry: 
-released: Feb 27, 2022
+released: 2022-02-27
 updated: 2021-11-01
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ubgtech.my/
 repository: 
 issue: 

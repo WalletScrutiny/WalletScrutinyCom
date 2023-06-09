@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: kr.co.newlinkcorp.cashierest
 appCountry: 
-released: Oct 27, 2022
+released: 2022-10-27
 updated: 2023-06-02
 version: 4.23.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cashierest.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.walletprizm.walletpizm
 appCountry: 
-released: Nov 13, 2019
+released: 2019-11-13
 updated: 2019-11-14
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://walletprizm.com/
 repository: 
 issue: 

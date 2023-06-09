@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.cryptotrading.inx
 appCountry: 
-released: Jun 11, 2022
+released: 2022-06-11
 updated: 2022-12-29
 version: 2.0.4
-stars: 4.5142856
+stars: 4.5
 ratings: 
 reviews: 16
+size: 
 website: https://www.inx.co
 repository: 
 issue: 

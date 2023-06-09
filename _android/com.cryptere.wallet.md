@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.cryptere.wallet
 appCountry: 
-released: Jun 17, 2022
+released: 2022-06-17
 updated: 2022-07-01
 version: 0.9.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptere.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.coincloud.walletpreview
 appCountry: 
-released: Feb 2, 2022
+released: 2022-02-02
 updated: 2023-03-09
 version: 12.9.24
-stars: 3.59
+stars: 3.6
 ratings: 
 reviews: 39
+size: 
 website: http://coin.cloud/app
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.natiol
 appCountry: 
-released: Oct 12, 2022
+released: 2022-10-12
 updated: 2022-11-04
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://natiol.io
 repository: 
 issue: 

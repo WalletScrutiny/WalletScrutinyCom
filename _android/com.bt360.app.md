@@ -6,11 +6,13 @@ authors:
 users: 50
 appId: com.bt360.app
 appCountry: 
+released: 
 updated: 2019-10-02
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bt360pro.com
 repository: 
 issue: 

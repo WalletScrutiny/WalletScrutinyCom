@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.wallet.bryptoxchange
 appCountry: 
-released: Nov 1, 2022
+released: 2022-11-01
 updated: 2023-02-01
 version: '1.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bryptoxchange.com/
 repository: 
 issue: 

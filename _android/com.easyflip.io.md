@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.easyflip.io
 appCountry: 
-released: Jul 11, 2022
+released: 2022-07-11
 updated: 2022-12-04
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://easyflip.io
 repository: 
 issue: 

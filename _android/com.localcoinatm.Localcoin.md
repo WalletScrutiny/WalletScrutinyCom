@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.localcoinatm.Localcoin
 appCountry: 
-released: May 30, 2019
+released: 2019-05-30
 updated: 2020-10-26
 version: '2.0'
-stars: 2.625
+stars: 2.6
 ratings: 
 reviews: 5
+size: 
 website: https://www.localcoinatm.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.usdg.wallet
 appCountry: 
-released: Nov 5, 2020
+released: 2020-11-05
 updated: 2023-04-26
 version: '3.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bestla.io/
 repository: 
 issue: 

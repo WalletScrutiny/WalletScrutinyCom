@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.peertrans.com.peer_trans
 appCountry: 
-released: Feb 10, 2023
+released: 2023-02-10
 updated: 2023-02-11
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://peertrans.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitmake.app
 appCountry: 
-released: Jul 4, 2022
+released: 2022-07-04
 updated: 2023-04-14
 version: 1.2.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitmake.com
 repository: 
 issue: 

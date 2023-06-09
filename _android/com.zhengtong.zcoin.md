@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.zhengtong.zcoin
 appCountry: 
-released: Dec 1, 2021
+released: 2021-12-01
 updated: 2022-11-23
 version: 2.0.8
-stars: 3.5675676
+stars: 3.6
 ratings: 
 reviews: 22
+size: 
 website: https://www.ztb.im/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: uni.UNI869AEDF
 appCountry: 
-released: Oct 26, 2022
+released: 2022-10-26
 updated: 2023-05-12
 version: 0.8.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

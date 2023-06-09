@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: co.newton.newtonus
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2023-01-20
 version: 1.3.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.newton.co/us/support
 repository: 
 issue: 

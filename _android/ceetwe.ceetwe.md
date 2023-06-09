@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: ceetwe.ceetwe
 appCountry: 
-released: Nov 6, 2021
+released: 2021-11-06
 updated: 2022-01-02
 version: '22.01'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ceetwe.com
 repository: 
 issue: 

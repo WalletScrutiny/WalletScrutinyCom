@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.erichsaigon
 appCountry: 
-released: Jan 6, 2020
+released: 2020-01-06
 updated: 2020-01-25
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.erichsaigon.com/
 repository: 
 issue: 

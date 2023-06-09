@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.blocksmatic
 appCountry: 
-released: Jan 18, 2022
+released: 2022-01-18
 updated: 2022-02-12
 version: 1.1.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

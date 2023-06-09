@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.BTC.BTC_BCH
 appCountry: 
-released: Jul 21, 2022
+released: 2022-07-21
 updated: 2022-07-21
 version: 1.2.3
-stars: 3.5714285
+stars: 3.6
 ratings: 
 reviews: 1
+size: 
 website: https://btcbcheth.net/
 repository: 
 issue: 

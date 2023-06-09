@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.cointree.mobileapp
 appCountry: 
-released: Oct 12, 2022
+released: 2022-10-12
 updated: 2023-03-05
 version: 1.2.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cointree.com/
 repository: 
 issue: 

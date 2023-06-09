@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: app.vipsats.pos
 appCountry: 
-released: Aug 13, 2022
+released: 2022-08-13
 updated: 2022-10-05
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vipsats.app
 repository: 
 issue: 

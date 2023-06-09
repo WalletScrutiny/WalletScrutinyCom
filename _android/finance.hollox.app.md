@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: finance.hollox.app
 appCountry: 
-released: Nov 13, 2022
+released: 2022-11-13
 updated: 2022-11-17
 version: 1.0.0
 stars: 5
 ratings: 
 reviews: 6
+size: 
 website: https://hollox.finance/
 repository: 
 issue: 

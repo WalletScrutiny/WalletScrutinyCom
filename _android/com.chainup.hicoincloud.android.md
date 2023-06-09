@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.chainup.hicoincloud.android
 appCountry: 
-released: Dec 9, 2022
+released: 2022-12-09
 updated: 2023-04-25
 version: 6.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://custody.chainup.com/
 repository: 
 issue: 

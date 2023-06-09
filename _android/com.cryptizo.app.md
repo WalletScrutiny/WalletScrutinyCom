@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.cryptizo.app
 appCountry: 
-released: Feb 20, 2022
+released: 2022-02-20
 updated: 2022-06-07
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

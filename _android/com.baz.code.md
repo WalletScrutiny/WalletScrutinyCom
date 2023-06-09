@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.baz.code
 appCountry: 
-released: Jun 23, 2022
+released: 2022-06-23
 updated: 2022-09-28
 version: 3.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

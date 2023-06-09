@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.igen.cryptomoneybank
 appCountry: 
-released: Jul 7, 2021
+released: 2021-07-07
 updated: 2021-07-07
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

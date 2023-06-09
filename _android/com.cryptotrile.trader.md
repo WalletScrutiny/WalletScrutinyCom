@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.cryptotrile.trader
 appCountry: 
-released: Aug 9, 2022
+released: 2022-08-09
 updated: 2022-08-25
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptotrile.com/
 repository: 
 issue: 

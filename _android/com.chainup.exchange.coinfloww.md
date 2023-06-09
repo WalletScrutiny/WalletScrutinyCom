@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.chainup.exchange.coinfloww
 appCountry: 
-released: Aug 18, 2022
+released: 2022-08-18
 updated: 2022-09-18
 version: 5.2.5_coinfloww
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinfloww.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitmate.wallet
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2021-10-13
 version: 9120.10.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitmate.io/
 repository: 
 issue: 

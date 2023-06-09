@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.paily.wallet
 appCountry: 
-released: Oct 20, 2022
+released: 2022-10-20
 updated: 2022-11-28
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pailycrypto.com/
 repository: 
 issue: 

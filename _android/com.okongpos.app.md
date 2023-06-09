@@ -6,12 +6,13 @@ authors:
 users: 0
 appId: com.okongpos.app
 appCountry: 
-released: Nov 25, 2020
+released: 2020-11-25
 updated: 2020-11-26
 version: Version 2.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.okongpos.com
 repository: 
 issue: 

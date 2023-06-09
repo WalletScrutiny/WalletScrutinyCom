@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.coinbox.bankwallet
 appCountry: 
-released: Aug 30, 2022
+released: 2022-08-30
 updated: 2023-01-18
 version: 0.26.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

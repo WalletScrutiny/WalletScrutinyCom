@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.bitgin.app
 appCountry: 
+released: 
 updated: 2023-05-24
 version: 2.2.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

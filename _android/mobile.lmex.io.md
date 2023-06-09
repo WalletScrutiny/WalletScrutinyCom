@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: mobile.lmex.io
 appCountry: 
-released: Nov 14, 2022
+released: 2022-11-14
 updated: 2023-01-09
 version: 1.2.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lmex.io/
 repository: 
 issue: 

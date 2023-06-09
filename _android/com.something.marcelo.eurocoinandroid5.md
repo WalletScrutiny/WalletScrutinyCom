@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.something.marcelo.eurocoinandroid5
 appCountry: 
-released: Nov 17, 2018
+released: 2018-11-17
 updated: 2023-05-10
 version: '37.7'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.eurocoinpay.io
 repository: 
 issue: 

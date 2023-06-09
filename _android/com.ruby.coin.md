@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.ruby.coin
 appCountry: 
-released: Sep 21, 2022
+released: 2022-09-21
 updated: 2022-11-09
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

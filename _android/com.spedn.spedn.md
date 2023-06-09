@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.spedn.spedn
 appCountry: 
-released: May 26, 2021
+released: 2021-05-26
 updated: 2022-09-28
 version: 22.09.1
-stars: 3.15
+stars: 3.1
 ratings: 
 reviews: 100
+size: 
 website: https://spedn.io
 repository: 
 issue: 

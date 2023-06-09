@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitda.app
 appCountry: 
-released: May 6, 2022
+released: 2022-05-06
 updated: 2022-07-25
 version: 4.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.laxya.laxya
 appCountry: 
-released: Jan 20, 2022
+released: 2022-01-20
 updated: 2022-07-06
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://laxya.io
 repository: 
 issue: 

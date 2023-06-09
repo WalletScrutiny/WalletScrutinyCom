@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.futurance.futurex
 appCountry: 
-released: Jul 7, 2022
+released: 2022-07-07
 updated: 2023-05-18
 version: 1.5.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.fexobit.com/
 repository: 
 issue: 

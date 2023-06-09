@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.libertasfund.exchange
 appCountry: 
-released: Jul 27, 2020
+released: 2020-07-27
 updated: 2022-03-24
 version: '2.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.libertas-fund.com/
 repository: 
 issue: 

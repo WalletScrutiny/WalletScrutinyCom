@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: app.kryptiva
 appCountry: 
-released: Jul 6, 2022
+released: 2022-07-06
 updated: 2023-02-18
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.ixwallet.app
 appCountry: 
-released: Jan 15, 2021
+released: 2021-01-15
 updated: 2022-10-29
 version: 0.0.88 (5532)
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://daemtech.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.aurora.aurorawallet
 appCountry: 
-released: Dec 23, 2022
+released: 2022-12-23
 updated: 2022-12-23
 version: '0.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://aurorawallet.app
 repository: 
 issue: 

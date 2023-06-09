@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.instantgo.spacelens
 appCountry: 
-released: Dec 4, 2021
+released: 2021-12-04
 updated: 2022-07-08
 version: 1.2.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://spacelens.com
 repository: 
 issue: 

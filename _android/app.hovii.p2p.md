@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: app.hovii.p2p
 appCountry: 
-released: Oct 23, 2022
+released: 2022-10-23
 updated: 2022-10-23
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://p2p.hovii.app/
 repository: 
 issue: 

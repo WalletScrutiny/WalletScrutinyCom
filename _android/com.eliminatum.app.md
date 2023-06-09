@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.eliminatum.app
 appCountry: 
-released: Sep 12, 2018
+released: 2018-09-12
 updated: 2022-01-28
 version: 8.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://elly.com
 repository: 
 issue: 

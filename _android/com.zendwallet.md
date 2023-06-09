@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.zendwallet
 appCountry: 
-released: Oct 17, 2017
+released: 2017-10-17
 updated: 2017-11-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.centralcoin.io
 repository: 
 issue: 

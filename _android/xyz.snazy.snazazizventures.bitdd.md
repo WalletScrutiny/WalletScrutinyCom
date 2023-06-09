@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: xyz.snazy.snazazizventures.bitdd
 appCountry: 
-released: Sep 7, 2022
+released: 2022-09-07
 updated: 2022-09-08
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitdd.co
 repository: 
 issue: 

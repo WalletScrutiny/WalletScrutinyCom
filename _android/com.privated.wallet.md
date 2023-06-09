@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.privated.wallet
 appCountry: 
-released: Jan 27, 2023
+released: 2023-01-27
 updated: 2023-04-15
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://private-wallet.net/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.goodpayglobal.wallet
 appCountry: 
-released: Apr 7, 2021
+released: 2021-04-07
 updated: 2023-02-28
 version: 1.0.21
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://goodpayglobal.io/
 repository: 
 issue: 

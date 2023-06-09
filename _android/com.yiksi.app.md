@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.yiksi.app
 appCountry: 
-released: Jun 11, 2022
+released: 2022-06-11
 updated: 2022-12-08
 version: 2.2.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://yiksi.com/
 repository: 
 issue: 

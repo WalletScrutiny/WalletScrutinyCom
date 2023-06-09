@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: esw.snappyexchange.snappyexchange
 appCountry: 
-released: Jan 15, 2022
+released: 2022-01-15
 updated: 2023-01-30
 version: 2.1.6 (27)
-stars: 3.8163266
+stars: 3.8
 ratings: 
 reviews: 28
+size: 
 website: https://snappyexchange.com
 repository: 
 issue: 

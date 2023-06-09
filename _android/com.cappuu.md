@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.cappuu
 appCountry: 
-released: Dec 4, 2020
+released: 2020-12-04
 updated: 2022-12-27
 version: '3.56'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinomo.com
 repository: 
 issue: 

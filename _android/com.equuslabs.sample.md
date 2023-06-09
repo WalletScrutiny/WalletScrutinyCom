@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.equuslabs.sample
 appCountry: 
-released: Jul 4, 2020
+released: 2020-07-04
 updated: 2020-07-04
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://exxbank.com/
 repository: 
 issue: 

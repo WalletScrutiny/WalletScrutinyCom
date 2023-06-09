@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.suprafin.app.usa
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2022-05-27
 version: 1.2.35
-stars: 4.4615383
+stars: 4.5
 ratings: 
 reviews: 9
+size: 
 website: https://suprafin.io/
 repository: 
 issue: 

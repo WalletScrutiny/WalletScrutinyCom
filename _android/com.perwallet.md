@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.perwallet
 appCountry: 
-released: Nov 10, 2020
+released: 2020-11-10
 updated: 2021-06-14
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.perproject.io/
 repository: 
 issue: 

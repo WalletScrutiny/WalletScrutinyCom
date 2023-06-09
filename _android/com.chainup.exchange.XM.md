@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.chainup.exchange.XM
 appCountry: 
-released: Sep 5, 2022
+released: 2022-09-05
 updated: 2023-02-14
 version: 5.7.0_push_v2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://xm.im/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.app.huoancoin
 appCountry: 
-released: Jan 23, 2022
+released: 2022-01-23
 updated: 2022-01-24
 version: '1.0'
 stars: 3.4
 ratings: 
 reviews: 18
+size: 
 website: https://www.huoancoin.com
 repository: 
 issue: 

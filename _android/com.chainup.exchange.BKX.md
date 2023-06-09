@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.chainup.exchange.BKX
 appCountry: 
-released: Jan 14, 2022
+released: 2022-01-14
 updated: 2022-09-19
 version: 5.5.0_push_v2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitzet.com
 repository: 
 issue: 

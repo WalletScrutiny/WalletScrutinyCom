@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.meta1.appbeta
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2023-03-22
 version: 1.1.6
-stars: 4.571429
+stars: 4.6
 ratings: 
 reviews: 2
+size: 
 website: https://meta-exchange.vision/home/
 repository: 
 issue: 

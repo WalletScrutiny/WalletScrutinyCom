@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.pibexa
 appCountry: 
+released: 
 updated: 2020-08-26
 version: 0.6.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pibexa.com/
 repository: 
 issue: 

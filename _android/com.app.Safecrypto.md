@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.app.Safecrypto
 appCountry: 
-released: Sep 2, 2022
+released: 2022-09-02
 updated: 2022-09-02
 version: 1.1.1
-stars: 1.8461539
+stars: 1.8
 ratings: 
 reviews: 11
+size: 
 website: https://safecryptwallet.com
 repository: 
 issue: 

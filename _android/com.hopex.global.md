@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.hopex.global
 appCountry: 
-released: Aug 1, 2022
+released: 2022-08-01
 updated: 2023-01-19
 version: 4.2.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.ixfi
 appCountry: 
-released: Jan 19, 2022
+released: 2022-01-19
 updated: 2023-06-01
 version: 1.4.9
-stars: 4.6987953
+stars: 4.7
 ratings: 
 reviews: 67
+size: 
 website: https://ixfi.com
 repository: 
 issue: 

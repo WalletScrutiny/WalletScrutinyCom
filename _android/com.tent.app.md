@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.tent.app
 appCountry: 
+released: 
 updated: 2023-04-24
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tent.com
 repository: 
 issue: 

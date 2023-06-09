@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: mond.finance
 appCountry: 
-released: Aug 26, 2022
+released: 2022-08-26
 updated: 2022-09-13
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mond.finance
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: co.tradehall.app.tradehall
 appCountry: 
-released: Aug 2, 2022
+released: 2022-08-02
 updated: 2023-03-02
 version: 1.0.14
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.tradehall.co
 repository: 
 issue: 

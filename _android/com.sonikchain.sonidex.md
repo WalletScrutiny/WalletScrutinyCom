@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.sonikchain.sonidex
 appCountry: 
-released: Jan 27, 2022
+released: 2022-01-27
 updated: 2022-01-27
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://sonidex.sonikchain.com
 repository: 
 issue: 

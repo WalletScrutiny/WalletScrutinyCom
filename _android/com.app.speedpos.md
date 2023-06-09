@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.app.speedpos
 appCountry: 
-released: Mar 14, 2023
+released: 2023-03-14
 updated: 2023-04-13
 version: 1.2.0.0.0.1.fp.gps
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.tryspeed.com/
 repository: 
 issue: 

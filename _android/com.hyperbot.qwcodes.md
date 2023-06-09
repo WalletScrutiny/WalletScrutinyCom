@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.hyperbot.qwcodes
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2022-07-22
 version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hyperbot.solutions/
 repository: 
 issue: 

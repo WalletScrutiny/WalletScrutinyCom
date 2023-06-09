@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: org.coincabin
 appCountry: 
-released: Jul 29, 2022
+released: 2022-07-29
 updated: 2023-05-23
 version: 1.0.249
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://everstrike.io
 repository: 
 issue: 

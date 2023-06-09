@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: me.coinbag
 appCountry: 
-released: Jan 7, 2022
+released: 2022-01-07
 updated: 2022-11-30
 version: '1.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinbag.me/
 repository: 
 issue: 

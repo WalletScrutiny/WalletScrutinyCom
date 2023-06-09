@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.tarmex.tarmex
 appCountry: 
-released: Dec 22, 2022
+released: 2022-12-22
 updated: 2022-12-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tarmex.io
 repository: 
 issue: 

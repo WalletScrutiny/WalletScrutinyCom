@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.sgcdex
 appCountry: 
-released: May 21, 2022
+released: 2022-05-21
 updated: 2022-12-01
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.sgcdex.com/
 repository: 
 issue: 

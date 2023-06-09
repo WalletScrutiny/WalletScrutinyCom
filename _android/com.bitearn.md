@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitearn
 appCountry: 
-released: Jul 25, 2022
+released: 2022-07-25
 updated: 2022-09-01
 version: 1.0.17
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.btearn.com
 repository: 
 issue: 

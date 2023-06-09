@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: apps.produccion.line2coinswap
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2022-07-24
 version: 1.0.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://line2coin.com
 repository: 
 issue: 

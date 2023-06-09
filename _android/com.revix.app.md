@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.revix.app
 appCountry: 
-released: Aug 8, 2022
+released: 2022-08-08
 updated: 2023-05-09
 version: 1.3.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://revix.com
 repository: 
 issue: 

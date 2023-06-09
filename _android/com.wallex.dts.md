@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.wallex.dts
 appCountry: 
-released: Jan 5, 2023
+released: 2023-01-05
 updated: 2023-04-07
 version: 1.2.32
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dtswallet.io
 repository: 
 issue: 

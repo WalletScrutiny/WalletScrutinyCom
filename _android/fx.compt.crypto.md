@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: fx.compt.crypto
 appCountry: 
-released: Mar 25, 2021
+released: 2021-03-25
 updated: 2021-03-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://story3app.web.app/
 repository: 
 issue: 

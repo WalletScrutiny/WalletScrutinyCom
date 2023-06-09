@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: hk.edigest.edapp
 appCountry: 
-released: Aug 21, 2020
+released: 2020-08-21
 updated: 2023-05-15
 version: '1.61'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.nmg.com.hk/contactus/
 repository: 
 issue: 

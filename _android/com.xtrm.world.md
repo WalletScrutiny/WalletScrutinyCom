@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.xtrm.world
 appCountry: 
-released: Feb 16, 2020
+released: 2020-02-16
 updated: 2020-06-09
 version: 1.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

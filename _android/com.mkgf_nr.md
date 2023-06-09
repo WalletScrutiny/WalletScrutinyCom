@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mkgf_nr
 appCountry: 
-released: Oct 6, 2021
+released: 2021-10-06
 updated: 2022-02-19
 version: '40.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cryptocashfast.com
 repository: 
 issue: 

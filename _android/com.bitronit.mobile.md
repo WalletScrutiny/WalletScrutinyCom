@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitronit.mobile
 appCountry: 
-released: Sep 28, 2021
+released: 2021-09-28
 updated: 2023-05-18
 version: 1.18.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitronit.com
 repository: 
 issue: 

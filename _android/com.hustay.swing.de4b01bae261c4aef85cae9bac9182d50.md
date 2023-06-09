@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50
 appCountry: 
-released: Jun 28, 2021
+released: 2021-06-28
 updated: 2021-06-28
 version: '0.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.earnfinex.com/
 repository: 
 issue: 

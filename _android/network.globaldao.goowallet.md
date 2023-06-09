@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: network.globaldao.goowallet
 appCountry: 
-released: Dec 10, 2019
+released: 2019-12-10
 updated: 2020-10-25
 version: 0.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://goorewards.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitqik
 appCountry: 
-released: Sep 23, 2022
+released: 2022-09-23
 updated: 2023-05-21
 version: 2.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitqik.com/
 repository: 
 issue: 

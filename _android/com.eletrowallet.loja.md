@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.eletrowallet.loja
 appCountry: 
-released: Sep 6, 2019
+released: 2019-09-06
 updated: 2019-08-20
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://eletrowallet.com
 repository: 
 issue: 

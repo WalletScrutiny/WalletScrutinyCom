@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: app.doshfx.liteapp
 appCountry: 
+released: 
 updated: 2023-05-10
 version: '4.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://doshfx.io/
 repository: 
 issue: 

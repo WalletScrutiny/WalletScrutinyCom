@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.frt.globe
 appCountry: 
+released: 
 updated: 2023-04-13
 version: 1.0.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://globe.exchange/support
 repository: 
 issue: 

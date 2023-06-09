@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.cetoex.cetoex
 appCountry: 
-released: Aug 13, 2022
+released: 2022-08-13
 updated: 2022-10-12
 version: '1.6'
-stars: 3.1666667
+stars: 3.2
 ratings: 
 reviews: 1
+size: 
 website: https://cetoex.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.rice.wallet
 appCountry: 
-released: Jan 18, 2022
+released: 2022-01-18
 updated: 2023-01-27
 version: 1.5.1
-stars: 4.8349056
+stars: 4.8
 ratings: 
 reviews: 224
+size: 
 website: https://ricewallet.io/
 repository: 
 issue: 

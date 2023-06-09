@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: global.anypay.pos
 appCountry: 
-released: Nov 8, 2018
+released: 2018-11-08
 updated: 2023-03-22
 version: 2.2.0
-stars: 4.5185184
+stars: 4.5
 ratings: 
 reviews: 16
+size: 
 website: https://anypayinc.com
 repository: 
 issue: 

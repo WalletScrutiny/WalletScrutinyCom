@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.wSpeediwallet_14801896
 appCountry: 
-released: Dec 8, 2021
+released: 2021-12-08
 updated: 2021-12-08
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://speediwallet.com
 repository: 
 issue: 

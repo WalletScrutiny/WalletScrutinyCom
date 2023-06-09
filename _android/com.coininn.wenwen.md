@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.coininn.wenwen
 appCountry: 
-released: Mar 5, 2020
+released: 2020-03-05
 updated: 2023-05-08
 version: 3.0.36
-stars: 3.3552632
+stars: 3.4
 ratings: 
 reviews: 39
+size: 
 website: https://www.coininn.com
 repository: 
 issue: 

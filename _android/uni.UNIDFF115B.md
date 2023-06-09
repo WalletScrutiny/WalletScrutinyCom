@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: uni.UNIDFF115B
 appCountry: 
-released: Feb 9, 2022
+released: 2022-02-09
 updated: 2022-01-25
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

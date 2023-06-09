@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.tech.cryptoocean
 appCountry: 
-released: Jul 20, 2022
+released: 2022-07-20
 updated: 2022-08-18
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptoocean.in/
 repository: 
 issue: 

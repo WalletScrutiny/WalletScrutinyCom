@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.aex.exchanges
 appCountry: 
-released: Feb 24, 2023
+released: 2023-02-24
 updated: 2023-05-23
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.openex.xyz
 repository: 
 issue: 

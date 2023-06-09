@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: vip.kdex.app
 appCountry: 
-released: May 27, 2021
+released: 2021-05-27
 updated: 2021-09-02
 version: 1.9.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://demo.kdex.vip/#/
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.nucoin.pro
 appCountry: 
+released: 
 updated: 2021-12-31
 version: 1.0.2.211231
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.app.becoin
 appCountry: 
-released: Oct 1, 2022
+released: 2022-10-01
 updated: 2022-10-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://becoin.exchange/
 repository: 
 issue: 

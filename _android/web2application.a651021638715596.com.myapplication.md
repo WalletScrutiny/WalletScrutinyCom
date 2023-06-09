@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: web2application.a651021638715596.com.myapplication
 appCountry: 
-released: Dec 7, 2021
+released: 2021-12-07
 updated: 2021-12-07
 version: '5.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://newchange.io
 repository: 
 issue: 

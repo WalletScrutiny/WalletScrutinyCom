@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.komodoplatform.atomicdex
 appCountry: 
-released: Dec 15, 2022
+released: 2022-12-15
 updated: 2023-04-26
 version: 0.6.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://atomicdex.io
 repository: 
 issue: 

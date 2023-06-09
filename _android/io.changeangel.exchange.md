@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.changeangel.exchange
 appCountry: 
-released: May 24, 2022
+released: 2022-05-24
 updated: 2023-01-01
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://changeangel.io
 repository: 
 issue: 

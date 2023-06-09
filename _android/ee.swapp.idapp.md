@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: ee.swapp.idapp
 appCountry: 
-released: Mar 14, 2022
+released: 2022-03-14
 updated: 2022-03-17
 version: '1.0'
-stars: 3.4166667
+stars: 3.4
 ratings: 
 reviews: 7
+size: 
 website: https://swapp.ee
 repository: 
 issue: 

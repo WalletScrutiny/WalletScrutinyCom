@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: net.cryptomarkings.app
 appCountry: 
-released: Oct 30, 2022
+released: 2022-10-30
 updated: 2023-01-12
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptomarkings.net
 repository: 
 issue: 

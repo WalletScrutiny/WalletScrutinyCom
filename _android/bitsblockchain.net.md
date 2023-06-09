@@ -6,11 +6,13 @@ authors:
 users: 50
 appId: bitsblockchain.net
 appCountry: 
+released: 
 updated: 2020-05-08
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitsblockchain.net/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: network.privapp.wallet
 appCountry: 
-released: Mar 14, 2022
+released: 2022-03-14
 updated: 2022-10-30
 version: 1.0.7
 stars: 5
 ratings: 
 reviews: 19
+size: 
 website: https://privapp.network/
 repository: 
 issue: 

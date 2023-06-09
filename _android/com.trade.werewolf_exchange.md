@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.trade.werewolf_exchange
 appCountry: 
-released: Jul 11, 2022
+released: 2022-07-11
 updated: 2022-09-29
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

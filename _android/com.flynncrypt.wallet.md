@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.flynncrypt.wallet
 appCountry: 
-released: Jun 16, 2022
+released: 2022-06-16
 updated: 2022-06-16
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://flynncrypt.com
 repository: 
 issue: 

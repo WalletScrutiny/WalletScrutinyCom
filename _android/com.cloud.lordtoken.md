@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.cloud.lordtoken
 appCountry: 
-released: May 13, 2022
+released: 2022-05-13
 updated: 2023-05-30
 version: 1.7.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://lordtoken.com
 repository: 
 issue: 

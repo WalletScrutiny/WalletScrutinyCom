@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.muxe.safeswap
 appCountry: 
-released: Oct 14, 2021
+released: 2021-10-14
 updated: 2022-12-31
 version: 2.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://safeswap.online/
 repository: 
 issue: 

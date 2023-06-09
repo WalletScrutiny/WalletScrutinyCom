@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: tmg.investing2
 appCountry: 
-released: Jan 22, 2021
+released: 2021-01-22
 updated: 2023-02-20
 version: '9.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tmginvesting.com
 repository: 
 issue: 

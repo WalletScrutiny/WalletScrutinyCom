@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.coinshut.coinshut
 appCountry: 
-released: Jul 17, 2021
+released: 2021-07-17
 updated: 2021-10-29
 version: 0.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinshut.africa
 repository: 
 issue: 

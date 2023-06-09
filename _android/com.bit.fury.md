@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bit.fury
 appCountry: 
-released: Oct 17, 2022
+released: 2022-10-17
 updated: 2023-02-26
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitfury.com
 repository: 
 issue: 

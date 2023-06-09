@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: safewallet.io
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2023-04-27
 version: 1.0.14
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://amgenwallet.com/
 repository: 
 issue: 

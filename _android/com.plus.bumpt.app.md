@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.plus.bumpt.app
 appCountry: 
-released: Dec 1, 2022
+released: 2022-12-01
 updated: 2022-12-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

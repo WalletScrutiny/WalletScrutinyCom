@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.cxihub.cxihubapp
 appCountry: 
-released: Jan 3, 2022
+released: 2022-01-03
 updated: 2022-01-08
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cxihub.com
 repository: 
 issue: 

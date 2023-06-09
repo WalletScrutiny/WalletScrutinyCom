@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.blackbox.tradingbot
 appCountry: 
+released: 
 updated: 2019-09-11
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.youtube.com/c/CryptoCrasher/live
 repository: 
 issue: 

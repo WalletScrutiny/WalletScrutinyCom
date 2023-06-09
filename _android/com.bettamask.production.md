@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bettamask.production
 appCountry: 
-released: Oct 12, 2022
+released: 2022-10-12
 updated: 2022-10-12
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bettamask.com
 repository: 
 issue: 

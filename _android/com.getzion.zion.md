@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.getzion.zion
 appCountry: 
-released: Dec 21, 2021
+released: 2021-12-21
 updated: 2023-05-12
 version: 2.0.5
 stars: 2.2
 ratings: 
 reviews: 22
+size: 
 website: https://getzion.com
 repository: 
 issue: 

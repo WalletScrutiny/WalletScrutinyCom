@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.exchange.XinBi
 appCountry: 
-released: Sep 23, 2019
+released: 2019-09-23
 updated: 2020-01-14
 version: 4.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.xinbipro.com/
 repository: 
 issue: 

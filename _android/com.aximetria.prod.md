@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.aximetria.prod
 appCountry: 
+released: 
 updated: 2023-05-29
 version: 2.26.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://aximetria.com
 repository: 
 issue: 

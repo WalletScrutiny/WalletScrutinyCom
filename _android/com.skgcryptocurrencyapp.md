@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.skgcryptocurrencyapp
 appCountry: 
-released: Jul 20, 2022
+released: 2022-07-20
 updated: 2022-07-20
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

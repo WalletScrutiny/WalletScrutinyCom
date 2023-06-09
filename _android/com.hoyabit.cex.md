@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.hoyabit.cex
 appCountry: 
-released: Mar 10, 2023
+released: 2023-03-10
 updated: 2023-05-25
 version: 1.2.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hoyabit.com/
 repository: 
 issue: 

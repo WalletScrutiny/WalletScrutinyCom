@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.blackwallet
 appCountry: 
-released: Nov 29, 2022
+released: 2022-11-29
 updated: 2023-05-02
 version: '1.1'
-stars: 3.6666667
+stars: 3.7
 ratings: 
 reviews: 4
+size: 
 website: https://blackproject.tech/
 repository: 
 issue: 

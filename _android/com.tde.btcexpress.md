@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.tde.btcexpress
 appCountry: 
-released: Jun 10, 2020
+released: 2020-06-10
 updated: 2020-06-17
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

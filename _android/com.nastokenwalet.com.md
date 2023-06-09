@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.nastokenwalet.com
 appCountry: 
-released: Mar 10, 2021
+released: 2021-03-10
 updated: 2021-03-10
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nastokenwallet.com/
 repository: 
 issue: 

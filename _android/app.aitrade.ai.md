@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: app.aitrade.ai
 appCountry: 
-released: Dec 19, 2022
+released: 2022-12-19
 updated: 2022-12-20
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.aiinvest.ai/
 repository: 
 issue: 

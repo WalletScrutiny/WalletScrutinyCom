@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.blockchaincommodities.enifex
 appCountry: 
-released: Dec 14, 2022
+released: 2022-12-14
 updated: 2022-12-14
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://enifex.com/
 repository: 
 issue: 

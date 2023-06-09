@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.farachange.farachange
 appCountry: 
-released: Dec 24, 2021
+released: 2021-12-24
 updated: 2022-11-23
 version: 1.1.20
 stars: 4.8
 ratings: 
 reviews: 6
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.app.bitotal
 appCountry: 
-released: Nov 27, 2021
+released: 2021-11-27
 updated: 2021-11-27
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitotal.com
 repository: 
 issue: 

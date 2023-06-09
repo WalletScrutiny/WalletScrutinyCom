@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.steaker.steaker_android
 appCountry: 
-released: Sep 28, 2022
+released: 2022-09-28
 updated: 2023-01-05
 version: 1.5.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

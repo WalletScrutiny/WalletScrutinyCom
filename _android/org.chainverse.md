@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: org.chainverse
 appCountry: 
-released: Feb 23, 2022
+released: 2022-02-23
 updated: 2023-03-23
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://chainverse.org/
 repository: 
 issue: 

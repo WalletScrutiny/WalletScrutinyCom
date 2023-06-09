@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.zbpro.global
 appCountry: 
-released: Aug 30, 2022
+released: 2022-08-30
 updated: 2022-10-30
 version: 1.4.0.1582
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

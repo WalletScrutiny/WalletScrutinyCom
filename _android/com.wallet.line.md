@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.wallet.line
 appCountry: 
-released: Mar 31, 2022
+released: 2022-03-31
 updated: 2023-01-12
 version: 12.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://linechain.io/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.coincat.coincat
 appCountry: 
-released: Nov 2, 2020
+released: 2020-11-02
 updated: 2020-04-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coincat.in
 repository: 
 issue: 

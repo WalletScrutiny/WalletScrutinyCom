@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.info.bccl
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2022-07-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.botcoinloan.blissinfosys.com/
 repository: 
 issue: 

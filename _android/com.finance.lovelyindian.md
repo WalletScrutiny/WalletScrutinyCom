@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.finance.lovelyindian
 appCountry: 
-released: Feb 10, 2022
+released: 2022-02-10
 updated: 2022-08-02
 version: '5.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://indialovely.finance/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: ve.com.fibanca.walletweb
 appCountry: 
-released: Jun 28, 2019
+released: 2019-06-28
 updated: 2019-06-28
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://fibanca.com
 repository: 
 issue: 

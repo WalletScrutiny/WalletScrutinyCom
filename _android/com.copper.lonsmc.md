@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.copper.lonsmc
 appCountry: 
-released: Dec 29, 2022
+released: 2022-12-29
 updated: 2022-12-29
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: app.alpha.bank
 appCountry: 
-released: May 30, 2021
+released: 2021-05-30
 updated: 2021-06-02
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

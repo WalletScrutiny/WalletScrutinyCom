@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.triunits.android.triunits.triunits
 appCountry: 
-released: Jun 5, 2022
+released: 2022-06-05
 updated: 2022-08-07
 version: 1.0.14
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://triunits.com
 repository: 
 issue: 

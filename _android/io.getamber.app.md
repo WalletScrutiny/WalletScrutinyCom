@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: io.getamber.app
 appCountry: 
-released: Jun 21, 2021
+released: 2021-06-21
 updated: 2023-05-03
 version: 5.1.1
-stars: 4.4363637
+stars: 4.4
 ratings: 
 reviews: 25
+size: 
 website: https://www.getamber.io
 repository: 
 issue: 

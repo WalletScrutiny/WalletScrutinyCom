@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.phemex.turkey
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2022-09-27
 version: 1.2.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://phemex.com.tr/
 repository: 
 issue: 

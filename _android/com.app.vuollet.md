@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.app.vuollet
 appCountry: 
-released: Oct 27, 2021
+released: 2021-10-27
 updated: 2022-04-29
 version: 2.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vuollet.io/
 repository: 
 issue: 

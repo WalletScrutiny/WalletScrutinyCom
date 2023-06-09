@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.gifa.app
 appCountry: 
-released: Sep 21, 2020
+released: 2020-09-21
 updated: 2022-06-09
 version: 1.5.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.gifatoken.com
 repository: 
 issue: 

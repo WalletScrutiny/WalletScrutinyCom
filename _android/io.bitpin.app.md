@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: io.bitpin.app
 appCountry: 
-released: Sep 1, 2021
+released: 2021-09-01
 updated: 2023-05-23
 version: 1.0.57
-stars: 4.1489363
+stars: 4.1
 ratings: 
 reviews: 19
+size: 
 website: https://bitpin.ir
 repository: 
 issue: 

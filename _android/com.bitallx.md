@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitallx
 appCountry: 
-released: Dec 9, 2021
+released: 2021-12-09
 updated: 2022-01-15
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

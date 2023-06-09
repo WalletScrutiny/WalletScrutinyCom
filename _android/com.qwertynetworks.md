@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.qwertynetworks
 appCountry: 
-released: Aug 10, 2022
+released: 2022-08-10
 updated: 2022-09-02
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://qwertynetworks.com
 repository: 
 issue: 

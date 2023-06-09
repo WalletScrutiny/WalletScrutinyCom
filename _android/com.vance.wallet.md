@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.vance.wallet
 appCountry: 
-released: Feb 25, 2022
+released: 2022-02-25
 updated: 2022-02-25
 version: 0.21.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vancetoken.us/
 repository: 
 issue: 

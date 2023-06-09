@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.coinsapp.mobile
 appCountry: 
-released: Jul 21, 2020
+released: 2020-07-21
 updated: 2020-12-24
 version: 2.1.4
-stars: 4.357143
+stars: 4.4
 ratings: 
 reviews: 41
+size: 
 website: https://coins.app/
 repository: 
 issue: 

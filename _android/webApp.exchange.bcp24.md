@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: webApp.exchange.bcp24
 appCountry: 
-released: May 28, 2021
+released: 2021-05-28
 updated: 2021-05-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://ex.bcp24.io
 repository: 
 issue: 

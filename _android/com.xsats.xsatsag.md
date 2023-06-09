@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.xsats.xsatsag
 appCountry: 
-released: Sep 17, 2022
+released: 2022-09-17
 updated: 2023-05-10
 version: 2.0.23
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://xsats.com
 repository: 
 issue: 

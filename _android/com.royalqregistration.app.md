@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.royalqregistration.app
 appCountry: 
-released: Nov 22, 2021
+released: 2021-11-22
 updated: 2021-12-27
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

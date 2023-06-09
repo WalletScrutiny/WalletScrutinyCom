@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.web.whatashot
 appCountry: 
-released: Oct 27, 2021
+released: 2021-10-27
 updated: 2021-12-23
 version: '1.7'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://whatashot.io/
 repository: 
 issue: 

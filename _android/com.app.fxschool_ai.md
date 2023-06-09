@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.app.fxschool_ai
 appCountry: 
-released: Mar 4, 2022
+released: 2022-03-04
 updated: 2022-03-05
 version: '13'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.fxschool.info/
 repository: 
 issue: 

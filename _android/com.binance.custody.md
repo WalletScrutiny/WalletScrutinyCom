@@ -6,12 +6,13 @@ authors:
 users: 500000
 appId: com.binance.custody
 appCountry: 
-released: Nov 25, 2021
+released: 2021-11-25
 updated: 2023-05-29
 version: 2.6.1
-stars: 4.12
+stars: 4.1
 ratings: 
 reviews: 8
+size: 
 website: https://ceffu.com
 repository: 
 issue: 

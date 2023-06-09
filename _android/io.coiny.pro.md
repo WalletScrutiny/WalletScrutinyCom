@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: io.coiny.pro
 appCountry: 
+released: 
 updated: 2019-08-07
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pro.coiny.io/
 repository: 
 issue: 

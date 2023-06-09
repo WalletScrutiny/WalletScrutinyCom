@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.lyo.merchant
 appCountry: 
-released: Sep 23, 2022
+released: 2022-09-23
 updated: 2023-01-20
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://lyomerchant.com
 repository: 
 issue: 

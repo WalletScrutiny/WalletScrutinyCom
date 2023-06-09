@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: sg.bhex.app
 appCountry: 
+released: 
 updated: 2023-02-09
 version: 1.2.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.bhex.sg
 repository: 
 issue: 

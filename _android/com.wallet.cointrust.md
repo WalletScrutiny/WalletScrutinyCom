@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.wallet.cointrust
 appCountry: 
-released: Dec 13, 2022
+released: 2022-12-13
 updated: 2022-12-14
 version: '1.0'
-stars: 4.2352943
+stars: 4.2
 ratings: 
 reviews: 8
+size: 
 website: 
 repository: 
 issue: 

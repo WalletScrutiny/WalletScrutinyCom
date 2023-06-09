@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.forumpay
 appCountry: 
-released: Nov 27, 2020
+released: 2020-11-27
 updated: 2020-11-27
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://forumpay.com/
 repository: 
 issue: 

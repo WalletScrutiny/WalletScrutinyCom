@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.app.boastcoast12
 appCountry: 
-released: May 31, 2022
+released: 2022-05-31
 updated: 2022-05-31
 version: '1.0'
 stars: 3.8
 ratings: 
 reviews: 2
+size: 
 website: https://boastcoast.com
 repository: 
 issue: 

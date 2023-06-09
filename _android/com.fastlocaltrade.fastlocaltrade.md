@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.fastlocaltrade.fastlocaltrade
 appCountry: 
-released: May 11, 2019
+released: 2019-05-11
 updated: 2019-12-06
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

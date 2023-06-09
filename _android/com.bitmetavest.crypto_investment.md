@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bitmetavest.crypto_investment
 appCountry: 
-released: Mar 8, 2022
+released: 2022-03-08
 updated: 2022-03-18
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitmetavest.com/en
 repository: 
 issue: 

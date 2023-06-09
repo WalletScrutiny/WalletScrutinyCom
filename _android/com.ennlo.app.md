@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.ennlo.app
 appCountry: 
-released: Aug 1, 2019
+released: 2019-08-01
 updated: 2019-09-11
 version: '1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ennlo.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.vcoin.wallet
 appCountry: 
-released: Sep 19, 2022
+released: 2022-09-19
 updated: 2022-09-25
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vcoin.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.wirebitdigitalapp
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2023-05-09
 version: 1.12.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wirebit.com/
 repository: 
 issue: 

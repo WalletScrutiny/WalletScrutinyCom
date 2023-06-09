@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.coinboxwallet
 appCountry: 
-released: Aug 13, 2022
+released: 2022-08-13
 updated: 2023-03-02
 version: 1.0.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinboxfinance.com/
 repository: 
 issue: 

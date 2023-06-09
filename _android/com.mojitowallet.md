@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.mojitowallet
 appCountry: 
+released: 
 updated: 2023-05-18
 version: 0.2.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.mintlayer.org/en/mojito-wallet/
 repository: 
 issue: 

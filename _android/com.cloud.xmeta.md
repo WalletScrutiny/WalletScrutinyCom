@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.cloud.xmeta
 appCountry: 
-released: Feb 14, 2022
+released: 2022-02-14
 updated: 2022-12-19
 version: 2.1.0
-stars: 4.6666665
+stars: 4.7
 ratings: 
 reviews: 8
+size: 
 website: https://x-meta.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.chainup.exchange.Burency
 appCountry: 
-released: Nov 20, 2021
+released: 2021-11-20
 updated: 2022-11-15
 version: 5.6.1_push_v2
 stars: 3
 ratings: 
 reviews: 9
+size: 
 website: https://www.burency.com
 repository: 
 issue: 

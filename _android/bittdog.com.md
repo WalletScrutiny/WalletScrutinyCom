@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: bittdog.com
 appCountry: 
-released: Mar 22, 2022
+released: 2022-03-22
 updated: 2022-03-30
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

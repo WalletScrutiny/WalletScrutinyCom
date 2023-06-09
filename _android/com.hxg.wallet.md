@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.hxg.wallet
 appCountry: 
-released: Sep 30, 2022
+released: 2022-09-30
 updated: 2023-06-01
 version: 1.0.24
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ullapay.com/
 repository: 
 issue: 

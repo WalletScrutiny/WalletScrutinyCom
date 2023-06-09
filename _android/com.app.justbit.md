@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.app.justbit
 appCountry: 
-released: Jun 24, 2022
+released: 2022-06-24
 updated: 2022-10-20
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://justbit.in/
 repository: 
 issue: 

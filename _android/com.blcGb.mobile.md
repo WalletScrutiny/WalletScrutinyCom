@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.blcGb.mobile
 appCountry: 
-released: Feb 14, 2023
+released: 2023-02-14
 updated: 2023-02-23
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

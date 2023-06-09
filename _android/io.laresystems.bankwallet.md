@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.laresystems.bankwallet
 appCountry: 
-released: Mar 7, 2022
+released: 2022-03-07
 updated: 2022-03-20
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://larewallet.cc
 repository: 
 issue: 

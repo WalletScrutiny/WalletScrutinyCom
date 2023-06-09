@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: nulpay.agent
 appCountry: 
-released: Sep 2, 2022
+released: 2022-09-02
 updated: 2022-09-02
 version: '1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nulpay.com
 repository: 
 issue: 

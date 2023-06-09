@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: xyz.appmaker.mevpis
 appCountry: 
-released: Feb 20, 2022
+released: 2022-02-20
 updated: 2022-02-20
 version: '1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dentrocoin.com
 repository: 
 issue: 

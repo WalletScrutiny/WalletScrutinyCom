@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.nexdax
 appCountry: 
+released: 
 updated: 2022-08-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nexdax.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.firstbyt.mobileclient
 appCountry: 
-released: Nov 2, 2022
+released: 2022-11-02
 updated: 2022-11-02
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://fbyt.io
 repository: 
 issue: 

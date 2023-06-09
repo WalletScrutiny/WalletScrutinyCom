@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.mtctrader
 appCountry: 
-released: Feb 7, 2022
+released: 2022-02-07
 updated: 2022-02-07
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mtctraders.com
 repository: 
 issue: 

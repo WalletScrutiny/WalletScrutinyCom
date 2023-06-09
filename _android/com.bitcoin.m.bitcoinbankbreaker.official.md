@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.bitcoin.m.bitcoinbankbreaker.official
 appCountry: 
-released: Sep 7, 2022
+released: 2022-09-07
 updated: 2022-09-07
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

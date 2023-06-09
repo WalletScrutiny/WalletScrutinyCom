@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.smartkey.wallet
 appCountry: 
-released: Dec 9, 2021
+released: 2021-12-09
 updated: 2021-12-12
 version: 0.21.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

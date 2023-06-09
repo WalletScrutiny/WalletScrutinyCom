@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.ideal.studio.milly_crypto
 appCountry: 
-released: Jan 11, 2021
+released: 2021-01-11
 updated: 2021-02-23
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.millycrypto.com
 repository: 
 issue: 

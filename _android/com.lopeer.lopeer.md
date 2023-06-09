@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.lopeer.lopeer
 appCountry: 
-released: Aug 13, 2022
+released: 2022-08-13
 updated: 2023-05-09
 version: 2.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lopeer.com
 repository: 
 issue: 

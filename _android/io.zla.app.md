@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: io.zla.app
 appCountry: 
-released: Apr 19, 2018
+released: 2018-04-19
 updated: 2019-12-12
 version: 2.6.3
-stars: 4.509091
+stars: 4.5
 ratings: 
 reviews: 45
+size: 
 website: https://zla.io
 repository: 
 issue: 

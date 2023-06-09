@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitwyre.bitwyreapp
 appCountry: 
-released: Feb 21, 2022
+released: 2022-02-21
 updated: 2022-04-02
 version: 0.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitwyre.com
 repository: 
 issue: 

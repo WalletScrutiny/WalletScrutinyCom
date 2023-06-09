@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.barongxtrade.users
 appCountry: 
-released: Oct 28, 2022
+released: 2022-10-28
 updated: 2023-04-30
 version: 4.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://Barongxtrade.com
 repository: 
 issue: 

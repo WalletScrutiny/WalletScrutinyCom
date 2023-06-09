@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bpstwalletnew
 appCountry: 
-released: Oct 16, 2019
+released: 2019-10-16
 updated: 2021-07-09
 version: 1.44.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bps.money
 repository: 
 issue: 

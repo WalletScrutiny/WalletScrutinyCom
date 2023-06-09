@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bicasoft_labs.crypto_tae
 appCountry: 
-released: Aug 15, 2021
+released: 2021-08-15
 updated: 2021-09-08
 version: 2.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptotae.com/
 repository: 
 issue: 

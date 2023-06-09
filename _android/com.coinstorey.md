@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.coinstorey
 appCountry: 
-released: Nov 30, 2021
+released: 2021-11-30
 updated: 2021-12-01
 version: '9.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinstorey.com/
 repository: 
 issue: 

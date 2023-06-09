@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bgw.wallet
 appCountry: 
-released: Jul 14, 2022
+released: 2022-07-14
 updated: 2023-05-10
 version: 0.2.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bgwallet.io/
 repository: 
 issue: 

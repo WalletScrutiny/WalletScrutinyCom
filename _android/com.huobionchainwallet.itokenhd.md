@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.huobionchainwallet.itokenhd
 appCountry: 
-released: Apr 12, 2023
+released: 2023-04-12
 updated: 2023-05-12
 version: 4.00.02.017
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.itoken.com/
 repository: 
 issue: 

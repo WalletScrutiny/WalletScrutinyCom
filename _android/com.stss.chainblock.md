@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.stss.chainblock
 appCountry: 
-released: Jan 21, 2020
+released: 2020-01-21
 updated: 2020-01-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

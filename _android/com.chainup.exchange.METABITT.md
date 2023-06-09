@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.chainup.exchange.METABITT
 appCountry: 
-released: Dec 30, 2022
+released: 2022-12-30
 updated: 2023-01-17
 version: 5.6.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.mt-bitt.com/en_US/
 repository: 
 issue: 

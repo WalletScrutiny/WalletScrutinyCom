@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.bybis.exchange
 appCountry: 
+released: 
 updated: 2023-05-25
 version: '1.11'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bybis.com
 repository: 
 issue: 

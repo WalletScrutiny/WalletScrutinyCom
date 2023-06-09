@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.ari10.bitcan
 appCountry: 
-released: Jun 14, 2022
+released: 2022-06-14
 updated: 2023-05-15
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ari10.com
 repository: 
 issue: 

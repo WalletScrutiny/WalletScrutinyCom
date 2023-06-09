@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.nakhlex.exchange
 appCountry: 
+released: 
 updated: 2022-12-08
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nakhlex.com
 repository: 
 issue: 

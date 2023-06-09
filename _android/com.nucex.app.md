@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.nucex.app
 appCountry: 
-released: May 20, 2019
+released: 2019-05-20
 updated: 2019-05-23
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.nucex.io
 repository: 
 issue: 

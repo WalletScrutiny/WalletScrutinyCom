@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.hashcash.paybitoadmin
 appCountry: 
-released: Jun 16, 2022
+released: 2022-06-16
 updated: 2023-05-12
 version: 1.0.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

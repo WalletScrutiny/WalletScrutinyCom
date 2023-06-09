@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.fynzon
 appCountry: 
-released: Jul 18, 2021
+released: 2021-07-18
 updated: 2021-11-03
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.renasnce.byt
 appCountry: 
-released: Jun 30, 2022
+released: 2022-06-30
 updated: 2023-02-26
 version: 0.30.29
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://renasnce.com
 repository: 
 issue: 

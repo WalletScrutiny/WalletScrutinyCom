@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: metau.eu
 appCountry: 
-released: Mar 23, 2023
+released: 2023-03-23
 updated: 2023-05-22
 version: 0.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

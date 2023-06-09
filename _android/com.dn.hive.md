@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.dn.hive
 appCountry: 
-released: Aug 18, 2021
+released: 2021-08-18
 updated: 2023-02-21
 version: 10.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

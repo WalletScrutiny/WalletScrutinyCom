@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: plus.Bit.Mart
 appCountry: 
-released: Jul 23, 2022
+released: 2022-07-23
 updated: 2022-07-24
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

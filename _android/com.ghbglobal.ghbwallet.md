@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.ghbglobal.ghbwallet
 appCountry: 
-released: Dec 6, 2019
+released: 2019-12-06
 updated: 2023-01-15
 version: 1.7.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://ghbwallet.com/home/page/index.html
 repository: 
 issue: 

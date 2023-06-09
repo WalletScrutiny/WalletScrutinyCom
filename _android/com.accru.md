@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.accru
 appCountry: 
-released: Nov 1, 2021
+released: 2021-11-01
 updated: 2023-01-10
 version: 1.0.201
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://aqru.io/
 repository: 
 issue: 

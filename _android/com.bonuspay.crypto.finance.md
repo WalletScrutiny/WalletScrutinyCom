@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bonuspay.crypto.finance
 appCountry: 
-released: Jan 29, 2023
+released: 2023-01-29
 updated: 2023-02-02
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bonuspay.io
 repository: 
 issue: 

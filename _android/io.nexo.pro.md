@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.nexo.pro
 appCountry: 
-released: Mar 2, 2023
+released: 2023-03-02
 updated: 2023-05-16
 version: 1.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pro.nexo.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: nwsoft.com.cryptotrader
 appCountry: 
-released: Apr 19, 2018
+released: 2018-04-19
 updated: 2018-07-19
 version: 1.11ai
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.nwsoft.co.kr
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.zznex.app
 appCountry: 
-released: Oct 18, 2022
+released: 2022-10-18
 updated: 2023-04-06
 version: 4.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://zznex.in/
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.imermarket.invesacapital
 appCountry: 
+released: 
 updated: 2023-05-31
 version: 2.2.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.invesacapital.com
 repository: 
 issue: 

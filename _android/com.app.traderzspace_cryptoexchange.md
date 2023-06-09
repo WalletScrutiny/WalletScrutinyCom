@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.app.traderzspace_cryptoexchange
 appCountry: 
-released: Jul 8, 2022
+released: 2022-07-08
 updated: 2022-07-08
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

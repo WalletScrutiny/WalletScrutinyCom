@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.kodexpaywallet
 appCountry: 
-released: Mar 29, 2023
+released: 2023-03-29
 updated: 2023-04-10
 version: 1.0.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kodexpay.com
 repository: 
 issue: 

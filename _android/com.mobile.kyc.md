@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.mobile.kyc
 appCountry: 
-released: Jan 21, 2022
+released: 2022-01-21
 updated: 2022-10-28
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kyccoin.io
 repository: 
 issue: 

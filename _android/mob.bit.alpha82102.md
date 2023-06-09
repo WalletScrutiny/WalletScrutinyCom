@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: mob.bit.alpha82102
 appCountry: 
-released: Aug 19, 2022
+released: 2022-08-19
 updated: 2022-08-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

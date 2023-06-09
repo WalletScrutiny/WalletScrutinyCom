@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: app.Kudiro.io
 appCountry: 
-released: Jul 11, 2022
+released: 2022-07-11
 updated: 2022-07-12
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

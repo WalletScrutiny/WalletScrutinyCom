@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.mocrow
 appCountry: 
+released: 
 updated: 2019-09-13
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

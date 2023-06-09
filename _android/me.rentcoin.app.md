@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: me.rentcoin.app
 appCountry: 
-released: Jun 29, 2020
+released: 2020-06-29
 updated: 2021-10-26
 version: 2.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.rentcoin.me
 repository: 
 issue: 

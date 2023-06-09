@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.dts.io
 appCountry: 
-released: Nov 5, 2021
+released: 2021-11-05
 updated: 2021-11-05
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://dtsasset.io/
 repository: 
 issue: 

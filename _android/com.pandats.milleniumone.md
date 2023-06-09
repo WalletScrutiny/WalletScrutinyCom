@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.pandats.milleniumone
 appCountry: 
-released: Jul 27, 2022
+released: 2022-07-27
 updated: 2022-07-27
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://milleniumone.com/
 repository: 
 issue: 

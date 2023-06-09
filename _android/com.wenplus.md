@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.wenplus
 appCountry: 
-released: Sep 9, 2022
+released: 2022-09-09
 updated: 2023-01-03
 version: 1.2.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

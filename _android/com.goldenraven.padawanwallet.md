@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.goldenraven.padawanwallet
 appCountry: 
+released: 
 updated: 2023-01-20
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://github.com/thunderbiscuit/padawan-wallet
 repository: 
 issue: 

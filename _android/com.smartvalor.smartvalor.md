@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.smartvalor.smartvalor
 appCountry: 
+released: 
 updated: 2023-05-25
 version: 1.0.2.69
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://smartvalor.com/
 repository: 
 issue: 

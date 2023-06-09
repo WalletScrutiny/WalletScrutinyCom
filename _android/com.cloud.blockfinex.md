@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.cloud.blockfinex
 appCountry: 
+released: 
 updated: 2022-12-29
 version: 1.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.blockfinex.com
 repository: 
 issue: 

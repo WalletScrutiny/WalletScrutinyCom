@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.archgroup.kswappay
 appCountry: 
-released: Nov 13, 2022
+released: 2022-11-13
 updated: 2022-12-05
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kswappay.com/
 repository: 
 issue: 

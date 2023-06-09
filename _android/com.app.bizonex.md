@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.app.bizonex
 appCountry: 
+released: 
 updated: 2021-11-12
 version: 1.0.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bizonex.com/
 repository: 
 issue: 

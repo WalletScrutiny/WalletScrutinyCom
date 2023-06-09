@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.rasoulj.jozapp
 appCountry: 
-released: Jul 17, 2021
+released: 2021-07-17
 updated: 2022-05-20
 version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nonamewallet.com
 repository: 
 issue: 

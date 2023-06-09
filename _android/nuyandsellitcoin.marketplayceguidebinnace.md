@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: nuyandsellitcoin.marketplayceguidebinnace
 appCountry: 
-released: Nov 10, 2021
+released: 2021-11-10
 updated: 2022-09-09
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://markouscraff.blogspot.com/
 repository: 
 issue: 

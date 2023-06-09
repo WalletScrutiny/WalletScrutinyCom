@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.iorys
 appCountry: 
-released: Jun 21, 2021
+released: 2021-06-21
 updated: 2023-03-08
 version: 1.7.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

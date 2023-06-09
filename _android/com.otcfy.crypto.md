@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.otcfy.crypto
 appCountry: 
-released: Dec 29, 2022
+released: 2022-12-29
 updated: 2022-12-30
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.otcfy.com/
 repository: 
 issue: 

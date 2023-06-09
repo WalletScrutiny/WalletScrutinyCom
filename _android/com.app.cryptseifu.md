@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.app.cryptseifu
 appCountry: 
-released: Oct 23, 2019
+released: 2019-10-23
 updated: 2019-10-24
 version: 0.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://cryptseifu.com
 repository: 
 issue: 

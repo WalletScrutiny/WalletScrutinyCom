@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: net.pryvate.wallet
 appCountry: 
+released: 
 updated: 2021-12-30
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pryvate-technologies.com
 repository: 
 issue: 

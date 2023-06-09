@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.devoioapps.trade6ix
 appCountry: 
-released: May 31, 2022
+released: 2022-05-31
 updated: 2022-05-31
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://trade6ix.com
 repository: 
 issue: 

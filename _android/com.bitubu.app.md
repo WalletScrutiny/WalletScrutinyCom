@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitubu.app
 appCountry: 
-released: Apr 19, 2020
+released: 2020-04-19
 updated: 2023-01-19
 version: 1.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitubu.com
 repository: 
 issue: 

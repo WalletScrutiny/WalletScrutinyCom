@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.ecotx.platform
 appCountry: 
+released: 
 updated: 2022-10-04
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ecotx.io
 repository: 
 issue: 

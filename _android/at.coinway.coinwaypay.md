@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: at.coinway.coinwaypay
 appCountry: 
-released: Feb 6, 2019
+released: 2019-02-06
 updated: 2021-10-11
 version: 1.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinwaypay.com/
 repository: 
 issue: 

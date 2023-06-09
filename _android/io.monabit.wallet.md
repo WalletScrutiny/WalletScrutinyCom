@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: io.monabit.wallet
 appCountry: 
-released: Dec 17, 2021
+released: 2021-12-17
 updated: 2023-02-15
 version: '3.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monabit.io
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 100000
 appId: com.weareblox.app
 appCountry: 
+released: 
 updated: 2023-06-01
 version: 4.2.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://weareblox.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: smartearners.apk
 appCountry: 
-released: Aug 11, 2022
+released: 2022-08-11
 updated: 2022-08-11
 version: '9.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://teamsmartearners.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.afcashapp.app
 appCountry: 
-released: Jan 17, 2022
+released: 2022-01-17
 updated: 2022-06-23
 version: 3.57.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://afcash.app
 repository: 
 issue: 

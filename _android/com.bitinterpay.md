@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitinterpay
 appCountry: 
-released: Aug 26, 2020
+released: 2020-08-26
 updated: 2020-09-17
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitinterpay.com
 repository: 
 issue: 

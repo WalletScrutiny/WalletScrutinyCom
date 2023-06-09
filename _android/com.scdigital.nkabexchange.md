@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.scdigital.nkabexchange
 appCountry: 
-released: Oct 9, 2022
+released: 2022-10-09
 updated: 2022-10-10
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nkab-exchange.net/
 repository: 
 issue: 

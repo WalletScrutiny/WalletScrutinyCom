@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: app.exchange.lemon
 appCountry: 
-released: Nov 16, 2022
+released: 2022-11-16
 updated: 2022-11-16
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://lemonexchange.africa/
 repository: 
 issue: 

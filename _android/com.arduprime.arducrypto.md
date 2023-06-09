@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.arduprime.arducrypto
 appCountry: 
-released: Jul 26, 2022
+released: 2022-07-26
 updated: 2023-01-18
 version: '15'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://arducrypto.com
 repository: 
 issue: 

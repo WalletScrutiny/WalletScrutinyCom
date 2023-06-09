@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.tron.tradingfleet
 appCountry: 
-released: Aug 5, 2022
+released: 2022-08-05
 updated: 2022-08-05
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

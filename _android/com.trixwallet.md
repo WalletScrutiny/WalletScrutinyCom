@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.trixwallet
 appCountry: 
-released: Dec 20, 2021
+released: 2021-12-20
 updated: 2021-12-20
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.trdc.token
 appCountry: 
-released: Nov 10, 2021
+released: 2021-11-10
 updated: 2022-06-13
 version: 1.0.9
-stars: 4.736842
+stars: 4.7
 ratings: 
 reviews: 13
+size: 
 website: https://trdctoken.com
 repository: 
 issue: 

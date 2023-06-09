@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.obic.wallet
 appCountry: 
-released: Jul 14, 2021
+released: 2021-07-14
 updated: 2023-05-18
 version: 3.5.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://obictrade.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.clovrlabs.wallet
 appCountry: 
-released: Dec 8, 2022
+released: 2022-12-08
 updated: 2023-03-11
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

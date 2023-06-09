@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.vnc.trex.bit
 appCountry: 
-released: Mar 5, 2023
+released: 2023-03-05
 updated: 2023-04-19
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://trexfx.com
 repository: 
 issue: 

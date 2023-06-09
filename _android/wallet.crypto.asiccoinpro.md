@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: wallet.crypto.asiccoinpro
 appCountry: 
-released: Nov 1, 2021
+released: 2021-11-01
 updated: 2021-11-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

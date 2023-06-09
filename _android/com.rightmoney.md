@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.rightmoney
 appCountry: 
-released: Jul 15, 2022
+released: 2022-07-15
 updated: 2022-09-30
 version: '6.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

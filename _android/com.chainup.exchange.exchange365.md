@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.chainup.exchange.exchange365
 appCountry: 
-released: Sep 9, 2022
+released: 2022-09-09
 updated: 2022-09-27
 version: 5.5.0_push_v2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.365excoin.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.bitafrox.bitafrox
 appCountry: 
-released: Jul 25, 2019
+released: 2019-07-25
 updated: 2019-07-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitafrox.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.megao
 appCountry: 
-released: Dec 7, 2021
+released: 2021-12-07
 updated: 2022-04-07
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://megao.io/
 repository: 
 issue: 

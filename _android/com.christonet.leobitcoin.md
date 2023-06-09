@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.christonet.leobitcoin
 appCountry: 
-released: Mar 21, 2023
+released: 2023-03-21
 updated: 2023-03-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://leobitcoin.com/
 repository: 
 issue: 

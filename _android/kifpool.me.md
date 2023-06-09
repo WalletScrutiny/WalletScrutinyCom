@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: kifpool.me
 appCountry: 
-released: Sep 13, 2022
+released: 2022-09-13
 updated: 2022-12-11
 version: '1.7'
-stars: 3.090909
+stars: 3.1
 ratings: 
 reviews: 6
+size: 
 website: 
 repository: 
 issue: 

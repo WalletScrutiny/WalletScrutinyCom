@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.monifiex
 appCountry: 
-released: Sep 30, 2022
+released: 2022-09-30
 updated: 2022-11-21
 version: 1.2.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monifiex.com/
 repository: 
 issue: 

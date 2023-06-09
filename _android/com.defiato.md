@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.defiato
 appCountry: 
-released: Oct 26, 2021
+released: 2021-10-26
 updated: 2023-01-18
 version: 1.2.9
-stars: 4.111111
+stars: 4.1
 ratings: 
 reviews: 5
+size: 
 website: https://defiato.com/
 repository: 
 issue: 

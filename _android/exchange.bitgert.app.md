@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: exchange.bitgert.app
 appCountry: 
-released: Jan 13, 2023
+released: 2023-01-13
 updated: 2023-01-13
 version: '1.0'
-stars: 4.268293
+stars: 4.3
 ratings: 
 reviews: 28
+size: 
 website: https://bitgert.exchange
 repository: 
 issue: 

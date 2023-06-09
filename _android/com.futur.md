@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.futur
 appCountry: 
-released: Jun 9, 2022
+released: 2022-06-09
 updated: 2022-06-09
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

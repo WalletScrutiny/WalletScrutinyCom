@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.tomato.coinworld
 appCountry: 
-released: Sep 19, 2019
+released: 2019-09-19
 updated: 2022-05-04
 version: '3.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://swmakekr.com/html/index.html
 repository: 
 issue: 

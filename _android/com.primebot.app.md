@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.primebot.app
 appCountry: 
-released: May 27, 2022
+released: 2022-05-27
 updated: 2022-05-27
 version: 4.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ugainindia.com
 repository: 
 issue: 

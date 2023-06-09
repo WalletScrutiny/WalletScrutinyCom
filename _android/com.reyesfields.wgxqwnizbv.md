@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.reyesfields.wgxqwnizbv
 appCountry: 
-released: Nov 30, 2021
+released: 2021-11-30
 updated: 2021-12-01
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

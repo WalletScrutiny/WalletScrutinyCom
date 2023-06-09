@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.airtimedatahub.app
 appCountry: 
-released: Feb 19, 2019
+released: 2019-02-19
 updated: 2022-10-06
 version: 3.5.0
-stars: 4.388889
+stars: 4.4
 ratings: 
 reviews: 9
+size: 
 website: https://airtimedatahub.com/
 repository: 
 issue: 

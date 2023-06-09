@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: ca.ewallet.web3.mobile
 appCountry: 
-released: Oct 24, 2022
+released: 2022-10-24
 updated: 2022-10-24
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

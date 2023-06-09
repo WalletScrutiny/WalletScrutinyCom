@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.earlybazewallet.earlybazewallet
 appCountry: 
-released: Jun 6, 2022
+released: 2022-06-06
 updated: 2022-12-15
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://eazyblaze.com/
 repository: 
 issue: 

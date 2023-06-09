@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: finance.ottr.android
 appCountry: 
-released: Oct 4, 2022
+released: 2022-10-04
 updated: 2023-05-31
 version: '1.44'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ottr.finance
 repository: 
 issue: 

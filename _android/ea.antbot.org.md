@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: ea.antbot.org
 appCountry: 
-released: Sep 29, 2021
+released: 2021-09-29
 updated: 2023-05-12
 version: 2.3.7
-stars: 4.3076925
+stars: 4.3
 ratings: 
 reviews: 19
+size: 
 website: https://www.antrade.io
 repository: 
 issue: 

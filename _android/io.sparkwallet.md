@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.sparkwallet
 appCountry: 
-released: Feb 9, 2022
+released: 2022-02-09
 updated: 2023-03-29
 version: '2.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://sparkwallet.io/
 repository: 
 issue: 

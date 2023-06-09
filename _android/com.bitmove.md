@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bitmove
 appCountry: 
-released: Apr 14, 2022
+released: 2022-04-14
 updated: 2022-04-14
 version: '1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

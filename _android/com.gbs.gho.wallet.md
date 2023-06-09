@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.gbs.gho.wallet
 appCountry: 
-released: May 6, 2020
+released: 2020-05-06
 updated: 2020-12-30
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://gho.group
 repository: 
 issue: 

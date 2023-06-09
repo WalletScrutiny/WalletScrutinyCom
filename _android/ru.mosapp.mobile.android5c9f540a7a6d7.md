@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: ru.mosapp.mobile.android5c9f540a7a6d7
 appCountry: 
-released: Mar 30, 2019
+released: 2019-03-30
 updated: 2019-03-30
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

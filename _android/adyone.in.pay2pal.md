@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: adyone.in.pay2pal
 appCountry: 
-released: Mar 4, 2023
+released: 2023-03-04
 updated: 2023-05-19
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pay2pal.io/
 repository: 
 issue: 

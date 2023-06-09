@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.molnike.crypto.simplesign
 appCountry: 
-released: Jan 11, 2023
+released: 2023-01-11
 updated: 2023-03-09
 version: '0.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 
 issue: 

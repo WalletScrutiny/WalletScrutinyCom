@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.metatech.moonfarm
 appCountry: 
-released: Jul 29, 2022
+released: 2022-07-29
 updated: 2023-02-23
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://moonfarm.finance
 repository: 
 issue: 

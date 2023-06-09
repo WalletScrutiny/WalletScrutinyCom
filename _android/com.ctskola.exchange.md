@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.ctskola.exchange
 appCountry: 
-released: May 25, 2022
+released: 2022-05-25
 updated: 2022-05-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ctskola.com
 repository: 
 issue: 

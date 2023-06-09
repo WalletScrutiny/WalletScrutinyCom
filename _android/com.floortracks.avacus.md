@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.floortracks.avacus
 appCountry: 
-released: Sep 13, 2018
+released: 2018-09-13
 updated: 2023-05-26
 version: 6.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://avacus.cc/
 repository: 
 issue: 

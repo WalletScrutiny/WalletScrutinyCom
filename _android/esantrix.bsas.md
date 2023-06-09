@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: esantrix.bsas
 appCountry: 
-released: Jan 30, 2021
+released: 2021-01-30
 updated: 2022-04-11
 version: '9.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://santiagocelentano.wixsite.com/esantrix
 repository: 
 issue: 

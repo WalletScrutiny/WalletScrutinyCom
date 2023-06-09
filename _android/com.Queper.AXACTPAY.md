@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.Queper.AXACTPAY
 appCountry: 
-released: Jul 8, 2020
+released: 2020-07-08
 updated: 2023-01-10
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.axactpay.net
 repository: 
 issue: 

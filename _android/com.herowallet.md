@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.herowallet
 appCountry: 
-released: Nov 23, 2022
+released: 2022-11-23
 updated: 2023-02-24
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://herowallet.com/
 repository: 
 issue: 

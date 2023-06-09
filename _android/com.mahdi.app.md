@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.mahdi.app
 appCountry: 
-released: Jul 2, 2022
+released: 2022-07-02
 updated: 2022-11-06
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

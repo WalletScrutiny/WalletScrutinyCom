@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.deltra.crypto.bot
 appCountry: 
-released: Jul 10, 2022
+released: 2022-07-10
 updated: 2023-05-03
 version: 1.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

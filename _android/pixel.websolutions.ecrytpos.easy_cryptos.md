@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: pixel.websolutions.ecrytpos.easy_cryptos
 appCountry: 
-released: Feb 10, 2022
+released: 2022-02-10
 updated: 2022-02-10
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://easycryptos.io/
 repository: 
 issue: 

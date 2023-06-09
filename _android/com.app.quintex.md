@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.app.quintex
 appCountry: 
-released: Jun 13, 2022
+released: 2022-06-13
 updated: 2022-07-12
 version: 3.5.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://quintex.io
 repository: 
 issue: 

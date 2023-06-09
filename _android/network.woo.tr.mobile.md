@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: network.woo.tr.mobile
 appCountry: 
-released: Oct 20, 2022
+released: 2022-10-20
 updated: 2023-05-04
 version: 3.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wootr.com/
 repository: 
 issue: 

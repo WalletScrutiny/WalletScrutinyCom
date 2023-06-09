@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.monetum.quicktrade
 appCountry: 
+released: 
 updated: 2023-03-24
 version: 1.7.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monetum.com/quick-trade
 repository: 
 issue: 

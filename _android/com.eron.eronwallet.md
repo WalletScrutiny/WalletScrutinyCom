@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.eron.eronwallet
 appCountry: 
-released: Jul 20, 2022
+released: 2022-07-20
 updated: 2022-07-20
 version: 3.40.91
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

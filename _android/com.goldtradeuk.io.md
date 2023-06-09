@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.goldtradeuk.io
 appCountry: 
-released: May 24, 2022
+released: 2022-05-24
 updated: 2022-05-29
 version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://goldtradeuk.com/
 repository: 
 issue: 

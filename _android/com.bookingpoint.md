@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.bookingpoint
 appCountry: 
+released: 
 updated: 2023-01-02
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.bookingpoint.vip
 repository: 
 issue: 

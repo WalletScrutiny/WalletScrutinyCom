@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.streakk
 appCountry: 
-released: Jul 29, 2022
+released: 2022-07-29
 updated: 2023-05-16
 version: '2.9'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://streakk.io/
 repository: 
 issue: 

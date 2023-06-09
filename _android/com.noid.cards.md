@@ -6,11 +6,13 @@ authors:
 users: 1
 appId: com.noid.cards
 appCountry: 
+released: 
 updated: 2023-03-26
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

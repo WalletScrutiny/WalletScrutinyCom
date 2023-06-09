@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mixcoins.app
 appCountry: 
-released: Jul 3, 2019
+released: 2019-07-03
 updated: 2019-07-03
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 100000
 appId: com.twogetherbank.app
 appCountry: 
+released: 
 updated: 2022-06-14
 version: 1.9.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.2gether.global
 repository: 
 issue: 

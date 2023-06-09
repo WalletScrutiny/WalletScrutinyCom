@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: in.spiegeltechnologies.smdex
 appCountry: 
-released: Mar 7, 2022
+released: 2022-03-07
 updated: 2022-04-01
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://smdex.io/
 repository: 
 issue: 

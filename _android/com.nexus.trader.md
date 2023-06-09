@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.nexus.trader
 appCountry: 
+released: 
 updated: 2020-01-19
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

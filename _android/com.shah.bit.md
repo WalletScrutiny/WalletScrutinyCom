@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.shah.bit
 appCountry: 
-released: Aug 17, 2022
+released: 2022-08-17
 updated: 2022-08-25
 version: '8.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.beyondwallet.app
 appCountry: 
-released: Jan 11, 2021
+released: 2021-01-11
 updated: 2023-05-29
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.mybeyondwallet.com
 repository: 
 issue: 

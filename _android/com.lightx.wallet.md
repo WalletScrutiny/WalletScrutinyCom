@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.lightx.wallet
 appCountry: 
-released: Feb 11, 2023
+released: 2023-02-11
 updated: 2023-03-26
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://lightxwallet.io
 repository: 
 issue: 

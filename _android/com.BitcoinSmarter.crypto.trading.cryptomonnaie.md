@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.BitcoinSmarter.crypto.trading.cryptomonnaie
 appCountry: 
-released: Jun 19, 2022
+released: 2022-06-19
 updated: 2022-06-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

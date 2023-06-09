@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.kope.xa.app
 appCountry: 
-released: Apr 21, 2023
+released: 2023-04-21
 updated: 2023-04-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

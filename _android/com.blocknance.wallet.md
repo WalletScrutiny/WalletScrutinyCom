@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.blocknance.wallet
 appCountry: 
-released: Sep 11, 2022
+released: 2022-09-11
 updated: 2023-03-14
 version: '1.1'
-stars: 4.3333335
+stars: 4.3
 ratings: 
 reviews: 3
+size: 
 website: https://blockchain.com.do
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.libertify
 appCountry: 
-released: Jan 12, 2023
+released: 2023-01-12
 updated: 2023-05-23
 version: 0.9.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.libertify.com
 repository: 
 issue: 

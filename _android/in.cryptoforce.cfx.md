@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: in.cryptoforce.cfx
 appCountry: 
-released: Sep 27, 2022
+released: 2022-09-27
 updated: 2023-03-22
 version: 1.1.0.20
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptoforce.in
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.coincatch.exchange
 appCountry: 
-released: Apr 7, 2023
+released: 2023-04-07
 updated: 2023-06-01
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

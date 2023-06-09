@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bitcoin.trader2022
 appCountry: 
-released: Feb 10, 2022
+released: 2022-02-10
 updated: 2022-05-07
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitcointrader.icu/
 repository: 
 issue: 

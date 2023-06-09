@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.sinblock.blockchain
 appCountry: 
-released: Sep 22, 2022
+released: 2022-09-22
 updated: 2023-05-23
 version: 2.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bidacoin.app
 appCountry: 
-released: Aug 8, 2022
+released: 2022-08-08
 updated: 2022-08-02
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bidacoin.io/#/
 repository: 
 issue: 

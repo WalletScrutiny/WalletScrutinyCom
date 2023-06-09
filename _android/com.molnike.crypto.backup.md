@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.molnike.crypto.backup
 appCountry: 
-released: Jan 8, 2023
+released: 2023-01-08
 updated: 2023-02-28
 version: '0.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 
 issue: 

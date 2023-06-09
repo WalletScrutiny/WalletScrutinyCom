@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.solidimobileapp4
 appCountry: 
-released: Jan 26, 2023
+released: 2023-01-26
 updated: 2023-01-26
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://solidi.co
 repository: 
 issue: 

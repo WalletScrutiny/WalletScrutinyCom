@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.fxvc.trading
 appCountry: 
+released: 
 updated: 2022-02-23
 version: 1.8.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://fxvc.com
 repository: 
 issue: 

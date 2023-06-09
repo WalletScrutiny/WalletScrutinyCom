@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: io.antwallet
 appCountry: 
-released: Nov 15, 2021
+released: 2021-11-15
 updated: 2021-11-23
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://antwallet.io
 repository: 
 issue: 

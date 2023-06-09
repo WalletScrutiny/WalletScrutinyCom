@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.xchangeonio
 appCountry: 
-released: Nov 15, 2022
+released: 2022-11-15
 updated: 2023-03-16
 version: 1.1.2
 stars: 2.5
 ratings: 
 reviews: 6
+size: 
 website: https://www.xchangeon.io/
 repository: 
 issue: 

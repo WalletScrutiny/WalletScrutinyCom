@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.paramountdax.exchange
 appCountry: 
-released: Nov 25, 2021
+released: 2021-11-25
 updated: 2022-11-09
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.paramountdax.com
 repository: 
 issue: 

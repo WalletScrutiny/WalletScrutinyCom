@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.arbismart.hotwallets
 appCountry: 
+released: 
 updated: 2023-04-28
 version: 1.0.0024
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

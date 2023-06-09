@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.twetaexchange.app
 appCountry: 
-released: Dec 1, 2021
+released: 2021-12-01
 updated: 2021-12-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://twetaexchange.com/
 repository: 
 issue: 

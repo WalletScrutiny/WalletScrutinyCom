@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: uni.UNI2A1D818
 appCountry: 
-released: Sep 23, 2021
+released: 2021-09-23
 updated: 2021-12-16
 version: 1.4.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://muskbot.io
 repository: 
 issue: 

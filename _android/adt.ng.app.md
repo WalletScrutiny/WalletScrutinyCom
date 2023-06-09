@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: adt.ng.app
 appCountry: 
-released: May 22, 2021
+released: 2021-05-22
 updated: 2021-05-14
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://codecraftng.com
 repository: 
 issue: 

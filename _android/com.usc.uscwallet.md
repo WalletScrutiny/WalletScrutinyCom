@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.usc.uscwallet
 appCountry: 
-released: Dec 13, 2020
+released: 2020-12-13
 updated: 2020-12-21
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://useongcoin.com
 repository: 
 issue: 

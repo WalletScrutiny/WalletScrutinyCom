@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: cv.bitbox.bitbox
 appCountry: 
-released: Dec 18, 2021
+released: 2021-12-18
 updated: 2022-03-10
 version: 1.3.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitbox.vc/
 repository: 
 issue: 

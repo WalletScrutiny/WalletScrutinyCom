@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.ex.rbul
 appCountry: 
-released: Jan 11, 2022
+released: 2022-01-11
 updated: 2022-02-15
 version: '1.6'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.rbul.io/
 repository: 
 issue: 

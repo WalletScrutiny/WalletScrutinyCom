@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: position.exchange
 appCountry: 
-released: Jul 27, 2022
+released: 2022-07-27
 updated: 2023-03-20
 version: 3.0.1
-stars: 4.714286
+stars: 4.7
 ratings: 
 reviews: 9
+size: 
 website: https://app.position.exchange
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.app.cpeddle
 appCountry: 
-released: Apr 9, 2020
+released: 2020-04-09
 updated: 2020-04-10
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

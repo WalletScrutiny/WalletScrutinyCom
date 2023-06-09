@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.im.tech.imcard
 appCountry: 
-released: Jan 12, 2022
+released: 2022-01-12
 updated: 2023-05-31
 version: 1.2.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://imtechng.com
 repository: 
 issue: 

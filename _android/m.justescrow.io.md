@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: m.justescrow.io
 appCountry: 
-released: May 30, 2018
+released: 2018-05-30
 updated: 2018-05-31
 version: '3.0'
-stars: 3.125
+stars: 3.1
 ratings: 
 reviews: 2
+size: 
 website: https://justescrow.io
 repository: 
 issue: 

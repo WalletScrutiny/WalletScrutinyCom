@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.tudirich
 appCountry: 
+released: 
 updated: 2022-09-25
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tudirich.com
 repository: 
 issue: 

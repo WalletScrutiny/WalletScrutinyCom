@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.hackenai.hpass
 appCountry: 
-released: Nov 24, 2021
+released: 2021-11-24
 updated: 2022-09-15
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hackenpass.com
 repository: 
 issue: 

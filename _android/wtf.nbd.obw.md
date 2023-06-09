@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: wtf.nbd.obw
 appCountry: 
-released: Sep 23, 2022
+released: 2022-09-23
 updated: 2022-12-31
 version: 0.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nbd.wtf
 repository: 
 issue: 

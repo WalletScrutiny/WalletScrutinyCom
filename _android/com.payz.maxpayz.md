@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.payz.maxpayz
 appCountry: 
-released: Jun 13, 2022
+released: 2022-06-13
 updated: 2022-06-13
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.milesblue.milesblue
 appCountry: 
-released: Oct 10, 2021
+released: 2021-10-10
 updated: 2023-02-20
 version: 1.1.3
-stars: 3.1666667
+stars: 3.2
 ratings: 
 reviews: 4
+size: 
 website: https://cryptmi.com
 repository: 
 issue: 

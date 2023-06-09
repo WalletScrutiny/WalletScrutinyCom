@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: appinventor.ai_mlmsolution88.Troquer
 appCountry: 
-released: Jun 25, 2020
+released: 2020-06-25
 updated: 2020-06-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.etroquer.com/
 repository: 
 issue: 

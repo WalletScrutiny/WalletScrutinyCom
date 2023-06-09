@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.yobo.wallet
 appCountry: 
-released: Jan 17, 2022
+released: 2022-01-17
 updated: 2023-02-01
 version: 1.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

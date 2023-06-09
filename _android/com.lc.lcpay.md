@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.lc.lcpay
 appCountry: 
-released: Mar 7, 2021
+released: 2021-03-07
 updated: 2021-04-13
 version: 5.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lcpay.io/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.coinpanel.appdev
 appCountry: 
-released: May 15, 2022
+released: 2022-05-15
 updated: 2023-01-10
 version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinpanel.com/
 repository: 
 issue: 

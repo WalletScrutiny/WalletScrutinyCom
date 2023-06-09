@@ -6,11 +6,13 @@ authors:
 users: 1
 appId: com.cfdv2.test
 appCountry: 
+released: 
 updated: 2020-06-24
 version: 0.6.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.10fxpro.com/
 repository: 
 issue: 

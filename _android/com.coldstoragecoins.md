@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.coldstoragecoins
 appCountry: 
-released: Aug 14, 2018
+released: 2018-08-14
 updated: 2023-03-27
 version: 3.3.2
-stars: 2.775
+stars: 2.8
 ratings: 
 reviews: 31
+size: 
 website: https://coldstoragecoins.com
 repository: 
 issue: 

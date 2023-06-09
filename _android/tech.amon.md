@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: tech.amon
 appCountry: 
-released: May 20, 2019
+released: 2019-05-20
 updated: 2022-11-01
 version: 3.7.1
-stars: 4.6363635
+stars: 4.6
 ratings: 
 reviews: 9
+size: 
 website: https://amon.tech
 repository: 
 issue: 

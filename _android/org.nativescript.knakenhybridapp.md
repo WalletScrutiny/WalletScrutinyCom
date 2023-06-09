@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: org.nativescript.knakenhybridapp
 appCountry: 
-released: Jul 6, 2022
+released: 2022-07-06
 updated: 2023-05-30
 version: 2.5.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://knaken.eu/
 repository: 
 issue: 

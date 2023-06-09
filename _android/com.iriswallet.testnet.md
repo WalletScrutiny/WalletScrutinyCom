@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.iriswallet.testnet
 appCountry: 
-released: Oct 21, 2022
+released: 2022-10-21
 updated: 2023-02-13
 version: 0.1.5-testnet
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

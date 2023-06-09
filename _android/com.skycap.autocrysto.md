@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.skycap.autocrysto
 appCountry: 
-released: Nov 18, 2019
+released: 2019-11-18
 updated: 2020-04-27
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://autocrysto.trade/
 repository: 
 issue: 

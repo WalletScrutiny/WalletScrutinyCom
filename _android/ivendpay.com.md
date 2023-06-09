@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: ivendpay.com
 appCountry: 
-released: Jan 26, 2023
+released: 2023-01-26
 updated: 2023-03-07
 version: 0.0.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ivendpay.com
 repository: 
 issue: 

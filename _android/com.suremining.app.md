@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.suremining.app
 appCountry: 
-released: Mar 24, 2020
+released: 2020-03-24
 updated: 2020-03-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://sureminingtradeoptions.com/
 repository: 
 issue: 

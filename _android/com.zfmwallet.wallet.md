@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.zfmwallet.wallet
 appCountry: 
-released: Oct 24, 2022
+released: 2022-10-24
 updated: 2022-10-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.zfmcoin.com/
 repository: 
 issue: 

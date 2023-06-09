@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.indtwallet.indt
 appCountry: 
-released: Sep 26, 2022
+released: 2022-09-26
 updated: 2023-05-23
 version: 1.0.15
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://indtcoin.com
 repository: 
 issue: 

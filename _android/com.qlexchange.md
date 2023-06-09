@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.qlexchange
 appCountry: 
+released: 
 updated: 2022-05-03
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://qilinlab.com
 repository: 
 issue: 

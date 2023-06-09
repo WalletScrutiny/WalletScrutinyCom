@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bravecorporation.BraveID
 appCountry: 
-released: May 11, 2022
+released: 2022-05-11
 updated: 2023-05-25
 version: 1.0.15
-stars: 4.75
+stars: 4.8
 ratings: 
 reviews: 4
+size: 
 website: https://www.bravepay.net/
 repository: 
 issue: 

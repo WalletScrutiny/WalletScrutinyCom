@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: poutineswap.app
 appCountry: 
-released: Jan 6, 2022
+released: 2022-01-06
 updated: 2022-02-04
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://poutineswap.com
 repository: 
 issue: 

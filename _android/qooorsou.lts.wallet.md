@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: qooorsou.lts.wallet
 appCountry: 
-released: Sep 6, 2019
+released: 2019-09-06
 updated: 2019-09-06
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wp.k8s.df.org.ua
 repository: 
 issue: 

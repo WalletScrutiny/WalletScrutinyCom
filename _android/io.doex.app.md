@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: io.doex.app
 appCountry: 
-released: Jun 11, 2022
+released: 2022-06-11
 updated: 2023-04-14
 version: 1.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

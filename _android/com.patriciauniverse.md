@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.patriciauniverse
 appCountry: 
-released: Jan 27, 2023
+released: 2023-01-27
 updated: 2023-05-03
 version: 1.1.1
-stars: 1.75
+stars: 1.8
 ratings: 
 reviews: 7
+size: 
 website: https://mypatricia.co
 repository: 
 issue: 

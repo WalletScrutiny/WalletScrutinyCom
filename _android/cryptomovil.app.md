@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: cryptomovil.app
 appCountry: 
-released: Sep 15, 2022
+released: 2022-09-15
 updated: 2022-10-04
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptomovil.app/
 repository: 
 issue: 

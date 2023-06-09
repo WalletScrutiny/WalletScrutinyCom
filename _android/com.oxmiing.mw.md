@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.oxmiing.mw
 appCountry: 
-released: Jan 13, 2022
+released: 2022-01-13
 updated: 2022-04-07
 version: 2.7.0
-stars: 4.0666666
+stars: 4.1
 ratings: 
 reviews: 3
+size: 
 website: https://www.oxbtc.com
 repository: 
 issue: 

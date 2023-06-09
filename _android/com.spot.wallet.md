@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.spot.wallet
 appCountry: 
-released: Dec 13, 2021
+released: 2021-12-13
 updated: 2022-01-16
 version: 0.21.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.hibitrademobileapp
 appCountry: 
-released: Aug 25, 2022
+released: 2022-08-25
 updated: 2022-09-06
 version: 2.0.36
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hibitrade.com/
 repository: 
 issue: 

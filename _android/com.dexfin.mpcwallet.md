@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.dexfin.mpcwallet
 appCountry: 
-released: Feb 1, 2023
+released: 2023-02-01
 updated: 2023-02-01
 version: 0.2.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.dexfin.com
 repository: 
 issue: 

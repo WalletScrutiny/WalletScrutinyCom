@@ -6,11 +6,13 @@ authors:
 users: 5000
 appId: com.metallum.nicex
 appCountry: 
+released: 
 updated: 2023-05-31
 version: 2.1.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.nicex.com
 repository: 
 issue: 

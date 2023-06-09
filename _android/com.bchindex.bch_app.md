@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bchindex.bch_app
 appCountry: 
-released: Dec 28, 2022
+released: 2022-12-28
 updated: 2023-04-11
 version: 6.2.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bchindex.com/
 repository: 
 issue: 

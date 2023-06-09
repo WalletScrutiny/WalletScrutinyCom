@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.kittup
 appCountry: 
-released: Nov 2, 2022
+released: 2022-11-02
 updated: 2022-11-16
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kittup.app
 repository: 
 issue: 

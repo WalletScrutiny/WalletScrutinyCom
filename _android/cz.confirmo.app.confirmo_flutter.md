@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: cz.confirmo.app.confirmo_flutter
 appCountry: 
-released: Aug 12, 2022
+released: 2022-08-12
 updated: 2022-08-12
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://confirmo.net
 repository: 
 issue: 

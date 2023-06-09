@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.metaegg.wallet
 appCountry: 
-released: Sep 4, 2022
+released: 2022-09-04
 updated: 2022-09-11
 version: 0.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://metaegg.io
 repository: 
 issue: 

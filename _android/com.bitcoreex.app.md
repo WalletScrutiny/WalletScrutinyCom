@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bitcoreex.app
 appCountry: 
-released: Sep 27, 2022
+released: 2022-09-27
 updated: 2022-12-20
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

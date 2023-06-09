@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.hyd.bitfrog
 appCountry: 
-released: Aug 31, 2022
+released: 2022-08-31
 updated: 2023-03-17
 version: 2.4.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitfrog.io
 repository: 
 issue: 

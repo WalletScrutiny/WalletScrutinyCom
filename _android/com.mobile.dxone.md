@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mobile.dxone
 appCountry: 
-released: Jul 27, 2022
+released: 2022-07-27
 updated: 2022-09-27
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.dxone.com/
 repository: 
 issue: 

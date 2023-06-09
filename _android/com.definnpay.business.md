@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.definnpay.business
 appCountry: 
-released: Dec 19, 2021
+released: 2021-12-19
 updated: 2022-03-25
 version: 1.2.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.definnpay.com
 repository: 
 issue: 

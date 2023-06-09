@@ -6,11 +6,13 @@ authors:
 users: 5000
 appId: com.europefx.app
 appCountry: 
+released: 
 updated: 2021-09-14
 version: '9.65'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://europefx.com
 repository: 
 issue: 

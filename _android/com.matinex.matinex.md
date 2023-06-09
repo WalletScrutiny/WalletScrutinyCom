@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.matinex.matinex
 appCountry: 
-released: Nov 7, 2021
+released: 2021-11-07
 updated: 2021-11-22
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.matinex.com
 repository: 
 issue: 

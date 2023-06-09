@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.hawex.wallet
 appCountry: 
+released: 
 updated: 2023-05-16
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://hawexdao.com
 repository: 
 issue: 

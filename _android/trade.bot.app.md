@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: trade.bot.app
 appCountry: 
-released: Oct 12, 2022
+released: 2022-10-12
 updated: 2023-06-02
 version: 2023.06.03.01
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bot.trade
 repository: 
 issue: 

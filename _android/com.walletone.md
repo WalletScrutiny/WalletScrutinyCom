@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.walletone
 appCountry: 
-released: Jul 1, 2020
+released: 2020-07-01
 updated: 2020-07-01
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://walletone.io
 repository: 
 issue: 

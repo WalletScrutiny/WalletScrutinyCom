@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: network.bho.wallet
 appCountry: 
-released: Jun 4, 2022
+released: 2022-06-04
 updated: 2023-06-02
 version: 1.0.38
-stars: 4.111111
+stars: 4.1
 ratings: 
 reviews: 5
+size: 
 website: https://3swallet.com
 repository: 
 issue: 

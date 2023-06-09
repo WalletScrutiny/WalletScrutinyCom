@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.iqpartner.iq2
 appCountry: 
+released: 
 updated: 2022-12-19
 version: '5.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

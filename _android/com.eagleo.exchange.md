@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.eagleo.exchange
 appCountry: 
-released: Dec 10, 2021
+released: 2021-12-10
 updated: 2021-12-10
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://eagleoxchange.com/
 repository: 
 issue: 

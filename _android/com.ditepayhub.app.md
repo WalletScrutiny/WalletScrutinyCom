@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.ditepayhub.app
 appCountry: 
-released: Dec 11, 2020
+released: 2020-12-11
 updated: 2020-12-11
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ditepayhub.com.ng
 repository: 
 issue: 

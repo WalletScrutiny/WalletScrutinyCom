@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.truzact.truzact_mobile
 appCountry: 
-released: Feb 13, 2022
+released: 2022-02-13
 updated: 2023-05-31
 version: 4.6.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://truzact.com
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: io.vircap.main
 appCountry: 
+released: 
 updated: 2023-06-02
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://vircap.io
 repository: 
 issue: 

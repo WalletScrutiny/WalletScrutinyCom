@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.danny709.vervet
 appCountry: 
-released: Jun 4, 2022
+released: 2022-06-04
 updated: 2022-06-04
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.vervetsystems.com
 repository: 
 issue: 

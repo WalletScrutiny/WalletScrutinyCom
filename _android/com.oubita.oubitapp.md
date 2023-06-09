@@ -6,11 +6,13 @@ authors:
 users: 50
 appId: com.oubita.oubitapp
 appCountry: 
+released: 
 updated: 2023-05-19
 version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.oubita.com
 repository: 
 issue: 

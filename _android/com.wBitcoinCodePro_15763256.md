@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.wBitcoinCodePro_15763256
 appCountry: 
-released: Jul 18, 2022
+released: 2022-07-18
 updated: 2022-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

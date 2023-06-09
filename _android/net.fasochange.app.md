@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: net.fasochange.app
 appCountry: 
-released: Aug 25, 2021
+released: 2021-08-25
 updated: 2021-09-01
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://fasochange.net
 repository: 
 issue: 

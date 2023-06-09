@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.icecorp.wallet
 appCountry: 
-released: Aug 24, 2022
+released: 2022-08-24
 updated: 2023-03-30
 version: '1.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.icewal.com/
 repository: 
 issue: 

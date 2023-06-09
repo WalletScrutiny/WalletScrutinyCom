@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.swissquote.epb
 appCountry: 
-released: Mar 29, 2019
+released: 2019-03-29
 updated: 2021-10-25
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.swissquote.com/robo-advisory
 repository: 
 issue: 

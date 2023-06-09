@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.shen.aci2
 appCountry: 
-released: Jun 7, 2022
+released: 2022-06-07
 updated: 2022-06-08
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

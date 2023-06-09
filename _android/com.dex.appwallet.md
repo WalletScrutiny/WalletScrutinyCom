@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.dex.appwallet
 appCountry: 
-released: Aug 15, 2022
+released: 2022-08-15
 updated: 2022-08-15
 version: 1.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

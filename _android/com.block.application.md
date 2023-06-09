@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.block.application
 appCountry: 
-released: Feb 7, 2022
+released: 2022-02-07
 updated: 2023-01-13
 version: 2.4.40
 stars: 3.4
 ratings: 
 reviews: 4
+size: 
 website: 
 repository: 
 issue: 

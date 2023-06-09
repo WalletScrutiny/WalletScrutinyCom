@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.titanx_change.www
 appCountry: 
-released: Oct 19, 2022
+released: 2022-10-19
 updated: 2023-02-27
 version: 1.3.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://titan-xchange.com
 repository: 
 issue: 

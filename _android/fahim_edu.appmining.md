@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: fahim_edu.appmining
 appCountry: 
-released: Mar 27, 2021
+released: 2021-03-27
 updated: 2023-05-16
 version: 3.05.16
-stars: 4.71
+stars: 4.7
 ratings: 
 reviews: 65
+size: 
 website: https://toto-share.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.ftxmobile.ftxtr
 appCountry: 
-released: Feb 21, 2022
+released: 2022-02-21
 updated: 2022-11-01
 version: 2.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ftxtr.com
 repository: 
 issue: 

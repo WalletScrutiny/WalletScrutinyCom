@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.cryptotrade_flutter.app
 appCountry: 
-released: Jul 1, 2019
+released: 2019-07-01
 updated: 2019-07-02
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mobterest.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.jeangilles
 appCountry: 
-released: Sep 1, 2022
+released: 2022-09-01
 updated: 2023-04-27
 version: 1.3.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://jgcapitalbitcoin.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bemnex
 appCountry: 
-released: Jan 14, 2022
+released: 2022-01-14
 updated: 2022-04-08
 version: 2.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://Bemnex.com
 repository: 
 issue: 

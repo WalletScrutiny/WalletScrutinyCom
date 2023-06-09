@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.timexapp
 appCountry: 
-released: Jan 27, 2023
+released: 2023-01-27
 updated: 2023-05-26
 version: 1.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://timex.io
 repository: 
 issue: 

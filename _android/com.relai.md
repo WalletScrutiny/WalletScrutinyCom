@@ -6,11 +6,13 @@ authors:
 users: 50000
 appId: com.relai
 appCountry: 
+released: 
 updated: 2023-05-16
 version: 2.6.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://relai.app
 repository: 
 issue: 

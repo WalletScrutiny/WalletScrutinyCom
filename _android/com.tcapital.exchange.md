@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.tcapital.exchange
 appCountry: 
-released: Dec 10, 2020
+released: 2020-12-10
 updated: 2021-03-27
 version: 1.1.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ex.tcapex.com/
 repository: 
 issue: 

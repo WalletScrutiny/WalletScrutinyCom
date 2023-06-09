@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.coinpanion.mobileapp
 appCountry: 
-released: Feb 26, 2021
+released: 2021-02-26
 updated: 2023-03-20
 version: 4.4.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinpanion.com
 repository: 
 issue: 

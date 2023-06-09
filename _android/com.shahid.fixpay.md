@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.shahid.fixpay
 appCountry: 
-released: Oct 5, 2021
+released: 2021-10-05
 updated: 2021-10-05
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ringme.us/Privacy-Policy.html
 repository: 
 issue: 

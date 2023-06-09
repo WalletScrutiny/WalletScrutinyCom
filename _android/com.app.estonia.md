@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.app.estonia
 appCountry: 
-released: Nov 18, 2022
+released: 2022-11-18
 updated: 2022-12-04
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitayglobal.com/
 repository: 
 issue: 

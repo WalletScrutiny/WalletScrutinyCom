@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.circle.invest
 appCountry: 
-released: Mar 13, 2018
+released: 2018-03-13
 updated: 2022-04-28
 version: 1.5.5
-stars: 3.77
+stars: 3.8
 ratings: 
 reviews: 271
+size: 
 website: https://invest.circle.com
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 50
 appId: nz.bitaroo.buy
 appCountry: 
+released: 
 updated: 2023-05-15
 version: 1.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitaroo.nz
 repository: 
 issue: 

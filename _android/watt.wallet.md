@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: watt.wallet
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2022-06-11
 version: 1.28.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://watt.me
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: in.spiegel.arthbit
 appCountry: 
-released: Nov 19, 2021
+released: 2021-11-19
 updated: 2021-11-23
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://arthbit.com/
 repository: 
 issue: 

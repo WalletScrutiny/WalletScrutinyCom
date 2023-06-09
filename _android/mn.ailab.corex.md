@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: mn.ailab.corex
 appCountry: 
-released: Nov 24, 2021
+released: 2021-11-24
 updated: 2023-05-24
 version: 2.0.25
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.corex.mn/
 repository: 
 issue: 

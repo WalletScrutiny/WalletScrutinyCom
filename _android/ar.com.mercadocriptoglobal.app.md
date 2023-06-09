@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: ar.com.mercadocriptoglobal.app
 appCountry: 
-released: Mar 21, 2018
+released: 2018-03-21
 updated: 2018-03-21
 version: 2.4.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.mercadocriptoglobal.com/
 repository: 
 issue: 

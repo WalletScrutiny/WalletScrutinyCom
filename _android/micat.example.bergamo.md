@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: micat.example.bergamo
 appCountry: 
-released: Sep 16, 2022
+released: 2022-09-16
 updated: 2022-11-14
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

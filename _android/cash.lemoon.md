@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: cash.lemoon
 appCountry: 
-released: Nov 20, 2022
+released: 2022-11-20
 updated: 2023-03-21
 version: 1.0.16
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lemoon.cash/
 repository: 
 issue: 

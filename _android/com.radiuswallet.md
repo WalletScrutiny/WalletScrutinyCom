@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.radiuswallet
 appCountry: 
-released: May 6, 2022
+released: 2022-05-06
 updated: 2023-02-03
 version: 1.4.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://radiuswallet.com/
 repository: 
 issue: 

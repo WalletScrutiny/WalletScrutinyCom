@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.dcbits.android
 appCountry: 
-released: Aug 2, 2022
+released: 2022-08-02
 updated: 2023-01-23
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://dcbits.io
 repository: 
 issue: 

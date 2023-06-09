@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: eu.cryptomerchant.pos
 appCountry: 
-released: Mar 4, 2019
+released: 2019-03-04
 updated: 2021-04-28
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cryptomerchant.eu
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.yykj.bitfree.en
 appCountry: 
-released: Jan 26, 2019
+released: 2019-01-26
 updated: 2023-01-31
 version: 4.1.3
 stars: 4
 ratings: 
 reviews: 12
+size: 
 website: 
 repository: 
 issue: 

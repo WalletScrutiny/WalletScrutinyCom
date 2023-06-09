@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.exchange.mathayo.ng
 appCountry: 
-released: Dec 17, 2021
+released: 2021-12-17
 updated: 2021-12-18
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mathayofunds.com/
 repository: 
 issue: 

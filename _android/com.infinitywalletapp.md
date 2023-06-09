@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.infinitywalletapp
 appCountry: 
-released: Apr 13, 2022
+released: 2022-04-13
 updated: 2023-02-23
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ifwallet.com.br/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.plutusspace
 appCountry: 
-released: Jan 22, 2022
+released: 2022-01-22
 updated: 2022-01-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://plutus.space
 repository: 
 issue: 

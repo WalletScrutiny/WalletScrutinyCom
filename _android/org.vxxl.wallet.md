@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: org.vxxl.wallet
 appCountry: 
-released: Sep 26, 2022
+released: 2022-09-26
 updated: 2023-03-02
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

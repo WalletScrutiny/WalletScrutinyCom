@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: dnar.wallet.app
 appCountry: 
-released: Nov 24, 2019
+released: 2019-11-24
 updated: 2022-06-23
 version: '4.0'
-stars: 2.142857
+stars: 2.1
 ratings: 
 reviews: 11
+size: 
 website: https://dnar.io
 repository: 
 issue: 

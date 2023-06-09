@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.bilian.contract.joybit
 appCountry: 
-released: Jul 4, 2022
+released: 2022-07-04
 updated: 2022-07-08
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.joybit.io/#/
 repository: 
 issue: 

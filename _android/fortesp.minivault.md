@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: fortesp.minivault
 appCountry: 
-released: Oct 18, 2020
+released: 2020-10-18
 updated: 2020-11-25
 version: 1.3.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.app.imanifamilycapitallimited
 appCountry: 
-released: Jun 4, 2021
+released: 2021-06-04
 updated: 2021-11-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.ifclbusinesscryptoapp.com
 repository: 
 issue: 

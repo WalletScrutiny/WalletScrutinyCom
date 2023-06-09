@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.hashvest.hash
 appCountry: 
-released: Jan 9, 2023
+released: 2023-01-09
 updated: 2023-03-11
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.gethashapp.com/
 repository: 
 issue: 

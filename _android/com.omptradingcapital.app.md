@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.omptradingcapital.app
 appCountry: 
-released: Dec 12, 2020
+released: 2020-12-12
 updated: 2020-12-12
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://omptrading.capital
 repository: 
 issue: 

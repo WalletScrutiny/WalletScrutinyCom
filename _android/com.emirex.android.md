@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.emirex.android
 appCountry: 
-released: Aug 8, 2022
+released: 2022-08-08
 updated: 2022-08-08
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://emirex.com/
 repository: 
 issue: 

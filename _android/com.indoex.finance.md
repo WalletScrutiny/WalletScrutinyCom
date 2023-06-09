@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.indoex.finance
 appCountry: 
-released: Aug 4, 2022
+released: 2022-08-04
 updated: 2023-05-22
 version: 1.0.34
 stars: 4.1
 ratings: 
 reviews: 8
+size: 
 website: https://international.indoex.io
 repository: 
 issue: 

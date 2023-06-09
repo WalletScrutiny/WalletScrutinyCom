@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: doshi.app
 appCountry: 
-released: Aug 22, 2022
+released: 2022-08-22
 updated: 2023-05-08
 version: 1.0.130
-stars: 2.6666667
+stars: 2.7
 ratings: 
 reviews: 2
+size: 
 website: https://www.doshi.app
 repository: 
 issue: 

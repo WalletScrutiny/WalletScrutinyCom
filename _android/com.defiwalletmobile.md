@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.defiwalletmobile
 appCountry: 
-released: Dec 13, 2021
+released: 2021-12-13
 updated: 2023-04-28
 version: 1.19.1
-stars: 4.844961
+stars: 4.8
 ratings: 
 reviews: 143
+size: 
 website: https://slavi.io/
 repository: 
 issue: 

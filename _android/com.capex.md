@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.capex
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2022-05-25
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://capex.mn/
 repository: 
 issue: 

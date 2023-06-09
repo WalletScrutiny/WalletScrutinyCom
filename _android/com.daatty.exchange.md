@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.daatty.exchange
 appCountry: 
-released: Oct 25, 2020
+released: 2020-10-25
 updated: 2020-10-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://daattyexchange.com/
 repository: 
 issue: 

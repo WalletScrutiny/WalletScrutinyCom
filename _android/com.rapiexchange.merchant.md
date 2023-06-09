@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.rapiexchange.merchant
 appCountry: 
-released: Aug 25, 2022
+released: 2022-08-25
 updated: 2022-08-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.rapixchange.com/
 repository: 
 issue: 

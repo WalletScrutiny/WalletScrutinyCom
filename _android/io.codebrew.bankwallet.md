@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: io.codebrew.bankwallet
 appCountry: 
-released: Aug 30, 2022
+released: 2022-08-30
 updated: 2022-08-30
 version: 0.26.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

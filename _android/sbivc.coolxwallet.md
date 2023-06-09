@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: sbivc.coolxwallet
 appCountry: 
-released: Jan 31, 2019
+released: 2019-01-31
 updated: 2022-03-31
 version: 1.28.100
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.sbicxw.com/
 repository: 
 issue: 

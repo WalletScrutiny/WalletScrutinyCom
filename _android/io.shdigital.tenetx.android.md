@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.shdigital.tenetx.android
 appCountry: 
-released: Jul 9, 2022
+released: 2022-07-09
 updated: 2022-12-28
 version: 1.0.19
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tenetx.io
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.markka.markkawallet
 appCountry: 
-released: Feb 6, 2022
+released: 2022-02-06
 updated: 2022-07-08
 version: 1.0.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://markka.com
 repository: 
 issue: 

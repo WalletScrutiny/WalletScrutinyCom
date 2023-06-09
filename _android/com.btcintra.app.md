@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.btcintra.app
 appCountry: 
-released: Nov 3, 2021
+released: 2021-11-03
 updated: 2021-12-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://btcintratrade.com/
 repository: 
 issue: 

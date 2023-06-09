@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: app.metavest.mobile
 appCountry: 
-released: Jul 6, 2022
+released: 2022-07-06
 updated: 2023-05-23
 version: 1.0.16
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://metavest.app/
 repository: 
 issue: 

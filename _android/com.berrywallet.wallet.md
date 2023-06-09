@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.berrywallet.wallet
 appCountry: 
-released: Nov 10, 2022
+released: 2022-11-10
 updated: 2022-12-12
 version: '1.8'
-stars: 3.875
+stars: 3.9
 ratings: 
 reviews: 7
+size: 
 website: https://wallet.berrychain.io
 repository: 
 issue: 

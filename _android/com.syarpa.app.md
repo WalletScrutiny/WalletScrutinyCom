@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.syarpa.app
 appCountry: 
-released: Sep 30, 2022
+released: 2022-09-30
 updated: 2022-10-25
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://syarpa.com/
 repository: 
 issue: 

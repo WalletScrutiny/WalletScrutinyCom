@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.metarigo.webview
 appCountry: 
-released: Aug 23, 2022
+released: 2022-08-23
 updated: 2023-03-06
 version: '13.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://metarigo.io/
 repository: 
 issue: 

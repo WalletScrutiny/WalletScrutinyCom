@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.swappy.forint
 appCountry: 
-released: May 16, 2022
+released: 2022-05-16
 updated: 2023-04-12
 version: 0.0.20
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.swappy.ws
 repository: 
 issue: 

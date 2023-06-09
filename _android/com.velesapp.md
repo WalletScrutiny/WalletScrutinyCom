@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.velesapp
 appCountry: 
-released: May 30, 2022
+released: 2022-05-30
 updated: 2022-05-30
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://veles.finance/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.borabit.mobileapp
 appCountry: 
-released: Jun 17, 2020
+released: 2020-06-17
 updated: 2022-10-19
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

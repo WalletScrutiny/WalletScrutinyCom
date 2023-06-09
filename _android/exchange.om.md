@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: exchange.om
 appCountry: 
-released: Oct 23, 2022
+released: 2022-10-23
 updated: 2022-10-23
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://om.exchange/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.sinest.adappterwallet
 appCountry: 
-released: Jun 21, 2022
+released: 2022-06-21
 updated: 2022-11-21
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://adappterwallet.io
 repository: 
 issue: 

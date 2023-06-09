@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mundocripto.app
 appCountry: 
-released: May 11, 2022
+released: 2022-05-11
 updated: 2022-07-13
 version: 1.0.19
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://abonocripto.com.ar
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: cryptoapis.mobile
 appCountry: 
-released: Nov 11, 2021
+released: 2021-11-11
 updated: 2022-02-24
 version: 1.1.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptoapis.io
 repository: 
 issue: 

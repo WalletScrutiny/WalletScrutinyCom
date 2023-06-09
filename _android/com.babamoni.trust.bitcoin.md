@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.babamoni.trust.bitcoin
 appCountry: 
-released: Jun 22, 2020
+released: 2020-06-22
 updated: 2020-06-22
 version: '2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://baba-moni.co
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.app.cryptobiz
 appCountry: 
-released: Oct 26, 2021
+released: 2021-10-26
 updated: 2022-12-19
 version: '42.5'
-stars: 4.79
+stars: 4.8
 ratings: 
 reviews: 89
+size: 
 website: https://cryptobiz.exchange/
 repository: 
 issue: 

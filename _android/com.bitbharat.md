@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bitbharat
 appCountry: 
-released: Jan 4, 2023
+released: 2023-01-04
 updated: 2023-01-18
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitbharat.world
 repository: 
 issue: 

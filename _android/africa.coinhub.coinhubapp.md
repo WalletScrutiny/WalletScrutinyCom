@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: africa.coinhub.coinhubapp
 appCountry: 
-released: Nov 21, 2021
+released: 2021-11-21
 updated: 2022-01-25
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinhub.africa
 repository: 
 issue: 

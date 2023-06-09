@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.coinbarter
 appCountry: 
-released: Jun 30, 2022
+released: 2022-06-30
 updated: 2022-06-30
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

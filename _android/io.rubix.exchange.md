@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.rubix.exchange
 appCountry: 
-released: Dec 22, 2021
+released: 2021-12-22
 updated: 2023-02-14
 version: 1.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://rubix.io
 repository: 
 issue: 

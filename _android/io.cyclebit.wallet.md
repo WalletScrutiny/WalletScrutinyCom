@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.cyclebit.wallet
 appCountry: 
-released: Sep 30, 2020
+released: 2020-09-30
 updated: 2021-02-08
 version: 2.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://cyclebit.io
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.econobit.app
 appCountry: 
-released: Jan 29, 2020
+released: 2020-01-29
 updated: 2021-09-13
 version: 0.1.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

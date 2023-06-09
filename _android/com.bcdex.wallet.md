@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bcdex.wallet
 appCountry: 
-released: May 17, 2018
+released: 2018-05-17
 updated: 2018-05-29
 version: 1.0.0.93
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://bcdxchange.com/
 repository: 
 issue: 

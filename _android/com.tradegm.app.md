@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.tradegm.app
 appCountry: 
+released: 
 updated: 2020-12-18
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tradegm.eu/
 repository: 
 issue: 

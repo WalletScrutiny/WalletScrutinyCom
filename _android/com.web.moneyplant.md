@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.web.moneyplant
 appCountry: 
-released: Apr 26, 2022
+released: 2022-04-26
 updated: 2022-06-14
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

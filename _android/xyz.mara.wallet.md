@@ -6,12 +6,13 @@ authors:
 users: 1000000
 appId: xyz.mara.wallet
 appCountry: 
-released: May 24, 2022
+released: 2022-05-24
 updated: 2023-05-22
 version: 1.3.2
-stars: 3.84
+stars: 3.8
 ratings: 
 reviews: 139
+size: 
 website: https://mara.xyz
 repository: 
 issue: 

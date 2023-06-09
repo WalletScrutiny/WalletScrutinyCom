@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: webtrader.crystalballmarkets.com
 appCountry: 
-released: May 25, 2022
+released: 2022-05-25
 updated: 2022-12-15
 version: 4.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://crystalballmarkets.com/
 repository: 
 issue: 

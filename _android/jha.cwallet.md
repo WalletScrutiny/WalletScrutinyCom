@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: jha.cwallet
 appCountry: 
-released: Jan 3, 2022
+released: 2022-01-03
 updated: 2022-01-03
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

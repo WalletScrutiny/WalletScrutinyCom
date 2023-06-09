@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.fybsg.fybmobile
 appCountry: 
-released: Jul 5, 2018
+released: 2018-07-05
 updated: 2018-11-19
 version: 0.5 BETA
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.fybsg.com
 repository: 
 issue: 

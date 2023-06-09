@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.lyotrade
 appCountry: 
-released: Jun 30, 2022
+released: 2022-06-30
 updated: 2023-05-22
 version: 2.7.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.lyotrade.com
 repository: 
 issue: 

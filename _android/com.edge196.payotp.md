@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.edge196.payotp
 appCountry: 
-released: Jul 17, 2019
+released: 2019-07-17
 updated: 2019-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://payotp.com
 repository: 
 issue: 

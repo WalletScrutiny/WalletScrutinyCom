@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.modu.jgzsj
 appCountry: 
-released: Sep 14, 2022
+released: 2022-09-14
 updated: 2023-06-01
 version: 4.4.0-RELEASE
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.jgz555.com
 repository: 
 issue: 

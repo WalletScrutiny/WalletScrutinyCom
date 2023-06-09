@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: quantit.saiv.rabit
 appCountry: 
+released: 
 updated: 2023-02-13
 version: 1.2.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://quantfolio.io
 repository: 
 issue: 

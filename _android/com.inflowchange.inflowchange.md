@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.inflowchange.inflowchange
 appCountry: 
-released: Feb 17, 2023
+released: 2023-02-17
 updated: 2023-02-22
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://inflowchange.com
 repository: 
 issue: 

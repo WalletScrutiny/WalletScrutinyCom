@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitkoex
 appCountry: 
-released: Sep 30, 2018
+released: 2018-09-30
 updated: 2021-03-01
 version: '2.19'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitkoex.com/
 repository: 
 issue: 

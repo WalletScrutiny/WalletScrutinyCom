@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.aelince.app
 appCountry: 
-released: Oct 25, 2022
+released: 2022-10-25
 updated: 2022-11-21
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://aelince.com
 repository: 
 issue: 

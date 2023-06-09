@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.BTC.BtcPlannet
 appCountry: 
-released: Jun 20, 2022
+released: 2022-06-20
 updated: 2022-06-20
 version: '5.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://btcplannet.net/
 repository: 
 issue: 

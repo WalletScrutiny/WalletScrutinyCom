@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.plutopos
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-06-08
 version: 1.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.spartanhill.com/pluto-crypto-pos/
 repository: 
 issue: 

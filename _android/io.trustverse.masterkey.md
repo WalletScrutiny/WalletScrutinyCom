@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: io.trustverse.masterkey
 appCountry: 
-released: Feb 3, 2021
+released: 2021-02-03
 updated: 2022-11-23
 version: 0.2.0G
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.the-masterkey.com
 repository: 
 issue: 

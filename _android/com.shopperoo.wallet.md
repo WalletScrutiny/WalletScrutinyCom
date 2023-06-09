@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.shopperoo.wallet
 appCountry: 
-released: Aug 7, 2022
+released: 2022-08-07
 updated: 2022-08-08
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://shopperoo.com
 repository: 
 issue: 

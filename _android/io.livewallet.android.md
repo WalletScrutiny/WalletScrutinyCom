@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: io.livewallet.android
 appCountry: 
-released: Mar 4, 2023
+released: 2023-03-04
 updated: 2023-04-09
 version: 1.5.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://livewallet.io
 repository: 
 issue: 

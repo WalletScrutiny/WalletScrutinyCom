@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.llc.bitcastle
 appCountry: 
-released: Jul 29, 2022
+released: 2022-07-29
 updated: 2023-05-31
 version: 1.6.5
-stars: 3.1333334
+stars: 3.1
 ratings: 
 reviews: 10
+size: 
 website: https://bitcastle.io/
 repository: 
 issue: 

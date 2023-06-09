@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.fastewallet.bankwallet
 appCountry: 
-released: Aug 31, 2022
+released: 2022-08-31
 updated: 2023-01-18
 version: 0.26.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://crypto.fastewallet.com/
 repository: 
 issue: 

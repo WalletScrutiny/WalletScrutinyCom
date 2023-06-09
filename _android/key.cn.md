@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: key.cn
 appCountry: 
-released: Aug 19, 2021
+released: 2021-08-19
 updated: 2021-11-23
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

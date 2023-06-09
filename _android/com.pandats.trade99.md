@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.pandats.trade99
 appCountry: 
-released: Jul 2, 2019
+released: 2019-07-02
 updated: 2020-10-01
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.trade99.com
 repository: 
 issue: 

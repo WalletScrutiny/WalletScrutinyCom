@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitcoinblack
 appCountry: 
-released: Sep 21, 2022
+released: 2022-09-21
 updated: 2023-02-28
 version: '1.7'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitcoinblackcreditcard.com
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 10000
 appId: co.nearpay.android
 appCountry: 
+released: 
 updated: 2023-01-03
 version: 1.44.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nearpay.co/
 repository: 
 issue: 

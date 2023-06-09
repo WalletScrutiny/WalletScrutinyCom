@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.dodiexchange
 appCountry: 
-released: Jan 21, 2022
+released: 2022-01-21
 updated: 2022-01-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

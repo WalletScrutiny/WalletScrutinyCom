@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.zedpay.app.android
 appCountry: 
-released: Oct 25, 2022
+released: 2022-10-25
 updated: 2023-05-24
 version: 1.4.4-production
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://zed-pay.com
 repository: 
 issue: 

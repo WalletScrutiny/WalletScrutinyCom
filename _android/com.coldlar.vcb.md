@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.coldlar.vcb
 appCountry: 
-released: Apr 5, 2021
+released: 2021-04-05
 updated: 2021-09-22
 version: 2.3.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.vcb.com/
 repository: 
 issue: 

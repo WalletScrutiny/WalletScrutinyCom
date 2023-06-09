@@ -6,11 +6,13 @@ authors:
 users: 5000
 appId: com.kyrrex
 appCountry: 
+released: 
 updated: 2023-05-10
 version: 4.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kyrrex.com
 repository: 
 issue: 

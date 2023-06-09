@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.growspace.com
 appCountry: 
-released: Sep 23, 2022
+released: 2022-09-23
 updated: 2022-12-21
 version: 1.0.19
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://growspace.ai
 repository: 
 issue: 

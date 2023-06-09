@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.coinzium.app
 appCountry: 
-released: Nov 19, 2021
+released: 2021-11-19
 updated: 2021-11-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

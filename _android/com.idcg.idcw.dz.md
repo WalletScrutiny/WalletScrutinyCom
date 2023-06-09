@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.idcg.idcw.dz
 appCountry: 
-released: Mar 25, 2019
+released: 2019-03-25
 updated: 2023-06-01
 version: 3.2.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.proof.la/
 repository: 
 issue: 

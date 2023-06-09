@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: skyefly.net
 appCountry: 
-released: Nov 11, 2020
+released: 2020-11-11
 updated: 2020-11-11
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://skyefly.net
 repository: 
 issue: 

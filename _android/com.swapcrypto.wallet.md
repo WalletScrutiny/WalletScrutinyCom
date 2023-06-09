@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.swapcrypto.wallet
 appCountry: 
-released: Dec 6, 2021
+released: 2021-12-06
 updated: 2021-12-06
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://swapcrypto.ca/
 repository: 
 issue: 

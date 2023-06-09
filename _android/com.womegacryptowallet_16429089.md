@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.womegacryptowallet_16429089
 appCountry: 
-released: Dec 25, 2022
+released: 2022-12-25
 updated: 2022-12-25
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://findhereall.com
 repository: 
 issue: 

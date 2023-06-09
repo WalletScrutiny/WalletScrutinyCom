@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.exchange.Ciexv2
 appCountry: 
-released: Jul 20, 2022
+released: 2022-07-20
 updated: 2022-07-20
 version: 5.4.0_push_v2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://centurioninvest.com/
 repository: 
 issue: 

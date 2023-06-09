@@ -6,11 +6,13 @@ authors:
 users: 10000
 appId: io.sparkbase.app
 appCountry: 
+released: 
 updated: 2023-03-31
 version: 3.8.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.sparkbase.io
 repository: 
 issue: 

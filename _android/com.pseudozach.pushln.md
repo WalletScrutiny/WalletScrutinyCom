@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.pseudozach.pushln
 appCountry: 
-released: Feb 8, 2020
+released: 2020-02-08
 updated: 2020-02-09
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kriptode.com
 repository: 
 issue: 

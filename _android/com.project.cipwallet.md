@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.project.cipwallet
 appCountry: 
-released: Sep 20, 2021
+released: 2021-09-20
 updated: 2021-09-20
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

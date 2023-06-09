@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.fmdc.webview
 appCountry: 
-released: Oct 28, 2022
+released: 2022-10-28
 updated: 2022-11-08
 version: 1.0.build4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

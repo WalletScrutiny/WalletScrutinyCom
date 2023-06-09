@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.exchangeworld.app
 appCountry: 
-released: Aug 2, 2022
+released: 2022-08-02
 updated: 2022-12-01
 version: 1.1.24
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.worldexchange.life
 repository: 
 issue: 

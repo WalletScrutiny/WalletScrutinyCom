@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.yesapp.mw
 appCountry: 
-released: Oct 11, 2022
+released: 2022-10-11
 updated: 2023-03-05
 version: 11.3.10
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

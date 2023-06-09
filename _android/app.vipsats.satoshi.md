@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: app.vipsats.satoshi
 appCountry: 
-released: Nov 6, 2022
+released: 2022-11-06
 updated: 2023-04-12
 version: '1.1'
-stars: 4.1666665
+stars: 4.2
 ratings: 
 reviews: 2
+size: 
 website: https://vipsats.app
 repository: 
 issue: 

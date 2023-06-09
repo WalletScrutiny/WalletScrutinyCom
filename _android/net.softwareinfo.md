@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: net.softwareinfo
 appCountry: 
-released: Nov 9, 2020
+released: 2020-11-09
 updated: 2020-11-16
 version: '1.2'
-stars: 2.8493152
+stars: 2.8
 ratings: 
 reviews: 32
+size: 
 website: https://softwareinfo.net
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: me.minichange.app
 appCountry: 
-released: Dec 26, 2021
+released: 2021-12-26
 updated: 2022-01-13
 version: '2.8'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://minichange.me/
 repository: 
 issue: 

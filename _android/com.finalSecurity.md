@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.finalSecurity
 appCountry: 
-released: Apr 17, 2020
+released: 2020-04-17
 updated: 2020-12-16
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://final-security.com
 repository: 
 issue: 

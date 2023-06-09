@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.omenda.binary
 appCountry: 
-released: May 28, 2017
+released: 2017-05-28
 updated: 2017-05-28
 version: 3.0.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://omenda.com
 repository: 
 issue: 

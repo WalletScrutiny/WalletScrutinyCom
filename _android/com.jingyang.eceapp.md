@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.jingyang.eceapp
 appCountry: 
+released: 
 updated: 2021-07-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

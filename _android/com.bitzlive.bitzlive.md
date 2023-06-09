@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bitzlive.bitzlive
 appCountry: 
-released: Aug 12, 2019
+released: 2019-08-12
 updated: 2019-08-13
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitzlive.com
 repository: 
 issue: 

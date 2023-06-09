@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitcoin.m.bitcoinera.official
 appCountry: 
-released: Sep 15, 2022
+released: 2022-09-15
 updated: 2022-09-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

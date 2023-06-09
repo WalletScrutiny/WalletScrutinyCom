@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: net.mobillpos.app
 appCountry: 
-released: Oct 4, 2019
+released: 2019-10-04
 updated: 2020-12-18
 version: Version 2.1.40
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.okongpos.com
 repository: 
 issue: 

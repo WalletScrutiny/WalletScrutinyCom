@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.mine.btcnetwork
 appCountry: 
-released: Apr 29, 2022
+released: 2022-04-29
 updated: 2022-08-05
 version: '1.2'
-stars: 3.6666667
+stars: 3.7
 ratings: 
 reviews: 3
+size: 
 website: https://fffpassbundless.blogspot.com/
 repository: 
 issue: 

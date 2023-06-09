@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.vbot.vinance
 appCountry: 
-released: Feb 3, 2022
+released: 2022-02-03
 updated: 2022-02-04
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.vbotadvisor.com
 repository: 
 issue: 

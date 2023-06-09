@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.sylth.globals
 appCountry: 
-released: Nov 22, 2022
+released: 2022-11-22
 updated: 2022-11-22
 version: 1.1.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

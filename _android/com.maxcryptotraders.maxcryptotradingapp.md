@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.maxcryptotraders.maxcryptotradingapp
 appCountry: 
-released: Jun 6, 2022
+released: 2022-06-06
 updated: 2022-06-06
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://maxcryptotraders.com/
 repository: 
 issue: 

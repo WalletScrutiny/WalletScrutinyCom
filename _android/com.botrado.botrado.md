@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.botrado.botrado
 appCountry: 
-released: May 1, 2021
+released: 2021-05-01
 updated: 2021-05-01
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://botrado.com
 repository: 
 issue: 

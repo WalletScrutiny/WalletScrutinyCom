@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: org.satochip.satochip2fa.satochip2fa
 appCountry: 
-released: Mar 17, 2021
+released: 2021-03-17
 updated: 2023-03-02
 version: '0.24'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://satochip.io
 repository: 
 issue: 

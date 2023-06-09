@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitchant.app
 appCountry: 
-released: Mar 17, 2021
+released: 2021-03-17
 updated: 2022-11-07
 version: 1.3.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitchant.co/
 repository: 
 issue: 

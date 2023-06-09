@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: com.bitprivetech.bpve
 appCountry: 
+released: 
 updated: 2021-07-21
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

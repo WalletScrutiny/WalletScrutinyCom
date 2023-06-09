@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: chat.sphinx
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2023-05-19
 version: 1.0.0-alpha94
-stars: 3.7272727
+stars: 3.7
 ratings: 
 reviews: 8
+size: 
 website: https://sphinx.chat
 repository: 
 issue: 

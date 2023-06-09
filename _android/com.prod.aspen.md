@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.prod.aspen
 appCountry: 
-released: Jun 28, 2022
+released: 2022-06-28
 updated: 2023-05-19
 version: 2.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.aspendigital.co/
 repository: 
 issue: 

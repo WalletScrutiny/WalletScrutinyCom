@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.coinsate.droidapp
 appCountry: 
-released: May 13, 2022
+released: 2022-05-13
 updated: 2023-05-08
 version: 1.4.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://trade.coinsate.com/
 repository: 
 issue: 

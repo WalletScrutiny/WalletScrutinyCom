@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: mrweb.mobile.mrweb
 appCountry: 
-released: Feb 14, 2022
+released: 2022-02-14
 updated: 2023-04-29
 version: 1.1.1
-stars: 4.6666665
+stars: 4.7
 ratings: 
 reviews: 12
+size: 
 website: https://mrweb.app
 repository: 
 issue: 

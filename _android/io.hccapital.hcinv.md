@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: io.hccapital.hcinv
 appCountry: 
-released: May 28, 2021
+released: 2021-05-28
 updated: 2021-06-03
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

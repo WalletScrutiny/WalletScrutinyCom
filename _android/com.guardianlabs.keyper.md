@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.guardianlabs.keyper
 appCountry: 
-released: Aug 6, 2022
+released: 2022-08-06
 updated: 2023-06-01
 version: 2.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://myguardian.network/
 repository: 
 issue: 

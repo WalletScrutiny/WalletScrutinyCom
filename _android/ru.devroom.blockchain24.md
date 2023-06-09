@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: ru.devroom.blockchain24
 appCountry: 
-released: Mar 16, 2021
+released: 2021-03-16
 updated: 2022-12-09
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://blockchain24.pro
 repository: 
 issue: 

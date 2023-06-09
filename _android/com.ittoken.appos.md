@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.ittoken.appos
 appCountry: 
-released: May 10, 2022
+released: 2022-05-10
 updated: 2022-05-10
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

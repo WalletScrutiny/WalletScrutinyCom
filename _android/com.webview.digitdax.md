@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.webview.digitdax
 appCountry: 
-released: Aug 13, 2020
+released: 2020-08-13
 updated: 2020-08-13
 version: 10.00.02
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

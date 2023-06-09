@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.itarder.myapp
 appCountry: 
-released: May 27, 2022
+released: 2022-05-27
 updated: 2022-11-14
 version: 1.0.26
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://itrader.cc/
 repository: 
 issue: 

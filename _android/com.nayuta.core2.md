@@ -6,11 +6,13 @@ authors:
 users: 500
 appId: com.nayuta.core2
 appCountry: 
+released: 
 updated: 2023-05-12
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://nayuta.co/nayuta-wallet-2022/
 repository: 
 issue: 

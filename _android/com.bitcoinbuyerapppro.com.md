@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitcoinbuyerapppro.com
 appCountry: 
-released: Oct 13, 2022
+released: 2022-10-13
 updated: 2022-10-13
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

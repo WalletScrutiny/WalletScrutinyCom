@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.hifasthq.hifast
 appCountry: 
-released: Oct 15, 2022
+released: 2022-10-15
 updated: 2023-05-02
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hifast.io
 repository: 
 issue: 

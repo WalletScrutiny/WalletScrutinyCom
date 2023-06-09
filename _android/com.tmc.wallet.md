@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.tmc.wallet
 appCountry: 
-released: Nov 4, 2022
+released: 2022-11-04
 updated: 2023-05-04
 version: 1.2.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://themembersclub.vip
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.tbws
 appCountry: 
-released: May 27, 2021
+released: 2021-05-27
 updated: 2022-06-19
 version: 1.24.0
-stars: 3.7468355
+stars: 3.7
 ratings: 
 reviews: 49
+size: 
 website: https://theblackwallstreet.com
 repository: 
 issue: 

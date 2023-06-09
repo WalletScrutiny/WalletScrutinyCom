@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.coinstick.myapp
 appCountry: 
-released: Jan 23, 2023
+released: 2023-01-23
 updated: 2023-06-01
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinstick.co
 repository: 
 issue: 

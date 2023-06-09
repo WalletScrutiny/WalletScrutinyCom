@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: io.iqtrader
 appCountry: 
-released: Sep 29, 2022
+released: 2022-09-29
 updated: 2022-10-07
 version: 2.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://iqtrader.io
 repository: 
 issue: 

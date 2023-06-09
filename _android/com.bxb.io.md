@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.bxb.io
 appCountry: 
-released: Sep 9, 2021
+released: 2021-09-09
 updated: 2022-03-11
 version: 1.2.19
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bxb.io/
 repository: 
 issue: 

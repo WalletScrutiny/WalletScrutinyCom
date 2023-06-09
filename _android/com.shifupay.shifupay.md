@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.shifupay.shifupay
 appCountry: 
-released: Aug 24, 2022
+released: 2022-08-24
 updated: 2022-10-15
 version: 0.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://shifupay.net
 repository: 
 issue: 

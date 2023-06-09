@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.eubcompany.com
 appCountry: 
-released: Dec 4, 2021
+released: 2021-12-04
 updated: 2021-12-04
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://eubcompany.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mns.gdxwallet
 appCountry: 
-released: Jan 9, 2022
+released: 2022-01-09
 updated: 2022-05-04
 version: '1.86'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://gdxwallet.com/
 repository: 
 issue: 

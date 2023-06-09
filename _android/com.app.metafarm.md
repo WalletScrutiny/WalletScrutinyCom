@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.app.metafarm
 appCountry: 
-released: Sep 15, 2022
+released: 2022-09-15
 updated: 2022-11-24
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://metafarmcrypto.com
 repository: 
 issue: 

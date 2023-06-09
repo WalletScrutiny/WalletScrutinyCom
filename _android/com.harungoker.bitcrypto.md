@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.harungoker.bitcrypto
 appCountry: 
-released: Jun 27, 2022
+released: 2022-06-27
 updated: 2022-06-27
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://harungoker.com
 repository: 
 issue: 

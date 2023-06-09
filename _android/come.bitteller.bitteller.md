@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: come.bitteller.bitteller
 appCountry: 
-released: Dec 30, 2021
+released: 2021-12-30
 updated: 2021-12-31
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bit-teller.com
 repository: 
 issue: 

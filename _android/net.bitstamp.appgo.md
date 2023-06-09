@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: net.bitstamp.appgo
 appCountry: 
+released: 
 updated: 2023-03-17
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitstamp.net
 repository: 
 issue: 

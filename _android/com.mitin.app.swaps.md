@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.mitin.app.swaps
 appCountry: 
-released: Jan 26, 2022
+released: 2022-01-26
 updated: 2022-09-29
 version: 1.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

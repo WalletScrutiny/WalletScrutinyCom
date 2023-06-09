@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.swapuz.mobile
 appCountry: 
-released: Mar 19, 2022
+released: 2022-03-19
 updated: 2022-04-06
 version: 2022.04.06
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://swapuz.com
 repository: 
 issue: 

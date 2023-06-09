@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.my2can.cyclebit
 appCountry: 
-released: Jan 19, 2022
+released: 2022-01-19
 updated: 2022-05-30
 version: 4.0.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cyclebit.com
 repository: 
 issue: 

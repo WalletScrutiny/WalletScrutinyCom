@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.books.x7exchange
 appCountry: 
-released: Jan 2, 2022
+released: 2022-01-02
 updated: 2023-01-12
 version: '2.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://x7exchange.com/
 repository: 
 issue: 

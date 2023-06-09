@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.zybitech.juancash
 appCountry: 
-released: Jul 22, 2019
+released: 2019-07-22
 updated: 2023-03-28
 version: V2.0.0
-stars: 4.2222223
+stars: 4.2
 ratings: 
 reviews: 4
+size: 
 website: https://www.juancash.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.prosumer.driver
 appCountry: 
-released: Dec 29, 2020
+released: 2020-12-29
 updated: 2021-01-14
 version: 1.0.15
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

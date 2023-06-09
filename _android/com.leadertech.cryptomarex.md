@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.leadertech.cryptomarex
 appCountry: 
-released: Jan 12, 2021
+released: 2021-01-12
 updated: 2021-01-12
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

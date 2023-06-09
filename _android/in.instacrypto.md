@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: in.instacrypto
 appCountry: 
+released: 
 updated: 2022-08-16
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://instacrypto.in
 repository: 
 issue: 

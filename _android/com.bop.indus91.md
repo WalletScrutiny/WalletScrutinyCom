@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bop.indus91
 appCountry: 
-released: Oct 27, 2021
+released: 2021-10-27
 updated: 2021-11-18
 version: 0.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://indus91.com/
 repository: 
 issue: 

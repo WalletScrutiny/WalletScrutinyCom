@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.earnbit.app.exchange
 appCountry: 
-released: Oct 30, 2022
+released: 2022-10-30
 updated: 2022-12-28
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://earnbit.com/
 repository: 
 issue: 

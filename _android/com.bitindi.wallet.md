@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bitindi.wallet
 appCountry: 
-released: Sep 28, 2022
+released: 2022-09-28
 updated: 2022-09-29
 version: 0.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitindi.com
 repository: 
 issue: 

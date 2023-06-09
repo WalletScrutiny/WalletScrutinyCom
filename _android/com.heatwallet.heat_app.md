@@ -6,11 +6,13 @@ authors:
 users: 5
 appId: com.heatwallet.heat_app
 appCountry: 
+released: 
 updated: 2023-01-16
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

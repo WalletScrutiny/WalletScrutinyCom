@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: comp.kippoiiiuyy.kuipf
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2021-11-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

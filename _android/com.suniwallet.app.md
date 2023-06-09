@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.suniwallet.app
 appCountry: 
-released: Mar 6, 2023
+released: 2023-03-06
 updated: 2023-03-15
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://suniwallet.com
 repository: 
 issue: 

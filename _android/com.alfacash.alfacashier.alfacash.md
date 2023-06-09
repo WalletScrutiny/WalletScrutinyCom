@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.alfacash.alfacashier.alfacash
 appCountry: 
-released: Dec 23, 2022
+released: 2022-12-23
 updated: 2023-04-18
 version: 1.11.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wallet.alfa.cash/
 repository: 
 issue: 

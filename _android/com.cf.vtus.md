@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.cf.vtus
 appCountry: 
-released: Apr 26, 2022
+released: 2022-04-26
 updated: 2023-03-08
 version: 1.0.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

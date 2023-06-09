@@ -6,11 +6,13 @@ authors:
 users: 5000
 appId: io.kasta.app
 appCountry: 
+released: 
 updated: 2023-05-29
 version: 1.27.56-prod-0e834ed
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.kasta.io/
 repository: 
 issue: 

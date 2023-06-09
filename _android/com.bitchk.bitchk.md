@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.bitchk.bitchk
 appCountry: 
-released: Nov 17, 2017
+released: 2017-11-17
 updated: 2017-11-29
 version: 3.8.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.bitchk.com
 repository: 
 issue: 

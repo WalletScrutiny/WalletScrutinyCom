@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bigines.crypto
 appCountry: 
-released: Feb 14, 2022
+released: 2022-02-14
 updated: 2023-01-12
 version: 2.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bigines.com
 repository: 
 issue: 

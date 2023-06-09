@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: io.leveragedapp.leveraged
 appCountry: 
-released: Oct 12, 2019
+released: 2019-10-12
 updated: 2019-11-05
 version: 1.0.6
-stars: 4.3333335
+stars: 4.3
 ratings: 
 reviews: 8
+size: 
 website: http://leveragedapp.io
 repository: 
 issue: 

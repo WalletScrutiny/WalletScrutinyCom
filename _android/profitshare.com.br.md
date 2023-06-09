@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: profitshare.com.br
 appCountry: 
-released: Sep 29, 2021
+released: 2021-09-29
 updated: 2022-04-23
 version: 1.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://profitshare.com.br
 repository: 
 issue: 

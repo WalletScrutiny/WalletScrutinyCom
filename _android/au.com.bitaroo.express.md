@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: au.com.bitaroo.express
 appCountry: 
+released: 
 updated: 2023-02-11
 version: '0.9'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.bitaroo.com.au
 repository: 
 issue: 

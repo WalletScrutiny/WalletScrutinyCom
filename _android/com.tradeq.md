@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.tradeq
 appCountry: 
-released: Aug 18, 2021
+released: 2021-08-18
 updated: 2022-07-08
 version: '6.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

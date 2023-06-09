@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: se.example.starboyexchange
 appCountry: 
-released: Jan 10, 2022
+released: 2022-01-10
 updated: 2022-01-31
 version: 7.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

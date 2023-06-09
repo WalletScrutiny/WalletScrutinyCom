@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.cbetter.change
 appCountry: 
-released: Sep 29, 2021
+released: 2021-09-29
 updated: 2022-11-24
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinbetter.com
 repository: 
 issue: 

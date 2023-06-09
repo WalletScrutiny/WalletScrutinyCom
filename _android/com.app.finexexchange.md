@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.app.finexexchange
 appCountry: 
-released: Jul 18, 2022
+released: 2022-07-18
 updated: 2022-11-30
 version: 11.5.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://finexchanges.com
 repository: 
 issue: 

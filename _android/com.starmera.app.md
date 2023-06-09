@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.starmera.app
 appCountry: 
-released: Nov 17, 2022
+released: 2022-11-17
 updated: 2023-03-15
 version: 1.2.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://starmera.com
 repository: 
 issue: 

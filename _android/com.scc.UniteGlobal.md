@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.scc.UniteGlobal
 appCountry: 
-released: Aug 8, 2019
+released: 2019-08-08
 updated: 2019-08-08
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

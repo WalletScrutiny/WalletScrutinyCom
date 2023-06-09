@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.goldex.pro
 appCountry: 
-released: Mar 11, 2022
+released: 2022-03-11
 updated: 2022-10-18
 version: 1.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://goldexco.in
 repository: 
 issue: 

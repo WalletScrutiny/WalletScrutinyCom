@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.crypto.treasure
 appCountry: 
-released: Dec 1, 2022
+released: 2022-12-01
 updated: 2023-02-08
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://treasurewallet.co
 repository: 
 issue: 

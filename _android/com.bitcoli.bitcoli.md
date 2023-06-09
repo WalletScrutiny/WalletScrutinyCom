@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bitcoli.bitcoli
 appCountry: 
-released: Jan 13, 2023
+released: 2023-01-13
 updated: 2023-05-05
 version: 0.978 Beta
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitcoli.com
 repository: 
 issue: 

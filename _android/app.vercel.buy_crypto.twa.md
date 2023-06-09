@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: app.vercel.buy_crypto.twa
 appCountry: 
-released: Dec 8, 2022
+released: 2022-12-08
 updated: 2022-12-08
 version: '1'
-stars: 4.9545455
+stars: 5
 ratings: 
 reviews: 22
+size: 
 website: http://cryptogeek.info
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mooncod.wallet
 appCountry: 
-released: Sep 2, 2022
+released: 2022-09-02
 updated: 2022-11-08
 version: 7.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mooncod.com
 repository: 
 issue: 

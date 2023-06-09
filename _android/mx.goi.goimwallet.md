@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: mx.goi.goimwallet
 appCountry: 
-released: Dec 10, 2020
+released: 2020-12-10
 updated: 2021-07-19
 version: 1.16.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://connectgoi.com
 repository: 
 issue: 

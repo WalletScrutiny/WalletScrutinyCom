@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.liqidigitalassets.liqi
 appCountry: 
-released: Aug 8, 2022
+released: 2022-08-08
 updated: 2023-03-13
 version: 1.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.liqi.com.br/
 repository: 
 issue: 

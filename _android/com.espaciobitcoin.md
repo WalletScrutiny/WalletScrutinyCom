@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.espaciobitcoin
 appCountry: 
-released: Nov 7, 2022
+released: 2022-11-07
 updated: 2022-11-07
 version: 3.8.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.espacioculturalbitcoin.com/
 repository: 
 issue: 

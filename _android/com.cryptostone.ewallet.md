@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.cryptostone.ewallet
 appCountry: 
-released: Apr 23, 2023
+released: 2023-04-23
 updated: 2023-04-23
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.crypto-stone.io/
 repository: 
 issue: 

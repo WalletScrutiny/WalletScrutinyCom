@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.metapay.mymetapay
 appCountry: 
-released: Jun 18, 2022
+released: 2022-06-18
 updated: 2023-05-26
 version: 1.15.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

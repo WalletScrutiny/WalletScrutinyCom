@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.myecurrency
 appCountry: 
-released: May 20, 2022
+released: 2022-05-20
 updated: 2023-05-04
 version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://myecurrencyng.com
 repository: 
 issue: 

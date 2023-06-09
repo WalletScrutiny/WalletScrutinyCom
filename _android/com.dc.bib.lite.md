@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.dc.bib.lite
 appCountry: 
-released: Feb 6, 2023
+released: 2023-02-06
 updated: 2023-05-03
 version: 1.0.3
-stars: 2.3333333
+stars: 2.3
 ratings: 
 reviews: 4
+size: 
 website: 
 repository: 
 issue: 

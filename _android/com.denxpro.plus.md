@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.denxpro.plus
 appCountry: 
-released: Feb 10, 2022
+released: 2022-02-10
 updated: 2023-03-10
 version: 1.6.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://goldexplus.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: net.wininnovation.second_flyer
 appCountry: 
-released: Aug 17, 2019
+released: 2019-08-17
 updated: 2019-09-30
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wininnovation.net
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.newbit.tech
 appCountry: 
-released: Jul 14, 2022
+released: 2022-07-14
 updated: 2022-08-29
 version: 1.0.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.kryptobot
 appCountry: 
-released: Jun 7, 2019
+released: 2019-06-07
 updated: 2021-01-15
 version: 1.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kryptobot.net
 repository: 
 issue: 

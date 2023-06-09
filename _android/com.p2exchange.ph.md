@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.p2exchange.ph
 appCountry: 
-released: May 16, 2022
+released: 2022-05-16
 updated: 2022-05-30
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

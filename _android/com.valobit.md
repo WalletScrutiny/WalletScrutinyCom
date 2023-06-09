@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.valobit
 appCountry: 
-released: Mar 17, 2020
+released: 2020-03-17
 updated: 2020-03-17
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

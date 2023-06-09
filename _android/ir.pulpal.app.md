@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: ir.pulpal.app
 appCountry: 
-released: Jan 6, 2022
+released: 2022-01-06
 updated: 2022-09-06
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pulpal.ir
 repository: 
 issue: 

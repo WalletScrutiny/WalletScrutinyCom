@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.hots.quantity
 appCountry: 
-released: Jun 15, 2022
+released: 2022-06-15
 updated: 2022-10-19
 version: 2.1.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

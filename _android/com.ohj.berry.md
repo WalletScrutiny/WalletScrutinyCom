@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.ohj.berry
 appCountry: 
-released: Mar 17, 2023
+released: 2023-03-17
 updated: 2023-03-21
 version: '1.0001'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

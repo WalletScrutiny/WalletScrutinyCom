@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.coinspaid.wallet
 appCountry: 
-released: Dec 17, 2021
+released: 2021-12-17
 updated: 2023-03-07
 version: 0.9.5
 stars: 3
 ratings: 
 reviews: 2
+size: 
 website: https://coinspaid.com
 repository: 
 issue: 

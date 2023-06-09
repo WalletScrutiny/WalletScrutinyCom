@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: io.taptopay
 appCountry: 
-released: Jul 27, 2022
+released: 2022-07-27
 updated: 2022-08-25
 version: 1.0.1
-stars: 4.181818
+stars: 4.2
 ratings: 
 reviews: 3
+size: 
 website: https://taptopay.io
 repository: 
 issue: 

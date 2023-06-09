@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.octowallet.manager
 appCountry: 
-released: May 5, 2019
+released: 2019-05-05
 updated: 2019-05-29
 version: 1.1.0.146
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.octowallet.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.ccwallet.app
 appCountry: 
-released: Jun 4, 2019
+released: 2019-06-04
 updated: 2020-10-26
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinsclone.com/
 repository: 
 issue: 

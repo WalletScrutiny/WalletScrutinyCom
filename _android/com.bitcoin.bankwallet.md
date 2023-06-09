@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.bitcoin.bankwallet
 appCountry: 
-released: Dec 23, 2021
+released: 2021-12-23
 updated: 2022-04-10
 version: 0.3.7
-stars: 4.66
+stars: 4.7
 ratings: 
 reviews: 13
+size: 
 website: https://wallet-markets.web.app
 repository: 
 issue: 

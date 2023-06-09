@@ -6,11 +6,13 @@ authors:
 users: 5
 appId: com.sato.hordes
 appCountry: 
+released: 
 updated: 2023-05-30
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://hordes.bysato.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.codepoint.fastbit
 appCountry: 
-released: Sep 13, 2020
+released: 2020-09-13
 updated: 2021-11-24
 version: '2.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://fastbitng.com
 repository: 
 issue: 

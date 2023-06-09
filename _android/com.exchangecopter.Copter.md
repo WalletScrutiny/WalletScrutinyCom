@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.exchangecopter.Copter
 appCountry: 
-released: Dec 9, 2021
+released: 2021-12-09
 updated: 2022-09-16
 version: 1.5.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://exchangecopter.com
 repository: 
 issue: 

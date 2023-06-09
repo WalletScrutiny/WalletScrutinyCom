@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.localbitmart
 appCountry: 
-released: Mar 9, 2020
+released: 2020-03-09
 updated: 2020-03-09
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

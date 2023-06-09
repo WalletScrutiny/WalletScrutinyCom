@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.tmdstudios.cryptoledgerkotlin
 appCountry: 
+released: 
 updated: 2022-12-27
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://tmdstudios.wordpress.com/
 repository: 
 issue: 

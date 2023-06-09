@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.funex.pro
 appCountry: 
-released: Oct 13, 2022
+released: 2022-10-13
 updated: 2023-04-05
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://funexpro.com/
 repository: 
 issue: 

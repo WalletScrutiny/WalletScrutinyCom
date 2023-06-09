@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.getfexr.core
 appCountry: 
-released: Jun 8, 2022
+released: 2022-06-08
 updated: 2023-05-09
 version: pop
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://getfexr.com
 repository: 
 issue: 

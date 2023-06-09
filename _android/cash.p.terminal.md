@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: cash.p.terminal
 appCountry: 
-released: Feb 10, 2023
+released: 2023-02-10
 updated: 2023-05-25
 version: 0.32.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://p.cash/
 repository: 
 issue: 

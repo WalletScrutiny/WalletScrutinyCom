@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.assisttm
 appCountry: 
-released: Aug 2, 2021
+released: 2021-08-02
 updated: 2022-05-10
 version: 1.1.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.assisttradingmaster.com
 repository: 
 issue: 

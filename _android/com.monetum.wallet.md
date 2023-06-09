@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.monetum.wallet
 appCountry: 
-released: Aug 5, 2022
+released: 2022-08-05
 updated: 2022-09-07
 version: 7.1.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://monetum.com
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.sellix
 appCountry: 
-released: Jun 12, 2022
+released: 2022-06-12
 updated: 2023-03-15
 version: '2.07'
 stars: 3.8
 ratings: 
 reviews: 5
+size: 
 website: https://help.sellix.io
 repository: 
 issue: 

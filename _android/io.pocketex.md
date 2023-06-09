@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: io.pocketex
 appCountry: 
-released: May 18, 2022
+released: 2022-05-18
 updated: 2022-03-23
 version: 0.0.32
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://pocketexchange.io
 repository: 
 issue: 

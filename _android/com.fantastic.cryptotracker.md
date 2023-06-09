@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.fantastic.cryptotracker
 appCountry: 
-released: Nov 23, 2022
+released: 2022-11-23
 updated: 2022-12-29
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ax-tech.xyz
 repository: 
 issue: 

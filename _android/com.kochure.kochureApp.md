@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.kochure.kochureApp
 appCountry: 
-released: Nov 13, 2021
+released: 2021-11-13
 updated: 2023-02-02
 version: 1.0.9
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://kochure.com/
 repository: 
 issue: 

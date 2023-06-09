@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.ublex
 appCountry: 
-released: Oct 21, 2019
+released: 2019-10-21
 updated: 2019-10-24
 version: 0.0.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.ublex.com/
 repository: 
 issue: 

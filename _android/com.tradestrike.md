@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.tradestrike
 appCountry: 
-released: Sep 26, 2022
+released: 2022-09-26
 updated: 2023-04-19
 version: '2.4'
-stars: 4.6666665
+stars: 4.7
 ratings: 
 reviews: 18
+size: 
 website: https://tradestrike.io/strikex-wallet/
 repository: 
 issue: 

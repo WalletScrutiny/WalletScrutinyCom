@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bonsystem.chain.showgo
 appCountry: 
-released: Mar 24, 2022
+released: 2022-03-24
 updated: 2022-03-24
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

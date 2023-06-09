@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.cryptosimple.prod
 appCountry: 
-released: Jun 1, 2022
+released: 2022-06-01
 updated: 2022-12-08
 version: 1.0.12
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptosimple.app
 repository: 
 issue: 

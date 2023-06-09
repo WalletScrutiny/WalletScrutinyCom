@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.bit.finx
 appCountry: 
-released: Jan 19, 2022
+released: 2022-01-19
 updated: 2022-02-17
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://bitfinix.tech/
 repository: 
 issue: 

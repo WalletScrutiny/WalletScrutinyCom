@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.bitcoinwallet.btclun
 appCountry: 
-released: Feb 7, 2023
+released: 2023-02-07
 updated: 2023-06-01
 version: 3.04.28
-stars: 3.0444446
+stars: 3
 ratings: 
 reviews: 27
+size: 
 website: https://bitefinance.net
 repository: 
 issue: 

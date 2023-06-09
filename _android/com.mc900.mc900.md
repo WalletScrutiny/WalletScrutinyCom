@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.mc900.mc900
 appCountry: 
-released: Aug 12, 2022
+released: 2022-08-12
 updated: 2023-05-25
 version: 2.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.headline.net
 repository: 
 issue: 

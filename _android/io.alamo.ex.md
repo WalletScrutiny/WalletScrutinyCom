@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: io.alamo.ex
 appCountry: 
-released: Aug 12, 2022
+released: 2022-08-12
 updated: 2022-08-23
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.alamotrading.io/
 repository: 
 issue: 

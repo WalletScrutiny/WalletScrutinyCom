@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.evercash.mobile.client
 appCountry: 
-released: Jul 23, 2022
+released: 2022-07-23
 updated: 2023-02-15
 version: 2.1.1-7a0ecd1d
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

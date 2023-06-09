@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.maxxer.maxxermobileapp
 appCountry: 
-released: Jul 9, 2022
+released: 2022-07-09
 updated: 2022-12-06
 version: 1.0.28
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.maxxer.com
 repository: 
 issue: 

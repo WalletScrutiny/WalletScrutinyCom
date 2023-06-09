@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.asin.app
 appCountry: 
-released: Nov 5, 2021
+released: 2021-11-05
 updated: 2021-12-31
 version: 1.3.0
-stars: 1.8571428
+stars: 1.9
 ratings: 
 reviews: 12
+size: 
 website: https://asin.vip/
 repository: 
 issue: 

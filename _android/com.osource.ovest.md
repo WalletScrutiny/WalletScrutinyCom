@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.osource.ovest
 appCountry: 
-released: Sep 4, 2021
+released: 2021-09-04
 updated: 2022-03-04
 version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://myovest.com
 repository: 
 issue: 

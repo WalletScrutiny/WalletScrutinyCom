@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.cryptoapp.app
 appCountry: 
-released: Jul 26, 2018
+released: 2018-07-26
 updated: 2018-07-30
 version: 1.1.b
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

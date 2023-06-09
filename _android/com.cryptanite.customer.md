@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.cryptanite.customer
 appCountry: 
-released: May 11, 2018
+released: 2018-05-11
 updated: 2019-05-08
 version: 2.0.8
-stars: 4.470588
+stars: 4.5
 ratings: 
 reviews: 8
+size: 
 website: http://cryptanite.com
 repository: 
 issue: 

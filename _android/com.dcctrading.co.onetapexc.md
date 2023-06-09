@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.dcctrading.co.onetapexc
 appCountry: 
-released: Apr 10, 2023
+released: 2023-04-10
 updated: 2023-04-24
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://onetapexc.com
 repository: 
 issue: 

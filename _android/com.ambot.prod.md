@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.ambot.prod
 appCountry: 
-released: Oct 29, 2021
+released: 2021-10-29
 updated: 2022-01-17
 version: 1.0.7.prod
 stars: 3.2
 ratings: 
 reviews: 3
+size: 
 website: 
 repository: 
 issue: 

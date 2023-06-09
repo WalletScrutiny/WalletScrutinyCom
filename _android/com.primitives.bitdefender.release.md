@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.primitives.bitdefender.release
 appCountry: 
-released: Jun 20, 2022
+released: 2022-06-20
 updated: 2022-06-20
 version: 1.0-RELEASE
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

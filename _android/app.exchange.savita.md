@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: app.exchange.savita
 appCountry: 
-released: Jan 5, 2023
+released: 2023-01-05
 updated: 2023-03-20
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://savitaglobal.com/
 repository: 
 issue: 

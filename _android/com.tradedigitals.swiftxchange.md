@@ -6,12 +6,13 @@ authors:
 users: 5
 appId: com.tradedigitals.swiftxchange
 appCountry: 
-released: Sep 16, 2021
+released: 2021-09-16
 updated: 2021-09-16
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.swiftxchange.com.ng
 repository: 
 issue: 

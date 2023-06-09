@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: ammer.pay
 appCountry: 
-released: Aug 22, 2022
+released: 2022-08-22
 updated: 2023-05-12
 version: 1.2.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ammer.cards
 repository: 
 issue: 

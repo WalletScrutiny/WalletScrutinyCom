@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: org.hubitcoinics.Hubitcoinics
 appCountry: 
-released: Apr 18, 2023
+released: 2023-04-18
 updated: 2023-05-02
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://hubitcoinics.org
 repository: 
 issue: 

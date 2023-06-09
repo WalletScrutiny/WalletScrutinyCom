@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.unitedbit.app
 appCountry: 
-released: Oct 7, 2021
+released: 2021-10-07
 updated: 2022-04-19
 version: 1.1.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://unitedbit.com/
 repository: 
 issue: 

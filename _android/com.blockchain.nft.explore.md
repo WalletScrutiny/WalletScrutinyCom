@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.blockchain.nft.explore
 appCountry: 
-released: Dec 17, 2022
+released: 2022-12-17
 updated: 2022-12-18
 version: 1.0.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coinhub8899.web.app
 repository: 
 issue: 

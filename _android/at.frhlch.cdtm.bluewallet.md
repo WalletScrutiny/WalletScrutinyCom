@@ -6,11 +6,13 @@ authors:
 users: 10
 appId: at.frhlch.cdtm.bluewallet
 appCountry: 
+released: 
 updated: 2022-03-01
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

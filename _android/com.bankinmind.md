@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.bankinmind
 appCountry: 
-released: Jun 16, 2022
+released: 2022-06-16
 updated: 2023-05-01
 version: 1.0.71
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bankinmind.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.foruspf.com
 appCountry: 
-released: Jun 2, 2022
+released: 2022-06-02
 updated: 2022-07-19
 version: '2.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://foruspf.com
 repository: 
 issue: 

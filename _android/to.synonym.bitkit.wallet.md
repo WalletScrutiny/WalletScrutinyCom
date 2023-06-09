@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: to.synonym.bitkit.wallet
 appCountry: 
+released: 
 updated: 2023-05-12
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitkit.to
 repository: 
 issue: 

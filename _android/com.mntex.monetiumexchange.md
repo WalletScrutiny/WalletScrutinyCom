@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.mntex.monetiumexchange
 appCountry: 
-released: Nov 3, 2020
+released: 2020-11-03
 updated: 2020-11-17
 version: 1.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://mntex.io/
 repository: 
 issue: 

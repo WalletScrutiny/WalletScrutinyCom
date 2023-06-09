@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: net.globalswift
 appCountry: 
-released: Aug 21, 2022
+released: 2022-08-21
 updated: 2022-08-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://globalswift.net
 repository: 
 issue: 

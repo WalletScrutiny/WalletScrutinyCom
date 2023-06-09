@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: app.exchange.optimax
 appCountry: 
-released: Feb 10, 2022
+released: 2022-02-10
 updated: 2022-02-11
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://optimaxcrypto.com/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.wallet.dex
 appCountry: 
-released: Nov 25, 2022
+released: 2022-11-25
 updated: 2023-02-08
 version: 1.3.1
 stars: 4.8
 ratings: 
 reviews: 11
+size: 
 website: https://dexwallet.info
 repository: 
 issue: 

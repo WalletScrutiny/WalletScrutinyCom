@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.prodoge.prodoge
 appCountry: 
-released: Sep 17, 2019
+released: 2019-09-17
 updated: 2023-03-11
 version: 3.3.3
 stars: 5
 ratings: 
 reviews: 5
+size: 
 website: https://alxwallet.com
 repository: 
 issue: 

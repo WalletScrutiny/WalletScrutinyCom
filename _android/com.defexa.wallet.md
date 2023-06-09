@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.defexa.wallet
 appCountry: 
-released: Apr 28, 2023
+released: 2023-04-28
 updated: 2023-05-30
 version: 1.0.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://defexa.io/wallet/
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.plato.mobile.app
 appCountry: 
-released: Oct 15, 2021
+released: 2021-10-15
 updated: 2021-11-18
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

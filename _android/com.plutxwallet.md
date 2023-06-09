@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.plutxwallet
 appCountry: 
-released: Feb 26, 2020
+released: 2020-02-26
 updated: 2020-07-07
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://plutx.io
 repository: 
 issue: 

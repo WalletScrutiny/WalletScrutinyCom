@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.yyjonin.test_joinin
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-07-20
 version: '4.2'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://joinin.vip
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 5000
 appId: com.elephantslab.probos
 appCountry: 
-released: Sep 20, 2022
+released: 2022-09-20
 updated: 2022-09-30
 version: 1.1.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://probos.io/
 repository: 
 issue: 

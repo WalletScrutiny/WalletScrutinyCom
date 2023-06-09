@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.felixo.mobile
 appCountry: 
-released: Oct 17, 2019
+released: 2019-10-17
 updated: 2022-08-22
 version: 2.0.0
-stars: 3.5333333
+stars: 3.5
 ratings: 
 reviews: 10
+size: 
 website: https://www.felixo.com
 repository: 
 issue: 

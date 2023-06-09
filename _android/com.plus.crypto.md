@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.plus.crypto
 appCountry: 
-released: Jan 26, 2023
+released: 2023-01-26
 updated: 2023-05-21
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

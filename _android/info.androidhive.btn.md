@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: info.androidhive.btn
 appCountry: 
-released: Oct 5, 2018
+released: 2018-10-05
 updated: 2018-10-05
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bitstone.org
 repository: 
 issue: 

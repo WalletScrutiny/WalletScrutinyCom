@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.exchangedm
 appCountry: 
-released: Aug 22, 2022
+released: 2022-08-22
 updated: 2022-08-22
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://dmexchange.com
 repository: 
 issue: 

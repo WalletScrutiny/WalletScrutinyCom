@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.shiftmarkets.cointrader
 appCountry: 
-released: Jan 28, 2019
+released: 2019-01-28
 updated: 2023-04-21
 version: 4.2.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.shiftmarkets.com/
 repository: 
 issue: 

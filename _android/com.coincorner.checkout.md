@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.coincorner.checkout
 appCountry: 
-released: Sep 29, 2022
+released: 2022-09-29
 updated: 2023-01-23
 version: 2.4.7
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://coincorner.com/checkout
 repository: 
 issue: 

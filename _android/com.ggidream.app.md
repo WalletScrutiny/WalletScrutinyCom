@@ -6,12 +6,13 @@ authors:
 users: 1
 appId: com.ggidream.app
 appCountry: 
-released: Aug 7, 2019
+released: 2019-08-07
 updated: 2019-08-07
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.ggidream.com
 repository: 
 issue: 

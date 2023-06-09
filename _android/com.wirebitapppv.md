@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.wirebitapppv
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-08-29
 version: 1.2.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://wirebit.com/
 repository: 
 issue: 

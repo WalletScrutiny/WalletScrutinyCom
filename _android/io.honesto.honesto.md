@@ -6,11 +6,13 @@ authors:
 users: 5000
 appId: io.honesto.honesto
 appCountry: 
+released: 
 updated: 2023-05-22
 version: 1.0.75
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.honesto.swiss/
 repository: 
 issue: 

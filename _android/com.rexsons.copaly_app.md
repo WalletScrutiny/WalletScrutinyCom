@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.rexsons.copaly_app
 appCountry: 
-released: Jul 25, 2022
+released: 2022-07-25
 updated: 2023-05-25
 version: 3.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://copaly.com
 repository: 
 issue: 

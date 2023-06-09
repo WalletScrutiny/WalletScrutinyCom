@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.laqira.exchange
 appCountry: 
-released: Feb 9, 2023
+released: 2023-02-09
 updated: 2023-03-03
 version: 3.2.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://laqira.com/
 repository: 
 issue: 

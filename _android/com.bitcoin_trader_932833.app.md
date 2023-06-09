@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.bitcoin_trader_932833.app
 appCountry: 
-released: Jul 21, 2022
+released: 2022-07-21
 updated: 2022-07-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

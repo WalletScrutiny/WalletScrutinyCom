@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: impily.app
 appCountry: 
-released: Nov 25, 2021
+released: 2021-11-25
 updated: 2021-11-26
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://impily.com
 repository: 
 issue: 

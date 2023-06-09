@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.tehranExchangeGroup.tehran_exchange
 appCountry: 
-released: Dec 8, 2022
+released: 2022-12-08
 updated: 2023-05-29
 version: 1.1.30
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://tehran.exchange
 repository: 
 issue: 

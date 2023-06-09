@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.netcents.merchantterminal
 appCountry: 
-released: Feb 11, 2018
+released: 2018-02-11
 updated: 2023-01-24
 version: 3.1.13
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.net-cents.com
 repository: 
 issue: 

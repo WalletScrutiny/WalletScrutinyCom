@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.cbx.api
 appCountry: 
-released: Dec 5, 2018
+released: 2018-12-05
 updated: 2021-01-25
 version: 2.2.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cbx.one
 repository: 
 issue: 

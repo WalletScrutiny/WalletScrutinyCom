@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.risingcoin.android
 appCountry: 
-released: Nov 13, 2022
+released: 2022-11-13
 updated: 2023-04-22
 version: 1.5.0
-stars: 3.2307692
+stars: 3.2
 ratings: 
 reviews: 6
+size: 
 website: https://risingcoin.io
 repository: 
 issue: 

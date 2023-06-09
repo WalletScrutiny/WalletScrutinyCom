@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.crassula.premiax
 appCountry: 
-released: May 26, 2022
+released: 2022-05-26
 updated: 2023-05-19
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.premiax.com/
 repository: 
 issue: 

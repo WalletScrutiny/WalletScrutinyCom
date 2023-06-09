@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.cypper.casswallet
 appCountry: 
-released: Oct 29, 2019
+released: 2019-10-29
 updated: 2019-12-07
 version: 2.0.7.6
 stars: 
 ratings: 
 reviews: 
+size: 
 website: http://www.cashlesstoken.com
 repository: 
 issue: 

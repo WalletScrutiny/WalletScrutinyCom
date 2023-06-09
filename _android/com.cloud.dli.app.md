@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.cloud.dli.app
 appCountry: 
-released: Jul 15, 2021
+released: 2021-07-15
 updated: 2023-05-12
 version: 1.4.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bolsadx.lat
 repository: 
 issue: 

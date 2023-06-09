@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.box.pro
 appCountry: 
-released: Jan 6, 2022
+released: 2022-01-06
 updated: 2023-04-06
 version: 5.2.6
-stars: 2.612903
+stars: 2.6
 ratings: 
 reviews: 23
+size: 
 website: https://www.bibox.com
 repository: 
 issue: 

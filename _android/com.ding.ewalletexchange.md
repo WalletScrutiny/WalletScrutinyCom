@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.ding.ewalletexchange
 appCountry: 
-released: Apr 11, 2022
+released: 2022-04-11
 updated: 2022-12-22
 version: '1.5'
-stars: 3.962264
+stars: 4
 ratings: 
 reviews: 26
+size: 
 website: 
 repository: 
 issue: 

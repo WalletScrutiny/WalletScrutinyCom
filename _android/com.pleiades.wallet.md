@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.pleiades.wallet
 appCountry: 
-released: Nov 28, 2021
+released: 2021-11-28
 updated: 2022-02-28
 version: 1.3.2
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.pleiades.finance
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.ahd985.wedge
 appCountry: 
-released: Sep 29, 2021
+released: 2021-09-29
 updated: 2023-04-04
 version: 1.4.3
-stars: 4.2815533
+stars: 4.3
 ratings: 
 reviews: 19
+size: 
 website: https://wedge.us
 repository: 
 issue: 

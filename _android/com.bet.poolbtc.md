@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.bet.poolbtc
 appCountry: 
-released: May 7, 2020
+released: 2020-05-07
 updated: 2020-05-07
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: igate.apps.crypto
 appCountry: 
-released: Jul 10, 2021
+released: 2021-07-10
 updated: 2021-07-12
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

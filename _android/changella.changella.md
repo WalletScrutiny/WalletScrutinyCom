@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: changella.changella
 appCountry: 
-released: Jun 8, 2022
+released: 2022-06-08
 updated: 2022-07-17
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://changella.com
 repository: 
 issue: 

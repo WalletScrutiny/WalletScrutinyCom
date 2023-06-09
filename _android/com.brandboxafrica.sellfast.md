@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.brandboxafrica.sellfast
 appCountry: 
-released: Sep 22, 2020
+released: 2020-09-22
 updated: 2021-03-15
 version: 1.0.0
 stars: 5
 ratings: 
 reviews: 1
+size: 
 website: https://sellfastpayfast.com
 repository: 
 issue: 

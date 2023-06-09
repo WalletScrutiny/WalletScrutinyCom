@@ -6,12 +6,13 @@ authors:
 users: 50
 appId: com.ikigai.app
 appCountry: 
-released: Feb 8, 2022
+released: 2022-02-08
 updated: 2022-02-08
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

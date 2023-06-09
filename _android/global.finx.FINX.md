@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: global.finx.FINX
 appCountry: 
-released: Oct 26, 2022
+released: 2022-10-26
 updated: 2023-02-23
 version: 0.4.8
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://finx.global/
 repository: 
 issue: 

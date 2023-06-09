@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.browallted.comlogin.php
 appCountry: 
-released: Jul 13, 2022
+released: 2022-07-13
 updated: 2022-07-13
 version: '3.4'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://browallted.com
 repository: 
 issue: 

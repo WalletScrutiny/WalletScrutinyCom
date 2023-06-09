@@ -6,12 +6,13 @@ authors:
 users: 100000
 appId: com.icmarkets.mobileapp
 appCountry: 
-released: Jan 19, 2022
+released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
 stars: 4.5
 ratings: 
 reviews: 4
+size: 
 website: https://icmarkets.com
 repository: 
 issue: 

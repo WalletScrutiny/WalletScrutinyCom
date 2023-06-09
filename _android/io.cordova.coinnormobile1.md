@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: io.cordova.coinnormobile1
 appCountry: 
-released: Jul 8, 2018
+released: 2018-07-08
 updated: 2018-07-08
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bluedrive.ro
 repository: 
 issue: 

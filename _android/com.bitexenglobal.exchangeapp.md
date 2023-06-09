@@ -6,11 +6,13 @@ authors:
 users: 1000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
+released: 
 updated: 2023-05-12
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://global.bitexen.com/
 repository: 
 issue: 

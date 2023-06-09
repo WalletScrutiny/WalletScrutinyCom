@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.biswap.mobile
 appCountry: 
-released: Jul 22, 2022
+released: 2022-07-22
 updated: 2023-05-03
 version: 1.0.11
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://biswap.com/
 repository: 
 issue: 

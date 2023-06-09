@@ -6,12 +6,13 @@ authors:
 users: 100
 appId: com.q9.capital
 appCountry: 
-released: Nov 19, 2021
+released: 2021-11-19
 updated: 2022-09-22
 version: 1.0.5
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.q9capital.com
 repository: 
 issue: 

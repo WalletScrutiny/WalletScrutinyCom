@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: web.xusdt.app
 appCountry: 
-released: Mar 15, 2022
+released: 2022-03-15
 updated: 2022-05-14
 version: 1.0.3
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

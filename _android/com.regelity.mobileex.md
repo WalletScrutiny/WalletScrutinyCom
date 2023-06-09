@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.regelity.mobileex
 appCountry: 
-released: Dec 15, 2022
+released: 2022-12-15
 updated: 2023-05-10
 version: 1.30.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://exnode.ru/
 repository: 
 issue: 

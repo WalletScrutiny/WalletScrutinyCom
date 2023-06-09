@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.zodeak.exchange
 appCountry: 
-released: Jan 18, 2023
+released: 2023-01-18
 updated: 2023-01-18
 version: 1.0.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.cryptocurrencyscript.com/
 repository: 
 issue: 

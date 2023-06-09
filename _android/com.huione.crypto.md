@@ -6,12 +6,13 @@ authors:
 users: 1000
 appId: com.huione.crypto
 appCountry: 
-released: May 30, 2022
+released: 2022-05-30
 updated: 2023-05-03
 version: 2.0.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

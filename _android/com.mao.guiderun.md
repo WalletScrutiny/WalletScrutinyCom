@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.mao.guiderun
 appCountry: 
-released: May 8, 2022
+released: 2022-05-08
 updated: 2022-05-20
 version: 1.0.4
 stars: 
 ratings: 
 reviews: 
+size: 
 website: 
 repository: 
 issue: 

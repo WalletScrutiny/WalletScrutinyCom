@@ -6,12 +6,13 @@ authors:
 users: 500
 appId: com.application.inocyx
 appCountry: 
-released: Nov 16, 2022
+released: 2022-11-16
 updated: 2023-06-01
 version: '1.14'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://inocyx.com/
 repository: 
 issue: 

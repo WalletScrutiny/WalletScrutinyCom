@@ -6,12 +6,13 @@ authors:
 users: 10
 appId: com.distwallet.app
 appCountry: 
-released: Feb 1, 2023
+released: 2023-02-01
 updated: 2023-02-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://distwallet.com
 repository: 
 issue: 

@@ -6,11 +6,13 @@ authors:
 users: 100
 appId: com.spruceid.app.credible
 appCountry: 
+released: 
 updated: 2021-07-27
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://spruceid.dev/docs/credible
 repository: 
 issue: 

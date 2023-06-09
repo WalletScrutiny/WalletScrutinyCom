@@ -6,12 +6,13 @@ authors:
 users: 50000
 appId: com.xbank_rn
 appCountry: 
-released: Nov 4, 2022
+released: 2022-11-04
 updated: 2023-04-26
 version: 1.5.0
-stars: 4.0588236
+stars: 4.1
 ratings: 
 reviews: 7
+size: 
 website: https://xbank.plus
 repository: 
 issue: 
