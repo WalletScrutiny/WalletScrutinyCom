@@ -2,7 +2,8 @@
 wsId: 
 title: gCryptoTrade - GDAX trading ap
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.seanfreiburg.cryptotrader
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.seanfreiburg.cryptotrader.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2022-06-22
+verdict: nowallet
+date: 2023-06-01
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,26 @@ developerName: gCrypto Lab
 features: 
 
 ---
+
+## App Description from Google Play 
+
+> gCryptoTrade allows you to trade on the GDAX platform from a handy mobile app.
+>
+> Features:
+> - See balances
+- Cancel orders
+- See prices
+- Make limit buy and sell orders
+>
+> Note: You will have to login with API tokens.
+
+## Analysis 
+
+- The associated website is no longer online 
+- The last archive was in 2018 
+- GDAX is now known as Coinbase Pro. 
+- The app merely connects to a now-defunct exchange via APIs.
+- The app still references to GDAX and not Coinbase Pro 
+- It does **not function as a wallet**. 
+
 

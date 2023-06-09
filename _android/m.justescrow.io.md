@@ -1,0 +1,33 @@
+---
+wsId: 
+title: Just ESCROW
+altTitle: 
+authors: 
+users: 10000
+appId: m.justescrow.io
+appCountry: 
+released: 2018-05-30
+updated: 2018-05-31
+version: '3.0'
+stars: 3.1
+ratings: 
+reviews: 2
+size: 
+website: https://justescrow.io
+repository: 
+issue: 
+icon: m.justescrow.io.png
+bugbounty: 
+meta: obsolete
+verdict: wip
+date: 2023-06-02
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Just ESCROW
+features: 
+
+---
+

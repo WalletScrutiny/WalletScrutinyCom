@@ -11,7 +11,7 @@ released: 2017-01-04
 updated: 2023-02-02
 version: 3.7.2
 stars: 3.4
-reviews: 30
+reviews: 31
 size: '177341440'
 website: https://jeton.com
 repository: 
