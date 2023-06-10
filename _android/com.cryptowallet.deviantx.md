@@ -55,7 +55,7 @@ features:
 
 > Something went wrong we are working over it. Please try after some time. 
 
-- We were able to find the Deviant Core organizational GitHub page, but not the one corresponding to this specific app. 
+- We were able to find the Deviant Core organizational GitHub page, but not the repository corresponding to this specific app. 
 - Since we were not able to test the app, we'll analyze it based on the description and available information on their website. We ascertained that: 
 
 - The app supports Bitcoin 
