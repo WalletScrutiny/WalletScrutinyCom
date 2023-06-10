@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.perwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

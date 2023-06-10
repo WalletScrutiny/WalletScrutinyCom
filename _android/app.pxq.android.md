@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: PXQ Wallet
+title: 'PXQ Wallet: Custom Seed Wallet'
 altTitle: 
 authors: 
 users: 10000
 appId: app.pxq.android
 appCountry: 
 released: 2023-04-19
-updated: 2023-04-28
-version: 1.0.0
+updated: 2023-06-08
+version: 1.0.2
 stars: 4.8
 ratings: 
-reviews: 7
+reviews: 11
 size: 
 website: https://pxq.app
 repository: 

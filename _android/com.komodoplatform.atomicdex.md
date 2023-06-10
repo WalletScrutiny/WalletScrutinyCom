@@ -9,9 +9,9 @@ appCountry:
 released: 2022-12-15
 updated: 2023-04-26
 version: 0.6.3
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://atomicdex.io
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wBitcoinRevolution_15605870.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

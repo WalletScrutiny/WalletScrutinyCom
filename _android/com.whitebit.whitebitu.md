@@ -7,8 +7,8 @@ users: 500
 appId: com.whitebit.whitebitu
 appCountry: 
 released: 2023-04-06
-updated: 2023-05-23
-version: 0.9.60
+updated: 2023-06-02
+version: 0.9.62
 stars: 
 ratings: 
 reviews: 

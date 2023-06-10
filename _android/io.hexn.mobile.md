@@ -7,8 +7,8 @@ users: 10000
 appId: io.hexn.mobile
 appCountry: 
 released: 2022-12-12
-updated: 2023-05-31
-version: 1.0.10
+updated: 2023-06-02
+version: 1.0.11
 stars: 4.5
 ratings: 
 reviews: 2

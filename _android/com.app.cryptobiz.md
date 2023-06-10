@@ -9,9 +9,9 @@ appCountry:
 released: 2021-10-26
 updated: 2022-12-19
 version: '42.5'
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 89
+reviews: 65
 size: 
 website: https://cryptobiz.exchange/
 repository: 

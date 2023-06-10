@@ -7,8 +7,8 @@ users: 100000
 appId: com.coininn.wenwen
 appCountry: 
 released: 2020-03-05
-updated: 2023-05-08
-version: 3.0.36
+updated: 2023-06-02
+version: 3.0.37
 stars: 3.4
 ratings: 
 reviews: 39

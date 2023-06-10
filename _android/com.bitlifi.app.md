@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: BitLiFi
+title: Bitlifi
 altTitle: 
 authors: 
 users: 500
 appId: com.bitlifi.app
 appCountry: 
 released: 2023-05-04
-updated: 2023-06-01
-version: 1.1.0
+updated: 2023-06-07
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 

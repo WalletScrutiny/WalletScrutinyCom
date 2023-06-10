@@ -11,7 +11,7 @@ updated: 2023-02-20
 version: 4.0.3
 stars: 3.9
 ratings: 
-reviews: 95
+reviews: 96
 size: 
 website: https://www.afrbtc.com
 repository: 

@@ -7,8 +7,8 @@ users: 10000
 appId: com.arcticmobile.app
 appCountry: 
 released: 2022-12-15
-updated: 2023-05-31
-version: '1.22'
+updated: 2023-06-08
+version: '1.23'
 stars: 
 ratings: 
 reviews: 

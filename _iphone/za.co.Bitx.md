@@ -11,7 +11,7 @@ released: 2014-11-03
 updated: 2023-06-07
 version: 8.35.0
 stars: 4.3
-reviews: 3391
+reviews: 3386
 size: '140385280'
 website: https://www.luno.com
 repository: 

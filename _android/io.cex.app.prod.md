@@ -12,7 +12,7 @@ updated: 2023-06-01
 version: VARY
 stars: 3.5
 ratings: 16669
-reviews: 1759
+reviews: 1760
 size: 
 website: https://cex.io
 repository: 

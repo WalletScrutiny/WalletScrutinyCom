@@ -3,7 +3,7 @@ wsId:
 title: GoMining
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22

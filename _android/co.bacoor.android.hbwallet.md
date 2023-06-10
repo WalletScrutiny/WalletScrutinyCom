@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.bacoor.android.hbwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: HBWallet_Ether

@@ -3,7 +3,7 @@ wsId:
 title: Defexa - Safe Crypto Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.defexa.wallet
 appCountry: 
 released: 2023-04-28

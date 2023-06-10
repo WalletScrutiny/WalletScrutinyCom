@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-11
 updated: 2023-02-06
 version: 2.0.11
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 44
+reviews: 45
 size: 
 website: https://www.protonchain.com/
 repository: 

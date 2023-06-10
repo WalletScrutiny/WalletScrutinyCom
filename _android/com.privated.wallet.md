@@ -9,9 +9,9 @@ appCountry:
 released: 2023-01-27
 updated: 2023-04-15
 version: '1.1'
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 10
 size: 
 website: https://private-wallet.net/
 repository: 

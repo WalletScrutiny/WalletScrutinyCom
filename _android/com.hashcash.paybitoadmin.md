@@ -3,7 +3,7 @@ wsId:
 title: PayBito Admin
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.hashcash.paybitoadmin
 appCountry: 
 released: 2022-06-16

@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: Crypto wallet - Bitcoin & USDT
+title: Crypto wallet — Bitcoin & USDT
 altTitle: 
 authors: 
 users: 10000
 appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04
-updated: 2023-04-30
-version: 1.6.6
-stars: 3.3
+updated: 2023-06-04
+version: 1.6.8
+stars: 3.5
 ratings: 
-reviews: 6
+reviews: 5
 size: 
 website: https://www.cropty.io/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Crypto Trading Broker
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.ftrading.cryptotrading.android.app
 appCountry: 
 released: 2022-09-19

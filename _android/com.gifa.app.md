@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gifa.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

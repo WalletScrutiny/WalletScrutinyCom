@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchaino.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,7 +3,7 @@ wsId:
 title: 'ZB Pro: Buy BTC, ETH, Doge'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.zbpro.global
 appCountry: 
 released: 2022-08-30

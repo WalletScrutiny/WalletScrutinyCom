@@ -3,7 +3,7 @@ wsId:
 title: 'Line2coin Swap: BTC, ETH, & +'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: apps.produccion.line2coinswap
 appCountry: 
 released: 2022-07-22

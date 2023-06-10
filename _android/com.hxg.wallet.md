@@ -3,7 +3,7 @@ wsId:
 title: WOW EARN：BTC &Crypto  Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 10000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30

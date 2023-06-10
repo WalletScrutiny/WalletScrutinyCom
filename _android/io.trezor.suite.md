@@ -3,7 +3,7 @@ wsId:
 title: Trezor Suite Lite
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09

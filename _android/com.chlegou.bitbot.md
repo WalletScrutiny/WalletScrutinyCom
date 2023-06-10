@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-02
 updated: 2022-08-10
 version: 1.6.4
-stars: 4
+stars: 4.1
 ratings: 7718
-reviews: 430
+reviews: 429
 size: 
 website: https://bitbot.plus
 repository: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.tehranExchangeGroup.tehran_exchange
 appCountry: 
 released: 2022-12-08
-updated: 2023-05-29
-version: 1.1.30
+updated: 2023-06-09
+version: 1.1.35
 stars: 
 ratings: 
 reviews: 

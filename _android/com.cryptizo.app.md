@@ -3,7 +3,7 @@ wsId:
 title: Unblock - Crypto Investing App
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.cryptizo.app
 appCountry: 
 released: 2022-02-20

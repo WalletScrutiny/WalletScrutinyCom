@@ -3,7 +3,7 @@ wsId:
 title: Nexus Trader
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.nexus.trader
 appCountry: 
 released: 

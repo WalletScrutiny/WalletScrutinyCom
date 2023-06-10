@@ -27,7 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /io.getdelta.android/
-developerName: Opus Labs NV
+developerName: Delta by eToro
 features: 
 
 ---

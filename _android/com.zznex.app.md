@@ -3,7 +3,7 @@ wsId:
 title: ZZNEX BOT
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.zznex.app
 appCountry: 
 released: 2022-10-18

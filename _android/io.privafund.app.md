@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.privafund.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-03
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

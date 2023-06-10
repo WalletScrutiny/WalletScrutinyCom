@@ -3,7 +3,7 @@ wsId:
 title: Coinhub Bitcoin Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: app.coinhubatm.wallet
 appCountry: 
 released: 2022-12-11
@@ -19,7 +19,7 @@ issue:
 icon: app.coinhubatm.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -3,7 +3,7 @@ wsId:
 title: CoinCatch-Buy Bitcoin & Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07

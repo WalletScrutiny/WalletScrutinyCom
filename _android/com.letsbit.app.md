@@ -4,7 +4,7 @@ title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06

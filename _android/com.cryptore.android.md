@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-16
 updated: 2023-03-01
 version: 1.1.9
-stars: 4.9
+stars: 4.8
 ratings: 
-reviews: 7
+reviews: 5
 size: 
 website: https://coinlord.org/
 repository: 

@@ -9,9 +9,9 @@ appCountry:
 released: 2019-05-20
 updated: 2022-11-01
 version: 3.7.1
-stars: 4.6
+stars: 
 ratings: 
-reviews: 9
+reviews: 
 size: 
 website: https://amon.tech
 repository: 

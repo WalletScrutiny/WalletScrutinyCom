@@ -9,9 +9,9 @@ appCountry:
 released: 2022-09-30
 updated: 2023-05-24
 version: 1.2.1
-stars: 5
+stars: 4.9
 ratings: 
-reviews: 26
+reviews: 27
 size: 
 website: https://shido.io
 repository: 

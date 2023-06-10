@@ -3,7 +3,7 @@ wsId:
 title: NiceX
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.metallum.nicex
 appCountry: 
 released: 

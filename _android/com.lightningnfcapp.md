@@ -3,7 +3,7 @@ wsId:
 title: Bolt Card NFC Card Creator
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.lightningnfcapp
 appCountry: 
 released: 2022-08-19

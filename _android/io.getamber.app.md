@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Amber - Bitcoin made easy.
+title: AmberApp
 altTitle: 
 authors: 
 users: 10000
 appId: io.getamber.app
 appCountry: 
 released: 2021-06-21
-updated: 2023-05-03
-version: 5.1.1
+updated: 2023-05-18
+version: 5.1.2
 stars: 4.4
 ratings: 
 reviews: 25

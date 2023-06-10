@@ -8,7 +8,7 @@ appId: com.koopwallet.app
 appCountry: 
 released: 2022-12-20
 updated: 2023-04-19
-version: 9.0.0
+version: 20.0.0
 stars: 3.5
 ratings: 
 reviews: 5

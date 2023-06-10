@@ -7,8 +7,8 @@ users: 100
 appId: com.ebanq.zima
 appCountry: 
 released: 2022-09-06
-updated: 2022-09-06
-version: 1.0.0
+updated: 2023-06-06
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

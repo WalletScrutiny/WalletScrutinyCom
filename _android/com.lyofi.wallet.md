@@ -4,7 +4,7 @@ title: 'LYO WALLET: NFTs & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.lyofi.wallet
 appCountry: 
 released: 2022-05-20
