@@ -38,10 +38,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -
 /tmp/passport/just build-docker
 if [[ $2 == "color" ]]; then
     /tmp/passport/just build-firmware color
-    /tmp/passport/just build-bootloader color
 elif [[ $2 == "mono" ]]; then
     /tmp/passport/just build-firmware mono
-    /tmp/passport/just build-bootloader mono
 fi
 
 # Print build hash and expected build hash
