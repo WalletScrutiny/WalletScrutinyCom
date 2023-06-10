@@ -3,7 +3,7 @@ wsId:
 title: COINPIGGY WALLET
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.bsys.coinpiggy
 appCountry: 

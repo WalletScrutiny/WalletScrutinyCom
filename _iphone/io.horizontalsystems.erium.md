@@ -3,17 +3,17 @@ wsId: eriumWallet
 title: Erium Wallet - Crypto Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.horizontalsystems.erium
 appCountry: ng
 idd: '1590924105'
-released: '2021-12-10T08:00:00Z'
+released: 2021-12-10
 updated: 2022-09-25
 version: 1.1.0
 stars: 0
 reviews: 0
 size: '37897216'
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.horizontalsystems.erium.jpg
@@ -28,7 +28,7 @@ social:
 - https://erium.exchange
 - https://t.me/Erium_exchange
 - https://discord.com/invite/9nUntZeCPP
-- https://medium.com/@eriumex 
+- https://medium.com/@eriumex
 features: 
 developerName: Erium LLC
 

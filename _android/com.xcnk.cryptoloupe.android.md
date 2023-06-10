@@ -3,7 +3,7 @@ wsId:
 title: Crypto Loupe
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.xcnk.cryptoloupe.android
 appCountry: 

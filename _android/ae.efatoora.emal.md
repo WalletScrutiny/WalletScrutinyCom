@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- info@e-mal.ae
+- mailto:info@e-mal.ae
 redirect_from: 
 developerName: eFatoora
 features: 

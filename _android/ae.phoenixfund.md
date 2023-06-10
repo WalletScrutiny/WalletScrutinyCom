@@ -21,12 +21,12 @@ icon: ae.phoenixfund.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2025-05-06
+date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- info@plana.ae
+- mailto:info@plana.ae
 redirect_from: 
 developerName: PLAN A WEB DESIGN
 features: 

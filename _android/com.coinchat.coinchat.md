@@ -3,7 +3,7 @@ wsId:
 title: Coinchat
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.coinchat.coinchat
 appCountry: 

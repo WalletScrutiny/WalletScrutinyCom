@@ -3,7 +3,7 @@ wsId:
 title: NGRAVE LIQUID - Crypto app
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.ngrave.liquid
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/ngrave.io
 - https://www.instagram.com/ngrave.io
 - https://www.linkedin.com/company/ngrave
-- https://discord.com/invite/gapxmWEBNJ 
+- https://discord.com/invite/gapxmWEBNJ
 redirect_from: 
 developerName: NGRAVEIO
 features: 

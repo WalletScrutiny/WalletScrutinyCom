@@ -3,7 +3,7 @@ wsId: polyxCrypto
 title: 'Polyx Crypto Wallet: BTC, ETH'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: net.polyx.wallet
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Polyxchange
 social:
 - https://www.facebook.com/Polyxchange
-- https://t.me/polyxchange 
+- https://t.me/polyxchange
 redirect_from: 
 developerName: Polygant Ltd
 features: 

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/swapitway
-- swapitway@gmail.com
+- mailto:swapitway@gmail.com
 redirect_from: 
 developerName: Nairance Limited
 features: 

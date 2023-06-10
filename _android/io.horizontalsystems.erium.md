@@ -3,7 +3,7 @@ wsId: eriumWallet
 title: Erium - Crypto Exchange App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.horizontalsystems.erium
 appCountry: 
@@ -28,7 +28,7 @@ twitter: EriumExchange
 social:
 - https://t.me/Erium_exchange
 - https://discord.com/invite/9nUntZeCPP
-- https://medium.com/@eriumex 
+- https://medium.com/@eriumex
 redirect_from: 
 developerName: Devblockex
 features: 

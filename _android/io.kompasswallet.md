@@ -3,7 +3,7 @@ wsId:
 title: Kompass Market - OTC, Crypto W
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.kompasswallet
 appCountry: 

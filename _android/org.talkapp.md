@@ -3,7 +3,7 @@ wsId: talkPlus
 title: Talk+
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: org.talkapp
 appCountry: 

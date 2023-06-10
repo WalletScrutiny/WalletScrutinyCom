@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: BankoWallet1
 social:
-- support@bankowallet.com
-- bankosup@gmail.com
+- mailto:support@bankowallet.com
+- mailto:bankosup@gmail.com
 - https://www.facebook.com/BankoWallet
 - https://t.me/BankoWallet
 redirect_from: 

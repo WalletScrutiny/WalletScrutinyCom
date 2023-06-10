@@ -3,11 +3,11 @@ wsId: polyxCrypto
 title: Polyx Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: net.polyx.wallet-app
 appCountry: gb
 idd: '1605778691'
-released: '2022-02-21T08:00:00Z'
+released: 2022-02-21
 updated: 2022-06-24
 version: 1.3.0
 stars: 0
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: Polyxchange
 social:
 - https://www.facebook.com/Polyxchange
-- https://t.me/polyxchange 
+- https://t.me/polyxchange
 features: 
 developerName: Polyx
 

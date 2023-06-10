@@ -3,7 +3,7 @@ wsId:
 title: 'Verto: Bitcoin VTX EOS ETH Wal'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: org.cordova.verto.app
 appCountry: 

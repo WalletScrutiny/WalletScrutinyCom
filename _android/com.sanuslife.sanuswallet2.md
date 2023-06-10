@@ -3,7 +3,7 @@ wsId:
 title: SANUSWALLET 2.0
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.sanuslife.sanuswallet2
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/@SANUSLIFE
 - https://www.facebook.com/SANUSLIFE.AG
 - https://www.instagram.com/sanuslife_
-- https://www.linkedin.com/company/sanuslife/ 
+- https://www.linkedin.com/company/sanuslife/
 redirect_from: 
 developerName: SANUSLIFE INTERNATIONAL
 features: 

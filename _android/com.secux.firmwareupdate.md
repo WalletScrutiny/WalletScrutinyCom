@@ -3,7 +3,7 @@ wsId:
 title: SecuX Firmware Update
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.secux.firmwareupdate
 appCountry: 

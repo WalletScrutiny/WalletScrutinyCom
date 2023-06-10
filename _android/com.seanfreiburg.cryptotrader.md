@@ -3,7 +3,7 @@ wsId:
 title: gCryptoTrade - GDAX trading ap
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.seanfreiburg.cryptotrader
 appCountry: 
