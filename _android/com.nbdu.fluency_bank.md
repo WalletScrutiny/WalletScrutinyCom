@@ -20,7 +20,7 @@ issue:
 icon: com.nbdu.fluency_bank.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: custodial
 date: 2023-05-31
 signer: 
 reviewArchive: 
@@ -65,4 +65,4 @@ features:
 
 ### Conclusion 
 
-Though we initially thought this app was custodial based on the description, most evidence including the website, the twitter account and the actual app itself points to a **defunct** app.
+Most evidence, including the website, the twitter account and the actual app itself points to a **defunct** and **custodial** app.
