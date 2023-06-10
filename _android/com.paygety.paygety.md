@@ -1,0 +1,33 @@
+---
+wsId: 
+title: Paygety
+altTitle: 
+authors: 
+users: 500
+appId: com.paygety.paygety
+appCountry: 
+released: 2018-06-04
+updated: 2018-10-31
+version: 1.5.5
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://paygety.com
+repository: 
+issue: 
+icon: com.paygety.paygety.png
+bugbounty: 
+meta: obsolete
+verdict: fewusers
+date: 2023-06-02
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Paygety OU
+features: 
+
+---
+

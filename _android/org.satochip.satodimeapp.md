@@ -7,8 +7,8 @@ users: 100
 appId: org.satochip.satodimeapp
 appCountry: 
 released: 2022-02-21
-updated: 2022-04-25
-version: 0.1.1
+updated: 2023-06-06
+version: 0.1.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.satochip.satodimeapp.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-04-21
+date: 2023-06-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 10000
 appId: net.benoitbasset.ograpi
 appCountry: 
 released: 2018-11-28
-updated: 2021-05-03
-version: 1.4.3
+updated: 2023-06-07
+version: 1.4.6
 stars: 3.8
 ratings: 225
 reviews: 40
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.benoitbasset.ograpi.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-04-27
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 

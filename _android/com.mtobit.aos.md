@@ -2,7 +2,8 @@
 wsId: 
 title: Mtobit
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.mtobit.aos
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.mtobit.aos.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-12-17
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,21 @@ developerName: mtobit
 features: 
 
 ---
+
+## App Description from Google Play 
+
+> Mtobit is the first crypto exchange in Vietnam
+>
+> Deposit & withdraw anytime, anywhere with multiple coin support: BTC, ETH, LTC, etc.
+
+## Analysis 
+
+- The listed website is no longer online 
+- The app was last updated more than 2 years ago 
+- We installed the app, but when we tried to open it, it gave an error:
+
+> Network Unavailable. Try again. 
+
+- It did this several times. 
+- As a significant period of time has elapsed since this website was online, coupled with an app that is no longer working, we conclude that this app is already **defunct**
 

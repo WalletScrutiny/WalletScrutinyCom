@@ -2,7 +2,8 @@
 wsId: 
 title: Global Cryptocurrency Exchange
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2021-11-01
+verdict: nowallet
+date: 2023-05-09
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,5 @@ features:
 
 ---
 
+- The app only shows icons linking to popular exchanges
+- It has no other function and thus, no support for wallets.

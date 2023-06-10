@@ -20,7 +20,7 @@ icon: com.wowoonet.wallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-12-29
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 

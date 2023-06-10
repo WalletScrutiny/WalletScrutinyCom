@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.xif.com.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-11
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 

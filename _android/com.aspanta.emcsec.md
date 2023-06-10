@@ -2,7 +2,8 @@
 wsId: 
 title: Emercoin Secure Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.aspanta.emcsec
 appCountry: 
@@ -19,15 +20,38 @@ issue:
 icon: com.aspanta.emcsec.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2021-08-17
+verdict: nosource
+date: 2023-05-11
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: emercoin_press
+social:
+- https://t.me/emercoin_official
+- https://www.facebook.com/EmercoinOfficial
+- https://www.youtube.com/channel/UCeHlonUkITqe4PtpW8p4wmg
+- https://www.reddit.com/r/EmerCoin
 redirect_from: 
 developerName: olegarch
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Emercoin Secure Wallet is an easy-to-use and lightweight crypto wallet based on the Electrum protocol. It currently supports two cryptocurrencies, Emercoin and Bitcoin, stored together in the same wallet.
+>
+> The wallet is:
+>
+> Secure, with private keys stored on the user device and the wallet itself protected with a seed phrase, and
+Lightweight, as it does not need storing the blockchain.
+>
+> You can also use the wallet with your own Electrum servers.
+
+## Analysis 
+
+- We were able to install the app
+- Emercoin and BTC wallets are available
+- The seed phrases were provided 
+- Emercoin has a GitHub [organization page](https://github.com/orgs/emercoin/repositories), but we were not able to locate the specific repository for the Android app.
+- We [tweeted](https://twitter.com/BitcoinWalletz/status/1656595602980089857) @emercoin_press just in case they could provide a link. 
+- While we wait for their response, we'll tentatively give this app a verdict of **not having its source publicly available**.

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oxy.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 
