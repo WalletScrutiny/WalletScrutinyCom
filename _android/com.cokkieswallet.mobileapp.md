@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.cokkieswallet.mobileapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
 date: 2023-05-17
 signer: 
@@ -43,4 +43,4 @@ features:
 - The website is no longer online 
 - We emailed the developer in the provided email address from Google Play: cokkieswallet@gmail.com
 - We installed the app. But when it came to creating the new wallet, the app does not show the seed phrases. Clicking on the "I've written it down" button closes the app. 
-- While we await the response from the developer, we'll keep this app as a work-in-progress.
+- They have not responded for a significant period of time, thus we are marking this as **defunct**
