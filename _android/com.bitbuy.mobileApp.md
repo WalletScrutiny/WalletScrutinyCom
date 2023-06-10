@@ -12,7 +12,7 @@ updated: 2023-05-23
 version: 4.6.1
 stars: 2.8
 ratings: 1381
-reviews: 880
+reviews: 882
 size: 
 website: https://bitbuy.ca/
 repository: 

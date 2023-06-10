@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ryi.pay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-21
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 

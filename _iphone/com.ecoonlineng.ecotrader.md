@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- - https://ecoonlineng.com/
+- https://ecoonlineng.com/
 features: 
 developerName: Uche Shadrach Onuigbo
 

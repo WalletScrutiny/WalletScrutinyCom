@@ -8,8 +8,8 @@ users: 5000
 appId: africa.buycoins.buycoinsx.pro
 appCountry: us
 released: 2021-04-16
-updated: 2023-02-20
-version: 1.1.87
+updated: 2023-06-09
+version: 1.1.88
 stars: 3.9
 ratings: 102
 reviews: 4

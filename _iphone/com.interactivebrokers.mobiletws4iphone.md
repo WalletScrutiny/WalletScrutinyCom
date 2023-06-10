@@ -8,11 +8,11 @@ appId: com.interactivebrokers.mobiletws4iphone
 appCountry: us
 idd: 454558592
 released: 2011-08-12
-updated: 2023-05-17
-version: '9.03'
+updated: 2023-06-08
+version: '9.04'
 stars: 4.2
-reviews: 4091
-size: '41915392'
+reviews: 4109
+size: '41162752'
 website: http://www.interactivebrokers.com
 repository: 
 issue: 

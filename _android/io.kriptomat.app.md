@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: Kriptomat - Buy & Store Crypto
+title: 'Kriptomat: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny
