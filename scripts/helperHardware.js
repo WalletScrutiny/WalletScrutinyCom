@@ -13,7 +13,7 @@ const stats = {
   remaining: 0
 }
 
-const githubPattern =  /(https:\/\/github\.com)(\/[\w.@:\-~]+){2,}/g
+const githubPattern =  /(https:\/\/github\.com)(\/[\w.@:\-~]+){2,}/
 const ignoreVerdicts = ['nowallet', 'fake']
 const category = 'hardware'
 const folder = `_${category}/`
@@ -52,28 +52,32 @@ function refreshFile (fileName, content, octokit) {
       return release()
     }
 
-    // TODO: Mohammad 05-26-2023: support other repos and parse wallets like TREZOR differently
-    // we may need a helper for some wallets
+    // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
     if (githubPattern.test(header.repository) && !ignoreVerdicts.includes(header.verdict)) {
-      const parts = header.repository.split('/')
-      const owner = parts[3]
-      const repo = parts[4]
       let githubResult
       try {
-        githubResult = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
+        const customHelper = require(`./custom-helpers/${category}/${appId}.js`)
+        githubResult = await customHelper.getVersionInfo(octokit)
       } catch (err) {
-        console.error(`Error while fetching releases from Github for ${header.title}:`, err)
+        const parts = header.repository.split('/')
+        const owner = parts[3]
+        const repo = parts[4]
+        try {
+          githubResult = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
+        } catch (err) {
+          console.log(`Error while fetching releases from Github for ${header.title}:`, err)
 
-        if (err.status === 404) {
-          try {
-            console.log('Trying to get tags…')
-            const tag = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
-            const commitSHA = tag.commit.sha
-            const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
-            tag.created_at = commit.commit.author.date
-            githubResult = tag
-          } catch (err) {
-            console.log(`No version info available on Github for ${header.title}`)
+          if (err.status === 404) {
+            try {
+              console.log('Trying to get tags…')
+              const tag = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
+              const commitSHA = tag.commit.sha
+              const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
+              tag.created_at = commit.commit.author.date
+              githubResult = tag
+            } catch (err) {
+              console.log(`No version info available on Github for ${header.title}`)
+            }
           }
         }
       }
