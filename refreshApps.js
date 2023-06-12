@@ -14,11 +14,11 @@ async function refresh (markDefunct, apps, githubApi) {
     const hardwareIds = ids.filter(it => it.startsWith('hardware')).map(it => it.split('/')[1])
     appStore.refreshAll(appStoreIds, markDefunct, githubApi)
     playStore.refreshAll(playStoreIds, markDefunct, githubApi)
-    hardware.refreshAll(hardwareIds, markDefunct, githubApi)
+    hardware.refreshAll(hardwareIds, githubApi)
   } else {
     appStore.refreshAll(undefined, undefined, githubApi)
     playStore.refreshAll(undefined, undefined, githubApi)
-    hardware.refreshAll(undefined, undefined, githubApi)
+    hardware.refreshAll(undefined, githubApi)
   }
   const updateMillis = 500
   var msg = ''

@@ -14,7 +14,8 @@ const stats = {
 }
 
 const githubPattern =  /(https:\/\/github\.com)(\/[\w.@:\-~]+){2,}/
-const ignoreVerdicts = ['nowallet', 'fake']
+const ignoreVerdicts = ['nowallet', 'fake', 'unreleased']
+const ignoreMetas = ['discontinued']
 const category = 'hardware'
 const folder = `_${category}/`
 const headers = ('title appId authors released discontinued updated version ' +
@@ -53,7 +54,7 @@ function refreshFile (fileName, content, octokit) {
     }
 
     // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
-    if (githubPattern.test(header.repository) && !ignoreVerdicts.includes(header.verdict)) {
+    if (githubPattern.test(header.repository) && !ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
       let githubResult
       try {
         const customHelper = require(`./custom-helpers/${category}/${appId}.js`)
