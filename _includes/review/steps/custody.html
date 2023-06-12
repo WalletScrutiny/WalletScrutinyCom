@@ -3,6 +3,7 @@
   <div class="title">
     <h3>Custody</h3>
     <p>
+    {% assign conjunctionText = 'But' %}
     {% if include.platform == 'hardware' or include.platform == 'bearer' %}
       {% capture methodology %}<p>As part of <a href="/methodology/#prefilled">our Methodology</a>, we ask: <b>{{ site.data.verdicts['prefilled'].question }}</b></p>{% endcapture %}
       {% if page.verdict == 'prefilled' %}
@@ -14,16 +15,38 @@
         {% endif %}
     {% else %}
       {% capture methodology %}<p>As part of <a href="/methodology/#custodial">our Methodology</a>, we ask: <b>{{ site.data.verdicts['custodial'].question }}</b></p>{% endcapture %}
-      {% if page.verdict == 'custodial' %}
+        <!-- APPLY INDICES FOR VERDICTS -->
+        {% assign custodyIndex = 0 %}
+        {% assign verdictIndex = 0 %}
+        {% assign iterationCount = 0 %}
+        {% for verdict in site.data.platformMeta[include.platform].verdicts %}
+          {% assign iterationCount = iterationCount | plus: 1 %}
+          {% case verdict %}
+            {% when page.verdict %}
+              {% assign verdictIndex = iterationCount %}
+            {% when 'custodial' %}
+              {% assign custodyIndex = iterationCount %}
+            {% else %}
+          {% endcase %}
+        {% endfor %}
+
+        <!-- DID NOT TEST FOR CUSTODY -->
+        {% if custodyIndex > verdictIndex %}
+        {{ site.data.verdicts[page.verdict].short }}
+        {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+        {% assign conjunctionText = 'Also' %}
+        <!-- IS NOT SELF-CUSTODIAL -->
+        {% elsif page.verdict == 'custodial' %}
         {{ site.data.verdicts[page.verdict].short }}
         {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts['custodial'].title }}</strong>".<br><a href="#custodial">Read more</a></p>{% endcapture %}
+        <!-- IS SELF-CUSTODIAL -->
         {% else %}
         {{"Self-custodial: The user holds the keys"}}
         {% capture answer %} <p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
         {% endif %}
     {% endif %}
     {% if page.meta != "ok" %}
-      <p class="warn">But 
+      <p class="warn">{{ conjunctionText }} 
         <span class="lower">{{ site.data.verdicts[page.meta].message }}</span>
       </p>
     {% endif %}
