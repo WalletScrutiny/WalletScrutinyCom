@@ -66,11 +66,9 @@ function refreshFile (fileName, content, octokit) {
         try {
           githubResult = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
         } catch (err) {
-          console.log(`Error while fetching releases from Github for ${header.title}:`, err)
-
           if (err.status === 404) {
             try {
-              console.log('Trying to get tags…')
+              console.log(`Couldn't find releases for ${header.title} at https://github.com/${owner}/${repo} ... trying to get tags…`)
               const tag = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
               const commitSHA = tag.commit.sha
               const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
@@ -79,6 +77,8 @@ function refreshFile (fileName, content, octokit) {
             } catch (err) {
               console.log(`No version info available on Github for ${header.title}`)
             }
+          } else {
+            console.error(`Couldn't find releases for ${header.title} at https://github.com/${owner}/${repo}`, err)
           }
         }
       }
