@@ -3,7 +3,7 @@ wsId:
 title: BmKoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.oxiinc.bmkoin
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.youtube.com/channel/UC9hIY0-u6Lt1f1NHIt7VF_w
 - https://www.instagram.com/Bmkoin
-- https://www.linkedin.com/company/bmkoin 
+- https://www.linkedin.com/company/bmkoin
 redirect_from: 
 developerName: Bmkoin Digital Technology LLP
 features: 

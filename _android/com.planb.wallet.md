@@ -3,7 +3,7 @@ wsId:
 title: Plan B Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.planb.wallet
 appCountry: 

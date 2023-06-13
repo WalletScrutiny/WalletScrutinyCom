@@ -3,7 +3,7 @@ wsId:
 title: Privateum Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.privateum.wallet
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-31
 signer: 
 reviewArchive: 
 twitter: privateumglobal
-social: 
+social:
 - https://www.facebook.com/privateumglobal
 - https://www.linkedin.com/company/privateumglobal
 - https://www.instagram.com/privateumglobal

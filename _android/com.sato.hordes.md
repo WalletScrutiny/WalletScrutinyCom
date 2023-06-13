@@ -3,7 +3,7 @@ wsId:
 title: Hordes Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.sato.hordes
 appCountry: 
 released: 

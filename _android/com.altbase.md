@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.altbase.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,7 +3,7 @@ wsId:
 title: MeeyWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.org.meeyinvest
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: OXI Corp
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.oxicorp.app
 appCountry: 

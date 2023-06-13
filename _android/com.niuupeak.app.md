@@ -3,7 +3,7 @@ wsId:
 title: Niuupeak
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.niuupeak.app
 appCountry: 

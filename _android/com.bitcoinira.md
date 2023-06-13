@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-15
 updated: 2023-04-28
 version: 1.5.32
-stars: 4.4
+stars: 4.5
 ratings: 508
-reviews: 472
+reviews: 474
 size: 
 website: https://bitcoinira.com/
 repository: 

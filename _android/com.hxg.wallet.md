@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ullapay.com/
+website: https://wowearn.com/
 repository: 
 issue: 
 icon: com.hxg.wallet.png

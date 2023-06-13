@@ -3,7 +3,7 @@ wsId:
 title: PC Crypto Market
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pccryptomarket
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitlifi
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitlifi.app
 appCountry: 
 released: 2023-05-04
@@ -19,7 +19,7 @@ issue:
 icon: com.bitlifi.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

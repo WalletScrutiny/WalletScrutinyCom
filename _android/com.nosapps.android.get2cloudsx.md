@@ -3,7 +3,7 @@ wsId:
 title: get2coin - Wallet - g2c
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.nosapps.android.get2cloudsx
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: 'WEEX: Trade BTC, ETH Futures'
 altTitle: 
 authors: 
-users: 1000
+users: 10000
 appId: com.wake.weexprd
 appCountry: 
 released: 2022-02-23

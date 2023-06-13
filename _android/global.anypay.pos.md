@@ -3,7 +3,7 @@ wsId:
 title: Anypay®
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: global.anypay.pos
 appCountry: 
 released: 2018-11-08

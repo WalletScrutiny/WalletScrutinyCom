@@ -3,7 +3,7 @@ wsId: obsidiam
 title: Obsidiam
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.obsidiam.android1
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/obsidiamexchange
 - https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
 - https://www.instagram.com/obsidiam
-- https://t.me/obsidiam 
+- https://t.me/obsidiam
 redirect_from: 
 developerName: Obsidiam
 features: 

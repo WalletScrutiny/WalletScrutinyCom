@@ -3,17 +3,17 @@ wsId: obsidiam
 title: Obsidiam
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.obsidiam.appstore
 appCountry: us
 idd: '1449766297'
-released: '2020-09-03T07:00:00Z'
+released: 2020-09-03
 updated: 2023-05-08
 version: 2.9.0
-stars: 4.92856
+stars: 4.9
 reviews: 14
 size: '80191488'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.obsidiam.appstore.jpg
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/obsidiamexchange
 - https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
 - https://www.instagram.com/obsidiam
-- https://t.me/obsidiam 
+- https://t.me/obsidiam
 features: 
 developerName: Obsidiam
 

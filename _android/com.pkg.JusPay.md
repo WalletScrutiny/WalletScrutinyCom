@@ -3,7 +3,7 @@ wsId:
 title: Jus Pay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pkg.JusPay
 appCountry: 

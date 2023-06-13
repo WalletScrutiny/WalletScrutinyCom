@@ -3,7 +3,7 @@ wsId:
 title: VivexPay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.optherium.wallet
 appCountry: 
@@ -28,7 +28,7 @@ twitter: optherium
 social:
 - https://optherium.com
 - https://www.youtube.com/c/OptheriumLabs
-- https://t.me/optherium_club 
+- https://t.me/optherium_club
 redirect_from: 
 developerName: Optherium Labs
 features: 

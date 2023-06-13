@@ -3,7 +3,7 @@ wsId:
 title: PAY2PAL
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: adyone.in.pay2pal
 appCountry: 
 released: 2023-03-04

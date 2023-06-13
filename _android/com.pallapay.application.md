@@ -3,7 +3,7 @@ wsId: pallapayApp
 title: PallaPay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pallapay.application
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-31
 signer: 
 reviewArchive: 
 twitter: pallapay_com
-social: 
+social:
 - https://www.facebook.com/pallapay
 - https://t.me/pallapay_channel
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q

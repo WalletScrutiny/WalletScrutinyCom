@@ -12,7 +12,7 @@ updated: 2023-05-25
 version: 3.0.42
 stars: 4.2
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://steakwallet.fi
 repository: 

@@ -11,7 +11,7 @@ released: 2018-08-06
 updated: 2023-06-08
 version: 3.1.12
 stars: 4.6
-reviews: 28
+reviews: 27
 size: '76314624'
 website: https://spatium.net/
 repository: 

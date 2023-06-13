@@ -8,8 +8,8 @@ users: 10000
 appId: im.adamant.adamantmessengerpwa
 appCountry: 
 released: 2020-06-13
-updated: 2023-03-03
-version: 3.3.0
+updated: 2023-06-09
+version: 4.0.0
 stars: 4
 ratings: 
 reviews: 13

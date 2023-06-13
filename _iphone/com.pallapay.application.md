@@ -3,11 +3,11 @@ wsId: pallapayApp
 title: PallaPay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.pallapay.application
 appCountry: us
 idd: '1622391711'
-released: '2022-05-12T07:00:00Z'
+released: 2022-05-12
 updated: 2022-06-01
 version: 1.0.4
 stars: 1
@@ -24,7 +24,7 @@ date: 2023-05-31
 signer: 
 reviewArchive: 
 twitter: pallapay_com
-social: 
+social:
 - https://www.facebook.com/pallapay
 - https://t.me/pallapay_channel
 - https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q

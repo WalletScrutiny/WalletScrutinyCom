@@ -3,7 +3,7 @@ wsId:
 title: Trade Bit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.onlybit.wallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://tradebit.in 
+- https://tradebit.in
 redirect_from: 
 developerName: trade bit
 features: 
