@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: X World Games
+developerName: XWG Technology
 features: 
 
 ---

@@ -3,7 +3,7 @@ wsId:
 title: Speed Bitcoin POS
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.app.speedpos
 appCountry: 
 released: 2023-03-14

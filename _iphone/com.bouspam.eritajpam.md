@@ -11,7 +11,7 @@ released: 2022-03-29
 updated: 2023-06-08
 version: '2.3'
 stars: 3.2
-reviews: 32
+reviews: 33
 size: '73734144'
 website: https://bousechanj.com/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: 'AQX: Trade Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18

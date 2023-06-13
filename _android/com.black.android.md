@@ -7,8 +7,8 @@ users: 10000
 appId: com.black.android
 appCountry: 
 released: 2021-07-09
-updated: 2023-05-24
-version: '28.0'
+updated: 2023-06-09
+version: '29.0'
 stars: 
 ratings: 
 reviews: 

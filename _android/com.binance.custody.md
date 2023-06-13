@@ -7,8 +7,8 @@ users: 500000
 appId: com.binance.custody
 appCountry: 
 released: 2021-11-25
-updated: 2023-05-29
-version: 2.6.1
+updated: 2023-06-10
+version: 2.6.2
 stars: 4.1
 ratings: 
 reviews: 8

@@ -38,7 +38,7 @@ features:
 
 **Update 2022-05-01**: This app is not available anymore.
 
-**⚠️ Note:** There is a striking resemblance to the Pallapay logo on the Google Play Store and the {% include walletLink.html wallet='android/com.paypal.android.p2pmobile.md' verdict='true' %}. We also noticed that the in-app logo is different from the Play Store logo. While not outright a fake, it raises a flag about their indifference (or laziness) when it comes to their corporate branding.
+**⚠️ Note:** There is a striking resemblance to the Pallapay logo on the Google Play Store and the {% include walletLink.html wallet='android/com.paypal.android.p2pmobile' verdict='true' %}. We also noticed that the in-app logo is different from the Play Store logo. While not outright a fake, it raises a flag about their indifference (or laziness) when it comes to their corporate branding.
 
 ## App Description 
 

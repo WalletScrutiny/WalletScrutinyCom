@@ -3,7 +3,7 @@ wsId:
 title: subterfuge
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: org.ethicnology.subterfuge
 appCountry: 
 released: 2022-09-11

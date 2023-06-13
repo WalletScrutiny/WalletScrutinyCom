@@ -11,7 +11,7 @@ updated: 2023-06-01
 version: 4.7.54425
 stars: 4.6
 ratings: 
-reviews: 85
+reviews: 86
 size: 
 website: http://www.spotware.com/
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.btcex.exchange
 appCountry: 
 released: 2021-10-25
-updated: 2023-06-08
-version: 1.3.92
+updated: 2023-06-10
+version: 1.4.21
 stars: 4.1
 ratings: 
 reviews: 8

@@ -11,7 +11,7 @@ updated: 2023-04-05
 version: 3.13.1
 stars: 4.4
 ratings: 
-reviews: 66
+reviews: 67
 size: 
 website: https://www.pillow.fund/
 repository: 

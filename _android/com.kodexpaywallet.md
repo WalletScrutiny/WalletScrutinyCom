@@ -3,7 +3,7 @@ wsId:
 title: KodexWallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.kodexpaywallet
 appCountry: 
 released: 2023-03-29
