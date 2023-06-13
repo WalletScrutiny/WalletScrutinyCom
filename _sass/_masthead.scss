@@ -114,18 +114,6 @@
           content: "";
         }
       }
-      // .search-controls {
-      //   background: var(--neutral-6);
-      //   &.hint-return {
-      //     i.enter {
-      //       display: inline-block;
-      //       &::before {
-      //         font-style: normal;
-      //         content: attr(data-symbol);
-      //       }
-      //     }
-      //   }
-      // }
     }
     .search-controls {
       position: absolute;
@@ -181,43 +169,54 @@
         position: relative;
         z-index: 1;
         &:not(:last-child) {
-          box-shadow: 0px 1px 0px 0px var(--nav-contrast);
+          box-shadow: 0px 1px 0px 0px var(--neutral-5);
         }
         &.actionable {
-          opacity: 0;
-          transform: translateX(20px);
-          animation: slideAcrossFadeIn 0.2s ease-in forwards 1;
+          @for $i from 1 through 10 {
+            &:nth-child(#{$i}) {
+              opacity: 0;
+              transform: translateX(20px);
+              animation: slideAcrossFadeIn 0.2s ease-in forwards 1;
+            }
+          }
           @keyframes slideAcrossFadeIn {
             to {
               opacity: 1;
               transform: translateX(0px);
             }
           }
+          a {
+            transition: .1s linear;
+            &:hover {
+              .result-title-wrapper {
+                color: var(--accent-text) !important;
+              }
+            }
+          }
         }
         .icon-wrapper {
           display: flex;
           background-color: var(--nav-contrast);
-          box-shadow: 0 0 0 1px var(--nav-contrast);
-          height: calc(2rem + 4px);
-          width: calc(2rem + 4px);
+          height: 50px;
+          width: 50px;
           border-radius: 15%;
           overflow: auto;
           .wallet-icon {
-            max-height: calc(2rem + 4px);
-            max-width: calc(2rem + 4px);
+            max-height: 50px;
+            max-width: 50px;
           }
         }
         .result-title-wrapper {
           display: grid;
           > span {
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 500;
           }
           small {
-            font-size: 12px;
-            line-height: 12px;
+            font-size: 13px;
+            line-height: 13px;
             opacity: 0.6;
-            margin-top: 2px;
+            margin-top: 5px;
           }
         }
         &:hover,
@@ -228,7 +227,7 @@
             content: "";
             position: absolute;
             height: 100%;
-            width: 4px;
+            width: 2px;
             top: 0;
             left: 0;
             z-index: 0;
@@ -239,8 +238,11 @@
         &:last-child:active {
           box-shadow: inset 4px 0 0 0 var(--accent-text);
         }
-        &:focus {
+        &:active {
           background: var(--accent);
+          *{
+            color: var(--permanent-black) !important;
+          }
         }
         @keyframes highlightListItem {
           from {

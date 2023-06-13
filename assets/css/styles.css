@@ -476,10 +476,7 @@ h2.section-label>a:hover {
   z-index: 1;
 }
 
-.results-list li.actionable {
-  opacity: 0;
-  animation: results-slide-in .2s ease-in forwards 1;
-}
+
 
 @keyframes results-slide-in {
   from {
@@ -521,14 +518,12 @@ h2.section-label>a:hover {
   justify-content: start;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: var(--text);
   font-weight: 400;
   text-align: left;
-  grid-template-columns: auto 1fr 28%;
-  column-gap: .75rem;
+  grid-template-columns: auto 1fr 20%;
+  column-gap: 15px;
   row-gap: 5px;
-  padding-left: .75rem;
-  padding-right: .75rem;
 }
 
 .result-pl-inner.obsolete .wallet-icon, .result-pl-inner.defunct .wallet-icon, .result-pl-inner.outdated .wallet-icon {
@@ -548,48 +543,25 @@ h2.section-label>a:hover {
 }
 
 .result-pl-inner .stamps {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
 }
 
 @media (max-width:920px) {
   .result-pl-inner {
-    grid-template-columns: auto 1fr 125px;
+    grid-template-columns: 50px 1fr 25%;
     font-size: .9rem;
   }
 }
 
-.-hom .result-pl-inner {
-  padding: .25rem .75rem;
-}
-
-.results-list li:hover::before,
-.results-list li:active::before,
-.results-list li:not(:last-child):hover::before,
-.results-list li:not(:last-child):active::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 4px;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  animation: smoothBarSlide .2s ease forwards 1
-}
-
-@keyframes smoothBarSlide {
-  from {
-    box-shadow: inset 0px 0 0 0 var(--accent-text), 0px 0px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
-  }
-
-  to {
-    box-shadow: inset 4px 0 0 0 var(--accent-text), 0px 1px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
-  }
+.-hom {
+  display: grid;
+  gap: 20px;
 }
 
 .results-list li:last-child:hover,
 .results-list li:last-child:active {
-  box-shadow: inset 4px 0 0 0 var(--accent-text);
+  box-shadow: inset 2px 0 0 0 var(--neutral-5);
 }
 
 .results-list li:focus {
