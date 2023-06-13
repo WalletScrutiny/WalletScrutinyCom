@@ -12,7 +12,7 @@ updated: 2022-12-13
 version: 1.2.8
 stars: 2.8
 ratings: 69
-reviews: 15
+reviews: 16
 size: 
 website: https://bisq.network/mobile-notifications
 repository: https://github.com/bisq-network/bisqremote_Android

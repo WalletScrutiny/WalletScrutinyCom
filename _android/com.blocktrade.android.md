@@ -17,7 +17,7 @@ size:
 website: http://blocktrade.com
 repository: 
 issue: 
-icon: com.blocktrade.android.jpg
+icon: com.blocktrade.android.png
 bugbounty: 
 meta: ok
 verdict: custodial

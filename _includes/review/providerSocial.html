@@ -70,6 +70,9 @@
       {% when "youtube"     %}{% assign fa = "fab fa-youtube" %}
       {% else               %}{% assign fa = "fas fa-globe" %}
     {% endcase %}
+    {% if s contains "mailto:" %}
+      {% assign fa = "fas fa-envelope" %}
+    {% endif %}
     <i class="{{ fa }}"></i>
   </a>
 </li>

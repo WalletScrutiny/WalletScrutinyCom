@@ -12,16 +12,16 @@ updated: 2022-06-07
 version: 2.1.4
 stars: 3.5
 ratings: 48
-reviews: 27
+reviews: 28
 size: 
 website: https://ataix.com
 repository: 
 issue: 
 icon: com.ataix.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: ATAIXcom

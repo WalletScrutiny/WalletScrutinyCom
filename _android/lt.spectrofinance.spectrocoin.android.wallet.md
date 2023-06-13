@@ -12,7 +12,7 @@ updated: 2023-03-16
 version: 1.20.0
 stars: 3.7
 ratings: 3150
-reviews: 46
+reviews: 45
 size: 
 website: https://spectrocoin.com
 repository: 

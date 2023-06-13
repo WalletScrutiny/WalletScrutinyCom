@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-02-25
 updated: 2023-04-26
 version: 2.3.2
-stars: 3.9
+stars: 4
 ratings: 261
-reviews: 18
+reviews: 19
 size: 
 website: https://btc.com
 repository: 
