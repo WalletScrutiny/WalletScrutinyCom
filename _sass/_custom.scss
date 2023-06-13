@@ -287,6 +287,31 @@
 }
 
 .temp_card {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  align-content: center;
+  justify-content: center;
+  background-color: var(--shadow-2);
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transform-origin: center;
+  animation: cardCurtainGrow 0.2s linear forwards 1;
+  @keyframes cardCurtainGrow {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
   .opened {
     background: var(--neutral-6);
     padding: 15px;
@@ -297,6 +322,18 @@
     max-height: 95vh;
     overflow: auto;
     margin: auto;
+    transform-origin: center;
+    animation: cardGrow 0.2s ease-in forwards 1;
+    @keyframes cardGrow {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
     .item {
       display: grid;
       gap: 10px;
@@ -749,24 +786,6 @@
     opacity: 1;
     transform: scale(1);
   }
-}
-
-.temp_card {
-  display: grid;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  height: 100vh;
-  width: 100vw;
-  align-content: center;
-  justify-content: center;
-  background-color: var(--shadow-2);
-  z-index: 999;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 }
 
 .stamp {

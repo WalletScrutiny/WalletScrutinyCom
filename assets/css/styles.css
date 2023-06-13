@@ -947,58 +947,14 @@ table tr td label {
   margin: 0;
 }
 
-/* .social-row ul li a {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
-  text-decoration: none;
-  color: unset;
-  text-align: center;
-  padding: 4px;
-  margin: 4px;
-  border-radius: 4px;
-  row-gap: 3px;
-  transition: none;
-}
-
-.social-row ul li a i {
-  font-size: 1.2rem;
-} */
-
-/* .social-row ul li a>span {
-  display: none;
-  font-size: 11px;
-  opacity: .3;
-}
-
-.social-row ul li a:hover>span {
-  opacity: 1;
-} */
 
 .social-row a {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr;
+  text-transform: capitalize;
   text-decoration: none;
-  text-align: center;
-  padding: 3px 7px;
-  margin: 4px;
-  gap: 6px;
-  transition: none;
-  font-size: 14px;
-  line-height: 14px;
-  border-radius: 100px;
-  background-color: transparent;
-  opacity: .8;
-  color: var(--text);
-  box-shadow: 0 0 0 1px var(--shadow-2);
 }
 
 .social-row a:hover {
-  opacity: 1;
-  background-color: var(--accent);
-  color: var(--white);
-  box-shadow: none;
+  text-decoration: underline;
 }
 
 .social-row a:active {

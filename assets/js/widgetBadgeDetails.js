@@ -3,7 +3,7 @@
  **/
 function getWidgetDetails(wallet) {
   function linkIf(url, title, logo) {
-    return hasValue(url) ? `<a target="_blank" title="${title}" href="${url}">${logo}</a>` : ""
+    return hasValue(url) ? `<a target="_blank" title="${title}" href="${url}">${logo?logo:''}</a>` : ""
   }
 
   function hasValue(x) {
@@ -14,11 +14,8 @@ function getWidgetDetails(wallet) {
   }
   
   function getSocialLinks(social) {
-    return social
-      ? social.map( s => linkIf(s,
-        "Provider " + (new URL(s)).hostname.replace('www.', ''),
-        '<i class="fas fa-globe"></i>')).join(' ')
-      : ''
+
+    return social ? social.map( s => linkIf(s,(new URL(s).hostname.replace('www.', '').replace('.com', '')))).join('') : ''
   }
 
   return `<table>
@@ -43,17 +40,17 @@ function getWidgetDetails(wallet) {
     <tr><td colspan="2">
       <div class="social-row flex-parent">
       ${ wallet.folder == "iphone"
-        ? `<a target="_blank" title="App Store" href="https://apps.apple.com/${wallet.appCountry || "us"}/app/id${wallet.idd}"><i class="fab fa-app-store"></i></a>`
+        ? `<a target="_blank" title="View on App Store" href="https://apps.apple.com/${wallet.appCountry || "us"}/app/id${wallet.idd}"></a>`
         : wallet.folder == "android"
-          ? `<a target="_blank" title="Play Store" href="https://play.google.com/store/apps/details?id=${wallet.appId}"><i class="fab fa-google-play"></i></a>`
+          ? `<a target="_blank" title="View on Play Store" href="https://play.google.com/store/apps/details?id=${wallet.appId}"></a>`
           : ""
       }
-      ${ linkIf(wallet.website,          "Provider Website",  '<i class="fas fa-globe"></i>') }
-      ${ linkIf(wallet.shop,             "Official Store",    '<i class="fas fa-shopping-cart"></i>') }
-      ${ linkIf(wallet.binaries,         "Binaries",          '<i class="fas fa-file-archive"></i>') }
-      ${ linkIf(wallet.repository,       "Code Repository",   '<i class="fa fa-file-code"></i>') }
-      ${ linkIf(wallet.issue,            "Issue",             '<i class="fa fa-bug" aria-hidden="true"></i>') }
-      ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Provider Twitter", '<i class="fab fa-twitter"></i>') }
+      ${ linkIf(wallet.website,          "Website") }
+      ${ linkIf(wallet.shop,             "Official Store") }
+      ${ linkIf(wallet.binaries,         "Binaries") }
+      ${ linkIf(wallet.repository,       "Code Repository") }
+      ${ linkIf(wallet.issue,            "Issue") }
+      ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Twitter") }
       ${ getSocialLinks(wallet.social) }
       </div>
     </td></tr>
