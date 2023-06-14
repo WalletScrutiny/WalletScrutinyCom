@@ -1,9 +1,10 @@
 ---
-title: Foundation Passport "Founder's Edition"
-appId: passportfe
+title: Foundation Passport - Founder's Edition
+appId: passport
 authors:
 - kiwilamb
 - leo
+- '@sethforprivacy'
 released: 2020-07-01
 discontinued: 
 updated: 2022-08-02
@@ -17,6 +18,7 @@ weight: 138
 provider: 
 providerWebsite: 
 website: https://foundationdevices.com/
+shop: 
 country: US
 price: 299USD
 repository: https://github.com/Foundation-Devices/passport-firmware
