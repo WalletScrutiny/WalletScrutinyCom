@@ -7,8 +7,8 @@ authors:
 - '@sethforprivacy'
 released: 2022-03-10
 discontinued: 
-updated: 2023-06-01
-version: v2.1.1
+updated: 2023-06-13
+version: v2.1.2
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39
@@ -31,9 +31,9 @@ date: 2023-06-01
 signer: 
 reviewArchive:
 - date: 2023-06-01
-  version: 2.1.1
+  version: 2.1.2
   appHash: 08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520
-  gitRevision: b4b239e067f6384f38b27731337bb96d446f18c2
+  gitRevision: f9408ef26ddd51e8b53ba0be3904d5783170aed7
   verdict: reproducible
 twitter: FOUNDATIONdvcs
 social:
