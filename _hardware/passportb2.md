@@ -14,7 +14,7 @@ dimensions:
 - 39
 - 110
 - 19
-weight: 138
+weight: 128
 provider: 
 providerWebsite: 
 website: https://foundationdevices.com/
