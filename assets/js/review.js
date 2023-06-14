@@ -121,6 +121,9 @@ window.addEventListener("hashchange", () => {
 let scoreIndex=0
 document.querySelectorAll(".score div i").forEach((ele)=>{
   ele.setAttribute("data-index", scoreIndex)
+  ele.addEventListener('click', (event)=>{
+    window.location.hash = `#${document.querySelectorAll(".methodology-accordion")[event.target.getAttribute("data-index")].getAttribute('id')}`
+  })
   ele.addEventListener('mouseenter', (event)=>{
     const i = event.target.getAttribute("data-index")
     document.querySelectorAll(".methodology-accordion").forEach((element)=>{element.classList.remove('highlight')})
