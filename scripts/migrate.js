@@ -13,6 +13,13 @@ const migration = function (header, body, fileName, category) {
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3)
   header.social = header.social || []
+  for (const l of header.social) {
+    if (l == null ||
+        (!l.startsWith('http') && !l.startsWith('mailto:')) ||
+        l.includes(' ')) {
+      console.error(`# ${folder}${header.appId}.md: Unrecognized "social" entry ${l}.`)
+    }
+  }
   if (header.stars) header.stars = Number(header.stars.toPrecision(2))
   if (header.social.length < 1) header.social = null
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries

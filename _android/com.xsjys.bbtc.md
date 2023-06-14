@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CDEX - Bitcoin & ETH CFDs
+title: CDEX - Crypto & Forex & CFDs
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.xsjys.bbtc
 appCountry: 
 released: 2022-03-01
-updated: 2023-05-03
-version: 1.4.9
+updated: 2023-06-05
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 

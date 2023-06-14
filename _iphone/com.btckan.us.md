@@ -11,7 +11,7 @@ released: 2015-06-24
 updated: 2023-01-12
 version: 8.9.1
 stars: 4.4
-reviews: 57
+reviews: 56
 size: '140145664'
 website: https://bitkan.com/
 repository: 

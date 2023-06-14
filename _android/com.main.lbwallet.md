@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.main.lbwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-10
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 

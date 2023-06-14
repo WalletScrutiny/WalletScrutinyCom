@@ -54,3 +54,5 @@ features:
 - Registration attempts on the website results in the opening of a new tab of the same page. Signing up seems to have been disabled. 
 - We emailed the developer to ask them about the situation of the app, but we do not expect a reply at info@finwhalex.com 
 - Based on the factors mentioned above, and the lack of activity and interaction, we deem this app as **defunct.**
+
+**Update:** Mail delivery failed.

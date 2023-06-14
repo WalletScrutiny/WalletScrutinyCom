@@ -1,9 +1,10 @@
 ---
-title: Foundation Passport "Batch 2"
-appId: passport
+title: Foundation Passport - Batch 2
+appId: passportb2
 authors:
 - kiwilamb
 - leo
+- '@sethforprivacy'
 released: 2022-03-10
 discontinued: 
 updated: 2023-06-01
@@ -11,7 +12,7 @@ version: v2.1.1
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39
-- 111
+- 110
 - 19
 weight: 138
 provider: 
@@ -21,8 +22,10 @@ shop: https://foundationdevices.com/passport/
 country: US
 price: 199USD
 repository: https://github.com/Foundation-Devices/passport2
-icon: passportbatch2.png
+issue: 
+icon: passportb2.png
 bugbounty: https://foundationdevices.com/security/
+meta: ok
 verdict: reproducible
 date: 2023-06-01
 signer: 

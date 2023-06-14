@@ -8,11 +8,11 @@ users: 5000000
 appId: com.fbs.tpand
 appCountry: 
 released: 2019-03-25
-updated: 2023-04-10
+updated: 2023-05-30
 version: 1.57.0
 stars: 4.7
 ratings: 128577
-reviews: 103
+reviews: 101
 size: 
 website: https://fbs.com/
 repository: 
@@ -26,7 +26,6 @@ signer:
 reviewArchive: 
 twitter: financefreedomsuccess
 social:
-- https://www.linkedin.com/company/FBS Inc.
 - https://www.facebook.com/financefreedomsuccess
 redirect_from: 
 developerName: FBS.com

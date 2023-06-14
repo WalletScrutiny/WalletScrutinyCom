@@ -12,7 +12,7 @@ dimensions:
 - 39
 - 110
 - 19
-weight: 453.59
+weight: 454
 provider: Foundation Devices, Inc.
 providerWebsite: https://foundationdevices.com/
 website: https://foundationdevices.com/passport/

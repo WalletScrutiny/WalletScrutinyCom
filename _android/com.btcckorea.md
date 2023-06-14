@@ -2,7 +2,8 @@
 wsId: 
 title: JetFinex
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.btcckorea
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.btcckorea.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-05-13
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> JetFinex safely keeps all of your assets (KRW, passwords) securely and protects your assets and clearly separates your assets from your operating assets.
+
+## Analysis 
+
+- The website associated with the app is no longer online
+- When we tried to install the app, it stated: 
+
+> The app isn't available for your device because it was made for an older version of Android 
+
+- From the app description, the offline website, and from the obsolete nature of the app, this can be designated as **defunct**. Other than that, we can glean that it was custodial.
