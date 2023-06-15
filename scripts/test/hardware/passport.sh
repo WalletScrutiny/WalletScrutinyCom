@@ -58,6 +58,7 @@ if [[ "$3" ]]; then
         echo "$buildHash *ports/stm32/build-Passport/firmware-MONO.bin" | sha256sum --check
     fi
 fi
+
 # Print binary hash and expected binary hash
 echo "v${version} release binary sha256 hash:"
 shasum -b -a 256 ../${fileName}
@@ -66,3 +67,21 @@ if [[ "$4" ]]; then
     echo $releaseHash
     echo "$releaseHash ../${fileName}" | sha256sum --check
 fi
+
+# Verify stripped release binary matches built binary
+echo "Comparing v${version} stripped release binary hash:"
+echo "For more info, visit https://github.com/Foundation-Devices/passport2/blob/main/REPRODUCIBILITY.md#verify-release-binary-hash"
+dd if=../${fileName} of=no-header-${fileName} ibs=2048 skip=1 status=none
+if [[ $2 == "color" ]]; then
+    binaryHash=($(shasum -b -a 256 ports/stm32/build-Passport/firmware-COLOR.bin))
+elif [[ $2 == "mono" ]]; then
+    binaryHash=($(shasum -b -a 256 ports/stm32/build-Passport/firmware-MONO.bin))
+fi
+echo "Expected v${version} build hash:"
+echo $binaryHash
+echo "$binaryHash no-header-${fileName}" | sha256sum --check
+
+# Cleanup all downloaded files and build artifacts
+cd ~
+rm -rf /tmp/passport/
+docker image rm foundation-devices/passport2:latest
