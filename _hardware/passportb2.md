@@ -1,13 +1,13 @@
 ---
-title: Foundation Passport - Batch 2
-appId: passportb2
+title: Foundation Passport
+appId: passport
 authors:
 - kiwilamb
 - leo
 - '@sethforprivacy'
 released: 2022-03-10
 discontinued: 
-updated: 2023-06-13
+updated: 2023-06-16
 version: v2.1.2
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
@@ -27,10 +27,10 @@ icon: passportb2.png
 bugbounty: https://foundationdevices.com/security/
 meta: ok
 verdict: reproducible
-date: 2023-06-01
+date: 2023-06-13
 signer: 
 reviewArchive:
-- date: 2023-06-01
+- date: 2023-06-13
   version: 2.1.2
   appHash: 08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520
   gitRevision: f9408ef26ddd51e8b53ba0be3904d5783170aed7
