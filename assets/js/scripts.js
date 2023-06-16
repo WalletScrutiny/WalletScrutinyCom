@@ -326,9 +326,10 @@ function filterWalletsByName() {
       }
       else {
         for (const word of searchTermWords) {
-          if (word !== 'wallet' && walletAsStr.indexOf(word) >= 0) {
-            wallet.matchRank = 2
+          if (walletAsStr.indexOf(word) >= 0) {
+            wallet.matchRank = walletAsStr.indexOf(word)
             window.filteredWallets.push(wallet)
+            break
           }
         }
       }
