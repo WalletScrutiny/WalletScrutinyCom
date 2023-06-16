@@ -95,6 +95,8 @@ function productCount(verdict, platform) {
 }
 
 function updateModularPayload(page, unrestrictedSearch) {
+  const searchTerm = document.querySelector(".search-filtered-wallets").value
+  unrestrictedSearch = unrestrictedSearch?unrestrictedSearch:(searchTerm.length > 0 ? true : false)
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "all"
   // remove empty verdicts
@@ -124,6 +126,8 @@ function updateModularPayload(page, unrestrictedSearch) {
   })
   appIds.sort().reverse()
   presort.sort((a, b) => {
+    if (a.matchRank != b.matchRank)
+    return a.matchRank - b.matchRank
     if (a.verdict != b.verdict)
       return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
@@ -187,7 +191,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
   const searchTerm = document.querySelector(".search-filtered-wallets").value
   let queryEcho = searchTerm.length > 0 ? `No wallets match for "${searchTerm}".` : `Enter some text to search all wallets.`
-  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match "${searchTerm}".`:`Showing ${wallets.length} wallets which match current filters.`)
+  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match <b>"${searchTerm}"</b> across all platforms and verdicts.` : `Showing ${wallets.length} wallets which match current filters.`)
   flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
@@ -214,7 +218,7 @@ function updatePageinationUI(index) {
   if (allTargetEle[index]) { allTargetEle[index].classList.add("selected") }
   updateUrl(true)
   updateModularPayload(index)
-  window.scroll(0,document.querySelector("#homepageSearch").offsetTop)
+  window.scroll(0, document.querySelector("#homepageSearch").offsetTop)
 }
 
 async function processStyle(wallet) {
@@ -226,17 +230,18 @@ async function processStyle(wallet) {
   let imgObj = new Image();
   imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
   imgObj.onload = function () {
-    if(wallet.folder!=='bearer' && wallet.folder!=='hardware')
-    {let instanceCanvas = document.createElement("canvas")
-    instanceCanvas.setAttribute("class", `${wIdforDOM}-instance-canvas instance-canvas`)
-    instanceCanvas.height = imgObj.height*.25
-    instanceCanvas.width = imgObj.width*.25
-    document.body.append(instanceCanvas)
-    let canvasEle = document.querySelector(`.${wIdforDOM}-instance-canvas`)
-    canvasEle.getContext("2d").drawImage(imgObj, 0, 0);
-    const canvasEleData = canvasEle.getContext("2d").getImageData(0, 0, canvasEle.width, canvasEle.height);
-    if (canvasEleData.data[3] == 0 && canvasEleData.data[canvasEleData.data.length-1] == 0) { target.setAttribute("data-icon-shape", "free") }
-    else if (canvasEleData.data[3] < 255) { target.setAttribute("data-icon-shape", "round") }}
+    if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware') {
+      let instanceCanvas = document.createElement("canvas")
+      instanceCanvas.setAttribute("class", `${wIdforDOM}-instance-canvas instance-canvas`)
+      instanceCanvas.height = imgObj.height * .25
+      instanceCanvas.width = imgObj.width * .25
+      document.body.append(instanceCanvas)
+      let canvasEle = document.querySelector(`.${wIdforDOM}-instance-canvas`)
+      canvasEle.getContext("2d").drawImage(imgObj, 0, 0);
+      const canvasEleData = canvasEle.getContext("2d").getImageData(0, 0, canvasEle.width, canvasEle.height);
+      if (canvasEleData.data[3] == 0 && canvasEleData.data[canvasEleData.data.length - 1] == 0) { target.setAttribute("data-icon-shape", "free") }
+      else if (canvasEleData.data[3] < 255) { target.setAttribute("data-icon-shape", "round") }
+    }
 
     let colorThief = new ColorThief();
 
@@ -302,13 +307,25 @@ function filterWalletsByName() {
     for (const wallet of window.wallets) {
       let walletAsStr = ''
       for (const [key, value] of Object.entries(wallet)) {
-        walletAsStr+=Array.isArray(value)?JSON.stringify(value):value
+        walletAsStr += Array.isArray(value) ? JSON.stringify(value) : value
       }
       walletAsStr = String(walletAsStr).toUpperCase()
-      if (walletAsStr.indexOf(searchTerm) >= 0) { window.filteredWallets.push(wallet) }
+      if (walletAsStr.indexOf(searchTerm.replace(/ /g, '')) >= 0) {
+        wallet.matchRank = 0
+        window.filteredWallets.push(wallet)
+        continue
+      }
+      else if (walletAsStr.indexOf(searchTerm.replace(/wallet/g, '')) >= 0) {
+        wallet.matchRank = 1
+        window.filteredWallets.push(wallet)
+        continue
+      }
       else {
-        for (const word of searchTermWords) {
-          if (walletAsStr.indexOf(word) >= 0) { window.filteredWallets.push(wallet) }
+        for (const word of searchTermWords) {          
+          if (word !== 'wallet' && walletAsStr.indexOf(word) >= 0) {
+            wallet.matchRank = 2
+            window.filteredWallets.push(wallet)
+          }
         }
       }
     }
@@ -316,7 +333,11 @@ function filterWalletsByName() {
   const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "all"
   recreateDropdowns(verdict, platform)
-  updateModularPayload(0, searchTerm.length > 0 ? true : false)
+  updateModularPayload(0)
 }
-document.querySelector(".search-filtered-wallets").addEventListener("input", filterWalletsByName)
+function timeoutWalletFilterByName(){
+  try { clearTimeout(window.timeoutWalletFilterByNameObj) }catch(e){}
+  window.timeoutWalletFilterByNameObj = setTimeout(()=>{filterWalletsByName()},500)
+}
+document.querySelector(".search-filtered-wallets").addEventListener("input", timeoutWalletFilterByName)
 document.querySelector(".search-filtered-wallets").value = ""
