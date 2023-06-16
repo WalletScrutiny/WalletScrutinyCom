@@ -2,7 +2,7 @@
 
 repo=https://github.com/nunchuk-io/nunchuk-android
 tag=android.$versionName
-builtApk="$workDir/nunchuk-app/build/outputs/apk/production/release/app-release-unsigned.apk"
+builtApk="$workDir/nunchuk-app/build/outputs/apk/production/release/nunchuk-app-production-release.apk"
 
 test() {
   podman run -it --volume $PWD:/mnt --rm $wsContainer bash -x -c "apt update;
