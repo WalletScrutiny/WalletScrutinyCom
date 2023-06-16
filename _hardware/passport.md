@@ -1,6 +1,6 @@
 ---
 title: Foundation Passport - Founder's Edition
-appId: passportfe
+appId: passport
 authors:
 - kiwilamb
 - leo

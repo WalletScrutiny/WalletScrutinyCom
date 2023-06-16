@@ -1,6 +1,6 @@
 ---
 title: Foundation Passport
-appId: passport
+appId: passportb2
 authors:
 - kiwilamb
 - leo
