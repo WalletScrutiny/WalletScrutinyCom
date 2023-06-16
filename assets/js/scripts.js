@@ -78,7 +78,7 @@ function recreateDropdowns(verdict, platform) {
 }
 
 for (const target of ["verdict", "platform"]) {
-  addDropdownEvents(target, () => { updateUrl(true); updateModularPayload() })
+  addDropdownEvents(target, () => { updateUrl(true); updateModularPayload(0, false) })
 }
 
 
@@ -95,13 +95,17 @@ function productCount(verdict, platform) {
 }
 
 function updateModularPayload(page, unrestrictedSearch) {
-  const searchTerm = document.querySelector(".search-filtered-wallets").value
-  unrestrictedSearch = unrestrictedSearch?unrestrictedSearch:(searchTerm.length > 0 ? true : false)
+  // const searchTerm = document.querySelector(".search-filtered-wallets").value
+  // unrestrictedSearch = unrestrictedSearch ? unrestrictedSearch : (searchTerm.length > 0 ? true : false)
+
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "all"
-  // remove empty verdicts
-  recreateDropdowns(verdict, platform)
-  verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
+  if (unrestrictedSearch) {
+    recreateDropdowns('all', 'all')
+  } else {
+    // remove empty verdicts
+    recreateDropdowns(verdict, platform)
+  }
 
   document.querySelectorAll(".-filter-element").forEach(e => {
     e.classList.contains(`-${platform}`) ? (e.style.display = "flex") : (e.style.display = "none")
@@ -127,7 +131,7 @@ function updateModularPayload(page, unrestrictedSearch) {
   appIds.sort().reverse()
   presort.sort((a, b) => {
     if (a.matchRank != b.matchRank)
-    return a.matchRank - b.matchRank
+      return a.matchRank - b.matchRank
     if (a.verdict != b.verdict)
       return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
@@ -191,7 +195,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
   const searchTerm = document.querySelector(".search-filtered-wallets").value
   let queryEcho = searchTerm.length > 0 ? `No wallets match for "${searchTerm}".` : `Enter some text to search all wallets.`
-  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match <b>"${searchTerm}"</b> across all platforms and verdicts.` : `Showing ${wallets.length} wallets which match current filters.`)
+  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match <b>"${searchTerm}"</b> across current filters.` : `Showing ${wallets.length} wallets which match current filters.`)
   flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
@@ -321,7 +325,7 @@ function filterWalletsByName() {
         continue
       }
       else {
-        for (const word of searchTermWords) {          
+        for (const word of searchTermWords) {
           if (word !== 'wallet' && walletAsStr.indexOf(word) >= 0) {
             wallet.matchRank = 2
             window.filteredWallets.push(wallet)
@@ -333,11 +337,11 @@ function filterWalletsByName() {
   const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "all"
   recreateDropdowns(verdict, platform)
-  updateModularPayload(0)
+  updateModularPayload(0, true)
 }
-function timeoutWalletFilterByName(){
-  try { clearTimeout(window.timeoutWalletFilterByNameObj) }catch(e){}
-  window.timeoutWalletFilterByNameObj = setTimeout(()=>{filterWalletsByName()},500)
+function timeoutWalletFilterByName() {
+  try { clearTimeout(window.timeoutWalletFilterByNameObj) } catch (e) { }
+  window.timeoutWalletFilterByNameObj = setTimeout(() => { filterWalletsByName() }, 500)
 }
 document.querySelector(".search-filtered-wallets").addEventListener("input", timeoutWalletFilterByName)
 document.querySelector(".search-filtered-wallets").value = ""
