@@ -185,8 +185,9 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
   g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
-  let queryEcho = document.querySelector(".search-filtered-wallets").value.length > 0 ? `No wallets match for "${document.querySelector(".search-filtered-wallets").value}".` : `Enter some text to search all wallets.`
-  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : `Showing ${wallets.length} wallets which match current filters.`
+  const searchTerm = document.querySelector(".search-filtered-wallets").value
+  let queryEcho = searchTerm.length > 0 ? `No wallets match for "${searchTerm}".` : `Enter some text to search all wallets.`
+  let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match "${searchTerm}".`:`Showing ${wallets.length} wallets which match current filters.`)
   flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
@@ -213,7 +214,7 @@ function updatePageinationUI(index) {
   if (allTargetEle[index]) { allTargetEle[index].classList.add("selected") }
   updateUrl(true)
   updateModularPayload(index)
-  document.querySelector("#homepageSearch").scrollIntoView({ block: "start" })
+  window.scroll(0,document.querySelector("#homepageSearch").offsetTop)
 }
 
 async function processStyle(wallet) {
@@ -293,7 +294,7 @@ function getBadge(wallet, numbInPage) {
 }
 
 function filterWalletsByName() {
-  let searchTerm = document.querySelector(".search-filtered-wallets").value.trim().toUpperCase()
+  const searchTerm = document.querySelector(".search-filtered-wallets").value.trim().toUpperCase()
   if (searchTerm.length < 1) { window.filteredWallets = window.wallets }
   else {
     window.filteredWallets = []

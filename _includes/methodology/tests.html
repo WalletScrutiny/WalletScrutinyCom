@@ -94,7 +94,7 @@
     window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
     if(test){setTimeout(()=>{
       const target = document.querySelector(`#${current}-${test}`)
-      target.scrollIntoView({ block: "start" })
+      window.scroll(0,target.offsetTop)
       target.setAttribute("data-dropdown-open", 'true')
       for(let neon of document.querySelectorAll('.neon-lights')){neon.classList.remove('neon-lights')}
       setTimeout(()=>{target.classList.add('neon-lights')},100)

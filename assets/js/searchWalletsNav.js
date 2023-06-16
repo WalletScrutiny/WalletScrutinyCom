@@ -141,7 +141,7 @@ function searchCatalogueNav(input) {
 }
 
 function deferSearch(input) {
-  document.querySelector("#homepageSearch").scrollIntoView({ block: "start" })
+  window.scroll(0,document.querySelector("#homepageSearch").offsetTop)
   document.querySelector(".search-filtered-wallets").value = input
   filterWalletsByName()
   document.querySelector(".search-filtered-wallets").focus()

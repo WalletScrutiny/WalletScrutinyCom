@@ -4,6 +4,9 @@
       <script>window.full_wallet_count=`{% include /homepage/full_wallet_count.html %}`</script>
     <input class="search-filtered-wallets" />
   </div>
+  <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
+    <i class="fas fa-filter"></i>
+  </div>
   <div title="Verdict" class="component component-verdict">
     <div class="dropdown-options dropdown-verdict"></div>
   </div>
@@ -16,3 +19,13 @@
 
 
 <div id="modularWalletPayload" class="tile-list-ui view-tiles">
+
+<script>
+  function filtersToggle(self){
+    if(self.parentNode.classList.contains('filters-visible')){
+    self.parentNode.classList.remove('filters-visible')
+    return
+    }
+    self.parentNode.classList.add('filters-visible')
+  }
+</script>
