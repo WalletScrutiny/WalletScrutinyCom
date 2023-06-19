@@ -35,7 +35,7 @@ git checkout v${version}
 curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /tmp/passport
 
 # Build and verify the sha256 hash of the specified firmware version
-/tmp/passport/just build-docker
+docker build -t foundation-devices/passport2:latest .
 if [[ $2 == "color" ]]; then
     /tmp/passport/just build-firmware color
 elif [[ $2 == "mono" ]]; then
