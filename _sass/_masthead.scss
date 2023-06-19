@@ -269,6 +269,7 @@
   }
   @media (max-width: 700px) {
     // CHILD OF MASTHEAD
+    .desktop-only{display: none;}
     grid-template: 1fr auto / 1fr auto;
     .search-results {
       &.visible {

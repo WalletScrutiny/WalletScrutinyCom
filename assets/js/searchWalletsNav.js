@@ -10,55 +10,56 @@ window.addEventListener("resize", () => {
     exitSearchUI()
   }
 })
-document.body.addEventListener("click", () => {
-  exitSearchUI()
-})
-document.querySelector(".reset-search").addEventListener("click", (event) => {
-  event.stopPropagation()
-  window.searchTerm = ""
-  document.querySelector(".searchbar").value = ""
-  document.querySelector(".search-controls").classList.remove("hint-return")
-  document.querySelector(".wallet-search").classList.remove("active")
-  document.querySelector(".search-controls").classList.remove("working")
-  document.querySelector(".search-controls").classList.remove("edited")
-  exitSearchUI()
-})
-document.querySelectorAll(".search-trigger-target").forEach((ele) => {
-  ele.addEventListener("click", (event) => {
-    event.stopPropagation()
-    searchTrigger()
+if (document.querySelector(".searchbar")) {
+  document.body.addEventListener("click", () => {
+    exitSearchUI()
   })
-})
-document.querySelector(".searchbar").value = ""
-document.querySelector(".searchbar").addEventListener("input", () => {
-  window.searchTerm = document.querySelector(".searchbar").value
-  searchTrigger()
-})
-document.querySelector(".searchbar").addEventListener("keyup", (e) => {
-  if (e.key === 'Enter' || e.keyCode === 13) {
+  document.querySelector(".reset-search").addEventListener("click", (event) => {
+    event.stopPropagation()
+    window.searchTerm = ""
+    document.querySelector(".searchbar").value = ""
+    document.querySelector(".search-controls").classList.remove("hint-return")
+    document.querySelector(".wallet-search").classList.remove("active")
+    document.querySelector(".search-controls").classList.remove("working")
+    document.querySelector(".search-controls").classList.remove("edited")
+    exitSearchUI()
+  })
+  document.querySelectorAll(".search-trigger-target").forEach((ele) => {
+    ele.addEventListener("click", (event) => {
+      event.stopPropagation()
+      searchTrigger()
+    })
+  })
+  document.querySelector(".searchbar").value = ""
+  document.querySelector(".searchbar").addEventListener("input", () => {
     window.searchTerm = document.querySelector(".searchbar").value
     searchTrigger()
-  }
-})
-
-document.querySelector(".mobile-search-shortcut").addEventListener("click", () => {
-  if (!document.querySelector(".wallet-search").classList.contains("mobile-active")) {
-    document.querySelector(".wallet-search").classList.add("mobile-active")
-    document.querySelector(".mobile-search-shortcut").classList.add("active")
-    document.querySelector(".searchbar").focus()
-  } else {
-    document.querySelector(".wallet-search").classList.remove("mobile-active")
-    document.querySelector(".mobile-search-shortcut").classList.remove("active")
-  }
-})
-document.querySelector(".searchbar").addEventListener("click", (event) => {
-  event.stopPropagation()
-  if (window.searchTerm && window.searchTerm.length > 0) {
-    document.querySelector(".search-controls").classList.add("hint-return")
-  } else {
-    document.querySelector(".search-controls").classList.remove("hint-return")
-  }
-})
+  })
+  document.querySelector(".searchbar").addEventListener("keyup", (e) => {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      window.searchTerm = document.querySelector(".searchbar").value
+      searchTrigger()
+    }
+  })
+  document.querySelector(".mobile-search-shortcut").addEventListener("click", () => {
+    if (!document.querySelector(".wallet-search").classList.contains("mobile-active")) {
+      document.querySelector(".wallet-search").classList.add("mobile-active")
+      document.querySelector(".mobile-search-shortcut").classList.add("active")
+      document.querySelector(".searchbar").focus()
+    } else {
+      document.querySelector(".wallet-search").classList.remove("mobile-active")
+      document.querySelector(".mobile-search-shortcut").classList.remove("active")
+    }
+  })
+  document.querySelector(".searchbar").addEventListener("click", (event) => {
+    event.stopPropagation()
+    if (window.searchTerm && window.searchTerm.length > 0) {
+      document.querySelector(".search-controls").classList.add("hint-return")
+    } else {
+      document.querySelector(".search-controls").classList.remove("hint-return")
+    }
+  })
+}
 function searchTrigger() {
   if (window.searchTerm && window.searchTerm.length > 1) {
     document.querySelector(".wallet-search").classList.add("active")

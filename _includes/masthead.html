@@ -6,6 +6,7 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><div class="masthead-logo" alt="{{ site.title }}" title="{{ site.title }}" ></div></a>
+      {% if page.url != "/" %}
       <div class="wallet-search">
         <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
         <div class="search-controls">
@@ -15,6 +16,9 @@
         </div>
         <ul class="search-results results-target exit-search-target"></ul>
       </div>
+      {% else %}
+      <div class="desktop-only"></div>
+      {% endif %}
       <nav id="site-nav" class="greedy-nav">
         <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
         <ul class="visible-links">
