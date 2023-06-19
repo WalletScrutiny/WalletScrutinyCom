@@ -6,6 +6,8 @@ version=$1
 screen=$2
 buildHash=$3
 releaseHash=$4
+dockerImage="foundation-devices/passport2:latest"
+
 if [[ $2 == "color" ]]; then
     fileName=v${version}-passport.bin
 elif [[ $2 == "mono" ]]; then
@@ -30,16 +32,33 @@ git clone https://github.com/Foundation-Devices/passport2.git
 cd passport2
 git checkout v${version}
 
-# Install dependencies for building
-# Download and extract just to /tmp/passport/just
-curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh | bash -s -- --to /tmp/passport
-
 # Build and verify the sha256 hash of the specified firmware version
-docker build -t foundation-devices/passport2:latest .
+docker build -t ${dockerImage} .
+
+# Build mpy-cross within the Docker image
+docker run --rm -v "$PWD":/workspace \
+    -u $(id -u):$(id -g) \
+    -v $(pwd):/workspace \
+    -w /workspace \
+    -e MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
+    ${dockerImage} \
+    make -C mpy-cross PROG=mpy-cross-docker BUILD=build-docker
 if [[ $2 == "color" ]]; then
-    /tmp/passport/just build-firmware color
+    docker run --rm -v "$PWD":/workspace \
+        -u $(id -u):$(id -g) \
+        -v $(pwd):/workspace \
+        -w /workspace \
+        -e MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
+        ${dockerImage} \
+        /usr/local/bin/just ports/stm32/build color
 elif [[ $2 == "mono" ]]; then
-    /tmp/passport/just build-firmware mono
+    docker run --rm -v "$PWD":/workspace \
+        -u $(id -u):$(id -g) \
+        -v $(pwd):/workspace \
+        -w /workspace \
+        -e MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
+        ${dockerImage} \
+        /usr/local/bin/just ports/stm32/build mono
 fi
 
 # Print build hash and expected build hash
