@@ -3,7 +3,7 @@ wsId:
 title: Ethereum Code
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.wEthereumCode_15093934
 appCountry: 
 released: 2022-01-28

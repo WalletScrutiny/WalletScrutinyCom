@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.inanomo.market.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
 date: 2023-05-26
 signer: 
@@ -65,4 +65,8 @@ This is the only description:
 - CoinTelegraph [reports](https://cointelegraph.com/press-releases/inanomo-secures-6m-in-funding-to-develop-innovative-metaverse-concept) that Inanomo has secured $6 million in funding "to develop its ecosystem".
 - It is apparent from the description that this is a **custodial** provider, which has either recently experienced some technical difficulties with both their site and app, or, has intentionally disabled both their app and website. 
 - Since the app was last updated in 2022, we will email at 	info@inanomo.com them to see if they would respond. Tentatively, and based on the description, it is possible to designate this as a **custodial** provider.
+
+**Update:** The email bounced.
+
+**Update 2023-06-07:** Given that this app doesn't work even if it was updated in 2022, we'll mark it as **defunct** until the provider reaches out to us.
 

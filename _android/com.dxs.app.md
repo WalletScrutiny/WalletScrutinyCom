@@ -7,8 +7,8 @@ users: 500
 appId: com.dxs.app
 appCountry: 
 released: 2022-04-25
-updated: 2022-06-09
-version: 1.0.0
+updated: 2023-06-06
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,7 @@ icon: com.dxs.app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-08
 signer: 
 reviewArchive: 
 twitter: 

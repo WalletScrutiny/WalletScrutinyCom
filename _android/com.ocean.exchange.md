@@ -8,8 +8,8 @@ users: 10000
 appId: com.ocean.exchange
 appCountry: us
 released: 2019-07-04
-updated: 2023-04-27
-version: 2.0.2
+updated: 2023-06-08
+version: 2.0.3
 stars: 4.2
 ratings: 159
 reviews: 15

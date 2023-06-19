@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-16
 updated: 2023-03-08
 version: 3.7.6
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 267
+reviews: 270
 size: 
 website: https://www.viabtc.com/
 repository: 

@@ -7,8 +7,8 @@ users: 10
 appId: io.fujidon.android
 appCountry: 
 released: 2021-05-06
-updated: 2021-05-07
-version: 1.1.1
+updated: 2023-05-29
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.fujidon.android.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-04-27
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 

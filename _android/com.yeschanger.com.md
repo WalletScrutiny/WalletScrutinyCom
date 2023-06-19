@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Yeschanger Ecurrency Exchanger
+title: Yeschanger currency Exchanger
 altTitle: 
 authors:
 - danny

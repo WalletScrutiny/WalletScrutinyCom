@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rpm.market.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 

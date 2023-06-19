@@ -2,7 +2,8 @@
 wsId: 
 title: Onekey&bit
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.Kprit.theappkeyonebit
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.Kprit.theappkeyonebit.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2022-12-17
+verdict: fake
+date: 2023-05-09
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,21 @@ developerName: Kprit
 features: 
 
 ---
+
+## App Description from Google Play 
+
+> Now you can use OneKey & bit cryptocurrency wallet simulator anywhere, and immediately enjoy a smooth transaction experience and ultra-low slippage
+>
+> Easy control
+>
+> Now you can use the OneKey Bit wallet to switch to observation mode to monitor your assets in real time
+
+## Analysis 
+
+The app does not do anything but show this: [(Screenshot)](https://twitter.com/BitcoinWalletz/status/1655879060546002946)
+
+The likeness of the name and the logo, may qualify this as a **fake** of: 
+
+- {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}
+
 
