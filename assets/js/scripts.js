@@ -34,10 +34,6 @@ window.addEventListener("load", () => {
     resizeLabelBold()
   })
   updateModularPayload()
-  document.body.addEventListener('keydown', e => {
-    if (e.key === "Escape")
-      toggleApp()
-  })
 })
 
 function recreateDropdowns(verdict, platform) {
@@ -95,8 +91,6 @@ function productCount(verdict, platform) {
 }
 
 function updateModularPayload(page, unrestrictedSearch) {
-  // const searchTerm = document.querySelector(".search-filtered-wallets").value
-  // unrestrictedSearch = unrestrictedSearch ? unrestrictedSearch : (searchTerm.length > 0 ? true : false)
 
   let verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "reproducible"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "all"
@@ -192,7 +186,6 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   flexListEle.classList.add("flexi-list")
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
-  g.innerHTML = `<div id="modal" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:50;display:none" onclick="toggleApp(lastId);">&nbsp;</div>`
   const searchTerm = document.querySelector(".search-filtered-wallets").value
   let queryEcho = searchTerm.length > 0 ? `No wallets match for "${searchTerm}".` : `Enter some text to search all wallets.`
   let categoryMessage = productCount(verdict, platform) < 1 ? `No <b>${verdict}</b> wallets in <b>${platform}</b> category. ${(wallets.length > 0 ? `<br>Showing ${wallets.length} results from all categories and platforms.` : ``)}<br><br>` : (searchTerm.length > 0 ? `Showing ${wallets.length} wallets which match <b>"${searchTerm}"</b> across current filters.` : `Showing ${wallets.length} wallets which match current filters.`)
@@ -273,7 +266,7 @@ function getBadge(wallet, numbInPage) {
   for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
   for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
   return `
-  <div id="card_${walletId}" class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" onclick="toggleApp('${walletId}', false, this)" style="animation-delay:${delay}ms;">
+  <a id="card_${walletId}" class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${wIdforDOM}" href="${wallet.url}" style="animation-delay:${delay}ms;">
     <div class="tile-head">
       <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/smallNoicon.png'}" class="app_logo" alt="Wallet Logo">
       <h3>${wallet.altTitle || wallet.title}</h3>
@@ -299,7 +292,7 @@ function getBadge(wallet, numbInPage) {
         <div>${passed}${failed}</div>
       </div>
     </div>
-  </div>`
+  </a>`
 }
 
 function filterWalletsByName() {
@@ -308,6 +301,11 @@ function filterWalletsByName() {
   else {
     window.filteredWallets = []
     const searchTermWords = searchTerm.split(" ")
+    
+    // const lexicon = ['ALL PASSED', 'ALL TESTS']
+    // TO BE USED FOR CASE MATCHING VERDICTS LIKE REPRODUCIBLE, DIY WHEN USER SEARCHES FOR 'ALL TESTS PASSED' ETC.
+    // NOT IMPLEMENTED YET
+
     for (const wallet of window.wallets) {
       let walletAsStr = ''
       for (const [key, value] of Object.entries(wallet)) {
