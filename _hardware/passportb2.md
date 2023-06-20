@@ -53,7 +53,7 @@ features:
 It features the following specifications: 
 
 > - Supported Cryptocurrencies:	Bitcoin via PSBTs; best-in-class multisig experience.
-- Supported Software Wallets:	Bitcoin Core, BlueWallet, BTCPay, Casa (coming soon), Electrum, Nunchuk (coming soon), Simple Bitcoin Wallet, Sparrow, Specter, Wasabi, and other wallets supporting PSBTs via microSD or QR codes.
+- Supported Software Wallets:	Bitcoin Core, BlueWallet, BTCPay, Casa, Electrum, Nunchuk, Simple Bitcoin Wallet, Sparrow, Specter, Wasabi, and other wallets supporting PSBTs via microSD or QR codes.
 - Key Components:	STM processor, Microchip 608a secure element, Omnivision Cameracube.
 - Communication:	Camera and microSD port. No USB data, no Bluetooth, no wireless communications of any kind.
 - Power:	1200 mAh Lithium ion battery in Nokia BL-5C form factor (included with purchase).
