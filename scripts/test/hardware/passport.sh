@@ -44,13 +44,18 @@ docker run --rm \
     --env MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
     ${dockerImage} \
     make -C mpy-cross PROG=mpy-cross-docker BUILD=build-docker
+if [[ $model == "color" ]]; then
+    buildCommand=(make -C ports/stm32/ LV_CFLAGS='-DLV_COLOR_DEPTH=16 -DLV_COLOR_16_SWAP -DLV_TICK_CUSTOM=1 -DSCREEN_MODE_COLOR -DHAS_FUEL_GAUGE' BOARD=Passport SCREEN_MODE=COLOR FROZEN_MANIFEST='boards/Passport/manifest.py')
+elif [[ $model == "mono" ]]; then
+    buildCommand=(make -C ports/stm32/ LV_CFLAGS='-DLV_COLOR_DEPTH=16 -DLV_COLOR_16_SWAP -DLV_TICK_CUSTOM=1 -DSCREEN_MODE_MONO')
+fi
 docker run --rm \
     --volume "$PWD":/workspace \
     --user $(id -u):$(id -g) \
     --workdir /workspace \
     --env MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
     ${dockerImage} \
-    /usr/local/bin/just ports/stm32/build ${model}
+    "${buildCommand[@]}"
 
 # Print build hash and expected build hash
 echo "Built v${version} binary sha256 hash:"
