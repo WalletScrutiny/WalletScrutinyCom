@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: GoMining
+title: 'GoMining: BTC, Token & NFTs'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
 updated: 2023-05-29
 version: '11'
-stars: 
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: https://gomining.com
 repository: 

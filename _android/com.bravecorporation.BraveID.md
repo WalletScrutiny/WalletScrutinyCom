@@ -7,8 +7,8 @@ users: 500
 appId: com.bravecorporation.BraveID
 appCountry: 
 released: 2022-05-11
-updated: 2023-05-25
-version: 1.0.15
+updated: 2023-06-09
+version: 1.0.16
 stars: 4.8
 ratings: 
 reviews: 4

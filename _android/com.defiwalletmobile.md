@@ -11,7 +11,7 @@ updated: 2023-06-08
 version: 1.20.3
 stars: 4.8
 ratings: 
-reviews: 143
+reviews: 142
 size: 
 website: https://slavi.io/
 repository: 

@@ -7,8 +7,8 @@ users: 10000
 appId: com.margex.margex_mobile
 appCountry: 
 released: 2022-01-21
-updated: 2023-06-12
-version: 3.0.37
+updated: 2023-06-14
+version: 3.0.38
 stars: 4.2
 ratings: 
 reviews: 14

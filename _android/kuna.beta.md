@@ -1,6 +1,6 @@
 ---
 wsId: kunaio
-title: Kuna.io— buy&sell BTC ETH USDT
+title: KUNA - buy & sell crypto, BTC
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 500000
 appId: kuna.beta
 appCountry: us
 released: 2019-07-22
-updated: 2023-03-24
+updated: 2023-06-15
 version: 1.4.31
 stars: 3.5
 ratings: 1118

@@ -4,7 +4,7 @@ title: 'Yield App : Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.yieldapp_mobile
 appCountry: 
 released: 2022-06-10

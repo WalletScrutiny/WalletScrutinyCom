@@ -8,8 +8,8 @@ users: 50000
 appId: io.coinchange
 appCountry: 
 released: 2021-10-31
-updated: 2023-04-18
-version: 2.0.2
+updated: 2023-06-13
+version: 2.0.3
 stars: 3.7
 ratings: 
 reviews: 154

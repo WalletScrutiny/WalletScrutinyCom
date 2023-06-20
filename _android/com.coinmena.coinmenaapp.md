@@ -12,7 +12,7 @@ updated: 2023-05-18
 version: 2.4.0
 stars: 3.5
 ratings: 914
-reviews: 44
+reviews: 43
 size: 
 website: http://coinmena.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trex.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-22
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

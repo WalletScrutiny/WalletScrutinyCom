@@ -4,7 +4,7 @@ title: CDEX - Crypto & Forex & CFDs
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.xsjys.bbtc
 appCountry: 
 released: 2022-03-01

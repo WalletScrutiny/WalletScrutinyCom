@@ -11,7 +11,7 @@ released: 2013-03-07
 updated: 2023-06-10
 version: '6.92'
 stars: 4.6
-reviews: 66388
+reviews: 66515
 size: '97408000'
 website: https://www.astontek.com
 repository: 

@@ -3,12 +3,12 @@ wsId:
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.huobionchainwallet.itokenhd
 appCountry: 
 released: 2023-04-12
-updated: 2023-05-12
-version: 4.00.02.017
+updated: 2023-06-16
+version: 4.00.03.019
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.huobionchainwallet.itokenhd.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

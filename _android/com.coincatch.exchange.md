@@ -3,12 +3,12 @@ wsId:
 title: CoinCatch-Buy Bitcoin & Crypto
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07
-updated: 2023-06-01
-version: 1.0.4
+updated: 2023-06-12
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coincatch.exchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

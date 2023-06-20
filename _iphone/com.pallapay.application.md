@@ -11,7 +11,7 @@ released: 2022-05-12
 updated: 2022-06-01
 version: 1.0.4
 stars: 1
-reviews: 1
+reviews: 2
 size: '7005184'
 website: https://www.pallapay.com
 repository: 

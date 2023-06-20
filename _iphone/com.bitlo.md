@@ -10,8 +10,8 @@ idd: '1544492069'
 released: 2020-12-28
 updated: 2023-04-29
 version: 2.1.0
-stars: 3.6
-reviews: 322
+stars: 3.3
+reviews: 258
 size: '48929792'
 website: https://www.bitlo.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: 'Voyager: Buy Crypto, BTC & ETH'
+title: Voyager
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.investvoyager
 appCountry: 
 released: 2020-02-25
-updated: 2023-05-30
+updated: 2023-06-16
 version: 4.0.0
 stars: 3.6
 ratings: 26380
-reviews: 8213
+reviews: 8215
 size: 
 website: https://www.investvoyager.com/
 repository: 

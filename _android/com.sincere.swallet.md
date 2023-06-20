@@ -12,7 +12,7 @@ updated: 2023-04-21
 version: 2.6.0
 stars: 4.7
 ratings: 
-reviews: 29
+reviews: 28
 size: 
 website: https://s-wallet.ai
 repository: 

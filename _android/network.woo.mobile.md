@@ -8,8 +8,8 @@ users: 10000
 appId: network.woo.mobile
 appCountry: 
 released: 2021-12-17
-updated: 2023-05-17
-version: 3.3.2
+updated: 2023-06-12
+version: 3.5.0
 stars: 4.1
 ratings: 
 reviews: 9

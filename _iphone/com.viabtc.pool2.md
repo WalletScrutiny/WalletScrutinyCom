@@ -8,11 +8,11 @@ appId: com.viabtc.pool2
 appCountry: hk
 idd: '1334584229'
 released: 2018-01-18
-updated: 2023-04-26
-version: 3.7.3
+updated: 2023-06-15
+version: 3.7.4
 stars: 4.8
 reviews: 12
-size: '86843392'
+size: '88009728'
 website: https://www.viabtc.com/
 repository: 
 issue: 

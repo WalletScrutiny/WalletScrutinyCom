@@ -11,7 +11,7 @@ released: 2018-08-06
 updated: 2023-06-05
 version: 9.4.3
 stars: 4.6
-reviews: 9549
+reviews: 9581
 size: '102769664'
 website: https://lobstr.co/
 repository: 
