@@ -1,0 +1,25 @@
+
+{% assign verdicts = 'const verdictGroups = {' %}
+
+
+{% for v in site.data.verdictGroups %}
+  {% assign verdicts = verdicts | append: ',' %}
+
+  {% assign key = v.short | downcase | replace: " ", "_" %}
+  {% assign verdicts = verdicts | append: key %}
+  {% assign verdicts = verdicts | append: ':' %}
+
+  {% assign value = v | jsonify %}
+  {% assign verdicts = verdicts | append: value %}
+{% endfor %}
+
+
+{% assign verdicts = verdicts | remove_first: "," | append: '}' %}
+
+
+
+<script>{{verdicts}}</script>
+
+{{'<script>const verdictGroups2 = '}}
+  {{ site.data.verdictGroups | jsonify }}
+  {{'</script>'}}

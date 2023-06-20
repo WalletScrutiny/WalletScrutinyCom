@@ -3,21 +3,29 @@
   - nobinary
   - diy
   title: All tests passed.
+  short: All tests passed
   comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
 - verdicts:
   - nonverifiable
   - ftbfs
   - obfuscated
   title: Build issues or source-code issues.
+  short: Self-custodial
   comment: Although code was provided, we could not verify that the binary provided was generated from it.
 - verdicts:
   - custodial
-  - nosendreceive
   title: User only gets an IOU.
+  short: Send & receive
   comment: The provider might or might not hold BTC on behalf of the user.
+- verdicts:
+  - nosendreceive
+  title: User gets a non-transferable IOU.
+  short: Bitcoin supported
+  comment: The provider might or might not hold BTC on behalf of the user but the user is not able to transfer native BTC.
 - verdicts:
   - nosource
   title: Missing source code.
+  short: Self-custodial
   comment: The provider does not provide all the source code needed to compile the product.
 - verdicts:
   - noita
@@ -26,6 +34,7 @@
   - sealed-plainkey
   - prefilled
   title: Untrustworthy handling of keys.
+  short: Failed basic tests
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - verdicts:
   - fewusers
@@ -34,12 +43,15 @@
   - nobtc
   - nowallet
   title: Not relevant.
+  short: Not relevant
   comment: The product is not a BTC wallet or has little to no users.
 - verdicts:
   - fake
   title: Fake.
+  short: Imposter product
   comment: The product is an imitation of a popular product and very likely fraudulent.
 - verdicts:
   - wip
   title: To be reviewed.
+  short: To be reviewed
   comment: Products that look relevant. We have to review them.

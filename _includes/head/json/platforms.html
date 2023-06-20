@@ -1,0 +1,15 @@
+{% assign platform = 'const sitePlatforms = [' %}
+
+
+{% for platforms in site.data.platformMeta %}
+  {% assign platform = platform | append: ',"' %}
+  {% assign platform = platform | append: platforms[0] %}
+  {% assign platform = platform | append: '"' %}
+{% endfor %}
+
+
+{% assign platform = platform | remove_first: "," | append: ']' %}
+
+
+
+<script>{{platform}}</script>

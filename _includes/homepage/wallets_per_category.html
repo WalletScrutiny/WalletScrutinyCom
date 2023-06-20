@@ -18,7 +18,7 @@
       <p>{{ verdict_group.title }}</p>
     </div>
     <div class="visualised">
-      {%- if total >= 100 -%}
+      {%- if total > 100 -%}
         {%- assign hundreds = total | divided_by: 100 -%}
         {%- assign hundreds = hundreds | floor -%}
         {%- for i in (1..hundreds) -%}
