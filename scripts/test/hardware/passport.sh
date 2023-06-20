@@ -50,7 +50,7 @@ if [[ $2 == "color" ]]; then
         -w /workspace \
         -e MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
         ${dockerImage} \
-        /usr/local/bin/just ports/stm32/build color
+        make -C ports/stm32/ LV_CFLAGS='-DLV_COLOR_DEPTH=16 -DLV_COLOR_16_SWAP -DLV_TICK_CUSTOM=1 -DSCREEN_MODE_COLOR -DHAS_FUEL_GAUGE' BOARD=Passport SCREEN_MODE=COLOR FROZEN_MANIFEST='boards/Passport/manifest.py'
 elif [[ $2 == "mono" ]]; then
     docker run --rm -v "$PWD":/workspace \
         -u $(id -u):$(id -g) \
@@ -58,7 +58,7 @@ elif [[ $2 == "mono" ]]; then
         -w /workspace \
         -e MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
         ${dockerImage} \
-        /usr/local/bin/just ports/stm32/build mono
+        make -C ports/stm32/ LV_CFLAGS='-DLV_COLOR_DEPTH=16 -DLV_COLOR_16_SWAP -DLV_TICK_CUSTOM=1 -DSCREEN_MODE_MONO' BOARD=Passport SCREEN_MODE=MONO FROZEN_MANIFEST='boards/Passport/manifest.py'
 fi
 
 # Print build hash and expected build hash
