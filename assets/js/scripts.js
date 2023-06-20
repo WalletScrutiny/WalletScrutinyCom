@@ -246,7 +246,7 @@ async function processStyle(wallet) {
       if (rgb[0] < 70 && rgb[1] < 70 & rgb[2] < 70) { continue; }
       if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
       if (target.style && target.style['background-image']) { break; }
-      target.style['background-image'] = `linear-gradient(var(--white) -100%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 400%)`
+      target.style['background-image'] = `linear-gradient(var(--white) -80%, rgb(${rgb[0]},${rgb[1]},${rgb[2]}) 600%)`
       let colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`;
       target.setAttribute("data-colour", colour);
     }

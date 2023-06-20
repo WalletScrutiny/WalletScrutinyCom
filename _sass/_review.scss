@@ -1,7 +1,7 @@
 .textbox {
   border-radius: 10px;
   background: var(--neutral-6);
-  background-color: var(--wallet-gradient);
+  background-color: var(--wallet-low-contrast);
   padding: 15px 25px;
   margin: 10px 0;
   font-size: 17px;
@@ -126,7 +126,7 @@
   .labels {
     display: flex;
     gap: 10px;
-    box-shadow: 0 2px 0 var(--neutral-6);
+    box-shadow: 0 2px 0 var(--wallet-gradient);
     .label {
       display: grid;
       line-height: 20px;
@@ -494,7 +494,7 @@
   }
   > div {
     background: var(--neutral-6);
-    background-color: var(--wallet-gradient);
+    background-color: var(--wallet-low-contrast);
     padding: 25px;
     border-radius: 15px;
     text-align: center;
@@ -538,7 +538,7 @@
     grid-template: auto / auto auto 1fr;
     text-align: right;
     background: var(--neutral-6);
-    background-color: var(--wallet-gradient);
+    background-color: var(--wallet-low-contrast);
     font-size: 17px;
     padding: 10px 20px 10px 10px;
     border-radius: 10px;

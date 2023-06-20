@@ -103,6 +103,7 @@ if (document.querySelector(".app_logo_big")) {
       if (rgb[0] > 130 && rgb[1] > 130 & rgb[2] > 130) { continue; }
       if (colour) { break; }
       colour = `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.2)`
+      document.documentElement.style.setProperty('--wallet-low-contrast', `rgba(${rgb[0]},${rgb[1]},${rgb[2]}, 0.1)`);
       document.documentElement.style.setProperty('--wallet-gradient', colour);
       document.documentElement.style.setProperty('--wallet-solid', `rgb(${rgb[0]},${rgb[1]},${rgb[2]})`);
       document.body.setAttribute("data-colour-available", "true")
