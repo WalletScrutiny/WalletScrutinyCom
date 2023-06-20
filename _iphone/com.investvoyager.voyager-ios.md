@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: 'Voyager: Buy BTC, ETH, SHIB'
+title: 'Voyager: Recovery App'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.investvoyager.voyager-ios
 appCountry: 
 idd: 1396178579
 released: 2019-02-13
-updated: 2023-06-07
-version: 3.2.29
+updated: 2023-06-19
+version: 3.2.30
 stars: 4.7
-reviews: 102744
-size: '114042880'
+reviews: 102779
+size: '114038784'
 website: https://www.investvoyager.com/
 repository: 
 issue: 

@@ -21,9 +21,9 @@ repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: ftbfs
-date: 2022-07-01
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: rsksmart

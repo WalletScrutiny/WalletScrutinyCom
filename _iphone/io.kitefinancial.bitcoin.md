@@ -10,8 +10,8 @@ idd: '1524242232'
 released: 2020-07-21
 updated: 2022-10-04
 version: 2.2.7
-stars: 3.3
-reviews: 28
+stars: 3.4
+reviews: 27
 size: '61706240'
 website: 
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/kite_financial
 - https://www.linkedin.com/company/kitefinancial
 features: 
-developerName: 
+developerName: Kite Tech Limited
 
 ---
 

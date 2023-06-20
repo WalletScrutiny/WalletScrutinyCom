@@ -3,12 +3,12 @@ wsId:
 title: The Bitcoin Company Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.tbtc_app
 appCountry: 
 released: 2022-03-17
-updated: 2023-05-04
-version: 0.1.28
+updated: 2023-05-30
+version: 0.1.29
 stars: 4.2
 ratings: 
 reviews: 9

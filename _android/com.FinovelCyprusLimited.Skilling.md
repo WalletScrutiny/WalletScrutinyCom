@@ -1,6 +1,6 @@
 ---
 wsId: Skilling
-title: 'Skilling: Forex & CFD Trading'
+title: Skilling - Forex Trading App
 altTitle: 
 authors:
 - danny
@@ -17,7 +17,7 @@ size:
 website: https://skilling.com/
 repository: 
 issue: 
-icon: com.FinovelCyprusLimited.Skilling.jpg
+icon: com.FinovelCyprusLimited.Skilling.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive

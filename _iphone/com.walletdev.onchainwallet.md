@@ -9,8 +9,8 @@ appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
 released: 2018-09-29
-updated: 2023-05-22
-version: 3.3.5
+updated: 2023-06-15
+version: 3.3.6
 stars: 3.7
 reviews: 158
 size: '120071168'

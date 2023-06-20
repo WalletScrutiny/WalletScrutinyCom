@@ -3,7 +3,7 @@ wsId:
 title: Bitoshi
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13

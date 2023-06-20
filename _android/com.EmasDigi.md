@@ -12,7 +12,7 @@ updated: 2023-06-11
 version: 5.3.7
 stars: 4
 ratings: 27168
-reviews: 102
+reviews: 101
 size: 
 website: https://pluang.com
 repository: 

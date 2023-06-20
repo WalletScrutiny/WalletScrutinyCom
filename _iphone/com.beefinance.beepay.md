@@ -8,11 +8,11 @@ appId: com.beefinance.beepay
 appCountry: sg
 idd: '1592439709'
 released: 2021-11-10
-updated: 2023-06-11
-version: 2.1.9
+updated: 2023-06-14
+version: 2.2.0
 stars: 0
 reviews: 0
-size: '93088768'
+size: '93012992'
 website: https://www.befiwallet.io
 repository: 
 issue: 

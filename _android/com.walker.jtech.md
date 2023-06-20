@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-26
 updated: 2023-05-30
 version: 1.0.9
-stars: 3.1
+stars: 3
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: http://www.jtechtrade.com
 repository: 

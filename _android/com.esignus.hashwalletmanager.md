@@ -3,7 +3,7 @@ wsId:
 title: HASHWallet Manager
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.esignus.hashwalletmanager
 appCountry: 
 released: 2022-09-22

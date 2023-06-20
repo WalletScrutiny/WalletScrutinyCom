@@ -29,7 +29,7 @@ meta: ok
 verdict: reproducible
 date: 2023-06-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: FOUNDATIONdvcs
 social:
 - https://www.linkedin.com/company/foundationdevices

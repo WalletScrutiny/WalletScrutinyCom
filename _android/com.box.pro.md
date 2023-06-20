@@ -9,9 +9,9 @@ appCountry:
 released: 2022-01-06
 updated: 2023-04-06
 version: 5.2.6
-stars: 2.6
+stars: 2.5
 ratings: 
-reviews: 23
+reviews: 25
 size: 
 website: https://www.bibox.com
 repository: 

@@ -11,7 +11,7 @@ released: 2021-09-25
 updated: 2023-05-02
 version: 1.8.1
 stars: 4.7
-reviews: 54
+reviews: 55
 size: '132121600'
 website: https://bitcoin.me
 repository: 

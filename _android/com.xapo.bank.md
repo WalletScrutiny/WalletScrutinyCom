@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/xapo
 - https://www.facebook.com/xapoapp
 redirect_from: 
-developerName: Xapo
+developerName: Xapo Bank
 features: 
 
 ---
