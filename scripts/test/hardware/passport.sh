@@ -8,6 +8,7 @@ buildHash=$3
 releaseHash=$4
 dockerImage="foundation-devices/passport2:latest"
 
+# Set file name according to model specified
 if [[ $2 == "color" ]]; then
     fileName=v${version}-passport.bin
 elif [[ $2 == "mono" ]]; then
@@ -33,7 +34,7 @@ git clone https://github.com/Foundation-Devices/passport2.git
 cd passport2
 git checkout v${version}
 
-# Build and verify the sha256 hash of the specified firmware version
+# Build the Docker image used for building firmware reproducibly
 docker build -t ${dockerImage} .
 
 # Build mpy-cross within the Docker image
@@ -44,6 +45,9 @@ docker run --rm \
     --env MPY_CROSS="/workspace/mpy-cross/mpy-cross-docker" \
     ${dockerImage} \
     make -C mpy-cross PROG=mpy-cross-docker BUILD=build-docker
+
+# Specify correct build flags for each model and
+# build the appropriate firmware file within Docker
 if [[ $model == "color" ]]; then
     buildCommand=(make -C ports/stm32/ LV_CFLAGS='-DLV_COLOR_DEPTH=16 -DLV_COLOR_16_SWAP -DLV_TICK_CUSTOM=1 -DSCREEN_MODE_COLOR -DHAS_FUEL_GAUGE' BOARD=Passport SCREEN_MODE=COLOR FROZEN_MANIFEST='boards/Passport/manifest.py')
 elif [[ $model == "mono" ]]; then
@@ -76,15 +80,20 @@ if [[ "$4" ]]; then
 fi
 
 # Verify stripped release binary matches built binary
+# For more info, visit https://github.com/Foundation-Devices/passport2/blob/main/REPRODUCIBILITY.md#verify-release-binary-hash
 echo "Comparing v${version} stripped release binary hash:"
-echo "For more info, visit https://github.com/Foundation-Devices/passport2/blob/main/REPRODUCIBILITY.md#verify-release-binary-hash"
+
+# Strip first 2048 bytes, including header, signatures, and zeroed bytes
+# To verify the stripped bytes, visit https://github.com/Foundation-Devices/passport2/blob/main/REPRODUCIBILITY.md#verifying-the-firmware-header-optional
 dd if=../${fileName} of=no-header-${fileName} ibs=2048 skip=1 status=none
+
+# Print stripped binary hash and expected binary hash
 binaryHash=($(sha256sum ports/stm32/build-Passport/firmware-${model^^}.bin))
 echo "Expected v${version} build hash:"
 echo $binaryHash
 echo "$binaryHash no-header-${fileName}" | sha256sum --check
 
-# Cleanup all downloaded files and build artifacts
+# Cleanup all build artifacts and Docker image
 cd ~
 rm -rf /tmp/passport/
 docker image rm foundation-devices/passport2:latest
