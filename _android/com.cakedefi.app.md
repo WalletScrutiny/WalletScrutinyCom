@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 1135
 reviews: 169
 size: 
-website: https://cakedefi.com
+website: https://bake.io
 repository: 
 issue: 
 icon: com.cakedefi.app.png
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 redirect_from: 
-developerName: Cake DeFi
+developerName: Cake Group
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: bitcointrade
-title: BitcoinTrade - Criptomoedas
+title: Ripio Trade (ex BitcoinTrade)
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.root.BitcoinTrade
 appCountry: br
 idd: 1320032339
 released: 2017-12-13
-updated: 2023-06-12
-version: 4.5.1
+updated: 2023-06-19
+version: 4.6.0
 stars: 3.9
-reviews: 923
-size: '59240448'
-website: http://www.bitcointrade.com.br/
+reviews: 924
+size: '59830272'
+website: http://ripio.com/br/ripiotrade/
 repository: 
 issue: 
 icon: com.root.BitcoinTrade.jpg

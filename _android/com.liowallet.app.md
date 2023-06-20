@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.liowallet.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-05-30
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

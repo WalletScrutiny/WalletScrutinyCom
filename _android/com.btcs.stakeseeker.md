@@ -3,7 +3,7 @@ wsId:
 title: StakeSeeker
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.btcs.stakeseeker
 appCountry: 
 released: 2023-03-10

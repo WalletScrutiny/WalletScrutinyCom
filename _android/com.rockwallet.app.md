@@ -9,9 +9,9 @@ appCountry:
 released: 2022-11-14
 updated: 2023-04-05
 version: 5.6.0
-stars: 3.6
+stars: 3.4
 ratings: 
-reviews: 12
+reviews: 14
 size: 
 website: http://www.rockwallet.com
 repository: 

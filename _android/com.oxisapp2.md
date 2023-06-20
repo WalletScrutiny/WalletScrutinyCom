@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oxisapp2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

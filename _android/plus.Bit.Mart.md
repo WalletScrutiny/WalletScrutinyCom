@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: 'Bit-Mart: Buy Crypto & Bitcoin'
+title: XHXN
 altTitle: 
 authors: 
 users: 500
 appId: plus.Bit.Mart
 appCountry: 
 released: 2022-07-23
-updated: 2022-07-24
+updated: 2023-06-13
 version: 1.0.0
 stars: 
 ratings: 
