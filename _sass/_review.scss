@@ -1,6 +1,7 @@
 .textbox {
   border-radius: 10px;
-  background-color: var(--neutral-6);
+  background: var(--neutral-6);
+  background-color: var(--wallet-gradient);
   padding: 15px 25px;
   margin: 10px 0;
   font-size: 17px;
@@ -134,6 +135,7 @@
       cursor: pointer;
       &.active {
         background: var(--neutral-6);
+        background-color: var(--wallet-gradient);
       }
       &::before {
         content: attr(data-text);
@@ -276,7 +278,7 @@
     &:last-of-type {
       &::after {
         content: "";
-        background: linear-gradient(var(--wallet-solid)-3000vh,var(--body));
+        background: linear-gradient(var(--wallet-solid)-3000vh, var(--body));
         position: absolute;
         width: 3px;
         height: 100%;
@@ -492,6 +494,7 @@
   }
   > div {
     background: var(--neutral-6);
+    background-color: var(--wallet-gradient);
     padding: 25px;
     border-radius: 15px;
     text-align: center;
@@ -535,6 +538,7 @@
     grid-template: auto / auto auto 1fr;
     text-align: right;
     background: var(--neutral-6);
+    background-color: var(--wallet-gradient);
     font-size: 17px;
     padding: 10px 20px 10px 10px;
     border-radius: 10px;
@@ -652,8 +656,8 @@
       }
     }
   }
-  &.highlight{
-    .accordion-head{
+  &.highlight {
+    .accordion-head {
       span:nth-of-type(2) {
         box-shadow: 0 2px 0 0;
       }
@@ -661,14 +665,14 @@
   }
 }
 
-.score div i{
-  &.highlight{
-    &.pass{
+.score div i {
+  &.highlight {
+    &.pass {
       background-color: var(--good);
     }
-    &.fail{
+    &.fail {
       background-color: var(--bad);
       opacity: 1;
-    }   
+    }
   }
 }
