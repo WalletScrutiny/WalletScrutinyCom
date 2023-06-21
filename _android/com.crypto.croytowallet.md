@@ -27,11 +27,22 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/profile.php?id=100075743690970 
+- https://www.instagram.com/imxapp/
 redirect_from: 
 developerName: IMSMART Company LTD
 features: 
 
 ---
+
+## Update 2023-06-21
+
+- Shortly after the previous review, the app was updated on 2023-05-26. The description for the update was simply "SPCT issue". 
+- In the previous review, we noted that during the seed phrase verification, the words were arranged exactly according to how they were presented when we were asked to copy them.
+- We could not reproduce this issue anymore when we tested again on 2023-06-10, and again on 2023-06-21.
+- After the seed phrases were provided, there was no longer any seed phrase verification.
+- This does not affect the verdict.   
+
+## Previous Review 2023-05-22
 
 ## App Description from Google Play 
 
