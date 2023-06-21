@@ -3,7 +3,7 @@ wsId: bullDeFi
 title: Bull App - Bitcoin & ETH DeFi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: crypto.wallet.chainapp
 appCountry: 

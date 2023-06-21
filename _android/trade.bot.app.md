@@ -12,6 +12,7 @@ version: 2023.06.07.01
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://bot.trade
 repository: 
 issue: 

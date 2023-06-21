@@ -3,7 +3,7 @@ wsId: nyeCoin
 title: NYE Coin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: existv2.com
 appCountry: 

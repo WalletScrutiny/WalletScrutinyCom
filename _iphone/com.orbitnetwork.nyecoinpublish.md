@@ -3,14 +3,14 @@ wsId: nyeCoin
 title: NYE Coin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.orbitnetwork.nyecoinpublish
 appCountry: us
 idd: '1471316161'
-released: '2019-07-20T07:00:00Z'
+released: 2019-07-20
 updated: 2019-07-30
 version: '1.1'
-stars: 4.66667
+stars: 4.7
 reviews: 15
 size: '12429312'
 website: https://nyecoin.io/

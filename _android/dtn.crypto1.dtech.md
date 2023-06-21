@@ -3,7 +3,7 @@ wsId:
 title: Crypto1 - CryptoOne Best Crypt
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: dtn.crypto1.dtech
 appCountry: 

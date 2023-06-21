@@ -3,7 +3,7 @@ wsId:
 title: Crypto Tracker - Buy Bitcoin B
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: cryptocurrency.bitcoin.altcoin.tracker
 appCountry: 

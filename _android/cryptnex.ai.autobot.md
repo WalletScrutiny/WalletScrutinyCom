@@ -3,7 +3,7 @@ wsId:
 title: Cryptnex - Crypto Trading Bot
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: cryptnex.ai.autobot
 appCountry: 

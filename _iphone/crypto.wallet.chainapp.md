@@ -3,11 +3,11 @@ wsId: bullDeFi
 title: Bull App - Blockchain Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: crypto.wallet.chainapp
 appCountry: us
 idd: '1558608737'
-released: '2021-03-24T07:00:00Z'
+released: 2021-03-24
 updated: 2023-03-22
 version: 2.0.0
 stars: 5

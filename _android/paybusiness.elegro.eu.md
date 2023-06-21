@@ -3,7 +3,7 @@ wsId: elegroBusiness
 title: elegro Business online banking
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100
 appId: paybusiness.elegro.eu
 appCountry: 

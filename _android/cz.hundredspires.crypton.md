@@ -3,7 +3,7 @@ wsId:
 title: Crypton Digital
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: cz.hundredspires.crypton
 appCountry: 

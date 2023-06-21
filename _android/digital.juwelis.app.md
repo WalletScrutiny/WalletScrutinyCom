@@ -3,7 +3,7 @@ wsId:
 title: JUWELIS App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: digital.juwelis.app
 appCountry: 

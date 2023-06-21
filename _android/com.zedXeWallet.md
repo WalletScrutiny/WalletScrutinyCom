@@ -3,7 +3,7 @@ wsId:
 title: ZedXe Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.zedXeWallet
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://www.linkedin.com/in/zedxe-exchange-490576168
 - https://www.youtube.com/c/ZedXe
 - https://www.instagram.com/Zed_Xe
-- https://t.me/ZedXe  
+- https://t.me/ZedXe
 redirect_from: 
 developerName: Zuf Info Tech, LDA
 features: 

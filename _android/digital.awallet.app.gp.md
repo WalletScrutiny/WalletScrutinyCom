@@ -3,7 +3,7 @@ wsId:
 title: AWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: digital.awallet.app.gp
 appCountry: 

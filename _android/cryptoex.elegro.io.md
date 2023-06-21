@@ -31,7 +31,7 @@ social:
 - https://medium.com/@elegro
 - https://www.instagram.com/elegro.wallet
 - https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
-- https://t.me/nikotech_support 
+- https://t.me/nikotech_support
 redirect_from:
 - /cryptoex.elegro.io/
 - /posts/cryptoex.elegro.io/

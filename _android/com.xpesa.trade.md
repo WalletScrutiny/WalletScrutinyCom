@@ -3,7 +3,7 @@ wsId:
 title: Xpesa
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.xpesa.trade
 appCountry: 

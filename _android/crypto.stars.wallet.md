@@ -3,7 +3,7 @@ wsId:
 title: Crypto Blockchain Wallet to Bu
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: crypto.stars.wallet
 appCountry: 

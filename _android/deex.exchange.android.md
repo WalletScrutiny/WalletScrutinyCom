@@ -3,7 +3,7 @@ wsId:
 title: Deex Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: deex.exchange.android
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UC5oYUk9QC4kbM5ZBpodOUcQ
 - https://vk.com/deex.exchange
 - https://www.reddit.com/user/the_deex
-- https://t.me/deexexchange 
+- https://t.me/deexexchange
 redirect_from: 
 developerName: Deex Group
 features: 

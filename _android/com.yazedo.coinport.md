@@ -3,7 +3,7 @@ wsId:
 title: 'CoinPort: Buy and Sell Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.yazedo.coinport
 appCountry: 

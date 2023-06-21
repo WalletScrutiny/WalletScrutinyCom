@@ -6,7 +6,7 @@ authors:
 appId: paybusiness.elegro.eu
 appCountry: us
 idd: '1526117414'
-released: '2020-08-14T07:00:00Z'
+released: 2020-08-14
 updated: 2023-05-17
 version: '3.2'
 stars: 0
