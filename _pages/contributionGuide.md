@@ -497,7 +497,7 @@ At its most basic, adding a category starts with these steps:
 
     ```const platformOrder = "hardware,android,iphone,bearer,desktop"```
     
-13. Edit **allAppList.html** to include desktop. For example, this is for Android. Be sure to match the fields in the front matter of your .md files.
+13. Edit **allAppList.html** to include desktop. This is an example entry for **Hardware**. Replace all instances of *hardware* with `desktop`. Be sure to match the fields in the front matter of your .md files.
 
     - ![Image of sample entry for hardware in allAppList.html](/images/pages/allapplist-mods-for-new-category.png "Sample entry for hardware in allAppList.html to be modified")
 
