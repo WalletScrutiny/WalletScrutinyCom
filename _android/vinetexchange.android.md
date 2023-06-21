@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Vinetexchange: Exchange Skrill'
+title: Vinetexchange:Exchange Bitcoin
 altTitle: 
 authors: 
 users: 1000

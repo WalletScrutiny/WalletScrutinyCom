@@ -7,8 +7,8 @@ users: 50
 appId: jha.cwallet
 appCountry: 
 released: 2022-01-03
-updated: 2022-01-03
-version: 1.0.1
+updated: 2023-06-17
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jha.cwallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-02
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

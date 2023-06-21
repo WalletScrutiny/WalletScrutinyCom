@@ -7,8 +7,8 @@ users: 1000
 appId: com.sellix
 appCountry: 
 released: 2022-06-12
-updated: 2023-03-15
-version: '2.07'
+updated: 2023-06-20
+version: '2.09'
 stars: 3.8
 ratings: 
 reviews: 5

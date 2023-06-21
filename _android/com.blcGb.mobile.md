@@ -3,7 +3,7 @@ wsId:
 title: BBLC Inc
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.blcGb.mobile
 appCountry: 
 released: 2023-02-14

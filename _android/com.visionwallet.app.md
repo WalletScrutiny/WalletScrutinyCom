@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.visionwallet.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

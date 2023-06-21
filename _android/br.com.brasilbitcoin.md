@@ -12,7 +12,7 @@ updated: 2023-03-23
 version: 2.9.13
 stars: 4.5
 ratings: 2855
-reviews: 4824
+reviews: 4826
 size: 
 website: https://brasilbitcoin.com.br
 repository: 

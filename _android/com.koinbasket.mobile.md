@@ -9,9 +9,9 @@ appCountry:
 released: 2022-07-02
 updated: 2023-02-01
 version: 1.1.4
-stars: 3.3
+stars: 3.2
 ratings: 
-reviews: 12
+reviews: 11
 size: 
 website: https://koinbasket.com
 repository: 

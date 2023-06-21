@@ -7,8 +7,8 @@ users: 1000
 appId: com.shidowallet
 appCountry: 
 released: 2022-09-30
-updated: 2023-05-24
-version: 1.2.1
+updated: 2023-06-16
+version: '1.4'
 stars: 4.9
 ratings: 
 reviews: 27

@@ -11,7 +11,7 @@ updated: 2022-12-19
 version: '42.5'
 stars: 4.6
 ratings: 
-reviews: 50
+reviews: 41
 size: 
 website: https://cryptobiz.exchange/
 repository: 

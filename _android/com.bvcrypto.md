@@ -3,7 +3,7 @@ wsId:
 title: Bv Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bvcrypto
 appCountry: 
 released: 2019-05-28

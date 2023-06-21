@@ -8,8 +8,8 @@ users: 5000
 appId: com.richamster.app
 appCountry: 
 released: 2018-11-24
-updated: 2020-08-08
-version: '2.3'
+updated: 2023-06-20
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.richamster.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-04-29
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: Richamster_com

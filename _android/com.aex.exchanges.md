@@ -7,8 +7,8 @@ users: 1000
 appId: com.aex.exchanges
 appCountry: 
 released: 2023-02-24
-updated: 2023-05-23
-version: 1.1.0
+updated: 2023-06-13
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 

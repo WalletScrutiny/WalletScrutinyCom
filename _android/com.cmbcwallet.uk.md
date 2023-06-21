@@ -2,7 +2,8 @@
 wsId: 
 title: CMBCWALLET
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.cmbcwallet.uk
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.cmbcwallet.uk.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+CMBC Wallet allow you to swap BTC, ETH, BCH, to CMBC.
+
+## Analysis 
+
+- The app was last updated 4 years ago 
+- The listed website for this app is down
+- We sent an email to: admin@cmbcwallet.uk 
+- The email bounced with error: "Address not found"
+- When we tried to register, it gave an error: "Oops! The server is not responding."
+- This app is very likely to be **defunct**
