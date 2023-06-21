@@ -52,9 +52,4 @@ features:
 - We were **not able to find any references to source-availability**.
 - Given the last update date, it may also be possible that this app is already **defunct**. 
 - We emailed the provider at info@publet.io and also through their contact form at the bottom of the homepage. We'll mark this as **defunct**.
-- The email was returned.
-
-
-
-
-
+- The email bounced with an error.
