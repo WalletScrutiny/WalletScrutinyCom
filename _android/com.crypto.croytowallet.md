@@ -45,7 +45,7 @@ features:
 
 - [Screenshots](https://twitter.com/BitcoinWalletz/status/1660475721746137094)
 - We were able to successfully install and register. 
-- The seed phrases were provided right at the beginning. However, we did find something odd with it. The verification needs the user to tap on each word sequentially. The words are exactly arranged according to how they were presented. In other apps, these words were not randomly arranged. 
+- The seed words were provided right at the beginning. However, we did find something odd with it. The verification needs the user to tap on each word sequentially. The words are exactly arranged in the right order. In other apps, these words are randomly arranged so the user cannot just click them in the presented order.
 - The social media links for twitter, LinkedIn and GitHub only redirected to the homepage. 
 - Since its GitHub icon only linked back to the app's homepage, and since there's no mention that the source is publicly-available, we analyze this app as **not having its source publicly-available**. 
 
