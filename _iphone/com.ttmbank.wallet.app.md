@@ -3,11 +3,11 @@ wsId: mDAOWallet
 title: MDAO Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.ttmbank.wallet.app
 appCountry: de
 idd: '1540851562'
-released: '2021-08-12T07:00:00Z'
+released: 2021-08-12
 updated: 2023-06-01
 version: 2.2.4
 stars: 5

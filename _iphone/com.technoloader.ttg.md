@@ -3,14 +3,14 @@ wsId: tradeTheGames
 title: 'Trade The Games: Crypto Game'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.technoloader.ttg
 appCountry: in
 idd: '1610688947'
-released: '2022-03-17T07:00:00Z'
+released: 2022-03-17
 updated: 2022-11-01
 version: '1.8'
-stars: 4.90909
+stars: 4.9
 reviews: 11
 size: '22382592'
 website: https://www.tradethegames.com/
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/trade-the-games
 - https://www.instagram.com/tradethegames
 - https://t.me/TTG_announcements
-- https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos 
+- https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos
 features: 
 developerName: Technoloader it services
 

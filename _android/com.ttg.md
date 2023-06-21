@@ -3,7 +3,7 @@ wsId: tradeTheGames
 title: 'Trade The Games: Crypto Game'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ttg
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/trade-the-games
 - https://www.instagram.com/tradethegames
 - https://t.me/TTG_announcements
-- https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos 
+- https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos
 redirect_from: 
 developerName: Technoloader IT Services Pvt Ltd
 features: 

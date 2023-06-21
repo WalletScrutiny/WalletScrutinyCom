@@ -3,7 +3,7 @@ wsId: mDAOWallet
 title: MDAO Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ttmbank.wallet.app
 appCountry: 

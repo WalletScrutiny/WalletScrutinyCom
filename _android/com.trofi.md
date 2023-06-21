@@ -3,7 +3,7 @@ wsId: trofiInvestment
 title: Trofi - Crypto Investment App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.trofi
 appCountry: 
@@ -28,7 +28,7 @@ twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn 
+- https://discord.com/invite/crwD3JgMgn
 redirect_from: 
 developerName: Trofi Group
 features: 

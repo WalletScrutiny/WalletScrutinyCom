@@ -3,17 +3,17 @@ wsId: byteXTrade
 title: Bytex - Trade, Borrow & Earn
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.tusker.bytexio
 appCountry: in
 idd: '1621476540'
-released: '2022-05-18T07:00:00Z'
+released: 2022-05-18
 updated: 2022-11-28
 version: 1.0.9
 stars: 0
 reviews: 0
 size: '58488832'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.tusker.bytexio.jpg
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/ByteX.official
 - https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg
 - https://www.instagram.com/bytex.io
-- https://www.linkedin.com/company/bytex-canada  
+- https://www.linkedin.com/company/bytex-canada
 features: 
 developerName: ByteX Financial LTD.
 

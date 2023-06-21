@@ -2,8 +2,8 @@
 wsId: 
 title: T-REX
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 1000
 appId: com.trex.exchange
 appCountry: 

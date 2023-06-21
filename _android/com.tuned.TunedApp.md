@@ -3,7 +3,7 @@ wsId:
 title: Tuned - Crypto Trading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tuned.TunedApp
 appCountry: 
@@ -28,7 +28,7 @@ twitter: tuned_com
 social:
 - https://www.facebook.com/tuned
 - https://www.youtube.com/channel/UCDOovAPbW11jBakut16dDvw
-- https://discord.com/invite/nN8PaRW85K 
+- https://discord.com/invite/nN8PaRW85K
 redirect_from: 
 developerName: Tuned Systems, Inc.
 features: 

@@ -3,7 +3,7 @@ wsId:
 title: 8U EXCHANGE
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.u8ex.app22
 appCountry: 

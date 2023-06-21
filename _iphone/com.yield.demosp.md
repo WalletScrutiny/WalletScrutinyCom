@@ -3,17 +3,17 @@ wsId: trofiInvestment
 title: Yield Pro Simulator
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.yield.demosp
 appCountry: us
 idd: '6445887027'
-released: '2023-04-19T07:00:00Z'
+released: 2023-04-19
 updated: 2023-05-29
 version: 1.1.0
 stars: 0
 reviews: 0
 size: '26676224'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.yield.demosp.jpg
@@ -28,7 +28,7 @@ social:
 - https://www.trofi.group
 - https://www.linkedin.com/company/yieldapp
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn  
+- https://discord.com/invite/crwD3JgMgn
 features: 
 developerName: Yield App
 

@@ -3,7 +3,7 @@ wsId: uFundFundRaising
 title: 'UFUND: Fundraising, Investing'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ufund.app
 appCountry: 

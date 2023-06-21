@@ -3,14 +3,14 @@ wsId: unionCash
 title: Unioncash
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.union.cash
 appCountry: us
 idd: '1576165600'
-released: '2021-07-14T07:00:00Z'
+released: 2021-07-14
 updated: 2023-03-09
 version: '1.32'
-stars: 4.68
+stars: 4.7
 reviews: 25
 size: '136509440'
 website: https://union.cash

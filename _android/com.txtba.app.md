@@ -3,7 +3,7 @@ wsId:
 title: TXTBA
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.txtba.app
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-06-07
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://txtba.com
 redirect_from: 
 developerName: Txtba

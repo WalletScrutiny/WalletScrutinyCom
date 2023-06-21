@@ -3,7 +3,7 @@ wsId:
 title: AInvesting - CFD trading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.uptrend.ainvesting
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://ainvesting.eu
 - https://www.facebook.com/uptrend.bg
-- https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/ 
+- https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
 redirect_from: 
 developerName: Uptrend LTD
 features: 

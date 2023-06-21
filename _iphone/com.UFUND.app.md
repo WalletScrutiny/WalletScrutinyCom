@@ -3,17 +3,17 @@ wsId: uFundFundRaising
 title: 'UFUND: Investing, Fundraising'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.UFUND.app
 appCountry: in
 idd: '1490084497'
-released: '2021-12-28T08:00:00Z'
+released: 2021-12-28
 updated: 2022-01-06
 version: '1.1'
 stars: 3
 reviews: 1
 size: '69398528'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.UFUND.app.jpg

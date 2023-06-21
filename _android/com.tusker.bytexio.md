@@ -3,7 +3,7 @@ wsId: byteXTrade
 title: ByteX - Trade, Borrow & Earn
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tusker.bytexio
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/ByteX.official
 - https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg
 - https://www.instagram.com/bytex.io
-- https://www.linkedin.com/company/bytex-canada 
+- https://www.linkedin.com/company/bytex-canada
 redirect_from: 
 developerName: ByteX Financial LTD.
 features: 

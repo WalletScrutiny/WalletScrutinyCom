@@ -3,7 +3,7 @@ wsId:
 title: Buy Bitcoin & Other Cryptocurr
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tradersinc.buybitcoin
 appCountry: 

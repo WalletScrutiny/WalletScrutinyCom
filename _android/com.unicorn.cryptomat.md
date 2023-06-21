@@ -3,7 +3,7 @@ wsId:
 title: Cryptomat. Cryptocurrency exch
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.unicorn.cryptomat
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://cryptoplat.io 
+- https://cryptoplat.io
 redirect_from: 
 developerName: Deex Group
 features: 

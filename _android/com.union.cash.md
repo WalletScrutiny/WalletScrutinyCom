@@ -3,7 +3,7 @@ wsId: unionCash
 title: Unioncash
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.union.cash
 appCountry: 
