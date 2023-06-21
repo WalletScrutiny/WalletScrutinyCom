@@ -9,6 +9,9 @@
     <p>
       {% assign v=site.data.verdicts[page.verdict] %}
       {{ v.message }}
+      {% if page.issue %}
+       <br><a href="{{page.issue}}">See the Issue we created</a>.
+      {% endif %}
     </p>
     <a class="" href="#result">See test result</a>
   </div>
