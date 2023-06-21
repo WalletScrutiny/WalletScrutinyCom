@@ -3,7 +3,7 @@ wsId:
 title: Ethereum Code
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.wEthereumCode_15093934
 appCountry: 

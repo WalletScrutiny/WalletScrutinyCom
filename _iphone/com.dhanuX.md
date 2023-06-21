@@ -3,11 +3,11 @@ wsId: dhanuX
 title: DhanuX_
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.dhanuX
 appCountry: kw
 idd: '1635494280'
-released: '2022-08-25T07:00:00Z'
+released: 2022-08-25
 updated: 2023-01-14
 version: 1.6.1
 stars: 0
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

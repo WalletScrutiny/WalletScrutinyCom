@@ -2,7 +2,7 @@
 wsId: clubSwan
 title: 'Club Swan: Lifestyle & Finance'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.clubswan.app2.clubswan
@@ -28,7 +28,7 @@ twitter: clubswanapp
 social:
 - https://www.instagram.com/official_clubswan_app/
 - https://www.facebook.com/ClubSwanapp/
-- https://www.linkedin.com/company/clubswan/ 
+- https://www.linkedin.com/company/clubswan/
 redirect_from: 
 developerName: AU Card Ltd
 features: 

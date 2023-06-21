@@ -3,7 +3,7 @@ wsId:
 title: SmartCash Transact
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.wongeta.smartcashtransact
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: mysmartcasht
 social:
 - https://www.instagram.com/smartcash_za
-- https://www.facebook.com/mysmartcash.tech 
+- https://www.facebook.com/mysmartcash.tech
 redirect_from: 
 developerName: Wongeta
 features: 

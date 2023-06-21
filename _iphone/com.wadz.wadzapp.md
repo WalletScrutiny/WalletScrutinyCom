@@ -3,11 +3,11 @@ wsId: wadzPay
 title: WadzPay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.wadz.wadzapp
 appCountry: in
 idd: '1488616174'
-released: '2020-12-28T08:00:00Z'
+released: 2020-12-28
 updated: 2021-09-15
 version: 2.0.1
 stars: 5
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/wadzpay
 - https://t.me/WadzPay_Official
 - https://www.youtube.com/channel/UCZsMD2r_6d676L8alwl5kEA
-- https://wadzpay.medium.com 
+- https://wadzpay.medium.com
 features: 
 developerName: WadzPay Worldwide Pte Ltd
 

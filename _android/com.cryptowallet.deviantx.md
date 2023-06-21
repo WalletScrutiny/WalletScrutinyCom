@@ -3,7 +3,7 @@ wsId:
 title: 'DeviantX Wallet : Bitcoin Ethe'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryptowallet.deviantx
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-05-22
 signer: 
 reviewArchive: 
 twitter: DeviantCoin
-social: 
+social:
 - https://www.facebook.com/DeviantCoin
 - https://www.reddit.com/r/DeviantCoin
 - https://t.me/DeviantDEV

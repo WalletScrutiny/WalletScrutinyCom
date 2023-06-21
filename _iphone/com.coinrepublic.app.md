@@ -3,11 +3,11 @@ wsId: coinRepublic
 title: Coin Republic
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinrepublic.app
 appCountry: au
 idd: '1540941971'
-released: '2020-11-28T08:00:00Z'
+released: 2020-11-28
 updated: 2023-02-01
 version: '1.01'
 stars: 5
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

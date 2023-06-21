@@ -3,17 +3,17 @@ wsId: xchangeCash
 title: Xchange cash - купить Биткоин
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.xchangecapital.xchange
 appCountry: ru
 idd: '1520392383'
-released: '2020-07-25T07:00:00Z'
+released: 2020-07-25
 updated: 2022-12-22
 version: 1.0.2
 stars: 5
 reviews: 5
 size: '80513024'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.xchangecapital.xchange.jpg

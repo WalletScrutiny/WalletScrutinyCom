@@ -3,7 +3,7 @@ wsId:
 title: 'خرید بیت کوین و ارزدیجیتال: اک'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.xchaino
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: exchaino
 social:
 - https://www.instagram.com/myexchaino
-- https://t.me/exchaino 
+- https://t.me/exchaino
 redirect_from: 
 developerName: Bit24
 features: 

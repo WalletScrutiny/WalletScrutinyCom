@@ -3,7 +3,7 @@ wsId:
 title: Crypto Engine
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryptoengine.app
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CryptoEngineApp
 social:
-- https://www.facebook.com/TheCryptoEngineApp 
+- https://www.facebook.com/TheCryptoEngineApp
 redirect_from: 
 developerName: Mart Hendricks
 features: 

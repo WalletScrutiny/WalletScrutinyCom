@@ -3,7 +3,7 @@ wsId: ventAfrica
 title: Vent Africa - Crypto to Cash
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.vent.app
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ventafricaHQ
 social:
-- https://t.me/ventafrica 
+- https://t.me/ventafrica
 redirect_from: 
 developerName: Vent Comm & Tech LTD
 features: 

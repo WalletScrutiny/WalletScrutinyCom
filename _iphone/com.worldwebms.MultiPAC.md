@@ -3,14 +3,14 @@ wsId: unidoMultisigWallet
 title: Unido
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.worldwebms.MultiPAC
 appCountry: us
 idd: '1444261005'
-released: '2018-11-27T08:31:40Z'
+released: 2018-11-27
 updated: 2022-12-21
 version: 4.1.1
-stars: 4.88889
+stars: 4.9
 reviews: 9
 size: '42892288'
 website: https://www.unido.us
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCdEGWp4RbkIjHfZfDFuBXsg/featured
 - https://www.reddit.com/user/Unidocore
 - https://discord.com/invite/cs5HeDDmDY
-- https://unidocore.medium.com 
+- https://unidocore.medium.com
 features: 
 developerName: WorldWeb Management Services Pty Ltd
 

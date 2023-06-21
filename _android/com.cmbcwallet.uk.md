@@ -3,7 +3,7 @@ wsId:
 title: CMBCWALLET
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cmbcwallet.uk
 appCountry: 

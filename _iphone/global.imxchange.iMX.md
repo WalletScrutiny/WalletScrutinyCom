@@ -3,17 +3,17 @@ wsId: iMX
 title: iMX
 altTitle: 
 authors:
-- danny 
+- danny
 appId: global.imxchange.iMX
 appCountry: in
 idd: '1558636368'
-released: '2021-04-06T07:00:00Z'
+released: 2021-04-06
 updated: 2023-03-31
 version: 1.6.2
 stars: 0
 reviews: 0
 size: '26063872'
-website: ''
+website: 
 repository: 
 issue: 
 icon: global.imxchange.iMX.jpg
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

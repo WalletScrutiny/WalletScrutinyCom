@@ -3,7 +3,7 @@ wsId:
 title: Crypshark Fincity Wallet - Buy
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.crypshark
 appCountry: 

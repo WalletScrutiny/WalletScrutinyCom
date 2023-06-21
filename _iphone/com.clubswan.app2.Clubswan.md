@@ -3,11 +3,11 @@ wsId: clubSwan
 title: 'Club Swan: Membership for all'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.clubswan.app2.Clubswan
 appCountry: in
 idd: '1507948482'
-released: '2021-07-19T07:00:00Z'
+released: 2021-07-19
 updated: 2021-12-16
 version: 2.4.0
 stars: 1
@@ -27,8 +27,9 @@ twitter: clubswanapp
 social:
 - https://www.instagram.com/official_clubswan_app/
 - https://www.facebook.com/ClubSwanapp/
-- https://www.linkedin.com/company/clubswan/ 
+- https://www.linkedin.com/company/clubswan/
 features: 
+developerName: 
 
 ---
 

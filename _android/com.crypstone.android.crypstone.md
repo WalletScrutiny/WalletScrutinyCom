@@ -3,7 +3,7 @@ wsId:
 title: Crypstone
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.crypstone.android.crypstone
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/Crypstoneglobal
 - https://t.me/officialcrypstone
 - https://www.instagram.com/crypstoneglobal
-- https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug 
+- https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug
 redirect_from: 
 developerName: Crypstone
 features: 

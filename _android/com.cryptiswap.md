@@ -3,7 +3,7 @@ wsId: quantex
 title: Quantex - Swap & Trade Crypto!
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryptiswap
 appCountry: 

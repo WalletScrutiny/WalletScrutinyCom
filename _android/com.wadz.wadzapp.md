@@ -3,7 +3,7 @@ wsId: wadzPay
 title: WadzPay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.wadz.wadzapp
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://www.instagram.com/wadzpay
 - https://t.me/WadzPay_Official
 - https://www.youtube.com/channel/UCZsMD2r_6d676L8alwl5kEA
-- https://wadzpay.medium.com 
+- https://wadzpay.medium.com
 redirect_from: 
 developerName: 2020 WadzPay Worldwide Pte Ltd
 features: 

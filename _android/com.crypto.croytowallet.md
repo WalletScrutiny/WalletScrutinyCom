@@ -3,7 +3,7 @@ wsId: iMX
 title: iMX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.crypto.croytowallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/profile.php?id=100075743690970 
+- https://www.facebook.com/profile.php?id=100075743690970
 - https://www.instagram.com/imxapp/
 redirect_from: 
 developerName: IMSMART Company LTD

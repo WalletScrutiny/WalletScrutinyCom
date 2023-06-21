@@ -3,7 +3,7 @@ wsId:
 title: Crypto Exchange Explorer
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.Richhantek.Blockchain
 appCountry: 

@@ -2,7 +2,7 @@
 wsId: 
 title: CRIPTOHUB - CHBR
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.criptohub

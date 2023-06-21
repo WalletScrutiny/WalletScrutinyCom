@@ -3,7 +3,7 @@ wsId:
 title: 'CM Robot - Autotrader Bitcoin '
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryptomaniac.cmrobot
 appCountry: 

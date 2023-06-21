@@ -3,7 +3,7 @@ wsId:
 title: CS9
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.csesg.cs9
 appCountry: 

@@ -3,7 +3,7 @@ wsId: cryptex24
 title: Cryptex24
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryptex24
 appCountry: 

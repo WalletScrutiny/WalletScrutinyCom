@@ -3,7 +3,7 @@ wsId:
 title: Neo Trade
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.world.bestinfo
 appCountry: 

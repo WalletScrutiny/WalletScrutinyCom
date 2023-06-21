@@ -3,7 +3,7 @@ wsId:
 title: Xensor Box:Easy-to-use, safe c
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.xensorbox
 appCountry: 

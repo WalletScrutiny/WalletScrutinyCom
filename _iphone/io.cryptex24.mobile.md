@@ -2,12 +2,12 @@
 wsId: cryptex24
 title: C24 mobile application
 altTitle: 
-authors: 
+authors:
 - danny
 appId: io.cryptex24.mobile
 appCountry: ua
 idd: '1580215134'
-released: '2022-07-06T07:00:00Z'
+released: 2022-07-06
 updated: 2022-12-05
 version: '1.6'
 stars: 0
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

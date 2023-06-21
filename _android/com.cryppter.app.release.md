@@ -3,7 +3,7 @@ wsId:
 title: Cryppter
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cryppter.app.release
 appCountry: 

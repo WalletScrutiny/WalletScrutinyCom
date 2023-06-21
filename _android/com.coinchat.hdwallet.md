@@ -3,7 +3,7 @@ wsId:
 title: Coinchat 冷钱包
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinchat.hdwallet
 appCountry: 

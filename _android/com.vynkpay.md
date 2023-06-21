@@ -3,7 +3,7 @@ wsId: vynxPay
 title: VynkPay | Crypto Payments App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.vynkpay
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/vynkgroup
 - https://discord.com/invite/RBCRGZVsQx
 - https://www.linkedin.com/in/vynkchain-community-59b283208
-- https://t.me/VYNKCHAIN 
+- https://t.me/VYNKCHAIN
 redirect_from: 
 developerName: VYNK GROUP AE
 features: 

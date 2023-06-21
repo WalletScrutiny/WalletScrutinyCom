@@ -3,7 +3,7 @@ wsId: xchangeCash
 title: Xchange – купить и продать кри
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.xccg.xchange
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: XchangeO
 social:
 - https://vk.com/xchange_cc
-- https://t.me/Xchange_official 
+- https://t.me/Xchange_official
 redirect_from: 
 developerName: natamityaeva80
 features: 

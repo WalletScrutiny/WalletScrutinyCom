@@ -3,7 +3,7 @@ wsId: yChanger
 title: Ychanger – доступный каждому о
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.xchange.ychanger
 appCountry: 

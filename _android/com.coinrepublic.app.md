@@ -3,7 +3,7 @@ wsId: coinRepublic
 title: Coin Republic
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinrepublic.app
 appCountry: 

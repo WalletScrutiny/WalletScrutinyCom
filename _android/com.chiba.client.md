@@ -3,7 +3,7 @@ wsId:
 title: chiba - trade cryptocurrency
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.chiba.client
 appCountry: 

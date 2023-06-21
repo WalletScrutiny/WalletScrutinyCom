@@ -3,7 +3,7 @@ wsId: covest
 title: 코베스트 - COVEST
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.covest.covestM
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: COVEST_Official
 social:
-- https://t.me/covestpro 
+- https://t.me/covestpro
 redirect_from: 
 developerName: Covest PRO
 features: 

@@ -3,7 +3,7 @@ wsId: unidoMultisigWallet
 title: Unido
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.worldwebms.multisigwallet
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://www.youtube.com/channel/UCdEGWp4RbkIjHfZfDFuBXsg/featured
 - https://www.reddit.com/user/Unidocore
 - https://discord.com/invite/cs5HeDDmDY
-- https://unidocore.medium.com 
+- https://unidocore.medium.com
 redirect_from: 
 developerName: WorldWeb Group Pty Ltd
 features: 

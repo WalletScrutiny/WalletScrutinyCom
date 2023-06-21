@@ -3,7 +3,7 @@ wsId:
 title: Witcash
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.waspbit.witcashpdn
 appCountry: 
