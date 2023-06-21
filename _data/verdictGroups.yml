@@ -34,7 +34,7 @@
   - sealed-plainkey
   - prefilled
   title: Untrustworthy handling of keys.
-  short: Security issues for Bitcoin
+  short: Bitcoin Security issues
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - verdicts:
   - fewusers
@@ -53,5 +53,5 @@
 - verdicts:
   - wip
   title: To be reviewed.
-  short: To be reviewed
+  short: Not reviewed
   comment: Products that look relevant. We have to review them.
