@@ -5,14 +5,13 @@ permalink: /contribute/
 author_profile: true
 ---
 
-<hr>
 ## How to Contribute
-
-### Donate.
 
 WalletScrutiny is a non-profit, Bitcoin-only, source-available project that's primarily run by volunteers. We are motivated to keep the Free and Open Source community aspect of Bitcoin alive. We believe that our contributions help the Bitcoin community become stronger and more agile by pushing for accountability and auditability in wallet security. 
 
-There are many ways you can contribute to the project. These are but a few:    
+There are many ways you can contribute to the project. These are but a few:   
+
+### Donate.
 
 - [Donate.](donate.md) Your donations will support the expenses needed to keep the project - and more importantly, the primary contributors, going. Server, hosting, domain and research costs all factor in to the equation. When you make a donation, you can vote to determine the priorities. The donation form lets you choose among the following: 
 
@@ -61,11 +60,11 @@ You may find that recently released apps are not yet in WalletScrutiny. If you f
 
 2. **Update your local instance** by executing these commands:
 
-   ```git fetch origin master```
+   ```$ git fetch origin master```
    
    and then, 
    
-   ```git pull```
+   ```$ git pull```
    
 3. **Get the app ID from Google Play**. App IDs on Google Play are typically named using the reverse domain name notation. Thus, if the app's homepage is myamazingapp.com, you'll find that its Google Play app ID is **com.myamazingapp**.
 
@@ -75,19 +74,19 @@ You may find that recently released apps are not yet in WalletScrutiny. If you f
    
 4. **Create a new branch for the new app**. The naming convention for a single new app is usually a shortened description such as:
 
-   ```git checkout -b newApp-appID```
+   ```$ git checkout -b newApp-appID```
 
 5. **Use node to execute the WalletScrutiny script** to add the app ID, by typing: 
 
-   ```node addNewAndroidApps.js com.myamazingapp```
+   ```$ node addNewAndroidApps.js com.myamazingapp```
 
 6. If you did not receive an error, you may **proceed with adding various sizes of icon images** by typing:
 
-   ```./updateImages.sh```
+   ```$ ./updateImages.sh```
    
 - That's it! The new app is now added to your local WalletScrutiny. To verify if the app is added to the project, type this in the terminal: 
 
-   ```git status```
+   ```$ git status```
 
 - You should see the following: 
 
@@ -108,17 +107,17 @@ If you are aware that the Android app has a corresponding iPhone app, do this:
 
 3. Back on the terminal, use node to add the App. 
 
-   ```node addNewIphoneApps.js us/1491074310```
+   ```$ node addNewIphoneApps.js us/1491074310```
    
    - **Note:** If this results in an error, try replacing the country code with other codes. If you know for example that the app has origins in Hong Kong, replace **us** with **hk**. 
    
 4. Similar to the Android app procedure, we also invoke: 
 
-   ```./updateImages.sh```
+   ```$ ./updateImages.sh```
 
 5. Check if the files are updated: 
 
-   ```git status```
+   ```$ git status```
    
 ## Reviewing Android Apps 
 
@@ -427,6 +426,82 @@ Let's go over them, one by one:
 First, determine if the category is worthy of adding. Most of the current categories have many wallets in them. If this device or app, is the sole thing in its category, we simply put it in the **_others**. The major categories for the moment are: android, iPhone, bearer tokens, hardware, desktop and others. 
 
 It would be best to take this up with the project manager first before making an MR.
+
+At its most basic, adding a category starts with these steps: 
+
+1. First, the project manager has to approve whether a category is worth adding. 
+
+2. Create a new folder in the root directory and name it descriptively but short. As an example, we will create a new category named 'Desktop'. In the root folder of WalletScrutiny:
+
+    ```$ mkdir _desktop```
+  
+3. Also create a new folder for the icons and images in /images/wIcons. 
+
+      ```$ mkdir /images/wIcons/desktop```
+  
+      ```$ mkdir /images/wIcons/desktop/small```
+     
+      ```$ mkdir /images/wIcons/desktop/tiny```
+      
+4. Create your first .md file inside the _desktop folder. In our example, lets call this `bitcoincore.md`
+
+      ```$ touch bitcoincore.md```
+      
+5. Populate the file with the front matter. For guidance, you may use some of the fields in the Android app less the irrelevant fields that you won't find in a desktop app such as Google Play reviews, etc. You may use the fields above, in the `Reviewing Android Apps` section. 
+
+6. Put a 400x400 png image in /images/wIcons/desktop 
+
+7. Run `./updateImages` script to automatically put a 250x250 copy of the png image in 'small' and a 100x100 copy in 'tiny'.
+
+8. In **_config.yml** duplicate then modify the following entries to match the category you are making:
+
+    - Under:
+
+      - > Collections 
+
+              desktop:
+                output: true
+                permalink: /:collection/:path/
+
+      - > Defaults 
+
+              desktop
+              - scope:
+                  path: ""
+                  type: "desktop"
+                  values:
+                  layout: reviewDesktop
+                  author_profile: true
+                  read_time: false
+                  comments: false
+                  share: true
+                  related: false
+
+9. In the **_layouts** folder 
+
+- Duplicate the reviewAndroid.html file. In our case we should have a new file called **reviewDesktop.html**.
+- This should match the 'layout:' field under #Defaults in _config.yml
+
+    - ![Sample reviewDesktop field under layout field under #Defaults in _config.yml](/images/pages/contribute-config-sample-modify-desktop.png "Sample reviewDesktop field under layout field under #Defaults in _config.yml")
+
+
+10. Open the **reviewDesktop.html** file we just created, search for `<img src>`` tag or the word **'icon'**. Make sure it matches the directory of where the icons are stored.
+
+### Adding the Embeddable Widgets
+
+11. Make sure to include `desktop` in **allWallets.js** under:
+
+    ```const folders = ["hardware", "android", "iphone", "bearer", "desktop"]```
+    
+12. Make sure to include `desktop` in the file **wallets.js** under: 
+
+    ```const platformOrder = "hardware,android,iphone,bearer,desktop"```
+    
+13. Edit **allAppList.html** to include desktop. For example, this is for Android. Be sure to match the fields in the front matter of your .md files.
+
+    - ![Image of sample entry for hardware in allAppList.html](/images/pages/allapplist-mods-for-new-category.png "Sample entry for hardware in allAppList.html to be modified")
+
+
 
 
 
