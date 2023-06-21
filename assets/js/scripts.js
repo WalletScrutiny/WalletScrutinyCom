@@ -53,7 +53,7 @@ function recreateDropdowns(verdict, platform) {
     
     // for (const instanceVerdict of value.verdicts) {
       const count = productCount(key, platform, true)
-      if (count > 0) {
+      if (Number(count.replace(/,/g, '')) > 0) {
         html += `<div class="option ${verdict === key ? 'selected' : ''} ${key}" data="${key}"><span>${value.short}</span> <small>${count}</small></div>`
       }
       else if (verdict === key) {
