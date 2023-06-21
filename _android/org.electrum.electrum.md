@@ -22,9 +22,14 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-05-09
+date: 2023-06-21
 signer: 
 reviewArchive:
+- date: 2023-05-09
+  version: 4.4.2.0
+  appHash: d668878b77b2a7accf819bcd9559e2eb088fc31d00163c8665b62e7cfefccb4a
+  gitRevision: ff287e518fcc34010420ce413c95dd790ab544bd
+  verdict: reproducible
 - date: 2022-11-01
   version: 4.2.1.0
   appHash: f7da55a86aca86080884c1864f8db383d29116d9409ed7f37179785514f1ecf0
@@ -72,24 +77,24 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.4.2.0
-apkVersionCode: 34040200
+apkVersionName: 4.4.4.0
+apkVersionCode: 34040400
 verdict:        reproducible
-appHash:        d668878b77b2a7accf819bcd9559e2eb088fc31d00163c8665b62e7cfefccb4a
-commit:         ff287e518fcc34010420ce413c95dd790ab544bd
+appHash:        51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
+commit:         6374ef248fdc7f1d7d02d15973968d79ac286b96
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34040200/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34040200/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34040200/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040200/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.SF
+Files /tmp/fromPlay_org.electrum.electrum_34040400/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040400/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object ff287e518fcc34010420ce413c95dd790ab544bd
+object 6374ef248fdc7f1d7d02d15973968d79ac286b96
 type commit
-tag 4.4.2
-tagger ThomasV <thomasv@electrum.org> 1683203165 +0200
+tag 4.4.4
+tagger ThomasV <thomasv@electrum.org> 1685538044 +0200
 
-4.4.2
+4.4.4
 ===== End Results =====
 ```
 
