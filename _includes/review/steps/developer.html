@@ -18,24 +18,32 @@
     {% endif %}
     {% if page.social %}
       {% for link in page.social %}
-        {% assign string = link | replace: "https://", "" %}
-        {% assign split = string | split:"/" %}
-        {% assign name = split[0] | split:"." %}
-        {% case name[0] %}
-          {% when "t" %}
-          {% assign name = 'Telegram' %}
-          {% when "join" %}
-          {% when "www" %}
-          {% assign name = name[1] %}
-          {% else %}
-          {% assign name = name[0] %}
-        {% endcase %}
 
-        {% case name[1] %}
-          {% when "medium" %}
-          {% assign name = 'Medium' %}
-          {% else %}
-        {% endcase %}
+      {% assign domain = link | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
+
+      {% case domain %}
+        {% when "bitcointalk" %}{% assign name = "Bitcoin Talk" %}
+        {% when "discord"     %}{% assign name = "Discord" %}
+        {% when "facebook"    %}{% assign name = "Facebook" %}
+        {% when "github"      %}{% assign name = "GitHub" %}
+        {% when "google"      %}{% assign name = "Google" %}
+        {% when "instagram"   %}{% assign name = "Instagram" %}
+        {% when "keybase"     %}{% assign name = "Keybase" %}
+        {% when "linkedin"    %}{% assign name = "LinkedIn" %}
+        {% when "medium"      %}{% assign name = "Medium" %}
+        {% when "pinterest"   %}{% assign name = "Pinterest" %}
+        {% when "reddit"      %}{% assign name = "Reddit" %}
+        {% when "slack"       %}{% assign name = "Slack" %}
+        {% when "t"           %}{% assign name = "Telegram" %}
+        {% when "tiktok"      %}{% assign name = "tiktok" %}
+        {% when "twitter"     %}{% assign name = "Twitter" %}
+        {% when "vimeo"       %}{% assign name = "Vimeo" %}
+        {% when "vk"          %}{% assign name = "VK" %}
+        {% when "weibo"       %}{% assign name = "Weibo" %}
+        {% when "whatsapp"    %}{% assign name = "WhatsApp" %}
+        {% when "youtube"     %}{% assign name = "YouTube" %}
+        {% else               %}{% assign name = "Website" %}
+      {% endcase %}
 
         <a href="{{link}}" title="{{name}}" class="capitalise" target="_blank">{{name}}</a>
       {% endfor %}
