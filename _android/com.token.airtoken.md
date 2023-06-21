@@ -3,7 +3,7 @@ wsId:
 title: Air Token Wallet - Social Weal
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.token.airtoken
 appCountry: 

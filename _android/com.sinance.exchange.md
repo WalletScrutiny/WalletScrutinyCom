@@ -3,7 +3,7 @@ wsId:
 title: SNEX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.sinance.exchange
 appCountry: 

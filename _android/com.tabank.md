@@ -3,7 +3,7 @@ wsId: tabank
 title: 'Tabank: Tabus Crypto Ecosystem'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tabank
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: OrgTabank
 social:
 - https://www.facebook.com/tabank.org
-- https://t.me/tabankorg 
+- https://t.me/tabankorg
 redirect_from: 
 developerName: Tabank Holding Pte. Ltd.
 features: 

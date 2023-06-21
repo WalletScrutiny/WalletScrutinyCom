@@ -3,7 +3,7 @@ wsId:
 title: Polo Companion (for Poloniex)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tool.altintorr.polocompanion
 appCountry: 

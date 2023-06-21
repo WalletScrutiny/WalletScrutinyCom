@@ -3,11 +3,11 @@ wsId: thorYieldApp
 title: THORYield
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.thoryield.iosapp
 appCountry: us
 idd: '1618239586'
-released: '2022-04-13T07:00:00Z'
+released: 2022-04-13
 updated: 2023-05-21
 version: 2.0.34
 stars: 4.4

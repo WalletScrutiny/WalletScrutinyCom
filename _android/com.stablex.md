@@ -3,7 +3,7 @@ wsId: stablexKripto
 title: Stablex | Kripto Para Al-Sat
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.stablex
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Stablex_Turkey
 social:
 - https://www.instagram.com/stablexofficial
 - https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
-- https://www.linkedin.com/company/stablex-net 
+- https://www.linkedin.com/company/stablex-net
 redirect_from: 
 developerName: Stablex Bilişim
 features: 

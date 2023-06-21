@@ -3,7 +3,7 @@ wsId: thorYieldApp
 title: THORYield
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.thoryield.androidapp
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: thoryieldapp
 social:
 - https://discord.com/invite/thorswap
-- https://t.me/thorswap_ann 
+- https://t.me/thorswap_ann
 - https://thorswap.medium.com
 redirect_from: 
 developerName: Inflekta

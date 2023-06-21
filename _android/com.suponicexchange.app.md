@@ -3,7 +3,7 @@ wsId:
 title: Suponic
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.suponicexchange.app
 appCountry: 

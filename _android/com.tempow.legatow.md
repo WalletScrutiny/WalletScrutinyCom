@@ -3,7 +3,7 @@ wsId:
 title: Legatow
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tempow.legatow
 appCountry: 

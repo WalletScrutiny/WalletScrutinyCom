@@ -3,7 +3,7 @@ wsId: tBitGlobal
 title: Tbit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tbit.android
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/tbit-global 
+- https://www.linkedin.com/company/tbit-global
 redirect_from: 
 developerName: Tbit Global limited
 features: 

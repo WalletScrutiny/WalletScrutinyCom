@@ -16,7 +16,7 @@ reviews: 9
 size: 
 website: https://deploystarship.com
 repository: https://github.com/deploystarship/StarBase_android
-issue: 
+issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477
 icon: com.starbase.wallet.jpg
 bugbounty: 
 meta: stale
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/c/DeployStarShipNFT
 - https://www.instagram.com/deploystarship
 - https://www.facebook.com/DeployStarship
-- https://discord.com/invite/deploystarship  
+- https://discord.com/invite/deploystarship
 redirect_from: 
 developerName: Starship Holdings, Inc
 features: 

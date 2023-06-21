@@ -3,7 +3,7 @@ wsId:
 title: SEADEX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.seadex.seadex
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: FINNEY Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.sirinlabs.os.wallet
 appCountry: 

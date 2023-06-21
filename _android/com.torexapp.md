@@ -3,7 +3,7 @@ wsId:
 title: Torex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.torexapp
 appCountry: 

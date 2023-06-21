@@ -3,7 +3,7 @@ wsId: tomyaApp
 title: Tomya  Güvenli Kripto Yatırımı
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tomyaapp.android
 appCountry: 

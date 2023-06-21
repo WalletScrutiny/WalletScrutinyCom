@@ -3,14 +3,14 @@ wsId: ramzingate
 title: Ramzingate
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.ramzingate.ramzingate
 appCountry: us
 idd: '1589996478'
-released: '2021-10-15T07:00:00Z'
+released: 2021-10-15
 updated: 2022-03-05
 version: '2'
-stars: 4.33333
+stars: 4.3
 reviews: 6
 size: '43363328'
 website: https://bokanian.github.io/appramzingate

@@ -6,7 +6,7 @@ authors:
 appId: com.pt.powertrade
 appCountry: id
 idd: '1548085709'
-released: '2021-04-15T07:00:00Z'
+released: 2021-04-15
 updated: 2022-12-28
 version: 2.2.2
 stars: 5

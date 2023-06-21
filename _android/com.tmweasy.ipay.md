@@ -3,7 +3,7 @@ wsId:
 title: Ipay Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tmweasy.ipay
 appCountry: 

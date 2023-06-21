@@ -3,7 +3,7 @@ wsId: ramzingate
 title: Ramzingate | Crypto exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ramzingate.ramzingate
 appCountry: 

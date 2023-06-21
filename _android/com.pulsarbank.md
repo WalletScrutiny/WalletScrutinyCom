@@ -3,7 +3,7 @@ wsId:
 title: Pulsar Platform LTD
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pulsarbank
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://pulsarbank.com 
+- https://pulsarbank.com
 redirect_from: 
 developerName: Pulsar Platform LTD
 features: 

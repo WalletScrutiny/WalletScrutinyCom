@@ -3,7 +3,7 @@ wsId:
 title: 3Commas Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.threecommas.wallet
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/3Commas.io
 - https://t.me/commas
 - https://discord.com/invite/3commas
-- https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos 
+- https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 redirect_from: 
 developerName: 3Сommas - Cryptocurrency trading terminal and bots
 features: 

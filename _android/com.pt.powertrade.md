@@ -3,7 +3,7 @@ wsId:
 title: PowerTrade
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pt.powertrade
 appCountry: 
