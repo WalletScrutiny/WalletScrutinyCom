@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aidapps.aiconwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-05-10
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: AiconOfficial

@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.ittrendex.liteforex.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-09-03
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

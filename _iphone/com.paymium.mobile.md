@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paymium.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-03
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: paymium

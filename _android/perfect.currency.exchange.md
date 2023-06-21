@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: perfect.currency.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2023-05-06
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

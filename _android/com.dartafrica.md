@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dartafrica.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-03-29
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.coin.bf.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-02-16
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
