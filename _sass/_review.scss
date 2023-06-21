@@ -1,6 +1,6 @@
 .textbox {
   border-radius: 10px;
-  background: var(--neutral-6);
+  background-image: linear-gradient(var(--neutral-6), var(--neutral-6));
   background-color: var(--wallet-low-contrast);
   padding: 15px 25px;
   margin: 10px 0;
@@ -134,8 +134,8 @@
       border-radius: 10px 10px 0 0;
       cursor: pointer;
       &.active {
-        background: var(--neutral-6);
-        background-color: var(--wallet-gradient);
+        background-image: linear-gradient(var(--neutral-6), var(--neutral-6));
+background-color: var(--wallet-gradient);
       }
       &::before {
         content: attr(data-text);
@@ -493,7 +493,7 @@
     flex-wrap: wrap;
   }
   > div {
-    background: var(--neutral-6);
+    background-image: linear-gradient(var(--neutral-6), var(--neutral-6));
     background-color: var(--wallet-low-contrast);
     padding: 25px;
     border-radius: 15px;
@@ -537,7 +537,7 @@
     display: grid;
     grid-template: auto / auto auto 1fr;
     text-align: right;
-    background: var(--neutral-6);
+    background-image: linear-gradient(var(--neutral-6), var(--neutral-6));
     background-color: var(--wallet-low-contrast);
     font-size: 17px;
     padding: 10px 20px 10px 10px;
