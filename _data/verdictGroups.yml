@@ -4,7 +4,7 @@
   - diy
   title: All tests passed.
   short: All tests passed
-  privacy: This product appears to adhere to good privacy practices, however provider may still have access to personal data and transactions.
+  privacy: This product appears to adhere to good privacy practices.
   comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
 - verdicts:
   - nonverifiable
