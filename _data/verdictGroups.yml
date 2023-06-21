@@ -34,7 +34,7 @@
   - sealed-plainkey
   - prefilled
   title: Untrustworthy handling of keys.
-  short: Failed basic tests
+  short: Security issues for Bitcoin
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - verdicts:
   - fewusers
