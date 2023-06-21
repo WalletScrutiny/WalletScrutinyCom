@@ -8,10 +8,10 @@ appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
 updated: 2023-06-02
-version: 2023.4.0
+version: 2023.4.1
 stars: 4.3
 ratings: 26395
-reviews: 1844
+reviews: 1843
 size: 
 website: https://delta.app
 repository: 
@@ -27,7 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /io.getdelta.android/
-developerName: Opus Labs NV
+developerName: Delta by eToro
 features: 
 
 ---

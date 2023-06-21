@@ -12,7 +12,7 @@ updated: 2023-06-01
 version: 137.6.4
 stars: 2.9
 ratings: 1118
-reviews: 657
+reviews: 658
 size: 
 website: https://www.coinberry.com
 repository: 

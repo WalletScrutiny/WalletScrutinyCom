@@ -9,13 +9,13 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2023-06-03
-version: 2.2.34
-stars: 
+updated: 2023-06-18
+version: 2.2.67
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
-website: https://bbw.sv/
+website: https://blink.sv/
 repository: 
 issue: 
 icon: com.galoyapp.png

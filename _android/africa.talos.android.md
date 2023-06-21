@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/profile.php?id=100064741792233
 - https://www.linkedin.com/company/talos-africa
 - https://www.instagram.com/talos.africa
-- info@talos.africa
+- mailto:info@talos.africa
 redirect_from: 
 developerName: Talos Africa
 features: 

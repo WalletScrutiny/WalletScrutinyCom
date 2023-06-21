@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/indocodex
 - https://www.youtube.com/channel/UCIxdFFckX14sU_1TD8fcFLQ
 - https://www.instagram.com/indocodex
-- admin@indocodex.com
+- mailto:admin@indocodex.com
 redirect_from: 
 developerName: Indocodex - Rajacoin
 features: 

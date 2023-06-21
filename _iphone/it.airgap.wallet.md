@@ -11,7 +11,7 @@ released: 2018-08-24
 updated: 2023-05-23
 version: 3.26.0
 stars: 3.5
-reviews: 24
+reviews: 26
 size: '141596672'
 website: https://airgap.it/
 repository: 

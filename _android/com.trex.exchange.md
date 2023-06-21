@@ -2,7 +2,7 @@
 wsId: 
 title: T-REX
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 1000
 appId: com.trex.exchange
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.trex.exchange.png
 bugbounty: 
-meta: defunct
+meta: stale
 verdict: wip
-date: 2023-06-07
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

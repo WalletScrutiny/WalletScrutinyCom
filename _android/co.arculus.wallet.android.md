@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-06
 updated: 2023-06-01
 version: 3.1.0
-stars: 3.4
+stars: 3.5
 ratings: 
-reviews: 52
+reviews: 54
 size: 
 website: https://getarculus.com
 repository: 

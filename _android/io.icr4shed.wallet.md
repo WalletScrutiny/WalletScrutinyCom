@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-10
 updated: 2022-11-12
 version: '6.03'
-stars: 4.3
+stars: 4.2
 ratings: 87
-reviews: 9
+reviews: 7
 size: 
 website: https://multiwallet.tech/
 repository: 

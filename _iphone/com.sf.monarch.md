@@ -8,11 +8,11 @@ appId: com.sf.monarch
 appCountry: 
 idd: 1386397997
 released: 2018-06-12
-updated: 2023-01-03
-version: 1.6.19
+updated: 2023-06-19
+version: 1.6.21
 stars: 4.7
 reviews: 397
-size: '137478144'
+size: '121876480'
 website: https://monarchwallet.com
 repository: 
 issue: 

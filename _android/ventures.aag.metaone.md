@@ -1,0 +1,33 @@
+---
+wsId: 
+title: 'MetaOne: NFT & Crypto Wallet'
+altTitle: 
+authors: 
+users: 10000
+appId: ventures.aag.metaone
+appCountry: 
+released: 2022-12-22
+updated: 2023-06-19
+version: 3.3.0
+stars: 4.4
+ratings: 
+reviews: 2
+size: 
+website: https://getmeta.one/
+repository: 
+issue: 
+icon: ventures.aag.metaone.png
+bugbounty: 
+meta: ok
+verdict: wip
+date: 2023-06-03
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
+features: 
+
+---
+

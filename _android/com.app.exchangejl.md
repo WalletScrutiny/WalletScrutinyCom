@@ -28,7 +28,7 @@ twitter: Krypterzxchange
 social:
 - https://www.facebook.com/Krypterz-101716118890363
 - https://www.linkedin.com/company/krypterz
-- info@krypterz.com
+- mailto:info@krypterz.com
 redirect_from: 
 developerName: Krypterz Exchange
 features: 

@@ -8,11 +8,11 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2023-05-19
-version: 2.14.0
+updated: 2023-06-17
+version: 2.14.5
 stars: 4.5
 reviews: 197
-size: '290502656'
+size: '289740800'
 website: https://www.whalefin.com
 repository: 
 issue: 

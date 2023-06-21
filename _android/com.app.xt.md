@@ -12,7 +12,7 @@ updated: 2023-06-02
 version: 4.25.1
 stars: 3.5
 ratings: 
-reviews: 135
+reviews: 133
 size: 
 website: http://www.xt.com
 repository: 

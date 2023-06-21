@@ -8,11 +8,11 @@ appId: com.flitaa
 appCountry: ng
 idd: 1566777501
 released: 2021-05-25
-updated: 2022-07-06
-version: 1.18.5
-stars: 3.8
-reviews: 56
-size: '63601664'
+updated: 2023-06-09
+version: 1.19.0
+stars: 3.7
+reviews: 58
+size: '83045376'
 website: https://flitbase.com
 repository: 
 issue: 

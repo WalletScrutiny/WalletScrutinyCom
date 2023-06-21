@@ -12,7 +12,7 @@ updated: 2023-05-30
 version: 1.57.0
 stars: 4.7
 ratings: 128577
-reviews: 101
+reviews: 97
 size: 
 website: https://fbs.com/
 repository: 
@@ -26,7 +26,6 @@ signer:
 reviewArchive: 
 twitter: financefreedomsuccess
 social:
-- https://www.linkedin.com/company/FBS Inc.
 - https://www.facebook.com/financefreedomsuccess
 redirect_from: 
 developerName: FBS.com
