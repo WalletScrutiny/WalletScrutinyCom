@@ -4,6 +4,7 @@
   - diy
   title: All tests passed.
   short: All tests passed
+  privacy: This product appears to adhere to good privacy practices, however provider may still have access to personal data and transactions.
   comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
 - verdicts:
   - nonverifiable
@@ -11,21 +12,25 @@
   - obfuscated
   title: Build issues or source-code issues.
   short: Self-custodial
+  privacy: This product appears to adhere to good privacy practices, however provider may still have access to personal data and transactions.
   comment: Although code was provided, we could not verify that the binary provided was generated from it.
 - verdicts:
   - custodial
   title: User only gets an IOU.
   short: Send & receive
+  privacy: Transactions are processed by the provider or additional parties and are not private.
   comment: The provider might or might not hold BTC on behalf of the user.
 - verdicts:
   - nosendreceive
   title: User gets a non-transferable IOU.
   short: Bitcoin supported
+  privacy: Any transacting is processed by the provider or additional parties and are not private.
   comment: The provider might or might not hold BTC on behalf of the user but the user is not able to transfer native BTC.
 - verdicts:
   - nosource
   title: Missing source code.
   short: Self-custodial
+  privacy: Any transacting is processed by the provider or additional parties and are not private.
   comment: The provider does not provide all the source code needed to compile the product.
 - verdicts:
   - noita
@@ -35,6 +40,7 @@
   - prefilled
   title: Untrustworthy handling of keys.
   short: Bitcoin Security issues
+  privacy: Transactions are likely not private.
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - verdicts:
   - fewusers
@@ -44,14 +50,17 @@
   - nowallet
   title: Not relevant.
   short: Not relevant
+  privacy: We did not examine privacy
   comment: The product is not a BTC wallet or has little to no users.
 - verdicts:
   - fake
   title: Fake.
   short: Imposter product
+  privacy: Your data and any transactions are likely not private and may even be used maliciously.
   comment: The product is an imitation of a popular product and very likely fraudulent.
 - verdicts:
   - wip
   title: To be reviewed.
   short: Not reviewed
+  privacy: We did not examine privacy
   comment: Products that look relevant. We have to review them.

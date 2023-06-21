@@ -1,5 +1,15 @@
+{% for group in site.data.verdictGroups %}
+  {% for verdict in group.verdicts %}
+    {% if verdict == page.verdict %}
+      {% if group.privacy %}
+        {% assign privacyVerdict = group.privacy %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 <div class="step privacy">
-  {% if page.privacyVerdict || page.privacyVerdict == 'flagPlaceholder' %}
+  {% if privacyVerdict || privacyVerdict == 'flagPlaceholder' %}
   <i class="i-visible circle"></i>
   {% else %}
   <i class="i-visible circle disabled"></i>
@@ -7,8 +17,8 @@
   <div class="title">
     <h3>Privacy</h3>
     <p>
-    {% if page.privacyVerdict %}
-      {{page.privacyVerdict}}
+    {% if privacyVerdict %}
+      {{privacyVerdict}}
     {% else %}
      {{ 'Not tracked' }}
     {% endif %}
