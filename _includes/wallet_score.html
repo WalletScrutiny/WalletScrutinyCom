@@ -20,21 +20,26 @@
 
 {% assign criteria = criteria | split: ',' %}
 
-{% assign count = 1 %}
-{% for criterion in criteria %}
-  {% if verdict == criterion %}
-    {% case verdict %}
-    {% when "reproducible" %}
-    {% when "diy" %}
-    {% when "nobinary" %}
-    {% else %}
-      <!-- {% assign count = count | minus: 1 %} -->
-      {% capture failText %}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{% endcapture %}
+{% if include.verdict == 'wip' %}
+  {% assign count = 0 %}
+  {% capture failText %}<br>We did not or were not able to perform any tests.{% endcapture %}
+{% else %}
+  {% assign count = 1 %}
+  {% for criterion in criteria %}
+    {% if verdict == criterion %}
+      {% case verdict %}
+      {% when "reproducible" %}
+      {% when "diy" %}
+      {% when "nobinary" %}
+      {% else %}
+        <!-- {% assign count = count | minus: 1 %} -->
+        {% capture failText %}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{% endcapture %}
+        {% break %}
+      {% endcase %}
+    {% endif %}
+    {% if count == criteria.size %}
       {% break %}
-    {% endcase %}
-  {% endif %}
-  {% if count == criteria.size %}
-    {% break %}
-  {% endif %}
-  {% assign count = count | plus: 1 %}
-{% endfor %}
+    {% endif %}
+    {% assign count = count | plus: 1 %}
+  {% endfor %}
+{% endif %}

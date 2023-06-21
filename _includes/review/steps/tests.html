@@ -43,6 +43,9 @@
   {% endif %}
   </div>
   <div class="methodology-tests-list">
+    {% if include.verdict == 'wip' %}
+      {% assign failPoint = failPoint | plus: 1 %}
+    {% endif %}
   {% for criterion in criteria %}
     {% if include.verdict == criterion %}
       {% unless include.verdict == 'reproducible' or include.verdict == 'diy' or include.verdict == 'nobinary %}
