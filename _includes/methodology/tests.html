@@ -92,13 +92,19 @@
       else { method.classList.add('active') }
     }
     window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
-    if(test){setTimeout(()=>{
-      const target = document.querySelector(`#${current}-${test}`)
-      window.scroll(0,target.offsetTop)
-      target.setAttribute("data-dropdown-open", 'true')
-      for(let neon of document.querySelectorAll('.neon-lights')){neon.classList.remove('neon-lights')}
-      setTimeout(()=>{target.classList.add('neon-lights')},100)
-    },200)}
+    if(test){
+      if(!document.querySelector(`#${current}-${test}`)){
+        window.history.pushState('data', null, `/methodology/?tests-we-run/all/${test}`)
+        return
+      }
+      setTimeout(()=>{
+        const target = document.querySelector(`#${current}-${test}`)
+        window.scroll(0,target.offsetTop)
+        target.setAttribute("data-dropdown-open", 'true')
+        for(let neon of document.querySelectorAll('.neon-lights')){neon.classList.remove('neon-lights')}
+        setTimeout(()=>{target.classList.add('neon-lights')},100)
+      },200)
+    }
   }
 
   document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})

@@ -77,6 +77,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s ease;
+    min-width: 1.5rem;
     &:not(.selected) {
       &:hover {
         background-color: var(--neutral-6);
@@ -151,7 +152,7 @@
   box-shadow: 0 0 0 1px var(--accent-text);
   min-height: 46px;
   &.component-verdict {
-    width: 200px;
+    width: 250px;
     @media (max-width: $small) {
       grid-row: 2/3;
       width: 100%;

@@ -5,7 +5,7 @@
 {% for v in site.data.verdictGroups %}
   {% assign verdicts = verdicts | append: ',' %}
 
-  {% assign key = v.short | downcase | replace: " ", "_" %}
+  {% assign key = v.short | downcase | replace: " ", "_" | replace_regex: "[^a-zA-Z\d\s:]", "_" %}
   {% assign verdicts = verdicts | append: key %}
   {% assign verdicts = verdicts | append: ':' %}
 

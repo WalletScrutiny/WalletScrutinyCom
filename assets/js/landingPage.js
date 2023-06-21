@@ -55,7 +55,7 @@ function updateUrl(pageZero) {
   } else {
     hash = ''
   }
-  const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "reproducible"
+  const verdict = document.querySelector(".dropdown-verdict > .selected") ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data") : "all_tests_passed"
   const platform = document.querySelector(".dropdown-platform > .selected") ? document.querySelector(".dropdown-platform > .selected").getAttribute("data") : "all"
   const page = pageZero ? 0 : (window.pageIndex ? window.pageIndex + 1 : 1)
   window.history.pushState('data', null, `/?verdict=${verdict}&platform=${platform}${hash}&page=${page}`)
