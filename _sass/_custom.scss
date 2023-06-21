@@ -78,6 +78,7 @@
     justify-content: center;
     transition: 0.2s ease;
     min-width: 1.5rem;
+    border-radius: 2px;
     &:not(.selected) {
       &:hover {
         background-color: var(--neutral-6);
@@ -105,7 +106,7 @@
     }
   }
 }
-.light {
+.dark {
   .pagination {
     .click-target {
       &.selected {
@@ -271,9 +272,12 @@
           grid-row: 1/2;
           color: var(--accent-text);
           box-shadow: 0 1px 0 0 var(--neutral-4);
-          padding: 16px 15px 16px 5px;
+          padding: 16px 5px 16px 5px;
           small{
             opacity: 1;
+          }
+          &::after{
+            display: none;
           }
         }
       }
