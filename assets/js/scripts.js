@@ -47,7 +47,8 @@ window.addEventListener("load", () => {
 function recreateDropdowns(verdict, platform) {
   // verdictGroups DECLARED IN WALLETSJS
   if (verdictGroups && document.querySelector(".dropdown-verdict")) {
-    let html = `<div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All reviews</span><small>${String(productCount('all', platform, true))}</small></div>`
+    const titleRow = verdict.indexOf('all')==0?'grid-row:3/4':'grid-row:4/5'
+    let html = `<div class="option category-title" style=${titleRow}><span>Other test results</span></div><div class="option ${verdict === 'all' ? 'selected' : ''} all" data="all"><span>All reviews</span><small>${String(productCount('all', platform, true))}</small></div>`
     for (const [key, value] of Object.entries(verdictGroups)) {
     
     // for (const instanceVerdict of value.verdicts) {
