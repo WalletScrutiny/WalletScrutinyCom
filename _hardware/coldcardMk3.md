@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2018-04-01
 discontinued: 
-updated: 2022-11-14
-version: v4.1.7
+updated: 2023-06-19
+version: v4.1.8
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 88
@@ -27,9 +27,14 @@ icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: nonverifiable
-date: 2022-11-25
+date: 2023-06-22
 signer: 
 reviewArchive:
+- date: 2022-11-25
+  version: v4.1.7
+  appHash: cc946bcb63211e15d85db577e25ab2432d4a74d5dad77d710539e505dce7914a
+  gitRevision: 3ad740fdfe46e5acb1f18451ce8b07e91c409edc
+  verdict: nonverifiable
 - date: 2022-08-07
   version: v4.1.3
   appHash: d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2
@@ -46,6 +51,8 @@ social:
 features: 
 
 ---
+
+**Update 2023-06-22**: We tested v4.1.8 and still got the same result as v4.1.7.
 
 We checked the currently latest binary version 4.1.7 with the provider's own
 build instructions for reproducible builds. Here is our result:
