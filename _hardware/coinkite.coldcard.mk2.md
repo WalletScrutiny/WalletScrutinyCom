@@ -16,7 +16,7 @@ website: https://coldcard.com/
 shop: 
 country: CA
 price: 119.97USD
-repository: https://github.com/Coldcard/firmware/releases/tag/2019-04-09T1600-v2.0.2
+repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
