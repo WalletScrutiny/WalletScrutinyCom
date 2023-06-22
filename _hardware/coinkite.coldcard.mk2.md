@@ -3,6 +3,7 @@ title: Coinkite Coldcard Mk 2
 appId: coinkite.coldcard.mk2
 authors:
 - danny
+- mohammad
 released: 2019-04-06
 discontinued: 
 updated: 2023-06-19

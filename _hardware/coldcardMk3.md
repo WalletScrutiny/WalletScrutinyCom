@@ -5,6 +5,7 @@ authors:
 - kiwilamb
 - leo
 - danny
+- mohammad
 released: 2018-04-01
 discontinued: 
 updated: 2023-06-19
@@ -33,7 +34,7 @@ reviewArchive:
 - date: 2022-11-25
   version: v4.1.7
   appHash: cc946bcb63211e15d85db577e25ab2432d4a74d5dad77d710539e505dce7914a
-  gitRevision: 3ad740fdfe46e5acb1f18451ce8b07e91c409edc
+  gitRevision: 3c84a7bdc614161e0c52d4a79bc486ec2246ec96
   verdict: nonverifiable
 - date: 2022-08-07
   version: v4.1.3
@@ -52,84 +53,48 @@ features:
 
 ---
 
-**Update 2023-06-22**: We tested v4.1.8 and still got the same result as v4.1.7.
-
-We checked the currently latest binary version 4.1.7 with the provider's own
-build instructions for reproducible builds. Here is our result:
+We checked the currently latest binary version 4.1.8 with the provider's own
+build instructions for reproducible builds copied into our
+[test script]():
 
 ```
-$ git clone https://github.com/Coldcard/firmware.git
-$ cd firmware/stm32
-$ cp path/to/2022-11-14T1854-v4.1.7-coldcard.dfu ../releases/
-$ sha256sum ../releases/*.dfu
-cc946bcb63211e15d85db577e25ab2432d4a74d5dad77d710539e505dce7914a  ../releases/2022-11-14T1854-v4.1.7-coldcard.dfu
-$ git checkout 2022-11-14T1854-v4.1.7
-$ make repro
+$ ./scripts/test/hardware/coldCard.sh "2023-06-19T1627-v4.1.8" 3 
 ...
-+ make check-repro
-./make_filetime.py COLDCARD/file_time.c 4.1.7
-==> COLDCARD/file_time.c already version 4.1.7; not changing it
-cd ../external/micropython/ports/stm32 && make BOARD=COLDCARD -j 4 EXCLUDE_NGU_TESTS=1
-make[1]: Entering directory '/tmp/checkout/firmware/external/micropython/ports/stm32'
-Use make V=1 or set BUILD_VERBOSE in your environment to increase build verbosity.
-Including User C Module from boards/COLDCARD/c-modules/aes256ctr
-Including User C Module from boards/COLDCARD/c-modules/libngu
-Including User C Module from boards/COLDCARD/c-modules/mpy-qr
-make[1]: Leaving directory '/tmp/checkout/firmware/external/micropython/ports/stm32'
-Comparing against: ../releases/2022-11-14T1854-v4.1.7-coldcard.dfu
-test -n "../releases/2022-11-14T1854-v4.1.7-coldcard.dfu" -a -f ../releases/2022-11-14T1854-v4.1.7-coldcard.dfu
-rm -f -f check-fw.bin check-bootrom.bin
-signit split ../releases/2022-11-14T1854-v4.1.7-coldcard.dfu check-fw.bin check-bootrom.bin
-start 293 for 729600 bytes: Firmware => check-fw.bin
-start 729901 for 30720 bytes: Bootrom => check-bootrom.bin
-signit check check-fw.bin
-     magic_value: 0xcc001234
-       timestamp: 2022-11-14 18:54:14 UTC
-  version_string: 4.1.7
-      pubkey_num: 1
- firmware_length: 729600
-   install_flags: 0x0 =>
-       hw_compat: 0x6 => Mk2+Mk3
-          future: 0000000000000000 ... 0000000000000000
-       signature: e2ee0c995ee25148 ... f78dff2499223015
- ECDSA Signature: CORRECT
-signit check firmware-signed.bin
-     magic_value: 0xcc001234
-       timestamp: 2022-11-22 22:40:04 UTC
-  version_string: 4.1.7
-      pubkey_num: 0
- firmware_length: 729600
-   install_flags: 0x0 =>
-       hw_compat: 0x6 => Mk2+Mk3
-          future: 0000000000000000 ... 0000000000000000
-       signature: 1117db18c5bae38f ... 5212e98de3295683
  ECDSA Signature: CORRECT
 hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
 hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
 diff repro-got.txt repro-want.txt
 --- repro-got.txt
 +++ repro-want.txt
-@@ -41571,7 +41571,7 @@
- 000a2dd0  63 72 6f 50 79 74 68 6f  6e 20 76 31 2e 31 32 2d  |croPython v1.12-|
- 000a2de0  31 30 39 32 2d 67 63 30  38 37 62 62 65 38 64 2d  |1092-gc087bbe8d-|
- 000a2df0  64 69 72 74 79 20 6f 6e  20 32 30 32 32 2d 31 31  |dirty on 2022-11|
--000a2e00  2d 32 32 3b 20 43 6f 6c  64 63 61 72 64 20 77 69  |-22; Coldcard wi|
-+000a2e00  2d 31 34 3b 20 43 6f 6c  64 63 61 72 64 20 77 69  |-14; Coldcard wi|
- 000a2e10  74 68 20 53 54 4d 33 32  4c 34 78 78 52 47 0d 0a  |th STM32L4xxRG..|
- 000a2e20  00 54 79 70 65 20 22 68  65 6c 70 28 29 22 20 66  |.Type "help()" f|
- 000a2e30  6f 72 20 6d 6f 72 65 20  69 6e 66 6f 72 6d 61 74  |or more informat|
-@@ -42548,7 +42548,7 @@
- 000a6ae0  20 77 69 74 68 20 53 54  4d 33 32 4c 34 78 78 52  | with STM32L4xxR|
- 000a6af0  47 00 76 31 2e 31 32 2d  31 30 39 32 2d 67 63 30  |G.v1.12-1092-gc0|
- 000a6b00  38 37 62 62 65 38 64 2d  64 69 72 74 79 20 6f 6e  |87bbe8d-dirty on|
--000a6b10  20 32 30 32 32 2d 31 31  2d 32 32 00 31 2e 31 33  | 2022-11-22.1.13|
-+000a6b10  20 32 30 32 32 2d 31 31  2d 31 34 00 31 2e 31 33  | 2022-11-14.1.13|
- 000a6b20  2e 30 00 70 79 62 6f 61  72 64 00 00 d0 5b 05 08  |.0.pyboard...[..|
- 000a6b30  39 d3 03 08 88 62 05 08  3c eb 0a 08 54 53 05 08  |9....b..<...TS..|
- 000a6b40  9f 00 00 00 13 00 00 00  4c eb 0a 08 ba 00 00 00  |........L.......|
+@@ -41226,7 +41226,7 @@
+ 000a1850  65 78 69 74 0d 0a 00 52  01 00 4d 69 63 72 6f 50  |exit...R..MicroP|
+ 000a1860  79 74 68 6f 6e 20 76 31  2e 31 32 2d 31 30 39 33  |ython v1.12-1093|
+ 000a1870  2d 67 66 33 62 32 61 38  63 32 65 2d 64 69 72 74  |-gf3b2a8c2e-dirt|
+-000a1880  79 20 6f 6e 20 32 30 32  33 2d 30 36 2d 32 32 3b  |y on 2023-06-22;|
++000a1880  79 20 6f 6e 20 32 30 32  33 2d 30 36 2d 31 39 3b  |y on 2023-06-19;|
+ 000a1890  20 43 6f 6c 64 63 61 72  64 20 77 69 74 68 20 53  | Coldcard with S|
+ 000a18a0  54 4d 33 32 4c 34 78 78  52 47 0d 0a 00 54 79 70  |TM32L4xxRG...Typ|
+ 000a18b0  65 20 22 68 65 6c 70 28  29 22 20 66 6f 72 20 6d  |e "help()" for m|
+@@ -42199,7 +42199,7 @@
+ 000a5570  68 20 53 54 4d 33 32 4c  34 78 78 52 47 00 76 31  |h STM32L4xxRG.v1|
+ 000a5580  2e 31 32 2d 31 30 39 33  2d 67 66 33 62 32 61 38  |.12-1093-gf3b2a8|
+ 000a5590  63 32 65 2d 64 69 72 74  79 20 6f 6e 20 32 30 32  |c2e-dirty on 202|
+-000a55a0  33 2d 30 36 2d 32 32 00  31 2e 31 33 2e 30 00 70  |3-06-22.1.13.0.p|
++000a55a0  33 2d 30 36 2d 31 39 00  31 2e 31 33 2e 30 00 70  |3-06-19.1.13.0.p|
+ 000a55b0  79 62 6f 61 72 64 00 00  64 45 05 08 31 d3 03 08  |yboard..dE..1...|
+ 000a55c0  1c 4c 05 08 c8 d5 0a 08  e8 3c 05 08 9f 00 00 00  |.L.......<......|
+ 000a55d0  13 00 00 00 d8 d5 0a 08  ba 00 00 00 c2 2c 00 00  |.............,..|
 make: *** [Makefile:279: check-repro] Error 1
 + set +ex
+
+Hash of non-signature parts downloaded/compiled:
+fa919d8c18691320b4b2da7d24b7b950422b9c656edef5b5b335a4b69f40ddc1  2023-06-19T1627-v4.1.8-nosig.bin
+c58248cf705514c43f19900f3c157a072ff9042721676fa153a09f0266a03239  firmware-nosig.bin
+
+Hash of the signed firmware:
+233398cc8f6b9e894072448eb8b8a82a4f546219ce461dd821f0ed0a38b61900  /tmp/firmware/releases/2023-06-19T1627-v4.1.8-coldcard.dfu
+528d50abad60843d1ee0a00fc5d6846e1a52a18b349b9752ae300494ef7f508b  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
 
 While the diff looks benign - apparently the compilation date ends up in the
-binary - this diff means the binary is not reproducible.
+binary - this diff means the binary is again not reproducible.
