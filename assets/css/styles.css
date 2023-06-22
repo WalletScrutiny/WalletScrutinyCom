@@ -512,47 +512,6 @@ h2.section-label>a:hover {
   background: var(--shadow-3);
 }
 
-.result-pl-inner {
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: start;
-  align-items: center;
-  text-decoration: none;
-  color: var(--text);
-  font-weight: 400;
-  text-align: left;
-  grid-template-columns: auto 1fr 20%;
-  column-gap: 15px;
-  row-gap: 5px;
-}
-
-.result-pl-inner.obsolete .wallet-icon, .result-pl-inner.defunct .wallet-icon, .result-pl-inner.outdated .wallet-icon {
-  filter: grayscale(1);
-}
-
-.result-pl-inner.obsolete, .result-pl-inner.defunct, .result-pl-inner.outdated {
-  opacity: .6;
-}
-
-.result-pl-inner.obsolete:hover .wallet-icon, .result-pl-inner.defunct:hover .wallet-icon, .result-pl-inner.outdated:hover .wallet-icon {
-  filter: grayscale(0);
-}
-
-.result-pl-inner.obsolete:hover, .result-pl-inner.defunct:hover, .result-pl-inner.outdated:hover {
-  opacity: 1;
-}
-
-.result-pl-inner .stamps {
-  font-size: 13px;
-  font-weight: 400;
-}
-
-@media (max-width:920px) {
-  .result-pl-inner {
-    grid-template-columns: 50px 1fr 25%;
-    font-size: .9rem;
-  }
-}
 
 .-hom {
   display: grid;

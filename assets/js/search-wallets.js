@@ -108,7 +108,7 @@ function searchCatalogue(input) {
               href='${analysisUrl}'>
               <img src='${w.icon
                 ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}`
-                : `${basePath}/images/smallNoicon.png`}' class='results-list-wallet-icon' />
+                : `${basePath}/images/noimg.svg`}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
             <span class="badge-2 ${w.verdict}">
                 <i class="${window.platforms[w.folder].css}"></i>

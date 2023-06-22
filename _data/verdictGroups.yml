@@ -4,7 +4,6 @@
   - diy
   title: All tests passed.
   short: All tests passed
-  privacy: This product appears to adhere to good privacy practices.
   comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
 - verdicts:
   - nonverifiable
@@ -12,25 +11,21 @@
   - obfuscated
   title: Build issues or source-code issues.
   short: Self-custodial
-  privacy: This product appears to adhere to good privacy practices, however provider may still have access to personal data and transactions.
   comment: Although code was provided, we could not verify that the binary provided was generated from it.
 - verdicts:
   - custodial
   title: User only gets an IOU.
   short: Send & receive
-  privacy: Transactions are processed by the provider or additional parties and are not private.
   comment: The provider might or might not hold BTC on behalf of the user.
 - verdicts:
   - nosendreceive
   title: User gets a non-transferable IOU.
   short: Bitcoin supported
-  privacy: Any transacting is processed by the provider or additional parties and are not private.
   comment: The provider might or might not hold BTC on behalf of the user but the user is not able to transfer native BTC.
 - verdicts:
   - nosource
   title: Missing source code.
   short: Self-custodial
-  privacy: Any transacting is processed by the provider or additional parties and are not private.
   comment: The provider does not provide all the source code needed to compile the product.
 - verdicts:
   - noita
@@ -40,7 +35,6 @@
   - prefilled
   title: Untrustworthy handling of keys.
   short: Bitcoin Security issues
-  privacy: Transactions are likely not private.
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - verdicts:
   - fewusers

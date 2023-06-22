@@ -165,17 +165,25 @@ function makeCompactResultsHTML(wallet) {
   let faCollection = getIcon(wallet.folder)
   const basePath = wallet.base_path || ""
   var analysisUrl = `${basePath}${wallet.url}`
+  let passed = ``
+  let failed = ``
+  for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
+  for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
   result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <div class="icon-wrapper"><img src='${wallet.icon ? `${basePath}/images/wIcons/${wallet.folder}/small/${wallet.icon}` : `${basePath}/images/smallNoicon.png`}' class='wallet-icon' loading="lazy"/></div>
+    <div class="icon-wrapper"><img src='${wallet.icon ? `${basePath}/images/wIcons/${wallet.folder}/small/${wallet.icon}` : `${basePath}/images/noimg.svg`}' class='wallet-icon' loading="lazy"/></div>
       <span class="result-title-wrapper">
         <span>${wallet.altTitle || wallet.title}</span>
         <small>
           <span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>
         </small>
       </span>
-      <span class="stamps">
+      <span class="stats">
       ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
       ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+      <div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
+        <span>Passed ${wallet.score.numerator} of ${wallet.score.denominator} tests</span>
+        <div>${passed}${failed}</div>
+      </div>
     </span>
     </a>`
   return result

@@ -109,8 +109,8 @@
   display: grid;
   gap: 5px;
 }
-.stamps span,
-.stamp span {
+.stamps > span,
+.stamp > span {
   &::after {
     content: attr(data-text);
     color: var(--text);

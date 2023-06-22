@@ -22,7 +22,7 @@ window.addEventListener('load', () => {
       <img style="box-shadow: 0px 2px 5px -2px var(--gauze, rgba(0,0,0,0.3));height: 3rem;width: auto;padding: .5rem;border-radius: 20%;background: var(--white, #fff);margin-right:1rem;"
         src="/images/${wallet.icon
           ? `wIcons/${wallet.folder}/small/${wallet.icon}`
-          : 'smallNoicon.png'}" alt="Wallet Logo">
+          : 'noimg.svg'}" alt="Wallet Logo">
       <div style="display: flex;flex-direction: column; margin:.5rem .5rem .5rem 0">
         <strong style="font-size: 18px;">${wallet.title}</strong>
         <span style="font-size: 10px;opacity: .6;">version ${wallet.version}</span>
