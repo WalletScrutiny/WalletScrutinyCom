@@ -4,6 +4,7 @@ appId: coinkite.coldcard.mk2
 authors:
 - danny
 - mohammad
+- leo
 released: 2019-04-06
 discontinued: 
 updated: 2023-06-19
@@ -22,7 +23,7 @@ issue:
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
-verdict: nonverifiable
+verdict: reproducible
 date: 2023-06-22
 signer: 
 reviewArchive: 
