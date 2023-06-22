@@ -1,6 +1,6 @@
 ---
-title: Block Hardware Wallet
-appId: blockhww
+title: Bitkey (formerly Block Hardware Wallet)
+appId: build.bitkey
 authors:
 - danny
 released: 
@@ -12,13 +12,13 @@ dimensions:
 weight: 
 provider: Block
 providerWebsite: https://block.xyz/
-website: https://wallet.build
+website: https://bitkey.build
 shop: 
 country: US
 price: 
 repository: 
 issue: 
-icon: blockhww.png
+icon: build.bitkey.png
 bugbounty: 
 meta: ok
 verdict: unreleased

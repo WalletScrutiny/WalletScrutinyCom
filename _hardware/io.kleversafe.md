@@ -1,6 +1,6 @@
 ---
-title: Klever
-appId: klever
+title: Kleversafe (formerly Klever)
+appId: io.kleversafe
 authors:
 - danny
 released: 2021-12-17
@@ -12,13 +12,13 @@ dimensions:
 weight: 
 provider: Klever Exchange
 providerWebsite: https://klever.io/
-website: https://klever.finance/hardware-wallet/
-shop: 
+website: https://kleversafe.io/
+shop: https://kleversafe.io/cart/
 country: BR
 price: 199USD
 repository: 
 issue: 
-icon: klever.png
+icon: io.kleversafe.png
 bugbounty: 
 meta: ok
 verdict: noita
