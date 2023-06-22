@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/ClubSwanapp/
 - https://www.linkedin.com/company/clubswan/
 features: 
-developerName: 
+developerName: AU CARD LIMITED
 
 ---
 

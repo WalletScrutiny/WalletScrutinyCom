@@ -4,7 +4,7 @@ title: CoinSpot - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.coinspot.app
 appCountry: au
 released: 2020-10-07

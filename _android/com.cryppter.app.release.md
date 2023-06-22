@@ -8,8 +8,8 @@ users: 1000
 appId: com.cryppter.app.release
 appCountry: 
 released: 2020-05-21
-updated: 2022-08-22
-version: 0.0.144 (7723)
+updated: 2023-02-06
+version: 0.0.145 (7755)
 stars: 5
 ratings: 
 reviews: 12
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Enex, LLC
 features: 
 
 ---

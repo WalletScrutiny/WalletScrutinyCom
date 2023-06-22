@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: 'Tarality: Social & Crypto App'
+title: 'Tarality: Crypto Trading App'
 altTitle: 
 authors: 
 users: 10000
 appId: com.taralwallet
 appCountry: 
 released: 2021-10-22
-updated: 2023-04-25
+updated: 2023-06-16
 version: '9.9'
 stars: 3.7
 ratings: 

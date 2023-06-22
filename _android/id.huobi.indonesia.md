@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: id.huobi.indonesia.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-03
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -31,7 +31,7 @@ social:
 - https://www.instagram.com/vault12/
 - https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 redirect_from: 
-developerName: Vault12
+developerName: Vault12, Inc
 features: 
 
 ---

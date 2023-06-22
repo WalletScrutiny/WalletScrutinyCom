@@ -8,11 +8,11 @@ appId: global.imxchange.iMX
 appCountry: in
 idd: '1558636368'
 released: 2021-04-06
-updated: 2023-03-31
-version: 1.6.2
-stars: 0
-reviews: 0
-size: '26063872'
+updated: 2023-05-26
+version: 1.6.3
+stars: 5
+reviews: 1
+size: '26074112'
 website: 
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: I M SMART IMT (Thailand) COMPANY LIMITED
 
 ---
 

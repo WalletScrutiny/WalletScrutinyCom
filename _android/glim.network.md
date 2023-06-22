@@ -9,9 +9,9 @@ appCountry:
 released: 2022-06-26
 updated: 2023-05-13
 version: 1.1.0
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 60
+reviews: 59
 size: 
 website: https://glimnetwork.com
 repository: 

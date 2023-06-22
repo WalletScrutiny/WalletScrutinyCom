@@ -10,9 +10,9 @@ appCountry:
 released: 2016-03-31
 updated: 2023-06-09
 version: 3.43.10
-stars: 3.5
+stars: 3.4
 ratings: 26258
-reviews: 1018
+reviews: 1019
 size: 
 website: https://wirexapp.com
 repository: 

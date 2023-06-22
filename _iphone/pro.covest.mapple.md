@@ -27,7 +27,7 @@ twitter: COVEST_Official
 social:
 - https://t.me/covestpro
 features: 
-developerName: 
+developerName: COVEST LLC
 
 ---
 
