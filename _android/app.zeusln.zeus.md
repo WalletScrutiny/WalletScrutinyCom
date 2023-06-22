@@ -16,7 +16,7 @@ reviews: 22
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
-issue: https://github.com/ZeusLN/zeus/issues/1516
+issue: https://github.com/ZeusLN/zeus/issues/1496
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
@@ -297,7 +297,7 @@ Please consult deprecation warnings for more details.
 
 which also ended in errors. At this point we give up and file this version as
 **not verifiable**, waiting for
-[our issue](https://github.com/ZeusLN/zeus/issues/1516) to be resolved.
+[this issue](https://github.com/ZeusLN/zeus/issues/1496) to be resolved.
 
 ## Original Analysis
 
