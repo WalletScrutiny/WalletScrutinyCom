@@ -506,11 +506,10 @@ At its most basic, adding a category starts with these steps:
 
 9. In the **_layouts** folder 
 
-- Duplicate the reviewAndroid.html file. In our case we should have a new file called **reviewDesktop.html**.
-- This should match the 'layout:' field under #Defaults in _config.yml
+    - Duplicate the reviewAndroid.html file. In our case we should have a new file called **reviewDesktop.html**.
+    - This should match the 'layout:' field under #Defaults in _config.yml
 
-    - ![Sample reviewDesktop field under layout field under #Defaults in _config.yml](/images/pages/contribute-config-sample-modify-desktop.png "Sample reviewDesktop field under layout field under #Defaults in _config.yml")
-
+      - ![Sample reviewDesktop field under layout field under #Defaults in _config.yml](/images/pages/contribute-config-sample-modify-desktop.png "Sample reviewDesktop field under layout field under #Defaults in _config.yml")
 
 10. Open the **reviewDesktop.html** file we just created, search for `<img src>`` tag or the word **'icon'**. Make sure it matches the directory of where the icons are stored.
 
