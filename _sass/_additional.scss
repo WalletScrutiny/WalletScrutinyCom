@@ -354,7 +354,27 @@
   text-align: center;
   width: 100%;
   font-weight: $paragraph-font-weight;
-  opacity: 0.6;
+  color: var(--neutral-3);
+
+  .inner {
+    max-width: $small;
+    margin: auto;
+    .primary.btn {
+      font-size: inherit;
+      line-height: 1;
+      margin-top: 1rem;
+      text-decoration: none;
+      color: var(--permanent-white) !important;
+      background: var(--accent);
+      padding: 15px 20px;
+      font-weight: $paragraph-font-weight;
+      opacity: .8;
+      &:hover{
+        text-decoration: none;
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .tab-payloads {
@@ -419,8 +439,8 @@
     margin: auto auto 20px auto;
     min-width: 215px;
     .dropdown-test-categories {
-    gap: 5px;
-      @media (max-width:500px) {
+      gap: 5px;
+      @media (max-width: 500px) {
         grid-auto-flow: row;
       }
       .option {
@@ -519,8 +539,8 @@
   }
 }
 
-.instance-canvas{
-  position:absolute;
+.instance-canvas {
+  position: absolute;
   pointer-events: none;
   bottom: 0;
   z-index: -100;

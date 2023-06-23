@@ -57,10 +57,10 @@ function recreateDropdowns(verdict, platform) {
     // for (const instanceVerdict of value.verdicts) {
       const count = productCount(key, platform, true)
       if (Number(count.replace(/,/g, '')) > 0) {
-        html += `<div class="option ${verdict === key ? 'selected' : ''} ${key}" data="${key}"><span>${value.short}</span> <small>${count}</small></div>`
+        html += `<div class="option ${verdict === key ? 'selected' : ''} ${key}" data="${key}" data-name="${value.short}"><span>${value.short}</span> <small>${count}</small></div>`
       }
       else if (verdict === key) {
-        html += `<div class="option selected ${key}" data="${key}"><span>${value.short}</span> <small>0</small></div>`
+        html += `<div class="option selected ${key}" data="${key}" data-name="${value.short}"><span>${value.short}</span> <small>0</small></div>`
       }
     }
   // }
@@ -70,17 +70,7 @@ function recreateDropdowns(verdict, platform) {
   if (window.platformObs && window.platformObs.length > 0 && document.querySelector(".dropdown-platform")) {
     let html = ``
     for (const instancePlatform of window.platformObs) {
-      let instancePlatformText = false
-      switch (instancePlatform) {
-        case 'iphone':
-          instancePlatformText = "iPhone"
-          break;
-        case 'all':
-          instancePlatformText = "All Platforms"
-          break;
-        default:
-          instancePlatformText = instancePlatform.charAt(0).toUpperCase() + instancePlatform.slice(1)
-      }
+      let instancePlatformText = platformTitleFormatting(instancePlatform)
       html += `<div class="option ${platform === instancePlatform ? 'selected' : ''} ${instancePlatform}" data="${instancePlatform}"><span>${instancePlatformText}</span></div>`
     }
     document.querySelectorAll(".dropdown-platform").forEach((ele) => { ele.innerHTML = html })
@@ -91,6 +81,20 @@ for (const target of ["verdict", "platform"]) {
   addDropdownEvents(target, () => { updateUrl(true); updateModularPayload(0, false) })
 }
 
+function platformTitleFormatting(platform) {
+  let instancePlatformText = false
+  switch (platform) {
+    case 'iphone':
+      instancePlatformText = "iPhone"
+      break;
+    case 'all':
+      instancePlatformText = "All Platforms"
+      break;
+    default:
+      instancePlatformText = platform.charAt(0).toUpperCase() + platform.slice(1)
+  }
+  return instancePlatformText
+}
 
 /**
  * @return how many products in the platform have the verdict.
@@ -106,7 +110,7 @@ function productCount(verdict, platform, toLocale) {
   }
   return toLocale?String(value).replace(/\B(?=(\d{3})+(?!\d))/g, ","):value
 }
-function updateModularPayload(page, unrestrictedSearch) {
+function updateModularPayload(page, unrestrictedSearch, noPush) {
   const verdict = document.querySelector(".dropdown-verdict").querySelector(".selected") ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data") : "all_tests_passed"
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected") ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data") : "all"
   if (unrestrictedSearch) {
@@ -166,7 +170,7 @@ function updateModularPayload(page, unrestrictedSearch) {
   const sortedWalletsForRender = persistRandomWallets?persistRandomWallets:presort
   renderBadgesToDiv(sortedWalletsForRender, document.getElementById("modularWalletPayload"), page, verdict, platform)
   resizeLabelBold()
-  updateUrl()
+  if (!noPush) { updateUrl() }
   lastVerdict = lastVerdict!==verdict?verdict:lastVerdict
   lastPlatform = lastPlatform!==platform?platform:lastPlatform
 
@@ -213,9 +217,22 @@ function renderBadgesToDiv(wallets, anchor, page, verdict, platform) {
   var g = document.createElement("div")
   g.setAttribute("id", "tableofwallets")
   const searchTerm = document.querySelector(".search-filtered-wallets").value
-  let queryEcho = searchTerm.length > 0 ? `No wallets match for "${searchTerm}".` : `Enter some text to search all wallets.`
-  let categoryMessage = ``
-  flexListEle.innerHTML = badgesHtml.length == 0 ? `<p class="empty-results-info">${categoryMessage}${queryEcho}<br>You can search for wallets by name or description.</p>` : `<p class="empty-results-info">${categoryMessage}</p>${badgesHtml}`
+  let resultsText = ``
+  if (searchTerm.length > 0 && badgesHtml.length === 0) { resultsText = `No wallets match for <b>"${searchTerm}"</b>.<br>You can search for wallets by name or description.` }
+  if (searchTerm.length === 0) {
+    if (badgesHtml.length === 0) {
+      let lessWorse = document.querySelectorAll(".dropdown-verdict .option")[3]?document.querySelectorAll(".dropdown-verdict .option")[3]:false
+      // INDEX 3 IS HIGHLY SPECIFIC TO THE HTML LAYOUT CURRENTLY USED
+      // THIS IS A HACK WHICH CAN BE BROKEN EASILY BY AN HTML OR OTHER LAYOUT CHANGE
+      lessWorse = lessWorse?`<br><a onclick="recreateDropdowns('${lessWorse.getAttribute("data")}', '${platform}');updateModularPayload(0, false)" class="primary btn">View highest-scoring ${platformTitleFormatting(platform)} wallets</a>`:''
+      if (platformNotes[platform]) { resultsText = `${platformNotes[platform]}<br>Learn more by exploring <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.${lessWorse}` }
+    }
+    else {
+      if (verdict === 'all_tests_passed') { resultsText = `These ${wallets.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.` }
+    }
+  }
+  resultsText = resultsText.length>0?`<div class="empty-results-info"><p class="inner">${resultsText}</p></div>`:``
+  flexListEle.innerHTML = `${resultsText}${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
   d.append(pagination)
@@ -304,7 +321,7 @@ function getBadge(wallet, numbInPage) {
       ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       </div>
       <div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-        <span>Passed ${wallet.score.numerator} of ${wallet.score.denominator} tests</span>
+        <span>Passed ${wallet.score.numerator!==wallet.score.denominator?wallet.score.numerator:'all'} ${wallet.score.numerator!==wallet.score.denominator?'of':''} ${wallet.score.denominator} tests</span>
         <div>${passed}${failed}</div>
       </div>
     </div>

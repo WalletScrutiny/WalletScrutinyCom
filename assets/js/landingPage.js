@@ -40,9 +40,10 @@ function setDropdown(parent, child) {
   // TRY / CATCH HERE FOR TESTING PURPOSES
   // DISABLE TRY+CATCH+LOG - ISSUE HAS DISAPPEARED.
   // LIKELY CAUSED BY MODIFYING THE _SITE ASSETS DIRECTLY
-
-  for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
-  document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
+  if (document.querySelector(".dropdown-" + parent + " > ." + child)) {
+    for (const ele of document.querySelectorAll(".dropdown-" + parent + " > .selected")) { ele.classList.remove("selected") }
+    document.querySelector(".dropdown-" + parent + " > ." + child).classList.add("selected")
+  }
 }
 
 function updateUrl(pageZero) {
@@ -80,3 +81,14 @@ function loadMoreApps() {
 }
 
 
+window.addEventListener("popstate", () => {
+  const param = (new URL(window.location)).searchParams
+  popstateAction(param)
+});
+
+function popstateAction(param) {
+    setDropdown("verdict", param.get('verdict'))
+    setDropdown("platform", param.get('platform'))
+    // updatePageinationUI(Number(param.get('page')) - 1)
+  updateModularPayload(Number(param.get('page'))-1, false, true)
+}

@@ -49,6 +49,7 @@ iphone:
     If you want people to trust your app (or platform), explain how it can be
     audited. We will move on in the meantime and list iPhone apps with an empty
     reproducible section until then.
+  notes: Apple does not make it possible for us to audit wallet apps from the App Store even when the wallet source-code is publicly available.
   verdicts:
     - wip
     - fake
@@ -61,6 +62,7 @@ iphone:
     - obfuscated
     - ftbfs
     - nonverifiable
+    - reproducible
   metas: 
     - defunct
     - obsolete
@@ -119,16 +121,22 @@ bearer:
     bearer tokens have these attributes:
 
     * Secure initial setup
+
     * Tamper evidence
+
     * Balance check without revealing private keys
+
     * Small size
+
     * Low unit price
 
 
     and either of these applies:
     
     * Somebody has a backup and needs to be trusted
+
     * Nobody has a backup and funds are destroyed if the token is lost or damaged
+  notes: Security limitation in design and interface prevent Bearer tokens from passing all tests.
   verdicts:
     - wip
     - fake
