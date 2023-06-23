@@ -141,7 +141,7 @@ function updateModularPayload(page, unrestrictedSearch, noPush) {
       presort.push(obj)
     }
   })
-  if (unrestrictedSearch) {
+  if (platform !== 'hardware' || unrestrictedSearch) {
     presort.sort((a, b) => {
       if (a.matchRank != b.matchRank)
         return a.matchRank - b.matchRank
