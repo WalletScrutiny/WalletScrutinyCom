@@ -116,15 +116,15 @@ function searchCatalogueNav(input) {
           compactedResults += makeCompactResultsHTML(wallet)
 
 
-          var det = ""
+          var walletGroupClass = ""
           if (wallet.versions && wallet.versions.length > 0) {
             for (let i = 0; i < wallet.versions.length; i++) {
               searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
               compactedResults += makeCompactResultsHTML(wallet.versions[i])
             }
-            det = "-hom"
+            walletGroupClass = "grouped"
           }
-          walletRow.innerHTML = `<div class="${det}">${compactedResults}</div>`
+          walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
           document.querySelector(".search-controls").classList.remove("working")
           result.append(walletRow)
           matchCounter++

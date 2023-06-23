@@ -513,11 +513,6 @@ h2.section-label>a:hover {
 }
 
 
-.-hom {
-  display: grid;
-  gap: 20px;
-}
-
 .results-list li:last-child:hover,
 .results-list li:last-child:active {
   box-shadow: inset 2px 0 0 0 var(--neutral-5);

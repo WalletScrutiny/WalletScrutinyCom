@@ -40,7 +40,7 @@
       height: 100vh;
       width: 200vw;
       background: var(--body-50);
-      top: 3rem;
+      top: calc(3rem - 5px);
       left: -100vw;
       z-index: -3;
       backdrop-filter: blur(10px);
@@ -156,7 +156,8 @@
       max-height: 40vh;
       grid-column: 1/3;
       grid-row: 2/3;
-      overflow: hidden scroll;
+      overflow-x: hidden;
+      overflow-y: auto;
       background: var(--neutral-6);
       box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.2);
       border-radius: 5px;
@@ -165,12 +166,18 @@
       left: 50%;
       transform: translateX(-50%);
       li {
-        padding: 15px 20px;
         margin: 0;
         position: relative;
         z-index: 1;
         &:not(:last-child) {
           box-shadow: 0px 1px 0px 0px var(--neutral-5);
+        }
+        .grouped {
+          a {
+            &:not(:first-of-type) {
+              padding-top: 0 !important;
+            }
+          }
         }
         &.actionable {
           @for $i from 1 through 10 {
@@ -243,12 +250,12 @@
         &:last-child:active {
           box-shadow: inset 4px 0 0 0 var(--accent-text);
         }
-        &:active {
+        a{&:active {
           background: var(--accent);
           * {
             color: var(--permanent-black) !important;
           }
-        }
+        }}
         @keyframes highlightListItem {
           from {
             box-shadow: inset 0px 0 0 0 var(--accent-text), 0px 0px 0px 0px var(--shadow-2, rgba(0, 0, 0, 0.2));
@@ -279,6 +286,7 @@
         grid-template-columns: auto 1fr 130px;
         column-gap: 15px;
         row-gap: 5px;
+        padding: 15px 20px;
         @media (max-width: $small) {
           grid-template-columns: 50px 1fr;
         }
@@ -305,6 +313,7 @@
           .stamp {
             &::after {
               content: attr(data-text);
+              color: var(--neutral-3);
             }
             &::before {
               display: none;
@@ -312,6 +321,8 @@
           }
           .score,
           .tests-passed {
+            gap: 5px;
+            margin-bottom:0;
             span {
               text-align: left;
             }
