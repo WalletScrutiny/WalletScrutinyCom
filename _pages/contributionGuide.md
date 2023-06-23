@@ -5,50 +5,77 @@ permalink: /contribute/
 author_profile: true
 ---
 
-## How to Contribute
+WalletScrutiny is a non-profit, Bitcoin-focused, open source project that's primarily run by volunteers. We are motivated to keep the Free and Open Source community aspect of Bitcoin alive. We believe that our contributions help the Bitcoin community become stronger and more agile by pushing for accountability and auditability in wallet security. 
 
-WalletScrutiny is a non-profit, Bitcoin-only, source-available project that's primarily run by volunteers. We are motivated to keep the Free and Open Source community aspect of Bitcoin alive. We believe that our contributions help the Bitcoin community become stronger and more agile by pushing for accountability and auditability in wallet security. 
+There are many ways you can contribute to the project: 
 
-There are many ways you can contribute to the project. These are but a few:   
+## Donate
 
-### Donate.
+[Your donations](/donate/) will support the expenses needed to keep the project - and more importantly, the primary contributors, going. Server, hosting, domain and research costs all factor in to the equation. When you make a donation, you can vote to determine the priorities. The donation form lets you choose among the following: 
 
-- [Donate.](donate.md) Your donations will support the expenses needed to keep the project - and more importantly, the primary contributors, going. Server, hosting, domain and research costs all factor in to the equation. When you make a donation, you can vote to determine the priorities. The donation form lets you choose among the following: 
+- More Wallets
+- More frequent updates
+- More operating systems (Windows, Mac)
+- Actual code reviews
+- Non-Bitcoin wallets
+- Alerts when issues are found
+- Non-Wallet apps
 
-    - More Wallets
-    - More frequent updates
-    - More operating systems (Windows, Mac)
-    - Actual code reviews
-    - Non-Bitcoin wallets
-    - Alerts when issues are found
-    - Non-Wallet apps
+## Create Issues
 
-<hr>
+The project maintains a GitLab page where we organize activities around **[Issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues)**. If we find a wallet that claims to be **self-custodial** and **source-available**, this is where we put it. This is also where we collect products worthy of scrutiny.
 
-### Create Issues
+⭐ **You** can also create issues if you find anything of note pertaining to the project. Simply head over [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues).
 
-The project maintains a GitLab page where we organize activities around **[Issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/new)**. If we find a wallet that claims to be **self-custodial** and **source-available**, this is where we put it. This is also where we put items that are worthy of scrutiny.
+## Propose Changes on Social Media
 
-  - ⭐ **You** can also create issues if you find anything of note pertaining to the project. Simply head over [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/new). We encourage it!
+You can message or join us on: 
 
-### Propose Changes
-
-Direct participation in the project is also encouraged. You can message or join us in the following platforms: 
-
-  - [Discord](https://discord.gg/yVWqxHSjHH)
-  - [Reddit](https://reddit.com/r/walletscrutiny)
+- [Twitter](https://twitter.com/WalletScrutiny)
+- [Discord](https://discord.gg/yVWqxHSjHH)
+- [Facebook](https://www.facebook.com/walletscrutiny)
+- [Reddit](https://reddit.com/r/walletscrutiny)
     
-## How to Add a New Product
+## Propose Addition of a New Product
 
 We encourage wallet providers to add their product to our database. If the product is source-available, we'd also value detailed instructions on how to build the app. This saves us time when performing reproducible-builds.
 
-⭐ Even if you are not the developer of the app, you can still submit reviews. In fact, we'd like that. This is good as more verifiers test a wallet, the better.
-
-The project is primarily run through Jekyll. Each app, be it Android or iOS, is represented by an **.md** file. Each file is in a folder named after the category. For instance, the {% include walletLink.html wallet='android/de.schildbach.wallet' %} is represented by the file name, inside the android directory: 
-
-  `android/de.schildbach.wallet`
+⭐ Even better than products presented by their own providers are reviews by neutral third parties. Or additional reviews of already reviewed products to make sure the information is correct.
 
 ### General
+
+The project is primarily based on Jekyll. Each product is represented by a text file for all the description, links and data and by an image file. For instance, the Android {% include walletLink.html wallet='android/de.schildbach.wallet' %} is defined by [_android/de.schildbach.wallet.md](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_android/de.schildbach.wallet.md) and [images/wIcons/android/de.schildbach.wallet.png](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/images/wIcons/android/de.schildbach.wallet.png).
+
+### File Structure
+
+All product files follow the same general structure and categories vary only slightly in the fields that are used. To add a bearer token, it's easy to start with an existing bearer token for example. But for Android an iPhone apps there are helper scripts. More on those below.
+
+The common structure is:
+
+```
+---
+title: 
+authors:
+appId: 
+appCountry: 
+released:
+updated: 
+version: 
+website: 
+repository: 
+issue: 
+icon: 
+bugbounty: 
+meta: 
+verdict: 
+date: 
+reviewArchive: 
+twitter: 
+social:
+---
+
+```
+
 
 ### Adding New Android Apps
 
