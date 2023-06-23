@@ -7,7 +7,13 @@
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>
   <div class="title">
-    <h3>Passed {{count}} of {{criteria.size}} tests</h3>
+    {% if count == criteria.size %}
+      {% assign numerator = 'all' %}
+    {% else %}
+      {% assign numerator = count %}
+      {% assign numerator = numerator | append: ' of' %}
+    {% endif %}
+    <h3>Passed {{numerator}} {{criteria.size}} tests</h3>
     <p class="applied-methodology steps">We answered the following questions in this order:
       {{ failText }}
       {% if meta != "ok" %}
