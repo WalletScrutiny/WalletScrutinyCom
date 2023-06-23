@@ -11,7 +11,7 @@ released: 2021-01-11
 updated: 2023-06-19
 version: 4.0.0
 stars: 4.7
-reviews: 4676
+reviews: 4698
 size: '107978752'
 website: https://www.safepal.com
 repository: 

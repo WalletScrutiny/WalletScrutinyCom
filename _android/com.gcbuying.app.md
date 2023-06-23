@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gcbuying.app.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: gcbuying

@@ -11,7 +11,7 @@ released: 2020-12-18
 updated: 2023-06-16
 version: '7.1'
 stars: 4.6
-reviews: 2691
+reviews: 2701
 size: '129548288'
 website: https://www.smilesbitcoin.com/
 repository: 

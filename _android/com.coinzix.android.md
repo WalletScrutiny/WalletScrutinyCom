@@ -4,7 +4,7 @@ title: Coinzix
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.coinzix.android
 appCountry: 
 released: 2021-10-27

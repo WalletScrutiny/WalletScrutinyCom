@@ -3,7 +3,7 @@ wsId:
 title: Coinweb Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.coinwebapp
 appCountry: 
 released: 2023-04-28

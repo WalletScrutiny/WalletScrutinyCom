@@ -12,7 +12,7 @@ updated: 2023-06-15
 version: 4.7.1
 stars: 4.6
 ratings: 
-reviews: 39
+reviews: 40
 size: 
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo

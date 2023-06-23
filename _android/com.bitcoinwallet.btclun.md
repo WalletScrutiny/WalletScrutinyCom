@@ -9,9 +9,9 @@ appCountry:
 released: 2023-02-07
 updated: 2023-06-01
 version: 3.04.28
-stars: 3
+stars: 2.9
 ratings: 
-reviews: 37
+reviews: 39
 size: 
 website: https://bitefinance.net
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-06-12
 version: 4.0.9
 stars: 4
 ratings: 12371
-reviews: 472
+reviews: 471
 size: 
 website: https://www.mexc.com
 repository: 

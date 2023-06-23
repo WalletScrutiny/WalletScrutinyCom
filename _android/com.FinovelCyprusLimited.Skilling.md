@@ -8,8 +8,8 @@ users: 100000
 appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 released: 2020-05-05
-updated: 2023-04-29
-version: 2.0.2
+updated: 2023-06-19
+version: 2.0.3
 stars: 4.3
 ratings: 172
 reviews: 6

@@ -3,7 +3,7 @@ wsId:
 title: CDEX-BTC、ETH、Sol、DogeCFDs
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.xsjys.bbtc.cdex
 appCountry: 
 released: 2022-05-24

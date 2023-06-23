@@ -12,7 +12,7 @@ updated: 2023-05-31
 version: 2.0.31
 stars: 4.3
 ratings: 
-reviews: 10
+reviews: 17
 size: 
 website: https://www.dantownms.com
 repository: 

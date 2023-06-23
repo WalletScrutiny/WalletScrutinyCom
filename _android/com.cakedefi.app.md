@@ -1,6 +1,6 @@
 ---
 wsId: CakeDeFi
-title: Cake DeFi
+title: Bake
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16
-updated: 2023-03-17
-version: 4.3.0
+updated: 2023-06-16
+version: 4.4.0
 stars: 3.6
 ratings: 1135
 reviews: 169

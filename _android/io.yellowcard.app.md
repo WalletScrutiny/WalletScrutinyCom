@@ -12,7 +12,7 @@ updated: 2023-06-20
 version: 4.16.11
 stars: 3.5
 ratings: 4440
-reviews: 306
+reviews: 307
 size: 
 website: https://www.yellowcard.io/
 repository: 
