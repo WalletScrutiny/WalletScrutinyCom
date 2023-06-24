@@ -1,29 +1,35 @@
 ---
 wsId: muun
 title: 'Muun: Bitcoin Lightning Wallet'
-altTitle: 
+altTitle:
 authors:
 - leo
+- mohammad
 users: 100000
 appId: io.muun.apollo
-appCountry: 
+appCountry:
 released: 2017-04-25
 updated: 2023-05-22
 version: '50.13'
 stars: 4.6
 ratings: 650
 reviews: 139
-size: 
+size:
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
-bugbounty: 
-meta: outdated
+bugbounty:
+meta: ok
 verdict: nonverifiable
-date: 2022-09-19
-signer: 
+date: 2023-06-24
+signer:
 reviewArchive:
+- date: 2022-09-19
+  version: '49.3'
+  appHash: 70fcd9491963e6fe27f9efd41d3c90abf63539d0f9528de8abbad964675de723
+  gitRevision: e65b56b7128094ef7c188d00828747ee01b3fad6
+  verdict: nonverifiable
 - date: 2022-04-15
   version: '49.2'
   appHash: 328a6ad2056ca798e15551d094d68eade3014b3277ff0ecaa163919c069341ad
@@ -46,11 +52,11 @@ reviewArchive:
   verdict: nonverifiable
 - date: 2019-12-29
   version: beta-36.2
-  appHash: 
+  appHash:
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
 twitter: MuunWallet
-social: 
+social:
 redirect_from:
 - /io.muun.apollo/
 - /posts/io.muun.apollo/
@@ -66,27 +72,25 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          io.muun.apollo
 signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 49.3
-apkVersionCode: 903
-verdict:        
-appHash:        70fcd9491963e6fe27f9efd41d3c90abf63539d0f9528de8abbad964675de723
-commit:         e65b56b7128094ef7c188d00828747ee01b3fad6
+apkVersionName: 50.13
+apkVersionCode: 1013
+verdict:
+appHash:        d9eab324dc83c171350ca4918bb24e0f14dda06f4f7b3cfa0c5f9ab86ca5ea60
+commit:         58c9c82a68e63b3ae005fed05621be0cf869cc05
 
 Diff:
-Files /tmp/fromPlay_io.muun.apollo_903/classes2.dex and /tmp/fromBuild_io.muun.apollo_903/classes2.dex differ
-Files /tmp/fromPlay_io.muun.apollo_903/classes.dex and /tmp/fromBuild_io.muun.apollo_903/classes.dex differ
-Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_903/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_903/resources.arsc and /tmp/fromBuild_io.muun.apollo_903/resources.arsc differ
+Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: APOLLORE.SF
+Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.muun.apollo_1013/resources.arsc and /tmp/fromBuild_io.muun.apollo_1013/resources.arsc differ
 
 Revision, tag (and its signature):
-object e65b56b7128094ef7c188d00828747ee01b3fad6
+object 58c9c82a68e63b3ae005fed05621be0cf869cc05
 type commit
-tag v49.3
-tagger acrespo <alvaro.andres.crespo@gmail.com> 1651007577 -0300
+tag v50.13
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1684797231 -0300
 
-v49.3
+v50.13 (1013)
 ===== End Results =====
 ```
 

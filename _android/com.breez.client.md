@@ -1,31 +1,31 @@
 ---
-wsId: 
+wsId:
 title: 'Breez: Lightning Client & POS'
-altTitle: 
+altTitle:
 authors:
 - leo
 users: 10000
 appId: com.breez.client
-appCountry: 
-released: 
+appCountry:
+released:
 updated: 2023-04-09
 version: VARY
-stars: 
-ratings: 
-reviews: 
-size: 
+stars:
+ratings:
+reviews:
+size:
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
-bugbounty: 
-meta: outdated
+bugbounty:
+meta: ok
 verdict: ftbfs
-date: 2022-09-13
-signer: 
-reviewArchive: 
+date: 2023-06-24
+signer:
+reviewArchive:
 twitter: breez_tech
-social: 
+social:
 redirect_from:
 - /breez/
 - /com.breez.client/
@@ -78,7 +78,7 @@ what google gives us when we install it on a phone: `0.8-beta`. The best match a
 `0.8.improvements`:
 
 ```
-$ git checkout 0.8.improvements 
+$ git checkout 0.8.improvements
 $ cat android/app/build.gradle | grep version
         versionCode 1
         versionName "0.8-beta"
@@ -90,7 +90,7 @@ looks good so far. For now. We will not guess like this in the future.
 > Build breez.aar and bindings.framework as decribed in breez/breez
 
 ```
-$ git submodule status 
+$ git submodule status
 $
 ```
 
