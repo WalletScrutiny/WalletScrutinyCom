@@ -22,8 +22,8 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-06-21
+verdict: reproducible
+date: 2023-06-24
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2023-05-21
@@ -56,40 +56,23 @@ features:
 ---
 
 **Update 2023-06-21**:
-Recent release of this wallet has many diffs with the apk built from source.
-Here is the result of test:
+Recent release (v6.4.5) of this wallet with the apk downloaded from Github 
+is also **reproducible**:
 
 ```
 ===== Begin Results =====
 appId:          io.bluewallet.bluewallet
-signer:         42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
+signer:         f0573fec6d1afb62f7eaa901f57a6c242f181a32eb901a77f443e589c333a3e5
 apkVersionName: 6.4.5
-apkVersionCode: 1686445187
-verdict:        
-appHash:        3e59c2f624a8031293f46a7e611d635e004c30ed33ce554cfcd74b84ef67a95d
+apkVersionCode: 1686411833
+verdict:        reproducible
+appHash:        d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
 commit:         77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
 
 Diff:
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/AndroidManifest.xml differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/assets/dexopt/baseline.profm and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/assets/index.android.bundle differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/classes2.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/classes2.dex differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/classes3.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/classes3.dex differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/classes.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/classes.dex differ
-Only in /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/lib: arm64
-Only in /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/lib/arm64-v8a: libsifir_android.so
-Only in /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/lib/armeabi-v7a: libsifir_android.so
-Only in /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/lib/x86: libsifir_android.so
-Only in /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/lib/x86_64: libsifir_android.so
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/res: Ey.xml
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/res/vM.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/res/vM.xml differ
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/res: Wn.xml
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1686445187/resources.arsc and /tmp/fromBuild_io.bluewallet.bluewallet_1686445187/resources.arsc differ
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686445187: stamp-cert-sha256
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.SF
 
 Revision, tag (and its signature):
 object 77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
@@ -101,7 +84,7 @@ v6.4.5
 ===== End Results =====
 ```
 
-So this release is **nonverifiable**.
+But the Play Store version still has some diffs mentioned in [this github issue](https://github.com/BlueWallet/BlueWallet/issues/758).
 
 **Update 2023-05-21**:
 Emanuel from WalletScrutiny was able to reproduce the apk (v6.3.2) downloaded from github.
