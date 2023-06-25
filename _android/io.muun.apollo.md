@@ -94,4 +94,19 @@ v50.13 (1013)
 ===== End Results =====
 ```
 
+Let's unpack `resources.arsc` files and compare:
+
+```
+$ aapt2 dump resources apollo.apk > fromPlay.txt
+$ aapt2 dump resources /tmp/test_io.muun.apollo/app/apk/apolloui-prod-release-unsigned.apk > fromBuild.txt
+$ diff fromPlay.txt fromBuild.txt
+11708c11708
+<       () "e2e27f098f0f4dd5bd472ec4d8b0ba2d"
+---
+>       () "10abb903957f4fe18afcf69d8156997d"
+```
+
+The diff is related to `com.crashlytics.android.build_id` string value which is an
+[issue in Crashlytics](https://github.com/firebase/firebase-android-sdk/issues/3677).
+
 Sadly that is **not verifiable**.
