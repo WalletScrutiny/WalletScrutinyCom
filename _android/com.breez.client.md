@@ -4,12 +4,14 @@ title: 'Breez: Lightning Client & POS'
 altTitle:
 authors:
 - leo
+- emanuel
+- mohammad
 users: 10000
 appId: com.breez.client
 appCountry:
 released:
 updated: 2023-04-09
-version: VARY
+version: 0.15.refund_hotfix
 stars:
 ratings:
 reviews:
@@ -20,7 +22,7 @@ issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty:
 meta: ok
-verdict: ftbfs
+verdict: nonverifiable
 date: 2023-06-24
 signer:
 reviewArchive:
@@ -36,6 +38,40 @@ features:
 - ln
 
 ---
+**Update: 2023-06-24**: The provider released a new version but some of the building issues are not fixed yet.
+So building this project needs a lot of modifications that makes it hard to review. But finally we were able to
+build the project using
+[this Dockerfile](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/container/com.breez.client)
+which is based on the
+[Dockerfile provided by Emanuel](https://github.com/breez/breezmobile/issues/247#issuecomment-1207317752).
+
+Now it's time to build the image and get a diff:
+
+```
+$ podman build --rm -t breez_build_apk --ulimit=nofile=8192 --cgroup-manager cgroupfs -f scripts/test/container/com.breez.client
+$ podman run --rm --name breez_build_apk -it breez_build_apk
+$ diff --recursive --brief ./FromGithub/ ./LocalBuild/
+
+Files ./FromGithub/AndroidManifest.xml and ./LocalBuild/AndroidManifest.xml differ
+Only in ./FromGithub/META-INF: GOOGPLAY.RSA
+Only in ./FromGithub/META-INF: GOOGPLAY.SF
+Only in ./FromGithub/META-INF: MANIFEST.MF
+Files ./FromGithub/assets/dexopt/baseline.prof and ./LocalBuild/assets/dexopt/baseline.prof differ
+Files ./FromGithub/classes.dex and ./LocalBuild/classes.dex differ
+Files ./FromGithub/classes2.dex and ./LocalBuild/classes2.dex differ
+Files ./FromGithub/lib/arm64-v8a/libapp.so and ./LocalBuild/lib/arm64-v8a/libapp.so differ
+Files ./FromGithub/lib/arm64-v8a/libflutter.so and ./LocalBuild/lib/arm64-v8a/libflutter.so differ
+Files ./FromGithub/lib/arm64-v8a/libgojni.so and ./LocalBuild/lib/arm64-v8a/libgojni.so differ
+Only in ./LocalBuild/lib: armeabi-v7a
+Only in ./LocalBuild/lib: x86
+Only in ./LocalBuild/lib: x86_64
+Only in ./FromGithub/: stamp-cert-sha256
+```
+
+Since there are diffs in some binary files, We cannot verify the reproducibility of this wallet.
+So the wallet is **not verifiable**.
+
+## Original Analysis
 
 A description to our liking. Here it is in full:
 
