@@ -135,8 +135,10 @@ function updateModularPayload(page, unrestrictedSearch, noPush) {
   })
   if (platform !== 'hardware' || unrestrictedSearch) {
     presort.sort((a, b) => {
-      if (a.matchRank != b.matchRank)
+      if ((a.matchRank && b.matchRank) && (a.matchRank != b.matchRank))
         return a.matchRank - b.matchRank
+      if (a.meta !== "ok")
+        return 1
       if (a.verdict != b.verdict)
         return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
       if (a.folder != b.folder)
