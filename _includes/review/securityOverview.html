@@ -1,6 +1,7 @@
 {% assign platform = include.platform %}
 {% assign meta = include.meta %}
 {% assign verdict = include.verdict %}
+{% assign wsId = include.wsId %}
 {% assign filterPlatform = include.filterPlatform %}
 <div class="security-overview">
   <h2>Our wallet review process</h2>
@@ -10,7 +11,7 @@
 
   {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict %}
 
-  <div class="see-also"></div>
+  {% include /review/seeAlso.html wsId=wsId platform=platform %}
 
   <div class="spacer x2"></div>
 

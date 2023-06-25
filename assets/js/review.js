@@ -35,51 +35,6 @@ function verdictBadge(v) {
   return `<a id="${v}" href="/methodology/#${v}" class="verdictBadge ${v}"><span>${window.verdicts[v].short}</span></a>`
 }
 
-function walletLink(w) {
-  return `
-  <div class="also-for">
-    <a href="${w.url}">
-      <img class="app_logo ${w.folder}"
-      src="/images/wIcons/${w.folder}/tiny/${w.icon}"
-      alt="Wallet Logo">
-      <span>${w.altTitle || w.title}</span>
-      <span><i class="${window.platforms[w.folder].css}"></i>&nbsp;${window.platforms[w.folder].category}</span>
-      </a>
-  </div>
-  `
-}
-
-if (window.wsId) {
-  const folder = window.location.pathname.split("/")[1]
-
-  window.orderedObs.forEach(obj => {
-    let html = ''
-    if (obj.wsId === window.wsId) {
-      if (obj.folder !== folder) {
-        html += walletLink(obj)
-      } else if (obj.versions) {
-        obj.versions.forEach(v => {
-          html += walletLink(v)
-        })
-      }
-    } else {
-      if (obj.versions && Array.isArray(obj.versions)) {
-        obj.versions.forEach(version => {
-          if (version.wsId === window.wsId) {
-            html += walletLink(version)
-          }
-        })
-      }
-    }
-    if (html.length > 0) {
-      const htmlEle = document.createElement("div")
-      htmlEle.classList.add("see-also-container")
-      htmlEle.innerHTML = html
-      document.querySelector(".see-also").replaceWith(htmlEle)
-    }
-  })
-}
-
 // TAB VIEW
 
 document.querySelectorAll(".tab-view .label").forEach((ele) => {

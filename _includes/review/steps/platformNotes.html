@@ -1,16 +1,8 @@
 {% assign platform = include.platform %}
 
 <div class="step operating-system">
-  {% case platform %}
-  {% when "android" %}
-  <i class="i-android circle"></i>
-  {% when "iphone" %}
-  <i class="fab fa-apple circle"></i>
-  {% when "hardware" %}
-  <i class="i-device circle"></i>
-  {% when "bearer" %}
-  <i class="i-device circle"></i>
-  {% endcase %}
+  {% include iconClass.html platform=platform %}
+  <i class="{{iconClass}} circle"></i>
   <div class="title">
     <h3>Platform notes</h3>
     <div class="textbox">

@@ -5,11 +5,7 @@
   <div title="Test Categories" class="component component-test-categories">
     <div class="dropdown-options dropdown-test-categories linear-switch">
       {% for key in fixedGrouping %}
-      {% if key == 'iphone' %}
-      {% assign name = 'iPhone' %}
-      {% else %}
-      {% assign name = key | capitalize %}
-      {% endif %}
+      {% include folderToName.html folder=key %}
 
       {% if key == 'android' %}
       {% assign selected = 'selected' %}
