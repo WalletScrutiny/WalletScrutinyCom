@@ -36,8 +36,9 @@ redirect_from:
 developerName: Breez Development LTD
 features:
 - ln
-
 ---
+
+
 **Update: 2023-06-24**: The provider released a new version but some of the building issues are not fixed yet.
 So building this project needs a lot of modifications that makes it hard to review. But finally we were able to
 build the project using
@@ -68,8 +69,7 @@ Only in ./LocalBuild/lib: x86_64
 Only in ./FromGithub/: stamp-cert-sha256
 ```
 
-Since there are diffs in some binary files, We cannot verify the reproducibility of this wallet.
-So the wallet is **not verifiable**.
+With diffs in some binary files the wallet is **not verifiable**.
 
 ## Original Analysis
 

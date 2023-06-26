@@ -28,7 +28,7 @@ reviewArchive:
 - date: 2022-09-19
   version: '49.3'
   appHash: 70fcd9491963e6fe27f9efd41d3c90abf63539d0f9528de8abbad964675de723
-  gitRevision: e65b56b7128094ef7c188d00828747ee01b3fad6
+  gitRevision: 5af8249d8aac7663e1f5e9eacc5f0817e1130e26
   verdict: nonverifiable
 - date: 2022-04-15
   version: '49.2'
@@ -109,4 +109,4 @@ $ diff fromPlay.txt fromBuild.txt
 The diff is related to `com.crashlytics.android.build_id` string value which is an
 [issue in Crashlytics](https://github.com/firebase/firebase-android-sdk/issues/3677).
 
-Sadly that is **not verifiable**.
+Sadly, while looking benign, that is **not reproducible**.
