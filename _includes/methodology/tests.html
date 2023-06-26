@@ -58,10 +58,16 @@
 
   <div class="methodology-item all" data-id="all">
     <h2>These are all the questions we might ask as part of our tests for all platforms.</h2>
-    {% for verdict in site.data.verdicts %}
-      {% assign ver = verdict[0] %}
-      {% include /methodology/section_title.html verdict=ver type="verdict" %}
-      {% include verdictMethodology.html verdict=ver category='all' %}
+    {% for verdict in site.data.testOrder.verdicts %}
+      {% assign title = site.data.verdicts[verdict].title %}
+      {% include /methodology/section_title_icon.html verdict_=verdict title=title %}
+      {% include verdictMethodology.html verdict=verdict category='verdict' %}
+    {% endfor %}
+
+    <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+    {% include /methodology/section_title.html type="meta" %}
+    {% for verdict in site.data.testOrder.metas %}
+      {% include verdictMethodology.html verdict=verdict category='meta' %}
     {% endfor %}
   </div>
 </div>
