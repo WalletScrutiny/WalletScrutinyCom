@@ -29,6 +29,7 @@ author_profile: true
 </div>
 
 <script>
+  let lastQuery = false
   function url(){
     let urlPlatformCategory = false
     let urlIndex = 1
@@ -48,6 +49,7 @@ author_profile: true
     }
     if(urlIndex==2){processSelectedSubcategory(urlPlatformCategory)}
     document.body.setAttribute("data-active-index", urlIndex)
+    lastQuery = window.location.search.split('?')[1]
   }
 
   let index = 1
@@ -55,9 +57,18 @@ author_profile: true
     tab.setAttribute("data-index", index)
     tab.addEventListener("click", (event)=>{
       document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"))
-      window.history.pushState('data', null, `/methodology/?${event.target.innerHTML.replace(/ /g, '-').toLowerCase()}` )
+      const newQuery = event.target.innerHTML.replace(/ /g, '-').toLowerCase()
+      if(lastQuery!==newQuery)
+      {window.history.pushState('data', null, `/methodology/?${newQuery}` )
+      lastQuery = window.location.search.split('?')[1]}
     })
     index++
   }
   url()
+  window.addEventListener("popstate", (event)=>{
+
+    console.log(event, lastQuery, window.location.search.split('?')[1]); 
+    if(lastQuery!==window.location.search.split('?')[1])
+    {url()}
+  })
 </script>
