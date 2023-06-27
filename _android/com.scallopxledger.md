@@ -7,11 +7,11 @@ users: 1000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2023-05-24
-version: 1.2.4
-stars: 3.8
+updated: 2023-06-16
+version: 1.2.5
+stars: 3.4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://scallopx.com/
 repository: 

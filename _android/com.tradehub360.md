@@ -7,8 +7,8 @@ users: 100
 appId: com.tradehub360
 appCountry: 
 released: 2022-10-10
-updated: 2023-06-06
-version: 2.0.60
+updated: 2023-06-13
+version: 2.0.70
 stars: 
 ratings: 
 reviews: 

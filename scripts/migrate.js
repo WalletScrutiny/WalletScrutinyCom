@@ -15,6 +15,7 @@ const migration = function (header, body, fileName, category) {
   header.social = header.social || []
   for (const l of header.social) {
     if (l == null ||
+        typeof l !== 'string' ||
         (!l.startsWith('http') && !l.startsWith('mailto:')) ||
         l.includes(' ')) {
       console.error(`# ${folder}${header.appId}.md: Unrecognized "social" entry ${l}.`)

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.imtrx.dhou.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-05-26
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

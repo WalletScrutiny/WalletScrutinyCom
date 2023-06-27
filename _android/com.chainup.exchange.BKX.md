@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: UAB GraduateSolidity
+developerName: Neural Engine
 features: 
 
 ---

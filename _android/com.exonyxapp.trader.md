@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exonyxapp.trader.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-03-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Exonyxir

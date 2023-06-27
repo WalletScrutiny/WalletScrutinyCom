@@ -3,7 +3,7 @@ wsId:
 title: Swap Crypto Exchange Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.swapcrypto.wallet
 appCountry: 
 released: 2021-12-06

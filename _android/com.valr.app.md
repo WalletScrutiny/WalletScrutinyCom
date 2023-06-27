@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-13
 updated: 2023-06-02
 version: 1.0.74
-stars: 4.3
+stars: 4.1
 ratings: 1725
-reviews: 12
+reviews: 13
 size: 
 website: https://www.valr.com
 repository: 

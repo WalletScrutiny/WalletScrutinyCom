@@ -3,7 +3,7 @@ wsId:
 title: AHEX
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.ahex.app
 appCountry: 
 released: 2022-06-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ahex.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,9 +9,9 @@ appCountry:
 released: 2021-09-29
 updated: 2022-10-12
 version: '2.01'
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 30
+reviews: 32
 size: 
 website: https://globiance.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitflex
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.yesapp.bitflex
 appCountry: 
 released: 2022-09-18

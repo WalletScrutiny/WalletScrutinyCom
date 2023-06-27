@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vegawallet.in.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: vegawallet

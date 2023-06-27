@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rust.bitcoinwallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: obfuscated
-date: 2023-05-16
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

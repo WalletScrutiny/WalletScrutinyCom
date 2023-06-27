@@ -25,7 +25,7 @@ issue:
 icon: satodime.png
 bugbounty: 
 meta: ok
-verdict: sealed-noita
+verdict: sealed-plainkey
 date: 2022-03-23
 signer: 
 reviewArchive: 

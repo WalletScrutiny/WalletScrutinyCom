@@ -2,7 +2,8 @@
 wsId: 
 title: CRIPTOHUB - CHBR
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.criptohub
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.criptohub.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-09-29
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,14 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> The Exchanges sector gained another Brazilian option: CriptoHub, a low-rate brokerage firm, a wide range of cryptocurrencies and extra services. These include Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Ripple (XRP), Dash, Monero (XMR), IOTA (MIOTA), NameCoin (NMC), PeerCoin (PPC), OmiseGo (OMG), martCash (SMART), Allvor (ALV), Storiqa (STQ), CryptoHub (CHBR) and more.
+
+## Analysis 
+
+- The website is no longer online 
+- The app was last updated more than 3 years ago 
+- We emailed suporte@criptohub.com.br but our email was returned with an "Address not found" 
+- We managed to install the app, and tried to register, but we encountered a server error which did not allow us to proceed. 
+- The factors stated above show that this app is already **defunct**

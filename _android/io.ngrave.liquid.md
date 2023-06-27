@@ -8,9 +8,9 @@ users: 1000
 appId: io.ngrave.liquid
 appCountry: 
 released: 2021-11-06
-updated: 2023-05-17
-version: 2.2.2
-stars: 3.2
+updated: 2023-06-16
+version: 2.2.3
+stars: 3.3
 ratings: 
 reviews: 9
 size: 

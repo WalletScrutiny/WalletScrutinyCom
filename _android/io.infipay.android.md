@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.infipay.android.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2023-03-30
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

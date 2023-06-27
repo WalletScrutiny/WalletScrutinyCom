@@ -8,11 +8,11 @@ appId: com.peaceful.pexpay.app.ios
 appCountry: us
 idd: '1618178873'
 released: 2022-04-11
-updated: 2023-05-30
-version: 1.18.0
-stars: 4
-reviews: 10
-size: '344730624'
+updated: 2023-06-16
+version: 1.19.0
+stars: 3.7
+reviews: 13
+size: '347850752'
 website: https://www.pexpay.com
 repository: 
 issue: 

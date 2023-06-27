@@ -9,9 +9,9 @@ appCountry:
 released: 2022-04-28
 updated: 2022-11-23
 version: '2.0'
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: http://www.cnxnetwork.org
 repository: 

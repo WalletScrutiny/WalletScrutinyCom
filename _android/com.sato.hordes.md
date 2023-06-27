@@ -3,11 +3,11 @@ wsId:
 title: Hordes Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.sato.hordes
 appCountry: 
 released: 
-updated: 2023-05-30
+updated: 2023-06-16
 version: VARY
 stars: 
 ratings: 

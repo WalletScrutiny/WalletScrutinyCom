@@ -4,10 +4,11 @@ appId: coldcardMk4
 authors:
 - danny
 - leo
+- mohammad
 released: 2022-05-01
 discontinued: 
-updated: 2022-07-29
-version: v5.0.6
+updated: 2023-04-07
+version: v5.1.2
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -21,9 +22,9 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardMk4.png
 bugbounty: 
-meta: outdated
-verdict: wip
-date: 2022-08-07
+meta: ok
+verdict: reproducible
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -82,6 +83,25 @@ External settings chip removed. Setting now internal to MCU (faster, more space 
 > - Kill-key feature: press key N while phishing words shown -> fast wipe+stop (not silent)
 > - Debug serial port moved to pins, rather than being virtual over USB
 
-## Analysis 
+## Reproducibility
 
-Aesthetically, the ColdCard hardware wallets look physically similar. Note however, that Mark 4 is still in pre-order so there may be variations with the Mark 3 that will only become apparent once it is officially released. According to the review of the {% include walletLink.html wallet='hardware/coldcardMk3' %}, there are still some issues that need to be resolved. It was confirmed on Twitter that the Mark 4 would be using the same [firmware version 4.1.3](https://twitter.com/BitcoinWalletz/status/1503293167478931463) as the Mark 3. This means that the Mark 4 will inherit the same [issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/340). Consequently, this should mean that it will also inherit the same verdict. However, since the product is **not yet released**, a verdict reflecting that state would give them the benefit of the doubt.  
+We have added the [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh)
+for ColdCard wallets which is based on the build script that ColdCard provides in their Github.
+
+Here are the test results for the latest version:
+
+```
+$ ./scripts/test/hardware/coldCard.sh "2023-04-07T1330-v5.1.2" 4
+
+...
+
+Hash of non-signature parts downloaded/compiled:
+254bcf59c776902603f78310160e8edf2573bc7dcb934282acff8561bd9a173f  2023-04-07T1330-v5.1.2-mk4-nosig.bin
+254bcf59c776902603f78310160e8edf2573bc7dcb934282acff8561bd9a173f  firmware-nosig.bin
+
+Hash of the signed firmware:
+7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a  /tmp/firmware/releases/2023-04-07T1330-v5.1.2-mk4-coldcard.dfu
+390b2cbc4053a1ab7e3949ee83b7d2008ae214e008a8f7a74688989d52de2d27  /tmp/firmware/stm32/built/firmware-signed.dfu
+```
+
+which shows this firmware is **reproducible**.

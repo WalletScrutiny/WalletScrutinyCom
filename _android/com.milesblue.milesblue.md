@@ -9,9 +9,9 @@ appCountry:
 released: 2021-10-10
 updated: 2023-02-20
 version: 1.1.3
-stars: 3.2
+stars: 2.3
 ratings: 
-reviews: 4
+reviews: 8
 size: 
 website: https://cryptmi.com
 repository: 

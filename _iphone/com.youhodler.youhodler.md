@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-24
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: youhodler

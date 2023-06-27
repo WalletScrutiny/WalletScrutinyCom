@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-22
 updated: 2023-04-13
 version: 2.6.5
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://www.ennowallet.com
 repository: https://github.com/Enno-Wallet-Enno-Cash

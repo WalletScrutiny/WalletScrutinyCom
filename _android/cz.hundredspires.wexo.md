@@ -3,7 +3,7 @@ wsId:
 title: 'WEXO: Bitcoin & Crypto Wallet'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: cz.hundredspires.wexo
 appCountry: 
 released: 2021-11-29

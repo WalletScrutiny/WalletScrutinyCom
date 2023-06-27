@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: WOW EARN：BTC &Crypto  Wallet
+title: 'WOW EARN: BTC & Crypto Wallet'
 altTitle: 
 authors: 
 users: 10000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2023-06-01
-version: 1.0.24
+updated: 2023-06-21
+version: 1.0.26
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ullapay.com/
+website: https://wowearn.com/
 repository: 
 issue: 
 icon: com.hxg.wallet.png

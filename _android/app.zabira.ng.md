@@ -3,7 +3,7 @@ wsId:
 title: 'Zabira: Buy BTC, ETH & Crypto'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: app.zabira.ng
 appCountry: 
 released: 2022-02-23
