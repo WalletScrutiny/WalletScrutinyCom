@@ -8,8 +8,8 @@
 {% endfor %}
 
 
-{% assign platform = platform | remove_first: "," | append: ']' %}
+{% assign platform = platform | remove_first: "," | append: '];' %}
 
 
 
-<script>{{platform}}</script>
+{{platform}}

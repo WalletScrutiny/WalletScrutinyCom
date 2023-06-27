@@ -3,4 +3,8 @@
   | concat: site.hardware
   | concat: site.bearer %}
 
+{% if include.locale %}
 {{ posts.size | thousands_separated }}
+{% else %}
+{{ posts.size }}
+{% endif %}

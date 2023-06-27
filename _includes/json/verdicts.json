@@ -8,8 +8,8 @@
 {% endfor %}
 
 
-{% assign verdicts = verdicts | remove_first: "," | append: ']' %}
+{% assign verdicts = verdicts | remove_first: "," | append: '];' %}
 
 
 
-<script>{{verdicts}}</script>
+{{verdicts}}
