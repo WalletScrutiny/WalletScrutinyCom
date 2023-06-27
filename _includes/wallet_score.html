@@ -8,17 +8,14 @@
 {% else %}
   {% assign platformCriteria = site.data.platformMeta[platform].verdicts %}
 {% endif %}
-
 {% for c in platformCriteria %}
   {% if site.data.verdicts[c].pass %}
-    {% if criteria.size > 0 %}
-      {% assign criteria = criteria | append: ',' %}
-    {% endif %}
+    {% assign criteria = criteria | append: "," %}
     {% assign criteria = criteria | append: c %}
   {% endif %}
 {% endfor %}
 
-{% assign criteria = criteria | split: ',' %}
+{% assign criteria = criteria | remove_first: "," | split: ',' %}
 
 {% if include.verdict == 'wip' %}
   {% assign count = 0 %}
