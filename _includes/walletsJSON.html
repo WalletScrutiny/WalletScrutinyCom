@@ -1,0 +1,60 @@
+{%- assign platform = '' -%}
+{%- for platforms in site.data.platformMeta -%}
+  {%- assign platform = platform | append: ',"' | append: platforms[0] | append: '"' -%}
+{%- endfor -%}
+{%- assign platform = platform | remove_first: "," | split: ',' -%}
+{%- assign allWallets = '{' -%}
+{%- for folder in platform -%}
+  {%- assign allWallets = allWallets | append: ',' | append: folder | append: ':{' -%}
+  {%- assign folderKey = folder | replace: '"', "" -%}
+  {%- assign thisFolder = "" -%}
+
+  {%- for post in site[folderKey] -%}
+    {%- assign thisPost = "" -%}
+
+    {%- assign contents = "" -%}
+
+    {%- assign keys = 'wsId,title,appId,date,verdict,meta,version,released,updated,icon,developerName,users' | split: ',' -%}
+
+    {%- for key in keys -%}
+      {%- assign escaped = post[key] | escape -%}
+      {%- assign contents = contents | append: ',"' | append: key | append: '":"' | append: escaped | append: '"' -%}
+    {%- endfor -%}
+
+    {%- assign contents = contents | remove_first: "," -%}
+
+    {%- assign thisPost = thisPost | append: ',"' | append : post.appId | append : '":{' | append : contents -%}
+
+    {%- include wallet_score.html verdict = post.verdict meta = post.meta platform=folderKey -%}
+    {%- assign score = ',"score":{"numerator":' -%}
+    {%- assign score = score | append: count -%}
+    {%- assign score = score | append: ',"denominator":' -%}
+    {%- assign score = score | append: criteria.size -%}
+    {%- assign score = score | append: '}' -%}
+    {%- assign thisPost = thisPost | append: score -%}
+
+    {%- if count == criteria.size -%}
+      {%- assign ofTxt = 'all ' -%}
+    {%- else -%}
+      {%- assign ofTxt = count | append: ' of ' -%}
+    {%- endif -%}
+
+    {%- assign thisPost = thisPost | append: ',"passedText":"Passed ' | append: ofTxt | append: criteria.size | append: ' tests"' -%}
+
+    {%- if site.data.verdicts[post.verdict].pass -%}
+      {%- assign thisPost = thisPost | append: ',"verdictText":"' | append: site.data.verdicts[post.verdict].pass  | append: '"' -%}
+    {%- else -%}
+      {%- assign thisPost = thisPost | append: ',"verdictText":"' | append: site.data.verdicts[post.verdict].title | append: '"' -%}
+    {%- endif -%}
+
+    {%- assign thisPost = thisPost | append: "}" -%}
+    {%- assign thisFolder = thisFolder | append: thisPost -%}
+  {%- endfor -%}
+
+  {%- assign thisFolder = thisFolder | remove_first: "," | append: thisPost -%}
+  {%- assign allWallets = allWallets | append: thisFolder -%}
+
+  {%- assign allWallets = allWallets | append: '}' -%}
+{%- endfor -%}
+{%- assign allWallets = allWallets | append: '}' | remove_first: "," -%}
+{{- allWallets -}}
