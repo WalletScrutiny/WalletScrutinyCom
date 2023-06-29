@@ -245,7 +245,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
   if (searchTerm.length > 0 && badgesHtml.length === 0) { resultsText = `No wallets match for <b>"${searchTerm}"</b>.<br>You can search for wallets by name or description.` }
   if (searchTerm.length === 0) {
     if (badgesHtml.length === 0) {
-      let lessWorse = document.querySelectorAll(".dropdown-verdict .option")[3]?document.querySelectorAll(".dropdown-verdict .option")[3]:false
+      let lessWorse = document.querySelectorAll(".dropdown-verdict .option")[3]?document.querySelectorAll(".dropdown-verdict .option")[2]:false
       // INDEX 3 IS HIGHLY SPECIFIC TO THE HTML LAYOUT CURRENTLY USED
       // THIS IS A HACK WHICH CAN BE BROKEN EASILY BY AN HTML OR OTHER LAYOUT CHANGE
       lessWorse = lessWorse
