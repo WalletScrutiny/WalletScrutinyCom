@@ -6,16 +6,41 @@ permalink: /widget/
 <html>
   <head>
     <meta charset="utf-8"/>
-    <link rel="stylesheet" href="/assets/css/main.css">
     <style>
-table, td {
-  border: transparent !important;
-}
-    </style>
+      @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
+    </style> 
+    <link rel="stylesheet" href="/assets/css/widgets.css">
   </head>
-  <body style="margin:0;padding:0;font-family:Helvetica Neue, Arial, sans-serif;background:var(--light-grey, #fafafa);">
-    <script src="/allWallets.js"></script>
-    <script src="/assets/js/widgetBadgeDetails.js"></script>
-    <script src="/assets/js/widgetScripts.js"></script>
+  <body>
+    <div class="widget-holder">
+      <div class="flex">
+        <img class="icon">
+      <div class="grid">
+        <a class="link" target="_blank">
+          <h1 class="title data-text-reverse">
+            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path clip-rule="evenodd" d="m0 0h13.1v13.054h-13.1z"/></clipPath><g fill="none"><path d="m0 0h13.1v13.054h-13.1z"/><g clip-path="url(#a)" stroke="var(--text)" stroke-width="1.88"><path d="m12.271 4.403v-3.597h-3.477"/><path d="m4.605.806h-1.754c-1.117 0-2.022.905-2.022 2.022v7.398c0 1.117.905 2.022 2.022 2.022h7.398c1.117 0 2.022-.905 2.022-2.022 0-.789 0-1.508 0-1.508"/><path d="m6.55 6.527 5.721-5.721"/></g></g></svg>
+          </h1>
+        </a>
+        <span class="version data-text data-text-prefix"></span>
+        <span class="passedText data-text"></span>
+        <span class="verdictText data-text"></span>
+
+        <div class="long-only">
+          <span class="developerName data-text data-text-prefix-manual" data-key-manual="Developer"></span>
+          <span class="users data-text data-text-prefix-manual" data-key-manual="Downloads"></span>
+          <span class="released data-text data-text-prefix-manual" data-key-manual="Released"></span>
+          <span class="updated data-text data-text-prefix-manual" data-key-manual="Latest release"></span>
+          <span class="date data-text data-text-prefix-manual" data-key-manual="Latest analysis"></span>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="info" onclick="this.classList.contains('open')?(this.classList.remove('open')):(this.classList.add('open'))">
+      <span>Data provided by <a target="_blank" href="https://WalletScrutiny.com">WalletScrutiny</a> and supported by your donations.<br><br>
+      To embed a widget into your site, copy the code on any of the analysis pages on <a target="_blank" href="https://WalletScrutiny.com">our website</a>.</span>
+
+      <svg fill="none" height="17" viewBox="0 0 16 17" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="b"><rect height="16" rx="8" width="16" y=".5"/></clipPath><g clip-path="url(#b)"><rect fill="#1caaa2" height="16" rx="8" width="16" y=".5"/><g fill="#fff"><circle cx="8.00008" cy="5.33333" r=".833333"/><path d="m7.33325 7.16667h1.33333v5.33333h-1.33333z"/></g></g></svg>      
+    </div>
+    <script src="/assets/js/widgets.js"></script>
   </body>
 </html>
