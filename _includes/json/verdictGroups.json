@@ -1,21 +1,11 @@
+{% assign verdicts = '' %}
 
-{% assign verdicts = 'const verdictGroups = {' %}
-
-
-{% for v in site.data.verdictGroups %}
-  {% assign verdicts = verdicts | append: ',"' %}
-
-  {% assign key = v.short | downcase | replace: " ", "_" | replace_regex: "[^a-zA-Z\d\s:]", "_" %}
-  {% assign verdicts = verdicts | append: key %}
-  {% assign verdicts = verdicts | append: '":' %}
-
-  {% assign value = v | jsonify %}
-  {% assign verdicts = verdicts | append: value %}
+{% for vg in site.data.verdictGroups %}
+  {% assign vgJson = vg | jsonify %}
+  {% assign verdicts = verdicts | append: '"' | append: vg.key | append: '": '
+    | append: vgJson %}
+  {% unless forloop.last %}
+    {% assign verdicts = verdicts | append: ',' %}
+  {% endunless %}
 {% endfor %}
-
-
-{% assign verdicts = verdicts | remove_first: "," | append: '};' %}
-
-
-
-{{verdicts}}
+const verdictGroups = { {{verdicts}} }
