@@ -1,0 +1,10 @@
+- key: bestScoring
+  verdicts:
+  - reproducible
+  - nobinary
+  - nonverifiable
+  - ftbfs
+  - obfuscated
+  title: Best Scoring.
+  short: Best Scoring
+  abstract: Reproducibility, Custody and Source-code availability 

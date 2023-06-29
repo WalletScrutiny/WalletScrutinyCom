@@ -55,7 +55,7 @@ function countProducts() {
   }
 }
 
-function recreateDropdowns(verdict = 'allPassed', platform = 'all') {
+function recreateDropdowns(verdict = 'bestScoring', platform = 'all') {
   // verdictGroups DECLARED IN WALLETSJS
   if (verdictGroups && document.querySelector(".dropdown-verdict")) {
     const titleRow = verdict.indexOf('all')==0
@@ -123,7 +123,7 @@ function productCount(verdict, platform, toLocale) {
 function updateModularPayload(page, unrestrictedSearch, noPush) {
   const verdict = document.querySelector(".dropdown-verdict").querySelector(".selected")
     ? document.querySelector(".dropdown-verdict").querySelector(".selected").getAttribute("data")
-    : "allPassed"
+    : "bestScoring"
   const verdictGroup = verdictGroups[verdict]
   const platform = document.querySelector(".dropdown-platform").querySelector(".selected")
     ? document.querySelector(".dropdown-platform").querySelector(".selected").getAttribute("data")
@@ -245,7 +245,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
   if (searchTerm.length > 0 && badgesHtml.length === 0) { resultsText = `No wallets match for <b>"${searchTerm}"</b>.<br>You can search for wallets by name or description.` }
   if (searchTerm.length === 0) {
     if (badgesHtml.length === 0) {
-      let lessWorse = document.querySelectorAll(".dropdown-verdict .option")[3]?document.querySelectorAll(".dropdown-verdict .option")[2]:false
+      let lessWorse = document.querySelectorAll(".dropdown-verdict .option")[3] ? document.querySelectorAll(".dropdown-verdict .option")[2] : false
       // INDEX 3 IS HIGHLY SPECIFIC TO THE HTML LAYOUT CURRENTLY USED
       // THIS IS A HACK WHICH CAN BE BROKEN EASILY BY AN HTML OR OTHER LAYOUT CHANGE
       lessWorse = lessWorse
@@ -256,8 +256,14 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
       }
     }
     else {
-      if (verdictGroup === 'allPassed') {
-        resultsText = `These ${wallets.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
+      switch (verdictGroup) {
+        case 'allPassed':
+          resultsText = `These ${wallets.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
+          break;
+        case 'bestScoring':
+          resultsText = `These ${wallets.length} wallets scored the best overall.<br><a href="/methodology/?tests-we-run/${platform}/">Learn about our Methodology</a>.`
+          break;
+        default:
       }
     }
   }
@@ -400,7 +406,7 @@ function filterWalletsByName() {
   }
   const verdict = document.querySelector(".dropdown-verdict > .selected")
     ? document.querySelector(".dropdown-verdict > .selected").getAttribute("data")
-    : "allPassed"
+    : "bestScoring"
   const platform = document.querySelector(".dropdown-platform > .selected")
     ? document.querySelector(".dropdown-platform > .selected").getAttribute("data")
     : "all"

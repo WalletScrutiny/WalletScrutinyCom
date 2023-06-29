@@ -2,12 +2,14 @@
   --accent: #1caaa2;
   --text: #000;
   --white: #fff;
+  --neutral: #eee;
 }
 
 .dark {
   --accent: #005e5a;
   --text: #fff;
   --white: #000;
+  --neutral: #222;
 }
 
 body {
@@ -78,6 +80,7 @@ span {
   height: 50px;
   max-width: 50px;
   border-radius: 20%;
+  background-color: var(--neutral);
 }
 
 .flex {
