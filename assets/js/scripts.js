@@ -261,7 +261,7 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
           resultsText = `These ${wallets.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
           break;
         case 'bestScoring':
-          resultsText = `These ${wallets.length} wallets scored the best ${platform!=='all'?'in '+platformTitleFormatting(platform)+' category': 'overall'}.<br><a href="/methodology/?tests-we-run/${platform}/">Learn about our Methodology</a>.`
+          resultsText = `These ${wallets.length} wallets scored the best ${platform!=='all'?'in '+platformTitleFormatting(platform)+' category': 'overall'}.<br>Read more about <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
           break;
         default:
       }
