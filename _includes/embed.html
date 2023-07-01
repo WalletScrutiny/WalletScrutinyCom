@@ -9,8 +9,8 @@
 <pre class="highlight">
 <code><span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
     <span class="cb-attr">src</span>=<span class="cb-string">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"</span> <span class="cb-attr">name</span>=<span class="cb-string">"<span class="_ts">_ts</span>"</span>
-    <span class="cb-attr">onload</span>=<span class="cb-string">"this.name=this.src.split('#')[1];window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span>&gt;</span>
-    <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span>&gt;</span>
+    <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
+    <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
 <span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span></code>
 </pre>
 <button class="copy_to_clipboard" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;copy</button>
@@ -19,15 +19,15 @@
     will show<br>
 
     <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"
-    onload="this.name=this.src.split('#')[1];window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
+    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
 
     <br>and<br>
 <div class="code-block-holder">
 <pre class="highlight">
 <code><span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
     <span class="cb-attr">src</span>=<span class="cb-string">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"</span> 
-    <span class="cb-attr">onload</span>=<span class="cb-string">"this.name=this.src.split('#')[1];window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span>&gt;</span>
-    <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span>&gt;</span>
+    <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
+    <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
 <span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span></code>
 </pre>
 <button class="copy_to_clipboard" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;copy</button>
@@ -35,7 +35,7 @@
     will show<br>
 
     <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"
-    onload="this.name=this.src.split('#')[1];window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
+    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
 </section>
 
 

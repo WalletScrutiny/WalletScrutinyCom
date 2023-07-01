@@ -30,11 +30,9 @@ permalink: /widget/
       font-family: 'Barlow', 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      overflow: hidden;
       color: var(--text);
       background: var(--white);
-      min-width: 310px;
-      max-width: 500px;
+      max-width: 350px;
     }
 
     body:not(.long) .long-only {
@@ -86,9 +84,8 @@ permalink: /widget/
       top: 0;
       left: 0;
       bottom: 0;
-      max-width: 100vw;
-      max-height: 100vh;
-      padding: 10px;
+      right: 0;
+      padding: 5px;
       box-sizing: border-box;
     }
 
@@ -327,7 +324,7 @@ permalink: /widget/
           const width = this.document.querySelector(".widget-holder").scrollWidth
           if (height > 0 && width > 0) {
             this.dimensionsSent = true
-            parent.postMessage({ h: Number(height) + 10, w: Number(width) + 10, name: urlHash });
+            parent.postMessage({ h: Number(height) + 10, w: Number(width) + 10, name: urlHash }, "*");
           }
         }, 1000)
     });
