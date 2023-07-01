@@ -104,3 +104,8 @@ document.querySelectorAll(".methodology-accordion").forEach((ele)=>{
   })
   accordionIndex++
 })
+
+for (const frame of document.querySelectorAll('iframe')) {
+  let theme = localStorage?.getItem("colour-scheme")?localStorage.getItem("colour-scheme"):'auto'
+  frame.src = frame.src.replace("auto", theme)
+}

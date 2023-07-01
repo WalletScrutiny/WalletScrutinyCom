@@ -2,14 +2,14 @@
 layout: compress
 permalink: /widget/
 ---
-
+{% assign base_url = site.url %}
 <html>
   <head>
     <meta charset="utf-8"/>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap');
     </style> 
-    <link rel="stylesheet" href="/assets/css/widgets.css">
+    <link rel="stylesheet" href="{{ base_url }}/assets/css/widgets.css">
   </head>
   <body>
     <div class="widget-holder">
@@ -36,11 +36,11 @@ permalink: /widget/
       </div>
     </div>
     <div class="info" onclick="this.classList.contains('open')?(this.classList.remove('open')):(this.classList.add('open'))">
-      <span>Data provided by <a target="_blank" href="https://WalletScrutiny.com">WalletScrutiny</a> and supported by your donations.<br><br>
-      To embed a widget into your site, copy the code on any of the analysis pages on <a target="_blank" href="https://WalletScrutiny.com">our website</a>.</span>
+      <span>Data provided by <a target="_blank" href="{{ base_url }}">WalletScrutiny</a> and supported by your donations.<br><br>
+      To embed a widget into your site, copy the code on any of the analysis pages on <a target="_blank" href="{{ base_url }}">our website</a>.</span>
 
       <svg fill="none" height="17" viewBox="0 0 16 17" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="b"><rect height="16" rx="8" width="16" y=".5"/></clipPath><g clip-path="url(#b)"><rect fill="#1caaa2" height="16" rx="8" width="16" y=".5"/><g fill="#fff"><circle cx="8.00008" cy="5.33333" r=".833333"/><path d="m7.33325 7.16667h1.33333v5.33333h-1.33333z"/></g></g></svg>      
     </div>
-    <script src="/assets/js/widgets.js"></script>
+    <script src="{{ base_url }}/assets/js/widgets.js"></script>
   </body>
 </html>

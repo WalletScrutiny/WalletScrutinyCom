@@ -1,9 +1,8 @@
 - key: bestScoring
   verdicts:
   - reproducible
-  - nobinary
   - nonverifiable
-  - ftbfs
+  - sealed-noita
   title: Best Scoring.
   short: Best Scoring
   abstract: Reproducibility, Custody and Source-code availability 

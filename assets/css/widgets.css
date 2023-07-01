@@ -19,6 +19,7 @@ body {
   overflow: hidden;
   color: var(--text);
   background: var(--white);
+  min-width: 310px;
 }
 
 body:not(.long) .long-only {
