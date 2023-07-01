@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: primeXBTCryptoTrading
 title: PrimeXBT – crypto trading
 altTitle: 
-authors: 
+authors:
+- danny
 users: 50000
 appId: com.primexbt.trade
 appCountry: 
@@ -19,15 +20,41 @@ issue:
 icon: com.primexbt.trade.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-06-02
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: primexbt
+social:
+- https://www.facebook.com/primexbt
+- https://t.me/PrimeXBT_English
+- https://www.reddit.com/r/PrimeXBT
+- https://discord.com/invite/yEr8p72pxu
+- https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
 redirect_from: 
 developerName: Prime Technology LTD
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Buy, sell, hold, and trade cryptocurrencies
+>
+> - Secure multi-currency wallets
+- Integrated crypto exchange service
+- Access to a variety of markets
+- Advanced trading tools and features
+- Competitive trading fees
+- Powerful charting software
+- Deposits and withdrawals in BTC, USDC, ETH, and more
+- Industry-leading security
+
+### Security
+
+> PrimeXBT takes asset protection and privacy seriously. We employ an extensive security framework to mitigate risk, including 2FA, mandatory withdrawal address whitelisting, **cold storage**, encrypted traffic, and much more. Our IT security team conducts periodic stress tests and audits to ensure compliance with the strictest security standards.
+
+## Analysis
+
+- PrimeXBT is a cryptocurrency exchange with BTC withdrawals and deposits. They employ **cold-storage** to store user funds.
+- This is a **custodial** platform.
