@@ -23,9 +23,14 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-05-21
+date: 2023-06-24
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2023-05-21
+  version: 6.4.4
+  appHash: 566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
+  gitRevision: f2b4536854aee3468ad1e8a25abb3959ff666bba
+  verdict: reproducible
 - date: 2020-07-14
   version: 6.3.2
   appHash: 
@@ -49,6 +54,37 @@ features:
 - ln
 
 ---
+
+**Update 2023-06-21**:
+Recent release (v6.4.5) of this wallet with the apk downloaded from Github 
+is also **reproducible**:
+
+```
+===== Begin Results =====
+appId:          io.bluewallet.bluewallet
+signer:         f0573fec6d1afb62f7eaa901f57a6c242f181a32eb901a77f443e589c333a3e5
+apkVersionName: 6.4.5
+apkVersionCode: 1686411833
+verdict:        reproducible
+appHash:        d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
+commit:         77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
+
+Diff:
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.SF
+
+Revision, tag (and its signature):
+object 77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
+type commit
+tag v6.4.5
+tagger Marcos Rodriguez Velez <marcospr@pm.me> 1686446064 -0500
+
+v6.4.5
+===== End Results =====
+```
+
+But the Play Store version still has some diffs mentioned in [this github issue](https://github.com/BlueWallet/BlueWallet/issues/758).
 
 **Update 2023-05-21**:
 Emanuel from WalletScrutiny was able to reproduce the apk (v6.3.2) downloaded from github.

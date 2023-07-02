@@ -16,14 +16,19 @@ reviews: 16
 size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/127
+issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-04-27
+date: 2023-06-21
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- data: 2023-04-27
+  version: 3.25.0
+  appHash: 5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
+  gitRevision: 35f35e68120480b84f511f869dcbcfce89e59ac5
+  verdict: reproducible
 - data: 2022-11-02
   version: 3.18.0
   appHash: c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998
@@ -180,36 +185,53 @@ features:
 
 ---
 
-**Update 2022-11-02**: While last week's latest build coudl be reproduced, the
-now latest build fails to compile with our script. We have to look into what's
-causing this but `Too many open files` looks like the build environment needs
-tweaking.
-
 We ran our {% include testScript.html %} which delivered these results:
 
 ```
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.25.0
-apkVersionCode: 50665
+apkVersionName: 3.26.0
+apkVersionCode: 51797
 verdict:        reproducible
-appHash:        5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
-commit:         35f35e68120480b84f511f869dcbcfce89e59ac5
+appHash:        594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
+commit:         6730f178679329e72777e412156b22135ff81a1d
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_50665/META-INF: PAPERS.SF
+Files /tmp/fromPlay_it.airgap.vault_51797/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_51797/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_51797/assets/public: main.5184e2029b8e7e07.js
+Only in /tmp/fromPlay_it.airgap.vault_51797/assets/public: main.bc1e4e3a4f2da280.js
+Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 35f35e68120480b84f511f869dcbcfce89e59ac5
+object 6730f178679329e72777e412156b22135ff81a1d
 type commit
-tag v3.25.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1679663469 +0100
+tag v3.26.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1684820076 +0200
 
-version 3.25.0
+version 3.26.0
 ===== End Results =====
 ```
 
-Which is what we want to see to give it the verdict **reproducible**.
+As mentioned in the test results there are a few minor changes. Let's dig into it. 
+We found that the diff in `index.html` is related to the file name change of `main.*.js`.
+`main.bc1e4e3a4f2da280.js` has been renamed to `main.5184e2029b8e7e07.js`, that's a default
+behavior of Angular framework when building projects. Eventhough this behavior could be disabled
+to result the same bundle name with each build.
+So we openned an [issue](https://github.com/airgap-it/airgap-vault/issues/197) in the 
+Airgap Vault repository. Also there is a minor diff in the js bundles:
+
+````
+diff <(fold -s -w 100 main.5184e2029b8e7e07.js) <(fold -s -w 100 main.bc1e4e3a4f2da280.js)
+895c895
+< Reflect.metadata(ie,UA)},"__metadata"),A(h,"tslib_awaiter"),A(function w(ie,UA){var 
+---
+> Reflect.metadata(ie,UA)},"__metadata"),A(h,"tslib_es6_awaiter"),A(function w(ie,UA){var  
+```
+
+"tslib_awaiter" has been changed to "tslib_es6_awaiter" which also is a minor change and
+won't affect the behavior of the wallet.
+
+So we can still give it the verdict **reproducible**.
