@@ -38,7 +38,6 @@ features:
 
 ## Analysis 
 
-- This app is similar to {% include walletLink.html wallet='android/com.localbitcoins.app.android' verdict='true' %}
 - The user is asked to provide GPS information. 
 - The website is no longer online 
 - The user can then list a possible trade (to buy/sell) with a pin in the local map. 
