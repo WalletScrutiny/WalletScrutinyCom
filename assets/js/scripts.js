@@ -59,8 +59,8 @@ function recreateDropdowns(verdict = 'allPassed', platform = 'all') {
   // verdictGroups DECLARED IN WALLETSJS
   if (verdictGroups && document.querySelector(".dropdown-verdict")) {
     const titleRow = verdict.indexOf('all')==0
-      ? 'grid-row:3/4'
-      : 'grid-row:4/5'
+      ? 'grid-row:2/3'
+      : 'grid-row:3/4'
     let html = `<div class="option category-title" style=${titleRow}><span>Other test results</span></div>`
     for (const [vgKey, vg] of Object.entries(verdictGroups)) {
       if (vgKey === 'all' || vgKey === 'notRelevant' ||  vgKey === 'wips') {
