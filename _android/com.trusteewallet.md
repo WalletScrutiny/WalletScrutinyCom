@@ -8,8 +8,8 @@ users: 100000
 appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01
-updated: 2023-05-04
-version: 1.51.4
+updated: 2023-06-21
+version: 1.51.5
 stars: 3.9
 ratings: 2467
 reviews: 49

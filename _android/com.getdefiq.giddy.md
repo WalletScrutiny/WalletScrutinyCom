@@ -3,7 +3,7 @@ wsId:
 title: 'Giddy: Secure Crypto Wallet'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.getdefiq.giddy
 appCountry: 
 released: 2022-02-25

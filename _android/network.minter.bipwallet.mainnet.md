@@ -4,7 +4,7 @@ title: BIP Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: network.minter.bipwallet.mainnet
 appCountry: 
 released: 2019-05-13

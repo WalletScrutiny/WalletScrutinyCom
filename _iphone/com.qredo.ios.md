@@ -8,11 +8,11 @@ appId: com.qredo.ios
 appCountry: us
 idd: '1515898075'
 released: 2020-07-08
-updated: 2023-05-25
-version: 1.2.2
+updated: 2023-06-14
+version: 1.2.3
 stars: 4.3
 reviews: 10
-size: '41220096'
+size: '41318400'
 website: http://www.qredo.com/
 repository: 
 issue: 

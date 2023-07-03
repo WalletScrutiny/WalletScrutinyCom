@@ -11,7 +11,7 @@ test() {
   podman image prune -f
   # build
   sed -i -e "s/versionName \"0.0.0\"/versionName \"$versionName\"/g" android/app/build.gradle
-  podman build -f build/android/Dockerfile -t airgap-vault --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
+  podman build -f build/android/Dockerfile -t airgap-vault --ulimit=nofile=10000:10000 --build-arg BUILD_NR="$versionCode" --build-arg VERSION="$versionName" .
   podman run --name "airgap-vault-build" airgap-vault echo "container ran."
   podman cp airgap-vault-build:/app/android-release-unsigned.apk airgap-vault-release-unsigned.apk
   podman rmi airgap-vault -f

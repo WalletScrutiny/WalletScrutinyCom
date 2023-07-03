@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-01
 updated: 2022-11-23
 version: 2.0.8
-stars: 3.6
+stars: 3.5
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: https://www.ztb.im/
 repository: 

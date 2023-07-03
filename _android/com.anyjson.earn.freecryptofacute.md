@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-16
 updated: 2022-09-28
 version: '1.5 '
-stars: 3.6
+stars: 3.3
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.teamanyjson.com
 repository: 

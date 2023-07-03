@@ -7,8 +7,8 @@ users: 1000
 appId: io.kryll.app2
 appCountry: 
 released: 2022-03-25
-updated: 2023-03-06
-version: 2.3.5
+updated: 2023-06-12
+version: 2.3.9
 stars: 
 ratings: 
 reviews: 

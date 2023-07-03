@@ -11,7 +11,7 @@ updated: 2023-06-01
 version: 3.04.28
 stars: 2.9
 ratings: 
-reviews: 33
+reviews: 39
 size: 
 website: https://bitefinance.net
 repository: 

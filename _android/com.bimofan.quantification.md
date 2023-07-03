@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: AI Trade - Crypto Trading Bot
+title: AI Trade-BTC,ETH.. Trading Bot
 altTitle: 
 authors: 
 users: 1000
 appId: com.bimofan.quantification
 appCountry: 
 released: 2021-11-09
-updated: 2023-05-22
-version: 3.1.0
+updated: 2023-06-18
+version: 3.2.1
 stars: 
 ratings: 
 reviews: 

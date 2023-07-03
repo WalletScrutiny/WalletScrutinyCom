@@ -9,9 +9,9 @@ appCountry:
 released: 2022-08-24
 updated: 2023-06-08
 version: 1.17.0
-stars: 4.7
+stars: 4.5
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://apex.exchange
 repository: 

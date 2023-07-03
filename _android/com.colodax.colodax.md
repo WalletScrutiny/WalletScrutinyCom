@@ -1,6 +1,6 @@
 ---
 wsId: Colodax
-title: Colodax - Bitcoin & Cryptocurr
+title: Colodax - Bitcoin Exchange
 altTitle: 
 authors:
 - danny

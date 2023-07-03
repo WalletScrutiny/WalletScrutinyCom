@@ -8,12 +8,12 @@ users: 100
 appId: paybusiness.elegro.eu
 appCountry:
 released: 2020-07-15
-updated: 2023-05-10
-version: 1.2.6
-stars:
-ratings:
-reviews:
-size:
+updated: 2023-06-14
+version: 1.2.7
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://business.elegro.eu/elegro-business-wallet
 repository:
 issue:

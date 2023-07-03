@@ -11,7 +11,7 @@ released: 2018-07-29
 updated: 2023-06-09
 version: 5.6.5
 stars: 3.8
-reviews: 4
+reviews: 5
 size: '172316672'
 website: https://coinmerce.io/en/
 repository: 

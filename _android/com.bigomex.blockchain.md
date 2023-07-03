@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: bigomexofficial

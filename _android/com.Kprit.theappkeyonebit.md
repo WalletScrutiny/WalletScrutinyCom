@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.Kprit.theappkeyonebit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fake
-date: 2023-05-09
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 

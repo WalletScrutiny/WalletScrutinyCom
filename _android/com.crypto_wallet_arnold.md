@@ -3,7 +3,7 @@ wsId:
 title: 'Pocket: Crypto Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.crypto_wallet_arnold
 appCountry: 
 released: 2022-08-16

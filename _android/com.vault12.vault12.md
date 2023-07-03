@@ -12,7 +12,7 @@ updated: 2023-04-14
 version: 2.0.4
 stars: 4.3
 ratings: 
-reviews: 99
+reviews: 98
 size: 
 website: http://vault12.com
 repository: https://github.com/vault12
@@ -31,7 +31,7 @@ social:
 - https://www.instagram.com/vault12/
 - https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 redirect_from: 
-developerName: Vault12
+developerName: Vault12, Inc
 features: 
 
 ---

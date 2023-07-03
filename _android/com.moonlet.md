@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.moonlet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2020-12-14
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: moonlet_wallet

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Echooo Wallet：BTC & ETH
+title: 'Echooo: Safe & Earn with DeFi'
 altTitle: 
 authors: 
 users: 10000
@@ -9,9 +9,9 @@ appCountry:
 released: 2023-02-10
 updated: 2023-05-31
 version: 1.5.0
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://www.echooo.xyz/
 repository: 

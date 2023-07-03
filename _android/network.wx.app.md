@@ -3,15 +3,15 @@ wsId:
 title: WX Network
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: network.wx.app
 appCountry: 
 released: 2022-09-30
-updated: 2023-06-07
-version: 1.10.0
-stars: 4.2
+updated: 2023-06-13
+version: 1.11.0
+stars: 3.9
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: 
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-06-21
 signer: 
 reviewArchive:
 - date: 2021-05-20

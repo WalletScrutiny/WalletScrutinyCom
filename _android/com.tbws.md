@@ -9,7 +9,7 @@ appCountry:
 released: 2021-05-27
 updated: 2022-06-19
 version: 1.24.0
-stars: 3.7
+stars: 3.8
 ratings: 
 reviews: 49
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tbws.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 

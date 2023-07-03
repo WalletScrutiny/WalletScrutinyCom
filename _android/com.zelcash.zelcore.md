@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-21
 updated: 2023-06-04
 version: 7.1.3
-stars: 3.5
+stars: 3.6
 ratings: 834
-reviews: 128
+reviews: 129
 size: 
 website: https://zelcore.io
 repository: 

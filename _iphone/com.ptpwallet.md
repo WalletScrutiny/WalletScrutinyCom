@@ -10,8 +10,8 @@ idd: 1428589045
 released: 2018-12-12
 updated: 2023-05-30
 version: 1.0.256
-stars: 4.3
-reviews: 23
+stars: 4.2
+reviews: 24
 size: '19887104'
 website: https://ptpwallet.com
 repository: 

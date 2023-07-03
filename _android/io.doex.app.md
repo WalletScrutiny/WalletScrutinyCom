@@ -3,7 +3,7 @@ wsId:
 title: DOEX
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.doex.app
 appCountry: 
 released: 2022-06-11

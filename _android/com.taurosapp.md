@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.taurosapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-07-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: tauros_io

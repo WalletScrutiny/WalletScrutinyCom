@@ -3,7 +3,7 @@ wsId:
 title: Bv Crypto
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.bvcrypto
 appCountry: 
 released: 2019-05-28
@@ -19,7 +19,7 @@ issue:
 icon: com.bvcrypto.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 
