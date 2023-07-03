@@ -1,35 +1,33 @@
 ---
-wsId: elegroBusiness
+wsId: payBusinessElegro
 title: elegro Business online banking
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 100
 appId: paybusiness.elegro.eu
-appCountry: 
+appCountry:
 released: 2020-07-15
 updated: 2023-05-10
 version: 1.2.6
-stars: 
-ratings: 
-reviews: 
-size: 
+stars:
+ratings:
+reviews:
+size:
 website: https://business.elegro.eu/elegro-business-wallet
-repository: 
-issue: 
+repository:
+issue:
 icon: paybusiness.elegro.eu.jpg
-bugbounty: 
+bugbounty:
 meta: ok
 verdict: fewusers
 date: 2023-06-12
-signer: 
-reviewArchive: 
-twitter: 
-social: 
-redirect_from: 
+signer:
+reviewArchive:
+twitter:
+social:
+redirect_from:
 developerName: Niko Technologies
-features: 
+features:
 
 ---
-
-{% include copyFromAndroid.html %}

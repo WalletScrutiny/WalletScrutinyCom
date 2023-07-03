@@ -1,29 +1,29 @@
 ---
-wsId: 
+wsId:
 title: ZedXe Wallet
-altTitle: 
+altTitle:
 authors:
 - danny
 users: 1000
 appId: com.zedXeWallet
-appCountry: 
+appCountry:
 released: 2020-05-07
 updated: 2020-06-11
 version: '1.8'
-stars: 
-ratings: 
-reviews: 
-size: 
+stars:
+ratings:
+reviews:
+size:
 website: https://www.zedxe.com
-repository: 
-issue: 
+repository:
+issue:
 icon: com.zedXeWallet.png
-bugbounty: 
+bugbounty:
 meta: defunct
 verdict: nosource
 date: 2023-06-12
-signer: 
-reviewArchive: 
+signer:
+reviewArchive:
 twitter: Zed_Xe
 social:
 - https://www.facebook.com/ZedXe
@@ -32,9 +32,9 @@ social:
 - https://www.youtube.com/c/ZedXe
 - https://www.instagram.com/Zed_Xe
 - https://t.me/ZedXe
-redirect_from: 
+redirect_from:
 developerName: Zuf Info Tech, LDA
-features: 
+features:
 
 ---
 
@@ -51,20 +51,26 @@ features:
 - Automated integration of DAOZedXe Ecosystem (Sign up, Referral, Top up)
 - Easy to use Single Click DAOZedXe Referral Function
 - Send and Receive crypto assets securely while you chat
-- Your PINS, Private Keys, and Mnemonics are encrypted and stored in your local device 
+- Your PINS, Private Keys, and Mnemonics are encrypted and stored in your local device
 
-## Analysis 
+## Analysis
 
-- We tried registering both on mobile and on the web. 
+- We tried registering both on mobile and on the web.
 - On mobile, we receive the following error:
 
-> SyntaxError: JSON Parse error; Unexpected EOF 
+> SyntaxError: JSON Parse error; Unexpected EOF
 
-- We tweeted them to inquire about the status of the app. 
-- Since, we are not able to test the app, we could only go by their description, which shows: 
-  - The app supports BTC 
-  - The app provides the private keys 
-- Although the app, according to the description is self-custodial, it **doesn't identity itself as a source-available project**. The app was last updated 3 years ago, and could very well be **defunct**. Perhaps more telling is a [scam allegation](https://bitcointalk.org/index.php?action=printpage;topic=5050117.0) on bitcointalk.org.
+- We tweeted them to inquire about the status of the app.
+- Since, we are not able to test the app, we could only go by their description, which shows:
+  - The app supports BTC
+  - The app provides the private keys
+- The app describes itself as self-custodial.
+- It **doesn't identify itself as a source-available project**.
+- There were [0 results](https://github.com/search?q=com.zedXeWallet%2F&type=code) for the app ID on GitHub when we did a code search.
+- Furthermore, the app was last updated 3 years ago, and could very well be **defunct**.
+
 - We'll wait until they reply to our tweet.
 
+**Update: 2023-07-03**
 
+They haven't replied.
