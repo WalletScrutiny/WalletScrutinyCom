@@ -608,19 +608,6 @@ table tr td label {
   transition: 1s ease;
 }
 
-#walletsPerCatContainer, #proportionalViewContainer {
-  display: none;
-  opacity: 0;
-  transform-origin: center;
-  transform: scale(.9);
-}
-
-#walletsPerCatContainer.selected, #proportionalViewContainer.selected {
-
-  display: block;
-  animation: selectedGrow .2s ease forwards 1;
-}
-
 @keyframes selectedGrow {
   to {
     opacity: 1;

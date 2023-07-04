@@ -9,18 +9,6 @@ window.filteredWallets = window.wallets
 window.addEventListener("load", () => {
   countProducts()
   recreateDropdowns()
-
-  var x, y
-  x = document.getElementById("SwitchToDownloadsView"); if (x) x.addEventListener("click", e => {
-    y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.remove("selected")
-    y = document.getElementById("proportionalViewContainer"); if (y) y.classList.add("selected")
-    resizeLabelBold()
-  })
-  x = document.getElementById("SwitchToWalletsView"); if (x) x.addEventListener("click", e => {
-    y = document.getElementById("walletsPerCatContainer"); if (y) y.classList.add("selected")
-    y = document.getElementById("proportionalViewContainer"); if (y) y.classList.remove("selected")
-    resizeLabelBold()
-  })
   document.querySelector('.search-filtered-wallets').setAttribute("placeholder", `Search ${productCount('all', 'all', true)} security reviews…`)
   updateModularPayload()
 })

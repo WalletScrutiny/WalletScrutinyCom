@@ -34,7 +34,6 @@ function lsTest(){
 
 {% include about/sponsors.html %}
 
-<script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
 <script src="{{ base_path }}/assets/js/scripts.js"></script>
 <script src="{{ base_path }}/assets/js/landingPage.js"></script>
 
