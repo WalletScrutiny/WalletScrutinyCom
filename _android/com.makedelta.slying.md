@@ -3,7 +3,7 @@ wsId: makeDelta
 title: 코인미어캣 | 보조지표 조합 돌파알림, 조건검색
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.makedelta.slying
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/profile.php?id=100083754173968
-- https://www.youtube.com/channel/UCLC_CKhMggklpoHowc6TvNA 
+- https://www.youtube.com/channel/UCLC_CKhMggklpoHowc6TvNA
 redirect_from: 
 developerName: MakeDelta
 features: 

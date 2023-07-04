@@ -3,7 +3,7 @@ wsId:
 title: 'WalletX: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.walletx
 appCountry: 

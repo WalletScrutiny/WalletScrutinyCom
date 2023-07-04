@@ -3,11 +3,11 @@ wsId: simpleCrypto
 title: 'Simple crypto: Buy BTC, ETH'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.simple.com
 appCountry: us
 idd: '1603406843'
-released: '2022-05-06T07:00:00Z'
+released: 2022-05-06
 updated: 2023-05-31
 version: 2.0.2
 stars: 5

@@ -3,7 +3,7 @@ wsId:
 title: FTX TR
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.ftxmobile.ftxtr
 appCountry: 

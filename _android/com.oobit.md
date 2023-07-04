@@ -3,7 +3,7 @@ wsId: ooBit
 title: Oobit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.oobit
 appCountry: 
@@ -28,7 +28,7 @@ twitter: oobit
 social:
 - https://t.me/OObit
 - https://www.instagram.com/oobit_official
-- https://www.linkedin.com/company/oobit 
+- https://www.linkedin.com/company/oobit
 redirect_from: 
 developerName: Oobit Technologies
 features: 

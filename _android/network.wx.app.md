@@ -28,7 +28,7 @@ social:
 - https://waves.exchange
 - https://www.facebook.com/profile.php?id=100083514754568
 - https://medium.com/wavesexchange
-- https://t.me/wxnetwork 
+- https://t.me/wxnetwork
 redirect_from: 
 developerName: WX Development LTD.
 features: 

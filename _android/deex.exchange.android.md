@@ -1,29 +1,29 @@
 ---
-wsId:
+wsId: 
 title: Deex Exchange
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: deex.exchange.android
-appCountry:
+appCountry: 
 released: 2019-11-29
 updated: 2020-04-21
 version: 0.3.9
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://deex.exchange/
-repository:
-issue:
+repository: 
+issue: 
 icon: deex.exchange.android.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2023-06-12
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: deex_exchange
 social:
 - https://www.facebook.com/groups/deex.exchange
@@ -31,9 +31,9 @@ social:
 - https://vk.com/deex.exchange
 - https://www.reddit.com/user/the_deex
 - https://t.me/deexexchange
-redirect_from:
+redirect_from: 
 developerName: Deex Group
-features:
+features: 
 
 ---
 

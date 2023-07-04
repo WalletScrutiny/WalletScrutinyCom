@@ -1,29 +1,29 @@
 ---
 wsId: muun
 title: 'Muun: Bitcoin Lightning Wallet'
-altTitle:
+altTitle: 
 authors:
 - leo
 - mohammad
 users: 100000
 appId: io.muun.apollo
-appCountry:
+appCountry: 
 released: 2017-04-25
 updated: 2023-05-22
 version: '50.13'
 stars: 4.6
 ratings: 650
 reviews: 139
-size:
+size: 
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2023-06-24
-signer:
+signer: 
 reviewArchive:
 - date: 2022-09-19
   version: '49.3'
@@ -52,11 +52,11 @@ reviewArchive:
   verdict: nonverifiable
 - date: 2019-12-29
   version: beta-36.2
-  appHash:
+  appHash: 
   gitRevision: e5bd20b29118aaefc8abe66f03c728a834be9984
   verdict: nonverifiable
 twitter: MuunWallet
-social:
+social: 
 redirect_from:
 - /io.muun.apollo/
 - /posts/io.muun.apollo/

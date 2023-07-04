@@ -3,7 +3,7 @@ wsId:
 title: PeerBR
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: br.com.peerbr
 appCountry: 

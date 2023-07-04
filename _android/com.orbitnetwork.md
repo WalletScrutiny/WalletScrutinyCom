@@ -1,34 +1,34 @@
 ---
 wsId: orbitNetwork
 title: Orbit Network
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.orbitnetwork
-appCountry:
+appCountry: 
 released: 2019-12-20
 updated: 2021-08-20
 version: '2.2'
 stars: 4.3
-ratings:
+ratings: 
 reviews: 18
-size:
+size: 
 website: https://orbitnetwork.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.orbitnetwork.png
-bugbounty:
+bugbounty: 
 meta: stale
 verdict: nosendreceive
 date: 2023-04-08
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: Orbit Network Limited
-features:
+features: 
 
 ---
 

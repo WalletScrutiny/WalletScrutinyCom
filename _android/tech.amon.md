@@ -3,7 +3,7 @@ wsId:
 title: Amon
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: tech.amon
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: amonwallet
 social:
-- https://www.facebook.com/amonwallet 
+- https://www.facebook.com/amonwallet
 redirect_from: 
 developerName: Amon OÜ
 features: 

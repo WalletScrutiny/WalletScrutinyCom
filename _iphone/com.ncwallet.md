@@ -3,14 +3,14 @@ wsId: ncWallet
 title: NCWallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.ncwallet
 appCountry: us
 idd: '1615381976'
-released: '2022-09-27T07:00:00Z'
+released: 2022-09-27
 updated: 2023-05-14
 version: 1.0.417
-stars: 3.54545
+stars: 3.5
 reviews: 11
 size: '25124864'
 website: https://ncwallet.net/

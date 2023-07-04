@@ -3,7 +3,7 @@ wsId: ncWallet
 title: NCWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.ncwallet
 appCountry: 

@@ -3,7 +3,7 @@ wsId:
 title: Lemon Bitcoin Captcha
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 

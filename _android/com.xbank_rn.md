@@ -3,7 +3,7 @@ wsId: xBankPocket
 title: xBank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.xbank_rn
 appCountry: 
@@ -28,7 +28,7 @@ twitter: xBank_Official
 social:
 - https://discord.com/invite/PGBVwcaeQE
 - https://www.linkedin.com/company/xbank-global
-- https://medium.com/@xBankCrypto 
+- https://medium.com/@xBankCrypto
 redirect_from: 
 developerName: xbank.plus
 features: 

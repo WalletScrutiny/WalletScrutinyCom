@@ -3,7 +3,7 @@ wsId:
 title: BMG INT
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.yesapp.mw
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.bmgcrypto.us 
+- https://www.bmgcrypto.us
 redirect_from: 
 developerName: MW KOP
 features: 

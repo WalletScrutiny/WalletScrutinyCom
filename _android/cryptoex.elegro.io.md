@@ -1,30 +1,30 @@
 ---
 wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
-altTitle:
+altTitle: 
 authors:
 - leo
 - danny
 users: 1000
 appId: cryptoex.elegro.io
-appCountry:
+appCountry: 
 released: 2019-06-26
 updated: 2021-04-29
 version: 1.0.4
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://personal.elegro.eu/exchange
-repository:
-issue:
+repository: 
+issue: 
 icon: cryptoex.elegro.io.png
-bugbounty:
+bugbounty: 
 meta: obsolete
 verdict: wip
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou
@@ -36,7 +36,7 @@ redirect_from:
 - /cryptoex.elegro.io/
 - /posts/cryptoex.elegro.io/
 developerName: Niko Technologies
-features:
+features: 
 
 ---
 

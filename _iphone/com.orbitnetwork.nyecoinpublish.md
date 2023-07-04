@@ -1,7 +1,7 @@
 ---
 wsId: nyeCoin
 title: NYE Coin
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.orbitnetwork.nyecoinpublish
@@ -14,20 +14,20 @@ stars: 4.7
 reviews: 15
 size: '12429312'
 website: https://nyecoin.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.orbitnetwork.nyecoinpublish.jpg
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: nosource
 date: 2023-06-12
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: nyecoin1
 social:
 - https://www.linkedin.com/in/nye-coin-58b031181
 - https://www.instagram.com/nyecoin
-features:
+features: 
 developerName: Orbit Network Inc
 
 ---

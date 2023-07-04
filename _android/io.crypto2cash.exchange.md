@@ -3,7 +3,7 @@ wsId: crypto2cash
 title: Crypto2Cash
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.crypto2cash.exchange
 appCountry: 

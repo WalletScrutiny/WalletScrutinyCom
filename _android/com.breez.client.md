@@ -1,33 +1,33 @@
 ---
-wsId:
+wsId: 
 title: 'Breez: Lightning Client & POS'
-altTitle:
+altTitle: 
 authors:
 - leo
 - emanuel
 - mohammad
 users: 10000
 appId: com.breez.client
-appCountry:
-released:
+appCountry: 
+released: 
 updated: 2023-04-09
 version: 0.15.refund_hotfix
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2023-06-24
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: breez_tech
-social:
+social: 
 redirect_from:
 - /breez/
 - /com.breez.client/
@@ -36,8 +36,8 @@ redirect_from:
 developerName: Breez Development LTD
 features:
 - ln
----
 
+---
 
 **Update: 2023-06-24**: The provider released a new version but some of the building issues are not fixed yet.
 So building this project needs a lot of modifications that makes it hard to review. But finally we were able to

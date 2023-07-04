@@ -3,7 +3,7 @@ wsId: probosWallet
 title: Probos Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.elephantslab.probos
 appCountry: 
@@ -28,7 +28,7 @@ twitter: probos_wallet
 social:
 - https://t.me/probos_info
 - https://www.facebook.com/proboswallet
-- https://www.instagram.com/proboswallet 
+- https://www.instagram.com/proboswallet
 redirect_from: 
 developerName: ElephantsLab, LLC
 features: 

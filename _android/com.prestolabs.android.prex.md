@@ -3,7 +3,7 @@ wsId:
 title: 'AQX: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.prestolabs.android.prex
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/aqx_official
 - https://www.facebook.com/AQXofcl
 - https://www.youtube.com/channel/UC_3J-wzFgDu2P8NF_CrjAYg/featured
-- https://t.me/aqxannouncement 
+- https://t.me/aqxannouncement
 redirect_from: 
 developerName: AQX
 features: 

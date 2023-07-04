@@ -3,7 +3,7 @@ wsId: bkexGlobal
 title: BKEX-Global
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.yayd.exchangglobal
 appCountry: 

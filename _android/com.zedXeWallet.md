@@ -1,29 +1,29 @@
 ---
-wsId:
+wsId: 
 title: ZedXe Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.zedXeWallet
-appCountry:
+appCountry: 
 released: 2020-05-07
 updated: 2020-06-11
 version: '1.8'
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://www.zedxe.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.zedXeWallet.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: nosource
 date: 2023-06-12
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Zed_Xe
 social:
 - https://www.facebook.com/ZedXe
@@ -32,9 +32,9 @@ social:
 - https://www.youtube.com/c/ZedXe
 - https://www.instagram.com/Zed_Xe
 - https://t.me/ZedXe
-redirect_from:
+redirect_from: 
 developerName: Zuf Info Tech, LDA
-features:
+features: 
 
 ---
 

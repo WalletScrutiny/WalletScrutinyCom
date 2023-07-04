@@ -3,7 +3,7 @@ wsId: coinTR
 title: 'CoinTR: Bitcoin Altcoin Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.cointr
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/CoinTRTurkiye
 - https://www.instagram.com/cointrturkiye
 - https://www.facebook.com/profile.php?id=100083113521452
-- https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw 
+- https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 redirect_from: 
 developerName: CoinTR
 features: 

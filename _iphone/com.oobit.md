@@ -3,17 +3,17 @@ wsId: ooBit
 title: Oobit
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.oobit
 appCountry: ru
 idd: '1598882898'
-released: '2022-02-05T08:00:00Z'
+released: 2022-02-05
 updated: 2023-04-06
 version: 1.4.7
 stars: 5
 reviews: 1
 size: '90810368'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.oobit.jpg

@@ -3,14 +3,14 @@ wsId: crypto2cash
 title: Crypto2Cash
 altTitle: 
 authors:
-- danny  
+- danny
 appId: com.c2c.B.V.Crypto2Cash
 appCountry: gb
 idd: '1394099126'
-released: '2018-11-29T01:29:42Z'
+released: 2018-11-29
 updated: 2022-12-15
 version: 2.10.2
-stars: 3.33333
+stars: 3.3
 reviews: 9
 size: '30099456'
 website: https://www.crypto2cash.com/

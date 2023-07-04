@@ -3,7 +3,7 @@ wsId:
 title: 經濟一週 EDigest - 股票投資 財經新聞 理財資訊
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: hk.edigest.edapp
 appCountry: 

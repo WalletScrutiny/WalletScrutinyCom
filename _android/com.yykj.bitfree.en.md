@@ -3,7 +3,7 @@ wsId: bitFree
 title: BitFree
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.yykj.bitfree.en
 appCountry: 
@@ -28,7 +28,7 @@ twitter: bitfree_us
 social:
 - https://bitfree.us
 - https://www.facebook.com/bitfree.official
-- https://t.me/bitfreehelp 
+- https://t.me/bitfreehelp
 redirect_from: 
 developerName: ifreepanda
 features: 

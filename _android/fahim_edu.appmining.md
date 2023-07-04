@@ -3,7 +3,7 @@ wsId:
 title: Mining Monitor
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: fahim_edu.appmining
 appCountry: 

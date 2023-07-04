@@ -3,7 +3,7 @@ wsId: zkeExchange
 title: ZKE EXCHANGE
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.chainup.exchange.ZKE
 appCountry: 

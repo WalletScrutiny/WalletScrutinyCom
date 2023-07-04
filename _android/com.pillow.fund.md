@@ -3,7 +3,7 @@ wsId: pillowFund
 title: 'Pillow: Save. Invest. Earn.'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.pillow.fund
 appCountry: 

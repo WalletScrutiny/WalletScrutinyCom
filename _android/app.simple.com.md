@@ -3,7 +3,7 @@ wsId: simpleCrypto
 title: 'Simple crypto: Buy BTC, ETH'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: app.simple.com
 appCountry: 
@@ -28,7 +28,7 @@ twitter: smpl_app
 social:
 - https://t.me/smpl_app
 - https://www.linkedin.com/company/smplapp
-- https://www.facebook.com/smplapp 
+- https://www.facebook.com/smplapp
 redirect_from: 
 developerName: Simple Europe
 features: 

@@ -3,17 +3,17 @@ wsId: wxNetwork
 title: WX Network
 altTitle: 
 authors:
-- danny 
+- danny
 appId: network.wx.app
 appCountry: us
 idd: '1639310291'
-released: '2022-11-02T07:00:00Z'
+released: 2022-11-02
 updated: 2023-06-08
 version: 1.10.0
 stars: 3
 reviews: 4
 size: '77881344'
-website: ''
+website: 
 repository: 
 issue: 
 icon: network.wx.app.jpg
@@ -28,7 +28,7 @@ social:
 - https://waves.exchange
 - https://www.facebook.com/profile.php?id=100083514754568
 - https://medium.com/wavesexchange
-- https://t.me/wxnetwork 
+- https://t.me/wxnetwork
 features: 
 developerName: WX DEVELOPMENT LTD.
 

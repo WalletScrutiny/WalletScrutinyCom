@@ -3,7 +3,7 @@ wsId:
 title: 'Snappy Exchange: Redeeming App'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: esw.snappyexchange.snappyexchange
 appCountry: 

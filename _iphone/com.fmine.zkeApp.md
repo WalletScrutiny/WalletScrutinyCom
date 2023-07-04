@@ -3,11 +3,11 @@ wsId: zkeExchange
 title: ZKE - Buy Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.fmine.zkeApp
 appCountry: us
 idd: '6443931838'
-released: '2022-11-09T08:00:00Z'
+released: 2022-11-09
 updated: 2023-06-11
 version: 5.8.0
 stars: 4.8

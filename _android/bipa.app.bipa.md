@@ -3,7 +3,7 @@ wsId: bipaBR
 title: Bipa - Conta Pix & Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: bipa.app.bipa
 appCountry: 
