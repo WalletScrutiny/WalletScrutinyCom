@@ -4,7 +4,7 @@ title: Mybitstore - Buy & Sell BTC
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: app.mybitstore.com
 appCountry: 
 released: 2021-08-12

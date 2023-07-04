@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-05-17
 updated: 2023-06-11
 version: 0.6.3
-stars: 4.1
+stars: 4
 ratings: 8141
-reviews: 55
+reviews: 56
 size: 
 website: https://chainge.finance
 repository: 

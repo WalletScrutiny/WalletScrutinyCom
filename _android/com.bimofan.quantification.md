@@ -7,8 +7,8 @@ users: 1000
 appId: com.bimofan.quantification
 appCountry: 
 released: 2021-11-09
-updated: 2023-06-18
-version: 3.2.1
+updated: 2023-06-26
+version: 3.2.2
 stars: 
 ratings: 
 reviews: 

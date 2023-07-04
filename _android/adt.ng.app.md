@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Samora Bot International
+developerName: SAMORA BOT INT'L LTD
 features: 
 
 ---

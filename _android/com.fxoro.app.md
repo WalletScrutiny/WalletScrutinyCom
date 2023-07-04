@@ -7,8 +7,8 @@ users: 1000
 appId: com.fxoro.app
 appCountry: 
 released: 2022-06-16
-updated: 2023-05-30
-version: 1.2.6
+updated: 2023-06-26
+version: 1.2.7
 stars: 
 ratings: 
 reviews: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-15
 updated: 2023-01-19
 version: 1.7.0
-stars: 3.2
+stars: 
 ratings: 
-reviews: 2
+reviews: 
 size: 
 website: https://bitgo.com
 repository: 

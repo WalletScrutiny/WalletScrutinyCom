@@ -7,8 +7,8 @@ users: 100
 appId: ch.swissbitcoinpay.checkout
 appCountry: 
 released: 2022-11-15
-updated: 2023-06-07
-version: 1.8.6
+updated: 2023-06-23
+version: 1.8.7
 stars: 
 ratings: 
 reviews: 

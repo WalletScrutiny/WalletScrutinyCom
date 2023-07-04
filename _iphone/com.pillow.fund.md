@@ -8,10 +8,10 @@ appId: com.pillow.fund
 appCountry: in
 idd: '1593227237'
 released: 2022-03-02
-updated: 2023-04-10
-version: 3.13.1
-stars: 4
-reviews: 64
+updated: 2023-06-27
+version: '4.1'
+stars: 3.9
+reviews: 65
 size: '52560896'
 website: https://www.pillow.fund/
 repository: 

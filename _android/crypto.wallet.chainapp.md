@@ -1,6 +1,6 @@
 ---
 wsId: bullDeFi
-title: Bull App - Bitcoin & ETH DeFi
+title: Bull App - Blockchain Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: crypto.wallet.chainapp
 appCountry: 
 released: 2021-03-24
-updated: 2022-05-18
-version: 1.2.9
+updated: 2023-03-23
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 

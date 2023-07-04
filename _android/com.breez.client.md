@@ -11,7 +11,7 @@ appId: com.breez.client
 appCountry: 
 released: 
 updated: 2023-04-09
-version: 0.15.refund_hotfix
+version: VARY
 stars: 
 ratings: 
 reviews: 

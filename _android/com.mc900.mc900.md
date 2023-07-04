@@ -7,8 +7,8 @@ users: 10000
 appId: com.mc900.mc900
 appCountry: 
 released: 2022-08-12
-updated: 2023-05-25
-version: 2.1.1
+updated: 2023-06-28
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 

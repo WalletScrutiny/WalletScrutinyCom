@@ -7,8 +7,8 @@ users: 1000
 appId: com.finance.tradekiya
 appCountry: 
 released: 2022-08-26
-updated: 2023-05-26
-version: 1.0.139
+updated: 2023-06-30
+version: 1.0.141
 stars: 
 ratings: 
 reviews: 

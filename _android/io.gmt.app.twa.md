@@ -7,11 +7,11 @@ users: 10000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
-updated: 2023-05-29
-version: '11'
-stars: 4.2
+updated: 2023-06-30
+version: '14'
+stars: 3.9
 ratings: 
-reviews: 11
+reviews: 18
 size: 
 website: https://gomining.com
 repository: 

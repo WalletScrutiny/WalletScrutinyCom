@@ -1,6 +1,6 @@
 ---
 wsId: ZenGo
-title: 'ZenGo: Crypto & Bitcoin Wallet'
+title: 'Zengo: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: kzencorp.mobile.ios
 appCountry: 
 idd: 1440147115
 released: 2019-06-07
-updated: 2023-05-28
-version: 6.3.0
+updated: 2023-06-26
+version: '7.0'
 stars: 4.7
-reviews: 2855
-size: '92133376'
+reviews: 2876
+size: '94168064'
 website: https://www.zengo.com
 repository: 
 issue: 

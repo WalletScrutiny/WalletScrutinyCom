@@ -3,11 +3,11 @@ wsId:
 title: 'Wallacy: Crypto & BTC Wallet'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.wallacy.cryptowallet
 appCountry: 
 released: 
-updated: 2023-06-17
+updated: 2023-07-01
 version: VARY
 stars: 
 ratings: 

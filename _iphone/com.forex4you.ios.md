@@ -11,7 +11,7 @@ released: 2015-10-11
 updated: 2023-02-23
 version: 5.2.3
 stars: 4.7
-reviews: 320
+reviews: 322
 size: '175994880'
 website: https://www.forex4you.com/en/contacts/
 repository: 

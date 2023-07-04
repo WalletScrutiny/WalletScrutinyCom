@@ -12,7 +12,7 @@ updated: 2023-06-20
 version: VARY
 stars: 4
 ratings: 4430
-reviews: 1471
+reviews: 1473
 size: 
 website: https://bitflyer.com
 repository: 

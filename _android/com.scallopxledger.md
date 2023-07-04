@@ -3,7 +3,7 @@ wsId:
 title: Scallop
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28

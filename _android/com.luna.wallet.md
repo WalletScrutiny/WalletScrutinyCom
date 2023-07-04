@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.luna.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-28
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.counos.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: counoscoin

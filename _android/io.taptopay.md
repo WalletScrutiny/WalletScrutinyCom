@@ -9,9 +9,9 @@ appCountry:
 released: 2022-07-27
 updated: 2022-08-25
 version: 1.0.1
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://taptopay.io
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: bitazzaGL
-title: 'Bitazza: Crypto Exchange'
+title: BTZ
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: 2022-04-07
-updated: 2022-12-28
-version: 2.8.16
+updated: 2023-06-29
+version: 2.9.2
 stars: 4
-reviews: 24
-size: '159729664'
+reviews: 25
+size: '153024512'
 website: https://www.bitazza.com
 repository: 
 issue: 

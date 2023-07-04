@@ -8,8 +8,8 @@ users: 10000
 appId: com.qredoapp
 appCountry: 
 released: 2020-09-24
-updated: 2023-06-12
-version: v1.2.7
+updated: 2023-06-29
+version: v1.3.1
 stars: 
 ratings: 
 reviews: 

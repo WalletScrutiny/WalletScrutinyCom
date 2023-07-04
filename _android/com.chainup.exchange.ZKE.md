@@ -8,8 +8,8 @@ users: 10000
 appId: com.chainup.exchange.ZKE
 appCountry: 
 released: 2022-10-19
-updated: 2023-05-22
-version: 5.7.9_push_v2
+updated: 2023-07-04
+version: 5.8.1_push_v2
 stars: 4.8
 ratings: 
 reviews: 38

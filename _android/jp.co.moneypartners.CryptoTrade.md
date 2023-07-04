@@ -7,8 +7,8 @@ users: 500
 appId: jp.co.moneypartners.CryptoTrade
 appCountry: 
 released: 2021-11-23
-updated: 2023-03-24
-version: 1.2.10
+updated: 2023-06-29
+version: 1.2.12
 stars: 
 ratings: 
 reviews: 

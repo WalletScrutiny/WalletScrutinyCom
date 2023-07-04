@@ -8,8 +8,8 @@ users: 100000
 appId: com.pillow.fund
 appCountry: 
 released: 2022-02-03
-updated: 2023-04-05
-version: 3.13.1
+updated: 2023-06-26
+version: '4.0'
 stars: 4.4
 ratings: 
 reviews: 66

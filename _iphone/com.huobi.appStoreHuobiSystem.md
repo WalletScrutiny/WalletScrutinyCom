@@ -10,8 +10,8 @@ idd: 1023263342
 released: 2015-08-19
 updated: 2023-06-19
 version: 10.2.0
-stars: 4.1
-reviews: 1362
+stars: 4
+reviews: 1343
 size: '266518528'
 website: https://www.huobi.com
 repository: 
