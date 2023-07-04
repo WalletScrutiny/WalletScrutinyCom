@@ -4,7 +4,7 @@ pass: The product is reproducible from the source provided
 color: '#d33100'
 redflag: true
 message: We could not verify that the provided code matches the binary!
-question: Is the published binary matching the published source code?
+question: Does the published binary match the published source code?
 details: >
   Published code doesn't help much if it is not what the published binary was
   built from. That is why we try to reproduce the binary. We
