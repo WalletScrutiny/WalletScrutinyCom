@@ -34,3 +34,5 @@ developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
 
 ---
 
+{% include copyFromAndroid.html %}
+
