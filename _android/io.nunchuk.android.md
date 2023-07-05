@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - emanuel
+- mohammad
 users: 5000
 appId: io.nunchuk.android
 appCountry: 
@@ -17,14 +18,19 @@ reviews: 13
 size: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android
-issue: https://github.com/nunchuk-io/nunchuk-android/issues/7
+issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-01-06
+date: 2023-07-05
 signer: 
 reviewArchive:
+- date: 2023-01-06
+  version: 1.9.23
+  appHash: 
+  gitRevision: 49d61c1c5807f24ea01ba185a2de6793f8df0d38
+  verdict: nonverifiable
 - date: 2021-12-15
   version: 1.9.21
   appHash: 
@@ -40,6 +46,13 @@ developerName: Nunchuk Inc
 features: 
 
 ---
+
+**Update 2023-07-05**: We have added a 
+[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/io.nunchuk.android.sh) 
+to check the reproducibility of Nunchuk 1.9.32.
+Unfortunately the result has diff on a lot of files, Which is also reported in an issue 
+[here](https://github.com/nunchuk-io/nunchuk-android/issues/23).
+So the app is still **not verifiable**.
 
 The app's version for Android was released as open source under the GPLv3
 [here](https://github.com/nunchuk-io/nunchuk-android).
