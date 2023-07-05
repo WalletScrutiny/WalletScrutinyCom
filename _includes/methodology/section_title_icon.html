@@ -1,31 +1,13 @@
 {% case include.verdict %}
-  {% when 'wip' %}
-  {% assign iconClass="fas fa-square circle" %}
-
-  {% when 'fewusers' %}
-  {% assign iconClass="fas fa-users circle" %}
-
-  {% when 'nowallet' %}
-  {% assign iconClass="i-wallet circle" %}
-
-  {% when 'nosendreceive' %}
-  {% assign iconClass="i-arrows circle" %}
-
-  {% when 'custodial' %}
-  {% when 'noita' %}
-  {% assign iconClass="i-key circle" %}
-
-  {% when 'nosource' %}
-  {% assign iconClass="i-code circle" %}
-
-  {% when 'nonverifiable' %}
-  {% assign iconClass="i-reproducible circle" %}
-
-  {% when 'reproducible' %}
-  {% assign iconClass="i-reproducible circle" %}
-
-  {% when 'fake' %}
-  {% assign iconClass="fas fa-user-secret circle" %}
+  {% when 'wip' %}                {% assign iconClass="fas fa-square circle" %}
+  {% when 'fewusers' %}           {% assign iconClass="fas fa-users circle" %}
+  {% when 'nowallet' %}           {% assign iconClass="i-wallet circle" %}
+  {% when 'nosendreceive' %}      {% assign iconClass="i-arrows circle" %}
+  {% when 'custodial', 'noita' %} {% assign iconClass="i-key circle" %}
+  {% when 'nosource' %}           {% assign iconClass="i-code circle" %}
+  {% when 'nonverifiable' %}      {% assign iconClass="i-reproducible circle" %}
+  {% when 'reproducible' %}       {% assign iconClass="i-reproducible circle" %}
+  {% when 'fake' %}               {% assign iconClass="fas fa-user-secret circle" %}
 {% endcase %}
 
 {% if iconClass %}
