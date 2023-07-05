@@ -63,25 +63,24 @@ function refreshFile (fileName, content, octokit) {
 
     if (!ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
       const customHelperPath = `./custom-helpers/${category}/${appId}.js`
-      let githubResult
+      let app
       if (existsSync(customHelperPath)) {
         const customHelper = require(customHelperPath)
-        githubResult = await customHelper.getVersionInfo(octokit)
+        app = await customHelper.getVersionInfo(octokit)
       } else {
         const parts = header.repository.split('/')
         const owner = parts[3]
         const repo = parts[4]
         try {
-          githubResult = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
+          app = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
         } catch (err) {
           if (err.status === 404) {
             try {
               console.log(`Couldn't find releases for ${header.title} at https://github.com/${owner}/${repo} ... trying to get tags…`)
-              const tag = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
-              const commitSHA = tag.commit.sha
+              app = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
+              const commitSHA = app.commit.sha
               const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
-              tag.created_at = commit.commit.author.date
-              githubResult = tag
+              app.created_at = commit.commit.author.date
             } catch (err) {
               console.log(`No version info available on Github for ${header.title}`)
             }
@@ -91,10 +90,10 @@ function refreshFile (fileName, content, octokit) {
         }
       }
 
-      if (githubResult) {
-        console.log(`${header.title}: Last release was ${githubResult?.name} on ${githubResult?.created_at}.`)
+      if (app) {
+        console.log(`${header.title}: Last release was ${app?.name} on ${app?.created_at}.`)
 
-        updateFromGithub(header, githubResult)
+        updateFromApp(header, app)
         stats.updated++
         helper.writeResult(folder, header, body)
       }
@@ -107,7 +106,7 @@ function refreshFile (fileName, content, octokit) {
 /**
  * Update the header from app
  **/
-function updateFromGithub (header, app) {
+function updateFromApp (header, app) {
   if (app === undefined) {
     return
   }
