@@ -1,6 +1,7 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
 const fs = require('fs/promises')
+const existsSync = require('fs').existsSync
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
@@ -55,11 +56,12 @@ function refreshFile (fileName, content, octokit) {
 
     // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
     if (githubPattern.test(header.repository) && !ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
+      const customHelperPath = `./custom-helpers/${category}/${appId}.js`
       let githubResult
-      try {
-        const customHelper = require(`./custom-helpers/${category}/${appId}.js`)
+      if (existsSync(customHelperPath)) {
+        const customHelper = require(customHelperPath)
         githubResult = await customHelper.getVersionInfo(octokit)
-      } catch (err) {
+      } else {
         const parts = header.repository.split('/')
         const owner = parts[3]
         const repo = parts[4]
