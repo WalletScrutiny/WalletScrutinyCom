@@ -8,7 +8,7 @@
     {% for ver in v.verdicts %}
       {% if ver == verdict %}
         {% if iterationCount == 0 %}
-          {% include /methodology/section_title_icon.html verdict_=verdict title=v.abstract %}
+          {% include /methodology/section_title_icon.html verdict=verdict title=v.abstract %}
         {% endif %}
       {% endif %}
       {% assign iterationCount = iterationCount | plus: 1 %}

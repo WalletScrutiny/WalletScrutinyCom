@@ -1,6 +1,5 @@
 {%- assign fixedGrouping = "hardware,iphone,android,bearer" | split: "," -%}
 
-
 <div class="test-subcat">
   <div title="Test Categories" class="component component-test-categories">
     <div class="dropdown-options dropdown-test-categories linear-switch">
@@ -41,15 +40,15 @@
   <h2>We answer the following questions usually in this order:</h2>
 
     {% for ver in verdicts %}
-    {% include /methodology/section_title.html verdict=ver type="verdict" %}
-    {% include verdictMethodology.html verdict=ver category=key %}
+      {% include /methodology/section_title.html verdict=ver type="verdict" %}
+      {% include verdictMethodology.html verdict=ver category=key %}
     {% endfor %}
     {% if metas.size != 0 %}
-    {% assign metas = metas | uniq %}
+      {% assign metas = metas | uniq %}
       <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
       {% include /methodology/section_title.html type="meta" %}
       {% for meta in metas %}
-      {% include verdictMethodology.html verdict=meta category=key %}
+        {% include verdictMethodology.html verdict=meta category=key %}
       {% endfor %}
     {% endif %}
 </div>
@@ -60,7 +59,7 @@
     <h2>These are all the questions we might ask as part of our tests for all platforms.</h2>
     {% for verdict in site.data.testOrder.verdicts %}
       {% assign title = site.data.verdicts[verdict].title %}
-      {% include /methodology/section_title_icon.html verdict_=verdict title=title %}
+      {% include /methodology/section_title_icon.html verdict=verdict title=title %}
       {% include verdictMethodology.html verdict=verdict category='verdict' %}
     {% endfor %}
 
