@@ -155,21 +155,6 @@ body.modal-open {
   font-size: 13px;
 }
 
-.copy_to_clipboard {
-  font-size: .75rem;
-  padding: 6px 1rem;
-  border-radius: 4px;
-  border: 0;
-  background: var(--gauze);
-  box-shadow: 0px 2px 5px 0px var(--shadow-3);
-  transition: .2s ease;
-  color: var(--text);
-}
-
-.copy_to_clipboard:hover, .copy_to_clipboard:active {
-  box-shadow: 0px 4px 6px 0px var(--shadow-3);
-}
-
 .cb {
   display: block;
   overflow-x: auto;

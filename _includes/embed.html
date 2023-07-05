@@ -1,45 +1,77 @@
 <style>
-  iframe{
-    border:0;border-radius:10px;box-shadow: 0 1px 5px -3px var(--text);
+  iframe {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px -3px var(--text);
+  }
+  .component-widget-theme {
+    width: 165px;
   }
 </style>
 <section class="page__share">
-    <h4 class="page__share-title">Or embed a widget in your website</h4>
-    <div class="code-block-holder">
-<pre class="highlight">
+  <h4 class="page__share-title">Or embed a widget in your website</h4>
+  
+  <div title="Widget theme" class="component component-widget-theme">
+    <div class="dropdown-options dropdown-widget-theme">
+      <div class="option light" data="light"><span>Light style</span></div>
+      <div class="option dark" data="dark"><span>Dark style</span></div>
+      <div class="option auto selected" data="auto"><span>Auto light/dark</span></div>
+    </div>
+  </div>
+
+  <div class="code-block-holder">
+
+    <pre class="highlight">
 <code><span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
-    <span class="cb-attr">src</span>=<span class="cb-string">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"</span> <span class="cb-attr">name</span>=<span class="cb-string">"<span class="_ts">_ts</span>"</span>
+    <span class="cb-attr">src</span>=<span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"</span> <span class="cb-attr">name</span>=<span class="cb-string">"<span class="_ts">_ts</span>"</span>
     <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
     <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
 <span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span></code>
 </pre>
-<button class="copy_to_clipboard" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;copy</button>
-</div>
+    <button class="copy_to_clipboard button" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;Copy to clipboard</button>
+  </div>
 
-    will show<br>
+  will show<br>
 
-    <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"
-    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
+  <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"
+    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"
+    style="border:0;border-radius:10px"></iframe>
 
-    <br>and<br>
-<div class="code-block-holder">
-<pre class="highlight">
+  <br>and<br>
+  <div class="code-block-holder">
+    <pre class="highlight">
 <code><span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
-    <span class="cb-attr">src</span>=<span class="cb-string">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"</span> 
+    <span class="cb-attr">src</span>=<span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"</span> 
     <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
     <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
 <span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span></code>
 </pre>
-<button class="copy_to_clipboard" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;copy</button>
-</div>
-    will show<br>
+    <button class="copy_to_clipboard button" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;Copy to clipboard</button>
+  </div>
+  will show<br>
 
-    <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"
-    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})" style="border:0;border-radius:10px"></iframe>
+  <iframe src="/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"
+    onload="this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"
+    style="border:0;border-radius:10px"></iframe>
 </section>
 
-
+<script src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script>
+  addDropdownEvents('widget-theme', () => { 
+    const theme = document.querySelector(".dropdown-widget-theme > .option.selected").getAttribute("data")
+    for(const frame of document.querySelectorAll("iframe")){
+    const src = String(frame.getAttribute("src")).replace(/&theme=.*&/, `&theme=${theme}&`)
+      let newFrame = document.createElement("iframe")
+      newFrame.setAttribute("src", src)
+      newFrame.setAttribute("onload", String(frame.getAttribute("onload")))
+      newFrame.setAttribute("style", String(frame.getAttribute("style")))
+      frame.replaceWith(newFrame)
+      for(const url of document.querySelectorAll(".url-str")){
+        url.innerHTML = `"${src}"`
+      }
+    }
+   })
+
   function copyToClipboard(target) {
     const text = target.parentNode.querySelectorAll("code")[0].innerText.replace(/\s+/g, ' ')
     const dummyInput = document.createElement("input")
@@ -49,10 +81,10 @@
     dummyInput.focus()
     dummyInput.select()
     if (document.execCommand("copy")) {
-      target.innerHTML = '<i class="fas fa-clipboard-check"></i>&nbsp;success'
+      target.innerHTML = '<i class="fas fa-clipboard-check"></i>&nbsp;Successfully copied'
       dummyInput.remove()
       setTimeout(() => {
-        target.innerHTML = '<i class="fas fa-copy"></i>&nbsp;copy'
+        target.innerHTML = '<i class="fas fa-copy"></i>&nbsp;Copy to clipboard'
       }, 1e3)
     }
   }
