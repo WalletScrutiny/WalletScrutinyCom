@@ -41,11 +41,7 @@
 
     {%- assign thisPost = thisPost | append: ',"passedText":"Passed ' | append: ofTxt | append: criteria.size | append: ' tests"' -%}
 
-    {%- if site.data.verdicts[post.verdict].pass -%}
-      {%- assign thisPost = thisPost | append: ',"verdictText":"' | append: site.data.verdicts[post.verdict].pass  | append: '"' -%}
-    {%- else -%}
-      {%- assign thisPost = thisPost | append: ',"verdictText":"' | append: site.data.verdicts[post.verdict].title | append: '"' -%}
-    {%- endif -%}
+    {%- assign thisPost = thisPost | append: ',"verdictText":"' | append: site.data.verdicts[post.verdict].title | append: '"' -%}
 
     {%- assign thisPost = thisPost | append: "}" -%}
     {%- assign thisFolder = thisFolder | append: thisPost -%}
