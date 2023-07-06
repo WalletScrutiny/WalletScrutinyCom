@@ -1,0 +1,15 @@
+{% assign verdict = include.verdict %}
+
+{% if include.type == 'verdict' %}
+  {% assign verdictGroups = site.data.verdictGroups %}
+  {% for v in verdictGroups %}
+    {% assign ver = v.verdicts | where: verdict %}
+    {% if ver %}
+      {% include /methodology/section_title_icon.html verdict=verdict title=v.abstract %}
+    {% endif %}
+  {% endfor %}
+{% elsif include.type == 'meta' %}
+<div class="section-title"><i class="fas fa-exclamation-triangle circle"></i>
+  <h3>Metas</h3>
+</div>
+{% endif %}

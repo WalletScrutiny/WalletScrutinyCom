@@ -1,5 +1,6 @@
 short: No Wallet
 title: Not a wallet
+pass: This is an actual wallet
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: This appears to not be a product to receive and send money.
