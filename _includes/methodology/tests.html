@@ -4,14 +4,13 @@
   <div title="Test Categories" class="component component-test-categories">
     <div class="dropdown-options dropdown-test-categories linear-switch">
       {% for key in fixedGrouping %}
-      {% include folderToName.html folder=key %}
-
-      {% if key == 'android' %}
-      {% assign selected = 'selected' %}
-      {% else %}
-      {% assign selected = '' %}
-      {% endif %}
-      <div class="option {{key}} {{selected}}" data="{{key}} wallets" data-id="{{key}}"><span>{{name}}</span></div>
+        {% include folderToName.html folder=key %}
+        {% if key == 'android' %}
+          {% assign selected = 'selected' %}
+        {% else %}
+          {% assign selected = '' %}
+        {% endif %}
+        <div class="option {{key}} {{selected}}" data="{{key}} wallets" data-id="{{key}}"><span>{{name}}</span></div>
       {% endfor %}
     </div>
   </div>
@@ -19,40 +18,38 @@
 
 <div class="methodology-container">
   {% for key in fixedGrouping %}
-  {% assign verdicts = "" | split: ',' %}
-  {% assign metas = "" | split: ',' %}
+    {% assign verdicts = "" | split: ',' %}
+    {% assign metas = "" | split: ',' %}
 
-  {%- assign obj = key | split: "|" -%}
-  {% for category in obj %}
-  {% assign verdicts = verdicts | concat: site.data.platformMeta[category].verdicts %}
-  {% assign metas = metas | concat: site.data.platformMeta[category].metas %}
-  {% endfor %}
-
-
-
-  {% if verdicts.size != 0 %}
-  {% assign verdicts = verdicts | uniq %}
-  <div class="methodology-item {{item}}" data-id="{{key}}">
-
-  <div class="info">
-    {{site.data.platformMeta[key].description | markdownify}}
-  </div>
-  <h2>We answer the following questions usually in this order:</h2>
-
-    {% for ver in verdicts %}
-      {% include /methodology/section_title.html verdict=ver type="verdict" %}
-      {% include verdictMethodology.html verdict=ver category=key %}
+    {%- assign obj = key | split: "|" -%}
+    {% for category in obj %}
+      {% assign verdicts = verdicts | concat: site.data.platformMeta[category].verdicts %}
+      {% assign metas = metas | concat: site.data.platformMeta[category].metas %}
     {% endfor %}
-    {% if metas.size != 0 %}
-      {% assign metas = metas | uniq %}
-      <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
-      {% include /methodology/section_title.html type="meta" %}
-      {% for meta in metas %}
-        {% include verdictMethodology.html verdict=meta category=key %}
+
+    {% if verdicts.size != 0 %}
+    {% assign verdicts = verdicts | uniq %}
+    <div class="methodology-item {{item}}" data-id="{{key}}">
+
+    <div class="info">
+      {{site.data.platformMeta[key].description | markdownify}}
+    </div>
+    <h2>We answer the following questions usually in this order:</h2>
+
+      {% for ver in verdicts %}
+        {% include /methodology/section_title.html verdict=ver type="verdict" %}
+        {% include verdictMethodology.html verdict=ver category=key %}
       {% endfor %}
+      {% if metas.size != 0 %}
+        {% assign metas = metas | uniq %}
+        <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+        {% include /methodology/section_title.html type="meta" %}
+        {% for meta in metas %}
+          {% include verdictMethodology.html verdict=meta category=key %}
+        {% endfor %}
+      {% endif %}
+  </div>
     {% endif %}
-</div>
-  {% endif %}
   {% endfor %}
 
   <div class="methodology-item all" data-id="all">
