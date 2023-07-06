@@ -12,7 +12,7 @@ updated: 2023-06-08
 version: 4.2.0
 stars: 3.3
 ratings: 10117
-reviews: 145
+reviews: 146
 size: 
 website: https://www.muchbetter.com
 repository: 

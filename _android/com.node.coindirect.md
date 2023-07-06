@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.node.coindirect.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: coindirectcom

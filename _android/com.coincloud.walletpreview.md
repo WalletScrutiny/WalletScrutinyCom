@@ -11,7 +11,7 @@ updated: 2023-03-09
 version: 12.9.24
 stars: 3.6
 ratings: 
-reviews: 41
+reviews: 42
 size: 
 website: http://coin.cloud/app
 repository: 

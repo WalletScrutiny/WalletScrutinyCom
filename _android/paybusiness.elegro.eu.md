@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: payBusinessElegro
 title: elegro Business online banking
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100
 appId: paybusiness.elegro.eu
 appCountry: 
@@ -20,7 +21,7 @@ icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-08-21
+date: 2023-06-12
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,8 +10,8 @@ idd: 1442085358
 released: 2018-11-15
 updated: 2023-06-16
 version: 30.43.2
-stars: 4.1
-reviews: 33
+stars: 4
+reviews: 34
 size: '117909504'
 website: https://www.changeinvest.com/
 repository: 

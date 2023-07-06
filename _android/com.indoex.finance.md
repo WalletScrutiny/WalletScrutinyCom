@@ -9,9 +9,9 @@ appCountry:
 released: 2022-08-04
 updated: 2023-05-22
 version: 1.0.34
-stars: 4.1
+stars: 3.9
 ratings: 
-reviews: 8
+reviews: 6
 size: 
 website: https://international.indoex.io
 repository: 

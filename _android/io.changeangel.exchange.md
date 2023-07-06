@@ -3,7 +3,7 @@ wsId:
 title: Changeangel - Crypto Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.changeangel.exchange
 appCountry: 
 released: 2022-05-24

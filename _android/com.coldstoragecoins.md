@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Rearden Metals Pte Ltd
+developerName: Blockchain Mint
 features: 
 
 ---

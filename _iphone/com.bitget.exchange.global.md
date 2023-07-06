@@ -11,7 +11,7 @@ released: 2018-11-29
 updated: 2023-06-19
 version: 2.6.0
 stars: 4
-reviews: 199
+reviews: 201
 size: '204319744'
 website: https://www.bitget.com/en
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/bitget
 - https://www.facebook.com/BitgetGlobal
 features: 
-developerName: SINGAPORE BITGET PTE.LTD
+developerName: BG LIMITED
 
 ---
 

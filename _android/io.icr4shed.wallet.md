@@ -12,7 +12,7 @@ updated: 2022-11-12
 version: '6.03'
 stars: 4.2
 ratings: 87
-reviews: 7
+reviews: 6
 size: 
 website: https://multiwallet.tech/
 repository: 

@@ -7,8 +7,8 @@ users: 500
 appId: com.capex
 appCountry: 
 released: 2022-02-15
-updated: 2022-05-25
-version: 1.0.1
+updated: 2023-06-25
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capex.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-03
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

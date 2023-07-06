@@ -7,8 +7,8 @@ users: 5000
 appId: com.truzact.truzact_mobile
 appCountry: 
 released: 2022-02-13
-updated: 2023-06-16
-version: 4.6.3
+updated: 2023-07-01
+version: 4.6.5
 stars: 
 ratings: 
 reviews: 

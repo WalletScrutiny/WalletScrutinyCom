@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-06
 updated: 2023-04-19
 version: 1.5.0
-stars: 3.6
+stars: 3.7
 ratings: 173
-reviews: 51
+reviews: 52
 size: 
 website: https://paybis.com/contacts/
 repository: 

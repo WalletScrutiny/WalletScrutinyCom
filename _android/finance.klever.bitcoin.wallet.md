@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'Klever Wallet K5: Crypto, BTC'
+title: 'Klever Wallet: Crypto, Bitcoin'
 altTitle: 
 authors: 
 users: 50000
 appId: finance.klever.bitcoin.wallet
 appCountry: 
 released: 2023-01-16
-updated: 2023-06-19
-version: 5.19.0
+updated: 2023-06-27
+version: 5.20.1
 stars: 4.9
 ratings: 
-reviews: 26
+reviews: 28
 size: 
 website: https://klever.org/
 repository: 

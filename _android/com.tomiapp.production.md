@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: tomiPAY Digital Payment System
+title: tomiPAY
 altTitle: 
 authors: 
 users: 10000

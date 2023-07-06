@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-18
 updated: 2023-06-19
 version: 2.2.12
-stars: 4.2
+stars: 3.9
 ratings: 291
-reviews: 6
+reviews: 7
 size: 
 website: https://simplefx.com
 repository: 

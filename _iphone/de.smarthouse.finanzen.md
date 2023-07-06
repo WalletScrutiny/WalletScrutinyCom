@@ -11,7 +11,7 @@ released: 2008-11-21
 updated: 2023-06-21
 version: 7.5.6
 stars: 4.7
-reviews: 255
+reviews: 254
 size: '224968704'
 website: http://www.finanzen.net/apps
 repository: 

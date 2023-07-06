@@ -8,8 +8,8 @@ users: 5000
 appId: com.richamster.app
 appCountry: 
 released: 2018-11-24
-updated: 2023-06-21
-version: 3.1.0
+updated: 2023-06-24
+version: 3.2.2
 stars: 
 ratings: 
 reviews: 

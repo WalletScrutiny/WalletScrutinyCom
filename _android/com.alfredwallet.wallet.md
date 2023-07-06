@@ -7,8 +7,8 @@ users: 500
 appId: com.alfredwallet.wallet
 appCountry: 
 released: 2021-08-12
-updated: 2023-03-02
-version: '1.16'
+updated: 2023-06-21
+version: '1.17'
 stars: 
 ratings: 
 reviews: 
