@@ -603,12 +603,14 @@
     color: var(--accent-text);
     cursor: pointer;
     display: grid;
-    grid-template: 1fr / repeat(2, auto) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto 1fr;
     align-items: start;
     gap: 5px;
     line-height: 1.5rem;
     @media (max-width: 600px) {
-      grid-template: 1fr / auto 1fr auto;
+      grid-template-rows: 1fr;
+      grid-template-columns: auto 1fr auto;
     }
     .badge {
       &.pass {

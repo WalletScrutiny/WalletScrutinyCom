@@ -106,6 +106,6 @@ document.querySelectorAll(".methodology-accordion").forEach((ele)=>{
 })
 
 for (const frame of document.querySelectorAll('iframe')) {
-  let theme = localStorage?.getItem("colour-scheme")?localStorage.getItem("colour-scheme"):'auto'
-  frame.src = frame.src.replace("auto", theme)
+  let theme = localStorage && localStorage.getItem("colour-scheme") ? localStorage.getItem("colour-scheme") : 'auto'
+  frame.setAttribute("src", String(frame.getAttribute("src")).replace(/auto/, theme))
 }
