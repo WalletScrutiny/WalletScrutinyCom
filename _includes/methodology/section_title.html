@@ -2,14 +2,23 @@
 
 {% if include.type == 'verdict' %}
   {% assign verdictGroups = site.data.verdictGroups %}
+  {% assign titleText = '' %}
   {% for v in verdictGroups %}
-    {% assign ver = v.verdicts | where: verdict %}
-    {% if ver %}
-      {% include /methodology/section_title_icon.html verdict=verdict title=v.abstract %}
-    {% endif %}
+    {% assign iterationCount = 0 %}
+    {% for ver in v.verdicts %}
+      {% if ver == verdict %}
+        {% if iterationCount == 0 %}
+          {% include /methodology/section_title_icon.html verdict=verdict title=v.abstract %}
+        {% endif %}
+      {% endif %}
+      {% assign iterationCount = iterationCount | plus: 1 %}
+    {% endfor %}
   {% endfor %}
+
 {% elsif include.type == 'meta' %}
+
 <div class="section-title"><i class="fas fa-exclamation-triangle circle"></i>
   <h3>Metas</h3>
 </div>
+
 {% endif %}
