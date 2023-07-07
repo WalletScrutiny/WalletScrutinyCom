@@ -37,21 +37,21 @@ function countProducts() {
     }
   }
   for (const platform of Object.keys(window.verdictCount)) {
-    window.verdictCount[platform]['all'] = 
-        Object.values(window.verdictCount[platform]).reduce(
-            (a, b) => a + b, 0)
+    window.verdictCount[platform]['all'] =
+      Object.values(window.verdictCount[platform]).reduce(
+        (a, b) => a + b, 0)
   }
 }
 
 function recreateDropdowns(verdict = 'allPassed', platform = 'all') {
   // verdictGroups DECLARED IN WALLETSJS
   if (verdictGroups && document.querySelector(".dropdown-verdict")) {
-    const titleRow = verdict.indexOf('all')==0
+    const titleRow = verdict.indexOf('all') == 0
       ? 'grid-row:2/3'
       : 'grid-row:3/4'
     let html = `<div class="option category-title" style=${titleRow}><span>Other test results</span></div>`
     for (const [vgKey, vg] of Object.entries(verdictGroups)) {
-      if (vgKey === 'all' || vgKey === 'notRelevant' ||  vgKey === 'wips') {
+      if (vgKey === 'all' || vgKey === 'notRelevant' || vgKey === 'wips') {
         continue
       }
       const count = productCount(vgKey, platform, true)
@@ -197,21 +197,36 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
   let badgesHtml = ``
   let pagination = document.createElement("div")
   let allowedTargets = processAllowedTargetArray(page, maxPages)
-  let gapAdded = false
+  let primaryGapSet = false
+  let additionalGapSet = false
+  let lastValidOption = false
   for (let i = 0; i < maxPages; i++) {
+    const index = allowedTargets.indexOf(i) + 1
     const clickTarget = document.createElement("div")
     clickTarget.classList.add("click-target")
     clickTarget.innerHTML = i + 1
     clickTarget.addEventListener("click", () => {
       updatePageinationUI(i)
     })
-    if (i == page) { clickTarget.classList.add("selected") }
-    if (allowedTargets.indexOf(i) < 0) { clickTarget.style.display = 'none' }
-    if ((allowedTargets[i] + 1 !== allowedTargets[i + 1]) && !gapAdded) {
-      clickTarget.classList.add("major-gap")
-      gapAdded = true
-    }
     clickTarget.setAttribute("data-index", i)
+    if (i == page) { clickTarget.classList.add("selected") }
+
+    if (allowedTargets.indexOf(i) >= 0) {
+
+      if (i > page && primaryGapSet && !additionalGapSet && ((allowedTargets[index] - allowedTargets[lastValidOption]) > 1)) {
+        clickTarget.classList.add("major-gap")
+        additionalGapSet = true
+      }
+      if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) { clickTarget.classList.add("chevrons-after") }
+      if (!allowedTargets[index - 1] && page > (index+3)) { clickTarget.classList.add("chevrons-before") }
+
+
+      if ((allowedTargets[i] + 1 !== allowedTargets[i + 1]) && !primaryGapSet) {
+        clickTarget.classList.add("major-gap")
+        primaryGapSet = true
+      }
+    }
+    if (allowedTargets.indexOf(i) < 0) { clickTarget.style.display = 'none' } else { lastValidOption = index }
     pagination.append(clickTarget)
   }
 
@@ -256,13 +271,13 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
           resultsText = `These ${wallets.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
           break;
         case 'allPassed':
-          resultsText = `These ${wallets.length} wallets scored the best ${platform!=='all'?'in '+platformTitleFormatting(platform)+' category': 'overall'}.<br>Read more about <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
+          resultsText = `These ${wallets.length} wallets scored the best ${platform !== 'all' ? 'in ' + platformTitleFormatting(platform) + ' category' : 'overall'}.<br>Read more about <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
           break;
         default:
       }
     }
   }
-  resultsText = resultsText.length>0?`<div class="empty-results-info"><p class="inner">${resultsText}</p></div>`:``
+  resultsText = resultsText.length > 0 ? `<div class="empty-results-info"><p class="inner">${resultsText}</p></div>` : ``
   flexListEle.innerHTML = `${resultsText}${badgesHtml}`
   d.append(g)
   d.append(flexListEle)
@@ -277,9 +292,19 @@ function renderBadgesToDiv(wallets, anchor, page, verdictGroup, platform) {
 }
 
 function processAllowedTargetArray(page, maxPages) {
-  let allowedTargets = [0, 1, 2, page - 2, page - 1, page, page + 1, page + 2, maxPages - 3, maxPages - 2, maxPages - 1]
-  allowedTargets = [...new Set(allowedTargets)];
-  allowedTargets = allowedTargets.filter(function (numb) { return numb > -1 });
+  let allowedTargets = []
+  let temp = []
+  let beginning, middle, end = false
+  if (page > 4) { beginning = [0] } else { beginning = [0, 1, 2] }
+  if (page < (maxPages - 4)) { end = [maxPages - 1] } else { end = [maxPages - 3, maxPages - 2, maxPages - 1] }
+  middle = [page - 2, page - 1, page, page + 1, page + 2]
+
+  for (const section of [beginning, middle, end]) { for (const number of section) { temp.push(number) } }
+  temp = [...new Set(temp)];
+  temp = temp.filter(function (numb) { return numb > -1 });
+  for (let i = 0; i < temp.length; i++) {
+    if (temp[i + 1] - temp[i] != 2) { allowedTargets.push(temp[i]) }
+  }
   return allowedTargets
 }
 
@@ -354,7 +379,7 @@ function getBadge(wallet, numbInPage) {
       ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       </div>
       <div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-        <span>Passed ${wallet.score.numerator!==wallet.score.denominator?wallet.score.numerator:'all'} ${wallet.score.numerator!==wallet.score.denominator?'of':''} ${wallet.score.denominator} tests</span>
+        <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
         <div>${passed}${failed}</div>
       </div>
     </div>
@@ -367,7 +392,7 @@ function filterWalletsByName() {
   else {
     window.filteredWallets = []
     const searchTermWords = searchTerm.split(" ")
-    
+
     // const lexicon = ['ALL PASSED', 'ALL TESTS']
     // TO BE USED FOR CASE MATCHING VERDICTS LIKE REPRODUCIBLE, DIY WHEN USER SEARCHES FOR 'ALL TESTS PASSED' ETC.
     // NOT IMPLEMENTED YET
