@@ -8,8 +8,8 @@ users: 100000
 appId: app.goodcrypto
 appCountry: 
 released: 2019-05-20
-updated: 2023-03-23
-version: 1.9.0
+updated: 2023-06-30
+version: 1.9.2
 stars: 4.3
 ratings: 1058
 reviews: 124
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/GoodCrypto
 redirect_from:
 - /app.goodcrypto/
+developerName: GoodCrypto.App
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: Colodax
-title: Colodax - Bitcoin & Cryptocurr
+title: Colodax - Bitcoin Exchange
 altTitle: 
 authors:
 - danny
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/colodax
 - https://www.facebook.com/colodax
 redirect_from: 
+developerName: Ganyt Solutions
 features: 
 
 ---

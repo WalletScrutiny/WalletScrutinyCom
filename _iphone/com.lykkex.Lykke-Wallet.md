@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/LykkeCity
 - https://www.reddit.com/r/lykke
 features: 
+developerName: Lykke Corp
 
 ---
 

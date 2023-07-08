@@ -28,6 +28,7 @@ twitter: TradeMnOfficial
 social:
 - https://www.facebook.com/digitalexchangemongolia
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 100000
 appId: com.castor.threecommas
 appCountry: 
 released: 2018-03-02
-updated: 2023-04-25
-version: 2.3.2
-stars: 4.4
+updated: 2023-06-21
+version: 2.4.4
+stars: 4.3
 ratings: 
-reviews: 646
+reviews: 666
 size: 
 website: https://3commas.io
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/commas
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 redirect_from: 
+developerName: 3Сommas - Cryptocurrency trading terminal and bots
 features: 
 
 ---

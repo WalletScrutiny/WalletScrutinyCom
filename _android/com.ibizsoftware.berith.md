@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ibizsoftware.berith.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nobtc
-date: 2023-05-04
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Berith_co
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/berithcoin
 - https://t.me/berithcoin
 redirect_from: 
+developerName: BERITH FOUNDATION PTE. LTD.
 features: 
 
 ---

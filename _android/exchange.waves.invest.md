@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-11
 updated: 2022-12-19
 version: 1.10.10
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 6
+reviews: 5
 size: 
 website: https://waves.exchange/investments
 repository: 
@@ -28,6 +28,7 @@ twitter: WXNetwork
 social:
 - https://www.facebook.com/WavesExchange-110844914984722
 redirect_from: 
+developerName: WX Development LTD.
 features: 
 
 ---

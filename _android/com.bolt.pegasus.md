@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bolt-global
 - https://www.facebook.com/Global.Bolt
 redirect_from: 
+developerName: Bolt Global
 features: 
 
 ---

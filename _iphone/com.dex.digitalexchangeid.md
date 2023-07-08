@@ -27,6 +27,7 @@ twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid
 features: 
+developerName: 
 
 ---
 

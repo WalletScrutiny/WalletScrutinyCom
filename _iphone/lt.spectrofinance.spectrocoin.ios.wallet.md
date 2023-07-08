@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/spectrocoin
 - https://www.facebook.com/spectrocoin
 features: 
+developerName: UAB Spectro Finance
 
 ---
 

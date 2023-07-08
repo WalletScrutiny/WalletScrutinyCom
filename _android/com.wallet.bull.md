@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/bullcoinfinance
 - https://github.com/BullCoinFinance
 redirect_from: 
+developerName: BULL FINANCE
 features: 
 
 ---

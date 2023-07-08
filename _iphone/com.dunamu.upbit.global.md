@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 features: 
+developerName: 
 
 ---
 

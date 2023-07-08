@@ -27,6 +27,7 @@ twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial
 features: 
+developerName: 
 
 ---
 

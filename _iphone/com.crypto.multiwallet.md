@@ -8,11 +8,11 @@ appId: com.crypto.multiwallet
 appCountry: 
 idd: 1442083982
 released: 2018-12-01
-updated: 2023-05-03
-version: 3.0.39
+updated: 2023-06-24
+version: 3.0.46
 stars: 4.2
-reviews: 833
-size: '159996928'
+reviews: 837
+size: '167106560'
 website: https://guarda.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/guarda.co
 - https://www.reddit.com/r/GuardaWallet
 features: 
+developerName: GUARDACO LDA
 
 ---
 

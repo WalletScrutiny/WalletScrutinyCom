@@ -27,6 +27,7 @@ reviewArchive:
 twitter: MoriXjp
 social: 
 redirect_from: 
+developerName: MoriX Co., Ltd.
 features: 
 
 ---

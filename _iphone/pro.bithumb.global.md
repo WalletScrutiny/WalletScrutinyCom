@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bithumb.global
 - https://www.reddit.com/r/BithumbGlobal
 features: 
+developerName: 
 
 ---
 

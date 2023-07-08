@@ -27,6 +27,7 @@ reviewArchive:
 twitter: oxbitcoin
 social: 
 redirect_from: 
+developerName: HALLEY TECHNOLOGIES PTE. ltd.
 features: 
 
 ---

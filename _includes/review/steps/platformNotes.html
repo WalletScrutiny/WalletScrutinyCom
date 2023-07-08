@@ -1,0 +1,28 @@
+{% assign platform = include.platform %}
+
+<div class="step operating-system">
+  {% include iconClass.html platform=platform %}
+  <i class="{{iconClass}} circle"></i>
+  <div class="title">
+    <h3>Platform notes</h3>
+    <div class="textbox">
+      {{site.data.platformMeta[platform].description | markdownify}}
+    </div>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.os %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.os %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.os | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

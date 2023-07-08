@@ -26,6 +26,7 @@ reviewArchive:
 twitter: catecoin
 social: 
 features: 
+developerName: CateCoin
 
 ---
 

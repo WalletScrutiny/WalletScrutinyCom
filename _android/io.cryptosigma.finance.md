@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: io.cryptosigma.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-26
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: MeeMob
 features: 
 
 ---

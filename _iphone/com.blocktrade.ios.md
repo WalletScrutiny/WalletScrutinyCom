@@ -13,14 +13,14 @@ version: 2.4.2
 stars: 5
 reviews: 9
 size: '28897280'
-website: https://blocktrade.com
+website: https://blocktrade.com/
 repository: 
 issue: 
 icon: com.blocktrade.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-03
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Blocktradecom
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/blocktradecom
 - https://www.facebook.com/Blocktradecom
 features: 
+developerName: Blocktrade S.A.
 
 ---
 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitocto
 appCountry: 
 released: 2019-07-18
-updated: 2022-11-30
-version: '3.22'
+updated: 2023-05-29
+version: '3.23'
 stars: 5
 ratings: 1532
 reviews: 6
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitocto
 - https://www.facebook.com/Bitocto
 redirect_from: 
+developerName: Bitocto
 features: 
 
 ---

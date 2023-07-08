@@ -1,0 +1,36 @@
+{%- assign verdict = include.verdict -%}
+{%- assign platform = include.platform -%}
+{%- assign meta = include.meta -%}
+{%- assign criteria = "" -%}
+{%- if meta != "ok" -%}
+  {%- assign platformCriteria = site.data.platformMeta[platform].verdicts | concat: site.data.platformMeta[platform].metas -%}
+{%- else -%}
+  {%- assign platformCriteria = site.data.platformMeta[platform].verdicts -%}
+{%- endif -%}
+{%- for c in platformCriteria -%}
+  {%- if site.data.verdicts[c].pass -%}
+    {%- assign criteria = criteria | append: "," -%}
+    {%- assign criteria = criteria | append: c -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign criteria = criteria | remove_first: "," | split: ',' -%}
+{%- assign count = 0 -%}
+{%- if include.verdict == 'wip' -%}
+  {%- capture failText -%}<br>We did not or were not able to perform any tests.{%- endcapture -%}
+{%- else -%}
+  {%- for criterion in criteria -%}
+    {%- if verdict == criterion -%}
+      {%- case verdict -%}
+        {%- when "reproducible", "diy", "nobinary" -%}
+        {%- assign count = count | plus: 1 -%}
+      {%- else -%}
+        {%- capture failText -%}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{%- endcapture -%}
+        {%- break -%}
+      {%- endcase -%}
+    {%- endif -%}
+    {%- if count == criteria.size -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- assign count = count | plus: 1 -%}
+  {%- endfor -%}
+{%- endif -%}

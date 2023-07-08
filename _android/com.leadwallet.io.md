@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/LeadWallet
 redirect_from:
 - /com.leadwallet.io/
+developerName: 
 features: 
 
 ---

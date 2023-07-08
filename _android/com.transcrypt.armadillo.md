@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tizer-wallet
 - https://www.facebook.com/tizerwallet
 redirect_from: 
+developerName: TizerWallet OÜ
 features: 
 
 ---

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.xchange.x4ange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: XchangeCapitalGroup OU
 features: 
 
 ---

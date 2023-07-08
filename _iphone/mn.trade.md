@@ -27,6 +27,7 @@ twitter: TradeMnOfficial
 social:
 - https://www.facebook.com/digitalexchangemongolia
 features: 
+developerName: Digital Exchange Mongolia LLC
 
 ---
 

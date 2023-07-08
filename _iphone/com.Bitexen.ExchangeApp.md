@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitexen
 - https://www.facebook.com/bitexen
 features: 
+developerName: 
 
 ---
 

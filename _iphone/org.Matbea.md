@@ -11,7 +11,7 @@ released: 2020-06-30
 updated: 2023-04-18
 version: 1.4.5
 stars: 3.8
-reviews: 111
+reviews: 115
 size: '34920448'
 website: 
 repository: 
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://t.me/matbea/
 features: 
+developerName: MATBEA LTD
 
 ---
 

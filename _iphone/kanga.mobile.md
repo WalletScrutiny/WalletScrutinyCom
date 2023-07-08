@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
 - https://www.facebook.com/kanga.exchange/
 features: 
+developerName: 
 
 ---
 

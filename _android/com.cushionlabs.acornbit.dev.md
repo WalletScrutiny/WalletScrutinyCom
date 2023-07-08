@@ -29,6 +29,7 @@ social:
 - https://t.me/acornbitofficial
 - https://www.youtube.com/channel/UCm5SSnSICxpGHHBPVHBSigA
 redirect_from: 
+developerName: Cushion Labs
 features: 
 
 ---

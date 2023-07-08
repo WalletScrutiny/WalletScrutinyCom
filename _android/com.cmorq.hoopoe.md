@@ -8,11 +8,11 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
-updated: 2023-05-09
-version: 5.9.7
+updated: 2023-06-29
+version: 6.3.9
 stars: 4.1
 ratings: 
-reviews: 29
+reviews: 30
 size: 
 website: https://www.cmorq.com
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.tiktok.com/@_cmorq?
 - https://www.facebook.com/DeFiBanking/
 redirect_from: 
+developerName: cmorq inc.
 features: 
 
 ---

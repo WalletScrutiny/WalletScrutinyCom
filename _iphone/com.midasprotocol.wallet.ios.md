@@ -27,6 +27,7 @@ twitter: MidasProtocol
 social:
 - https://www.facebook.com/midasprotocol.io
 features: 
+developerName: Midas Core Pte Ltd
 
 ---
 

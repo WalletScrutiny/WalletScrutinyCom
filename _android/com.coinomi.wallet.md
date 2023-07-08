@@ -10,9 +10,9 @@ appCountry:
 released: 2014-01-31
 updated: 2022-03-19
 version: 1.26.0
-stars: 4.2
+stars: 4.1
 ratings: 39950
-reviews: 2140
+reviews: 2149
 size: 
 website: https://www.Coinomi.com
 repository: 
@@ -34,6 +34,7 @@ redirect_from:
 - /com.coinomi.wallet/
 - /posts/2019/11/coinomi/
 - /posts/com.coinomi.wallet/
+developerName: Coinomi
 features: 
 
 ---

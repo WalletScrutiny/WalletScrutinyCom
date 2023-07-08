@@ -27,6 +27,7 @@ twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation
 features: 
+developerName: Kardiachain
 
 ---
 

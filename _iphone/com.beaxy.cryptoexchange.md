@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/beaxyexchange
 - https://www.reddit.com/r/BeaxyExchange
 features: 
+developerName: Beaxy
 
 ---
 

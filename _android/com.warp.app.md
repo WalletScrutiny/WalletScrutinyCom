@@ -27,6 +27,7 @@ reviewArchive:
 twitter: WarpDefi
 social: 
 redirect_from: 
+developerName: WARP DeFi
 features: 
 
 ---

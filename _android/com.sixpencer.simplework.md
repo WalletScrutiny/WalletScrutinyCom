@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-07-01
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SixPencer Technology Co., Ltd.
 features: 
 
 ---

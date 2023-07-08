@@ -4,15 +4,15 @@ title: WillTrade 7- Trading For All
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
-updated: 2023-04-08
-version: 1.2.8
-stars: 4.1
+updated: 2023-06-27
+version: 1.3.03
+stars: 3.8
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: 
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: TradeWill Global LLC
 features: 
 
 ---

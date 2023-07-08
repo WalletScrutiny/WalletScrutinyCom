@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.coinsvalue.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Zezo Softwares Pvt. Ltd.
 features: 
 
 ---

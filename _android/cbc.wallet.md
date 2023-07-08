@@ -3,7 +3,7 @@ wsId:
 title: CBC WALLET
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: cbc.wallet
 appCountry: 
 released: 2022-03-27
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoBoxCoin
 features: 
 
 ---

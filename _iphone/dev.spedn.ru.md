@@ -27,6 +27,7 @@ twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru
 features: 
+developerName: Кошелёк.ру
 
 ---
 

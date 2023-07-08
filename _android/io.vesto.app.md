@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: io.vesto.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-07-31
+date: 2023-05-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Vesto Apps
 features: 
 
 ---

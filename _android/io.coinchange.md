@@ -8,11 +8,11 @@ users: 50000
 appId: io.coinchange
 appCountry: 
 released: 2021-10-31
-updated: 2023-04-18
-version: 2.0.2
+updated: 2023-06-13
+version: 2.0.3
 stars: 3.7
 ratings: 
-reviews: 153
+reviews: 154
 size: 
 website: https://coinchange.io
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/coinchangeio/
 - https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
 redirect_from: 
+developerName: Coinchange  Financials Inc.
 features: 
 
 ---

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.excelon.excelon.go.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-15
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: Excelon Financial Services Ltd
 
 ---
 

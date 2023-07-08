@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-04
 updated: 2023-03-03
 version: 3.2.1
-stars: 3.8
+stars: 4
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://hitbtc.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.hittechsexpertlimited.hitbtc/
 - /posts/com.hittechsexpertlimited.hitbtc/
+developerName: HitBTC Exchange
 features: 
 
 ---

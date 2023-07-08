@@ -8,7 +8,7 @@ users: 10000
 appId: com.lyopay
 appCountry: eg
 released: 2020-10-02
-updated: 2023-04-17
+updated: 2023-05-19
 version: '1.1'
 stars: 
 ratings: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.reddit.com/r/LYOPAY
 redirect_from: 
+developerName: DIGILYO APP LTD
 features: 
 
 ---

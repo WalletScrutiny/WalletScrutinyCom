@@ -28,6 +28,7 @@ twitter:
 social: 
 redirect_from:
 - /partl.coini/
+developerName: Timo Partl
 features: 
 
 ---

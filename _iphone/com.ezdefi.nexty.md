@@ -28,6 +28,7 @@ twitter: ezDeFi
 social:
 - https://www.facebook.com/ezdefi
 features: 
+developerName: EZDEFI DECENTRALIZED APPS
 
 ---
 

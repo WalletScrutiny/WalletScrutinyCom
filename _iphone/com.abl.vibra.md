@@ -8,11 +8,11 @@ appId: com.abl.vibra
 appCountry: ng
 idd: '1583907652'
 released: 2021-10-24
-updated: 2023-02-25
-version: 1.6.60
+updated: 2023-06-16
+version: 1.6.82
 stars: 4.7
-reviews: 37
-size: '49396736'
+reviews: 33
+size: '65753088'
 website: https://www.vibra.one/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
 - https://www.facebook.com/VibraAfrica
 features: 
+developerName: ABL Management Limited
 
 ---
 

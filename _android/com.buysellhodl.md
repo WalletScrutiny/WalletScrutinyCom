@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.buysellhodl/
 - /posts/com.buysellhodl/
+developerName: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinbene-official
 - https://www.facebook.com/CoinBeneOfficial
 features: 
+developerName: 
 
 ---
 

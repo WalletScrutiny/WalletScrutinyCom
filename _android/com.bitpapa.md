@@ -12,7 +12,7 @@ updated: 2022-10-23
 version: 1.10.6
 stars: 3.9
 ratings: 5332
-reviews: 44
+reviews: 43
 size: 
 website: https://bitpapa.com
 repository: 
@@ -28,6 +28,7 @@ twitter: bitpapa_com
 social:
 - https://www.facebook.com/bitpapacom
 redirect_from: 
+developerName: Bitpapa
 features: 
 
 ---

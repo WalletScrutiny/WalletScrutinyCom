@@ -30,6 +30,7 @@ social:
 - https://t.me/shahofcryptoofficial
 - https://www.instagram.com/shahofcryptoapp/
 redirect_from: 
+developerName: Shah of crypto
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/deltaexchg
 - https://www.reddit.com/r/Delta_Exchange
 features: 
+developerName: Bit Protocol Ltd.
 
 ---
 

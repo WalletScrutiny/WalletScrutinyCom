@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/ledn-inc
 - https://www.facebook.com/Ledn.io
 features: 
+developerName: Ledn Inc.
 
 ---
 

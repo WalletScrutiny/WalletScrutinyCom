@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/lunespay/
 - https://www.instagram.com/lunespay/
 redirect_from: 
+developerName: Lunes Platform
 features: 
 
 ---

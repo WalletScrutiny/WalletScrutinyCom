@@ -26,6 +26,7 @@ reviewArchive:
 twitter: libertex_latam
 social: 
 features: 
+developerName: 
 
 ---
 

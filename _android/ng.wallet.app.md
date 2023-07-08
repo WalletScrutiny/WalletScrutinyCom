@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: Wallets - for daily payments
+title: Wallets
 altTitle: 
 authors:
 - kiwilamb
@@ -11,9 +11,9 @@ appCountry:
 released: 2017-06-22
 updated: 2021-09-04
 version: '2.480'
-stars: 2.6
+stars: 2.5
 ratings: 2049
-reviews: 117
+reviews: 118
 size: 
 website: https://wallets.africa
 repository: 
@@ -29,6 +29,7 @@ twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
 redirect_from: 
+developerName: Wallets Africa Inc
 features: 
 
 ---

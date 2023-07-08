@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.wise.llc.wallet.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-07-01
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: wise.win
 features: 
 
 ---

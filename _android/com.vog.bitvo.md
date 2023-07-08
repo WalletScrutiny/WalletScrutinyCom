@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitvoexchange
 - https://www.facebook.com/BitvoExchange
 redirect_from: 
+developerName: Bitvo Inc
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: wooXTrading
-title: 'WOO X: Zero-fee crypto trading'
+title: 'WOO X: Buy Crypto & BTC'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
 released: 2021-09-17
-updated: 2023-04-10
-version: 3.2.0
+updated: 2023-07-03
+version: 3.7.0
 stars: 5
 reviews: 2
-size: '68132864'
+size: '89363456'
 website: https://woo.org/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Wootech Limited
 
 ---
 

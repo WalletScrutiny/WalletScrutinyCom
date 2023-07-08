@@ -4,15 +4,15 @@ title: 'BlockFi: Buy and trade crypto'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.blockfi.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2023-03-30
-version: 5.11.7
-stars: 2.6
+updated: 2023-06-26
+version: 6.0.1
+stars: 2.5
 ratings: 4802
-reviews: 1525
+reviews: 1531
 size: 
 website: https://blockfi.com/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BlockFi
 - https://www.reddit.com/r/blockfi
 redirect_from: 
+developerName: BlockFi
 features: 
 
 ---

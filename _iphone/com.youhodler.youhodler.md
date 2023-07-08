@@ -11,16 +11,16 @@ released: 2019-07-25
 updated: 2023-01-17
 version: 5.5.0
 stars: 4.6
-reviews: 192
+reviews: 188
 size: '43428864'
 website: https://www.youhodler.com/
 repository: 
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-24
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: youhodler
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/youhodler
 - https://www.facebook.com/YouHodler
 features: 
+developerName: YouHodler
 
 ---
 

@@ -7,8 +7,8 @@ users: 500
 appId: com.tradenext.android
 appCountry: 
 released: 
-updated: 2023-01-25
-version: 1.5.0
+updated: 2023-06-26
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: TradeNext
 features: 
 
 ---

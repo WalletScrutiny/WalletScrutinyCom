@@ -4,10 +4,11 @@ appId: bitBox2
 authors:
 - leo
 - Joko Ono
+- Mohammad Rafigh
 released: 
 discontinued: 
-updated: 2022-11-09
-version: 9.13.1
+updated: 2023-03-23
+version: 9.14.0
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -21,14 +22,19 @@ shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
 price: 139EUR
 repository: https://github.com/digitalbitbox/bitbox02-firmware
-issue: https://github.com/digitalbitbox/bitbox02-firmware/issues/901
+issue: 
 icon: bitBox2.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-11-18
+date: 2023-05-22
 signer: 
 reviewArchive:
+- data: 2022-11-18
+  version: 9.13.1
+  appHash: 0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995
+  gitRevision: f122e03466bc36063fc21fa47ba7f08b4731cb38
+  verdict: reproducible
 - date: 2022-08-07
   version: 9.12.0
   appHash: e3cf692d4ef288f27f22af2413acd9a43aa0ee445f83729f7b6c1fce55443293
@@ -63,55 +69,23 @@ features:
 
 ---
 
-The reproducibility of firmware v9.13.1 has been confirmed by
-[sutterseba](https://github.com/digitalbitbox/bitbox02-firmware/pull/1019/commits)
-and [Joko](https://twitter.com/jokoono/status/1593611834027827200?s=20&t=hXIF4vnz7W6r8RgwLohc8w).
+The reproducibility of firmware v9.14.0 has been confirmed.
 
-Steps to reproduce on MacOS (Intel):
-
-Install Docker (4.14.1 (91661) used).
-
-```
-$ cd releases
-$ ./build.sh firmware-btc-only/v9.13.1 "make firmware-btc"
-...
-firmware.bin created at:
-.../bitbox02-firmware-master/releases/temp/build/bin/firmware.bin
-or
-.../bitbox02-firmware-master/releases/temp/build/bin/firmware-btc.bin
-
-$shasum -a 256 temp/build/bin/firmware-btc.bin
-b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  temp/build/bin/firmware-btc.bin
-```
-
-This matches the signed firmware, which we can verify by downloading the binary, moving it into the release-folder and running:
-
-```
-./describe_signed_firmware.py firmware-btc.v9.13.1.signed.bin 
-The following information assumes the provided binary was signed correctly; the signatures are not being verified.
-This is a Bitcoin-only edition firmware.
-The hash of the unsigned firmware binary is (compare with reproducible build):
-b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2
-The monotonic firmware version is: 30
-The hash of the firmware as verified/shown by the bootloader is:
-3b14ac4b65f954d19bb5faf66422838e0647a3a29987fda604fd421575bd4dae
-```
-
-The [test script](/scripts/test/hardware/bitBox2.sh) also yields a positive
+The [test script](/scripts/test/hardware/bitBox2.sh) yields a positive
 result:
 
 ```
-$ scripts/test/hardware/bitBox2.sh 9.13.1
+$ scripts/test/hardware/bitBox2.sh 9.14.0
 ...
 firmware.bin created at:
-/home/leo/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
+/home/ws/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
 or
-/home/leo/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
+/home/ws/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
 Hashes of
-signed download             0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995  firmware-btc.v9.13.1.signed.bin
-signed download minus sig.  b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  p_firmware-btc.bin
-built binary                b366dd855d8fb48a9d455275bc4ba0fd80af462d3deaac8c0c5f3a87bf3421f2  temp/build/bin/firmware-btc.bin
-firmware as shown in device 3b14ac4b65f954d19bb5faf66422838e0647a3a29987fda604fd421575bd4dae
+signed download             e1b4db891bd2213192b5af424e94db1721d529ab38be5949ea6c2aa167f890c9  firmware-btc.v9.14.0.signed.bin
+signed download minus sig.  76dce068cebf0dc3002ab6452381eabd1d7ece447ad9e90ac7ec4a35d49cc576  p_firmware-btc.bin
+built binary                76dce068cebf0dc3002ab6452381eabd1d7ece447ad9e90ac7ec4a35d49cc576  temp/build/bin/firmware-btc.bin
+firmware as shown in device 06d61dffe90f79887567f7cbe34f19dc4c667c2919dab83ae9311a7c5bcbbeea
                             (The latter is a double sha256 over version,
                              firmware and padding)
 ```

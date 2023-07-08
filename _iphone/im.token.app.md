@@ -8,11 +8,11 @@ appId: im.token.app
 appCountry: 
 idd: 1384798940
 released: 2018-06-07
-updated: 2023-05-02
-version: 2.12.0
+updated: 2023-07-03
+version: 2.12.2
 stars: 4.3
-reviews: 736
-size: '125475840'
+reviews: 698
+size: '122184704'
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: imTokenOfficial
 social: 
 features: 
+developerName: IMTOKEN PTE. LTD.
 
 ---
 

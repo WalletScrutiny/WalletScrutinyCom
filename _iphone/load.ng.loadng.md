@@ -10,8 +10,8 @@ idd: 1537865343
 released: 2020-11-02
 updated: 2021-12-28
 version: '2.3'
-stars: 3.7
-reviews: 44
+stars: 3.5
+reviews: 48
 size: '42514432'
 website: https://app.load.ng/
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: loadngautomated
 social: 
 features: 
+developerName: LoadNG Automated Systems LTD
 
 ---
 

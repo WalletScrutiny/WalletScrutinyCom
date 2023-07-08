@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: cn.bizzan.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 祥云科技有限公司
 features: 
 
 ---

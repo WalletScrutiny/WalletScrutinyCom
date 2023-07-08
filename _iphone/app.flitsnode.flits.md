@@ -27,6 +27,7 @@ twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
 features: 
+developerName: Klimatas B.V.
 
 ---
 

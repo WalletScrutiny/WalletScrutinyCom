@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/TheCoinEx
 - https://www.reddit.com/r/Coinex
 features: 
+developerName: 
 
 ---
 

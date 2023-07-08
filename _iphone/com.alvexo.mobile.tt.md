@@ -1,6 +1,6 @@
 ---
 wsId: alvexo
-title: 'Alvexo: OnlineTrading Platform'
+title: Alvexo Online Trading Platform
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.alvexo.mobile.tt
 appCountry: cz
 idd: 1403847666
 released: 2018-08-06
-updated: 2023-04-05
-version: 3.3.107
+updated: 2023-06-13
+version: 3.3.111
 stars: 1
 reviews: 1
-size: '180486144'
+size: '180547584'
 website: https://www.alvexo.eu
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo
 features: 
+developerName: Alvexo
 
 ---
 

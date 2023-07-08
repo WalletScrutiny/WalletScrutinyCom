@@ -7,8 +7,8 @@ users: 10000
 appId: com.abbc.abbcmobile
 appCountry: 
 released: 2019-08-08
-updated: 2020-03-24
-version: 1.3.3
+updated: 2023-07-02
+version: 1.3.4
 stars: 4.1
 ratings: 629
 reviews: 7
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.abbc.abbcmobile.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-03-14
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: ABBC PAYMENT SERVICES PROVIDER
 features: 
 
 ---

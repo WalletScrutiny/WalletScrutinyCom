@@ -12,7 +12,7 @@ updated: 2023-04-28
 version: 4.24.14
 stars: 3.6
 ratings: 10676
-reviews: 591
+reviews: 593
 size: 
 website: https://klever.org/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/klever.io
 redirect_from:
 - /cash.klever.blockchain.wallet/
+developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 
 
 ---

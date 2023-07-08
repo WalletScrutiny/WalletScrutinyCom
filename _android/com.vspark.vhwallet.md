@@ -2,7 +2,8 @@
 wsId: 
 title: VHWallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.vspark.vhwallet
 appCountry: 
@@ -18,15 +19,27 @@ repository:
 issue: 
 icon: com.vspark.vhwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-23
+date: 2023-05-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Vspark Group
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Store BitCoin and Ethereum
+
+## Analysis 
+
+There are two domains associated with this app, vspark.co and vhw.io, both no longer host a website. 
+
+- Registration only brings us back to the logo splash. 
+
+All indications point to a **defunct** app. 

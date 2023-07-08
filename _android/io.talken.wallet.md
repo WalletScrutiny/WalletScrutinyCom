@@ -13,7 +13,7 @@ updated: 2023-04-14
 version: 1.01.17
 stars: 4.8
 ratings: 5882
-reviews: 177
+reviews: 176
 size: 
 website: https://talken.io
 repository: 
@@ -28,6 +28,7 @@ reviewArchive:
 twitter: Talken_
 social: 
 redirect_from: 
+developerName: Colligence Inc.
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/modeapp-com
 - https://www.facebook.com/themodeapp
 features: 
+developerName: Fibermode Limited
 
 ---
 

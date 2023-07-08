@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: GoldWallet - Bitcoin Vault Wal
+title: GoldWallet - BTCV Wallet
 altTitle: 
 authors: 
 users: 50000
 appId: io.goldwallet.wallet
 appCountry: 
 released: 2020-02-18
-updated: 2021-08-24
-version: VARY
+updated: 2023-05-17
+version: 6.5.2
 stars: 4.2
 ratings: 504
 reviews: 13
@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2022-10-21
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
 - /io.goldwallet.wallet/
+developerName: MineBest
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: asbazarofficial
 social: 
 redirect_from: 
+developerName: ASBAZAR Group
 features: 
 
 ---

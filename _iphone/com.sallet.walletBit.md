@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/salletone
 - https://github.com/SalletOne
 features: 
+developerName: sallet .Inc
 
 ---
 

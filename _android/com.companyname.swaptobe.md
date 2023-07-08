@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
 - https://www.facebook.com/swaptobe
 redirect_from: 
+developerName: EG Tech Group LLC
 features: 
 
 ---

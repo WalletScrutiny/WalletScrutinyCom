@@ -13,7 +13,7 @@ updated: 2022-02-01
 version: 3.0.1
 stars: 4.1
 ratings: 2220
-reviews: 221
+reviews: 220
 size: 
 website: https://decrypt.co/
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/decryptmedia
 redirect_from:
 - /co.decrypt.app/
+developerName: Decrypt
 features: 
 
 ---

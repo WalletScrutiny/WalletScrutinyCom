@@ -27,6 +27,7 @@ reviewArchive:
 twitter: RiseWallet
 social: 
 redirect_from: 
+developerName: Bitcoin Well
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: SecuXwallet
 social:
 - https://www.facebook.com/secuxtech
 redirect_from: 
+developerName: 
 features: 
 
 ---

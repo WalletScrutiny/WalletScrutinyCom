@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-19
 updated: 2021-09-16
 version: 1.1.50
-stars: 3
+stars: 3.2
 ratings: 
 reviews: 5
 size: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/EverdreamSoft/
 - https://www.youtube.com/user/Everdreamsoft
 redirect_from: 
+developerName: EverdreamSoft
 features: 
 
 ---

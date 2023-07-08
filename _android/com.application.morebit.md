@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Shafir 89 Pvt. Ltd.
 features: 
 
 ---

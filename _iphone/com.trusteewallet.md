@@ -8,11 +8,11 @@ appId: com.trusteewallet
 appCountry: 
 idd: 1462924276
 released: 2019-06-14
-updated: 2023-05-04
-version: 1.51.4
-stars: 2.6
-reviews: 25
-size: '49433600'
+updated: 2023-06-21
+version: 1.51.5
+stars: 2.7
+reviews: 27
+size: '49484800'
 website: https://trusteeglobal.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet
 features: 
+developerName: BLOCKSOFTLAB INC
 
 ---
 

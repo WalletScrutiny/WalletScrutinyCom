@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 앱스토리 컴퍼니
 features: 
 
 ---

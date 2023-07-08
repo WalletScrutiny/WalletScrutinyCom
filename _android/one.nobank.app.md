@@ -7,8 +7,8 @@ users: 1000
 appId: one.nobank.app
 appCountry: 
 released: 2022-05-12
-updated: 2023-04-28
-version: 0.59.6
+updated: 2023-07-03
+version: 0.68.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: NBK Labs AG
 features: 
 
 ---

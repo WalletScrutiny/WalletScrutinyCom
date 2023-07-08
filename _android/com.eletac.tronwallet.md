@@ -27,6 +27,7 @@ reviewArchive:
 twitter: VisionCryptoApp
 social: 
 redirect_from: 
+developerName: Vision Dev - GO 428 LLC
 features: 
 
 ---

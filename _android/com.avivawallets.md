@@ -3,7 +3,7 @@ wsId:
 title: Aviva Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.avivawallets
 appCountry: 
 released: 2022-05-02
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Ryan Davidd
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rishabh.bitfortip.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: bitfortip
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitfortip
 - https://www.facebook.com/bitfortip
 redirect_from: 
+developerName: Bitfortip
 features: 
 
 ---

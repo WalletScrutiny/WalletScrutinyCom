@@ -27,6 +27,7 @@ reviewArchive:
 twitter: ICONFiWorld
 social: 
 redirect_from: 
+developerName: UFI PTE. LTD.
 features: 
 
 ---

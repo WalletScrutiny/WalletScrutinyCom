@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.pluto.praise.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-01
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: PRAISE Company
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/daxmnofficial
 features: 
+developerName: Ard Financial Group
 
 ---
 

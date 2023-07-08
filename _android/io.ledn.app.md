@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/ledn-inc
 - https://www.facebook.com/Ledn.io
 redirect_from: 
+developerName: Ledn
 features: 
 
 ---

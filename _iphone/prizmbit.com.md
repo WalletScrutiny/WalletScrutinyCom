@@ -27,6 +27,7 @@ twitter: prizmbit
 social:
 - https://www.facebook.com/prizmbit
 features: 
+developerName: 
 
 ---
 

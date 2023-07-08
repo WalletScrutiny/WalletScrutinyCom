@@ -8,7 +8,7 @@ users: 100000
 appId: com.token.lpnt
 appCountry: 
 released: 2021-05-03
-updated: 2023-03-13
+updated: 2023-06-15
 version: '6.11'
 stars: 4.2
 ratings: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/officialLPNT
 - https://www.reddit.com/r/lpntokenofficial
 redirect_from: 
+developerName: LUXURIOUS PRO NETWORK GROUP
 features: 
 
 ---

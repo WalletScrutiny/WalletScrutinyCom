@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bykepfr
 - https://www.facebook.com/BykepFR
 redirect_from: 
+developerName: BYKEP
 features: 
 
 ---

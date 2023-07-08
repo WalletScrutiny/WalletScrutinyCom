@@ -27,6 +27,7 @@ twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank
 features: 
+developerName: 
 
 ---
 

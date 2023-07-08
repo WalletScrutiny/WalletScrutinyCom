@@ -27,6 +27,7 @@ twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp
 features: 
+developerName: Bituro LLC
 
 ---
 

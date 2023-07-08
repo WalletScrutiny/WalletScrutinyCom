@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-11
 updated: 2022-08-11
 version: 6.0.6
-stars: 4.3
+stars: 4.4
 ratings: 348
-reviews: 8
+reviews: 9
 size: 
 website: https://profittradingapp.com/
 repository: 
@@ -28,6 +28,7 @@ twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
 features: 
 
 ---

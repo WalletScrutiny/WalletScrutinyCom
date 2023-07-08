@@ -8,8 +8,8 @@ users: 100000
 appId: com.exscudo.channels
 appCountry: ru
 released: 2018-05-17
-updated: 2023-04-11
-version: 3.10.1577
+updated: 2023-06-21
+version: 3.11.1702
 stars: 4.2
 ratings: 659
 reviews: 47
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
 redirect_from: 
+developerName: NIMERA LTD
 features: 
 
 ---

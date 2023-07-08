@@ -28,6 +28,7 @@ twitter:
 social:
 - https://web.archive.org/web/20191004081856/http://www.colover.com/
 redirect_from: 
+developerName: (주)코러버
 features: 
 
 ---

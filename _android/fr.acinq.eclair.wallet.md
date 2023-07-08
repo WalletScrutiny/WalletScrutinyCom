@@ -27,6 +27,7 @@ reviewArchive:
 twitter: acinq_co
 social: 
 redirect_from: 
+developerName: ACINQ
 features: 
 
 ---

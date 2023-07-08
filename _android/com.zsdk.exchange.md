@@ -28,6 +28,7 @@ twitter: ZBG_Exchange
 social:
 - https://www.facebook.com/ZBGofficial
 redirect_from: 
+developerName: ZBG_exchange
 features: 
 
 ---

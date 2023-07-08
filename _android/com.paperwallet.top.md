@@ -27,6 +27,7 @@ reviewArchive:
 twitter: paperwallettop
 social: 
 redirect_from: 
+developerName: TechnoL0g
 features: 
 
 ---

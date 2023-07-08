@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/zenapay1/about/
 - https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
 features: 
+developerName: Epazz
 
 ---
 

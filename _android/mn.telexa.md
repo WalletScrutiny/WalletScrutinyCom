@@ -4,15 +4,15 @@ title: Telexa.mn - Хөрөнгө оруулалт
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: mn.telexa
 appCountry: 
 released: 2021-12-08
-updated: 2023-05-05
-version: '5.10'
-stars: 4.7
+updated: 2023-06-27
+version: '6.3'
+stars: 4.8
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://www.telexa.mn/
 repository: 
@@ -28,6 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/Telexa.mn/
 redirect_from: 
+developerName: Save, Inc
 features: 
 
 ---

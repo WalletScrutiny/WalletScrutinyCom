@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ViaZi Za Tech SARL
 features: 
 
 ---

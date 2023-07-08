@@ -10,8 +10,8 @@ idd: '1598547096'
 released: 2021-12-28
 updated: 2023-04-02
 version: 2.1.1
-stars: 4.6
-reviews: 45
+stars: 4.5
+reviews: 46
 size: '55485440'
 website: https://www.boundlesspay.com
 repository: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/boundlesspayofficial/
 - https://www.linkedin.com/company/boundlesspayofficial/
 features: 
+developerName: BOUNDLESS NEXUS LIMITED
 
 ---
 

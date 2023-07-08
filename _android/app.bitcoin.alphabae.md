@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: app.bitcoin.alphabae.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: developerYaanis
 features: 
 
 ---

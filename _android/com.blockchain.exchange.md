@@ -9,10 +9,10 @@ appId: com.blockchain.exchange
 appCountry: 
 released: 2021-10-27
 updated: 2023-05-08
-version: 202212.1.1
-stars: 4.3
+version: 202304.1.1
+stars: 4.4
 ratings: 
-reviews: 34
+reviews: 37
 size: 
 website: https://www.blockchain.com
 repository: 
@@ -28,6 +28,7 @@ twitter: blockchain
 social:
 - https://www.instagram.com/blockchainofficial
 redirect_from: 
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

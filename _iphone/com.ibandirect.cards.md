@@ -8,11 +8,11 @@ appId: com.ibandirect.cards
 appCountry: sg
 idd: 1538001175
 released: 2020-11-09
-updated: 2023-05-04
-version: 1.7.9
+updated: 2023-05-19
+version: 1.8.0
 stars: 0
 reviews: 0
-size: '85136384'
+size: '85158912'
 website: https://ibandirect.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Ibandirect
 
 ---
 

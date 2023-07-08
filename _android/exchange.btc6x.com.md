@@ -30,6 +30,7 @@ social:
 - https://t.me/btc6x
 - https://www.instagram.com/btc.6x/
 redirect_from: 
+developerName: Counos
 features: 
 
 ---

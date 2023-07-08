@@ -28,6 +28,7 @@ twitter: CoinCorner
 social:
 - https://www.facebook.com/CoinCorner
 redirect_from: 
+developerName: CoinCorner Ltd
 features:
 - ln
 

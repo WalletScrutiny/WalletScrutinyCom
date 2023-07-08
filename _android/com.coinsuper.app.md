@@ -28,6 +28,7 @@ twitter: Coinsuper_OFCL
 social:
 - https://www.facebook.com/CoinsuperOFCL
 redirect_from: 
+developerName: 
 features: 
 
 ---

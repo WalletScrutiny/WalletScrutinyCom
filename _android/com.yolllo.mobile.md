@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.yolllo.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AVAPAY LTD
 features: 
 
 ---

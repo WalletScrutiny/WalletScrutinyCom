@@ -8,8 +8,8 @@ users: 10000
 appId: net.iconomi.android
 appCountry: si
 released: 2017-10-17
-updated: 2023-04-13
-version: 2.7.1
+updated: 2023-06-26
+version: 3.0.0
 stars: 4.1
 ratings: 291
 reviews: 156
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/iconomicom
 - https://www.reddit.com/r/ICONOMI
 redirect_from: 
+developerName: ICONOMI
 features: 
 
 ---

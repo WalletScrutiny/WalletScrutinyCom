@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/amarkets
 - https://www.facebook.com/AMarketsFirm
 features: 
+developerName: AMarkets Ltd.
 
 ---
 

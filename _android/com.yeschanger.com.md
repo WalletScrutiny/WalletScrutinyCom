@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Yeschanger Ecurrency Exchanger
+title: Yeschanger currency Exchanger
 altTitle: 
 authors:
 - danny
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCtwM__wt_329f4OxX-c_m4A
 - https://t.me/Yeschanger
 redirect_from: 
+developerName: Yeschanger
 features: 
 
 ---

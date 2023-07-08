@@ -28,6 +28,7 @@ twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 features: 
+developerName: 
 
 ---
 

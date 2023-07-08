@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: io.mahfazah.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Cryptocurrency Solutions OU
 features: 
 
 ---

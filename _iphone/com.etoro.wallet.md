@@ -9,11 +9,11 @@ appId: com.etoro.wallet
 appCountry: 
 idd: 1397831096
 released: 2019-03-05
-updated: 2023-03-22
-version: 58.0.0
+updated: 2023-07-03
+version: 61.0.0
 stars: 1.7
-reviews: 132
-size: '67826688'
+reviews: 137
+size: '68814848'
 website: https://www.etoro.com/crypto/wallet/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
 features: 
+developerName: eToro
 
 ---
 

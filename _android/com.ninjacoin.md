@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Ninjacoin
 - https://www.reddit.com/r/Ninjacoin_org
 redirect_from: 
+developerName: 
 features: 
 
 ---

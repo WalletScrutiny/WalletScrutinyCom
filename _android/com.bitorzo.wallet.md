@@ -11,9 +11,9 @@ appCountry:
 released: 2020-07-22
 updated: 2021-01-03
 version: 3.1.3
-stars: 3
+stars: 
 ratings: 28
-reviews: 5
+reviews: 
 size: 
 website: https://www.bitorzo.io
 repository: https://github.com/Bitorzo/Bitorzo
@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Hodlers Team
 features: 
 
 ---

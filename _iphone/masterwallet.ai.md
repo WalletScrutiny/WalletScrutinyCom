@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: masterwallet.ai.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-08
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: X-widget
 
 ---
 

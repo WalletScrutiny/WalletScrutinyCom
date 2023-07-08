@@ -8,8 +8,8 @@ users: 1000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
-updated: 2023-01-25
-version: 5.2.5
+updated: 2023-06-14
+version: 5.2.6
 stars: 3.4
 ratings: 
 reviews: 1
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /paydeepp.elegro.io/
 - /posts/paydeepp.elegro.io/
+developerName: Niko Technologies
 features: 
 
 ---

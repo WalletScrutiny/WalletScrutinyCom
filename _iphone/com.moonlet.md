@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.moonlet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2022-01-10
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: moonlet_wallet
 social:
 - https://github.com/Moonlet
 features: 
+developerName: Moonlet
 
 ---
 

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.remitano.remitano
 appCountry: 
 released: 2016-07-24
-updated: 2023-05-02
-version: 6.74.0
-stars: 4.2
+updated: 2023-06-27
+version: 6.76.0
+stars: 4.5
 ratings: 19172
-reviews: 420
+reviews: 428
 size: 
 website: https://remitano.com
 repository: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/remitano
 redirect_from:
 - /posts/com.remitano.remitano/
+developerName: Remitano
 features: 
 
 ---

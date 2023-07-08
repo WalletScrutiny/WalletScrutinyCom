@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.astrolltd.astrollax.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-01-12
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Astrollax
 features: 
 
 ---

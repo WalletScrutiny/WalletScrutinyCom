@@ -28,6 +28,7 @@ twitter: w_fuze
 social:
 - https://www.facebook.com/Fuzewcard
 redirect_from: 
+developerName: BrilliantTS
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.magnum.wallet/
 - /posts/com.magnum.wallet/
+developerName: Magnum Wallet
 features: 
 
 ---

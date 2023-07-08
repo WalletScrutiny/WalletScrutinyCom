@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.usdtoption.www.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-05-01
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: USDT OPTION
 features: 
 
 ---

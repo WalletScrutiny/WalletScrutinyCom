@@ -8,11 +8,11 @@ appId: com.bouspam.eritajpam
 appCountry: us
 idd: '1613922315'
 released: 2022-03-29
-updated: 2023-04-19
-version: 2.2.4
-stars: 3.2
-reviews: 22
-size: '56101888'
+updated: 2023-06-23
+version: 2.3.1
+stars: 3.3
+reviews: 34
+size: '73734144'
 website: https://bousechanj.com/
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Eritajpam, LLC
 
 ---
 

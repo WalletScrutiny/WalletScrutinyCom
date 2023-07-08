@@ -8,11 +8,11 @@ appId: com.nicehash.mobile
 appCountry: us
 idd: '1372054956'
 released: 2020-04-29
-updated: 2023-04-26
-version: 5.3.3
-stars: 4.4
-reviews: 1821
-size: '96809984'
+updated: 2023-06-08
+version: 5.4.2
+stars: 4.5
+reviews: 1941
+size: '96885760'
 website: https://www.nicehash.com/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
 features: 
+developerName: H-BIT, d.o.o.
 
 ---
 

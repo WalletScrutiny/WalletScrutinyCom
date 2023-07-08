@@ -28,6 +28,7 @@ twitter: paybito
 social:
 - https://www.facebook.com/paybito
 redirect_from: 
+developerName: 
 features: 
 
 ---

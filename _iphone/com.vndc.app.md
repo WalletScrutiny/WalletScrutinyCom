@@ -26,6 +26,7 @@ reviewArchive:
 twitter: vncd_official
 social: 
 features: 
+developerName: 
 
 ---
 

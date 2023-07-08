@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unodax.exchange.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Unocoin
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
 features: 
+developerName: Unocoin Technologies Private Limited
 
 ---
 

@@ -3,10 +3,12 @@ title: Coinkite Coldcard Mk 2
 appId: coinkite.coldcard.mk2
 authors:
 - danny
+- mohammad
+- leo
 released: 2019-04-06
 discontinued: 
-updated: 2022-11-14
-version: v4.1.7
+updated: 2023-06-19
+version: v4.1.8
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -16,13 +18,13 @@ website: https://coldcard.com/
 shop: 
 country: CA
 price: 119.97USD
-repository: https://github.com/Coldcard/firmware/releases/tag/2019-04-09T1600-v2.0.2
+repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
-verdict: nonverifiable
-date: 2022-11-24
+verdict: reproducible
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -32,9 +34,9 @@ features:
 
 ---
 
-## Update 2022-11-24
+## Update 2023-06-22
 
-Since the ColdCard Mk2's firmware is the same as the ColdCard Mk3, v.4.1.7, the Mk2 will inherit the same verdict as {% include walletLink.html wallet='hardware/coldcardMk3' verdict='true' %}. 
+Since the ColdCard Mk2's firmware is the same as the ColdCard Mk3, v.4.1.8, the Mk2 will inherit the same verdict as {% include walletLink.html wallet='hardware/coldcardMk3' verdict='true' %}. 
 
 ## Update 2022-10-25
 

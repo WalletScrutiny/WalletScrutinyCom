@@ -1,5 +1,6 @@
 short: Leaks Keys!
 title: Leaks Keys
+pass: The device signs transactions without revealing the keys
 color: '#d33100'
 redflag: true
 message: This product requires sharing private key material!

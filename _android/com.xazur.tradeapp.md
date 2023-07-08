@@ -7,8 +7,8 @@ users: 10
 appId: com.xazur.tradeapp
 appCountry: 
 released: 
-updated: 2021-07-10
-version: 45.7.0
+updated: 2023-06-14
+version: 61.6.1
 stars: 
 ratings: 
 reviews: 
@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.xazur.tradeapp.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-11-02
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Xazur Digital
 features: 
 
 ---

@@ -28,6 +28,7 @@ twitter: huobi_korea
 social:
 - https://www.facebook.com/huobikorea
 redirect_from: 
+developerName: Hb-korea
 features: 
 
 ---

@@ -7,11 +7,11 @@ appId: base.big.one
 appCountry: us
 idd: 1485385044
 released: 2019-11-06
-updated: 2023-04-28
-version: 2.3.712
+updated: 2023-06-30
+version: 2.3.900
 stars: 4.4
-reviews: 108
-size: '186542080'
+reviews: 105
+size: '189730816'
 website: https://big.one
 repository: 
 issue: 
@@ -27,6 +27,7 @@ social:
 - https://www.facebook.com/exBigONE
 - https://www.reddit.com/r/BigONEExchange
 features: 
+developerName: Base Investing Corporation
 
 ---
 

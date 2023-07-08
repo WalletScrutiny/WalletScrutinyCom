@@ -27,6 +27,7 @@ reviewArchive:
 twitter: Mathwallet
 social: 
 features: 
+developerName: 
 
 ---
 

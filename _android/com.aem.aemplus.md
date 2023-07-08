@@ -3,7 +3,7 @@ wsId:
 title: AEM+
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.aem.aemplus
 appCountry: 
 released: 2022-02-27
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: AEM Technologies
 features: 
 
 ---

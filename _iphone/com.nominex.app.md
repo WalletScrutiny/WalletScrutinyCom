@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nominex.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-18
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: NominexExchange
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/nominex
 - https://www.facebook.com/Nominex
 features: 
+developerName: Nominex Limited
 
 ---
 

@@ -8,8 +8,8 @@ users: 10000
 appId: im.immune.app
 appCountry: 
 released: 2019-11-29
-updated: 2023-04-26
-version: 2.0.33
+updated: 2023-06-16
+version: 2.0.34
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: IMM Money Messenger Limited
 features: 
 
 ---

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: officialumifi
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

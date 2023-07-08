@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mercurycash
 redirect_from:
 - /com.adenter.mercurycash/
+developerName: IT Mercury Cash
 features: 
 
 ---

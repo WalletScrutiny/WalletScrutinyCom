@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/CoffeeWallet/
 - https://t.me/CoffeeWallet
 redirect_from: 
+developerName: Coffee  Software
 features: 
 
 ---

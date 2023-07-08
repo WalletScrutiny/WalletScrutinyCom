@@ -28,6 +28,7 @@ twitter: coinlist
 social:
 - https://www.facebook.com/CoinListOfficial
 redirect_from: 
+developerName: 
 features: 
 
 ---

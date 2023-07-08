@@ -8,11 +8,11 @@ users: 10000
 appId: com.aabb
 appCountry: ca
 released: 2021-03-08
-updated: 2023-03-23
-version: 1.0.1266
-stars: 4.8
+updated: 2023-05-17
+version: 1.0.1270
+stars: 4.7
 ratings: 614
-reviews: 32
+reviews: 33
 size: 
 website: https://aabbgoldtoken.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: AsiaBroadband
 social: 
 redirect_from: 
+developerName: AABB Gold Token
 features: 
 
 ---

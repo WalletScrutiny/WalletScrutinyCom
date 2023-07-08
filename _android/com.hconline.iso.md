@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-07-19
 updated: 2022-10-28
 version: R02.03.06.478
-stars: 3.9
+stars: 4
 ratings: 19
 reviews: 4
 size: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/starteos.io.7
 - https://github.com/StarteosIO
 redirect_from: 
+developerName: Start.io
 features: 
 
 ---

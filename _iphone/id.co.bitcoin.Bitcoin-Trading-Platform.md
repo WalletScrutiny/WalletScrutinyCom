@@ -26,6 +26,7 @@ reviewArchive:
 twitter: indodax
 social: 
 features: 
+developerName: 
 
 ---
 

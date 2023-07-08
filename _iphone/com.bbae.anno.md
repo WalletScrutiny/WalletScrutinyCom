@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.bbae.anno.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-04-20
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: 
 
 ---
 

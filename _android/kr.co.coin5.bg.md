@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 비트코인 마진거래 소액재테크 플랫폼
 features: 
 
 ---

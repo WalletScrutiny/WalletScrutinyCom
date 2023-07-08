@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.fast.trustedupcryptoexchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-05-16
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Trustedup Financial
 features: 
 
 ---

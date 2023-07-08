@@ -1,6 +1,6 @@
 ---
 wsId: deepcoin
-title: 'Deepcoin Pro: Trade Crypto'
+title: 'Deepcoin: Trade Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.dcglobal.app
 appCountry: us
 idd: '1610058833'
 released: 2022-02-26
-updated: 2023-01-11
-version: 6.1.3
+updated: 2023-06-30
+version: 6.8.3
 stars: 5
-reviews: 5
-size: '108967936'
-website: https://www.deepcoin.pro
+reviews: 6
+size: '112244736'
+website: https://www.deepcoin.com
 repository: 
 issue: 
 icon: com.dcglobal.app.jpg
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/deepcoinpro/
 features: 
+developerName: DEEPCOIN PTE. LTD
 
 ---
 

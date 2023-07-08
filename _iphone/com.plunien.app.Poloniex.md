@@ -11,16 +11,16 @@ released: 2017-05-14
 updated: 2023-02-04
 version: 1.39.1
 stars: 4.6
-reviews: 2029
+reviews: 2030
 size: '115035136'
 website: https://www.poloniex.com
 repository: 
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-06-21
 signer: 
 reviewArchive:
 - date: 2021-05-20
@@ -32,6 +32,7 @@ twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex
 features: 
+developerName: Polo Digital Assets, Ltd
 
 ---
 

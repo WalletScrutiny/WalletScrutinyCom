@@ -10,9 +10,9 @@ appCountry:
 released: 2017-12-18
 updated: 2021-04-01
 version: '1.62'
-stars: 3.9
+stars: 4
 ratings: 137
-reviews: 3
+reviews: 4
 size: 
 website: 
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: bone-apps
 features: 
 
 ---

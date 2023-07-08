@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
 features: 
+developerName: BlackFort
 
 ---
 

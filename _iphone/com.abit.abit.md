@@ -26,6 +26,7 @@ reviewArchive:
 twitter: abitofficial
 social: 
 features: 
+developerName: 
 
 ---
 

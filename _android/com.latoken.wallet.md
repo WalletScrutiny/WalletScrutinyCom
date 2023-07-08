@@ -8,11 +8,11 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2023-04-26
-version: 1.143.00
+updated: 2023-06-28
+version: 1.150.01
 stars: 4.3
 ratings: 35079
-reviews: 100
+reviews: 99
 size: 
 website: http://latoken.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/latoken
 - https://www.facebook.com/LiquidAssetToken
 redirect_from: 
+developerName: LATOKEN
 features: 
 
 ---

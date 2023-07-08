@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bitafrika.com.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-05
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: _bitafrika
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitafrika
 - https://www.instagram.com/bitafrika/
 features: 
+developerName: 
 
 ---
 

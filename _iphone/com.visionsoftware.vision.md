@@ -27,6 +27,7 @@ reviewArchive:
 twitter: VisionCryptoApp
 social: 
 features: 
+developerName: Go 428 llc
 
 ---
 

@@ -9,9 +9,9 @@ appCountry:
 released: 2019-07-20
 updated: 2020-09-16
 version: 1.0.54
-stars: 2.9
+stars: 3.5
 ratings: 366
-reviews: 9
+reviews: 
 size: 
 website: http://bbctoken.app
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Okanetoma Lab
 features: 
 
 ---

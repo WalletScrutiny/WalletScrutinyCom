@@ -12,7 +12,7 @@ updated: 2022-07-26
 version: 2.2.5
 stars: 4.9
 ratings: 
-reviews: 715
+reviews: 714
 size: 
 website: http://www.vsolidus.com/
 repository: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw
 - https://www.instagram.com/vsolidus/
 redirect_from: 
+developerName: Nova Coin Ltd.
 features: 
 
 ---

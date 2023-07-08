@@ -28,6 +28,7 @@ twitter: EXIR_Official
 social:
 - https://www.linkedin.com/company/exirexchange/
 redirect_from: 
+developerName: EXIR
 features: 
 
 ---

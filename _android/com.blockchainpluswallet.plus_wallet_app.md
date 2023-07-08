@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from:
 - /com.blockchainpluswallet.plus_wallet_app/
+developerName: 
 features: 
 
 ---

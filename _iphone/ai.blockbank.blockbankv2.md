@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2023-03-06
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/blockbankapp/
 - https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg
 features: 
+developerName: 
 
 ---
 

@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: ch.vrfy.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Airtime Network, Inc.
 features: 
 
 ---

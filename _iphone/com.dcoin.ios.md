@@ -27,6 +27,7 @@ twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange
 features: 
+developerName: DAVOX TECH PTE. LTD.
 
 ---
 

@@ -28,6 +28,7 @@ twitter: Heartnumber_htn
 social:
 - https://t.me/Heartnumber_Official
 redirect_from: 
+developerName: rentalbot
 features: 
 
 ---

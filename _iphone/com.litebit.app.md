@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/litebit
 - https://www.facebook.com/litebiteu
 features: 
+developerName: 
 
 ---
 

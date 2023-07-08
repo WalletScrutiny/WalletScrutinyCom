@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Fintech Bilgi Teknolojileri Yazilim Ve Ticaret A.Ş
 features: 
 
 ---

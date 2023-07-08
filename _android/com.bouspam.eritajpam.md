@@ -8,11 +8,11 @@ users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: 2022-03-28
-updated: 2023-04-19
-version: 2.2.4
+updated: 2023-06-17
+version: 2.3.1
 stars: 2.7
 ratings: 
-reviews: 13
+reviews: 15
 size: 
 website: https://bousechanj.com/
 repository: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: eritajpam
 social: 
 redirect_from: 
+developerName: Ezechias Caillot
 features: 
 
 ---

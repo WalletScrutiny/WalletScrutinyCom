@@ -12,21 +12,22 @@ updated: 2021-09-17
 version: 1.0.10
 stars: 3.6
 ratings: 405
-reviews: 83
+reviews: 84
 size: 
 website: http://www.gcbuying.com
 repository: 
 issue: 
 icon: com.gcbuying.app.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: gcbuying
 social: 
 redirect_from: 
+developerName: GCBUYING
 features: 
 
 ---

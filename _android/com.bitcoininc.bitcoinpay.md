@@ -9,7 +9,7 @@ appCountry:
 released: 2016-05-13
 updated: 2017-07-06
 version: 1.0.1
-stars: 4.5
+stars: 4.4
 ratings: 119
 reviews: 15
 size: 
@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.bitcoininc.bitcoinpay/
 - /posts/com.bitcoininc.bitcoinpay/
+developerName: Bitcoin Inc
 features: 
 
 ---

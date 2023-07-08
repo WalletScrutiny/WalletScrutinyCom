@@ -11,7 +11,7 @@ released: 2018-09-21
 updated: 2023-02-14
 version: 2.2.7
 stars: 4.7
-reviews: 63
+reviews: 62
 size: '14211072'
 website: 
 repository: 
@@ -27,6 +27,7 @@ twitter:
 social:
 - https://www.facebook.com/baksmancom
 features: 
+developerName: XChangeCapitalGroup
 
 ---
 

@@ -28,6 +28,7 @@ twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
 redirect_from: 
+developerName: IndieSquare Inc.
 features: 
 
 ---

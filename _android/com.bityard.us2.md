@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bityard
 - https://www.facebook.com/BitYardofficial
 redirect_from: 
+developerName: 
 features: 
 
 ---

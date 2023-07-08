@@ -27,6 +27,7 @@ twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070/
 features: 
+developerName: 
 
 ---
 

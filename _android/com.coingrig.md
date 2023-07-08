@@ -19,15 +19,16 @@ repository: https://github.com/coingrig/coingrig-wallet
 issue: https://github.com/coingrig/coingrig-wallet/issues/22
 icon: com.coingrig.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-29
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/
 redirect_from: 
+developerName: Qubevo
 features: 
 
 ---

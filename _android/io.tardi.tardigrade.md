@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: io.tardi.tardigrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Mobius Excellent Group Ltd.
 features: 
 
 ---

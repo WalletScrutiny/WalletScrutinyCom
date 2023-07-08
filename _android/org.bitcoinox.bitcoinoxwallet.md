@@ -8,8 +8,8 @@ users: 1000
 appId: org.bitcoinox.bitcoinoxwallet
 appCountry: 
 released: 2019-02-04
-updated: 2022-11-28
-version: 2.8.5
+updated: 2023-05-25
+version: 2.8.7
 stars: 3.9
 ratings: 32
 reviews: 4
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
+developerName: Excdev
 features: 
 
 ---

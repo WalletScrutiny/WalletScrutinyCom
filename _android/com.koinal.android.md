@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/Koinal.io
 redirect_from:
 - /com.koinal.android/
+developerName: SG Veteris
 features: 
 
 ---

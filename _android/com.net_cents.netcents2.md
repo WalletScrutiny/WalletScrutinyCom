@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/net-cents
 - https://www.facebook.com/NetCentsHQ
 redirect_from: 
+developerName: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/income-locker
 - https://www.facebook.com/incomelocker
 features: 
+developerName: Variance HODLING Ltd
 
 ---
 

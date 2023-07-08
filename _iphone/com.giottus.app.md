@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/giottus
 - https://www.facebook.com/Giottus
 features: 
+developerName: 
 
 ---
 

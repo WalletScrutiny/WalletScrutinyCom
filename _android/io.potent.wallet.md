@@ -3,7 +3,7 @@ wsId:
 title: Potent Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.potent.wallet
 appCountry: 
 released: 2021-08-12
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Potent Team
 features: 
 
 ---

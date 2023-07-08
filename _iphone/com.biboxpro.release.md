@@ -10,7 +10,7 @@ idd: 1505962519
 released: 2020-04-08
 updated: 2023-04-21
 version: 5.2.8
-stars: 3.8
+stars: 3.7
 reviews: 72
 size: '219120640'
 website: https://www.bibox.pro
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
 features: 
+developerName: Bibox Group Holdings Limited
 
 ---
 

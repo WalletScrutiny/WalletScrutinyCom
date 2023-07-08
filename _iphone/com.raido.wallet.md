@@ -26,6 +26,7 @@ reviewArchive:
 twitter: financialraido
 social: 
 features: 
+developerName: Raidofinance OU
 
 ---
 

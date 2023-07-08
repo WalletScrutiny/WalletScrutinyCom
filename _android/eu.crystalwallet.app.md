@@ -27,6 +27,7 @@ reviewArchive:
 twitter: CrystalWalletEU
 social: 
 redirect_from: 
+developerName: 
 features: 
 
 ---

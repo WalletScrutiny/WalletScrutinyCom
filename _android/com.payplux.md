@@ -28,6 +28,7 @@ twitter: PayPlux
 social:
 - https://www.facebook.com/PayPlux
 redirect_from: 
+developerName: Qodehub LLC
 features: 
 
 ---

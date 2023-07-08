@@ -27,6 +27,7 @@ twitter: blubitex
 social:
 - https://www.facebook.com/blubitexofficial
 features: 
+developerName: BLUBITEX LIMITED
 
 ---
 

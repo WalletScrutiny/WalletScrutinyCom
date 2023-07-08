@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digitra.digitraHB.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-03-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Digitra_com
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/digitracom/
 - https://www.youtube.com/@digitracom
 features: 
+developerName: 
 
 ---
 

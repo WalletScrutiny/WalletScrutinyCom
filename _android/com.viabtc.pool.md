@@ -8,11 +8,11 @@ users: 500000
 appId: com.viabtc.pool
 appCountry: 
 released: 2017-12-16
-updated: 2023-03-08
-version: 3.7.6
-stars: 4.3
+updated: 2023-06-21
+version: 3.7.8
+stars: 4.1
 ratings: 
-reviews: 266
+reviews: 271
 size: 
 website: https://www.viabtc.com/
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 redirect_from: 
+developerName: ViaBTC
 features: 
 
 ---

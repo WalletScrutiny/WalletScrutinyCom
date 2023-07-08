@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.pandats.investxe.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-06-10
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: InvestXE
 features: 
 
 ---

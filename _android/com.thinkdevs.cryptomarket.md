@@ -28,6 +28,7 @@ twitter:
 social: 
 redirect_from:
 - /com.thinkdevs.cryptomarket/
+developerName: 
 features: 
 
 ---

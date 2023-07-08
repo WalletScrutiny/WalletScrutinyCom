@@ -34,6 +34,7 @@ social:
 redirect_from:
 - /com.luneswallet/
 - /posts/com.luneswallet/
+developerName: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/cobruapp
 - https://www.instagram.com/cobruapp/
 redirect_from: 
+developerName: Cobru SAS
 features: 
 
 ---

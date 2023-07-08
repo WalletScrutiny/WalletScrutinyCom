@@ -27,6 +27,7 @@ reviewArchive:
 twitter: fatbtc
 social: 
 redirect_from: 
+developerName: FatBTC Ltd.,
 features: 
 
 ---

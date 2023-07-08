@@ -3,7 +3,7 @@ wsId:
 title: Crypto Net
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.piece.father
 appCountry: 
 released: 2022-03-31
@@ -19,13 +19,14 @@ issue:
 icon: com.piece.father.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: pontv015
 features: 
 
 ---

@@ -4,12 +4,12 @@ title: Pouch.ph - Lightning Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: pouch.ph
 appCountry: 
 released: 2021-09-08
-updated: 2023-05-05
-version: 0.6.76
+updated: 2023-06-24
+version: 0.6.87
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Pouch PH Inc
 features:
 - ln
 

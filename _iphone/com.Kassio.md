@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kassionetwork/
 - https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 features: 
+developerName: Digital Pung ApS
 
 ---
 

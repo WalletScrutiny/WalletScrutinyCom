@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
 features: 
 
 ---

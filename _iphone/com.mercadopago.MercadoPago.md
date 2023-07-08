@@ -8,11 +8,11 @@ appId: com.mercadopago.MercadoPago
 appCountry: br
 idd: 925436649
 released: 2014-12-17
-updated: 2023-05-05
-version: 2.271.1
+updated: 2023-06-30
+version: 2.278.2
 stars: 4.8
-reviews: 1057130
-size: '327914496'
+reviews: 1097054
+size: '334790656'
 website: http://www.mercadopago.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: mercadopago
 social:
 - https://www.facebook.com/mercadopago
 features: 
+developerName: MercadoLibre
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://medium.com/@walletio
 - https://github.com/wallet-io
 features: 
+developerName: Taiyi Technology Beijing Co., Ltd.
 
 ---
 

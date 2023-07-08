@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/genesisblockhq
 - https://www.reddit.com/r/genesisblockhq
 features: 
+developerName: 
 
 ---
 

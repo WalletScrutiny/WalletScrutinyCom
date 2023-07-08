@@ -3,7 +3,7 @@ wsId:
 title: Fortvax cold wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.tnp.fortvax
 appCountry: 
 released: 2022-04-19
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 台灣銘板
 features: 
 
 ---

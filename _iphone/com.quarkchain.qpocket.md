@@ -26,6 +26,7 @@ reviewArchive:
 twitter: qPocket_wallet
 social: 
 features: 
+developerName: QuarkChain Inc
 
 ---
 

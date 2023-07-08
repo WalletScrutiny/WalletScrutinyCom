@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-19
 updated: 2023-04-12
 version: 1.37.8
-stars: 3.7
+stars: 3.5
 ratings: 375
-reviews: 7
+reviews: 8
 size: 
 website: https://www.probit.kr
 repository: 
@@ -28,6 +28,7 @@ twitter: ProBit_Exchange
 social:
 - https://www.facebook.com/probitexchange
 redirect_from: 
+developerName: Oceans Incorporated
 features: 
 
 ---

@@ -3,10 +3,11 @@ title: Trezor Model T
 appId: trezorT
 authors:
 - leo
+- Mohammad
 released: 2018-03-01
 discontinued: 
-updated: 2022-11-17
-version: 2.5.3
+updated: 2023-04-19
+version: 2.6.0
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -25,9 +26,14 @@ icon: trezorT.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-12-05
+date: 2023-05-25
 signer: 
 reviewArchive:
+- date: 2022-12-05
+  version: 2.5.3
+  appHash: 8d742ff5498e3f903125aa6fca44bffeea27e42cc37297aa03f6c1fca51b6004
+  gitRevision: 2f03ace311584988d5aeab58fd1acf24ef54711a
+  verdict: reproducible
 - date: 2022-08-07
   version: 2.4.3
   appHash: 4279e8fbf0bf85b6412c1ab1e1fe16844b42d83d2d8a45aaf6cf68dfb7afabbc
@@ -56,29 +62,31 @@ With our
 this is the result:
 
 ```
-$ ./scripts/test/hardware/trezorT.sh 2.5.3
+$ ./scripts/test/hardware/trezorT.sh 2.6.0
 ...
 Fingerprints:
-4f57dca1abc1a60d82c4fef7c96e86d784fc7a1e5e3da724dd2ae4d14c6350bf build/core/firmware/firmware.bin
-c094c84ba958129885fa725ee6ddb781b580fd2c7851e83aef9054ba4a10526c build/core-bitcoinonly/firmware/firmware.bin
+1b4845b2d2869eece07c3b287ad0acf036f7ba61efc39acb2cc01ed45490d2c6 build/core/bootloader/bootloader.bin
+050526db604b9acceef2a5a8561bc99ecbe337909283ebb927b556d8e9b13872 build/core/firmware/firmware.bin
+1b4845b2d2869eece07c3b287ad0acf036f7ba61efc39acb2cc01ed45490d2c6 build/core-bitcoinonly/bootloader/bootloader.bin
+54f084dab4be1e64dc2cb970a6de87969407e4d6c48d79acdcf5d374ec0f29d6 build/core-bitcoinonly/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled standard:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000124131 s, 524 kB/s
-07e9053be42873b8fc094205607d2c5624a15c84fdf323bc783217d3a7b7fc24  trezor-2.5.3.bin.zeroed
-07e9053be42873b8fc094205607d2c5624a15c84fdf323bc783217d3a7b7fc24  build/core/firmware/firmware.bin
+65 bytes copied, 0.00025086 s, 259 kB/s
+c33e336869964cfb1ef193195894e8b6667955b4ea3044558c380b1787168e38  trezor-2.6.0.bin.zeroed
+c33e336869964cfb1ef193195894e8b6667955b4ea3044558c380b1787168e38  build/core/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled bitcoinonly:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000112391 s, 578 kB/s
-b69f1b69819a281f76553e39fed4394f2a5c56eb33f95767b775800282a19f6c  trezor-2.5.3-bitcoinonly.bin.zeroed
-b69f1b69819a281f76553e39fed4394f2a5c56eb33f95767b775800282a19f6c  build/core-bitcoinonly/firmware/firmware.bin
+65 bytes copied, 0.000205475 s, 316 kB/s
+c0b7696ce45ac9fe593eb9af1eb561f66cdf8be4d6a6bea6e538e252843e8a2f  trezor-2.6.0-bitcoinonly.bin.zeroed
+c0b7696ce45ac9fe593eb9af1eb561f66cdf8be4d6a6bea6e538e252843e8a2f  build/core-bitcoinonly/firmware/firmware.bin
 
 Hash of the signed firmware:
-8d742ff5498e3f903125aa6fca44bffeea27e42cc37297aa03f6c1fca51b6004  trezor-2.5.3.bin
-93f276caa34e3bd599367089f0274b6691e0fdc00697c252be29b1e3d49e8b6b  trezor-2.5.3-bitcoinonly.bin
+e5560b40a9fc470fc9f9552baed65241cb0496c5896c6336e2422b50ddf7cada  trezor-2.6.0.bin
+c6fe574b2348beb45abb62d38bbf09b032a5082900667b6892218903aadf856f  trezor-2.6.0-bitcoinonly.bin
 ```
 
 This looks good. The compiled versions only differ in 64 bytes - the signature -

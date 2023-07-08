@@ -28,6 +28,7 @@ twitter: digiexchange3
 social:
 - https://www.facebook.com/digiexchangenews
 redirect_from: 
+developerName: digiexchange
 features: 
 
 ---

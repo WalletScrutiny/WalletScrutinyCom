@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/colodax
 - https://www.facebook.com/colodax
 features: 
+developerName: Ganyt Solutions LLC
 
 ---
 

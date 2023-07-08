@@ -8,11 +8,11 @@ appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
 released: 2020-07-13
-updated: 2023-04-24
-version: 2.5.7
-stars: 2.7
-reviews: 27
-size: '113563648'
+updated: 2023-06-26
+version: 2.6.1
+stars: 2.6
+reviews: 34
+size: '120667136'
 website: http://hkd.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en
 features: 
+developerName: Hong Kong Digital Asset Exchange Limited
 
 ---
 

@@ -27,6 +27,7 @@ reviewArchive:
 twitter: cryptofully
 social: 
 features: 
+developerName: 
 
 ---
 

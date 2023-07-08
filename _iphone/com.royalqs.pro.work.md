@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Royal Quantify Investment Management Co., Limited
 
 ---
 

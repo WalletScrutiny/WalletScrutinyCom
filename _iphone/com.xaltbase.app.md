@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/100xCoin
 - https://www.facebook.com/100xcoinFB
 features: 
+developerName: 
 
 ---
 

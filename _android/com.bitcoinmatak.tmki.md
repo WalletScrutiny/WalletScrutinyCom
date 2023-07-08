@@ -11,7 +11,7 @@ updated: 2022-06-22
 version: '4.8'
 stars: 4.8
 ratings: 
-reviews: 19
+reviews: 12
 size: 
 website: 
 repository: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: marc ferrell
 features: 
 
 ---

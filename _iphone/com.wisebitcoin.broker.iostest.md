@@ -26,6 +26,7 @@ reviewArchive:
 twitter: wisebitcoin
 social: 
 features: 
+developerName: WISEBTC INC
 
 ---
 

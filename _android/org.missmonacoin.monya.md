@@ -27,6 +27,7 @@ reviewArchive:
 twitter: monya_wallet
 social: 
 redirect_from: 
+developerName: 藤原出帆
 features: 
 
 ---

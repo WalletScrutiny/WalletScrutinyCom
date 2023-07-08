@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: technology.def.rixx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Def Technology
 features: 
 
 ---

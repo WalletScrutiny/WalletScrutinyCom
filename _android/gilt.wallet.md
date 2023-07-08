@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: gilt.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Xmewe
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 10000
 appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
-updated: 2023-04-18
-version: 3.2.9
-stars: 4.2
+updated: 2023-06-28
+version: 3.3.4
+stars: 4
 ratings: 401
-reviews: 35
+reviews: 26
 size: 
 website: http://www.mexo.io
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
 redirect_from: 
+developerName: TruBit Ltd
 features: 
 
 ---

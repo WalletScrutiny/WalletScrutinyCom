@@ -28,6 +28,7 @@ twitter: CoinCloudATM
 social:
 - https://www.facebook.com/coincloudATM
 redirect_from: 
+developerName: Coin Cloud
 features: 
 
 ---

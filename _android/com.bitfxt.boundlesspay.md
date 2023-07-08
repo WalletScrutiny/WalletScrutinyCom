@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/boundlesspayofficial/
 - https://www.linkedin.com/company/boundlesspayofficial/
 redirect_from: 
+developerName: Boundless Nexus
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
 - https://www.facebook.com/gokumarket/
 redirect_from: 
+developerName: 
 features: 
 
 ---

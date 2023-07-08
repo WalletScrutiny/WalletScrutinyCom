@@ -10,7 +10,7 @@ appCountry:
 released: 2020-05-18
 updated: 2023-04-14
 version: 1.6.0
-stars: 
+stars: 3.8
 ratings: 
 reviews: 
 size: 
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Bancryp International
 features: 
 
 ---

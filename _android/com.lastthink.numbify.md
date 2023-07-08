@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.lastthink.numbify.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Addevice
 features: 
 
 ---

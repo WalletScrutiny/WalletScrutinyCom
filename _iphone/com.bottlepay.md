@@ -8,11 +8,11 @@ appId: com.bottlepay
 appCountry: gb
 idd: '1510029326'
 released: 2021-02-10
-updated: 2023-03-30
-version: 2.2.8
+updated: 2023-06-08
+version: 2.2.15
 stars: 4.4
-reviews: 283
-size: '166542336'
+reviews: 302
+size: '166439936'
 website: https://bottlepay.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: bottlepay
 social: 
 features:
 - ln
+developerName: Bottlepay Limited
 
 ---
 

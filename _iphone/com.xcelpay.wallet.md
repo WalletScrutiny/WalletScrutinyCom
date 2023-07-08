@@ -8,11 +8,11 @@ appId: com.xcelpay.wallet
 appCountry: 
 idd: 1461215417
 released: 2019-05-26
-updated: 2023-03-29
-version: 2.78.0
-stars: 4.3
-reviews: 52
-size: '42947584'
+updated: 2023-06-09
+version: 2.78.1
+stars: 4.4
+reviews: 57
+size: '43331584'
 website: http://xcelpay.io
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
 features: 
+developerName: XcelPay Limited
 
 ---
 

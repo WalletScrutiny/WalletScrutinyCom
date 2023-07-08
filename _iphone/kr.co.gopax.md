@@ -8,11 +8,11 @@ appId: kr.co.gopax
 appCountry: kr
 idd: 1369896843
 released: 2018-06-21
-updated: 2023-05-02
-version: 2.2.6
+updated: 2023-06-20
+version: 2.3.0
 stars: 2.9
 reviews: 487
-size: '109092864'
+size: '113794048'
 website: https://www.gopax.co.kr/notice
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Streami Inc.
 
 ---
 

@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/tomatochain_official/
 - https://t.me/tomatochain_official_Eng
 features: 
+developerName: eTomato
 
 ---
 

@@ -27,6 +27,7 @@ twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX
 features: 
+developerName: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2022-11-14
 version: 3.0.2
 stars: 3.4
 ratings: 2913
-reviews: 527
+reviews: 528
 size: 
 website: https://ShapeShift.com
 repository: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ShapeShiftPlatform
 redirect_from:
 - /com.shapeshift.droid_shapeshift/
+developerName: ShapeShift.com
 features: 
 
 ---

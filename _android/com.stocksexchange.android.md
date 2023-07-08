@@ -19,14 +19,15 @@ repository:
 issue: 
 icon: com.stocksexchange.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-10
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Data Protection Corporation
 features: 
 
 ---

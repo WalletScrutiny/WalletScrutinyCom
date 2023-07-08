@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /co.hodlwallet/
 - /posts/co.hodlwallet/
+developerName: Hodl Wallet INC
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter: nashsocial
 social:
 - https://www.linkedin.com/company/nashsocial
 features: 
+developerName: 
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2019-03-17
 version: 0.1.9
 stars: 4
 ratings: 82
-reviews: 24
+reviews: 25
 size: 
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/freewallet.io
 redirect_from:
 - /io.freewallet.mobile/
+developerName: Jeremy Johnson
 features: 
 
 ---

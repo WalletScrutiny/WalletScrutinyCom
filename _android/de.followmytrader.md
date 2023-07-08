@@ -8,8 +8,8 @@ users: 10000
 appId: de.followmytrader
 appCountry: 
 released: 2020-03-09
-updated: 2023-04-27
-version: 2.1.1
+updated: 2023-06-21
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/
 redirect_from: 
+developerName: FELS Group GmbH
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/btcalpha
 - https://www.facebook.com/btcalpha
 features: 
+developerName: BTC-Alpha LTD
 
 ---
 

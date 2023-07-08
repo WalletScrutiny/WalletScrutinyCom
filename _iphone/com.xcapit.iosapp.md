@@ -8,11 +8,11 @@ appId: com.xcapit.iosapp
 appCountry: ar
 idd: '1545648148'
 released: 2020-12-28
-updated: 2023-04-24
-version: 3.19.1
-stars: 4.6
-reviews: 27
-size: '61411328'
+updated: 2023-06-22
+version: 3.21.2
+stars: 4.5
+reviews: 28
+size: '61020160'
 website: https://xcapit.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
+developerName: Cryptolab SAS
 
 ---
 

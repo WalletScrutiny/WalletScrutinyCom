@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-04-15
 updated: 2023-04-20
 version: 3.1.22
-stars: 4.1
+stars: 4
 ratings: 5765
 reviews: 17
 size: 
@@ -28,6 +28,7 @@ twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
 redirect_from: 
+developerName: Bitay Technology
 features: 
 
 ---

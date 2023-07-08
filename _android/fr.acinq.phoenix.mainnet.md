@@ -4,15 +4,15 @@ title: Phoenix - LN Bitcoin wallet
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2023-02-09
-version: 1.4.26
-stars: 4.4
+updated: 2023-06-29
+version: 1.4.27
+stars: 4.3
 ratings: 314
-reviews: 30
+reviews: 33
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -54,6 +54,7 @@ social:
 redirect_from:
 - /fr.acinq.phoenix.mainnet/
 - /posts/fr.acinq.phoenix.mainnet/
+developerName: ACINQ
 features:
 - ln
 

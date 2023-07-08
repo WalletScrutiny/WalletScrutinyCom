@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.safesenda.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Safesenda App
 features: 
 
 ---

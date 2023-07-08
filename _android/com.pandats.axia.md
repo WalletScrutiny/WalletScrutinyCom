@@ -8,8 +8,8 @@ users: 100000
 appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
-updated: 2023-04-09
-version: 1.0.59
+updated: 2023-06-21
+version: 1.0.63
 stars: 4.6
 ratings: 744
 reviews: 3
@@ -27,6 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Deloce LTD
 features: 
 
 ---

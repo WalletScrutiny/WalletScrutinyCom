@@ -27,6 +27,7 @@ twitter: klever_io
 social:
 - https://www.facebook.com/klever.io
 features: 
+developerName: Klever Exchange
 
 ---
 

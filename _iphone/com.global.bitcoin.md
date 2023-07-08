@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/BitcoinGlobalEx
 - https://www.reddit.com/r/BITCOIN_GLOBAL
 features: 
+developerName: Bitcoin Global
 
 ---
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/eidoocrypto
 - https://www.reddit.com/r/eidooapp
 features: 
+developerName: 
 
 ---
 

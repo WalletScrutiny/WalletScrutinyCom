@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.belcobtm.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: ATUM Network LLC
 features: 
 
 ---

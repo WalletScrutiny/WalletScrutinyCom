@@ -19,15 +19,16 @@ repository:
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-01-23
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: BlockHebe
 social: 
 redirect_from:
 - /posts/com.hebeblock.hebewallet/
+developerName: HebeBlock
 features: 
 
 ---

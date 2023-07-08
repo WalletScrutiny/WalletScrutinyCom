@@ -8,8 +8,8 @@ users: 10000
 appId: com.capitalika.exhange
 appCountry: 
 released: 2019-03-18
-updated: 2022-06-06
-version: 2.0.12
+updated: 2023-04-19
+version: 2.0.14
 stars: 1.8
 ratings: 
 reviews: 4
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
 - https://www.instagram.com/capitalika/
 redirect_from: 
+developerName: Capitalika
 features: 
 
 ---

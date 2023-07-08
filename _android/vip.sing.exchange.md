@@ -3,12 +3,12 @@ wsId:
 title: StarEx - Buy Bitcoin
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: vip.sing.exchange
 appCountry: 
 released: 2021-05-11
-updated: 2023-03-31
-version: 3.4.9.2
+updated: 2023-06-01
+version: 3.5.2.2
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +19,14 @@ issue:
 icon: vip.sing.exchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: starex.sg
 features: 
 
 ---

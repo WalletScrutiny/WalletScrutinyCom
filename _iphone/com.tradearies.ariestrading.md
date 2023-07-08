@@ -8,11 +8,11 @@ appId: com.tradearies.ariestrading
 appCountry: ng
 idd: 1554894180
 released: 2021-06-29
-updated: 2023-03-08
-version: 3.2.2
+updated: 2023-06-28
+version: '3.3'
 stars: 0
 reviews: 0
-size: '42784768'
+size: '42801152'
 website: https://tradearies.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/tradearies
 - https://www.facebook.com/TradeAries
 features: 
+developerName: Aries Financial, Inc.
 
 ---
 

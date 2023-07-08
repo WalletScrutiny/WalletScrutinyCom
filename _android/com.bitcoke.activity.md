@@ -27,6 +27,7 @@ reviewArchive:
 twitter: BitCokedotcom
 social: 
 redirect_from: 
+developerName: Bitcoke
 features: 
 
 ---

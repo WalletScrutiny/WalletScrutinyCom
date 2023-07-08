@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/zbx
 - https://www.facebook.com/ZBXExchange
 features: 
+developerName: Zillion Bits AG
 
 ---
 

@@ -10,23 +10,24 @@ appCountry:
 released: 2020-10-08
 updated: 2021-06-25
 version: '1.1'
-stars: 3.8
+stars: 3.3
 ratings: 48
-reviews: 10
+reviews: 7
 size: 
 website: 
 repository: 
 issue: 
 icon: com.xbt.watcher.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fake
-date: 2022-07-01
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: XBT Crypto Media
 features: 
 
 ---

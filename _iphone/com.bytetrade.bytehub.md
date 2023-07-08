@@ -27,6 +27,7 @@ twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
 features: 
+developerName: BYTETRADE(HK) LIMITED
 
 ---
 

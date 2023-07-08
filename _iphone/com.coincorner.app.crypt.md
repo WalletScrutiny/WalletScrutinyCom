@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinCorner
 features:
 - ln
+developerName: CoinCorner Ltd
 
 ---
 

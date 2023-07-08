@@ -27,6 +27,7 @@ twitter: money_pipe
 social:
 - https://www.facebook.com/moneypipewallet
 features: 
+developerName: 
 
 ---
 

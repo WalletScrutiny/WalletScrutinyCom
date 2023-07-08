@@ -8,11 +8,11 @@ appId: com.namicorp.exchange
 appCountry: us
 idd: '1480302334'
 released: 2019-09-30
-updated: 2023-04-13
-version: 2.1.1
+updated: 2023-06-26
+version: 2.1.3
 stars: 3
 reviews: 10
-size: '71409664'
+size: '100312064'
 website: https://nami.io/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 features: 
+developerName: NAMI TRADE PTE. LTD.
 
 ---
 

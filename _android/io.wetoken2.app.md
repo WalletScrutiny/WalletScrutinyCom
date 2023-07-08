@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/user/WeTokenPay
 - https://t.me/WeToken_English
 redirect_from: 
+developerName: Wetoken Technology Limited
 features: 
 
 ---

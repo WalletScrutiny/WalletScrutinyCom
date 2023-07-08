@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/wanchain
 - https://github.com/wanchain
 redirect_from: 
+developerName: 
 features: 
 
 ---

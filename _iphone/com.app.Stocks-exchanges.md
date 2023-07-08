@@ -18,14 +18,15 @@ repository:
 issue: 
 icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-02-08
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
+developerName: DATA PROTECTION CORPORATION
 
 ---
 

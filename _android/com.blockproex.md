@@ -3,7 +3,7 @@ wsId:
 title: BlockProEx - Buy BTC, ETH, TRX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.blockproex
 appCountry: 
 released: 2022-02-24
@@ -26,6 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BlockProEx Infotech
 features: 
 
 ---

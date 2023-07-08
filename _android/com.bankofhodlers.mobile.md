@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 redirect_from: 
+developerName: Vauld
 features: 
 
 ---

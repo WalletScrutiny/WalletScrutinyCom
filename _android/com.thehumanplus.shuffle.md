@@ -19,9 +19,9 @@ repository: https://github.com/HUPAYX
 issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-12-08
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: hupayx
@@ -29,6 +29,7 @@ social:
 - https://medium.com/@hupayx
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 redirect_from: 
+developerName: HUPAYX
 features: 
 
 ---

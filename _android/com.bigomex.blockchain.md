@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: bigomexofficial
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bigomexofficial
 - https://www.reddit.com/r/bigomex
 redirect_from: 
+developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
 features: 
 
 ---
