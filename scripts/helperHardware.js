@@ -64,7 +64,7 @@ function refreshFile (fileName, content, octokit) {
     if (!ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
       const customHelperPath = `./custom-helpers/${category}/${appId}.js`
       let app
-      if (existsSync(customHelperPath)) {
+      if (existsSync(path.join('scripts', customHelperPath))) {
         const customHelper = require(customHelperPath)
         app = await customHelper.getVersionInfo(octokit)
       } else {
