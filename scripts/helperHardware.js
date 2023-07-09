@@ -56,7 +56,9 @@ function refreshFile (fileName, content, octokit) {
 
     // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
     if (!githubPattern.test(header.repository)) {
-      console.warn(`The source code for ${appId} is not hosted on Github. Currently, This script only supports Github.`)
+      if (header.repository) {
+        console.warn(`The source code for ${appId} is not hosted on Github. Currently, This script only supports Github.`)
+      }
       stats.remaining--
       return release()
     }
