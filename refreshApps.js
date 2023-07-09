@@ -1,6 +1,7 @@
 const appStore = require('./scripts/helperAppStore.js')
 const playStore = require('./scripts/helperPlayStore.js')
 const hardware = require('./scripts/helperHardware.js')
+const bearer = require('./scripts/helperBearer.js')
 const fs = require('fs')
 const dateFormat = require('dateformat')
 const readline = require('readline')
@@ -12,19 +13,22 @@ async function refresh (markDefunct, apps, githubApi) {
     const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1])
     const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1])
     const hardwareIds = ids.filter(it => it.startsWith('hardware')).map(it => it.split('/')[1])
+    const bearerIds = ids.filter(it => it.startsWith('bearer')).map(it => it.split('/')[1])
     appStore.refreshAll(appStoreIds, markDefunct, githubApi)
     playStore.refreshAll(playStoreIds, markDefunct, githubApi)
     hardware.refreshAll(hardwareIds, githubApi)
+    bearer.refreshAll(bearerIds, githubApi)
   } else {
     appStore.refreshAll(undefined, undefined, githubApi)
     playStore.refreshAll(undefined, undefined, githubApi)
     hardware.refreshAll(undefined, githubApi)
+    bearer.refreshAll(undefined, githubApi)
   }
   const updateMillis = 500
   var msg = ''
   var msgAgeMs = 0
   const i = setInterval(() => {
-    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining + hardware.stats.remaining}, 🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}, 🗃: defunct ${hardware.stats.defunct}, updated ${hardware.stats.updated}`
+    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining + hardware.stats.remaining + bearer.stats.remaining}, 🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}, 🗃: defunct ${hardware.stats.defunct}, updated ${hardware.stats.updated}, 💳: defunct ${bearer.stats.defunct}, updated ${bearer.stats.updated}`
     readline.clearLine(process.stdout)
     readline.cursorTo(process.stdout, 0)
     process.stdout.write(newMsg)
@@ -35,7 +39,7 @@ async function refresh (markDefunct, apps, githubApi) {
       msg = newMsg
       msgAgeMs = 0
     }
-    if (playStore.stats.remaining + appStore.stats.remaining + hardware.stats.remaining === 0 || msgAgeMs > 30000) {
+    if (playStore.stats.remaining + appStore.stats.remaining + hardware.stats.remaining + bearer.stats.remaining === 0 || msgAgeMs > 30000) {
       console.log(`
         Finished.`)
       clearInterval(i)
