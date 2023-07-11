@@ -1,11 +1,11 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
 const fs = require('fs/promises')
-const existsSync = require('fs').existsSync
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
-const { Octokit } = require("octokit")
+const { Octokit } = require('octokit')
+const githubHelper = require('./githubHelper.js')
 const sem = new Semaphore(50)
 
 const stats = {
@@ -14,7 +14,6 @@ const stats = {
   remaining: 0
 }
 
-const githubPattern =  /(https:\/\/github\.com)(\/[\w.@:\-~]+){2,}/
 const ignoreVerdicts = ['nowallet', 'fake', 'unreleased']
 const ignoreMetas = ['discontinued']
 const category = 'hardware'
@@ -54,46 +53,17 @@ function refreshFile (fileName, content, octokit) {
       return release()
     }
 
-    // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
-    if (!githubPattern.test(header.repository)) {
-      if (header.repository) {
-        console.warn(`The source code for ${appId} is not hosted on Github. Currently, This script only supports Github.`)
-      }
-      stats.remaining--
-      return release()
-    }
-
     if (!ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
-      const customHelperPath = `./custom-helpers/${category}/${appId}.js`
       let app
-      if (existsSync(path.join('scripts', customHelperPath))) {
-        const customHelper = require(customHelperPath)
-        app = await customHelper.getVersionInfo(octokit)
-      } else {
-        const parts = header.repository.split('/')
-        const owner = parts[3]
-        const repo = parts[4]
-        try {
-          app = (await octokit.request('GET /repos/{owner}/{repo}/releases/latest', { owner, repo })).data
-        } catch (err) {
-          if (err.status === 404) {
-            try {
-              console.log(`Couldn't find releases for ${header.title} at https://github.com/${owner}/${repo} ... trying to get tags…`)
-              app = (await octokit.request('GET /repos/{owner}/{repo}/tags', { owner, repo })).data[0]
-              const commitSHA = app.commit.sha
-              const commit = (await octokit.request('GET /repos/{owner}/{repo}/commits/{commitSHA}', { owner, repo, commitSHA })).data
-              app.created_at = commit.commit.author.date
-            } catch (err) {
-              console.log(`No version info available on Github for ${header.title}`)
-            }
-          } else {
-            console.error(`Couldn't find releases for ${header.title} at https://github.com/${owner}/${repo}`, err)
-          }
-        }
+      // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
+      if (githubHelper.githubPattern.test(header.repository)) {
+        app = await githubHelper.getAppInfo(header, category, octokit)
+      } else if (header.repository) {
+        console.warn(`The source code for ${appId} is not hosted on Github. Currently, This script only supports Github.`)
       }
 
       if (app) {
-        console.log(`${header.title}: Last release was ${app?.name} on ${app?.created_at}.`)
+        console.log(`${header.title}: Last release was ${app.name} on ${app.updated}.`)
 
         updateFromApp(header, app)
         stats.updated++
@@ -112,12 +82,11 @@ function updateFromApp (header, app) {
   if (app === undefined) {
     return
   }
-  const parsedVersion = (app.tag_name ?? app.name).match(/\d+(?:\.\d+)+/) // strip anything except standard version number
-  header.version = parsedVersion ? parsedVersion[0] : app.name
+  header.version = app.version
   // if api reports an older updated date than what we determined, keep our data
-  header.updated = header.updated && new Date(header.updated) > new Date(app.created_at)
+  header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
     ? header.updated
-    : new Date(app.created_at)
+    : new Date(app.updated)
   header.meta = header.meta || 'ok'
   helper.updateMeta(header)
 }

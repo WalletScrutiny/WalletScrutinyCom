@@ -5,7 +5,8 @@ const fs = require('fs/promises')
 const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
-const { Octokit } = require("octokit")
+const { Octokit } = require('octokit')
+const githubHelper = require('./githubHelper.js')
 const sem = new Semaphore(50)
 const stats = {
   defunct: 0,
@@ -13,12 +14,14 @@ const stats = {
   remaining: 0
 }
 
+const ignoreVerdicts = ['nowallet', 'fake', 'unreleased']
+const ignoreMetas = ['discontinued']
 const category = 'android'
 const folder = `_${category}/`
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
-                'updated version stars ratings reviews size website repository ' +
-                'issue icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social redirect_from ' + 'developerName features').split(' ')
+                'updated version sourceVersion stars ratings reviews size website ' +
+                'repository issue icon bugbounty meta verdict date signer ' +
+                'reviewArchive twitter social redirect_from developerName features').split(' ')
 
 async function refreshAll (ids, markDefunct, githubApi) {
   const octokit = new Octokit({ auth: githubApi })
@@ -44,20 +47,24 @@ function refreshFile (fileName, content, markDefunct, octokit) {
     const appId = header.appId
     const appCountry = header.appCountry || 'us'
     helper.checkHeaderKeys(header, headers)
-    if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
-      let githubRelease
-      try {
-        if (header.repository && header.repository.startsWith('https://github.com/')) {
-          const parts = header.repository.split('/')
-          const owner = parts[3]
-          const repo = parts[4]
-          const githubResult = await octokit.request('GET /repos/{owner}/{repo}/releases{?per_page,page}', { owner: owner, repo: repo })
-          githubRelease = githubResult.data[0]
-          const count = githubResult.data.length
-          console.log(`${header.title}: ${count} releases. Last release was ${githubRelease.name} on ${githubRelease.created_at}.`)
-        }
-      } catch (err) {
-        console.error(`Error with ${header.title}:`, err)
+    if (helper.was404(`${folder}${appId}`) || 'defunct'.includes(header.meta)) {
+      stats.defunct++
+      helper.writeResult(folder, header, body)
+      stats.remaining--
+      return release()
+    }
+
+    if (!ignoreVerdicts.includes(header.verdict) && !ignoreMetas.includes(header.meta)) {
+      let repoApp
+      // TODO: Mohammad 05-26-2023: Support other repos like Gitlab and Codeberg
+      if (githubHelper.githubPattern.test(header.repository)) {
+        repoApp = await githubHelper.getAppInfo(header, category, octokit)
+      } else if (header.repository) {
+        console.warn(`The source code for ${appId} is not hosted on Github. Currently, This script only supports Github.`)
+      }
+
+      if (repoApp) {
+        console.log(`${header.title}: Last release on repository was ${repoApp.name} on ${repoApp.updated}.`)
       }
 
       try {
@@ -69,7 +76,7 @@ function refreshFile (fileName, content, markDefunct, octokit) {
         const iconPath = `images/wIcons/android/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
           header.icon = `${appId}.${iconExtension}`
-          updateFromApp(header, app)
+          updateFromApp(header, app, repoApp)
           stats.updated++
           helper.writeResult(folder, header, body)
           stats.remaining--
@@ -91,25 +98,22 @@ function refreshFile (fileName, content, markDefunct, octokit) {
         release()
       }
     } else {
-      stats.defunct++
-      helper.writeResult(folder, header, body)
       stats.remaining--
       release()
     }
-  }).catch(err => {
-    console.error(`Does this ever get triggered 3? ${err}`)
-  })
+  }).catch(console.error)
 }
 
 /**
  * Update the header from app
  **/
-function updateFromApp (header, app) {
+function updateFromApp (header, app, repoApp) {
   if (app === undefined) {
     return
   }
   header.title = app.title || header.title
   header.version = (app.version || 'various').replace(/["\\]*/g, '') // strip " and \ that won't be missed in the version string
+  header.sourceVersion = repoApp?.version
   header.released = header.released || app.released
   if ((header.verdict === '' || header.verdict === 'wip') && app.minInstalls < 1000) {
     header.verdict = 'fewusers'
@@ -117,10 +121,14 @@ function updateFromApp (header, app) {
     header.verdict = 'wip'
   }
   header.meta = header.meta || 'ok'
+  // Consider more recent date between play store and repo
+  const storeDate = new Date(app.updated)
+  const repoDate = repoApp?.updated ? new Date(repoApp?.updated) : null
+  const updateDate = repoDate > storeDate ? repoDate : storeDate
   // if api reports an older updated date than what we determined, keep our data
-  header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
+  header.updated = header.updated && new Date(header.updated) > updateDate
     ? header.updated
-    : new Date(app.updated)
+    : updateDate
   header.users = app.minInstalls
   header.stars = app.score || null
   header.reviews = app.reviews || null
