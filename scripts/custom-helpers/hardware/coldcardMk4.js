@@ -8,7 +8,7 @@ async function getVersionInfo(octokit) {
 
     return app
   } catch (err) {
-    console.error(`Error while fetching releases from Github for TrezorOne:`, err)
+    console.error(`Error while fetching releases from Github for coldcardMk4:`, err)
   }
 }
 
