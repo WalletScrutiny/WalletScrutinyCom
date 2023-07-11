@@ -2,7 +2,8 @@
 wsId: 
 title: AntBot-Binance OKX Bybit Bot
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: ea.antbot.org
 appCountry: 
@@ -19,15 +20,26 @@ issue:
 icon: ea.antbot.org.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: nowallet
+date: 2023-07-11
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: antrade_io
+social:
+- https://t.me/AntBotQuantify
 redirect_from: 
 developerName: Crypto Trading Bot
 features: 
 
 ---
 
+## App Description from Google Play
+
+> This is a comprehensive investment system that covers investment target screening, arbitrage strategies, asset allocation, and risk control. It utilizes advanced trading algorithms to assist you enhance profitability and reduce risk.
+
+## Analysis
+
+- Once we're in the app, we were presented with an interface that looks very much like an exchange. The options are similar: home, market, trade, community, asset (wallet).
+- There are also many cryptocurrency pairs with their updated prices.
+- The 'asset' option gives a notice to the user to bind the API keys for the exchange.
+- This app **does not generate its own wallet**.
