@@ -34,7 +34,7 @@ podman run --rm -v ${PWD}:/firmware ubuntu:20.04 bash -x -c "
         git checkout ${type}/v${version}
         BOOT_VERSION=\$(./tools/version.sh ./legacy/bootloader/version.h)
         FIRMWARE_VERSION=${version}
-        BUILD_DATE=\$(git --no-pager log -1 --format=%cd --date=format:\"%Y%m%d\" classic/v${version})
+        BUILD_DATE=\$(git --no-pager log -1 --format=%cd --date=format:\"%Y%m%d\" ${type}/v${version})
         SHORT_HASH=\$(git rev-parse --short HEAD)
         PRODUCTION=1
         nix-shell --run \"poetry install\"
@@ -43,5 +43,5 @@ podman run --rm -v ${PWD}:/firmware ubuntu:20.04 bash -x -c "
         cp ./legacy/firmware/${type}*Stable*.bin /firmware
         cd /firmware
         wget -O \"downloaded-firmware.bin\" \
-            \"https://github.com/OneKeyHQ/firmware/releases/download/${type}%2Fv${version}/${type}.${version}-Stable-\${short_release_date}-\${SHORT_HASH:0:-2}.signed.bin\"'"
+            \"https://github.com/OneKeyHQ/firmware/releases/download/${type}%2Fv${version}/${type}.${version}-Stable-${short_release_date}-\${SHORT_HASH:0:-2}.signed.bin\"'"
 sha256sum *
