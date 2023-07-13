@@ -1,38 +1,113 @@
 ---
-title: OneKey - Limited Edition
+title: OneKey - Classic
 appId: onekey
 authors:
 - kiwilamb
 - danny
 - leo
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
+- mohammad
+released:
+discontinued:
+updated:
+version:
+binaries:
+dimensions:
+weight:
 provider: Bixin
 providerWebsite: https://onekey.so/
 website: https://onekey.so/en-US/hardware
 shop: https://onekey.so/en-US/hardware
-country: CN
+country: SG
 price: 42USD
-repository: 
-issue: https://github.com/OneKeyHQ/firmware/issues/17
+repository: https://github.com/OneKeyHQ/firmware
+issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.png
-bugbounty: 
-meta: outdated
-verdict: nosource
-date: 2022-12-28
-signer: 
-reviewArchive: 
+bugbounty:
+meta: ok
+verdict: nonverifiable
+date: 2023-07-12
+signer:
+reviewArchive:
+- date: 2022-12-28
+  version:
+  appHash:
+  gitRevision: eb1b55711cd4bbb78072e47c1f6cc9fa67074b5e
+  verdict: nosource
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
-features: 
+features:
 
 ---
+
+**Update 2023-07-12**: We followed the steps that provider sent to us and ran a script which is based on their
+[Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-classic.yml).
+Here is the result for v3.0.0:
+
+```
+$ sha256sum classic.3.0.0-Stable-0511-0bf60dd.bin downloaded-firmware.bin
+
+1b0e3382adc909fd85b2225f83cf6cd3886e73ff1bf2901ed8ccb1a6414366fd  classic.3.0.0-Stable-0511-0bf60dd.bin
+a5d4ac8b98c1249f839fba018850df7deb66a3720f13a01c5d94250e426a0a71  downloaded-firmware.bin
+```
+The hashes were different, So we had a look at the diff of the hex formatted binaries:
+
+```
+$ xxd classic.3.0.0-Stable-0511-0bf60dd.bin > classic.3.0.0-Stable-0511-0bf60dd.hex
+$ xxd downloaded-firmware.bin > downloaded-firmware.hex
+$ diff classic.3.0.0-Stable-0511-0bf60dd.hex downloaded-firmware.hex
+
+...
+
+304c304
+< 000012f0: 63f0 c4f9 2022 0021 15a8 63f0 bff9 3d46  c... ".!..c...=F
+---
+> 000012f0: 63f0 c2f9 2022 0021 15a8 63f0 bdf9 3d46  c... ".!..c...=F
+328c328
+< 00001470: 97fd 31b0 bde8 f08f f8ff 0120 2de9 f74f  ..1........ -..O
+---
+> 00001470: 95fd 31b0 bde8 f08f f8ff 0120 2de9 f74f  ..1........ -..O
+402c402
+< 00001910: 0120 0020 7047 2822 0021 62f0 afbe 0000  . . pG(".!b.....
+---
+> 00001910: 0120 0020 7047 2822 0021 62f0 adbe 0000  . . pG(".!b.....
+518c518
+< 00002050: 4ff0 0003 01d0 5df0 a3ff 0cb0 10bd 00bf  O.....].........
+---
+> 00002050: 4ff0 0003 01d0 5df0 a1ff 0cb0 10bd 00bf  O.....].........
+751c751
+< 00002ee0: 1a68 1b9b 5a40 4ff0 0003 01d0 5df0 58f8  .h..Z@O.....].X.
+---
+> 00002ee0: 1a68 1b9b 5a40 4ff0 0003 01d0 5df0 56f8  .h..Z@O.....].V.
+775c775
+< 00003060: 019b 5a40 4ff0 0003 01d0 5cf0 99ff 02b0  ..Z@O.....\.....
+---
+> 00003060: 019b 5a40 4ff0 0003 01d0 5cf0 97ff 02b0  ..Z@O.....\.....
+799,800c799,800
+< 000031e0: 1899 2030 2844 1db0 bde8 f04f 61f0 1eba  .. 0(D.....Oa...
+< 000031f0: 019b 3246 03f1 2004 6019 1899 61f0 16fa  ..2F.. .`...a...
+---
+> 000031e0: 1899 2030 2844 1db0 bde8 f04f 61f0 1cba  .. 0(D.....Oa...
+> 000031f0: 019b 3246 03f1 2004 6019 1899 61f0 14fa  ..2F.. .`...a...
+1249c1249
+< 00004e00: 5bf0 cef8 27b0 f0bd f8ff 0120 f0b5 0346  [...'...... ...F
+---
+> 00004e00: 5bf0 ccf8 27b0 f0bd f8ff 0120 f0b5 0346  [...'...... ...F
+1258,1259c1258,1259
+< 00004e90: 4ff0 0003 03d0 5bf0 83f8 0120 f4e7 13b0  O.....[.... ....
+< 00004ea0: f0bd 00bf f8ff 0120 c078 0708 f8b5 1546  ....... .x.....F
+---
+> 00004e90: 4ff0 0003 03d0 5bf0 81f8 0120 f4e7 13b0  O.....[.... ....
+> 00004ea0: f0bd 00bf f8ff 0120 bc78 0708 f8b5 1546  ....... .x.....F
+
+...
+
+```
+
+The above diff result is truncated because there are a lot of diffs.
+We reported this problem in
+[an issue on Github](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406).
+Sadly at the current state, This firmware is **not verifiable**.
 
 **Update 2022-12-28**: The provider sent us a
 [link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
@@ -56,15 +131,15 @@ OneKey claims that the private keys are only [controlled by the user](https://he
 
 [Tutorial on how to withdraw coins to OneKey](https://help.onekey.so/hc/en-us/articles/4408458838799-How-to-withdraw-coins-from-exchanges-to-OneKey-Mini-hardware-wallet)
 
-OneKey has a 1.54 Inch OLED with 128 x 64 pixels. 
+OneKey has a 1.54 Inch OLED with 128 x 64 pixels.
 
 From the renderings provided on this [page](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial), the OneKey hardware wallet has a confirmation button.
 
 However, this is from the official documentation. We were not able to find third-party content such as pictures or videos on social media or blogs that depicts the actual device.
 
-## Interface 
+## Interface
 
-Activating the wallet starts with the device providing the mnemonics and then securing it with a pin. 
+Activating the wallet starts with the device providing the mnemonics and then securing it with a pin.
 
 The wallet activation tutorial can be found [here](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial).
 
