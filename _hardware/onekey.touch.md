@@ -17,7 +17,7 @@ provider: OneKey
 providerWebsite:
 website: https://onekey.so/
 shop: https://onekey.so/products/onekey-touch-hardware-wallet/
-country: HK
+country: SG
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
 issue:
