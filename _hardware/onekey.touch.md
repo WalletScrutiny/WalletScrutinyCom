@@ -21,7 +21,7 @@ country: HK
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware/releases/tag/touch%2Fv4.3.0
 issue:
-icon: onekey.lite.png
+icon: onekey.touch.png
 bugbounty:
 meta: ok
 verdict: wip
