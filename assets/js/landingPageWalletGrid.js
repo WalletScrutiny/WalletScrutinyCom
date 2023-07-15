@@ -1,5 +1,6 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER
 const paginationLimit = 12
+window.blockScrollingFocus=false
 window.verdictCount = {}
 const wfInputTargets = { verdict: { type: "dropdown" }, platform: { type: "dropdown" }, "query-string": { type: "string" } }
 for (const [key, value] of Object.entries(wfInputTargets)) {
