@@ -36,6 +36,7 @@ function updateWalletGridInputOriginatingFromURL() {
   const queryRaw = param.get('query-string') ? param.get('query-string') : ""
   const query = queryRaw.toUpperCase()
   const page = param.get('page') ? param.get('page') : 1
+  if (param.size == 0) { window.blockScrollingFocus = true }
   buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw)
 }
 
@@ -206,7 +207,12 @@ function generateAndAppendPagination(workingArray, pageNo) {
     pagination.append(clickTarget)
   }
   document.querySelector(".wallet-placeholder").append(pagination)
-  setTimeout(() => { window.scroll(0, document.querySelector("#homepageSearch").offsetTop) },100)
+  if (!window.blockScrollingFocus) {
+    setTimeout(() => {
+      window.scroll(0, document.querySelector("#homepageSearch").offsetTop)
+      window.blockScrollingFocus=false
+    }, 100)
+  }
 }
 
 function generateDropdownCounts(workingArray, platform) {
@@ -227,7 +233,7 @@ function generateDropdownCounts(workingArray, platform) {
 
 function generateFeedbackText(workingArray, platform, verdict, queryRaw) {
   let feedback = document.createElement("p")
-  feedback.style["text-alignment"]='center'
+  feedback.style["text-alignment"] = 'center'
   let feedbackText = false
   const platformText = document.querySelector(`.dropdown-options.dropdown-platform .option.${platform}`).getAttribute("data-name")
   const verdictText = document.querySelector(`.dropdown-options.dropdown-verdict .option.${verdict}`).getAttribute("data-name")
