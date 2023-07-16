@@ -110,7 +110,7 @@ function buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw
   })
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
-  generateDropdownCounts(workingArray, platform)
+  generateDropdownAndInputCounts(workingArray, platform)
   generateFeedbackText(workingArray, platform, verdict, queryRaw)
 }
 
@@ -216,7 +216,8 @@ function generateAndAppendPagination(workingArray, pageNo) {
   }
 }
 
-function generateDropdownCounts(workingArray, platform) {
+function generateDropdownAndInputCounts(workingArray, platform) {
+  console.log(workingArray.length)
   countProducts(workingArray)
   for (const option of document.querySelectorAll(".dropdown-options.dropdown-verdict .option"))
     if (option.hasAttribute("data")) {
@@ -229,7 +230,7 @@ function generateDropdownCounts(workingArray, platform) {
         option.setAttribute("data-count", count)
       }
     }
-
+  document.querySelector(".query-string").setAttribute("placeholder", document.querySelector(".query-string").getAttribute("placeholder").replace(/all/, String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ",")))
 }
 
 function generateFeedbackText(workingArray, platform, verdict, queryRaw) {
@@ -244,7 +245,7 @@ function generateFeedbackText(workingArray, platform, verdict, queryRaw) {
     if (workingArray.length === 0) {
       let lessWorse = false
       let i = 0
-      generateDropdownCounts(workingArray, platform)
+      generateDropdownAndInputCounts(workingArray, platform)
       for (const option of document.querySelectorAll(".dropdown-verdict .option")) {
         if (!option.hasAttribute("data-rank")) { continue }
         if (Number(option.getAttribute("data-rank")) === i && option.getAttribute("data-count") > 0) {
@@ -266,9 +267,6 @@ function generateFeedbackText(workingArray, platform, verdict, queryRaw) {
         case 'allPassed':
           feedbackText = `These ${workingArray.length} wallets passed all tests according to <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
           break;
-        // case 'allPassed':
-        //   feedbackText = `These ${workingArray.length} wallets scored the best ${platform !== 'allPlatforms' ? 'in ' + platformText + ' category' : 'overall'}.<br>Read more about <a href="/methodology/?tests-we-run/${platform}/">our Methodology</a>.`
-        //   break;
         default:
       }
     }
@@ -298,12 +296,12 @@ function countNumberPerPlatformAndVerdict(verdict, platform, toLocale) {
 
 }
 
-function countProducts() {
+function countProducts(workingArray) {
   for (const platform of Object.keys(window.platforms)) {
     window.verdictCount[platform] = {}
     for (const [verdictGroupName, verdictGroup] of Object.entries(verdictGroups)) {
       window.verdictCount[platform][verdictGroupName] = 0
-      for (const wallet of window.wallets) {
+      for (const wallet of workingArray) {
         if (platform !== wallet.folder) {
           continue
         } else if (verdictGroup.metas && verdictGroup.metas.includes(wallet.meta)) {
