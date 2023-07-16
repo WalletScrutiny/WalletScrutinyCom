@@ -2,7 +2,7 @@
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count=`{% include /homepage/full_wallet_count.html %}`</script>
-    <input class="search-filtered-wallets query-string" placeholder="Search all wallet reviews..." spellcheck="false" />
+    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews..." spellcheck="false" />
   </div>
   <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
     <i class="fas fa-filter"></i>
@@ -15,6 +15,9 @@
       {% assign rank = 0 %}
 
       {% for verdictGroup in verdictGroups %}
+        {% if rank == 5 %}
+          {% break %}
+        {% endif %}
         {% case verdictGroup.key %}
         {% when "allPassed" %}
           <div class="option allPassed selected" data="allPassed" data-rank="{{rank}}" data-name="All Tests Passed"><span>All Tests Passed</span></div>
