@@ -7,8 +7,8 @@ users: 500
 appId: cool.pay.paycool
 appCountry: 
 released: 2022-09-16
-updated: 2023-05-31
-version: 2.3.128
+updated: 2023-07-12
+version: 2.3.130
 stars: 
 ratings: 
 reviews: 

@@ -7,8 +7,8 @@ users: 1000
 appId: com.bybis.exchange
 appCountry: 
 released: 
-updated: 2023-05-25
-version: '1.11'
+updated: 2023-07-12
+version: '1.13'
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: https://bybis.com
 repository: 
 issue: 
-icon: com.bybis.exchange.jpg
+icon: com.bybis.exchange.png
 bugbounty: 
 meta: ok
 verdict: wip

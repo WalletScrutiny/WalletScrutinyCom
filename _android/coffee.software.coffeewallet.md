@@ -19,9 +19,9 @@ repository: https://github.com/coffee-software/coffee.wallet/
 issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-29
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: CoffeeWallet

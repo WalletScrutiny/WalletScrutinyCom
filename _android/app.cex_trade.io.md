@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.cex_trade.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-03
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

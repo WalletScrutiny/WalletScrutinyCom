@@ -1,6 +1,6 @@
 ---
 wsId: LogosDVWallet
-title: DV Wallet (LOGOS)
+title: Dives Wallet (DABI)
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.wallet.logos
 appCountry: 
 released: 2020-09-16
-updated: 2022-10-13
-version: 0.3.9
+updated: 2023-07-03
+version: 0.4.0
 stars: 
 ratings: 
 reviews: 

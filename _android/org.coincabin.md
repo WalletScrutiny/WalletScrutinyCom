@@ -7,8 +7,8 @@ users: 500
 appId: org.coincabin
 appCountry: 
 released: 2022-07-29
-updated: 2023-06-24
-version: 1.0.264
+updated: 2023-07-12
+version: 1.0.267
 stars: 
 ratings: 
 reviews: 

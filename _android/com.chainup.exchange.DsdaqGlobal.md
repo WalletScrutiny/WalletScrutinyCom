@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.DsdaqGlobal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-13
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: DsdaqCom

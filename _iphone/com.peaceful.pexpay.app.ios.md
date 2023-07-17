@@ -11,7 +11,7 @@ released: 2022-04-11
 updated: 2023-06-16
 version: 1.19.0
 stars: 3.5
-reviews: 14
+reviews: 15
 size: '347850752'
 website: https://www.pexpay.com
 repository: 

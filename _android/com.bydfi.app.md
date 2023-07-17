@@ -7,11 +7,11 @@ users: 10000
 appId: com.bydfi.app
 appCountry: 
 released: 2023-01-20
-updated: 2023-06-21
-version: 3.2.4
-stars: 4.1
+updated: 2023-07-05
+version: 3.2.5
+stars: 4
 ratings: 
-reviews: 6
+reviews: 20
 size: 
 website: https://www.bydfi.com/
 repository: 

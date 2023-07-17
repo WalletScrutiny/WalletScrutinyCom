@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Livil Technology Co., Limited
+developerName: UAB Livil Pay
 features: 
 
 ---
