@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AQX: Trade Bitcoin & Crypto'
+title: Flipster (AQX)
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 50000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2023-06-22
-version: 1.9.4
+updated: 2023-07-13
+version: 1.10.3
 stars: 3.9
 ratings: 
 reviews: 4
 size: 
-website: https://aqx.com
+website: https://flipster.xyz
 repository: 
 issue: 
 icon: com.prestolabs.android.prex.png

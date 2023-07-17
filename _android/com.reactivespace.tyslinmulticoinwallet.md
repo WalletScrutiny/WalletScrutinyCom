@@ -9,9 +9,9 @@ appCountry:
 released: 2019-07-26
 updated: 2020-09-21
 version: 2.1.38
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 8
+reviews: 7
 size: 
 website: https://tyslin.com/
 repository: 

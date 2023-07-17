@@ -13,7 +13,7 @@ updated: 2023-06-29
 version: 61.0.0
 stars: 3.6
 ratings: 1122
-reviews: 108
+reviews: 109
 size: 
 website: https://www.etoro.com/crypto/wallet
 repository: 

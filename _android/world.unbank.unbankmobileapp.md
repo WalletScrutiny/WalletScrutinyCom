@@ -9,7 +9,7 @@ appCountry:
 released: 2022-04-15
 updated: 2023-05-02
 version: 1.10.3
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 8
 size: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Unbank World
+developerName: Unbank.com
 features: 
 
 ---

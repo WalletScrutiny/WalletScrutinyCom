@@ -3,7 +3,7 @@ wsId:
 title: 'HubitCoinics: Trading Platform'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.hubitcoinics.Hubitcoinics
 appCountry: 
 released: 2023-04-18

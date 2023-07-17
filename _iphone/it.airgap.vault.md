@@ -10,7 +10,7 @@ idd: 1417126841
 released: 2018-08-24
 updated: 2023-07-03
 version: 3.28.0
-stars: 4.3
+stars: 4.5
 reviews: 17
 size: '91276288'
 website: 

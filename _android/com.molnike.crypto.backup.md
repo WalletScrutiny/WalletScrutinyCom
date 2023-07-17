@@ -3,7 +3,7 @@ wsId:
 title: BIP-39 Crypto seed backup
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.molnike.crypto.backup
 appCountry: 
 released: 2023-01-08

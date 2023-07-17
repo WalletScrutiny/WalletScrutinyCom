@@ -3,7 +3,7 @@ wsId:
 title: Bitfrost - Crypto wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: co.bitfrost
 appCountry: 
 released: 2022-05-12

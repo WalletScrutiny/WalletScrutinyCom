@@ -9,9 +9,9 @@ appCountry:
 released: 2021-11-28
 updated: 2023-06-16
 version: 1.2.5
-stars: 3.4
+stars: 3.1
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://scallopx.com/
 repository: 

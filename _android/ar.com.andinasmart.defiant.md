@@ -8,8 +8,8 @@ users: 10000
 appId: ar.com.andinasmart.defiant
 appCountry: ar
 released: 2019-11-19
-updated: 2023-06-28
-version: 5.0.9
+updated: 2023-07-13
+version: 5.0.10
 stars: 4.6
 ratings: 65
 reviews: 40

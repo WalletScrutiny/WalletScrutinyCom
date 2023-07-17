@@ -5,15 +5,15 @@ authors:
 - kiwilamb
 - leo
 released: 2021-01-01
-discontinued:
+discontinued: 
 updated: 2022-05-27
 version: 0.1.34
-binaries:
+binaries: 
 dimensions:
 - 24
 - 60
 - 17
-weight:
+weight: 
 provider: Blockstream Corporation Inc.
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
@@ -23,15 +23,15 @@ price: 39.99USD
 repository: https://github.com/Blockstream/jade
 issue: https://github.com/Blockstream/Jade/issues/26
 icon: blockstreamjade.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2023-06-29
-signer:
+signer: 
 reviewArchive:
 - date: 2022-08-07
   version: 0.1.33
-  appHash:
+  appHash: 
   gitRevision: 89390dfa4b632ab1261a523e1988c81ce2e47710
   verdict: nonverifiable
 twitter: Blockstream
@@ -40,7 +40,7 @@ social:
 - https://www.facebook.com/Blockstream
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
-features:
+features: 
 
 ---
 

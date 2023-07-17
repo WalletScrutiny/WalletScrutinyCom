@@ -11,7 +11,7 @@ updated: 2022-10-30
 version: 1.0.7
 stars: 5
 ratings: 
-reviews: 19
+reviews: 18
 size: 
 website: https://privapp.network/
 repository: 

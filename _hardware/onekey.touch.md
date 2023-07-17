@@ -4,34 +4,34 @@ appId: onekey.touch
 authors:
 - danny
 released: 2022-03-08
-discontinued:
+discontinued: 
 updated: 2023-06-21
 version: 4.3.0
-binaries:
+binaries: 
 dimensions:
-- 88.4
-- 52.5
+- 88
+- 53
 - 9.2
 weight: 75
 provider: OneKey
-providerWebsite:
+providerWebsite: 
 website: https://onekey.so/
 shop: https://onekey.so/products/onekey-touch-hardware-wallet/
 country: SG
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
-issue:
+issue: 
 icon: onekey.touch.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2023-07-13
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv
-features:
+features: 
 
 ---
 

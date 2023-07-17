@@ -8,8 +8,8 @@ users: 10000
 appId: io.nash.app
 appCountry: 
 released: 2019-08-31
-updated: 2023-06-27
-version: 14.4.0
+updated: 2023-07-12
+version: 14.4.2
 stars: 4.6
 ratings: 646
 reviews: 25

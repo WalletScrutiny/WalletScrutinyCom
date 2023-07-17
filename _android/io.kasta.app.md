@@ -7,8 +7,8 @@ users: 5000
 appId: io.kasta.app
 appCountry: 
 released: 
-updated: 2023-06-19
-version: 1.27.73-prod-b98014d
+updated: 2023-07-12
+version: 1.27.86-prod-eac5bbf
 stars: 
 ratings: 
 reviews: 

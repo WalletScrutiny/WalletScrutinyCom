@@ -13,7 +13,7 @@ version: 1.5.0
 stars: 0
 reviews: 0
 size: '27810816'
-website: https://bitkipi.com/
+website: https://pocketbitcoin.com
 repository: 
 issue: 
 icon: com.bitkipi.bitkipi.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Kipi Technologies Sàrl
+developerName: Pocket App GmbH
 
 ---
 

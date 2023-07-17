@@ -1,6 +1,6 @@
 ---
 wsId: biscoint
-title: Bitybank | Bitypreço
+title: 'Bitybank: Bitcoin e Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
-updated: 2023-06-21
-version: 2.3.0
+updated: 2023-07-09
+version: 2.3.1
 stars: 5
 ratings: 
 reviews: 

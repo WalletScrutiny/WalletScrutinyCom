@@ -12,7 +12,7 @@ updated: 2023-06-26
 version: 6.4.0
 stars: 3.4
 ratings: 1945
-reviews: 102
+reviews: 104
 size: 
 website: https://www.mxc.org
 repository: 
