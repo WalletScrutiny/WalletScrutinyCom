@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: swissQuoteTrading
 title: Swissquote Trading
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: com.swissquote.android
 appCountry: 
@@ -19,15 +20,27 @@ issue:
 icon: com.swissquote.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: custodial
+date: 2023-07-20
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: Swissquote
+social:
+- https://www.linkedin.com/company/swissquote
+- https://www.facebook.com/Swissquote.en
+- https://www.youtube.com/user/SwissquoteBank
+- https://www.tiktok.com/@swissquote_official
 redirect_from: 
 developerName: Swissquote Mobile
 features: 
 
 ---
 
+## App Description from Google Play
+
+> The Swissquote Trading app puts the world’s financial markets at your fingertips, allowing you to invest in a wide range of products, from stocks and ETFs to Bitcoin and other cryptocurrencies.
+
+## Analysis 
+
+- A [press release](https://en.swissquote.com/sites/default/files/2023-03/pressrelease_results_fy-2022.pdf) details that the platform uses more than *cold-storage* but *multiple custodian models in asset storage*. 
+- This is a **custodial** service.

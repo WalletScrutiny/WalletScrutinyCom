@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitzlatoApp
 title: Bitzlato
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.bitzlato.mobile
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.bitzlato.mobile.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-06-02
+date: 2023-07-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Securely store cryptocurrency in your wallet on Bitzlato, buy and sell cryptocurrencies through more than a hundred payment methods available on Bitzlato.
+
+## Analysis
+
+- The app is geo-restricted so we were not able to install.
+- This was related to the Hydra Darknet market.
+- On the website listed under its developer contact, a notice of [judicial seizure](https://twitter.com/dannybuntu/status/1681999044942639105) was posted. This makes the app **defunct.**
