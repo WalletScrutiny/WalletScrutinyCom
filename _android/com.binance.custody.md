@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ceffuCustody
 title: 'Ceffu: Institutional Custody'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 500000
 appId: com.binance.custody
 appCountry: 
@@ -19,15 +20,31 @@ issue:
 icon: com.binance.custody.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: CeffuGlobal
+social:
+- https://www.linkedin.com/company/ceffu
 redirect_from: 
 developerName: Binance Inc.
 features: 
 
 ---
 
+Note: The same developer developed the {% include walletLink.html wallet='android/com.binance.dev' verdict='true' %}
+
+## App Description from Google Play
+
+> Access robust security and liquidity from wherever you are with the Ceffu app.
+>
+> Ceffu is an independent, compliant, insured, and audited institutional custody service built to help institutions store and manage their crypto assets efficiently and with peace of mind.
+>
+> Innovative Wallet Solutions:
+>
+> Access cold storage solutions powered by the latest breakthroughs in multi-party computation (MPC) technology with our Qualified Wallet. Manage transactions, wallets and sub-accounts with instantaneous withdrawals using our Prime Wallet.
+
+## Analysis 
+
+- The provider makes use of cold-storage which tells us this is a **custodial** service.
