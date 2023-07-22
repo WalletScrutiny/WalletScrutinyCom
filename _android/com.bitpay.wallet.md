@@ -14,7 +14,7 @@ updated: 2023-06-28
 version: 14.11.4
 stars: 4.2
 ratings: 9809
-reviews: 2094
+reviews: 2097
 size: 
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app

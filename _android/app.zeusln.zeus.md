@@ -1,38 +1,38 @@
 ---
 wsId: zeusln
 title: 'Zeus: Bitcoin and Lightning'
-altTitle:
+altTitle: 
 authors:
 - leo
 - mohammad
 users: 5000
 appId: app.zeusln.zeus
-appCountry:
+appCountry: 
 released: 2020-07-07
 updated: 2023-06-13
 version: 0.7.6
 stars: 4.3
 ratings: 45
 reviews: 23
-size:
+size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
-issue:
+issue: 
 icon: app.zeusln.zeus.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: reproducible
 date: 2023-07-23
-signer:
+signer: 
 reviewArchive:
 - date: 2023-06-22
   version: 0.7.6
-  appHash:
+  appHash: 
   gitRevision: f361c11d0e4a611d6994a1cabed500efd155a9d6
   verdict: ftbfs
 - date: 2021-08-30
   version: 0.5.1
-  appHash:
+  appHash: 
   gitRevision: b8c409778e3fcce1f150fe5cdcb965bde3267e7d
   verdict: nonverifiable
 twitter: ZeusLN

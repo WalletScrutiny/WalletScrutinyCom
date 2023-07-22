@@ -3,7 +3,7 @@ wsId:
 title: Rapidz Pay
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.rapidz.rapidzpay
 appCountry: 
 released: 2021-06-21

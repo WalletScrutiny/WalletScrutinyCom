@@ -3,7 +3,7 @@ wsId:
 title: PlatinX- Pure indian Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.platinx.exchange.flutter_platinx_exchange
 appCountry: 
 released: 2022-07-02

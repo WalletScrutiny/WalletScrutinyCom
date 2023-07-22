@@ -1,6 +1,6 @@
 ---
 wsId: prestmit
-title: 'Prestmit: Buy Sell Gift Cards'
+title: 'Prestmit: Gift Cards & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.prestmit
 appCountry: us
 released: 2021-04-13
-updated: 2023-07-07
-version: 6.0.8
+updated: 2023-07-21
+version: 6.1.0
 stars: 4.3
 ratings: 1291
-reviews: 434
+reviews: 428
 size: 
 website: https://staging.prestmit.com
 repository: 

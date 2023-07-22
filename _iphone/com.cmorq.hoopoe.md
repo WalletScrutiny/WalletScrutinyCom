@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: cmorq, the future of finance
+title: cmorq, Web3 banking for all.
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
 released: 2020-12-13
-updated: 2023-07-14
-version: 5.4.1
+updated: 2023-07-20
+version: 5.4.3
 stars: 4.5
 reviews: 138
-size: '174689280'
+size: '174729216'
 website: https://www.cmorq.com/
 repository: 
 issue: 

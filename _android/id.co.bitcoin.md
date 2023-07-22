@@ -8,8 +8,8 @@ users: 1000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2023-07-05
-version: 5.1.1
+updated: 2023-07-18
+version: 5.1.2
 stars: 4.4
 ratings: 97568
 reviews: 459

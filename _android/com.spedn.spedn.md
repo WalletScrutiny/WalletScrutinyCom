@@ -7,8 +7,8 @@ users: 10000
 appId: com.spedn.spedn
 appCountry: 
 released: 2021-05-26
-updated: 2022-09-28
-version: 22.09.1
+updated: 2023-07-21
+version: 23.07.1
 stars: 3.1
 ratings: 
 reviews: 101

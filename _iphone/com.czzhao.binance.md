@@ -11,7 +11,7 @@ released: 2018-10-06
 updated: 2023-07-09
 version: 2.67.1
 stars: 4.7
-reviews: 152194
+reviews: 152480
 size: '668871680'
 website: https://www.binance.com
 repository: 

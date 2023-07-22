@@ -9,7 +9,7 @@ appId: com.iggroup.android.cfd
 appCountry: br
 released: 2015-05-11
 updated: 2023-07-14
-version: 23.6.5
+version: '23.7'
 stars: 3.7
 ratings: 
 reviews: 11

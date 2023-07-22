@@ -9,10 +9,10 @@ appId: com.venmo
 appCountry: 
 released: 2010-05-17
 updated: 2023-07-15
-version: 10.21.0
+version: 10.22.0
 stars: 4.2
 ratings: 
-reviews: 266537
+reviews: 267060
 size: 
 website: https://venmo.com/
 repository: 

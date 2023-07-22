@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-31
 updated: 2023-07-05
 version: 2.0.3
-stars: 4.4
+stars: 4.5
 ratings: 2509
-reviews: 108
+reviews: 113
 size: 
 website: https://www.amarkets.com
 repository: 

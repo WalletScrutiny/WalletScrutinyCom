@@ -11,7 +11,7 @@ released: 2020-04-08
 updated: 2023-07-03
 version: '1.32'
 stars: 4.2
-reviews: 43
+reviews: 44
 size: '123359232'
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

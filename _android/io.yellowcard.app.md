@@ -8,11 +8,11 @@ users: 1000000
 appId: io.yellowcard.app
 appCountry: za
 released: 2019-05-14
-updated: 2023-06-30
-version: 4.16.13
+updated: 2023-07-18
+version: 4.16.14
 stars: 3.6
 ratings: 4440
-reviews: 311
+reviews: 314
 size: 
 website: https://www.yellowcard.io/
 repository: 

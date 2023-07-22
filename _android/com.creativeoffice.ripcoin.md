@@ -10,9 +10,9 @@ appCountry:
 released: 2021-02-25
 updated: 2023-07-16
 version: '11005'
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 216
+reviews: 217
 size: 
 website: https://antcoin.tech/
 repository: 

@@ -8,11 +8,11 @@ appId: com.coinpaprika.Coins
 appCountry: us
 idd: 1475233621
 released: 2019-12-03
-updated: 2023-07-08
-version: 2.8.8
+updated: 2023-07-20
+version: 2.8.9
 stars: 4.8
-reviews: 956
-size: '49478656'
+reviews: 957
+size: '49523712'
 website: http://coins.coinpaprika.com
 repository: 
 issue: 

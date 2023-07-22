@@ -7,8 +7,8 @@ users: 5000
 appId: com.trendox.android
 appCountry: 
 released: 2022-01-02
-updated: 2023-06-24
-version: 3.3.90_googleplay
+updated: 2023-07-17
+version: 3.3.95_googleplay
 stars: 4.7
 ratings: 
 reviews: 30

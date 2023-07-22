@@ -1,6 +1,6 @@
 ---
 wsId: GridLock
-title: Gridlock Crypto & NFT Wallet
+title: 'Gridlock: Secure Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: network.gridlock.AppUS
 appCountry: us
 idd: '1567057330'
 released: '2021-06-07'
-updated: 2023-07-13
-version: 2.0.9
+updated: 2023-07-20
+version: 2.0.10
 stars: 4.8
 reviews: 16
-size: '75942912'
+size: '76425216'
 website: https://gridlock.network
 repository: 
 issue: 

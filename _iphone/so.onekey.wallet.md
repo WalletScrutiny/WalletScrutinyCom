@@ -10,8 +10,8 @@ idd: '1609559473'
 released: 2022-04-27
 updated: 2023-07-10
 version: 4.9.1
-stars: 5
-reviews: 1076
+stars: 4.9
+reviews: 479
 size: '107855872'
 website: https://onekey.so?utm_source=app_store
 repository: https://github.com/OneKeyHQ/app-monorepo
