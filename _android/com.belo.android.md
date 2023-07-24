@@ -42,11 +42,11 @@ features:
 > belo is the app in which you can move in pesos and cryptocurrencies so that your money is worth more every day.
 >
 > With belo you can deposit pesos and transform them into bitcoin, ethereum, USDC, USDT or DAI in minutes without commissions or unnecessary complications.
-
-- Order Mastercard
-- Exchange without commissions
-- Pay using cryptocurrencies in daily purchases
-- Withdraw cash at no cost at linked banks and ATMs
+>
+> - Order Mastercard
+> - Exchange without commissions
+> - Pay using cryptocurrencies in daily purchases
+> - Withdraw cash at no cost at linked banks and ATMs
 
 ## Analysis
 

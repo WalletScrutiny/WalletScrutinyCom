@@ -32,7 +32,7 @@ features:
 
 ---
 
-<div class="alertBox"><div>⚠️ Warning: This app behaves strangely. After uninstalling, I decided to retest again when I saw an error in my original review. I re-registered, and then the app opened a different app - like a redirect. Proceed with extreme caution. 
+<div class="alertBox"><div>⚠️ Warning: This app behaves very strangely. Proceed with extreme caution. 
 </div> </div>
 
 ## App Description from Google Play
@@ -43,7 +43,7 @@ features:
 
 - The privacy policy's domain is bitcoinhack.info.
 - Although it is not linked from the Google Play page, another possible website for this app is bitcoin-hack.com.
-- App registration sends us an email from a different entity named Elland Road. Clicking "Enter account" in the email verification opens up a login page in the URL ellandroadcapital.com.
+- App registration emails us from a different entity named Elland Road. Clicking "Enter account" in the email verification opens up a login page in the URL ellandroadcapital.com.
 - A second email is then sent. A payment page is then opened. It has Visa/Mastercard and CryptoPay as choices for the payment options. The lowest amount the user can pay is $250 USD.
 - We took a look at the website's terms:
 

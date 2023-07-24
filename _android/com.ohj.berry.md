@@ -32,6 +32,14 @@ features:
 
 ---
 
+## Updated Review 2023-07-24
+
+- After reviewing this app, we decided to search for the app name + "scam". 
+- We found several results indicating that this was a Ponzi scheme. 
+- This explains the different branding identities we initially found online. The same "B" logo was colored differently. 
+
+## Previous Review 2023-06-30
+
 ## App Description from Google Play
 
 > We provide safe and reliable digital asset trading and asset management services to 130 countries
