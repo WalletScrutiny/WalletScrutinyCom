@@ -1,6 +1,6 @@
 ---
 wsId: theBitcoinCompany
-title: The Bitcoin Company Wallet
+title: The Bitcoin Company Rewards
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000
 appId: com.tbtc_app
 appCountry: 
 released: 2022-03-17
-updated: 2023-05-30
-version: 0.1.29
-stars: 4.2
+updated: 2023-07-19
+version: 0.1.31
+stars: 4
 ratings: 
-reviews: 9
+reviews: 11
 size: 
 website: https://thebitcoincompany.com
 repository: 

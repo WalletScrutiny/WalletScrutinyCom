@@ -1,0 +1,7 @@
+{% assign recent_posts = site.iphone | concat: site.android | concat: site.hardware | concat: site.bearer | sort: "wsId" | sort: "date" | slice: -10, 10 | reverse %}
+<h2 class="section-label" id="recently">Most Recent Reviews Or Updates ({{ recent_posts.first.date | date: '%b %e' }}{% if recent_posts.last.date != recent_posts.first.date %} to {{ recent_posts.last.date | date: '%b %e' }}{% endif %})&nbsp;<a href="#recently" style="color:#ccc">&para;</a></h2>
+<div id="recentPosts">
+<div class="page-section">
+</div>
+<a onClick="loadMoreApps()">load more ...</a>
+</div>

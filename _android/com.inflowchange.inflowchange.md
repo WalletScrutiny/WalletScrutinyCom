@@ -7,8 +7,8 @@ users: 100
 appId: com.inflowchange.inflowchange
 appCountry: 
 released: 2023-02-17
-updated: 2023-02-22
-version: '1.1'
+updated: 2023-06-25
+version: '1.8'
 stars: 
 ratings: 
 reviews: 

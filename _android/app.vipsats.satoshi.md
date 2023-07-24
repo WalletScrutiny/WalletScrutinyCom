@@ -7,9 +7,9 @@ users: 1000
 appId: app.vipsats.satoshi
 appCountry: 
 released: 2022-11-06
-updated: 2023-04-12
-version: '1.1'
-stars: 4.2
+updated: 2023-06-25
+version: '1.2'
+stars: 4.4
 ratings: 
 reviews: 2
 size: 

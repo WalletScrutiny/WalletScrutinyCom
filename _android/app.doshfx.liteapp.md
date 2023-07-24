@@ -7,8 +7,8 @@ users: 100
 appId: app.doshfx.liteapp
 appCountry: 
 released: 
-updated: 2023-05-10
-version: '4.3'
+updated: 2023-06-22
+version: '4.4'
 stars: 
 ratings: 
 reviews: 

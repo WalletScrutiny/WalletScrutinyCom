@@ -1,5 +1,6 @@
 short: Un-Released!
 title: Un-Released
+pass: The product was released and available
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: This product is not released yet.

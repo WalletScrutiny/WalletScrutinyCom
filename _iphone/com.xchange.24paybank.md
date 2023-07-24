@@ -11,7 +11,7 @@ released: 2020-03-24
 updated: 2022-12-21
 version: 1.1.2
 stars: 4.5
-reviews: 22
+reviews: 21
 size: '72990720'
 website: https://24paybank.net
 repository: 

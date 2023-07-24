@@ -7,8 +7,8 @@ users: 5000
 appId: com.tigerandpartners.leo_react_native
 appCountry: 
 released: 2022-06-14
-updated: 2023-06-20
-version: 2.0.7
+updated: 2023-07-18
+version: 2.0.9
 stars: 
 ratings: 
 reviews: 

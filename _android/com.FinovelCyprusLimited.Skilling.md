@@ -8,11 +8,11 @@ users: 100000
 appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 released: 2020-05-05
-updated: 2023-06-19
-version: 2.0.3
+updated: 2023-07-06
+version: 2.0.4
 stars: 4.3
 ratings: 172
-reviews: 6
+reviews: 5
 size: 
 website: https://skilling.com/
 repository: 

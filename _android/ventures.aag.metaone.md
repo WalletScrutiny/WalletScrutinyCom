@@ -8,8 +8,8 @@ users: 10000
 appId: ventures.aag.metaone
 appCountry:
 released: 2022-12-22
-updated: 2023-06-19
-version: 3.3.0
+updated: 2023-06-26
+version: 3.3.2
 stars: 4.4
 ratings:
 reviews: 2

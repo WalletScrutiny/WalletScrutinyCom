@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.mushino.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-07-01
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

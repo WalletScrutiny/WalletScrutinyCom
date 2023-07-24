@@ -1,7 +1,7 @@
 ---
 platform: "Satoshi en Venezuela"
 date: 2020-06-02
-publicationName: "Hablemos de Bitcoin - Bitcoin y Monederos, con Leo Wandersleb (Wallet Scrutiny)"
+publicationName: "Hablemos de Bitcoin - Bitcoin y Monederos, con Leo Wandersleb (WalletScrutiny)"
 author: "Javier Bastardo"
 image: SatoshiEnVenezuela.png
 language: ES

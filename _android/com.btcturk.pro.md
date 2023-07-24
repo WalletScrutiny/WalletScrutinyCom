@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'BtcTurk | PRO: BTC|USDT|XRP'
+title: 'BtcTurk | Kripto: BTC|USDT|XRP'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
-updated: 2023-06-19
-version: 1.57.1
+updated: 2023-07-18
+version: 2.0.2
 stars: 4.5
 ratings: 169442
-reviews: 224
+reviews: 225
 size: 
 website: https://pro.btcturk.com
 repository: 

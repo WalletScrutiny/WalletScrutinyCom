@@ -3,11 +3,11 @@ wsId:
 title: Coinstick - Buy & Sell Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.coinstick.myapp
 appCountry: 
 released: 2023-01-23
-updated: 2023-06-01
+updated: 2023-07-13
 version: 1.0.0
 stars: 
 ratings: 

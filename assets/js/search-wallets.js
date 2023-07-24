@@ -15,7 +15,7 @@ if (document.querySelectorAll(".wallet-search-placeholder").length > 0) {
   searchInput.setAttribute("onfocus", "blockEvent(event);heroUX(this)")
   searchInput.setAttribute("onmouseenter", "blockEvent(event);scOOff()")
   searchInput.setAttribute("onmouseleave", "blockEvent(event);scOOn()")
-  searchInput.setAttribute("placeholder", "Search wallets...")
+  searchInput.setAttribute("placeholder", "Search wallet reviews...")
   searchInput.classList.add("walletSearch")
   searchParent.append(searchInput)
   searchParent.append(searchExitButton)
@@ -69,7 +69,6 @@ function focusResults(e) {
     document.querySelectorAll(".results-list")[0].querySelectorAll(".li")[0].focus()
   }
 }
-window.temporarySearchValue = ""
 function searchCatalogue(input) {
   const activityIndicationClearTrigger = document.querySelectorAll(".exit-search")[0].querySelectorAll('i')[0]
   const result = document.createElement("ul")
@@ -109,7 +108,7 @@ function searchCatalogue(input) {
               href='${analysisUrl}'>
               <img src='${w.icon
                 ? `${basePath}/images/wIcons/${w.folder}/small/${w.icon}`
-                : `${basePath}/images/smallNoicon.png`}' class='results-list-wallet-icon' />
+                : `${basePath}/images/noimg.svg`}' class='results-list-wallet-icon' />
             <span>${w.altTitle || w.title}</span>
             <span class="badge-2 ${w.verdict}">
                 <i class="${window.platforms[w.folder].css}"></i>

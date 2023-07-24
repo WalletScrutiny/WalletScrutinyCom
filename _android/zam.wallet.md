@@ -10,9 +10,9 @@ appCountry: ru
 released: 2018-09-17
 updated: 2023-04-05
 version: 3.5.11
-stars: 4
+stars: 3.9
 ratings: 288
-reviews: 52
+reviews: 50
 size: 
 website: http://zam.io
 repository: 
