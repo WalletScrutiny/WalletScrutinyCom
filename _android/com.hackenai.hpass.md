@@ -3,7 +3,7 @@ wsId:
 title: hPass by Hacken
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hackenai.hpass
 appCountry: 
 released: 2021-11-24

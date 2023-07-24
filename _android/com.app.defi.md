@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-23
 updated: 2022-11-25
 version: 1.11.25
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 15
+reviews: 16
 size: 
 website: https://lachain.io
 repository: 

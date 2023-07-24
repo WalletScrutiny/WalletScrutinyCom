@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'SparkWallet: Bitcoin Lightning'
+title: 'Spark Wallet: Earn Rewards'
 altTitle: 
 authors: 
 users: 1000
 appId: io.sparkwallet
 appCountry: 
 released: 2022-02-09
-updated: 2023-03-29
-version: '2.5'
+updated: 2023-07-10
+version: '3.0'
 stars: 4.2
 ratings: 
 reviews: 3

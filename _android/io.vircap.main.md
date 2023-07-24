@@ -7,7 +7,7 @@ users: 1000
 appId: io.vircap.main
 appCountry: 
 released: 
-updated: 2023-06-14
+updated: 2023-07-12
 version: VARY
 stars: 
 ratings: 

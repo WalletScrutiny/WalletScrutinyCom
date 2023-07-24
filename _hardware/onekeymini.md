@@ -5,14 +5,14 @@ authors:
 - danny
 - mohammad
 released: 2020-12-08
-discontinued:
+discontinued: 
 updated: 2021-10-16
-version:
-binaries:
-dimensions:
-weight:
+version: 
+binaries: 
+dimensions: 
+weight: 
 provider: Bixin
-providerWebsite:
+providerWebsite: 
 website: https://onekey.so/
 shop: >-
   https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
@@ -21,15 +21,15 @@ price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
 issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekeymini.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2023-07-12
-signer:
+signer: 
 reviewArchive:
 - date: 2022-12-28
-  version:
-  appHash:
+  version: 
+  appHash: 
   gitRevision: af3f19185636ea53741eb7c3c975d3b0fec995e5
   verdict: nosource
 twitter: onekeyhq
@@ -37,7 +37,7 @@ social:
 - https://discord.gg/onekey
 - https://weibo.com/yourKeysyourBitcoin
 - https://www.reddit.com/r/OneKeyHQ/
-features:
+features: 
 
 ---
 

@@ -7,8 +7,8 @@ users: 10000
 appId: com.oxnov.cryptodaaga
 appCountry: 
 released: 2022-04-29
-updated: 2023-06-30
-version: 4.0.5
+updated: 2023-07-14
+version: 4.0.8
 stars: 
 ratings: 
 reviews: 

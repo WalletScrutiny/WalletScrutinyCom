@@ -7,11 +7,11 @@ users: 10000
 appId: com.wallet.pools
 appCountry: 
 released: 2023-03-28
-updated: 2023-06-27
-version: 1.0.7
-stars: 4.9
+updated: 2023-07-20
+version: 1.0.8.2
+stars: 4.8
 ratings: 
-reviews: 5
+reviews: 8
 size: 
 website: 
 repository: 

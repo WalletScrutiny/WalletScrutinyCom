@@ -3,13 +3,13 @@ wsId:
 title: Trezor Suite Lite
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
 updated: 2023-06-28
 version: 23.6.1
-stars: 3.5
+stars: 3.7
 ratings: 
 reviews: 8
 size: 

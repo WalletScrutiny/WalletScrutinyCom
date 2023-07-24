@@ -6,13 +6,13 @@ authors:
 - danny
 - leo
 - mohammad
-released:
-discontinued:
-updated:
-version:
-binaries:
-dimensions:
-weight:
+released: 
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
 provider: Bixin
 providerWebsite: https://onekey.so/
 website: https://onekey.so/en-US/hardware
@@ -22,21 +22,21 @@ price: 42USD
 repository: https://github.com/OneKeyHQ/firmware
 issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2023-07-12
-signer:
+signer: 
 reviewArchive:
 - date: 2022-12-28
-  version:
-  appHash:
+  version: 
+  appHash: 
   gitRevision: eb1b55711cd4bbb78072e47c1f6cc9fa67074b5e
   verdict: nosource
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
-features:
+features: 
 
 ---
 

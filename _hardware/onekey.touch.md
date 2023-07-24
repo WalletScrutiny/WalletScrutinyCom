@@ -10,8 +10,8 @@ updated: 2023-06-21
 version: 4.3.0
 binaries:
 dimensions:
-- 88.4
-- 52.5
+- 88
+- 53
 - 9.2
 weight: 75
 provider: OneKey

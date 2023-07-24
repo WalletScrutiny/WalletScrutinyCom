@@ -12,7 +12,7 @@ updated: 2020-06-01
 version: '2.4'
 stars: 4.2
 ratings: 251
-reviews: 41
+reviews: 42
 size: 
 website: http://jurajkusnier.com/
 repository: 
