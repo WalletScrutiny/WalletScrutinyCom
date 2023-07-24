@@ -50,7 +50,7 @@ features:
 
 ## Analysis
 
-- The service complies with Anti-Terrorism and Organized Crime Financing regulations, Anti-Money laundering and requires KYC, ID verification.
+- The service advertises to comply with Anti-Terrorism and Organized Crime Financing regulations, Anti-Money laundering and requires KYC, ID verification.
 - Registration is limited to mostly South American countries.
 - [(Terms)](https://help.belo.app/es/articles/5362779-terminos-y-condiciones-generales)The service allows the user to:
 
