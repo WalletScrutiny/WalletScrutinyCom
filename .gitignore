@@ -6,3 +6,5 @@ node_modules/
 .history
 .settings/
 .project
+.bundle/
+.vscode/
