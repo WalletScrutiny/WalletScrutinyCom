@@ -1,6 +1,9 @@
 {% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
 
 {%- for verdict_group in site.data.verdictGroups -%}
+  {%- if verdict_group.key == 'notRelevant' -%}
+    {%- continue -%}
+  {%- endif -%}
   {%- assign total = 0 -%}
   <div class="statistic-tile">
     <div class="data">
