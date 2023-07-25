@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

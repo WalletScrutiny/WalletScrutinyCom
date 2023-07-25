@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 8V Crypto & BTC Trading Wallet
+title: 8V - Buy Bitcoin & Crypto
 altTitle: 
 authors: 
 users: 50000

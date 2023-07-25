@@ -3,7 +3,7 @@ wsId:
 title: Potent Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.potent.wallet
 appCountry: 
 released: 2021-08-12
@@ -19,7 +19,7 @@ issue:
 icon: io.potent.wallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-10-21
 signer: 
 reviewArchive: 

@@ -3,7 +3,7 @@ wsId:
 title: My Kim Trx
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.efktb.disl
 appCountry: 
 released: 2022-04-28

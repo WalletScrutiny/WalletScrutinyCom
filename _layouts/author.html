@@ -8,10 +8,34 @@ layout: default
   <h2>{{ page.name }}</h2>
   
   {% if page.avatar %}<div class="author__avatar">
-    <img src="/images/{{ page.avatar }}" class="author__avatar" alt="avatar of {{ page.name }}">
+    {% if page.avatar contains '://' %}
+      {% assign prefix = '' %}
+    {% elsif page.avatar.size > 0 %}
+      {% assign prefix = "/images/" %}
+    {% else %}
+      {% assign prefix = "/images/avatarPlaceholder.jpg" %}
+    {% endif %}
+
+    <img src="{{prefix}}{{page.avatar}}" class="author__avatar" alt="avatar of {{ page.name }}">
   </div>{% endif %}
   
   <p>{{ page.name }} has been contributing to the project since {{ page.since }}.</p>
   
   {{ content }}
 </div>
+<style>
+  #main {
+  text-align: center;
+  max-width: 600px !important;
+  min-height: calc(100vh - 220px);
+}
+  h2{
+  font-size: 48px;
+  font-weight: 500;
+}
+.author__avatar {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+</style>

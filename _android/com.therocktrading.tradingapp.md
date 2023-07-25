@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.therocktrading.tradingapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.quantfury
 appCountry: gb
 idd: 1445564443
 released: 2018-12-15
-updated: 2023-06-28
-version: 1.61.1
+updated: 2023-07-06
+version: 1.61.3
 stars: 4.5
-reviews: 52
-size: '70379520'
+reviews: 50
+size: '70400000'
 website: https://quantfury.com/
 repository: 
 issue: 

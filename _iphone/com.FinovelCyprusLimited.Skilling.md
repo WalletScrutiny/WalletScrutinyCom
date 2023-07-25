@@ -8,8 +8,8 @@ appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 idd: 1441386723
 released: 2019-05-30
-updated: 2023-06-20
-version: 2.0.3
+updated: 2023-07-11
+version: 2.0.4
 stars: 4.9
 reviews: 12
 size: '18405376'
