@@ -3,7 +3,7 @@ wsId:
 title: Tarmex
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.tarmex.tarmex
 appCountry: 
 released: 2022-12-22
@@ -19,7 +19,7 @@ issue:
 icon: com.tarmex.tarmex.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

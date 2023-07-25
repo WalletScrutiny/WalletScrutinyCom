@@ -3,7 +3,7 @@ wsId:
 title: AntWallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.antwallet
 appCountry: 
 released: 2021-11-15
@@ -19,7 +19,7 @@ issue:
 icon: io.antwallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

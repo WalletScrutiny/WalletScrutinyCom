@@ -9,9 +9,9 @@ appCountry:
 released: 2021-04-04
 updated: 2023-06-13
 version: 4.1.1
-stars: 3.4
+stars: 3.3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.sarwa.co
 repository: 

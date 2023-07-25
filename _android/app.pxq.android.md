@@ -9,9 +9,9 @@ appCountry:
 released: 2023-04-19
 updated: 2023-07-03
 version: 1.0.5
-stars: 4.8
+stars: 4.6
 ratings: 
-reviews: 12
+reviews: 14
 size: 
 website: https://pxq.app
 repository: 

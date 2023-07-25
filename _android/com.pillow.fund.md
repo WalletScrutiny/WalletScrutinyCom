@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-03
 updated: 2023-06-26
 version: '4.0'
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 66
+reviews: 68
 size: 
 website: https://www.pillow.fund/
 repository: 
