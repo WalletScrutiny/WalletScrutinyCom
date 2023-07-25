@@ -3,7 +3,7 @@ wsId:
 title: 360TradeHub Mobile
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tradehub360
 appCountry: 
 released: 2022-10-10

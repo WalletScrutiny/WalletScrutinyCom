@@ -7,11 +7,11 @@ users: 5000
 appId: com.globiance.android
 appCountry: 
 released: 2021-09-29
-updated: 2022-10-12
-version: '2.01'
+updated: 2023-07-06
+version: '2.04'
 stars: 4.3
 ratings: 
-reviews: 32
+reviews: 33
 size: 
 website: https://globiance.com
 repository: 

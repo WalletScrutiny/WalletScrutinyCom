@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Eweb Meta: Crypto & Gift Cards'
+title: 'Pera: Crypto & Gift Cards'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000
 appId: com.ewebmeta.ewebmeta
 appCountry: 
 released: 2022-03-13
-updated: 2023-06-09
+updated: 2023-07-06
 version: 2.0.0
 stars: 
 ratings: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Eweb Meta
+developerName: Pera Digital Services
 features: 
 
 ---

@@ -11,7 +11,7 @@ updated: 2023-04-15
 version: 1.1.8
 stars: 4.1
 ratings: 
-reviews: 8
+reviews: 7
 size: 
 website: https://prestohq.io/
 repository: 

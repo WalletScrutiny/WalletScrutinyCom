@@ -9,9 +9,9 @@ appCountry:
 released: 2022-02-15
 updated: 2022-12-05
 version: 1.3.89.94
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://icointechnology.com/
 repository: 

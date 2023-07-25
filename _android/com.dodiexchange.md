@@ -3,7 +3,7 @@ wsId:
 title: Dodi Exchange
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.dodiexchange
 appCountry: 
 released: 2022-01-21

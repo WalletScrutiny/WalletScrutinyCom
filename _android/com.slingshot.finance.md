@@ -7,9 +7,9 @@ users: 10000
 appId: com.slingshot.finance
 appCountry: 
 released: 2023-02-16
-updated: 2023-06-11
-version: 1.9.0
-stars: 2.9
+updated: 2023-07-18
+version: 1.13.0
+stars: 3.4
 ratings: 
 reviews: 2
 size: 

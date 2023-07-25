@@ -3,7 +3,7 @@ wsId:
 title: Lemon Bitcoin Faucet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.bmdf.lemonbitcoinfaucet
 appCountry: 
 released: 2022-07-05

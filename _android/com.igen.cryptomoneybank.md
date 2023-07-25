@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.igen.cryptomoneybank.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

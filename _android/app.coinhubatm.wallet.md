@@ -9,9 +9,9 @@ appCountry:
 released: 2022-12-11
 updated: 2023-03-30
 version: 3.5.0
-stars: 4.6
+stars: 4
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://coinhubatm.com/
 repository: 

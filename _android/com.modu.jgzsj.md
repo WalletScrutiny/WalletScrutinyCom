@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: JGZQuant：Crypto Trading Bot
+title: JGZ Pro：Crypto Trading Bot
 altTitle: 
 authors: 
 users: 10000
@@ -16,7 +16,7 @@ size:
 website: http://www.jgz555.com
 repository: 
 issue: 
-icon: com.modu.jgzsj.png
+icon: com.modu.jgzsj.jpg
 bugbounty: 
 meta: ok
 verdict: wip

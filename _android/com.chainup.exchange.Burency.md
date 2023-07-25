@@ -9,9 +9,9 @@ appCountry:
 released: 2021-11-20
 updated: 2022-11-15
 version: 5.6.1_push_v2
-stars: 3
+stars: 2.9
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.burency.com
 repository: 

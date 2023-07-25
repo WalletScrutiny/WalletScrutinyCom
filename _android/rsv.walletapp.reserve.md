@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-30
 updated: 2023-02-20
 version: 2.2.0
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 420
+reviews: 422
 size: 
 website: http://www.reserve.org
 repository: 

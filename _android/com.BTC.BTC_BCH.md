@@ -9,7 +9,7 @@ appCountry:
 released: 2022-07-21
 updated: 2022-07-21
 version: 1.2.3
-stars: 3.8
+stars: 3.4
 ratings: 
 reviews: 1
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.BTC.BTC_BCH.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-03
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

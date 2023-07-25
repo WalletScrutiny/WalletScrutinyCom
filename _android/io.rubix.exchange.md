@@ -3,7 +3,7 @@ wsId:
 title: Rubix Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.rubix.exchange
 appCountry: 
 released: 2021-12-22

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Vinetexchange:Exchange Bitcoin
+title: Vinetexchange:Sell btc, skrill
 altTitle: 
 authors: 
 users: 1000

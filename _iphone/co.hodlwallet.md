@@ -8,19 +8,19 @@ appId: co.hodlwallet
 appCountry: 
 idd: 1382342568
 released: 2018-08-01
-updated: 2020-05-19
-version: '1.12'
+updated: 2023-07-13
+version: '1.13'
 stars: 3.9
-reviews: 123
-size: '42128384'
+reviews: 124
+size: '36992000'
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 
 icon: co.hodlwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nonverifiable
-date: 2022-05-15
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: hodlwallet

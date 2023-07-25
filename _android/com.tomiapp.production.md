@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: tomiPAY Digital Payment System
+title: tomiPAY
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2023-05-19
-version: '30.0'
+updated: 2023-07-19
+version: '42.0'
 stars: 
 ratings: 
 reviews: 

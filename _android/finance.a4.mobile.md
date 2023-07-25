@@ -3,15 +3,15 @@ wsId:
 title: 'A4/SPEXY: crypto wallet'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: finance.a4.mobile
 appCountry: 
 released: 2022-05-09
-updated: 2023-03-16
-version: 2.0.0
+updated: 2023-07-05
+version: 2.1.2
 stars: 4.6
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: https://a4.finance/
 repository: 

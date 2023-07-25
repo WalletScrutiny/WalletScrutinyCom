@@ -3,7 +3,7 @@ wsId:
 title: 'BAF: Multicurrency Wallet & Ex'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.blockchainappfactory.cryptoexchange
 appCountry: 
 released: 
