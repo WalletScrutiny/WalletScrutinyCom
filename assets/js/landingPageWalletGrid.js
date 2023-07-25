@@ -77,12 +77,13 @@ function buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw
             workingArray.push(wallet)
           }
           else {
+            let indexTreshold = 0
             for (const word of searchTermWords) {
-              if (walletAsStr.indexOf(word) >= 0) {
-                wallet.matchRank = walletAsStr.indexOf(word)
-                workingArray.push(wallet)
-                break
-              }
+              indexTreshold += walletAsStr.indexOf(word) >=0 ? 1 : 0
+            }
+            if (indexTreshold === searchTermWords.length) {
+              wallet.matchRank = indexTreshold
+              workingArray.push(wallet)
             }
           }
         } else {
@@ -217,7 +218,6 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts(workingArray, platform) {
-  console.log(workingArray.length)
   countProducts(workingArray)
   for (const option of document.querySelectorAll(".dropdown-options.dropdown-verdict .option"))
     if (option.hasAttribute("data")) {
