@@ -55,7 +55,7 @@ features:
 - It then tells us to 'Create a Signature'. The signature is pretty much a 6-digit pin code.
 - We can then create security questions that allow us to reset the signature. We can choose among a list to select 3 security questions. One such example, is "What was your childhood nickname?"
 - There is a BTC wallet with a P2SH address that can send/receive.
-- Apart from that we did not find any provision for backing up the private keys for the BTC wallet.
+- We did not find any provision for backing up the private keys for the BTC wallet.
 - In its homepage, one of the cards is titled, "Weakness in Security" and describes seed phrases as "mind-numbing"
 - Residents from Finland, Germany and Italy are disallowed from accessing several features according to the [Terms and Conditions](https://getmeta.one/terms-conditions)
   - Section 21.1 of the same Terms describes the app as not having custody of the user's assets - but in a carefully-worded manner - admits that they have partial control over it. The private keys, as they describe, are generated through their software using their n-factor authorization mechanism.

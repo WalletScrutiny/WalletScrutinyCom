@@ -37,6 +37,12 @@ features:
 
 > TouchWallet is a convenient and secure service for depositing, storing, and withdrawing the most popular cryptocurrencies: BTC, ETH, USDT, LTC, BNB, XMR, DOGE. Use individual settings, control the balance of your crypto wallets, track exchange rates, and manage assets through one personal account.
 
+## Google Play Reviews
+
+> [uwem joseph](https://play.google.com/store/apps/details?id=ru.webtronics.touch_wallet&gl=ru)<br>
+  ★☆☆☆☆ July 13, 2023 <br>
+       Why is this app misbehaving, downloaded it two times but yet the same thing 😔, it is the same network am using in others but it is tell me no network, gosh 😞
+
 ## Analysis
 
 - The app has a rating of 2.0 stars given by 53 reviewers. The actual reviews are hidden.

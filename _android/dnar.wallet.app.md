@@ -33,6 +33,19 @@ features:
 
 ---
 
+## Updated Review 2023-07-25
+
+- We were able to access the website with TLS warnings. 
+- The 'Sign Up' button only shows this message: 
+
+> Stay up to date
+>
+> Join our mailing list to get notified when our dashboards are ready!
+
+- We emailed and [tweeted](https://twitter.com/BitcoinWalletz/status/1675366367082496001) them. For the meantime, we will retain the **defunct** assessment.
+
+## Previous Review 2023-07-02
+
 ## App Description from Google Play
 
 > Dnar is the easiest way to buy, sell, deposit, and send Bitcoin. Track the BTC price in realtime in your app and buy as little as $1 of Bitcoin. Your BTC arrives in your app instantly and you can keep it safe in Dnar or choose to withdraw it.
@@ -44,4 +57,4 @@ features:
 - The app's social media presence stopped posting in 2022.
 - The app's last archive was in [2022](https://web.archive.org/web/20220625034823/https://www.dnar.io/), and there were only 2 entries.
 - It appears to be a service in Africa that allows the buying and selling of Bitcoin.
-- There is a moderate likelihood that this service is already **defunct** because of the reasons specified above.
+- This service is **defunct** because of the reasons specified above.
