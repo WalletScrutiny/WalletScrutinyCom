@@ -37,6 +37,14 @@ features:
 
 ---
 
+## Additional Information 2023-07-25
+
+This is the successor to the now defunct {% include walletLink.html wallet='android/com.primexbt.exchange' verdict='true' %}. 
+
+You can find [links](https://web.archive.org/web/20200515000000*/https://primexbt.com/) to the predecessor from an archived version of the official homepage in 2020.
+
+## Previous Review 2023-06-02
+
 ## App Description from Google Play
 
 > Buy, sell, hold, and trade cryptocurrencies

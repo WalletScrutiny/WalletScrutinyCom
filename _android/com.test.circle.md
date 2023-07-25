@@ -46,4 +46,4 @@ USDC Wallet is a free blockchain cryptocurrency wallet that delivers high-level 
 
 - We tried the app, but when we tapped on 'Create a New Wallet' it did not do anything. We tried on BlueStacks 5 Android 9 and on an Android device.
 - The homepage listed in the developer contact, is offline.
-- We tweeted them about it, but for now, presume that this app is already **defunct**
+- We [tweeted](https://twitter.com/BitcoinWalletz/status/1675070504196079617) them about it, but for now, presume that this app is already **defunct**
