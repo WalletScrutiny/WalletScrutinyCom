@@ -35,7 +35,7 @@ features:
 
 ---
 
-This app from the same provider of the following products:
+This app is from the same provider as the following products:
 
 - {% include walletLink.html wallet='android/com.lyofi.wallet' verdict='true' %}
 - {% include walletLink.html wallet='android/com.lyopay' verdict='true' %}
@@ -54,5 +54,5 @@ This app from the same provider of the following products:
 
 - It is possible to deposit/withdraw [BTC](https://docs.lyotrade.com/help-center/deposit-and-withdrawals/how-do-i-deposit)
 - The user account is centralized with KYC and ID-verification standards.
-- According to the [Terms and Conditions](https://docs.lyotrade.com/terms/terms-of-use), LYOTrade is defined as a VASP or a Virtual Asset Provider. The VASP is tasked with the **safekeeping** and **administration** of virtual assets. Section 3 of the same Terms give LyoTrade the power to suspend or terminate the user's access to the platform.
+- According to the [Terms and Conditions](https://docs.lyotrade.com/terms/terms-of-use), LYOTrade is defined as a VASP or a Virtual Asset Service Provider. The VASP is tasked with the **safekeeping** and **administration** of virtual assets. Section 3 of the same Terms give LyoTrade the power to suspend or terminate the user's access to the platform.
 - This is a **custodial** platform.
