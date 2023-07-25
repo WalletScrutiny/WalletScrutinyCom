@@ -12,7 +12,7 @@ updated: 2022-09-29
 version: 7.3.1
 stars: 2.8
 ratings: 1438
-reviews: 59
+reviews: 60
 size: 
 website: http://www.trade360.com
 repository: 

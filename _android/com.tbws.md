@@ -9,9 +9,9 @@ appCountry:
 released: 2021-05-27
 updated: 2022-06-19
 version: 1.24.0
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 49
+reviews: 50
 size: 
 website: https://theblackwallstreet.com
 repository: 

@@ -3,15 +3,15 @@ wsId:
 title: 'Bite: Bitcoin Wallet - BTC'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.bitcoinwallet.btclun
 appCountry: 
 released: 2023-02-07
 updated: 2023-06-01
 version: 3.04.28
-stars: 2.9
+stars: 2.5
 ratings: 
-reviews: 39
+reviews: 33
 size: 
 website: https://bitefinance.net
 repository: 

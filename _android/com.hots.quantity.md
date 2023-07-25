@@ -3,12 +3,12 @@ wsId:
 title: HotsCoin — btc&eth量化策略自動交易數據平台
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hots.quantity
 appCountry: 
 released: 2022-06-15
-updated: 2022-10-19
-version: 2.1.2
+updated: 2023-07-17
+version: 3.0.7
 stars: 
 ratings: 
 reviews: 

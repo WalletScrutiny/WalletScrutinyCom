@@ -8,8 +8,8 @@ users: 100000
 appId: com.libertyx.libertyx
 appCountry: us
 released: 2015-06-05
-updated: 2021-07-28
-version: 4.1.2
+updated: 2023-06-27
+version: 4.1.5
 stars: 3
 ratings: 427
 reviews: 300
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.libertyx.libertyx.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-11-02
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: libertyx

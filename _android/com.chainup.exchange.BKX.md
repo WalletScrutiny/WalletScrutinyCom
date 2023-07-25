@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Neural Engine
+developerName: Rubicon Korea LLC
 features: 
 
 ---

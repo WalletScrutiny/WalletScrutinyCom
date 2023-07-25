@@ -3,7 +3,7 @@ wsId:
 title: Lopeer - Borderless Banking
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.lopeer.lopeer
 appCountry: 
 released: 2022-08-13
@@ -19,7 +19,7 @@ issue:
 icon: com.lopeer.lopeer.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

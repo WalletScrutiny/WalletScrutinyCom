@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitprivetech.bpve.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

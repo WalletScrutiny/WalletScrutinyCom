@@ -3,7 +3,7 @@ wsId:
 title: SecurA Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: io.securAWallet.bankwallet
 appCountry: 
 released: 2022-08-31

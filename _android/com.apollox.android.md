@@ -7,11 +7,11 @@ users: 10000
 appId: com.apollox.android
 appCountry: 
 released: 2021-10-21
-updated: 2023-06-15
-version: 2.59.0
-stars: 3.8
+updated: 2023-07-10
+version: 2.60.2
+stars: 3.9
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: 
 repository: 

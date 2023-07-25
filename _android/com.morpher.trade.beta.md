@@ -7,8 +7,8 @@ users: 10000
 appId: com.morpher.trade.beta
 appCountry: 
 released: 2023-02-02
-updated: 2023-06-07
-version: 0.1.19
+updated: 2023-07-18
+version: 0.1.21
 stars: 
 ratings: 
 reviews: 

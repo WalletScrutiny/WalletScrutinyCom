@@ -7,8 +7,8 @@ users: 10000
 appId: com.komodoplatform.atomicdex
 appCountry: 
 released: 2022-12-15
-updated: 2023-06-14
-version: 0.6.4+2
+updated: 2023-06-23
+version: 0.6.5
 stars: 4.6
 ratings: 
 reviews: 4

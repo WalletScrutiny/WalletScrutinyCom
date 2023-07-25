@@ -1,0 +1,10 @@
+{% assign posts = site.android.size
+  | add: site.iphone.size
+  | add: site.hardware.size
+  | add: site.bearer.size %}
+
+{% if include.locale %}
+{{ posts | thousands_separated }}
+{% else %}
+{{ posts }}
+{% endif %}

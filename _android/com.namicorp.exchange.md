@@ -4,15 +4,15 @@ title: 'Nami Exchange: Buy BTC, Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.namicorp.exchange
 appCountry: 
 released: 2019-11-06
-updated: 2023-06-03
-version: 2.1.2
-stars: 3.4
+updated: 2023-06-24
+version: 2.1.3
+stars: 3.8
 ratings: 
-reviews: 4
+reviews: 9
 size: 
 website: https://nami.exchange
 repository: 

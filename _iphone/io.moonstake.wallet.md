@@ -8,11 +8,11 @@ appId: io.moonstake.wallet
 appCountry: us
 idd: 1502532651
 released: 2020-03-25
-updated: 2023-06-20
-version: 2.22.3
+updated: 2023-07-11
+version: 2.23.0
 stars: 3.3
 reviews: 16
-size: '121630720'
+size: '122859520'
 website: http://moonstake.io
 repository: 
 issue: 

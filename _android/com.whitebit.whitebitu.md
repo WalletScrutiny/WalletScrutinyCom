@@ -3,11 +3,11 @@ wsId:
 title: WhiteBIT U (Beta)
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.whitebit.whitebitu
 appCountry: 
 released: 2023-04-06
-updated: 2023-06-07
+updated: 2023-06-23
 version: 0.9.65
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: com.whitebit.whitebitu.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 
