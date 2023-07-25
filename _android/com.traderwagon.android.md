@@ -8,7 +8,7 @@ users: 10000
 appId: com.traderwagon.android
 appCountry: 
 released: 2022-05-24
-updated: 2023-06-02
+updated: 2023-07-20
 version: 1.7.1
 stars: 4.5
 ratings: 

@@ -7,8 +7,8 @@ users: 5000
 appId: id.qoin.crypto
 appCountry: 
 released: 2022-08-16
-updated: 2023-06-15
-version: 1.4.10
+updated: 2023-07-24
+version: 1.4.13
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: Brypto Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.wallet.bryptoxchange
 appCountry: 
 released: 2022-11-01

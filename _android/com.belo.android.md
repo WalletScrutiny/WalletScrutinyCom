@@ -1,6 +1,6 @@
 ---
 wsId: beloCrypto
-title: 'belo: crypto made simple'
+title: 'Belo: your digital passport'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.belo.android
 appCountry: 
 released: 2021-08-23
-updated: 2023-07-07
-version: 2.22.0
+updated: 2023-07-21
+version: 2.24.2
 stars: 3.9
 ratings: 
 reviews: 56
