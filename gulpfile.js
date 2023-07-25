@@ -59,10 +59,7 @@ gulp.task('sass', () => {
 })
 
 // Task for building blog when something changed:
-gulp.task('jekyll', shell.task('bundle exec jekyll build'))
-gulp.task('serve', shell.task('bundle exec jekyll serve --profile --trace --safe --host=0.0.0.0 --config _config.yml,_config.dev.yml'))
-gulp.task('serveIncremental', shell.task('bundle exec jekyll serve --profile --trace --incremental --safe --host=0.0.0.0 --config _config.yml,_config.dev.yml'))
-gulp.task('serveQuick', shell.task('bundle exec jekyll serve --profile --trace --safe --host=0.0.0.0 --config _config.yml,_config.dev.yml,_config.noBigCollections.yml'))
-gulp.task('serveQuickNoAndroid', shell.task('bundle exec jekyll serve --profile --trace --safe --host=0.0.0.0 --config _config.yml,_config.dev.yml,_config.noAndroid.yml'))
-gulp.task('serveQuickOnlyAndroid', shell.task('bundle exec jekyll serve --profile --trace --safe --host=0.0.0.0 --config _config.yml,_config.dev.yml,_config.onlyAndroid.yml'))
+gulp.task('jekyll',           shell.task('bundle exec jekyll build'))
+gulp.task('serve',            shell.task('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml'))
+gulp.task('serveIncremental', shell.task('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental '))
 gulp.task('default', gulp.series('jekyll', 'sass', 'minify', 'minjs', 'cleanjs', 'rename', 'cleanjsm'))

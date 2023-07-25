@@ -1,6 +1,6 @@
 ---
 wsId: koinbasketCrypto
-title: 'KoinBasket: Crypto Trading App'
+title: 'KoinBasket: Best Crypto App'
 altTitle:
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.koinbasket.mobile
 appCountry:
 released: 2022-07-02
-updated: 2023-02-01
-version: 1.1.4
+updated: 2023-07-13
+version: 1.1.5
 stars: 3
 ratings:
 reviews: 10

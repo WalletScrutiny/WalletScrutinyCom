@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitdonate.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

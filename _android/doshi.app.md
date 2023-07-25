@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Doshi
+title: Do* Wallet
 altTitle: 
 authors: 
 users: 10000

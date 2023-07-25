@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.mandala.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-12-28
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: mandalaex

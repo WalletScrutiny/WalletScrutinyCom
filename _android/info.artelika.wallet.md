@@ -7,8 +7,8 @@ users: 100
 appId: info.artelika.wallet
 appCountry: 
 released: 2022-02-07
-updated: 2023-05-07
-version: 1.0.6
+updated: 2023-07-10
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 

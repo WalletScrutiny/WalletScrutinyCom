@@ -1,0 +1,120 @@
+{%- assign fixedGrouping = "hardware,iphone,android,bearer" | split: "," -%}
+
+<div class="test-subcat">
+  <div title="Test Categories" class="component component-test-categories">
+    <div class="dropdown-options dropdown-test-categories linear-switch">
+      {% for key in fixedGrouping %}
+      {% include folderToName.html folder=key %}
+
+      {% if key == 'android' %}
+      {% assign selected = 'selected' %}
+      {% else %}
+      {% assign selected = '' %}
+      {% endif %}
+      <div class="option {{key}} {{selected}}" data="{{key}} wallets" data-id="{{key}}"><span>{{name}}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="methodology-container">
+  {% for key in fixedGrouping %}
+  {% assign verdicts = "" | split: ',' %}
+  {% assign metas = "" | split: ',' %}
+
+  {%- assign obj = key | split: "|" -%}
+  {% for category in obj %}
+  {% assign verdicts = verdicts | concat: site.data.platformMeta[category].verdicts %}
+  {% assign metas = metas | concat: site.data.platformMeta[category].metas %}
+  {% endfor %}
+
+
+
+  {% if verdicts.size != 0 %}
+  {% assign verdicts = verdicts | uniq %}
+  <div class="methodology-item {{item}}" data-id="{{key}}">
+
+  <div class="info">
+    {{site.data.platformMeta[key].description | markdownify}}
+  </div>
+  <h2>We answer the following questions usually in this order:</h2>
+
+    {% for ver in verdicts %}
+      {% include /methodology/section_title.html verdict=ver type="verdict" %}
+      {% include verdictMethodology.html verdict=ver category=key %}
+    {% endfor %}
+    {% if metas.size != 0 %}
+      {% assign metas = metas | uniq %}
+      <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+      {% include /methodology/section_title.html type="meta" %}
+      {% for meta in metas %}
+        {% include verdictMethodology.html verdict=meta category=key %}
+      {% endfor %}
+    {% endif %}
+</div>
+  {% endif %}
+  {% endfor %}
+
+  <div class="methodology-item all" data-id="all">
+    <h2>These are all the questions we might ask as part of our tests for all platforms.</h2>
+    {% for verdict in site.data.testOrder.verdicts %}
+      {% assign title = site.data.verdicts[verdict].title %}
+      {% include /methodology/section_title_icon.html verdict=verdict title=title %}
+      {% include verdictMethodology.html verdict=verdict category='verdict' %}
+    {% endfor %}
+
+    <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+    {% include /methodology/section_title.html type="meta" %}
+    {% for verdict in site.data.testOrder.metas %}
+      {% include verdictMethodology.html verdict=verdict category='meta' %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  for (const accordion of document.querySelectorAll(".verdictMethodology")) {
+    accordion.setAttribute("data-dropdown-open", "false")
+    accordion.addEventListener("click", (event) => { event.target.setAttribute("data-dropdown-open", "true") })
+    accordion.querySelector(".verdict-methodology-head").addEventListener("click", (event) => { event.target.parentNode.setAttribute("data-dropdown-open", "false") }, false)
+  }
+  addDropdownEvents("test-categories", () => { processSelectedSubcategory() })
+
+  function processSelectedSubcategory(subcat) {
+    const current = subcat?subcat:document.querySelector(".dropdown-test-categories .selected").getAttribute("data-id")
+    let test = ''
+    if(!subcat || current===subcat){test = String(window.location.search.split('?')).split("/").length>=3?String(window.location.search.split('?')).split("/")[2]:''}
+    let unused = ``
+    for (const option of document.querySelectorAll(".dropdown-options .option")) {
+      if (option.getAttribute('data-id')!==current) { option.classList.remove("selected") }else{ option.classList.add("selected") }
+      if (!option.classList.contains('selected')) { unused += `, ${option.getAttribute("data")}` }
+    }
+    for (const method of document.querySelectorAll(".methodology-item")) {
+      if (method.getAttribute("data-id") !== current) { method.classList.remove('active') }
+      else { method.classList.add('active') }
+    }
+    window.history.pushState('data', null, `/methodology/?tests-we-run/${current}/${test}`)
+    if(test){
+      if(!document.querySelector(`#${current}-${test}`)){
+        window.history.pushState('data', null, `/methodology/?tests-we-run/all/${test}`)
+        return
+      }
+      setTimeout(()=>{
+        const target = document.querySelector(`#${current}-${test}`)
+        window.scroll(0,target.offsetTop)
+        target.setAttribute("data-dropdown-open", 'true')
+        for(let neon of document.querySelectorAll('.neon-lights')){neon.classList.remove('neon-lights')}
+        setTimeout(()=>{target.classList.add('neon-lights')},100)
+      },200)
+    }
+  }
+
+  document.querySelector(".tests-we-run").addEventListener("click", ()=>{processSelectedSubcategory()})
+
+  if(window.location.href.indexOf('#')>=0){
+    const test = window.location.href.split("#")[1]
+    window.history.pushState('data', null, `/methodology/?tests-we-run/all/${test}`)
+    document.querySelector(".option.selected").classList.remove('selected')
+    document.querySelector(".methodology-item.active").classList.remove('active')
+    document.querySelector(".methodology-item.all").classList.add('active')
+  }
+</script>

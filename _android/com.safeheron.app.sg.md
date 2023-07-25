@@ -7,8 +7,8 @@ users: 100
 appId: com.safeheron.app.sg
 appCountry: 
 released: 2022-07-17
-updated: 2023-06-13
-version: 1.2.3
+updated: 2023-07-04
+version: 1.2.4
 stars: 
 ratings: 
 reviews: 
