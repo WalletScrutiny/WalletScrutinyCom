@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-01
 updated: 2023-04-15
 version: '1.12'
-stars: 3.5
+stars: 3.2
 ratings: 
-reviews: 15
+reviews: 18
 size: 
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract

@@ -10,18 +10,18 @@ appCountry:
 released: 2022-04-06
 updated: 2022-07-01
 version: 1.0.4
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://lunawallet.ae
 repository: 
 issue: 
 icon: com.luna.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-28
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

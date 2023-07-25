@@ -30,7 +30,7 @@ iphone:
     our findings.
     
     
-    Wallet Scrutiny started out looking only into Android. This is because
+    WalletScrutiny started out looking only into Android. This is because
     mobile wallets are the most used wallets, and Android is the most used among
     mobile wallets, but looking into iPhone wallets was high on the list from
     the start.
@@ -49,6 +49,7 @@ iphone:
     If you want people to trust your app (or platform), explain how it can be
     audited. We will move on in the meantime and list iPhone apps with an empty
     reproducible section until then.
+  notes: Apple does not make it possible for us to audit wallet apps from the App Store even when the wallet source-code is publicly available.
   verdicts:
     - wip
     - fake
@@ -61,6 +62,7 @@ iphone:
     - obfuscated
     - ftbfs
     - nonverifiable
+    - reproducible
   metas: 
     - defunct
     - obsolete
@@ -84,6 +86,7 @@ hardware:
     * The device displays receive addresses for confirmation
     * The device shares signed transactions after informed approval on the
       device without reliance on insecure external hardware
+  notes: Hardware wallets are subject to a different subset of tests.
   verdicts:
     - wip
     - fake
@@ -117,16 +120,24 @@ bearer:
     funds move. We used to categorize bearer tokens as hardware wallets, but 
     decided that they deserved an altogether different category. Generally,
     bearer tokens have these attributes:
+
     * Secure initial setup
+
     * Tamper evidence
+
     * Balance check without revealing private keys
+
     * Small size
+
     * Low unit price
 
 
     and either of these applies:
+    
     * Somebody has a backup and needs to be trusted
+
     * Nobody has a backup and funds are destroyed if the token is lost or damaged
+  notes: Security limitation in design and interface prevent Bearer tokens from passing some tests.
   verdicts:
     - wip
     - fake

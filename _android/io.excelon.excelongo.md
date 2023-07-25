@@ -1,6 +1,6 @@
 ---
 wsId: excelonGo
-title: Excelon.GO - Digital money
+title: 'Excelon : Payments unleashed'
 altTitle: 
 authors:
 - danny
@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://excelon.io
+website: https://excelon.money
 repository: 
 issue: 
 icon: io.excelon.excelongo.png

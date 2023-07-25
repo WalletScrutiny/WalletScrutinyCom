@@ -5,6 +5,10 @@ node_modules/
 .jekyll-cache/
 .history
 .settings/
+<<<<<<< HEAD
 .project
 .bundle/
 .vscode/
+=======
+.project
+>>>>>>> 228a4b29adc577da77357c3349f539f418063993

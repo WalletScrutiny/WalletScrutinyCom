@@ -1,5 +1,6 @@
 short: Plain Keys
 title: Plain Keys when spending
+pass: The device signs transactions without revealing the keys
 color: 'var(--indifferent, #3d506d)'
 redflag: false
 message: This product eventually requires sharing private key material.

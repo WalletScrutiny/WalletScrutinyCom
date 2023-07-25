@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nitroex.nitrobotapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-03
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: NitroExOfficial

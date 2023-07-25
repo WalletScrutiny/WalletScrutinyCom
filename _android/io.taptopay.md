@@ -3,15 +3,15 @@ wsId:
 title: Bitcoin App - Tap to Pay
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.taptopay
 appCountry: 
 released: 2022-07-27
 updated: 2022-08-25
 version: 1.0.1
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://taptopay.io
 repository: 

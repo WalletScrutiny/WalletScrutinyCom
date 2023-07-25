@@ -7,8 +7,8 @@ users: 10
 appId: ua.com.radiokot.lnaddr2invoice
 appCountry: 
 released: 2023-02-18
-updated: 2023-03-17
-version: 1.1.1
+updated: 2023-07-08
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

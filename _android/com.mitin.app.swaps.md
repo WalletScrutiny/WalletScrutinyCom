@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Swaps - Buy Crypto Securely
+title: Swaps - Buy crypto instantly
 altTitle: 
 authors: 
 users: 1000

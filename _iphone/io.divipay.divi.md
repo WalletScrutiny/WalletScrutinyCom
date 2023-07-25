@@ -8,11 +8,11 @@ appId: io.divipay.divi
 appCountry: gb
 idd: 1516551223
 released: 2021-10-08
-updated: 2023-04-26
-version: 2.2.00190
+updated: 2023-06-26
+version: 2.2.01213
 stars: 4.6
 reviews: 27
-size: '60241920'
+size: '61075456'
 website: http://wallet.diviproject.org
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366

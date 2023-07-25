@@ -5,11 +5,24 @@
 {% endif %}>
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-        <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><img class="masthead-logo" src="{{ base_path }}/images/logo_2020-dark.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
+      <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><div class="masthead-logo" alt="{{ site.title }}" title="{{ site.title }}" ></div></a>
+      {% if page.url != "/" %}
+      <div class="wallet-search">
+        <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
+        <div class="search-controls">
+          <i class="fas fa-circle-notch"></i>
+          <i class="enter search-trigger-target" data-symbol="⏎"></i>
+          <i class="fas fa-times reset-search"></i> 
+        </div>
+        <ul class="search-results results-target exit-search-target"></ul>
+      </div>
+      {% else %}
+      <div class="desktop-only"></div>
+      {% endif %}
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"></li>
+          <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -18,12 +31,14 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li><a class="theme-parent" onclick="toggleTheme()"><i class="fas fa-moon">&nbsp;<label>dark</label></i><i class="fas fa-sun">&nbsp;<label>light</label></i></a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
+          <!-- <li><a class="vibrancy no-hover" onclick="toggleVibrancy()" title="Toggle vibrant website theme"></a></li> -->
         </ul>
+        <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-  </div>
+  </div> 
 </div>
 
 <script>
@@ -41,3 +56,12 @@
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
   }
 </script>
+
+<script>
+  document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
+    const self = document.querySelector(".navicon").parentNode
+    const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2)
+    document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`
+  })
+</script>
+<script src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>

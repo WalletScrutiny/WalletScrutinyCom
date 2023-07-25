@@ -237,8 +237,9 @@
 }
 
 .app_logo {
-  display: table-cell;
-  width: 72px;
+  display: inline-block;
+  // height: 1.5rem;
+  // width: 72px;
   border-radius: 20%;
 
   @include breakpoint($medium-wide) {

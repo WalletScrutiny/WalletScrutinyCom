@@ -3,12 +3,12 @@ wsId:
 title: ActPass Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.actoz.actpass
 appCountry: 
 released: 2022-11-29
-updated: 2023-06-14
-version: 1.2.0
+updated: 2023-07-09
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.actoz.actpass.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

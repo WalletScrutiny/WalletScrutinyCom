@@ -7,8 +7,8 @@ users: 10
 appId: com.kittup
 appCountry: 
 released: 2022-11-02
-updated: 2022-11-16
-version: 1.0.1
+updated: 2023-06-23
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
