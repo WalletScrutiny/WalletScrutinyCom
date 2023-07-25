@@ -1,6 +1,6 @@
 ---
 title: Kleversafe (formerly Klever)
-appId: io.kleversafe
+appId: klever
 authors:
 - danny
 released: 2021-12-17
