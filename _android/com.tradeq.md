@@ -42,4 +42,4 @@ features:
 - The website issues a Cloudflare Host error 524
 - The app does not send a verification email after registration.
 - Without being able to test the app, we'll have to go by the description. This is a trading bot and very likely connects to exchanges via an API. Thus it is **not a wallet**.
-- Moreover, the app was last updated in 2022. We believe it is also a candidate for being **defunct**
+- Moreover, the app was last updated in 2022. We believe it is **defunct**
