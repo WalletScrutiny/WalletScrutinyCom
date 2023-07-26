@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-12
 updated: 2023-06-23
 version: 1.18.275
-stars: 3
+stars: 3.2
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://satangcorp.com/
 repository: 

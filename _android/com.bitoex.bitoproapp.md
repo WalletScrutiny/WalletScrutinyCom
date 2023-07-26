@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-07-30
 updated: 2023-05-24
 version: 4.4.4
-stars: 
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.bitopro.com
 repository: 

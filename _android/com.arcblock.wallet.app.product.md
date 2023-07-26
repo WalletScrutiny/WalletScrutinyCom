@@ -8,8 +8,8 @@ users: 5000
 appId: com.arcblock.wallet.app.product
 appCountry:
 released: 2020-01-07
-updated: 2023-05-26
-version: 4.13.0
+updated: 2023-07-10
+version: 4.13.5
 stars: 4.7
 ratings: 
 reviews: 8

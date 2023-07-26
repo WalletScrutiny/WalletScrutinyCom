@@ -8,11 +8,11 @@ users: 10000
 appId: com.metallicus.webauth
 appCountry:
 released: 2021-12-11
-updated: 2023-02-06
+updated: 2023-07-18
 version: 2.0.11
 stars: 4.5
 ratings:
-reviews: 47
+reviews: 49
 size:
 website: https://www.protonchain.com/
 repository:

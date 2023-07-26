@@ -8,8 +8,8 @@ users: 1000
 appId: com.funex.coin
 appCountry: 
 released: 2022-02-18
-updated: 2023-05-11
-version: 1.0.22
+updated: 2023-07-20
+version: 1.0.23
 stars: 
 ratings: 
 reviews: 

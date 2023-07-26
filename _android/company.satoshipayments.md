@@ -3,7 +3,7 @@ wsId:
 title: Satoshi - Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: company.satoshipayments
 appCountry: 
 released: 2023-01-23

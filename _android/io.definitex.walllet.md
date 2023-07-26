@@ -11,7 +11,7 @@ updated: 2021-04-14
 version: 0.18.2
 stars: 5
 ratings: 
-reviews: 30
+reviews: 29
 size: 
 website: http://definitex.org/
 repository: 

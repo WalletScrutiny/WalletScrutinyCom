@@ -4,15 +4,15 @@ title: 'A4/SPEXY: crypto wallet'
 altTitle:
 authors:
 - danny
-users: 10000
+users: 50000
 appId: finance.a4.mobile
 appCountry:
 released: 2022-05-09
-updated: 2023-06-15
-version: 2.1.0
+updated: 2023-07-05
+version: 2.1.2
 stars: 4.6
 ratings:
-reviews: 35
+reviews: 36
 size:
 website: https://a4.finance/
 repository:
@@ -71,4 +71,5 @@ features:
   - Token name:
   - Symbol:
   - Explorer URL:
+
 We don't know if this could potentially add BTC. But from their description, we think support for BTC should allow this from the beginning. This is why we conclude that this app **does not support BTC**.

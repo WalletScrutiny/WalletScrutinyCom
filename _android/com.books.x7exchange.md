@@ -52,8 +52,7 @@ Each trade can participate in various activities.
   - EUR
   - BRL
 - Under 'Depositar Criptomoedas', we were able to find 'Coin: Bitcoin' and 'Network: Bitcoin'. However, it was showing an error:
-
-> Wallet System is currently offline
+  > Wallet System is currently offline
 
 - The hamburger menu shows:
   - My Balances

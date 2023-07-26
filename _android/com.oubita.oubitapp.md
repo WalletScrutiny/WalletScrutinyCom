@@ -7,8 +7,8 @@ users: 50
 appId: com.oubita.oubitapp
 appCountry: 
 released: 
-updated: 2023-06-12
-version: 2.0.1
+updated: 2023-07-21
+version: 2.1.0
 stars: 
 ratings: 
 reviews: 
