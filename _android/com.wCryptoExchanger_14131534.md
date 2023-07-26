@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wCryptoExchanger_14131534.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.catecoin.crypto.wallet
 appCountry: us
 idd: '1637850589'
 released: 2022-09-13
-updated: 2023-02-09
-version: '8.2'
+updated: 2023-07-10
+version: '8.4'
 stars: 4.8
 reviews: 17
-size: '57957376'
+size: '63754240'
 website: https://catecoin.club
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: FASOCHANGE OFFICIEL
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: net.fasochange.app
 appCountry: 
 released: 2021-08-25

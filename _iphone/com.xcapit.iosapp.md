@@ -8,11 +8,11 @@ appId: com.xcapit.iosapp
 appCountry: ar
 idd: '1545648148'
 released: 2020-12-28
-updated: 2023-06-22
-version: 3.21.2
+updated: 2023-07-07
+version: 3.22.1
 stars: 4.5
 reviews: 28
-size: '61020160'
+size: '61044736'
 website: https://xcapit.com
 repository: 
 issue: 

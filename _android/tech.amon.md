@@ -8,8 +8,8 @@ users: 10000
 appId: tech.amon
 appCountry: 
 released: 2019-05-20
-updated: 2022-11-01
-version: 3.7.1
+updated: 2023-07-04
+version: 3.7.31
 stars: 
 ratings: 
 reviews: 

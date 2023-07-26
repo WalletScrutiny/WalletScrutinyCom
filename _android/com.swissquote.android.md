@@ -8,7 +8,7 @@ appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
 updated: 2023-07-03
-version: 6.30.14
+version: 7.0.7
 stars: 3.5
 ratings: 
 reviews: 39

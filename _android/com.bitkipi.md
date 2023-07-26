@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitkipi.com
+website: https://pocketbitcoin.com
 repository: 
 issue: 
 icon: com.bitkipi.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitkipi
+developerName: Pocket Bitcoin
 features: 
 
 ---

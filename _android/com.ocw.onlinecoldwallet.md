@@ -4,7 +4,7 @@ title: Online Cold Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ocw.onlinecoldwallet
 appCountry: 
 released: 2021-10-01

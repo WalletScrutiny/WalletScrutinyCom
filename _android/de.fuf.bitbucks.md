@@ -8,8 +8,8 @@ users: 5000
 appId: de.fuf.bitbucks
 appCountry: 
 released: 2019-09-03
-updated: 2023-02-28
-version: 1.5.5
+updated: 2023-07-10
+version: 1.5.6
 stars: 4.2
 ratings: 
 reviews: 2

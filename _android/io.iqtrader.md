@@ -3,7 +3,7 @@ wsId:
 title: IQTrader
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.iqtrader
 appCountry: 
 released: 2022-09-29
@@ -19,7 +19,7 @@ issue:
 icon: io.iqtrader.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

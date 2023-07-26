@@ -8,11 +8,11 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2023-06-23
-version: 1.61.0
+updated: 2023-07-21
+version: 1.63.0
 stars: 4.7
 ratings: 13620
-reviews: 2685
+reviews: 2706
 size: 
 website: https://www.crypto.com
 repository: 

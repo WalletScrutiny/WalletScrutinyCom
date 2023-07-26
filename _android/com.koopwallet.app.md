@@ -8,8 +8,8 @@ users: 10000
 appId: com.koopwallet.app
 appCountry: 
 released: 2022-12-20
-updated: 2023-04-19
-version: 20.0.0
+updated: 2023-07-11
+version: 21.0.0
 stars: 3.5
 ratings: 
 reviews: 5

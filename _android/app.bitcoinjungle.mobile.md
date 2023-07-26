@@ -3,12 +3,12 @@ wsId:
 title: Bitcoin Jungle
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: app.bitcoinjungle.mobile
 appCountry: 
 released: 2021-12-05
-updated: 2023-07-03
-version: 1.1.12
+updated: 2023-07-07
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: app.bitcoinjungle.mobile.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-02
 signer: 
 reviewArchive: 

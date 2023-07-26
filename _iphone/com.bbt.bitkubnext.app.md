@@ -10,8 +10,8 @@ idd: '6444399387'
 released: 2022-12-07
 updated: 2023-07-03
 version: 1.7.0
-stars: 5
-reviews: 193
+stars: 4.9
+reviews: 216
 size: '120701952'
 website: https://www.bitkubchain.com
 repository: 

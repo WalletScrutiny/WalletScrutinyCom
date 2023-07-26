@@ -12,7 +12,7 @@ updated: 2023-06-27
 version: V3.46
 stars: 4.3
 ratings: 
-reviews: 6408
+reviews: 6406
 size: 
 website: https://safemoon.com
 repository: 

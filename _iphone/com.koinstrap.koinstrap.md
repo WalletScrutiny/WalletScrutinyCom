@@ -10,8 +10,8 @@ idd: 1527922541
 released: 2020-08-31
 updated: 2023-05-17
 version: 3.2.2
-stars: 4.5
-reviews: 22
+stars: 4.6
+reviews: 23
 size: '23851008'
 website: https://koinstrap.com/
 repository: 

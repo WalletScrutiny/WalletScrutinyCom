@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Billbitcoins - Pay with Bitcoi
+title: Billbitcoins- Pay With Crypto
 altTitle: 
 authors: 
 users: 500
