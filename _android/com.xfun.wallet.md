@@ -42,7 +42,7 @@ features:
 
 ## Analysis
 
-- The app claims to support BTC and is non-custodial. It doesn't claim to be source-available.
+- The app claims to support BTC and is non-custodial.
 - The app can send/receive BTC.
 - There is a BTC wallet with a SegWit address that can send/receive.
 - The app provided the seed phrases.

@@ -52,7 +52,7 @@ features:
 
 ## Analysis
 
-- We verified that the app generates a BTC address. The private keys are not provided to the user.
+- We verified that the app generates a BTC address.
 - KYC is required to unlock BTC deposit feature.
 - The private keys were not provided.
 - As the description in the provider's website states, this is a **custodial** app.

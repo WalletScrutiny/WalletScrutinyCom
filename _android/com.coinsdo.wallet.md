@@ -46,6 +46,6 @@ features:
 - The BTC wallet can send/receive 
 - The mnemonic phrase was provided
 - There's a claim that the product is Open Source, but we can find no links to the repository.
-- We found an GitHub organization for [CoinsDo](https://github.com/CoinsDo) with a similar name and logo, with 6 repositories. Some bear the word 'wallet' but the Play version and the versions on GitHub don't match. 
+- We found a GitHub organization for [CoinsDo](https://github.com/CoinsDo) with a similar name and logo, with 6 repositories but all these repositories are either empty or contain only a rudimentary text file but no code for a wallet.
 - We [tweeted](https://twitter.com/BitcoinWalletz/status/1672082520949522432) them about it and await their response.
 - Until they respond, we'll mark this as **source-unavailable.**

@@ -88,28 +88,20 @@ For Slave:
     "kekId":"eddc2a1a02fe46278f6d92c820afb7b0b3dc2fcb-34cc-4a79-962d-29730eade830",
     "version":"1688022095052"}
 
-We had Google Bard explain these strings:
+Our interpretation of these strings:
 
-> - address: The address of a Bitcoin Cash wallet.
-> - createTime: The Unix timestamp of when the wallet was created.
-> - encryedInfo: The encrypted information about the wallet.
-> - kekId: The ID of the key encryption key that was used to encrypt the wallet.
-> - version: The version of the wallet.
+- address: An actual BTC address
+- createTime: The Unix timestamp of when the wallet was created. `Thu Jun 29 2023 07:23:43 GMT+0000` in this case
+- encryedInfo: Despite the typo, this is probably the encrypted private key of the wallet - or part thereof.
+- kekId: The ID of a key encryption key that was used to encrypt the wallet. This implies that the backup does not contain all information required to obtain the private key. The key encryption key is probably stored by the provider.
+- version: The version of the wallet.
 
-Note, that the AI indicated that this was a Bitcoin Cash address, this is because the same address could be present in both BTC and BCH networks.
+So while these backups do allow to restore the private key with the help of the provider while any one of these files maybe is not enough to restore it, more information would be required.
+
+If done such that the provider does never get the private key - as promised - the app would have to send the kek to the provider and the encrypted backup to two different places such as the suggested Google Drive and Dropbox.
+
+While this clearly is non-custodial - the provider has no control over your funds - it is quite prone to error or hacks. If the provider disappears or Google or Dropbox close your account, you are without a backup. Especially if the provider disappears, you also cannot use an alternative product to recover your funds. And if somebody hacks into your email account or PC, they probably also get access to your Dropbox and Google Drive.
 
 ## Conclusion
 
-This was difficult for us to give a verdict to. For one, these two files are stored on Google Drive, a service within a corporation with its own [Terms and Conditions](https://www.google.com/drive/terms-of-service/), which states:
-
-> 2. Program Policies
->
-> We may review content to determine whether it is illegal or violates our Program Policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don’t assume that we do.
-
-Yet, on the other hand, the provider claims their product is self-custodial.
-
-The objective of keeping the private keys is that nobody except the owner has absolute control of these - especially in practical terms.
-
-If an attacker, say the US government, with enough intelligence, has Google to **freeze** the Google Drive or DropBox account of the user, then the wallet owner has effectively lost control of the keys.
-
-We are open to other interpretations, but we primarily view this as a **custodial** provider for the reasons stated above.
+While their choice of doing key management is not an industry standard, it is - as long as nothing goes wrong - self-custodial but as we could not find the source code, this product is **not verifiable**.
