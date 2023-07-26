@@ -7,8 +7,8 @@ users: 50000
 appId: com.walletamaze.nftwallet
 appCountry: 
 released: 2023-06-26
-updated: 2023-06-29
-version: 1.0.01
+updated: 2023-07-07
+version: 1.0.02
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: 'Aurora: CryptoWallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.aurora.aurorawallet
 appCountry: 
 released: 2022-12-23

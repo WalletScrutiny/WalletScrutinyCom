@@ -8,11 +8,11 @@ appId: bipa.app.Bipa
 appCountry: br
 idd: '1516842324'
 released: 2020-06-30
-updated: 2023-07-03
-version: 3.0.1
+updated: 2023-07-24
+version: 3.0.5
 stars: 4.6
-reviews: 607
-size: '97133568'
+reviews: 685
+size: '97448960'
 website: https://bipa.app
 repository: 
 issue: 

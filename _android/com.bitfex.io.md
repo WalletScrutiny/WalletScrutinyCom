@@ -7,8 +7,8 @@ users: 5000
 appId: com.bitfex.io
 appCountry: 
 released: 2023-02-12
-updated: 2023-05-28
-version: 1.1.0
+updated: 2023-07-20
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 

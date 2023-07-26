@@ -7,7 +7,7 @@ users: 10
 appId: com.sato.hordes
 appCountry: 
 released: 
-updated: 2023-06-29
+updated: 2023-07-24
 version: VARY
 stars: 
 ratings: 

@@ -10,9 +10,9 @@ appCountry: cl
 released: 2015-05-22
 updated: 2023-06-27
 version: 2.33.0
-stars: 3.1
+stars: 3
 ratings: 77624
-reviews: 1092
+reviews: 1093
 size: 
 website: https://libertex.org
 repository: 

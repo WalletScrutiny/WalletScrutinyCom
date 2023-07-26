@@ -11,8 +11,8 @@ idd: 1433883012
 released: 2018-09-29
 updated: 2023-06-15
 version: 3.3.6
-stars: 3.7
-reviews: 159
+stars: 3.4
+reviews: 133
 size: '120071168'
 website: https://www.itoken.com/en/
 repository: 

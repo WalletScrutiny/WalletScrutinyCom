@@ -8,11 +8,11 @@ appId: com.litefinance.cabinet
 appCountry: us
 idd: '1661254805'
 released: 2023-01-11
-updated: 2023-06-30
-version: '1.65'
-stars: 3.8
-reviews: 11
-size: '124067840'
+updated: 2023-07-05
+version: '1.66'
+stars: 3.9
+reviews: 13
+size: '124051456'
 website: https://www.liteforex.com
 repository: 
 issue: 

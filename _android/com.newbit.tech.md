@@ -3,7 +3,7 @@ wsId:
 title: 'Newbit : Buy & Trade Crypto'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.newbit.tech
 appCountry: 
 released: 2022-07-14

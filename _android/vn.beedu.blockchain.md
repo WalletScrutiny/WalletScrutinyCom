@@ -8,11 +8,11 @@ users: 100000
 appId: vn.beedu.blockchain
 appCountry: 
 released: 2021-11-09
-updated: 2023-01-09
-version: 1.4.18
+updated: 2023-07-13
+version: 1.4.20
 stars: 4.1
 ratings: 
-reviews: 32
+reviews: 31
 size: 
 website: https://lynkey.com/
 repository: 
