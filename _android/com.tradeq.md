@@ -1,35 +1,35 @@
 ---
-wsId:
+wsId: 
 title: TradeQ
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.tradeq
-appCountry:
+appCountry: 
 released: 2021-08-18
 updated: 2022-07-08
 version: '6.1'
-stars:
-ratings:
-reviews:
-size:
-website:
-repository:
-issue:
+stars: 
+ratings: 
+reviews: 
+size: 
+website: 
+repository: 
+issue: 
 icon: com.tradeq.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: nowallet
 date: 2023-07-02
-signer:
-reviewArchive:
-twitter:
+signer: 
+reviewArchive: 
+twitter: 
 social:
 - https://www.tradeqs.com
-redirect_from:
+redirect_from: 
 developerName: TradeQ
-features:
+features: 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: beloCrypto
-title: 'belo: buy and sell crypto'
+title: 'Belo: your digital passport'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.belo.ios
 appCountry: co
 idd: '1575614708'
 released: 2021-09-08
-updated: 2023-06-29
-version: 2.20.1
+updated: 2023-07-24
+version: 2.24.2
 stars: 5
 reviews: 13
-size: '75793408'
+size: '77308928'
 website: https://belo.app
 repository: 
 issue: 

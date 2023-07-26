@@ -9,9 +9,9 @@ appCountry:
 released: 2023-04-07
 updated: 2023-07-17
 version: 1.4.1
-stars: 
+stars: 4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: 
 repository: 

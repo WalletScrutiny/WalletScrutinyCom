@@ -1,35 +1,35 @@
 ---
 wsId: touchWalletCrypto
 title: Touch Wallet — Crypto Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: ru.webtronics.touch_wallet
-appCountry:
+appCountry: 
 released: 2022-10-29
 updated: 2023-06-30
 version: 1.6.10
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://touchwallet.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: ru.webtronics.touch_wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Touch_Wallet
 social:
 - https://t.me/TouchWalletEN
-redirect_from:
+redirect_from: 
 developerName: CLOUD FARMER L.L.C-FZ
-features:
+features: 
 
 ---
 

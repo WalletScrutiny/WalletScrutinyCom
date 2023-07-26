@@ -1,28 +1,28 @@
 ---
 wsId: saitaPro
 title: SaitaPro
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.saitapro
 appCountry: us
 idd: '1636523777'
-released: '2022-08-05T07:00:00Z'
-updated: 2022-11-21
-version: '1.4'
-stars: 4.85674
-reviews: 705
-size: '42472448'
-website: ''
-repository:
-issue:
+released: 2022-08-05
+updated: 2023-07-19
+version: '1.8'
+stars: 4.8
+reviews: 722
+size: '55293952'
+website: 
+repository: 
+issue: 
 icon: com.saitapro.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: WeAreSaitama
 social:
 - https://www.facebook.com/groups/1275234186328559
@@ -30,7 +30,7 @@ social:
 - https://t.me/SaitamaWorldwide
 - https://discord.com/invite/saitama
 - https://www.reddit.com/r/WeAreSaitama
-features:
+features: 
 developerName: SAITAMA TECHNOLOGY L.L.C
 
 ---

@@ -1,37 +1,37 @@
 ---
 wsId: blocknanceBlockchain
 title: 'Blocknance: Blockchain Wallet'
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.blocknance.wallet
-appCountry:
+appCountry: 
 released: 2022-09-11
 updated: 2023-03-14
 version: '1.1'
 stars: 4.3
-ratings:
+ratings: 
 reviews: 3
-size:
+size: 
 website: https://blockchain.com.do
-repository:
-issue:
+repository: 
+issue: 
 icon: com.blocknance.wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: blocknanceATM
 social:
 - https://www.linkedin.com/company/blocknance
 - https://www.youtube.com/channel/UCAuqZmDK1puvCH42WW-oSJg
 - https://www.facebook.com/BlocknanceATM
-redirect_from:
+redirect_from: 
 developerName: Blocknance Financial International SRL
-features:
+features: 
 
 ---
 

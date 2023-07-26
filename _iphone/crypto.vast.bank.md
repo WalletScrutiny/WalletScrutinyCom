@@ -1,33 +1,33 @@
 ---
 wsId: vastCryptoBank
 title: Vast Crypto Banking
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: crypto.vast.bank
 appCountry: us
 idd: '1572241586'
-released: '2021-08-23T07:00:00Z'
+released: 2021-08-23
 updated: 2023-06-29
 version: 1.7.10
-stars: 3.37975
+stars: 3.4
 reviews: 79
 size: '79508480'
 website: https://www.vast.bank/
-repository:
-issue:
+repository: 
+issue: 
 icon: crypto.vast.bank.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: vastbank
 social:
 - https://www.linkedin.com/company/vastbank
 - https://www.facebook.com/vastbankNA
-features:
+features: 
 developerName: Vast Bank N.A.
 
 ---

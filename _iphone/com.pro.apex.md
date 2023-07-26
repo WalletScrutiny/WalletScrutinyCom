@@ -7,13 +7,13 @@ authors:
 appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
-released: '2022-09-27T07:00:00Z'
-updated: 2023-06-30
-version: 1.18.3
-stars: 4.46666
-reviews: 30
-size: '75489280'
-website: ''
+released: 2022-09-27
+updated: 2023-07-06
+version: 1.19.1
+stars: 4.5
+reviews: 31
+size: '75624448'
+website: 
 repository: 
 issue: 
 icon: com.pro.apex.jpg

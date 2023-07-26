@@ -1,34 +1,34 @@
 ---
 wsId: chainAppWeb3
 title: Chain App - Web3 Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.chainwallet.app
 appCountry: us
 idd: '6444779277'
-released: '2022-12-22T08:00:00Z'
-updated: 2023-06-30
-version: 1.0.16
-stars: 4.59999
+released: 2022-12-22
+updated: 2023-07-13
+version: 1.0.17
+stars: 4.6
 reviews: 10
-size: '166862848'
+size: '170946560'
 website: https://chain.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.chainwallet.app.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: chain
 social:
 - https://t.me/chain
 - https://www.youtube.com/@chain
 - https://www.facebook.com/chain
-features:
+features: 
 developerName: Chain Global Ltd
 
 ---

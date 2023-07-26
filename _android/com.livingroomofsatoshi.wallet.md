@@ -12,7 +12,7 @@ updated: 2023-06-21
 version: 2.2.3
 stars: 4
 ratings: 758
-reviews: 163
+reviews: 164
 size: 
 website: http://www.walletofsatoshi.com
 repository: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.titanx_change.www
 appCountry: 
 released: 2022-10-19
-updated: 2023-02-27
-version: 1.3.4
+updated: 2023-07-24
+version: 1.4.3
 stars: 
 ratings: 
 reviews: 

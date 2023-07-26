@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2022-12-28
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: deltastock
