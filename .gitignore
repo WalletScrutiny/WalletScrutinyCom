@@ -5,6 +5,6 @@ node_modules/
 .jekyll-cache/
 .history
 .settings/
-.project.bundle/
-.vscode/
+.project
 .bundle/
+.vscode/

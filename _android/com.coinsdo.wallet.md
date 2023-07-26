@@ -8,9 +8,9 @@ users: 100000
 appId: com.coinsdo.wallet
 appCountry: 
 released: 2022-06-26
-updated: 2023-06-07
-version: 1.1.21
-stars: 4.3
+updated: 2023-07-23
+version: 1.1.23
+stars: 4.4
 ratings: 
 reviews: 1
 size: 

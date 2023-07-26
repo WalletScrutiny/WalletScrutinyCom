@@ -11,7 +11,7 @@ released: 2020-04-13
 updated: 2023-07-19
 version: 1.69.1
 stars: 4.8
-reviews: 9
+reviews: 10
 size: '116846592'
 website: https://btse.com
 repository: 

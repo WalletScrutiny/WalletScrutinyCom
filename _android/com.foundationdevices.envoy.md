@@ -3,7 +3,7 @@ wsId:
 title: Envoy
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.foundationdevices.envoy
 appCountry: 
 released: 2022-04-01

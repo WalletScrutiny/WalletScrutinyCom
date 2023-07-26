@@ -8,9 +8,9 @@ users: 10000
 appId: com.xfun.wallet
 appCountry: 
 released: 2022-02-08
-updated: 2022-11-23
-version: 1.0.8
-stars: 3.6
+updated: 2023-07-17
+version: 2.0.1
+stars: 3.8
 ratings: 
 reviews: 7
 size: 
