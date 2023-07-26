@@ -3,12 +3,12 @@ wsId:
 title: Rapidz Pay
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: io.rapidz.rapidzpay
 appCountry: 
 released: 2021-06-21
-updated: 2023-05-25
-version: 2.7.0
+updated: 2023-07-14
+version: 2.8.1
 stars: 3.6
 ratings: 
 reviews: 3

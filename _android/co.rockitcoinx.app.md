@@ -9,9 +9,9 @@ appCountry:
 released: 2019-09-20
 updated: 2023-06-21
 version: 3.1.3
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 115
+reviews: 119
 size: 
 website: https://rockitcoin.com
 repository: 

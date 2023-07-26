@@ -11,7 +11,7 @@ released: 2019-12-18
 updated: 2023-06-02
 version: 2.2.0
 stars: 3.5
-reviews: 20
+reviews: 19
 size: '92114944'
 website: https://www.cryptohero.ai
 repository: 

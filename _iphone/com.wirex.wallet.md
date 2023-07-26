@@ -8,11 +8,11 @@ appId: com.wirex.wallet
 appCountry: nz
 idd: 1594165139
 released: 2021-12-07
-updated: 2023-04-20
-version: 0.3.15
+updated: 2023-07-13
+version: 0.3.19
 stars: 4.3
 reviews: 7
-size: '78412800'
+size: '84388864'
 website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 

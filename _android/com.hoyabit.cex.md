@@ -3,7 +3,7 @@ wsId:
 title: HOYA BIT 加密貨幣交易所
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10

@@ -1,0 +1,57 @@
+<h2>Meet our core team.</h2>
+
+<div class="team">
+{% assign team = "lw,dg,ml,em,ts" | split: "," %}
+{% for a in team %}
+  {% assign author = site.authors | where: 'short', a | first %}
+  {% assign avatar = author.avatar %}
+  {% if avatar contains '://' %}
+    {% assign prefix = '' %}
+  {% elsif avatar.size > 0 %}
+    {% assign prefix = "/images/" %}
+  {% else %}
+    {% assign prefix = "/images/avatarPlaceholder.jpg" %}
+  {% endif %}
+
+  <a href="{{ author.url }}" class="team-member">
+    <div class="image" style="background-image:url({{prefix}}{{author.avatar}});"></div>
+    <h3>{{author.name}}</h3>
+    <p>{{author.role}}</p>
+  </a>
+{% endfor %}
+
+</div>
+
+<style>
+  .team{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 10px;
+}
+.team-member{
+  display:grid; 
+  gap: 5px; 
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+  text-decoration: none !important;
+  color: var(--text);
+}
+.team-member:hover{
+  text-decoration: underline !important;
+  color: var(--accent-text);
+}
+.team-member h3{margin:auto; font-size: 17px; font-weight: 400px;}
+.team-member p{margin:auto;font-weight: 200;font-size: 17px;}
+.team-member .image {
+  height: 100px;
+  width: 100px;
+  background-position: 50% 50%;
+  border-radius: 100px;
+  background-size: cover;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url(/images/avatarPlaceholder.jpg);
+}
+</style>

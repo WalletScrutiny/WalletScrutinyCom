@@ -1,0 +1,43 @@
+{% for group in site.data.verdictGroups %}
+  {% for verdict in group.verdicts %}
+    {% if verdict == page.verdict %}
+      {% if group.privacy %}
+        {% assign privacyVerdict = group.privacy %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+<div class="step privacy">
+  {% if privacyVerdict || privacyVerdict == 'flagPlaceholder' %}
+  <i class="i-visible circle"></i>
+  {% else %}
+  <i class="i-visible circle disabled"></i>
+  {% endif %}
+  <div class="title">
+    <h3>Privacy</h3>
+    <p>
+    {% if privacyVerdict %}
+      {{privacyVerdict}}
+    {% else %}
+     {{ 'Not tracked' }}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+  </div>
+  {% if page.tooltip.privacy %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.privacy %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.privacy | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>

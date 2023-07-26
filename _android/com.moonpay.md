@@ -3,15 +3,15 @@ wsId:
 title: 'MoonPay: Buy Bitcoin, Ethereum'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.moonpay
 appCountry: 
 released: 2023-04-18
 updated: 2023-06-08
 version: 1.9.0
-stars: 3.8
+stars: 4
 ratings: 
-reviews: 33
+reviews: 37
 size: 
 website: https://www.moonpay.com/
 repository: 

@@ -4,6 +4,7 @@
     "category": "App Store",
     "apps": [ 
       {% for post in site.iphone %}
+      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='iphone' %}
       {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
@@ -26,7 +27,8 @@
         "signer": "{{ post.signer }}",
         "twitter": "{{ post.twitter }}",
         "social": {{ post.social | jsonify }},
-        "url": "{{ post.url }}"
+        "url": "{{ post.url }}",
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -35,6 +37,7 @@
     "category": "Hardware Wallet",
     "apps": [ 
       {% for post in site.hardware %}
+      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='hardware' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -57,7 +60,8 @@
         "signer": "{{ post.signer }}",
         "twitter": "{{ post.twitter }}",
         "social": {{ post.social | jsonify }},
-        "url": "{{ post.url }}"
+        "url": "{{ post.url }}",
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -66,6 +70,7 @@
     "category": "Bearer Token",
     "apps": [ 
       {% for post in site.bearer %}
+      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='bearer' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -88,7 +93,8 @@
         "signer": "{{ post.signer }}",
         "twitter": "{{ post.twitter }}",
         "social": {{ post.social | jsonify }},
-        "url": "{{ post.url }}"
+        "url": "{{ post.url }}",
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -97,6 +103,7 @@
     "category": "Play Store",
     "apps": [ 
       {% for post in site.android %}
+      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='android' %}
       {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
@@ -120,7 +127,8 @@
         "signer": "{{ post.signer }}",
         "twitter": "{{ post.twitter }}",
         "social": {{ post.social | jsonify }},
-        "url": "{{ post.url }}"
+        "url": "{{ post.url }}",
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]

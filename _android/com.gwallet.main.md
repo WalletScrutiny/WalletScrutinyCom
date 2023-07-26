@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gwallet.main.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

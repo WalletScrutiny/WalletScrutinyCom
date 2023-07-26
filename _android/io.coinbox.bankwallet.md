@@ -3,7 +3,7 @@ wsId:
 title: Coinbox Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.coinbox.bankwallet
 appCountry: 
 released: 2022-08-30

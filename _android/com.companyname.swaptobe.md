@@ -12,7 +12,7 @@ updated: 2022-10-24
 version: '5.6'
 stars: 4.2
 ratings: 
-reviews: 20
+reviews: 19
 size: 
 website: https://swaptobe.com
 repository: 

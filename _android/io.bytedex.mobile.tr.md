@@ -3,7 +3,7 @@ wsId:
 title: 'Byte Exchange TR: BTC Kripto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.bytedex.mobile.tr
 appCountry: 
 released: 2022-12-16

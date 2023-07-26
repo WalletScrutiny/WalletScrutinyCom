@@ -10,9 +10,9 @@ appCountry:
 released: 2018-03-22
 updated: 2020-11-25
 version: 1.34.2
-stars: 4.3
+stars: 4.4
 ratings: 5482
-reviews: 235
+reviews: 233
 size: 
 website: https://usdx.cash
 repository: 

@@ -7,8 +7,8 @@ users: 10000
 appId: ea.antbot.org
 appCountry: 
 released: 2021-09-29
-updated: 2023-06-30
-version: 2.4.0
+updated: 2023-07-19
+version: 2.4.5
 stars: 4.2
 ratings: 
 reviews: 19

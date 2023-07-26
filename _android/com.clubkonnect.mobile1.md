@@ -8,11 +8,11 @@ users: 100000
 appId: com.clubkonnect.mobile1
 appCountry: 
 released: 2017-10-31
-updated: 2023-06-27
-version: 2.0.20
+updated: 2023-07-18
+version: 2.0.23
 stars: 3
 ratings: 
-reviews: 32
+reviews: 39
 size: 
 website: http://www.clubkonnect.com
 repository: 

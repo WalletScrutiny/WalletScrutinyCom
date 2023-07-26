@@ -3,7 +3,7 @@ wsId:
 title: Crypto Net
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.piece.father
 appCountry: 
 released: 2022-03-31

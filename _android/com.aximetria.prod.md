@@ -7,8 +7,8 @@ users: 1000
 appId: com.aximetria.prod
 appCountry: 
 released: 
-updated: 2023-06-22
-version: 2.28.1
+updated: 2023-07-07
+version: 2.29.0
 stars: 
 ratings: 
 reviews: 
