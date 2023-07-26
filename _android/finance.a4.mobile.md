@@ -71,4 +71,5 @@ features:
   - Token name:
   - Symbol:
   - Explorer URL:
+
 We don't know if this could potentially add BTC. But from their description, we think support for BTC should allow this from the beginning. This is why we conclude that this app **does not support BTC**.
