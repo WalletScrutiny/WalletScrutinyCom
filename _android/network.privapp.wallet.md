@@ -44,8 +44,8 @@ features:
 
 ## Analysis
 
-- We were given the option to create or import a wallet during startup. The seed phrases can only copied by tapping the 'copy' button, and can only be pasted using the 'paste' button.
+- We were given the option to create or import a wallet during startup. Choosing 'create' a wallet, shows the seed phrases to the user.
 - A Bech32 BTC address is available for receiving or sending.
 - There were no claims regarding source-availability.
-- A 'code search' on GitHub for the app ID, yielded [0 results.](https://github.com/search?q=network.privapp.wallet&type=code). The organization's [GitHub account](https://github.com/PrivappNetwork) is linked from the website, however it only has 2 repositories that do not identify as the Android app.
+- We searched for the app ID in GitHub Code, and yielded [0 results.](https://github.com/search?q=network.privapp.wallet&type=code). The organization's [GitHub account](https://github.com/PrivappNetwork) is linked from the website, however it only has 2 repositories that do not identify as the Android app.
 - This app is **not source-available.**
