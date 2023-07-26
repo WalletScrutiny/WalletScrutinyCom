@@ -42,21 +42,27 @@ features:
 > CoinTR has obtained financial licenses, MSB license from FinCEN, support compliance and reliable business. Users' assets guardian by international professional financial management criterion SOX 404, GAAP and ISO27000 Information Security Standards.
 >
 > Rich and Diverse Trading Model
-Including Bitcoin (BTC), Ether (ETH), Doge etc. spot and contract trading, choose your own leverage, support up to 125 times robust contracts, to meet your diverse trading needs.
+>
+> Including Bitcoin (BTC), Ether (ETH), Doge etc. spot and contract trading, choose your own leverage, support up to 125 times robust contracts, to meet your diverse trading needs.
 
 ## Analysis
 
-- We signed up but the email verification did not contain the code to input in the form. It merely told us to "login directly". We closed the app and opened it again and logged in using the details we provided. This time, they sent a code.
+Important note: There are two major sections within this app:
+
+1. The exchange
+2. The web3 TRON/ETH wallet that allows the private keys to be backed-up.
+
+- We signed up, but the email verification did not contain the code to input in the form. It merely told us to "login directly". We closed the app and opened it again and logged in using the details we provided. This time, they sent a code.
 - There are two tabs at the top of the app:
   - Exchange
-  - Wallet
+  - Web3 Wallet
 
-### Wallet Section
+### Web3 Wallet Section
 
 - The wallet section allows us to create a wallet, but the "import wallet" option says "Coming soon"
 - We set a wallet password.
 - It sent another verification email. It consisted of 6 digits.
-- It then asked us to back up the wallet password which is in ciphertext, which has 64 chracters.
+- Furthermore, it then asked us to back up the wallet password which is in ciphertext, which has 64 characters.
 - We tapped on "Complete", and it gave a message that the Web3 Wallet was created.
 - A multichain wallet was presented with various tokens. The primary network is ETH. The secondary network was TRON.
 - There is no bitcoin.
@@ -76,4 +82,6 @@ Including Bitcoin (BTC), Ether (ETH), Doge etc. spot and contract trading, choos
 
 Despite the ability to export the seed phrases and the private keys in the Crypto Web3 wallet located within the same app, we believe this is a custodial provider for the simple fact that users would still have to login before they can either import a wallet or create a wallet.
 
-If there is no login access, there is no access to the web 3 wallet. This is a **custodial** app.
+More definitive to this argument is the **Web3 Wallet component only supports ETH and TRON tokens**. It **does not support Bitcoin**.
+
+This is a **custodial** app.
