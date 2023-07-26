@@ -18,7 +18,7 @@ country: BR
 price: 199USD
 repository: 
 issue: 
-icon: io.kleversafe.png
+icon: klever.png
 bugbounty: 
 meta: ok
 verdict: noita
