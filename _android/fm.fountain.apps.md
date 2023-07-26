@@ -41,7 +41,12 @@ features:
 - Fountain is a podcast app that rewards listeners and podcasters for performing actions on the app. 
 - [Transactions](https://support.fountain.fm/category/51-your-account-wallet) are measured in Satoshis or sats. 
 - The user can top-up using USD which then get converted to BTC/sats. 
-- [Withdrawal](https://support.fountain.fm/category/24-withdrawals) is possible after a certain condition is met. 
+- [Withdrawal](https://support.fountain.fm/category/24-withdrawals) is [possible when](https://support.fountain.fm/article/14-how-do-i-unlock-withdrawals):
+
+     > Withdrawals are automatically unlocked for you after some time of daily listening to podcasts. You don't have to do anything extra on your end. 
+     >
+     > If you keep using the app normally and listen to podcasts every day, you should be able to withdraw within a couple of weeks. Some users unlock this feature after a week, for others it can take a month or longer. It depends on each individual's listening habits. 
+
 - There are limits to the transactions. 
 - There were no seed phrases provided and the user has to sign up with Zebedee in order to get greater transaction limits - with KYC. 
 - This is a **custodial** platform.

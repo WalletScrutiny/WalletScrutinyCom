@@ -20,7 +20,7 @@ issue:
 icon: com.smartwallet.app.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 date: 2023-06-29
 signer: 
 reviewArchive: 
@@ -60,7 +60,7 @@ Chains to support in the future included:
 - There is [no mention of support for BTC](https://twitter.com/BitcoinWalletz/status/1674316225399214080), and yet, there is a 'BTC-N' Wallet.
 - Apparently, 'N' is a designation to (from app question mark symbol):
 
-> distinguish wallets in different networks, the format is 'network-type-name', where the network and type cannot be modified.
+    > distinguish wallets in different networks, the format is 'network-type-name', where the network and type cannot be modified.
 
 Thus, this should be a Bitcoin wallet, with a type 'N' plus the name of the wallet we chose to give it.
 

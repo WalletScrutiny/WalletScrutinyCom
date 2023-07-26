@@ -45,7 +45,7 @@ features:
 
 - We were not able to find the Terms and Conditions for the site.
 - The help section only shows their email address.
-- There is no documentation about their security procedures. The exchange may NOT be complying with the latest regulations.
+- There is no documentation about their security procedures. The exchange might not follow industry standards to keep the funds safe.
 - When we first opened the app, the "Crypto Deposit" search bar does not display BTC. It does however, support BEP20, ERC20 and TRC20 tokens. Even the Dogecoin wallet is under the BEP20 network.
 - It is however, possible to buy or sell bitcoin. Where it is going to be stored or how they could be withdrawn is unknown. We asked them about this on [twitter](https://twitter.com/BitcoinWalletz/status/1674242223003643904).
 - It is apparent though that the wallets are accounts-based tied with the email address that a user could use to register.

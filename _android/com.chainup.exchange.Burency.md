@@ -36,6 +36,8 @@ features:
 <div class="alertBox"><div>There are numerous allegations on social media about this cryptocurrency exchange since 2021. Both the website and the app are no longer working at the time of this review.
 </div> </div>
 
+- This app is related to {% include walletLink.html wallet='android/com.burency.app' verdict='true' %} as the developer ID is [the same](https://play.google.com/store/apps/dev?id=6972092193164421320) with the [archived developer ID](https://web.archive.org/web/20210327101627mp_/https://play.google.com/store/apps/details?id=com.burency.app).
+
 ## App Description from Google Play
 
 > WELCOME TO THE #1 CRYPTOCURRENCY EXCHANGE IN THE MIDDLE EAST

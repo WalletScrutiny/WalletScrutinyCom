@@ -19,7 +19,7 @@ issue:
 icon: com.soundVelly.echoooLab.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 date: 2023-07-24
 signer: 
 reviewArchive: 
