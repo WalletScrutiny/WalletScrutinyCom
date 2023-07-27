@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Singular
+title: Singular App–Invest in Crypto
 altTitle: 
 authors: 
 users: 100

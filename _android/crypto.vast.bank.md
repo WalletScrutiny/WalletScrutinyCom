@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: vastCryptoBank
 title: Vast Bank Mobile
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: crypto.vast.bank
 appCountry: 
@@ -19,15 +20,28 @@ issue:
 icon: crypto.vast.bank.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: custodial
+date: 2023-07-02
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: vastbank
+social:
+- https://www.linkedin.com/company/vastbank
+- https://www.facebook.com/vastbankNA
 redirect_from: 
 developerName: Vast Bank
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Buy, sell and hold crypto through a mobile banking app offered by a traditional bank. While you’re at it, earn 2.65% Annual Percentage Yield (APY) on your checking account balance.
+
+Vast bank is a [federally regulated bank](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank).
+
+## Analysis
+
+- The app is geo-restricted
+- This [help article](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank) describes {{ page.title }} as a cryptocurrency custody solution.
+- Evidently, this is a **custodial** provider.

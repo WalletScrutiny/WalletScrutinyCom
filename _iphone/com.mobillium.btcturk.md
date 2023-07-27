@@ -11,7 +11,7 @@ released: 2020-04-09
 updated: 2023-07-11
 version: 1.27.0
 stars: 4.6
-reviews: 25554
+reviews: 25563
 size: '224676864'
 website: https://www.btcturk.com
 repository: 
