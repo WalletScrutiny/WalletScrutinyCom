@@ -1,57 +1,34 @@
 {% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
-
-{%- for verdict_group in site.data.verdictGroups -%}
-  {%- if verdict_group.key == 'notRelevant' -%}
-    {%- continue -%}
-  {%- endif -%}
+{%- include /homepage/full_wallet_count.html raw='true' -%}
+  
+  {%- for verdict_group in site.data.verdictGroups -%}
   {%- assign total = 0 -%}
   <div class="statistic-tile">
     <div class="data">
       {%- assign verdicts = verdict_group.verdicts -%}
       {%- assign metas = verdict_group.metas -%}
       {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
-      <h2>{{ total | thousands_separated }}</h2>
-      <p>{{ verdict_group.title }}</p>
-    </div>
-    <div class="visualised">
-      {%- if total > 100 -%}
-        {%- assign hundreds = total | divided_by: 100 -%}
-        {%- assign hundreds = hundreds | floor -%}
-        {%- for i in (1..hundreds) -%}
-          <div class="century complete"></div>
-        {%- endfor -%}
-        {%- assign hundreds = hundreds | times: 100 -%}
-        {%- assign remainder = total | minus: hundreds -%}
-        <div class="century fraction">
-          {%- for i in (1..remainder) -%}
-          <div class="fr"></div>
-          {%- endfor -%}
-        </div>
-        {%- assign hundreds = hundreds | divided_by: 100 -%}
-        {%- assign buffer_count = hundreds | divided_by: 5 -%}
-        {%- assign buffer_count = buffer_count | floor -%}
-        {%- assign buffer_count = buffer_count | times: 5 -%}
-        {%- assign buffer_count = hundreds | minus: buffer_count -%}
-        {%- assign buffer_count = 5 | minus: buffer_count -%}
-        {%- if remainder >= 1 -%}
-          {%- assign buffer_count = buffer_count | minus: 1 -%}
-        {%- endif -%}
-        {%- if buffer_count >= 1 -%}
-          {%- for i in (1..buffer_count) -%}
-          <div class="century"></div>
-          {%- endfor -%}
-        {%- endif -%}
 
-      {%- else -%}
-        <div class="century fraction">
-          {%- for i in (1..total) -%}
-          <div class="fr"></div>
-          {%- endfor -%}
-        </div>
-        {%- for i in (1..4) -%}
-        <div class="century"></div>
+      {%- if verdict_group.key == 'allPassed' -%}
+        {%- assign denomValue = 0 -%}
+        {%- assign contextTxt = '' -%}
+        {%- assign tempSubset = 'allPassed,codeIssues,custodials,nosendreceive' | split: ',' -%}
+        {%- for key in tempSubset -%}
+          {% include /homepage/get_count_by_verdict_group_key.html vgKey=key %}
+          {%- assign denomValue = denomValue | plus: vgKeyCount -%}
         {%- endfor -%}
+      {%- else -%}
+        {%- assign denomValue = 0 | plus: fullCount -%}
       {%- endif -%}
+      <h2>
+        <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
+        <small>of {{denomValue | thousands_separated}} wallets</small>
+      </h2>
+      <p>{{ verdict_group.title }}</p>
+      {%- if verdict_group.key == 'allPassed' -%}
+      <p class="small">We were able to examine the source codes of {{ denomValue | thousands_separated }} out of {{ fullCount | thousands_separated }} wallets. Of these, only {{ total | thousands_separated }} passed all tests.<br><a href="/?verdict=allPassed&platform=allPlatforms">Explore wallets which passed all tests.</a></p>
+      {%- endif -%}
+
     </div>
   </div>
 {%- endfor -%}
