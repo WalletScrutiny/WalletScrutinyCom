@@ -1,7 +1,7 @@
 ---
-wsId:
+wsId: 
 title: Bibox:Bitcoin, Crypto Exchange
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 100000
@@ -15,23 +15,23 @@ ratings: 1559
 reviews: 579
 size: 47M
 website: https://www.bibox.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.bibox.www.bibox.png
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: custodial
 date: 2022-02-10
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
-redirect_from:
-developerName:
-features:
+redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -1,32 +1,32 @@
 ---
 wsId: defiatoExchange
 title: DeFiato
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.defiato
 appCountry: us
 idd: '1591008049'
-released: '2021-10-27T07:00:00Z'
+released: 2021-10-27
 updated: 2022-12-30
 version: 1.2.8
 stars: 5
 reviews: 2
 size: '64485376'
-website: ''
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: com.defiato.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-06
-signer:
-reviewArchive:
-twitter:
+signer: 
+reviewArchive: 
+twitter: 
 social:
 - https://defiato.com
-features:
+features: 
 developerName: Beowulf Network Inc
 
 ---

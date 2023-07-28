@@ -1,35 +1,35 @@
 ---
 wsId: bitkapAfrica
 title: Bitkap
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: net.bitkap.frondend
 appCountry: fr
 idd: '1556696679'
-released: '2021-04-06T07:00:00Z'
+released: 2021-04-06
 updated: 2023-06-16
 version: 2.1.8
-stars: 4.63157
+stars: 4.6
 reviews: 19
 size: '45794304'
-website: ''
-repository:
-issue:
+website: 
+repository: 
+issue: 
 icon: net.bitkap.frondend.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: BitkapO
 social:
 - https://bitkap.africa
 - https://www.linkedin.com/company/limitlesstech237
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
-features:
+features: 
 developerName: REAL TIME SARL
 
 ---

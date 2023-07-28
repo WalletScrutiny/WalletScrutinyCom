@@ -1,38 +1,38 @@
 ---
 wsId: streakkWallet
 title: Streakk Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.streakk
-appCountry:
+appCountry: 
 released: 2022-07-29
 updated: 2023-07-19
 version: '3'
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://streakk.io/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.streakk.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: streakkofficial
 social:
 - https://www.facebook.com/profile.php?id=100082035586084
 - https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
 - https://t.me/streakkofficial
 - https://medium.com/@streakkofficial
-redirect_from:
+redirect_from: 
 developerName: Streakk Technologies
-features:
+features: 
 
 ---
 

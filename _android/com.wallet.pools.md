@@ -1,12 +1,12 @@
 ---
-wsId:
+wsId: 
 title: Pools Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.wallet.pools
-appCountry:
+appCountry: 
 released: 2023-03-28
 updated: 2023-07-20
 version: 1.0.8.2
@@ -18,17 +18,17 @@ website:
 repository: 
 issue: 
 icon: com.wallet.pools.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
 date: 2023-07-03
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: PlaygroundVina
-features:
+features: 
 
 ---
 

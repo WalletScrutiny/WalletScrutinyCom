@@ -1,38 +1,38 @@
 ---
 wsId: biboxPro
 title: Bibox Pro：Crypto，BTC，ETH
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.box.pro
-appCountry:
+appCountry: 
 released: 2022-01-06
 updated: 2023-04-06
 version: 5.2.6
 stars: 2.4
-ratings:
+ratings: 
 reviews: 26
-size:
+size: 
 website: https://www.bibox.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.box.pro.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
 - https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
-redirect_from:
+redirect_from: 
 developerName: Bibox
-features:
+features: 
 
 ---
 

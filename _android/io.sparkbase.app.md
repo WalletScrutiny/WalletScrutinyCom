@@ -1,34 +1,34 @@
 ---
 wsId: sparkbaseCrypto
 title: Sparkbase Crypto Asset Manager
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: io.sparkbase.app
-appCountry:
-released:
+appCountry: 
+released: 
 updated: 2023-03-31
 version: 3.8.8
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://www.sparkbase.io
-repository:
-issue:
+repository: 
+issue: 
 icon: io.sparkbase.app.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2023-07-03
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: Sparkbase AG
-features:
+features: 
 
 ---
 

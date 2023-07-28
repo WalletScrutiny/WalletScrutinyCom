@@ -1,28 +1,28 @@
 ---
 wsId: slaviWallet
 title: Slavi Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: io.slavi.wallet
 appCountry: us
 idd: '1610125496'
-released: '2022-03-15T07:00:00Z'
+released: 2022-03-15
 updated: 2023-07-03
 version: '1.21'
-stars: 4.75
+stars: 4.8
 reviews: 20
 size: '52515840'
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
-issue:
+issue: 
 icon: io.slavi.wallet.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: slavi_io
 social:
 - https://t.me/SlaviDappGroup
@@ -30,7 +30,7 @@ social:
 - https://medium.com/@SlaviDapp
 - https://discord.com/invite/cJMYhXqRhD
 - https://www.instagram.com/slavi.io
-features:
+features: 
 developerName: SLAVI DEVELOPMENT CORP UAB
 
 ---

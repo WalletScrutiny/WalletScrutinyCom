@@ -1,7 +1,7 @@
 ---
 wsId: defiatoExchange
 title: DeFiato
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -11,24 +11,24 @@ released: 2021-10-26
 updated: 2023-01-18
 version: 1.2.9
 stars: 4.1
-ratings:
+ratings: 
 reviews: 5
-size:
+size: 
 website: https://defiato.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.defiato.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-06
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: Beowulf Network Inc
-features:
+features: 
 
 ---
 

@@ -1,37 +1,37 @@
 ---
 wsId: bitkapAfrica
 title: Bitkap
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: net.bitkap.frontEnd
-appCountry:
+appCountry: 
 released: 2021-11-21
 updated: 2023-07-25
 version: '1.2'
 stars: 3.5
-ratings:
+ratings: 
 reviews: 17
-size:
+size: 
 website: https://bitkap.africa
-repository:
-issue:
+repository: 
+issue: 
 icon: net.bitkap.frontEnd.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: BitkapO
 social:
 - https://www.linkedin.com/company/limitlesstech237
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
-redirect_from:
+redirect_from: 
 developerName: limitless tech
-features:
+features: 
 
 ---
 

@@ -1,32 +1,32 @@
 ---
 wsId: dIDWallet
 title: DID Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: io.abtwallet.ABTWallet
 appCountry: us
 idd: '1460083542'
-released: '2019-05-19T21:40:50Z'
+released: 2019-05-19
 updated: 2023-05-30
 version: 4.13.0
-stars: 4.94285
+stars: 4.9
 reviews: 35
 size: '107031552'
 website: https://www.didwallet.io
-repository:
-issue:
+repository: 
+issue: 
 icon: io.abtwallet.ABTWallet.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: ArcBlock_io
 social:
 - https://t.me/ArcBlock
-features:
+features: 
 developerName: ArcBlock, Inc.
 
 ---

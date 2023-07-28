@@ -1,36 +1,36 @@
 ---
 wsId: koinbasketCrypto
 title: 'KoinBasket: Best Crypto App'
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.koinbasket.mobile
-appCountry:
+appCountry: 
 released: 2022-07-02
 updated: 2023-07-24
 version: 1.1.5
 stars: 3
-ratings:
+ratings: 
 reviews: 10
-size:
+size: 
 website: https://koinbasket.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.koinbasket.mobile.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: koinbasket
 social:
 - https://www.facebook.com/profile.php?id=100084588470406
 - https://www.linkedin.com/company/koinbasket
-redirect_from:
+redirect_from: 
 developerName: Gazillion Developer
-features:
+features: 
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 wsId: coinTRPro
 title: 'CoinTR Pro: Buy BTC& ETH& MEME'
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: vip.trcoin.global
@@ -14,15 +14,15 @@ stars: 4.7
 reviews: 14
 size: '121780224'
 website: 
-repository:
-issue:
+repository: 
+issue: 
 icon: vip.trcoin.global.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-03
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: CoinTRpro
 social:
 - https://www.cointr.pro
@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/profile.php?id=100083113521452
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 - https://medium.com/@cointrbtc
-features:
+features: 
 developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
 
 ---

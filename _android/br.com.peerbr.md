@@ -1,34 +1,34 @@
 ---
-wsId:
+wsId: 
 title: PeerBR
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 50000
 appId: br.com.peerbr
-appCountry:
+appCountry: 
 released: 2019-05-24
 updated: 2023-07-17
 version: 4.6.2
 stars: 5
-ratings:
+ratings: 
 reviews: 2
-size:
+size: 
 website: https://peerbr.com.br/
-repository:
-issue:
+repository: 
+issue: 
 icon: br.com.peerbr.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: wip
 date: 2023-06-13
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: Grupo GCB
-features:
+features: 
 
 ---
 

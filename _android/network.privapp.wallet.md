@@ -1,29 +1,29 @@
 ---
-wsId:
+wsId: 
 title: Priva Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: network.privapp.wallet
-appCountry:
+appCountry: 
 released: 2022-03-14
 updated: 2022-10-30
 version: 1.0.7
 stars: 5
-ratings:
+ratings: 
 reviews: 18
-size:
+size: 
 website: https://privapp.network/
-repository:
-issue:
+repository: 
+issue: 
 icon: network.privapp.wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: PrivappNetwork
 social:
 - https://t.me/PrivappNetwork
@@ -32,9 +32,9 @@ social:
 - https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
 - https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
-redirect_from:
+redirect_from: 
 developerName: Privapp Network
-features:
+features: 
 
 ---
 

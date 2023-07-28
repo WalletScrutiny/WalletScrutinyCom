@@ -1,7 +1,7 @@
 ---
 wsId: biboxPro
 title: Bibox Pro
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: com.biboxpro.release
@@ -14,22 +14,22 @@ stars: 2.6
 reviews: 37
 size: '219120640'
 website: https://www.bibox.pro
-repository:
-issue:
+repository: 
+issue: 
 icon: com.biboxpro.release.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
 - https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
-features:
+features: 
 developerName: Bibox Group Holdings Limited
 
 ---

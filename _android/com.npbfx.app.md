@@ -1,34 +1,34 @@
 ---
 wsId: npbfxCFD
 title: NPBFX
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.npbfx.app
-appCountry:
+appCountry: 
 released: 2022-05-04
 updated: 2022-12-05
 version: 1.3.9
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://www.npbfx.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.npbfx.app.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosendreceive
 date: 2023-07-03
-signer:
-reviewArchive:
-twitter:
-social:
-redirect_from:
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
 developerName: NMarkets Limited
-features:
+features: 
 
 ---
 
