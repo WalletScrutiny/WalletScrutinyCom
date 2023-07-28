@@ -25,7 +25,7 @@ meta: ok
 verdict: nonverifiable
 date: 2023-07-12
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2023-06-24
   version: 0.15.refund_hotfix
   appHash: 

@@ -1,0 +1,36 @@
+---
+wsId: sarwaApp
+title: 'Sarwa: Investing made easy'
+altTitle: 
+authors:
+- danny
+appId: co.sarwa.ios
+appCountry: us
+idd: '1554353496'
+released: 2021-04-12
+updated: 2023-07-26
+version: 4.2.0
+stars: 4.1
+reviews: 34
+size: '68360192'
+website: https://www.sarwa.co/blog
+repository: 
+issue: 
+icon: co.sarwa.ios.jpg
+bugbounty: 
+meta: ok
+verdict: nosendreceive
+date: 2023-07-28
+signer: 
+reviewArchive: 
+twitter: SarwaCo
+social:
+- https://www.facebook.com/SarwaSocial
+- https://www.linkedin.com/company/sarwa
+- https://www.instagram.com/sarwa.co
+features: 
+developerName: Sarwa Digital Wealth Limited
+
+---
+
+{% include copyFromAndroid.html %}

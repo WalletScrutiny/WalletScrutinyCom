@@ -2,7 +2,8 @@
 wsId: 
 title: Berry Wallet - Store Crypto
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.berrywallet.wallet
 appCountry: 
@@ -19,15 +20,34 @@ issue:
 icon: com.berrywallet.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-07-25
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: BerryChain
+social:
+- https://www.facebook.com/berrychain.official
 redirect_from: 
 developerName: BerryChain Team
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Berry Wallet is the official crypto wallet of BerryChian. You can send, receive, Swap, Buy, Sell and store Bitcoin and many other cryptocurrencies and digital assets safely and securely with the Berry Wallet app.
+>
+> Berry Wallet is a fast and secure multi crypto wallet. Its designed for ease of use and perfect for storing crypto assets.
+>
+> Whether you are looking for an Ethereum wallet or Bitcoin wallet, BerryChian provides a secure system that makes it simple to buy and store multiple cryptocurrencies such as Bitcoin, Ethereum, Tron, Litecoin, and many other ERC20, BEP20 and ERC721 tokens on your device.
+
+## Analysis 
+
+- The app initialized, and we were able to find a Bech32 BTC wallet address. 
+- The seed phrases can be backed up via the 'security settings'.
+- The app's listed developer page is offline.
+- There was no mention of whether Berry was source-available.
+- A search for the app ID on GitHub code, did [not have any results.](https://github.com/search?q=com.berrywallet.wallet&type=code)
+- The app's Twitter account does not exist.
+- The YouTube channel has been suspended for deceptive practices.
+- This app is **not source-available.**
