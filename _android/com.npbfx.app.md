@@ -1,33 +1,50 @@
 ---
-wsId: 
+wsId: npbfxCFD
 title: NPBFX
-altTitle: 
-authors: 
+altTitle:
+authors:
+- danny
 users: 5000
 appId: com.npbfx.app
-appCountry: 
+appCountry:
 released: 2022-05-04
 updated: 2022-12-05
 version: 1.3.9
-stars: 
-ratings: 
-reviews: 
-size: 
+stars:
+ratings:
+reviews:
+size:
 website: https://www.npbfx.com/
-repository: 
-issue: 
+repository:
+issue:
 icon: com.npbfx.app.jpg
-bugbounty: 
+bugbounty:
 meta: ok
-verdict: wip
-date: 2023-06-03
-signer: 
-reviewArchive: 
-twitter: 
-social: 
-redirect_from: 
+verdict: nosendreceive
+date: 2023-07-03
+signer:
+reviewArchive:
+twitter:
+social:
+redirect_from:
 developerName: NMarkets Limited
-features: 
+features:
 
 ---
 
+## App Description from Google Play
+
+> NPBFX (NEFTEPROMBANKFX) is a universal brokerage company that provides clients access to financial markets through trading terminals to trade currencies (FX), precious metals, commodities, CFDs on stock indices, stocks, cryptocurrencies, social trading platforms and automated investment management.
+
+## Analysis
+
+- This is a CFD trading platform.
+- These are the accepted [deposit methods](https://www.npbfx.com/en/trading/deposit_withdrawal/). Bitcoin was not listed:
+  - Visa/Mastercard
+  - WebMoney
+  - QiWi
+  - FasaPay
+  - Neteller
+  - Direct Bank Deposit
+  - others
+- This app **cannot send/receive Bitcoin**.
