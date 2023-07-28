@@ -1,7 +1,7 @@
 ---
-wsId: Bibox
+wsId: biboxPro
 title: Bibox Pro
-altTitle: 
+altTitle:
 authors:
 - danny
 appId: com.biboxpro.release
@@ -14,23 +14,28 @@ stars: 2.6
 reviews: 37
 size: '219120640'
 website: https://www.bibox.pro
-repository: 
-issue: 
+repository:
+issue:
 icon: com.biboxpro.release.jpg
-bugbounty: 
+bugbounty:
 meta: ok
 verdict: custodial
-date: 2021-09-15
-signer: 
-reviewArchive: 
+date: 2023-07-06
+signer:
+reviewArchive:
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
-features: 
+- https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
+features:
 developerName: Bibox Group Holdings Limited
 
 ---
+
+**Update: 2023-07-06:** The old Android version of Bibox is:
+- {% include walletLink.html wallet='android/com.bibox.www.bibox' verdict='true' %} while the new Android equivalent is:
+- {% include walletLink.html wallet='android/com.box.pro' verdict='true' %}
 
 {% include copyFromAndroid.html %}
