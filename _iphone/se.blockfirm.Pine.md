@@ -25,7 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Blockfirm AB
+developerName: Pine Enterprises AB
 
 ---
 

@@ -11,7 +11,7 @@ updated: 2023-07-16
 version: 1.13.0
 stars: 4.1
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://hippowallet.io/
 repository: 

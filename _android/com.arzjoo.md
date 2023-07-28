@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Sarmayex
+title: Sarmayex (Arzjoo)
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2023-07-24
-version: 3.0.0
+updated: 2023-07-26
+version: 3.0.1
 stars: 4
 ratings: 3741
 reviews: 85
