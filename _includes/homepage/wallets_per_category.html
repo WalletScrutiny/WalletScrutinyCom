@@ -27,6 +27,8 @@
       <p>{{ verdict_group.title }}</p>
       {%- if verdict_group.key == 'allPassed' -%}
       <p class="small">We were able to examine the source codes of {{ denomValue | thousands_separated }} out of {{ fullCount | thousands_separated }} wallets. Of these, only {{ total | thousands_separated }} passed all tests.<br><a href="/?verdict=allPassed&platform=allPlatforms">Explore wallets which passed all tests.</a></p>
+      {%- elsif verdict_group.comment -%}
+      <div class="small">{{verdict_group.comment | markdownify}}</div>
       {%- endif -%}
 
     </div>

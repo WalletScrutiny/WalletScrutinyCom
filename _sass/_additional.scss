@@ -351,9 +351,9 @@
           font-size: 21px;
           font-weight: $paragraph-font-weight;
           padding-left: 60px;
-          &.small {
-            color: var(--neutral-3);
-          }
+        }
+        .small {
+          color: var(--neutral-3);
         }
       }
       .visualised {
