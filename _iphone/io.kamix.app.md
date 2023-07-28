@@ -7,11 +7,11 @@ appId: io.kamix.app
 appCountry: fr
 idd: '1496578894'
 released: 2020-06-05
-updated: 2023-06-29
-version: 2.2.0
+updated: 2023-07-27
+version: 2.2.15
 stars: 3
 reviews: 9
-size: '62309376'
+size: '62661632'
 website: http://kamix.fr
 repository: 
 issue: 

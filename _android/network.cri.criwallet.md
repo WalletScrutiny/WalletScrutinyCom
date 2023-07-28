@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: network.cri.criwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: 

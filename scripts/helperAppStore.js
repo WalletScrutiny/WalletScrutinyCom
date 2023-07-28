@@ -49,7 +49,7 @@ function refreshFile (fileName, content, markDefunct) {
         id: idd,
         lang: 'en',
         country: appCountry,
-        throttle: 20
+        throttle: 10
       }).then(app => {
         const iconPath = `images/wIcons/iphone/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
