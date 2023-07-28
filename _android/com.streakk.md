@@ -7,8 +7,8 @@ users: 10000
 appId: com.streakk
 appCountry: 
 released: 2022-07-29
-updated: 2023-05-16
-version: '2.9'
+updated: 2023-07-19
+version: '3'
 stars: 
 ratings: 
 reviews: 

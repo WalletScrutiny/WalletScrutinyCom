@@ -4,13 +4,13 @@ title: 'GoMining: BTC, Token & NFTs'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 100000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
-updated: 2023-05-29
-version: '11'
-stars: 4.2
+updated: 2023-06-30
+version: '14'
+stars: 3.3
 ratings: 
 reviews: 22
 size: 

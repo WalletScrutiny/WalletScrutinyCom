@@ -1,6 +1,6 @@
 ---
 wsId: BuyCoinsPro
-title: 'Buycoins Pro: Trade Crypto'
+title: 'Buycoins Pro: Trade BTC & USDT'
 altTitle: 
 authors:
 - danny
