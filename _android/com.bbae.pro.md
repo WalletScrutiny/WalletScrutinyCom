@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-17
 updated: 2023-07-17
 version: 5.4.2
-stars: 4.7
+stars: 4.6
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.bbae.com
 repository: 

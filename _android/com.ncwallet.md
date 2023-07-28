@@ -1,6 +1,6 @@
 ---
 wsId: ncWallet
-title: NCWallet
+title: NC Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.ncwallet
 appCountry: 
 released: 2022-10-18
-updated: 2023-07-12
-version: 1.0.445
+updated: 2023-07-22
+version: 1.0.449
 stars: 4.6
 ratings: 
 reviews: 92

@@ -1,29 +1,29 @@
 ---
 wsId: coreCryptoWallet
 title: Core | Crypto Wallet & NFTs
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.avaxwallet
-appCountry:
+appCountry: 
 released: 2022-08-30
 updated: 2023-07-10
 version: 0.13.8
 stars: 4.1
-ratings:
+ratings: 
 reviews: 37
-size:
+size: 
 website: http://core.app
-repository:
-issue:
+repository: 
+issue: 
 icon: com.avaxwallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: coreapp
 social:
 - https://t.me/avalancheavax
@@ -32,9 +32,9 @@ social:
 - https://medium.com/@coreapp
 - https://www.reddit.com/r/Avax
 - https://www.facebook.com/corewallet
-redirect_from:
+redirect_from: 
 developerName: Ava Labs, Inc.
-features:
+features: 
 
 ---
 

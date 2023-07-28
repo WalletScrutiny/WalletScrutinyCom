@@ -1,28 +1,28 @@
 ---
 wsId: coreCryptoWallet
 title: Core | Crypto Wallet & NFTs
-altTitle:
+altTitle: 
 authors:
 - danny
 appId: org.avalabs.corewallet
 appCountry: us
 idd: '6443685999'
-released: '2022-11-28T08:00:00Z'
-updated: 2023-05-25
-version: 0.13.7
-stars: 4.625
-reviews: 24
-size: '39421952'
+released: 2022-11-28
+updated: 2023-07-11
+version: 0.13.8
+stars: 4.6
+reviews: 25
+size: '40731648'
 website: https://www.core.app/
-repository:
-issue:
+repository: 
+issue: 
 icon: org.avalabs.corewallet.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: coreapp
 social:
 - https://t.me/avalancheavax
@@ -31,7 +31,7 @@ social:
 - https://medium.com/@coreapp
 - https://www.reddit.com/r/Avax
 - https://www.facebook.com/corewallet
-features:
+features: 
 developerName: Ava Labs, Incorporated
 
 ---

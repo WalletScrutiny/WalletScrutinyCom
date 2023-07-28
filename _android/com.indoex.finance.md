@@ -1,37 +1,37 @@
 ---
 wsId: indoEx
 title: IndoEx
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.indoex.finance
-appCountry:
+appCountry: 
 released: 2022-08-04
 updated: 2023-05-22
 version: 1.0.34
 stars: 3.2
-ratings:
+ratings: 
 reviews: 3
-size:
+size: 
 website: https://international.indoex.io
-repository:
-issue:
+repository: 
+issue: 
 icon: com.indoex.finance.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Indoex_LTD
 social:
 - https://www.linkedin.com/company/indoex-exchange
 - https://t.me/Indoex
 - https://www.facebook.com/Indoex.official
-redirect_from:
+redirect_from: 
 developerName: IndoEx
-features:
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ appId: co.zoomex.app
 appCountry: us
 idd: '1601766234'
 released: 2022-03-07
-updated: 2023-06-20
-version: 3.2.2
+updated: 2023-07-23
+version: 3.2.6
 stars: 3.9
 reviews: 10
-size: '80614400'
+size: '80727040'
 website: 
 repository: 
 issue: 

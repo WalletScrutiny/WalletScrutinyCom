@@ -1,35 +1,35 @@
 ---
-wsId:
+wsId: 
 title: Dnar
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: dnar.wallet.app
-appCountry:
+appCountry: 
 released: 2019-11-24
 updated: 2022-06-23
 version: '4.0'
 stars: 2.1
-ratings:
+ratings: 
 reviews: 11
-size:
+size: 
 website: https://dnar.io
-repository:
-issue:
+repository: 
+issue: 
 icon: dnar.wallet.app.jpg
-bugbounty:
+bugbounty: 
 meta: defunct
 verdict: wip
 date: 2023-07-02
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: dnarhq
 social:
 - https://www.facebook.com/dnar.inc
-redirect_from:
+redirect_from: 
 developerName: Dnar
-features:
+features: 
 
 ---
 

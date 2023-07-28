@@ -1,29 +1,29 @@
 ---
 wsId: creditsCrypto
 title: Credits.com - Payments. Crypto
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.credits.Wallet
-appCountry:
+appCountry: 
 released: 2020-10-26
 updated: 2023-06-25
 version: 5.2.1.1
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://credits.com/contacts.html
-repository:
-issue:
+repository: 
+issue: 
 icon: com.credits.Wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: creditscom
 social:
 - https://t.me/creditscom
@@ -31,9 +31,9 @@ social:
 - https://www.reddit.com/r/CreditsOfficial
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
-redirect_from:
+redirect_from: 
 developerName: CS Solutions Technology Ltd
-features:
+features: 
 
 ---
 
