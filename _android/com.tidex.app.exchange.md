@@ -11,7 +11,7 @@ updated: 2022-08-12
 version: 1.0.5
 stars: 2.7
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://tidex.com
 repository: 

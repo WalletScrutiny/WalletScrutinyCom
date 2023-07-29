@@ -8,8 +8,8 @@ appId: com.bankofhodlers.app
 appCountry: 
 idd: 1509251174
 released: 2020-05-12
-updated: 2023-07-16
-version: 2.8.3.6
+updated: 2023-07-28
+version: 2.8.4.1
 stars: 4
 reviews: 297
 size: '82671616'
