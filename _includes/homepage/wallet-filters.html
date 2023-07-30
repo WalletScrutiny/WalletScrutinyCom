@@ -2,24 +2,47 @@
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count=`{% include /homepage/full_wallet_count.html %}`</script>
-    <input class="search-filtered-wallets" spellcheck="false" />
+    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews..." spellcheck="false" />
   </div>
   <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
     <i class="fas fa-filter"></i>
   </div>
   <div title="Verdict" class="component component-verdict">
-    <div class="dropdown-options dropdown-verdict"></div>
+    <div class="dropdown-options dropdown-verdict">
+      <div class="option allResults" data="allResults" data-name="All Results"><span>All Results</span></div>
+      <div class="option category-title"><span>Other test results</span></div>
+      {% assign verdictGroups = site.data.topVerdicts | concat: site.data.verdictGroups %}
+      {% assign rank = 0 %}
+
+      {% for verdictGroup in verdictGroups %}
+        {% if rank == 5 %}
+          {% break %}
+        {% endif %}
+        {% case verdictGroup.key %}
+        {% when "allPassed" %}
+          <div class="option allPassed selected" data="allPassed" data-rank="{{rank}}" data-name="All Tests Passed"><span>All Tests Passed</span></div>
+        {% else %}
+          <div class="option {{verdictGroup.key}}" data="{{verdictGroup.key}}" data-rank="{{rank}}" data-name="{{verdictGroup.short}}"><span>{{verdictGroup.short}}</span></div>
+        {% endcase %}
+      {% assign rank = rank | plus: 1 %}
+      {% endfor %}
+   </div>
   </div>
   <div title="Platform" class="component component-platform">
-    <div class="dropdown-options dropdown-platform"></div>
+    <div class="dropdown-options dropdown-platform">
+      <div class="option allPlatforms selected" data="allPlatforms" data-name="All Platforms"><span>All Platforms</span></div>
+      {% for p in site.data.platformMeta %}
+        {% assign folder = p[0] %}
+        {% include folderToName.html folder=folder %}
+        <div class="option {{p[0]}}" data="{{p[0]}}" data-name="{{name}}"><span>{{name}}</span></div>
+      {% endfor %}
+    </div>
   </div>
-</div>
 </div>
 <br>
 
 
-<div id="modularWalletPayload" class="tile-list-ui view-tiles">
-
+<div class="wallet-placeholder"></div>
 <script>
   function filtersToggle(self){
     if(self.parentNode.classList.contains('filters-visible')){

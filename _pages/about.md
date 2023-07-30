@@ -34,8 +34,7 @@ function lsTest(){
 
 {% include about/sponsors.html %}
 
-<script src="{{ base_path }}/assets/js/scripts.js"></script>
-<script src="{{ base_path }}/assets/js/landingPage.js"></script>
+<script></script>
 
 <style type="text/css">
 .atf-head, .sponsored-by {
