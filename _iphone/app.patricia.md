@@ -1,0 +1,36 @@
+---
+wsId: patriciaExchange
+title: Patricia
+altTitle: 
+authors:
+- danny
+appId: app.patricia
+appCountry: lt
+idd: '1639105995'
+released: 2022-08-13
+updated: 2023-03-27
+version: '1.3'
+stars: 0
+reviews: 0
+size: '47902720'
+website: 
+repository: 
+issue: 
+icon: app.patricia.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2023-07-30
+signer: 
+reviewArchive: 
+twitter: PatriciaSwitch
+social:
+- https://www.instagram.com/welcometopatricia
+- https://www.facebook.com/patricia.com.ng
+- https://www.youtube.com/channel/UCxfeniM2_FGIFcXSWa4Y_sA
+features: 
+developerName: Patricia Technologies UAB
+
+---
+
+{% include copyFromAndroid.html %}
