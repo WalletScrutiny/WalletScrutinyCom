@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Weownomy.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-06-23
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: 

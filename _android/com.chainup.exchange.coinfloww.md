@@ -3,7 +3,7 @@ wsId:
 title: CoinFloww
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.chainup.exchange.coinfloww
 appCountry: 
 released: 2022-08-18

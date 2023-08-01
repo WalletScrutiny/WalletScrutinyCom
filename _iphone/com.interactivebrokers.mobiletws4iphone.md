@@ -11,7 +11,7 @@ released: 2011-08-12
 updated: 2023-07-13
 version: '9.06'
 stars: 4.2
-reviews: 4366
+reviews: 4402
 size: '42248192'
 website: http://www.interactivebrokers.com
 repository: 
