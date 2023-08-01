@@ -8,8 +8,8 @@ users: 5000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2023-05-16
-version: 2.7.0
+updated: 2023-07-28
+version: 2.8.0
 stars: 4.7
 ratings: 
 reviews: 1

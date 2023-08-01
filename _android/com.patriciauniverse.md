@@ -3,7 +3,7 @@ wsId:
 title: Patricia Universe
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.patriciauniverse
 appCountry: 
 released: 2023-01-27

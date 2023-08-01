@@ -1,6 +1,6 @@
 ---
 wsId: bitcointrade
-title: Ripio Trade (ex BitcoinTrade)
+title: Ripio Trade
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-07-18
 version: 3.13.9
 stars: 3.4
 ratings: 8304
-reviews: 4823
+reviews: 4822
 size: 
 website: http://www.bitcointrade.com.br
 repository: 

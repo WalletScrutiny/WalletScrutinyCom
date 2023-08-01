@@ -8,11 +8,11 @@ appId: finance.a4.mobile
 appCountry: md
 idd: '1623005090'
 released: 2022-05-31
-updated: 2023-06-26
-version: 2.1.0
+updated: 2023-07-28
+version: 2.1.3
 stars: 5
 reviews: 2
-size: '118392832'
+size: '116823040'
 website: https://a4.finance
 repository: 
 issue: 

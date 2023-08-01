@@ -8,11 +8,11 @@ appId: com.vowcurrency.vow
 appCountry: us
 idd: '1476961471'
 released: 2021-07-22
-updated: 2023-06-16
-version: 1.2.7
+updated: 2023-07-26
+version: 1.2.9
 stars: 5
 reviews: 6
-size: '79593472'
+size: '80360448'
 website: https://vowcurrency.com/knowledge-base/
 repository: 
 issue: 

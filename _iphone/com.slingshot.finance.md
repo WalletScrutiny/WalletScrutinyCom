@@ -8,11 +8,11 @@ appId: com.slingshot.finance
 appCountry: us
 idd: '1633406472'
 released: 2023-02-28
-updated: 2023-07-20
-version: 1.13.0
+updated: 2023-07-31
+version: 1.14.1
 stars: 4.8
-reviews: 44
-size: '60088320'
+reviews: 46
+size: '60121088'
 website: https://slingshot.finance/
 repository: 
 issue: 

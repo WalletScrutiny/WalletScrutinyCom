@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'CoinDCX Pro: Crypto Trading'
+title: CoinDCX Pro:Trade BTC & Crypto
 altTitle: 
 authors:
 - danny

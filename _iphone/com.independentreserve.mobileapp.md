@@ -11,7 +11,7 @@ released: 2021-10-18
 updated: 2023-06-19
 version: 1.5.3
 stars: 4
-reviews: 73
+reviews: 74
 size: '63369216'
 website: https://www.independentreserve.com/
 repository: 

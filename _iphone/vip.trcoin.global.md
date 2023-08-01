@@ -8,11 +8,11 @@ appId: vip.trcoin.global
 appCountry: us
 idd: '6444928783'
 released: 2023-01-09
-updated: 2023-07-27
-version: 2.2.0
+updated: 2023-08-01
+version: 2.2.1
 stars: 4.7
 reviews: 14
-size: '121780224'
+size: '126922752'
 website: 
 repository: 
 issue: 
@@ -32,7 +32,7 @@ social:
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 - https://medium.com/@cointrbtc
 features: 
-developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
+developerName: CoinTR
 
 ---
 

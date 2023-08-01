@@ -8,11 +8,11 @@ appId: io.mal.exchange
 appCountry: us
 idd: '6443828002'
 released: 2023-02-13
-updated: 2023-06-12
-version: 1.3.0
+updated: 2023-07-31
+version: 1.4.0
 stars: 5
 reviews: 2
-size: '64266240'
+size: '66708480'
 website: https://mal.io
 repository: 
 issue: 

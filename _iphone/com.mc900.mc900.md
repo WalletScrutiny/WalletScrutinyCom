@@ -1,6 +1,6 @@
 ---
 wsId: headlineCFD
-title: Headline.net
+title: 'Headline.net: Finance & Invest'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.mc900.mc900
 appCountry: us
 idd: '1639509598'
 released: 2022-09-09
-updated: 2023-06-29
-version: 2.2.0
+updated: 2023-07-22
+version: 2.3.1
 stars: 0
 reviews: 0
-size: '58084352'
+size: '57885696'
 website: https://www.headline.net/
 repository: 
 issue: 
