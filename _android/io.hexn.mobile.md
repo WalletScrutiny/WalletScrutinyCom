@@ -3,15 +3,15 @@ wsId:
 title: 'HEXN : Buy and Earn Crypto'
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: io.hexn.mobile
 appCountry: 
 released: 2022-12-12
-updated: 2023-06-16
-version: 1.0.11
-stars: 4.1
+updated: 2023-06-30
+version: 1.0.14
+stars: 4.6
 ratings: 
-reviews: 2
+reviews: 1
 size: 
 website: https://hexn.io
 repository: 

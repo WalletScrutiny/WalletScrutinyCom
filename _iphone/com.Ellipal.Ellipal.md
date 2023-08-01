@@ -8,11 +8,11 @@ appId: com.Ellipal.Ellipal
 appCountry: us
 idd: 1426179665
 released: 2018-08-25
-updated: 2023-06-03
-version: 3.10.0
+updated: 2023-06-29
+version: 3.10.1
 stars: 4.8
-reviews: 2268
-size: '70811648'
+reviews: 2388
+size: '70995968'
 website: http://www.ellipal.com/
 repository: 
 issue: 

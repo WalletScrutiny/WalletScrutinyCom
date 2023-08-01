@@ -1,18 +1,18 @@
 ---
 wsId: BBAEPro
-title: 'BBAE Pro: Stocks & Options'
+title: 'BBAE Pro: Investing Reimagined'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bbae.pro
 appCountry: 
 released: 2021-06-17
-updated: 2023-05-26
-version: 5.2.2
-stars: 4.7
+updated: 2023-07-17
+version: 5.4.2
+stars: 4.6
 ratings: 
-reviews: 5
+reviews: 8
 size: 
 website: https://www.bbae.com
 repository: 

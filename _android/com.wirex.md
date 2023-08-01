@@ -8,9 +8,9 @@ users: 1000000
 appId: com.wirex
 appCountry: 
 released: 2016-03-31
-updated: 2023-06-09
-version: 3.43.10
-stars: 3.4
+updated: 2023-07-26
+version: 3.44.10
+stars: 3.5
 ratings: 26258
 reviews: 1019
 size: 

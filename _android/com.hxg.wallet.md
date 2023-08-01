@@ -7,11 +7,11 @@ users: 10000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2023-06-21
-version: 1.0.26
-stars: 
+updated: 2023-07-27
+version: 1.0.29
+stars: 5
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: https://wowearn.com/
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: WOW Wallet
+developerName: WOW EARN Wallet
 features: 
 
 ---

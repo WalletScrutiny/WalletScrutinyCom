@@ -10,7 +10,7 @@ appCountry:
 released: 2017-09-29
 updated: 2023-06-19
 version: 3.3.7 'Pocket Change'
-stars: 3.3
+stars: 3.2
 ratings: 821
 reviews: 169
 size: 

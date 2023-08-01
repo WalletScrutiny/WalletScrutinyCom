@@ -1,0 +1,83 @@
+- key: allPassed
+  verdicts:
+  - reproducible
+  - nobinary
+  title: All tests passed.
+  short: All tests passed
+  abstract: Reproducibility
+  comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
+- key: codeIssues
+  verdicts:
+  - nonverifiable
+  - ftbfs
+  - obfuscated
+  title: Build issues or source-code issues.
+  short: Source-code available
+  abstract: Verifiability
+  comment: Although code was provided, we could not verify that the binary provided was generated from it.
+- key: custodials
+  verdicts:
+  - custodial
+  title: User only gets an IOU.
+  short: Can Send & receive
+  abstract: Key custody
+  comment: The provider might or might not hold BTC on behalf of the user.
+- key: nonTransferable
+  verdicts:
+  - nosendreceive
+  title: User gets a non-transferable IOU.
+  short: Bitcoin supported
+  abstract: Ability to send & receive
+  comment: The provider might or might not hold BTC on behalf of the user but the user is not able to transfer native BTC.
+- key: noSource
+  verdicts:
+  - nosource
+  title: Missing source code.
+  short: Self-custodial
+  abstract: Availability of source-code
+  comment: The provider does not provide all the source code needed to compile the product.
+- key: keyHandling
+  verdicts:
+  - noita
+  - plainkey
+  - sealed-noita
+  - sealed-plainkey
+  - prefilled
+  title: Untrustworthy handling of keys.
+  short: Bitcoin Security issues
+  abstract: Handling of keys
+  comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
+- key: notRelevant
+  verdicts:
+  - fewusers
+  - vapor
+  - unreleased
+  - nobtc
+  - nowallet
+  - diy
+  metas:
+  - stale
+  - obsolete
+  - defunct
+  - discontinued
+  title: Not relevant.
+  short: Not relevant
+  abstract: Usage statistics & relevance
+  comment: The product is not a BTC wallet or has little to no users.
+- key: fakes
+  verdicts:
+  - fake
+  title: Fake.
+  short: Imposter product
+  privacy: Your data and any transactions are likely not private and may even be used maliciously.
+  abstract: Potential for fraud 
+  comment: The product is an imitation of a popular product and very likely fraudulent.
+- key: wips
+  verdicts:
+  - wip
+  metas:
+  - outdated
+  title: Pending review.
+  short: Pending review
+  abstract: Pending review
+  comment: Products we know we have to look into.

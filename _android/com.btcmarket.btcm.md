@@ -4,7 +4,7 @@ title: BTC Markets
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.btcmarket.btcm
 appCountry: 
 released: 2022-03-17

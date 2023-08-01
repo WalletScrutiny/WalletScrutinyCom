@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.emet.faswet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-24
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: emet_group_eng

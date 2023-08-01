@@ -7,8 +7,8 @@ users: 1000
 appId: com.maxsoftlab.findextrader
 appCountry: 
 released: 2022-11-07
-updated: 2023-06-16
-version: 1.3.0
+updated: 2023-07-18
+version: 1.3.3
 stars: 
 ratings: 
 reviews: 

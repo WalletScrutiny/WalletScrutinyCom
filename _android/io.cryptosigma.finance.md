@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Sigma Wallet
+title: Bitcoin Wallet - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.cryptosigma.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-26
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.laxya.laxya.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 

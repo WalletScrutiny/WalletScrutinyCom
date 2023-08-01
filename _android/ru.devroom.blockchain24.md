@@ -7,8 +7,8 @@ users: 500
 appId: ru.devroom.blockchain24
 appCountry: 
 released: 2021-03-16
-updated: 2022-12-09
-version: 1.1.1
+updated: 2023-06-29
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: RapiXchangE Pay Merchant
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.rapiexchange.merchant
 appCountry: 
 released: 2022-08-25

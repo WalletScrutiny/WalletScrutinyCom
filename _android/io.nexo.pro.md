@@ -3,7 +3,7 @@ wsId:
 title: 'Nexo Pro: Crypto Exchange'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.nexo.pro
 appCountry: 
 released: 2023-03-02

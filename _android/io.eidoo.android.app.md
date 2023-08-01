@@ -7,8 +7,8 @@ users: 5000
 appId: io.eidoo.android.app
 appCountry: 
 released: 2022-05-26
-updated: 2023-05-30
-version: 1.13.2
+updated: 2023-07-18
+version: 1.14.2
 stars: 
 ratings: 
 reviews: 

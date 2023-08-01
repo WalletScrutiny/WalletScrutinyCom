@@ -4,15 +4,15 @@ title: 'Coinbase Wallet: NFTs & Crypto'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2023-06-16
-version: 28.47.0
-stars: 4.3
+updated: 2023-07-24
+version: 28.53.14
+stars: 4.4
 ratings: 38828
-reviews: 10475
+reviews: 10671
 size: 
 website: https://wallet.coinbase.com/
 repository: 

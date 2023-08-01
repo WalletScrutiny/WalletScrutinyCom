@@ -8,11 +8,11 @@ appId: net.safemoon.ioswallet
 appCountry: us
 idd: '1579735495'
 released: 2021-10-06
-updated: 2023-06-16
-version: '3.45'
+updated: 2023-06-27
+version: '3.46'
 stars: 4.8
-reviews: 14595
-size: '131696640'
+reviews: 14598
+size: '142577664'
 website: https://safemoon.com/
 repository: 
 issue: 

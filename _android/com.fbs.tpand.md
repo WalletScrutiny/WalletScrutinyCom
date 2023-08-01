@@ -10,9 +10,9 @@ appCountry:
 released: 2019-03-25
 updated: 2023-05-30
 version: 1.57.0
-stars: 4.7
+stars: 4.6
 ratings: 128577
-reviews: 97
+reviews: 89
 size: 
 website: https://fbs.com/
 repository: 

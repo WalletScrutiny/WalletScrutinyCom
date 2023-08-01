@@ -3,7 +3,7 @@ wsId:
 title: 'Bitbox: BTC NFTs Memes & Meta'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: cv.bitbox.bitbox
 appCountry: 
 released: 2021-12-18

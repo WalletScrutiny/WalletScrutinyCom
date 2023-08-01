@@ -7,8 +7,8 @@ users: 10000
 appId: io.changex.app
 appCountry: 
 released: 2022-05-31
-updated: 2023-06-06
-version: 2.6.0
+updated: 2023-07-26
+version: 2.8.0
 stars: 3.6
 ratings: 
 reviews: 7

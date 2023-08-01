@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-09
 updated: 2022-07-28
 version: 1.4.0
-stars: 4.9
+stars: 5
 ratings: 
 reviews: 1
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.reap.crypty.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-29
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 

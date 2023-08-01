@@ -7,8 +7,8 @@ users: 100
 appId: com.btcatm.btcatm
 appCountry: 
 released: 2022-06-08
-updated: 2022-06-24
-version: 1.0.8
+updated: 2023-07-28
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcatm.btcatm.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-20
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: 

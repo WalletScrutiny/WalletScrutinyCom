@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-28
 updated: 2021-07-24
 version: 0.741.11
-stars: 3.4
+stars: 3.1
 ratings: 120
 reviews: 6
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: WalletXapa

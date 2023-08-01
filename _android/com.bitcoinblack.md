@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: bitcoinblack®
+title: HauteBlack®
 altTitle: 
 authors: 
 users: 100
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
-updated: 2023-02-28
-version: '1.7'
+updated: 2023-07-03
+version: '1.8'
 stars: 
 ratings: 
 reviews: 

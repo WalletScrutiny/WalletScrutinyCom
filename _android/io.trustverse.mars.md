@@ -3,7 +3,7 @@ wsId:
 title: MarS
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.trustverse.mars
 appCountry: 
 released: 2020-05-27

@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: BEYOND WALLET
+title: beyond wallet
 altTitle: 
 authors: 
 users: 100
 appId: com.beyondwallet.app
 appCountry: 
 released: 2021-01-11
-updated: 2023-06-15
+updated: 2023-07-24
 version: VARY
 stars: 
 ratings: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Beyond Fintech Inc
+developerName: Frictionless Money LLC
 features: 
 
 ---

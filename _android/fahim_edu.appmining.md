@@ -2,13 +2,14 @@
 wsId: 
 title: Mining Monitor
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: fahim_edu.appmining
 appCountry: 
 released: 2021-03-27
-updated: 2023-05-16
-version: 3.05.16
+updated: 2023-07-25
+version: 3.07.26
 stars: 4.7
 ratings: 
 reviews: 65
@@ -19,8 +20,8 @@ issue:
 icon: fahim_edu.appmining.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: nowallet
+date: 2023-06-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,17 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> *** IT IS NOT MINING APP ***
+> You Must Have Your Own Machine Mining
+>
+> Mining Monitor Application
+>
+> Unofficial monitoring application for checking your Coin mining and statistics.
+
+## Analysis 
+
+- The app opens specifically stating that this is not a mining or a wallet app. 
+- Users can add external addresses from various coins as well as various mining pools. 
+- This is **not a wallet**. 

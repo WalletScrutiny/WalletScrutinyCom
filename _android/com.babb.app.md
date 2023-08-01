@@ -9,9 +9,9 @@ appCountry:
 released: 2020-02-27
 updated: 2023-05-15
 version: 2.0.2
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 39
+reviews: 40
 size: 
 website: https://getbabb.com/
 repository: 

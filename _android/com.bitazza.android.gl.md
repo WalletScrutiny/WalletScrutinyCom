@@ -4,12 +4,12 @@ title: 'Bitazza: Crypto Exchange'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitazza.android.gl
 appCountry: 
 released: 2022-03-01
-updated: 2023-06-15
-version: 3.2.1
+updated: 2023-07-19
+version: 3.2.3
 stars: 
 ratings: 
 reviews: 
