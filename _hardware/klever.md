@@ -1,5 +1,5 @@
 ---
-title: Kleversafe (formerly Klever)
+title: Kleversafe
 appId: klever
 authors:
 - danny

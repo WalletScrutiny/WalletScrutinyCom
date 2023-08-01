@@ -1,5 +1,5 @@
 ---
-title: Bitkey (formerly Block Hardware Wallet)
+title: Bitkey
 appId: blockhww
 authors:
 - danny
@@ -30,6 +30,9 @@ social:
 features: 
 
 ---
+
+**Update 2023-07-06**: The product re-branded from "Block Hardware Wallet" to
+Bitkey.
 
 ## Updated Review 2022-11-25
 
