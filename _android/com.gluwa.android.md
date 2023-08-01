@@ -53,12 +53,5 @@ features:
 - The app provides a legacy BTC address.
 - The app's website links to an [organization on GitHub](https://github.com/gluwa)
 - There are 37 repositories, with many referring to a 'Creditcoin'.
-- 7 repositories appeared when we did a code search on Github for the app ID:
-  - gluwa/Controlled-Gluwacoin
-  - gluwa/GluwaDocs
-  - gluwa/ERC-20-Wrapper-Gluwacoin
-  - alfredolops80/ERC-20-Wrapper-Gluwacoin
-  - gluwa/Luniverse-Gluwacoin
-  - PinkDiamond1/Luniverse-Gluwacoin
-- None of these seem to be the source for the Android app.
+- 7 repositories appeared when we did a code search on Github for the app ID, none of which seem to be the source for the Android app.
 - This app is **not source-available**.
