@@ -1,6 +1,6 @@
 ---
 title: Bitkey (formerly Block Hardware Wallet)
-appId: build.bitkey
+appId: blockhww
 authors:
 - danny
 released: 
@@ -18,7 +18,7 @@ country: US
 price: 
 repository: 
 issue: 
-icon: build.bitkey.png
+icon: blockhww.png
 bugbounty: 
 meta: ok
 verdict: unreleased
