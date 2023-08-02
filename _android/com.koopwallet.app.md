@@ -50,8 +50,7 @@ features:
 - Next, we entered a 4-digit security pin.
 - We were then brought to the main interface which is also the 'Portfolio' page.
 - There are two buttons send and receive. We chose "Receive" and we were then presented with a choice of coins: BTC, ETH, BNB, LTC, TRX, MATIC, CELO and KOOP(Bep20). We selected BTC and it gave an error:
-
-> Please Wallet Reselect and try again.
+  > Please Wallet Reselect and try again.
 
 - This happened as well with other coins.
 - In the previous screen there is a search bar and we typed in 'BTC'. A search for BTC did not yield any results.

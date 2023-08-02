@@ -44,10 +44,9 @@ features:
 
 - We signed up using our email address. A verification mail was sent to us with a link to click.
 - We clicked on the link, but received an error:
+  > Authorization required
 
-> Authorization required
-
-- We tried again, and was successful. It opens up with a "Current hashrate" indicator, plus the blockchain network the app purports to mine in. Network options include: BTC, BCH, DASH, DOGE, ETC, ETH, and LTC.
+- We tried again, and were successful. It opens up with a "Current hashrate" indicator, plus the blockchain network the app purports to mine in. Network options include: BTC, BCH, DASH, DOGE, ETC, ETH, and LTC.
 - Clicking on "Connect", opens another page with the following options:
   - Coin:
   - Region:

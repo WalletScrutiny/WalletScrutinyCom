@@ -43,7 +43,5 @@ features:
 ## Analysis
 
 - Kasta states in their FAQ that they have a custodial provider, [Fireblocks](https://www.kasta.io/faq):
-
-> Our provider for custody is Fireblocks. We’re plugged into their API infrastructure that combines MPC-CMP with hardware isolation for multi-layered security.
-
+  > Our provider for custody is Fireblocks. We’re plugged into their API infrastructure that combines MPC-CMP with hardware isolation for multi-layered security.
 - The app description and the statement above describe this app as a **custodial** service.
