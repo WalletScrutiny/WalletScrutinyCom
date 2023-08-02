@@ -33,6 +33,22 @@ features:
 
 ---
 
+This version of the Eidoo App is described as version 2. The previous versions were:
+
+- {% include walletLink.html wallet='android/io.eidoo.wallet.prodnet' verdict='true' %}
+- {% include walletLink.html wallet='iphone/io.eidoo.wallet.prodnet' verdict='true' %}
+
+## Version 2 Details and Features
+
+- Security Center
+- Customizable Widgets
+- NFT Dashboard
+- Quick Actions
+
+Version 2 was [announced](https://helpdesk.eidoo.io/hc/en-us/articles/7886897307025-Eidoo-v2-announcement) on Eidoo's helpdesk page. There, v1 is considered obsolete. 
+
+Eidoo's homepage is currently inaccessible because of an SSL misconfiguration. Based on the announcements in the official Twitter account and the helpdesk documents, the version 2 and version 1 apps are indeed, related. 
+
 ## App Description from Google Play
 
 > Eidoo supports popular blockchains and tokens, including Bitcoin (BTC), Ethereum (ETH), Binance Token (BNB), Polygon (MATIC), Fantom (FTM), Avalanche (AVAX), pNetwork (PNT), USDC, DAI, UNI, SHIB.

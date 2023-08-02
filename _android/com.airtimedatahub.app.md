@@ -20,7 +20,7 @@ issue:
 icon: com.airtimedatahub.app.png
 bugbounty:
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-07-09
 signer:
 reviewArchive:
