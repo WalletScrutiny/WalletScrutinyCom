@@ -58,9 +58,7 @@ Mara is backed by Coinbase ventures and FTX [Alameda Research](https://fortune.c
 - We then created a pin.
 - We were asked to verify our identity but opted to skip.
 - The main interface gave us a referral code and an interface to track our referrals. We clicked on the 'Portfolio' option, but it gave an error:
-
-> Portfolio Locked. We're unable to offer this feature in your country of residence at the moment. We'll notify you as soon as we're able to.
-
+  > Portfolio Locked. We're unable to offer this feature in your country of residence at the moment. We'll notify you as soon as we're able to.
 - We tried changing our country of residence to Nigeria, but it only gave a different prompt: "Verify your Identity"
 - We will assume that their claims of supporting Bitcoin with buy, sell, swap, send and withdraw functions are true. Documentation is also sparse about its support for cryptocurrency.
 - Without access to the app's main functions, we'll have to base our judgment on their claims and on some of their [promotional videos](https://www.youtube.com/watch?v=s5YoFZU_HKo).

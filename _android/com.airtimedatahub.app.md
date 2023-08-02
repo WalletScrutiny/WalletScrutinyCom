@@ -59,17 +59,11 @@ features:
 
 - The first thing the app asked us to do was to provide a phone number. It required a specific format and we decided to use a temporary Nigerian phone number.
 - The app then gave an error:
-
-> - This app is not authorized to use Firebase Authentication. Please verify that the correct package name and SHA-1 are configured in the Firebase Console. [App validation failed. Is app running on a physical device.]
-
+  > This app is not authorized to use Firebase Authentication. Please verify that the correct package name and SHA-1 are configured in the Firebase Console. [App validation failed. Is app running on a physical device.]
 - We then entered a non-Nigerian phone number, it then gave us this error:
-
-> - The format of the phone number provided is incorrect. Please enter tha phone number in a format that can be parsed into E.164 format. E.164 phone numbers are written in the format [+][country code][subscriber number including area code].[Invalid format.]
-
+  > The format of the phone number provided is incorrect. Please enter tha phone number in a format that can be parsed into E.164 format. E.164 phone numbers are written in the format [+][country code][subscriber number including area code].[Invalid format.]
 - After several tries, the app then blocked us:
-
-> - We have blocked this device due to unusual activity.
-
+  > We have blocked this device due to unusual activity.
 - Since the app is very restrictive with its registration, we will have to go by the publicly available information about it.
 - The app does not have the words 'Bitcoin', 'BTC', or 'crypto' in any portion of its website. (We searched using the Google 'site:' parameter)
 - The only potential reference to a bitcoin wallet is from the [promotional image](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/87/8a/49/878a4956-c651-20d1-21bc-967f3f578c05/b7d3f27a-dd33-486b-957a-2068b2ddf0f2_9.jpg/434x0w.webp) on its Apple Store page.

@@ -58,8 +58,7 @@ features:
 - We tapped on the bottom panel and it gave us an overview of our assets. We then tapped on 'Receive' and selected 'BTC'. The only two networks available were BTC on OMNI (On the Bitcoin blockchain), and BTC on BSC (which was unavailable when we were testing).
 - BTC on the OMNI layer, is a tokenized version of BTC called 'Tethered Bitcoin'.
 - It comes with a warning:
-
-> It is forbidden to recharge non-BTC-OMNI assets to the above-mentioned receiving address: to retrieve the wrong charge chain, it needs to be retrieved manually by a technician, and you need to pay a certain fee, please refer to....
+  > It is forbidden to recharge non-BTC-OMNI assets to the above-mentioned receiving address: to retrieve the wrong charge chain, it needs to be retrieved manually by a technician, and you need to pay a certain fee, please refer to....
 
 ## Conclusion
 
