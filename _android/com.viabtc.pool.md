@@ -10,7 +10,7 @@ appCountry:
 released: 2017-12-16
 updated: 2023-06-21
 version: 3.7.8
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 273
 size: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 redirect_from: 
-developerName: ViaBTC
+developerName: ViaBTC.LLC
 features: 
 
 ---

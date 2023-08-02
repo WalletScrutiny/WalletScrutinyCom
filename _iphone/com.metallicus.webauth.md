@@ -11,7 +11,7 @@ released: 2021-12-15
 updated: 2023-02-03
 version: 2.0.11
 stars: 4.9
-reviews: 151
+reviews: 154
 size: '38539264'
 website: https://www.proton.org/
 repository: 

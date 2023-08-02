@@ -7,8 +7,8 @@ users: 50
 appId: com.vnc.trex.bit
 appCountry: 
 released: 2023-03-05
-updated: 2023-04-19
-version: 1.0.1
+updated: 2023-08-01
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 

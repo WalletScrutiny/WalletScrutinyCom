@@ -1,6 +1,6 @@
 ---
 wsId: koinbasketCrypto
-title: 'KoinBasket: Best Crypto App'
+title: 'KoinBasket: ProMax Crypto App'
 altTitle: 
 authors:
 - danny

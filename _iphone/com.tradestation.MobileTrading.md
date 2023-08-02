@@ -11,7 +11,7 @@ released: 2012-12-10
 updated: 2023-07-27
 version: 7.1.1
 stars: 4.5
-reviews: 17327
+reviews: 17332
 size: '114299904'
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 

@@ -8,11 +8,11 @@ appId: com.saitapro
 appCountry: us
 idd: '1636523777'
 released: 2022-08-05
-updated: 2023-07-19
-version: '1.8'
+updated: 2023-07-31
+version: '1.9'
 stars: 4.8
-reviews: 723
-size: '55293952'
+reviews: 726
+size: '56657920'
 website: 
 repository: 
 issue: 

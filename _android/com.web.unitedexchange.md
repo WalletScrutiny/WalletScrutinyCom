@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-16
 updated: 2023-05-04
 version: '3.7'
-stars: 4.6
+stars: 
 ratings: 
-reviews: 2
+reviews: 
 size: 
 website: https://unitedexchange.io/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Bit Alpha
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: mob.bit.alpha82102
 appCountry: 
 released: 2022-08-19

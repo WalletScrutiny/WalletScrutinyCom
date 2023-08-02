@@ -8,11 +8,11 @@ appId: app.difx.exchange
 appCountry: hr
 idd: '1588944811'
 released: 2021-10-10
-updated: 2023-07-19
-version: 5.1.0
+updated: 2023-07-30
+version: 5.1.1
 stars: 0
 reviews: 0
-size: '103610368'
+size: '103618560'
 website: https://difx.com
 repository: 
 issue: 

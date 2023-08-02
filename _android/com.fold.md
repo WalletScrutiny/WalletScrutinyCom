@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-11-12
 updated: 2023-07-24
 version: 139.23.6
-stars: 3.5
+stars: 3.7
 ratings: 987
-reviews: 845
+reviews: 853
 size: 
 website: https://foldapp.com
 repository: 
