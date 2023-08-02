@@ -58,4 +58,13 @@ features:
 ## Conclusion
 
 - We would have labeled this as custodial, however the documentation proves that the app does not allow the withdrawal or deposit of Bitcoin. There is no indication that the cryptocurrencies traded are in the form of CFDs.
+- According to the [Cryptocurrency Trading Services Terms document](https://www.syfe.com/nextstatic/doc/legal/cryptocurrency_trading_services_terms.pdf), this is how it works:
+  > The Cryptocurrency Trading Services provides you with access to cryptocurrency assets by allowing you to place Instructions through our Platform to have cryptocurrency bought and sold on your behalf through the Crypto Broker.
+  >
+  > 4.2 By registering to use the Cryptocurrency Trading Services and agreeing to these Terms, you authorise Syfe to act as your agent to buy or sell cryptocurrency on your behalf with the Crypto Broker. 
+  >
+  > 5.1 Syfe will execute buy and sell transactions in cryptocurrency on your behalf, at your risk and upon your specific Instructions, provided that the specific cryptocurrency is of a type that is available for trading through the Crypto Broker.
+  >
+  > 5.6 You must provide the purchase monies to settle cryptocurrency acquisition trades to us and we will hold this money in a segregated trust account on your behalf.
+
 - This app **does not allow sending or receiving of Bitcoin**.
