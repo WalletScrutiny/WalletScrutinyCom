@@ -49,8 +49,7 @@ features:
 
 - We first signed-up using our email address.
 - After filling in our email address and password, we clicked on 'Create a Wallet'. It gave an error:
-
-> Something went wrong. Please try again later.
+  > Something went wrong. Please try again later.
 
 - We tried again, this time using Google sign-in. We clicked 'Confirm' and received the same error.
 - We tried on a physical mobile device and it then asked us to pick our favorite markets. We selected 'Bitcoin', 'Microsoft' and 'Meta'.
@@ -64,8 +63,7 @@ features:
   - Put your cash to work
 - We were not able to find a BTC wallet.
 - We found this at the footer of the homepage:
-
-> Portfolio Value: Your investment portfolio on Morpher is not a bank insured deposit. Returns are not guaranteed, your portfolio may lose value. All investments are denominated in Morpher Tokens and subject to related currency risks (see below). You are the custodian of your own funds, Morpher does not safeguard any private cryptographic keys on behalf of users, including wallets that hold Morpher Tokens. Users who choose to interact with the Morpher blockchain protocols retain full control over their private keys.
+  > Portfolio Value: Your investment portfolio on Morpher is not a bank insured deposit. Returns are not guaranteed, your portfolio may lose value. All investments are denominated in Morpher Tokens and subject to related currency risks (see below). You are the custodian of your own funds, Morpher does not safeguard any private cryptographic keys on behalf of users, including wallets that hold Morpher Tokens. Users who choose to interact with the Morpher blockchain protocols retain full control over their private keys.
 
 - [Withdrawals](https://support.morpher.com/en/article/withdraw-to-exchanges-binance-ngr180/) can be in MPH, Ethereum or Polygon chains
 - [Deposit options](https://support.morpher.com/en/article/deposit-methods-1fv3611/) include:

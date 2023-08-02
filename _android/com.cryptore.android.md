@@ -45,12 +45,10 @@ features:
 
 - [(Link to CoinLord's Terms and Conditions)](https://coinlord.org/terms-conditions)
 - We were able to register by using a temporary Indian phone number.
-- Once inside, we found a BTC wallet, but its public key starts with 0x. The complete address is:
-
-> 0x3c8774667713f6073949699684f0b87bb417a319
-
-It isn't a Bitcoin address as we have found in [blockchair](https://blockchair.com/search?q=0x3c8774667713f6073949699684f0b87bb417a319).
-
+- Once inside, we found a BTC wallet, but its public key starts with 0x:
+  > 0x3c8774667713f6073949699684f0b87bb417a319
+  
+  Which is not a Bitcoin address. The app apparently is selling "wrapped" Bitcoins on some other chain as actual BTC.
 - We took a look at other funding options:
   - Instant UPI
   - UPI

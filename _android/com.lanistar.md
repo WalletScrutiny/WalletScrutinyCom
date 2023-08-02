@@ -45,8 +45,7 @@ features:
 - We had difficulty in registering with this service because the sms verification did not arrive promptly. We changed our country of residence to UK, and the SMS to our temporary number worked.
 - We registered, but had to wait for an activation code. We do not know if this is through email or sms. We already verified our email address. We waited to no avail.
 - At the footer of the site, we found this:
-
-> Lanistar Limited ("Lanistar") is currently only carrying out pre-launch marketing in preparation for a future launch of Lanistar branded payment cards ("Cards"). Lanistar is finalising arrangements with various partner firms who are authorised and/or regulated (by the FCA and other overseas regulators) and the Cards will only be launched and go-live when those arrangements are in place.
+  > Lanistar Limited ("Lanistar") is currently only carrying out pre-launch marketing in preparation for a future launch of Lanistar branded payment cards ("Cards"). Lanistar is finalising arrangements with various partner firms who are authorised and/or regulated (by the FCA and other overseas regulators) and the Cards will only be launched and go-live when those arrangements are in place.
 
 - It would seem that the app has encountered regulatory hurdles with the FCA [(Link to 2023 news article)](https://www.uktech.news/fintech/lanistar-uk-return-20230419)
 - Other [news reports](https://www.finextra.com/pressarticle/97150/lanistar-launches-crypto-in-brazil) indicate the cryptocurrency functionality is only available in Brazil.
