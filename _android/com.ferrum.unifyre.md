@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ferrum.unifyre.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nobtc
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: UnifyreWallet

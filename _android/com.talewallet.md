@@ -7,8 +7,8 @@ users: 1000
 appId: com.talewallet
 appCountry: 
 released: 2023-04-07
-updated: 2023-05-05
-version: 5.0.0
+updated: 2023-07-27
+version: 8.0.2
 stars: 
 ratings: 
 reviews: 

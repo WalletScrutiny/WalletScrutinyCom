@@ -1,12 +1,12 @@
 ---
 wsId: maraWallet
 title: Mara Wallet
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000000
 appId: xyz.mara.wallet
-appCountry:
+appCountry: 
 released: 2022-05-24
 updated: 2023-07-25
 version: 1.5.2
@@ -15,15 +15,15 @@ ratings:
 reviews: 140
 size: 
 website: https://mara.xyz
-repository:
-issue:
+repository: 
+issue: 
 icon: xyz.mara.wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-09
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: TheMARAverse
 social:
 - https://www.linkedin.com/company/themaraverse
@@ -32,9 +32,9 @@ social:
 - https://www.instagram.com/themaraverse
 - https://t.me/TheMaraverse
 - https://www.youtube.com/channel/UCSzxEpB-NnWm-PxLEE7ihTQ
-redirect_from:
+redirect_from: 
 developerName: Mara Team
-features:
+features: 
 
 ---
 
