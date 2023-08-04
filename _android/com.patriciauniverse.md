@@ -2,9 +2,8 @@
 wsId: patriciaExchange
 title: Patricia Universe
 altTitle: 
-authors:
-- danny
-users: 5000
+authors: 
+users: 10000
 appId: com.patriciauniverse
 appCountry: 
 released: 2023-01-27

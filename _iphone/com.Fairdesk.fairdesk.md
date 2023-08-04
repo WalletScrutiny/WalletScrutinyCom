@@ -8,11 +8,11 @@ appId: com.Fairdesk.fairdesk
 appCountry: us
 idd: '1578440544'
 released: 2021-08-18
-updated: 2023-07-25
-version: 1.5.0
+updated: 2023-07-31
+version: 1.5.1
 stars: 4.9
 reviews: 32
-size: '21404672'
+size: '21437440'
 website: https://www.fairdesk.com
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.streakk.wallet
 appCountry: in
 idd: '1636671089'
 released: 2022-08-02
-updated: 2023-05-16
-version: '2.3'
-stars: 4.3
-reviews: 6
-size: '30715904'
+updated: 2023-07-28
+version: '2.4'
+stars: 4.5
+reviews: 8
+size: '34019328'
 website: 
 repository: 
 issue: 

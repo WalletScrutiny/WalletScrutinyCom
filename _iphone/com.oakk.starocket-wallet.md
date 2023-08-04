@@ -8,8 +8,8 @@ appId: com.oakk.starocket-wallet
 appCountry: us
 idd: '1612013344'
 released: 2022-06-02
-updated: 2023-07-25
-version: 2.0.3
+updated: 2023-08-01
+version: 2.0.4
 stars: 5
 reviews: 5
 size: '54821888'

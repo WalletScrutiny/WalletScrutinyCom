@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Seatbelt: Boost BTC,ETH'
+title: Libertify - AI for Cryptos
 altTitle: 
 authors: 
 users: 100

@@ -9,9 +9,9 @@ appCountry:
 released: 2023-01-20
 updated: 2023-07-18
 version: 3.2.6
-stars: 4.3
+stars: 4.1
 ratings: 
-reviews: 11
+reviews: 6
 size: 
 website: https://www.bydfi.com/
 repository: 

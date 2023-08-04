@@ -8,7 +8,7 @@ appId: com.aximetria.prod
 appCountry: 
 released: 
 updated: 2023-07-27
-version: 2.29.0
+version: 2.30.0
 stars: 
 ratings: 
 reviews: 

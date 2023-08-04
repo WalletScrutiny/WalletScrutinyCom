@@ -9,8 +9,8 @@ idd: 1488724463
 released: 2020-08-10
 updated: 2023-07-20
 version: '124.0'
-stars: 4.8
-reviews: 13105
+stars: 4.7
+reviews: 13123
 size: '89474048'
 website: https://strike.me/en/
 repository: 

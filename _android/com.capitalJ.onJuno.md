@@ -7,11 +7,11 @@ users: 100000
 appId: com.capitalJ.onJuno
 appCountry: 
 released: 2021-03-01
-updated: 2023-07-27
-version: 4.0.12
-stars: 3.4
+updated: 2023-08-01
+version: 4.0.13
+stars: 3.3
 ratings: 
-reviews: 338
+reviews: 340
 size: 
 website: https://juno.finance
 repository: 
