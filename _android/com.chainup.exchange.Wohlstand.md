@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.Wohlstand.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-06-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

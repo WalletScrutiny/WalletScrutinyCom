@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.doloresex_android.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-20
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

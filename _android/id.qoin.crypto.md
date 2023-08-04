@@ -1,12 +1,12 @@
 ---
 wsId: qoinPayID
 title: Qoinpay
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: id.qoin.crypto
-appCountry:
+appCountry: 
 released: 2022-08-16
 updated: 2023-07-24
 version: 1.4.13
@@ -18,12 +18,12 @@ website:
 repository: 
 issue: 
 icon: id.qoin.crypto.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-08
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: qoinpay
 social:
 - https://qoinpay.id
@@ -31,9 +31,9 @@ social:
 - https://www.tiktok.com/@qoinpay
 - https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg
 - https://t.me/Qoinpay
-redirect_from:
+redirect_from: 
 developerName: PT. Loyalty Program Indonesia
-features:
+features: 
 
 ---
 

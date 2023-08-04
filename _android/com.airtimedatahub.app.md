@@ -1,35 +1,35 @@
 ---
 wsId: airtimeDataHub
 title: AirtimeDataHub - Sell Airtime
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.airtimedatahub.app
-appCountry:
+appCountry: 
 released: 2019-02-19
 updated: 2023-06-23
 version: 3.5.1
 stars: 4.4
-ratings:
+ratings: 
 reviews: 10
-size:
+size: 
 website: https://airtimedatahub.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.airtimedatahub.app.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2023-07-09
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: airtimedatahub
 social:
 - https://www.facebook.com/Airtimedatahub
-redirect_from:
+redirect_from: 
 developerName: Codefixbug
-features:
+features: 
 
 ---
 

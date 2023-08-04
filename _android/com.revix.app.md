@@ -1,29 +1,29 @@
 ---
 wsId: revixBuyBitcoin
 title: Revix - Buy Bitcoin & Crypto
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 5000
 appId: com.revix.app
-appCountry:
+appCountry: 
 released: 2022-08-08
 updated: 2023-07-27
 version: 1.6.0
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: https://revix.com
-repository:
-issue:
+repository: 
+issue: 
 icon: com.revix.app.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-09
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: RevixInvest
 social:
 - https://www.facebook.com/RevixInvest
@@ -32,9 +32,9 @@ social:
 - https://medium.com/revixinvestment
 - https://t.me/revixinvest
 - https://www.tiktok.com/@revixinvest
-redirect_from:
+redirect_from: 
 developerName: Revix UK Ltd
-features:
+features: 
 
 ---
 
