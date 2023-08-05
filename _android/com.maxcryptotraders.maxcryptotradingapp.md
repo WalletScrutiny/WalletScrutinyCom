@@ -2,7 +2,8 @@
 wsId: 
 title: Max Crypto Trading
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.maxcryptotraders.maxcryptotradingapp
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.maxcryptotraders.maxcryptotradingapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-06-03
+date: 2023-08-05
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,18 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> The trading platform uses cryptocurrency.
+>
+> TRADE LIKE A LEGEND ON THE
+> LEGENDARY CRYPTO EXCHANGE
+>
+> ACCT IS THE MOST TRUSTED CRYPTOCURRENCY
+> EXCHANGE IS KNOWN FOR ITS NEXT-LEVEL SECURITY.
+
+## Analysis 
+
+- The app opened with a "webpage not available" error.
+- The website listed on Google Play is also offline.
+- This app is **defunct**

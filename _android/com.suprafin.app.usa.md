@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: supraFinCrypto
 title: 'SupraFin: Crypto ETH Investing'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.suprafin.app.usa
 appCountry: 
@@ -19,15 +20,25 @@ issue:
 icon: com.suprafin.app.usa.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2023-06-02
+verdict: custodial
+date: 2023-08-05
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: lreasor
+social:
+- https://www.facebook.com/SupraFinLtd
+- https://www.youtube.com/channel/UCSZ6hB4d1aBaNswBDH3Bsdg
 redirect_from: 
 developerName: SupraFin LTD
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Buy Bitcoin, Ethereum, Litecoin, altcoin, and similar crypto coins. Store your cryptocurrencies securely within our crypto portfolio app. Have peace of mind knowing your investment is safe and secured within SupraFin.
+
+## Analysis 
+
+- Suprafin's custodial partner is Gemini Trust, LLC. [(Terms)](https://suprafin.io/suprafin-terms-and-conditions/)
+- This is a **custodial** provider with an app that is **non-verifiable**.

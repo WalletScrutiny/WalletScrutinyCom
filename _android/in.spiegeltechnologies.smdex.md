@@ -2,7 +2,8 @@
 wsId: 
 title: 'SMDEX : Buy BTC & Other Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: in.spiegeltechnologies.smdex
 appCountry: 
@@ -18,16 +19,32 @@ repository:
 issue: 
 icon: in.spiegeltechnologies.smdex.png
 bugbounty: 
-meta: stale
-verdict: wip
-date: 2023-06-03
+meta: defunct
+verdict: custodial
+date: 2023-08-05
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: SMDex_io
+social:
+- https://t.me/SMDEX
+- https://www.linkedin.com/in/smdex-exchange-269bb9229
+- https://www.reddit.com/user/Smdex
+- https://discord.gg/CG22kJNDz8
+- https://www.facebook.com/SMDEX-Exchange-110161808203222
 redirect_from: 
 developerName: Devsmdex
 features: 
 
 ---
 
+## App Description from Google Play
+
+> SMDEX is a platform for trading cryptos.
+>
+> SMDEX has operated with a security-first mentality from day one our unique skill set includes the development of a system that allows customers to transfer money from their mobile money accounts to their crypto wallets and vice versa.
+
+## Analysis
+
+- The provider's webpage is no longer online. 
+- After installation, we tried to register, but the app kept giving [errors.](https://twitter.com/BitcoinWalletz/status/1687739091411193856) 
+- We believe this is a **defunct** and centralized exchange, and thus a **custodial** provider with a **non-verifiable** app.
