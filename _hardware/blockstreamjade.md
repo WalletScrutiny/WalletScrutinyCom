@@ -30,7 +30,7 @@ date: 2023-08-07
 signer: 
 reviewArchive:
 - date: 2023-06-29
-  version: "0.1.48"
+  version: 0.1.48
   appHash: d329dbf4fea13c6cde7df9682febae15e162947dc5a747aae98540f69e1a25d3
   gitRevision: e00377473e377b6baa0488479f35cb9307874e97
   verdict: nonverifiable
