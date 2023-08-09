@@ -10,8 +10,8 @@ idd: '1474391121'
 released: 2020-04-14
 updated: 2023-05-31
 version: 2.0.2
-stars: 4.3
-reviews: 80
+stars: 4.4
+reviews: 81
 size: '56027136'
 website: https://getbabb.com/
 repository: 

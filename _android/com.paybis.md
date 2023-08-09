@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Paybis Crypto & Bitcoin Wallet
+title: Paybis - Bitcoin (BTC) Wallet
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-06
 updated: 2023-07-27
 version: 1.6.1
-stars: 3.8
+stars: 3.9
 ratings: 173
-reviews: 56
+reviews: 58
 size: 
 website: https://paybis.com/contacts/
 repository: 

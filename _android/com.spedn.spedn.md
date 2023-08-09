@@ -9,9 +9,9 @@ appCountry:
 released: 2021-05-26
 updated: 2023-07-21
 version: 23.07.1
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 101
+reviews: 102
 size: 
 website: https://spedn.io
 repository: 

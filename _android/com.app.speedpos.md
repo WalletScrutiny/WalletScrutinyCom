@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: TrySpeed
+developerName: Speed1 - FZCO
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: slaviWallet
-title: 'Slavi Wallet: Crypto DeFi NFT'
+title: 'Slavi: DeFi Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.defiwalletmobile
 appCountry: 
 released: 2021-12-13
-updated: 2023-07-03
-version: 1.21.0
+updated: 2023-08-02
+version: 1.22.1
 stars: 4.8
 ratings: 
 reviews: 143

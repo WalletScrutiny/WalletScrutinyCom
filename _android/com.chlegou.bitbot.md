@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chlegou.bitbot.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-01
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 

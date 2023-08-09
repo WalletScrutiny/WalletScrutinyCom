@@ -7,7 +7,7 @@ users: 500
 appId: com.nayuta.core2
 appCountry: 
 released: 
-updated: 2023-07-05
+updated: 2023-08-08
 version: VARY
 stars: 
 ratings: 

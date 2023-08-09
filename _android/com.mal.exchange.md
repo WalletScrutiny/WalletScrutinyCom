@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-11
 updated: 2023-07-24
 version: 1.0.29
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://mal.io/
 repository: 

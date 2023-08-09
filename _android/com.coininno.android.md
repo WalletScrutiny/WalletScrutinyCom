@@ -7,8 +7,8 @@ users: 1000
 appId: com.coininno.android
 appCountry: 
 released: 2022-06-27
-updated: 2023-06-24
-version: 1.2.7
+updated: 2023-08-01
+version: 1.2.8
 stars: 4.3
 ratings: 
 reviews: 5

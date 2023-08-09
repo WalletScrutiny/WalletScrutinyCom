@@ -11,7 +11,7 @@ released: 2019-02-03
 updated: 2023-07-28
 version: 6.3.0
 stars: 4
-reviews: 400
+reviews: 404
 size: '106482688'
 website: https://busha.co
 repository: 

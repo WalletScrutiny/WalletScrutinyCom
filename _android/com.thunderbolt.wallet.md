@@ -3,7 +3,7 @@ wsId:
 title: Thunderbolt Lightning Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.thunderbolt.wallet
 appCountry: 
 released: 2021-08-29

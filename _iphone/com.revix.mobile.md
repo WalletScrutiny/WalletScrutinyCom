@@ -8,11 +8,11 @@ appId: com.revix.mobile
 appCountry: za
 idd: '1590491829'
 released: 2022-08-01
-updated: 2023-06-28
-version: 1.5.1
-stars: 4.4
-reviews: 15
-size: '101773312'
+updated: 2023-07-27
+version: 1.6.0
+stars: 4.3
+reviews: 16
+size: '101847040'
 website: https://revix.com
 repository: 
 issue: 

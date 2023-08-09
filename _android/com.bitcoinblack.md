@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: BitcoinBlackCreditCard
+developerName: North York LTD
 features: 
 
 ---

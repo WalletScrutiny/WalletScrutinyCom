@@ -3,7 +3,7 @@ wsId:
 title: Pop
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.gopop
 appCountry: 
 released: 2022-08-01

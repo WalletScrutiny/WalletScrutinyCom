@@ -11,7 +11,7 @@ released: 2021-06-02
 updated: 2023-07-30
 version: 2.0.8
 stars: 2.8
-reviews: 89
+reviews: 92
 size: '65951744'
 website: https://www.koinbx.com/
 repository: 

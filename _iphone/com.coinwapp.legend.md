@@ -10,8 +10,8 @@ idd: '1494077068'
 released: 2020-01-14
 updated: 2023-04-19
 version: 9.5.26
-stars: 3.9
-reviews: 112
+stars: 3.3
+reviews: 78
 size: '174373888'
 website: 
 repository: 
@@ -31,7 +31,7 @@ social:
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
 features: 
-developerName: COINW PTE. LTD.
+developerName: LCT HOLDING SP Z O O
 
 ---
 

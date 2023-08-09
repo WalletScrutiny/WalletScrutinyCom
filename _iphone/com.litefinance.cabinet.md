@@ -8,8 +8,8 @@ appId: com.litefinance.cabinet
 appCountry: us
 idd: '1661254805'
 released: 2023-01-11
-updated: 2023-07-28
-version: '1.72'
+updated: 2023-08-08
+version: '1.74'
 stars: 3.9
 reviews: 13
 size: '124868608'

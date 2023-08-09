@@ -8,11 +8,11 @@ appId: io.changex.app
 appCountry: bg
 idd: '1613309180'
 released: 2022-06-07
-updated: 2023-07-27
-version: 2.8.0
+updated: 2023-08-02
+version: 2.8.1
 stars: 4.6
 reviews: 11
-size: '45325312'
+size: '45345792'
 website: https://changex.io
 repository: 
 issue: 

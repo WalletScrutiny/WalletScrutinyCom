@@ -9,9 +9,9 @@ appCountry:
 released: 2022-04-15
 updated: 2023-07-28
 version: 2.0.5
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.unbank.world/
 repository: 

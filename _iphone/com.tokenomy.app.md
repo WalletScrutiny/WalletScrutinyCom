@@ -8,11 +8,11 @@ appId: com.tokenomy.app
 appCountry: my
 idd: '1628767095'
 released: 2022-07-22
-updated: 2023-07-18
-version: 2.11.0
+updated: 2023-08-02
+version: 2.12.0
 stars: 0
 reviews: 0
-size: '115131392'
+size: '115288064'
 website: https://www.tokenomy.com
 repository: 
 issue: 

@@ -7,8 +7,8 @@ users: 500
 appId: com.ofinans.ofinansapp
 appCountry: 
 released: 2021-06-10
-updated: 2023-08-01
-version: 2.0.2
+updated: 2023-08-07
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 
