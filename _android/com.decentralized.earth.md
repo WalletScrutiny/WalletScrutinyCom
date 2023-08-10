@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: 'SpecterSolutions: Open Wallet'
-altTitle: 
+altTitle: 'Fake Specter Wallet'
 authors:
 - danny
 users: 1000
@@ -48,5 +48,5 @@ features:
   - For the domain specterproduct.cc, we received the same error.
 - The developer on Google Play is listed as "spectrum l.l.c". The maintainer of the Specter Desktop is CryptoAdvance / Specter Solutions. 
 - In the app, we proceeded to create a wallet by first writing a "Wallet name" and a "spending password". We then clicked on the "Create a New Wallet" button. Nothing happened.
-- We tried verifying this on [X](https://twitter.com/BitcoinWalletz/status/1688771575473164288) and await their response.
+- We [asked the Specter team on X](https://twitter.com/BitcoinWalletz/status/1688771575473164288) and they consider this product [a "malware app"](https://twitter.com/SpecterWallet/status/1689350623609712640).
 - These facts lead us to believe that this app is mimicking Specter wallet's app logo, name and appearance, and is thus a **fake**.
