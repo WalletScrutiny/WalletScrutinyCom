@@ -8,28 +8,14 @@
       {%- assign verdicts = verdict_group.verdicts -%}
       {%- assign metas = verdict_group.metas -%}
       {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
-
-      {%- if verdict_group.key == 'allPassed' -%}
-        {%- assign denomValue = 0 -%}
-        {%- assign contextTxt = '' -%}
-        {%- assign tempSubset = 'allPassed,codeIssues,custodials,nosendreceive' | split: ',' -%}
-        {%- for key in tempSubset -%}
-          {% include /homepage/get_count_by_verdict_group_key.html vgKey=key %}
-          {%- assign denomValue = denomValue | plus: vgKeyCount -%}
-        {%- endfor -%}
-      {%- else -%}
-        {%- assign denomValue = 0 | plus: fullCount -%}
-      {%- endif -%}
+      {%- assign denomValue = 0 | plus: fullCount -%}
       <h2>
         <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
         <small>of {{denomValue | thousands_separated}} wallets</small>
       </h2>
       <p>{{ verdict_group.title }}</p>
-      {%- if verdict_group.key == 'allPassed' -%}
-      <p class="small">We were able to examine the source codes of {{ denomValue | thousands_separated }} out of {{ fullCount | thousands_separated }} wallets. Of these, only {{ total | thousands_separated }} passed all tests.<br><a href="/?verdict=allPassed&platform=allPlatforms">Explore wallets which passed all tests.</a></p>
-      {%- elsif verdict_group.comment -%}
+
       <div class="small">{{verdict_group.comment | markdownify}}</div>
-      {%- endif -%}
 
     </div>
   </div>
