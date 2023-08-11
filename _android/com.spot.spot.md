@@ -8,11 +8,11 @@ users: 100000
 appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
-updated: 2023-05-30
-version: 4.80.3
-stars: 4.5
+updated: 2023-07-31
+version: 4.82.1
+stars: 4.4
 ratings: 4767
-reviews: 502
+reviews: 504
 size: 
 website: https://www.spot-wallet.com
 repository: 

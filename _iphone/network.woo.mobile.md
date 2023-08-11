@@ -8,11 +8,11 @@ appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
 released: 2021-09-17
-updated: 2023-07-04
-version: 3.7.1
+updated: 2023-08-07
+version: 3.8.1
 stars: 5
 reviews: 2
-size: '89383936'
+size: '89644032'
 website: https://woo.org/
 repository: 
 issue: 

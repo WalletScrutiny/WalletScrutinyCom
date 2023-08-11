@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Fxoro
+title: FXORO Trading APP
 altTitle: 
 authors: 
 users: 1000
 appId: com.fxoro.app
 appCountry: 
 released: 2022-06-16
-updated: 2023-07-13
-version: 1.2.8
+updated: 2023-07-26
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 

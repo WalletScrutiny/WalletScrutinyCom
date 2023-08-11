@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: dIFXExchange
 title: 'DIFX Exchange : Buy Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: app.difx.exchange
 appCountry: 
 released: 
-updated: 2023-07-13
-version: 5.0.8
+updated: 2023-07-28
+version: 5.1.0
 stars: 
 ratings: 
 reviews: 
@@ -19,15 +20,31 @@ issue:
 icon: app.difx.exchange.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: custodial
+date: 2023-06-29
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: difx_io
+social:
+- https://www.linkedin.com/company/difx-io
+- https://www.facebook.com/difxexchange
+- https://www.instagram.com/difx.io
+- https://www.youtube.com/@DigitalFinancialExchange
+- https://t.me/difx1
+- https://www.reddit.com/r/difx_exchange
 redirect_from: 
 developerName: DIFX
 features: 
 
 ---
 
+## App Description from Google Play
+
+> A fully insured centralized exchange, DIFX - Digital Financial Exchange is one of the fastest and the most secure trading platforms.
+>
+> MILITARY-GRADE SECURITY
+> - We use full data encryption, cryptocurrency cold storage, biometric access, 2FA & email verifications.
+
+## Analysis
+
+As the Google Play description says, the centralized exchange uses cold storage. This makes it a **custodial** app.

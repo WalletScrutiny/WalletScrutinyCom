@@ -3,7 +3,7 @@ wsId:
 title: Inout Blockchain FiatExchanger
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: net.inoutscripts.demo.inoutblockchainfiatexchanger
 appCountry: 
 released: 2021-10-01

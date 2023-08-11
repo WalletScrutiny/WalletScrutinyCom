@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: nooneWallet
 title: Noone Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: io.noone.androidwallet
 appCountry: 
 released: 2023-03-17
-updated: 2023-07-11
-version: 1.3.1
-stars: 
+updated: 2023-08-04
+version: 1.4.0
+stars: 4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://noone.io
 repository: 
@@ -19,11 +20,11 @@ issue:
 icon: io.noone.androidwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-06-29
 signer: 
 reviewArchive: 
-twitter: 
+twitter: NooneWallet
 social: 
 redirect_from: 
 developerName: NO ONE FZCO
@@ -31,3 +32,18 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> With Noone Wallet's non-custodial approach, you remain in full control of your funds
+>
+> Supported Cryptocurrencies:
+>
+> Bitcoin (BTC) Legacy and Bitcoin Segwit...
+
+## Analysis
+
+- The app claims that it supports BTC and is non-custodial.
+- We verified these claims.
+- There are no claims to it being source-available.
+- A code search on GitHub [does not yield any result.](https://github.com/search?q=io.noone.androidwallet&type=code)  
+- This app is **not source-available**.

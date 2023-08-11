@@ -7,8 +7,8 @@ users: 10
 appId: cloud.antalpha.app
 appCountry: 
 released: 2023-02-21
-updated: 2023-07-18
-version: 2.0.0
+updated: 2023-07-31
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 

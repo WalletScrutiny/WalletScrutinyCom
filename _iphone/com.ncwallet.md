@@ -1,6 +1,6 @@
 ---
 wsId: ncWallet
-title: NCWallet
+title: 'NC Wallet: crypto without fees'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ncwallet
 appCountry: us
 idd: '1615381976'
 released: 2022-09-27
-updated: 2023-07-12
-version: 1.0.445
+updated: 2023-08-07
+version: 1.0.454
 stars: 3.5
-reviews: 14
-size: '26399744'
+reviews: 15
+size: '26493952'
 website: https://ncwallet.net/
 repository: 
 issue: 

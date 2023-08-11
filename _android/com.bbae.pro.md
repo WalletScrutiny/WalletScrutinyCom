@@ -12,7 +12,7 @@ updated: 2023-07-17
 version: 5.4.2
 stars: 4.7
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.bbae.com
 repository: 

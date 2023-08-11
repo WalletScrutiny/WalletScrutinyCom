@@ -8,8 +8,8 @@ users: 50000
 appId: com.pocketbits
 appCountry: 
 released: 2021-08-03
-updated: 2021-10-24
-version: 1.3.0
+updated: 2023-07-27
+version: 1.3.4
 stars: 4.9
 ratings: 
 reviews: 10
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: PocketBitsIndia

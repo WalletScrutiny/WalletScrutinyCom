@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cz.hundredspires.crypton.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2023-06-12
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

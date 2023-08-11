@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 3
 size: 
-website: https://www.yield.app
+website: https://yield.app
 repository: 
 issue: 
 icon: com.yieldapp_mobile.jpg

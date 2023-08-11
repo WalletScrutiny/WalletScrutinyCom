@@ -3,7 +3,7 @@ wsId:
 title: BCM Holdings
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bcm.bcm_alpha_app
 appCountry: 
 released: 

@@ -1,37 +1,37 @@
 ---
 wsId: apexProTrade
 title: 'ApeX Pro: Trade Crypto'
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.apex.plus
-appCountry:
+appCountry: 
 released: 2022-08-24
-updated: 2023-07-05
-version: 1.19.1
+updated: 2023-08-08
+version: 1.20.5
 stars: 4.5
-ratings:
-reviews: 11
-size:
+ratings: 
+reviews: 12
+size: 
 website: https://apex.exchange
-repository:
-issue:
+repository: 
+issue: 
 icon: com.apex.plus.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2023-07-02
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: OfficialApeXdex
 social:
 - https://apexdex.medium.com
 - https://discord.com/invite/366Puqavwx
 - https://t.me/ApeXdex
-redirect_from:
+redirect_from: 
 developerName: APEX DAO LLC
-features:
+features: 
 
 ---
 

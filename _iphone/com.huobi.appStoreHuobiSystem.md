@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: Huobi - Buy Bitcoin & Crypto
+title: Huobi:Buy BTC, Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2023-07-13
-version: 10.4.0
+updated: 2023-07-27
+version: 10.5.0
 stars: 3.9
-reviews: 1216
-size: '269811712'
+reviews: 1223
+size: '268128256'
 website: https://www.huobi.com
 repository: 
 issue: 

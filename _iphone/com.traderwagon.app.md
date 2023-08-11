@@ -8,11 +8,11 @@ appId: com.traderwagon.app
 appCountry: sg
 idd: '1605104202'
 released: 2022-02-21
-updated: 2023-06-30
-version: 1.8.0
+updated: 2023-07-25
+version: 1.9.0
 stars: 5
-reviews: 6
-size: '117152768'
+reviews: 7
+size: '116460544'
 website: https://www.traderwagon.com/
 repository: 
 issue: 

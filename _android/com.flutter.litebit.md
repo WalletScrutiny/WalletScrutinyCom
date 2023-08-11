@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-12
 updated: 2023-05-16
 version: 3.3.19
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.litebit.eu/
 repository: 

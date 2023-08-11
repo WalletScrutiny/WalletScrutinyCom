@@ -3,15 +3,15 @@ wsId:
 title: Thunderbolt Lightning Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.thunderbolt.wallet
 appCountry: 
 released: 2021-08-29
 updated: 2021-08-29
 version: 1.0.3
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 33
+reviews: 37
 size: 
 website: https://thunderboltwallet.us
 repository: 

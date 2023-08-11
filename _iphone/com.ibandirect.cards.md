@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ibandirect.cards.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

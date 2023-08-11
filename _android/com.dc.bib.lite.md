@@ -3,15 +3,15 @@ wsId:
 title: BIB
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.dc.bib.lite
 appCountry: 
 released: 2023-02-06
 updated: 2023-06-15
 version: 1.0.5
-stars: 2.1
+stars: 2.5
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: 
 repository: 

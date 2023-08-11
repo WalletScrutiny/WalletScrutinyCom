@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.riodefi.store.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-15
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: riodefiofficial

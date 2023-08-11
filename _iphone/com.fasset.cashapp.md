@@ -1,6 +1,6 @@
 ---
 wsId: fassetCrypto
-title: 'Fasset: Trade Bitcoin & Crypto'
+title: Fasset - Buy Digital Assets
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.fasset.cashapp
 appCountry: gb
 idd: '1599893605'
 released: 2021-12-14
-updated: 2023-06-21
-version: '1.9'
+updated: 2023-08-09
+version: '2.2'
 stars: 5
 reviews: 1
-size: '65965056'
+size: '66562048'
 website: https://fasset.io/
 repository: 
 issue: 

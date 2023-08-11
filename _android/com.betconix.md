@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-01
 updated: 2021-12-14
 version: '6.7'
-stars: 
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://betconix.com/
 repository: 
