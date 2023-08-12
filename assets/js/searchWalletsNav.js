@@ -80,7 +80,24 @@ function searchTrigger() {
     }, 200)
   }
 }
-window.temporarySearchValue = ""
+const paltformOrder = ['android', 'iphone', 'hardware', 'bearer']
+
+window.orderedObs.sort((a, b) => {
+  if ((a.matchRank && b.matchRank) && (a.matchRank != b.matchRank))
+    return a.matchRank - b.matchRank
+  if (a.verdict != b.verdict)
+    return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
+  if (a.folder != b.folder)
+    return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
+  if (a.meta != b.meta)
+    return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
+  if (a.users != b.users)
+    return b.users - a.users
+  if (a.ratings != b.ratings)
+    return b.ratings - a.ratings
+  if (a.reviews != b.reviews)
+    return b.reviews - a.reviews
+})
 function searchCatalogueNav(input) {
   if (window.isHomepage) {
     deferSearch(input)
@@ -90,19 +107,31 @@ function searchCatalogueNav(input) {
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
   const term = input.trim().toUpperCase()
+  const searchTermWords = term.length > 0 ? term.split(" ") : false
+
   const minTermLength = 1
-  window.temporarySearchValue = term;
   if (term.length > minTermLength) {
     var matchCounter = 0
     window.orderedObs.forEach(wallet => {
       if (wallet.title) {
-        let searchableTerms = `${[wallet, ...(wallet.versions || [])].map(v => ` ${v.title} ${v.folder}/${v.appId} ${v.website}`).join(" ")}`
+        let walletAsStr = ""
+        for (const [key, value] of Object.entries(wallet)) {
+          walletAsStr += `${JSON.stringify(value)}${key}`
+        }
+        walletAsStr = walletAsStr.toLocaleUpperCase()
 
         if (matchCounter < 1)
           result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
         document.querySelector(".search-controls").classList.remove("working")
-        let index = searchableTerms.toLocaleUpperCase().indexOf(term)
-
+        let index = walletAsStr.indexOf(term)
+        if (index < 0) {
+          for (const word of searchTermWords) {
+            if (walletAsStr.indexOf(word) >= 0) {
+              index = walletAsStr.indexOf(word)
+              break
+            }
+          }
+        }
         if (index !== -1) {
           if (matchCounter == 0) {
             result.innerHTML = ""
@@ -119,7 +148,7 @@ function searchCatalogueNav(input) {
           var walletGroupClass = ""
           if (wallet.versions && wallet.versions.length > 0) {
             for (let i = 0; i < wallet.versions.length; i++) {
-              searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
+              walletAsStr += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
               compactedResults += makeCompactResultsHTML(wallet.versions[i])
             }
             walletGroupClass = "grouped"
@@ -142,7 +171,7 @@ function searchCatalogueNav(input) {
 }
 
 function deferSearch(input) {
-  window.scroll(0,document.querySelector("#homepageSearch").offsetTop)
+  window.scroll(0, document.querySelector("#homepageSearch").offsetTop)
   document.querySelector(".search-filtered-wallets").value = input
   filterWalletsByName()
   document.querySelector(".search-filtered-wallets").focus()
@@ -178,10 +207,10 @@ function makeCompactResultsHTML(wallet) {
         </small>
       </span>
       <span class="stats">
-      ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
-      ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+      ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
+      ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       <div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-        <span>Passed ${wallet.score.numerator!==wallet.score.denominator?wallet.score.numerator:'all'} ${wallet.score.numerator!==wallet.score.denominator?'of':''} ${wallet.score.denominator} tests</span>
+        <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
         <div>${passed}${failed}</div>
       </div>
     </span>

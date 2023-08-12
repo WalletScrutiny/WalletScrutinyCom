@@ -8,9 +8,6 @@ for (const [key, value] of Object.entries(wfInputTargets)) {
     addDropdownEvents(key, () => { updateWalletGridInputOriginatingFromUI() })
 }
 
-
-
-
 function updateWalletGridInputOriginatingFromUI() {
   const verdict = document.querySelector(".dropdown-verdict .selected") ? document.querySelector(".dropdown-verdict .selected").getAttribute("data") : "allPassed"
   const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms"
@@ -42,6 +39,7 @@ function updateWalletGridInputOriginatingFromURL() {
 }
 
 function buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw) {
+  query = decodeURI(query)
   let workingArray = []
   const paltformOrder = ['allPlatforms', 'android', 'iphone', 'hardware', 'bearer']
   const metaOrder = ['ok', 'outdated', 'stale', 'obsolete', 'defunct']
@@ -62,18 +60,14 @@ function buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw
     const searchTermWords = query.length > 0 ? query.split(" ") : false
     window.wallets.forEach(wallet => {
       let walletAsStr = ''
-      if (wallet.appId && wallet.verdict && wallet.folder && verdictGroup.verdicts.includes(wallet.verdict) && (verdictGroup.metas == undefined && wallet.meta === 'ok' || verdictGroup.metas && verdictGroup.metas.includes(wallet.meta)) && (platform === "allPlatforms" || String(wallet.folder) === platform)) {
+      if (wallet.appId && wallet.verdict && wallet.folder && verdictGroup.verdicts.includes(wallet.verdict)) {
         if (query.length > 0) {
           for (const [key, value] of Object.entries(wallet)) {
-            walletAsStr += Array.isArray(value) ? `${JSON.stringify(value)}${key}` : `${value}${key}`
+            walletAsStr += `${JSON.stringify(value)}${key}`
           }
           walletAsStr = String(walletAsStr).toUpperCase()
-          if (walletAsStr.indexOf(query.replace(/ /g, '')) >= 0) {
+          if (walletAsStr.indexOf(query) >= 0) {
             wallet.matchRank = 0
-            workingArray.push(wallet)
-          }
-          else if (walletAsStr.indexOf(query.replace(/wallet/g, '')) >= 0) {
-            wallet.matchRank = 1
             workingArray.push(wallet)
           }
           else {
@@ -88,7 +82,6 @@ function buildWalletGridAndPaginationUI(verdict, platform, page, query, queryRaw
         } else {
           workingArray.push(wallet)
         }
-
       }
     })
   }
@@ -217,7 +210,6 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts(workingArray, platform) {
-  console.log(workingArray.length)
   countProducts(workingArray)
   for (const option of document.querySelectorAll(".dropdown-options.dropdown-verdict .option"))
     if (option.hasAttribute("data")) {
@@ -239,7 +231,7 @@ function generateFeedbackText(workingArray, platform, verdict, queryRaw) {
   let feedbackText = false
   const platformText = document.querySelector(`.dropdown-options.dropdown-platform .option.${platform}`).getAttribute("data-name")
   const verdictText = document.querySelector(`.dropdown-options.dropdown-verdict .option.${verdict}`).getAttribute("data-name")
-  if (queryRaw.length > 0 && workingArray.length === 0) { feedbackText = `No wallets match for <b>"${queryRaw}"</b> in <i>${verdictText}</i>, <i>${platformText}</i>.` }
+  if (queryRaw.length > 0 && workingArray.length === 0) { feedbackText = `No wallets match for <b>"${decodeURI(queryRaw)}"</b> in <i>${verdictText}</i>, <i>${platformText}</i>.` }
 
   if (queryRaw.length === 0) {
     if (workingArray.length === 0) {
@@ -315,9 +307,7 @@ function countProducts(workingArray) {
     }
   }
   for (const platform of Object.keys(window.verdictCount)) {
-    window.verdictCount[platform]['allResults'] =
-      Object.values(window.verdictCount[platform]).reduce(
-        (a, b) => a + b, 0)
+    window.verdictCount[platform]['allResults'] = Object.values(window.verdictCount[platform]).reduce((a, b) => a + b, 0)
   }
 }
 
