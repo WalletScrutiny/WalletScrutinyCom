@@ -7,8 +7,8 @@
     <div class="data">
       {%- assign verdicts = verdict_group.verdicts -%}
       {%- assign metas = verdict_group.metas -%}
-      {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
-      {%- assign denomValue = 0 | plus: fullCount -%}
+      {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict | size -%}
+      {%- assign denomValue = products.size -%}
       <h2>
         <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
         <small>of {{denomValue | thousands_separated}} wallets</small>
