@@ -46,6 +46,7 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   } else {
     window.wallets.forEach(wallet => {
       if (wallet.appId && wallet.verdict && wallet.folder) {
+        if(platform==='allPlatforms' || wallet.folder === platform)
         if (query.length > 0) {
           const result = searchByWords(query, wallet)
           if (result)
