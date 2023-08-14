@@ -107,7 +107,6 @@ function searchCatalogueNav(input) {
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
   const term = input.trim().toUpperCase()
-  const searchTermWords = term.length > 0 ? term.split(" ") : false
 
   const minTermLength = 1
   if (term.length > minTermLength) {
@@ -122,16 +121,11 @@ function searchCatalogueNav(input) {
 
         if (matchCounter < 1)
           result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
+
         document.querySelector(".search-controls").classList.remove("working")
-        let index = walletAsStr.indexOf(term)
-        if (index < 0) {
-          for (const word of searchTermWords) {
-            if (walletAsStr.indexOf(word) >= 0) {
-              index = walletAsStr.indexOf(word)
-              break
-            }
-          }
-        }
+          const resultIndex = searchByWords(term, wallet)
+        let index = resultIndex?resultIndex.matchRank:-1
+
         if (index !== -1) {
           if (matchCounter == 0) {
             result.innerHTML = ""
