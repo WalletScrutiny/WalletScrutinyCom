@@ -4,14 +4,13 @@ title: ChiChaPay, pay with crypto
 altTitle: 
 authors:
 - danny
-users: 1000
 appId: com.metapay.mymetapay
 appCountry: 
+idd: 
 released: 2022-06-18
 updated: 2023-07-19
 version: 1.18.0
 stars: 
-ratings: 
 reviews: 
 size: 
 website: 
@@ -26,9 +25,11 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-redirect_from: 
-developerName: ChiChaPay
 features: 
+developerName: ChiChaPay
+users: 1000
+ratings: 
+redirect_from: 
 
 ---
 
@@ -54,5 +55,5 @@ features:
 - We confirmed that it was not source-available by searching for the app ID on [GitHub code](https://github.com/search?q=com.metapay.mymetapay&type=code).
 - There was also an option to buy. But it was not accessible and the app asked us to verify our "real name identity" first. 
 - We are somewhat placed in a quandary whether to label this as "custodial" or as not a wallet for bitcoin. On one hand, the QR code in the field with a BTC logo, did not even provide a BTC address of any sort but a user ID. The other bitcoin apps that we tried to scan the QR code simply gave an error. 
-- On the other hand, presuming that the app does have capabilities to accept Bitcoin, it definitely is a custodial app because no private keys were given. 
+- On the other hand, presuming that the app does have capabilities to accept Bitcoin, it definitely is a custodial app because no private keys were given and verification is required prior to accessing other features of the app. 
 - With no user guide and sparse documentation in the user agreement which can only be read from the app, we will mark this app as **not a wallet for bitcoin**. 
