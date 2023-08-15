@@ -8,11 +8,11 @@ appId: com.coolbitx.coolwallets
 appCountry: tw
 idd: 1328764142
 released: 2018-01-02
-updated: 2023-08-08
-version: 3.13.0
+updated: 2023-08-14
+version: 3.14.0
 stars: 4
-reviews: 158
-size: '116357120'
+reviews: 159
+size: '117389312'
 website: http://coolwallet.io
 repository: 
 issue: 

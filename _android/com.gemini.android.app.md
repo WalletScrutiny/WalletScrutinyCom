@@ -1,6 +1,6 @@
 ---
 wsId: geminiwallet
-title: 'Gemini: Buy Bitcoin & Crypto'
+title: 'Gemini: Bitcoin, XRP, and more'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.gemini.android.app
 appCountry: 
 released: 2018-12-10
-updated: 2023-08-09
-version: 23.808.0
+updated: 2023-08-12
+version: 23.808.3
 stars: 4.2
 ratings: 38767
-reviews: 7236
+reviews: 7247
 size: 
 website: https://gemini.com
 repository: 

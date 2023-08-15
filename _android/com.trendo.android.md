@@ -8,11 +8,11 @@ users: 50000
 appId: com.trendo.android
 appCountry: 
 released: 2021-10-05
-updated: 2023-07-17
-version: 3.3.95_googleplay
-stars: 4.7
+updated: 2023-08-09
+version: 3.3.98_googleplay
+stars: 4.6
 ratings: 
-reviews: 198
+reviews: 207
 size: 
 website: https://fxtrendo.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-08-08
 version: 5.2.1
 stars: 4.5
 ratings: 20716
-reviews: 5516
+reviews: 5525
 size: 
 website: https://uphold.com
 repository: 

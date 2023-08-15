@@ -12,7 +12,7 @@ updated: 2023-08-09
 version: 2.0.10
 stars: 4.6
 ratings: 2509
-reviews: 121
+reviews: 122
 size: 
 website: https://www.amarkets.com
 repository: 

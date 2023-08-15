@@ -8,11 +8,11 @@ appId: crypto.vast.bank
 appCountry: us
 idd: '1572241586'
 released: 2021-08-23
-updated: 2023-07-13
-version: 1.7.12
+updated: 2023-08-14
+version: 1.7.13
 stars: 3.4
 reviews: 79
-size: '79668224'
+size: '59568128'
 website: https://www.vast.bank/
 repository: 
 issue: 

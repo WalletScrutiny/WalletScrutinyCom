@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: 'SpecterSolutions: Open Wallet'
-altTitle: 'Fake Specter Wallet'
+altTitle: Fake Specter Wallet
 authors:
 - danny
 users: 1000

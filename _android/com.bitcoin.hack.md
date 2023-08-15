@@ -10,7 +10,7 @@ appCountry:
 released: 2022-08-15
 updated: 2022-08-15
 version: '1.0'
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 3
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoin.hack.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-06-30
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

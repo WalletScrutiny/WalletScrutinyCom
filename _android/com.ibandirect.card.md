@@ -8,8 +8,8 @@ users: 5000
 appId: com.ibandirect.card
 appCountry: sg
 released: 2020-11-08
-updated: 2023-06-21
-version: 1.8.2
+updated: 2023-08-15
+version: 1.8.5
 stars: 
 ratings: 
 reviews: 

@@ -12,7 +12,7 @@ updated: 2023-08-02
 version: 4.1.1
 stars: 3
 ratings: 3291
-reviews: 2109
+reviews: 2115
 size: 
 website: https://pdax.ph
 repository: 

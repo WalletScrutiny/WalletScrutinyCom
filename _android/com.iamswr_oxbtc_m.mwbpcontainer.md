@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.iamswr_oxbtc_m.mwbpcontainer.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-07
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: oxbitcoin

@@ -13,7 +13,7 @@ updated: 2023-08-02
 version: 3.9.1
 stars: 4.5
 ratings: 5008
-reviews: 674
+reviews: 671
 size: 
 website: https://changelly.com/
 repository: 

@@ -7,8 +7,8 @@ users: 1000
 appId: com.qkex
 appCountry: 
 released: 2022-11-10
-updated: 2023-08-03
-version: 3.0.11
+updated: 2023-08-14
+version: 3.0.12
 stars: 
 ratings: 
 reviews: 

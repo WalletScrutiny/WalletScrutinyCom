@@ -4,15 +4,15 @@ title: Pools Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.wallet.pools
 appCountry: 
 released: 2023-03-28
 updated: 2023-08-09
 version: 1.0.8.4
-stars: 4.9
+stars: 4.8
 ratings: 
-reviews: 12
+reviews: 14
 size: 
 website: 
 repository: 

@@ -11,7 +11,7 @@ released: 2010-04-03
 updated: 2023-08-08
 version: 10.24.0
 stars: 4.9
-reviews: 15387465
+reviews: 15390131
 size: '426893312'
 website: https://venmo.com/
 repository: 

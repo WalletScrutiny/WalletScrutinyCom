@@ -4,7 +4,7 @@ title: 'WOW EARN: BTC & Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30

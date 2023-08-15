@@ -12,7 +12,7 @@ updated: 2023-07-18
 version: 3.13.9
 stars: 3.4
 ratings: 8304
-reviews: 4822
+reviews: 4825
 size: 
 website: http://www.bitcointrade.com.br
 repository: 

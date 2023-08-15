@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: Satoshi Tango
+title: Satoshi Tango - Buy Bitcoin
 altTitle: 
 authors:
 - leo

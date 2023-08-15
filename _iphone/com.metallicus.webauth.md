@@ -10,8 +10,8 @@ idd: '1594500069'
 released: 2021-12-15
 updated: 2023-08-04
 version: 2.0.12
-stars: 4.8
-reviews: 153
+stars: 4.9
+reviews: 154
 size: '39254016'
 website: https://www.proton.org/
 repository: 

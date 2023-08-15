@@ -11,8 +11,8 @@ idd: 1500217666
 released: 2020-02-25
 updated: 2023-08-09
 version: 3.63.0
-stars: 4.4
-reviews: 39
+stars: 4.5
+reviews: 40
 size: '200383488'
 website: https://bingbon.com
 repository: 

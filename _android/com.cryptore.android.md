@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptore.android
 appCountry: 
 released: 2021-12-16
-updated: 2023-03-01
-version: 1.1.9
+updated: 2023-08-11
+version: 1.2.0
 stars: 4.8
 ratings: 
 reviews: 5
@@ -17,7 +17,7 @@ size:
 website: https://coinlord.org/
 repository: 
 issue: 
-icon: com.cryptore.android.png
+icon: com.cryptore.android.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

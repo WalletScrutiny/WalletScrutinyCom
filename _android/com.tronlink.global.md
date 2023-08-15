@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Rainco Pte Ltd
+developerName: HELIX TECH COMPANY LIMITED
 features: 
 
 ---

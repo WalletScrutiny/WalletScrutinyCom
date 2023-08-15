@@ -8,11 +8,11 @@ appId: jp.paddleinc.bitstock
 appCountry: jp
 idd: 1436815668
 released: 2018-11-02
-updated: 2023-08-09
-version: 1.4.57
+updated: 2023-08-10
+version: 1.4.58
 stars: 4.1
-reviews: 40412
-size: '107352064'
+reviews: 40476
+size: '116274176'
 website: http://www.paddle-inc.jp/
 repository: 
 issue: 
