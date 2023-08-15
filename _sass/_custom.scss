@@ -191,7 +191,6 @@
   &.component-verdict {
     width: 250px;
     @media (max-width: $small) {
-      grid-row: 2/3;
       width: 100%;
     }
     .option {
@@ -228,7 +227,6 @@
     grid-template-rows: 1fr;
     align-items: center;
     @media (max-width: $small) {
-      grid-row: 3/4;
       width: 100%;
     }
   }
@@ -380,7 +378,7 @@
     }
     @media (max-width: $small) {
       &.filters-visible {
-        grid-template: repeat(3, 1fr) / 1fr auto;
+        grid-template: repeat(2, 1fr) / 1fr auto;
         .component-verdict,
         .component-platform {
           grid-column: 1/3;
