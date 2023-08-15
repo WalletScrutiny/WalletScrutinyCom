@@ -161,6 +161,7 @@
     background: var(--accent-50);
     padding: 13px 15px;
     margin-bottom: 0;
+    cursor: text;
     &::placeholder {
       color: var(--accent-text);
     }
