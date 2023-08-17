@@ -2,7 +2,8 @@
 wsId: 
 title: LAQIRA Exchange
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.laqira.exchange
 appCountry: 
@@ -20,14 +21,34 @@ icon: com.laqira.exchange.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-06-03
+date: 2023-08-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: LaqiraProtocol
+social:
+- https://www.reddit.com/user/laqiraprotocol
+- https://t.me/laqira_official
+- https://www.linkedin.com/in/laqira-protocol-295a6b222
 redirect_from: 
 developerName: Laqira Protocol
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Laqira exchange is a cryptocurrency exchange with LQR token operating as an exchange currency, using which the holders pay fewer commission on their trades. The exchange offers Spot and Futures markets with leverage up to 100x and +120 crypto assets that may be traded using USDT, BTC, ETH, etc. pairs. Laqira exchange has a daily volume of more than $2 billion, with strong liquidity on both the bid and ask sides.
+>
+> In addition, Laqira exchange users also have access to the following features:
+>
+> - Multiple networks for deposit and withdrawal
+> - The ability to create unlimited subaccounts
+> - High-performance API-based services
+> - A referral program that distributes referral shares to invitees for both spot and futures trades
+> - 24/7 online support
+> - Users can definitely explore extra features after registration at laqira.com.
+
+## Analysis 
+
+- We installed the app, and it was merely showing the logo. 
+- Since this was recently released we can't say it's defunct. We'll keep this as a **work-in-progress** until more information becomes available.
