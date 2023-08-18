@@ -2,16 +2,17 @@
 wsId: 
 title: Pools Wallet
 altTitle: 
-authors: 
-users: 10000
+authors:
+- danny
+users: 50000
 appId: com.wallet.pools
 appCountry: 
 released: 2023-03-28
-updated: 2023-07-07
-version: 1.0.8
-stars: 4.8
+updated: 2023-08-17
+version: 1.0.8.5
+stars: 4.6
 ratings: 
-reviews: 6
+reviews: 17
 size: 
 website: 
 repository: 
@@ -19,8 +20,8 @@ issue:
 icon: com.wallet.pools.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nobtc
+date: 2023-07-03
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,23 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Introducing the Pools Wallet, your secure and All-in-one cryptocurrency wallet! With Pools Wallet, you can manage all your digital assets, including Bitcoin, Ethereum, Litecoin, and many others, in one convenient and intuitive app.
+>
+> Our wallet features industry-leading security measures, including advanced encryption and biometric authentication, to keep your funds safe and secure. You can also back up your wallet and recover your account easily in case your device is lost or stolen
+
+## Analysis
+
+- The app's listed developer contact website is offline. The only archive entries for the domain listed is in 2001.
+- We were provided with the seed phrases during startup. We could also backup the mnemonics in 'Settings'.
+- There are 5 options in the bottom tab menu:
+  - Wallet
+  - Market
+  - Mining
+  - News
+  - Setting
+- We can add tokens and NFTs.
+- The only networks available are: BSC, Ethereum, Polygon, Pools, Pools Testnet, Fantom, Avalanche, Cronos and Arbitrum. We did not find Bitcoin in the list.
+- The closest to what the description says when it mentioned "Bitcoin" is BTCB, renBTC and BTCST.
+- This app **does not support Bitcoin**.

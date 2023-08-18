@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2023-01-31
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: FlitsNode

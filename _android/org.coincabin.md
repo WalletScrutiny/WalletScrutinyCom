@@ -3,12 +3,12 @@ wsId:
 title: Everstrike
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: org.coincabin
 appCountry: 
 released: 2022-07-29
-updated: 2023-07-12
-version: 1.0.267
+updated: 2023-08-13
+version: 1.0.279
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: org.coincabin.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

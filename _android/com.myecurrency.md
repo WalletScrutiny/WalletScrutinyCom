@@ -9,9 +9,9 @@ appCountry:
 released: 2022-05-20
 updated: 2023-05-04
 version: 1.0.7
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: http://myecurrencyng.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinstick - Buy & Sell Bitcoin
+title: Coinstick
 altTitle: 
 authors: 
 users: 500

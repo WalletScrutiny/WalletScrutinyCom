@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Bitstamp: Buy Crypto Securely'
+title: 'Bitstamp: Buy Crypto Simply'
 altTitle: 
 authors: 
 users: 1000
 appId: net.bitstamp.appgo
 appCountry: 
-released: 
-updated: 2023-03-17
-version: '1.2'
+released: 2023-07-20
+updated: 2023-07-20
+version: '1.3'
 stars: 
 ratings: 
 reviews: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.coinsate.droidapp
 appCountry: 
 released: 2022-05-13
-updated: 2023-05-08
-version: 1.4.3
+updated: 2023-08-16
+version: 1.4.5
 stars: 
 ratings: 
 reviews: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cloud.panthira.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-21
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: in.instacrypto.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

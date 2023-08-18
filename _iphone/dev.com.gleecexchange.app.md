@@ -18,7 +18,7 @@ issue:
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2023-04-22
 signer: 
 reviewArchive: 

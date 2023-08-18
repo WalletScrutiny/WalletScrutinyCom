@@ -8,8 +8,8 @@ users: 5000
 appId: com.obrinvestment.obrinvest
 appCountry: 
 released: 
-updated: 2023-05-31
-version: 2.2.5
+updated: 2023-08-17
+version: 2.6.2
 stars: 
 ratings: 
 reviews: 

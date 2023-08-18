@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forbitmex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

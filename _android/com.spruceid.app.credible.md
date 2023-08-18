@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.spruceid.app.credible.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,8 +6,8 @@ android:
     our findings.
   verdicts:
     - wip
-    - fake
     - fewusers
+    - fake
     - nowallet
     - nobtc
     - nosendreceive
@@ -53,7 +53,6 @@ iphone:
   verdicts:
     - wip
     - fake
-    - fewusers
     - nowallet
     - nobtc
     - nosendreceive
@@ -92,7 +91,6 @@ hardware:
     - fake
     - vapor
     - unreleased
-    - fewusers
     - nowallet
     - nobtc
     - prefilled
@@ -143,7 +141,6 @@ bearer:
     - fake
     - vapor
     - unreleased
-    - fewusers
     - nowallet
     - nobtc
     - prefilled

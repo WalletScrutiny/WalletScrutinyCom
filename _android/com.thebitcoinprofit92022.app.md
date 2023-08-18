@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thebitcoinprofit92022.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: 

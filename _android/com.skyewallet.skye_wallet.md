@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-05-01
 updated: 2023-03-22
 version: 2.12.8
-stars: 3.4
+stars: 3.2
 ratings: 290
-reviews: 13
+reviews: 14
 size: 
 website: https://skyewallet.com
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: DFX Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.defichain.app.dfx.bitcoin
 appCountry: 
 released: 2023-02-23
