@@ -4,7 +4,7 @@ title: MoriX Wallet
 altTitle: 
 authors:
 - danny
-users: 50
+users: 100
 appId: com.morix.wallet
 appCountry: 
 released: 2020-07-15

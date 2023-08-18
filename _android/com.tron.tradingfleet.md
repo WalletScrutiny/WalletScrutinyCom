@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tron.tradingfleet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-01
 signer: 
 reviewArchive: 
 twitter: 

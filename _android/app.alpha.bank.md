@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.alpha.bank.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-06-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.csesg.cs9.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-22
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: 

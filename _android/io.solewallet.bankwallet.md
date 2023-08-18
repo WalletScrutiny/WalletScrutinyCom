@@ -3,7 +3,7 @@ wsId:
 title: Sole Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.solewallet.bankwallet
 appCountry: 
 released: 2022-08-31
@@ -19,7 +19,7 @@ issue:
 icon: io.solewallet.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

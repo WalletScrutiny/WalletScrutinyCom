@@ -11,7 +11,7 @@ updated: 2022-05-27
 version: 1.2.35
 stars: 4.4
 ratings: 
-reviews: 9
+reviews: 7
 size: 
 website: https://suprafin.io/
 repository: 

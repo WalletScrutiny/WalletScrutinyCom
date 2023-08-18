@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: 'ZBD: Fun. Friends. BITCOIN!'
+title: 'ZBD: Earn Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2023-07-05
-version: 3.16.1
-stars: 3.5
+updated: 2023-08-14
+version: 3.34.0
+stars: 4
 ratings: 358
-reviews: 789
+reviews: 852
 size: 
 website: https://zebedee.io
 repository: 

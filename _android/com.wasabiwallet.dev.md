@@ -2,7 +2,8 @@
 wsId: 
 title: WasabiWallet
 altTitle: (Fake) Wasabi Wallet
-authors: 
+authors:
+- danny
 users: 500
 appId: com.wasabiwallet.dev
 appCountry: 
@@ -19,7 +20,7 @@ issue:
 icon: com.wasabiwallet.dev.png
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: fake
 date: 2021-04-09
 signer: 
 reviewArchive: 

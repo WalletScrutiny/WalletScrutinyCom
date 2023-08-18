@@ -18,9 +18,9 @@ repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: ftbfs
-date: 2021-06-25
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: ExchangilyC

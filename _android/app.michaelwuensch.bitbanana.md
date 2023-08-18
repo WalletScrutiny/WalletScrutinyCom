@@ -3,7 +3,7 @@ wsId:
 title: 'BitBanana: Bitcoin & Lightning'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
 released: 2023-03-26
@@ -19,7 +19,7 @@ issue:
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

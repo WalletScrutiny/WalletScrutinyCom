@@ -10,8 +10,8 @@ idd: 1554808338
 released: 2021-03-30
 updated: 2023-07-13
 version: 2.3.2
-stars: 4.2
-reviews: 227
+stars: 4.3
+reviews: 273
 size: '80105472'
 website: https://bitcoindepot.com/
 repository: 

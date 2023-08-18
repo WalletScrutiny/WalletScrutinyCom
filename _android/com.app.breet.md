@@ -8,11 +8,11 @@ users: 50000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21
-updated: 2023-06-28
-version: 4.0.7
+updated: 2023-08-14
+version: 4.1.2
 stars: 4.5
 ratings: 
-reviews: 94
+reviews: 96
 size: 
 website: https://breet.app
 repository: 

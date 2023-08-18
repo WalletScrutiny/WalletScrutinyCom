@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-09-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: koinal_io

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.btcex.exchange.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-07-18
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: BTCEX_exchange

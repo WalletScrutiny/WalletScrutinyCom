@@ -8,11 +8,11 @@ users: 5000
 appId: com.whitehat.cashin_app
 appCountry: 
 released: 2022-07-16
-updated: 2023-04-11
+updated: 2023-07-25
 version: 1.0.0
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 10
+reviews: 12
 size: 
 website: https://cash-in.app
 repository: 

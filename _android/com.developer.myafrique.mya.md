@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.developer.myafrique.mya.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-01-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
