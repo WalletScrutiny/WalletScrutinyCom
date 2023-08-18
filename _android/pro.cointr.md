@@ -1,6 +1,6 @@
 ---
 wsId: coinTRPro
-title: 'CoinTR Pro: Trade Bitcoin ETH'
+title: 'CoinTR Pro: Buy Bitcoin Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: pro.cointr
 appCountry: 
 released: 2022-10-30
-updated: 2023-08-07
-version: 2.2.2
+updated: 2023-08-16
+version: 2.2.3
 stars: 4.1
 ratings: 
 reviews: 6

@@ -11,7 +11,7 @@ released: 2019-06-07
 updated: 2023-08-10
 version: 7.2.3
 stars: 4.7
-reviews: 3025
+reviews: 3031
 size: '83915776'
 website: https://www.zengo.com
 repository: 

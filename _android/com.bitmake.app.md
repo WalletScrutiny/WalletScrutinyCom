@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Byte Exchange Global Limited
+developerName: BITMAKE TECHNOLOGY LLC
 features: 
 
 ---

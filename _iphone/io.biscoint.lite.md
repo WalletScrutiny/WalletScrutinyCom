@@ -8,11 +8,11 @@ appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
 released: 2022-02-09
-updated: 2023-07-26
-version: 2.3.2
+updated: 2023-08-16
+version: 2.3.3
 stars: 4.9
 reviews: 3089
-size: '68414464'
+size: '69868544'
 website: https://bitybank.com.br/
 repository: 
 issue: 

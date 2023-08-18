@@ -8,8 +8,8 @@ appId: com.programonks.CoinMarketApp
 appCountry: us
 idd: 1350234503
 released: 2018-03-02
-updated: 2023-08-15
-version: 14.3.1
+updated: 2023-08-18
+version: 14.3.3
 stars: 4.6
 reviews: 606
 size: '115527680'

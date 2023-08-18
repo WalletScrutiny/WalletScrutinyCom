@@ -28,7 +28,7 @@ twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network
 redirect_from: 
-developerName: TKBlockchain Corporation
+developerName: TrustKeys Finance
 features: 
 
 ---

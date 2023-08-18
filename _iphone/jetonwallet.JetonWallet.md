@@ -10,8 +10,8 @@ idd: 1190240579
 released: 2017-01-04
 updated: 2023-08-14
 version: 3.8.1
-stars: 3.4
-reviews: 32
+stars: 3.3
+reviews: 33
 size: '116756480'
 website: https://jeton.com
 repository: 

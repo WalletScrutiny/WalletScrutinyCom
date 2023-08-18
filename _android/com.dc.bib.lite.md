@@ -7,8 +7,8 @@ users: 50000
 appId: com.dc.bib.lite
 appCountry: 
 released: 2023-02-06
-updated: 2023-06-15
-version: 1.0.5
+updated: 2023-08-18
+version: 1.0.8
 stars: 2.5
 ratings: 
 reviews: 6

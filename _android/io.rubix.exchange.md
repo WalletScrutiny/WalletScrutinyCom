@@ -7,7 +7,7 @@ users: 500
 appId: io.rubix.exchange
 appCountry: 
 released: 2021-12-22
-updated: 2023-08-11
+updated: 2023-08-18
 version: 1.0.8
 stars: 
 ratings: 

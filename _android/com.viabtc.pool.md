@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 redirect_from: 
-developerName: ViaBTC.LLC
+developerName: ViaBTC
 features: 
 
 ---
