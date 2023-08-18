@@ -44,7 +44,7 @@ features:
 
 ## Analysis
 
-- We successfully registered with the app and found several cash in methods:
+- We successfully registered with the app and found several cash-in methods:
   - 7-11
   - Recharge card
   - JuanCash bank deposit
