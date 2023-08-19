@@ -51,7 +51,7 @@ features:
     - Bank name
     - Account No.
     - Email address
-- We inputted some test details we found online and it then gave an account name. Registration was completed.
+- We provided some test details we found online and it then gave an account name. Registration was completed.
 - Cash-in with fiat is possible with their third-party partner, Transak.
 - The cash in would be in USDT, and this cannot be withdrawn.
 - Other supported payment methods are Apple Pay, Google Pay, Credit/Debit card and bank transfer. 
