@@ -10,8 +10,8 @@ idd: '1436809559'
 released: 2018-10-05
 updated: 2022-03-21
 version: 2.1.1
-stars: 4.7
-reviews: 47
+stars: 4.6
+reviews: 48
 size: '25532416'
 website: https://lisk.com/wallet
 repository: 

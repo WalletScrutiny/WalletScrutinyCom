@@ -12,7 +12,7 @@ updated: 2023-07-13
 version: 5.0.10
 stars: 4.6
 ratings: 65
-reviews: 40
+reviews: 41
 size: 
 website: https://defiantapp.tech
 repository: 

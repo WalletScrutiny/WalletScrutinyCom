@@ -1,5 +1,5 @@
 ---
-title: Klever
+title: Kleversafe
 appId: klever
 authors:
 - danny
@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: Klever Exchange
 providerWebsite: https://klever.io/
-website: https://klever.finance/hardware-wallet/
-shop: 
+website: https://kleversafe.io/
+shop: https://kleversafe.io/cart/
 country: BR
 price: 199USD
 repository: 

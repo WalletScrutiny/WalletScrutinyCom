@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.utcasset.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 

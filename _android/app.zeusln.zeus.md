@@ -4,26 +4,32 @@ title: 'Zeus: Bitcoin and Lightning'
 altTitle: 
 authors:
 - leo
+- mohammad
 users: 5000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2023-06-13
-version: 0.7.6
+updated: 2023-07-29
+version: 0.7.7
 stars: 4.3
 ratings: 45
 reviews: 23
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
-issue: https://github.com/ZeusLN/zeus/issues/1496
+issue: 
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2023-06-22
+verdict: reproducible
+date: 2023-07-23
 signer: 
 reviewArchive:
+- date: 2023-06-22
+  version: 0.7.6
+  appHash: 
+  gitRevision: f361c11d0e4a611d6994a1cabed500efd155a9d6
+  verdict: ftbfs
 - date: 2021-08-30
   version: 0.5.1
   appHash: 
@@ -41,6 +47,31 @@ features:
 - ln
 
 ---
+
+**Update 2023-07-23**: The provider has fixed the reproducibility issues. So we had another try with `v0.7.7-beta1`,
+Here are the results after running the {% include testScript.html %} which is based on the provider's build script:
+
+```
+===== Begin Results =====
+appId:          app.zeusln.zeus
+signer:         2af8e20ac9445767cbd44ed84dbbfc33c6c98248897c4f843c42c2765c4ad3ba
+apkVersionName: 0.7.7-beta1
+apkVersionCode: 74
+verdict:        reproducible
+appHash:        7518899284438a824779266807c91dedb1714517e2f94f8cbe878482379c1b0e
+commit:         6644683e7b81c9aaf9288d77c14a89a01c088d2a
+
+Diff:
+Only in /tmp/fromPlay_app.zeusln.zeus_74/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_74/META-INF: ZEUS-KEY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_74/META-INF: ZEUS-KEY.SF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+Which looks good. Gladly, This binary is **reproducible**.
 
 **Update 2023-06-21**: The provider claimed reproducibility, closing
 [our respective issue](https://github.com/ZeusLN/zeus/issues/416) on 2022-08-29,
@@ -77,7 +108,7 @@ Ok, the build script itself wants to start a container using docker. We have to
 copy its commands into our build script as running nested docker is complicated.
 
 ```
-root@d529e4616416:/mnt/zeus# cat build.sh 
+root@d529e4616416:/mnt/zeus# cat build.sh
 #!/bin/bash
 # reactnativecommunity/react-native-android:7.0
 BUILDER_IMAGE="reactnativecommunity/react-native-android@sha256:7bbad62c74f01b2099163890fd11ab7b37e8a496528e6af2dfaa1f29369c2e24"
@@ -212,7 +243,7 @@ remote: Total 545 (delta 120), reused 312 (delta 43), pack-reused 0
 Receiving objects: 100% (545/545), 8.35 MiB | 3.76 MiB/s, done.
 Resolving deltas: 100% (120/120), done.
 $ cd zeus/
-zeus((no branch))$ ./build.sh 
+zeus((no branch))$ ./build.sh
 
 
 ********************************
@@ -344,9 +375,9 @@ $ git clone https://github.com/ZeusLN/zeus
 $ cd zeus/
 $ git tag | grep 0.5.1
 v0.5.1
-$ git checkout v0.5.1 
+$ git checkout v0.5.1
 $ docker run -it --volume $PWD:/mnt --workdir /mnt --rm beevelop/cordova bash
-root@b5e24bbdc208:/mnt# npm install  
+root@b5e24bbdc208:/mnt# npm install
 root@b5e24bbdc208:/mnt# npm install stream
 root@b5e24bbdc208:/mnt# yes | $ANDROID_HOME/tools/bin/sdkmanager "platforms;android-28"
 root@c6e507f0b5dc:/mnt# npx react-native run-android
@@ -370,8 +401,8 @@ drwxr-xr-x 4 root root 4.0K Apr  8 04:28 ..
 -rw-r--r-- 1 root root  19M Apr  8 04:28 app-x86_64-release.apk
 -rw-r--r-- 1 root root 1.7K Apr  8 04:28 output.json
 root@c6e507f0b5dc:/mnt/android# exit
-$ apktool d -o fromGoogle Zeus\ 0.5.1\ \(app.zeusln.zeus\).apk 
-$ apktool d -o fromBuild android/app/build/outputs/apk/release/app-universal-release.apk 
+$ apktool d -o fromGoogle Zeus\ 0.5.1\ \(app.zeusln.zeus\).apk
+$ apktool d -o fromBuild android/app/build/outputs/apk/release/app-universal-release.apk
 $ diff --brief --recursive from{Google,Build}
 Files fromGoogle/AndroidManifest.xml and fromBuild/AndroidManifest.xml differ
 Files fromGoogle/apktool.yml and fromBuild/apktool.yml differ

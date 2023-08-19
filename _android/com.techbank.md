@@ -3,7 +3,7 @@ wsId:
 title: TechBank
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.techbank
 appCountry: 
 released: 2022-03-16

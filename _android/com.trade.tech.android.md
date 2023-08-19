@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trade.tech.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 

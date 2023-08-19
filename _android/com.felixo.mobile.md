@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.felixo.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-02
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 

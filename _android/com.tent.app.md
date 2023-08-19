@@ -3,12 +3,12 @@ wsId:
 title: 'TENT: Bitcoin & Crypto Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tent.app
 appCountry: 
 released: 
-updated: 2023-06-06
-version: 1.0.7
+updated: 2023-08-03
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ewebmeta.xyz
+website: https://pera.cx
 repository: 
 issue: 
 icon: com.ewebmeta.ewebmeta.png

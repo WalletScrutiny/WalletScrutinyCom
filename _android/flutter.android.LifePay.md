@@ -3,12 +3,12 @@ wsId:
 title: LifPay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: flutter.android.LifePay
 appCountry: 
 released: 2022-09-21
-updated: 2023-06-29
-version: '63'
+updated: 2023-08-08
+version: '72'
 stars: 
 ratings: 
 reviews: 

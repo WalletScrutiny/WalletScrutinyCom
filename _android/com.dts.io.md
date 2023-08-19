@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dts.io.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

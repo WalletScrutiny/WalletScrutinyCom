@@ -3,7 +3,7 @@ wsId:
 title: Swapuz
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.swapuz.mobile
 appCountry: 
 released: 2022-03-19

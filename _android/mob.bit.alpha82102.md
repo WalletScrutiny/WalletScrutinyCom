@@ -3,7 +3,7 @@ wsId:
 title: Bit Alpha
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: mob.bit.alpha82102
 appCountry: 
 released: 2022-08-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mob.bit.alpha82102.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-03
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

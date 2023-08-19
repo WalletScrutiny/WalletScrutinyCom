@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: trezorSuiteLite
 title: Trezor Suite Lite
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
-updated: 2023-06-28
-version: 23.6.1
+updated: 2023-08-03
+version: 23.8.1
 stars: 3.6
 ratings: 
-reviews: 8
+reviews: 10
 size: 
 website: https://trezor.io
 repository: 
@@ -19,15 +20,27 @@ issue:
 icon: io.trezor.suite.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nowallet
+date: 2023-07-18
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: trezor
+social:
+- https://www.reddit.com/r/TREZOR
+- https://www.instagram.com/trezor.io
+- https://www.facebook.com/trezor.io
 redirect_from: 
 developerName: Trezor
 features: 
 
 ---
 
+Note: The app needs a Trezor hardware wallet.
+
+## App Description from Google Play
+
+> Securely monitor your crypto account balances, track your savings, and get a new deposit address even if you don’t have your Trezor hardware wallet with you.
+
+## Analysis
+
+- The app initializes and asks us to sync. The only way to see further parts of the app is by scanning an XPUB QR code or manually entering a public key. Other than that, a Trezor device must be plugged in. This app does **not have a wallet** that generates a BTC address on its own.
