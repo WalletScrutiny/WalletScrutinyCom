@@ -38,41 +38,13 @@ function updateWalletGridInputOriginatingFromURL() {
 
 function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   query = decodeURI(query)
-  let workingArray = []
-  const paltformOrder = ['allPlatforms', 'android', 'iphone', 'hardware', 'bearer']
-  const metaOrder = ['ok', 'outdated', 'stale', 'obsolete', 'defunct']
+  let workingArray = false
+
   if (platform == "allPlatforms" && query.length == 0) {
-    workingArray = window.wallets
+    workingArray = performSearch(window.wallets, false)
   } else {
-    window.wallets.forEach(wallet => {
-      if (wallet.appId && wallet.verdict && wallet.folder) {
-        if(platform==='allPlatforms' || wallet.folder === platform)
-        if (query.length > 0) {
-          const result = searchByWords(query, wallet)
-          if (result)
-            workingArray.push(result)
-        } else {
-          workingArray.push(wallet)
-        }
-      }
-    })
+    workingArray = performSearch(window.wallets, query)
   }
-  workingArray.sort((a, b) => {
-    if (a.matchRank != b.matchRank)
-      return a.matchRank - b.matchRank
-    if (a.verdict != b.verdict)
-      return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
-    if (a.folder != b.folder)
-      return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
-    if (a.meta != b.meta)
-      return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
-    if (a.users != b.users)
-      return b.users - a.users
-    if (a.ratings != b.ratings)
-      return b.ratings - a.ratings
-    if (a.reviews != b.reviews)
-      return b.reviews - a.reviews
-  })
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
   generateDropdownAndInputCounts(workingArray, platform)
