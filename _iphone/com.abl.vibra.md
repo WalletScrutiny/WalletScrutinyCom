@@ -10,8 +10,8 @@ idd: '1583907652'
 released: 2021-10-24
 updated: 2023-06-16
 version: 1.6.82
-stars: 4.6
-reviews: 30
+stars: 4.5
+reviews: 31
 size: '65753088'
 website: https://www.vibra.one/
 repository: 

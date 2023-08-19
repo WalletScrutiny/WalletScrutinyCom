@@ -9,7 +9,7 @@ appCountry:
 released: 2022-04-08
 updated: 2023-02-08
 version: 1.2.7
-stars: 4.5
+stars: 4.3
 ratings: 
 reviews: 1
 size: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: UAB Cpay Finance
+developerName: Block Easy Tech Limited
 features: 
 
 ---

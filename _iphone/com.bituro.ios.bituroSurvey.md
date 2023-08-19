@@ -11,16 +11,16 @@ released: 2017-07-15
 updated: 2022-07-27
 version: 2.1.1
 stars: 4.5
-reviews: 425
+reviews: 426
 size: '20940800'
 website: https://bituro.com/app/views/contact.php
 repository: 
 issue: 
 icon: com.bituro.ios.bituroSurvey.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-01
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: bituroapp

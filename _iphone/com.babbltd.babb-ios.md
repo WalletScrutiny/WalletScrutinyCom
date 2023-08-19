@@ -1,0 +1,39 @@
+---
+wsId: babbApp
+title: BABB
+altTitle: 
+authors:
+- danny
+appId: com.babbltd.babb-ios
+appCountry: us
+idd: '1474391121'
+released: 2020-04-14
+updated: 2023-08-10
+version: 2.1.0
+stars: 4.4
+reviews: 82
+size: '57468928'
+website: https://getbabb.com/
+repository: 
+issue: 
+icon: com.babbltd.babb-ios.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2023-07-10
+signer: 
+reviewArchive: 
+twitter: getbabb
+social:
+- https://www.linkedin.com/company/babb
+- https://www.facebook.com/getbabb
+- https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q
+- https://discord.com/invite/39rQp2g6JA
+- https://babb.medium.com
+- https://t.me/getbabb_official
+features: 
+developerName: BABB Ltd
+
+---
+
+{% include copyFromAndroid.html %}

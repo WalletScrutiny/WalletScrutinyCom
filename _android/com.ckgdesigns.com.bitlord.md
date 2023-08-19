@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ckgdesigns.com.bitlord.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forhitbtc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

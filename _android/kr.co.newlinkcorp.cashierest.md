@@ -7,8 +7,8 @@ users: 50000
 appId: kr.co.newlinkcorp.cashierest
 appCountry: 
 released: 2022-10-27
-updated: 2023-07-06
-version: 4.23.11
+updated: 2023-08-11
+version: 4.24.0
 stars: 
 ratings: 
 reviews: 

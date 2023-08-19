@@ -7,8 +7,8 @@ users: 100
 appId: com.sfox.android
 appCountry: 
 released: 2021-12-24
-updated: 2023-04-22
-version: 1.1.2
+updated: 2023-07-29
+version: 1.1.4
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId:
 title: 'ByBIS : Global Crypto Exchange'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.bybis.exchange
 appCountry: 
 released: 

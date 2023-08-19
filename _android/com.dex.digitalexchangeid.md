@@ -8,7 +8,7 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 
-updated: 2023-07-04
+updated: 2023-08-07
 version: VARY
 stars: 
 ratings: 

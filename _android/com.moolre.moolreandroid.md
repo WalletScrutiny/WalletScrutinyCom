@@ -7,11 +7,11 @@ users: 5000
 appId: com.moolre.moolreandroid
 appCountry: 
 released: 2019-02-28
-updated: 2023-05-11
-version: 3.4.25
-stars: 3.3
+updated: 2023-07-26
+version: 3.4.27
+stars: 3.2
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://moolre.com
 repository: 
