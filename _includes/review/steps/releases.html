@@ -1,0 +1,30 @@
+<div class="step privacy">
+  <i class="fas fa-history circle"></i>
+  <div class="title">
+    <h3>Released</h3>
+    <p>
+    {% if page.released %}
+    <span>{{ page.released | date_to_long_string: 'ordinal' }}</span>
+    {% else %}
+     {{ 'We could not determine when this product was originally released.' }}
+    {% endif %}
+    </p>
+  </div>
+  <div class="data">
+    <span class="calculate-time-elapsed raw" data="{{ page.released | date: '%s' }}"></span>
+  </div>
+  {% if page.tooltip.releases %}
+    {% assign exists = 'exists' %}
+  {% endif %}
+  <div class="tooltip-element {{exists}}">
+    <i class="info-circle">
+      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+    </i>
+  {% if page.tooltip.releases %}
+    <div class="tooltip-payload">
+      <h3></h3>
+      {{ page.tooltip.releases | markdownify }}
+    </div>
+  {% endif %}
+  </div>
+</div>
