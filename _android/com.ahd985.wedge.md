@@ -43,4 +43,4 @@ features:
 ## Analysis
 
 - The app has geo-restrictions on installation.
-- The terms specify that Wedge is not the custodian. The **custodian** is *Gemini Trust Company, LLC.,* as a third-party provider.
+- The terms specify that Wedge is not the custodian. They identify *Gemini Trust Company, LLC.*, a third-party provider as the **custodian**.
