@@ -43,5 +43,5 @@ features:
 
 ## Analysis
 
-- The user can make choose between a legacy or a SegWit address.
+- The user can make accounts choosing between a legacy or a SegWit address.
 - The use of *secure offline storage* means the provider is in control of the private keys. Thus, it is **custodial**.
