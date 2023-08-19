@@ -42,6 +42,6 @@ features:
 
 - There is an option to back up the private keys.
 - A legacy BTC address is available with send/receive functions.
-- We [did not find any results](https://github.com/search?q=com.frostwallet&type=code) on GitHub when we searched on GitHub code for the app ID.
+- We [did not find any results](https://github.com/search?q=com.frostwallet&type=code) when searching the code for the app on GitHub.
 - There were no claims regarding source-availability
 - This app is **not source-available.**
