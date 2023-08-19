@@ -1,7 +1,7 @@
 ---
 wsId: 
 title: AtomicDEX Mobile Crypto Wallet
-altTitle: Komodo Wallet
+altTitle: 
 authors:
 - danny
 users: 10000
@@ -37,7 +37,7 @@ features:
 
 ## App Description from Google Play
 
-> AtomicDEX Mobile offers the widest permissionless cross-chain trading support of any mobile crypto app on the market.
+> AtomicDEX Mobile offers the widest permission-less cross-chain trading support of any mobile crypto app on the market.
 >
 > It’s a fast and secure multi-coin wallet with peer-to-peer (P2P) DEX support, designed for ease of use and perfect for storing digital assets.
 >
@@ -48,7 +48,7 @@ features:
 - Once installed, we are informed that we are beta-testers.
 - We created a wallet and were given a 12-word seed phrase. 
 - There is a legacy BTC address with send and receive functions. 
-- There in an option to backup the private keys.
+- There in an option to back up the private keys.
 - The developers [claim](https://atomicdex.io/en/blog/q1-2023-progress-report/#atomicdex-mobile-goes-100-open-source) they are 100% Open Source.
 - We found the [repository](https://github.com/KomodoPlatform/komodo-wallet-mobile) for the mobile app.
 - This app is **[for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/490)**.
