@@ -40,11 +40,8 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   query = decodeURI(query)
   let workingArray = false
 
-  if (platform == "allPlatforms" && query.length == 0) {
-    workingArray = performSearch(window.wallets, false)
-  } else {
-    workingArray = performSearch(window.wallets, query)
-  }
+  workingArray = performSearch(window.wallets, query, platform)
+  
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
   generateDropdownAndInputCounts(workingArray, platform)

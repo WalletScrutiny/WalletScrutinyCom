@@ -76,12 +76,39 @@ function searchTrigger() {
   clearTimeout(window.walletSearchTimeoutTrigger)
   if (window.searchTerm && window.searchTerm.length > 1) {
     window.walletSearchTimeoutTrigger = setTimeout(() => {
-      searchCatalogueNav(window.searchTerm)
+      doNavBarSearch(window.searchTerm)
     }, 200)
   }
 }
 
-function searchCatalogueNav(input) {
+let versionTaggedWallets = []
+var readerRec = []
+window.wallets.forEach(e => {
+
+  if (e.wsId) {
+    const wsId = e.wsId
+    var i = readerRec.indexOf(wsId)
+    if (wsId.length > 0 && i < 0) {
+      versionTaggedWallets.push(e)
+      readerRec.push(wsId)
+    } else {
+      // If we already added a product with this wsId, we add the new one as a
+      // "version" of the prior one.
+      const versionsI = versionTaggedWallets[i]['versions'] || []
+      versionsI.push(e)
+      versionTaggedWallets[i]['versions'] = versionsI
+    }
+  } else if (e.appId && e.appId.length > 0) {
+    // making sure the appId doesn't match any wsId:
+    const appId = `__${e.appId}__`
+    if (!readerRec.includes(appId)) {
+      versionTaggedWallets.push(e)
+      readerRec.push(appId)
+    }
+  }
+})
+
+function doNavBarSearch(input) {
   if (window.isHomepage) {
     deferSearch(input)
     return
@@ -95,18 +122,17 @@ function searchCatalogueNav(input) {
   if (term.length > minTermLength) {
     result.innerHTML = ''
 
-    let wallets = performSearch(window.wallets, term)
+    let wallets = performSearch(versionTaggedWallets, term)
 
     if (!wallets || wallets.length == 0) {
       result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
       document.querySelector(".search-controls").classList.remove("working")
     }
-    let matchCounter = wallets.length
-    wallets.forEach(wallet => {
+    for (const wallet of wallets) {
       if (wallet.title) {
         const walletRow = document.createElement("li")
-        if (matchCounter < 10) {
-          walletRow.style['animation-delay'] = matchCounter * 80 + 'ms'
+        if (wallets.length < 10) {
+          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms'
         }
         walletRow.classList.add("actionable")
         let compactedResults = ""
@@ -121,9 +147,8 @@ function searchCatalogueNav(input) {
         walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
         document.querySelector(".search-controls").classList.remove("working")
         result.append(walletRow)
-        matchCounter++
       }
-    })
+    }
   } else if (term.length != 0) {
     var l = document.createElement("li")
     var rem = (minTermLength + 1) - term.length
