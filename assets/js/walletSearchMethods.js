@@ -19,20 +19,29 @@ function searchByWords(query, wallet) {
     }
     else if (walletAsStr.indexOf(word) >= 0) {
       result = wallet
-      wallet.matchRank = walletAsStr.indexOf(word) + (i*2)
+      wallet.matchRank = walletAsStr.indexOf(word) + (i * 2)
       break
     }
   }
   return result
 }
 
-function performSearch(wallets, query = false) {
-  const paltformOrder = ['allPlatforms', 'android', 'iphone', 'hardware', 'bearer']
+function performSearch(wallets, query = false, platform = false) {
+  const platformOrder = ['android', 'iphone', 'hardware', 'bearer']
   const metaOrder = ['ok', 'outdated', 'stale', 'obsolete', 'defunct']
   const verdictOrder = ["nobinary", "reproducible", "diy", "nonverifiable", "ftbfs", "nosource", "custodial", "nosendreceive", "sealed-noita", "noita", "sealed-plainkey", "plainkey", "obfuscated", "prefilled", "fake", "wip", "fewusers", "unreleased", "vapor", "nobtc", "nowallet"]
 
   let workingArray = []
-  wallets.forEach(wallet => {
+  let walletsTemp = false
+  if (platform && platformOrder.includes(platform)) {
+    walletsTemp = wallets.filter(function (w) {
+      return w.folder === platform 
+    })
+  } else {
+    walletsTemp = wallets
+  }
+  
+  for (const wallet of walletsTemp) {
     if (query && query.length > 0) {
       const result = searchByWords(query, wallet)
       if (result)
@@ -40,7 +49,7 @@ function performSearch(wallets, query = false) {
     } else {
       workingArray.push(wallet)
     }
-  })
+  }
 
   workingArray.sort((a, b) => {
     if (a.matchRank != b.matchRank)
@@ -70,7 +79,7 @@ function performSearch(wallets, query = false) {
     if (a.verdict != b.verdict)
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict)
     if (a.folder != b.folder)
-      return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
+      return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder)
     if (a.meta != b.meta)
       return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
     if (a.users != b.users)
