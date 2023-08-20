@@ -7,19 +7,24 @@ function searchByWords(query, wallet) {
   walletAsStr = `${wallet.title}${walletAsStr}`
   walletAsStr = String(walletAsStr).toUpperCase()
 
-
   let result = false
   for (let i = 0; i < searchTermWords.length; i++) {
     const word = searchTermWords[i]
     const word2 = i <= searchTermWords.length - 2 ? word + searchTermWords[i + 1] : false
+    const word3 = String(query)
+    if (wallet.title.indexOf(word3) >= 0) {
+      result = wallet
+      wallet.matchRank = 0//walletAsStr.indexOf(word3) + i
+      break
+    }
     if (walletAsStr.indexOf(word2) >= 0) {
       result = wallet
-      wallet.matchRank = walletAsStr.indexOf(word2) + i
+      wallet.matchRank = walletAsStr.indexOf(word2) 
       break
     }
     else if (walletAsStr.indexOf(word) >= 0) {
       result = wallet
-      wallet.matchRank = walletAsStr.indexOf(word) + (i * 2)
+      wallet.matchRank = walletAsStr.indexOf(word) + (i + 1)
       break
     }
   }
@@ -51,10 +56,10 @@ function performSearch(wallets, query = false, platform = false) {
     }
   }
 
-  workingArray.sort((a, b) => {
-    if (a.matchRank != b.matchRank)
-      return a.matchRank - b.matchRank
-  })
+  // workingArray.sort((a, b) => {
+  //   if (a.matchRank != b.matchRank)
+  //     return a.matchRank - b.matchRank
+  // })
 
   let temp = []
   if (query && query.length > 0) {
@@ -88,6 +93,8 @@ function performSearch(wallets, query = false, platform = false) {
       return b.ratings - a.ratings
     if (a.reviews != b.reviews)
       return b.reviews - a.reviews
+    if (a.matchRank != b.matchRank)
+      return a.matchRank - b.matchRank
   })
   return temp
 }
