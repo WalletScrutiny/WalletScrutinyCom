@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.vercel.buy_crypto.twa.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-06-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

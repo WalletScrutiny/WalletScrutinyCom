@@ -8,11 +8,11 @@ appId: com.ultrastellar.lobstr
 appCountry: us
 idd: 1404357892
 released: 2018-08-06
-updated: 2023-07-13
-version: 9.5.2
+updated: 2023-08-18
+version: 9.6.0
 stars: 4.6
-reviews: 9758
-size: '103467008'
+reviews: 9879
+size: '103900160'
 website: https://lobstr.co/
 repository: 
 issue: 

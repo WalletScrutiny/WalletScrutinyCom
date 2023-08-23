@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vynkpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-10
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: vynkgroup

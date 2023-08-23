@@ -8,11 +8,11 @@ appId: com.secretkeylabs.xverse
 appCountry: gt
 idd: 1552272513
 released: 2021-10-15
-updated: 2023-07-20
-version: v1.17.5
+updated: 2023-08-17
+version: v1.18.1
 stars: 5
 reviews: 1
-size: '40127488'
+size: '41024512'
 website: https://twitter.com/xverseApp
 repository: 
 issue: 

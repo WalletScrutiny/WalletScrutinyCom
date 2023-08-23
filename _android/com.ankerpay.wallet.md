@@ -8,8 +8,8 @@ users: 10000
 appId: com.ankerpay.wallet
 appCountry: us
 released: 2019-09-17
-updated: 2023-07-18
-version: v1.0.14.3
+updated: 2023-07-24
+version: v1.0.14.4
 stars: 4
 ratings: 
 reviews: 2

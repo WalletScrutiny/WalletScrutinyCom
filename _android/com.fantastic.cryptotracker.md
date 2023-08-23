@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Loopholes Official App
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.fantastic.cryptotracker
 appCountry: 
 released: 2022-11-23

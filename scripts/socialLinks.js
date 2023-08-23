@@ -44,6 +44,12 @@
 // youtube.com
 
 
+
+const knownDomains = new Set([
+  "bitcointalk","discord","facebook","github","google","instagram","keybase",
+  "linkedin","medium","pinterest","reddit","slack","t","tiktok","twitter",
+  "vimeo","vk","weibo","whatsapp","youtube","archive"])
+
 const helper = require('./helper.js')
 const helperPlayStore = require('./helperPlayStore')
 const helperAppStore = require('./helperAppStore')
@@ -51,7 +57,19 @@ const helperHardware = require('./helperHardware')
 const helperBearer = require('./helperBearer')
 
 const sl = function (header, body, fileName, category) {
-  (header.social || []).forEach(console.log)
+  (header.social || []).forEach( url => {
+    try {
+      if (url.startsWith("mailto")) {
+        return
+      }
+      const domain = url.split('/')[2].split('.').reverse()[1]
+      if (!knownDomains.has(domain)) {
+        console.log(domain, ': ', url)
+      }
+    } catch (e) {
+      console.error(fileName, url)
+    }
+  })
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {

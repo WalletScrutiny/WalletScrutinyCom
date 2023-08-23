@@ -8,11 +8,11 @@ users: 50000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2023-06-21
-version: 4.13.4
+updated: 2023-08-15
+version: 4.13.7
 stars: 4.5
 ratings: 
-reviews: 20
+reviews: 22
 size: 
 website: https://www.tronlink.org
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Rainco Pte Ltd
+developerName: HELIX TECH COMPANY LIMITED
 features: 
 
 ---

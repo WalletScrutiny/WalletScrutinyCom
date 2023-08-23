@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wEthereumCode_15093934.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2023-06-10
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

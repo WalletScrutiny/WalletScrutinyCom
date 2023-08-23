@@ -2,7 +2,8 @@
 wsId: 
 title: JGZ Pro：Crypto Trading Bot
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.modu.jgzsj
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.modu.jgzsj.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nowallet
+date: 2023-07-11
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,11 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> The security of user funds is one of the most important aspects of JGZ Pro. JGZ adopts the child-mother account system of Binance and OKX, i.e. user funds are deposited in the mother wallet of the exchange, JGZ does not generate any wallets and can never touch user funds, and mutual transfers between JGZ and partner exchanges can be completed in just 5 seconds.
+
+## Analysis
+
+- The app asked for *storage* and *phone* permissions, photo, media and file access in the device during initialization.
+- As the description states, the app **does not generate any wallets**.

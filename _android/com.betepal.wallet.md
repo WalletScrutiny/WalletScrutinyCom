@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.betepal.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-05-23
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

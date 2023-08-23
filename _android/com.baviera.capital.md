@@ -7,7 +7,7 @@ users: 10
 appId: com.baviera.capital
 appCountry: 
 released: 2022-10-04
-updated: 2023-06-28
+updated: 2023-08-02
 version: 1.0.0
 stars: 
 ratings: 

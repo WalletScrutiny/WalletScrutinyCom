@@ -1,6 +1,6 @@
 ---
 wsId: bitcointrade
-title: Ripio Trade (ex BitcoinTrade)
+title: Ripio Trade
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.peertradedigital.bitcointrade
 appCountry: br
 released: 2017-12-01
-updated: 2023-07-18
-version: 3.13.8
+updated: 2023-08-15
+version: 3.13.9
 stars: 3.4
 ratings: 8304
-reviews: 4823
+reviews: 4824
 size: 
 website: http://www.bitcointrade.com.br
 repository: 

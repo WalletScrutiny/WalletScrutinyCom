@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.foxexchangeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-06-30
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ctrade.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-04
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: CTrade_official

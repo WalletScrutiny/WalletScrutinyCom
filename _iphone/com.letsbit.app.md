@@ -8,11 +8,11 @@ appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
 released: 2022-12-07
-updated: 2023-06-29
-version: 1.14.0
+updated: 2023-08-09
+version: 1.15.0
 stars: 4.6
-reviews: 111
-size: '64358400'
+reviews: 121
+size: '43229184'
 website: https://www.letsbit.io
 repository: 
 issue: 

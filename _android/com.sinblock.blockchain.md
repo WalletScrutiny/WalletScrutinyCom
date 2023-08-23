@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: AibitEX
+title: Aibit
 altTitle: 
 authors: 
 users: 1000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2023-07-18
-version: 3.1.1
+updated: 2023-08-16
+version: 3.4.0
 stars: 
 ratings: 
 reviews: 

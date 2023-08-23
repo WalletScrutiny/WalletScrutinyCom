@@ -21,7 +21,7 @@ icon: com.cointr.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-06-13
+date: 2023-08-19
 signer: 
 reviewArchive: 
 twitter: CoinTRTurkiye
@@ -35,6 +35,18 @@ developerName: CoinTR
 features: 
 
 ---
+
+There is another version of this app at: 
+
+- {% include walletLink.html wallet='android/pro.cointr' verdict='true' %}
+- {% include walletLink.html wallet='iphone/pro.cointr' verdict='true' %}
+
+- The 'Pro' version is targeted towards a global audience while this specific app is for Turkey. 
+- We found a link to both platforms on an official [CoinTR support page](https://support.cointr.com/hc/tr/articles/6016900478095-CoinTR-PRO-da-TRY-Paritesi-Durdurulacakt%C4%B1r-).
+- The website cointr.com, also links to the [CoinTRPro twitter account.](https://twitter.com/coinTRPro)
+- Similarly, we can see the CoinTRTurkiye twitter account [linking to the Pro](https://twitter.com/CoinTRTurkiye/status/1692551931724743128) version of the app. 
+- Finally, we see the cointr.pro website [links](https://support.cointr.pro/hc/en-us/articles/5236871136399) to the CoinTR app.
+- Ultimately, the two link to each other. 
 
 ## App Description from Google Play
 
@@ -55,6 +67,3 @@ features:
 - The [Terms](https://support.cointr.com/hc/tr/articles/5538297429903) have a termination cause that can be unilateral
 - Section 4.26 also indicates that the platform reserves the power to monitor all transactions. 
 - All of these factor in to a **custodial** provider. 
-
-
-

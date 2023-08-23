@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Conio Bitcoin Wallet
+title: 'Conio: Wallet Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 50000
 appId: com.conio.wallet
 appCountry: 
 released: 
-updated: 2023-07-19
-version: 6.6.0
+updated: 2023-08-14
+version: 6.8.2
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ size:
 website: https://www.conio.com
 repository: 
 issue: 
-icon: com.conio.wallet.jpg
+icon: com.conio.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial

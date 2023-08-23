@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defichain.app.dfx.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2023-04-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: DFX_Swiss

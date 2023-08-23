@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Crypto Seatbelt: Boost BTC,ETH'
+title: Libertify - AI for Cryptos
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.libertify
 appCountry: 
 released: 2023-01-12
-updated: 2023-07-18
-version: 1.2.1
+updated: 2023-08-13
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 

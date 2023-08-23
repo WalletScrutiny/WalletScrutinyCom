@@ -4,12 +4,12 @@ title: 'FameEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
-updated: 2023-07-21
-version: 3.1.0
+updated: 2023-08-03
+version: 3.2.0
 stars: 4.5
 ratings: 1588
 reviews: 24
