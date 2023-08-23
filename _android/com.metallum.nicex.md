@@ -51,7 +51,7 @@ features:
 
 ## Analysis 
 
-- We were able to sign up on the web platform because the mobile app informed us that support was not available for our country.
+- Although the mobile app informed us that support was not available for our country we were able to sign up on the website.
 - We found a Bech32 BTC and a lightning wallet that can send and receive. Additional features are only accessible after KYC.
 
 ### [Terms and Conditions](https://www.nicex.com/legal-privacy/terms-of-service) 

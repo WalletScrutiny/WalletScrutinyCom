@@ -47,4 +47,4 @@ Note: The same developer developed the {% include walletLink.html wallet='androi
 
 ## Analysis 
 
-- The provider makes use of cold-storage which tells us this is a **custodial** service.
+Other than explicitly offering a "custody service" the provider also promotes its use of cold-storage which tells us this is a **custodial** service.

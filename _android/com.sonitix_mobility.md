@@ -42,8 +42,7 @@ features:
 - Our connection to the site was sporadic, although we were able to connect eventually.
 - We successfully registered with the service.
 - We were able to find a P2SH BTC wallet that has deposit and withdrawal functions. A notice is underneath which informs us that:
-
-> Withdraw is disabled for this BTC coin
+  > Withdraw is disabled for this BTC coin
 
 - The 'Security' option is limited to a 'Passcode' and '2FA'. 
 - We can also add bank details, and verify our identities. 

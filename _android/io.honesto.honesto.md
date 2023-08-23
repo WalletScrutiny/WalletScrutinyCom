@@ -42,4 +42,4 @@ features:
 
 ## Analysis 
 
-- The description states that digital assets are in the **custody** of InCore Bank.
+The description states that digital assets are in the **custody** of InCore Bank.

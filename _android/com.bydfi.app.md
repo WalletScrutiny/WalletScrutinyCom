@@ -47,4 +47,4 @@ features:
 
 ## Analysis 
 
-- Most centralized and "regulated" cryptocurrency exchanges use cold-wallet storage as a means to protect the user's funds from hackers. BYDFI uses this as well along with other security measures and is thus, **custodial**.
+Most centralized and "regulated" cryptocurrency exchanges use cold-wallet storage as a means to protect the user's funds from hackers. BYDFI uses this as well along with other security measures and is thus, **custodial**.
