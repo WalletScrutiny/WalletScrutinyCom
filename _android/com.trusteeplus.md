@@ -21,7 +21,7 @@ icon: com.trusteeplus.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-07-21
+date: 2023-08-23
 signer: 
 reviewArchive: 
 twitter: TrusteeGlobal
@@ -34,6 +34,12 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+## Similar App Note 2023-08-23
+
+This app is from the same developer of {% include walletLink.html wallet='android/com.trusteewallet' verdict='true' %}. 
+
+We verified that both apps are linked from their homepage.
 
 ## App Description from Google Play
 
