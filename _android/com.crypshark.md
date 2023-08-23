@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypshark.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-05-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

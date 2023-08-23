@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.BTC.BTC_BCH.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-07-17
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

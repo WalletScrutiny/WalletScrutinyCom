@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-11-04
 updated: 2023-07-13
 version: 2.3.2
-stars: 3.9
+stars: 4.2
 ratings: 105
-reviews: 109
+reviews: 115
 size: 
 website: https://www.bitcoindepot.com/
 repository: 

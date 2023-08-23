@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: PAY365 STORE PVT LTD
+developerName: ARTHBIT PRIVATE LIMITED
 features: 
 
 ---

@@ -8,11 +8,11 @@ appId: com.cakedefi.app
 appCountry: la
 idd: 1564415526
 released: 2021-06-15
-updated: 2023-06-21
-version: 4.4.0
+updated: 2023-08-14
+version: 6.0.0
 stars: 0
 reviews: 0
-size: '68523008'
+size: '62137344'
 website: https://bake.io
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitmate.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-06-02
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

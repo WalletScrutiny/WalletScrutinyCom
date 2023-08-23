@@ -8,8 +8,8 @@ users: 5000
 appId: ammer.wallet
 appCountry: 
 released: 2022-12-05
-updated: 2023-07-03
-version: 1.3.9
+updated: 2023-08-15
+version: 1.3.18
 stars: 
 ratings: 
 reviews: 
@@ -54,7 +54,7 @@ This app is used in conjunction with the {% include walletLink.html wallet='hard
 
 - The app initializes by creating a virtual card. This has the resemblance of actual physical Ammer cards. 
 - Inside the virtual card are various cryptocurrencies including bitcoin. 
-- We were able to find a legacy BTC address that can send/receive. 
+- We were able to find an account with legacy BTC address that can send/receive. 
 - There was an option to back up the private keys of the virtual card. It exported a 64-character string.
 - We did not find any claims regarding source-availability.
 - When we searched for the app ID in GitHub Code, we only found [1 unrelated file.](https://github.com/search?q=ammer.wallet&type=code)

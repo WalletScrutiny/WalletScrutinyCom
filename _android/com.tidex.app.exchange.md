@@ -10,16 +10,16 @@ appCountry:
 released: 2022-06-30
 updated: 2022-08-12
 version: 1.0.5
-stars: 2.7
+stars: 2.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://tidex.com
 repository: 
 issue: 
 icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2023-07-20
 signer: 

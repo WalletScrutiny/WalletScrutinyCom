@@ -3,7 +3,7 @@ wsId:
 title: Kriptrade
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.kriptrade.mobile
 appCountry: 
 released: 2021-10-20

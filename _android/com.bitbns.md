@@ -12,7 +12,7 @@ updated: 2023-07-15
 version: 6.13.0
 stars: 3.4
 ratings: 15779
-reviews: 39
+reviews: 40
 size: 
 website: https://bitbns.com/
 repository: 

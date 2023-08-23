@@ -8,8 +8,8 @@ appId: org.Matbea
 appCountry: ru
 idd: '1518987729'
 released: 2020-06-30
-updated: 2023-07-12
-version: 1.4.6
+updated: 2023-07-26
+version: 1.4.7
 stars: 3.7
 reviews: 116
 size: '39192576'

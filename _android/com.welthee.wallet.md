@@ -8,8 +8,8 @@ users: 10000
 appId: com.welthee.wallet
 appCountry: 
 released: 2021-09-07
-updated: 2023-05-22
-version: 4.4.0
+updated: 2023-07-21
+version: 5.0.1
 stars: 
 ratings: 
 reviews: 

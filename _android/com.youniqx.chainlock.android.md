@@ -7,8 +7,8 @@ users: 1000
 appId: com.youniqx.chainlock.android
 appCountry: 
 released: 2018-11-23
-updated: 2021-01-28
-version: 1.44.0.60330
+updated: 2023-08-03
+version: 1.62.0.67301
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.youniqx.chainlock.android.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2023-06-02
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 

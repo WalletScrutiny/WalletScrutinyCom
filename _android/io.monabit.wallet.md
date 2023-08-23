@@ -1,6 +1,6 @@
 ---
 wsId: monabitWallet
-title: Monabit Wallet
+title: MonaBit Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: io.monabit.wallet
 appCountry: 
 released: 2021-12-17
-updated: 2023-02-15
-version: '3.5'
+updated: 2023-07-31
+version: '3.7'
 stars: 
 ratings: 
 reviews: 

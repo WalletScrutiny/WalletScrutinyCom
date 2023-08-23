@@ -3,7 +3,7 @@ wsId:
 title: icewal
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.icecorp.wallet
 appCountry: 
 released: 2022-08-24

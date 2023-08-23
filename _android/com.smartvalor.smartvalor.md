@@ -7,8 +7,8 @@ users: 100
 appId: com.smartvalor.smartvalor
 appCountry: 
 released: 
-updated: 2023-07-06
-version: 1.0.6.75
+updated: 2023-07-28
+version: 1.0.7.6.82
 stars: 
 ratings: 
 reviews: 

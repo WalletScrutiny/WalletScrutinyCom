@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.globalswift.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 

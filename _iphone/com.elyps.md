@@ -7,11 +7,11 @@ appId: com.elyps
 appCountry: tn
 idd: '1493791290'
 released: 2020-05-13
-updated: 2023-03-29
-version: 10.4.0
+updated: 2023-08-07
+version: 10.6.1
 stars: 5
 reviews: 1
-size: '74859520'
+size: '74193920'
 website: https://elyps.com
 repository: 
 issue: 

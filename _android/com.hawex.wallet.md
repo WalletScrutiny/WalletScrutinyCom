@@ -3,7 +3,7 @@ wsId:
 title: Hawex
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.hawex.wallet
 appCountry: 
 released: 2023-06-06
@@ -19,7 +19,7 @@ issue:
 icon: com.hawex.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

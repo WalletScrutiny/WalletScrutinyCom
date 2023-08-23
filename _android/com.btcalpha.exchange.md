@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.btcalpha.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-26
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: btcalpha

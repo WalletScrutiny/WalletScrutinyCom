@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-25
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: spectrocoin

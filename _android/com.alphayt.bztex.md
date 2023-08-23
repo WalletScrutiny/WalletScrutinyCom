@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.alphayt.bztex.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-04-27
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
