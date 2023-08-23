@@ -20,8 +20,8 @@ issue:
 icon: com.btcc.BTCCReactNative.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-07-20
+verdict: custodial
+date: 2023-08-23
 signer: 
 reviewArchive: 
 twitter: YourBTCC
@@ -41,6 +41,26 @@ The main app is:
 - {% include walletLink.html wallet='android/com.btcc.hy' verdict='true' %}
 - {% include walletLink.html wallet='iphone/com.btcc.hy' verdict='true' %}
 
+## Updated Review 2023-08-23
+
+We have confirmed that this is a related app via email at support@btcc.com: 
+
+  > Dear User,
+  >
+  > Thank you for contacting BTCC. We have asked the related department and confirmed that "BTCC Lite" is part of BTCC. You may also download our application via these links : 
+  > - IOS: https://apps.apple.com/US/app/id1462880009?mt=8
+  > - Android: https://play.google.com/store/apps/details?id=com.btcc.hy 
+  >
+  > In addition, you can also contact our live online customer service to get immediate help. Thank you!
+  >
+  > - BTCC email: support@btcc.com
+  > - APP Download：https://h5.btcc.com/
+  > - Official Website：https://www.btcc.com/
+
+As an official lite version of the app, this is also a **custodial** and therefore **non-verifiable** app.
+
+## Previous Review 2023-07-20
+
 ## App Description from Google Play
 
 > BTCC is one of the world's leading digital currency exchanges, offering users a safe and secure platform for trading cryptocurrencies. The exchange offers a wide range of features and services, such as low trading fees, high liquidity, and advanced security measures.
@@ -59,4 +79,4 @@ The main app is:
     - The lack of links from the main website pointing to {{ page.title }}
     - The different developers
     - The developer contact does not list btcc.com as the website. 
-- While we wait for their reply, we will keep this as a **work-in-progress**.
+- They have replied via email. We therefore mark this as **custodial** with a **non-verifiable** app.
