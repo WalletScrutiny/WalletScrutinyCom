@@ -40,4 +40,4 @@ features:
 
 - The app is geo-restricted so we were not able to install.
 - This was related to the Hydra Darknet market.
-- On the website listed under its developer contact, a notice of [judicial seizure](https://twitter.com/dannybuntu/status/1681999044942639105) was posted. This makes the app **defunct.**
+- On the website listed under its developer contact, a notice of [judicial seizure](https://twitter.com/dannybuntu/status/1681999044942639105) was posted. This makes the app likely to be **defunct.**
