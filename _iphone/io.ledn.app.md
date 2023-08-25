@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ledn.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-02-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: hodlwithLedn
