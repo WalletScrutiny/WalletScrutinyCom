@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-20
 updated: 2023-07-28
 version: 3.6.6
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 77
+reviews: 79
 size: 
 website: https://walletnow.app
 repository: 

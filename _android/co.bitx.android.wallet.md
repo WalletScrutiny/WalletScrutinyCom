@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: Luno - Bitcoin & Crypto Wallet
+title: Luno - BTC & Crypto Investing
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2023-08-14
 version: 8.40.0
 stars: 3.9
 ratings: 96811
-reviews: 1301
+reviews: 1303
 size: 
 website: https://www.luno.com
 repository: 

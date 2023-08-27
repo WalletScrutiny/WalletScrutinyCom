@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'HEXN : Buy and Earn Crypto'
+title: 'HEXN: Buy Bitcoin, Hodl Crypto'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-12
 updated: 2023-08-14
 version: 1.1.1
-stars: 4.7
+stars: 4.6
 ratings: 
 reviews: 2
 size: 

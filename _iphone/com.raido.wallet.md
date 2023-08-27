@@ -8,11 +8,11 @@ appId: com.raido.wallet
 appCountry: us
 idd: 1536567791
 released: 2020-10-28
-updated: 2023-07-26
-version: 3.5.0
+updated: 2023-08-24
+version: 3.6.0
 stars: 0
 reviews: 0
-size: '46707712'
+size: '32144384'
 website: https://raidofinance.eu
 repository: 
 issue: 

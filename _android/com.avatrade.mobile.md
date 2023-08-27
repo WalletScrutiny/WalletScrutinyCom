@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Forex & CFD Trading'
+title: 'AvaTrade: CFD & Forex Trading'
 altTitle: 
 authors:
 - danny

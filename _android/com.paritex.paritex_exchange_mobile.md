@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: paritexexchange

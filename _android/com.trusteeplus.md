@@ -3,7 +3,7 @@ wsId:
 title: Trustee Plus | crypto neobank
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
