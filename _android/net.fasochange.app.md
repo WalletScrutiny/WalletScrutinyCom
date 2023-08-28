@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.fasochange.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-03
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

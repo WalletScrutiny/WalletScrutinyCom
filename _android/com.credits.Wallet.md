@@ -1,6 +1,6 @@
 ---
 wsId: creditsCrypto
-title: Credits.com - Payments. Crypto
+title: Credits.com. Buy and Sell BTC.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.credits.Wallet
 appCountry: 
 released: 2020-10-26
-updated: 2023-06-25
-version: 5.2.1.1
+updated: 2023-08-23
+version: 5.3.3.2
 stars: 
 ratings: 
 reviews: 

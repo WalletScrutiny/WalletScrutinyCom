@@ -8,8 +8,8 @@ users: 5000
 appId: com.exolix.app
 appCountry: 
 released: 2022-07-11
-updated: 2023-03-30
-version: 1.0.3
+updated: 2023-08-21
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 

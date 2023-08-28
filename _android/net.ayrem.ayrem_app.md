@@ -11,7 +11,7 @@ updated: 2023-06-01
 version: 1.0.5
 stars: 3.2
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: http://ayrem.net
 repository: 

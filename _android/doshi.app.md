@@ -1,6 +1,6 @@
 ---
 wsId: doshiWallet
-title: Doshi
+title: Do* Wallet
 altTitle: 
 authors:
 - danny

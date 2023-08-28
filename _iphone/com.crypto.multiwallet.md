@@ -11,7 +11,7 @@ released: 2018-12-01
 updated: 2023-08-09
 version: 3.0.51
 stars: 4.2
-reviews: 843
+reviews: 842
 size: '169562112'
 website: https://guarda.com/
 repository: 

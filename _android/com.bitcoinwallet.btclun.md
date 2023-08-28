@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoinwallet.btclun.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2023-07-17
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
