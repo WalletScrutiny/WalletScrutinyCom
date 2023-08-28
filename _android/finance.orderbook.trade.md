@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.orderbook.trade.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

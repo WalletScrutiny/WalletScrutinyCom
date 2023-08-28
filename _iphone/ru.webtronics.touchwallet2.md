@@ -10,8 +10,8 @@ idd: '6443906980'
 released: 2022-11-01
 updated: 2023-07-06
 version: 1.6.10
-stars: 4.2
-reviews: 5
+stars: 4.3
+reviews: 6
 size: '64385024'
 website: https://touchwallet.com/
 repository: 

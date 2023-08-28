@@ -1,17 +1,17 @@
 ---
 wsId: strike
-title: 'STRIKE: Bitcoin & Payments'
+title: 'STRIKE: BTC & GLOBAL MONEY'
 altTitle: 
 authors: 
 appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
 released: 2020-08-10
-updated: 2023-07-20
-version: '124.0'
+updated: 2023-08-23
+version: '128.0'
 stars: 4.7
-reviews: 13123
-size: '89474048'
+reviews: 13277
+size: '97342464'
 website: https://strike.me/en/
 repository: 
 issue: 

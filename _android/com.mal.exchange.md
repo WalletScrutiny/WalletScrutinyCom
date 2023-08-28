@@ -8,11 +8,11 @@ users: 10000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11
-updated: 2023-07-24
-version: 1.0.29
-stars: 4.1
+updated: 2023-08-24
+version: 1.0.32
+stars: 4.2
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://mal.io/
 repository: 

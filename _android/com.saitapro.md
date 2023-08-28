@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-29
 updated: 2023-07-27
 version: '1.22'
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 308
+reviews: 312
 size: 
 website: http://Saitamatoken.com
 repository: 

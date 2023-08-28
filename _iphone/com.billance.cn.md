@@ -8,11 +8,11 @@ appId: com.billance.cn
 appCountry: us
 idd: '1610497530'
 released: 2022-03-01
-updated: 2023-07-29
-version: 3.3.0
+updated: 2023-08-25
+version: 3.3.3
 stars: 5
-reviews: 9
-size: '150594560'
+reviews: 10
+size: '153876480'
 website: 
 repository: 
 issue: 

@@ -1,17 +1,17 @@
 ---
 wsId: strike
-title: 'STRIKE: Global Money & Bitcoin'
+title: 'STRIKE: Bitcoin & Global Money'
 altTitle: 
 authors: 
 users: 500000
 appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
-updated: 2023-08-01
-version: v2.13
+updated: 2023-08-22
+version: v2.17
 stars: 4.4
 ratings: 6726
-reviews: 2130
+reviews: 2150
 size: 
 website: https://strike.me/
 repository: 

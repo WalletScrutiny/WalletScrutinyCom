@@ -3,7 +3,7 @@ wsId:
 title: EUBI Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.eubcompany.com
 appCountry: 
 released: 2021-12-04

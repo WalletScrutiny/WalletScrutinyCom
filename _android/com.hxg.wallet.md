@@ -1,36 +1,36 @@
 ---
 wsId: wowEarnBTCandCrypto
 title: 'WOW EARN: BTC & Crypto Wallet'
-altTitle:
+altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.hxg.wallet
-appCountry:
+appCountry: 
 released: 2022-09-30
 updated: 2023-07-27
 version: 1.0.29
-stars: 5
+stars: 4.6
 ratings: 
-reviews: 7
+reviews: 14
 size: 
 website: https://wowearn.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.hxg.wallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 date: 2023-07-09
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: WOWEARNENG
 social:
 - https://t.me/wowearnen
 - https://medium.com/@wowearn2023
-redirect_from:
+redirect_from: 
 developerName: WOW EARN Wallet
-features:
+features: 
 
 ---
 

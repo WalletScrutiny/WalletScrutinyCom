@@ -8,11 +8,11 @@ appId: app.mybitstore.com
 appCountry: us
 idd: '1579519877'
 released: 2021-08-12
-updated: 2023-05-19
-version: 2.8.91
+updated: 2023-08-07
+version: 6.4.1
 stars: 4.7
-reviews: 380
-size: '45472768'
+reviews: 391
+size: '45325312'
 website: 
 repository: 
 issue: 

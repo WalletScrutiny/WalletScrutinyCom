@@ -4,12 +4,12 @@ title: 'Relai: Buy Bitcoin Easily'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.relai
 appCountry: 
 released: 
-updated: 2023-07-27
-version: 2.6.4
+updated: 2023-08-16
+version: 2.6.6
 stars: 
 ratings: 
 reviews: 

@@ -1,38 +1,38 @@
 ---
 wsId: coinWBuyCrypto
 title: CoinW- Buy Crypto BTC ETH DOGE
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.coinw.win
-appCountry:
+appCountry: 
 released: 2022-12-07
-updated: 2023-07-25
-version: 9.8.9
-stars: 4.8
+updated: 2023-08-24
+version: 9.8.18
+stars: 4.7
 ratings: 
 reviews: 16
 size: 
 website: https://www.coinw.com
 repository: 
-issue:
+issue: 
 icon: com.coinw.win.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
 date: 2023-07-07
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: CoinWOfficial
 social:
 - https://t.me/CoinwExchangeEnglish
 - https://www.linkedin.com/company/coinw-exchange
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
-redirect_from:
+redirect_from: 
 developerName: CoinW.SGP
-features:
+features: 
 
 ---
 

@@ -32,7 +32,7 @@ social:
 - https://www.linkedin.com/company/arthbitexchange
 - https://t.me/ArthBitExchange
 redirect_from: 
-developerName: PAY365 STORE PVT LTD
+developerName: ARTHBIT PRIVATE LIMITED
 features: 
 
 ---

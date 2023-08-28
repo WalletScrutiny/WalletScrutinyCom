@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.github.bitteryapp.pro.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-07-01
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,15 +1,15 @@
 ---
-wsId:
+wsId: 
 title: CryptoDaaga
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.oxnov.cryptodaaga
-appCountry:
+appCountry: 
 released: 2022-04-29
-updated: 2023-07-14
-version: 4.0.8
+updated: 2023-08-09
+version: 4.0.9
 stars: 
 ratings: 
 reviews: 
@@ -18,18 +18,18 @@ website:
 repository: 
 issue: 
 icon: com.oxnov.cryptodaaga.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nowallet
 date: 2023-07-07
-signer:
-reviewArchive:
-twitter:
+signer: 
+reviewArchive: 
+twitter: 
 social:
-- https://cryptodaaga.com 
-redirect_from:
+- https://cryptodaaga.com
+redirect_from: 
 developerName: NEBSON MULTI SERVICE
-features:
+features: 
 
 ---
 

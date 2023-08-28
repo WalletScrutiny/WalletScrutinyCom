@@ -8,11 +8,11 @@ appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
 released: 2020-12-13
-updated: 2023-08-01
-version: 5.5.0
+updated: 2023-08-26
+version: 5.6.1
 stars: 4.5
 reviews: 138
-size: '175148032'
+size: '177220608'
 website: https://www.cmorq.com/
 repository: 
 issue: 

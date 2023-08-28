@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: UAB Cpay Finance
+developerName: Block Easy Tech Limited
 features: 
 
 ---

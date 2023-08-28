@@ -11,7 +11,7 @@ released: 2022-02-21
 updated: 2023-07-25
 version: 1.9.0
 stars: 5
-reviews: 6
+reviews: 9
 size: '116460544'
 website: https://www.traderwagon.com/
 repository: 

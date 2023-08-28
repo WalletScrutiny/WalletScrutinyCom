@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.felixo.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2023-07-30
 signer: 

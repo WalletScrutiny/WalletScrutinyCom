@@ -11,7 +11,7 @@ released: 2019-07-21
 updated: 2023-06-13
 version: 1.33.0
 stars: 4.1
-reviews: 1196
+reviews: 1180
 size: '67758080'
 website: https://stormgain.com
 repository: 

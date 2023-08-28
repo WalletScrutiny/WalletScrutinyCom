@@ -11,7 +11,7 @@ updated: 2023-07-21
 version: 23.07.1
 stars: 3.2
 ratings: 
-reviews: 101
+reviews: 103
 size: 
 website: https://spedn.io
 repository: 

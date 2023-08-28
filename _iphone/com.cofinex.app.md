@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cofinex.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-05-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: CofinexExchange
