@@ -7,8 +7,8 @@ users: 50
 appId: com.opi.optimizer
 appCountry: 
 released: 2022-02-24
-updated: 2022-05-04
-version: 1.1.0
+updated: 2023-08-28
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.opi.optimizer.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,17 +10,17 @@ idd: '1632072370'
 released: 2022-07-01
 updated: 2022-08-15
 version: 1.0.5
-stars: 2
-reviews: 4
+stars: 1.8
+reviews: 5
 size: '18824192'
 website: https://tidex.com/
 repository: 
 issue: 
 icon: com.tidex.exchange.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-20
+date: 2023-08-28
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

@@ -9,7 +9,7 @@ appId: com.bitvavo.android
 appCountry: nl
 released: 2020-08-19
 updated: 2023-08-22
-version: 2.23.0
+version: 2.24.0
 stars: 4.4
 ratings: 2272
 reviews: 2360

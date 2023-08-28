@@ -10,8 +10,8 @@ users: 10000
 appId: com.velas.mobile_wallet
 appCountry: us
 released: 2020-11-17
-updated: 2023-08-27
-version: 2.3.16
+updated: 2023-08-28
+version: 2.3.17
 stars: 3.9
 ratings: 545
 reviews: 22

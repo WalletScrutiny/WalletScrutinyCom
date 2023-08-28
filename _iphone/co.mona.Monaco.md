@@ -11,7 +11,7 @@ released: 2017-08-31
 updated: 2023-08-16
 version: '3.167'
 stars: 4.5
-reviews: 162111
+reviews: 162184
 size: '470554624'
 website: https://crypto.com/
 repository: 

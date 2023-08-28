@@ -12,7 +12,7 @@ updated: 2023-08-23
 version: 4.0.1
 stars: 3.5
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.finanzen.net/zero
 repository: 

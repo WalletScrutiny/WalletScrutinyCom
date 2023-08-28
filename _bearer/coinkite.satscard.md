@@ -9,9 +9,9 @@ updated: 2022-07-06
 version: 1.0.5
 binaries: 
 dimensions:
-- 85.6
+- 86
 - 54
-- 1.2 
+- 1.2
 weight: 
 provider: Coinkite
 providerWebsite: https://coinkite.com/

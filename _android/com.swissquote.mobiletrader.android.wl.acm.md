@@ -6,12 +6,13 @@ authors:
 users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
-released: Nov 1, 2012
-updated: 2023-08-16
-version: 3.3.3
-stars: 3.2222223
+released: 2012-11-01
+updated: 2023-08-28
+version: 3.3.4
+stars: 3.2
 ratings: 
 reviews: 3
+size: 
 website: https://www.swissquote.com/forex/platforms/advanced-trader
 repository: 
 issue: 

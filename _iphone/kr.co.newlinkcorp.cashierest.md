@@ -8,11 +8,11 @@ appId: kr.co.newlinkcorp.cashierest
 appCountry: kr
 idd: '1462245208'
 released: 2019-09-29
-updated: 2023-07-03
-version: 4.23.9
+updated: 2023-08-22
+version: 4.24.1
 stars: 4.4
 reviews: 56
-size: '59070464'
+size: '59111424'
 website: 
 repository: 
 issue: 
