@@ -19,7 +19,7 @@ issue:
 icon: com.trusteeplus1.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: wip
 date: 2023-07-21
 signer: 
 reviewArchive: 
