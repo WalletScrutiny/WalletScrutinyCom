@@ -3,26 +3,29 @@ title: CoinKite SATSCARD
 appId: coinkite.satscard
 authors:
 - danny
-released: 
+released: 2022-01-24
 discontinued: 
-updated: 
-version: 
+updated: 2022-07-06
+version: 1.0.5
 binaries: 
-dimensions: 
+dimensions:
+- 85.6
+- 54
+- 1.2 
 weight: 
 provider: Coinkite
 providerWebsite: https://coinkite.com/
 website: https://getsatscard.com/
 shop: https://store.coinkite.com/store/satscard
 country: CA
-price: 
+price: 6.99 USD
 repository: https://github.com/coinkite/coinkite-tap-proto
 issue: 
 icon: coinkite.satscard.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-04-29
+verdict: sealed-plainkey
+date: 2023-08-03
 signer: 
 reviewArchive: 
 twitter: SATSCARD
@@ -35,7 +38,21 @@ features:
 
 ## Background 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EwHeTfBPvtQ?start=1503" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h-hJz9hZgLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Updated Review 2023-08-03
+
+- The provider claims that the product is non-custodial.
+
+According to their [documentation found on GitHub](https://github.com/coinkite/coinkite-tap-proto/blob/master/docs/best-practices.md):
+
+  > Highlight when the first slot is unsealed. It is not bad or wrong, but it means that the QR code printed on the card back should no longer be used. The assumption is once a slot is unsealed, the private key is public.
+  >
+  > Not all SATSCARD will have a printed QR on the back. For now, all cards will have the first slot picked at factory, but we may ship a SATSCARD someday with the first slot unused. In that case, the chain_code argument to setup must be provided by your app (32-byte nonce).
+
+The NFC card has no display, and needs another app such as {% include walletLink.html wallet='android/io.nunchuk.android' verdict='true' %}. It has to be unsealed. To sign transactions, the NFC card has to be brought close to the NFC-enabled phone with a compatible app. 
+
+## Previous Analysis 2022-04-29
 
 ## Product [FAQ](https://getsatscard.com/faq)
 
