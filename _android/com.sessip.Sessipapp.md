@@ -27,7 +27,7 @@ reviewArchive:
 twitter: sessipapp
 social: 
 redirect_from: 
-developerName: Ghislain IRIE
+developerName: Sessip
 features: 
 
 ---

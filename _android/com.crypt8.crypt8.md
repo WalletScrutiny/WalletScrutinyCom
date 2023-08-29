@@ -7,8 +7,8 @@ users: 100
 appId: com.crypt8.crypt8
 appCountry: 
 released: 2022-05-06
-updated: 2023-01-09
-version: 1.0.5
+updated: 2023-08-28
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

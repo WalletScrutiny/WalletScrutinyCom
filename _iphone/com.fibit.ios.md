@@ -1,0 +1,37 @@
+---
+wsId: fibitPro
+title: Fibit Pro
+altTitle: 
+authors:
+- danny
+appId: com.fibit.ios
+appCountry: in
+idd: '1603620552'
+released: 2022-03-28
+updated: 2023-04-18
+version: 1.1.2
+stars: 4.9
+reviews: 10
+size: '47342592'
+website: 
+repository: 
+issue: 
+icon: com.fibit.ios.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2023-07-20
+signer: 
+reviewArchive: 
+twitter: fibitpro
+social:
+- https://fibitpro.com
+- https://www.linkedin.com/company/fibits
+- https://www.facebook.com/fibitproexchange
+- https://telegram.org/fibitpro
+features: 
+developerName: Fibit Infotech Pvt. Ltd.
+
+---
+
+{% include copyFromAndroid.html %}

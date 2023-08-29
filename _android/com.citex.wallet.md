@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.citex.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-01-31
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 1000
 appId: io.timexapp
 appCountry: 
 released: 2023-01-27
-updated: 2023-08-11
-version: 1.4.1
+updated: 2023-08-28
+version: 1.4.2
 stars: 
 ratings: 
 reviews: 

@@ -10,9 +10,9 @@ appCountry: ba
 released: 2021-03-15
 updated: 2023-07-05
 version: 2.15.5
-stars: 4.2
+stars: 4.1
 ratings: 156
-reviews: 128
+reviews: 129
 size: 
 website: https://get-verso.com
 repository: 

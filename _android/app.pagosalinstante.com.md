@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: PAI - Bitcoin, Tron, Eth y más
+title: 'PAI : Bitcoin, Tron, LTC y más'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: app.pagosalinstante.com
 appCountry: 
 released: 2019-02-03
-updated: 2023-08-03
-version: 1.08.903
+updated: 2023-08-19
+version: 1.08.912
 stars: 4.8
 ratings: 934
 reviews: 40

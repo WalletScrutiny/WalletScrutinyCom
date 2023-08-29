@@ -3,7 +3,7 @@ wsId:
 title: BOS.Pay™️
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: za.co.bostechnology.bospay
 appCountry: 
 released: 

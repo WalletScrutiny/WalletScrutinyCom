@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.admiralmarkets.tradersroom.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-16
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: AdmiralsGlobal

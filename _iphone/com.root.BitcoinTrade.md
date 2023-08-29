@@ -8,11 +8,11 @@ appId: com.root.BitcoinTrade
 appCountry: br
 idd: 1320032339
 released: 2017-12-13
-updated: 2023-07-31
-version: 4.6.4
+updated: 2023-08-28
+version: 4.6.5
 stars: 3.8
-reviews: 939
-size: '60137472'
+reviews: 942
+size: '58919936'
 website: http://ripio.com/br/ripiotrade/
 repository: 
 issue: 
