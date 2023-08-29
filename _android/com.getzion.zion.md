@@ -53,7 +53,14 @@ features:
 - The app is a social content-rewarding platform using lightning. 
 - The 'wallet' interface is denominated in Sats. It has send and fund options. When we click on 'fund', it generates a lightning invoice. There is a warning informing the user that the QR code is not a bitcoin wallet. 
 - Under the same QR code display, there is a button that says, 'Open Wallet'. It opens a recommendation to CashApp. 
-- While the app offers access to lightning functionalities, it doesn't really function as a Bitcoin wallet since users cannot send and receive bitcoin to the app. The seed phrases are ultimately linked to the account and not to a wallet.
+
+## Commentary by [Leo](/authors/leo/):
+
+> > A LN wallet is a Bitcoin wallet. Not all LN wallets support sending or receiving to bitcoin addresses but LN transactions do require private keys of course and in contrast to base layer transactions, the receiving wallet also needs the keys.
+>
+> In contrast to base layer, on lightning, things are not so standardized and with only the mnemonic you would not be able to restore the wallet. Sadly, many LN nodes require a backup after every transaction sent or received.
+
+## Continued
 
 Described in the documentation:
 
@@ -65,4 +72,4 @@ It is common convention to have a lightning wallet alongside a Bitcoin wallet, b
 
 Interestingly, Zion describes itself as a [semi-custodial](https://www.zion.fyi/terms) platform indicating that they do not have copies of the user's seed phrases. They also describe themselves as an Open Source platform, but only have an organizational GitHub with 1 repository for their whitepaper. Searching for their App ID, [does not result](https://github.com/search?q=com.getzion.zion&type=code) in any hit within GitHub code.
 
-- This makes the app **not source-available.**
+This makes the app **not source-available.**

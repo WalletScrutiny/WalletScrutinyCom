@@ -4,6 +4,7 @@ title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 appId: co.hodlwallet
 appCountry: 
 idd: 1382342568
@@ -20,7 +21,7 @@ icon: co.hodlwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-07-17
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: hodlwallet

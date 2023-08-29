@@ -20,7 +20,7 @@ icon: com.coincloud.walletpreview.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-29
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: bitstopofficial

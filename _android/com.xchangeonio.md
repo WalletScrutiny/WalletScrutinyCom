@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.xchangeonio.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
 date: 2023-07-29
 signer: 
@@ -61,4 +61,4 @@ features:
      > Sign up disabled
 
 - This is reflected in their twitter [announcement](https://twitter.com/XChangeon/status/1674267528091303936).
-- Until we get more information, this would have to be a **work-in-progress**.
+- We are marking this app as **defunct** since the provider has not replied to our query after two months.
