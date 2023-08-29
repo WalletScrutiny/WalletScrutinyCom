@@ -2,8 +2,9 @@
 wsId: trusteePlus
 title: Trustee Plus | crypto neobank
 altTitle: 
-authors: 
-users: 50000
+authors:
+- danny
+users: 10000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
@@ -14,12 +15,12 @@ ratings:
 reviews: 
 size: 
 website: https://trusteeglobal.com
-repository: https://github.com/trustee-wallet/trusteeWallet
+repository:
 issue: 
 icon: com.trusteeplus.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-08-23
 signer: 
 reviewArchive: 
@@ -54,4 +55,5 @@ We verified that both apps are linked from their homepage.
 
 - We were able to register and found a Bech32 BTC address that can send and receive. 
 - Section 5.3 of the [terms](https://trusteeglobal.eu/terms-of-use/) describes part of the service as a hosted custodial wallet.
-- Curiously, the app is [source-available](https://github.com/trustee-wallet/trusteeWallet). Nevertheless, since the wallet does not provide the private keys, it is **custodial.**
+
+Since the wallet does not provide the private keys, this app is **custodial** and therefore **not-verifiable**.
