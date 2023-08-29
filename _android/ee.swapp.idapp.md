@@ -50,6 +50,6 @@ features:
 
 ## Analysis 
 
-- The developer contact's listed website is no longer online since 2023.
+- The developer contact's listed website is no longer online.
 - Upon app initialization, it asked us to provide a referral link. This doesn't work anymore. We found several referral links on twitter, and putting the swapp.ee links on the app interface does not do anything. There is no feedback.
 - Together with the reviews, the non-functioning app, and offline website, we'll mark this app as **defunct**.
