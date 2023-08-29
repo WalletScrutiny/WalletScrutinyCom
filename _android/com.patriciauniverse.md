@@ -1,8 +1,9 @@
 ---
-wsId: patriciaExchange
+wsId: patriciaUniverse
 title: Patricia Universe
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.patriciauniverse
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.patriciauniverse.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-07-30
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch
@@ -34,7 +35,29 @@ features:
 
 ---
 
-## App Description from Google Play
+## Notes on Different App Versions
+
+The current pairing for the main Patricia app (Blue icon) consists of:
+
+- {% include walletLink.html wallet='android/com.patriciaapp' verdict='true' %}
+- {% include walletLink.html wallet='iphone/app.patricia' verdict='true' %} 
+
+Now, one may ask, "What about this other iOS app?" 
+
+- {% include walletLink.html wallet='iphone/com.patricia.build' verdict='true' %}
+
+We find out that it used to be the iOS counterpart for the main Android Patricia app as seen in this [2020 archive.org entry.](https://web.archive.org/web/20200531021144/http://www.mypatricia.co/). 
+
+### What about Patricia Universe?
+
+- {% include walletLink.html wallet='android/com.patriciauniverse' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.patriciauniverse.app' verdict='true' %}
+
+We were not able to find a dedicated section on the website about the difference between Patricia Universe and the Patricia app. But, we do know that it came from the [**same developer**](https://play.google.com/store/apps/developer?id=Patricia+Technologies).
+
+We will not tackle the nuances in this segment but on the individual review. Suffice to say, Patricia Universe is akin to a parent brand for Patricia Technologies, Ltd.
+
+## App Description from Google Play 2023-08-29
 
 > Welcome to Patricia, the industry leader in Bitcoin exchange. Patricia allows you to securely buy or sell Bitcoin & Etherum of any value, store them in a BTC, ETH or Local Currency Wallet and smoothly switch between the two for everyday transactions like airtime, data and cable subscriptions. With the all new Patricia App, Transacting with your Patricia account is a breeze.
 

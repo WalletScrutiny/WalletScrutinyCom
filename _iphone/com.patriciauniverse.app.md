@@ -1,22 +1,22 @@
 ---
-wsId: patriciaApp
-title: Patricia
+wsId: patriciaUniverse
+title: Patricia Universe
 altTitle: 
 authors:
 - danny
-appId: app.patricia
-appCountry: lt
-idd: '1639105995'
-released: 2022-08-13
-updated: 2023-03-27
-version: '1.3'
-stars: 0
-reviews: 0
-size: '47902720'
+appId: com.patriciauniverse.app
+appCountry: us
+idd: '1609772820'
+released: 2023-04-19
+updated: 2023-05-03
+version: 1.1.1
+stars: 1.6
+reviews: 89
+size: '33370112'
 website: 
 repository: 
 issue: 
-icon: app.patricia.jpg
+icon: com.patriciauniverse.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
@@ -25,11 +25,12 @@ signer:
 reviewArchive: 
 twitter: PatriciaSwitch
 social:
+- https://mypatricia.co
 - https://www.instagram.com/welcometopatricia
 - https://www.facebook.com/patricia.com.ng
 - https://www.youtube.com/channel/UCxfeniM2_FGIFcXSWa4Y_sA
 features: 
-developerName: Patricia Technologies UAB
+developerName: Patricia Technologies Limited
 
 ---
 

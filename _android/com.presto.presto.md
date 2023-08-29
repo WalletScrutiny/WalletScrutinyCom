@@ -21,7 +21,7 @@ icon: com.presto.presto.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2023-07-31
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 
@@ -33,6 +33,9 @@ developerName: Topline Visory
 features: 
 
 ---
+
+ <div class="alertBox"><div> ⚠️ Warning: Users are advised to exercise caution for the reasons stated below.
+ </div> </div>
 
 ## App Description from Google Play
 

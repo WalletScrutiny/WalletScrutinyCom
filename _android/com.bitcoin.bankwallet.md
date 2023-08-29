@@ -48,4 +48,4 @@ features:
 - The project claims to be source-available and have linked to their [GitHub repository](https://github.com/hoanghiephui/unstoppable-wallet-android). 
 - The app is a fork of {% include walletLink.html wallet='android/io.horizontalsystems.bankwallet' verdict='true' %} 
 - The app provides a SegWit address. 
-- This app is **for verification**.
+- This app is [**for verification**.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494)
