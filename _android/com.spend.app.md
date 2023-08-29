@@ -12,7 +12,7 @@ updated: 2020-07-15
 version: '3.09'
 stars: 3.5
 ratings: 479
-reviews: 141
+reviews: 138
 size: 
 website: https://www.spend.com
 repository: 

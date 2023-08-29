@@ -11,7 +11,9 @@
     </p>
   </div>
   <div class="data">
+    {% if page.released %}
     <span class="calculate-time-elapsed raw" data="{{ page.released | date: '%s' }}"></span>
+    {% endif %}
   </div>
   {% if page.tooltip.releases %}
     {% assign exists = 'exists' %}

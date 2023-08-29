@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dsdaq.ios.new.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-01-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: dsdaqcom

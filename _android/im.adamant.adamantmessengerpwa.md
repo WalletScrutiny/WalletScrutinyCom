@@ -10,9 +10,9 @@ appCountry:
 released: 2020-06-13
 updated: 2023-07-30
 version: 4.1.0
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://adamant.im
 repository: 

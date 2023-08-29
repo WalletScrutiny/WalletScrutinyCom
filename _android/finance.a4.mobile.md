@@ -8,8 +8,8 @@ users: 50000
 appId: finance.a4.mobile
 appCountry: 
 released: 2022-05-09
-updated: 2023-07-29
-version: 2.1.4
+updated: 2023-08-22
+version: 2.1.5
 stars: 4.6
 ratings: 
 reviews: 36

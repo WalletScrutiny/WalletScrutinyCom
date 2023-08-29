@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CDEX-BTC、ETH、Sol、DogeCFDs
+title: CDEX
 altTitle: 
 authors: 
 users: 5000

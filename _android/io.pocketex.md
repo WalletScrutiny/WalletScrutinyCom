@@ -7,8 +7,8 @@ users: 10
 appId: io.pocketex
 appCountry: 
 released: 2022-05-18
-updated: 2022-03-23
-version: 0.0.32
+updated: 2023-08-25
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.pocketex.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-28
 signer: 
 reviewArchive: 
 twitter: 

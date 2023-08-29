@@ -12,7 +12,7 @@ updated: 2023-08-15
 version: 1.62.0
 stars: 4.8
 ratings: 62
-reviews: 39
+reviews: 40
 size: 
 website: https://btse.com
 repository: 

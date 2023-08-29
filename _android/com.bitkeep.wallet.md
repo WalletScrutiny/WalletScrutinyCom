@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: Bitget Wallet Formerly BitKeep
+title: Bitget Wallet, BitKeep Upgrade
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
-updated: 2023-08-17
-version: 8.0.1
-stars: 4.6
+updated: 2023-08-23
+version: 8.1.0
+stars: 4.4
 ratings: 3949
-reviews: 485
+reviews: 494
 size: 
 website: https://bitkeep.com
 repository: 
