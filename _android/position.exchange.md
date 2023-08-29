@@ -44,7 +44,7 @@ features:
 
 ## Analysis
 
-- When we clicked on 'create a wallet' it asked us to enroll a 6-digit pin. There were no seed phrases. 
+- When we clicked on 'create a wallet' it asked us to set a 6-digit pin. There were no seed phrases. 
 - Clicking on 'wallets' then brings us to an overview of available assets. Users can connect to WalletConnect. 
 - Under 'receive' we can only select BNB Chain or POSI Chain. 
 - We tried to add tokens, and searching for Bitcoin resulted in a 'Bitcoin' token under the Binance Smart Chain. The address generated was not any of the standard bitcoin addresses that either started with 1, 3 or bc. 

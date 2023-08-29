@@ -35,11 +35,11 @@ features:
 ## App Description from Google Play
 
 > - Issues handled by Rakuten Wallet Margin Trading
-     > - BTC/JPY
-     > - ETH/JPY
-     > - BCH/JPY
-     > - LTC/JPY
-     > - XRP/JPY
+>   - BTC/JPY
+>   - ETH/JPY
+>   - BCH/JPY
+>   - LTC/JPY
+>   - XRP/JPY
 >
 > In response to customer requests, Rakuten Wallet aims to provide industry-leading spreads, especially for altcoin brands.
 >
@@ -51,9 +51,7 @@ features:
 
 ## Analysis 
 
-This app comes from the same developer of another Rakuten app:
-
-- {% include walletLink.html wallet='android/jp.co.rakuten.wallet.crypto' verdict='true' %}
+- This app comes from the same developer of another Rakuten app: {% include walletLink.html wallet='android/jp.co.rakuten.wallet.crypto' verdict='true' %}
 
 - Rakuten is a digital bank, and these apps are a part of its thrust to enter the virtual currency market which started in 2019.
 - This is their leverage trading app. Unfortunately, the entirety of the app is in Japanese and the website documentation is inaccessible to us, so we were not able to install and register.

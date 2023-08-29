@@ -45,10 +45,7 @@ features:
 
 ## Analysis 
 
-- This app comes from the same developer of this app:
-
-- {% include walletLink.html wallet='android/jp.co.rakuten.wallet.leverage' verdict='true' %}
-
+- This app comes from the same developer as {% include walletLink.html wallet='android/jp.co.rakuten.wallet.leverage' verdict='true' %}
 - The parent website of the app, issued this [press-release](https://global.rakuten.com/corp/news/press/2019/0819_02.html) describing the Rakuten Wallet as employing **cold-storage** for security.
 - This means the app is a *custodial* app and is therefore **not-verifiable**.
 
