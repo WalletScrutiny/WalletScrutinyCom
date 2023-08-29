@@ -46,12 +46,10 @@ features:
 ## Analysis 
 
 - Registration is hindered by SMS-verification requirement. We tried several disposable numbers, and it always issued the same error:
-
-> [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 
+  > [HTTP 400] Unable to create record: Permission to send an SMS has not been enabled for the region indicated by the 'To' number: 
 
 - Its whitepaper states:
-
-> All KYCC network data is stored in a decentralized file network based on the model of an interplanetary file system. This ensures that platforms do not need to request access to AML and KYC data, as private keys are transmitted automatically. The security of the system is ensured by multiple nodes that are independent of the central server so that even a large number of nodes are compromised or shut down without affecting safety and functionality. Along with decentralization, a high degree of security is provided because files are encrypted using elliptic curve cryptography.
+  > All KYCC network data is stored in a decentralized file network based on the model of an interplanetary file system. This ensures that platforms do not need to request access to AML and KYC data, as private keys are transmitted automatically. The security of the system is ensured by multiple nodes that are independent of the central server so that even a large number of nodes are compromised or shut down without affecting safety and functionality. Along with decentralization, a high degree of security is provided because files are encrypted using elliptic curve cryptography.
 
 - This is a **master node staking app** and the project launched an IEO sometime in 2022. The [price](https://www.binance.com/en/price/kyccoin) of their coin has since gone down significantly. 
 - The desktop app allows users to back up wallet.dat. 

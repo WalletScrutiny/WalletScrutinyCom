@@ -42,7 +42,6 @@ features:
 
 - We were able to find a legacy BTC wallet address that can only receive. 
 - There is a notice that:
-
-> The proceeds are automatically exchange to the fiat wallet after the BTC trade once confirmed.
+  > The proceeds are automatically exchange to the fiat wallet after the BTC trade once confirmed.
 
 - This "wallet" can only receive and not send. The only way to get any value out of this wallet is by exchanging to Naira making this an app that **cannot send/receive btcoins** in the normal sense.

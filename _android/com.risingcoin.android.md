@@ -60,4 +60,4 @@ features:
 
    > Network Error: Unable to connect to the network
 
-- Since we cannot register with the app, we are left to analyze it based on information available on its description and website. The project seems to be specific to their own token (RSC) which is on the BSC blockchain. We find **no proof that it supports BTC**.
+- Since we cannot register with the app, we are left to analyze it based on information available on its description and website. The project seems to be specific to their own token (RSC) which is on the BSC blockchain. We find **no indication that it supports BTC**.
