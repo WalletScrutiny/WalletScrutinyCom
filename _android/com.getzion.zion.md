@@ -56,7 +56,7 @@ features:
 
 ## Commentary by [Leo](/authors/leo/):
 
-> > A LN wallet is a Bitcoin wallet. Not all LN wallets support sending or receiving to bitcoin addresses but LN transactions do require private keys of course and in contrast to base layer transactions, the receiving wallet also needs the keys.
+> A LN wallet is a Bitcoin wallet. Not all LN wallets support sending or receiving to bitcoin addresses but LN transactions do require private keys of course and in contrast to base layer transactions, the receiving wallet also needs the keys.
 >
 > In contrast to base layer, on lightning, things are not so standardized and with only the mnemonic you would not be able to restore the wallet. Sadly, many LN nodes require a backup after every transaction sent or received.
 
