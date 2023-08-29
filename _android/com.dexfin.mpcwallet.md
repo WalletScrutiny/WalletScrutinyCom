@@ -37,6 +37,12 @@ features:
 
 ---
 
+This app is from the same [developer](https://play.google.com/store/apps/dev?id=6139388936009702585) as {% include walletLink.html wallet='android/com.dexfin.dexfin' verdict='true' %}
+
+- One core distinguishing factor is that this app supports NFTs.
+- The other app supports staking.
+- Both can be linked to their exchange.
+
 ## App Description from Google Play
 
 > Dexfin Wallet - Bitcoin & Multi-chain Wallet

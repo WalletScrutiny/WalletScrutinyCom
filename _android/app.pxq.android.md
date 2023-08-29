@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: pxqWallet
 title: 'PXQ Wallet: Custom Seed Wallet'
 altTitle: 
 authors:
@@ -20,8 +20,8 @@ issue:
 icon: app.pxq.android.png
 bugbounty: 
 meta: ok
-verdict: custodial
-date: 2023-07-28
+verdict: nosource
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 
@@ -44,9 +44,12 @@ features:
 
 - Wallet creation starts with 12 personal random questions
 - We searched on GitHub Code for the app ID and found [0 results](https://github.com/search?q=app.pxq.android&type=repositories).
-- It turns out that the answers to the security questions would become the seed phrases. We then created a passcode. 
+- It turns out that the answers to the security questions would become the seed phrases. We then created a passcode. Described from the site:
+  > A custom seed phrase is a unique series of words you set up when creating your PXQ Wallet account. This phrase acts as a password for your wallet, and it's essential to store it safely as it can be used to recover your wallet if needed.
+  >
+  > PXQ Wallet prioritizes user security. Your private keys are stored only on your device, not on any servers, giving you full control over your digital assets. Additionally, the custom seed phrase feature provides an extra layer of security.
+- Note that the wallet can be restored using the custom seed phrase.
 - We found a Bitcoin wallet with a P2SH address which can send/receive.
-- We tried to back up the phrases, but the app would be stuck in a loop of asking us the passcode. It appears to be broken.
-- We could not really say that this is a self-custodial wallet, since the "seed phrases" were not generated through cryptographic means but by asking personal questions. Furthermore, this app is not source-available.
-- Whenever we tried the 'backup' option in the settings it would simply revert to the settings screen, leading us to conclude that the app did not really allow the backup of private keys. 
-- Without any option to back up the keys, this would be a **custodial** app, and thus **not-verifiable**.
+- ⚠️  We tried to back up the phrases from the settings, but the app would be stuck in a loop of asking us the 6-digit passcode. It appears to be broken. It doesn't really inform on what is being backed-up or how. 
+
+The provider claims that the private keys are stored on the user's device, thus implying that it is self-custodial. However, there are no claims regarding source-availability, and we were not able to find a repository. This app is **not source-available**.

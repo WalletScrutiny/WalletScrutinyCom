@@ -32,6 +32,14 @@ features:
 
 ---
 
+## Relation to apps of similar names such as:
+
+- {% include walletLink.html wallet='android/com.berrywallet.wallet' verdict='true' %}
+  - The developers for each app are different just like the brand identity, except for the name "Berry".
+  - The websites listed on Google Play are different from each other
+  - Both websites are currently offline.
+- During our cursory examination, we find no link between the two apps.
+
 ## Updated Review 2023-07-24
 
 - After reviewing this app, we decided to search for the app name + "scam". 
