@@ -11,7 +11,7 @@ released: 2022-09-01
 updated: 2023-05-31
 version: 1.0.130
 stars: 3.8
-reviews: 13
+reviews: 15
 size: '86651904'
 website: https://doshi.app
 repository: 

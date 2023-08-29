@@ -7,8 +7,8 @@ users: 50
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05
-updated: 2022-04-09
-version: 3.0.0
+updated: 2023-08-19
+version: 5.0.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.premiumappsfactory.crypto.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-04-05
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2019-05-23
 updated: 2023-03-29
 version: 2.0.0
 stars: 3.9
-reviews: 47
+reviews: 48
 size: '35953664'
 website: https://www.juancash.com
 repository: 

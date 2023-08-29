@@ -1,6 +1,6 @@
 ---
 wsId: cTrader
-title: cTrader
+title: 'cTrader: Trading Forex, Stocks'
 altTitle: 
 authors:
 - danny

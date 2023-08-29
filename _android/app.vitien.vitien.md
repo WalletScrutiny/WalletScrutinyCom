@@ -7,8 +7,8 @@ users: 100
 appId: app.vitien.vitien
 appCountry: 
 released: 2023-04-27
-updated: 2023-05-03
-version: V2.11.1.1139
+updated: 2023-08-27
+version: V2.11.1.1141
 stars: 
 ratings: 
 reviews: 

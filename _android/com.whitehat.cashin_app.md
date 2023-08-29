@@ -4,11 +4,11 @@ title: 'Cash-in: Crypto to naira app'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.whitehat.cashin_app
 appCountry: 
 released: 2022-07-16
-updated: 2023-07-25
+updated: 2023-08-25
 version: 1.0.0
 stars: 4.7
 ratings: 

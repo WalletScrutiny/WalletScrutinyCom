@@ -11,7 +11,7 @@ released: 2015-12-14
 updated: 2023-08-15
 version: 5.10.3
 stars: 4.4
-reviews: 218
+reviews: 220
 size: '51494912'
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace

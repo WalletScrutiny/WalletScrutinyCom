@@ -7,7 +7,7 @@ users: 500
 appId: com.coinstick.myapp
 appCountry: 
 released: 2023-01-23
-updated: 2023-07-13
+updated: 2023-08-26
 version: 1.0.0
 stars: 
 ratings: 

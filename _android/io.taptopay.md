@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.taptopay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-03
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: taptopayapp

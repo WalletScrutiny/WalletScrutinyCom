@@ -8,11 +8,11 @@ users: 100000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: 2021-06-02
-updated: 2023-08-16
-version: 3.25.0
+updated: 2023-08-23
+version: 4.0.1
 stars: 3.5
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.finanzen.net/zero
 repository: 

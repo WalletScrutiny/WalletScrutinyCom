@@ -8,11 +8,11 @@ appId: io.getamber.app
 appCountry: us
 idd: '1410639317'
 released: 2021-06-21
-updated: 2023-07-05
-version: 5.2.2
+updated: 2023-08-25
+version: 5.2.5
 stars: 3.7
 reviews: 27
-size: '114892800'
+size: '114880512'
 website: http://amber.app/
 repository: 
 issue: 
