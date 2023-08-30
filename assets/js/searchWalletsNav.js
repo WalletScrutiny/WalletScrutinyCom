@@ -116,7 +116,7 @@ function doNavBarSearch(input) {
   document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
-  const term = input.trim().toUpperCase()
+  const term = input.toUpperCase()
 
   const minTermLength = 1
   if (term.length > minTermLength) {

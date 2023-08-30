@@ -10,21 +10,37 @@ function searchByWords(query, wallet) {
   let result = false
   for (let i = 0; i < searchTermWords.length; i++) {
     const word = searchTermWords[i]
-    const word2 = i <= searchTermWords.length - 2 ? word + searchTermWords[i + 1] : false
-    const word3 = String(query)
-    if (wallet.title.indexOf(word3) >= 0) {
+    const word2 =searchTermWords[i + 1] ? word + searchTermWords[i + 1] : false
+    const word3 =searchTermWords[i + 1] ? `${word} ${searchTermWords[i + 1]}` : false
+    const word4 = String(query)
+    if (wallet.title.indexOf(word4) >= 0) {
       result = wallet
-      wallet.matchRank = 0//walletAsStr.indexOf(word3) + i
+      wallet.matchRank = 0
+      wallet.matchData = "word4 title " + word4
+      break
+    }
+    if (walletAsStr.indexOf(word4) >= 0) {
+      result = wallet
+      wallet.matchRank = walletAsStr.indexOf(word4)
+      wallet.matchData = "word4 " + word4
+      break
+    }
+    if (walletAsStr.indexOf(word3) >= 0) {
+      result = wallet
+      wallet.matchRank = walletAsStr.indexOf(word4)
+      wallet.matchData = "word3 " + word3
       break
     }
     if (walletAsStr.indexOf(word2) >= 0) {
       result = wallet
       wallet.matchRank = walletAsStr.indexOf(word2) 
+      wallet.matchData = "word2 " + word2
       break
     }
-    else if (walletAsStr.indexOf(word) >= 0) {
+    if (walletAsStr.indexOf(word) >= 0) {
       result = wallet
       wallet.matchRank = walletAsStr.indexOf(word) + (i + 1)
+      wallet.matchData = "word " + word
       break
     }
   }
@@ -56,25 +72,10 @@ function performSearch(wallets, query = false, platform = false) {
     }
   }
 
-  // workingArray.sort((a, b) => {
-  //   if (a.matchRank != b.matchRank)
-  //     return a.matchRank - b.matchRank
-  // })
-
   let temp = []
   if (query && query.length > 0) {
-
-    let goodMatchIndicator = false
-    for (const w of workingArray) {
-      if (w.matchRank == 0) {
-        goodMatchIndicator = true
-        temp.push(w)
-      } else if (!goodMatchIndicator) {
-        temp.push(w)
-      } else {
-        continue
-      }
-    }
+    temp = workingArray.filter((w) => w.matchRank === 0)
+    temp = temp.length<1?workingArray:temp
   }
   else {
     temp = workingArray

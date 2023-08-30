@@ -11,7 +11,7 @@ for (const [key, value] of Object.entries(wfInputTargets)) {
 function updateWalletGridInputOriginatingFromUI() {
   const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms"
   const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1
-  const queryRaw = document.querySelector(".query-string").value.trim().length > 0 ? encodeURI(document.querySelector(".query-string").value.trim()) : ""
+  const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
   window.history.pushState('data', null, `/?platform=${platform}&page=${page}${queryRaw.length > 0 ? '&query-string=' : ''}${queryRaw}`)
   const query = queryRaw.toUpperCase()
   buildWalletGridAndPaginationUI(platform, page, query, queryRaw)
@@ -254,7 +254,7 @@ window.queryStringTimeout = false
 document.querySelector(".query-string").addEventListener("input", () => {
   clearTimeout(window.queryStringTimeout)
   window.queryStringTimeout = setTimeout(() => {
-    const queryRaw = document.querySelector(".query-string").value.trim().length > 0 ? encodeURI(document.querySelector(".query-string").value.trim()) : ""
+    const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
     window.history.pushState('data', null, `/?platform=allPlatforms&page=0&query-string=${queryRaw}`)
     updateWalletGridInputOriginatingFromURL()
   }, 500)
