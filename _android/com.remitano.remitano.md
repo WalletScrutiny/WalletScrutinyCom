@@ -12,7 +12,7 @@ updated: 2023-08-16
 version: 6.78.0
 stars: 4.4
 ratings: 19172
-reviews: 435
+reviews: 436
 size: 
 website: https://remitano.com
 repository: 

@@ -11,7 +11,7 @@ released: 2022-10-04
 updated: 2022-10-04
 version: '1.0'
 stars: 4.8
-reviews: 56
+reviews: 57
 size: '41970688'
 website: https://cash-in.app/
 repository: 

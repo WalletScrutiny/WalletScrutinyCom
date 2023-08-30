@@ -12,7 +12,7 @@ updated: 2023-08-23
 version: 3.0.6
 stars: 4.1
 ratings: 
-reviews: 32
+reviews: 33
 size: 
 website: https://primexbt.com/
 repository: 

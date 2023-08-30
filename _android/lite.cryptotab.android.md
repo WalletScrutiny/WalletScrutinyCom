@@ -9,10 +9,10 @@ appId: lite.cryptotab.android
 appCountry: 
 released: 2021-06-16
 updated: 2023-08-23
-version: 6.1.0
+version: 6.1.7
 stars: 3.8
 ratings: 22930
-reviews: 793
+reviews: 792
 size: 
 website: https://cryptocompany.site/
 repository: 

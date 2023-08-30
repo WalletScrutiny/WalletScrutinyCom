@@ -8,8 +8,8 @@ users: 10000
 appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04
-updated: 2023-06-15
-version: 1.6.9
+updated: 2023-08-29
+version: 1.6.10
 stars: 3.9
 ratings: 
 reviews: 6

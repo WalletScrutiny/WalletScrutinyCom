@@ -8,11 +8,11 @@ users: 10000
 appId: com.gateio.lite
 appCountry: 
 released: 2022-07-01
-updated: 2023-01-12
+updated: 2023-08-30
 version: 2.0.1
 stars: 4.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://gate.io/
 repository: 

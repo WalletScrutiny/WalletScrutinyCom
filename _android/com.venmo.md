@@ -4,7 +4,7 @@ title: Venmo
 altTitle: 
 authors:
 - leo
-users: 10000000
+users: 50000000
 appId: com.venmo
 appCountry: 
 released: 2010-05-17
@@ -12,7 +12,7 @@ updated: 2023-08-25
 version: 10.24.0
 stars: 4.2
 ratings: 
-reviews: 270030
+reviews: 270187
 size: 
 website: https://venmo.com/
 repository: 

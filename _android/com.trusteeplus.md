@@ -4,7 +4,7 @@ title: Trustee Plus | crypto neobank
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 
 website: https://trusteeglobal.com
-repository:
+repository: 
 issue: 
 icon: com.trusteeplus.jpg
 bugbounty: 

@@ -12,7 +12,7 @@ updated: 2023-06-06
 version: 1.0.58
 stars: 4.2
 ratings: 
-reviews: 29
+reviews: 28
 size: 
 website: https://bitpin.ir
 repository: 

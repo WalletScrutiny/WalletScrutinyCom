@@ -11,14 +11,14 @@ released: 2022-02-25
 updated: 2022-08-25
 version: 12.9.27
 stars: 2.2
-reviews: 47
+reviews: 48
 size: '87969792'
 website: https://www.coin.cloud/
 repository: 
 issue: 
 icon: com.coincloud.walletpreview.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 date: 2023-08-29
 signer: 

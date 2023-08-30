@@ -9,10 +9,10 @@ appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24
 updated: 2023-08-28
-version: 4.2.1
+version: 4.2.3
 stars: 3.1
 ratings: 63867
-reviews: 2438
+reviews: 2439
 size: 
 website: https://cryptocompany.site/
 repository: 

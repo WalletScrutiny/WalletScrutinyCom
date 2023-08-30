@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-09
 updated: 2023-08-19
 version: 2.2.7
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://useaccrue.com
 repository: 

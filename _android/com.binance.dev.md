@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: 'Binance: BTC, Crypto and NFTS'
+title: 'Binance: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2023-08-21
 version: 2.69.3
 stars: 4.4
 ratings: 619117
-reviews: 9939
+reviews: 9949
 size: 
 website: https://www.binance.com/
 repository: 

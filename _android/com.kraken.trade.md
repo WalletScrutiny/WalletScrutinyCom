@@ -12,7 +12,7 @@ updated: 2023-08-18
 version: 3.2.0
 stars: 4.5
 ratings: 25287
-reviews: 3041
+reviews: 3043
 size: 
 website: https://www.kraken.com
 repository: 

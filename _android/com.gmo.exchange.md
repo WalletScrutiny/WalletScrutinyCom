@@ -8,16 +8,16 @@ users: 10000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
-updated: 2023-07-12
-version: 2.1.0
+updated: 2023-08-24
+version: 3.0.0
 stars: 4.2
 ratings: 82
-reviews: 22
+reviews: 23
 size: 
 website: https://ex.z.com/
 repository: 
 issue: 
-icon: com.gmo.exchange.png
+icon: com.gmo.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
