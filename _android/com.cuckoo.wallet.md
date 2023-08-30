@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cuckoo.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2021-08-21
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

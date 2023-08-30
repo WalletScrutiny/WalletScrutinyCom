@@ -9,8 +9,8 @@ users: 100000
 appId: com.btcontract.wallet
 appCountry: 
 released: 2015-07-15
-updated: 2022-01-19
-version: 2.4.27
+updated: 2023-08-26
+version: 2.4.28
 stars: 3.9
 ratings: 1061
 reviews: 34
@@ -20,9 +20,9 @@ repository: https://github.com/btcontract/wallet
 issue: https://github.com/btcontract/wallet/issues/90
 icon: com.btcontract.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: reproducible
-date: 2023-01-16
+date: 2023-08-27
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
 - date: 2022-01-31

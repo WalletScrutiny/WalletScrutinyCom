@@ -13,16 +13,16 @@ released: 2017-10-14
 updated: 2021-09-04
 version: '2.480'
 stars: 3.4
-reviews: 166
+reviews: 167
 size: '63362048'
 website: http://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2022-12-28
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: walletsafrica

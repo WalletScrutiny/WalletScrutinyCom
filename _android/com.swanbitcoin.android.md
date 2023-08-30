@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: swanBitcoin
 title: Swan Bitcoin
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.swanbitcoin.android
 appCountry: 
 released: 2022-03-25
-updated: 2023-07-31
-version: 1.2.9
-stars: 4.6
+updated: 2023-08-29
+version: 1.3.1
+stars: 4.7
 ratings: 
-reviews: 53
+reviews: 57
 size: 
 website: https://www.swanbitcoin.com
 repository: 
@@ -19,15 +20,27 @@ issue:
 icon: com.swanbitcoin.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-07-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: swan
+social:
+- https://www.instagram.com/swanbitcoin
+- https://www.linkedin.com/company/swanbitcoin
 redirect_from: 
 developerName: Swan Bitcoin
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Buy Bitcoin anytime - purchases are instantly added to your Bitcoin balance.
+>
+> Create a Bitcoin savings plan for set-it-and-forget-it accumulation.
+
+## Analysis
+
+- [Custody](https://www.swanbitcoin.com/security/) is with Swan's partner, Fortress.
+- This is a **custodial** provider.

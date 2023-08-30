@@ -11,7 +11,7 @@ released: 2023-02-13
 updated: 2023-07-31
 version: 1.4.0
 stars: 5
-reviews: 2
+reviews: 3
 size: '66708480'
 website: https://mal.io
 repository: 

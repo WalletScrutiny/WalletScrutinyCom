@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quanli.ibtc.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-04-29
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

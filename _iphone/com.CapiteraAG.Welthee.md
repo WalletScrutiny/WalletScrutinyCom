@@ -8,11 +8,11 @@ appId: com.CapiteraAG.Welthee
 appCountry: sg
 idd: '1562108720'
 released: 2021-07-19
-updated: 2023-07-20
-version: 5.0.0
+updated: 2023-08-28
+version: 5.0.1
 stars: 0
 reviews: 0
-size: '112990208'
+size: '113022976'
 website: https://welthee.com
 repository: 
 issue: 

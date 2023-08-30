@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: net.fasochange.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 date: 2023-08-04
 signer: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinberry.coinberry.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: CoinberryHQ

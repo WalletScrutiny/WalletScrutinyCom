@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quppy.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-30
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: QuppyPay

@@ -40,6 +40,14 @@ features:
 
 ---
 
+## Similar App Note 2023-08-23
+
+This app is from the same developer of {% include walletLink.html wallet='android/com.trusteeplus' verdict='true' %}. 
+
+We verified that both apps are linked from their homepage.
+
+## Analysis 2019-12-28
+
 They [asked us to re-evaluate](https://github.com/trustee-wallet/trusteeWallet/issues/1#issuecomment-577612039),
 so ... here we go:
 

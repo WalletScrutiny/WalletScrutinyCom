@@ -3,7 +3,7 @@ wsId:
 title: BHEXSG
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: sg.bhex.app
 appCountry: 
 released: 

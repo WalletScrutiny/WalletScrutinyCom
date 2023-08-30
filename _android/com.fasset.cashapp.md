@@ -1,6 +1,6 @@
 ---
 wsId: fassetCrypto
-title: Fasset | Invest Crypto & Gold
+title: Fasset - Buy Digital Assets
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.fasset.cashapp
 appCountry: 
 released: 2021-12-14
-updated: 2023-07-26
-version: '5.18'
+updated: 2023-08-16
+version: '5.20'
 stars: 
 ratings: 
 reviews: 

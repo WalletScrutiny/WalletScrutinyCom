@@ -4,12 +4,12 @@ title: Coinmerce - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.coinmerce.app
 appCountry: 
 released: 2018-07-09
-updated: 2023-07-07
-version: 5.6.8
+updated: 2023-08-15
+version: 5.7.0
 stars: 
 ratings: 
 reviews: 
