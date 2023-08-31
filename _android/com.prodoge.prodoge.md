@@ -52,5 +52,5 @@ features:
 - It is also possible to send. 
 - External wallets can be connected. 
 - There are no claims about the source-availability of the project.
-- We searched GitHub Code for the app ID and found [0 results.](https://github.com/search?q=com.prodoge.prodoge&type=code). It does have a SourceForge [page.](https://sourceforge.net/software/product/ALX-Wallet/). But we couldn't find its potential source code there too.
+- We searched GitHub Code for the app ID and found [0 results.](https://github.com/search?q=com.prodoge.prodoge&type=code). It does have a SourceForge [page.](https://sourceforge.net/software/product/ALX-Wallet/). But we couldn't find its potential source code there neither.
 - This app is **not source-available**.
