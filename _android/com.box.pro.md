@@ -12,7 +12,7 @@ updated: 2023-04-06
 version: 5.2.6
 stars: 2.4
 ratings: 
-reviews: 26
+reviews: 28
 size: 
 website: https://www.bibox.com
 repository: 

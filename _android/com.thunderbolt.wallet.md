@@ -3,7 +3,7 @@ wsId:
 title: Thunderbolt Lightning Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.thunderbolt.wallet
 appCountry: 
 released: 2021-08-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thunderbolt.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fake
-date: 2022-11-02
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

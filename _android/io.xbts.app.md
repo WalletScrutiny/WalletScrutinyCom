@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.xbts.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-08-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

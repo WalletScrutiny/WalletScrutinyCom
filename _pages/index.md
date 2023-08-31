@@ -47,4 +47,5 @@ function lsTest(){
 
 <script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 <script src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
 <script src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>

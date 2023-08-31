@@ -8,8 +8,8 @@ users: 10000
 appId: com.stasis.stasiswallet
 appCountry: 
 released: 2018-06-13
-updated: 2023-06-26
-version: 1.12.2
+updated: 2023-08-22
+version: 1.14.1
 stars: 3.6
 ratings: 169
 reviews: 5

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: nulpay.agent.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-10-21
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

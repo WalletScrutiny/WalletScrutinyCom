@@ -10,8 +10,8 @@ idd: '1547228803'
 released: 2021-02-04
 updated: 2023-07-11
 version: 4.1.0
-stars: 4.4
-reviews: 7
+stars: 4.5
+reviews: 8
 size: '68368384'
 website: https://me.hashkey.com/
 repository: 

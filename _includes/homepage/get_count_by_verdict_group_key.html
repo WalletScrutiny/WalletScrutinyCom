@@ -1,0 +1,11 @@
+{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
+{%- assign vgKeyCount = 0 -%}
+{% assign vgKey = include.vgKey %}
+{% for group in site.data.verdictGroups %}
+    {%- assign verdicts = group.verdicts -%}
+    {%- assign metas = group.metas -%}
+  {% if group.key == vgKey %}
+
+    {%- assign vgKeyCount = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
+  {% endif %}
+{% endfor %}

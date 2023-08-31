@@ -7,8 +7,8 @@ users: 100
 appId: io.ts.converter
 appCountry: 
 released: 2023-02-26
-updated: 2023-07-24
-version: 1.0.2
+updated: 2023-08-30
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 

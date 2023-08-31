@@ -4,10 +4,10 @@ for (let i = 0; i < dateFields.length; i++) {
   let t = instance.getAttribute("data")
   const secondary = (instance.classList.contains("sec") || instance.classList.contains("secondary")) ? true : false
   const brackets = (instance.classList.contains("brackets") || instance.classList.contains("brackets")) ? true : false
-  dateFields[i].innerHTML = elapsedTime(t, secondary, brackets)
+  dateFields[i].innerHTML = elapsedTime(t, secondary, brackets, instance)
 }
 
-function elapsedTime(ts, secondary, brackets) {
+function elapsedTime(ts, secondary, brackets, instance) {
   const sec = secondary ? 'class="secondary-text"' : ''
   let bra = brackets ? ['(', ')'] : ['', '']
 
@@ -20,10 +20,11 @@ function elapsedTime(ts, secondary, brackets) {
     day: dt
   }
   let processed = `<span ${sec}>today</span>`
+  const warn = instance.classList.contains("raw")?'':'warn'
   for (const k in options) {
     let r = Math.floor(options[k])
     if (r > 0) {
-      bra = k === 'year' ? ['(<span class="warn">', '</span>)'] : bra
+      bra = k === 'year' ? ['(<span class="' + warn + '">', '</span>)'] : bra
       processed = `${bra[0]}${r} <span ${sec}>${k}${r > 1 ? "s" : ""} ago</span>${bra[1]}`
       break
     }

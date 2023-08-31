@@ -8,11 +8,11 @@ users: 50000
 appId: io.klever.secure.exchange
 appCountry: us
 released: 2021-06-30
-updated: 2023-06-15
-version: 1.5.2
+updated: 2023-08-07
+version: 1.5.3
 stars: 4
 ratings: 500
-reviews: 46
+reviews: 45
 size: 
 website: https://bitcoin.me
 repository: 

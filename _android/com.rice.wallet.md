@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: riceCryptoWallet
 title: 'RICE: Your Crypto Wallet'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: com.rice.wallet
 appCountry: 
@@ -19,15 +20,30 @@ issue:
 icon: com.rice.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: nobtc
+date: 2023-07-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: RiceDeFiWallet
+social:
+- https://www.facebook.com/ricewallet.io
+- https://t.me/ricewallet
 redirect_from: 
 developerName: RICE TECHNOLOGIES PTE. LTD.
 features: 
 
 ---
 
+## App Description from Google Play
+
+> RICE Wallet is the simplest and safest way to store and invest Crypto in the Decentralized Finance market.
+>
+> Many outstanding features:
+> - 30% Gas fee cashback on all transactions
+> - Multi-chain supported: Ethereum, BNB Chain, Polygon, Avalanche, Arbitrum, Fantom…
+
+## Analysis
+
+- We registered with the app but found no bitcoin wallet.
+- The only networks available were: ONUS Chain, Ethereum, BNB Smart Chain, Polygon, Avalance C-Chain, Arbitrum, and Fantom.
+- This app does **not support the Bitcoin blockchain.**

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
