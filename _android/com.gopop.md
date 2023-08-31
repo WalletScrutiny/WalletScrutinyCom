@@ -7,8 +7,8 @@ users: 50
 appId: com.gopop
 appCountry: 
 released: 2022-08-01
-updated: 2023-07-10
-version: 3.0.1
+updated: 2023-08-11
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Hawex
+title: 'Hawex: BTC & Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.hawex.wallet
 appCountry: 
 released: 2023-06-06
-updated: 2023-07-11
-version: '1.6'
+updated: 2023-08-18
+version: '1.7'
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.hawex.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

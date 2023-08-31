@@ -1,6 +1,6 @@
 ---
 wsId: coinTRPro
-title: 'CoinTR Pro: Trade Bitcoin ETH'
+title: 'CoinTR Pro: Buy Bitcoin Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: pro.cointr
 appCountry: 
 released: 2022-10-30
-updated: 2023-08-07
-version: 2.2.2
+updated: 2023-08-16
+version: 2.2.3
 stars: 4.1
 ratings: 
 reviews: 6
@@ -36,6 +36,18 @@ developerName: CoinTR pro
 features: 
 
 ---
+
+There is another version of this app at: 
+
+- {% include walletLink.html wallet='android/com.cointr' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.cointr' verdict='true' %}
+
+- This is the 'Pro' version of the app, and is targeted towards a global audience while other app is for Turkey. 
+- We found a link to both platforms on an official [CoinTR support page](https://support.cointr.com/hc/tr/articles/6016900478095-CoinTR-PRO-da-TRY-Paritesi-Durdurulacakt%C4%B1r-).
+- The website cointr.com, also links to the [CoinTRPro twitter account.](https://twitter.com/coinTRPro)
+- Similarly, we can see the CoinTRTurkiye twitter account [linking to the Pro](https://twitter.com/CoinTRTurkiye/status/1692551931724743128) version of the app. 
+- Finally, we see the cointr.pro website [links](https://support.cointr.pro/hc/en-us/articles/5236871136399) to the CoinTR app.
+- Ultimately, the two link to each other. 
 
 ## App Description from Google Play
 

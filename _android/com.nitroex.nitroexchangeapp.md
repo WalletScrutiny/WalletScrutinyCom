@@ -12,7 +12,7 @@ updated: 2023-07-03
 version: 2.2.6
 stars: 4.3
 ratings: 231
-reviews: 159
+reviews: 160
 size: 
 website: https://www.nitroex.io/
 repository: 

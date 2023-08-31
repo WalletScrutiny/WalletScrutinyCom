@@ -3,7 +3,7 @@ wsId:
 title: 'TENT: Bitcoin & Crypto Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tent.app
 appCountry: 
 released: 

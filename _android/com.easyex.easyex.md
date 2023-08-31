@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.easyex.easyex.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

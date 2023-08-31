@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: moolreApp
 title: Moolre
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.moolre.moolreandroid
 appCountry: 
 released: 2019-02-28
 updated: 2023-07-26
 version: 3.4.27
-stars: 3.3
+stars: 3.2
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://moolre.com
 repository: 
@@ -19,15 +20,56 @@ issue:
 icon: com.moolre.moolreandroid.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-07-19
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: moolrehq
+social:
+- https://www.instagram.com/moolrehq
+- https://www.facebook.com/moolrehq
 redirect_from: 
 developerName: Moolre Inc
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Moolre Wallet ensures your money is available to you at anytime everyday.
+
+## Google Play Reviews
+
+> [queenstreet cafe](https://play.google.com/store/apps/details?id=com.moolre.moolreandroid&gl=us)<br>
+  ★☆☆☆☆ February 20, 2023 <br>
+       I used moolre in its early days and it was great 👍, but now they are just thrash. I deposited money into my account and cannot send it anywhere (error says bitcoin network is down, tried all the crypto they provide but failed). I am left with just one option, to withdraw my money back the same way I deposited it and they are charging me so much for the withdrawal. I just made a loss. Wouldn't recommend.
+
+> [Aloysius Onuekwusi](https://play.google.com/store/apps/details?id=com.moolre.moolreandroid&gl=us)<br>
+  ★☆☆☆☆ June 5, 2023 <br>
+       I love this app, its easy to access but I'm having a pending transaction since 15th April 2020 till date.
+
+## Analysis
+
+- After email verification, we were presented with the dashboard. 
+- Under 'My Wallets', the denomination is MLR and GHS. There is an option to 'Add New' then 'Create a Wallet'
+- Under 'Create a Wallet', we selected a 'network'. The choices were:
+    - Moolre
+    - Blockchain
+    - Ghana
+    - Nigeria
+    - United States
+    - Uganda
+- We selected 'Blockchain' and 'Bitcoin' for the currency. There is a toggle option for 'Activate API'
+- A notice appears noting that the provider is not a deposit-taking app and stores 'National Currency Assets' with an appropriately regulated financial institution. They can also delay top-ups if they find the transaction suspicious.
+- After verifying the email address and phone number, we were able to create a BTC wallet with a legacy address. 
+- Apart from topping up, the only other option is to swap. Swapping entails swapping from BTC to Moolre. 
+- Payouts are from Moolre to the following:
+    - GhQR
+    - Vodafone Cash
+    - MTN Mobile Money
+    - AirtelTigo Money
+    - Bank Transfer
+- When selected, payouts from the BTC wallet to another BTC wallet is possible. 
+- We did not find any provision to back up the private keys and were not given these during registration.
+- For the reasons stated above, we determine this app to be **custodial**.
+- It should be noted that several people have complained of not receiving deposited funds on {{ page.title }}'s [Facebook page](https://www.facebook.com/moolrehq/reviews).

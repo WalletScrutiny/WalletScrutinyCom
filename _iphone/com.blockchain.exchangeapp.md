@@ -11,7 +11,7 @@ released: 2021-09-13
 updated: 2023-05-14
 version: 202305.1.1
 stars: 4
-reviews: 125
+reviews: 129
 size: '123325440'
 website: https://exchange.blockchain.com/
 repository: 

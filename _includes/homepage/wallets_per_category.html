@@ -1,54 +1,22 @@
 {% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
-
-{%- for verdict_group in site.data.verdictGroups -%}
+{%- include /homepage/full_wallet_count.html raw='true' -%}
+  
+  {%- for verdict_group in site.data.verdictGroups -%}
   {%- assign total = 0 -%}
   <div class="statistic-tile">
     <div class="data">
       {%- assign verdicts = verdict_group.verdicts -%}
       {%- assign metas = verdict_group.metas -%}
-      {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict and p.meta == 'ok'" | size -%}
-      <h2>{{ total | thousands_separated }}</h2>
+      {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict" | size -%}
+      {%- assign denomValue = products.size -%}
+      <h2>
+        <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
+        <small>of {{denomValue | thousands_separated}} wallets</small>
+      </h2>
       <p>{{ verdict_group.title }}</p>
-    </div>
-    <div class="visualised">
-      {%- if total > 100 -%}
-        {%- assign hundreds = total | divided_by: 100 -%}
-        {%- assign hundreds = hundreds | floor -%}
-        {%- for i in (1..hundreds) -%}
-          <div class="century complete"></div>
-        {%- endfor -%}
-        {%- assign hundreds = hundreds | times: 100 -%}
-        {%- assign remainder = total | minus: hundreds -%}
-        <div class="century fraction">
-          {%- for i in (1..remainder) -%}
-          <div class="fr"></div>
-          {%- endfor -%}
-        </div>
-        {%- assign hundreds = hundreds | divided_by: 100 -%}
-        {%- assign buffer_count = hundreds | divided_by: 5 -%}
-        {%- assign buffer_count = buffer_count | floor -%}
-        {%- assign buffer_count = buffer_count | times: 5 -%}
-        {%- assign buffer_count = hundreds | minus: buffer_count -%}
-        {%- assign buffer_count = 5 | minus: buffer_count -%}
-        {%- if remainder >= 1 -%}
-          {%- assign buffer_count = buffer_count | minus: 1 -%}
-        {%- endif -%}
-        {%- if buffer_count >= 1 -%}
-          {%- for i in (1..buffer_count) -%}
-          <div class="century"></div>
-          {%- endfor -%}
-        {%- endif -%}
 
-      {%- else -%}
-        <div class="century fraction">
-          {%- for i in (1..total) -%}
-          <div class="fr"></div>
-          {%- endfor -%}
-        </div>
-        {%- for i in (1..4) -%}
-        <div class="century"></div>
-        {%- endfor -%}
-      {%- endif -%}
+      <div class="small">{{verdict_group.comment | markdownify}}</div>
+
     </div>
   </div>
 {%- endfor -%}

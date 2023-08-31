@@ -3,12 +3,12 @@ wsId:
 title: BlockBee POS
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.blockbee.pos
 appCountry: 
 released: 2022-08-30
-updated: 2022-09-01
-version: 1.0.0.3
+updated: 2023-08-25
+version: 1.0.1.1
 stars: 
 ratings: 
 reviews: 

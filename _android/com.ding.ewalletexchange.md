@@ -8,11 +8,11 @@ users: 50000
 appId: com.ding.ewalletexchange
 appCountry: 
 released: 2022-04-11
-updated: 2022-12-22
-version: '1.5'
+updated: 2023-08-20
+version: '2.0'
 stars: 3.9
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: 
 repository: 

@@ -7,7 +7,7 @@ users: 10
 appId: com.eukapay.pos_app
 appCountry: 
 released: 2023-03-20
-updated: 2023-08-01
+updated: 2023-08-28
 version: 1.2.8
 stars: 
 ratings: 

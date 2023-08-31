@@ -9,7 +9,7 @@ appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
 updated: 2023-08-08
-version: '0.90'
+version: '0.94'
 stars: 3.5
 ratings: 8237
 reviews: 36

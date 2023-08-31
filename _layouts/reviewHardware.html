@@ -23,7 +23,7 @@ layout: default
             | append: page.collection | append:  '/'
             | append: page.icon -%}
         {%- else -%}
-          {%- assign icon = base_path  | append: '/images/noicon.png' -%}
+          {%- assign icon = base_path  | append: '/images/noimg.svg' -%}
         {%- endif -%}
         <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
         <div class="app-sum-head">

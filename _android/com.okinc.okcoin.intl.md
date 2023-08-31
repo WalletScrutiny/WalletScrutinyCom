@@ -9,10 +9,10 @@ appId: com.okinc.okcoin.intl
 appCountry: us
 released: 2018-06-22
 updated: 2023-08-03
-version: 5.3.112
+version: 5.3.114
 stars: 3.6
 ratings: 4636
-reviews: 612
+reviews: 613
 size: 
 website: http://www.okcoin.com
 repository: 

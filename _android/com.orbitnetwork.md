@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.orbitnetwork.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-04-08
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

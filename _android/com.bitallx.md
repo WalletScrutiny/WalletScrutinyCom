@@ -3,7 +3,7 @@ wsId:
 title: Bitallx
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitallx
 appCountry: 
 released: 2021-12-09

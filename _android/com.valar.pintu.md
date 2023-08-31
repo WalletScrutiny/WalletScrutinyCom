@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-01-25
 updated: 2023-07-31
 version: 3.32.0
-stars: 4.6
+stars: 4.5
 ratings: 28130
-reviews: 172
+reviews: 174
 size: 
 website: https://pintu.co.id/
 repository: 
