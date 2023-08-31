@@ -8,11 +8,11 @@ appId: vn.beedu.blockchain
 appCountry: us
 idd: '1591160349'
 released: 2021-11-12
-updated: 2023-01-09
-version: 1.4.18
+updated: 2023-07-14
+version: 1.4.20
 stars: 5
 reviews: 3
-size: '77793280'
+size: '76119040'
 website: 
 repository: 
 issue: 

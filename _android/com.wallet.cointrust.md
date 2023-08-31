@@ -3,7 +3,7 @@ wsId:
 title: 'CoinTrust: BTC & Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.wallet.cointrust
 appCountry: 
 released: 2022-12-13
@@ -19,7 +19,7 @@ issue:
 icon: com.wallet.cointrust.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

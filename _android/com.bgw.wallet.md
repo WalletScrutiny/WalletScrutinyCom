@@ -3,12 +3,12 @@ wsId:
 title: BG Wallet-Licensed Crypto App
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bgw.wallet
 appCountry: 
 released: 2022-07-14
-updated: 2023-05-10
-version: 0.2.4
+updated: 2023-08-08
+version: 0.2.7
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bgw.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

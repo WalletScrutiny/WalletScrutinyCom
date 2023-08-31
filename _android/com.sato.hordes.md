@@ -6,14 +6,14 @@ authors:
 users: 10
 appId: com.sato.hordes
 appCountry: 
-released: 
+released: 2023-08-04
 updated: 2023-07-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://hordes.bysato.com
+website: https://www.hordeswallet.com
 repository: 
 issue: 
 icon: com.sato.hordes.png

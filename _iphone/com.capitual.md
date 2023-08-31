@@ -8,8 +8,8 @@ appId: com.capitual
 appCountry: us
 idd: '1458793819'
 released: 2019-09-20
-updated: 2023-07-26
-version: 3.43.3
+updated: 2023-08-07
+version: 3.43.4
 stars: 4.3
 reviews: 6
 size: '88943616'

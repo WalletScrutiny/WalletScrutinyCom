@@ -10,9 +10,9 @@ appCountry: GH
 released: 2021-07-19
 updated: 2023-07-29
 version: 4.5.4
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 112
+reviews: 113
 size: 
 website: https://bitafrika.com
 repository: 

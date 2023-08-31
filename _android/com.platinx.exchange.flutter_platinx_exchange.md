@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: PlatinX- Pure indian Exchange
+title: PlatinX Indian crypto Exchange
 altTitle: 
 authors: 
 users: 500

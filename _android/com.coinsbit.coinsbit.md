@@ -4,7 +4,7 @@ title: Coinsbit - Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.coinsbit.coinsbit
 appCountry: 
 released: 2019-10-28

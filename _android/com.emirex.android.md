@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.emirex.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-30
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: EMIREX_OFFICIAL

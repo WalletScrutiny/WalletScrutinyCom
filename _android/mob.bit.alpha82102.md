@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mob.bit.alpha82102.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-03
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

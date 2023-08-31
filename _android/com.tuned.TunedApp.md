@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tuned.TunedApp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-06-07
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: tuned_com

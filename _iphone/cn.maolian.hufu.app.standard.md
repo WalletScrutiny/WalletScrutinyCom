@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: Hoo_exchange

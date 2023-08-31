@@ -3,7 +3,7 @@ wsId:
 title: Seed Generator
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.companyname.seedgenerator
 appCountry: 
 released: 2022-12-11

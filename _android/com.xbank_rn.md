@@ -8,8 +8,8 @@ users: 50000
 appId: com.xbank_rn
 appCountry: 
 released: 2022-11-04
-updated: 2023-07-17
-version: 4.0.0
+updated: 2023-08-01
+version: 4.0.1
 stars: 4.1
 ratings: 
 reviews: 7

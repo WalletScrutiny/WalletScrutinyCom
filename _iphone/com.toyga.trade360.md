@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.toyga.trade360.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2021-10-10
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD

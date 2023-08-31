@@ -8,11 +8,11 @@ users: 50000
 appId: com.app.foxexchangeapp
 appCountry: 
 released: 2022-03-06
-updated: 2022-08-20
-version: '1.8'
+updated: 2023-08-20
+version: '2.0'
 stars: 4.2
 ratings: 
-reviews: 93
+reviews: 94
 size: 
 website: https://foxnetwork.app/
 repository: 
@@ -21,7 +21,7 @@ icon: com.app.foxexchangeapp.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2023-06-30
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: RealT Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: co.realt.bridge
 appCountry: be
 released: 2021-03-18
