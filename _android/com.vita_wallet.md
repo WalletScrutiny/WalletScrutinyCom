@@ -12,7 +12,7 @@ updated: 2023-08-23
 version: 5.6.2
 stars: 4.7
 ratings: 458
-reviews: 518
+reviews: 519
 size: 
 website: https://vitawallet.io/
 repository: 

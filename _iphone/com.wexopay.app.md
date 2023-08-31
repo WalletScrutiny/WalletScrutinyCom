@@ -13,7 +13,7 @@ version: 2.3.23
 stars: 4.8
 reviews: 166
 size: '60666880'
-website: https://wexopay.com
+website: https://wexopay.com/
 repository: 
 issue: 
 icon: com.wexopay.app.jpg
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
 - https://discord.com/invite/jhqwr7KFCn
 features: 
-developerName: CRYPTON DIGITAL SE
+developerName: UPDN ONE s.r.o.
 
 ---
 

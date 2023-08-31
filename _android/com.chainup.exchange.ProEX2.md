@@ -8,8 +8,8 @@ users: 1000
 appId: com.chainup.exchange.ProEX2
 appCountry: 
 released: 2022-04-06
-updated: 2023-08-23
-version: 5.8.5_push_v2
+updated: 2023-08-31
+version: 5.8.6_push_v2
 stars: 
 ratings: 
 reviews: 

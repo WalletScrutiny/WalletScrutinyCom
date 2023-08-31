@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Monero.com
+title: Monero.com by Cake Wallet
 altTitle: 
 authors:
 - danny

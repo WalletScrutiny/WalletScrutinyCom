@@ -8,7 +8,7 @@ users: 500000
 appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
-updated: 2023-07-19
+updated: 2023-08-29
 version: 3.13.1
 stars: 3.8
 ratings: 11088

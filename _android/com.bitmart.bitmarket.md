@@ -12,7 +12,7 @@ updated: 2023-08-26
 version: 2.12.18
 stars: 3.3
 ratings: 41983
-reviews: 3465
+reviews: 3466
 size: 
 website: http://www.bitmart.com
 repository: 

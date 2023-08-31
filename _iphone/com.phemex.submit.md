@@ -12,7 +12,7 @@ released: 2020-02-20
 updated: 2023-07-26
 version: 4.9.0
 stars: 4.6
-reviews: 1715
+reviews: 1721
 size: '91575296'
 website: https://phemex.com/
 repository: 

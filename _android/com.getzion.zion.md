@@ -12,7 +12,7 @@ updated: 2023-05-12
 version: 2.0.5
 stars: 2
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://getzion.com
 repository: 

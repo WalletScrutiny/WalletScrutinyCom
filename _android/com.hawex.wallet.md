@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Hawex
+title: 'Hawex: BTC & Crypto Wallet'
 altTitle: 
 authors: 
 users: 1000

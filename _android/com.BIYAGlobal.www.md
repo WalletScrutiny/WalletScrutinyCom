@@ -8,8 +8,8 @@ users: 10000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
-updated: 2023-08-18
-version: 2.7.85
+updated: 2023-08-30
+version: 2.7.86
 stars: 
 ratings: 
 reviews: 

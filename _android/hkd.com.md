@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-11
 updated: 2023-08-23
 version: 2.6.8
-stars: 4.4
+stars: 4.5
 ratings: 
 reviews: 9
 size: 
