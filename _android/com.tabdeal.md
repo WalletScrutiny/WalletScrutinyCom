@@ -9,7 +9,7 @@ appId: com.tabdeal
 appCountry: 
 released: 2021-08-14
 updated: 2023-08-30
-version: 3.6.0
+version: 3.7.0
 stars: 4.4
 ratings: 
 reviews: 32

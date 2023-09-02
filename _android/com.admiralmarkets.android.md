@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-10-07
 updated: 2023-08-14
 version: 1.7.10
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://www.admiralmarkets.com
 repository: 
