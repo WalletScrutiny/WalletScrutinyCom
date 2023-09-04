@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.mao.guiderun.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
 date: 2023-08-07
 signer: 
@@ -41,4 +41,4 @@ features:
 - The app just displays the logo. 
 - There is no website associated with this app.
 - The app claims to be self-custodial, but we were [not able to find](https://github.com/search?q=com.mao.guiderun&type=code) any code on GitHub that corresponds to the app ID.
-- This app is **not source-available**.
+- This app, according to its description is non-custodial, but it is *not source-available* and more importantly, already **defunct**
