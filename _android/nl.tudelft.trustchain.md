@@ -7,7 +7,7 @@ users: 100
 appId: nl.tudelft.trustchain
 appCountry: 
 released: 
-updated: 2023-08-28
+updated: 2023-09-03
 version: VARY
 stars: 
 ratings: 

@@ -9,7 +9,7 @@ appId: com.exmo
 appCountry: 
 released: 2019-11-12
 updated: 2023-08-31
-version: 3.24.4
+version: 3.26.0
 stars: 3.9
 ratings: 2774
 reviews: 91

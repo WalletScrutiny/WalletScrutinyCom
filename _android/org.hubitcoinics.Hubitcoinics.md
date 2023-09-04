@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Hubitcoinics Inc.
+developerName: CodeCraftPro, Inc.
 features: 
 
 ---

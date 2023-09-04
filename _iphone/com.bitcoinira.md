@@ -11,7 +11,7 @@ released: 2021-06-20
 updated: 2023-08-28
 version: 1.5.38
 stars: 4.5
-reviews: 732
+reviews: 733
 size: '54035456'
 website: https://bitcoinira.com/
 repository: 

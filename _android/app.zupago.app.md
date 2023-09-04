@@ -8,8 +8,8 @@ users: 10000
 appId: app.zupago.app
 appCountry: us
 released: 2021-04-30
-updated: 2023-08-31
-version: 1.7.6
+updated: 2023-09-03
+version: 1.7.9
 stars: 4.7
 ratings: 221
 reviews: 22

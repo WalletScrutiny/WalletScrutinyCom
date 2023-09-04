@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.co.eost.elvwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
