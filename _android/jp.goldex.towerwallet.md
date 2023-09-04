@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: jp.goldex.towerwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2023-05-05
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

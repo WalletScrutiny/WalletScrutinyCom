@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: in.spiegel.arthbit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-07-31
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: ArthBitExchange

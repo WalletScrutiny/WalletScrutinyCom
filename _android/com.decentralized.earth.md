@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.decentralized.earth.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fake
-date: 2023-08-08
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
