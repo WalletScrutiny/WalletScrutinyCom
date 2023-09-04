@@ -12,7 +12,7 @@ updated: 2023-08-30
 version: 3.2.0
 stars: 4.4
 ratings: 
-reviews: 126
+reviews: 129
 size: 
 website: https://rockitcoin.com
 repository: 

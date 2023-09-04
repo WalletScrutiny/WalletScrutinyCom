@@ -2,9 +2,8 @@
 wsId: savitaBuyBTC
 title: 'Savita: Buy BTC,ETH,USDT'
 altTitle: 
-authors:
-- danny
-users: 1000
+authors: 
+users: 5000
 appId: app.exchange.savita
 appCountry: 
 released: 2023-01-05
