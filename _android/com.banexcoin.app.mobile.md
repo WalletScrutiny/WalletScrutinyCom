@@ -8,8 +8,8 @@ users: 1000
 appId: com.banexcoin.app.mobile
 appCountry: 
 released: 2022-02-02
-updated: 2023-07-12
-version: 1.1.173
+updated: 2023-08-29
+version: 1.1.183
 stars: 
 ratings: 
 reviews: 

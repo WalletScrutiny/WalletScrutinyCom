@@ -8,11 +8,11 @@ appId: com.funex.coin
 appCountry: us
 idd: '1617996833'
 released: 2022-04-18
-updated: 2023-07-30
-version: 1.0.17
+updated: 2023-08-22
+version: 1.0.18
 stars: 0
 reviews: 0
-size: '47360000'
+size: '48549888'
 website: 
 repository: 
 issue: 

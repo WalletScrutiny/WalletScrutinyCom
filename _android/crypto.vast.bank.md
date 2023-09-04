@@ -8,8 +8,8 @@ users: 10000
 appId: crypto.vast.bank
 appCountry: 
 released: 2021-08-22
-updated: 2023-08-09
-version: 1.7.13
+updated: 2023-08-14
+version: 1.7.14
 stars: 4.1
 ratings: 
 reviews: 69

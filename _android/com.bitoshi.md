@@ -7,8 +7,8 @@ users: 500
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
-updated: 2023-07-06
-version: 1.2.1
+updated: 2023-08-30
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 

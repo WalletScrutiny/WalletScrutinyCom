@@ -3,7 +3,7 @@ wsId:
 title: BITGIN
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitgin.app
 appCountry: 
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitgin.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

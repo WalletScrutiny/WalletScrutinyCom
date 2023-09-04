@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.idea-soft.biteeu.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-12
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

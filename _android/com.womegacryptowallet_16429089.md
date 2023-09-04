@@ -3,7 +3,7 @@ wsId:
 title: Omega:Bitcoin & crypto wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.womegacryptowallet_16429089
 appCountry: 
 released: 2022-12-25

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitfortip.bitfortipapp.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-12-17
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: bitfortip
