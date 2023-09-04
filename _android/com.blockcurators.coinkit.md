@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-19
 updated: 2022-01-19
 version: 1.1.2
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://coinkit.de
 repository: 

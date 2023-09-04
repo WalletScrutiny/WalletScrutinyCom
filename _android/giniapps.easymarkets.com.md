@@ -12,7 +12,7 @@ updated: 2023-07-19
 version: 2.0.7
 stars: 3.4
 ratings: 1761
-reviews: 34
+reviews: 36
 size: 
 website: https://www.easymarkets.com/
 repository: 

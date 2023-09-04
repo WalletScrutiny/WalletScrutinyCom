@@ -8,11 +8,11 @@ users: 10000
 appId: com.arcticmobile.app
 appCountry: 
 released: 2022-12-15
-updated: 2023-07-24
-version: '1.25'
-stars: 
+updated: 2023-08-30
+version: '1.27'
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://arcticwallet.io
 repository: 

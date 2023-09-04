@@ -13,6 +13,7 @@ DOCKER_BUILDKIT=1 docker build -f ./Dockerfile -t jade_builder .
 docker run --rm -v ${PWD}:/builds/blockstream/jade --name jade_builder -it jade_builder bash -c "\
     . /root/esp/esp-idf/export.sh; \
     cd /builds/blockstream/jade; \
+    git config --global --add safe.directory /builds/blockstream/jade; \
     cp ./production/sdkconfig_jade_prod.defaults sdkconfig.defaults; \
     rm -f sdkconfig; \
     idf.py fullclean all; \

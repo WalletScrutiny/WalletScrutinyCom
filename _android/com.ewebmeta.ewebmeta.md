@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ewebmeta.ewebmeta.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-05-24
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

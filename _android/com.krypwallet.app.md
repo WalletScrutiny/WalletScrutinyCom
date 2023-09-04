@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.krypwallet.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

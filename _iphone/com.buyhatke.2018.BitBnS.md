@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.buyhatke.2018.BitBnS.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: bitbns

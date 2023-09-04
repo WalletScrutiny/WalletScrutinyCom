@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.exchange.bitcoindefi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 

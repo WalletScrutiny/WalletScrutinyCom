@@ -3,7 +3,7 @@ wsId:
 title: IXX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ixxgoogle_android
 appCountry: 
 released: 2021-09-23

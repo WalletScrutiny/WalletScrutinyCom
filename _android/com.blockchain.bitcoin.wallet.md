@@ -8,20 +8,20 @@ users: 10000
 appId: com.blockchain.bitcoin.wallet
 appCountry: 
 released: 2021-01-19
-updated: 2021-09-24
-version: 1.0.3.8
+updated: 2023-08-26
+version: 2.0.2
 stars: 4.5
 ratings: 729
-reviews: 61
+reviews: 63
 size: 
 website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fake
-date: 2022-10-21
+date: 2023-08-27
 signer: 
 reviewArchive:
 - date: 2021-06-04

@@ -7,8 +7,8 @@ users: 1000
 appId: com.bitmake.app
 appCountry: 
 released: 2022-07-04
-updated: 2023-07-26
-version: 1.2.8
+updated: 2023-08-11
+version: 1.2.9
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Byte Exchange Global Limited
+developerName: BITMAKE TECHNOLOGY LLC
 features: 
 
 ---

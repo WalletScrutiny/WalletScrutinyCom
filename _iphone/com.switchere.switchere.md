@@ -10,8 +10,8 @@ idd: '1550289857'
 released: 2021-11-15
 updated: 2023-07-27
 version: 1.1.12
-stars: 3.4
-reviews: 67
+stars: 3.3
+reviews: 70
 size: '41289728'
 website: https://switchere.com/
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/switchere
 - https://www.reddit.com/user/switchere
 features: 
-developerName: Fiteum OU
+developerName: SH EUROPE UAB
 
 ---
 
