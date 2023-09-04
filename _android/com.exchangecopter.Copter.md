@@ -20,7 +20,7 @@ issue:
 icon: com.exchangecopter.Copter.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-08-14
 signer: 
 reviewArchive: 
@@ -54,4 +54,4 @@ features:
 - We installed the app and was greeted with this message (Translated from Spanish using Google Translate)
   > *For the moment the web platform is disabled. Likewise, our OTC table continues to operate to be able to give you a more personalized service and enjoy a better way of operating.*
 - We were able to sign up on the website - but were then shown the same message above.
-- With no documentation and proof that the provider holds the keys, we could not make an accurate assessment of this app's verdict until more information is available. We'll keep this as a work-in-progress for the moment.
+- With no proof the app provides the private keys to the user, we're marking this app as *custodial* which makes it **non-verifiable**.

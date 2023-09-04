@@ -19,7 +19,7 @@ issue:
 icon: com.exchangecopter.Copter.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2023-08-14
 signer: 
 reviewArchive: 
