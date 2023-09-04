@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bxb.io.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
 date: 2023-08-05
 signer: 
