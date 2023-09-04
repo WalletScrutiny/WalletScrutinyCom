@@ -28,8 +28,6 @@ twitter: SMDex_io
 social:
 - https://t.me/SMDEX
 - https://www.linkedin.com/in/smdex-exchange-269bb9229
-- https://www.reddit.com/user/Smdex
-- https://discord.gg/CG22kJNDz8
 - https://www.facebook.com/SMDEX-Exchange-110161808203222
 redirect_from: 
 developerName: Devsmdex
