@@ -10,8 +10,8 @@ idd: '1602952926'
 released: 2022-02-25
 updated: 2023-07-26
 version: 1.4.5
-stars: 4.7
-reviews: 20
+stars: 4.6
+reviews: 21
 size: '70752256'
 website: https://dyorex.com/
 repository: 

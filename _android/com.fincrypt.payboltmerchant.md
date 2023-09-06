@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-18
 updated: 2022-10-25
 version: 3.0.2
-stars: 4.8
+stars: 4.9
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://paybolt.com
 repository: 

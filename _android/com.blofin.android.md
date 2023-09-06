@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-13
 updated: 2023-08-11
 version: 2.5.5
-stars: 3.7
+stars: 4.1
 ratings: 
-reviews: 6
+reviews: 9
 size: 
 website: https://blofin.com
 repository: 

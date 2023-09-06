@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xyz.snazy.snazazizventures.bitdd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

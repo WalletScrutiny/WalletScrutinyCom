@@ -3,12 +3,12 @@ wsId:
 title: AEM+
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.aem.aemplus
 appCountry: 
 released: 2022-02-27
-updated: 2023-03-18
-version: 1.0.5
+updated: 2023-09-04
+version: 1.0.12
 stars: 
 ratings: 
 reviews: 

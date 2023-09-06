@@ -3,7 +3,7 @@ wsId:
 title: LocalCoinSwap
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.localcoinswap.twa
 appCountry: 
 released: 2023-03-10

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aaatrade.CryptoExchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-03-11
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,7 @@ version: 2.10.0
 stars: 4.7
 reviews: 3
 size: '100976640'
-website: https://www.binanceinstitutional.com/
+website: https://www.ceffu.com
 repository: 
 issue: 
 icon: com.binance.custody.jpg
@@ -27,7 +27,7 @@ twitter: CeffuGlobal
 social:
 - https://www.linkedin.com/company/ceffu
 features: 
-developerName: Binance LTD
+developerName: Block Custody
 
 ---
 

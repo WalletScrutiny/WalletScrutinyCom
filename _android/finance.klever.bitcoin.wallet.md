@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-16
 updated: 2023-08-29
 version: 5.24.1
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 46
+reviews: 48
 size: 
 website: https://klever.org/
 repository: 

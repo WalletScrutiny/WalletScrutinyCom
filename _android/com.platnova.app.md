@@ -3,7 +3,7 @@ wsId:
 title: 'Platnova: Pay across the globe'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.investvoyager.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-01-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: investvoyager

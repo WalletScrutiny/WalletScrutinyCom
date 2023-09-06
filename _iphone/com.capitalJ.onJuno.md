@@ -8,11 +8,11 @@ appId: com.capitalJ.onJuno
 appCountry: us
 idd: '1525858971'
 released: 2021-02-13
-updated: 2023-08-14
-version: 3.1.9
-stars: 3.9
-reviews: 779
-size: '357226496'
+updated: 2023-09-01
+version: 3.2.0
+stars: 4
+reviews: 782
+size: '370983936'
 website: https://juno.finance
 repository: 
 issue: 

@@ -8,7 +8,7 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2023-08-16
+updated: 2023-09-01
 version: 9.2.0
 stars: 3.6
 ratings: 
