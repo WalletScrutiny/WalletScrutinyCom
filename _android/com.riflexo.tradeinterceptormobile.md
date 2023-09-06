@@ -12,7 +12,7 @@ updated: 2023-08-24
 version: 6.11.2.11
 stars: 4
 ratings: 5176
-reviews: 342
+reviews: 343
 size: 
 website: http://www.thinkmarkets.com
 repository: 

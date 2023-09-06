@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 3
 size: 
-website: https://stickey.app
+website: https://kryptogo.com
 repository: 
 issue: 
 icon: com.kryptogo.walletapp.png

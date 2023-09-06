@@ -10,8 +10,8 @@ idd: 1274956968
 released: 2017-09-05
 updated: 2023-08-02
 version: '3.67'
-stars: 4.2
-reviews: 17
+stars: 4.3
+reviews: 18
 size: '48662528'
 website: https://www.sticpay.com/
 repository: 

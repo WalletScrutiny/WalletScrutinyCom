@@ -3,17 +3,17 @@ wsId: bitqikExchange
 title: bitqik
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitqik
 appCountry: us
 idd: '1645041960'
-released: '2022-09-26T07:00:00Z'
+released: 2022-09-26
 updated: 2023-07-05
 version: 2.1.0
-stars: 3.66667
+stars: 3.7
 reviews: 3
 size: '32717824'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitqik.jpg
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/bitqikofficial
 - https://t.me/bitqik
 - https://www.tiktok.com/@bitqikofficial
-- https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA 
+- https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA
 features: 
 developerName: BITQIK SOLE CO.,LTD
 

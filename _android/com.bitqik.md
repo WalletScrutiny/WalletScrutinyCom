@@ -3,7 +3,7 @@ wsId: bitqikExchange
 title: bitqik
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitqik
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/bitqikofficial
 - https://t.me/bitqik
 - https://www.tiktok.com/@bitqikofficial
-- https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA 
+- https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA
 redirect_from: 
 developerName: bitqik
 features: 

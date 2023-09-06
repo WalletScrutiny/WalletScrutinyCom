@@ -8,8 +8,8 @@ users: 10000
 appId: com.app.atechcoins
 appCountry: 
 released: 2020-11-10
-updated: 2023-09-01
-version: 1.0.1
+updated: 2023-09-05
+version: 1.0.2
 stars: 3.5
 ratings: 85
 reviews: 6
