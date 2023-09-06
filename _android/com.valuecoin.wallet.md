@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.valuecoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

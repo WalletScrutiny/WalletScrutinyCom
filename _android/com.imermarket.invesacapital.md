@@ -3,12 +3,12 @@ wsId:
 title: 'InvesaCapital: CFD Trading App'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.imermarket.invesacapital
 appCountry: 
 released: 
-updated: 2023-07-25
-version: 2.6.1
+updated: 2023-09-01
+version: 2.6.3
 stars: 
 ratings: 
 reviews: 

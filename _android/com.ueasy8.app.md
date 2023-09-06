@@ -4,7 +4,7 @@ title: UEEx
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ueasy8.app
 appCountry: 
 released: 2021-12-28

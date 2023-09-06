@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bouspam.eritajpam.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-20
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

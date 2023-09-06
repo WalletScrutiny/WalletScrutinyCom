@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.movocash.movo.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2023-02-24
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: MovoCash

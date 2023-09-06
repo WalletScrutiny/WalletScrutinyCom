@@ -2,16 +2,17 @@
 wsId: 
 title: Exbito
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.exbito.app
 appCountry: 
 released: 2021-10-17
-updated: 2023-08-08
-version: 1.10.1007
-stars: 4.7
+updated: 2023-09-02
+version: 1.10.1012
+stars: 4.8
 ratings: 
-reviews: 22
+reviews: 25
 size: 
 website: https://exbito.com
 repository: 
@@ -19,15 +20,29 @@ issue:
 icon: com.exbito.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: custodial
+date: 2023-07-20
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: ExbitoMarket
+social:
+- https://t.me/exbitomarket
+- https://www.instagram.com/exbitomarket1
+- https://www.linkedin.com/company/exbito
 redirect_from: 
 developerName: Exbito
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> Exbito Wallet enables users to securely hold all types of cryptocurrencies. As a maximum security wallet, it is backed by the vast experience of its developer team. Safe Exbito Wallets are available in various networks offering a variety of security features.
+
+## Analysis 
+
+- With some difficulty we managed to register via the web app. 
+- We saw a BTC wallet, but before the address was shown, we were required to perform ID verification. There is documentation to support the ability to deposit Bitcoin. This is supported by the [FAQ](https://exbito.com/help/faq/).
+- This is a centralized cryptocurrency exchange and clause 3 of the [terms](https://exbito.com/terms-and-conditions/), slightly indicates that assets are secured by the provider. 
+- We were not able to find any option to back up the private keys nor were we given the mnemonics during sign up. 
+- Although there is no explicit mention of using cold-storage or how the platform treats the private keys, all indications point to a **custodial** provider.

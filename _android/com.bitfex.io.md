@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitfex.io.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-10
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,7 +8,7 @@ users: 1000
 appId: io.laxya.laxya
 appCountry: 
 released: 2022-01-20
-updated: 2022-07-06
+updated: 2023-08-23
 version: 1.0.5
 stars: 
 ratings: 

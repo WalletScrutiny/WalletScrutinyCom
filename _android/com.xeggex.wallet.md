@@ -4,7 +4,7 @@ title: XeggeX Mobile
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.xeggex.wallet
 appCountry: 
 released: 2022-07-12

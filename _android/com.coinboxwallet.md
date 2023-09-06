@@ -2,7 +2,8 @@
 wsId: 
 title: 'CBFI: Coins & Tokens Wallet'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.coinboxwallet
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.coinboxwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-08-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Non-Custodial Multi-Chain Asset Interface for Blockchain, DEFI's and NFT's: Store Bitcoin, Ethereum, Matic, Solana, Litecoin, Tron, DDKOIN, BNB, NFTs
+>
+> CoinBox Finance wallet is blockchain wallet backend technology solution provided by https://tatum.io/ . You can send, receive and store Bitcoin and many other cryptocurrencies, including NFTs safely and securely with the CoinBox Finance mobile app.
+
+## Analysis 
+
+- The app claims to support bitcoin, is non-custodial and provides the private keys to the user.
+- We tried searching for the app ID on GitHub Code but found [0 results](https://github.com/search?q=com.coinboxwallet&type=code).
+- The provider does not make any claims regarding source-availability. 
+- This app is **not source-available.**

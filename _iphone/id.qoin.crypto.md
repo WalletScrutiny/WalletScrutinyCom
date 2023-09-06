@@ -8,11 +8,11 @@ appId: id.qoin.crypto
 appCountry: us
 idd: '1629785857'
 released: 2022-07-11
-updated: 2023-07-25
-version: 1.4.13
+updated: 2023-08-31
+version: 1.4.15
 stars: 3
 reviews: 2
-size: '239120384'
+size: '256769024'
 website: 
 repository: 
 issue: 

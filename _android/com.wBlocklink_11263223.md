@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wBlocklink_11263223.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

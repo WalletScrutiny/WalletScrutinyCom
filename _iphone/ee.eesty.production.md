@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ee.eesty.production.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2022-01-10
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

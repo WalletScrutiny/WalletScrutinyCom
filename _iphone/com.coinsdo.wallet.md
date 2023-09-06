@@ -8,11 +8,11 @@ appId: com.coinsdo.wallet
 appCountry: us
 idd: '1631258517'
 released: 2022-07-12
-updated: 2023-07-30
-version: 1.1.23
-stars: 0
-reviews: 0
-size: '113222656'
+updated: 2023-09-06
+version: 1.1.24
+stars: 5
+reviews: 2
+size: '116275200'
 website: 
 repository: 
 issue: 

@@ -2,7 +2,8 @@
 wsId: 
 title: Huoancoin
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.app.huoancoin
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.app.huoancoin.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-06-03
+date: 2023-08-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Huoancoin is abbreviated as HAB. It is a decentralized blockchain digital asset based on Huoan Coin.
+
+## Analysis 
+
+- The website listed on the developer contact is no longer online.
+- When we installed the app, it merely showed a "webpage not available" error.
+- This app is **defunct.**

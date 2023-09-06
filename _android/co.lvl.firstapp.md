@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.lvl.firstapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-11-02
+date: 2023-08-31
 signer: 
 reviewArchive: 
 twitter: BankWithLVL

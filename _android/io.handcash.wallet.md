@@ -7,8 +7,8 @@ users: 100000
 appId: io.handcash.wallet
 appCountry: 
 released: 2019-09-10
-updated: 2023-07-13
-version: 5.4.0
+updated: 2023-09-01
+version: 5.4.3
 stars: 4.6
 ratings: 581
 reviews: 91

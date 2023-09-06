@@ -7,8 +7,8 @@ users: 500
 appId: mudra.exchange
 appCountry: 
 released: 2022-02-04
-updated: 2023-07-29
-version: 1.4.15
+updated: 2023-08-23
+version: 1.4.16
 stars: 
 ratings: 
 reviews: 

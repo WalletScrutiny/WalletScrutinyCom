@@ -21,7 +21,7 @@ issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: wip
 date: 2022-10-21
 signer: 
 reviewArchive: 
