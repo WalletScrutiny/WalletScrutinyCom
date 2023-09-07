@@ -48,5 +48,4 @@ features:
   - They have the right to freeze, suspend and terminate user's access to the account.
   > VYNKSAFE has been committed to maintaining the security of User entrusted funds. 
 - The last quoted statement implies that funds are in their custody. Although not explicitly mentioning "cold-storage" or "custodial solutions", we can derive from the statement above that the user will have to entrust their funds with the platform.
-- A search for the app ID on GitHub, shows [0 results.](https://github.com/search?q=com.vynksafe.app&type=code)
 - This is a **custodial** provider and the app is **not verifiable**.
