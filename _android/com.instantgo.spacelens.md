@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: spacelensBlockchain
 title: 'Spacelens: Blockchain Commerce'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.instantgo.spacelens
 appCountry: 
@@ -19,15 +20,26 @@ issue:
 icon: com.instantgo.spacelens.jpg
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2023-07-04
+verdict: nobtc
+date: 2023-08-14
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: thespacelens
+social:
+- https://t.me/spacelens
+- https://www.facebook.com/SpaceLens
 redirect_from: 
 developerName: Madrid Ventures SL
 features: 
 
 ---
 
+## App Description from Google Play
+
+  > Buy, sell, swap products and services around your space. Get great deals and offers locally.
+  >
+  > Send and receive cryptocurrencies with an Ethereum wallet and manage ERC-20 tokens and coins.
+
+## Analysis 
+
+- Although we were able to find a 12-word seed phrase, we could **not find a BTC wallet**.
