@@ -62,7 +62,7 @@ features:
   - "One wallet for all networks"
   - Has an [AML Policy](https://sekiapp.com/aml-policy)
 - We asked support via chat if their service allows the withdrawal of cryptocurrencies. Their [reply:](https://twitter.com/BitcoinWalletz/status/1690916578622353408)
-  > "Well the answer is yes, provided that your account is verified."
+  > "Well the answer is yet, provided that your account is verfied."
 - From their [blog](https://blog.sekiapp.com/2022/08/16/cryptocurrency-terms-you-need-to-know/) post:
   > To access your wallet address on SekiApp, tap on “Trade Crypto” and navigate to “Receive Crypto”; you’ll see your “Crypto Address” right there.
 - They [also need a BVN](https://blog.sekiapp.com/2023/04/28/crypto-security-showdown-how-to-secure-your-sekiapp-account/), or a bank verification number and a selfie. It is only after an account is verified when more features are made available.
