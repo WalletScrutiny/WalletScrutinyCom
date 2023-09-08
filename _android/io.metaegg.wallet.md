@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.metaegg.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-28
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: Metaegg_io

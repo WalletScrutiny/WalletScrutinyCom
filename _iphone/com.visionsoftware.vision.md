@@ -12,7 +12,7 @@ released: 2020-04-01
 updated: 2023-01-22
 version: 2.4.46
 stars: 4.7
-reviews: 38
+reviews: 39
 size: '122827776'
 website: https://www.vision-crypto.com
 repository: 

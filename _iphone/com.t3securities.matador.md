@@ -8,11 +8,11 @@ appId: com.t3securities.matador
 appCountry: us
 idd: '1204112719'
 released: 2017-03-13
-updated: 2023-08-29
-version: 4.6.28
+updated: 2023-09-07
+version: 4.7.1
 stars: 4.7
-reviews: 65310
-size: '219030528'
+reviews: 65344
+size: '220115968'
 website: https://public.com
 repository: 
 issue: 

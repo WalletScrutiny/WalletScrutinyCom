@@ -8,8 +8,8 @@ users: 50000
 appId: africa.obiex.app
 appCountry: 
 released: 2021-06-09
-updated: 2023-08-19
-version: 3.4.0
+updated: 2023-09-08
+version: 3.4.1
 stars: 4.3
 ratings: 
 reviews: 31

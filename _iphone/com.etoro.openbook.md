@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2023-09-05
 version: 599.0.0
 stars: 4.2
-reviews: 5761
+reviews: 5766
 size: '189643776'
 website: https://www.etoro.com/en-us/
 repository: 

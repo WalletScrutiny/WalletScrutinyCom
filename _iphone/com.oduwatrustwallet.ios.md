@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oduwatrustwallet.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-30
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: Oduwacoin

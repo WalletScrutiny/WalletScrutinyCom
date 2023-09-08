@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-04-03
 updated: 2023-09-04
 version: 2.12.2
-stars: 4.2
+stars: 4.1
 ratings: 5691
-reviews: 417
+reviews: 420
 size: 
 website: https://www.bitget.com/
 repository: 

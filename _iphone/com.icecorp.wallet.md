@@ -8,11 +8,11 @@ appId: com.icecorp.wallet
 appCountry: tr
 idd: '1629607532'
 released: 2022-11-28
-updated: 2023-04-11
-version: 3.0.3
+updated: 2023-08-29
+version: 3.0.5
 stars: 5
 reviews: 8
-size: '42588160'
+size: '35749888'
 website: 
 repository: 
 issue: 

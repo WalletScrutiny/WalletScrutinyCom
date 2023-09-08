@@ -8,8 +8,8 @@ appId: finance.liquidus.wallet
 appCountry: pk
 idd: '1625544806'
 released: 2023-01-25
-updated: 2023-08-17
-version: 1.0.9
+updated: 2023-09-04
+version: 1.0.10
 stars: 0
 reviews: 0
 size: '54330368'

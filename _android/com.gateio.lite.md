@@ -4,7 +4,7 @@ title: 'Gate Lite: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.gateio.lite
 appCountry: 
 released: 2022-07-01

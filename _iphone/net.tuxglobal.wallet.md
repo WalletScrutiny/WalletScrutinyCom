@@ -9,10 +9,10 @@ appCountry: kw
 idd: '1495945761'
 released: 2020-02-04
 updated: 2023-08-18
-version: 1.7.5
+version: 1.7.6
 stars: 0
 reviews: 0
-size: '82891776'
+size: '82908160'
 website: https://tux-wallet.com/
 repository: 
 issue: 

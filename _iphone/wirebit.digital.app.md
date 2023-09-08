@@ -8,11 +8,11 @@ appId: wirebit.digital.app
 appCountry: dz
 idd: '1563970813'
 released: 2021-09-01
-updated: 2023-06-13
-version: 1.12.2
+updated: 2023-08-24
+version: 1.12.3
 stars: 0
 reviews: 0
-size: '27167744'
+size: '27229184'
 website: 
 repository: 
 issue: 

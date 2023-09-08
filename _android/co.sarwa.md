@@ -1,6 +1,6 @@
 ---
 wsId: sarwaApp
-title: Sarwa
+title: 'Sarwa: Invest, Trade & Save'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 100000
 appId: co.sarwa
 appCountry: 
 released: 2021-04-04
-updated: 2023-08-15
+updated: 2023-09-08
 version: 5.0.0
 stars: 3.3
 ratings: 

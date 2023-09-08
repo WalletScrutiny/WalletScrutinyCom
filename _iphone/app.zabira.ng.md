@@ -8,11 +8,11 @@ appId: app.zabira.ng
 appCountry: us
 idd: '1603796325'
 released: 2022-04-05
-updated: 2023-05-21
-version: 1.0.27
-stars: 2.6
-reviews: 31
-size: '48162816'
+updated: 2023-09-05
+version: 1.0.28
+stars: 2.9
+reviews: 35
+size: '60560384'
 website: 
 repository: 
 issue: 

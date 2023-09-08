@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.overline.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-04-29
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: overlinenetwork

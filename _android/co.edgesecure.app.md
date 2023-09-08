@@ -11,7 +11,7 @@ appCountry:
 released: 2018-03-01
 updated: 2023-08-28
 version: 3.16.0
-stars: 4
+stars: 4.1
 ratings: 3880
 reviews: 634
 size: 

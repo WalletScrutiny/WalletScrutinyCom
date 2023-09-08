@@ -8,11 +8,11 @@ appId: com.cointr
 appCountry: us
 idd: '1637395401'
 released: 2022-08-18
-updated: 2023-06-23
-version: 2.0.4
+updated: 2023-09-06
+version: 2.0.5
 stars: 5
 reviews: 4
-size: '91008000'
+size: '124305408'
 website: 
 repository: 
 issue: 

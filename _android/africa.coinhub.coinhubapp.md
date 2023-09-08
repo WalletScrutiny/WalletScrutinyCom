@@ -3,7 +3,7 @@ wsId:
 title: Coinhub
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: africa.coinhub.coinhubapp
 appCountry: 

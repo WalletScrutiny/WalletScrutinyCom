@@ -9,8 +9,8 @@ idd: '1496578894'
 released: 2020-06-05
 updated: 2023-08-07
 version: 2.2.16
-stars: 3
-reviews: 9
+stars: 3.1
+reviews: 8
 size: '63354880'
 website: http://kamix.fr
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.treeum.multi.invest.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-08-15
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: 

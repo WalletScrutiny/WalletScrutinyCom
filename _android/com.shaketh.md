@@ -12,7 +12,7 @@ updated: 2023-08-31
 version: 1.16.10
 stars: 4.5
 ratings: 10533
-reviews: 20
+reviews: 19
 size: 
 website: https://shakepay.com
 repository: 

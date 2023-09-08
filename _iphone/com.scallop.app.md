@@ -8,11 +8,11 @@ appId: com.scallop.app
 appCountry: bg
 idd: '1599717690'
 released: 2021-12-10
-updated: 2023-06-19
-version: 1.2.5
+updated: 2023-09-04
+version: 1.2.7
 stars: 0
 reviews: 0
-size: '120329216'
+size: '123216896'
 website: https://scallopx.com/
 repository: 
 issue: 
