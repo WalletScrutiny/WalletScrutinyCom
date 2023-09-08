@@ -61,4 +61,4 @@ features:
 - We were provided with a Bech32 BTC address
 - The seed phrases can be backed-up via the security and backup settings.
 
-This app is **for verification**.
+This app is **[for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497)**.
