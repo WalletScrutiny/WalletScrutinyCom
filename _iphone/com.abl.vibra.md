@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.abl.vibra.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-03
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: VibraAfrica

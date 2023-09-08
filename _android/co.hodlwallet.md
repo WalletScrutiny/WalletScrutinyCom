@@ -4,6 +4,7 @@ title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: co.hodlwallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: co.hodlwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nonverifiable
-date: 2022-05-09
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: hodlwallet
@@ -34,6 +35,34 @@ developerName: Hodl Wallet INC
 features: 
 
 ---
+
+## App and Company History
+
+- Today the url coin.cloud/app redirects to a different domain [(bitstop.co)](https://bitstop.co/), with different apps:
+  - {% include walletLink.html wallet='android/co.hodlwallet' verdict='true' %}
+  - {% include walletLink.html wallet='iphone/co.hodlwallet' verdict='true' %}
+
+- Genesis Coin, Inc. [was acquired](https://www.nasdaq.com/articles/worlds-largest-bitcoin-atm-software-platform-acquired-by-bitstop-founders) by BitStop founders, January 2023
+- Coin Cloud has filed for Chapter 11 bankruptcy last February 2023
+- Coin Cloud was [acquired](https://www.atmmarketplace.com/news/genesis-coin-to-add-more-than-5700-crypto-atms-from-coincloud/) by Genesis Coin in July 2023
+
+We didn't dig further as to why the dates don't line up. Our guess is it has something to do with paperwork and filings that do not coincide with the press releases. But ultimately, BitStop became the surviving monolithic entity - hence, the reason for the redirection of the domains. 
+
+## Why does Coin Cloud have so many apps? 
+
+Bad versioning. We took a look at the history of the url "coin.cloud/app" and found that the app was different. 
+
+**For [June 2021](https://web.archive.org/web/20210616162825/https://coin.cloud/app) the linked apps were:**
+
+- {% include walletLink.html wallet='android/com.bitpay.coincloud' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bitpay.coincloud' verdict='true' %}
+
+**For [March 2023](https://web.archive.org/web/20230316190543/https://coin.cloud/app) the linked apps were:**
+
+- {% include walletLink.html wallet='android/com.coincloud.walletpreview' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.coincloud.walletpreview' verdict='true' %}
+
+## Main Review dated 2022-05-09
 
 **Update**: The developer closed
 [the issue where we asked for help](https://github.com/hodlwallet/hodl-wallet-android/issues/50)

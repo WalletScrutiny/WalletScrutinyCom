@@ -8,11 +8,11 @@ appId: com.taralwallet
 appCountry: us
 idd: '1619475267'
 released: 2022-04-21
-updated: 2023-06-21
-version: '2.5'
+updated: 2023-08-14
+version: '2.9'
 stars: 1
 reviews: 1
-size: '180552704'
+size: '183694336'
 website: 
 repository: 
 issue: 

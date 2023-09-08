@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptinix.app.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2023-07-17
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

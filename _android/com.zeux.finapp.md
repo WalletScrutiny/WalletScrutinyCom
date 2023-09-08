@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-11-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: ZeuxApp

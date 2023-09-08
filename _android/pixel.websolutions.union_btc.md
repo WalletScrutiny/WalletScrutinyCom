@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pixel.websolutions.union_btc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-02
 signer: 
 reviewArchive: 
 twitter: 

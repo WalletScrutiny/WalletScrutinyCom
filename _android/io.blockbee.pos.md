@@ -7,8 +7,8 @@ users: 100
 appId: io.blockbee.pos
 appCountry: 
 released: 2022-08-30
-updated: 2023-08-10
-version: 1.0.1.0
+updated: 2023-08-25
+version: 1.0.1.1
 stars: 
 ratings: 
 reviews: 

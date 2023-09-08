@@ -7,8 +7,8 @@ users: 1000
 appId: mn.ailab.corex
 appCountry: 
 released: 2021-11-24
-updated: 2023-08-16
-version: 2.0.36
+updated: 2023-09-04
+version: 2.0.48
 stars: 
 ratings: 
 reviews: 

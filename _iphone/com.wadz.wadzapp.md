@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wadz.wadzapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-06-10
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: wadzpay

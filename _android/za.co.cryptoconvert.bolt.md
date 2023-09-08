@@ -7,8 +7,8 @@ users: 500
 appId: za.co.cryptoconvert.bolt
 appCountry: 
 released: 2022-05-16
-updated: 2022-08-02
-version: 1.1.19
+updated: 2023-08-24
+version: 1.1.65
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: za.co.cryptoconvert.bolt.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-07-28
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: 

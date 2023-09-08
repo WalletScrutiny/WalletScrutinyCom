@@ -2,7 +2,8 @@
 wsId: 
 title: DEXFIN
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100
 appId: com.dexfin.dexfin
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.dexfin.dexfin.png
 bugbounty: 
 meta: stale
 verdict: fewusers
-date: 2022-12-17
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,9 @@ features:
 
 ---
 
+This app is from the same [developer](https://play.google.com/store/apps/dev?id=6139388936009702585) as {% include walletLink.html wallet='android/com.dexfin.mpcwallet' verdict='true' %}
+
+- One core distinguishing factor is that this app supports staking.
+- The other app supports NFTs
+- Both can be linked to their exchange.
+- Analyzed only in the context of comparison to the other app since this app only has a **few users**.

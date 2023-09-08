@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-13
 updated: 2023-01-13
 version: '1.0'
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://bitgert.exchange
 repository: 

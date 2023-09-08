@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
-stars: 4.5
+stars: 4.2
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://icmarkets.com
 repository: 

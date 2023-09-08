@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.clubswan.app2.Clubswan.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-05-17
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: clubswanapp
