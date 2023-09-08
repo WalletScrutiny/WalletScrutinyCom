@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aximetria.aximetria.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
-date: 2021-11-26
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: aximetriagmbh
@@ -33,6 +33,19 @@ developerName:
 features: 
 
 ---
+
+## Update 2023-09-08 Notes on Similar Apps
+
+This app is now available again after being marked as defunct in 2021.
+
+Aximetria GmbH has two apps which seem to alternate being offline and online. 
+
+- {% include walletLink.html wallet='android/com.aximetria.aximetria' verdict='true' %}
+- {% include walletLink.html wallet='android/com.aximetria.prod' verdict='true' %}
+
+- The website aximetria.com [currently links](https://twitter.com/dannybuntu/status/1699942968780808491) to the offline app
+
+- A good reason for this could be from the fact that Aximetria [was acquired](https://www.reuters.com/technology/russian-lender-tcs-buys-swiss-crypto-exchange-aximetria-2022-01-12/) by TCS in July 2022.
 
 **Update 2021-11-14**: This app is not on Play Store anymore.
 

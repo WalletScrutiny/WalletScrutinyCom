@@ -51,7 +51,6 @@ features:
   >  {"account":"daniel.walletscrutiny@gmail.com","sub_symbol":"BTC", "uid":"1000109720"}
 - No identifiable BTC address presented in a text string was given. 
 - The User Agreement can only be found in the app and does not contain much information about the wallet. 
-- We confirmed that it was not source-available by searching for the app ID on [GitHub code](https://github.com/search?q=com.metapay.mymetapay&type=code).
 - There was also an option to buy. But it was not accessible and the app asked us to verify our "real name identity" first. 
 - We are somewhat placed in a quandary whether to label this as "custodial" or as not a wallet for bitcoin. On one hand, the QR code in the field with a BTC logo, did not even provide a BTC address of any sort but a user ID. The other bitcoin apps that we tried to scan the QR code simply gave an error. 
 - On the other hand, presuming that the app does have capabilities to accept Bitcoin, it definitely is a custodial app because no private keys were given. 
