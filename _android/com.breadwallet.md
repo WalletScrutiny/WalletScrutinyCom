@@ -19,7 +19,7 @@ repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg
 bugbounty: 
-meta: stale
+meta: deprecated
 verdict: nosource
 date: 2023-03-14
 signer: 

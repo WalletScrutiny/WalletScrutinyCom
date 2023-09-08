@@ -22,6 +22,7 @@ android:
     - obsolete
     - stale
     - outdated
+    - deprecated
 iphone:
   description: >
     On the Apple App Store, there are many apps that have Bitcoin in their
@@ -67,6 +68,7 @@ iphone:
     - obsolete
     - stale
     - outdated
+    - deprecated
 hardware:
   description: >
     There is no globally accepted definition of a hardware wallet. Some consider
@@ -109,6 +111,7 @@ hardware:
     - stale
     - outdated
     - discontinued
+    - deprecated
 bearer:
   description: >
     Bearer tokens are meant to be passed on from one user to another similar
@@ -159,3 +162,4 @@ bearer:
     - stale
     - outdated
     - discontinued
+    - deprecated
