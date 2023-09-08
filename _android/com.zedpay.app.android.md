@@ -52,7 +52,7 @@ features:
 
 ## Analysis 
 
-- We signed up for the service and was able to find a Bech32 BTC address along with other accounts and currencies.
+- We signed up for the service and were able to find a Bech32 BTC address along with other accounts and currencies.
 - We were not provided with the seed phrases. 
 - Withdrawal is only possible after KYC verification.
 - More information [about the wallet](https://zed-pay.com/blog/15):
@@ -60,6 +60,5 @@ features:
   >
   > Your ZedPay Wallet uses advanced encryption techniques to ensure your payment information is never stolen from your smartphone, and they are highly secure as they are usually used for fingerprint-only payments and reside on password-protected devices. Many wallets also have additional security protocols, such as two-factor authentication and one-time PINs, that can be used as needed.
 - The [Terms](https://zed-pay.com/view/terms) is very sparse in the way of documentation. 
-- We searched for the app ID on GitHub Code and found [0 results](https://github.com/search?q=com.zedpay.app.android&type=code)
 - We could not find any concrete indicator of the app providing the private keys to the user. We created a ticket via their web platform and asked this specific question. 
 - Meanwhile, absent the private keys, we determine this app to be a **custodial** one that is **not verifiable**.
