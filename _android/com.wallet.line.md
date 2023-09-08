@@ -42,5 +42,5 @@ features:
 - We then tried to access the site by typing out the url. We were successful. 
 - However, when we try to login, an error 404 appears.
 - The first interaction with the app asks us to choose to 'create wallet' or 'import wallet'. 
-- We chose 'create wallet'. We nominated a password and tapped 'next', but nothing happened. Then, we reproduced this app behavior and found the same on our mobile device. The app simply won't proceed. 
+- We chose 'create wallet'. We set a password and tapped 'next', but nothing happened. Then, we reproduced this app behavior and found the same on our mobile device. The app simply won't proceed. 
 - Most indications point to a **defunct** app.

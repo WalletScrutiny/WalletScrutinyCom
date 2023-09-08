@@ -46,11 +46,11 @@ features:
 
 ## Analysis 
 
-- This is a multi-currency wallet with BSV support.
+- This is a multi-currency wallet.
 - We installed the app and were provided the seed phrases prior to email sign-up. 
 - There was a BTC wallet with a legacy address.
 - Users can opt to not sign up with the service. 
-- The developers claim that this app was built from {% include walletLink.html wallet='android/com.breadwallet' verdict='true' %}
+- The developers claim that this app was derived from {% include walletLink.html wallet='android/com.breadwallet' verdict='true' %} which was code-available in the past.
 - They also claim to be source-available.
 - Unlike Bread Wallet which has a Business Source license, the license for this app is an MIT license.
 - We will put this app up **for verification**.
