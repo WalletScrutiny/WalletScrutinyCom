@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.exchangejl.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-05-11
+date: 2023-08-30
 signer: 
 reviewArchive: 
 twitter: Krypterzxchange
@@ -34,6 +34,16 @@ developerName: Krypterz Exchange
 features: 
 
 ---
+
+## Updated Review 2023-08-30
+
+It's been several months since we emailed krypterz and they haven't replied. We tested the app again on two platforms, and in both instances, it did not work. 
+
+At this point, this app is **no longer working**.
+
+
+
+## Previous Review 2023-05-11
 
 ## App Description from Google Play 
 

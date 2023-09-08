@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: dtsWallet
 title: DTS wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.wallex.dts
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.wallex.dts.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-08-30
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> DTS wallet is an easy-to-use custodial crypto wallet. Safely receive, store, send and exchange the most popular cryptocurrencies though our app.
+>
+> Crypto wallets, instant exchange, spend crypto with card and track your portfolio, all in one.
+
+## Analysis 
+
+As the description states, this is a **custodial** service. This is also corroborated in the Terms of Use in [Section 4.3.2.](https://dtswallet.io/dtswallet-terms.pdf). This makes the app **non-verifiable**.
