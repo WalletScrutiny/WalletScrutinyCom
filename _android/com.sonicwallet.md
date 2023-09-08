@@ -47,9 +47,9 @@ features:
 
 ## Analysis 
 
-- This is [proof](https://www.sonicwallet.com/buy-sell-bitcoin-crypto) that the app supports BTC.
-- First we checked GitHub code if a search for the app ID gave any results. We [found none](https://github.com/search?q=com.sonicwallet&type=code).
+- This app [supports BTC](https://www.sonicwallet.com/buy-sell-bitcoin-crypto).
 - The app claims to be a self-custodial wallet. In its [terms of use.](https://www.sonicwallet.com/terms-of-use) 
+- First we checked GitHub code if a search for the app ID gave any results. We [found none](https://github.com/search?q=com.sonicwallet&type=code).
 - We then tested it but failed to receive SMS verification.
 
 It describes some of its software as developed by the Open Source community - but does not give a link to its GitHub organization or repository. We did not find any links to either and hence, mark this app as **not source-available**.
