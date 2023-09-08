@@ -50,6 +50,5 @@ The description generally describes a cryptocurrency exchange.
   - Requiring to pass KYC in order to increase limits
 - We were not provided with the mnemonic phrases
 - No option to back up the private keys are available in the options.
-- There are [0 results](https://github.com/search?q=com.nexdax&type=code) when searching for the app ID in GitHub code.
 - We determine that this is a **custodial** platform because the private keys were not provided to the user. This makes the app **non-verifiable**.
 

@@ -71,7 +71,6 @@ features:
 ## Analysis 
 
 - We downloaded the app and tried signing up, but the app kept telling us that *"User name is not available"*. We even tried random letters and numbers, and we still couldn't sign up. We confirmed this on two devices.
-- Then, we tried searching for the app ID in GitHub Code and found 1 [irrelevant instance.](https://github.com/search?q=com.scallopxledger&type=code)
 - The Google Play text seems to describe a hardware wallet and a software wallet. But it isn't definitely clear since it described both items in the same sentence. The next step for us would be to look at its Help pages, if available.
 - This [video](https://www.youtube.com/watch?v=b0qdWYxw-3o) shows us that the app supports multi-currency wallets.
 - Scallop offers a complex service which integrates hardware wallets, crypto wallets, IBAN accounts, debit cards, fiat on and off-ramps, and hardware wallets. 
