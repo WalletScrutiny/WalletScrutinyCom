@@ -7,7 +7,7 @@ users: 100
 appId: com.beyondwallet.app
 appCountry: 
 released: 2021-01-11
-updated: 2023-07-28
+updated: 2023-09-01
 version: VARY
 stars: 
 ratings: 

@@ -1,6 +1,6 @@
 ---
 wsId: binance
-title: 'Binance: BTC, Crypto and NFTS'
+title: 'Binance: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 50000000
 appId: com.binance.dev
 appCountry: 
 released: 2017-10-25
-updated: 2023-08-21
+updated: 2023-09-04
 version: 2.69.3
 stars: 4.4
 ratings: 619117
-reviews: 9935
+reviews: 9997
 size: 
 website: https://www.binance.com/
 repository: 

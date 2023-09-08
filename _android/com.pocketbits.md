@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'PocketBits: 0% Fee Bitcoin & C'
+title: 'PocketBits: Buy BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.pocketbits
 appCountry: 
 released: 2021-08-03
-updated: 2023-08-24
-version: 1.3.6
+updated: 2023-08-31
+version: 1.3.7
 stars: 4.9
 ratings: 
 reviews: 10

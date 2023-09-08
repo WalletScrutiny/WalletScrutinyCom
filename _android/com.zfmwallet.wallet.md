@@ -2,7 +2,8 @@
 wsId: 
 title: ZFM WALLET
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.zfmwallet.wallet
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.zfmwallet.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nobtc
+date: 2023-08-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,16 @@ features:
 
 ---
 
+## App Description from Google Play
+
+  > ZFMCOIN Official Crypto Wallet: Store ZFM, BNB, ETH, BUSD, BTC
+  >
+  > ZFM Wallet is the official crypto wallet of ZFMCOIN. You can send, receive and store ZFM and many other cryptocurrencies and digital assets safely and securely with the ZFM Wallet mobile app.
+  >
+  > - Buy ZFM or Crypto with EUR or USD
+  > - ZFM Wallet - Binance Smart Chain, BEP20 support
+  > - Best digital wallet to securely store private keys on your device
+
+## Analysis 
+
+- Despite claims that it supports BTC, it only supports BTCB, BTCST and WBTC. All of which are tokenized versions of BTC. Therefore, there is **no BTC support**.

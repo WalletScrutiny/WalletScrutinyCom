@@ -12,7 +12,7 @@ updated: 2023-08-01
 version: 139.24.0
 stars: 4
 ratings: 987
-reviews: 870
+reviews: 876
 size: 
 website: https://foldapp.com
 repository: 

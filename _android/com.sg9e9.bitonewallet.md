@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sg9e9.bitonewallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

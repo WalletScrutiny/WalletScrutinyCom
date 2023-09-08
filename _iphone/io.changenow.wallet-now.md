@@ -8,11 +8,11 @@ appId: io.changenow.wallet-now
 appCountry: us
 idd: '1591216386'
 released: 2021-10-23
-updated: 2023-07-31
-version: 3.6.6
+updated: 2023-08-29
+version: 3.7.0
 stars: 4.5
-reviews: 340
-size: '103207936'
+reviews: 346
+size: '107939840'
 website: https://walletnow.app
 repository: 
 issue: 

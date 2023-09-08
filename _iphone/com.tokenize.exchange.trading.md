@@ -10,8 +10,8 @@ idd: 1495765876
 released: 2020-02-02
 updated: 2023-04-18
 version: 2.0.16
-stars: 0
-reviews: 0
+stars: 2
+reviews: 1
 size: '82540544'
 website: https://tokenize.exchange
 repository: 

@@ -4,7 +4,7 @@ title: Mal.io bitcoin buy trade
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11

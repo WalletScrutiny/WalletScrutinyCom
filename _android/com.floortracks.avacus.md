@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Avacus
+title: Avacus Legacy
 altTitle: 
 authors: 
 users: 1000
 appId: com.floortracks.avacus
 appCountry: 
 released: 2018-09-13
-updated: 2023-07-17
-version: 6.4.1
+updated: 2023-08-28
+version: 6.4.2
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: https://avacus.cc/
 repository: 
 issue: 
-icon: com.floortracks.avacus.png
+icon: com.floortracks.avacus.jpg
 bugbounty: 
 meta: ok
 verdict: wip

@@ -12,7 +12,7 @@ updated: 2023-08-17
 version: '2.6'
 stars: 4.4
 ratings: 
-reviews: 672
+reviews: 675
 size: 
 website: https://3commas.io
 repository: 

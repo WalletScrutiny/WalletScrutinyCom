@@ -1,5 +1,5 @@
 ---
-wsId: patriciaapp
+wsId: patriciaApp
 title: Patricia
 altTitle: 
 authors:
@@ -21,7 +21,7 @@ icon: com.patriciaapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-10-01
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch
@@ -32,6 +32,30 @@ developerName: Patricia Technologies
 features: 
 
 ---
+
+## Notes on Different App Versions
+
+The current pairing for the main Patricia app (Blue icon) consists of:
+
+- {% include walletLink.html wallet='android/com.patriciaapp' verdict='true' %}
+- {% include walletLink.html wallet='iphone/app.patricia' verdict='true' %} 
+
+Now, one may ask, "What about this other iOS app?" 
+
+- {% include walletLink.html wallet='iphone/com.patricia.build' verdict='true' %}
+
+We find out that it used to be the iOS counterpart for the main Android Patricia app as seen in this [2020 archive.org entry.](https://web.archive.org/web/20200531021144/http://www.mypatricia.co/). 
+
+### What about Patricia Universe?
+
+- {% include walletLink.html wallet='android/com.patriciauniverse' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.patriciauniverse.app' verdict='true' %}
+
+We were not able to find a dedicated section on the website about the difference between Patricia Universe and the Patricia app. But, we do know that it came from the [**same developer**](https://play.google.com/store/apps/developer?id=Patricia+Technologies).
+
+We will not tackle the nuances in this segment but on the individual review. Suffice to say, Patricia Universe is akin to a parent brand for Patricia Technologies, Ltd.
+
+## Main Review 2021-10-01
 
 > Receive funds through your Patricia Bitcoin wallet. Its safe, easy and accessible at anytime!
 

@@ -10,9 +10,9 @@ appCountry: ca
 released: 2019-05-16
 updated: 2022-12-19
 version: 3.1.5
-stars: 3.4
+stars: 3.3
 ratings: 1231
-reviews: 106
+reviews: 110
 size: 
 website: http://www.coinfield.com
 repository: 

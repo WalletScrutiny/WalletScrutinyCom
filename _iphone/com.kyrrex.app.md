@@ -10,8 +10,8 @@ idd: '1604879846'
 released: 2022-01-28
 updated: 2023-02-28
 version: 4.0.6
-stars: 4.6
-reviews: 13
+stars: 4.4
+reviews: 14
 size: '65221632'
 website: https://kyrrex.com
 repository: 

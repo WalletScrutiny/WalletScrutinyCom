@@ -4,7 +4,7 @@ title: Bitcoin Hack
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitcoin.hack
 appCountry: 
 released: 2022-08-15

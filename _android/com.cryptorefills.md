@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'CryptoRefills: Buy Gift Cards '
+title: Cryptorefills
 altTitle: 
 authors: 
 users: 50000

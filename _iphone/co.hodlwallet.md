@@ -4,6 +4,7 @@ title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 appId: co.hodlwallet
 appCountry: 
 idd: 1382342568
@@ -11,7 +12,7 @@ released: 2018-08-01
 updated: 2023-07-13
 version: '1.13'
 stars: 3.9
-reviews: 125
+reviews: 126
 size: '36992000'
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios
@@ -20,7 +21,7 @@ icon: co.hodlwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-07-17
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: hodlwallet

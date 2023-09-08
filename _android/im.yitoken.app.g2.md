@@ -7,8 +7,8 @@ users: 100
 appId: im.yitoken.app.g2
 appCountry: 
 released: 2021-06-15
-updated: 2023-05-25
-version: 1.3.4
+updated: 2023-08-24
+version: 1.3.5
 stars: 
 ratings: 
 reviews: 

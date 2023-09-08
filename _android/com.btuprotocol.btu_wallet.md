@@ -8,11 +8,11 @@ users: 10000
 appId: com.btuprotocol.btu_wallet
 appCountry: ba
 released: 2021-03-15
-updated: 2023-07-05
-version: 2.15.5
-stars: 4.2
+updated: 2023-09-06
+version: 2.15.9
+stars: 4.1
 ratings: 156
-reviews: 129
+reviews: 130
 size: 
 website: https://get-verso.com
 repository: 

@@ -4,7 +4,7 @@ title: 'Snappy Exchange: Redeeming App'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: esw.snappyexchange.snappyexchange
 appCountry: 
 released: 2022-01-15
