@@ -8,11 +8,11 @@ appId: ru.trustpool.wallet
 appCountry: us
 idd: '1607319106'
 released: 2022-02-09
-updated: 2023-08-16
-version: 2.4.7
+updated: 2023-09-06
+version: 2.5.1
 stars: 5
 reviews: 5
-size: '48845824'
+size: '52304896'
 website: https://frostwallet.cc
 repository: 
 issue: 

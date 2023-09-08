@@ -1,6 +1,6 @@
 ---
 wsId: coldStorageCoinsApp
-title: Cold Storage Coins
+title: Blockchain Mint
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.coldstoragecoins
 appCountry: 
 released: 2018-08-14
-updated: 2023-03-27
-version: 3.3.2
+updated: 2023-09-06
+version: 3.9.1
 stars: 2.7
 ratings: 
 reviews: 32

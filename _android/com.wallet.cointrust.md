@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinTrust Inc
+developerName: MintMyBitcoin | Cloud Services
 features: 
 
 ---

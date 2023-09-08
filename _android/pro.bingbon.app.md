@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-18
 updated: 2023-08-31
 version: 3.65.3
-stars: 4.3
+stars: 4.2
 ratings: 2828
-reviews: 586
+reviews: 589
 size: 
 website: https://bingx.com
 repository: 

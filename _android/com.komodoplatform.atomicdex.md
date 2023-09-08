@@ -12,7 +12,7 @@ updated: 2023-06-23
 version: 0.6.5
 stars: 4.6
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://atomicdex.io
 repository: 

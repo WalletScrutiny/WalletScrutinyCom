@@ -34,7 +34,7 @@ social:
 - https://www.tiktok.com/@giddydefi
 - https://web.telegram.org/k/#@giddydefi
 redirect_from: 
-developerName: DefiQ
+developerName: 'Giddy: Secure Crypto Wallet'
 features: 
 
 ---

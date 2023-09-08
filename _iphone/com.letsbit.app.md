@@ -10,8 +10,8 @@ idd: '1644159531'
 released: 2022-12-07
 updated: 2023-09-04
 version: 1.16.0
-stars: 4.6
-reviews: 127
+stars: 4.5
+reviews: 130
 size: '43467776'
 website: https://www.letsbit.io
 repository: 

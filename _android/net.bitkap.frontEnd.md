@@ -8,8 +8,8 @@ users: 10000
 appId: net.bitkap.frontEnd
 appCountry: 
 released: 2021-11-21
-updated: 2023-07-25
-version: '1.2'
+updated: 2023-09-07
+version: 1.3.0
 stars: 3.5
 ratings: 
 reviews: 17

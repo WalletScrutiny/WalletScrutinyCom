@@ -7,8 +7,8 @@ users: 10
 appId: adyone.in.pay2pal
 appCountry: 
 released: 2023-03-04
-updated: 2023-09-04
-version: 1.2.5
+updated: 2023-09-07
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 

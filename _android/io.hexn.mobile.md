@@ -12,7 +12,7 @@ updated: 2023-08-28
 version: 1.1.2
 stars: 4.5
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://hexn.io
 repository: 

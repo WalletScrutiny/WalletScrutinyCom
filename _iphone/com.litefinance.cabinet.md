@@ -10,8 +10,8 @@ idd: '1661254805'
 released: 2023-01-11
 updated: 2023-08-25
 version: '1.80'
-stars: 4
-reviews: 14
+stars: 3.8
+reviews: 15
 size: '124917760'
 website: https://www.liteforex.com
 repository: 

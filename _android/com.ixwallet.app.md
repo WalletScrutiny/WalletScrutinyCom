@@ -7,8 +7,8 @@ users: 100
 appId: com.ixwallet.app
 appCountry: 
 released: 2021-01-15
-updated: 2023-08-28
-version: 0.0.103 (5612)
+updated: 2023-09-05
+version: 0.0.104 (5622)
 stars: 
 ratings: 
 reviews: 

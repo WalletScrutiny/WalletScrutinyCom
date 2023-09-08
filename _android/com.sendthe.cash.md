@@ -3,7 +3,7 @@ wsId:
 title: SendThe.Cash
 altTitle: 
 authors: 
-users: 50
+users: 10
 appId: com.sendthe.cash
 appCountry: 
 released: 2022-08-17

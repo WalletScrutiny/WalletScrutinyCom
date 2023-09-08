@@ -4,7 +4,7 @@ title: Moolre
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.moolre.moolreandroid
 appCountry: 
 released: 2019-02-28

@@ -33,7 +33,25 @@ features:
 
 ---
 
-## App Description 
+## Notes on affiliated products 
+
+The provider currently has these products
+
+### Android
+
+- {% include walletLink.html wallet='android/com.scallopxledger' verdict='true' %}
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+
+### iOS
+
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.scallop.exchange.SCLPExchange' verdict='true' %}
+
+### Hardware 
+
+- {% include walletLink.html wallet='hardware/scallop' verdict='true' %}
+
+## App Description 2023-03-30
 
 > The Scallop Exchange is the fulcrum of our payment system and will facilitate the conversion of cryptocurrency / DeFi tokens into fiat and vice versa. The Exchange supports both hot and cold wallets, providing users with ample choices to match their desired level of convenience and security. 
 

@@ -8,11 +8,11 @@ appId: com.cobru.cobru
 appCountry: us
 idd: '1574045983'
 released: 2021-06-29
-updated: 2023-09-04
-version: 4.0.95
+updated: 2023-09-06
+version: 4.0.96
 stars: 5
 reviews: 1
-size: '59595776'
+size: '59628544'
 website: https://cobru.co
 repository: 
 issue: 

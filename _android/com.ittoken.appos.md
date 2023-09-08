@@ -3,7 +3,7 @@ wsId:
 title: itToken
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.ittoken.appos
 appCountry: 
 released: 2022-05-10

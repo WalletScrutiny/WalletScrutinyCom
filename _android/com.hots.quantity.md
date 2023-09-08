@@ -7,8 +7,8 @@ users: 500
 appId: com.hots.quantity
 appCountry: 
 released: 2022-06-15
-updated: 2023-08-31
-version: 3.2.4
+updated: 2023-09-07
+version: 3.2.6
 stars: 
 ratings: 
 reviews: 

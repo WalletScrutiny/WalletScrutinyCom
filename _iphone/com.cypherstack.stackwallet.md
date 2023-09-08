@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: stackWallet
 title: Stack Wallet by Cypher Stack
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
@@ -19,13 +20,18 @@ icon: com.cypherstack.stackwallet.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-03-23
+date: 2023-09-08
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: stack_wallet
+social:
+- https://discord.com/invite/mRPZuXx3At
+- https://t.me/stackwallet
+- https://www.reddit.com/r/stackwallet
+- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA 
 features: 
 developerName: Cypher Stack LLC
 
 ---
 
+{% include copyFromAndroid.html %}
