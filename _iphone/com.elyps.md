@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: elyps
 title: 'Elyps: Think out of the Bank'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.elyps
 appCountry: tn
 idd: '1493791290'
@@ -19,7 +20,7 @@ icon: com.elyps.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-05-24
+date: 2023-08-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: Elyps
 
 ---
 
+{% include copyFromAndroid.html %}
