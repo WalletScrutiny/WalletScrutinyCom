@@ -52,5 +52,4 @@ features:
 - Users can opt to not sign up with the service. 
 - The developers claim that this app was derived from {% include walletLink.html wallet='android/com.breadwallet' verdict='true' %} which was code-available in the past.
 - They also claim to be source-available.
-- Unlike Bread Wallet which has a Business Source license, the license for this app is an MIT license.
-- We will put this app up **for verification**.
+- We will put this app up [**for verification**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498).
