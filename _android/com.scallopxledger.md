@@ -36,6 +36,24 @@ features:
 
 ---
 
+## Notes on affiliated products 
+
+The provider currently has these products
+
+### Android
+
+- {% include walletLink.html wallet='android/com.scallopxledger' verdict='true' %}
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+
+### iOS
+
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.scallop.exchange.SCLPExchange' verdict='true' %}
+
+### Hardware 
+
+- {% include walletLink.html wallet='hardware/scallop' verdict='true' %}
+
 ## App Description from Google Play
 
 > Scallop is a DeFi enabled neo-bank that makes managing digital money easier.
