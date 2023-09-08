@@ -3,7 +3,7 @@ wsId:
 title: BitMake:trade Crypto,Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitmake.app
 appCountry: 
@@ -31,7 +31,7 @@ social:
 - https://discord.com/invite/7Bh7wpyGMk
 - https://www.instagram.com/bitmakeexchange
 - https://www.facebook.com/BitMakeExchange
-- https://t.me/BitMakeEN 
+- https://t.me/BitMakeEN
 redirect_from: 
 developerName: BITMAKE TECHNOLOGY LLC
 features: 

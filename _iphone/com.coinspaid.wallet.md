@@ -3,11 +3,11 @@ wsId: coinsPaidWallet
 title: 'CoinsPaid: crypto & BTC wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinspaid.wallet
 appCountry: gb
 idd: '1506985729'
-released: '2021-12-28T08:00:00Z'
+released: 2021-12-28
 updated: 2023-06-06
 version: 0.9.6
 stars: 0
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/coinspaid
 - https://www.youtube.com/channel/UCwnF8wI6tIl3h8KNgpwhqAg
 - https://www.linkedin.com/company/cryptoprocessing-com
-- https://t.me/CoinsPaid_Official 
+- https://t.me/CoinsPaid_Official
 features: 
 developerName: CoinsPaid
 

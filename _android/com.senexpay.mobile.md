@@ -3,7 +3,7 @@ wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.senexpay.mobile
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-09-07
 signer: 
 reviewArchive: 
 twitter: senexpay
-social: 
+social:
 - https://www.linkedin.com/company/senexpay
 - https://www.facebook.com/senexpay
 - https://www.instagram.com/senexpay

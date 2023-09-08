@@ -3,7 +3,7 @@ wsId: stackWallet
 title: Stack Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cypherstack.stackwallet
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://discord.com/invite/mRPZuXx3At
 - https://t.me/stackwallet
 - https://www.reddit.com/r/stackwallet
-- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA 
+- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 redirect_from: 
 developerName: Cypher Stack Team
 features: 

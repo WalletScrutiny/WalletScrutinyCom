@@ -3,7 +3,7 @@ wsId: myECNigeria
 title: MY-EC NIGERIA
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.myecurrency
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: myecurrencyng
 social:
 - https://www.instagram.com/myecurrencyng
-- https://www.facebook.com/myecurrency01 
+- https://www.facebook.com/myecurrency01
 redirect_from: 
 developerName: MyEcurrency Nigeria Limited
 features: 

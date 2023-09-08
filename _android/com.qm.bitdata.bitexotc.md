@@ -3,7 +3,7 @@ wsId: bitdataExchange
 title: BitDATA Exchange (BitEx)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.qm.bitdata.bitexotc
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitDATAExchange
 social:
 - https://www.linkedin.com/company/bitdataexchange
-- https://www.facebook.com/BitDATAExchange/ 
+- https://www.facebook.com/BitDATAExchange/
 redirect_from: 
 developerName: BitDATA Exchange
 features: 

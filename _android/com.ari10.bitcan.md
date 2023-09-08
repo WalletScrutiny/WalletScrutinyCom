@@ -3,7 +3,7 @@ wsId: ari10Exchange
 title: Ari10 Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ari10.bitcan
 appCountry: 
@@ -28,7 +28,7 @@ twitter: ari10com
 social:
 - https://www.instagram.com/senexpay
 - https://www.linkedin.com/company/ari10-com
-- https://t.me/ari10_com 
+- https://t.me/ari10_com
 redirect_from: 
 developerName: ARI10
 features: 

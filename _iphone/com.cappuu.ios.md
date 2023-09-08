@@ -3,11 +3,11 @@ wsId: coinomoCrypto
 title: Coinomo - Gateway to Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.cappuu.ios
 appCountry: in
 idd: '1516439838'
-released: '2021-08-16T07:00:00Z'
+released: 2021-08-16
 updated: 2022-12-28
 version: '3.56'
 stars: 0
@@ -28,7 +28,7 @@ social:
 - https://www.instagram.com/coinomo_id
 - https://coinomo.medium.com
 - https://t.me/omofomo
-- https://discord.com/invite/84CumqxPWw 
+- https://discord.com/invite/84CumqxPWw
 features: 
 developerName: PT. TUJUHBELAS MEDIA INDONESIA
 

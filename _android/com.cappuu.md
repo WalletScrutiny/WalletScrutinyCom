@@ -3,7 +3,7 @@ wsId: coinomoCrypto
 title: Coinomo - Gateway to Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.cappuu
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/coinomo_id
 - https://coinomo.medium.com
 - https://t.me/omofomo
-- https://discord.com/invite/84CumqxPWw 
+- https://discord.com/invite/84CumqxPWw
 redirect_from: 
 developerName: PT Tujuhbelas Media Indonesia
 features: 

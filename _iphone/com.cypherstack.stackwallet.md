@@ -3,7 +3,7 @@ wsId: stackWallet
 title: Stack Wallet by Cypher Stack
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
@@ -28,7 +28,7 @@ social:
 - https://discord.com/invite/mRPZuXx3At
 - https://t.me/stackwallet
 - https://www.reddit.com/r/stackwallet
-- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA 
+- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 features: 
 developerName: Cypher Stack LLC
 

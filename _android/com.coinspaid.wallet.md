@@ -3,7 +3,7 @@ wsId: coinspaidWallet
 title: Coinspaid Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinspaid.wallet
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/coinspaid
 - https://www.youtube.com/channel/UCwnF8wI6tIl3h8KNgpwhqAg
 - https://www.linkedin.com/company/cryptoprocessing-com
-- https://t.me/CoinsPaid_Official 
+- https://t.me/CoinsPaid_Official
 redirect_from: 
 developerName: CoinsPaid
 features: 

@@ -3,14 +3,14 @@ wsId: senexPayBitcoin
 title: 'SenexPay: Buy & Store Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.senexpay.mobile
 appCountry: us
 idd: '1627864145'
-released: '2022-08-18T07:00:00Z'
+released: 2022-08-18
 updated: 2023-09-01
 version: 1.5.1
-stars: 4.875
+stars: 4.9
 reviews: 8
 size: '63497216'
 website: https://senexpay.com
