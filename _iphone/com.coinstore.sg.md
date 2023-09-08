@@ -10,8 +10,8 @@ idd: '1567160644'
 released: 2021-05-12
 updated: 2023-06-21
 version: 2.1.0
-stars: 4.2
-reviews: 57
+stars: 4.1
+reviews: 62
 size: '165702656'
 website: https://www.coinstore.com
 repository: 

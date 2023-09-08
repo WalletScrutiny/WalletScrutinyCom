@@ -8,8 +8,8 @@ users: 10000
 appId: mn.ihbit.ihcwallet
 appCountry: 
 released: 2022-04-10
-updated: 2023-06-21
-version: 2.0.1
+updated: 2023-08-18
+version: 2.1.0
 stars: 4.4
 ratings: 
 reviews: 8

@@ -12,7 +12,7 @@ updated: 2023-05-25
 version: 2.4.6
 stars: 3.7
 ratings: 400
-reviews: 287
+reviews: 286
 size: 
 website: https://www.bytesmix.com
 repository: 

@@ -7,8 +7,8 @@ users: 10000
 appId: ua.money.storage.moneystorage
 appCountry: 
 released: 2018-02-08
-updated: 2021-03-29
-version: 2.0.5
+updated: 2023-08-23
+version: 2.0.8
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ua.money.storage.moneystorage.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2023-06-02
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

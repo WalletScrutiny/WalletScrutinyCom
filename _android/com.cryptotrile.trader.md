@@ -7,8 +7,8 @@ users: 10
 appId: com.cryptotrile.trader
 appCountry: 
 released: 2022-08-09
-updated: 2022-08-25
-version: 1.0.0
+updated: 2023-09-02
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,7 @@ icon: com.cryptotrile.trader.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 

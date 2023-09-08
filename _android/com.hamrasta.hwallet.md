@@ -2,7 +2,8 @@
 wsId: 
 title: Hamrasta Cryptocurrency Market
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.hamrasta.hwallet
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.hamrasta.hwallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-11-02
+date: 2023-08-07
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,19 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> - simple, user friendly easy to use crypto wallet
+which supports:
+  > - BTC
+  > - ETH
+  > - USDT
+  > - BCH
+  > - TRX
+
+## Analysis 
+
+- When we opened the app, it opened a browser page to wallet.hamrasta.com. The error was:
+  > This site can't be reached
+  > wallet.hamrasta.com refused to connect
+- This app is **defunct.**

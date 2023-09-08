@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kointra.Kointra.V1.0.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-28
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: KointraTR

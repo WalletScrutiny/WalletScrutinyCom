@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dn.hive.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-06-02
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

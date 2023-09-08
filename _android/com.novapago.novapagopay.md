@@ -7,8 +7,8 @@ users: 100
 appId: com.novapago.novapagopay
 appCountry: 
 released: 2021-06-25
-updated: 2022-02-18
-version: '1.1'
+updated: 2023-08-22
+version: '1.2'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.novapago.novapagopay.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 

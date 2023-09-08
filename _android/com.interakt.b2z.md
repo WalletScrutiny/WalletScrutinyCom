@@ -7,8 +7,8 @@ users: 100
 appId: com.interakt.b2z
 appCountry: 
 released: 2022-04-12
-updated: 2023-03-07
-version: 1.3.0
+updated: 2023-08-28
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 

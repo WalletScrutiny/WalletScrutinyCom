@@ -76,29 +76,39 @@ function searchTrigger() {
   clearTimeout(window.walletSearchTimeoutTrigger)
   if (window.searchTerm && window.searchTerm.length > 1) {
     window.walletSearchTimeoutTrigger = setTimeout(() => {
-      searchCatalogueNav(window.searchTerm)
+      doNavBarSearch(window.searchTerm)
     }, 200)
   }
 }
-const paltformOrder = ['android', 'iphone', 'hardware', 'bearer']
 
-window.orderedObs.sort((a, b) => {
-  if ((a.matchRank && b.matchRank) && (a.matchRank != b.matchRank))
-    return a.matchRank - b.matchRank
-  if (a.verdict != b.verdict)
-    return window.verdictOrder.indexOf(a.verdict) - window.verdictOrder.indexOf(b.verdict)
-  if (a.folder != b.folder)
-    return paltformOrder.indexOf(a.folder) - paltformOrder.indexOf(b.folder)
-  if (a.meta != b.meta)
-    return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta)
-  if (a.users != b.users)
-    return b.users - a.users
-  if (a.ratings != b.ratings)
-    return b.ratings - a.ratings
-  if (a.reviews != b.reviews)
-    return b.reviews - a.reviews
+let versionTaggedWallets = []
+var readerRec = []
+window.wallets.forEach(e => {
+
+  if (e.wsId) {
+    const wsId = e.wsId
+    var i = readerRec.indexOf(wsId)
+    if (wsId.length > 0 && i < 0) {
+      versionTaggedWallets.push(e)
+      readerRec.push(wsId)
+    } else {
+      // If we already added a product with this wsId, we add the new one as a
+      // "version" of the prior one.
+      const versionsI = versionTaggedWallets[i]['versions'] || []
+      versionsI.push(e)
+      versionTaggedWallets[i]['versions'] = versionsI
+    }
+  } else if (e.appId && e.appId.length > 0) {
+    // making sure the appId doesn't match any wsId:
+    const appId = `__${e.appId}__`
+    if (!readerRec.includes(appId)) {
+      versionTaggedWallets.push(e)
+      readerRec.push(appId)
+    }
+  }
 })
-function searchCatalogueNav(input) {
+
+function doNavBarSearch(input) {
   if (window.isHomepage) {
     deferSearch(input)
     return
@@ -106,60 +116,49 @@ function searchCatalogueNav(input) {
   document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
-  const term = input.trim().toUpperCase()
+  const term = input.toUpperCase()
 
   const minTermLength = 1
   if (term.length > minTermLength) {
-    var matchCounter = 0
-    window.orderedObs.forEach(wallet => {
+    result.innerHTML = ''
+
+    let wallets = performSearch(versionTaggedWallets, term)
+
+    if (!wallets || wallets.length == 0) {
+      result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
+      document.querySelector(".search-controls").classList.remove("working")
+    }
+    for (const wallet of wallets) {
       if (wallet.title) {
-        let walletAsStr = ""
-        for (const [key, value] of Object.entries(wallet)) {
-          walletAsStr += `${JSON.stringify(value)}${key}`
+        const walletRow = document.createElement("li")
+        if (wallets.length < 10) {
+          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms'
         }
-        walletAsStr = walletAsStr.toLocaleUpperCase()
-
-        if (matchCounter < 1)
-          result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
-
+        walletRow.classList.add("actionable")
+        let compactedResults = ""
+        compactedResults += makeCompactResultsHTML(wallet)
+        var walletGroupClass = ""
+        if (wallet.versions && wallet.versions.length > 0) {
+          for (let i = 0; i < wallet.versions.length; i++) {
+            compactedResults += makeCompactResultsHTML(wallet.versions[i])
+          }
+          walletGroupClass = "grouped"
+        }
+        walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
         document.querySelector(".search-controls").classList.remove("working")
-          const resultIndex = searchByWords(term, wallet)
-        let index = resultIndex?resultIndex.matchRank:-1
-
-        if (index !== -1) {
-          if (matchCounter == 0) {
-            result.innerHTML = ""
-          }
-          const walletRow = document.createElement("li")
-          if (matchCounter < 10) {
-            walletRow.style['animation-delay'] = matchCounter * 80 + 'ms'
-          }
-          walletRow.classList.add("actionable")
-          let compactedResults = ""
-          compactedResults += makeCompactResultsHTML(wallet)
-
-
-          var walletGroupClass = ""
-          if (wallet.versions && wallet.versions.length > 0) {
-            for (let i = 0; i < wallet.versions.length; i++) {
-              walletAsStr += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
-              compactedResults += makeCompactResultsHTML(wallet.versions[i])
-            }
-            walletGroupClass = "grouped"
-          }
-          walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
-          document.querySelector(".search-controls").classList.remove("working")
-          result.append(walletRow)
-          matchCounter++
-        }
+        result.append(walletRow)
       }
-    })
+    }
   } else if (term.length != 0) {
     var l = document.createElement("li")
     var rem = (minTermLength + 1) - term.length
     var s = rem > 1 ? "s" : ""
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
+  }
+  else {
+    document.querySelector(".search-controls").classList.remove("working")
+    result.innerHTML = ''
   }
   searchScrollToTop()
 }

@@ -7,8 +7,8 @@ users: 5000
 appId: io.nexo.pro
 appCountry: 
 released: 2023-03-02
-updated: 2023-05-16
-version: 1.4.0
+updated: 2023-08-31
+version: 1.4.3
 stars: 
 ratings: 
 reviews: 

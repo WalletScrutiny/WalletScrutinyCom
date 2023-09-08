@@ -1,6 +1,6 @@
 ---
 wsId: AlphaWallet
-title: AlphaWallet Ethereum, Binance
+title: AlphaWallet, Ethereum and EVM
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.stormbird.alphawallet
 appCountry: us
 idd: 1358230430
 released: 2018-05-25
-updated: 2023-07-05
-version: '3.65'
+updated: 2023-09-04
+version: '3.67'
 stars: 4.7
-reviews: 277
-size: '115667968'
+reviews: 278
+size: '118193152'
 website: https://alphawallet.com/
 repository: 
 issue: 

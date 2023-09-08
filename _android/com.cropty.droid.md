@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: croptyWallet
 title: Crypto wallet — Bitcoin & USDT
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04
-updated: 2023-06-15
-version: 1.6.9
+updated: 2023-09-03
+version: 1.6.13
 stars: 3.9
 ratings: 
 reviews: 6
@@ -19,15 +20,30 @@ issue:
 icon: com.cropty.droid.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-07-30
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: cropty_app
+social:
+- https://www.youtube.com/@croptytv
 redirect_from: 
 developerName: COIN CATCH PVT
 features: 
 
 ---
 
+## App Description from Google Play
+
+> With Cropty you can store, buy, sell and exchange various cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Tether (USDT), BNB and many more. Our wallet supports multiple currencies, allowing you to diversify your portfolio and manage it in one place.
+>
+> The wallet supports a wide range of tokens, including those running on ERC20, BEP20 and TRC20 networks. This means you can store and manage your Ethereum, Binance Smart Chain and Tron assets right from our app.
+
+## Analysis 
+
+- We found this information from this [page:](https://www.cropty.io/)
+
+     > Protect your digital assets with  industry-leading security features, such as cold storage and full encryption, ensuring your crypto investments are safe and sound.
+
+- There were no seed phrases provided during sign up and no option to back up the private keys in the settings. 
+- As the app explicitly states, this is a *custodial* service and thus, **non-verifiable**.

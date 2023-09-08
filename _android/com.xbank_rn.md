@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-04
 updated: 2023-08-01
 version: 4.0.1
-stars: 4.1
+stars: 3.9
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://xbank.plus
 repository: 
