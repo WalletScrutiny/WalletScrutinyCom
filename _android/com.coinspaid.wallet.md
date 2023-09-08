@@ -49,8 +49,7 @@ features:
 ## Analysis 
 
 - We tried signing up, but received a "Sign-up Unavailable" error. 
-- This may have something to do with their [announcement.](https://coinspaid.com/tpost/0zx28tmj51-coinspaid-is-back-to-processing-after-be)
-- They claim that they were hacked and lost $37.3 Million last July. They also claim that user funds were not affected.
+- This may have something to do with their [announcement](https://coinspaid.com/tpost/0zx28tmj51-coinspaid-is-back-to-processing-after-be) which states that they were hacked and lost $37.3 Million last July. They also claim that user funds were not affected.
 - While this is going on, we look at Section 3.3 of the terms which states that the provider holds the private keys to user accounts.
 
 This is a **custodial** provider with a **non-verifiable** app.
