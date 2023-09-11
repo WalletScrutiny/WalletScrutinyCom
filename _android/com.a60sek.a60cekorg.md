@@ -4,7 +4,7 @@ title: Купить Биткоин за рубли – 60ce
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.a60sek.a60cekorg
 appCountry: 
 released: 2020-04-06

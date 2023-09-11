@@ -7,8 +7,8 @@ users: 100
 appId: com.bitdu.exapp
 appCountry: 
 released: 2021-07-21
-updated: 2023-08-18
-version: 2.3.5
+updated: 2023-09-07
+version: 2.3.7
 stars: 
 ratings: 
 reviews: 

@@ -4,7 +4,7 @@ title: 'HEXN: Buy Bitcoin, Hodl Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.hexn.mobile
 appCountry: 
 released: 2022-12-12

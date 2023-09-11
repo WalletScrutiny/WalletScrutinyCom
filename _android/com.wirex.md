@@ -1,6 +1,6 @@
 ---
 wsId: wirex
-title: 'Wirex: Crypto Exchange & Card'
+title: 'Wirex: All-In-One Crypto App'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-07-26
 version: 3.44.10
 stars: 3.5
 ratings: 26258
-reviews: 1030
+reviews: 1031
 size: 
 website: https://wirexapp.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: bananatok
-title: 바나나톡2.0 – 블록체인 SNS 메신저
+title: 바나나톡2.0 – 웹3 메신저
 altTitle: 
 authors:
 - danny
@@ -17,7 +17,7 @@ size:
 website: http://www.bananatok.com
 repository: 
 issue: 
-icon: org.telegram.bananatok.jpg
+icon: org.telegram.bananatok.png
 bugbounty: 
 meta: ok
 verdict: custodial

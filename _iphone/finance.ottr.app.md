@@ -10,8 +10,8 @@ idd: '1628669270'
 released: 2022-09-25
 updated: 2023-08-18
 version: '1.52'
-stars: 4.5
-reviews: 8
+stars: 4.6
+reviews: 9
 size: '100397056'
 website: https://ottr.finance
 repository: 

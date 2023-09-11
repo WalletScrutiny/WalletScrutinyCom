@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: coinsDoCoinWallet
-title: CoinWallet
+title: 'CoinWallet: BTC Crypto Wallet'
 altTitle: 
 authors:
 - danny

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-13
 updated: 2023-04-22
 version: 1.5.0
-stars: 3.4
+stars: 3.3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://risingcoin.io
 repository: 

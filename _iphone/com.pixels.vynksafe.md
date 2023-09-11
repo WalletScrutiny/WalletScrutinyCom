@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pixels.vynksafe.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-15
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: vynkgroup

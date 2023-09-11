@@ -9,7 +9,7 @@ appId: com.tokenomy.app
 appCountry: 
 released: 2021-07-09
 updated: 2023-09-07
-version: 2.13.0
+version: 2.14.1
 stars: 
 ratings: 
 reviews: 

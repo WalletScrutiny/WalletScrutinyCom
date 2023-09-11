@@ -11,7 +11,7 @@ released: 2021-05-13
 updated: 2023-07-12
 version: 1.5.01
 stars: 4
-reviews: 44
+reviews: 45
 size: '90825728'
 website: https://bano.app
 repository: 

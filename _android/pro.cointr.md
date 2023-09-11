@@ -4,7 +4,7 @@ title: 'CoinTR Pro: Buy Bitcoin Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: pro.cointr
 appCountry: 
 released: 2022-10-30

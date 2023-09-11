@@ -8,11 +8,11 @@ appId: com.coinme.CoinMe
 appCountry: us
 idd: 1545440300
 released: 2021-05-11
-updated: 2023-08-06
-version: 2.1.9
+updated: 2023-09-11
+version: 2.2.1
 stars: 4.6
-reviews: 4337
-size: '125850624'
+reviews: 4363
+size: '124221440'
 website: https://coinme.com/
 repository: 
 issue: 

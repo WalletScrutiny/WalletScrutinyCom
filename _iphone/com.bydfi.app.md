@@ -10,8 +10,8 @@ idd: '6444251506'
 released: 2023-02-09
 updated: 2023-08-31
 version: V3.2.8
-stars: 4.4
-reviews: 29
+stars: 4.5
+reviews: 33
 size: '135806976'
 website: https://www.bydfi.com/
 repository: 

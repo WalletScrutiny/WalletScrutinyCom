@@ -3,7 +3,7 @@ wsId:
 title: Rubycoin wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ruby.coin
 appCountry: 
 released: 2022-09-21
@@ -19,7 +19,7 @@ issue:
 icon: com.ruby.coin.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

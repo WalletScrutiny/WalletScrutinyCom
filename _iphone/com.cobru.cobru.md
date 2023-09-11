@@ -11,7 +11,7 @@ released: 2021-06-29
 updated: 2023-09-06
 version: 4.0.96
 stars: 5
-reviews: 1
+reviews: 2
 size: '59628544'
 website: https://cobru.co
 repository: 

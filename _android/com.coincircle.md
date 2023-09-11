@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-04-26
 updated: 2023-08-22
 version: 1.2.82.10280
-stars: 4.3
+stars: 4.4
 ratings: 438
-reviews: 247
+reviews: 239
 size: 
 website: https://coincircle.com
 repository: 

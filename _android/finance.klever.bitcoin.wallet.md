@@ -12,7 +12,7 @@ updated: 2023-09-05
 version: 5.25.1
 stars: 4.7
 ratings: 
-reviews: 49
+reviews: 51
 size: 
 website: https://klever.org/
 repository: 
