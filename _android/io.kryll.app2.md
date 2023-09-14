@@ -47,4 +47,4 @@ features:
   > Oops... We didn't find any running strategy. You can start one by going to the web version of Kryll.io. 
 - We went and logged-in on the web version of the app. There we were asked to input the API information of several exchanges, including Binance US, Kraken, BITTREX, Coinbase Pro, and others.
 
-This app **does not provide a wallet** to its users as evidenced by the necessity to provide an API key to an exchange. 
+With these API keys it looks more like a portfolio management app and **not a wallet.** 
