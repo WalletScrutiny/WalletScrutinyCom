@@ -40,7 +40,7 @@ First, we investigate the similarities with:
 
 1. The two apps have different developers. 
 2. This app does not link to the official website, cd-ex.com. The other app does.
-3. As far as we know, **we have not been able to find a link from cd-ex.com to this app.**
+3. **We have not been able to find a link from cd-ex.com to this app.**
 4. We are in the process of verifying with the official CDEX [twitter](https://twitter.com/BitcoinWalletz/status/1698628970764525991) account if this is their app. 
 
 ## App Description from Google Play

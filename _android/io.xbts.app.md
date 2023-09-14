@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 
 website: https://app.xbts.io
-repository: https://github.com/XBTS/app/releases/tag/v0.1.28
+repository: https://github.com/XBTS/app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/499
 icon: io.xbts.app.png
 bugbounty: 
@@ -51,6 +51,6 @@ features:
 - Also, "No one other than you holds your keys."
 - There was a Bitcoin wallet.
 - The assumption here is that the passphrase they provided contains an encrypted form of the private keys.
-- The app's repository could be found [here](https://github.com/XBTS/app/releases/tag/v0.1.28).
+- The app's repository could be found [here](https://github.com/XBTS/app).
 
 This app is **for verification**.
