@@ -8,8 +8,8 @@ users: 1000
 appId: com.ttmbank.wallet.app
 appCountry: 
 released: 2021-08-05
-updated: 2023-07-21
-version: 2.3.0
+updated: 2023-09-11
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 

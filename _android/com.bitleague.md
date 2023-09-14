@@ -12,7 +12,7 @@ updated: 2021-05-14
 version: 2.15.2
 stars: 4.6
 ratings: 246
-reviews: 139
+reviews: 138
 size: 
 website: https://www.bitleague.com
 repository: 

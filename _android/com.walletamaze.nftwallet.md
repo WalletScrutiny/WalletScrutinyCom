@@ -10,9 +10,9 @@ appCountry:
 released: 2023-06-26
 updated: 2023-08-25
 version: 1.0.06
-stars: 
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://amazewallet.com
 repository: 

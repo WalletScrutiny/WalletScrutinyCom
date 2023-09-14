@@ -12,7 +12,7 @@ updated: 2023-07-28
 version: '1.8'
 stars: 4.9
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://shido.io
 repository: 

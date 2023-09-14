@@ -1,6 +1,6 @@
 ---
 wsId: wirex
-title: 'Wirex: Buy, Spend & Sell BTC'
+title: 'Wirex: All-In-One Crypto App'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.wirex
 appCountry: us
 idd: 1090004654
 released: 2016-03-22
-updated: 2023-08-21
-version: '3.44'
+updated: 2023-09-12
+version: 3.44.10
 stars: 3.6
-reviews: 587
-size: '205500416'
-website: https://wirexapp.com/en
+reviews: 588
+size: '205545472'
+website: https://wirexapp.com/
 repository: 
 issue: 
 icon: com.wirex.jpg

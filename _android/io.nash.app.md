@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: 'Nash: Spend, save & invest'
+title: Nash Crypto Platform
 altTitle: 
 authors:
 - kiwilamb
@@ -8,8 +8,8 @@ users: 10000
 appId: io.nash.app
 appCountry: 
 released: 2019-08-31
-updated: 2023-07-12
-version: 14.4.2
+updated: 2023-09-08
+version: 15.0.0
 stars: 4.6
 ratings: 646
 reviews: 25

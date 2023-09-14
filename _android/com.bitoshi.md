@@ -3,7 +3,7 @@ wsId:
 title: Bitoshi
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
@@ -19,7 +19,7 @@ issue:
 icon: com.bitoshi.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

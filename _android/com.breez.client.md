@@ -10,7 +10,7 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2023-08-21
+updated: 2023-09-13
 version: VARY
 stars: 
 ratings: 

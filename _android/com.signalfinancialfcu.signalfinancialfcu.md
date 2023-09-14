@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-20
 updated: 2023-07-10
 version: 4008.4.0
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://www.signalfinancialfcu.org/locations/
 repository: 

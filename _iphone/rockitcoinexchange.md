@@ -10,8 +10,8 @@ idd: '1476730078'
 released: 2019-09-18
 updated: 2023-09-06
 version: 3.2.1
-stars: 3.3
-reviews: 116
+stars: 3.2
+reviews: 117
 size: '109419520'
 website: https://rockitcoin.com
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.cobru.cobru
 appCountry: 
 released: 2021-06-26
-updated: 2023-04-24
-version: 4.0.93
+updated: 2023-09-05
+version: 4.0.96
 stars: 
 ratings: 
 reviews: 

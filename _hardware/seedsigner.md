@@ -14,7 +14,8 @@ weight:
 provider: Seed Signer
 providerWebsite: 
 website: https://seedsigner.com/
-shop: https://btc-hardware-solutions.square.site/product/orange_pill_kit/6?cs=true&cst=custom
+shop: >-
+  https://btc-hardware-solutions.square.site/product/orange_pill_kit/6?cs=true&cst=custom
 country: US
 price: 93USD
 repository: https://github.com/SeedSigner/seedsigner
@@ -27,14 +28,15 @@ date: 2023-09-14
 signer: 
 reviewArchive:
 - date: 2022-03-26
-  version: "0.4.5"
+  version: 0.4.5
   appHash: 
   gitRevision: bb77f0f230d1ae52c437d16db7f43d440d9aa003
   verdict: nonverifiable
 twitter: SeedSigner
 social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
-- https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
+- >-
+  https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
 features: 
 
 ---

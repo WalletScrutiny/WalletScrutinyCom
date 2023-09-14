@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'IC: Buy Bitcoin, Sell Bitcoin'
+title: 'Inflowchange: Sell Bitcoin'
 altTitle: 
 authors: 
 users: 100

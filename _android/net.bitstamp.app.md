@@ -9,10 +9,10 @@ appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
 updated: 2023-09-11
-version: 3.14.1
+version: 3.14.2
 stars: 3.8
 ratings: 11088
-reviews: 599
+reviews: 600
 size: 
 website: https://www.bitstamp.net
 repository: 

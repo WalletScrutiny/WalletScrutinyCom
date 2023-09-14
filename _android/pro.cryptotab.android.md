@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-01-24
 updated: 2023-08-28
 version: 4.2.3
-stars: 3
+stars: 3.1
 ratings: 63867
-reviews: 2440
+reviews: 2441
 size: 
 website: https://cryptocompany.site/
 repository: 

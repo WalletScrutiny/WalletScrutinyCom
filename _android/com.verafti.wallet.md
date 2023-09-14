@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.verafti.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2022-11-02
+date: 2023-09-14
 signer: 
 reviewArchive: 
 twitter: token_vera

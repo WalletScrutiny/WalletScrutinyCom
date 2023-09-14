@@ -8,8 +8,8 @@ appId: com.elyps
 appCountry: tn
 idd: '1493791290'
 released: 2020-05-13
-updated: 2023-08-26
-version: 10.7.0
+updated: 2023-09-13
+version: 10.8.0
 stars: 5
 reviews: 1
 size: '74198016'

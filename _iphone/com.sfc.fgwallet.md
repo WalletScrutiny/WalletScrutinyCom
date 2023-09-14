@@ -8,8 +8,8 @@ appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
 released: 2018-02-27
-updated: 2023-09-07
-version: 3.7.4
+updated: 2023-09-12
+version: 3.7.5
 stars: 5
 reviews: 1
 size: '38835200'
