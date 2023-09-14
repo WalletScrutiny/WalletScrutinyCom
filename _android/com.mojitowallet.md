@@ -20,7 +20,7 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/502
 icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-09-06
 signer: 
 reviewArchive: 
@@ -60,4 +60,8 @@ features:
 
 - The app provided a BTC wallet and the seed phrases. We helped generate entropy by drawing a cat. 
 
-This app is **for verification.**
+This app was previously [for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/502), however [Leo](../authors/leo) issued the following commentary:
+
+  > The build instructions are not very strict about tools to be used, making reproducibility unlikely. The repository did not use tags or releases, making finding matching versions difficult. Given this commit incremented the version from 0.2.7 to 0.2.10 with Google Play featuring version v0.2.9, we can say with certainty that reproducing the version on Google Play is impossible.
+  >
+  > A **nonverifiable** verdict is warranted until we check if compilation works at all.

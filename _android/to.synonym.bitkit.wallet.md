@@ -52,4 +52,4 @@ features:
 - The private keys can be backed up in the settings.
 - They have a link to their GitHub repository. 
 
-This app is **for verification**
+This app is [**for verification**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/501)

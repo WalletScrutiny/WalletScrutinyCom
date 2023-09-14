@@ -51,4 +51,4 @@ features:
   - Funds can be confiscated.
   - Provider will cooperate with authorities when requested.
 
-Although not directly stated or described. The lack of private key backup mechanism and other signifiers indicate this to be a **custodial** provider with a **non-verifiable** app.
+Although not directly stated or described. The lack of private key backup mechanism and other signifiers indicate the provider to custody the user's funds, making the app **non-verifiable**.
