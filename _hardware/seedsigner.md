@@ -6,32 +6,117 @@ authors:
 - leo
 released: 2020-12-20
 discontinued: 
-updated: 2021-11-21
-version: 0.4.5
+updated: 2023-09-12
+version: 0.7.0
 binaries: https://github.com/SeedSigner/seedsigner/releases
 dimensions: 
 weight: 
 provider: Seed Signer
 providerWebsite: 
 website: https://seedsigner.com/
-shop: 
-country: 
-price: 50USD
+shop: https://btc-hardware-solutions.square.site/product/orange_pill_kit/6?cs=true&cst=custom
+country: US
+price: 93USD
 repository: https://github.com/SeedSigner/seedsigner
-issue: https://github.com/SeedSigner/seedsigner/issues/166
+issue: 
 icon: seedsigner.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-03-26
+verdict: reproducible
+date: 2023-09-14
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2022-03-26
+  version: "0.4.5"
+  appHash: 
+  gitRevision: bb77f0f230d1ae52c437d16db7f43d440d9aa003
+  verdict: nonverifiable
 twitter: SeedSigner
 social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
+- https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
 features: 
 
 ---
+
+**Update 2023-09-14**: Seedsigner
+[announced reproducibility](https://twitter.com/SeedSigner/status/1701600348136436134)
+with their latest release that they even gave the promising name
+**The "It's reproducible forever, Laura" Release**. So we went and had a look
+how reproducible it is. After some
+[initial hurdles](https://twitter.com/LeoWandersleb/status/1702070495615611148),
+we were
+[pointed](https://twitter.com/KeithMukai/status/1702094039984595388) to the
+[correct build instructions](https://github.com/SeedSigner/seedsigner-os/blob/main/docs/building.md).
+That looks easy. Let's see how it goes ... crossing fingers the public wifi in
+a café in the Bavarian countryside holds up ...
+
+```
+$ git clone --recursive https://github.com/SeedSigner/seedsigner-os.git
+Cloning into 'seedsigner-os'...
+remote: Enumerating objects: 1025, done.
+remote: Counting objects: 100% (398/398), done.
+remote: Compressing objects: 100% (149/149), done.
+remote: Total 1025 (delta 295), reused 311 (delta 240), pack-reused 627
+Receiving objects: 100% (1025/1025), 1.42 MiB | 4.23 MiB/s, done.
+Resolving deltas: 100% (499/499), done.
+Submodule 'buildroot' (https://github.com/seedsigner/buildroot) registered for path 'opt/buildroot'
+Cloning into '/home/leo/tmp/seedsigner-os/opt/buildroot'...
+remote: Enumerating objects: 505256, done.        
+remote: Counting objects: 100% (3/3), done.        
+remote: Compressing objects: 100% (2/2), done.        
+remote: Total 505256 (delta 1), reused 1 (delta 1), pack-reused 505253        
+Receiving objects: 100% (505256/505256), 156.36 MiB | 11.58 MiB/s, done.
+Resolving deltas: 100% (334143/334143), done.
+Submodule path 'opt/buildroot': checked out '165046699ae0799a359466ce73d124127df77554'
+$ cd seedsigner-os
+$ git checkout 0.7.0 
+Branch '0.7.0' set up to track remote branch '0.7.0' from 'origin'.
+Switched to a new branch '0.7.0'
+$ git submodule update --init
+$ SS_ARGS="--$BOARD_TYPE --app-branch=0.7.0" docker-compose up --force-recreate --build
+Creating network "seedsigner-os_default" with the default driver
+Building build-images
+...    
+```
+
+... this step was already announced to take a while. And it does. The screen is
+flying for half an hour straight already ... will it end soon? Will it take
+2.5h?
+The 4CPUs are maxed out. Table is getting hot. ... `sensors` occasionally
+reports the CPU to go above 90°C ...
+
+Anyway ... one coke later it got to a result. Let's see ...
+
+```
+...
+build-images_1  | 
+build-images_1  | Device     Boot Start   End Sectors Size Id Type
+build-images_1  | disk.img1  *     2048 53247   51200  25M  c W95 FAT32 (LBA)
+build-images_1  | 
+build-images_1  | The partition table has been altered.
+build-images_1  | Syncing disks.
+build-images_1  | mkfs.fat 4.2 (2021-01-31)
+build-images_1  | /opt/buildroot
+build-images_1  | a380cb93eb852254863718a9c000be9ec30cee14a78fc0ec90708308c17c1b8a  /opt/../images/seedsigner_os.0.7.0.pi0.img
+seedsigner-os_build-images_1 exited with code 0
+```
+
+That hash matches the one reported on their
+[release page](https://github.com/SeedSigner/seedsigner/releases/tag/0.7.0).
+Let's see if the binary for download actually has this hash:
+
+```
+$ wget https://github.com/SeedSigner/seedsigner/releases/download/0.7.0/seedsigner_os.0.7.0.pi0.img
+$ sha256sum seedsigner_os.0.7.0.pi0.img images/seedsigner_os.0.7.0.pi0.img 
+a380cb93eb852254863718a9c000be9ec30cee14a78fc0ec90708308c17c1b8a  seedsigner_os.0.7.0.pi0.img
+a380cb93eb852254863718a9c000be9ec30cee14a78fc0ec90708308c17c1b8a  images/seedsigner_os.0.7.0.pi0.img
+```
+
+That looks good. This product is **reproducible** in the version tested with the
+hash provided.
+
+## Old Analysis
 
 The Seed Signer is a truly Open Source project that lowers the barrier for entry for airgapped multi-signature cryptocurrency hardware wallets. The code is publicly available as are the instructions for assembly. 
 
@@ -95,7 +180,7 @@ server and install the given ten packages.
 We might miss something here and might give it an actual try at some point but
 for now we go with our educated guess that this product is **not verifiable**.
 
-If you want to use this product, do not trust the binary download. Go with the
+If you want to use thhttps://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mglis product, do not trust the binary download. Go with the
 "Manual Installation Instructions" instead!
 
 We had a little
