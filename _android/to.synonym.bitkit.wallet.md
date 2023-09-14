@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 
 website: https://bitkit.to
-repository: https://github.com/synonymdev/bitkit/releases/tag/v1.0.0-beta.60
+repository: https://github.com/synonymdev/bitkit
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/501
 icon: to.synonym.bitkit.wallet.png
 bugbounty: 

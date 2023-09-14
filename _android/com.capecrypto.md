@@ -48,7 +48,7 @@ features:
 - Some [restrictions](https://support.capecrypto.com/hc/en-za/articles/360011483098-How-do-I-withdraw-cryptocurrency-from-my-Cape-Crypto-account-) are in place:
   - Users cannot withdraw cryptocurrency without verifying their accounts. 
   - Users can have their accounts locked if flagged for suspicious transactions.
-  - Funds are can be confiscated.
+  - Funds can be confiscated.
   - Provider will cooperate with authorities when requested.
 
 Although not directly stated or described. The lack of private key backup mechanism and other signifiers indicate this to be a **custodial** provider with a **non-verifiable** app.

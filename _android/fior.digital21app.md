@@ -47,7 +47,6 @@ features:
 
 - Users can opt to store their coins on the app provided by the wallet or to their own wallets.
 - Section 6.2 of the terms designates a trustee-trustor relationship between the user and "FIOR DIGITAL TRUST SERVICES". The arrangement is for the custody of the funds bought by the user if the user opts to select the wallet provided by the provider.
-- We searched for the App ID in GitHub Code, but found [0 results.](https://github.com/search?q=fior.digital21app&type=code)
 
 Section 6.2 is explicit and describes a *custodianship* arrangement, making the app **non-verifiable**.
 

@@ -33,7 +33,7 @@ features:
 
 ---
 
-This is the partner app for {% include walletLink.html wallet='bearer/coldstoragecoins' verdict='true' %}. 
+This is the companion app for {% include walletLink.html wallet='bearer/coldstoragecoins' verdict='true' %}. 
 
 ## App Description from Google Play
 
