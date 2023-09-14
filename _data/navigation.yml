@@ -6,3 +6,5 @@ main:
     url: /about/
   - title: "<div id=\"donate\">Donate</div>"
     url: /donate/
+  - title: "<div id=\"grants\">Grants</div>"
+    url: /grants/  
