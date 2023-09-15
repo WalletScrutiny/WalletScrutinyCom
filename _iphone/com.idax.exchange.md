@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.idax.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-02-22
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

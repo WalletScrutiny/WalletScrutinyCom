@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.roostoo.mock.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2023-07-18
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

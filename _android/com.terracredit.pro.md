@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.terracredit.pro.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2023-02-24
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: terrabitcrypto

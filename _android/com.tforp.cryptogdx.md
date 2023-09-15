@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tforp.cryptogdx.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2023-05-21
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: Trading4Pro

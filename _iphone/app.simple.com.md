@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.simple.com.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-06-13
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: smpl_app
