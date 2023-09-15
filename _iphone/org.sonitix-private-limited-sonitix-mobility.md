@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.sonitix-private-limited-sonitix-mobility.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-21
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: SonitixO

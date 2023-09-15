@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.ZKE.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-06-13
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: ZKE_com
