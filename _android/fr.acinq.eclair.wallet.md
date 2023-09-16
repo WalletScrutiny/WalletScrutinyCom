@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: fr.acinq.eclair.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2023-02-24
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: acinq_co

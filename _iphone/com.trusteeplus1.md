@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trusteeplus1.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-21
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: TrusteeGlobal

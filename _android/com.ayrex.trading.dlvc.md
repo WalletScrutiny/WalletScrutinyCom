@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ayrex.trading.dlvc.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2023-05-11
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
