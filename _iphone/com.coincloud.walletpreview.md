@@ -10,8 +10,8 @@ idd: '1589867683'
 released: 2022-02-25
 updated: 2022-08-25
 version: 12.9.27
-stars: 2.2
-reviews: 49
+stars: 2.3
+reviews: 50
 size: '87969792'
 website: https://www.coin.cloud/
 repository: 

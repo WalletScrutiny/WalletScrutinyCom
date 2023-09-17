@@ -3,7 +3,7 @@ wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.vipsats.satoshi
 appCountry: 

@@ -3,11 +3,11 @@ wsId: capeCryptoExchange
 title: Cape Crypto Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.capecrypto.ios
 appCountry: za
 idd: '1588237941'
-released: '2021-10-18T07:00:00Z'
+released: 2021-10-18
 updated: 2023-02-26
 version: 2.3.3
 stars: 5
@@ -27,7 +27,7 @@ twitter: capecryptoSA
 social:
 - https://www.linkedin.com/company/capecrypto
 - https://www.youtube.com/channel/UCET8t88fPnOKD0sgM3KFIsA
-- https://www.facebook.com/capecrypto 
+- https://www.facebook.com/capecrypto
 features: 
 developerName: Cape Crypto Pty Ltd
 

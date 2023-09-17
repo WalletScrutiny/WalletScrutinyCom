@@ -8,8 +8,8 @@ users: 10000
 appId: com.taralwallet
 appCountry: 
 released: 2021-10-22
-updated: 2023-09-13
-version: 10.4.3
+updated: 2023-09-16
+version: 10.4.5
 stars: 3.4
 ratings: 
 reviews: 3

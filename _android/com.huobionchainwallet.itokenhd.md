@@ -3,7 +3,7 @@ wsId:
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.huobionchainwallet.itokenhd
 appCountry: 
 released: 2023-04-12

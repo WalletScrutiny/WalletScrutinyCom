@@ -3,7 +3,7 @@ wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.nexo.pro
 appCountry: 
@@ -28,7 +28,7 @@ twitter: Nexo
 social:
 - https://www.reddit.com/r/Nexo
 - https://t.me/nexofinance
-- https://www.facebook.com/nexofinance 
+- https://www.facebook.com/nexofinance
 redirect_from: 
 developerName: Nexo Capital Incorporated
 features: 

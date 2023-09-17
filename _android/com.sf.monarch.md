@@ -8,8 +8,8 @@ users: 50000
 appId: com.sf.monarch
 appCountry: 
 released: 2018-10-19
-updated: 2023-06-19
-version: 2.5.3
+updated: 2023-09-15
+version: 2.6.2
 stars: 4.1
 ratings: 821
 reviews: 133

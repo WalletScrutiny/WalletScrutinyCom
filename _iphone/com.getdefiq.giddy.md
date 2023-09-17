@@ -11,7 +11,7 @@ released: 2022-03-02
 updated: 2023-09-12
 version: 3.0.1
 stars: 4.7
-reviews: 286
+reviews: 287
 size: '119959552'
 website: https://giddy.co
 repository: 

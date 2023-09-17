@@ -3,7 +3,7 @@ wsId:
 title: AI TRADE
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.aitrade.ai
 appCountry: 

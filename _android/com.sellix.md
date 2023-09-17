@@ -3,8 +3,8 @@ wsId: sellixEcommerce
 title: Sellix - eCommerce Dashboard
 altTitle: 
 authors:
-- danny 
-users: 1000
+- danny
+users: 5000
 appId: com.sellix
 appCountry: 
 released: 2022-06-12

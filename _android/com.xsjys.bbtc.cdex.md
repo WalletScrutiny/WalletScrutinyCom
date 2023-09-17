@@ -3,7 +3,7 @@ wsId:
 title: CDEX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.xsjys.bbtc.cdex
 appCountry: 

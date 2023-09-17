@@ -3,7 +3,7 @@ wsId: sphinxChat
 title: Sphinx Chat
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: chat.sphinx
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ 
+- https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ
 redirect_from: 
 developerName: Senza
 features: 

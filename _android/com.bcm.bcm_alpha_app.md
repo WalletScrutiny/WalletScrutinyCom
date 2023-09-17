@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bcm.bcm_alpha_app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-17
 signer: 
 reviewArchive: 
 twitter: 

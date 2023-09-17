@@ -3,11 +3,11 @@ wsId: mojitoWallet
 title: Mojito wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mojitowallet
 appCountry: us
 idd: '1620691992'
-released: '2022-07-15T07:00:00Z'
+released: 2022-07-15
 updated: 2023-05-19
 version: 0.1.6
 stars: 5
@@ -24,7 +24,7 @@ date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: mintlayer
-social: 
+social:
 - https://t.me/mintlayer
 - https://www.linkedin.com/company/mintlayer
 - https://discord.gg/gkZ4h8McBT

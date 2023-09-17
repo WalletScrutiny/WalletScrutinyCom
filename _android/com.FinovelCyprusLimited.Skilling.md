@@ -12,7 +12,7 @@ updated: 2023-08-09
 version: 2.0.5
 stars: 4.3
 ratings: 172
-reviews: 6
+reviews: 5
 size: 
 website: https://skilling.com/
 repository: 

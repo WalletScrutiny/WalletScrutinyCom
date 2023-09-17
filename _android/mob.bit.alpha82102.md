@@ -3,7 +3,7 @@ wsId:
 title: Bit Alpha
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: mob.bit.alpha82102
 appCountry: 

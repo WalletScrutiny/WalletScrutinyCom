@@ -3,7 +3,7 @@ wsId: natiolInfinity
 title: Natiol Infinity (Test Version)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.natiol
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: natiolinfinity
 social:
 - https://www.facebook.com/natiol.io
-- https://t.me/natiol_infinity 
+- https://t.me/natiol_infinity
 redirect_from: 
 developerName: NATIOL INFINITY PTE LTD
 features: 

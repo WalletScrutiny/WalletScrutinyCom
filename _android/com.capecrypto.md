@@ -3,7 +3,7 @@ wsId: capeCryptoExchange
 title: Cape Crypto Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.capecrypto
 appCountry: 
@@ -28,7 +28,7 @@ twitter: capecryptoSA
 social:
 - https://www.linkedin.com/company/capecrypto
 - https://www.youtube.com/channel/UCET8t88fPnOKD0sgM3KFIsA
-- https://www.facebook.com/capecrypto 
+- https://www.facebook.com/capecrypto
 redirect_from: 
 developerName: Cape Crypto
 features: 

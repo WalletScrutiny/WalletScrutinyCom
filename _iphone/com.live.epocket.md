@@ -3,17 +3,17 @@ wsId: ePocketExchange
 title: e-Pocket
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.live.epocket
 appCountry: in
 idd: '1445852225'
-released: '2018-12-19T01:06:40Z'
-updated: 2023-08-07
-version: 3.2.5
+released: 2018-12-19
+updated: 2023-09-15
+version: 3.2.6
 stars: 5
 reviews: 2
-size: '61278208'
-website: ''
+size: '62183424'
+website: 
 repository: 
 issue: 
 icon: com.live.epocket.jpg

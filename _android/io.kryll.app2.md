@@ -3,7 +3,7 @@ wsId: kryllTrade
 title: Kryll.io - Trade BTC & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: io.kryll.app2
 appCountry: 

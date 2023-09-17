@@ -10,9 +10,9 @@ appCountry: dk
 released: 2017-05-17
 updated: 2023-09-13
 version: 1.0.46
-stars: 4.4
+stars: 4.3
 ratings: 2217
-reviews: 1913
+reviews: 1909
 size: 
 website: https://www.flitpay.com/
 repository: 

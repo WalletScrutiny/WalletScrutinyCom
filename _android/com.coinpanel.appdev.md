@@ -3,7 +3,7 @@ wsId: coinpanelApp
 title: CoinPanel
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinpanel.appdev
 appCountry: 
@@ -32,7 +32,7 @@ social:
 - https://www.facebook.com/coinpanel
 - https://www.tiktok.com/@coinpanel
 - https://www.youtube.com/c/CoinPanel
-- https://t.me/coin_panel 
+- https://t.me/coin_panel
 redirect_from: 
 developerName: CoinPanel OÜ
 features: 

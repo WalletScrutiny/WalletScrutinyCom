@@ -3,7 +3,7 @@ wsId: finxWalletAndCard
 title: FINX Wallet & Card
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: global.finx.FINX
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: FINXSupport
 social:
 - https://medium.com/@FINXGlobal
-- https://discord.com/invite/finxglobal 
+- https://discord.com/invite/finxglobal
 redirect_from: 
 developerName: FINX CAPITAL PTE. LTD.
 features: 

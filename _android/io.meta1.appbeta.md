@@ -3,7 +3,7 @@ wsId: meta1Wallet
 title: META 1 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.meta1.appbeta
 appCountry: 
@@ -28,7 +28,7 @@ twitter: META1Coin
 social:
 - https://www.facebook.com/meta1coin
 - https://www.instagram.com/meta1coin
-- https://www.linkedin.com/company/meta-1-coin 
+- https://www.linkedin.com/company/meta-1-coin
 redirect_from: 
 developerName: META 1 Coin
 features: 
