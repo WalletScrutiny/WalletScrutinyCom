@@ -8,8 +8,8 @@ users: 100000
 appId: com.flashratings.hodl
 appCountry: 
 released: 2018-07-24
-updated: 2023-09-13
-version: '8.68'
+updated: 2023-09-16
+version: '9.11'
 stars: 4.6
 ratings: 
 reviews: 450

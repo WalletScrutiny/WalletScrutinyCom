@@ -10,8 +10,8 @@ idd: '1578440544'
 released: 2021-08-18
 updated: 2023-08-08
 version: 1.5.3
-stars: 4.9
-reviews: 32
+stars: 4.8
+reviews: 33
 size: '23473152'
 website: https://www.fairdesk.com
 repository: 

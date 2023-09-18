@@ -3,11 +3,11 @@ wsId: meta1Wallet
 title: META 1 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.meta1.appbeta
 appCountry: us
 idd: '1626884236'
-released: '2022-07-05T07:00:00Z'
+released: 2022-07-05
 updated: 2023-08-31
 version: 2.1.8
 stars: 5
@@ -27,7 +27,7 @@ twitter: META1Coin
 social:
 - https://www.facebook.com/meta1coin
 - https://www.instagram.com/meta1coin
-- https://www.linkedin.com/company/meta-1-coin 
+- https://www.linkedin.com/company/meta-1-coin
 features: 
 developerName: Meta Vault Association, LLC
 

@@ -3,11 +3,11 @@ wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.vipsats.satos
 appCountry: tt
 idd: '6445799528'
-released: '2023-03-27T07:00:00Z'
+released: 2023-03-27
 updated: 2023-09-03
 version: 1.3.1
 stars: 0

@@ -3,17 +3,17 @@ wsId: natiolInfinity
 title: Natiol Infinity
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.natiol.infinity.io
 appCountry: us
 idd: '6444058685'
-released: '2022-11-25T08:00:00Z'
+released: 2022-11-25
 updated: 2023-02-12
 version: '8.0'
 stars: 0
 reviews: 0
 size: '27358208'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.natiol.infinity.io.jpg
@@ -27,7 +27,7 @@ twitter: natiolinfinity
 social:
 - https://natiol.io
 - https://www.facebook.com/natiol.io
-- https://t.me/natiol_infinity 
+- https://t.me/natiol_infinity
 features: 
 developerName: Foswet
 

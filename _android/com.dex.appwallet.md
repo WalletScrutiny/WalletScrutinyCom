@@ -3,7 +3,7 @@ wsId:
 title: Dex Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.dex.appwallet
 appCountry: 

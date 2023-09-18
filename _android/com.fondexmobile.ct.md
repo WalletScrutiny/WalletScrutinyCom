@@ -8,8 +8,8 @@ users: 100000
 appId: com.fondexmobile.ct
 appCountry: au
 released: 2017-11-02
-updated: 2023-08-23
-version: 4.8.54443
+updated: 2023-09-15
+version: 4.8.54452
 stars: 
 ratings: 
 reviews: 

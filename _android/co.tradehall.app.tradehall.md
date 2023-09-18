@@ -3,7 +3,7 @@ wsId: tradehallCFD
 title: Tradehall
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: co.tradehall.app.tradehall
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.facebook.com/Tradehall.co
-- https://www.instagram.com/tradehall_ltd 
+- https://www.instagram.com/tradehall_ltd
 redirect_from: 
 developerName: Tradehall Pte Ltd
 features: 

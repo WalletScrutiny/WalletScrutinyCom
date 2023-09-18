@@ -3,7 +3,7 @@ wsId:
 title: Key Hunter - Bitcoin Checker
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.github.keyhunter
 appCountry: 

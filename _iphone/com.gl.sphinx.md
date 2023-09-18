@@ -3,7 +3,7 @@ wsId: sphinxChat
 title: Sphinx Chat
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.gl.sphinx
 appCountry: ie
 idd: 1483956418
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ 
+- https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ
 features: 
 developerName: 527H
 

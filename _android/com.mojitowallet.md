@@ -3,7 +3,7 @@ wsId: mojitoWallet
 title: Mojito wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mojitowallet
 appCountry: 
@@ -25,7 +25,7 @@ date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: mintlayer
-social: 
+social:
 - https://t.me/mintlayer
 - https://www.linkedin.com/company/mintlayer
 - https://discord.gg/gkZ4h8McBT

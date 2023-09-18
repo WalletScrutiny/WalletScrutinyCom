@@ -3,7 +3,7 @@ wsId: ePocketExchange
 title: e-Pocket
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: w3axis.com.epocket
 appCountry: 

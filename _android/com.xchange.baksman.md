@@ -8,8 +8,8 @@ users: 5000
 appId: com.xchange.baksman
 appCountry: ru
 released: 2020-02-03
-updated: 2021-05-14
-version: 3.0.1
+updated: 2023-09-14
+version: 4.0.1
 stars: 4.2
 ratings: 60
 reviews: 24
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xchange.baksman.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-05-04
+date: 2023-09-17
 signer: 
 reviewArchive: 
 twitter: 

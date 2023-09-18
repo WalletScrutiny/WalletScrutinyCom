@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-27
 updated: 2023-06-02
 version: '1.96'
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://www.coinzix.com
 repository: 

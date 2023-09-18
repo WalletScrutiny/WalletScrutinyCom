@@ -3,11 +3,11 @@ wsId: kryllTrade
 title: Kryll.io - Trade BTC & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.kryll.app
 appCountry: id
 idd: '1445896905'
-released: '2019-01-09T01:10:13Z'
+released: 2019-01-09
 updated: 2023-06-19
 version: 2.3.6
 stars: 0

@@ -3,11 +3,11 @@ wsId: coinpanelApp
 title: CoinPanel
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinpanel.appdev
 appCountry: tt
 idd: '1611045031'
-released: '2022-05-15T07:00:00Z'
+released: 2022-05-15
 updated: 2023-01-12
 version: '2.0'
 stars: 0
@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/coinpanel
 - https://www.tiktok.com/@coinpanel
 - https://www.youtube.com/c/CoinPanel
-- https://t.me/coin_panel 
+- https://t.me/coin_panel
 features: 
 developerName: CoinPanel AB
 

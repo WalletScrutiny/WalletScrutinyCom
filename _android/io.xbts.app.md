@@ -3,7 +3,7 @@ wsId:
 title: 'XBTS: Crypto wallet and DeFi'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.xbts.app
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/xbtsio  
+- https://t.me/xbtsio
 redirect_from: 
 developerName: TechnoL0g
 features: 

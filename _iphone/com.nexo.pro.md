@@ -3,17 +3,17 @@ wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.nexo.pro
 appCountry: us
 idd: '1635152271'
-released: '2023-05-03T07:00:00Z'
-updated: 2023-05-11
-version: 1.1.0
+released: 2023-05-03
+updated: 2023-09-12
+version: 1.2.0
 stars: 0
 reviews: 0
-size: '31433728'
-website: ''
+size: '31638528'
+website: 
 repository: 
 issue: 
 icon: com.nexo.pro.jpg
@@ -28,7 +28,7 @@ social:
 - https://pro.nexo.com
 - https://www.reddit.com/r/Nexo
 - https://t.me/nexofinance
-- https://www.facebook.com/nexofinance  
+- https://www.facebook.com/nexofinance
 features: 
 developerName: Nexo Capital Inc.
 
