@@ -48,7 +48,7 @@
       <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
       {% include /methodology/section_title.html type="meta" %}
       {% for meta in metas %}
-        {% include verdictMethodology.html verdict=meta category=key %}
+        {% include metaMethodology.html meta=meta category=key %}
       {% endfor %}
     {% endif %}
 </div>
@@ -66,7 +66,7 @@
     <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
     {% include /methodology/section_title.html type="meta" %}
     {% for verdict in site.data.testOrder.metas %}
-      {% include verdictMethodology.html verdict=verdict category='meta' %}
+      {% include metaMethodology.html meta=meta category='meta'%}
     {% endfor %}
   </div>
 </div>

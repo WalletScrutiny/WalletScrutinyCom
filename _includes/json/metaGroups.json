@@ -1,0 +1,13 @@
+{% assign metas = '' %}
+
+{% assign metaGroups = site.data.topMetas | concat: site.data.verdictGroups %}
+
+{% for vg in metaGroups %}
+  {% assign vgJson = vg | jsonify %}
+  {% assign metas = metas | append: '"' | append: vg.key | append: '": '
+    | append: vgJson %}
+  {% unless forloop.last %}
+    {% assign metas = metas | append: ',' %}
+  {% endunless %}
+{% endfor %}
+const metaGroups = { {{metas}} }

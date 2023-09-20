@@ -1,0 +1,23 @@
+<div class="verdictMethodology textbox" id="{{include.category}}-{{include.meta}}">
+<div class="verdict-methodology-head">
+  <h2>{{ site.data.metas[include.meta].question }}</h2>
+  <div class="chevron"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-down"></i></div>
+</div>
+
+<p>If the answer is "no", we mark it as "<strong>{{ site.data.metas[include.meta].title }}</strong>".</p>
+
+<div class="details truncated truncated-target-{{include.category}}-{{include.meta}}">
+{{ site.data.metas[include.meta].details | markdownify }}
+{% if site.data.metas[include.meta].redflag and page.url != "/methodology/" %}
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+{% endif %}
+</div>
+<script>if(document.querySelectorAll(".details.truncated.truncated-target-{{include.category}}-{{include.meta}}").length==1)
+{document.querySelector(".details.truncated.truncated-target-{{include.category}}-{{include.meta}}").addEventListener("click", ()=>{document.querySelector(".details.truncated.truncated-target-{{include.category}}-{{include.meta}}").classList.remove('truncated')})}</script>
+</div>

@@ -71,11 +71,15 @@
         <div class="accordion-head">
           <span class="badge {{class}}">{{icon}}</span>
           <span>{{ site.data.verdicts[criterion].question }}</span>
+          <span>{{ site.data.metas[criterion].question }}</span>
           <i class="fas fa-caret-right"></i>
           <i class="fas fa-caret-down"></i>
         </div>
         <div class="accordion-body textbox" onclick="event.stopPropagation()">
           {% include /review/steps/verdict_methodology_review_embed.html verdict=criterion %}
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          {% include /review/steps/meta_methodology_review_embed.html meta=criterion %}
         </div>
       </div>
   {% endfor %}

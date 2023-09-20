@@ -7,6 +7,7 @@ permalink: /allWallets.js
   window.wallets = []
   const data = {% include allAppList.html %}
   window.verdicts = data.verdicts
+  window.metas = data.metas
   const folders = ["hardware", "android", "iphone", "bearer"]
   folders.forEach(folder => {
     const folderData = data[folder]

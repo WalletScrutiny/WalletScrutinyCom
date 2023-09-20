@@ -1,0 +1,15 @@
+{% assign metas = 'const sitemetas = [' %}
+
+
+{% for v in site.data.metas %}
+  {% assign metas = metas | append: ',"' %}
+  {% assign metas = metas | append: v[0] %}
+  {% assign metas = metas | append: '"' %}
+{% endfor %}
+
+
+{% assign metas = metas | remove_first: "," | append: '];' %}
+
+
+
+{{metas}}

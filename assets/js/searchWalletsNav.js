@@ -201,7 +201,7 @@ function makeCompactResultsHTML(wallet) {
       </span>
       <span class="stats">
       ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
-      ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
+      ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.metas[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       <div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
         <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
         <div>${passed}${failed}</div>

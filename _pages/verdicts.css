@@ -22,6 +22,22 @@ permalink: /verdicts.css
   background: {{ verdict[1].color }};
   opacity: 0.5;
 }
+{% endfor %}
+
+.verdictBadge.{{ verdict[0] }} > span {
+  background: {{ verdict[1].color }};
+}
+
+{% for meta in site.data.metas %}
+.stamp-{{ verdict[0] }}::before {
+  background: {{ verdict[1].color }};
+  content: "{{ verdict[1].short }}";
+}
+
+.badge-2.{{ verdict[0] }}::before {
+  background: {{ verdict[1].color }};
+  opacity: 0.5;
+}
 
 .verdictBadge.{{ verdict[0] }} > span {
   background: {{ verdict[1].color }};
