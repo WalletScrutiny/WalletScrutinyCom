@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: btcFreeWallet
 title: Bitcoin Wallet - BTC Exchange
 altTitle: 
 authors:

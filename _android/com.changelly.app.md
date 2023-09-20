@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: changelly
 title: 'Crypto Exchange: Buy Bitcoin'
 altTitle: 
 authors:
