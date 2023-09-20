@@ -58,6 +58,8 @@ function refreshFile (fileName, content, markDefunct) {
           stats.updated++
           helper.writeResult(folder, header, body)
           stats.remaining--
+
+          console.log(`Created 🍎 file': ${fileName}`)
           release()
         })
       }, (err) => {
