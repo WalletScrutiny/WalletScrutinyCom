@@ -3,7 +3,7 @@ wsId:
 title: INOCYX
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16
@@ -19,7 +19,7 @@ issue:
 icon: com.application.inocyx.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

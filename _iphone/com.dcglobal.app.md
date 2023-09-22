@@ -10,7 +10,7 @@ idd: '1610058833'
 released: 2022-02-26
 updated: 2023-08-13
 version: 7.0.7
-stars: 5
+stars: 4.6
 reviews: 9
 size: '111430656'
 website: https://www.deepcoin.com

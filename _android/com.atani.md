@@ -8,9 +8,9 @@ users: 100000
 appId: com.atani
 appCountry: 
 released: 2021-03-09
-updated: 2023-08-22
-version: 4.11.1
-stars: 4.2
+updated: 2023-09-19
+version: 4.13.0
+stars: 4.3
 ratings: 
 reviews: 61
 size: 

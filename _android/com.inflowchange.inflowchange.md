@@ -3,7 +3,7 @@ wsId:
 title: 'Inflowchange: Sell Bitcoin'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.inflowchange.inflowchange
 appCountry: 
 released: 2023-02-17

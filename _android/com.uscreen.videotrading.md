@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Criptoclases
+developerName: Criptoclases-Old
 features: 
 
 ---

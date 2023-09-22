@@ -8,8 +8,8 @@ users: 5000
 appId: com.tokenomy.app
 appCountry: 
 released: 2021-07-09
-updated: 2023-09-07
-version: 2.14.1
+updated: 2023-09-14
+version: 2.15.0
 stars: 
 ratings: 
 reviews: 

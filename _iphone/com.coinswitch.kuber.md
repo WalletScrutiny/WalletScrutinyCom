@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2023-08-23
 version: 5.1.1
 stars: 4.5
-reviews: 47842
+reviews: 47862
 size: '114897920'
 website: https://coinswitch.co
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/coinswitch
 - https://www.facebook.com/coinswitch
 features: 
-developerName: CoinSwitch
+developerName: BITKUBER INVESTMENTS PRIVATE LIMITED
 
 ---
 

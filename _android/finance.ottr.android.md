@@ -4,12 +4,12 @@ title: 'Ottr Wallet: Buy, Stake SOL'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: finance.ottr.android
 appCountry: 
 released: 2022-10-04
-updated: 2023-08-18
-version: '1.52'
+updated: 2023-09-20
+version: '1.53'
 stars: 
 ratings: 
 reviews: 

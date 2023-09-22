@@ -9,10 +9,10 @@ appId: com.castor.threecommas
 appCountry: 
 released: 2018-03-02
 updated: 2023-09-13
-version: '2.6'
+version: '2.7'
 stars: 4.4
 ratings: 
-reviews: 676
+reviews: 677
 size: 
 website: https://3commas.io
 repository: 

@@ -8,11 +8,11 @@ users: 50000
 appId: com.coinw.win
 appCountry: 
 released: 2022-12-07
-updated: 2023-09-12
-version: 9.8.21
-stars: 4.7
+updated: 2023-09-19
+version: 9.8.22
+stars: 4.5
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://www.coinw.com
 repository: 

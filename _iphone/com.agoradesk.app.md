@@ -10,8 +10,8 @@ idd: '1617601678'
 released: 2022-08-19
 updated: 2023-08-20
 version: 1.1.12
-stars: 4.6
-reviews: 9
+stars: 5
+reviews: 8
 size: '56999936'
 website: https://agoradesk.com
 repository: 

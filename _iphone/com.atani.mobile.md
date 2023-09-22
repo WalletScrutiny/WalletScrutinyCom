@@ -8,11 +8,11 @@ appId: com.atani.mobile
 appCountry: us
 idd: '1547110479'
 released: 2021-03-12
-updated: 2023-08-25
-version: 4.11.0
+updated: 2023-09-21
+version: 4.13.0
 stars: 4.6
 reviews: 31
-size: '188838912'
+size: '191398912'
 website: 
 repository: 
 issue: 

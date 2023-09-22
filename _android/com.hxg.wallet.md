@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-30
 updated: 2023-09-16
 version: 2.0.2
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 23
+reviews: 31
 size: 
 website: https://wowearn.com/
 repository: 

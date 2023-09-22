@@ -8,11 +8,11 @@ users: 100000
 appId: com.paybis
 appCountry: 
 released: 2021-09-06
-updated: 2023-09-07
-version: 1.6.3
-stars: 4
+updated: 2023-09-22
+version: 1.6.5
+stars: 4.1
 ratings: 173
-reviews: 64
+reviews: 66
 size: 
 website: https://paybis.com/contacts/
 repository: 

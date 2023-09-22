@@ -10,8 +10,8 @@ idd: '1596466402'
 released: 2021-12-31
 updated: 2023-09-13
 version: 2.0.3
-stars: 3.4
-reviews: 103
+stars: 3.5
+reviews: 102
 size: '35855360'
 website: https://coincred.org/
 repository: 

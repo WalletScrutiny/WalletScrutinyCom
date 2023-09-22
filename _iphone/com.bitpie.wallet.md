@@ -11,7 +11,7 @@ released: 2019-10-01
 updated: 2023-09-14
 version: 5.0.149
 stars: 3.4
-reviews: 186
+reviews: 187
 size: '185788416'
 website: https://bitpie.com
 repository: 

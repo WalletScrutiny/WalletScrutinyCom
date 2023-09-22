@@ -8,11 +8,11 @@ appId: com.obrinvestment.obrinvest
 appCountry: mm
 idd: '1557891972'
 released: 2021-05-03
-updated: 2023-07-21
-version: 2.6.0
+updated: 2023-09-22
+version: 2.6.4
 stars: 0
 reviews: 0
-size: '109287424'
+size: '116297728'
 website: https://www.obrinvest.com/
 repository: 
 issue: 

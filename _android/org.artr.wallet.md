@@ -12,16 +12,16 @@ updated: 2022-09-27
 version: '1.8'
 stars: 3.7
 ratings: 2174
-reviews: 1018
+reviews: 1019
 size: 
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 
 icon: org.artr.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-11
+date: 2023-09-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2023-08-22
 version: 2.1.5
 stars: 4.6
 ratings: 
-reviews: 36
+reviews: 37
 size: 
 website: https://a4.finance/
 repository: 
