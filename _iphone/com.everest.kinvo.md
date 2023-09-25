@@ -11,7 +11,7 @@ released: 2018-01-03
 updated: 2023-09-05
 version: 3.27.1
 stars: 4.6
-reviews: 15398
+reviews: 15408
 size: '73479168'
 website: http://www.kinvo.com.br
 repository: 

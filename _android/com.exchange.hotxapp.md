@@ -3,7 +3,7 @@ wsId:
 title: HotX
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.exchange.hotxapp
 appCountry: 
 released: 2022-02-27
@@ -19,7 +19,7 @@ issue:
 icon: com.exchange.hotxapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

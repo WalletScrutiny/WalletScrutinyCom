@@ -10,7 +10,7 @@ appCountry: IR
 released: 2019-01-16
 updated: 2023-09-19
 version: 4.5.23
-stars: 4.3
+stars: 4.4
 ratings: 4010
 reviews: 1535
 size: 

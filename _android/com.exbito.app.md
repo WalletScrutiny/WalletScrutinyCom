@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-17
 updated: 2023-09-02
 version: 1.10.1012
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 25
+reviews: 24
 size: 
 website: https://exbito.com
 repository: 

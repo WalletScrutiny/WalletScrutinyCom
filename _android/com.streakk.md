@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://streakk.io/
+website: https://odbdrwodqyzixyxti.earn.world/
 repository: 
 issue: 
 icon: com.streakk.png

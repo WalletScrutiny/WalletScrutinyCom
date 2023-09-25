@@ -8,8 +8,8 @@ users: 50000
 appId: com.fibitpro.fibitapp
 appCountry: 
 released: 2021-11-27
-updated: 2023-09-12
-version: 0.8.8
+updated: 2023-09-22
+version: 0.8.9
 stars: 4.8
 ratings: 
 reviews: 63

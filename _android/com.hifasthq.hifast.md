@@ -3,7 +3,7 @@ wsId:
 title: HiFast - Cash & Crypto Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hifasthq.hifast
 appCountry: 
 released: 2022-10-15

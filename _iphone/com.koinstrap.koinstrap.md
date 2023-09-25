@@ -8,11 +8,11 @@ appId: com.koinstrap.koinstrap
 appCountry: us
 idd: 1527922541
 released: 2020-08-31
-updated: 2023-05-17
-version: 3.2.2
+updated: 2023-09-24
+version: 3.3.1
 stars: 4.6
 reviews: 26
-size: '23851008'
+size: '26343424'
 website: https://koinstrap.com/
 repository: 
 issue: 

@@ -10,7 +10,7 @@ idd: 1534426282
 released: 2020-10-15
 updated: 2023-04-15
 version: 3.0.391
-stars: 3
+stars: 2.9
 reviews: 90
 size: '59254784'
 website: https://iflux.app/

@@ -8,11 +8,11 @@ appId: com.capitalsecurities.liqx
 appCountry: ch
 idd: '1535931066'
 released: 2021-10-13
-updated: 2023-07-21
-version: 2.6.0
+updated: 2023-09-24
+version: 2.6.4
 stars: 0
 reviews: 0
-size: '109221888'
+size: '116236288'
 website: https://www.liquidityx.com/eu/
 repository: 
 issue: 

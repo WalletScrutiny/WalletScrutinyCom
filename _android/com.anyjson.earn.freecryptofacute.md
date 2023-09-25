@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.anyjson.earn.freecryptofacute.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-20
+date: 2023-09-24
 signer: 
 reviewArchive: 
 twitter: 

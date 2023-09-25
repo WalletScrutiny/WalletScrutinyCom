@@ -8,8 +8,8 @@ users: 50000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2023-09-16
-version: 2.0.2
+updated: 2023-09-23
+version: 2.0.3
 stars: 4.7
 ratings: 
 reviews: 31
