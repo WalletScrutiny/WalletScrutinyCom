@@ -18,7 +18,7 @@ function extractIssueInfo(filePath) {
     for (const match of matches) {
         const [issueUrl, issueNumber] = match;
         const [, projectOwner, projectName] = issueUrl.match(/github\.com\/([^/]+)\/([^/]+)\/issues/); // Extract project name
-        issueInfo.push({ projectOwner, projectName, issueUrl, issueNumber: issueNumber.split('/').pop(), fileName: filePath });
+        issueInfo.push({ projectOwner, projectName, issueUrl: issueUrl.replace('issue:', ''), issueNumber: issueNumber.split('/').pop(), fileName: filePath });
     }
 }
 
@@ -60,27 +60,19 @@ rl.question('Enter your GitHub Personal Access Token: ', (token) => {
         });
     });
 
-    // Prepare the output text
-    let outputText = '';
+    // Prepare the output text as CSV
+    let outputText = 'App/Filename,Status,Project Name,Date of Last Update,Issue URL\n';
 
     // Check the status of each GitHub issue and append to the output text
     (async () => {
         for (const { projectOwner, projectName, issueUrl, issueNumber, fileName } of issueInfo) {
             const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber);
-            const entryText = `
-App/File name: ${fileName}
-Issue URL: ${issueUrl}
-Project Name: ${projectOwner}/${projectName}
-Issue Number: ${issueNumber}
-Status: ${state}
-Date of Last Update: ${lastUpdateDate}
-`;
-            console.log(entryText); // Display in the terminal
-            outputText += entryText; // Append to the output text
+            const csvLine = `${fileName},${state},${projectOwner}/${projectName},${lastUpdateDate},${issueUrl}\n`;
+            outputText += csvLine; // Append to the output text
         }
 
-        // Write the output text to the file
-        fs.writeFileSync('githubIssueTracker.txt', outputText);
+        // Write the output text to the CSV file
+        fs.writeFileSync('githubIssueTracker.csv', outputText);
 
         rl.close();
     })();
