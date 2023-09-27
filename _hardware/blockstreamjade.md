@@ -21,7 +21,7 @@ shop: https://store.blockstream.com/product/blockstream-jade-token/
 country: CA
 price: 39.99USD
 repository: https://github.com/Blockstream/jade
-issue: https://github.com/Blockstream/Jade/issues/26
+issue:
 icon: blockstreamjade.png
 bugbounty: 
 meta: ok
