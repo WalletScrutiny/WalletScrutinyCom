@@ -8,8 +8,8 @@ users: 50000
 appId: io.stormbird.wallet
 appCountry: us
 released: 2018-05-19
-updated: 2023-08-29
-version: '3.67'
+updated: 2023-09-20
+version: '3.68'
 stars: 4.4
 ratings: 247
 reviews: 39

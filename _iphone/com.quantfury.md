@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: 'Quantfury: Trading Made Honest'
+title: 'Quantfury: Your Global Broker'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.quantfury
 appCountry: gb
 idd: 1445564443
 released: 2018-12-15
-updated: 2023-09-10
-version: 1.62.5
+updated: 2023-09-21
+version: 1.64.0
 stars: 4.5
 reviews: 47
-size: '71158784'
+size: '73838592'
 website: https://quantfury.com/
 repository: 
 issue: 

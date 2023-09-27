@@ -8,8 +8,8 @@ users: 1000
 appId: com.koinstrap.koinstrap
 appCountry: us
 released: 2020-08-28
-updated: 2023-05-17
-version: 3.2.2
+updated: 2023-09-24
+version: 3.3.1
 stars: 
 ratings: 
 reviews: 

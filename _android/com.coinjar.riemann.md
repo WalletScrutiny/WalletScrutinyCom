@@ -1,6 +1,6 @@
 ---
 wsId: CoinJar
-title: 'CoinJar: Buy Bitcoin Instantly'
+title: 'CoinJar: Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinjar.riemann
 appCountry: au
 released: 2019-11-21
-updated: 2023-09-08
-version: 2.78.0
+updated: 2023-09-15
+version: 2.79.0
 stars: 3
 ratings: 1248
 reviews: 918

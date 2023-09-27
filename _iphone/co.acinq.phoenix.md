@@ -11,8 +11,8 @@ idd: 1544097028
 released: 2021-07-13
 updated: 2023-08-30
 version: 1.6.4
-stars: 4.3
-reviews: 27
+stars: 4.4
+reviews: 28
 size: '44178432'
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm

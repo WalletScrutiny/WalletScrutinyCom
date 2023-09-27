@@ -8,8 +8,8 @@ users: 5000
 appId: com.capitalsecurities.liqx
 appCountry: 
 released: 
-updated: 2023-08-17
-version: 2.6.2
+updated: 2023-09-20
+version: 2.6.4
 stars: 
 ratings: 
 reviews: 

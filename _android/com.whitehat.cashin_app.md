@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-16
 updated: 2023-09-13
 version: 1.0.0
-stars: 4.7
+stars: 4.8
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://cash-in.app
 repository: 

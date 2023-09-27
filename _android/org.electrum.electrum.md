@@ -13,7 +13,7 @@ updated: 2023-08-21
 version: 4.4.6.0
 stars: 3.8
 ratings: 2500
-reviews: 316
+reviews: 315
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -22,9 +22,14 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-06-21
+date: 2023-09-25
 signer: 
 reviewArchive:
+- date: 2023-06-21
+  version: "4.4.4.0"
+  appHash: 51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
 - date: 2023-05-09
   version: 4.4.2.0
   appHash: d668878b77b2a7accf819bcd9559e2eb088fc31d00163c8665b62e7cfefccb4a
@@ -77,24 +82,24 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.4.4.0
-apkVersionCode: 34040400
+apkVersionName: 4.4.6.0
+apkVersionCode: 34040600
 verdict:        reproducible
-appHash:        51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
-commit:         6374ef248fdc7f1d7d02d15973968d79ac286b96
+appHash:        23dcba9487f25334fa91387b91368ddc7a42de73dd8e2f55fcfdfc6f57a987db
+commit:         1ca05f32435a23e561841e1b620b1c7620c29d83
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34040400/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040400/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_org.electrum.electrum_34040600/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34040600/META-INF: CERT.SF
+Files /tmp/fromPlay_org.electrum.electrum_34040600/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040600/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 6374ef248fdc7f1d7d02d15973968d79ac286b96
+object 1ca05f32435a23e561841e1b620b1c7620c29d83
 type commit
-tag 4.4.4
-tagger ThomasV <thomasv@electrum.org> 1685538044 +0200
+tag 4.4.6
+tagger ThomasV <thomasv@electrum.org> 1692287415 +0200
 
-4.4.4
+4.4.6
 ===== End Results =====
 ```
 

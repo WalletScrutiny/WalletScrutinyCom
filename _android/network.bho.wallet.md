@@ -8,8 +8,8 @@ users: 10000
 appId: network.bho.wallet
 appCountry: 
 released: 2022-06-04
-updated: 2023-09-15
-version: 1.0.53
+updated: 2023-09-19
+version: 1.0.54
 stars: 4.2
 ratings: 
 reviews: 5

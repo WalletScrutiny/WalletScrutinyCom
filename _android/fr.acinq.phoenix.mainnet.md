@@ -8,11 +8,11 @@ users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2023-09-11
-version: 2.0.6
+updated: 2023-09-20
+version: 2.0.8
 stars: 4.4
 ratings: 314
-reviews: 37
+reviews: 38
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

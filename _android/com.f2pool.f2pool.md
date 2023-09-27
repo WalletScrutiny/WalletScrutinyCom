@@ -12,7 +12,7 @@ updated: 2023-08-25
 version: 2.5.3
 stars: 4.4
 ratings: 
-reviews: 77
+reviews: 76
 size: 
 website: https://www.f2pool.com
 repository: 

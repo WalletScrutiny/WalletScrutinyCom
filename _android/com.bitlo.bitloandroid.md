@@ -9,10 +9,10 @@ appId: com.bitlo.bitloandroid
 appCountry: TR
 released: 2020-12-18
 updated: 2023-09-08
-version: 2.1.2
-stars: 3
+version: 2.1.3
+stars: 3.2
 ratings: 
-reviews: 805
+reviews: 808
 size: 
 website: https://www.bitlo.com/
 repository: 

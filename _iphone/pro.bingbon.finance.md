@@ -1,6 +1,6 @@
 ---
 wsId: bingbon
-title: 'BingX : Buy BTC & Crypto'
+title: BingX:BTC,ETH,Crypto Exchange
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,11 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2023-08-31
-version: 3.64.1
+updated: 2023-09-20
+version: 4.0.5
 stars: 4.5
-reviews: 44
-size: '201170944'
+reviews: 45
+size: '212129792'
 website: https://bingbon.com
 repository: 
 issue: 

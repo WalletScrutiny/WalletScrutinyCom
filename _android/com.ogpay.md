@@ -8,7 +8,7 @@ users: 10000
 appId: com.ogpay
 appCountry: us
 released: 2019-07-31
-updated: 2023-09-01
+updated: 2023-09-20
 version: VARY
 stars: 4.5
 ratings: 42

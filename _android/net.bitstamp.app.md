@@ -12,7 +12,7 @@ updated: 2023-09-11
 version: 3.14.2
 stars: 3.7
 ratings: 11088
-reviews: 600
+reviews: 602
 size: 
 website: https://www.bitstamp.net
 repository: 

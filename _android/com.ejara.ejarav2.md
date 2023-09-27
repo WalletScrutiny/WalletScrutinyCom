@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-08
 updated: 2023-08-24
 version: 3.5.9
-stars: 4.2
+stars: 4
 ratings: 
-reviews: 16
+reviews: 18
 size: 
 website: https://www.ejara.io
 repository: 

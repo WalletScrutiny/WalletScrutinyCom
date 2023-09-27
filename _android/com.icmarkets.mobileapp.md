@@ -4,7 +4,7 @@ title: IC Markets
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.icmarkets.mobileapp
 appCountry: 
 released: 2022-01-19

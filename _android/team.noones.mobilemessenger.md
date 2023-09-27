@@ -9,10 +9,10 @@ appId: team.noones.mobilemessenger
 appCountry: 
 released: 2023-05-04
 updated: 2023-09-15
-version: 1.2.5
-stars: 3.5
+version: 1.2.6
+stars: 3.6
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://noones.com/
 repository: 

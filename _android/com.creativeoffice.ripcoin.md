@@ -12,7 +12,7 @@ updated: 2023-08-30
 version: '11060'
 stars: 3.4
 ratings: 
-reviews: 219
+reviews: 220
 size: 
 website: https://antcoin.tech/
 repository: 

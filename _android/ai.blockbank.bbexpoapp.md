@@ -8,8 +8,8 @@ users: 10000
 appId: ai.blockbank.bbexpoapp
 appCountry: 
 released: 2021-10-21
-updated: 2023-09-13
-version: 3.4.11
+updated: 2023-09-23
+version: 3.4.12
 stars: 4.2
 ratings: 
 reviews: 10

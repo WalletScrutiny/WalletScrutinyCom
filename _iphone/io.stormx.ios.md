@@ -11,7 +11,7 @@ released: 2018-12-12
 updated: 2023-09-14
 version: 4.18.6
 stars: 4.6
-reviews: 1263
+reviews: 1262
 size: '59563008'
 website: https://stormx.io/
 repository: 

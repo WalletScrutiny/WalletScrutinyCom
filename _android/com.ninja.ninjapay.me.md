@@ -7,8 +7,8 @@ users: 50
 appId: com.ninja.ninjapay.me
 appCountry: 
 released: 2023-01-10
-updated: 2023-09-04
-version: 2.1.3
+updated: 2023-09-20
+version: 2.1.4
 stars: 
 ratings: 
 reviews: 
