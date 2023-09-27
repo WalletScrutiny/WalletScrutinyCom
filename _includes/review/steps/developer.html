@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <div class="step developer">
   <i class="i-person circle"></i>
   <div class="title">
@@ -10,11 +11,11 @@
   </div>
   <div class="data">
     {% if page.website %}
-      <a href="{{page.website}}" title="Website" target="_blank">Website</a>
+      <a href="{{page.website}}" title="Website" target="_blank"><i class="fa-solid fa-up-right-from-square"></i> Website</a>
     {% endif %}
     {% if page.twitter %}
 
-    <a href="https://twitter.com/{{page.twitter}}" title="Twitter" target="_blank">Twitter</a>
+    <a href="https://twitter.com/{{page.twitter}}" title="Twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
     {% endif %}
     {% if page.social %}
       {% for link in page.social %}
@@ -23,31 +24,32 @@
         {% else %}
           {% assign domain = link | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
           {% case domain %}
-            {% when "bitcointalk" %}{% assign name = "Bitcoin Talk" %}
-            {% when "discord"     %}{% assign name = "Discord" %}
-            {% when "facebook"    %}{% assign name = "Facebook" %}
-            {% when "github"      %}{% assign name = "GitHub" %}
-            {% when "google"      %}{% assign name = "Google" %}
-            {% when "instagram"   %}{% assign name = "Instagram" %}
-            {% when "keybase"     %}{% assign name = "Keybase" %}
-            {% when "linkedin"    %}{% assign name = "LinkedIn" %}
-            {% when "medium"      %}{% assign name = "Medium" %}
-            {% when "pinterest"   %}{% assign name = "Pinterest" %}
-            {% when "reddit"      %}{% assign name = "Reddit" %}
-            {% when "slack"       %}{% assign name = "Slack" %}
-            {% when "t"           %}{% assign name = "Telegram" %}
-            {% when "tiktok"      %}{% assign name = "tiktok" %}
-            {% when "twitter"     %}{% assign name = "Twitter" %}
-            {% when "vimeo"       %}{% assign name = "Vimeo" %}
-            {% when "vk"          %}{% assign name = "VK" %}
-            {% when "weibo"       %}{% assign name = "Weibo" %}
-            {% when "whatsapp"    %}{% assign name = "WhatsApp" %}
-            {% when "youtube"     %}{% assign name = "YouTube" %}
-            {% when "archive"     %}{% assign name = "Archived Website" %}
-            {% else               %}{% assign name = "Website" %}
+            {% when "bitcointalk" %}{% assign name = "Bitcoin Talk" %}{% assign icon = "fab fa-bitcoin" %}
+            {% when "discord"     %}{% assign name = "Discord" %}{% assign icon = "fab fa-discord" %}
+            {% when "facebook"    %}{% assign name = "Facebook" %}{% assign icon = "fab fa-facebook" %}
+            {% when "github"      %}{% assign name = "GitHub" %}{% assign icon = "fab fa-github" %}
+            {% when "google"      %}{% assign name = "Google" %}{% assign icon = "fab fa-google" %}
+            {% when "instagram"   %}{% assign name = "Instagram" %}{% assign icon = "fab fa-instagram" %}
+            {% when "keybase"     %}{% assign name = "Keybase" %}{% assign icon = "fab fa-keybase" %}
+            {% when "linkedin"    %}{% assign name = "LinkedIn" %}{% assign icon = "fab fa-linkedin" %}
+            {% when "medium"      %}{% assign name = "Medium" %}{% assign icon = "fab fa-medium" %}
+            {% when "pinterest"   %}{% assign name = "Pinterest" %}{% assign icon = "fab fa-pinterest" %}
+            {% when "reddit"      %}{% assign name = "Reddit" %}{% assign icon = "fab fa-reddit" %}
+            {% when "slack"       %}{% assign name = "Slack" %}{% assign icon = "fab fa-slack" %}
+            {% when "t"           %}{% assign name = "Telegram" %}{% assign icon = "fab fa-telegram" %}
+            {% when "tiktok"      %}{% assign name = "tiktok" %}{% assign icon = "fab fa-tiktok" %}
+            {% when "twitter"     %}{% assign name = "Twitter" %}{% assign icon = "fab fa-twitter" %}
+            {% when "vimeo"       %}{% assign name = "Vimeo" %}{% assign icon = "fab fa-vimeo" %}
+            {% when "vk"          %}{% assign name = "VK" %}{% assign icon = "fab fa-vk" %}
+            {% when "weibo"       %}{% assign name = "Weibo" %}{% assign icon = "fab fa-weibo" %}
+            {% when "whatsapp"    %}{% assign name = "WhatsApp" %}{% assign icon = "fab fa-whatsapp" %}
+            {% when "youtube"     %}{% assign name = "YouTube" %}{% assign icon = "fab fa-youtube" %}
+            {% when "archive"     %}{% assign name = "Archived Website" %}{% assign icon = "fas fa-archive" %}
+            {% else               %}{% assign name = "Website" %}{% assign icon = "fa-solid fa-up-right-from-square" %}
           {% endcase %}
         {% endif %}
-        <a href="{{link}}" title="{{name}}" class="capitalise" target="_blank">{{name}}</a>
+        <a href="{{link}}" title="{{name}}" class="capitalise" target="_blank"><i class="{{ icon }}"></i> {{ default: name }}
+        </a>
       {% endfor %}
     {% endif %}
   </div>
@@ -55,7 +57,7 @@
     {% assign exists = 'exists' %}
   {% endif %}
   <div class="tooltip-element {{exists}}">
-    <i class="info-circle">
+    <i class="info-circle"> 
       <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
     </i>
   {% if page.tooltip.developer %}
