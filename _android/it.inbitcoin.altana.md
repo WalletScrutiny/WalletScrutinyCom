@@ -17,7 +17,7 @@ reviews:
 size: 
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android
-issue: https://github.com/inbitcoin/altana-android/issues/1
+issue: https://github.com/inbitcoin/altana-android/issues/5
 icon: it.inbitcoin.altana.png
 bugbounty: 
 meta: ok
