@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.laxoWallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-07-17
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: Voltfinance
