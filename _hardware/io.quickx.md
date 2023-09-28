@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: io.quickx.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2023-09-28
 signer: 
