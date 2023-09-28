@@ -15,7 +15,7 @@
     {% endif %}
     {% if page.twitter %}
 
-    <a href="https://twitter.com/{{page.twitter}}" title="Twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i> Twitter</a>
+    <a href="https://twitter.com/{{page.twitter}}" title="Twitter" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
     {% endif %}
     {% if page.social %}
       {% for link in page.social %}
@@ -38,7 +38,7 @@
             {% when "slack"       %}{% assign name = "Slack" %}{% assign icon = "fab fa-slack" %}
             {% when "t"           %}{% assign name = "Telegram" %}{% assign icon = "fab fa-telegram" %}
             {% when "tiktok"      %}{% assign name = "tiktok" %}{% assign icon = "fab fa-tiktok" %}
-            {% when "twitter"     %}{% assign name = "Twitter" %}{% assign icon = "fab fa-twitter" %}
+            {% when "twitter"     %}{% assign name = "Twitter" %}{% assign icon = "fa-brands fa-x-twitter" %}
             {% when "vimeo"       %}{% assign name = "Vimeo" %}{% assign icon = "fab fa-vimeo" %}
             {% when "vk"          %}{% assign name = "VK" %}{% assign icon = "fab fa-vk" %}
             {% when "weibo"       %}{% assign name = "Weibo" %}{% assign icon = "fab fa-weibo" %}
