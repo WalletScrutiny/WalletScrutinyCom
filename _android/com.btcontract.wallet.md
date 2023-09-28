@@ -17,7 +17,7 @@ reviews: 34
 size: 
 website: https://lightning-wallet.com/
 repository: https://github.com/btcontract/wallet
-issue: https://github.com/btcontract/wallet/issues/90
+issue:
 icon: com.btcontract.wallet.png
 bugbounty: 
 meta: ok

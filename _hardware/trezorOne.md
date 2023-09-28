@@ -21,7 +21,7 @@ shop: https://shop.trezor.io/product/trezor-one-black
 country: CZ
 price: 49EUR
 repository: https://github.com/trezor/trezor-firmware
-issue: https://github.com/trezor/trezor-firmware/issues/1713
+issue:
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
 meta: ok
