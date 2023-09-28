@@ -19,9 +19,9 @@ repository: https://gitlab.com/bit4you
 issue: 
 icon: com.bit4you.app.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-12-09
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: Bit4you1

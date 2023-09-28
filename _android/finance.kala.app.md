@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.kala.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-06-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

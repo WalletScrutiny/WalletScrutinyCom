@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crypto_business.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

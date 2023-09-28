@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.p2p.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2023-05-06
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
