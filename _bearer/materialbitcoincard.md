@@ -40,6 +40,16 @@ The "Material Bitcoin Wallet" is described as a "cold wallet" meant to secure yo
 
 ## Setup and Product Description 
 
+Private keys are generated and engraved during the manufacturing process.
+
+From the [FAQs](https://materialbitcoin.com/en/faq/):
+> **How do I know that the private key generation process is secure?**
+> The private key engraved onto each Material Bitcoin wallet is the equivalent of your bank card’s PIN number. This is considered extremely sensitive data that only the owner of the wallet should know.
+
+
+
+That’s why we make sure our manufacturing process is 100% secure, employing a state-of- the-art, open-source key generator and engraving the wallet without any human intervention.
+
 > Material Bitcoin is a cold wallet. Since it is not connected to the Internet, your data, such as your private key, is never exposed and can never be hacked. Additionally, it is made from AISI 304L stainless steel, which makes it a highly durable and secure device.
 
 
