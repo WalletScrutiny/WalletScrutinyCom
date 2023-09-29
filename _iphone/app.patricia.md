@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.patricia.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-08-29
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xeggex.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2023-08-16
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: xeggex
