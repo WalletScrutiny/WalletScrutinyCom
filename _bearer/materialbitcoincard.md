@@ -3,7 +3,7 @@ title: Material Bitcoin
 appId: materialbitcoincard
 authors:
 - danny
-released: 
+released: 2023-03-01
 discontinued: 
 updated: 
 version: 
@@ -21,7 +21,7 @@ country: ES
 price: 89USD
 repository: 
 issue: 
-icon: 
+icon: materialbitcoincard.png
 bugbounty: 
 meta: ok
 verdict: prefilled
@@ -29,7 +29,10 @@ date: 2023-09-29
 signer: 
 reviewArchive: 
 twitter: materialbitcoin
-social: 
+social:
+- https://www.facebook.com/MaterialBitcoin
+- https://www.instagram.com/materialbitcoin
+- https://t.me/materialbitcoinoficial  
 features: 
 
 ---
@@ -46,12 +49,9 @@ From the [FAQs](https://materialbitcoin.com/en/faq/):
 > **How do I know that the private key generation process is secure?**
 > The private key engraved onto each Material Bitcoin wallet is the equivalent of your bank card’s PIN number. This is considered extremely sensitive data that only the owner of the wallet should know.
 
-
-
-That’s why we make sure our manufacturing process is 100% secure, employing a state-of- the-art, open-source key generator and engraving the wallet without any human intervention.
+> That’s why we make sure our manufacturing process is 100% secure, employing a state-of- the-art, open-source key generator and engraving the wallet without any human intervention.
 
 > Material Bitcoin is a cold wallet. Since it is not connected to the Internet, your data, such as your private key, is never exposed and can never be hacked. Additionally, it is made from AISI 304L stainless steel, which makes it a highly durable and secure device.
-
 
 ## Analysis 
 

@@ -19,7 +19,7 @@ country: JP
 price: 
 repository: 
 issue: 
-icon: 
+icon: pockebit.smartwallet.png
 bugbounty: 
 meta: ok
 verdict: vapor
@@ -47,6 +47,6 @@ Purportedly, the early prototype of the device was credit-card sized, featuring 
 
 Unfortunately, we could not find any information on the product afterwards. The website went offline in 2021 and as of today the domain name is currently available for purchase.
 
-We found the [Pockebit](https://www.linkedin.com/company/pockebit-cryptowallet/) LinkedIn page; however the account appears to be inactive and completely empty. Interestingly, the website linked in its description is "https://hitowallet.com/."
+We found the [Pockebit's](https://www.linkedin.com/company/pockebit-cryptowallet/) LinkedIn page; however the account appears to be inactive and completely empty. Interestingly, the website linked in its description is "https://hitowallet.com/."
 
 As it does not appear that this product was ever made available for purchase, we marked it as **vaporware.**
