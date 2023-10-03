@@ -4,7 +4,7 @@ title: ProfitTradingApp for FTX
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.profittrading.forftx
 appCountry: 
 released: 2021-08-25
@@ -12,22 +12,24 @@ updated: 2022-09-13
 version: 1.2.1
 stars: 5
 ratings: 30
-reviews: 1
+reviews: 2
 size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forftx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
+features: 
 
 ---
 

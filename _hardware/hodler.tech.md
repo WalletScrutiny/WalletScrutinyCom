@@ -28,6 +28,7 @@ reviewArchive:
 twitter: HODLER_TECH
 social:
 - https://www.facebook.com/hodler.tech
+features: 
 
 ---
 

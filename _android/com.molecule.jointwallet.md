@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.molecule.jointwallet
 appCountry: 
-released: Dec 6, 2021
+released: 2021-12-06
 updated: 2021-12-07
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.molecule.jointwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-12-17
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: mohammad alansari
+features: 
 
 ---
 

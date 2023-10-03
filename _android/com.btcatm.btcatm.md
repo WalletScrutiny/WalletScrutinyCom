@@ -6,9 +6,9 @@ authors:
 users: 100
 appId: com.btcatm.btcatm
 appCountry: 
-released: Jun 8, 2022
-updated: 2022-06-24
-version: 1.0.8
+released: 2022-06-08
+updated: 2023-07-28
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
@@ -20,12 +20,14 @@ icon: com.btcatm.btcatm.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitcoin Secure Atm
+features: 
 
 ---
 

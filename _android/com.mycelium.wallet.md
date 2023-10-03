@@ -8,22 +8,32 @@ users: 1000000
 appId: com.mycelium.wallet
 appCountry: 
 released: 2013-07-01
-updated: 2022-12-29
-version: 3.16.0.15
-stars: 4
+updated: 2023-06-30
+version: 3.16.1.0
+stars: 3.7
 ratings: 11650
-reviews: 1222
+reviews: 1159
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: https://github.com/mycelium-com/wallet-android/issues/648
+issue: 
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-01-12
+date: 2023-09-24
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2023-04-27
+  version: 3.16.0.16
+  appHash: 2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
+- date: 2023-01-12
+  version: 3.16.0.15
+  appHash: 50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
+  gitRevision: 48c4143403d94cf29a968f1510d714fd7c49efcf
+  verdict: reproducible
 - date: 2022-11-04
   version: 3.16.0.13
   appHash: 76a431f30c9257c478c6d1072aeaaaddc4807f2a9f9379791c768866ec4bdec7
@@ -224,6 +234,8 @@ redirect_from:
 - /com.mycelium.wallet/
 - /posts/2019/11/mycelium/
 - /posts/com.mycelium.wallet/
+developerName: Mycelium Developers
+features: 
 
 ---
 
@@ -234,27 +246,28 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.16.0.15
-apkVersionCode: 3160015
+apkVersionName: 3.16.1.0
+apkVersionCode: 3160100
 verdict:        reproducible
-appHash:        50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
-commit:         48c4143403d94cf29a968f1510d714fd7c49efcf
+appHash:        f03d86c61f6d4a1ba071cb509537f6e855045c58ab9e705a50b9b1cc182ed606
+commit:         571dbbb6f5ffb5af0b97b792f49b2d9ad3a32867
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3160015/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160015/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160100/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160100/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160100/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160100/META-INF/CERT.SF differ
 
 Revision, tag (and its signature):
-object 48c4143403d94cf29a968f1510d714fd7c49efcf
+object 571dbbb6f5ffb5af0b97b792f49b2d9ad3a32867
 type commit
-tag v3.16.0.15
-tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1672914653 +0400
+tag v3.16.1.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1688990913 +0400
 
-Mycelium Bitcoin Wallet v3.16.0.15:
+Mycelium Bitcoin Wallet v3.16.1.0
 
-30eb7b1de704b63bdaf464f703a202ee59304a2d952808a95282c0ef390f336baa7292d68cdd0cb29a06a3c1ed183a577cf2b3ed2d992f4f99c0e8b887be4d42  prodnet/release/mbw-prodnet-release.apk
-62abe33861761fb6679149d2049eb8ac10dcfed851def21649565a8dc6d7c08a797f789e4a22107641c7d39ca273dc682759e5fe217b1b3340cf5fef8fe576d4  btctestnet/release/mbw-btctestnet-release.apk
-79a7bfd3adf83f03162ca2b49470cf360f64c1b56c3e3473be8e6b7d1b7ba71710b19be3175a0abcec1db53982481de226b6d2af2a8c39af5777ea3bdb143a0d  prodnet/debug/mbw-prodnet-debug.apk
-475dbc82bfbf9767c06ba77cde559b8fa06f9e6f66afd72ae23f7849d3d8a5e3adce28ebf60a335113aabab8e08ced92707b9960555d062ae40202839cf171b4  btctestnet/debug/mbw-btctestnet-debug.apk
+5b746d2269373452b281262c0ff2509b0d9520a7f8f32a7206788e67a2b269e16bdffa61a8a35eb4d475fbf94e834b22635f5d67f4b929a9dfcc45ae7766b4be  prodnet/release/mbw-prodnet-release.apk
+774f2786275c0a792d20b2638413614280808c69784826ed81d81494ad6d47697608a997a2ffc04418c4e3d69ae2d89895fdee53bfa9dd8ee3f102f54214bcd1  btctestnet/release/mbw-btctestnet-release.apk
+c19d476697c1334837e4eda161109d35588cc4cbb5433e32a82830e50f319f5dc77ea6bfed2c30a4b051b1356b64ae6bda261ebb8921f3c11f8caf5565c099db  prodnet/debug/mbw-prodnet-debug.apk
+b332f1e326968f69d99287f64d704d6bb08ccaca0fb5dd94526336318d0a9fcff941b045990b653d3cdfabe773a96aeddbb7788379c0f4ae53129580a06ed697  btctestnet/debug/mbw-btctestnet-debug.apk
 ===== End Results =====
 ```
 

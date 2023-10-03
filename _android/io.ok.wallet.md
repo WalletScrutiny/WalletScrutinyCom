@@ -3,7 +3,7 @@ wsId:
 title: OK钱包—比特币钱包OKCoin bitcoin walle
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.ok.wallet
 appCountry: 
 released: 2021-04-10
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: io.ok.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-04-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: laowang
+features: 
 
 ---
 

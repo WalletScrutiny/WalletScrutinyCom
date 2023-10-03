@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.nine
 appCountry: 
-released: Jul 20, 2020
+released: 2020-07-20
 updated: 2020-10-08
 version: 1.0.7
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.nine.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Nine Develpoer Team
+features: 
 
 ---
 

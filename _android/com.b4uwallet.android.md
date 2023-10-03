@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: com.b4uwallet.android.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-04-18
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial
 redirect_from: 
+developerName: B4U soft
+features: 
 
 ---
 

@@ -4,15 +4,15 @@ title: Vidulum - Crypto Web Wallet
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.vidulumwallet.app
 appCountry: 
 released: 2019-04-04
-updated: 2022-09-01
-version: '2.5'
-stars: 4.8
+updated: 2023-08-02
+version: '3.4'
+stars: 4.6
 ratings: 106
-reviews: 9
+reviews: 10
 size: 
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
@@ -31,6 +31,8 @@ social:
 redirect_from:
 - /com.vidulumwallet.app/
 - /posts/com.vidulumwallet.app/
+developerName: Vidulum LLC
+features: 
 
 ---
 

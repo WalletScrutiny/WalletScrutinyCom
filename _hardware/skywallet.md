@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/skycoin
 - https://www.facebook.com/SkycoinOfficial
 - https://github.com/skycoinproject
+features: 
 
 ---
 

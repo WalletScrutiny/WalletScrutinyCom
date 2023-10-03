@@ -6,26 +6,28 @@ authors:
 users: 50000
 appId: com.aex.aexApp
 appCountry: 
-released: Oct 9, 2019
+released: 2019-10-09
 updated: 2022-09-21
 version: 3.36.4
-stars: 4.9
+stars: 4.4
 ratings: 
-reviews: 123
+reviews: 11
 size: 
 website: https://www.aex.com
 repository: 
 issue: 
 icon: com.aex.aexApp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AEX
+features: 
 
 ---
 

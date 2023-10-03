@@ -3,12 +3,12 @@ wsId:
 title: TradeNext
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tradenext.android
 appCountry: 
 released: 
-updated: 2022-12-30
-version: 1.4.0
+updated: 2023-06-26
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.tradenext.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: TradeNext
+features: 
 
 ---
 

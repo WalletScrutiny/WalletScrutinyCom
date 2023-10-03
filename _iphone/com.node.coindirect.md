@@ -29,6 +29,8 @@ twitter: coindirectcom
 social:
 - https://www.linkedin.com/company/coindirect
 - https://www.facebook.com/coindirectcom
+features: 
+developerName: 
 
 ---
 

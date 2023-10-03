@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.iminerator.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-22
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Paulo Coutinho
+features: 
 
 ---
 

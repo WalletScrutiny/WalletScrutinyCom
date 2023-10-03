@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: GoldBit
+title: GoBlocks錢包
 altTitle: 
 authors: 
 users: 100
 appId: com.goldbitpro.wallet
 appCountry: 
-released: Mar 14, 2021
-updated: 2022-07-01
-version: 2.5.4
+released: 2021-03-14
+updated: 2023-09-22
+version: 3.4.11
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GoldBit Technology Co., Ltd
+features: 
 
 ---
 

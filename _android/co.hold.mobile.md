@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.hold.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-03-10
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: HoldHQ
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/holdhq
 - https://www.facebook.com/HoldHQ
 redirect_from: 
+developerName: HOLD Platform Limited
+features: 
 
 ---
 

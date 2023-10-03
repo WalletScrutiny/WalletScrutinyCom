@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Inigma Co., Ltd.
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.bitenium.apptrading
 appCountry: 
-released: Aug 15, 2021
+released: 2021-08-15
 updated: 2022-07-19
 version: 1.0.6
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bitenium.apptrading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bitenium Exchange LLC
+features: 
 
 ---
 

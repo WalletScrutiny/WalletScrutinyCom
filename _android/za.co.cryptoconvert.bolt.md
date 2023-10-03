@@ -3,12 +3,12 @@ wsId:
 title: CryptoQR
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: za.co.cryptoconvert.bolt
 appCountry: 
-released: May 16, 2022
-updated: 2022-08-02
-version: 1.1.19
+released: 2022-05-16
+updated: 2023-08-24
+version: 1.1.65
 stars: 
 ratings: 
 reviews: 
@@ -20,12 +20,14 @@ icon: za.co.cryptoconvert.bolt.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-07-31
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoConvert
+features: 
 
 ---
 

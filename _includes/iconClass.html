@@ -1,0 +1,33 @@
+{% assign platform = include.platform %}
+{% assign store = include.store %}
+{% if store %}
+{% case platform %}
+{% when "android" %}
+{% assign iconClass = "fab fa-google-play" %}
+{% when "fdroid" %}
+{% assign iconClass = "fab fa-f-droid" %}
+{% when "iphone" %}
+{% assign iconClass = "i-app-store" %}
+{% when "hardware" %}
+{% assign iconClass = "fas fa-toolbox" %}
+{% when "bearer" %}
+{% assign iconClass = "i-btc" %}
+{% when "windows" %}
+{% assign iconClass = "fab fa-windows" %}
+{% endcase %}
+{% else %}
+{% case platform %}
+{% when "android" %}
+{% assign iconClass = "i-android" %}
+{% when "fdroid" %}
+{% assign iconClass = "i-android" %}
+{% when "iphone" %}
+{% assign iconClass = "fab fa-apple" %}
+{% when "hardware" %}
+{% assign iconClass = "i-device" %}
+{% when "bearer" %}
+{% assign iconClass = "i-device" %}
+{% when "windows" %}
+{% assign iconClass = "fab fa-windows" %}
+{% endcase %}
+{% endif %}

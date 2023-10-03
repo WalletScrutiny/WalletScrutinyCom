@@ -21,8 +21,8 @@ issue:
 icon: blockchainmind.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-05-17
+verdict: vapor
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: blockchainmind_
@@ -35,8 +35,15 @@ social:
   https://www.google.com/maps/place/BlockchainMind/@43.6485686,-79.3780473,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cd7ccb1664cf:0xa20fcd79fe163a0a!8m2!3d43.6485686!4d-79.3780473
 - >-
   https://api.whatsapp.com/send?phone=+14167053572&text=Hi%20there!%20I%20have%20a%20question%20:)
+features: 
 
 ---
+
+## Updated Verdict 2022-11-25
+
+With no further updates since our last review, we'll be marking this as vaporware.
+
+## Previous Verdict 2022-05-17
 
 It seems that {{ page.title }} is a company specialized in services around cryptocurrency and blockchain. Among its retinue of offerings include: 
 

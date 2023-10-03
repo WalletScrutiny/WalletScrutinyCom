@@ -1,5 +1,5 @@
 ---
-wsId: BitPreco
+wsId: BityPreco
 title: Bitypreço
 altTitle: 
 authors:
@@ -10,9 +10,9 @@ appCountry: br
 released: 2021-02-21
 updated: 2022-12-26
 version: 2.0.04
-stars: 4.4
+stars: 4.3
 ratings: 808
-reviews: 697
+reviews: 730
 size: 
 website: https://bitpreco.com/
 repository: 
@@ -29,8 +29,34 @@ social:
 - https://www.linkedin.com/company/bitpreco
 - https://www.facebook.com/BitPreco
 redirect_from: 
+developerName: Bitpreço
+features: 
 
 ---
+
+## Updated Review 2023-04-05
+
+There were some concerns raised about the similarity in name of 2 Android apps and 2 iOS apps: 
+
+Notably: 
+
+{% include walletLink.html wallet='android/com.bitpreco.bitprecoAppAndroid' verdict='true' %}
+{% include walletLink.html wallet='iphone/com.bitpreco.bitprecoApp' verdict='true' %}
+
+and 
+
+{% include walletLink.html wallet='android/io.biscoint.lite/' verdict='true' %}
+{% include walletLink.html wallet='iphone/io.biscoint.lite/' verdict='true' %}
+
+The two pairs are considered as seperate products from the same unifying entity, bity.com.br. 
+
+As we can see from the homepage of [bity.com.br](https://www.bity.com.br/): 
+
+> ###  About the Bitybank
+>
+> Bitypreco and Biscoint have become one.
+>
+> We reinvent Banco Digital for you to use your crypts on a daily basis and gain cashback in bitcoins.
 
 ## App Description
 

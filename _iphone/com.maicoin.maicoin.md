@@ -26,6 +26,8 @@ reviewArchive:
 twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
+features: 
+developerName: 
 
 ---
 

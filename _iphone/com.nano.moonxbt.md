@@ -10,23 +10,25 @@ idd: 1566536854
 released: 2021-06-08
 updated: 2023-01-13
 version: 5.4.3
-stars: 3.8
-reviews: 11
+stars: 3.3
+reviews: 19
 size: '68724736'
 website: https://www.moonxbt.com
 repository: 
 issue: 
 icon: com.nano.moonxbt.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-12-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global
 social:
 - https://www.facebook.com/MoonXBT
 - https://www.reddit.com/r/MoonXBT
+features: 
+developerName: NANO TRADE GLOBAL
 
 ---
 

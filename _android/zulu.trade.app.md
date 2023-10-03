@@ -1,6 +1,6 @@
 ---
 wsId: ZuluTrade
-title: ZuluTrade - Copy Trading Platf
+title: ZuluTrade for Social Trading
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: zulu.trade.app
 appCountry: us
 released: 2011-03-04
-updated: 2022-05-19
-version: 4.25.1
+updated: 2023-07-28
+version: 5.0.17
 stars: 3.8
 ratings: 2010
-reviews: 67
+reviews: 66
 size: 
 website: https://www.zulutrade.com
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/zulutrade
 - https://www.facebook.com/zulutrade
 redirect_from: 
+developerName: Zulutrade International Limited
+features: 
 
 ---
 

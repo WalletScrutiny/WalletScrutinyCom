@@ -26,6 +26,9 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 
+The app is no longer available on Google Play (404).

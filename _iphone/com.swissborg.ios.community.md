@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: cchallengesborg
 social: 
+features: 
+developerName: 
 
 ---
 

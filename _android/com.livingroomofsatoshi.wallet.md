@@ -4,15 +4,15 @@ title: Wallet of Satoshi
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.livingroomofsatoshi.wallet
 appCountry: 
 released: 2019-05-19
-updated: 2022-11-11
-version: 1.18.1
-stars: 3.9
+updated: 2023-09-14
+version: 2.2.9
+stars: 4.1
 ratings: 758
-reviews: 113
+reviews: 175
 size: 
 website: http://www.walletofsatoshi.com
 repository: 
@@ -32,6 +32,9 @@ redirect_from:
 - /com.livingroomofsatoshi.wallet/
 - /posts/2019/12/walletofsatoshi/
 - /posts/com.livingroomofsatoshi.wallet/
+developerName: Wallet of Satoshi
+features:
+- ln
 
 ---
 

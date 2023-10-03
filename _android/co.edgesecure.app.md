@@ -9,16 +9,16 @@ users: 500000
 appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
-updated: 2023-01-14
-version: 3.0.0
-stars: 3.7
+updated: 2023-09-23
+version: 3.18.0
+stars: 4.1
 ratings: 3880
-reviews: 612
+reviews: 635
 size: 
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
-icon: co.edgesecure.app.jpg
+icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
@@ -44,6 +44,8 @@ redirect_from:
 - /co.edgesecure.app/
 - /posts/2019/11/edge/
 - /posts/co.edgesecure.app/
+developerName: Edge (formerly Airbitz)
+features: 
 
 ---
 

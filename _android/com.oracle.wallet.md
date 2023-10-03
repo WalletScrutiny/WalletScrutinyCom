@@ -28,6 +28,8 @@ twitter: Oracle_Wallet
 social:
 - https://www.facebook.com/oracle8.org
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

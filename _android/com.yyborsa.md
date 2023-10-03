@@ -3,10 +3,10 @@ wsId:
 title: 7/24 Borsa
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.yyborsa
 appCountry: 
-released: Aug 20, 2021
+released: 2021-08-20
 updated: 2021-08-20
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.yyborsa.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Aksoyhlc
+features: 
 
 ---
 

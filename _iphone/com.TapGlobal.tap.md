@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: Tap - Buy & Sell Bitcoin
+title: Tap - Buy Bitcoin & Ether
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: 1492263993
 released: 2019-12-20
-updated: 2022-12-21
-version: 2.6.4
-stars: 4.7
-reviews: 888
-size: '193138688'
-website: https://www.tap.global/
+updated: 2023-09-20
+version: 3.0.0
+stars: 4.6
+reviews: 1495
+size: '175726592'
+website: https://www.withtap.com
 repository: 
 issue: 
 icon: com.TapGlobal.tap.jpg
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: Tap Global Limited
 
 ---
 

@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: io.wallet.pro.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-12-28
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: io_wallet
 social:
 - https://medium.com/@walletio
 - https://github.com/wallet-io
+features: 
+developerName: Taiyi Technology Beijing Co., Ltd.
 
 ---
 

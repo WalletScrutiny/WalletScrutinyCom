@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.flashxchanger.app
 appCountry: 
-released: Apr 29, 2021
+released: 2021-04-29
 updated: 2021-10-12
 version: 1.1.5
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.flashxchanger.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Sapian Group LTD
+features: 
 
 ---
 

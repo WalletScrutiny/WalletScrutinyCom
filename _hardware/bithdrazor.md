@@ -25,9 +25,9 @@ repository: https://github.com/bithd/bithd-mcu
 issue: 
 icon: bithdrazor.png
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nonverifiable
-date: 2022-04-18
+date: 2022-11-25
 signer: 
 reviewArchive:
 - date: 2021-12-11
@@ -37,6 +37,7 @@ reviewArchive:
   verdict: reproducible
 twitter: 
 social: 
+features: 
 
 ---
 
@@ -50,6 +51,12 @@ social:
 </ul>
 </p>
 </div></div>
+
+## Update 2022-11-25
+
+The product's buy link goes to [Amazon.](https://www.amazon.com/BITHD-Cryptocurrency-Hardware-Wallet-Pocket/dp/B07QKF867S/ref=sr_1_4?m=A1Q5WMBAZ5F5MU&marketplaceID=ATVPDKIKX0DER&qid=1578887523&s=merchant-items&sr=1-4) It is indicated there that the product is "unavailable."
+
+## Previous Verdict
 
 For the latest firmware version, we try the same as last time, wrapped
 into [this script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/bithdrazor.sh):

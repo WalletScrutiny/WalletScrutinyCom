@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.sonicx.payus.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-02-07
+date: 2023-01-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SONICX FOUNDATION
+features: 
 
 ---
 

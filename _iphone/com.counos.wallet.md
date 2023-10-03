@@ -8,26 +8,28 @@ appId: com.counos.wallet
 appCountry: 
 idd: 1408806845
 released: 2018-08-01
-updated: 2021-07-04
-version: 1.9.5
-stars: 3.9
-reviews: 23
-size: '26215424'
+updated: 2023-08-09
+version: 1.9.94
+stars: 4
+reviews: 22
+size: '26430464'
 website: >-
   https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
 repository: 
 issue: 
 icon: com.counos.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-07-01
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform
 - https://www.facebook.com/CounosPlatform
+features: 
+developerName: CSC Int GmbH
 
 ---
 

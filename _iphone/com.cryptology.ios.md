@@ -11,21 +11,23 @@ released: 2018-03-23
 updated: 2022-09-23
 version: 3.15.3
 stars: 5
-reviews: 26
+reviews: 6
 size: '74752000'
 website: http://cryptology.com
 repository: 
 issue: 
 icon: com.cryptology.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-08
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: Cryptologyexch
 social:
 - https://www.facebook.com/Cryptologyexch
+features: 
+developerName: Cypher OU
 
 ---
 

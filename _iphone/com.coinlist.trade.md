@@ -26,6 +26,8 @@ reviewArchive:
 twitter: coinlist
 social:
 - https://www.facebook.com/CoinListOfficial
+features: 
+developerName: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: fcm.cursdaq.com
 appCountry: 
-released: Aug 1, 2021
+released: 2021-08-01
 updated: 2021-08-02
 version: '1.1'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: fcm.cursdaq.com.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 나정식
+features: 
 
 ---
 

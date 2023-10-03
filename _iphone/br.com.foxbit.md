@@ -5,14 +5,14 @@ altTitle:
 authors:
 - danny
 appId: br.com.foxbit
-appCountry: ph
+appCountry: br
 idd: 1435319194
 released: 2019-03-24
-updated: 2022-12-20
-version: 2.29.1
-stars: 0
-reviews: 0
-size: '124600320'
+updated: 2023-09-25
+version: 3.6.0
+stars: 4.3
+reviews: 3870
+size: '98707456'
 website: https://foxbit.com.br/negociar-criptoativos/
 repository: 
 issue: 
@@ -20,13 +20,15 @@ icon: br.com.foxbit.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-08-27
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: foxbit
 social:
 - https://www.linkedin.com/company/foxbit
 - https://www.facebook.com/foxbitcoin
+features: 
+developerName: Foxbit
 
 ---
 

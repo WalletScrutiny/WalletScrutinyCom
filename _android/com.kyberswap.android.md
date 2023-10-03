@@ -27,6 +27,8 @@ twitter: KyberSwap
 social: 
 redirect_from:
 - /com.kyberswap.android/
+developerName: 
+features: 
 
 ---
 

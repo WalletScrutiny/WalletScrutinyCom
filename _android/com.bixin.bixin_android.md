@@ -27,6 +27,8 @@ reviewArchive:
 twitter: BixinWallet
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

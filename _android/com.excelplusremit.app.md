@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.excelplusremit.app
 appCountry: 
-released: Mar 17, 2021
+released: 2021-03-17
 updated: 2022-07-12
 version: 3.0.8
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.excelplusremit.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Excel Plus Remit
+features: 
 
 ---
 

@@ -26,6 +26,8 @@ reviewArchive:
 twitter: Aofex2
 social:
 - https://www.facebook.com/AofexDigitalCurrencyExchange
+features: 
+developerName: 
 
 ---
 

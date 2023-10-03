@@ -31,6 +31,7 @@ reviewArchive:
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
+features: 
 
 ---
 

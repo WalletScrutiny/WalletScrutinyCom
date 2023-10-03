@@ -7,7 +7,7 @@ authors:
 users: 100000
 appId: com.lunespay
 appCountry: 
-released: Jul 14, 2021
+released: 2021-07-14
 updated: 2021-08-10
 version: 1.0.7
 stars: 
@@ -19,9 +19,9 @@ repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
 icon: com.lunespay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-06-24
+date: 2023-08-01
 signer: 
 reviewArchive: 
 twitter: LunesPlatform
@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/lunespay/
 - https://www.instagram.com/lunespay/
 redirect_from: 
+developerName: Lunes Platform
+features: 
 
 ---
 

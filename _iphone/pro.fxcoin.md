@@ -30,6 +30,8 @@ reviewArchive:
   verdict: nowallet
 twitter: 
 social: 
+features: 
+developerName: 
 
 ---
 

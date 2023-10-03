@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: coinwisebr
 social: 
+features: 
 
 ---
 

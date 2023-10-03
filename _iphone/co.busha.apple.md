@@ -8,24 +8,26 @@ appId: co.busha.apple
 appCountry: 
 idd: 1450373493
 released: 2019-02-03
-updated: 2023-01-05
-version: 5.4.0
-stars: 4
-reviews: 307
-size: '102956032'
+updated: 2023-08-17
+version: 6.3.2
+stars: 4.3
+reviews: 617
+size: '106639360'
 website: https://busha.co
 repository: 
 issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-25
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: getbusha
 social:
 - https://www.facebook.com/getbusha
+features: 
+developerName: Busha Digital
 
 ---
 

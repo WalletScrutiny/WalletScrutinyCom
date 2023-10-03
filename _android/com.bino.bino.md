@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bino.bino
 appCountry: 
-released: Aug 21, 2021
+released: 2021-08-21
 updated: 2021-08-21
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bino.bino.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BinoAI
+features: 
 
 ---
 

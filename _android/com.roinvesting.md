@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.roinvesting.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2022-11-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: Roinvesting
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/roinvesting
 - https://www.facebook.com/ROInvesting
 redirect_from: 
+developerName: Royal Forex Limited
+features: 
 
 ---
 

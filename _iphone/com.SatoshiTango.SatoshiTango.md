@@ -9,24 +9,26 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 idd: 1002555958
 released: 2015-07-08
-updated: 2022-12-27
-version: '4.5'
-stars: 4.2
-reviews: 32
-size: '122473472'
+updated: 2023-02-07
+version: 4.5.4
+stars: 4.1
+reviews: 34
+size: '122518528'
 website: http://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
+features: 
+developerName: SatoshiTango
 
 ---
 

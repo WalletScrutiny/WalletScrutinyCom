@@ -12,22 +12,24 @@ updated: 2022-10-07
 version: 3.2.0
 stars: 1.9
 ratings: 187
-reviews: 46
+reviews: 47
 size: 
 website: https://www.zbg.com
 repository: 
 issue: 
 icon: com.zsdk.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-08
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: ZBG_Exchange
 social:
 - https://www.facebook.com/ZBGofficial
 redirect_from: 
+developerName: ZBG_exchange
+features: 
 
 ---
 

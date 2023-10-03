@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'ProBit: Buy & Sell Bitcoin. Cr'
+title: '프로비트: 가상화폐 (비트코인,이더리움,리플) 거래소'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.probit.app.android2.release.korea
 appCountry: 
 released: 2019-06-19
-updated: 2023-01-02
-version: 1.37.5
-stars: 3.6
+updated: 2023-09-22
+version: 2.0.13
+stars: 3.5
 ratings: 375
-reviews: 7
+reviews: 8
 size: 
 website: https://www.probit.kr
 repository: 
@@ -28,6 +28,8 @@ twitter: ProBit_Exchange
 social:
 - https://www.facebook.com/probitexchange
 redirect_from: 
+developerName: Oceans Incorporated
+features: 
 
 ---
 

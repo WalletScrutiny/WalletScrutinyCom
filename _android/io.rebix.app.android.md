@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.rebix.app.android
 appCountry: 
-released: Jan 25, 2022
+released: 2022-01-25
 updated: 2022-10-16
 version: 0.6.7
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: io.rebix.app.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Rebix
+features: 
 
 ---
 

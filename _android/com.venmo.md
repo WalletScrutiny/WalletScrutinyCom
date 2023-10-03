@@ -4,15 +4,15 @@ title: Venmo
 altTitle: 
 authors:
 - leo
-users: 10000000
+users: 50000000
 appId: com.venmo
 appCountry: 
-released: May 17, 2010
-updated: 2023-01-12
-version: 10.5.0
+released: 2010-05-17
+updated: 2023-09-26
+version: 10.27.0
 stars: 4.2
 ratings: 
-reviews: 251129
+reviews: 273479
 size: 
 website: https://venmo.com/
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 
+developerName: PayPal, Inc.
+features: 
 
 ---
 

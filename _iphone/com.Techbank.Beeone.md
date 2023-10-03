@@ -8,11 +8,11 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2022-12-14
-version: 1.0.60
+updated: 2023-09-11
+version: 1.0.61
 stars: 4.2
-reviews: 13
-size: '69273600'
+reviews: 17
+size: '83460096'
 website: https://techbank.finance/
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---
 

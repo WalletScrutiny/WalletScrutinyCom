@@ -10,18 +10,18 @@ appCountry:
 released: 2020-09-14
 updated: 2021-06-22
 version: 1.2.7
-stars: 4.3
+stars: 4.1
 ratings: 319
-reviews: 15
+reviews: 6
 size: 
 website: https://www.bigomex.com
 repository: 
 issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: bigomexofficial
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/bigomexofficial
 - https://www.reddit.com/r/bigomex
 redirect_from: 
+developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
+features: 
 
 ---
 

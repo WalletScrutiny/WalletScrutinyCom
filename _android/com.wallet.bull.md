@@ -12,16 +12,16 @@ updated: 2021-10-13
 version: 1.4.1-947
 stars: 4.1
 ratings: 713
-reviews: 26
+reviews: 28
 size: 
 website: https://bullcoin.finance/
 repository: 
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-11-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: bullcoinfinance
@@ -29,6 +29,8 @@ social:
 - https://www.reddit.com/r/bullcoinfinance
 - https://github.com/BullCoinFinance
 redirect_from: 
+developerName: BULL FINANCE
+features: 
 
 ---
 

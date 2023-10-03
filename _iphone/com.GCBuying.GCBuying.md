@@ -1,6 +1,6 @@
 ---
 wsId: GCBuying
-title: GCBuyingTech- SELL GIFT CARDS
+title: 'GCBuying: Sell GIFTCARD/CRYPTO'
 altTitle: 
 authors:
 - danny
@@ -8,23 +8,25 @@ appId: com.GCBuying.GCBuying
 appCountry: ng
 idd: 1574175142
 released: 2021-06-30
-updated: 2021-10-19
-version: 1.0.3
-stars: 3.2
-reviews: 19
-size: '22011904'
+updated: 2023-09-25
+version: 1.0.11
+stars: 3.5
+reviews: 47
+size: '19542016'
 website: https://gcbuying.com/
 repository: 
 issue: 
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: gcbuying
 social: 
+features: 
+developerName: GCBuying Technology
 
 ---
 

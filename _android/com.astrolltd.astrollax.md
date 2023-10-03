@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.astrolltd.astrollax
 appCountry: 
-released: Jan 16, 2022
+released: 2022-01-16
 updated: 2022-01-16
 version: '1.5'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.astrolltd.astrollax.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-01-12
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Astrollax
+features: 
 
 ---
 

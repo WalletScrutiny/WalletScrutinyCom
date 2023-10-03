@@ -3,7 +3,7 @@ wsId:
 title: Dawn Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.dawn.wallet
 appCountry: 
 released: 2021-01-13
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.dawn.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-04-20
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Dawn Wallet Inc
+features: 
 
 ---
 

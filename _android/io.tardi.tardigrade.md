@@ -1,31 +1,33 @@
 ---
 wsId: 
-title: 'Tardi: Crypto for Institution'
+title: 'Keywa: Crypto for Institution'
 altTitle: 
 authors: 
 users: 10
 appId: io.tardi.tardigrade
 appCountry: 
-released: Apr 28, 2022
+released: 2022-04-28
 updated: 2022-06-30
 version: 1.0.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://tardi.io
+website: https://keywa.io
 repository: 
 issue: 
 icon: io.tardi.tardigrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Mobius Excellent Group Ltd.
+features: 
 
 ---
 

@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: kr.co.coin.be.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-02-13
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 앱스토리 컴퍼니
+features: 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Sarmayex
+title: Sarmayex (Arzjoo)
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2023-01-08
-version: 2.3.6-g
-stars: 3.8
+updated: 2023-07-26
+version: 3.0.1
+stars: 4
 ratings: 3741
-reviews: 83
+reviews: 85
 size: 
 website: https://sarmayex.com
 repository: 
@@ -28,6 +28,8 @@ twitter: arzjoo
 social: 
 redirect_from:
 - /com.arzjoo/
+developerName: A to Z Crypto
+features: 
 
 ---
 

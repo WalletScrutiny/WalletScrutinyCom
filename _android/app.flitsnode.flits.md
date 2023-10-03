@@ -10,24 +10,26 @@ appCountry:
 released: 2019-04-05
 updated: 2021-02-09
 version: '4.4'
-stars: 4.3
+stars: 4.4
 ratings: 2089
-reviews: 75
+reviews: 74
 size: 
 website: https://flitswallet.app/
 repository: 
 issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-02-05
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
 redirect_from: 
+developerName: Decenomy
+features: 
 
 ---
 

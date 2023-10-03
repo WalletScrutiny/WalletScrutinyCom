@@ -26,6 +26,8 @@ reviewArchive:
 twitter: bit_bucks
 social:
 - https://www.facebook.com/bitbucks.io
+features: 
+developerName: FUF // Frank und Freunde
 
 ---
 

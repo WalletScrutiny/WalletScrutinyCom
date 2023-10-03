@@ -1,6 +1,6 @@
 ---
 wsId: voyager
-title: 'Voyager: Buy Crypto, BTC & ETH'
+title: Voyager
 altTitle: 
 authors:
 - leo
@@ -8,20 +8,20 @@ users: 1000000
 appId: com.investvoyager
 appCountry: 
 released: 2020-02-25
-updated: 2023-01-10
-version: 3.2.12
-stars: 3.7
+updated: 2023-07-13
+version: 4.0.0
+stars: 3.4
 ratings: 26380
-reviews: 8196
+reviews: 8249
 size: 
 website: https://www.investvoyager.com/
 repository: 
 issue: 
 icon: com.investvoyager.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-01-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: investvoyager
@@ -31,6 +31,8 @@ social:
 - https://www.reddit.com/r/Invest_Voyager
 redirect_from:
 - /com.investvoyager/
+developerName: Voyager Digital, LLC
+features: 
 
 ---
 

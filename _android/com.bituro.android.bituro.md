@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bituro.android.bituro
 appCountry: us
 released: 2015-08-18
-updated: 2022-07-22
-version: 1.20.0
-stars: 4.1
+updated: 2023-08-31
+version: 1.23.0
+stars: 4.3
 ratings: 9148
-reviews: 541
+reviews: 519
 size: 
 website: https://bituro.com
 repository: 
@@ -28,6 +28,8 @@ twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp
 redirect_from: 
+developerName: Bituro LLC
+features: 
 
 ---
 

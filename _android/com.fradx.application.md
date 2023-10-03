@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.fradx.application.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-08
+date: 2023-09-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FradX Investments
+features: 
 
 ---
 

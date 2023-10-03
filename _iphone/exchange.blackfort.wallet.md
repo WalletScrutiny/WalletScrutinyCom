@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: exchange.blackfort.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-12-28
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: BlackFort_Tech
 social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
+features: 
+developerName: BlackFort
 
 ---
 

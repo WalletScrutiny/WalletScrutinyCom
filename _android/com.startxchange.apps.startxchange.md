@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.startxchange.apps.startxchange
 appCountry: 
-released: Oct 10, 2021
+released: 2021-10-10
 updated: 2021-10-11
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.startxchange.apps.startxchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: STARTUS TECHNOLOGIES
+features: 
 
 ---
 

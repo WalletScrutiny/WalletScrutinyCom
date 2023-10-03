@@ -1,6 +1,6 @@
 ---
 wsId: WiseBitcoin
-title: Wisebitcoin
+title: Batonex
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: com.wisebitcoin.broker.android
 appCountry: cn
 released: 2021-01-04
-updated: 2023-01-11
-version: 3.9.8
-stars: 3.1
+updated: 2023-09-11
+version: 5.0.1
+stars: 3.2
 ratings: 116
-reviews: 95
+reviews: 75
 size: 
-website: https://www.wisebitcoin.com
+website: https://www.batonex.com
 repository: 
 issue: 
 icon: com.wisebitcoin.broker.android.png
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: wisebitcoin
 social: 
 redirect_from: 
+developerName: WiseEX LTD
+features: 
 
 ---
 

@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.coincircle.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-18
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: coincircle
 social:
 - https://www.linkedin.com/company/coincircle
 - https://www.facebook.com/CoinCircle
+features: 
+developerName: Coincircle, Inc
 
 ---
 

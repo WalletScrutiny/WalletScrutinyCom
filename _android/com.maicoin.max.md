@@ -8,11 +8,11 @@ users: 100000
 appId: com.maicoin.max
 appCountry: us
 released: 2018-07-01
-updated: 2022-10-24
-version: 7.0.0
-stars: 3.9
+updated: 2023-06-12
+version: 10.0.0
+stars: 3.4
 ratings: 1049
-reviews: 8
+reviews: 10
 size: 
 website: https://max.maicoin.com
 repository: 
@@ -28,6 +28,8 @@ twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
+developerName: MaiCoin Eng
+features: 
 
 ---
 

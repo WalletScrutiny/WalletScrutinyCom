@@ -20,12 +20,14 @@ icon: com.bitpay.coincloud.jpg
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2022-03-07
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: CoinCloudATM
 social:
 - https://www.facebook.com/coincloudATM
+features: 
+developerName: 
 
 ---
 

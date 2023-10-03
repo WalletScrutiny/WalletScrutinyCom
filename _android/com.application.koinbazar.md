@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: 'Koinbazar: Crypto Exchange App'
+title: 'KoinBX: Global Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
-updated: 2022-08-29
-version: '1.34'
-stars: 3.8
+updated: 2023-09-26
+version: 3.0.0
+stars: 3.6
 ratings: 7090
-reviews: 2622
+reviews: 2814
 size: 
-website: https://www.koinbazar.com/
+website: https://koinbx.com/
 repository: 
 issue: 
 icon: com.application.koinbazar.png
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
 redirect_from: 
+developerName: KoinBX
+features: 
 
 ---
 

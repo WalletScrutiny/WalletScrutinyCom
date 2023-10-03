@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.dabblex.wallet
 appCountry: 
-released: Aug 16, 2021
+released: 2021-08-16
 updated: 2021-08-16
 version: 0.21.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.dabblex.wallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Dabble X
+features: 
 
 ---
 

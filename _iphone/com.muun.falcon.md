@@ -8,11 +8,11 @@ appId: com.muun.falcon
 appCountry: 
 idd: 1482037683
 released: 2019-10-11
-updated: 2023-01-11
-version: 2.7.1
-stars: 4.4
-reviews: 166
-size: '81304576'
+updated: 2023-08-11
+version: 2.7.10
+stars: 4.3
+reviews: 188
+size: '81796096'
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
@@ -25,6 +25,9 @@ signer:
 reviewArchive: 
 twitter: muunwallet
 social: 
+features:
+- ln
+developerName: Muun Wallet, Inc
 
 ---
 

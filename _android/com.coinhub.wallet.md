@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinhub.wallet
 appCountry: 
 released: 2021-07-13
-updated: 2022-12-20
-version: 2.6.8
-stars: 4
+updated: 2023-05-18
+version: 2.7.9
+stars: 3.8
 ratings: 869
-reviews: 37
+reviews: 32
 size: 
 website: https://www.coinhub.org
 repository: 
@@ -27,8 +27,38 @@ reviewArchive:
 twitter: Coinhub_Wallet
 social: 
 redirect_from: 
+developerName: Coinhub
+features: 
 
 ---
+
+## Notes on similar apps 
+
+Many apps share the same name of CoinHub, found in different parts of the world. Apart from the name, they have different branding identities and countries of origin. Here we note some of them: 
+
+- {% include walletLink.html wallet='android/app.coinhubatm.wallet' verdict='true' %}
+  - coinhubatm.com
+  - LSGT SERVICES LLC
+  - [Registered in Nevada, USA](https://opencorporates.com/companies/us_nv/E0147652019-8)
+  - ATM related with US MSB Number: 31000167457203
+
+- {% include walletLink.html wallet='android/com.coinhub.wallet' verdict='true' %}
+  - coinhub.org (parked)
+  - Finance Sector Systems Ltd
+  - [Registered in the UK](https://uk.globaldatabase.com/company/finance-sector-systems-limited)
+  - Web3, DeFi Related, no known registrations
+
+- {% include walletLink.html wallet='android/com.coinhub.pro' verdict='true' %}
+  - coinhub.mn
+  - Coinhub, LLC
+  - [Origins in Mongolia - FB Link to address](https://www.facebook.com/Coinhub.Mongolia)
+
+- {% include walletLink.html wallet='android/africa.coinhub.coinhubapp' verdict='true' %}
+  - coinhub.africa (redirects to 3dTechlogis.com)
+  - Coinhub Africa 
+  - [Origins in Senegal Africa](https://web.archive.org/web/20220105175617/http://coinhub.africa/terms)
+
+## Previous Review 2022-02-03
 
 On the Store they say:
 

@@ -7,13 +7,13 @@ users: 50000
 appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
-updated: 2023-01-02
-version: 8.12.0
-stars: 2.8
+updated: 2023-09-26
+version: 8.49.0
+stars: 3.2
 ratings: 603
-reviews: 19
+reviews: 32
 size: 
-website: https://xapo.com
+website: https://www.xapobank.com/
 repository: 
 issue: 
 icon: com.xapo.bank.png
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/xapo
 - https://www.facebook.com/xapoapp
 redirect_from: 
+developerName: Xapo
+features: 
 
 ---
 

@@ -1,31 +1,33 @@
 ---
 wsId: 
-title: 'CryptoRefills: Buy Gift Cards '
+title: Cryptorefills
 altTitle: 
 authors: 
 users: 50000
 appId: com.cryptorefills
 appCountry: 
-released: Apr 22, 2019
-updated: 2019-05-14
-version: 1.0.2
-stars: 4
+released: 2019-04-22
+updated: 2023-09-25
+version: 1.0.7
+stars: 3.9
 ratings: 
-reviews: 42
+reviews: 44
 size: 
 website: https://www.cryptorefills.com
 repository: 
 issue: 
 icon: com.cryptorefills.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-07-31
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CryptoRefills
+features: 
 
 ---
 

@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Kite Financial (Kite Tech Ltd UK)
+features: 
 
 ---
 

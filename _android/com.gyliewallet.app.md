@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.gyliewallet.app
 appCountry: 
-released: Aug 8, 2021
+released: 2021-08-08
 updated: 2022-01-12
 version: 1.0.4
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.gyliewallet.app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-01-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SAVEURE LLC
+features: 
 
 ---
 

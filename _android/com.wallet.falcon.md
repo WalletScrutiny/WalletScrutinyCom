@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.wallet.falcon.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Tycoon69 Int
+features: 
 
 ---
 

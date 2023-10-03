@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.developer.myafrique.mya.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-01-23
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: MY AFRIQUE 2S2I SARL
+features: 
 
 ---
 

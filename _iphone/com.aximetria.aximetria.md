@@ -20,16 +20,16 @@ icon: com.aximetria.aximetria.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
-date: 2021-11-26
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: aximetriagmbh
 social:
 - https://www.linkedin.com/company/aximetriagmbh
 - https://www.facebook.com/aximetriagmbh
+features: 
+developerName: 
 
 ---
-
-**Update 2021-11-12**: This app is not on App Store anymore.
 
 {% include copyFromAndroid.html %}

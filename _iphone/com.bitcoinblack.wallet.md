@@ -29,6 +29,8 @@ twitter: BCB_Official1
 social:
 - https://www.facebook.com/bitcoinblackofficial
 - https://www.reddit.com/r/AllAboardBitcoinBlack
+features: 
+developerName: 
 
 ---
 

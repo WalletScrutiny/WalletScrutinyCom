@@ -8,8 +8,8 @@ users: 5000
 appId: de.fuf.bitbucks
 appCountry: 
 released: 2019-09-03
-updated: 2022-10-05
-version: 1.5.3
+updated: 2023-07-28
+version: 1.5.7
 stars: 4.2
 ratings: 
 reviews: 2
@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /de.fuf.bitbucks/
 - /posts/de.fuf.bitbucks/
+developerName: FUF // Frank und Freunde
+features: 
 
 ---
 

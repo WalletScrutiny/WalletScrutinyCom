@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: io.infipay.android.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-04-04
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: infipay
+features: 
 
 ---
 

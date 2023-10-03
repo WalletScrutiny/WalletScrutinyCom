@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.gcs.pro.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-07-31
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: GCEX
+features: 
 
 ---
 

@@ -1,31 +1,44 @@
 ---
-wsId: 
-title: TTM Wallet
+wsId: mDAOWallet
+title: MDAO Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.ttmbank.wallet.app
 appCountry: 
-released: Aug 5, 2021
-updated: 2022-12-05
-version: 2.1.0
+released: 2021-08-05
+updated: 2023-09-11
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ttmbank.com
+website: https://ttmwallet.io
 repository: 
 issue: 
 icon: com.ttmbank.wallet.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-22
+verdict: nobtc
+date: 2023-06-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: MDAO Wallet
+features: 
 
 ---
 
+## App Description from Google Play 
+
+> You can send, receive and store bitcoin and many other cryptocurrencies and digital assets safely and securely with the MDAO Wallet mobile app: CryptoWallet.
+
+## Analysis 
+
+- We were able to test the app and it gave us a mnemonic phrase
+- The wallet supports Ethereum, BNB, TRON and Polygon 
+- Despite claims of supporting BTC, there is **no support for the Bitcoin blockchain**
+- We emailed them at support@ttmwallet.io to verify their claims.

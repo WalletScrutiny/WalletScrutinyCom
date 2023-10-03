@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.nitroex.nitroexvipapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-01-14
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: NitroExOfficial
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/nitroex.io
 - https://www.reddit.com/r/nitroexchange
 redirect_from: 
+developerName: Nitro Software Technologies LTD
+features: 
 
 ---
 

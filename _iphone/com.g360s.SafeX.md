@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.g360s.SafeX.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nobtc
-date: 2022-12-17
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: ecoinofficial
 social:
 - https://www.facebook.com/ecoinofficial
+features: 
+developerName: Kobopay Technologies
 
 ---
 

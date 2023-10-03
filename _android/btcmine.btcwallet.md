@@ -28,6 +28,8 @@ twitter:
 social: 
 redirect_from:
 - /btcmine.btcwallet/
+developerName: 
+features: 
 
 ---
 

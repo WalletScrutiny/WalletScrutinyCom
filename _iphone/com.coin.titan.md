@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.coin.titan.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-12-28
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: ProjectsTitan
 social:
 - https://www.linkedin.com/company/titanprojects
 - https://www.facebook.com/titanprojectsco
+features: 
+developerName: Enfetter Technologies Services Private Limited
 
 ---
 

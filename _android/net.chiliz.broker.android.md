@@ -28,6 +28,8 @@ twitter: chiliz
 social:
 - https://www.facebook.com/Chilizdotcom
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

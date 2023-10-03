@@ -27,6 +27,8 @@ twitter: remitano
 social:
 - https://www.linkedin.com/company/Remitano
 - https://www.facebook.com/remitano
+features: 
+developerName: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.gwallet.main
 appCountry: 
-released: Aug 11, 2021
+released: 2021-08-11
 updated: 2022-07-22
 version: '1.06'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.gwallet.main.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: TH Jun
+features: 
 
 ---
 

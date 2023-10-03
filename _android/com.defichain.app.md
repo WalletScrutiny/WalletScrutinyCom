@@ -4,15 +4,15 @@ title: DeFiChain Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.defichain.app
 appCountry: qa
 released: 2021-08-22
-updated: 2022-12-13
-version: 2.13.1
+updated: 2023-09-06
+version: 2.24.2
 stars: 3.9
 ratings: 319
-reviews: 238
+reviews: 278
 size: 
 website: https://defichain.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
 redirect_from: 
+developerName: DeFiChain
+features: 
 
 ---
 

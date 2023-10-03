@@ -29,6 +29,7 @@ twitter:
 social:
 - https://www.linkedin.com/company/astri/
 - https://www.facebook.com/ASTRI.org/
+features: 
 
 ---
 

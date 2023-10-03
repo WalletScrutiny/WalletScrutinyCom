@@ -21,12 +21,13 @@ issue:
 icon: 
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: diy
 date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 

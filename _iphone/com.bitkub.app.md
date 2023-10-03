@@ -1,29 +1,36 @@
 ---
-wsId: 
-title: 'Bitkub :  ซื้อ  & ขาย บิตคอยน์'
+wsId: bitkubExchange
+title: 'Bitkub : Buy Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.bitkub.app
-appCountry: ph
+appCountry: th
 idd: 1437814700
 released: 2019-04-24
-updated: 2022-12-06
-version: '3.15'
-stars: 0
-reviews: 0
-size: '96697344'
+updated: 2023-09-27
+version: 3.22.0
+stars: 4.1
+reviews: 9274
+size: '82757632'
 website: https://www.bitkub.com/download
 repository: 
 issue: 
 icon: com.bitkub.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-08-22
+verdict: custodial
+date: 2023-04-04
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: bitkubofficial
+social:
+- https://www.linkedin.com/company/bitkub
+- https://www.facebook.com/bitkubofficial
+features: 
+developerName: Bitkub Online Co., Ltd
 
 ---
+
+{% include copyFromAndroid.html %}
 

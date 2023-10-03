@@ -26,6 +26,8 @@ reviewArchive:
 twitter: everc0in
 social:
 - https://www.facebook.com/evercoin
+features: 
+developerName: 
 
 ---
 

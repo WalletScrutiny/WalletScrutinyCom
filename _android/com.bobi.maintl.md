@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bobi.maintl
 appCountry: 
-released: Mar 18, 2021
+released: 2021-03-18
 updated: 2021-06-17
 version: 0.2.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bobi.maintl.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BobiEX
+features: 
 
 ---
 

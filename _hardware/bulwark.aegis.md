@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/BulwarkCoin/
 - https://www.facebook.com/BulwarkCrypto/
 - https://medium.com/@bulwarkcrypto
+features: 
 
 ---
 

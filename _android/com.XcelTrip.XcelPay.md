@@ -8,11 +8,11 @@ users: 100000
 appId: com.XcelTrip.XcelPay
 appCountry: 
 released: 2019-05-30
-updated: 2023-01-13
-version: 2.75.2
-stars: 4.6
+updated: 2023-08-28
+version: 2.80.17
+stars: 4.5
 ratings: 3713
-reviews: 73
+reviews: 76
 size: 
 website: http://www.xcelpay.io
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
 redirect_from: 
+developerName: XcelTrip LLC
+features: 
 
 ---
 

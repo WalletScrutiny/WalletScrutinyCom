@@ -3,12 +3,12 @@ wsId:
 title: 暗号資産取引ならコインベストービットコイン ウォレット
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.coinbest.coinbest
 appCountry: 
-released: May 17, 2021
-updated: 2022-12-29
-version: 1.2.4
+released: 2021-05-17
+updated: 2023-09-06
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: CoinBest株式会社
+features: 
 
 ---
 

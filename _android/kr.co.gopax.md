@@ -8,9 +8,9 @@ users: 100000
 appId: kr.co.gopax
 appCountry: cn
 released: 2018-11-05
-updated: 2023-01-04
-version: 1.6.50.924b
-stars: 4.7
+updated: 2023-09-12
+version: 1.7.10.fa2d
+stars: 4.4
 ratings: 1387
 reviews: 1510
 size: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Streami Inc.
+features: 
 
 ---
 

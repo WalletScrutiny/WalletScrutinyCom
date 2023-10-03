@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-30
 updated: 2021-05-25
 version: 3.1.1
-stars: 2.8
+stars: 3.1
 ratings: 129
 reviews: 11
 size: 
@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-21
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: grgarside
 social: 
 redirect_from: 
+developerName: George Garside
+features: 
 
 ---
 

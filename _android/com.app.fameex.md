@@ -1,18 +1,18 @@
 ---
 wsId: FAMEEX
-title: FAMEEX-APP
+title: 'FameEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
-updated: 2023-01-12
-version: 2.14.4
-stars: 4.8
+updated: 2023-09-22
+version: 3.2.4
+stars: 4.4
 ratings: 1588
-reviews: 80
+reviews: 39
 size: 
 website: https://www.fameex.com
 repository: 
@@ -28,6 +28,8 @@ twitter: FameexGlobal
 social:
 - https://www.facebook.com/FAMEEXGLOBAL
 redirect_from: 
+developerName: FAMEEX INTERNATIONAL PTY LTD
+features: 
 
 ---
 

@@ -27,6 +27,7 @@ signer:
 reviewArchive: 
 twitter: jaxx_io
 social: 
+features: 
 
 ---
 

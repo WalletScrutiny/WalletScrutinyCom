@@ -3,11 +3,11 @@ wsId:
 title: Valet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.btcontract.walletfiat
 appCountry: 
 released: 
-updated: 2022-11-06
+updated: 2023-01-26
 version: VARY
 stars: 
 ratings: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Anton Gushcha
+features: 
 
 ---
 

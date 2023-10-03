@@ -10,23 +10,25 @@ appCountry:
 released: 2021-03-17
 updated: 2021-03-17
 version: '2.00'
-stars: 3.8
+stars: 4.1
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: 
 repository: 
 issue: 
 icon: zibi.breakbitcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-03-13
+date: 2023-03-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Zbigniew Sudnik
+features: 
 
 ---
 

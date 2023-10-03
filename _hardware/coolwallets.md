@@ -32,6 +32,7 @@ reviewArchive:
 twitter: coolwallet
 social:
 - https://www.facebook.com/coolwallet
+features: 
 
 ---
 

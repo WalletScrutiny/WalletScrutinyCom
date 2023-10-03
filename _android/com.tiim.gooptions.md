@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.tiim.gooptions.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-11-02
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Go Forex
+features: 
 
 ---
 

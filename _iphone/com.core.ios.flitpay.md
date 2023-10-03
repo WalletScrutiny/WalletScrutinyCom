@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.core.ios.flitpay.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay
+features: 
+developerName: FLITPAY PVT LTD
 
 ---
 

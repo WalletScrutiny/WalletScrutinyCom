@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.coinxplus
 appCountry: 
-released: Apr 25, 2021
+released: 2021-04-25
 updated: 2021-08-13
 version: 1.0.1
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.coinxplus.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Coingarage Ltd
+features: 
 
 ---
 

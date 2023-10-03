@@ -32,6 +32,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

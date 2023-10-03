@@ -28,6 +28,8 @@ twitter: bitfialabs
 social:
 - https://www.linkedin.com/company/bitfia-labs
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

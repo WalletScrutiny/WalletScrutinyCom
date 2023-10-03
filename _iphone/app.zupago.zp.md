@@ -8,11 +8,11 @@ appId: app.zupago.zp
 appCountry: us
 idd: 1565673730
 released: 2021-05-10
-updated: 2022-10-26
-version: 1.0.52
-stars: 4.6
-reviews: 52
-size: '71836672'
+updated: 2023-08-23
+version: 1.0.55
+stars: 4.5
+reviews: 50
+size: '32226304'
 website: https://zupago.app
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: ZuPago HyBrid HD Wallet
 
 ---
 

@@ -12,21 +12,23 @@ updated: 2022-12-29
 version: 3.0.0-dreambit
 stars: 3.8
 ratings: 21
-reviews: 8
+reviews: 9
 size: 
 website: http://www.dreambit.com
 repository: 
 issue: 
 icon: com.dreambit.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-22
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Crypterium AS
+features: 
 
 ---
 

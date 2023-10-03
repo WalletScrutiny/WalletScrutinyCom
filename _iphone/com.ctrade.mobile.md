@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.ctrade.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-26
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: CTrade_official
 social:
 - https://www.facebook.com/CTradeProOfficial
+features: 
+developerName: 
 
 ---
 

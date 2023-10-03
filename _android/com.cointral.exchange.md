@@ -12,16 +12,16 @@ updated: 2021-08-18
 version: 1.3.6
 stars: 3.9
 ratings: 118
-reviews: 69
+reviews: 75
 size: 
 website: https://cointral.com
 repository: 
 issue: 
 icon: com.cointral.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: Cointral
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/cointral
 - https://www.facebook.com/Cointral
 redirect_from: 
+developerName: Blockchain Lab Yazılım
+features: 
 
 ---
 

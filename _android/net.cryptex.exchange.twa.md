@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: net.cryptex.exchange.twa.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-25
+date: 2023-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Cryptex Exchange
+features: 
 
 ---
 

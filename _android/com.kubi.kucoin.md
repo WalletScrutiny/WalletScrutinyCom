@@ -1,18 +1,18 @@
 ---
-wsId: kucoin
-title: 'KuCoin: BTC, Crypto Exchange'
+wsId: kucoinExchange
+title: 'KuCoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
-updated: 2023-01-10
-version: 3.74.0
-stars: 4.3
+updated: 2023-09-21
+version: 3.92.1
+stars: 4.2
 ratings: 72555
-reviews: 4057
+reviews: 4376
 size: 
 website: https://www.kucoin.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 redirect_from: 
+developerName: Kucoin Technology Co., Ltd.
+features: 
 
 ---
 

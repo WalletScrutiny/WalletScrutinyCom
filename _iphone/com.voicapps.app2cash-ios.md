@@ -27,6 +27,8 @@ twitter: 2cashnetwork
 social:
 - https://www.linkedin.com/company/2cash
 - https://www.facebook.com/2cashnetwork
+features: 
+developerName: 
 
 ---
 

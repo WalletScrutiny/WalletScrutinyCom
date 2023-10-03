@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bitcoin.wallet.btc.testnet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-08-17
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: InvoVN Solutions
+features: 
 
 ---
 

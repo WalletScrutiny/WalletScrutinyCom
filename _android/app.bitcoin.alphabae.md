@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: app.bitcoin.alphabae
 appCountry: 
-released: Oct 19, 2020
+released: 2020-10-19
 updated: 2021-07-10
 version: 1.1.34
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: app.bitcoin.alphabae.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: developerYaanis
+features: 
 
 ---
 

@@ -32,6 +32,8 @@ social:
 redirect_from:
 - /io.eidoo.wallet.prodnet/
 - /posts/io.eidoo.wallet.prodnet/
+developerName: 
+features: 
 
 ---
 

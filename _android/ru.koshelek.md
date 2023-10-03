@@ -10,24 +10,26 @@ appCountry: ru
 released: 2020-07-28
 updated: 2022-09-01
 version: 1.12.2
-stars: 4.2
+stars: 4.5
 ratings: 122
-reviews: 84
+reviews: 102
 size: 
 website: https://koshelek.ru/
 repository: 
 issue: 
 icon: ru.koshelek.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-04
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru
 redirect_from: 
+developerName: Кошелёк.ру
+features: 
 
 ---
 

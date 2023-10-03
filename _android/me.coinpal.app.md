@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/coinpal
 - https://www.facebook.com/coinpal.me
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

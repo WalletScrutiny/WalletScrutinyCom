@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.coinbase.digitaldebit
 appCountry: 
-released: Nov 12, 2019
+released: 2019-11-12
 updated: 2019-11-12
 version: 3.0.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.coinbase.digitaldebit.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Digital Debit Group
+features: 
 
 ---
 

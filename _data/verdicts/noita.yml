@@ -1,5 +1,6 @@
 short: Bad Interface!
 title: Bad Interface
+pass: The device allows verification of what gets signed
 color: '#d33100'
 redflag: true
 message: The design of the device does not allow to verify what is being signed!

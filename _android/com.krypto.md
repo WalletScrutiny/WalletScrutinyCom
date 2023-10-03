@@ -10,7 +10,7 @@ appCountry:
 released: 2020-04-29
 updated: 2022-06-17
 version: '8.5'
-stars: 4.5
+stars: 4.2
 ratings: 5472
 reviews: 20
 size: 
@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.krypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-25
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: letskrypto
 social: 
 redirect_from: 
+developerName: Connect Pvt Ltd
+features: 
 
 ---
 

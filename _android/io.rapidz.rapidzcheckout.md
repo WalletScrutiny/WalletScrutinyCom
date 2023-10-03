@@ -3,12 +3,12 @@ wsId:
 title: Rapidz Checkout
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.rapidz.rapidzcheckout
 appCountry: 
-released: Jun 6, 2022
-updated: 2022-11-25
-version: 1.1.0
+released: 2022-06-06
+updated: 2023-09-05
+version: 1.2.5
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: UAB Rapidz Pay
+features: 
 
 ---
 

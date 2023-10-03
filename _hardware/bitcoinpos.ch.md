@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/bitcoinpointofsale
 - https://www.youtube.com/channel/UCYh7bNdeitcxJlopy6faX_g/videos
 - https://t.me/bitcoinpos
+features: 
 
 ---
 

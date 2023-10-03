@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.dsdaq.ios.new.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: dsdaqcom
 social:
 - https://www.facebook.com/dsdaqcom
+features: 
+developerName: Dsdaq Market Ltd.
 
 ---
 

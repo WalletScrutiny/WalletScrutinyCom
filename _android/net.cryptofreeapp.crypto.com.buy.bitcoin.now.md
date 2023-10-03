@@ -1,8 +1,9 @@
 ---
 wsId: 
 title: (Fake) Crypto.com - Buy Bitcoin Now
-altTitle: 
-authors: 
+altTitle: (Fake) Crypto.com - Buy Bitcoin Now
+authors:
+- leo
 users: 100
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
 appCountry: 
@@ -19,13 +20,15 @@ issue:
 icon: net.cryptofreeapp.crypto.com.buy.bitcoin.now.png
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: fake
 date: 2021-08-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

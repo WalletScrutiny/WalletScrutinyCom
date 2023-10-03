@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/bikiexchange
 - https://www.reddit.com/r/BiKi
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

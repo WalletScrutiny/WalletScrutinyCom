@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.elbitcoin.trader
 appCountry: 
-released: Sep 17, 2021
+released: 2021-09-17
 updated: 2021-09-20
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.elbitcoin.trader.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Kilikya Teknoloji
+features: 
 
 ---
 

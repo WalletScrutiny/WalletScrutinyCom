@@ -27,6 +27,9 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: HashHub
+features:
+- ln
 
 ---
 

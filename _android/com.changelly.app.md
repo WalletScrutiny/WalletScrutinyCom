@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 100000
+users: 500000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2022-12-29
-version: 3.1.1
-stars: 4.8
+updated: 2023-09-22
+version: 3.12.0
+stars: 4.4
 ratings: 5008
-reviews: 1205
+reviews: 685
 size: 
 website: https://changelly.com/
 repository: 
@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.changelly.app/
 - /posts/com.changelly.app/
+developerName: Changelly – Instant Crypto Exchange
+features: 
 
 ---
 

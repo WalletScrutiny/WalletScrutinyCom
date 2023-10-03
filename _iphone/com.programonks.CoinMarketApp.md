@@ -8,11 +8,11 @@ appId: com.programonks.CoinMarketApp
 appCountry: us
 idd: 1350234503
 released: 2018-03-02
-updated: 2022-12-22
-version: 12.0.10
+updated: 2023-10-02
+version: 14.7.0
 stars: 4.6
 reviews: 607
-size: '94877696'
+size: '117262336'
 website: https://www.dopamineapp.com/
 repository: 
 issue: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
+features: 
+developerName: CORTEX AG
 
 ---
 

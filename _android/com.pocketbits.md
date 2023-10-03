@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'PocketBits: 0% Fee Bitcoin & C'
+title: 'PocketBits: Buy BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 50000
 appId: com.pocketbits
 appCountry: 
 released: 2021-08-03
-updated: 2021-10-24
-version: 1.3.0
-stars: 5
+updated: 2023-08-31
+version: 1.3.7
+stars: 4.9
 ratings: 
-reviews: 40
+reviews: 10
 size: 
 website: https://pocketbits.in/
 repository: 
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: PocketBitsIndia
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/pocketbits.in
 - https://www.facebook.com/Pocketbits.in
 redirect_from: 
+developerName: Defacto Technologies Pvt Ltd
+features: 
 
 ---
 

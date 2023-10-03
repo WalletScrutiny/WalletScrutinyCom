@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.wafacoin.pro.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: wafacoin
+features: 
 
 ---
 

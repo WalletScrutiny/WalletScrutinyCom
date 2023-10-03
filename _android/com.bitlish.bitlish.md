@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.bitlish.bitlish/
 - /posts/com.bitlish.bitlish/
+developerName: 
+features: 
 
 ---
 

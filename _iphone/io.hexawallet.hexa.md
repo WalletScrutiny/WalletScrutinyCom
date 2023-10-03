@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: HexaWallet
 social: 
+features: 
+developerName: 
 
 ---
 

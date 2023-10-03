@@ -26,6 +26,8 @@ reviewArchive:
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney
+features: 
+developerName: 
 
 ---
 

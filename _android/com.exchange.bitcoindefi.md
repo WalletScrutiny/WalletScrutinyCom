@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.exchange.bitcoindefi
 appCountry: 
-released: Aug 26, 2021
+released: 2021-08-26
 updated: 2021-08-26
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.exchange.bitcoindefi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Stacey Herrin
+features: 
 
 ---
 

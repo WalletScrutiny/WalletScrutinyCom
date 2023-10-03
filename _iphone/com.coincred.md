@@ -7,12 +7,12 @@ authors:
 appId: com.coincred
 appCountry: in
 idd: '1596466402'
-released: '2021-12-31T08:00:00Z'
-updated: 2022-12-06
-version: 2.0.2
+released: 2021-12-31
+updated: 2023-09-13
+version: 2.0.3
 stars: 3.5
-reviews: 100
-size: '41768960'
+reviews: 103
+size: '35855360'
 website: https://coincred.org/
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
+features: 
+developerName: CoinCRED
 
 ---
 

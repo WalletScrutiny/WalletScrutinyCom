@@ -2,8 +2,9 @@
 wsId: 
 title: Relampago
 altTitle: 
-authors: 
-users: 50
+authors:
+- danny
+users: 100
 appId: xyz.bigsun.relampago
 appCountry: 
 released: 
@@ -26,6 +27,19 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: fiatjaf
+features: 
 
 ---
 
+## App Description 
+
+> Relampago is an experimental wallet forked from https://lightning-wallet.com/.
+
+## Analysis 
+
+After installing the app, we are then asked to create a wallet or restore a wallet. 
+
+We were not able to proceed as it says the wallet is in 'emergency mode'. 
+
+This wallet is on its way to becoming defunct.

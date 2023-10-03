@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/Swipe
 redirect_from:
 - /com.swipe.wallet/
+developerName: 
+features: 
 
 ---
 

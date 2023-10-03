@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/genesisblockhq
 - https://www.reddit.com/r/genesisblockhq
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

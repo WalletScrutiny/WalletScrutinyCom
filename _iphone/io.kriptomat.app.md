@@ -27,6 +27,8 @@ twitter: kriptomat
 social:
 - https://www.linkedin.com/company/kriptomat
 - https://www.facebook.com/kriptomat.io
+features: 
+developerName: 
 
 ---
 

@@ -32,6 +32,7 @@ twitter: keywallet
 social:
 - https://www.facebook.com/KeyWallet-115870833116672/
 - https://medium.com/@keywallet/
+features: 
 
 ---
 

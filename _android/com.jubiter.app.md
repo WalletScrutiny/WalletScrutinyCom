@@ -30,6 +30,8 @@ social:
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

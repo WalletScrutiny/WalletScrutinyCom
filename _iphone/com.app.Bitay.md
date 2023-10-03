@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.app.Bitay.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-12-26
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
+features: 
+developerName: 
 
 ---
 

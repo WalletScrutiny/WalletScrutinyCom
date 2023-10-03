@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2023-01-05
-version: 4.6.11
-stars: 2.3
+updated: 2023-10-02
+version: 4.6.27
+stars: 2.5
 ratings: 3064
-reviews: 19
+reviews: 21
 size: 
 website: https://coinhako.com
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/coinhako
 - https://www.facebook.com/coinhako
 redirect_from: 
+developerName: Coinhako
+features: 
 
 ---
 

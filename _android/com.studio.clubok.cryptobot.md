@@ -8,8 +8,8 @@ users: 5000
 appId: com.studio.clubok.cryptobot
 appCountry: 
 released: 2019-02-27
-updated: 2022-09-02
-version: 2.9.1
+updated: 2023-02-01
+version: 2.9.3
 stars: 4.2
 ratings: 57
 reviews: 8
@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.studio.clubok.cryptobot.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-08
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: CLUBOK
+features: 
 
 ---
 

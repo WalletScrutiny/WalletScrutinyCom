@@ -4,12 +4,12 @@ title: RealT Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: co.realt.bridge
 appCountry: be
 released: 2021-03-18
-updated: 2021-12-14
-version: '1.20'
+updated: 2023-07-13
+version: '1.32'
 stars: 
 ratings: 
 reviews: 
@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2022-12-17
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: RealTPlatform
 social:
 - https://www.linkedin.com/company/realtplatform
 redirect_from: 
+developerName: Real Token Inc.
+features: 
 
 ---
 

@@ -4,15 +4,15 @@ title: Bitcoin Depot
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: co.bitcoindepot.app
 appCountry: us
 released: 2020-11-04
-updated: 2022-12-13
-version: 2.2.1
-stars: 4.2
+updated: 2023-09-11
+version: 2.3.3
+stars: 4.4
 ratings: 105
-reviews: 69
+reviews: 126
 size: 
 website: https://www.bitcoindepot.com/
 repository: 
@@ -28,6 +28,8 @@ twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
 redirect_from: 
+developerName: Bitcoin Depot
+features: 
 
 ---
 

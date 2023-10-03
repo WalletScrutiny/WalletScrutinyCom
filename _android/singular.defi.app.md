@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Singular
+title: Singular App–Invest in Crypto
 altTitle: 
 authors: 
 users: 100
 appId: singular.defi.app
 appCountry: 
-released: Nov 25, 2021
-updated: 2022-05-16
-version: '1.7'
+released: 2021-11-25
+updated: 2023-07-31
+version: '2.4'
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Singular Capital
+features: 
 
 ---
 

@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: it.baloo.bitcoinpeople.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-02-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BTCP S.r.l.
+features: 
 
 ---
 

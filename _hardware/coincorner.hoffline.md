@@ -21,16 +21,21 @@ issue:
 icon: coincorner.hoffline.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-05-17
+verdict: vapor
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: CoinCorner
 social: 
+features: 
 
 ---
 
-## Background 
+**Update 2023-01-20**: As
+[confirmed by Danny Scott](https://twitter.com/CoinCornerDanny/status/1596604740070035456)
+this product is "shelved".
+
+## Previous Review 2022-05-17
 
 The {{ page.title }} was [presented on twitter](https://twitter.com/CoinCornerDanny/status/1405184528822460428?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1405184528822460428%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps3A2F2Ftwitter.com2FCoinCornerDanny2Fstatus2F1405184528822460428widget%3DTweet) by Danny Scott on June 16, 2021. Danny Scott is the CEO of coincorner.com. 
 

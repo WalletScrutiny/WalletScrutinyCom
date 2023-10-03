@@ -28,6 +28,8 @@ twitter: bizz_coin
 social:
 - https://www.facebook.com/BizzCoinOfficial
 redirect_from: 
+developerName: BizzCoin
+features: 
 
 ---
 

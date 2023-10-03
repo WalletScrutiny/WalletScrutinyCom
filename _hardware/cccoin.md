@@ -20,19 +20,26 @@ repository:
 issue: 
 icon: cccoin.png
 bugbounty: 
-meta: ok
-verdict: nosource
-date: 2022-04-04
+meta: defunct
+verdict: wip
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
 
 ---
 
-**Note:** There is a similarly-named domain that held an ICO. The hardware wallet's domain is cccoin.cash. The other website is cccoin.network.
+## Verdict Update 2022-11-25
 
-## Product Description
+The ecommerce website which supposedly sells the product, notes that the product is **"out of stock"**. Whether the provider still sells this is unknown. Being a foreign language site, we were not able to find any information whether the firmware is still updated or not. 
+
+If you are the provider and would like to to change the information herein, kindly contact us. For now, we will mark it as discontinued. 
+
+## Previous Review 2022-04-04
+
+**Note:** There is a similarly-named domain that held an ICO. The hardware wallet's domain is cccoin.cash. The other website is cccoin.network.
 
 This multicurrency hardware device is airgapped. It also generates private keys which cannot be shared with the provider. It also has a 4-inch touchscreen. The provision of a "mnemonic card" assumes the ability to generate recovery seed. 
 

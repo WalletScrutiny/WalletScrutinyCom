@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: kr.co.gbckorea.map
 appCountry: 
-released: Apr 8, 2020
+released: 2020-04-08
 updated: 2020-06-17
 version: '1.6'
 stars: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

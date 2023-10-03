@@ -27,6 +27,8 @@ twitter: EDCBlockchain
 social:
 - https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
+features: 
+developerName: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.co.eost.elvwallet
 appCountry: 
-released: Nov 30, 2021
+released: 2021-11-30
 updated: 2022-09-08
 version: 2.0.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.co.eost.elvwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Eleven Team
+features: 
 
 ---
 

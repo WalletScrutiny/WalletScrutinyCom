@@ -3,10 +3,10 @@ wsId:
 title: Kora
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.kora.koracryptowallet
 appCountry: 
-released: May 31, 2022
+released: 2022-05-31
 updated: 2022-10-26
 version: 1.0.5
 stars: 
@@ -19,13 +19,15 @@ issue:
 icon: com.kora.koracryptowallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Kora Anicet
+features: 
 
 ---
 

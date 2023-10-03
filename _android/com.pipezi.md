@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.pipezi.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Piptle Wealth Management Pty Ltd
+features: 
 
 ---
 

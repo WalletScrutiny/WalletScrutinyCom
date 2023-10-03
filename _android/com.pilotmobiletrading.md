@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: com.pilotmobiletrading.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nowallet
-date: 2021-11-08
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: tradewithpilot
 social:
 - https://www.facebook.com/tradewithpilot
 redirect_from: 
+developerName: QuantGate Systems Inc.
+features: 
 
 ---
 

@@ -28,6 +28,8 @@ twitter:
 social: 
 redirect_from:
 - /com.maxxwallet/
+developerName: MAX Wallet , Tov
+features: 
 
 ---
 

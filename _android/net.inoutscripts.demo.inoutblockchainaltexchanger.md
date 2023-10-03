@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: net.inoutscripts.demo.inoutblockchainaltexchanger
 appCountry: 
-released: Oct 2, 2021
+released: 2021-10-02
 updated: 2022-09-14
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Nesote Technologies Private Limited
+features: 
 
 ---
 

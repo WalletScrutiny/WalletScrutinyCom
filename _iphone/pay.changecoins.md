@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: pay.changecoins.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-02-20
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: Changecoins
 
 ---
 

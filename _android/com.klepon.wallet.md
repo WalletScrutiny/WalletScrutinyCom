@@ -3,10 +3,10 @@ wsId:
 title: Klepon Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.klepon.wallet
 appCountry: 
-released: Mar 29, 2022
+released: 2022-03-29
 updated: 2022-03-29
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.klepon.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-03-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Klepon
+features: 
 
 ---
 

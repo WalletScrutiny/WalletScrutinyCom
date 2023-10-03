@@ -8,11 +8,11 @@ users: 1000000
 appId: com.huobionchainwallet.gp
 appCountry: 
 released: 2019-10-17
-updated: 2022-12-28
-version: 3.03.01.011
-stars: 4.8
+updated: 2023-06-05
+version: 3.03.06.003
+stars: 4
 ratings: 33247
-reviews: 207
+reviews: 185
 size: 
 website: https://www.itoken.com/
 repository: 
@@ -28,6 +28,8 @@ twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet
 redirect_from: 
+developerName: BlazekTech Internet Technology Service Limited
+features: 
 
 ---
 

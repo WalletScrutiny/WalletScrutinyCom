@@ -4,13 +4,13 @@ title: AMLSafe - Crypto Defi Wallet
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2022-12-19
-version: 1.34.6
-stars: 4.9
+updated: 2023-09-18
+version: '2.4'
+stars: 4.3
 ratings: 
 reviews: 1
 size: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Avelot Limited
+features: 
 
 ---
 

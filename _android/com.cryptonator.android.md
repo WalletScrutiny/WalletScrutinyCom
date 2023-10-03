@@ -32,6 +32,8 @@ reviewArchive:
 twitter: cryptonatorcom
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

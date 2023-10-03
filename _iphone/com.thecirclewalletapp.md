@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: Rioni Marketing Management LLC
 
 ---
 

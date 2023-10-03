@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: co.cryptoplane.app.cryptoplane
 appCountry: 
-released: Sep 11, 2021
+released: 2021-09-11
 updated: 2021-10-07
 version: 1.0.5
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: co.cryptoplane.app.cryptoplane.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Crypto Plane Ltd
+features: 
 
 ---
 

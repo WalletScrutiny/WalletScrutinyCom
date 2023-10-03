@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: cv.companion
 appCountry: 
-released: Sep 1, 2021
+released: 2021-09-01
 updated: 2021-09-24
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: cv.companion.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Yanssie HK Limited
+features: 
 
 ---
 

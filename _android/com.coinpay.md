@@ -29,6 +29,8 @@ twitter:
 social: 
 redirect_from:
 - /com.coinpay/
+developerName: Coinpay LLC
+features: 
 
 ---
 

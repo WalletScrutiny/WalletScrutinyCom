@@ -1,14 +1,15 @@
 ---
 wsId: 
-title: black.com
+title: black.com - Email, but better.
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.black.android
 appCountry: 
-released: Jul 9, 2021
-updated: 2023-01-06
-version: '22'
+released: 2021-07-09
+updated: 2023-09-22
+version: '36.0'
 stars: 
 ratings: 
 reviews: 
@@ -19,13 +20,25 @@ issue:
 icon: com.black.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-23
+verdict: nowallet
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: black.com GmbH
+features: 
 
 ---
 
+## App Description from Google Play
+
+> We are thrilled to introduce you to black.com - a brand-new premium email provider!
+>
+> Prestigious @black.com email address. Your perfect @black.com email address is probably still available.
+
+## Analysis
+
+- This is an email app with no reference to 'btc', 'bitcoin' or 'crypto'. After registration, they immediately asked for a fee.
+- This app does **not have a wallet**.

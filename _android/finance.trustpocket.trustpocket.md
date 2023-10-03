@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: finance.trustpocket.trustpocket.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Trust pocket
+features: 
 
 ---
 

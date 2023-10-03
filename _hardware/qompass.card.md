@@ -28,6 +28,7 @@ reviewArchive:
 twitter: QompassMarkets
 social:
 - https://www.facebook.com/Qompass.io/posts/239076303321207
+features: 
 
 ---
 

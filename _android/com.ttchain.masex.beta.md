@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ttchain.masex.beta
 appCountry: 
-released: Aug 13, 2020
+released: 2020-08-13
 updated: 2020-10-30
 version: 1.0.102
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.ttchain.masex.beta.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Sting Lin
+features: 
 
 ---
 

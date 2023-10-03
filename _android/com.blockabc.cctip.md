@@ -6,12 +6,12 @@ authors:
 users: 100000
 appId: com.blockabc.cctip
 appCountry: 
-released: Jul 21, 2020
-updated: 2023-01-05
-version: 2.3.4
-stars: 4.7
+released: 2020-07-21
+updated: 2023-08-23
+version: 2.9.5
+stars: 4.3
 ratings: 
-reviews: 229
+reviews: 144
 size: 
 website: https://cwallet.com
 repository: 
@@ -27,6 +27,8 @@ twitter: cctip_com
 social:
 - https://www.reddit.com/r/CCTip/
 redirect_from: 
+developerName: Cwallet
+features: 
 
 ---
 

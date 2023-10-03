@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.lastthink.numbify
 appCountry: 
-released: Jan 24, 2018
+released: 2018-01-24
 updated: 2018-01-30
 version: '1.12'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.lastthink.numbify.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Addevice
+features: 
 
 ---
 

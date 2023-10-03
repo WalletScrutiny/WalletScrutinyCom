@@ -4,12 +4,12 @@ title: JPEX Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.spark.jpex
 appCountry: jp
 released: 2020-07-30
-updated: 2023-01-10
-version: 2.66.720
+updated: 2023-08-02
+version: 2.83.848
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ size:
 website: http://jp-ex.io
 repository: 
 issue: 
-icon: com.spark.jpex.png
+icon: com.spark.jpex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
@@ -28,6 +28,8 @@ twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from: 
+developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
+features: 
 
 ---
 

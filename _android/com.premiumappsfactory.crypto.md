@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Crypto Exchange App
+title: Crypto - Learn, Trade and Earn
 altTitle: 
 authors: 
 users: 50
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05
-updated: 2022-04-09
-version: 3.0.0
+updated: 2023-08-19
+version: 5.0.0
 stars: 
 ratings: 
 reviews: 
@@ -20,12 +20,14 @@ icon: com.premiumappsfactory.crypto.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2021-10-18
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Premium Apps Factory
+features: 
 
 ---
 

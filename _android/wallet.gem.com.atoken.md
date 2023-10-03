@@ -28,6 +28,8 @@ twitter: ATokenOfficial
 social:
 - https://www.facebook.com/ATokenOfficial
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -12,21 +12,23 @@ updated: 2021-06-29
 version: 1.1.1075
 stars: 3.8
 ratings: 73
-reviews: 37
+reviews: 38
 size: 
 website: https://cexchangenex.com/
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Cexchangenex
+features: 
 
 ---
 

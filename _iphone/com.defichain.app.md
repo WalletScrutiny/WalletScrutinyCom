@@ -8,11 +8,11 @@ appId: com.defichain.app
 appCountry: qa
 idd: 1572472820
 released: 2021-08-18
-updated: 2022-12-13
-version: 2.13.1
+updated: 2023-09-06
+version: 2.24.2
 stars: 0
 reviews: 0
-size: '25798656'
+size: '33880064'
 website: https://defichain.com/
 repository: 
 issue: 
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/defichain
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
+features: 
+developerName: Cake DeFi
 
 ---
 

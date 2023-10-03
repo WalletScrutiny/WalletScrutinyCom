@@ -1,31 +1,65 @@
 ---
-wsId: 
+wsId: coinkit
 title: CoinKit
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.blockcurators.coinkit
 appCountry: 
-released: Dec 19, 2021
+released: 2021-12-19
 updated: 2022-01-19
 version: 1.1.2
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://coinkit.de
 repository: 
 issue: 
 icon: com.blockcurators.coinkit.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2022-06-23
+meta: stale
+verdict: custodial
+date: 2023-08-07
 signer: 
 reviewArchive: 
-twitter: 
+twitter: coinkit_
 social: 
 redirect_from: 
+developerName: Blockcurators GmbH
+features: 
 
 ---
 
+## Update 2023-08-07
+
+It has been several months since CoinKit has made their announcement enjoining users to withdraw their funds and the apparent creation of a new wallet.
+
+We decided to take a look.
+
+- The app has not been updated since the announcement was made. 
+- Errors appear when we try to sign up.
+- It appears that this is still a **custodial** provider.
+
+## Previous Review 2023-03-29
+
+{{ page.title }} has a recent [announcement](https://twitter.com/coinkit_/status/1637754800245809153) made on Twitter: 
+
+> Dear CoinKit users,
+>
+> We would like to inform you of an important change to our service. In response to regulatory uncertainty, CoinKit will be transitioning from a custodial to a non-custodial crypto wallet solution.
+>
+> As a result, we kindly request all users to temporarily withdraw their cryptocurrencies from our platform within the next 4 weeks. This will allow you to seamlessly deposit your funds back into the upgraded non-custodial wallet once the transition is complete. 2/4
+> 
+> Please be aware that if you do not withdraw your assets within the initial 4-week period, you will have an additional 2 months to complete the withdrawal process, but only after successfully completing KYC procedures. 3/4
+> 
+> To avoid potential delays, we strongly encourage you to withdraw your funds before the KYC period commences. We appreciate your understanding and cooperation during this transition, and we look forward to continuing to serve you with our enhanced, non-custodial wallet solution. 
+
+## Analysis 
+
+We downloaded the app and registered on the platform. 
+
+Although there is an option to deposit BTC and an option to create a LN invoice, both simply returned an 'undefined' message when we are trying to use it. 
+
+As this app is currently undergoing changes, we will continue to mark it as a work in progress until changes are made.

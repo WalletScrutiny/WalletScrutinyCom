@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /com.chameleon.wallet/
 - /posts/com.chameleon.wallet/
+developerName: 
+features: 
 
 ---
 

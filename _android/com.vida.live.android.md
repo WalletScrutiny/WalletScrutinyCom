@@ -6,9 +6,9 @@ authors:
 users: 100
 appId: com.vida.live.android
 appCountry: 
-released: Mar 9, 2022
-updated: 2022-10-06
-version: 0.0.7
+released: 2022-03-09
+updated: 2023-07-03
+version: 0.0.8
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: VIDA.live
+features: 
 
 ---
 

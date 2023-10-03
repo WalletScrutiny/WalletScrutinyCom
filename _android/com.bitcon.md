@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2022-11-17
-version: 1.9.3.3
+updated: 2023-08-31
+version: 1.9.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Spend The Bits Inc.
+features: 
 
 ---
 

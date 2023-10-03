@@ -29,6 +29,8 @@ redirect_from:
 - /bcoiner/
 - /com.bcoiner.webviewapp/
 - /posts/com.bcoiner.webviewapp/
+developerName: 
+features: 
 
 ---
 

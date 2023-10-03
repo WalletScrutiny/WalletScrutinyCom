@@ -31,6 +31,8 @@ redirect_from:
 - /com.airbitz/
 - /posts/2019/11/airbitz/
 - /posts/com.airbitz/
+developerName: 
+features: 
 
 ---
 

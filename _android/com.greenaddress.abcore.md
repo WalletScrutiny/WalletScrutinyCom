@@ -4,6 +4,7 @@ title: ABCore
 altTitle: 
 authors:
 - leo
+- emanuel
 users: 1000
 appId: com.greenaddress.abcore
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: obsolete
 verdict: reproducible
-date: 2021-10-06
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,8 +30,19 @@ social:
 redirect_from:
 - /com.greenaddress.abcore/
 - /posts/com.greenaddress.abcore/
+developerName: GreenAddress IT Ltd
+features: 
 
 ---
+
+**Update 2023-09-10**: While Emanuel did find a newer version `v0.77` on
+f-droid and found it to be reproducible, this version might not be on Google
+Play. Another finding most relevant for users of this software: It loads further
+executables when running so even if there is no backdoor in the product, a
+backdoor might be possible through this additionally loaded executable. On
+Android 10 and newer, loading executables is not allowed for that reason and
+thus this product is
+[struggling with modern versions of Android](https://github.com/greenaddress/abcore/issues/97).
 
 This app is a full node for Android, so running it on your phone is probably
 not recommended unless you have unlimited data and don't mind your phone
@@ -70,5 +82,3 @@ This looks good. This app is **reproducible**.
 tons of resources, please investigate well if you want to use this as an actual
 wallet on your phone or maybe better only as a bitcoin full node on your Android
 TV.)
-
-

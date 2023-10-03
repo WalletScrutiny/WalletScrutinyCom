@@ -27,6 +27,8 @@ twitter:
 social: 
 redirect_from:
 - /com.tronwallet2/
+developerName: 
+features: 
 
 ---
 

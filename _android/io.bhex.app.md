@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/BHEXOfficial
 - https://github.com/bhexopen
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -26,6 +26,8 @@ reviewArchive:
 twitter: buycoins_africa
 social:
 - https://www.facebook.com/buycoinsafrica
+features: 
+developerName: 
 
 ---
 

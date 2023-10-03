@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/lastbitpay
 - https://github.com/lastbit-io
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

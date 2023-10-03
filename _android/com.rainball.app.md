@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rainball.app
 appCountry: 
-released: Jun 15, 2021
+released: 2021-06-15
 updated: 2021-06-16
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.rainball.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: DEVFoXWallet
+features: 
 
 ---
 

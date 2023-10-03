@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.vimepay
 appCountry: 
-released: Sep 18, 2021
+released: 2021-09-18
 updated: 2021-09-18
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.vimepay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Vimepay
+features: 
 
 ---
 

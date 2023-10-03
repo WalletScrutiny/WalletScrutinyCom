@@ -8,25 +8,27 @@ appId: io.ledn.app
 appCountry: ca
 idd: 1543035976
 released: 2021-01-20
-updated: 2022-11-21
-version: 0.8.1
+updated: 2023-03-26
+version: 0.8.5
 stars: 4.9
 reviews: 14
-size: '19134464'
+size: '19184640'
 website: https://ledn.io
 repository: 
 issue: 
 icon: io.ledn.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2022-02-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: hodlwithLedn
 social:
 - https://www.linkedin.com/company/ledn-inc
 - https://www.facebook.com/Ledn.io
+features: 
+developerName: Ledn Inc.
 
 ---
 

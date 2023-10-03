@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: com.fulldive.extension.fdwallet
 appCountry: 
-released: May 26, 2022
-updated: 2022-07-12
-version: 1.6.0
+released: 2022-05-26
+updated: 2023-09-25
+version: 1.7.0
 stars: 4.3
 ratings: 
 reviews: 4
@@ -20,12 +20,14 @@ icon: com.fulldive.extension.fdwallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-07-31
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Browser by Fulldive Co.
+features: 
 
 ---
 

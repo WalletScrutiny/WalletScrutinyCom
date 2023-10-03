@@ -10,23 +10,25 @@ appCountry:
 released: 2020-05-02
 updated: 2021-05-26
 version: '1.1'
-stars: 2.5
+stars: 2.6
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: 
 repository: 
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-05-21
+date: 2023-05-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 🥇 CryptWallet - Finance Services
+features: 
 
 ---
 

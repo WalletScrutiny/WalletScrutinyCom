@@ -27,6 +27,8 @@ reviewArchive:
 twitter: bybt_com
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

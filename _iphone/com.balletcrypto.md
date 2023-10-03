@@ -1,17 +1,17 @@
 ---
 wsId: balletcrypto
-title: 'Ballet Crypto: Cold Wallet'
+title: 'Ballet Crypto: Cold Storage'
 altTitle: 
 authors: 
 appId: com.balletcrypto
 appCountry: 
 idd: 1474912942
 released: 2019-09-11
-updated: 2022-12-22
-version: 2.4.3
+updated: 2023-09-29
+version: 2.10.5
 stars: 4.9
-reviews: 798
-size: '73993216'
+reviews: 953
+size: '86023168'
 website: https://www.ballet.com/
 repository: 
 issue: 
@@ -27,6 +27,8 @@ social:
 - https://www.linkedin.com/company/balletcrypto
 - https://www.facebook.com/balletcrypto.global
 - https://www.reddit.com/r/BalletCrypto
+features: 
+developerName: BALLET GLOBAL INC.
 
 ---
 

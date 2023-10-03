@@ -8,11 +8,11 @@ appId: com.bankofhodlers.app
 appCountry: 
 idd: 1509251174
 released: 2020-05-12
-updated: 2022-06-30
-version: 2.7.1
+updated: 2023-09-29
+version: 2.8.7.2
 stars: 4
-reviews: 291
-size: '83932160'
+reviews: 297
+size: '71128064'
 website: https://www.vauld.com/
 repository: 
 issue: 
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/vauld
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
+features: 
+developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---
 

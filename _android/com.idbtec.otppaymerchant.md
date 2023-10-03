@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.idbtec.otppaymerchant.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-09-01
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Otppay OU
+features: 
 
 ---
 

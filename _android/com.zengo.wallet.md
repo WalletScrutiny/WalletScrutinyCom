@@ -1,6 +1,6 @@
 ---
 wsId: ZenGo
-title: 'ZenGo: Crypto & Bitcoin Wallet'
+title: 'Zengo: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 500000
 appId: com.zengo.wallet
 appCountry: 
 released: 2020-01-19
-updated: 2023-01-05
-version: 5.1.1
-stars: 4.6
+updated: 2023-09-27
+version: 7.4.3
+stars: 4.4
 ratings: 3936
-reviews: 412
+reviews: 460
 size: 
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.zengo.wallet/
 - /posts/com.zengo.wallet/
+developerName: ZenGo
+features: 
 
 ---
 

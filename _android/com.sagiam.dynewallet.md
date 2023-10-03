@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.sagiam.dynewallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-01-02
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Dyne Coin
+features: 
 
 ---
 

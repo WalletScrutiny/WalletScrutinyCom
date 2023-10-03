@@ -3,7 +3,7 @@ wsId:
 title: HolyTransaction - Crypto Walle
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.holytransaction
 appCountry: 
 released: 2021-03-25
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.holytransaction.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2022-03-21
+meta: obsolete
+verdict: wip
+date: 2023-03-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: HolyTransaction Android
+features: 
 
 ---
 

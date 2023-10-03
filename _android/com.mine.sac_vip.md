@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.mine.sac_vip
 appCountry: 
-released: Sep 24, 2021
+released: 2021-09-24
 updated: 2021-09-25
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: War of the Gods
+features: 
 
 ---
 

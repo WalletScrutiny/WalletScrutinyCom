@@ -27,6 +27,8 @@ reviewArchive:
 twitter: coincollectHQ
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2023-01-07
-version: 1.3.2
+updated: 2023-09-21
+version: 1.5.2
 stars: 3.8
 ratings: 245
-reviews: 19
+reviews: 23
 size: 
 website: https://www.bit.com
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/bitcom-exchange
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
+developerName: BIT Technologies Holding Company
+features: 
 
 ---
 

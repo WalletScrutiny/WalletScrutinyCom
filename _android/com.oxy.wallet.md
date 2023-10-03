@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.oxy.wallet
 appCountry: 
-released: Jun 18, 2021
+released: 2021-06-18
 updated: 2021-06-18
 version: 0.21.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.oxy.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Oxystarter Team
+features: 
 
 ---
 

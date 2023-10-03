@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.quanticmobileapp
 appCountry: 
-released: Feb 16, 2021
+released: 2021-02-16
 updated: 2022-09-08
 version: 2.0.37
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.quanticmobileapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Quantic Venture Limited
+features: 
 
 ---
 

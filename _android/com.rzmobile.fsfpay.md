@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rzmobile.fsfpay
 appCountry: 
-released: Jul 25, 2021
+released: 2021-07-25
 updated: 2021-07-25
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.rzmobile.fsfpay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FSFPAY
+features: 
 
 ---
 

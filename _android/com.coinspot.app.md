@@ -4,15 +4,15 @@ title: CoinSpot - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.coinspot.app
 appCountry: au
 released: 2020-10-07
-updated: 2022-12-13
-version: 2.2.22
+updated: 2023-09-19
+version: 2.2.46
 stars: 4.7
 ratings: 3068
-reviews: 1464
+reviews: 1563
 size: 
 website: https://www.coinspot.com.au
 repository: 
@@ -28,6 +28,8 @@ twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau
 redirect_from: 
+developerName: CoinSpot
+features: 
 
 ---
 

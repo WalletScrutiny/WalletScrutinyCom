@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: MOBOX_Official
 social: 
+features: 
+developerName: 
 
 ---
 

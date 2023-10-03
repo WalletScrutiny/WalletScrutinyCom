@@ -29,6 +29,8 @@ reviewArchive:
 twitter: BHEXOfficial
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

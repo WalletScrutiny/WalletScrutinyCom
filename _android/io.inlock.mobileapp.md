@@ -8,9 +8,9 @@ users: 1000
 appId: io.inlock.mobileapp
 appCountry: us
 released: 2020-08-04
-updated: 2022-11-08
-version: 2.1.0
-stars: 3.9
+updated: 2023-04-01
+version: 2.1.1
+stars: 3.8
 ratings: 108
 reviews: 6
 size: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/income-locker
 - https://www.facebook.com/incomelocker
 redirect_from: 
+developerName: Variance HODLING Kft.
+features: 
 
 ---
 

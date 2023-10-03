@@ -8,11 +8,11 @@ appId: com.btcpool.app.ios
 appCountry: us
 idd: 1490997527
 released: 2020-01-21
-updated: 2022-10-18
-version: 2.3.0
+updated: 2023-08-31
+version: 2.3.3
 stars: 3.3
-reviews: 15
-size: '63347712'
+reviews: 13
+size: '63212544'
 website: https://btc.com/
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: btccom_official
 social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
+features: 
+developerName: Beijing GuiXinYangHang Technology Co., Ltd.
 
 ---
 

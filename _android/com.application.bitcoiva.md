@@ -10,9 +10,9 @@ appCountry:
 released: 2020-11-02
 updated: 2022-12-06
 version: 1.21.3
-stars: 
+stars: 2.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://bitcoiva.com
 repository: 
@@ -28,6 +28,8 @@ twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169
 redirect_from: 
+developerName: Bitcoiva
+features: 
 
 ---
 

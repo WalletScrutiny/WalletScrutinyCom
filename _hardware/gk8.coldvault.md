@@ -21,7 +21,7 @@ issue:
 icon: gk8.coldvault.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: wip
 date: 2022-04-04
 signer: 
 reviewArchive: 
@@ -29,10 +29,15 @@ twitter: gk8_security
 social:
 - https://www.linkedin.com/company/gk8/
 - https://www.youtube.com/channel/UCGD5TAhTYij6JgVeZgc3QTA
+features: 
 
 ---
 
-## Product Description 
+## Updated Review 2023-04-28
+
+As this is a B2B solution, we are marking the verdict as a work-in-progress.
+
+## Product Description 2022-04-04
 
 On its [front page](https://www.gk8.io/):
 

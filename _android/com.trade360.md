@@ -10,18 +10,18 @@ appCountry: gb
 released: 2015-06-18
 updated: 2022-09-29
 version: 7.3.1
-stars: 2.7
+stars: 2.8
 ratings: 1438
-reviews: 59
+reviews: 60
 size: 
 website: http://www.trade360.com
 repository: 
 issue: 
 icon: com.trade360.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-10-10
+date: 2023-09-24
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/trade360ltd
 - https://www.facebook.com/Trade360LTD
 redirect_from: 
+developerName: Trade360 Ltd.
+features: 
 
 ---
 

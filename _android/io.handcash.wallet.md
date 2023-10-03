@@ -3,15 +3,15 @@ wsId:
 title: HandCash
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: io.handcash.wallet
 appCountry: 
 released: 2019-09-10
-updated: 2022-12-02
-version: 4.6.4
-stars: 4.5
+updated: 2023-10-02
+version: 5.4.9
+stars: 4.6
 ratings: 581
-reviews: 85
+reviews: 91
 size: 
 website: https://handcash.io
 repository: 
@@ -28,6 +28,8 @@ social:
 redirect_from:
 - /io.handcash.wallet/
 - /posts/io.handcash.wallet/
+developerName: Handcash Tech
+features: 
 
 ---
 

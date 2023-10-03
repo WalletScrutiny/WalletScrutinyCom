@@ -11,7 +11,7 @@ appCountry:
 released: 2018-12-10
 updated: 2021-11-08
 version: 0.3.1
-stars: 4.4
+stars: 4.5
 ratings: 
 reviews: 1
 size: 
@@ -20,9 +20,9 @@ repository: https://github.com/shesek/spark-wallet
 issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nonverifiable
-date: 2022-12-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +30,9 @@ social:
 redirect_from:
 - /com.spark.wallet/
 - /posts/com.spark.wallet/
+developerName: Nadav Ivgi
+features:
+- ln
 
 ---
 

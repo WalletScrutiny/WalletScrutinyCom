@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.defiex.exchange
 appCountry: 
-released: Jul 9, 2020
+released: 2020-07-09
 updated: 2020-08-21
 version: 1.3.4
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.defiex.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Defiex Limited
+features: 
 
 ---
 

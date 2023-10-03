@@ -1,26 +1,26 @@
 ---
 wsId: bitci
-title: Bitci, Bitcoin Altcoin Borsası
+title: 'Bitci TR: BTC | ETH | USDT'
 altTitle: 
 authors:
 - danny
 appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
-released: '2019-04-17T02:30:04Z'
-updated: 2021-09-07
-version: 3.8.0
-stars: 4.3
-reviews: 1753
-size: '52859904'
-website: https://www.bitci.com/
+released: 2019-04-17
+updated: 2023-08-28
+version: 5.0.1
+stars: 4.2
+reviews: 1764
+size: '145160192'
+website: https://www.bitci.com.tr/
 repository: 
 issue: 
 icon: com.bitcimobil.com.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2022-12-26
+date: 2023-01-21
 signer: 
 reviewArchive: 
 twitter: bitcicom
@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/bitcicom
 - https://medium.com/@bitcicom
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
+features: 
+developerName: Bitci Teknoloji Anonim Sirketi
 
 ---
 

@@ -3,10 +3,10 @@ wsId:
 title: Q7Trades
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.wQ7Trades_15018357
 appCountry: 
-released: Jan 13, 2022
+released: 2022-01-13
 updated: 2022-01-13
 version: 1.0.2
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.wQ7Trades_15018357.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-01-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Decentralized Finance
+features: 
 
 ---
 

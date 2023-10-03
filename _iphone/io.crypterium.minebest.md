@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: io.crypterium.minebest.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: Crypterium AS
 
 ---
 

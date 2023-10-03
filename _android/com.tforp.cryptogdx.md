@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.tforp.cryptogdx.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-05-26
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: Trading4Pro
 social: 
 redirect_from: 
+developerName: Finansoft Ltd
+features: 
 
 ---
 

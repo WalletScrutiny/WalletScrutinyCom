@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: gaikagroup.com.lacero.release
 appCountry: 
-released: Apr 9, 2020
+released: 2020-04-09
 updated: 2021-09-20
 version: 1.0.32
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: gaikagroup.com.lacero.release.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Lacero Platform
+features: 
 
 ---
 

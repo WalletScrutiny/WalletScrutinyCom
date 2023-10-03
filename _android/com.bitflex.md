@@ -3,10 +3,10 @@ wsId:
 title: BITFLEX
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitflex
 appCountry: 
-released: Sep 27, 2021
+released: 2021-09-27
 updated: 2021-09-27
 version: 2.0-beta
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bitflex.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2022-11-02
+meta: obsolete
+verdict: wip
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BITFLEX LLC
+features: 
 
 ---
 

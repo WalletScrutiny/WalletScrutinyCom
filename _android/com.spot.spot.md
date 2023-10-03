@@ -8,11 +8,11 @@ users: 100000
 appId: com.spot.spot
 appCountry: 
 released: 2018-08-02
-updated: 2022-11-28
-version: 4.71.5
-stars: 4.3
+updated: 2023-09-28
+version: 4.84.4
+stars: 4.4
 ratings: 4767
-reviews: 500
+reviews: 508
 size: 
 website: https://www.spot-wallet.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/spot.bitcoin
 redirect_from:
 - /com.spot.spot/
+developerName: Spot crypto wallet
+features: 
 
 ---
 

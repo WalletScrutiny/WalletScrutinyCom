@@ -28,6 +28,8 @@ reviewArchive:
 twitter: cryptofully
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

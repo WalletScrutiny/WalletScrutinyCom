@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.awalbit
 appCountry: 
-released: Feb 26, 2022
+released: 2022-02-26
 updated: 2022-09-11
 version: 0.29.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.awalbit.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AwalBit
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.hustay.swing.p70cfa875ab84420989521c15808266b8
 appCountry: 
-released: Feb 7, 2021
+released: 2021-02-07
 updated: 2021-02-08
 version: '0.3'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.hustay.swing.p70cfa875ab84420989521c15808266b8.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 주식회사 일성그룹
+features: 
 
 ---
 

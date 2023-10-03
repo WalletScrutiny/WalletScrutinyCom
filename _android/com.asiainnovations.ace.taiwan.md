@@ -4,12 +4,12 @@ title: ACE Exchange - TWD, BTC&Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.asiainnovations.ace.taiwan
 appCountry: us
 released: 2019-01-28
-updated: 2023-01-11
-version: 5.2.0_3420
+updated: 2023-09-04
+version: 5.2.0_3679
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,8 @@ twitter:
 social:
 - https://www.facebook.com/ace.exchange.tw
 redirect_from: 
+developerName: ACE Exchange
+features: 
 
 ---
 

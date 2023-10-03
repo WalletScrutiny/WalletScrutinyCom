@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/EverusWorld/
 - https://www.youtube.com/c/EverusWorld
 - https://www.instagram.com/everusworld/?hl=en
+features: 
 
 ---
 

@@ -26,6 +26,8 @@ reviewArchive:
 twitter: instantcoins_ng
 social:
 - https://www.facebook.com/instantcoins
+features: 
+developerName: 
 
 ---
 

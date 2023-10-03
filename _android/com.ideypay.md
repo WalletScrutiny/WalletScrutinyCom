@@ -28,6 +28,8 @@ twitter: ideypay
 social:
 - https://www.facebook.com/ideypay
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

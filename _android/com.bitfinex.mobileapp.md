@@ -4,15 +4,15 @@ title: 'Bitfinex: Trade Digital Assets'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.bitfinex.mobileapp
 appCountry: 
 released: 2019-02-11
-updated: 2023-01-11
-version: 5.17.0
+updated: 2023-08-30
+version: 6.7.0
 stars: 3.5
 ratings: 1986
-reviews: 52
+reviews: 59
 size: 
 website: https://www.bitfinex.com
 repository: 
@@ -30,6 +30,9 @@ social:
 - https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
 redirect_from: 
+developerName: Bitfinex
+features:
+- ln
 
 ---
 

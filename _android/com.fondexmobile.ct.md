@@ -8,8 +8,8 @@ users: 100000
 appId: com.fondexmobile.ct
 appCountry: au
 released: 2017-11-02
-updated: 2023-01-05
-version: 4.6.54385
+updated: 2023-09-15
+version: 4.8.54452
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/fondex-trading
 - https://www.facebook.com/fondexglobal
 redirect_from: 
+developerName: Fondex
+features: 
 
 ---
 

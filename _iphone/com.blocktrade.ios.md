@@ -8,25 +8,27 @@ appId: com.blocktrade.ios
 appCountry: us
 idd: 1360294403
 released: 2018-10-30
-updated: 2022-12-08
-version: 2.1.0
+updated: 2023-04-28
+version: 2.4.2
 stars: 5
 reviews: 9
-size: '52377600'
-website: http://blocktrade.com
+size: '28897280'
+website: https://blocktrade.com/
 repository: 
 issue: 
 icon: com.blocktrade.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-03
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Blocktradecom
 social:
 - https://www.linkedin.com/company/blocktradecom
 - https://www.facebook.com/Blocktradecom
+features: 
+developerName: Blocktrade S.A.
 
 ---
 

@@ -1,0 +1,44 @@
+---
+wsId: natiolInfinity
+title: Natiol Infinity (Test Version)
+altTitle: 
+authors:
+- danny
+users: 1000
+appId: io.natiol
+appCountry: 
+released: 2022-10-12
+updated: 2022-11-04
+version: 1.1.0
+stars: 
+ratings: 
+reviews: 
+size: 
+website: https://natiol.io
+repository: 
+issue: 
+icon: io.natiol.png
+bugbounty: 
+meta: ok
+verdict: nowallet
+date: 2023-09-06
+signer: 
+reviewArchive: 
+twitter: natiolinfinity
+social:
+- https://www.facebook.com/natiol.io
+- https://t.me/natiol_infinity
+redirect_from: 
+developerName: NATIOL INFINITY PTE LTD
+features: 
+
+---
+
+## App Description from Google Play
+
+The app is described as a test version and does not currently describe the functions of the app.
+
+## Analysis 
+
+- The app's logo looks like the Ethereum diamond.
+- We installed the app and found what appears to be a bitcoin wallet - but the text says 'coming soon'. Until such time that the app is updated, we'll mark this as a **not a wallet**.

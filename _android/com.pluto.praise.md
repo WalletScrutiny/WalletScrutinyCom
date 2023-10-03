@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.pluto.praise
 appCountry: 
-released: Jun 23, 2021
+released: 2021-06-23
 updated: 2021-07-01
 version: '1.4'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.pluto.praise.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-01
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: PRAISE Company
+features: 
 
 ---
 

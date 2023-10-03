@@ -16,6 +16,7 @@ test() {
       --rm \
       --device /dev/fuse \
       --cap-add SYS_ADMIN \
+      --security-opt apparmor=unconfined \
       --volume $workDir/app:/app \
       --interactive \
       --tty \

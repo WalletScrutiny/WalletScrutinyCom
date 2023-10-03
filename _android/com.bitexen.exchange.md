@@ -1,27 +1,27 @@
 ---
-wsId: 
-title: Bitexen - Trade Bitcoin and Altcoin
+wsId: Bitexen
+title: Bitexen - Bitcoin and Altcoins
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
-updated: 2021-07-29
-version: '0.42'
-stars: 3.2
+updated: 2023-09-25
+version: 1.0.1
+stars: 3.5
 ratings: 8237
-reviews: 6026
-size: 14M
+reviews: 34
+size: 
 website: https://www.bitexen.com
 repository: 
 issue: 
-icon: com.bitexen.exchange.png
+icon: com.bitexen.exchange.jpg
 bugbounty: 
-meta: defunct
-verdict: wip
-date: 2021-08-21
+meta: ok
+verdict: custodial
+date: 2023-02-01
 signer: 
 reviewArchive: 
 twitter: bitexencom
@@ -29,8 +29,34 @@ social:
 - https://www.linkedin.com/company/bitexen
 - https://www.facebook.com/bitexen
 redirect_from: 
+developerName: Bitexen Teknoloji A.Ş.
+features: 
 
 ---
+
+## Notes on Similar Apps
+
+This app has the same brand identity with:
+- {% include walletLink.html wallet='android/com.bitexenglobal.exchangeapp' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bitexenglobal.exchangeapp' verdict='true' %} 
+
+- Both apps come from the same developer: [Bitexen Teknoloji A.Ş.](https://play.google.com/store/apps/developer?id=Bitexen+Teknoloji+A.%C5%9E.)
+- Both apps are referred to from the same domain name, with a difference in the subdomain. For Bitexen Global, global.bitexen.com. For Bitexen Exchange, bitexen.com 
+- There is a difference in the primary language for each app. Bitexen Exchange is primarily in Turkish with business offices in Istanbul. Bitexen Global is in English with its business headquarters in Lithuania.
+
+## Updated Review
+
+As of 2023-02-01, the website is now accessible. It is primarily a Turkish website. It is an exchange.
+
+[User Agreement](https://www.bitexen.com/help/user-agreement)
+
+> The user accepts that he will not hold Bitexen responsible if his membership is not approved and/or terminated due to not providing the necessary information and documents and/or updating the necessary information and documents immediately. The User shall be liable for all damages, including the indirect damages that Bitexen may suffer due to incomplete or untrue information provided by the User to Bitexen/Site, or if it is out of date/outdated.
+
+It conducts KYC and ID checks. We were also not able to find a way to backup the seed phrases. 
+
+This is a **custodial service**.
+
+## Previous Review 2021-08-21
 
 Accessing [the website linked via Google Play](https://www.bitexen.com/) is problematic:
 

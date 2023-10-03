@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: com.profittrading.forbinanceus.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-04-23
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
+features: 
 
 ---
 

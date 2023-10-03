@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: hk.unisoft.otcxpert
 appCountry: 
-released: Mar 17, 2020
+released: 2020-03-17
 updated: 2021-09-28
 version: 1.0.28
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: hk.unisoft.otcxpert.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: YBEX Ltd.
+features: 
 
 ---
 

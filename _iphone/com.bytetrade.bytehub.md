@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bytetrade.bytehub.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
-date: 2023-01-06
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
+features: 
+developerName: BYTETRADE(HK) LIMITED
 
 ---
 

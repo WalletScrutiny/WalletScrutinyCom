@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.waletrust.wallet
 appCountry: 
-released: Jul 24, 2021
+released: 2021-07-24
 updated: 2021-07-24
 version: 0.21.3
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.waletrust.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Febitak
+features: 
 
 ---
 

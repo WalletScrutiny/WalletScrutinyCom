@@ -4,15 +4,15 @@ title: BitoPro Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitoex.bitoproapp
 appCountry: us
 released: 2018-07-30
-updated: 2022-11-02
-version: 4.4.1
-stars: 
+updated: 2023-08-08
+version: 4.4.7
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.bitopro.com
 repository: 
@@ -28,6 +28,8 @@ twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitopro.bito
 redirect_from: 
+developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
+features: 
 
 ---
 

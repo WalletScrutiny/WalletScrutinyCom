@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: org.coinid.wallet.tbtc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2022-02-16
+date: 2023-02-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: COINiD Group
+features: 
 
 ---
 

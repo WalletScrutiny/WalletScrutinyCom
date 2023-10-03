@@ -8,11 +8,11 @@ users: 10000
 appId: io.cimcome.app
 appCountry: bm
 released: 2020-12-09
-updated: 2022-11-23
-version: 2.1.0
-stars: 4.4
+updated: 2023-09-06
+version: 2.2.0
+stars: 4
 ratings: 10
-reviews: 26
+reviews: 30
 size: 
 website: https://cimcome.io/
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: cimcome
 social: 
 redirect_from: 
+developerName: Makers Farm Pte. Ltd.
+features: 
 
 ---
 

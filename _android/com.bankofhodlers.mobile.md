@@ -8,9 +8,9 @@ users: 500000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2022-06-28
-version: 2.7.1
-stars: 3.8
+updated: 2023-09-22
+version: 2.8.7
+stars: 3.5
 ratings: 8047
 reviews: 90
 size: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 redirect_from: 
+developerName: Vauld
+features: 
 
 ---
 

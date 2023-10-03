@@ -8,53 +8,51 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
-weight: 
+dimensions:
+- 87
+- 54
+- 4
+weight: 70
 provider: Alexander Devyatkin, Mikhail Svetkin, Igor Zarochintsev, and others.
 providerWebsite: 
-website: https://web.archive.org/web/20211226163120/https://hardware--wallet.com/
+website: https://hw.1inch.io/
 shop: 
 country: 
 price: 
-repository: 
+repository: https://github.com/HRDWLT
 issue: 
 icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-29
+date: 2023-03-01
 signer: 
-reviewArchive: 
-twitter: hard_wallet_
-social: 
+reviewArchive:
+- date: 2022-04-29
+  version: 
+  appHash: 
+  gitRevision: 8762a3742
+  verdict: unreleased
+twitter: hrdwlt
+social:
+- https://medium.com/@hrdwlt
+- https://www.linkedin.com/company/hwlt/
+features: 
 
 ---
 
-## Background Information
+## Updated Review 2023-03-01
 
-The domain name and the twitter handle describes a generic sounding product: "hardware wallet". However, the rendering of the device bears the logo of 1inch - a DeFi aggregator platform. The project was announced in December 2021. 
+1inch has updated its website's design and listed some technical specifications. Below is a tweet from 1inch's social media account that suggests that the product is nearing an official release.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you&#39;re at <a href="https://twitter.com/EthereumDenver?ref_src=twsrc%5Etfw">@EthereumDenver</a>, catch us showing something 🤫 <a href="https://t.co/BBef8IhIj4">https://t.co/BBef8IhIj4</a></p>&mdash; 1inch Hardware Wallet @ ETH Denver (@hrdwlt) <a href="https://twitter.com/hrdwlt/status/1628708912034611202?ref_src=twsrc%5Etfw">February 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Previous Review 2022-04-29
 
 ## Product Description 
 
-The social media account claims: 
+1inch's offical website states that it is a multi-seed wallet. Wallet set creation involves the usage of the HD Wallet algorithm along with BIP44.
 
-> HARDWARE WALLET is a hardware cold wallet for storing cryptocurrency that includes many technologies within a small device similar to a bank card.
->
-- 3 mm compact form of a bank card
-- Independent secure element EAL 5+
-- Wireless charger
-- Autonomour air gap signature transaction with bi-directional QR code
-- Multiple wallet sets for different code and fingerprint combinations
-- Large easy-to-operate touch screen that shows everything
-- 1 inch is the # 1 DeFi aggregator offering. Direct integration with a 1 inch wallet will allow you to exchange currencies at a favorable rate and securely store your assets in a cold wallet
+Images of the product show that it will have a touchscreen display, QR code scanner, and the user will be asked to write down and save the generated seed phrase. Users will also be able to use NFC cards to sign transactions.
 
-## Analysis 
-
-The generic sounding domain and the lack of recent activity on the social media post lead us to believe that this wallet is not yet released. We [reached](https://twitter.com/BitcoinWalletz/status/1515266499480801282) out to Alexander Devyatkin as well as the twitter account to ask about the status of the project.
-
-He [replied:](https://twitter.com/alexey9kin/status/1515317235170131970)
-
-> Hey! The device is not yet for sale, but we are actively working. To date, we have completed testing of all hardware and software solutions, active work is underway to develop the firmware and device case.
-
-This confirms the device is **not yet released**.
-
+1inch has an official Github account so there is a chance that the firmware will be made available in the future. However, we cannot make a conclusive statement on reproducibility until the product is officially released. 

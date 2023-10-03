@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/digifinex-global
 - https://www.facebook.com/digifinex.global
 - https://www.reddit.com/r/DigiFinex
+features: 
+developerName: 
 
 ---
 

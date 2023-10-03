@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/Bitcoin.India.Org
 redirect_from:
 - /com.bitcoinindia.Btciapp/
+developerName: 
+features: 
 
 ---
 

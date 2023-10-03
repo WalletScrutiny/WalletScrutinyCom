@@ -28,6 +28,8 @@ twitter: fxwallet
 social:
 - https://www.facebook.com/Fxwallet.info
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

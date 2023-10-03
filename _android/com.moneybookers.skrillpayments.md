@@ -8,11 +8,11 @@ users: 10000000
 appId: com.moneybookers.skrillpayments
 appCountry: 
 released: 2013-10-29
-updated: 2023-01-11
-version: 3.101.0-2022121412
-stars: 4.2
+updated: 2023-09-21
+version: 3.119.0-2023090814
+stars: 4.4
 ratings: 142059
-reviews: 2807
+reviews: 2947
 size: 
 website: https://www.skrill.com
 repository: 
@@ -24,20 +24,22 @@ verdict: nosendreceive
 date: 2021-08-09
 signer: 
 reviewArchive: 
-twitter: PlugIntoPaysafe
+twitter: skrill
 social:
-- https://www.linkedin.com/company/Paysafe Group
-- https://www.facebook.com/PlugIntoPaysafe
+- https://www.facebook.com/Skrillpayments
+- https://www.instagram.com/skrill
 redirect_from: 
+developerName: Paysafe
+features: 
 
 ---
 
->The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.
+> The app empowers you to make online payments, send money to a friend or relative, and exchange cryptocurrencies.
 
 From their terms of use:
 
->5.2.2 you will not have a personal cryptocurrency wallet with the Cryptocurrency Exchange
+> 5.2.2 you will not have a personal cryptocurrency wallet with the Cryptocurrency Exchange
 
->The Supported Cryptocurrencies (and the fiat currency used to buy/sell them) are held in custody by a third party.
+> The Supported Cryptocurrencies (and the fiat currency used to buy/sell them) are held in custody by a third party.
 
 Based on this information, the app is custodial therefore not verifiable.

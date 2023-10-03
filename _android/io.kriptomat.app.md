@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: Kriptomat - Buy & Store Crypto
+title: 'Kriptomat: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
-updated: 2023-01-13
-version: 2.3.101
+updated: 2023-09-21
+version: 3.6.2
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/kriptomat
 - https://www.facebook.com/kriptomat.io
 redirect_from: 
+developerName: Kriptomat
+features: 
 
 ---
 

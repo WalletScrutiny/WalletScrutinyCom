@@ -1,6 +1,6 @@
 ---
 wsId: mwallet
-title: 'Bitcoin Wallet: BTC, ETH & BCH'
+title: Bitcoin & Crypto DeFi Wallet
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitcoin.mwallet
 appCountry: 
 idd: 1252903728
 released: 2017-07-11
-updated: 2022-12-06
-version: 7.33.0
+updated: 2023-10-03
+version: 8.10.0
 stars: 4.6
-reviews: 18988
-size: '174958592'
+reviews: 24809
+size: '213322752'
 website: https://wallet.bitcoin.com/
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
+features: 
+developerName: Bitcoin.com
 
 ---
 

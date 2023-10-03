@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BTC VertexFX Trader
+title: BTC Trader
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.hybridsolutions.btc
 appCountry: 
 released: 2020-08-24
-updated: 2022-04-21
-version: '1.3'
-stars: 
+updated: 2023-06-13
+version: 1.2.1.10
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://hybridsolutions.com/
 repository: 
@@ -21,7 +21,7 @@ icon: com.hybridsolutions.btc.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-11-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: VertexFXTrader
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/hybrid-solutions-hs-
 - https://www.facebook.com/VertexFXTrader
 redirect_from: 
+developerName: Hybrid Solutions - VertexFX Trader
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.usfcx.wallet
 appCountry: 
-released: Apr 19, 2021
+released: 2021-04-19
 updated: 2021-08-25
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.usfcx.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: omg blockchain factory
+features: 
 
 ---
 

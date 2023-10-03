@@ -10,11 +10,11 @@ users: 10000
 appId: com.velas.mobile_wallet
 appCountry: us
 released: 2020-11-17
-updated: 2022-12-28
-version: 2.3.8
+updated: 2023-08-28
+version: 2.3.17
 stars: 3.9
 ratings: 545
-reviews: 20
+reviews: 22
 size: 
 website: https://velas.com
 repository: https://github.com/velas/mobile-wallet
@@ -36,6 +36,8 @@ social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
 redirect_from: 
+developerName: Velаs Netwоrk АG
+features: 
 
 ---
 

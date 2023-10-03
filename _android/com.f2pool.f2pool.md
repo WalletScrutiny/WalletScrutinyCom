@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: f2pool
 title: F2Pool
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100000
 appId: com.f2pool.f2pool
 appCountry: 
-released: Sep 4, 2018
-updated: 2022-11-15
-version: 2.5.0
+released: 2018-09-04
+updated: 2023-08-25
+version: 2.5.3
 stars: 4.4
 ratings: 
-reviews: 70
+reviews: 77
 size: 
 website: https://www.f2pool.com
 repository: 
@@ -19,13 +20,17 @@ issue:
 icon: com.f2pool.f2pool.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-06-23
+verdict: nowallet
+date: 2023-02-10
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: F2Pool_Official
+social:
+- https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
 redirect_from: 
+developerName: F2Pool Inc.
+features: 
 
 ---
 
+This is a mining pool management app. The user is asked to provide his own address for payouts.

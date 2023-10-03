@@ -28,6 +28,8 @@ social:
 redirect_from:
 - /pro.bitapp.android/
 - /posts/pro.bitapp.android/
+developerName: 
+features: 
 
 ---
 

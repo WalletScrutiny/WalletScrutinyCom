@@ -8,11 +8,11 @@ appId: co.bacoor.keyring
 appCountry: 
 idd: 1546824976
 released: 2021-01-25
-updated: 2022-11-30
-version: 2.4.0
-stars: 3.7
-reviews: 6
-size: '53813248'
+updated: 2023-09-15
+version: 2.9.0
+stars: 3.3
+reviews: 7
+size: '43981824'
 website: 
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: KEYRING_PRO
 social: 
+features: 
+developerName: bacoor Inc.
 
 ---
 

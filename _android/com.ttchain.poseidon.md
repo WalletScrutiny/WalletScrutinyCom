@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.ttchain.poseidon
 appCountry: 
-released: Apr 8, 2020
+released: 2020-04-08
 updated: 2020-07-30
 version: 1.0.9
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.ttchain.poseidon.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Poseidon202066
+features: 
 
 ---
 

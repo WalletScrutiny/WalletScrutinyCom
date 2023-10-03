@@ -8,11 +8,11 @@ users: 100000
 appId: com.qqtrade.gugupay
 appCountry: cn
 released: 2017-05-25
-updated: 2022-05-02
-version: 3.0.6
-stars: 4.3
+updated: 2023-05-30
+version: 5.0.4
+stars: 4.1
 ratings: 658
-reviews: 252
+reviews: 254
 size: 
 website: http://www.99pay.kr/
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: (주)구구페이
+features: 
 
 ---
 

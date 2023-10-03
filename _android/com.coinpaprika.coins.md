@@ -8,9 +8,9 @@ users: 100000
 appId: com.coinpaprika.coins
 appCountry: us
 released: 2020-06-15
-updated: 2022-12-16
-version: 1.17.1
-stars: 4.3
+updated: 2023-08-29
+version: 1.17.11
+stars: 4.4
 ratings: 1401
 reviews: 93
 size: 
@@ -28,6 +28,8 @@ twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp
 redirect_from: 
+developerName: Coinpaprika
+features: 
 
 ---
 

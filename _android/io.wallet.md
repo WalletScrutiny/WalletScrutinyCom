@@ -29,6 +29,8 @@ social:
 - https://medium.com/@walletio
 - https://github.com/wallet-io
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

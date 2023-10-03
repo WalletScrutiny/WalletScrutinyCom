@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-01-21
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: GO-WOON
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.tdtc.vtrade.biteclipse
 appCountry: 
-released: Nov 20, 2019
+released: 2019-11-20
 updated: 2021-07-03
 version: 1.0.6
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.tdtc.vtrade.biteclipse.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BitEclipse
+features: 
 
 ---
 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.incognito.wallet
 appCountry: 
 released: 2019-08-12
-updated: 2022-10-31
-version: 5.10.0
+updated: 2023-09-07
+version: 5.14.0
 stars: 4
 ratings: 344
 reviews: 63
@@ -28,6 +28,8 @@ twitter: incognitochain
 social: 
 redirect_from:
 - /com.incognito.wallet/
+developerName: Incognito Core Development Team
+features: 
 
 ---
 

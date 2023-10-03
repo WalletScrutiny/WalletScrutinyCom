@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.claimersmulticoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-04
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Vessper
+features: 
 
 ---
 

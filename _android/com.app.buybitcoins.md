@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.app.buybitcoins.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-04-04
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: 'Fetch - Local Pet Marketplace by : Darryl McGee'
+features: 
 
 ---
 

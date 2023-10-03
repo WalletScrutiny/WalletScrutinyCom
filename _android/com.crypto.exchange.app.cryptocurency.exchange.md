@@ -10,23 +10,25 @@ appCountry:
 released: 2021-04-23
 updated: 2021-04-23
 version: '1.0'
-stars: 4.6
+stars: 3.7
 ratings: 220
-reviews: 188
+reviews: 22
 size: 
 website: http://crypto-exchange.club
 repository: 
 issue: 
 icon: com.crypto.exchange.app.cryptocurency.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-04-19
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Buy Crypto - Crypto Exchange - Sell Crypto
+features: 
 
 ---
 

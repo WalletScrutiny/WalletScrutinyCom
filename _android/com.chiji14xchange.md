@@ -10,24 +10,26 @@ appCountry: ng
 released: 2019-04-22
 updated: 2021-05-22
 version: 3.0.5
-stars: 1.6
+stars: 1.7
 ratings: 1121
-reviews: 942
+reviews: 948
 size: 
 website: https://chiji14xchange.com
 repository: 
 issue: 
 icon: com.chiji14xchange.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-05-18
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: myrocketapp
 social:
 - https://www.facebook.com/myrocketapp
 redirect_from: 
+developerName: Chiji14xchange
+features: 
 
 ---
 

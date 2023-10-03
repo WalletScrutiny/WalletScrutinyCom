@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://starlabstudio.xyz/
+website: https://starlabstudios.xyz/
 repository: 
 issue: 
 icon: starlab.studios.cryptowallet.png
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Starlab Studios
+features: 
 
 ---
 

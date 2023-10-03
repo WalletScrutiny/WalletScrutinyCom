@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.sharuvan.monetaria
 appCountry: 
-released: Dec 26, 2021
+released: 2021-12-26
 updated: 2021-12-23
 version: 1.0.2
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.sharuvan.monetaria.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-12-21
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Ahmed Sharuvan
+features: 
 
 ---
 

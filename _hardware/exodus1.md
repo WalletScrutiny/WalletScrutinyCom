@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/htcexodus
 - https://www.reddit.com/r/HTCExodus
 - https://github.com/htczion
+features: 
 
 ---
 

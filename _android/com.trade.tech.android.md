@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.trade.tech.android
 appCountry: 
-released: Jan 2, 2019
+released: 2019-01-02
 updated: 2022-07-29
 version: 1.15.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.trade.tech.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Finalto
+features: 
 
 ---
 

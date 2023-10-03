@@ -29,6 +29,8 @@ social:
 - https://www.facebook.com/bideskcom
 - https://www.reddit.com/r/bidesk
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

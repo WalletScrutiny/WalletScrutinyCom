@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bachex_android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-01
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: IXX Pro
+features: 
 
 ---
 

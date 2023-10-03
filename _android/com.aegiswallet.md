@@ -28,6 +28,8 @@ social:
 redirect_from:
 - /com.aegiswallet/
 - /posts/com.aegiswallet/
+developerName: 
+features: 
 
 ---
 

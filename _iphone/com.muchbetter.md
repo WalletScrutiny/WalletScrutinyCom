@@ -8,11 +8,11 @@ appId: com.muchbetter
 appCountry: gb
 idd: 1179978268
 released: 2017-06-26
-updated: 2022-12-15
-version: 3.10.0
+updated: 2023-09-26
+version: 4.4.0
 stars: 4.4
-reviews: 384
-size: '68462592'
+reviews: 398
+size: '78844928'
 website: https://www.muchbetter.com
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: paymuchbetter
 social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
+features: 
+developerName: MIR LIMITED
 
 ---
 

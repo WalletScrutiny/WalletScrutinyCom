@@ -10,7 +10,7 @@ appCountry:
 released: 2018-07-23
 updated: 2021-08-07
 version: VARY
-stars: 4.4
+stars: 4.5
 ratings: 41
 reviews: 3
 size: 
@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: com.profittrading.forhitbtc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
+features: 
 
 ---
 

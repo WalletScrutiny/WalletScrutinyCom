@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Paybis Wallet: Buy Bitcoin'
+title: Paybis - Bitcoin (BTC) Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.paybis
 appCountry: 
 released: 2021-09-06
-updated: 2022-12-12
-version: 1.3.0
-stars: 2.8
+updated: 2023-09-22
+version: 1.6.5
+stars: 4.2
 ratings: 173
-reviews: 28
+reviews: 70
 size: 
 website: https://paybis.com/contacts/
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: paybis
 social: 
 redirect_from: 
+developerName: PAYBIS
+features: 
 
 ---
 

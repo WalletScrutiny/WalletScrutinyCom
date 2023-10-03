@@ -10,23 +10,25 @@ appCountry:
 released: 2020-04-21
 updated: 2022-08-18
 version: '2.2'
-stars: 4.1
+stars: 4
 ratings: 266
-reviews: 16
+reviews: 17
 size: 
 website: 
 repository: 
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-10-21
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Vessper
+features: 
 
 ---
 

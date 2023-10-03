@@ -17,13 +17,15 @@ repository:
 issue: 
 icon: com.nova.dax.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-22
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: 
 
 ---
 

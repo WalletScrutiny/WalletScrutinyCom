@@ -27,6 +27,8 @@ twitter: zulutrade
 social:
 - https://www.linkedin.com/company/zulutrade
 - https://www.facebook.com/zulutrade
+features: 
+developerName: 
 
 ---
 

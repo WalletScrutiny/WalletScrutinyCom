@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: com.invest4you
 appCountry: 
-released: Jun 16, 2021
+released: 2021-06-16
 updated: 2021-06-16
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.invest4you.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SimplyLab Inc.
+features: 
 
 ---
 

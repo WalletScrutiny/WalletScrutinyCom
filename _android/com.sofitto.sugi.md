@@ -3,10 +3,10 @@ wsId:
 title: Sugi Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.sofitto.sugi
 appCountry: 
-released: Mar 20, 2019
+released: 2019-03-20
 updated: 2020-10-12
 version: 1.8.2
 stars: 
@@ -19,13 +19,15 @@ issue:
 icon: com.sofitto.sugi.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Sofitto NV
+features: 
 
 ---
 

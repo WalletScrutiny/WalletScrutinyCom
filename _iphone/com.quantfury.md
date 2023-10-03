@@ -1,6 +1,6 @@
 ---
 wsId: quantfury
-title: Quantfury
+title: 'Quantfury: Your Global Broker'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.quantfury
 appCountry: gb
 idd: 1445564443
 released: 2018-12-15
-updated: 2022-12-31
-version: 1.54.4
+updated: 2023-09-25
+version: 1.65.0
 stars: 4.5
-reviews: 60
-size: '58725376'
+reviews: 47
+size: '73965568'
 website: https://quantfury.com/
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: quantfury
 social: 
+features: 
+developerName: Quantfury Ltd
 
 ---
 

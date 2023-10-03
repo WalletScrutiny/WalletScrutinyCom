@@ -30,6 +30,8 @@ social:
 - https://www.reddit.com/r/UTRUST_Official
 redirect_from:
 - /com.uwalletapp/
+developerName: 
+features: 
 
 ---
 

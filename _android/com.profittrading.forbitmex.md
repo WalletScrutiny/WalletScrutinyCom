@@ -10,24 +10,26 @@ appCountry:
 released: 2019-06-11
 updated: 2022-08-11
 version: 6.0.6
-stars: 4.3
+stars: 4.4
 ratings: 348
-reviews: 8
+reviews: 9
 size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forbitmex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-20
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
+developerName: ProfitTradingApp
+features: 
 
 ---
 

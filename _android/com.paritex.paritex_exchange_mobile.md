@@ -10,23 +10,25 @@ appCountry: tr
 released: 2021-03-21
 updated: 2022-08-30
 version: 3.1.17
-stars: 4.1
+stars: 4
 ratings: 272
-reviews: 112
+reviews: 109
 size: 
 website: https://paritex.com/
 repository: 
 issue: 
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: paritexexchange
 social: 
 redirect_from: 
+developerName: Paritex
+features: 
 
 ---
 

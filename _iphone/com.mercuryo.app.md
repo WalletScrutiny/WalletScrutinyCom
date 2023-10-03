@@ -8,11 +8,11 @@ appId: com.mercuryo.app
 appCountry: 
 idd: 1446533733
 released: 2019-02-08
-updated: 2023-01-12
-version: 2.0.6
-stars: 4.8
-reviews: 1044
-size: '127904768'
+updated: 2023-05-30
+version: 2.1.0
+stars: 4.7
+reviews: 990
+size: '116808704'
 website: https://mercuryo.io/
 repository: 
 issue: 
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/mercuryo-io
 - https://www.facebook.com/mercuryo.io
 - https://www.reddit.com/r/mercuryo
+features: 
+developerName: MoneySwap OU
 
 ---
 

@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: vcb.fiatbit.com
 appCountry: 
-released: Sep 12, 2019
-updated: 2022-09-16
-version: 2.5.2
+released: 2019-09-12
+updated: 2023-03-03
+version: 2.5.3
 stars: 
 ratings: 
 reviews: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: vcb.fiatbit.com.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-06-22
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: fiatbit
+features: 
 
 ---
 

@@ -28,6 +28,8 @@ twitter:
 social:
 - https://www.facebook.com/mybetadealapp
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -8,7 +8,7 @@ users: 10000
 appId: com.bitmex.quote.lvrggd
 appCountry: 
 released: 2018-09-14
-updated: 2022-03-10
+updated: 2023-09-04
 version: '1.7'
 stars: 
 ratings: 
@@ -21,12 +21,14 @@ icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-11-30
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BITbit
+features: 
 
 ---
 

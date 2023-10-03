@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: com.ToolsTradesApp.ToolsTradesApp.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2022-05-04
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: SignalsBinary
 
 ---
 

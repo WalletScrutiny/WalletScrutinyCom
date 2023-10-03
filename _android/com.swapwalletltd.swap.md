@@ -27,6 +27,8 @@ twitter:
 social: 
 redirect_from:
 - /com.swapwalletltd.swap/
+developerName: 
+features: 
 
 ---
 

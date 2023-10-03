@@ -26,6 +26,8 @@ reviewArchive:
 twitter: bitnovo
 social:
 - https://www.facebook.com/BitcoinBitnovo
+features: 
+developerName: 
 
 ---
 

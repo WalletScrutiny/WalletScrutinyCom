@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Exchange Currency.com
+title: Dzengi.com - Crypto Exchange
 altTitle: 
 authors:
 - leo
@@ -8,16 +8,16 @@ users: 1000000
 appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
-updated: 2023-01-13
-version: 1.34.0
+updated: 2023-09-29
+version: 1.41.4
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://currency.com
+website: http://dzengi.com
 repository: 
 issue: 
-icon: com.currency.exchange.prod2.png
+icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
@@ -31,6 +31,8 @@ social:
 redirect_from:
 - /com.currency.exchange.prod2/
 - /posts/com.currency.exchange.prod2/
+developerName: DI INVESTMENTS LLC
+features: 
 
 ---
 

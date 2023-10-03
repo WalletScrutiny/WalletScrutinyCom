@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/cobo-official
 - https://www.facebook.com/coboOfficial
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

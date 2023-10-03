@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: io.level01.android.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nobtc
-date: 2022-12-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: level01io
 social:
 - https://www.facebook.com/level01platform
 redirect_from: 
+developerName: Level01 Technologies Limited
+features: 
 
 ---
 

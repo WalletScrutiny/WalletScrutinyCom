@@ -10,23 +10,25 @@ appCountry:
 released: 2021-09-10
 updated: 2022-11-12
 version: '6.03'
-stars: 4.4
+stars: 4.1
 ratings: 87
-reviews: 13
+reviews: 4
 size: 
 website: https://multiwallet.tech/
 repository: 
 issue: 
 icon: io.icr4shed.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-11-15
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: MultiWallet
+features: 
 
 ---
 

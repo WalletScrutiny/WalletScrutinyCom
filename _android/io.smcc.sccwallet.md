@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /io.smcc.sccwallet/
 - /posts/io.smcc.sccwallet/
+developerName: 
+features: 
 
 ---
 

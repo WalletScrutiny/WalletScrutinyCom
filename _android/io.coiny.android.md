@@ -28,6 +28,8 @@ twitter: Coiny_io
 social:
 - https://www.facebook.com/coiny.io
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: Skilling
-title: 'Skilling: Forex & CFD Trading'
+title: Skilling - Forex Trading App
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 released: 2020-05-05
-updated: 2022-10-03
-version: 1.0.50
+updated: 2023-09-17
+version: 2.2.0
 stars: 4.3
 ratings: 172
 reviews: 5
@@ -17,7 +17,7 @@ size:
 website: https://skilling.com/
 repository: 
 issue: 
-icon: com.FinovelCyprusLimited.Skilling.jpg
+icon: com.FinovelCyprusLimited.Skilling.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/skilling
 - https://www.facebook.com/SkillingTrading
 redirect_from: 
+developerName: Skilling
+features: 
 
 ---
 

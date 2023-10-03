@@ -28,6 +28,8 @@ twitter: buymalawi
 social:
 - https://www.facebook.com/buybitcoinmalawi
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

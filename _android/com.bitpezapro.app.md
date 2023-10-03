@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpezapro.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-19
+date: 2023-09-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
 redirect_from: 
+developerName: Describe Innovations
+features: 
 
 ---
 

@@ -8,8 +8,8 @@ users: 500000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
-updated: 2023-01-11
-version: 3.1.0
+updated: 2023-09-21
+version: 3.2.0
 stars: 4.3
 ratings: 15890
 reviews: 38
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/novadax-do-brasil
 - https://www.facebook.com/novadaxglobal
 redirect_from: 
+developerName: NOVADAX BRASIL PAGAMENTOS LTDA
+features: 
 
 ---
 

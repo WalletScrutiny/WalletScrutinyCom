@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: vision.genesis.ios.investor.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: genesis_vision
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/genesis-vision
 - https://www.facebook.com/GenesisVisionProject
 - https://www.reddit.com/r/genesisvision
+features: 
+developerName: Genesis Vision
 
 ---
 

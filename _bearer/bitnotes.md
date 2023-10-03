@@ -28,6 +28,7 @@ reviewArchive:
 twitter: bitnotesorg
 social:
 - https://www.facebook.com/Icynote-100908298821873
+features: 
 
 ---
 

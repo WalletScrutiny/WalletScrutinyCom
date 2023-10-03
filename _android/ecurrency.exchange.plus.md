@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: ecurrency.exchange.plus.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: wip
-date: 2021-09-17
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Moghadam
+features: 
 
 ---
 

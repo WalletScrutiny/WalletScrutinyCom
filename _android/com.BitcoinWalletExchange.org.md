@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-12
 updated: 2020-10-13
 version: '1.01'
-stars: 4.7
+stars: 4.3
 ratings: 110
-reviews: 12
+reviews: 18
 size: 
 website: 
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: ATMwallet
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
 
-const sem = new Semaphore(5)
+const sem = new Semaphore(1)
 const stats = {
   defunct: 0,
   updated: 0,
@@ -18,7 +18,7 @@ const folder = `_${category}/`
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'updated version stars reviews size website repository issue ' +
                 'icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social').split(' ')
+                'twitter social features developerName').split(' ')
 
 async function refreshAll (ids, markDefunct) {
   var files
@@ -49,7 +49,7 @@ function refreshFile (fileName, content, markDefunct) {
         id: idd,
         lang: 'en',
         country: appCountry,
-        throttle: 20
+        throttle: 2
       }).then(app => {
         const iconPath = `images/wIcons/iphone/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
@@ -104,6 +104,7 @@ function updateFromApp (header, app) {
   header.size = app.size
   header.website = app.developerWebsite || header.website || ''
   header.date = header.date || new Date()
+  header.developerName = app.developer || header.developerName || 'Unknown Developer(s)'
   helper.updateMeta(header)
 }
 
@@ -132,16 +133,18 @@ function add (newIdds) {
         throttle: 20
       }).then(app => {
         const path = `_iphone/${app.appId}.md`
-        if (fs.existsSync(path)) {
-          refreshFile(`${app.appId}.md`)
-        } else {
-          const header = helper.getEmptyHeader(headers)
-          header.appId = app.appId
-          header.idd = idd
-          header.appCountry = country
-          header.verdict = 'wip'
-          refreshFile(`${app.appId}.md`, { header: header, body: '' })
-        }
+        fs.access(path)
+          .then(() => {
+            refreshFile(`${app.appId}.md`)
+          })
+          .catch(() => {
+            const header = helper.getEmptyHeader(headers)
+            header.appId = app.appId
+            header.idd = idd
+            header.appCountry = country
+            header.verdict = 'wip'
+            refreshFile(`${app.appId}.md`, { header: header, body: '' })
+          })
       }, err => {
         console.error(`Error with id ${idd}: ${JSON.stringify(err)}`)
       })

@@ -6,9 +6,9 @@ authors:
 users: 10
 appId: com.asyasoftware.metropuli
 appCountry: 
-released: Mar 9, 2022
-updated: 2022-05-30
-version: 1.0.2
+released: 2022-03-09
+updated: 2023-08-22
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -20,12 +20,14 @@ icon: com.asyasoftware.metropuli.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-07-31
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Asya Software JSC
+features: 
 
 ---
 

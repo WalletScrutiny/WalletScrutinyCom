@@ -1,6 +1,6 @@
 ---
 wsId: bitcointrade
-title: 'BitcoinTrade: Criptomoedas'
+title: Ripio Trade
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.peertradedigital.bitcointrade
 appCountry: br
 released: 2017-12-01
-updated: 2023-01-05
-version: 3.11.7
-stars: 3.6
+updated: 2023-09-29
+version: 3.14.2
+stars: 3.3
 ratings: 8304
-reviews: 4756
+reviews: 4831
 size: 
 website: http://www.bitcointrade.com.br
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
 redirect_from: 
+developerName: PeerTrade Digital Ltda
+features: 
 
 ---
 

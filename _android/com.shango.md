@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.shango/
 - /posts/com.shango/
+developerName: 
+features: 
 
 ---
 

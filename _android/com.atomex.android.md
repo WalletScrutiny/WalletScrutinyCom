@@ -27,6 +27,8 @@ reviewArchive:
 twitter: atomex_official
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

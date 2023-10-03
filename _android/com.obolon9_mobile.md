@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.obolon9_mobile
 appCountry: 
-released: Apr 18, 2018
+released: 2018-04-18
 updated: 2021-10-09
 version: 2.1.2
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.obolon9_mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Obolon 9
+features: 
 
 ---
 

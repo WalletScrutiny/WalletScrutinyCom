@@ -8,26 +8,28 @@ users: 10000
 appId: com.bchi.haruinvestapp
 appCountry: us
 released: 2021-08-11
-updated: 2022-12-16
-version: 2.13.0
-stars: 4.7
+updated: 2023-05-22
+version: 5.2.0
+stars: 4.5
 ratings: 277
-reviews: 42
+reviews: 51
 size: 
 website: https://haruinvest.com
 repository: 
 issue: 
 icon: com.bchi.haruinvestapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-11
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest
 redirect_from: 
+developerName: Haru Invest
+features: 
 
 ---
 

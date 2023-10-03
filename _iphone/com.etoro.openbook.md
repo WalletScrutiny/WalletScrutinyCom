@@ -8,11 +8,11 @@ appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
 released: 2017-06-26
-updated: 2023-01-01
-version: 508.0.0
+updated: 2023-09-29
+version: 605.0.0
 stars: 4.2
-reviews: 5400
-size: '181881856'
+reviews: 5799
+size: '186321920'
 website: https://www.etoro.com/en-us/
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
 - https://www.facebook.com/eToro
+features: 
+developerName: eToro
 
 ---
 

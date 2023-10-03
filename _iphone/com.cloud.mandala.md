@@ -11,22 +11,24 @@ released: 2021-02-24
 updated: 2021-07-15
 version: 1.0.1
 stars: 4.1
-reviews: 60
+reviews: 56
 size: '48863232'
 website: https://mandala.exchange
 repository: 
 issue: 
 icon: com.cloud.mandala.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-12-28
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: mandalaex
 social:
 - https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
+features: 
+developerName: Mandala Acquisition
 
 ---
 

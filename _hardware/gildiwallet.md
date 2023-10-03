@@ -28,6 +28,7 @@ reviewArchive:
 twitter: GILDIWallet
 social:
 - https://www.facebook.com/GILDIWallet
+features: 
 
 ---
 

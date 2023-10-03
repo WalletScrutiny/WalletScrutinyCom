@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.thorapp.flutterthor
 appCountry: 
-released: Sep 30, 2021
+released: 2021-09-30
 updated: 2022-08-29
 version: 1.3.9
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.thorapp.flutterthor.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-23
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Thorbot
+features: 
 
 ---
 

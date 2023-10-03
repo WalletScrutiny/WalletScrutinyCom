@@ -8,8 +8,8 @@ users: 100000
 appId: com.tzero
 appCountry: us
 released: 2019-07-24
-updated: 2023-01-13
-version: 2.0.10730
+updated: 2023-01-30
+version: 2.0.10733
 stars: 3.4
 ratings: 322
 reviews: 137
@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.tzero.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: tZERO Crypto
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 5
 appId: io.bitazure.wallet
 appCountry: 
-released: Oct 1, 2020
+released: 2020-10-01
 updated: 2021-07-20
 version: 1.0.1
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: io.bitazure.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BitAzure Blockchain Technology
+features: 
 
 ---
 

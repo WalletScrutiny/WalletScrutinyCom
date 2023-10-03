@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: kr.co.coin.bf.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-02-16
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: fx렌트 fx마진거래 렌트서비스
+features: 
 
 ---
 

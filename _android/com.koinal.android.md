@@ -9,20 +9,20 @@ users: 100000
 appId: com.koinal.android
 appCountry: gb
 released: 2020-06-04
-updated: 2023-01-09
-version: 1.4.8
-stars: 4.7
+updated: 2023-03-31
+version: 1.4.10
+stars: 4.1
 ratings: 1938
-reviews: 28
+reviews: 6
 size: 
 website: https://www.koinal.io
 repository: 
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2021-09-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: koinal_io
@@ -31,6 +31,8 @@ social:
 - https://www.facebook.com/Koinal.io
 redirect_from:
 - /com.koinal.android/
+developerName: SG Veteris
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.daeapp
 appCountry: 
-released: Jan 2, 2021
+released: 2021-01-02
 updated: 2021-09-12
 version: '12.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.daeapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Data Analysis Empire
+features: 
 
 ---
 

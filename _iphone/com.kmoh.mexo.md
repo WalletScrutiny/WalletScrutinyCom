@@ -1,6 +1,6 @@
 ---
 wsId: Mexo
-title: 'TruBit Pro: Crypto Exchange'
+title: TruBit Pro | Buy Crypto Now
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2022-11-19
-version: 3.0.4
+updated: 2023-09-27
+version: 3.3.7
 stars: 4.9
-reviews: 211
-size: '110501888'
+reviews: 146
+size: '149879808'
 website: https://help.trubit.com/en
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio
 - https://www.facebook.com/mexo.io
+features: 
+developerName: TruBit Ltd.
 
 ---
 

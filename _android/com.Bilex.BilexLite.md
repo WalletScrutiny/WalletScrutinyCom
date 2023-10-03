@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.Bilex.BilexLite
 appCountry: 
-released: Apr 29, 2021
+released: 2021-04-29
 updated: 2021-09-06
 version: 2.5.5
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.Bilex.BilexLite.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Bilex
+features: 
 
 ---
 

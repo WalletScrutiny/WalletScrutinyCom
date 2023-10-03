@@ -27,6 +27,8 @@ twitter: BiKiEnglish
 social:
 - https://www.facebook.com/bikiexchange
 - https://www.reddit.com/r/BiKi
+features: 
+developerName: 
 
 ---
 

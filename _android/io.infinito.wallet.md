@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-03-30
+date: 2023-09-02
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd
@@ -31,6 +31,8 @@ social:
 redirect_from:
 - /io.infinito.wallet/
 - /posts/io.infinito.wallet/
+developerName: INFINITO SOLUTIONS PTE. LTD.
+features: 
 
 ---
 

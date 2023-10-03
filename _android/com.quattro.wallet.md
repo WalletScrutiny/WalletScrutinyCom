@@ -3,10 +3,10 @@ wsId:
 title: QWallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.quattro.wallet
 appCountry: 
-released: Jul 12, 2021
+released: 2021-07-12
 updated: 2021-07-12
 version: 0.21.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.quattro.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Febitak
+features: 
 
 ---
 

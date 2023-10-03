@@ -28,6 +28,8 @@ twitter: QuantDART
 social:
 - https://www.facebook.com/quantdart
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

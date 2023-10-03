@@ -6,26 +6,28 @@ authors:
 users: 100
 appId: com.firstunion.uncwallet
 appCountry: 
-released: Apr 14, 2021
+released: 2021-04-14
 updated: 2021-07-05
 version: 1.1.5
-stars: 5
+stars: 
 ratings: 
-reviews: 7
+reviews: 
 size: 
 website: https://first-union.com
 repository: 
 issue: 
 icon: com.firstunion.uncwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-01
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: FIRST UNION CAPITAL LTD.
+features: 
 
 ---
 

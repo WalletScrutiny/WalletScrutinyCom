@@ -7,12 +7,12 @@ authors:
 appId: com.flashratings.hodl
 appCountry: us
 idd: '1253668876'
-released: '2017-08-01T23:45:42Z'
-updated: 2022-12-16
-version: '8.42'
+released: 2017-08-01
+updated: 2023-09-18
+version: '9.11'
 stars: 4.8
-reviews: 34376
-size: '61426688'
+reviews: 34617
+size: '63319040'
 website: https://www.hodl.mobi
 repository: 
 issue: 
@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: HODL Media Inc.
 
 ---
 

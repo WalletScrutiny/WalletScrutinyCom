@@ -1,6 +1,6 @@
 ---
 wsId: Raido
-title: 'Multifunctional crypto wallet '
+title: Crypto wallet - Raido
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.raido_wallet
 appCountry: us
 released: 2020-07-27
-updated: 2022-12-21
-version: 3.4.0
+updated: 2023-09-21
+version: 3.9.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: financialraido
 social: 
 redirect_from: 
+developerName: Raido Exchange
+features: 
 
 ---
 

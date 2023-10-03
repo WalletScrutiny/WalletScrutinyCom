@@ -1,6 +1,6 @@
 ---
 wsId: bytehub
-title: ByteHub - Multiple Cryptocurre
+title: ByteHub
 altTitle: 
 authors:
 - danny
@@ -12,22 +12,24 @@ updated: 2021-09-09
 version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
-reviews: 1308
+reviews: 1302
 size: 
 website: https://www.bytetrade.io/
 repository: 
 issue: 
 icon: com.bytetrade.bytehub.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-11-02
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP
 redirect_from: 
+developerName: Bytetrade
+features: 
 
 ---
 

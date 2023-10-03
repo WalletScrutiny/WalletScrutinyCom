@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-06
 updated: 2022-10-17
 version: 1.0.103
-stars: 4.1
+stars: 4
 ratings: 22040
-reviews: 4585
+reviews: 4595
 size: 
 website: http://pro.coinbase.com/
 repository: 
@@ -30,6 +30,8 @@ social:
 redirect_from:
 - /com.coinbase.pro/
 - /posts/com.coinbase.pro/
+developerName: Coinbase Android
+features: 
 
 ---
 

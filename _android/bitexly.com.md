@@ -3,7 +3,7 @@ wsId:
 title: Bitexly
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: bitexly.com
 appCountry: 
 released: 2020-05-09
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: UCOM Technologies
+features: 
 
 ---
 

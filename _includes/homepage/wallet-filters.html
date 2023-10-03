@@ -1,0 +1,33 @@
+<script>window.isHomepage=true;</script>
+<div class="filter" id="homepageSearch">
+  <div title="Search selected wallets" class="landing-page-search-container">
+      <script>window.full_wallet_count=`{% include /homepage/full_wallet_count.html %}`</script>
+    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews..." spellcheck="false" />
+  </div>
+  <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
+    <i class="fas fa-filter"></i>
+  </div>
+  <div title="Platform" class="component component-platform">
+    <div class="dropdown-options dropdown-platform">
+      <div class="option allPlatforms selected" data="allPlatforms" data-name="All Platforms"><span>All Platforms</span></div>
+      {% for p in site.data.platformMeta %}
+        {% assign folder = p[0] %}
+        {% include folderToName.html folder=folder %}
+        <div class="option {{p[0]}}" data="{{p[0]}}" data-name="{{name}}"><span>{{name}}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="wallet-placeholder"></div>
+<script>
+  function filtersToggle(self){
+    if(self.parentNode.classList.contains('filters-visible')){
+    self.parentNode.classList.remove('filters-visible')
+    return
+    }
+    self.parentNode.classList.add('filters-visible')
+  }
+</script>

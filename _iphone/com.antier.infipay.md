@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: com.antier.infipay.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-04-05
+date: 2023-03-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: Antier Solutions Private Limited
 
 ---
 

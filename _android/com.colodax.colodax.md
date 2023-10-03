@@ -1,6 +1,6 @@
 ---
 wsId: Colodax
-title: Colodax - Bitcoin & Cryptocurr
+title: Colodax - Bitcoin Exchange
 altTitle: 
 authors:
 - danny
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-11-02
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: colodax
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/colodax
 - https://www.facebook.com/colodax
 redirect_from: 
+developerName: Ganyt Solutions
+features: 
 
 ---
 

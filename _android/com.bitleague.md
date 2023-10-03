@@ -12,16 +12,16 @@ updated: 2021-05-14
 version: 2.15.2
 stars: 4.6
 ratings: 246
-reviews: 139
+reviews: 138
 size: 
 website: https://www.bitleague.com
 repository: 
 issue: 
 icon: com.bitleague.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-05-10
+date: 2023-05-04
 signer: 
 reviewArchive: 
 twitter: BitLeague_Group
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
 redirect_from: 
+developerName: BITLEAGUE LLC
+features: 
 
 ---
 

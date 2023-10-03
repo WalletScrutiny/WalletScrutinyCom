@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.mushino
 appCountry: 
-released: Jul 1, 2020
+released: 2020-07-01
 updated: 2021-07-05
 version: 1.0.83
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: org.mushino.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2022-07-01
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Everstrike
+features: 
 
 ---
 

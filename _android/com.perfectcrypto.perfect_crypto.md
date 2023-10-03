@@ -12,21 +12,23 @@ updated: 2022-01-25
 version: 1.1.6
 stars: 4.6
 ratings: 809
-reviews: 34
+reviews: 29
 size: 
 website: https://perfectcrypto.net/
 repository: 
 issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-09-30
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: irPerfectCrypto
 social: 
 redirect_from: 
+developerName: Perfect Crypto
+features: 
 
 ---
 

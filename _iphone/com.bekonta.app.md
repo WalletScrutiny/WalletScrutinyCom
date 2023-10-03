@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.bekonta.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-10-21
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/bekonta
 - https://www.facebook.com/bekontahq
+features: 
+developerName: Bitpeza Technology Limited
 
 ---
 

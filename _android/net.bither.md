@@ -7,11 +7,11 @@ users: 50000
 appId: net.bither
 appCountry: 
 released: 2014-02-27
-updated: 2022-12-08
-version: 2.0.8
+updated: 2023-09-25
+version: 2.1.0
 stars: 4.2
 ratings: 335
-reviews: 30
+reviews: 31
 size: 
 website: http://Bither.net
 repository: https://github.com/bither/bither-android
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: getcai
+features: 
 
 ---
 

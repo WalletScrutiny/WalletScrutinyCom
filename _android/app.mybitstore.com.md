@@ -4,15 +4,15 @@ title: Mybitstore - Buy & Sell BTC
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: app.mybitstore.com
 appCountry: 
 released: 2021-08-12
-updated: 2023-01-08
-version: 6.3.0
-stars: 4.3
+updated: 2023-09-20
+version: 6.7.0
+stars: 4.1
 ratings: 20
-reviews: 5
+reviews: 7
 size: 
 website: https://mybitstore.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://instagram.com/mybitstore_app/
 - https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw
 redirect_from: 
+developerName: Mybitstore - Buy & Sell BTC
+features: 
 
 ---
 

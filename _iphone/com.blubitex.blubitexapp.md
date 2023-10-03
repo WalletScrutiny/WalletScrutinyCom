@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.blubitex.blubitexapp.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-09-15
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: blubitex
 social:
 - https://www.facebook.com/blubitexofficial
+features: 
+developerName: BLUBITEX LIMITED
 
 ---
 

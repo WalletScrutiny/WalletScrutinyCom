@@ -27,6 +27,8 @@ twitter: hagglexintl
 social:
 - https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
+features: 
+developerName: 
 
 ---
 

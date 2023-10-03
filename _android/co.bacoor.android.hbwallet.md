@@ -12,21 +12,23 @@ updated: 2022-06-13
 version: 3.6.0
 stars: 4.5
 ratings: 2137
-reviews: 47
+reviews: 48
 size: 
 website: https://www.hb-wallet.com/
 repository: 
 issue: 
 icon: co.bacoor.android.hbwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-03
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: HBWallet_Ether
 social: 
 redirect_from: 
+developerName: bacoor inc.
+features: 
 
 ---
 

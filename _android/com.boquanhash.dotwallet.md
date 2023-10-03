@@ -27,6 +27,8 @@ reviewArchive:
 twitter: wallet_dot
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

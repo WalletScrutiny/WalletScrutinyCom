@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.silenca.expresswallet
 appCountry: 
-released: May 14, 2020
+released: 2020-05-14
 updated: 2020-05-14
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.silenca.expresswallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Learn & Solve
+features: 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'SimpleFX Trade 24/7 on Global '
+title: 'SimpleFX: Crypto Trading App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.simplefx.app
 appCountry: 
 released: 2017-12-18
-updated: 2022-08-08
-version: 2.1.203.0
-stars: 4.2
+updated: 2023-09-07
+version: 2.2.17
+stars: 3.9
 ratings: 291
-reviews: 6
+reviews: 7
 size: 
 website: https://simplefx.com
 repository: 
@@ -28,6 +28,8 @@ twitter: SimpleFXcom
 social:
 - https://www.facebook.com/simplefxltd
 redirect_from: 
+developerName: SimpleFX Ltd.
+features: 
 
 ---
 

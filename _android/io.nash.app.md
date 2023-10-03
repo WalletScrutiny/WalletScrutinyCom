@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: 'Nash: Spend, save & invest'
+title: Nash
 altTitle: 
 authors:
 - kiwilamb
@@ -8,8 +8,8 @@ users: 10000
 appId: io.nash.app
 appCountry: 
 released: 2019-08-31
-updated: 2023-01-11
-version: 14.0.2
+updated: 2023-09-29
+version: 15.0.3
 stars: 4.6
 ratings: 646
 reviews: 25
@@ -28,6 +28,8 @@ twitter: nashsocial
 social:
 - https://www.linkedin.com/company/nashsocial
 redirect_from: 
+developerName: nash.io
+features: 
 
 ---
 

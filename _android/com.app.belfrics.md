@@ -19,15 +19,17 @@ repository:
 issue: 
 icon: com.app.belfrics.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-15
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: Belfrics
 social:
 - https://www.facebook.com/Belfrics
 redirect_from: 
+developerName: Belfrics Holding Ltd
+features: 
 
 ---
 

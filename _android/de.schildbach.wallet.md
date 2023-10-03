@@ -8,11 +8,11 @@ users: 5000000
 appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
-updated: 2022-12-18
+updated: 2023-09-05
 version: VARY
-stars: 4.1
+stars: 4
 ratings: 29247
-reviews: 1797
+reviews: 1912
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -21,9 +21,19 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2022-12-12
+date: 2023-09-24
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2023-04-26
+  version: '10.03'
+  appHash: 66ebf8572371ad5f2567108b555f5f01e657e5d6bf4cd55624d43b3c319ac65f
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
+- date: 2022-12-12
+  version: '9.23'
+  appHash: 0ea97bf63ceff167b1d2a701b94c569c251b00cc1b06e98f02384e10493e202b
+  gitRevision: 586b1cca72f430730f290fe8f878fdc9881cdcc3
+  verdict: reproducible
 - date: 2022-11-01
   version: '9.03'
   appHash: 3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58
@@ -166,6 +176,8 @@ redirect_from:
 - /de.schildbach.wallet/
 - /posts/2019/10/schildbach/
 - /posts/de.schildbach.wallet/
+developerName: Bitcoin Wallet developers
+features: 
 
 ---
 
@@ -175,26 +187,25 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 9.23
-apkVersionCode: 923
+apkVersionName: 10.06
+apkVersionCode: 100600
 verdict:        reproducible
-appHash:        0ea97bf63ceff167b1d2a701b94c569c251b00cc1b06e98f02384e10493e202b
-commit:         586b1cca72f430730f290fe8f878fdc9881cdcc3
+appHash:        c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc
+commit:         12491cefdab2b6e8343d9205048bcfdffca76687
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_923/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_923/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_923/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_923/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_100600/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100600/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 586b1cca72f430730f290fe8f878fdc9881cdcc3
+object 12491cefdab2b6e8343d9205048bcfdffca76687
 type commit
-tag v9.23
-tagger Andreas Schildbach <andreas@schildbach.de> 1666196489 +0200
+tag v10.06
+tagger Andreas Schildbach <andreas@schildbach.de> 1693829519 +0200
 
-9.23 release
+10.06 release
 ===== End Results =====
-
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.

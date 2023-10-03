@@ -9,24 +9,26 @@ appCountry:
 released: 2020-07-03
 updated: 2020-07-03
 version: 1.0.0
-stars: 1.1
+stars: 1
 ratings: 131
-reviews: 8
+reviews: 7
 size: 
 website: https://neobitcoin.org/
 repository: 
 issue: 
 icon: com.neobitcoin.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nobtc
-date: 2022-07-01
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
 - /com.neobitcoin.wallet/
+developerName: Neobitcoin
+features: 
 
 ---
 

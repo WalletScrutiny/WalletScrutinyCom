@@ -30,6 +30,7 @@ twitter: BitCubeWallet
 social:
 - https://www.facebook.com/bitcubewallet
 - https://www.youtube.com/channel/UCLF5Z0YlRoYq_9NdNe9J8Yw
+features: 
 
 ---
 

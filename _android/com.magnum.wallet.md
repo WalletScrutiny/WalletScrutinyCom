@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-23
 updated: 2019-08-29
 version: 1.0.12
-stars: 4.1
+stars: 4
 ratings: 232
 reviews: 15
 size: 
@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /com.magnum.wallet/
 - /posts/com.magnum.wallet/
+developerName: Magnum Wallet
+features: 
 
 ---
 

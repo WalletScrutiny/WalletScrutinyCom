@@ -6,9 +6,9 @@ authors:
 users: 10
 appId: com.zenapay.merchant
 appCountry: 
-released: Jan 2, 2018
-updated: 2022-12-05
-version: 1.0.4
+released: 2018-01-02
+updated: 2023-08-16
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Epazz
+features: 
 
 ---
 

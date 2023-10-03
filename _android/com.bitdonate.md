@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.bitdonate
 appCountry: 
-released: Apr 28, 2021
+released: 2021-04-28
 updated: 2021-07-26
 version: '2.1'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bitdonate.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: BitDonate LLC
+features: 
 
 ---
 

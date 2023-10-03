@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.rpm.market
 appCountry: 
-released: Apr 20, 2021
+released: 2021-04-20
 updated: 2021-06-15
 version: 0.0.6
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.rpm.market.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-06-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: RPM. Market
+features: 
 
 ---
 

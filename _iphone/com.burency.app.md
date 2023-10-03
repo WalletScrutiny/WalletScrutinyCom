@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/burencyofficial
 - https://www.facebook.com/BurencyOfficial
 - https://www.reddit.com/r/Burency
+features: 
+developerName: 
 
 ---
 

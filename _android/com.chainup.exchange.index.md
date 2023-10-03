@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.chainup.exchange.index
 appCountry: 
-released: May 23, 2020
+released: 2020-05-23
 updated: 2020-05-25
 version: 4.4.7
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.chainup.exchange.index.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: G1store
+features: 
 
 ---
 

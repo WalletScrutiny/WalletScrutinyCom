@@ -10,21 +10,23 @@ idd: 1453374447
 released: 2019-02-24
 updated: 2022-06-28
 version: 1.5.0
-stars: 3.9
-reviews: 13
+stars: 3.8
+reviews: 12
 size: '134195200'
 website: https://hebe.cc
 repository: 
 issue: 
 icon: com.hebeblock.hebewallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-01-10
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: BlockHebe
 social: 
+features: 
+developerName: Hebeblock Co., Ltd.
 
 ---
 

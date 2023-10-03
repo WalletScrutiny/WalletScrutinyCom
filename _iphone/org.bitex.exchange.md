@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: org.bitex.exchange.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-04
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide
 - https://www.facebook.com/Bitexofficial
+features: 
+developerName: Trade Bit Commercial Brokers LLC
 
 ---
 

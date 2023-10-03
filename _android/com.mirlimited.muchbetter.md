@@ -8,11 +8,11 @@ users: 1000000
 appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
-updated: 2022-12-15
-version: 3.10.0
-stars: 3.5
+updated: 2023-09-15
+version: 4.4.0
+stars: 3.2
 ratings: 10117
-reviews: 139
+reviews: 150
 size: 
 website: https://www.muchbetter.com
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/mir-muchbetter
 - https://www.facebook.com/paymuchbetter
 redirect_from: 
+developerName: Mir Limited
+features: 
 
 ---
 

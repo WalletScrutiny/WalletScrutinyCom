@@ -15,20 +15,26 @@ providerWebsite:
 website: https://cryptnox.com/
 shop: https://shop.cryptnox.com/
 country: CH
-price: 19CHF
+price: 49CHF
 repository: https://github.com/Cryptnox-Software/cryptnoxpro
 issue: 
 icon: cryptnox.bg1card.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-04-29
+date: 2022-11-26
 signer: 
 reviewArchive: 
 twitter: cryptnox
 social: 
+features: 
 
 ---
+
+## Updated Review 2022-11-26
+
+- Changed price to reflect price changes on the website
+- Added the companion app {% include walletLink.html wallet='iphone/com.cryptnox.companion' verdict='true' %}
 
 ## Background 
 

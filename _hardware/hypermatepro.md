@@ -33,6 +33,7 @@ reviewArchive:
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bitoket.app
 appCountry: 
-released: Oct 10, 2021
+released: 2021-10-10
 updated: 2022-08-16
 version: 1.7.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.bitoket.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: InfinityChain
+features: 
 
 ---
 

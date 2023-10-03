@@ -8,11 +8,11 @@ users: 50000
 appId: com.dextrade.android
 appCountry: us
 released: 2019-07-03
-updated: 2022-12-30
-version: 1.2.6
+updated: 2023-05-10
+version: 1.3.0
 stars: 3.3
 ratings: 218
-reviews: 20
+reviews: 21
 size: 
 website: https://dex-trade.com
 repository: 
@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/dex-trade-exchange
 - https://www.facebook.com/DexTradeExchange
 redirect_from: 
+developerName: Dex-Trade
+features: 
 
 ---
 

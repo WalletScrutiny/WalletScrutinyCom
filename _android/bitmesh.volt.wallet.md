@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: bitmesh.volt.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-11-11
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Voltfinance
 social: 
 redirect_from: 
+developerName: Volt Wallet
+features: 
 
 ---
 

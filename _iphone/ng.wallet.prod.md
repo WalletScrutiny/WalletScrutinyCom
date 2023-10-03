@@ -12,22 +12,24 @@ idd: 1280830303
 released: 2017-10-14
 updated: 2021-09-04
 version: '2.480'
-stars: 3.6
-reviews: 162
+stars: 3.4
+reviews: 168
 size: '63362048'
 website: http://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2022-12-28
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica
+features: 
+developerName: Enterprise Wallet Payments Limited
 
 ---
 

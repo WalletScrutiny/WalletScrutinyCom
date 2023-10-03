@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.melis.testwallet
 appCountry: 
-released: May 5, 2017
+released: 2017-05-05
 updated: 2021-11-05
 version: 1.7.1
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: io.melis.testwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Melis
+features: 
 
 ---
 

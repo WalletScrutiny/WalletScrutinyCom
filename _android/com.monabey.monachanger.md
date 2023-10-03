@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.monabey.monachanger
 appCountry: 
-released: Sep 1, 2020
+released: 2020-09-01
 updated: 2020-09-16
 version: '2.2'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.monabey.monachanger.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Monabey
+features: 
 
 ---
 

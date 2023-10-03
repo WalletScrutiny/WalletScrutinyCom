@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

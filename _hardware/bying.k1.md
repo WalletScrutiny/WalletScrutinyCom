@@ -24,7 +24,7 @@ issue:
 icon: bying.k1.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-05-18
 signer: 
 reviewArchive: 
@@ -33,6 +33,7 @@ social:
 - >-
   https://weibo.com/p/1006066414521474/home?from=page_100606&mod=TAB&is_all=1#place
 - https://t.me/Byingofficial
+features: 
 
 ---
 

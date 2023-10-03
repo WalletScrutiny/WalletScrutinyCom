@@ -3,7 +3,7 @@ wsId:
 title: ICTE Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.icte.io
 appCountry: 
 released: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.icte.io.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-23
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: ICTE
+features: 
 
 ---
 

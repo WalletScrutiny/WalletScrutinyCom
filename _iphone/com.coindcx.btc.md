@@ -27,6 +27,8 @@ twitter: coindcx
 social:
 - https://www.linkedin.com/company/coindcx
 - https://www.facebook.com/CoinDCX
+features: 
+developerName: 
 
 ---
 

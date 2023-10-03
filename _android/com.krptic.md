@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.krptic
 appCountry: 
-released: Aug 13, 2021
+released: 2021-08-13
 updated: 2022-09-04
 version: 4.0.4
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.krptic.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Finnovant
+features: 
 
 ---
 

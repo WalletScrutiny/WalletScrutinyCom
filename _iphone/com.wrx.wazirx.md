@@ -1,17 +1,17 @@
 ---
 wsId: wazirx
-title: 'WazirX: Buy Bitcoin & Crypto'
+title: 'WazirX: Buy BTC & Trade Crypto'
 altTitle: 
 authors: 
 appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2023-01-10
-version: 1.26.1
+updated: 2023-09-02
+version: '1.31'
 stars: 4.2
-reviews: 47590
-size: '53696512'
+reviews: 48928
+size: '56205312'
 website: https://wazirx.com
 repository: 
 issue: 
@@ -26,6 +26,8 @@ twitter: WazirxIndia
 social:
 - https://www.linkedin.com/company/wazirx
 - https://www.facebook.com/wazirx
+features: 
+developerName: Zanmai Labs Private Limited
 
 ---
 

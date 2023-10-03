@@ -1,0 +1,35 @@
+---
+wsId: finxWalletAndCard
+title: FINX Wallet & Card
+altTitle: 
+authors:
+- danny
+appId: global.finx.FINX
+appCountry: us
+idd: '1630170538'
+released: 2022-10-11
+updated: 2023-02-21
+version: 0.4.7
+stars: 5
+reviews: 1
+size: '59725824'
+website: https://www.finx.global/
+repository: 
+issue: 
+icon: global.finx.FINX.jpg
+bugbounty: 
+meta: ok
+verdict: nobtc
+date: 2023-09-05
+signer: 
+reviewArchive: 
+twitter: FINXSupport
+social:
+- https://medium.com/@FINXGlobal
+- https://discord.com/invite/finxglobal
+features: 
+developerName: FINX
+
+---
+
+{% include copyFromAndroid.html %}

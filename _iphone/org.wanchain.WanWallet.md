@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-30
+date: 2023-07-28
 signer: 
 reviewArchive: 
 twitter: wanchain_org
@@ -28,6 +28,8 @@ social:
 - https://www.facebook.com/wanchainfoundation
 - https://www.reddit.com/r/wanchain
 - https://github.com/wanchain
+features: 
+developerName: Wanchain LTD
 
 ---
 

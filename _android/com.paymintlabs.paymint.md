@@ -28,6 +28,8 @@ twitter: paymint_wallet
 social: 
 redirect_from:
 - /com.paymintlabs.paymint/
+developerName: Paymint Labs
+features: 
 
 ---
 

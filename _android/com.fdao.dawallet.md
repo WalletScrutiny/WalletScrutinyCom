@@ -3,7 +3,7 @@ wsId:
 title: DAO Wallet Bitcoin-Crypto Fiat
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.fdao.dawallet
 appCountry: 
 released: 2021-07-28
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.fdao.dawallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: DAO GROUP., JSC
+features: 
 
 ---
 

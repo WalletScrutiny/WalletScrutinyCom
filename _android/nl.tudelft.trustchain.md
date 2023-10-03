@@ -7,7 +7,7 @@ users: 100
 appId: nl.tudelft.trustchain
 appCountry: 
 released: 
-updated: 2022-10-14
+updated: 2023-09-03
 version: VARY
 stars: 
 ratings: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: 'TUDelft: Delft University of Technology'
+features: 
 
 ---
 

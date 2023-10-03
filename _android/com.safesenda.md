@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.safesenda
 appCountry: 
-released: Mar 11, 2022
+released: 2022-03-11
 updated: 2022-08-16
 version: 1.1.10
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.safesenda.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-07-31
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Safesenda App
+features: 
 
 ---
 

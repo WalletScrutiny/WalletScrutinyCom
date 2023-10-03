@@ -17,13 +17,15 @@ repository:
 issue: 
 icon: jp.coincheck.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2021-08-19
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: 
 
 ---
 

@@ -27,6 +27,8 @@ twitter:
 social:
 - https://www.linkedin.com/company/fondex-trading
 - https://www.facebook.com/fondexglobal
+features: 
+developerName: TopFX
 
 ---
 

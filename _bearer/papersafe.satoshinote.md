@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.bitrated.com/BG4
+features: 
 
 ---
 

@@ -28,6 +28,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/icoin-technology/
+features: 
 
 ---
 

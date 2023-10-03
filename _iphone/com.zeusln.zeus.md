@@ -7,11 +7,11 @@ appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
-updated: 2023-01-04
-version: v0.7.1
-stars: 4.6
-reviews: 26
-size: '57693184'
+updated: 2023-07-31
+version: v0.7.7
+stars: 4.8
+reviews: 41
+size: '62602240'
 website: https://ZeusLN.app
 repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
@@ -24,6 +24,9 @@ signer:
 reviewArchive: 
 twitter: ZeusLN
 social: 
+features:
+- ln
+developerName: Zeus LN LLC
 
 ---
 

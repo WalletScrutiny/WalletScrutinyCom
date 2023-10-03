@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.blockcloud.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-02-12
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Block Cloud
+features: 
 
 ---
 

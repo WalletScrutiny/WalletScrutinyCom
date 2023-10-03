@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: co.digitalmoney.dmapp.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-11-22
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Digital Money Ltd
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.boala
 appCountry: 
-released: Jul 6, 2021
+released: 2021-07-06
 updated: 2021-07-06
 version: '1.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.boala.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-07-01
+date: 2023-07-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: AladiEx Global Holdings Limited
+features: 
 
 ---
 

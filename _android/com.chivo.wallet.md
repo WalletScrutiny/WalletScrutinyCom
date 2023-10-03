@@ -9,11 +9,11 @@ users: 1000000
 appId: com.chivo.wallet
 appCountry: sv
 released: 2021-09-06
-updated: 2022-08-23
-version: 2.2.0
-stars: 3.4
+updated: 2023-06-21
+version: 2.4.1
+stars: 3.2
 ratings: 27085
-reviews: 13099
+reviews: 13533
 size: 
 website: https://chivowallet.com
 repository: 
@@ -34,6 +34,8 @@ twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
 redirect_from: 
+developerName: Gobierno de El Salvador
+features: 
 
 ---
 

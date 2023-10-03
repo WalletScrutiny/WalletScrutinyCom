@@ -26,6 +26,8 @@ signer:
 reviewArchive: 
 twitter: cryptofully
 social: 
+features: 
+developerName: 
 
 ---
 

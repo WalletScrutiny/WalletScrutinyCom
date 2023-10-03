@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.coinizie.com.co
 appCountry: 
-released: Sep 11, 2020
+released: 2020-09-11
 updated: 2020-09-11
 version: '9.0'
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.coinizie.com.co.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Coinizie
+features: 
 
 ---
 

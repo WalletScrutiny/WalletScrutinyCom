@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-02-09
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
+features: 
+developerName: Klimatas B.V.
 
 ---
 

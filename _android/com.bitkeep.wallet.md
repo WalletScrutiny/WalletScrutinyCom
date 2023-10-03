@@ -1,18 +1,18 @@
 ---
 wsId: bitkeep
-title: 'BitKeep: Defi Crypto Wallet'
+title: Bitget Wallet, BitKeep Upgrade
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
-updated: 2022-12-30
-version: 7.2.9
-stars: 4.5
+updated: 2023-09-26
+version: 8.3.1
+stars: 4.2
 ratings: 3949
-reviews: 435
+reviews: 530
 size: 
 website: https://bitkeep.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://github.com/bitkeepcom
 redirect_from:
 - /com.bitkeep.wallet/
+developerName: Bitget Wallet
+features: 
 
 ---
 

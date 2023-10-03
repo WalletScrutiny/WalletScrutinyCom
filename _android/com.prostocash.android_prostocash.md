@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-07-01
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: DVSOFT PTE LTD
+features: 
 
 ---
 

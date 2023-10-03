@@ -1,6 +1,6 @@
 ---
 wsId: OGPay
-title: OGPay
+title: OGPay Business
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.ogpay
 appCountry: us
 released: 2019-07-31
-updated: 2022-12-14
+updated: 2023-09-20
 version: VARY
-stars: 4.6
+stars: 4.5
 ratings: 42
-reviews: 85
+reviews: 33
 size: 
 website: https://www.ogpaywallet.com
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Original Digital Corporation
+features: 
 
 ---
 

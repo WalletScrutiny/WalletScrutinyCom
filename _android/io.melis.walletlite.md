@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /io.melis.walletlite/
 - /posts/io.melis.walletlite/
+developerName: Melis
+features: 
 
 ---
 

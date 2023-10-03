@@ -1,5 +1,5 @@
 ---
-wsId: Bibox
+wsId: 
 title: Bibox:Bitcoin, Crypto Exchange
 altTitle: 
 authors:
@@ -30,8 +30,13 @@ social:
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
 redirect_from: 
+developerName: 
+features: 
 
 ---
+
+**Update 2023-07-06**: The app is available once more. However, this was last updated in 2021. The newer {% include walletLink.html wallet='android/com.box.pro' verdict='true' %} is the one linked to from the Bibox website.
+
 
 **Update 2022-01-28**: This app is not in store anymore.
 
@@ -41,9 +46,9 @@ From its Google Play description:
 
 Our initial assessment indicates that this is a centralized exchange.
 
-We downloaded the app and found that it is possible to send and receive BTC. However, you are not provided with the keys to the wallet. 
+We downloaded the app and found that it is possible to send and receive BTC. However, you are not provided with the keys to the wallet.
 
-We emailed [Bibox support](support@bibox.zendesk.com) to further validate our findings. 
+We emailed [Bibox support](support@bibox.zendesk.com) to further validate our findings.
 
 Until such time that new information arises, and with no mention of self-custody, it's presumable that this app is **custodial** and **not verifiable.**
 

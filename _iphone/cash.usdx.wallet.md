@@ -27,6 +27,8 @@ twitter: USDXwallet
 social:
 - https://www.facebook.com/USDXwallet
 - https://www.reddit.com/r/USDXwallet
+features: 
+developerName: 
 
 ---
 

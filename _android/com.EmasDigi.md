@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pluang–Crypto, US Stocks, Gold
+title: Pluang-Trading US Stock Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2023-01-05
-version: 5.2.4
+updated: 2023-09-08
+version: 5.5.0
 stars: 4
 ratings: 27168
-reviews: 99
+reviews: 101
 size: 
 website: https://pluang.com
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: pluang
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 users: 1
 appId: com.ckgdesigns.com.bitlord_us
 appCountry: 
-released: Sep 26, 2019
+released: 2019-09-26
 updated: 2019-09-27
 version: 1.0.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.ckgdesigns.com.bitlord_us.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Store of Value
+features: 
 
 ---
 

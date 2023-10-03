@@ -28,6 +28,8 @@ twitter: TradingduCoin
 social:
 - https://www.facebook.com/TradingduCoin
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

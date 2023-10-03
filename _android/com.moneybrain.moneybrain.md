@@ -8,8 +8,8 @@ users: 1000
 appId: com.moneybrain.moneybrain
 appCountry: gb
 released: 2019-10-17
-updated: 2022-12-13
-version: 2.3.30
+updated: 2023-08-03
+version: 2.3.40
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: MoneybrainBiPS
 social: 
 redirect_from: 
+developerName: Moneybrain LTD
+features: 
 
 ---
 

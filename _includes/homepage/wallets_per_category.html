@@ -1,0 +1,22 @@
+{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
+{%- include /homepage/full_wallet_count.html raw='true' -%}
+  
+  {%- for verdict_group in site.data.verdictGroups -%}
+  {%- assign total = 0 -%}
+  <div class="statistic-tile">
+    <div class="data">
+      {%- assign verdicts = verdict_group.verdicts -%}
+      {%- assign metas = verdict_group.metas -%}
+      {%- assign total = products | where_exp: "p", "metas contains p.meta or verdicts contains p.verdict" | size -%}
+      {%- assign denomValue = products.size -%}
+      <h2>
+        <div class="pie" style="background-image: conic-gradient(var(--accent) 0% calc(({{total}} / {{denomValue}}) * 100%), transparent calc(({{total}} / {{denomValue}}) * 100%) 100%), conic-gradient(var(--accent) 0% calc({{fullCount}} * .0001%), transparent calc({{fullCount}} * .0001%) 100%)"></div> {{ total | thousands_separated }}
+        <small>of {{denomValue | thousands_separated}} wallets</small>
+      </h2>
+      <p>{{ verdict_group.title }}</p>
+
+      <div class="small">{{verdict_group.comment | markdownify}}</div>
+
+    </div>
+  </div>
+{%- endfor -%}

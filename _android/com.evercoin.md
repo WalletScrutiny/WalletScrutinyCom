@@ -28,6 +28,8 @@ twitter: everc0in
 social:
 - https://www.facebook.com/evercoin
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

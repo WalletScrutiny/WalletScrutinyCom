@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: BLNS Ltd
+features: 
 
 ---
 

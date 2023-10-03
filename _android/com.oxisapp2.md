@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.oxisapp2
 appCountry: 
-released: Jun 17, 2021
+released: 2021-06-17
 updated: 2021-06-24
 version: 4.1.0
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.oxisapp2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-06-22
+date: 2023-06-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Digital Assets Corporation
+features: 
 
 ---
 

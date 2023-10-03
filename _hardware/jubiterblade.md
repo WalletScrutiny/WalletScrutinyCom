@@ -34,6 +34,7 @@ social:
 - https://www.linkedin.com/company/jubiter-wallet
 - https://www.facebook.com/JuBiterWallet
 - https://github.com/JubiterWallet
+features: 
 
 ---
 

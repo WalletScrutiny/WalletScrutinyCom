@@ -1,43 +1,43 @@
 {% if page.website %}
 <li
-  title='Product website'>
-  <a href="{{ page.website }}" class="link-web">
+ >
+  <a href="{{ page.website }}" class="link-web" title='Product website'>
     <i class="fas fa-globe"></i>
   </a>
 </li>
 {% endif %}
 {% if page.shop %}
 <li
-  title='Provider shop'>
-  <a href="{{ page.shop }}" class="link-web">
+ >
+  <a href="{{ page.shop }}" class="link-web" title='Provider shop'>
     <i class="fas fa-shopping-cart"></i>
   </a>
 </li>
 {% endif %}
 {% if page.binaries %}
-<li title='Binaries'>
-  <a href="{{ page.binaries }}" class="link-web">
+<li>
+  <a href="{{ page.binaries }}" class="link-web" title='Binaries'>
     <i class="fa fa-file-archive"></i>
   </a>
 </li>
 {% endif %}
 {% if page.repository %}
-<li title='Source repository'>
-  <a href="{{ page.repository }}" class="link-github">
+<li>
+  <a href="{{ page.repository }}" class="link-github" title='Source repository'>
     <i class="fa fa-file-code"></i>
   </a>
 </li>
 {% endif %}
 {% if page.issue %}
-<li title='Issue on source repository'>
-  <a href="{{ page.issue }}" class="link-bug">
+<li>
+  <a href="{{ page.issue }}" class="link-bug" title='Issue on source repository'>
     <i class="fa fa-bug" aria-hidden="true"></i>
   </a>
 </li>
 {% endif %}
 {% if page.twitter %}
-<li title='Provider Twitter profile'>
-  <a href="https://twitter.com/{{ page.twitter }}" class="link-twitter">
+<li>
+  <a href="https://twitter.com/{{ page.twitter }}" class="link-twitter" title='Provider Twitter profile'>
     <i class="fab fa-twitter"></i>
   </a>
 </li>
@@ -45,7 +45,35 @@
 {% for s in page.social %}
 <li>
   <a href="{{ s }}" class="link-web">
-    <i class="fas fa-globe"></i>
+    {% if s contains "mailto:" %}
+      {% assign fa = "fas fa-envelope" %}
+    {% else %}
+      {% assign domain = s | split: '/' | slice: 2 | join: "" | split: "." | slice: -2 | join: "" %}
+      {% case domain %}
+        {% when "bitcointalk" %}{% assign fa = "fab fa-bitcoin" %}
+        {% when "discord"     %}{% assign fa = "fab fa-discord" %}
+        {% when "facebook"    %}{% assign fa = "fab fa-facebook" %}
+        {% when "github"      %}{% assign fa = "fab fa-github" %}
+        {% when "google"      %}{% assign fa = "fab fa-google" %}
+        {% when "instagram"   %}{% assign fa = "fab fa-instagram" %}
+        {% when "keybase"     %}{% assign fa = "fab fa-keybase" %}
+        {% when "linkedin"    %}{% assign fa = "fab fa-linkedin" %}
+        {% when "medium"      %}{% assign fa = "fab fa-medium" %}
+        {% when "pinterest"   %}{% assign fa = "fab fa-pinterest" %}
+        {% when "reddit"      %}{% assign fa = "fab fa-reddit" %}
+        {% when "slack"       %}{% assign fa = "fab fa-slack" %}
+        {% when "t"           %}{% assign fa = "fab fa-telegram" %}
+        {% when "tiktok"      %}{% assign fa = "fab fa-tiktok" %}
+        {% when "twitter"     %}{% assign fa = "fab fa-twitter" %}
+        {% when "vimeo"       %}{% assign fa = "fab fa-vimeo" %}
+        {% when "vk"          %}{% assign fa = "fab fa-vk" %}
+        {% when "weibo"       %}{% assign fa = "fab fa-weibo" %}
+        {% when "whatsapp"    %}{% assign fa = "fab fa-whatsapp" %}
+        {% when "youtube"     %}{% assign fa = "fab fa-youtube" %}
+        {% else               %}{% assign fa = "fas fa-globe" %}
+      {% endcase %}
+    {% endif %}
+    <i class="{{ fa }}"></i>
   </a>
 </li>
 {% endfor %}

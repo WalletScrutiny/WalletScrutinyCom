@@ -16,7 +16,7 @@ dimensions:
 weight: 163
 provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
-website: https://www.coldlar.com/productDetails/10062
+website: 
 shop: https://www.coldlar.com/productDetails/10062
 country: CH
 price: 620USD
@@ -31,8 +31,17 @@ signer:
 reviewArchive: 
 twitter: Coldlar
 social: 
+features: 
 
 ---
+
+## Updated Review 2022-11-26
+
+The primary domain for this site coldlar.com is currently blank. However, a Chinese sounding site seems to have details pertaining to information about coldlar.com: hengshengjia.com. We do not know if this is official, but it links to the original coldlar.com.
+
+The device seems to be still for sale in Amazon. We are retaining its verdict. 
+
+## Previous Review 2021-11-26
 
 ## Private keys can be created offline - ✔️
 

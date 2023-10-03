@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Aniket sindhu
+features: 
 
 ---
 

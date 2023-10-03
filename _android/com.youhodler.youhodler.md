@@ -1,18 +1,18 @@
 ---
 wsId: YouHodler
-title: 'YouHodler Wallet: Buy Crypto'
+title: 'YouHodler: Crypto Wallet'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.youhodler.youhodler
 appCountry: 
 released: 2019-07-11
-updated: 2022-12-23
-version: 5.4.1
-stars: 4.2
+updated: 2023-09-12
+version: 6.0.4
+stars: 4
 ratings: 5083
-reviews: 59
+reviews: 77
 size: 
 website: https://youhodler.com
 repository: 
@@ -31,6 +31,8 @@ social:
 redirect_from:
 - /com.youhodler.youhodler/
 - /posts/com.youhodler.youhodler/
+developerName: YouHodler
+features: 
 
 ---
 

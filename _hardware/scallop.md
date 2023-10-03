@@ -31,8 +31,29 @@ social:
 - https://medium.com/scallopx
 - https://www.instagram.com/scallop_app/
 - https://t.me/Scallop_Official
+features: 
 
 ---
+
+## Notes on affiliated products 
+
+The provider currently has these products
+
+### Android
+
+- {% include walletLink.html wallet='android/com.scallopxledger' verdict='true' %}
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+
+### iOS
+
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.scallop.exchange.SCLPExchange' verdict='true' %}
+
+### Hardware 
+
+- {% include walletLink.html wallet='hardware/scallop' verdict='true' %}
+
+## Previous Analysis 2022-04-04
 
 **⚠️ Note:** Apart from a few renderings of a card-like hardware wallet and a rebranded ledger, we were not able to locate another picture of the hardware wallet. 
 

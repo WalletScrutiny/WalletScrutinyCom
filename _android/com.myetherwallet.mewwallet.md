@@ -1,6 +1,6 @@
 ---
 wsId: mewEthereum
-title: MEW wallet – Ethereum wallet
+title: 'MEW crypto wallet: DeFi Web3'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.myetherwallet.mewwallet
 appCountry: us
 released: 2020-03-11
-updated: 2022-12-29
-version: 2.5.2
-stars: 4.4
+updated: 2023-09-29
+version: 2.6.3
+stars: 4.5
 ratings: 7093
-reviews: 544
+reviews: 569
 size: 
 website: http://mewwallet.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/MyEtherWallet
 - https://www.reddit.com/r/MyEtherWallet
 redirect_from: 
+developerName: MyEtherWallet
+features: 
 
 ---
 

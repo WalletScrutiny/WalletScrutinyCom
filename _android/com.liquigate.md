@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.liquigate.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-01-28
+date: 2023-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Liquigate dev
+features: 
 
 ---
 

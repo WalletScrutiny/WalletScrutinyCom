@@ -4,12 +4,12 @@ title: GWallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: gwallet.tech
 appCountry: be
 released: 2021-02-16
-updated: 2023-01-13
-version: '1.2'
+updated: 2023-03-07
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: GWALLETGLOBAL OÜ
+features: 
 
 ---
 

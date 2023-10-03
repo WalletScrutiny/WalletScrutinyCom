@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2022-05-18
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: ToolsTrades.com
+features: 
 
 ---
 

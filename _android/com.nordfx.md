@@ -27,6 +27,8 @@ reviewArchive:
 twitter: NordFX
 social: 
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

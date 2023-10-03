@@ -8,25 +8,27 @@ users: 100000
 appId: st.xpairssignals
 appCountry: 
 released: 2017-10-07
-updated: 2021-10-03
-version: '4.6'
+updated: 2023-08-29
+version: '4.8'
 stars: 4.2
 ratings: 931
-reviews: 35
+reviews: 36
 size: 
 website: 
 repository: 
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-11-02
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Massy Art
+features: 
 
 ---
 

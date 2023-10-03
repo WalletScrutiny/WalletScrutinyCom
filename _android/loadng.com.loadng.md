@@ -8,25 +8,27 @@ users: 10000
 appId: loadng.com.loadng
 appCountry: ng
 released: 2020-05-02
-updated: 2021-12-27
+updated: 2023-08-25
 version: 2.5.2
-stars: 4.1
+stars: 4.3
 ratings: 259
-reviews: 518
+reviews: 647
 size: 
 website: https://app.load.ng/
 repository: 
 issue: 
 icon: loadng.com.loadng.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-12-26
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: loadngautomated
 social: 
 redirect_from: 
+developerName: LoadNG Automated Systems
+features: 
 
 ---
 

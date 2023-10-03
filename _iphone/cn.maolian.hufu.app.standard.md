@@ -10,23 +10,25 @@ idd: 1387872759
 released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
-stars: 2.9
-reviews: 143
+stars: 2.8
+reviews: 145
 size: '135105536'
 website: https://hoo.com
 repository: 
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-08
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: Hoo_exchange
 social:
 - https://www.facebook.com/hooexchange
 - https://www.reddit.com/r/HooExchange
+features: 
+developerName: Hoo Technology Limited
 
 ---
 

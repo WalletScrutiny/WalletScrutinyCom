@@ -3,12 +3,12 @@ wsId:
 title: geewallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.geewallet.android
 appCountry: 
 released: 2019-09-23
-updated: 2022-12-27
-version: 0.4.338.0
+updated: 2023-08-25
+version: 0.4.382.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Andres G. Aragoneses
+features: 
 
 ---
 

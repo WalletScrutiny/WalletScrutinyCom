@@ -8,11 +8,11 @@ users: 500000
 appId: com.bitbns
 appCountry: 
 released: 2019-09-21
-updated: 2022-12-29
-version: 6.6.0
-stars: 3.5
+updated: 2023-07-15
+version: 6.13.0
+stars: 3.4
 ratings: 15779
-reviews: 38
+reviews: 40
 size: 
 website: https://bitbns.com/
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
 redirect_from: 
+developerName: Bitbns Cryptocurrency Trading Exchange India
+features: 
 
 ---
 

@@ -3,10 +3,10 @@ wsId:
 title: APlus Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sarnado.apluswallet
 appCountry: 
-released: Dec 28, 2020
+released: 2020-12-28
 updated: 2021-01-04
 version: 1.0.0
 stars: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Sarnado s.r.o.
+features: 
 
 ---
 

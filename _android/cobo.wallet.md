@@ -33,6 +33,8 @@ redirect_from:
 - /cobo.wallet/
 - /posts/2019/11/cobo/
 - /posts/cobo.wallet/
+developerName: 
+features: 
 
 ---
 

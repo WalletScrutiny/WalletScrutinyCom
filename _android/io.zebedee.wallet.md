@@ -1,18 +1,18 @@
 ---
 wsId: zebedee
-title: 'ZEBEDEE: Play. Earn. Shop.'
+title: 'ZBD: Earn Bitcoin'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2023-01-10
-version: 2.78.0
-stars: 3.5
+updated: 2023-09-19
+version: 3.45.0
+stars: 3.7
 ratings: 358
-reviews: 494
+reviews: 963
 size: 
 website: https://zebedee.io
 repository: 
@@ -27,6 +27,9 @@ reviewArchive:
 twitter: zebedeeio
 social: 
 redirect_from: 
+developerName: ZEBEDEE
+features:
+- ln
 
 ---
 

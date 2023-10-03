@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: kr.co.rocketchart.gorillabit.v1
 appCountry: 
-released: Jun 23, 2021
+released: 2021-06-23
 updated: 2021-09-17
 version: 1.0.0+130
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: kr.co.rocketchart.gorillabit.v1.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-11-02
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: (주)로켓차트
+features: 
 
 ---
 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
-updated: 2022-12-23
-version: 1.7.2
-stars: 3.2
+updated: 2023-09-23
+version: 1.12.9p1
+stars: 3.1
 ratings: 3998
-reviews: 31
+reviews: 33
 size: 
 website: https://www.dunamu.com
 repository: 
@@ -30,6 +30,8 @@ social:
 - https://www.facebook.com/upbit.exchange
 redirect_from:
 - /com.dunamu.exchange/
+developerName: Dunamu
+features: 
 
 ---
 

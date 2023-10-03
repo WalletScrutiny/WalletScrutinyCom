@@ -33,6 +33,7 @@ social:
 - https://www.reddit.com/r/BEYONDprotocol
 - https://discord.me/beyondprotocolofficial
 - https://www.instagram.com/beyondprotocol/?hl=en
+features: 
 
 ---
 

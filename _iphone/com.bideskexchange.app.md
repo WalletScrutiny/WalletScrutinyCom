@@ -27,6 +27,8 @@ twitter: bideskcom
 social:
 - https://www.facebook.com/bideskcom
 - https://www.reddit.com/r/bidesk
+features: 
+developerName: 
 
 ---
 

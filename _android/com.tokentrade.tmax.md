@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tokentrade.tmax
 appCountry: 
-released: Nov 3, 2020
+released: 2020-11-03
 updated: 2020-11-04
 version: 3.5.6
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.tokentrade.tmax.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: TMAX GLOBAL INC.
+features: 
 
 ---
 

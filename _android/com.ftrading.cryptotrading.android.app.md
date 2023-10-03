@@ -1,0 +1,45 @@
+---
+wsId: 
+title: Crypto Trading Broker
+altTitle: 
+authors:
+- danny
+users: 10000
+appId: com.ftrading.cryptotrading.android.app
+appCountry: 
+released: 2022-09-19
+updated: 2022-09-19
+version: '1.0'
+stars: 
+ratings: 
+reviews: 
+size: 
+website: 
+repository: 
+issue: 
+icon: com.ftrading.cryptotrading.android.app.png
+bugbounty: 
+meta: stale
+verdict: nowallet
+date: 2023-09-14
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Online Brokers, Trading Experts
+features: 
+
+---
+
+## App Description from Google Play
+
+> Crypto Trading Best Broker is an application where you will have the chance to become more involved in your crypto trading with higher success rates than ever before as the Crypto Trading Broker application is not just any award winning crypto application. Having this application as a guide is highly recommended as it can help any trader make smart and efficient decisions and take the correct calculated risks that are necessary.
+
+## Analysis
+
+- The app has no listed Developer Website. However, its privacy policy is hosted on the domain ez-trade.app.
+- Ez-trade.app then links to a site called qxbroker.com aka "Quotex" when clicking on the button: "Trade with the Best Broker".
+- The app behaves strangely as well. Upon startup, it opens a page for "IQ Option".  
+- As this is a completely different app, we'll not review it.
+- This app **does not have a bitcoin wallet** and worse, it redirects to a different app.

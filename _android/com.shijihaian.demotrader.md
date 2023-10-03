@@ -10,23 +10,25 @@ appCountry:
 released: 2020-10-29
 updated: 2020-12-14
 version: 1.0.3
-stars: 
+stars: 1.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: 
 repository: 
 issue: 
 icon: com.shijihaian.demotrader.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2022-12-17
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Prime Fintech Solution (CY)
+features: 
 
 ---
 

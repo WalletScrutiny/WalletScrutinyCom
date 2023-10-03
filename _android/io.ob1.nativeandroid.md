@@ -33,6 +33,8 @@ social:
 - https://www.reddit.com/r/havenapp
 redirect_from:
 - /io.ob1.nativeandroid/
+developerName: 
+features: 
 
 ---
 

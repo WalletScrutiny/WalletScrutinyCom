@@ -8,11 +8,11 @@ appId: com.metallicus.metalpay
 appCountry: us
 idd: 1345101178
 released: 2018-09-14
-updated: 2022-12-27
-version: 2.9.19
+updated: 2023-09-29
+version: 3.0.147
 stars: 4.3
-reviews: 4213
-size: '124825600'
+reviews: 4289
+size: '116435968'
 website: https://metalpay.com
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: metalpaysme
 social:
 - https://www.facebook.com/metalpaysme
 - https://www.reddit.com/r/MetalPay
+features: 
+developerName: Metallicus, Inc.
 
 ---
 

@@ -28,6 +28,8 @@ twitter: eBitcoinics
 social:
 - https://www.facebook.com/eBitcoinics
 redirect_from: 
+developerName: NICS LTD
+features: 
 
 ---
 

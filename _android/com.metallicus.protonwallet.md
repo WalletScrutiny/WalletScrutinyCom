@@ -10,18 +10,18 @@ appCountry: us
 released: 2021-02-22
 updated: 2021-10-21
 version: 1.5.20
-stars: 4.5
+stars: 4.3
 ratings: 613
-reviews: 76
+reviews: 82
 size: 
 website: https://www.protonchain.com/
 repository: 
 issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2022-11-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: protonxpr
@@ -30,6 +30,8 @@ social:
 - https://www.reddit.com/r/ProtonChain
 - https://github.com/ProtonProtocol
 redirect_from: 
+developerName: Metallicus Inc.
+features: 
 
 ---
 

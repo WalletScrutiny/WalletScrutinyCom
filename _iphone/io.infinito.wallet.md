@@ -10,23 +10,25 @@ idd: 1315572736
 released: 2018-01-17
 updated: 2022-09-06
 version: 2.36.15
-stars: 4.1
-reviews: 182
+stars: 4.2
+reviews: 179
 size: '107215872'
 website: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-05-24
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices
 - https://www.facebook.com/InfinitoWallet
+features: 
+developerName: Infinito Solution PTE
 
 ---
 

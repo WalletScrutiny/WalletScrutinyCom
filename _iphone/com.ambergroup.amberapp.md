@@ -8,11 +8,11 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2022-12-11
-version: 2.11.2
-stars: 4.8
-reviews: 384
-size: '279813120'
+updated: 2023-09-24
+version: 2.16.0
+stars: 4.5
+reviews: 196
+size: '281118720'
 website: https://www.whalefin.com
 repository: 
 issue: 
@@ -27,6 +27,8 @@ twitter: ambergroup_io
 social:
 - https://www.linkedin.com/company/amberbtc
 - https://www.facebook.com/ambergroup.io
+features: 
+developerName: AMBER AI LIMITED
 
 ---
 

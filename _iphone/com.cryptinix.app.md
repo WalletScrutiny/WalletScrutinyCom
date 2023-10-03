@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: com.cryptinix.app.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: custodial
-date: 2022-10-21
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: CRYPTINIX TRADER LTD
 
 ---
 

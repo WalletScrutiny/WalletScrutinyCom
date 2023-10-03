@@ -25,6 +25,8 @@ signer:
 reviewArchive: 
 twitter: cryptonatorcom
 social: 
+features: 
+developerName: 
 
 ---
 

@@ -29,6 +29,8 @@ social:
 redirect_from:
 - /com.ebcecosystem.wallets/
 - /posts/com.ebcecosystem.wallets/
+developerName: 
+features: 
 
 ---
 

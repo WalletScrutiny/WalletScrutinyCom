@@ -8,8 +8,8 @@ users: 100
 appId: ch.smd.icynote
 appCountry: 
 released: 2021-07-11
-updated: 2021-07-11
-version: '0.7'
+updated: 2023-09-22
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -19,14 +19,16 @@ repository:
 issue: 
 icon: ch.smd.icynote.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Martin Demierre
+features: 
 
 ---
 

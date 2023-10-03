@@ -8,11 +8,11 @@ appId: com.forex4you.ios
 appCountry: th
 idd: 1008039704
 released: 2015-10-11
-updated: 2022-12-26
-version: 5.2.1
-stars: 4.7
-reviews: 306
-size: '174484480'
+updated: 2023-08-03
+version: 5.2.4
+stars: 4.8
+reviews: 331
+size: '176583680'
 website: https://www.forex4you.com/en/contacts/
 repository: 
 issue: 
@@ -30,6 +30,8 @@ reviewArchive:
   verdict: nosendreceive
 twitter: 
 social: 
+features: 
+developerName: E-Global Trade & Finance Group, Inc.
 
 ---
 

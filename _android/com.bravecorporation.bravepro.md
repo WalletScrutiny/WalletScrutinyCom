@@ -6,9 +6,9 @@ authors:
 users: 10
 appId: com.bravecorporation.bravepro
 appCountry: 
-released: May 15, 2022
-updated: 2022-07-28
-version: 1.0.2
+released: 2022-05-15
+updated: 2023-09-27
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
+developerName: Brave Corporation
+features: 
 
 ---
 

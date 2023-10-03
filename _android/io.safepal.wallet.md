@@ -1,6 +1,6 @@
 ---
 wsId: safepal
-title: SafePal-Crypto wallet BTC NFTs
+title: 'SafePal: Crypto Wallet BTC NFT'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: io.safepal.wallet
 appCountry: 
 released: 2019-05-26
-updated: 2022-12-09
-version: 3.7.3
-stars: 4.5
+updated: 2023-09-10
+version: 4.2.0
+stars: 4.6
 ratings: 13497
-reviews: 578
+reviews: 630
 size: 
 website: https://www.safepal.com
 repository: 
@@ -27,6 +27,8 @@ reviewArchive:
 twitter: iSafePal
 social: 
 redirect_from: 
+developerName: SafePal Wallet
+features: 
 
 ---
 

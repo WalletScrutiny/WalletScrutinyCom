@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/hedgedbitcoin
 - https://www.facebook.com/HedgedBitcoin
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

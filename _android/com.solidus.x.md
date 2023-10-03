@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: 'SolidusX: Investing ReVisioned'
+title: SolidusX Trading
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.solidus.x
 appCountry: 
 released: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.solidus.x.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: SolidusX
+features: 
 
 ---
 

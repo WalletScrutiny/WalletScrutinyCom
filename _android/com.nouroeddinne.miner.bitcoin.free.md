@@ -10,23 +10,25 @@ appCountry:
 released: 2021-03-18
 updated: 2022-08-11
 version: '20.18'
-stars: 4.6
+stars: 4.8
 ratings: 3855
-reviews: 582
+reviews: 864
 size: 
 website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-24
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: nouro DEV
+features: 
 
 ---
 

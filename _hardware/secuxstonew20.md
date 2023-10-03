@@ -22,21 +22,37 @@ shop: >-
   https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
 country: TW
 price: 119USD
-repository: 
+repository: https://github.com/secuxtech/SecuXMCU
 issue: 
 icon: secuxstonew20.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2021-12-08
+date: 2022-11-24
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
+features: 
 
 ---
+
+## Updated Verdict 2022-11-24
+
+Although the device has no claims that it is Open Source, its firmware's source is available and is still actively updated. 
+
+Leo previously mentioned on [Issue 379](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/379) that: 
+
+> I could not find anything on their use of the SE and neither could I find the SE firmware's source code. If the SE is solely responsible for the creation of entropy or the creation of the master key supposedly using entropy from the MCU without verification that MCU entropy was used, the SE firmware would be a potential attack vector that would be impossible to audit if closed source or public source without being reproducible.
+Furthermore the firmware update does not detail the location where the MCU and SE firmware gets loaded from or how to verify their fingerprints.
+> 
+> Until these issues are resolved, we have to list this product (and probably all three of their products) as closed source.
+
+Pending the response of SecuX tech, I think it's worth the benefit of the doubt to hear what they have to say. 
+
+## Previous Verdict
 
 The device can be paired with a mobile phone app via Bluetooth:
 

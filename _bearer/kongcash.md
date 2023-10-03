@@ -28,6 +28,7 @@ reviewArchive:
 twitter: kongiscash
 social:
 - https://github.com/kong-org
+features: 
 
 ---
 

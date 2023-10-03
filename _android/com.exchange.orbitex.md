@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.exchange.orbitex
 appCountry: 
-released: Jan 5, 2021
+released: 2021-01-05
 updated: 2021-01-29
 version: 2.0.1
 stars: 
@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.exchange.orbitex.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2022-06-23
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Orbitex
+features: 
 
 ---
 

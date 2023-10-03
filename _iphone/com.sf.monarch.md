@@ -8,11 +8,11 @@ appId: com.sf.monarch
 appCountry: 
 idd: 1386397997
 released: 2018-06-12
-updated: 2023-01-03
-version: 1.6.19
+updated: 2023-06-19
+version: 1.6.21
 stars: 4.7
-reviews: 396
-size: '137478144'
+reviews: 399
+size: '121876480'
 website: https://monarchwallet.com
 repository: 
 issue: 
@@ -28,6 +28,8 @@ social:
 - https://www.linkedin.com/company/monarchtoken
 - https://www.facebook.com/MonarchWallet
 - https://www.reddit.com/r/MonarchToken
+features: 
+developerName: Splash Factory
 
 ---
 

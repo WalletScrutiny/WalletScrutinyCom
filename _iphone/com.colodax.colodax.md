@@ -18,15 +18,17 @@ repository:
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-12-17
+date: 2023-09-08
 signer: 
 reviewArchive: 
 twitter: colodax
 social:
 - https://www.linkedin.com/company/colodax
 - https://www.facebook.com/colodax
+features: 
+developerName: Ganyt Solutions LLC
 
 ---
 

@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/metamui
 - https://www.facebook.com/SovereignWallet
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

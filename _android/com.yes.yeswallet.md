@@ -28,6 +28,8 @@ twitter:
 social: 
 redirect_from:
 - /com.yes.yeswallet/
+developerName: 
+features: 
 
 ---
 

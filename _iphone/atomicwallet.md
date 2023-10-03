@@ -26,6 +26,8 @@ reviewArchive:
 twitter: atomicwallet
 social:
 - https://www.facebook.com/atomicwallet
+features: 
+developerName: 
 
 ---
 

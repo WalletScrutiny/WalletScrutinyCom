@@ -1,17 +1,17 @@
 ---
 wsId: 
-title: 'BlockFi: Buy and Trade Crypto'
+title: BlockFi
 altTitle: 
 authors: 
 appId: com.blockfi.mobile
 appCountry: 
 idd: 1506274532
 released: 2020-05-05
-updated: 2022-12-04
-version: 5.12.3
-stars: 2.9
-reviews: 1126
-size: '118866944'
+updated: 2023-09-27
+version: 5.12.14
+stars: 2.6
+reviews: 1283
+size: '118645760'
 website: https://blockfi.com/
 repository: 
 issue: 
@@ -24,6 +24,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+developerName: BlockFi
 
 ---
 

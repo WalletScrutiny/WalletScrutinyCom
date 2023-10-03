@@ -18,14 +18,16 @@ repository:
 issue: 
 icon: com.anbbit.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-12-26
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
+developerName: Anbbit.com
+features: 
 
 ---
 

@@ -29,6 +29,8 @@ social:
 - https://www.linkedin.com/company/quoine
 - https://www.facebook.com/LiquidGlobal
 redirect_from: 
+developerName: 
+features: 
 
 ---
 

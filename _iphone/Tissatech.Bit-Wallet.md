@@ -11,7 +11,7 @@ released: 2019-02-09
 updated: 2022-12-27
 version: 4.3.9
 stars: 4.8
-reviews: 1142
+reviews: 1328
 size: '19835904'
 website: 
 repository: 
@@ -26,6 +26,8 @@ reviewArchive:
 twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc
+features: 
+developerName: BitWallet, Inc.
 
 ---
 

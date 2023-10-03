@@ -1,8 +1,8 @@
 ---
 permalink: /
-title: "Is your Bitcoin wallet secure?"
-summary: "The aim of this project is to improve the security of Bitcoin wallets by examining products for transparency and potential attacks."
-excerpt: "Many wallets are not open to public scrutiny"
+title: "Know your wallet like you built it."
+summary: "WalletScrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure."
+excerpt: "Not everyone is a developer. Not everyone has to be."
 author_profile: true
 ---
 
@@ -20,36 +20,15 @@ function lsTest(){
     }
 }
 </script>
-
-<div class="page-section">
-<h1 id="all-wallets-ordered-by-verifiability-downloads-and-ratings">What protects your Bitcoins from Hackers?</h1>
-<div style="width:100%;text-align:center;">
-<img src="{{ base_path }}/images/hacker-bg.png" alt="hacker" style="height:10em;margin:0 auto 1em auto;" />
-</div>
-<p style="text-align:center">
-  Do <strong>you</strong> own your Bitcoins or do you <strong>trust</strong> that your product allows you to use "your"
-  coins while they are actually controlled by <strong>"them"</strong>? Do you have a backup? Do
-  "they" have a copy they didn't tell you about? Did anybody check the wallet for deliberate back doors
-  or <strong>vulnerabilities</strong>? Could anybody check the wallet for those?
-</p><p>
-  We try to answer these questions and more for Bitcoin Wallets.
-</p><p>
-  To understand in more detail read about <a title="our methodology"
-  href="{{ base_path }}/methodology/">our methodology</a>.
-</p>
-</div>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css">
 
 
-<h2 class="section-label">Wallets&nbsp;<a href="#modularWalletPayload" style="color:#ccc">&para;</a></h2>
-<div class="-sticky fragmented-controls-master">
-<h2 class="section-label fragmented-controls -sticky">Showing</h2>
-<h2 class="section-label fragmented-controls -disappearable"><span id="modularVerdict">reproducible</span> </h2>
-<h2 class="section-label fragmented-controls -sticky">Wallets from <span id="modularPlatformPH"></span></h2>
-</div>
-<br>
+<div class="title-wrapper">
 
 
-<div id="modularWalletPayload">
+
+{% include homepage/wallet-filters.html %}
+
 
   <!--
     The content of this div gets replaced if JS is enabled.
@@ -60,9 +39,13 @@ function lsTest(){
   <div class="page-section"></div>
 </div>
 
-{% include grid_of_wallets.html %}
-{% include grid_of_wallets_proportional.html %}
+{% include homepage/stats.html %}
 
-<script src="{{ base_path }}/assets/js/widgetBadgeDetails.js"></script>
-<script src="{{ base_path }}/assets/js/scripts.js"></script>
-<script src="{{ base_path }}/assets/js/landingPage.js"></script>
+{% include homepage/cta.html %}
+
+
+
+<script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
+<script src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
+<script src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>

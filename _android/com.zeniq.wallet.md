@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zeniq.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2022-03-11
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: Zeniq_tech
@@ -32,6 +32,8 @@ social:
 - https://www.youtube.com/ZENIQTech
 - https://t.me/zeniq_hub
 redirect_from: 
+developerName: ZENIQ Technologies FZ LLC
+features: 
 
 ---
 

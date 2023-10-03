@@ -18,13 +18,15 @@ repository:
 issue: 
 icon: fi.cardwallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-11-11
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: CardWallet_fi
 social: 
+features: 
+developerName: CardSoft OU
 
 ---
 
