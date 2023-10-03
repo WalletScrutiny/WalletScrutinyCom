@@ -8,11 +8,11 @@ users: 100000
 appId: com.core.app.flitpay
 appCountry: dk
 released: 2017-05-17
-updated: 2023-09-13
-version: 1.0.46
+updated: 2023-10-02
+version: 1.0.48
 stars: 4.3
 ratings: 2217
-reviews: 1909
+reviews: 1898
 size: 
 website: https://www.flitpay.com/
 repository: 

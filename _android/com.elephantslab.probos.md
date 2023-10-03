@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.elephantslab.probos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-13
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: probos_wallet

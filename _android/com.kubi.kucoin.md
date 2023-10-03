@@ -1,6 +1,6 @@
 ---
 wsId: kucoinExchange
-title: 'KuCoin: BTC, Crypto Exchange'
+title: 'KuCoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2023-09-21
 version: 3.92.1
 stars: 4.2
 ratings: 72555
-reviews: 4366
+reviews: 4376
 size: 
 website: https://www.kucoin.com
 repository: 

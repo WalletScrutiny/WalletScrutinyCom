@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.threecommas.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-03
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 3commas_io

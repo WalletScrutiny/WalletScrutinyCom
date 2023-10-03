@@ -8,13 +8,13 @@ users: 10000
 appId: com.spantom.jeroid
 appCountry: us
 released: 2020-07-05
-updated: 2023-08-08
-version: 2.0.6
+updated: 2023-09-26
+version: 2.0.9
 stars: 2.7
 ratings: 248
 reviews: 26
 size: 
-website: https://jeroid.com.ng/
+website: https://jeroid.ng/
 repository: 
 issue: 
 icon: com.spantom.jeroid.png

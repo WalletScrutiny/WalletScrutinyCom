@@ -8,19 +8,19 @@ appId: com.ecomi.securewallet
 appCountry: 
 idd: '1432655565'
 released: 2018-08-25
-updated: 2022-01-26
-version: 3.0.5
+updated: 2023-09-25
+version: 3.0.6
 stars: 4.4
 reviews: 55
-size: '69942272'
+size: '40947712'
 website: https://wallet.ecomi.com/
 repository: 
 issue: 
 icon: com.ecomi.securewallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-01-27
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: ecomi_

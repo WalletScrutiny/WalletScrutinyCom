@@ -11,7 +11,7 @@ released: 2022-03-17
 updated: 2023-07-20
 version: '1.31'
 stars: 4.8
-reviews: 19
+reviews: 20
 size: '81560576'
 website: https://thebitcoincompany.com
 repository: 

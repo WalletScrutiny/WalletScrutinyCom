@@ -12,7 +12,7 @@ updated: 2023-09-16
 version: '9.11'
 stars: 4.6
 ratings: 
-reviews: 450
+reviews: 448
 size: 
 website: http://www.hodlfinance.com
 repository: 

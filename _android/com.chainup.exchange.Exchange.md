@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.Exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-03-30
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

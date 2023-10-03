@@ -12,7 +12,7 @@ updated: 2023-09-12
 version: 1.7.10.fa2d
 stars: 4.4
 ratings: 1387
-reviews: 1511
+reviews: 1510
 size: 
 website: https://www.gopax.co.kr
 repository: 

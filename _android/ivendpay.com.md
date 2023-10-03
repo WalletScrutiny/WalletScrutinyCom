@@ -7,8 +7,8 @@ users: 100
 appId: ivendpay.com
 appCountry: 
 released: 2023-01-26
-updated: 2023-03-07
-version: 0.0.13
+updated: 2023-09-28
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 

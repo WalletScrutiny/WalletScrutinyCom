@@ -7,8 +7,8 @@ users: 100
 appId: com.authentrend.atwallet
 appCountry: 
 released: 2020-07-13
-updated: 2023-01-17
-version: v2.0.11
+updated: 2023-09-28
+version: v2.0.12
 stars: 
 ratings: 
 reviews: 

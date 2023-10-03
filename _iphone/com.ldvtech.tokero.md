@@ -10,7 +10,7 @@ idd: '1569586581'
 released: 2021-06-04
 updated: 2023-03-30
 version: 4.0.1
-stars: 5
+stars: 4.9
 reviews: 12
 size: '15066112'
 website: https://tokero.com

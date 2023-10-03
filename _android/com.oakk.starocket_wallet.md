@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-29
 updated: 2023-09-16
 version: 2.0.7
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://trubit.com/
 repository: 

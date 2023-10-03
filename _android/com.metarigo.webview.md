@@ -8,8 +8,8 @@ users: 1000
 appId: com.metarigo.webview
 appCountry: 
 released: 2022-08-23
-updated: 2023-09-13
-version: 2.0.28
+updated: 2023-09-26
+version: 2.0.30
 stars: 
 ratings: 
 reviews: 

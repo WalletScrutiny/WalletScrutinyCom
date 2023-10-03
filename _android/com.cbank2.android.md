@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cbank2.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

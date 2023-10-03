@@ -7,8 +7,8 @@ users: 50000
 appId: com.cryptorefills
 appCountry: 
 released: 2019-04-22
-updated: 2019-05-14
-version: 1.0.2
+updated: 2023-09-25
+version: 1.0.7
 stars: 3.9
 ratings: 
 reviews: 44
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptorefills.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2022-07-31
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 
