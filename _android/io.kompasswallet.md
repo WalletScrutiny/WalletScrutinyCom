@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.kompasswallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nobtc
-date: 2023-06-01
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

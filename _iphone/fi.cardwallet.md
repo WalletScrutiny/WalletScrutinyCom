@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: fi.cardwallet.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nosource
-date: 2023-03-20
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: CardWallet_fi
