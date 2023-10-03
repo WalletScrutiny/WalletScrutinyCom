@@ -1,6 +1,15 @@
+/**
+ * This script lists all open issues of products that are "meta: ok" and had no
+ * update in more than three months. Issues are sorted oldest to newest.
+ * This script can be started with
+ * $ node scripts/githubIssueTracker.js $GITHUB_API_KEY
+ * or without the API key, in which case it has to be provided interactively.
+ **/
+
 const fs = require('fs');
 const axios = require('axios');
 const readline = require('readline');
+const path = require('path');
 
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware'];
@@ -8,72 +17,88 @@ const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware'];
 // Regular expression pattern to match issue URLs
 const issuePattern = /issue:\s+(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+))/g;
 
+const metaOkPattern = /meta: ok/;
+
 // List to store extracted project names, issue numbers, and file names
 const issueInfo = [];
 
 // Function to search for .md files and extract issue information
 function extractIssueInfo(filePath) {
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const matches = content.matchAll(issuePattern);
-    for (const match of matches) {
-        const [issueUrl, issueNumber] = match;
-        const [, projectOwner, projectName] = issueUrl.match(/github\.com\/([^/]+)\/([^/]+)\/issues/); // Extract project name
-        issueInfo.push({ projectOwner, projectName, issueUrl: issueUrl.replace('issue:', ''), issueNumber: issueNumber.split('/').pop(), fileName: filePath });
-    }
+  const content = fs.readFileSync(filePath, 'utf-8');
+  if (!metaOkPattern.test(content)) {
+    return
+  }
+  const matches = content.matchAll(issuePattern);
+  for (const match of matches) {
+    const [issueUrl, issueNumber] = match;
+    const [, projectOwner, projectName] = issueUrl.match(/github\.com\/([^/]+)\/([^/]+)\/issues/); // Extract project name
+    issueInfo.push({ projectOwner, projectName, issueUrl: issueUrl.replace('issue: ', ''), issueNumber: issueNumber.split('/').pop(), fileName: path.resolve(filePath) });
+  }
 }
 
 // Function to check if a GitHub issue is active and get its last update date
-async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
-    const url = `https://api.github.com/repos/${projectOwner}/${projectName}/issues/${issueNumber}`;
-    const headers = {
-        Authorization: `token ${githubAccessToken}`,
-    };
+async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken) {
+  const url = `https://api.github.com/repos/${projectOwner}/${projectName}/issues/${issueNumber}`;
+  const headers = {
+    Authorization: `token ${githubAccessToken}`,
+  };
 
-    try {
-        const response = await axios.get(url, { headers });
-        const issueData = response.data;
-        const issueState = issueData.state || 'unknown';
-        const lastUpdateDate = issueData.updated_at.split('T')[0]; // Extract and format last update date
-        return { state: issueState, lastUpdateDate };
-    } catch (error) {
-        console.error(`Error checking issue ${issueNumber} in ${projectOwner}/${projectName}: ${error.message}`);
-        return { state: 'error', lastUpdateDate: 'unknown' };
-    }
+  try {
+    const response = await axios.get(url, { headers });
+    const issueData = response.data;
+    const issueState = issueData.state || 'unknown';
+    const lastUpdateDate = issueData.updated_at.split('T')[0]; // Extract and format last update date
+    return { state: issueState, lastUpdateDate };
+  } catch (error) {
+    console.error(`Error checking https://github.com/${projectOwner}/${projectName}/issues/${issueNumber} : ${error.message}`);
+    return { state: 'error', lastUpdateDate: 'unknown' };
+  }
 }
 
-const rl = readline.createInterface({
+async function askGitHubKey() {
+  const rl = readline.createInterface({
     input: process.stdin,
-    output: process.stdout,
-});
+    output: process.stdout
+  });
+  return new Promise(resolve => rl.question('Enter your GitHub Personal Access Token (https://github.com/settings/tokens): ', (token) => {
+    rl.close();
+    resolve(token);
+  }))
+}
 
-let githubAccessToken = '';
+// Prepare the output
+let output = [];
 
-rl.question('Enter your GitHub Personal Access Token: ', (token) => {
-    githubAccessToken = token;
+// Check the status of each GitHub issue and append to the output text
+(async () => {
+  const githubAccessToken = process.argv[2] || await askGitHubKey();
 
-    // Loop through each folder path and search for .md files
-    folderPaths.forEach((folderPath) => {
-        fs.readdirSync(folderPath).forEach((file) => {
-            if (file.endsWith('.md')) {
-                extractIssueInfo(`${folderPath}/${file}`);
-            }
-        });
+  // Loop through each folder path and search for .md files
+  folderPaths.forEach((folderPath) => {
+    fs.readdirSync(folderPath).forEach((file) => {
+      if (file.endsWith('.md')) {
+        extractIssueInfo(`${folderPath}/${file}`);
+      }
     });
-
-    // Prepare the output text as CSV
-    let outputText = 'App/Filename,Status,Project Name,Date of Last Update,Issue URL\n';
-
-    // Check the status of each GitHub issue and append to the output text
-    (async () => {
-        for (const { projectOwner, projectName, issueUrl, issueNumber, fileName } of issueInfo) {
-            const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber);
-            const csvLine = `${fileName},${state},${projectOwner}/${projectName},${lastUpdateDate},${issueUrl}\n`;
-            outputText += csvLine; // Append to the output text
-        }
-
-        // Write the output text to the CSV file
-        fs.writeFileSync('githubIssueTracker.csv', outputText);
-
-        rl.close();
-    })();
-});
+  });
+  
+  const threeMonthsAgo = new Date();
+  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+  for (const { projectOwner, projectName, issueUrl, issueNumber, fileName } of issueInfo) {
+    const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
+    const csvLine = `${fileName},${state},${projectOwner}/${projectName},${lastUpdateDate},${issueUrl}\n`;
+    if (new Date(lastUpdateDate) < threeMonthsAgo) {
+      output.push({
+        update: new Date(lastUpdateDate),
+        filename: fileName,
+        issue: issueUrl,
+        state: state,
+      })
+    }
+  }
+  output.sort((a, b) => b.update - a.update);
+  output.forEach((o) => {
+    const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24)
+    console.log(`${daysSince} days ago: ${o.filename} ${o.issue} ${o.state}`)
+  })
+})();
