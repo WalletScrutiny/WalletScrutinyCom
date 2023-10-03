@@ -3,12 +3,10 @@
  * update in more than three months. Issues are sorted oldest to newest.
  * This script can be started with
  * $ node scripts/githubIssueTracker.js $GITHUB_API_KEY
- * or without the API key, in which case it has to be provided interactively.
  **/
 
 const fs = require('fs');
 const axios = require('axios');
-const readline = require('readline');
 const path = require('path');
 
 // Define the folder paths to search for .md files
@@ -55,23 +53,16 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAc
   }
 }
 
-async function askGitHubKey() {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-  return new Promise(resolve => rl.question('Enter your GitHub Personal Access Token (https://github.com/settings/tokens): ', (token) => {
-    rl.close();
-    resolve(token);
-  }))
-}
-
 // Prepare the output
 let output = [];
 
 // Check the status of each GitHub issue and append to the output text
 (async () => {
-  const githubAccessToken = process.argv[2] || await askGitHubKey();
+  const githubAccessToken = process.argv[2];
+  if (githubAccessToken === undefined) {
+    console.error('Provide your GitHub Personal Access Token (https://github.com/settings/tokens) as parameter!');
+    process.exit(1);
+  }
 
   // Loop through each folder path and search for .md files
   folderPaths.forEach((folderPath) => {
@@ -99,6 +90,6 @@ let output = [];
   output.sort((a, b) => b.update - a.update);
   output.forEach((o) => {
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24)
-    console.log(`${daysSince} days ago: ${o.filename} ${o.issue} ${o.state}`)
+    console.log(`${daysSince} days ago: file://${o.filename} ${o.issue} ${o.state}`)
   })
 })();
