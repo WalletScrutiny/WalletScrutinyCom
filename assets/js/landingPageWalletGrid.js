@@ -28,10 +28,19 @@ function updateWalletGridInputOriginatingFromURL() {
       }
     }
   }
-  const platform = param.get('platform') ? param.get('platform') : "allPlatforms"
-  const queryRaw = param.get('query-string') ? param.get('query-string') : ""
-  const query = queryRaw.toUpperCase()
-  const page = param.get('page') ? param.get('page') : 1
+  
+  let platform = param.get('platform') ? param.get('platform') : "allPlatforms";
+  const queryRaw = param.get('query-string') ? param.get('query-string') : "";
+  const query = queryRaw.toUpperCase();
+
+  // Override the platform based on the query string
+  if (queryRaw.toLowerCase() === 'android') {
+    platform = 'android';
+  } else if (queryRaw.toLowerCase() === 'iphone') {
+    platform = 'iphone';
+  }
+
+  const page = param.get('page') ? param.get('page') : 1;
   if (param.size == 0) { window.blockScrollingFocus = true }
   buildWalletGridAndPaginationUI(platform, page, query, queryRaw)
 }
@@ -41,6 +50,16 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   let workingArray = false
 
   workingArray = performSearch(window.wallets, query, platform)
+
+  const maxPages = Math.ceil(workingArray.length / paginationLimit);
+
+  // If page is out-of-bounds for the current platform.
+  if (page < 1 || page > maxPages) {
+    page = 1;  // Reset to the first page.
+    if (!["android", "iphone", "hardware", "bearer", "desktop"].includes(platform)) {
+      platform = "android";  // Default to android if the platform itself is invalid.
+    }
+  }
   
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
