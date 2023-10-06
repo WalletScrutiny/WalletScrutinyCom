@@ -7,6 +7,12 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@walletscrutiny">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="Version: {{ page.version }}. Verdict: {{ page.verdict }}. Date: {{ page.date }}.">
+    <meta name="twitter:image" content="{{ site.url }}/images/twcard/{{ page.wsId }}_twitter_card.png">
+
   </head>
 
   <body class="vibrant">

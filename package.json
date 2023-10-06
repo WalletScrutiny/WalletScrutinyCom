@@ -45,6 +45,7 @@
     "async-mutex": "^0.3.2",
     "axios": "^1.5.1",
     "btcpay": "^0.2.5",
+    "canvas": "^2.11.2",
     "core-js": "^3.25.5",
     "dateformat": "^3.0.3",
     "del": "^5.1.0",
