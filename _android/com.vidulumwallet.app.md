@@ -4,7 +4,7 @@ title: Vidulum - Crypto Web Wallet
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: com.vidulumwallet.app
 appCountry: 
 released: 2019-04-04

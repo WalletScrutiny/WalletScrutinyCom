@@ -8,9 +8,9 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2023-09-06
-version: 1.38.6
-stars: 2.8
+updated: 2023-09-28
+version: 1.38.9
+stars: 2.7
 ratings: 377
 reviews: 136
 size: 

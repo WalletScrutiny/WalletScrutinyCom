@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'SFOX: Buy BTC, ETH, ADA'
+title: 'sFOX: Buy BTC, ETH, DOGE'
 altTitle: 
 authors: 
 users: 500

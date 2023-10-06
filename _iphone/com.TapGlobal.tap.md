@@ -11,7 +11,7 @@ released: 2019-12-20
 updated: 2023-09-20
 version: 3.0.0
 stars: 4.6
-reviews: 1491
+reviews: 1495
 size: '175726592'
 website: https://www.withtap.com
 repository: 

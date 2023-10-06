@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-21
 updated: 2023-09-07
 version: 1.3.0
-stars: 3.5
+stars: 3.6
 ratings: 
-reviews: 17
+reviews: 16
 size: 
 website: https://bitkap.africa
 repository: 

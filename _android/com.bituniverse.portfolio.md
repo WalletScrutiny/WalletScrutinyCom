@@ -12,7 +12,7 @@ updated: 2022-12-27
 version: 3.8.1
 stars: 3.9
 ratings: 
-reviews: 503
+reviews: 502
 size: 
 website: http://www.bituniverse.org/
 repository: 

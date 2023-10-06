@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.faerlik.firewin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-04-22
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

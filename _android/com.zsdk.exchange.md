@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zsdk.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-08
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: ZBG_Exchange

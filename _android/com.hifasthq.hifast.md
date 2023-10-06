@@ -7,7 +7,7 @@ users: 500
 appId: com.hifasthq.hifast
 appCountry: 
 released: 2022-10-15
-updated: 2023-06-21
+updated: 2023-09-25
 version: 1.0.3
 stars: 
 ratings: 

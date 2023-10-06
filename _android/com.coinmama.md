@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-21
 updated: 2023-04-17
 version: 1.03.00
-stars: 3
+stars: 3.3
 ratings: 
-reviews: 12
+reviews: 13
 size: 
 website: https://www.coinmama.com/
 repository: 

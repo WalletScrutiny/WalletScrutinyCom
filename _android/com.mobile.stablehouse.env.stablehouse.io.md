@@ -7,8 +7,8 @@ users: 100
 appId: com.mobile.stablehouse.env.stablehouse.io
 appCountry: 
 released: 2022-10-24
-updated: 2023-05-17
-version: 0.0.87
+updated: 2023-09-27
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 

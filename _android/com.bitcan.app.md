@@ -4,7 +4,7 @@ title: 'BitKan: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitcan.app
 appCountry: us
 released: 2017-10-18

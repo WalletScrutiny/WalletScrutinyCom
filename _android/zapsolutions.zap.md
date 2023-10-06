@@ -16,7 +16,7 @@ reviews:
 size: 
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android
-issue:
+issue: 
 icon: zapsolutions.zap.png
 bugbounty: 
 meta: ok

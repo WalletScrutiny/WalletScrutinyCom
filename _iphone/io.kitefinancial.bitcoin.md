@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kitefinancial.bitcoin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-15
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: kite_financial

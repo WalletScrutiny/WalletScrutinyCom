@@ -8,8 +8,8 @@ users: 100000
 appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01
-updated: 2023-06-21
-version: 1.51.5
+updated: 2023-09-25
+version: 1.51.6
 stars: 3.9
 ratings: 2467
 reviews: 49
@@ -20,10 +20,15 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2020-01-24
+verdict: ftbfs
+date: 2023-09-30
 signer: 
 reviewArchive:
+- date: 2020-01-24
+  version: 1.29.347
+  appHash: 
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: nonverifiable
 - date: 2019-12-28
   version: '1.0'
   appHash: 
@@ -39,6 +44,204 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+**Update 2023-09-29**: We have not had a look in a long time. While the last
+time we were invited to re-evaluate, it didn't look too good, lets see if things
+got worse or better ...
+
+On Google Play we downloaded version `1.51.6`. On GitHub though we can only find
+up to version `v1.51.5` in the tags. The latest code though might simply miss a
+tag as [this line](https://github.com/trustee-wallet/trusteeWallet/blob/master/android/app/build.gradle#L137C24-L137C26)
+looks good.
+
+So ... the build instructions say:
+
+> All building steps are tested with Ubuntu 16.04
+
+That version of Ubuntu would still be supported under the
+["Expanded Security Maintenance"](https://ubuntu.com/16-04) but ... it's really
+old.
+
+> nodejs version 10.x
+
+Installing this we get a warning: "Node.js 10.x is no longer actively supported! [...] You should migrate to a supported version of Node.js as soon as possible."
+
+So we assume the build instructions are not up to date ...
+
+... and node developers are really trying to dissuade us from installing this
+old version by forcing us to wait first 20s and then 60s ...
+
+```
+$ podman run --rm -it ubuntu:16.04 bash
+root@8b8a40242a85:/# apt update
+root@8b8a40242a85:/# apt install -y curl
+root@8b8a40242a85:/# curl -sL https://deb.nodesource.com/setup_10.x | bash -
+root@8b8a40242a85:/# apt install -y build-essential git openjdk-8-jdk nodejs gcc g++ make
+root@8b8a40242a85:/# echo "JAVA_HOME=$(which java)" | tee -a /etc/environment
+root@8b8a40242a85:/# source /etc/environment
+root@8b8a40242a85:/# echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
+root@8b8a40242a85:/# mkdir ~/androidsdk
+root@8b8a40242a85:/# export ANDROID_HOME=~/androidsdk
+root@8b8a40242a85:/# mkdir ~/androidsdk/licenses 
+root@8b8a40242a85:/# echo "24333f8a63b6825ea9c5514f83c2829b004d1fee" >  ~/androidsdk/licenses/android-sdk-license
+root@8b8a40242a85:/# git clone https://github.com/trustee-wallet/trusteeWallet.git
+root@8b8a40242a85:/# cd ./trusteeWallet
+root@8b8a40242a85:/trusteeWallet# npm install
+root@8b8a40242a85:/trusteeWallet# npx jetifier
+root@8b8a40242a85:/trusteeWallet# rm -f shim.js
+root@8b8a40242a85:/trusteeWallet# ./node_modules/.bin/rn-nodeify --hack --install
+root@8b8a40242a85:/trusteeWallet/android# cd ./android
+root@8b8a40242a85:/trusteeWallet/android# ./gradlew assembleRelease
+> Task :app:bundleReleaseJsAndAssets
+Loading dependency graph, done.
+error SyntaxError: /trusteeWallet/app/router/NewRouter.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (326:8)
+
+  324 |                 />
+  325 |             
+> 326 |         </Tab.Navigator>
+      |         ^
+SyntaxError: /trusteeWallet/app/router/NewRouter.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (326:8)
+  327 |     )
+
+  328 | }
+  329 |. Run CLI with --verbose flag for more details.
+  324 |                 />
+  325 |             
+> 326 |         </Tab.Navigator>
+      |         ^
+  327 |     )
+  328 | }
+  329 |
+    at constructor (/trusteeWallet/node_modules/@babel/parser/lib/index.js:356:19)
+    at FlowParserMixin.raise (/trusteeWallet/node_modules/@babel/parser/lib/index.js:3223:19)
+    at FlowParserMixin.jsxParseElementAt (/trusteeWallet/node_modules/@babel/parser/lib/index.js:6911:18)
+...
+```
+
+so this might be due to the build instructions being outdated, using old tools.
+
+But how about the[Android verifiable builds](https://github.com/trustee-wallet/trusteeWallet/tree/master#android-verifiable-builds) section?
+Maybe that works better?
+
+```
+$ git clone https://github.com/trustee-wallet/trusteeWallet.git
+$ cd trusteeWallet/
+$ cat docker/verify_android_build.sh 
+#!/usr/bin/env sh
+
+docker build --build-arg BUILD_NUMBER=VERSION_CODE_PLACEHOLDER --build-arg COMMIT_SHA=COMMIT_SHORT_SHA_PLACEHOLDER -t android/verify -f ./docker/Dockerfile.verifyandroidbuild .
+```
+
+That looks benign but also like it could use some parameters ...
+
+```
+$ docker/verify_android_build.sh 
+Sending build context to Docker daemon  38.37MB
+Step 1/14 : FROM trusteewallet/androidprebuild
+latest: Pulling from trusteewallet/androidprebuild
+```
+
+That's already a problem. We'd have to build `trusteewallet/androidprebuild` to
+avoid testing the provider's work using the provider's own binaries ...
+
+```
+$ docker image rm trusteewallet/androidprebuild:latest
+$ docker image prune 
+$ docker build -t trusteewallet/androidprebuild -f ./docker/Dockerfile.androidprebuild .
+```
+
+Ok, this builds on Ubuntu 20.04, not like the build instructions above on 16.04.
+Promising ...
+
+Node still is being installed deprecated scripts:
+
+```
+================================================================================
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+================================================================================
+
+                           SCRIPT DEPRECATION WARNING                    
+
+  
+  This script, located at https://deb.nodesource.com/setup_X, used to
+  install Node.js is deprecated now and will eventually be made inactive.
+
+  Please visit the NodeSource distributions Github and follow the
+  instructions to migrate your repo.
+  https://github.com/nodesource/distributions
+
+  The NodeSource Node.js Linux distributions GitHub repository contains
+  information about which versions of Node.js and which Linux distributions
+  are supported and how to install it.
+  https://github.com/nodesource/distributions
+
+
+                          SCRIPT DEPRECATION WARNING
+
+================================================================================
+▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+================================================================================
+
+TO AVOID THIS WAIT MIGRATE THE SCRIPT
+Continuing in 60 seconds (press Ctrl-C to abort) ...
+```
+
+But we get our local image from source and can continue ...
+
+```
+...
+Successfully tagged trusteewallet/androidprebuild:latest
+$ docker/verify_android_build.sh 
+...
+[4/4] Building fresh packages...
+warning Error running install script for optional dependency: "/trustee/src/node_modules/sodium-native: Command failed.
+Exit code: 1
+Command: node-gyp-build \"node preinstall.js\" \"node postinstall.js\"
+Arguments: 
+Directory: /trustee/src/node_modules/sodium-native
+Output:
+libtool is required, but wasn't found on this system
+./configure: 5: ./configure: not found
+/trustee/src/node_modules/sodium-native/preinstall.js:119
+    if (err) throw err
+             ^
+
+Error: ./configure exited with 127
+    at ChildProcess.<anonymous> (/trustee/src/node_modules/sodium-native/preinstall.js:149:25)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)"
+info This module is OPTIONAL, you can safely ignore this error
+...
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/trustee/src/android/app/build.gradle' line: 136
+
+* What went wrong:
+A problem occurred evaluating project ':app'.
+> Could not get unknown property 'VERSION_CODE_PLACEHOLDER' for DefaultConfig_Decorated{name=main, dimension=null, minSdkVersion=DefaultApiVersion{mApiLevel=21, mCodename='null'}, targetSdkVersion=DefaultApiVersion{mApiLevel=31, mCodename='null'}, renderscriptTargetApi=null, renderscriptSupportModeEnabled=null, renderscriptSupportModeBlasEnabled=null, renderscriptNdkModeEnabled=null, versionCode=null, versionName=null, applicationId=com.trusteewallet, testApplicationId=null, testInstrumentationRunner=null, testInstrumentationRunnerArguments={}, testHandleProfiling=null, testFunctionalTest=null, signingConfig=null, resConfig=[], buildConfigFields={}, resValues={}, proguardFiles=[], consumerProguardFiles=[], manifestPlaceholders={}, wearAppUnbundled=null} of type com.android.build.gradle.internal.dsl.DefaultConfig.
+```
+
+So as mentioned above, the lacking arguments are indeed a problem. Let's try the
+command with only a commit sha:
+
+```
+$ cat docker/verify_android_build.sh 
+#!/usr/bin/env sh
+
+docker build --build-arg BUILD_NUMBER=VERSION_CODE_PLACEHOLDER --build-arg COMMIT_SHA=COMMIT_SHORT_SHA_PLACEHOLDER -t android/verify -f ./docker/Dockerfile.verifyandroidbuild .
+$ git log -n 1
+commit 721e0c7749dfdc9534f04287b3f09b3a5f61931a (HEAD -> master, origin/master, origin/HEAD)
+...
+$ docker build --build-arg COMMIT_SHA=721e0c7749dfdc9534f04287b3f09b3a5f61931a -t android/verify -f ./docker/Dockerfile.verifyandroidbuild .
+...
+SyntaxError: /trustee/src/app/router/NewRouter.js: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (326:8)
+...
+BUILD FAILED in 6m 35s
+```
+
+So ... we got the error from before again and conclude, the current version is
+**not verifiable**.
 
 ## Similar App Note 2023-08-23
 

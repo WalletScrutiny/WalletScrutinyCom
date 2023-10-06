@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-12-19
 updated: 2023-09-15
 version: 3.0.0
-stars: 4.5
+stars: 4.4
 ratings: 1735
-reviews: 234
+reviews: 237
 size: 
 website: https://www.withtap.com
 repository: 

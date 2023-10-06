@@ -8,8 +8,8 @@ users: 50000
 appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23
-updated: 2023-08-04
-version: 4.0.4
+updated: 2023-09-22
+version: 4.0.5
 stars: 4.1
 ratings: 575
 reviews: 38

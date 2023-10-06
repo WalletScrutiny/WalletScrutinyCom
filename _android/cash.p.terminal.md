@@ -3,7 +3,7 @@ wsId:
 title: P.CASH
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10

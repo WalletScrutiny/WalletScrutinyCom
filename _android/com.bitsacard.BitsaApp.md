@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-04-09
 updated: 2023-09-13
 version: 2.18.1
-stars: 2.3
+stars: 2.4
 ratings: 884
-reviews: 8
+reviews: 7
 size: 
 website: https://www.bitsacard.com
 repository: 

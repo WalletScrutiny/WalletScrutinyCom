@@ -1,6 +1,6 @@
 ---
 wsId: munawallet
-title: Muna - Crypto App for Africans
+title: Muna - Crypto & Cash Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.munawallet.muna
 appCountry: 
 released: 2021-03-28
-updated: 2023-04-28
-version: 2.7.7
+updated: 2023-09-30
+version: 2.7.8
 stars: 4.4
 ratings: 
 reviews: 14

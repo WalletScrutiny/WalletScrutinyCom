@@ -8,11 +8,11 @@ appId: io.trustody.wallet
 appCountry: nz
 idd: '1599698329'
 released: 2022-03-04
-updated: 2023-08-24
-version: '5.9'
+updated: 2023-09-28
+version: '6.1'
 stars: 0
 reviews: 0
-size: '78101504'
+size: '78334976'
 website: https://ammer.cards
 repository: 
 issue: 

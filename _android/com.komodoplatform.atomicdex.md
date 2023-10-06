@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AtomicDEX Mobile Crypto Wallet
+title: Komodo Mobile Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.komodoplatform.atomicdex
 appCountry: 
 released: 2022-12-15
-updated: 2023-06-23
-version: 0.6.5
+updated: 2023-09-29
+version: 0.7.1
 stars: 4.7
 ratings: 
 reviews: 5

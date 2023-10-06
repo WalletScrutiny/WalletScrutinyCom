@@ -11,7 +11,7 @@ released: 2019-03-02
 updated: 2023-09-21
 version: 4.13.11
 stars: 4
-reviews: 1050
+reviews: 1053
 size: '185192448'
 website: https://www.tronlink.org
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: RAINCO PTE. LTD.
+developerName: Helix Tech Company Limited
 
 ---
 

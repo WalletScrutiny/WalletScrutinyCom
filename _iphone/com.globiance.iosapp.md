@@ -11,7 +11,7 @@ released: 2021-10-05
 updated: 2023-07-04
 version: '2.03'
 stars: 4.2
-reviews: 66
+reviews: 67
 size: '57978880'
 website: https://globiance.com
 repository: 

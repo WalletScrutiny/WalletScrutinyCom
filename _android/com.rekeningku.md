@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 22977
 reviews: 44
 size: 
-website: https://www.rekeningku.com
+website: https://reku.id
 repository: 
 issue: 
 icon: com.rekeningku.jpg

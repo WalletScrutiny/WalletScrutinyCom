@@ -12,7 +12,7 @@ updated: 2023-09-05
 version: VARY
 stars: 4
 ratings: 29247
-reviews: 1907
+reviews: 1912
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -25,7 +25,7 @@ date: 2023-09-24
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2023-04-26
-  version: "10.03"
+  version: '10.03'
   appHash: 66ebf8572371ad5f2567108b555f5f01e657e5d6bf4cd55624d43b3c319ac65f
   gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
   verdict: reproducible
