@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: Argent - L2 & Argent Vault
+title: Argent — Starknet
 altTitle: 
 authors:
 - danny

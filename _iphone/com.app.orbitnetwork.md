@@ -10,8 +10,8 @@ idd: '1494093151'
 released: 2020-01-12
 updated: 2021-08-29
 version: '2.0'
-stars: 4.8
-reviews: 96
+stars: 4.7
+reviews: 97
 size: '28895232'
 website: https://orbitnetwork.com/
 repository: 

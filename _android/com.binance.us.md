@@ -12,7 +12,7 @@ updated: 2023-09-26
 version: 3.7.0
 stars: 3.8
 ratings: 7187
-reviews: 5924
+reviews: 5925
 size: 
 website: https://www.binance.us
 repository: 

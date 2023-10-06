@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.application.myeazywallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

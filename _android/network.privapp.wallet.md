@@ -4,7 +4,7 @@ title: Priva Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: network.privapp.wallet
 appCountry: 
 released: 2022-03-14

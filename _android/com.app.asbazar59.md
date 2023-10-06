@@ -10,18 +10,18 @@ appCountry:
 released: 2021-06-15
 updated: 2021-10-14
 version: '4'
-stars: 3.2
+stars: 3
 ratings: 434
-reviews: 7
+reviews: 6
 size: 
 website: https://asbazar.com/en/home
 repository: 
 issue: 
 icon: com.app.asbazar59.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-11-02
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: asbazarofficial

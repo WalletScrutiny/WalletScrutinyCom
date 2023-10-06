@@ -3,7 +3,7 @@ wsId:
 title: Electrum-GRS
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.groestlcoin.electrumgrs
 appCountry: 
 released: 2018-06-02

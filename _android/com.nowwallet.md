@@ -12,7 +12,7 @@ updated: 2023-09-28
 version: 3.8.0
 stars: 4.5
 ratings: 
-reviews: 85
+reviews: 86
 size: 
 website: https://walletnow.app
 repository: 

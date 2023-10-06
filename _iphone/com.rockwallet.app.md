@@ -10,8 +10,8 @@ idd: '6444194230'
 released: 2022-11-16
 updated: 2023-08-29
 version: 5.9.0
-stars: 4.7
-reviews: 116
+stars: 4.6
+reviews: 118
 size: '142136320'
 website: https://www.rockwallet.com
 repository: 

@@ -8,8 +8,8 @@ users: 100000
 appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
-updated: 2023-09-27
-version: 3.1.2
+updated: 2023-09-29
+version: 3.1.3
 stars: 4.4
 ratings: 
 reviews: 4
