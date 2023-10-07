@@ -22,10 +22,20 @@ issue:
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-05-04
+verdict: nonverifiable
+date: 2023-10-06
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
-reviewArchive: 
+reviewArchive:
+- date: 2023-05-04
+  version: "0.99.98g"
+  appHash: 2e67af86400d69ae3ecb8b05e57e960d481800c15cd68bb204537a093fee99c8
+  gitRevision: 59e67206e83af33d1b0a0d781c443e1702e2e59d
+  verdict: reproducible
+- date: 2022-11-02
+  version: "0.99.98f"
+  appHash: 0a5711195d96f13f41a71107f1b1035505b33afd3a299828e43e9d1b5101e9c0
+  gitRevision: 8a474ddd867e50ed46404ed9d81f2a893bbf6619
+  verdict: nonverifiable
 twitter: SamouraiWallet
 social: 
 redirect_from:
@@ -35,6 +45,56 @@ developerName: Samourai
 features: 
 
 ---
+
+**Update 2023-10-06**: The latest version from Google Play - 0.99.98h - was not
+tagged in the provider's public source repository. We tried with the last
+version that had "0.99.98h" as its `versionName` and while it did compile fine,
+we got tons of discrepancies.
+
+```
+BUILD SUCCESSFUL in 5m 25s
+77 actionable tasks: 77 executed
++ result
++ fromPlayUnzipped=/tmp/fromPlay_com.samourai.wallet_197
++ fromBuildUnzipped=/tmp/fromBuild_com.samourai.wallet_197
++ rm -rf /tmp/fromBuild_com.samourai.wallet_197 /tmp/fromPlay_com.samourai.wallet_197
++ unzip -d /tmp/fromPlay_com.samourai.wallet_197 -qq '/home/leo/Documents/walletscrutiny/incoming/Samourai 0.99.98h (com.samourai.wallet).apk'
++ unzip -d /tmp/fromBuild_com.samourai.wallet_197 -qq /tmp/test_com.samourai.wallet/app/app/build/outputs/apk/production/release/app-production-release-unsigned.apk
+++ diff --brief --recursive /tmp/fromPlay_com.samourai.wallet_197 /tmp/fromBuild_com.samourai.wallet_197
++ diffResult='Files /tmp/fromPlay_com.samourai.wallet_197/AndroidManifest.xml and /tmp/fromBuild_com.samourai.wallet_197/AndroidManifest.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_197/assets/dexopt/baseline.prof and /tmp/fromBuild_com.samourai.wallet_197/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.samourai.wallet_197/assets/dexopt/baseline.profm and /tmp/fromBuild_com.samourai.wallet_197/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes2.dex and /tmp/fromBuild_com.samourai.wallet_197/classes2.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes3.dex and /tmp/fromBuild_com.samourai.wallet_197/classes3.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes4.dex and /tmp/fromBuild_com.samourai.wallet_197/classes4.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes5.dex and /tmp/fromBuild_com.samourai.wallet_197/classes5.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes6.dex and /tmp/fromBuild_com.samourai.wallet_197/classes6.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes7.dex and /tmp/fromBuild_com.samourai.wallet_197/classes7.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/classes.dex and /tmp/fromBuild_com.samourai.wallet_197/classes.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_197/kotlin/internal/internal.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_197/kotlin/internal/internal.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_197/kotlin/kotlin.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_197/kotlin/kotlin.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_197/kotlin/ranges/ranges.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_197/kotlin/ranges/ranges.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_197/kotlin/reflect/reflect.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_197/kotlin/reflect/reflect.kotlin_builtins differ
+Only in /tmp/fromBuild_com.samourai.wallet_197/lib/arm64-v8a: libimage_processing_util_jni.so
+Only in /tmp/fromBuild_com.samourai.wallet_197/lib/armeabi-v7a: libimage_processing_util_jni.so
+Only in /tmp/fromBuild_com.samourai.wallet_197/lib/x86: libimage_processing_util_jni.so
+Only in /tmp/fromBuild_com.samourai.wallet_197/lib/x86_64: libimage_processing_util_jni.so
+Only in /tmp/fromBuild_com.samourai.wallet_197/META-INF: androidx.camera_camera-camera2.version
+Only in /tmp/fromBuild_com.samourai.wallet_197/META-INF: androidx.camera_camera-core.version
+Only in /tmp/fromBuild_com.samourai.wallet_197/META-INF: androidx.camera_camera-lifecycle.version
+Only in /tmp/fromBuild_com.samourai.wallet_197/META-INF: androidx.camera_camera-view.version
+Files /tmp/fromPlay_com.samourai.wallet_197/META-INF/androidx.exifinterface_exifinterface.version and /tmp/fromBuild_com.samourai.wallet_197/META-INF/androidx.exifinterface_exifinterface.version differ
+Only in /tmp/fromPlay_com.samourai.wallet_197/META-INF: CERT.RSA
+Only in /tmp/fromPlay_com.samourai.wallet_197/META-INF: CERT.SF
+Only in /tmp/fromPlay_com.samourai.wallet_197/META-INF: kotlinx_coroutines_core.version
+Only in /tmp/fromPlay_com.samourai.wallet_197/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.samourai.wallet_197/res/0c.xml and /tmp/fromBuild_com.samourai.wallet_197/res/0c.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_197/res/0H.xml and /tmp/fromBuild_com.samourai.wallet_197/res/0H.xml differ
+...
+```
+
+So far, 0.99.98h is **not verifiable**.
+
 
 **Update 2023-05-04**: Emanuel from WalletScrutiny and Stephan Oeste were able
 to reproduce the latest release under certain conditions and specific
