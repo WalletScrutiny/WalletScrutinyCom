@@ -21,9 +21,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-06-21
+date: 2023-10-06
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2023-06-21
+  version: "3.26.0"
+  appHash: 594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
+  gitRevision: 2800eb78ff91dda0f1d0cabae3a399fc2d700c8b
+  verdict: reproducible
 - data: 2023-04-27
   version: 3.25.0
   appHash: 5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
@@ -191,47 +196,25 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.26.0
-apkVersionCode: 51797
+apkVersionName: 3.29.0
+apkVersionCode: 53670
 verdict:        reproducible
-appHash:        594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
-commit:         6730f178679329e72777e412156b22135ff81a1d
+appHash:        db4e569c90719c564fc2c2d1108f3e5281c3357f73c7221aea09ca994a3c055a
+commit:         fe516969f940cd52f99ba41244ce831459d2e7a8
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_51797/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_51797/assets/public/index.html differ
-Only in /tmp/fromBuild_it.airgap.vault_51797/assets/public: main.5184e2029b8e7e07.js
-Only in /tmp/fromPlay_it.airgap.vault_51797/assets/public: main.bc1e4e3a4f2da280.js
-Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_51797/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object 6730f178679329e72777e412156b22135ff81a1d
+object fe516969f940cd52f99ba41244ce831459d2e7a8
 type commit
-tag v3.26.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1684820076 +0200
+tag v3.29.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1692012578 +0200
 
-version 3.26.0
+version 3.29.0
 ===== End Results =====
 ```
 
-As mentioned in the test results there are a few minor changes. Let's dig into it. 
-We found that the diff in `index.html` is related to the file name change of `main.*.js`.
-`main.bc1e4e3a4f2da280.js` has been renamed to `main.5184e2029b8e7e07.js`, that's a default
-behavior of Angular framework when building projects. Eventhough this behavior could be disabled
-to result the same bundle name with each build.
-So we openned an [issue](https://github.com/airgap-it/airgap-vault/issues/197) in the 
-Airgap Vault repository. Also there is a minor diff in the js bundles:
-
-````
-diff <(fold -s -w 100 main.5184e2029b8e7e07.js) <(fold -s -w 100 main.bc1e4e3a4f2da280.js)
-895c895
-< Reflect.metadata(ie,UA)},"__metadata"),A(h,"tslib_awaiter"),A(function w(ie,UA){var 
----
-> Reflect.metadata(ie,UA)},"__metadata"),A(h,"tslib_es6_awaiter"),A(function w(ie,UA){var  
-```
-
-"tslib_awaiter" has been changed to "tslib_es6_awaiter" which also is a minor change and
-won't affect the behavior of the wallet.
-
-So we can still give it the verdict **reproducible**.
+This app is **reproducible**.
