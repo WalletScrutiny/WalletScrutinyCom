@@ -1,5 +1,6 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER
 const paginationLimit = 12;
+let hasRedirected = false;
 window.blockScrollingFocus = false;
 window.verdictCount = {};
 const wfInputTargets = {
@@ -73,6 +74,10 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   generateAndAppendPagination(workingArray, page);
   generateDropdownAndInputCounts(workingArray, platform);
   generateFeedbackText(workingArray, platform, queryRaw);
+  if (hasRedirected) {
+    generateFeedbackText(workingArray, platform, queryRaw, true);
+  }
+  
 }
 
 function generateAndAppendWalletTiles(workingArray, pageNo) {
@@ -177,32 +182,35 @@ function generateAndAppendPagination(workingArray, pageNo) {
   }
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0;
   const maxPages = Math.ceil(workingArray.length / paginationLimit);
-
   if (pageNo > maxPages) {
     // Determine the URL of the last available page
-    const platform = document.querySelector(".dropdown-platform .selected")
-      ? document
-          .querySelector(".dropdown-platform .selected")
-          .getAttribute("data")
-      : "allPlatforms";
-    const queryRaw =
-      document.querySelector(".query-string").value.length > 0
-        ? encodeURI(document.querySelector(".query-string").value)
-        : "";
+    const platformElement = document.querySelector(".dropdown-platform .selected");
+    const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms";
+    const queryStringElement = document.querySelector(".query-string");
+    const queryRaw = queryStringElement.value.length > 0 ? encodeURI(queryStringElement.value) : "";
 
-    // Redirect to the last available page
-    window.history.pushState(
-      "data",
-      null,
-      `/?platform=${platform}&page=${maxPages}${
-        queryRaw.length > 0 ? "&query-string=" : ""
-      }${queryRaw}`
-    );
+    // Redirect to the last available page (maxPages)
+    const newUrl = `/?platform=${platform}&page=${maxPages}${queryRaw.length > 0 ? "&query-string=" + queryRaw : ""}`;
+    window.history.pushState("data", null, newUrl);
+    
     updateWalletGridInputOriginatingFromURL();
-    // Display the redirection message
-    generateFeedbackText(workingArray, platform, queryRaw, true);    
+
+    // Set redirection flag
+    if (workingArray.length) {
+        // Display the redirection message
+        hasRedirected = true;
+    }
+
+    // Attach event listener to clear feedback on query change
+    queryStringElement.addEventListener('input', function() {
+        if (hasRedirected) {
+            hasRedirected = false;  // Reset the flag
+        }
+    });
+
     return;
-  }
+}
+
   let pagination = document.createElement("div");
   pagination.classList.add("pagination");
   let allowedTargets = calcAllowedTargetArray(page, maxPages);
@@ -284,7 +292,10 @@ function generateFeedbackText(
   queryRaw,
   redirected = false
 ) {
-  
+  console.log("Value of redirected:", redirected);
+  if (document.querySelector('.feedback-message')) {
+    return; // Feedback already exists, exit the function
+  }
   let feedback = document.createElement("p");
   feedback.style["text-alignment"] = "center";
   let feedbackText = false;
@@ -321,10 +332,16 @@ function generateFeedbackText(
     <br>You have been redirected to the last available page. 
     <br>Need help selecting a wallet? Join us in <a href="https://discord.gg/TftHx2zZXc" target="_blank" rel="noopener noreferrer">discord</a>.`;
   }
-  if (feedbackText) {
-    feedback.innerHTML = feedbackText;
-    document.querySelector(".wallet-placeholder").prepend(feedback);
+  const existingFeedback = document.querySelector(".wallet-placeholder > p");
+  if (existingFeedback) {
+      existingFeedback.remove();
   }
+
+  if (feedbackText) {
+      feedback.innerHTML = feedbackText;
+      document.querySelector(".wallet-placeholder").prepend(feedback);
+  }
+
 }
 
 function calcAllowedTargetArray(page, maxPages) {
@@ -450,10 +467,12 @@ document.querySelector(".query-string").addEventListener("input", () => {
       document.querySelector(".query-string").value.length > 0
         ? encodeURI(document.querySelector(".query-string").value)
         : "";
+    const platformElement = document.querySelector(".dropdown-platform .selected");
+    const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms";
     window.history.pushState(
       "data",
       null,
-      `/?platform=allPlatforms&page=0&query-string=${queryRaw}`
+      `/?platform=${platform}&page=0&query-string=${queryRaw}`
     );
     updateWalletGridInputOriginatingFromURL();
   }, 500);
