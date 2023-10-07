@@ -22,9 +22,14 @@ icon: com.btcontract.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-08-27
+date: 2023-10-07
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2023-08-27
+  version: "2.4.27"
+  appHash: 3c7f6da25bd0df54dd6068ddf50ee316d82691766e31b328156591b8c5b5ea01
+  gitRevision: 3a238ef15864678cb46ac9cbb2e0073516452d98
+  verdict: reproducible
 - date: 2022-01-31
   version: 2.4.27
   appHash: d21229831b319fcb8ebbfcad5785850ff07d5d8715d02fce10c6fb1a1b2de388
@@ -100,16 +105,16 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.4.27
-apkVersionCode: 95
+apkVersionName: 2.5.4
+apkVersionCode: 105
 verdict:        reproducible
-appHash:        3c7f6da25bd0df54dd6068ddf50ee316d82691766e31b328156591b8c5b5ea01
-commit:         2bcad8faeda2ca67f8ceb4b0e686ac1cce0f0d1b
+appHash:        bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
+commit:         408d3bfbf60e469ba424d4bfa5eb0af7b203dabc
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_95/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_95/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_95/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_95/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_105/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_105/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_105/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_105/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 
