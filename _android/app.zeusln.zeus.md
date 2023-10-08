@@ -21,7 +21,7 @@ issue:
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: reproducible
 date: 2023-10-07
 signer: 
 reviewArchive:
