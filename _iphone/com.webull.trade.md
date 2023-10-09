@@ -12,7 +12,7 @@ released: 2017-01-18
 updated: 2023-09-30
 version: 9.2.0
 stars: 4.7
-reviews: 291288
+reviews: 291396
 size: '323376128'
 website: https://www.webull.com
 repository: 

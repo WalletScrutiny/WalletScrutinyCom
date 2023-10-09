@@ -12,7 +12,7 @@ updated: 2023-09-30
 version: 3.5.9
 stars: 4.1
 ratings: 
-reviews: 18
+reviews: 19
 size: 
 website: https://www.ejara.io
 repository: 

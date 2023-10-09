@@ -25,7 +25,7 @@ date: 2023-10-06
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2023-06-21
-  version: "3.26.0"
+  version: 3.26.0
   appHash: 594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
   gitRevision: 2800eb78ff91dda0f1d0cabae3a399fc2d700c8b
   verdict: reproducible

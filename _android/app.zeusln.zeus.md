@@ -26,7 +26,7 @@ date: 2023-10-07
 signer: 
 reviewArchive:
 - date: 2023-07-23
-  version: "0.7.7-beta1"
+  version: 0.7.7-beta1
   appHash: 7518899284438a824779266807c91dedb1714517e2f94f8cbe878482379c1b0e
   gitRevision: e3739160c9fcb83303d40d5ae888ec1d728567ee
   verdict: reproducible

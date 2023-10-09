@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-24
 updated: 2023-08-11
 version: 1.0.9
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.liquidus.finance
 repository: 

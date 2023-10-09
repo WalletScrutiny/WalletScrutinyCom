@@ -12,7 +12,7 @@ updated: 2023-08-25
 version: 2.5.2
 stars: 4.3
 ratings: 259
-reviews: 648
+reviews: 651
 size: 
 website: https://app.load.ng/
 repository: 

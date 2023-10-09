@@ -12,7 +12,7 @@ updated: 2023-10-06
 version: 1.1.13
 stars: 4.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://agoradesk.com
 repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AmazeWallet: Mine, Crypto, NFT'
+title: 'Amaze: Crypto Mining Wallet'
 altTitle: 
 authors:
 - danny

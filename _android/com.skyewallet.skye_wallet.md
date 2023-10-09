@@ -12,7 +12,7 @@ updated: 2023-03-22
 version: 2.12.8
 stars: 3.2
 ratings: 290
-reviews: 16
+reviews: 15
 size: 
 website: https://skyewallet.com
 repository: 

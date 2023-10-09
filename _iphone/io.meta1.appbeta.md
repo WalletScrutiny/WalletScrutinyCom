@@ -10,8 +10,8 @@ idd: '1626884236'
 released: 2022-07-05
 updated: 2023-08-31
 version: 2.1.8
-stars: 5
-reviews: 3
+stars: 4.5
+reviews: 4
 size: '23645184'
 website: https://meta-exchange.vision/home/
 repository: 

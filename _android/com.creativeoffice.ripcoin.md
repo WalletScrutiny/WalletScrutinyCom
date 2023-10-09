@@ -8,9 +8,9 @@ users: 100000
 appId: com.creativeoffice.ripcoin
 appCountry: 
 released: 2021-02-25
-updated: 2023-10-06
-version: '12100'
-stars: 3.4
+updated: 2023-10-07
+version: '12200'
+stars: 3.5
 ratings: 
 reviews: 219
 size: 
