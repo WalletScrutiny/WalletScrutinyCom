@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: DFX Technology Limited
+developerName: FPS Global LTD
 features: 
 
 ---

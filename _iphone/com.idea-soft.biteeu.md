@@ -8,19 +8,19 @@ appId: com.idea-soft.biteeu
 appCountry: gb
 idd: '1472991783'
 released: 2019-07-24
-updated: 2022-08-25
-version: 1.5.0
+updated: 2023-10-03
+version: 1.6.0
 stars: 0
 reviews: 0
-size: '28917760'
+size: '35821568'
 website: http://www.biteeu.com
 repository: 
 issue: 
 icon: com.idea-soft.biteeu.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-08-27
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

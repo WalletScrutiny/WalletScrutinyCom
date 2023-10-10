@@ -3,7 +3,7 @@ wsId:
 title: ivendPay POS
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: ivendpay.com
 appCountry: 
 released: 2023-01-26

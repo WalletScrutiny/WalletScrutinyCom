@@ -10,9 +10,9 @@ appCountry: gd
 released: 2019-07-11
 updated: 2023-10-02
 version: 3.0.3
-stars: 3.6
+stars: 3.5
 ratings: 4416
-reviews: 3568
+reviews: 3569
 size: 
 website: https://www.bitwala.com
 repository: 

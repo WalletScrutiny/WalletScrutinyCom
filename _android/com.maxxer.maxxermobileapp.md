@@ -3,7 +3,7 @@ wsId:
 title: maxxer
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.maxxer.maxxermobileapp
 appCountry: 
 released: 2022-07-09

@@ -4,7 +4,7 @@ title: Quan2um
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mobile.quantum
 appCountry: 
 released: 2022-04-18

@@ -4,7 +4,7 @@ title: 'Switchere: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.switchere.switchere
 appCountry: 
 released: 2021-11-15

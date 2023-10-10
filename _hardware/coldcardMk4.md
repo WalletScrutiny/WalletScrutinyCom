@@ -7,8 +7,8 @@ authors:
 - mohammad
 released: 2022-05-01
 discontinued: 
-updated: 2023-04-07
-version: v5.1.2
+updated: 2023-09-08
+version: v5.1.4
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -24,15 +24,50 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-06-22
+date: 2023-10-08
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-06-22
+  version: v5.1.2
+  appHash: 7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a
+  gitRevision: 8c8a96cc2119fd85e4a8ffdc88ff2921c0085ed6
+  verdict: reproducible
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 features: 
 
 ---
+
+**Update 2023-10-08**: Here are the test results for the latest version:
+
+```
+$ ./scripts/test/hardware/coldCard.sh "2023-09-08T2009-v5.1.4" 4
+
+...
+
+ ECDSA Signature: CORRECT
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
+
+SUCCESS. 
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v5.1.4
++ set +ex
+
+Hash of non-signature parts downloaded/compiled:
+67fedbbf80b6f0229ec0efc00aaaa24e242618fb90e618d00da2a660c77693ee  2023-09-08T2009-v5.1.4-mk4-nosig.bin
+67fedbbf80b6f0229ec0efc00aaaa24e242618fb90e618d00da2a660c77693ee  firmware-nosig.bin
+
+Hash of the signed firmware:
+fd707f2f69d006c9db84ceacd2a0dde79c3cb71730750e2676af610942898717  /tmp/firmware/releases/2023-09-08T2009-v5.1.4-mk4-coldcard.dfu
+1b1818fc1ae278bb4c9b1932f85aad76205abee5aa6bbe4995d2d038f37403a8  /tmp/firmware/stm32/built/firmware-signed.dfu
+```
+
+which shows this firmware is **reproducible**.
+
+# Old Analysis
 
 ## Product Description 
 

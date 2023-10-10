@@ -8,11 +8,11 @@ appId: com.gaincapital.forex
 appCountry: gb
 idd: 1506581586
 released: 2020-10-14
-updated: 2023-09-13
-version: 1.152.3397
+updated: 2023-10-04
+version: 1.155.3452
 stars: 3.6
 reviews: 48
-size: '122411008'
+size: '120812544'
 website: https://www.forex.com/en-uk/
 repository: 
 issue: 

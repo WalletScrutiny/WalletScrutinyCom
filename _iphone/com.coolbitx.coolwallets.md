@@ -9,10 +9,10 @@ appCountry: tw
 idd: 1328764142
 released: 2018-01-02
 updated: 2023-10-03
-version: 3.18.0
+version: 3.18.1
 stars: 3.9
-reviews: 168
-size: '118482944'
+reviews: 170
+size: '118495232'
 website: http://coolwallet.io
 repository: 
 issue: 

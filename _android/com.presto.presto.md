@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-21
 updated: 2023-04-15
 version: 1.1.8
-stars: 4.1
+stars: 3.9
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://prestohq.io/
 repository: 

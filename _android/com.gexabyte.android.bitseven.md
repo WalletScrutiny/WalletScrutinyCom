@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gexabyte.android.bitseven.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-10-09
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,7 +10,7 @@ idd: 1442083982
 released: 2018-12-01
 updated: 2023-09-28
 version: 3.0.55
-stars: 4.2
+stars: 4.1
 reviews: 848
 size: '171145216'
 website: https://guarda.com/

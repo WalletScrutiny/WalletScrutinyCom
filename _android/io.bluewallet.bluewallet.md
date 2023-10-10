@@ -12,20 +12,25 @@ appCountry:
 released: 2018-11-01
 updated: 2023-07-29
 version: 6.4.8
-stars: 4
+stars: 3.9
 ratings: 1810
-reviews: 288
+reviews: 289
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
+issue: https://github.com/BlueWallet/BlueWallet/issues/5700
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-06-24
+verdict: ftbfs
+date: 2023-10-08
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2023-06-24
+  version: 6.4.5
+  appHash: d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
+  gitRevision: c0e1ed7e183c9ef5730cb8b77829e7a1640739b1
+  verdict: reproducible
 - date: 2023-05-21
   version: 6.4.4
   appHash: 566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
@@ -54,6 +59,10 @@ features:
 - ln
 
 ---
+
+**Update 2023-10-08**: Sadly version `6.4.8` fails to build from source and
+is thus **not verifiable**. We track the problem in
+[this issue](https://github.com/BlueWallet/BlueWallet/issues/5700).
 
 **Update 2023-06-21**:
 Recent release (v6.4.5) of this wallet with the apk downloaded from Github 

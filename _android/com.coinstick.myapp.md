@@ -3,7 +3,7 @@ wsId:
 title: Coinstick
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coinstick.myapp
 appCountry: 
 released: 2023-01-23
@@ -19,7 +19,7 @@ issue:
 icon: com.coinstick.myapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 
