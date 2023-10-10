@@ -51,16 +51,16 @@ directories.forEach((directory) => {
                 const iconPath = `${currentImageFolder}/${wsID}.png`
                 execSync(`convert ${twcardFolder}/twitterImageBGBig.png -font ./assets/fonts/Barlow/barlow-v12-latin-500.ttf \
                     -fill black \
-                    -pointsize 26 -draw "text 370,270 \\"${title}\\"" \
-                    -pointsize 18 -fill gray -draw "text 370,295 \\"version: ${version}\\"" \
-                    -pointsize 18 -fill black -draw "text 370,330 \\"${verdict}\\"" \
-                    -draw "stroke gray stroke-width 2 line 370,345 670,345" \
-                    -pointsize 18 -draw "text 370,370 \\"Developer: ${developerName}\\"" \
-                    -pointsize 18 -draw "text 370,395 \\"Downloads: ${users}\\"" \
-                    -pointsize 18 -draw "text 370,420 \\"Released on: ${released}\\"" \
-                    -pointsize 18 -draw "text 370,445 \\"Updated on: ${updated}\\"" \
-                    -pointsize 18 -draw "text 370,470 \\"Latest review: ${date}\\"" \
-                    ${iconPath} -geometry +220+250 -composite \
+                    -pointsize 26 -draw "text 230,170 \\"${title}\\"" \
+                    -pointsize 18 -fill gray -draw "text 230,190 \\"version: ${version}\\"" \
+                    -pointsize 18 -fill black -draw "text 230,210 \\"${verdict}\\"" \
+                    -draw "stroke gray stroke-width 1 line 230,225 670,225" \
+                    -pointsize 18 -fill black -draw "text 230,250 'Developer:'" -fill gray -draw "text 330,250 '${developerName}'" \
+                    -pointsize 18 -fill black -draw "text 230,275 'Downloads:'" -fill gray -draw "text 330,275 '${users}'" \
+                    -pointsize 18 -fill black -draw "text 230,300 'Released on:'" -fill gray -draw "text 330,300 '${released}'" \
+                    -pointsize 18 -fill black -draw "text 230,325 'Updated on:'" -fill gray -draw "text 330,325 '${updated}'" \
+                    -pointsize 18 -fill black -draw "text 230,350 'Latest review:'" -fill gray -draw "text 330,350 '${date}'" \
+                    ${iconPath} -geometry +100+150 -composite \
                     ${socialOutput}/${directory}/${file}`)
                 totalFilesProcessed++
             } catch (error) {
