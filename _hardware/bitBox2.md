@@ -31,7 +31,7 @@ date: 2023-10-10
 signer: 
 reviewArchive:
 - date: 2023-05-22
-  version: "9.14.0"
+  version: 9.14.0
   appHash: 06d61dffe90f79887567f7cbe34f19dc4c667c2919dab83ae9311a7c5bcbbeea
   gitRevision: cd354fdd1752e9b967f08eb399ecfd7b7e9c2b72
   verdict: reproducible

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-15
 updated: 2021-10-14
 version: '4'
-stars: 3
+stars: 2.8
 ratings: 434
-reviews: 6
+reviews: 5
 size: 
 website: https://asbazar.com/en/home
 repository: 

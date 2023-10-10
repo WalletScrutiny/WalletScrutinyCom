@@ -12,7 +12,7 @@ updated: 2023-09-26
 version: 4.0.12
 stars: 4.7
 ratings: 946
-reviews: 121
+reviews: 122
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android

@@ -8,8 +8,8 @@ users: 50000
 appId: pro.cointr
 appCountry: 
 released: 2022-10-30
-updated: 2023-09-06
-version: 2.2.4
+updated: 2023-10-10
+version: 2.3.2
 stars: 4.2
 ratings: 
 reviews: 6

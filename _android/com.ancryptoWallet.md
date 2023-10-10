@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-27
 updated: 2023-08-30
 version: 1.17.11
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 20
+reviews: 19
 size: 
 website: https://www.ancrypto.io/
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2014-12-15
 updated: 2023-09-19
 version: 5.1.6
-stars: 4.4
+stars: 4.3
 ratings: 97568
-reviews: 463
+reviews: 462
 size: 
 website: http://indodax.com
 repository: 

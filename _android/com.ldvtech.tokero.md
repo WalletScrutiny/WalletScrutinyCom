@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-02
 updated: 2023-07-31
 version: 4.1.0
-stars: 5
+stars: 
 ratings: 
-reviews: 4
+reviews: 
 size: 
 website: https://web.tokero.com
 repository: 
