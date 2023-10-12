@@ -88,7 +88,7 @@ async function processFiles() {
                     const tempImagePath = path.join(basePath, 'tempImage.png');
 
                     // Overlay icon onto the background using ImageMagick
-                    const coords = '400x400'; 
+                    const coords = '+60+130'; 
                     // const tempImagePath = `${basePath}/images/tempImage.png`;
                     await exec(`convert ${backgroundImage} ${iconImage} -geometry +${coords} -composite ${tempImagePath}`);
                     
@@ -96,36 +96,36 @@ async function processFiles() {
                     const image = await Jimp.read(tempImagePath);
 
                     // Writing title with Barlow font
-                    image.print(barlowFont, x, y, { text: data.title, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
-                    y += 40;  // Increment Y by the height of the title font for the next item
+                    image.print(barlowFont, 175, 130, { text: data.title, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 350 });
+                    y += 60;  // Increment Y by the height of the title font for the next item
 
                     // Writing version with Barlow font
-                    image.print(barlowFont, x, y, data.version);
+                    image.print(barlowFont, 175, 175, data.version);
                     y += 30; // Increment Y by an estimated height for the next item
 
                     // Writing verdict with Barlow font
                     const wrappedVerdict = verdictMap[data.verdict] || data.verdict; // Fallback to data.verdict if not found in map
-                    image.print(barlowFont, x, y, { text: wrappedVerdict, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
+                    image.print(barlowFont, 175, 215, { text: wrappedVerdict, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
                     y += 60;  // Increment Y by an estimated height for the wrapped verdict
 
                     // Writing developerName with Barlow font
-                    image.print(barlowFont, x, y, { text: data.developerName, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
+                    image.print(barlowFont, 175, 255, { text: data.developerName, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
                     y += 60;  // Increment Y by an estimated height for the wrapped developer name
 
                     // Writing users with Barlow font
-                    image.print(barlowFont, x, y, `Users: ${data.users}`);
+                    image.print(barlowFont, 175, 295, `Users: ${data.users}`);
                     y += 30;
 
                     // Writing released date with Barlow font
-                    image.print(barlowFont, x, y, `Released: ${data.released}`);
+                    image.print(barlowFont, 175, 335, `Released: ${data.released}`);
                     y += 30;
 
                     // Writing updated date with Barlow font
-                    image.print(barlowFont, x, y, `Updated: ${data.updated}`);
+                    image.print(barlowFont, 175, 375, `Updated: ${data.updated}`);
                     y += 30;
 
                     // Writing date with Barlow font
-                    image.print(barlowFont, x, y, `Date: ${data.date}`);
+                    image.print(barlowFont, 175, 415, `Date: ${data.date}`);
                     y += 30;
 
                     const outputPath = `${basePath}/images/social/${mdFolder.substring(1)}/${file.replace('.md', '.png')}`;
