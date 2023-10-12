@@ -4,6 +4,11 @@ const exec = util.promisify(require('child_process').exec);
 const Jimp = require('jimp');
 const path = require('path');
 
+function wrapText(text, length) {
+    const regex = new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g');
+    return text.match(regex) || [];
+}
+
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD files folders
 const basePath = path.join(__dirname, '..');
 const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG600x600.jpg');
@@ -83,49 +88,54 @@ async function processFiles() {
                         date: dateMatch[1],
                         icon: iconMatch[1]
                     };
+                 
+                    // calculate the number of lines the title will occupy
+                    const titleLineCount = Math.ceil(Jimp.measureText(barlowFont, data.title) / 350); // assuming maxWidth is 250 as in your code
 
                     const iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), 'small', `${data.icon}`);
                     const tempImagePath = path.join(basePath, 'tempImage.png');
 
                     // Overlay icon onto the background using ImageMagick
-                    const coords = '+60+130'; 
+                    const coords = '+30+130'; 
                     // const tempImagePath = `${basePath}/images/tempImage.png`;
                     await exec(`convert ${backgroundImage} ${iconImage} -geometry +${coords} -composite ${tempImagePath}`);
-                    
+
                     // Load the temporary image for text addition
                     const image = await Jimp.read(tempImagePath);
 
-                    // Writing title with Barlow font
-                    image.print(barlowFont, 175, 130, { text: data.title, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 350 });
-                    y += 60;  // Increment Y by the height of the title font for the next item
+                    const wrappedTitle = wrapText(data.title, 27); // adjust the length as needed
+                    for (let i = 0; i < wrappedTitle.length; i++) {
+                        image.print(barlowFont, 150, 130 + (i * 40), wrappedTitle[i]);
+                    }
+                    y += wrappedTitle.length * 40;  // adjust the multiplier as per the font size
 
                     // Writing version with Barlow font
-                    image.print(barlowFont, 175, 175, data.version);
+                    image.print(barlowFont, 150, 165, data.version);
                     y += 30; // Increment Y by an estimated height for the next item
 
                     // Writing verdict with Barlow font
                     const wrappedVerdict = verdictMap[data.verdict] || data.verdict; // Fallback to data.verdict if not found in map
-                    image.print(barlowFont, 175, 215, { text: wrappedVerdict, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
+                    image.print(barlowFont, 150, 205, { text: data.verdict, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
                     y += 60;  // Increment Y by an estimated height for the wrapped verdict
 
                     // Writing developerName with Barlow font
-                    image.print(barlowFont, 175, 255, { text: data.developerName, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
+                    image.print(barlowFont, 150, 250, { text: data.developerName, alignmentX: Jimp.HORIZONTAL_ALIGN_LEFT, maxWidth: 500 });
                     y += 60;  // Increment Y by an estimated height for the wrapped developer name
 
                     // Writing users with Barlow font
-                    image.print(barlowFont, 175, 295, `Users: ${data.users}`);
+                    image.print(barlowFont, 150, 295, `Users: ${data.users}`);
                     y += 30;
 
                     // Writing released date with Barlow font
-                    image.print(barlowFont, 175, 335, `Released: ${data.released}`);
+                    image.print(barlowFont, 150, 335, `Released: ${data.released}`);
                     y += 30;
 
                     // Writing updated date with Barlow font
-                    image.print(barlowFont, 175, 375, `Updated: ${data.updated}`);
+                    image.print(barlowFont, 150, 375, `Updated: ${data.updated}`);
                     y += 30;
 
                     // Writing date with Barlow font
-                    image.print(barlowFont, 175, 415, `Date: ${data.date}`);
+                    image.print(barlowFont, 150, 415, `Date: ${data.date}`);
                     y += 30;
 
                     const outputPath = `${basePath}/images/social/${mdFolder.substring(1)}/${file.replace('.md', '.png')}`;
