@@ -13,7 +13,7 @@ version: 3.2.6
 stars: 0
 reviews: 0
 size: '124283904'
-website: https://credits.com
+website: https://credits.com/help
 repository: 
 issue: 
 icon: com.credits.CryptoWallet.jpg
@@ -31,7 +31,7 @@ social:
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
 features: 
-developerName: CS Solutions Technology Ltd
+developerName: UAB New Software Solutions
 
 ---
 

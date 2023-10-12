@@ -12,7 +12,7 @@ updated: 2023-07-13
 version: 1.0.17
 stars: 3
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://chain.com
 repository: 

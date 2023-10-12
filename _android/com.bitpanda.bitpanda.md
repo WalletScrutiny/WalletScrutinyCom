@@ -8,7 +8,7 @@ users: 1000000
 appId: com.bitpanda.bitpanda
 appCountry: 
 released: 2018-11-07
-updated: 2023-09-27
+updated: 2023-10-11
 version: 2.59.0
 stars: 3.5
 ratings: 

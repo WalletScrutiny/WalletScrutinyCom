@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-11
 updated: 2023-08-28
 version: '2.7'
-stars: 
+stars: 4
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://lemoncryptoapp.blogspot.com/
 repository: 

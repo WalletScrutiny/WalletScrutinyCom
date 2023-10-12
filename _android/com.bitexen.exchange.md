@@ -12,7 +12,7 @@ updated: 2023-10-05
 version: 1.0.3
 stars: 3.1
 ratings: 8237
-reviews: 26
+reviews: 25
 size: 
 website: https://www.bitexen.com
 repository: 

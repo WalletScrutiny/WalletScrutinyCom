@@ -4,7 +4,7 @@ title: 'Bitybank: Bitcoin e Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05

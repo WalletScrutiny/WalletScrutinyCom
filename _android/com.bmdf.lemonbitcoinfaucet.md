@@ -12,7 +12,7 @@ updated: 2023-08-27
 version: '2.5'
 stars: 3.9
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://lemoncryptoapp.blogspot.com/
 repository: 
