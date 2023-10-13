@@ -38,7 +38,8 @@ as stealing their funds, we had a look at it. While we can't confirm this
 particular user's losses being due to theft by the wallet, the product sure
 does look suspicious:
 
-* Logo, Splash screen logo animation and website were copied from {% include walletLink.html wallet='io.bluewallet.bluewallet' verdict='true' %}.
+* Logo, Splash screen logo animation and website were copied from
+  {% include walletLink.html wallet='android/io.bluewallet.bluewallet' verdict='true' %}.
 * The "Download on the App Store" button does nothing - Apple is stricter
   with apps than Google.
 * 5k downloads after just one month of launching the product, yet we can't find
