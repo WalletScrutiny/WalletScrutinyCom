@@ -13,7 +13,7 @@ updated: 2023-10-11
 version: 3.171.2
 stars: 4.5
 ratings: 281384
-reviews: 45658
+reviews: 45664
 size: 
 website: https://crypto.com/
 repository: 

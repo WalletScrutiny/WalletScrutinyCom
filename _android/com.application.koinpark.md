@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-04
 updated: 2023-10-10
 version: '1.21'
-stars: 3.3
+stars: 3.8
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://koinpark.com/
 repository: 

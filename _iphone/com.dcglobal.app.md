@@ -11,7 +11,7 @@ released: 2022-02-26
 updated: 2023-09-27
 version: 7.2.3
 stars: 4.6
-reviews: 9
+reviews: 10
 size: '112735232'
 website: https://www.deepcoin.com
 repository: 

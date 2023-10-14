@@ -4,7 +4,7 @@ title: Core | Crypto Wallet & NFTs
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.avaxwallet
 appCountry: 
 released: 2022-08-30
@@ -12,7 +12,7 @@ updated: 2023-09-27
 version: 0.13.12
 stars: 4.1
 ratings: 
-reviews: 43
+reviews: 42
 size: 
 website: http://core.app
 repository: 

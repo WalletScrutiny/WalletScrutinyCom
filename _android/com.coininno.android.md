@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-27
 updated: 2023-08-22
 version: 1.3.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://coininno.com/
 repository: 

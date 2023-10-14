@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: coin 9
+title: B9 Crypto
 altTitle: 
 authors:
 - danny

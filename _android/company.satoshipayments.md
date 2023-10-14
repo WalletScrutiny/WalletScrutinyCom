@@ -7,8 +7,8 @@ users: 500
 appId: company.satoshipayments
 appCountry: 
 released: 2023-01-23
-updated: 2023-10-11
-version: 0.1.4
+updated: 2023-10-12
+version: 0.1.5
 stars: 
 ratings: 
 reviews: 
