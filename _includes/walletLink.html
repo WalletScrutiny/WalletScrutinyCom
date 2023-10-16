@@ -1,6 +1,8 @@
 {% assign parts = include.wallet | split: "/"
 %}{% assign collection = site.collections | where: "label", parts[0] | first
 %}{% assign w = collection.docs | where: "appId", parts[1] | first
+%}{% unless w
+%}{{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}{% endunless
 %}{% if w.icon
 %}{% assign icon = base_path | append: '/images/wIcons/'
   | append: w.collection | append:  '/tiny/' | append: w.icon

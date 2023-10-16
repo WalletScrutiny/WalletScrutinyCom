@@ -8,8 +8,8 @@ users: 1000000
 appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
-updated: 2023-09-13
-version: 3.41.0
+updated: 2023-10-12
+version: 3.42.0
 stars: 3.5
 ratings: 8949
 reviews: 1972

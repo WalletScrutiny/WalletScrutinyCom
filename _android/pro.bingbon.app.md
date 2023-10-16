@@ -9,10 +9,10 @@ appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
 updated: 2023-10-10
-version: 4.2.3
+version: 4.2.4
 stars: 4.3
 ratings: 2828
-reviews: 592
+reviews: 594
 size: 
 website: https://bingx.com
 repository: 

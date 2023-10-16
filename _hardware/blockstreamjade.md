@@ -6,9 +6,9 @@ authors:
 - leo
 released: 2021-01-01
 discontinued: 
-updated: 2023-08-01
-version: 1.0.21
-binaries: 
+updated: 2023-09-19
+version: 1.0.23
+binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
 - 60
@@ -26,9 +26,14 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-08-07
+date: 2023-10-11
 signer: 
 reviewArchive:
+- date: 2023-08-07
+  version: 1.0.21
+  appHash: 
+  gitRevision: b164591d0b50c2a0616d8b75f8efee8202fecc8b
+  verdict: reproducible
 - date: 2023-06-29
   version: 0.1.48
   appHash: d329dbf4fea13c6cde7df9682febae15e162947dc5a747aae98540f69e1a25d3
@@ -49,8 +54,63 @@ features:
 
 ---
 
-{{ page.title }} made a big jump in versioning last week - from `0.1.48` to now
-`1.0.21`. Maybe now things are reproducible?
+**Update 2023-10-11**: We tested the latest version of {{ page.title }} using
+our test script:
+
+```
+$ scripts/test/hardware/blockstreamjade.sh 1.0.23
+...
+Project build complete. To flash, run this command:
+/root/.espressif/python_env/idf5.0_py3.9_env/bin/python ../../../root/esp/esp-idf/components/esptool_py/esptool/esptool.py -p (PORT) -b 460800 --before default_reset --after no_reset --chip esp32  write_flash --flash_mode dio --flash_size keep --flash_freq 40m 0x9000 build/partition_table/partition-table.bin 0xe000 build/ota_data_initial.bin 0x10000 build/jade.bin
+or run 'idf.py -p (PORT) flash'
+espsecure.py v4.6.2
+1 signing key(s) found.
+Signed 1310720 bytes of data from ./build/jade.bin. Signature sector now has 1 signature blocks.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 51977  100 51977    0     0  31868      0  0:00:01  0:00:01 --:--:-- 31868
+--2023-10-10 17:43:04--  https://jadefw.blockstream.com/bin/jade/1.0.23_ble_1314816_fw.bin
+Resolving jadefw.blockstream.com (jadefw.blockstream.com)... 35.237.55.41
+Connecting to jadefw.blockstream.com (jadefw.blockstream.com)|35.237.55.41|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 854909 (835K) [application/x-sega-cd-rom]
+Saving to: ‘downloaded-firmware.bin.gz’
+
+downloaded-firmware.bin.gz                           100%[=====================================================================================================================>] 834.87K   840KB/s    in 1.0s    
+
+2023-10-10 17:43:06 (840 KB/s) - ‘downloaded-firmware.bin.gz’ saved [854909/854909]
+
+c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa  downloaded-firmware.bin
+26c9ddeb9935dffa3f4a297c8925725081dd4fac5747bc5634284edb801aa0af  build/jade_signed.bin
+fa70e01a585b5e89458c3c025f9d766273592c700830737df3d834e952e1cb4b  build/jade.bin
+```
+
+Ok. That test script apparently isn't showing a usable result as the hashes of
+all three files are expected to be different. The first two are signed with
+differing keys and the third is unsigned but our script doesn't show the
+downloaded-firmware.bin minus the signature block. Let's do this quickly:
+
+```
+$ head -c -4096 downloaded-firmware.bin > downloaded-firmware_stripped.bin
+$ sha256sum downloaded-firmware* build/jade.bin 
+c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa  downloaded-firmware.bin
+fa70e01a585b5e89458c3c025f9d766273592c700830737df3d834e952e1cb4b  downloaded-firmware_stripped.bin
+fa70e01a585b5e89458c3c025f9d766273592c700830737df3d834e952e1cb4b  build/jade.bin
+```
+
+That looks good. The {{ page.title }} firmware is **reproducible**.
+
+Those latest findings were incorporated in the test script which now ends in:
+
+```
+c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa  downloaded-firmware.bin
+fa70e01a585b5e89458c3c025f9d766273592c700830737df3d834e952e1cb4b  downloaded-firmware_stripped.bin
+fa70e01a585b5e89458c3c025f9d766273592c700830737df3d834e952e1cb4b  build/jade.bin
+The Jade firmware version 1.0.23 is reproducible with above hashes.
+```
+
+**Update 2023-08-07**: {{ page.title }} made a big jump in versioning last week
+- from `0.1.48` to now `1.0.21`. Maybe now things are reproducible?
 
 Running our script as is, gave us this diff:
 

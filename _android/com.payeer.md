@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.payeer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-11-02
+date: 2023-10-14
 signer: 
 reviewArchive: 
 twitter: 
