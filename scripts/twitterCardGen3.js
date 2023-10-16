@@ -13,38 +13,26 @@ const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD files f
 const basePath = path.join(__dirname, '..');
 const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG600x600.jpg');
 const iconsBasePath = path.join(basePath, 'images', 'wIcons'); // Icons base path 
-const barlow30path = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow30black', '7R9s0RBr248p1NXogRG5taD4.ttf.fnt');
-const barlow27path = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow27black', 'wLGmfyMfmpMdLRpomfzsFBfq.ttf.fnt');
-const barlow25path = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow25black', 'jMYUacOdgyFacfesoWuVlXmp.ttf.fnt');
-const barlow25graypath = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow25gray', 'dWxVsEOMx8Dxe4UUXvy0leGe.ttf.fnt');
-const barlow23path = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow23black', '2KWA9EgA5hCXd2SVQJcsZf3Q.ttf.fnt');
-const barlow18path = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt', 'barlow18black', 'zgfCog9D9HWvpLNyuFjDdXss.ttf.fnt');
+const fontBasePath = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt')
+const barlow30path = path.join(fontBasePath, 'barlow30black', '7R9s0RBr248p1NXogRG5taD4.ttf.fnt');
+const barlow27path = path.join(fontBasePath, 'barlow27black', 'wLGmfyMfmpMdLRpomfzsFBfq.ttf.fnt');
+const barlow25path = path.join(fontBasePath, 'barlow25black', 'jMYUacOdgyFacfesoWuVlXmp.ttf.fnt');
+const barlow25graypath = path.join(fontBasePath, 'barlow25gray', 'dWxVsEOMx8Dxe4UUXvy0leGe.ttf.fnt');
+const barlow23path = path.join(fontBasePath, 'barlow23black', '2KWA9EgA5hCXd2SVQJcsZf3Q.ttf.fnt');
+const barlow18path = path.join(fontBasePath, 'barlow18black', 'zgfCog9D9HWvpLNyuFjDdXss.ttf.fnt');
 
-const verdictMap = {
-    'custodial': 'Custodial: The provider holds the keys',
-    'diy': 'DIY: Do-It-Yourself Project',
-    'fake': 'Fake: The product mimics a popular competitor!',
-    'fewusers': 'Few users: This product has too few users for now to be reviewed in detail.',
-    'ftbfs': 'FTBFS: Failed to build from source provided!',
-    'nobinary': 'No Binary: This product comes without a binary.',
-    'nobtc': 'No BTC: This wallet does not support Bitcoin.',
-    'noita': 'Bad Interface: The device interface does not let you verify what is being signed',
-    'nonverifiable': 'Not reproducible from source provided',
-    'nosendreceive': 'No sending or receiving bitcoins',
-    'nosource': 'No source for current release found',
-    'nowallet': 'Not an actual wallet',
-    'obfuscated': 'Obfuscated: The binary contains active obfuscation',
-    'obsolete': 'Obsolete: Not updated in a long time',
-    'outdated': 'Outdated: Review might be outdated',
-    'plainkey': 'Leaks Keys: This device requires sharing private key material!',
-    'prefilled': 'Prefilled: The device is delivered with the private keys as defined by the provider!',
-    'reproducible': 'Reproducible when tested',
-    'sealed-noita': 'Transactions are signed blindly',
-    'sealed-plainkey': 'Sealed Plainkey: Keys are sealed at first, but may be shared when spending',
-    'unreleased': 'Un-Released!',
-    'vapor': 'Vaporware!',
-    'wip': 'Review is Work in Progress'
-}
+const yaml = require('js-yaml');
+const verdictMap = {};
+const verdictPath = '_data/verdicts';
+fs.readdirSync(verdictPath).forEach((filename) => {
+  if (filename.endsWith('.yml')) {
+    const filePath = path.join(folderPath, filename);
+    const verdict = path.parse(filename).name;
+    const yamlData = fs.readFileSync(filePath, 'utf8');
+    const data = yaml.load(yamlData);
+    jsonData[verdict] = data.title;
+  }
+});
 
 //Starting coordinates for text
 let x = 100;
@@ -70,7 +58,6 @@ async function processFiles() {
         const files = fs.readdirSync (mdFilesPath);
         for (let file of files) {
             if (file.endsWith('.md')) {
-                console.log(`Processing file: ${file}`); // Added log
                 try {
                     const content = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8');
                     const titleMatch = content.match(/title: (.*)/) || ['','Unknown Title'];
@@ -114,7 +101,7 @@ async function processFiles() {
                     // Load the temporary image for text addition
                     const image = await Jimp.read(tempImagePath);
 
-                    const wrappedTitle = wrapText(data.title, 32); // adjust the length as needed
+                    const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
                     for (let i = 0; i < wrappedTitle.length; i++) {
                         image.print(barlow30, 150, 130 + (i * 40), wrappedTitle[i]);
                     }
@@ -191,7 +178,7 @@ async function processFiles() {
                     y = 10;
                     totalFiles++;
                 } catch (err) {
-                    console.log(`Error processing file: ${file}. Error: ${err.message}`); // Added log
+                    console.error(`Error processing file: ${file}. Error: ${err.message}`);
                     totalErrors++;
                 }
             }
