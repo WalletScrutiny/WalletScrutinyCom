@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: life.bbx.bbxpro.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: wip
-date: 2023-01-10
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

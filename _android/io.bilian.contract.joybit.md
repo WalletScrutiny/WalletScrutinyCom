@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bilian.contract.joybit.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-07-04
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 
