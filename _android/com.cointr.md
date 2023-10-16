@@ -39,7 +39,7 @@ features:
 There is another version of this app at: 
 
 - {% include walletLink.html wallet='android/pro.cointr' verdict='true' %}
-- {% include walletLink.html wallet='iphone/pro.cointr' verdict='true' %}
+- {% include walletLink.html wallet='iphone/vip.trcoin.global' verdict='true' %}
 
 - The 'Pro' version is targeted towards a global audience while this specific app is for Turkey. 
 - We found a link to both platforms on an official [CoinTR support page](https://support.cointr.com/hc/tr/articles/6016900478095-CoinTR-PRO-da-TRY-Paritesi-Durdurulacakt%C4%B1r-).

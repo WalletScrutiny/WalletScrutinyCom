@@ -33,5 +33,4 @@ developerName: Bitazza Company Limited
 
 ---
 
-{% include walletLink.html wallet='android/' verdict='true' %}
-
+{% include copyFromAndroid.html %}
