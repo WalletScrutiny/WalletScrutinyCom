@@ -3,7 +3,7 @@ wsId:
 title: ZenaPay Merchant
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.zenapay.merchant
 appCountry: 
 released: 2018-01-02

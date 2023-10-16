@@ -8,11 +8,11 @@ users: 10000
 appId: com.application.koinpark
 appCountry: 
 released: 2023-02-04
-updated: 2023-10-04
-version: '1.20'
-stars: 
+updated: 2023-10-10
+version: '1.21'
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://koinpark.com/
 repository: 

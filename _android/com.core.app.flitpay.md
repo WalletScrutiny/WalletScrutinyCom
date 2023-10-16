@@ -12,7 +12,7 @@ updated: 2023-10-05
 version: 1.0.49
 stars: 4.3
 ratings: 2217
-reviews: 1893
+reviews: 1890
 size: 
 website: https://www.flitpay.com/
 repository: 

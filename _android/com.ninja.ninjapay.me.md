@@ -3,12 +3,12 @@ wsId:
 title: 'Ninjapay: BTC Trade & Payments'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.ninja.ninjapay.me
 appCountry: 
 released: 2023-01-10
-updated: 2023-09-20
-version: 2.1.4
+updated: 2023-10-11
+version: 2.1.5
 stars: 
 ratings: 
 reviews: 

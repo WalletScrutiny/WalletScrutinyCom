@@ -12,7 +12,7 @@ updated: 2023-09-29
 version: 1.10.1017
 stars: 4.8
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://exbito.com
 repository: 

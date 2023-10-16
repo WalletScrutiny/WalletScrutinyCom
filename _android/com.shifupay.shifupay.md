@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.shifupay.shifupay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: 

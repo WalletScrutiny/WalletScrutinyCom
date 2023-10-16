@@ -11,7 +11,7 @@ released: 2020-08-09
 updated: 2023-09-29
 version: 3.0.3
 stars: 3.5
-reviews: 27
+reviews: 28
 size: '106048512'
 website: https://ex.z.com/
 repository: 

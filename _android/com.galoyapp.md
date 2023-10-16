@@ -10,8 +10,8 @@ appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
 updated: 2023-10-03
-version: 2.2.125
-stars: 4.4
+version: 2.2.142
+stars: 4.5
 ratings: 
 reviews: 6
 size: 

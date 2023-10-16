@@ -12,7 +12,7 @@ updated: 2023-09-05
 version: 1.0.25
 stars: 4.1
 ratings: 2380
-reviews: 74
+reviews: 75
 size: 
 website: https://exnovin.net
 repository: 
@@ -34,7 +34,7 @@ features:
 
 ---
 
-There are two apps with the same name of {% include walletLink.html wallet='io.exnovin.app' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.net](https://exnovin.net).
+There are two apps with the same name of {% include walletLink.html wallet='android/io.exnovin.app' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.net](https://exnovin.net).
 
 Exnovin refers to itself as an app made for buying and selling digital currencies. 
 

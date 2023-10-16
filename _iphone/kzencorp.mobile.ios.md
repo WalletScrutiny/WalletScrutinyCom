@@ -8,10 +8,10 @@ appId: kzencorp.mobile.ios
 appCountry: 
 idd: 1440147115
 released: 2019-06-07
-updated: 2023-09-27
-version: '7.4'
+updated: 2023-10-09
+version: 7.4.4
 stars: 4.7
-reviews: 3146
+reviews: 3155
 size: '91080704'
 website: https://www.zengo.com
 repository: 
