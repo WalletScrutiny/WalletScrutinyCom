@@ -32,5 +32,5 @@ features:
 
 ---
 
-This is the companion app to the hardware wallet: {% include walletLink.html wallet='hardware/icynote' verdict='true' %}
+This is the companion app to the bearer token: {% include walletLink.html wallet='bearer/icynote' verdict='true' %}
 
