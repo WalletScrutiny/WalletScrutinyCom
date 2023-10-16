@@ -74,7 +74,8 @@ async function processFiles() {
                 try {
                     const content = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8');
                     const titleMatch = content.match(/title: (.*)/) || ['','Unknown Title'];
-                    const versionMatch = content.match(/version: (.*)/) || ['','Unknown Version'];
+                    const versionCollect = content.match(/version: (.*)/) || ['','Unknown Version'];
+                    const versionMatch = versionCollect[1].replace(/'/g, '');
                     const verdictMatch = content.match(/verdict: (.*)/) || ['','Unknown Verdict'];
                     const developerNameMatch = content.match(/developerName: (.*)/) || ['','Unknown Developer'];
                     const usersMatch = content.match(/users: (.*)/) || ['','Unknown Users'];
@@ -89,7 +90,7 @@ async function processFiles() {
                     }
                     const data = {
                         title: titleMatch[1],
-                        version: versionMatch[1],
+                        version: versionMatch,
                         verdict: verdictMatch[1],
                         developerName: developerNameMatch[1],
                         users: usersMatch[1],
@@ -120,7 +121,7 @@ async function processFiles() {
                     y += wrappedTitle.length * 40;  // adjust the multiplier as per the font size
 
                     // Writing version with Barlow font
-                    image.print(barlow18, 55, 235, data.version);
+                    image.print(barlow23, 55, 235, data.version);
                     y += 30; // Increment Y by an estimated height for the next item
 
                     // Writing verdict with Barlow font
