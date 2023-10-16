@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: br.btcbox.platform.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-09-20
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 
