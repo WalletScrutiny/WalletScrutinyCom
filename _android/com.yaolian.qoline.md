@@ -35,5 +35,5 @@ features:
 ---
 
 This is the Android companion app to the hardware wallet: 
-{% include walletLink.html wallet='hardware/salletone' verdict='true' %}
+{% include walletLink.html wallet='hardware/sallet.one' verdict='true' %}
 

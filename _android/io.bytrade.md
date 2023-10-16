@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-24
 updated: 2023-09-27
 version: 1.9.7
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 39
+reviews: 37
 size: 
 website: https://www.bytrade.io/
 repository: 

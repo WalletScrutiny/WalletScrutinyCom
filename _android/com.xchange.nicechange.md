@@ -8,8 +8,8 @@ users: 1000
 appId: com.xchange.nicechange
 appCountry: 
 released: 2021-05-25
-updated: 2021-05-25
-version: '1.0'
+updated: 2023-10-08
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xchange.nicechange.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-05-21
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: 

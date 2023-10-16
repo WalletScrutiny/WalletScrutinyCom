@@ -4,7 +4,7 @@ title: 'Quantfury: Your Global Broker'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.quantfury
 appCountry: gb
 released: 2018-11-26

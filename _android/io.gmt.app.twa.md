@@ -1,6 +1,6 @@
 ---
 wsId: goMiningToken
-title: 'GoMining: BTC, Token & NFTs'
+title: 'GoMining: Simple BTC Mining'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-09-19
 version: '16'
 stars: 3.4
 ratings: 
-reviews: 54
+reviews: 61
 size: 
 website: https://gomining.com
 repository: 

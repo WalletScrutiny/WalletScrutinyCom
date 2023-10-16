@@ -8,11 +8,11 @@ users: 100000
 appId: com.blockchain.exchange
 appCountry: 
 released: 2021-10-27
-updated: 2023-05-08
-version: 202304.1.1
+updated: 2023-10-08
+version: 202310.1.1
 stars: 4.2
 ratings: 
-reviews: 43
+reviews: 44
 size: 
 website: https://www.blockchain.com
 repository: 

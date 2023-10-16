@@ -1,6 +1,6 @@
 ---
 wsId: beloCrypto
-title: 'Belo: your digital passport'
+title: 'Belo: your financial passport'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.belo.ios
 appCountry: co
 idd: '1575614708'
 released: 2021-09-08
-updated: 2023-10-02
-version: 3.4.0
+updated: 2023-10-12
+version: 3.6.1
 stars: 4.7
 reviews: 14
-size: '78054400'
+size: '77745152'
 website: https://belo.app
 repository: 
 issue: 

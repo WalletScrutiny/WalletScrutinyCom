@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bumoon.boo.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-30
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: bobablocks

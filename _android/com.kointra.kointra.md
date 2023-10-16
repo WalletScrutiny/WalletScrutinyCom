@@ -8,8 +8,8 @@ users: 5000
 appId: com.kointra.kointra
 appCountry: 
 released: 2019-01-25
-updated: 2021-09-14
-version: 3.1.2
+updated: 2023-10-04
+version: 3.2.0
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kointra.kointra.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-09-04
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: KointraTR

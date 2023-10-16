@@ -4,7 +4,7 @@ title: icewal
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.icecorp.wallet
 appCountry: 
 released: 2022-08-24

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.browallted.comlogin.php.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-07-17
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

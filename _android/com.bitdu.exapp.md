@@ -3,7 +3,7 @@ wsId:
 title: Bitdu
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitdu.exapp
 appCountry: 
 released: 2021-07-21

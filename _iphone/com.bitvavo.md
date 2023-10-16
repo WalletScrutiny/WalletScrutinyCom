@@ -8,11 +8,11 @@ appId: com.bitvavo
 appCountry: be
 idd: 1483903423
 released: 2020-05-28
-updated: 2023-09-27
-version: 2.26.0
+updated: 2023-10-13
+version: 2.27.0
 stars: 4.6
-reviews: 2740
-size: '62630912'
+reviews: 2807
+size: '66352128'
 website: https://bitvavo.com
 repository: 
 issue: 

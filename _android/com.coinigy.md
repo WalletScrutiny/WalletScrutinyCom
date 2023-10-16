@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinigy.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-07
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: coinigy

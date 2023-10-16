@@ -8,11 +8,11 @@ appId: com.osmowallet.app
 appCountry: us
 idd: '1610776134'
 released: 2022-06-14
-updated: 2023-09-25
-version: 2.5.4
+updated: 2023-10-12
+version: 2.5.5
 stars: 4.7
 reviews: 9
-size: '165855232'
+size: '168556544'
 website: https://www.osmowallet.com/
 repository: 
 issue: 

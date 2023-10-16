@@ -11,7 +11,7 @@ released: 2021-08-15
 updated: 2023-08-16
 version: 6.2.0
 stars: 4.8
-reviews: 117
+reviews: 118
 size: '33988608'
 website: https://www.coinmrk.com/
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: fahim_edu.appmining
 appCountry: 
 released: 2021-03-27
-updated: 2023-08-21
-version: 3.08.21
+updated: 2023-10-12
+version: 3.10.12
 stars: 4.7
 ratings: 
 reviews: 66
