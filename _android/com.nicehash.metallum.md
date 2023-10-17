@@ -12,7 +12,7 @@ updated: 2023-10-12
 version: 4.10.0
 stars: 4.3
 ratings: 
-reviews: 540
+reviews: 541
 size: 
 website: https://www.nicehash.com/my/
 repository: 

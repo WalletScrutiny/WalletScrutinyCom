@@ -10,8 +10,8 @@ idd: '1606903304'
 released: 2022-01-29
 updated: 2023-09-28
 version: 1.37.0
-stars: 3.9
-reviews: 14
+stars: 3.7
+reviews: 15
 size: '158080000'
 website: https://emcd.io/about
 repository: 

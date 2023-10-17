@@ -12,7 +12,7 @@ updated: 2023-09-15
 version: 2.6.2
 stars: 4.1
 ratings: 821
-reviews: 133
+reviews: 132
 size: 
 website: http://splashfactory.com
 repository: 

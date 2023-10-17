@@ -8,11 +8,11 @@ appId: com.bitex.otc
 appCountry: sg
 idd: '1574033398'
 released: 2021-09-02
-updated: 2023-09-27
-version: 1.7.3
+updated: 2023-10-16
+version: 1.7.5
 stars: 5
 reviews: 6
-size: '57481216'
+size: '57489408'
 website: https://www.bitex.sg/
 repository: 
 issue: 
