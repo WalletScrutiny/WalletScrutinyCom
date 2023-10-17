@@ -14,6 +14,7 @@ const basePath = path.join(__dirname, '..');
 const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG600x600.jpg');
 const iconsBasePath = path.join(basePath, 'images', 'wIcons'); // Icons base path 
 const fontBasePath = path.join(basePath, 'assets', 'fonts', 'Barlow', 'barlow-fnt')
+const notoSansPath = path.join(basePath, 'assets', 'fonts', 'NotoSans', 'NotoSans.fnt'); // Path to Noto Sans Arabic Font
 const barlow30path = path.join(fontBasePath, 'barlow30black', '7R9s0RBr248p1NXogRG5taD4.ttf.fnt');
 const barlow27path = path.join(fontBasePath, 'barlow27black', 'wLGmfyMfmpMdLRpomfzsFBfq.ttf.fnt');
 const barlow25path = path.join(fontBasePath, 'barlow25black', 'jMYUacOdgyFacfesoWuVlXmp.ttf.fnt');
@@ -60,6 +61,7 @@ async function processFiles() {
 
     // Load font within the function
     const barlow30 = await Jimp.loadFont(barlow30path);
+    const notoSans = await Jimp.loadFont(notoSansPath);
     const barlow27 = await Jimp.loadFont(barlow27path);
     const barlow25 = await Jimp.loadFont(barlow25path);
     const barlow25g = await Jimp.loadFont(barlow25graypath);
@@ -98,9 +100,20 @@ async function processFiles() {
                     // Load the temporary image for text addition
                     const image = await Jimp.read(tempImagePath);
 
+                    // Regex for Arabic characters
+                    const arabicCharRegExp = /[\u0600-\u06FF]/; // This is supposed to search and detect for any Arabic characters in the text
+
                     const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
                     for (let i = 0; i < wrappedTitle.length; i++) {
-                        image.print(barlow30, 150, 130 + (i * 40), wrappedTitle[i]);
+                        const currentLine = wrappedTitle[i];
+                        if (arabicCharRegExp.test(currentLine)) {
+                            // IF any of the titles contain characters listed in the RegEx, switch to the Arabic-supporting font
+                            image.print(notoSans, 150, 130 + (i * 40), wrappedTitle[i]);
+                        } else {
+                            // Otherwise the title is output in Barlow 30. Unfortunately it does not work with mixed English/Arabic titles.
+                            image.print(barlow30, 150, 130 + (i * 40), wrappedTitle[i]);
+                            
+                        }
                     }
                     y += wrappedTitle.length * 40;  // adjust the multiplier as per the font size
 
