@@ -75,7 +75,6 @@ async function processFiles() {
         const files = fs.readdirSync (mdFilesPath);
         for (let file of files) {
             if (file.endsWith('.md')) {
-                try {
                     const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
                     const data = yaml.load(parts[1]);
                     
@@ -183,10 +182,6 @@ async function processFiles() {
                     await image.writeAsync(outputPath);
                     y = 10;
                     totalFiles++;
-                } catch (err) {
-                    console.error(`Error processing file: ${file}. Error: ${err.message}`);
-                    totalErrors++;
-                }
             }
         }
     }
