@@ -20,23 +20,38 @@ const barlow25path = path.join(fontBasePath, 'barlow25black', 'jMYUacOdgyFacfeso
 const barlow25graypath = path.join(fontBasePath, 'barlow25gray', 'dWxVsEOMx8Dxe4UUXvy0leGe.ttf.fnt');
 const barlow23path = path.join(fontBasePath, 'barlow23black', '2KWA9EgA5hCXd2SVQJcsZf3Q.ttf.fnt');
 const barlow18path = path.join(fontBasePath, 'barlow18black', 'zgfCog9D9HWvpLNyuFjDdXss.ttf.fnt');
+const fallbackIcon = path.join(basePath, 'images', 'smallNoicon.png'); 
 
 const yaml = require('js-yaml');
 const verdictMap = {};
 const verdictPath = '_data/verdicts';
 fs.readdirSync(verdictPath).forEach((filename) => {
   if (filename.endsWith('.yml')) {
-    const filePath = path.join(folderPath, filename);
+    const filePath = path.join(verdictPath, filename);
     const verdict = path.parse(filename).name;
     const yamlData = fs.readFileSync(filePath, 'utf8');
     const data = yaml.load(yamlData);
-    jsonData[verdict] = data.title;
+    verdictMap[verdict] = data.title;
   }
 });
 
 //Starting coordinates for text
 let x = 100;
 let y = 10;
+
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed
+    const day = String(date.getDate()).padStart(2, '0');
+
+    return `${year}-${month}-${day}`;
+}
+
+function printLabel(image, font, x, y, text) {
+    image.print(font, x, y, text);
+    return y + 35;
+}
 
 async function processFiles() {
     let totalFiles = 0;
@@ -59,38 +74,20 @@ async function processFiles() {
         for (let file of files) {
             if (file.endsWith('.md')) {
                 try {
-                    const content = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8');
-                    const titleMatch = content.match(/title: (.*)/) || ['','Unknown Title'];
-                    const versionCollect = content.match(/version: (.*)/) || ['','Unknown Version'];
-                    const versionMatch = versionCollect[1].replace(/'/g, '');
-                    const verdictMatch = content.match(/verdict: (.*)/) || ['','Unknown Verdict'];
-                    const developerNameMatch = content.match(/developerName: (.*)/) || ['','Unknown Developer'];
-                    const usersMatch = content.match(/users: (.*)/) || ['','Unknown Users'];
-                    const releasedMatch = content.match(/released: (.*)/) || ['','Unknown Released Date'];
-                    const updatedMatch = content.match(/updated: (.*)/) || ['','Unknown Updated Date'];
-                    const dateMatch = content.match(/date: (.*)/) || ['','Unknown Date'];
-                    const iconMatch = content.match(/icon: (.*)/) || ['','Unknown Icon'];
-
-                    // Check if any match is null
-                    if (!titleMatch || !versionMatch || !verdictMatch || !developerNameMatch || !usersMatch || !releasedMatch || !updatedMatch || !dateMatch || !iconMatch) {
-                        throw new Error(`Missing property in file: ${file}`);
-                    }
-                    const data = {
-                        title: titleMatch[1],
-                        version: versionMatch,
-                        verdict: verdictMatch[1],
-                        developerName: developerNameMatch[1],
-                        users: usersMatch[1],
-                        released: releasedMatch[1],
-                        updated: updatedMatch[1],
-                        date: dateMatch[1],
-                        icon: iconMatch[1]
-                    };
-                 
+                    const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
+                    const data = yaml.load(parts[1]);
+                    
+                    let iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), 'small', `${data.icon}`);
+                    if (!fs.existsSync(iconImage)) {
+                        iconImage = fallbackIcon;
+                    }              
+                    // Uncomment to troubleshoot errors
+                    // console.log('Parsed data:', data);
+                    // console.log(`File Content: ${parts}`);
+                    
                     // calculate the number of lines the title will occupy
                     const titleLineCount = Math.ceil(Jimp.measureText(barlow25, data.title) / 350); // assuming maxWidth is 250 as in your code
 
-                    const iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), 'small', `${data.icon}`);
                     const tempImagePath = path.join(basePath, 'tempImage.png');
 
                     // Overlay icon onto the background using ImageMagick
@@ -108,11 +105,12 @@ async function processFiles() {
                     y += wrappedTitle.length * 40;  // adjust the multiplier as per the font size
 
                     // Writing version with Barlow font
-                    image.print(barlow23, 55, 235, data.version);
+                    const version = data.version ?? 'N/A';
+                    image.print(barlow23, 55, 235, version);
                     y += 30; // Increment Y by an estimated height for the next item
 
                     // Writing verdict with Barlow font
-                    const mappedVerdict = verdictMap[data.verdict] || data.verdict;
+                    const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
                     const wrappedVerdict = wrapText(mappedVerdict, 40); 
                     for (let i = 0; i < wrappedVerdict.length; i++) {
                         image.print(barlow25, 150, 225 + (i * 30), wrappedVerdict[i]);
@@ -137,40 +135,35 @@ async function processFiles() {
 
                     y += lineHeight + 10; 
                     // Labels        
-                    image.print(barlow25g, 150, 337, "Developer:");
-                    y += 30;
-
-                    image.print(barlow25g, 150, 372, "Downloads:");
-                    y += 30;
-
-                    image.print(barlow25g, 150, 407, "Released:");
-                    y += 30;
-
-                    image.print(barlow25g, 150, 442, "Latest Release:");
-                    y += 30;
-
-                    image.print(barlow25g, 150, 477, "Last Analyzed:");
-                    y += 30;
+                    y = 337;
+                    y = printLabel(image, barlow25g, 150, y, "Developer:");
+                    y = printLabel(image, barlow25g, 150, y, "Downloads:");
+                    y = printLabel(image, barlow25g, 150, y, "Released:");
+                    y = printLabel(image, barlow25g, 150, y, "Latest Release:");
+                    y = printLabel(image, barlow25g, 150, y, "Last Analyzed:");
 
                     // Writing developerName with Barlow font
-                    const clippedDeveloperName = data.developerName.length > 15 ? data.developerName.substr(0, 15) + "..." : data.developerName;
+                    const clippedDeveloperName = data.developerName ? (data.developerName.length > 15 ? data.developerName.substr(0, 15) + "..." : data.developerName) : 'Unknown Developer';
                     image.print(barlow25, 340, 337, clippedDeveloperName);
                     y += 30; // Adjust y for the next item, depending on the font size you want.
 
                     // Writing users with Barlow font
-                    image.print(barlow25, 340, 372, `${data.users}`);
+                    image.print(barlow25, 340, 372, `${data.users ?? 'N/A'}`);
                     y += 30;
 
                     // Writing released date with Barlow font
-                    image.print(barlow25, 340, 407, `${data.released}`);
+                    const formattedReleasedDate = data.released ? formatDate(data.released): 'Unknown Date';
+                    image.print(barlow25, 340, 407, formattedReleasedDate);
                     y += 30;
 
                     // Writing updated date with Barlow font
-                    image.print(barlow25, 340, 442, `${data.updated}`);
+                    const formattedUpdatedDate = data.updated ? formatDate(data.updated): 'Unknown Date';
+                    image.print(barlow25, 340, 442, formattedUpdatedDate);
                     y += 30;
 
                     // Writing date with Barlow font
-                    image.print(barlow25, 340, 477, `${data.date}`);
+                    const formattedDate = data.date ? formatDate(data.date): 'Unknown Date';
+                    image.print(barlow25, 340, 477, formattedDate);
                     y += 30;
 
                     const outputPath = `${basePath}/images/social/${mdFolder.substring(1)}/${file.replace('.md', '.png')}`;
