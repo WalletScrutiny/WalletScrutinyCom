@@ -75,11 +75,16 @@ async function processFilesWithCanvas() {
     let totalFiles = 0;
     let totalErrors = 0;
     const startTime = Date.now();
+    const socialImagesFolderPath = `${basePath}/images/social`;
+    fs.existsSync(socialImagesFolderPath) || fs.mkdirSync(socialImagesFolderPath);
 
     for (let mdFolder of mdFolders) {
         const mdFilesPath = path.join(basePath, mdFolder); // MD files path
-        const iconsPath = path.join(iconsBasePath, mdFolder.substring(1), 'small'); // Icons path
+        const platform = mdFolder.substring(1);
+        const iconsPath = path.join(iconsBasePath, platform, 'small'); // Icons path
         const files = fs.readdirSync(mdFilesPath);
+        const outputFolderPath = `${basePath}/images/social/${platform}`;
+        fs.existsSync(outputFolderPath) || fs.mkdirSync(outputFolderPath);
 
         for (let file of files) {
             if (file.endsWith('.md')) {
@@ -87,7 +92,7 @@ async function processFilesWithCanvas() {
                     const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
                     const data = yaml.load(parts[1]);
 
-                    let iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), `${data.icon}`);
+                    let iconImage = path.join(basePath, 'images', 'wIcons', platform, `${data.icon}`);
                     if (!fs.existsSync(iconImage)) {
                         iconImage = fallbackIcon;
                     }
@@ -198,7 +203,7 @@ async function processFilesWithCanvas() {
                     ctx.fillText(formattedAnalyzeDate, 600, 535);                   
 
                     // Save the Canvas as an image
-                    const outputPath = `${basePath}/images/social/${mdFolder.substring(1)}/${file.replace('.md', '.png')}`;
+                    const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
                     const outputStream = fs.createWriteStream(outputPath);
                     const stream = canvas.createPNGStream();
                     stream.pipe(outputStream);
