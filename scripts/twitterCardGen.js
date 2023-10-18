@@ -16,6 +16,39 @@ const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG8
 const iconsBasePath = path.join(basePath, 'images', 'wIcons'); // Icons base path 
 const fallbackIcon = path.join(basePath, 'images', 'smallNoicon.png'); 
 
+// Two variables for temporary Images
+const tempImagePath = path.join(basePath, 'tempImage.png');
+const tempIconPath = path.join(basePath, 'tempIcon.png');
+
+// Function to delete temporary files
+function deleteTempFiles() {
+  // Delete the temporary icon file
+  fs.unlink(tempIconPath, (err) => {
+    if (err) {
+      console.error(`Error deleting ${tempIconPath}: ${err.message}`);
+    } else {
+      console.log(`${tempIconPath} deleted successfully.`);
+    }
+  });
+
+  // Delete the temporary image file
+  fs.unlink(tempImagePath, (err) => {
+    if (err) {
+      console.error(`Error deleting ${tempImagePath}: ${err.message}`);
+    } else {
+      console.log(`${tempImagePath} deleted successfully.`);
+    }
+  });
+}
+
+// Set up a signal handler to catch process termination (e.g., Ctrl+C)
+process.on('SIGINT', () => {
+  console.log('Script interrupted. Cleaning up...');
+  deleteTempFiles();
+  process.exit(1); // Exit the script
+});
+
+
 const yaml = require('js-yaml');
 const verdictMap = {};
 const verdictPath = '_data/verdicts';
@@ -60,14 +93,17 @@ async function processFilesWithCanvas() {
                     const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
                     const data = yaml.load(parts[1]);
 
-                    let iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), 'small', `${data.icon}`);
+                    let iconImage = path.join(basePath, 'images', 'wIcons', mdFolder.substring(1), `${data.icon}`);
                     if (!fs.existsSync(iconImage)) {
                         iconImage = fallbackIcon;
                     }
-                    const tempImagePath = path.join(basePath, 'tempImage.png');
-                    const coords = '+30+130';
+                    const coords = '+30+90';
 
-                    await exec(`convert ${backgroundImage} ${iconImage} -geometry +${coords} -composite ${tempImagePath}`);
+                    // First, resize the iconImage
+                    await exec(`convert ${iconImage} -resize 27% ${tempIconPath}`);
+
+                    // Then, composite the resized icon onto the backgroundImage
+                    await exec(`convert ${backgroundImage} ${tempIconPath} -geometry +${coords} -composite ${tempImagePath}`);
 
                     // Create a Canvas and load the temporary image
                     const { createCanvas, loadImage } = require('canvas');
@@ -87,7 +123,7 @@ async function processFilesWithCanvas() {
                         const currentLine = wrappedTitle[i];
                         // Render the text with the selected font, size, and color
                         ctx.font = '32px Barlow';
-                        ctx.fillText(currentLine, 150, 130 + (i * 40));
+                        ctx.fillText(currentLine, 180, 130 + (i * 40));
                     }
 
                     // Add version
@@ -101,11 +137,11 @@ async function processFilesWithCanvas() {
                     const wrappedVerdict = wrapText(mappedVerdict, 40); 
                     for (let i = 0; i < wrappedVerdict.length; i++) {
                         const currentLine = wrappedVerdict[i];
-                        ctx.fillText(currentLine, 150, 225 + (i * 30), );
+                        ctx.fillText(currentLine, 180, 225 + (i * 30), );
                     }
                     y += wrappedVerdict.length * 23; // adjust the multiplier as per the font size
                     
-                    // Seperator line code
+                    // Separator line code
                     ctx.strokeStyle = 'rgb(128, 128, 128)';  // Set the line color to light gray
                     ctx.lineWidth = 1;         // Set the line width to 2 pixels
 
@@ -115,7 +151,7 @@ async function processFilesWithCanvas() {
                     ctx.stroke();
                     ctx.closePath();
                     
-                    let propertyX = 500;
+                    let propertyX = 500; // This sets the X coordinate of the properties below the line separator.
                     // Writing developerName with Barlow font
                     const clippedDeveloperName = data.developerName ? (data.developerName.length > 23 ? data.developerName.substr(0, 23) + "..." : data.developerName) : 'Unknown Developer';
                     ctx.fillText(clippedDeveloperName, propertyX, 337);
@@ -149,6 +185,9 @@ async function processFilesWithCanvas() {
     console.log(`Total files processed: ${totalFiles}`);
     console.log(`Total errors: ${totalErrors}`);
     console.log(`Total time it took to process: ${totalTime} ms`);
+
 }
 
 processFilesWithCanvas();
+
+deleteTempFiles();
