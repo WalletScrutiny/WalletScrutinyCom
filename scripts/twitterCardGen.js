@@ -22,23 +22,17 @@ const tempIconPath = path.join(basePath, 'tempIcon.png');
 
 // Function to delete temporary files
 function deleteTempFiles() {
-  // Delete the temporary icon file
-  fs.unlink(tempIconPath, (err) => {
-    if (err) {
-      console.error(`Error deleting ${tempIconPath}: ${err.message}`);
-    } else {
-      console.log(`${tempIconPath} deleted successfully.`);
+    // Check and delete the temporary icon file
+    if (fs.existsSync(tempIconPath)) {
+        fs.unlink(tempIconPath, (err) => {
+        });
     }
-  });
 
-  // Delete the temporary image file
-  fs.unlink(tempImagePath, (err) => {
-    if (err) {
-      console.error(`Error deleting ${tempImagePath}: ${err.message}`);
-    } else {
-      console.log(`${tempImagePath} deleted successfully.`);
+    // Check and delete the temporary image file
+    if (fs.existsSync(tempImagePath)) {
+        fs.unlink(tempImagePath, (err) => {
+        });
     }
-  });
 }
 
 // Set up a signal handler to catch process termination (e.g., Ctrl+C)
@@ -100,7 +94,7 @@ async function processFilesWithCanvas() {
                     const coords = '+30+90';
 
                     // First, resize the iconImage
-                    await exec(`convert ${iconImage} -resize 27% ${tempIconPath}`);
+                    await exec(`convert ${iconImage} -resize 175x175! ${tempIconPath}`);
 
                     // Then, composite the resized icon onto the backgroundImage
                     await exec(`convert ${backgroundImage} ${tempIconPath} -geometry +${coords} -composite ${tempImagePath}`);
@@ -112,66 +106,105 @@ async function processFilesWithCanvas() {
                     const img = await loadImage(tempImagePath);
 
                     Font('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
-
-
+                    
                     ctx.drawImage(img, 0, 0);
 
-                    // Add text to the Canvas using Canvas functions
-
+                    // Title
                     const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
                     for (let i = 0; i < wrappedTitle.length; i++) {
                         const currentLine = wrappedTitle[i];
                         // Render the text with the selected font, size, and color
-                        ctx.font = '32px Barlow';
-                        ctx.fillText(currentLine, 180, 130 + (i * 40));
+                        ctx.font = '36px Barlow';
+                        ctx.fillText(currentLine, 225, 130 + (i * 40));
                     }
-
-                    // Add version
-                    ctx.font = '20px Barlow';
-                    ctx.fillText(data.version, 55, 255); 
+                    // Version label
+                    ctx.font = '18px Barlow';
+                    ctx.fillText('Version: ', 50, 300)    
+                    // Version No:
+                    ctx.font = '18px Barlow';
+                    ctx.fillText(data.version, 125, 300); 
 
                     y += 30; // Increment Y by an estimated height for the next item
 
-                    // Writing verdict with Barlow font
+                    // Verdict 
                     const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
-                    const wrappedVerdict = wrapText(mappedVerdict, 40); 
+                    const wrappedVerdict = wrapText(mappedVerdict, 37);
+                    ctx.font = '30px Barlow';  
                     for (let i = 0; i < wrappedVerdict.length; i++) {
                         const currentLine = wrappedVerdict[i];
-                        ctx.fillText(currentLine, 180, 225 + (i * 30), );
+                        ctx.fillText(currentLine, 225, 225 + (i * 30), );
                     }
                     y += wrappedVerdict.length * 23; // adjust the multiplier as per the font size
                     
+                    // Developer Label
+                    ctx.font = '24px Barlow';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillText('Developer:', 225, 300);
+                    // Developer Name:
+                    ctx.font = '24px Barlow';
+                    ctx.fillStyle = 'black';
+                    ctx.fillText(data.developerName, 355, 300);  
+
                     // Separator line code
+                    //------------------------------
+                    ctx.globalAlpha = 0.3; // 70% transparency
                     ctx.strokeStyle = 'rgb(128, 128, 128)';  // Set the line color to light gray
                     ctx.lineWidth = 1;         // Set the line width to 2 pixels
 
                     ctx.beginPath();
-                    ctx.moveTo(225, 315);
-                    ctx.lineTo(525, 315);
+                    ctx.moveTo(225, 335);
+                    ctx.lineTo(750, 335);
                     ctx.stroke();
                     ctx.closePath();
                     
-                    let propertyX = 500; // This sets the X coordinate of the properties below the line separator.
-                    // Writing developerName with Barlow font
-                    const clippedDeveloperName = data.developerName ? (data.developerName.length > 23 ? data.developerName.substr(0, 23) + "..." : data.developerName) : 'Unknown Developer';
-                    ctx.fillText(clippedDeveloperName, propertyX, 337);
-                    y += 30; // Adjust y for the next item, depending on the font size you want.
+                    //------------------------------
 
-                    // Writing users with Barlow font
-                    ctx.fillText(`${data.users ?? 'N/A'}`, propertyX, 372, );
-                    y += 30;
+                    // Downloads Label
+                    ctx.globalAlpha = 1; 
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillText('Downloads:', 225, 400);
+                    // Downloads Name:
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'black';
+                    ctx.fillText(data.users, 600, 400);  
 
-                    // Writing released date with Barlow font
-                    const formattedReleasedDate = data.released ? formatDate(data.released): 'Unknown Date';
-                    ctx.fillText(formattedReleasedDate, propertyX, 407);
-                    y += 30;
+                    // Released Label
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillText('Released:', 225, 445);
+                    // Released
+                    ctx.fillStyle = 'black';
+                    const formattedReleasedDate = data.released ? formatDate(data.released): 'Unknown';
+                    ctx.fillText(formattedReleasedDate, 600, 445); 
+
+                    // Updated Label
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillText('Date Updated:', 225, 490);
+                    // Updated
+                    ctx.fillStyle = 'black';
+                    const formattedUpdateDate = data.updated ? formatDate(data.updated): 'Unknown';
+                    ctx.fillText(formattedUpdateDate, 600, 490); 
+
+                    // Last Analysis Date:
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'gray';
+                    ctx.fillText('Date Updated:', 225, 535);
+                    // Date
+                    ctx.font = '30px Barlow';
+                    ctx.fillStyle = 'black';
+                    const formattedAnalyzeDate = data.date ? formatDate(data.date): 'Unknown';
+                    ctx.fillText(formattedAnalyzeDate, 600, 535);                   
 
                     // Save the Canvas as an image
                     const outputPath = `${basePath}/images/social/${mdFolder.substring(1)}/${file.replace('.md', '.png')}`;
                     const outputStream = fs.createWriteStream(outputPath);
                     const stream = canvas.createPNGStream();
                     stream.pipe(outputStream);
-
+                    
+                    // Call the delete temp files function
+                    deleteTempFiles();
                     totalFiles++;
                 } catch (err) {
                     console.error(`Error processing file: ${file}. Error: ${err.message}`);
