@@ -97,6 +97,7 @@ async function processFiles() {
 async function drawOnCanvas(data, bgImage, iconImage) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
+    registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
     
     // Draw the background image
     ctx.drawImage(bgImage, 0, 0, width, height);    
@@ -107,8 +108,6 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     const iconWidth = 175;
     const iconHeight = 175;
     ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-
-    registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
     
     // Title
     const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
