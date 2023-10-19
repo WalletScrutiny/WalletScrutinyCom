@@ -5,6 +5,8 @@ import yaml from 'js-yaml';
 import child_process from 'child_process';
 import path from 'path';
 import pLimit from 'p-limit';
+
+const fsp = fs.promises;
 const limit = pLimit(8); // Allow n concurrent async operations
 
 const { promisify } = util;
@@ -92,36 +94,22 @@ async function processFiles() {
     await Promise.all(asyncTasks);
 }
 
-async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
-    const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
-    const data = yaml.load(parts[1]);
-    // Two variables for temporary Images
-    const tempImagePath = `/tmp/ws_tempImage_${file}.png`;
-
-    let iconImage = path.join(basePath, 'images', 'wIcons', platform, `${data.icon}`);
-    if (!fs.existsSync(iconImage)) {
-        iconImage = fallbackIcon;
-    }
-    const coords = '+30+90';
-
-    // Then, composite the resized icon onto the backgroundImage
-    try {
-        await exec(`convert ${backgroundImage} \\( ${iconImage} -resize 175x175! \\) -geometry ${coords} -composite ${tempImagePath}`);
-    } catch (e) {
-        console.error(`Failed to process ${mdFilesPath}/${file}: ${err.message}`);
-        totalFiles--;
-        return
-    }
-
-    // Create a Canvas and load the temporary image
+async function drawOnCanvas(data, bgImage, iconImage) {
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
-    const img = await loadImage(tempImagePath);
+    
+    // Draw the background image
+    ctx.drawImage(bgImage, 0, 0, width, height);    
+
+    // Draw the resized icon image at specified coordinates
+    const iconX = 30;
+    const iconY = 90;
+    const iconWidth = 175;
+    const iconHeight = 175;
+    ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
 
     registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
     
-    ctx.drawImage(img, 0, 0);
-
     // Title
     const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
     for (let i = 0; i < wrappedTitle.length; i++) {
@@ -146,7 +134,7 @@ async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
     ctx.font = '30px Barlow';  
     for (let i = 0; i < wrappedVerdict.length; i++) {
         const currentLine = wrappedVerdict[i];
-        ctx.fillText(currentLine, 225, 225 + (i * 30), );
+        ctx.fillText(currentLine, 225, 225 + (i * 30));
     }
     
     if (data.developerName) {
@@ -206,16 +194,41 @@ async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
     // Date
     ctx.fillStyle = 'black';
     const formattedAnalyzeDate = data.date ? formatDate(data.date): 'Unknown';
-    ctx.fillText(formattedAnalyzeDate, 600, 535);                   
+    ctx.fillText(formattedAnalyzeDate, 600, 535);  
 
-    // Save the Canvas as an image
-    const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
-    const outputStream = fs.createWriteStream(outputPath);
-    const stream = canvas.createPNGStream();
-    stream.pipe(outputStream);
-    
-    // Call the delete temp files function
-    totalFiles--;
+    return canvas;
 }
 
+async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
+    try {
+        const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
+        const data = yaml.load(parts[1]);
+        // Two variables for temporary Images
+        // const tempImagePath = `/tmp/ws_tempImage_${file}.png`;
+
+        let iconImagePath = path.join(basePath, 'images', 'wIcons', platform, `${data.icon}`);
+        if (!fs.existsSync(iconImagePath)) {
+            iconImagePath = fallbackIcon;
+        }
+
+        // Load the bg image and icon
+        const bgImage = await loadImage(backgroundImage);
+        const iconImage = await loadImage(iconImagePath);
+
+        // Draw on the canvas
+        const canvas = await drawOnCanvas(data, bgImage, iconImage);
+        
+        // Export the canvas as a PNG file
+        const dataURL = canvas.toDataURL('image/png');
+
+        // Save the Canvas as an image
+        const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
+        await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
+        
+        // Call the delete temp files function
+        totalFiles--;
+    } catch (error) {
+        console.error(`Error processing file ${file}: `, error);
+    }
+}
 processFilesTimed();
