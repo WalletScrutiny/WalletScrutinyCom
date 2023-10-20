@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bitcoinbeach
 title: Blink (Bitcoin Beach Wallet)
 altTitle: 
 authors:
@@ -16,17 +16,25 @@ ratings:
 reviews: 6
 size: 
 website: https://blink.sv/
-repository: 
+repository: https://github.com/GaloyMoney/galoy-mobile/
 issue: 
 icon: com.galoyapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-08-09
+date: 2023-10-20
 signer: 
 reviewArchive: 
-twitter: 
+- date: 2021-08-06
+  version: 1.4.6
+  appHash: 
+  gitRevision: ca760f
+  verdict: custodial
+twitter: blinkbtc
 social: 
+- https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
+- https://t.me/blinkbtc
+- https://snort.social/p/community@blink.sv
 redirect_from: 
 developerName: Galoy Inc
 features:
@@ -34,14 +42,40 @@ features:
 
 ---
 
-This wallet simply uses the tech that GaloyMoney has developed. This product is *not officially affiliated* with GaloyMoney or the Bitcoin Beach project based in El Salvador.
+## Introduction
 
-> Lightning Wallet of the Bitcoin Beach community
+Note: We have previously examined Blink under its former name, "Bitcoin Beach Wallet." Since then, it has substantially expanded its app's description and website to include additional information.
 
-This is the complete Google Play description. It's very short and unclear, with no mention of the original developers. It doesn't link to the official sites either although the app's developer is still listed as "Galoy Inc."
+> Blink (formerly Bitcoin Beach Wallet) is the bitcoin wallet for community building. From beginners to experts and from shoppers to merchants the wallet’s features make it a must have wallet on any phone
 
-There's [a repository for the official open-source code](https://github.com/GaloyMoney/galoy) and two official websites: [bitcoinbeach.com](https://bitcoinbeach.com) and [galoy.io](https://galoy.io) but none of them link to this product.
+It is a custodial wallet with support for the Lightning Network:
 
-We already know that the Bitcoin Beach Wallet uses GaloyMoney's tech AND claims to be the lightning wallet of the Bitcoin Beach community although it's not officially affiliated with either of those.  There's no mention of the providers. No faces. No names. At the very least, they could have clearly stated that they are simply using GaloyMoney's infrastructure. The app's description seems to be implying that it is *the official wallet* which is bound to mislead people. There's nothing there at all, so the providers will have no accountability if something goes wrong.
+- Great for onboarding: Easy to set up and includes educational onboarding making Blink the perfect wallet to recommend to friends, family or anybody newer to Bitcoin. As a custodial wallet, new users don’t (yet) have to have safe seed phrase storage education and skills to be able to use the Lightning Network.
 
-Bitcoin Beach Wallet maybe isn't a scam, but it is intransparent and somewhat misleading. We hope this can be resolved, but either way as a **custodial** app it is **not verifiable.**
+However it is also built on Galoy's open source Bitcoin banking infrastructure:
+
+> - Open source: True to the Bitcoin ethos, Blink is built on Free and Open Source Software (FOSS). The wallet is built on open source Bitcoin banking infrastructure maintained by Galoy.
+
+Additional features:
+
+> - No transaction fee when both sender and receiver use Blink
+> - Earn sats and learn about Bitcoin with the in-app quiz
+> - Transaction log displays a history of payments
+> - Contact list makes it easy to send payments to friends and family
+> - Merchant map displays local businesses that accept Lightning payments
+
+It is unavailable in the US.
+
+## The Site
+
+There's [a repository for the official open-source code](https://github.com/GaloyMoney/galoy) with accessible releases and build instructions.
+
+Galoy Inc's official website contains information on this app [here:](https://galoy.io/bitcoin-beach-wallet/)
+
+> Bitcoin Beach is an initiative designed to create a sustainable Bitcoin economy – utilizing the Lightning Network. The project is based in El Zonte, a town of roughly 3,000 residents on the Pacific Coast of El Salvador.
+>
+> The Bitcoin Beach Wallet is the first implementation of Galoy software. It was designed as an open source Bitcoin-based community banking solution to meet the needs of the merchants and community members in El Zonte.
+
+## The Verdict
+
+This app is **custodial** and additionally, was created with the specific aim of aiding El Salvadoran local businesses and stores in adopting Bitcoin as a means of currency. 
