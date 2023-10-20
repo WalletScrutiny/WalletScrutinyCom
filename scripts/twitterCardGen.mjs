@@ -10,7 +10,7 @@ const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
 const basePath = '.';
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
-const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG1024x576.jpg');
+const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG512x288.jpg');
 const iconsBasePath = path.join(basePath, 'images', 'wIcons');
 const fallbackIcon = path.join(basePath, 'images', 'smallNoicon.png');
 const verdictMap = loadVerdicts('_data/verdicts');
@@ -77,8 +77,8 @@ async function processFilesTimed() {
 
 async function drawOnCanvas(data, bgImage, iconImage) {
     // Width and Heights variables for canvas
-    const width = 1024;
-    const height = 576;
+    const width = 512; 
+    const height = 288;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
     registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
@@ -87,51 +87,51 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     ctx.drawImage(bgImage, 0, 0, width, height);    
 
     // Draw the resized icon image at specified coordinates
-    const iconX = 30;
-    const iconY = 100;
-    const iconWidth = 200;
-    const iconHeight = 200;
+    const iconX = 20; // 30 if 1024x576
+    const iconY = 55; // 100 if 1024x576
+    const iconWidth = 75;
+    const iconHeight = 75;
     ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
     
     // Title
-    const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
+    const wrappedTitle = wrapText(data.title || 'Unknown Title', 42); // adjust the length as needed
     for (let i = 0; i < wrappedTitle.length; i++) {
         const currentLine = wrappedTitle[i];
         // Render the text with the selected font, size, and color
-        ctx.font = '36px Barlow';
-        ctx.fillText(currentLine, 250, 130 + (i * 40));
+        ctx.font = '20px Barlow';
+        ctx.fillText(currentLine, 105, 70 + (i * 22));
     }
     // Version
     if (data.version) {
-        ctx.font = '18px Barlow';
+        ctx.font = '7px Barlow';
         ctx.fillStyle = 'gray';
-        ctx.fillText('Version:', 70, 325);
+        ctx.fillText('Version:', 30, 140);
         // Wrapped version
         const wrappedVersion = wrapText(data.version, 7);  // adjust the length as needed
     
         for (let i = 0; i < wrappedVersion.length; i++) {
             const currentLine = wrappedVersion[i];
             // Render the text with the selected font, size, and color
-            ctx.font = '18px Barlow';
+            ctx.font = '7px Barlow';
             ctx.fillStyle = 'black';
-            ctx.fillText(currentLine, 140, 325 + (i * 20));  // Adjust vertical spacing as needed
+            ctx.fillText(currentLine, 58, 140 + (i * 8));  // Adjust vertical spacing as needed
         }
     }
     
     // Verdict 
     const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
     const wrappedVerdict = wrapText(mappedVerdict, 41);
-    ctx.font = '30px Barlow';  
+    ctx.font = '20px Barlow';  
     for (let i = 0; i < wrappedVerdict.length; i++) {
         const currentLine = wrappedVerdict[i];
-        ctx.fillText(currentLine, 250, 225 + (i * 30));
+        ctx.fillText(currentLine, 105, 122 + (i * 30));
     }
     
     // Developer Name
     if (data.developerName) {
-        ctx.font = '24px Barlow';
+        ctx.font = '16px Barlow';
         ctx.fillStyle = 'gray';
-        ctx.fillText('Developer:', 250, 300);
+        ctx.fillText('Developer:', 105, 140);
         
         // Wrap Developer Name
         const wrappedDeveloperName = wrapText(data.developerName, 37);  // adjust the length as needed
@@ -140,7 +140,7 @@ async function drawOnCanvas(data, bgImage, iconImage) {
             const currentLine = wrappedDeveloperName[i];
             // Render the text with the selected font, size, and color
             ctx.fillStyle = 'black';
-            ctx.fillText(currentLine, 385, 300 + (i * 30));  // Adjust vertical spacing as needed
+            ctx.fillText(currentLine, 195, 140 + (i * 18));  // Adjust vertical spacing as needed
         }
     }
     
@@ -151,8 +151,8 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     ctx.lineWidth = 1;
 
     ctx.beginPath();
-    ctx.moveTo(250, 335);
-    ctx.lineTo(1000, 335);
+    ctx.moveTo(105, 165);
+    ctx.lineTo(500, 165);
     ctx.stroke();
     ctx.closePath();
     ctx.globalAlpha = 1; // 70% transparency
@@ -162,37 +162,37 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     // Downloads Label
     if (data.users) {
         ctx.globalAlpha = 1; 
-        ctx.font = '30px Barlow';
+        ctx.font = '16px Barlow';
         ctx.fillStyle = 'gray';
-        ctx.fillText('Downloads:', 250, 370);
+        ctx.fillText('Downloads:', 105, 185);
         // Downloads:
         ctx.fillStyle = 'black';
-        ctx.fillText('>' + data.users, 800, 370);
+        ctx.fillText('>' + data.users, 400, 185);
     }
 
     // Released Label
     ctx.fillStyle = 'gray';
-    ctx.fillText('Released:', 250, 415);
+    ctx.fillText('Released:', 105, 205);
     // Released
     ctx.fillStyle = 'black';
     const formattedReleasedDate = data.released ? formatDate(data.released): 'Unknown';
-    ctx.fillText(formattedReleasedDate, 800, 415); 
+    ctx.fillText(formattedReleasedDate, 400, 205); 
 
     // Updated Label
     ctx.fillStyle = 'gray';
-    ctx.fillText('Date Updated:', 250, 460);
+    ctx.fillText('Date Updated:', 105, 225);
     // Updated
     ctx.fillStyle = 'black';
     const formattedUpdateDate = data.updated ? formatDate(data.updated): 'Unknown';
-    ctx.fillText(formattedUpdateDate, 800, 460); 
+    ctx.fillText(formattedUpdateDate, 400, 225); 
 
     // Last Analysis Date:
     ctx.fillStyle = 'gray';
-    ctx.fillText('Date Analyzed:', 250, 505);
+    ctx.fillText('Date Analyzed:', 105, 245);
     // Date
     ctx.fillStyle = 'black';
     const formattedAnalyzeDate = data.date ? formatDate(data.date): 'Unknown';
-    ctx.fillText(formattedAnalyzeDate, 800, 505);  
+    ctx.fillText(formattedAnalyzeDate, 400, 245);  
 
     return canvas;
 }
