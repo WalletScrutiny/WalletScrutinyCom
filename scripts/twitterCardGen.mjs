@@ -11,6 +11,9 @@ const limit = pLimit(8); // Allow 8 concurrent async operations
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
 const backgroundImage = 'images/twCard/twitterImageBG512x288.jpg';
 const bgImage = await loadImage(backgroundImage);
+// Load the "reproducible" image
+const reproducibleImagePath = 'images/twCard/reproducible-dark.png';
+const reproducibleImage = await loadImage(reproducibleImagePath);
 const iconsBasePath = 'images/wIcons';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
@@ -74,10 +77,6 @@ async function processFilesTimed() {
 
 // Utility function to overlay "reproducible" image
 async function overlayReproducibleImage(ctx) {
-    // Load the "reproducible" image
-    const reproducibleImagePath = path.join(basePath, 'images', 'twCard', 'reproducible-dark.png');
-    const reproducibleImage = await loadImage(reproducibleImagePath);
-    
     // Overlay the "reproducible" image
     const overlayX = 35;  // X position
     const overlayY = 177; // Y position (100 pixels below the logo)
@@ -134,6 +133,10 @@ async function drawOnCanvas(data, iconImage) {
     // Verdict 
     const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
     printText(mappedVerdict, ctx, 130, 122, 'black', '30px Barlow', 41, 30);
+    
+    if (data.verdict === 'reproducible') {
+        await overlayReproducibleImage(ctx);
+    }
     
     // Developer Name
     if (data.developerName) {
