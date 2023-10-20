@@ -8,26 +8,25 @@ import pLimit from 'p-limit';
 // Constants
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
-const basePath = '.';
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
-const backgroundImage = path.join(basePath, 'images', 'twCard', 'twitterImageBG800x600.jpg');
-const iconsBasePath = path.join(basePath, 'images', 'wIcons');
-const fallbackIcon = path.join(basePath, 'images', 'smallNoicon.png');
+const backgroundImage = 'images/twCard/twitterImageBG800x600.jpg';
+const bgImage = await loadImage(backgroundImage);
+const iconsBasePath = 'images/wIcons';
+const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
+await registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
 
 // Timer variables
 let totalFiles = 0;
-let totalTime = 1000;
+let totalTime = 0;
 let oldTotalFiles = 0;
 const startTime = Date.now();
 
-// Utility Functions - Text Wrapping
 function wrapText(text, length) {
     const regex = new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g');
-    return text.match(regex) || [];
+    return `${text}`.match(regex) || [];
 }
 
-// Utility Functions - Date Formatter
 function formatDate(dateString) {
     const date = new Date(dateString);
     const year = date.getFullYear();
@@ -36,20 +35,19 @@ function formatDate(dateString) {
     return `${year}-${month}-${day}`;
 }
 
-// Utility Functions - Verdict Mapper
 function loadVerdicts(verdictPath) {
     const verdictMap = {};
     fs.readdirSync(verdictPath).forEach((filename) => {
-      if (filename.endsWith('.yml')) {
-        const filePath = path.join(verdictPath, filename);
-        const verdict = path.parse(filename).name;
-        const yamlData = fs.readFileSync(filePath, 'utf8');
-        const data = yaml.load(yamlData);
-        verdictMap[verdict] = data.title;
-      }
+        if (filename.endsWith('.yml')) {
+            const filePath = path.join(verdictPath, filename);
+            const verdict = path.parse(filename).name;
+            const yamlData = fs.readFileSync(filePath, 'utf8');
+            const data = yaml.load(yamlData);
+            verdictMap[verdict] = data.title;
+        }
     });
     return verdictMap;
-  }
+}
 
 // Progress Tracking Function
 async function showProgress() {
@@ -59,7 +57,8 @@ async function showProgress() {
         const filesPerSecond = 1000 * (oldTotalFiles - totalFiles) / (totalTime - oldTotalTime);
         const secondsRemaining = totalFiles / filesPerSecond;
         console.log(`${(totalTime/1000).toFixed(1)}s: ${totalFiles} files and ${secondsRemaining.toFixed(0)}s remaining at approx. ${filesPerSecond.toFixed(0)}f/s.`)
-        if (totalTime > 1000 && totalFiles == 0) {
+        if (totalTime > 1000 && limit.activeCount === 0) {
+            // stop when not working on any tasks ...
             clearInterval(i)
             console.log(`
 Finished in ${(totalTime/1000).toFixed(1)}s`);
@@ -69,19 +68,16 @@ Finished in ${(totalTime/1000).toFixed(1)}s`);
 }
 
 async function processFilesTimed() {
-  showProgress();
-  await processFiles();
+    showProgress();
+    await processFiles();
 }
 
-// Core Functions - Canvas Image and Text Overlays
-
-async function drawOnCanvas(data, bgImage, iconImage) {
+async function drawOnCanvas(data, iconImage) {
     // Width and Heights variables for canvas
     const width = 800;
     const height = 600;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
-    registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
     
     // Draw the background image
     ctx.drawImage(bgImage, 0, 0, width, height);    
@@ -94,54 +90,22 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
     
     // Title
-    const wrappedTitle = wrapText(data.title || 'Unknown Title', 32); // adjust the length as needed
-    for (let i = 0; i < wrappedTitle.length; i++) {
-        const currentLine = wrappedTitle[i];
-        // Render the text with the selected font, size, and color
-        ctx.font = '36px Barlow';
-        ctx.fillText(currentLine, 225, 130 + (i * 40));
-    }
+    printText(data.title || 'Unknown Title', ctx, 225, 130, 'black', '36px Barlow', 32, 40);
     // Version
     if (data.version) {
-        ctx.font = '18px Barlow';
-        ctx.fillStyle = 'gray';
-        ctx.fillText('Version:', 50, 300);
+        printText('Version:', ctx, 50, 300, 'gray', '18px Barlow');
         // Wrapped version
-        const wrappedVersion = wrapText(data.version, 7);  // adjust the length as needed
-    
-        for (let i = 0; i < wrappedVersion.length; i++) {
-            const currentLine = wrappedVersion[i];
-            // Render the text with the selected font, size, and color
-            ctx.font = '18px Barlow';
-            ctx.fillStyle = 'black';
-            ctx.fillText(currentLine, 125, 300 + (i * 20));  // Adjust vertical spacing as needed
-        }
+        printText(data.version, ctx, 125, 300, 'black', '18px Barlow', 7, 20);
     }
     
     // Verdict 
     const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
-    const wrappedVerdict = wrapText(mappedVerdict, 41);
-    ctx.font = '30px Barlow';  
-    for (let i = 0; i < wrappedVerdict.length; i++) {
-        const currentLine = wrappedVerdict[i];
-        ctx.fillText(currentLine, 225, 225 + (i * 30));
-    }
+    printText(mappedVerdict, ctx, 225, 225, 'black', '30px Barlow', 41, 30);
     
     // Developer Name
     if (data.developerName) {
-        ctx.font = '24px Barlow';
-        ctx.fillStyle = 'gray';
-        ctx.fillText('Developer:', 225, 300);
-        
-        // Wrap Developer Name
-        const wrappedDeveloperName = wrapText(data.developerName, 37);  // adjust the length as needed
-    
-        for (let i = 0; i < wrappedDeveloperName.length; i++) {
-            const currentLine = wrappedDeveloperName[i];
-            // Render the text with the selected font, size, and color
-            ctx.fillStyle = 'black';
-            ctx.fillText(currentLine, 355, 300 + (i * 30));  // Adjust vertical spacing as needed
-        }
+        printText('Developer:', ctx, 225, 300, 'gray', '24px Barlow');
+        printText(data.developerName, ctx, 355, 300, 'black', null, 37, 30);
     }
     
     // Separator line code
@@ -155,94 +119,86 @@ async function drawOnCanvas(data, bgImage, iconImage) {
     ctx.lineTo(750, 335);
     ctx.stroke();
     ctx.closePath();
-    ctx.globalAlpha = 1; // 70% transparency
-    
+    ctx.globalAlpha = 1;
     //------------------------------
 
-    // Downloads Label
     if (data.users) {
-        ctx.globalAlpha = 1; 
-        ctx.font = '30px Barlow';
-        ctx.fillStyle = 'gray';
-        ctx.fillText('Downloads:', 225, 400);
-        // Downloads Name:
-        ctx.fillStyle = 'black';
-        ctx.fillText('>' + data.users, 600, 400);
+        printText('Downloads:', ctx, 225, 400, 'gray', '30px Barlow');
+        printText('>' + data.users, ctx, 600, 400, 'black', '30px Barlow');
     }
 
-    // Released Label
-    ctx.fillStyle = 'gray';
-    ctx.fillText('Released:', 225, 445);
-    // Released
-    ctx.fillStyle = 'black';
-    const formattedReleasedDate = data.released ? formatDate(data.released): 'Unknown';
-    ctx.fillText(formattedReleasedDate, 600, 445); 
+    function dateOrUnknown(date) {
+      return date
+      ? formatDate(date)
+      : 'Unknown';
+    }
+    printText('Released:', ctx, 225, 445, 'gray');
+    printText(dateOrUnknown(data.released), ctx, 600, 445, 'black');
 
-    // Updated Label
-    ctx.fillStyle = 'gray';
-    ctx.fillText('Date Updated:', 225, 490);
-    // Updated
-    ctx.fillStyle = 'black';
-    const formattedUpdateDate = data.updated ? formatDate(data.updated): 'Unknown';
-    ctx.fillText(formattedUpdateDate, 600, 490); 
+    printText('Updated:', ctx, 225, 490, 'gray');
+    printText(dateOrUnknown(data.updated), ctx, 600, 490, 'black');
 
-    // Last Analysis Date:
-    ctx.fillStyle = 'gray';
-    ctx.fillText('Date Analyzed:', 225, 535);
-    // Date
-    ctx.fillStyle = 'black';
-    const formattedAnalyzeDate = data.date ? formatDate(data.date): 'Unknown';
-    ctx.fillText(formattedAnalyzeDate, 600, 535);  
+    printText('Analyzed:', ctx, 225, 535, 'gray');
+    printText(dateOrUnknown(data.date), ctx, 600, 535, 'black');
 
     return canvas;
 }
 
+function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
+    const wrapped = wrapText(text, maxLength || 1000);
+    ctx.font = font || ctx.font;
+    ctx.fillStyle = fillStyle || ctx.fillStyle;
+    for (let i = 0; i < wrapped.length; i++) {
+        const line = wrapped[i];
+        ctx.fillText(line, x, y + (i * (lineHeight || 0)));
+    }
+}
+
 // Core Functions - Process One File
 async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
+    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---\n');
+    const data = yaml.load(parts[1]);
+
+    let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
+    if (!fs.existsSync(iconImagePath)) {
+        iconImagePath = fallbackIcon;
+    }
+
+    // Load the bg image and icon
+    let iconImage
     try {
-        const parts = fs.readFileSync(path.join(mdFilesPath, file), 'utf-8').split('---\n');
-        const data = yaml.load(parts[1]);
-        // Two variables for temporary Images
-        // const tempImagePath = `/tmp/ws_tempImage_${file}.png`;
-
-        let iconImagePath = path.join(basePath, 'images', 'wIcons', platform, `${data.icon}`);
-        if (!fs.existsSync(iconImagePath)) {
-            iconImagePath = fallbackIcon;
-        }
-
-        // Load the bg image and icon
-        const bgImage = await loadImage(backgroundImage);
-        const iconImage = await loadImage(iconImagePath);
-
-        // Draw on the canvas
-        const canvas = await drawOnCanvas(data, bgImage, iconImage);
-        
-        // Export the canvas as a PNG file
-        const dataURL = canvas.toDataURL('image/png');
-
-        // Save the Canvas as an image
-        const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
-        await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
-        
-        // Call the delete temp files function
-        totalFiles--;
+        iconImage = await loadImage(iconImagePath);
     } catch (error) {
         console.error(`Error processing file ${file}: `, error);
+        totalFiles--;
+        return;
     }
+
+    // Draw on the canvas
+    const canvas = await drawOnCanvas(data, iconImage);
+    
+    // Export the canvas as a PNG file
+    const dataURL = canvas.toDataURL('image/png');
+
+    // Save the Canvas as an image
+    const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
+    await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
+
+    totalFiles--;
 }
 
 // Core Functions - Process Files
 async function processFiles() {
-    const socialImagesFolderPath = `${basePath}/images/social`;
+    const socialImagesFolderPath = `images/social`;
     fs.existsSync(socialImagesFolderPath) || fs.mkdirSync(socialImagesFolderPath);
 
     const asyncTasks = [];
     for (let mdFolder of mdFolders) {
-        const mdFilesPath = path.join(basePath, mdFolder); // MD files path
+        const mdFilesPath = mdFolder;
         const platform = mdFolder.substring(1);
         const iconsPath = path.join(iconsBasePath, platform, 'small'); // Icons path
-        const files = fs.readdirSync(mdFilesPath);
-        const outputFolderPath = `${basePath}/images/social/${platform}`;
+        const files = await fsp.readdir(mdFilesPath);
+        const outputFolderPath = `images/social/${platform}`;
         fs.existsSync(outputFolderPath) || fs.mkdirSync(outputFolderPath);
 
         for (let file of files) {
