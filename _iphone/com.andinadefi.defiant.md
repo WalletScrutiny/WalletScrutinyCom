@@ -10,8 +10,8 @@ idd: 1559622756
 released: 2021-04-07
 updated: 2023-10-01
 version: 5.1.0+295
-stars: 4.9
-reviews: 19
+stars: 4.7
+reviews: 20
 size: '87974912'
 website: https://defiantapp.tech/
 repository: 

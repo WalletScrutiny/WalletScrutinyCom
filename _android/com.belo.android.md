@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-23
 updated: 2023-10-13
 version: 3.6.9
-stars: 3.8
+stars: 3.9
 ratings: 
-reviews: 58
+reviews: 57
 size: 
 website: https://belo.app
 repository: 

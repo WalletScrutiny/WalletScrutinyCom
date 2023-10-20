@@ -3,7 +3,7 @@ wsId:
 title: Tulip Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.heatwallet.heat_app
 appCountry: 
 released: 

@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 - mohammad
-users: 5000
+users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
 updated: 2023-07-29
 version: 0.7.7
-stars: 4.3
+stars: 4.4
 ratings: 45
 reviews: 23
 size: 

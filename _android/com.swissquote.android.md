@@ -1,6 +1,6 @@
 ---
 wsId: swissQuoteTrading
-title: Swissquote Trading
+title: Swissquote
 altTitle: 
 authors:
 - danny

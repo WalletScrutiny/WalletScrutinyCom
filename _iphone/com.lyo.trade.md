@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lyo.trade.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-01
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

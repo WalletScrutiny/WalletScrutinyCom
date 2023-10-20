@@ -10,9 +10,9 @@ appCountry:
 released: 2022-08-07
 updated: 2023-10-13
 version: 1.4.1
-stars: 4.3
+stars: 4.7
 ratings: 
-reviews: 2
+reviews: 9
 size: 
 website: https://safle.com/
 repository: 

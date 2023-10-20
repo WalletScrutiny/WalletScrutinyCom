@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.coinfloww.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-09-14
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

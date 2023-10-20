@@ -3,7 +3,7 @@ title: Nitrokey HSM2
 appId: nitrokey.hsm2
 authors:
 - danny
-released: 
+released: 2021-02-18
 discontinued: 
 updated: 
 version: 

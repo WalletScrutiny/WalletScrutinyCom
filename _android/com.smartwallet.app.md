@@ -4,7 +4,7 @@ title: 'Echooo: Safe & Earn with DeFi'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10

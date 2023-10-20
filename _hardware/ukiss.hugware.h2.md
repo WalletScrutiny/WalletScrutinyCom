@@ -40,7 +40,7 @@ features:
 
 This is the second generation version of the:
 
-- {% include walletLink.html wallet='hardware/ukiss.hugware' verdict='true' %}
+- {% include walletLink.html wallet='hardware/ukiss.hugware.h1' verdict='true' %}
 
 ## Product Description from the [{{ page.title }} homepage](https://www.ukiss.io/h2bundle/)
 
@@ -55,7 +55,7 @@ This is the second generation version of the:
 
 ## Analysis 
 
-Similar to the {% include walletLink.html wallet='hardware/ukiss.hugware' %}, the process for interacting with the {{ page.title }} involves plugging one of the devices unto a Windows or MacOS laptop with the [UKiss Hub software installed](https://www.ukiss.io/downloads/). 
+Similar to the UKiss Hugware H1, the process for interacting with this product involves plugging one of the devices unto a Windows or MacOS laptop with the [UKiss Hub software installed](https://www.ukiss.io/downloads/). 
 
 ## Verdict 
 

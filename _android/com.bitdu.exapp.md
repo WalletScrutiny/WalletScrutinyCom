@@ -3,7 +3,7 @@ wsId:
 title: Bitdu
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitdu.exapp
 appCountry: 
 released: 2021-07-21
@@ -19,7 +19,7 @@ issue:
 icon: com.bitdu.exapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-23
 signer: 
 reviewArchive: 

@@ -8,11 +8,11 @@ appId: com.TrendluxOU.trendlux
 appCountry: us
 idd: '1370977008'
 released: 2018-05-14
-updated: 2023-10-06
-version: 3.9.2
+updated: 2023-10-16
+version: 3.9.3
 stars: 4.7
-reviews: 2706
-size: '101689344'
+reviews: 2708
+size: '101693440'
 website: https://3commas.io/blog
 repository: 
 issue: 
