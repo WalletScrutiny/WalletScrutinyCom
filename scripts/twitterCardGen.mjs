@@ -9,7 +9,7 @@ import pLimit from 'p-limit';
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
-const backgroundImage = 'images/twCard/twitterImageBG800x600.jpg';
+const backgroundImage = 'images/twCard/twitterImageBG512x288.jpg';
 const bgImage = await loadImage(backgroundImage);
 const iconsBasePath = 'images/wIcons';
 const fallbackIcon = 'images/smallNoicon.png';
@@ -47,7 +47,7 @@ function loadVerdicts(verdictPath) {
         }
     });
     return verdictMap;
-}
+  }
 
 // Progress Tracking Function
 async function showProgress() {
@@ -72,10 +72,43 @@ async function processFilesTimed() {
     await processFiles();
 }
 
+// Utility function to overlay "reproducible" image
+async function overlayReproducibleImage(ctx) {
+    // Load the "reproducible" image
+    const reproducibleImagePath = path.join(basePath, 'images', 'twCard', 'reproducible-dark.png');
+    const reproducibleImage = await loadImage(reproducibleImagePath);
+    
+    // Overlay the "reproducible" image
+    const overlayX = 35;  // X position
+    const overlayY = 177; // Y position (100 pixels below the logo)
+    const overlayWidth = 75;
+    const overlayHeight = 75;
+    ctx.drawImage(reproducibleImage, overlayX, overlayY, overlayWidth, overlayHeight);
+
+    // Background line for reproducible
+    ctx.strokeStyle = 'rgb(255, 173, 48)';  // Set the line color to orange
+    ctx.lineWidth = 20;
+
+    let grad = ctx.createLinearGradient(130, 110, 500, 110);
+    grad.addColorStop(0, 'rgba(255, 173, 48, 0.8)'); // 0% transparent at the start
+    grad.addColorStop(0.4, 'rgba(255, 173, 48, 0.4)'); // 0% transparent at the middle
+    grad.addColorStop(1, 'rgba(255, 173, 48, 0)'); // 100% transparent at the end
+
+    ctx.strokeStyle = grad;
+
+    ctx.beginPath();
+    ctx.moveTo(130, 116);
+    ctx.lineTo(500, 116);
+    ctx.stroke();
+    ctx.closePath();
+}
+
+// Core Functions - Canvas Image and Text Overlays
+
 async function drawOnCanvas(data, iconImage) {
     // Width and Heights variables for canvas
-    const width = 800;
-    const height = 600;
+    const width = 512; 
+    const height = 288;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
     
@@ -83,29 +116,29 @@ async function drawOnCanvas(data, iconImage) {
     ctx.drawImage(bgImage, 0, 0, width, height);    
 
     // Draw the resized icon image at specified coordinates
-    const iconX = 30;
-    const iconY = 90;
-    const iconWidth = 175;
-    const iconHeight = 175;
+    const iconX = 22; // 30 if 1024x576
+    const iconY = 55; // 100 if 1024x576
+    const iconWidth = 100;
+    const iconHeight = 100;
     ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
     
     // Title
-    printText(data.title || 'Unknown Title', ctx, 225, 130, 'black', '36px Barlow', 32, 40);
+    printText(data.title || 'Unknown Title', ctx, 130, 70, 'black', '20px Barlow', 42, 22);
     // Version
     if (data.version) {
-        printText('Version:', ctx, 50, 300, 'gray', '18px Barlow');
+        printText('Version:', ctx, 45, 170, 'gray', '7px Barlow');
         // Wrapped version
-        printText(data.version, ctx, 125, 300, 'black', '18px Barlow', 7, 20);
+        printText(data.version, ctx, 73, 170, 'black', '12px Barlow', 7, 10);
     }
     
     // Verdict 
     const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
-    printText(mappedVerdict, ctx, 225, 225, 'black', '30px Barlow', 41, 30);
+    printText(mappedVerdict, ctx, 130, 122, 'black', '30px Barlow', 41, 30);
     
     // Developer Name
     if (data.developerName) {
-        printText('Developer:', ctx, 225, 300, 'gray', '24px Barlow');
-        printText(data.developerName, ctx, 355, 300, 'black', null, 37, 30);
+        printText('Developer:', ctx, 130, 140, 'gray', '16px Barlow');
+        printText(data.developerName, ctx, 220, 140, 'black', null, 37, 18);
     }
     
     // Separator line code
@@ -115,16 +148,17 @@ async function drawOnCanvas(data, iconImage) {
     ctx.lineWidth = 1;
 
     ctx.beginPath();
-    ctx.moveTo(225, 335);
-    ctx.lineTo(750, 335);
+    ctx.moveTo(130, 165);
+    ctx.lineTo(500, 165);
     ctx.stroke();
     ctx.closePath();
     ctx.globalAlpha = 1;
+    
     //------------------------------
 
     if (data.users) {
-        printText('Downloads:', ctx, 225, 400, 'gray', '30px Barlow');
-        printText('>' + data.users, ctx, 600, 400, 'black', '30px Barlow');
+        printText('Downloads:', ctx, 130, 185, 'gray', '16px Barlow');
+        printText('>' + data.users, ctx, 240, 185, 'black');
     }
 
     function dateOrUnknown(date) {
@@ -132,14 +166,14 @@ async function drawOnCanvas(data, iconImage) {
       ? formatDate(date)
       : 'Unknown';
     }
-    printText('Released:', ctx, 225, 445, 'gray');
-    printText(dateOrUnknown(data.released), ctx, 600, 445, 'black');
+    printText('Released:', ctx, 130, 205, 'gray', '16px Barlow');
+    printText(dateOrUnknown(data.released), ctx, 240, 205, 'black');
 
-    printText('Updated:', ctx, 225, 490, 'gray');
-    printText(dateOrUnknown(data.updated), ctx, 600, 490, 'black');
+    printText('Updated:', ctx, 130, 225, 'gray');
+    printText(dateOrUnknown(data.updated), ctx, 240, 225, 'black');
 
-    printText('Analyzed:', ctx, 225, 535, 'gray');
-    printText(dateOrUnknown(data.date), ctx, 600, 535, 'black');
+    printText('Analyzed:', ctx, 130, 245, 'gray');
+    printText(dateOrUnknown(data.date), ctx, 240, 245, 'black');
 
     return canvas;
 }
@@ -174,9 +208,9 @@ async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
         return;
     }
 
-    // Draw on the canvas
+        // Draw on the canvas
     const canvas = await drawOnCanvas(data, iconImage);
-    
+
     // Export the canvas as a PNG file
     const dataURL = canvas.toDataURL('image/png');
 
