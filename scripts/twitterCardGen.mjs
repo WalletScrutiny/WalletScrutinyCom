@@ -132,6 +132,13 @@ async function drawStars(ctx, stars, x, y, starSize) {
     let fullStars = Math.floor(stars);
     let partialStar = stars - fullStars;
 
+    ctx.globalAlpha = 0.2;
+    for (let i = 0; i < 5; i++) {
+        // Draw full star at (x + i * (starSize + padding), y)
+        ctx.fillStyle = '#ffad30';
+        drawStar(ctx, x + i * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, 1, 0.50);
+    }
+    ctx.globalAlpha = 1;
     for (let i = 0; i < fullStars; i++) {
         // Draw full star at (x + i * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
@@ -230,10 +237,12 @@ async function drawOnCanvas(data, iconImage) {
     
     //------------------------------
 
-    // Draw Stars
-    printText('Stars:', ctx, 400, 190, 'gray', '16px Barlow');
-    const starRating = data.stars;  // Retrieve star rating from data
-    drawStars(ctx, starRating, 372, 215, 15);  // x=130, y=265 are coordinates; 20 is star size
+    if (data.stars) {
+        // Draw Stars
+        printText('Stars:', ctx, 400, 190, 'gray', '16px Barlow');
+        const starRating = data.stars;  // Retrieve star rating from data
+        drawStars(ctx, starRating, 372, 215, 15);  // x=130, y=265 are coordinates; 20 is star size
+    }
 
     if (data.users) {
         printText('Downloads:', ctx, 130, 185, 'gray', '16px Barlow');
