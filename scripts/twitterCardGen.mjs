@@ -75,42 +75,44 @@ async function processFilesTimed() {
     await processFiles();
 }
 
-// Utility Function - Draw a partial star at position (x, y) with a certain fillRatio [0, 1]
-function drawPartialStar(ctx, x, y, size, fillRatio) {
-    // Draw the star first
-    drawStar(ctx, x, y, size);
-
-    // Calculate the width of the rectangle to overlay on the star
-    const rectWidth = size * (1 - fillRatio + 0.05); // Added 0.05 to slightly increase the width
-
-    // Draw the rectangle over the star, starting from the filled portion to the end
-    ctx.fillStyle = 'white'; // Assuming the background is white
-    ctx.fillRect(x + (size * fillRatio) - 0.025 * size, y - size / 2, rectWidth, size);
-}
-
-function drawStar(ctx, x, y, size) {
-    const spikes = 5;
-    const outerRadius = size;
-    const innerRadius = size / 2;
+function drawStar(ctx, cx, cy, spikes, baseOuterRadius, baseInnerRadius, fillColor, strokeColor, strokeWidth, percent = 1, starSize = 1) {
+    // Scale the radii by starSize
+    const outerRadius = baseOuterRadius * starSize;
+    const innerRadius = baseInnerRadius * starSize;
     
+    let rot = (Math.PI / 2) * 3;
+    let x = cx;
+    let y = cy;
+    const step = Math.PI / spikes;
+
     ctx.save();
     ctx.beginPath();
-    ctx.translate(x, y);
-    ctx.moveTo(0, 0 - outerRadius);
-    
-    for (let i = 0; i < spikes; i++) {
-      ctx.rotate(Math.PI / spikes);
-      ctx.lineTo(0, 0 - innerRadius);
-      ctx.rotate(Math.PI / spikes);
-      ctx.lineTo(0, 0 - outerRadius);
+    ctx.rect(cx - outerRadius, cy - outerRadius, 2 * outerRadius * percent, 2 * outerRadius);
+    ctx.clip();
+
+    ctx.beginPath();
+    ctx.moveTo(cx, cy - outerRadius);
+
+    for (let i = 0; i < spikes; i++) {    
+      x = cx + Math.cos(rot) * outerRadius;
+      y = cy + Math.sin(rot) * outerRadius;
+      ctx.lineTo(x, y);
+      rot += step;
+
+      x = cx + Math.cos(rot) * innerRadius;
+      y = cy + Math.sin(rot) * innerRadius;
+      ctx.lineTo(x, y);
+      rot += step;
     }
-    
+
+    ctx.lineTo(cx, cy - outerRadius);
     ctx.closePath();
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = strokeWidth;
+    ctx.strokeStyle = strokeColor;
     ctx.stroke();
-    ctx.fillStyle = '#ffad30';
+    ctx.fillStyle = fillColor;
     ctx.fill();
+
     ctx.restore();
   }
   
@@ -121,7 +123,7 @@ async function drawStars(ctx, stars, x, y, starSize) {
         ctx.globalAlpha = 0.2;  // 80% transparency
         ctx.fillStyle = '#ffad30';
         // Draw larger star here, assuming you have a function to draw a star
-        drawStar(ctx, 418, 225, 30, 30);
+        drawStar(ctx, 418, 225, 5, 25, 12.5);
         ctx.globalAlpha = 1; 
         printText('n/a', ctx, 410, 225, 'black', '10px Barlow'); // Adjust text position as needed
         return;
@@ -133,13 +135,13 @@ async function drawStars(ctx, stars, x, y, starSize) {
     for (let i = 0; i < fullStars; i++) {
         // Draw full star at (x + i * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
-        drawStar(ctx, x + i * (starSize + 10), y, starSize, starSize);
+        drawStar(ctx, x + i * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, 1, 0.50);
     }
 
     if (partialStar > 0) {
         // Draw partial star here at (x + fullStars * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
-        drawPartialStar(ctx, x + fullStars * (starSize + 10), y, starSize, partialStar);
+        drawStar(ctx, x + fullStars * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, partialStar, 0.50);
     }
 }
 
@@ -205,7 +207,7 @@ async function drawOnCanvas(data, iconImage) {
         await overlayReproducibleImage(ctx);
     }
 
-    printText(mappedVerdict, ctx, 130, 122, 'black', '30px Barlow', 41, 30);
+    printText(mappedVerdict, ctx, 130, 122, 'black', '20px Barlow', 41, 30);
     
     // Developer Name
     if (data.developerName) {
@@ -231,7 +233,7 @@ async function drawOnCanvas(data, iconImage) {
     // Draw Stars
     printText('Stars:', ctx, 400, 190, 'gray', '16px Barlow');
     const starRating = data.stars;  // Retrieve star rating from data
-    drawStars(ctx, starRating, 370, 215, 15);  // x=130, y=265 are coordinates; 20 is star size
+    drawStars(ctx, starRating, 372, 215, 15);  // x=130, y=265 are coordinates; 20 is star size
 
     if (data.users) {
         printText('Downloads:', ctx, 130, 185, 'gray', '16px Barlow');
