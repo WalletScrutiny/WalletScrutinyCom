@@ -9,7 +9,7 @@ import pLimit from 'p-limit';
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
 const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
-const backgroundImage = 'images/twCard/twitterImageBG512x288.png';
+const backgroundImage = 'images/twCard/twitterImageBG800x450.png';
 const bgImage = await loadImage(backgroundImage);
 // Load the "reproducible" image
 const reproducibleImagePath = 'images/twCard/reproducible-dark.png';
@@ -87,8 +87,7 @@ function drawStar(ctx, cx, cy, spikes, baseOuterRadius, baseInnerRadius, fillCol
 
     ctx.save();
     ctx.beginPath();
-    ctx.rect(cx - outerRadius, cy - outerRadius, 2 * outerRadius * percent, 2 * outerRadius);
-    ctx.clip();
+    ctx.rect(cx - outerRadius * 1.2, cy - outerRadius * 1.2, 2 * outerRadius * 1.2 * percent, 2 * outerRadius * 1.2);
 
     ctx.beginPath();
     ctx.moveTo(cx, cy - outerRadius);
@@ -108,6 +107,7 @@ function drawStar(ctx, cx, cy, spikes, baseOuterRadius, baseInnerRadius, fillCol
     ctx.lineTo(cx, cy - outerRadius);
     ctx.closePath();
     ctx.lineWidth = strokeWidth;
+    ctx.lineJoin = 'round';
     ctx.strokeStyle = strokeColor;
     ctx.stroke();
     ctx.fillStyle = fillColor;
@@ -120,10 +120,10 @@ function drawStar(ctx, cx, cy, spikes, baseOuterRadius, baseInnerRadius, fillCol
 async function drawStars(ctx, stars, x, y, starSize) {
     // Draw a larger transparent star if stars is null
     if (stars === null) {
-        ctx.globalAlpha = 0.2;  // 80% transparency
+        ctx.globalAlpha = 0.1;  // 90% transparency
         ctx.fillStyle = '#ffad30';
         // Draw larger star here, assuming you have a function to draw a star
-        drawStar(ctx, 418, 225, 5, 25, 12.5);
+        drawStar(ctx, 418, 225, 3, 25, 12.5);
         ctx.globalAlpha = 1; 
         printText('n/a', ctx, 410, 225, 'black', '10px Barlow'); // Adjust text position as needed
         return;
@@ -136,45 +136,47 @@ async function drawStars(ctx, stars, x, y, starSize) {
     for (let i = 0; i < 5; i++) {
         // Draw full star at (x + i * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
-        drawStar(ctx, x + i * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, 1, 0.50);
+        drawStar(ctx, x + i * (starSize + 5), y, 5, 25, 12.5, '#ee9e15', 'black', 3, 1, 0.80);
     }
     ctx.globalAlpha = 1;
     for (let i = 0; i < fullStars; i++) {
         // Draw full star at (x + i * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
-        drawStar(ctx, x + i * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, 1, 0.50);
+        drawStar(ctx, x + i * (starSize + 5), y, 5, 25, 12.5, '#ee9e15', 'black', 3, 1, 0.80);
     }
 
     if (partialStar > 0) {
         // Draw partial star here at (x + fullStars * (starSize + padding), y)
         ctx.fillStyle = '#ffad30';
-        drawStar(ctx, x + fullStars * (starSize + 10), y, 5, 25, 12.5, '#ee9e15', 'black', 0, partialStar, 0.50);
+        drawStar(ctx, x + fullStars * (starSize + 5), y, 5, 25, 12.5, '#ee9e15', 'black', 3, partialStar, 0.80);
     }
 }
 
 // Utility function to overlay "reproducible" image
 async function overlayReproducibleImage(ctx) {
     // Overlay the "reproducible" image
-    const overlayX = 35;  // X position
-    const overlayY = 177; // Y position (100 pixels below the logo)
-    const overlayWidth = 75;
-    const overlayHeight = 75;
+    const overlayX = 41;  // X position
+    const overlayY = 275; // Y position (100 pixels below the logo)
+    const overlayWidth = 130;
+    const overlayHeight = 130;
     ctx.drawImage(reproducibleImage, overlayX, overlayY, overlayWidth, overlayHeight);
 
     // Background line for reproducible
-    ctx.strokeStyle = 'rgb(255, 173, 48)';  // Set the line color to orange
-    ctx.lineWidth = 20;
 
-    let grad = ctx.createLinearGradient(130, 110, 500, 110);
-    grad.addColorStop(0, 'rgba(255, 173, 48, 0.8)'); // 0% transparent at the start
-    grad.addColorStop(0.4, 'rgba(255, 173, 48, 0.4)'); // 0% transparent at the middle
+    ctx.strokeStyle = 'rgb(255, 173, 48)';  // Set the line color to orange
+    ctx.lineWidth = 25;
+    ctx.lineJoin = 'round'; 
+
+    let grad = ctx.createLinearGradient(280, 182, 750, 182); // Adjust (x,y, up to x,y)
+    grad.addColorStop(0, 'rgba(255, 173, 48, 0.8)'); // 20% transparent at the start
+    grad.addColorStop(0.7, 'rgba(255, 173, 48, 0.4)'); // 60% transparent at the middle
     grad.addColorStop(1, 'rgba(255, 173, 48, 0)'); // 100% transparent at the end
 
     ctx.strokeStyle = grad;
 
     ctx.beginPath();
-    ctx.moveTo(130, 116);
-    ctx.lineTo(500, 116);
+    ctx.moveTo(205, 182); // match the above (x, y)
+    ctx.lineTo(750, 182);
     ctx.stroke();
     ctx.closePath();
 }
@@ -183,8 +185,8 @@ async function overlayReproducibleImage(ctx) {
 
 async function drawOnCanvas(data, iconImage) {
     // Width and Heights variables for canvas
-    const width = 512; 
-    const height = 288;
+    const width = 800; 
+    const height = 450;
     const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
     
@@ -193,18 +195,18 @@ async function drawOnCanvas(data, iconImage) {
 
     // Draw the resized icon image at specified coordinates
     const iconX = 22; // 30 if 1024x576
-    const iconY = 55; // 100 if 1024x576
-    const iconWidth = 100;
-    const iconHeight = 100;
+    const iconY = 80; // 100 if 1024x576
+    const iconWidth = 160;
+    const iconHeight = 160;
     ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
     
     // Title
-    printText(data.title || 'Unknown Title', ctx, 130, 70, 'black', '20px Barlow', 42, 22);
+    printText(data.title || 'Unknown Title', ctx, 207, 113, 'black', '31px Barlow', 42, 29);
     // Version
     if (data.version) {
-        printText('Version:', ctx, 45, 170, 'gray', '7px Barlow');
+        printText('Version:', ctx, 60, 260, 'gray', '12px Barlow');
         // Wrapped version
-        printText(data.version, ctx, 73, 170, 'black', '12px Barlow', 7, 10);
+        printText(data.version, ctx, 107, 260, 'black', '16px Barlow', 7, 10);
     }
     
     // Verdict 
@@ -214,12 +216,12 @@ async function drawOnCanvas(data, iconImage) {
         await overlayReproducibleImage(ctx);
     }
 
-    printText(mappedVerdict, ctx, 130, 122, 'black', '20px Barlow', 41, 30);
+    printText(mappedVerdict, ctx, 207, 190, 'black', '26px Barlow', 41, 30);
     
     // Developer Name
     if (data.developerName) {
-        printText('Developer:', ctx, 130, 140, 'gray', '16px Barlow');
-        printText(data.developerName, ctx, 220, 140, 'black', null, 37, 18);
+        printText('Developer:', ctx, 207, 230, 'gray', '20px Barlow');
+        printText(data.developerName, ctx, 305, 230, 'black', null, 37, 18);
     }
     
     // Separator line code
@@ -229,8 +231,8 @@ async function drawOnCanvas(data, iconImage) {
     ctx.lineWidth = 1;
 
     ctx.beginPath();
-    ctx.moveTo(130, 165);
-    ctx.lineTo(500, 165);
+    ctx.moveTo(207, 255);
+    ctx.lineTo(750, 255);
     ctx.stroke();
     ctx.closePath();
     ctx.globalAlpha = 1;
@@ -239,14 +241,13 @@ async function drawOnCanvas(data, iconImage) {
 
     if (data.stars) {
         // Draw Stars
-        printText('Stars:', ctx, 400, 190, 'gray', '16px Barlow');
         const starRating = data.stars;  // Retrieve star rating from data
-        drawStars(ctx, starRating, 372, 215, 15);  // x=130, y=265 are coordinates; 20 is star size
+        drawStars(ctx, starRating, 560, 330, 30);  // x=130, y=265 are coordinates; 20 is star spacing
     }
 
     if (data.users) {
-        printText('Downloads:', ctx, 130, 185, 'gray', '16px Barlow');
-        printText('>' + data.users, ctx, 240, 185, 'black');
+        printText('Downloads:', ctx, 207, 285, 'gray', '20px Barlow');
+        printText('>' + data.users, ctx, 360, 285, 'black');
     }
 
     function dateOrUnknown(date) {
@@ -254,14 +255,14 @@ async function drawOnCanvas(data, iconImage) {
       ? formatDate(date)
       : 'Unknown';
     }
-    printText('Released:', ctx, 130, 205, 'gray', '16px Barlow');
-    printText(dateOrUnknown(data.released), ctx, 240, 205, 'black');
+    printText('Released:', ctx, 207, 315, 'gray', '20 Barlow');
+    printText(dateOrUnknown(data.released), ctx, 360, 315, 'black');
 
-    printText('Updated:', ctx, 130, 225, 'gray');
-    printText(dateOrUnknown(data.updated), ctx, 240, 225, 'black');
+    printText('Updated:', ctx, 207, 345, 'gray');
+    printText(dateOrUnknown(data.updated), ctx, 360, 345, 'black');
 
-    printText('Analyzed:', ctx, 130, 245, 'gray');
-    printText(dateOrUnknown(data.date), ctx, 240, 245, 'black');
+    printText('Analyzed:', ctx, 207, 375, 'gray');
+    printText(dateOrUnknown(data.date), ctx, 360, 375, 'black');
 
     return canvas;
 }
