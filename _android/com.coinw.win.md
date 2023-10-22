@@ -4,12 +4,12 @@ title: CoinW- Buy Crypto BTC ETH DOGE
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinw.win
 appCountry: 
 released: 2022-12-07
-updated: 2023-10-13
-version: 9.8.24
+updated: 2023-10-17
+version: 9.8.25
 stars: 4.5
 ratings: 
 reviews: 12

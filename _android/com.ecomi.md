@@ -10,9 +10,9 @@ appCountry:
 released: 2018-08-15
 updated: 2023-09-19
 version: 3.0.6
-stars: 3
+stars: 2.9
 ratings: 140
-reviews: 18
+reviews: 17
 size: 
 website: https://wallet.ecomi.com
 repository: 

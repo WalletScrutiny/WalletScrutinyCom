@@ -10,8 +10,8 @@ idd: '1195786666'
 released: 2017-01-20
 updated: 2023-09-08
 version: 2.4.0
-stars: 4.2
-reviews: 38
+stars: 4.3
+reviews: 41
 size: '198510592'
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 repository: 

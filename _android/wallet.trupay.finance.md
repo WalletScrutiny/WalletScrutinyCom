@@ -3,7 +3,7 @@ wsId:
 title: Trupay wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: wallet.trupay.finance
 appCountry: 
 released: 

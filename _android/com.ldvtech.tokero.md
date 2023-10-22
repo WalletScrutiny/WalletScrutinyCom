@@ -12,7 +12,7 @@ updated: 2023-07-31
 version: 4.1.0
 stars: 5
 ratings: 
-reviews: 6
+reviews: 4
 size: 
 website: https://web.tokero.com
 repository: 

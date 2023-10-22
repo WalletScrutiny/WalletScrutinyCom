@@ -4,12 +4,12 @@ title: 'MetaOne: NFT & Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: ventures.aag.metaone
 appCountry: 
 released: 2022-12-22
-updated: 2023-10-13
-version: 4.0.0
+updated: 2023-10-18
+version: 4.0.1
 stars: 4.4
 ratings: 
 reviews: 2

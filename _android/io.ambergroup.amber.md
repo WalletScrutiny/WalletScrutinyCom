@@ -8,8 +8,8 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2023-09-22
-version: 2.16.0
+updated: 2023-10-18
+version: 2.16.5
 stars: 4.7
 ratings: 2656
 reviews: 240

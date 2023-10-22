@@ -12,7 +12,7 @@ updated: 2022-08-30
 version: 3.1.17
 stars: 4
 ratings: 272
-reviews: 110
+reviews: 109
 size: 
 website: https://paritex.com/
 repository: 

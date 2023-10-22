@@ -7,8 +7,8 @@ users: 1000
 appId: com.libertify
 appCountry: 
 released: 2023-01-12
-updated: 2023-10-05
-version: 2.0.1
+updated: 2023-10-19
+version: 2.1.0
 stars: 
 ratings: 
 reviews: 

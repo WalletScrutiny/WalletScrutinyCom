@@ -3,7 +3,7 @@ wsId:
 title: Suni Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.suniwallet.app
 appCountry: 
 released: 2023-03-06

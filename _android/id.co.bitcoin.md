@@ -12,7 +12,7 @@ updated: 2023-10-13
 version: 5.1.7
 stars: 4.4
 ratings: 97568
-reviews: 464
+reviews: 465
 size: 
 website: http://indodax.com
 repository: 

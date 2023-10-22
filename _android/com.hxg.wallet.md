@@ -12,7 +12,7 @@ updated: 2023-09-28
 version: 2.0.4
 stars: 4.5
 ratings: 
-reviews: 37
+reviews: 38
 size: 
 website: https://wowearn.com/
 repository: 

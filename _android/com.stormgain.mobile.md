@@ -8,11 +8,11 @@ users: 5000000
 appId: com.stormgain.mobile
 appCountry: de
 released: 2019-07-08
-updated: 2023-09-18
-version: 1.37.0
+updated: 2023-10-19
+version: 1.39.0
 stars: 3.7
 ratings: 114954
-reviews: 1038
+reviews: 1036
 size: 
 website: https://stormgain.com/
 repository: 

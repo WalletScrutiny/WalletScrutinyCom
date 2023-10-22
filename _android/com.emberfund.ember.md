@@ -8,11 +8,11 @@ users: 500000
 appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
-updated: 2023-09-27
+updated: 2023-10-18
 version: '33.2'
 stars: 4.2
 ratings: 1026
-reviews: 642
+reviews: 645
 size: 
 website: https://www.emberfund.io/
 repository: 

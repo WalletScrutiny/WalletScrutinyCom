@@ -11,7 +11,7 @@ released: 2019-02-08
 updated: 2023-05-30
 version: 2.1.0
 stars: 4.7
-reviews: 989
+reviews: 990
 size: '116808704'
 website: https://mercuryo.io/
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/mercuryo.io
 - https://www.reddit.com/r/mercuryo
 features: 
-developerName: MoneySwap OU
+developerName: MonayAmber UAB
 
 ---
 
