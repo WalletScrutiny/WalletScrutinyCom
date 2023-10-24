@@ -8,8 +8,8 @@ users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2023-09-29
-version: 1.68.2
+updated: 2023-10-16
+version: 1.69.1
 stars: 4.4
 ratings: 1225
 reviews: 30
@@ -47,4 +47,4 @@ Not much information can be gleaned from the web domain so most of the informati
 The presence of CFDs indicate an inability to send and receive bitcoins.
 
 
-Additional observations: We wonder how this app relates to Capital.com, as that site redirects to {% include walletLink.html wallet='android/com.capital.trading.prod2' verdict='false' %} and not this app.
+Additional observations: We wonder how this app relates to Capital.com, as that site redirects to {% include walletLink.html wallet='android/com.capital.trading' verdict='false' %} and not this app.

@@ -8,11 +8,11 @@ users: 100000
 appId: co.busha.android
 appCountry: 
 released: 2019-01-21
-updated: 2023-09-26
-version: 6.3.6
+updated: 2023-10-21
+version: 6.3.9
 stars: 4
 ratings: 3575
-reviews: 178
+reviews: 180
 size: 
 website: https://busha.co
 repository: 

@@ -10,7 +10,7 @@ idd: '1629762278'
 released: 2022-06-21
 updated: 2023-09-12
 version: 1.17.4
-stars: 3.9
+stars: 3.8
 reviews: 54
 size: '88363008'
 website: https://www.tatcoin.com

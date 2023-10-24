@@ -8,7 +8,7 @@ users: 100000
 appId: com.maicoin.max
 appCountry: us
 released: 2018-07-01
-updated: 2023-06-12
+updated: 2023-10-16
 version: 10.0.0
 stars: 3.4
 ratings: 1049

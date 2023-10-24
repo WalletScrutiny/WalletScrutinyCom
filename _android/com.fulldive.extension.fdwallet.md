@@ -3,7 +3,7 @@ wsId:
 title: 'Fulldive Wallet: Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.fulldive.extension.fdwallet
 appCountry: 
 released: 2022-05-26
@@ -19,7 +19,7 @@ issue:
 icon: com.fulldive.extension.fdwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-10-03
 signer: 
 reviewArchive: 

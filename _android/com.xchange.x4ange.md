@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Онлайн-обменник криптовалют 4a
+title: Обменник криптовалют 4ange
 altTitle: 
 authors: 
 users: 1000
 appId: com.xchange.x4ange
 appCountry: 
 released: 2021-06-21
-updated: 2021-06-21
-version: '1.0'
+updated: 2023-10-05
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.x4ange.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2023-06-13
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

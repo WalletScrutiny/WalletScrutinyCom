@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.exchange.digicoins.cc.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2023-06-03
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

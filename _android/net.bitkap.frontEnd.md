@@ -8,11 +8,11 @@ users: 10000
 appId: net.bitkap.frontEnd
 appCountry: 
 released: 2021-11-21
-updated: 2023-09-07
+updated: 2023-10-17
 version: 1.3.0
-stars: 3.6
+stars: 3.5
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://bitkap.africa
 repository: 

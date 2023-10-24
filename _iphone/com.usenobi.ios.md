@@ -8,11 +8,11 @@ appId: com.usenobi.ios
 appCountry: id
 idd: '1510269362'
 released: 2020-07-15
-updated: 2023-07-25
-version: 3.6.2
+updated: 2023-10-19
+version: 3.6.3
 stars: 4.8
-reviews: 74
-size: '57569280'
+reviews: 75
+size: '55071744'
 website: https://usenobi.com
 repository: 
 issue: 

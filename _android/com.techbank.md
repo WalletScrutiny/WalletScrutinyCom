@@ -3,7 +3,7 @@ wsId:
 title: TechBank
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.techbank
 appCountry: 
 released: 2022-03-16
@@ -19,7 +19,7 @@ issue:
 icon: com.techbank.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

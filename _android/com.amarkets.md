@@ -4,15 +4,15 @@ title: 'AMarkets: Trade & Invest'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.amarkets
 appCountry: us
 released: 2019-05-31
-updated: 2023-09-29
-version: 2.1.6
-stars: 4.4
+updated: 2023-10-13
+version: 2.1.8
+stars: 4.3
 ratings: 2509
-reviews: 130
+reviews: 131
 size: 
 website: https://www.amarkets.com
 repository: 

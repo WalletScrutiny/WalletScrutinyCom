@@ -1,6 +1,6 @@
 ---
 wsId: everestKinvo
-title: 'Kinvo: otimize investimentos'
+title: 'Kinvo: Acompanhe investimentos'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.everestti.kinvo
 appCountry: BR
 released: 2017-12-22
-updated: 2023-09-13
-version: 3.28.0
+updated: 2023-10-10
+version: 3.29.0
 stars: 3.8
 ratings: 
-reviews: 6940
+reviews: 6971
 size: 
 website: http://www.kinvo.com.br
 repository: 

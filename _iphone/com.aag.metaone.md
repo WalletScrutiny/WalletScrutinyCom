@@ -8,11 +8,11 @@ appId: com.aag.metaone
 appCountry: us
 idd: '1627212812'
 released: 2023-01-03
-updated: 2023-09-20
-version: 3.6.0
+updated: 2023-10-18
+version: 4.0.1
 stars: 4.9
 reviews: 74
-size: '41626624'
+size: '41616384'
 website: https://getmeta.one/
 repository: 
 issue: 

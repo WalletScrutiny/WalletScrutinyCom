@@ -4,7 +4,7 @@ title: Bridge Wallet
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07

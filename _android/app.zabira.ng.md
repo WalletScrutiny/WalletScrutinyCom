@@ -8,7 +8,7 @@ users: 5000
 appId: app.zabira.ng
 appCountry: 
 released: 2022-02-23
-updated: 2023-09-04
+updated: 2023-10-18
 version: 1.0.28
 stars: 3.1
 ratings: 

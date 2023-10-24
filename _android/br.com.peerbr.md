@@ -8,8 +8,8 @@ users: 50000
 appId: br.com.peerbr
 appCountry: 
 released: 2019-05-24
-updated: 2023-09-26
-version: 4.10.1
+updated: 2023-10-20
+version: 4.10.5
 stars: 5
 ratings: 
 reviews: 2

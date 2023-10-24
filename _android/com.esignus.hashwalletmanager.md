@@ -3,7 +3,7 @@ wsId:
 title: HASHWallet Manager
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.esignus.hashwalletmanager
 appCountry: 
 released: 2022-09-22
@@ -19,7 +19,7 @@ issue:
 icon: com.esignus.hashwalletmanager.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

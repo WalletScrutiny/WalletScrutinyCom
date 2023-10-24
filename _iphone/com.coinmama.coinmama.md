@@ -10,7 +10,7 @@ idd: '6443739884'
 released: 2022-11-21
 updated: 2023-04-18
 version: 1.3.0
-stars: 2.9
+stars: 2.7
 reviews: 27
 size: '87631872'
 website: https://www.coinmama.com/coinmama-wallet

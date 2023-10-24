@@ -3,11 +3,11 @@ wsId:
 title: Coinstick
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coinstick.myapp
 appCountry: 
 released: 2023-01-23
-updated: 2023-08-30
+updated: 2023-10-16
 version: 1.0.0
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinstick.myapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

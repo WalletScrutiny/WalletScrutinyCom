@@ -9,9 +9,9 @@ appCountry:
 released: 2020-11-09
 updated: 2023-08-27
 version: '1.3'
-stars: 2.8
+stars: 2.7
 ratings: 
-reviews: 32
+reviews: 31
 size: 
 website: https://softwareinfo.net
 repository: 

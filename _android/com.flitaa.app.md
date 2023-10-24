@@ -1,6 +1,6 @@
 ---
 wsId: flitaa
-title: 'flitaa: your crypto wallet'
+title: 'Flitaa: your crypto wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.flitaa.app
 appCountry: ng
 released: 2021-05-15
-updated: 2023-07-06
-version: 1.34.3
-stars: 3.1
+updated: 2023-10-20
+version: 1.40.0
+stars: 3
 ratings: 428
-reviews: 472
+reviews: 478
 size: 
 website: https://flitaa.com
 repository: 

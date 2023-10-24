@@ -3,12 +3,12 @@ wsId:
 title: GK8
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.gk8.network
 appCountry: 
 released: 2021-09-01
-updated: 2023-04-21
-version: 11.1.1
+updated: 2023-10-16
+version: 12.0.0
 stars: 
 ratings: 
 reviews: 

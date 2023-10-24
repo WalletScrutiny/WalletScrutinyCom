@@ -12,7 +12,7 @@ updated: 2023-09-22
 version: 4.0.5
 stars: 4.1
 ratings: 575
-reviews: 38
+reviews: 37
 size: 
 website: https://simpleswap.io
 repository: 

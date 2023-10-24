@@ -1,6 +1,6 @@
 ---
 wsId: TeroxxWallet
-title: TeroxxWallet
+title: Teroxx
 altTitle: 
 authors:
 - danny
@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://teroxxapp.com/
+website: https://www.teroxx.com/
 repository: 
 issue: 
 icon: com.teroxx.png

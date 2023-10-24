@@ -4,15 +4,15 @@ title: 'Koinpark: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.application.koinpark
 appCountry: 
 released: 2023-02-04
-updated: 2023-08-21
-version: '1.19'
-stars: 
+updated: 2023-10-10
+version: '1.21'
+stars: 3.5
 ratings: 
-reviews: 
+reviews: 7
 size: 
 website: https://koinpark.com/
 repository: 

@@ -8,11 +8,11 @@ appId: com.stormbird.alphawallet
 appCountry: us
 idd: 1358230430
 released: 2018-05-25
-updated: 2023-09-27
-version: '3.69'
+updated: 2023-10-17
+version: '3.70'
 stars: 4.7
 reviews: 278
-size: '118242304'
+size: '103806976'
 website: https://alphawallet.com/
 repository: 
 issue: 

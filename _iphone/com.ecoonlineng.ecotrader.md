@@ -10,17 +10,17 @@ idd: '1535823080'
 released: 2020-11-05
 updated: 2021-10-31
 version: 3.7.0
-stars: 3.6
-reviews: 36
+stars: 3.7
+reviews: 35
 size: '71578624'
 website: 
 repository: 
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-23
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: 

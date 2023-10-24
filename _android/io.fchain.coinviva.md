@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.fchain.coinviva.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-10-21
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

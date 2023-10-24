@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpapa.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-11
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: bitpapa_com

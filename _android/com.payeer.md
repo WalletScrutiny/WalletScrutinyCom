@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-03
 updated: 2022-10-18
 version: VARY
-stars: 4.4
+stars: 4.5
 ratings: 36999
 reviews: 161
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.payeer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-11-02
+date: 2023-10-14
 signer: 
 reviewArchive: 
 twitter: 

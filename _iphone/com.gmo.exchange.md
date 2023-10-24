@@ -8,11 +8,11 @@ appId: com.gmo.exchange
 appCountry: th
 idd: 1525862502
 released: 2020-08-09
-updated: 2023-09-29
-version: 3.0.3
+updated: 2023-10-20
+version: 3.0.4
 stars: 3.5
-reviews: 27
-size: '106048512'
+reviews: 28
+size: '106140672'
 website: https://ex.z.com/
 repository: 
 issue: 

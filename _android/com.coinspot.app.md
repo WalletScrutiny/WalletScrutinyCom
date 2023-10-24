@@ -12,7 +12,7 @@ updated: 2023-09-19
 version: 2.2.46
 stars: 4.7
 ratings: 3068
-reviews: 1563
+reviews: 1564
 size: 
 website: https://www.coinspot.com.au
 repository: 

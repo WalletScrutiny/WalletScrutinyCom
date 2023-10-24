@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AmazeWallet: Mine, Crypto, NFT'
+title: 'Amaze: Crypto Mining Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.walletamaze.nftwallet
 appCountry: 
 released: 2023-06-26
-updated: 2023-09-26
-version: 1.0.09
+updated: 2023-10-20
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

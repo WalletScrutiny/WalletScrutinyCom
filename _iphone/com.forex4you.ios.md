@@ -8,11 +8,11 @@ appId: com.forex4you.ios
 appCountry: th
 idd: 1008039704
 released: 2015-10-11
-updated: 2023-08-03
-version: 5.2.4
+updated: 2023-10-06
+version: 5.3.0
 stars: 4.8
 reviews: 331
-size: '176583680'
+size: '186430464'
 website: https://www.forex4you.com/en/contacts/
 repository: 
 issue: 
