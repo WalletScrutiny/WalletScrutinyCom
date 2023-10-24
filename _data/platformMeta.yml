@@ -80,9 +80,12 @@ hardware:
     exclusive control of what transactions he signs or not. That means:
     
     * The device allows to create private keys offline
+
     * The device never shares private key material apart from an offline backup
       mechanism
+
     * The device displays receive addresses for confirmation
+
     * The device shares signed transactions after informed approval on the
       device without reliance on insecure external hardware
   notes: Hardware wallets are subject to a different subset of tests.
