@@ -8188,7 +8188,7 @@ var Sd = nf((Ye) => {
     };
   }
   const tn = vd();
-  tn.addRelay("wss://relay.nostr.info", { read: !0, write: !0 });
+  tn.addRelay("wss://nos.lol", { read: !0, write: !0 });
   const bt = [];
   function yd(e, t = be) {
     let r;

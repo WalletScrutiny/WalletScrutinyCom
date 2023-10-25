@@ -9066,7 +9066,7 @@ class r0 {
       this.onReadyResolve = e;
     });
   }
-  setRelay(e = "wss://relay.nostr.info") {
+  setRelay(e = "wss://nos.lol") {
     this.nostr.addRelay(e, { read: !0, write: !0 });
   }
   setReady() {

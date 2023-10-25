@@ -19,11 +19,28 @@ const getNames = async () => {
   return names;
 };
 
+function isEmpty(obj) {
+  for (const prop in obj) {
+    if (Object.hasOwn(obj, prop)) {
+      return false;
+    }
+  }
+  return true;
+}
+
 (async () => {
   const experts = (await import('../assets/js/experts.mjs')).default
   const names = await getNames();
   const summariser = new Summariser({
-    relay: 'wss://relay.nostr.info',
+    relay: 
+    // [
+      // 'wss://relay.nostr.info',
+      // 'wss://relayable.org',
+      // 'wss://nostr.wine',
+      'wss://nos.lol',
+      // 'wss://nostr.mom',
+      // 'wss://nostr.oxtr.dev',
+    // ],
     trustedAuthors: experts
   });
   await summariser.onReady();
@@ -33,7 +50,14 @@ const getNames = async () => {
 
   for (const n of names) {
     const opinion = await summariser.get(n);
-    all[n] = opinion;
+    for (const k in opinion) {
+      if (opinion[k] === 0) {
+        delete opinion[k];
+      }
+    }
+    if (!isEmpty(opinion)) {
+      all[n] = opinion;
+    }
   }
   await fs.writeFile('_includes/allOpinions.html', JSON.stringify(all))
   process.exit(0);
