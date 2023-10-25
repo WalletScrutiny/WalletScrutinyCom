@@ -12,7 +12,7 @@ updated: 2023-10-05
 version: 1.20.1
 stars: 4.3
 ratings: 34
-reviews: 543
+reviews: 545
 size: 
 website: https://www.xverse.app/
 repository: 

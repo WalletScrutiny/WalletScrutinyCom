@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: WK Beast
+developerName: Ahmad Kasabieh
 features: 
 
 ---

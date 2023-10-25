@@ -8,8 +8,8 @@ users: 10000
 appId: io.wallacy.cryptowallet
 appCountry: 
 released: 2023-07-19
-updated: 2023-08-15
-version: 0.1.9
+updated: 2023-10-20
+version: 0.1.10
 stars: 4.9
 ratings: 
 reviews: 14

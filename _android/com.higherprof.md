@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: La Qualite
+developerName: R. MASHA SOLUTIONS
 features: 
 
 ---

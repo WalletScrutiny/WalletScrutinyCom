@@ -10,9 +10,9 @@ appCountry:
 released: 2015-01-01
 updated: 2023-10-11
 version: 4.0.12
-stars: 4.7
+stars: 4.6
 ratings: 946
-reviews: 124
+reviews: 125
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android

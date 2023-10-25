@@ -7,8 +7,8 @@ users: 50
 appId: com.tnp.fortvax
 appCountry: 
 released: 2022-04-19
-updated: 2023-08-31
-version: 1.1.6
+updated: 2023-10-23
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 

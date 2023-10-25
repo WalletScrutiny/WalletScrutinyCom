@@ -12,7 +12,7 @@ updated: 2023-10-17
 version: 3.7.4
 stars: 4.1
 ratings: 21149
-reviews: 1766
+reviews: 1765
 size: 
 website: https://nexo.com
 repository: 

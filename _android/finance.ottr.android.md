@@ -10,9 +10,9 @@ appCountry:
 released: 2022-10-04
 updated: 2023-10-12
 version: '1.54'
-stars: 2.6
+stars: 2.3
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://ottr.finance
 repository: 

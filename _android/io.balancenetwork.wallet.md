@@ -12,7 +12,7 @@ updated: 2023-07-19
 version: 1.0.18
 stars: 5
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://balancenetwork.io/
 repository: 

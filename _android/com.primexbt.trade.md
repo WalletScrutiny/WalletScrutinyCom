@@ -1,6 +1,6 @@
 ---
 wsId: primeXBTCryptoTrading
-title: 'PrimeXBT: Trade 100+ markets'
+title: PrimeXBT
 altTitle: 
 authors:
 - danny

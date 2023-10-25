@@ -8,8 +8,8 @@ users: 10000
 appId: com.arzypto.my
 appCountry: 
 released: 2020-08-15
-updated: 2023-10-09
-version: 2.2.5
+updated: 2023-10-21
+version: 2.2.9
 stars: 4.6
 ratings: 
 reviews: 7

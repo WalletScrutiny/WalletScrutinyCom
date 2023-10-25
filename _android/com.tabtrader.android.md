@@ -14,7 +14,7 @@ updated: 2023-09-26
 version: 6.1.6
 stars: 4.1
 ratings: 57218
-reviews: 1137
+reviews: 1139
 size: 
 website: http://www.tab-trader.com
 repository: 

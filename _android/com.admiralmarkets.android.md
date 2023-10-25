@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: 'Stocks: Forex trading・Admirals'
+title: Stocks・Forex trading・Admirals
 altTitle: 
 authors:
 - danny
