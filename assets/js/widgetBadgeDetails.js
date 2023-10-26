@@ -3,14 +3,16 @@
  **/
 function getWidgetDetails(wallet) {
   function linkIf(url, title, logo) {
-    return hasValue(url) ? `<a target="_blank" title="${title}" href="${url}">${logo}</a>` : ""
+    return hasValue(url)
+      ? `<a target="_blank" title="${title}" href="${url}">${logo}</a>`
+      : "";
   }
 
   function hasValue(x) {
     return typeof x === "boolean"
         || typeof x === "number"
         || typeof x === "object"
-        || typeof x === "string" && x != ""
+        || typeof x === "string" && x != "";
   }
   
   function getSocialLinks(social) {
@@ -18,9 +20,19 @@ function getWidgetDetails(wallet) {
       ? social.map( s => linkIf(s,
         (new URL(s)).hostname.replace('www.', ''),
         '<i class="fas fa-globe"></i>')).join(' ')
-      : ''
+      : '';
   }
 
+  const defaults = {
+    opinion: {
+      positive: 0,
+      neutral: 0,
+      negative: 0,
+    }
+  };
+  wallet = wallet || {};
+  wallet.opinion = wallet.opinion || {};
+  wallet.opinion = { ...defaults, ...wallet.opinion };
   return `<table style="color: var(--blue, #003395);height: calc(100% - .75rem);border-collapse: collapse;margin:.5rem .75rem .25rem 0;font-size: 14px;font-family:Helvetica Neue, Arial, sans-serif;">
     ${ hasValue(wallet.users) ? `<tr><td>Downloads</td><td>${wallet.users}</td></tr>` : ""}
     ${ hasValue(wallet.stars)
@@ -39,7 +51,7 @@ function getWidgetDetails(wallet) {
     ${ hasValue(wallet.updated) ? `<tr><td>Latest Update</td><td>${wallet.updated}</td></tr>` : ""}
     ${ hasValue(wallet.discontinued) ? `<tr><td><strong>Discontinued</strong></td><td>${wallet.discontinued}</td></tr>` : ""}
     ${ (wallet.dimensions && wallet.dimensions.length == 3) ? `<tr><td>Size</td><td>${wallet.dimensions[0]}mm x ${wallet.dimensions[1]}mm x ${wallet.dimensions[2]}mm</td></tr>` : ""}
-    <tr><td><strong>Opinions</strong></td><td>${wallet.opinion?.positive || 0} 🙂 / ${wallet.opinion?.neutral || 0} 😐 / ${wallet.opinion?.negative || 0} 🙁</td></tr>
+    <tr><td><strong>Opinions</strong></td><td>${wallet.opinion.positive} 🙂 / ${wallet.opinion.neutral} 😐 / ${wallet.opinion.negative} 🙁</td></tr>
     <tr><td>Reviewed</td><td>${wallet.date}</td></tr>
     <tr><td>Links</td><td>
     ${ wallet.folder == "iphone"
@@ -56,5 +68,5 @@ function getWidgetDetails(wallet) {
     ${ linkIf(wallet.twitter && `https://twitter.com/${wallet.twitter}`, "Provider Twitter", '<i class="fab fa-twitter"></i>') }
     ${ getSocialLinks(wallet.social) }
     </td></tr>
-    </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`
+    </table><style>td{padding:.25rem .5rem .25rem 0;}tr{box-shadow: 0px 10px 2px -10px #ddd;}td > a{text-decoration: none;}</style>`;
 }
