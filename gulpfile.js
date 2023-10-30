@@ -25,7 +25,7 @@ gulp.task('minjs', () => {
       ext: {
         min: '.jsm'
       },
-      ignoreFiles: ['nostr-opinion.js', '.min.js', '-min.js']
+      ignoreFiles: ['.min.js', '-min.js']
     }))
     .pipe(gulp.dest('_site/'))
 })
