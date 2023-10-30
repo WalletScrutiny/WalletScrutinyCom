@@ -8,8 +8,8 @@ appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
 released: 2020-07-13
-updated: 2023-10-21
-version: 2.8.0
+updated: 2023-10-29
+version: 2.8.2
 stars: 2.7
 reviews: 42
 size: '125103104'

@@ -12,7 +12,7 @@ updated: 2023-10-11
 version: 2.5.1
 stars: 3.8
 ratings: 34617
-reviews: 39680
+reviews: 39681
 size: 
 website: https://www.tokocrypto.com
 repository: 

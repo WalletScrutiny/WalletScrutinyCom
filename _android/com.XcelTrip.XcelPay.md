@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-30
 updated: 2023-10-19
 version: 2.82.6
-stars: 4.5
+stars: 4.4
 ratings: 3713
-reviews: 76
+reviews: 77
 size: 
 website: http://www.xcelpay.io
 repository: 

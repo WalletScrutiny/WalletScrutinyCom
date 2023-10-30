@@ -11,7 +11,7 @@ released: 2023-07-11
 updated: 2023-10-20
 version: '1.2'
 stars: 4.8
-reviews: 5
+reviews: 6
 size: '44791808'
 website: https://wallacy.io/
 repository: 

@@ -11,7 +11,7 @@ released: 2022-12-12
 updated: 2023-04-24
 version: 1.0.5
 stars: 5
-reviews: 7
+reviews: 9
 size: '35101696'
 website: https://wallet-balancenetwork.io/
 repository: 

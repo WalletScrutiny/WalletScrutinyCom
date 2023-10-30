@@ -8,11 +8,11 @@ users: 1000
 appId: io.balancenetwork.wallet
 appCountry: 
 released: 2022-05-06
-updated: 2023-07-19
-version: 1.0.18
-stars: 5
+updated: 2023-10-27
+version: 1.0.19
+stars: 4.4
 ratings: 
-reviews: 7
+reviews: 6
 size: 
 website: https://balancenetwork.io/
 repository: 

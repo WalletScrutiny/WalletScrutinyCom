@@ -8,8 +8,8 @@ users: 1000
 appId: com.qm.bitdata.bitexotc
 appCountry: 
 released: 2021-08-18
-updated: 2023-10-13
-version: 1.7.5
+updated: 2023-10-27
+version: 1.7.6
 stars: 
 ratings: 
 reviews: 

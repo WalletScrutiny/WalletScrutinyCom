@@ -10,8 +10,8 @@ idd: '1615381976'
 released: 2022-09-27
 updated: 2023-10-13
 version: 1.0.479
-stars: 3.6
-reviews: 28
+stars: 3.7
+reviews: 30
 size: '26905600'
 website: https://ncwallet.net/
 repository: 

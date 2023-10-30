@@ -3,7 +3,7 @@ wsId:
 title: Coinpara
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.necen.coinpara.react
 appCountry: 
 released: 2022-04-11

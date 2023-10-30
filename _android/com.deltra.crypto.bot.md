@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://www.xrstudio.in
 repository: 
 issue: 
 icon: com.deltra.crypto.bot.png

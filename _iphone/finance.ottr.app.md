@@ -8,11 +8,11 @@ appId: finance.ottr.app
 appCountry: us
 idd: '1628669270'
 released: 2022-09-25
-updated: 2023-10-12
-version: '1.54'
+updated: 2023-10-26
+version: '1.55'
 stars: 4.6
-reviews: 9
-size: '101344256'
+reviews: 10
+size: '101356544'
 website: https://ottr.finance
 repository: 
 issue: 

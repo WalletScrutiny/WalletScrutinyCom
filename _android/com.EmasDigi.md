@@ -9,7 +9,7 @@ appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
 updated: 2023-10-10
-version: 5.5.0
+version: 5.5.1
 stars: 4
 ratings: 27168
 reviews: 100
@@ -17,7 +17,7 @@ size:
 website: https://pluang.com
 repository: 
 issue: 
-icon: com.EmasDigi.png
+icon: com.EmasDigi.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive

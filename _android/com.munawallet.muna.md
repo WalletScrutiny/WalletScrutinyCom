@@ -1,6 +1,6 @@
 ---
 wsId: munawallet
-title: Muna - Crypto & Cash Wallet
+title: Muna App
 altTitle: 
 authors:
 - danny

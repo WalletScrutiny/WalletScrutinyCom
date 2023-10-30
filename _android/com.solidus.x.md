@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: SolidusX
+developerName: DG LLC
 features: 
 
 ---

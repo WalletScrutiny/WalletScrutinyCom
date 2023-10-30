@@ -9,10 +9,10 @@ appId: im.token.app
 appCountry: 
 released: 2018-05-31
 updated: 2023-10-20
-version: 2.13.4
+version: 2.13.5
 stars: 4.3
 ratings: 4350
-reviews: 221
+reviews: 222
 size: 
 website: https://token.im
 repository: 

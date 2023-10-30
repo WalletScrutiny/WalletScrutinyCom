@@ -12,7 +12,7 @@ updated: 2023-09-30
 version: 4.4.0
 stars: 4.5
 ratings: 2457
-reviews: 200
+reviews: 199
 size: 
 website: https://www.forex4you.com/en/
 repository: 

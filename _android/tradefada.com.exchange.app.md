@@ -7,8 +7,8 @@ users: 1000
 appId: tradefada.com.exchange.app
 appCountry: 
 released: 
-updated: 2021-04-26
-version: 1.0.4
+updated: 2023-10-26
+version: 3.3.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: tradefada.com.exchange.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2023-04-16
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: 

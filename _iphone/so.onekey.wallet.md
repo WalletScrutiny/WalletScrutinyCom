@@ -11,7 +11,7 @@ released: 2022-04-27
 updated: 2023-09-27
 version: 4.14.0
 stars: 4.9
-reviews: 471
+reviews: 475
 size: '109367296'
 website: https://onekey.so?utm_source=app_store
 repository: https://github.com/OneKeyHQ/app-monorepo

@@ -12,7 +12,7 @@ updated: 2023-09-03
 version: 1.6.13
 stars: 4
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.cropty.io/
 repository: 

@@ -8,11 +8,11 @@ users: 1000000
 appId: max.cryptotab.android
 appCountry: 
 released: 2021-11-09
-updated: 2023-10-23
-version: 7.1.6
+updated: 2023-10-26
+version: 7.1.7
 stars: 4.1
 ratings: 
-reviews: 735
+reviews: 736
 size: 
 website: https://cryptocompany.site/
 repository: 

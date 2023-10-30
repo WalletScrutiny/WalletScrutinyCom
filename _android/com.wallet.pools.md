@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pools Wallet
+title: 'Pools Wallet: Crypto & NFTs'
 altTitle: 
 authors:
 - danny

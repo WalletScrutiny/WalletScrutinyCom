@@ -26,7 +26,7 @@ reviewArchive:
 twitter: suncryptoin
 social: 
 redirect_from: 
-developerName: Angelic infotech private limited
+developerName: SunCrypto
 features: 
 
 ---

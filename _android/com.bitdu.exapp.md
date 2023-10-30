@@ -9,9 +9,9 @@ appCountry:
 released: 2021-07-21
 updated: 2023-09-07
 version: 2.3.7
-stars: 
+stars: 2.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.bitdu.com
 repository: 

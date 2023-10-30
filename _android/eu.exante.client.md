@@ -12,7 +12,7 @@ updated: 2023-10-11
 version: 4.55.25
 stars: 3
 ratings: 218
-reviews: 160
+reviews: 161
 size: 
 website: http://exante.eu
 repository: 

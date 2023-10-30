@@ -10,9 +10,9 @@ appCountry: ru
 released: 2020-07-28
 updated: 2023-10-18
 version: 1.14.4
-stars: 4.5
+stars: 4.4
 ratings: 122
-reviews: 103
+reviews: 104
 size: 
 website: https://koshelek.ru/
 repository: 

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Michal from Bitango Technologies
+developerName: Bitango Technologies
 features: 
 
 ---

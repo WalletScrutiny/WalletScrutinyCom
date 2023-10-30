@@ -8,8 +8,8 @@ users: 10000
 appId: ilcbtc.wallet
 appCountry: 
 released: 2018-02-27
-updated: 2023-10-03
-version: '4.30'
+updated: 2023-10-27
+version: '4.32'
 stars: 
 ratings: 
 reviews: 

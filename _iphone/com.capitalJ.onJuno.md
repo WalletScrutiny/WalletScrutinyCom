@@ -11,7 +11,7 @@ released: 2021-02-13
 updated: 2023-10-20
 version: 3.2.5
 stars: 3.9
-reviews: 818
+reviews: 821
 size: '407320576'
 website: https://juno.finance
 repository: 

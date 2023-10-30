@@ -10,9 +10,9 @@ appCountry:
 released: 2022-10-18
 updated: 2023-10-13
 version: 1.0.479
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 126
+reviews: 128
 size: 
 website: https://ncwallet.net
 repository: 

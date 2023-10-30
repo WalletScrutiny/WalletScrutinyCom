@@ -8,8 +8,8 @@ users: 100000
 appId: br.com.gorilainvest.mobileapp
 appCountry: 
 released: 2019-05-13
-updated: 2023-09-12
-version: 5.2.2
+updated: 2023-10-24
+version: 5.2.3
 stars: 4.3
 ratings: 
 reviews: 23

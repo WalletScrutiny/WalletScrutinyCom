@@ -12,7 +12,7 @@ updated: 2023-09-05
 version: 3.3.8 'Pocket Change'
 stars: 3.3
 ratings: 821
-reviews: 171
+reviews: 172
 size: 
 website: https://monerujo.io/
 repository: 

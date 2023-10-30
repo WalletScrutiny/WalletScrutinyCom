@@ -11,7 +11,7 @@ released: 2018-02-21
 updated: 2023-10-12
 version: 3.2.4
 stars: 4.7
-reviews: 2285
+reviews: 2289
 size: '217881600'
 website: https://thecrypto.app
 repository: 

@@ -8,8 +8,8 @@ appId: io.trustody.wallet
 appCountry: nz
 idd: '1599698329'
 released: 2022-03-04
-updated: 2023-10-20
-version: '6.3'
+updated: 2023-10-26
+version: '6.4'
 stars: 0
 reviews: 0
 size: '78833664'

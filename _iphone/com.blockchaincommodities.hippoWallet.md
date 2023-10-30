@@ -8,11 +8,11 @@ appId: com.blockchaincommodities.hippoWallet
 appCountry: ae
 idd: '1613041499'
 released: 2022-04-01
-updated: 2023-08-30
-version: 1.14.1
+updated: 2023-10-26
+version: 1.15.0
 stars: 5
 reviews: 8
-size: '66929664'
+size: '65770496'
 website: https://hippowallet.io
 repository: 
 issue: 

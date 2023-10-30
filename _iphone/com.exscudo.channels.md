@@ -9,10 +9,10 @@ appId: com.exscudo.channels
 appCountry: ru
 idd: 1367425342
 released: 2018-05-16
-updated: 2023-10-06
-version: 3.10.4
+updated: 2023-10-25
+version: 3.10.5
 stars: 4.5
-reviews: 56
+reviews: 55
 size: '209001472'
 website: https://fintap.app/
 repository: 

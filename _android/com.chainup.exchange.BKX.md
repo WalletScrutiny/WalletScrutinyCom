@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Rubicon Korea LLC
+developerName: bkfoundation OÜ
 features: 
 
 ---
