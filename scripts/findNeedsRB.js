@@ -4,6 +4,56 @@ const path = require("path");
 const foldersToAnalyze = ["_android", "_hardware"];
 const needsRB = [];
 
+const searchForVerificationText = () => {
+    console.log('')
+    console.log('----------------------------')
+    console.log('🚀 \x1b[37m\x1b[1mNow processing files with "for verification" text\x1b[0m')
+    console.log('----------------------------')
+    console.log('')
+  
+    for (const folder of foldersToAnalyze) {
+      const folderPath = path.join("/home/dannybuntu/Work/walletScrutinyCom", folder);
+      const files = fs.readdirSync(folderPath);
+  
+      for (const file of files) {
+        if (path.extname(file) === ".md") {
+          const filePath = path.join(folderPath, file);
+          const content = fs.readFileSync(filePath, "utf-8");
+  
+          const metaMatch = content.match(/^meta:\s*(.*)$/m);
+          const verdictMatch = content.match(/^verdict:\s*(.*)$/m);
+  
+          if (content.includes("for verification") && 
+              metaMatch && metaMatch[1].trim() === 'ok' && 
+              verdictMatch && verdictMatch[1].trim() === 'wip') {
+  
+            console.log(`\x1b[1m\x1b[36m${file} needs verification\x1b[0m`);
+            console.log(`\x1b[1m\x1b[33mfile name: ${file}\x1b[0m`);
+  
+            const repositoryMatch = content.match(/^repository:\s*((https?:\/\/[^\s]+)?)(?=\s*$|\s*[^:]*:)/m);
+            const issueMatch = content.match(/^issue:\s*((https?:\/\/[^\s]+)?)(?=\s*$|\s*[^:]*:)/m);  // Updated regex
+            const versionMatch = content.match(/^version:\s*(.*)$/m);
+            const dateMatch = content.match(/^date:\s*(\d{4}-\d{2}-\d{2})/m);
+  
+            console.log(`- repository: ${repositoryMatch ? repositoryMatch[1].trim() : "N/A"}`);
+            console.log(`- issue: ${issueMatch && issueMatch[1].trim() ? issueMatch[1].trim() : "N/A"}`);
+            console.log(`- version: ${versionMatch ? versionMatch[1].trim() : "N/A"}`);
+            console.log(`- date: ${dateMatch ? dateMatch[1].trim() : "N/A"}`);
+          }
+        }
+      }
+    }
+  };
+  
+// Call the function at the beginning
+searchForVerificationText();
+
+console.log('')
+console.log('----------------------------')
+console.log('🚀 \x1b[37m\x1b[1mNow analyzing files which may need updating\x1b[0m')
+console.log('----------------------------')
+console.log('')
+
 const writeToNeedsRBFile = () => {
   fs.writeFileSync("needsRB.txt", needsRB.join("\n"), "utf-8");
 };
