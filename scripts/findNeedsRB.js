@@ -11,12 +11,16 @@ const writeToNeedsRBFile = () => {
 const analyzeFile = (filePath) => {
   const content = fs.readFileSync(filePath, "utf-8");
   const verdictMatch = content.match(/^verdict:\s*(.*)$/m);
+  const metaMatch = content.match(/^meta:\s*(.*)$/m);
 
   // Only proceed if verdict is one of the required values
-  if (verdictMatch) {
+  if (verdictMatch && metaMatch) {
     const verdict = verdictMatch[1].trim();
+    const meta = metaMatch[1].trim();
 
-    if (["reproducible", "nonverifiable", "ftbfs"].includes(verdict)) {
+    if (["reproducible", "nonverifiable", "ftbfs"].includes(verdict) &&
+        meta === "ok"
+      )  {
       const reviewArchiveMatch = content.match(
         /reviewArchive:\s*\n((?:\s*- date:.*\n)+)/
       );
