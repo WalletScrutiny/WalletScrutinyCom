@@ -33,7 +33,7 @@ const searchForVerificationText = () => {
   }
   needVerification.sort((a, b) => new Date(a.date) - new Date(b.date));
   for (const n of needVerification) {
-    console.log(`${n.date}: \x1b[1m\x1b[36m${n.file} needs verification:\x1b[0m`);
+    console.log(`${n.date}: \x1b[1m\x1b[36m${n.file}\x1b[0m`);
   }
 };
 
@@ -55,7 +55,7 @@ const analyzeFiles = () => {
   }
   needVerification.sort((a, b) => a.dtDays - b.dtDays);
   for (const n of needVerification) {
-    console.log(`${n.updated.toISOString().split("T")[0]}: \x1b[1m\x1b[36m${n.file} (${n.verdict}) last reviewed ${n.dtDays}d prior\x1b[0m`);
+    console.log(`${n.updated.toISOString().split("T")[0]}: \x1b[1m\x1b[36m${n.file}\x1b[0m (${n.verdict}) last reviewed ${n.dtDays}d prior`);
   }
 };
 
