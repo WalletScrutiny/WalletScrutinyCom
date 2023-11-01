@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitginApp
 title: BITGIN
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.bitgin.app
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.bitgin.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,12 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> BITGIN coin was established in 2021, becoming the first cryptocurrency exchange in Taiwan to submit a "Money Laundering Prevention Compliance Statement" to the FSC.
+>
+> Provide "New Taiwan Dollar" and "Cryptocurrency" transaction services, and entrust KGI Bank to act as the "New Taiwan Dollar Fund" custodian bank. The user's Taiwan dollar assets in BITGIN are kept in trust by the bank to enhance the security of "New Taiwan Dollar" assets. 98% of the user's virtual currency is stored in the multi-signature cold wallet to prevent hacker attacks and strengthen the security of the user's virtual currency assets.
+
+## Analysis 
+
+The description explicitly tells us that this is a custodial cryptocurrency exchange platform. 
