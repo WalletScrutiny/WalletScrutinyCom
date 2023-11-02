@@ -4,7 +4,7 @@ title: 'RockWallet: Buy and Swap'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.rockwallet.app
 appCountry: 
 released: 2022-11-14

@@ -10,7 +10,7 @@ appCountry: tm
 released: 2020-12-10
 updated: 2023-10-24
 version: 1.42.0
-stars: 4.1
+stars: 4
 ratings: 216
 reviews: 107
 size: 

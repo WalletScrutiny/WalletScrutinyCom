@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-31
 updated: 2023-10-13
 version: 2.9.5
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://changex.io/
 repository: 

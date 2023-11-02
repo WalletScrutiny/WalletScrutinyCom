@@ -54,7 +54,6 @@ features:
 
 ---
 
-
 **Update 2023-10-31**: Our latest issue was not addressed by the provider but
 Emanuel had managed to compile a prior version of this app. Let's see how it
 goes for version `3.20.0`:

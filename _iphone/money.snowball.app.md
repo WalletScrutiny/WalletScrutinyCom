@@ -11,7 +11,7 @@ released: 2019-07-18
 updated: 2023-08-31
 version: 2.7.6
 stars: 4.2
-reviews: 133
+reviews: 134
 size: '38530048'
 website: https://www.snowball.money
 repository: 

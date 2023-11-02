@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-09
 updated: 2023-08-04
 version: '0.40'
-stars: 4.6
+stars: 4.3
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://pilab.co
 repository: 

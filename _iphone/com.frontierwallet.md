@@ -10,8 +10,8 @@ idd: 1482380988
 released: 2019-11-05
 updated: 2023-10-20
 version: 5.9.5
-stars: 4.9
-reviews: 42
+stars: 4.8
+reviews: 43
 size: '126600192'
 website: https://frontier.xyz
 repository: 

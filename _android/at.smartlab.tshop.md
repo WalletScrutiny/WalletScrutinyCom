@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'TabShop: POS & Point of Sales'
+title: TabShop POS & Point of Sale
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-10-29
 version: '216'
 stars: 4
 ratings: 3750
-reviews: 262
+reviews: 261
 size: 
 website: https://tabshop.smartlab.at/
 repository: 

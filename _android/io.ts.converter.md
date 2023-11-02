@@ -3,7 +3,7 @@ wsId:
 title: TapSwap Kenya
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.ts.converter
 appCountry: 
 released: 2023-02-26

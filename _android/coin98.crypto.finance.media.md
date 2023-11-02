@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: Coin98 Super App
+title: Coin98 Super Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 500000
 appId: coin98.crypto.finance.media
 appCountry: us
 released: 2019-12-19
-updated: 2023-10-09
-version: 13.1.1
+updated: 2023-10-31
+version: 14.1.1
 stars: 4.3
 ratings: 18096
-reviews: 286
+reviews: 284
 size: 
 website: https://coin98.com/
 repository: 

@@ -11,7 +11,7 @@ released: 2021-09-07
 updated: 2023-06-29
 version: 2.4.1
 stars: 2.6
-reviews: 4100
+reviews: 4101
 size: '47296512'
 website: https://www.chivowallet.com
 repository: 

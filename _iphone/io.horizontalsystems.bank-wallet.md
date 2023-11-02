@@ -11,7 +11,7 @@ released: 2019-01-10
 updated: 2023-10-26
 version: '0.36'
 stars: 4.7
-reviews: 741
+reviews: 742
 size: '71539712'
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios

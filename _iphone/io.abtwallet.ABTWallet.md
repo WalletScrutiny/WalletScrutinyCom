@@ -10,8 +10,8 @@ idd: '1460083542'
 released: 2019-05-19
 updated: 2023-10-15
 version: 4.14.32
-stars: 4.9
-reviews: 38
+stars: 4.8
+reviews: 39
 size: '114896896'
 website: https://www.didwallet.io
 repository: 

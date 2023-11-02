@@ -27,7 +27,7 @@ date: 2023-10-31
 signer: 
 reviewArchive:
 - date: 2022-03-11
-  version: '2.2.7'
+  version: 2.2.7
   appHash: 
   gitRevision: 
   verdict: nonverifiable

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 50
 size: 
-website: https://www.protonchain.com/
+website: https://webauth.com/
 repository: 
 issue: 
 icon: com.metallicus.webauth.png

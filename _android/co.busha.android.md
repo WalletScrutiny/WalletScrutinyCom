@@ -10,9 +10,9 @@ appCountry:
 released: 2019-01-21
 updated: 2023-10-21
 version: 6.3.9
-stars: 4
+stars: 4.1
 ratings: 3575
-reviews: 179
+reviews: 180
 size: 
 website: https://busha.co
 repository: 
