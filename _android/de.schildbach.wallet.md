@@ -21,7 +21,7 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-09-24
+date: 2023-11-02
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2023-04-26
@@ -191,6 +191,29 @@ apkVersionName: 10.06
 apkVersionCode: 100600
 verdict:        reproducible
 appHash:        c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc
+commit:         12491cefdab2b6e8343d9205048bcfdffca76687
+
+Diff:
+Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_100600/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100600/META-INF/MANIFEST.MF differ
+
+Revision, tag (and its signature):
+object 12491cefdab2b6e8343d9205048bcfdffca76687
+type commit
+tag v10.06
+tagger Andreas Schildbach <andreas@schildbach.de> 1693829519 +0200
+
+10.06 release
+===== End Results =====
+
+===== Begin Results =====
+appId:          de.schildbach.wallet
+signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+apkVersionName: 10.06
+apkVersionCode: 100600
+verdict:        reproducible
+appHash:        5b7565dadff5016db49a11f38ff735e5b9fa2cb7dfd90cd2f5d106d1d54209db
 commit:         12491cefdab2b6e8343d9205048bcfdffca76687
 
 Diff:
