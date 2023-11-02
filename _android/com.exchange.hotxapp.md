@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: hotXexchange
 title: HotX
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.exchange.hotxapp
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.exchange.hotxapp.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2022-07-31
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,14 @@ features:
 
 ---
 
+## App Description from Google Play
+
+This is a cryptocurrency exchange.
+
+> HotX(https://www.hotx.pro), the most popular and secure Bitcoin exchange, is the world's leading digital asset financial service provider for professional users. On the official HotX App, you can quickly buy and sell Bitcoins, and easily obtain profits from a single purchase. Trusted by millions of users worldwide, you can start here and buy Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC). 
+
+## Analysis
+
+- We tried registering on the website and on the app but it never gave the confirmation email.
+- Access to the terms and conditions was restricted and needed a login and a password.
+- Until these issues are fixed, we cannot make a verdict for this app. 

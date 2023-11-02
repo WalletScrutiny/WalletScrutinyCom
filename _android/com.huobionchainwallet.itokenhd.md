@@ -2,7 +2,8 @@
 wsId: 
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.huobionchainwallet.itokenhd
 appCountry: 
@@ -19,15 +20,42 @@ issue:
 icon: com.huobionchainwallet.itokenhd.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: iTokenWallet
+social:
+- https://medium.com/@iTokenWalletOfficial 
 redirect_from: 
 developerName: BlazekTech Internet Technology Service Limited
 features: 
 
 ---
 
+## App Description from Google Play
+
+> iToken HD is a decentralized multichain crypto wallet securely managing and protecting all of your cryptocurrencies and NFTs & Your Gateway to Web 3.0.
+>
+> With iToken HD, you can easily store, transfer, receive, and stake a wide range of cryptocurrencies and NFTs. We're trusted by millions of users across the world, and we always prioritize user asset security above all.
+>
+> SAFE & SECURE
+> - Enjoy full control over your assets with self custody of your private keys.
+> - Manage all crypto assets with one set of mnemonics - it gives you access to all your wallet addresses and private keys.
+> - Provide security detection for smart contracts, tokens, and NFTs to effectively detect the risks of your crypto wallet.
+>
+> PROFESSIONAL & CONVENIENT
+> - Support 8 Mainchains: Bitcoin (BTC), Ethereum (ETH), Tron (TRX), Arbitrum (ARB), BSC (BNB),
+
+## Analysis 
+
+We were not able to install the app due to country restrictions. Its iPhone counterpart is also unavailable now.
+
+If we are going to take the description at face-value, then this app:
+
+1. Is self-custodial
+2. Supports Bitcoin
+
+However, we [did not find](https://github.com/search?q=com.huobionchainwallet.itokenhd&type=code) any pertinent repository or code that would show that this app is source-available. 
+
+Thus, we make the conclusion that this app is **not source-available**.
