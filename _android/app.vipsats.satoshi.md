@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.vipsats.satoshi.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-09-06
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: vipsats

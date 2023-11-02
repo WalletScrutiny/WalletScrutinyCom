@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.cyclebit.wallet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
