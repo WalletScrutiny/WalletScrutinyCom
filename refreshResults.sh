@@ -60,5 +60,7 @@ for platform in hardware bearer android iphone; do
     | awk '{print $2}' \
     | xargs -n 1 bash -c 'echo -e "No icon found for $platform $0\n$( git log --summary | grep $0 )"' \
     | grep -v bash
-    
 done
+
+# show what probably needs re-analysis
+node scripts/findNeedsRB.js 
