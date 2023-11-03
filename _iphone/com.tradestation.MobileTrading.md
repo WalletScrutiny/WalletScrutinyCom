@@ -8,11 +8,11 @@ appId: com.tradestation.MobileTrading
 appCountry: us
 idd: 581548081
 released: 2012-12-10
-updated: 2023-10-18
-version: 7.4.0
+updated: 2023-11-02
+version: 7.5.0
 stars: 4.5
 reviews: 17348
-size: '114134016'
+size: '115799040'
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
 issue: 

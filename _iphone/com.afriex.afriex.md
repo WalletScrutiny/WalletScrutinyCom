@@ -11,7 +11,7 @@ released: 2020-03-06
 updated: 2023-10-31
 version: 11.99.8
 stars: 4.7
-reviews: 5147
+reviews: 5159
 size: '102142976'
 website: https://afriexapp.com
 repository: 

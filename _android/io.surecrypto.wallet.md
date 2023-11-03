@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.surecrypto.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2022-12-17
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: 

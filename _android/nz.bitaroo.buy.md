@@ -7,8 +7,8 @@ users: 50
 appId: nz.bitaroo.buy
 appCountry: 
 released: 
-updated: 2023-10-04
-version: 1.0.13
+updated: 2023-11-02
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 

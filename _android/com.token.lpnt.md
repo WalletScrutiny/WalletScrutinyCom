@@ -12,7 +12,7 @@ updated: 2023-06-15
 version: '6.11'
 stars: 4.3
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://www.lpntoken.io
 repository: 
