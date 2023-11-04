@@ -12,7 +12,7 @@ updated: 2023-10-20
 version: 5.0.150.g
 stars: 3.8
 ratings: 847
-reviews: 118
+reviews: 119
 size: 
 website: http://bitpie.com
 repository: 

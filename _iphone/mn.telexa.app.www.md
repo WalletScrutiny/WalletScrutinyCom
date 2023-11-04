@@ -11,7 +11,7 @@ released: 2021-12-02
 updated: 2023-11-01
 version: '7.6'
 stars: 4.8
-reviews: 2818
+reviews: 2819
 size: '56816640'
 website: https://www.telexa.mn/
 repository: 

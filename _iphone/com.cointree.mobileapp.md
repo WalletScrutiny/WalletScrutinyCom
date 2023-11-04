@@ -10,8 +10,8 @@ idd: '1636243621'
 released: 2022-07-27
 updated: 2023-09-05
 version: 1.2.5
-stars: 3.9
-reviews: 19
+stars: 3.8
+reviews: 20
 size: '131292160'
 website: https://www.cointree.com
 repository: 

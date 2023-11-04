@@ -12,7 +12,7 @@ updated: 2023-11-01
 version: 23.1024.3
 stars: 4.2
 ratings: 38767
-reviews: 7286
+reviews: 7288
 size: 
 website: https://www.gemini.com
 repository: 
@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /com.gemini.android.app/
 - /posts/com.gemini.android.app/
-developerName: Gemini Trust Company LLC
+developerName: Gemini Space Station, LLC
 features: 
 
 ---

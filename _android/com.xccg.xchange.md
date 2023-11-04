@@ -1,6 +1,6 @@
 ---
 wsId: xchangeCash
-title: Xchange – купить и продать кри
+title: Xchange - купить Биткоин
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.xccg.xchange
 appCountry: 
 released: 2020-05-12
-updated: 2020-06-07
-version: '1.1'
+updated: 2023-11-01
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xccg.xchange.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-06-10
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: XchangeO

@@ -21,9 +21,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-04-15
+date: 2023-11-02
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2023-04-15
+  version: 1.4.26
+  appHash: 512bf20aa99e781726b55d1e508ef58c390fa24692c93d6299a82b8ccd24a8b8
+  gitRevision: ef5a48ca08f7a502a5b953dc00c68d9826f27e87
+  verdict: nonverifiable
 - date: 2022-01-24
   version: 1.4.0
   appHash: 
@@ -60,6 +65,182 @@ features:
 
 ---
 
+**Update 2023-11-02**: The latest release on Google Play is 2.11.0 and thus
+something completely new. The provider wrote about migration from the "legacy"
+1.* versions. And with the versioning, the build instructions appear to have
+changed, too as our build script errors out. Sadly the Build Instructions on
+[their repository](https://github.com/ACINQ/phoenix) for Android link to a
+non-esixting document. Let's see what we can guess ...
+
+```
+$ git clone https://github.com/ACINQ/phoenix
+$ cd phoenix/
+phoenix(master)$ git checkout android-v2.0.11
+phoenix((HEAD detached at android-v2.0.11))$ podman build -t phoenix_build .
+...
+dos2unix: converting file /home/ubuntu/phoenix/buildSrc/src/main/kotlin/Versions.kt to Unix format...
+--> 5449170ba13
+STEP 35: RUN chmod +x /home/ubuntu/phoenix/gradlew
+STEP 36: COMMIT phoenix_build
+--> 29782071d46
+29782071d4604faaeaacd4fa6d44a63c02f6b1ce916b34541a7bb2e4e88a2583
+phoenix((HEAD detached at android-v2.0.11))$ podman run -it --rm \
+    --volume $PWD:/home/ubuntu/phoenix \
+    --workdir /home/ubuntu/phoenix phoenix_build bash
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew assemble
+...
+> Task :phoenix-legacy:mapReleaseSourceSetPaths FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':phoenix-legacy:mapReleaseSourceSetPaths'.
+> Error while evaluating property 'extraGeneratedResDir' of task ':phoenix-legacy:mapReleaseSourceSetPaths'
+   > Failed to calculate the value of task ':phoenix-legacy:mapReleaseSourceSetPaths' property 'extraGeneratedResDir'.
+      > Querying the mapped value of provider(java.util.Set) before task ':phoenix-legacy:processReleaseGoogleServices' has completed is not supported
+```
+
+yeah, well, we don't want "legacy". Where did that come from? What to run
+instead?
+
+```
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew tasks
+... much stuff but nothing that would assemble the android app ...
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew :phoenix-android:tasks
+...
+> Task :phoenix-android:tasks
+
+------------------------------------------------------------
+Tasks runnable from project ':phoenix-android'
+------------------------------------------------------------
+
+Android tasks
+-------------
+androidDependencies - Displays the Android dependencies of the project.
+signingReport - Displays the signing info for the base and test modules
+sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+assemble - Assemble main outputs for all the variants.
+assembleAndroidTest - Assembles all the Test applications.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildKotlinToolingMetadata - Build metadata json file containing information about the used Kotlin tooling
+buildNeeded - Assembles and tests this project and all projects it depends on.
+bundle - Assemble bundles for all the variants.
+clean - Deletes the build directory.
+compileDebugAndroidTestSources
+compileDebugSources
+compileDebugUnitTestSources
+compileReleaseSources
+compileReleaseUnitTestSources
+...
+```
+
+That looks more promising.
+
+```
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew :phoenix-android:assemble
+BUILD SUCCESSFUL in 4m 57s
+231 actionable tasks: 62 executed, 169 up-to-date
+root@e00c652e90fa:/home/ubuntu/phoenix# ls phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk 
+phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk
+```
+
+That looks like a build result we want.
+
+```
+$ unzip -qqd fromBuild phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk 
+$ unzip -qqd fromGoogle path/to/Phoenix\ 2.0.11\ \(fr.acinq.phoenix.mainnet\).apk 
+$ diff --recursive from*
+Binary files fromBuild/assets/dexopt/baseline.prof and fromGoogle/assets/dexopt/baseline.prof differ
+Binary files fromBuild/assets/dexopt/baseline.profm and fromGoogle/assets/dexopt/baseline.profm differ
+Binary files fromBuild/classes3.dex and fromGoogle/classes3.dex differ
+Binary files fromBuild/classes5.dex and fromGoogle/classes5.dex differ
+Only in fromGoogle/META-INF: MAINNET.RSA
+Only in fromGoogle/META-INF: MAINNET.SF
+Only in fromGoogle/META-INF: MANIFEST.MF
+```
+
+Upon closer inspection with diffoscope, thousands of differences are found, with
+those we looked into, looking benign like:
+
+```
+├── smali_classes3/fr/acinq/phoenix/db/phoenixshared/AppDatabaseImpl$Schema.smali
+│ @@ -80,35 +80,35 @@
+│  
+│      const-string v0, "driver"
+│  
+│      invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+│  
+│      const/4 v2, 0x0
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS exchange_rates (\n    fiat TEXT NOT NULL PRIMARY KEY,\n    price REAL NOT NULL,\n    type TEXT NOT NULL,\n    source TEXT NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│  
+│      const/4 v4, 0x0
+│  
+│      const/4 v5, 0x0
+│  
+│      const/16 v6, 0x8
+│  
+│      const/4 v7, 0x0
+│  
+│      move-object v1, p1
+│  
+│      .line 57
+│      invoke-static/range {v1 .. v7}, Lcom/squareup/sqldelight/db/SqlDriver$DefaultImpls;->execute$default(Lcom/squareup/sqldelight/db/SqlDriver;Ljava/lang/Integer;Ljava/lang/String;ILkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+│  
+│ -    .line 66
+│ +    .line 64
+│      invoke-static/range {v1 .. v7}, Lcom/squareup/sqldelight/db/SqlDriver$DefaultImpls;->execute$default(Lcom/squareup/sqldelight/db/SqlDriver;Ljava/lang/Integer;Ljava/lang/String;ILkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS exchange_rates (\n    fiat TEXT NOT NULL PRIMARY KEY,\n    price REAL NOT NULL,\n    type TEXT NOT NULL,\n    source TEXT NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+```
+
+where simply some DB queries changed their order or:
+
+```
+│ -    value = "SMAP\nPaymentsDatabaseImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaymentsDatabaseImpl.kt\nfr/acinq/phoenix/db/phoenixshared/OutgoingPaymentsQueriesImpl$getPaymentWithoutParts$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3096:1\n1#2:3097\n*E\n"
+│ +    value = "SMAP\nPaymentsDatabaseImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaymentsDatabaseImpl.kt\nfr/acinq/phoenix/db/phoenixshared/OutgoingPaymentsQueriesImpl$getPaymentWithoutParts$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3097:1\n1#2:3098\n*E\n"
+```
+
+So while most differences look related to the
+[known issues with sqldelight](https://github.com/cashapp/sqldelight/issues/1548)
+and benign, this version is again **not verifiable**.
+
+With the modified {% include testScript.html %}, this is how it looks like:
+
+```
+===== Begin Results =====
+appId:          fr.acinq.phoenix.mainnet
+signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+apkVersionName: 2.0.11
+apkVersionCode: 66
+verdict:        
+appHash:        e690d64eb7ad2b59af85f048b33433765bb3fc6545420c4351400ccfb7ceaf8b
+commit:         93b828936c620d14d8125bc6ae5760a7e7be9e04
+
+Diff:
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/classes3.dex differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+**Update 2023-04-15**: 
 Here we test if the latest version can be verified, following the known
 procedure expressed in our {% include testScript.html %}:
 

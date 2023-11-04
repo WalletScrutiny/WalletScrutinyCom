@@ -8,8 +8,8 @@ appId: com.TrendluxOU.trendlux
 appCountry: us
 idd: '1370977008'
 released: 2018-05-14
-updated: 2023-10-16
-version: 3.9.3
+updated: 2023-11-02
+version: 3.9.4
 stars: 4.7
 reviews: 2721
 size: '101693440'
