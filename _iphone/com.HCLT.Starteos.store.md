@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-22
+date: 2023-11-06
 signer: 
 reviewArchive: 
 twitter: Starteos

@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-01
 updated: 2023-10-11
 version: 3.0.57
-stars: 3.4
+stars: 3.5
 ratings: 3831
-reviews: 517
+reviews: 516
 size: 
 website: https://guarda.com
 repository: 

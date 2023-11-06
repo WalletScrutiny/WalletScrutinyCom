@@ -11,7 +11,7 @@ released: 2022-01-21
 updated: 2023-09-21
 version: 1.1.2
 stars: 4.5
-reviews: 722
+reviews: 727
 size: '118500352'
 website: http://www.coinzoom.com
 repository: 

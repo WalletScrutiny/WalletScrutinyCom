@@ -7,8 +7,8 @@ users: 100
 appId: trade.bot.app
 appCountry: 
 released: 2022-10-12
-updated: 2023-10-25
-version: 2023.10.25.22
+updated: 2023-11-04
+version: 2023.11.04.23
 stars: 
 ratings: 
 reviews: 

@@ -11,7 +11,7 @@ released: 2022-03-22
 updated: 2023-11-01
 version: 1.6.2
 stars: 4.9
-reviews: 91
+reviews: 92
 size: '174287872'
 website: https://www.ixfi.com/landing
 repository: 

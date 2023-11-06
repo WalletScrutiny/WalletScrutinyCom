@@ -8,11 +8,11 @@ appId: com.frontierwallet
 appCountry: in
 idd: 1482380988
 released: 2019-11-05
-updated: 2023-10-20
-version: 5.9.5
+updated: 2023-11-05
+version: 5.9.6
 stars: 4.8
 reviews: 43
-size: '126600192'
+size: '126798848'
 website: https://frontier.xyz
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2023-01-19
 version: 1.7.0
 stars: 3.2
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://bitgo.com
 repository: 

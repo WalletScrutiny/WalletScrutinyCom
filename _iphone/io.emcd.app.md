@@ -8,8 +8,8 @@ appId: io.emcd.app
 appCountry: us
 idd: '1606903304'
 released: 2022-01-29
-updated: 2023-10-31
-version: 1.38.1
+updated: 2023-11-03
+version: 1.38.2
 stars: 3.7
 reviews: 15
 size: '158112768'

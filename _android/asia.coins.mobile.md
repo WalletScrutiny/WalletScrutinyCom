@@ -12,7 +12,7 @@ updated: 2023-10-27
 version: 7.0.0.0
 stars: 3.5
 ratings: 109535
-reviews: 511
+reviews: 512
 size: 
 website: https://coins.ph
 repository: 

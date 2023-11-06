@@ -8,8 +8,8 @@ users: 50000
 appId: com.frontierwallet
 appCountry: in
 released: 2019-10-30
-updated: 2023-10-18
-version: 6.12.0
+updated: 2023-11-04
+version: 6.13.0
 stars: 4.6
 ratings: 1003
 reviews: 100

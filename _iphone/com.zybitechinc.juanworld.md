@@ -10,8 +10,8 @@ idd: '1458711891'
 released: 2019-05-23
 updated: 2023-10-23
 version: 2.0.1
-stars: 3.9
-reviews: 48
+stars: 3.8
+reviews: 49
 size: '45618176'
 website: https://www.juancash.com
 repository: 

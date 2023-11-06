@@ -8,8 +8,8 @@ users: 5000
 appId: starlab.studios.cryptowallet
 appCountry: 
 released: 2021-06-01
-updated: 2023-10-31
-version: '1.6'
+updated: 2023-11-05
+version: '1.7'
 stars: 
 ratings: 
 reviews: 

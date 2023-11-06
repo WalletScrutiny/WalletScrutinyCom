@@ -4,7 +4,7 @@ title: 'Klever Wallet: Binance Coin, +'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: finance.klever.bitcoin.wallet
 appCountry: 
 released: 2023-01-16

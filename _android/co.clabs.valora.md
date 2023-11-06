@@ -8,7 +8,7 @@ users: 500000
 appId: co.clabs.valora
 appCountry: 
 released: 2020-08-31
-updated: 2023-10-19
+updated: 2023-11-03
 version: 1.69.0
 stars: 4.2
 ratings: 
