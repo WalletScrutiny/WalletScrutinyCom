@@ -4,14 +4,17 @@
 
 version=$1
 
+set -xe
+rm -rf /tmp/jade/
 cd /tmp
-rm -rf jade
 git clone https://github.com/Blockstream/jade
 cd jade
 git checkout ${version}
 git submodule update --init --recursive
 DOCKER_BUILDKIT=1 docker build -f ./Dockerfile -t jade_builder .
-docker run --rm -v ${PWD}:/builds/blockstream/jade --name jade_builder -it jade_builder bash -c "\
+docker run --rm -v ${PWD}:/builds/blockstream/jade --name jade_builder -it \
+    jade_builder \
+    bash -c "\
     . /root/esp/esp-idf/export.sh; \
     cd /builds/blockstream/jade; \
     git config --global --add safe.directory /builds/blockstream/jade; \
@@ -24,6 +27,9 @@ binary_file=$(curl --silent https://jadefw.blockstream.com/bin/jade/index.json |
 wget -O "downloaded-firmware.bin.gz" "https://jadefw.blockstream.com/bin/jade/${binary_file}"
 pigz -z -d downloaded-firmware.bin.gz
 head -c -4096 downloaded-firmware.bin > downloaded-firmware_stripped.bin
+set +x
+echo
+echo "Results:"
 sha256sum downloaded-firmware* build/jade.bin
 expectedHash=$(sha256sum downloaded-firmware_stripped.bin | awk '{print $1}')
 actualHash=$(sha256sum build/jade.bin | awk '{print $1}')
