@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://starwallet.starworksglobal.com
+website: https://www.starworksglobal.com
 repository: 
 issue: 
 icon: com.starworksglobal.starwallet.png

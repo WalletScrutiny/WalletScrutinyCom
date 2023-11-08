@@ -4,7 +4,7 @@ title: FXORO Trading APP
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.fxoro.app
 appCountry: 
 released: 2022-06-16

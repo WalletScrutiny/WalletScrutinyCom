@@ -9,7 +9,7 @@ appId: com.nebeus.android
 appCountry: gt
 released: 2021-05-24
 updated: 2023-10-16
-version: 2.0.0
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 

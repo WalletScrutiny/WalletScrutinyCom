@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: WillTrade 7- Trading For All
+title: WillTrade -Forex Stocks & More
 altTitle: 
 authors:
 - danny

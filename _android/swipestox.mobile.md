@@ -12,7 +12,7 @@ updated: 2023-10-20
 version: 8.0.336
 stars: 3.3
 ratings: 5636
-reviews: 198
+reviews: 197
 size: 
 website: http://www.naga.com
 repository: 

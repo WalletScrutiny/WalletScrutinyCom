@@ -30,12 +30,12 @@ date: 2023-11-08
 signer: 
 reviewArchive:
 - date: 2023-11-07
-  version: "1.0.24"
+  version: 1.0.24
   appHash: 
   gitRevision: b628d9df97bd1063d59f546ea785f0cf413df82a
   verdict: reproducible
 - date: 2023-10-11
-  version: "1.0.23"
+  version: 1.0.23
   appHash: c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa
   gitRevision: 8f74ecbffe3020d502801e7f43c693c4b3fd272e
   verdict: reproducible

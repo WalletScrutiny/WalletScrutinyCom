@@ -31,7 +31,7 @@ social:
 - https://biconomycom.medium.com/
 - https://www.youtube.com/c/BiconomyGlobal
 redirect_from: 
-developerName: Biconomy
+developerName: Biconomy Inc.
 features: 
 
 ---

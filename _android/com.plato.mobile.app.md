@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.plato.mobile.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: 

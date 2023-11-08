@@ -12,7 +12,7 @@ updated: 2023-10-16
 version: 1.5.2
 stars: 4.7
 ratings: 
-reviews: 65
+reviews: 64
 size: 
 website: https://ixfi.com
 repository: 

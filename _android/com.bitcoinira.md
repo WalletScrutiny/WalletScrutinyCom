@@ -12,7 +12,7 @@ updated: 2023-10-06
 version: 1.5.40
 stars: 4.5
 ratings: 508
-reviews: 498
+reviews: 499
 size: 
 website: https://bitcoinira.com/
 repository: 
