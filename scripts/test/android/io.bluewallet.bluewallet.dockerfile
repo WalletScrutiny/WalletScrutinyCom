@@ -1,4 +1,4 @@
-FROM docker.io/node:16.20.0-bullseye
+FROM docker.io/node:16.20.0-bullseye-slim
 
 ARG UID=1000
 ARG TAG
@@ -6,7 +6,9 @@ ARG VERSION
 
 RUN set -ex; \
     apt-get update; \
-    DEBIAN_FRONTEND=noninteractive apt-get install --yes -o APT::Install-Suggests=false --no-install-recommends openjdk-11-jre-headless; \
+    DEBIAN_FRONTEND=noninteractive apt-get install --yes \
+      -o APT::Install-Suggests=false --no-install-recommends \
+      patch git openjdk-11-jre-headless; \
     rm -rf /var/lib/apt/lists/*; \
     deluser node; \
     useradd --uid $UID --create-home --shell /bin/bash appuser; \
@@ -30,7 +32,8 @@ WORKDIR /Users/runner/work/1/s/
 RUN set -ex; \
     npm install --production --no-optional --omit=optional --no-audit --no-fund --ignore-scripts; \
     npm run postinstall; \
-    sed -i "s/versionCode 1/versionCode $VERSION/g" android/app/build.gradle; \
+    # Work around issue with realm: https://github.com/realm/realm-js/issues/6204#issuecomment-1772638401
+    rm -rf node_modules/realm; npm install realm; \
     echo '"master"' > current-branch.json;
 
 RUN set -ex; \

@@ -3,9 +3,9 @@ wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
 altTitle: 
 authors:
-- leo
 - emanuel
 - Mohammad Rafigh
+- leo
 users: 100000
 appId: io.bluewallet.bluewallet
 appCountry: 
@@ -23,9 +23,14 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2023-10-08
+date: 2023-11-09
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2023-10-08
+  version: 6.4.8
+  appHash: 
+  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
+  verdict: ftbfs
 - date: 2023-06-24
   version: 6.4.5
   appHash: d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
@@ -59,6 +64,11 @@ features:
 - ln
 
 ---
+
+**Update 2023-11-09**: Version 6.4.10 fails due to
+[a new issue](https://github.com/BlueWallet/BlueWallet/issues/5813)
+which we managed to work around, only to run into the same still unresolved
+issue as its predecessor. This version is **not verifiable**.
 
 **Update 2023-10-08**: Sadly version `6.4.8` fails to build from source and
 is thus **not verifiable**. We track the problem in
