@@ -44,7 +44,6 @@ This is a fork of {% include walletLink.html wallet='android/zapsolutions.zap' v
 
 The user initializes by connecting to a bitcoin lightning node. Once connected to a node, features such as backup, restore and other wallet features such as send and receive are made available. 
 
-The provider has provided links to F-Droid and has self-described as reproducible. This app is [**for verification**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/512)
 
 ## Procedure 
 
