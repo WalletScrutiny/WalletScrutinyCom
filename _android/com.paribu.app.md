@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: paribu
 title: Paribu | Bitcoin - Kripto Para
 altTitle: 
 authors:
