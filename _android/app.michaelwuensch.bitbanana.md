@@ -20,9 +20,9 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/512
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-11-01
-signer: 59034f46ae31a6989793d91cadc334425342c2724153126ed5f7e212cad6ba1f
+verdict: wip
+date: 2023-11-14
+signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
 reviewArchive: 
 twitter: BitBananaApp
 social:
@@ -49,60 +49,9 @@ The user initializes by connecting to a bitcoin lightning node. Once connected t
 
 To reproduce BitBanana, we follow the instructions in this [page.](https://github.com/michaelWuensch/BitBanana/blob/master/docs/REPRODUCE.md)  
 
-Note: Some dependencies may need to be downloaded and installed.
+## Documentation for RB attempt number 3 dated 2023-11-13
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m1Yf7FAeIxM?si=XFd5E5Mjphfcc7ha" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Results
-
-```
-── /usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}
-│┄ error from `/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}` (a):
-│┄ DOES NOT VERIFY
-│┄ ERROR: Missing META-INF/MANIFEST.MF
-│ @@ -0,0 +1,16 @@
-│ +Verifies
-│ +Verified using v1 scheme (JAR signing): false
-│ +Verified using v2 scheme (APK Signature Scheme v2): true
-│ +Verified using v3 scheme (APK Signature Scheme v3): false
-│ +Verified using v4 scheme (APK Signature Scheme v4): false
-│ +Verified for SourceStamp: false
-│ +Number of signers: 1
-│ +Signer #1 certificate DN: C=DE, ST=Baden-Württemberg, L=Stuttgart, CN=Michael Wünsch
-│ +Signer #1 certificate SHA-256 digest: 59034f46ae31a6989793d91cadc334425342c2724153126ed5f7e212cad6ba1f
-│ +Signer #1 certificate SHA-1 digest: ecf374ea2620db48bff52f65358d34ff44a3fd06
-│ +Signer #1 certificate MD5 digest: d76d2b2dc59bc5071ff910bbe1026328
-│ +Signer #1 key algorithm: RSA
-│ +Signer #1 key size (bits): 2048
-│ +Signer #1 public key SHA-256 digest: 0eacb57084b170288e8e6290bc2153e74f8ab942b875f2d0b771ade92ab66120
-│ +Signer #1 public key SHA-1 digest: 976ab41d2cac35119d0a654bb9e12729f61168c2
-│ +Signer #1 public key MD5 digest: f2d5d855d79da92a383207963bdec1e9
-├── zipinfo {}
-│ @@ -1,8 +1,8 @@
-│ -Zip file size: 30019749 bytes, number of entries: 2725
-│ +Zip file size: 30032037 bytes, number of entries: 2725
-│  -rw-r--r--  0.0 unx       56 b- defN 81-Jan-01 01:01 META-INF/com/android/build/gradle/app-metadata.properties
-│  -rw-r--r--  0.0 unx     2048 b- stor 81-Jan-01 01:01 assets/dexopt/baseline.prof
-│  -rw-r--r--  0.0 unx      210 b- stor 81-Jan-01 01:01 assets/dexopt/baseline.profm
-│  -rw-r--r--  0.0 unx  7600304 b- defN 81-Jan-01 01:01 classes.dex
-│  -rw-r--r--  0.0 unx  6526080 b- defN 81-Jan-01 01:01 classes2.dex
-│  -rw-r--r--  0.0 unx  8900692 b- defN 81-Jan-01 01:01 classes3.dex
-│  -rw-r--r--  0.0 unx  6665488 b- defN 81-Jan-01 01:01 lib/arm64-v8a/libTor.so
-```
-
-The apks that were compared were of the built apk and the apk provided in the GitHub release.
-
-This is a [pastebin](https://pastebin.com/GJfwy9gi) of the entire diffoscope output.
-
-Leo has this assessment:
-
-> 1. APK signing block: one has a signature and the other does not - as expected
-> 2. Apksigner provides further details. Official was signed using version 2 scheme. Built APK produced an error as it's not signed.
-> 3. Zipinfo finds that the official is bigger than the built. No surprise as the former contains a signature.
->
-> **Absent further diffs, the app was reproduced successfully**.
-
-## Documentation for RB attempt 3 dated 2023-11-13
+### Verifying GitHub Release
 
 1. We first execute:
 
@@ -713,3 +662,1729 @@ Leo has this assessment:
     - There are also timestamp differences, indicating the difference when the apks were built.
 
 Echoing our previous attempts, most of the differences are benign enough to mark this app as reproducible. We welcome feedback from other contributors to reproduce or corroborate our claims.
+
+### Verifying Google Play Release
+
+The first two steps are the same:
+
+So we:
+
+1. Clone BitBanana 
+2. Change into the bitbanana directory and checkout to version 0.6.8
+3. The first difference is the command executed, from assembleRelease to bundleRelease: `docker run --rm -v `pwd`:/project mingc/android-build-box:1.25.0 bash -c 'cd /project; ./gradlew bundleRelease'`
+
+Note: The provider notes that there is some complication involved in verifying the reproduciblity of Google Play apks: 
+
+> Verifying a Play Store release unfortunatelly got more complicated since Google enforces usage of Android App Bundles (AAB).
+> To verify the release files distributed on Play Store, first build the AAB:
+> The AAB file is used to create device specific APK files. When you download the app from Google Play, google is dynamically providing the APK that fits your phone. This APK will be different from the universal APK distributed on GitHub releases. To be able to verify the Google Play download we need to extract the same device specific APK from the AAB we just created.
+> To do so, we need the bundletool.
+
+This is the output for the third step: 
+
+    ```
+    docker run --rm -v `pwd`:/project mingc/android-build-box:1.25.0 bash -c 'cd /project; ./gradlew bundleRelease'
+    Unable to find image 'mingc/android-build-box:1.25.0' locally
+    1.25.0: Pulling from mingc/android-build-box
+    b549f31133a9: Pull complete 
+    4f4fb700ef54: Pull complete 
+    99fefafa341f: Pull complete 
+    2644fe48588d: Pull complete 
+    df757a419605: Pull complete 
+    bd08fd5c1373: Pull complete 
+    423fd91e57b1: Pull complete 
+    1d640a8ae23f: Pull complete 
+    6a42782a727d: Pull complete 
+    40edd138f871: Pull complete 
+    69fa6c0fef86: Pull complete 
+    e037c877b76f: Pull complete 
+    ecf518082271: Pull complete 
+    6ed67e340cf8: Pull complete 
+    b2bf271ced62: Pull complete 
+    d4e0dabb8150: Pull complete 
+    272e0c3e1dda: Pull complete 
+    34d349e34a38: Pull complete 
+    3ed8d4429886: Pull complete 
+    1e88ff0ce0e9: Pull complete 
+    b28cc8139188: Pull complete 
+    bdc633bae0d0: Pull complete 
+    Digest: sha256:2fbd1f2e8f4ed38bb3e68b012bf7ec849dbdc1157727e93222b581845336cd55
+    Status: Downloaded newer image for mingc/android-build-box:1.25.0
+    Downloading https://services.gradle.org/distributions/gradle-8.0.2-all.zip
+    ...............................................................................................................................................................
+    Unzipping /root/.gradle/wrapper/dists/gradle-8.0.2-all/25ipb77ce0ypy3f9xdton1ae6/gradle-8.0.2-all.zip to /root/.gradle/wrapper/dists/gradle-8.0.2-all/25ipb77ce0ypy3f9xdton1ae6
+    Set executable permissions for: /root/.gradle/wrapper/dists/gradle-8.0.2-all/25ipb77ce0ypy3f9xdton1ae6/gradle-8.0.2/bin/gradle
+
+    Welcome to Gradle 8.0.2!
+
+    Here are the highlights of this release:
+    - Improvements to the Kotlin DSL
+    - Fine-grained parallelism from the first build with configuration cache
+    - Configurable Gradle user home cache cleanup
+
+    For more details see https://docs.gradle.org/8.0.2/release-notes.html
+
+    Starting a Gradle Daemon (subsequent builds will be faster)
+    Observed package id 'ndk;25.2.9519653' in inconsistent location '/opt/android-sdk/ndk/latest' (Expected '/opt/android-sdk/ndk/25.2.9519653')
+    Already observed package id 'ndk;25.2.9519653' in '/opt/android-sdk/ndk/25.2.9519653'. Skipping duplicate at '/opt/android-sdk/ndk/latest'
+    Observed package id 'ndk;25.2.9519653' in inconsistent location '/opt/android-sdk/ndk/latest' (Expected '/opt/android-sdk/ndk/25.2.9519653')
+    Already observed package id 'ndk;25.2.9519653' in '/opt/android-sdk/ndk/25.2.9519653'. Skipping duplicate at '/opt/android-sdk/ndk/latest'
+    Checking the license for package Android SDK Build-Tools 33.0.1 in /opt/android-sdk/licenses
+    License for package Android SDK Build-Tools 33.0.1 accepted.
+    Preparing "Install Android SDK Build-Tools 33.0.1 v.33.0.1".
+    "Install Android SDK Build-Tools 33.0.1 v.33.0.1" ready.
+    Installing Android SDK Build-Tools 33.0.1 in /opt/android-sdk/build-tools/33.0.1
+    "Install Android SDK Build-Tools 33.0.1 v.33.0.1" complete.
+    "Install Android SDK Build-Tools 33.0.1 v.33.0.1" finished.
+    Observed package id 'ndk;25.2.9519653' in inconsistent location '/opt/android-sdk/ndk/latest' (Expected '/opt/android-sdk/ndk/25.2.9519653')
+    Already observed package id 'ndk;25.2.9519653' in '/opt/android-sdk/ndk/25.2.9519653'. Skipping duplicate at '/opt/android-sdk/ndk/latest'
+    Configuration 'releaseCompileClasspath' was resolved during configuration time.
+    This is a build performance and scalability issue.
+    See https://github.com/gradle/gradle/issues/2298
+    Run with --info for a stacktrace.
+    Configuration 'releaseRuntimeClasspath' was resolved during configuration time.
+    This is a build performance and scalability issue.
+    See https://github.com/gradle/gradle/issues/2298
+    Run with --info for a stacktrace.
+    Configuration 'protobuf' was resolved during configuration time.
+    This is a build performance and scalability issue.
+    See https://github.com/gradle/gradle/issues/2298
+    Run with --info for a stacktrace.
+    Configuration 'releaseProtobuf' was resolved during configuration time.
+    This is a build performance and scalability issue.
+    See https://github.com/gradle/gradle/issues/2298
+    Run with --info for a stacktrace.
+    > Task :app:preBuild UP-TO-DATE
+    > Task :app:preReleaseBuild UP-TO-DATE
+    > Task :app:generateReleaseResValues
+    > Task :app:mapReleaseSourceSetPaths
+    > Task :app:generateReleaseResources
+    > Task :app:createReleaseCompatibleScreenManifests
+    > Task :app:extractDeepLinksRelease
+    > Task :app:mergeReleaseResources
+    > Task :app:processReleaseMainManifest
+    > Task :app:processReleaseManifest
+    > Task :app:processApplicationManifestReleaseForBundle
+    > Task :app:bundleReleaseResources
+    > Task :app:checkReleaseDuplicateClasses
+    > Task :app:buildKotlinToolingMetadata
+    > Task :app:generateReleaseBuildConfig
+    > Task :app:extractIncludeReleaseProto
+    > Task :app:extractProto
+    > Task :app:extractReleaseProto
+    > Task :app:generateReleaseProto
+    > Task :app:checkReleaseAarMetadata
+    > Task :app:desugarReleaseFileDependencies
+    > Task :app:javaPreCompileRelease
+    > Task :app:processReleaseManifestForPackage
+    > Task :app:mergeExtDexRelease
+    > Task :app:mergeReleaseShaders
+    > Task :app:compileReleaseShaders NO-SOURCE
+    > Task :app:generateReleaseAssets UP-TO-DATE
+    > Task :app:mergeReleaseAssets
+    > Task :app:mergeReleaseJniLibFolders
+    > Task :app:mergeReleaseNativeLibs
+    > Task :app:writeReleaseAppMetadata
+    > Task :app:mergeReleaseArtProfile
+
+    > Task :app:stripReleaseDebugSymbols
+    Unable to strip the following libraries, packaging them as they are: libTor.so.
+
+    > Task :app:collectReleaseDependencies
+    > Task :app:configureReleaseDependencies
+    > Task :app:extractReleaseNativeSymbolTables
+    > Task :app:parseReleaseIntegrityConfig
+    > Task :app:processReleaseResources
+    > Task :app:compileReleaseKotlin NO-SOURCE
+
+    > Task :app:compileReleaseJavaWithJavac
+    Note: Some input files use or override a deprecated API.
+    Note: Recompile with -Xlint:deprecation for details.
+    Note: /project/app/src/main/java/app/michaelwuensch/bitbanana/util/AliasManager.java uses unchecked or unsafe operations.
+    Note: Recompile with -Xlint:unchecked for details.
+
+    > Task :app:dexBuilderRelease
+    > Task :app:mergeReleaseGlobalSynthetics
+    > Task :app:processReleaseJavaRes
+    > Task :app:mergeReleaseJavaResource
+    > Task :app:mergeDexRelease
+    > Task :app:buildReleasePreBundle
+    > Task :app:compileReleaseArtProfile
+    > Task :app:packageReleaseBundle
+    > Task :app:signReleaseBundle
+    > Task :app:produceReleaseBundleIdeListingFile
+    > Task :app:createReleaseBundleListingFileRedirect
+    > Task :app:bundleRelease
+
+    Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+    You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+    See https://docs.gradle.org/8.0.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+    BUILD SUCCESSFUL in 8m 10s
+    45 actionable tasks: 45 executed
+
+    ```
+
+4. An AAB file is then outputted to the `./app/build/outputs/bundle/release` folder.
+5. We tried to execute, `$ bundletool build-apks --connected-device --bundle=bitbanana-0.6.6_48-release.aab --output=bitbanana-0.6.6_48-release.apks`, but bundletool was not installed. We will proceed with installing bundletool.
+6. We downloaded `bundletool-all-1.15.6.jar` from the github [releases page](https://github.com/google/bundletool/releases/tag/1.15.6)
+7. We plugged our phone via USB and then we tried to execute `java -jar bundletool-all-1.15.6.jar build-apks --connected-device --bundle=/home/user/Work/builds/rb3-bitbanana-v0.6.8/BitBanana/app/build/outputs/bundle/release/bitbanana-0.6.8_50-release.aab --output=/home/user/Work/builds/rb3-bitbanana-v0.6.8/BitBanana/app/build/outputs/bundle/release/bitbanana-0.6.8_50-release.apks`. This resulted in an error: No device connected. We were running on a VirtualBox machine which doesn't have USB enabled. 
+8. We then proceed to enable USB on our virtual machine but failed. 
+9. The workaround: run steps 3, 4, 5, 6, and 7 on the host machine which properly identified the phone connected via usb. We have had to install the following: adb, Android Studio + SDK. We've also had to reconfigure Docker.
+10. We ran it again but we encountered access denied errors. We then ```$ sudo chmod 755 bitbanana-0.6.8_50-release.aab``` and ```$ sudo chown dannybuntu:dannybuntu bitbanana-0.6.8_50-release.aab```
+11. A new file is created: `bitbanana-0.6.8_50-release.apks`
+12. We then `$ unzip bitbanana-0.6.8_50-release.apks`
+
+    ```
+    Archive:  bitbanana-0.6.8_50-release.apks
+    extracting: toc.pb
+    extracting: splits/base-armeabi_v7a.apk
+    extracting: splits/base-master.apk
+    extracting: splits/base-xhdpi.apk
+    ```
+13. We go back to the root directory for the app, and create a folder named `built`. Then we copy the contents of `app/build/outputs/bundle/release/splits/*` to the `built` folder.
+
+### Getting the Google Play Apks 
+
+14. $ bundleId="app.michaelwuensch.bitbanana"
+15. $ apks=`adb shell pm path $bundleId`
+16. $ for apk in $apks; do adb pull `echo $apk | awk '{print $NF}' FS=':' | tr -d '\r\n'`; done
+
+    ```
+    /data/app/i5RVbHA_uoXBn2PrdrJEXQ==/app.michaelwuensch.bitbanana-OfUNjMZAj-A9htjau8iSGQ==/base.apk: 1 file pulled. 34.7 MB/s (17403549 bytes in 0.478s)
+    /data/app/i5RVbHA_uoXBn2PrdrJEXQ==/app.michaelwuensch.bitbanana-OfUNjMZAj-A9htjau8iSGQ==/split_config.armeabi_v7a.apk: 1 file pulled. 35.9 MB/s (3146148 bytes in 0.084s)
+    /data/app/~~i5RVbHA_uoXBn2PrdrJEXQ==/app.michaelwuensch.bitbanana-OfUNjMZAj-A9htjau8iSGQ==/split_config.xhdpi.apk: 1 file pulled. 8.9 MB/s (57910 bytes in 0.006s)
+    ```
+17. We notice a difference in file names for the pulled apks. They are prefaced with `split*.apk`. 3 files are produced. We move them into the `official` folder
+18. We run: `$ diff --brief --recursive built/ official/`
+
+    ```
+    Only in official/: base.apk
+    Only in built/: base-armeabi_v7a.apk
+    Only in built/: base-master.apk
+    Only in built/: base-xhdpi.apk
+    Only in official/: split_config.armeabi_v7a.apk
+    Only in official/: split_config.xhdpi.apk
+    ```
+19. We then run **diffoscope** on the two directories: `$ diffoscope --text directory-analysis.txt built/ official/` which then gave these results: 
+
+    ```
+    --- built/
++++ official/
+├── file list
+│ @@ -1,3 +1,3 @@
+│ -base-armeabi_v7a.apk
+│ -base-master.apk
+│ -base-xhdpi.apk
+│ +base.apk
+│ +split_config.armeabi_v7a.apk
+│ +split_config.xhdpi.apk
+├── stat {}
+│ @@ -1,8 +1,8 @@
+│  
+│    Size: 4096      	Blocks: 8          IO Block: 4096   directory
+│  Links: 2
+│  Access: (0775/drwxrwxr-x)  Uid: ( 1000/dannybuntu)   Gid: ( 1000/dannybuntu)
+│  
+│ -Modify: 2023-11-14 04:04:27.217328436 +0000
+│ +Modify: 2023-11-14 04:25:32.667207033 +0000
+│   --- built/base-armeabi_v7a.apk
+├── +++ official/split_config.armeabi_v7a.apk
+│┄ Files 6% similar despite different names
+│ ├── APK Signing Block
+│ │ @@ -0,0 +1,357 @@
+│ │ +Key 0x42726577:
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000000000000000000000000000000000000000000000000000
+│ │ +0000000000000000000000
+│ │ +
+│ │ +Key 0x6dff800d:
+│ │ +050e00008d0500003082058930820371a003020102021500bf53fabb0b4e907f8f2a22
+│ │ +a1b0e0d77f6def1060300d06092a864886f70d01010b05003074310b30090603550406
+│ │ +13025553311330110603550408130a43616c69666f726e696131163014060355040713
+│ │ +0d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e63
+│ │ +2e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f
+│ │ +69643020170d3230303531393130333532315a180f3230353030353139313033353231
+│ │ +5a3074310b3009060355040613025553311330110603550408130a43616c69666f726e
+│ │ +6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a
+│ │ +130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e
+│ │ +06035504031307416e64726f696430820222300d06092a864886f70d01010105000382
+│ │ +020f003082020a0282020100d867460c79d043ba8b0cb0b056159b953e9efe5981ea62
+│ │ +93fe9961a335bd5fcbb83c60824dede59ff37c8d4e4ec4bcc55397ea86fff90d589a18
+│ │ +d990ae9f7f243daaa74abc23033407a51943bb87332116bfd058366bae07800e4062ce
+│ │ +20ce4456007a1aaa5680b2395cda7aed6e3fd302ef02d6b745aedf3ba86fff50777f14
+│ │ +3a6929c98c5334ff345f2a9a3449b1d79e59bd69cd3d52d014590e2fd973fa1290da60
+│ │ +67270cd85fd212402c67ac7fc832cdead976cc23be70a0ba9d51ddc2a8844510a2528d
+│ │ +b9aca84b21f37de6ccdf51d269949067c7532709dfd5798cb43001838056cbd7e5c7a6
+│ │ +c198be491339fc0c33ee1ae4b1a3fe7ff16fcdcc44c50d9a90e7cab68c61efab922b51
+│ │ +e7e3521432f3c5e85fa1720454be4c29c4674a060f55f75d82e40410a631118462a699
+│ │ +788c1db32e2a801cc2146717cde2e0f52cb740eb979ac2176c85d0600a663ae75ef286
+│ │ +887b7c138c1faedca8f815cb9496c185bb43fbc0f276097ca71c13342de597cb699192
+│ │ +8091515dc857c31f14c11dfa41d398c02416705b08d0fd7f986a9d87c61b61fb32365b
+│ │ +09298ffe206fa649c6dec47e3da58e800cb2cfb1403ebba80108dd71607f68bc576cd2
+│ │ +163892570b64ea5f5ca6baa93ff30c667f2785d6ec4b8875f4217a0c6cef4efa8aa544
+│ │ +e90bac99940ac1ff515d366dc1d44c0ad7b2b280b425dfbfe97c9c8af7193450bfcb02
+│ │ +03010001a310300e300c0603551d13040530030101ff300d06092a864886f70d01010b
+│ │ +0500038202010067a6bc59217ca6d7c3c35ba5b1f0d7f5b4a3b7230fd947efb6493acb
+│ │ +6d4d563cae33848d1560ff536d92e048ae43e86be692bd3485a09f9cc1590420bbc61d
+│ │ +0f163f3e8e3ee19e1d0e32ff1a315884b7d2aa0124150d75c6ec91aee85504697535fa
+│ │ +c370685ec701c24ba45881b0638f19b159c6ec0a40fb53929bb1d170da060c990e2c26
+│ │ +14373f38f51a71caf43b49263971c67dce722a9ad93fd1d2c084e85cf75bd4a3ace4d9
+│ │ +18915b39366d35b90e73d021f49c810ee8f3a71e17251ae2c9e0cfa81e1809f73ea512
+│ │ +729ce5de13b8403764de344d8856f58756cf8e29e42bc036ddc0038a7cf4a455cebfe6
+│ │ +51c7c253ab407527d80faeea2aa2a68acad9a3589af2d42947ebb7d38b84e562ee41ff
+│ │ +675dda6cf7281b90579c4bc57823085e7a9bee1875c76b041c167267b6ed514dd82f69
+│ │ +0ef977593133b36b4f03dfabaf69981c915292f1e31ded0388790e628f5ef59cbc1f51
+│ │ +9c78ee2f82d9dab7bef2ca0f3bafc7bc01c96b33c42746d75f480739f4f2c5a1ade4e4
+│ │ +9d1549f98c485a535f4abf18bea0febc630697a4aff170aab6188455ae4b7c22635a04
+│ │ +cb0c14687e8e4189e66f0456163ecce2cb7a7304c05bd80c460e150380fbbc9398563f
+│ │ +db4f9f793ff25d13aafd776262be8ac107367027afc9b767005407ea807c9093f6ccd5
+│ │ +3b15516766c1747038a03c57a4a2a37529ef0cd142d24026476ad7b1d8480600001402
+│ │ +0000010000000c0200000802000003010000000200007fbd4854bb93b9ec9efce3541b
+│ │ +b2047ee8234d8bd9d814c0297d5997b6b267484198b4b65ae9c447c474da043db6ea05
+│ │ +602734d4b41977a777917f716903518632528d0348d73e5611e7e4e69c5df6827be36c
+│ │ +18be1f8f3bba1c9060b0b5ced27584928c30ffa0742038410742290295e03e34803eb2
+│ │ +1417666150d8fafe4f4c5901e387d5709225c768742cbb39a37c075d861b15af42c2b2
+│ │ +a39a4ac7ea549012a1c97248a2ab97166992e1067b0aad81c5d36b5152ba85efc0a9f7
+│ │ +23d7ca2e556d614ff1eb2220b92388ca9af99384032d497e3b77f4c4d0fb66fefe3d9f
+│ │ +c929f3b5c767b0a2b7a4dab37e1ccf9f0f999daf92560780372799b5ccc5e3e5a499fd
+│ │ +fe1581c35341acaeba6d09ceb14d580dbd0e05a97a6c408886fcd4abd425e5a834e69e
+│ │ +2cb2b15073da472aa87c21d326610c1d241f6d20e77d203625b7bafdc5dce00a63cf71
+│ │ +56127d84c036946da5a062e9027af3b82277cec5eaa833e4f15c77b854ccc7b912f573
+│ │ +cbe206a11db006491e78ebdff1139044c341ff0d7cb4df502b0c9b0b9901601910ae92
+│ │ +b2fd429bfaa0a76b6ea8c726ebcf71cf2eb4a00e0b6e6d4616e2ac26a58b0b8645de1d
+│ │ +afb5199ec0703019d45a04e7624ea7ea828d203c1bf8ca5afaabf7bb2956032ff1b020
+│ │ +92c84f4167c0c2f309474a040f77b53253d97740d851ccd5133dd7be14b2c04890a8da
+│ │ +e5a721e679c32ed5fe14020000020000000c020000080200000301000000020000304b
+│ │ +344591f1395ed4f0ade91001be863f11645dd03ec81562e51929f5882f3fa3157dfed0
+│ │ +4fa7663fcc5da721b9f46bb777116c0388a743a2ce3412a5e082a2f345a4277fa17a37
+│ │ +30e6c4bfe2b4da653a41976b17f3363eb4d0842c825d0115507b3e0f312305db585f77
+│ │ +2bd29cafe94133b04b81750de5a81fe0c05434fe069ec19b2a939dd26fa525278695e7
+│ │ +bf2c1abb819b236f99ddefc528b3be89ab684f12023028bb29f4b3225ace2f77932b23
+│ │ +789a6012415ec942f8259a5d023ce8b3a472548c4c25a072d313f449d74b2076494f0c
+│ │ +bb34a409207930e815b08b888157eb180c4315fa2da1d0297e3b349c37900dc736d536
+│ │ +93a497779c13f0253e76589d609bd94230be8111a3774e977d56e769f87e38118926a2
+│ │ +80a094f29d1816cfd45e4770b2f0b63735ce613aa8c61221973a0f511c467fc742a8f9
+│ │ +41c34b23979389c27ac41b01ce01be0ffdb599b4a2ffa037bd88b48d1dafd8269188f8
+│ │ +746a7ce0472374b1cd33f54e36e857e00b4650ee7feb34931a7dd97caf4d036aff4653
+│ │ +503459a8d57479f9871e7f25ead8429e0e8d80519fc76620ce1779dd8b246d266cbb37
+│ │ +3a5bfaefb17c6879488c2139e84f6700d85357d2bc5bea70663226384da15c72237d26
+│ │ +117ef20c34c0305cb01041594ea075e1e6cd25200002bb1406cd0c12ba1c5256bf19c4
+│ │ +71907285ea0ae8d6bc921e54468ff1a4e394a4ed14020000030000000c020000080200
+│ │ +000301000000020000304b344591f1395ed4f0ade91001be863f11645dd03ec81562e5
+│ │ +1929f5882f3fa3157dfed04fa7663fcc5da721b9f46bb777116c0388a743a2ce3412a5
+│ │ +e082a2f345a4277fa17a3730e6c4bfe2b4da653a41976b17f3363eb4d0842c825d0115
+│ │ +507b3e0f312305db585f772bd29cafe94133b04b81750de5a81fe0c05434fe069ec19b
+│ │ +2a939dd26fa525278695e7bf2c1abb819b236f99ddefc528b3be89ab684f12023028bb
+│ │ +29f4b3225ace2f77932b23789a6012415ec942f8259a5d023ce8b3a472548c4c25a072
+│ │ +d313f449d74b2076494f0cbb34a409207930e815b08b888157eb180c4315fa2da1d029
+│ │ +7e3b349c37900dc736d53693a497779c13f0253e76589d609bd94230be8111a3774e97
+│ │ +7d56e769f87e38118926a280a094f29d1816cfd45e4770b2f0b63735ce613aa8c61221
+│ │ +973a0f511c467fc742a8f941c34b23979389c27ac41b01ce01be0ffdb599b4a2ffa037
+│ │ +bd88b48d1dafd8269188f8746a7ce0472374b1cd33f54e36e857e00b4650ee7feb3493
+│ │ +1a7dd97caf4d036aff4653503459a8d57479f9871e7f25ead8429e0e8d80519fc76620
+│ │ +ce1779dd8b246d266cbb373a5bfaefb17c6879488c2139e84f6700d85357d2bc5bea70
+│ │ +663226384da15c72237d26117ef20c34c0305cb01041594ea075e1e6cd25200002bb14
+│ │ +06cd0c12ba1c5256bf19c471907285ea0ae8d6bc921e54468ff1a4e394a4ed14000000
+│ │ +100000000c00000046593ce4e4a94365000000000c0200000802000003010000000200
+│ │ +0007c0de5f09d5afaf35cc441b4ad7e23acafe3a93a0d43b2ae03dc050fac25e5303ff
+│ │ +88395c360afe31290dcf531165939a442fff3b7a8930c66c060421e2fba936579aea09
+│ │ +dbaec151a4b79e0ae6652f65b5aa0f9a0e0d03787234fff11536fcf82ea42fb57bd4ab
+│ │ +058370c1031e21fe0f17a169971ad84b6649273ddfc109add490a3e03aae0ff6301bd7
+│ │ +4d4467c52ae7647e4aa34adc21d6b11450b542e9fb92b42d435b4064f5e89bc9d0eee0
+│ │ +5309a8daab4ba23a7533f7dc527cb0f95f8e693da00585e5163ec8a399e0dd599fd8f9
+│ │ +050c93f669cd831a67bd19b021cb0fd88f93e8564bde73b4e8fa98d6707a0da822b577
+│ │ +52595b8ddd70f88aa51c2e603c37a83a374af2491682dc3b0dcb6862fd0495f5c68dcf
+│ │ +0018bd91ea620ded88fd2cb63b462bdd1b64839e4814b021075bc2998a5286adc03ca2
+│ │ +8e7e35f1e0316330b434421dd51b2c95cba4916f33e3706a339ddcda83763b9a792b79
+│ │ +a688c41cae0d38ca0de15062f49ac796a345a99fc2e1a3fe8e39ed42b83898f02b5584
+│ │ +f0d551bb06fe5d8c7ceffb143c9bc57238c3e5e266ef1b66f2f490e50fb177c37bcd37
+│ │ +cc1120518c42272875571928ec860b90326ca0197569ec345151f448f4ad9d11bcbd1c
+│ │ +f4ac346d9d3082e71d44638298482b10c6ea31dfe2a46fd221e89d9e7122be9d4a8d18
+│ │ +8fb25703b6ceb60a6f32099552d0ec0dd70a4421b8cb54
+│ │ +
+│ │ +Key 0x7109871a:
+│ │ +3a0a0000360a0000f80500004c000000480000000401000040000000577f7e887b048f
+│ │ +183feac15b4502abf4890afa7973ae4b11a4e46b16130b930799095de2ff399da09e56
+│ │ +1cb90b4d89ab6fc6e59a94b49cb79d51808e1998e9ed900500008c0500003082058830
+│ │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+│ │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+│ │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+│ │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+│ │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+│ │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+│ │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+│ │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+│ │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+│ │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+│ │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+│ │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+│ │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+│ │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+│ │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+│ │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+│ │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+│ │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+│ │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+│ │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+│ │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+│ │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+│ │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+│ │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+│ │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+│ │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+│ │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+│ │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+│ │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+│ │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+│ │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+│ │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+│ │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+│ │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+│ │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+│ │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+│ │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+│ │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+│ │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+│ │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+│ │ +dec7208f834a4f980786e7c92856c20c000000080000000df0efbe0300000000000000
+│ │ +0c02000008020000040100000002000091bedac6e25e815bc5c928ea31493444e412f3
+│ │ +320ee7189f60333cbfb4886d20915a46f5ca308bc5e2a86b97698220d76d8a38dd8a00
+│ │ +0584aec5902656aee1ebe5b106687a81f5b68af275daa35fa9a7b566f19c598e4f2d37
+│ │ +c63cca013e1520ed119d3be97db07c8f9f06aa1ed347a4e17aacef628b8a28b0aab318
+│ │ +d8c06d5e4858136c9ebc16311afc577e76f04f89f011c91853a77cc16ea85269b3f7d9
+│ │ +962be46292da95421e6967a2331209f3536a93775921bd0055c99fa16872cb3287a29a
+│ │ +c9bd5f75e71da809c4f470d38f9182498c3565bdf77fc1b8c92030a7e8d0a67c96b997
+│ │ +3765f512f60a4cece7b953753e67337c24e9937c9dde4bd190833171f4b7e60a800534
+│ │ +964c1210aeb10cd8ec396f5d9f9b9f86d772249ae691f1a3b646e14eadad3b82a9e547
+│ │ +dcca08538ef2b308ff3e06373bbd9e868cd1b7e1f8a76b8aeeba9f8145e49c0813045b
+│ │ +4bab21c4b0b35e72d7b8fb4c3ee13d91ac91864515e5551c6b0f68fcf91f210f487ba4
+│ │ +9b87d305f11198caf668ca6f1b32ae16d38ba8d5143b8fec41d26b3863a0fd9b40f8fd
+│ │ +a124e980a4183941aa321dd882a3af02a0e84ece01a4a1dc810044339c65f054356da9
+│ │ +5661eaf0db1799080646c4db74fb1c7826bc7dc5c8d2785443d47faf54b55a534f7640
+│ │ +f511e338d2205c5e4319d6728d7d94a5ca0901c05cc8bb4cf3b1f2ed05c23f74461ffb
+│ │ +505bad2602000030820222300d06092a864886f70d01010105000382020f003082020a
+│ │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+│ │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+│ │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+│ │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+│ │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+│ │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+│ │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+│ │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+│ │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+│ │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+│ │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+│ │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+│ │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+│ │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+│ │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+│ │ +
+│ │ +Key 0xf05368c0:
+│ │ +3a0a0000360a0000f00500004c000000480000000401000040000000577f7e887b048f
+│ │ +183feac15b4502abf4890afa7973ae4b11a4e46b16130b930799095de2ff399da09e56
+│ │ +1cb90b4d89ab6fc6e59a94b49cb79d51808e1998e9ed900500008c0500003082058830
+│ │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+│ │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+│ │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+│ │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+│ │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+│ │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+│ │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+│ │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+│ │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+│ │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+│ │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+│ │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+│ │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+│ │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+│ │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+│ │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+│ │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+│ │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+│ │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+│ │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+│ │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+│ │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+│ │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+│ │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+│ │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+│ │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+│ │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+│ │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+│ │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+│ │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+│ │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+│ │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+│ │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+│ │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+│ │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+│ │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+│ │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+│ │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+│ │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+│ │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+│ │ +dec7208f834a4f980786e7c92856c218000000ffffff7f0000000018000000ffffff7f
+│ │ +0c0200000802000004010000000200002b99582f55acb40a92c5b2f07df9c0da4f8d51
+│ │ +0e1cbafe370db35a84bff1467907b85f01146ad59a84ff1e90be3bd60393e0d31c8650
+│ │ +a6164110012eac681c8dfd6c3c8550bd0bbd99b5ad64690dccd6ef29df3327e15d5a22
+│ │ +967793527cb069d977f3ba1bc27c6df7f0050b689d7c935e1574905adba240b59748cc
+│ │ +52da39ab86f70abe82d6f411bf60ddc6e763e10ddc98f5b72bc262779b9f986d9c24f7
+│ │ +2886a1b1c57b02618cf6e86b21bcb140baefd62e534aadee5190f2f8031554bf52d7ab
+│ │ +7afe6cd5490e0a8a3e57989ee81f1dd334d4681f6a6573c98171d436dce68e3fd2993e
+│ │ +303e8b525a0338f504488c6f557cc1d19b73c7e863756da2e45f5dc5b54024be9a9ce0
+│ │ +5e7f3aaf8801f447e15c8e2603f78024852f294735b3781865e101f9647a9ecb0d835a
+│ │ +a7e26e79e44423fe1dcd659c335480d80c343a0fb98ab03e14da6da4decb1c35005f06
+│ │ +f05c6e39e3d0900758e0161635d6ec261e4952567bb2734887054eafb2a98de58036a7
+│ │ +4f2336a02c6ccb7778bdf1c069a1e9110c5cfb02de6c2b6efc7c86ecb13c384f4842f3
+│ │ +bdc15bb058f095ae2a4439bbd2ff420a91a26c7c16c2144f418225f6cdbc2d157d998f
+│ │ +405198d484071124fb1170039ba55250c753ed3756fff2b6bc1583e76c4a2544f77cd1
+│ │ +400b010092365e16f0fbaf3860ca9cbcea24e5c2d82e96414ccabef2aa8ee075e1d846
+│ │ +d6f7ba2602000030820222300d06092a864886f70d01010105000382020f003082020a
+│ │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+│ │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+│ │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+│ │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+│ │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+│ │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+│ │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+│ │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+│ │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+│ │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+│ │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+│ │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+│ │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+│ │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+│ │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+│ ├── /usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}
+│ │┄ error from `/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}` (a):
+│ │┄ DOES NOT VERIFY
+│ │┄ ERROR: Missing META-INF/MANIFEST.MF
+│ │ @@ -0,0 +1,26 @@
+│ │ +Verifies
+│ │ +Verified using v1 scheme (JAR signing): true
+│ │ +Verified using v2 scheme (APK Signature Scheme v2): true
+│ │ +Verified using v3 scheme (APK Signature Scheme v3): true
+│ │ +Verified using v4 scheme (APK Signature Scheme v4): false
+│ │ +Verified for SourceStamp: false
+│ │ +Number of signers: 1
+│ │ +Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+│ │ +Signer #1 certificate SHA-256 digest: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
+│ │ +Signer #1 certificate SHA-1 digest: e53a3c670276a98a47ad5de7b588ad36e160d182
+│ │ +Signer #1 certificate MD5 digest: b4955ae64b72f3768668228abeb8310d
+│ │ +Signer #1 key algorithm: RSA
+│ │ +Signer #1 key size (bits): 4096
+│ │ +Signer #1 public key SHA-256 digest: e0d296541fd6159503537ed083cfdd0c639a257c1069e2b48c0ac01fcf277f5b
+│ │ +Signer #1 public key SHA-1 digest: 2c662c1f30b5a49f5b674d274101d17a16113412
+│ │ +Signer #1 public key MD5 digest: f41b63d813a17f51256bee4f5ce89646
+│ │ +Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+│ │ +Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+│ │ +Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+│ │ +Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+│ │ +Source Stamp Signer key algorithm: RSA
+│ │ +Source Stamp Signer key size (bits): 4096
+│ │ +Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+│ │ +Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+│ │ +Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+│ │ +WARNING: SourceStamp: Unknown stamp attribute: ID 0xe43c5946
+│ ├── zipinfo {}
+│ │ @@ -1,4 +1,8 @@
+│ │ -Zip file size: 3129959 bytes, number of entries: 2
+│ │ --rw-rw-rw-  0.0 unx      736 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+│ │ --rw-rw-rw-  0.0 unx  6610844 b- defN 81-Jan-01 01:01 lib/armeabi-v7a/libTor.so
+│ │ -2 files, 6611580 bytes uncompressed, 3129697 bytes compressed:  52.7%
+│ │ +Zip file size: 3146148 bytes, number of entries: 6
+│ │ +-rw-r--r--  0.0 unx      980 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+│ │ +-rw-r--r--  0.0 unx  6610844 b- defN 81-Jan-01 01:01 lib/armeabi-v7a/libTor.so
+│ │ +-rw----     2.0 fat       32 b- defN 81-Jan-01 01:01 stamp-cert-sha256
+│ │ +-rw----     2.0 fat      353 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.SF
+│ │ +-rw----     2.0 fat     2172 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.RSA
+│ │ +-rw----     2.0 fat      245 b- defN 81-Jan-01 01:01 META-INF/MANIFEST.MF
+│ │ +6 files, 6614626 bytes uncompressed, 3132161 bytes compressed:  52.7%
+│ ├── AndroidManifest.xml (decoded)
+│ │ ├── AndroidManifest.xml
+│ │ │ @@ -1,4 +1,6 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │  <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50" package="app.michaelwuensch.bitbanana" split="config.armeabi_v7a">
+│ │ │ -  <application android:hasCode="false" android:extractNativeLibs="true"/>
+│ │ │ +  <application android:hasCode="false" android:extractNativeLibs="true">
+│ │ │ +    <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+│ │ │ +  </application>
+│ │ │  </manifest>
+│ ├── APK metadata
+│ │ @@ -2,15 +2,16 @@
+│ │  compressionType: false
+│ │  doNotCompress: null
+│ │  isFrameworkApk: false
+│ │  packageInfo: null
+│ │  sdkInfo: null
+│ │  sharedLibrary: false
+│ │  sparseResources: false
+│ │ -unknownFiles: {}
+│ │ +unknownFiles:
+│ │ +  stamp-cert-sha256: '8'
+│ │  usesFramework:
+│ │    ids:
+│ │    - 1
+│ │    tag: null
+│ │  version: 2.5.0-dirty
+│ │  versionInfo:
+│ │    versionCode: '50'
+│ ├── stat {}
+│ │ @@ -1,8 +1,8 @@
+│ │  
+│ │ -  Size: 3129959   	Blocks: 6120       IO Block: 4096   regular file
+│ │ +  Size: 3146148   	Blocks: 6152       IO Block: 4096   regular file
+│ │  Links: 1
+│ │ -Access: (0664/-rw-rw-r--)  Uid: ( 1000/dannybuntu)   Gid: ( 1000/dannybuntu)
+│ │ +Access: (0644/-rw-r--r--)  Uid: ( 1000/dannybuntu)   Gid: ( 1000/dannybuntu)
+│ │  
+│ │ -Modify: 2023-11-14 04:04:27.193328873 +0000
+│ │ +Modify: 2023-11-14 04:25:32.627207532 +0000
+    ```
+
+The provider claims that there should be as little differences as possible and would include these files:
+
+    ```
+    This command should list as few differences as possible. In fact it should only list differences that have to do with signing & repackaging by google.
+
+    AndroidManifest.xml
+    META-INF/BNDLTOOL.RSA
+    META-INF/BNDLTOOL.SF
+    META-INF/MANIFEST.MF
+    stamp-cert-sha256
+    ```
+
+Using ChatGPT4 to analyze reproducibility:
+
+1. File list and names. The *built* bundle produced 3 files:
+    
+    ```
+    - base-master.apk       (31,998,854 bytes)
+    - base-armeabi_v7a.apk  (3,129,959 bytes)
+    - base-xhdpi.apk        (38,528 bytes)
+    - Total:                (35,171,437 bytes)
+    ```
+    - The *official* bundle produced 3 files:
+
+    ```
+    - base.apk                      (17,403,549 bytes)
+    - split_config.armeabi_v7a.apk  (3,146,148 bytes)
+    - split_config.xhdpi.apk        (57,910 bytes)
+    - Total:                        (20,611,703 bytes)
+    ```
+2. APK Signing block. There is a notable difference in the signing block. The official APK includes additional key information
+3. **META-INF/MANIFEST.MF** There is a verification error related to this file as noted above.
+4. As noted above by the provider, the *official* apks contain these files which are not present in the *built* apks: 
+      - META-INF/BNDLTOOL.RSA
+      - META-INF/BNDLTOOL.SF
+      - stamp-cert-sha256 
+      - META-INF/MANIFEST.MF
+5. **AndroidManifest.xml**
+    > There are slight differences in the AndroidManifest.xml files, including metadata tags like com.android.vending.derived.apk.id, which indicates that the APK has been processed through Google Play.
+6. **APK Metadata**
+    > The official APKs contain additional metadata, like unknownFiles and versionInfo. This metadata reflects the specific configuration of the APK as installed on a device.
+7. **File sizes and permissions** 
+    - There are notable differences in file sizes and permissions potentially due to re-packaging and signing procedures.
+
+### Comparing built apk vs official apk pairs
+
+1. We ran `$ diffoscope built/base-armeabi_v7a.apk official/split_config.armeabi_v7a.apk` and got these results:
+
+    ```
+    --- built/base-armeabi_v7a.apk
+    +++ official/split_config.armeabi_v7a.apk
+    ├── APK Signing Block
+    │ @@ -0,0 +1,357 @@
+    │ +Key 0x42726577:
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000
+    │ +
+    │ +Key 0x6dff800d:
+    │ +050e00008d0500003082058930820371a003020102021500bf53fabb0b4e907f8f2a22
+    │ +a1b0e0d77f6def1060300d06092a864886f70d01010b05003074310b30090603550406
+    │ +13025553311330110603550408130a43616c69666f726e696131163014060355040713
+    │ +0d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e63
+    │ +2e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f
+    │ +69643020170d3230303531393130333532315a180f3230353030353139313033353231
+    │ +5a3074310b3009060355040613025553311330110603550408130a43616c69666f726e
+    │ +6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a
+    │ +130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e
+    │ +06035504031307416e64726f696430820222300d06092a864886f70d01010105000382
+    │ +020f003082020a0282020100d867460c79d043ba8b0cb0b056159b953e9efe5981ea62
+    │ +93fe9961a335bd5fcbb83c60824dede59ff37c8d4e4ec4bcc55397ea86fff90d589a18
+    │ +d990ae9f7f243daaa74abc23033407a51943bb87332116bfd058366bae07800e4062ce
+    │ +20ce4456007a1aaa5680b2395cda7aed6e3fd302ef02d6b745aedf3ba86fff50777f14
+    │ +3a6929c98c5334ff345f2a9a3449b1d79e59bd69cd3d52d014590e2fd973fa1290da60
+    │ +67270cd85fd212402c67ac7fc832cdead976cc23be70a0ba9d51ddc2a8844510a2528d
+    │ +b9aca84b21f37de6ccdf51d269949067c7532709dfd5798cb43001838056cbd7e5c7a6
+    │ +c198be491339fc0c33ee1ae4b1a3fe7ff16fcdcc44c50d9a90e7cab68c61efab922b51
+    │ +e7e3521432f3c5e85fa1720454be4c29c4674a060f55f75d82e40410a631118462a699
+    │ +788c1db32e2a801cc2146717cde2e0f52cb740eb979ac2176c85d0600a663ae75ef286
+    │ +887b7c138c1faedca8f815cb9496c185bb43fbc0f276097ca71c13342de597cb699192
+    │ +8091515dc857c31f14c11dfa41d398c02416705b08d0fd7f986a9d87c61b61fb32365b
+    │ +09298ffe206fa649c6dec47e3da58e800cb2cfb1403ebba80108dd71607f68bc576cd2
+    │ +163892570b64ea5f5ca6baa93ff30c667f2785d6ec4b8875f4217a0c6cef4efa8aa544
+    │ +e90bac99940ac1ff515d366dc1d44c0ad7b2b280b425dfbfe97c9c8af7193450bfcb02
+    │ +03010001a310300e300c0603551d13040530030101ff300d06092a864886f70d01010b
+    │ +0500038202010067a6bc59217ca6d7c3c35ba5b1f0d7f5b4a3b7230fd947efb6493acb
+    │ +6d4d563cae33848d1560ff536d92e048ae43e86be692bd3485a09f9cc1590420bbc61d
+    │ +0f163f3e8e3ee19e1d0e32ff1a315884b7d2aa0124150d75c6ec91aee85504697535fa
+    │ +c370685ec701c24ba45881b0638f19b159c6ec0a40fb53929bb1d170da060c990e2c26
+    │ +14373f38f51a71caf43b49263971c67dce722a9ad93fd1d2c084e85cf75bd4a3ace4d9
+    │ +18915b39366d35b90e73d021f49c810ee8f3a71e17251ae2c9e0cfa81e1809f73ea512
+    │ +729ce5de13b8403764de344d8856f58756cf8e29e42bc036ddc0038a7cf4a455cebfe6
+    │ +51c7c253ab407527d80faeea2aa2a68acad9a3589af2d42947ebb7d38b84e562ee41ff
+    │ +675dda6cf7281b90579c4bc57823085e7a9bee1875c76b041c167267b6ed514dd82f69
+    │ +0ef977593133b36b4f03dfabaf69981c915292f1e31ded0388790e628f5ef59cbc1f51
+    │ +9c78ee2f82d9dab7bef2ca0f3bafc7bc01c96b33c42746d75f480739f4f2c5a1ade4e4
+    │ +9d1549f98c485a535f4abf18bea0febc630697a4aff170aab6188455ae4b7c22635a04
+    │ +cb0c14687e8e4189e66f0456163ecce2cb7a7304c05bd80c460e150380fbbc9398563f
+    │ +db4f9f793ff25d13aafd776262be8ac107367027afc9b767005407ea807c9093f6ccd5
+    │ +3b15516766c1747038a03c57a4a2a37529ef0cd142d24026476ad7b1d8480600001402
+    │ +0000010000000c0200000802000003010000000200007fbd4854bb93b9ec9efce3541b
+    │ +b2047ee8234d8bd9d814c0297d5997b6b267484198b4b65ae9c447c474da043db6ea05
+    │ +602734d4b41977a777917f716903518632528d0348d73e5611e7e4e69c5df6827be36c
+    │ +18be1f8f3bba1c9060b0b5ced27584928c30ffa0742038410742290295e03e34803eb2
+    │ +1417666150d8fafe4f4c5901e387d5709225c768742cbb39a37c075d861b15af42c2b2
+    │ +a39a4ac7ea549012a1c97248a2ab97166992e1067b0aad81c5d36b5152ba85efc0a9f7
+    │ +23d7ca2e556d614ff1eb2220b92388ca9af99384032d497e3b77f4c4d0fb66fefe3d9f
+    │ +c929f3b5c767b0a2b7a4dab37e1ccf9f0f999daf92560780372799b5ccc5e3e5a499fd
+    │ +fe1581c35341acaeba6d09ceb14d580dbd0e05a97a6c408886fcd4abd425e5a834e69e
+    │ +2cb2b15073da472aa87c21d326610c1d241f6d20e77d203625b7bafdc5dce00a63cf71
+    │ +56127d84c036946da5a062e9027af3b82277cec5eaa833e4f15c77b854ccc7b912f573
+    │ +cbe206a11db006491e78ebdff1139044c341ff0d7cb4df502b0c9b0b9901601910ae92
+    │ +b2fd429bfaa0a76b6ea8c726ebcf71cf2eb4a00e0b6e6d4616e2ac26a58b0b8645de1d
+    │ +afb5199ec0703019d45a04e7624ea7ea828d203c1bf8ca5afaabf7bb2956032ff1b020
+    │ +92c84f4167c0c2f309474a040f77b53253d97740d851ccd5133dd7be14b2c04890a8da
+    │ +e5a721e679c32ed5fe14020000020000000c020000080200000301000000020000304b
+    │ +344591f1395ed4f0ade91001be863f11645dd03ec81562e51929f5882f3fa3157dfed0
+    │ +4fa7663fcc5da721b9f46bb777116c0388a743a2ce3412a5e082a2f345a4277fa17a37
+    │ +30e6c4bfe2b4da653a41976b17f3363eb4d0842c825d0115507b3e0f312305db585f77
+    │ +2bd29cafe94133b04b81750de5a81fe0c05434fe069ec19b2a939dd26fa525278695e7
+    │ +bf2c1abb819b236f99ddefc528b3be89ab684f12023028bb29f4b3225ace2f77932b23
+    │ +789a6012415ec942f8259a5d023ce8b3a472548c4c25a072d313f449d74b2076494f0c
+    │ +bb34a409207930e815b08b888157eb180c4315fa2da1d0297e3b349c37900dc736d536
+    │ +93a497779c13f0253e76589d609bd94230be8111a3774e977d56e769f87e38118926a2
+    │ +80a094f29d1816cfd45e4770b2f0b63735ce613aa8c61221973a0f511c467fc742a8f9
+    │ +41c34b23979389c27ac41b01ce01be0ffdb599b4a2ffa037bd88b48d1dafd8269188f8
+    │ +746a7ce0472374b1cd33f54e36e857e00b4650ee7feb34931a7dd97caf4d036aff4653
+    │ +503459a8d57479f9871e7f25ead8429e0e8d80519fc76620ce1779dd8b246d266cbb37
+    │ +3a5bfaefb17c6879488c2139e84f6700d85357d2bc5bea70663226384da15c72237d26
+    │ +117ef20c34c0305cb01041594ea075e1e6cd25200002bb1406cd0c12ba1c5256bf19c4
+    │ +71907285ea0ae8d6bc921e54468ff1a4e394a4ed14020000030000000c020000080200
+    │ +000301000000020000304b344591f1395ed4f0ade91001be863f11645dd03ec81562e5
+    │ +1929f5882f3fa3157dfed04fa7663fcc5da721b9f46bb777116c0388a743a2ce3412a5
+    │ +e082a2f345a4277fa17a3730e6c4bfe2b4da653a41976b17f3363eb4d0842c825d0115
+    │ +507b3e0f312305db585f772bd29cafe94133b04b81750de5a81fe0c05434fe069ec19b
+    │ +2a939dd26fa525278695e7bf2c1abb819b236f99ddefc528b3be89ab684f12023028bb
+    │ +29f4b3225ace2f77932b23789a6012415ec942f8259a5d023ce8b3a472548c4c25a072
+    │ +d313f449d74b2076494f0cbb34a409207930e815b08b888157eb180c4315fa2da1d029
+    │ +7e3b349c37900dc736d53693a497779c13f0253e76589d609bd94230be8111a3774e97
+    │ +7d56e769f87e38118926a280a094f29d1816cfd45e4770b2f0b63735ce613aa8c61221
+    │ +973a0f511c467fc742a8f941c34b23979389c27ac41b01ce01be0ffdb599b4a2ffa037
+    │ +bd88b48d1dafd8269188f8746a7ce0472374b1cd33f54e36e857e00b4650ee7feb3493
+    │ +1a7dd97caf4d036aff4653503459a8d57479f9871e7f25ead8429e0e8d80519fc76620
+    │ +ce1779dd8b246d266cbb373a5bfaefb17c6879488c2139e84f6700d85357d2bc5bea70
+    │ +663226384da15c72237d26117ef20c34c0305cb01041594ea075e1e6cd25200002bb14
+    │ +06cd0c12ba1c5256bf19c471907285ea0ae8d6bc921e54468ff1a4e394a4ed14000000
+    │ +100000000c00000046593ce4e4a94365000000000c0200000802000003010000000200
+    │ +0007c0de5f09d5afaf35cc441b4ad7e23acafe3a93a0d43b2ae03dc050fac25e5303ff
+    │ +88395c360afe31290dcf531165939a442fff3b7a8930c66c060421e2fba936579aea09
+    │ +dbaec151a4b79e0ae6652f65b5aa0f9a0e0d03787234fff11536fcf82ea42fb57bd4ab
+    │ +058370c1031e21fe0f17a169971ad84b6649273ddfc109add490a3e03aae0ff6301bd7
+    │ +4d4467c52ae7647e4aa34adc21d6b11450b542e9fb92b42d435b4064f5e89bc9d0eee0
+    │ +5309a8daab4ba23a7533f7dc527cb0f95f8e693da00585e5163ec8a399e0dd599fd8f9
+    │ +050c93f669cd831a67bd19b021cb0fd88f93e8564bde73b4e8fa98d6707a0da822b577
+    │ +52595b8ddd70f88aa51c2e603c37a83a374af2491682dc3b0dcb6862fd0495f5c68dcf
+    │ +0018bd91ea620ded88fd2cb63b462bdd1b64839e4814b021075bc2998a5286adc03ca2
+    │ +8e7e35f1e0316330b434421dd51b2c95cba4916f33e3706a339ddcda83763b9a792b79
+    │ +a688c41cae0d38ca0de15062f49ac796a345a99fc2e1a3fe8e39ed42b83898f02b5584
+    │ +f0d551bb06fe5d8c7ceffb143c9bc57238c3e5e266ef1b66f2f490e50fb177c37bcd37
+    │ +cc1120518c42272875571928ec860b90326ca0197569ec345151f448f4ad9d11bcbd1c
+    │ +f4ac346d9d3082e71d44638298482b10c6ea31dfe2a46fd221e89d9e7122be9d4a8d18
+    │ +8fb25703b6ceb60a6f32099552d0ec0dd70a4421b8cb54
+    │ +
+    │ +Key 0x7109871a:
+    │ +3a0a0000360a0000f80500004c000000480000000401000040000000577f7e887b048f
+    │ +183feac15b4502abf4890afa7973ae4b11a4e46b16130b930799095de2ff399da09e56
+    │ +1cb90b4d89ab6fc6e59a94b49cb79d51808e1998e9ed900500008c0500003082058830
+    │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+    │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+    │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+    │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+    │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+    │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+    │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+    │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+    │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+    │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+    │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+    │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+    │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+    │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+    │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+    │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+    │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+    │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+    │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+    │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+    │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+    │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+    │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+    │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+    │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+    │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+    │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+    │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+    │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+    │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+    │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+    │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+    │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+    │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+    │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+    │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+    │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+    │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+    │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+    │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+    │ +dec7208f834a4f980786e7c92856c20c000000080000000df0efbe0300000000000000
+    │ +0c02000008020000040100000002000091bedac6e25e815bc5c928ea31493444e412f3
+    │ +320ee7189f60333cbfb4886d20915a46f5ca308bc5e2a86b97698220d76d8a38dd8a00
+    │ +0584aec5902656aee1ebe5b106687a81f5b68af275daa35fa9a7b566f19c598e4f2d37
+    │ +c63cca013e1520ed119d3be97db07c8f9f06aa1ed347a4e17aacef628b8a28b0aab318
+    │ +d8c06d5e4858136c9ebc16311afc577e76f04f89f011c91853a77cc16ea85269b3f7d9
+    │ +962be46292da95421e6967a2331209f3536a93775921bd0055c99fa16872cb3287a29a
+    │ +c9bd5f75e71da809c4f470d38f9182498c3565bdf77fc1b8c92030a7e8d0a67c96b997
+    │ +3765f512f60a4cece7b953753e67337c24e9937c9dde4bd190833171f4b7e60a800534
+    │ +964c1210aeb10cd8ec396f5d9f9b9f86d772249ae691f1a3b646e14eadad3b82a9e547
+    │ +dcca08538ef2b308ff3e06373bbd9e868cd1b7e1f8a76b8aeeba9f8145e49c0813045b
+    │ +4bab21c4b0b35e72d7b8fb4c3ee13d91ac91864515e5551c6b0f68fcf91f210f487ba4
+    │ +9b87d305f11198caf668ca6f1b32ae16d38ba8d5143b8fec41d26b3863a0fd9b40f8fd
+    │ +a124e980a4183941aa321dd882a3af02a0e84ece01a4a1dc810044339c65f054356da9
+    │ +5661eaf0db1799080646c4db74fb1c7826bc7dc5c8d2785443d47faf54b55a534f7640
+    │ +f511e338d2205c5e4319d6728d7d94a5ca0901c05cc8bb4cf3b1f2ed05c23f74461ffb
+    │ +505bad2602000030820222300d06092a864886f70d01010105000382020f003082020a
+    │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+    │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+    │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+    │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+    │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+    │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+    │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+    │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+    │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+    │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+    │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+    │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+    │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+    │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+    │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+    │ +
+    │ +Key 0xf05368c0:
+    │ +3a0a0000360a0000f00500004c000000480000000401000040000000577f7e887b048f
+    │ +183feac15b4502abf4890afa7973ae4b11a4e46b16130b930799095de2ff399da09e56
+    │ +1cb90b4d89ab6fc6e59a94b49cb79d51808e1998e9ed900500008c0500003082058830
+    │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+    │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+    │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+    │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+    │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+    │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+    │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+    │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+    │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+    │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+    │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+    │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+    │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+    │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+    │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+    │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+    │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+    │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+    │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+    │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+    │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+    │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+    │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+    │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+    │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+    │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+    │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+    │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+    │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+    │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+    │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+    │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+    │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+    │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+    │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+    │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+    │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+    │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+    │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+    │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+    │ +dec7208f834a4f980786e7c92856c218000000ffffff7f0000000018000000ffffff7f
+    │ +0c0200000802000004010000000200002b99582f55acb40a92c5b2f07df9c0da4f8d51
+    │ +0e1cbafe370db35a84bff1467907b85f01146ad59a84ff1e90be3bd60393e0d31c8650
+    │ +a6164110012eac681c8dfd6c3c8550bd0bbd99b5ad64690dccd6ef29df3327e15d5a22
+    │ +967793527cb069d977f3ba1bc27c6df7f0050b689d7c935e1574905adba240b59748cc
+    │ +52da39ab86f70abe82d6f411bf60ddc6e763e10ddc98f5b72bc262779b9f986d9c24f7
+    │ +2886a1b1c57b02618cf6e86b21bcb140baefd62e534aadee5190f2f8031554bf52d7ab
+    │ +7afe6cd5490e0a8a3e57989ee81f1dd334d4681f6a6573c98171d436dce68e3fd2993e
+    │ +303e8b525a0338f504488c6f557cc1d19b73c7e863756da2e45f5dc5b54024be9a9ce0
+    │ +5e7f3aaf8801f447e15c8e2603f78024852f294735b3781865e101f9647a9ecb0d835a
+    │ +a7e26e79e44423fe1dcd659c335480d80c343a0fb98ab03e14da6da4decb1c35005f06
+    │ +f05c6e39e3d0900758e0161635d6ec261e4952567bb2734887054eafb2a98de58036a7
+    │ +4f2336a02c6ccb7778bdf1c069a1e9110c5cfb02de6c2b6efc7c86ecb13c384f4842f3
+    │ +bdc15bb058f095ae2a4439bbd2ff420a91a26c7c16c2144f418225f6cdbc2d157d998f
+    │ +405198d484071124fb1170039ba55250c753ed3756fff2b6bc1583e76c4a2544f77cd1
+    │ +400b010092365e16f0fbaf3860ca9cbcea24e5c2d82e96414ccabef2aa8ee075e1d846
+    │ +d6f7ba2602000030820222300d06092a864886f70d01010105000382020f003082020a
+    │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+    │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+    │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+    │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+    │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+    │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+    │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+    │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+    │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+    │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+    │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+    │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+    │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+    │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+    │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+    ├── /usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}
+    │┄ error from `/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}` (a):
+    │┄ DOES NOT VERIFY
+    │┄ ERROR: Missing META-INF/MANIFEST.MF
+    │ @@ -0,0 +1,26 @@
+    │ +Verifies
+    │ +Verified using v1 scheme (JAR signing): true
+    │ +Verified using v2 scheme (APK Signature Scheme v2): true
+    │ +Verified using v3 scheme (APK Signature Scheme v3): true
+    │ +Verified using v4 scheme (APK Signature Scheme v4): false
+    │ +Verified for SourceStamp: false
+    │ +Number of signers: 1
+    │ +Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+    │ +Signer #1 certificate SHA-256 digest: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
+    │ +Signer #1 certificate SHA-1 digest: e53a3c670276a98a47ad5de7b588ad36e160d182
+    │ +Signer #1 certificate MD5 digest: b4955ae64b72f3768668228abeb8310d
+    │ +Signer #1 key algorithm: RSA
+    │ +Signer #1 key size (bits): 4096
+    │ +Signer #1 public key SHA-256 digest: e0d296541fd6159503537ed083cfdd0c639a257c1069e2b48c0ac01fcf277f5b
+    │ +Signer #1 public key SHA-1 digest: 2c662c1f30b5a49f5b674d274101d17a16113412
+    │ +Signer #1 public key MD5 digest: f41b63d813a17f51256bee4f5ce89646
+    │ +Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+    │ +Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+    │ +Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+    │ +Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+    │ +Source Stamp Signer key algorithm: RSA
+    │ +Source Stamp Signer key size (bits): 4096
+    │ +Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+    │ +Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+    │ +Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+    │ +WARNING: SourceStamp: Unknown stamp attribute: ID 0xe43c5946
+    ├── zipinfo {}
+    │ @@ -1,4 +1,8 @@
+    │ -Zip file size: 3129959 bytes, number of entries: 2
+    │ --rw-rw-rw-  0.0 unx      736 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+    │ --rw-rw-rw-  0.0 unx  6610844 b- defN 81-Jan-01 01:01 lib/armeabi-v7a/libTor.so
+    │ -2 files, 6611580 bytes uncompressed, 3129697 bytes compressed:  52.7%
+    │ +Zip file size: 3146148 bytes, number of entries: 6
+    │ +-rw-r--r--  0.0 unx      980 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+    │ +-rw-r--r--  0.0 unx  6610844 b- defN 81-Jan-01 01:01 lib/armeabi-v7a/libTor.so
+    │ +-rw----     2.0 fat       32 b- defN 81-Jan-01 01:01 stamp-cert-sha256
+    │ +-rw----     2.0 fat      353 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.SF
+    │ +-rw----     2.0 fat     2172 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.RSA
+    │ +-rw----     2.0 fat      245 b- defN 81-Jan-01 01:01 META-INF/MANIFEST.MF
+    │ +6 files, 6614626 bytes uncompressed, 3132161 bytes compressed:  52.7%
+    ├── AndroidManifest.xml (decoded)
+    │ ├── AndroidManifest.xml
+    │ │ @@ -1,4 +1,6 @@
+    │ │  <?xml version="1.0" encoding="utf-8"?>
+    │ │  <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50" package="app.michaelwuensch.bitbanana" split="config.armeabi_v7a">
+    │ │ -  <application android:hasCode="false" android:extractNativeLibs="true"/>
+    │ │ +  <application android:hasCode="false" android:extractNativeLibs="true">
+    │ │ +    <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    │ │ +  </application>
+    │ │  </manifest>
+    ├── APK metadata
+    │ @@ -2,15 +2,16 @@
+    │  compressionType: false
+    │  doNotCompress: null
+    │  isFrameworkApk: false
+    │  packageInfo: null
+    │  sdkInfo: null
+    │  sharedLibrary: false
+    │  sparseResources: false
+    │ -unknownFiles: {}
+    │ +unknownFiles:
+    │ +  stamp-cert-sha256: '8'
+    │  usesFramework:
+    │    ids:
+    │    - 1
+    │    tag: null
+    │  version: 2.5.0-dirty
+    │  versionInfo:
+    │    versionCode: '50'
+    ```
+2. We ran `$ diffoscope xhdpiAnalysis built/base-xhdpi.apk official/split_config.xhdpi.apk` and got these results:
+
+    ```
+    --- built/base-xhdpi.apk
+    +++ official/split_config.xhdpi.apk
+    ├── APK Signing Block
+    │ @@ -0,0 +1,357 @@
+    │ +Key 0x42726577:
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000000000000000000000000000000000000000000000000000
+    │ +0000000000000000000000
+    │ +
+    │ +Key 0x6dff800d:
+    │ +050e00008d0500003082058930820371a003020102021500bf53fabb0b4e907f8f2a22
+    │ +a1b0e0d77f6def1060300d06092a864886f70d01010b05003074310b30090603550406
+    │ +13025553311330110603550408130a43616c69666f726e696131163014060355040713
+    │ +0d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e63
+    │ +2e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f
+    │ +69643020170d3230303531393130333532315a180f3230353030353139313033353231
+    │ +5a3074310b3009060355040613025553311330110603550408130a43616c69666f726e
+    │ +6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a
+    │ +130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e
+    │ +06035504031307416e64726f696430820222300d06092a864886f70d01010105000382
+    │ +020f003082020a0282020100d867460c79d043ba8b0cb0b056159b953e9efe5981ea62
+    │ +93fe9961a335bd5fcbb83c60824dede59ff37c8d4e4ec4bcc55397ea86fff90d589a18
+    │ +d990ae9f7f243daaa74abc23033407a51943bb87332116bfd058366bae07800e4062ce
+    │ +20ce4456007a1aaa5680b2395cda7aed6e3fd302ef02d6b745aedf3ba86fff50777f14
+    │ +3a6929c98c5334ff345f2a9a3449b1d79e59bd69cd3d52d014590e2fd973fa1290da60
+    │ +67270cd85fd212402c67ac7fc832cdead976cc23be70a0ba9d51ddc2a8844510a2528d
+    │ +b9aca84b21f37de6ccdf51d269949067c7532709dfd5798cb43001838056cbd7e5c7a6
+    │ +c198be491339fc0c33ee1ae4b1a3fe7ff16fcdcc44c50d9a90e7cab68c61efab922b51
+    │ +e7e3521432f3c5e85fa1720454be4c29c4674a060f55f75d82e40410a631118462a699
+    │ +788c1db32e2a801cc2146717cde2e0f52cb740eb979ac2176c85d0600a663ae75ef286
+    │ +887b7c138c1faedca8f815cb9496c185bb43fbc0f276097ca71c13342de597cb699192
+    │ +8091515dc857c31f14c11dfa41d398c02416705b08d0fd7f986a9d87c61b61fb32365b
+    │ +09298ffe206fa649c6dec47e3da58e800cb2cfb1403ebba80108dd71607f68bc576cd2
+    │ +163892570b64ea5f5ca6baa93ff30c667f2785d6ec4b8875f4217a0c6cef4efa8aa544
+    │ +e90bac99940ac1ff515d366dc1d44c0ad7b2b280b425dfbfe97c9c8af7193450bfcb02
+    │ +03010001a310300e300c0603551d13040530030101ff300d06092a864886f70d01010b
+    │ +0500038202010067a6bc59217ca6d7c3c35ba5b1f0d7f5b4a3b7230fd947efb6493acb
+    │ +6d4d563cae33848d1560ff536d92e048ae43e86be692bd3485a09f9cc1590420bbc61d
+    │ +0f163f3e8e3ee19e1d0e32ff1a315884b7d2aa0124150d75c6ec91aee85504697535fa
+    │ +c370685ec701c24ba45881b0638f19b159c6ec0a40fb53929bb1d170da060c990e2c26
+    │ +14373f38f51a71caf43b49263971c67dce722a9ad93fd1d2c084e85cf75bd4a3ace4d9
+    │ +18915b39366d35b90e73d021f49c810ee8f3a71e17251ae2c9e0cfa81e1809f73ea512
+    │ +729ce5de13b8403764de344d8856f58756cf8e29e42bc036ddc0038a7cf4a455cebfe6
+    │ +51c7c253ab407527d80faeea2aa2a68acad9a3589af2d42947ebb7d38b84e562ee41ff
+    │ +675dda6cf7281b90579c4bc57823085e7a9bee1875c76b041c167267b6ed514dd82f69
+    │ +0ef977593133b36b4f03dfabaf69981c915292f1e31ded0388790e628f5ef59cbc1f51
+    │ +9c78ee2f82d9dab7bef2ca0f3bafc7bc01c96b33c42746d75f480739f4f2c5a1ade4e4
+    │ +9d1549f98c485a535f4abf18bea0febc630697a4aff170aab6188455ae4b7c22635a04
+    │ +cb0c14687e8e4189e66f0456163ecce2cb7a7304c05bd80c460e150380fbbc9398563f
+    │ +db4f9f793ff25d13aafd776262be8ac107367027afc9b767005407ea807c9093f6ccd5
+    │ +3b15516766c1747038a03c57a4a2a37529ef0cd142d24026476ad7b1d8480600001402
+    │ +0000010000000c02000008020000030100000002000027698ee036b687dc5282d58e60
+    │ +4fe78140840cc41d2543f032978151d6b06d6f44784b151adfcfe50b2de1c2d11237fb
+    │ +7fc7b7158f2b24f9696bdc23163bbc67993f61add8930e4d3ca67223b5fb367651538e
+    │ +843f53ae2d70998b5c1754f468a8f10ef33b57ecb492ec4ee78e82243ee4a3081cd456
+    │ +e8d83780d3bf75717d37a7c38c558d682784419440a1dbe1b6a7866d1eaa39eab6ce55
+    │ +4616f8da5704308b7dd0d7e18f3c827382bd0118218b5ee1988c5ce2adf39e283f8842
+    │ +f806aadb78f5a27f82725e69c2b8329ae56579f608ac5167e35fee9fa2d6540d646e07
+    │ +81801563314815057ddbbb3c22df453bc659b602a4f802a6bbdf243ec7e9568e0f5e61
+    │ +8e596db15e29ff13ad5f7dc082dbbc93dbb39729df3ccc22a2665ef7d1214506ee2535
+    │ +78c27c6d23bb60162f1b57465d84c62149d58af74e597717cfb14848c731b719c4d62e
+    │ +716865287d385dbe698237e7ad9cd7412ed95bf5a04e0cc05182c22f8ac58469a7de41
+    │ +31adef9bdac4de057a7c43d7ae223f21dd019679ffcdf005b4c38a11faafe18bce2dd9
+    │ +5ad284d69cfaa4ef237e2b13c44037fe0cc9e0bb3190f61bdfbd1e133c4d6ddd6dfff9
+    │ +34635b9b4c483ebef92fd78c1df38325c8ed0336e897a973b5aaf39292556e09f28689
+    │ +c01664f8c8a2689ae93f19ad4f6af21fd8fe703b9400fc29a86b053c745a74993991b9
+    │ +eefc3dae2bdfb5c4a914020000020000000c020000080200000301000000020000a1fa
+    │ +4d967f38332b985bcc23d4e635a79dba6af0d1c451089d075b423c7c0fdf239c6708b7
+    │ +c8e9c9087d1c765f887e7882b6037aa1dab6a37f417cc41ae8063e91e0c03b6b2789ab
+    │ +a2134a8deb43f38c0adf3cd718d5a5ea84d4503935902668fdbf0c79406562f3a1f98b
+    │ +260cbc54601b079f501ff6a5136a42877ac1bbb83185c8604c2e4431c079f02020db7f
+    │ +d9f168b416838c65a79b9e4d962015265785dc53956186445c779f2c8c78237d7e5a44
+    │ +bc858ff86a83e68d1272151a0f4cc456a3526f3fabb6f902b4c0f672a65fb869f8e692
+    │ +3f0309a1b525ced7b2c9a30f0d1c9b14460bb552550de1632145f5fa5bcc05ed1d2b19
+    │ +e96838f8f341a356de43c7e9bb2883540686e261f6ac94097b80b6e3ff58aa08d317cf
+    │ +3d31633b37b8b7fabdaae7b75ba2f0b120afed124e2ab27535928bf94d7ff25e26ffa7
+    │ +4c0eb235707abfa557e6d74acfb2ee9e2e8f0ab47b418689d052cd02bfa57bf6b349e1
+    │ +63a0f004c5f4ef2da6852f53490a890b46f453e25174db4f4bcf32d118e385a27d8da8
+    │ +b8eb47f6908ea509c6249a63ad7b92d48473f90f8957614c8f860e12ed3dabe7d5425b
+    │ +298bd80aa486b207b57f8d3d83b63fb98dff5eb360fb6b6f6d383abaa5933a40bfe2c2
+    │ +06f58d62b23718034cbf8c00b2eb52a5d7c0d1979f1b5a5c909ce1dd87dd1e0420c226
+    │ +7d0191ac3f1e91edcd4c2a5d48fcdd927abc487114020000030000000c020000080200
+    │ +000301000000020000a1fa4d967f38332b985bcc23d4e635a79dba6af0d1c451089d07
+    │ +5b423c7c0fdf239c6708b7c8e9c9087d1c765f887e7882b6037aa1dab6a37f417cc41a
+    │ +e8063e91e0c03b6b2789aba2134a8deb43f38c0adf3cd718d5a5ea84d4503935902668
+    │ +fdbf0c79406562f3a1f98b260cbc54601b079f501ff6a5136a42877ac1bbb83185c860
+    │ +4c2e4431c079f02020db7fd9f168b416838c65a79b9e4d962015265785dc5395618644
+    │ +5c779f2c8c78237d7e5a44bc858ff86a83e68d1272151a0f4cc456a3526f3fabb6f902
+    │ +b4c0f672a65fb869f8e6923f0309a1b525ced7b2c9a30f0d1c9b14460bb552550de163
+    │ +2145f5fa5bcc05ed1d2b19e96838f8f341a356de43c7e9bb2883540686e261f6ac9409
+    │ +7b80b6e3ff58aa08d317cf3d31633b37b8b7fabdaae7b75ba2f0b120afed124e2ab275
+    │ +35928bf94d7ff25e26ffa74c0eb235707abfa557e6d74acfb2ee9e2e8f0ab47b418689
+    │ +d052cd02bfa57bf6b349e163a0f004c5f4ef2da6852f53490a890b46f453e25174db4f
+    │ +4bcf32d118e385a27d8da8b8eb47f6908ea509c6249a63ad7b92d48473f90f8957614c
+    │ +8f860e12ed3dabe7d5425b298bd80aa486b207b57f8d3d83b63fb98dff5eb360fb6b6f
+    │ +6d383abaa5933a40bfe2c206f58d62b23718034cbf8c00b2eb52a5d7c0d1979f1b5a5c
+    │ +909ce1dd87dd1e0420c2267d0191ac3f1e91edcd4c2a5d48fcdd927abc487114000000
+    │ +100000000c00000046593ce4e4a94365000000000c0200000802000003010000000200
+    │ +0007c0de5f09d5afaf35cc441b4ad7e23acafe3a93a0d43b2ae03dc050fac25e5303ff
+    │ +88395c360afe31290dcf531165939a442fff3b7a8930c66c060421e2fba936579aea09
+    │ +dbaec151a4b79e0ae6652f65b5aa0f9a0e0d03787234fff11536fcf82ea42fb57bd4ab
+    │ +058370c1031e21fe0f17a169971ad84b6649273ddfc109add490a3e03aae0ff6301bd7
+    │ +4d4467c52ae7647e4aa34adc21d6b11450b542e9fb92b42d435b4064f5e89bc9d0eee0
+    │ +5309a8daab4ba23a7533f7dc527cb0f95f8e693da00585e5163ec8a399e0dd599fd8f9
+    │ +050c93f669cd831a67bd19b021cb0fd88f93e8564bde73b4e8fa98d6707a0da822b577
+    │ +52595b8ddd70f88aa51c2e603c37a83a374af2491682dc3b0dcb6862fd0495f5c68dcf
+    │ +0018bd91ea620ded88fd2cb63b462bdd1b64839e4814b021075bc2998a5286adc03ca2
+    │ +8e7e35f1e0316330b434421dd51b2c95cba4916f33e3706a339ddcda83763b9a792b79
+    │ +a688c41cae0d38ca0de15062f49ac796a345a99fc2e1a3fe8e39ed42b83898f02b5584
+    │ +f0d551bb06fe5d8c7ceffb143c9bc57238c3e5e266ef1b66f2f490e50fb177c37bcd37
+    │ +cc1120518c42272875571928ec860b90326ca0197569ec345151f448f4ad9d11bcbd1c
+    │ +f4ac346d9d3082e71d44638298482b10c6ea31dfe2a46fd221e89d9e7122be9d4a8d18
+    │ +8fb25703b6ceb60a6f32099552d0ec0dd70a4421b8cb54
+    │ +
+    │ +Key 0x7109871a:
+    │ +3a0a0000360a0000f80500004c0000004800000004010000400000008e3621ecfd6488
+    │ +ba124cf10b7addefe3ec4cedfb58fa1e117f6535a31fd29fdd163b6f071dd4515c0099
+    │ +205c0d7b47d087b97668e43cbb82d7cb929046dffc9a900500008c0500003082058830
+    │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+    │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+    │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+    │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+    │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+    │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+    │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+    │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+    │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+    │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+    │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+    │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+    │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+    │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+    │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+    │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+    │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+    │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+    │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+    │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+    │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+    │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+    │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+    │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+    │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+    │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+    │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+    │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+    │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+    │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+    │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+    │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+    │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+    │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+    │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+    │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+    │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+    │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+    │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+    │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+    │ +dec7208f834a4f980786e7c92856c20c000000080000000df0efbe0300000000000000
+    │ +0c0200000802000004010000000200001fe123661296cbf8ea4b5b711fb1021f7793d5
+    │ +8260838a441e0793c3e1af7a5fec95a5302158cba49dc93aa98d721db8906e76fa6e00
+    │ +96e3943aad4e368aadeeaee871d91dd995bd01c9bca3738088f800c4c01fc2a214d700
+    │ +5af1edbe259df109e3170718903524c2c4b25bb7e68b06eaad1744fdc13e476a8407b3
+    │ +de8e484ed79d343bf0fb8cc5a585af4dc62ec2a93bd51b8b5ddd654c713b8a8fb941a0
+    │ +a283eec050c5bf1623407c2d9ed2b551c90ef2aed11041b790b728d4db0b920e7f7e01
+    │ +f76e4ae1de8be6569bdde8d439b802d2672519eb8539ae15284a2e0e267764c3bc5d0e
+    │ +a94beb0736d9ddda8da59c13edc5183a65d983dda97f0a51f210b95f7f6bf50d92d959
+    │ +aecf7e038d966679951e79298ae13f70266c71c93c7aac0dc338648557fdede6ca0310
+    │ +264d70976ea96fc91b23251f822605879a1f043fb20dae32efb357d23e2963c9f47543
+    │ +1dfaeccdaebf967f4c1ff0af0539704a68e401f426081da2c6e92db5559a2dc5e1ea97
+    │ +e5297295c36005e0b0bd719db83e50b712233673a4cd43e73812d142f34ce812dfda04
+    │ +16caa9cd4f58c6bdb25401b73efb512fce87fd62818da5077e913b92acdbd7bbae615e
+    │ +cd770736dea4cfdad1bca8c0842497b3be90a5e189116473c578d9dfcdac606bb5e5d4
+    │ +8bf18f2d31cc7e9e9156e5949abb152542e66edf0d14c7d11f8164278340acc231a5ca
+    │ +d29bdd2602000030820222300d06092a864886f70d01010105000382020f003082020a
+    │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+    │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+    │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+    │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+    │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+    │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+    │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+    │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+    │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+    │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+    │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+    │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+    │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+    │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+    │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+    │ +
+    │ +Key 0xf05368c0:
+    │ +3a0a0000360a0000f00500004c0000004800000004010000400000008e3621ecfd6488
+    │ +ba124cf10b7addefe3ec4cedfb58fa1e117f6535a31fd29fdd163b6f071dd4515c0099
+    │ +205c0d7b47d087b97668e43cbb82d7cb929046dffc9a900500008c0500003082058830
+    │ +820370a00302010202147bf8927cc5b6bd43d7e0b02675d55e976cfbc117300d06092a
+    │ +864886f70d01010b05003074310b300906035504061302555331133011060355040813
+    │ +0a43616c69666f726e6961311630140603550407130d4d6f756e7461696e2056696577
+    │ +31143012060355040a130b476f6f676c6520496e632e3110300e060355040b1307416e
+    │ +64726f69643110300e06035504031307416e64726f69643020170d3233303332363134
+    │ +353835335a180f32303533303332363134353835335a3074310b300906035504061302
+    │ +5553311330110603550408130a43616c69666f726e6961311630140603550407130d4d
+    │ +6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e632e31
+    │ +10300e060355040b1307416e64726f69643110300e06035504031307416e64726f6964
+    │ +30820222300d06092a864886f70d01010105000382020f003082020a0282020100d002
+    │ +ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2ee2596fadcad8cc
+    │ +02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed18f3bd45986c15c
+    │ +84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c4271591005ecc7c5f
+    │ +4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed5ac838d6c650bb
+    │ +cbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a95da184548376b
+    │ +05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d55a338c17f09096
+    │ +aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e349e9ca44a7d68
+    │ +95ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52ec9f040fae21ad
+    │ +fe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06dc3fe177fd827db
+    │ +2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683bfe114a023e75a
+    │ +822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3cc5b688b12b00e
+    │ +d1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e55543f7f35ba3bb
+    │ +78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec080465c00d65d3
+    │ +59e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c258c8cb045bdf96f
+    │ +682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001a310300e300c0603551d
+    │ +13040530030101ff300d06092a864886f70d01010b050003820201003e3da0b4e00ae3
+    │ +b068595cfc10cd04dd6f9f9997e02531815e3bcf3f559a27edce69be94863243031b96
+    │ +75400d2112d1ef62c2f2141beed6ea1ca95db2cd431bc0de288bad5f6ad53aa170dc39
+    │ +98bf5bfe3999717ac298562b6a8a30f704dc4d36a0899fa4a6e005a07999bfa2204b4e
+    │ +9c248345346df468cb2f071c064364665e84ba4442f6cf93a1b0594130bc62e47f9fd7
+    │ +bed3cc9fa90483247b09d67e1c592f05c7ac2f654854002e69d560bfad993927b7060a
+    │ +67ba898cf0be0fa217bec8bfe81995d15e50cd3089827d71ce2ea452509665091c47c7
+    │ +8323082ee2271c0d646166ce9f3052775ffe5e4b0d07903ab14902935f75f168ac13b7
+    │ +07228fc148e5186429688b4a5181a2e9b6facc03a680be28a6c6fd32f3be53f1c64253
+    │ +3086ed1a38317c4f351cec990c493cd9fd9f93fc73199eeb0d6a555d1f39aa63a7ed1b
+    │ +58bbdb17da4d74c72ddf175f88abda20ed403d5688566f674ebb54539473bda2f895bb
+    │ +41c65b32c68c32ed594ff85ba95f8860f76b04e60233e7223be2b9fe561f9fd9bcf77c
+    │ +8721caa0f4fcfc5a8c1daf683fe1b4d9c5dfa174e09697a012246e9c4f0a74de37be4e
+    │ +1de878d5cd02a60183ac2007a7ac2a1fbac12464184f4257307b46eb057b40eda98ee8
+    │ +0ecef209b751e9156075682bbe7696ae4880d82b6ac81df133a75848a62a86629f5a15
+    │ +dec7208f834a4f980786e7c92856c218000000ffffff7f0000000018000000ffffff7f
+    │ +0c02000008020000040100000002000034029379da7cde0764a895751e4b97374a85d7
+    │ +bfa25aa753d810e4dabea0286845a1b435ac14488acbb414ee4e95e798b2cd4f0c4a8e
+    │ +ca318963f9ce7d1cda52939af9297f32b769928257ecec846d69aaa6ec55e78eb4c059
+    │ +cdd480ec72d0aab9fc89ee3c39e83b57d3a91e2e32b546aa70abe30e33cf0a5c6c5ed0
+    │ +90ed1308913fd66a43a9f0470241aa80051d078792bac280e9c532d6ff4d9c5783d68b
+    │ +c60468419cb3c8d869203564144abcb901e63b3416acc706a22d393c1dad9a1054708a
+    │ +254c4c098d49cb1657d323b2da604574523f90a87709210bbb6d88a84b0bb2bc70c06e
+    │ +cdab48f2a566f88094a4e9b2bb5103c11f2bd2758fbebe473682b5affd612ef8de2651
+    │ +cd379db0ddf1de0fade87097d9796acdb06016a4ac70e96fbe3a041ebacbbb900c3032
+    │ +5c143c63f729ad6fe4e3644e548f210f5d10b426d9fd76de55b1fd2942ed335e102899
+    │ +354aa3f10839908bbab0ce3099e0f9ab2f439d18ed8618ae6977f6535657eec2047fbd
+    │ +0cbc008b9775a84e906b15401344dc92cf456c605b676874fb163bbad84186a9666422
+    │ +c3d5bcc5fddd6462419c0b9fae1cdf0d328fac47e041164273e5c8e2c850f8cf41b73b
+    │ +5c7ddd216fb6526a983cbf64ef92615e6749a83fb93d152a46e8eca69321f21392d1b9
+    │ +a50164f258a50cf5ddccd4ae45b04a536e9fea74e1b9e15d361d40e8cdf2f97b54af3b
+    │ +8743072602000030820222300d06092a864886f70d01010105000382020f003082020a
+    │ +0282020100d002ae8b3297e38187a666d010114add55e436fd802a30fb5ff6245d0a2e
+    │ +e2596fadcad8cc02ec4509bee9bd677f2cbb852f388acdee4f723bc700158720046ed1
+    │ +8f3bd45986c15c84f417c9a7c8336fa10ae63aad677b73e671dee82074ef5f5ae3c427
+    │ +1591005ecc7c5f4e2a7b2a7a45735da4ba16df89b3de6dc17baa68865c729d9f7cd2ed
+    │ +5ac838d6c650bbcbc74a46f206441585f63b74a81bc3d8e8afb8d329eb9b0b88355c4a
+    │ +95da184548376b05fd81bdfab047e4120b927ea5573602a50960bf854aecbbe91177d5
+    │ +5a338c17f09096aab18b72733f935af775ec7cd00cd37115c32772822bd5aa446ba13e
+    │ +349e9ca44a7d6895ae0c092c06d225337c73c76b7f6d916100359315e9bd7383bf2f52
+    │ +ec9f040fae21adfe1441b191ddcb35a9a48ed283987d0a1cc583ca1f69816fde7ba06d
+    │ +c3fe177fd827db2c2435a65ffb849521690e8acbea66517b7e1a360717f39a695f1683
+    │ +bfe114a023e75a822633327ddcf6b84aee1e9747f017d0877d0eccf81e33132b45bbc3
+    │ +cc5b688b12b00ed1f0797aaae9a98a2a41f7c63e7aa938c237edc620bcdad9bb2600e5
+    │ +5543f7f35ba3bb78e80390111a0eee6731b16f35f34caea087a97bb6a340a6c57671ec
+    │ +080465c00d65d359e31961da08841b8b4dcb8dd52ce6e1705fa81bdc825af7f93c2c25
+    │ +8c8cb045bdf96f682c3b6783d2e85c302a7162f34ac7054bdb6b030203010001
+    ├── /usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}
+    │┄ error from `/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}` (a):
+    │┄ DOES NOT VERIFY
+    │┄ ERROR: Missing META-INF/MANIFEST.MF
+    │ @@ -0,0 +1,26 @@
+    │ +Verifies
+    │ +Verified using v1 scheme (JAR signing): true
+    │ +Verified using v2 scheme (APK Signature Scheme v2): true
+    │ +Verified using v3 scheme (APK Signature Scheme v3): true
+    │ +Verified using v4 scheme (APK Signature Scheme v4): false
+    │ +Verified for SourceStamp: false
+    │ +Number of signers: 1
+    │ +Signer #1 certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+    │ +Signer #1 certificate SHA-256 digest: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
+    │ +Signer #1 certificate SHA-1 digest: e53a3c670276a98a47ad5de7b588ad36e160d182
+    │ +Signer #1 certificate MD5 digest: b4955ae64b72f3768668228abeb8310d
+    │ +Signer #1 key algorithm: RSA
+    │ +Signer #1 key size (bits): 4096
+    │ +Signer #1 public key SHA-256 digest: e0d296541fd6159503537ed083cfdd0c639a257c1069e2b48c0ac01fcf277f5b
+    │ +Signer #1 public key SHA-1 digest: 2c662c1f30b5a49f5b674d274101d17a16113412
+    │ +Signer #1 public key MD5 digest: f41b63d813a17f51256bee4f5ce89646
+    │ +Source Stamp Signer certificate DN: CN=Android, OU=Android, O=Google Inc., L=Mountain View, ST=California, C=US
+    │ +Source Stamp Signer certificate SHA-256 digest: 3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d
+    │ +Source Stamp Signer certificate SHA-1 digest: b1af3a0bf998aeede1a8716a539e5a59da1d86d6
+    │ +Source Stamp Signer certificate MD5 digest: 577b8a9fbc7e308321aec6411169d2fb
+    │ +Source Stamp Signer key algorithm: RSA
+    │ +Source Stamp Signer key size (bits): 4096
+    │ +Source Stamp Signer public key SHA-256 digest: 4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802
+    │ +Source Stamp Signer public key SHA-1 digest: 188b067a9ee881bde55dabe0f8f7ecb320b1a091
+    │ +Source Stamp Signer public key MD5 digest: 965afac83f033aa037a54482eb6922d5
+    │ +WARNING: SourceStamp: Unknown stamp attribute: ID 0xe43c5946
+    ├── zipinfo {}
+    │ @@ -1,45 +1,49 @@
+    │ -Zip file size: 38528 bytes, number of entries: 43
+    │ --rw-rw-rw-  0.0 unx      724 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+    │ --rw-rw-rw-  0.0 unx      620 b- defN 81-Jan-01 01:01 res/drawable-anydpi-v21/ic_plus_white_24dp.xml
+    │ --rw-rw-rw-  0.0 unx     2656 b- defN 81-Jan-01 01:01 res/drawable-anydpi-v24/fingerprint_dialog_error.xml
+    │ --rw-rw-rw-  0.0 unx      417 b- stor 81-Jan-01 01:01 res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      280 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      281 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+    │ --rw-rw-rw-  0.0 unx      432 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+    │ --rw-rw-rw-  0.0 unx      651 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+    │ --rw-rw-rw-  0.0 unx      785 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+    │ --rw-rw-rw-  0.0 unx     1526 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+    │ --rw-rw-rw-  0.0 unx     1731 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+    │ --rw-rw-rw-  0.0 unx      229 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      228 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+    │ --rw-rw-rw-  0.0 unx      167 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      244 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+    │ --rw-rw-rw-  0.0 unx      214 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+    │ --rw-rw-rw-  0.0 unx      209 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+    │ --rw-rw-rw-  0.0 unx      209 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+    │ --rw-rw-rw-  0.0 unx      236 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+    │ --rw-rw-rw-  0.0 unx      235 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+    │ --rw-rw-rw-  0.0 unx      966 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+    │ --rw-rw-rw-  0.0 unx     1544 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+    │ --rw-rw-rw-  0.0 unx      267 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+    │ --rw-rw-rw-  0.0 unx      267 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+    │ --rw-rw-rw-  0.0 unx      391 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+    │ --rw-rw-rw-  0.0 unx      208 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      198 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      448 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      618 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      194 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      335 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl.png
+    │ --rw-rw-rw-  0.0 unx      585 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl.png
+    │ --rw-rw-rw-  0.0 unx      318 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl.png
+    │ --rw-rw-rw-  0.0 unx      189 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      187 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      184 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      182 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+    │ --rw-rw-rw-  0.0 unx      221 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+    │ --rw-rw-rw-  0.0 unx      252 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+    │ --rw-rw-rw-  0.0 unx      221 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_normal.9.png
+    │ --rw-rw-rw-  0.0 unx      247 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+    │ --rw-rw-rw-  0.0 unx      138 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+    │ --rw-rw-rw-  0.0 unx    12496 b- stor 81-Jan-01 01:01 resources.arsc
+    │ -43 files, 32730 bytes uncompressed, 30377 bytes compressed:  7.2%
+    │ +Zip file size: 57910 bytes, number of entries: 47
+    │ +-rw-r--r--  0.0 unx      968 b- defN 81-Jan-01 01:01 AndroidManifest.xml
+    │ +-rw-r--r--  0.0 unx      620 b- defN 81-Jan-01 01:01 res/drawable-anydpi-v21/ic_plus_white_24dp.xml
+    │ +-rw-r--r--  0.0 unx     2656 b- defN 81-Jan-01 01:01 res/drawable-anydpi-v24/fingerprint_dialog_error.xml
+    │ +-rw-r--r--  0.0 unx      417 b- stor 81-Jan-01 01:01 res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      280 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      281 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+    │ +-rw-r--r--  0.0 unx      432 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+    │ +-rw-r--r--  0.0 unx      651 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+    │ +-rw-r--r--  0.0 unx      785 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+    │ +-rw-r--r--  0.0 unx     1526 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+    │ +-rw-r--r--  0.0 unx     1731 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+    │ +-rw-r--r--  0.0 unx      229 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      228 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+    │ +-rw-r--r--  0.0 unx      167 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      244 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+    │ +-rw-r--r--  0.0 unx      214 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+    │ +-rw-r--r--  0.0 unx      209 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+    │ +-rw-r--r--  0.0 unx      209 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+    │ +-rw-r--r--  0.0 unx      236 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+    │ +-rw-r--r--  0.0 unx      235 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+    │ +-rw-r--r--  0.0 unx      966 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+    │ +-rw-r--r--  0.0 unx     1544 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+    │ +-rw-r--r--  0.0 unx      267 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+    │ +-rw-r--r--  0.0 unx      267 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+    │ +-rw-r--r--  0.0 unx      391 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+    │ +-rw-r--r--  0.0 unx      208 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      198 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      448 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      618 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      194 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      335 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl.png
+    │ +-rw-r--r--  0.0 unx      585 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl.png
+    │ +-rw-r--r--  0.0 unx      318 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl.png
+    │ +-rw-r--r--  0.0 unx      189 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      187 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      184 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      182 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+    │ +-rw-r--r--  0.0 unx      221 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+    │ +-rw-r--r--  0.0 unx      252 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+    │ +-rw-r--r--  0.0 unx      221 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_normal.9.png
+    │ +-rw-r--r--  0.0 unx      247 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+    │ +-rw-r--r--  0.0 unx      138 b- stor 81-Jan-01 01:01 res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+    │ +-rw-r--r--  0.0 unx    12496 b- stor 81-Jan-01 01:01 resources.arsc
+    │ +-rw----     2.0 fat       32 b- defN 81-Jan-01 01:01 stamp-cert-sha256
+    │ +-rw----     2.0 fat     4897 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.SF
+    │ +-rw----     2.0 fat     2172 b- defN 81-Jan-01 01:01 META-INF/BNDLTOOL.RSA
+    │ +-rw----     2.0 fat     4789 b- defN 81-Jan-01 01:01 META-INF/MANIFEST.MF
+    │ +47 files, 44864 bytes uncompressed, 35667 bytes compressed:  20.5%
+    ├── AndroidManifest.xml (decoded)
+    │ ├── AndroidManifest.xml
+    │ │ @@ -1,4 +1,6 @@
+    │ │  <?xml version="1.0" encoding="utf-8"?>
+    │ │  <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50" package="app.michaelwuensch.bitbanana" split="config.xhdpi">
+    │ │ -  <application android:hasCode="false" android:extractNativeLibs="true"/>
+    │ │ +  <application android:hasCode="false" android:extractNativeLibs="true">
+    │ │ +    <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+    │ │ +  </application>
+    │ │  </manifest>
+    ├── APK metadata
+    │ @@ -4,15 +4,16 @@
+    │  - resources.arsc
+    │  - png
+    │  isFrameworkApk: false
+    │  packageInfo: null
+    │  sdkInfo: null
+    │  sharedLibrary: false
+    │  sparseResources: false
+    │ -unknownFiles: {}
+    │ +unknownFiles:
+    │ +  stamp-cert-sha256: '8'
+    │  usesFramework:
+    │    ids:
+    │    - 1
+    │    tag: null
+    │  version: 2.5.0-dirty
+    │  versionInfo:
+    │    versionCode: '50'
+    ```
+This is where the noted file differences were found for:
+    - Android Manifest.xml
+    - stamp-cert-sha256
+    - META-INF/BNDLTOOL.SF
+    - META-INF/MANIFEST.MF
+    
+3. Finally, we ran `$ diffoscope built/base-master.apk official/base.apk`
+
+Here, the output is over 231,000 lines. 
+
+### Notes
+
+We contacted the provider and shared some of our findings. He would try to retest it. 
+
+He requested that we try `$ diff --brief --recursive` on the unzipped apk-pairs. These were some of the results:
+
+For unzipped base.apk and base-master.apk
+
+    ```
+    $ diff --brief --recursive built/master official/master
+    Files built/master/AndroidManifest.xml and official/master/AndroidManifest.xml differ
+    Files built/master/classes2.dex and official/master/classes2.dex differ
+    Files built/master/classes3.dex and official/master/classes3.dex differ
+    Only in official/master: stamp-cert-sha256
+    ```
+For the unzipped `armeabi_v7a.apk` and `split_config.armeabi_v7a.apk`:
+
+    ```
+    $ diff --brief --recursive built/armeabi_v7a official/armeabi_v7a
+    Files built/armeabi_v7a/AndroidManifest.xml and official/armeabi_v7a/AndroidManifest.xml differ
+    Only in official/armeabi_v7a: META-INF
+    Only in official/armeabi_v7a: stamp-cert-sha256
+    ```
+For the unzipped `base-xhdpi.apk` and `split_config.xhdpi.apk`:
+
+    ```
+    $ diff --brief --recursive built/armeabi_v7a official/armeabi_v7a
+    Files built/armeabi_v7a/AndroidManifest.xml and official/armeabi_v7a/AndroidManifest.xml differ
+    Only in official/armeabi_v7a: META-INF
+    Only in official/armeabi_v7a: stamp-cert-sha256
+    ```
+
+A strict interpretation of the definition of reproducibility, `If we can reproduce the binary we downloaded from the public source code, with all bytes accounted for` would mean that this particular version is not reproducible. But considering there is a difference with the way Google Play bundles apps and signs them, I would defer to making a verdict until more experienced eyes have taken a look.
