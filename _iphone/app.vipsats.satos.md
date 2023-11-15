@@ -38,7 +38,7 @@ Apple's store has four reviews for this app, three of which are claiming that it
   ★☆☆☆☆ Habdej, 07/15/2023 <br>
        **Scam scam scam** <br>
        This is a scam wallet please don’t use it I just lost $2000 on it<br><br>
-       **Developer Response,**
+       **Developer Response,** <br>
        what a liar
 
 > <br>
@@ -50,7 +50,7 @@ Apple's store has four reviews for this app, three of which are claiming that it
   ★☆☆☆☆ Softtp, 08/03/2023<br>
        **SCAM!** <br>
        SCAM!! SCAM!!!<br><br>
-       **Developer Response,**
+       **Developer Response,** <br>
        definitely not
 
 {% include copyFromAndroid.html %}
