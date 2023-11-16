@@ -11,7 +11,7 @@ released: 2015-08-19
 updated: 2023-11-08
 version: 10.12.0
 stars: 3.9
-reviews: 1235
+reviews: 1234
 size: '260299776'
 website: https://www.huobi.com
 repository: 

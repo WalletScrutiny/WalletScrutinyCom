@@ -8,11 +8,11 @@ appId: com.crypto.multiwallet
 appCountry: 
 idd: 1442083982
 released: 2018-12-01
-updated: 2023-10-13
-version: 3.0.57
+updated: 2023-11-14
+version: 3.0.58
 stars: 4.1
-reviews: 854
-size: '171374592'
+reviews: 855
+size: '172943360'
 website: https://guarda.com/
 repository: 
 issue: 

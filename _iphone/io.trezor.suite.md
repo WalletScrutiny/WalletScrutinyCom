@@ -10,8 +10,8 @@ idd: '1631884497'
 released: 2023-05-14
 updated: 2023-09-20
 version: 23.9.1
-stars: 3.4
-reviews: 22
+stars: 3.3
+reviews: 23
 size: '40842240'
 website: https://trezor.io/
 repository: 

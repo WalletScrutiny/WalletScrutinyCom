@@ -8,20 +8,20 @@ users: 100000
 appId: com.barchart.app
 appCountry: 
 released: 2013-11-18
-updated: 2022-02-01
-version: 3.0.7
+updated: 2023-11-15
+version: 3.0.9
 stars: 4.6
 ratings: 9788
-reviews: 2168
+reviews: 2171
 size: 
 website: http://www.barchart.com/app
 repository: 
 issue: 
 icon: com.barchart.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-01-28
+date: 2023-11-16
 signer: 
 reviewArchive: 
 twitter: Barchart

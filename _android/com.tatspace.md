@@ -30,7 +30,7 @@ social:
 - https://t.me/tatspaceapp
 - https://www.instagram.com/tatspaceapp/
 redirect_from: 
-developerName: ABiT Network
+developerName: Own the Earth LLC
 features: 
 
 ---

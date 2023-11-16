@@ -4,7 +4,7 @@ title: Jeton Wallet
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.jeton.wallet
 appCountry: us
 released: 2018-12-27

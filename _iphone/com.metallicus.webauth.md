@@ -8,12 +8,12 @@ appId: com.metallicus.webauth
 appCountry: us
 idd: '1594500069'
 released: 2021-12-15
-updated: 2023-08-04
-version: 2.0.12
+updated: 2023-11-11
+version: '2.1'
 stars: 4.8
 reviews: 160
-size: '39254016'
-website: https://www.proton.org/
+size: '35018752'
+website: https://xprnetwork.org/
 repository: 
 issue: 
 icon: com.metallicus.webauth.jpg

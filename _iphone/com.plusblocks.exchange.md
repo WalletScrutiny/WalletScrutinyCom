@@ -7,8 +7,8 @@ appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
 released: 2021-05-12
-updated: 2023-11-01
-version: 1.6.7
+updated: 2023-11-16
+version: 1.6.8
 stars: 0
 reviews: 0
 size: '142189568'

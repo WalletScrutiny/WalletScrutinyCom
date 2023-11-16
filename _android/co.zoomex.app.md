@@ -8,8 +8,8 @@ users: 500000
 appId: co.zoomex.app
 appCountry: 
 released: 2021-12-14
-updated: 2023-11-04
-version: 3.4.3
+updated: 2023-11-11
+version: 3.4.4
 stars: 2.9
 ratings: 
 reviews: 13

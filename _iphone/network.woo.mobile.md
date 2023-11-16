@@ -11,7 +11,7 @@ released: 2021-09-17
 updated: 2023-11-07
 version: 3.14.0
 stars: 5
-reviews: 2
+reviews: 3
 size: '93114368'
 website: https://woo.org/
 repository: 

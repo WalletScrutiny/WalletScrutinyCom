@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/gHeHD4fAqK
 - https://www.instagram.com/pierwallet
 redirect_from: 
-developerName: NBK Labs AG
+developerName: pier creative
 features: 
 
 ---

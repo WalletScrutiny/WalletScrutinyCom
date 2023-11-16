@@ -8,11 +8,11 @@ appId: com.bitwala.app
 appCountry: gd
 idd: 1454003161
 released: 2019-05-11
-updated: 2023-10-16
-version: 3.0.4
+updated: 2023-11-15
+version: 3.0.5
 stars: 0
 reviews: 0
-size: '62673920'
+size: '63030272'
 website: https://www.bitwala.com
 repository: 
 issue: 

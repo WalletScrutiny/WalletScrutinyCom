@@ -8,8 +8,8 @@ users: 10000
 appId: com.vowcurrency.vow
 appCountry: 
 released: 2021-07-20
-updated: 2023-08-01
-version: 10.3.0
+updated: 2023-11-09
+version: 10.3.4
 stars: 
 ratings: 
 reviews: 

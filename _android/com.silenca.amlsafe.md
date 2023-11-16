@@ -8,9 +8,9 @@ users: 100000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2023-11-06
-version: '2.8'
-stars: 4.3
+updated: 2023-11-14
+version: '2.9'
+stars: 4.4
 ratings: 
 reviews: 1
 size: 

@@ -8,10 +8,10 @@ appId: exodus-movement.exodus
 appCountry: 
 idd: 1414384820
 released: 2019-03-23
-updated: 2023-11-06
-version: 23.11.7
+updated: 2023-11-15
+version: 23.11.15
 stars: 4.6
-reviews: 19743
+reviews: 19859
 size: '77139968'
 website: https://exodus.com/mobile
 repository: 

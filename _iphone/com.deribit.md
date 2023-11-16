@@ -10,8 +10,8 @@ idd: '1293674041'
 released: 2017-11-17
 updated: 2023-10-27
 version: 3.6.0
-stars: 4.8
-reviews: 6
+stars: 4.9
+reviews: 9
 size: '35704832'
 website: http://www.deribit.com
 repository: 

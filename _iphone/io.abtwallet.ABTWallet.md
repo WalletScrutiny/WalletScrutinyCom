@@ -8,11 +8,11 @@ appId: io.abtwallet.ABTWallet
 appCountry: us
 idd: '1460083542'
 released: 2019-05-19
-updated: 2023-10-15
-version: 4.14.32
+updated: 2023-11-09
+version: 4.15.0
 stars: 4.8
 reviews: 38
-size: '114896896'
+size: '115179520'
 website: https://www.didwallet.io
 repository: 
 issue: 

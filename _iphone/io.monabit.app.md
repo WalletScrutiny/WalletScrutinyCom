@@ -8,11 +8,11 @@ appId: io.monabit.app
 appCountry: kw
 idd: '1597870529'
 released: 2021-12-27
-updated: 2023-08-16
-version: '3.7'
+updated: 2023-11-11
+version: '3.8'
 stars: 0
 reviews: 0
-size: '108042240'
+size: '108908544'
 website: 
 repository: 
 issue: 

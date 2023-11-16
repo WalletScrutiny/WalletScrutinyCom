@@ -12,7 +12,7 @@ updated: 2023-10-05
 version: 1.1.8
 stars: 4.4
 ratings: 
-reviews: 18
+reviews: 17
 size: 
 website: https://www.8v.com
 repository: 

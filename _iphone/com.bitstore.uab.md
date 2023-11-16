@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitstore.uab.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-23
+date: 2023-11-16
 signer: 
 reviewArchive: 
 twitter: www_bit_store

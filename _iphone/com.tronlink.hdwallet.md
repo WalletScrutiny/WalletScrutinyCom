@@ -8,11 +8,11 @@ appId: com.tronlink.hdwallet
 appCountry: us
 idd: '1453530188'
 released: 2019-03-02
-updated: 2023-10-20
-version: 4.13.12
+updated: 2023-11-10
+version: 4.13.13
 stars: 4
-reviews: 1059
-size: '185192448'
+reviews: 1063
+size: '178290688'
 website: https://www.tronlink.org
 repository: 
 issue: 

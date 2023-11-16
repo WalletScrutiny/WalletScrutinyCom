@@ -10,8 +10,8 @@ idd: '1566499416'
 released: 2021-10-18
 updated: 2023-10-30
 version: 4.0.0
-stars: 3.8
-reviews: 80
+stars: 3.9
+reviews: 81
 size: '61748224'
 website: https://www.independentreserve.com/
 repository: 

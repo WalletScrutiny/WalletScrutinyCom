@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-24
 updated: 2023-09-16
 version: '9.11'
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 451
+reviews: 453
 size: 
 website: http://www.hodlfinance.com
 repository: 

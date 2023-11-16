@@ -3,12 +3,12 @@ wsId:
 title: Tarmex
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.tarmex.tarmex
 appCountry: 
 released: 2022-12-22
-updated: 2022-12-22
-version: '1.0'
+updated: 2023-11-09
+version: '1.1'
 stars: 
 ratings: 
 reviews: 

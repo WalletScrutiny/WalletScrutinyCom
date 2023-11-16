@@ -12,7 +12,7 @@ updated: 2023-10-30
 version: 5.25.2
 stars: 3.5
 ratings: 756
-reviews: 784
+reviews: 783
 size: 
 website: https://dcentwallet.com/
 repository: 

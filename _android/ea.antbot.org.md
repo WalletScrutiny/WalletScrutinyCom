@@ -4,7 +4,7 @@ title: AntBot-Binance OKX Bybit Bot
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: ea.antbot.org
 appCountry: 
 released: 2021-09-29

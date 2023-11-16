@@ -1,6 +1,6 @@
 ---
 wsId: Nuri
-title: Bitwala Bitcoin & Ether Wallet
+title: Bitwala - Buy Bitcoin & Ether
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2023-10-16
-version: 3.0.4
+updated: 2023-11-15
+version: 3.0.6
 stars: 3.5
 ratings: 4416
 reviews: 3566

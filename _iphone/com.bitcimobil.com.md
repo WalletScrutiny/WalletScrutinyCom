@@ -8,11 +8,11 @@ appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
 released: 2019-04-17
-updated: 2023-11-03
-version: 5.0.3
+updated: 2023-11-09
+version: 5.0.4
 stars: 4.2
 reviews: 1775
-size: '147351552'
+size: '147466240'
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

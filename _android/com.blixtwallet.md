@@ -9,7 +9,7 @@ users: 1000
 appId: com.blixtwallet
 appCountry: 
 released: 
-updated: 2023-06-27
+updated: 2023-11-11
 version: VARY
 stars: 
 ratings: 

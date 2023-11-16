@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.exchange.lemon.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-16
 signer: 
 reviewArchive: 
 twitter: 

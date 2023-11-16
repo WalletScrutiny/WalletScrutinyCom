@@ -10,8 +10,8 @@ idd: '1668333995'
 released: 2023-03-29
 updated: 2023-11-02
 version: 1.7.0
-stars: 3.8
-reviews: 30
+stars: 3.6
+reviews: 32
 size: '51964928'
 website: https://noone.io
 repository: 

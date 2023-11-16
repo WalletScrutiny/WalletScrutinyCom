@@ -4,7 +4,7 @@ title: Crypto Exchange - Buy & Sell
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23

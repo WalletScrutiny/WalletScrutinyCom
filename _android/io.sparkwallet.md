@@ -8,8 +8,8 @@ users: 1000
 appId: io.sparkwallet
 appCountry: 
 released: 2022-02-09
-updated: 2023-08-29
-version: '3.1'
+updated: 2023-11-09
+version: '3.2'
 stars: 4.3
 ratings: 
 reviews: 3
