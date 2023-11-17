@@ -19,8 +19,8 @@ issue:
 icon: com.lanistar.lanistarprod.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-07-10
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: iamlanistar

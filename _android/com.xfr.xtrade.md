@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: xfrXTrade
 title: Xtrade - Online Trading
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000000
 appId: com.xfr.xtrade
 appCountry: 

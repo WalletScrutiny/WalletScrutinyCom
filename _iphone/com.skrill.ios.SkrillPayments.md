@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: skrill
 title: Skrill - Pay & Send Money
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.skrill.ios.SkrillPayments
 appCountry: gb
 idd: '718248239'
@@ -18,14 +19,17 @@ issue:
 icon: com.skrill.ios.SkrillPayments.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-09
+verdict: nosendreceive
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: skrill
+social:
+- https://www.facebook.com/Skrillpayments
+- https://www.instagram.com/skrill 
 features: 
 developerName: Skrill Ltd.
 
 ---
 
+{% include copyFromAndroid.html %}

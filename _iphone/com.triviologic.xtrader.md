@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: xfrXTrade
 title: Xtrade - Online Trading
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.triviologic.xtrader
 appCountry: cl
 idd: 864027750
@@ -18,14 +19,17 @@ issue:
 icon: com.triviologic.xtrader.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-08-19
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: XTrade
+social:
+- https://www.linkedin.com/company/xtrade
+- https://www.facebook.com/XTrade 
 features: 
 developerName: XTRADE EUROPE LTD
 
 ---
 
+{% include copyFromAndroid.html %}
