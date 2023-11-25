@@ -3,7 +3,7 @@ wsId:
 title: Dream Digital
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.ubsdreamdigital
 appCountry: 
 released: 2021-02-17

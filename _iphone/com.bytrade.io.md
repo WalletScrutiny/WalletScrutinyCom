@@ -10,8 +10,8 @@ idd: '6444903691'
 released: 2022-12-07
 updated: 2023-09-28
 version: '2.4'
-stars: 3.5
-reviews: 17
+stars: 3.4
+reviews: 18
 size: '66368512'
 website: https://www.bytrade.io
 repository: 

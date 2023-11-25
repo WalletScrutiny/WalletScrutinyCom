@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.reyesfields.wgxqwnizbv.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

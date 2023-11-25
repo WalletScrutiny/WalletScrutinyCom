@@ -12,7 +12,7 @@ updated: 2023-08-22
 version: 1.2.82.10280
 stars: 4.3
 ratings: 438
-reviews: 240
+reviews: 242
 size: 
 website: https://coincircle.com
 repository: 

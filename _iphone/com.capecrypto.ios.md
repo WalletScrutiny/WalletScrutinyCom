@@ -8,8 +8,8 @@ appId: com.capecrypto.ios
 appCountry: za
 idd: '1588237941'
 released: 2021-10-18
-updated: 2023-10-09
-version: 2.4.3
+updated: 2023-11-13
+version: 2.4.5
 stars: 5
 reviews: 4
 size: '125749248'

@@ -8,8 +8,8 @@ users: 10000
 appId: com.xgo.wallet
 appCountry: 
 released: 
-updated: 2023-11-01
-version: 1.11.1
+updated: 2023-11-16
+version: 1.12.1
 stars: 
 ratings: 
 reviews: 

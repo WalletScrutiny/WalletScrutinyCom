@@ -8,11 +8,11 @@ appId: digital.yucca.gmt
 appCountry: us
 idd: '1622100275'
 released: 2022-10-21
-updated: 2023-11-01
-version: '2.061'
-stars: 3.3
-reviews: 7
-size: '4331520'
+updated: 2023-11-23
+version: 3.0.0
+stars: 3.8
+reviews: 10
+size: '6237184'
 website: https://gomining.com/
 repository: 
 issue: 

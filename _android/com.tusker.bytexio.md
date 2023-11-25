@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tusker.bytexio.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-07
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: bytex_io

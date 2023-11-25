@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-14
 updated: 2022-05-20
 version: 1.0.20
-stars: 4.8
+stars: 4.7
 ratings: 849
-reviews: 55
+reviews: 56
 size: 
 website: https://nodawallet.com
 repository: https://github.com/nodawallet/NodaWallet-Android

@@ -4,7 +4,7 @@ title: KrakAPI
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: net.oblade.krakapi
 appCountry: 
 released: 2019-08-09

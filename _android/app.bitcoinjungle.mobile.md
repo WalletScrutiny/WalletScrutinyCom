@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-05
 updated: 2023-10-21
 version: 1.2.4
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://bitcoinjungle.app
 repository: 

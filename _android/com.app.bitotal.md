@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bitotal.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

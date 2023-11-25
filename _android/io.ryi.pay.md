@@ -11,7 +11,7 @@ updated: 2022-06-14
 version: 1.0.8
 stars: 4.6
 ratings: 
-reviews: 9
+reviews: 7
 size: 
 website: https://ryipay.app
 repository: 

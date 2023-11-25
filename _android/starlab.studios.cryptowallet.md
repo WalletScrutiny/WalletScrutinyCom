@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallets: BTC, USDT, ETH'
+title: Crypto Wallets AI Chat
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Starlab Studios
+developerName: Starlab Studios AI Chatbot
 features: 
 
 ---

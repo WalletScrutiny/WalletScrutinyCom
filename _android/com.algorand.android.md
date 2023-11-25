@@ -7,11 +7,11 @@ users: 100000
 appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
-updated: 2023-09-28
+updated: 2023-11-20
 version: 5.9.4
 stars: 4.6
 ratings: 14091
-reviews: 1158
+reviews: 1159
 size: 
 website: https://perawallet.app
 repository: 

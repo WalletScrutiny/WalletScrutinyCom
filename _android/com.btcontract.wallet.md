@@ -26,7 +26,7 @@ date: 2023-11-09
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
 - date: 2023-10-07
-  version: "2.5.4"
+  version: 2.5.4
   appHash: bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
   gitRevision: 55c2cb89d543d8196128e02299145e804744698c
   verdict: reproducible

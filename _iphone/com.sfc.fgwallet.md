@@ -8,10 +8,10 @@ appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
 released: 2018-02-27
-updated: 2023-10-12
-version: 3.7.7
+updated: 2023-11-14
+version: 3.7.8
 stars: 5
-reviews: 1
+reviews: 2
 size: '34809856'
 website: https://srsfc.com/
 repository: 

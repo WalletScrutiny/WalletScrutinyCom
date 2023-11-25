@@ -12,7 +12,7 @@ updated: 2023-10-27
 version: 4.0.0.0
 stars: 4.9
 ratings: 474
-reviews: 19
+reviews: 18
 size: 
 website: http://exchange.cryptex.net/
 repository: 

@@ -8,11 +8,11 @@ appId: com.gluwa.app
 appCountry: us
 idd: '1021292326'
 released: 2015-08-18
-updated: 2023-09-27
-version: 8.4.0
+updated: 2023-11-23
+version: 8.5.0
 stars: 4.3
 reviews: 6
-size: '70994944'
+size: '71074816'
 website: https://www.gluwa.com
 repository: 
 issue: 

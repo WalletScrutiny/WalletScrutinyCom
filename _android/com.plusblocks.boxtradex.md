@@ -8,8 +8,8 @@ users: 10000
 appId: com.plusblocks.boxtradex
 appCountry: 
 released: 2021-05-04
-updated: 2023-11-03
-version: 1.6.7
+updated: 2023-11-16
+version: 1.7.0
 stars: 4.5
 ratings: 
 reviews: 6

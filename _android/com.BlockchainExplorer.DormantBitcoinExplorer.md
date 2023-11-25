@@ -4,7 +4,7 @@ title: Dormant Bitcoin Explorer
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.BlockchainExplorer.DormantBitcoinExplorer
 appCountry: 
 released: 2023-01-03
