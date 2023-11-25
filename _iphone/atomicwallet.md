@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: atomicwallet.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: obfuscated
-date: 2022-01-02
+date: 2023-11-22
 signer: 
 reviewArchive: 
 twitter: atomicwallet
