@@ -1,5 +1,5 @@
 ---
-wsId: coinsPaidWallet
+wsId: coinspaidWallet
 title: 'CoinsPaid: crypto & BTC wallet'
 altTitle: 
 authors:
