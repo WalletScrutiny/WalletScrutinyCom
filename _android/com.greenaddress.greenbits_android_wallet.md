@@ -25,7 +25,7 @@ date: 2023-11-25
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2023-04-27
-  version: "4.0.1"
+  version: 4.0.1
   appHash: 70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
   gitRevision: c802fff9e6ed27a7234c463edd5eae8ffe065b4a
   verdict: nonverifiable

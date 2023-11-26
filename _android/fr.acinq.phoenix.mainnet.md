@@ -25,7 +25,7 @@ date: 2023-11-25
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2023-11-02
-  version: "2.0.11"
+  version: 2.0.11
   appHash: e690d64eb7ad2b59af85f048b33433765bb3fc6545420c4351400ccfb7ceaf8b
   gitRevision: 0fc7ad279838629b36467d6a1546fd7a25ed5ae6
   verdict: nonverifiable
