@@ -20,10 +20,15 @@ issue: https://github.com/Blockstream/green_android/issues/169
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-04-27
+verdict: nosource
+date: 2023-11-25
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2023-04-27
+  version: "4.0.1"
+  appHash: 70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
+  gitRevision: c802fff9e6ed27a7234c463edd5eae8ffe065b4a
+  verdict: nonverifiable
 - date: 2022-11-01
   version: 3.8.9
   appHash: c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
@@ -206,29 +211,22 @@ features:
 With this {% include testScript.html %} we get:
 
 ```
-===== Begin Results =====
-appId:          com.greenaddress.greenbits_android_wallet
-signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.1
-apkVersionCode: 22000401
-verdict:        nonverifiable
-appHash:        70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
-commit:         c6738c5565f1c594288b7a05130fc1af89fc7561
-
-Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: MANIFEST.MF
-
-Revision, tag (and its signature):
-object c6738c5565f1c594288b7a05130fc1af89fc7561
-type commit
-tag release_4.0.1
-tagger Domenico Gabriele <domenico@blockstream.com> 1681853805 +0200
-
-Release 4.0.1
-===== End Results =====
+...
++ git clone --quiet --branch release_4.0.20 --depth 1 https://github.com/Blockstream/green_android/ app
+warning: Could not find remote branch release_4.0.20 to clone.
+fatal: Remote branch release_4.0.20 not found in upstream origin
++ exit 1
 ```
 
-The diff for this version shows some differences in `baseline.profm` which is a binary file and we cannot verify reproducibility of this version, So we give it the verdict **nonverifiable**.
+In the best case the provider forgot to tag the released source code and we can
+just compile the latest version and confirm its reproducibility but in this
+case, the source code is missing. Checking
+[recent commits](https://github.com/Blockstream/green_android/commits/master)
+we see
+[Increment to version 4.0.19](https://github.com/Blockstream/green_android/commit/5839c9b7cd28eec6c5992715df28adf33de0822a)
+as the last commit and it's not a typo. This commit sets the version to 4.0.19
+and the file we got from Google Play was 4.0.20. This version is
+**not verifiable**!
+
+For the record, the file we have here has the sha256 hash
+`12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee`.
