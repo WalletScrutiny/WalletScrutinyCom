@@ -21,9 +21,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-11-02
+date: 2023-11-25
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2023-11-02
+  version: "10.06"
+  appHash: c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc
+  gitRevision: dd481e4d2c0585cb6d92dc3ec9b6de646973d11f
+  verdict: reproducible
 - date: 2023-04-26
   version: '10.03'
   appHash: 66ebf8572371ad5f2567108b555f5f01e657e5d6bf4cd55624d43b3c319ac65f
@@ -187,47 +192,24 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.06
-apkVersionCode: 100600
+apkVersionName: 10.09
+apkVersionCode: 100900
 verdict:        reproducible
-appHash:        c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc
-commit:         12491cefdab2b6e8343d9205048bcfdffca76687
+appHash:        5d35e51533edf9ac668f4b008bc763a497fb3e342e57867bf4e8a1a98e1fb217
+commit:         9db0d71e72c042069c0ed7a6b556ff7be7e2aa7c
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_100600/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100600/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_100900/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_100900/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_100900/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100900/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 12491cefdab2b6e8343d9205048bcfdffca76687
+object 9db0d71e72c042069c0ed7a6b556ff7be7e2aa7c
 type commit
-tag v10.06
-tagger Andreas Schildbach <andreas@schildbach.de> 1693829519 +0200
+tag v10.09
+tagger Andreas Schildbach <andreas@schildbach.de> 1700149321 +0100
 
-10.06 release
-===== End Results =====
-
-===== Begin Results =====
-appId:          de.schildbach.wallet
-signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.06
-apkVersionCode: 100600
-verdict:        reproducible
-appHash:        5b7565dadff5016db49a11f38ff735e5b9fa2cb7dfd90cd2f5d106d1d54209db
-commit:         12491cefdab2b6e8343d9205048bcfdffca76687
-
-Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_100600/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_100600/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100600/META-INF/MANIFEST.MF differ
-
-Revision, tag (and its signature):
-object 12491cefdab2b6e8343d9205048bcfdffca76687
-type commit
-tag v10.06
-tagger Andreas Schildbach <andreas@schildbach.de> 1693829519 +0200
-
-10.06 release
+10.09 release
 ===== End Results =====
 ```
 
