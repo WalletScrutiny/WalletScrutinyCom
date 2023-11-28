@@ -127,3 +127,13 @@ Revision, tag (and its signature):
 ```
 
 The app is **reproducible**.
+
+Here is a little experiment: The reproducible build was recorded as an
+"asciicast".
+
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="demo"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create('/assets/casts/com.btcontract.wallet_255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05.cast', document.getElementById('demo'));
+</script>

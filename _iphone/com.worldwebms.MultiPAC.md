@@ -8,11 +8,11 @@ appId: com.worldwebms.MultiPAC
 appCountry: us
 idd: '1444261005'
 released: 2018-11-27
-updated: 2023-10-12
-version: 4.3.0
+updated: 2023-11-20
+version: 4.4.0
 stars: 4.9
 reviews: 9
-size: '35668992'
+size: '35689472'
 website: https://www.unido.us
 repository: 
 issue: 

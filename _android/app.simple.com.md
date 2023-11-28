@@ -1,6 +1,6 @@
 ---
 wsId: simpleCrypto
-title: 'Simple crypto: Buy BTC, ETH'
+title: 'Simple: Buy Сrypto BTC, USDT'
 altTitle: 
 authors:
 - danny

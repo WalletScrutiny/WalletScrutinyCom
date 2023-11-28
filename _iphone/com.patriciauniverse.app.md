@@ -8,11 +8,11 @@ appId: com.patriciauniverse.app
 appCountry: us
 idd: '1609772820'
 released: 2023-04-19
-updated: 2023-05-03
-version: 1.1.1
-stars: 1.5
-reviews: 100
-size: '33370112'
+updated: 2023-11-21
+version: '1.2'
+stars: 1.6
+reviews: 109
+size: '34293760'
 website: 
 repository: 
 issue: 

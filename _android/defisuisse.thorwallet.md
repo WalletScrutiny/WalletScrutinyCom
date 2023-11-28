@@ -8,7 +8,7 @@ users: 10000
 appId: defisuisse.thorwallet
 appCountry: 
 released: 2021-12-23
-updated: 2023-11-06
+updated: 2023-11-17
 version: 2.1.3
 stars: 4.2
 ratings: 

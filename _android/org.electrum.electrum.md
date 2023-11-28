@@ -11,9 +11,9 @@ appCountry:
 released: 2016-03-02
 updated: 2023-08-21
 version: 4.4.6.0
-stars: 3.7
+stars: 3.8
 ratings: 2500
-reviews: 315
+reviews: 318
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum

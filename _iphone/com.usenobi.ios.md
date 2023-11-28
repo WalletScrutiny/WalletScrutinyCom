@@ -11,7 +11,7 @@ released: 2020-07-15
 updated: 2023-10-19
 version: 3.6.3
 stars: 4.8
-reviews: 75
+reviews: 76
 size: '55071744'
 website: https://usenobi.com
 repository: 

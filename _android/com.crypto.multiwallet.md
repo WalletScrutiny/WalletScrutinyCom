@@ -8,11 +8,11 @@ users: 100000
 appId: com.crypto.multiwallet
 appCountry: 
 released: 2018-11-01
-updated: 2023-10-11
-version: 3.0.57
-stars: 3.5
+updated: 2023-11-13
+version: 3.0.58
+stars: 3.4
 ratings: 3831
-reviews: 514
+reviews: 518
 size: 
 website: https://guarda.com
 repository: 

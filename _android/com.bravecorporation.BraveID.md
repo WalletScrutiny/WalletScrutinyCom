@@ -11,7 +11,7 @@ updated: 2023-09-13
 version: 1.0.18
 stars: 4.9
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.bravepay.net/
 repository: 

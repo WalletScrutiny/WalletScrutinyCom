@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-12
 updated: 2023-10-24
 version: 0.73.7
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/gHeHD4fAqK
 - https://www.instagram.com/pierwallet
 redirect_from: 
-developerName: NBK Labs AG
+developerName: pier creative
 features: 
 
 ---

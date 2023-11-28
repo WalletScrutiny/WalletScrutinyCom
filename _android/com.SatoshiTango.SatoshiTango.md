@@ -12,7 +12,7 @@ updated: 2023-11-06
 version: 4.6.10
 stars: 3.8
 ratings: 5466
-reviews: 41
+reviews: 40
 size: 
 website: http://www.satoshitango.com
 repository: 

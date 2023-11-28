@@ -8,8 +8,8 @@ users: 10000
 appId: com.independentreserve.mobileapp
 appCountry: 
 released: 2021-10-18
-updated: 2023-10-30
-version: 4.0.0
+updated: 2023-11-16
+version: 4.0.2
 stars: 
 ratings: 
 reviews: 

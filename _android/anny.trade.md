@@ -3,11 +3,11 @@ wsId:
 title: Anny.trade
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: anny.trade
 appCountry: 
 released: 2022-11-01
-updated: 2023-10-30
+updated: 2023-11-14
 version: 1.4.1
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: anny.trade.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

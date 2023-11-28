@@ -20,9 +20,9 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.wallet.btc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fake
-date: 2021-07-26
+date: 2023-11-25
 signer: 
 reviewArchive:
 - date: 2021-06-04

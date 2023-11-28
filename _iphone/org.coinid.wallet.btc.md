@@ -11,17 +11,17 @@ idd: 1370200585
 released: 2018-10-10
 updated: 2022-11-19
 version: 1.8.2
-stars: 3.5
-reviews: 22
+stars: 3.4
+reviews: 21
 size: '15645696'
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: ftbfs
-date: 2021-06-25
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

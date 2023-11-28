@@ -4,7 +4,7 @@ title: Coinomo - Gateway to Crypto
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.cappuu
 appCountry: 
 released: 2020-12-04

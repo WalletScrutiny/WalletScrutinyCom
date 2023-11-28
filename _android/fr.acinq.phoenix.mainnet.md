@@ -20,10 +20,15 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-11-02
+verdict: ftbfs
+date: 2023-11-25
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2023-11-02
+  version: 2.0.11
+  appHash: e690d64eb7ad2b59af85f048b33433765bb3fc6545420c4351400ccfb7ceaf8b
+  gitRevision: 0fc7ad279838629b36467d6a1546fd7a25ed5ae6
+  verdict: nonverifiable
 - date: 2023-04-15
   version: 1.4.26
   appHash: 512bf20aa99e781726b55d1e508ef58c390fa24692c93d6299a82b8ccd24a8b8
@@ -65,7 +70,81 @@ features:
 
 ---
 
-**Update 2023-11-02**: The latest release on Google Play is 2.11.0 and thus
+**Update 2023-11-25**: The latest release is 2.0.12. We tried to run our test
+script again but ran into this issue:
+
+```
+$ ./test.sh --apk path/to/Phoenix\ 2.0.12\ \(fr.acinq.phoenix.mainnet\).apk
+...
+[2/2] STEP 1/22: FROM ubuntu:22.10
+Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/shortnames.conf)
+Trying to pull docker.io/library/ubuntu:22.10...
+Getting image source signatures
+Copying blob 3ad6ea492c35 done  
+Copying config 692eb4a905 done  
+Writing manifest to image destination
+Storing signatures
+[2/2] STEP 2/22: ENV LC_ALL en_US.UTF-8
+--> bc39600b8c1
+[2/2] STEP 3/22: ENV LANG en_US.UTF-8
+--> 6eb999f9d95
+[2/2] STEP 4/22: ENV LANGUAGE en_US:en
+--> de45038f8d7
+[2/2] STEP 5/22: ENV ANDROID_CMDLINETOOLS_FILE commandlinetools-linux-8092744_latest.zip
+--> 61311a8a6c0
+[2/2] STEP 6/22: ENV ANDROID_CMDLINETOOLS_URL https://dl.google.com/android/repository/${ANDROID_CMDLINETOOLS_FILE}
+--> 7e42a358a0d
+[2/2] STEP 7/22: ENV ANDROID_API_LEVELS android-30
+--> b53607fda19
+[2/2] STEP 8/22: ENV ANDROID_BUILD_TOOLS_VERSION 30.0.2
+--> 2dce916bb07
+[2/2] STEP 9/22: ENV ANDROID_NDK_VERSION 23.1.7779620
+--> 04d164db78f
+[2/2] STEP 10/22: ENV CMAKE_VERSION 3.18.1
+--> de93336c8a4
+[2/2] STEP 11/22: ENV ANDROID_HOME /usr/local/android-sdk
+--> 78503f08a43
+[2/2] STEP 12/22: ENV PATH ${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
+--> 85bc8acd516
+[2/2] STEP 13/22: ENV JAVA_OPTS "-Dprofile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8 -Dfile.encoding=UTF-8"
+--> 2838c3762d9
+[2/2] STEP 14/22: RUN apt-get update -y &&     apt-get install -y software-properties-common locales &&     apt-get update -y &&     locale-gen en_US.UTF-8 &&     apt-get install -y openjdk-11-jdk wget git unzip dos2unix
+Ign:1 http://security.ubuntu.com/ubuntu kinetic-security InRelease
+Ign:2 http://archive.ubuntu.com/ubuntu kinetic InRelease
+Err:3 http://security.ubuntu.com/ubuntu kinetic-security Release
+  404  Not Found [IP: 91.189.91.83 80]
+Ign:4 http://archive.ubuntu.com/ubuntu kinetic-updates InRelease
+Ign:5 http://archive.ubuntu.com/ubuntu kinetic-backports InRelease
+Err:6 http://archive.ubuntu.com/ubuntu kinetic Release
+  404  Not Found [IP: 185.125.190.39 80]
+Err:7 http://archive.ubuntu.com/ubuntu kinetic-updates Release
+  404  Not Found [IP: 185.125.190.39 80]
+Err:8 http://archive.ubuntu.com/ubuntu kinetic-backports Release
+  404  Not Found [IP: 185.125.190.39 80]
+Reading package lists...
+E: The repository 'http://security.ubuntu.com/ubuntu kinetic-security Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic-updates Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic-backports Release' does not have a Release file.
+Error: building at STEP "RUN apt-get update -y &&     apt-get install -y software-properties-common locales &&     apt-get update -y &&     locale-gen en_US.UTF-8 &&     apt-get install -y openjdk-11-jdk wget git unzip dos2unix": while running runtime: exit status 100
+```
+
+so the script fails because ubuntu:22.10 is not available anymore. It's not a
+long-term support version like 22.04 so we tried patching the Dockerfile but now
+we run into a different problem:
+
+```
+[2/2] STEP 16/22: RUN echo y | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "cmake;${CMAKE_VERSION}" "ndk;${ANDROID_NDK_VERSION}" "patcher;v4" "platforms;${ANDROID_API_LEVELS}"
+Warning: Failed to find package 'patcher;v4'                                    
+Error: building at STEP "RUN echo y | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "cmake;${CMAKE_VERSION}" "ndk;${ANDROID_NDK_VERSION}" "patcher;v4" "platforms;${ANDROID_API_LEVELS}"": while running runtime: exit status 1
+```
+
+This same error occurs when using ubuntu:23.04.
+
+We filed [this issue](https://github.com/ACINQ/phoenix/issues/475) with the
+provider. The product is **not verifiable** for now.
+
+**Update 2023-11-02**: The latest release on Google Play is 2.0.11 and thus
 something completely new. The provider wrote about migration from the "legacy"
 1.* versions. And with the versioning, the build instructions appear to have
 changed, too as our build script errors out. Sadly the Build Instructions on

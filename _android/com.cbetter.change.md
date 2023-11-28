@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cbetter.change.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

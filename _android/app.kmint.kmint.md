@@ -8,8 +8,8 @@ users: 10000
 appId: app.kmint.kmint
 appCountry: 
 released: 2022-03-03
-updated: 2023-07-20
-version: 1.0.28
+updated: 2023-11-13
+version: 1.0.30
 stars: 3.8
 ratings: 
 reviews: 3
