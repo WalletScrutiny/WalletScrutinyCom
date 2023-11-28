@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.nthkey.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2022-12-17
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: 

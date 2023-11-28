@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.fcce.zaifapps.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-21
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: zaifdotjp

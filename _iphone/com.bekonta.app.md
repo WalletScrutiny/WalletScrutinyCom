@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bekonta.app.jpg
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: custodial
-date: 2023-09-06
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coincorner.app.crypt.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-05-02
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: CoinCorner
