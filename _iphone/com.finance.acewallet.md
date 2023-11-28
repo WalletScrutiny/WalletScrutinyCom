@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.finance.acewallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-22
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: DAAFinance

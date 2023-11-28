@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cointr.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-08-19
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: CoinTRTurkiye

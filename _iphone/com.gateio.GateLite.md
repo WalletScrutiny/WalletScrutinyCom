@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gateio.GateLite.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-19
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: gate_io

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.LYOPAY.LYOPAY.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-10-01
+date: 2023-11-28
 signer: 
 reviewArchive: 
 twitter: lyopayofficial
