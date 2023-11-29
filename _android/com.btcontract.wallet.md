@@ -28,7 +28,7 @@ reviewArchive:
 - date: 2023-10-07
   version: 2.5.4
   appHash: bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
-  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
+  gitRevision: e3739160c9fcb83303d40d5ae888ec1d728567ee
   verdict: reproducible
 - date: 2023-08-27
   version: 2.4.27
@@ -135,5 +135,5 @@ Here is a little experiment: The reproducible build was recorded as an
 <div id="demo"></div>
 <script src="/assets/js/asciinema-player.min.js"></script>
 <script>
-  AsciinemaPlayer.create('/assets/casts/com.btcontract.wallet_255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05.cast', document.getElementById('demo'));
+  AsciinemaPlayer.create('/assets/casts/android/com.btcontract.wallet_255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05.cast', document.getElementById('demo'));
 </script>
