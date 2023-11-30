@@ -9,7 +9,7 @@ test() {
       cd /mnt;
       apt update;
       DEBIAN_FRONTEND=noninteractive apt install -y curl jq openjdk-17-jdk;
-      yes | /opt/android-sdk/tools/bin/sdkmanager \"build-tools;33.0.1\";
+      yes | /opt/android-sdk/tools/bin/sdkmanager \"build-tools;34.0.0\";
       ./gradlew -x test clean assembleProductionGoogleRelease;
       $takeUserActionCommand"
 }
