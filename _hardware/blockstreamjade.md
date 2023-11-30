@@ -37,7 +37,7 @@ reviewArchive:
   verdict: reproducible
 - date: 2023-11-07
   version: 1.0.24
-  appHash: 20d1ab2b5afba78e6db6be9595dba366432e4f87ed0e6347be5a24082e96e2f6
+  appHash: 
   gitRevision: d95ae2fe9c4fd50ffb947bdbed402de736ad7568
   verdict: reproducible
 - date: 2023-10-11
