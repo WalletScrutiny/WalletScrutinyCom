@@ -12,7 +12,7 @@ updated: 2023-09-19
 version: 1.1.96
 stars: 3.9
 ratings: 102
-reviews: 4
+reviews: 3
 size: 
 website: https://pro.buycoins.africa
 repository: 

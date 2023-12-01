@@ -10,7 +10,7 @@ appCountry: dk
 released: 2017-05-17
 updated: 2023-10-05
 version: 1.0.49
-stars: 4.3
+stars: 4.2
 ratings: 2217
 reviews: 1871
 size: 

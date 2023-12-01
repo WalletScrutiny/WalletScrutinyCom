@@ -8,8 +8,8 @@ appId: io.getamber.app
 appCountry: us
 idd: '1410639317'
 released: 2021-06-21
-updated: 2023-11-22
-version: 5.3.3
+updated: 2023-11-29
+version: 5.3.4
 stars: 3.8
 reviews: 27
 size: '115300352'

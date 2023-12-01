@@ -8,8 +8,8 @@ users: 1000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2023-11-25
-version: 5.9.21
+updated: 2023-11-29
+version: 5.10.1
 stars: 4.3
 ratings: 17546
 reviews: 2945

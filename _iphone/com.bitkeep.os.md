@@ -11,7 +11,7 @@ released: 2018-09-26
 updated: 2023-11-25
 version: 8.7.1
 stars: 4.4
-reviews: 501
+reviews: 517
 size: '177396736'
 website: https://bitkeep.com
 repository: 

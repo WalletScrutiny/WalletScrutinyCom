@@ -4,7 +4,7 @@ title: 'BYDFi: Buy BTC, XRP & DOGE'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bydfi.app
 appCountry: 
 released: 2023-01-20
@@ -12,7 +12,7 @@ updated: 2023-11-22
 version: 3.3.6
 stars: 4.7
 ratings: 
-reviews: 42
+reviews: 45
 size: 
 website: https://www.bydfi.com/
 repository: 

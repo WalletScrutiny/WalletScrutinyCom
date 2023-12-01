@@ -9,10 +9,10 @@ appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
 updated: 2023-11-23
-version: '1.6'
-stars: 2
+version: 1.6.1
+stars: 2.9
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.bitstamp.net
 repository: 

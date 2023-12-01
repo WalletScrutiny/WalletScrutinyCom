@@ -1,6 +1,6 @@
 ---
 wsId: prostocash
-title: Prostocash – обменять и продат
+title: Prostocash – обменять Биткоин
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.prostocash.android_prostocash
 appCountry: 
 released: 2021-06-27
-updated: 2021-06-27
-version: '2.0'
+updated: 2023-11-27
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-06-20
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

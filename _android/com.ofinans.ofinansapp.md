@@ -3,7 +3,7 @@ wsId:
 title: Miracle Cash&More
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.ofinans.ofinansapp
 appCountry: 
 released: 2021-06-10
@@ -19,7 +19,7 @@ issue:
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

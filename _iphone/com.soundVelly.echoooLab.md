@@ -1,6 +1,6 @@
 ---
 wsId: echooDeFi
-title: 'Echooo: Safe & Earn with DeFi'
+title: 'Echooo : Crypto AA Wallet&DeFi'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.soundVelly.echoooLab
 appCountry: us
 idd: '6446883725'
 released: 2023-04-22
-updated: 2023-11-10
-version: 1.8.0
+updated: 2023-11-30
+version: 1.9.0
 stars: 5
 reviews: 21
-size: '189424640'
+size: '195518464'
 website: http://www.echooo.xyz
 repository: 
 issue: 

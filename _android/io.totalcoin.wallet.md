@@ -32,7 +32,7 @@ redirect_from:
 - /io.totalcoin.wallet/
 - /posts/2019/11/totalcoin/
 - /posts/io.totalcoin.wallet/
-developerName: Totalcoin ltd
+developerName: TOTALCOIN TRADING LTD
 features: 
 
 ---

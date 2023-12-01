@@ -12,7 +12,7 @@ updated: 2023-11-23
 version: 5.2.0
 stars: 4.3
 ratings: 
-reviews: 144
+reviews: 145
 size: 
 website: https://royalqs.com/
 repository: 

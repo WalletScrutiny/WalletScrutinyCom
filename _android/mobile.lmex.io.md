@@ -3,7 +3,7 @@ wsId:
 title: 'LMEX: Crypto & Bitcoin Trading'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: mobile.lmex.io
 appCountry: 
 released: 2022-11-14

@@ -4,7 +4,7 @@ title: 'AgoraDesk: buy BTC anonymously'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.agoradesk.app
 appCountry: 
 released: 2022-08-18

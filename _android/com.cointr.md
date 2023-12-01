@@ -8,16 +8,16 @@ users: 10000
 appId: com.cointr
 appCountry: 
 released: 2022-08-17
-updated: 2023-11-14
-version: 2.0.9
-stars: 
+updated: 2023-11-24
+version: 2.1.0
+stars: 2
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://support.cointr.com
 repository: 
 issue: 
-icon: com.cointr.png
+icon: com.cointr.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

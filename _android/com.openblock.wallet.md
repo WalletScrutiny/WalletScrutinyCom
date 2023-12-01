@@ -3,7 +3,7 @@ wsId:
 title: OpenBlock
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.openblock.wallet
 appCountry: 
 released: 2023-02-06

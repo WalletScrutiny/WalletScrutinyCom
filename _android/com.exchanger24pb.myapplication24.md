@@ -1,6 +1,6 @@
 ---
 wsId: paybankExchange
-title: '24Paybank: Купить и продать Би'
+title: '24Paybank: Купить Биткоин'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.exchanger24pb.myapplication24
 appCountry: 
 released: 2020-02-07
-updated: 2020-02-27
-version: '1.2'
+updated: 2023-11-26
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-04-22
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 24Paybank

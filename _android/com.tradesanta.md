@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-16
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

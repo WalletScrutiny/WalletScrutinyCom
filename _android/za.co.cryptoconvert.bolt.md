@@ -3,7 +3,7 @@ wsId:
 title: CryptoQR
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: za.co.cryptoconvert.bolt
 appCountry: 
 released: 2022-05-16
@@ -19,7 +19,7 @@ issue:
 icon: za.co.cryptoconvert.bolt.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-09-06
 signer: 
 reviewArchive: 

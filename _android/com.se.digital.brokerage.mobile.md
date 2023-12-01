@@ -8,8 +8,8 @@ users: 10000
 appId: com.se.digital.brokerage.mobile
 appCountry: 
 released: 2021-12-08
-updated: 2023-11-15
-version: 2.1.2
+updated: 2023-11-29
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 

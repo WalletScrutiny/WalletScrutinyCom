@@ -8,11 +8,11 @@ appId: com.bitexenglobal.exchangeapp
 appCountry: az
 idd: '1634643482'
 released: 2022-09-30
-updated: 2023-10-29
-version: '1.6'
+updated: 2023-11-28
+version: '1.7'
 stars: 0
 reviews: 0
-size: '154552320'
+size: '150788096'
 website: https://g.bitexen.com
 repository: 
 issue: 
