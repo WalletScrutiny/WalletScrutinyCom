@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: suniwallet
 title: Suni Wallet
 altTitle: 
 authors: 
+- danny
 users: 10000
 appId: com.suniwallet.app
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.suniwallet.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-12-01    
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,10 @@ features:
 
 ---
 
+According to the app's description on Play Store it is:
+
+> a Cryptocurrency Wallet that allows you to make fast and secure transactions over the Lightning network, Bitcoin and others.
+
+Based on information from the Terms of Service, Suni Wallet provides the user with private keys and allows for the creation of multiple wallets. There is also a feature to "Carry out cryptocurrency sale and purchase transactions through P2P operations."
+
+At the moment, this app is **not verifiable** as there is no linked source code or GitHub.
