@@ -5,6 +5,7 @@ tag="android-v$versionName"
 builtApk="$workDir/app/phoenix-android/build/outputs/apk/release/phoenix-$versionCode-$versionName-mainnet-release.apk"
 
 test() {
+  git checkout origin/master Dockerfile
   podman build -t phoenix_build .
   podman run -it --rm --volume $PWD:/home/ubuntu/phoenix \
       --workdir /home/ubuntu/phoenix phoenix_build \

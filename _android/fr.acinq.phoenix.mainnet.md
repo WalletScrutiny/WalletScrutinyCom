@@ -20,8 +20,8 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2023-11-25
+verdict: nonverifiable
+date: 2023-11-30
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2023-11-02
@@ -69,6 +69,55 @@ features:
 - ln
 
 ---
+
+**Update 2023-11-30**: The provider fixed the build issue and we managed to
+compile the product:
+
+```
+===== Begin Results =====
+appId:          fr.acinq.phoenix.mainnet
+signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+apkVersionName: 2.0.12
+apkVersionCode: 67
+verdict:        
+appHash:        45eadc50d2305081e610d9dc3f114c2ac6c609fef1988d98a96da55032086473
+commit:         43e65cfe9e14952cff0e5f0a81d187072e6d3f37
+
+Diff:
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/classes3.dex differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+That is a bigger diff than expected. This version is **not verifiable**.
+
+Upon closer inspection, the diffs in the casses3.dex and classes5.dex like
+
+```
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+```
+
+are probably due to a
+[known issue in sqldelight](https://github.com/cashapp/sqldelight/issues/1548)
+which was fixed in sqlDelight version 2 but this product
+[still uses version 1](https://github.com/ACINQ/phoenix/blob/master/buildSrc/src/main/kotlin/Versions.kt#L11).
+
+The files baseline.prof and baseline.profm are about runtime optimization and
+their creation might involve measuring timing in a physical device and as such
+are probably hard to make reproducible. We so far do not know if they can be
+savely ignored for security aspects.
+
+All in all it's thousands of lines that differ and as such too much to simply
+call it a a benign diff.
 
 **Update 2023-11-25**: The latest release is 2.0.12. We tried to run our test
 script again but ran into this issue:
