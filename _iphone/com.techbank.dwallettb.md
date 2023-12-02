@@ -1,5 +1,5 @@
 ---
-wsId: Techbank
+wsId: techbankDWallet
 title: TechBank Dwallet
 altTitle: 
 authors:

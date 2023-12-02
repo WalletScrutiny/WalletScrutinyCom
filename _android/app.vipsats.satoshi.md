@@ -21,7 +21,7 @@ icon: app.vipsats.satoshi.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-09-06
+date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: vipsats
@@ -31,6 +31,10 @@ developerName: Vipsats
 features: 
 
 ---
+
+**Update: 2023-12-02**
+
+This app has recently changed its Google Play app ID to app.vipsats.vipsats. After two months we still get the same error when asking for our email address for email verification, the app returns 'No Connection'.
 
 ## Notes on similar apps 
 
