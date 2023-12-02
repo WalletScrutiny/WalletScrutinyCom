@@ -40,7 +40,7 @@ features:
 
 ## App Description
 
-Aladdin wallet appears to be self-custodial:
+The app provides a 24-word mnemonic phrase during startup.
 
 > Keep your cryptos in an accessible and secure wallet! A mnemonic phrase, easy migration, cloud backup/restore, ERC-20 token transaction support, resource management, and so much more in the best non-custodial Aladdin crypto wallet app!
 

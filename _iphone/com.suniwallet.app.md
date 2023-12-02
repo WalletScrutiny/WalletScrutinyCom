@@ -19,12 +19,15 @@ issue:
 icon: com.suniwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-12-01
+verdict: custodial
+date: 2023-12-02
 signer: 
 reviewArchive: 
-twitter: 
+twitter: Suni_wallet
 social: 
+- https://www.instagram.com/suni_wallet
+- https://www.youtube.com/channel/UCEimtCczYVdwvGx1SCLdhYQ
+- https://www.linkedin.com/company/suni-wallet 
 features: 
 developerName: SUNI WALLET LLC
 

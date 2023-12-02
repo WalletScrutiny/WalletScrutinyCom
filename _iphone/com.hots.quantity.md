@@ -19,12 +19,13 @@ issue:
 icon: com.hots.quantity.jpg
 bugbounty: 
 meta: stale
-verdict: nosendreceive
-date: 2023-12-01
+verdict: custodial
+date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: hotscoin
-social: 
+social:
+- https://hotscoin.com 
 features: 
 developerName: 台湾凯旋网络科技
 
