@@ -8,11 +8,11 @@ users: 50000
 appId: app.anchors.anchorusd
 appCountry: us
 released: 2020-06-18
-updated: 2023-06-09
-version: 1.19.3.1
+updated: 2023-11-07
+version: 1.19.7
 stars: 2
 ratings: 2482
-reviews: 820
+reviews: 824
 size: 
 website: https://www.tryanchor.com
 repository: 

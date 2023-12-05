@@ -12,18 +12,23 @@ updated: 2023-06-30
 version: 3.16.1.0
 stars: 3.7
 ratings: 11650
-reviews: 1158
+reviews: 1154
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: https://github.com/mycelium-com/wallet-android/issues/648
+issue: 
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-04-27
+date: 2023-09-24
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2023-04-27
+  version: 3.16.0.16
+  appHash: 2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
 - date: 2023-01-12
   version: 3.16.0.15
   appHash: 50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
@@ -241,27 +246,28 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.16.0.16
-apkVersionCode: 3160016
+apkVersionName: 3.16.1.0
+apkVersionCode: 3160100
 verdict:        reproducible
-appHash:        2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
-commit:         24f301568645a79dc34b7167fc21a329d51e56db
+appHash:        f03d86c61f6d4a1ba071cb509537f6e855045c58ab9e705a50b9b1cc182ed606
+commit:         571dbbb6f5ffb5af0b97b792f49b2d9ad3a32867
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3160016/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160016/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160100/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160100/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160100/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160100/META-INF/CERT.SF differ
 
 Revision, tag (and its signature):
-object 24f301568645a79dc34b7167fc21a329d51e56db
+object 571dbbb6f5ffb5af0b97b792f49b2d9ad3a32867
 type commit
-tag v3.16.0.16
-tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1676543291 +0400
+tag v3.16.1.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1688990913 +0400
 
-Mycelium Bitcoin Wallet v3.16.0.16
+Mycelium Bitcoin Wallet v3.16.1.0
 
-e056e33b8da17a92eb407bca631e431172734bb1cb1c205fbf13971a87eddb75ee68f5078ae295bebdc3623b8e92f2743d8cd3062f717295fae5fa3662e0dbea  prodnet/release/mbw-prodnet-release.apk
-0317f8b779142c5f4c0c3b1868f2ec11c1abfee0a8b16b82eafeb4f51921a92a7f64f27aa5c1b2032f71fc3d5ed939a3aa64306f0092384a21c9a40dfda59d24  btctestnet/release/mbw-btctestnet-release.apk
-d640ab11b31f71ebf23a7a10c1f2f3245a7019b6911c8cdb032acf8c88278ca6b4563d0956d49395aabad4a8fef2a5ed747827e27f4ee46aa950a7e45ae61943  prodnet/debug/mbw-prodnet-debug.apk
-bccfbdc7b79dd3241d240381b32a672b76a277d7f7fca8c2027b3a283beae98d3aaa961b02544666c1901a516cc2c99bf5780325fe0396ecae6feda85590cf7c  btctestnet/debug/mbw-btctestnet-debug.apk
+5b746d2269373452b281262c0ff2509b0d9520a7f8f32a7206788e67a2b269e16bdffa61a8a35eb4d475fbf94e834b22635f5d67f4b929a9dfcc45ae7766b4be  prodnet/release/mbw-prodnet-release.apk
+774f2786275c0a792d20b2638413614280808c69784826ed81d81494ad6d47697608a997a2ffc04418c4e3d69ae2d89895fdee53bfa9dd8ee3f102f54214bcd1  btctestnet/release/mbw-btctestnet-release.apk
+c19d476697c1334837e4eda161109d35588cc4cbb5433e32a82830e50f319f5dc77ea6bfed2c30a4b051b1356b64ae6bda261ebb8921f3c11f8caf5565c099db  prodnet/debug/mbw-prodnet-debug.apk
+b332f1e326968f69d99287f64d704d6bb08ccaca0fb5dd94526336318d0a9fcff941b045990b653d3cdfabe773a96aeddbb7788379c0f4ae53129580a06ed697  btctestnet/debug/mbw-btctestnet-debug.apk
 ===== End Results =====
 ```
 

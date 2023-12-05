@@ -12,16 +12,16 @@ updated: 2022-10-31
 version: 3.3.7
 stars: 3.8
 ratings: 3299
-reviews: 90
+reviews: 89
 size: 
 website: https://www.aax.com/
 repository: 
 issue: 
 icon: com.aax.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-08-27
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: AAXExchange

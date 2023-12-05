@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.za.altcointrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-03
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: AltCoinTraderSA

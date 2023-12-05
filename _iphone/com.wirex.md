@@ -1,6 +1,6 @@
 ---
 wsId: wirex
-title: 'Wirex: All-In-One Crypto App'
+title: 'Wirex: All-In-One Trading App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wirex
 appCountry: us
 idd: 1090004654
 released: 2016-03-22
-updated: 2023-09-12
-version: 3.44.10
+updated: 2023-11-29
+version: 3.45.50
 stars: 3.6
-reviews: 588
-size: '205545472'
+reviews: 627
+size: '208211968'
 website: https://wirexapp.com/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ users: 1000000
 appId: im.status.ethereum
 appCountry: 
 released: 2020-02-05
-updated: 2023-02-23
-version: 1.20.3
+updated: 2023-07-18
+version: 1.20.4
 stars: 4.3
 ratings: 2069
-reviews: 57
+reviews: 56
 size: 
 website: https://status.im
 repository: 

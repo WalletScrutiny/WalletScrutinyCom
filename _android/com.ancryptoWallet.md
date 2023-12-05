@@ -1,18 +1,18 @@
 ---
 wsId: ancryptoWallet
-title: AnCrypto - Multi Chain Wallet
+title: AnCrypto - Web3 Chat Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
-updated: 2023-08-30
-version: 1.17.11
-stars: 4.6
+updated: 2023-11-24
+version: 1.21.12
+stars: 4.5
 ratings: 
-reviews: 20
+reviews: 22
 size: 
 website: https://www.ancrypto.io/
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.phemex.turkey.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-11
+date: 2023-09-22
 signer: 
 reviewArchive: 
 twitter: 

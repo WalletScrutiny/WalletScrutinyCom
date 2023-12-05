@@ -4,15 +4,15 @@ title: TechBank Dwallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.techbank_dwallet
 appCountry: in
 released: 2020-10-09
-updated: 2023-09-13
-version: 2.7.5
-stars: 4.8
+updated: 2023-11-30
+version: 2.9.2
+stars: 4.7
 ratings: 59
-reviews: 9
+reviews: 10
 size: 
 website: https://techbank.finance/
 repository: 

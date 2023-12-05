@@ -3,12 +3,12 @@ wsId:
 title: iCoin Mobile
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.icointechnology.wallet.companion
 appCountry: 
 released: 2022-02-15
-updated: 2022-12-05
-version: 1.3.89.94
+updated: 2023-09-26
+version: 1.3.93.99
 stars: 4.2
 ratings: 
 reviews: 3

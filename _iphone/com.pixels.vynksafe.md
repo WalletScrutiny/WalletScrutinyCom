@@ -8,19 +8,19 @@ appId: com.pixels.vynksafe
 appCountry: in
 idd: '1626971774'
 released: 2022-06-21
-updated: 2022-09-15
-version: '1.3'
+updated: 2023-10-25
+version: '1.4'
 stars: 3.7
 reviews: 3
-size: '22217728'
+size: '27278336'
 website: https://vynksafe.com
 repository: 
 issue: 
 icon: com.pixels.vynksafe.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-09-10
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: vynkgroup

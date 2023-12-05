@@ -3,8 +3,8 @@ wsId:
 title: AI TRADE
 altTitle: 
 authors:
-- danny 
-users: 1000
+- danny
+users: 5000
 appId: app.aitrade.ai
 appCountry: 
 released: 2022-12-19

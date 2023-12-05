@@ -3,12 +3,12 @@ wsId:
 title: INOCYX
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16
-updated: 2023-08-23
-version: '1.20'
+updated: 2023-11-29
+version: '1.24'
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.application.inocyx.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

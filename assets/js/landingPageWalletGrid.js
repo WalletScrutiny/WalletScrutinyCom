@@ -1,5 +1,6 @@
-//SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER
+//SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
 const paginationLimit = 12
+let hasRedirected = false
 window.blockScrollingFocus=false
 window.verdictCount = {}
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } }
@@ -41,11 +42,15 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   let workingArray = false
 
   workingArray = performSearch(window.wallets, query, platform)
-  
+
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
   generateDropdownAndInputCounts(workingArray, platform)
   generateFeedbackText(workingArray, platform, queryRaw)
+  if (hasRedirected) {
+    generateFeedbackText(workingArray, platform, queryRaw, true)
+  }
+  
 }
 
 function generateAndAppendWalletTiles(workingArray, pageNo) {
@@ -104,6 +109,35 @@ function generateAndAppendPagination(workingArray, pageNo) {
   }
   const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
   const maxPages = Math.ceil(workingArray.length / paginationLimit)
+  if (pageNo > maxPages) {
+    // Determine the URL of the last available page
+    const platformElement = document.querySelector(".dropdown-platform .selected");
+    const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms";
+    const queryStringElement = document.querySelector(".query-string");
+    const queryRaw = queryStringElement.value.length > 0 ? encodeURI(queryStringElement.value) : "";
+
+    // Redirect to the last available page (maxPages)
+    const newUrl = `/?platform=${platform}&page=${maxPages}${queryRaw.length > 0 ? "&query-string=" + queryRaw : ""}`;
+    window.history.pushState("data", null, newUrl);
+    
+    updateWalletGridInputOriginatingFromURL();
+
+    // Set redirection flag
+    if (workingArray.length) {
+        // Display the redirection message
+        hasRedirected = true;
+    }
+
+    // Attach event listener to clear feedback on query change
+    queryStringElement.addEventListener('input', function() {
+        if (hasRedirected) {
+            hasRedirected = false;  // Reset the flag
+        }
+    });
+
+    return;
+}
+  // Continuation of previous code
   let pagination = document.createElement("div")
   pagination.classList.add("pagination")
   let allowedTargets = calcAllowedTargetArray(page, maxPages)
@@ -155,12 +189,17 @@ function generateDropdownAndInputCounts() {
   document.querySelector(".query-string").setAttribute("placeholder", document.querySelector(".query-string").getAttribute("placeholder").replace(/all/, String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ",")))
 }
 
-function generateFeedbackText(workingArray, platform, queryRaw) {
+function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {
+  if (document.querySelector('.feedback-message')) {
+    return; // Feedback already exists, exit the function
+  }
   let feedback = document.createElement("p")
   feedback.style["text-alignment"] = 'center'
   let feedbackText = false
   const platformText = document.querySelector(`.dropdown-options.dropdown-platform .option.${platform}`).getAttribute("data-name")
   if (queryRaw.length > 0 && workingArray.length === 0) { feedbackText = `No wallets match for <b>"${decodeURI(queryRaw)}"</b> in <i>${platformText}</i>.` }
+  // Else If
+  else if (queryRaw.length > 0 && workingArray.length > 0) { feedbackText = `Found ${workingArray.length} wallets for <b>"${decodeURI(queryRaw)}"</b> in <i>${platformText}</i>.` }
 
   if (queryRaw.length === 0) {
     if (workingArray.length === 0) {
@@ -174,8 +213,14 @@ function generateFeedbackText(workingArray, platform, queryRaw) {
       }
     }
   }
-
-
+  // further addition
+  if (redirected) {
+    feedbackText = `Your query for <b>"${decodeURI(queryRaw)}"</b> in the <b>${platformText}</b> platform has yielded <b>${workingArray.length}</b> results. 
+    <br>You have been redirected to the last available page. 
+    <br>Need help selecting a wallet? Join us in <a href="https://discord.gg/TftHx2zZXc" target="_blank" rel="noopener noreferrer">discord</a>.`;
+  }
+  const existingFeedback = document.querySelector('.wallet-placeholder > p')
+  if (existingFeedback) {existingFeedback.remove() }
 
   if (feedbackText) {
     feedback.innerHTML = feedbackText
@@ -255,7 +300,11 @@ document.querySelector(".query-string").addEventListener("input", () => {
   clearTimeout(window.queryStringTimeout)
   window.queryStringTimeout = setTimeout(() => {
     const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
-    window.history.pushState('data', null, `/?platform=allPlatforms&page=0&query-string=${queryRaw}`)
+    // Added    
+    const platformElement = document.querySelector(".dropdown-platform .selected")
+    const platform = platformElement ? platformElement.getAttribute("data") : "allPlatforms"
+    // Original
+    window.history.pushState('data', null, `/?platform=${platform}&page=0&query-string=${queryRaw}`)
     updateWalletGridInputOriginatingFromURL()
   }, 500)
 })

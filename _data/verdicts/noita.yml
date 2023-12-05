@@ -13,11 +13,13 @@ details: >
   USB-dongles.
  
 
-  The wallet lacks either an output device such as a screen, an input
-  device such as touch or physical buttons or both. In consequence, crucial
+  The wallet lacks either a screen or buttons or both. In consequence, crucial
   elements of approving transactions is being delegated to other hardware such
   as a general purpose PC or phone which defeats the purpose of a hardware
-  wallet.
+  wallet. For big exit scams, a companion app could always request two
+  signatures - one for the coffee you are paying and a second to empty your
+  wallet completely. The former could be broadcast while the latter only gets
+  collected for later use.
   
   
   Another consquence of a missing screen is that the user is faced with the

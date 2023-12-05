@@ -3,12 +3,12 @@ wsId:
 title: 'Fulldive Wallet: Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.fulldive.extension.fdwallet
 appCountry: 
 released: 2022-05-26
-updated: 2022-07-12
-version: 1.6.0
+updated: 2023-09-25
+version: 1.7.0
 stars: 4.3
 ratings: 
 reviews: 4
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fulldive.extension.fdwallet.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2023-07-17
+meta: ok
+verdict: wip
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

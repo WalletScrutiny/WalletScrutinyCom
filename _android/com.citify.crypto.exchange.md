@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.citify.crypto.exchange.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

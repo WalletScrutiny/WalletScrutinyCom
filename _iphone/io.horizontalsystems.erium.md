@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.horizontalsystems.erium.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-01
+date: 2023-09-22
 signer: 
 reviewArchive: 
 twitter: EriumExchange

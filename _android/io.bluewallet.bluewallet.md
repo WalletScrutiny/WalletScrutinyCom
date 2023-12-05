@@ -3,29 +3,39 @@ wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
 altTitle: 
 authors:
-- leo
 - emanuel
 - Mohammad Rafigh
+- leo
 users: 100000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
-updated: 2023-07-29
-version: 6.4.8
-stars: 4
+updated: 2023-10-25
+version: 6.4.10
+stars: 3.9
 ratings: 1810
-reviews: 289
+reviews: 296
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
+issue: https://github.com/BlueWallet/BlueWallet/issues/5700
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-06-24
+verdict: ftbfs
+date: 2023-11-09
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2023-10-08
+  version: 6.4.8
+  appHash: 
+  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
+  verdict: ftbfs
+- date: 2023-06-24
+  version: 6.4.5
+  appHash: d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
+  gitRevision: c0e1ed7e183c9ef5730cb8b77829e7a1640739b1
+  verdict: reproducible
 - date: 2023-05-21
   version: 6.4.4
   appHash: 566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
@@ -54,6 +64,15 @@ features:
 - ln
 
 ---
+
+**Update 2023-11-09**: Version 6.4.10 fails due to
+[a new issue](https://github.com/BlueWallet/BlueWallet/issues/5813)
+which we managed to work around, only to run into the same still unresolved
+issue as its predecessor. This version is **not verifiable**.
+
+**Update 2023-10-08**: Sadly version `6.4.8` fails to build from source and
+is thus **not verifiable**. We track the problem in
+[this issue](https://github.com/BlueWallet/BlueWallet/issues/5700).
 
 **Update 2023-06-21**:
 Recent release (v6.4.5) of this wallet with the apk downloaded from Github 

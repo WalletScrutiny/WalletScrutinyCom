@@ -8,8 +8,8 @@ appId: io.kasta.app.ios
 appCountry: bg
 idd: '1621024107'
 released: 2022-06-09
-updated: 2023-09-10
-version: 1.27.106
+updated: 2023-09-27
+version: 1.27.113
 stars: 5
 reviews: 1
 size: '59328512'

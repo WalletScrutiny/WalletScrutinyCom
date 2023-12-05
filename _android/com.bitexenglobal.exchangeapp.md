@@ -3,13 +3,13 @@ wsId: bitexenGlobal
 title: Bitexen Global
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2023-07-13
-version: '1.7'
+updated: 2023-11-28
+version: 1.8.1
 stars: 
 ratings: 
 reviews: 
@@ -28,7 +28,7 @@ twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019
 - https://www.linkedin.com/company/bitexen
-- https://t.me/bitexenglobal 
+- https://t.me/bitexenglobal
 redirect_from: 
 developerName: Bitexen Teknoloji A.Ş.
 features: 

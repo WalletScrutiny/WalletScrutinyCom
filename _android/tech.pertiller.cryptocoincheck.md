@@ -10,7 +10,7 @@ appCountry:
 released: 2018-04-05
 updated: 2022-10-24
 version: 1.7.0
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 1
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: tech.pertiller.cryptocoincheck.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-18
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: BitcoinMonitor1

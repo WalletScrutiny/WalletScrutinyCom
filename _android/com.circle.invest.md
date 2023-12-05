@@ -12,7 +12,7 @@ updated: 2022-04-28
 version: 1.5.5
 stars: 3.8
 ratings: 
-reviews: 271
+reviews: 270
 size: 
 website: https://invest.circle.com
 repository: 

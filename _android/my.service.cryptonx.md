@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: my.service.cryptonx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: 

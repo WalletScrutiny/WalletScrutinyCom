@@ -3,13 +3,13 @@ wsId: ePocketExchange
 title: e-Pocket
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: w3axis.com.epocket
 appCountry: 
 released: 2018-06-23
-updated: 2023-09-13
-version: '1.93'
+updated: 2023-11-19
+version: '2.03'
 stars: 5
 ratings: 
 reviews: 1

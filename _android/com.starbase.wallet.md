@@ -19,9 +19,9 @@ repository: https://github.com/deploystarship/StarBase_android
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477
 icon: com.starbase.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-03
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: deploystarship

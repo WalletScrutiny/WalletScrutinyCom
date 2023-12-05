@@ -7,8 +7,8 @@ users: 10000
 appId: com.samourai.sentinel
 appCountry: 
 released: 2015-05-23
-updated: 2021-04-13
-version: 4.0.2
+updated: 2023-11-07
+version: 5.0.1
 stars: 4.2
 ratings: 313
 reviews: 47
@@ -18,9 +18,9 @@ repository: https://github.com/Samourai-Wallet/sentinel-android
 issue: 
 icon: com.samourai.sentinel.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-04-04
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: samouraiwallet

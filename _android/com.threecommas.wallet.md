@@ -4,13 +4,13 @@ title: 3Commas Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.threecommas.wallet
 appCountry: 
 released: 2022-03-19
 updated: 2022-10-05
 version: '1.7'
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 3
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.threecommas.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-03
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 3commas_io

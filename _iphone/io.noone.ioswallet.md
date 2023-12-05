@@ -8,11 +8,11 @@ appId: io.noone.ioswallet
 appCountry: us
 idd: '1668333995'
 released: 2023-03-29
-updated: 2023-08-10
-version: 1.4.0
-stars: 3.5
-reviews: 24
-size: '50150400'
+updated: 2023-11-21
+version: 1.7.1
+stars: 3.6
+reviews: 32
+size: '52608000'
 website: https://noone.io
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-05
 updated: 2023-08-29
 version: 3.0.38.1
-stars: 3.4
+stars: 3.3
 ratings: 
-reviews: 39
+reviews: 40
 size: 
 website: https://www.coininn.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: it.baloo.bitcoinpeople.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-01-28
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

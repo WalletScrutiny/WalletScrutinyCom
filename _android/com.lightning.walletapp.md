@@ -20,10 +20,15 @@ issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
 meta: obsolete
-verdict: ftbfs
-date: 2023-03-03
+verdict: nosource
+date: 2023-09-22
 signer: 
 reviewArchive:
+- date: 2021-08-21
+  version: 0.4.4
+  appHash: ffcffa9d3053590b98f845622ab5a4748023245fbacc48f6798ca9ff753f86c6
+  gitRevision: 6b9f4e0124b3b4f7d4daa2425d704af536624d90
+  verdict: ftbfs
 - date: 2019-11-23
   version: '0.4'
   appHash: 
@@ -42,10 +47,34 @@ features:
 
 ---
 
+**Update 2023-09-22**: While this app is deprecated in favor of another app and
+obsolete with no updates in years, its verdict is not accurate. As documented in
+[this issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/166),
+Emanuel managed to build the app in its current version `0.4.8` but the build
+result differed significantly from what we could download from Google Play.
+
+But ... is the version from Google Play the same as the version from f-droid? As
+it turns out, it is not. We downloaded both and they have different hashes. The
+first one is from Google Play:
+
+```
+$ sha256sum ~/wsTest/BLW\ 0.4.8\ \(com.lightning.walletapp\).apk ~/com.lightning.walletapp_159.apk 
+541c8f22340b5b66b4d94cde5863e765e1029d3b99fb62fcf01e5d97cb90ffc5  /home/leo/wsTest/BLW 0.4.8 (com.lightning.walletapp).apk
+676d073f8418277042d584dd184da1b0054148ba4ae30156f51772d819861009  /home/leo/com.lightning.walletapp_159.apk
+```
+
+and ... f-droid [claims](https://f-droid.org/en/packages/com.lightning.walletapp/):
+
+> The source code is no longer available
+
+Seriously? Well, indeed, the repository we had on file -
+https://github.com/btcontract/lnwallet/issues/20 is no longer available, making
+the product **not verifiable**.
+
 **Update 2021-08-21**: The provider
 [stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)
-that {% include walletLink.html wallet='android/com.lightning.walletapp' verdict='true' %}
-was discontinued and its successor is {% include walletLink.html wallet='android/com.btcontract.wallet' verdict='true' %}
+that this product was discontinued and its successor is
+{% include walletLink.html wallet='android/com.btcontract.wallet' verdict='true' %}
 
 So the provider contacted us and 
 [cleared many issues](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/106)

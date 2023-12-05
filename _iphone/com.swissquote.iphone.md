@@ -1,6 +1,6 @@
 ---
 wsId: swissQuoteTrading
-title: Swissquote Trading
+title: Swissquote
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.swissquote.iphone
 appCountry: ph
 idd: '285691076'
 released: 2019-02-12
-updated: 2023-09-13
-version: 9.2.1
+updated: 2023-11-28
+version: 10.3.0
 stars: 4.2
 reviews: 12
-size: '153711616'
+size: '79947776'
 website: https://www.swissquote.com
 repository: 
 issue: 

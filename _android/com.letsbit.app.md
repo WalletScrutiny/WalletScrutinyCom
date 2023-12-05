@@ -4,13 +4,13 @@ title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06
-updated: 2023-09-06
-version: v1.17.0
-stars: 3.1
+updated: 2023-10-10
+version: v1.20.0
+stars: 3.3
 ratings: 
 reviews: 10
 size: 

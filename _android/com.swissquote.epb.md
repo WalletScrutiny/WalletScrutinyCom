@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swissquote.epb.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

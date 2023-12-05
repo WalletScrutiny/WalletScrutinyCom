@@ -4,7 +4,7 @@ title: FastE Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.fastewallet.bankwallet
 appCountry: 
 released: 2022-08-31

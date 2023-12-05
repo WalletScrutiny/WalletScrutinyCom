@@ -7,16 +7,16 @@ users: 100
 appId: com.mesh.msamexexchange
 appCountry: 
 released: 2021-06-02
-updated: 2023-04-06
-version: '6.1'
+updated: 2023-11-27
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://msamex.com
+website: https://www.msamex.com
 repository: 
 issue: 
-icon: com.mesh.msamexexchange.png
+icon: com.mesh.msamexexchange.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers

@@ -3,7 +3,7 @@ wsId:
 title: Digital Money Exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.exchangedm
 appCountry: 
@@ -28,7 +28,7 @@ twitter: dmdigitalmoney
 social:
 - https://t.me/DMdigitalmoney
 - https://discord.com/invite/QqTns8Yu
-- https://www.instagram.com/digitalmoney.dm 
+- https://www.instagram.com/digitalmoney.dm
 redirect_from: 
 developerName: Digital Money Ltd
 features: 

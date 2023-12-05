@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.a4.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2023-07-06
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: A4Finance

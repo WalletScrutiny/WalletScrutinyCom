@@ -7,8 +7,8 @@ users: 100
 appId: com.jax.peaceWallet
 appCountry: 
 released: 2022-03-14
-updated: 2022-10-24
-version: 1.0.7
+updated: 2023-10-05
+version: '2.0'
 stars: 
 ratings: 
 reviews: 

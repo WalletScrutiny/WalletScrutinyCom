@@ -3,14 +3,14 @@ wsId: satoshiBitcoinLightning
 title: Satoshi Bitcoin Lightning
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.vipsats.satoshi
 appCountry: 
 released: 2022-11-06
 updated: 2023-08-20
 version: 1.3.1
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 4
 size: 

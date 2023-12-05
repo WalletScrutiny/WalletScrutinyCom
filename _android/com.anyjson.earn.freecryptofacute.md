@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-16
 updated: 2022-09-28
 version: '1.5 '
-stars: 3.4
+stars: 3.3
 ratings: 
 reviews: 6
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.anyjson.earn.freecryptofacute.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-20
+date: 2023-09-24
 signer: 
 reviewArchive: 
 twitter: 

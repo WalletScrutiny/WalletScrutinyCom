@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.hovii.p2p.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: 

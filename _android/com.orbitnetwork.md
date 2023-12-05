@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-20
 updated: 2021-08-20
 version: '2.2'
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 18
+reviews: 16
 size: 
 website: https://orbitnetwork.com/
 repository: 

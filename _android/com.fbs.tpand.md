@@ -12,7 +12,7 @@ updated: 2023-08-30
 version: 1.58.4
 stars: 4.6
 ratings: 128577
-reviews: 81
+reviews: 80
 size: 
 website: https://fbs.com/
 repository: 

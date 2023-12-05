@@ -4,7 +4,7 @@ title: Probos Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.elephantslab.probos
 appCountry: 
 released: 2022-09-20
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.elephantslab.probos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-13
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: probos_wallet

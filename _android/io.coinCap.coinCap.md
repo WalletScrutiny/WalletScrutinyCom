@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.coinCap.coinCap.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-12-06
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: CoinCap_io

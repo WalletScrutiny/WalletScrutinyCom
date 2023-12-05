@@ -1,6 +1,6 @@
 ---
 wsId: streakkWallet
-title: Streakk Wallet
+title: Earn World
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: com.streakk
 appCountry: 
 released: 2022-07-29
-updated: 2023-07-19
-version: '3'
+updated: 2023-09-26
+version: '3.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://streakk.io/
+website: https://odbdrwodqyzixyxti.earn.world/
 repository: 
 issue: 
 icon: com.streakk.png

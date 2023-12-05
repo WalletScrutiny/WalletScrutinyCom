@@ -8,8 +8,8 @@ authors:
 - mohammad
 released: 2018-04-01
 discontinued: 
-updated: 2023-06-19
-version: v4.1.8
+updated: 2023-06-26
+version: v4.1.9
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 88
@@ -28,9 +28,14 @@ icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: reproducible
-date: 2023-06-22
+date: 2023-10-08
 signer: 
 reviewArchive:
+- date: 2023-06-22
+  version: v4.1.8
+  appHash: 233398cc8f6b9e894072448eb8b8a82a4f546219ce461dd821f0ed0a38b61900
+  gitRevision: 8c8a96cc2119fd85e4a8ffdc88ff2921c0085ed6
+  verdict: reproducible
 - date: 2022-11-25
   version: v4.1.7
   appHash: cc946bcb63211e15d85db577e25ab2432d4a74d5dad77d710539e505dce7914a
@@ -52,6 +57,32 @@ social:
 features: 
 
 ---
+
+**Update 2023-10-08**: We ran our test script on the latest version:
+
+```
+$ ./scripts/test/hardware/coldCard.sh "2023-06-26T1241-v4.1.9" 3
+...
+ ECDSA Signature: CORRECT
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
+
+SUCCESS. 
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v4.1.9
++ set +ex
+
+Hash of non-signature parts downloaded/compiled:
+4583de49cc6e461151532b474a528bd6f469a655450216cb51b3bf1249e71eca  2023-06-26T1241-v4.1.9-nosig.bin
+4583de49cc6e461151532b474a528bd6f469a655450216cb51b3bf1249e71eca  firmware-nosig.bin
+
+Hash of the signed firmware:
+f6fb19d95bd1e38535f137bed60cafbfcd52379a686e3d12f372f881d78e640e  /tmp/firmware/releases/2023-06-26T1241-v4.1.9-coldcard.dfu
+53c9c07bfe860876303a09ed05e3b3b3e84727b02f59dc9be442823593a1bdec  /tmp/firmware/stm32/built/firmware-signed.dfu
+```
+
+This is what we hope to see to label this product **reproducible**.
 
 **Update 2023-06-22**: Carl Dong noticed what might be wrong with our build
 script. In his

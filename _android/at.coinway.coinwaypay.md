@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: at.coinway.coinwaypay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

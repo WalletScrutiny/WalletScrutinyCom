@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: Nash Crypto Platform
+title: 'Nash: Trade & Invest in Crypto'
 altTitle: 
 authors:
 - kiwilamb
@@ -8,8 +8,8 @@ users: 10000
 appId: io.nash.app
 appCountry: 
 released: 2019-08-31
-updated: 2023-09-08
-version: 15.0.0
+updated: 2023-11-24
+version: 16.0.0
 stars: 4.6
 ratings: 646
 reviews: 25

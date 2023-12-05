@@ -13,16 +13,16 @@ updated: 2022-12-01
 version: 1.2.0.7
 stars: 4.4
 ratings: 409
-reviews: 34
+reviews: 35
 size: 
 website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-02
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

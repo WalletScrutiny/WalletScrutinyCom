@@ -8,11 +8,11 @@ users: 100000
 appId: com.flashratings.hodl
 appCountry: 
 released: 2018-07-24
-updated: 2023-09-13
-version: '8.68'
-stars: 4.6
+updated: 2023-09-16
+version: '9.11'
+stars: 4.4
 ratings: 
-reviews: 450
+reviews: 456
 size: 
 website: http://www.hodlfinance.com
 repository: 

@@ -8,8 +8,8 @@ users: 500000
 appId: kuna.beta
 appCountry: us
 released: 2019-07-22
-updated: 2023-08-21
-version: 2.1.1601
+updated: 2023-11-03
+version: 2.1.1665
 stars: 3.6
 ratings: 1118
 reviews: 14

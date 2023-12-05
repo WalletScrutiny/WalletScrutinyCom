@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ghbglobal.ghbwalletios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-07-10
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: CorporationGhb

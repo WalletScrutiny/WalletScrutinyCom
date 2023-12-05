@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: etherio.wallet.com.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fake
-date: 2023-04-19
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 

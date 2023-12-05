@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com Buy BTC, ETH, Shib
+title: Crypto.com Buy BTC, ETH
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2023-09-12
-version: '3.169'
+updated: 2023-11-29
+version: 3.174.1
 stars: 4.5
-reviews: 163877
-size: '469180416'
+reviews: 171765
+size: '495564800'
 website: https://crypto.com/
 repository: 
 issue: 

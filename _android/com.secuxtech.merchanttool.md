@@ -3,12 +3,12 @@ wsId:
 title: StreamMerchant
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.secuxtech.merchanttool
 appCountry: 
 released: 2020-05-22
-updated: 2021-06-10
-version: 2.1.1
+updated: 2023-11-17
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

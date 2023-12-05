@@ -3,12 +3,12 @@ wsId:
 title: 'DXS: Trade Stocks and Crypto'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.dxs.app
 appCountry: 
 released: 2022-04-25
-updated: 2023-08-28
-version: 1.0.1
+updated: 2023-11-14
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.dxs.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-08
 signer: 
 reviewArchive: 
