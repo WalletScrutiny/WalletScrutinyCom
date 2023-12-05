@@ -8,7 +8,7 @@ const { Semaphore } = require('async-mutex')
 
 const sem = new Semaphore(5)
 const stats = {
-  defunct: 0,
+  removedFromStore: 0,
   updated: 0,
   remaining: 0
 }
@@ -63,7 +63,7 @@ function refreshFile (fileName, content, markDefunct) {
       }, (err) => {
         if (`${err}`.search(/404/) > -1) {
           if (markDefunct) {
-            header.meta = "defunct"
+            header.meta = "removedFromStore"
             header.date = new Date()
             helper.writeResult(folder, header, body)
           } else {
@@ -76,7 +76,7 @@ function refreshFile (fileName, content, markDefunct) {
         release()
       })
     } else {
-      stats.defunct++
+      stats.removedFromStore++
       helper.writeResult(folder, header, body)
       stats.remaining--
       release()

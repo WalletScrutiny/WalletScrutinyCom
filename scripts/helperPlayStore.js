@@ -8,7 +8,7 @@ const { Semaphore } = require('async-mutex')
 
 const sem = new Semaphore(50)
 const stats = {
-  defunct: 0,
+  removedFromStore: 0,
   updated: 0,
   remaining: 0
 }
@@ -32,7 +32,7 @@ async function refreshAll (ids, markDefunct) {
   files.forEach(file => { refreshFile(file, undefined, markDefunct) })
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
@@ -43,7 +43,7 @@ function refreshFile (fileName, content, markDefunct) {
     const appId = header.appId
     const appCountry = header.appCountry || 'us'
     helper.checkHeaderKeys(header, headers)
-    if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
+    if (!helper.was404(`${folder}${appId}`)) {
       try {
         gplay.app({
           appId: appId,
@@ -61,13 +61,10 @@ function refreshFile (fileName, content, markDefunct) {
           })
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            if (markDefunct) {
-              header.meta = "defunct"
-              header.date = new Date()
-              helper.writeResult(folder, header, body)
-            } else {
-              helper.addDefunctIfNew(`_android/${appId}`)
-            }
+            // Mark the app as "removedFromStore" if it returns a 404 error
+            header.meta = "removedFromStore"
+            header.date = new Date()
+            helper.writeResult(folder, header, body)
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
           }
@@ -80,7 +77,8 @@ function refreshFile (fileName, content, markDefunct) {
         console.error(`Does this ever get triggered 2? ${err}`)
       }
     } else {
-      stats.defunct++
+      // If already marked as "defunct" or "removedFromStore," update stats and release
+      stats.removedFromStore++
       helper.writeResult(folder, header, body)
       stats.remaining--
       release()
