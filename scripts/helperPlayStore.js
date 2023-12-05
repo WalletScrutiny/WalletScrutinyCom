@@ -8,7 +8,7 @@ const { Semaphore } = require('async-mutex')
 
 const sem = new Semaphore(50)
 const stats = {
-  removedFromStore: 0,
+  removed: 0,
   updated: 0,
   remaining: 0
 }
@@ -61,8 +61,8 @@ function refreshFile (fileName, content) {
           })
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            // Mark the app as "removedFromStore" if it returns a 404 error
-            header.meta = "removedFromStore"
+            // Mark the app as "removed" if it returns a 404 error
+            header.meta = "removed"
             header.date = new Date()
             helper.writeResult(folder, header, body)
           } else {
@@ -77,8 +77,8 @@ function refreshFile (fileName, content) {
         console.error(`Does this ever get triggered 2? ${err}`)
       }
     } else {
-      // If already marked as "defunct" or "removedFromStore," update stats and release
-      stats.removedFromStore++
+      // If already marked as "defunct" or "removed," update stats and release
+      stats.removed++
       helper.writeResult(folder, header, body)
       stats.remaining--
       release()

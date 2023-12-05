@@ -22,7 +22,7 @@ android:
     - obsolete
     - stale
     - outdated
-    - removedFromStore
+    - removed
 iphone:
   description: >
     On the Apple App Store, there are many apps that have Bitcoin in their
@@ -68,7 +68,7 @@ iphone:
     - obsolete
     - stale
     - outdated
-    - removedFromStore
+    - removed
 hardware:
   description: >
     There is no globally accepted definition of a hardware wallet. Some consider

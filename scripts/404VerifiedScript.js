@@ -8,7 +8,7 @@ const { Semaphore } = require("async-mutex");
 
 const sem = new Semaphore(50);
 const stats = {
-  removedFromStore: 0,
+  removed: 0,
   updated: 0,
   remaining: 0,
 };
