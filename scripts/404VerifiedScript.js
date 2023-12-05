@@ -53,7 +53,7 @@ async function checkDefunctApps() {
         } catch (error) {
           if (`${error}`.search(/404/) > -1) {
             // App is removed from the Play Store
-            header.meta = "removedFromPlayStore";
+            header.meta = "removed";
             header.date = new Date();
             helper.writeResult(folder, header, content.body);
             console.log(

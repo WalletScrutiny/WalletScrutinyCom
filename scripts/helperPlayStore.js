@@ -61,10 +61,13 @@ function refreshFile (fileName, content) {
           })
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            // Mark the app as "removed" if it returns a 404 error
-            header.meta = "removed"
-            header.date = new Date()
-            helper.writeResult(folder, header, body)
+            if (markDefunct) {
+              header.meta = "removed"
+              header.date = new Date()
+              helper.writeResult(folder, header, body)
+            } else {
+              helper.addDefunctIfNew(`_android/${appId}`)
+            }
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`)
           }
