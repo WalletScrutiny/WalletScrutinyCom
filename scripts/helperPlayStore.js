@@ -32,7 +32,7 @@ async function refreshAll (ids, markDefunct) {
   files.forEach(file => { refreshFile(file, undefined, markDefunct) })
 }
 
-function refreshFile (fileName, content) {
+function refreshFile (fileName, content, markDefunct) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined }
@@ -43,7 +43,7 @@ function refreshFile (fileName, content) {
     const appId = header.appId
     const appCountry = header.appCountry || 'us'
     helper.checkHeaderKeys(header, headers)
-    if (!helper.was404(`${folder}${appId}`)) {
+    if (!helper.was404(`${folder}${appId}`) && !'removed'.includes(header.meta)) {
       try {
         gplay.app({
           appId: appId,
@@ -80,7 +80,6 @@ function refreshFile (fileName, content) {
         console.error(`Does this ever get triggered 2? ${err}`)
       }
     } else {
-      // If already marked as "defunct" or "removed," update stats and release
       stats.removed++
       helper.writeResult(folder, header, body)
       stats.remaining--
