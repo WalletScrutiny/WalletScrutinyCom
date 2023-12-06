@@ -34,6 +34,12 @@ features:
 
 ---
 
+**Update 2023-12-05**
+
+Apparently, the homepage for this app is no longer online, thus corroborating the findings as indicated below.
+
+**Previous Review 2023-01-02**
+
 ### App Description
 
 > The multi-currency Blockchain.mn wallet supports working with EDC coins and tokens created on the EDC Blockchain platform. 

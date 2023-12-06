@@ -33,6 +33,12 @@ features:
 
 ---
 
+**Update 2023-12-05**: This is the old version of the app. The new app is at 
+
+- {% include walletLink.html wallet='android/com.bitmex.app.android' verdict='true' %}
+
+The app can be accessed occasionally in various country codes.
+
 **Update 2022-02-02**: This app is not in store anymore.
 
 ## App Description
