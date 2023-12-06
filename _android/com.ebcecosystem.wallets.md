@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-11-10
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

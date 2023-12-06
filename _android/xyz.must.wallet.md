@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xyz.must.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-12-05
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcointest.h5.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2022-04-25
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

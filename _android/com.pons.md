@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pons.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-11-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

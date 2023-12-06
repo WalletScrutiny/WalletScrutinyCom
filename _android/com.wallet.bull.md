@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallet.bull.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2023-09-04
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: bullcoinfinance

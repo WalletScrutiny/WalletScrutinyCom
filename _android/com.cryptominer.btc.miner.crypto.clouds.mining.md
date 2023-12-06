@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptominer.btc.miner.crypto.clouds.mining.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2021-11-08
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

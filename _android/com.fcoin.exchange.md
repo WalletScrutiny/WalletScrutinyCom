@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fcoin.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2022-03-24
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

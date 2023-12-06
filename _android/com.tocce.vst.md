@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tocce.vst.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-04-12
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: VSTMEX

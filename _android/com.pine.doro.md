@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pine.doro.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-09-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.shen.aci2.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-08-04
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

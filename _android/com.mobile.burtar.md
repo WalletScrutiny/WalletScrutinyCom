@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobile.burtar.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2022-05-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

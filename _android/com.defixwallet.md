@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defixwallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-01-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

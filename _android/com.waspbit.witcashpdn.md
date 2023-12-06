@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.waspbit.witcashpdn.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-06-10
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

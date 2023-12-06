@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kyberswap.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2021-08-26
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: KyberSwap

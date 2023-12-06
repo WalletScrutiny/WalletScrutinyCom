@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rippex.cryptotrading.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2022-02-25
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

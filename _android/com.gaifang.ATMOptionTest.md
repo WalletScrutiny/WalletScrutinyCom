@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gaifang.ATMOptionTest.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2022-03-24
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

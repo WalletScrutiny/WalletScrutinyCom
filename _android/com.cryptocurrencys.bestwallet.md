@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptocurrencys.bestwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2020-12-04
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

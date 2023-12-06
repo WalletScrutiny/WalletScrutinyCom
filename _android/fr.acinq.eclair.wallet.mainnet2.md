@@ -19,9 +19,9 @@ repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: ftbfs
-date: 2023-06-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: acinq_co

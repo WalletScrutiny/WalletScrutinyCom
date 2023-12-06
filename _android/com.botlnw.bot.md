@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.botlnw.bot.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-01-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

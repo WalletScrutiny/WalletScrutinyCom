@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aibb.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-04-05
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp

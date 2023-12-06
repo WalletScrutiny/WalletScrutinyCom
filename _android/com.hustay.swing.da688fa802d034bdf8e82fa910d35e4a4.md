@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hustay.swing.da688fa802d034bdf8e82fa910d35e4a4.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-08-04
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

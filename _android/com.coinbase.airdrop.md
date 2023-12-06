@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinbase.airdrop.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-08-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.buybitcoincrypto.crypto.invest.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-08-13
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: swapitway.sw.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-09-06
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

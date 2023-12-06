@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.potent.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-10-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gaifang.ATM.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
-date: 2021-11-26
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

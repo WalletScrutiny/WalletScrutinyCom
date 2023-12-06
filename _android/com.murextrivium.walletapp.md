@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.murextrivium.walletapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-08-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

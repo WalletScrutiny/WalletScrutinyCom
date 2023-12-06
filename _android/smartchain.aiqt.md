@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: smartchain.aiqt.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2022-01-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: io.bitmax.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-05-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: AscendEX_Global

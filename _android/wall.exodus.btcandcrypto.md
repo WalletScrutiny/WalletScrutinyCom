@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: wall.exodus.btcandcrypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-08-06
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.coiny.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2022-01-13
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: Coiny_io

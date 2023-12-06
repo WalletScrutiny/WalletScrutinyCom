@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.nayuta.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2019-12-29
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

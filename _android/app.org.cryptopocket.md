@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.org.cryptopocket.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-05-06
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

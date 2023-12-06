@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: group.immediate.edge.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-03-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

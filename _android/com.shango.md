@@ -19,9 +19,9 @@ repository:
 issue: https://github.com/neogeno/shango-lightning-wallet/issues/84
 icon: com.shango.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2021-07-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: shangoapp

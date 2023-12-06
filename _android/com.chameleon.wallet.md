@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2020-12-08
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: chainzillaio

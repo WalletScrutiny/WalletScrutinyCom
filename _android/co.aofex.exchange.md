@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.aofex.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2022-03-24
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: Aofex2

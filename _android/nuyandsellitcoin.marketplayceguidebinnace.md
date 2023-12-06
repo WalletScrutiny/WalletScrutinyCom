@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: nuyandsellitcoin.marketplayceguidebinnace.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2023-09-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

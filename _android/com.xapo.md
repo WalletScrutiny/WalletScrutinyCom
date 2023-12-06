@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xapo.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-08-06
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: xapo

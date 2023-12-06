@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2022-03-07
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: BitYard_Global

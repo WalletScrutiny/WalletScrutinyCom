@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.obtccoin.int.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-07-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

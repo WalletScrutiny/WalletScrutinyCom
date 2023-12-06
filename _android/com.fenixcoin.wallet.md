@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fenixcoin.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-07-18
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

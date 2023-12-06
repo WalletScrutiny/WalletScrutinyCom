@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: br.com.treepart.genbit.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-04-19
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

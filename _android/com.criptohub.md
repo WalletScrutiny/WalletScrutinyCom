@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.criptohub.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-05-17
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

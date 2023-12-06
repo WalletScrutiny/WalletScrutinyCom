@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinsvalue.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-06-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

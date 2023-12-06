@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.cryptosignals.bitcoin.wallet.india.free.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-10-01
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

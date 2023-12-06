@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ninjacoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2021-11-26
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: Ninjacoin_org

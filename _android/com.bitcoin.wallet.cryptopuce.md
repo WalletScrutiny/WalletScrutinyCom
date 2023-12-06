@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoin.wallet.cryptopuce.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2022-02-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

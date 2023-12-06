@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rter.zorc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-10-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

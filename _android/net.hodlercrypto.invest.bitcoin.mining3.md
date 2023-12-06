@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.hodlercrypto.invest.bitcoin.mining3.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-10-01
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.investing.app.immediate.edge.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2023-07-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: im.token.app99.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2022-02-10
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

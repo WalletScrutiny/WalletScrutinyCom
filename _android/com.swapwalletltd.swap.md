@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2020-12-28
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

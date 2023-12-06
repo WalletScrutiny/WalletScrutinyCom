@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: in.spiegeltechnologies.smdex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-08-05
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: SMDex_io

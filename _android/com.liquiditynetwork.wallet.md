@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.liquiditynetwork.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2022-03-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

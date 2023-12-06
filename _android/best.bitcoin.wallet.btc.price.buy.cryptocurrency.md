@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-05-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

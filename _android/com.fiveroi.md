@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fiveroi.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-02-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 5roiglobal

@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: wallet.jax.bnc.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-08-23
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

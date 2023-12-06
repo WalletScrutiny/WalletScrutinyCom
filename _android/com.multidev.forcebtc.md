@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.multidev.forcebtc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2022-01-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

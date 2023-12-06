@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.neobitcoin.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2023-08-25
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

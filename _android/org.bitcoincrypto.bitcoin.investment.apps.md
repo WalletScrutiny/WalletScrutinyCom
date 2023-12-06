@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.bitcoincrypto.bitcoin.investment.apps.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-09-23
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.cryptoanalysis.bitcoin.trader.francais.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-10-01
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

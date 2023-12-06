@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zenafinance.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2021-12-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

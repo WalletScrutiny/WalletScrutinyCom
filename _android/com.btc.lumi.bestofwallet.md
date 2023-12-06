@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btc.lumi.bestofwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-06-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

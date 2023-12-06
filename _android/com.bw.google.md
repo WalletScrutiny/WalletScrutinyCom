@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bw.google.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-04-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wasabiwallet.dev.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-04-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

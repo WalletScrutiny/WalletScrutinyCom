@@ -19,9 +19,9 @@ repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2021-12-29
+date: 2023-12-06
 signer: 
 reviewArchive:
 - date: 2020-08-29

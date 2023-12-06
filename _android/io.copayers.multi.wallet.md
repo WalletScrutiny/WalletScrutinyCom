@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.copayers.multi.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2022-01-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: eu.crystalwallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2022-03-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: CrystalWalletEU

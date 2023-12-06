@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.asiax.broker.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-11-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

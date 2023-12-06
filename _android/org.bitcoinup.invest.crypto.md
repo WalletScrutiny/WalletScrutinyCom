@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.bitcoinup.invest.crypto.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-09-23
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

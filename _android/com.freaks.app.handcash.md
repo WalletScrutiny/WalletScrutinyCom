@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.freaks.app.handcash.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2019-12-25
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: handcashapp

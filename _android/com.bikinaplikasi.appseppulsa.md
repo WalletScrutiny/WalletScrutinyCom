@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bikinaplikasi.appseppulsa.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-04-20
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

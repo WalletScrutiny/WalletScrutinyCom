@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-10-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: free.crypto.coin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-04-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

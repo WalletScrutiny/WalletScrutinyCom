@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trustdx.cryptogt.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-09-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

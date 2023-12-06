@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swift.finance.solutions.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-01-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

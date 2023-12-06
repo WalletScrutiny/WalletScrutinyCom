@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ex.exchange808.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-01-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 808TA_

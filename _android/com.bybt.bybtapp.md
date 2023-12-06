@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-11-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: bybt_com

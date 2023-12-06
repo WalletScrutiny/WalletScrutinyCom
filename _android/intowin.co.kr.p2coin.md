@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: intowin.co.kr.p2coin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-04-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

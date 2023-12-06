@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: btcmine.btcwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-07-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

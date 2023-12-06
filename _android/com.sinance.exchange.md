@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sinance.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-08-25
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

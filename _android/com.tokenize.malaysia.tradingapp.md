@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.tokenize.malaysia.tradingapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-10-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: TokenizeM

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: obfuscated
-date: 2021-07-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

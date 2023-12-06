@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.txtba.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-06-07
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

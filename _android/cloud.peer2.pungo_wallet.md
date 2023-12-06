@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2021-06-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

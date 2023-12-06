@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.xmzys.binance73.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-10-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

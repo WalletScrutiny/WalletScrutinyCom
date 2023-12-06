@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinmama.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2023-01-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: coinmama

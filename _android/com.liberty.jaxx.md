@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.liberty.jaxx.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2023-04-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: jaxx_io

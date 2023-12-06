@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hashkey.hub.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-05-26
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: HashkeyHub

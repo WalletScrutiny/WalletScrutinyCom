@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-09-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

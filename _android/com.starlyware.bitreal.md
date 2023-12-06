@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.starlyware.bitreal.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-10-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

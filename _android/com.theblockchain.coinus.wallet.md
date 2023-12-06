@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.theblockchain.coinus.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2023-03-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: CoinUs_Official

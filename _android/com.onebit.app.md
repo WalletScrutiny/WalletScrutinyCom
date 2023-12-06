@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.onebit.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-09-03
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

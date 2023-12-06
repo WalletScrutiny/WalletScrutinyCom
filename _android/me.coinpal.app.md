@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: me.coinpal.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2022-02-10
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: coinpalapp

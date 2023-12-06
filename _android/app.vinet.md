@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.vinet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2022-05-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

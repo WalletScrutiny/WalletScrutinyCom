@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trade.werewolf_exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-09-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

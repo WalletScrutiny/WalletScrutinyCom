@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchainpluswallet.plus_wallet_app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2021-06-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

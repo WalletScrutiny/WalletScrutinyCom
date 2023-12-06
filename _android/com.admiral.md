@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.admiral.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-02-03
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

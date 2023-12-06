@@ -20,9 +20,9 @@ repository:
 issue: https://github.com/OneKeyHQ/android_app/issues/1
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
-date: 2023-01-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: OneKeyHQ

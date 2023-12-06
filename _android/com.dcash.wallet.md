@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dcash.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-03-04
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

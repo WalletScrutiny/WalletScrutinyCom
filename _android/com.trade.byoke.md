@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trade.byoke.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-12-22
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

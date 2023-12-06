@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.bitindia.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-10-18
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

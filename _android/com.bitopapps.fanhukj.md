@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitopapps.fanhukj.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-01-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.cryptobubbles.bitcoin.invest.mining.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-09-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

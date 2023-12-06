@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.suponicexchange.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

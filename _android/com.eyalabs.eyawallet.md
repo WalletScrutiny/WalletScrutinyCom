@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.eyalabs.eyawallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-12-29
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

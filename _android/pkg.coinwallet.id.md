@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pkg.coinwallet.id.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2022-03-09
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.electrum.electrum99.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-04-29
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

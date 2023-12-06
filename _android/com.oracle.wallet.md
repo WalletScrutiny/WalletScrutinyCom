@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.oracle.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2022-01-31
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: Oracle_Wallet

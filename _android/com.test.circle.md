@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.test.circle.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-07-01
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

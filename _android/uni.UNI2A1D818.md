@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: uni.UNI2A1D818.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-08-05
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

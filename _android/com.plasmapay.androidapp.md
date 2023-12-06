@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.plasmapay.androidapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-11-17
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 0xPlasma

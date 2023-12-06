@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: neo.org.freewallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2023-01-02
+date: 2023-12-06
 signer: 
 reviewArchive:
 - date: 2021-05-02

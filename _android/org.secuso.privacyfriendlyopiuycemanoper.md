@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.secuso.privacyfriendlyopiuycemanoper.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-05-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

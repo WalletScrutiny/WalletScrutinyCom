@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hashcash.paybito.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2022-02-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: paybito

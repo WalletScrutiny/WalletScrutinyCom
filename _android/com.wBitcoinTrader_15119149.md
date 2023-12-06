@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wBitcoinTrader_15119149.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-01-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

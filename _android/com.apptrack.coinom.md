@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.apptrack.coinom.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
-date: 2021-07-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

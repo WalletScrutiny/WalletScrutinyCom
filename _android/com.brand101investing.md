@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.brand101investing.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
-date: 2022-04-07
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 101Investing_eu

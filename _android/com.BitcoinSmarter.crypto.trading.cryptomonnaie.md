@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-09-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

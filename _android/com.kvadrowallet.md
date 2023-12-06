@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kvadrowallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-11-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

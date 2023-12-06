@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ftxmobile.ftx.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-03-21
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: FTX_Official

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mxc.smartcity.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2023-10-16
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: mxcfoundation

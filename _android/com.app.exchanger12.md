@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.exchanger12.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2023-01-02
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

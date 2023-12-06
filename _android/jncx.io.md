@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: jncx.io.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-07-28
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

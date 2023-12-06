@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.m3.Trendo.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
-date: 2021-10-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

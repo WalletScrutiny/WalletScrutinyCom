@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinburp.mobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2022-04-07
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: coinburp

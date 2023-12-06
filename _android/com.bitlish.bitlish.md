@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitlish.bitlish.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2020-03-20
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: bitlish_com

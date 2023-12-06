@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2021-10-01
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bideskcom.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2021-08-08
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: bideskcom

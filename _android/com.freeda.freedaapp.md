@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.freeda.freedaapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2023-01-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: FreedaWallet

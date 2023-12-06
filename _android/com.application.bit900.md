@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.application.bit900.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-05-11
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

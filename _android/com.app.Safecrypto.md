@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.Safecrypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
-date: 2023-08-18
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

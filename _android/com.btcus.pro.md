@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcus.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
-date: 2022-03-07
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

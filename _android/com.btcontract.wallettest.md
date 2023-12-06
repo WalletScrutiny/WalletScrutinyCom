@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcontract.wallettest.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2022-01-15
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 

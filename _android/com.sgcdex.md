@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sgcdex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
-date: 2023-08-30
+date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 
