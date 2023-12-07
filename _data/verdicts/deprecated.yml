@@ -3,8 +3,8 @@ short: Deprecated!
 title: App is Deprecated
 color: '#d33100'
 redflag: true
-message: This product is still in use, but it will be removed in the next big release.
-question: Is the product still available despite not receiving updates?
+message: This product will be removed in the near future.
+question: Does the provider suggest to support this product for the foreseeable future?
 details: >
-  This app is still available on the app store and may still be in use but it may be removed in the next release. It is not recommended to continue using this app.
+  This product is still available and may still be in use but it is to be discontinued soon. It is not recommended to switch to alternatives now.
   
