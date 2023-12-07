@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fynzon.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-10-24
 signer: 
 reviewArchive: 
 twitter: 

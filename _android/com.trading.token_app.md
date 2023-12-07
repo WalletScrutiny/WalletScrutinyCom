@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trading.token_app.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-04-13
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

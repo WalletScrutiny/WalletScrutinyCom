@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dcctrading.co.onetapexc.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

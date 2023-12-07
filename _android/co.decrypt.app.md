@@ -11,9 +11,9 @@ appCountry:
 released: 2020-05-06
 updated: 2022-02-01
 version: 3.0.1
-stars: 4.1
+stars: 4
 ratings: 2220
-reviews: 221
+reviews: 218
 size: 
 website: https://decrypt.co/
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/decryptmedia
 redirect_from:
 - /co.decrypt.app/
-developerName: Decrypt
+developerName: Decrypt Media
 features: 
 
 ---

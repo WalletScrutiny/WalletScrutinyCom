@@ -1,6 +1,6 @@
 ---
 wsId: kastaCryptoPayments
-title: 'Kasta: Easy Crypto Payments'
+title: 'Ka.app: Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: io.kasta.app
 appCountry: 
 released: 
-updated: 2023-08-07
-version: 1.27.100-prod-0927fe2
+updated: 2023-09-25
+version: 1.27.113-prod-1cbe0a6
 stars: 
 ratings: 
 reviews: 

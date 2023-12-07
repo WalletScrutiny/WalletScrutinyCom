@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptology.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-08
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: Cryptologyexch

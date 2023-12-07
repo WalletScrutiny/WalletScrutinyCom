@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.burtarapp.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-08-27
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

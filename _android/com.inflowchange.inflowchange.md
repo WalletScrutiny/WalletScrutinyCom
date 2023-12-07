@@ -1,9 +1,9 @@
 ---
 wsId: 
-title: 'IC: Buy Bitcoin, Sell Bitcoin'
+title: 'Inflowchange: Sell Bitcoin'
 altTitle: 
 authors: 
-users: 100
+users: 10000
 appId: com.inflowchange.inflowchange
 appCountry: 
 released: 2023-02-17
@@ -19,7 +19,7 @@ issue:
 icon: com.inflowchange.inflowchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

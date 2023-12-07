@@ -7,8 +7,8 @@ users: 500
 appId: io.thisapp
 appCountry: 
 released: 2018-09-27
-updated: 2023-08-25
-version: 0.23.1
+updated: 2023-11-03
+version: 0.24.2
 stars: 
 ratings: 
 reviews: 

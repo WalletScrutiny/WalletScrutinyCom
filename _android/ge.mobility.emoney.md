@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: eMoney IT Team
+developerName: eMoney Georgia
 features: 
 
 ---

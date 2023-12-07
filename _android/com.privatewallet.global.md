@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.privatewallet.global.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2023-08-14
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

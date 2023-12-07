@@ -8,11 +8,11 @@ appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: 2022-04-07
-updated: 2023-08-29
-version: 3.2.1
+updated: 2023-10-10
+version: 3.3.5
 stars: 4.1
-reviews: 28
-size: '168570880'
+reviews: 30
+size: '168615936'
 website: https://www.bitazza.com
 repository: 
 issue: 
@@ -33,5 +33,4 @@ developerName: Bitazza Company Limited
 
 ---
 
-{% include walletLink.html wallet='android/' verdict='true' %}
-
+{% include copyFromAndroid.html %}

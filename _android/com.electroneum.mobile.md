@@ -7,11 +7,11 @@ users: 1000000
 appId: com.electroneum.mobile
 appCountry: 
 released: 2017-12-13
-updated: 2023-08-22
-version: 5.4.6
-stars: 2.9
+updated: 2023-11-20
+version: 5.4.8
+stars: 2.8
 ratings: 58803
-reviews: 2163
+reviews: 2089
 size: 
 website: http://electroneum.com
 repository: 
@@ -28,7 +28,7 @@ social:
 redirect_from:
 - /com.electroneum.mobile/
 - /posts/com.electroneum.mobile/
-developerName: Electroneum Ltd
+developerName: ETN-CWP
 features: 
 
 ---

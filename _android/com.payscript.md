@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payscript.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 

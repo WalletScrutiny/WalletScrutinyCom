@@ -6,7 +6,7 @@ const path = require('path')
 const helper = require('./helper.js')
 const { Semaphore } = require('async-mutex')
 
-const sem = new Semaphore(5)
+const sem = new Semaphore(1)
 const stats = {
   defunct: 0,
   updated: 0,
@@ -49,7 +49,7 @@ function refreshFile (fileName, content, markDefunct) {
         id: idd,
         lang: 'en',
         country: appCountry,
-        throttle: 6
+        throttle: 2
       }).then(app => {
         const iconPath = `images/wIcons/iphone/${appId}`
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {

@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: 코인미어캣 | 보조지표 알림, 검색 | 코인차트 알람
+title: 코인미어캣 - 보조지표 알림과 스크리너
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.makedelta.slying
 appCountry: kr
 idd: '1581110050'
 released: 2021-08-15
-updated: 2023-08-16
-version: 6.2.0
+updated: 2023-11-21
+version: 7.0.5
 stars: 4.8
-reviews: 116
-size: '33988608'
+reviews: 118
+size: '36718592'
 website: https://www.coinmrk.com/
 repository: 
 issue: 

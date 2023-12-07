@@ -1,6 +1,6 @@
 ---
 wsId: swissborg
-title: SwissBorg - Invest in Crypto
+title: 'SwissBorg: Buy Bitcoin, crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.swissborg.ios
 appCountry: gb
 idd: 1442483481
 released: 2020-03-31
-updated: 2023-08-24
-version: 1.67.0
+updated: 2023-11-20
+version: 1.72.0
 stars: 4.1
-reviews: 1066
-size: '106309632'
+reviews: 1095
+size: '119904256'
 website: https://swissborg.com
 repository: 
 issue: 

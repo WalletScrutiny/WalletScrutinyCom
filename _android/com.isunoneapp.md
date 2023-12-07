@@ -3,12 +3,12 @@ wsId:
 title: 'iSunOne: USDC Card'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.isunoneapp
 appCountry: 
 released: 2022-03-10
-updated: 2023-08-30
-version: 4.0.2
+updated: 2023-11-24
+version: 4.0.3
 stars: 
 ratings: 
 reviews: 

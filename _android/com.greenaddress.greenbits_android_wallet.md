@@ -8,11 +8,11 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2023-08-15
-version: 4.0.12
-stars: 4.7
+updated: 2023-11-23
+version: 4.0.18
+stars: 4.6
 ratings: 946
-reviews: 117
+reviews: 126
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-04-27
+date: 2023-11-26
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2023-04-27
+  version: 4.0.1
+  appHash: 70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
+  gitRevision: c802fff9e6ed27a7234c463edd5eae8ffe065b4a
+  verdict: nonverifiable
 - date: 2022-11-01
   version: 3.8.9
   appHash: c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
@@ -203,32 +208,148 @@ features:
 
 ---
 
-With this {% include testScript.html %} we get:
+**Update 2023-11-26**: The supposedly correct code was pushed hours after
+[this tweet]().
+We ran the script and this time got this result:
 
 ```
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.1
-apkVersionCode: 22000401
-verdict:        nonverifiable
-appHash:        70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
-commit:         c6738c5565f1c594288b7a05130fc1af89fc7561
+apkVersionName: 4.0.20
+apkVersionCode: 22000420
+verdict:        
+appHash:        12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee
+commit:         1d7e01690f0f19368c24e96b005916dca8814a17
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000420/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/classes.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000420/classes.dex differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object c6738c5565f1c594288b7a05130fc1af89fc7561
-type commit
-tag release_4.0.1
-tagger Domenico Gabriele <domenico@blockstream.com> 1681853805 +0200
 
-Release 4.0.1
 ===== End Results =====
 ```
 
-The diff for this version shows some differences in `baseline.profm` which is a binary file and we cannot verify reproducibility of this version, So we give it the verdict **nonverifiable**.
+Especially the diff in `classes.dex` is concerning and more than the prior
+version's diff. The diffoscope output is also gigantic with hundreds of diffs
+like this one:
+
+```
+│ │ ├── com/blockstream/green/di/KoinKt.class
+│ │ │ ├── procyon -ec {}
+│ │ │ │ @@ -18,22 +18,22 @@
+│ │ │ │  
+│ │ │ │  public abstract class KoinKt
+│ │ │ │  {
+│ │ │ │      public static final void startKoin(final Context context) {
+│ │ │ │          Intrinsics.checkNotNullParameter((Object)context, "context");
+│ │ │ │          final String absolutePath = context.getFilesDir().getAbsolutePath();
+│ │ │ │          Intrinsics.checkNotNullExpressionValue((Object)absolutePath, "getAbsolutePath(...)");
+│ │ │ │ -        final String s = "MVowd1VIVVBaUWd1NDlYVW5YK1lvVllmY0RoR2pmdjJCR29zbDFtWG4zND0=";
+│ │ │ │ -        final String s2 = "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tDQpNSUdIQWdFQU1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhCRzB3YXdJQkFRUWc1dFAzL05mTld0R2h4ZTlyDQo1T1diQzU0OVNIeS93NFEvZG14bTVjWWZBQnFoUkFOQ0FBUTVXaC9seW1KSUprR0c2bFNJYlVDS01WZGZUbjE3DQp6TWZ2RkdBWlVNUHo5MzBnZE55c0doUkhod3dBdUJ1UWlGdExSaXRLZzlUNXp6MjRBTDlTVnBNeQ0KLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLQ==";
+│ │ │ │ -        final String s3 = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlDcGpDQ0FrMmdBd0lCQWdJVVRZTDd3R0RhMmtvaW91eUxmTzROaW9UNjRyMHdDZ1lJS29aSXpqMEVBd0l3DQpnWU14Q3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRSUV3cERZV3hwWm05eWJtbGhNUll3RkFZRFZRUUhFdzFUDQpZVzRnUm5KaGJtTnBjMk52TVJRd0VnWURWUVFLRXd0Q2JHOWphM04wY21WaGJURWRNQnNHQTFVRUN4TVVRMlZ5DQpkR2xtYVdOaGRHVkJkWFJvYjNKcGRIa3hFakFRQmdOVkJBTVRDVWRNSUM5MWMyVnljekFlRncweU16QTBNRE13DQpPRE01TURCYUZ3MHpNekF6TXpFd09ETTVNREJhTUlHSk1Rc3dDUVlEVlFRR0V3SlZVekVUTUJFR0ExVUVDQk1LDQpRMkZzYVdadmNtNXBZVEVXTUJRR0ExVUVCeE1OVTJGdUlFWnlZVzVqYVhOamJ6RVVNQklHQTFVRUNoTUxRbXh2DQpZMnR6ZEhKbFlXMHhIVEFiQmdOVkJBc1RGRU5sY25ScFptbGpZWFJsUVhWMGFHOXlhWFI1TVJnd0ZnWURWUVFEDQpFdzlIVENBdmRYTmxjbk12WjNKbFpXNHdXVEFUQmdjcWhrak9QUUlCQmdncWhrak9QUU1CQndOQ0FBUTVXaC9sDQp5bUpJSmtHRzZsU0liVUNLTVZkZlRuMTd6TWZ2RkdBWlVNUHo5MzBnZE55c0doUkhod3dBdUJ1UWlGdExSaXRLDQpnOVQ1enoyNEFMOVNWcE15bzRHV01JR1RNQTRHQTFVZER3RUIvd1FFQXdJQnBqQWRCZ05WSFNVRUZqQVVCZ2dyDQpCZ0VGQlFjREFRWUlLd1lCQlFVSEF3SXdEQVlEVlIwVEFRSC9CQUl3QURBZEJnTlZIUTRFRmdRVVVQZDV4aVdWDQpzVTZsd3RqbVZUbDh4aVFxUmNrd0h3WURWUjBqQkJnd0ZvQVVUUTczRjFNTWJwT2l4QnRkUG9vUEpnYkRKWlF3DQpGQVlEVlIwUkJBMHdDNElKYkc5allXeG9iM04wTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUhLQTRzRHZwMjRIDQo3QjBOZTl0OEc1d1lyQnBuQms2WFBiMWFzNG40TW5xUUFpQXJRcmFRSUc1U2pVR3lSUkpBRis2Z1JtN01IajFRDQo4M2FFbWNGVy9KNld6QT09DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tDQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0NCk1JSUNpakNDQWpHZ0F3SUJBZ0lVSjA2c3lZQjFUUFJiU21URDRVQ3BUMFBtQStVd0NnWUlLb1pJemowRUF3SXcNCmZqRUxNQWtHQTFVRUJoTUNWVk14RXpBUkJnTlZCQWdUQ2tOaGJHbG1iM0p1YVdFeEZqQVVCZ05WQkFjVERWTmgNCmJpQkdjbUZ1WTJselkyOHhGREFTQmdOVkJBb1RDMEpzYjJOcmMzUnlaV0Z0TVIwd0d3WURWUVFMRXhSRFpYSjANCmFXWnBZMkYwWlVGMWRHaHZjbWwwZVRFTk1Bc0dBMVVFQXhNRVIwd2dMekFlRncweU1UQTBNall4TnpFME1EQmENCkZ3MHpNVEEwTWpReE56RTBNREJhTUlHRE1Rc3dDUVlEVlFRR0V3SlZVekVUTUJFR0ExVUVDQk1LUTJGc2FXWnYNCmNtNXBZVEVXTUJRR0ExVUVCeE1OVTJGdUlFWnlZVzVqYVhOamJ6RVVNQklHQTFVRUNoTUxRbXh2WTJ0emRISmwNCllXMHhIVEFiQmdOVkJBc1RGRU5sY25ScFptbGpZWFJsUVhWMGFHOXlhWFI1TVJJd0VBWURWUVFERXdsSFRDQXYNCmRYTmxjbk13V1RBVEJnY3Foa2pPUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVRXbE5pKzlQOFpkUmZhUDFWT09NYjkNCmUrVlN1Z0R4d3ZONDFaVGRxNWFRMXlUWEh4MmZjTXlvd29EYVNDQmc0NHJ6UEovVERPcklIMldXV0NhSG1IZ1QNCm80R0dNSUdETUE0R0ExVWREd0VCL3dRRUF3SUJwakFkQmdOVkhTVUVGakFVQmdnckJnRUZCUWNEQVFZSUt3WUINCkJRVUhBd0l3RWdZRFZSMFRBUUgvQkFnd0JnRUIvd0lCQXpBZEJnTlZIUTRFRmdRVVRRNzNGMU1NYnBPaXhCdGQNClBvb1BKZ2JESlpRd0h3WURWUjBqQkJnd0ZvQVV6cUZyNmp2bHgzYmxadFlhcGNaSFZZcE9LU013Q2dZSUtvWkkNCnpqMEVBd0lEUndBd1JBSWdKdmdKOGVoS3gwVmVuTXlVVC9NUlhsbUNsQVJjMU5wMzkvRmJwNEdJYmQ4Q0lHaGsNCk1LVmNEQTVpdVFaN3hoWlUxUzhQT2gxTDl1VDM1VWtFNyt4bUdOanINCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0NCi0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLQ0KTUlJQ1lqQ0NBZ2lnQXdJQkFnSVVERXcyb3NOQnIrSDFvNFdDdlBTUklqTnpVelF3Q2dZSUtvWkl6ajBFQXdJdw0KZmpFTE1Ba0dBMVVFQmhNQ1ZWTXhFekFSQmdOVkJBZ1RDa05oYkdsbWIzSnVhV0V4RmpBVUJnTlZCQWNURFZOaA0KYmlCR2NtRnVZMmx6WTI4eEZEQVNCZ05WQkFvVEMwSnNiMk5yYzNSeVpXRnRNUjB3R3dZRFZRUUxFeFJEWlhKMA0KYVdacFkyRjBaVUYxZEdodmNtbDBlVEVOTUFzR0ExVUVBeE1FUjB3Z0x6QWVGdzB5TVRBME1qWXhOekUwTURCYQ0KRncwek1UQTBNalF4TnpFME1EQmFNSDR4Q3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRSUV3cERZV3hwWm05eQ0KYm1saE1SWXdGQVlEVlFRSEV3MVRZVzRnUm5KaGJtTnBjMk52TVJRd0VnWURWUVFLRXd0Q2JHOWphM04wY21WaA0KYlRFZE1Cc0dBMVVFQ3hNVVEyVnlkR2xtYVdOaGRHVkJkWFJvYjNKcGRIa3hEVEFMQmdOVkJBTVRCRWRNSUM4dw0KV1RBVEJnY3Foa2pPUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVRwODNrNFNxUTVnZUdScElwRHVVMjB2clp6OHFKOA0KZUJEWWJXM25JbEM4VU0vUHpWQlNOQS9NcVdsQWFtQjNZR0srVmxnc0VNYmVPVVdFTTRjOXp0VmxvMlF3WWpBTw0KQmdOVkhROEJBZjhFQkFNQ0FhWXdIUVlEVlIwbEJCWXdGQVlJS3dZQkJRVUhBd0VHQ0NzR0FRVUZCd01DTUJJRw0KQTFVZEV3RUIvd1FJTUFZQkFmOENBUU13SFFZRFZSME9CQllFRk02aGErbzc1Y2QyNVdiV0dxWEdSMVdLVGlrag0KTUFvR0NDcUdTTTQ5QkFNQ0EwZ0FNRVVDSUdCa2p5cDFOZC9tL2IzakVBVW14QWlzcUNhaHVRVVB1eVFySXdvMA0KWkYvOUFpRUFzWjhxWmZrVVpIMllhN3k2Y2NGVERwcy9haHNGV1NyUmFvOHJ1M3loaHJzPQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ==";
+│ │ │ │ +        final String s = "";
+│ │ │ │ +        final String s2 = "";
+│ │ │ │ +        final String s3 = "";
+│ │ │ │          final boolean boolean1 = context.getResources().getBoolean(R$bool.feature_analytics);
+│ │ │ │          final boolean boolean2 = context.getResources().getBoolean(R$bool.feature_lightning);
+│ │ │ │          final int n = 1;
+│ │ │ │          int n2;
+│ │ │ │ -        if (boolean2 && ((StringsKt.isBlank((CharSequence)"MVowd1VIVVBaUWd1NDlYVW5YK1lvVllmY0RoR2pmdjJCR29zbDFtWG4zND0=") ? 1 : 0) ^ n)) {
+│ │ │ │ +        if (boolean2 && ((StringsKt.isBlank((CharSequence)"") ? 1 : 0) ^ n)) {
+```
+
+`s3` appears to be multiple certificates base64 encoded:
+
+```
+-----BEGIN CERTIFICATE-----
+MIICpjCCAk2gAwIBAgIUTYL7wGDa2koiouyLfO4NioT64r0wCgYIKoZIzj0EAwIw
+gYMxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T
+YW4gRnJhbmNpc2NvMRQwEgYDVQQKEwtCbG9ja3N0cmVhbTEdMBsGA1UECxMUQ2Vy
+dGlmaWNhdGVBdXRob3JpdHkxEjAQBgNVBAMTCUdMIC91c2VyczAeFw0yMzA0MDMw
+ODM5MDBaFw0zMzAzMzEwODM5MDBaMIGJMQswCQYDVQQGEwJVUzETMBEGA1UECBMK
+Q2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEUMBIGA1UEChMLQmxv
+Y2tzdHJlYW0xHTAbBgNVBAsTFENlcnRpZmljYXRlQXV0aG9yaXR5MRgwFgYDVQQD
+Ew9HTCAvdXNlcnMvZ3JlZW4wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQ5Wh/l
+ymJIJkGG6lSIbUCKMVdfTn17zMfvFGAZUMPz930gdNysGhRHhwwAuBuQiFtLRitK
+g9T5zz24AL9SVpMyo4GWMIGTMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggr
+BgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUUPd5xiWV
+sU6lwtjmVTl8xiQqRckwHwYDVR0jBBgwFoAUTQ73F1MMbpOixBtdPooPJgbDJZQw
+FAYDVR0RBA0wC4IJbG9jYWxob3N0MAoGCCqGSM49BAMCA0cAMEQCIHKA4sDvp24H
+7B0Ne9t8G5wYrBpnBk6XPb1as4n4MnqQAiArQraQIG5SjUGyRRJAF+6gRm7MHj1Q
+83aEmcFW/J6WzA==
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIICijCCAjGgAwIBAgIUJ06syYB1TPRbSmTD4UCpT0PmA+UwCgYIKoZIzj0EAwIw
+fjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh
+biBGcmFuY2lzY28xFDASBgNVBAoTC0Jsb2Nrc3RyZWFtMR0wGwYDVQQLExRDZXJ0
+aWZpY2F0ZUF1dGhvcml0eTENMAsGA1UEAxMER0wgLzAeFw0yMTA0MjYxNzE0MDBa
+Fw0zMTA0MjQxNzE0MDBaMIGDMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZv
+cm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEUMBIGA1UEChMLQmxvY2tzdHJl
+YW0xHTAbBgNVBAsTFENlcnRpZmljYXRlQXV0aG9yaXR5MRIwEAYDVQQDEwlHTCAv
+dXNlcnMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATWlNi+9P8ZdRfaP1VOOMb9
+e+VSugDxwvN41ZTdq5aQ1yTXHx2fcMyowoDaSCBg44rzPJ/TDOrIH2WWWCaHmHgT
+o4GGMIGDMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYB
+BQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBAzAdBgNVHQ4EFgQUTQ73F1MMbpOixBtd
+PooPJgbDJZQwHwYDVR0jBBgwFoAUzqFr6jvlx3blZtYapcZHVYpOKSMwCgYIKoZI
+zj0EAwIDRwAwRAIgJvgJ8ehKx0VenMyUT/MRXlmClARc1Np39/Fbp4GIbd8CIGhk
+MKVcDA5iuQZ7xhZU1S8POh1L9uT35UkE7+xmGNjr
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIICYjCCAgigAwIBAgIUDEw2osNBr+H1o4WCvPSRIjNzUzQwCgYIKoZIzj0EAwIw
+fjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh
+biBGcmFuY2lzY28xFDASBgNVBAoTC0Jsb2Nrc3RyZWFtMR0wGwYDVQQLExRDZXJ0
+aWZpY2F0ZUF1dGhvcml0eTENMAsGA1UEAxMER0wgLzAeFw0yMTA0MjYxNzE0MDBa
+Fw0zMTA0MjQxNzE0MDBaMH4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9y
+bmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRQwEgYDVQQKEwtCbG9ja3N0cmVh
+bTEdMBsGA1UECxMUQ2VydGlmaWNhdGVBdXRob3JpdHkxDTALBgNVBAMTBEdMIC8w
+WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATp83k4SqQ5geGRpIpDuU20vrZz8qJ8
+eBDYbW3nIlC8UM/PzVBSNA/MqWlAamB3YGK+VlgsEMbeOUWEM4c9ztVlo2QwYjAO
+BgNVHQ8BAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBIG
+A1UdEwEB/wQIMAYBAf8CAQMwHQYDVR0OBBYEFM6ha+o75cd25WbWGqXGR1WKTikj
+MAoGCCqGSM49BAMCA0gAMEUCIGBkjyp1Nd/m/b3jEAUmxAisqCahuQUPuyQrIwo0
+ZF/9AiEAsZ8qZfkUZH2Ya7y6ccFTDps/ahsFWSrRao8ru3yhhrs=
+-----END CERTIFICATE-----
+```
+
+but thousands of lines like these:
+
+```
+│ │ -3a138a: 1a02 8623                              |004b: const-string v2, ".code" // string@2386
+│ │ -3a138e: 7130 1300 4102                         |004d: invoke-static {v1, v4, v2}, La/b;.j:(Ljava/lang/String;Lbreez_sdk/RustCallStatus;Ljava/lang/String;)Ljava/lang/String; // method@0013
+│ │ -3a1394: 0c04                                   |0050: move-result-object v4
+│ │ -3a1396: 7020 db98 4000                         |0051: invoke-direct {v0, v4}, Lbreez_sdk/InternalException;.<init>:(Ljava/lang/String;)V // method@98db
+```
+
+are a bit harder to make sense of.
+
+This product is **not verifiable**.
+
+Prior this was the result:
+
+With this {% include testScript.html %} we get:
+
+```
+...
++ git clone --quiet --branch release_4.0.20 --depth 1 https://github.com/Blockstream/green_android/ app
+warning: Could not find remote branch release_4.0.20 to clone.
+fatal: Remote branch release_4.0.20 not found in upstream origin
++ exit 1
+```
+
+In the best case the provider forgot to tag the released source code and we can
+just compile the latest version and confirm its reproducibility but in this
+case, the source code is missing. Checking
+[recent commits](https://github.com/Blockstream/green_android/commits/master)
+we see
+[Increment to version 4.0.19](https://github.com/Blockstream/green_android/commit/5839c9b7cd28eec6c5992715df28adf33de0822a)
+as the last commit and it's not a typo. This commit sets the version to 4.0.19
+and the file we got from Google Play was 4.0.20. This version is
+**not verifiable**!
+
+For the record, the file we have here has the sha256 hash
+`12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee`.

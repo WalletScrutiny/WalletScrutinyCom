@@ -7,8 +7,8 @@ users: 500
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
-updated: 2021-04-12
-version: 1.0.4
+updated: 2023-10-27
+version: 3.3.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.gleec.com.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-04-22
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: 

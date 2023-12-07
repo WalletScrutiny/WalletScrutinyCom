@@ -1,7 +1,6 @@
 {% assign meta = include.meta %}
 {% assign verdict = include.verdict %}
 {% assign platform = include.platform %}
-
 <div class="steps linked">
   {% include /review/steps/developer.html %}
   {% include /review/steps/custody.html platform=platform %}
@@ -9,19 +8,10 @@
   {% include /review/steps/releases.html %}
   <!-- {% include /review/steps/privacy.html %} -->
   {% include /review/steps/applicationBuild.html %}
-
-
-  
-
   {% if include.filterPlatform=='true' %}
-  <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
-
-
-  {% include /review/steps/distribution.html platform=platform %}
-  
-
+    <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
+    {% include /review/steps/distribution.html platform=platform %}
   {% endif %}
-  
   {% include /review/steps/platformNotes.html platform=platform %}
   {% include /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
 </div>

@@ -11,7 +11,7 @@ released: 2022-11-09
 updated: 2023-07-22
 version: 5.8.1
 stars: 4.8
-reviews: 288
+reviews: 286
 size: '174337024'
 website: https://www.zke.com/
 repository: 

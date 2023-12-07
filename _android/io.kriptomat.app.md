@@ -4,12 +4,12 @@ title: 'Kriptomat: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
-updated: 2023-08-24
-version: 3.4.0
+updated: 2023-11-16
+version: 4.1.0
 stars: 
 ratings: 
 reviews: 

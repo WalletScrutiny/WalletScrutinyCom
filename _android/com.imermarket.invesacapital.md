@@ -7,8 +7,8 @@ users: 5000
 appId: com.imermarket.invesacapital
 appCountry: 
 released: 
-updated: 2023-09-01
-version: 2.6.3
+updated: 2023-09-20
+version: 2.6.4
 stars: 
 ratings: 
 reviews: 
@@ -19,8 +19,8 @@ issue:
 icon: com.imermarket.invesacapital.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosendreceive
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +31,17 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Mobile Trading allows for a complete control of their trading accounts and transactions anywhere, anytime from the comfort of their portable device.
+>
+> - 300+ Global Instruments from 5 asset classes across Forex, Cryptocurrencies, Commodities, Shares and Indices
+> - Free Educational Material (Trading Glossary, Insightful Tips, Economic Calendar & more)
+> - Variety of Account Types with minimum deposit of €250
+> - 100K Free Demo Account
+
+## Analysis 
+
+- [Deposits](https://www.invesacapital.com/international/faqs/deposit/#q01) are only possible through credit/debit cards, electronic payment, and wire transfer. Withdrawals are processed in the same way as deposits.
+- CFD BTCUSD is available for trading. 
+- This means that the app **cannot send/receive actual bitcoins**, but the user can buy or sell CFDs representing the cryptocurrencies. The app therefore, is **non-verifiable**.

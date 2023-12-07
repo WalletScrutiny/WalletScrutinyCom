@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.scdigital.nkabexchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-09
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

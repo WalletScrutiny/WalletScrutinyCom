@@ -4,15 +4,15 @@ title: کیف پول من
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: kifpool.me
 appCountry: 
 released: 2022-09-13
 updated: 2022-12-11
 version: '1.7'
-stars: 3.9
+stars: 4
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: 
 repository: 

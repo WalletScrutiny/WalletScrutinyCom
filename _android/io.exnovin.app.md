@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exnovin - اکس نوین | بازار معا
+title: Exnovin اکسنوین | بازار رمزارز
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: io.exnovin.app
 appCountry: 
 released: 2020-12-12
-updated: 2023-08-27
-version: 2.10.2
+updated: 2023-11-18
+version: 2.10.4
 stars: 4.1
 ratings: 930
 reviews: 19
@@ -34,7 +34,7 @@ features:
 
 ---
 
-There are two apps with the same name of {% include walletLink.html wallet='com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
+There are two apps with the same name of {% include walletLink.html wallet='android/com.exnovin' verdict='true' %}. Both appear to be created by the same developer [Team App E](https://play.google.com/store/apps/developer?id=Team+App+E). Both are Iranian. However, both have different website domains. This specific app links to [exnovin.io](https://exnovin.io).
 
 This is an exchange, with [terms and conditions](https://exnovin.io/terms/). 
 

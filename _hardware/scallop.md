@@ -35,6 +35,26 @@ features:
 
 ---
 
+## Notes on affiliated products 
+
+The provider currently has these products
+
+### Android
+
+- {% include walletLink.html wallet='android/com.scallopxledger' verdict='true' %}
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+
+### iOS
+
+- {% include walletLink.html wallet='android/com.chainup.exchange.Exchange' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.scallop.exchange.SCLPExchange' verdict='true' %}
+
+### Hardware 
+
+- {% include walletLink.html wallet='hardware/scallop' verdict='true' %}
+
+## Previous Analysis 2022-04-04
+
 **⚠️ Note:** Apart from a few renderings of a card-like hardware wallet and a rebranded ledger, we were not able to locate another picture of the hardware wallet. 
 
 The Scallop project is a "neobank plus blockchain" project that held an Initial Bounty Offering (IBO) or Initial Blockchain Offering (as noted in other places). It has a suite of products that include debit cards, fiat to cryptocurrency exchange accounts, mobile app and banking accounts. They also have a coin which is self-described as a BEP20 and ERC20 token at the same time. It is further described as a DeFi powered banking application in its [whitepaper](https://scallop-bucket.s3.eu-west-1.amazonaws.com/upload_file/Whitepaper.pdf). The project also dabbles in NFTs.

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bigminebitcoin1rd0.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-10-21
+date: 2023-10-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,0 +1,35 @@
+---
+wsId: vynksafeCryptoExchange
+title: VYNKSAFE | Crypto App
+altTitle: 
+authors:
+- danny
+appId: com.pixels.vynksafe
+appCountry: in
+idd: '1626971774'
+released: 2022-06-21
+updated: 2023-10-25
+version: '1.4'
+stars: 3.7
+reviews: 3
+size: '27278336'
+website: https://vynksafe.com
+repository: 
+issue: 
+icon: com.pixels.vynksafe.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2023-10-30
+signer: 
+reviewArchive: 
+twitter: vynkgroup
+social:
+- https://www.linkedin.com/in/vynkchain-community-59b283208
+- https://t.me/VYNKCHAIN
+features: 
+developerName: VYNK BLOCK TECHNOLOGIES PRIVATE LIMITED
+
+---
+
+{% include copyFromAndroid.html %}

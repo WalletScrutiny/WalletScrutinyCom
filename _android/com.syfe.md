@@ -1,6 +1,6 @@
 ---
 wsId: syfeInvest
-title: 'Syfe: Invest Better'
+title: 'Syfe: Stay Invested'
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2023-09-01
-version: 9.2.0
-stars: 3.6
+updated: 2023-11-29
+version: 9.8.1
+stars: 3.7
 ratings: 
 reviews: 4
 size: 
 website: https://www.syfe.com
 repository: 
 issue: 
-icon: com.syfe.png
+icon: com.syfe.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive

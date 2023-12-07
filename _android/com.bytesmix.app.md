@@ -8,11 +8,11 @@ users: 10000
 appId: com.bytesmix.app
 appCountry: cn
 released: 2019-08-11
-updated: 2023-05-25
-version: 2.4.6
+updated: 2023-09-29
+version: 2.4.7
 stars: 3.7
 ratings: 400
-reviews: 286
+reviews: 278
 size: 
 website: https://www.bytesmix.com
 repository: 

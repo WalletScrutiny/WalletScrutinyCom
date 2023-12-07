@@ -4,15 +4,15 @@ title: El Dorado - Wallet & Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.eldorado.app
 appCountry: 
 released: 2022-04-19
-updated: 2023-08-23
-version: 1.3.590
+updated: 2023-11-02
+version: 1.3.662
 stars: 4.8
 ratings: 
-reviews: 57
+reviews: 95
 size: 
 website: https://eldorado.io
 repository: 

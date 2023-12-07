@@ -4,7 +4,7 @@ title: IC Markets
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.icmarkets.mobileapp
 appCountry: 
 released: 2022-01-19
@@ -12,7 +12,7 @@ updated: 2022-06-22
 version: '2.0'
 stars: 4.2
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://icmarkets.com
 repository: 

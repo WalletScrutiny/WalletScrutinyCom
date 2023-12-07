@@ -1,6 +1,6 @@
 ---
 wsId: CoinDCXPro
-title: CoinDCX:Bitcoin Investment App
+title: CoinDCX:Trade Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.coindcx.btc
 appCountry: 
 released: 2020-12-09
-updated: 2023-09-01
-version: 6.00.0010
-stars: 4.5
+updated: 2023-11-24
+version: 6.13.0010
+stars: 4.3
 ratings: 231093
-reviews: 570
+reviews: 586
 size: 
 website: https://go.coindcx.com/
 repository: 

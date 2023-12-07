@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zbpro.global.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-17
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: ZBexchange

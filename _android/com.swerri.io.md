@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.swerri.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-12
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: Swerriapp

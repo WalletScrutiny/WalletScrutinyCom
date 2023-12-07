@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.edc.crocobit.wallets.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-07-17
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

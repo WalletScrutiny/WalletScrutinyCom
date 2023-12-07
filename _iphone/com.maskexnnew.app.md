@@ -8,11 +8,11 @@ appId: com.maskexnnew.app
 appCountry: us
 idd: '1600880394'
 released: 2021-12-22
-updated: 2023-07-27
-version: 2.0.6
-stars: 5
-reviews: 5
-size: '79128576'
+updated: 2023-09-13
+version: 2.0.7
+stars: 4.3
+reviews: 6
+size: '77642752'
 website: https://maskex.com/en
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.bit.eu
 appCountry: 
 released: 2019-07-03
-updated: 2022-08-22
-version: 1.12.2
+updated: 2023-10-03
+version: 1.12.3
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bit.eu.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-08-18
+date: 2023-10-09
 signer: 
 reviewArchive: 
 twitter: BiteeuExchange

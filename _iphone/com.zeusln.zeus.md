@@ -10,9 +10,9 @@ released: 2021-04-22
 updated: 2023-07-31
 version: v0.7.7
 stars: 4.8
-reviews: 41
+reviews: 43
 size: '62602240'
-website: https://ZeusLN.app
+website: https://zeusln.app/
 repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
 icon: com.zeusln.zeus.jpg
@@ -26,7 +26,7 @@ twitter: ZeusLN
 social: 
 features:
 - ln
-developerName: Zeus LN LLC
+developerName: Atlas 21 Inc.
 
 ---
 

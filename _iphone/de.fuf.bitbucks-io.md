@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: de.fuf.bitbucks-io.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-12-17
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: bit_bucks

@@ -23,12 +23,12 @@ node -e "require(\"./refreshApps\").refresh($markDefunct, \"$apps\")"
 
 echo "Refreshing donations page ..."
 node refreshDonations.js $btcPayKey
-
 wait
 
 if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   ./updateImages.sh
 fi
+node scripts/twitterCardGen.mjs
 
 wait
 

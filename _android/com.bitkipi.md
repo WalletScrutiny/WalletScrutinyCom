@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitkipi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-12
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

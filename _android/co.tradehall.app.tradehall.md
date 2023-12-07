@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: tradehallCFD
 title: Tradehall
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: co.tradehall.app.tradehall
 appCountry: 
@@ -19,15 +20,31 @@ issue:
 icon: co.tradehall.app.tradehall.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosendreceive
+date: 2023-09-05
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.facebook.com/Tradehall.co
+- https://www.instagram.com/tradehall_ltd
 redirect_from: 
 developerName: Tradehall Pte Ltd
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Trade the markets with leverages on Forex, Shares, Commodities, CryptoCurrencies, Indices, and others.
+>
+> Instant deposits to your wallet and trading account.Fast Withdrawals
+
+## Analysis 
+
+- This app is related to MetaTrader5.
+- The app allows users to trade in [cryptocurrency CFDs](https://tradehall.co/cryptocurrency/). 
+- Under deposit/withdrawal options, they list the following: 
+  > ...credit cards, multiple electronic payment methods, bank wire transfer, local bank transfer, and other payment methods.
+
+Since the app allows users to trade in cryptocurrency CFDs, no 'real' cryptocurrencies are transferred. Rather, the user is provided an account wherein he can deposit using the payment methods specified. The account therefore, **cannot send or receive cryptocurrencies.**

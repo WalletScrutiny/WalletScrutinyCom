@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-01-04
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: currencycom

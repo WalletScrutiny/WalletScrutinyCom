@@ -8,11 +8,11 @@ appId: com.spotware.ct
 appCountry: my
 idd: '767428811'
 released: 2013-12-05
-updated: 2023-08-02
-version: 4.8.54440
+updated: 2023-09-15
+version: 4.8.54452
 stars: 4.8
-reviews: 196
-size: '207913984'
+reviews: 229
+size: '208281600'
 website: http://marketing.spotware.com
 repository: 
 issue: 

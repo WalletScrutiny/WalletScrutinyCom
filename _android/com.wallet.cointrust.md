@@ -9,9 +9,9 @@ appCountry:
 released: 2022-12-13
 updated: 2022-12-14
 version: '1.0'
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: 
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinTrust Inc
+developerName: MintMyBitcoin | Cloud Services
 features: 
 
 ---

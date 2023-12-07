@@ -10,18 +10,18 @@ appCountry:
 released: 2022-06-15
 updated: 2022-11-07
 version: 1.2.9
-stars: 4.2
+stars: 
 ratings: 
-reviews: 1
+reviews: 
 size: 
 website: https://kickex.com/en
 repository: 
 issue: 
 icon: com.kickex.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-17
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: kickexcom

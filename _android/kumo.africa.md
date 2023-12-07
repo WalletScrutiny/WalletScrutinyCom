@@ -7,7 +7,7 @@ users: 100
 appId: kumo.africa
 appCountry: 
 released: 2022-06-03
-updated: 2023-08-20
+updated: 2023-10-02
 version: 5.0.5
 stars: 
 ratings: 

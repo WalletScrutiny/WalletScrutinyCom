@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ahd985.wedge.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-18
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: wedgefinancial

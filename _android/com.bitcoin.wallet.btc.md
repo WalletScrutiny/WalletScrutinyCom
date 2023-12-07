@@ -12,7 +12,7 @@ updated: 2023-06-29
 version: 3.0.7
 stars: 4.4
 ratings: 6495
-reviews: 305
+reviews: 304
 size: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet

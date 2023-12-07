@@ -3,7 +3,7 @@ wsId:
 title: Newton - Buy Bitcoin
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: co.newton.newtonus
 appCountry: 
 released: 2022-07-22
@@ -19,7 +19,7 @@ issue:
 icon: co.newton.newtonus.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

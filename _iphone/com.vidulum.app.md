@@ -10,8 +10,8 @@ idd: 1505859171
 released: 2020-07-28
 updated: 2023-07-20
 version: 1.5.3
-stars: 4.4
-reviews: 13
+stars: 4.3
+reviews: 12
 size: '69446656'
 website: https://vidulum.app
 repository: 

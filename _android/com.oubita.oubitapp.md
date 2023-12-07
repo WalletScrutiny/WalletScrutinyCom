@@ -3,7 +3,7 @@ wsId:
 title: 'Oubita: Buy Bitcoin'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.oubita.oubitapp
 appCountry: 
 released: 

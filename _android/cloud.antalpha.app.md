@@ -3,12 +3,12 @@ wsId:
 title: Antalpha
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: cloud.antalpha.app
 appCountry: 
 released: 2023-02-21
-updated: 2023-09-04
-version: 2.2.0
+updated: 2023-11-20
+version: 2.5.1
 stars: 
 ratings: 
 reviews: 

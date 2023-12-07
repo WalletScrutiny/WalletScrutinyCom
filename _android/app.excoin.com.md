@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.excoin.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-04-19
+date: 2023-09-11
 signer: 
 reviewArchive: 
 twitter: 

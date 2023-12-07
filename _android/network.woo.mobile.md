@@ -4,12 +4,12 @@ title: 'WOO X: Buy Crypto & BTC'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: network.woo.mobile
 appCountry: 
 released: 2021-12-17
-updated: 2023-08-31
-version: 3.10.1
+updated: 2023-11-17
+version: 3.15.0
 stars: 4.1
 ratings: 
 reviews: 9
@@ -17,7 +17,7 @@ size:
 website: https://woo.org/
 repository: 
 issue: 
-icon: network.woo.mobile.jpg
+icon: network.woo.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial

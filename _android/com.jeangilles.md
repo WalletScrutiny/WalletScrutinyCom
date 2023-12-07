@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-01
 updated: 2023-07-15
 version: 1.4.0
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://jgcapitalbitcoin.com/
 repository: 

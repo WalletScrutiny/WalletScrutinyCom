@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.stxr.structure.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2023-05-05
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: structure_fi

@@ -1,6 +1,6 @@
 ---
 wsId: letsBit
-title: Let’sBit · Tarjeta cripto
+title: 'Let’sBit: Tu billetera virtual'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
 released: 2022-12-07
-updated: 2023-09-04
-version: 1.16.0
-stars: 4.6
-reviews: 127
-size: '43467776'
+updated: 2023-10-26
+version: 1.20.0
+stars: 4.5
+reviews: 176
+size: '38423552'
 website: https://www.letsbit.io
 repository: 
 issue: 

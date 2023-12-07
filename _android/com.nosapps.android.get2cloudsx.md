@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.nosapps.android.get2cloudsx.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-05-31
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

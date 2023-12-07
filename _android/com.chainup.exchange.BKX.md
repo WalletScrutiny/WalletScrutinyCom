@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.chainup.exchange.BKX.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Rubicon Korea LLC
+developerName: 뉴럴엔진
 features: 
 
 ---

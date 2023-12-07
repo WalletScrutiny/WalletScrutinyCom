@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
-updated: 2023-08-31
-version: '0.98'
-stars: 3.5
+updated: 2023-11-21
+version: 1.0.6
+stars: 3
 ratings: 8237
-reviews: 36
+reviews: 24
 size: 
 website: https://www.bitexen.com
 repository: 
@@ -33,6 +33,16 @@ developerName: Bitexen Teknoloji A.Ş.
 features: 
 
 ---
+
+## Notes on Similar Apps
+
+This app has the same brand identity with:
+- {% include walletLink.html wallet='android/com.bitexenglobal.exchangeapp' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.bitexenglobal.exchangeapp' verdict='true' %} 
+
+- Both apps come from the same developer: [Bitexen Teknoloji A.Ş.](https://play.google.com/store/apps/developer?id=Bitexen+Teknoloji+A.%C5%9E.)
+- Both apps are referred to from the same domain name, with a difference in the subdomain. For Bitexen Global, global.bitexen.com. For Bitexen Exchange, bitexen.com 
+- There is a difference in the primary language for each app. Bitexen Exchange is primarily in Turkish with business offices in Istanbul. Bitexen Global is in English with its business headquarters in Lithuania.
 
 ## Updated Review
 

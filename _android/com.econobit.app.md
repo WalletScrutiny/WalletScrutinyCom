@@ -7,8 +7,8 @@ users: 10
 appId: com.econobit.app
 appCountry: 
 released: 2020-01-29
-updated: 2021-09-13
-version: 0.1.7
+updated: 2023-11-06
+version: 0.1.8
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.econobit.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-09-04
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: 

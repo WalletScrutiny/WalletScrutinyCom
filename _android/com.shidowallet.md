@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: shidoWalletDefi
 title: Shido Wallet | DeFi Crypto
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.shidowallet
 appCountry: 
@@ -11,7 +12,7 @@ updated: 2023-07-28
 version: '1.8'
 stars: 4.9
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://shido.io
 repository: 
@@ -19,15 +20,37 @@ issue:
 icon: com.shidowallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-08-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: ShidoGlobal
+social:
+- https://www.linkedin.com/in/shido-global-522554261
+- https://discord.com/invite/9zvD93q5dW
+- https://t.me/ShidoGlobal
+- https://www.youtube.com/@ShidoGlobal
+- https://www.facebook.com/ShidoGlobal
+- https://www.instagram.com/shidoglobal
+- https://www.reddit.com/r/ShidoInuOfficial
 redirect_from: 
 developerName: Shido Finance
 features: 
 
 ---
 
+## App Description from Google Play
+
+> A Next Generation DeFi Wallet - Shido Wallet has a unique set of features that brings DeFi one step closer to mass adoption.
+>
+> A Crypto Wallet truly for the people with a focus on security, quality and usability. We have developed a Tier 1 Wallet that keeps you in control of your funds at all times. Boosting special features like inbuilt Cross-Chain Dex, Price alerts, Full Fiat On & Off Ramp Solution, NFT Gallery, Ledger Support and Custom Built Web3 Browser.
+>
+> Most importantly, your assets are safe with Shido Wallet. We have implemented a Biometric 2-Layer Security and authentication as additional layers of security besides your wallet's private password.
+
+## Analysis 
+
+- We installed the app, and it gave us a 12-word mnemonic then a 6-digit passphrase. 
+- A Bech32 BTC address is available to send and receive
+- We find no references regarding source-availability.
+- We searched GitHub Code for the app ID and found [0 results](https://github.com/search?q=com.shidowallet&type=code). 
+- This app is **not source-available.**

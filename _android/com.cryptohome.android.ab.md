@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptohome.android.ab.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

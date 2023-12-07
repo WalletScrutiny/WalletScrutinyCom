@@ -8,11 +8,11 @@ appId: mn.telexa.app.www
 appCountry: mn
 idd: '1596968900'
 released: 2021-12-02
-updated: 2023-06-28
-version: '6.3'
-stars: 4.8
-reviews: 2622
-size: '55018496'
+updated: 2023-11-01
+version: '7.6'
+stars: 4.7
+reviews: 3157
+size: '56816640'
 website: https://www.telexa.mn/
 repository: 
 issue: 

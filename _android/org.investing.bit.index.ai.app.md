@@ -3,7 +3,7 @@ wsId:
 title: Bit Index AI
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: org.investing.bit.index.ai.app
 appCountry: 
 released: 2023-01-24
@@ -19,7 +19,7 @@ issue:
 icon: org.investing.bit.index.ai.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -7,8 +7,8 @@ users: 100
 appId: singular.defi.app
 appCountry: 
 released: 2021-11-25
-updated: 2023-07-31
-version: '2.4'
+updated: 2023-10-23
+version: '2.5'
 stars: 
 ratings: 
 reviews: 

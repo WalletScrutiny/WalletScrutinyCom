@@ -8,11 +8,11 @@ appId: com.babbltd.babb-ios
 appCountry: us
 idd: '1474391121'
 released: 2020-04-14
-updated: 2023-09-06
-version: 2.1.1
+updated: 2023-11-27
+version: 2.2.1
 stars: 4.4
-reviews: 82
-size: '58132480'
+reviews: 83
+size: '35113984'
 website: https://getbabb.com/
 repository: 
 issue: 
