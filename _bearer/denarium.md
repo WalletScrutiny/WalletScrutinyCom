@@ -21,7 +21,7 @@ issue:
 icon: denarium.png
 bugbounty: 
 meta: discontinued
-verdict: sealed-plainkey
+verdict: prefilled
 date: 2023-12-07
 signer: 
 reviewArchive: 
