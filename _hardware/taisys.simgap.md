@@ -32,7 +32,7 @@ features:
 
 ## Product Description
 
-This product was mentioned in a [press release](https://www.prnewswire.com/in/news-releases/taisys-introduces-the-smallest-hardware-wallet-in-the-world-for-crypto-301737343.html).
+This product was mentioned in a [press release](http://taisys.io/news-detail?lang=&id=39d4VQN4kyFspmAwER3_9V6sTZbvIP1IYQQkIBdjyw).
 
 It is described as:
 
