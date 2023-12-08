@@ -21,7 +21,7 @@ issue:
 icon: whitewolf.technology.nfc.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: nowallet
 date: 2023-12-07
 signer: 
 reviewArchive: 
@@ -65,4 +65,8 @@ With no other information about the company or links to a GitHub repository, thi
 
 The product has no product page, and no links to a GitHub repository. The single page on the site describes the process of using the cards. 
 
-This is a **do-it-yourself** project.
+[Leo](../../authors/leo):
+
+  > It's an authentication token not able to sign transactions or even hold private bitcoin keys. It can be used in conjunction with a wallet to proof the presence of the device. A TAN generator basically.
+
+This is **not a bitcoin wallet**.

@@ -46,7 +46,6 @@ The user manual could be accessed [here.](https://denarium.com/user-manual/index
 
 Denarium mentioned that they also have two series' of coins: the E-series and the L-series. The E-series are not pre-loaded with Bitcoin. 
 
-Based on the description, all of their coins' private keys involve the inspection by the CEO, Henry Brade, the CPO, Viljami Räisä, or both. 
-This makes the product prefilled
+Based on the description, all of their coins' private keys involve the inspection by the CEO, Henry Brade, the CPO, Viljami Räisä, or both. This makes the product **prefilled.**
 
 The closing sale [concluded on July 20, 2020](https://denarium.com/announcing-the-denarium-closing-sale/index.html). 

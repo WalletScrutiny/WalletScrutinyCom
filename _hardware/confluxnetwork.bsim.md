@@ -50,4 +50,4 @@ The BSIM has been mentioned in an [article](https://www.coindesk.com/markets/202
 It is now December 2023, and apart from numerous press-releases back in May, we have not seen the device in action. 
 The latest information about the {{ page.title }} is the development of open APIs for the BSIM wallet, and the introduction of BSIM account support.
 
-We will mark this as **unreleased** until further notice.
+We will mark this as **unreleased** until further notice. Moreover, there is a high likelihood that this is **not Bitcoin-specific**. 
