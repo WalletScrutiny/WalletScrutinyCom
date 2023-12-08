@@ -20,7 +20,7 @@ issue:
 icon: taisys.simgap.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: unreleased
 date: 2023-12-07
 signer: 
 reviewArchive: 
