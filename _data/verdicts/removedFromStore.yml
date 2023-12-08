@@ -1,12 +1,12 @@
 meta: true
-short: Removed from the app store!
+short: Removed!
 title: Not available for download anymore.
 color: '#d33100'
 redflag: false
-message: This product was removed from either Google Play or the Apple App Store.
-question: Is the app still available from the app store?
+message: This product was removed from the platform.
+question: Is the product still available for download?
 details: >
-  Products that have been removed from the app store may have been removed temporarily 
+  Products that have been removed from the platform may have been removed temporarily 
   or permanently by the provider. This could be for any reason. This status is similar
   to 'defunct,' but more definitive since the apps were formerly present but now are not.
-  They may be reinstated at any time but at the time of checking is not available.
+  They may be reinstated at any time but at the time of checking was not available.
