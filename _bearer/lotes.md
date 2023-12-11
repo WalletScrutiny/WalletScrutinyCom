@@ -44,7 +44,7 @@ On the [Stacker News thread](https://stacker.news/items/157596) introducing this
 
 - Issue the Lote - specify the amount of satoshis you want the note to "hold."
 - Record the Lote to a physical NFC chip.
-- The receiver must open his app and hit "Claim Lote." He must scan the NFC card.
+- The receiver must open his app and hit "Claim Lote." He must scan the chip on which the Lote was recorded on.
 - The sats will arrive in the receiver's wallet.
 
-Along with the fact there's no official store in sight, it appears that "Lotes" are more like DIY products that need the Lotes app to "write" information onto the chip. As of this date, the app is only available for beta testers on the App Store.
+Along with the fact there's no official store, product, or specifications in sight, we assume that "Lotes" are only **DIY products** that need the Lotes app to "write" information onto the chip. As of this date, the app is only available for beta testers on the App Store.
