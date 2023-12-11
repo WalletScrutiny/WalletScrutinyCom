@@ -21,7 +21,7 @@ issue:
 icon: alluk-798.bitcoin.btc.coldwallet.notes.png
 bugbounty: 
 meta: ok
-verdict: sealed-prefilled
+verdict: prefilled
 date: 2023-12-06
 signer: 
 reviewArchive: 
@@ -49,4 +49,4 @@ features:
 
 ## Analysis 
 
-Since, all of the banknotes are "handmade", it follows that somebody must have seen the private keys prior to sealing. 
+Since, all the banknotes are "handmade", it follows that somebody must have seen the private keys prior to sealing. 

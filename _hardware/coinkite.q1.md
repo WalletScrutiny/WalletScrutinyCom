@@ -14,7 +14,7 @@ dimensions:
 - 22
 weight: 
 provider: CoinKite, Inc.
-providerWebsite: 
+providerWebsite: https://coinkite.com/  
 website: https://coldcard.com/docs/coldcard-q/
 shop: https://store.coinkite.com/store/cc-q1
 country: CA

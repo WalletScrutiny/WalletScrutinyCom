@@ -31,6 +31,8 @@ features:
 
 ---
 
+Review of the assembled version here: {% include walletLink.html wallet='hardware/blockstreamjade' verdict='true' %}
+
 ## GitHub Description 
 
 > The Blockstream Jade is a bitcoin-only hardware wallet that runs 100% on Open Source code.
