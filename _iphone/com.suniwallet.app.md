@@ -2,18 +2,18 @@
 wsId: suniwallet
 title: Suni Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.suniwallet.app
 appCountry: us
 idd: '6445960717'
-released: '2023-03-06T08:00:00Z'
+released: 2023-03-06
 updated: 2023-10-11
 version: 1.3.4
 stars: 5
 reviews: 20
 size: '134643712'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.suniwallet.app.jpg
@@ -24,10 +24,10 @@ date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: Suni_wallet
-social: 
+social:
 - https://www.instagram.com/suni_wallet
 - https://www.youtube.com/channel/UCEimtCczYVdwvGx1SCLdhYQ
-- https://www.linkedin.com/company/suni-wallet 
+- https://www.linkedin.com/company/suni-wallet
 features: 
 developerName: SUNI WALLET LLC
 

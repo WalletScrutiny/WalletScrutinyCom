@@ -3,7 +3,7 @@ wsId:
 title: TREX Global-Buy Crypto, FX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.vnc.trex.bit
 appCountry: 
 released: 2023-03-05

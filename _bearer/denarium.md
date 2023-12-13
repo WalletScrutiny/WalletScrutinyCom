@@ -8,10 +8,10 @@ discontinued: 2020-07-19
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Prasos
-providerWebsite: https://prasos.fi 
+providerWebsite: https://prasos.fi
 website: 
 shop: 
 country: FI
@@ -29,7 +29,7 @@ twitter: denariumbitcoin
 social:
 - https://www.facebook.com/denariumbitcoin
 - https://www.youtube.com/c/denarium
-- https://www.instagram.com/denariumbitcoin 
+- https://www.instagram.com/denariumbitcoin
 features: 
 
 ---

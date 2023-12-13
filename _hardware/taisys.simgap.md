@@ -12,6 +12,7 @@ dimensions:
 weight: 
 provider: Taisys
 providerWebsite: https://www.taisys.com
+website: 
 shop: 
 country: TW
 price: 
@@ -25,8 +26,8 @@ date: 2023-12-07
 signer: 
 reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
 
 ---
 

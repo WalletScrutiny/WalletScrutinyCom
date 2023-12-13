@@ -2,18 +2,18 @@
 wsId: hotscoin
 title: HotsCoin — btc&eth量化策略自動交易數據平台
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.hots.quantity
 appCountry: us
 idd: '1628039456'
-released: '2022-07-01T07:00:00Z'
+released: 2022-07-01
 updated: 2022-07-29
 version: 1.2.0
-stars: 4.66667
+stars: 4.7
 reviews: 3
 size: '59738112'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.hots.quantity.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: hotscoin
 social:
-- https://hotscoin.com 
+- https://hotscoin.com
 features: 
 developerName: 台湾凯旋网络科技
 

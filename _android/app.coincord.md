@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.coincord.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

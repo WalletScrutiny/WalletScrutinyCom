@@ -3,7 +3,7 @@ wsId:
 title: X Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: games.xwg.wallet
 appCountry: 
 released: 2022-07-04
@@ -19,7 +19,7 @@ issue:
 icon: games.xwg.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

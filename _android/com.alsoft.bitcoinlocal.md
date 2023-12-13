@@ -8,7 +8,7 @@ users: 10000
 appId: com.alsoft.bitcoinlocal
 appCountry: 
 released: 2018-02-15
-updated: 2021-02-28
+updated: 2023-02-14
 version: '4.1'
 stars: 
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-02-20
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

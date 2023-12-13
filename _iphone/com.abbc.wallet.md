@@ -24,7 +24,7 @@ date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: abbcfoundation
-social: 
+social:
 - https://www.facebook.com/abbcfoundation/
 - https://t.me/abbcfoundationofficial/
 - https://t.me/abbcfoundation/

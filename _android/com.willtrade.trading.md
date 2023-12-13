@@ -4,11 +4,11 @@ title: WillTrade -Forex Stocks & More
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
-updated: 2023-11-17
+updated: 2023-12-13
 version: 1.3.12
 stars: 3.8
 ratings: 

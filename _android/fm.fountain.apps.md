@@ -1,6 +1,6 @@
 ---
 wsId: fountainPodcasts
-title: Fountain Podcasts
+title: 'Fountain: Podcast Player'
 altTitle: 
 authors:
 - danny

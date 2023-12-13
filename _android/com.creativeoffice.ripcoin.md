@@ -12,7 +12,7 @@ updated: 2023-11-25
 version: '15000'
 stars: 3.4
 ratings: 
-reviews: 221
+reviews: 222
 size: 
 website: https://antnetwork.antf.online/
 repository: 

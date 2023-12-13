@@ -12,7 +12,7 @@ updated: 2023-08-07
 version: 1.5.3
 stars: 4
 ratings: 500
-reviews: 45
+reviews: 46
 size: 
 website: https://bitcoin.me
 repository: 

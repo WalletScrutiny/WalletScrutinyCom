@@ -8,11 +8,11 @@ appId: com.makedelta.slying
 appCountry: kr
 idd: '1581110050'
 released: 2021-08-15
-updated: 2023-11-21
-version: 7.0.5
+updated: 2023-12-05
+version: 7.1.0
 stars: 4.8
 reviews: 118
-size: '36718592'
+size: '36990976'
 website: https://www.coinmrk.com/
 repository: 
 issue: 

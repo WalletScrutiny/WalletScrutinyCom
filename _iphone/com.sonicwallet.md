@@ -8,11 +8,11 @@ appId: com.sonicwallet
 appCountry: us
 idd: '1626223788'
 released: 2022-08-28
-updated: 2023-11-17
-version: '3.1'
+updated: 2023-12-12
+version: '3.2'
 stars: 5
 reviews: 2
-size: '69211136'
+size: '69221376'
 website: 
 repository: 
 issue: 

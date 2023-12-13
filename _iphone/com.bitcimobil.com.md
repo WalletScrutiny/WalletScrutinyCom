@@ -11,7 +11,7 @@ released: 2019-04-17
 updated: 2023-11-09
 version: 5.0.4
 stars: 4.2
-reviews: 1776
+reviews: 1779
 size: '147466240'
 website: https://www.bitci.com.tr/
 repository: 

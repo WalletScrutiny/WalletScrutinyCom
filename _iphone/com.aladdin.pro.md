@@ -2,12 +2,12 @@
 wsId: AladdinPro
 title: Aladdin Pro
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.aladdin.pro
 appCountry: us
 idd: '1481967751'
-released: '2019-11-22T08:00:00Z'
+released: 2019-11-22
 updated: 2023-02-07
 version: 1.15.7
 stars: 4
@@ -22,6 +22,7 @@ meta: ok
 verdict: custodial
 date: 2023-12-01
 signer: 
+reviewArchive: 
 twitter: abbcfoundation
 social:
 - https://www.linkedin.com/company/abbcfoundation

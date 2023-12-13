@@ -8,8 +8,8 @@ users: 5000
 appId: com.hots.quantity
 appCountry: 
 released: 2022-06-15
-updated: 2023-11-23
-version: 3.7.2
+updated: 2023-12-11
+version: 3.8.0
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: hotscoin
 social:
-- https://hotscoin.com 
+- https://hotscoin.com
 redirect_from: 
 developerName: KX Network Co., Ltd.
 features: 

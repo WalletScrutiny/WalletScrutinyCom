@@ -31,7 +31,7 @@ social:
 - https://www.reddit.com/r/Conflux_Network
 - https://www.youtube.com/@confluxnetwork
 - https://discord.com/invite/conflux-network-707952293412339843
-features:
+features: 
 
 ---
 

@@ -8,8 +8,8 @@ appId: io.hexawallet.hexa2
 appCountry: in
 idd: 1586334138
 released: 2021-11-01
-updated: 2023-11-29
-version: 2.2.8
+updated: 2023-12-02
+version: 2.2.9
 stars: 5
 reviews: 9
 size: '50606080'

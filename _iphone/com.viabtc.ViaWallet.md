@@ -27,7 +27,7 @@ twitter: viawallet
 social:
 - https://www.facebook.com/ViaWallet
 features: 
-developerName: Viabtc Technology Limited
+developerName: Coinex Global Limited
 
 ---
 

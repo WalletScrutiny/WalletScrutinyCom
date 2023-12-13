@@ -9,11 +9,11 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2023-11-30
-version: 2.2.166
-stars: 4.6
+updated: 2023-12-09
+version: 2.2.184
+stars: 4.4
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://blink.sv/
 repository: 

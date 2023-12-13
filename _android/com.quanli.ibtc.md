@@ -8,8 +8,8 @@ users: 5000
 appId: com.quanli.ibtc
 appCountry: 
 released: 2019-12-09
-updated: 2022-05-26
-version: 1.5.0
+updated: 2023-09-07
+version: 1.6.0
 stars: 
 ratings: 
 reviews: 

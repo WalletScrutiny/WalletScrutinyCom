@@ -2,7 +2,7 @@
 wsId: cryptorefills
 title: Cryptorefills
 altTitle: 
-authors: 
+authors:
 - danny
 users: 50000
 appId: com.cryptorefills
@@ -25,7 +25,7 @@ date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: cryptorefills
-social: 
+social:
 - https://www.instagram.com/cryptorefillsofficial/
 - https://www.facebook.com/cryptorefills
 redirect_from: 

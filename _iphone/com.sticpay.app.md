@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/sticpay
 - https://www.facebook.com/sticpay.global
 features: 
-developerName: STIC LIMITED
+developerName: STIC FINANCIAL LTD.
 
 ---
 

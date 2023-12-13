@@ -8,8 +8,8 @@ users: 10000
 appId: com.trustkeysnetwork
 appCountry: us
 released: 2019-03-02
-updated: 2023-09-04
-version: 1.1.242
+updated: 2023-12-12
+version: 1.1.252
 stars: 4.8
 ratings: 583
 reviews: 22

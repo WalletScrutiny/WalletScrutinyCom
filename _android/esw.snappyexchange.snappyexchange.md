@@ -12,7 +12,7 @@ updated: 2023-11-19
 version: 2.3.0 (33)
 stars: 3.8
 ratings: 
-reviews: 39
+reviews: 40
 size: 
 website: https://snappyexchange.com
 repository: 

@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: White Wolf Technology
 providerWebsite: https://www.whitewolftech.com/
@@ -26,7 +26,7 @@ date: 2023-12-07
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 features: 
 
 ---

@@ -2,7 +2,7 @@
 wsId: suniwallet
 title: Suni Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.suniwallet.app
@@ -25,10 +25,10 @@ date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: Suni_wallet
-social: 
+social:
 - https://www.instagram.com/suni_wallet
 - https://www.youtube.com/channel/UCEimtCczYVdwvGx1SCLdhYQ
-- https://www.linkedin.com/company/suni-wallet 
+- https://www.linkedin.com/company/suni-wallet
 redirect_from: 
 developerName: Suni Wallet Corp
 features: 

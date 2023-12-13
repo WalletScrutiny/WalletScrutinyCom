@@ -7,13 +7,13 @@ authors:
 users: 5000
 appId: com.futuretradelink
 appCountry: 
-released: 
+released: 2021-07-19
 updated: 2021-08-03
 version: '1.3'
-stars: 4
+stars: 
 ratings: 24
-reviews: 11
-size: 31M
+reviews: 
+size: 
 website: https://futuretradelink.com/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Future Trade Link
 features: 
 
 ---
