@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ceetwe.ceetwe.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
