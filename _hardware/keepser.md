@@ -24,8 +24,8 @@ issue:
 icon: keepser.png
 bugbounty: 
 meta: ok
-verdict: nowallet
-date: 2023-09-27
+verdict: plainkey
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: keepser
@@ -47,7 +47,11 @@ features:
 
 - [User Manual - PDF](https://www.keepser.com/pub/media/wysiwyg/manuals/Keepser-Cold-Wallet-User-Manual-EN.pdf)
 
-## Updated Review 2023-09-27
+## Updated Review 2023-12-14
+
+The Pro and Pro+ models describes the function that allows the storage, management and exchange of cryptocurrencies. The **keys are shared with the companion app.**
+
+## Previous Review 2023-09-27
 
 Despite its name, "Keepser Cold Wallet", we find that the only function related to it being a wallet is that it can store private keys or seed phrases. 
 
