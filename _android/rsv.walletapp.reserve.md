@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-30
 updated: 2023-02-20
 version: 2.2.0
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 430
+reviews: 436
 size: 
 website: http://www.reserve.org
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://discord.com/invite/YmbQwmmKEv
 - https://www.facebook.com/holareserve
 redirect_from: 
-developerName: Reserve, Inc.
+developerName: Best Friend Finance, LLC
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.simplehold.app.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2023-04-11
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: SimpleHold

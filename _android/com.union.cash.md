@@ -4,12 +4,12 @@ title: Unioncash
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.union.cash
 appCountry: 
 released: 2021-06-25
-updated: 2023-08-30
-version: 1.2.5
+updated: 2023-11-14
+version: 1.2.8
 stars: 
 ratings: 
 reviews: 

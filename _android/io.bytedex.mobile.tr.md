@@ -7,8 +7,8 @@ users: 500
 appId: io.bytedex.mobile.tr
 appCountry: 
 released: 2022-12-16
-updated: 2023-01-05
-version: 1.0.0
+updated: 2023-11-17
+version: 2.0.8
 stars: 
 ratings: 
 reviews: 

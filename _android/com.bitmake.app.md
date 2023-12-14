@@ -4,12 +4,12 @@ title: BitMake:trade Crypto,Bitcoin
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitmake.app
 appCountry: 
 released: 2022-07-04
-updated: 2023-09-22
-version: 1.3.1
+updated: 2023-12-05
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 

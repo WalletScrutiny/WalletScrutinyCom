@@ -8,8 +8,8 @@ users: 1000
 appId: com.capecrypto
 appCountry: 
 released: 2022-04-25
-updated: 2023-02-27
-version: 2.3.3
+updated: 2023-12-13
+version: 2.5.7
 stars: 
 ratings: 
 reviews: 

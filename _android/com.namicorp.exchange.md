@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-06
 updated: 2023-08-24
 version: 2.1.4
-stars: 3.8
+stars: 3.9
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://nami.exchange
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 redirect_from: 
-developerName: NAMI TRADE PTE. LTD.
+developerName: NAMI EXCHANGE
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: coinZoom
-title: 'CoinZoom: Buy Bitcoin & Crypto'
+title: CoinZoom feat. ZoomMe
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ios.coinzoomsimple
 appCountry: us
 idd: '1575983875'
 released: 2022-01-21
-updated: 2023-09-21
-version: 1.1.2
-stars: 4.5
-reviews: 682
-size: '118500352'
+updated: 2023-12-10
+version: 3.0.2
+stars: 5
+reviews: 14
+size: '62473216'
 website: http://www.coinzoom.com
 repository: 
 issue: 

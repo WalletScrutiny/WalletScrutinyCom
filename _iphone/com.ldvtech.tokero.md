@@ -1,6 +1,6 @@
 ---
 wsId: tokero
-title: Tokero
+title: TOKERO
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ldvtech.tokero
 appCountry: ro
 idd: '1569586581'
 released: 2021-06-04
-updated: 2023-03-30
-version: 4.0.1
-stars: 5
-reviews: 12
-size: '15066112'
+updated: 2023-11-29
+version: 4.0.3
+stars: 4.9
+reviews: 16
+size: '22760448'
 website: https://tokero.com
 repository: 
 issue: 

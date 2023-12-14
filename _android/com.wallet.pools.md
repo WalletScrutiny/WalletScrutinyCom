@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pools Wallet
+title: 'Pools Wallet: Crypto & NFTs'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.wallet.pools
 appCountry: 
 released: 2023-03-28
-updated: 2023-09-01
-version: 1.0.8.8
+updated: 2023-11-07
+version: 1.1.0
 stars: 4.7
 ratings: 
-reviews: 23
+reviews: 28
 size: 
 website: 
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: DokWallet
-title: 'DokWallet: Crypto Wallet'
+title: Dok Wallet
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 1000
 appId: com.dok.wallet
 appCountry: il
 released: 2020-09-28
-updated: 2021-10-21
-version: 1.1.6
+updated: 2023-12-13
+version: '1.96'
 stars: 5
 ratings: 35
-reviews: 9
+reviews: 15
 size: 
 website: https://dokwallet.com/
 repository: 
 issue: 
 icon: com.dok.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2022-10-21
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.billance.cn
 appCountry: us
 idd: '1610497530'
 released: 2022-03-01
-updated: 2023-09-11
-version: 3.3.5
-stars: 4.7
-reviews: 12
-size: '154757120'
+updated: 2023-12-01
+version: 3.4.4
+stars: 4.4
+reviews: 13
+size: '146622464'
 website: 
 repository: 
 issue: 
@@ -31,7 +31,7 @@ social:
 - https://www.reddit.com/user/tapbit
 - https://www.youtube.com/c/Tapbitglobal
 features: 
-developerName: Billance LTD
+developerName: Tapbit LLC
 
 ---
 

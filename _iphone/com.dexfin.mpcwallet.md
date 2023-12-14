@@ -11,7 +11,7 @@ released: 2023-03-07
 updated: 2023-03-29
 version: 1.0.2
 stars: 1
-reviews: 1
+reviews: 2
 size: '78703616'
 website: https://dexfin.com
 repository: 

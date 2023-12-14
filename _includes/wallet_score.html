@@ -9,14 +9,13 @@
 {%- endif -%}
 {%- for c in platformCriteria -%}
   {%- if site.data.verdicts[c].pass -%}
-    {%- assign criteria = criteria | append: "," -%}
-    {%- assign criteria = criteria | append: c -%}
+    {%- assign criteria = criteria | append: "," | append: c -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign criteria = criteria | remove_first: "," | split: ',' -%}
 {%- assign count = 0 -%}
-{%- if include.verdict == 'wip' -%}
-  {%- capture failText -%}<br>We did not or were not able to perform any tests.{%- endcapture -%}
+{%- if verdict == 'wip' -%}
+  {%- capture failText -%}<br>We did not yet perform any tests.{%- endcapture -%}
 {%- else -%}
   {%- for criterion in criteria -%}
     {%- if verdict == criterion -%}

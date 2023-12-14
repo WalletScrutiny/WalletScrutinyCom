@@ -8,11 +8,11 @@ appId: com.strikeXWallet
 appCountry: gb
 idd: '6443517613'
 released: 2022-10-21
-updated: 2023-07-16
-version: '1.5'
+updated: 2023-09-25
+version: '1.6'
 stars: 4.9
-reviews: 198
-size: '58094592'
+reviews: 202
+size: '58743808'
 website: 
 repository: 
 issue: 

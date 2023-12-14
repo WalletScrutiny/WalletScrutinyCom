@@ -10,7 +10,7 @@ appCountry:
 released: 2018-05-07
 updated: 2021-10-25
 version: 3.9.9
-stars: 3.3
+stars: 3.4
 ratings: 368
 reviews: 23
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-11-02
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: PumaPay

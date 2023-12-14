@@ -11,7 +11,7 @@ released: 2021-08-23
 updated: 2023-08-15
 version: 1.7.14
 stars: 3.4
-reviews: 81
+reviews: 83
 size: '59568128'
 website: https://www.vast.bank/
 repository: 

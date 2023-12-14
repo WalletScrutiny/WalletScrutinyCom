@@ -1,18 +1,18 @@
 ---
 wsId: indodax
-title: Indodax Buy Sell Crypto Assets
+title: Indodax Promo Cashback  12.12
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2023-09-19
-version: 5.1.6
+updated: 2023-11-28
+version: 5.2.0
 stars: 4.4
 ratings: 97568
-reviews: 467
+reviews: 468
 size: 
 website: http://indodax.com
 repository: 

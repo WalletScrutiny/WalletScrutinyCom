@@ -4,17 +4,17 @@ title: Global Crypto Trading
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.global.trading.company
 appCountry: 
 released: 2020-11-11
 updated: 2021-03-26
 version: '1.12'
-stars: 4.1
+stars: 
 ratings: 74
-reviews: 30
-size: 5.8M
-website: 
+reviews: 
+size: 
+website: https://sites.google.com/view/globlacryptotrading/home
 repository: 
 issue: 
 icon: com.global.trading.company.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Global Crypto Team
 features: 
 
 ---

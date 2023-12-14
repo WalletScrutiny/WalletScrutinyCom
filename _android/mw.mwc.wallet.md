@@ -3,30 +3,30 @@ wsId:
 title: MWC Mobile Wallet
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: mw.mwc.wallet
 appCountry: 
 released: 2021-05-29
 updated: 2021-05-30
 version: 1.0.0
-stars: 4.8
+stars: 
 ratings: 5
-reviews: 3
-size: 128M
-website: 
+reviews: 
+size: 
+website: https://www.mwc.mw/
 repository: 
 issue: 
 icon: mw.mwc.wallet.jpg
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: wip
 date: 2021-11-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: MWC Developers
 features: 
 
 ---

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: PlatinX Indian crypto Exchange
+title: PlatinX Indian Crypto Exchange
 altTitle: 
 authors: 
 users: 500
 appId: com.platinx.exchange.flutter_platinx_exchange
 appCountry: 
 released: 2022-07-02
-updated: 2023-07-05
-version: 2.0.13
+updated: 2023-11-09
+version: 2.0.14
 stars: 
 ratings: 
 reviews: 

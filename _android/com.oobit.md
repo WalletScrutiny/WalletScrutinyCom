@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: Oobit
+title: 'Oobit: Pay with Crypto'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-07
 updated: 2023-08-30
 version: 1.7.8
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.oobit.com/
 repository: 

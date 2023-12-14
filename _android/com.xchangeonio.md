@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-15
 updated: 2023-03-16
 version: 1.1.2
-stars: 2.5
+stars: 2.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.xchangeon.io/
 repository: 

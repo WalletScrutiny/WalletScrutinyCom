@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: za.co.rockwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-09
 signer: 
 reviewArchive: 
 twitter: 

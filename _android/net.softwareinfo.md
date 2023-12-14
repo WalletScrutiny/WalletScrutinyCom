@@ -3,7 +3,7 @@ wsId:
 title: Create Virtual Card Instantly
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: net.softwareinfo
 appCountry: 
 released: 2020-11-09
@@ -11,7 +11,7 @@ updated: 2023-08-27
 version: '1.3'
 stars: 2.8
 ratings: 
-reviews: 32
+reviews: 31
 size: 
 website: https://softwareinfo.net
 repository: 

@@ -4,7 +4,7 @@ title: Key Hunter - Bitcoin Checker
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.github.keyhunter
 appCountry: 
 released: 2022-05-17

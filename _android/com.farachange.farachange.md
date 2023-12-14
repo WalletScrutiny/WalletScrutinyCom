@@ -12,16 +12,16 @@ updated: 2022-11-23
 version: 1.1.20
 stars: 4.7
 ratings: 
-reviews: 13
+reviews: 12
 size: 
 website: 
 repository: 
 issue: 
 icon: com.farachange.farachange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

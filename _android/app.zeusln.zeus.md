@@ -1,19 +1,19 @@
 ---
 wsId: zeusln
-title: 'Zeus: Bitcoin and Lightning'
+title: ZEUS Wallet
 altTitle: 
 authors:
 - leo
 - mohammad
-users: 5000
+users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2023-07-29
-version: 0.7.7
+updated: 2023-12-01
+version: 0.8.0
 stars: 4.3
 ratings: 45
-reviews: 23
+reviews: 26
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
@@ -22,9 +22,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-07-23
+date: 2023-10-07
 signer: 
 reviewArchive:
+- date: 2023-07-23
+  version: 0.7.7-beta1
+  appHash: 7518899284438a824779266807c91dedb1714517e2f94f8cbe878482379c1b0e
+  gitRevision: e3739160c9fcb83303d40d5ae888ec1d728567ee
+  verdict: reproducible
 - date: 2023-06-22
   version: 0.7.6
   appHash: 
@@ -47,6 +52,87 @@ features:
 - ln
 
 ---
+
+**Update 2023-10-07**: We ran our {% include testScript.html %} and got this:
+
+```
+===== Begin Results =====
+appId:          app.zeusln.zeus
+signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
+apkVersionName: 0.7.7
+apkVersionCode: 76003
+verdict:        
+appHash:        74451415ccf7a0bb60acb5be325b02937695c32bb7cfc86934349aeb1cdf9dfd
+commit:         7ede236e33b82d442335e88296b1a3536c2cdfcc
+
+Diff:
+Files /tmp/fromPlay_app.zeusln.zeus_76003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_76003/AndroidManifest.xml differ
+Only in /tmp/fromBuild_app.zeusln.zeus_76003/lib: arm64
+Only in /tmp/fromBuild_app.zeusln.zeus_76003/lib: armeabi-v7a
+Only in /tmp/fromBuild_app.zeusln.zeus_76003/lib: x86
+Only in /tmp/fromBuild_app.zeusln.zeus_76003/lib: x86_64
+Only in /tmp/fromPlay_app.zeusln.zeus_76003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_76003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_76003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_76003: stamp-cert-sha256
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+That is a bigger diff than expected but getting really close. If we ignore all
+the stuff we usually ignore from the META-INF folder and extra stuff we got that
+was not found in the Play Store version - after all, we reproduced all there was
+and produced maybe a bit extra - the diff is:
+
+```
+Files /tmp/fromPlay_app.zeusln.zeus_76003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_76003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_76003: stamp-cert-sha256
+```
+
+The second line - `stamp-cert-sha256` - is 32B of binary, hardly enough for some
+backdoor and as it
+[turns out](https://github.com/BlueWallet/BlueWallet/issues/758#issuecomment-849273732)
+this is what Google adds when you let them sign the APK so we can add it to our
+list of acceptable files to differ.
+
+As it turns out, our test script is comparing the file `zeus-universal.apk` with
+what we got from Google Play but this time, Google Play gave us the smaller
+`zeus-arm64-v8a.apk` which explains these extra lib files above.
+
+But what about the first line - AndroidManifest.xml? Diffoscope can dig into
+that file and this is what it found:
+
+```
+$ diffoscope "/home/leo/Documents/walletscrutiny/incoming/Zeus 0.7.7 (app.zeusln.zeus).apk" /tmp/test_app.zeusln.zeus/app/android/app/build/outputs/apk/release/zeus-arm64-v8a.apk 
+...
+├── AndroidManifest.xml (decoded)
+│ ├── AndroidManifest.xml
+│ │ @@ -134,10 +134,9 @@
+│ │      <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
+│ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+│ │      <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+│ │      <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="app.zeusln.zeus.androidx-startup">
+│ │        <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+│ │        <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+│ │      </provider>
+│ │ -    <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+│ │    </application>
+│ │  </manifest>
+```
+
+meaning the Google file contains the extra line:
+
+```
+<meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+```
+
+which again is expected when using the Android App Bundle (AAB) format which
+{{ page.title }} apparently switched to.
+
+We might revise this verdict but with all bytes being accounted for, this looks
+**reproducible**.
 
 **Update 2023-07-23**: The provider has fixed the reproducibility issues. So we had another try with `v0.7.7-beta1`,
 Here are the results after running the {% include testScript.html %} which is based on the provider's build script:

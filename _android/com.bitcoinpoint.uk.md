@@ -7,8 +7,8 @@ users: 500
 appId: com.bitcoinpoint.uk
 appCountry: 
 released: 2022-04-28
-updated: 2023-07-03
-version: 6.4.2
+updated: 2023-10-08
+version: 6.4.6
 stars: 
 ratings: 
 reviews: 

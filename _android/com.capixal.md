@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.capixal.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-05-13
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

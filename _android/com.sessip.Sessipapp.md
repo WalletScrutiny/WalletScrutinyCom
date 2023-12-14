@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sessip.Sessipapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-10
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: sessipapp

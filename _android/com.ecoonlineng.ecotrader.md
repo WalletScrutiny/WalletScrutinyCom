@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-23
+date: 2023-10-24
 signer: 
 reviewArchive: 
 twitter: 

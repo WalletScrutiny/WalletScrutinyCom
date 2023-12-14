@@ -8,11 +8,11 @@ appId: com.tratao.xpocket
 appCountry: us
 idd: '1481024258'
 released: 2019-11-08
-updated: 2023-07-18
-version: 4.0.0
+updated: 2023-11-16
+version: 4.4.0
 stars: 4
 reviews: 168
-size: '90470400'
+size: '99964928'
 website: https://xbank.plus/
 repository: 
 issue: 

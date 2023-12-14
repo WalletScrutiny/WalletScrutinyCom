@@ -3,12 +3,12 @@ wsId:
 title: X Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: games.xwg.wallet
 appCountry: 
 released: 2022-07-04
-updated: 2023-07-07
-version: 1.1.0
+updated: 2023-09-25
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: games.xwg.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -1,3 +1,4 @@
+process.env.TZ = 'UTC'; // fix timezone issues
 const fs = require('fs')
 const https = require('https')
 const FileType = require('file-type')
@@ -101,12 +102,13 @@ function migrateFile (category, file, migration, defaultHeader) {
  * @param file The Path or file to be loaded
  * @param outHeaderAndBody Potentially pre-filled object {header: {}, body: ''}
  **/
-function loadFromFile (file, outHeaderAndBody) {
+function loadFromFile (file, outHeaderAndBody = {header: {}, body: ''}) {
   var parts = fs.readFileSync(file, 'utf8').split('---\n')
   const header = yaml.load(parts[1])
   outHeaderAndBody.header = outHeaderAndBody.header || {}
   Object.keys(header).forEach(k => { outHeaderAndBody.header[k] = header[k] })
   outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '')
+  return outHeaderAndBody
 }
 
 function dateOrEmpty (d) {

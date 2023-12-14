@@ -8,11 +8,11 @@ appId: io.slavi.wallet
 appCountry: us
 idd: '1610125496'
 released: 2022-03-15
-updated: 2023-08-02
-version: '1.22'
+updated: 2023-11-07
+version: '1.25'
 stars: 4.8
 reviews: 20
-size: '52603904'
+size: '61853696'
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
 issue: 

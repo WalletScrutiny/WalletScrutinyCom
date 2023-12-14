@@ -8,8 +8,8 @@ users: 1000000
 appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
-updated: 2023-08-24
-version: 1.41.1
+updated: 2023-11-07
+version: 1.42.1
 stars: 
 ratings: 
 reviews: 
@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /com.currency.exchange.prod2/
 - /posts/com.currency.exchange.prod2/
-developerName: CURRENCY.COM STV
+developerName: DI INVESTMENTS LLC
 features: 
 
 ---

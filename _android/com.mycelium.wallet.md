@@ -12,11 +12,11 @@ updated: 2023-06-30
 version: 3.16.1.0
 stars: 3.7
 ratings: 11650
-reviews: 1159
+reviews: 1154
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: https://github.com/mycelium-com/wallet-android/issues/648
+issue: 
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
@@ -25,7 +25,7 @@ date: 2023-09-24
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
 - date: 2023-04-27
-  version: "3.16.0.16"
+  version: 3.16.0.16
   appHash: 2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
   gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
   verdict: reproducible

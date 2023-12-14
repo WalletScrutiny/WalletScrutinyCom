@@ -3,7 +3,7 @@ wsId:
 title: maxxer
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.maxxer.maxxermobileapp
 appCountry: 
 released: 2022-07-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.maxxer.maxxermobileapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

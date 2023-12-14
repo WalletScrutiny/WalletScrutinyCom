@@ -8,11 +8,11 @@ appId: jp.co.okasan-online.okasanonline.crypto.prd
 appCountry: jp
 idd: '1596226250'
 released: 2022-03-03
-updated: 2023-07-04
-version: 1.13.0
+updated: 2023-10-24
+version: 1.14.0
 stars: 5
 reviews: 2
-size: '48944128'
+size: '48968704'
 website: https://www.okasan-online.co.jp
 repository: 
 issue: 

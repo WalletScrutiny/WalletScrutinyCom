@@ -8,11 +8,11 @@ appId: com.bitkeep.os
 appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2023-09-21
-version: 8.3.0
-stars: 4.3
-reviews: 389
-size: '161597440'
+updated: 2023-11-25
+version: 8.7.1
+stars: 4.4
+reviews: 546
+size: '177396736'
 website: https://bitkeep.com
 repository: 
 issue: 

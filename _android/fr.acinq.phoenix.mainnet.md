@@ -8,8 +8,8 @@ users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2023-09-20
-version: 2.0.8
+updated: 2023-12-12
+version: 2.0.15
 stars: 4.4
 ratings: 314
 reviews: 38
@@ -21,9 +21,19 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-04-15
+date: 2023-11-30
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2023-11-02
+  version: 2.0.11
+  appHash: e690d64eb7ad2b59af85f048b33433765bb3fc6545420c4351400ccfb7ceaf8b
+  gitRevision: 0fc7ad279838629b36467d6a1546fd7a25ed5ae6
+  verdict: nonverifiable
+- date: 2023-04-15
+  version: 1.4.26
+  appHash: 512bf20aa99e781726b55d1e508ef58c390fa24692c93d6299a82b8ccd24a8b8
+  gitRevision: ef5a48ca08f7a502a5b953dc00c68d9826f27e87
+  verdict: nonverifiable
 - date: 2022-01-24
   version: 1.4.0
   appHash: 
@@ -60,6 +70,305 @@ features:
 
 ---
 
+**Update 2023-11-30**: The provider fixed the build issue and we managed to
+compile the product:
+
+```
+===== Begin Results =====
+appId:          fr.acinq.phoenix.mainnet
+signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+apkVersionName: 2.0.12
+apkVersionCode: 67
+verdict:        
+appHash:        45eadc50d2305081e610d9dc3f114c2ac6c609fef1988d98a96da55032086473
+commit:         43e65cfe9e14952cff0e5f0a81d187072e6d3f37
+
+Diff:
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/classes3.dex differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_67/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_67/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+That is a bigger diff than expected. This version is **not verifiable**.
+
+Upon closer inspection, the diffs in the casses3.dex and classes5.dex like
+
+```
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+```
+
+are probably due to a
+[known issue in sqldelight](https://github.com/cashapp/sqldelight/issues/1548)
+which was fixed in sqlDelight version 2 but this product
+[still uses version 1](https://github.com/ACINQ/phoenix/blob/master/buildSrc/src/main/kotlin/Versions.kt#L11).
+
+The files baseline.prof and baseline.profm are about runtime optimization and
+their creation might involve measuring timing in a physical device and as such
+are probably hard to make reproducible. We so far do not know if they can be
+savely ignored for security aspects.
+
+All in all it's thousands of lines that differ and as such too much to simply
+call it a a benign diff.
+
+**Update 2023-11-25**: The latest release is 2.0.12. We tried to run our test
+script again but ran into this issue:
+
+```
+$ ./test.sh --apk path/to/Phoenix\ 2.0.12\ \(fr.acinq.phoenix.mainnet\).apk
+...
+[2/2] STEP 1/22: FROM ubuntu:22.10
+Resolved "ubuntu" as an alias (/etc/containers/registries.conf.d/shortnames.conf)
+Trying to pull docker.io/library/ubuntu:22.10...
+Getting image source signatures
+Copying blob 3ad6ea492c35 done  
+Copying config 692eb4a905 done  
+Writing manifest to image destination
+Storing signatures
+[2/2] STEP 2/22: ENV LC_ALL en_US.UTF-8
+--> bc39600b8c1
+[2/2] STEP 3/22: ENV LANG en_US.UTF-8
+--> 6eb999f9d95
+[2/2] STEP 4/22: ENV LANGUAGE en_US:en
+--> de45038f8d7
+[2/2] STEP 5/22: ENV ANDROID_CMDLINETOOLS_FILE commandlinetools-linux-8092744_latest.zip
+--> 61311a8a6c0
+[2/2] STEP 6/22: ENV ANDROID_CMDLINETOOLS_URL https://dl.google.com/android/repository/${ANDROID_CMDLINETOOLS_FILE}
+--> 7e42a358a0d
+[2/2] STEP 7/22: ENV ANDROID_API_LEVELS android-30
+--> b53607fda19
+[2/2] STEP 8/22: ENV ANDROID_BUILD_TOOLS_VERSION 30.0.2
+--> 2dce916bb07
+[2/2] STEP 9/22: ENV ANDROID_NDK_VERSION 23.1.7779620
+--> 04d164db78f
+[2/2] STEP 10/22: ENV CMAKE_VERSION 3.18.1
+--> de93336c8a4
+[2/2] STEP 11/22: ENV ANDROID_HOME /usr/local/android-sdk
+--> 78503f08a43
+[2/2] STEP 12/22: ENV PATH ${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
+--> 85bc8acd516
+[2/2] STEP 13/22: ENV JAVA_OPTS "-Dprofile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8 -Dfile.encoding=UTF-8"
+--> 2838c3762d9
+[2/2] STEP 14/22: RUN apt-get update -y &&     apt-get install -y software-properties-common locales &&     apt-get update -y &&     locale-gen en_US.UTF-8 &&     apt-get install -y openjdk-11-jdk wget git unzip dos2unix
+Ign:1 http://security.ubuntu.com/ubuntu kinetic-security InRelease
+Ign:2 http://archive.ubuntu.com/ubuntu kinetic InRelease
+Err:3 http://security.ubuntu.com/ubuntu kinetic-security Release
+  404  Not Found [IP: 91.189.91.83 80]
+Ign:4 http://archive.ubuntu.com/ubuntu kinetic-updates InRelease
+Ign:5 http://archive.ubuntu.com/ubuntu kinetic-backports InRelease
+Err:6 http://archive.ubuntu.com/ubuntu kinetic Release
+  404  Not Found [IP: 185.125.190.39 80]
+Err:7 http://archive.ubuntu.com/ubuntu kinetic-updates Release
+  404  Not Found [IP: 185.125.190.39 80]
+Err:8 http://archive.ubuntu.com/ubuntu kinetic-backports Release
+  404  Not Found [IP: 185.125.190.39 80]
+Reading package lists...
+E: The repository 'http://security.ubuntu.com/ubuntu kinetic-security Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic-updates Release' does not have a Release file.
+E: The repository 'http://archive.ubuntu.com/ubuntu kinetic-backports Release' does not have a Release file.
+Error: building at STEP "RUN apt-get update -y &&     apt-get install -y software-properties-common locales &&     apt-get update -y &&     locale-gen en_US.UTF-8 &&     apt-get install -y openjdk-11-jdk wget git unzip dos2unix": while running runtime: exit status 100
+```
+
+so the script fails because ubuntu:22.10 is not available anymore. It's not a
+long-term support version like 22.04 so we tried patching the Dockerfile but now
+we run into a different problem:
+
+```
+[2/2] STEP 16/22: RUN echo y | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "cmake;${CMAKE_VERSION}" "ndk;${ANDROID_NDK_VERSION}" "patcher;v4" "platforms;${ANDROID_API_LEVELS}"
+Warning: Failed to find package 'patcher;v4'                                    
+Error: building at STEP "RUN echo y | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS_VERSION}" "cmake;${CMAKE_VERSION}" "ndk;${ANDROID_NDK_VERSION}" "patcher;v4" "platforms;${ANDROID_API_LEVELS}"": while running runtime: exit status 1
+```
+
+This same error occurs when using ubuntu:23.04.
+
+We filed [this issue](https://github.com/ACINQ/phoenix/issues/475) with the
+provider. The product is **not verifiable** for now.
+
+**Update 2023-11-02**: The latest release on Google Play is 2.0.11 and thus
+something completely new. The provider wrote about migration from the "legacy"
+1.* versions. And with the versioning, the build instructions appear to have
+changed, too as our build script errors out. Sadly the Build Instructions on
+[their repository](https://github.com/ACINQ/phoenix) for Android link to a
+non-esixting document. Let's see what we can guess ...
+
+```
+$ git clone https://github.com/ACINQ/phoenix
+$ cd phoenix/
+phoenix(master)$ git checkout android-v2.0.11
+phoenix((HEAD detached at android-v2.0.11))$ podman build -t phoenix_build .
+...
+dos2unix: converting file /home/ubuntu/phoenix/buildSrc/src/main/kotlin/Versions.kt to Unix format...
+--> 5449170ba13
+STEP 35: RUN chmod +x /home/ubuntu/phoenix/gradlew
+STEP 36: COMMIT phoenix_build
+--> 29782071d46
+29782071d4604faaeaacd4fa6d44a63c02f6b1ce916b34541a7bb2e4e88a2583
+phoenix((HEAD detached at android-v2.0.11))$ podman run -it --rm \
+    --volume $PWD:/home/ubuntu/phoenix \
+    --workdir /home/ubuntu/phoenix phoenix_build bash
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew assemble
+...
+> Task :phoenix-legacy:mapReleaseSourceSetPaths FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':phoenix-legacy:mapReleaseSourceSetPaths'.
+> Error while evaluating property 'extraGeneratedResDir' of task ':phoenix-legacy:mapReleaseSourceSetPaths'
+   > Failed to calculate the value of task ':phoenix-legacy:mapReleaseSourceSetPaths' property 'extraGeneratedResDir'.
+      > Querying the mapped value of provider(java.util.Set) before task ':phoenix-legacy:processReleaseGoogleServices' has completed is not supported
+```
+
+yeah, well, we don't want "legacy". Where did that come from? What to run
+instead?
+
+```
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew tasks
+... much stuff but nothing that would assemble the android app ...
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew :phoenix-android:tasks
+...
+> Task :phoenix-android:tasks
+
+------------------------------------------------------------
+Tasks runnable from project ':phoenix-android'
+------------------------------------------------------------
+
+Android tasks
+-------------
+androidDependencies - Displays the Android dependencies of the project.
+signingReport - Displays the signing info for the base and test modules
+sourceSets - Prints out all the source sets defined in this project.
+
+Build tasks
+-----------
+assemble - Assemble main outputs for all the variants.
+assembleAndroidTest - Assembles all the Test applications.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildKotlinToolingMetadata - Build metadata json file containing information about the used Kotlin tooling
+buildNeeded - Assembles and tests this project and all projects it depends on.
+bundle - Assemble bundles for all the variants.
+clean - Deletes the build directory.
+compileDebugAndroidTestSources
+compileDebugSources
+compileDebugUnitTestSources
+compileReleaseSources
+compileReleaseUnitTestSources
+...
+```
+
+That looks more promising.
+
+```
+root@e00c652e90fa:/home/ubuntu/phoenix# ./gradlew :phoenix-android:assemble
+BUILD SUCCESSFUL in 4m 57s
+231 actionable tasks: 62 executed, 169 up-to-date
+root@e00c652e90fa:/home/ubuntu/phoenix# ls phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk 
+phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk
+```
+
+That looks like a build result we want.
+
+```
+$ unzip -qqd fromBuild phoenix-android/build/outputs/apk/release/phoenix-66-2.0.11-mainnet-release.apk 
+$ unzip -qqd fromGoogle path/to/Phoenix\ 2.0.11\ \(fr.acinq.phoenix.mainnet\).apk 
+$ diff --recursive from*
+Binary files fromBuild/assets/dexopt/baseline.prof and fromGoogle/assets/dexopt/baseline.prof differ
+Binary files fromBuild/assets/dexopt/baseline.profm and fromGoogle/assets/dexopt/baseline.profm differ
+Binary files fromBuild/classes3.dex and fromGoogle/classes3.dex differ
+Binary files fromBuild/classes5.dex and fromGoogle/classes5.dex differ
+Only in fromGoogle/META-INF: MAINNET.RSA
+Only in fromGoogle/META-INF: MAINNET.SF
+Only in fromGoogle/META-INF: MANIFEST.MF
+```
+
+Upon closer inspection with diffoscope, thousands of differences are found, with
+those we looked into, looking benign like:
+
+```
+├── smali_classes3/fr/acinq/phoenix/db/phoenixshared/AppDatabaseImpl$Schema.smali
+│ @@ -80,35 +80,35 @@
+│  
+│      const-string v0, "driver"
+│  
+│      invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+│  
+│      const/4 v2, 0x0
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS exchange_rates (\n    fiat TEXT NOT NULL PRIMARY KEY,\n    price REAL NOT NULL,\n    type TEXT NOT NULL,\n    source TEXT NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│  
+│      const/4 v4, 0x0
+│  
+│      const/4 v5, 0x0
+│  
+│      const/16 v6, 0x8
+│  
+│      const/4 v7, 0x0
+│  
+│      move-object v1, p1
+│  
+│      .line 57
+│      invoke-static/range {v1 .. v7}, Lcom/squareup/sqldelight/db/SqlDriver$DefaultImpls;->execute$default(Lcom/squareup/sqldelight/db/SqlDriver;Ljava/lang/Integer;Ljava/lang/String;ILkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS key_value_store (\n    key TEXT NOT NULL PRIMARY KEY,\n    value BLOB NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+│  
+│ -    .line 66
+│ +    .line 64
+│      invoke-static/range {v1 .. v7}, Lcom/squareup/sqldelight/db/SqlDriver$DefaultImpls;->execute$default(Lcom/squareup/sqldelight/db/SqlDriver;Ljava/lang/Integer;Ljava/lang/String;ILkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+│  
+│ -    const-string v3, "CREATE TABLE IF NOT EXISTS notifications (\n    id TEXT NOT NULL PRIMARY KEY,\n    type_version TEXT NOT NULL,\n    data_json BLOB NOT NULL,\n    created_at INTEGER NOT NULL,\n    read_at INTEGER DEFAULT NULL\n)"
+│ +    const-string v3, "CREATE TABLE IF NOT EXISTS exchange_rates (\n    fiat TEXT NOT NULL PRIMARY KEY,\n    price REAL NOT NULL,\n    type TEXT NOT NULL,\n    source TEXT NOT NULL,\n    updated_at INTEGER NOT NULL\n)"
+```
+
+where simply some DB queries changed their order or:
+
+```
+│ -    value = "SMAP\nPaymentsDatabaseImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaymentsDatabaseImpl.kt\nfr/acinq/phoenix/db/phoenixshared/OutgoingPaymentsQueriesImpl$getPaymentWithoutParts$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3096:1\n1#2:3097\n*E\n"
+│ +    value = "SMAP\nPaymentsDatabaseImpl.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaymentsDatabaseImpl.kt\nfr/acinq/phoenix/db/phoenixshared/OutgoingPaymentsQueriesImpl$getPaymentWithoutParts$1\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,3097:1\n1#2:3098\n*E\n"
+```
+
+So while most differences look related to the
+[known issues with sqldelight](https://github.com/cashapp/sqldelight/issues/1548)
+and benign, this version is again **not verifiable**.
+
+With the modified {% include testScript.html %}, this is how it looks like:
+
+```
+===== Begin Results =====
+appId:          fr.acinq.phoenix.mainnet
+signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+apkVersionName: 2.0.11
+apkVersionCode: 66
+verdict:        
+appHash:        e690d64eb7ad2b59af85f048b33433765bb3fc6545420c4351400ccfb7ceaf8b
+commit:         93b828936c620d14d8125bc6ae5760a7e7be9e04
+
+Diff:
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/classes3.dex differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_66/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_66/META-INF: MANIFEST.MF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+**Update 2023-04-15**: 
 Here we test if the latest version can be verified, following the known
 procedure expressed in our {% include testScript.html %}:
 

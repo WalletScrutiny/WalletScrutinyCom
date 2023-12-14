@@ -9,11 +9,11 @@ appId: pro.bingbon.finance
 appCountry: de
 idd: 1500217666
 released: 2020-02-25
-updated: 2023-09-20
-version: 4.0.5
+updated: 2023-12-06
+version: 4.6.5
 stars: 4.5
-reviews: 45
-size: '212129792'
+reviews: 58
+size: '197328896'
 website: https://bingbon.com
 repository: 
 issue: 

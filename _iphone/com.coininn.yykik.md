@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coininn.yykik.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-07-19
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: coin_inn

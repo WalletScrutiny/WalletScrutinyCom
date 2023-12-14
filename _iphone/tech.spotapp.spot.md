@@ -8,11 +8,11 @@ appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
 released: 2018-08-07
-updated: 2023-09-20
-version: '5.16'
+updated: 2023-11-09
+version: '5.19'
 stars: 4.6
-reviews: 6819
-size: '182200320'
+reviews: 6981
+size: '182880256'
 website: https://spot-wallet.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: coin 9
+title: B9 Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.coinb9.app
 appCountry: 
 released: 2022-03-07
-updated: 2023-04-20
-version: 4.1.4
+updated: 2023-11-13
+version: 4.1.5
 stars: 
 ratings: 
 reviews: 

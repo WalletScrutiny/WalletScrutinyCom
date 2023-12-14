@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchange.wethio.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-24
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: wethiox

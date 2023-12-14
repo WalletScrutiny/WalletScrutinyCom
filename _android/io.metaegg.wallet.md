@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-04
 updated: 2022-09-11
 version: 0.1.2
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://metaegg.io
 repository: 

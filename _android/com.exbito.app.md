@@ -8,11 +8,11 @@ users: 10000
 appId: com.exbito.app
 appCountry: 
 released: 2021-10-17
-updated: 2023-09-02
-version: 1.10.1012
-stars: 4.7
+updated: 2023-11-28
+version: 1.10.1019
+stars: 4.8
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://exbito.com
 repository: 

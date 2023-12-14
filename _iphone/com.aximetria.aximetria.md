@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aximetria.aximetria.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-09-08
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: aximetriagmbh

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.technoloader.ttg.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-06-07
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: tradethegames

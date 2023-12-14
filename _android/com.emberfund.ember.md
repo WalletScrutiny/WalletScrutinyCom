@@ -1,6 +1,6 @@
 ---
 wsId: ember
-title: Ember Fund Invest in Crypto
+title: Ember - Earn Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
-updated: 2023-09-20
-version: '33.0'
-stars: 4.2
+updated: 2023-12-13
+version: '33.6'
+stars: 4.4
 ratings: 1026
-reviews: 630
+reviews: 705
 size: 
 website: https://www.emberfund.io/
 repository: 

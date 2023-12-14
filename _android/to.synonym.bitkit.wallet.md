@@ -8,7 +8,7 @@ users: 1000
 appId: to.synonym.bitkit.wallet
 appCountry: 
 released: 
-updated: 2023-07-18
+updated: 2023-12-11
 version: VARY
 stars: 
 ratings: 

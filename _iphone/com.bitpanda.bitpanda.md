@@ -8,11 +8,11 @@ appId: com.bitpanda.bitpanda
 appCountry: at
 idd: '1449018960'
 released: 2019-11-29
-updated: 2023-09-14
-version: 2.58.0
+updated: 2023-12-11
+version: 2.64.0
 stars: 4.7
-reviews: 13539
-size: '191491072'
+reviews: 14109
+size: '208667648'
 website: https://www.bitpanda.com/app
 repository: 
 issue: 

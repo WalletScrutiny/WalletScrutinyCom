@@ -41,6 +41,9 @@ features:
 
 ---
 
+<div class="alertBox"><div>There are reports that this company is involved in Ponzi schemes. Furthermore, it claims to be licensed by the MFSA (Malta Financial Services Authority), when in fact, <a href="https://www.mfsa.mt/news-item/mfsa-warning-quickx-ltd-cnexchange-unlicensed-entity/">they are not</a>. 
+ </div> </div>
+
 ## Product Description 
 
 > QuickX Touch is an NFC Card-typed cold wallet. It is a hardware wallet that can safely store various cryptocurrency. QuickX Touch keeps your assets secure. QuickX Touch is a rugged, durable credit card. QuickX Touch fully complies with ISO7816 and ISO14443 specifications. In addition, QuickX TOuch does not require a battery and therefore can be used semi-permanently. QuickX Touch can support multiple cryptocurrencies such as Bitcoin, Ethereum, Bitcoin Cash, Litecoin, Omisego, various ERC-20 tokens and many other coins. 

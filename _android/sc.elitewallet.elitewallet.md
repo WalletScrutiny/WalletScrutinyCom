@@ -4,7 +4,7 @@ title: Elite Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: sc.elitewallet.elitewallet
 appCountry: 
 released: 2022-11-22
@@ -12,7 +12,7 @@ updated: 2023-06-02
 version: 1.1.7
 stars: 4.5
 ratings: 
-reviews: 12
+reviews: 10
 size: 
 website: https://elitewallet.sc
 repository: https://github.com/Elite-Labs/EliteWallet/releases/

@@ -7,7 +7,7 @@ users: 100
 appId: com.alfacash.alfacashier.alfacash
 appCountry: 
 released: 2022-12-23
-updated: 2023-04-18
+updated: 2023-11-22
 version: 1.11.8
 stars: 
 ratings: 

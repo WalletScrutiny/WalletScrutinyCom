@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-06-02
 updated: 2023-02-16
 version: '2.512'
-stars: 2.8
+stars: 3
 ratings: 160
-reviews: 11
+reviews: 10
 size: 
 website: https://www.fatbtc.com
 repository: 

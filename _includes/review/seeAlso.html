@@ -3,30 +3,23 @@
   {% for folders in site.data.platformMeta %}
     {% assign folder = folders[0] %}
     {% if folder != include.platform %}
-      {% for wallet in site[folder] %}
-        {% if wallet.wsId == include.wsId %}
+      {% assign wallet = site[folder] | find: "wsId", include.wsId %}
+      {% if wallet %}
         {% capture htmlInner %}
           <div class="also-for">
             <a href="/{{folder}}/{{wallet.appId}}">
               <img class="app_logo {{folder}}"
               src="/images/wIcons/{{folder}}/tiny/{{wallet.icon}}"
               alt="Wallet Logo">
-              {% if wallet.altTitle %}
-                {% assign title = wallet.altTitle %}
-              {% else %}
-                {% assign title = wallet.title %}
-              {% endif %}
-
               {% include iconClass.html platform=folder store='true' %}
               {% include folderToName.html folder=folder store='true' %}
-              <span>{{title}}</span>
+              <span>{{ wallet.altTitle | default: wallet.title | escape }}</span>
               <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
               </a>
           </div>
         {% endcapture %}
         {% assign html = html | append: htmlInner %}
-        {% endif %}
-      {% endfor %}
+      {% endif %}
     {% endif %}
   {% endfor %}
 {% endif %}

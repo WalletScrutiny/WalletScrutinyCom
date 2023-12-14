@@ -8,8 +8,8 @@ users: 1000
 appId: com.vynkpay
 appCountry: 
 released: 2020-06-30
-updated: 2022-08-18
-version: '3.7'
+updated: 2023-11-29
+version: '4.2'
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vynkpay.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-08-15
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: vynkgroup

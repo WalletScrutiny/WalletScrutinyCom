@@ -1,25 +1,25 @@
 ---
 wsId: 
-title: Vida
+title: Vida - Paywall Your Phone
 altTitle: 
 authors: 
-users: 100
+users: 10000
 appId: com.vida.live.android
 appCountry: 
 released: 2022-03-09
-updated: 2023-07-03
-version: 0.0.8
-stars: 
+updated: 2023-12-07
+version: 1.0.2
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 13
 size: 
-website: 
+website: https://vida.io
 repository: 
 issue: 
 icon: com.vida.live.android.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: tech.pertiller.cryptocoincheck.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-18
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: BitcoinMonitor1

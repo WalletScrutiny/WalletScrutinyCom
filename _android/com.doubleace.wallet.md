@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.doubleace.wallet.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-22
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: DAAFinance

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinblockchain.suyd.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2023-02-24
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,9 +8,9 @@ users: 500000
 appId: com.probit.app.android2.release.global
 appCountry: 
 released: 2019-06-19
-updated: 2023-09-20
-version: 1.53.1
-stars: 4.4
+updated: 2023-12-11
+version: 1.55.3
+stars: 4.1
 ratings: 6161
 reviews: 347
 size: 

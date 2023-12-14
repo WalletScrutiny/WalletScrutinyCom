@@ -3,7 +3,7 @@ wsId:
 title: VITIEN
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.vitien.vitien
 appCountry: 
 released: 2023-04-27

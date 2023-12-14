@@ -3,7 +3,7 @@ wsId:
 title: Criptoclases
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.uscreen.videotrading
 appCountry: 
 released: 2021-12-07
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Criptoclases-Old
+developerName: Criptoclases
 features: 
 
 ---

@@ -7,9 +7,9 @@ users: 1000
 appId: com.defexa.wallet
 appCountry: 
 released: 2023-04-28
-updated: 2023-09-20
-version: 1.1.4
-stars: 4.6
+updated: 2023-11-21
+version: 1.2.4
+stars: 3.9
 ratings: 
 reviews: 4
 size: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: DFX Technology Limited
+developerName: FPS Global LTD
 features: 
 
 ---

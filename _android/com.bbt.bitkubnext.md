@@ -8,8 +8,8 @@ users: 50000
 appId: com.bbt.bitkubnext
 appCountry: 
 released: 2021-09-21
-updated: 2023-09-21
-version: 1.9.1
+updated: 2023-09-26
+version: 1.9.2
 stars: 
 ratings: 
 reviews: 

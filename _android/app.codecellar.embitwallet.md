@@ -3,12 +3,12 @@ wsId:
 title: 'Embit: Bitcoin Wallet, Testnet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.codecellar.embitwallet
 appCountry: 
 released: 2019-12-01
-updated: 2023-05-23
-version: '5.07'
+updated: 2023-10-24
+version: '5.08'
 stars: 
 ratings: 
 reviews: 
