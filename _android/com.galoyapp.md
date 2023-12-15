@@ -24,12 +24,7 @@ meta: ok
 verdict: custodial
 date: 2023-10-20
 signer: 
-reviewArchive: 
-- date: 2021-08-06
-  version: 1.4.6
-  appHash: 
-  gitRevision: ca760f9bbc36e85d8b73c12227e2260fdf7ea77d
-  verdict: custodial
+reviewArchive:
 twitter: blinkbtc
 social: 
 - https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
