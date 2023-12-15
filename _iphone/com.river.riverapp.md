@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: river
 title: River – Buy & Mine Bitcoin
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.river.riverapp
 appCountry: us
 idd: '1536176542'
@@ -18,14 +19,16 @@ issue:
 icon: com.river.riverapp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: River
+social:
+- https://www.linkedin.com/company/riverfinancial 
 features: 
 developerName: River Financial Inc.
 
 ---
 
+{% include copyFromAndroid.html %}

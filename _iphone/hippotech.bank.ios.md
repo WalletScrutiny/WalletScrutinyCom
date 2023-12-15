@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ziglu
 title: Ziglu. Money, done differently
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: hippotech.bank.ios
 appCountry: gb
 idd: '1472192023'
@@ -18,14 +19,17 @@ issue:
 icon: hippotech.bank.ios.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: ziglumoney
+social:
+- https://www.facebook.com/ziglumoney
+- https://www.linkedin.com/company/ziglu 
 features: 
 developerName: Ziglu Limited
 
 ---
 
+{% include copyFromAndroid.html %}

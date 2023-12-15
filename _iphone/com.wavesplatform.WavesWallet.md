@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: wavesExchange
 title: Waves.Exchange
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.wavesplatform.WavesWallet
 appCountry: us
 idd: '1233158971'
@@ -18,14 +19,15 @@ issue:
 icon: com.wavesplatform.WavesWallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: nobtc
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
+twitter: waves_exchange
 social: 
 features: 
 developerName: WAVES PLATFORM LTD
 
 ---
 
+{% include copyFromAndroid.html %}

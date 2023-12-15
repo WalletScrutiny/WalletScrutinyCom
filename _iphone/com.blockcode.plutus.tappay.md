@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: plutusWallet
 title: Plutus | Bank On Crypto
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.blockcode.plutus.tappay
 appCountry: gb
 idd: '1410685948'
@@ -18,8 +19,8 @@ issue:
 icon: com.blockcode.plutus.tappay.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: nobtc
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: BLOCK CODE LTD
 
 ---
 
+{% include copyFromAndroid.html %}

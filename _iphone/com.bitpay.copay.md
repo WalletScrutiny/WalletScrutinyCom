@@ -20,7 +20,7 @@ icon: com.bitpay.copay.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2023-09-20
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +30,5 @@ developerName: BitPay, Inc.
 
 ---
 
-Replaced by {% include walletLink.html wallet='iphone/com.bitpay.wallet' verdict='true' %}
+This still exists in the Apple store, although it has been replaced by {% include walletLink.html wallet='iphone/com.bitpay.wallet' verdict='true' %} 
+

@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: techAmon
 title: amon
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: tech.amon
 appCountry: us
 idd: '1375721006'
@@ -18,14 +19,16 @@ issue:
 icon: tech.amon.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: amonwallet
+social:
+- https://www.facebook.com/amonwallet
 features: 
 developerName: Amon OÜ
 
 ---
 
+{% include copyFromAndroid.html %}

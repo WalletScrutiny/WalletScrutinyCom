@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: newealth
 title: newealth
 altTitle: 
 authors: 

@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bankoWallet
 title: Banko Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: app.banko.ios
 appCountry: us
 idd: '1441243164'

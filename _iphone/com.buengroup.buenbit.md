@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: buenbit
 title: Buenbit
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
@@ -18,8 +19,8 @@ issue:
 icon: com.buengroup.buenbit.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: Buenbit
 
 ---
 
+{% include copyFromAndroid.html %}

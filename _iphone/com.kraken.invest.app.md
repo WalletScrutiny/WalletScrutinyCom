@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: krakenInvest
 title: Kraken - Buy Crypto & Bitcoin
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.kraken.invest.app
 appCountry: us
 idd: '1481947260'
@@ -18,14 +19,18 @@ issue:
 icon: com.kraken.invest.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: krakenfx
+social:
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
+- https://www.reddit.com/r/Kraken
 features: 
 developerName: Kraken
 
 ---
 
+{% include copyFromAndroid.html %}

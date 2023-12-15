@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: vite
 title: 'Vite: Zero Gas Layer-1'
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: net.vite.wallet
 appCountry: us
 idd: '1437629486'
@@ -18,14 +19,16 @@ issue:
 icon: net.vite.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: nobtc
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: vitelabs
+social:
+- https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg 
 features: 
 developerName: Vite Labs Limited
 
 ---
 
+{% include copyFromAndroid.html %}

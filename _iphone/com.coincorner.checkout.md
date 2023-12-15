@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.coincorner.checkout
 appCountry: us
 idd: '1464880599'
@@ -19,7 +20,7 @@ icon: com.coincorner.checkout.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-09-19
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: CoinCorner Ltd
 
 ---
 
+The android counterpart app is marked with only few users. 

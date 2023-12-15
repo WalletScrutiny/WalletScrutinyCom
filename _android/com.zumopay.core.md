@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: zumoPay
 title: 'Zumo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:

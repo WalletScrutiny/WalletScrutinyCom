@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: hodlit
 title: Hodlit
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.savechange.hodlit
 appCountry: us
 idd: '1436264962'
@@ -18,14 +19,15 @@ issue:
 icon: com.savechange.hodlit.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-15
 signer: 
 reviewArchive: 
-twitter: 
+twitter: hodlitapp
 social: 
 features: 
 developerName: Hodlit
 
 ---
 
+{% include copyFromAndroid.html %}

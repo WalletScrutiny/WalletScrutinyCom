@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: wavesExchange
 title: Waves.Exchange
 altTitle: 
 authors:

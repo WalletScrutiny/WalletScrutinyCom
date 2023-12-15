@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: criptanWallet
 title: 'Criptan: BTC Wallet & Card'
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.criptan.app
 appCountry: es
 idd: '1497960991'
@@ -18,8 +19,8 @@ issue:
 icon: com.criptan.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-20
+verdict: custodial
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: Criptan Trade SL
 
 ---
 
+{% include copyFromAndroid.html %}

@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: coinpassMobile
 title: coinpass Mobile
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.coinpasslimited.coinpassinstant
 appCountry: bg
 idd: '1530358553'
@@ -18,14 +19,18 @@ issue:
 icon: com.coinpasslimited.coinpassinstant.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-19
+verdict: custodial
+date: 2023-12-14
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: coinpassglobal
+social:
+- https://www.facebook.com/coinpassglobal
+- https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
+- https://www.linkedin.com/company/coinpass/
 features: 
 developerName: Coinpass Limited
 
 ---
 
+{% include copyFromAndroid.html %}
