@@ -13,21 +13,20 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitbanana.app/
+website: 
 repository: 
 issue: 
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-06-03
+date: 2023-10-26
 signer: 
 reviewArchive: 
-twitter: 
+twitter: BitBananaApp
 social: 
 redirect_from: 
 developerName: Michael Wünsch
 features: 
 
 ---
-
