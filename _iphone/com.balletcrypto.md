@@ -7,11 +7,11 @@ appId: com.balletcrypto
 appCountry: 
 idd: 1474912942
 released: 2019-09-11
-updated: 2023-07-25
-version: 2.9.4
+updated: 2023-12-09
+version: 2.12.4
 stars: 4.9
-reviews: 942
-size: '85912576'
+reviews: 1001
+size: '84698112'
 website: https://www.ballet.com/
 repository: 
 issue: 

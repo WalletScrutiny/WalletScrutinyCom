@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cloud.lordtoken.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-08-08
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: lordtoken_off

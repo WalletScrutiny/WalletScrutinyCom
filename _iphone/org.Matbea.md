@@ -8,11 +8,11 @@ appId: org.Matbea
 appCountry: ru
 idd: '1518987729'
 released: 2020-06-30
-updated: 2023-08-23
-version: 1.4.8
-stars: 3.7
-reviews: 116
-size: '39213056'
+updated: 2023-09-19
+version: 1.4.9
+stars: 3.6
+reviews: 122
+size: '39307264'
 website: 
 repository: 
 issue: 

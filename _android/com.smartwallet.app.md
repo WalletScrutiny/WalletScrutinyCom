@@ -1,15 +1,15 @@
 ---
 wsId: echooDeFi
-title: 'Echooo: Safe & Earn with DeFi'
+title: 'Echooo : Crypto AA Wallet&DeFi'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10
-updated: 2023-08-07
-version: 1.7.1
+updated: 2023-12-11
+version: 1.12.1
 stars: 4.4
 ratings: 
 reviews: 2

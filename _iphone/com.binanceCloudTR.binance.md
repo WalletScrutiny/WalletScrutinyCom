@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: 'Binance TR: BTC | SHIB | DOGE'
+title: Binance TR:Buy Crypto with TRY
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
 released: 2021-02-18
-updated: 2023-09-13
-version: 2.0.0
+updated: 2023-12-05
+version: 2.2.2
 stars: 4.6
-reviews: 60592
-size: '130266112'
+reviews: 69164
+size: '133142528'
 website: https://www.trbinance.com/
 repository: 
 issue: 

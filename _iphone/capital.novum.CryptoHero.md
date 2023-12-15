@@ -8,10 +8,10 @@ appId: capital.novum.CryptoHero
 appCountry: us
 idd: '1488574255'
 released: 2019-12-18
-updated: 2023-06-02
-version: 2.2.0
-stars: 3.5
-reviews: 19
+updated: 2023-11-06
+version: 2.2.1
+stars: 3.6
+reviews: 18
 size: '92114944'
 website: https://www.cryptohero.ai
 repository: 

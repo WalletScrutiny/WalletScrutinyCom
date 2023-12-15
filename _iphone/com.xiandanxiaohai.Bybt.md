@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinglass - Bitcoin & Crypto
+title: CoinGlass - Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2023-09-13
-version: 1.7.3
+updated: 2023-12-08
+version: 1.7.8
 stars: 4.9
-reviews: 1021
-size: '19923968'
+reviews: 1285
+size: '20535296'
 website: https://www.coinglass.com
 repository: 
 issue: 

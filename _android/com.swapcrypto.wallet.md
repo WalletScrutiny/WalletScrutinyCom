@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swapcrypto.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

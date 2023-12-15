@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: br.com.yappi.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-03-07
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: yappi_br

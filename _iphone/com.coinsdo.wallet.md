@@ -1,6 +1,6 @@
 ---
 wsId: coinsDoCoinWallet
-title: CoinsDo CoinWallet
+title: 'CoinWallet: BTC Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinsdo.wallet
 appCountry: us
 idd: '1631258517'
 released: 2022-07-12
-updated: 2023-09-06
-version: 1.1.24
+updated: 2023-10-05
+version: 1.1.25
 stars: 5
-reviews: 2
-size: '116275200'
+reviews: 6
+size: '113128448'
 website: 
 repository: 
 issue: 

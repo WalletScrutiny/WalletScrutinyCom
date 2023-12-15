@@ -8,11 +8,11 @@ appId: com.spedn.spedn
 appCountry: us
 idd: '1456135087'
 released: 2019-05-13
-updated: 2023-07-22
-version: 23.7.1
+updated: 2023-11-22
+version: 23.11.1
 stars: 4.6
-reviews: 61
-size: '25175040'
+reviews: 66
+size: '27427840'
 website: https://spedn.io
 repository: 
 issue: 

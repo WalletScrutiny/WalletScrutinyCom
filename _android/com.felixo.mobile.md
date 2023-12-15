@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-17
 updated: 2022-08-22
 version: 2.0.0
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 10
+reviews: 9
 size: 
 website: https://www.felixo.com
 repository: 

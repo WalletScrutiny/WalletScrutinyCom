@@ -4,11 +4,11 @@ title: Stack Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.cypherstack.stackwallet
 appCountry: 
 released: 
-updated: 2023-09-14
+updated: 2023-12-11
 version: VARY
 stars: 
 ratings: 

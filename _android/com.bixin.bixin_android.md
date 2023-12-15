@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bixin - Secure Bitcoin Wallet
+title: Bixin - Virtual Assets Trading
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.bixin.bixin_android
 appCountry: 
 released: 2017-03-22
-updated: 2022-04-14
-version: 4.4.6
+updated: 2023-12-04
+version: 4.6.0
 stars: 3.8
 ratings: 91
 reviews: 10
-size: 173M
+size: 
 website: https://bixin.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BixinWallet
 social: 
 redirect_from: 
-developerName: 
+developerName: Bixin.com
 features: 
 
 ---

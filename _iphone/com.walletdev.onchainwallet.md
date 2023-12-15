@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.walletdev.onchainwallet.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2021-04-20
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: HuobiWallet

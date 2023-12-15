@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Invest in BTC, ETH, BNB'
+title: 'ONUS: Grow & Invest in Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2023-09-11
-version: 4.8.2
-stars: 4.2
+updated: 2023-12-08
+version: 5.0.5
+stars: 4.1
 ratings: 46866
 reviews: 370
 size: 

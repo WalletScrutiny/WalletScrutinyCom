@@ -12,7 +12,7 @@ updated: 2023-04-26
 version: 2.3.2
 stars: 4
 ratings: 261
-reviews: 19
+reviews: 20
 size: 
 website: https://btc.com
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.trycircleapp.wallets.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-12-17
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

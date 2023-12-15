@@ -8,11 +8,11 @@ users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: 2022-05-31
-updated: 2023-09-13
-version: 2.5.0
+updated: 2023-12-08
+version: 2.9.1
 stars: 4.3
 ratings: 
-reviews: 62
+reviews: 61
 size: 
 website: https://kuwallet.com
 repository: 

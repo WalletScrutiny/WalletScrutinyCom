@@ -1,6 +1,6 @@
 ---
 wsId: atomex
-title: Atomex - Crypto Wallet & Atomic swap DEX
+title: Atomex - Crypto Wallet & DEX
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 10000
 appId: com.atomex.android
 appCountry: 
 released: 2020-12-06
-updated: 2021-11-09
-version: 1.12.1
-stars: 3.9
+updated: 2023-02-24
+version: 1.25.0
+stars: 3.7
 ratings: 64
-reviews: 4
-size: 61M
+reviews: 5
+size: 
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: https://github.com/atomex-me/atomex.mobile/issues/24
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: atomex_official
 social: 
 redirect_from: 
-developerName: 
+developerName: Atomex
 features: 
 
 ---

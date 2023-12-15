@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-04-21
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: acornbitsupport

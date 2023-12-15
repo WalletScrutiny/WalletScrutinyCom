@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-02-09
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,7 +8,7 @@ const { Semaphore } = require('async-mutex')
 
 const sem = new Semaphore(50)
 const stats = {
-  defunct: 0,
+  removed: 0,
   updated: 0,
   remaining: 0
 }
@@ -43,7 +43,7 @@ function refreshFile (fileName, content, markDefunct) {
     const appId = header.appId
     const appCountry = header.appCountry || 'us'
     helper.checkHeaderKeys(header, headers)
-    if (!helper.was404(`${folder}${appId}`) && !'defunct'.includes(header.meta)) {
+    if (!helper.was404(`${folder}${appId}`) && !'removed'.includes(header.meta)) {
       try {
         gplay.app({
           appId: appId,
@@ -62,7 +62,7 @@ function refreshFile (fileName, content, markDefunct) {
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
             if (markDefunct) {
-              header.meta = "defunct"
+              header.meta = "removed"
               header.date = new Date()
               helper.writeResult(folder, header, body)
             } else {
@@ -80,7 +80,7 @@ function refreshFile (fileName, content, markDefunct) {
         console.error(`Does this ever get triggered 2? ${err}`)
       }
     } else {
-      stats.defunct++
+      stats.removed++
       helper.writeResult(folder, header, body)
       stats.remaining--
       release()

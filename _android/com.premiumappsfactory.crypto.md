@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto - Learn, Trade and Earn
+title: Crypto App
 altTitle: 
 authors: 
 users: 50

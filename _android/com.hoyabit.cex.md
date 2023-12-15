@@ -3,12 +3,12 @@ wsId:
 title: HOYA BIT 加密貨幣交易所
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10
-updated: 2023-08-30
-version: 1.4.0
+updated: 2023-11-28
+version: 1.5.2.1
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.hoyabit.cex.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

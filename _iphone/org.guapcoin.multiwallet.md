@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.guapcoin.multiwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-28
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: guapcoin

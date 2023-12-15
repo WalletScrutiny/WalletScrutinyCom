@@ -1,6 +1,6 @@
 ---
 wsId: WalletsAfrica
-title: Wallets
+title: Spring
 altTitle: 
 authors:
 - kiwilamb

@@ -8,11 +8,11 @@ appId: com.app.koinbazar
 appCountry: in
 idd: 1567360326
 released: 2021-06-02
-updated: 2023-09-01
-version: 2.0.10
-stars: 2.8
-reviews: 93
-size: '71953408'
+updated: 2023-12-07
+version: '3.3'
+stars: 2.9
+reviews: 95
+size: '68034560'
 website: https://www.koinbx.com/
 repository: 
 issue: 

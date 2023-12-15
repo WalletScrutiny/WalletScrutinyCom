@@ -49,7 +49,7 @@ function searchByWords(query, wallet) {
 
 function performSearch(wallets, query = false, platform = false) {
   const platformOrder = ['android', 'iphone', 'hardware', 'bearer']
-  const metaOrder = ['ok', 'outdated', 'stale', 'obsolete', 'defunct']
+  const metaOrder = ['ok', 'outdated', 'stale', 'obsolete', 'removed', 'defunct']
   const verdictOrder = ["nobinary", "reproducible", "diy", "nonverifiable", "ftbfs", "nosource", "custodial", "nosendreceive", "sealed-noita", "noita", "sealed-plainkey", "plainkey", "obfuscated", "prefilled", "fake", "wip", "fewusers", "unreleased", "vapor", "nobtc", "nowallet"]
 
   let workingArray = []

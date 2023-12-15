@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-06
 updated: 2023-08-20
 version: 1.3.1
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 4
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.vipsats.satoshi.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
-date: 2023-09-06
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: vipsats

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Quintex Network
+developerName: QUINTEX AI
 features: 
 
 ---

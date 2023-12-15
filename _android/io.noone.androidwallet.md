@@ -4,13 +4,13 @@ title: Noone Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.noone.androidwallet
 appCountry: 
 released: 2023-03-17
-updated: 2023-08-31
-version: 1.5.0
-stars: 4.5
+updated: 2023-12-05
+version: 1.8.1
+stars: 4.6
 ratings: 
 reviews: 2
 size: 

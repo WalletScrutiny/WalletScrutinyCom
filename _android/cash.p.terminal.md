@@ -3,12 +3,12 @@ wsId:
 title: P.CASH
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2023-05-25
-version: 0.32.1
+updated: 2023-11-19
+version: 0.36.2
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -4,15 +4,15 @@ title: Digitra.com - Zero fee trading
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.digitra.digitraHB
 appCountry: 
 released: 2022-03-05
-updated: 2023-09-13
-version: 1.0.63
-stars: 4.9
+updated: 2023-12-01
+version: 1.0.74
+stars: 4.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.digitra.com
 repository: 

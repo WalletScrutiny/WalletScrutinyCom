@@ -10,8 +10,8 @@ idd: '1606418661'
 released: 2022-02-23
 updated: 2023-08-31
 version: '3.1'
-stars: 3.5
-reviews: 12
+stars: 3.7
+reviews: 11
 size: '31318016'
 website: https://sparkwallet.io/
 repository: 

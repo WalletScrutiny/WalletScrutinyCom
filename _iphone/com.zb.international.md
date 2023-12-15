@@ -11,16 +11,16 @@ released: 2021-07-19
 updated: 2022-10-31
 version: 1.4.0
 stars: 3.5
-reviews: 21
+reviews: 22
 size: '159645696'
 website: 
 repository: 
 issue: 
 icon: com.zb.international.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-17
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: ZBexchange

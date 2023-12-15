@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mahcard.mahcardapp.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

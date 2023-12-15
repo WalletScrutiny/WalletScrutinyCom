@@ -1,6 +1,6 @@
 ---
 wsId: zoomexCrypto
-title: ZOOMEX
+title: ZOOMEX - Trade&Invest Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: co.zoomex.app
 appCountry: us
 idd: '1601766234'
 released: 2022-03-07
-updated: 2023-09-05
-version: 3.2.9
-stars: 3.9
-reviews: 10
-size: '81773568'
+updated: 2023-12-10
+version: 3.5.0
+stars: 3.6
+reviews: 11
+size: '86780928'
 website: 
 repository: 
 issue: 

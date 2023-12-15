@@ -8,11 +8,11 @@ appId: com.zimi.arkpay
 appCountry: tw
 idd: '1490824690'
 released: 2019-12-29
-updated: 2023-08-17
-version: 2.11.6
+updated: 2023-11-25
+version: 2.13.0
 stars: 3.1
 reviews: 9
-size: '34803712'
+size: '35357696'
 website: 
 repository: 
 issue: 

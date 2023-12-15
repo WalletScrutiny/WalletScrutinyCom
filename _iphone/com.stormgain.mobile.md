@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.stormgain.mobile.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-03-10
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: StormGain_com

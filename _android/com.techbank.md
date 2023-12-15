@@ -3,12 +3,12 @@ wsId:
 title: TechBank
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.techbank
 appCountry: 
 released: 2022-03-16
-updated: 2022-12-23
-version: 1.2.0
+updated: 2023-09-18
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.techbank.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kickex.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-17
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: kickexcom

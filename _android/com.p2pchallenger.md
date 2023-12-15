@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: P2P Options - Peer to Peer Trading App
+title: P2P Options - Peer to Peer Tra
 altTitle: 
 authors:
 - danny
@@ -10,10 +10,10 @@ appCountry:
 released: 2021-04-16
 updated: 2021-05-24
 version: 1.0.8
-stars: 4.1
+stars: 
 ratings: 8
-reviews: 3
-size: 32M
+reviews: 
+size: 
 website: 
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: P2P Options
 features: 
 
 ---

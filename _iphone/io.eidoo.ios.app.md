@@ -11,7 +11,7 @@ released: 2022-07-21
 updated: 2023-07-21
 version: 1.14.2
 stars: 4.1
-reviews: 14
+reviews: 16
 size: '58854400'
 website: https://eidoo.app
 repository: 

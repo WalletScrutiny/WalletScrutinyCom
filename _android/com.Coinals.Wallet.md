@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 5.4M
+size: 
 website: 
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: COINALS_INC
 features: 
 
 ---

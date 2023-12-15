@@ -4,15 +4,15 @@ title: 'WOW EARN: BTC & Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2023-09-16
-version: 2.0.2
-stars: 4.6
+updated: 2023-12-08
+version: 2.0.10
+stars: 4.4
 ratings: 
-reviews: 23
+reviews: 55
 size: 
 website: https://wowearn.com/
 repository: 

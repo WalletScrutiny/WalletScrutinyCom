@@ -8,11 +8,11 @@ appId: com.coinbaazarDistribution
 appCountry: us
 idd: 1548921926
 released: 2021-01-25
-updated: 2023-05-24
-version: 1.2.4.9
-stars: 3.8
+updated: 2023-12-01
+version: 1.2.50
+stars: 3.5
 reviews: 8
-size: '71048192'
+size: '71207936'
 website: https://coinbaazar.com
 repository: 
 issue: 

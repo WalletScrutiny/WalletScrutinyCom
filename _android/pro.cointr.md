@@ -8,16 +8,16 @@ users: 50000
 appId: pro.cointr
 appCountry: 
 released: 2022-10-30
-updated: 2023-09-06
-version: 2.2.4
-stars: 4.1
+updated: 2023-12-10
+version: 2.4.2
+stars: 4.6
 ratings: 
-reviews: 6
+reviews: 58
 size: 
 website: https://www.cointr.pro
 repository: 
 issue: 
-icon: pro.cointr.png
+icon: pro.cointr.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
@@ -40,7 +40,7 @@ features:
 There is another version of this app at: 
 
 - {% include walletLink.html wallet='android/com.cointr' verdict='true' %}
-- {% include walletLink.html wallet='iphone/com.cointr' verdict='true' %}
+- {% include walletLink.html wallet='iphone/vip.trcoin.global' verdict='true' %}
 
 - This is the 'Pro' version of the app, and is targeted towards a global audience while other app is for Turkey. 
 - We found a link to both platforms on an official [CoinTR support page](https://support.cointr.com/hc/tr/articles/6016900478095-CoinTR-PRO-da-TRY-Paritesi-Durdurulacakt%C4%B1r-).

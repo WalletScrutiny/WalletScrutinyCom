@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.iqtrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-06-03
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ethegram.app.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-11-02
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

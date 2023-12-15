@@ -8,8 +8,8 @@ users: 50000
 appId: com.asiainnovations.ace.taiwan
 appCountry: us
 released: 2019-01-28
-updated: 2023-09-04
-version: 5.2.0_3679
+updated: 2023-11-02
+version: 5.2.0_3720
 stars: 
 ratings: 
 reviews: 

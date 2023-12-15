@@ -8,8 +8,8 @@ users: 1000
 appId: com.wirebitdigitalapp
 appCountry: 
 released: 2021-08-20
-updated: 2023-08-22
-version: 1.12.3
+updated: 2023-09-27
+version: 1.12.4
 stars: 
 ratings: 
 reviews: 

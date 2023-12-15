@@ -11,7 +11,7 @@ released: 2020-01-14
 updated: 2023-04-19
 version: 9.5.26
 stars: 3.3
-reviews: 80
+reviews: 84
 size: '174373888'
 website: 
 repository: 
@@ -31,7 +31,7 @@ social:
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
 features: 
-developerName: LCT HOLDING SP Z O O
+developerName: COINW SP Z O O
 
 ---
 

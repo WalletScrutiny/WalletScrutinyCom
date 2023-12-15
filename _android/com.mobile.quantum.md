@@ -4,11 +4,11 @@ title: Quan2um
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mobile.quantum
 appCountry: 
 released: 2022-04-18
-updated: 2023-07-10
+updated: 2023-10-30
 version: 1.0.8
 stars: 
 ratings: 

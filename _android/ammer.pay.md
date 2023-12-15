@@ -7,8 +7,8 @@ users: 100
 appId: ammer.pay
 appCountry: 
 released: 2022-08-22
-updated: 2023-09-12
-version: 1.2.26
+updated: 2023-12-04
+version: 1.3.5
 stars: 
 ratings: 
 reviews: 

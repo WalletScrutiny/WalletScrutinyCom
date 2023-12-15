@@ -1,5 +1,5 @@
 ---
-wsId: AladdinPro
+wsId: AladdinWallet
 title: Aladdin Wallet
 altTitle: 
 authors:
@@ -19,14 +19,18 @@ issue:
 icon: com.abbc.wallet.jpg
 bugbounty: 
 meta: obsolete
-verdict: custodial
-date: 2022-02-03
+verdict: nosource
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: abbcfoundation
 social:
-- https://www.linkedin.com/company/abbcfoundation
-- https://www.facebook.com/abbcfoundation
+- https://www.facebook.com/abbcfoundation/
+- https://t.me/abbcfoundationofficial/
+- https://t.me/abbcfoundation/
+- https://www.instagram.com/abbccoin/
+- https://www.linkedin.com/company/abbcfoundation/
+- https://www.reddit.com/user/abbc_foundation/
 features: 
 developerName: MC ABBC IT SOLUTION
 

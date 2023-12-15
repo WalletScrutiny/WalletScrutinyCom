@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Libertify - AI for Cryptos
+title: Libertify - AI Risk Management
 altTitle: 
 authors: 
 users: 1000
 appId: com.libertify
 appCountry: 
 released: 2023-01-12
-updated: 2023-09-12
-version: 1.3.6
+updated: 2023-11-09
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 

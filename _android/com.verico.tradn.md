@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Tradn - Buy Bitcoins with Trusted Exchanges
+title: Tradn - Buy Bitcoins with Trus
 altTitle: 
 authors:
 - danny
@@ -10,10 +10,10 @@ appCountry:
 released: 2020-04-24
 updated: 2021-07-19
 version: 1.5.106
-stars: 4.5
+stars: 
 ratings: 39
-reviews: 18
-size: 47M
+reviews: 
+size: 
 website: https://tradn.io/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Verico International Co., Ltd.
 features: 
 
 ---

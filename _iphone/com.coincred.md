@@ -8,11 +8,11 @@ appId: com.coincred
 appCountry: in
 idd: '1596466402'
 released: 2021-12-31
-updated: 2023-09-13
-version: 2.0.3
+updated: 2023-12-11
+version: '3.4'
 stars: 3.4
-reviews: 103
-size: '35855360'
+reviews: 107
+size: '41366528'
 website: https://coincred.org/
 repository: 
 issue: 

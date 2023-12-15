@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitchant.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: 

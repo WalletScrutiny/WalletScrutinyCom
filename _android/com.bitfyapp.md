@@ -8,13 +8,13 @@ users: 100000
 appId: com.bitfyapp
 appCountry: us
 released: 2019-10-14
-updated: 2023-08-09
-version: 3.12.27
+updated: 2023-11-22
+version: 3.12.41
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bitfy.app
+website: https://blockchainwebservices.com.br
 repository: 
 issue: 
 icon: com.bitfyapp.png
