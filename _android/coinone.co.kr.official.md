@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coinOneKr
 title: 코인원 - Coinone
 altTitle: 
 authors:

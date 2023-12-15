@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: skrill
 title: Skrill - Fast, secure payments
 altTitle: 
 authors:

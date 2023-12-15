@@ -14,12 +14,12 @@ stars: 4.7
 reviews: 154
 size: '128525312'
 website: https://www.rockwallet.com
-repository: 
+repository: https://github.com/rockwalletcode/wallet-ios
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-08-28
 signer: 
 reviewArchive: 
@@ -32,5 +32,7 @@ features:
 developerName: RockWallet, LLC
 
 ---
+
+The Android app is slated for verification, but the iOS is non-verifiable.
 
 {% include copyFromAndroid.html %}

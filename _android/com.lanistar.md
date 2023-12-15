@@ -20,8 +20,8 @@ issue:
 icon: com.lanistar.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-07-10
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: iamlanistar
@@ -52,3 +52,13 @@ features:
 - At the moment, there is nothing to indicate that this service currently has cryptocurrency functions apart from news reports.
 - We emailed them at support@lanistar.com to inquire.
 - For the meanwhile, we'll mark this as a **work-in-progress** until better access and further documentation is available.
+
+**Update 2023-11-17** 
+
+After 5 months, the provider has not responded to any of our communications. They do claim that:
+
+> We've partnered with regulated crypto exchanges to bring you a full service to buy/ sell, hold, send and receive all in one place - so if you love crypto we have you covered! 
+
+There is nothing in their documentation that currently describes this process. After 5 months of no reply, we would tentatively mark this as **custodial** until further information is available from the provider. 
+
+We invite people residing in Brazil to contribute information when they can about this app.

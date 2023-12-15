@@ -2,7 +2,8 @@
 wsId: payBusinessElegro
 title: Elegro Business Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: paybusiness.elegro.eu
 appCountry: us
 idd: '1526117414'

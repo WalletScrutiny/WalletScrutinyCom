@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: cryptnoxCompanion
 title: Cryptnox Wallet
 altTitle: 
 authors:
@@ -19,15 +19,17 @@ issue:
 icon: com.cryptnox.companion.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-11-26
+verdict: nowallet
+date: 2023-11-15
 signer: 
 reviewArchive: 
-twitter: 
+twitter: CryptnoxTech
 social: 
+- https://github.com/Cryptnox-Software
+- https://www.linkedin.com/company/cryptnox/
 features: 
 developerName: Cryptnox
 
 ---
 
-This is the companion app to the {% include walletLink.html wallet='hardware/cryptnox.bg1card' verdict='true' %} hardware wallet.
+{% include copyFromAndroid.html %}
