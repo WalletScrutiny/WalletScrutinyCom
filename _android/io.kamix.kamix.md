@@ -51,7 +51,7 @@ features:
 - We will also send an email with the same queries. 
 - For now, we will keep this app as a **work-in-progress**. 
 
-**Update 2023**
+**Update 2023-11-17**:
 
 From its translated (Google Translate) [Terms and Conditions](https://www.kamix.io/fr/legal):
 
