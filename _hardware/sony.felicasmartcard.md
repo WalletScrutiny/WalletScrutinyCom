@@ -24,7 +24,7 @@ issue:
 icon: sony.felicasmartcard.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 date: 2023-09-30
 signer: 
 reviewArchive:
@@ -54,4 +54,4 @@ You can find more information here:
 
 Despite the marketing hype, the product was not launched as a cryptocurrency hardware wallet. 
 
-The year is now 2023, and there are other Bitcoin related NFC-card solutions. Sadly, there is no proof that the Sony Felica gained market momentum in this capacity. It did however, succeed in other ways and is continued to be sold according to these functions. Since then, we did not find any further news that it was released as a Bitcoin hardware wallet. 
+The year is now 2023, and there are other Bitcoin related NFC-card solutions. Sadly, there is no proof that the Sony Felica gained market momentum in this capacity. Since then, we did not find any further news that it was released as a Bitcoin hardware wallet. This is now considered as **vaporware**.

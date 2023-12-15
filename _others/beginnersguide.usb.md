@@ -11,9 +11,9 @@ binaries:
 dimensions:
 weight: 11.3
 provider: BetterWorldATL
-providerWebsite: https://gurucomputers.us
+providerWebsite: 
 website: 
-shop: https://www.amazon.com/dp/B09ZBKN6WS
+shop: https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
 country: US
 price: 34USD
 repository: 
@@ -22,7 +22,7 @@ icon: beginnersguide.usb.png
 bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2023-09-29
+date: 2023-12-15
 signer: 
 reviewArchive:
 twitter: 
