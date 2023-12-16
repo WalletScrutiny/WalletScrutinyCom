@@ -65,7 +65,7 @@ features:
 This is one of the few times we've encountered one of these so-called decentralized exchanges.
 
 1. They claim to be 100% self-custodial
-2. Users can connect their wallets to the platform using Metamask or WalletConnect. 
+2. Users can connect their wallets to the platform using WalletConnect. 
 3. It is possible to deposit funds but only for USDT
 4. If the user selects the option 'I don't have a wallet' they are redirected to this [page](https://ethereum.org/en/wallets/find-wallet/#main-content) which gives the user a list of options: Frame, Brave Wallet, MetaMask, imtoken, KeyStone, MyEtherWallet, OneKey, OKX, 1Inch, Portis, Zerion, Taho, etc.
 5. The platform currently [only supports the Polygon chain.](https://everstrike.io/) 

@@ -67,5 +67,5 @@ We then chose 'Top Up'. We inputted the amount and the BTC currency. We then tap
 
 We did not find any option to view, backup or restore the private keys. 
 
-This is sufficient for us to declare this app a **custodial** app. 
+This is sufficient for us to file this app as **custodial**. 
 
