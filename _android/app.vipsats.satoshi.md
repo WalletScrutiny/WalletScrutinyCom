@@ -32,9 +32,9 @@ features:
 
 ---
 
-**Update: 2023-12-02**
+**Update 2023-12-02:**
 
-This app has recently changed its Google Play app ID to app.vipsats.vipsats. After two months we still get the same error when asking for our email address for email verification, the app returns 'No Connection'.
+This app was recently retired in favor of {% include walletLink.html wallet='android/app.vipsats.vipsats %}. After two months we still get the same error 'No Connection' as described below. This product is not working.
 
 ## Notes on similar apps 
 
