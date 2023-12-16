@@ -45,11 +45,16 @@ features:
 
 - We installed the app but were not able to register due to AML/KYC and regional requirements. We did however, manage to register on the web app which only required an email address. 
 - The Kamix.io website also has a blockchain explorer 
-- We contacted Kamix via [twitter](https://twitter.com/BitcoinWalletz/status/1654326997353627648) to clarify.
-- From the web app, the user can manually input his own BTC address. 
-- From the description, it would seem that the sender will send BTC, however, the recipient will receive Franc CFA in his mobile money account.
-- We will also send an email with the same queries. 
-- For now, we will keep this app as a **work-in-progress**. 
+- We had contacted Kamix via [twitter](https://twitter.com/BitcoinWalletz/status/1654326997353627648) to clarify, however there was no response.
+
+[Reading the Legal article](https://www.kamix.io/fr/legal), there are paragraphs that state the app is holding the user's assets. Unfortunately, as we cannot read French we had to run the article through Google Translate.
+
+> **«Cryptoactive buyer»:** means a Customer who purchases a quantity of Cryptoassets sold by KAMIX against a settlement in euro by a payment method accepted by KAMIX, and, in particular, remote payment by credit card or payment by SEPA bank transfer.
+>
+> **«Crypto account»:** means a position-keeping register on which is recorded the quantity of crypto-assets held by a Client and kept by KAMIX as well as its counter-value in legal tender currency, in particular the’euro or the CFA franc.
+
+
+We'll conclude that this app is **custodial.**
 
 **Update 2023-11-17**:
 
