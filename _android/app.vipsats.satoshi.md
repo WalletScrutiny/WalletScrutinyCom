@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.vipsats.satoshi.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
 date: 2023-12-02
 signer: 
@@ -32,9 +32,13 @@ features:
 
 ---
 
+**Update 2023-12-16:**
+
+This app is no longer available in Google Play Store.
+
 **Update 2023-12-02:**
 
-This app was recently retired in favor of {% include walletLink.html wallet='android/app.vipsats.vipsats %}. After two months we still get the same error 'No Connection' as described below. This product is not working.
+This app was recently retired in favor of {% include walletLink.html wallet='android/app.vipsats.vipsats' verdict='true' %}. After two months we still get the same error 'No Connection' as described below. This product is not working.
 
 ## Notes on similar apps 
 
