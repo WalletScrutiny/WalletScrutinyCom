@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-12-08
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: bitcoin_asia

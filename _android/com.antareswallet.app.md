@@ -10,10 +10,10 @@ appCountry: us
 released: 2021-03-18
 updated: 2021-03-22
 version: 0.9.5+205
-stars: 3.8
+stars: 
 ratings: 48
-reviews: 31
-size: 55M
+reviews: 
+size: 
 website: https://antareswallet.com/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Online Invest
 features: 
 
 ---

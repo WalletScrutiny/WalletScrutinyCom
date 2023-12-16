@@ -2,7 +2,8 @@
 wsId: 
 title: 'Hawex: Crypto Wallet & Cards'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.hawex.wallet
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.hawex.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description from Google Play
+
+  The Google Play description tells us that this wallet is **custodial**
+
+  > - Custodial Wallet: Safely manage your digital assets with our new custodial wallet feature.
+  > - EU Resident Cards: EU residents can now easily order physical and virtual cards right from the app.
+  > - Enhanced Security: We've upgraded security by replacing PIN authorization with a robust Passcode system.
+  > - Upgrade today for an expanded toolkit, greater convenience, and top-tier security!
+
+## Analysis 
+
+This **custodial** app is non-verifiable.

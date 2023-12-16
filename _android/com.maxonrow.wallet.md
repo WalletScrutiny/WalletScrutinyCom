@@ -8,12 +8,12 @@ users: 5000
 appId: com.maxonrow.wallet
 appCountry: 
 released: 2019-08-31
-updated: 2020-10-20
-version: 2.1.16
-stars: 3.9
+updated: 2023-05-08
+version: 2.1.31
+stars: 
 ratings: 73
-reviews: 43
-size: 55M
+reviews: 
+size: 
 website: https://www.maxonrow.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/maxonrow
 - https://www.facebook.com/maxonrowblockchain
 redirect_from: 
-developerName: 
+developerName: Maxonrow
 features: 
 
 ---

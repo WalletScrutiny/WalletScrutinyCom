@@ -2,9 +2,10 @@
 wsId: 
 title: Create Virtual Card Instantly
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 50000
+users: 100000
 appId: net.softwareinfo
 appCountry: 
 released: 2020-11-09
@@ -32,7 +33,7 @@ features:
 
 ---
 
- <div class="alertBox"><div> ⚠️ Warning: This app has a generic sounding name and includes a different company (BancaCard.com) in its terms and conditions!</div> </div>
+<div class="alertBox"><div> ⚠️ Warning: This app has a generic sounding name and includes a different company (BancaCard.com) in its terms and conditions!</div> </div>
 
 ## App Description from Google Play
 

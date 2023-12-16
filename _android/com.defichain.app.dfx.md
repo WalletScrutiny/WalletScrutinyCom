@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-24
 updated: 2023-03-22
 version: 1.20.1
-stars: 3.7
+stars: 3.5
 ratings: 
-reviews: 3
+reviews: 2
 size: 
 website: https://dfx.swiss/defichain/
 repository: 

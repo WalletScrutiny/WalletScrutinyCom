@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.higherprof.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: 

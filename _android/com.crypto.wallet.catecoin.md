@@ -12,7 +12,7 @@ updated: 2023-07-01
 version: 2.1.0
 stars: 4.4
 ratings: 
-reviews: 46
+reviews: 45
 size: 
 website: https://catecoin.club
 repository: 

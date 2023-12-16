@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: quasar.sprint.bank.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

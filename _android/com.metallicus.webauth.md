@@ -1,6 +1,6 @@
 ---
 wsId: webAuthProton
-title: WebAuth.com
+title: WebAuth
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.metallicus.webauth
 appCountry: 
 released: 2021-12-11
-updated: 2023-08-03
-version: 2.0.12
+updated: 2023-12-11
+version: 2.1.1
 stars: 4.4
 ratings: 
-reviews: 50
+reviews: 53
 size: 
 website: https://webauth.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: 코인미어캣 | 보조지표 조합 돌파알림, 조건검색
+title: 코인미어캣 - 보조지표 알림과 스크리너
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.makedelta.slying
 appCountry: 
 released: 2021-08-07
-updated: 2023-10-19
-version: 7.0.1
+updated: 2023-12-04
+version: 7.1.0
 stars: 
 ratings: 
 reviews: 

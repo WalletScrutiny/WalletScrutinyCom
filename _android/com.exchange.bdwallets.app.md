@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BD Wallets Exchanger
+title: BD Wallets - Money Exchanger
 altTitle: 
 authors: 
 users: 500
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: BD Wallets
 features: 
 
 ---

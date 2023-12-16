@@ -10,11 +10,11 @@ appCountry:
 released: 2020-12-02
 updated: 2021-07-27
 version: '1.13'
-stars: 4.9
+stars: 5
 ratings: 610
-reviews: 449
-size: 5.7M
-website: https://www.coinibt.io/
+reviews: 4
+size: 
+website: http://www.coinibt.io
 repository: 
 issue: 
 icon: com.cybertronchain.coinibt.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: CyberTronChain (CTC)
 features: 
 
 ---

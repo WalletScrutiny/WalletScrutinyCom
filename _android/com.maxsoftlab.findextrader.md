@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Findex Trader
+title: Finderex Trader
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.maxsoftlab.findextrader
 appCountry: 
 released: 2022-11-07
-updated: 2023-07-18
-version: 1.3.3
+updated: 2023-12-07
+version: 1.3.12GMS
 stars: 
 ratings: 
 reviews: 

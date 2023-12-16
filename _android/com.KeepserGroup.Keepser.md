@@ -32,7 +32,7 @@ features:
 
 ---
 
-This is the companion app to the cold wallet Keepser.
+This is the companion app to the device called: {% include walletLink.html wallet='hardware/keepser' verdict='true' %}
 
 ## Google Play Description 
 

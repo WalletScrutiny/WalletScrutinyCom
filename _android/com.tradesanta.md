@@ -10,18 +10,18 @@ appCountry: us
 released: 2019-05-20
 updated: 2022-12-05
 version: 3.1.5
-stars: 3.7
+stars: 3.6
 ratings: 707
-reviews: 59
+reviews: 58
 size: 
 website: https://tradesanta.com
 repository: 
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-16
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

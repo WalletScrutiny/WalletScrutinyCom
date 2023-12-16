@@ -8,9 +8,9 @@ users: 100000
 appId: glim.network
 appCountry: 
 released: 2022-06-26
-updated: 2023-05-13
+updated: 2023-11-12
 version: 1.1.0
-stars: 4
+stars: 3.9
 ratings: 
 reviews: 57
 size: 

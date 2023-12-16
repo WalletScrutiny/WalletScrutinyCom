@@ -1,6 +1,6 @@
 ---
 wsId: gosats
-title: 'GoSats: Bitcoin Rewards App'
+title: 'GoSats: Gold and BTC Rewards'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.gosats
 appCountry: in
 idd: '1536263998'
 released: 2021-01-05
-updated: 2023-10-03
-version: 2.3.11
-stars: 4.2
-reviews: 234
-size: '63683584'
+updated: 2023-11-10
+version: 2.4.1
+stars: 4.1
+reviews: 239
+size: '66258944'
 website: https://gosats.io
 repository: 
 issue: 

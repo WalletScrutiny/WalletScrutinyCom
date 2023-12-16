@@ -1,18 +1,18 @@
 ---
 wsId: zeusln
-title: Zeus LN
+title: ZEUS Wallet
 altTitle: 
 authors: 
 appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
-updated: 2023-07-31
-version: v0.7.7
-stars: 4.8
-reviews: 43
-size: '62602240'
-website: https://zeusln.app/
+updated: 2023-12-04
+version: v0.8.0
+stars: 4.7
+reviews: 45
+size: '94768128'
+website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
 icon: com.zeusln.zeus.jpg

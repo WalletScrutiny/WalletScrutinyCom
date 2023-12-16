@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.titan.coin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-12-17
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: ProjectsTitan

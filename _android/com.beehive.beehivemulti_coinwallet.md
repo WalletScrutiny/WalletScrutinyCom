@@ -10,18 +10,18 @@ appCountry:
 released: 2021-09-13
 updated: 2021-12-01
 version: '1.1'
-stars: 3.2
+stars: 2.7
 ratings: 
-reviews: 7
+reviews: 9
 size: 
 website: https://beehivewallet.link
 repository: 
 issue: 
 icon: com.beehive.beehivemulti_coinwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-05-12
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

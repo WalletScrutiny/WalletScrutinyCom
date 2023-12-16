@@ -8,11 +8,11 @@ appId: com.ejara.ejarav2
 appCountry: fr
 idd: '1541127587'
 released: 2021-03-22
-updated: 2023-10-31
-version: 3.5.3+215
+updated: 2023-11-23
+version: 3.5.6+220
 stars: 4.1
 reviews: 42
-size: '158405632'
+size: '163111936'
 website: https://www.ejara.io
 repository: 
 issue: 

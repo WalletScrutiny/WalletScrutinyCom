@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: BotTrade - Binance AutoTrading
+title: BotTrade
 altTitle: 
 authors: 
 users: 100
 appId: trade.bot.app
 appCountry: 
 released: 2022-10-12
-updated: 2023-10-25
-version: 2023.10.25.22
+updated: 2023-12-12
+version: 2023.12.12.16
 stars: 
 ratings: 
 reviews: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.stxr.structure.app.android.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nobtc
-date: 2023-05-05
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: structure_fi

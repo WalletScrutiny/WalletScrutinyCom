@@ -8,8 +8,8 @@ users: 500000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
-updated: 2023-10-19
-version: 3.2.1
+updated: 2023-12-08
+version: 3.2.3
 stars: 4.3
 ratings: 15890
 reviews: 37

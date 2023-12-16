@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Qarallax
+developerName: Sendam
 features: 
 
 ---

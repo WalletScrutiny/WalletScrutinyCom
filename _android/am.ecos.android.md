@@ -8,11 +8,11 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2023-10-11
-version: 1.40.1
+updated: 2023-11-22
+version: 1.42.2
 stars: 2.6
 ratings: 377
-reviews: 138
+reviews: 137
 size: 
 website: https://ecos.finance
 repository: 

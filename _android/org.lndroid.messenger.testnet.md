@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.lndroid.messenger.testnet.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: fewusers
-date: 2022-03-14
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

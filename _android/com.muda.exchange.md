@@ -7,7 +7,7 @@ users: 500
 appId: com.muda.exchange
 appCountry: 
 released: 2022-05-04
-updated: 2023-10-26
+updated: 2023-12-06
 version: '1.0'
 stars: 
 ratings: 

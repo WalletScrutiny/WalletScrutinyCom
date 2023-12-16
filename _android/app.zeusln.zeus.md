@@ -1,6 +1,6 @@
 ---
 wsId: zeusln
-title: 'Zeus: Bitcoin and Lightning'
+title: ZEUS Wallet
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2023-07-29
-version: 0.7.7
+updated: 2023-12-01
+version: 0.8.0
 stars: 4.3
 ratings: 45
-reviews: 24
+reviews: 26
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus

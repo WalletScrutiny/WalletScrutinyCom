@@ -2,7 +2,8 @@
 wsId: 
 title: NthKey
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.nthkey.app
 appCountry: 
 idd: 1491367033
@@ -18,14 +19,23 @@ issue:
 icon: com.nthkey.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-12-17
+verdict: nowallet
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
+twitter: provoost
 social: 
 features: 
 developerName: Sjors Provoost
 
 ---
 
+## App Description
+
+> This is not a wallet, only a key manager. You’ll use Bitcoin Core to download and verify the blockchain, track your wallet balance, craft a transaction, estimate the perfect fee and broadcast it to the network once you’ve signed.
+>
+> Because some of this functionality is a bit tedious in Bitcoin Core, we recommend using the Specter Desktop application to make the entire process straight forward.
+
+## Analysis 
+
+This app is no longer available in the app store and as described by the provider, is **not a wallet**.

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: bkfoundation OÜ
+developerName: 뉴럴엔진
 features: 
 
 ---

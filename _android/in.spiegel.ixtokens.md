@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: in.spiegel.ixtokens.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

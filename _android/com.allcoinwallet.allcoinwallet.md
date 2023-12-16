@@ -10,11 +10,11 @@ appCountry:
 released: 2019-01-28
 updated: 2019-11-22
 version: 1.2.22
-stars: 3.8
+stars: 4.3
 ratings: 105
-reviews: 48
-size: 10M
-website: https://www.allcoinwallet.com
+reviews: 1
+size: 
+website: http://www.allcoinwallet.com
 repository: 
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: All Coin Wallet
 features: 
 
 ---

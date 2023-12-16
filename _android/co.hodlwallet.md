@@ -11,9 +11,9 @@ appCountry:
 released: 2018-09-24
 updated: 2020-05-18
 version: 3.3.5
-stars: 3.6
+stars: 3.5
 ratings: 124
-reviews: 51
+reviews: 52
 size: 
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android

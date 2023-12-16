@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinshut.coinshut.jpg
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

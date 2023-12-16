@@ -4,7 +4,7 @@ title: Trustee | crypto & btc wallet
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01

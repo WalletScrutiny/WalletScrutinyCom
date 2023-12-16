@@ -1,5 +1,5 @@
 ---
-wsId: TECHBANK
+wsId: techbankBeeone
 title: TechBank
 altTitle: 
 authors:
@@ -32,6 +32,20 @@ developerName:
 features: 
 
 ---
+
+There are multiple apps in our list with a similar name of 'TechBank'.  
+
+### TechBank BeeOne
+
+- {% include walletLink.html wallet='android/com.beeone.techbank' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.Techbank.Beeone' verdict='true' %}
+
+### TechBank DWallet
+
+- {% include walletLink.html wallet='android/com.techbank_dwallet' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.techbank.dwallettb' verdict='true' %}
+
+**Update 2023-12-02:** This app is available once more.
 
 **Update 2022-03-19**: This app is not available anymore.
 

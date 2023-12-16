@@ -8,8 +8,8 @@ appId: com.ankerpay.ioswallet
 appCountry: us
 idd: 1487931971
 released: 2019-11-22
-updated: 2023-10-28
-version: '1.29'
+updated: 2023-11-26
+version: '1.30'
 stars: 0
 reviews: 0
 size: '56802304'
