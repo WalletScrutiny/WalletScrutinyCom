@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: HuobiWallet
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
 authors:
@@ -33,7 +33,19 @@ features:
 
 ---
 
-## App Description from Google Play
+## Notes on Similar Apps
+
+This is the current Android app. It replaced:
+
+- {% include walletLink.html wallet='android/com.huobionchainwallet.gp' verdict='true' %}
+
+As seen on the [web archive.](https://web.archive.org/web/20220603173723/https://www.itoken.com/)
+
+The iPhone version retained its app ID. 
+
+## 2023-11-02 Review 
+
+### App Description from Google Play
 
 > iToken HD is a decentralized multichain crypto wallet securely managing and protecting all of your cryptocurrencies and NFTs & Your Gateway to Web 3.0.
 >

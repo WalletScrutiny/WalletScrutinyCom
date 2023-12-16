@@ -19,8 +19,8 @@ issue:
 icon: com.metasigns.hotx.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-11-02
+verdict: custodial
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 

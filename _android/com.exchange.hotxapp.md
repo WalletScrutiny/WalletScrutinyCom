@@ -20,8 +20,8 @@ issue:
 icon: com.exchange.hotxapp.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-11-02
+verdict: custodial
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 
@@ -43,3 +43,6 @@ This is a cryptocurrency exchange.
 - We tried registering on the website and on the app but it never gave the confirmation email.
 - Access to the terms and conditions was restricted and needed a login and a password.
 - Until these issues are fixed, we cannot make a verdict for this app. 
+- We sent a [tweet](https://twitter.com/BitcoinWalletz/status/1735850887304937960) to the potential twitter account for the exchange.
+- We also checked their Fintrac MSB license number M22381317, which points to Metasigns, Inc. The homepage is: themetasigns.com. 
+- We also sent them an email. Most exchanges keep the private keys of its users and suspect that this service does the same. With no indication that the private keys are provided to the users, we will mark this as **custodial** until new information arises.

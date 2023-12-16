@@ -55,4 +55,4 @@ From [libertify.com](https://www.libertify.com/)
 
 > Connect your account to over 6 Exchanges and 100 Wallets and start your journey.
 
-Libertify is an AI-powered risk management app that requires a connection with an external exchange or wallet. It is **not a wallet** itself.
+Libertify is an *"AI-powered risk management app"* that requires a connection with an external exchange or wallet. It is **not a wallet** itself.

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ruby.coin.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
 date: 2023-11-02
 signer: 
@@ -51,4 +51,5 @@ features:
 - In its [terms and conditions](https://rubycointrade.com/terms-conditions/), it is stated that users must purchase a subscription in order to access the site's services.
 - From the Google Play description, the only thing we could conclude is that it supports BTC, even though it refers to it as a 'token.' 
 - We did not find any documentation indicating how it handles the private keys. 
-- Thus, we make the conclusion that this is a **custodial** app. 
+- Thus, we make the conclusion that this is a **custodial** app. Moreover, we do not see this project as currently operating, making this **defunct.**
+
