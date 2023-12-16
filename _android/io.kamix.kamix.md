@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: kamixApp
 title: Kamix
 altTitle: 
 authors:
@@ -20,8 +20,8 @@ issue:
 icon: io.kamix.kamix.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-05
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: KamixApp
@@ -50,3 +50,21 @@ features:
 - From the description, it would seem that the sender will send BTC, however, the recipient will receive Franc CFA in his mobile money account.
 - We will also send an email with the same queries. 
 - For now, we will keep this app as a **work-in-progress**. 
+
+**Update 2023-11-17**:
+
+From its translated (Google Translate) [Terms and Conditions](https://www.kamix.io/fr/legal):
+
+A **crypto account** is defined:
+
+> Crypto account»: means a position-keeping register on which is recorded the quantity of crypto-assets held by a Client and kept by KAMIX as well as its counter-value in legal tender currency, in particular the’euro or the CFA franc.
+
+The definition of **transfer:**
+
+> «Transfer»: movement operation by the Company, at the request of the Client, of digital’actives of the Client kept on behalf of the Client by the Company.
+
+The provider reserves the right to **refuse** to carry out transaction instructions:
+
+> The User recognizes that the Company is not obliged to accept a request for Transaction, and that it cannot be held responsible in the event of refusal to carry out a request for Transaction, or modification, interruption or termination of the Service, these CGUVs only applying to a request for Transaction accepted by the Company.  
+
+There is no mention of how the bitcoin private key is treated by the app. This indicates that the app is a **custodial** and therefore not-verifiable.

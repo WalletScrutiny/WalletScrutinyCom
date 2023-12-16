@@ -10,7 +10,7 @@ idd: '1661254805'
 released: 2023-01-11
 updated: 2023-11-22
 version: '1.92'
-stars: 3.9
+stars: 3.6
 reviews: 16
 size: '125109248'
 website: https://www.liteforex.com

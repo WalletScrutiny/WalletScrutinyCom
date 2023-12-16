@@ -10,8 +10,8 @@ idd: '1516842324'
 released: 2020-06-30
 updated: 2023-11-24
 version: 3.3.0
-stars: 4.6
-reviews: 1004
+stars: 4.7
+reviews: 1066
 size: '101340160'
 website: https://bipa.app
 repository: 

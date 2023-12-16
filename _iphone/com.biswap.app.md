@@ -11,7 +11,7 @@ released: 2022-11-29
 updated: 2023-07-11
 version: 1.0.12
 stars: 5
-reviews: 2
+reviews: 5
 size: '39329792'
 website: https://biswap.com
 repository: 

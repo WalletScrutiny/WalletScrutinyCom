@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.coinlend.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2023-05-05
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: Coinlend2018

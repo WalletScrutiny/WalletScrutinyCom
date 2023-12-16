@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: LiveWallet LLC
+developerName: Ogaliya Limited
 features: 
 
 ---

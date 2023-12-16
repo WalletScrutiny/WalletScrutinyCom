@@ -8,11 +8,11 @@ appId: com.syfe
 appCountry: sg
 idd: '1497156434'
 released: 2020-02-24
-updated: 2023-11-29
-version: 9.9.1
+updated: 2023-12-11
+version: 10.0.0
 stars: 4.2
-reviews: 575
-size: '108648448'
+reviews: 576
+size: '109726720'
 website: https://www.syfe.com
 repository: 
 issue: 

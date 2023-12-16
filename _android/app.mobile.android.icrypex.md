@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-02
 updated: 2023-11-30
 version: '11.4'
-stars: 3.9
+stars: 3.5
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.icrypex.com/
 repository: 

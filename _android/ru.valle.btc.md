@@ -10,9 +10,9 @@ appCountry:
 released: 2013-04-19
 updated: 2023-12-01
 version: VARY
-stars: 4.5
+stars: 4.4
 ratings: 163
-reviews: 16
+reviews: 17
 size: 
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet

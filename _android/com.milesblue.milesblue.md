@@ -3,7 +3,7 @@ wsId:
 title: cryptMi I Miles
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.milesblue.milesblue
 appCountry: 
 released: 2021-10-10

@@ -8,9 +8,9 @@ users: 100000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: 2021-06-02
-updated: 2023-11-17
-version: 4.5.0
-stars: 3.4
+updated: 2023-12-08
+version: 4.8.2
+stars: 3.5
 ratings: 
 reviews: 3
 size: 

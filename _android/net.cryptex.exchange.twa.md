@@ -8,8 +8,8 @@ users: 10000
 appId: net.cryptex.exchange.twa
 appCountry: 
 released: 2021-04-29
-updated: 2023-10-27
-version: 4.0.0.0
+updated: 2023-12-05
+version: 5.0.0.0
 stars: 4.9
 ratings: 474
 reviews: 18

@@ -8,8 +8,8 @@ users: 100000
 appId: net.bitbay.bitcoin
 appCountry: 
 released: 2018-11-19
-updated: 2023-11-08
-version: 1.1.40
+updated: 2023-12-06
+version: 1.1.42
 stars: 3.1
 ratings: 1131
 reviews: 13

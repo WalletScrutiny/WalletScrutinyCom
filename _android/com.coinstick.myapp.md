@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-23
 updated: 2023-11-10
 version: 1.0.0
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.coinstick.co
 repository: 

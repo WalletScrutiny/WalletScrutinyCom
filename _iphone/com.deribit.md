@@ -11,7 +11,7 @@ released: 2017-11-17
 updated: 2023-10-27
 version: 3.6.0
 stars: 4.9
-reviews: 10
+reviews: 12
 size: '35704832'
 website: http://www.deribit.com
 repository: 

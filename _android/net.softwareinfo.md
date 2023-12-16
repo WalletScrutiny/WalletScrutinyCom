@@ -3,7 +3,7 @@ wsId:
 title: Create Virtual Card Instantly
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: net.softwareinfo
 appCountry: 
 released: 2020-11-09

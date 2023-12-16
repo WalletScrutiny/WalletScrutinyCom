@@ -9,12 +9,12 @@ appId: com.revix.app
 appCountry: 
 released: 2022-08-08
 updated: 2023-11-30
-version: 1.7.0
+version: 1.7.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://revix.com
+website: https://altify.app
 repository: 
 issue: 
 icon: com.revix.app.png

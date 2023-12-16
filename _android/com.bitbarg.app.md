@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-12
 updated: 2023-11-13
 version: 3.2.0
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 26
+reviews: 29
 size: 
 website: https://bitbarg.com
 repository: 

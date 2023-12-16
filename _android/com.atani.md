@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-09
 updated: 2023-11-28
 version: 4.18.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 61
+reviews: 62
 size: 
 website: https://atani.com/
 repository: 

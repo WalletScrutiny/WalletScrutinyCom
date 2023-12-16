@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2023-09-05
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 100
 appId: chukstem.xcoinance
 appCountry: 
 released: 2022-01-18
-updated: 2023-11-28
-version: 1.0.6
+updated: 2023-12-06
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 

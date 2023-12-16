@@ -10,10 +10,10 @@ appCountry: us
 released: 2020-12-02
 updated: 2020-12-02
 version: '1.0'
-stars: 2.8
+stars: 
 ratings: 283
-reviews: 162
-size: 2.3M
+reviews: 
+size: 
 website: https://trade.francexchange.com/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Franc IT Solutions
 features: 
 
 ---

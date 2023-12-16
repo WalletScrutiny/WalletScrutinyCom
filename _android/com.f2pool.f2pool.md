@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-04
 updated: 2023-11-06
 version: 2.5.5
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 77
+reviews: 78
 size: 
 website: https://www.f2pool.com
 repository: 

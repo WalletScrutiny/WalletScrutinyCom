@@ -7,8 +7,8 @@ users: 100
 appId: kz.intebix
 appCountry: 
 released: 2023-01-09
-updated: 2023-11-03
-version: 0.1.1
+updated: 2023-12-01
+version: 0.2.1
 stars: 
 ratings: 
 reviews: 

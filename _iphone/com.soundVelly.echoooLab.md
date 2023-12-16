@@ -8,11 +8,11 @@ appId: com.soundVelly.echoooLab
 appCountry: us
 idd: '6446883725'
 released: 2023-04-22
-updated: 2023-11-30
-version: 1.9.0
+updated: 2023-12-11
+version: 1.9.1
 stars: 5
-reviews: 21
-size: '195518464'
+reviews: 22
+size: '195473408'
 website: http://www.echooo.xyz
 repository: 
 issue: 

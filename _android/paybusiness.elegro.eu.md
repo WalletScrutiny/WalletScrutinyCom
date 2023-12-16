@@ -32,3 +32,4 @@ features:
 
 ---
 
+This app will be reviewed once it has a sufficient user base.

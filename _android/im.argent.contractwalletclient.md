@@ -12,7 +12,7 @@ updated: 2023-11-09
 version: 4.21.0.9227
 stars: 4.5
 ratings: 3252
-reviews: 373
+reviews: 375
 size: 
 website: https://www.argent.xyz
 repository: 

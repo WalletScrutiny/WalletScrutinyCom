@@ -3,7 +3,7 @@ wsId:
 title: ActTrader
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.acttrader
 appCountry: 
 released: 2021-12-29
@@ -19,7 +19,7 @@ issue:
 icon: com.acttrader.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2022-12-28
 signer: 
 reviewArchive: 

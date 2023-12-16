@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: kamixApp
 title: Kamix
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: io.kamix.app
 appCountry: fr
 idd: '1496578894'
@@ -18,14 +19,18 @@ issue:
 icon: io.kamix.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-05
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: KamixApp
+social:
+- https://www.linkedin.com/company/kamixapp
+- https://www.facebook.com/Kamixapp
+- https://www.instagram.com/kamixapp
 features: 
 developerName: Kamix
 
 ---
 
+{% include copyFromAndroid.html %}

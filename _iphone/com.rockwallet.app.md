@@ -8,18 +8,18 @@ appId: com.rockwallet.app
 appCountry: us
 idd: '6444194230'
 released: 2022-11-16
-updated: 2023-11-16
-version: 5.12.0
+updated: 2023-12-05
+version: 5.12.1
 stars: 4.7
-reviews: 143
-size: '128480256'
+reviews: 154
+size: '128525312'
 website: https://www.rockwallet.com
-repository: 
+repository: https://github.com/rockwalletcode/wallet-ios
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-08-28
 signer: 
 reviewArchive: 
@@ -32,5 +32,7 @@ features:
 developerName: RockWallet, LLC
 
 ---
+
+The Android app is slated for verification, but the iOS is non-verifiable.
 
 {% include copyFromAndroid.html %}

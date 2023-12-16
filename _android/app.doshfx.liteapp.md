@@ -3,7 +3,7 @@ wsId:
 title: DoshFx - Buy Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.doshfx.liteapp
 appCountry: 
 released: 

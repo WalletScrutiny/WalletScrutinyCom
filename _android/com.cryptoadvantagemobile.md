@@ -7,8 +7,8 @@ users: 5
 appId: com.cryptoadvantagemobile
 appCountry: 
 released: 2020-03-10
-updated: 2020-10-18
-version: 1.0.1
+updated: 2023-09-08
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: DuplicationSoft
 features: 
 
 ---

@@ -7,8 +7,8 @@ users: 500
 appId: com.tent.app
 appCountry: 
 released: 2023-10-26
-updated: 2023-11-09
-version: 1.3.0
+updated: 2023-12-07
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
