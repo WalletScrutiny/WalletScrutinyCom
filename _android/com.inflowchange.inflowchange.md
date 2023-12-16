@@ -46,7 +46,7 @@ This app's main function is to serve as a cryptocurrency exchange.
 
 ## Analysis
 
-According to the FAQ on this product's [homepage](https://inflowchange.com/), the "wallet" Inflowchange provides users with has certain limitations:
+According to the [FAQ](https://inflowchange.com/), the "wallet" has certain limitations:
 
 > **Can I send and receive crypto with my inflowchange crypto wallet?**
 > No, you can’t. Your Inflowchange crypto wallet purpose is to only receive or deposit crypto currency in your account to enable you convert/exchange it to cash whenever convenient for you without the hassles of copying long addresses.
