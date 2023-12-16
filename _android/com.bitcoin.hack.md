@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoin.hack.png
 bugbounty: 
-meta: stale
+meta: defunct
 verdict: nowallet
-date: 2023-08-15
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

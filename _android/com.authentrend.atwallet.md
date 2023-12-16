@@ -3,7 +3,7 @@ wsId:
 title: AT.Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.authentrend.atwallet
 appCountry: 
 released: 2020-07-13

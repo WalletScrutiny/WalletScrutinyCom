@@ -3,12 +3,12 @@ wsId:
 title: OpenBlock
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.openblock.wallet
 appCountry: 
 released: 2023-02-06
-updated: 2023-10-24
-version: 1.5.5
+updated: 2023-12-12
+version: 1.6.0
 stars: 
 ratings: 
 reviews: 

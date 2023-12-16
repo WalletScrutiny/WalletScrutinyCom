@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Techio Services Ltd
+developerName: Xaas Technology Limited
 features: 
 
 ---

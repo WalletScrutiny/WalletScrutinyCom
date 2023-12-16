@@ -4,15 +4,15 @@ title: 'CryptoTab Farm: Digital Gold'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.cryptofarm
 appCountry: 
 released: 2021-06-10
-updated: 2023-08-30
-version: 1.0.388
-stars: 4
+updated: 2023-12-11
+version: 1.0.389
+stars: 4.1
 ratings: 6172
-reviews: 514
+reviews: 518
 size: 
 website: https://cryptotab.farm/
 repository: 

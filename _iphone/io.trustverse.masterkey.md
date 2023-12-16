@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.trustverse.masterkey.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-19
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: SafestMasterKey

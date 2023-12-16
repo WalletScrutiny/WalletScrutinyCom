@@ -13,7 +13,7 @@ version: 0.4.3
 stars: 4
 reviews: 9
 size: '83147776'
-website: https://wirexapp.com/wirex-wallet
+website: https://www.coca.xyz/
 repository: 
 issue: 
 icon: com.wirex.wallet.jpg
@@ -27,7 +27,7 @@ twitter: wirexapp
 social:
 - https://github.com/wirexapp
 features: 
-developerName: Wirex Limited
+developerName: CCA LABS - FZCO
 
 ---
 

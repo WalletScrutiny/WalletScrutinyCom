@@ -8,11 +8,11 @@ users: 10000
 appId: com.bitbarg.app
 appCountry: 
 released: 2022-03-12
-updated: 2023-10-30
-version: 3.1.7
-stars: 4.5
+updated: 2023-11-13
+version: 3.2.0
+stars: 4.3
 ratings: 
-reviews: 24
+reviews: 29
 size: 
 website: https://bitbarg.com
 repository: 

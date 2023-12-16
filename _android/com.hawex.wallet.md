@@ -2,7 +2,7 @@
 wsId: hawexCrypto
 title: 'Hawex: Crypto Wallet & Cards'
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 1000
 appId: com.hawex.wallet
@@ -25,7 +25,7 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: hawexdao
-social:
+social: 
 - https://t.me/hawex
 - https://discord.gg/CeFH7YaMXe 
 redirect_from: 

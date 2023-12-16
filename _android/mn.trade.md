@@ -8,12 +8,12 @@ users: 100000
 appId: mn.trade
 appCountry: us
 released: 2018-04-13
-updated: 2021-06-29
-version: 2.0.5
-stars: 2.1
+updated: 2023-05-30
+version: 3.0.9
+stars: 2.2
 ratings: 429
-reviews: 11
-size: 38M
+reviews: 12
+size: 
 website: https://trade.mn
 repository: 
 issue: 
@@ -28,7 +28,7 @@ twitter: TradeMnOfficial
 social:
 - https://www.facebook.com/digitalexchangemongolia
 redirect_from: 
-developerName: 
+developerName: Digital Exchange Mongolia LLC
 features: 
 
 ---

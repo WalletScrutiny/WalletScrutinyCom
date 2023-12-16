@@ -8,11 +8,11 @@ users: 50000
 appId: com.royallyborn.v8
 appCountry: 
 released: 2022-02-07
-updated: 2023-10-05
-version: 1.1.8
+updated: 2023-12-09
+version: 1.2.0
 stars: 4.4
 ratings: 
-reviews: 18
+reviews: 17
 size: 
 website: https://www.8v.com
 repository: 

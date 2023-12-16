@@ -28,7 +28,7 @@ twitter: wirexapp
 social:
 - https://github.com/wirexapp
 redirect_from: 
-developerName: Wirex
+developerName: CCA LABS
 features: 
 
 ---

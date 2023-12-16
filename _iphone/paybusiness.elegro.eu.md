@@ -2,16 +2,17 @@
 wsId: payBusinessElegro
 title: Elegro Business Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: paybusiness.elegro.eu
 appCountry: us
 idd: '1526117414'
 released: 2020-08-14
-updated: 2023-09-13
-version: '3.5'
+updated: 2023-11-28
+version: '3.6'
 stars: 0
 reviews: 0
-size: '75236352'
+size: '75269120'
 website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 

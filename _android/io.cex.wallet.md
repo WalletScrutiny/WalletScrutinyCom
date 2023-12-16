@@ -4,15 +4,15 @@ title: CEX.IO App - Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.cex.wallet
 appCountry: 
 released: 2022-02-21
-updated: 2023-10-20
-version: 2.3.2
-stars: 3.8
+updated: 2023-11-16
+version: 2.5.1
+stars: 4
 ratings: 
-reviews: 29
+reviews: 48
 size: 
 website: https://wallet.cex.io
 repository: 

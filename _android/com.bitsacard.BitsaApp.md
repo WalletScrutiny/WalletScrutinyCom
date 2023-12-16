@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitsacard.BitsaApp
 appCountry: gb
 released: 2019-04-09
-updated: 2023-10-30
-version: 2.18.4
+updated: 2023-12-08
+version: 2.18.7
 stars: 2.3
 ratings: 884
 reviews: 8

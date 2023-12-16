@@ -10,9 +10,9 @@ appCountry: ca
 released: 2018-12-19
 updated: 2023-06-01
 version: 137.6.4
-stars: 2.9
+stars: 2.8
 ratings: 1118
-reviews: 657
+reviews: 655
 size: 
 website: https://www.coinberry.com
 repository: 

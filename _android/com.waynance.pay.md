@@ -3,7 +3,7 @@ wsId:
 title: Waynance
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.waynance.pay
 appCountry: 
 released: 2022-04-16

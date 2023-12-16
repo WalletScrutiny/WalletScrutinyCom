@@ -8,12 +8,12 @@ appId: com.starworksglobal.starwallet2
 appCountry: id
 idd: '1601956892'
 released: 2021-12-31
-updated: 2023-07-22
-version: 3.00.00
+updated: 2023-11-17
+version: 3.00.01
 stars: 5
 reviews: 7
-size: '36313088'
-website: 
+size: '38224896'
+website: https://www.starworksglobal.com/starwallet
 repository: 
 issue: 
 icon: com.starworksglobal.starwallet2.jpg

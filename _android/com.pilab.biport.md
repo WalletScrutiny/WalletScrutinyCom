@@ -4,12 +4,12 @@ title: Biport Multichain CryptoWallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.pilab.biport
 appCountry: 
 released: 2023-02-09
-updated: 2023-08-04
-version: '0.40'
+updated: 2023-11-08
+version: '0.41'
 stars: 4.3
 ratings: 
 reviews: 4

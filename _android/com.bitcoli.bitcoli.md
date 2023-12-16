@@ -7,8 +7,8 @@ users: 500
 appId: com.bitcoli.bitcoli
 appCountry: 
 released: 2023-01-13
-updated: 2023-11-01
-version: 1.0.3
+updated: 2023-12-11
+version: 1.0.11
 stars: 
 ratings: 
 reviews: 

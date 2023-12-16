@@ -1,31 +1,33 @@
 ---
-wsId: 
+wsId: powerTrade
 title: PowerTrade
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.pt.powertrade
 appCountry: id
 idd: '1548085709'
 released: 2021-04-15
-updated: 2022-12-28
-version: 2.2.2
+updated: 2023-12-12
+version: 3.0.3
 stars: 5
 reviews: 1
-size: '117438464'
+size: '447120384'
 website: https://power.trade/
 repository: 
 issue: 
 icon: com.pt.powertrade.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
+twitter: powertradehq
 social: 
 features: 
 developerName: Power Trade
 
 ---
 
+{% include copyFromAndroid.html %}

@@ -7,8 +7,8 @@ users: 500
 appId: com.hashvest.hash
 appCountry: 
 released: 2023-01-09
-updated: 2023-03-11
-version: 1.0.5
+updated: 2023-11-08
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

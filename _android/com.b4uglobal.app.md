@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://web.archive.org/web/20160109093527/https://www.b4uglobal.com/
+website: https://www.b4uglobal.com
 repository: 
 issue: 
 icon: com.b4uglobal.app.png

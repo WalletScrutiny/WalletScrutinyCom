@@ -4,7 +4,7 @@ title: Probos Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.elephantslab.probos
 appCountry: 
 released: 2022-09-20

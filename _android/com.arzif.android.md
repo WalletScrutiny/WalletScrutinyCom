@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-09
 updated: 2023-09-09
 version: '2'
-stars: 4
+stars: 3.9
 ratings: 687
-reviews: 19
+reviews: 20
 size: 
 website: https://arzif.com/
 repository: 

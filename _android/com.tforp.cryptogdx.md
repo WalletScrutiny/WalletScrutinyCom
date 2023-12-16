@@ -8,8 +8,8 @@ users: 100000
 appId: com.tforp.cryptogdx
 appCountry: us
 released: 2018-02-04
-updated: 2021-05-28
-version: '2.3'
+updated: 2023-10-30
+version: '2.4'
 stars: 4.4
 ratings: 3455
 reviews: 159

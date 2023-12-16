@@ -2,7 +2,7 @@
 wsId: rubycoinWallet
 title: Rubycoin wallet
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 1000
 appId: com.ruby.coin
@@ -25,7 +25,7 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: RubyCoinDAO
-social:
+social: 
 - https://rubycointrade.com
 - https://www.facebook.com/people/Ruby-Coin/100083273028384
 - https://www.instagram.com/rubycoindao

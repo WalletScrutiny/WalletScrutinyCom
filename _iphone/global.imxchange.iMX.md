@@ -8,11 +8,11 @@ appId: global.imxchange.iMX
 appCountry: in
 idd: '1558636368'
 released: 2021-04-06
-updated: 2023-05-26
-version: 1.6.3
+updated: 2023-12-08
+version: 1.6.4
 stars: 5
 reviews: 1
-size: '26074112'
+size: '24712192'
 website: 
 repository: 
 issue: 

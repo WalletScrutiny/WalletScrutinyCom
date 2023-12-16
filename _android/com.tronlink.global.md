@@ -8,11 +8,11 @@ users: 50000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2023-10-09
-version: 4.13.12
+updated: 2023-11-20
+version: 4.13.14
 stars: 4.5
 ratings: 
-reviews: 25
+reviews: 29
 size: 
 website: https://www.tronlink.org
 repository: 

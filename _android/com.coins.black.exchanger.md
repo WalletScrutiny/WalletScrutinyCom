@@ -7,8 +7,8 @@ users: 500
 appId: com.coins.black.exchanger
 appCountry: 
 released: 2021-04-11
-updated: 2021-04-11
-version: '1.0'
+updated: 2023-12-13
+version: '1.3'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coins.black.exchanger.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-04-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

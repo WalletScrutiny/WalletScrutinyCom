@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-04
 updated: 2022-12-15
 version: 0.3.2
-stars: 3.8
+stars: 3.7
 ratings: 56
 reviews: 4
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.sevenb.terminal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-17
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: sevenb_roker

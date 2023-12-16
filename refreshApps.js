@@ -21,7 +21,7 @@ async function refresh (markDefunct, apps) {
   var msg = ''
   var msgAgeMs = 0
   const i = setInterval(() => {
-    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.defunct}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.defunct}, updated ${appStore.stats.updated}`
+    const newMsg = `remaining: ${playStore.stats.remaining + appStore.stats.remaining}, 🤖: defunct ${playStore.stats.removed}, updated ${playStore.stats.updated}, 🍎: defunct ${appStore.stats.removed}, updated ${appStore.stats.updated}`
     readline.clearLine(process.stdout)
     readline.cursorTo(process.stdout, 0)
     process.stdout.write(newMsg)

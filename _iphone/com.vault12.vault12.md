@@ -8,8 +8,8 @@ appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
 released: 2019-08-28
-updated: 2023-11-01
-version: 2.0.4
+updated: 2023-11-04
+version: 2.0.5
 stars: 4.7
 reviews: 15
 size: '52785152'

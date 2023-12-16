@@ -38,6 +38,12 @@ features:
 
 ---
 
+**Update 2023-12-02**
+
+Not much has changed since we last tested this app. We do not see however, any Bitcoin support on this app.
+
+**Previous Review 2023-05-31**
+
 ## App Description from Google Play 
 
 > Privateum Wallet is the official digital assets and crypto wallet of Privateum Initiative platform. You can send, receive and store Bitcoin and many other cryptocurrencies and digital assets safely and securely with the Privateum Wallet mobile app.

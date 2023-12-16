@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fondexmobile.ct.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-10-13
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

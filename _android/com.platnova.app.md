@@ -8,8 +8,8 @@ users: 10000
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28
-updated: 2023-10-24
-version: 0.7.9
+updated: 2023-12-01
+version: 0.8.2
 stars: 
 ratings: 
 reviews: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/getplatnova
 - https://www.linkedin.com/company/platnova 
 redirect_from: 
-developerName: Broadtray Inc.
+developerName: Platnova
 features: 
 
 ---

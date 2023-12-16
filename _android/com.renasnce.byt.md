@@ -3,7 +3,7 @@ wsId:
 title: Byt - A Simple Bitcoin Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.renasnce.byt
 appCountry: 
 released: 2022-06-30

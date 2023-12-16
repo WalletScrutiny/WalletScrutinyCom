@@ -3,11 +3,11 @@ wsId:
 title: Nayuta Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.nayuta.core2
 appCountry: 
 released: 
-updated: 2023-10-27
+updated: 2023-11-24
 version: VARY
 stars: 
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: com.nayuta.core2.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

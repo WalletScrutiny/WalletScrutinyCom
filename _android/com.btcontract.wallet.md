@@ -22,9 +22,14 @@ icon: com.btcontract.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-10-07
+date: 2023-11-09
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 reviewArchive:
+- date: 2023-10-07
+  version: 2.5.4
+  appHash: bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
+  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
+  verdict: reproducible
 - date: 2023-08-27
   version: 2.4.27
   appHash: 3c7f6da25bd0df54dd6068ddf50ee316d82691766e31b328156591b8c5b5ea01
@@ -105,16 +110,16 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.btcontract.wallet
 signer:         dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
-apkVersionName: 2.5.4
-apkVersionCode: 105
+apkVersionName: 2.5.8
+apkVersionCode: 109
 verdict:        reproducible
-appHash:        bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
-commit:         408d3bfbf60e469ba424d4bfa5eb0af7b203dabc
+appHash:        255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05
+commit:         b49725b591a24d80841390e03e689c20b3f68dde
 
 Diff:
-Only in /tmp/fromPlay_com.btcontract.wallet_105/META-INF: BITCOINS.RSA
-Only in /tmp/fromPlay_com.btcontract.wallet_105/META-INF: BITCOINS.SF
-Files /tmp/fromPlay_com.btcontract.wallet_105/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_105/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_com.btcontract.wallet_109/META-INF: BITCOINS.RSA
+Only in /tmp/fromPlay_com.btcontract.wallet_109/META-INF: BITCOINS.SF
+Files /tmp/fromPlay_com.btcontract.wallet_109/META-INF/MANIFEST.MF and /tmp/fromBuild_com.btcontract.wallet_109/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
 
@@ -122,3 +127,13 @@ Revision, tag (and its signature):
 ```
 
 The app is **reproducible**.
+
+Here is a little experiment: The reproducible build was recorded as an
+"asciicast".
+
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="demo"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create('/assets/casts/com.btcontract.wallet_255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05.cast', document.getElementById('demo'));
+</script>

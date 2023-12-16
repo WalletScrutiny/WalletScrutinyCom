@@ -7,12 +7,12 @@ users: 500
 appId: com.finovation.fxvc
 appCountry: 
 released: 2021-04-23
-updated: 2021-09-14
-version: 2.0.0
-stars: 3.6
+updated: 2021-11-12
+version: 2.0.3
+stars: 
 ratings: 14
-reviews: 7
-size: 12M
+reviews: 
+size: 
 website: 
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: FXVC
 features: 
 
 ---

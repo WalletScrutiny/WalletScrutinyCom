@@ -1,6 +1,6 @@
 ---
 wsId: fountainPodcasts
-title: Fountain Podcasts
+title: 'Fountain: Podcast Player'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-10-24
 version: 0.8.6
 stars: 3.7
 ratings: 
-reviews: 148
+reviews: 155
 size: 
 website: https://www.fountain.fm
 repository: 

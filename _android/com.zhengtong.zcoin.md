@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-01
 updated: 2022-11-23
 version: 2.0.8
-stars: 3.5
+stars: 3.4
 ratings: 
 reviews: 25
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zhengtong.zcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-27
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: ZT_exchange

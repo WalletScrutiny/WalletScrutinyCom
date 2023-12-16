@@ -8,11 +8,11 @@ appId: io.emcd.app
 appCountry: us
 idd: '1606903304'
 released: 2022-01-29
-updated: 2023-10-31
-version: 1.38.1
+updated: 2023-12-04
+version: 1.40.1
 stars: 3.7
 reviews: 15
-size: '158112768'
+size: '163567616'
 website: https://emcd.io/about
 repository: 
 issue: 

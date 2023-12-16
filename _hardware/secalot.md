@@ -20,15 +20,23 @@ repository:
 issue: 
 icon: secalot.png
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: noita
-date: 2021-07-21
+date: 2023-09-29
 signer: 
 reviewArchive: 
 twitter: SecalotDongle
 social:
 - https://www.facebook.com/secalotDongle
 features: 
+
+---
+**Edit:**
+
+This product is now discontinued.
+
+Secalot's website no longer contains information concerning the dongle and there is no way to buy the device.
+
 
 ---
 

@@ -8,8 +8,8 @@ users: 10000
 appId: net.fasochange.app
 appCountry: 
 released: 2021-08-25
-updated: 2021-09-01
-version: '1.1'
+updated: 2023-11-06
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.fasochange.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-08-04
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: 
