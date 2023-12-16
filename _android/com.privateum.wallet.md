@@ -58,4 +58,5 @@ Not much has changed since we last tested this app. We do not see however, any B
 - We initially saw $PVM, $PRI, $USDT and $BNB 
 - Tapping on 'Manage Networks' where the default is Binance Chain, leads us to a blank screen with no other option. This disallows the usage of the Bitcoin chain, and thus, Bitcoin support. 
 - We tweeted [@privateum](https://twitter.com/BitcoinWalletz/status/1663859816270376961) about this potential bug.
-- This could go either of two ways: no source-availability or no support for BTC. For now, we'll keep this as a **work-in-progress** until they respond.
+
+**Update: 2023-11-02** To date, the provider has not responded. We tested the app again and all that is available are Binance Chain tokens. This app does not support the Bitcoin protocol.
