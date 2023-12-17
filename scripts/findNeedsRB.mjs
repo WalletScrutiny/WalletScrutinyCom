@@ -1,6 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-const {loadFromFile, dateOrEmpty} = require("./helper");
+import fs from "fs";
+import path from "path";
+import helper from "./helper.mjs";
+
+const { loadFromFile, dateOrEmpty } = helper;
 const foldersToAnalyze = ["_android", "_hardware"];
 const fNormal = '\x1b[0m';
 const fBold = '\x1b[37m\x1b[1m';

@@ -1,5 +1,5 @@
 // Print some stats about verdicts and meta.
-// node scripts/printStats.js > /tmp/stats.txt
+// node scripts/printStats.mjs > /tmp/stats.txt
 
 // The following was used to create https://habla.news/a/naddr1qqxnzd3cxgcnywf5xg6rqwpnqyd8wumn8ghj7un9d3shjtnhv4kxcmmjv3jhytnwv46z7qg7waehxw309ahx7um5wgkhqatz9emk2mrvdaexgetj9ehx2ap0qywhwumn8ghj7mn0wd68ytnzd96xxmmfdejhytnnda3kjctv9uqsuamnwvaz7tmwdaejumr0dshszyrhwden5te0dehjuum5wghxxu30qgsydl97xpj74udw0qg5vkfyujyjxd3l706jd0t0w0turp93d0vvungrqsqqqa28mguzxj
 // $ for v in $( awk '{print $2}' /tmp/stats.txt | sort -u ); do l=$v; t=0; for m in ok stale obsolete defunct discontinued; do i=$( cat /tmp/stats.txt | grep "^$m $v" | wc -l); l="$l $i"; t=$(( $t + $i )); done; echo $t $l; done | grep -v "^0 " | sort -nr | awk '{ good = $3; bad = $4 + $5 + $6 + $7; print "| [" $2 "](https://walletscrutiny.com/methodology/#" $2 ") | " good " | " bad " | comment |"}'
@@ -25,17 +25,17 @@
 // | [sealed-noita](https://walletscrutiny.com/methodology/#sealed-noita) | 3 | 0 | comment |
 
 
-const helper = require('./helper.js')
-const helperPlayStore = require('./helperPlayStore')
-const helperAppStore = require('./helperAppStore')
-const helperHardware = require('./helperHardware')
-const helperBearer = require('./helperBearer')
+import helper from './helper.mjs';
+import helperPlayStore from './helperPlayStore';
+import helperAppStore from './helperAppStore';
+import helperHardware from './helperHardware';
+import helperBearer from './helperBearer';
 
 const sl = function (header, body, fileName, category) {
-  console.log(`${header.meta} ${header.verdict} ${header.appId}`)
-  return
+  console.log(`${header.meta} ${header.verdict} ${header.appId}`);
+  return;
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
-  helper.migrateAll(h.category, sl, h.headers)
-})
+  helper.migrateAll(h.category, sl, h.headers);
+});

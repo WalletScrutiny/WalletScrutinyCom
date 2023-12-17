@@ -1,5 +1,5 @@
 // List all social links.
-// $ node scripts/socialLinks.js | awk -F "/" '{print $3}' | sed 's/^www.//g' | sort -u
+// $ node scripts/socialLinks.mjs | awk -F "/" '{print $3}' | sed 's/^www.//g' | sort -u
 // aparat.com
 // api.whatsapp.com
 // behance.net
@@ -43,35 +43,33 @@
 // weibo.com
 // youtube.com
 
-
+import helper from './helper.mjs';
+import helperPlayStore from './helperPlayStore';
+import helperAppStore from './helperAppStore';
+import helperHardware from './helperHardware';
+import helperBearer from './helperBearer';
 
 const knownDomains = new Set([
   "bitcointalk","discord","facebook","github","google","instagram","keybase",
   "linkedin","medium","pinterest","reddit","slack","t","tiktok","twitter",
-  "vimeo","vk","weibo","whatsapp","youtube","archive"])
-
-const helper = require('./helper.js')
-const helperPlayStore = require('./helperPlayStore')
-const helperAppStore = require('./helperAppStore')
-const helperHardware = require('./helperHardware')
-const helperBearer = require('./helperBearer')
+  "vimeo","vk","weibo","whatsapp","youtube","archive"]);
 
 const sl = function (header, body, fileName, category) {
   (header.social || []).forEach( url => {
     try {
       if (url.startsWith("mailto")) {
-        return
+        return;
       }
-      const domain = url.split('/')[2].split('.').reverse()[1]
+      const domain = url.split('/')[2].split('.').reverse()[1];
       if (!knownDomains.has(domain)) {
-        console.log(domain, ': ', url)
+        console.log(domain, ': ', url);
       }
     } catch (e) {
-      console.error(fileName, url)
+      console.error(fileName, url);
     }
-  })
+  });
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
-  helper.migrateAll(h.category, sl, h.headers)
-})
+  helper.migrateAll(h.category, sl, h.headers);
+});

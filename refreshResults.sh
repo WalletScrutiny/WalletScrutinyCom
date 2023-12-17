@@ -6,7 +6,7 @@ for f in $( git diff -G'version' --name-only ); do
 done
 
 # Run migrate script just in case. It also makes some basic checks
-node scripts/migrate.js 
+node scripts/migrate.mjs 
 
 echo "Diff minus the boring stuff:"
 git diff --word-diff=color | grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|size\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
@@ -63,4 +63,4 @@ for platform in hardware bearer android iphone; do
 done
 
 # show what probably needs re-analysis
-node scripts/findNeedsRB.js 
+node scripts/findNeedsRB.mjs 

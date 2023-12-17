@@ -1,9 +1,8 @@
-const appStore = require('./scripts/helperAppStore.js')
-const playStore = require('./scripts/helperPlayStore.js')
-const fs = require('fs')
-const dateFormat = require('dateformat')
-const readline = require('readline')
-const appIds = process.argv.slice(2)
+import appStore from './scripts/helperAppStore.mjs';
+import playStore from './scripts/helperPlayStore.mjs';
+import fs from 'fs';
+import dateFormat from 'dateformat';
+import readline from 'readline';
 
 async function refresh (markDefunct, apps) {
   fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), 'yyyy-mm-dd')}:\n`)
@@ -40,6 +39,6 @@ async function refresh (markDefunct, apps) {
   }, updateMillis)
 }
 
-module.exports = {
+export default {
   refresh
 }

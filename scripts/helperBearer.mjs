@@ -1,8 +1,8 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
-const fs = require('fs')
-const path = require('path')
-const helper = require('./helper.js')
+import fs from 'fs';
+import path from 'path';
+import helper from './helper.mjs';
 
 const stats = {
   defunct: 0,
@@ -10,7 +10,7 @@ const stats = {
   remaining: 0
 }
 
-const category = 'hardware'
+const category = 'bearer'
 const folder = `_${category}/`
 const headers = ('title appId authors released discontinued updated version ' +
                 'binaries dimensions weight provider providerWebsite website ' +
@@ -39,7 +39,7 @@ function refreshFile (fileName, content) {
   helper.checkHeaderKeys(header, headers)
 }
 
-module.exports = {
+export default {
   category,
   headers,
   refreshAll,

@@ -1,10 +1,10 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
-const apple = require('app-store-scraper')
-const fs = require('fs/promises')
-const path = require('path')
-const helper = require('./helper.js')
-const { Semaphore } = require('async-mutex')
+import apple from 'app-store-scraper';
+import fs from 'fs/promises';
+import path from 'path';
+import helper from './helper.mjs';
+import { Semaphore } from 'async-mutex';
 
 const sem = new Semaphore(1)
 const stats = {
@@ -152,7 +152,7 @@ function add (newIdds) {
   })
 }
 
-module.exports = {
+export default {
   category,
   headers,
   refreshAll,

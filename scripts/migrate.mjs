@@ -1,12 +1,12 @@
-const helper = require('./helper.js')
-const helperPlayStore = require('./helperPlayStore')
-const helperAppStore = require('./helperAppStore')
-const helperHardware = require('./helperHardware')
-const helperBearer = require('./helperBearer')
-const fs = require('fs')
-const yaml = require('js-yaml')
+import helper from './helper.mjs';
+import helperPlayStore from './helperPlayStore.mjs';
+import helperAppStore from './helperAppStore.mjs';
+import helperHardware from './helperHardware.mjs';
+import helperBearer from './helperBearer.mjs';
+import fs from 'fs';
+import yaml from 'js-yaml';
 var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'))
-const df = /^\d{4}-\d{2}-\d{2}$/ // the only date format we use
+const df = /^\d{4}-\d{2}-\d{2}$/; // the only date format we use
 
 const migration = function (header, body, fileName, category) {
   const folder = `_${category}/`

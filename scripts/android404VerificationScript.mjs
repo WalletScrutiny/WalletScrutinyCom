@@ -6,7 +6,7 @@ process.env.TZ = "UTC"; // fix timezone issues
 import gplay from 'google-play-scraper';
 import fs from 'fs/promises';
 import path from "path";
-import helper from "./helper.js";
+import helper from "./helper.mjs";
 import { Semaphore } from 'async-mutex';
 
 

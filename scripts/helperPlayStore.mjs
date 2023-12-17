@@ -1,10 +1,10 @@
 process.env.TZ = 'UTC' // fix timezone issues
 
-const gplay = require('google-play-scraper')
-const fs = require('fs/promises')
-const path = require('path')
-const helper = require('./helper.js')
-const { Semaphore } = require('async-mutex')
+import gplay from 'google-play-scraper';
+import fs from 'fs/promises';
+import path from 'path';
+import helper from './helper.mjs';
+import { Semaphore } from 'async-mutex';
 
 const sem = new Semaphore(50)
 const stats = {
@@ -147,7 +147,7 @@ function update (appIds) {
   })
 }
 
-module.exports = {
+export default {
   category,
   headers,
   refreshAll,

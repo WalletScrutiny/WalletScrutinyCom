@@ -2,12 +2,12 @@
  * This script lists all open issues of products that are "meta: ok" and had no
  * update in more than three months. Issues are sorted oldest to newest.
  * This script can be started with
- * $ node scripts/githubIssueTracker.js $GITHUB_API_KEY
+ * $ node scripts/githubIssueTracker.mjs $GITHUB_API_KEY
  **/
 
-const fs = require('fs');
-const axios = require('axios');
-const path = require('path');
+import fs from 'fs';
+import axios from 'axios';
+import path from 'path';
 
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware'];

@@ -1,10 +1,10 @@
 process.env.TZ = 'UTC'; // fix timezone issues
-const fs = require('fs')
-const https = require('https')
-const FileType = require('file-type')
-const path = require('path')
-const yaml = require('js-yaml')
-const dateFormat = require('dateformat')
+import fs from 'fs';
+import https from 'https';
+import FileType from 'file-type';
+import path from 'path';
+import yaml from 'js-yaml';
+import dateFormat from 'dateformat';
 
 function downloadImageFile (url, iconPath, callback) {
   const iconFile = fs.createWriteStream(iconPath)
@@ -185,18 +185,18 @@ function writeResult (folder, header, body) {
     .write(getResult(header, body))
 }
 
-module.exports = {
-  addReviewArchive,
-  downloadImageFile,
-  was404,
+export default {
   addDefunctIfNew,
-  migrateAll,
-  dateOrEmpty,
-  stringOrEmpty,
-  updateMeta,
+  addReviewArchive,
   checkHeaderKeys,
-  loadFromFile,
+  dateOrEmpty,
+  downloadImageFile,
   getEmptyHeader,
   getResult,
-  writeResult
+  loadFromFile,
+  migrateAll,
+  stringOrEmpty,
+  updateMeta,
+  was404,
+  writeResult,
 }
