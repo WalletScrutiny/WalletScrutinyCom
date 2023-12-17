@@ -12,7 +12,7 @@ updated: 2023-12-13
 version: 4.17.0
 stars: 4.7
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://www.didwallet.io/
 repository: 

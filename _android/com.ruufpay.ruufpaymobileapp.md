@@ -3,7 +3,7 @@ wsId: ruufPayWallet
 title: RuufPay Crypto Pay Swap Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ruufpay.ruufpaymobileapp
 appCountry: 
@@ -28,7 +28,7 @@ twitter: ruufpay
 social:
 - https://www.linkedin.com/company/ruufpay
 - https://www.facebook.com/ruufpay
-- https://www.instagram.com/ruufpay/ 
+- https://www.instagram.com/ruufpay/
 redirect_from: 
 developerName: RuufPay
 features: 

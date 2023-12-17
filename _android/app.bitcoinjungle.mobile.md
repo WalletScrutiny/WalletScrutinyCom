@@ -2,7 +2,7 @@
 wsId: bitcoinjungle
 title: Bitcoin Jungle
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: app.bitcoinjungle.mobile
@@ -25,13 +25,14 @@ date: 2023-10-20
 signer: 
 reviewArchive: 
 twitter: bitcoinjunglecr
-social: 
-- https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
+social:
+- >-
+  https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
 - https://t.me/bitcoinfreedomfestival
 - https://github.com/Bitcoin-Jungle
 redirect_from: 
 developerName: Bitcoin Jungle
-features: 
+features:
 - ln
 
 ---

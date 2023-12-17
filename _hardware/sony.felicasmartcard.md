@@ -11,12 +11,12 @@ binaries:
 dimensions:
 - 24
 - 20
-- 2.95 
+- 3
 weight: 0.73
 provider: Sony
 providerWebsite: https://www.sony.net/
 website: https://www.sony.net/Products/felica/
-shop:
+shop: 
 country: 
 price: 
 repository: 
@@ -27,9 +27,9 @@ meta: ok
 verdict: vapor
 date: 2023-09-30
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
+social: 
 features: 
 
 ---

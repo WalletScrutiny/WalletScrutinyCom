@@ -3,7 +3,7 @@ wsId: HuobiWallet
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.huobionchainwallet.itokenhd
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: iTokenWallet
 social:
-- https://medium.com/@iTokenWalletOfficial 
+- https://medium.com/@iTokenWalletOfficial
 redirect_from: 
 developerName: BlazekTech Internet Technology Service Limited
 features: 

@@ -7,8 +7,8 @@ users: 10
 appId: com.usscyber.xliquiduss.app
 appCountry: 
 released: 2022-10-23
-updated: 2023-12-06
-version: 1.0.8
+updated: 2023-12-16
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 

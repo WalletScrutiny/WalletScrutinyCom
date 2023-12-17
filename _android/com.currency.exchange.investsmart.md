@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 216
 reviews: 116
 size: 
-website: https://expcapital.com/
+website: https://dzengi.com/
 repository: 
 issue: 
 icon: com.currency.exchange.investsmart.png

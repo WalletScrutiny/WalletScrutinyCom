@@ -2,7 +2,7 @@
 wsId: 
 title: IQTrader
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: io.iqtrader
@@ -25,7 +25,7 @@ date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: IQTrader_io
-social: 
+social:
 - https://www.instagram.com/iqtraderofficial/
 redirect_from: 
 developerName: IQTrader

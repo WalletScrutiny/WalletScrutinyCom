@@ -3,7 +3,7 @@ wsId: chainlockApp
 title: chainlock
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.youniqx.chainlock.android
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: youniqx
 social:
 - https://www.facebook.com/YOUNIQXbyOeSD
-- https://www.linkedin.com/company/youniqx-identity-ag 
+- https://www.linkedin.com/company/youniqx-identity-ag
 redirect_from: 
 developerName: YOUNIQX Identity AG
 features: 

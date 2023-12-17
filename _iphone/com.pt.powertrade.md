@@ -3,16 +3,16 @@ wsId: powerTrade
 title: PowerTrade
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.pt.powertrade
 appCountry: id
 idd: '1548085709'
 released: 2021-04-15
-updated: 2023-12-12
-version: 3.0.3
+updated: 2023-12-14
+version: 3.0.4
 stars: 5
 reviews: 1
-size: '447120384'
+size: '447140864'
 website: https://power.trade/
 repository: 
 issue: 

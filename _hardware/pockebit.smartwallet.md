@@ -9,7 +9,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Pockebit
 providerWebsite: 

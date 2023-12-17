@@ -3,7 +3,7 @@ wsId:
 title: Money Storage
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: ua.money.storage.moneystorage
 appCountry: 

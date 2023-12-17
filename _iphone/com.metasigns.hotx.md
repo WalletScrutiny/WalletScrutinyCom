@@ -3,11 +3,11 @@ wsId: hotXexchange
 title: HotX：Buy & Sell BTC,ETH,Doge
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.metasigns.hotx
 appCountry: us
 idd: '1611301863'
-released: '2022-03-02T08:00:00Z'
+released: 2022-03-02
 updated: 2023-04-22
 version: 1.0.18
 stars: 5

@@ -2,9 +2,8 @@
 wsId: 
 title: Create Virtual Card Instantly
 altTitle: 
-authors: 
-- danny 
-users: 50000
+authors:
+- danny
 users: 100000
 appId: net.softwareinfo
 appCountry: 

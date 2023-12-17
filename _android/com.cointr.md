@@ -12,7 +12,7 @@ updated: 2023-12-10
 version: 2.1.2
 stars: 3.7
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://support.cointr.com
 repository: 

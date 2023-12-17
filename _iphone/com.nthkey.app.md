@@ -3,7 +3,7 @@ wsId:
 title: NthKey
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.nthkey.app
 appCountry: 
 idd: 1491367033

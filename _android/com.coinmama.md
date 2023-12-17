@@ -8,7 +8,7 @@ users: 50000
 appId: com.coinmama
 appCountry: 
 released: 2022-11-21
-updated: 2023-11-30
+updated: 2023-12-13
 version: 1.03.00
 stars: 3.2
 ratings: 

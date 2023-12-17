@@ -3,7 +3,7 @@ wsId:
 title: BTCPAY POS
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: technoprepay.btcpay.pos
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: technoprepay
 social:
 - https://www.facebook.com/profile.php?id=100063462636616
-- https://www.youtube.com/channel/UCnUHLVbNaZ6eOe-lkvavQcg 
+- https://www.youtube.com/channel/UCnUHLVbNaZ6eOe-lkvavQcg
 redirect_from: 
 developerName: Technoprepay Solutions
 features: 

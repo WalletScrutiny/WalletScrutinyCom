@@ -2,17 +2,18 @@
 wsId: cryptnoxCompanion
 title: Cryptnox Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10
 appId: com.cryptnox.cryptnoxwallet
 appCountry: 
-released: Sep 29, 2023
-updated: 2023-10-31
-version: 2.3.0
+released: 2023-09-29
+updated: 2023-12-07
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptnox.com/
 repository: 
 issue: 
@@ -24,7 +25,7 @@ date: 2023-11-15
 signer: 
 reviewArchive: 
 twitter: CryptnoxTech
-social: 
+social:
 - https://github.com/Cryptnox-Software
 - https://www.linkedin.com/company/cryptnox/
 redirect_from: 

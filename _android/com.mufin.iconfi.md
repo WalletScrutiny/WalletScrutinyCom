@@ -12,7 +12,7 @@ updated: 2023-01-09
 version: 1.2.2
 stars: 4.6
 ratings: 220
-reviews: 19
+reviews: 20
 size: 
 website: https://www.grow3.io
 repository: 

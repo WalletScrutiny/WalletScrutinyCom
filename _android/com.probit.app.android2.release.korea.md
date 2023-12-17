@@ -28,7 +28,7 @@ twitter: ProBit_Exchange
 social:
 - https://www.facebook.com/probitexchange
 redirect_from: 
-developerName: Oceans Incorporated
+developerName: Oceans Inc
 features: 
 
 ---

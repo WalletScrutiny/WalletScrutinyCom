@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://bitbanana.app/
 repository: 
 issue: 
 icon: app.michaelwuensch.bitbanana.png
@@ -30,3 +30,4 @@ developerName: Michael Wünsch
 features: 
 
 ---
+

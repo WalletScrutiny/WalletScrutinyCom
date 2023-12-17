@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.24paybank.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-22
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 24Paybank

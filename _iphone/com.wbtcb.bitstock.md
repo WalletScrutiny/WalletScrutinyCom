@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.bit.plus/ 
+- https://www.bit.plus/
 features: 
 developerName: IP wBTCB solutions, s.r.o.
 

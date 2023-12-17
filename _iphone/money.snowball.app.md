@@ -10,8 +10,8 @@ idd: '1449662311'
 released: 2019-07-18
 updated: 2023-12-11
 version: 3.0.1
-stars: 4.2
-reviews: 135
+stars: 4.3
+reviews: 136
 size: '36686848'
 website: https://www.snowball.money
 repository: 

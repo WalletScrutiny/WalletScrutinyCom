@@ -3,17 +3,17 @@ wsId: hawexCrypto
 title: 'Hawex: Crypto Cards & Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.hawex.cryptowallet
 appCountry: cl
 idd: '1660970455'
-released: '2023-03-21T07:00:00Z'
+released: 2023-03-21
 updated: 2023-10-06
 version: 2.0 (23)
 stars: 0
 reviews: 0
 size: '70159360'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.hawex.cryptowallet.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: hawexdao
 social:
 - https://t.me/hawex
-- https://discord.gg/CeFH7YaMXe 
+- https://discord.gg/CeFH7YaMXe
 features: 
 developerName: HAWEX INVESTMENT L.L.C
 

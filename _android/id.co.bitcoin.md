@@ -1,6 +1,6 @@
 ---
 wsId: indodax
-title: Indodax Promo Cashback  12.12
+title: Indodax Crypto Simple & Secure
 altTitle: 
 authors:
 - leo

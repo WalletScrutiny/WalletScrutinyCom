@@ -8,7 +8,7 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2023-12-05
+updated: 2023-12-16
 version: 15.1.1
 stars: 3.8
 ratings: 26669

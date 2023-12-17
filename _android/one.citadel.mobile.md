@@ -12,7 +12,7 @@ updated: 2023-07-26
 version: 2.9.15
 stars: 4.5
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://citadel.one/
 repository: 

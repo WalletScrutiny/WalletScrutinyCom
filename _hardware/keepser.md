@@ -35,7 +35,7 @@ social:
 - https://t.me/keepsercoldwallet
 - https://twitter.com/keepser
 - https://www.facebook.com/andorraKCW
-- https://www.youtube.com/channel/UC-5Wv-kmyo37UwtSSsKTkig 
+- https://www.youtube.com/channel/UC-5Wv-kmyo37UwtSSsKTkig
 features: 
 
 ---

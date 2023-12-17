@@ -12,7 +12,7 @@ updated: 2023-11-20
 version: 4.1.1
 stars: 2.6
 ratings: 73042
-reviews: 85
+reviews: 86
 size: 
 website: https://www.paribu.com
 repository: 
@@ -25,11 +25,11 @@ date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: paribucom
-social: 
+social:
 - https://www.youtube.com/c/Paribu
 - https://www.linkedin.com/company/paribucom/
 - https://www.instagram.com/paribucom/
-- https://www.facebook.com/paribucom  
+- https://www.facebook.com/paribucom
 redirect_from: 
 developerName: PARİBU
 features: 

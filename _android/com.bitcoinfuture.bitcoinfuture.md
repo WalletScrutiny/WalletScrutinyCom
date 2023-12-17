@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Future
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitcoinfuture.bitcoinfuture
 appCountry: 

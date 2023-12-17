@@ -9,8 +9,8 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2023-12-09
-version: 2.2.184
+updated: 2023-12-16
+version: 2.2.190
 stars: 4.4
 ratings: 
 reviews: 9
@@ -24,10 +24,11 @@ meta: ok
 verdict: custodial
 date: 2023-10-20
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: blinkbtc
-social: 
-- https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
+social:
+- >-
+  https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
 - https://t.me/blinkbtc
 - https://snort.social/p/community@blink.sv
 redirect_from: 

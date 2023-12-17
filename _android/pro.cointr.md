@@ -12,7 +12,7 @@ updated: 2023-12-10
 version: 2.4.2
 stars: 4.6
 ratings: 
-reviews: 58
+reviews: 60
 size: 
 website: https://www.cointr.pro
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Everstrike
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: org.coincabin
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: everstrike_io
 social:
-- https://t.me/everstrike_io 
+- https://t.me/everstrike_io
 redirect_from: 
 developerName: Everstrike
 features: 

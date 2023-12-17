@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hitbtc.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: hitbtc

@@ -3,7 +3,7 @@ wsId: xfrXTrade
 title: Xtrade - Online Trading
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.triviologic.xtrader
 appCountry: cl
 idd: 864027750
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade
-- https://www.facebook.com/XTrade 
+- https://www.facebook.com/XTrade
 features: 
 developerName: XTRADE EUROPE LTD
 

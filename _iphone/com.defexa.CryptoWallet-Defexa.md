@@ -3,16 +3,16 @@ wsId: defexaWallet
 title: Defexa - Bitcoin Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.defexa.CryptoWallet-Defexa
 appCountry: us
 idd: '6446314571'
-released: '2023-05-29T07:00:00Z'
-updated: 2023-10-24
-version: 1.2.2
+released: 2023-05-29
+updated: 2023-12-13
+version: 2.0.0
 stars: 5
 reviews: 1
-size: '66019328'
+size: '63080448'
 website: https://defexa.io/wallet
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://discord.com/invite/JaSnYuXYS5
 - https://t.me/defexa
 - https://www.linkedin.com/company/defexa
-- https://www.quora.com/profile/Defexa 
+- https://www.quora.com/profile/Defexa
 features: 
 developerName: FPS Global LTD
 

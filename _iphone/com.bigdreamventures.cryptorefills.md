@@ -10,8 +10,8 @@ idd: '1534284069'
 released: 2020-10-28
 updated: 2023-10-06
 version: '1.12'
-stars: 0
-reviews: 0
+stars: 4.5
+reviews: 2
 size: '8100864'
 website: https://www.cryptorefills.com/en/how-it-works
 repository: 

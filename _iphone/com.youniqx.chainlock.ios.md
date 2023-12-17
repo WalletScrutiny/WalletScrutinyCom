@@ -3,11 +3,11 @@ wsId: chainlockApp
 title: Chainlock
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.youniqx.chainlock.ios
 appCountry: us
 idd: '1442543217'
-released: '2018-11-22T04:35:22Z'
+released: 2018-11-22
 updated: 2023-08-08
 version: 1.47.0
 stars: 5
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: youniqx
 social:
 - https://www.facebook.com/YOUNIQXbyOeSD
-- https://www.linkedin.com/company/youniqx-identity-ag  
+- https://www.linkedin.com/company/youniqx-identity-ag
 features: 
 developerName: youniqx Identity AG
 

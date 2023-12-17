@@ -2,7 +2,7 @@
 wsId: 
 title: Lopeer - Borderless Banking
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.lopeer.lopeer
@@ -25,7 +25,7 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.facebook.com/lopeerApp
 - https://t.me/+HtDHSJ21tYg5Mzhk
 - https://www.linkedin.com/company/lopeer/

@@ -3,7 +3,7 @@ wsId:
 title: Coinstick
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinstick.myapp
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: coinstickHQ
 social:
-- https://www.facebook.com/CoinstickHQ 
+- https://www.facebook.com/CoinstickHQ
 redirect_from: 
 developerName: Coinstick
 features: 

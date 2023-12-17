@@ -11,7 +11,7 @@ released: 2021-07-14
 updated: 2023-10-17
 version: '1.35'
 stars: 4.6
-reviews: 30
+reviews: 29
 size: '135886848'
 website: https://union.cash
 repository: 

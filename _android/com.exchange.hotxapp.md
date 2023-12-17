@@ -3,7 +3,7 @@ wsId: hotXexchange
 title: HotX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.exchange.hotxapp
 appCountry: 

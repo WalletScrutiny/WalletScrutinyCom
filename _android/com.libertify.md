@@ -2,7 +2,7 @@
 wsId: 
 title: Libertify - AI Risk Management
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.libertify
@@ -25,7 +25,7 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: Libertify_
-social: 
+social:
 - https://www.instagram.com/libertify_ig
 - https://www.facebook.com/profile.php?id=100082954641501
 - https://story.libertify.com/

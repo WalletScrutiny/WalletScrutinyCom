@@ -10,8 +10,8 @@ idd: '6446883725'
 released: 2023-04-22
 updated: 2023-12-11
 version: 1.9.1
-stars: 5
-reviews: 22
+stars: 4.9
+reviews: 23
 size: '195473408'
 website: http://www.echooo.xyz
 repository: 

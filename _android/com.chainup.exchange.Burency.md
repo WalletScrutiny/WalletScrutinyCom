@@ -8,8 +8,8 @@ users: 10000
 appId: com.chainup.exchange.Burency
 appCountry: 
 released: 2021-11-20
-updated: 2023-11-14
-version: 5.9.0_push_v2
+updated: 2023-12-15
+version: 5.9.1_push_v2
 stars: 3
 ratings: 
 reviews: 10

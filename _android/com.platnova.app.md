@@ -3,7 +3,7 @@ wsId: platnovaApp
 title: 'Platnova: Pay across the globe'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.platnova.app
 appCountry: 
@@ -28,7 +28,7 @@ twitter: getplatnova
 social:
 - https://www.facebook.com/getplatnova
 - https://www.instagram.com/getplatnova
-- https://www.linkedin.com/company/platnova 
+- https://www.linkedin.com/company/platnova
 redirect_from: 
 developerName: Platnova
 features: 

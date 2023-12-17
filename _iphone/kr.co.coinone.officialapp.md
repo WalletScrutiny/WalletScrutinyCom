@@ -3,16 +3,16 @@ wsId: coinOneKr
 title: 코인원
 altTitle: 
 authors:
-- danny 
+- danny
 appId: kr.co.coinone.officialapp
 appCountry: kr
 idd: 1326526995
 released: 2018-03-27
-updated: 2023-12-06
-version: 4.2.1
+updated: 2023-12-14
+version: 4.3.0
 stars: 2.7
-reviews: 838
-size: '123437056'
+reviews: 839
+size: '123836416'
 website: 
 repository: 
 issue: 

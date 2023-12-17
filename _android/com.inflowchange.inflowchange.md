@@ -2,7 +2,7 @@
 wsId: 
 title: 'Inflowchange: Sell Bitcoin'
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10000
 appId: com.inflowchange.inflowchange
@@ -25,7 +25,7 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: inflowchange
-social: 
+social:
 - https://www.tiktok.com/@inflowchange
 - https://www.instagram.com/inflowchange
 - https://www.facebook.com/Inflowchange/

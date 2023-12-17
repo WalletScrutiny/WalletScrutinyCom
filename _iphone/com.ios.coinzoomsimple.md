@@ -10,8 +10,8 @@ idd: '1575983875'
 released: 2022-01-21
 updated: 2023-12-10
 version: 3.0.2
-stars: 5
-reviews: 14
+stars: 4.8
+reviews: 15
 size: '62473216'
 website: http://www.coinzoom.com
 repository: 

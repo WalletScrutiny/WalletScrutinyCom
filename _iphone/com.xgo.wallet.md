@@ -8,11 +8,11 @@ appId: com.xgo.wallet
 appCountry: bg
 idd: '1630753422'
 released: 2022-11-03
-updated: 2023-11-27
-version: 1.13.0
+updated: 2023-12-14
+version: 1.14.0
 stars: 0
 reviews: 0
-size: '105708544'
+size: '149044224'
 website: https://xgo.com
 repository: 
 issue: 

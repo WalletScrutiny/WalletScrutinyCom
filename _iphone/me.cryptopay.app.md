@@ -7,11 +7,11 @@ appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2023-11-21
-version: 1.70.0
+updated: 2023-12-15
+version: 1.71.0
 stars: 4.5
-reviews: 316
-size: '212608000'
+reviews: 317
+size: '212624384'
 website: https://cryptopay.me/
 repository: 
 issue: 

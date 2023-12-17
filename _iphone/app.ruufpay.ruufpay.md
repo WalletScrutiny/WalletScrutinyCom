@@ -3,17 +3,17 @@ wsId: ruufPayWallet
 title: RuufPay Swap Pay Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.ruufpay.ruufpay
 appCountry: us
 idd: '1557726087'
-released: '2022-06-07T07:00:00Z'
+released: 2022-06-07
 updated: 2023-07-01
 version: 2.1.0
 stars: 4.8
 reviews: 20
 size: '70030336'
-website: ''
+website: 
 repository: 
 issue: 
 icon: app.ruufpay.ruufpay.jpg

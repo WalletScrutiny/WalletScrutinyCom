@@ -2,8 +2,8 @@
 wsId: rubycoinWallet
 title: Rubycoin wallet
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 1000
 appId: com.ruby.coin
 appCountry: 
@@ -25,14 +25,14 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: RubyCoinDAO
-social: 
+social:
 - https://rubycointrade.com
 - https://www.facebook.com/people/Ruby-Coin/100083273028384
 - https://www.instagram.com/rubycoindao
 - https://t.me/rubycoindao
 - https://www.youtube.com/channel/UCJ9etNSb2LvEUkG4sB9TUzA
 - https://discord.com/invite/M7xy5dK5Mz
-- https://www.reddit.com/user/rubycointrade 
+- https://www.reddit.com/user/rubycointrade
 redirect_from: 
 developerName: rubycoin
 features: 

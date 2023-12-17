@@ -3,7 +3,7 @@ wsId: skrill
 title: Skrill - Pay & Send Money
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.skrill.ios.SkrillPayments
 appCountry: gb
 idd: '718248239'
@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2023-12-12
 version: 3.126.0
 stars: 4.5
-reviews: 5867
+reviews: 5865
 size: '179580928'
 website: https://www.skrill.com/
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: skrill
 social:
 - https://www.facebook.com/Skrillpayments
-- https://www.instagram.com/skrill 
+- https://www.instagram.com/skrill
 features: 
 developerName: Skrill Ltd.
 

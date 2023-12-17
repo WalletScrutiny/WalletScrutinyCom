@@ -3,7 +3,7 @@ wsId:
 title: Satpile - BTC Balance Tracker
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.satpile.app
 appCountry: 
 idd: 1510284403
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.satpile.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-11-17
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: satpile

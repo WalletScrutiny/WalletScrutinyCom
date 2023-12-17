@@ -3,7 +3,7 @@ wsId:
 title: HOYA BIT 加密貨幣交易所
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hoyabit.cex
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/HOYABITExchange
 - https://www.youtube.com/@HOYA_BIT
-- https://www.instagram.com/hoyabit.exchange 
+- https://www.instagram.com/hoyabit.exchange
 redirect_from: 
 developerName: HOYA BIT Digital Technology Co., Ltd.
 features: 

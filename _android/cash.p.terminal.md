@@ -3,7 +3,7 @@ wsId:
 title: P.CASH
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: cash.p.terminal
 appCountry: 

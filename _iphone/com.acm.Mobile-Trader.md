@@ -3,16 +3,16 @@ wsId: swissQuoteAdvancedTrader
 title: Advanced Trader
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.acm.Mobile-Trader
 appCountry: ch
 idd: '340408565'
-released: '2009-12-09T20:22:59Z'
-updated: 2023-11-01
-version: 3.16.0
-stars: 4.26869
-reviews: 495
-size: '49753088'
+released: 2009-12-09
+updated: 2023-12-12
+version: 3.17.0
+stars: 4.3
+reviews: 510
+size: '26984448'
 website: https://www.swissquote.com/forex/platforms/advanced-trader
 repository: 
 issue: 

@@ -2,8 +2,8 @@
 wsId: kamixApp
 title: Kamix
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 appId: io.kamix.app
 appCountry: fr
 idd: '1496578894'
@@ -24,7 +24,7 @@ date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: KamixApp
-social: 
+social:
 - https://www.linkedin.com/company/kamixapp
 - https://www.facebook.com/Kamixapp
 - https://www.instagram.com/kamixapp

@@ -2,7 +2,7 @@
 wsId: starEx
 title: StarEx - Buy Bitcoin
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: vip.sing.exchange

@@ -3,16 +3,16 @@ wsId: platnovaApp
 title: Platnova
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.platnova.appin
 appCountry: us
 idd: '1619003446'
-released: '2022-04-26T07:00:00Z'
-updated: 2023-10-24
-version: 0.7.9
-stars: 3.66667
+released: 2022-04-26
+updated: 2023-12-02
+version: 0.8.2
+stars: 3.7
 reviews: 24
-size: '95883264'
+size: '154375168'
 website: https://platnova.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: getplatnova
 social:
 - https://www.facebook.com/getplatnova
 - https://www.instagram.com/getplatnova
-- https://www.linkedin.com/company/platnova 
+- https://www.linkedin.com/company/platnova
 features: 
 developerName: Platnova
 

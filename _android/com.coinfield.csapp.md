@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-12-21
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

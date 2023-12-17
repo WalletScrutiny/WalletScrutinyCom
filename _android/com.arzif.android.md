@@ -12,7 +12,7 @@ updated: 2023-09-09
 version: '2'
 stars: 3.9
 ratings: 687
-reviews: 20
+reviews: 21
 size: 
 website: https://arzif.com/
 repository: 

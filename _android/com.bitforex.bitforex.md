@@ -12,7 +12,7 @@ updated: 2023-10-25
 version: 3.5.5
 stars: 4.6
 ratings: 
-reviews: 26
+reviews: 27
 size: 
 website: https://www.bitforex.com
 repository: 

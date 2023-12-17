@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
 - 86
 - 54
 - 2
@@ -32,7 +32,7 @@ twitter: materialbitcoin
 social:
 - https://www.facebook.com/MaterialBitcoin
 - https://www.instagram.com/materialbitcoin
-- https://t.me/materialbitcoinoficial  
+- https://t.me/materialbitcoinoficial
 features: 
 
 ---

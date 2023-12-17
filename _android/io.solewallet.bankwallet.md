@@ -2,7 +2,7 @@
 wsId: 
 title: Sole Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: io.solewallet.bankwallet

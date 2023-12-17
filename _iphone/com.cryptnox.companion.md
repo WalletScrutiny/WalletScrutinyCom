@@ -24,7 +24,7 @@ date: 2023-11-15
 signer: 
 reviewArchive: 
 twitter: CryptnoxTech
-social: 
+social:
 - https://github.com/Cryptnox-Software
 - https://www.linkedin.com/company/cryptnox/
 features: 

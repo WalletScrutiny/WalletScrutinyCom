@@ -3,7 +3,7 @@ wsId: swissQuoteAdvancedTrader
 title: 'Advanced Trader: Forex & CFDs'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/Swissquote.en
 - https://www.youtube.com/user/SwissquoteBank
 - https://www.instagram.com/swissquote_official
-- https://www.tiktok.com/@swissquote_official 
+- https://www.tiktok.com/@swissquote_official
 redirect_from: 
 developerName: Swissquote Mobile
 features: 

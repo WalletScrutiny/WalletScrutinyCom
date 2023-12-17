@@ -2,8 +2,8 @@
 wsId: 
 title: Tarmex
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: com.tarmex.tarmex
 appCountry: 
@@ -25,13 +25,13 @@ date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: Tarmexio
-social: 
+social:
 - https://www.facebook.com/Tarmex.exchange
 - https://www.linkedin.com/company/tarmex
 - https://t.me/TOKENTARM
 - https://www.reddit.com/user/ARMTOKEN
 - https://www.instagram.com/tarmexio
-- https://www.youtube.com/@Tarmexio 
+- https://www.youtube.com/@Tarmexio
 redirect_from: 
 developerName: Tarmex Exchange
 features: 

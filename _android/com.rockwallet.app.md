@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-14
 updated: 2023-11-15
 version: 5.12.0
-stars: 3.3
+stars: 3.4
 ratings: 
-reviews: 22
+reviews: 24
 size: 
 website: http://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-android

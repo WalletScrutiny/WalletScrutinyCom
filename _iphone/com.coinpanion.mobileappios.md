@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Coinpanion
+developerName: Revix UK Ltd
 
 ---
 

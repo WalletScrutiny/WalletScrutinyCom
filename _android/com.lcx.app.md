@@ -12,7 +12,7 @@ updated: 2023-12-04
 version: 2.2.34
 stars: 3.1
 ratings: 
-reviews: 34
+reviews: 35
 size: 
 website: https://lcx.com
 repository: 

@@ -3,7 +3,7 @@ wsId: fulldiveApp
 title: 'Fulldive Wallet: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.fulldive.extension.fdwallet
 appCountry: 

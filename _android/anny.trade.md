@@ -3,7 +3,7 @@ wsId: annyTrade
 title: Anny.trade
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: anny.trade
 appCountry: 

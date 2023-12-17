@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-04
 updated: 2023-12-12
 version: 1.6.14
-stars: 3.8
+stars: 3.9
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.cropty.io/
 repository: 

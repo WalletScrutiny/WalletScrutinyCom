@@ -25,7 +25,7 @@ date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.bit.plus/
 redirect_from: 
 developerName: IP wBTCb solutions, s.r.o.
