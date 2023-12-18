@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: ledgerLive
 title: 'Ledger Live: Crypto & NFT App'
 altTitle: 
 authors: 

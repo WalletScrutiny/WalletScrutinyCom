@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bankoWallet
 title: Banko Wallet - Bitcoin, ETH, T
 altTitle: 
 authors:

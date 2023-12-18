@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: krakenInvest
 title: Kraken - Buy Bitcoin & Crypto
 altTitle: 
 authors:
