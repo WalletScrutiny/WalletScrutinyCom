@@ -48,7 +48,7 @@ features:
 > - CoinCorner Checkout
 > - LNbits TPoS
 
-The BoltRing currently has the BoltCard (NTAG 424 DNA) Read/Write library in its [repository](  ).
+The BoltRing currently has the BoltCard (NTAG 424 DNA) Read/Write library in its [repository](https://github.com/bitcoin-ring/boltlib).
 
 ## Analysis 
 
@@ -58,7 +58,6 @@ Source from the [FAQ:](https://bitcoin-ring.com/pages/faq)
 
 > **What if I lose my BoltRing?**
 > Your BoltRing does not hold bitcoin. Instead it is connected with an online lightning wallet through a bolt service. You can deactivate the connected bolt service if you lose your BoltRing.
->
 >
 > **How secure is the BoltRing?**
 > The BoltRing uses a secure NFC chip that dynamically generates replay protected LNURL-Withdraw links. To improve security you should set reasonable limits and timeouts on the connected bolt service. Remember the BoltRing is not a hardware wallet. Use it responsibly with small amounts for daily spending only.
