@@ -27,10 +27,6 @@ twitter: breez_tech
 social:
 - http://breez.technology
 redirect_from:
-- /breez/
-- /com.breez.client/
-- /posts/2019/12/breez/
-- /posts/com.breez.client/ 
 features: 
 developerName: BREEZ DEVELOPMENT LTD
 

@@ -45,4 +45,5 @@ Section 3.3 of the [User Agreement](https://www.hodlit.com/user-agreement/) stat
 
 > 3.3. Digital Currency Storage & Transmission Delays. All Digital Currency private keys are stored in a combination of online and offline storage. As a result, it may be necessary for Hodlit to retrieve certain information from offline storage in order to facilitate a Digital Currency Transaction in accordance with your instructions, which may delay the initiation or crediting of such Digital Currency Transaction for 48 hours or more. You acknowledge and agree that a Digital Currency Transaction facilitated by Hodlit may be delayed.
 
+This is a custodial service and thus **not verifiable**.
 
