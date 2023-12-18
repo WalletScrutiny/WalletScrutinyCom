@@ -28,7 +28,7 @@ reviewArchive:
 - date: 2023-10-07
   version: 2.5.4
   appHash: bb6e4b99fdb6a6e11b32ab9be9a43db55e3021ac85c24301227f5501371f876c
-  gitRevision: e3739160c9fcb83303d40d5ae888ec1d728567ee
+  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
   verdict: reproducible
 - date: 2023-08-27
   version: 2.4.27
