@@ -9,7 +9,7 @@ appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
 updated: 2023-12-07
-version: 5.5.4
+version: 5.5.5
 stars: 4
 ratings: 27168
 reviews: 103

@@ -7,10 +7,10 @@ authors:
 appId: btc.org.freewallet.app
 appCountry: us
 idd: '1126844329'
-released: '2016-07-08T22:03:56Z'
+released: 2016-07-08
 updated: 2022-01-14
 version: 2.6.23
-stars: 4.09009
+stars: 4
 reviews: 111
 size: '18610176'
 website: https://freewallet.org/btc-wallet

@@ -1,18 +1,18 @@
 ---
 wsId: river
-title: River – Buy & Mine Bitcoin
+title: River – Buy Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.river.riverapp
 appCountry: us
 idd: '1536176542'
-released: '2021-01-19T08:00:00Z'
-updated: 2023-09-11
-version: 3.5.4
-stars: 4.81181
-reviews: 728
-size: '79179776'
+released: 2021-01-19
+updated: 2023-12-17
+version: 3.7.7
+stars: 4.8
+reviews: 1013
+size: '67928064'
 website: https://river.com/buy-bitcoin
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: River
 social:
-- https://www.linkedin.com/company/riverfinancial 
+- https://www.linkedin.com/company/riverfinancial
 features: 
 developerName: River Financial Inc.
 

@@ -3,16 +3,16 @@ wsId: choiceBitcoinIRA
 title: 'Choice: Bitcoin in your IRA'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.holdings.choice
 appCountry: us
 idd: '1563472237'
-released: '2021-08-05T07:00:00Z'
-updated: 2023-08-16
-version: 2.18.1
-stars: 4.81135
-reviews: 1463
-size: '69682176'
+released: 2021-08-05
+updated: 2023-11-07
+version: 2.22.0
+stars: 4.8
+reviews: 1465
+size: '77027328'
 website: https://www.choiceapp.io
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter:
 social:
 - https://www.instagram.com/choiceapp.io
 - https://www.facebook.com/choicebykt
-- https://discord.com/invite/f4avvmtUzh 
+- https://discord.com/invite/f4avvmtUzh
 features: 
 developerName: Choice Holdings Incorporated
 

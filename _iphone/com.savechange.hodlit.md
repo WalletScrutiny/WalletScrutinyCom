@@ -3,14 +3,14 @@ wsId: hodlit
 title: Hodlit
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.savechange.hodlit
 appCountry: us
 idd: '1436264962'
-released: '2020-07-22T07:00:00Z'
+released: 2020-07-22
 updated: 2020-11-16
 version: 1.0.12
-stars: 2.81081
+stars: 2.8
 reviews: 37
 size: '53408768'
 website: https://hodlit.com

@@ -3,16 +3,16 @@ wsId:
 title: Copper Unlimited
 altTitle: 
 authors:
-- danny 
+- danny
 appId: co.copper.custody
 appCountry: us
 idd: '1521814069'
-released: '2020-07-21T07:00:00Z'
-updated: 2023-09-19
-version: 2.6.456
-stars: 5
-reviews: 2
-size: '46675968'
+released: 2020-07-21
+updated: 2023-11-24
+version: 2.6.471
+stars: 3.7
+reviews: 3
+size: '47800320'
 website: https://copper.co
 repository: 
 issue: 

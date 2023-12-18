@@ -3,16 +3,16 @@ wsId: criptanWallet
 title: 'Criptan: BTC Wallet & Card'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.criptan.app
 appCountry: es
 idd: '1497960991'
-released: '2020-06-18T07:00:00Z'
-updated: 2023-09-15
-version: 2.15.47
-stars: 4.61089
-reviews: 257
-size: '106770432'
+released: 2020-06-18
+updated: 2023-10-26
+version: 2.15.60
+stars: 4.6
+reviews: 263
+size: '109142016'
 website: https://criptan.es
 repository: 
 issue: 

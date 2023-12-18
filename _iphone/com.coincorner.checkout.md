@@ -3,11 +3,11 @@ wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coincorner.checkout
 appCountry: us
 idd: '1464880599'
-released: '2019-06-01T21:56:38Z'
+released: 2019-06-01
 updated: 2023-03-10
 version: 2.0.4
 stars: 0

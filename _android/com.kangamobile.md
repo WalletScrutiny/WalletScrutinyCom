@@ -4,7 +4,7 @@ title: Kanga Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.kangamobile
 appCountry: 
 released: 2020-01-03

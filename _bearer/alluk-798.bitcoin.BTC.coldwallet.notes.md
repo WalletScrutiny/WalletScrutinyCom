@@ -1,6 +1,6 @@
 ---
 title: alluk-798 Bitcoin BTC Cold Wallet Crypto Notes
-appId: alluk-798.bitcoin.btc.coldwallet.notes
+appId: alluk-798.bitcoin.BTC.coldwallet.notes
 authors:
 - danny
 released: 
@@ -18,7 +18,7 @@ country: CA
 price: 21 EUR
 repository: 
 issue: 
-icon: alluk-798.bitcoin.btc.coldwallet.notes.png
+icon: alluk-798.bitcoin.BTC.coldwallet.notes.png
 bugbounty: 
 meta: ok
 verdict: prefilled
@@ -26,7 +26,7 @@ date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 features: 
 
 ---

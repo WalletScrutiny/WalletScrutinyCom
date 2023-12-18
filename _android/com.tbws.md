@@ -12,7 +12,7 @@ updated: 2022-06-19
 version: 1.24.0
 stars: 3.6
 ratings: 
-reviews: 54
+reviews: 55
 size: 
 website: https://theblackwallstreet.com
 repository: 

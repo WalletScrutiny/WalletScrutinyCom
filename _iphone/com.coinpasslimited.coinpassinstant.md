@@ -3,16 +3,16 @@ wsId: coinpassMobile
 title: coinpass Mobile
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinpasslimited.coinpassinstant
 appCountry: bg
 idd: '1530358553'
-released: '2020-11-20T08:00:00Z'
-updated: 2023-09-07
-version: 2.0.9
+released: 2020-11-20
+updated: 2023-10-31
+version: 2.0.11
 stars: 0
 reviews: 0
-size: '62120960'
+size: '62782464'
 website: https://coinpass.com/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
 - https://www.linkedin.com/company/coinpass/
 features: 
-developerName: Coinpass Limited
+developerName: Oanda Coinpass Limited
 
 ---
 

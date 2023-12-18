@@ -10,9 +10,9 @@ appCountry:
 released: 2019-11-12
 updated: 2023-12-12
 version: 3.33.0
-stars: 3.8
+stars: 3.9
 ratings: 2774
-reviews: 90
+reviews: 89
 size: 
 website: https://exmo.com/
 repository: 

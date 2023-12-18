@@ -3,15 +3,15 @@ wsId: plutusWallet
 title: Plutus | Bank On Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.blockcode.plutus.tappay
 appCountry: gb
 idd: '1410685948'
-released: '2018-08-22T06:44:32Z'
+released: 2018-08-22
 updated: 2023-06-01
 version: 3.11.0
-stars: 3.96172
-reviews: 209
+stars: 3.9
+reviews: 221
 size: '62606336'
 website: https://plutus.it
 repository: 

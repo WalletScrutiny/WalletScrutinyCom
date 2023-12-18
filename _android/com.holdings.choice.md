@@ -3,16 +3,17 @@ wsId: choiceBitcoinIRA
 title: 'Choice: Bitcoin in your IRA'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.holdings.choice
 appCountry: 
-released: Apr 4, 2022
+released: 2022-04-04
 updated: 2023-11-10
 version: 2.22.0
-stars: 3.7027028
+stars: 3.7
 ratings: 
 reviews: 21
+size: 
 website: https://www.choiceapp.io/
 repository: 
 issue: 
@@ -27,7 +28,7 @@ twitter: choicebyKT
 social:
 - https://www.instagram.com/choiceapp.io
 - https://www.facebook.com/choicebykt
-- https://discord.com/invite/f4avvmtUzh 
+- https://discord.com/invite/f4avvmtUzh
 redirect_from: 
 developerName: Choice IRA
 features: 

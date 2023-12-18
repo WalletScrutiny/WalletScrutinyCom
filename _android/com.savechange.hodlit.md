@@ -3,16 +3,17 @@ wsId: hodlit
 title: Hodlit
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.savechange.hodlit
 appCountry: 
-released: Apr 18, 2020
+released: 2020-04-18
 updated: 2020-11-16
 version: 1.0.12
-stars: 2.5238094
+stars: 2.5
 ratings: 
 reviews: 36
+size: 
 website: https://hodlit.com
 repository: 
 issue: 

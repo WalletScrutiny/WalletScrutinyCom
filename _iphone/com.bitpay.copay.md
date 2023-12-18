@@ -7,11 +7,11 @@ authors:
 appId: com.bitpay.copay
 appCountry: us
 idd: '951330296'
-released: '2015-06-01T03:56:06Z'
+released: 2015-06-01
 updated: 2021-06-01
 version: 12.5.6
-stars: 3.68452
-reviews: 168
+stars: 3.7
+reviews: 171
 size: '85024768'
 website: https://copay.io
 repository: 

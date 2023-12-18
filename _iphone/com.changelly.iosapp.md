@@ -1,18 +1,18 @@
 ---
 wsId: changelly
-title: 'Crypto Exchange: Buy Bitcoin'
+title: 'Changelly: Buy Bitcoin・Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.changelly.iosapp
 appCountry: us
 idd: '1435140380'
-released: '2019-10-04T07:00:00Z'
-updated: 2023-09-12
-version: 2.28.0
-stars: 4.68592
-reviews: 3722
-size: '95741952'
+released: 2019-10-04
+updated: 2023-12-05
+version: 2.34.0
+stars: 4.7
+reviews: 3952
+size: '212432896'
 website: https://changelly.com
 repository: 
 issue: 

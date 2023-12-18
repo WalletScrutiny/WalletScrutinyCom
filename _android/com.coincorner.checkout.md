@@ -3,7 +3,7 @@ wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100
 appId: com.coincorner.checkout
 appCountry: 

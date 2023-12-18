@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cmcodes.NexZone.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-26
+date: 2023-12-18
 signer: 
 reviewArchive: 
 twitter: 

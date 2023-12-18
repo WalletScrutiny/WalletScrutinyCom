@@ -3,17 +3,17 @@ wsId: bankoWallet
 title: Banko Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.banko.ios
 appCountry: us
 idd: '1441243164'
-released: '2018-11-10T03:30:54Z'
+released: 2018-11-10
 updated: 2020-09-08
 version: 1.5.6
 stars: 4.2
 reviews: 5
 size: '68828160'
-website: ''
+website: 
 repository: 
 issue: 
 icon: app.banko.ios.jpg

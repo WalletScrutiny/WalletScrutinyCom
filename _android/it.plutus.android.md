@@ -3,15 +3,17 @@ wsId: plutusWallet
 title: Plutus | Bank On Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: it.plutus.android
 appCountry: 
+released: 
 updated: 2023-12-06
 version: 3.16.1
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://plutus.it/
 repository: 
 issue: 

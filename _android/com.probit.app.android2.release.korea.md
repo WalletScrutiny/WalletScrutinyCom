@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: '프로비트: 가상화폐 (비트코인,이더리움,리플) 거래소'
+title: 프로비트 - 가상자산 거래소 (비트코인,이더리움,리플)
 altTitle: 
 authors:
 - danny

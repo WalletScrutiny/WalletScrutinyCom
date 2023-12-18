@@ -9,7 +9,7 @@ appId: net.chiliz.broker.android
 appCountry: 
 released: 2020-01-22
 updated: 2023-12-14
-version: 5.12.0
+version: 5.12.1
 stars: 3.6
 ratings: 771
 reviews: 5

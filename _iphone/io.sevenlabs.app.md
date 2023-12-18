@@ -7,7 +7,7 @@ authors:
 appId: io.sevenlabs.app
 appCountry: us
 idd: '1545948177'
-released: '2021-07-13T07:00:00Z'
+released: 2021-07-13
 updated: 2023-09-10
 version: 2.0.0
 stars: 3
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/tdexnetwork 
+- https://t.me/tdexnetwork
 features: 
 developerName: Seven Labs Limited
 

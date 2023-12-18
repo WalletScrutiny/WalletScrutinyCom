@@ -3,17 +3,17 @@ wsId: breez
 title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: technology.breez.client
 appCountry: us
 idd: '1463604142'
-released: '2022-05-01T07:00:00Z'
-updated: 2023-09-15
-version: 1.0.22
-stars: 4.13333
-reviews: 15
-size: '191022080'
-website: ''
+released: 2022-05-01
+updated: 2023-10-23
+version: 1.0.24
+stars: 3.8
+reviews: 18
+size: '188615680'
+website: 
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: technology.breez.client.jpg
@@ -26,9 +26,9 @@ reviewArchive:
 twitter: breez_tech
 social:
 - http://breez.technology
-redirect_from:
 features: 
 developerName: BREEZ DEVELOPMENT LTD
+redirect_from: 
 
 ---
 

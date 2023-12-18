@@ -7,11 +7,11 @@ authors:
 appId: com.ownrwallet.wallet
 appCountry: us
 idd: '1459364947'
-released: '2019-05-21T08:03:34Z'
+released: 2019-05-21
 updated: 2023-08-31
 version: 1.71.1
-stars: 4.70085
-reviews: 117
+stars: 4.7
+reviews: 133
 size: '88385536'
 website: https://ownrwallet.com
 repository: 

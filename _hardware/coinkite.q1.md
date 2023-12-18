@@ -5,16 +5,16 @@ authors:
 - danny
 released: 
 discontinued: 
-updated:
+updated: 
 version: 
 binaries: 
 dimensions:
-- 120 
+- 120
 - 75
 - 22
 weight: 
 provider: CoinKite, Inc.
-providerWebsite: https://coinkite.com/  
+providerWebsite: https://coinkite.com/
 website: https://coldcard.com/docs/coldcard-q/
 shop: https://store.coinkite.com/store/cc-q1
 country: CA
@@ -29,7 +29,7 @@ date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: Coinkite
-social:
+social: 
 features: 
 
 ---

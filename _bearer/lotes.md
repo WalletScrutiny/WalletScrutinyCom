@@ -27,6 +27,8 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
+features: 
+
 ---
 
 "Lotes" are described as physical bitcoin notes that run on the *Lightning Network.*

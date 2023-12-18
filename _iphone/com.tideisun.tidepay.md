@@ -11,7 +11,7 @@ released: 2018-06-09
 updated: 2023-12-15
 version: 4.0.4
 stars: 4.6
-reviews: 9
+reviews: 10
 size: '78015488'
 website: https://isun1.com
 repository: 

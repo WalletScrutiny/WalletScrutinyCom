@@ -3,17 +3,17 @@ wsId: zumoPay
 title: 'Zumo: Buy Bitcoin and Ether'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.zumopay.core
 appCountry: gb
 idd: '1449986847'
-released: '2019-11-07T08:00:00Z'
-updated: 2023-08-29
-version: 5.4.1
-stars: 4.32042
-reviews: 284
-size: '110814208'
-website: https://zumo.tech
+released: 2019-11-07
+updated: 2023-12-14
+version: 5.6.0
+stars: 4.3
+reviews: 288
+size: '89787392'
+website: https://app.zumo.tech
 repository: 
 issue: 
 icon: com.zumopay.core.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: zumopay
 social:
 - https://www.linkedin.com/company/zumomoney
-- https://www.facebook.com/zumo.money 
+- https://www.facebook.com/zumo.money
 features: 
 developerName: Blockstar Developments Limited
 

@@ -3,17 +3,17 @@ wsId:
 title: Jade Wallet - Bitcoin & DeFi
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.nbltrust.jadewallet
 appCountry: us
 idd: '1544207492'
-released: '2020-12-17T08:00:00Z'
+released: 2020-12-17
 updated: 2023-06-13
 version: 1.27.8
 stars: 4
 reviews: 3
 size: '304339968'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.nbltrust.jadewallet.jpg

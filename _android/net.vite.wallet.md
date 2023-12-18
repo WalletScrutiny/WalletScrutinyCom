@@ -3,16 +3,17 @@ wsId: vite
 title: Vite Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: net.vite.wallet
 appCountry: 
-released: Jan 2, 2019
+released: 2019-01-02
 updated: 2022-09-13
 version: v4.3.0
-stars: 3.6764705
+stars: 3.7
 ratings: 
 reviews: 77
+size: 
 website: https://vite.org/
 repository: 
 issue: 
@@ -25,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: vitelabs
 social:
-- https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg 
+- https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg
 redirect_from: 
 developerName: Vite Labs
 features: 

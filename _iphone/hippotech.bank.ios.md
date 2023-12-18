@@ -3,16 +3,16 @@ wsId: ziglu
 title: Ziglu. Money, done differently
 altTitle: 
 authors:
-- danny 
+- danny
 appId: hippotech.bank.ios
 appCountry: gb
 idd: '1472192023'
-released: '2020-06-08T07:00:00Z'
-updated: 2023-08-02
-version: '3.7'
-stars: 4.52493
-reviews: 1364
-size: '84287488'
+released: 2020-06-08
+updated: 2023-12-11
+version: '3.14'
+stars: 4.5
+reviews: 1368
+size: '125751296'
 website: https://www.ziglu.io
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: ziglumoney
 social:
 - https://www.facebook.com/ziglumoney
-- https://www.linkedin.com/company/ziglu 
+- https://www.linkedin.com/company/ziglu
 features: 
 developerName: Ziglu Limited
 

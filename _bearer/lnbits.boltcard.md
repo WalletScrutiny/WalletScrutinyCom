@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: LNBits
 providerWebsite: 
@@ -26,7 +26,8 @@ date: 2023-12-08
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
 features: 
 
 ---
+

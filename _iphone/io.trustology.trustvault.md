@@ -3,16 +3,16 @@ wsId:
 title: TrustVault
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.trustology.trustvault
 appCountry: ee
 idd: '1455959680'
-released: '2019-08-23T07:00:00Z'
-updated: 2023-08-18
-version: 2.7.5
+released: 2019-08-23
+updated: 2023-11-15
+version: 2.10.0
 stars: 0
 reviews: 0
-size: '84253696'
+size: '77830144'
 website: https://custody.bitpanda.com/about
 repository: 
 issue: 

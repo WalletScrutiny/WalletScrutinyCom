@@ -3,15 +3,17 @@ wsId: ziglu
 title: Ziglu. Money, done differently
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: hippotech.bank.droid
 appCountry: 
+released: 
 updated: 2023-12-08
 version: '3.14'
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.ziglu.io
 repository: 
 issue: 
@@ -25,7 +27,7 @@ reviewArchive:
 twitter: ziglumoney
 social:
 - https://www.facebook.com/ziglumoney
-- https://www.linkedin.com/company/ziglu 
+- https://www.linkedin.com/company/ziglu
 redirect_from: 
 developerName: Ziglu
 features: 

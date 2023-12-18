@@ -3,16 +3,17 @@ wsId: river
 title: River – Buy Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.river.riverapp
 appCountry: 
-released: Oct 20, 2023
-updated: 2023-12-13
-version: 1.66.1
-stars: 4.6666665
+released: 2023-10-20
+updated: 2023-12-15
+version: 1.67.1
+stars: 4.5
 ratings: 
 reviews: 20
+size: 
 website: https://river.com/
 repository: 
 issue: 
@@ -25,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: River
 social:
-- https://www.linkedin.com/company/riverfinancial 
+- https://www.linkedin.com/company/riverfinancial
 redirect_from: 
 developerName: River Financial
 features: 

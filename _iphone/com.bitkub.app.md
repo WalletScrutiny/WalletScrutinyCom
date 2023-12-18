@@ -11,7 +11,7 @@ released: 2019-04-24
 updated: 2023-12-06
 version: 3.24.0
 stars: 4.1
-reviews: 9363
+reviews: 9369
 size: '67547136'
 website: https://www.bitkub.com/download
 repository: 

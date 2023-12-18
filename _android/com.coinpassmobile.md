@@ -3,15 +3,17 @@ wsId: coinpassMobile
 title: coinpass Mobile
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinpassmobile
 appCountry: 
+released: 
 updated: 2023-10-31
 version: 2.0.17
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://www.coinpass.com/
 repository: 
 issue: 
@@ -26,7 +28,7 @@ twitter: coinpassglobal
 social:
 - https://www.facebook.com/coinpassglobal
 - https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
-- https://www.linkedin.com/company/coinpass 
+- https://www.linkedin.com/company/coinpass
 redirect_from: 
 developerName: Coinpass Limited
 features: 

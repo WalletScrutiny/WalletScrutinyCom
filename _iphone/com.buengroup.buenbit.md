@@ -3,16 +3,16 @@ wsId: buenbit
 title: Buenbit
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
-released: '2021-11-23T08:00:00Z'
-updated: 2023-08-22
-version: 3.1.0
-stars: 4.59999
+released: 2021-11-23
+updated: 2023-11-27
+version: 3.3.0
+stars: 4.6
 reviews: 5
-size: '100109312'
+size: '103621632'
 website: https://www.buenbit.com/
 repository: 
 issue: 

@@ -3,17 +3,17 @@ wsId:
 title: ColdKeys
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.fontaine.DiceKeys
 appCountry: us
 idd: '1452167723'
-released: '2019-02-12T10:33:41Z'
+released: 2019-02-12
 updated: 2019-05-23
 version: '1.7'
 stars: 4
 reviews: 2
 size: '10850304'
-website: ''
+website: 
 repository: https://github.com/FontaineDenton/DiceKeys
 issue: 
 icon: com.fontaine.DiceKeys.jpg

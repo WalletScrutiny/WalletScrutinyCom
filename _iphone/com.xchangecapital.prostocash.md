@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.prostocash.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-12-28
+date: 2023-12-18
 signer: 
 reviewArchive: 
 twitter: 

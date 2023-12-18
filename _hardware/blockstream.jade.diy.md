@@ -8,7 +8,7 @@ discontinued:
 updated: 2023-12-03
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: EpicCurious
 providerWebsite: 
@@ -26,7 +26,7 @@ date: 2023-12-06
 signer: 
 reviewArchive: 
 twitter: epic_curious
-social:
+social: 
 features: 
 
 ---

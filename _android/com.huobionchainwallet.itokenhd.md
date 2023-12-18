@@ -10,9 +10,9 @@ appCountry:
 released: 2023-04-12
 updated: 2023-08-30
 version: 4.00.05.003
-stars: 
+stars: 4.3
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://www.itoken.com/
 repository: 

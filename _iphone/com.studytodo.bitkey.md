@@ -3,17 +3,17 @@ wsId:
 title: 'BitKey: Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.studytodo.bitkey
 appCountry: us
 idd: '898643317'
-released: '2014-12-05T21:38:42Z'
+released: 2014-12-05
 updated: 2019-06-26
 version: 3.0.5
-stars: 4.8
-reviews: 25
+stars: 4.7
+reviews: 26
 size: '15398912'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.studytodo.bitkey.jpg
@@ -25,9 +25,9 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://bitkey.app 
+- https://bitkey.app
 features: 
-developerName: Hangzhou Netcaa Technology Co. , Ltd.
+developerName: https://www.surroundingai.com/
 
 ---
 
