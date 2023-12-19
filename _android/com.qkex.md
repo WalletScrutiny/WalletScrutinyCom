@@ -4,7 +4,7 @@ title: 'QKEx: Crypto Asset Service'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.qkex
 appCountry: 
 released: 2022-11-10
