@@ -4,6 +4,7 @@ title: Bitcoin Wallet
 altTitle: Bitcoin Wallet (Schildbach)
 authors:
 - leo
+- danny
 users: 5000000
 appId: de.schildbach.wallet
 appCountry: 
@@ -21,9 +22,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-11-25
+date: 2023-12-19
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2023-11-25
+  version: '10.09'
+  appHash: 5d35e51533edf9ac668f4b008bc763a497fb3e342e57867bf4e8a1a98e1fb217
+  gitRevision: 27a6753b5f55d67b6be468c6da1f9831b7e84b6d
+  verdict: reproducible
 - date: 2023-11-02
   version: '10.06'
   appHash: c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc
@@ -188,6 +194,46 @@ features:
 
 For the latest version the {% include testScript.html %} came to these results:
 
+## Corroborative Analysis by Danny 
+
+```
+===== Begin Results =====
+appId:          de.schildbach.wallet
+signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+apkVersionName: 10.11
+apkVersionCode: 101100
+verdict:        reproducible
+appHash:        c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f
+commit:         bf328731bc91b74e4665ec97257777b3433b53e2
+
+Diff:
+Only in /tmp/fromPlay_de.schildbach.wallet_101100/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_101100/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_101100/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101100/META-INF/MANIFEST.MF differ
+
+Revision, tag (and its signature):
+object bf328731bc91b74e4665ec97257777b3433b53e2
+type commit
+tag v10.11
+tagger Andreas Schildbach <andreas@schildbach.de> 1702755620 +0100
+
+10.11 release
+===== End Results =====
+```
+
+As expected, this app is **reproducible**
+
+For version 10.11
+
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="demo"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create('/assets/casts/android/de.schildbach.wallet_c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f.cast', document.getElementById('demo'));
+</script>
+
+## Analysis by Leo 2023-11-25
+
 ```
 ===== Begin Results =====
 appId:          de.schildbach.wallet
@@ -214,3 +260,4 @@ tagger Andreas Schildbach <andreas@schildbach.de> 1700149321 +0100
 ```
 
 That is what we expected to again give this app the verdict **reproducible**.
+
