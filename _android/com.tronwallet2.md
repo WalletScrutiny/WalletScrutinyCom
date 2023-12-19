@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tronwallet2.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-01-15
 signer: 

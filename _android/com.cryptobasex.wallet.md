@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptobasex.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-05-17
 signer: 

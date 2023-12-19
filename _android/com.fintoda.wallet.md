@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fintoda.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-04
 signer: 

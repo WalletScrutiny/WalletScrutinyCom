@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.medishares.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-30
 signer: 

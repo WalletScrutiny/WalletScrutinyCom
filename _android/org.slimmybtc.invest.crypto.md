@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.slimmybtc.invest.crypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

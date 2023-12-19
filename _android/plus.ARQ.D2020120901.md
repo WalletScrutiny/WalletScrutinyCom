@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: plus.ARQ.D2020120901.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

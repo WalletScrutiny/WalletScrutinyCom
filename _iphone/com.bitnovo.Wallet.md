@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-03-21
 signer: 

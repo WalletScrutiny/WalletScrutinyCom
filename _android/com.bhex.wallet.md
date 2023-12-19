@@ -21,7 +21,7 @@ repository:
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4
 icon: com.bhex.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-03-16
 signer: 

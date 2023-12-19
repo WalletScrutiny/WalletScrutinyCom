@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: mn.blockchain.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-10-21
 signer: 

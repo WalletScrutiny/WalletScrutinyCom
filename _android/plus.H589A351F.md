@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: plus.H589A351F.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-25
 signer: 

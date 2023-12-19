@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lyo.trade.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-10-16
 signer: 

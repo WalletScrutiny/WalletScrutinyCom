@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.digitra.digitraHB.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-06-21
 signer: 

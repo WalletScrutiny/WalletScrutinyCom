@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.taurosapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-06-21
 signer: 

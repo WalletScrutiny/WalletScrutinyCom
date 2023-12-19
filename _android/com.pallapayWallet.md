@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.pallapayWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-05-31
 signer: 

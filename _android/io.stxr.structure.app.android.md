@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.stxr.structure.app.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-11-02
 signer: 

@@ -17,7 +17,7 @@ repository: http://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: ftbfs
 date: 2022-03-07
 signer: 

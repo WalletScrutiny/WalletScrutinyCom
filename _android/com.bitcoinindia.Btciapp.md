@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitcoinindia.Btciapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-09-25
 signer: 

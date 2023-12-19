@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.gbckorea.map.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

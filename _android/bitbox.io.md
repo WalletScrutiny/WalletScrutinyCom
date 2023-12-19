@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: bitbox.io.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-09
 signer: 

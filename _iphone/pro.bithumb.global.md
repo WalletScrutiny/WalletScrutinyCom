@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pro.bithumb.global.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-03-21
 signer: 

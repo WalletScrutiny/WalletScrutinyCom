@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: adyone.in.pay2pal.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-28
 signer: 

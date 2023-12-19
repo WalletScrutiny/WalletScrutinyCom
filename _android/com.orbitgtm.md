@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.orbitgtm.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-31
 signer: 

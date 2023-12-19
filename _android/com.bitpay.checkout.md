@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitpay.checkout.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-06
 signer: 

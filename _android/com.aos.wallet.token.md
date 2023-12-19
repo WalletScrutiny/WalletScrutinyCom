@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.aos.wallet.token.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-01-15
 signer: 

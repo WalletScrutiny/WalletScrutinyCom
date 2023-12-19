@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.cryptosignals.free.wallet.bitcoinand.crypto.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-19
 signer: 

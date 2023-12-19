@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: bitcoin.bot.finaladstest.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-01-15
 signer: 

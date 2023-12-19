@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.binaries.bimaxbeta.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-11-02
 signer: 

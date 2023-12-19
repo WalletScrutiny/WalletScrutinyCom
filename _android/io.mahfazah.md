@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.mahfazah.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-06-21
 signer: 

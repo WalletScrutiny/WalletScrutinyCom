@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.chainup.exchange.Zenith.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-21
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gioexchange.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-15
 signer: 

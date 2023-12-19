@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.smcc.sccwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2021-10-30
 signer: 

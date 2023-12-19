@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-04-25
 signer: 

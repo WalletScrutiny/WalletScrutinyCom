@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptoidlemine.fake.bitcoin.investor.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-18
 signer: 

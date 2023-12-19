@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.instantcoins.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-02-16
 signer: 

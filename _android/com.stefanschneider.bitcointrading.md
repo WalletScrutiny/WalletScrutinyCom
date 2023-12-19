@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.stefanschneider.bitcointrading.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-30
 signer: 

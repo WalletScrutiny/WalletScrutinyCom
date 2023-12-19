@@ -1,51 +1,29 @@
-// This script checks every defunct app in the _android/ folder to see if it returns a 404. If so, it will rename meta: defunct to meta:removed. 
+// This script checks every defunct app in the _android/ folder to see if it
+// returns a 404. If so, it will rename meta: defunct to meta:removed. 
 // All apps checked will be output in a .md file in the home directory.
-// You can run this in the home folder using "node scripts/android404VerificationScript.mjs"
-process.env.TZ = "UTC"; // fix timezone issues
+// You can run this in the home folder using
+// node scripts/android404VerificationScript.mjs
 
 import gplay from 'google-play-scraper';
 import fs from 'fs/promises';
 import path from "path";
 import helper from "./helper.mjs";
-import { Semaphore } from 'async-mutex';
-
 
 let notRemovedDefunctApps = [];
 let removedApps = [];
 
-const sem = new Semaphore(50);
-
-const stats = {
-  removed: 0,
-  updated: 0,
-  remaining: 0,
-};
-
 const category = "android";
 const folder = `_${category}/`;
-const headers = (
-  "wsId title altTitle authors users appId appCountry released " +
-  "updated version stars ratings reviews size website repository " +
-  "issue icon bugbounty meta verdict date signer reviewArchive " +
-  "twitter social redirect_from " +
-  "developerName features"
-).split(" ");
 
 async function checkDefunctApps() {
   try {
     const files = await fs.readdir(folder);
 
     for (const fileName of files) {
-      const content = {
-        header: helper.getEmptyHeader(headers),
-        body: undefined,
-      };
-
-      helper.loadFromFile(path.join(folder, fileName), content);
-
+      const content = helper.loadFromFile(path.join(folder, fileName));
       const header = content.header;
       const appId = header.appId;
-      const appCountry = header.appCountry || 'us'
+      const appCountry = header.appCountry || 'us';
       if (header.meta === "defunct") {
         try {
           await gplay.app({
@@ -71,9 +49,9 @@ async function checkDefunctApps() {
       }
     }
 
-    function formatOutput(apps, title) {
+    const formatOutput = (apps, title) => {
       return `${title}:\n- ${apps.join('\n- ')}\n\nTotal Number of ${title.toLowerCase()}: ${apps.length}\n---\n`;
-    }
+    };
 
     const output = formatOutput(notRemovedDefunctApps, "Apps that are defunct, but not removed") +
       formatOutput(removedApps, "Apps that are removed from the Play Store");
@@ -92,15 +70,3 @@ async function checkDefunctApps() {
 }
 
 checkDefunctApps();
-
-function update(appIds) {
-  console.log(`Updating ${appIds.length} apps ...`)
-
-  appIds.forEach(appId => {
-    const path = `_android/${appId}.md`
-    fs.access(path)
-      .then(() => {
-        refreshFile(`${appId}.md`)
-      })
-  })
-}

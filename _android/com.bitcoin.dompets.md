@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoin.dompets.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-12-05
 signer: 

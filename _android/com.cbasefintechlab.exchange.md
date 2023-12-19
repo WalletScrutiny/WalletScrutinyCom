@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.cbasefintechlab.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-21
 signer: 

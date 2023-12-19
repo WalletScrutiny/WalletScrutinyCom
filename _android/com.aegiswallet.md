@@ -18,7 +18,7 @@ repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2020-04-07
 signer: 

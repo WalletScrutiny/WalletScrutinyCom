@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitoex.bitoexapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-09-15
 signer: 

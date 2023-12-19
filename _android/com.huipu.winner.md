@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.huipu.winner.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2022-01-15
 signer: 

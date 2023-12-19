@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.fnkcom.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-07-04
 signer: 

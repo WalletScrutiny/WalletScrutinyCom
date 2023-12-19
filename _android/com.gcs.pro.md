@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gcs.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-28
 signer: 

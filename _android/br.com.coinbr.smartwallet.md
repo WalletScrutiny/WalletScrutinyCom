@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: br.com.coinbr.smartwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-03-21
 signer: 

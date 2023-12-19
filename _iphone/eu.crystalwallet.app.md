@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: eu.crystalwallet.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-03-09
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.level01.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-08-04
 signer: 

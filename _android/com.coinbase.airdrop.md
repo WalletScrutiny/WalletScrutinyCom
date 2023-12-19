@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.coinbase.airdrop.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-08-31
 signer: 

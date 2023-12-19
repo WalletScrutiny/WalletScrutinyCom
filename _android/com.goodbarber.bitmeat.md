@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.goodbarber.bitmeat.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-30
 signer: 

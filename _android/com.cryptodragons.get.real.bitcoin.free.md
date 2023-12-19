@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptodragons.get.real.bitcoin.free.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

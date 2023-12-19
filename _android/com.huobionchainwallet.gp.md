@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.huobionchainwallet.gp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-04-20
 signer: 

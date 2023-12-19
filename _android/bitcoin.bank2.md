@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: bitcoin.bank2.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

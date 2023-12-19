@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: exchange.einstein.mobile.release.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-05-31
 signer: 

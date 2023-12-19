@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: gr.cryptocurrencies.bitcoinpos.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-11-26
 signer: 

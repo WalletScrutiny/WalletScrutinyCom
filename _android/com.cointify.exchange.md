@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cointify.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-30
 signer: 

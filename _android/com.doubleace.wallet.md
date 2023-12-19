@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.doubleace.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-11-02
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zipwallet.ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-10-06
 signer: 

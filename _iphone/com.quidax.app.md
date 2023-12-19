@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.quidax.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-02-10
 signer: 

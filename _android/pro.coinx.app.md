@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pro.coinx.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-11-02
 signer: 

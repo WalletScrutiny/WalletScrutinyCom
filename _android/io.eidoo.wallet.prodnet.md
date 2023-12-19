@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-02
 signer: 

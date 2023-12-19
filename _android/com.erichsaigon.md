@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.erichsaigon.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-11-02
 signer: 

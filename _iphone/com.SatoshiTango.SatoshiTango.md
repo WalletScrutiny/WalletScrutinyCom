@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-04
 signer: 

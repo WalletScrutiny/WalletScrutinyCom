@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.FrancExchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-24
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-09-15
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.pulsarbank.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-06-02
 signer: 

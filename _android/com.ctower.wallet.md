@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ctower.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-03-24
 signer: 

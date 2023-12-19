@@ -18,7 +18,7 @@ repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nonverifiable
 date: 2021-01-23
 signer: 

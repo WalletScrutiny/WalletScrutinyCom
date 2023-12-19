@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: exchange.fox.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-03
 signer: 

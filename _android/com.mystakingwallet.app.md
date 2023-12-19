@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.mystakingwallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-03-21
 signer: 

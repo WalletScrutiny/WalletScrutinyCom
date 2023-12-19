@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: org.coinlend.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-11-02
 signer: 

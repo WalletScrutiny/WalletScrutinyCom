@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.linescode.b4y.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

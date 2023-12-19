@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.vipsats.satoshi.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-12-02
 signer: 

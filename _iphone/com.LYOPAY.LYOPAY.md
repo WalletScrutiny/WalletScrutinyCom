@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.LYOPAY.LYOPAY.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-11-02
 signer: 

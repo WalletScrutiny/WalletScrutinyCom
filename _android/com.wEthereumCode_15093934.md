@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.wEthereumCode_15093934.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-08-16
 signer: 

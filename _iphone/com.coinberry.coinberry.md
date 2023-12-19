@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinberry.coinberry.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-16
 signer: 

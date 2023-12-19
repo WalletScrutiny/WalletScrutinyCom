@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.unodax.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-04-07
 signer: 

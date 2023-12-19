@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.crypshark.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-04
 signer: 

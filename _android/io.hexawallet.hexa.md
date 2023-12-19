@@ -19,7 +19,7 @@ repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: ftbfs
 date: 2021-12-29
 signer: 

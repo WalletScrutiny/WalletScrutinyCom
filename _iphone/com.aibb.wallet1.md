@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.aibb.wallet1.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-11-10
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: bit.consortium.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-30
 signer: 

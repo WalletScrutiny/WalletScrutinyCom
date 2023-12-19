@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.vbot.vinance.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-11-02
 signer: 

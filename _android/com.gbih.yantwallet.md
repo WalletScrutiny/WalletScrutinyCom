@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.gbih.yantwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-03-31
 signer: 

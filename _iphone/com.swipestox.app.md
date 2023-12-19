@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.swipestox.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2023-01-30
 signer: 

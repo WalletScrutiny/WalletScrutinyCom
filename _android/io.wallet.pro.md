@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.wallet.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-02-16
 signer: 
