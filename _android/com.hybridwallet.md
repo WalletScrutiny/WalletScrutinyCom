@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hybridwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

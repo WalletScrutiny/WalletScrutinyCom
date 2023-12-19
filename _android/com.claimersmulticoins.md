@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimersmulticoins.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-10-06
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

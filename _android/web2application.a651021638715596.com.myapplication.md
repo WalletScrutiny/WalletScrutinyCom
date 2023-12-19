@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: web2application.a651021638715596.com.myapplication.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

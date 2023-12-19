@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.twetaexchange.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-11-25
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

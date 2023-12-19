@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-12-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: binance

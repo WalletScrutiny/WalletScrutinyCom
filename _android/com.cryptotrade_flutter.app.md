@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptotrade_flutter.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

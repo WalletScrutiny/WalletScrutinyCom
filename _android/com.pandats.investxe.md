@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pandats.investxe.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

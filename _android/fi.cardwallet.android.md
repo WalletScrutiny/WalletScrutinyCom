@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: fi.cardwallet.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-11-11
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: CardWallet_fi

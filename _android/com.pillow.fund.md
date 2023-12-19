@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pillow.fund.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-13
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: PillowFund

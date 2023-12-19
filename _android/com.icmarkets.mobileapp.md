@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2023-07-08
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: IC_Markets

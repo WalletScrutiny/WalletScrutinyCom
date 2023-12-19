@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bittrex.trade.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-02-09
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BittrexGlobal

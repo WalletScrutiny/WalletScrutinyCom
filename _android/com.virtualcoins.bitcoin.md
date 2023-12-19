@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.virtualcoins.bitcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

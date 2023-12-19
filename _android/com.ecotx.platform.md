@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ecotx.platform.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.blockfi.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2021-08-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

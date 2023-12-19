@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ajaxcash.ajc.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-26
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

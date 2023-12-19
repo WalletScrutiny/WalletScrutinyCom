@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.definitex.walllet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-04-05
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

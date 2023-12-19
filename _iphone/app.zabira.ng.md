@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.zabira.ng.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-18
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: thezabira

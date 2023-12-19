@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.solewallet.bankwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-11-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

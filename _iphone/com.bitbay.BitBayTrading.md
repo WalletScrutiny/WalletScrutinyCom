@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitbay.BitBayTrading.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-25
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BitBay

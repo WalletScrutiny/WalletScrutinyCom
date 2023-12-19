@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: pouch.ph.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-07-01
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

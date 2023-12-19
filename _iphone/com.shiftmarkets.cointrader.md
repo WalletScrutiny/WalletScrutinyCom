@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.shiftmarkets.cointrader.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-25
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: shiftmarkets

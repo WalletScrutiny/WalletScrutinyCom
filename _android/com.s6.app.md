@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.s6.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-05-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

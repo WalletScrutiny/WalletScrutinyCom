@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitvoapp.bitvo.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BitvoExchange
