@@ -232,32 +232,3 @@ For version 10.11
   AsciinemaPlayer.create('/assets/casts/android/de.schildbach.wallet_c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f.cast', document.getElementById('demo'));
 </script>
 
-## Analysis by Leo 2023-11-25
-
-```
-===== Begin Results =====
-appId:          de.schildbach.wallet
-signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.09
-apkVersionCode: 100900
-verdict:        reproducible
-appHash:        5d35e51533edf9ac668f4b008bc763a497fb3e342e57867bf4e8a1a98e1fb217
-commit:         9db0d71e72c042069c0ed7a6b556ff7be7e2aa7c
-
-Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_100900/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_100900/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_100900/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_100900/META-INF/MANIFEST.MF differ
-
-Revision, tag (and its signature):
-object 9db0d71e72c042069c0ed7a6b556ff7be7e2aa7c
-type commit
-tag v10.09
-tagger Andreas Schildbach <andreas@schildbach.de> 1700149321 +0100
-
-10.09 release
-===== End Results =====
-```
-
-That is what we expected to again give this app the verdict **reproducible**.
-
