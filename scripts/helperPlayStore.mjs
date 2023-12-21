@@ -43,7 +43,7 @@ function refreshFile (fileName, content, markDefunct) {
     const appId = header.appId;
     const appCountry = header.appCountry || 'us';
     helper.checkHeaderKeys(header, headers);
-    if (!helper.was404(`${folder}${appId}`) && !'defunct,removed'.includes(header.meta)) {
+    if (!helper.was404(`${folder}${appId}`) && !header.meta.includes('defunct') && !header.meta.includes('removed')) {
       try {
         gplay.app({
           appId: appId,
