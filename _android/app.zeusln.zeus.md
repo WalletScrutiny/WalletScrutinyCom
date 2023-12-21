@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - mohammad
+- danny
 users: 10000
 appId: app.zeusln.zeus
 appCountry: 
@@ -21,10 +22,15 @@ issue:
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-10-07
-signer: 
+verdict: nonverifiable
+date: 2023-12-21
+signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2023-10-07
+  version: 0.7.7
+  appHash: b2237d4ec63aaa420ab9fb243762606b73ad5abeff3f144162462f7709b44dd7
+  gitRevision: c0e1ed7e183c9ef5730cb8b77829e7a1640739b1
+  verdict: reproducible
 - date: 2023-07-23
   version: 0.7.7-beta1
   appHash: 7518899284438a824779266807c91dedb1714517e2f94f8cbe878482379c1b0e
@@ -52,6 +58,83 @@ features:
 - ln
 
 ---
+
+**Update 2023-12-21** 
+
+**Disclaimer**: This test was run by Danny, someone who is new to conducting reproducibility tests.
+
+I ran [Leo's](../../authors/leo) {% include testScript.html %} and got these: 
+
+```
+===== Begin Results =====
+appId:          app.zeusln.zeus
+signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
+apkVersionName: 0.8.0
+apkVersionCode: 80001
+verdict:        
+appHash:        b2237d4ec63aaa420ab9fb243762606b73ad5abeff3f144162462f7709b44dd7
+commit:         dde7620ec733a002895173ccb4ab7169f6a9fbc7
+
+Diff:
+Files /tmp/fromPlay_app.zeusln.zeus_80001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_80001/AndroidManifest.xml differ
+Only in /tmp/fromBuild_app.zeusln.zeus_80001/lib: arm64
+Only in /tmp/fromBuild_app.zeusln.zeus_80001/lib: arm64-v8a
+Only in /tmp/fromBuild_app.zeusln.zeus_80001/lib: armeabi
+Only in /tmp/fromBuild_app.zeusln.zeus_80001/lib: x86
+Only in /tmp/fromBuild_app.zeusln.zeus_80001/lib: x86_64
+Only in /tmp/fromPlay_app.zeusln.zeus_80001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_80001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_80001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_80001: stamp-cert-sha256
+
+Revision, tag (and its signature):
+
+===== End Results =====
+
+```
+## Asciicast 
+
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="demo"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create('/assets/casts/android/app.zeusln.zeus_b2237d4ec63aaa420ab9fb243762606b73ad5abeff3f144162462f7709b44dd7.cast', document.getElementById('demo'));
+</script>
+
+We also ran diffoscope and included it [here](../../assets/diffoscope.outputs/rbd.app.zeusln.zeus.0.8.0.diffoscope.2023-12-21.html)
+
+## Reproducible Build Bot Analysis (Custom CGPT4)
+
+> Different Android Manifest Files: The AndroidManifest.xml files in both APKs are different. This file is crucial as it describes essential information about your app to the Android build tools, the Android operating system, and Google Play.
+>
+> Library Directories Differences: There are library directories present in the build APK that are not present in the Play Store APK. These directories (arm64, arm64-v8a, armeabi, x86, x86_64) correspond to different processor architectures. The presence of these directories in the build APK and their absence in the Play Store APK indicates a difference in the way native libraries are packaged or configured.
+> 
+> META-INF Directory Contents: The Play Store APK contains files in the META-INF directory (GOOGPLAY.RSA, GOOGPLAY.SF, MANIFEST.MF) that are not in the build APK. These files are typically related to the APK's signing information and are added during the process of uploading and signing the APK for the Play Store.
+>
+> Stamp-cert-sha256 File: The stamp-cert-sha256 file present only in the Play Store APK is likely related to app signing or certification by Google Play.
+
+We also note a 176 byte difference in AndroidManifest.xml file. Here is a shortened version:
+
+```
+--- /tmp/fromPlay_app.zeusln.zeus_80001/AndroidManifest.xml
++++ /tmp/fromBuild_app.zeusln.zeus_80001/AndroidManifest.xml
+@@ -1,9 +1,9 @@
+-00000000: 0300 0800 4c71 0000 0100 1c00 a432 0000  ....Lq.......2..
+-00000010: b600 0000 0000 0000 0000 0000 f402 0000  ................
++00000000: 0300 0800 9c70 0000 0100 1c00 5832 0000  .....p......X2..
++00000010: b500 0000 0000 0000 0000 0000 f002 0000  ................
+ 00000020: 0000 0000 0000 0000 0e00 0000 1c00 0000  ................
+ 00000030: 2800 0000 3400 0000 4c00 0000 6e00 0000  (...4...L...n...
+ 00000040: 8000 0000 9400 0000 a600 0000 c000 0000  ................
+ 00000050: d600 0000 0001 0000 1401 0000 3a01 0000  ............:...
+ 00000060: 5801 0000 6601 0000 7a01 0000 8e01 0000  X...f...z.......
+ 00000070: 9e01 0000 bc01 0000 d601 0000 f001 0000  ................
+ 00000080: 1a02 0000 3e02 0000 5802 0000 6c02 0000  ....>...X...l...
+```
+
+We take note of the differences mentioned in the previous review and conclude that we cannot come to a conclusively reproducible verdict given the amount of differences. 
+
+## Previous Review
 
 **Update 2023-10-07**: We ran our {% include testScript.html %} and got this:
 
