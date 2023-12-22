@@ -23,8 +23,8 @@ issue:
 icon: flipperZero.flipBIP.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-12-21
+verdict: noita
+date: 2023-12-22
 signer: 
 reviewArchive:
 twitter: xtruan
@@ -73,9 +73,10 @@ No, the [README](https://github.com/xtruan/FlipBIP/blob/main/README.md) file des
 
 It was not explicitly mentioned whether the device can be used to send bitcoin. We will [verify with the developer.](https://github.com/xtruan/FlipBIP/issues/26)
 
+**Update 2023-12-22**
+
+We got a reply and confirmed that the device cannot send bitcoins yet, much less display a confirmation on the screen. Without the ability to sign transactions, we could not consider this to be fully a wallet. It can store seed phrases and generate private keys. Although the Flipper Zero, can include this function in the future, while the signing functionality is not yet available, this device has a **bad interface**.
+
 ## Does the interface have a display screen and buttons which allows the user to confirm transaction details?
 
 Yes.
-
-Review is still a **work-in-progress**.
-
