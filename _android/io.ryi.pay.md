@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: RYI Unity LLC.
+developerName: RYI Unity
 features: 
 
 ---

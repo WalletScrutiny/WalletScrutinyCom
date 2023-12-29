@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.exmoney.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-24
+date: 2023-12-29
 signer: 
 reviewArchive: 
 twitter: 

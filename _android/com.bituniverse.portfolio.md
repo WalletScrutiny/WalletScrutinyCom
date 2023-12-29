@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bituniverse.portfolio.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-06-23
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: bituniverse_org

@@ -4,11 +4,11 @@ title: Flipster - Crypto Trading
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2023-12-13
+updated: 2023-12-19
 version: 1.31.4
 stars: 3.8
 ratings: 

@@ -11,7 +11,7 @@ updated: 2023-12-06
 version: 5.9.7
 stars: 4.6
 ratings: 14091
-reviews: 1161
+reviews: 1162
 size: 
 website: https://perawallet.app
 repository: 

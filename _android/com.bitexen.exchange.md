@@ -10,9 +10,9 @@ appCountry:
 released: 2018-05-27
 updated: 2023-11-21
 version: 1.0.6
-stars: 3
+stars: 2.9
 ratings: 8237
-reviews: 24
+reviews: 25
 size: 
 website: https://www.bitexen.com
 repository: 

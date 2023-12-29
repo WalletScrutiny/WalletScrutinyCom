@@ -1,6 +1,6 @@
 ---
 wsId: wirexwalletdefi
-title: 'Wirex Wallet: Crypto and DeFi'
+title: 'COCA: Crypto and DeFi'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wirex.wallet
 appCountry: nz
 idd: 1594165139
 released: 2021-12-07
-updated: 2023-10-17
-version: 0.4.3
+updated: 2023-12-28
+version: 0.5.3
 stars: 4
 reviews: 9
-size: '83147776'
+size: '86352896'
 website: https://www.coca.xyz/
 repository: 
 issue: 

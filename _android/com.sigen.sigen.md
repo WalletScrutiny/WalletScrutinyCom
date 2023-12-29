@@ -8,8 +8,8 @@ users: 100000
 appId: com.sigen.sigen
 appCountry: ru
 released: 2020-04-18
-updated: 2023-12-03
-version: 2.9.20
+updated: 2023-12-18
+version: 2.9.21
 stars: 4.3
 ratings: 22751
 reviews: 6306

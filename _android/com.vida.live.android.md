@@ -9,9 +9,9 @@ appCountry:
 released: 2022-03-09
 updated: 2023-12-07
 version: 1.0.2
-stars: 3.2
+stars: 3
 ratings: 
-reviews: 14
+reviews: 17
 size: 
 website: https://vida.io
 repository: 

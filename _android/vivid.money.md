@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Vivid: Mobile Banking'
+title: 'Vivid: Your Financial Platform'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2023-12-14
-version: 2.91.1
+updated: 2023-12-22
+version: 2.92.1
 stars: 3.6
 ratings: 
 reviews: 2

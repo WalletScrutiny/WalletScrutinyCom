@@ -3,7 +3,7 @@ wsId:
 title: Hash App
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.hashvest.hash
 appCountry: 
 released: 2023-01-09
@@ -19,7 +19,7 @@ issue:
 icon: com.hashvest.hash.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -11,7 +11,7 @@ released: 2019-09-30
 updated: 2023-08-28
 version: 2.1.4
 stars: 3.9
-reviews: 19
+reviews: 18
 size: '103756800'
 website: https://nami.io/
 repository: 

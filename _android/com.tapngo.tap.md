@@ -12,7 +12,7 @@ updated: 2023-12-06
 version: 3.1.0
 stars: 4.1
 ratings: 1735
-reviews: 254
+reviews: 257
 size: 
 website: https://www.withtap.com
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-07
 updated: 2023-03-29
 version: 1.9.80
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.mayex.com
 repository: 

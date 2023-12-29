@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/counosplatform
 - https://www.facebook.com/CounosPlatform
 redirect_from: 
-developerName: Counos
+developerName: ZeroCash
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 10000
 appId: com.oxnov.cryptodaaga
 appCountry: 
 released: 2022-04-29
-updated: 2023-10-24
-version: 4.1.1
+updated: 2023-12-27
+version: 4.1.2
 stars: 4.8
 ratings: 
 reviews: 2
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://cryptodaaga.com
 redirect_from: 
-developerName: NEBSON MULTI SERVICE
+developerName: CRYPTODAAGA SARL
 features: 
 
 ---

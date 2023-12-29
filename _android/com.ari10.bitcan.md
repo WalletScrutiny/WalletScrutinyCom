@@ -4,7 +4,7 @@ title: Ari10 Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ari10.bitcan
 appCountry: 
 released: 2022-06-14

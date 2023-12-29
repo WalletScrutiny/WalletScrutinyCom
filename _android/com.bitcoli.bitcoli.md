@@ -9,9 +9,9 @@ appCountry:
 released: 2023-01-13
 updated: 2023-12-11
 version: 1.0.11
-stars: 
+stars: 4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://bitcoli.com
 repository: 

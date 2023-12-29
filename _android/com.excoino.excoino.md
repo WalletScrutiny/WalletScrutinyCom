@@ -8,11 +8,11 @@ users: 1000000
 appId: com.excoino.excoino
 appCountry: 
 released: 2018-09-27
-updated: 2023-12-05
-version: 9.15.0
+updated: 2023-12-10
+version: 9.15.1
 stars: 3
 ratings: 8653
-reviews: 240
+reviews: 241
 size: 
 website: https://www.excoino.com/
 repository: 

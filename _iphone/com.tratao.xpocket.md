@@ -11,7 +11,7 @@ released: 2019-11-08
 updated: 2023-11-16
 version: 4.4.0
 stars: 4
-reviews: 168
+reviews: 169
 size: '99964928'
 website: https://xbank.plus/
 repository: 

@@ -8,8 +8,8 @@ users: 5000
 appId: com.bitmake.app
 appCountry: 
 released: 2022-07-04
-updated: 2023-12-05
-version: 1.3.6
+updated: 2023-12-24
+version: 1.3.9
 stars: 
 ratings: 
 reviews: 

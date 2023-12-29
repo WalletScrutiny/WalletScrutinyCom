@@ -11,7 +11,7 @@ updated: 2023-12-13
 version: 3.28.0
 stars: 4
 ratings: 1007
-reviews: 90
+reviews: 91
 size: 
 website: http://pillar.fi
 repository: https://github.com/pillarwallet/pillarwallet

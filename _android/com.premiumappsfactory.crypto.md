@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto App
+title: Crypto  Change App
 altTitle: 
 authors: 
 users: 50

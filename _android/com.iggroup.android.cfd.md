@@ -8,8 +8,8 @@ users: 1000000
 appId: com.iggroup.android.cfd
 appCountry: br
 released: 2015-05-11
-updated: 2023-12-04
-version: 23.12.1
+updated: 2023-12-18
+version: 23.12.2
 stars: 3.8
 ratings: 
 reviews: 13

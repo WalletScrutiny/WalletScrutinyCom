@@ -8,11 +8,11 @@ appId: com.vsmart.UnitedExchange
 appCountry: az
 idd: '1578830443'
 released: 2021-07-30
-updated: 2023-12-12
-version: '11.0'
+updated: 2023-12-26
+version: '11.1'
 stars: 0
 reviews: 0
-size: '22542336'
+size: '23066624'
 website: https://unitedexchange.io
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 100000
 appId: io.bytrade
 appCountry: 
 released: 2021-12-24
-updated: 2023-11-27
-version: 2.0.1
+updated: 2023-12-27
+version: 2.0.4
 stars: 3.8
 ratings: 
 reviews: 38

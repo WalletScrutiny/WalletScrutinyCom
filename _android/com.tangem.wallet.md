@@ -9,11 +9,11 @@ users: 50000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24
-updated: 2023-12-06
-version: 5.3.1
+updated: 2023-12-22
+version: 5.3.2
 stars: 4.8
 ratings: 89
-reviews: 183
+reviews: 187
 size: 
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android

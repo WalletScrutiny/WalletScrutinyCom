@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Reserve
+title: Ugly Cash
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 500000
 appId: rsv.walletapp.reserve
 appCountry: 
 released: 2019-07-30
-updated: 2023-02-20
-version: 2.2.0
-stars: 3.9
+updated: 2023-12-12
+version: 3.0.1
+stars: 2.9
 ratings: 
-reviews: 436
+reviews: 440
 size: 
-website: http://www.reserve.org
+website: https://ugly.cash
 repository: 
 issue: 
 icon: rsv.walletapp.reserve.png

@@ -11,7 +11,7 @@ released: 2018-11-15
 updated: 2023-12-09
 version: 30.49.1
 stars: 4.1
-reviews: 36
+reviews: 37
 size: '112670720'
 website: https://www.changeinvest.com/
 repository: 

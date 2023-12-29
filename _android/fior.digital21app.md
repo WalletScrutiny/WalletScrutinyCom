@@ -4,12 +4,12 @@ title: '21bitcoin: Buy Bitcoin 24/7'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: fior.digital21app
 appCountry: 
 released: 
-updated: 2023-12-14
-version: 2.0.6
+updated: 2023-12-27
+version: 2.0.7
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: fountainPodcasts
-title: Fountain Podcasts
+title: 'Fountain: Podcast Player'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: fm.fountain.apps
 appCountry: ph
 idd: '1576394424'
 released: 2021-07-28
-updated: 2023-10-26
-version: 0.8.6
+updated: 2023-12-24
+version: 1.0.1
 stars: 0
 reviews: 0
-size: '72413184'
+size: '76113920'
 website: https://www.fountain.fm
 repository: 
 issue: 

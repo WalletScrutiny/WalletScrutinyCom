@@ -9,9 +9,9 @@ appCountry:
 released: 2022-09-22
 updated: 2023-11-30
 version: 1.1.1
-stars: 
+stars: 3
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://gethashwallet.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-12-06
 version: 8.13.0
 stars: 4
 ratings: 4430
-reviews: 1495
+reviews: 1497
 size: 
 website: https://bitflyer.com
 repository: 

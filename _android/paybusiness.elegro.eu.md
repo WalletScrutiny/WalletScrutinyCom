@@ -4,7 +4,7 @@ title: elegro Business online banking
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: paybusiness.elegro.eu
 appCountry: 
 released: 2020-07-15

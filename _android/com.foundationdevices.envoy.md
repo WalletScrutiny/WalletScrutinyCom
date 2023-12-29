@@ -3,7 +3,7 @@ wsId:
 title: Envoy
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.foundationdevices.envoy
 appCountry: 
 released: 2022-04-01
@@ -19,7 +19,7 @@ issue:
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

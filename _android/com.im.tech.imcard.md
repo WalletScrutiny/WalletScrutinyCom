@@ -3,12 +3,12 @@ wsId:
 title: IM Card
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.im.tech.imcard
 appCountry: 
 released: 2022-01-12
-updated: 2023-12-01
-version: 1.4.1
+updated: 2023-12-20
+version: 1.4.2
 stars: 
 ratings: 
 reviews: 

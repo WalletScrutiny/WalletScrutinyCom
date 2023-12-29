@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: Binance TR:Buy Crypto with TRY
+title: 'Binance TR: TRY ile Kripto Al'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
 released: 2021-02-18
-updated: 2023-12-05
-version: 2.2.2
+updated: 2023-12-26
+version: 2.3.1
 stars: 4.6
-reviews: 69994
-size: '133142528'
+reviews: 71478
+size: '136164352'
 website: https://www.trbinance.com/
 repository: 
 issue: 
