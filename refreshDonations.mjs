@@ -5,7 +5,7 @@ import fs from 'fs';
 const key = process.argv[2];
 if (key === undefined) {
   console.error('No key provided. Skipping Donations update.');
-  return;
+  process.exit(1);
 }
 
 const keypair = btcpay.crypto.load_keypair(Buffer.from(key, 'hex'));
