@@ -2,7 +2,8 @@
 wsId: zeusln
 title: ZEUS Wallet
 altTitle: 
-authors: 
+authors:
+- leo
 appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
@@ -19,7 +20,7 @@ icon: com.zeusln.zeus.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2021-04-27
+date: 2023-12-30
 signer: 
 reviewArchive: 
 twitter: ZeusLN
