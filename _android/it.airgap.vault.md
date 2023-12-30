@@ -21,9 +21,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-10-06
+date: 2023-12-30
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2023-10-06
+  version: 3.29.0
+  appHash: db4e569c90719c564fc2c2d1108f3e5281c3357f73c7221aea09ca994a3c055a
+  gitRevision: 8c743a7d81d9de031a54f39c227a724ee16c2d1e
+  verdict: reproducible
 - date: 2023-06-21
   version: 3.26.0
   appHash: 594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
@@ -196,24 +201,24 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.29.0
-apkVersionCode: 53670
+apkVersionName: 3.31.0
+apkVersionCode: 55947
 verdict:        reproducible
-appHash:        db4e569c90719c564fc2c2d1108f3e5281c3357f73c7221aea09ca994a3c055a
-commit:         fe516969f940cd52f99ba41244ce831459d2e7a8
+appHash:        b30f6adddb6bb5e5a583f29b97686980ea5872ec3f2899037afcd90286368efe
+commit:         c1c63f3ae72cdc9dc8bc004de18f43fa53719fd6
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_53670/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_55947/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_55947/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_55947/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
-object fe516969f940cd52f99ba41244ce831459d2e7a8
+object c1c63f3ae72cdc9dc8bc004de18f43fa53719fd6
 type commit
-tag v3.29.0
-tagger Mike Godenzi <m.godenzi@papers.ch> 1692012578 +0200
+tag v3.31.0
+tagger Mike Godenzi <m.godenzi@papers.ch> 1702461009 +0100
 
-version 3.29.0
+version 3.31.0
 ===== End Results =====
 ```
 

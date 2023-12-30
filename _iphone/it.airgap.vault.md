@@ -20,7 +20,7 @@ icon: it.airgap.vault.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2021-09-29
+date: 2023-12-30
 signer: 
 reviewArchive: 
 twitter: AirGap_it
