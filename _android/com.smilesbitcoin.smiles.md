@@ -12,7 +12,7 @@ updated: 2023-12-11
 version: 2.7.4
 stars: 3
 ratings: 208
-reviews: 187
+reviews: 186
 size: 
 website: https://www.smilesbitcoin.com/
 repository: 

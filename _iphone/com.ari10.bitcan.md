@@ -10,8 +10,8 @@ idd: '1623342435'
 released: 2022-07-19
 updated: 2023-11-15
 version: 1.1.11
-stars: 4.4
-reviews: 29
+stars: 4.5
+reviews: 31
 size: '98439168'
 website: https://ari10.com/exchange
 repository: 

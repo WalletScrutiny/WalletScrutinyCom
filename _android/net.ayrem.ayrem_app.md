@@ -3,7 +3,7 @@ wsId:
 title: 'Ayrem: Sell GiftCards & Crypto'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: net.ayrem.ayrem_app
 appCountry: 
 released: 2021-10-02
@@ -19,7 +19,7 @@ issue:
 icon: net.ayrem.ayrem_app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-01-01
 signer: 
 reviewArchive: 
