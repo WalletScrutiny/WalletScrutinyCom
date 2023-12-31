@@ -25,7 +25,7 @@ date: 2023-12-30
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2023-11-30
-  version: "2.0.12"
+  version: 2.0.12
   appHash: 45eadc50d2305081e610d9dc3f114c2ac6c609fef1988d98a96da55032086473
   gitRevision: 5489755f1fb016467278649a1cb10d912c053dd5
   verdict: nonverifiable

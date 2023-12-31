@@ -19,8 +19,8 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2023-02-25
+verdict: nonverifiable
+date: 2023-12-30
 signer: 
 reviewArchive:
 - date: 2020-07-14
