@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-22
 updated: 2023-12-21
 version: '20'
-stars: 3.8
+stars: 3.9
 ratings: 
 reviews: 108
 size: 

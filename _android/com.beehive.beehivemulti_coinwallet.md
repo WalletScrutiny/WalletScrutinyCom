@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-13
 updated: 2021-12-01
 version: '1.1'
-stars: 2.6
+stars: 2.7
 ratings: 
-reviews: 10
+reviews: 9
 size: 
 website: https://beehivewallet.link
 repository: 

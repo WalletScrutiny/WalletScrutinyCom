@@ -11,7 +11,7 @@ released: 2020-11-28
 updated: 2023-11-15
 version: 3.63.7
 stars: 4
-reviews: 569
+reviews: 571
 size: '93938688'
 website: https://zbd.gg
 repository: 

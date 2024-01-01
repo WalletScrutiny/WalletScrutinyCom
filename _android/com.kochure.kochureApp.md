@@ -12,7 +12,7 @@ updated: 2023-05-22
 version: 1.0.10
 stars: 4.6
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://kochure.com/
 repository: 

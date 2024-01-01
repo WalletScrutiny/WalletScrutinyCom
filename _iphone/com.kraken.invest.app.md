@@ -11,7 +11,7 @@ released: 2021-06-01
 updated: 2023-12-18
 version: 1.67.0
 stars: 4.7
-reviews: 4854
+reviews: 4863
 size: '143717376'
 website: https://kraken.com
 repository: 

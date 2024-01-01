@@ -12,7 +12,7 @@ updated: 2023-12-20
 version: 7.1.90
 stars: 2.6
 ratings: 4563
-reviews: 7401
+reviews: 7405
 size: 
 website: 
 repository: 
