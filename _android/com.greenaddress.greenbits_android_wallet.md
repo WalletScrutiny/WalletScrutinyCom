@@ -16,14 +16,19 @@ reviews: 128
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
-issue: https://github.com/Blockstream/green_android/issues/169
+issue: https://github.com/Blockstream/green_android/issues/189
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-11-26
+date: 2024-01-01
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2023-11-26
+  version: "4.0.20"
+  appHash: 12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee
+  gitRevision: 8d18c0dd03581fdb0543f695499960747fae1109
+  verdict: nonverifiable
 - date: 2023-04-27
   version: 4.0.1
   appHash: 70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
@@ -208,33 +213,36 @@ features:
 
 ---
 
-**Update 2023-11-26**: The supposedly correct code was pushed hours after
-[this tweet]().
-We ran the script and this time got this result:
+For that latest version, our {% include testScript.html %} returned this:
 
 ```
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.20
-apkVersionCode: 22000420
+apkVersionName: 4.0.22
+apkVersionCode: 22000422
 verdict:        
-appHash:        12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee
-commit:         1d7e01690f0f19368c24e96b005916dca8814a17
+appHash:        2c15508e541eac79f8bd2fe98e015629b4b1f3e970c61a360a9ceabc788cd37f
+commit:         2a8ecfae864cc848573760168d8eba1978331fb5
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000420/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/classes.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000420/classes.dex differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000420/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes3.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes3.dex differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes4.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes4.dex differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes.dex differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-
+object 2a8ecfae864cc848573760168d8eba1978331fb5
+type commit
+tag release_4.0.22
+tagger Angelos Veglektsis <angelos@aveworks.com> 1703174369 +0200
 ===== End Results =====
 ```
 
-Especially the diff in `classes.dex` is concerning and more than the prior
+Especially the diff in `classes*.dex` is concerning and more than the prior
 version's diff. The diffoscope output is also gigantic with hundreds of diffs
 like this one:
 
@@ -316,40 +324,25 @@ ZF/9AiEAsZ8qZfkUZH2Ya7y6ccFTDps/ahsFWSrRao8ru3yhhrs=
 -----END CERTIFICATE-----
 ```
 
-but thousands of lines like these:
+but tens of thousands of lines like these:
 
 ```
-│ │ -3a138a: 1a02 8623                              |004b: const-string v2, ".code" // string@2386
-│ │ -3a138e: 7130 1300 4102                         |004d: invoke-static {v1, v4, v2}, La/b;.j:(Ljava/lang/String;Lbreez_sdk/RustCallStatus;Ljava/lang/String;)Ljava/lang/String; // method@0013
-│ │ -3a1394: 0c04                                   |0050: move-result-object v4
-│ │ -3a1396: 7020 db98 4000                         |0051: invoke-direct {v0, v4}, Lbreez_sdk/InternalException;.<init>:(Ljava/lang/String;)V // method@98db
+│ │ -3448f8:                                        |[3448f8] androidx.navigation.fragment.NavHostFragment.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V
+│ │ -344908: 1a00 befd                              |0000: const-string v0, "view" // string@fdbe
+│ │ -34490c: 7120 74fc 0200                         |0002: invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V // method@fc74
+│ │ -344912: 6f30 a472 2103                         |0005: invoke-super {v1, v2, v3}, Landroidx/fragment/app/Fragment;.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V // method@72a4
+│ │ -344918: 2023 e801                              |0008: instance-of v3, v2, Landroid/view/ViewGroup; // type@01e8
+│ │ -34491c: 3803 3600                              |000a: if-eqz v3, 0040 // +0036
+│ │ +3448e8:                                        |[3448e8] androidx.navigation.fragment.NavHostFragment.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V
+│ │ +3448f8: 1a00 bafd                              |0000: const-string v0, "view" // string@fdba
+│ │ +3448fc: 7120 74fc 0200                         |0002: invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V // method@fc74
+│ │ +344902: 6f30 a472 2103                         |0005: invoke-super {v1, v2, v3}, Landroidx/fragment/app/Fragment;.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V // method@72a4
+│ │ +344908: 2023 e801                              |0008: instance-of v3, v2, Landroid/view/ViewGroup; // type@01e8
+│ │ +34490c: 3803 3600                              |000a: if-eqz v3, 0040 // +0036
 ```
 
-are a bit harder to make sense of.
+are a bit harder to make sense of. Yeah, they look sort of benign - like code
+that ended up on different lines - but it's tens
+of thousands and others might look less benign upon closer inspection.
 
 This product is **not verifiable**.
-
-Prior this was the result:
-
-With this {% include testScript.html %} we get:
-
-```
-...
-+ git clone --quiet --branch release_4.0.20 --depth 1 https://github.com/Blockstream/green_android/ app
-warning: Could not find remote branch release_4.0.20 to clone.
-fatal: Remote branch release_4.0.20 not found in upstream origin
-+ exit 1
-```
-
-In the best case the provider forgot to tag the released source code and we can
-just compile the latest version and confirm its reproducibility but in this
-case, the source code is missing. Checking
-[recent commits](https://github.com/Blockstream/green_android/commits/master)
-we see
-[Increment to version 4.0.19](https://github.com/Blockstream/green_android/commit/5839c9b7cd28eec6c5992715df28adf33de0822a)
-as the last commit and it's not a typo. This commit sets the version to 4.0.19
-and the file we got from Google Play was 4.0.20. This version is
-**not verifiable**!
-
-For the record, the file we have here has the sha256 hash
-`12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee`.
