@@ -8,11 +8,11 @@ appId: de.gratisbroker.ios.mobileapp
 appCountry: de
 idd: '1556711130'
 released: 2021-06-07
-updated: 2023-12-09
-version: 4.8.2
+updated: 2023-12-29
+version: 4.9.0
 stars: 4.7
-reviews: 8372
-size: '136888320'
+reviews: 8421
+size: '136923136'
 website: https://www.finanzen.net/zero/
 repository: 
 issue: 

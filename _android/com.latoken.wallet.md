@@ -12,7 +12,7 @@ updated: 2023-12-22
 version: 1.174.23
 stars: 4.3
 ratings: 35079
-reviews: 101
+reviews: 102
 size: 
 website: http://latoken.com
 repository: 

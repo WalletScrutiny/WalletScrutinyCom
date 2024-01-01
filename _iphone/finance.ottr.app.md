@@ -11,7 +11,7 @@ released: 2022-09-25
 updated: 2023-12-20
 version: '1.58'
 stars: 4.6
-reviews: 10
+reviews: 11
 size: '101213184'
 website: https://ottr.finance
 repository: 

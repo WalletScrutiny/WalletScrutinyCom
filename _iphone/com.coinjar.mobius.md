@@ -11,7 +11,7 @@ released: 2015-02-04
 updated: 2023-12-28
 version: 2.97.0
 stars: 4.7
-reviews: 13118
+reviews: 13121
 size: '68491264'
 website: https://www.coinjar.com
 repository: 

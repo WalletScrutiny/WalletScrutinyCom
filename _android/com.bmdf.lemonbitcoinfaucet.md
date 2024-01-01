@@ -8,8 +8,8 @@ users: 10000
 appId: com.bmdf.lemonbitcoinfaucet
 appCountry: 
 released: 2022-07-05
-updated: 2023-12-30
-version: 2.8.0
+updated: 2023-12-31
+version: 2.9.0
 stars: 4
 ratings: 
 reviews: 10

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-05
 updated: 2023-12-27
 version: 1.0.75
-stars: 4.5
+stars: 4.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.digitra.com
 repository: 
