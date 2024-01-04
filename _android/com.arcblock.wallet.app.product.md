@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-07
 updated: 2023-12-13
 version: 4.17.0
-stars: 4.7
+stars: 4.6
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://www.didwallet.io/
 repository: 

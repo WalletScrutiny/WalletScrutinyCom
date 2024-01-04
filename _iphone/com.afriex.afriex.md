@@ -8,10 +8,10 @@ appId: com.afriex.afriex
 appCountry: us
 idd: 1492022568
 released: 2020-03-06
-updated: 2023-12-26
-version: 11.100.6
+updated: 2024-01-03
+version: 11.100.7
 stars: 4.8
-reviews: 6435
+reviews: 6471
 size: '98242560'
 website: https://afriexapp.com
 repository: 

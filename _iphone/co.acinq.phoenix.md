@@ -9,11 +9,11 @@ appId: co.acinq.phoenix
 appCountry: us
 idd: 1544097028
 released: 2021-07-13
-updated: 2023-11-08
-version: 2.0.7
+updated: 2024-01-02
+version: 2.0.8
 stars: 4.4
 reviews: 36
-size: '42426368'
+size: '43057152'
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm
 issue: https://github.com/ACINQ/phoenix/issues/112

@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinpassmobile
 appCountry: 
 released: 
-updated: 2023-12-21
-version: 2.0.91
+updated: 2023-12-29
+version: 2.1.04
 stars: 
 ratings: 
 reviews: 

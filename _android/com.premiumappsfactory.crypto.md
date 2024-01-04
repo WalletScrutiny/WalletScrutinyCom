@@ -7,8 +7,8 @@ users: 50
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05
-updated: 2023-08-19
-version: 5.0.0
+updated: 2024-01-01
+version: 6.0.0
 stars: 
 ratings: 
 reviews: 
