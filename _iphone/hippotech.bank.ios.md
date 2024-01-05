@@ -8,8 +8,8 @@ appId: hippotech.bank.ios
 appCountry: gb
 idd: '1472192023'
 released: 2020-06-08
-updated: 2023-12-18
-version: '3.15'
+updated: 2024-01-02
+version: '3.16'
 stars: 4.5
 reviews: 1367
 size: '124696576'

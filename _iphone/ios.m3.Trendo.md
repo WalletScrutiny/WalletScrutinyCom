@@ -8,11 +8,11 @@ appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
 released: 2020-09-29
-updated: 2023-12-30
-version: 3.5.6
+updated: 2024-01-03
+version: 3.5.8
 stars: 5
-reviews: 20
-size: '55770112'
+reviews: 21
+size: '55819264'
 website: https://fxtrendo.com/
 repository: 
 issue: 

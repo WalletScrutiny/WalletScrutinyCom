@@ -12,16 +12,16 @@ updated: 2023-01-08
 version: 1.0.0
 stars: 3.3
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: 
 repository: 
 issue: 
 icon: com.BlockchainExplorer.DormantBitcoinExplorer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-09
+date: 2024-01-04
 signer: 
 reviewArchive: 
 twitter: 
