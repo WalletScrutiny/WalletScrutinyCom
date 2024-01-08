@@ -20,7 +20,7 @@ issue:
 icon: com.ttmbank.wallet.app.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: nosource
 date: 2024-01-08
 signer: 
 reviewArchive: 

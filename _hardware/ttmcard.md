@@ -44,5 +44,4 @@ The companion app has been reviewed and can be found here: {% include walletLink
 
 ## Analysis 
 
-The device itself is an NFC card that relies on the companion app to make transactions. 
-
+The device itself is an NFC card that relies on the companion app to make transactions. It contains the keys to sign transactions but has no interface to verify what is being signed.
