@@ -19,7 +19,7 @@ issue:
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-06-12
 signer: 
 reviewArchive: 

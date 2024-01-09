@@ -19,7 +19,7 @@ issue:
 icon: com.natiol.infinity.io.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 date: 2023-09-06
 signer: 
 reviewArchive: 

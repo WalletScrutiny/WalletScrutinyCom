@@ -1,5 +1,5 @@
 ---
-wsId: natiolInfinity
+wsId: 
 title: Natiol Infinity (Test Version)
 altTitle: 
 authors:
@@ -33,6 +33,8 @@ developerName: NATIOL INFINITY PTE LTD
 features: 
 
 ---
+
+This app has been replaced by {% include walletLink.html wallet='android/com.natiol.infinity.io' verdict='true' %}
 
 ## App Description from Google Play
 

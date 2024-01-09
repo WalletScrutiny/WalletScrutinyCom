@@ -20,7 +20,7 @@ issue:
 icon: com.signalfinancialfcu.signalfinancialfcu.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-08-28
 signer: 
 reviewArchive: 
@@ -47,4 +47,8 @@ features:
 - Signal Financial is a US-based Credit Union and their app has several online banking features such as checking, savings, loans and credit cards.
 - The documentation on how the app is used to "trade bitcoin" was non-existent.
 - When we opened the app, it first asked us to verify our identity by providing account specific information such as Signal Financial account number as well as a US SSN. We were not able to register. They also informed us that they match the information we will provide to their records.
-- At this point, we would have to contact them via email or [social media](https://twitter.com/BitcoinWalletz/status/1696017503422710120) to find out how the app is used to trade Bitcoin. 
+- At this point, we would have to contact them via email or [social media](https://twitter.com/BitcoinWalletz/status/1696017503422710120) to find out how the app is used to trade Bitcoin.
+
+**Update 2024-01-09**
+
+- With no response from Signal Financial both on twitter and on email, and with no proof that this app has a Bitcoin wallet, we would have to assume that this **has no bitcoin wallet**.

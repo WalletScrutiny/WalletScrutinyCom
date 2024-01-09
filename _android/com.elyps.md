@@ -20,7 +20,7 @@ issue:
 icon: com.elyps.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-08-17
 signer: 
 reviewArchive: 
@@ -58,5 +58,9 @@ There is a warning emblazoned on the header of the site.
 - We did not find any reference to 'Bitcoin' or 'crypto'  
 - We will email them to ask for more information at: hello@elyps.com 
 - We'll keep this as a work-in-progress until more information is available.
+
+## Update 2024-01-09
+
+I have not received any response from them since May 2023. Without any sort of response on any of the emails I sent, and with no proof that this app supports bitcoin, I will be marking this as an app with **no bitcoin wallet**.
 
 
