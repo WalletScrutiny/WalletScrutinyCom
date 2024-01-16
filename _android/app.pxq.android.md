@@ -12,7 +12,7 @@ updated: 2023-11-03
 version: 1.0.13
 stars: 4.3
 ratings: 
-reviews: 18
+reviews: 21
 size: 
 website: https://pxq.app
 repository: 

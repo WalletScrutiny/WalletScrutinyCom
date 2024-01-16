@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 148
 size: 
-website: https://royalqs.com/
+website: https://www.royalqs.com/
 repository: 
 issue: 
 icon: com.royalqs.royalq.png

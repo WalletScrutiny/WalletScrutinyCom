@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tmweasy.ipay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-06-03
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

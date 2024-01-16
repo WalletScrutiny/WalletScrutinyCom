@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Pocket App GmbH
+developerName: Pocket App AG
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: nooneWallet
-title: Noone Wallet
+title: Noone Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2023-03-17
 updated: 2023-12-28
 version: 1.8.4
-stars: 4.5
+stars: 4.4
 ratings: 
 reviews: 2
 size: 

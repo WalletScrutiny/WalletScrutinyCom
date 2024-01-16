@@ -3,7 +3,7 @@ wsId:
 title: 'VXW : VXXL wallet'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.vxxl.wallet
 appCountry: 
 released: 2022-09-26

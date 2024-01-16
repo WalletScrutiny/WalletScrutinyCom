@@ -12,7 +12,7 @@ updated: 2021-09-30
 version: 1.4.2
 stars: 4.3
 ratings: 261
-reviews: 15
+reviews: 14
 size: 
 website: https://bolsa.app
 repository: 

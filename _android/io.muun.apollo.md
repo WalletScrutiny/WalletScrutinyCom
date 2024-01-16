@@ -13,7 +13,7 @@ updated: 2023-12-22
 version: '51.5'
 stars: 4.4
 ratings: 650
-reviews: 153
+reviews: 155
 size: 
 website: https://muun.com
 repository: https://github.com/muun/apollo

@@ -8,11 +8,11 @@ appId: org.toshi.distribution
 appCountry: 
 idd: 1278383455
 released: 2017-09-27
-updated: 2023-12-18
-version: '28.74'
+updated: 2024-01-15
+version: '28.76'
 stars: 4.6
-reviews: 135198
-size: '102287360'
+reviews: 135689
+size: '119054336'
 website: https://www.coinbase.com/wallet
 repository: 
 issue: 

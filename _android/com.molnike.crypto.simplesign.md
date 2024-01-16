@@ -3,7 +3,7 @@ wsId:
 title: BTC secp256k1 sign offline
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.molnike.crypto.simplesign
 appCountry: 
 released: 2023-01-11

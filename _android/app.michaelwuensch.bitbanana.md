@@ -7,8 +7,8 @@ users: 1000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
 released: 2023-03-26
-updated: 2023-12-31
-version: 0.7.2
+updated: 2024-01-10
+version: 0.7.3
 stars: 
 ratings: 
 reviews: 

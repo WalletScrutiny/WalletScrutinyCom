@@ -7,8 +7,8 @@ users: 1000
 appId: com.actoz.actpass
 appCountry: 
 released: 2022-11-29
-updated: 2023-12-08
-version: 1.3.5
+updated: 2024-01-07
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 

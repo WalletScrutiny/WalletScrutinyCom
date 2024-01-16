@@ -10,8 +10,8 @@ idd: 1369912925
 released: 2018-04-22
 updated: 2023-12-29
 version: '6.0'
-stars: 4.4
-reviews: 262
+stars: 4.5
+reviews: 261
 size: '175684608'
 website: https://savl.com
 repository: 

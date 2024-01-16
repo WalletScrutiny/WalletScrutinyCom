@@ -12,7 +12,7 @@ updated: 2023-03-20
 version: 2.4.10
 stars: 4.3
 ratings: 1064
-reviews: 124
+reviews: 125
 size: 
 website: https://kardiachain.io/
 repository: 

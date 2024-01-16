@@ -4,7 +4,7 @@ title: 'LiquidityX: CFD Online Trading'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.capitalsecurities.liqx
 appCountry: 
 released: 

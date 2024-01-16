@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinpassmobile
 appCountry: 
 released: 
-updated: 2023-12-29
-version: 2.1.04
+updated: 2024-01-04
+version: 2.1.109
 stars: 
 ratings: 
 reviews: 
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
 - https://www.linkedin.com/company/coinpass
 redirect_from: 
-developerName: Coinpass Limited
+developerName: Oanda Coinpass Limited
 features: 
 
 ---

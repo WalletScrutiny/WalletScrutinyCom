@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.mcs.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-01-16
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

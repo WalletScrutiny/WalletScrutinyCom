@@ -8,8 +8,8 @@ users: 1000
 appId: io.sideswap
 appCountry: 
 released: 2021-03-09
-updated: 2023-12-21
-version: 1.4.4
+updated: 2024-01-13
+version: 1.4.5
 stars: 5
 ratings: 
 reviews: 3

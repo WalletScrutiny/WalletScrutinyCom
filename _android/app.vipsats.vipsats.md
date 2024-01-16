@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Vipsats Bitcoin Lightning
+title: Vipsats Bitcoin Wallet Satoshi
 altTitle: 
 authors: 
 users: 100
 appId: app.vipsats.vipsats
 appCountry: 
 released: 2023-10-12
-updated: 2023-11-15
-version: 1.0.1
+updated: 2024-01-15
+version: '1.1'
 stars: 
 ratings: 
 reviews: 

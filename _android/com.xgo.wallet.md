@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/xgo_official
 - https://discord.com/invite/dTt4Ke3
 redirect_from: 
-developerName: stores@xgo
+developerName: XGo
 features: 
 
 ---

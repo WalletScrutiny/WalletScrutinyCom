@@ -4,12 +4,12 @@ title: 'bitcastle: Buy & Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.llc.bitcastle
 appCountry: 
 released: 2022-07-29
-updated: 2023-12-20
-version: 1.9.2
+updated: 2024-01-11
+version: 1.9.3
 stars: 3.1
 ratings: 
 reviews: 10

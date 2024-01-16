@@ -3,7 +3,7 @@ wsId:
 title: Bitoshi
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
@@ -11,7 +11,7 @@ updated: 2023-08-30
 version: 1.3.0
 stars: 4.6
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://bitoshi.africa
 repository: 
