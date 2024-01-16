@@ -4,7 +4,7 @@ title: Bitcoin Wallet BitBucks
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: de.fuf.bitbucks
 appCountry: 
 released: 2019-09-03

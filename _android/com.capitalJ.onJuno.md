@@ -1,6 +1,6 @@
 ---
 wsId: junoFinance
-title: Juno
+title: Juno - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.capitalJ.onJuno
 appCountry: 
 released: 2021-03-01
-updated: 2023-12-26
-version: 4.0.21
+updated: 2024-01-08
+version: 4.0.22
 stars: 3.6
 ratings: 
-reviews: 374
+reviews: 375
 size: 
 website: https://juno.finance
 repository: 

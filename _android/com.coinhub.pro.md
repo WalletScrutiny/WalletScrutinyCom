@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-20
 updated: 2023-06-28
 version: 1.3.6.230628
-stars: 4.5
+stars: 4.3
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.coinhub.mn
 repository: 

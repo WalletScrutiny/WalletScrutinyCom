@@ -1,6 +1,6 @@
 ---
 wsId: casaapp
-title: 'Casa: BTC and ETH Wallet'
+title: 'Casa: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2023-12-19
-version: 4.9.2
+updated: 2024-01-11
+version: 4.10.0
 stars: 4.9
-reviews: 937
-size: '112360448'
+reviews: 946
+size: '112607232'
 website: https://www.casa.io
 repository: 
 issue: 

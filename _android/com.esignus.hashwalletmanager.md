@@ -3,13 +3,13 @@ wsId: hashwalletManager
 title: HASHWallet Manager
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.esignus.hashwalletmanager
 appCountry: 
 released: 2022-09-22
-updated: 2023-12-28
-version: 1.1.2
+updated: 2024-01-10
+version: 1.1.4
 stars: 3
 ratings: 
 reviews: 4
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/hashwallet  
+- https://t.me/hashwallet
 redirect_from: 
 developerName: eSignus Security Solutions, S.L.
 features: 

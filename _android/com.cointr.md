@@ -10,9 +10,9 @@ appCountry:
 released: 2022-08-17
 updated: 2023-12-10
 version: 2.1.2
-stars: 3.5
+stars: 3.2
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://support.cointr.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: malFinance
-title: Mal.io bitcoin buy trade
+title: 'Mal.io: Bitcoin,Trade Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 50000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11
-updated: 2024-01-02
+updated: 2024-01-14
 version: 1.0.32
 stars: 4.2
 ratings: 

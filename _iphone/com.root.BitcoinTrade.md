@@ -11,7 +11,7 @@ released: 2017-12-13
 updated: 2023-12-26
 version: 4.7.4
 stars: 3.8
-reviews: 964
+reviews: 967
 size: '47621120'
 website: http://ripio.com/br/ripiotrade/
 repository: 

@@ -11,16 +11,16 @@ released: 2016-07-08
 updated: 2022-01-14
 version: 2.6.23
 stars: 4
-reviews: 111
+reviews: 112
 size: '18610176'
 website: https://freewallet.org/btc-wallet
 repository: 
 issue: 
 icon: btc.org.freewallet.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-09-19
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: freewalletorg

@@ -8,8 +8,8 @@ users: 10000
 appId: com.saitapro
 appCountry: 
 released: 2022-07-29
-updated: 2023-09-14
-version: '1.23'
+updated: 2024-01-12
+version: '1.27'
 stars: 3.9
 ratings: 
 reviews: 320

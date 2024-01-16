@@ -4,7 +4,7 @@ title: clubkonnect
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.clubkonnect.mobile1
 appCountry: 
 released: 2017-10-31

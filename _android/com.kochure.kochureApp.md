@@ -4,7 +4,7 @@ title: 'Kochure: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.kochure.kochureApp
 appCountry: 
 released: 2021-11-13

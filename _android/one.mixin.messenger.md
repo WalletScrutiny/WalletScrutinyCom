@@ -10,8 +10,8 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2023-12-25
-version: 1.3.0
+updated: 2024-01-15
+version: 1.4.1
 stars: 4.5
 ratings: 1252
 reviews: 156

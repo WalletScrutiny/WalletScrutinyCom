@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-12-10
 updated: 2023-12-20
 version: 2.1.1
-stars: 4.4
+stars: 4.3
 ratings: 314
-reviews: 37
+reviews: 38
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

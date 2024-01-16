@@ -11,7 +11,7 @@ released: 2018-09-14
 updated: 2022-01-30
 version: 8.0.1
 stars: 4.6
-reviews: 34
+reviews: 35
 size: '60161024'
 website: https://elly.com
 repository: 
