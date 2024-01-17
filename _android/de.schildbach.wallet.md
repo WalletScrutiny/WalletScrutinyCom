@@ -22,9 +22,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-12-19
+date: 2024-01-17
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2023-12-19
+  version: '10.11'
+  appHash: c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f
+  gitRevision: 3f54d3c91fca71e60cbb54f6f00f3de34dd833bf
+  verdict: reproducible
 - date: 2023-11-25
   version: '10.09'
   appHash: 5d35e51533edf9ac668f4b008bc763a497fb3e342e57867bf4e8a1a98e1fb217
@@ -200,35 +205,34 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.11
-apkVersionCode: 101100
+apkVersionName: 10.12
+apkVersionCode: 101200
 verdict:        reproducible
-appHash:        c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f
-commit:         bf328731bc91b74e4665ec97257777b3433b53e2
+appHash:        c6147e5a1bf55d093391f8fceb7678686aea51ad819787463274a5d771d6ea4a
+commit:         8d8507dae0d0bc10ae24b8bb7c5e54ebcccd0126
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_101100/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_101100/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_101100/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101100/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_101200/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_101200/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_101200/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101200/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object bf328731bc91b74e4665ec97257777b3433b53e2
+object 8d8507dae0d0bc10ae24b8bb7c5e54ebcccd0126
 type commit
-tag v10.11
-tagger Andreas Schildbach <andreas@schildbach.de> 1702755620 +0100
+tag v10.12
+tagger Andreas Schildbach <andreas@schildbach.de> 1704826985 +0100
 
-10.11 release
+10.12 release
 ===== End Results =====
+
 ```
 
-As expected, this app is **reproducible**
-
-For version 10.11
+Version 10.12 of this app is **reproducible**
 
 <link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
 <div id="demo"></div>
 <script src="/assets/js/asciinema-player.min.js"></script>
 <script>
-  AsciinemaPlayer.create('/assets/casts/android/de.schildbach.wallet_c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f.cast', document.getElementById('demo'));
+  AsciinemaPlayer.create('/assets/casts/android/de.schildbach.wallet_c6147e5a1bf55d093391f8fceb7678686aea51ad819787463274a5d771d6ea4a.cast', document.getElementById('demo'));
 </script>
 
