@@ -4,6 +4,7 @@ title: Unstoppable Crypto Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
@@ -21,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-11-25
+date: 2024-01-17
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2023-11-25
+  version: 0.36.1
+  appHash: 40396b32608468fb01d98d0db7c9b10004a9c4655037c2b89140f6694a2c52ea
+  gitRevision: 88254e9c1f18a27196679a63e669a3579b6e0978
+  verdict: reproducible
 - date: 2023-11-08
   version: 0.36.0
   appHash: 013383415b5cb4ab2eb901fa8a5bc0f26f4003140677ff122d8a3df62a62eb06
@@ -224,23 +230,31 @@ $ ./test.sh --apk path/to/Unstoppable.apk
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.36.1
-apkVersionCode: 92
+apkVersionName: 0.37.2
+apkVersionCode: 96
 verdict:        reproducible
-appHash:        40396b32608468fb01d98d0db7c9b10004a9c4655037c2b89140f6694a2c52ea
-commit:         19479befc2ce555a44fd7e8a2f575fe4316723fe
+appHash:        514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94
+commit:         4a1722ceb1c38fc2970e20197acdd5176fdb3ee8
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
 This is what we want to see to call it **reproducible**.
+
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="demo"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create('/assets/casts/android/io.horizontalsystems.bankwallet_514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94.cast', document.getElementById('demo'));
+</script>
 
 ### Thank you to Horizontal Systems for repeat donations
 
