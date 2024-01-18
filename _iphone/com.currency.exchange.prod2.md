@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: dzengi
 title: Dzengi.com - Crypto Exchange
 altTitle: 
 authors:
