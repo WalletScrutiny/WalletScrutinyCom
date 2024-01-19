@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chain.zconprotocol.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-13
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: BISKIT_TOKEN

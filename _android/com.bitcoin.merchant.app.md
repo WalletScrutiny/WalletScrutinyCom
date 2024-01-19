@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoin.merchant.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2019-12-25
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: bitcoincom

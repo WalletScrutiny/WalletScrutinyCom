@@ -12,7 +12,7 @@ updated: 2023-12-15
 version: 2.6.3
 stars: 4.1
 ratings: 
-reviews: 55
+reviews: 57
 size: 
 website: https://wallet.cex.io
 repository: 

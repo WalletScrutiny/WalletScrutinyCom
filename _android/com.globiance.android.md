@@ -4,7 +4,7 @@ title: Globiance
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.globiance.android
 appCountry: 
 released: 2021-09-29

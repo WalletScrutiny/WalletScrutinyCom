@@ -12,7 +12,7 @@ updated: 2023-12-08
 version: 5.3.5
 stars: 4.4
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://www.getamber.io
 repository: 

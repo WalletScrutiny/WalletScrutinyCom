@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2024-01-12
 version: 6.1.1
 stars: 4.5
-reviews: 49820
+reviews: 49876
 size: '110490624'
 website: https://coinswitch.co
 repository: 

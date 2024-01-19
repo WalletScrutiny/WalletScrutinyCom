@@ -12,7 +12,7 @@ updated: 2024-01-13
 version: 4.0.1
 stars: 4.1
 ratings: 621
-reviews: 48
+reviews: 49
 size: 
 website: https://viawallet.com
 repository: 

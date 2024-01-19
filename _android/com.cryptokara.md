@@ -4,7 +4,7 @@ title: CryptoKara
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.cryptokara
 appCountry: 
 released: 2021-09-28

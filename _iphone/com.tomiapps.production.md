@@ -8,8 +8,8 @@ appId: com.tomiapps.production
 appCountry: us
 idd: '1643501440'
 released: 2022-10-25
-updated: 2024-01-15
-version: '55'
+updated: 2024-01-16
+version: '56'
 stars: 5
 reviews: 9
 size: '58347520'

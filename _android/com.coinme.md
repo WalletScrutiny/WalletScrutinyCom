@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinme
 appCountry: 
 released: 2021-05-06
-updated: 2023-12-15
-version: 2.2.13
+updated: 2024-01-19
+version: 2.2.14
 stars: 3.9
 ratings: 782
-reviews: 783
+reviews: 787
 size: 
 website: https://www.coinme.com
 repository: 

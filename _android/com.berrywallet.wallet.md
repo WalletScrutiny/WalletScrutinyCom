@@ -28,7 +28,7 @@ twitter: BerryChain
 social:
 - https://www.facebook.com/berrychain.official
 redirect_from: 
-developerName: BerryChain Team
+developerName: Ahmad soft
 features: 
 
 ---

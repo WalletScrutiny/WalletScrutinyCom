@@ -8,11 +8,11 @@ appId: com.rockwallet.app
 appCountry: us
 idd: '6444194230'
 released: 2022-11-16
-updated: 2023-12-05
-version: 5.12.1
+updated: 2024-01-17
+version: 5.12.2
 stars: 4.7
-reviews: 190
-size: '128525312'
+reviews: 193
+size: '129135616'
 website: https://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-ios
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498

@@ -8,19 +8,19 @@ appId: com.wallet.faste
 appCountry: us
 idd: '1643098777'
 released: 2022-09-06
-updated: 2023-01-18
-version: '1.3'
+updated: 2024-01-18
+version: '1.4'
 stars: 0
 reviews: 0
-size: '73306112'
+size: '64476160'
 website: 
 repository: 
 issue: 
 icon: com.wallet.faste.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-01-16
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: blocktechbrew

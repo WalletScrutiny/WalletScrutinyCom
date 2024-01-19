@@ -9,7 +9,7 @@ appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
 updated: 2024-01-15
-version: '83.0'
+version: '85.0'
 stars: 
 ratings: 
 reviews: 

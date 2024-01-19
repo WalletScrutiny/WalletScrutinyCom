@@ -8,11 +8,11 @@ appId: com.kraken.invest.app
 appCountry: us
 idd: '1481947260'
 released: 2021-06-01
-updated: 2024-01-08
-version: 2.0.0
+updated: 2024-01-19
+version: 2.1.0
 stars: 4.7
-reviews: 5004
-size: '145842176'
+reviews: 5026
+size: '153269248'
 website: https://kraken.com
 repository: 
 issue: 

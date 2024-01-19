@@ -12,7 +12,7 @@ updated: 2024-01-11
 version: 2.85.4
 stars: 4.4
 ratings: 3713
-reviews: 86
+reviews: 84
 size: 
 website: http://www.xcelpay.io
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-01
 updated: 2023-02-01
 version: 0.2.7
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.dexfin.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CFD Trading Forex investing ap
+title: Pocket Option Binary Options
 altTitle: 
 authors:
 - danny
@@ -17,7 +17,7 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.faerlik.firewin.png
+icon: com.faerlik.firewin.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet

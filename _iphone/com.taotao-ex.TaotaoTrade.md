@@ -8,11 +8,11 @@ appId: com.taotao-ex.TaotaoTrade
 appCountry: jp
 idd: '1461654946'
 released: 2019-06-02
-updated: 2023-10-16
-version: 3.13.0
+updated: 2024-01-17
+version: 3.14.0
 stars: 1.8
-reviews: 293
-size: '88701952'
+reviews: 300
+size: '89201664'
 website: https://www.sbivc.co.jp/
 repository: 
 issue: 

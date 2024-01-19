@@ -10,9 +10,9 @@ appCountry:
 released: 2023-04-18
 updated: 2024-01-11
 version: 1.14.17
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 97
+reviews: 100
 size: 
 website: https://www.moonpay.com/
 repository: 

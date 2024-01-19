@@ -12,7 +12,7 @@ updated: 2024-01-09
 version: 2.2.2
 stars: 4.4
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://gridlock.network/
 repository: 

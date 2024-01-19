@@ -1,6 +1,6 @@
 ---
 wsId: casaapp
-title: 'Casa: BTC and ETH Wallet'
+title: 'Casa: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000
 appId: casa.keymaster
 appCountry: 
 released: 2019-03-01
-updated: 2024-01-10
-version: 4.10.0
+updated: 2024-01-17
+version: 4.10.1
 stars: 4.8
 ratings: 204
 reviews: 25

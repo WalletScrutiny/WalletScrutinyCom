@@ -8,11 +8,11 @@ appId: com.pt.powertrade
 appCountry: id
 idd: '1548085709'
 released: 2021-04-15
-updated: 2023-12-26
-version: 3.0.5
+updated: 2024-01-19
+version: 3.0.8
 stars: 5
 reviews: 1
-size: '447165440'
+size: '447149056'
 website: https://power.trade/
 repository: 
 issue: 

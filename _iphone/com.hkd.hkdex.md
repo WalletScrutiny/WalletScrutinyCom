@@ -11,7 +11,7 @@ released: 2020-07-13
 updated: 2024-01-15
 version: 2.9.2
 stars: 2.8
-reviews: 44
+reviews: 45
 size: '125084672'
 website: http://hkd.com
 repository: 

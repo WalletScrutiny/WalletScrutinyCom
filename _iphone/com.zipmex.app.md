@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zipmex.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-15
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: ZipmexTH

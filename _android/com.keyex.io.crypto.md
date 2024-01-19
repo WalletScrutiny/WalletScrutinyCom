@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: KeyEx.io Global - Buy BTC, ETH
+title: Keyex.io - Buy BTC, ETH
 altTitle: 
 authors: 
 users: 100
