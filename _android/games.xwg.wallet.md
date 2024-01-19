@@ -3,6 +3,7 @@ wsId:
 title: X Wallet
 altTitle: 
 authors: 
+- danny
 users: 1000
 appId: games.xwg.wallet
 appCountry: 
@@ -19,15 +20,30 @@ issue:
 icon: games.xwg.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2024-01-19
 signer: 
 reviewArchive: 
-twitter: 
+twitter: xwg_games
 social: 
+- https://medium.com/x-world-games
+- https://github.com/XWorldGames
 redirect_from: 
 developerName: XWG Technology
 features: 
 
 ---
 
+## App Description from Google Play
+
+> X Wallet, developed by XWG Technology, serves as an effortless connection between the conventional online realm and the vast blockchain universe. Seamlessly interacting with NFTs, DeFi, SocialFi, Blockchain Games, and more blockchain applications, it enables you to effortlessly manage your crypto assets from X World Games and effortlessly exchange tokens across various blockchains. Experience Wallet-as-a-Service at its finest.
+
+## Analysis
+
+According to the app's showcase, {{ page.title }} offers DApp services and a variety of crypto assets including options from the BNB Chain and ERC-20 tokens.
+
+From the [FAQs](https://docs.xwg.games/service/faq), "Do you'll provide wallet backup key storage and keys backup encryption?"
+
+> No, there's no private key backup storage or encryption. You can find out your private key through the Dapp wallet service provider, and you shall backup your private key and recovery phrase on your own and keep them in a safe place.
+
+We **did not find source code** for this app.
