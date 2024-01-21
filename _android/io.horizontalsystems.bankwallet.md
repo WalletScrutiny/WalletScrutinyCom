@@ -249,12 +249,7 @@ Revision, tag (and its signature):
 
 This is what we want to see to call it **reproducible**.
 
-<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
-<div id="demo"></div>
-<script src="/assets/js/asciinema-player.min.js"></script>
-<script>
-  AsciinemaPlayer.create('/assets/casts/android/io.horizontalsystems.bankwallet_514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94.cast', document.getElementById('demo'));
-</script>
+{% include asciicast %}
 
 ### Thank you to Horizontal Systems for repeat donations
 

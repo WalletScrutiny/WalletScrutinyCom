@@ -229,10 +229,4 @@ tagger Andreas Schildbach <andreas@schildbach.de> 1704826985 +0100
 
 Version 10.12 of this app is **reproducible**
 
-<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
-<div id="demo"></div>
-<script src="/assets/js/asciinema-player.min.js"></script>
-<script>
-  AsciinemaPlayer.create('/assets/casts/android/de.schildbach.wallet_c6147e5a1bf55d093391f8fceb7678686aea51ad819787463274a5d771d6ea4a.cast', document.getElementById('demo'));
-</script>
-
+{% include asciicast %}

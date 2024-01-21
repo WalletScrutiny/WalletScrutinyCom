@@ -130,10 +130,4 @@ We had Chat GPT4 analyze the diffs, and here is the assessment:
 >
 > **Functional Reproducibility:** If the concern is more about functional equivalence (i.e., both binaries behave the same way despite minor differences), further analysis would be needed. This would involve reverse engineering or running both binaries in a controlled environment to compare their behaviors.
 
-
-<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
-<div id="demo"></div>
-<script src="/assets/js/asciinema-player.min.js"></script>
-<script>
-  AsciinemaPlayer.create('/assets/casts/hardware/blockstream_jade_1.0.26_3ca3e6758bbf8a971b16c09f51871426fcee4a1681b45f1a892f2a94b725508e.cast', document.getElementById('demo'));
-</script>
+{% include asciicast %}
