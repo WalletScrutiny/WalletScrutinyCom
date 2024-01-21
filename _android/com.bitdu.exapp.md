@@ -7,20 +7,20 @@ users: 1000
 appId: com.bitdu.exapp
 appCountry: 
 released: 2021-07-21
-updated: 2023-09-07
-version: 2.3.7
-stars: 2.2
+updated: 2023-10-31
+version: 3.0.3
+stars: 2.9
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://www.bitdu.com
 repository: 
 issue: 
 icon: com.bitdu.exapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

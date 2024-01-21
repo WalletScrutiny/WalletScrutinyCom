@@ -8,11 +8,11 @@ appId: com.arcticmobile.app
 appCountry: us
 idd: '1658699963'
 released: 2023-02-08
-updated: 2023-09-19
-version: '1.28'
+updated: 2024-01-15
+version: '1.31'
 stars: 5
 reviews: 3
-size: '57465856'
+size: '58721280'
 website: https://arcticwallet.io/
 repository: 
 issue: 

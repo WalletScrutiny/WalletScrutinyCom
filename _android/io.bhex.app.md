@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.bhex.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-12-05
 signer: 

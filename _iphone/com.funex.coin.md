@@ -19,8 +19,8 @@ issue:
 icon: com.funex.coin.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-25
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: Funexclub

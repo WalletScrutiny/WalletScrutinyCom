@@ -1,18 +1,18 @@
 ---
 wsId: kleverK5FinanceCrypto
-title: 'Klever Wallet: Binance Coin, +'
+title: Klever Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: finance.klever.bitcoin.wallet
 appCountry: 
 released: 2023-01-16
-updated: 2023-10-24
-version: 5.27.3
-stars: 4.6
+updated: 2024-01-15
+version: 5.30.0
+stars: 4.7
 ratings: 
-reviews: 62
+reviews: 77
 size: 
 website: https://klever.org/
 repository: 

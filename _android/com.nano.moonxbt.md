@@ -10,18 +10,18 @@ appCountry: us
 released: 2021-05-11
 updated: 2023-01-11
 version: 5.4.3
-stars: 4.3
+stars: 4.2
 ratings: 481
-reviews: 24
+reviews: 23
 size: 
 website: https://www.moonxbt.com
 repository: 
 issue: 
 icon: com.nano.moonxbt.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global

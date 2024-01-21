@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.openwallet.wallet.dev.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-11-10
 signer: 

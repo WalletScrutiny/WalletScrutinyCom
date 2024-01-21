@@ -3,12 +3,12 @@ wsId:
 title: B2Z Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.interakt.b2z
 appCountry: 
 released: 2022-04-12
-updated: 2023-10-26
-version: 1.5.0
+updated: 2023-11-09
+version: 1.6.0
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.interakt.b2z.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

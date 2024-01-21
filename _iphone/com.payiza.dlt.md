@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-06-02
 signer: 

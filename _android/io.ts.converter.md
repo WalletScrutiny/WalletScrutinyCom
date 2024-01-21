@@ -3,12 +3,12 @@ wsId:
 title: TapSwap Kenya
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: io.ts.converter
 appCountry: 
 released: 2023-02-26
-updated: 2023-10-09
-version: 1.0.11
+updated: 2024-01-10
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: io.ts.converter.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

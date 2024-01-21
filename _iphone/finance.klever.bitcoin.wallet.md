@@ -1,6 +1,6 @@
 ---
 wsId: kleverK5FinanceCrypto
-title: 'Klever Wallet: Ethereum, Tron'
+title: Klever Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: finance.klever.bitcoin.wallet
 appCountry: us
 idd: '1615064243'
 released: 2023-01-25
-updated: 2023-10-25
-version: 5.5.6
+updated: 2024-01-16
+version: 5.5.22
 stars: 4.9
-reviews: 502
-size: '195821568'
+reviews: 607
+size: '203158528'
 website: https://klever.org
 repository: 
 issue: 

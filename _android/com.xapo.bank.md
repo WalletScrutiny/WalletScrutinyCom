@@ -3,15 +3,15 @@ wsId:
 title: 'Xapo Bank: Save in BTC & USD'
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
-updated: 2023-10-24
-version: 8.54.0
-stars: 3.2
+updated: 2024-01-17
+version: 8.63.1
+stars: 3.4
 ratings: 603
-reviews: 33
+reviews: 35
 size: 
 website: https://www.xapobank.com/
 repository: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.andreys.blockchainwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-02-17
 signer: 

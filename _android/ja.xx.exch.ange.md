@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: ja.xx.exch.ange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2022-01-15
 signer: 

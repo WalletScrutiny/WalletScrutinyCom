@@ -4,7 +4,7 @@ title: Bitcoin Wallet Exchange - exch
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.BitcoinWalletExchange.org
 appCountry: 
 released: 2020-10-12

@@ -4,7 +4,7 @@ title: Globiance
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.globiance.android
 appCountry: 
 released: 2021-09-29
@@ -12,7 +12,7 @@ updated: 2023-09-05
 version: '2.05'
 stars: 4.3
 ratings: 
-reviews: 38
+reviews: 39
 size: 
 website: https://globiance.com
 repository: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cmlatte.bitpre.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-22
 signer: 

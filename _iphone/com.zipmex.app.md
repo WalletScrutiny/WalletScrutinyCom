@@ -11,16 +11,16 @@ released: 2019-11-06
 updated: 2023-01-23
 version: 23.0.0
 stars: 4.2
-reviews: 126
+reviews: 127
 size: '84723712'
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 
 issue: 
 icon: com.zipmex.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-15
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: ZipmexTH

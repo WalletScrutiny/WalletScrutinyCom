@@ -4,12 +4,12 @@ title: 'Conio: Wallet Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.conio.wallet
 appCountry: 
 released: 
-updated: 2023-09-25
-version: 6.10.0
+updated: 2024-01-04
+version: 7.2.0
 stars: 
 ratings: 
 reviews: 

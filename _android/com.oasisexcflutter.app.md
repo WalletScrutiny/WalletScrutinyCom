@@ -7,8 +7,8 @@ users: 500
 appId: com.oasisexcflutter.app
 appCountry: 
 released: 2022-07-17
-updated: 2022-07-26
-version: 2.2.8
+updated: 2024-01-17
+version: 2.3.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oasisexcflutter.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-07-22
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

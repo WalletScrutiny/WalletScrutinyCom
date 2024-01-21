@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-31
 signer: 

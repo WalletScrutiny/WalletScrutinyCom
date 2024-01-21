@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.blockabc.abcwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: obfuscated
 date: 2021-04-13
 signer: 

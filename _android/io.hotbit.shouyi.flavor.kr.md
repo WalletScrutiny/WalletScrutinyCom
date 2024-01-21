@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-28
 signer: 

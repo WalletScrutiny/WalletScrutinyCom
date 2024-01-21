@@ -10,9 +10,9 @@ appCountry:
 released: 2019-08-26
 updated: 2023-07-20
 version: 1.23.1
-stars: 3.6
+stars: 3.5
 ratings: 365
-reviews: 20
+reviews: 21
 size: 
 website: https://bolt.global/
 repository: 

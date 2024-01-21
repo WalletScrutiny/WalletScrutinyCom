@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-16
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-15
 signer: 

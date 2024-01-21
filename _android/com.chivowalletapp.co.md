@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.chivowalletapp.co.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-08-21
 signer: 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: breez
 title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2023-09-21
+updated: 2023-10-24
 version: VARY
 stars: 
 ratings: 

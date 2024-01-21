@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-02-10
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: it.inbitcoin.globular.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

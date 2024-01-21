@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.crypto.blockchain.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-10-15
 signer: 

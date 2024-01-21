@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitro2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-13
+date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: 

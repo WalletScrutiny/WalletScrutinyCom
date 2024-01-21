@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Forex Cloud A.I Trading
+title: Hikmah - ইসলামিক কুইজ MCQ গেম
 altTitle: 
 authors: 
 users: 5
@@ -13,10 +13,10 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fxschool.info/
+website: https://www.hikmahbd.com/
 repository: 
 issue: 
-icon: com.app.fxschool_ai.png
+icon: com.app.fxschool_ai.jpg
 bugbounty: 
 meta: stale
 verdict: fewusers

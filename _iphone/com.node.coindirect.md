@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

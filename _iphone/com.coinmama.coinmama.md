@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinmama.coinmama.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: coinmama

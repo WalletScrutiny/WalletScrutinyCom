@@ -4,15 +4,15 @@ title: Jeton Wallet
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.jeton.wallet
 appCountry: us
 released: 2018-12-27
-updated: 2023-08-17
-version: 3.6.1
-stars: 3.2
+updated: 2023-12-15
+version: 3.6.3
+stars: 3.1
 ratings: 3260
-reviews: 15
+reviews: 17
 size: 
 website: https://jeton.com/
 repository: 

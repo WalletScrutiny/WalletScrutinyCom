@@ -1,6 +1,6 @@
 ---
 wsId: publicStocksCrypto
-title: 'Public: Stocks/T-bills/Crypto'
+title: Public - Stocks/Bonds/Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2023-10-26
-version: 3.112.1
+updated: 2024-01-19
+version: 3.124.0
 stars: 4.2
 ratings: 
-reviews: 8423
+reviews: 8465
 size: 
 website: https://public.com
 repository: 

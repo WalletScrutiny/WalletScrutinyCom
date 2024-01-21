@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2023-03-21
 signer: 

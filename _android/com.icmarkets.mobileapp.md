@@ -10,18 +10,18 @@ appCountry:
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://icmarkets.com
 repository: 
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2023-07-08
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: IC_Markets

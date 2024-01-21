@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.twentyfourcfd.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-10-05
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,9 +8,9 @@ users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: 2022-03-28
-updated: 2023-08-08
-version: 2.3.3
-stars: 2.7
+updated: 2023-12-28
+version: 2.3.4
+stars: 2.6
 ratings: 
 reviews: 17
 size: 

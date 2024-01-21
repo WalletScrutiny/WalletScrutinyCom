@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gyliewallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-04
 signer: 

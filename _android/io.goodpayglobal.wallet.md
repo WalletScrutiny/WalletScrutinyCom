@@ -31,7 +31,7 @@ social:
 - https://www.linkedin.com/company/goodpayglobal
 - https://t.me/goodpayglobal
 redirect_from: 
-developerName: Goodpayglobal
+developerName: Vaisen
 features: 
 
 ---

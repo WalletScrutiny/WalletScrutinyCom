@@ -8,19 +8,19 @@ appId: io.bluewallet.bluewallet
 appCountry: 
 idd: 1376878040
 released: 2018-05-27
-updated: 2023-10-25
-version: 6.4.10
-stars: 4.1
-reviews: 578
-size: '49700864'
+updated: 2024-01-18
+version: 6.4.16
+stars: 4
+reviews: 606
+size: '45962240'
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
 issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2023-02-25
+verdict: nonverifiable
+date: 2023-12-30
 signer: 
 reviewArchive:
 - date: 2020-07-14

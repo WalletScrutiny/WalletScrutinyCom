@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-05
 signer: 

@@ -4,16 +4,16 @@ title: تترلند | خرید تتر و فروش تتر
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: land.tether.tetherland
 appCountry: 
 released: 2019-12-09
-updated: 2022-01-18
-version: '6'
-stars: 4.6
+updated: 2023-08-01
+version: 7.1.0
+stars: 4.1
 ratings: 1685
-reviews: 28
-size: 30M
+reviews: 71
+size: 
 website: https://tetherland.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/tetherland
 - https://www.facebook.com/tetherland
 redirect_from: 
-developerName: 
+developerName: TetherLand Team
 features: 
 
 ---

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rsk.rwallet.reactnative.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-04-13
 signer: 

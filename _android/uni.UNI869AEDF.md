@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: uni.UNI869AEDF.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-25
 signer: 

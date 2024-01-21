@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bluepipscapital.webviewapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

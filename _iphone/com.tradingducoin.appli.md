@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradingducoin.appli.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-10-08
 signer: 

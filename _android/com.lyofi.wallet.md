@@ -8,8 +8,8 @@ users: 10000
 appId: com.lyofi.wallet
 appCountry: 
 released: 2022-05-20
-updated: 2023-09-29
-version: 1.4.6
+updated: 2023-12-27
+version: 1.5.1
 stars: 
 ratings: 
 reviews: 

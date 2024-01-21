@@ -7,8 +7,8 @@ users: 50
 appId: com.guardianlabs.keyper
 appCountry: 
 released: 2022-08-06
-updated: 2023-06-01
-version: 2.1.4
+updated: 2024-01-14
+version: 2.2.6
 stars: 
 ratings: 
 reviews: 

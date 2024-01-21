@@ -4,13 +4,13 @@ title: 'Spark Wallet: Earn Rewards'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.sparkwallet
 appCountry: 
 released: 2022-02-09
-updated: 2023-08-29
-version: '3.1'
-stars: 4.3
+updated: 2023-12-07
+version: '3.3'
+stars: 3.7
 ratings: 
 reviews: 3
 size: 

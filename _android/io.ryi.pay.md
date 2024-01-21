@@ -9,7 +9,7 @@ appCountry:
 released: 2021-06-12
 updated: 2022-06-14
 version: 1.0.8
-stars: 4.9
+stars: 4.6
 ratings: 
 reviews: 7
 size: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: RYI Unity LLC.
+developerName: RYI Unity
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rishabh.bitfortip.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-06-13
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: bitfortip

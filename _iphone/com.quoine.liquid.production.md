@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.quoine.liquid.production.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

@@ -2,7 +2,7 @@
 wsId: 
 title: Bitcoin Future
 altTitle: 
-authors:
+authors: 
 - danny 
 users: 10000
 appId: com.bitcoinfuture.bitcoinfuture
@@ -32,6 +32,8 @@ features:
 
 ---
 
+After four years with no updates, the app has been updated on August 19, 2023.
+
 ## App Description from Google Play 
 
 >  Bitcoin Future can also trade other cryptocurrencies in manual or automatic mode.
@@ -45,3 +47,4 @@ features:
 - The user then has the option to sign up with binance with the provider's referral code. 
 - The next option is to input the user's Binance's API keys.
 - We did **not** find any features that indicate that this app provides its **own wallet service**.
+

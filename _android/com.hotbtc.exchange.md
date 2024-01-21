@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hotbtc.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-01-31
 signer: 

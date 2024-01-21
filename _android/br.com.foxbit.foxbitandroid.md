@@ -4,15 +4,15 @@ title: Foxbit Exchange
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: br.com.foxbit.foxbitandroid
 appCountry: br
 released: 2019-01-28
-updated: 2023-10-13
-version: 3.7.0
-stars: 4.4
+updated: 2023-12-13
+version: 3.8.1
+stars: 4.3
 ratings: 6740
-reviews: 5542
+reviews: 5686
 size: 
 website: http://www.foxbit.com.br
 repository: 

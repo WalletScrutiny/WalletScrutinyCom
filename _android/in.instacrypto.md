@@ -8,7 +8,7 @@ users: 1000
 appId: in.instacrypto
 appCountry: 
 released: 
-updated: 2022-08-16
+updated: 2024-01-05
 version: VARY
 stars: 
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: in.instacrypto.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-08-17
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: instacryptoin

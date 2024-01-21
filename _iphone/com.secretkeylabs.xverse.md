@@ -1,6 +1,6 @@
 ---
 wsId: xverse
-title: Xverse - Bitcoin Web3 Wallet
+title: Xverse - Bitcoin Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.secretkeylabs.xverse
 appCountry: gt
 idd: 1552272513
 released: 2021-10-15
-updated: 2023-10-09
-version: v1.20.1
+updated: 2024-01-20
+version: v1.25.0
 stars: 5
 reviews: 1
-size: '35149824'
+size: '26287104'
 website: https://twitter.com/xverseApp
 repository: 
 issue: 

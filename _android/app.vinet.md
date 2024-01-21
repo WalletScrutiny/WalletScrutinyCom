@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.vinet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2022-05-31
 signer: 

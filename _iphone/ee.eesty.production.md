@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: ee.eesty.production.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-08-16
 signer: 

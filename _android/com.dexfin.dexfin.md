@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dexfin.dexfin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-08-29
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

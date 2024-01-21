@@ -3,7 +3,7 @@ wsId:
 title: xsats - save bitcoin
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.xsats.xsatsag
 appCountry: 
 released: 2022-09-17

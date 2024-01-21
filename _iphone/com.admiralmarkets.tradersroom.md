@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.admiralmarkets.tradersroom.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2023-08-25
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-05-25
 signer: 

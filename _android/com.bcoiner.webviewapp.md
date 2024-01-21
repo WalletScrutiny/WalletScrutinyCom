@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-06-23
 signer: 

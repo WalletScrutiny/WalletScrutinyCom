@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: ZFMCOIN
+developerName: YSN Private ltd
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: org.nativescript.knakenhybridapp
 appCountry: 
 released: 2022-07-06
-updated: 2023-10-17
-version: 2.7.2
+updated: 2024-01-19
+version: 2.7.4
 stars: 
 ratings: 
 reviews: 

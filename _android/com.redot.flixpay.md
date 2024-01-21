@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.redot.flixpay.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-29
 signer: 

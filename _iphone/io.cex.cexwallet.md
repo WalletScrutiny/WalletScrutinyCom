@@ -8,11 +8,11 @@ appId: io.cex.cexwallet
 appCountry: ua
 idd: '1575920503'
 released: 2021-10-27
-updated: 2023-09-20
-version: 2.3.1
+updated: 2024-01-04
+version: 2.6.2
 stars: 5
-reviews: 18
-size: '117053440'
+reviews: 25
+size: '173521920'
 website: 
 repository: 
 issue: 

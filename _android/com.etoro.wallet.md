@@ -5,15 +5,15 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 100000
+users: 500000
 appId: com.etoro.wallet
 appCountry: 
 released: 2018-11-27
-updated: 2023-09-18
-version: 64.0.0
+updated: 2024-01-10
+version: 70.0.0
 stars: 3.8
 ratings: 1122
-reviews: 119
+reviews: 125
 size: 
 website: https://www.etoro.com/crypto/wallet
 repository: 

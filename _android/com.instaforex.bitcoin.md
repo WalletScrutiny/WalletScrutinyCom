@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.instaforex.bitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-10
 signer: 

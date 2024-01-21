@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.chiji14xchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-04
 signer: 

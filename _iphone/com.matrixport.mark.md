@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.matrixport.mark.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-04
 signer: 

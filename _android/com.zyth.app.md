@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zyth.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: UZythOfficial

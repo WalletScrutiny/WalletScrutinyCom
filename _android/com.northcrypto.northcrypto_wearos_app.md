@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.northcrypto.northcrypto_wearos_app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

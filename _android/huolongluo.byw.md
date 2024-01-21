@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: huolongluo.byw.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

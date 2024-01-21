@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.sucon.suworld.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-05-31
 signer: 

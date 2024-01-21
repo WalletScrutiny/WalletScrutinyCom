@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptocaptrades.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-15
 signer: 

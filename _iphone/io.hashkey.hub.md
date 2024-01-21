@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.hashkey.hub.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-26
 signer: 

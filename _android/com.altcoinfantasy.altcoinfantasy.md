@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2022-12-28
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: altcoinfantasy

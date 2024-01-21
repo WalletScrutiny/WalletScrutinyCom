@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: masterwallet.ai.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-05-21
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

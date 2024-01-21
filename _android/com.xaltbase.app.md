@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.xaltbase.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-01-31
 signer: 

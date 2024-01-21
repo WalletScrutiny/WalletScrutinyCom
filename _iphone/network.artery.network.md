@@ -18,7 +18,7 @@ repository: https://github.com/arterynetwork/artr
 issue: 
 icon: network.artery.network.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-11-16
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2020-12-08
 signer: 

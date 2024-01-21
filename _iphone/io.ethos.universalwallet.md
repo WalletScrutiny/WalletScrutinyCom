@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-10-21
 signer: 

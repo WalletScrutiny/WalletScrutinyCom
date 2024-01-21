@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.jaxx.crypto.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-10-30
 signer: 

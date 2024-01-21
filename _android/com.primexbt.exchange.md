@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.primexbt.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-02-16
 signer: 

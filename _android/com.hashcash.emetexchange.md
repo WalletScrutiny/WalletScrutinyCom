@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hashcash.emetexchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-28
 signer: 

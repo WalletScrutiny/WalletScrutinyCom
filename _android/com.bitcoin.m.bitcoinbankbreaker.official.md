@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoin.m.bitcoinbankbreaker.official.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-28
 signer: 

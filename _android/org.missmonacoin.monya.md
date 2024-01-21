@@ -19,9 +19,9 @@ repository: https://github.com/monya-wallet/monya
 issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nonverifiable
-date: 2022-12-17
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: monya_wallet

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lianghua.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

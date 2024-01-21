@@ -3,7 +3,7 @@ wsId:
 title: Finex
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.app.finexexchange
 appCountry: 
 released: 2022-07-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.finexexchange.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2023-06-03
+meta: stale
+verdict: wip
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

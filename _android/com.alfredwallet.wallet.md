@@ -3,7 +3,7 @@ wsId:
 title: AlfredWallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.alfredwallet.wallet
 appCountry: 
 released: 2021-08-12
@@ -19,7 +19,7 @@ issue:
 icon: com.alfredwallet.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-06-22
 signer: 
 reviewArchive: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fiber.fiberwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-05-31
 signer: 

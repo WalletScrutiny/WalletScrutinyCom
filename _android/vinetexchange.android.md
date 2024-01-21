@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: vinetexchange.android.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-15
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

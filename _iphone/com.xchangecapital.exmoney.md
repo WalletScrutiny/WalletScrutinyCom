@@ -11,16 +11,16 @@ released: 2020-05-14
 updated: 2022-12-29
 version: 1.0.4
 stars: 5
-reviews: 16
+reviews: 15
 size: '79970304'
 website: 
 repository: 
 issue: 
 icon: com.xchangecapital.exmoney.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-24
+date: 2023-12-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.kmoxxllp.cryptozone.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-30
 signer: 

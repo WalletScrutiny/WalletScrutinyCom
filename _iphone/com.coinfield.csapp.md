@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinfield.csapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-28
 signer: 

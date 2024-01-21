@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.pay98.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-04-16
 signer: 

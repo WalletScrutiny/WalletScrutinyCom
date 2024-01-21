@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.koinal.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-08-04
 signer: 

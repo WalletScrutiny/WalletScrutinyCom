@@ -10,8 +10,8 @@ idd: 1559708728
 released: 2021-04-22
 updated: 2023-08-02
 version: 2.83.848
-stars: 4
-reviews: 3
+stars: 3.5
+reviews: 4
 size: '88448000'
 website: https://jp-ex.io/
 repository: 

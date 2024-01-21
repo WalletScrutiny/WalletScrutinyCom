@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ndex.web.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-29
 signer: 

@@ -3,7 +3,7 @@ wsId:
 title: Lightning Address to Invoice
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: ua.com.radiokot.lnaddr2invoice
 appCountry: 
 released: 2023-02-18

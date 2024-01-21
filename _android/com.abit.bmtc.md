@@ -10,11 +10,11 @@ appCountry: ae
 released: 2020-03-03
 updated: 2021-04-25
 version: 2.3.2
-stars: 3.6
+stars: 
 ratings: 75
-reviews: 44
-size: 8.8M
-website: https://www.abit.com
+reviews: 
+size: 
+website: http://www.abit.com
 repository: 
 issue: 
 icon: com.abit.bmtc.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: abitofficial
 social: 
 redirect_from: 
-developerName: 
+developerName: Abit Technology
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: blofin
-title: Blofin
+title: BloFin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: com.blofin.android
 appCountry: 
 released: 2022-05-13
-updated: 2023-10-27
-version: 2.6.5
+updated: 2024-01-17
+version: 3.0.1
 stars: 4.2
 ratings: 
-reviews: 10
+reviews: 9
 size: 
 website: https://blofin.com
 repository: 

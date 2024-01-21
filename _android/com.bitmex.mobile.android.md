@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitmex.mobile.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-02-10
 signer: 

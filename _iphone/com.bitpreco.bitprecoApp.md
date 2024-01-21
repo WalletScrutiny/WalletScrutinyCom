@@ -11,16 +11,16 @@ released: 2021-03-18
 updated: 2023-01-22
 version: 2.0.04
 stars: 4.8
-reviews: 666
+reviews: 664
 size: '74471424'
 website: https://bitpreco.com/
 repository: 
 issue: 
 icon: com.bitpreco.bitprecoApp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-16
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: BitPreco

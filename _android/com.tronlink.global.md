@@ -4,15 +4,15 @@ title: TronLink Global
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2023-10-09
-version: 4.13.12
+updated: 2024-01-05
+version: 4.13.15
 stars: 4.5
 ratings: 
-reviews: 25
+reviews: 28
 size: 
 website: https://www.tronlink.org
 repository: 

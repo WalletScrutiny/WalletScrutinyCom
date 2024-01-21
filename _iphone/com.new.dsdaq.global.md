@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.new.dsdaq.global.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-25
 signer: 

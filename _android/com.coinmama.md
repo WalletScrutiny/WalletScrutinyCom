@@ -4,15 +4,15 @@ title: 'Coinmama: Crypto Wallet App'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinmama
 appCountry: 
 released: 2022-11-21
-updated: 2023-04-17
-version: 1.03.00
+updated: 2023-12-13
+version: 1.03.02
 stars: 3.2
 ratings: 
-reviews: 14
+reviews: 18
 size: 
 website: https://www.coinmama.com/
 repository: 

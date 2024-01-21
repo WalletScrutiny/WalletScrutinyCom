@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.vercel.buy_btc_kohl.twa.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-04
 signer: 

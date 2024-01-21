@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: im.token.app99.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2022-02-10
 signer: 

@@ -2,17 +2,17 @@
 wsId: bitoshiAfrica
 title: Bitoshi
 altTitle: 
-authors:
+authors: 
 - danny 
-users: 1000
+users: 5000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
 updated: 2023-08-30
 version: 1.3.0
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://bitoshi.africa
 repository: 
@@ -25,7 +25,7 @@ date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: Bitoshiafrica
-social:
+social: 
 - https://www.linkedin.com/company/bitoshiafrica
 - https://www.instagram.com/bitoshi.africa
 - https://t.me/+c4ek89XILkc2OTk8 

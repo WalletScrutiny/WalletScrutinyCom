@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.apollox.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-07-24
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: ApolloX_Finance

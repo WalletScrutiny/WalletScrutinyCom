@@ -13,7 +13,7 @@
               alt="Wallet Logo">
               {% include iconClass.html platform=folder store='true' %}
               {% include folderToName.html folder=folder store='true' %}
-              <span>{{ wallet.altTitle | default: wallet.title }}</span>
+              <span>{{ wallet.altTitle | default: wallet.title | escape }}</span>
               <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
               </a>
           </div>

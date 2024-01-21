@@ -8,11 +8,11 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2023-09-27
-version: 3.3.7
+updated: 2024-01-19
+version: 3.4.0
 stars: 4.9
 reviews: 146
-size: '149879808'
+size: '149051392'
 website: https://help.trubit.com/en
 repository: 
 issue: 

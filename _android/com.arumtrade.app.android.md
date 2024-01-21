@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arumtrade.app.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-11
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: ArumTrade

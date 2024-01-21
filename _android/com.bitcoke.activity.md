@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitcoke.activity.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-03-09
 signer: 

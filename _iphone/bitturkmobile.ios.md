@@ -11,7 +11,7 @@ released: 2019-03-12
 updated: 2022-02-01
 version: '2.0'
 stars: 4.9
-reviews: 32
+reviews: 31
 size: '78841856'
 website: https://bitturk.com
 repository: 

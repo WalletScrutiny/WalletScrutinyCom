@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gozo.client.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.web.unitedexchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-27
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: exchange_united

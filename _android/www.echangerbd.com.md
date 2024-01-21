@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: www.echangerbd.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-19
 signer: 

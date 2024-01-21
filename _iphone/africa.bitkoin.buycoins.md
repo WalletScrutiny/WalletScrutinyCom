@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-04-22
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wire.wirewalletapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-12-29
 signer: 

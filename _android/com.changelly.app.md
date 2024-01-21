@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: changelly
 title: 'Crypto Exchange: Buy Bitcoin'
 altTitle: 
 authors:
@@ -9,16 +9,16 @@ users: 500000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2023-10-20
-version: 3.14.1
-stars: 4.4
+updated: 2023-12-28
+version: 3.18.0
+stars: 4.5
 ratings: 5008
-reviews: 678
+reviews: 699
 size: 
 website: https://changelly.com/
 repository: 
 issue: 
-icon: com.changelly.app.png
+icon: com.changelly.app.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet

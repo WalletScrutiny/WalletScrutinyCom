@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wCryptoExchange_13708254.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-02-25
 signer: 

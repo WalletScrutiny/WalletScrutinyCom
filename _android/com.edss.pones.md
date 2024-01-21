@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.edss.pones.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-12-22
 signer: 

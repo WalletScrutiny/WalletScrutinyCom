@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.digitalmoney.dmapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-06-21
 signer: 

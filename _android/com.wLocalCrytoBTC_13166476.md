@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.wLocalCrytoBTC_13166476.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-16
 signer: 

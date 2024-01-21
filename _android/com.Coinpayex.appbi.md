@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.Coinpayex.appbi.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-16
 signer: 

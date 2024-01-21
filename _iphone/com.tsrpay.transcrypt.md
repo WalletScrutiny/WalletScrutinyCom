@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tsrpay.transcrypt.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-04-16
 signer: 

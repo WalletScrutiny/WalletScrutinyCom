@@ -4,7 +4,7 @@ title: Keystone Hardware Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.keystone.mobile
 appCountry: 
 released: 2021-06-01

@@ -8,19 +8,19 @@ appId: mn.telexa.app.www
 appCountry: mn
 idd: '1596968900'
 released: 2021-12-02
-updated: 2023-10-16
-version: '7.2'
-stars: 4.8
-reviews: 2811
-size: '55856128'
+updated: 2023-11-01
+version: '7.6'
+stars: 4.7
+reviews: 3166
+size: '56816640'
 website: https://www.telexa.mn/
 repository: 
 issue: 
 icon: mn.telexa.app.www.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-04-15
+verdict: nowallet
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,12 +3,12 @@ wsId:
 title: Coinweb Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.coinwebapp
 appCountry: 
 released: 2023-04-28
-updated: 2023-10-13
-version: 1.0.26
+updated: 2024-01-05
+version: 1.0.29
 stars: 
 ratings: 
 reviews: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.tippin.android.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-15
 signer: 

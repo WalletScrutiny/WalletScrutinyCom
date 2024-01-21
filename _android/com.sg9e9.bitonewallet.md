@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.sg9e9.bitonewallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-04
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.kcw.kcash.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-04-07
 signer: 

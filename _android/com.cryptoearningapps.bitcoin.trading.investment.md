@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptoearningapps.bitcoin.trading.investment.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

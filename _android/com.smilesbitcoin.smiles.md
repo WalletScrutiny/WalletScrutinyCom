@@ -8,11 +8,11 @@ users: 50000
 appId: com.smilesbitcoin.smiles
 appCountry: us
 released: 2020-12-15
-updated: 2023-10-10
-version: 2.6.1
-stars: 3.7
+updated: 2023-12-11
+version: 2.7.4
+stars: 2.9
 ratings: 208
-reviews: 168
+reviews: 186
 size: 
 website: https://www.smilesbitcoin.com/
 repository: 

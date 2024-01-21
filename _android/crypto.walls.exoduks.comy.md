@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: crypto.walls.exoduks.comy.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-10-30
 signer: 

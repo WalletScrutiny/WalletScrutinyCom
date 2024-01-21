@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: comp.kippoiiiuyy.kuipf.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

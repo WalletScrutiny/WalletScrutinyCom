@@ -8,11 +8,11 @@ users: 500000
 appId: com.everestti.kinvo
 appCountry: BR
 released: 2017-12-22
-updated: 2023-10-30
-version: 3.30.0
-stars: 3.8
+updated: 2024-01-10
+version: 3.35.0
+stars: 3.7
 ratings: 
-reviews: 6992
+reviews: 7089
 size: 
 website: http://www.kinvo.com.br
 repository: 

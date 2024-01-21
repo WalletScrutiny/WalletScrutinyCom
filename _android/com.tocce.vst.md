@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.tocce.vst.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-04-12
 signer: 

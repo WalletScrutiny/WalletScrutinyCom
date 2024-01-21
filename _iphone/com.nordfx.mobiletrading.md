@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nordfx.mobiletrading.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-10-21
 signer: 

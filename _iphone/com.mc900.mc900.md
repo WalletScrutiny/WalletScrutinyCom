@@ -8,11 +8,11 @@ appId: com.mc900.mc900
 appCountry: us
 idd: '1639509598'
 released: 2022-09-09
-updated: 2023-10-03
-version: 2.5.0
+updated: 2023-12-28
+version: 2.6.3
 stars: 5
 reviews: 1
-size: '72136704'
+size: '72968192'
 website: https://www.headline.net/
 repository: 
 issue: 

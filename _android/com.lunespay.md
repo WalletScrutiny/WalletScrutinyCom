@@ -19,9 +19,9 @@ repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
 icon: com.lunespay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-08-01
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: LunesPlatform

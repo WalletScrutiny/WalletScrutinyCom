@@ -19,12 +19,13 @@ issue:
 icon: com.wbtcb.bitstock.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-04-13
+verdict: nowallet
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.bit.plus/
 features: 
 developerName: IP wBTCB solutions, s.r.o.
 

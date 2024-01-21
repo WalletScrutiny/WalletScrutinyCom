@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ukcoin.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-06-07
 signer: 

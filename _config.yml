@@ -147,7 +147,7 @@ exclude:
   - vendor
   - resSources
   - scripts
-  - "refresh*.js"
+  - "refresh*.mjs"
   - google-play-scraper
 keep_files:
   - .git

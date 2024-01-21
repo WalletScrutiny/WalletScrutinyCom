@@ -3,7 +3,7 @@ wsId:
 title: SendThe.Cash
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sendthe.cash
 appCountry: 
 released: 2022-08-17
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sendthe.cash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

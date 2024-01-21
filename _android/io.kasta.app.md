@@ -4,12 +4,12 @@ title: 'Ka.app: Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.kasta.app
 appCountry: 
 released: 
-updated: 2023-09-25
-version: 1.27.113-prod-1cbe0a6
+updated: 2023-12-08
+version: 1.27.115-prod-105a6f8
 stars: 
 ratings: 
 reviews: 

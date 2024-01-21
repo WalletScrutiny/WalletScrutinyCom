@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: trade.iqforex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-12-22
 signer: 

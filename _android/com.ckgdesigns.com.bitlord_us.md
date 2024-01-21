@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ckgdesigns.com.bitlord_us.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-04
 signer: 

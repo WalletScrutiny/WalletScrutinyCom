@@ -12,7 +12,7 @@ updated: 2023-01-27
 version: 1.5.1
 stars: 4.8
 ratings: 
-reviews: 222
+reviews: 219
 size: 
 website: https://ricewallet.io/
 repository: 

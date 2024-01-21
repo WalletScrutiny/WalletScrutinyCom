@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cme.dpexbank.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

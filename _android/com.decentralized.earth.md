@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.decentralized.earth.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2023-09-04
 signer: 

@@ -4,15 +4,15 @@ title: 'Bitstamp: Buy Crypto Simply'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
-updated: 2023-10-05
-version: 1.5.1
-stars: 
+updated: 2023-12-18
+version: '1.7'
+stars: 4
 ratings: 
-reviews: 
+reviews: 8
 size: 
 website: https://www.bitstamp.net
 repository: 

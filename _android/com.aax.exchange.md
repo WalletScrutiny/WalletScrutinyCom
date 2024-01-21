@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aax.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-10-30
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: AAXExchange

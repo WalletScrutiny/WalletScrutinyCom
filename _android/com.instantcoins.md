@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.instantcoins.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
-date: 2023-03-26
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: instantcoins_ng

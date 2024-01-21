@@ -12,16 +12,16 @@ updated: 2023-08-26
 version: 2.0.2
 stars: 4.5
 ratings: 729
-reviews: 64
+reviews: 65
 size: 
 website: https://coinhub8899.web.app
 repository: 
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fake
-date: 2023-08-27
+date: 2023-12-19
 signer: 
 reviewArchive:
 - date: 2021-06-04

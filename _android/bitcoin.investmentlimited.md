@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: bitcoin.investmentlimited.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-30
 signer: 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: truedex
 title: TrueDEX - Trading Unleashed
 altTitle: 
 authors: 

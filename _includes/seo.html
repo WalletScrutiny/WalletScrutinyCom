@@ -19,7 +19,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ seo_title | default: site.title }}</title>
+<title>{{ seo_title | default: site.title | escape }}</title>
 
 {% if site.og_image %}
   {% assign og_image = site.og_image | prepend: "/images/" | prepend: base_url %}

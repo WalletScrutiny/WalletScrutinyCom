@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.leadwallet.io.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-10-30
 signer: 

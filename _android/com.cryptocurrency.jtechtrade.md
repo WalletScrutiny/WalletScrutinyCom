@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptocurrency.jtechtrade.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-01
 signer: 

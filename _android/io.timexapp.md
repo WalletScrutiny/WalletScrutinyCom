@@ -4,7 +4,7 @@ title: TimeX
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.timexapp
 appCountry: 
 released: 2023-01-27

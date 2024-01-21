@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: uni.UNI3DBC1A7.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-18
 signer: 
 reviewArchive: 
 twitter: 

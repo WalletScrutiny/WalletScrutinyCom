@@ -19,7 +19,7 @@ repository: https://github.com/EdgeApp/airbitz-android-gui
 issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: ftbfs
 date: 2021-12-29
 signer: 

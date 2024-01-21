@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lumiwallet.HD.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-06-16
 signer: 

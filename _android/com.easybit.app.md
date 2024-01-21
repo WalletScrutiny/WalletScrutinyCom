@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.easybit.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-23
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: EasyBit_com

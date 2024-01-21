@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-04-25
 signer: 

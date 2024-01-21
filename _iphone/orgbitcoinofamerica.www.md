@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: orgbitcoinofamerica.www.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-08-04
 signer: 

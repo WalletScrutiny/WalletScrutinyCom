@@ -8,11 +8,11 @@ users: 10000
 appId: app.pxq.android
 appCountry: 
 released: 2023-04-19
-updated: 2023-10-24
-version: 1.0.12
-stars: 4.3
+updated: 2023-11-03
+version: 1.0.13
+stars: 4.4
 ratings: 
-reviews: 18
+reviews: 31
 size: 
 website: https://pxq.app
 repository: 

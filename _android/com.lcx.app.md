@@ -8,11 +8,11 @@ users: 10000
 appId: com.lcx.app
 appCountry: 
 released: 2021-10-26
-updated: 2023-10-23
-version: 2.2.29
-stars: 3.1
+updated: 2024-01-16
+version: 2.2.41
+stars: 3.2
 ratings: 
-reviews: 34
+reviews: 36
 size: 
 website: https://lcx.com
 repository: 

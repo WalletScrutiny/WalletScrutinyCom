@@ -12,7 +12,7 @@ updated: 2023-07-05
 version: '2.10'
 stars: 4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://help.sellix.io
 repository: 

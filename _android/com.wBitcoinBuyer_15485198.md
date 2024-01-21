@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wBitcoinBuyer_15485198.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

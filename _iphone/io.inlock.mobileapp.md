@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.inlock.mobileapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-10
 signer: 

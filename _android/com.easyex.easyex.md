@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.easyex.easyex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-16
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.huobilbn.appstore.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-12-17
 signer: 

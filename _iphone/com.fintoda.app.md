@@ -8,11 +8,11 @@ appId: com.fintoda.app
 appCountry: us
 idd: '1582196311'
 released: 2021-09-02
-updated: 2023-08-31
-version: 1.5.4
+updated: 2023-12-21
+version: 1.5.5
 stars: 0
 reviews: 0
-size: '31157248'
+size: '31092736'
 website: 
 repository: 
 issue: 

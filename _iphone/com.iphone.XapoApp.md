@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.iphone.XapoApp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-08-06
 signer: 

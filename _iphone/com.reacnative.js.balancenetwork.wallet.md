@@ -8,11 +8,11 @@ appId: com.reacnative.js.balancenetwork.wallet
 appCountry: tr
 idd: '1658310376'
 released: 2022-12-12
-updated: 2023-04-24
-version: 1.0.5
+updated: 2023-12-22
+version: 1.1.0
 stars: 5
-reviews: 9
-size: '35101696'
+reviews: 10
+size: '36255744'
 website: https://wallet-balancenetwork.io/
 repository: 
 issue: 
@@ -33,7 +33,7 @@ social:
 - https://t.me/BalanceNetwork
 - https://www.instagram.com/balancenetwork
 features: 
-developerName: Balance Network Ltd
+developerName: BALANCE NETWORK SP ZOO
 
 ---
 

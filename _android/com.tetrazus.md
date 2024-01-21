@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tetrazus.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

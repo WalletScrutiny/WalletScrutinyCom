@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.unocoin.mainapp.production.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-04-16
 signer: 
