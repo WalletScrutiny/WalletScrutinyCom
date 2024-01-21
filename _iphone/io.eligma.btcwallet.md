@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.eligma.btcwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-04
+date: 2024-01-21
 signer: 
 reviewArchive: 
 twitter: GoCrypto_

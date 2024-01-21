@@ -12,7 +12,7 @@ updated: 2023-12-28
 version: 2.75.0
 stars: 4.3
 ratings: 22753
-reviews: 126
+reviews: 127
 size: 
 website: http://www.xtb.com
 repository: 

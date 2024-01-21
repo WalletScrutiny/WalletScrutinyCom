@@ -11,7 +11,7 @@ updated: 2024-01-19
 version: 2.3.5.00
 stars: 3.6
 ratings: 5659
-reviews: 579
+reviews: 578
 size: 
 website: https://www.pionex.com
 repository: 

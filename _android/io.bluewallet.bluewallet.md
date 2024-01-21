@@ -14,7 +14,7 @@ updated: 2024-01-18
 version: 6.4.16
 stars: 4
 ratings: 1810
-reviews: 296
+reviews: 297
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

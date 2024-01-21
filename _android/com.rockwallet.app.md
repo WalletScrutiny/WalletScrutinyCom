@@ -12,7 +12,7 @@ updated: 2024-01-16
 version: 5.12.2
 stars: 3.8
 ratings: 
-reviews: 48
+reviews: 49
 size: 
 website: http://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-android
