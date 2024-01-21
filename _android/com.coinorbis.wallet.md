@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinorbis.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-12-22
 signer: 

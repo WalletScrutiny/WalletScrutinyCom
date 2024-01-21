@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.bitafrika.com.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-17
 signer: 

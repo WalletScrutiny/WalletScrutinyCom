@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradeatf.global.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-03-07
 signer: 

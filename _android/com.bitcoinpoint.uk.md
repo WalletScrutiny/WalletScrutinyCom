@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinpoint.uk.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

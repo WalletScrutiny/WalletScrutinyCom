@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cxihub.cxihubapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-30
 signer: 
 reviewArchive: 
 twitter: 

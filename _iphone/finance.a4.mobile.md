@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: finance.a4.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-10-16
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: me.coinpal.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-02-10
 signer: 

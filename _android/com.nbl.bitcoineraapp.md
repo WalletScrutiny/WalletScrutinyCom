@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nbl.bitcoineraapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-08-20
 signer: 

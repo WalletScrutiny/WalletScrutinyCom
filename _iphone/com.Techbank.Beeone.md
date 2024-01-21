@@ -1,5 +1,5 @@
 ---
-wsId: TECHBANK
+wsId: techbankBeeone
 title: TECHBANK
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ appId: com.Techbank.Beeone
 appCountry: 
 idd: 1473120022
 released: 2019-07-19
-updated: 2023-09-11
-version: 1.0.61
-stars: 4.3
-reviews: 19
-size: '83460096'
+updated: 2024-01-12
+version: 1.0.62
+stars: 4.4
+reviews: 22
+size: '78481408'
 website: https://techbank.finance/
 repository: 
 issue: 
@@ -29,6 +29,20 @@ features:
 developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---
+
+There are multiple apps in our list with a similar name of 'TechBank'.  
+
+### TechBank BeeOne
+
+{% include walletLink.html wallet='android/com.beeone.techbank' verdict='true' %}
+{% include walletLink.html wallet='iphone/com.Techbank.Beeone' verdict='true' %}
+
+### TechBank DWallet
+
+{% include walletLink.html wallet='android/com.techbank_dwallet' verdict='true' %}
+{% include walletLink.html wallet='iphone/com.techbank.dwallettb' verdict='true' %}
+
+## Analysis 
 
 They claim a million "members" and list big banks as their "acquirers" but there
 is little to back those claims. 10k downloads on Play Store and eight ratings on

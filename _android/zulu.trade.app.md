@@ -12,7 +12,7 @@ updated: 2023-11-23
 version: 5.0.19
 stars: 3.8
 ratings: 2010
-reviews: 66
+reviews: 65
 size: 
 website: https://www.zulutrade.com
 repository: 

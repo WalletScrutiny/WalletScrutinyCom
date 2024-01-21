@@ -8,11 +8,11 @@ appId: com.btse.BTSE
 appCountry: ng
 idd: 1494556510
 released: 2020-04-13
-updated: 2023-11-11
-version: 1.74.3
-stars: 4.2
-reviews: 13
-size: '139618304'
+updated: 2024-01-12
+version: 1.77.1
+stars: 4.3
+reviews: 14
+size: '137387008'
 website: https://btse.com
 repository: 
 issue: 

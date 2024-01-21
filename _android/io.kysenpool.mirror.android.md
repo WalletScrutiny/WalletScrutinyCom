@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.kysenpool.mirror.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2021-10-22
 signer: 

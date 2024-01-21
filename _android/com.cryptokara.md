@@ -4,7 +4,7 @@ title: CryptoKara
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.cryptokara
 appCountry: 
 released: 2021-09-28
@@ -12,7 +12,7 @@ updated: 2023-10-23
 version: 1.7.2
 stars: 4.1
 ratings: 
-reviews: 110
+reviews: 112
 size: 
 website: https://www.cryptokara.com/
 repository: 

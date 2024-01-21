@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.app.traderzspace_cryptoexchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-28
 signer: 

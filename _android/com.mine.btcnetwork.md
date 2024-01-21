@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.mine.btcnetwork.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-08-16
 signer: 

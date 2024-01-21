@@ -8,11 +8,11 @@ users: 100000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2023-09-05
-version: 3.3.8 'Pocket Change'
+updated: 2023-12-10
+version: 3.3.10 'Argentina'
 stars: 3.3
 ratings: 821
-reviews: 172
+reviews: 173
 size: 
 website: https://monerujo.io/
 repository: 

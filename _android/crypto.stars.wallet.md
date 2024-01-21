@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: crypto.stars.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-06-12
 signer: 

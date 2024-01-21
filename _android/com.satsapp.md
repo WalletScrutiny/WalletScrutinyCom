@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.satsapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2020-07-31
 signer: 

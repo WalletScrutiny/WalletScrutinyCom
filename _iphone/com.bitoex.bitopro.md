@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitoex.bitopro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-05
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BitoEX_Official

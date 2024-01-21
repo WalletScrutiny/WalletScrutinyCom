@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bytetrade.bytehub.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-09-15
 signer: 

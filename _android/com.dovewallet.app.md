@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.dovewallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-05-31
 signer: 

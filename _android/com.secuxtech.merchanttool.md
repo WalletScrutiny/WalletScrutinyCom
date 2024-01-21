@@ -7,8 +7,8 @@ users: 50
 appId: com.secuxtech.merchanttool
 appCountry: 
 released: 2020-05-22
-updated: 2023-11-17
-version: 2.2.0
+updated: 2023-12-19
+version: 2.2.1
 stars: 
 ratings: 
 reviews: 

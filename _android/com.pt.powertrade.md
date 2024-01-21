@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: powerTrade
 title: PowerTrade
 altTitle: 
 authors:
@@ -24,7 +24,7 @@ verdict: custodial
 date: 2023-06-02
 signer: 
 reviewArchive: 
-twitter: 
+twitter: powertradehq
 social: 
 redirect_from: 
 developerName: PowerTrade

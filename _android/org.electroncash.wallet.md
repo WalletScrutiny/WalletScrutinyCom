@@ -9,9 +9,9 @@ appCountry:
 released: 2018-12-08
 updated: 2023-03-21
 version: 4.2.14-6
-stars: 4.1
+stars: 4.2
 ratings: 191
-reviews: 13
+reviews: 14
 size: 
 website: https://electroncash.org
 repository: 

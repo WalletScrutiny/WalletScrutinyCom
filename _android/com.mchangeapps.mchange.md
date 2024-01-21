@@ -7,8 +7,8 @@ users: 500
 appId: com.mchangeapps.mchange
 appCountry: 
 released: 2021-09-01
-updated: 2021-09-02
-version: '1.0'
+updated: 2023-12-21
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mchangeapps.mchange.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-08-27
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: 

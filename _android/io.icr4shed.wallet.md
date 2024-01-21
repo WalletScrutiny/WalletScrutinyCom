@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.icr4shed.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-09-28
 signer: 

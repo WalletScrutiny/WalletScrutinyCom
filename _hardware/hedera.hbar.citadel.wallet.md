@@ -25,7 +25,7 @@ icon: hedera.hbar.citadel.wallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-11-10
+date: 2022-12-11
 signer: 
 reviewArchive: 
 twitter: citadelwallet
@@ -33,6 +33,8 @@ social:
 features: 
 
 ---
+
+**UPDATE:** As of December 11, 2023 it has made progress towards "Wallet Prototype Beta Testing" and claims Software Firmware will be completed in Q1 of 2024. Pre-ordered hardware wallets will be delivered in Q2.
 
 ## Product Description 
 
@@ -60,4 +62,3 @@ features:
 ## Analysis 
 
 The product is **not yet available** for the general market.
-

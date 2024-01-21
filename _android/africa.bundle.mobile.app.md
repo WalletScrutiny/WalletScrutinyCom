@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: africa.bundle.mobile.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-04-19
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

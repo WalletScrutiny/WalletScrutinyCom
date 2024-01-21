@@ -4,12 +4,12 @@ title: Unioncash
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.union.cash
 appCountry: 
 released: 2021-06-25
-updated: 2023-08-30
-version: 1.2.5
+updated: 2023-12-27
+version: 1.2.9
 stars: 
 ratings: 
 reviews: 
@@ -20,11 +20,11 @@ issue:
 icon: com.union.cash.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-07
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
+twitter: unioncash_eu
 social: 
 redirect_from: 
 developerName: Union Cash
@@ -59,3 +59,9 @@ UnionCash Euro accounts support withdrawals to international bank accounts (IBAN
 - We emailed the developer contact: service@union.cash
 - This could either go two ways: custodial or no-btc support. 
 - We'll mark this as a **work-in-progress** until more information is available.
+
+**Update 2023-11-17** 
+
+Five months later, and the provider has not replied. We can glean the following facts: the provider gives the user a wallet, the provider is authorized by the Financial Crimes Investigation Unit (Lithuania), the provider requires KYC, usage of the app is exclusively licensed to the user and is not sublicensable, the IP (ie the app) cannot be reverse-engineered, and the agreement has a termination clause. 
+
+We cannot find in any of its documentation information about how the private keys are kept. Therefore, we assume that it is under the control of the provider, making this app **custodial**.

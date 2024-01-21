@@ -7,8 +7,8 @@ users: 100
 appId: app.wallet.crypto
 appCountry: 
 released: 2021-10-30
-updated: 2023-10-05
-version: 2.0.0
+updated: 2024-01-12
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 

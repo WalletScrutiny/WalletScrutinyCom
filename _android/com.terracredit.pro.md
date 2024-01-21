@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.terracredit.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-09-15
 signer: 

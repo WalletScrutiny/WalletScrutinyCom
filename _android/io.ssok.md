@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ssok.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-08-15
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

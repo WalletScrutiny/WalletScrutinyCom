@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.b21.invest.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-30
 signer: 

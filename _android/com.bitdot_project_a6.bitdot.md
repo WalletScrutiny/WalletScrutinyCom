@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitdot_project_a6.bitdot.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

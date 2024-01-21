@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.thecryptoapps.buy.crypto.india.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-28
 signer: 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: breez
 title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:

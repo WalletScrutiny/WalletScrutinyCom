@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cme.ecoinexV1.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-22
 signer: 

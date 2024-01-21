@@ -1,6 +1,6 @@
 ---
 wsId: cobowallet
-title: 'Cobo: Support crypto savings, PoS, gain products.'
+title: Cobo Wallet
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ users: 100000
 appId: cobo.wallet
 appCountry: 
 released: 2018-07-01
-updated: 2022-04-14
-version: 5.19.3
+updated: 2023-11-06
+version: 5.19.9
 stars: 3.2
 ratings: 4018
-reviews: 61
-size: 70M
+reviews: 60
+size: 
 website: https://cobo.com
 repository: 
 issue: 
@@ -33,7 +33,7 @@ redirect_from:
 - /cobo.wallet/
 - /posts/2019/11/cobo/
 - /posts/cobo.wallet/
-developerName: 
+developerName: Cobo Ltd - Crypto Wallet for BTC, ETH, EOS, VET.
 features: 
 
 ---

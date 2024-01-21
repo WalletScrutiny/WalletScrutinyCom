@@ -12,7 +12,7 @@ updated: 2023-11-12
 version: 1.1.0
 stars: 3.9
 ratings: 
-reviews: 57
+reviews: 59
 size: 
 website: https://glimnetwork.com
 repository: 

@@ -8,11 +8,11 @@ appId: inx.co
 appCountry: us
 idd: '1601656456'
 released: 2022-06-11
-updated: 2023-02-12
-version: 2.0.5
-stars: 4.6
-reviews: 11
-size: '37054464'
+updated: 2024-01-11
+version: 2.0.6
+stars: 4.1
+reviews: 13
+size: '37974016'
 website: 
 repository: 
 issue: 

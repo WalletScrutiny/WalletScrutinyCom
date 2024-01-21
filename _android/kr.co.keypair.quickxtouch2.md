@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-03-07
 signer: 

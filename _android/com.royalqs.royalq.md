@@ -10,11 +10,11 @@ appCountry:
 released: 2021-03-19
 updated: 2023-11-23
 version: 5.2.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 145
+reviews: 150
 size: 
-website: https://royalqs.com/
+website: https://www.royalqs.com/
 repository: 
 issue: 
 icon: com.royalqs.royalq.png

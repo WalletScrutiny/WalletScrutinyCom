@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.trusteeplus1.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-15
 signer: 

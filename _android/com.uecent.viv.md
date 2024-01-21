@@ -3,7 +3,7 @@ wsId:
 title: VIV.com
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.uecent.viv
 appCountry: 
 released: 2022-09-22

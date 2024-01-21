@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Bitriel: Crypto & Bitcoin Wallet'
+title: 'Bitriel: digital wallet'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 10000
 appId: com.selendra.secure_wallet
 appCountry: 
 released: 2021-02-22
-updated: 2022-02-15
-version: 3.4.0
+updated: 2023-12-13
+version: 9.0.3
 stars: 4.2
 ratings: 96
 reviews: 4
-size: 74M
+size: 
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
 issue: https://github.com/bitriel/bitriel-wallet/issues/26
@@ -28,7 +28,7 @@ twitter: SelendraChain
 social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from: 
-developerName: 
+developerName: KOOMPI
 features: 
 
 ---

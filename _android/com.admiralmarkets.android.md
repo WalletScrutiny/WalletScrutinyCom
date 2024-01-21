@@ -1,6 +1,6 @@
 ---
 wsId: AdmiralMarkets
-title: Stocks・Forex trading・Admirals
+title: Admirals・Stocks・Forex trading
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.admiralmarkets.android
 appCountry: us
 released: 2020-10-07
-updated: 2023-11-29
-version: 1.8.1
+updated: 2023-12-21
+version: 1.8.3
 stars: 4.2
 ratings: 
 reviews: 4

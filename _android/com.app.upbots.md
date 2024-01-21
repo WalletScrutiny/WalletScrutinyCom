@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.upbots.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-05-11
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: upbots

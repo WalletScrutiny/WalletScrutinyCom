@@ -19,7 +19,7 @@ repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: ftbfs
 date: 2021-09-19
 signer: 

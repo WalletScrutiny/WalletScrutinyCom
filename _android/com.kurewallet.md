@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.kurewallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-07-15
 signer: 

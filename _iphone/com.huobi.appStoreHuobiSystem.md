@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2023-11-22
-version: 10.13.0
+updated: 2024-01-19
+version: 10.17.0
 stars: 3.9
-reviews: 1238
-size: '260594688'
+reviews: 1254
+size: '261976064'
 website: https://www.huobi.com
 repository: 
 issue: 

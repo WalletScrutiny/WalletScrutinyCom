@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.devere.cryptoapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2023-05-10
 signer: 

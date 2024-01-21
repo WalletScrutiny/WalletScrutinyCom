@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.okinc.info.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-04-25
 signer: 

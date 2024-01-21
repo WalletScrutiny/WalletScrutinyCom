@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptostone.ewallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-04
 signer: 

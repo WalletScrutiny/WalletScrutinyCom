@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.nova.dax.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-03-21
 signer: 

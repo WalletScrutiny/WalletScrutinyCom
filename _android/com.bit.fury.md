@@ -3,7 +3,7 @@ wsId:
 title: Bitfury
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bit.fury
 appCountry: 
 released: 2022-10-17

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ctskola.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-04
 signer: 

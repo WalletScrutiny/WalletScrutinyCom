@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: artifyapp.com.coconut.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

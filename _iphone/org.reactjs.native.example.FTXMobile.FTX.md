@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

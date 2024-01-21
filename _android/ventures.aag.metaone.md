@@ -1,6 +1,6 @@
 ---
 wsId: metaOneNFT
-title: 'MetaOne: NFT & Crypto Wallet'
+title: 'Saakuru: All-in-one Crypto App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: ventures.aag.metaone
 appCountry: 
 released: 2022-12-22
-updated: 2023-11-15
-version: 4.1.0
-stars: 4.4
+updated: 2024-01-12
+version: 5.1.0
+stars: 4.3
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://getmeta.one/
 repository: 

@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: skrill
 title: Skrill - Fast, secure payments
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.moneybookers.skrillpayments
 appCountry: 
 released: 2013-10-29
-updated: 2023-11-29
-version: 3.124.0-2023111514
+updated: 2024-01-16
+version: 3.126.2-2024010308
 stars: 4.4
 ratings: 142059
-reviews: 2970
+reviews: 3001
 size: 
 website: https://www.skrill.com
 repository: 

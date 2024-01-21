@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.patricia.build.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-29
 signer: 

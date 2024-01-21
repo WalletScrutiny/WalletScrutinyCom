@@ -11,7 +11,7 @@ released: 2021-05-12
 updated: 2022-05-14
 version: 2.0.4
 stars: 4.7
-reviews: 26
+reviews: 27
 size: '71064576'
 website: https://www.beastminers.com
 repository: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-10-01
 signer: 

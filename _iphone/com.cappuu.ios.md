@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cappuu.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-09-07
+date: 2023-12-29
 signer: 
 reviewArchive: 
 twitter: Coinomo_EN

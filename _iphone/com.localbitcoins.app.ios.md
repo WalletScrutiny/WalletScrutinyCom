@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.localbitcoins.app.ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-04-16
 signer: 

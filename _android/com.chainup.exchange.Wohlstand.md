@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.chainup.exchange.Wohlstand.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-04
 signer: 

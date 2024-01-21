@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.net_cents.netcents2.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-11
 signer: 

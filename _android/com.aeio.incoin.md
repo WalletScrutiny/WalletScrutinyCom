@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.aeio.incoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-06-21
 signer: 

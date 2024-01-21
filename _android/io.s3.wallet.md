@@ -10,11 +10,11 @@ appCountry:
 released: 2020-01-29
 updated: 2021-02-20
 version: 2.1.2
-stars: 4.3
+stars: 
 ratings: 61
-reviews: 36
-size: 7.3M
-website: https://www.s3wallet.io/
+reviews: 
+size: 
+website: https://s3wallet.io
 repository: 
 issue: 
 icon: io.s3.wallet.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: S3 Global Technology Ltd
 features: 
 
 ---

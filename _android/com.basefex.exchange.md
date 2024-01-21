@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.basefex.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-01-15
 signer: 

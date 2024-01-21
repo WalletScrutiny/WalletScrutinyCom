@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: dashboard.elegro.io.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

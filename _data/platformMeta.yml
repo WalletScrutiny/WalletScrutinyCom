@@ -22,6 +22,7 @@ android:
     - obsolete
     - stale
     - outdated
+    - removed
     - deprecated
 iphone:
   description: >
@@ -68,6 +69,7 @@ iphone:
     - obsolete
     - stale
     - outdated
+    - removed
     - deprecated
 hardware:
   description: >

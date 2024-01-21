@@ -1,6 +1,6 @@
 ---
 wsId: prestoGiftcards
-title: 'Presto: Sell Giftcards & Coins'
+title: 'Presto: Sell Giftcards'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.company.presto
 appCountry: ng
 idd: '1644015124'
 released: 2022-11-22
-updated: 2023-03-10
-version: '2.2'
-stars: 4
-reviews: 12
-size: '19219456'
+updated: 2024-01-16
+version: '2.5'
+stars: 4.4
+reviews: 13
+size: '23552000'
 website: https://prestohq.io/
 repository: 
 issue: 

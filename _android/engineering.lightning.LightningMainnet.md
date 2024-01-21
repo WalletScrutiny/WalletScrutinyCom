@@ -18,7 +18,7 @@ repository: https://github.com/lightninglabs/lightning-app
 issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-02-04
 signer: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cbc.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-23
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

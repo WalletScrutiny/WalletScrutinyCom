@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.cryptoplane.app.cryptoplane.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-04
 signer: 

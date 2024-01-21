@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sonikchain.sonidex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 5000
 appId: com.gluwa.android
 appCountry: 
 released: 2015-09-20
-updated: 2023-11-20
-version: 8.5.0
+updated: 2023-12-20
+version: 8.6.1
 stars: 3.4
 ratings: 
 reviews: 3

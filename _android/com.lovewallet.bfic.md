@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.lovewallet.bfic.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-30
 signer: 

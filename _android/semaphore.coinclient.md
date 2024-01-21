@@ -8,13 +8,13 @@ users: 10000
 appId: semaphore.coinclient
 appCountry: 
 released: 2018-05-14
-updated: 2021-09-10
-version: 1.50.50
-stars: 3.3
+updated: 2022-11-03
+version: 1.52.52
+stars: 
 ratings: 55
-reviews: 33
-size: 36M
-website: https://cointong.io/
+reviews: 
+size: 
+website: http://cointong.io/
 repository: 
 issue: 
 icon: semaphore.coinclient.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Tomato Group
 features: 
 
 ---

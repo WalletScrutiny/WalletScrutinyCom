@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.citex.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-08-25
 signer: 

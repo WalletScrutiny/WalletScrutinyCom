@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: prizmbit.com.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-02
 signer: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.lyotrade
 appCountry: 
 released: 2022-06-30
-updated: 2023-10-04
-version: 3.0.1
+updated: 2023-12-17
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 

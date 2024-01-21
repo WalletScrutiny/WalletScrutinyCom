@@ -1,20 +1,20 @@
 ---
 wsId: 
-title: Hotcoin
+title: HotcoinEx
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 10000
 appId: com.pro.hot
 appCountry: 
 released: 2021-05-27
-updated: 2021-08-11
-version: 3.7.0
-stars: 3.1
+updated: 2023-12-14
+version: 4.9.8
+stars: 2.8
 ratings: 10
-reviews: 6
-size: 33M
-website: 
+reviews: 4
+size: 
+website: https://hotcoin.com/
 repository: 
 issue: 
 icon: com.pro.hot.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Hotcoin global
 features: 
 
 ---

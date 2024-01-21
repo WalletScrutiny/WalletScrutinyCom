@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.httpsarearn.arearn.com.roywallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

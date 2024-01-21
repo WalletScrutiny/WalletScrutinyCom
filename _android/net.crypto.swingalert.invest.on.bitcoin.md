@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: net.crypto.swingalert.invest.on.bitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-23
 signer: 

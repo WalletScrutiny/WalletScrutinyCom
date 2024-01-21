@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.seadex.seadex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2026-06-02
 signer: 

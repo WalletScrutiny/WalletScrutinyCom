@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-18
 signer: 

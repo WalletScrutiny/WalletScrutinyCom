@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.cryptocloud.mining.coin.mine.bitcrypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-11-16
 signer: 

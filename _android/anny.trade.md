@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: annyTrade
 title: Anny.trade
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: anny.trade
 appCountry: 
@@ -19,11 +20,11 @@ issue:
 icon: anny.trade.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nowallet
+date: 2023-12-02
 signer: 
 reviewArchive: 
-twitter: 
+twitter: AnnyCrypto
 social: 
 redirect_from: 
 developerName: Anny.trade
@@ -31,3 +32,10 @@ features:
 
 ---
 
+## App Description from Google Play
+
+On Anny.trade, you can safely trade through your favourite crypto exchange with the help of smart trading, investment bots, signal groups, and trade management.
+
+## Analysis 
+
+We were **not able to find any wallet** on the app.

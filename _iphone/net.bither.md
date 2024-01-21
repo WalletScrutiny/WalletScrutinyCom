@@ -9,8 +9,8 @@ idd: 899478936
 released: 2014-07-25
 updated: 2023-11-28
 version: 2.1.1
-stars: 3
-reviews: 53
+stars: 3.1
+reviews: 55
 size: '13291520'
 website: https://bither.net
 repository: https://github.com/bither/bither-ios

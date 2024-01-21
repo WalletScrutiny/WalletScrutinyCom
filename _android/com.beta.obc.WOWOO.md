@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.beta.obc.WOWOO.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-06
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

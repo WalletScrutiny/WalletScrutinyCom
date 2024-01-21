@@ -10,7 +10,7 @@
 %}{% assign icon = base_path | append: '/images/tinyNoicon.png'
 %}{% endif
 %}<span class="wallet-link"><img class="app_logo" src="{{ icon }}" alt="Wallet Logo"> <a href="{{w.url}}">{{
-  w.altTitle | default: w.title }}</a>{% if include.verdict %}&nbsp;{%
+  w.altTitle | default: w.title | escape }}</a>{% if include.verdict %}&nbsp;{%
   include verdictBadge.html verdict=w.verdict type="short"
   %}{%if w.meta != "ok" %}{%
   include verdictBadge.html verdict=w.meta type="short"

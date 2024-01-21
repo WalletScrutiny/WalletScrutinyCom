@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: world.money.trade.worldmoneytrade.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-18
 signer: 

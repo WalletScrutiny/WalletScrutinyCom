@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bybis.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-07
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: ByBIS_Official

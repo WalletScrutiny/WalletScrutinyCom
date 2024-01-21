@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.buysellhodl.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2020-05-29
 signer: 

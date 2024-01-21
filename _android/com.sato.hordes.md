@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Hordes Wallet
+title: Hordes Wallet - Ordinals
 altTitle: 
 authors: 
 users: 10
 appId: com.sato.hordes
 appCountry: 
 released: 2023-08-04
-updated: 2023-11-24
+updated: 2024-01-19
 version: '1.0'
 stars: 
 ratings: 

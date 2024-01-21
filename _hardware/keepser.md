@@ -8,34 +8,92 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions: 
+dimensions:
+- 86
+- 54
+- 1
 weight: 
 provider: Keepser Group
 providerWebsite: 
 website: https://www.keepser.com/
-shop: 
+shop: https://www.keepser.com/shop
 country: AD
-price: 349EUR
+price: 149EUR
 repository: 
 issue: 
 icon: keepser.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-03-23
+verdict: plainkey
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: keepser
-social: 
+social:
+- https://www.linkedin.com/company/keepser
+- https://www.tiktok.com/@keepsercoldwallet
+- https://t.me/keepsercoldwallet
+- https://twitter.com/keepser
+- https://www.facebook.com/andorraKCW
+- https://www.youtube.com/channel/UC-5Wv-kmyo37UwtSSsKTkig
 features: 
 
 ---
 
-Keepser was [first made known via its twitter](https://twitter.com/keepser/status/1340752885420875779) account on December 21, 2020.
+- It works with a companion app {% include walletLink.html wallet='android/com.KeepserGroup.Keepser' verdict='true' %}
+- The app is geo-restricted, and requires NFC capability.
 
-It works with a companion app {% include walletLink.html wallet='android/com.KeepserGroup.Keepser' verdict='true' %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8NUle2y6w3A?si=GorfesfovQ3EzZRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Features 
+- [User Manual - PDF](https://www.keepser.com/pub/media/wysiwyg/manuals/Keepser-Cold-Wallet-User-Manual-EN.pdf)
+
+## Updated Review 2023-12-14
+
+The Pro and Pro+ models describes the function that allows the storage, management and exchange of cryptocurrencies. The **keys are shared with the companion app.**
+
+## Previous Review 2023-09-27
+
+Despite its name, "Keepser Cold Wallet", we find that the only function related to it being a wallet is that it can store private keys or seed phrases. 
+
+We did not find any documentation of its ability to sign transactions, generate wallets or receive cryptocurrencies via the public keys. 
+
+Nevertheless, we did find these statements in their Pro+ models, which make us want to take a secondary look: 
+
+> You can automatically generate your public address from your private key with this list of cryptocurrencies:
+
+and,
+
+> Store, manage, share and exchange your cryptocurrencies with just a tap (Only Pro and Pro+ models)
+
+We sent them a query via their website's [contact form](https://www.keepser.com/contact/index/), but for the meanwhile, mark this as **not a wallet**: 
+
+> Hello, 
+>
+> I am a researcher working for an Open Source organization called walletscrutiny. We look into apps and devices that claim to perform the functions of a bitcoin wallet. 
+>
+> We find your product very interesting. 
+>
+> But there are some points of clarification that we'd like to know: 
+> 
+> From our initial assessment, we see that the card definitively allows users to store private keys - but not sign transactions. Is this correct? 
+>
+> Yet, from your website, we see statements such as: 
+>
+> You can automatically generate your public address from your private key with this list of cryptocurrencies:
+>
+> While this is true, we don't see this in the documentation - unless we are mistaken. 
+>
+> For the meanwhile, absent proof that the device or the app can sign cryptocurrency transactions, we'll have to treat this like a hardware password manager. 
+>
+> We would appreciate your feedback.
+>
+> Thank you.
+
+
+
+## Previous Review 2022-03-23
+
+### Features 
 
 > - Possibility of storing 50 or 100 Keeps (usernames & passwords, bank cards, cryptocurrencies, seed phrases, loyalty cards).
 > - Contactless technology / NFC (Near Field Communication)
@@ -47,7 +105,7 @@ It works with a companion app {% include walletLink.html wallet='android/com.Kee
 > - Storage of several cryptocurrencies.
 > - Multilingual application in 3 languages: English, French, Spanish and soon available in other languages.
 
-## Card Variations
+### Card Variations
 
 The Keepser has 3 card models advertised for cold wallets:
 

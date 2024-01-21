@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: jb.tech.blockchainpro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-04-30
 signer: 

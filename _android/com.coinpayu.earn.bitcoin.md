@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-06
 updated: 2023-11-01
 version: 1.2.9
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 144
+reviews: 153
 size: 
 website: https://www.coinpayu.com
 repository: 

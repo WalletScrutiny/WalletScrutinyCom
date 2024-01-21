@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.binance.custody.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-21
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: CeffuGlobal

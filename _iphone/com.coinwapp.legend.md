@@ -8,11 +8,11 @@ appId: com.coinwapp.legend
 appCountry: us
 idd: '1494077068'
 released: 2020-01-14
-updated: 2023-04-19
-version: 9.5.26
-stars: 3.3
-reviews: 83
-size: '174373888'
+updated: 2024-01-17
+version: 9.9.1
+stars: 3.2
+reviews: 87
+size: '177752064'
 website: 
 repository: 
 issue: 
@@ -31,7 +31,7 @@ social:
 - https://medium.com/@coinwglobal23
 - https://www.instagram.com/coinw_exchange
 features: 
-developerName: LCT HOLDING SP Z O O
+developerName: COINW SP Z O O
 
 ---
 

@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.capital.trading.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-01-15
 signer: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.mitin.app.sw.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-02-16
 signer: 

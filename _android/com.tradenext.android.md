@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradenext.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-04
 signer: 

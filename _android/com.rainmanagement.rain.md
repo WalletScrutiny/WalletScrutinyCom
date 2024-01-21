@@ -8,11 +8,11 @@ users: 500000
 appId: com.rainmanagement.rain
 appCountry: bh
 released: 2018-11-02
-updated: 2023-11-30
-version: 3.1.25
+updated: 2023-12-18
+version: 3.1.29
 stars: 2.8
 ratings: 4531
-reviews: 3033
+reviews: 3056
 size: 
 website: https://rain.bh
 repository: 

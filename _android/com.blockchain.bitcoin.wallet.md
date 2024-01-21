@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fake
-date: 2023-08-27
+date: 2023-12-19
 signer: 
 reviewArchive:
 - date: 2021-06-04

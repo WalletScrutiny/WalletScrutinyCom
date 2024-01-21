@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.mobiletrade.fms.globaltradeatf.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2023-01-02
 signer: 

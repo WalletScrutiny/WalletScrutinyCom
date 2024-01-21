@@ -8,11 +8,11 @@ users: 10000
 appId: com.tatspace
 appCountry: 
 released: 2022-02-13
-updated: 2023-09-30
-version: 1.4.2
-stars: 3.3
+updated: 2024-01-10
+version: 1.4.5
+stars: 3.2
 ratings: 
-reviews: 5
+reviews: 7
 size: 
 website: https://www.tatcoin.com
 repository: 

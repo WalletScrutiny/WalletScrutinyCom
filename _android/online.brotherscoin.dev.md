@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: online.brotherscoin.dev.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-08
 signer: 

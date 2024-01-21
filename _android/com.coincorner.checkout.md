@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: coinCornerCheckout
 title: CoinCorner - Checkout
 altTitle: 
-authors: 
+authors:
+- danny
 users: 100
 appId: com.coincorner.checkout
 appCountry: 
@@ -20,7 +21,7 @@ icon: com.coincorner.checkout.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 

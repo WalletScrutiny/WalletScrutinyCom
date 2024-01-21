@@ -1,5 +1,5 @@
 ---
-wsId: Techbank
+wsId: techbankDWallet
 title: TechBank Dwallet
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ appId: com.techbank.dwallettb
 appCountry: in
 idd: 1535437806
 released: 2020-10-15
-updated: 2023-11-28
-version: 1.0.42
-stars: 0
-reviews: 0
-size: '117766144'
+updated: 2024-01-13
+version: 1.0.48
+stars: 5
+reviews: 2
+size: '119713792'
 website: https://techbank.finance
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-04
 updated: 2023-10-30
 version: 3.3.0
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://hitbtc.com/
 repository: 

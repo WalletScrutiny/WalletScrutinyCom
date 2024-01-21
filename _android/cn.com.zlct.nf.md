@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

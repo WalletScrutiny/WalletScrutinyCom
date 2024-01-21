@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-15
 updated: 2023-01-19
 version: 1.7.0
-stars: 2.8
+stars: 3.1
 ratings: 
 reviews: 3
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-12
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: BitGo

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

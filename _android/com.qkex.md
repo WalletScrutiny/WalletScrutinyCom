@@ -4,12 +4,12 @@ title: 'QKEx: Crypto Asset Service'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.qkex
 appCountry: 
 released: 2022-11-10
-updated: 2023-11-24
-version: 3.0.32
+updated: 2023-12-21
+version: 3.0.34
 stars: 
 ratings: 
 reviews: 

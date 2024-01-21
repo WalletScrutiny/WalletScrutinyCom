@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptoexpress.apptrading.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-06
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

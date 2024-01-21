@@ -8,11 +8,11 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2023-11-28
-version: 15.0.0
+updated: 2024-01-19
+version: 15.3.6
 stars: 3.8
 ratings: 26669
-reviews: 1380
+reviews: 1383
 size: 
 website: https://www.dopamineapp.com
 repository: 

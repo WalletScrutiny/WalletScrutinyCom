@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: safewallet.io.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-08-14
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: theamgen

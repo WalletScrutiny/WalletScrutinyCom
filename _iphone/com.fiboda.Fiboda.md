@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fiboda.Fiboda.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-01-15
 signer: 

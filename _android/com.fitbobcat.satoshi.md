@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.fitbobcat.satoshi.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2021-06-08
 signer: 

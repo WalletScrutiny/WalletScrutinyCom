@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.andromo.dev630323.app659193.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-09-15
 signer: 

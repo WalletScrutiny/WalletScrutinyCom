@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.hibana.hibana.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-11-26
 signer: 

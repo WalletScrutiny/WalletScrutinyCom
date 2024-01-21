@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.natiol.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-10-30
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: natiolinfinity

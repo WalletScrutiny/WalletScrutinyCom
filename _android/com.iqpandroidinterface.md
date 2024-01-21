@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.iqpandroidinterface.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: obfuscated
 date: 2023-01-02
 signer: 

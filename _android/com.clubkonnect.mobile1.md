@@ -4,15 +4,15 @@ title: clubkonnect
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.clubkonnect.mobile1
 appCountry: 
 released: 2017-10-31
-updated: 2023-10-25
-version: 2.0.29
-stars: 3.2
+updated: 2023-12-22
+version: 2.0.31
+stars: 3.1
 ratings: 
-reviews: 57
+reviews: 60
 size: 
 website: http://www.clubkonnect.com
 repository: 

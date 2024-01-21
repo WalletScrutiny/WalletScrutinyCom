@@ -3,15 +3,15 @@ wsId:
 title: BitcoLi Lightning wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitcoli.bitcoli
 appCountry: 
 released: 2023-01-13
-updated: 2023-11-09
-version: 1.0.7
-stars: 
+updated: 2024-01-16
+version: 1.0.16
+stars: 4
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://bitcoli.com
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinsecure.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-12-22
 signer: 

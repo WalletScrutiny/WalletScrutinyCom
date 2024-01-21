@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.bit4you.io.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-28
 signer: 

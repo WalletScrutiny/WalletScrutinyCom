@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.favorpay.favwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-01-16
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

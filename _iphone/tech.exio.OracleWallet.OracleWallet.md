@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: tech.exio.OracleWallet.OracleWallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-01-11
 signer: 

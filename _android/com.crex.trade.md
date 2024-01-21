@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crex.trade.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-05-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

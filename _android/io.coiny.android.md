@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.coiny.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-01-13
 signer: 

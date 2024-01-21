@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.raido.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-21
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: financialraido

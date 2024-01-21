@@ -58,16 +58,18 @@ layout: default
       {% if page.share %}
       <div class="spacer x2"></div>
 
-        <div class="tab-view">
-          <div class="labels">
-            <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
-            <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
-          </div>
-          <div class="payloads">
-            <div class="social-share active">{% include social-share.html %}</div>
-            <div class="embed-widget">{% include embed.html %}</div>
-          </div>
+      <div class="tab-view">
+        <div class="labels">
+          <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
+          <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
+          <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
         </div>
+        <div class="payloads">
+          <div class="social-share active">{% include social-share.html %}</div>
+          <div class="embed-widget">{% include embed_widget.html %}</div>
+          <div class="embed-image">{% include embed_image.html %}</div>
+        </div>
+      </div>
       {% endif %}
 
     </div>

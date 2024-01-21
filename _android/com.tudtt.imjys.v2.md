@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tudtt.imjys.v2.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-04
 signer: 

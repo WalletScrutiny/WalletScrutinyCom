@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.project.android.skenas.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-05
 signer: 

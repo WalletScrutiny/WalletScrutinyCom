@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bt360.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitnovo.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-02-10
 signer: 

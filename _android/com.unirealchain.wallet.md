@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.unirealchain.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-06-21
 signer: 

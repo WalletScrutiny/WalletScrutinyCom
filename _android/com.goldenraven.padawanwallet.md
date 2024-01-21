@@ -3,7 +3,7 @@ wsId:
 title: Padawan Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.goldenraven.padawanwallet
 appCountry: 
 released: 

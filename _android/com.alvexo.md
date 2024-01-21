@@ -4,7 +4,7 @@ title: Alvexo Online Trading Platform
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.alvexo
 appCountry: gb
 released: 2018-07-13

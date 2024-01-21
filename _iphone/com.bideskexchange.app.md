@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bideskexchange.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-21
 signer: 

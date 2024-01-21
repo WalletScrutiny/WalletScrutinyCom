@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.visionsoftware.vision.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-04-24
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: VisionCryptoApp

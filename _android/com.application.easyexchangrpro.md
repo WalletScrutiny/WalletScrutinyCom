@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.application.easyexchangrpro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-10
 signer: 

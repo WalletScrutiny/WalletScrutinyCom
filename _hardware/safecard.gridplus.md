@@ -37,7 +37,7 @@ features:
 
 [Here is an article](https://blog.gridplus.io/understanding-the-safecard-18fdd8722c7d) on Medium explaining how the {{ page.title }} works.
 
-{{ page.title }} is a PIN-protected card meant to backup seeds offline. This card does not have a screen interface as it is meant to be used with {% include walletLink.html wallet='hardware/lattice1' verdict='true' %}, a hardware wallet already hosting those features.
+{{ page.title }} is a PIN-protected card meant to backup seeds offline. This card does not have a screen interface as it is meant to be used with {% include walletLink.html wallet='hardware/io.gridplus.lattice1' verdict='true' %}, a hardware wallet already hosting those features.
 
 ## [Product Description](https://docs.gridplus.io/introduction/introduction-to-safecards)
 

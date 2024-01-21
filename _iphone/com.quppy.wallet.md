@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.quppy.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-16
 signer: 

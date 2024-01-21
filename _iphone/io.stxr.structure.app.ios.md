@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.stxr.structure.app.ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-10-16
 signer: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.g360s.SafeX.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-08-25
 signer: 

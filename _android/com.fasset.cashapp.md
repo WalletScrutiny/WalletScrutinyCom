@@ -4,12 +4,12 @@ title: Fasset - Buy Digital Assets
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.fasset.cashapp
 appCountry: 
 released: 2021-12-14
-updated: 2023-11-15
-version: '5.25'
+updated: 2023-12-22
+version: '5.27'
 stars: 
 ratings: 
 reviews: 

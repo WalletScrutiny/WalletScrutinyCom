@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.uni.uniexchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-30
 signer: 

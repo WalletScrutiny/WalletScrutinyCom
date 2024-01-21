@@ -8,11 +8,11 @@ appId: com.wake.weexprd
 appCountry: us
 idd: '1609350789'
 released: 2022-03-04
-updated: 2023-11-16
-version: 3.1.1
+updated: 2024-01-09
+version: 3.1.11
 stars: 2.7
-reviews: 21
-size: '141678592'
+reviews: 27
+size: '141953024'
 website: https://www.weex.com/en
 repository: 
 issue: 
