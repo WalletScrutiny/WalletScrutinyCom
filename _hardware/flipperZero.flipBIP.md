@@ -23,7 +23,7 @@ issue:
 icon: flipperZero.flipBIP.png
 bugbounty: 
 meta: ok
-verdict: noita
+verdict: nowallet
 date: 2023-12-22
 signer: 
 reviewArchive:
@@ -75,7 +75,7 @@ It was not explicitly mentioned whether the device can be used to send bitcoin. 
 
 **Update 2023-12-22**
 
-We got a reply and confirmed that the device cannot send bitcoins yet, much less display a confirmation on the screen. Without the ability to sign transactions, we could not consider this to be fully a wallet. It can store seed phrases and generate private keys. Although the Flipper Zero, can include this function in the future, while the signing functionality is not yet available, this device has a **bad interface**.
+We got a reply and confirmed that the device cannot send bitcoins yet, much less display a confirmation on the screen. Without the ability to sign transactions, we could not consider this to be fully a wallet. It can store seed phrases and generate private keys. The inability to sign transactions means this is **not a wallet**.
 
 ## Does the interface have a display screen and buttons which allows the user to confirm transaction details?
 
