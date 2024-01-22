@@ -49,4 +49,4 @@ Note: Google Play version to-follow.
 
 ## Analysis
 
-Apart from the fact that this app is currently not source-available, it is also **non-verifiable**.
+As this app is not source-available it's **not verifiable**.
