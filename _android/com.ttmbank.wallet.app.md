@@ -39,8 +39,8 @@ features:
 ## App Description from Google Play 
 
 > You can send, receive and store bitcoin and many other coins and tokens safely and securely with the MDAO Wallet mobile app: CryptoWallet.
-
-You can also use MDAO Wallet to access the latest dApps and platforms.
+>
+> You can also use MDAO Wallet to access the latest dApps and platforms.
 
 ## Analysis 
 

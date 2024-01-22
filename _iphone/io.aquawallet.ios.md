@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: aquaWallet
 title: AQUA Wallet
 altTitle: 
 authors:
