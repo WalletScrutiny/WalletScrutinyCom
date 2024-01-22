@@ -30,7 +30,7 @@ developerName: CONTRACTOR-ADVERTISING INC
 
 ---
 
-<div class="alertBox"><div>⚠️⚠️ WARNING ⚠️⚠️ This app has been marked as a <a href="https://twitter.com/craigraw/status/1743573811230863813">fake app by the provider</a>. The probability that it hosts malware is significant. If you have installed this, you may provide additional information and report to Apple.
+<div class="alertBox"><div>⚠️⚠️ WARNING ⚠️⚠️ This app has been marked as a <a href="https://twitter.com/craigraw/status/1743573811230863813">fake app by the provider of the original Sparrow Desktop wallet</a>. The probability that it hosts malware is significant. If you have installed this, you may provide additional information and report to Apple.
  </div> </div>
 
  **The original Sparrow software could be downloaded in [SparrowWallet.com](https://sparrowwallet.com/download/)**
