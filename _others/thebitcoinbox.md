@@ -35,4 +35,4 @@ features:
 
 ## Product Description
 
-The bitcoin box is a source-available bitcoin POS project that was unsuccessful in raising funds. It hasn't reached its funding goals and was discontinued. This can be classified as **vaporware**.
+The bitcoin box is a source-available bitcoin POS project that was unsuccessful in raising funds. It hasn't reached its funding goals. This can be classified as **vaporware**.

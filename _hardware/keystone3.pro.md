@@ -34,10 +34,14 @@ social:
 - https://discord.com/invite/6vEfPEJKJD 
 - https://t.me/KeystoneWallet
 - https://www.reddit.com/r/KeystoneWallet
-features: 
-- multicoin
+features:
+- airGapped
+- multiCoin
 - fingerprintAuthentication
+- secureElements
 - seedPhrases
+- multiSignature
+- cameraFunction
 ---
 
 ## [Product GitBook Documentation](https://support.keyst.one)
