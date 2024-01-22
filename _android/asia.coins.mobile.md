@@ -10,9 +10,9 @@ appCountry:
 released: 2014-10-01
 updated: 2024-01-19
 version: 7.5.1.3
-stars: 3.4
+stars: 3.3
 ratings: 109535
-reviews: 514
+reviews: 513
 size: 
 website: https://coins.ph
 repository: 

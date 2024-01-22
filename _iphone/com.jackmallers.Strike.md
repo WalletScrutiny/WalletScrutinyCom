@@ -10,7 +10,7 @@ released: 2020-08-10
 updated: 2024-01-17
 version: '148.0'
 stars: 4.7
-reviews: 14189
+reviews: 14195
 size: '91025408'
 website: https://strike.me/en/
 repository: 

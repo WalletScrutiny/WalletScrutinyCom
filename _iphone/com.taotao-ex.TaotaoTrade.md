@@ -8,8 +8,8 @@ appId: com.taotao-ex.TaotaoTrade
 appCountry: jp
 idd: '1461654946'
 released: 2019-06-02
-updated: 2024-01-17
-version: 3.14.0
+updated: 2024-01-21
+version: 3.14.2
 stars: 1.8
 reviews: 303
 size: '89201664'

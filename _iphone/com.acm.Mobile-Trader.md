@@ -8,11 +8,11 @@ appId: com.acm.Mobile-Trader
 appCountry: ch
 idd: '340408565'
 released: 2009-12-09
-updated: 2023-12-12
-version: 3.17.0
+updated: 2024-01-22
+version: 3.18.0
 stars: 4.3
-reviews: 518
-size: '26984448'
+reviews: 519
+size: '68418560'
 website: https://www.swissquote.com/forex/platforms/advanced-trader
 repository: 
 issue: 

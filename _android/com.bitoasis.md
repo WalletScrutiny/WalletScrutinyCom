@@ -10,7 +10,7 @@ appCountry: ae
 released: 2020-08-20
 updated: 2024-01-17
 version: 3.3.2
-stars: 3.8
+stars: 3.7
 ratings: 3007
 reviews: 534
 size: 

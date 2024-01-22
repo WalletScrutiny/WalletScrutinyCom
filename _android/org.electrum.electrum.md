@@ -26,7 +26,7 @@ date: 2024-01-22
 signer: 
 reviewArchive:
 - date: 2023-09-25
-  version: "4.4.6.0"
+  version: 4.4.6.0
   appHash: 23dcba9487f25334fa91387b91368ddc7a42de73dd8e2f55fcfdfc6f57a987db
   gitRevision: 629069611f99b513a69153e2cc7c0fba29ee44eb
   verdict: reproducible

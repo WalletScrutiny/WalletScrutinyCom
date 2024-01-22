@@ -2,16 +2,16 @@
 wsId: phantomlabs
 title: Phantom - Crypto Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: app.phantom
 appCountry: us
 idd: '1598432977'
-released: '2022-01-30T08:00:00Z'
+released: 2022-01-30
 updated: 2023-12-19
 version: 23.19.0
-stars: 4.31928
-reviews: 617
+stars: 4.3
+reviews: 636
 size: '68106240'
 website: https://phantom.app
 repository: 
@@ -24,7 +24,7 @@ date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: phantom
-social: 
+social:
 - https://www.reddit.com/r/phantom/
 - https://www.linkedin.com/company/phantomwallet/
 - https://www.youtube.com/@phantom-wallet

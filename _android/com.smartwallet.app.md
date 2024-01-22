@@ -12,7 +12,7 @@ updated: 2024-01-16
 version: 1.13.1
 stars: 4.4
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.echooo.xyz/
 repository: 

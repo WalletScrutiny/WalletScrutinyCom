@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bitturkmobile.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-07
+date: 2024-01-22
 signer: 
 reviewArchive: 
 twitter: 

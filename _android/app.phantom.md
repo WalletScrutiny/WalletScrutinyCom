@@ -2,17 +2,18 @@
 wsId: phantomlabs
 title: Phantom
 altTitle: 
-authors: 
+authors:
 - danny
-users: 500000
+users: 1000000
 appId: app.phantom
 appCountry: 
-released: Apr 12, 2022
-updated: 2023-12-16
+released: 2022-04-12
+updated: 2024-01-19
 version: 23.19.0
-stars: 3.47
+stars: 3.4
 ratings: 
-reviews: 150
+reviews: 173
+size: 
 website: https://phantom.app/
 repository: 
 issue: 
@@ -24,7 +25,7 @@ date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: phantom
-social: 
+social:
 - https://www.reddit.com/r/phantom/
 - https://www.linkedin.com/company/phantomwallet/
 - https://www.youtube.com/@phantom-wallet

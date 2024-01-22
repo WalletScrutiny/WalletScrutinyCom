@@ -8,8 +8,8 @@ users: 100000
 appId: com.capitalJ.onJuno
 appCountry: 
 released: 2021-03-01
-updated: 2024-01-08
-version: 4.0.22
+updated: 2024-01-18
+version: 4.0.23
 stars: 3.6
 ratings: 
 reviews: 377

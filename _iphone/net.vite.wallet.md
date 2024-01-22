@@ -11,7 +11,7 @@ released: 2018-11-09
 updated: 2024-01-10
 version: 4.3.6
 stars: 4.2
-reviews: 77
+reviews: 76
 size: '58247168'
 website: https://vite.org
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Swapitway: Sell Trade GiftCard'
+title: 'Swapitway: Gift Cards To Cash'
 altTitle: 
 authors:
 - danny

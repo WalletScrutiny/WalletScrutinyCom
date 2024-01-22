@@ -8,8 +8,8 @@ users: 100000
 appId: com.app.bitnob
 appCountry: us
 released: 2020-05-25
-updated: 2024-01-16
-version: 1.0.166
+updated: 2024-01-20
+version: 1.0.168
 stars: 3.7
 ratings: 275
 reviews: 29

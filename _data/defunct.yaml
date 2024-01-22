@@ -304,3 +304,6 @@
 - _android/com.blockcloud
 - _android/flutter.android.LifePay
 - _iphone/com.nbltrust.jadewallet
+2024-01-22:
+- _android/skeleton.skeletonwallet
+- _iphone/net.novawallet.ios
