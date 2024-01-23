@@ -21,7 +21,7 @@ icon: com.elyps.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2023-08-17
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: 
@@ -61,6 +61,6 @@ There is a warning emblazoned on the header of the site.
 
 ## Update 2024-01-09
 
-I have not received any response from them since May 2023. Without any sort of response on any of the emails I sent, and with no proof that this app supports bitcoin, I will be marking this as an app with **no bitcoin wallet**.
+We have not received any response from them since May 2023. Without any sort of response on any of the emails we sent, and with no proof that this app supports bitcoin or crypto, we will be marking this as an app with **no wallet**.
 
 

@@ -16,12 +16,12 @@ reviews: 143
 size: 
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/488
+issue: https://github.com/SlvLabs/slavi-wallet
 icon: com.defiwalletmobile.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-07-06
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: slavi_io
