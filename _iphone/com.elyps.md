@@ -19,7 +19,7 @@ issue:
 icon: com.elyps.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-08-17
 signer: 
 reviewArchive: 

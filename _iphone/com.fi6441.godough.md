@@ -19,7 +19,7 @@ issue:
 icon: com.fi6441.godough.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2023-08-28
 signer: 
 reviewArchive: 

@@ -19,7 +19,7 @@ issue:
 icon: com.mojitowallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-09-06
 signer: 
 reviewArchive: 
