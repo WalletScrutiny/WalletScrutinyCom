@@ -20,8 +20,8 @@ issue:
 icon: games.xwg.wallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2024-01-19
+verdict: nobtc
+date: 2024-01-24
 signer: 
 reviewArchive: 
 twitter: xwg_games
@@ -42,8 +42,8 @@ features:
 
 According to the app's showcase, {{ page.title }} offers DApp services and a variety of crypto assets including options from the BNB Chain and ERC-20 tokens.
 
-From the [FAQs](https://docs.xwg.games/service/faq), "Do you'll provide wallet backup key storage and keys backup encryption?"
+From the [FAQs](https://docs.xwg.games/service/faq), "Do you'll (sic) provide wallet backup key storage and keys backup encryption?"
 
 > No, there's no private key backup storage or encryption. You can find out your private key through the Dapp wallet service provider, and you shall backup your private key and recovery phrase on your own and keep them in a safe place.
 
-We **did not find source code** for this app.
+Upon closer inspection, we found that even though the main dashboard displays BTC as the main balance, it does not actually offer a Bitcoin wallet. We posted [screenshots.](https://twitter.com/BitcoinWalletz/status/1749630410928329190). The available wallets are only USDT, BNB, USDC, XWG and BUSD. Thus, it does **not provide a bitcoin wallet.**
