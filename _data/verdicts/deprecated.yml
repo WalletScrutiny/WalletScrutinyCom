@@ -1,0 +1,10 @@
+meta: true
+short: Deprecated!
+title: App is Deprecated
+color: '#d33100'
+redflag: true
+message: This product will be removed in the near future.
+question: Does the provider suggest to support this product for the foreseeable future?
+details: >
+  This product is still available and may still be in use but it is to be discontinued soon. It is recommended to switch to alternatives now.
+  
