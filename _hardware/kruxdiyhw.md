@@ -22,7 +22,7 @@ icon: kruxdiyhw.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2022-04-11
+date: 2024-01-22
 signer: 
 reviewArchive: 
 twitter: selfcustodykrux
