@@ -9,10 +9,10 @@ appId: so.onekey.app.wallet
 appCountry: 
 released: 2022-04-27
 updated: 2024-01-17
-version: 4.18.0
+version: 4.19.0
 stars: 4.3
 ratings: 
-reviews: 55
+reviews: 56
 size: 
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo

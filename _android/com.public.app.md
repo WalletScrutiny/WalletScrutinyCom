@@ -1,6 +1,6 @@
 ---
 wsId: publicStocksCrypto
-title: Public - Stocks/Bonds/Crypto
+title: Public - Stocks, Bonds, Crypto
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2024-01-19
+updated: 2024-01-23
 version: 3.124.0
 stars: 4.2
 ratings: 

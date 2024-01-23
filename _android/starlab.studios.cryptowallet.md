@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Wallets AI Chat Btc Eth
+title: Crypto AI Chat Btc Eth
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny

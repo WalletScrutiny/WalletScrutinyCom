@@ -1,6 +1,6 @@
 ---
 wsId: skrill
-title: Skrill - Pay & Send Money
+title: Skrill - Wallet App
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.skrill.ios.SkrillPayments
 appCountry: gb
 idd: '718248239'
 released: 2013-10-29
-updated: 2024-01-11
-version: 3.127.0
+updated: 2024-01-23
+version: 3.128.0
 stars: 4.5
-reviews: 5950
-size: '180011008'
+reviews: 5953
+size: '182804480'
 website: https://www.skrill.com/
 repository: 
 issue: 

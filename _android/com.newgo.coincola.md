@@ -8,8 +8,8 @@ users: 100000
 appId: com.newgo.coincola
 appCountry: 
 released: 2017-07-07
-updated: 2024-01-02
-version: 5.5.9
+updated: 2024-01-23
+version: 5.6.0
 stars: 4.5
 ratings: 1597
 reviews: 122

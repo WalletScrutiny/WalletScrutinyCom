@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.plisio.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-01-28
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: 
