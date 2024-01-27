@@ -355,9 +355,10 @@ multiCoin:
     * **Convenience** of managing multiple cryptocurrencies in one place
 
     * **Efficiency** in asset management and trading
+  drawback: >
+    * **Complexity** in wallet setup and use
 
-    * **Enhanced security** by not having to use multiple wallets
-  drawback: Complexity in wallet setup and use; potential for higher transaction fees for certain coin types.
+    * **Complexity** makes keeping the product secure harder. Features added for one asset can put all other assets in danger
 fingerprintAuthentication:
   short: Fingerprint Authentication
   long: >
@@ -402,5 +403,5 @@ cameraFunction:
     * **Increased privacy** as the wallet does not directly connect to the internet
 
     * **User-friendly** transaction process with QR code scanning
-  drawback: Dependency on external devices for transaction initiation; potential challenges in case of camera malfunction or poor lighting conditions.
+  drawback: 
 
