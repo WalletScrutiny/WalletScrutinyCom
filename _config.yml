@@ -187,7 +187,7 @@ collections:
   iphone:
     output: true
     permalink: /:collection/:path/
-  linux:
+  desktop:
     output: true
     permalink: /:collection/:path/
   hardware:
@@ -260,6 +260,17 @@ defaults:
       comments: false
       share: true
       related: false
+  # desktop
+  - scope:
+      path: ""
+      type: "desktop"
+    values:
+      layout: reviewDesktop
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
   # bearer
   - scope:
       path: ""
@@ -287,6 +298,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 plugins:

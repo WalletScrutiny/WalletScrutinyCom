@@ -99,6 +99,35 @@
       {% endfor %}
     ]
   },
+  "desktop": {
+    "category": "Desktop Wallet",
+    "apps": [ 
+      {% for post in site.desktop %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title }}",
+        "released": "{{ post.released | date: '%Y-%m-%d' }}",
+        "discontinued": "{{ post.discontinued | date: '%Y-%m-%d' }}",
+        "country": "{{ post.country }}",
+        "updated": "{{ post.updated | date: '%Y-%m-%d' }}",
+        "version": "{{ post.version }}",
+        "website": "{{ post.website }}",
+        "repository": "{{ post.repository }}",
+        "issue": "{{ post.issue }}",
+        "icon": "{{ post.icon }}",
+        "verdict": "{{ post.verdict }}",
+        "date": "{{ post.date | date: '%Y-%m-%d' }}",
+        "signer": "{{ post.signer }}",
+        "providerTwitter": "{{ post.providerTwitter }}",
+        "providerLinkedIn": "{{ post.providerLinkedIn }}",
+        "providerFacebook": "{{ post.providerFacebook }}",
+        "providerReddit": "{{ post.providerReddit }}",
+        "url": "{{ post.url }}",
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
   "android": {
     "category": "Play Store",
     "apps": [ 
