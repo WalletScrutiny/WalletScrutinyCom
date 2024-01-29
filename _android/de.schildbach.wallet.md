@@ -22,9 +22,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-01-17
+date: 2024-01-28
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-01-17
+  version: "10.12"
+  appHash: f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655
+  gitRevision: 1ad53d3162ff1ba485729a6a452ada60bf96113d
+  verdict: reproducible
 - date: 2023-12-19
   version: '10.11'
   appHash: c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f
@@ -205,26 +210,25 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.12
-apkVersionCode: 101200
+apkVersionName: 10.13
+apkVersionCode: 101300
 verdict:        reproducible
-appHash:        c6147e5a1bf55d093391f8fceb7678686aea51ad819787463274a5d771d6ea4a
-commit:         8d8507dae0d0bc10ae24b8bb7c5e54ebcccd0126
+appHash:        f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655
+commit:         2d3d788fde6265741bd705db640d5fee32e9e7cb
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_101200/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_101200/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_101200/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101200/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_101300/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_101300/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_101300/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101300/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 8d8507dae0d0bc10ae24b8bb7c5e54ebcccd0126
+object 2d3d788fde6265741bd705db640d5fee32e9e7cb
 type commit
-tag v10.12
-tagger Andreas Schildbach <andreas@schildbach.de> 1704826985 +0100
+tag v10.13
+tagger Andreas Schildbach <andreas@schildbach.de> 1706000711 +0100
 
-10.12 release
+10.13 release
 ===== End Results =====
-
 ```
 
 Version 10.12 of this app is **reproducible**
