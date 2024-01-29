@@ -21,9 +21,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-12-30
+date: 2024-01-28
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2023-12-30
+  version: "2.1.1"
+  appHash: e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
+  gitRevision: 1ad53d3162ff1ba485729a6a452ada60bf96113d
+  verdict: nonverifiable
 - date: 2023-11-30
   version: 2.0.12
   appHash: 45eadc50d2305081e610d9dc3f114c2ac6c609fef1988d98a96da55032086473
@@ -82,20 +87,19 @@ compile the product:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.1.1
-apkVersionCode: 73
+apkVersionName: 2.1.2
+apkVersionCode: 74
 verdict:        
-appHash:        e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
-commit:         7d338cd49b8488e8f268885bb409fbb5f558383c
+appHash:        4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+commit:         0713f1b53aaa659040de7c8544421748e7f2ed9d
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/classes3.dex differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -104,6 +108,4 @@ Revision, tag (and its signature):
 
 That is a bigger diff than expected. This version is **not verifiable**.
 
-Upon closer inspection, the diffs in the casses3.dex and classes5.dex again look
-benign but there is thousands of lines to review in the diffoscope output and we
-did not do a deep analysis there.
+{% include asciicast %}
