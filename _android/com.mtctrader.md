@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mtctrader.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

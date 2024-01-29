@@ -28,9 +28,9 @@ reviewArchive:
 twitter: selfcustodykrux
 social:
 - https://t.me/SC_Krux
-- https://bitcointalk.org/index.php?topic=5350905.0 
+- https://bitcointalk.org/index.php?topic=5350905.0
 features:
-- multiSignature 
+- multiSignature
 
 ---
 

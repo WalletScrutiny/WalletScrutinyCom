@@ -1,6 +1,6 @@
 ---
 wsId: primeXBTCryptoTrading
-title: 'PrimeXBT: Trade 100+ markets'
+title: 'PrimeXBT Trading: Trade Forex'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: primexbtcom
 appCountry: us
 idd: '1522267195'
 released: 2021-10-20
-updated: 2023-12-20
-version: 3.1.1
+updated: 2024-01-25
+version: '3.2'
 stars: 4.6
 reviews: 198
-size: '79377408'
+size: '84056064'
 website: 
 repository: 
 issue: 

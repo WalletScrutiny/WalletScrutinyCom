@@ -26,11 +26,13 @@ date: 2024-01-08
 signer: 
 reviewArchive: 
 twitter: 0xMarsDAO
-social: 
+social:
 - https://www.youtube.com/@MarsDAO
 - https://reddit.com/user/MarsDao_blog/
 - https://medium.com/mars-dao
 - https://github.com/orgs/MARS-DAO/repositories
+features: 
+
 ---
 
 ## Product Description 

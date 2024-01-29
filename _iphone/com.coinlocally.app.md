@@ -8,11 +8,11 @@ appId: com.coinlocally.app
 appCountry: us
 idd: '1495966572'
 released: 2020-01-28
-updated: 2023-12-13
-version: 2.2.16
+updated: 2024-01-25
+version: 2.2.17
 stars: 3.8
 reviews: 75
-size: '37474304'
+size: '52619264'
 website: https://coinlocally.com
 repository: 
 issue: 

@@ -3,13 +3,13 @@ wsId: hashwalletManager
 title: HASHWallet Manager
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.hashwalletmanager
 appCountry: es
 idd: '6443484063'
-released: '2022-10-06T07:00:00Z'
-updated: 2024-01-04
-version: 1.1.3
+released: 2022-10-06
+updated: 2024-01-11
+version: 1.1.4
 stars: 5
 reviews: 7
 size: '55947264'
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/hashwallet 
+- https://t.me/hashwallet
 features: 
 developerName: eSignus
 

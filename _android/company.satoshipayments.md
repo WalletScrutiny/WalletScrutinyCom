@@ -2,7 +2,7 @@
 wsId: 
 title: Satoshi - Bitcoin Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: company.satoshipayments
@@ -25,7 +25,7 @@ date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: satoshipayments
-social: 
+social:
 - https://www.facebook.com/satoshipayments
 - https://www.instagram.com/satoshipayments/
 - https://www.linkedin.com/company/satoshipayments/

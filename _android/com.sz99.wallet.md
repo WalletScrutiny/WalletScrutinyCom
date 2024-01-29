@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sz99.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

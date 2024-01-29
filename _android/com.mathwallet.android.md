@@ -3,16 +3,17 @@ wsId: mathWallet5
 title: MathWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.mathwallet.android
 appCountry: 
-released: Oct 26, 2021
-updated: 2023-12-13
-version: 5.3.3
-stars: 3.5882354
+released: 2021-10-26
+updated: 2024-01-15
+version: 5.3.5
+stars: 3.6
 ratings: 
-reviews: 40
+reviews: 42
+size: 
 website: https://www.mathwallet.org/
 repository: 
 issue: 
@@ -27,12 +28,12 @@ twitter: Mathwallet
 social:
 - https://discord.com/invite/gXSfnk5eP5
 - https://t.me/mathwalletnews
-- https://www.youtube.com/c/MathWallet 
+- https://www.youtube.com/c/MathWallet
 redirect_from: 
 developerName: Math Global
 features:
 - segwit
-- taproot 
+- taproot
 - multiwallet
 
 ---

@@ -3,7 +3,7 @@ wsId: hashVest
 title: Hash App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hashvest.hash
 appCountry: 
@@ -28,7 +28,7 @@ twitter: gethashapp
 social:
 - https://www.facebook.com/goHashApp
 - https://www.linkedin.com/company/gethashapp
-- https://www.youtube.com/@hashapp 
+- https://www.youtube.com/@hashapp
 redirect_from: 
 developerName: HashVest Technologies Inc
 features: 

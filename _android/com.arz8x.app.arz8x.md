@@ -10,9 +10,9 @@ appCountry:
 released: 2020-05-08
 updated: 2024-01-15
 version: 4.1.9
-stars: 4.1
+stars: 4.2
 ratings: 1706
-reviews: 64
+reviews: 66
 size: 
 website: https://Arz8.com
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-14
 updated: 2024-01-17
 version: 4.40.1
-stars: 3.3
+stars: 3.2
 ratings: 
-reviews: 141
+reviews: 160
 size: 
 website: http://www.xt.com
 repository: 

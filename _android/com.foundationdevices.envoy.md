@@ -3,7 +3,7 @@ wsId: envoyFoundation
 title: Envoy
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.foundationdevices.envoy
 appCountry: US
@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 2
 size: 
-website: https://foundationdevices.com
+website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy
 issue: 
 icon: com.foundationdevices.envoy.jpg
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/foundationdevices
 - https://www.youtube.com/@foundationdevices
 - https://www.reddit.com/r/FoundationDevices
-- https://t.me/foundationdevices 
+- https://t.me/foundationdevices
 redirect_from: 
 developerName: Foundation Devices
 features: 

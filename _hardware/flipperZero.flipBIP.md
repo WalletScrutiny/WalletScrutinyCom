@@ -11,10 +11,11 @@ binaries: https://github.com/xtruan/FlipBIP/releases/tag/v1.14.0
 dimensions:
 - 85
 - 130
-- 45 
+- 45
 weight: 102
 provider: Struan Clark
 providerWebsite: 
+website: 
 shop: https://lab.flipper.net/apps/flipbip
 country: US
 price: 169USD
@@ -26,7 +27,7 @@ meta: ok
 verdict: nowallet
 date: 2023-12-22
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: xtruan
 social: 
 features: 

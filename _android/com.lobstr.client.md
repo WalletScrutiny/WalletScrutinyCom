@@ -8,11 +8,11 @@ users: 1000000
 appId: com.lobstr.client
 appCountry: us
 released: 2015-04-27
-updated: 2024-01-18
-version: 10.0.0
+updated: 2024-01-25
+version: 10.0.1
 stars: 4.6
 ratings: 11618
-reviews: 1921
+reviews: 1922
 size: 
 website: https://lobstr.co/
 repository: 

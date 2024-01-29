@@ -2,13 +2,13 @@
 wsId: 
 title: Обменник криптовалют 4ange
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.xchange.x4ange
 appCountry: 
 released: 2021-06-21
-updated: 2023-10-05     
+updated: 2023-10-05
 version: 4.0.1
 stars: 
 ratings: 

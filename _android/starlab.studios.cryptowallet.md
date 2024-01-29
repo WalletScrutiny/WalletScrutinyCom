@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Starlab Studios AI Chatbot
+developerName: Starlab Studios AI
 features: 
 
 ---

@@ -3,7 +3,7 @@ wsId: hashwalletManager
 title: HASHWallet Manager
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.esignus.hashwalletmanager
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/hashwallet  
+- https://t.me/hashwallet
 redirect_from: 
 developerName: eSignus Security Solutions, S.L.
 features: 

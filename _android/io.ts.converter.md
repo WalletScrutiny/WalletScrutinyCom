@@ -2,7 +2,7 @@
 wsId: 
 title: TapSwap Kenya
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: io.ts.converter
@@ -25,7 +25,7 @@ date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: tapswapkenya
-social: 
+social:
 - https://www.instagram.com/tapswap_kenya/
 - https://www.linkedin.com/company/tapswap/
 redirect_from: 

@@ -3,7 +3,7 @@ wsId: alfredWallet
 title: AlfredWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.alfredwallet.wallet
 appCountry: 

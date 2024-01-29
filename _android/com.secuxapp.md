@@ -8,8 +8,8 @@ users: 5000
 appId: com.secuxapp
 appCountry: 
 released: 2021-11-24
-updated: 2023-12-19
-version: 1.26.1
+updated: 2024-01-20
+version: 1.27.0
 stars: 3.4
 ratings: 
 reviews: 22

@@ -1,6 +1,6 @@
 ---
 wsId: exnodeExchange
-title: 'Exnode: Обмен криптовалют'
+title: Exnode финансовый помощник
 altTitle: 
 authors:
 - danny

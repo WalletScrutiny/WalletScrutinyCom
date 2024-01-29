@@ -2,7 +2,7 @@
 wsId: paycool
 title: Pay.cool
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: cool.pay.paycool

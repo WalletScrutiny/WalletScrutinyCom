@@ -8,11 +8,11 @@ appId: one.nobank.app
 appCountry: lb
 idd: '1613187762'
 released: 2022-05-11
-updated: 2024-01-11
-version: '3.18'
+updated: 2024-01-24
+version: '3.19'
 stars: 0
 reviews: 0
-size: '67401728'
+size: '78486528'
 website: https://www.pierwallet.com
 repository: 
 issue: 

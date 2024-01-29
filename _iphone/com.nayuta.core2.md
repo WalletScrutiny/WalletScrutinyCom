@@ -2,12 +2,12 @@
 wsId: nayutaCore2
 title: Nayuta Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.nayuta.core2
 appCountry: us
 idd: '6449242331'
-released: '2023-08-21T07:00:00Z'
+released: 2023-08-21
 updated: 2023-11-14
 version: 1.3.0
 stars: 0
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social: 
-features: 
+features:
 - ln
 developerName: Nayuta
 

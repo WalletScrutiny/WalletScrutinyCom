@@ -12,7 +12,7 @@ updated: 2023-04-13
 version: 2.6.5
 stars: 4.3
 ratings: 
-reviews: 15
+reviews: 14
 size: 
 website: https://www.ennowallet.com
 repository: https://github.com/Enno-Wallet-Enno-Cash

@@ -12,7 +12,7 @@ updated: 2022-04-10
 version: 0.3.7
 stars: 4.6
 ratings: 
-reviews: 14
+reviews: 13
 size: 
 website: https://wallet-markets.web.app
 repository: 

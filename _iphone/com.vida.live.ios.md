@@ -2,16 +2,16 @@
 wsId: vidalive
 title: Vida - Paywall Your Phone
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.vida.live.ios
 appCountry: us
 idd: '1521523628'
-released: '2022-03-09T08:00:00Z'
+released: 2022-03-09
 updated: 2023-10-06
 version: 1.0.0
-stars: 3.53846
-reviews: 13
+stars: 3.6
+reviews: 14
 size: '80238592'
 website: https://vida.io
 repository: 

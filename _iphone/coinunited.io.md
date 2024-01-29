@@ -11,7 +11,7 @@ released: 2021-05-14
 updated: 2023-08-20
 version: 4.0.2
 stars: 4.9
-reviews: 282
+reviews: 281
 size: '120581120'
 website: https://www.coinunited.io/
 repository: 

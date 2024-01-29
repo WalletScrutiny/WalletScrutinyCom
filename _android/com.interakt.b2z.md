@@ -2,7 +2,7 @@
 wsId: 
 title: B2Z Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.interakt.b2z
@@ -25,7 +25,7 @@ date: 2024-01-18
 signer: 
 reviewArchive: 
 twitter: B2zExchange
-social: 
+social:
 - https://www.linkedin.com/company/b2z-exchange/about/
 - https://www.facebook.com/b2zexchange
 redirect_from: 

@@ -7,12 +7,12 @@ authors:
 appId: io.aquawallet.ios
 appCountry: us
 idd: '6468594241'
-released: '2024-01-03T08:00:00Z'
-updated: 2024-01-04
-version: 0.1.12
-stars: 5
-reviews: 1
-size: '90815488'
+released: 2024-01-03
+updated: 2024-01-24
+version: 0.1.22
+stars: 4.5
+reviews: 15
+size: '87289856'
 website: https://aquawallet.io
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: AquaBitcoin
 social:
 - https://www.facebook.com/profile.php?id=100095180887605
 - https://www.instagram.com/aquabitcoin
-- https://www.linkedin.com/products/jan3-aqua 
+- https://www.linkedin.com/products/jan3-aqua
 features: 
 developerName: Jan3 LLC
 

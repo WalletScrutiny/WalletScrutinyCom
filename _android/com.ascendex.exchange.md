@@ -9,7 +9,7 @@ appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
 updated: 2024-01-15
-version: 3.2.8
+version: 3.2.9
 stars: 3.7
 ratings: 6660
 reviews: 55

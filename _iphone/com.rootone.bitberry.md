@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-02-22
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: Tarmex
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.tarmex.tarmex
 appCountry: 
 released: 2022-12-22

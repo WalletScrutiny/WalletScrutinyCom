@@ -11,7 +11,7 @@ released: 2022-11-16
 updated: 2024-01-17
 version: 5.12.2
 stars: 4.7
-reviews: 197
+reviews: 200
 size: '129135616'
 website: https://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-ios

@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-01
 updated: 2023-02-01
 version: 0.2.7
-stars: 3
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dexfin.mpcwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-28
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: https://twitter.com/dexfinexchange

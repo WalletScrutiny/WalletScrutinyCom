@@ -2,7 +2,7 @@
 wsId: 
 title: Miracle Cash&More
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.ofinans.ofinansapp
@@ -25,7 +25,7 @@ date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: MiracleCashMore
-social: 
+social:
 - https://www.instagram.com/miraclecashandmore/
 - https://www.facebook.com/miraclecashandmore
 - https://www.linkedin.com/company/miraclecashandmore/

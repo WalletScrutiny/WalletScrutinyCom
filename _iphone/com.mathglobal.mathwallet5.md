@@ -3,14 +3,14 @@ wsId: mathWallet5
 title: MathWallet - Web3 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mathglobal.mathwallet5
 appCountry: us
 idd: '1582612388'
-released: '2021-08-30T07:00:00Z'
+released: 2021-08-30
 updated: 2024-01-03
 version: 5.2.7
-stars: 3.92857
+stars: 3.9
 reviews: 28
 size: '81398784'
 website: https://www.mathwallet.org
@@ -29,10 +29,9 @@ social:
 - https://t.me/mathwalletnews
 - https://www.youtube.com/c/MathWallet
 features:
-features:
 - segwit
-- taproot 
-- multiwallet 
+- taproot
+- multiwallet
 developerName: MATH GLOBAL FOUNDATION LTD.
 
 ---

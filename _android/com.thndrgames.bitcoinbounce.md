@@ -12,7 +12,7 @@ updated: 2023-10-12
 version: 1.18.3
 stars: 4.6
 ratings: 1913
-reviews: 354
+reviews: 357
 size: 
 website: http://thndr.games
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Hikmah - ইসলামিক কুইজ MCQ গেম
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.app.fxschool_ai
 appCountry: 
 released: 2022-03-04

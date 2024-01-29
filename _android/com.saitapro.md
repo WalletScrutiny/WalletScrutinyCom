@@ -8,11 +8,11 @@ users: 10000
 appId: com.saitapro
 appCountry: 
 released: 2022-07-29
-updated: 2024-01-12
-version: '1.27'
+updated: 2024-01-23
+version: '1.28'
 stars: 3.9
 ratings: 
-reviews: 323
+reviews: 324
 size: 
 website: http://Saitamatoken.com
 repository: 

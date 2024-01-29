@@ -2,7 +2,7 @@
 wsId: 
 title: X Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: games.xwg.wallet
@@ -25,7 +25,7 @@ date: 2024-01-24
 signer: 
 reviewArchive: 
 twitter: xwg_games
-social: 
+social:
 - https://medium.com/x-world-games
 - https://github.com/XWorldGames
 redirect_from: 

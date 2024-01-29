@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.abstocks.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-02-08
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

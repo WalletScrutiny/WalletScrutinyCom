@@ -11,7 +11,7 @@ released: 2020-02-24
 updated: 2024-01-22
 version: 10.3.0
 stars: 4.1
-reviews: 588
+reviews: 590
 size: '110322688'
 website: https://www.syfe.com
 repository: 

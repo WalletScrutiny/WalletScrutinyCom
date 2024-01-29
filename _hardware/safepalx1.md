@@ -29,7 +29,7 @@ date: 2024-01-08
 signer: 
 reviewArchive: 
 twitter: iSafePal
-social: 
+social:
 - https://www.youtube.com/channel/UCfqztNiZWV62Eu9kiqKf6WQ
 - https://t.me/SafePal_official
 - https://www.instagram.com/isafepal/

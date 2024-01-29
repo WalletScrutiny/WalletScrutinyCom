@@ -8,8 +8,8 @@ appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
 released: 2022-02-09
-updated: 2024-01-19
-version: 2.4.8
+updated: 2024-01-24
+version: 2.4.9
 stars: 4.9
 reviews: 3133
 size: '82787328'

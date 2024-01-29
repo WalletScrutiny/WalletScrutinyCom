@@ -3,16 +3,17 @@ wsId: natiolInfinity
 title: Natiol Infinity
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.natiol.infinity.io
 appCountry: 
-released: Nov 12, 2022
+released: 2022-11-12
 updated: 2023-11-13
 version: 9.0.2
-stars: 4.8333335
+stars: 4.8
 ratings: 
 reviews: 4
+size: 
 website: https://natiol.io/
 repository: 
 issue: 

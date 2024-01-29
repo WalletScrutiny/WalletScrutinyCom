@@ -9,9 +9,9 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 148
+- 150
 - 90
-- 32 
+- 32
 weight: 220
 provider: Joseph Schiarizzi
 providerWebsite: 
@@ -30,7 +30,7 @@ signer:
 reviewArchive: 
 twitter: CupOJoseph
 social:
-- https://discord.com/invite/F9wzKs4dvj 
+- https://discord.com/invite/F9wzKs4dvj
 features: 
 
 ---

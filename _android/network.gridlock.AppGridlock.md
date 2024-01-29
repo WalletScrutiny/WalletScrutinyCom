@@ -1,6 +1,6 @@
 ---
 wsId: GridLock
-title: 'Gridlock: Mobile Crypto Wallet'
+title: 'Gridlock: Secure Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: network.gridlock.AppGridlock
 appCountry: 
 released: 2021-05-14
-updated: 2024-01-09
-version: 2.2.2
+updated: 2024-01-23
+version: 2.2.3
 stars: 4.4
 ratings: 
-reviews: 26
+reviews: 27
 size: 
 website: https://gridlock.network/
 repository: 

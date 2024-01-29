@@ -2,7 +2,7 @@
 wsId: 
 title: noID.cards
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1
 appId: com.noid.cards
@@ -25,8 +25,9 @@ date: 2024-01-05
 signer: 
 reviewArchive: 
 twitter: noidcards
-social: 
-- https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
+social:
+- >-
+  https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 redirect_from: 
 developerName: noID.cards
 features: 

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.gemini.android.app
 appCountry: 
 released: 2018-12-10
-updated: 2024-01-17
-version: 24.116.0
+updated: 2024-01-26
+version: 24.123.1
 stars: 4.2
 ratings: 38767
-reviews: 7329
+reviews: 7333
 size: 
 website: https://www.gemini.com
 repository: 

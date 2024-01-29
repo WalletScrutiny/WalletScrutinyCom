@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-03
 updated: 2022-10-18
 version: VARY
-stars: 4.5
+stars: 4.4
 ratings: 36999
-reviews: 165
+reviews: 164
 size: 
 website: https://payeer.com
 repository: 

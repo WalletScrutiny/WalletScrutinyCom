@@ -11,7 +11,7 @@ released: 2019-11-29
 updated: 2024-01-23
 version: 2.66.0
 stars: 4.7
-reviews: 14586
+reviews: 14633
 size: '216102912'
 website: https://www.bitpanda.com/app
 repository: 

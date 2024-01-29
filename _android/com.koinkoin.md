@@ -2,7 +2,7 @@
 wsId: koinkoin
 title: KoinKoin Exchange
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.koinkoin
@@ -25,7 +25,7 @@ date: 2024-01-18
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://www.reddit.com/r/KoinKoin_io/
 - https://www.facebook.com/Koinkoinn/
 - https://www.linkedin.com/company/koinkoin-ltd/

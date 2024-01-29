@@ -27,7 +27,7 @@ meta: ok
 verdict: wip
 date: 2023-12-21
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io

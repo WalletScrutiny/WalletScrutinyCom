@@ -2,7 +2,7 @@
 wsId: nayutaCore2
 title: Nayuta Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 1000
 appId: com.nayuta.core2
@@ -28,9 +28,11 @@ twitter:
 social: 
 redirect_from: 
 developerName: Nayuta inc
-features: 
+features:
 - ln
+
 ---
+
 We assume this is the successor to the now removed app {% include walletLink.html wallet='android/com.nayuta.core' verdict='true' %}
 
 

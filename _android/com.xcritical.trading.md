@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xcritical.trading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-13
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

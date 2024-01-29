@@ -8,7 +8,7 @@ discontinued:
 updated: 2023-12-07
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: FrostSnap Tech
 providerWebsite: 
@@ -26,7 +26,7 @@ date: 2024-01-05
 signer: 
 reviewArchive: 
 twitter: FrostsnapTech
-social:
+social: 
 features: 
 
 ---

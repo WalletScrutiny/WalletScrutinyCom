@@ -17,7 +17,7 @@ size:
 website: https://blockbank.ai/
 repository: 
 issue: 
-icon: ai.blockbank.bbexpoapp.jpg
+icon: ai.blockbank.bbexpoapp.png
 bugbounty: 
 meta: ok
 verdict: nosource

@@ -6,7 +6,7 @@ authors:
 appId: cool.pay.paycool
 appCountry: us
 idd: '1636549193'
-released: '2022-09-07T07:00:00Z'
+released: 2022-09-07
 updated: 2024-01-07
 version: 2.5.162
 stars: 5

@@ -12,7 +12,7 @@ updated: 2023-12-13
 version: 6.2.8
 stars: 3.7
 ratings: 931
-reviews: 476
+reviews: 477
 size: 
 website: https://monnos.com
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/monnosglobal
 - https://www.facebook.com/MonnosGlobal
 redirect_from: 
-developerName: Monnos App
+developerName: Monnos Global
 features: 
 
 ---
