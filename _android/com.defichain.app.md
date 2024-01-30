@@ -12,7 +12,7 @@ updated: 2024-01-23
 version: 2.36.0
 stars: 3.6
 ratings: 319
-reviews: 283
+reviews: 284
 size: 
 website: https://defichain.com
 repository: 

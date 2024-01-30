@@ -26,7 +26,7 @@ date: 2024-01-29
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
 - date: 2024-01-17
-  version: "0.37.2"
+  version: 0.37.2
   appHash: 514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94
   gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
   verdict: reproducible

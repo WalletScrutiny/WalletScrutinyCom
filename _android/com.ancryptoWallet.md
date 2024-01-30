@@ -1,6 +1,6 @@
 ---
 wsId: ancryptoWallet
-title: AnCrypto - Web3 Chat Wallet
+title: 'AnCrypto: Web3 Crypto Wallet'
 altTitle: 
 authors:
 - danny

@@ -1,6 +1,6 @@
 ---
 wsId: cobak
-title: 코박 - 국내 대표 코인 커뮤니티
+title: Cobak - Crypto Community App
 altTitle: 
 authors:
 - danny

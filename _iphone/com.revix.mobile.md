@@ -8,8 +8,8 @@ appId: com.revix.mobile
 appCountry: za
 idd: '1590491829'
 released: 2022-08-01
-updated: 2023-12-18
-version: 1.7.4
+updated: 2024-01-29
+version: 1.7.5
 stars: 4.1
 reviews: 17
 size: '97150976'

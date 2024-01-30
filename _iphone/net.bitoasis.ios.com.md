@@ -11,7 +11,7 @@ released: 2020-07-06
 updated: 2024-01-18
 version: 2.0.28
 stars: 4.6
-reviews: 4333
+reviews: 4335
 size: '82568192'
 website: https://bitoasis.net/en/home
 repository: 

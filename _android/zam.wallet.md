@@ -1,6 +1,6 @@
 ---
 wsId: ZamWallet
-title: ZamWallet крипто кошелек, btc
+title: ZamWallet Crypto, DeFi, Invest
 altTitle: 
 authors:
 - danny

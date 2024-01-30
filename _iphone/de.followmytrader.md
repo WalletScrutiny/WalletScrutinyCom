@@ -8,8 +8,8 @@ appId: de.followmytrader
 appCountry: us
 idd: '1487657162'
 released: 2020-03-06
-updated: 2024-01-23
-version: 2.7.2
+updated: 2024-01-29
+version: 2.7.3
 stars: 0
 reviews: 0
 size: '120067072'

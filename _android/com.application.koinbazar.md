@@ -1,6 +1,6 @@
 ---
 wsId: koinbazar
-title: 'KoinBX: Global Crypto Exchange'
+title: 'KoinBX: Indian Crypto Exchange'
 altTitle: 
 authors:
 - danny

@@ -11,7 +11,7 @@ updated: 2024-01-20
 version: 0.1.19
 stars: 5
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://aquawallet.io
 repository: 

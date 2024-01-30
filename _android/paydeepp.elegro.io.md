@@ -4,7 +4,7 @@ title: 'Elegro: multi-currency wallet'
 altTitle: 
 authors:
 - leo
-users: 5000
+users: 10000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09

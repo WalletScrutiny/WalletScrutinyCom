@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.atlas.mobile.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-02-08
+date: 2024-01-30
 signer: 
 reviewArchive: 
 twitter: Cent_Finance
