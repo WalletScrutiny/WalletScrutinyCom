@@ -22,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-01-17
+date: 2024-01-29
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-01-17
+  version: "0.37.2"
+  appHash: 514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94
+  gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
+  verdict: reproducible
 - date: 2023-11-25
   version: 0.36.1
   appHash: 40396b32608468fb01d98d0db7c9b10004a9c4655037c2b89140f6694a2c52ea
@@ -224,32 +229,29 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
+{% include asciicast %}
+
 ```
-$ ./test.sh --apk path/to/Unstoppable.apk 
-...
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.37.2
-apkVersionCode: 96
+apkVersionName: 0.37.3
+apkVersionCode: 97
 verdict:        reproducible
-appHash:        514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94
-commit:         4a1722ceb1c38fc2970e20197acdd5176fdb3ee8
+appHash:        b82ef5472ae40186340519df4227d9e27755cd0b194e23635ebf8af077db6fe9
+commit:         a1b14f96cd17e8488b2ef3ae77d24cabb9285830
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_96/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_97/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_97/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_97/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
-
 ```
 
 This is what we want to see to call it **reproducible**.
-
-{% include asciicast %}
 
 ### Thank you to Horizontal Systems for repeat donations
 
