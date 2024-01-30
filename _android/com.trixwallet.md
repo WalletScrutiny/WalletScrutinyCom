@@ -3,7 +3,7 @@ wsId:
 title: Trix
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.trixwallet
 appCountry: 
 released: 2021-12-20

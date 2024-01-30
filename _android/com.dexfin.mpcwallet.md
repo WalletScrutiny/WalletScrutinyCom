@@ -4,7 +4,7 @@ title: Dexfin Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.dexfin.mpcwallet
 appCountry: 
 released: 2023-02-01

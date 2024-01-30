@@ -12,7 +12,7 @@ updated: 2024-01-19
 version: 2.66.0
 stars: 3.5
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://www.bitpanda.com
 repository: 

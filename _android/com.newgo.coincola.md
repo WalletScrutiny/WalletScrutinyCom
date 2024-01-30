@@ -9,7 +9,7 @@ appId: com.newgo.coincola
 appCountry: 
 released: 2017-07-07
 updated: 2024-01-26
-version: 5.6.2
+version: 5.6.3
 stars: 4.5
 ratings: 1597
 reviews: 124

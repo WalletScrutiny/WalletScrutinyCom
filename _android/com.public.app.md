@@ -1,6 +1,6 @@
 ---
 wsId: publicStocksCrypto
-title: Public - Stocks, Bonds, Crypto
+title: Public – Stocks and Options
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-01-23
 version: 3.126.0
 stars: 4.2
 ratings: 
-reviews: 8467
+reviews: 8470
 size: 
 website: https://public.com
 repository: 

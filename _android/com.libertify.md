@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.libertify.com
+website: https://www.cryptoseatbelt.com
 repository: 
 issue: 
 icon: com.libertify.png

@@ -4,7 +4,7 @@ title: KYCC Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.mobile.kyc
 appCountry: 
 released: 2022-01-21

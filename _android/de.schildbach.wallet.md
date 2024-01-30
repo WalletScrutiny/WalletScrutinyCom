@@ -26,7 +26,7 @@ date: 2024-01-28
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
 - date: 2024-01-17
-  version: "10.12"
+  version: '10.12'
   appHash: f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655
   gitRevision: 1ad53d3162ff1ba485729a6a452ada60bf96113d
   verdict: reproducible

@@ -7,8 +7,8 @@ users: 500
 appId: xeliuqa.com
 appCountry: 
 released: 2021-01-29
-updated: 2021-05-11
-version: '1.8'
+updated: 2024-01-29
+version: '1.9'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xeliuqa.com.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-05-04
+date: 2024-01-29
 signer: 
 reviewArchive: 
 twitter: 

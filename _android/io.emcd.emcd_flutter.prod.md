@@ -4,11 +4,11 @@ title: 'EMCD: pool, wallet, deposits'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2023-12-29
+updated: 2024-01-26
 version: 1.42.1
 stars: 4.1
 ratings: 

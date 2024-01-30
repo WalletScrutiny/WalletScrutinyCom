@@ -12,7 +12,7 @@ updated: 2024-01-26
 version: '7.18'
 stars: 4.5
 ratings: 2711
-reviews: 876
+reviews: 875
 size: 
 website: http://www.astontek.com
 repository: 

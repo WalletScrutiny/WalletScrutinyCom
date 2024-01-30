@@ -4,7 +4,7 @@ title: CryptoTab Browser Pro Level
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24

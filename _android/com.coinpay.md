@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 5000
+users: 10000
 appId: com.coinpay
 appCountry: 
 released: 2020-05-26
