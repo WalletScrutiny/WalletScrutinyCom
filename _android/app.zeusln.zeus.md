@@ -17,19 +17,19 @@ reviews: 27
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
-issue: https://github.com/ZeusLN/zeus/issues/1926
+issue: 
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-01-29
+verdict: reproducible
+date: 2024-01-30
 signer: 
 reviewArchive:
 - date: 2023-12-30
   version: "0.8.0"
   appHash: ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
   gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
-  verdict: nonverifiable
+  verdict: reproducible
 - date: 2023-10-07
   version: 0.7.7
   appHash: 74451415ccf7a0bb60acb5be325b02937695c32bb7cfc86934349aeb1cdf9dfd
@@ -63,7 +63,7 @@ features:
 
 ---
 
-We ran our {% include testScript.html %} and got this:
+We ran our updated {% include testScript.html %} and got this:
 
 ```
 ===== Begin Results =====
@@ -77,11 +77,6 @@ commit:         8ec56e8d3eb020fe52337c7b2a32a62f903ae6c4
 
 Diff:
 Files /tmp/fromPlay_app.zeusln.zeus_81003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_81003/AndroidManifest.xml differ
-Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: arm64
-Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: armeabi
-Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: armeabi-v7a
-Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: x86
-Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: x86_64
 Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.RSA
 Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.SF
 Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: MANIFEST.MF
@@ -93,17 +88,11 @@ Revision, tag (and its signature):
 ```
 
 That is a bigger diff than expected but getting really close. If we ignore all
-the stuff we usually ignore from the META-INF folder and extra stuff we got that
-was not found in the Play Store version - after all, we reproduced all there was
-and produced maybe a bit extra - the diff is in `AndroidManifest.xml` and
-`stamp-cert-sha256`.
+the stuff we usually ignore from the META-INF folder the diff is in
+`AndroidManifest.xml` and `stamp-cert-sha256`.
 
 `stamp-cert-sha256` turns out to belong on our list of acceptable files to
-differ - if small as that.
-
-As it turns out, our test script is comparing the file `zeus-universal.apk` with
-what we got from Google Play but this time, Google Play gave us the smaller
-`zeus-arm64-v8a.apk` which explains these extra lib files above.
+differ. It's Google's additional signature of the app.
 
 But what about the first line - AndroidManifest.xml? Diffoscope can dig into
 that file and this is what it found:
@@ -112,17 +101,6 @@ that file and this is what it found:
 ...
 ├── AndroidManifest.xml (decoded)
 │ ├── AndroidManifest.xml
-│ │ @@ -1,9 +1,9 @@
-│ │  <?xml version="1.0" encoding="utf-8"?>
-│ │ -<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="81003" android:versionName="0.8.1" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="app.zeusln.zeus" platformBuildVersionCode="34" platformBuildVersionName="14">
-│ │ +<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="81" android:versionName="0.8.1" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="app.zeusln.zeus" platformBuildVersionCode="34" platformBuildVersionName="14">
-│ │    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34"/>
-│ │    <uses-permission android:name="android.permission.INTERNET"/>
-│ │    <uses-permission android:name="android.permission.CAMERA"/>
-│ │    <uses-permission android:name="android.permission.NFC"/>
-│ │    <uses-permission android:name="android.permission.VIBRATE"/>
-│ │    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-│ │    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 │ │ @@ -225,10 +225,9 @@
 │ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:exported="false" android:process=":phoenix"/>
 │ │      <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
@@ -145,10 +123,8 @@ meaning the Google file contains the extra line:
 which again is expected when using the Android App Bundle (AAB) format which
 {{ page.title }} apparently switched to.
 
-But also the versionCode differs which is odd but not alarming.
-
-For this probably unnecessary diff in the versionCode we list this app as
-**not verifiable** but note that the diff is benign and we reached out to the
-provider about this in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
+While we don't know yet exactly how to automate testing, this app is
+**reproducible**. We also revise our prior review that had the same issues that
+were resolved in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
 
 {% include asciicast %}
