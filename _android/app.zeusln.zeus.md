@@ -22,9 +22,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-12-30
+date: 2024-01-29
 signer: 
 reviewArchive:
+- date: 2023-12-30
+  version: "0.8.0"
+  appHash: ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
+  gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
+  verdict: nonverifiable
 - date: 2023-10-07
   version: 0.7.7
   appHash: 74451415ccf7a0bb60acb5be325b02937695c32bb7cfc86934349aeb1cdf9dfd
@@ -64,23 +69,23 @@ We ran our {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.0
-apkVersionCode: 80003
+apkVersionName: 0.8.1
+apkVersionCode: 81003
 verdict:        
-appHash:        ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
-commit:         dde7620ec733a002895173ccb4ab7169f6a9fbc7
+appHash:        a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
+commit:         8ec56e8d3eb020fe52337c7b2a32a62f903ae6c4
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_80003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_80003/AndroidManifest.xml differ
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: arm64
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: armeabi
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: armeabi-v7a
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: x86
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: x86_64
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_80003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_81003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_81003/AndroidManifest.xml differ
+Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: arm64
+Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: armeabi
+Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: armeabi-v7a
+Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: x86
+Only in /tmp/fromBuild_app.zeusln.zeus_81003/lib: x86_64
+Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_81003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -90,18 +95,11 @@ Revision, tag (and its signature):
 That is a bigger diff than expected but getting really close. If we ignore all
 the stuff we usually ignore from the META-INF folder and extra stuff we got that
 was not found in the Play Store version - after all, we reproduced all there was
-and produced maybe a bit extra - the diff is:
+and produced maybe a bit extra - the diff is in `AndroidManifest.xml` and
+`stamp-cert-sha256`.
 
-```
-Files /tmp/fromPlay_app.zeusln.zeus_76003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_76003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_76003: stamp-cert-sha256
-```
-
-The second line - `stamp-cert-sha256` - is 32B of binary, hardly enough for some
-backdoor and as it
-[turns out](https://github.com/BlueWallet/BlueWallet/issues/758#issuecomment-849273732)
-this is what Google adds when you let them sign the APK so we can add it to our
-list of acceptable files to differ.
+`stamp-cert-sha256` turns out to belong on our list of acceptable files to
+differ - if small as that.
 
 As it turns out, our test script is comparing the file `zeus-universal.apk` with
 what we got from Google Play but this time, Google Play gave us the smaller
@@ -111,22 +109,21 @@ But what about the first line - AndroidManifest.xml? Diffoscope can dig into
 that file and this is what it found:
 
 ```
-$ diffoscope "/home/leo/Documents/walletscrutiny/incoming/Zeus 0.7.7 (app.zeusln.zeus).apk" /tmp/test_app.zeusln.zeus/app/android/app/build/outputs/apk/release/zeus-arm64-v8a.apk 
 ...
 ├── AndroidManifest.xml (decoded)
 │ ├── AndroidManifest.xml
 │ │ @@ -1,9 +1,9 @@
 │ │  <?xml version="1.0" encoding="utf-8"?>
-│ │ -<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="80003" android:versionName="0.8.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="app.zeusln.zeus" platformBuildVersionCode="33" platformBuildVersionName="13">
-│ │ +<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="80" android:versionName="0.8.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="app.zeusln.zeus" platformBuildVersionCode="33" platformBuildVersionName="13">
-│ │    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="33"/>
+│ │ -<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="81003" android:versionName="0.8.1" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="app.zeusln.zeus" platformBuildVersionCode="34" platformBuildVersionName="14">
+│ │ +<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="81" android:versionName="0.8.1" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="app.zeusln.zeus" platformBuildVersionCode="34" platformBuildVersionName="14">
+│ │    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="34"/>
 │ │    <uses-permission android:name="android.permission.INTERNET"/>
 │ │    <uses-permission android:name="android.permission.CAMERA"/>
 │ │    <uses-permission android:name="android.permission.NFC"/>
 │ │    <uses-permission android:name="android.permission.VIBRATE"/>
 │ │    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-│ │    <uses-feature android:name="android.hardware.nfc.hce" android:required="false"/>
-│ │ @@ -214,10 +214,9 @@
+│ │    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+│ │ @@ -225,10 +225,9 @@
 │ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:exported="false" android:process=":phoenix"/>
 │ │      <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
 │ │        <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
@@ -153,3 +150,5 @@ But also the versionCode differs which is odd but not alarming.
 For this probably unnecessary diff in the versionCode we list this app as
 **not verifiable** but note that the diff is benign and we reached out to the
 provider about this in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
+
+{% include asciicast %}
