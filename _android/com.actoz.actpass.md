@@ -3,7 +3,7 @@ wsId: actpass
 title: ActPass Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.actoz.actpass
 appCountry: 

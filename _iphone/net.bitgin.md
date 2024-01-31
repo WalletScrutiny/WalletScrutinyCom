@@ -3,15 +3,15 @@ wsId: bitginApp
 title: BITGIN
 altTitle: 
 authors:
-- danny 
+- danny
 appId: net.bitgin
 appCountry: tw
 idd: '1642898342'
-released: '2022-11-06T07:00:00Z'
+released: 2022-11-06
 updated: 2023-05-30
 version: 2.2.2
-stars: 4.33333
-reviews: 18
+stars: 4.4
+reviews: 19
 size: '15631360'
 website: https://www.bitgin.net/
 repository: 

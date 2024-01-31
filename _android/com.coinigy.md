@@ -4,7 +4,7 @@ title: Coinigy
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinigy
 appCountry: us
 released: 2018-06-11

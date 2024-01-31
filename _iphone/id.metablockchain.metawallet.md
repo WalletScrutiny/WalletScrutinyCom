@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: id.metablockchain.metawallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-02-08
+date: 2024-01-31
 signer: 
 reviewArchive: 
 twitter: MUIcommunity

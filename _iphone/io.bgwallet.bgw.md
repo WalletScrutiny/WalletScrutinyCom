@@ -3,11 +3,11 @@ wsId: bgWallet
 title: BG Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.bgwallet.bgw
 appCountry: us
 idd: '1628519503'
-released: '2022-10-31T07:00:00Z'
+released: 2022-10-31
 updated: 2023-09-26
 version: 0.2.8
 stars: 0

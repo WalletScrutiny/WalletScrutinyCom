@@ -6,7 +6,7 @@ authors:
 appId: com.bitlifi.app
 appCountry: us
 idd: '6448746690'
-released: '2023-05-16T07:00:00Z'
+released: 2023-05-16
 updated: 2023-09-25
 version: 1.7.5
 stars: 0
@@ -24,7 +24,7 @@ signer:
 reviewArchive: 
 twitter: bitlifi
 social:
-- https://www.facebook.com/bitlifi 
+- https://www.facebook.com/bitlifi
 features: 
 developerName: MP Developers s.r.o.
 

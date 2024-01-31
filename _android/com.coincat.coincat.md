@@ -3,7 +3,7 @@ wsId:
 title: CoinCat - обмен криптовалют
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coincat.coincat
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Coincat_in
 social:
 - https://vk.com/coincat
-- https://habr.com/ru/users/coincat 
+- https://habr.com/ru/users/coincat
 redirect_from: 
 developerName: CoinCat inc.
 features: 

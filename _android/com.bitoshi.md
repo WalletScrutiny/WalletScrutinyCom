@@ -2,8 +2,8 @@
 wsId: bitoshiAfrica
 title: Bitoshi
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 5000
 appId: com.bitoshi
 appCountry: 
@@ -25,10 +25,10 @@ date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: Bitoshiafrica
-social: 
+social:
 - https://www.linkedin.com/company/bitoshiafrica
 - https://www.instagram.com/bitoshi.africa
-- https://t.me/+c4ek89XILkc2OTk8 
+- https://t.me/+c4ek89XILkc2OTk8
 redirect_from: 
 developerName: Bitoshi Africa
 features: 

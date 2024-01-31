@@ -3,7 +3,7 @@ wsId: bgWallet
 title: BG Wallet-Licensed Crypto App
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bgw.wallet
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/bgwallet
 - https://discord.com/channels/1008584420619456584
 - https://www.linkedin.com/company/bg-wallet
-- https://www.instagram.com/bg.wallet 
+- https://www.instagram.com/bg.wallet
 redirect_from: 
 developerName: BG Technologies Limited
 features: 

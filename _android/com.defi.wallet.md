@@ -12,7 +12,7 @@ updated: 2024-01-27
 version: 1.76.0
 stars: 4.4
 ratings: 13620
-reviews: 2886
+reviews: 2888
 size: 
 website: https://www.crypto.com
 repository: 

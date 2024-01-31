@@ -8,12 +8,12 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2024-01-19
-version: 10.17.0
+updated: 2024-01-30
+version: 10.17.2
 stars: 3.9
-reviews: 1253
-size: '261976064'
-website: https://www.huobi.com
+reviews: 1254
+size: '263329792'
+website: https://www.htx.com
 repository: 
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg

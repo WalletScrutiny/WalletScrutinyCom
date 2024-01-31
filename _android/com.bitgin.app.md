@@ -3,7 +3,7 @@ wsId: bitginApp
 title: BITGIN
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitgin.app
 appCountry: 

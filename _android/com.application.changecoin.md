@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.application.changecoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-02-08
+date: 2024-01-31
 signer: 
 reviewArchive: 
 twitter: 

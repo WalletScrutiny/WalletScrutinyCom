@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: http://www.doex.com
 repository: 
 issue: 
 icon: io.doex.app.png
@@ -30,7 +30,7 @@ social:
 - https://t.me/DoexOfficial888
 - https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ
 redirect_from: 
-developerName: DealLeijc
+developerName: ETERNA BEAUTY LLC
 features: 
 
 ---

@@ -8,11 +8,11 @@ appId: com.ttmbank.wallet.app
 appCountry: de
 idd: '1540851562'
 released: 2021-08-12
-updated: 2023-11-16
-version: 2.3.3
+updated: 2024-01-30
+version: 2.3.5
 stars: 5
 reviews: 2
-size: '79482880'
+size: '100632576'
 website: https://ttmwallet.io/
 repository: 
 issue: 

@@ -2,8 +2,8 @@
 wsId: 
 title: 'BitBanana: Bitcoin & Lightning'
 altTitle: 
-authors: 
-- danny 
+authors:
+- danny
 users: 1000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
@@ -25,9 +25,10 @@ date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: BitBananaApp
-social: 
+social:
 - https://discord.gg/Xg85BuTc9A
-- https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj 
+- >-
+  https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
 redirect_from: 
 developerName: Michael Wünsch
 features: 

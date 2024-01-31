@@ -11,7 +11,7 @@ released: 2019-03-22
 updated: 2024-01-12
 version: 4.0.23
 stars: 4.7
-reviews: 437
+reviews: 438
 size: '106618880'
 website: https://blockstream.com/green/
 repository: 

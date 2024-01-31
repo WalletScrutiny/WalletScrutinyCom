@@ -7,8 +7,8 @@ users: 100
 appId: com.mesh.msamexexchange
 appCountry: 
 released: 2021-06-02
-updated: 2024-01-04
-version: 2.0.5
+updated: 2024-01-30
+version: 2.0.7
 stars: 
 ratings: 
 reviews: 

@@ -3,7 +3,7 @@ wsId: capexExchange
 title: Capex exchange
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.capex
 appCountry: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/capex.mn
 - https://www.instagram.com/capex.mn
-- https://t.me/capexcoin 
+- https://t.me/capexcoin
 redirect_from: 
 developerName: Dataland LLC
 features: 

@@ -3,7 +3,7 @@ wsId: inocyx
 title: INOCYX
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.application.inocyx
 appCountry: 

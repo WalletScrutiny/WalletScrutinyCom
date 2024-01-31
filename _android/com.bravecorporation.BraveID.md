@@ -3,7 +3,7 @@ wsId: bravePay
 title: 'BravePay: buy&pay with crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bravecorporation.BraveID
 appCountry: 

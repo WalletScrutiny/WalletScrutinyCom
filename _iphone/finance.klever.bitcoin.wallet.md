@@ -8,11 +8,11 @@ appId: finance.klever.bitcoin.wallet
 appCountry: us
 idd: '1615064243'
 released: 2023-01-25
-updated: 2024-01-29
-version: 5.5.26
+updated: 2024-01-30
+version: 5.5.27
 stars: 4.9
-reviews: 616
-size: '202265600'
+reviews: 618
+size: '202249216'
 website: https://klever.org
 repository: 
 issue: 

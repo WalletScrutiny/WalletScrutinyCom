@@ -3,17 +3,17 @@ wsId: bitoshiAfrica
 title: Bitoshi
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitoshi
 appCountry: us
 idd: '1627285591'
-released: '2022-10-17T07:00:00Z'
+released: 2022-10-17
 updated: 2023-08-31
 version: 1.3.0
-stars: 4.67347
-reviews: 98
+stars: 4.8
+reviews: 298
 size: '47015936'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitoshi.jpg
@@ -28,7 +28,7 @@ social:
 - https://bitoshi.africa
 - https://www.linkedin.com/company/bitoshiafrica
 - https://www.instagram.com/bitoshi.africa
-- https://t.me/+c4ek89XILkc2OTk8 
+- https://t.me/+c4ek89XILkc2OTk8
 features: 
 developerName: Bitoshi Digital Services Limited
 

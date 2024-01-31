@@ -4,7 +4,7 @@ title: 'SekiApp: Sell,Store,Buy Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.wiseki.sekiapp
 appCountry: 
 released: 2022-05-31

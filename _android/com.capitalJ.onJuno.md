@@ -12,7 +12,7 @@ updated: 2024-01-18
 version: 4.0.23
 stars: 3.6
 ratings: 
-reviews: 380
+reviews: 381
 size: 
 website: https://juno.finance
 repository: 

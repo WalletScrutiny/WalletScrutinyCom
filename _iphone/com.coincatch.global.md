@@ -3,17 +3,17 @@ wsId: coinCatchExchange
 title: CoinCatch- Buy Bitcoin &Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coincatch.global
 appCountry: us
 idd: '6449619148'
-released: '2023-07-05T07:00:00Z'
-updated: 2023-10-18
-version: 1.5.3
-stars: 5
-reviews: 1
-size: '139087872'
-website: ''
+released: 2023-07-05
+updated: 2024-01-22
+version: 1.7.0
+stars: 4.8
+reviews: 10
+size: '124272640'
+website: 
 repository: 
 issue: 
 icon: com.coincatch.global.jpg

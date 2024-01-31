@@ -1,6 +1,6 @@
 ---
 wsId: ari10Exchange
-title: Ari10 Exchange
+title: 'Ari10: Kup Bitcoin BLIK-iem'
 altTitle: 
 authors:
 - danny

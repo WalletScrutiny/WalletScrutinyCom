@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ProfitTradingApp for Bybit
+title: ProfitTradingApp For Bybit
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22
-updated: 2024-01-29
-version: 3.1.0
+updated: 2024-01-30
+version: 3.1.1
 stars: 4.3
 ratings: 41
 reviews: 2

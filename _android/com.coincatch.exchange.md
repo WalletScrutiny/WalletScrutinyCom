@@ -3,13 +3,13 @@ wsId: coinCatchExchange
 title: CoinCatch-Buy Bitcoin & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07
-updated: 2024-01-20
-version: 1.7.0
+updated: 2024-01-30
+version: 1.7.1
 stars: 4.7
 ratings: 
 reviews: 20
@@ -28,7 +28,7 @@ twitter: coincatchcom
 social:
 - https://www.coincatch.com
 - https://t.me/coincatch_chat_en
-- https://www.instagram.com/coincatch_official 
+- https://www.instagram.com/coincatch_official
 redirect_from: 
 developerName: Linkbase Technology Limited
 features: 

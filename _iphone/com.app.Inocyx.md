@@ -3,17 +3,17 @@ wsId: inocyx
 title: INOCYX
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.app.Inocyx
 appCountry: in
 idd: '6444437433'
-released: '2022-12-05T08:00:00Z'
-updated: 2023-10-27
-version: '1.9'
+released: 2022-12-05
+updated: 2024-01-31
+version: '2.4'
 stars: 5
 reviews: 8
-size: '60243968'
-website: ''
+size: '48059392'
+website: 
 repository: 
 issue: 
 icon: com.app.Inocyx.jpg
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/profile.php?id=100083436154588
 - https://www.instagram.com/inocyx
 - https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
-- https://t.me/inocyxiyx 
+- https://t.me/inocyxiyx
 features: 
 developerName: Inocyx technologies private limited
 

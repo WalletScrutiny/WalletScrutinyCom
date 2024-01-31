@@ -3,7 +3,7 @@ wsId: bitlifiApp
 title: Bitlifi
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitlifi.app
 appCountry: 
@@ -26,11 +26,12 @@ signer:
 reviewArchive: 
 twitter: bitlifi
 social:
-- https://www.facebook.com/bitlifi 
+- https://www.facebook.com/bitlifi
 redirect_from: 
 developerName: MP Developers s.r.o.
-features: 
+features:
 - ln
+
 ---
 
 ## App Description from Google Play
