@@ -8,7 +8,7 @@ RUN set -ex; \
     apt-get update; \
     DEBIAN_FRONTEND=noninteractive apt-get install --yes \
       -o APT::Install-Suggests=false --no-install-recommends \
-      patch git openjdk-11-jre-headless; \
+      patch git openjdk-11-jre-headless openjdk-11-jdk; \
     rm -rf /var/lib/apt/lists/*; \
     deluser node; \
     useradd --uid $UID --create-home --shell /bin/bash appuser; \
