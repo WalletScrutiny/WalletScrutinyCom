@@ -21,7 +21,7 @@ issue:
 icon: lasereyes.boltcard.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: custodial
 date: 2024-01-15
 signer: 
 reviewArchive: 
@@ -48,6 +48,6 @@ Setting-up the cards requires the following software:
  - [Bolt Card NFC programming app](https://play.google.com/store/apps/details?id=com.lightningnfcapp)
  - [NXP NFC Tag Writer](https://play.google.com/store/apps/details?id=com.nxp.nfc.tagwriter)
 
- The private keys are stored on the paired wallet app, and not stored on the cards. For this reason, we cannot classify this as a wallet.
+ The private keys are stored on the paired wallet app, which are then presumably kept on the LNBits server and not stored on the cards.
 
 

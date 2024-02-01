@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: mevu.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2024-01-15
 signer: 
