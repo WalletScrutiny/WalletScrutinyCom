@@ -21,7 +21,7 @@ issue:
 icon: lnbits.boltcard.png
 bugbounty: 
 meta: ok
-verdict: sealed-plainkey
+verdict: custodial
 date: 2023-12-08
 signer: 
 reviewArchive: 
