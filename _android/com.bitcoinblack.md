@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
-updated: 2024-01-10
-version: '2.4'
+updated: 2024-02-01
+version: '2.6'
 stars: 
 ratings: 
 reviews: 

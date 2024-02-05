@@ -1,6 +1,6 @@
 ---
 wsId: criptanWallet
-title: Criptan. Complement your bank.
+title: Criptan - Complement your bank
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.criptan.app
 appCountry: 
 released: 2020-08-23
-updated: 2024-01-16
-version: 2.15.85
+updated: 2024-02-02
+version: 2.15.92
 stars: 
 ratings: 
 reviews: 

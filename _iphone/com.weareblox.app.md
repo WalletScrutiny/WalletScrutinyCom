@@ -11,7 +11,7 @@ released: '2019-01-16'
 updated: 2024-01-26
 version: 5.0.1
 stars: 4.5
-reviews: 1865
+reviews: 1872
 size: '96077824'
 website: https://weareblox.com
 repository: 

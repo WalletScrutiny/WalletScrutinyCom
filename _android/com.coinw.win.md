@@ -12,7 +12,7 @@ updated: 2024-01-31
 version: 9.9.3
 stars: 4.4
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://www.coinw.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-10-03
 version: 2.3.4
 stars: 4.1
 ratings: 105
-reviews: 154
+reviews: 155
 size: 
 website: https://www.bitcoindepot.com/
 repository: 

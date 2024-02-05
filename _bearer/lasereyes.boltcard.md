@@ -8,7 +8,7 @@ discontinued:
 updated: 
 version: 
 binaries: 
-dimensions:
+dimensions: 
 weight: 
 provider: Laser Eyes Cards
 providerWebsite: https://lasereyes.cards/
@@ -26,7 +26,8 @@ date: 2024-01-15
 signer: 
 reviewArchive: 
 twitter: 
-social:
+social: 
+features: 
 
 ---
 

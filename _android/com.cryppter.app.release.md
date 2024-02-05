@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryppter.app.release.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

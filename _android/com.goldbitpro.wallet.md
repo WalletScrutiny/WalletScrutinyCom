@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: GoldBit Technology Co., Ltd
+developerName: GenB Technology Inc.
 features: 
 
 ---

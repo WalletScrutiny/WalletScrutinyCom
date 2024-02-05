@@ -8,11 +8,11 @@ appId: com.lanistar.lanistarprod
 appCountry: us
 idd: '1535627210'
 released: 2020-11-04
-updated: 2023-12-08
-version: 2.0.58
+updated: 2024-01-31
+version: 2.0.59
 stars: 3.3
 reviews: 108
-size: '104555520'
+size: '106479616'
 website: https://www.lanistar.com
 repository: 
 issue: 

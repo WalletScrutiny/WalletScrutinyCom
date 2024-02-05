@@ -4,7 +4,7 @@ title: 'Swan Bitcoin: Buy & Save'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.swanbitcoin.android
 appCountry: 
 released: 2022-03-25

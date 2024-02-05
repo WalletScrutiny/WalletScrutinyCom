@@ -9,11 +9,11 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2024-01-22
+updated: 2024-02-03
 version: 2.2.220
 stars: 4.5
 ratings: 
-reviews: 12
+reviews: 13
 size: 
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile/

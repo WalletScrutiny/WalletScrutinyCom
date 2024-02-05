@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-07-05
 updated: 2023-11-14
 version: 2.1.0
-stars: 2.6
+stars: 2.7
 ratings: 248
-reviews: 28
+reviews: 29
 size: 
 website: https://www.jeroid.ng/
 repository: 

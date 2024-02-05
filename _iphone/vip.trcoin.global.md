@@ -8,11 +8,11 @@ appId: vip.trcoin.global
 appCountry: us
 idd: '6444928783'
 released: 2023-01-09
-updated: 2024-01-23
-version: 2.4.7
+updated: 2024-02-02
+version: 2.4.8
 stars: 4.8
 reviews: 16
-size: '140563456'
+size: '140491776'
 website: 
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.starworksglobal.starwallet
 appCountry: 
 released: 2021-02-01
-updated: 2024-01-02
-version: 3.001.111
+updated: 2024-02-03
+version: 3.001.116
 stars: 
 ratings: 
 reviews: 

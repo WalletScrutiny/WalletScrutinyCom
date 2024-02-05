@@ -4,15 +4,15 @@ title: Xverse - Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12
-updated: 2024-01-19
-version: 1.25.0
-stars: 4.4
+updated: 2024-01-31
+version: 1.25.1
+stars: 4.5
 ratings: 34
-reviews: 628
+reviews: 630
 size: 
 website: https://www.xverse.app/
 repository: 

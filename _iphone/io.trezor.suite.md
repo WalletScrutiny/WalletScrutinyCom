@@ -11,7 +11,7 @@ released: 2023-05-14
 updated: 2024-01-22
 version: 24.1.1
 stars: 3.2
-reviews: 34
+reviews: 36
 size: '48746496'
 website: https://trezor.io/
 repository: 

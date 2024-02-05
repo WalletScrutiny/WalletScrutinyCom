@@ -8,8 +8,8 @@ users: 10000
 appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
-updated: 2024-01-25
-version: 3.7.0
+updated: 2024-02-01
+version: 3.7.1
 stars: 3.5
 ratings: 363
 reviews: 41

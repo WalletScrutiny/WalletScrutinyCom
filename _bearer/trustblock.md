@@ -33,7 +33,7 @@ social:
 - https://www.youtube.com/@trustblockltd9578
 - https://www.linkedin.com/company/trustblock
 - https://www.instagram.com/trustblock.io
-- https://t.me/TrustBlock 
+- https://t.me/TrustBlock
 features: 
 
 ---

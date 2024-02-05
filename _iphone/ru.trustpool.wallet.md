@@ -11,7 +11,7 @@ released: 2022-02-09
 updated: 2023-09-06
 version: 2.5.1
 stars: 4.4
-reviews: 8
+reviews: 9
 size: '52304896'
 website: https://frostwallet.cc
 repository: 
