@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: site.globex.bankwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

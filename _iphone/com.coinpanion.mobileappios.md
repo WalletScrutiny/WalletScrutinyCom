@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinpanion.mobileappios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-06-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

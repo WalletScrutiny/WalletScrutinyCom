@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.archgroup.kswappay.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-01
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

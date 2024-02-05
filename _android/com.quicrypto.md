@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quicrypto.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-06-18
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: quicrypto

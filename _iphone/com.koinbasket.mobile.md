@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.koinbasket.mobile.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-07-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: koinbasket

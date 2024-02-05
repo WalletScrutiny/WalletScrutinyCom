@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thunderbolt.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fake
-date: 2023-08-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

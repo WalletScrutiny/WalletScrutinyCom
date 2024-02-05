@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wavesplatform.WavesWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-12-15
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: waves_exchange

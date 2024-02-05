@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.monifiex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-25
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

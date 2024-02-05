@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vendescrow.vendescrow.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

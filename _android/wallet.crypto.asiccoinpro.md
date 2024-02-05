@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wallet.crypto.asiccoinpro.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-24
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.huobi.kr.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-08-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: huobi_korea

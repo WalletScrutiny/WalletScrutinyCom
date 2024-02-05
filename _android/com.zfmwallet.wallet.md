@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zfmwallet.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-10-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.tradepal.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.nexo.pro.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-05
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Nexo

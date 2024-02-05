@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.bitanex.bitanex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-04-15
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

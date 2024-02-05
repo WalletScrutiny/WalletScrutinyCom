@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.studytodo.bitkey.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-12-15
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

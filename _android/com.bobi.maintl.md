@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bobi.maintl.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

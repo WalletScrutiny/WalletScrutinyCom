@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoin_trader_932833.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2023-08-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

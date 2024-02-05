@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.cointrust.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

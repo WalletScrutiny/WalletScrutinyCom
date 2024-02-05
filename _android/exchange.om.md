@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.om.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

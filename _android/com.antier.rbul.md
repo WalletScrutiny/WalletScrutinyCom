@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.antier.rbul.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-02-20
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

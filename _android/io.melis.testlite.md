@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.melis.testlite.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-08-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

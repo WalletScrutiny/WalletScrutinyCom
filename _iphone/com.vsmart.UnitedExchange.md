@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vsmart.UnitedExchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: exchange_united

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.peertrans.com.peer_trans.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

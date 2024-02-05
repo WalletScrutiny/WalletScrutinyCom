@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://herowallet.com/
+website: https://purchasa.com/
 repository: 
 issue: 
 icon: com.herowallet.png

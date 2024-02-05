@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: xyz.appmaker.mevpis.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.menapay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

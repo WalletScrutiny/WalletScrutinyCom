@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quintex.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-23
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

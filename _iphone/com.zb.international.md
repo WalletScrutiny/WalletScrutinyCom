@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zb.international.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-10-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: ZBexchange

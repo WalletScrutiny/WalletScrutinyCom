@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinpasslimited.coinpassinstant.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-12-14
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: coinpassglobal

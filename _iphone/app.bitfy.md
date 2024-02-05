@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bitfy.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-09-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: bitfyapp

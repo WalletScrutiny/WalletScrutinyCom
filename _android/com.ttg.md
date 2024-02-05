@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ttg.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-06-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: tradethegames

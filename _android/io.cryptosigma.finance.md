@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.cryptosigma.finance.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-07-04
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinspaid.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: coinspaid

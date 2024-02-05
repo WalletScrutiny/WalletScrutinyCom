@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitfxservice.bitfxservice.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-09-28
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

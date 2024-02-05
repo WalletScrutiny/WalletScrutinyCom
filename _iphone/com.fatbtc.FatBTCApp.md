@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fatbtc.FatBTCApp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: fatbtc
