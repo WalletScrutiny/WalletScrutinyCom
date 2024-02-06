@@ -331,3 +331,33 @@ airGapped:
     the attack surface for the private keys. In theory this setup can be
     much more secure than the usual app that has both the private keys and
     internet access in one.
+liquid:
+  short: Liquid Network Integration
+  long: >
+    The Liquid Network is a Bitcoin sidechain designed to enable faster and more confidential transactions,
+    launched by Blockstream in 2018. It allows for the issuance of digital assets, including security tokens
+    and stablecoins, on a blockchain that benefits from the security of the Bitcoin network while offering
+    transactions with improved speed and privacy through Confidential Transactions.
+    <a href='https://blockstream.com/liquid/'>Learn more about Liquid</a>.
+    
+    Wallet integration with Liquid means users can send and receive Bitcoin and other assets issued on the
+    Liquid Network. This feature assesses wallets that support both sending to and receiving from Liquid addresses.
+  benefit: >
+    * **Faster Transactions:** Liquid provides faster transaction confirmations compared to Bitcoin's main chain,
+      improving the user experience for certain use cases like trading or asset transfer.
+    
+    * **Enhanced Privacy:** Through Confidential Transactions, Liquid hides the amounts and types of assets being
+      transferred, offering greater privacy for its users.
+    
+    * **Asset Issuance:** Users can issue and manage digital assets on the Liquid Network, opening up a range of
+      possibilities for tokenization and financial instruments.
+    
+    * **Interexchange Transfers:** Liquid is particularly beneficial for exchanges and traders, enabling rapid,
+      secure transfers between accounts on different platforms that support Liquid.
+  drawback: >
+    * **Centralization Concerns:** The Liquid Network is operated by a federation of members, which may raise
+      centralization concerns among users who prioritize the decentralized nature of Bitcoin.
+    
+    * **Limited Adoption:** As a specialized network, Liquid's benefits are most pronounced in specific scenarios,
+      and the ecosystem is smaller than Bitcoin's main network, potentially limiting its utility for some users.
+
