@@ -8,11 +8,11 @@ appId: io.bgwallet.bgw
 appCountry: us
 idd: '1628519503'
 released: 2022-10-31
-updated: 2023-09-26
-version: 0.2.8
+updated: 2024-02-07
+version: 0.2.9
 stars: 0
 reviews: 0
-size: '85917696'
+size: '76166144'
 website: https://bgwallet.io/
 repository: 
 issue: 

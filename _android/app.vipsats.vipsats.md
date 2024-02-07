@@ -9,9 +9,9 @@ appCountry:
 released: 2023-10-12
 updated: 2024-01-15
 version: '1.1'
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://vipsats.app
 repository: 

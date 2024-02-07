@@ -9,10 +9,10 @@ appId: com.livingroomofsatoshi.wallet
 appCountry: 
 released: 2019-05-19
 updated: 2024-01-30
-version: 2.3.6
+version: 2.4.0
 stars: 4.1
 ratings: 758
-reviews: 188
+reviews: 190
 size: 
 website: http://www.walletofsatoshi.com
 repository: 

@@ -11,7 +11,7 @@ released: 2020-09-29
 updated: 2024-01-30
 version: 3.5.16
 stars: 5
-reviews: 23
+reviews: 24
 size: '55992320'
 website: https://fxtrendo.com/
 repository: 

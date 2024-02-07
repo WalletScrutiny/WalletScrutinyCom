@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Lightning POS
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: cz.confirmo.app.confirmo_flutter
 appCountry: 
 released: 2022-08-12
@@ -19,7 +19,7 @@ issue:
 icon: cz.confirmo.app.confirmo_flutter.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

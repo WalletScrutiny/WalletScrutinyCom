@@ -12,9 +12,9 @@ updated: 2024-01-30
 version: 3.1.30
 stars: 2.8
 ratings: 4531
-reviews: 3057
+reviews: 3060
 size: 
-website: https://rain.bh
+website: https://rain.com
 repository: 
 issue: 
 icon: com.rainmanagement.rain.png

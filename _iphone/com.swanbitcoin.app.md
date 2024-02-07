@@ -8,11 +8,11 @@ appId: com.swanbitcoin.app
 appCountry: us
 idd: '1576287352'
 released: 2022-08-25
-updated: 2024-01-29
-version: 1.5.2
+updated: 2024-02-05
+version: 1.5.4
 stars: 4.8
-reviews: 527
-size: '118535168'
+reviews: 535
+size: '118730752'
 website: http://www.swanbitcoin.com
 repository: 
 issue: 

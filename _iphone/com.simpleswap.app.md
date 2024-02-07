@@ -8,11 +8,11 @@ appId: com.simpleswap.app
 appCountry: gb
 idd: 1506038278
 released: 2020-05-15
-updated: 2023-12-21
-version: 4.0.12
+updated: 2024-02-07
+version: 4.1.0
 stars: 4.6
 reviews: 30
-size: '55581696'
+size: '55439360'
 website: https://simpleswap.io/mobile-app
 repository: 
 issue: 

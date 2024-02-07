@@ -1,6 +1,6 @@
 ---
 wsId: junoFinance
-title: Juno - Buy Bitcoin and Crypto
+title: Juno - Buy Bitcoin & Litecoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.capitalJ.onJuno
 appCountry: us
 idd: '1525858971'
 released: 2021-02-13
-updated: 2024-01-22
-version: 4.0.2
+updated: 2024-02-07
+version: 4.0.3
 stars: 3.9
-reviews: 851
-size: '467012608'
+reviews: 852
+size: '481022976'
 website: https://juno.finance
 repository: 
 issue: 

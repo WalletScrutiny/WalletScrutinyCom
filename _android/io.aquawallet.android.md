@@ -3,7 +3,7 @@ wsId: aquaWallet
 title: AQUA Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.aquawallet.android
 appCountry: 
 released: 2024-01-02

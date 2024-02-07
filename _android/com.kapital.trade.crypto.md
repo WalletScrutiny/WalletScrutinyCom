@@ -1,6 +1,6 @@
 ---
 wsId: bitcointradingcapital
-title: Bitcoin Trading - Capital.com
+title: Bitcoin trading - Capital.com
 altTitle: 
 authors:
 - danny

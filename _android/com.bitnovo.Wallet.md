@@ -12,7 +12,7 @@ updated: 2024-01-30
 version: 3.0.11
 stars: 3.7
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.bitnovo.com
 repository: 

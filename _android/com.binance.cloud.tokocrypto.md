@@ -10,7 +10,7 @@ appCountry: id
 released: 2020-10-19
 updated: 2024-01-11
 version: 2.8.0
-stars: 3.6
+stars: 3.5
 ratings: 34617
 reviews: 39925
 size: 

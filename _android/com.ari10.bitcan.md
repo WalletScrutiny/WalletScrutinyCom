@@ -1,6 +1,6 @@
 ---
 wsId: ari10Exchange
-title: 'Ari10: Kup Bitcoin BLIK-iem'
+title: 'Ari10: Buy Bitcoin and crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.ari10.bitcan
 appCountry: 
 released: 2022-06-14
-updated: 2023-12-11
-version: 1.1.12
+updated: 2024-02-06
+version: 1.1.13
 stars: 
 ratings: 
 reviews: 

@@ -8,11 +8,11 @@ appId: com.coincatch.global
 appCountry: us
 idd: '6449619148'
 released: 2023-07-05
-updated: 2024-01-22
-version: 1.7.0
+updated: 2024-02-07
+version: 1.8.0
 stars: 4.8
 reviews: 10
-size: '124272640'
+size: '124022784'
 website: 
 repository: 
 issue: 

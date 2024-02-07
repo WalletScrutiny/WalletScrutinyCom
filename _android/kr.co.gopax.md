@@ -10,9 +10,9 @@ appCountry: cn
 released: 2018-11-05
 updated: 2024-01-31
 version: 1.7.46.cacd
-stars: 4.1
+stars: 4.2
 ratings: 1387
-reviews: 1507
+reviews: 1506
 size: 
 website: https://www.gopax.co.kr
 repository: 

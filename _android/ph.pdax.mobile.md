@@ -12,7 +12,7 @@ updated: 2024-01-22
 version: 5.5.2
 stars: 3.3
 ratings: 3291
-reviews: 2214
+reviews: 2215
 size: 
 website: https://pdax.ph
 repository: 
