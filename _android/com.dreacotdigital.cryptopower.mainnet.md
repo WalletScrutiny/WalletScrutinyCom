@@ -41,17 +41,17 @@ Crytopower allows you to choose between resoring an existing wallet or creating 
 
 The source code was available on GitHub. 
 
-I tried building the app but failed with error:
+I was able to build the app via [instructions from GitHub](https://github.com/crypto-power/cryptopower/blob/master/how-to-build-mobile.md). 
+
+I was able to successfully build an apk which was then extracted into built_apk directory, which was then compared with the extracted downloaded apk. 
+These were the results:
 
 ```
-# gogio -target android .
-
-gogio: go build -ldflags=-w -s -X gioui.org/app.ID=com.github.cryptopower -X gioui.org/app/internal/log.appID=com.github.cryptopower -buildmode=c-shared -tags  -o /tmp/gogio-3943281878/jni/x86_64/libgio.so . 
-
-failed: libwallet/instantswap/instantswap.go:27:12: pattern instant.json: no matching files found
-
-root@3f24c929af86:/workspace/cryptopower# 
-root@3f24c929af86:/workspace/cryptopower# ls
-LICENSE    app		appos	   dexc  go.mod  how-to-build-mobile.md  log.go  main.go		 reproduciblebuilds  ui
-README.md  appicon.png	config.go  docs  go.sum  libwallet		 logger  reproducible_builds.sh  run_tests.sh	     version
+Files base/AndroidManifest.xml and built_apk/AndroidManifest.xml differ
+Files base/classes.dex and built_apk/classes.dex differ
+Only in built_apk/: lib
+Only in built_apk/: META-INF
+Only in base/res: xml
+Files base/resources.arsc and built_apk/resources.arsc differ
+Only in base/: stamp-cert-sha256
 ```
