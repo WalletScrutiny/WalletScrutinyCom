@@ -4,6 +4,7 @@ title: Bitcoin trading - Capital.com
 altTitle: 
 authors:
 - danny
+- leo
 users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
@@ -20,8 +21,8 @@ issue:
 icon: com.kapital.trade.crypto.png
 bugbounty: 
 meta: ok
-verdict: nosendreceive
-date: 2021-09-10
+verdict: fake
+date: 2024-02-08
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,6 +32,36 @@ developerName: Capital.com BG
 features: 
 
 ---
+
+<div class="alertBox"><div>
+<p>We reached out to Capital.com and their support assured us that the only apps
+provided by them are listed at https://capital.com/mobile-apps</p>
+<p>That's an educative app and 
+{% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
+and not the app here reviewed.</p>
+</div></div>
+
+## Updated Review 2024-02-08
+
+This is likely a fake app. We are currently [verifying with the official capital.com twitter](https://twitter.com/BitcoinWalletz/status/1755422197035012396) account. We also sent an email via (support (at-sign) capital (dot) com). 
+
+## Google Play Reviews 
+
+Some are a bit concerning since they report losing money. The purveyors of the app reply and simply redirect them to official support channels.
+
+> [Shahab Jamali](https://play.google.com/store/apps/details?id=com.kapital.trade.crypto)<br>
+  ★☆☆☆☆ May 14, 2021 <br>
+       I withdrawal 5 days ago but till now didn't transfer!!! I called them but the contacts are not available!! I send them message bu whatsapp and telegram but without answer??!! Also I jad chat online but without any result! The service is very bad and till now I lost more than 2000€ in this app without any support!
+
+> [KALLOL DAS MAHAPATRA](https://play.google.com/store/apps/details?id=com.kapital.trade.crypto)<br>
+  ★☆☆☆☆ July 14, 2021 <br>
+       Such a horrible experience with this...... I withdraw my money before 30 days till it is not credited in my bank account..... but it also don't show in apps account....... fake apps
+
+## Analysis 
+
+While we wait for the reply, we believe that the lack of a link from the official website to this particular app, its logo's striking resemblance to the original app and its usage of trademarks in its app name is sufficient to indicate that this app is indeed a **fake** app.
+
+## Previous Review 2021-09-10
 
 The app doesn't have a web equivalent and the primary domain associated with the app points to the services company that created the software. 
 
@@ -45,6 +76,3 @@ Not much information can be gleaned from the web domain so most of the informati
 > Capital.com is here to provide an engaging trading experience on our user-friendly platform that is designed to make trading more intuitive. Gain exposure to the crypto markets with derivatives and become a Bitcoin trader *without needing to hold any Bitcoin*.
 
 The presence of CFDs indicate an inability to send and receive bitcoins.
-
-
-Additional observations: We wonder how this app relates to Capital.com, as that site redirects to {% include walletLink.html wallet='android/com.capital.trading' verdict='false' %} and not this app.

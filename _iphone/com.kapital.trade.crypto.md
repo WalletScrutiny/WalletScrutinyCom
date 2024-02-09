@@ -19,8 +19,8 @@ issue:
 icon: com.kapital.trade.crypto.jpg
 bugbounty: 
 meta: ok
-verdict: nosendreceive
-date: 2021-09-03
+verdict: fake
+date: 2024-02-08
 signer: 
 reviewArchive: 
 twitter: 
