@@ -11,7 +11,7 @@ released: 2021-05-12
 updated: 2024-02-06
 version: 2.6.1
 stars: 4.1
-reviews: 80
+reviews: 81
 size: '159574016'
 website: https://www.coinstore.com
 repository: 

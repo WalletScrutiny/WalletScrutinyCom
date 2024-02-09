@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
 redirect_from: 
-developerName: limitless tech
+developerName: kaprox
 features: 
 
 ---

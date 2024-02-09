@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.logmethod.hsr.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-02-20
+date: 2024-02-09
 signer: 
 reviewArchive: 
 twitter: 

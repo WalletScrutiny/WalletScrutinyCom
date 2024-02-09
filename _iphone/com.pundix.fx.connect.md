@@ -10,8 +10,8 @@ idd: 1504798360
 released: 2021-03-25
 updated: 2024-01-26
 version: 3.7.0
-stars: 3.1
-reviews: 63
+stars: 3.2
+reviews: 62
 size: '141615104'
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android

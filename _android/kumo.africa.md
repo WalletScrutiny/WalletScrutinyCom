@@ -3,7 +3,7 @@ wsId:
 title: Kumo
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: kumo.africa
 appCountry: 
 released: 2022-06-03

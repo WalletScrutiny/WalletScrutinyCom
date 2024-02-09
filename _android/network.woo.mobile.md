@@ -12,7 +12,7 @@ updated: 2024-02-02
 version: 3.20.0
 stars: 4.1
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://woo.org/
 repository: 
