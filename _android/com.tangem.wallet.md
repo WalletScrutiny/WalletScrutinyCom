@@ -21,8 +21,8 @@ issue:
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-04-10
+verdict: nosource
+date: 2024-02-09
 signer: 
 reviewArchive: 
 twitter: tangem
@@ -34,40 +34,70 @@ features:
 
 ---
 
-The repository for the Tangem Android app is [now available](https://github.com/tangem/tangem-app-android). 
+**Update 2024-02-09**: Yes, there is a repository but it has neither
+documentation nor an issue tracker to ask how to build it. But it doesn't look
+too complicated. Let's see how it goes ...
 
-The app is now for verification. 
+`v5.5.1` is the currently available version on Google Play.
 
-**Update 2022-08-01**
+```
+root@a05bfbe4d44c:/mnt# apt update
+root@a05bfbe4d44c:/mnt# apt full-upgrade -y
+root@a05bfbe4d44c:/mnt# git clone https://github.com/tangem/tangem-app-android
+root@a05bfbe4d44c:/mnt# cd tangem-app-android/
+root@a05bfbe4d44c:/mnt/tangem-app-android# git tag | grep '5\.'
+4.5.1
+root@a05bfbe4d44c:/mnt/tangem-app-android# git branch --all | grep '5\.5\.1'
+  remotes/origin/5.5.1_pre_release
+  remotes/origin/hotfix/5.5.1
+  remotes/origin/merge/hotfix_5.5.1_to_release
+```
 
-This app is the companion app to an NFC card that is promoted as something like
-a hardware wallet but without a screen or a button it can only do what the
-companion app - this app - tells it to do. As such, this app is very crucial if
-you use these cards as your Bitcoin wallet. It has to be trustworthy and thus we
-consider it a Bitcoin wallet. Our mission is to look for the potential of all
-the users of an app lose all their funds at once which arguably cannot happen in
-the given configuration. The app could not collect the private keys from the
-cards *if the cards do what they claim* which cannot be publicly verified
-neither but even if the card does as advertised, the app could still steal a lot
-of funds of a lot of users if it would switch to evil-mode for all users at
-once. It would still require users' interaction but the window of opportunity
-could easily be days to weeks before Google would remote-wipe the app or the app
-would get stopped from emptying wallets of unsuspecting users upon their next
-use.
+So there is something about a `v5.5.1` release but it's not tagged correctly.
+Is the app configured to be version `5.5.1`?
 
-The description on Google Play is not explaining much and talks more about
-issues with NFC of some phones and neither does their website explain in clear
-words what this app is but I found
-[this demo video](https://www.youtube.com/watch?v=sTaQN2z7H_A) and it clearly
-shows that the app is crucial for the security of your funds.
+```
+root@a05bfbe4d44c:/mnt/tangem-app-android# rgrep '5\.5\.1' .
+./.git/packed-refs:a40b26faa3a13d82d40a81574391ebc0afad2390 refs/remotes/origin/5.5.1_pre_release
+./.git/packed-refs:23d54ea5894c630ef36e020520d4a5e6f0eb0dcf refs/remotes/origin/hotfix/5.5.1
+./.git/packed-refs:05a4b8af12e9bd7b4f9497e84db47961bff8ab4a refs/remotes/origin/merge/hotfix_5.5.1_to_release
+```
 
-Ironically if the app works the same on Android and the "copy address" part is
-actually copying the address to the clipboard which makes sense if one would
-want to send coins from an exchange to the card for example, any other app on
-the phone without any special permissions without even being apparently active
-could swap the receive address and the user would have no way of knowing this
-was happening.
+Not really.
 
-Anyway, the next question would be: "Is the code public?" ... but as far as I
-can see there is no source code available that one could inspect. That leaves us
-with the verdict **not verifiable**.
+Can we compile the app? We see it has git submodules. Let's get those, first:
+
+```
+root@a05bfbe4d44c:/mnt/tangem-app-android# git submodule update --init --recursive
+Cloning into '/mnt/tangem-app-android/app/src/main/assets/tangem-app-config'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:tangem/tangem-app-config.git' into submodule path '/mnt/tangem-app-android/app/src/main/assets/tangem-app-config' failed
+Failed to clone 'app/src/main/assets/tangem-app-config'. Retry scheduled
+Cloning into '/mnt/tangem-app-android/tangem-android-tools'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:tangem/tangem-android-tools.git' into submodule path '/mnt/tangem-app-android/tangem-android-tools' failed
+Failed to clone 'tangem-android-tools'. Retry scheduled
+Cloning into '/mnt/tangem-app-android/app/src/main/assets/tangem-app-config'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:tangem/tangem-app-config.git' into submodule path '/mnt/tangem-app-android/app/src/main/assets/tangem-app-config' failed
+Failed to clone 'app/src/main/assets/tangem-app-config' a second time, aborting
+```
+
+It fails to clone from `git@github.com:tangem/tangem-app-config.git`. As it
+turns out this is a private repository. So while the name suggest it's only some
+configuration, we cannot verify that. This project is **not verifiable**.
+
+Sadly we cannot file an issue with them but we will try to reach them on social
+media.
