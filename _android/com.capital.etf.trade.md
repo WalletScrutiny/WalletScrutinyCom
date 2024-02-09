@@ -3,15 +3,18 @@ wsId:
 title: Investments - Capital.com
 altTitle: 
 authors:
-- danny 
+- danny
+- leo
 users: 1000000
 appId: com.capital.etf.trade
 appCountry: 
+released: 
 updated: 2024-02-01
 version: 1.75.0
 stars: 4.2
 ratings: 
 reviews: 1
+size: 
 website: https://capital.com/
 repository: 
 issue: 
@@ -30,7 +33,13 @@ features:
 
 ---
 
-⚠️ Warning: We have reason to believe this app is a fake copy of: {% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}. (See analysis)
+<div class="alertBox"><div>
+<p>We reached out to Capital.com and their support assured us that the only apps
+provided by them are listed at https://capital.com/mobile-apps</p>
+<p>That's an educative app and 
+{% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
+and not the app here reviewed.</p>
+</div></div>
 
 ## App Description from Google Play
 
@@ -52,9 +61,20 @@ features:
 
 ## Analysis
 
-- It has a different developer [Capital Com UK Limited](https://play.google.com/store/apps/developer?id=Capital+Com+UK+Limited). The original app is linked to from capital.com, with the developer as [Capital Com SV Investments Limited](https://play.google.com/store/apps/dev?id=5723292543470816278). This one isn't.
-- We checked the backlinks and found that most of the backlinks for this app came from third-party apk sites.
-- The app appears to present itself as an "ETF version" from "Capital.com UK". With no links to such, these claims are dubious.
-- The app's general appearance seems to mimic the original's, save for one factor: ID verification on the original app is more stringent.
-- We tried to verify with the capital.com listed [twitter account](https://twitter.com/dannybuntu/status/1755503677354475981), but have yet to receive a reply.
-- Out of the abundance of caution, we will mark this as a **fake** app until we receive a reply.
+- It has a different developer
+  [Capital Com UK Limited](https://play.google.com/store/apps/developer?id=Capital+Com+UK+Limited).
+  The original app is linked to from capital.com, with the developer as
+  [Capital Com SV Investments Limited](https://play.google.com/store/apps/dev?id=5723292543470816278).
+  This one isn't.
+- We checked the backlinks and found that most of the backlinks for this app
+  came from third-party apk sites.
+- The app appears to present itself as an "ETF version" from "Capital.com UK".
+  With no links to such, these claims are dubious.
+- The app's general appearance seems to mimic the original's, save for one
+  factor: ID verification on the original app is more stringent.
+- We tried to verify with the capital.com listed
+  [twitter account](https://twitter.com/dannybuntu/status/1755503677354475981),
+  but have yet to receive a reply.
+- Their Twitter account replied to our support request and explained that the
+  only apps endorsed by capital.com are listed at https://capital.com/mobile-apps
+  which does not include this product, making it a **fake app**.

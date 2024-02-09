@@ -4,6 +4,7 @@ title: Bitcoin Trading - Capital.com
 altTitle: 
 authors:
 - danny
+- leo
 users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
@@ -32,14 +33,17 @@ features:
 
 ---
 
-⚠️ Warning: we have reason to believe that this app is a fake app. The originals are:
-
-- {% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
-- {% include walletLink.html wallet='iphone/com.capital.trading' verdict='true' %}
+<div class="alertBox"><div>
+<p>We reached out to Capital.com and their support assured us that the only apps
+provided by them are listed at https://capital.com/mobile-apps</p>
+<p>That's an educative app and 
+{% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
+and not the app here reviewed.</p>
+</div></div>
 
 ## Updated Review 2024-02-08
 
-This is potentially a fake app. We are currently [verifying with the official capital.com twitter](https://twitter.com/BitcoinWalletz/status/1755422197035012396) account. We also sent an email via (support (at-sign) capital (dot) com). 
+This is likely a fake app. We are currently [verifying with the official capital.com twitter](https://twitter.com/BitcoinWalletz/status/1755422197035012396) account. We also sent an email via (support (at-sign) capital (dot) com). 
 
 ## Google Play Reviews 
 
@@ -72,6 +76,3 @@ Not much information can be gleaned from the web domain so most of the informati
 > Capital.com is here to provide an engaging trading experience on our user-friendly platform that is designed to make trading more intuitive. Gain exposure to the crypto markets with derivatives and become a Bitcoin trader *without needing to hold any Bitcoin*.
 
 The presence of CFDs indicate an inability to send and receive bitcoins.
-
-
-Additional observations: We wonder how this app relates to Capital.com, as that site redirects to {% include walletLink.html wallet='android/com.capital.trading' verdict='false' %} and not this app.

@@ -3,7 +3,7 @@ wsId: capitalTrading
 title: 'Capital.com: Trading & Finance'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.capital.trading
 appCountry: 
 idd: 1230088754
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/capital.com/
 - https://www.facebook.com/capitalcom
 - https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw
-- https://www.reddit.com/r/capitalcom 
+- https://www.reddit.com/r/capitalcom
 features: 
 developerName: 
 
