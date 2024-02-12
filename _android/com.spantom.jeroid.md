@@ -12,7 +12,7 @@ updated: 2023-11-14
 version: 2.1.0
 stars: 2.7
 ratings: 248
-reviews: 29
+reviews: 30
 size: 
 website: https://www.jeroid.ng/
 repository: 

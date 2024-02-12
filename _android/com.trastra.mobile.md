@@ -1,6 +1,6 @@
 ---
 wsId: trastra
-title: 'TRASTRA: Crypto Wallet & Card'
+title: 'TRASTRA: Crypto Wallet & IBAN'
 altTitle: 
 authors:
 - danny

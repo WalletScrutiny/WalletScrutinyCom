@@ -9,7 +9,7 @@ appCountry:
 released: 2018-10-05
 updated: 2018-10-05
 version: '1.0'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 

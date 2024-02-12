@@ -28,7 +28,7 @@ social:
 redirect_from:
 - /org.electroncash.wallet/
 - /posts/org.electroncash.wallet/
-developerName: Jonald Fyookball
+developerName: XULU.TECH LLC
 features: 
 
 ---

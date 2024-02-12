@@ -11,7 +11,7 @@ released: 2018-09-14
 updated: 2024-02-08
 version: 3.1.112
 stars: 4.3
-reviews: 4299
+reviews: 4300
 size: '116897792'
 website: https://metalpay.com
 repository: 

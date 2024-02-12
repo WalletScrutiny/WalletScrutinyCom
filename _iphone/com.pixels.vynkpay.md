@@ -8,19 +8,19 @@ appId: com.pixels.vynkpay
 appCountry: in
 idd: '1618947970'
 released: 2022-04-13
-updated: 2022-09-09
-version: '1.3'
+updated: 2024-02-09
+version: '1.4'
 stars: 0
 reviews: 0
-size: '31725568'
+size: '27584512'
 website: 
 repository: 
 issue: 
 icon: com.pixels.vynkpay.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-09-04
+date: 2024-02-12
 signer: 
 reviewArchive: 
 twitter: vynkgroup

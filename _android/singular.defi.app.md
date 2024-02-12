@@ -3,7 +3,7 @@ wsId:
 title: Singular App–Invest in Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: singular.defi.app
 appCountry: 
 released: 2021-11-25

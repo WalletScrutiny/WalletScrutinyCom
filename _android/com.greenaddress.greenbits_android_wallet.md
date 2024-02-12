@@ -25,7 +25,7 @@ date: 2024-02-09
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2024-01-20
-  version: "4.0.23"
+  version: 4.0.23
   appHash: 847da5afc0b6342b8402e4d3e29f3b1402108b737b0a1a45875ba12a9c4dba58
   gitRevision: 592263ccc8d4b25164d17c5e4bb26ef925dcf378
   verdict: reproducible

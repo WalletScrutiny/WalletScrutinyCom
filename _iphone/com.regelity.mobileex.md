@@ -10,8 +10,8 @@ idd: '1663262329'
 released: 2023-01-16
 updated: 2024-02-02
 version: 1.34.2
-stars: 4.8
-reviews: 19
+stars: 4.6
+reviews: 20
 size: '34399232'
 website: https://exnode.by
 repository: 

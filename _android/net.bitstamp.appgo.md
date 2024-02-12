@@ -9,7 +9,7 @@ appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
 updated: 2024-02-06
-version: '1.7'
+version: '1.8'
 stars: 4.1
 ratings: 
 reviews: 10

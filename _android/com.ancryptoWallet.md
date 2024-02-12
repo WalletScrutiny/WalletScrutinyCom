@@ -1,6 +1,6 @@
 ---
 wsId: ancryptoWallet
-title: 'AnCrypto: Web3 Chat Wallet'
+title: 'AnCrypto: Safest Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -9,7 +9,7 @@ appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
 updated: 2024-02-08
-version: 1.28.18
+version: 1.28.19
 stars: 4.4
 ratings: 
 reviews: 21

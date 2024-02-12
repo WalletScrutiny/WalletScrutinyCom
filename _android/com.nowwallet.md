@@ -8,8 +8,8 @@ users: 50000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2024-02-02
-version: 3.11.9
+updated: 2024-02-09
+version: 3.11.10
 stars: 4.2
 ratings: 
 reviews: 111

@@ -11,7 +11,7 @@ released: 2020-05-20
 updated: 2024-02-08
 version: 1.77.1
 stars: 4.7
-reviews: 8062
+reviews: 8089
 size: '208759808'
 website: https://crypto.com/defi-wallet
 repository: 

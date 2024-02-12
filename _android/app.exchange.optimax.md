@@ -3,7 +3,7 @@ wsId:
 title: OptimaX
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: app.exchange.optimax
 appCountry: 
 released: 2022-02-10

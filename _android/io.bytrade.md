@@ -12,7 +12,7 @@ updated: 2024-02-02
 version: 2.0.9
 stars: 3.8
 ratings: 
-reviews: 38
+reviews: 39
 size: 
 website: https://www.bytrade.io/
 repository: 

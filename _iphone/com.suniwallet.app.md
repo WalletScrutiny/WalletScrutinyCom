@@ -8,11 +8,11 @@ appId: com.suniwallet.app
 appCountry: us
 idd: '6445960717'
 released: 2023-03-06
-updated: 2024-01-26
-version: 2.0.1
+updated: 2024-02-09
+version: 2.0.2
 stars: 5
 reviews: 20
-size: '135882752'
+size: '137728000'
 website: 
 repository: 
 issue: 

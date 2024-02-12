@@ -9,8 +9,8 @@ appId: com.vynkpay
 appCountry: 
 released: 2020-06-30
 updated: 2024-02-08
-version: '4.3'
-stars: 
+version: '4.4'
+stars: 4.5
 ratings: 
 reviews: 
 size: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-07-20
 updated: 2022-07-20
 version: 5.4.0_push_v2
-stars: 
+stars: 3.8
 ratings: 
 reviews: 
 size: 

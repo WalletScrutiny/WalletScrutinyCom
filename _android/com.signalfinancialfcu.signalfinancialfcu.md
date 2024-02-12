@@ -12,7 +12,7 @@ updated: 2024-01-05
 version: 4011.2.2
 stars: 4.6
 ratings: 
-reviews: 19
+reviews: 20
 size: 
 website: https://www.signalfinancialfcu.org/locations/
 repository: 
