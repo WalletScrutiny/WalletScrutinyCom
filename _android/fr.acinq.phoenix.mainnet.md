@@ -24,11 +24,11 @@ verdict: nonverifiable
 date: 2024-02-11
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
-- date: 
-  version: ""
-  appHash: 
-  gitRevision: 
-  verdict: 
+- date: 2024-01-28
+  version: "2.1.2"
+  appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+  gitRevision: 70a47841e96051a02df09fe559640f37a8aab612
+  verdict: nonverifiable
 - date: 2023-12-30
   version: 2.1.1
   appHash: e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
