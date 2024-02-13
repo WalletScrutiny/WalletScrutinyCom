@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-14
 updated: 2024-02-02
 version: 2.2.5
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 30
+reviews: 32
 size: 
 website: https://gridlock.network/
 repository: 

@@ -11,7 +11,7 @@ updated: 2024-01-05
 version: 3.0.2
 stars: 4.3
 ratings: 
-reviews: 180
+reviews: 181
 size: 
 website: https://cwallet.com
 repository: 
