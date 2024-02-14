@@ -10,17 +10,17 @@ idd: '6443739884'
 released: 2022-11-21
 updated: 2023-04-18
 version: 1.3.0
-stars: 2.7
-reviews: 27
+stars: 2.8
+reviews: 28
 size: '87631872'
 website: https://www.coinmama.com/coinmama-wallet
 repository: 
 issue: 
 icon: com.coinmama.coinmama.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: coinmama

@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: CoinSwitch
+title: 'CoinSwitch: Trade Crypto & BTC'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
 released: 2020-12-01
-updated: 2023-08-23
-version: 5.1.1
+updated: 2024-02-06
+version: 6.2.1
 stars: 4.5
-reviews: 47949
-size: '114897920'
+reviews: 50197
+size: '112045056'
 website: https://coinswitch.co
 repository: 
 issue: 

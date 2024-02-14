@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.rvinc.bitminner.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-11-10
 signer: 

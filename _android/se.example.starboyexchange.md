@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-10
 updated: 2022-01-31
 version: 7.0.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: se.example.starboyexchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2024-01-21
 signer: 
 reviewArchive: 
 twitter: 

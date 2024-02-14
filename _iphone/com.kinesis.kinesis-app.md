@@ -18,9 +18,9 @@ repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 
 icon: com.kinesis.kinesis-app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-10-01
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: KinesisMonetary

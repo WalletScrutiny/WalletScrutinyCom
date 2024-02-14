@@ -9,11 +9,11 @@ appId: co.acinq.phoenix
 appCountry: us
 idd: 1544097028
 released: 2021-07-13
-updated: 2023-10-18
-version: 2.0.6
-stars: 4.3
-reviews: 32
-size: '42311680'
+updated: 2024-01-25
+version: 2.1.1
+stars: 4.4
+reviews: 41
+size: '43658240'
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm
 issue: https://github.com/ACINQ/phoenix/issues/112
@@ -21,7 +21,7 @@ icon: co.acinq.phoenix.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-04-15
+date: 2023-12-30
 signer: 
 reviewArchive: 
 twitter: PhoenixWallet

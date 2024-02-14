@@ -1,6 +1,6 @@
 ---
 wsId: apexProTrade
-title: 'ApeX Pro: Trade Crypto'
+title: 'ApeX Protocol: Trade Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
 released: 2022-09-27
-updated: 2023-10-13
-version: 1.21.15
-stars: 4.4
-reviews: 36
-size: '77801472'
+updated: 2024-02-08
+version: 1.25.3
+stars: 4.2
+reviews: 47
+size: '76798976'
 website: 
 repository: 
 issue: 

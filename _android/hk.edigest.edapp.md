@@ -8,9 +8,9 @@ users: 50000
 appId: hk.edigest.edapp
 appCountry: 
 released: 2020-08-21
-updated: 2023-10-10
-version: '1.69'
-stars: 
+updated: 2024-02-06
+version: '1.78'
+stars: 3.3
 ratings: 
 reviews: 
 size: 

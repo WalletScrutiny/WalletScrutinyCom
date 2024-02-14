@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: network.worldshare.safewallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-02-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

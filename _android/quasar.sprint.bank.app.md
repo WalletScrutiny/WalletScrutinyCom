@@ -9,7 +9,7 @@ appCountry:
 released: 2021-12-12
 updated: 2021-12-23
 version: 1.0.4
-stars: 
+stars: 2.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: quasar.sprint.bank.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

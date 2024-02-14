@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

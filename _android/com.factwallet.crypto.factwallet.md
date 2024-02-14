@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-04-07
 signer: 

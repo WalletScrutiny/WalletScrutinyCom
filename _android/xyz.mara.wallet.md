@@ -12,7 +12,7 @@ updated: 2023-10-19
 version: 2.0.1
 stars: 3.9
 ratings: 
-reviews: 145
+reviews: 146
 size: 
 website: https://mara.xyz
 repository: 

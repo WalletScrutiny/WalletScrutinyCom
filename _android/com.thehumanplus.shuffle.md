@@ -8,9 +8,9 @@ users: 10000
 appId: com.thehumanplus.shuffle
 appCountry: 
 released: 2020-04-06
-updated: 2023-08-18
-version: 2.0.0
-stars: 
+updated: 2023-12-04
+version: 2.0.1
+stars: 3.9
 ratings: 
 reviews: 
 size: 

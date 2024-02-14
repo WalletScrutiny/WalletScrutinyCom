@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.zb.global.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-13
 signer: 

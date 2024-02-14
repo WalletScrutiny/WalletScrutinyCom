@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pro.bitapp.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2020-05-07
 signer: 

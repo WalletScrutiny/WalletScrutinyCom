@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-06-10
 signer: 

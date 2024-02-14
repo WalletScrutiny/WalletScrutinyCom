@@ -3,12 +3,12 @@ wsId:
 title: 오아시스 거래소
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.oasisexcflutter.app
 appCountry: 
 released: 2022-07-17
-updated: 2022-07-26
-version: 2.2.8
+updated: 2024-01-17
+version: 2.3.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oasisexcflutter.app.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2023-07-22
+meta: ok
+verdict: wip
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

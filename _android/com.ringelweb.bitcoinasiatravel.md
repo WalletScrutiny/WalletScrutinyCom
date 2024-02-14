@@ -12,16 +12,16 @@ updated: 2021-11-23
 version: 2.2.4
 stars: 4.8
 ratings: 
-reviews: 172
+reviews: 169
 size: 
 website: https://bitcoinasia.travel
 repository: 
 issue: 
 icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-12-08
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: bitcoin_asia

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.solareum.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-02-25
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hashcash.paybitocustody.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-02-16
 signer: 

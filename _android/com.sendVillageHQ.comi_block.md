@@ -3,13 +3,13 @@ wsId:
 title: 'ComiBlock: Invest Confidently'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.sendVillageHQ.comi_block
 appCountry: 
 released: 2022-09-11
 updated: 2023-08-27
 version: 1.1.6
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 

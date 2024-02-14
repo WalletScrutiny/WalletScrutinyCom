@@ -3,7 +3,7 @@ wsId:
 title: Optimizer Exchange
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.opi.optimizer
 appCountry: 
 released: 2022-02-24

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.nekoinvest.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-08-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

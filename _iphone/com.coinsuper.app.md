@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coinsuper.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-31
 signer: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hyperbot.qwcodes.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

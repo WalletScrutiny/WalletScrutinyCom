@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: watt.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-07-31
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: watt_me_token

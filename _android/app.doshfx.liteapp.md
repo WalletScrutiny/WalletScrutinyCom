@@ -3,13 +3,13 @@ wsId:
 title: DoshFx - Buy Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.doshfx.liteapp
 appCountry: 
 released: 
 updated: 2023-06-22
 version: '4.4'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 

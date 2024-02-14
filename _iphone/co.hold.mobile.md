@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.hold.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-10
 signer: 

@@ -8,20 +8,20 @@ users: 50000
 appId: com.defiwalletmobile
 appCountry: 
 released: 2021-12-13
-updated: 2023-08-02
-version: 1.22.1
+updated: 2023-11-07
+version: 1.25.2
 stars: 4.8
 ratings: 
 reviews: 143
 size: 
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/488
+issue: https://github.com/SlvLabs/slavi-wallet
 icon: com.defiwalletmobile.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-07-06
+verdict: nonverifiable
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: slavi_io
@@ -53,4 +53,9 @@ features:
 - The app generated a legacy BTC address that can send and receive.
 - The providers did not claim the source was available but had a GitHub link to their organization.
 - We were able to find a [repository](https://github.com/SlvLabs/slavi-wallet) for the app but it did not have releases/tags.
-- This app is **for verification.**
+
+**Update 2024-01-09**
+
+We tried reaching out to the [developers on GitHub](https://github.com/SlvLabs/slavi-wallet/issues/6), but they have not responded. 
+
+The build instructions were very sparse, resulting in a lot of guess work on how the dockerfile was built. This did not result in a completed build. With no tags and releases, there is no way this app can be reproduced. This app is **non-verifiable**.

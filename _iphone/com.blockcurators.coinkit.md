@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockcurators.coinkit.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-07
+date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: coinkit_

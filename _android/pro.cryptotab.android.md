@@ -4,15 +4,15 @@ title: CryptoTab Browser Pro Level
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: pro.cryptotab.android
 appCountry: us
 released: 2020-01-24
-updated: 2023-09-21
-version: 4.2.5
-stars: 3
+updated: 2024-02-01
+version: 4.3.5
+stars: 2.9
 ratings: 63867
-reviews: 2443
+reviews: 2487
 size: 
 website: https://cryptocompany.site/
 repository: 

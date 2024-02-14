@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.rahaexchange.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-17
 signer: 

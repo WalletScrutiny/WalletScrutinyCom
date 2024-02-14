@@ -8,19 +8,19 @@ appId: com.deribit
 appCountry: gb
 idd: '1293674041'
 released: 2017-11-17
-updated: 2023-10-02
-version: 3.5.0
-stars: 5
-reviews: 3
-size: '35497984'
+updated: 2023-10-27
+version: 3.6.0
+stars: 4.9
+reviews: 12
+size: '35704832'
 website: http://www.deribit.com
 repository: 
 issue: 
 icon: com.deribit.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-31
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: deribitexchange

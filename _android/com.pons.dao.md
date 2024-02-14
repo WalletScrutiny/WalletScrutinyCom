@@ -4,16 +4,16 @@ title: DAO Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.pons.dao
 appCountry: 
 released: 2021-02-08
 updated: 2021-09-18
 version: 1.0.0.20
-stars: 3.5
+stars: 
 ratings: 52
-reviews: 34
-size: 59M
+reviews: 
+size: 
 website: 
 repository: 
 issue: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: daoconsensus
 social: 
 redirect_from: 
-developerName: 
+developerName: DAO Consensus
 features: 
 
 ---

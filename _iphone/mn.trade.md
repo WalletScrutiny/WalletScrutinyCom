@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: mn.trade.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-15
 signer: 

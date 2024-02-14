@@ -12,16 +12,16 @@ updated: 2023-08-07
 version: 1.5.3
 stars: 4
 ratings: 500
-reviews: 45
+reviews: 46
 size: 
 website: https://bitcoin.me
 repository: 
 issue: 
 icon: io.klever.secure.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: klever_io

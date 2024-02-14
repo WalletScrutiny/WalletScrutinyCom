@@ -1,6 +1,6 @@
 ---
 wsId: wirexwalletdefi
-title: 'Wirex Wallet: Crypto and DeFi'
+title: 'COCA: Crypto and DeFi'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2023-10-19
-version: 0.4.3
+updated: 2024-02-12
+version: 0.5.9
 stars: 3.2
 ratings: 1053
 reviews: 13
@@ -28,7 +28,7 @@ twitter: wirexapp
 social:
 - https://github.com/wirexapp
 redirect_from: 
-developerName: Wirex
+developerName: CCA LABS
 features: 
 
 ---

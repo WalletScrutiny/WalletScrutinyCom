@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.pryvate.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: 

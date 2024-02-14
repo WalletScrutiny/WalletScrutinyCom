@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.aglobetrading.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-15
 signer: 

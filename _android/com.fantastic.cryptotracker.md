@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-23
 updated: 2022-12-29
 version: 1.0.4
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fantastic.cryptotracker.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-18
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.treasure.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: treasurewallett

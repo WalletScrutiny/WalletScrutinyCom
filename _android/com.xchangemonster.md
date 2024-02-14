@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.xchangemonster.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-19
 signer: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tigerwit.forex.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-08-27
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: TigerWitGlobal

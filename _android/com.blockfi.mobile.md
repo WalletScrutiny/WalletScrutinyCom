@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockfi.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-08-27
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BlockFi

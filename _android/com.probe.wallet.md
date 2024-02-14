@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.probe.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

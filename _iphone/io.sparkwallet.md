@@ -8,11 +8,11 @@ appId: io.sparkwallet
 appCountry: us
 idd: '1606418661'
 released: 2022-02-23
-updated: 2023-08-31
-version: '3.1'
+updated: 2023-12-13
+version: '3.2'
 stars: 3.7
 reviews: 11
-size: '31318016'
+size: '31199232'
 website: https://sparkwallet.io/
 repository: 
 issue: 

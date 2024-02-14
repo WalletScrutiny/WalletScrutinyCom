@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-11
 signer: 

@@ -7,7 +7,7 @@ set -x
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
 TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
-wsContainer="walletscrutiny/android:5"
+wsContainer="docker.io/walletscrutiny/android:5"
 takeUserActionCommand='echo "CTRL-D to continue";
   bash'
 shouldCleanup=false

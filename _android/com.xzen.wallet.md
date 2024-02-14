@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.xzen.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-05-15
 signer: 

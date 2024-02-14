@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-01-16
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: dsdaqcom

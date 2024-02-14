@@ -11,7 +11,7 @@ released: 2014-06-22
 updated: 2022-03-23
 version: 4.18.0
 stars: 4.6
-reviews: 12354
+reviews: 12332
 size: '83665920'
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
@@ -20,7 +20,7 @@ icon: org.voisine.breadwallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-date: 2023-03-20
+date: 2024-01-29
 signer: 
 reviewArchive:
 - date: 2022-04-07

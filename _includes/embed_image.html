@@ -1,0 +1,44 @@
+<style>
+  iframe {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px -3px var(--text);
+  }
+  .component-widget-theme {
+    width: 165px;
+  }
+</style>
+<section class="page__share">
+  <div class="code-block-holder">
+    <pre class="highlight">
+      <code>
+<span class="cb-tag">&lt;<span class="cb-name">img</span> <span class="cb-attr">src</span>=<span class="cb-string url-str">"{{ site.url }}/images/social/{{ page.collection }}/{{ page.appId }}.png"</span>&gt;</span>
+      </code>
+    </pre>
+    <button class="copy_to_clipboard button" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;Copy to clipboard</button>
+  </div>
+
+  will show<br>
+
+  <img src="{{ site.url }}/images/social/{{ page.collection }}/{{ page.appId }}.png">
+</section>
+
+<script src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script>
+  function copyToClipboard(target) {
+    const text = target.parentNode.querySelectorAll("code")[0].innerText.replace(/\s+/g, ' ')
+    const dummyInput = document.createElement("input")
+    dummyInput.setAttribute("style", "opacity:0;position:fixed;z-index:-99;pointer-events:none")
+    document.body.append(dummyInput)
+    dummyInput.value = text
+    dummyInput.focus()
+    dummyInput.select()
+    if (document.execCommand("copy")) {
+      target.innerHTML = '<i class="fas fa-clipboard-check"></i>&nbsp;Successfully copied'
+      dummyInput.remove()
+      setTimeout(() => {
+        target.innerHTML = '<i class="fas fa-copy"></i>&nbsp;Copy to clipboard'
+      }, 1e3)
+    }
+  }
+</script>

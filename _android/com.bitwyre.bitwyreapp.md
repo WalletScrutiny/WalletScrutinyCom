@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitwyre.bitwyreapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-09-04
 signer: 

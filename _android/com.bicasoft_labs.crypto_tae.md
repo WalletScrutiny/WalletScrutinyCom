@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bicasoft_labs.crypto_tae.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-08-30
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

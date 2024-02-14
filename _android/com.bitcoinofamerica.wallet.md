@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-02-16
 signer: 

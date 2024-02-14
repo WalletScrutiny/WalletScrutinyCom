@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobileapp.rbitex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-06-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

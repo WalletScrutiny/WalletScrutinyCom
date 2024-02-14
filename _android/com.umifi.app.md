@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.umifi.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-02-25
 signer: 

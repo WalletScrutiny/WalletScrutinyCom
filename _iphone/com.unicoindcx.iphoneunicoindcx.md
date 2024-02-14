@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unicoindcx.iphoneunicoindcx.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-09-06
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Unicoin5

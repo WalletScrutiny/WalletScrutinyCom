@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Yuppex.com
+developerName: Avollo.com
 features: 
 
 ---

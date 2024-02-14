@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-05-29
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: CoinbasePro

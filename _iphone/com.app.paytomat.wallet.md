@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-10-21
 signer: 

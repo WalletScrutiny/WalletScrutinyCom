@@ -4,24 +4,24 @@ title: 'فراچنج: صرافی ارز دیجیتال'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.farachange.farachange
 appCountry: 
 released: 2021-12-24
 updated: 2022-11-23
 version: 1.1.20
-stars: 4.7
+stars: 4.6
 ratings: 
-reviews: 12
+reviews: 16
 size: 
 website: 
 repository: 
 issue: 
 icon: com.farachange.farachange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

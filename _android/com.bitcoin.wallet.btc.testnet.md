@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoin.wallet.btc.testnet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-09-28
 signer: 

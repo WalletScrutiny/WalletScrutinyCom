@@ -4,7 +4,7 @@ title: NexDAX
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.nexdax
 appCountry: 
 released: 

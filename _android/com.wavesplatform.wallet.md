@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: wavesExchange
 title: Waves.Exchange
 altTitle: 
 authors:
@@ -12,16 +12,16 @@ updated: 2022-12-15
 version: 2.28.3
 stars: 4
 ratings: 6992
-reviews: 175
+reviews: 173
 size: 
 website: https://support.waves.exchange/
 repository: 
 issue: 
 icon: com.wavesplatform.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2021-07-20
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: waves_exchange

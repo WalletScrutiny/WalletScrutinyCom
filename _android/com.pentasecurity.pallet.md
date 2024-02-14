@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pentasecurity.pallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-03-24
 signer: 

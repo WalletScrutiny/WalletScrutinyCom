@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-26
 updated: 2022-08-17
 version: 0.1.29
-stars: 
+stars: 4
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://app.xbts.io
 repository: https://github.com/XBTS/app

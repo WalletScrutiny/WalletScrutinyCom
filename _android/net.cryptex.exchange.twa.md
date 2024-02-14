@@ -8,20 +8,20 @@ users: 10000
 appId: net.cryptex.exchange.twa
 appCountry: 
 released: 2021-04-29
-updated: 2021-04-29
-version: 3.0.0.0
+updated: 2023-12-05
+version: 5.0.0.0
 stars: 4.9
 ratings: 474
-reviews: 19
+reviews: 18
 size: 
 website: http://exchange.cryptex.net/
 repository: 
 issue: 
 icon: net.cryptex.exchange.twa.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-04-19
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: 

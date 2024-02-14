@@ -3,7 +3,7 @@ wsId:
 title: Hero - Crypto & Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.herowallet
 appCountry: 
 released: 2022-11-23
@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://herowallet.com/
+website: https://purchasa.com/
 repository: 
 issue: 
 icon: com.herowallet.png

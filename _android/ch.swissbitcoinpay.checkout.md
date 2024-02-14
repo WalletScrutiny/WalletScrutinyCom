@@ -3,13 +3,13 @@ wsId:
 title: Swiss Bitcoin Pay
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: ch.swissbitcoinpay.checkout
 appCountry: 
 released: 2022-11-15
-updated: 2023-09-22
-version: 1.9.5
-stars: 
+updated: 2024-02-03
+version: 2.0.6
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -19,7 +19,7 @@ issue:
 icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

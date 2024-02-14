@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.blockchainacuity.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-12-05
 signer: 

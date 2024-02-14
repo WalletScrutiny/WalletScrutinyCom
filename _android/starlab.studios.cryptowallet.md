@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Crypto Wallets: BTC, USDT, ETH'
+title: Crypto AI Chat Btc Eth
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
@@ -8,26 +8,26 @@ users: 5000
 appId: starlab.studios.cryptowallet
 appCountry: 
 released: 2021-06-01
-updated: 2021-10-27
-version: 1.3.7
+updated: 2024-01-30
+version: '10.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://starlabstudios.xyz/
+website: https://starlabstudiosapps.xyz/
 repository: 
 issue: 
 icon: starlab.studios.cryptowallet.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fake
-date: 2023-10-22
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Starlab Studios
+developerName: Starlab Studios AI
 features: 
 
 ---

@@ -10,7 +10,7 @@ appCountry: sg
 released: 2020-11-08
 updated: 2023-08-15
 version: 1.8.5
-stars: 
+stars: 3
 ratings: 
 reviews: 
 size: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gcb.T1.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2021-12-22
 signer: 

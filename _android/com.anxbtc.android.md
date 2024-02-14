@@ -10,11 +10,11 @@ appCountry:
 released: 2014-04-29
 updated: 2016-08-17
 version: 1.8.0
-stars: 3.2
+stars: 4.1
 ratings: 135
-reviews: 58
-size: 4.1M
-website: https://anxpro.com/
+reviews: 10
+size: 
+website: https://anxintl.com
 repository: 
 issue: 
 icon: com.anxbtc.android.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: ANX
 features: 
 
 ---

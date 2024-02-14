@@ -9,7 +9,7 @@ appCountry:
 released: 2022-06-08
 updated: 2023-05-09
 version: pop
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 

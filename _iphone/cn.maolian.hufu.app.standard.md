@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-16
 signer: 

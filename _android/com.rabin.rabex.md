@@ -8,11 +8,11 @@ users: 1000
 appId: com.rabin.rabex
 appCountry: 
 released: 2023-02-19
-updated: 2023-06-25
-version: 1.6-product
-stars: 
+updated: 2023-12-17
+version: 1.7-product
+stars: 3.7
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://rabex.ir
 repository: 

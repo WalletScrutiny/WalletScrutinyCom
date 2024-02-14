@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.latiniocoin.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

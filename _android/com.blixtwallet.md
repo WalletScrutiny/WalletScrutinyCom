@@ -5,11 +5,11 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000
+users: 5000
 appId: com.blixtwallet
 appCountry: 
 released: 
-updated: 2023-06-27
+updated: 2023-11-22
 version: VARY
 stars: 
 ratings: 

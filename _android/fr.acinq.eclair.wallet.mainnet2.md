@@ -4,6 +4,7 @@ title: Eclair Mobile (EOL)
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
 appCountry: 
@@ -19,7 +20,7 @@ repository: https://github.com/ACINQ/eclair-mobile
 issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
-meta: defunct
+meta: deprecated
 verdict: ftbfs
 date: 2023-06-21
 signer: 
@@ -35,6 +36,16 @@ developerName: ACINQ
 features: 
 
 ---
+
+## Update 2024-01-22
+
+The description in Google Play reads:
+
+> ⚠️ This app is now in End-Of-Life mode, do not use it for new wallets. 
+
+Users are directed to use {% include walletLink.html wallet='android/fr.acinq.phoenix.mainnet' verdict='true' %}
+
+## Previous Review 2023-06-21
 
 This wallet has a really short description. Here it is in full:
 

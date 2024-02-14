@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.splishpay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-02-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

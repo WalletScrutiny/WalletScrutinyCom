@@ -1,31 +1,35 @@
 ---
-wsId: 
+wsId: coinOneKr
 title: 코인원
 altTitle: 
-authors: 
+authors:
+- danny
 appId: kr.co.coinone.officialapp
 appCountry: kr
 idd: 1326526995
 released: 2018-03-27
-updated: 2023-10-19
-version: 3.10.0
+updated: 2024-02-02
+version: 4.6.1
 stars: 2.7
-reviews: 826
-size: '130383872'
+reviews: 847
+size: '130487296'
 website: 
 repository: 
 issue: 
 icon: kr.co.coinone.officialapp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-08-22
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: CoinoneOfficial
+social:
+- https://coinone.co.kr
+- https://www.facebook.com/coinone
 features: 
 developerName: Coinone
 
 ---
 
+{% include copyFromAndroid.html %}

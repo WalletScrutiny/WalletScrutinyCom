@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.starclicksapp.starclicks.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-11-10
 signer: 

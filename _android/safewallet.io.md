@@ -8,8 +8,8 @@ users: 1000
 appId: safewallet.io
 appCountry: 
 released: 2022-03-29
-updated: 2023-04-27
-version: 1.0.14
+updated: 2023-10-19
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: safewallet.io.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-08-14
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: theamgen

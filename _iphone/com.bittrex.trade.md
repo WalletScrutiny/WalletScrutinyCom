@@ -11,16 +11,16 @@ released: 2019-12-19
 updated: 2023-04-05
 version: 1.22.0
 stars: 4.6
-reviews: 4346
+reviews: 4357
 size: '94430208'
 website: https://bittrex.com/mobile
 repository: 
 issue: 
 icon: com.bittrex.trade.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-02-09
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BittrexGlobal

@@ -18,7 +18,7 @@ repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
 icon: com.blockchain.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: obfuscated
 date: 2021-01-15
 signer: 

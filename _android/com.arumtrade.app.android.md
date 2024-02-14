@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2021-11-18
 version: 1.0.4
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arumtrade.app.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-11
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: ArumTrade

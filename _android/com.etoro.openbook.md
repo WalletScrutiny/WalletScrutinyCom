@@ -1,6 +1,6 @@
 ---
 wsId: etoro
-title: 'eToro: Investing made social'
+title: 'eToro: Trade. Invest. Connect.'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.etoro.openbook
 appCountry: 
 released: 2013-11-05
-updated: 2023-10-02
-version: 606.0.0
-stars: 4.1
+updated: 2024-01-22
+version: 639.0.0
+stars: 4
 ratings: 111823
-reviews: 3208
+reviews: 3300
 size: 
 website: https://www.etoro.com/
 repository: 

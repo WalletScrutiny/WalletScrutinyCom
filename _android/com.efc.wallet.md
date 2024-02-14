@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.efc.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-26
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

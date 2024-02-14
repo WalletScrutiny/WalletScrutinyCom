@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptooriented.exchanges.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-01-06
+date: 2023-12-31
 signer: 
 reviewArchive: 
 twitter: 

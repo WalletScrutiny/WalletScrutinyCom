@@ -9,7 +9,7 @@ appCountry:
 released: 2022-05-25
 updated: 2022-12-15
 version: 4.0.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

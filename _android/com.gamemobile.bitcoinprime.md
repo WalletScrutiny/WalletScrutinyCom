@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.gamemobile.bitcoinprime.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-23
 signer: 

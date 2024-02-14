@@ -9,11 +9,11 @@ appCountry:
 released: 2018-03-28
 updated: 2019-05-03
 version: 1.25.251
-stars: 4.2
+stars: 
 ratings: 11
-reviews: 5
-size: 41M
-website: 
+reviews: 
+size: 
+website: https://www.bokka.com
 repository: 
 issue: 
 icon: com.bokka.ex.png
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Bokka
 features: 
 
 ---

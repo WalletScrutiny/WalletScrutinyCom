@@ -8,11 +8,11 @@ appId: com.banofinancial.app
 appCountry: au
 idd: '1562849570'
 released: 2021-05-13
-updated: 2023-10-20
-version: 1.5.12
-stars: 4
-reviews: 48
-size: '104997888'
+updated: 2024-02-08
+version: 1.5.18
+stars: 3.9
+reviews: 51
+size: '118828032'
 website: https://bano.app
 repository: 
 issue: 

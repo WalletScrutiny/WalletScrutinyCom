@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: multico.in.btctrade.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-16
 signer: 

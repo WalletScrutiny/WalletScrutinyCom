@@ -12,16 +12,16 @@ updated: 2022-12-27
 version: 3.8.1
 stars: 3.9
 ratings: 
-reviews: 502
+reviews: 500
 size: 
 website: http://www.bituniverse.org/
 repository: 
 issue: 
 icon: com.bituniverse.portfolio.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-06-23
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: bituniverse_org

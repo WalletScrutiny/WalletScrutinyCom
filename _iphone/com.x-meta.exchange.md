@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.x-meta.exchange.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: XMetaOfficial

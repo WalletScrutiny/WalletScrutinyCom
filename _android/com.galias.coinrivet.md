@@ -7,9 +7,9 @@ users: 500
 appId: com.galias.coinrivet
 appCountry: 
 released: 
-updated: 2023-08-29
-version: 1.2.5.926
-stars: 
+updated: 2023-12-05
+version: 1.2.5.947
+stars: 4.2
 ratings: 
 reviews: 
 size: 

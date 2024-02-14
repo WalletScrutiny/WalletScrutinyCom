@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.keepercustomerapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

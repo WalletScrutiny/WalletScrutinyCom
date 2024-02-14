@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.infinitywallet.main.v8.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-11-10
 signer: 

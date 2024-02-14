@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pixel.websolutions.ecrytpos.easy_cryptos.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

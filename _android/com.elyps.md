@@ -8,8 +8,8 @@ users: 1000
 appId: com.elyps
 appCountry: 
 released: 2020-04-29
-updated: 2023-09-21
-version: 10.9.0
+updated: 2024-01-12
+version: 10.13.0
 stars: 
 ratings: 
 reviews: 
@@ -20,8 +20,8 @@ issue:
 icon: com.elyps.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-08-17
+verdict: nowallet
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: 
@@ -58,5 +58,9 @@ There is a warning emblazoned on the header of the site.
 - We did not find any reference to 'Bitcoin' or 'crypto'  
 - We will email them to ask for more information at: hello@elyps.com 
 - We'll keep this as a work-in-progress until more information is available.
+
+## Update 2024-01-09
+
+We have not received any response from them since May 2023. Without any sort of response on any of the emails we sent, and with no proof that this app supports bitcoin or crypto, we will be marking this as an app with **no wallet**.
 
 

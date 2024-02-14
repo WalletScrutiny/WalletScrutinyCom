@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wmprotrade.droidapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-28
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ users: 5000
 appId: io.kryll.app2
 appCountry: 
 released: 2022-03-25
-updated: 2023-07-12
-version: 2.3.10
-stars: 
+updated: 2024-01-26
+version: 2.3.16
+stars: 3.5
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://kryl.io
 repository: 

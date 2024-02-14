@@ -11,16 +11,16 @@ released: 2019-02-08
 updated: 2023-05-30
 version: 2.1.0
 stars: 4.7
-reviews: 990
+reviews: 989
 size: '116808704'
 website: https://mercuryo.io/
 repository: 
 issue: 
 icon: com.mercuryo.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: Mercuryo_io

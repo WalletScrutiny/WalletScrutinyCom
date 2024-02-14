@@ -1,18 +1,18 @@
 ---
-wsId: Techbank
+wsId: techbankDWallet
 title: TechBank Dwallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.techbank_dwallet
 appCountry: in
 released: 2020-10-09
-updated: 2023-10-13
-version: 2.7.7
-stars: 4.8
+updated: 2024-01-29
+version: 3.1.3
+stars: 4.7
 ratings: 59
-reviews: 9
+reviews: 10
 size: 
 website: https://techbank.finance/
 repository: 
@@ -31,6 +31,18 @@ developerName: TechBank
 features: 
 
 ---
+
+There are multiple apps in our list with a similar name of 'TechBank'.  
+
+### TechBank BeeOne
+
+- {% include walletLink.html wallet='android/com.beeone.techbank' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.Techbank.Beeone' verdict='true' %}
+
+### TechBank DWallet
+
+- {% include walletLink.html wallet='android/com.techbank_dwallet' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.techbank.dwallettb' verdict='true' %}
 
 ## App Description
 

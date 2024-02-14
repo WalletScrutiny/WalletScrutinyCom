@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.roinvesting.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2021-12-05
 signer: 

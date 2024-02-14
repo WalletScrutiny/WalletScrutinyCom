@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-20
 updated: 2021-11-29
 version: 34.0.0
-stars: 
+stars: 4.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: in.digitx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

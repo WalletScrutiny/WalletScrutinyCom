@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.silenca.cryptoneed.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-02
 signer: 

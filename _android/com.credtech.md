@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.credtech.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-04-16
 signer: 

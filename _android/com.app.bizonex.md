@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2021-11-12
 version: 1.0.13
-stars: 
+stars: 2.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bizonex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: 

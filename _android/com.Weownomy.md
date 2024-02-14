@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.Weownomy.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-07-28
 signer: 

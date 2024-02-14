@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bikipro.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-03-07
 signer: 

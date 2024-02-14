@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.yes.yeswallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-06-18
 signer: 

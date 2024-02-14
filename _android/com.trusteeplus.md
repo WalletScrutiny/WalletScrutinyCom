@@ -1,18 +1,18 @@
 ---
 wsId: trusteePlus
-title: Trustee Plus | crypto neobank
+title: Trustee Plus | Wallet & Card
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
-updated: 2023-10-10
-version: 1.20.5
-stars: 
+updated: 2024-02-01
+version: 1.30.4
+stars: 2.5
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: https://trusteeglobal.com
 repository: 

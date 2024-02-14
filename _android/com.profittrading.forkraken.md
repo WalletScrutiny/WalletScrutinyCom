@@ -10,9 +10,9 @@ appCountry:
 released: 2018-07-15
 updated: 2021-08-07
 version: VARY
-stars: 4.2
+stars: 4.4
 ratings: 60
-reviews: 12
+reviews: 11
 size: 
 website: https://profittradingapp.com/
 repository: 

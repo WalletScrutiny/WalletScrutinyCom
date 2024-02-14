@@ -1,6 +1,6 @@
 ---
 wsId: coinTR
-title: 'CoinTR: Bitcoin,Altcoin,Crypto'
+title: CoinTR-BTC | ETH | SHIB | AVAX
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.cointr
 appCountry: us
 idd: '1637395401'
 released: 2022-08-18
-updated: 2023-09-06
-version: 2.0.5
+updated: 2023-11-28
+version: 2.1.1
 stars: 5
 reviews: 4
-size: '124305408'
+size: '144955392'
 website: 
 repository: 
 issue: 
 icon: com.cointr.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-19
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: CoinTRTurkiye
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/profile.php?id=100083113521452
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 features: 
-developerName: LEY FINANS BILISIM TEKNOLOJI SANAYI VE TICARET LIMITED SIRKETI
+developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
 
 ---
 

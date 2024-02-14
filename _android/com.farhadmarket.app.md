@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.farhadmarket.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-12-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

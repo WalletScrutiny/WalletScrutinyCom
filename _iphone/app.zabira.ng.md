@@ -10,17 +10,17 @@ idd: '1603796325'
 released: 2022-04-05
 updated: 2023-10-18
 version: 1.0.28.1
-stars: 2.8
-reviews: 42
+stars: 2.9
+reviews: 43
 size: '63065088'
 website: 
 repository: 
 issue: 
 icon: app.zabira.ng.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-18
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: thezabira

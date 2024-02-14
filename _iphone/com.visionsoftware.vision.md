@@ -11,7 +11,7 @@ idd: 1500186931
 released: 2020-04-01
 updated: 2023-01-22
 version: 2.4.46
-stars: 4.7
+stars: 4.6
 reviews: 39
 size: '122827776'
 website: https://www.vision-crypto.com
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.visionsoftware.vision.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-04-24
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: VisionCryptoApp

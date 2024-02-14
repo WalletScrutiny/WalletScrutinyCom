@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: br.com.treepart.genbit.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-19
 signer: 

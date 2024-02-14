@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hipcibot.hip.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-05-10
 signer: 

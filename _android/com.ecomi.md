@@ -8,11 +8,11 @@ users: 10000
 appId: com.ecomi
 appCountry: 
 released: 2018-08-15
-updated: 2023-09-19
-version: 3.0.6
+updated: 2023-11-21
+version: 3.0.7
 stars: 2.9
 ratings: 140
-reviews: 17
+reviews: 18
 size: 
 website: https://wallet.ecomi.com
 repository: 

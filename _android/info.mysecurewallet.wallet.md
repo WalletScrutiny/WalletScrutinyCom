@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: info.mysecurewallet.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-15
 signer: 

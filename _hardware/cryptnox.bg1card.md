@@ -22,7 +22,7 @@ icon: cryptnox.bg1card.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-11-26
+date: 2023-11-15
 signer: 
 reviewArchive: 
 twitter: cryptnox
@@ -31,10 +31,10 @@ features:
 
 ---
 
-## Updated Review 2022-11-26
+## Updated Review 2023-11-15
 
 - Changed price to reflect price changes on the website
-- Added the companion app {% include walletLink.html wallet='iphone/com.cryptnox.companion' verdict='true' %}
+- Added the companion app {% include walletLink.html wallet='iphone/com.cryptnox.companion' verdict='true' %} and {% include walletLink.html wallet='android/com.cryptnox.cryptnoxwallet' verdict='true' %}
 
 ## Background 
 

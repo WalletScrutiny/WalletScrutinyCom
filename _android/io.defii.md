@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.defii.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-28
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

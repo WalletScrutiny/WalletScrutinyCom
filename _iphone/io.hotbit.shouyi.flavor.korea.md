@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.flavor.korea.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-05-31
 signer: 

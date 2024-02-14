@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.stibits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-11
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: stibits

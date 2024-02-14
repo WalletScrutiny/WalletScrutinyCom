@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.medishares.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-30
 signer: 
@@ -32,6 +32,8 @@ developerName:
 features: 
 
 ---
+
+**Update 2024-01-05**: This app has been removed from the Play Store. It has been replaced by {% include walletLink.html wallet='android/com.mathwallet.android' verdict='true' %}.
 
 **Update 2022-01-05**: It is available again.
 

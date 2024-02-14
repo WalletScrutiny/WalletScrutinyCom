@@ -3,11 +3,11 @@ wsId:
 title: Padawan Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.goldenraven.padawanwallet
 appCountry: 
 released: 
-updated: 2023-09-18
+updated: 2023-10-20
 version: VARY
 stars: 
 ratings: 

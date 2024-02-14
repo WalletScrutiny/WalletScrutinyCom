@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: vcb.fiatbit.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-08-16
 signer: 

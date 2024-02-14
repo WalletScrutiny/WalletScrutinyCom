@@ -3,12 +3,12 @@ wsId:
 title: ivendPay POS
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: ivendpay.com
 appCountry: 
 released: 2023-01-26
-updated: 2023-09-28
-version: 2.0.2
+updated: 2023-11-10
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: ivendpay.com.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

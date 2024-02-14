@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.btcex.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-08-16
 signer: 

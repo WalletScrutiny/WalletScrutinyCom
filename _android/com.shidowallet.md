@@ -4,15 +4,15 @@ title: Shido Wallet | DeFi Crypto
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.shidowallet
 appCountry: 
 released: 2022-09-30
 updated: 2023-07-28
 version: '1.8'
-stars: 4.9
+stars: 4.6
 ratings: 
-reviews: 29
+reviews: 36
 size: 
 website: https://shido.io
 repository: 

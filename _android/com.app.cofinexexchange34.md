@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.cofinexexchange34.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: CofinexExchange

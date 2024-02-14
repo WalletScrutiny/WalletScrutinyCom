@@ -19,7 +19,7 @@ repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 
 icon: com.vaulthotpro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-26
 signer: 

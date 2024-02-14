@@ -1,18 +1,18 @@
 ---
 wsId: ancryptoWallet
-title: AnCrypto - Multi Chain Wallet
+title: 'AnCrypto: Safest Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
-updated: 2023-10-12
-version: 1.19.11
-stars: 4.6
+updated: 2024-02-10
+version: 1.29.19
+stars: 4.4
 ratings: 
-reviews: 20
+reviews: 21
 size: 
 website: https://www.ancrypto.io/
 repository: 

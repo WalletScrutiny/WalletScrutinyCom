@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2022-12-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: USDXwallet

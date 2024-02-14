@@ -19,10 +19,12 @@ npm install
 
 echo "Updating from Google and Apple $apps ..."
 echo "markDefunct is $markDefunct."
-node -e "require(\"./refreshApps\").refresh($markDefunct, \"$apps\")"
+node \
+  --input-type=module \
+  --eval "import refreshApps from \"./refreshApps.mjs\"; refreshApps.refresh($markDefunct, \"$apps\")"
 
 echo "Refreshing donations page ..."
-node refreshDonations.js $btcPayKey
+node refreshDonations.mjs $btcPayKey
 wait
 
 if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then

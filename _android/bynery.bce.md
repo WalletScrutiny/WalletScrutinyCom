@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bynery.bce.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-28
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

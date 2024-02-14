@@ -10,18 +10,18 @@ appCountry:
 released: 2022-04-06
 updated: 2023-02-16
 version: 1.2.0
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://www.cardstack.com/cardpay
 repository: 
 issue: 
 icon: com.cardstack.cardpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-05-13
+date: 2024-02-12
 signer: 
 reviewArchive: 
 twitter: cardstack

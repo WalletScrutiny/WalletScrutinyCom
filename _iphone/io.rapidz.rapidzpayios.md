@@ -8,11 +8,11 @@ appId: io.rapidz.rapidzpayios
 appCountry: us
 idd: '1558420115'
 released: 2021-06-29
-updated: 2023-10-18
-version: 2.9.5
+updated: 2024-02-08
+version: 2.10.0
 stars: 0
 reviews: 0
-size: '37926912'
+size: '39241728'
 website: https://www.rapidz.io/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/rapidz_io
 - https://www.facebook.com/Rapidz.io
 features: 
-developerName: Rapidz Team
+developerName: UAB Rapidz Pay
 
 ---
 

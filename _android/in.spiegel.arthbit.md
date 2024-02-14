@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: in.spiegel.arthbit.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-04
 signer: 

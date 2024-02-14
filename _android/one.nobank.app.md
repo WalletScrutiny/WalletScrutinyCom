@@ -8,9 +8,9 @@ users: 1000
 appId: one.nobank.app
 appCountry: 
 released: 2022-05-12
-updated: 2023-08-31
-version: 0.72.4
-stars: 
+updated: 2024-01-25
+version: 0.76.4
+stars: 3.8
 ratings: 
 reviews: 
 size: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/gHeHD4fAqK
 - https://www.instagram.com/pierwallet
 redirect_from: 
-developerName: NBK Labs AG
+developerName: pier creative
 features: 
 
 ---

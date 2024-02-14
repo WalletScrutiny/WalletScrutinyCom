@@ -12,16 +12,16 @@ updated: 2022-12-05
 version: 3.1.5
 stars: 3.6
 ratings: 707
-reviews: 58
+reviews: 57
 size: 
 website: https://tradesanta.com
 repository: 
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-16
+date: 2023-12-01
 signer: 
 reviewArchive: 
 twitter: 

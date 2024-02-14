@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pionex.lite.appstore.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-04-07
 signer: 

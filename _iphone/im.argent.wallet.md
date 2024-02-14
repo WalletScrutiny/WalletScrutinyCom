@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: Argent – DeFi in a tap
+title: Argent — Your Starknet Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: im.argent.wallet
 appCountry: us
 idd: 1358741926
 released: 2018-10-25
-updated: 2023-10-19
-version: 4.20.4
+updated: 2024-01-29
+version: 4.23.0
 stars: 4.6
-reviews: 2102
-size: '128706560'
+reviews: 2161
+size: '136365056'
 website: https://www.argent.xyz
 repository: 
 issue: 

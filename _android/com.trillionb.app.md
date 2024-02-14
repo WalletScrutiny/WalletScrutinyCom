@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trillionb.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

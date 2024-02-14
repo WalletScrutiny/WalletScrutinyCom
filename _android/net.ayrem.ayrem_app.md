@@ -3,12 +3,12 @@ wsId:
 title: 'Ayrem: Sell GiftCards & Crypto'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: net.ayrem.ayrem_app
 appCountry: 
 released: 2021-10-02
-updated: 2023-09-01
-version: 1.0.6
+updated: 2024-01-13
+version: 1.0.8
 stars: 2.8
 ratings: 
 reviews: 6
@@ -19,7 +19,7 @@ issue:
 icon: net.ayrem.ayrem_app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-01-01
 signer: 
 reviewArchive: 

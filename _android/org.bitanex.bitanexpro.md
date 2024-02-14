@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: org.bitanex.bitanexpro.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-05
 signer: 

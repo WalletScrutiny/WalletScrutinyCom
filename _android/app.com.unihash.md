@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.com.unihash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

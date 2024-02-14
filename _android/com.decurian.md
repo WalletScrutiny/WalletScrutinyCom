@@ -11,7 +11,7 @@ updated: 2022-03-02
 version: '2.0'
 stars: 5
 ratings: 
-reviews: 19
+reviews: 18
 size: 
 website: https://decurian.com
 repository: 

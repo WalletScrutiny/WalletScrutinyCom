@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.burency.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-12-05
 signer: 

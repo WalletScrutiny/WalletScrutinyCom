@@ -4,12 +4,12 @@ title: Bitmama-Buy, Sell, Earn Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitmama.bitmama
 appCountry: us
 released: 2020-07-11
-updated: 2023-10-05
-version: 1.1.61
+updated: 2024-02-12
+version: 1.1.78
 stars: 3.9
 ratings: 65
 reviews: 9

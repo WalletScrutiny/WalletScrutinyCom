@@ -3,7 +3,7 @@ wsId:
 title: Open Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: wtf.nbd.obw
 appCountry: 
 released: 2022-09-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wtf.nbd.obw.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: 

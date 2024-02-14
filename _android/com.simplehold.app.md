@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.simplehold.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-09-28
 signer: 

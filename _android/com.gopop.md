@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Polka S.A.
+developerName: Darwin ID E.A.S
 features: 
 
 ---

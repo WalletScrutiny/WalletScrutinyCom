@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thorapp.flutterthor.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,13 +4,13 @@ title: MONEX TRADER CRYPTO　暗号資産CFD取引
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: jp.co.monex.ms.mt_crypto
 appCountry: 
 released: 2020-07-07
-updated: 2022-11-25
-version: 1.0.7
-stars: 
+updated: 2023-12-01
+version: 1.0.9
+stars: 2.6
 ratings: 
 reviews: 
 size: 

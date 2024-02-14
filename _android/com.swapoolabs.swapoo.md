@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.swapoolabs.swapoo.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-15
 signer: 

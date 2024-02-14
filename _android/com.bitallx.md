@@ -9,7 +9,7 @@ appCountry:
 released: 2021-12-09
 updated: 2022-01-15
 version: '1.4'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitallx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

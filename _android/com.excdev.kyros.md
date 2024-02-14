@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-02
 updated: 2022-02-07
 version: 3.2.0
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.excdev.kyros.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-05-24
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

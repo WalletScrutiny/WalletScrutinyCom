@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.candelachain.bexpro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-13
 signer: 

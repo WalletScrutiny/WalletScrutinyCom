@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2023-01-05
 version: 2.16.0
-stars: 
+stars: 3.3
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptex24.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-22
+date: 2023-12-31
 signer: 
 reviewArchive: 
 twitter: 

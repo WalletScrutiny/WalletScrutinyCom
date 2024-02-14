@@ -10,17 +10,17 @@ idd: 1436698193
 released: 2018-09-24
 updated: 2021-11-12
 version: 2.0.8
-stars: 4.9
-reviews: 86
+stars: 4.8
+reviews: 88
 size: '145725440'
 website: https://midasprotocol.io/
 repository: 
 issue: 
 icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-12-17
+date: 2023-11-03
 signer: 
 reviewArchive: 
 twitter: MidasProtocol

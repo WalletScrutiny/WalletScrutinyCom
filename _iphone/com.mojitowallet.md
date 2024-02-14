@@ -11,7 +11,7 @@ released: 2022-07-15
 updated: 2023-05-19
 version: 0.1.6
 stars: 5
-reviews: 1
+reviews: 3
 size: '48752640'
 website: https://www.mintlayer.org/
 repository: 
@@ -19,7 +19,7 @@ issue:
 icon: com.mojitowallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-09-06
 signer: 
 reviewArchive: 

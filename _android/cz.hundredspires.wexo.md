@@ -8,8 +8,8 @@ users: 100000
 appId: cz.hundredspires.wexo
 appCountry: 
 released: 2021-11-29
-updated: 2023-09-29
-version: 2.4.24
+updated: 2024-02-08
+version: 2.5.48
 stars: 3.6
 ratings: 
 reviews: 13

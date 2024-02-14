@@ -3,13 +3,13 @@ wsId:
 title: Coinpara
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.necen.coinpara.react
 appCountry: 
 released: 2022-04-11
-updated: 2023-03-10
-version: 3.3.4
-stars: 
+updated: 2023-12-06
+version: 3.3.5
+stars: 4.4
 ratings: 
 reviews: 
 size: 

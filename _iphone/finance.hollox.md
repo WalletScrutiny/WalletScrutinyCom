@@ -11,16 +11,16 @@ released: 2022-11-21
 updated: 2022-11-22
 version: '1.0'
 stars: 4.1
-reviews: 27
+reviews: 29
 size: '42294272'
 website: 
 repository: 
 issue: 
 icon: finance.hollox.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-24
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: Holloxintl

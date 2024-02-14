@@ -11,16 +11,16 @@ released: 2022-09-02
 updated: 2023-03-11
 version: 1.2.6
 stars: 5
-reviews: 4
+reviews: 5
 size: '42834944'
 website: http://www.liqi.com.br
 repository: 
 issue: 
 icon: com.liqidigitalassets.liqi.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: liqibr

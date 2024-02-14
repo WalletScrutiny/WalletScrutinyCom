@@ -74,6 +74,6 @@ Patent No: [11251943](https://patents.google.com/patent/US11251943B2/en?oq=11251
 
 ## Verdict
 
-Gk8's commercial service is directed towards enterprise-level and state-level customers. This means banks, cryptocurrency exchanges, governments, other custodians and other businesses. As they themselves have mentioned, their main selling point is the crypotographic layer itself and not on any spefic hardware. There are however, renderings of their Cold Storage Vault, which looks like a secured laptop. There is also one possible video of the device from one of their customers, but the video was marketing oriented and the device could only be a prop.
+Gk8's commercial service is directed towards enterprise-level and state-level customers. This means banks, cryptocurrency exchanges, governments, other custodians and other businesses. As they themselves have mentioned, their main selling point is the cryptographic layer itself and not on any specific hardware. There are however, renderings of their Cold Storage Vault, which looks like a secured laptop. There is also one possible video of the device from one of their customers, but the video was marketing oriented, and the device could only be a prop.
 
-With no actual device speficiation sheets, no reference to the project as Open Source and with tacit claims that they are a custodial service, it is safe to assume that GK8 is a **custodial service**.
+With no actual device specification sheets, no reference to the project as Open Source and with tacit claims that they are a custodial service, it is safe to assume that GK8 is a **custodial service**.

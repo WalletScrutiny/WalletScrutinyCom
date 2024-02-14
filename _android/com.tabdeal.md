@@ -8,11 +8,11 @@ users: 50000
 appId: com.tabdeal
 appCountry: 
 released: 2021-08-14
-updated: 2023-10-08
-version: 3.10.0
+updated: 2024-01-29
+version: 4.1.10
 stars: 4.5
 ratings: 
-reviews: 36
+reviews: 63
 size: 
 website: https://tabdeal.org
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-10-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: SkillingTrading

@@ -9,7 +9,7 @@ appCountry:
 released: 2022-08-02
 updated: 2023-01-23
 version: '1.5'
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dcbits.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: 

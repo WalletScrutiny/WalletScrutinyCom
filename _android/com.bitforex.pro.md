@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitforex.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-04-07
 signer: 

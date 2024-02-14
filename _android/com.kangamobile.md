@@ -4,12 +4,12 @@ title: Kanga Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.kangamobile
 appCountry: 
 released: 2020-01-03
-updated: 2023-09-07
-version: 1.17.3
+updated: 2024-02-09
+version: 1.18.4
 stars: 3.4
 ratings: 
 reviews: 3

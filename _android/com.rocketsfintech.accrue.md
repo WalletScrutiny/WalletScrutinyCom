@@ -1,18 +1,18 @@
 ---
 wsId: accrue
-title: 'Accrue: Send. Spend. Save.'
+title: 'Accrue: Send. Spend. Sell.'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: 2021-10-09
-updated: 2023-09-09
-version: 2.3.4
-stars: 4.1
+updated: 2024-02-09
+version: 3.0.0
+stars: 4.2
 ratings: 
-reviews: 18
+reviews: 25
 size: 
 website: https://useaccrue.com
 repository: 

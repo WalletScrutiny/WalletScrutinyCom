@@ -242,8 +242,7 @@ permalink: /widget/
   </div>
   <div class="info"
     onclick="this.classList.contains('open')?(this.classList.remove('open')):(this.classList.add('open'))">
-    <span>Data provided by <a target="_blank" href="{{ base_url }}">WalletScrutiny</a> and supported by your
-      donations.<br><br>
+    <span>Data provided by <a target="_blank" href="{{ base_url }}">WalletScrutiny</a>.<br><br>
       To embed a widget into your site, copy the code on any of the analysis pages on <a target="_blank"
         href="{{ base_url }}">our website</a>.</span>
 
@@ -284,7 +283,6 @@ permalink: /widget/
     })
       .then(response => response.json())
       .then(data => { fetchWallet(data) })
-
 
     function fetchWallet(data) {
       if (data[folder]?.[id]) {

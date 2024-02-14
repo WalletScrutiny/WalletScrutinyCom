@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: net.bitcoinforall.invest.on.crypto.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

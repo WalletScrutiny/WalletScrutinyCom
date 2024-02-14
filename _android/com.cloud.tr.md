@@ -4,15 +4,15 @@ title: 'Binance TR: BTC & SHIB & DOGE'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.cloud.tr
 appCountry: tr
 released: 2021-07-16
-updated: 2023-10-16
-version: 2.0.1
+updated: 2023-12-25
+version: 2.3.1
 stars: 3.1
 ratings: 42784
-reviews: 15871
+reviews: 16009
 size: 
 website: https://www.trbinance.com/
 repository: 

@@ -24,7 +24,7 @@ Look out for these three files. Each of them has a list of all the site’s verd
 
 - _includes/grid_of_wallets.html
 - _includes/grid_of_wallets_proportional.html
-- scripts/migrate.js
+- scripts/migrate.mjs
 
 New verdicts might need addition to lists like in [grid_of_wallets](/_includes/grid_of_wallets.html)
 or the two `verdictOrder` variables.

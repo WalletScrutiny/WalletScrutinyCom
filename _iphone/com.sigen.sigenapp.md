@@ -1,6 +1,6 @@
 ---
 wsId: SIGEN.pro
-title: SIGEN.pro
+title: SIGEN Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.sigen.sigenapp
 appCountry: ru
 idd: 1505741102
 released: 2020-04-20
-updated: 2023-05-03
-version: 2.9.19
+updated: 2024-02-08
+version: 2.9.25
 stars: 4.8
-reviews: 3744
-size: '73695232'
+reviews: 3739
+size: '69965824'
 website: https://sigen.pro/
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-08
 updated: 2023-02-08
 version: 1.2.7
-stars: 4.4
+stars: 4.5
 ratings: 
 reviews: 1
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ljkj.blockpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-04-07
 updated: 2021-12-17
 version: '4.3'
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zyth.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: UZythOfficial

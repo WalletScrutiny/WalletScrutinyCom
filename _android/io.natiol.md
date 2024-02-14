@@ -1,5 +1,5 @@
 ---
-wsId: natiolInfinity
+wsId: 
 title: Natiol Infinity (Test Version)
 altTitle: 
 authors:
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.natiol.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-09-06
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: natiolinfinity
@@ -33,6 +33,8 @@ developerName: NATIOL INFINITY PTE LTD
 features: 
 
 ---
+
+This app has been replaced by {% include walletLink.html wallet='android/com.natiol.infinity.io' verdict='true' %}
 
 ## App Description from Google Play
 

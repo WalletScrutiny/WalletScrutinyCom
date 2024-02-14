@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-02
 updated: 2022-02-01
 version: 1.0.5
-stars: 3.7
+stars: 3.6
 ratings: 
 reviews: 2
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xcnk.cryptoloupe.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-06-01
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: 

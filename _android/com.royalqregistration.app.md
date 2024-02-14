@@ -9,7 +9,7 @@ appCountry:
 released: 2021-11-22
 updated: 2021-12-27
 version: '2.0'
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.royalqregistration.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-12-18
 signer: 
 reviewArchive: 
 twitter: 

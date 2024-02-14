@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2022-12-29
 version: 1.4.0
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.blockfinex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: 

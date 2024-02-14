@@ -1,6 +1,6 @@
 ---
 wsId: goMiningToken
-title: Gomining
+title: GoMining
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: digital.yucca.gmt
 appCountry: us
 idd: '1622100275'
 released: 2022-10-21
-updated: 2023-04-26
-version: '2.028'
-stars: 3.3
-reviews: 7
-size: '3895296'
+updated: 2024-02-08
+version: 3.1.4
+stars: 4.3
+reviews: 363
+size: '10286080'
 website: https://gomining.com/
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.JavaWallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-27
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

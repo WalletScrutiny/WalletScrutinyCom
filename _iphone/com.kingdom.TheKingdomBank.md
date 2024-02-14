@@ -1,6 +1,6 @@
 ---
 wsId: theKingdomBank
-title: The Kingdom Bank | Crypto Fiat
+title: The Kingdom Bank
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.kingdom.TheKingdomBank
 appCountry: bg
 idd: '1626275936'
 released: 2022-06-15
-updated: 2022-06-15
-version: 1.0.5
+updated: 2023-11-01
+version: 8.4.9
 stars: 0
 reviews: 0
-size: '343040'
+size: '36325376'
 website: https://portal.thekingdombank.com/signup
 repository: 
 issue: 
 icon: com.kingdom.TheKingdomBank.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-08-09
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: kingdombankcom

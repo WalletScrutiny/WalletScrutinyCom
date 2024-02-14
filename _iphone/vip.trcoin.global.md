@@ -1,6 +1,6 @@
 ---
 wsId: coinTRPro
-title: 'CoinTR Pro: Buy Bitcoin& MEME'
+title: 'CoinTR Pro: Buy BTC& ETH& MEME'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: vip.trcoin.global
 appCountry: us
 idd: '6444928783'
 released: 2023-01-09
-updated: 2023-10-17
-version: 2.3.3
-stars: 4.7
-reviews: 14
-size: '126222336'
+updated: 2024-02-02
+version: 2.4.8
+stars: 4.8
+reviews: 16
+size: '140491776'
 website: 
 repository: 
 issue: 

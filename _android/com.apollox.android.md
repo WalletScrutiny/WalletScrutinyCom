@@ -10,18 +10,18 @@ appCountry:
 released: 2021-10-21
 updated: 2023-08-10
 version: 2.61.0
-stars: 4
+stars: 3.8
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: 
 repository: 
 issue: 
 icon: com.apollox.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-06-27
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: ApolloX_Finance

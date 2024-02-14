@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: techAmon
 title: Amon
 altTitle: 
 authors:

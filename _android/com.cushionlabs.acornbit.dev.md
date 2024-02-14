@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-09
 updated: 2022-12-17
 version: 1.2.10
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-04-21
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: acornbitsupport

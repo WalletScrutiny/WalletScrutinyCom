@@ -1,6 +1,6 @@
 ---
 wsId: keyApp
-title: 'Key App: send & receive USDC'
+title: 'Key App: Solana memecoins home'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: org.p2p.cyber
 appCountry: CY
 idd: '1605603333'
 released: 2022-02-14
-updated: 2023-08-04
-version: 2.9.0
+updated: 2024-02-02
+version: 2.11.1
 stars: 5
 reviews: 4
-size: '124850176'
+size: '94865408'
 website: https://key.app
 repository: 
 issue: 

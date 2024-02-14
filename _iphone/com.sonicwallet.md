@@ -8,19 +8,19 @@ appId: com.sonicwallet
 appCountry: us
 idd: '1626223788'
 released: 2022-08-28
-updated: 2023-09-03
-version: '3.0'
+updated: 2023-12-12
+version: '3.2'
 stars: 5
 reviews: 2
-size: '68672512'
+size: '69221376'
 website: 
 repository: 
 issue: 
 icon: com.sonicwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: SonicWalletHQ

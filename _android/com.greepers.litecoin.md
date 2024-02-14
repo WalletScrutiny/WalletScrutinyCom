@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.greepers.litecoin.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-24
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: currencycominvesting
-title: 'Currency.com: Investing'
+title: 'Dzengi.com: Investing app'
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2023-09-14
-version: 1.41.2
-stars: 4
+updated: 2024-01-25
+version: 1.42.2
+stars: 3.9
 ratings: 216
-reviews: 101
+reviews: 127
 size: 
-website: https://expcapital.com/
+website: https://dzengi.com/
 repository: 
 issue: 
 icon: com.currency.exchange.investsmart.png

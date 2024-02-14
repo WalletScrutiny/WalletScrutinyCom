@@ -10,7 +10,7 @@ appCountry:
 released: 2019-12-06
 updated: 2023-01-15
 version: 1.7.7
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ghbglobal.ghbwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-10
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: CorporationGhb

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-19
 updated: 2022-12-20
 version: 1.0.1
-stars: 
+stars: 2.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.aitrade.ai.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-09-05
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 

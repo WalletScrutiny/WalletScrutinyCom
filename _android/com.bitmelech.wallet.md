@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitmelech.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-01
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

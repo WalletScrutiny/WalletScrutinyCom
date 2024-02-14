@@ -12,16 +12,16 @@ updated: 2023-01-27
 version: 1.5.1
 stars: 4.8
 ratings: 
-reviews: 222
+reviews: 219
 size: 
 website: https://ricewallet.io/
 repository: 
 issue: 
 icon: com.rice.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-17
+date: 2024-01-22
 signer: 
 reviewArchive: 
 twitter: RiceDeFiWallet

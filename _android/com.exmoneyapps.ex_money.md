@@ -8,9 +8,9 @@ users: 1000
 appId: com.exmoneyapps.ex_money
 appCountry: 
 released: 2020-10-02
-updated: 2020-10-02
-version: '1.0'
-stars: 
+updated: 2023-12-21
+version: 4.0.1
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exmoneyapps.ex_money.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-05-24
+date: 2023-12-28
 signer: 
 reviewArchive: 
 twitter: 

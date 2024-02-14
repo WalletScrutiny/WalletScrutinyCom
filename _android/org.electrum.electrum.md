@@ -9,22 +9,27 @@ users: 500000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2023-08-21
-version: 4.4.6.0
+updated: 2024-01-19
+version: 4.5.1.0
 stars: 3.8
 ratings: 2500
-reviews: 315
+reviews: 323
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: 
+issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-09-25
+date: 2024-01-22
 signer: 
 reviewArchive:
+- date: 2023-09-25
+  version: 4.4.6.0
+  appHash: 23dcba9487f25334fa91387b91368ddc7a42de73dd8e2f55fcfdfc6f57a987db
+  gitRevision: 629069611f99b513a69153e2cc7c0fba29ee44eb
+  verdict: reproducible
 - date: 2023-06-21
   version: 4.4.4.0
   appHash: 51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
@@ -82,25 +87,29 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.4.6.0
-apkVersionCode: 34040600
+apkVersionName: 4.5.1.0
+apkVersionCode: 34050100
 verdict:        reproducible
-appHash:        23dcba9487f25334fa91387b91368ddc7a42de73dd8e2f55fcfdfc6f57a987db
-commit:         1ca05f32435a23e561841e1b620b1c7620c29d83
+appHash:        efcf5a4873df41f21e653aa7f6733719402cc701a0ac4ebf4fe1a075514ca2ad
+commit:         f98e9863457eac22d82a34daa9d970429032b5a1
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34040600/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34040600/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34040600/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040600/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_org.electrum.electrum_34050100/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34050100/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_34050100/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 1ca05f32435a23e561841e1b620b1c7620c29d83
+object f98e9863457eac22d82a34daa9d970429032b5a1
 type commit
-tag 4.4.6
-tagger ThomasV <thomasv@electrum.org> 1692287415 +0200
+tag 4.5.1
+tagger SomberNight <somber.night@protonmail.com> 1705598266 +0000
 
-4.4.6
+4.5.1
 ===== End Results =====
 ```
 
-which looks good. This binary is **reproducible**.
+This is what we want to see to file the product version as **reproducible**.
+
+A recording of the test:
+
+{% include asciicast %}

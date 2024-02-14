@@ -4,12 +4,12 @@ title: Trustee | crypto & btc wallet
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.trusteewallet
 appCountry: 
 released: 2019-05-01
-updated: 2023-09-25
-version: 1.51.6
+updated: 2023-10-26
+version: 1.51.7
 stars: 3.9
 ratings: 2467
 reviews: 49

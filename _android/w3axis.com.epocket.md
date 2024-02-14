@@ -4,12 +4,12 @@ title: e-Pocket
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: w3axis.com.epocket
 appCountry: 
 released: 2018-06-23
-updated: 2023-10-18
-version: '1.99'
+updated: 2024-02-12
+version: '2.14'
 stars: 5
 ratings: 
 reviews: 1

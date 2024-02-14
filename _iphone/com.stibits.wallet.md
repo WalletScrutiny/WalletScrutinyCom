@@ -11,16 +11,16 @@ released: 2020-03-10
 updated: 2022-09-22
 version: 0.5.1.4
 stars: 4.5
-reviews: 14
+reviews: 15
 size: '77135872'
 website: https://stibits.com
 repository: 
 issue: 
 icon: com.stibits.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-09-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: stibits

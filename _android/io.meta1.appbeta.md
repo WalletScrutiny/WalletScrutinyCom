@@ -8,8 +8,8 @@ users: 1000
 appId: io.meta1.appbeta
 appCountry: 
 released: 2022-03-31
-updated: 2023-07-29
-version: 1.1.8
+updated: 2023-10-23
+version: 2.0.1
 stars: 4.6
 ratings: 
 reviews: 2

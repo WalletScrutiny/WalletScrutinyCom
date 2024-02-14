@@ -3,13 +3,13 @@ wsId:
 title: BIP-39 Coin-flip for crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.molnike.crypto.seed
 appCountry: 
 released: 2022-12-23
 updated: 2023-02-28
 version: '0.6'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 

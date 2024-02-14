@@ -9,7 +9,7 @@ appCountry:
 released: 2022-06-06
 updated: 2022-12-15
 version: 1.0.1
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.earlybazewallet.earlybazewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.secuxtech.secuxcess2
 appCountry: tc
 idd: '1477437607'
 released: 2019-09-12
-updated: 2023-10-11
-version: 1.20.0
+updated: 2024-01-24
+version: 1.27.0
 stars: 0
 reviews: 0
-size: '40216576'
+size: '41239552'
 website: https://www.secuxtech.com
 repository: 
 issue: 

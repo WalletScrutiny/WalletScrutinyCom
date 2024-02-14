@@ -7,8 +7,8 @@ users: 500
 appId: com.lightningnfcapp
 appCountry: 
 released: 2022-08-19
-updated: 2023-08-06
-version: 0.2.0
+updated: 2024-01-26
+version: 0.3.1
 stars: 
 ratings: 
 reviews: 

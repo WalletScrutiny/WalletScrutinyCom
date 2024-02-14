@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: sg.bcoin.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-16
 signer: 

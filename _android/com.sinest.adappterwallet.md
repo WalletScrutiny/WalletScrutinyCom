@@ -9,7 +9,7 @@ appCountry:
 released: 2022-06-21
 updated: 2022-11-21
 version: 1.0.4
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sinest.adappterwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: sone.finance.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-18
 signer: 

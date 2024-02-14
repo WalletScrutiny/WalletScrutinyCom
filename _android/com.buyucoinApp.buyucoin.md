@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-30
+date: 2024-02-07
 signer: 
 reviewArchive: 
 twitter: buyucoin

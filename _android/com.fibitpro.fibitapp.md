@@ -4,15 +4,15 @@ title: Fibit Pro
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.fibitpro.fibitapp
 appCountry: 
 released: 2021-11-27
-updated: 2023-09-29
-version: 0.9.0
-stars: 4.8
+updated: 2023-10-23
+version: 0.9.1
+stars: 4.9
 ratings: 
-reviews: 63
+reviews: 64
 size: 
 website: https://fibitpro.com
 repository: 

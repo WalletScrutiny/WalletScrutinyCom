@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.traderwagon.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-04-12
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: traderwagon

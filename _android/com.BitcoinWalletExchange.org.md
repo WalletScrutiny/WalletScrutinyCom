@@ -4,7 +4,7 @@ title: Bitcoin Wallet Exchange - exch
 altTitle: 
 authors:
 - kiwilamb
-users: 10000
+users: 50000
 appId: com.BitcoinWalletExchange.org
 appCountry: 
 released: 2020-10-12
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.BitcoinWalletExchange.org.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-11-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

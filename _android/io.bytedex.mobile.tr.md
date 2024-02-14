@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: 'Byte Exchange TR: BTC Kripto'
+title: 'Byte Exchange: BTC ETH Crypto'
 altTitle: 
 authors: 
 users: 500
 appId: io.bytedex.mobile.tr
 appCountry: 
 released: 2022-12-16
-updated: 2023-01-05
-version: 1.0.0
-stars: 
+updated: 2024-02-12
+version: 2.0.15
+stars: 4.9
 ratings: 
 reviews: 
 size: 

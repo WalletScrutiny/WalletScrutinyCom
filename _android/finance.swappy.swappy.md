@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.swappy.swappy.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-01
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,18 +1,19 @@
 ---
-wsId: OWNR
+wsId: ownrDigitalWallet
 title: OWNR Digital Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.ownrwallet.wallet
 appCountry: 
 released: 2019-05-20
 updated: 2023-09-20
 version: 1.72.0
-stars: 4.3
+stars: 4.2
 ratings: 2072
-reviews: 152
+reviews: 150
 size: 
 website: https://ownrwallet.com
 repository: 
@@ -21,7 +22,7 @@ icon: com.ownrwallet.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-31
+date: 2023-09-20
 signer: 
 reviewArchive:
 - date: 2020-12-01
@@ -39,6 +40,12 @@ developerName: OWNR WALLET OU
 features: 
 
 ---
+
+## Update 2023-09-20
+
+Fixed pairing to iPhone equivalent.
+
+## Previous Review 2021-05-31
 
 So this app claims to be a partner of Bitfinex, one of the biggest exchanges:
 

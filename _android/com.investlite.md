@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.investlite.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-01-31
 signer: 

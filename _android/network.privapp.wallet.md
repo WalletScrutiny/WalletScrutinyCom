@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: network.privapp.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-06
+date: 2023-10-30
 signer: 
 reviewArchive: 
 twitter: PrivappNetwork

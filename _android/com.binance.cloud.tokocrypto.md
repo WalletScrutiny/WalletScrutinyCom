@@ -1,6 +1,6 @@
 ---
 wsId: tokocrypto
-title: Tokocrypto - Trading Kripto
+title: 'Tokocrypto: Trade BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.binance.cloud.tokocrypto
 appCountry: id
 released: 2020-10-19
-updated: 2023-10-11
-version: 2.5.1
-stars: 3.8
+updated: 2024-01-11
+version: 2.8.0
+stars: 3.5
 ratings: 34617
-reviews: 39679
+reviews: 39942
 size: 
 website: https://www.tokocrypto.com
 repository: 

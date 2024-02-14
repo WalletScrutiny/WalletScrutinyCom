@@ -3,13 +3,13 @@ wsId:
 title: 'Oubita: Buy Bitcoin'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.oubita.oubitapp
 appCountry: 
 released: 
 updated: 2023-07-27
 version: 2.1.0
-stars: 
+stars: 3.7
 ratings: 
 reviews: 
 size: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.trxglobal.owgkf.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-12
 signer: 

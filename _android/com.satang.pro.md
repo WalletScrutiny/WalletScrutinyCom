@@ -1,6 +1,6 @@
 ---
 wsId: satangPro
-title: Satang Pro
+title: orbix Trade
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.satang.pro
 appCountry: 
 released: 2020-04-12
-updated: 2023-10-19
-version: 1.19.3
-stars: 3.2
+updated: 2024-01-23
+version: 1.20.130
+stars: 3.5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://satangcorp.com/
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UC4U0T8JSB82E5JW6ATKKqiw
 - https://www.instagram.com/satang.official/
 redirect_from: 
-developerName: Satang Corporation Co., Ltd
+developerName: Orbix Trade Co., Ltd.
 features: 
 
 ---

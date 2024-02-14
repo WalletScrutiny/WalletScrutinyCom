@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.koinal.ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-04-16
 signer: 

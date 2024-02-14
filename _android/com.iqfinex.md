@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.iqfinex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-22
 signer: 

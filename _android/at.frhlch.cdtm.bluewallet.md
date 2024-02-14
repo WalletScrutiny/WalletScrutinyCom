@@ -3,7 +3,7 @@ wsId:
 title: Center Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: at.frhlch.cdtm.bluewallet
 appCountry: 
 released: 

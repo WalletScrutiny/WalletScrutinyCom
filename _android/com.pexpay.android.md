@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.pexpay.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-09-15
 signer: 

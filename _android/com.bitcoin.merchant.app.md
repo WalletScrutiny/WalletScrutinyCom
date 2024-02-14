@@ -11,16 +11,16 @@ updated: 2023-01-24
 version: 5.3.18
 stars: 4.2
 ratings: 504
-reviews: 29
+reviews: 30
 size: 
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
 issue: 
 icon: com.bitcoin.merchant.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2019-12-25
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: bitcoincom

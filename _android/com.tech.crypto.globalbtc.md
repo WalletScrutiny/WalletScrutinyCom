@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tech.crypto.globalbtc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-10
 signer: 

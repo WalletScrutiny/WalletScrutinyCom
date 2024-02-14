@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-02-20
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

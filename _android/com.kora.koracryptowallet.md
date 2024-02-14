@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kora.koracryptowallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2022-07-31
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

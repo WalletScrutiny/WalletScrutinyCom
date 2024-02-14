@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.nitroex.nitroexvipapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-07-04
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: NitroExOfficial

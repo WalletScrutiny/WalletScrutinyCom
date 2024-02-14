@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ding.ewalletexchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-07-01
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

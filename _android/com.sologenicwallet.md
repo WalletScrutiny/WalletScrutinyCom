@@ -7,11 +7,11 @@ users: 50000
 appId: com.sologenicwallet
 appCountry: 
 released: 2020-02-04
-updated: 2023-09-20
-version: 3.0.6
-stars: 4.5
+updated: 2024-01-17
+version: 3.0.8
+stars: 4.3
 ratings: 3701
-reviews: 131
+reviews: 139
 size: 
 website: https://www.sologenic.com/
 repository: 

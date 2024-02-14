@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.walletconnect.walletair.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-16
 signer: 

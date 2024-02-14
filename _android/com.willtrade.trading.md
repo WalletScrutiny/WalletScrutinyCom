@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: WillTrade 7- Trading For All
+title: WillTrade -Forex Stocks & More
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
-updated: 2023-10-12
-version: 1.3.09
-stars: 3.8
+updated: 2024-02-02
+version: 1.3.16
+stars: 3.6
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: 
 repository: 

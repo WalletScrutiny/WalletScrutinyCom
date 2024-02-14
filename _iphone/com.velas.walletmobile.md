@@ -16,13 +16,13 @@ stars: 2.2
 reviews: 10
 size: '32556032'
 website: https://velas.com
-repository: https://github.com/velas/mobile-wallet
-issue: https://github.com/velas/mobile-wallet/issues/62
+repository: 
+issue: 
 icon: com.velas.walletmobile.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2021-11-17
+verdict: nosource
+date: 2023-10-31
 signer: 
 reviewArchive: 
 twitter: velasblockchain

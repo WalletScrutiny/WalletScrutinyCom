@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: tech.qoden.mythology.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

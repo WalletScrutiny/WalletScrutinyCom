@@ -3,15 +3,15 @@ wsId: pionex
 title: Pionex - Crypto Trading Bot
 altTitle: 
 authors: 
-users: 500000
+users: 1000000
 appId: com.pionex.client
 appCountry: us
 released: 2019-11-18
-updated: 2023-10-20
-version: 2.3.1.3
-stars: 3.7
+updated: 2024-02-06
+version: 2.3.7.6
+stars: 3.6
 ratings: 5659
-reviews: 596
+reviews: 573
 size: 
 website: https://www.pionex.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: bitcastleTradeCrypto
-title: 'bitcastle: Buy & Trade Crypto'
+title: 'bitcastle: crypto wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.llc.bitcastle
 appCountry: gb
 idd: '1616104862'
 released: 2022-07-15
-updated: 2023-03-20
-version: 1.2.5
+updated: 2024-01-26
+version: 1.7.5
 stars: 0
 reviews: 0
-size: '133924864'
+size: '162461696'
 website: https://bitcastle.io/
 repository: 
 issue: 

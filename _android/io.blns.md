@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.blns.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2023-11-06
 signer: 
 reviewArchive: 
 twitter: 

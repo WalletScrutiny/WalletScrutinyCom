@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: bankoWallet
 title: Banko Wallet - Bitcoin, ETH, T
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: app.bankowallet.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-05-10
 signer: 

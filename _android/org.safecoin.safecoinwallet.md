@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.safecoin.safecoinwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-30
 signer: 

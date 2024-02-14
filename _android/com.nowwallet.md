@@ -4,15 +4,15 @@ title: 'NOW Wallet: Store & Buy Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2023-10-16
-version: 3.8.6
-stars: 4.5
+updated: 2024-02-09
+version: 3.11.10
+stars: 4.1
 ratings: 
-reviews: 90
+reviews: 111
 size: 
 website: https://walletnow.app
 repository: 

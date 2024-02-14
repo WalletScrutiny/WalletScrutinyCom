@@ -3,12 +3,12 @@ wsId:
 title: 'EukaPay: Accept crypto get CAD'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.eukapay.pos_app
 appCountry: 
 released: 2023-03-20
-updated: 2023-08-28
-version: 1.2.8
+updated: 2024-01-22
+version: 1.2.10
 stars: 
 ratings: 
 reviews: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.reap.crypty.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-07-25
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

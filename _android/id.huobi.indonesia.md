@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: id.huobi.indonesia.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-10-16
 signer: 

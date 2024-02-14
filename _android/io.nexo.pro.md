@@ -10,18 +10,18 @@ appCountry:
 released: 2023-03-02
 updated: 2023-08-31
 version: 1.4.3
-stars: 
+stars: 3.7
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://pro.nexo.com/
 repository: 
 issue: 
 icon: io.nexo.pro.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-05
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Nexo

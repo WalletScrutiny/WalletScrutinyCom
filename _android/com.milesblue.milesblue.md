@@ -3,15 +3,15 @@ wsId:
 title: cryptMi I Miles
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.milesblue.milesblue
 appCountry: 
 released: 2021-10-10
-updated: 2023-02-20
-version: 1.1.3
-stars: 2.2
+updated: 2023-10-26
+version: 1.1.4
+stars: 2.1
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://cryptmi.com
 repository: 

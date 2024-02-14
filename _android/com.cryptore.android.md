@@ -32,7 +32,7 @@ social:
 - https://www.instagram.com/coinlordtrade
 - https://www.facebook.com/coinlordtradee
 redirect_from: 
-developerName: Nine 99 Technologies
+developerName: Sanatan Technologies
 features: 
 
 ---

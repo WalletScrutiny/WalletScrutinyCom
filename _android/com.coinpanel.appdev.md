@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-15
 updated: 2023-01-10
 version: 2.0.0
-stars: 
+stars: 3.4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinpanel.appdev.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-09-05
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: coin_panel

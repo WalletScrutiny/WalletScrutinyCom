@@ -8,19 +8,19 @@ appId: com.patriciauniverse.app
 appCountry: us
 idd: '1609772820'
 released: 2023-04-19
-updated: 2023-05-03
-version: 1.1.1
-stars: 1.5
-reviews: 96
-size: '33370112'
+updated: 2023-11-21
+version: '1.2'
+stars: 1.6
+reviews: 107
+size: '34293760'
 website: 
 repository: 
 issue: 
 icon: com.patriciauniverse.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch

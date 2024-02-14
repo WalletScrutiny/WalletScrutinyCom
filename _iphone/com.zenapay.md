@@ -8,19 +8,19 @@ appId: com.zenapay
 appCountry: us
 idd: '1292806306'
 released: 2017-10-26
-updated: 2023-10-19
-version: '4.9'
+updated: 2023-10-30
+version: '5.0'
 stars: 4.9
 reviews: 7
-size: '16222208'
+size: '16259072'
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 
 issue: 
 icon: com.zenapay.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-09-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Swapitway : Buy/Sell Gift Card'
+title: 'Swapitway: Gift Cards To Cash'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2023-09-03
 version: '3'
 stars: 2.7
 ratings: 
-reviews: 43
+reviews: 46
 size: 
 website: https://swapitway.com
 repository: 

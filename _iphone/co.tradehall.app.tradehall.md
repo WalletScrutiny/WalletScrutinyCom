@@ -10,17 +10,17 @@ idd: '1642488506'
 released: 2022-12-20
 updated: 2023-03-10
 version: 1.0.14
-stars: 5
-reviews: 3
+stars: 4
+reviews: 4
 size: '79450112'
 website: 
 repository: 
 issue: 
 icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosendreceive
-date: 2023-09-05
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.defichain.app.dfx.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-08-04
 signer: 

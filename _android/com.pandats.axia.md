@@ -1,6 +1,6 @@
 ---
 wsId: AxiaInvestments
-title: Axia Investments
+title: Axia Trade
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
-updated: 2023-09-13
-version: 1.0.66
-stars: 4.6
+updated: 2024-01-15
+version: 2.0.8
+stars: 4.7
 ratings: 744
-reviews: 3
+reviews: 4
 size: 
-website: https://www.axiainvestments.com/
+website: https://axiainvestments.com/
 repository: 
 issue: 
 icon: com.pandats.axia.png

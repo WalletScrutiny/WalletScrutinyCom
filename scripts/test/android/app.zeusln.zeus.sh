@@ -2,7 +2,14 @@
 
 repo=https://github.com/ZeusLN/zeus
 tag=v$versionName
-builtApk="$workDir/app/android/app/build/outputs/apk/release/zeus-universal.apk"
+case $(($versionCode % 10)) in
+  1) architecture="armeabi-v7a" ;;
+  2) architecture="x86" ;;
+  3) architecture="arm64-v8a" ;;
+  4) architecture="x86_64" ;;
+  *) echo "Invalid number ending, please provide a number ending in 1, 2, 3, or 4." >&2; exit 1 ;;
+esac
+builtApk="$workDir/app/android/app/build/outputs/apk/release/zeus-$architecture.apk"
 
 test() {
   # build

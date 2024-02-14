@@ -8,8 +8,8 @@ users: 100000
 appId: com.finq.android
 appCountry: 
 released: 2017-10-02
-updated: 2023-09-27
-version: 2.9.0
+updated: 2024-01-03
+version: 2.10.0
 stars: 2.7
 ratings: 
 reviews: 5

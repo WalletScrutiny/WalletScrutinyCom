@@ -10,7 +10,7 @@ appCountry:
 released: 2022-09-23
 updated: 2022-12-21
 version: 1.0.19
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.growspace.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-21
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 

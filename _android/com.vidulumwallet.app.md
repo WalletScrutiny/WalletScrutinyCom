@@ -8,9 +8,9 @@ users: 10000
 appId: com.vidulumwallet.app
 appCountry: 
 released: 2019-04-04
-updated: 2023-08-02
-version: '3.4'
-stars: 4.6
+updated: 2024-01-24
+version: '4.0'
+stars: 4.3
 ratings: 106
 reviews: 10
 size: 

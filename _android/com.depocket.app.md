@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-20
 updated: 2023-01-12
 version: 1.1.6
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.depocket.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

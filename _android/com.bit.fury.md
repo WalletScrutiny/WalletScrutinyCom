@@ -3,13 +3,13 @@ wsId:
 title: Bitfury
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bit.fury
 appCountry: 
 released: 2022-10-17
 updated: 2023-02-26
 version: '1.4'
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 

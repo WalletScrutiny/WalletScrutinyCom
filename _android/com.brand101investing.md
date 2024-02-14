@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.brand101investing.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-04-07
 signer: 

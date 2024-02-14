@@ -19,9 +19,9 @@ repository: https://github.com/LN-Zap/zap-android
 issue: 
 icon: zapsolutions.zap.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: reproducible
-date: 2023-04-27
+date: 2023-12-19
 signer: 
 reviewArchive:
 - date: 2022-03-24

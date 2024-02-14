@@ -8,13 +8,13 @@ users: 10000
 appId: io.doex.app
 appCountry: 
 released: 2022-06-11
-updated: 2023-09-21
-version: 2.1.0
+updated: 2024-02-01
+version: 2.1.4
 stars: 
 ratings: 
 reviews: 
 size: 
-website: 
+website: http://www.doex.com
 repository: 
 issue: 
 icon: io.doex.app.png
@@ -30,7 +30,7 @@ social:
 - https://t.me/DoexOfficial888
 - https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ
 redirect_from: 
-developerName: DealLeijc
+developerName: ETERNA BEAUTY LLC
 features: 
 
 ---

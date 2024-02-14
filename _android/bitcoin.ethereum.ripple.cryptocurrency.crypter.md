@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-09-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

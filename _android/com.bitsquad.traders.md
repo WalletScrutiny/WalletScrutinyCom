@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitsquad.traders.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-02-08
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

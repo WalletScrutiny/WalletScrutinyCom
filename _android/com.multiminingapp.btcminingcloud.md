@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-10-30
 signer: 

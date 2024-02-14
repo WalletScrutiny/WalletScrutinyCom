@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.live.epocket.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-06
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: e_Pocket
