@@ -3,7 +3,7 @@ wsId:
 title: BitCoreEx
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bitcoreex.app
 appCountry: 
 released: 2022-09-27

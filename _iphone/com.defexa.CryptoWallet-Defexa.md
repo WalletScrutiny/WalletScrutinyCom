@@ -8,11 +8,11 @@ appId: com.defexa.CryptoWallet-Defexa
 appCountry: us
 idd: '6446314571'
 released: 2023-05-29
-updated: 2024-01-31
-version: 2.0.2
+updated: 2024-02-13
+version: 2.0.3
 stars: 5
 reviews: 1
-size: '62973952'
+size: '63023104'
 website: https://defexa.io/wallet
 repository: 
 issue: 
