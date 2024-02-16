@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-10-30
 updated: 2024-02-09
 version: 4.24.0.9449
-stars: 4.6
+stars: 4.5
 ratings: 3252
-reviews: 409
+reviews: 401
 size: 
 website: https://www.argent.xyz
 repository: 

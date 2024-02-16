@@ -9,9 +9,9 @@ appCountry:
 idd: 1408914447
 released: 2018-12-11
 updated: 2024-02-14
-version: 24.213.1
+version: 24.213.2
 stars: 4.8
-reviews: 97069
+reviews: 97087
 size: '168547328'
 website: https://www.gemini.com
 repository: 
