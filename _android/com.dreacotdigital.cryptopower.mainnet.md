@@ -37,23 +37,8 @@ features:
 
 ## The App
 
-Crytopower allows you to choose between resoring an existing wallet or creating a new one. Upon creating one, you are given a 33-word seed phrase. Functions such as sending and receiving transactions require that the wallet must first sync with "block headers." This appears to be a self-custodial wallet.
+Crytopower allows you to choose between restoring an existing wallet or creating a new one. Upon creating one, you are given a 33-word seed phrase. Functions such as sending and receiving transactions require that the wallet must first sync with "block headers." This appears to be a self-custodial wallet.
 
 The source code was available on GitHub. 
 
-I was able to build the app via [instructions from GitHub](https://github.com/crypto-power/cryptopower/blob/master/how-to-build-mobile.md). 
-
-I was able to successfully build an apk which was then extracted into built_apk directory, which was then compared with the extracted downloaded apk. 
-These were the results:
-
-```
-Files base/AndroidManifest.xml and built_apk/AndroidManifest.xml differ
-Files base/classes.dex and built_apk/classes.dex differ
-Only in built_apk/: lib
-Only in built_apk/: META-INF
-Only in base/res: xml
-Files base/resources.arsc and built_apk/resources.arsc differ
-Only in base/: stamp-cert-sha256
-```
-
-With these results, if the app was not {% include verdictBadge.html verdict='fewusers' %} we would mark it {% include verdictBadge.html verdict='nonverifiable' %}.
+We previously built this app successfully, but failed to replicate it on a different computer when the other computer broke down. We will try again when this app has a sufficient userbase.
