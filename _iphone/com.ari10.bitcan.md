@@ -1,6 +1,6 @@
 ---
 wsId: ari10Exchange
-title: Ari10 Exchange
+title: 'Ari10: Buy Bitcoin and crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ari10.bitcan
 appCountry: pl
 idd: '1623342435'
 released: 2022-07-19
-updated: 2024-01-08
-version: 1.1.12
+updated: 2024-02-07
+version: 1.1.13
 stars: 4.5
-reviews: 39
-size: '98455552'
+reviews: 40
+size: '112687104'
 website: https://ari10.com/exchange
 repository: 
 issue: 

@@ -11,7 +11,7 @@ updated: 2023-03-21
 version: 4.2.14-6
 stars: 4.2
 ratings: 191
-reviews: 14
+reviews: 15
 size: 
 website: https://electroncash.org
 repository: 
@@ -28,7 +28,7 @@ social:
 redirect_from:
 - /org.electroncash.wallet/
 - /posts/org.electroncash.wallet/
-developerName: Jonald Fyookball
+developerName: XULU.TECH LLC
 features: 
 
 ---

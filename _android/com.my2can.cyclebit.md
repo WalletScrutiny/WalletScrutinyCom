@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: ISS Technologies
+developerName: Digital Alliance Holding AB
 features: 
 
 ---

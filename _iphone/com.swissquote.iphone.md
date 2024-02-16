@@ -8,11 +8,11 @@ appId: com.swissquote.iphone
 appCountry: ph
 idd: '285691076'
 released: 2019-02-12
-updated: 2024-01-26
-version: 10.7.0
+updated: 2024-02-08
+version: 10.7.1
 stars: 4.2
 reviews: 12
-size: '97086464'
+size: '97111040'
 website: https://www.swissquote.com
 repository: 
 issue: 

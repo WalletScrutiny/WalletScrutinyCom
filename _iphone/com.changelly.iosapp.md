@@ -1,6 +1,6 @@
 ---
 wsId: changelly
-title: 'Changelly: Buy Bitcoin・Crypto'
+title: Changelly・Buy Bitcoin BTC・BNB
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.changelly.iosapp
 appCountry: us
 idd: '1435140380'
 released: 2019-10-04
-updated: 2024-01-22
-version: 2.37.0
+updated: 2024-02-08
+version: 2.38.0
 stars: 4.7
-reviews: 4305
-size: '212264960'
+reviews: 4411
+size: '212366336'
 website: https://changelly.com
 repository: 
 issue: 

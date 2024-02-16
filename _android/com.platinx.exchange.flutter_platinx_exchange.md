@@ -7,9 +7,9 @@ users: 500
 appId: com.platinx.exchange.flutter_platinx_exchange
 appCountry: 
 released: 2022-07-02
-updated: 2023-11-09
-version: 2.0.14
-stars: 
+updated: 2024-02-14
+version: 2.0.16
+stars: 4.3
 ratings: 
 reviews: 
 size: 

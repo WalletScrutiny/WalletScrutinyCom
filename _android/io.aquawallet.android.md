@@ -2,14 +2,13 @@
 wsId: aquaWallet
 title: AQUA Wallet
 altTitle: 
-authors:
-- danny 
-users: 1000
+authors: 
+users: 10000
 appId: io.aquawallet.android
 appCountry: 
 released: 2024-01-02
-updated: 2024-01-20
-version: 0.1.19
+updated: 2024-02-06
+version: 0.1.25
 stars: 5
 ratings: 
 reviews: 3

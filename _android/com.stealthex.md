@@ -4,7 +4,7 @@ title: Crypto Exchange — StealthEX
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.stealthex
 appCountry: 
 released: 2022-11-01

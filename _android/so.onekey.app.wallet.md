@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-27
 updated: 2024-02-04
 version: 4.20.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 57
+reviews: 61
 size: 
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo

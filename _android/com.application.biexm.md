@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.application.biexm.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-02-20
+date: 2024-02-14
 signer: 
 reviewArchive: 
 twitter: 

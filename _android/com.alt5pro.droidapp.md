@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-23
 updated: 2022-02-16
 version: '1.9'
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alt5pro.droidapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-10
+date: 2024-02-07
 signer: 
 reviewArchive: 
 twitter: alt_sigma

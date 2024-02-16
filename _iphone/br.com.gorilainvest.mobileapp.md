@@ -11,7 +11,7 @@ released: 2019-01-27
 updated: 2024-01-24
 version: 6.0.1
 stars: 4.7
-reviews: 228
+reviews: 230
 size: '47175680'
 website: https://gorila.com.br/
 repository: 

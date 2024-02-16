@@ -4,7 +4,7 @@ title: Dex-Trade
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.dextrade.android
 appCountry: us
 released: 2019-07-03

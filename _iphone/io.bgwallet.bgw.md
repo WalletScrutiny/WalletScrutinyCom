@@ -1,6 +1,6 @@
 ---
 wsId: bgWallet
-title: BG Wallet
+title: WalletGo
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: io.bgwallet.bgw
 appCountry: us
 idd: '1628519503'
 released: 2022-10-31
-updated: 2023-09-26
-version: 0.2.8
+updated: 2024-02-08
+version: 0.3.0
 stars: 0
 reviews: 0
-size: '85917696'
-website: https://bgwallet.io/
+size: '76122112'
+website: https://walletgo.ai/
 repository: 
 issue: 
 icon: io.bgwallet.bgw.jpg

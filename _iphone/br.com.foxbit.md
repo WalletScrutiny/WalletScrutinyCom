@@ -8,11 +8,11 @@ appId: br.com.foxbit
 appCountry: br
 idd: 1435319194
 released: 2019-03-24
-updated: 2023-12-13
-version: 3.8.1
+updated: 2024-02-10
+version: 3.9.0
 stars: 4.3
-reviews: 4199
-size: '108805120'
+reviews: 4230
+size: '98620416'
 website: https://foxbit.com.br/negociar-criptoativos/
 repository: 
 issue: 

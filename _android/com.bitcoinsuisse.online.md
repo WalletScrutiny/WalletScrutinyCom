@@ -10,7 +10,7 @@ appCountry: pl
 released: 2021-09-21
 updated: 2024-01-12
 version: 2.9.2
-stars: 
+stars: 3.7
 ratings: 
 reviews: 
 size: 

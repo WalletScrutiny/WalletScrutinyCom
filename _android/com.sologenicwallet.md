@@ -9,9 +9,9 @@ appCountry:
 released: 2020-02-04
 updated: 2024-01-17
 version: 3.0.8
-stars: 4.2
+stars: 4.3
 ratings: 3701
-reviews: 138
+reviews: 139
 size: 
 website: https://www.sologenic.com/
 repository: 

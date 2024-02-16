@@ -1,6 +1,6 @@
 ---
 wsId: bgWallet
-title: BG Wallet-Licensed Crypto App
+title: WalletGo - Licensed Crypto App
 altTitle: 
 authors:
 - danny

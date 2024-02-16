@@ -8,8 +8,8 @@ users: 10000
 appId: app.kmint.kmint
 appCountry: 
 released: 2022-03-03
-updated: 2023-12-05
-version: 1.0.31
+updated: 2024-02-06
+version: 2.0.2
 stars: 3.8
 ratings: 
 reviews: 3
@@ -17,7 +17,7 @@ size:
 website: https://www.kmintprotocol.io/
 repository: 
 issue: 
-icon: app.kmint.kmint.png
+icon: app.kmint.kmint.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc

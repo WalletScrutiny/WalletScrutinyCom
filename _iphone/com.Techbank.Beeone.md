@@ -11,7 +11,7 @@ released: 2019-07-19
 updated: 2024-01-12
 version: 1.0.62
 stars: 4.4
-reviews: 23
+reviews: 25
 size: '78481408'
 website: https://techbank.finance/
 repository: 

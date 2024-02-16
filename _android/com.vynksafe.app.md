@@ -8,8 +8,8 @@ users: 1000
 appId: com.vynksafe.app
 appCountry: 
 released: 2022-05-31
-updated: 2024-02-02
-version: '2.5'
+updated: 2024-02-05
+version: '2.6'
 stars: 
 ratings: 
 reviews: 

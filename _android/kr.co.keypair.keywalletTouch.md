@@ -13,7 +13,7 @@ updated: 2023-10-17
 version: VARY
 stars: 4.3
 ratings: 109
-reviews: 14
+reviews: 15
 size: 
 website: http://keywallet.co.kr/en/
 repository: 

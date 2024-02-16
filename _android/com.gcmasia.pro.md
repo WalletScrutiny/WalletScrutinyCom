@@ -10,7 +10,7 @@ appCountry: HK
 released: 2017-04-24
 updated: 2023-10-11
 version: 90.3.037
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 

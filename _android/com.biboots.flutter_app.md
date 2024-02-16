@@ -12,7 +12,7 @@ updated: 2023-11-29
 version: 1.6.3
 stars: 2.6
 ratings: 
-reviews: 11
+reviews: 10
 size: 
 website: https://www.fairdesk.com/
 repository: 

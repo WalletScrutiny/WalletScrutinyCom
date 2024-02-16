@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Libertify - AI Risk Management
+title: Crypto Seatbelt
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.libertify
 appCountry: 
 released: 2023-01-12
-updated: 2023-11-09
-version: 2.3.1
+updated: 2024-02-06
+version: 2.4.0
 stars: 
 ratings: 
 reviews: 

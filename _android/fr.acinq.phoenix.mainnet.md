@@ -8,8 +8,8 @@ users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2024-01-24
-version: 2.1.2
+updated: 2024-02-08
+version: 2.1.3
 stars: 4.3
 ratings: 314
 reviews: 38
@@ -21,9 +21,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-01-28
+date: 2024-02-11
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-01-28
+  version: 2.1.2
+  appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+  gitRevision: 70a47841e96051a02df09fe559640f37a8aab612
+  verdict: nonverifiable
 - date: 2023-12-30
   version: 2.1.1
   appHash: e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
@@ -87,19 +92,20 @@ compile the product:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.1.2
-apkVersionCode: 74
+apkVersionName: 2.1.3
+apkVersionCode: 75
 verdict:        
-appHash:        4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
-commit:         0713f1b53aaa659040de7c8544421748e7f2ed9d
+appHash:        5fd53509ef566b9d03f1c55841445141bb99a687aa6d4d68aafb19dfca455b43
+commit:         eacb4f0f25d9a77af9c381b12a6a05874e7bec20
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_74/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_74/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/classes3.dex differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 

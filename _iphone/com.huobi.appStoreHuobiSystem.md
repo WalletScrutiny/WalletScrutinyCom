@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2024-01-30
-version: 10.17.2
+updated: 2024-02-08
+version: 10.18.1
 stars: 3.9
-reviews: 1258
-size: '263329792'
+reviews: 1261
+size: '260614144'
 website: https://www.htx.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2020-11-16
 updated: 2024-01-18
 version: 2.0.8
 stars: 4.8
-reviews: 52
+reviews: 53
 size: '83747840'
 website: https://www.axiainvestments.com
 repository: 

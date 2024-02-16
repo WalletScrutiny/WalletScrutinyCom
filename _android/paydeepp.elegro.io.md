@@ -8,8 +8,8 @@ users: 10000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
-updated: 2023-12-01
-version: 5.3.4
+updated: 2024-02-05
+version: 5.3.5
 stars: 3.4
 ratings: 
 reviews: 1

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-06
 updated: 2024-01-23
 version: v1.22.0
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://letsbit.io
 repository: 

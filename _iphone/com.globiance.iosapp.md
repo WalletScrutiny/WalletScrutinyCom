@@ -10,8 +10,8 @@ idd: '1584923932'
 released: 2021-10-05
 updated: 2024-01-24
 version: '2.06'
-stars: 4.2
-reviews: 75
+stars: 4.3
+reviews: 76
 size: '58161152'
 website: https://globiance.com
 repository: 

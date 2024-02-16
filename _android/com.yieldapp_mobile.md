@@ -12,7 +12,7 @@ updated: 2024-01-30
 version: '24.0109'
 stars: 3.6
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://yield.app
 repository: 

@@ -4,7 +4,7 @@ title: Fibit Pro
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.fibitpro.fibitapp
 appCountry: 
 released: 2021-11-27
