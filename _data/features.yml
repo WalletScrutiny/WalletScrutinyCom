@@ -336,11 +336,10 @@ liquid:
   long: >
     The Liquid Network is a Bitcoin sidechain designed to enable faster and more private transactions,
     launched by Blockstream in 2018. It allows for the issuance of digital assets, including security tokens
-    and stablecoins, on a blockchain that benefits from the security of the Bitcoin network while offering
-    transactions with improved speed and privacy through Confidential Transactions.
+    and stablecoins.
+
     Wallet integration with Liquid means users can send and receive Bitcoin and other assets issued on the
     Liquid Network. This feature assesses wallets that support both sending to and receiving from Liquid addresses.
-
 
     <a href='https://blockstream.com/liquid/'>Learn more about Liquid</a>.
   benefit: >
