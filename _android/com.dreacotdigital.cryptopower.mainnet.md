@@ -19,7 +19,7 @@ issue: https://github.com/crypto-power/cryptopower/issues/448
 icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: fewusers
 date: 2024-02-05
 signer: 
 reviewArchive: 
@@ -55,3 +55,5 @@ Only in base/res: xml
 Files base/resources.arsc and built_apk/resources.arsc differ
 Only in base/: stamp-cert-sha256
 ```
+
+With these results, if the app was not {% include verdictBadge.html verdict='fewusers' %} we would mark it {% include verdictBadge.html verdict='nonverifiable' %}.
