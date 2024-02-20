@@ -39,8 +39,8 @@ features:
 
 ## Analysis 
 
-1. The app starts by giving two choices: create a wallet or restore a wallet.
-2. The app the proceeds to ask the user to nominate a 6-digit pin. 
+1. The app starts by giving two choices: 'Create a Wallet' or 'Restore a Wallet'.
+2. The app then proceeds to ask the user to nominate a 6-digit pin. 
 3. When the user taps on 'Request' (similar to 'receive'), the user is then presented with this:
 
 > First things first, you'll need a payment channel
