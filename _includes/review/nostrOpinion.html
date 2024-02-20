@@ -1,18 +1,19 @@
 {% if page.url %}
 <nostr-opinion
   subject="{{ page.collection }}/{{ page.appId }}"
-  opinionHeader="Opinion about {{ page.title }} on {{ page.collection }}"
+  opinionHeader="Opinion about {{ page.title }} ({{ page.collection }})"
   opinionFooter="[Join the conversation!]({{ page.url }})"
-  opinionTitle="{{ page.title }}"
-  opinionTags="WalletScrutiny,askNostr,nostrOpinion"
+  opinionTitle="Opinion about {{ page.title }}"
+  opinionImage="https://walletscrutiny.com/images/social/{{ page.collection }}/{{ page.appId }}.png"
+  opinionTags="WalletScrutiny,nostrOpinion"
 ></nostr-opinion>
 {% endif %}
 <script type="module">
   import { expertOpinions } from '/assets/js/nostr-opinion.js';
   import experts from '/assets/js/experts.mjs';
   expertOpinions.trustedAuthors = [
-      'npub134t5gezg5tl2y2lplnm72f4c06ghnx0leql0t35z8f6hldv9yl6q0lfsfq',
-      'npub1vny7rz3k5pyqxygayx46azxnzh6y6v345jvhzqwcut0l8hyzm4cqv2xl0m'
+      'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
+      'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
   ];
   expertOpinions.headline = 'Community Opinions ($$nTrusted$$/$$nAll$$)';
   expertOpinions.description =
