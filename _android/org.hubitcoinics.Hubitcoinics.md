@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'HubitCoinics: Trading Platform'
+title: HubitCoinics:Buy & Sell Crypto
 altTitle: 
 authors: 
 users: 50

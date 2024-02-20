@@ -8,8 +8,8 @@ appId: com.margex.mobile
 appCountry: us
 idd: '1607974744'
 released: 2022-02-09
-updated: 2024-02-09
-version: 4.2.3
+updated: 2024-02-15
+version: 4.2.4
 stars: 3.9
 reviews: 33
 size: '60447744'

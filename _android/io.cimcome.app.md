@@ -10,9 +10,9 @@ appCountry: bm
 released: 2020-12-09
 updated: 2024-01-17
 version: 2.2.4
-stars: 3.9
+stars: 3.8
 ratings: 10
-reviews: 34
+reviews: 35
 size: 
 website: https://cimcome.io/
 repository: 

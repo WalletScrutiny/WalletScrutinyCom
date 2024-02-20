@@ -18,9 +18,9 @@ repository: https://github.com/atomex-me/atomex.mobile
 issue: 
 icon: com.atomex.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
-date: 2021-04-12
+date: 2024-02-14
 signer: 
 reviewArchive: 
 twitter: atomex_official

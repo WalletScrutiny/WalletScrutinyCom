@@ -8,11 +8,11 @@ appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
 released: 2019-08-28
-updated: 2023-12-22
-version: 2.0.6
+updated: 2024-02-12
+version: 2.0.7
 stars: 4.8
 reviews: 16
-size: '52850688'
+size: '52924416'
 website: https://vault12.com/guard
 repository: https://github.com/vault12
 issue: 

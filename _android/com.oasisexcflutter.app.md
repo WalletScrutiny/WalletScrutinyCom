@@ -7,8 +7,8 @@ users: 1000
 appId: com.oasisexcflutter.app
 appCountry: 
 released: 2022-07-17
-updated: 2024-01-17
-version: 2.3.2
+updated: 2024-02-15
+version: 2.3.21
 stars: 
 ratings: 
 reviews: 

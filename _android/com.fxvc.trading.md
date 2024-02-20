@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fxvc.trading.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2024-02-14
 signer: 
 reviewArchive: 
 twitter: 

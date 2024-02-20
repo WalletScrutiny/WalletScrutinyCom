@@ -8,11 +8,11 @@ appId: com.ecomi.securewallet
 appCountry: 
 idd: '1432655565'
 released: 2018-08-25
-updated: 2023-11-21
-version: 3.0.7
+updated: 2024-02-14
+version: 3.0.8
 stars: 4.3
 reviews: 56
-size: '40914944'
+size: '41510912'
 website: https://wallet.ecomi.com/
 repository: 
 issue: 

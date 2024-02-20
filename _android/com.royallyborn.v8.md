@@ -17,7 +17,7 @@ size:
 website: https://www.8v.com
 repository: 
 issue: 
-icon: com.royallyborn.v8.png
+icon: com.royallyborn.v8.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

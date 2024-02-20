@@ -10,8 +10,8 @@ idd: '1588237941'
 released: 2021-10-18
 updated: 2024-01-23
 version: 2.5.9
-stars: 5
-reviews: 4
+stars: 4.6
+reviews: 5
 size: '126104576'
 website: https://capecrypto.com
 repository: 

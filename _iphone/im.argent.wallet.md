@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: Argent — Your Starknet Wallet
+title: Argent — Starknet Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: im.argent.wallet
 appCountry: us
 idd: 1358741926
 released: 2018-10-25
-updated: 2024-01-29
-version: 4.23.0
+updated: 2024-02-15
+version: 4.24.1
 stars: 4.6
-reviews: 2161
-size: '136365056'
+reviews: 2169
+size: '136803328'
 website: https://www.argent.xyz
 repository: 
 issue: 

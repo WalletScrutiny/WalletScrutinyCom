@@ -8,11 +8,11 @@ appId: com.pixels.vynkpay
 appCountry: in
 idd: '1618947970'
 released: 2022-04-13
-updated: 2024-02-09
-version: '1.4'
+updated: 2024-02-12
+version: '1.5'
 stars: 0
 reviews: 0
-size: '27584512'
+size: '27265024'
 website: 
 repository: 
 issue: 

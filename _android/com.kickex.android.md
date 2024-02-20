@@ -8,7 +8,7 @@ users: 5000
 appId: com.kickex.android
 appCountry: 
 released: 2022-06-15
-updated: 2022-11-07
+updated: 2024-02-15
 version: 1.2.9
 stars: 
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kickex.android.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-11-03
+date: 2024-02-16
 signer: 
 reviewArchive: 
 twitter: kickexcom
