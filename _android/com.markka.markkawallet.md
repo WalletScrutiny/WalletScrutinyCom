@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Markka.com Wallet
+title: Heat Wallet
 altTitle: 
 authors: 
 users: 10

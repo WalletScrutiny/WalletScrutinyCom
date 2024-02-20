@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-07-22
 updated: 2024-02-07
 version: 9.1.2
-stars: 3.3
+stars: 3
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://www.korbit.co.kr
 repository: 

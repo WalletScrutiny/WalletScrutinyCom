@@ -9,8 +9,8 @@ appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
 released: 2018-02-09
-updated: 2024-02-05
-version: 4.0.1
+updated: 2024-02-20
+version: 4.0.3
 stars: 4.4
 reviews: 1422
 size: '77272064'

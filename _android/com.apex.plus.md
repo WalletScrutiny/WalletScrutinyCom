@@ -8,8 +8,8 @@ users: 10000
 appId: com.apex.plus
 appCountry: 
 released: 2022-08-24
-updated: 2024-02-05
-version: 1.25.2
+updated: 2024-02-08
+version: 1.25.3
 stars: 4.3
 ratings: 
 reviews: 17
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/366Puqavwx
 - https://t.me/ApeXdex
 redirect_from: 
-developerName: APEX DAO LLC
+developerName: ApeX Pro
 features: 
 
 ---

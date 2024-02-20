@@ -12,7 +12,7 @@ updated: 2023-09-20
 version: 8.8.3
 stars: 4.1
 ratings: 3831
-reviews: 134
+reviews: 135
 size: 
 website: https://pointpay.io/
 repository: 

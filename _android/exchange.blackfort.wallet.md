@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
 redirect_from: 
-developerName: Blackfort Tech Estonia oU
+developerName: Blackfort Technologies LLC
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 10000
 appId: com.flitaa.app
 appCountry: ng
 released: 2021-05-15
-updated: 2023-11-19
+updated: 2024-02-17
 version: 1.40.1
 stars: 2.7
 ratings: 428
-reviews: 490
+reviews: 491
 size: 
 website: https://flitaa.com
 repository: 

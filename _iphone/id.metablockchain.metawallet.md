@@ -8,19 +8,19 @@ appId: id.metablockchain.metawallet
 appCountry: us
 idd: 1546698261
 released: 2021-01-05
-updated: 2022-02-10
-version: 1.7.2
+updated: 2024-02-17
+version: 2.0.0
 stars: 0
 reviews: 0
-size: '27171840'
+size: '24271872'
 website: https://swnglobal.com
 repository: 
 issue: 
 icon: id.metablockchain.metawallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2024-01-31
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: MUIcommunity

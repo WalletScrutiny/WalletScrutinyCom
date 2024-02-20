@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-10
 updated: 2024-02-05
 version: 1.14.0
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 14
+reviews: 31
 size: 
 website: https://www.echooo.xyz/
 repository: 

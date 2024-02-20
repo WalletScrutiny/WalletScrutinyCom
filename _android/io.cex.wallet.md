@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-21
 updated: 2024-02-07
 version: 2.7.4
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 56
+reviews: 57
 size: 
 website: https://wallet.cex.io
 repository: 

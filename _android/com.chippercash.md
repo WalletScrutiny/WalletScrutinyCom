@@ -13,7 +13,7 @@ updated: 2024-02-14
 version: 1.71.0
 stars: 4.1
 ratings: 59630
-reviews: 2839
+reviews: 2847
 size: 
 website: https://chippercash.com
 repository: 

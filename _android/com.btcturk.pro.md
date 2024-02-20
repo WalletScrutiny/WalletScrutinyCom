@@ -4,7 +4,7 @@ title: 'BtcTurk | Kripto: BTC|USDT|XRP'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10

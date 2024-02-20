@@ -4,7 +4,7 @@ title: 'BREET: Sell Bitcoin, USDT, ETH'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.decurian.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-03
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: 

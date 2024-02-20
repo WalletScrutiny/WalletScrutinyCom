@@ -8,11 +8,11 @@ users: 1000000
 appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
-updated: 2024-02-05
-version: 3.45.2
+updated: 2024-02-14
+version: 3.46.0
 stars: 3.4
 ratings: 8949
-reviews: 2013
+reviews: 2021
 size: 
 website: https://www.vantagemarkets.com/
 repository: 

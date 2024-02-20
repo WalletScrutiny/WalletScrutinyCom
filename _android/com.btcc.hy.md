@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-08-04
 updated: 2024-02-05
 version: 8.3.1
-stars: 4.2
+stars: 4.3
 ratings: 11611
-reviews: 403
+reviews: 412
 size: 
 website: https://www.btcc.com/en-US
 repository: 

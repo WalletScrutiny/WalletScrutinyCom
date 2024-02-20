@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.bitblaze.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: 

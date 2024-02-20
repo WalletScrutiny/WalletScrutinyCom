@@ -3,7 +3,7 @@ wsId:
 title: Plus Crypto
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.plus.crypto
 appCountry: 
 released: 2023-01-26

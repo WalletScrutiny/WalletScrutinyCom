@@ -11,7 +11,7 @@ released: 2013-12-05
 updated: 2024-01-30
 version: 4.8.54456
 stars: 4.8
-reviews: 248
+reviews: 250
 size: '208831488'
 website: http://marketing.spotware.com
 repository: 
