@@ -21,11 +21,11 @@ issue:
 icon: com.capital.etf.trade.png
 bugbounty: 
 meta: ok
-verdict: fake
-date: 2024-02-08
+verdict: nosendreceive
+date: 2024-02-22
 signer: 
 reviewArchive: 
-twitter: 
+twitter: capitalcom
 social: 
 redirect_from: 
 developerName: Capital Com UK Limited
@@ -33,13 +33,15 @@ features:
 
 ---
 
-<div class="alertBox"><div>
-<p>We reached out to Capital.com and their support assured us that the only apps
-provided by them are listed at https://capital.com/mobile-apps</p>
-<p>That's an educative app and 
-{% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
-and not the app here reviewed.</p>
-</div></div>
+## Updated Review 2024-02-22
+
+We received an [update](https://twitter.com/capitalcom/status/1760305111820021958) from the official capital.com twitter account informing us that all three apps mentioned in this tweet are **legitimate**. 
+
+That being said, we still would encourage users to be extra careful for the possibility of fake apps. 
+
+## Previous Review 2024-02-08
+
+> We reached out to Capital.com and their support assured us that the only apps provided by them are listed at https://capital.com/mobile-apps
 
 ## App Description from Google Play
 
@@ -54,10 +56,6 @@ and not the app here reviewed.</p>
 > [Joseph Emmanuel](https://play.google.com/store/apps/details?id=com.capital.etf.trade)<br>
   ★★☆☆☆ January 5, 2023 <br>
        It was nice. But from last December it not processing my withdrawal. Every time they simply declined my request. When ever raising a query, they mail mail back help on the way.
-
-> [e transoil ](https://play.google.com/store/apps/details?id=com.capital.etf.trade)<br>
-  ★☆☆☆☆ November 27, 2023 <br>
-       NEVER use this platform! They will automatically sell your stocks shares at a HUGE loss , its indicated in the small terms and condition which nobody can read! Beware! I was trading OIL to shoot up when it was 28-30usd in 2020 per barrel.. they automatically sold all my shares while you are asleep.. its a FRAUD!!
 
 ## Analysis
 
@@ -74,7 +72,7 @@ and not the app here reviewed.</p>
   factor: ID verification on the original app is more stringent.
 - We tried to verify with the capital.com listed
   [twitter account](https://twitter.com/dannybuntu/status/1755503677354475981),
-  but have yet to receive a reply.
+  but have yet to receive a reply. (They responded, see above.)
 - Their Twitter account replied to our support request and explained that the
   only apps endorsed by capital.com are listed at https://capital.com/mobile-apps
-  which does not include this product, making it a **fake app**.
+  
