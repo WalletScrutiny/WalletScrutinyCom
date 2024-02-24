@@ -1,6 +1,6 @@
 ---
 wsId: blackcatcard
-title: 'Blackcatcard: IBAN, Mastercard'
+title: Blackcatcard
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: lv
 released: 2019-06-03
 updated: 2024-02-19
 version: 1.2.51
-stars: 2.7
+stars: 2.6
 ratings: 3530
-reviews: 2105
+reviews: 2107
 size: 
 website: https://blackcatcard.com
 repository: 

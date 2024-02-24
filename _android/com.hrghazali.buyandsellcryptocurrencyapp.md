@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-03-03
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 

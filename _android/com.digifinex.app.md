@@ -12,7 +12,7 @@ updated: 2024-02-02
 version: 2024.02.01
 stars: 3.9
 ratings: 4414
-reviews: 314
+reviews: 313
 size: 
 website: https://www.digifinex.com/
 repository: 

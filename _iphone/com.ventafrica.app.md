@@ -8,11 +8,11 @@ appId: com.ventafrica.app
 appCountry: us
 idd: '1607187419'
 released: 2022-02-01
-updated: 2024-01-19
-version: 1.8.3
+updated: 2024-02-21
+version: 1.8.4
 stars: 3.4
 reviews: 49
-size: '73817088'
+size: '81026048'
 website: 
 repository: 
 issue: 

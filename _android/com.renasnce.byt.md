@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.renasnce.byt.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 

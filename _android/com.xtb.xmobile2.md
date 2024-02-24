@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: XTB - Online Trading
+title: XTB Online Investing
 altTitle: 
 authors:
 - danny

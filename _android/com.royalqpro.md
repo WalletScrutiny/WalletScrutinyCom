@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.royalqpro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-28
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 

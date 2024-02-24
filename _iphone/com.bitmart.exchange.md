@@ -8,11 +8,11 @@ appId: com.bitmart.exchange
 appCountry: 
 idd: 1396382871
 released: 2018-08-02
-updated: 2024-02-07
-version: 3.0.17
+updated: 2024-02-24
+version: 3.0.18
 stars: 2.4
-reviews: 2578
-size: '105195520'
+reviews: 2590
+size: '105994240'
 website: https://www.bitmart.com/
 repository: 
 issue: 

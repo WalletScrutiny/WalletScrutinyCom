@@ -8,11 +8,11 @@ appId: com.igmarkets.ideal
 appCountry: sg
 idd: '406492428'
 released: 2011-01-24
-updated: 2024-02-08
-version: 10.1593.0
+updated: 2024-02-22
+version: 10.1632.0
 stars: 4.5
-reviews: 2569
-size: '224047104'
+reviews: 2571
+size: '221017088'
 website: http://www.ig.com
 repository: 
 issue: 

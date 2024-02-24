@@ -10,8 +10,8 @@ idd: '1573602424'
 released: 2021-10-31
 updated: 2023-03-12
 version: 1.6.0
-stars: 4.1
-reviews: 23
+stars: 4
+reviews: 24
 size: '44139520'
 website: https://quadency.com
 repository: 

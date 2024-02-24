@@ -12,7 +12,7 @@ updated: 2024-02-20
 version: 4.2.0
 stars: 4.2
 ratings: 1706
-reviews: 69
+reviews: 71
 size: 
 website: https://Arz8.com
 repository: 

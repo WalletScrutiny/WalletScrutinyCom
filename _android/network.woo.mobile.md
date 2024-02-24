@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-17
 updated: 2024-02-02
 version: 3.20.0
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://woo.org/
 repository: 

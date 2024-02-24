@@ -1,6 +1,6 @@
 ---
 wsId: hotscoin
-title: HotsCoin — btc&eth量化策略自動交易數據平台
+title: HotsCoin - More Than 100× Gem
 altTitle: 
 authors:
 - danny

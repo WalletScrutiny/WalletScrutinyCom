@@ -8,8 +8,8 @@ users: 100000
 appId: org.telegram.bananatok
 appCountry: KR
 released: 2019-08-11
-updated: 2024-02-19
-version: 4.7.1
+updated: 2024-02-20
+version: 4.7.2
 stars: 4
 ratings: 
 reviews: 1499

@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: 'ZBD: Games, Rewards, Bitcoin'
+title: 'ZBD: Bitcoin Rewards'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.zebedee.wallet
 appCountry: 
 idd: 1484394401
 released: 2020-11-28
-updated: 2023-11-15
-version: 3.63.7
+updated: 2024-02-22
+version: '3.82'
 stars: 4
-reviews: 619
-size: '93938688'
+reviews: 627
+size: '102449152'
 website: https://zbd.gg
 repository: 
 issue: 

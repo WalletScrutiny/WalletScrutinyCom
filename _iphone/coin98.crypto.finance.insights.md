@@ -13,7 +13,7 @@ version: 14.4.0
 stars: 4.5
 reviews: 614
 size: '200394752'
-website: https://coin98.com
+website: https://coin98.com/
 repository: 
 issue: 
 icon: coin98.crypto.finance.insights.jpg
@@ -27,7 +27,7 @@ twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
 features: 
-developerName: Coin98 Finance
+developerName: COIN98 WALLET LTD
 
 ---
 

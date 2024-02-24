@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2024-02-15
 version: iOS 3.129.0
 stars: 4.5
-reviews: 6036
+reviews: 6049
 size: '183559168'
 website: https://www.skrill.com/
 repository: 

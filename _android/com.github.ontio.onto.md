@@ -8,7 +8,7 @@ users: 100000
 appId: com.github.ontio.onto
 appCountry: us
 released: 2018-06-27
-updated: 2024-02-19
+updated: 2024-02-20
 version: 4.6.6
 stars: 4.4
 ratings: 1170

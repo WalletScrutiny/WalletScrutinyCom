@@ -8,11 +8,11 @@ appId: io.kryll.app
 appCountry: id
 idd: '1445896905'
 released: 2019-01-09
-updated: 2024-02-16
-version: 2.3.16
+updated: 2024-02-23
+version: 2.3.17
 stars: 0
 reviews: 0
-size: '37049344'
+size: '37053440'
 website: https://kryll.io
 repository: 
 issue: 

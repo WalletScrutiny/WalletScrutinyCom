@@ -8,8 +8,8 @@ appId: com.riflexo.TradeInterceptor
 appCountry: us
 idd: 329476057
 released: 2009-09-23
-updated: 2024-02-15
-version: 6.7.53
+updated: 2024-02-21
+version: 6.7.54
 stars: 4.8
 reviews: 476
 size: '83595264'

@@ -8,8 +8,8 @@ users: 5000
 appId: com.ari10.bitcan
 appCountry: 
 released: 2022-06-14
-updated: 2024-02-06
-version: 1.1.13
+updated: 2024-02-21
+version: 1.1.14
 stars: 
 ratings: 
 reviews: 

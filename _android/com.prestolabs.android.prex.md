@@ -9,7 +9,7 @@ appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
 updated: 2024-02-16
-version: 1.41.4
+version: 1.42.1
 stars: 3.8
 ratings: 
 reviews: 5

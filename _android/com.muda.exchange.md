@@ -3,7 +3,7 @@ wsId:
 title: MUDA
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.muda.exchange
 appCountry: 
 released: 2022-05-04
@@ -19,7 +19,7 @@ issue:
 icon: com.muda.exchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-07-31
 signer: 
 reviewArchive: 

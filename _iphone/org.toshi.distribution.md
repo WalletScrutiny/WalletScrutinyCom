@@ -11,7 +11,7 @@ released: 2017-09-27
 updated: 2024-02-19
 version: '28.81'
 stars: 4.6
-reviews: 137074
+reviews: 137240
 size: '131819520'
 website: https://www.coinbase.com/wallet
 repository: 
