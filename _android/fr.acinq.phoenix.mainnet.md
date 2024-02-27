@@ -4,6 +4,7 @@ title: Phoenix - LN Bitcoin wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
@@ -21,9 +22,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-02-11
-signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
+date: 2024-02-27
+signer: 5fd53509ef566b9d03f1c55841445141bb99a687aa6d4d68aafb19dfca455b43
 reviewArchive:
+- date: 2024-02-11
+  version: 2.1.3
+  appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+  gitRevision: 46bc4e4eb995c4f8c15cce7089aa66e399ac69bb
+  verdict: nonverifiable
 - date: 2024-01-28
   version: 2.1.2
   appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
@@ -85,31 +91,30 @@ features:
 
 ---
 
-**Update 2023-11-30**: The provider fixed the build issue and we managed to
-compile the product:
+The differences between the built and provided apks, are still substantial enough to warrant a verdict of non-verifiability.
 
 ```
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.1.3
-apkVersionCode: 75
+apkVersionName: 2.2.0
+apkVersionCode: 76
 verdict:        
-appHash:        5fd53509ef566b9d03f1c55841445141bb99a687aa6d4d68aafb19dfca455b43
-commit:         eacb4f0f25d9a77af9c381b12a6a05874e7bec20
+appHash:        74724d77d02c216807bfeb40a69c3081a0b213f9d00e3aa82a637d7973a23d3a
+commit:         43bd103bd87c4161f2c0a2240ac2a56c2c1b4381
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/classes3.dex differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_75/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_75/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
 That is a bigger diff than expected. This version is **not verifiable**.
