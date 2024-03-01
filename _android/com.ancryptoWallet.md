@@ -8,11 +8,11 @@ users: 100000
 appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
-updated: 2024-02-22
-version: 1.30.23
+updated: 2024-02-27
+version: 1.31.23
 stars: 4.4
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: https://www.ancrypto.io/
 repository: 

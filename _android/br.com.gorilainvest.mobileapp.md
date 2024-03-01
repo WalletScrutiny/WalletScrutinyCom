@@ -12,7 +12,7 @@ updated: 2024-02-20
 version: 6.1.0
 stars: 4.3
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://gorila.com.br
 repository: 

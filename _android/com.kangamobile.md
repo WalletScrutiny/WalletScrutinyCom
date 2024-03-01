@@ -8,8 +8,8 @@ users: 50000
 appId: com.kangamobile
 appCountry: 
 released: 2020-01-03
-updated: 2024-02-22
-version: 1.18.5
+updated: 2024-02-25
+version: 1.18.6
 stars: 3.7
 ratings: 
 reviews: 4

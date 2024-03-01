@@ -8,8 +8,8 @@ users: 50000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11
-updated: 2024-01-14
-version: 1.0.32
+updated: 2024-02-27
+version: 1.0.38
 stars: 4.2
 ratings: 
 reviews: 28

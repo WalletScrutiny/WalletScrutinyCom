@@ -4,13 +4,13 @@ title: MathWallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.mathwallet.android
 appCountry: 
 released: 2021-10-26
-updated: 2024-02-13
-version: 5.3.9
-stars: 3.6
+updated: 2024-02-26
+version: 5.4.0
+stars: 3.5
 ratings: 
 reviews: 42
 size: 

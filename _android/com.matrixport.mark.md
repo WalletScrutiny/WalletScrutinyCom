@@ -12,7 +12,7 @@ updated: 2024-02-22
 version: 2.3.3
 stars: 4
 ratings: 1103
-reviews: 862
+reviews: 863
 size: 
 website: https://invest.matrixport.com
 repository: 

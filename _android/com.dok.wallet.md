@@ -8,8 +8,8 @@ users: 1000
 appId: com.dok.wallet
 appCountry: il
 released: 2020-09-28
-updated: 2024-02-19
-version: 1.99.91
+updated: 2024-02-26
+version: 1.99.92
 stars: 5
 ratings: 35
 reviews: 15

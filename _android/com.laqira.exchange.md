@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.laqira.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-08-17
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: LaqiraProtocol

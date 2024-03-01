@@ -3,7 +3,7 @@ wsId:
 title: Satoshi Bitcoin Wallet Vipsats
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.vipsats.vipsats
 appCountry: 
 released: 2023-10-12

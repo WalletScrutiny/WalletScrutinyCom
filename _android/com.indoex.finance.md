@@ -12,7 +12,7 @@ updated: 2023-05-22
 version: 1.0.34
 stars: 2.8
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://international.indoex.io
 repository: 

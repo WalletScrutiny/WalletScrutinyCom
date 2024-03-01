@@ -8,13 +8,13 @@ users: 1000
 appId: com.bgw.wallet
 appCountry: 
 released: 2022-07-14
-updated: 2023-08-08
-version: 0.2.7
+updated: 2024-02-27
+version: 0.3.1
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.bgwallet.io/
+website: https://walletgo.ai/
 repository: 
 issue: 
 icon: com.bgw.wallet.png

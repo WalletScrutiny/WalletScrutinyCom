@@ -8,11 +8,11 @@ users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: 2019-08-28
-updated: 2024-02-08
-version: 2.0.59
+updated: 2024-02-28
+version: 2.0.71
 stars: 4.5
 ratings: 
-reviews: 91
+reviews: 92
 size: 
 website: http://vault12.com
 repository: https://github.com/vault12

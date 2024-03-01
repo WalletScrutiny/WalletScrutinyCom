@@ -8,11 +8,11 @@ appId: dev.spedn.ru
 appCountry: ru
 idd: 1524167720
 released: 2020-08-05
-updated: 2024-01-25
-version: 1.15.5
+updated: 2024-02-28
+version: 1.15.6
 stars: 4.3
 reviews: 99
-size: '82969600'
+size: '84397056'
 website: https://koshelek.ru/
 repository: 
 issue: 

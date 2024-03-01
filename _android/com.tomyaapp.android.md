@@ -8,7 +8,7 @@ users: 1000
 appId: com.tomyaapp.android
 appCountry: 
 released: 2020-11-06
-updated: 2022-07-26
+updated: 2023-08-23
 version: 1.1.2
 stars: 4.4
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tomyaapp.android.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-07-22
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

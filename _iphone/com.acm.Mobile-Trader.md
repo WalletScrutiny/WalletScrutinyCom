@@ -11,7 +11,7 @@ released: 2009-12-09
 updated: 2024-01-22
 version: 3.18.0
 stars: 4.3
-reviews: 524
+reviews: 525
 size: '68418560'
 website: https://www.swissquote.com/forex/platforms/advanced-trader
 repository: 

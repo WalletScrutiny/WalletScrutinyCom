@@ -3,12 +3,12 @@ wsId:
 title: KeyEx - Kripto Al-Sat BTC,ETH
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.keyex.crypto
 appCountry: 
 released: 2022-03-09
-updated: 2024-02-16
-version: 1.2.74
+updated: 2024-02-27
+version: 1.2.86
 stars: 
 ratings: 
 reviews: 

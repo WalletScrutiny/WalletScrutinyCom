@@ -8,11 +8,11 @@ appId: za.co.Bitx
 appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2024-02-12
-version: 8.52.1
+updated: 2024-02-26
+version: 8.53.0
 stars: 4.3
-reviews: 3487
-size: '134431744'
+reviews: 3498
+size: '134730752'
 website: https://www.luno.com
 repository: 
 issue: 

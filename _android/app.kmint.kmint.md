@@ -17,7 +17,7 @@ size:
 website: https://www.kmintprotocol.io/
 repository: 
 issue: 
-icon: app.kmint.kmint.jpg
+icon: app.kmint.kmint.png
 bugbounty: 
 meta: ok
 verdict: nobtc

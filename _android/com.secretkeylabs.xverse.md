@@ -10,9 +10,9 @@ appCountry: cn
 released: 2021-10-12
 updated: 2024-02-22
 version: 1.26.0
-stars: 4.4
+stars: 4.5
 ratings: 34
-reviews: 647
+reviews: 653
 size: 
 website: https://www.xverse.app/
 repository: 

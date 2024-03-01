@@ -11,7 +11,7 @@ released: '2021-06-07'
 updated: 2024-02-08
 version: 2.2.5
 stars: 4.6
-reviews: 30
+reviews: 31
 size: '78048256'
 website: https://gridlock.network
 repository: 

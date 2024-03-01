@@ -3,7 +3,7 @@ wsId:
 title: Aibit
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22

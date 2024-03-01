@@ -12,7 +12,7 @@ updated: 2024-02-21
 version: 10.35.0
 stars: 4.2
 ratings: 
-reviews: 286276
+reviews: 286750
 size: 
 website: https://venmo.com/
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/venmo/
 - https://www.facebook.com/venmo/
 redirect_from: 
-developerName: PayPal, Inc.
+developerName: Venmo
 features: 
 
 ---

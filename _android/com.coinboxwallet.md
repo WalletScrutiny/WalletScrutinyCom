@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinboxwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-07
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

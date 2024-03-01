@@ -8,9 +8,9 @@ users: 100000
 appId: com.quidax.lite
 appCountry: 
 released: 2022-01-08
-updated: 2023-07-05
-version: 1.12.4
-stars: 4.4
+updated: 2024-02-27
+version: 1.14.5
+stars: 4.3
 ratings: 
 reviews: 52
 size: 
