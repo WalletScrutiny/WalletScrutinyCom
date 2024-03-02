@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy BTC, ETH
+title: Crypto.com-Buy Bitcoin,ETH,SOL
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2024-02-16
 version: 3.180.2
 stars: 4.4
 ratings: 281384
-reviews: 47767
+reviews: 47838
 size: 
 website: https://crypto.com/
 repository: 

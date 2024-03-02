@@ -4,7 +4,7 @@ title: SecuX Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.secuxtech.secuxtwallet
 appCountry: TW
 released: 2022-05-20

@@ -4,7 +4,7 @@ title: Defexa - Safe Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.defexa.wallet
 appCountry: 
 released: 2023-04-28

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-07-23
 updated: 2024-02-28
 version: VARY
-stars: 3.9
+stars: 4
 ratings: 12371
-reviews: 645
+reviews: 652
 size: 
 website: https://www.mexc.com
 repository: 

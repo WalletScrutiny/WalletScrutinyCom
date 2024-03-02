@@ -12,7 +12,7 @@ updated: 2024-02-27
 version: 1.14.5
 stars: 4.3
 ratings: 
-reviews: 52
+reviews: 53
 size: 
 website: https://quidax.com
 repository: 

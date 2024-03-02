@@ -4,13 +4,13 @@ title: Bitbarg
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitbarg.app
 appCountry: 
 released: 2022-03-12
 updated: 2023-11-13
 version: 3.2.0
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 34
 size: 

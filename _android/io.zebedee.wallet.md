@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-20
 updated: 2024-02-14
 version: 3.82.0
-stars: 4.6
+stars: 4.7
 ratings: 358
-reviews: 1605
+reviews: 1628
 size: 
 website: https://zebedee.io
 repository: 
