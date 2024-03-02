@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: ng.wallet.prod.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2023-08-27
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: walletsafrica

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: skeleton.skeletonwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-13
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

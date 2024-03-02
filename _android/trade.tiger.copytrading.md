@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: trade.tiger.copytrading.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-08-09
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

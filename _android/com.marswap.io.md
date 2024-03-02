@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.marswap.io.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-25
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

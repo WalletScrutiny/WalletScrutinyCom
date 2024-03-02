@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cfdv2.test.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

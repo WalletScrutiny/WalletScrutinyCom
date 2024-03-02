@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capital.trading.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2024-02-08
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: capitalcom

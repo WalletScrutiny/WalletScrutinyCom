@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.busha.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-25
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: getbusha

@@ -20,9 +20,9 @@ repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2
 icon: com.bitorzo.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2022-12-26
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

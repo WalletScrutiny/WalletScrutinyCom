@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.berrywallet.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-12-13
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: BerryChain

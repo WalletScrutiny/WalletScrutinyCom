@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: technology.def.rixx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-06-13
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

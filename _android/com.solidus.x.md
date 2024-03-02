@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.solidus.x.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

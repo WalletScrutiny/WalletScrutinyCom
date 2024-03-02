@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: su.akoda.walletgun.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-06
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

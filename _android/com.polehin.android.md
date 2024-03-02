@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.polehin.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: obfuscated
-date: 2023-12-30
+date: 2024-03-02
 signer: 
 reviewArchive:
 - date: 2020-03-30

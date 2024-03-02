@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coldwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
