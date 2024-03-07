@@ -38,6 +38,7 @@ developerName: Cake Labs
 features: 
 
 ---
+
 **Update 2024-02-25**: The provider
 [closed the issue](https://github.com/cake-tech/cake_wallet/issues/337#event-11912194300)
 as **not planned**.
