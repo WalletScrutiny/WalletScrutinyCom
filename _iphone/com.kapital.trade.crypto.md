@@ -19,11 +19,11 @@ issue:
 icon: com.kapital.trade.crypto.jpg
 bugbounty: 
 meta: ok
-verdict: fake
+verdict: nosendreceive
 date: 2024-02-08
 signer: 
 reviewArchive: 
-twitter: 
+twitter: capitalcom
 social: 
 features: 
 developerName: CAPITAL BULGARIA
