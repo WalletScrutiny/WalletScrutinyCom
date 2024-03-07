@@ -9,7 +9,7 @@ appId: io.changenow.changenow
 appCountry: 
 released: 2018-09-07
 updated: 2024-02-14
-version: 1.151.7
+version: 1.151.8
 stars: 4.7
 ratings: 2199
 reviews: 634

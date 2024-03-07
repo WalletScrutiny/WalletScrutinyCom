@@ -7,8 +7,8 @@ users: 500
 appId: com.coinwebapp
 appCountry: 
 released: 2023-04-28
-updated: 2024-01-05
-version: 1.0.29
+updated: 2024-02-29
+version: 1.0.30
 stars: 
 ratings: 
 reviews: 

@@ -31,7 +31,7 @@ social:
 - https://t.me/Lisk_HQ
 - https://www.instagram.com/lisk_blockchain
 features: 
-developerName: Lisk Stiftung
+developerName: Onchain Stiftung
 
 ---
 

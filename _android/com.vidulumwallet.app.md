@@ -12,7 +12,7 @@ updated: 2024-01-24
 version: '4.0'
 stars: 4.3
 ratings: 106
-reviews: 10
+reviews: 11
 size: 
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app

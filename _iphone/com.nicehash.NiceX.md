@@ -8,8 +8,8 @@ appId: com.nicehash.NiceX
 appCountry: ph
 idd: '1619979069'
 released: 2022-07-11
-updated: 2024-02-28
-version: 1.4.1
+updated: 2024-03-05
+version: 1.4.2
 stars: 5
 reviews: 1
 size: '60674048'

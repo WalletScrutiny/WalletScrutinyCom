@@ -12,7 +12,7 @@ updated: 2024-02-07
 version: 3.14.2062
 stars: 4.2
 ratings: 659
-reviews: 48
+reviews: 49
 size: 
 website: https://fintap.app
 repository: 

@@ -10,8 +10,8 @@ idd: '1556596708'
 released: 2021-03-08
 updated: 2024-02-28
 version: 4.62.0
-stars: 2.4
-reviews: 164
+stars: 2.5
+reviews: 169
 size: '211809280'
 website: https://www.xt.com
 repository: 

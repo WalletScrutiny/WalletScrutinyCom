@@ -12,7 +12,7 @@ updated: 2024-02-16
 version: '133.3'
 stars: 4.1
 ratings: 9327
-reviews: 11
+reviews: 12
 size: 
 website: http://www.avatrade.com
 repository: 

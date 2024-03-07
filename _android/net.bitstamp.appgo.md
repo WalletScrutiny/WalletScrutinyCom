@@ -8,8 +8,8 @@ users: 10000
 appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
-updated: 2024-02-28
-version: 1.8.1
+updated: 2024-03-04
+version: 1.8.2
 stars: 4.2
 ratings: 
 reviews: 12

@@ -8,11 +8,11 @@ appId: network.gridlock.AppUS
 appCountry: us
 idd: '1567057330'
 released: '2021-06-07'
-updated: 2024-02-08
-version: 2.2.5
+updated: 2024-03-04
+version: 2.2.6
 stars: 4.6
 reviews: 31
-size: '78048256'
+size: '82783232'
 website: https://gridlock.network
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2021-03-30
 updated: 2024-02-21
 version: 3.0.3
 stars: 4.4
-reviews: 554
+reviews: 559
 size: '136686592'
 website: https://bitcoindepot.com/
 repository: 

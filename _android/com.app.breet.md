@@ -12,7 +12,7 @@ updated: 2024-02-13
 version: 4.1.5
 stars: 4.5
 ratings: 
-reviews: 128
+reviews: 130
 size: 
 website: https://breet.app
 repository: 

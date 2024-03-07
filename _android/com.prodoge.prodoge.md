@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.prodoge.prodoge.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-09
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

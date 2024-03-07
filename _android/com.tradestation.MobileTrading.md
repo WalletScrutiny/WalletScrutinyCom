@@ -12,7 +12,7 @@ updated: 2024-02-22
 version: 5.1.6
 stars: 3.5
 ratings: 4823
-reviews: 1921
+reviews: 1923
 size: 
 website: http://tradestation.com/contact-us/
 repository: 

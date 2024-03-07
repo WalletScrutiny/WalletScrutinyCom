@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: 'Binance TR: BTC & SHIB & DOGE'
+title: 'Binance TR: Bitcoin ve Kripto'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-02-22
 version: 2.3.3
 stars: 3.1
 ratings: 42784
-reviews: 16051
+reviews: 16064
 size: 
 website: https://www.trbinance.com/
 repository: 

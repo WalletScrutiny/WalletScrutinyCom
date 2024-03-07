@@ -1,6 +1,6 @@
 ---
 wsId: kleverK5FinanceCrypto
-title: Klever Wallet
+title: 'Klever Wallet: Bitcoin, Crypto'
 altTitle: 
 authors:
 - danny

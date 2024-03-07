@@ -1,6 +1,6 @@
 ---
 wsId: swissQuoteAdvancedTrader
-title: Advanced Trader
+title: Swissquote CFXD
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.acm.Mobile-Trader
 appCountry: ch
 idd: '340408565'
 released: 2009-12-09
-updated: 2024-01-22
-version: 3.18.0
+updated: 2024-03-05
+version: 3.22.0
 stars: 4.3
-reviews: 526
-size: '68418560'
-website: https://www.swissquote.com/forex/platforms/advanced-trader
+reviews: 527
+size: '57345024'
+website: https://www.swissquote.com/en-ch/private/trade/products/forex
 repository: 
 issue: 
 icon: com.acm.Mobile-Trader.jpg

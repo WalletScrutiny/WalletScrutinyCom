@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-23
 updated: 2024-02-27
 version: 2.1.10
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 23
+reviews: 24
 size: 
 website: http://thorwallet.org
 repository: 
