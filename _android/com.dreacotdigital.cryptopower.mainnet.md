@@ -2,17 +2,18 @@
 wsId: 
 title: Cryptopower Wallet
 altTitle: 
-authors: 
+authors:
 - danny
 users: 10
 appId: com.dreacotdigital.cryptopower.mainnet
 appCountry: 
-released: Jan 20, 2024
+released: 2024-01-20
 updated: 2024-01-31
 version: 1.1.0
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower/releases
 issue: https://github.com/crypto-power/cryptopower/issues/448

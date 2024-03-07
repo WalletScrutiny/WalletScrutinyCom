@@ -27,12 +27,13 @@ twitter: AquaBitcoin
 social:
 - https://www.instagram.com/aquabitcoin
 - https://www.facebook.com/profile.php?id=100095180887605
-- https://www.linkedin.com/products/jan3-aqua 
+- https://www.linkedin.com/products/jan3-aqua
 redirect_from: 
 developerName: JAN3
 features:
-- ln 
+- ln
 - liquid
+
 ---
 
 ## App Description from Google Play

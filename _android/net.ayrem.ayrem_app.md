@@ -3,7 +3,7 @@ wsId:
 title: 'Ayrem: Sell GiftCards & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: net.ayrem.ayrem_app
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: AYREM_INT
 social:
-- https://www.instagram.com/ayrem_int 
+- https://www.instagram.com/ayrem_int
 - https://www.facebook.com/AYREMint
 redirect_from: 
 developerName: Ayrem International Nigeria Limited

@@ -3,15 +3,17 @@ wsId:
 title: EttaWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10
 appId: com.ettaln
 appCountry: 
+released: 
 updated: 2023-09-06
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ettawallet.app
 repository: https://github.com/EttaWallet/EttaWallet
 issue: 
@@ -27,7 +29,7 @@ social:
 redirect_from: 
 developerName: Rukundo
 features:
-- ln 
+- ln
 
 ---
 

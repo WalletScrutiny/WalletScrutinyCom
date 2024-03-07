@@ -3,14 +3,14 @@ wsId: primalNostr
 title: Primal
 altTitle: 
 authors:
-- danny 
+- danny
 appId: net.primal.iosapp.Primal
 appCountry: us
 idd: '1673134518'
-released: '2023-12-01T08:00:00Z'
+released: 2023-12-01
 updated: 2024-02-24
 version: 1.2.46
-stars: 4.85417
+stars: 4.9
 reviews: 144
 size: '29190144'
 website: https://primal.net
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features:
-- ln 
+- ln
 developerName: Primal Systems Incorporated.
 
 ---

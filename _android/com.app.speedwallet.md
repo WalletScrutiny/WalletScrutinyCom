@@ -3,16 +3,17 @@ wsId: speedBitcoinWallet
 title: Speed Bitcoin Lightning Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.app.speedwallet
 appCountry: 
-released: Jun 18, 2023
+released: 2023-06-18
 updated: 2024-02-14
 version: 2.2.0.0.0.0.fp.gps
-stars: 4.612903
+stars: 4.6
 ratings: 
 reviews: 49
+size: 
 website: https://www.speed.app/
 repository: 
 issue: 
@@ -26,7 +27,7 @@ reviewArchive:
 twitter: speedwallet
 social:
 - https://www.linkedin.com/showcase/speedwallet
-- https://www.instagram.com/speedbitcoinwallet 
+- https://www.instagram.com/speedbitcoinwallet
 redirect_from: 
 developerName: Speed1 - FZCO
 features: 
