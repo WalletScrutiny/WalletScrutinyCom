@@ -7,20 +7,20 @@ authors:
 - danny
 released: 2021-01-01
 discontinued: 
-updated: 2023-11-03
-version: 1.0.26
+updated: 2024-01-08
+version: 1.0.27
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
 - 60
 - 17
-weight: 
+weight: 21
 provider: Blockstream Corporation Inc.
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
-shop: https://store.blockstream.com/product/blockstream-jade-token/
+shop: https://store.blockstream.com/products/blockstream-jade-hardware-wallet
 country: CA
-price: 39.99USD
+price: 64.99USD
 repository: https://github.com/Blockstream/jade
 issue: 
 icon: blockstreamjade.png
