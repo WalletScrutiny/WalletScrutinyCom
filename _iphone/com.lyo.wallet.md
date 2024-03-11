@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lyo.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-28
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

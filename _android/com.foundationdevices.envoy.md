@@ -8,11 +8,11 @@ users: 1000
 appId: com.foundationdevices.envoy
 appCountry: US
 released: 2022-04-01
-updated: 2024-01-03
-version: 1.5.1
-stars: 5
+updated: 2024-03-05
+version: 1.6.0
+stars: 4.3
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy

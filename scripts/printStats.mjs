@@ -26,10 +26,10 @@
 
 
 import helper from './helper.mjs';
-import helperPlayStore from './helperPlayStore';
-import helperAppStore from './helperAppStore';
-import helperHardware from './helperHardware';
-import helperBearer from './helperBearer';
+import helperPlayStore from './helperPlayStore.mjs';
+import helperAppStore from './helperAppStore.mjs';
+import helperHardware from './helperHardware.mjs';
+import helperBearer from './helperBearer.mjs';
 
 const sl = function (header, body, fileName, category) {
   console.log(`${header.meta} ${header.verdict} ${header.appId}`);

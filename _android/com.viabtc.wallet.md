@@ -4,7 +4,7 @@ title: CoinEx Wallet - Crypto & DeFi
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.viabtc.wallet
 appCountry: 
 released: 2019-05-15

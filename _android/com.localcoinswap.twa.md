@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.localcoinswap.twa.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-28
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: Localcoinswap_

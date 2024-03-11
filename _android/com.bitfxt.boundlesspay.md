@@ -1,6 +1,6 @@
 ---
 wsId: boundlessPay
-title: BoundlessPay
+title: 'BoundlessPay: Buy& Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitfxt.boundlesspay
 appCountry: 
 released: 2021-09-19
-updated: 2023-04-18
-version: 2.1.5
+updated: 2024-03-05
+version: 2.2.3
 stars: 4.8
 ratings: 
 reviews: 10

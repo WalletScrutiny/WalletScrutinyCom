@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.finance.tradekiya.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-08-24
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: trade_kia

@@ -11,7 +11,7 @@ released: 2020-10-08
 updated: 2024-01-06
 version: '1.67'
 stars: 4.8
-reviews: 16
+reviews: 17
 size: '63589376'
 website: https://dokwallet.com
 repository: 

@@ -12,9 +12,9 @@ updated: 2023-12-29
 version: '40.40'
 stars: 4.7
 ratings: 3855
-reviews: 868
+reviews: 871
 size: 
-website: https://bitcoin-cloud-mining-payment.blogspot.com/ads.txt
+website: https://pfdae6613.app-ads-txt.com
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpay.coincloud.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-02-20
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: CoinCloudATM

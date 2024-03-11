@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.hold.mobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-22
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: HoldHQ

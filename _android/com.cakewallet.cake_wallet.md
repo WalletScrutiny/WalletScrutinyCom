@@ -8,11 +8,11 @@ users: 100000
 appId: com.cakewallet.cake_wallet
 appCountry: 
 released: 2020-01-01
-updated: 2024-02-09
-version: 4.13.3
-stars: 4.5
+updated: 2024-03-02
+version: 4.14.0
+stars: 4.7
 ratings: 730
-reviews: 334
+reviews: 348
 size: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
@@ -38,6 +38,11 @@ developerName: Cake Labs
 features: 
 
 ---
+
+**Update 2024-02-25**: The provider
+[closed the issue](https://github.com/cake-tech/cake_wallet/issues/337#event-11912194300)
+as **not planned**.
+This product is and will remain **not verifiable**.
 
 **Update  2022-11-02**: Apparently this product fails to build from source. The
 relatively old

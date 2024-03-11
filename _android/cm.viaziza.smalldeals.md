@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cm.viaziza.smalldeals.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-20
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

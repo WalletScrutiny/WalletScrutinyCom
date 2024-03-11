@@ -11,7 +11,7 @@ released: 2022-07-11
 updated: 2024-02-09
 version: 0.3.9+173
 stars: 3.4
-reviews: 18
+reviews: 19
 size: '159551488'
 website: https://xrpaynet.com
 repository: 

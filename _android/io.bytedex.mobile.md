@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bytedex.mobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-31
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.nearpay.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-12-30
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

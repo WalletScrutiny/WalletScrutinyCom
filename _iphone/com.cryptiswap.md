@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptiswap.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-22
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Flipster - Crypto Trading
+title: Flipster - Trade BTC & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2024-02-14
-version: 1.40.4
+updated: 2024-03-04
+version: 1.43.4
 stars: 3.8
 ratings: 
 reviews: 5

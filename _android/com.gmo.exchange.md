@@ -8,8 +8,8 @@ users: 10000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
-updated: 2023-12-06
-version: 3.0.6
+updated: 2024-02-20
+version: 3.0.7
 stars: 4
 ratings: 82
 reviews: 38

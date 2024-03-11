@@ -7,7 +7,7 @@ users: 10
 appId: com.heatwallet.heat_app
 appCountry: 
 released: 
-updated: 2023-01-16
+updated: 2024-02-29
 version: VARY
 stars: 
 ratings: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.heatwallet.heat_app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2024-01-16
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

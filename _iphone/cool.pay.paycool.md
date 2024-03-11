@@ -7,11 +7,11 @@ appId: cool.pay.paycool
 appCountry: us
 idd: '1636549193'
 released: 2022-09-07
-updated: 2024-01-07
-version: 2.5.162
+updated: 2024-03-05
+version: 2.5.163
 stars: 5
 reviews: 16
-size: '77176832'
+size: '76968960'
 website: https://pay.cool
 repository: 
 issue: 

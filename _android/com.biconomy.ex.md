@@ -4,7 +4,7 @@ title: 'Biconomy: Bitcoin, ETH &Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.biconomy.ex
 appCountry: 
 released: 2020-01-14

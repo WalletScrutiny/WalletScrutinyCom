@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2023-08-31
-version: 1.9.4
+updated: 2024-02-25
+version: 1.9.5
 stars: 4.7
 ratings: 
 reviews: 

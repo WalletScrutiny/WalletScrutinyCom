@@ -1,6 +1,6 @@
 ---
 wsId: exnodeExchange
-title: Exnode финансовый помощник
+title: 'Exnode: Обмен криптовалют'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.regelity.mobileex
 appCountry: 
 released: 2022-12-15
-updated: 2024-02-05
-version: 1.34.2
+updated: 2024-03-06
+version: 1.35.3
 stars: 3.7
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ users: 1000000
 appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
-updated: 2024-01-06
-version: 1.0.7
+updated: 2024-02-21
+version: 1.0.10
 stars: 2.9
 ratings: 8237
 reviews: 25

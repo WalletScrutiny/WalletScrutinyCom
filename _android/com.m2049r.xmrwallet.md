@@ -10,7 +10,7 @@ appCountry:
 released: 2017-09-29
 updated: 2023-12-10
 version: 3.3.10 'Argentina'
-stars: 3.3
+stars: 3.2
 ratings: 821
 reviews: 173
 size: 

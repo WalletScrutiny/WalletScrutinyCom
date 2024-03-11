@@ -8,7 +8,7 @@ users: 50000
 appId: io.coinmerce.app
 appCountry: 
 released: 2018-07-09
-updated: 2024-01-31
+updated: 2024-02-26
 version: 5.8.1
 stars: 
 ratings: 

@@ -18,9 +18,9 @@ repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2023-04-29
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

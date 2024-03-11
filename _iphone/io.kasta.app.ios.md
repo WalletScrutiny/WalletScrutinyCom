@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kasta.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-07
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: ka_app

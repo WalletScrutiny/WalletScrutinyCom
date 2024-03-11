@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.shidowallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: ShidoGlobal

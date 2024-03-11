@@ -4,7 +4,7 @@ title: 'BREET: Sell Bitcoin, USDT, ETH'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21
@@ -12,7 +12,7 @@ updated: 2024-02-13
 version: 4.1.5
 stars: 4.5
 ratings: 
-reviews: 125
+reviews: 130
 size: 
 website: https://breet.app
 repository: 

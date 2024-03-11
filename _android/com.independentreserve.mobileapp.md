@@ -1,6 +1,6 @@
 ---
 wsId: independentReserveExchange
-title: Independent Reserve - Exchange
+title: Independent Reserve Buy Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.independentreserve.mobileapp
 appCountry: 
 released: 2021-10-18
-updated: 2023-12-10
-version: 4.1.1
+updated: 2024-03-03
+version: 4.1.4
 stars: 
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ users: 1000
 appId: one.nobank.app
 appCountry: 
 released: 2022-05-12
-updated: 2024-01-25
-version: 0.76.4
+updated: 2024-03-01
+version: 0.78.1
 stars: 3.8
 ratings: 
 reviews: 

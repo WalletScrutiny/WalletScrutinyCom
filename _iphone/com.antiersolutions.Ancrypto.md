@@ -8,11 +8,11 @@ appId: com.antiersolutions.Ancrypto
 appCountry: in
 idd: '1660898349'
 released: 2023-03-24
-updated: 2024-02-13
-version: '25.5'
+updated: 2024-02-27
+version: '26.9'
 stars: 4.5
-reviews: 17
-size: '147666944'
+reviews: 19
+size: '147629056'
 website: https://www.ancrypto.io/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ users: 100000
 appId: io.cex.wallet
 appCountry: 
 released: 2022-02-21
-updated: 2024-02-07
-version: 2.7.4
-stars: 4.1
+updated: 2024-03-06
+version: 2.7.8
+stars: 3.9
 ratings: 
-reviews: 56
+reviews: 59
 size: 
 website: https://wallet.cex.io
 repository: 

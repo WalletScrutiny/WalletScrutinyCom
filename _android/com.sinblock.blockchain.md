@@ -3,12 +3,12 @@ wsId:
 title: Aibit
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2024-02-08
-version: 4.0.3
+updated: 2024-03-04
+version: 4.0.5
 stars: 
 ratings: 
 reviews: 

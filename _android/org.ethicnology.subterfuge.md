@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.ethicnology.subterfuge.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-06
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

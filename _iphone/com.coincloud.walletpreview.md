@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coincloud.walletpreview.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-08-29
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: bitstopofficial

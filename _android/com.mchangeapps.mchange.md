@@ -3,7 +3,7 @@ wsId:
 title: Mchange - купить Bitcoin
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.mchangeapps.mchange
 appCountry: 
 released: 2021-09-01
@@ -19,7 +19,7 @@ issue:
 icon: com.mchangeapps.mchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-12-28
 signer: 
 reviewArchive: 

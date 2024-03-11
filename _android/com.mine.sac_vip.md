@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

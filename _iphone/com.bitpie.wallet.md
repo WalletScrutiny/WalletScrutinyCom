@@ -8,11 +8,11 @@ appId: com.bitpie.wallet
 appCountry: 
 idd: 1481314229
 released: 2019-10-01
-updated: 2024-01-16
-version: 5.0.153
-stars: 3.4
-reviews: 210
-size: '181325824'
+updated: 2024-03-05
+version: 5.0.159
+stars: 3.3
+reviews: 212
+size: '183474176'
 website: https://bitpie.com
 repository: 
 issue: 

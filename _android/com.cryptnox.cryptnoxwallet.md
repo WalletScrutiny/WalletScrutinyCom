@@ -4,12 +4,12 @@ title: Cryptnox Wallet
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: com.cryptnox.cryptnoxwallet
 appCountry: 
 released: 2023-09-29
-updated: 2024-02-06
-version: 2.3.3
+updated: 2024-03-01
+version: 2.4.0
 stars: 
 ratings: 
 reviews: 

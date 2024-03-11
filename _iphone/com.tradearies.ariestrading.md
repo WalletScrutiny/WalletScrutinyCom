@@ -8,11 +8,11 @@ appId: com.tradearies.ariestrading
 appCountry: ng
 idd: 1554894180
 released: 2021-06-29
-updated: 2023-11-13
-version: '3.4'
+updated: 2024-03-01
+version: 3.4.4
 stars: 0
 reviews: 0
-size: '42821632'
+size: '41978880'
 website: https://tradearies.com/
 repository: 
 issue: 

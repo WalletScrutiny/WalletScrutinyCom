@@ -10,17 +10,17 @@ idd: '1573602424'
 released: 2021-10-31
 updated: 2023-03-12
 version: 1.6.0
-stars: 4.1
-reviews: 23
+stars: 4
+reviews: 24
 size: '44139520'
 website: https://quadency.com
 repository: 
 issue: 
 icon: com.quadency.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-29
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: quadency

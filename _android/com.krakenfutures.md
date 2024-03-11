@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.krakenfutures.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-03-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

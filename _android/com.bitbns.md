@@ -8,8 +8,8 @@ users: 500000
 appId: com.bitbns
 appCountry: 
 released: 2019-09-21
-updated: 2023-11-21
-version: 6.16.1
+updated: 2024-03-04
+version: 6.16.5
 stars: 3.4
 ratings: 15779
 reviews: 39

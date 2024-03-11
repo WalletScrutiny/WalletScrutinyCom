@@ -8,11 +8,11 @@ appId: com.coincorner.checkout
 appCountry: us
 idd: '1464880599'
 released: 2019-06-01
-updated: 2023-03-10
-version: 2.0.4
+updated: 2024-02-27
+version: 2.0.5
 stars: 0
 reviews: 0
-size: '5819392'
+size: '5688320'
 website: https://www.coincorner.com/checkout
 repository: 
 issue: 

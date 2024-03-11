@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.EkoWallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-02-24
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: 

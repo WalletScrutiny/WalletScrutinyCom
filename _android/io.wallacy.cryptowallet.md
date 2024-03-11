@@ -4,15 +4,15 @@ title: 'Wallacy: Crypto & BTC Wallet'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.wallacy.cryptowallet
 appCountry: 
 released: 2023-07-19
-updated: 2023-10-20
-version: 0.1.10
-stars: 4.9
+updated: 2024-02-07
+version: 0.1.12
+stars: 4.8
 ratings: 
-reviews: 19
+reviews: 23
 size: 
 website: https://wallacy.io/
 repository: 

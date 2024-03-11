@@ -9,8 +9,8 @@ users: 500000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2024-02-13
-version: 1.76.0
+updated: 2024-03-06
+version: 1.78.1
 stars: 4.4
 ratings: 1225
 reviews: 29
@@ -21,11 +21,11 @@ issue:
 icon: com.kapital.trade.crypto.png
 bugbounty: 
 meta: ok
-verdict: fake
-date: 2024-02-08
+verdict: nosendreceive
+date: 2024-02-22
 signer: 
 reviewArchive: 
-twitter: 
+twitter: capitalcom
 social: 
 redirect_from: 
 developerName: Capital.com BG
@@ -33,21 +33,19 @@ features:
 
 ---
 
-<div class="alertBox"><div>
-<p>We reached out to Capital.com and their support assured us that the only apps
-provided by them are listed at https://capital.com/mobile-apps</p>
-<p>That's an educative app and 
-{% include walletLink.html wallet='android/com.capital.trading' verdict='true' %}
-and not the app here reviewed.</p>
-</div></div>
+## Updated Review 2024-02-22
 
-## Updated Review 2024-02-08
+We received an [update](https://twitter.com/capitalcom/status/1760305111820021958) from the official capital.com twitter account informing us that all three apps mentioned in a previous  tweet are **legitimate**. 
 
-This is likely a fake app. We are currently [verifying with the official capital.com twitter](https://twitter.com/BitcoinWalletz/status/1755422197035012396) account. We also sent an email via (support (at-sign) capital (dot) com). 
+That being said, we still would encourage users to be extra careful for the possibility of fake apps.
+
+## Previous Review 2024-02-08
+
+We previously reached out to Capital.com and their support assured us that the only apps provided by them are listed at https://capital.com/mobile-apps
+
+We are currently [verifying with the official capital.com twitter](https://twitter.com/BitcoinWalletz/status/1755422197035012396) account. We also sent an email via (support (at-sign) capital (dot) com). 
 
 ## Google Play Reviews 
-
-Some are a bit concerning since they report losing money. The purveyors of the app reply and simply redirect them to official support channels.
 
 > [Shahab Jamali](https://play.google.com/store/apps/details?id=com.kapital.trade.crypto)<br>
   ★☆☆☆☆ May 14, 2021 <br>
@@ -59,7 +57,7 @@ Some are a bit concerning since they report losing money. The purveyors of the a
 
 ## Analysis 
 
-While we wait for the reply, we believe that the lack of a link from the official website to this particular app, its logo's striking resemblance to the original app and its usage of trademarks in its app name is sufficient to indicate that this app is indeed a **fake** app.
+While we wait for the reply, we believe that the lack of a link from the official website to this particular app, its logo's striking resemblance to the original app and its usage of trademarks in its app name is sufficient to indicate that this app is suspicious.
 
 ## Previous Review 2021-09-10
 

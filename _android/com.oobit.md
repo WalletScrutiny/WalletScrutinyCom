@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-07
 updated: 2024-01-09
 version: 1.8.0
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://www.oobit.com/
 repository: 

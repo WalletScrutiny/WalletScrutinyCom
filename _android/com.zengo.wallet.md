@@ -9,11 +9,11 @@ users: 500000
 appId: com.zengo.wallet
 appCountry: 
 released: 2020-01-19
-updated: 2024-02-13
-version: 7.7.5
+updated: 2024-03-04
+version: 7.8.0
 stars: 4.4
 ratings: 3936
-reviews: 482
+reviews: 485
 size: 
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks

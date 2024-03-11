@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.voicapps.app2cash.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-03-03
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 2cashnetwork

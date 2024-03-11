@@ -8,11 +8,11 @@ users: 5000
 appId: com.trendox.android
 appCountry: 
 released: 2022-01-02
-updated: 2024-02-07
-version: 3.5.20_googleplay
+updated: 2024-02-27
+version: 3.5.37_googleplay
 stars: 4.8
 ratings: 
-reviews: 56
+reviews: 55
 size: 
 website: https://fxtrendo.com
 repository: 

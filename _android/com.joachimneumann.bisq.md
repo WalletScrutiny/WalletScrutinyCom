@@ -4,7 +4,7 @@ title: Bisq Notifications
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06

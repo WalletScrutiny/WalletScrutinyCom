@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-11
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: Heartnumber_htn

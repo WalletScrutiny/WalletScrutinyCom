@@ -1,6 +1,6 @@
 ---
 wsId: bitci
-title: 'Bitci TR: BTC | ETH | USDT'
+title: Bitci Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
 released: 2019-04-17
-updated: 2023-11-09
-version: 5.0.4
+updated: 2024-02-22
+version: 5.0.5
 stars: 4.2
-reviews: 1778
-size: '147466240'
+reviews: 1782
+size: '149953536'
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

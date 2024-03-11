@@ -8,9 +8,9 @@ users: 10000
 appId: com.yieldapp_mobile
 appCountry: 
 released: 2022-06-10
-updated: 2024-01-30
-version: '24.0109'
-stars: 3.6
+updated: 2024-03-06
+version: '24.0306'
+stars: 3.3
 ratings: 
 reviews: 4
 size: 

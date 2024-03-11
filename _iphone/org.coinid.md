@@ -11,16 +11,16 @@ released: 2018-10-02
 updated: 2023-02-21
 version: 1.5.6
 stars: 4.3
-reviews: 17
+reviews: 16
 size: '10047488'
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: ftbfs
-date: 2023-02-24
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

@@ -8,9 +8,9 @@ users: 5000
 appId: com.uptrend.ainvesting
 appCountry: 
 released: 
-updated: 2024-01-03
-version: 7.0.20
-stars: 3
+updated: 2024-03-05
+version: 7.0.21
+stars: 3.1
 ratings: 
 reviews: 
 size: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/uptrend.bg
 - https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
 redirect_from: 
-developerName: Uptrend LTD
+developerName: Up Trend LTD
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10
-updated: 2024-01-26
-version: 1.9.0
+updated: 2024-02-17
+version: 1.10.0
 stars: 4.9
 ratings: 
 reviews: 

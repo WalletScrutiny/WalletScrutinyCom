@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: arcmarket
+developerName: ARC Market Capital
 features: 
 
 ---

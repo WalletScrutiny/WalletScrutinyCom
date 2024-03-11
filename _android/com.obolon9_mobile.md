@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.obolon9_mobile.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-03
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

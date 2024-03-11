@@ -3,13 +3,13 @@ wsId:
 title: Fexr Wallet for Self-Custody
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.getfexr.core
 appCountry: 
 released: 2022-06-08
-updated: 2024-02-15
+updated: 2024-03-05
 version: pop
-stars: 4.5
+stars: 4.4
 ratings: 
 reviews: 
 size: 
