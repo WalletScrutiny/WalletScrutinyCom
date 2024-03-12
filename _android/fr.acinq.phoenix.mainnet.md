@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 date: 2024-02-27
-signer: 5fd53509ef566b9d03f1c55841445141bb99a687aa6d4d68aafb19dfca455b43
+signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2024-02-11
   version: 2.1.3
