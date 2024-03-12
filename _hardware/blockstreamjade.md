@@ -31,7 +31,7 @@ date: 2024-03-11
 signer: 
 reviewArchive:
 - date: 2023-11-29
-  version: "1.0.26"
+  version: 1.0.26
   appHash: 
   gitRevision: 
   verdict: nonverifiable

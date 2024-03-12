@@ -12,7 +12,7 @@ updated: 2024-02-13
 version: 3.10.2
 stars: 2.7
 ratings: 
-reviews: 32
+reviews: 33
 size: 
 website: https://coldstoragecoins.com
 repository: 

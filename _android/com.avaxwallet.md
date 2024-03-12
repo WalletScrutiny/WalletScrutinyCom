@@ -10,9 +10,9 @@ appCountry:
 released: 2022-08-30
 updated: 2024-03-01
 version: 0.14.5
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 56
+reviews: 59
 size: 
 website: http://core.app
 repository: 

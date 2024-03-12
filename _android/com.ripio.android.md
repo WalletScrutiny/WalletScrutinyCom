@@ -9,8 +9,8 @@ appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
 updated: 2024-02-28
-version: 6.1.0
-stars: 3.5
+version: 6.1.1
+stars: 3.6
 ratings: 34376
 reviews: 168
 size: 

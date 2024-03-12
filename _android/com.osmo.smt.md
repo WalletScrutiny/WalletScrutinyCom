@@ -4,12 +4,12 @@ title: Osmo Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.osmo.smt
 appCountry: 
 released: 2022-07-01
-updated: 2024-02-28
-version: 3.0.0
+updated: 2024-03-06
+version: 3.0.1
 stars: 3.9
 ratings: 
 reviews: 11

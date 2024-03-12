@@ -8,11 +8,11 @@ appId: com.hashcashconsultants.payBitoTrade
 appCountry: us
 idd: 1492071529
 released: 2020-01-02
-updated: 2024-03-04
-version: 100.0.2
+updated: 2024-03-11
+version: 100.0.3
 stars: 5
 reviews: 75
-size: '46477312'
+size: '46883840'
 website: https://www.hashcashconsultants.com
 repository: 
 issue: 

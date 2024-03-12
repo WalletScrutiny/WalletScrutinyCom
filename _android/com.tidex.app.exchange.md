@@ -8,8 +8,8 @@ users: 10000
 appId: com.tidex.app.exchange
 appCountry: 
 released: 2022-06-30
-updated: 2022-08-12
-version: 1.0.5
+updated: 2024-03-08
+version: 1.0.6
 stars: 2.5
 ratings: 
 reviews: 5
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-07-20
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

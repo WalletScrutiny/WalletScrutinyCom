@@ -12,7 +12,7 @@ updated: 2023-02-12
 version: '3.41'
 stars: 2.7
 ratings: 3529
-reviews: 12
+reviews: 13
 size: 
 website: https://www.buyucoin.com
 repository: 

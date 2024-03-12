@@ -4,15 +4,15 @@ title: Cash App
 altTitle: 
 authors:
 - leo
-users: 50000000
+users: 100000000
 appId: com.squareup.cash
 appCountry: 
 released: 2013-10-15
-updated: 2024-03-02
+updated: 2024-03-09
 version: 4.37.0
 stars: 4.6
 ratings: 1066810
-reviews: 366534
+reviews: 367224
 size: 
 website: https://cash.app
 repository: 

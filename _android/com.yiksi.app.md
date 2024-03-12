@@ -3,7 +3,7 @@ wsId:
 title: Yiksi
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.yiksi.app
 appCountry: 
 released: 2022-06-11

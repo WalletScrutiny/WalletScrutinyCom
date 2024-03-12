@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yibi.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-07
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: OfficialYibi

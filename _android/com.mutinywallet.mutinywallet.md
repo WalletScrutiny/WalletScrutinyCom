@@ -3,7 +3,7 @@ wsId: mutiny
 title: Mutiny Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.mutinywallet.mutinywallet
 appCountry: 
 released: 2024-02-27

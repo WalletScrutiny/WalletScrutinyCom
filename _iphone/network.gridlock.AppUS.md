@@ -10,8 +10,8 @@ idd: '1567057330'
 released: '2021-06-07'
 updated: 2024-03-04
 version: 2.2.6
-stars: 4.6
-reviews: 31
+stars: 4.5
+reviews: 32
 size: '82783232'
 website: https://gridlock.network
 repository: 

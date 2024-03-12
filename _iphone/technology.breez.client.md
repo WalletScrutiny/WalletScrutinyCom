@@ -10,8 +10,8 @@ idd: '1463604142'
 released: 2022-05-01
 updated: 2023-10-23
 version: 1.0.24
-stars: 4.1
-reviews: 28
+stars: 4
+reviews: 29
 size: '188615680'
 website: 
 repository: https://github.com/breez/breezmobile

@@ -8,8 +8,8 @@ users: 1000
 appId: com.smartitapp
 appCountry: us
 released: 2020-09-25
-updated: 2022-04-05
-version: 1.0.6
+updated: 2024-03-11
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.smartitapp.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-04-03
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: Speed Bitcoin Lightning Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.app.speedwallet
 appCountry: 
 released: 2023-06-18
@@ -12,7 +12,7 @@ updated: 2024-02-14
 version: 2.2.0.0.0.0.fp.gps
 stars: 4.6
 ratings: 
-reviews: 49
+reviews: 52
 size: 
 website: https://www.speed.app/
 repository: 

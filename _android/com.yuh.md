@@ -8,7 +8,7 @@ users: 100000
 appId: com.yuh
 appCountry: 
 released: 2021-04-06
-updated: 2024-02-29
+updated: 2024-03-11
 version: 1.25.0
 stars: 
 ratings: 

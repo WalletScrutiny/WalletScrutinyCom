@@ -10,8 +10,8 @@ idd: '1576165600'
 released: 2021-07-14
 updated: 2024-02-29
 version: '1.37'
-stars: 4.6
-reviews: 30
+stars: 4.5
+reviews: 31
 size: '136037376'
 website: https://union.cash
 repository: 
