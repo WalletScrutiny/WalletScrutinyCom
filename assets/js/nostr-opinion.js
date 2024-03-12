@@ -35211,150 +35211,6 @@ const ndk = new src_default({
 
 
 `, opinionHeaderRegex = new RegExp(`^[\\s\\S]*${opinionHeaderSeparator}`), opinionFooterRegex = new RegExp(`${opinionFooterSeparator}[\\s\\S]*$`);
-var dist$8 = {};
-Object.defineProperty(dist$8, "__esModule", { value: !0 });
-dist$8.bech32m = bech32$1 = dist$8.bech32 = void 0;
-const ALPHABET = "qpzry9x8gf2tvdw0s3jn54khce6mua7l", ALPHABET_MAP = {};
-for (let lr = 0; lr < ALPHABET.length; lr++) {
-  const ar = ALPHABET.charAt(lr);
-  ALPHABET_MAP[ar] = lr;
-}
-function polymodStep(lr) {
-  const ar = lr >> 25;
-  return (lr & 33554431) << 5 ^ -(ar >> 0 & 1) & 996825010 ^ -(ar >> 1 & 1) & 642813549 ^ -(ar >> 2 & 1) & 513874426 ^ -(ar >> 3 & 1) & 1027748829 ^ -(ar >> 4 & 1) & 705979059;
-}
-function prefixChk(lr) {
-  let ar = 1;
-  for (let cr = 0; cr < lr.length; ++cr) {
-    const ur = lr.charCodeAt(cr);
-    if (ur < 33 || ur > 126)
-      return "Invalid prefix (" + lr + ")";
-    ar = polymodStep(ar) ^ ur >> 5;
-  }
-  ar = polymodStep(ar);
-  for (let cr = 0; cr < lr.length; ++cr) {
-    const ur = lr.charCodeAt(cr);
-    ar = polymodStep(ar) ^ ur & 31;
-  }
-  return ar;
-}
-function convert(lr, ar, cr, ur) {
-  let fr = 0, dr = 0;
-  const gr = (1 << cr) - 1, mr = [];
-  for (let vr = 0; vr < lr.length; ++vr)
-    for (fr = fr << ar | lr[vr], dr += ar; dr >= cr; )
-      dr -= cr, mr.push(fr >> dr & gr);
-  if (ur)
-    dr > 0 && mr.push(fr << cr - dr & gr);
-  else {
-    if (dr >= ar)
-      return "Excess padding";
-    if (fr << cr - dr & gr)
-      return "Non-zero padding";
-  }
-  return mr;
-}
-function toWords(lr) {
-  return convert(lr, 8, 5, !0);
-}
-function fromWordsUnsafe(lr) {
-  const ar = convert(lr, 5, 8, !1);
-  if (Array.isArray(ar))
-    return ar;
-}
-function fromWords(lr) {
-  const ar = convert(lr, 5, 8, !1);
-  if (Array.isArray(ar))
-    return ar;
-  throw new Error(ar);
-}
-function getLibraryFromEncoding(lr) {
-  let ar;
-  lr === "bech32" ? ar = 1 : ar = 734539939;
-  function cr(gr, mr, vr) {
-    if (vr = vr || 90, gr.length + 7 + mr.length > vr)
-      throw new TypeError("Exceeds length limit");
-    gr = gr.toLowerCase();
-    let yr = prefixChk(gr);
-    if (typeof yr == "string")
-      throw new Error(yr);
-    let kr = gr + "1";
-    for (let _r = 0; _r < mr.length; ++_r) {
-      const xr = mr[_r];
-      if (xr >> 5)
-        throw new Error("Non 5-bit word");
-      yr = polymodStep(yr) ^ xr, kr += ALPHABET.charAt(xr);
-    }
-    for (let _r = 0; _r < 6; ++_r)
-      yr = polymodStep(yr);
-    yr ^= ar;
-    for (let _r = 0; _r < 6; ++_r) {
-      const xr = yr >> (5 - _r) * 5 & 31;
-      kr += ALPHABET.charAt(xr);
-    }
-    return kr;
-  }
-  function ur(gr, mr) {
-    if (mr = mr || 90, gr.length < 8)
-      return gr + " too short";
-    if (gr.length > mr)
-      return "Exceeds length limit";
-    const vr = gr.toLowerCase(), yr = gr.toUpperCase();
-    if (gr !== vr && gr !== yr)
-      return "Mixed-case string " + gr;
-    gr = vr;
-    const kr = gr.lastIndexOf("1");
-    if (kr === -1)
-      return "No separator character for " + gr;
-    if (kr === 0)
-      return "Missing prefix for " + gr;
-    const _r = gr.slice(0, kr), xr = gr.slice(kr + 1);
-    if (xr.length < 6)
-      return "Data too short";
-    let Sr = prefixChk(_r);
-    if (typeof Sr == "string")
-      return Sr;
-    const Er = [];
-    for (let Cr = 0; Cr < xr.length; ++Cr) {
-      const Tr = xr.charAt(Cr), Ar = ALPHABET_MAP[Tr];
-      if (Ar === void 0)
-        return "Unknown character " + Tr;
-      Sr = polymodStep(Sr) ^ Ar, !(Cr + 6 >= xr.length) && Er.push(Ar);
-    }
-    return Sr !== ar ? "Invalid checksum for " + gr : { prefix: _r, words: Er };
-  }
-  function fr(gr, mr) {
-    const vr = ur(gr, mr);
-    if (typeof vr == "object")
-      return vr;
-  }
-  function dr(gr, mr) {
-    const vr = ur(gr, mr);
-    if (typeof vr == "object")
-      return vr;
-    throw new Error(vr);
-  }
-  return {
-    decodeUnsafe: fr,
-    decode: dr,
-    encode: cr,
-    toWords,
-    fromWordsUnsafe,
-    fromWords
-  };
-}
-var bech32$1 = dist$8.bech32 = getLibraryFromEncoding("bech32");
-dist$8.bech32m = getLibraryFromEncoding("bech32m");
-function hexToBytes$2(lr) {
-  const ar = new Uint8Array(lr.length / 2);
-  for (let cr = 0; cr < ar.length; cr++)
-    ar[cr] = parseInt(lr.substring(cr * 2, cr * 2 + 2), 16);
-  return ar;
-}
-function convertNostrPubKeyToBech32(lr, ar = "npub") {
-  const cr = hexToBytes$2(lr);
-  return bech32$1.encode(ar, bech32$1.toWords(cr));
-}
 async function fetchUserProfile(lr) {
   try {
     if (window) {
@@ -35668,7 +35524,7 @@ function hexToNumber(lr) {
     throw new Error("hex string expected, got " + typeof lr);
   return BigInt(lr === "" ? "0" : `0x${lr}`);
 }
-function hexToBytes$1(lr) {
+function hexToBytes$2(lr) {
   if (typeof lr != "string")
     throw new Error("hex string expected, got " + typeof lr);
   const ar = lr.length;
@@ -35692,19 +35548,19 @@ function bytesToNumberLE(lr) {
   return hexToNumber(bytesToHex$1(Uint8Array.from(lr).reverse()));
 }
 function numberToBytesBE(lr, ar) {
-  return hexToBytes$1(lr.toString(16).padStart(ar * 2, "0"));
+  return hexToBytes$2(lr.toString(16).padStart(ar * 2, "0"));
 }
 function numberToBytesLE(lr, ar) {
   return numberToBytesBE(lr, ar).reverse();
 }
 function numberToVarBytesBE(lr) {
-  return hexToBytes$1(numberToHexUnpadded(lr));
+  return hexToBytes$2(numberToHexUnpadded(lr));
 }
 function ensureBytes(lr, ar, cr) {
   let ur;
   if (typeof ar == "string")
     try {
-      ur = hexToBytes$1(ar);
+      ur = hexToBytes$2(ar);
     } catch (dr) {
       throw new Error(`${lr} must be valid hex string, got "${ar}". Cause: ${dr}`);
     }
@@ -35820,7 +35676,7 @@ const ut = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   createHmacDrbg,
   ensureBytes,
   equalBytes,
-  hexToBytes: hexToBytes$1,
+  hexToBytes: hexToBytes$2,
   hexToNumber,
   numberToBytesBE,
   numberToBytesLE,
@@ -36541,14 +36397,14 @@ function weierstrass(lr) {
     }
     // DER-encoded
     toDERRawBytes() {
-      return hexToBytes$1(this.toDERHex());
+      return hexToBytes$2(this.toDERHex());
     }
     toDERHex() {
       return DER.hexFromSig({ r: this.r, s: this.s });
     }
     // padded bytes of r, then padded bytes of s
     toCompactRawBytes() {
-      return hexToBytes$1(this.toCompactHex());
+      return hexToBytes$2(this.toCompactHex());
     }
     toCompactHex() {
       return Sr(this.r) + Sr(this.s);
@@ -36851,7 +36707,7 @@ function bytesToHex(lr) {
     ar += hexes[lr[cr]];
   return ar;
 }
-function hexToBytes(lr) {
+function hexToBytes$1(lr) {
   if (typeof lr != "string")
     throw new Error("hex string expected, got " + typeof lr);
   const ar = lr.length;
@@ -37392,7 +37248,7 @@ function genBech32(lr) {
   }
   return { encode: gr, decode: mr, decodeToBytes: yr, decodeUnsafe: vr, fromWords: ur, fromWordsUnsafe: dr, toWords: fr };
 }
-const bech32 = genBech32("bech32");
+const bech32$1 = genBech32("bech32");
 genBech32("bech32m");
 const utf8 = {
   encode: (lr) => new TextDecoder().decode(lr),
@@ -37749,7 +37605,7 @@ function integerToUint8Array(lr) {
 }
 function decode$1(lr) {
   var fr, dr, gr, mr, vr, yr, kr, _r;
-  let { prefix: ar, words: cr } = bech32.decode(lr, Bech32MaxSize), ur = new Uint8Array(bech32.fromWords(cr));
+  let { prefix: ar, words: cr } = bech32$1.decode(lr, Bech32MaxSize), ur = new Uint8Array(bech32$1.fromWords(cr));
   switch (ar) {
     case "nprofile": {
       let xr = parseTLV(ur);
@@ -37839,21 +37695,21 @@ function nsecEncode(lr) {
   return encodeBytes("nsec", lr);
 }
 function npubEncode(lr) {
-  return encodeBytes("npub", hexToBytes(lr));
+  return encodeBytes("npub", hexToBytes$1(lr));
 }
 function noteEncode(lr) {
-  return encodeBytes("note", hexToBytes(lr));
+  return encodeBytes("note", hexToBytes$1(lr));
 }
 function encodeBech32(lr, ar) {
-  let cr = bech32.toWords(ar);
-  return bech32.encode(lr, cr, Bech32MaxSize);
+  let cr = bech32$1.toWords(ar);
+  return bech32$1.encode(lr, cr, Bech32MaxSize);
 }
 function encodeBytes(lr, ar) {
   return encodeBech32(lr, ar);
 }
 function nprofileEncode(lr) {
   let ar = encodeTLV({
-    0: [hexToBytes(lr.pubkey)],
+    0: [hexToBytes$1(lr.pubkey)],
     1: (lr.relays || []).map((cr) => utf8Encoder.encode(cr))
   });
   return encodeBech32("nprofile", ar);
@@ -37862,9 +37718,9 @@ function neventEncode(lr) {
   let ar;
   lr.kind !== void 0 && (ar = integerToUint8Array(lr.kind));
   let cr = encodeTLV({
-    0: [hexToBytes(lr.id)],
+    0: [hexToBytes$1(lr.id)],
     1: (lr.relays || []).map((ur) => utf8Encoder.encode(ur)),
-    2: lr.author ? [hexToBytes(lr.author)] : [],
+    2: lr.author ? [hexToBytes$1(lr.author)] : [],
     3: ar ? [new Uint8Array(ar)] : []
   });
   return encodeBech32("nevent", cr);
@@ -37875,7 +37731,7 @@ function naddrEncode(lr) {
   let cr = encodeTLV({
     0: [utf8Encoder.encode(lr.identifier)],
     1: (lr.relays || []).map((ur) => utf8Encoder.encode(ur)),
-    2: [hexToBytes(lr.pubkey)],
+    2: [hexToBytes$1(lr.pubkey)],
     3: [new Uint8Array(ar)]
   });
   return encodeBech32("naddr", cr);
@@ -38462,7 +38318,7 @@ async function getZapEndpoint(lr) {
   try {
     let ar = "", { lud06: cr, lud16: ur } = JSON.parse(lr.content);
     if (cr) {
-      let { words: gr } = bech32.decode(cr, 1e3), mr = bech32.fromWords(gr);
+      let { words: gr } = bech32$1.decode(cr, 1e3), mr = bech32$1.fromWords(gr);
       ar = utf8Decoder.decode(mr);
     } else if (ur) {
       let [gr, mr] = ur.split("@");
@@ -38616,6 +38472,150 @@ async function validateEvent2(lr, ar, cr, ur) {
   if (ur && typeof ur == "object" && Object.keys(ur).length > 0 && !validateEventPayloadTag(lr, ur))
     throw new Error("Invalid nostr event, payload tag does not match request body hash");
   return !0;
+}
+var dist$8 = {};
+Object.defineProperty(dist$8, "__esModule", { value: !0 });
+dist$8.bech32m = bech32 = dist$8.bech32 = void 0;
+const ALPHABET = "qpzry9x8gf2tvdw0s3jn54khce6mua7l", ALPHABET_MAP = {};
+for (let lr = 0; lr < ALPHABET.length; lr++) {
+  const ar = ALPHABET.charAt(lr);
+  ALPHABET_MAP[ar] = lr;
+}
+function polymodStep(lr) {
+  const ar = lr >> 25;
+  return (lr & 33554431) << 5 ^ -(ar >> 0 & 1) & 996825010 ^ -(ar >> 1 & 1) & 642813549 ^ -(ar >> 2 & 1) & 513874426 ^ -(ar >> 3 & 1) & 1027748829 ^ -(ar >> 4 & 1) & 705979059;
+}
+function prefixChk(lr) {
+  let ar = 1;
+  for (let cr = 0; cr < lr.length; ++cr) {
+    const ur = lr.charCodeAt(cr);
+    if (ur < 33 || ur > 126)
+      return "Invalid prefix (" + lr + ")";
+    ar = polymodStep(ar) ^ ur >> 5;
+  }
+  ar = polymodStep(ar);
+  for (let cr = 0; cr < lr.length; ++cr) {
+    const ur = lr.charCodeAt(cr);
+    ar = polymodStep(ar) ^ ur & 31;
+  }
+  return ar;
+}
+function convert(lr, ar, cr, ur) {
+  let fr = 0, dr = 0;
+  const gr = (1 << cr) - 1, mr = [];
+  for (let vr = 0; vr < lr.length; ++vr)
+    for (fr = fr << ar | lr[vr], dr += ar; dr >= cr; )
+      dr -= cr, mr.push(fr >> dr & gr);
+  if (ur)
+    dr > 0 && mr.push(fr << cr - dr & gr);
+  else {
+    if (dr >= ar)
+      return "Excess padding";
+    if (fr << cr - dr & gr)
+      return "Non-zero padding";
+  }
+  return mr;
+}
+function toWords(lr) {
+  return convert(lr, 8, 5, !0);
+}
+function fromWordsUnsafe(lr) {
+  const ar = convert(lr, 5, 8, !1);
+  if (Array.isArray(ar))
+    return ar;
+}
+function fromWords(lr) {
+  const ar = convert(lr, 5, 8, !1);
+  if (Array.isArray(ar))
+    return ar;
+  throw new Error(ar);
+}
+function getLibraryFromEncoding(lr) {
+  let ar;
+  lr === "bech32" ? ar = 1 : ar = 734539939;
+  function cr(gr, mr, vr) {
+    if (vr = vr || 90, gr.length + 7 + mr.length > vr)
+      throw new TypeError("Exceeds length limit");
+    gr = gr.toLowerCase();
+    let yr = prefixChk(gr);
+    if (typeof yr == "string")
+      throw new Error(yr);
+    let kr = gr + "1";
+    for (let _r = 0; _r < mr.length; ++_r) {
+      const xr = mr[_r];
+      if (xr >> 5)
+        throw new Error("Non 5-bit word");
+      yr = polymodStep(yr) ^ xr, kr += ALPHABET.charAt(xr);
+    }
+    for (let _r = 0; _r < 6; ++_r)
+      yr = polymodStep(yr);
+    yr ^= ar;
+    for (let _r = 0; _r < 6; ++_r) {
+      const xr = yr >> (5 - _r) * 5 & 31;
+      kr += ALPHABET.charAt(xr);
+    }
+    return kr;
+  }
+  function ur(gr, mr) {
+    if (mr = mr || 90, gr.length < 8)
+      return gr + " too short";
+    if (gr.length > mr)
+      return "Exceeds length limit";
+    const vr = gr.toLowerCase(), yr = gr.toUpperCase();
+    if (gr !== vr && gr !== yr)
+      return "Mixed-case string " + gr;
+    gr = vr;
+    const kr = gr.lastIndexOf("1");
+    if (kr === -1)
+      return "No separator character for " + gr;
+    if (kr === 0)
+      return "Missing prefix for " + gr;
+    const _r = gr.slice(0, kr), xr = gr.slice(kr + 1);
+    if (xr.length < 6)
+      return "Data too short";
+    let Sr = prefixChk(_r);
+    if (typeof Sr == "string")
+      return Sr;
+    const Er = [];
+    for (let Cr = 0; Cr < xr.length; ++Cr) {
+      const Tr = xr.charAt(Cr), Ar = ALPHABET_MAP[Tr];
+      if (Ar === void 0)
+        return "Unknown character " + Tr;
+      Sr = polymodStep(Sr) ^ Ar, !(Cr + 6 >= xr.length) && Er.push(Ar);
+    }
+    return Sr !== ar ? "Invalid checksum for " + gr : { prefix: _r, words: Er };
+  }
+  function fr(gr, mr) {
+    const vr = ur(gr, mr);
+    if (typeof vr == "object")
+      return vr;
+  }
+  function dr(gr, mr) {
+    const vr = ur(gr, mr);
+    if (typeof vr == "object")
+      return vr;
+    throw new Error(vr);
+  }
+  return {
+    decodeUnsafe: fr,
+    decode: dr,
+    encode: cr,
+    toWords,
+    fromWordsUnsafe,
+    fromWords
+  };
+}
+var bech32 = dist$8.bech32 = getLibraryFromEncoding("bech32");
+dist$8.bech32m = getLibraryFromEncoding("bech32m");
+function hexToBytes(lr) {
+  const ar = new Uint8Array(lr.length / 2);
+  for (let cr = 0; cr < ar.length; cr++)
+    ar[cr] = parseInt(lr.substring(cr * 2, cr * 2 + 2), 16);
+  return ar;
+}
+function convertNostrPubKeyToBech32(lr, ar = "npub") {
+  const cr = hexToBytes(lr);
+  return bech32.encode(ar, bech32.toWords(cr));
 }
 function add_css$a(lr) {
   append_styles(lr, "svelte-1xutw13", 'h3.svelte-1xutw13.svelte-1xutw13,h2.svelte-1xutw13.svelte-1xutw13,p.svelte-1xutw13.svelte-1xutw13,input.svelte-1xutw13.svelte-1xutw13,textarea.svelte-1xutw13.svelte-1xutw13,button.svelte-1xutw13.svelte-1xutw13{font-family:sans-serif}h3.svelte-1xutw13.svelte-1xutw13{font-size:1.5em;color:#767676;margin-top:0}form.svelte-1xutw13.svelte-1xutw13{padding-right:1.5rem}h2.svelte-1xutw13.svelte-1xutw13,p.svelte-1xutw13.svelte-1xutw13{color:#767676}input.svelte-1xutw13.svelte-1xutw13,textarea.svelte-1xutw13.svelte-1xutw13{color:#333;background-color:#f8f8f8;margin-bottom:1em;width:100%;display:block;border:1px solid #888;padding:0.5em;font-size:1.1em;border-radius:0.3rem}input[type="text"].svelte-1xutw13.svelte-1xutw13{height:50px}textarea.svelte-1xutw13.svelte-1xutw13{height:120px}button.svelte-1xutw13.svelte-1xutw13{background-color:#4DA84D;color:white;border:none;padding:12px 18px;cursor:pointer;font-size:1.1em;border-radius:5px}.copy-key-button.svelte-1xutw13.svelte-1xutw13,.continue-button.svelte-1xutw13.svelte-1xutw13{margin-top:0.5em}.continue-button.svelte-1xutw13.svelte-1xutw13{background-color:#6c757d;border:2px solid #565e66}.key-container.svelte-1xutw13.svelte-1xutw13{background-color:#eaeaea;padding:1em;border-radius:4px;border:1px solid #ccc}.key-container.svelte-1xutw13 input.svelte-1xutw13{background-color:#fff;border:1px solid #888;border-radius:4px;padding:1em;width:100%;box-sizing:border-box;font-size:1.1em}');
@@ -38790,7 +38790,7 @@ function instance$b(lr, ar, cr) {
   component_subscribe(lr, ndkUser, (Br) => cr(16, ur = Br)), component_subscribe(lr, ndkStore, (Br) => cr(17, fr = Br));
   let dr = "", gr = "", mr = !1, vr = "", yr = "", kr = "", _r, { profiles: xr = {} } = ar, { showNewOpinion: Sr } = ar;
   onMount(() => {
-    _r = NDKPrivateKeySigner.generate(), gr = _r.privateKey, cr(0, dr = nip19_exports.nsecEncode(hexToBytes$2(gr)));
+    _r = NDKPrivateKeySigner.generate(), gr = _r.privateKey, cr(0, dr = nip19_exports.nsecEncode(hexToBytes(gr)));
   });
   const Er = async () => {
     if (!dr)
@@ -39002,6 +39002,10 @@ function instance$a(lr, ar, cr) {
     let Ar;
     switch (Tr) {
       case "pk":
+        if (!gr.startsWith("nsec")) {
+          alert("Please use your nsec to login");
+          return;
+        }
         Ar = await privkeyLogin(nip19_exports.decode(gr).data);
         break;
       case "nip07":
@@ -39009,11 +39013,11 @@ function instance$a(lr, ar, cr) {
         break;
     }
     if (!Ar) {
-      console.log("Something went wrong while login!!");
+      console.error("Something went wrong while login!!");
       return;
     }
     if (!ur) {
-      console.log("Can't proceed. $ndkUser is null");
+      console.error("Can't proceed. $ndkUser is null");
       return;
     }
     let Ir = await fetchUserProfile(ur.pubkey);
@@ -65194,13 +65198,12 @@ function instance$9(lr, ar, cr) {
     return Ir.replace(Mr, (Hr) => Hr.startsWith("![](") ? Hr : `![](${Hr})`);
   }, Er = async (Ir) => {
     var zr, Gr, Xr, Jr, li, Qr;
-    console.log(Ir);
     const Mr = dr.pk;
     Mr ? !fr.signer && await privkeyLogin(Mr) : !fr.signer && await NDKlogin();
     const Br = await xr.getUploader(Ir).upload({ "V-Strip-Metadata": "true" });
     if (Br.ok) {
       let ei = Ir.name.match(FILE_EXT_REGEX$1);
-      console.log(ei), ((Gr = (zr = Br.file) == null ? void 0 : zr.metadata) == null ? void 0 : Gr.mimeType) === "image/webp" && (ei = ["", "webp"]);
+      ((Gr = (zr = Br.file) == null ? void 0 : zr.metadata) == null ? void 0 : Gr.mimeType) === "image/webp" && (ei = ["", "webp"]);
       const ui = (Qr = (Jr = (Xr = Br.file) == null ? void 0 : Xr.metadata) == null ? void 0 : Jr.url) != null ? Qr : `${_r}/d/${(li = Br.file) == null ? void 0 : li.id}${ei ? `.${ei[1]}` : ""}`;
       return cr(2, mr = [...mr, { files: Ir, url: ui }]), ui;
     }
@@ -67010,7 +67013,7 @@ function instance$7(lr, ar, cr) {
     var Tr, Ar, Ir, Mr, Hr, Br;
     const Cr = Er.target;
     if (!Cr.files) {
-      console.log("Files array is empty");
+      console.info("Files array is empty");
       return;
     }
     for (gr of Cr.files) {
@@ -75842,7 +75845,7 @@ function instance$2(lr, ar, cr) {
   })();
   const Mi = async () => {
     if (!fr) {
-      console.log("Can't submit reply. $ndkUser is undefined");
+      console.error("Can't submit reply. $ndkUser is undefined");
       return;
     }
     const Yi = dr.pk;
@@ -76197,7 +76200,7 @@ async function initializeApprovedAuthors() {
   }), ar.push(...gr), lr.trustedAuthors.push(...ar.map((mr) => nip19_exports.npubEncode(mr))), ar;
 }
 function add_css(lr) {
-  append_styles(lr, "svelte-tyus1a", `:host{--border-color:#dedede;--content-text-color:#606060;--pubkey-text-color:#7c2323;--date-text-color:#808080;--description-text-color:#808080;--filter-active-color:#000000;--filter-inactive-color:#e2e1e1;--button-text-color:#ffffff;--button-background-color:#4da84d;--sentiment-button-background-color:#4da84d;font-family:Arial, sans-serif}.svelte-tyus1a.svelte-tyus1a::-webkit-scrollbar{display:none}.svelte-tyus1a.svelte-tyus1a{-ms-overflow-style:none;scrollbar-width:none}.expertOpinionsHeadline.svelte-tyus1a.svelte-tyus1a{font-family:'Barlow'}.top-nav.svelte-tyus1a.svelte-tyus1a{display:flex;justify-content:space-between;border-top:#dedede 1px solid;border-bottom:#dedede 1px solid;padding:20px 0}.nav-count.svelte-tyus1a.svelte-tyus1a{display:flex;align-items:center}.count-container.svelte-tyus1a.svelte-tyus1a{display:flex;flex-direction:row}.description.svelte-tyus1a.svelte-tyus1a{margin:10px 0}.blank-btn.svelte-tyus1a.svelte-tyus1a{background-color:transparent;border:none;cursor:pointer}.filter-container.svelte-tyus1a.svelte-tyus1a{display:flex;flex-direction:row}.filter-container.svelte-tyus1a>.filter-active.svelte-tyus1a{color:#4da84d}.filter-btn.svelte-tyus1a.svelte-tyus1a{color:#808080}.primary-btn.svelte-tyus1a.svelte-tyus1a{color:#ffffff;background-color:#4da84d;padding:7px 20px;border-radius:3px;cursor:pointer;border:none;height:2.5rem}#review-input-details-container.svelte-tyus1a.svelte-tyus1a{display:flex;flex-direction:column;gap:0.5rem;font-family:Arial, sans-serif}.btn-standard.svelte-tyus1a.svelte-tyus1a{border-radius:3px;width:7rem;height:3rem;cursor:pointer;border:none;padding-right:1.5rem;display:flex;justify-content:center;align-items:center;color:#808080}.dark.svelte-tyus1a.svelte-tyus1a{background-color:#434343;color:white}.btn-standard.svelte-tyus1a.svelte-tyus1a:hover{background-color:#4da84d}.btn-standard.svelte-tyus1a.svelte-tyus1a:hover{color:#ffffff}#sentiment-box.svelte-tyus1a.svelte-tyus1a{display:flex;flex-direction:column;gap:0.3rem}.selected-state.svelte-tyus1a.svelte-tyus1a{background-color:#4da84d;color:#ffffff}.placeholder.svelte-tyus1a.svelte-tyus1a{display:flex;font-family:Arial, sans-serif;align-items:center;gap:0.5rem;margin-top:1rem;margin-bottom:1rem}#imageContainer.svelte-tyus1a.svelte-tyus1a{display:block;border-radius:50%;width:50px;height:50px;object-fit:cover}#filePreview.svelte-tyus1a.svelte-tyus1a{display:flex;gap:1rem;flex-direction:row;flex-wrap:wrap;margin:1rem 0}.unfilterWarning.svelte-tyus1a.svelte-tyus1a{padding:7px;font-family:"Barlow", Arial, Helvetica, sans-serif;color:#808080;font-size:1em}.unfilterWarning.svelte-tyus1a button.svelte-tyus1a{background-color:transparent;border:none;cursor:pointer;margin:none;color:#808080;font-family:"Barlow", Arial, Helvetica, sans-serif;font-size:1em;text-decoration:underline;text-decoration-thickness:0.5px}.opinion-container.svelte-tyus1a.svelte-tyus1a{max-height:200rem;overflow-y:scroll;margin:1rem 0}`);
+  append_styles(lr, "svelte-ieospv", `:host{--border-color:#dedede;--content-text-color:#606060;--pubkey-text-color:#7c2323;--date-text-color:#808080;--description-text-color:#808080;--filter-active-color:#000000;--filter-inactive-color:#e2e1e1;--button-text-color:#ffffff;--button-background-color:#4da84d;--sentiment-button-background-color:#4da84d;font-family:Arial, sans-serif}.svelte-ieospv.svelte-ieospv::-webkit-scrollbar{display:none}.svelte-ieospv.svelte-ieospv{-ms-overflow-style:none;scrollbar-width:none}.svelte-ieospv.svelte-ieospv::-webkit-scrollbar{display:none}.svelte-ieospv.svelte-ieospv{-ms-overflow-style:none;scrollbar-width:none}.expertOpinionsHeadline.svelte-ieospv.svelte-ieospv{font-family:'Barlow'}.top-nav.svelte-ieospv.svelte-ieospv{display:flex;justify-content:space-between;border-top:#dedede 1px solid;border-bottom:#dedede 1px solid;padding:20px 0}.nav-count.svelte-ieospv.svelte-ieospv{display:flex;align-items:center}.count-container.svelte-ieospv.svelte-ieospv{display:flex;flex-direction:row}.description.svelte-ieospv.svelte-ieospv{margin:10px 0}.blank-btn.svelte-ieospv.svelte-ieospv{background-color:transparent;border:none;cursor:pointer}.filter-container.svelte-ieospv.svelte-ieospv{display:flex;flex-direction:row}.filter-container.svelte-ieospv>.filter-active.svelte-ieospv{color:#4da84d}.filter-btn.svelte-ieospv.svelte-ieospv{color:#808080}.primary-btn.svelte-ieospv.svelte-ieospv{color:#ffffff;background-color:#4da84d;padding:7px 20px;border-radius:3px;cursor:pointer;border:none;height:2.5rem}#review-input-details-container.svelte-ieospv.svelte-ieospv{display:flex;flex-direction:column;gap:0.5rem;font-family:Arial, sans-serif}.btn-standard.svelte-ieospv.svelte-ieospv{border-radius:3px;width:7rem;height:3rem;cursor:pointer;border:none;padding-right:1.5rem;display:flex;justify-content:center;align-items:center;color:#808080}.dark.svelte-ieospv.svelte-ieospv{background-color:#434343;color:white}.btn-standard.svelte-ieospv.svelte-ieospv:hover{background-color:#4da84d}.btn-standard.svelte-ieospv.svelte-ieospv:hover{color:#ffffff}#sentiment-box.svelte-ieospv.svelte-ieospv{display:flex;flex-direction:column;gap:0.3rem}.selected-state.svelte-ieospv.svelte-ieospv{background-color:#4da84d;color:#ffffff}.placeholder.svelte-ieospv.svelte-ieospv{display:flex;font-family:Arial, sans-serif;align-items:center;gap:0.5rem;margin-top:1rem;margin-bottom:1rem}#imageContainer.svelte-ieospv.svelte-ieospv{display:block;border-radius:50%;width:50px;height:50px;object-fit:cover}#filePreview.svelte-ieospv.svelte-ieospv{display:flex;gap:1rem;flex-direction:row;flex-wrap:wrap;margin:1rem 0}.unfilterWarning.svelte-ieospv.svelte-ieospv{padding:7px;font-family:"Barlow", Arial, Helvetica, sans-serif;color:#808080;font-size:1em}.unfilterWarning.svelte-ieospv button.svelte-ieospv{background-color:transparent;border:none;cursor:pointer;margin:none;color:#808080;font-family:"Barlow", Arial, Helvetica, sans-serif;font-size:1em;text-decoration:underline;text-decoration-thickness:0.5px}.opinion-container.svelte-ieospv.svelte-ieospv{max-height:200rem;overflow-y:scroll;margin:1rem 0}`);
 }
 function get_each_context(lr, ar, cr) {
   const ur = lr.slice();
@@ -76265,17 +76268,17 @@ function create_else_block(lr) {
       ar = element("h1"), ur = text$3(cr), fr = space(), dr = element("p"), mr = text$3(gr), vr = space(), ba && ba.c(), yr = space(), kr = element("nav"), _r = element("div"), xr = element("span"), create_component(Sr.$$.fragment), Er = space(), Tr = text$3(Cr), Ar = text$3(" positive"), Ir = space(), Mr = element("span"), create_component(Hr.$$.fragment), Br = space(), Gr = text$3(zr), Xr = text$3(" neutral"), Jr = space(), li = element("span"), create_component(Qr.$$.fragment), ei = space(), Ai = text$3(ui), fi = text$3(" negative"), gi = space(), Ci = element("div"), mi = element("button"), mi.textContent = "Approved", vi = space(), Ri = element("button"), Ri.textContent = "All opinions", Ti = space(), qi = element("div");
       for (let Fi = 0; Fi < ki.length; Fi += 1)
         ki[Fi].c();
-      Ni = space(), Mi = element("button"), Ei = text$3(bi), Si = text$3(" your opinion"), Vi = space(), Ma && Ma.c(), Di = empty$1(), attr(ar, "class", "expertOpinionsHeadline svelte-tyus1a"), attr(dr, "class", "description svelte-tyus1a"), attr(xr, "class", "nav-count svelte-tyus1a"), attr(Mr, "class", "nav-count svelte-tyus1a"), attr(li, "class", "nav-count svelte-tyus1a"), attr(_r, "class", "count-container svelte-tyus1a"), attr(mi, "class", "blank-btn filter-btn svelte-tyus1a"), attr(mi, "aria-label", "filter by approved"), toggle_class(
+      Ni = space(), Mi = element("button"), Ei = text$3(bi), Si = text$3(" your opinion"), Vi = space(), Ma && Ma.c(), Di = empty$1(), attr(ar, "class", "expertOpinionsHeadline svelte-ieospv"), attr(dr, "class", "description svelte-ieospv"), attr(xr, "class", "nav-count svelte-ieospv"), attr(Mr, "class", "nav-count svelte-ieospv"), attr(li, "class", "nav-count svelte-ieospv"), attr(_r, "class", "count-container svelte-ieospv"), attr(mi, "class", "blank-btn filter-btn svelte-ieospv"), attr(mi, "aria-label", "filter by approved"), toggle_class(
         mi,
         "filter-active",
         /*filter*/
         lr[12] === "approved"
-      ), attr(Ri, "class", "blank-btn filter-btn svelte-tyus1a"), attr(Ri, "aria-label", "filter by all"), toggle_class(
+      ), attr(Ri, "class", "blank-btn filter-btn svelte-ieospv"), attr(Ri, "aria-label", "filter by all"), toggle_class(
         Ri,
         "filter-active",
         /*filter*/
         lr[12] === "all"
-      ), attr(Ci, "class", "filter-container svelte-tyus1a"), attr(kr, "class", "top-nav svelte-tyus1a"), attr(qi, "class", "opinion-container svelte-tyus1a"), attr(Mi, "class", "primary-btn svelte-tyus1a");
+      ), attr(Ci, "class", "filter-container svelte-ieospv"), attr(kr, "class", "top-nav svelte-ieospv"), attr(qi, "class", "opinion-container svelte-ieospv"), attr(Mi, "class", "primary-btn svelte-ieospv");
     },
     m(Fi, na) {
       insert(Fi, ar, na), append(ar, ur), insert(Fi, fr, na), insert(Fi, dr, na), append(dr, mr), insert(Fi, vr, na), ba && ba.m(Fi, na), insert(Fi, yr, na), insert(Fi, kr, na), append(kr, _r), append(_r, xr), mount_component(Sr, xr, null), append(xr, Er), append(xr, Tr), append(xr, Ar), append(_r, Ir), append(_r, Mr), mount_component(Hr, Mr, null), append(Mr, Br), append(Mr, Gr), append(Mr, Xr), append(_r, Jr), append(_r, li), mount_component(Qr, li, null), append(li, ei), append(li, Ai), append(li, fi), append(kr, gi), append(kr, Ci), append(Ci, mi), append(Ci, vi), append(Ci, Ri), insert(Fi, Ti, na), insert(Fi, qi, na);
@@ -76384,7 +76387,7 @@ function create_if_block_1(lr) {
   let ar;
   return {
     c() {
-      ar = element("p"), ar.textContent = "loading...", set_style(ar, "display", "flex"), set_style(ar, "justify-content", "center"), set_style(ar, "align-items", "center"), set_style(ar, "margin", "2rem 0"), attr(ar, "class", "svelte-tyus1a");
+      ar = element("p"), ar.textContent = "loading...", set_style(ar, "display", "flex"), set_style(ar, "justify-content", "center"), set_style(ar, "align-items", "center"), set_style(ar, "margin", "2rem 0"), attr(ar, "class", "svelte-ieospv");
     },
     m(cr, ur) {
       insert(cr, ar, ur);
@@ -76408,12 +76411,12 @@ function create_if_block_7(lr) {
         /*allEventLength*/
         lr[17]
       ), dr = text$3(" opinion"), mr = text$3(gr), vr = text$3(`.
-			`), yr = text$3("⚠️ Viewer discretion advised."), attr(cr, "aria-label", "filter by all"), attr(cr, "class", "svelte-tyus1a"), toggle_class(
+			`), yr = text$3("⚠️ Viewer discretion advised."), attr(cr, "aria-label", "filter by all"), attr(cr, "class", "svelte-ieospv"), toggle_class(
         cr,
         "filter-active",
         /*filter*/
         lr[12] === "approved"
-      ), attr(ar, "class", "unfilterWarning svelte-tyus1a");
+      ), attr(ar, "class", "unfilterWarning svelte-ieospv");
     },
     m(xr, Sr) {
       insert(xr, ar, Sr), append(ar, cr), append(cr, ur), append(cr, fr), append(cr, dr), append(cr, mr), append(cr, vr), append(ar, yr), kr || (_r = listen(
@@ -76607,7 +76610,7 @@ function create_if_block_2(lr) {
   }
   return kr = Tr(lr), _r = Cr[kr] = Er[kr](lr), {
     c() {
-      ar = element("div"), cr = element("h3"), fr = text$3(ur), dr = text$3(" your opinion"), gr = space(), mr = element("div"), yr = space(), _r.c(), attr(cr, "class", "svelte-tyus1a"), attr(mr, "class", "description svelte-tyus1a"), attr(ar, "class", "add-opinion-init svelte-tyus1a");
+      ar = element("div"), cr = element("h3"), fr = text$3(ur), dr = text$3(" your opinion"), gr = space(), mr = element("div"), yr = space(), _r.c(), attr(cr, "class", "svelte-ieospv"), attr(mr, "class", "description svelte-ieospv"), attr(ar, "class", "add-opinion-init svelte-ieospv");
     },
     m(Ar, Ir) {
       insert(Ar, ar, Ir), append(ar, cr), append(cr, fr), append(cr, dr), append(ar, gr), append(ar, mr), mr.innerHTML = vr, append(ar, yr), Cr[kr].m(ar, null), Sr = !0;
@@ -76652,7 +76655,7 @@ function create_else_block_1(lr) {
   }
   return ~(gr = Er(lr)) && (mr = Sr[gr] = xr[gr](lr)), {
     c() {
-      ar = element("div"), cr = element("button"), cr.textContent = "Log in", ur = space(), fr = element("button"), fr.textContent = "Register", dr = space(), mr && mr.c(), attr(cr, "class", "primary-btn svelte-tyus1a"), attr(fr, "class", "primary-btn svelte-tyus1a"), attr(ar, "class", "svelte-tyus1a");
+      ar = element("div"), cr = element("button"), cr.textContent = "Log in", ur = space(), fr = element("button"), fr.textContent = "Register", dr = space(), mr && mr.c(), attr(cr, "class", "primary-btn svelte-ieospv"), attr(fr, "class", "primary-btn svelte-ieospv"), attr(ar, "class", "svelte-ieospv");
     },
     m(Cr, Tr) {
       insert(Cr, ar, Tr), append(ar, cr), append(ar, ur), append(ar, fr), append(ar, dr), ~gr && Sr[gr].m(ar, null), yr = !0, kr || (_r = [
@@ -76756,11 +76759,11 @@ function create_if_block_3(lr) {
 					key.`, _r = space(), xr = element("div"), Sr = element("img"), Cr = space(), Tr = element("span"), Ir = text$3(Ar), Mr = space(), Hr = element("form"), create_component(Br.$$.fragment), Xr = space(), Jr = element("div"), li = element("label"), li.textContent = "Choose your overall sentiment", Qr = space(), ei = element("div"), ui = element("button"), create_component(Ai.$$.fragment), fi = space(), gi = element("span"), gi.textContent = "Positive", Ci = space(), mi = element("button"), create_component(vi.$$.fragment), Ri = space(), di = element("span"), di.textContent = "Neutral", Ti = space(), qi = element("button"), create_component(ki.$$.fragment), Ji = space(), Bi = element("span"), Bi.textContent = "Negative", Ni = space(), Mi = element("div");
         for (let Ga = 0; Ga < bi.length; Ga += 1)
           bi[Ga].c();
-        Si = space(), Vi = element("div"), Di = element("button"), sa = text$3("Post"), fa = space(), create_component(ba.$$.fragment), attr(ar, "class", "svelte-tyus1a"), attr(gr, "class", "primary-btn svelte-tyus1a"), attr(vr, "class", "svelte-tyus1a"), attr(kr, "class", "description svelte-tyus1a"), set_style(kr, "margin-top", "-1rem"), attr(Sr, "id", "imageContainer"), src_url_equal(Sr.src, Er = /*profiles*/
+        Si = space(), Vi = element("div"), Di = element("button"), sa = text$3("Post"), fa = space(), create_component(ba.$$.fragment), attr(ar, "class", "svelte-ieospv"), attr(gr, "class", "primary-btn svelte-ieospv"), attr(vr, "class", "svelte-ieospv"), attr(kr, "class", "description svelte-ieospv"), set_style(kr, "margin-top", "-1rem"), attr(Sr, "id", "imageContainer"), src_url_equal(Sr.src, Er = /*profiles*/
         (ja = (oa = lr[3][
           /*$ndkUser*/
           (aa = lr[6]) == null ? void 0 : aa.pubkey
-        ]) == null ? void 0 : oa.content) == null ? void 0 : ja.image) || attr(Sr, "src", Er), attr(Sr, "alt", "Miranda"), attr(Sr, "class", "svelte-tyus1a"), set_style(Tr, "font-size", "24px"), attr(Tr, "class", "svelte-tyus1a"), attr(xr, "class", "placeholder svelte-tyus1a"), attr(li, "for", "sentiment"), set_style(li, "font-weight", "600"), attr(li, "class", "svelte-tyus1a"), attr(gi, "class", "svelte-tyus1a"), attr(ui, "class", "btn-standard svelte-tyus1a"), toggle_class(
+        ]) == null ? void 0 : oa.content) == null ? void 0 : ja.image) || attr(Sr, "src", Er), attr(Sr, "alt", "Miranda"), attr(Sr, "class", "svelte-ieospv"), set_style(Tr, "font-size", "24px"), attr(Tr, "class", "svelte-ieospv"), attr(xr, "class", "placeholder svelte-ieospv"), attr(li, "for", "sentiment"), set_style(li, "font-weight", "600"), attr(li, "class", "svelte-ieospv"), attr(gi, "class", "svelte-ieospv"), attr(ui, "class", "btn-standard svelte-ieospv"), toggle_class(
           ui,
           "dark",
           /*$theme*/
@@ -76770,7 +76773,7 @@ function create_if_block_3(lr) {
           "selected-state",
           /*newOpinion*/
           lr[8].sentiment === "1"
-        ), attr(di, "class", "svelte-tyus1a"), attr(mi, "class", "btn-standard svelte-tyus1a"), toggle_class(
+        ), attr(di, "class", "svelte-ieospv"), attr(mi, "class", "btn-standard svelte-ieospv"), toggle_class(
           mi,
           "dark",
           /*$theme*/
@@ -76780,7 +76783,7 @@ function create_if_block_3(lr) {
           "selected-state",
           /*newOpinion*/
           lr[8].sentiment === "0"
-        ), attr(Bi, "class", "svelte-tyus1a"), attr(qi, "class", "btn-standard svelte-tyus1a"), toggle_class(
+        ), attr(Bi, "class", "svelte-ieospv"), attr(qi, "class", "btn-standard svelte-ieospv"), toggle_class(
           qi,
           "dark",
           /*$theme*/
@@ -76790,8 +76793,8 @@ function create_if_block_3(lr) {
           "selected-state",
           /*newOpinion*/
           lr[8].sentiment === "-1"
-        ), set_style(ei, "display", "flex"), set_style(ei, "gap", "0.4rem"), attr(ei, "class", "svelte-tyus1a"), attr(Jr, "id", "sentiment-box"), attr(Jr, "class", "svelte-tyus1a"), attr(Mi, "id", "filePreview"), attr(Mi, "class", "svelte-tyus1a"), attr(Di, "class", "primary-btn svelte-tyus1a"), set_style(Di, "width", "5rem"), attr(Di, "type", "submit"), Di.disabled = ra = !/*$ndkUser*/
-        lr[6], set_style(Vi, "display", "flex"), set_style(Vi, "align-contents", "center"), attr(Vi, "class", "svelte-tyus1a"), attr(Hr, "id", "review-input-details-container"), attr(Hr, "class", "svelte-tyus1a");
+        ), set_style(ei, "display", "flex"), set_style(ei, "gap", "0.4rem"), attr(ei, "class", "svelte-ieospv"), attr(Jr, "id", "sentiment-box"), attr(Jr, "class", "svelte-ieospv"), attr(Mi, "id", "filePreview"), attr(Mi, "class", "svelte-ieospv"), attr(Di, "class", "primary-btn svelte-ieospv"), set_style(Di, "width", "5rem"), attr(Di, "type", "submit"), Di.disabled = ra = !/*$ndkUser*/
+        lr[6], set_style(Vi, "display", "flex"), set_style(Vi, "align-contents", "center"), attr(Vi, "class", "svelte-ieospv"), attr(Hr, "id", "review-input-details-container"), attr(Hr, "class", "svelte-ieospv");
       },
       m(aa, oa) {
         insert(aa, ar, oa), append(ar, cr), append(ar, fr), insert(aa, dr, oa), insert(aa, gr, oa), insert(aa, mr, oa), insert(aa, vr, oa), insert(aa, yr, oa), insert(aa, kr, oa), insert(aa, _r, oa), insert(aa, xr, oa), append(xr, Sr), append(xr, Cr), append(xr, Tr), append(Tr, Ir), insert(aa, Mr, oa), insert(aa, Hr, oa), mount_component(Br, Hr, null), append(Hr, Xr), append(Hr, Jr), append(Jr, li), append(Jr, Qr), append(Jr, ei), append(ei, ui), mount_component(Ai, ui, null), append(ui, fi), append(ui, gi), append(ei, Ci), append(ei, mi), mount_component(vi, mi, null), append(mi, Ri), append(mi, di), append(ei, Ti), append(ei, qi), mount_component(ki, qi, null), append(qi, Ji), append(qi, Bi), append(Hr, Ni), append(Hr, Mi);
@@ -77166,7 +77169,7 @@ function instance(lr, ar, cr) {
   const ki = async (Hi) => {
     var Ga;
     const da = dr.pk;
-    if (console.log("Published_at "), console.log(Hi), da ? !ur.signer && await privkeyLogin(da) : !ur.signer && await NDKlogin(), !Gr || !ur.signer)
+    if (da ? !ur.signer && await privkeyLogin(da) : !ur.signer && await NDKlogin(), !Gr || !ur.signer)
       return;
     cr(
       8,
@@ -77213,7 +77216,7 @@ function instance(lr, ar, cr) {
   };
   async function Bi(Hi) {
     if (!fr) {
-      console.log("Can't find user profile. $ndkUser is undefined");
+      console.info("Can't find user profile. $ndkUser is undefined");
       return;
     }
     let da = await fetchUserProfile(Hi);
@@ -77238,12 +77241,12 @@ function instance(lr, ar, cr) {
         });
       }
     } catch (Hi) {
-      console.log(Hi);
+      console.error(Hi);
     }
   })();
   let Mi = !1;
   const bi = () => {
-    console.log(DEFAULT_RELAY_URLS), console.log(Tr), Tr = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), console.log(Tr), cr(16, gi = !1), logout(), cr(9, Gr = "");
+    Tr = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), cr(16, gi = !1), logout(), cr(9, Gr = "");
   };
   localStorage.getItem("userHasAgreed") === null && localStorage.setItem("userHasAgreed", "false");
   function Ei() {
