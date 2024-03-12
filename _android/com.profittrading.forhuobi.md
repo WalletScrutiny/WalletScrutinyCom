@@ -4,7 +4,7 @@ title: ProfitTradingApp for Huobi
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.profittrading.forhuobi
 appCountry: 
 released: 2018-11-21

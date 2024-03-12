@@ -8,11 +8,11 @@ users: 1000000
 appId: com.binance.us
 appCountry: 
 released: 2019-12-23
-updated: 2024-01-30
+updated: 2024-03-08
 version: 3.12.0
 stars: 3.5
 ratings: 7187
-reviews: 6065
+reviews: 6076
 size: 
 website: https://www.binance.us
 repository: 

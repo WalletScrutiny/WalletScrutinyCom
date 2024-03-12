@@ -10,9 +10,9 @@ appCountry:
 released: 2014-02-10
 updated: 2024-01-29
 version: 4.8.54456
-stars: 4.7
+stars: 4.6
 ratings: 
-reviews: 118
+reviews: 121
 size: 
 website: http://www.spotware.com/
 repository: 

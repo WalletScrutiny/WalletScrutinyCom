@@ -10,8 +10,8 @@ idd: 1229582503
 released: 2017-05-05
 updated: 2024-03-05
 version: 5.3.0
-stars: 4.3
-reviews: 25
+stars: 4.4
+reviews: 38
 size: '82271232'
 website: http://www.99pay.kr
 repository: 

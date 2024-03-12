@@ -4,7 +4,7 @@ title: Tabdeal
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tabdeal
 appCountry: 
 released: 2021-08-14
@@ -12,7 +12,7 @@ updated: 2024-01-29
 version: 4.1.10
 stars: 4.5
 ratings: 
-reviews: 67
+reviews: 71
 size: 
 website: https://tabdeal.org
 repository: 

@@ -8,19 +8,19 @@ appId: com.SmartItApp
 appCountry: us
 idd: 1526092476
 released: 2020-10-28
-updated: 2022-04-05
-version: 1.0.6
+updated: 2024-03-11
+version: 1.0.8
 stars: 0
 reviews: 0
-size: '23963648'
+size: '21294080'
 website: https://smartit.shop/
 repository: 
 issue: 
 icon: com.SmartItApp.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-04-03
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: 

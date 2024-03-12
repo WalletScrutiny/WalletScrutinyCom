@@ -10,9 +10,9 @@ appCountry:
 released: 2023-07-19
 updated: 2024-02-07
 version: 0.1.12
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 23
+reviews: 25
 size: 
 website: https://wallacy.io/
 repository: 

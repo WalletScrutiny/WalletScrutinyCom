@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ocm.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-17
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: 

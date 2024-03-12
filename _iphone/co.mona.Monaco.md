@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com-Buy Bitcoin,ETH,SOL
+title: Crypto.com - Buy Bitcoin, SHIB
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2024-03-06
-version: '3.181'
+updated: 2024-03-07
+version: 3.181.01
 stars: 4.6
-reviews: 189289
-size: '567008256'
+reviews: 192560
+size: '567385088'
 website: https://crypto.com/
 repository: 
 issue: 

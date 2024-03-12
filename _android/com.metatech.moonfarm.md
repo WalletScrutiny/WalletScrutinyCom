@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-29
 updated: 2023-02-23
 version: 1.1.2
-stars: 
+stars: 3
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: https://moonfarm.finance
 repository: 

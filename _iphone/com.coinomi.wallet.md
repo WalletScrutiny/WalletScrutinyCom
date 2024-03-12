@@ -11,16 +11,16 @@ released: 2018-03-22
 updated: 2022-03-21
 version: 1.14.0
 stars: 4.5
-reviews: 1778
+reviews: 1781
 size: '140368896'
 website: https://www.coinomi.com
 repository: 
 issue: 
 icon: com.coinomi.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-03-17
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: CoinomiWallet

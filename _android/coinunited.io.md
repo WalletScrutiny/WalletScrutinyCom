@@ -1,6 +1,6 @@
 ---
 wsId: CoinUnited
-title: CoinUnited - Crypto Wallet
+title: 'CoinUnited: Trade BTC & Stocks'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: coinunited.io
 appCountry: cn
 released: 2021-04-30
-updated: 2024-01-20
-version: 4.6.0
+updated: 2024-03-11
+version: 4.6.4
 stars: 4.4
 ratings: 151
 reviews: 193

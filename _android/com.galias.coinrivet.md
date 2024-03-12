@@ -3,7 +3,7 @@ wsId:
 title: Coin Rivet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.galias.coinrivet
 appCountry: 
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: com.galias.coinrivet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

@@ -9,7 +9,7 @@ appId: com.coinhako
 appCountry: 
 released: 2018-05-06
 updated: 2024-03-06
-version: 4.6.43
+version: 4.6.44
 stars: 2.5
 ratings: 3064
 reviews: 21

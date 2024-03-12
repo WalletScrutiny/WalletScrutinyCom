@@ -3,7 +3,7 @@ wsId:
 title: Now in Crypto
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.blockchain.nft.explore
 appCountry: 
 released: 2022-12-17

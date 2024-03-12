@@ -28,7 +28,7 @@ twitter: srsfintech
 social:
 - https://www.linkedin.com/company/srsfintech/
 redirect_from: 
-developerName: SRS Fintech Commerce Ltd.
+developerName: BIB Holdings (M) Sdn Bhd
 features: 
 
 ---

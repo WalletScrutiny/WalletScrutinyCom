@@ -10,7 +10,7 @@ idd: '1530022030'
 released: 2020-12-13
 updated: 2024-03-04
 version: 5.8.6
-stars: 4.6
+stars: 4.5
 reviews: 155
 size: '147448832'
 website: https://www.cmorq.com/
