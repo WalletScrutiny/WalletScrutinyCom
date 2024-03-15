@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: mudaExchange
 title: MUDA
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.muda.exchange
 appCountry: 
@@ -19,15 +20,24 @@ issue:
 icon: com.muda.exchange.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-07-31
+verdict: custodial
+date: 2024-02-28
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: mudatech_
+social:
+- https://www.instagram.com/muda_hq 
 redirect_from: 
 developerName: Muda Exchange
 features: 
 
 ---
 
+## App Description from Google Play 
+
+> crypto exchange and money transfer wallet provides a safe and secure way to buy, sell and transfer Bitcoin and other digital currencies like, Ethereum, Celo, USDT, Tron and more.
+
+## Analysis 
+
+- A Bech32 BTC address is provided but there was no option to backup the private keys. 
+- This is a **custodial** service.
