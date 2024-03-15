@@ -2,7 +2,8 @@
 wsId: aquaWallet
 title: AQUA Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: io.aquawallet.android
 appCountry: 
