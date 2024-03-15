@@ -29,8 +29,6 @@ layout: default
             {% endif %}
           </h1>
 
-  
-
           <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle">
             <i class="i-app-store"></i> App Store
           </a>
@@ -53,6 +51,8 @@ layout: default
       </div>
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='iphone' filterPlatform='true' %}
+      
+      {% include /review/nostrOpinion.html %}
 
       <div class="article-after disclaimer">
         {% include /review/disclaimer.html %}
