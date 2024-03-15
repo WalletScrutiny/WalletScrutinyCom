@@ -19,8 +19,8 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
-date: 2024-03-14
+verdict: reproducible
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: Bitkeyofficial
@@ -56,5 +56,167 @@ The setup process involves:
            - The Emergency Access Kit is a PDF document located in the device's cloud backup. It can be scanned with a QR code, or the details can be entered manually.
 - Pair the hardware device with the app using NFC (no initial charging required).
 
-Without an NFC-capable phone, and the hardware wallet, this app would not be able to function on its own. This solidifies its designation as a companion app. Therefore, it is **not a wallet** on its own.  
+According to [Leo](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/632#note_1815493228)
 
+> Once paired with a bitkey HWW this product does in fact work as a stand-alone mobile wallet for configured amounts. 
+
+<hr>
+
+## Verified Builds
+
+This is the [documentation](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md) for the build process for the Bitkey Android app, and these are the [preparation instructions](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md#prep-work).
+
+## The results
+
+```
+---------------------------
+
+Comparing builds:
+
++ '[' 2 -ne 2 ']'
++ which diff
++ which /opt/android-sdk/build-tools/34.0.0/aapt2
++ lhs_comparable=verify-apk/from-device/comparable
++ lhs_apks=verify-apk/from-device/normalized-names
++ rhs_comparable=verify-apk/locally-built/comparable
++ rhs_apks=verify-apk/locally-built/normalized-names
+++ find verify-apk/from-device/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
++ lhs_apk_files='xxhdpi.apk
+en.apk
+arm64_v8a.apk
+base.apk'
+++ find verify-apk/locally-built/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
++ rhs_apk_files='xxhdpi.apk
+en.apk
+arm64_v8a.apk
+base.apk'
++++ echo 'xxhdpi.apk
+en.apk
+arm64_v8a.apk
+base.apk'
+++ sort -u /dev/fd/63 /dev/fd/62
++++ echo 'xxhdpi.apk
+en.apk
+arm64_v8a.apk
+base.apk'
++ all_apk_files='arm64_v8a.apk
+base.apk
+en.apk
+xxhdpi.apk'
+++ diff -x resources.arsc -r verify-apk/from-device/comparable verify-apk/locally-built/comparable
++ differences=
++ diff_exit_status=0
++ diff_result=0
++ declare -a aapt_differences
++ for apk_file in $all_apk_files
++ '[' '!' -f verify-apk/from-device/normalized-names/arm64_v8a.apk ']'
++ '[' '!' -f verify-apk/locally-built/normalized-names/arm64_v8a.apk ']'
++ unzip -l verify-apk/from-device/normalized-names/arm64_v8a.apk resources.arsc
+Archive:  verify-apk/from-device/normalized-names/arm64_v8a.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+---------                     -------
+        0                     0 files
++ lhs_contains_resources_exit_code=11
++ unzip -l verify-apk/locally-built/normalized-names/arm64_v8a.apk resources.arsc
+Archive:  verify-apk/locally-built/normalized-names/arm64_v8a.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+---------                     -------
+        0                     0 files
++ rhs_contains_resources_exit_code=11
++ '[' 11 -ne 0 ']'
++ '[' 11 -eq 0 ']'
++ '[' 11 -eq 0 ']'
++ echo 'Skipping aapt2 diff of arm64_v8a.apk as it doesn'\''t contain resources.arsc file'
+Skipping aapt2 diff of arm64_v8a.apk as it doesn't contain resources.arsc file
++ for apk_file in $all_apk_files
++ '[' '!' -f verify-apk/from-device/normalized-names/base.apk ']'
++ '[' '!' -f verify-apk/locally-built/normalized-names/base.apk ']'
++ unzip -l verify-apk/from-device/normalized-names/base.apk resources.arsc
+Archive:  verify-apk/from-device/normalized-names/base.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+   155468  1981-01-01 01:01   resources.arsc
+---------                     -------
+   155468                     1 file
++ lhs_contains_resources_exit_code=0
++ unzip -l verify-apk/locally-built/normalized-names/base.apk resources.arsc
+Archive:  verify-apk/locally-built/normalized-names/base.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+   155468  1981-01-01 01:01   resources.arsc
+---------                     -------
+   155468                     1 file
++ rhs_contains_resources_exit_code=0
++ '[' 0 -ne 0 ']'
++ '[' 0 -ne 0 ']'
+++ /opt/android-sdk/build-tools/34.0.0/aapt2 diff verify-apk/from-device/normalized-names/base.apk verify-apk/locally-built/normalized-names/base.apk
++ aapt_difference=
++ aapt_diff_exit_status=0
++ '[' '' '!=' '' ']'
++ diff_result=0
++ for apk_file in $all_apk_files
++ '[' '!' -f verify-apk/from-device/normalized-names/en.apk ']'
++ '[' '!' -f verify-apk/locally-built/normalized-names/en.apk ']'
++ unzip -l verify-apk/from-device/normalized-names/en.apk resources.arsc
+Archive:  verify-apk/from-device/normalized-names/en.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    58028  1981-01-01 01:01   resources.arsc
+---------                     -------
+    58028                     1 file
++ lhs_contains_resources_exit_code=0
++ unzip -l verify-apk/locally-built/normalized-names/en.apk resources.arsc
+Archive:  verify-apk/locally-built/normalized-names/en.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    58028  1981-01-01 01:01   resources.arsc
+---------                     -------
+    58028                     1 file
++ rhs_contains_resources_exit_code=0
++ '[' 0 -ne 0 ']'
++ '[' 0 -ne 0 ']'
+++ /opt/android-sdk/build-tools/34.0.0/aapt2 diff verify-apk/from-device/normalized-names/en.apk verify-apk/locally-built/normalized-names/en.apk
++ aapt_difference=
++ aapt_diff_exit_status=0
++ '[' '' '!=' '' ']'
++ diff_result=0
++ for apk_file in $all_apk_files
++ '[' '!' -f verify-apk/from-device/normalized-names/xxhdpi.apk ']'
++ '[' '!' -f verify-apk/locally-built/normalized-names/xxhdpi.apk ']'
++ unzip -l verify-apk/from-device/normalized-names/xxhdpi.apk resources.arsc
+Archive:  verify-apk/from-device/normalized-names/xxhdpi.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    11792  1981-01-01 01:01   resources.arsc
+---------                     -------
+    11792                     1 file
++ lhs_contains_resources_exit_code=0
++ unzip -l verify-apk/locally-built/normalized-names/xxhdpi.apk resources.arsc
+Archive:  verify-apk/locally-built/normalized-names/xxhdpi.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    11792  1981-01-01 01:01   resources.arsc
+---------                     -------
+    11792                     1 file
++ rhs_contains_resources_exit_code=0
++ '[' 0 -ne 0 ']'
++ '[' 0 -ne 0 ']'
+++ /opt/android-sdk/build-tools/34.0.0/aapt2 diff verify-apk/from-device/normalized-names/xxhdpi.apk verify-apk/locally-built/normalized-names/xxhdpi.apk
++ aapt_difference=
++ aapt_diff_exit_status=0
++ '[' '' '!=' '' ']'
++ diff_result=0
++ '[' 0 -eq 0 ']'
++ echo 'The builds are identical!'
+The builds are identical!
+```
+
+A recording of the test:
+
+{% include asciicast %}
+
+## Conclusion
+
+According to the build script provided by bitkey, the built apk and the apk from our test mobile device are identical with no significant differences. 
