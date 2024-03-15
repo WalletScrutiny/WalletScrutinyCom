@@ -8,8 +8,8 @@ users: 100000
 appId: com.chainwallet.app
 appCountry: 
 released: 2023-01-03
-updated: 2024-02-14
-version: 1.0.28
+updated: 2024-03-11
+version: 1.0.29
 stars: 3.1
 ratings: 
 reviews: 11

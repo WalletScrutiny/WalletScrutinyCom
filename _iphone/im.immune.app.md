@@ -8,11 +8,11 @@ appId: im.immune.app
 appCountry: ru
 idd: '1489335158'
 released: 2019-12-09
-updated: 2024-02-09
-version: 2.1.4
+updated: 2024-03-13
+version: 2.1.5
 stars: 5
 reviews: 4
-size: '97481728'
+size: '98199552'
 website: https://immune.im/
 repository: 
 issue: 

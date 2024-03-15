@@ -4,7 +4,7 @@ title: Cryptopower Wallet
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: com.dreacotdigital.cryptopower.mainnet
 appCountry: 
 released: 2024-01-20

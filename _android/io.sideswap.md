@@ -4,7 +4,7 @@ title: SideSwap
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.sideswap
 appCountry: 
 released: 2021-03-09

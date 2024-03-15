@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: position.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-29
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: PositionEx

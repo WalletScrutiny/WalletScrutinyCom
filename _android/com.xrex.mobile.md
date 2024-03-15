@@ -1,6 +1,6 @@
 ---
 wsId: XRex
-title: XREX — Exchange Bitcoin & USDT
+title: XREX:Buy Crypto,Bitcoin & USDT
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.xrex.mobile
 appCountry: au
 released: 2020-02-20
-updated: 2024-01-31
-version: 2.1.2
+updated: 2024-03-12
+version: 2.1.50
 stars: 
 ratings: 
 reviews: 

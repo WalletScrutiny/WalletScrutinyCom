@@ -8,11 +8,11 @@ appId: io.fgraph.wallet
 appCountry: us
 idd: '1572609905'
 released: 2021-06-16
-updated: 2023-12-19
-version: 1.8.5
+updated: 2024-03-13
+version: 1.8.9
 stars: 0
 reviews: 0
-size: '72107008'
+size: '72197120'
 website: https://fgraph.io/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2024-03-11
 version: 1.78.3
 stars: 4.6
 ratings: 29536
-reviews: 26
+reviews: 25
 size: 
 website: https://capital.com
 repository: https://capital.com/

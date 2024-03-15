@@ -8,11 +8,11 @@ appId: com.sixdays.trust
 appCountry: 
 idd: 1288339409
 released: 2017-09-27
-updated: 2024-03-01
-version: '11.1'
+updated: 2024-03-14
+version: '11.2'
 stars: 4.7
-reviews: 191974
-size: '113607680'
+reviews: 191972
+size: '113814528'
 website: https://trustwallet.com
 repository: 
 issue: 

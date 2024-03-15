@@ -8,7 +8,7 @@ users: 1000
 appId: net.primal.android
 appCountry: 
 released: 
-updated: 2024-03-07
+updated: 2024-03-13
 version: VARY
 stars: 
 ratings: 

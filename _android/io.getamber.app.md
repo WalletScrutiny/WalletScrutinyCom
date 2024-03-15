@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 26
 size: 
-website: https://www.getamber.io
+website: http://amber.app
 repository: 
 issue: 
 icon: io.getamber.app.png
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/amber.app
 - https://t.me/theamberapp
 redirect_from: 
-developerName: Amber App
+developerName: AmberApp
 features: 
 
 ---

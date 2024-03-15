@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockproex.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-20
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: 

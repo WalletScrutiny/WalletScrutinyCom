@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kardiawallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-15
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: KardiaChain

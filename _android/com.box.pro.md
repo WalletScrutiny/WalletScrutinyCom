@@ -8,7 +8,7 @@ users: 100000
 appId: com.box.pro
 appCountry: 
 released: 2022-01-06
-updated: 2023-10-17
+updated: 2024-03-13
 version: 5.2.9
 stars: 2.3
 ratings: 

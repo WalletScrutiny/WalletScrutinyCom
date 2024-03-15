@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: AEM+
+title: AEM+ | Multi Crypto Wallet
 altTitle: 
 authors: 
 users: 100

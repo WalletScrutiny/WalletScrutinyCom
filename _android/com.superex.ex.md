@@ -8,11 +8,11 @@ users: 1000000
 appId: com.superex.ex
 appCountry: 
 released: 2022-03-23
-updated: 2024-03-11
-version: 2.9.7
+updated: 2024-03-15
+version: 2.9.8
 stars: 4
 ratings: 
-reviews: 236
+reviews: 237
 size: 
 website: https://www.superex.com
 repository: 

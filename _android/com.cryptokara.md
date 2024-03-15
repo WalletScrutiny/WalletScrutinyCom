@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-28
 updated: 2024-02-12
 version: 1.7.3
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 116
+reviews: 118
 size: 
 website: https://www.cryptokara.com/
 repository: 

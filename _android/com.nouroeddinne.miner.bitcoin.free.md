@@ -12,7 +12,7 @@ updated: 2023-12-29
 version: '40.40'
 stars: 4.7
 ratings: 3855
-reviews: 870
+reviews: 869
 size: 
 website: https://pfdae6613.app-ads-txt.com
 repository: 

@@ -4,7 +4,7 @@ title: AirPay wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.airpay.appwallet
 appCountry: 
 released: 2022-04-15

@@ -9,11 +9,11 @@ appId: io.nunchuk.ios
 appCountry: us
 idd: 1563190073
 released: 2021-12-16
-updated: 2024-02-07
-version: 1.9.38
-stars: 4.8
-reviews: 38
-size: '110256128'
+updated: 2024-03-14
+version: 1.9.39
+stars: 4.7
+reviews: 39
+size: '110524416'
 website: https://nunchuk.io
 repository: 
 issue: https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5
