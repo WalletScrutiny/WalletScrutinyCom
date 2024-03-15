@@ -53,6 +53,8 @@ layout: default
       </div>
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='hardware' filterPlatform='false' %}
+      
+      {% include /review/nostrOpinion.html %}
 
       <div class="article-after disclaimer">
         {% include /review/disclaimer.html %}
