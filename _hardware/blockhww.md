@@ -51,7 +51,7 @@ This product has a companion app: {% include walletLink.html wallet='android/wor
 
 The Bitkey hardware device is made from [corian and stainless steel](https://bitkey.world/en-US/products/bitkey). Its security features include key handling, biometric authentication, 2 of 3 multisignature transactions, cloud backups and social recovery mechanisms. 
 
-Owners of the Bitkey can invite trusted contacts to assist in the recovery of their keys in the event of phone or device loss. Rather than using the seed phrase recovery model by itself, Bitkey utilizes social recovery. NFC technology is meant to ensure that transaction authentication would always involve the presence of two devices, or two private keys. The third key is [held by Square](https://bitkey.world/en-US/how-it-works) in their servers.
+Owners of the Bitkey can invite trusted contacts to assist in the recovery of their keys in the event of phone and device loss. Rather than using the seed phrase recovery model by itself, Bitkey utilizes social recovery. NFC technology is meant to ensure that transaction authentication would always involve the presence of two devices, or two private keys. The third key is [held by Square](https://bitkey.world/en-US/how-it-works) in their servers.
 
 ### BitKey's approach to self-custody
 
