@@ -19,7 +19,7 @@ issue:
 icon: world.bitkey.app.jpg
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: nonverifiable
 date: 2024-03-14
 signer: 
 reviewArchive: 

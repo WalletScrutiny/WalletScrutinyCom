@@ -76,11 +76,30 @@ Users can also set spending thresholds. [Spending more than the threshold would 
 ### Multisignature
 
 - There are three keys involved: one in the hardware wallet, one in the mobile app, and one in Square's servers.
-- Square provides world-class security for the server-held key.
+- Square provides the security for the server-held key.
 - Transaction authorization requires two out of three keys.
 - Square’s key is used only when:
     - The customer requests a transaction and uses their hardware wallet, or
     - The transaction is below a set spending limit configured by the customer.
+
+### Recovery Options
+
+Here are the available recovery options [offered by Bitkey.](https://support.bitkey.world/hc/en-us/articles/18801968949652-What-recovery-methods-are-available  )
+
+>  - [Cloud recovery](https://support.bitkey.world/hc/en-us/articles/18842210239764): Lost/Replaced phone with cloud backup available
+>
+>  - [Delay + Notify](https://support.bitkey.world/hc/en-us/articles/18842292452500):
+>
+> - - Lost/Replaced phone without cloud backup available
+>
+> - - Lost/Replaced hardware device with/without cloud backup available
+>
+>  - [Cloud Health Check](https://support.bitkey.world/hc/en-us/articles/24491938926484): Lost/Replaced Cloud account
+>
+>  - [Trusted Contacts:](https://support.bitkey.world/hc/en-us/articles/24395098961940) Lost/Replaced BOTH hardware device and phone, near the same time
+>
+>  - [Emergency Access Kit](https://support.bitkey.world/hc/en-us/articles/24395170222868): Bitkey app unavailable in app store(s)
+
 
 ### Fingerprint Scanner
 
