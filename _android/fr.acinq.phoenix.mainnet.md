@@ -22,9 +22,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-02-27
+date: 2024-03-18
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-02-27
+  version: 2.2.0
+  appHash: 74724d77d02c216807bfeb40a69c3081a0b213f9d00e3aa82a637d7973a23d3a
+  gitRevision: 042f69a12ae6ceee5fcecb0dee8d3d237e9ba745
+  verdict: nonverifiable
 - date: 2024-02-11
   version: 2.1.3
   appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
@@ -91,29 +96,30 @@ features:
 
 ---
 
-The differences between the built and provided apks, are still substantial enough to warrant a verdict of non-verifiability.
+As of version 2.2.1, the differences between the built and provided apks, are still substantial enough to warrant a verdict of non-verifiability.
 
 ```
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.2.0
-apkVersionCode: 76
+apkVersionName: 2.2.1
+apkVersionCode: 77
 verdict:        
-appHash:        74724d77d02c216807bfeb40a69c3081a0b213f9d00e3aa82a637d7973a23d3a
-commit:         43bd103bd87c4161f2c0a2240ac2a56c2c1b4381
+appHash:        3a1523b4ddeebff58deeb2f877e2d2f33924fdb8870e4bf34038fee9e7b87f53
+commit:         a1e5663585acaefd2bb8d0dc476d9e671bc2a9b1
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_76/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_76/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 
 ```
 
