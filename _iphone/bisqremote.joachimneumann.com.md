@@ -11,7 +11,7 @@ released: 2018-09-09
 updated: 2022-05-13
 version: '1.5'
 stars: 4.4
-reviews: 15
+reviews: 16
 size: '2153472'
 website: https://bisq.network
 repository: https://github.com/bisq-network/bisqremote_Android

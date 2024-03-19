@@ -7,7 +7,7 @@ users: 100
 appId: com.getfexr.core
 appCountry: 
 released: 2022-06-08
-updated: 2024-03-10
+updated: 2024-03-18
 version: pop
 stars: 4.3
 ratings: 

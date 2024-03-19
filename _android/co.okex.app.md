@@ -8,11 +8,11 @@ users: 100000
 appId: co.okex.app
 appCountry: 
 released: 2019-09-11
-updated: 2024-01-18
-version: 7.1.9
+updated: 2024-03-18
+version: 7.2.0
 stars: 3.6
 ratings: 7353
-reviews: 233
+reviews: 234
 size: 
 website: https://ok-ex.co
 repository: 

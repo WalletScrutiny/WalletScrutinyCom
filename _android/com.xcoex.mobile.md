@@ -8,8 +8,8 @@ users: 10000
 appId: com.xcoex.mobile
 appCountry: 
 released: 2019-01-17
-updated: 2024-01-11
-version: 1.37.0
+updated: 2024-03-18
+version: 1.38.0
 stars: 3.5
 ratings: 159
 reviews: 6

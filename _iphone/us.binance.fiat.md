@@ -11,7 +11,7 @@ released: 2020-01-05
 updated: 2024-03-12
 version: 3.13.1
 stars: 4.2
-reviews: 108070
+reviews: 108090
 size: '285535232'
 website: https://www.binance.us/en/home
 repository: 

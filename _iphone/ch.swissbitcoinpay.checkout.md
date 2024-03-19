@@ -3,11 +3,11 @@ wsId: swissBitcoinPay
 title: Swiss Bitcoin Pay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: ch.swissbitcoinpay.checkout
 appCountry: us
 idd: '6444370155'
-released: '2022-11-19T08:00:00Z'
+released: 2022-11-19
 updated: 2024-02-04
 version: 2.0.6
 stars: 0
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: SwissBitcoinPay
 social:
 - https://www.linkedin.com/company/swiss-bitcoin-pay
-- https://www.youtube.com/@swissbitcoinpay 
+- https://www.youtube.com/@swissbitcoinpay
 features: 
 developerName: Swiss Bitcoin Pay Sarl
 

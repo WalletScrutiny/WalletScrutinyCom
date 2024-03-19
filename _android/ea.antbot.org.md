@@ -12,7 +12,7 @@ updated: 2024-03-08
 version: 2.5.6
 stars: 4.3
 ratings: 
-reviews: 20
+reviews: 21
 size: 
 website: https://www.antrade.io
 repository: 

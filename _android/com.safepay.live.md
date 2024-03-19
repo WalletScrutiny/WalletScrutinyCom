@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.safepay.live.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: Trezor Suite Lite
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
@@ -12,7 +12,7 @@ updated: 2024-03-04
 version: 24.3.1
 stars: 3.5
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://trezor.io
 repository: 

@@ -10,7 +10,7 @@ appCountry: bh
 released: 2018-11-02
 updated: 2024-03-13
 version: 3.1.39
-stars: 2.9
+stars: 3
 ratings: 4531
 reviews: 3079
 size: 

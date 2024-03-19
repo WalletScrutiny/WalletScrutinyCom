@@ -3,7 +3,7 @@ wsId: swissBitcoinPay
 title: Swiss Bitcoin Pay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: ch.swissbitcoinpay.checkout
 appCountry: 
@@ -27,11 +27,11 @@ reviewArchive:
 twitter: SwissBitcoinPay
 social:
 - https://www.linkedin.com/company/swiss-bitcoin-pay
-- https://www.youtube.com/@swissbitcoinpay 
+- https://www.youtube.com/@swissbitcoinpay
 redirect_from: 
 developerName: Swiss Bitcoin Pay
 features:
-- ln 
+- ln
 
 ---
 

@@ -3,11 +3,11 @@ wsId: mudaExchange
 title: MUDA
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.muda.exchange
 appCountry: cd
 idd: '1625286267'
-released: '2022-11-06T07:00:00Z'
+released: 2022-11-06
 updated: 2023-12-06
 version: '2.1'
 stars: 0
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: mudatech_
 social:
-- https://www.instagram.com/muda_hq 
+- https://www.instagram.com/muda_hq
 features: 
 developerName: Muda ventures limited
 

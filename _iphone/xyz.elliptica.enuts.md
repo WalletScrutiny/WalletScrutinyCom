@@ -3,11 +3,11 @@ wsId:
 title: eNuts
 altTitle: 
 authors:
-- danny 
+- danny
 appId: xyz.elliptica.enuts
 appCountry: us
 idd: '6477824421'
-released: '2024-02-14T08:00:00Z'
+released: 2024-02-14
 updated: 2024-02-14
 version: 0.3.0
 stars: 0
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/eNutsWallet 
+- https://t.me/eNutsWallet
 features: 
 developerName: Elliptica
 

@@ -3,7 +3,7 @@ wsId: mudaExchange
 title: MUDA
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.muda.exchange
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: mudatech_
 social:
-- https://www.instagram.com/muda_hq 
+- https://www.instagram.com/muda_hq
 redirect_from: 
 developerName: Muda Exchange
 features: 

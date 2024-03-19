@@ -3,11 +3,11 @@ wsId: mChange
 title: Mchange - купить Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.xchange.mchange
 appCountry: us
 idd: '1528398340'
-released: '2020-08-25T07:00:00Z'
+released: 2020-08-25
 updated: 2022-12-29
 version: 1.0.3
 stars: 0
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.youtube.com/watch?v=cofz1LnJWnk 
+- https://www.youtube.com/watch?v=cofz1LnJWnk
 features: 
 developerName: XChangeCapitalGroup
 

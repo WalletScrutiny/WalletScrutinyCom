@@ -1,6 +1,6 @@
 ---
 wsId: noonesMarketplace
-title: 'Noones: P2P BTC Marketplace'
+title: 'NoOnes: P2P BTC Marketplace'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: team.noones.mobilemessenger
 appCountry: 
 released: 2023-05-04
-updated: 2024-03-12
-version: 1.4.2
+updated: 2024-03-19
+version: 1.4.4
 stars: 3.3
 ratings: 
-reviews: 47
+reviews: 48
 size: 
 website: https://noones.com/
 repository: 

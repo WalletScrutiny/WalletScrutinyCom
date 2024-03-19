@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fhm.safcoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-07
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: SAFCOIN1

@@ -4,7 +4,7 @@ title: Quadency - Crypto Platform
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.quadency.app
 appCountry: 
 released: 2021-10-24

@@ -10,8 +10,8 @@ idd: '1598432977'
 released: 2022-01-30
 updated: 2024-03-07
 version: 24.3.0
-stars: 4.3
-reviews: 786
+stars: 4.4
+reviews: 1028
 size: '68270080'
 website: https://phantom.app
 repository: 

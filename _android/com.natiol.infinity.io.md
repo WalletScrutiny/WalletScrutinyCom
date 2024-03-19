@@ -8,7 +8,7 @@ users: 10000
 appId: com.natiol.infinity.io
 appCountry: 
 released: 2022-11-12
-updated: 2024-02-24
+updated: 2024-03-17
 version: 10.0.0
 stars: 4.8
 ratings: 

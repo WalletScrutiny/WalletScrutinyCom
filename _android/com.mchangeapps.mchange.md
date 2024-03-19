@@ -3,7 +3,7 @@ wsId: mChange
 title: Mchange - купить Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.mchangeapps.mchange
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.youtube.com/watch?v=cofz1LnJWnk 
+- https://www.youtube.com/watch?v=cofz1LnJWnk
 redirect_from: 
 developerName: exmoneyapps
 features: 

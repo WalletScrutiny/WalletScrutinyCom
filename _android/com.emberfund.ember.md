@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-24
 updated: 2024-03-14
 version: '33.17'
-stars: 4.3
+stars: 4.2
 ratings: 1026
-reviews: 932
+reviews: 953
 size: 
 website: https://www.emberfund.io/
 repository: 

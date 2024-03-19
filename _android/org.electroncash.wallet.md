@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.electroncash.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-21
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: 

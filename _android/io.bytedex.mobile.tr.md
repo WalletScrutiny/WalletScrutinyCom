@@ -3,7 +3,7 @@ wsId:
 title: 'Byte Exchange: BTC ETH Crypto'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.bytedex.mobile.tr
 appCountry: 
 released: 2022-12-16
@@ -19,7 +19,7 @@ issue:
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

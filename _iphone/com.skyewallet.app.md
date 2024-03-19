@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.skyewallet.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: skyewallet
