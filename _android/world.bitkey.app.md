@@ -19,7 +19,7 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: fewusers
 date: 2024-03-16
 signer: 
 reviewArchive: 
