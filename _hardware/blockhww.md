@@ -38,10 +38,9 @@ features:
 
 ---
 
-<br />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pZ-Yi7A-o_A?si=cP6zKgW7r-JosAb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 **Disclaimer**: The WalletScrutiny project is sponsored by Spiral, a subsidiary of Block.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pZ-Yi7A-o_A?si=cP6zKgW7r-JosAb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}.   
 
@@ -111,6 +110,6 @@ Bitkey innovates with a combination of social recovery, biometrics, NFC and mult
 
 > Storing bitcoin shouldn't require buying a second phone, or anything close to that. We want customers to be able to use the computer they already take everywhere,(...) From a hardware perspective, we think that means leaving out whatever we can -- starting with a display. Before we make that decision, though, we'll be reaching out to security experts across the community to make sure this is the right tradeoff for our customers.
 
-Absent a button and a screen, the device would be engaging in blind-signing. Users would be trusting the mobile device (which is Internet connected), and the app that is preparing the transaction. Attackers who have access to manipulating the software can just as easily alter details such as the address where the bitcoin would be sent. 
+Absent a button and a screen, the device would be engaging in blind-signing. Users would be trusting the mobile device, and the app that is preparing the transaction. Attackers who have access to manipulating the software can just as easily alter details such as the address where the bitcoin would be sent. 
 
 For this reason, we give the device a verdict of having a **bad interface**.
