@@ -1,4 +1,4 @@
-FROM docker.io/node:16.20.0-bullseye-slim
+FROM docker.io/node:18-bullseye-slim
 
 ARG UID=1000
 ARG TAG
