@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 8
 size: 
-website: https://www.coinhub.mn
+website: https://coinhub.mn/
 repository: 
 issue: 
 icon: com.coinhub.pro.png

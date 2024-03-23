@@ -8,8 +8,8 @@ appId: io.gosats
 appCountry: in
 idd: '1536263998'
 released: 2021-01-05
-updated: 2024-03-08
-version: 2.4.5
+updated: 2024-03-20
+version: 2.4.6
 stars: 4.1
 reviews: 256
 size: '56371200'

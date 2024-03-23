@@ -3,7 +3,7 @@ wsId:
 title: Paradise
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.paradise.finance
 appCountry: 
 released: 2021-07-06

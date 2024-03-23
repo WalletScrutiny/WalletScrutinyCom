@@ -8,8 +8,8 @@ users: 50000
 appId: br.com.peerbr
 appCountry: 
 released: 2019-05-24
-updated: 2024-02-15
-version: 5.0.1
+updated: 2024-03-22
+version: 5.0.2
 stars: 5
 ratings: 
 reviews: 2
@@ -17,7 +17,7 @@ size:
 website: https://peerbr.com.br/
 repository: 
 issue: 
-icon: br.com.peerbr.jpg
+icon: br.com.peerbr.png
 bugbounty: 
 meta: ok
 verdict: wip

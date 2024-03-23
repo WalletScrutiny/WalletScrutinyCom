@@ -3,7 +3,7 @@ wsId:
 title: Minibits Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.minibits_wallet
 appCountry: 
 released: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digiwrecks.bitcoingocard.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: 

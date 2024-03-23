@@ -11,7 +11,7 @@ released: 2018-08-07
 updated: 2024-03-11
 version: '5.24'
 stars: 4.6
-reviews: 7072
+reviews: 7074
 size: '182892544'
 website: https://spot-wallet.com
 repository: 

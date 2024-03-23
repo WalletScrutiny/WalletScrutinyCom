@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AMLSafe - Crypto Wallet
+title: Safe3 - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,13 +8,13 @@ users: 100000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2024-03-02
-version: '2.15'
+updated: 2024-03-22
+version: '2.16'
 stars: 4.3
 ratings: 
 reviews: 1
 size: 
-website: https://amlsafe.io/
+website: https://safe3.app/
 repository: 
 issue: 
 icon: com.silenca.amlsafe.png

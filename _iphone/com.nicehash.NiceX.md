@@ -8,11 +8,11 @@ appId: com.nicehash.NiceX
 appCountry: ph
 idd: '1619979069'
 released: 2022-07-11
-updated: 2024-03-05
-version: 1.4.2
+updated: 2024-03-22
+version: 1.4.3
 stars: 5
 reviews: 1
-size: '60674048'
+size: '60065792'
 website: https://www.nicex.com
 repository: 
 issue: 

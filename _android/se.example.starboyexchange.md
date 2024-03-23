@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: URL Games
+developerName: PlayLoom Studios
 features: 
 
 ---

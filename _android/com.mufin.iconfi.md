@@ -10,9 +10,9 @@ appCountry:
 released: 2021-01-27
 updated: 2023-01-09
 version: 1.2.2
-stars: 4.3
+stars: 4.4
 ratings: 220
-reviews: 22
+reviews: 21
 size: 
 website: https://www.grow3.io
 repository: 

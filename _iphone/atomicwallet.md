@@ -8,11 +8,11 @@ appId: atomicwallet
 appCountry: 
 idd: 1478257827
 released: 2019-11-05
-updated: 2024-03-12
-version: 1.26.6
+updated: 2024-03-22
+version: 1.26.7
 stars: 4.3
-reviews: 16283
-size: '139244544'
+reviews: 16305
+size: '139363328'
 website: https://atomicwallet.io/
 repository: 
 issue: 

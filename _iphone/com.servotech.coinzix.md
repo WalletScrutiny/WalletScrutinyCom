@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.servotech.coinzix.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-21
+date: 2024-03-22
 signer: 
 reviewArchive: 
 twitter: coinzixcom

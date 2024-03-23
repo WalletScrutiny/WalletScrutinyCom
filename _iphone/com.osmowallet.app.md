@@ -10,8 +10,8 @@ idd: '1610776134'
 released: 2022-06-14
 updated: 2024-03-07
 version: 3.0.1
-stars: 4.7
-reviews: 11
+stars: 4.4
+reviews: 12
 size: '101466112'
 website: https://www.osmowallet.com/
 repository: 

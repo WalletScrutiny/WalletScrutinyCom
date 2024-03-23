@@ -1,6 +1,6 @@
 ---
 wsId: ZuPago
-title: ZuPago
+title: ViZO
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: app.zupago.app
 appCountry: us
 released: 2021-04-30
-updated: 2024-02-26
-version: 1.8.3
+updated: 2024-03-19
+version: 1.8.5
 stars: 4.7
 ratings: 221
 reviews: 22

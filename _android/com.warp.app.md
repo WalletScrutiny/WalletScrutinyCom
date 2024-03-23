@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.warp.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-03-29
+date: 2024-03-22
 signer: 
 reviewArchive: 
 twitter: WarpDefi

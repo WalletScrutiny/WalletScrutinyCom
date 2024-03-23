@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Starlab Studios AI
+developerName: Seven Labs Gen AI Chatbot
 features: 
 
 ---

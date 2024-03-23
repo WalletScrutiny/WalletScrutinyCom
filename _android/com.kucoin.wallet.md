@@ -8,8 +8,8 @@ users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: 2022-05-31
-updated: 2024-03-14
-version: 3.5.1
+updated: 2024-03-19
+version: 3.5.2
 stars: 4.2
 ratings: 
 reviews: 64

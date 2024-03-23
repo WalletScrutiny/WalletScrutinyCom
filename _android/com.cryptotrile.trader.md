@@ -3,7 +3,7 @@ wsId:
 title: Cryptotrile
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.cryptotrile.trader
 appCountry: 
 released: 2022-08-09

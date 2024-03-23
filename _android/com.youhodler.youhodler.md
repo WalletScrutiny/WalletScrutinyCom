@@ -8,8 +8,8 @@ users: 1000000
 appId: com.youhodler.youhodler
 appCountry: 
 released: 2019-07-11
-updated: 2024-03-07
-version: 7.3.2
+updated: 2024-03-21
+version: 7.3.3
 stars: 3.9
 ratings: 5083
 reviews: 79

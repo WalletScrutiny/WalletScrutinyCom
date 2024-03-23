@@ -3,7 +3,7 @@ wsId:
 title: Coinweb Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coinwebapp
 appCountry: 
 released: 2023-04-28
@@ -19,7 +19,7 @@ issue:
 icon: com.coinwebapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

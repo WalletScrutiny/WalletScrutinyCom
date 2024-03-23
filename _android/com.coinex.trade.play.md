@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-27
 updated: 2024-03-18
 version: 3.29.0
-stars: 4.1
+stars: 4.2
 ratings: 60269
-reviews: 1406
+reviews: 1407
 size: 
 website: https://www.coinex.com/
 repository: 

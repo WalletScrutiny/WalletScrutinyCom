@@ -8,8 +8,8 @@ users: 10000
 appId: com.royalqpro
 appCountry: 
 released: 2022-02-22
-updated: 2024-02-26
-version: '2.8'
+updated: 2024-03-19
+version: '3.0'
 stars: 
 ratings: 
 reviews: 

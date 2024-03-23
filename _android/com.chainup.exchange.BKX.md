@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 뉴럴엔진
+developerName: (주)얼티밋
 features: 
 
 ---

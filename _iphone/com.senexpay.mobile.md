@@ -10,8 +10,8 @@ idd: '1627864145'
 released: 2022-08-18
 updated: 2024-01-04
 version: 1.5.2
-stars: 3.5
-reviews: 13
+stars: 3.6
+reviews: 14
 size: '82077696'
 website: https://senexpay.com
 repository: 

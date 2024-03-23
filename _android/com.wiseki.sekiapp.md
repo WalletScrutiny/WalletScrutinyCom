@@ -12,7 +12,7 @@ updated: 2024-03-11
 version: 2.1.0
 stars: 4
 ratings: 
-reviews: 7
+reviews: 9
 size: 
 website: https://sekiapp.com
 repository: 

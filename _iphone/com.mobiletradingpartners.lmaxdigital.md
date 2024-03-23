@@ -8,11 +8,11 @@ appId: com.mobiletradingpartners.lmaxdigital
 appCountry: us
 idd: '1375900638'
 released: 2018-06-11
-updated: 2023-10-27
-version: 4.4.324
+updated: 2024-03-20
+version: 5.0.11
 stars: 0
 reviews: 0
-size: '124062720'
+size: '122255360'
 website: https://www.lmax.com/mobile
 repository: 
 issue: 

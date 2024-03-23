@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.android.titanwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-28
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: covofinance
