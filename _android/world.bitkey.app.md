@@ -19,8 +19,8 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
-date: 2024-03-16
+verdict: reproducible
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: Bitkeyofficial
@@ -351,8 +351,61 @@ Bitkey acknowledges the difference between apks extracted from AABs. More about 
 
 ## Further Tests
 
-The current testing process involves extracting an APK from a device and then comparing this to a built APK. This process is ongoing.
+The current testing process involves extracting an APK from a device and then comparing this to a built APK. 
+
+- We first run `apktool d base-master.apk -o base-master/`, which is the built apk. 
+- We then run `apktool d Bitkey.apk -o Bitkey/`, which is the apk we extracted from our phone
+- We then run `diff base-master/ Bitkey/` and these are the results: 
+
+```
+$ diff base-master/ Bitkey/
+diff base-master/AndroidManifest.xml Bitkey/AndroidManifest.xml
+1c1
+< <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="world.bitkey.app" platformBuildVersionCode="34" platformBuildVersionName="14">
+---
+> <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/distribution" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" n1:requiredSplitTypes="base__abi,base__density" n1:splitTypes="" package="world.bitkey.app" platformBuildVersionCode="34" platformBuildVersionName="14">
+154a155,156
+>         <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+>         <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+155a158
+>         <meta-data android:name="com.android.vending.derived.apk.id" android:value="3"/>
+diff base-master/apktool.yml Bitkey/apktool.yml
+2c2
+< apkFileName: base-master.apk
+---
+> apkFileName: Bitkey.apk
+160a161
+>   stamp-cert-sha256: '8'
+Common subdirectories: base-master/assets and Bitkey/assets
+Common subdirectories: base-master/kotlin and Bitkey/kotlin
+Common subdirectories: base-master/META-INF and Bitkey/META-INF
+Common subdirectories: base-master/original and Bitkey/original
+Common subdirectories: base-master/res and Bitkey/res
+Common subdirectories: base-master/smali and Bitkey/smali
+Common subdirectories: base-master/smali_classes2 and Bitkey/smali_classes2
+Common subdirectories: base-master/smali_classes3 and Bitkey/smali_classes3
+Common subdirectories: base-master/unknown and Bitkey/unknown
+```
+- We then run `diffoscope base-master/ Bitkey/`, but the results were too big, so we [uploaded the results](https://drive.google.com/file/d/10k5H3HzmKEEnCZa9AoUY8WfhO4kfTxCG/view?usp=sharing).
 
 ## Conclusion
 
-According to the build script provided by bitkey, the built apk and the apk from our test mobile device are identical with no significant differences. We are in the process of building this app according to WalletScrutiny procedures.
+According to the build script provided by bitkey, the built apk and the apk from our test mobile device are identical with no significant differences. 
+
+Our own analysis reflects this: 
+
+- `xmlns:n1="http://schemas.android.com/apk/distribution` is present in the apk from Google Play. It is an XML namespace manifest
+- `n1:requiredSplitTypes="base__abi,base__density` and `n1:splitTypes=""` related to app bundle configurations
+
+App meta-data elements:
+
+- `com.android.stamp.source` - the value points to Google Play Store. [Related information](https://support.google.com/googleplay/android-developer/answer/9842756?hl=en)
+- `com.android.stamp.type` - points to `STAMP_TYPE_DISTRIBUTION_APK`. 
+- `com.android.vending.derived.apk.id` - with a value of 3
+
+The three are related to how Google Play processes the apk. 
+
+- `stamp-cert-sha256` - with a value of `8`. SHA-256 hash value of a certificate used for stamping the APK
+
+The diffs are expected given Google Play's app bundling mechanism, apk signing, and other packaging-related processes.
+We can conclude that the app is **reproducible**. For more in-depth comparison, please see the [diffoscope results](https://drive.google.com/file/d/10k5H3HzmKEEnCZa9AoUY8WfhO4kfTxCG/view?usp=sharing).
