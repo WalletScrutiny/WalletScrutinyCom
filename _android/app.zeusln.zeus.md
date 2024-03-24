@@ -22,9 +22,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-01-30
+date: 2024-03-24
 signer: 
 reviewArchive:
+- date: 2024-01-30
+  version: "0.8.1"
+  appHash: a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
+  gitRevision: 57a2e216194467fadf01e6075efb04b87b657347
+  verdict: reproducible
 - date: 2023-12-30
   version: 0.8.0
   appHash: ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
@@ -69,62 +74,28 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.1
-apkVersionCode: 81003
+apkVersionName: 0.8.2
+apkVersionCode: 83003
 verdict:        
-appHash:        a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
-commit:         8ec56e8d3eb020fe52337c7b2a32a62f903ae6c4
+appHash:        63d61c6288323ef8daa2797fa2c7341795ca7c36bbf2d007beda7e9ddd7ccca8
+commit:         a805deb3a76b576a303342b971000ee7f15748bf
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_81003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_81003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_81003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_83003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_83003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_83003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 ```
 
-That is a bigger diff than expected but getting really close. If we ignore all
-the stuff we usually ignore from the META-INF folder the diff is in
-`AndroidManifest.xml` and `stamp-cert-sha256`.
-
-`stamp-cert-sha256` turns out to belong on our list of acceptable files to
-differ. It's Google's additional signature of the app.
-
-But what about the first line - AndroidManifest.xml? Diffoscope can dig into
-that file and this is what it found:
-
-```
-...
-├── AndroidManifest.xml (decoded)
-│ ├── AndroidManifest.xml
-│ │ @@ -225,10 +225,9 @@
-│ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:exported="false" android:process=":phoenix"/>
-│ │      <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
-│ │        <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
-│ │      </service>
-│ │      <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
-│ │      <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
-│ │      <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
-│ │ -    <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-│ │    </application>
-│ │  </manifest>
-```
-
-meaning the Google file contains the extra line:
-
-```
-<meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-```
-
-which again is expected when using the Android App Bundle (AAB) format which
-{{ page.title }} apparently switched to.
+Again we checked that only signature-related lines differ and as before, this is
+the case for MANIFEST.MF and stamp-cert-sha256, too.
 
 While we don't know yet exactly how to automate testing, this app is
-**reproducible**. We also revise our prior review that had the same issues that
-were resolved in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
+**reproducible**.
 
 {% include asciicast %}
