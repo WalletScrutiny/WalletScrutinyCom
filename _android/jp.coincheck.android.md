@@ -12,7 +12,7 @@ updated: 2024-03-15
 version: 4.10.25
 stars: 3.6
 ratings: 10711
-reviews: 10
+reviews: 11
 size: 
 website: https://coincheck.com
 repository: 

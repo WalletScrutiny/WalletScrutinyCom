@@ -1,6 +1,6 @@
 ---
 wsId: MetalPay
-title: 'Metal Pay: Buy & Sell Crypto'
+title: 'Metal Pay: Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 100000
 appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
-updated: 2024-03-14
+updated: 2024-03-25
 version: 3.1.113
 stars: 4.1
 ratings: 564

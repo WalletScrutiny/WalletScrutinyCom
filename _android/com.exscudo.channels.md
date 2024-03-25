@@ -10,9 +10,9 @@ appCountry: ru
 released: 2018-05-17
 updated: 2024-02-07
 version: 3.14.2062
-stars: 4.2
+stars: 4.1
 ratings: 659
-reviews: 49
+reviews: 50
 size: 
 website: https://fintap.app
 repository: 

@@ -3,16 +3,17 @@ wsId: bitkeyBlock
 title: Bitkey - Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
-users: 50
+- danny
+users: 500
 appId: world.bitkey.app
 appCountry: US
-released: Feb 28, 2024
-updated: 2024-03-08
-version: 2024.50.0 (2)
-stars: 
+released: 2024-02-28
+updated: 2024-03-15
+version: 2024.50.1 (3)
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 4
+size: 
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: 
@@ -27,11 +28,11 @@ twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official
 - https://www.facebook.com/profile.php?id=100088526238789
-- https://www.instagram.com/ownbitkey  
+- https://www.instagram.com/ownbitkey
 redirect_from: 
 developerName: Block, Inc.
 features:
-- multiSignature 
+- multiSignature
 
 ---
 

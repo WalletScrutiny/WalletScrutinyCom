@@ -9,9 +9,9 @@ appCountry:
 released: 2021-05-27
 updated: 2024-03-20
 version: 9.4.0
-stars: 3.9
+stars: 4
 ratings: 603
-reviews: 36
+reviews: 37
 size: 
 website: https://www.xapobank.com/
 repository: 

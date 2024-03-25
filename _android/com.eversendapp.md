@@ -10,9 +10,9 @@ appCountry: lv
 released: 2019-02-01
 updated: 2024-03-22
 version: 0.5.47
-stars: 3.4
+stars: 3.5
 ratings: 5009
-reviews: 5922
+reviews: 5924
 size: 
 website: http://eversend.co
 repository: 

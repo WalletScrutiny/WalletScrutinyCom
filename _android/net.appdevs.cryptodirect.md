@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.appdevs.cryptodirect.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-30
+date: 2024-03-25
 signer: 
 reviewArchive: 
 twitter: 

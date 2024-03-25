@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-21
 updated: 2024-03-22
 version: 5.6.1
-stars: 4
+stars: 4.1
 ratings: 27168
-reviews: 110
+reviews: 111
 size: 
 website: https://pluang.com
 repository: 

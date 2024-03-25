@@ -11,7 +11,7 @@ appCountry:
 released: 2020-07-07
 updated: 2024-03-13
 version: 0.8.2
-stars: 4.3
+stars: 4.2
 ratings: 45
 reviews: 30
 size: 
@@ -26,7 +26,7 @@ date: 2024-03-24
 signer: 
 reviewArchive:
 - date: 2024-01-30
-  version: "0.8.1"
+  version: 0.8.1
   appHash: a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
   gitRevision: 57a2e216194467fadf01e6075efb04b87b657347
   verdict: reproducible

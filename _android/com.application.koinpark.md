@@ -12,7 +12,7 @@ updated: 2024-03-20
 version: '1.36'
 stars: 3.8
 ratings: 
-reviews: 12
+reviews: 13
 size: 
 website: https://koinpark.com/
 repository: 

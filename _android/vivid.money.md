@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-09
 updated: 2024-03-21
 version: 3.7.1
-stars: 3.7
+stars: 3.3
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://vivid.money/
 repository: 

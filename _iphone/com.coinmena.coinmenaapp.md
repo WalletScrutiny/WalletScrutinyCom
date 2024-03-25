@@ -11,7 +11,7 @@ released: 2021-09-26
 updated: 2024-02-29
 version: 2.10.0
 stars: 3.7
-reviews: 83
+reviews: 84
 size: '62054400'
 website: https://www.coinmena.com/
 repository: 

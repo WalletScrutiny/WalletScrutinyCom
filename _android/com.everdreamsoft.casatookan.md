@@ -12,7 +12,7 @@ updated: 2023-11-13
 version: 1.2.1
 stars: 3.2
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: http://everdreamsoft.com
 repository: 

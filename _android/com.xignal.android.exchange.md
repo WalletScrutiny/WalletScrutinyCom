@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xignal.android.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-04-03
+date: 2024-03-25
 signer: 
 reviewArchive: 
 twitter: 

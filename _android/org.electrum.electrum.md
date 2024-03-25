@@ -26,7 +26,7 @@ date: 2024-03-25
 signer: 
 reviewArchive:
 - date: 2024-01-22
-  version: "4.5.1.0"
+  version: 4.5.1.0
   appHash: efcf5a4873df41f21e653aa7f6733719402cc701a0ac4ebf4fe1a075514ca2ad
   gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
   verdict: reproducible

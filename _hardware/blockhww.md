@@ -11,7 +11,7 @@ binaries: https://github.com/proto-at-block/bitkey/
 dimensions:
 - 56
 - 62
-- 13 
+- 13
 weight: 65
 provider: Block
 providerWebsite: https://block.xyz/
@@ -22,7 +22,8 @@ price: 150USD
 repository: https://github.com/proto-at-block/bitkey
 issue: 
 icon: blockhww.png
-bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
+bugbounty: >-
+  https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita
 date: 2024-03-14
@@ -32,8 +33,8 @@ twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official
 - https://www.facebook.com/profile.php?id=100088526238789
-- https://www.instagram.com/ownbitkey 
-features: 
+- https://www.instagram.com/ownbitkey
+features:
 - multiSignature
 
 ---

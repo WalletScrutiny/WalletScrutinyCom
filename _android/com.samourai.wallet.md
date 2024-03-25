@@ -10,7 +10,7 @@ users: 100000
 appId: com.samourai.wallet
 appCountry: 
 released: 
-updated: 2024-03-20
+updated: 2024-03-24
 version: VARY
 stars: 
 ratings: 
@@ -27,7 +27,7 @@ date: 2024-03-25
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 - date: 2023-10-06
-  version: "0.99.98h"
+  version: 0.99.98h
   appHash: 2e67af86400d69ae3ecb8b05e57e960d481800c15cd68bb204537a093fee99c8
   gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
   verdict: nonverifiable
