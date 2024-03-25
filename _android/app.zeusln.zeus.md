@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - mohammad
+- danny
 users: 10000
 appId: app.zeusln.zeus
 appCountry: 
@@ -21,10 +22,14 @@ issue:
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-01-30
-signer: 
+verdict: nonverifiable
+date: 2024-03-22
+signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-01-30
+  version: 0.8.1
+  appHash: a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
+  verdict: reproducible
 - date: 2023-12-30
   version: 0.8.0
   appHash: ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
@@ -69,62 +74,47 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.1
-apkVersionCode: 81003
+apkVersionName: 0.8.2
+apkVersionCode: 83001
 verdict:        
-appHash:        a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
-commit:         8ec56e8d3eb020fe52337c7b2a32a62f903ae6c4
+appHash:        dcc338ee0955ee1a43fe99a7d87c72961ae390b38a4400c83a637a1eff1d5f28
+commit:         a805deb3a76b576a303342b971000ee7f15748bf
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_81003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_81003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_81003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_81003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_83001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_83001/AndroidManifest.xml differ
+Files /tmp/fromPlay_app.zeusln.zeus_83001/assets/dexopt/baseline.prof and /tmp/fromBuild_app.zeusln.zeus_83001/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_app.zeusln.zeus_83001/assets/index.android.bundle and /tmp/fromBuild_app.zeusln.zeus_83001/assets/index.android.bundle differ
+Files /tmp/fromPlay_app.zeusln.zeus_83001/classes2.dex and /tmp/fromBuild_app.zeusln.zeus_83001/classes2.dex differ
+Files /tmp/fromPlay_app.zeusln.zeus_83001/classes.dex and /tmp/fromBuild_app.zeusln.zeus_83001/classes.dex differ
+Only in /tmp/fromPlay_app.zeusln.zeus_83001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_83001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_83001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_83001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 ```
 
-That is a bigger diff than expected but getting really close. If we ignore all
-the stuff we usually ignore from the META-INF folder the diff is in
-`AndroidManifest.xml` and `stamp-cert-sha256`.
+### Found only in the app from Google Play
 
-`stamp-cert-sha256` turns out to belong on our list of acceptable files to
-differ. It's Google's additional signature of the app.
+#### APK Signing information
+- **MANIFEST.MF** - Contains a list of the app's files including their SHA-1 digests.
+- **GOOGPLAY.SF** - Signature file containing the SHA-256 digests of the manifest file.
+- **GOOGPLAY.RSA** - Certificate file used to verify the app's signature.
+- **stamp-cert-sha256** - Contains the SHA-256 hash of the certificate used to sign the app
 
-But what about the first line - AndroidManifest.xml? Diffoscope can dig into
-that file and this is what it found:
+### Other diffs
+- **AndroidManifest.xml** - describes the app's essential information to the Android system before any code is executed.
+- **baseline.prof** - related to Android's [Ahead-Of-Time (AOT) compilation process](https://developer.android.com/topic/performance/baselineprofiles/overview).
+- **index.android.bundle** - contains the compiled JavaScript code for the app, enabling React Native apps to execute JavaScript code natively.
 
-```
-...
-├── AndroidManifest.xml (decoded)
-│ ├── AndroidManifest.xml
-│ │ @@ -225,10 +225,9 @@
-│ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:exported="false" android:process=":phoenix"/>
-│ │      <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
-│ │        <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
-│ │      </service>
-│ │      <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
-│ │      <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
-│ │      <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
-│ │ -    <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-│ │    </application>
-│ │  </manifest>
-```
+### Classes.dex diffs
 
-meaning the Google file contains the extra line:
+- contain the compiled bytecode that Android's Dalvik Virtual Machine (or ART) executes. 
 
-```
-<meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-```
+## Analysis 
 
-which again is expected when using the Android App Bundle (AAB) format which
-{{ page.title }} apparently switched to.
-
-While we don't know yet exactly how to automate testing, this app is
-**reproducible**. We also revise our prior review that had the same issues that
-were resolved in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
+The diffoscope results are significant enough that we cannot paste them on any online service. The only way is to upload the [document](https://drive.google.com/file/d/1WUGomym-vp7jJW18C9xJ8FsMBjvcFjLj/view?usp=sharing). For this reason, we can say that this version is **nonverifiable**.
 
 {% include asciicast %}

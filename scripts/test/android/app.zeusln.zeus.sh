@@ -15,8 +15,15 @@ test() {
   # build
   BUILDER_IMAGE="reactnativecommunity/react-native-android@sha256:7bbad62c74f01b2099163890fd11ab7b37e8a496528e6af2dfaa1f29369c2e24"
   podman run --rm --name zeus_builder_container -it -v `pwd`:/olympus/zeus $BUILDER_IMAGE bash -c \
-    'echo -e "\n\n********************************\n*** Building Zeus...\n********************************\n" && \
-      cd /olympus/zeus ; yarn install --frozen-lockfile && \
+    '
+    echo "Uninstalling/reinstalling Node and npm"   
+    apt-get update
+    cd /usr/local/bin/
+    rm node; rm npx; rm npm;
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash -; apt-get install nodejs -y
+    cd /
+      echo -e "\n\n********************************\n*** Building Zeus...\n********************************\n" && \
+      cd /olympus/zeus ; npm install -g npm@10.5.0 ;  yarn install --frozen-lockfile && \
       cd /olympus/zeus/node_modules/@lightninglabs/lnc-rn ; bash fetch-libraries.sh && \
       cd /olympus/zeus/android ; ./gradlew app:assembleRelease && \
 
@@ -29,4 +36,5 @@ test() {
               sha256sum $RENAMED_FILENAME
       done && \
       echo -e "\n" '
+      
 }
