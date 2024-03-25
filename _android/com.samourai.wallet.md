@@ -22,10 +22,15 @@ issue:
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-10-06
+verdict: nosource
+date: 2024-03-25
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
+- date: 2023-10-06
+  version: "0.99.98h"
+  appHash: 2e67af86400d69ae3ecb8b05e57e960d481800c15cd68bb204537a093fee99c8
+  gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
+  verdict: nonverifiable
 - date: 2023-05-04
   version: 0.99.98g
   appHash: 2e67af86400d69ae3ecb8b05e57e960d481800c15cd68bb204537a093fee99c8
@@ -45,6 +50,14 @@ developerName: Samourai
 features: 
 
 ---
+
+**Update 2024-03-25**: As of right now and at least since last week, this
+version of this product as found at Google Play has to be considered closed
+source.
+
+Not only is there no revision tagged as version `0.99.98i++`, also the
+`versionCode` 199 is not yet reached by their
+[public repository](https://code.samourai.io/wallet/samourai-wallet-android/-/blob/develop/app/build.gradle?ref_type=heads&blame=1#L48).
 
 **Update 2023-10-06**: The latest version from Google Play - 0.99.98h - was not
 tagged in the provider's public source repository. We tried with the last
