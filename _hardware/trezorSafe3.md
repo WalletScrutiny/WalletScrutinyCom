@@ -3,10 +3,11 @@ title: Trezor Safe 3
 appId: trezorSafe3
 authors:
 - danny
+- leo
 released: 2023-10-12
 discontinued: 
-updated: 
-version: 2.6.3
+updated: 2023-12-06
+version: 2.6.4
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
 - 59
@@ -24,8 +25,8 @@ issue: https://github.com/trezor/trezor-firmware/issues/3663
 icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
-verdict: wip
-date: 2023-12-21
+verdict: nonverifiable
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: trezor
