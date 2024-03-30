@@ -8,11 +8,11 @@ appId: app.yield
 appCountry: ng
 idd: '1591189242'
 released: 2022-06-15
-updated: 2024-03-13
-version: '24.0309'
+updated: 2024-03-26
+version: '24.0326'
 stars: 1
 reviews: 1
-size: '58999808'
+size: '61081600'
 website: https://yield.app/
 repository: 
 issue: 

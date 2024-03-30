@@ -8,11 +8,11 @@ users: 100000
 appId: com.fusion.chainge.android
 appCountry: us
 released: 2021-05-17
-updated: 2024-02-27
-version: 0.7.2
+updated: 2024-03-26
+version: 0.7.3
 stars: 3.7
 ratings: 8141
-reviews: 62
+reviews: 63
 size: 
 website: https://chainge.finance
 repository: 

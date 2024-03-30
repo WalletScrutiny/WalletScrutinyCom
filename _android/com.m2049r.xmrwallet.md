@@ -8,8 +8,8 @@ users: 100000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2023-12-10
-version: 3.3.10 'Argentina'
+updated: 2024-03-18
+version: 3.3.11 'Argentina'
 stars: 3.2
 ratings: 821
 reviews: 173

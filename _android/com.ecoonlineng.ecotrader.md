@@ -8,8 +8,8 @@ users: 5000
 appId: com.ecoonlineng.ecotrader
 appCountry: 
 released: 2020-11-13
-updated: 2021-11-03
-version: 3.7.0
+updated: 2024-03-29
+version: 4.3.1
 stars: 3.9
 ratings: 
 reviews: 15
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-10-24
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

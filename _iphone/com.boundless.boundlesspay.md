@@ -10,17 +10,17 @@ idd: '1598547096'
 released: 2021-12-28
 updated: 2023-04-02
 version: 2.1.1
-stars: 4.5
-reviews: 51
+stars: 4.4
+reviews: 53
 size: '55485440'
 website: https://www.boundlesspay.com
 repository: 
 issue: 
 icon: com.boundless.boundlesspay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-03-29
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: boundlesspay

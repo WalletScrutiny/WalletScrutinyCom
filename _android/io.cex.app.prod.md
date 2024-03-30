@@ -1,6 +1,6 @@
 ---
 wsId: cex
-title: CEX.IO Cryptocurrency Exchange
+title: CEX.IO App - Buy Crypto & BTC
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 1000000
 appId: io.cex.app.prod
 appCountry: 
 released: 2015-12-22
-updated: 2024-01-31
+updated: 2024-03-27
 version: 7.4.3
 stars: 2.9
 ratings: 16669
-reviews: 1841
+reviews: 1843
 size: 
 website: https://cex.io
 repository: 

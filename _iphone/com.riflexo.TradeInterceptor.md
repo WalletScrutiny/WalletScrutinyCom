@@ -11,7 +11,7 @@ released: 2009-09-23
 updated: 2024-03-24
 version: 6.7.57
 stars: 4.8
-reviews: 476
+reviews: 477
 size: '84772864'
 website: https://www.thinkmarkets.com/en/about-us/
 repository: 

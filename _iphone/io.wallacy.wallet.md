@@ -8,11 +8,11 @@ appId: io.wallacy.wallet
 appCountry: us
 idd: '6448592576'
 released: 2023-07-11
-updated: 2024-02-22
-version: 0.1.12
+updated: 2024-03-29
+version: 0.1.13
 stars: 4.8
 reviews: 5
-size: '57383936'
+size: '81106944'
 website: https://wallacy.io/
 repository: 
 issue: 

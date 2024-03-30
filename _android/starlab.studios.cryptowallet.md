@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto AI Chat Btc Eth
+title: 'Crypto Wallets: BTC, USDT, ETH'
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
 - danny
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Seven Labs Gen AI Chatbot
+developerName: Seven Labs AI Apps
 features: 
 
 ---

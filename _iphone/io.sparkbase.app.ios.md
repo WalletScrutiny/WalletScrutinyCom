@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.sparkbase.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-03
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

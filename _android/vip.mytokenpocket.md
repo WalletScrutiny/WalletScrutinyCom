@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-29
 updated: 2024-03-22
 version: 2.0.8
-stars: 4.5
+stars: 4.4
 ratings: 16862
-reviews: 545
+reviews: 546
 size: 
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android

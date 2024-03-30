@@ -8,11 +8,11 @@ appId: com.bbt.bitkubnext.app
 appCountry: th
 idd: '6444399387'
 released: 2022-12-07
-updated: 2024-02-06
-version: 2.0.1
+updated: 2024-03-28
+version: '2.1'
 stars: 4.9
-reviews: 224
-size: '119412736'
+reviews: 225
+size: '122383360'
 website: https://www.bitkubchain.com
 repository: 
 issue: 

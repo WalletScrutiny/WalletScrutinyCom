@@ -10,8 +10,8 @@ idd: '6476990471'
 released: 2024-03-13
 updated: 2024-03-20
 version: 2024.50.1
-stars: 4.7
-reviews: 23
+stars: 4.5
+reviews: 26
 size: '130785280'
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey

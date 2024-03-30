@@ -1,6 +1,6 @@
 ---
 wsId: swapsCryptoApp
-title: swaps.app
+title: 'Swaps: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.swaps.only
 appCountry: xk
 idd: '1567210224'
 released: 2021-05-31
-updated: 2023-08-29
-version: 2.1.3
+updated: 2024-03-27
+version: 3.0.0
 stars: 0
 reviews: 0
-size: '148473856'
+size: '206306304'
 website: 
 repository: 
 issue: 

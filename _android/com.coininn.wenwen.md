@@ -1,6 +1,6 @@
 ---
 wsId: coinInnBTCandDoge
-title: CoinInn:Invest BTC and Doge
+title: CoinInn-Trade Altcoin
 altTitle: 
 authors:
 - danny

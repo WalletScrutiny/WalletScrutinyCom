@@ -12,7 +12,7 @@ updated: 2024-03-05
 version: 3.2.03
 stars: 4.1
 ratings: 22977
-reviews: 45
+reviews: 47
 size: 
 website: https://reku.id
 repository: 

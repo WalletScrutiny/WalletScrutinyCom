@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.plarkapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-04-03
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

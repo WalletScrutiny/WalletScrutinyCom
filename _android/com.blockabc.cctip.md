@@ -1,17 +1,17 @@
 ---
 wsId: blockabcCCtip
-title: Cwallet - Trade & Earn Crypto
+title: Cwallet - Secure Crypto Wallet
 altTitle: 
 authors: 
 users: 100000
 appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
-updated: 2024-03-22
-version: 3.0.4
+updated: 2024-03-29
+version: 3.0.5
 stars: 4.2
 ratings: 
-reviews: 183
+reviews: 185
 size: 
 website: https://cwallet.com
 repository: 

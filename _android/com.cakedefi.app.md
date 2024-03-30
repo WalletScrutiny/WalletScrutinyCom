@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-06-16
 updated: 2024-01-05
 version: 7.0.0
-stars: 3.2
+stars: 3.1
 ratings: 1135
-reviews: 187
+reviews: 188
 size: 
 website: https://bake.io
 repository: 

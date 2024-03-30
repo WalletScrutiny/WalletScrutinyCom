@@ -11,7 +11,7 @@ released: 2009-12-09
 updated: 2024-03-25
 version: 3.23.0
 stars: 4.3
-reviews: 532
+reviews: 537
 size: '59484160'
 website: https://www.swissquote.com/en-ch/private/trade/products/forex
 repository: 

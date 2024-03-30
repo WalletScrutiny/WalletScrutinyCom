@@ -1,6 +1,6 @@
 ---
 wsId: mwallet
-title: Bitcoin & Crypto DeFi Wallet
+title: Bitcoin Wallet | Bitcoin.com
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: com.bitcoin.mwallet
 appCountry: 
 idd: 1252903728
 released: 2017-07-11
-updated: 2024-03-22
-version: 8.20.1
+updated: 2024-03-30
+version: 8.20.3
 stars: 4.6
-reviews: 28633
+reviews: 28723
 size: '226958336'
 website: https://wallet.bitcoin.com/
 repository: 

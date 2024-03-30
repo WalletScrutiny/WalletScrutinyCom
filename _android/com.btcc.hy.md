@@ -12,7 +12,7 @@ updated: 2024-02-05
 version: 8.3.1
 stars: 4.4
 ratings: 11611
-reviews: 464
+reviews: 471
 size: 
 website: https://www.btcc.com/en-US
 repository: 

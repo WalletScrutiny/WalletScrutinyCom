@@ -8,11 +8,11 @@ users: 50000
 appId: com.coolbitx.cwsapp
 appCountry: cn
 released: 2017-12-01
-updated: 2024-03-11
-version: 3.30.0
+updated: 2024-03-26
+version: 3.31.0
 stars: 4.7
 ratings: 1147
-reviews: 624
+reviews: 626
 size: 
 website: http://coolwallet.io
 repository: 

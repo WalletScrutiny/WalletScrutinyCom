@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-11
 updated: 2023-04-21
 version: 2.6.0
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 27
+reviews: 26
 size: 
 website: https://s-wallet.ai
 repository: 

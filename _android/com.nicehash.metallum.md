@@ -10,9 +10,9 @@ appCountry:
 released: 2020-04-17
 updated: 2024-03-22
 version: 4.12.1
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 560
+reviews: 562
 size: 
 website: https://www.nicehash.com/my/
 repository: 

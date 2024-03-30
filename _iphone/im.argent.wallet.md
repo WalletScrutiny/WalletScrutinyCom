@@ -10,8 +10,8 @@ idd: 1358741926
 released: 2018-10-25
 updated: 2024-03-25
 version: 4.25.1
-stars: 4.6
-reviews: 2178
+stars: 4.5
+reviews: 2179
 size: '138388480'
 website: https://www.argent.xyz
 repository: 

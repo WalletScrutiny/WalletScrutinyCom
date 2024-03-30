@@ -1,6 +1,6 @@
 ---
 wsId: bitoshiAfrica
-title: Bitoshi
+title: 'Bitoshi: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2022-10-13
 updated: 2023-08-30
 version: 1.3.0
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://bitoshi.africa
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wRolariteX_12668517.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-30
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

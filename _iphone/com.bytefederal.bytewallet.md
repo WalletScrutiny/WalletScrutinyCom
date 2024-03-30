@@ -10,8 +10,8 @@ idd: '1569062610'
 released: 2021-07-27
 updated: 2024-02-23
 version: 1.5.1
-stars: 3.6
-reviews: 37
+stars: 3.5
+reviews: 38
 size: '61127680'
 website: https://www.bytefederal.com/
 repository: 

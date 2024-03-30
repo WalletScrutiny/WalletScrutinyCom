@@ -8,11 +8,11 @@ appId: primexbtcom
 appCountry: us
 idd: '1522267195'
 released: 2021-10-20
-updated: 2024-03-22
-version: 3.4.1
+updated: 2024-03-29
+version: 3.5.1
 stars: 4.6
-reviews: 206
-size: '86482944'
+reviews: 207
+size: '88772608'
 website: 
 repository: 
 issue: 

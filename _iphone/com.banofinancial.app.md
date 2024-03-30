@@ -10,8 +10,8 @@ idd: '1562849570'
 released: 2021-05-13
 updated: 2024-02-08
 version: 1.5.18
-stars: 3.8
-reviews: 55
+stars: 3.7
+reviews: 56
 size: '118828032'
 website: https://bano.app
 repository: 
