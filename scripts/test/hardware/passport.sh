@@ -21,6 +21,7 @@ model=$2
 
 # Remove any previous build artifacts
 rm -rf /tmp/passport/
+docker image rm foundation-devices/passport2:latest
 
 # Prepare the directory for building Passport's firmware
 mkdir /tmp/passport
@@ -89,8 +90,3 @@ binaryHash=($(sha256sum ports/stm32/build-Passport/firmware-${model^^}.bin))
 echo "Expected v${version} build hash:"
 echo $binaryHash
 echo "$binaryHash no-header-${fileName}" | sha256sum --check
-
-# Cleanup all build artifacts and Docker image
-cd ~
-rm -rf /tmp/passport/
-docker image rm foundation-devices/passport2:latest
