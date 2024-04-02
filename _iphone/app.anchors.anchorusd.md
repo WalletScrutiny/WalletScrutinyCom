@@ -1,6 +1,6 @@
 ---
 wsId: AnchorUSD
-title: Anchor - Send and Invest
+title: Anchor - Buy Bitcoin and Ether
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: app.anchors.anchorusd
 appCountry: us
 idd: 1495986023
 released: 2020-01-30
-updated: 2024-02-27
-version: 1.19.10
+updated: 2024-04-01
+version: 1.19.11
 stars: 4.3
-reviews: 5204
+reviews: 5207
 size: '40031232'
 website: https://www.tryanchor.com/
 repository: 

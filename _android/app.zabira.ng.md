@@ -4,7 +4,7 @@ title: 'Zabira: Buy BTC, ETH & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: app.zabira.ng
 appCountry: 
 released: 2022-02-23

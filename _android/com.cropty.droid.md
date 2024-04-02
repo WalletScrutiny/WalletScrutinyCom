@@ -4,7 +4,7 @@ title: Crypto wallet — Bitcoin & USDT
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04

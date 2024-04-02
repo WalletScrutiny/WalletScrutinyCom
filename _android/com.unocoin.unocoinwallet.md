@@ -9,7 +9,7 @@ appId: com.unocoin.unocoinwallet
 appCountry: 
 released: 2016-11-30
 updated: 2024-03-28
-version: 5.3.11
+version: 5.3.12
 stars: 4.7
 ratings: 20365
 reviews: 202

@@ -12,7 +12,7 @@ updated: 2024-03-06
 version: 2.4.9
 stars: 4.6
 ratings: 
-reviews: 58
+reviews: 59
 size: 
 website: https://www.cointr.pro
 repository: 

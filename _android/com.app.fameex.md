@@ -9,10 +9,10 @@ appId: com.app.fameex
 appCountry: us
 released: 2020-08-10
 updated: 2024-03-29
-version: 3.4.2
+version: 3.4.3
 stars: 4
 ratings: 1588
-reviews: 45
+reviews: 41
 size: 
 website: https://www.fameex.com
 repository: 

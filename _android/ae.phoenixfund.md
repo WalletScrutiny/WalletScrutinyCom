@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ae.phoenixfund.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-06
+date: 2024-04-02
 signer: 
 reviewArchive: 
 twitter: 

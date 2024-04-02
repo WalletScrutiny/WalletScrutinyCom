@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-01
 updated: 2023-04-17
 version: 1.3.3
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://keyst.one/
 repository: 

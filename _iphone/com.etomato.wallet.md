@@ -8,8 +8,8 @@ appId: com.etomato.wallet
 appCountry: kr
 idd: '1618695778'
 released: 2022-04-24
-updated: 2023-12-22
-version: 1.4.0
+updated: 2024-03-31
+version: 1.4.1
 stars: 4.8
 reviews: 25
 size: '50314240'

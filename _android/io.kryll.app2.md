@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-25
 updated: 2024-02-26
 version: 2.3.20
-stars: 3.9
+stars: 3.6
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://kryl.io
 repository: 

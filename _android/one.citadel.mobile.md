@@ -8,8 +8,8 @@ users: 10000
 appId: one.citadel.mobile
 appCountry: 
 released: 2020-12-29
-updated: 2024-03-11
-version: 2.11.0
+updated: 2024-04-01
+version: 2.12.0
 stars: 4.6
 ratings: 
 reviews: 14

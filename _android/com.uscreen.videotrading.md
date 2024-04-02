@@ -7,7 +7,7 @@ users: 500
 appId: com.uscreen.videotrading
 appCountry: 
 released: 2021-12-07
-updated: 2023-12-01
+updated: 2024-03-29
 version: 2.3.1
 stars: 
 ratings: 

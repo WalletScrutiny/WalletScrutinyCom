@@ -8,11 +8,11 @@ appId: coin98.crypto.finance.insights
 appCountry: us
 idd: 1561969966
 released: 2021-05-14
-updated: 2024-03-23
-version: 14.6.0
+updated: 2024-03-31
+version: 14.6.1
 stars: 4.5
-reviews: 616
-size: '211252224'
+reviews: 617
+size: '211244032'
 website: https://coin98.com
 repository: 
 issue: 

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 169442
 reviews: 230
 size: 
-website: https://pro.btcturk.com
+website: https://kripto.btcturk.com
 repository: 
 issue: 
 icon: com.btcturk.pro.png

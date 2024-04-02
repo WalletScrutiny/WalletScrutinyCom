@@ -10,8 +10,8 @@ idd: 1477039507
 released: 2019-08-22
 updated: 2022-07-27
 version: '6.0'
-stars: 3.9
-reviews: 21
+stars: 4
+reviews: 22
 size: '22142976'
 website: https://www.wanchain.org
 repository: 
