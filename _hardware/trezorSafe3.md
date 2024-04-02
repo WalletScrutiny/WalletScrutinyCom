@@ -25,8 +25,8 @@ issue: https://github.com/trezor/trezor-firmware/issues/3663
 icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
-verdict: nonverifiable
-date: 2024-03-30
+verdict: reproducible
+date: 2024-04-01
 signer: 
 reviewArchive: 
 twitter: trezor
@@ -104,8 +104,9 @@ $ sha256sum *.bin
 203d5d8d50ced8d75086c418ba2ee4cb9b2857df27821767c935922db4f30184  trezor-t2b1-2.6.4-bitcoinonly.bin
 ...
 $ git clone https://github.com/trezor/trezor-firmware.git
+$ cd trezor-firmware
 $ git checkout core/v2.6.4 
-$ bash -c "./build-docker.sh --skip-legacy core/v2.6.4"
+$ bash -c "./build-docker.sh --models R core/v2.6.4"
 ...
 Fingerprints:
 7558899d0e9a551738c5e29b4b27741d00a472fc8f9e47eddbfc983fc236cddd build/core-R/bootloader/bootloader.bin
@@ -118,21 +119,18 @@ Fingerprints:
 e78da8a00354dd1223da081600f881b71bd297dd565e7a2c0a9880e52575d127 build/core-T-bitcoinonly/firmware/firmware.bin
 $ cp ../trezor-t2b1-2.6.4-bitcoinonly.bin trezor-t2b1-2.6.4-bitcoinonly.bin.zeroed
 $ cp ../trezor-t2b1-2.6.4.bin trezor-t2b1-2.6.4.bin.zeroed
-$ dd if=/dev/zero of=trezor-t2b1-2.6.4.bin.zeroed bs=1 seek=5567 count=65 conv=notrunc
-$ dd if=/dev/zero of=trezor-t2b1-2.6.4-bitcoinonly.bin.zeroed bs=1 seek=5567 count=65 conv=notrunc
-$ sha256sum *.zeroed
-4f3d50525bfa59d05385b92999be1c44a6ec52109ec30f81101483f1c4fcf8a4  trezor-t2b1-2.6.4.bin.zeroed
-b3ccb868d1850726b62ff2ee394a0e2cb461326f31ac4cce3f18f7fd9f70062f  trezor-t2b1-2.6.4-bitcoinonly.bin.zeroed
+$ vendorHeaderSize=4608
+$ seekSize=$(( 5567 - $vendorHeaderSize + 512 ))
+$ dd if=/dev/zero of=trezor-t2b1-2.6.4.bin.zeroed bs=1 seek=$seekSize count=65 conv=notrunc
+$ dd if=/dev/zero of=trezor-t2b1-2.6.4-bitcoinonly.bin.zeroed bs=1 seek=$seekSize count=65 conv=notrunc
+$ sha256sum *.zeroed build/core-R{,-bitcoinonly}/firmware/firmware.bin | sort
+ac2aadad8850f6d23763e543ddd2604e5760eeb7c7ec747f1c1015246125207c  build/core-R-bitcoinonly/firmware/firmware.bin
+ac2aadad8850f6d23763e543ddd2604e5760eeb7c7ec747f1c1015246125207c  trezor-t2b1-2.6.4-bitcoinonly.bin.zeroed
+c723a55315ed5528db602d8ef0eebeb4a8a9ed96a0e237122398a999fab5e75e  build/core-R/firmware/firmware.bin
+c723a55315ed5528db602d8ef0eebeb4a8a9ed96a0e237122398a999fab5e75e  trezor-t2b1-2.6.4.bin.zeroed
 ```
 
-That doesn't match the expected
-
-```
-5ac16cb5002aa607908be376378a7fd1a1bc18f7b05e7a047cb1365840cc93ef build/core-R/firmware/firmware.bin
-013d595fc621c12324afd90721c6a37d055d853f6af54d5432e27e6a425656dd build/core-R-bitcoinonly/firmware/firmware.bin
-```
-
-This binary is currently **not verifiable** and we will investigate this
-further.
+This binary is **reproducible** except for the signature which is to be
+expected.
 
 {% include asciicast %}
