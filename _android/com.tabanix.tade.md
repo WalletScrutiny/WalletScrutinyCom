@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tabanix.tade.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-09
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashkey.me.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-26
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: hashkey_me

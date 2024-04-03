@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cryptoapis.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-14
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

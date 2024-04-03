@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.afrowallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-20
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

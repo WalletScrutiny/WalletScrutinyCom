@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.lndroid.wallet.testnet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-04-05
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

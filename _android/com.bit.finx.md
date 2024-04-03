@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bit.finx.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-09
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

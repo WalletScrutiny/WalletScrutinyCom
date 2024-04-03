@@ -19,9 +19,9 @@ repository:
 issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1
 icon: com.aniket.my_paper_wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2022-12-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

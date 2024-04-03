@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.polyx.wallet-app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-20
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: Polyxchange

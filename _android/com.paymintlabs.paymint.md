@@ -19,9 +19,9 @@ repository: https://github.com/Paymint-Labs/Paymint
 issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: paymint_wallet

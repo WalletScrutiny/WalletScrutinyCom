@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bd.nazmul81.global_chain.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-20
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

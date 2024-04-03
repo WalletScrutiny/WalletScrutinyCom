@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.steaker.steaker_android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-31
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

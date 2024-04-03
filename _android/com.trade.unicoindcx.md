@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.trade.unicoindcx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-06
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: Unicoin5

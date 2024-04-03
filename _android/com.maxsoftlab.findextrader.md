@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.maxsoftlab.findextrader.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-08-18
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

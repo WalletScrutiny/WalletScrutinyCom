@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchangecopter.Copter.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-09-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

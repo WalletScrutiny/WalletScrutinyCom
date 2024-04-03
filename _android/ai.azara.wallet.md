@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-05
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

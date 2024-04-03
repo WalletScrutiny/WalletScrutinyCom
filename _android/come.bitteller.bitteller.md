@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: come.bitteller.bitteller.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-12-21
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

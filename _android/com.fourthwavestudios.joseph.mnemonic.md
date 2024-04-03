@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fourthwavestudios.joseph.mnemonic.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-04-22
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

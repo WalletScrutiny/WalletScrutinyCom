@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.flamer.swap.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

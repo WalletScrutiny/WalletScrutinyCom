@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dcbits.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-01-19
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

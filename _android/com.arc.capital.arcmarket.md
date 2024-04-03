@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.arc.capital.arcmarket.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-14
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

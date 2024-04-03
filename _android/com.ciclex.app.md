@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ciclex.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tradehub360.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

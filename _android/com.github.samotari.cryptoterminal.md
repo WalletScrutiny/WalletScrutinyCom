@@ -19,9 +19,9 @@ repository: https://github.com/samotari/crypto-terminal
 issue: 
 icon: com.github.samotari.cryptoterminal.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2022-06-29
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

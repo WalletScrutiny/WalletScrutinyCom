@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xtrm.world.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

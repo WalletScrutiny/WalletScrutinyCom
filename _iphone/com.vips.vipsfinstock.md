@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vips.vipsfinstock.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: VIPS_Finstock

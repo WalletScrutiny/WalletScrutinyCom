@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.otcfy.crypto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-28
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

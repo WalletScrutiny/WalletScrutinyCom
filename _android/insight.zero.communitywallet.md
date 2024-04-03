@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: insight.zero.communitywallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2023-05-05
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.financex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-25
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

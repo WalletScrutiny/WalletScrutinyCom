@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptology.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-01-28
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: Cryptologyexch

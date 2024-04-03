@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paykoricrypto.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-25
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pandats.fx24gold.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

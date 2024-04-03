@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.stasis.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-12-22
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: stasisnet

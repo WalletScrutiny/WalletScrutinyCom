@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mooncod.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

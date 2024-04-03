@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.daeapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-04
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

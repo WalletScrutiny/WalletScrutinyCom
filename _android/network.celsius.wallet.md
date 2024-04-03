@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-04
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: celsiusnetwork

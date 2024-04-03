@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockbyte.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-26
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

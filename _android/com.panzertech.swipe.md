@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.panzertech.swipe.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-03-21
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
