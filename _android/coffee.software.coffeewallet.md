@@ -4,6 +4,8 @@ title: Coffee Wallet
 altTitle: 
 authors:
 - danny
+- emanuel
+- leo
 users: 5000
 appId: coffee.software.coffeewallet
 appCountry: 
@@ -20,8 +22,8 @@ issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2023-07-17
+verdict: nonverifiable
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: CoffeeWallet
@@ -29,10 +31,15 @@ social:
 - https://www.reddit.com/r/CoffeeWallet/
 - https://t.me/CoffeeWallet
 redirect_from: 
-developerName: Coffee  Software
+developerName: Coffee Software
 features: 
 
 ---
+
+**Update 2024-04-03**: With lack of updates from the provider we file this as
+**not verifiable** as we have not managed to reproduce the still latest
+version `0.22` on Google Play. His findings can be seen
+[here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/404).
 
 ## App Description 
 
@@ -49,5 +56,3 @@ From Google Play page:
 ## Analysis 
 
 We downloaded the app and created a wallet. It is possible to back up the BTC wallet using BIP39 compliant seed words.
-
-This app is [for verification](https://github.com/coffee-software/coffee.wallet/issues/89).
