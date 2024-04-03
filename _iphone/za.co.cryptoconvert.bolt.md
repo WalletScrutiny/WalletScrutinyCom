@@ -3,11 +3,11 @@ wsId: cryptoQR
 title: CryptoQR Pay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: za.co.cryptoconvert.bolt
 appCountry: in
 idd: '1617778619'
-released: '2022-05-16T07:00:00Z'
+released: 2022-05-16
 updated: 2024-03-27
 version: '2.7'
 stars: 0

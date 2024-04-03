@@ -10,9 +10,9 @@ appCountry: si
 released: 2017-10-17
 updated: 2024-03-05
 version: 3.5.2
-stars: 4
+stars: 3.9
 ratings: 291
-reviews: 160
+reviews: 161
 size: 
 website: https://www.iconomi.com
 repository: 

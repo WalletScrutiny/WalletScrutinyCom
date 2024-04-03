@@ -9,7 +9,7 @@ appId: jp.paddle_inc.bitstock
 appCountry: jp
 released: 2019-09-03
 updated: 2023-11-16
-version: 1.4.54
+version: 1.4.57
 stars: 3.3
 ratings: 3029
 reviews: 1729

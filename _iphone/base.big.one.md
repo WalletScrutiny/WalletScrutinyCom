@@ -7,8 +7,8 @@ appId: base.big.one
 appCountry: us
 idd: 1485385044
 released: 2019-11-06
-updated: 2024-03-27
-version: 2.4.510
+updated: 2024-04-02
+version: 2.4.511
 stars: 4.4
 reviews: 108
 size: '184654848'

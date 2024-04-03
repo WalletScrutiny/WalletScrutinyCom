@@ -12,7 +12,7 @@ updated: 2024-03-22
 version: 3.57.2
 stars: 4
 ratings: 40512
-reviews: 284
+reviews: 283
 size: 
 website: https://bitso.com/app
 repository: 

@@ -8,11 +8,11 @@ appId: com.kraken.trade.app
 appCountry: 
 idd: 1473024338
 released: 2019-11-12
-updated: 2024-03-25
-version: 4.10.0
+updated: 2024-04-02
+version: 4.11.0
 stars: 4.6
-reviews: 13859
-size: '105699328'
+reviews: 13872
+size: '109570048'
 website: https://www.kraken.com
 repository: 
 issue: 

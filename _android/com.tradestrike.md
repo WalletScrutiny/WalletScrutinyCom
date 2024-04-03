@@ -8,8 +8,8 @@ users: 5000
 appId: com.tradestrike
 appCountry: 
 released: 2022-09-26
-updated: 2024-03-22
-version: '3.7'
+updated: 2024-04-01
+version: '3.8'
 stars: 4.7
 ratings: 
 reviews: 19

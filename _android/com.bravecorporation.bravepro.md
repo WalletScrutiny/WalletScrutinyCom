@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Brave Corporation
+developerName: BravePay
 features: 
 
 ---

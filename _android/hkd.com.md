@@ -8,8 +8,8 @@ users: 100000
 appId: hkd.com
 appCountry: 
 released: 2020-09-11
-updated: 2024-04-01
-version: 2.8.9
+updated: 2024-04-03
+version: 2.9.0
 stars: 4.2
 ratings: 
 reviews: 13

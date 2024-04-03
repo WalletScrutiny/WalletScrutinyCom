@@ -1,6 +1,6 @@
 ---
 wsId: unionCash
-title: Unioncash
+title: Union.cash
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.union.cash
 appCountry: 
 released: 2021-06-25
-updated: 2024-03-13
-version: 1.3.1
+updated: 2024-04-02
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 

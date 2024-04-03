@@ -7,11 +7,11 @@ appId: com.bitlifi.app
 appCountry: us
 idd: '6448746690'
 released: 2023-05-16
-updated: 2023-09-25
-version: 1.7.5
+updated: 2024-04-03
+version: 1.9.1
 stars: 0
 reviews: 0
-size: '21740544'
+size: '24951808'
 website: https://www.bitlifi.com
 repository: 
 issue: 

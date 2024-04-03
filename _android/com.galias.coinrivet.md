@@ -3,7 +3,7 @@ wsId: coinRivet
 title: Coin Rivet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.galias.coinrivet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CoinRivet
 social:
-- https://coinrivet.com 
+- https://coinrivet.com
 - https://www.instagram.com/CoinRivet
 - https://www.facebook.com/CoinRivet
 redirect_from: 

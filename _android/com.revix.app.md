@@ -1,6 +1,6 @@
 ---
 wsId: revixBuyBitcoin
-title: Altify - Buy Bitcoin & Crypto
+title: Altify - Crypto Investment Hub
 altTitle: 
 authors:
 - danny

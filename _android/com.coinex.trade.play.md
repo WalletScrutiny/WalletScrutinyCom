@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: 'CoinEx: Buy Bitcoin & Crypto'
+title: 'CoinEx: Buy Bitcoin & ENA'
 altTitle: 
 authors:
 - leo
@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-27
 updated: 2024-03-24
 version: 3.29.2
-stars: 4.1
+stars: 4.2
 ratings: 60269
-reviews: 1408
+reviews: 1409
 size: 
 website: https://www.coinex.com/
 repository: 

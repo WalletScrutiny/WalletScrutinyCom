@@ -8,8 +8,8 @@ users: 1000
 appId: com.bitlifi.app
 appCountry: 
 released: 2023-05-04
-updated: 2023-09-19
-version: 1.7.5
+updated: 2024-04-03
+version: 1.9.1
 stars: 
 ratings: 
 reviews: 

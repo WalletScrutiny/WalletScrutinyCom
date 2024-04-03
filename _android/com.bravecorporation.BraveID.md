@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/BraveCorporation
 - https://www.youtube.com/@bravepayofficial
 redirect_from: 
-developerName: Brave Corporation
+developerName: BravePay
 features: 
 
 ---

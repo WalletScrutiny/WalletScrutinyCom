@@ -1,6 +1,6 @@
 ---
 wsId: coinpassMobile
-title: coinpass Mobile
+title: 'coinpass: Crypto for Business'
 altTitle: 
 authors:
 - danny

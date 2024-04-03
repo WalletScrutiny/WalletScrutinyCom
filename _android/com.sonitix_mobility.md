@@ -8,8 +8,8 @@ users: 10000
 appId: com.sonitix_mobility
 appCountry: 
 released: 2022-03-05
-updated: 2023-04-08
-version: 2.0.44
+updated: 2024-04-03
+version: 2.0.46
 stars: 4.7
 ratings: 
 reviews: 

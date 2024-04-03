@@ -3,17 +3,17 @@ wsId: coinRivet
 title: Coin Rivet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.luxontech.coinrivet
 appCountry: ca
 idd: '1617049863'
-released: '2022-05-11T07:00:00Z'
+released: 2022-05-11
 updated: 2024-03-07
 version: 1.3.4
 stars: 0
 reviews: 0
 size: '23662592'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.luxontech.coinrivet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: CoinRivet
 social:
-- https://coinrivet.com 
+- https://coinrivet.com
 - https://www.instagram.com/CoinRivet
 - https://www.facebook.com/CoinRivet
 features: 

@@ -8,8 +8,8 @@ users: 1000000
 appId: com.enjin.mobile.wallet
 appCountry: 
 released: 2018-01-01
-updated: 2024-04-01
-version: 2.9.8
+updated: 2024-04-02
+version: 2.9.9
 stars: 4.5
 ratings: 12608
 reviews: 1072

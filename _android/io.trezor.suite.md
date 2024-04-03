@@ -8,8 +8,8 @@ users: 50000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
-updated: 2024-03-04
-version: 24.3.1
+updated: 2024-04-02
+version: 24.4.1
 stars: 3.3
 ratings: 
 reviews: 34

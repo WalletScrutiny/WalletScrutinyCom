@@ -8,11 +8,11 @@ appId: com.unicoindcx.iphoneunicoindcx
 appCountry: us
 idd: '1447599401'
 released: 2018-12-29
-updated: 2024-03-23
-version: 3.0.0
+updated: 2024-04-02
+version: 3.1.0
 stars: 5
 reviews: 3
-size: '20746240'
+size: '22049792'
 website: 
 repository: 
 issue: 

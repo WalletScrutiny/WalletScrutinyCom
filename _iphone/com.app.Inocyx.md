@@ -8,11 +8,11 @@ appId: com.app.Inocyx
 appCountry: in
 idd: '6444437433'
 released: 2022-12-05
-updated: 2024-03-27
-version: '2.6'
+updated: 2024-04-03
+version: '2.7'
 stars: 5
 reviews: 9
-size: '51826688'
+size: '52441088'
 website: 
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: changelly
-title: Changelly・Buy Bitcoin BTC・ADA
+title: Changelly Exchange・Buy Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.changelly.iosapp
 appCountry: us
 idd: '1435140380'
 released: 2019-10-04
-updated: 2024-03-04
-version: 2.39.1
+updated: 2024-04-03
+version: 2.40.1
 stars: 4.7
-reviews: 4719
-size: '212766720'
+reviews: 4737
+size: '213330944'
 website: https://changelly.com
 repository: 
 issue: 

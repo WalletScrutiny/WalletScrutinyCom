@@ -3,7 +3,7 @@ wsId: cryptoQR
 title: CryptoQR
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: za.co.cryptoconvert.bolt
 appCountry: 

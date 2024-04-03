@@ -8,11 +8,11 @@ appId: com.obsidiam.appstore
 appCountry: us
 idd: '1449766297'
 released: 2020-09-03
-updated: 2023-05-08
-version: 2.9.0
+updated: 2024-04-03
+version: 3.0.0
 stars: 4.9
 reviews: 14
-size: '80191488'
+size: '80334848'
 website: 
 repository: 
 issue: 
