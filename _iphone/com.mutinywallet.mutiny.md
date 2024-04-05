@@ -10,7 +10,7 @@ released: 2024-03-01
 updated: 2024-04-02
 version: 1.6.1
 stars: 5
-reviews: 8
+reviews: 9
 size: '42572800'
 website: https://www.mutinywallet.com/
 repository: 

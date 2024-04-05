@@ -8,11 +8,11 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2024-04-01
+updated: 2024-04-04
 version: 1.182.00
 stars: 4.3
 ratings: 35079
-reviews: 110
+reviews: 111
 size: 
 website: http://latoken.com
 repository: 

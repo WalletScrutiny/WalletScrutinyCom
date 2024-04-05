@@ -11,7 +11,7 @@ released: 2015-06-02
 updated: 2024-03-18
 version: 4012.2.0
 stars: 4.8
-reviews: 1227
+reviews: 1230
 size: '211464192'
 website: https://www.signalfinancialfcu.org/
 repository: 

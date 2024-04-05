@@ -9,7 +9,7 @@ appId: com.bitpanda.bitpanda
 appCountry: 
 released: 2018-11-07
 updated: 2024-03-28
-version: 2.70.0
+version: 2.71.0
 stars: 3.4
 ratings: 
 reviews: 15

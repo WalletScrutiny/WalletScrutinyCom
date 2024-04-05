@@ -11,7 +11,7 @@ released: 2018-01-02
 updated: 2024-03-27
 version: 3.31.0
 stars: 4.4
-reviews: 510
+reviews: 514
 size: '129783808'
 website: http://coolwallet.io
 repository: 

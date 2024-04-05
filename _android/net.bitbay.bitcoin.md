@@ -12,7 +12,7 @@ updated: 2023-12-14
 version: 1.1.43
 stars: 3.1
 ratings: 1131
-reviews: 13
+reviews: 14
 size: 
 website: https://zondacrypto.com
 repository: 

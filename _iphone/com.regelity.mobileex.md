@@ -11,7 +11,7 @@ released: 2023-01-16
 updated: 2024-03-14
 version: 1.35.6
 stars: 4.5
-reviews: 23
+reviews: 24
 size: '34159616'
 website: https://exnode.by
 repository: 

@@ -8,11 +8,11 @@ appId: ru.webtronics.touchwallet2
 appCountry: us
 idd: '6443906980'
 released: 2022-11-01
-updated: 2023-11-28
-version: 1.6.20
+updated: 2024-04-02
+version: 2.0.1
 stars: 3.7
 reviews: 3
-size: '65965056'
+size: '77606912'
 website: https://touchwallet.com/
 repository: 
 issue: 

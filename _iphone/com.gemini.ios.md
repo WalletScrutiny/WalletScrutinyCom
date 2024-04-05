@@ -11,7 +11,7 @@ released: 2018-12-11
 updated: 2024-03-27
 version: 24.326.0
 stars: 4.8
-reviews: 98382
+reviews: 98396
 size: '156749824'
 website: https://www.gemini.com
 repository: 

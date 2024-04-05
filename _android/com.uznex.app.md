@@ -4,7 +4,7 @@ title: UZNEX - Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.uznex.app
 appCountry: 
 released: 2020-04-28

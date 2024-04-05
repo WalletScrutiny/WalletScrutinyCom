@@ -12,7 +12,7 @@ updated: 2024-03-26
 version: 3.83.7
 stars: 4.4
 ratings: 358
-reviews: 1978
+reviews: 1992
 size: 
 website: https://zebedee.io
 repository: 
