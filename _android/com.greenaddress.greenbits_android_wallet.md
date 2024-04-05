@@ -21,9 +21,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-03-25
+date: 2024-04-05
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-03-25
+  version: "4.0.26"
+  appHash: 547801bc82299a63cbb6b61fb5946f258986f46d26c924b940f636e09b90eff4
+  gitRevision: dc63519510b21266fab8d3b3cb95a8267772db90
+  verdict: reproducible
 - date: 2024-02-09
   version: 4.0.24
   appHash: ac4c0bd144a6a461b86d0ddc1f881964a0d735095818231e0b4eebbfedae27b6
@@ -234,25 +239,23 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.26
-apkVersionCode: 22000426
+apkVersionName: 4.0.27
+apkVersionCode: 22000427
 verdict:        reproducible
-appHash:        547801bc82299a63cbb6b61fb5946f258986f46d26c924b940f636e09b90eff4
-commit:         7e3fd0627a041d561e3f6a9138c331fafa113fff
+appHash:        6efdb0f464be14daf376f9bb452d4c697235a96ef8a0b8640bb3876874cdbc04
+commit:         9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000426/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000426/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000426/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 7e3fd0627a041d561e3f6a9138c331fafa113fff
+object 9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 type commit
-tag release_4.0.26
-tagger Angelos Veglektsis <angelos@aveworks.com> 1710841494 +0200
+tag release_4.0.27
+tagger Angelos Veglektsis <angelos@aveworks.com> 1711646534 +0200
 ===== End Results =====
 ```
 
 This version of {{ page.title }} is **reproducible**.
-
-{% include asciicast %}
