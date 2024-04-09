@@ -1,6 +1,6 @@
 var Lj = Object.defineProperty;
 var Mj = (lr, ar, cr) => ar in lr ? Lj(lr, ar, { enumerable: !0, configurable: !0, writable: !0, value: cr }) : lr[ar] = cr;
-var Wi = (lr, ar, cr) => (Mj(lr, typeof ar != "symbol" ? ar + "" : ar, cr), cr), Ku = (lr, ar, cr) => {
+var Zi = (lr, ar, cr) => (Mj(lr, typeof ar != "symbol" ? ar + "" : ar, cr), cr), Ku = (lr, ar, cr) => {
   if (!ar.has(lr))
     throw TypeError("Cannot " + cr);
 };
@@ -291,15 +291,15 @@ class HtmlTag {
      * @private
      * @default false
      */
-    Wi(this, "is_svg", !1);
+    Zi(this, "is_svg", !1);
     /** parent for creating node */
-    Wi(this, "e");
+    Zi(this, "e");
     /** html tag nodes */
-    Wi(this, "n");
+    Zi(this, "n");
     /** target */
-    Wi(this, "t");
+    Zi(this, "t");
     /** anchor */
-    Wi(this, "a");
+    Zi(this, "a");
     this.is_svg = ar, this.e = this.n = null;
   }
   /**
@@ -856,23 +856,23 @@ typeof HTMLElement == "function" && (SvelteElement = class extends HTMLElement {
   constructor(ar, cr, ur) {
     super();
     /** The Svelte component constructor */
-    Wi(this, "$$ctor");
+    Zi(this, "$$ctor");
     /** Slots */
-    Wi(this, "$$s");
+    Zi(this, "$$s");
     /** The Svelte component instance */
-    Wi(this, "$$c");
+    Zi(this, "$$c");
     /** Whether or not the custom element is connected */
-    Wi(this, "$$cn", !1);
+    Zi(this, "$$cn", !1);
     /** Component props data */
-    Wi(this, "$$d", {});
+    Zi(this, "$$d", {});
     /** `true` if currently in the process of reflecting component props back to attributes */
-    Wi(this, "$$r", !1);
+    Zi(this, "$$r", !1);
     /** @type {Record<string, CustomElementPropDefinition>} Props definition (name, reflected, type etc) */
-    Wi(this, "$$p_d", {});
+    Zi(this, "$$p_d", {});
     /** @type {Record<string, Function[]>} Event listeners */
-    Wi(this, "$$l", {});
+    Zi(this, "$$l", {});
     /** @type {Map<Function, Function>} Event listener unsubscribe functions */
-    Wi(this, "$$l_u", /* @__PURE__ */ new Map());
+    Zi(this, "$$l_u", /* @__PURE__ */ new Map());
     this.$$ctor = ar, this.$$s = cr, ur && this.attachShadow({ mode: "open" });
   }
   addEventListener(ar, cr, ur) {
@@ -1041,7 +1041,7 @@ class SvelteComponent {
      *
      * @type {any}
      */
-    Wi(this, "$$");
+    Zi(this, "$$");
     /**
      * ### PRIVATE API
      *
@@ -1049,7 +1049,7 @@ class SvelteComponent {
      *
      * @type {any}
      */
-    Wi(this, "$$set");
+    Zi(this, "$$set");
   }
   /** @returns {void} */
   $destroy() {
@@ -6819,7 +6819,7 @@ function instance$C(lr, ar, cr) {
   function la(Gi) {
     bubble.call(this, lr, Gi);
   }
-  function ma(Gi) {
+  function ba(Gi) {
     bubble.call(this, lr, Gi);
   }
   function Ba(Gi) {
@@ -6898,7 +6898,7 @@ function instance$C(lr, ar, cr) {
     ia,
     ea,
     la,
-    ma,
+    ba,
     Ba,
     Fa,
     Ia,
@@ -14746,7 +14746,7 @@ function instance$k(lr, ar, cr) {
   function la() {
     Cr = this.checked, Wr = this.indeterminate, cr(1, Cr), cr(3, Wr);
   }
-  function ma() {
+  function ba() {
     _r = this.__value, cr(0, _r);
   }
   function Ba(Hi) {
@@ -14831,7 +14831,7 @@ function instance$k(lr, ar, cr) {
     ia,
     ea,
     la,
-    ma,
+    ba,
     Ki,
     Ba,
     Fa,
@@ -17211,9 +17211,9 @@ function instance$g(lr, ar, cr) {
   return lr.$$set = (Ni) => {
     cr(46, ar = assign$1(assign$1({}, ar), exclude_internal_props(Ni))), "position" in Ni && cr(27, yr = Ni.position), "components" in Ni && cr(28, kr = Ni.components), "background" in Ni && cr(29, Tr = Ni.background), "width" in Ni && cr(30, _r = Ni.width), "height" in Ni && cr(31, Er = Ni.height), "padding" in Ni && cr(32, xr = Ni.padding), "spacing" in Ni && cr(33, Cr = Ni.spacing), "rounded" in Ni && cr(34, Ar = Ni.rounded), "shadow" in Ni && cr(35, Lr = Ni.shadow), "zIndex" in Ni && cr(36, Dr = Ni.zIndex), "buttonNeutral" in Ni && cr(3, Nr = Ni.buttonNeutral), "buttonPositive" in Ni && cr(4, Hr = Ni.buttonPositive), "buttonTextCancel" in Ni && cr(0, $r = Ni.buttonTextCancel), "buttonTextConfirm" in Ni && cr(1, Wr = Ni.buttonTextConfirm), "buttonTextSubmit" in Ni && cr(2, Zr = Ni.buttonTextSubmit), "regionBackdrop" in Ni && cr(37, oi = Ni.regionBackdrop), "regionHeader" in Ni && cr(5, Jr = Ni.regionHeader), "regionBody" in Ni && cr(6, Yr = Ni.regionBody), "regionFooter" in Ni && cr(7, li = Ni.regionFooter), "transitions" in Ni && cr(8, Si = Ni.transitions), "transitionIn" in Ni && cr(9, ci = Ni.transitionIn), "transitionInParams" in Ni && cr(10, hi = Ni.transitionInParams), "transitionOut" in Ni && cr(11, Ei = Ni.transitionOut), "transitionOutParams" in Ni && cr(12, di = Ni.transitionOutParams);
   }, lr.$$.update = () => {
-    var Ni, ia, ea, la, ma, Ba, Fa;
+    var Ni, ia, ea, la, ba, Ba, Fa;
     lr.$$.dirty[0] & /*$modalStore, position*/
-    134225920 && cr(38, ur = (ia = (Ni = vr[0]) == null ? void 0 : Ni.position) != null ? ia : yr), cr(19, fr = `${cBackdrop$1} ${oi} ${Dr} ${(ea = ar.class) != null ? ea : ""} ${(ma = (la = vr[0]) == null ? void 0 : la.backdropClasses) != null ? ma : ""}`), lr.$$.dirty[1] & /*cPosition*/
+    134225920 && cr(38, ur = (ia = (Ni = vr[0]) == null ? void 0 : Ni.position) != null ? ia : yr), cr(19, fr = `${cBackdrop$1} ${oi} ${Dr} ${(ea = ar.class) != null ? ea : ""} ${(ba = (la = vr[0]) == null ? void 0 : la.backdropClasses) != null ? ba : ""}`), lr.$$.dirty[1] & /*cPosition*/
     128 && cr(18, dr = `${cTransitionLayer} ${ur != null ? ur : ""}`), lr.$$.dirty[0] & /*background, width, $modalStore*/
     1610620928 | lr.$$.dirty[1] & /*height, padding, spacing, rounded, shadow*/
     31 && cr(17, hr = `${cModal} ${Tr} ${_r} ${Er} ${xr} ${Cr} ${Ar} ${Lr} ${(Fa = (Ba = vr[0]) == null ? void 0 : Ba.modalClasses) != null ? Fa : ""}`), lr.$$.dirty[0] & /*position, background, width, buttonNeutral, buttonPositive, buttonTextCancel, buttonTextConfirm, buttonTextSubmit, regionHeader, regionBody, regionFooter*/
@@ -24813,8 +24813,8 @@ function insertEventIntoAscendingList$2(lr, ar) {
 }
 var MessageNode$1 = class {
   constructor(ar) {
-    Wi(this, "_value");
-    Wi(this, "_next");
+    Zi(this, "_value");
+    Zi(this, "_next");
     this._value = ar, this._next = null;
   }
   get value() {
@@ -24831,9 +24831,9 @@ var MessageNode$1 = class {
   }
 }, MessageQueue$1 = class {
   constructor() {
-    Wi(this, "_first");
-    Wi(this, "_last");
-    Wi(this, "_size");
+    Zi(this, "_first");
+    Zi(this, "_last");
+    Zi(this, "_size");
     this._first = null, this._last = null, this._size = 0;
   }
   get first() {
@@ -27804,20 +27804,20 @@ for (let lr = 0, ar = Object.keys(TAGCODES); lr < ar.length; lr++)
   ar[lr], TAGCODES[ar[lr]].toString();
 var NDKRelayConnectivity = class {
   constructor(lr) {
-    Wi(this, "ndkRelay");
-    Wi(this, "_status");
-    Wi(this, "relay");
-    Wi(this, "connectedAt");
-    Wi(this, "_connectionStats", {
+    Zi(this, "ndkRelay");
+    Zi(this, "_status");
+    Zi(this, "relay");
+    Zi(this, "connectedAt");
+    Zi(this, "_connectionStats", {
       attempts: 0,
       success: 0,
       durations: []
     });
-    Wi(this, "debug");
+    Zi(this, "debug");
     /**
      * Utility functions to update the connection stats.
      */
-    Wi(this, "updateConnectionStats", {
+    Zi(this, "updateConnectionStats", {
       connected: () => {
         this._connectionStats.success++, this._connectionStats.connectedAt = Date.now();
       },
@@ -27893,7 +27893,7 @@ var NDKRelayConnectivity = class {
   }
 }, NDKRelayPublisher = class {
   constructor(lr) {
-    Wi(this, "ndkRelay");
+    Zi(this, "ndkRelay");
     this.ndkRelay = lr;
   }
   /**
@@ -28055,9 +28055,9 @@ function relaysFromBech32(lr) {
 var NDKGroupedSubscriptions = class extends lib$2.EventEmitter {
   constructor(ar, cr) {
     super();
-    Wi(this, "subscriptions");
-    Wi(this, "req");
-    Wi(this, "debug");
+    Zi(this, "subscriptions");
+    Zi(this, "req");
+    Zi(this, "debug");
     this.subscriptions = ar, this.debug = cr || this.subscriptions[0].subscription.debug.extend("grouped");
     for (const ur of ar)
       this.handleSubscriptionClosure(ur);
@@ -28105,9 +28105,9 @@ var NDKGroupedSubscriptions = class extends lib$2.EventEmitter {
   }
 }, NDKSubscriptionFilters = class {
   constructor(lr, ar, cr) {
-    Wi(this, "subscription");
-    Wi(this, "filters", []);
-    Wi(this, "ndkRelay");
+    Zi(this, "subscription");
+    Zi(this, "filters", []);
+    Zi(this, "ndkRelay");
     this.subscription = lr, this.filters = ar, this.ndkRelay = cr;
   }
   eventReceived(lr) {
@@ -28126,17 +28126,17 @@ function findMatchingActiveSubscriptions(lr, ar) {
 }
 var NDKRelaySubscriptions = class {
   constructor(lr) {
-    Wi(this, "ndkRelay");
-    Wi(this, "delayedItems", /* @__PURE__ */ new Map());
-    Wi(this, "delayedTimers", /* @__PURE__ */ new Map());
+    Zi(this, "ndkRelay");
+    Zi(this, "delayedItems", /* @__PURE__ */ new Map());
+    Zi(this, "delayedTimers", /* @__PURE__ */ new Map());
     /**
      * Active subscriptions this relay is connected to
      */
-    Wi(this, "activeSubscriptions", /* @__PURE__ */ new Map());
-    Wi(this, "activeSubscriptionsByGroupId", /* @__PURE__ */ new Map());
-    Wi(this, "debug");
-    Wi(this, "groupingDebug");
-    Wi(this, "conn");
+    Zi(this, "activeSubscriptions", /* @__PURE__ */ new Map());
+    Zi(this, "activeSubscriptionsByGroupId", /* @__PURE__ */ new Map());
+    Zi(this, "debug");
+    Zi(this, "groupingDebug");
+    Zi(this, "conn");
     this.ndkRelay = lr, this.conn = lr.connectivity, this.debug = lr.debug.extend("subscriptions"), this.groupingDebug = lr.debug.extend("grouping");
   }
   /**
@@ -28266,13 +28266,13 @@ var NDKRelaySubscriptions = class {
 }, NDKRelay = class extends lib$2.EventEmitter {
   constructor(ar) {
     super();
-    Wi(this, "url");
-    Wi(this, "scores");
-    Wi(this, "connectivity");
-    Wi(this, "subs");
-    Wi(this, "publisher");
-    Wi(this, "complaining", !1);
-    Wi(this, "debug");
+    Zi(this, "url");
+    Zi(this, "scores");
+    Zi(this, "connectivity");
+    Zi(this, "subs");
+    Zi(this, "publisher");
+    Zi(this, "complaining", !1);
+    Zi(this, "debug");
     this.url = ar, this.scores = /* @__PURE__ */ new Map(), this.debug = _debug(`ndk:relay:${ar}`), this.connectivity = new NDKRelayConnectivity(this), this.subs = new NDKRelaySubscriptions(this), this.publisher = new NDKRelayPublisher(this);
   }
   get status() {
@@ -28337,9 +28337,9 @@ var NDKRelaySubscriptions = class {
   }
 }, NDKRelaySet = class {
   constructor(lr, ar) {
-    Wi(this, "relays");
-    Wi(this, "debug");
-    Wi(this, "ndk");
+    Zi(this, "relays");
+    Zi(this, "debug");
+    Zi(this, "ndk");
     this.relays = lr, this.ndk = ar, this.debug = ar.debug.extend("relayset");
   }
   /**
@@ -28452,9 +28452,9 @@ var DEFAULT_RELAYS = [
   constructor(cr) {
     var ur;
     super();
-    Wi(this, "ndk");
-    Wi(this, "zappedEvent");
-    Wi(this, "zappedUser");
+    Zi(this, "ndk");
+    Zi(this, "zappedEvent");
+    Zi(this, "zappedUser");
     this.ndk = cr.ndk, this.zappedEvent = cr.zappedEvent, this.zappedUser = cr.zappedUser || this.ndk.getUser({ hexpubkey: (ur = this.zappedEvent) == null ? void 0 : ur.pubkey });
   }
   async getZapEndpoint() {
@@ -28676,30 +28676,30 @@ function getKind(lr) {
 var NDKEvent = class extends lib$2.EventEmitter {
   constructor(ar, cr) {
     super();
-    Wi(this, "ndk");
-    Wi(this, "created_at");
-    Wi(this, "content", "");
-    Wi(this, "tags", []);
-    Wi(this, "kind");
-    Wi(this, "id", "");
-    Wi(this, "sig");
-    Wi(this, "pubkey", "");
-    Wi(this, "_author");
+    Zi(this, "ndk");
+    Zi(this, "created_at");
+    Zi(this, "content", "");
+    Zi(this, "tags", []);
+    Zi(this, "kind");
+    Zi(this, "id", "");
+    Zi(this, "sig");
+    Zi(this, "pubkey", "");
+    Zi(this, "_author");
     /**
      * The relay that this event was first received from.
      */
-    Wi(this, "relay");
-    Wi(this, "isReplaceable", isReplaceable.bind(this));
-    Wi(this, "isEphemeral", isEphemeral.bind(this));
-    Wi(this, "isParamReplaceable", isParamReplaceable.bind(this));
+    Zi(this, "relay");
+    Zi(this, "isReplaceable", isReplaceable.bind(this));
+    Zi(this, "isEphemeral", isEphemeral.bind(this));
+    Zi(this, "isParamReplaceable", isParamReplaceable.bind(this));
     /**
      * Encodes a bech32 id.
      *
      * @returns {string} - Encoded naddr, note or nevent.
      */
-    Wi(this, "encode", encode$2.bind(this));
-    Wi(this, "encrypt", encrypt$2.bind(this));
-    Wi(this, "decrypt", decrypt$2.bind(this));
+    Zi(this, "encode", encode$2.bind(this));
+    Zi(this, "encrypt", encrypt$2.bind(this));
+    Zi(this, "decrypt", decrypt$2.bind(this));
     /**
      * NIP-18 reposting event.
      *
@@ -28709,7 +28709,7 @@ var NDKEvent = class extends lib$2.EventEmitter {
      *
      * @function
      */
-    Wi(this, "repost", repost.bind(this));
+    Zi(this, "repost", repost.bind(this));
     this.ndk = ar, this.created_at = cr == null ? void 0 : cr.created_at, this.content = (cr == null ? void 0 : cr.content) || "", this.tags = (cr == null ? void 0 : cr.tags) || [], this.id = (cr == null ? void 0 : cr.id) || "", this.sig = cr == null ? void 0 : cr.sig, this.pubkey = (cr == null ? void 0 : cr.pubkey) || "", this.kind = cr == null ? void 0 : cr.kind;
   }
   /**
@@ -29037,38 +29037,38 @@ var NDKEvent = class extends lib$2.EventEmitter {
   constructor(ar, cr, ur, fr, dr) {
     var hr;
     super();
-    Wi(this, "subId");
-    Wi(this, "filters");
-    Wi(this, "opts");
-    Wi(this, "pool");
+    Zi(this, "subId");
+    Zi(this, "filters");
+    Zi(this, "opts");
+    Zi(this, "pool");
     /**
      * Tracks the filters as they are executed on each relay
      */
-    Wi(this, "relayFilters");
-    Wi(this, "relaySet");
-    Wi(this, "ndk");
-    Wi(this, "debug");
-    Wi(this, "eoseDebug");
+    Zi(this, "relayFilters");
+    Zi(this, "relaySet");
+    Zi(this, "ndk");
+    Zi(this, "debug");
+    Zi(this, "eoseDebug");
     /**
      * Events that have been seen by the subscription, with the time they were first seen.
      */
-    Wi(this, "eventFirstSeen", /* @__PURE__ */ new Map());
+    Zi(this, "eventFirstSeen", /* @__PURE__ */ new Map());
     /**
      * Relays that have sent an EOSE.
      */
-    Wi(this, "eosesSeen", /* @__PURE__ */ new Set());
+    Zi(this, "eosesSeen", /* @__PURE__ */ new Set());
     /**
      * Events that have been seen by the subscription per relay.
      */
-    Wi(this, "eventsPerRelay", /* @__PURE__ */ new Map());
+    Zi(this, "eventsPerRelay", /* @__PURE__ */ new Map());
     /**
      * The time the last event was received by the subscription.
      * This is used to calculate when EOSE should be emitted.
      */
-    Wi(this, "lastEventReceivedAt");
-    Wi(this, "internalId");
+    Zi(this, "lastEventReceivedAt");
+    Zi(this, "internalId");
     // EOSE handling
-    Wi(this, "eoseTimeout");
+    Zi(this, "eoseTimeout");
     if (this.ndk = ar, this.pool = (ur == null ? void 0 : ur.pool) || ar.pool, this.opts = { ...defaultOpts, ...ur || {} }, this.filters = cr instanceof Array ? cr : [cr], this.subId = dr || (ur == null ? void 0 : ur.subId), this.internalId = Math.random().toString(36).substring(7), this.relaySet = fr, this.debug = ar.debug.extend(`subscription[${(hr = ur == null ? void 0 : ur.subId) != null ? hr : this.internalId}]`), this.eoseDebug = this.debug.extend("eose"), this.opts.closeOnEose || this.debug(
       "Creating a permanent subscription",
       this.opts,
@@ -29296,12 +29296,12 @@ var NDKList = class extends NDKEvent {
   constructor(ar, cr) {
     var ur;
     super(ar, cr);
-    Wi(this, "_encryptedTags");
+    Zi(this, "_encryptedTags");
     /**
      * Stores the number of bytes the content was before decryption
      * to expire the cache when the content changes.
      */
-    Wi(this, "encryptedTagsLength");
+    Zi(this, "encryptedTagsLength");
     (ur = this.kind) != null || (this.kind = 30001);
   }
   /**
@@ -29476,19 +29476,19 @@ async function pin(lr, ar, cr) {
 }
 var NDKUser = class {
   constructor(lr) {
-    Wi(this, "ndk");
-    Wi(this, "profile");
-    Wi(this, "_npub");
-    Wi(this, "_pubkey");
-    Wi(this, "relayUrls", []);
+    Zi(this, "ndk");
+    Zi(this, "profile");
+    Zi(this, "_npub");
+    Zi(this, "_pubkey");
+    Zi(this, "relayUrls", []);
     /**
      * Returns a set of users that this user follows.
      */
-    Wi(this, "follows", follows.bind(this));
+    Zi(this, "follows", follows.bind(this));
     /**
      * Pins a user or an event
      */
-    Wi(this, "pin", pin.bind(this));
+    Zi(this, "pin", pin.bind(this));
     lr.npub && (this._npub = lr.npub), lr.hexpubkey && (this._pubkey = lr.hexpubkey), lr.pubkey && (this._pubkey = lr.pubkey), lr.relayUrls && (this.relayUrls = lr.relayUrls);
   }
   get npub() {
@@ -29730,7 +29730,7 @@ var NDKUser = class {
 }, NDKRepost = class extends NDKEvent {
   constructor(ar, cr) {
     super(ar, cr);
-    Wi(this, "_repostedEvents");
+    Zi(this, "_repostedEvents");
   }
   static from(ar) {
     return new NDKRepost(ar.ndk, ar.rawEvent());
@@ -29776,11 +29776,11 @@ var NDKNip07Signer = class {
    * @param waitTimeout - The timeout in milliseconds to wait for the NIP-07 to become available
    */
   constructor(lr = 1e3) {
-    Wi(this, "_userPromise");
-    Wi(this, "nip04Queue", []);
-    Wi(this, "nip04Processing", !1);
-    Wi(this, "debug");
-    Wi(this, "waitTimeout");
+    Zi(this, "_userPromise");
+    Zi(this, "nip04Queue", []);
+    Zi(this, "nip04Processing", !1);
+    Zi(this, "debug");
+    Zi(this, "waitTimeout");
     this.debug = _debug("ndk:nip07"), this.waitTimeout = lr;
   }
   async blockUntilReady() {
@@ -29883,8 +29883,8 @@ var NDKNip07Signer = class {
   }
 }, NDKPrivateKeySigner = class {
   constructor(lr) {
-    Wi(this, "_user");
-    Wi(this, "privateKey");
+    Zi(this, "_user");
+    Zi(this, "privateKey");
     lr && (this.privateKey = lr, this._user = new NDKUser({
       hexpubkey: getPublicKey$1(this.privateKey)
     }));
@@ -29927,21 +29927,21 @@ var OutboxItem = class {
     /**
      * Type of item
      */
-    Wi(this, "type");
+    Zi(this, "type");
     /**
      * The relay URLs that are of interest to this item
      */
-    Wi(this, "relayUrlScores");
-    Wi(this, "readRelays");
-    Wi(this, "writeRelays");
+    Zi(this, "relayUrlScores");
+    Zi(this, "readRelays");
+    Zi(this, "writeRelays");
     this.type = lr, this.relayUrlScores = /* @__PURE__ */ new Map(), this.readRelays = /* @__PURE__ */ new Set(), this.writeRelays = /* @__PURE__ */ new Set();
   }
 }, OutboxTracker = class extends lib$2.EventEmitter {
   constructor(ar) {
     super();
-    Wi(this, "data");
-    Wi(this, "ndk");
-    Wi(this, "debug");
+    Zi(this, "data");
+    Zi(this, "ndk");
+    Zi(this, "debug");
     this.ndk = ar, this.debug = ar.debug.extend("outbox-tracker"), this.data = new dist$9.LRUCache({
       maxSize: 1e5,
       entryExpirationTimeInMS: 5e3
@@ -29989,13 +29989,13 @@ var NDKPool = class extends lib$2.EventEmitter {
   constructor(ar = [], cr = [], ur, fr) {
     super();
     // TODO: This should probably be an LRU cache
-    Wi(this, "relays", /* @__PURE__ */ new Map());
-    Wi(this, "blacklistRelayUrls");
-    Wi(this, "debug");
-    Wi(this, "temporaryRelayTimers", /* @__PURE__ */ new Map());
-    Wi(this, "flappingRelays", /* @__PURE__ */ new Set());
+    Zi(this, "relays", /* @__PURE__ */ new Map());
+    Zi(this, "blacklistRelayUrls");
+    Zi(this, "debug");
+    Zi(this, "temporaryRelayTimers", /* @__PURE__ */ new Map());
+    Zi(this, "flappingRelays", /* @__PURE__ */ new Set());
     // A map to store timeouts for each flapping relay.
-    Wi(this, "backoffTimes", /* @__PURE__ */ new Map());
+    Zi(this, "backoffTimes", /* @__PURE__ */ new Map());
     this.debug = fr != null ? fr : ur.debug.extend("pool");
     for (const dr of ar) {
       const hr = new NDKRelay(dr);
@@ -30153,20 +30153,20 @@ var DEFAULT_OUTBOX_RELAYS = ["wss://purplepag.es", "wss://relay.snort.social"], 
   constructor(ar = {}) {
     var cr, ur;
     super();
-    Wi(this, "explicitRelayUrls");
-    Wi(this, "pool");
-    Wi(this, "outboxPool");
-    Wi(this, "_signer");
-    Wi(this, "_activeUser");
-    Wi(this, "cacheAdapter");
-    Wi(this, "debug");
-    Wi(this, "devWriteRelaySet");
-    Wi(this, "outboxTracker");
-    Wi(this, "mutedIds");
-    Wi(this, "clientName");
-    Wi(this, "clientNip89");
-    Wi(this, "autoConnectUserRelays", !0);
-    Wi(this, "autoFetchUserMutelist", !0);
+    Zi(this, "explicitRelayUrls");
+    Zi(this, "pool");
+    Zi(this, "outboxPool");
+    Zi(this, "_signer");
+    Zi(this, "_activeUser");
+    Zi(this, "cacheAdapter");
+    Zi(this, "debug");
+    Zi(this, "devWriteRelaySet");
+    Zi(this, "outboxTracker");
+    Zi(this, "mutedIds");
+    Zi(this, "clientName");
+    Zi(this, "clientNip89");
+    Zi(this, "autoConnectUserRelays", !0);
+    Zi(this, "autoFetchUserMutelist", !0);
     this.debug = ar.debug || _debug("ndk"), this.explicitRelayUrls = ar.explicitRelayUrls, this.pool = new NDKPool(ar.explicitRelayUrls || [], ar.blacklistRelayUrls, this), this.debug(`Starting with explicit relays: ${JSON.stringify(this.explicitRelayUrls)}`), this.autoConnectUserRelays = (cr = ar.autoConnectUserRelays) != null ? cr : !0, this.autoFetchUserMutelist = (ur = ar.autoFetchUserMutelist) != null ? ur : !0, this.clientName = ar.clientName, this.clientNip89 = ar.clientNip89, ar.enableOutboxModel && (this.outboxPool = new NDKPool(
       ar.outboxRelayUrls || DEFAULT_OUTBOX_RELAYS,
       ar.blacklistRelayUrls || DEFAULT_BLACKLISTED_RELAYS,
@@ -31170,8 +31170,8 @@ function insertEventIntoAscendingList$1(lr, ar) {
 }
 var MessageNode = class {
   constructor(lr) {
-    Wi(this, "_value");
-    Wi(this, "_next");
+    Zi(this, "_value");
+    Zi(this, "_next");
     this._value = lr, this._next = null;
   }
   get value() {
@@ -31188,9 +31188,9 @@ var MessageNode = class {
   }
 }, MessageQueue = class {
   constructor() {
-    Wi(this, "_first");
-    Wi(this, "_last");
-    Wi(this, "_size");
+    Zi(this, "_first");
+    Zi(this, "_last");
+    Zi(this, "_size");
     this._first = null, this._last = null, this._size = 0;
   }
   get first() {
@@ -34918,9 +34918,9 @@ je.rejectionMapper = function(lr, ar) {
 var Database = class extends Xn {
   constructor(ar) {
     super(ar);
-    Wi(this, "users");
-    Wi(this, "events");
-    Wi(this, "eventTags");
+    Zi(this, "users");
+    Zi(this, "events");
+    Zi(this, "eventTags");
     this.version(4).stores({
       users: "&pubkey, profile, createdAt",
       events: "&id, pubkey, content, kind, createdAt, relay, [kind+pubkey]",
@@ -34933,11 +34933,11 @@ function createDatabase(lr) {
 }
 var NDKCacheAdapterDexie = class {
   constructor(lr = {}) {
-    Wi(this, "debug");
-    Wi(this, "expirationTime");
-    Wi(this, "locking");
-    Wi(this, "profiles");
-    Wi(this, "dirtyProfiles", /* @__PURE__ */ new Set());
+    Zi(this, "debug");
+    Zi(this, "expirationTime");
+    Zi(this, "locking");
+    Zi(this, "profiles");
+    Zi(this, "dirtyProfiles", /* @__PURE__ */ new Set());
     createDatabase(lr.dbName || "ndk"), this.debug = lr.debug || _debug("ndk:dexie-adapter"), this.locking = !0, this.expirationTime = lr.expirationTime || 3600, lr.profileCacheSize !== "disabled" && (this.profiles = new dist$9.LRUCache({
       maxSize: lr.profileCacheSize || 1e5
     }), setInterval(() => {
@@ -37373,15 +37373,15 @@ function binarySearch(lr, ar) {
 }
 var QueueNode = class {
   constructor(lr) {
-    Wi(this, "value");
-    Wi(this, "next", null);
-    Wi(this, "prev", null);
+    Zi(this, "value");
+    Zi(this, "next", null);
+    Zi(this, "prev", null);
     this.value = lr;
   }
 }, Queue = class {
   constructor() {
-    Wi(this, "first");
-    Wi(this, "last");
+    Zi(this, "first");
+    Zi(this, "last");
     this.first = null, this.last = null;
   }
   enqueue(lr) {
@@ -40432,7 +40432,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }]), si;
   }();
   la.prototype.text = void 0;
-  var ma = function(si) {
+  var ba = function(si) {
     vr(Br, si);
     var Qr = mr(Br);
     function Br(zr, Xr, ai, vi) {
@@ -41072,7 +41072,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         }), Xr;
       }
     }]), si;
-  }(), Zi = function() {
+  }(), Wi = function() {
     function si(Qr) {
       Ar(this, si), this.cached = /* @__PURE__ */ Object.create(null);
       var Br = this.spec = {};
@@ -41084,11 +41084,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         if (ai in this.marks)
           throw new RangeError(ai + " can not be both a node and a mark");
         var vi = this.nodes[ai], Ti = vi.spec.content || "", Fi = vi.spec.marks;
-        vi.contentMatch = Xr[Ti] || (Xr[Ti] = Fa.parse(Ti, this.nodes)), vi.inlineContent = vi.contentMatch.inlineContent, vi.markSet = Fi == "_" ? null : Fi ? ka(this, Fi.split(" ")) : Fi == "" || !vi.inlineContent ? [] : null;
+        vi.contentMatch = Xr[Ti] || (Xr[Ti] = Fa.parse(Ti, this.nodes)), vi.inlineContent = vi.contentMatch.inlineContent, vi.markSet = Fi == "_" ? null : Fi ? ma(this, Fi.split(" ")) : Fi == "" || !vi.inlineContent ? [] : null;
       }
       for (var ra in this.marks) {
         var pa = this.marks[ra], ca = pa.spec.excludes;
-        pa.excluded = ca == null ? [pa] : ca == "" ? [] : ka(this, ca.split(" "));
+        pa.excluded = ca == null ? [pa] : ca == "" ? [] : ma(this, ca.split(" "));
       }
       this.nodeFromJSON = this.nodeFromJSON.bind(this), this.markFromJSON = this.markFromJSON.bind(this), this.topNodeType = this.nodes[this.spec.topNode || "doc"], this.cached.wrappings = /* @__PURE__ */ Object.create(null);
     }
@@ -41109,7 +41109,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       key: "text",
       value: function(Br, zr) {
         var Xr = this.nodes.text;
-        return new ma(Xr, Xr.defaultAttrs, Br, ci.setFrom(zr));
+        return new ba(Xr, Xr.defaultAttrs, Br, ci.setFrom(zr));
       }
     }, {
       key: "mark",
@@ -41136,7 +41136,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       }
     }]), si;
   }();
-  function ka(si, Qr) {
+  function ma(si, Qr) {
     for (var Br = [], zr = 0; zr < Qr.length; zr++) {
       var Xr = Qr[zr], ai = si.marks[Xr], vi = ai;
       if (ai)
@@ -41286,9 +41286,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }, Va = {
     ol: !0,
     ul: !0
-  }, Ca = 1, ja = 2, ao = 4;
+  }, xa = 1, ja = 2, ao = 4;
   function Wa(si, Qr, Br) {
-    return Qr != null ? (Qr ? Ca : 0) | (Qr === "full" ? ja : 0) : si && si.whitespace == "pre" ? Ca | ja : Br & ~ao;
+    return Qr != null ? (Qr ? xa : 0) | (Qr === "full" ? ja : 0) : si && si.whitespace == "pre" ? xa | ja : Br & ~ao;
   }
   var po = function() {
     function si(Qr, Br, zr, Xr, ai, vi, Ti) {
@@ -41313,7 +41313,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     }, {
       key: "finish",
       value: function(Br) {
-        if (!(this.options & Ca)) {
+        if (!(this.options & xa)) {
           var zr = this.content[this.content.length - 1], Xr;
           if (zr && zr.isText && (Xr = /[ \t\r\n\u000c]+$/.exec(zr.text))) {
             var ai = zr;
@@ -41384,7 +41384,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       value: function(Br) {
         var zr = Br.nodeValue, Xr = this.top;
         if (Xr.options & ja || Xr.inlineContext(Br) || /[^ \t\r\n\u000c]/.test(zr)) {
-          if (Xr.options & Ca)
+          if (Xr.options & xa)
             Xr.options & ja ? zr = zr.replace(/\r\n?/g, `
 `) : zr = zr.replace(/\r?\n|\r/g, " ");
           else if (zr = zr.replace(/[ \t\r\n\u000c]+/g, " "), /^[ \t\r\n\u000c]/.test(zr) && this.open == this.nodes.length - 1) {
@@ -41721,7 +41721,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       if (si.eq(Qr[Br]))
         return Qr[Br];
   }
-  var ya = function() {
+  var ka = function() {
     function si(Qr, Br) {
       Ar(this, si), this.nodes = Qr, this.marks = Br;
     }
@@ -41858,7 +41858,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   function sa(si) {
     return si.document || window.document;
   }
-  return dist$7.ContentMatch = Fa, dist$7.DOMParser = zi, dist$7.DOMSerializer = ya, dist$7.Fragment = Jr, dist$7.Mark = ci, dist$7.MarkType = Yi, dist$7.Node = la, dist$7.NodeRange = ia, dist$7.NodeType = Ha, dist$7.ReplaceError = hi, dist$7.ResolvedPos = _i, dist$7.Schema = Zi, dist$7.Slice = Ei, dist$7;
+  return dist$7.ContentMatch = Fa, dist$7.DOMParser = zi, dist$7.DOMSerializer = ka, dist$7.Fragment = Jr, dist$7.Mark = ci, dist$7.MarkType = Yi, dist$7.Node = la, dist$7.NodeRange = ia, dist$7.NodeType = Ha, dist$7.ReplaceError = hi, dist$7.ResolvedPos = _i, dist$7.Schema = Wi, dist$7.Slice = Ei, dist$7;
 }
 var distExports$5 = requireDist$5(), dist$5 = {}, dist$4 = {};
 const lower16 = 65535, factor16 = Math.pow(2, 16);
@@ -43475,16 +43475,16 @@ function requireDist$4() {
         for (var mi = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : Tr.Slice.empty, _i = mi.content.lastChild, Ci = null, Ki = 0; Ki < mi.openEnd; Ki++)
           Ci = _i, _i = _i.lastChild;
         for (var Ni = Ii.steps.length, ia = this.ranges, ea = 0; ea < ia.length; ea++) {
-          var la = ia[ea], ma = la.$from, Ba = la.$to, Fa = Ii.mapping.slice(Ni);
-          Ii.replaceRange(Fa.map(ma.pos), Fa.map(Ba.pos), ea ? Tr.Slice.empty : mi), ea == 0 && Jr(Ii, Ni, (_i ? _i.isInline : Ci && Ci.isTextblock) ? -1 : 1);
+          var la = ia[ea], ba = la.$from, Ba = la.$to, Fa = Ii.mapping.slice(Ni);
+          Ii.replaceRange(Fa.map(ba.pos), Fa.map(Ba.pos), ea ? Tr.Slice.empty : mi), ea == 0 && Jr(Ii, Ni, (_i ? _i.isInline : Ci && Ci.isTextblock) ? -1 : 1);
         }
       }
     }, {
       key: "replaceWith",
       value: function(Ii, mi) {
         for (var _i = Ii.steps.length, Ci = this.ranges, Ki = 0; Ki < Ci.length; Ki++) {
-          var Ni = Ci[Ki], ia = Ni.$from, ea = Ni.$to, la = Ii.mapping.slice(_i), ma = la.map(ia.pos), Ba = la.map(ea.pos);
-          Ki ? Ii.deleteRange(ma, Ba) : (Ii.replaceRangeWith(ma, Ba, mi), Jr(Ii, _i, mi.isInline ? -1 : 1));
+          var Ni = Ci[Ki], ia = Ni.$from, ea = Ni.$to, la = Ii.mapping.slice(_i), ba = la.map(ia.pos), Ba = la.map(ea.pos);
+          Ki ? Ii.deleteRange(ba, Ba) : (Ii.replaceRangeWith(ba, Ba, mi), Jr(Ii, _i, mi.isInline ? -1 : 1));
         }
       }
     }, {
@@ -44001,9 +44001,9 @@ function requireDist$4() {
           for (var Ki = !1, Ni = 0; Ni < this.config.plugins.length; Ni++) {
             var ia = this.config.plugins[Ni];
             if (ia.spec.appendTransaction) {
-              var ea = Ci ? Ci[Ni].n : 0, la = Ci ? Ci[Ni].state : this, ma = ea < mi.length && ia.spec.appendTransaction.call(ia, ea ? mi.slice(ea) : mi, la, _i);
-              if (ma && _i.filterTransaction(ma, Ni)) {
-                if (ma.setMeta("appendedTransaction", Ii), !Ci) {
+              var ea = Ci ? Ci[Ni].n : 0, la = Ci ? Ci[Ni].state : this, ba = ea < mi.length && ia.spec.appendTransaction.call(ia, ea ? mi.slice(ea) : mi, la, _i);
+              if (ba && _i.filterTransaction(ba, Ni)) {
+                if (ba.setMeta("appendedTransaction", Ii), !Ci) {
                   Ci = [];
                   for (var Ba = 0; Ba < this.config.plugins.length; Ba++)
                     Ci.push(Ba < Ni ? {
@@ -44014,7 +44014,7 @@ function requireDist$4() {
                       n: 0
                     });
                 }
-                mi.push(ma), _i = _i.applyInner(ma), Ki = !0;
+                mi.push(ba), _i = _i.applyInner(ba), Ki = !0;
               }
               Ci && (Ci[Ni] = {
                 state: _i,
@@ -44381,7 +44381,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       bottom: Sr.documentElement.clientHeight
     };
   }
-  function ma(Sr, qr) {
+  function ba(Sr, qr) {
     return typeof Sr == "number" ? Sr : Sr[qr];
   }
   function Ba(Sr) {
@@ -44397,7 +44397,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     for (var Ur = Sr.someProp("scrollThreshold") || 0, jr = Sr.someProp("scrollMargin") || 5, Vr = Sr.dom.ownerDocument, ei = Ir || Sr.dom; ei; ei = Dr(ei))
       if (ei.nodeType == 1) {
         var ti = ei, fi = ti == Vr.body, ki = fi ? la(Vr) : Ba(ti), Ri = 0, ji = 0;
-        if (qr.top < ki.top + ma(Ur, "top") ? ji = -(ki.top - qr.top + ma(jr, "top")) : qr.bottom > ki.bottom - ma(Ur, "bottom") && (ji = qr.bottom - qr.top > ki.bottom - ki.top ? qr.top + ma(jr, "top") - ki.top : qr.bottom - ki.bottom + ma(jr, "bottom")), qr.left < ki.left + ma(Ur, "left") ? Ri = -(ki.left - qr.left + ma(jr, "left")) : qr.right > ki.right - ma(Ur, "right") && (Ri = qr.right - ki.right + ma(jr, "right")), Ri || ji)
+        if (qr.top < ki.top + ba(Ur, "top") ? ji = -(ki.top - qr.top + ba(jr, "top")) : qr.bottom > ki.bottom - ba(Ur, "bottom") && (ji = qr.bottom - qr.top > ki.bottom - ki.top ? qr.top + ba(jr, "top") - ki.top : qr.bottom - ki.bottom + ba(jr, "bottom")), qr.left < ki.left + ba(Ur, "left") ? Ri = -(ki.left - qr.left + ba(jr, "left")) : qr.right > ki.right - ba(Ur, "right") && (Ri = qr.right - ki.right + ba(jr, "right")), Ri || ji)
           if (fi)
             Vr.defaultView.scrollBy(Ri, ji);
           else {
@@ -44625,14 +44625,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       if (ei == null && Vr && (Ir < 0 || Vr == oi(jr))) {
         var Ea = jr.childNodes[Vr - 1];
         if (Ea.nodeType == 1)
-          return Zi(Ea.getBoundingClientRect(), !1);
+          return Wi(Ea.getBoundingClientRect(), !1);
       }
       if (ei == null && Vr < oi(jr)) {
         var La = jr.childNodes[Vr];
         if (La.nodeType == 1)
-          return Zi(La.getBoundingClientRect(), !0);
+          return Wi(La.getBoundingClientRect(), !0);
       }
-      return Zi(jr.getBoundingClientRect(), Ir >= 0);
+      return Wi(jr.getBoundingClientRect(), Ir >= 0);
     }
     if (ei == null && Vr && (Ir < 0 || Vr == oi(jr))) {
       var fa = jr.childNodes[Vr - 1], so = fa.nodeType == 3 ? Hr(fa, oi(fa) - (ti ? 0 : 1)) : fa.nodeType == 1 && (fa.nodeName != "BR" || !fa.nextSibling) ? fa : null;
@@ -44659,7 +44659,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       right: Ir
     };
   }
-  function Zi(Sr, qr) {
+  function Wi(Sr, qr) {
     if (Sr.height == 0)
       return Sr;
     var Ir = qr ? Sr.top : Sr.bottom;
@@ -44670,7 +44670,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       right: Sr.right
     };
   }
-  function ka(Sr, qr, Ir) {
+  function ma(Sr, qr, Ir) {
     var Ur = Sr.state, jr = Sr.root.activeElement;
     Ur != qr && Sr.updateState(qr), jr != Sr.dom && Sr.focus();
     try {
@@ -44681,7 +44681,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
   function zi(Sr, qr, Ir) {
     var Ur = qr.selection, jr = Ir == "up" ? Ur.$from : Ur.$to;
-    return ka(Sr, qr, function() {
+    return ma(Sr, qr, function() {
       for (var Vr = Sr.docView.domFromPos(jr.pos, Ir == "up" ? -1 : 1), ei = Vr.node; ; ) {
         var ti = Sr.docView.nearestDesc(ei, !0);
         if (!ti)
@@ -44715,7 +44715,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     if (!Ur.parent.isTextblock)
       return !1;
     var jr = Ur.parentOffset, Vr = !jr, ei = jr == Ur.parent.content.size, ti = Sr.domSelection();
-    return !Ji.test(Ur.parent.textContent) || !ti.modify ? Ir == "left" || Ir == "backward" ? Vr : ei : ka(Sr, qr, function() {
+    return !Ji.test(Ur.parent.textContent) || !ti.modify ? Ir == "left" || Ir == "backward" ? Vr : ei : ma(Sr, qr, function() {
       var fi = Sr.domSelectionRange(), ki = fi.focusNode, Ri = fi.focusOffset, ji = fi.anchorNode, Bi = fi.anchorOffset, Qi = ti.caretBidiLevel;
       ti.modify("move", Ir, "character");
       var na = Ur.depth ? Sr.docView.domAfterPos(Ur.before()) : Sr.dom, Ea = Sr.domSelectionRange(), La = Ea.focusNode, fa = Ea.focusOffset, so = La && !na.contains(La.nodeType == 1 ? La : La.parentNode) || ki == La && Ri == fa;
@@ -44726,9 +44726,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       return Qi != null && (ti.caretBidiLevel = Qi), so;
     });
   }
-  var Va = null, Ca = null, ja = !1;
+  var Va = null, xa = null, ja = !1;
   function ao(Sr, qr, Ir) {
-    return Va == qr && Ca == Ir ? ja : (Va = qr, Ca = Ir, ja = Ir == "up" || Ir == "down" ? zi(Sr, qr, Ir) : za(Sr, qr, Ir));
+    return Va == qr && xa == Ir ? ja : (Va = qr, xa = Ir, ja = Ir == "up" || Ir == "down" ? zi(Sr, qr, Ir) : za(Sr, qr, Ir));
   }
   var Wa = 0, po = 1, to = 2, oo = 3, uo = function() {
     function Sr(qr, Ir, Ur, jr) {
@@ -45416,7 +45416,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       }
     }]), Ir;
   }(uo);
-  function ya(Sr, qr, Ir, Ur, jr) {
+  function ka(Sr, qr, Ir, Ur, jr) {
     Ti(Ur, qr, Sr);
     var Vr = new lo(void 0, Sr, qr, Ir, Ur, Ur, Ur, jr, 0);
     return Vr.contentDOM && Vr.updateChildren(jr, 0), Vr;
@@ -47923,7 +47923,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   var au = Rs, ou = Ks, su = Js, lu = function() {
     function Sr(qr, Ir) {
       var Ur = this;
-      Tr(this, Sr), this._root = null, this.focused = !1, this.trackWrites = null, this.mounted = !1, this.markCursor = null, this.cursorWrapper = null, this.lastSelectedViewDesc = void 0, this.input = new ul(), this.prevDirectPlugins = [], this.pluginViews = [], this.requiresGeckoHackNode = !1, this.dragging = null, this._props = Ir, this.state = Ir.state, this.directPlugins = Ir.plugins || [], this.directPlugins.forEach(oc), this.dispatch = this.dispatch.bind(this), this.dom = qr && qr.mount || document.createElement("div"), qr && (qr.appendChild ? qr.appendChild(this.dom) : typeof qr == "function" ? qr(this.dom) : qr.mount && (this.mounted = !0)), this.editable = rc(this), tc(this), this.nodeViews = nc(this), this.docView = ya(this.state.doc, ec(this), Sl(this), this.dom, this), this.domObserver = new Wc(this, function(jr, Vr, ei, ti) {
+      Tr(this, Sr), this._root = null, this.focused = !1, this.trackWrites = null, this.mounted = !1, this.markCursor = null, this.cursorWrapper = null, this.lastSelectedViewDesc = void 0, this.input = new ul(), this.prevDirectPlugins = [], this.pluginViews = [], this.requiresGeckoHackNode = !1, this.dragging = null, this._props = Ir, this.state = Ir.state, this.directPlugins = Ir.plugins || [], this.directPlugins.forEach(oc), this.dispatch = this.dispatch.bind(this), this.dom = qr && qr.mount || document.createElement("div"), qr && (qr.appendChild ? qr.appendChild(this.dom) : typeof qr == "function" ? qr(this.dom) : qr.mount && (this.mounted = !0)), this.editable = rc(this), tc(this), this.nodeViews = nc(this), this.docView = ka(this.state.doc, ec(this), Sl(this), this.dom, this), this.domObserver = new Wc(this, function(jr, Vr, ei, ti) {
         return eu(Ur, jr, Vr, ei, ti);
       }), this.domObserver.start(), wl(this), this.updatePluginViews();
     }
@@ -47986,7 +47986,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           var Ea = Qi && (Ui || Mi) && !this.composing && !Vr.selection.empty && !Ir.selection.empty && cu(Vr.selection, Ir.selection);
           if (Qi) {
             var La = Mi ? this.trackWrites = this.domSelectionRange().focusNode : null;
-            (ei || !this.docView.update(Ir.doc, ji, Ri, this)) && (this.docView.updateOuterDeco([]), this.docView.destroy(), this.docView = ya(Ir.doc, ji, Ri, this.dom, this)), La && !this.trackWrites && (Ea = !0);
+            (ei || !this.docView.update(Ir.doc, ji, Ri, this)) && (this.docView.updateOuterDeco([]), this.docView.destroy(), this.docView = ka(Ir.doc, ji, Ri, this.dom, this)), La && !this.trackWrites && (Ea = !0);
           }
           Ea || !(this.input.mouseDown && this.domObserver.currentSelection.eq(this.domSelectionRange()) && js(this)) ? Bo(this, Ea) : (zs(this, Ir.selection), this.domObserver.setCurSelection()), this.domObserver.start();
         }
@@ -56832,12 +56832,12 @@ function createDOMPurify$1() {
   var Nr = _createTrustedTypesPolicy$1(_r, cr), Hr = Nr && Ba ? Nr.createHTML("") : "", $r = ur, Wr = $r.implementation, Zr = $r.createNodeIterator, oi = $r.createDocumentFragment, Jr = $r.getElementsByTagName, Yr = cr.importNode, li = {};
   try {
     li = clone$1(ur).documentMode ? ur.documentMode : {};
-  } catch (ya) {
+  } catch (ka) {
   }
   var Si = {};
   ar.isSupported = typeof Lr == "function" && Wr && typeof Wr.createHTMLDocument != "undefined" && li !== 9;
-  var ci = MUSTACHE_EXPR$1, hi = ERB_EXPR$1, Ei = DATA_ATTR$1, di = ARIA_ATTR$1, gi = IS_SCRIPT_OR_DATA$1, Li = ATTR_WHITESPACE$1, ui = IS_ALLOWED_URI$1, wi = null, Ui = addToSet$1({}, [].concat(_toConsumableArray$1(html$2), _toConsumableArray$1(svg$2), _toConsumableArray$1(svgFilters$1), _toConsumableArray$1(mathMl$2), _toConsumableArray$1(text$2))), yi = null, Vi = addToSet$1({}, [].concat(_toConsumableArray$1(html$1$1), _toConsumableArray$1(svg$1$1), _toConsumableArray$1(mathMl$1$1), _toConsumableArray$1(xml$1))), Oi = null, Mi = null, Ii = !0, mi = !0, _i = !1, Ci = !1, Ki = !1, Ni = !1, ia = !1, ea = !1, la = !1, ma = !0, Ba = !1, Fa = !0, Ia = !0, Hi = !1, oa = {}, Gi = null, ha = addToSet$1({}, ["annotation-xml", "audio", "colgroup", "desc", "foreignobject", "head", "iframe", "math", "mi", "mn", "mo", "ms", "mtext", "noembed", "noframes", "noscript", "plaintext", "script", "style", "svg", "template", "thead", "title", "video", "xmp"]), Ua = null, eo = addToSet$1({}, ["audio", "video", "img", "source", "image", "track"]), ua = null, va = addToSet$1({}, ["alt", "class", "for", "id", "label", "name", "pattern", "placeholder", "role", "summary", "title", "value", "style", "xmlns"]), Ta = "http://www.w3.org/1998/Math/MathML", Aa = "http://www.w3.org/2000/svg", Oa = "http://www.w3.org/1999/xhtml", Xa = Oa, Ka = !1, Pa = void 0, Da = ["application/xhtml+xml", "text/html"], Ha = "text/html", $a = void 0, Yi = null, Zi = ur.createElement("form"), ka = function(qi) {
-    Yi && Yi === qi || ((!qi || (typeof qi == "undefined" ? "undefined" : _typeof(qi)) !== "object") && (qi = {}), qi = clone$1(qi), wi = "ALLOWED_TAGS" in qi ? addToSet$1({}, qi.ALLOWED_TAGS) : Ui, yi = "ALLOWED_ATTR" in qi ? addToSet$1({}, qi.ALLOWED_ATTR) : Vi, ua = "ADD_URI_SAFE_ATTR" in qi ? addToSet$1(clone$1(va), qi.ADD_URI_SAFE_ATTR) : va, Ua = "ADD_DATA_URI_TAGS" in qi ? addToSet$1(clone$1(eo), qi.ADD_DATA_URI_TAGS) : eo, Gi = "FORBID_CONTENTS" in qi ? addToSet$1({}, qi.FORBID_CONTENTS) : ha, Oi = "FORBID_TAGS" in qi ? addToSet$1({}, qi.FORBID_TAGS) : {}, Mi = "FORBID_ATTR" in qi ? addToSet$1({}, qi.FORBID_ATTR) : {}, oa = "USE_PROFILES" in qi ? qi.USE_PROFILES : !1, Ii = qi.ALLOW_ARIA_ATTR !== !1, mi = qi.ALLOW_DATA_ATTR !== !1, _i = qi.ALLOW_UNKNOWN_PROTOCOLS || !1, Ci = qi.SAFE_FOR_TEMPLATES || !1, Ki = qi.WHOLE_DOCUMENT || !1, ea = qi.RETURN_DOM || !1, la = qi.RETURN_DOM_FRAGMENT || !1, ma = qi.RETURN_DOM_IMPORT !== !1, Ba = qi.RETURN_TRUSTED_TYPE || !1, ia = qi.FORCE_BODY || !1, Fa = qi.SANITIZE_DOM !== !1, Ia = qi.KEEP_CONTENT !== !1, Hi = qi.IN_PLACE || !1, ui = qi.ALLOWED_URI_REGEXP || ui, Xa = qi.NAMESPACE || Oa, Pa = // eslint-disable-next-line unicorn/prefer-includes
+  var ci = MUSTACHE_EXPR$1, hi = ERB_EXPR$1, Ei = DATA_ATTR$1, di = ARIA_ATTR$1, gi = IS_SCRIPT_OR_DATA$1, Li = ATTR_WHITESPACE$1, ui = IS_ALLOWED_URI$1, wi = null, Ui = addToSet$1({}, [].concat(_toConsumableArray$1(html$2), _toConsumableArray$1(svg$2), _toConsumableArray$1(svgFilters$1), _toConsumableArray$1(mathMl$2), _toConsumableArray$1(text$2))), yi = null, Vi = addToSet$1({}, [].concat(_toConsumableArray$1(html$1$1), _toConsumableArray$1(svg$1$1), _toConsumableArray$1(mathMl$1$1), _toConsumableArray$1(xml$1))), Oi = null, Mi = null, Ii = !0, mi = !0, _i = !1, Ci = !1, Ki = !1, Ni = !1, ia = !1, ea = !1, la = !1, ba = !0, Ba = !1, Fa = !0, Ia = !0, Hi = !1, oa = {}, Gi = null, ha = addToSet$1({}, ["annotation-xml", "audio", "colgroup", "desc", "foreignobject", "head", "iframe", "math", "mi", "mn", "mo", "ms", "mtext", "noembed", "noframes", "noscript", "plaintext", "script", "style", "svg", "template", "thead", "title", "video", "xmp"]), Ua = null, eo = addToSet$1({}, ["audio", "video", "img", "source", "image", "track"]), ua = null, va = addToSet$1({}, ["alt", "class", "for", "id", "label", "name", "pattern", "placeholder", "role", "summary", "title", "value", "style", "xmlns"]), Ta = "http://www.w3.org/1998/Math/MathML", Aa = "http://www.w3.org/2000/svg", Oa = "http://www.w3.org/1999/xhtml", Xa = Oa, Ka = !1, Pa = void 0, Da = ["application/xhtml+xml", "text/html"], Ha = "text/html", $a = void 0, Yi = null, Wi = ur.createElement("form"), ma = function(qi) {
+    Yi && Yi === qi || ((!qi || (typeof qi == "undefined" ? "undefined" : _typeof(qi)) !== "object") && (qi = {}), qi = clone$1(qi), wi = "ALLOWED_TAGS" in qi ? addToSet$1({}, qi.ALLOWED_TAGS) : Ui, yi = "ALLOWED_ATTR" in qi ? addToSet$1({}, qi.ALLOWED_ATTR) : Vi, ua = "ADD_URI_SAFE_ATTR" in qi ? addToSet$1(clone$1(va), qi.ADD_URI_SAFE_ATTR) : va, Ua = "ADD_DATA_URI_TAGS" in qi ? addToSet$1(clone$1(eo), qi.ADD_DATA_URI_TAGS) : eo, Gi = "FORBID_CONTENTS" in qi ? addToSet$1({}, qi.FORBID_CONTENTS) : ha, Oi = "FORBID_TAGS" in qi ? addToSet$1({}, qi.FORBID_TAGS) : {}, Mi = "FORBID_ATTR" in qi ? addToSet$1({}, qi.FORBID_ATTR) : {}, oa = "USE_PROFILES" in qi ? qi.USE_PROFILES : !1, Ii = qi.ALLOW_ARIA_ATTR !== !1, mi = qi.ALLOW_DATA_ATTR !== !1, _i = qi.ALLOW_UNKNOWN_PROTOCOLS || !1, Ci = qi.SAFE_FOR_TEMPLATES || !1, Ki = qi.WHOLE_DOCUMENT || !1, ea = qi.RETURN_DOM || !1, la = qi.RETURN_DOM_FRAGMENT || !1, ba = qi.RETURN_DOM_IMPORT !== !1, Ba = qi.RETURN_TRUSTED_TYPE || !1, ia = qi.FORCE_BODY || !1, Fa = qi.SANITIZE_DOM !== !1, Ia = qi.KEEP_CONTENT !== !1, Hi = qi.IN_PLACE || !1, ui = qi.ALLOWED_URI_REGEXP || ui, Xa = qi.NAMESPACE || Oa, Pa = // eslint-disable-next-line unicorn/prefer-includes
     Da.indexOf(qi.PARSER_MEDIA_TYPE) === -1 ? Pa = Ha : Pa = qi.PARSER_MEDIA_TYPE, $a = Pa === "application/xhtml+xml" ? function(sa) {
       return sa;
     } : stringToLowerCase$1, Ci && (mi = !1), la && (ea = !0), oa && (wi = addToSet$1({}, [].concat(_toConsumableArray$1(text$2))), yi = [], oa.html === !0 && (addToSet$1(wi, html$2), addToSet$1(yi, html$1$1)), oa.svg === !0 && (addToSet$1(wi, svg$2), addToSet$1(yi, svg$1$1), addToSet$1(yi, xml$1)), oa.svgFilters === !0 && (addToSet$1(wi, svgFilters$1), addToSet$1(yi, svg$1$1), addToSet$1(yi, xml$1)), oa.mathMl === !0 && (addToSet$1(wi, mathMl$2), addToSet$1(yi, mathMl$1$1), addToSet$1(yi, xml$1))), qi.ADD_TAGS && (wi === Ui && (wi = clone$1(wi)), addToSet$1(wi, qi.ADD_TAGS)), qi.ADD_ATTR && (yi === Vi && (yi = clone$1(yi)), addToSet$1(yi, qi.ADD_ATTR)), qi.ADD_URI_SAFE_ATTR && addToSet$1(ua, qi.ADD_URI_SAFE_ATTR), qi.FORBID_CONTENTS && (Gi === ha && (Gi = clone$1(Gi)), addToSet$1(Gi, qi.FORBID_CONTENTS)), Ia && (wi["#text"] = !0), Ki && addToSet$1(wi, ["html", "head", "body"]), wi.table && (addToSet$1(wi, ["tbody"]), delete Oi.tbody), freeze$1 && freeze$1(qi), Yi = qi);
@@ -56845,7 +56845,7 @@ function createDOMPurify$1() {
   addToSet$1(za, svgFilters$1), addToSet$1(za, svgDisallowed$1);
   var Va = addToSet$1({}, mathMl$2);
   addToSet$1(Va, mathMlDisallowed$1);
-  var Ca = function(qi) {
+  var xa = function(qi) {
     var sa = Lr(qi);
     (!sa || !sa.tagName) && (sa = {
       namespaceURI: Oa,
@@ -56950,9 +56950,9 @@ function createDOMPurify$1() {
       }
       return ja(qi), !0;
     }
-    return qi instanceof gr && !Ca(qi) || (si === "noscript" || si === "noembed") && regExpTest$1(/<\/no(script|embed)/i, qi.innerHTML) ? (ja(qi), !0) : (Ci && qi.nodeType === 3 && (sa = qi.textContent, sa = stringReplace$1(sa, ci, " "), sa = stringReplace$1(sa, hi, " "), qi.textContent !== sa && (arrayPush$1(ar.removed, { element: qi.cloneNode() }), qi.textContent = sa)), uo("afterSanitizeElements", qi, null), !1);
+    return qi instanceof gr && !xa(qi) || (si === "noscript" || si === "noembed") && regExpTest$1(/<\/no(script|embed)/i, qi.innerHTML) ? (ja(qi), !0) : (Ci && qi.nodeType === 3 && (sa = qi.textContent, sa = stringReplace$1(sa, ci, " "), sa = stringReplace$1(sa, hi, " "), qi.textContent !== sa && (arrayPush$1(ar.removed, { element: qi.cloneNode() }), qi.textContent = sa)), uo("afterSanitizeElements", qi, null), !1);
   }, Lo = function(qi, sa, si) {
-    if (Fa && (sa === "id" || sa === "name") && (si in ur || si in Zi))
+    if (Fa && (sa === "id" || sa === "name") && (si in ur || si in Wi))
       return !1;
     if (!(mi && !Mi[sa] && regExpTest$1(Ei, sa))) {
       if (!(Ii && regExpTest$1(di, sa))) {
@@ -57001,68 +57001,68 @@ function createDOMPurify$1() {
       }
       uo("afterSanitizeAttributes", qi, null);
     }
-  }, lo = function ya(qi) {
+  }, lo = function ka(qi) {
     var sa = void 0, si = po(qi);
     for (uo("beforeSanitizeShadowDOM", qi, null); sa = si.nextNode(); )
-      uo("uponSanitizeShadowNode", sa, null), !Io(sa) && (sa.content instanceof fr && ya(sa.content), Eo(sa));
+      uo("uponSanitizeShadowNode", sa, null), !Io(sa) && (sa.content instanceof fr && ka(sa.content), Eo(sa));
     uo("afterSanitizeShadowDOM", qi, null);
   };
-  return ar.sanitize = function(ya, qi) {
+  return ar.sanitize = function(ka, qi) {
     var sa = void 0, si = void 0, Qr = void 0, Br = void 0, zr = void 0;
-    if (Ka = !ya, Ka && (ya = "<!-->"), typeof ya != "string" && !oo(ya)) {
-      if (typeof ya.toString != "function")
+    if (Ka = !ka, Ka && (ka = "<!-->"), typeof ka != "string" && !oo(ka)) {
+      if (typeof ka.toString != "function")
         throw typeErrorCreate$1("toString is not a function");
-      if (ya = ya.toString(), typeof ya != "string")
+      if (ka = ka.toString(), typeof ka != "string")
         throw typeErrorCreate$1("dirty is not a string, aborting");
     }
     if (!ar.isSupported) {
       if (_typeof(lr.toStaticHTML) === "object" || typeof lr.toStaticHTML == "function") {
-        if (typeof ya == "string")
-          return lr.toStaticHTML(ya);
-        if (oo(ya))
-          return lr.toStaticHTML(ya.outerHTML);
+        if (typeof ka == "string")
+          return lr.toStaticHTML(ka);
+        if (oo(ka))
+          return lr.toStaticHTML(ka.outerHTML);
       }
-      return ya;
+      return ka;
     }
-    if (Ni || ka(qi), ar.removed = [], typeof ya == "string" && (Hi = !1), !Hi)
-      if (ya instanceof hr)
-        sa = Wa("<!---->"), si = sa.ownerDocument.importNode(ya, !0), si.nodeType === 1 && si.nodeName === "BODY" || si.nodeName === "HTML" ? sa = si : sa.appendChild(si);
+    if (Ni || ma(qi), ar.removed = [], typeof ka == "string" && (Hi = !1), !Hi)
+      if (ka instanceof hr)
+        sa = Wa("<!---->"), si = sa.ownerDocument.importNode(ka, !0), si.nodeType === 1 && si.nodeName === "BODY" || si.nodeName === "HTML" ? sa = si : sa.appendChild(si);
       else {
         if (!ea && !Ci && !Ki && // eslint-disable-next-line unicorn/prefer-includes
-        ya.indexOf("<") === -1)
-          return Nr && Ba ? Nr.createHTML(ya) : ya;
-        if (sa = Wa(ya), !sa)
+        ka.indexOf("<") === -1)
+          return Nr && Ba ? Nr.createHTML(ka) : ka;
+        if (sa = Wa(ka), !sa)
           return ea ? null : Hr;
       }
     sa && ia && ja(sa.firstChild);
-    for (var Xr = po(Hi ? ya : sa); Qr = Xr.nextNode(); )
+    for (var Xr = po(Hi ? ka : sa); Qr = Xr.nextNode(); )
       Qr.nodeType === 3 && Qr === Br || Io(Qr) || (Qr.content instanceof fr && lo(Qr.content), Eo(Qr), Br = Qr);
     if (Br = null, Hi)
-      return ya;
+      return ka;
     if (ea) {
       if (la)
         for (zr = oi.call(sa.ownerDocument); sa.firstChild; )
           zr.appendChild(sa.firstChild);
       else
         zr = sa;
-      return ma && (zr = Yr.call(cr, zr, !0)), zr;
+      return ba && (zr = Yr.call(cr, zr, !0)), zr;
     }
     var ai = Ki ? sa.outerHTML : sa.innerHTML;
     return Ci && (ai = stringReplace$1(ai, ci, " "), ai = stringReplace$1(ai, hi, " ")), Nr && Ba ? Nr.createHTML(ai) : ai;
-  }, ar.setConfig = function(ya) {
-    ka(ya), Ni = !0;
+  }, ar.setConfig = function(ka) {
+    ma(ka), Ni = !0;
   }, ar.clearConfig = function() {
     Yi = null, Ni = !1;
-  }, ar.isValidAttribute = function(ya, qi, sa) {
-    Yi || ka({});
-    var si = $a(ya), Qr = $a(qi);
+  }, ar.isValidAttribute = function(ka, qi, sa) {
+    Yi || ma({});
+    var si = $a(ka), Qr = $a(qi);
     return Lo(si, Qr, sa);
-  }, ar.addHook = function(ya, qi) {
-    typeof qi == "function" && (Si[ya] = Si[ya] || [], arrayPush$1(Si[ya], qi));
-  }, ar.removeHook = function(ya) {
-    Si[ya] && arrayPop$1(Si[ya]);
-  }, ar.removeHooks = function(ya) {
-    Si[ya] && (Si[ya] = []);
+  }, ar.addHook = function(ka, qi) {
+    typeof qi == "function" && (Si[ka] = Si[ka] || [], arrayPush$1(Si[ka], qi));
+  }, ar.removeHook = function(ka) {
+    Si[ka] && arrayPop$1(Si[ka]);
+  }, ar.removeHooks = function(ka) {
+    Si[ka] && (Si[ka] = []);
   }, ar.removeAllHooks = function() {
     Si = {};
   }, ar;
@@ -64775,13 +64775,13 @@ utils.buf2hex = buf2hex;
   })(lr.UploadState || (lr.UploadState = {}));
   class dr {
     constructor(gr, vr, mr, br, yr, kr, Tr) {
-      Wi(this, "uri");
-      Wi(this, "file");
-      Wi(this, "auth");
-      Wi(this, "maxChunkSize");
-      Wi(this, "onStateChange");
-      Wi(this, "onProgress");
-      Wi(this, "onProxyChallenge");
+      Zi(this, "uri");
+      Zi(this, "file");
+      Zi(this, "auth");
+      Zi(this, "maxChunkSize");
+      Zi(this, "onStateChange");
+      Zi(this, "onProgress");
+      Zi(this, "onProxyChallenge");
       this.uri = gr, this.file = vr, this.onStateChange = mr, this.onProgress = br, this.onProxyChallenge = yr, this.auth = kr, this.maxChunkSize = Tr != null ? Tr : Number.MAX_VALUE;
     }
     /**
@@ -65153,7 +65153,7 @@ function requireDist() {
     class fr extends Error {
       constructor(gr, vr) {
         super(vr);
-        Wi(this, "statusCode");
+        Zi(this, "statusCode");
         this.statusCode = gr;
       }
     }
@@ -66013,7 +66013,7 @@ function createDOMPurify() {
       enumerable: !0,
       value: !1
     }
-  })), yi = null, Vi = null, Oi = !0, Mi = !0, Ii = !1, mi = !0, _i = !1, Ci = !1, Ki = !1, Ni = !1, ia = !1, ea = !1, la = !1, ma = !0, Ba = !1;
+  })), yi = null, Vi = null, Oi = !0, Mi = !0, Ii = !1, mi = !0, _i = !1, Ci = !1, Ki = !1, Ni = !1, ia = !1, ea = !1, la = !1, ba = !0, Ba = !1;
   const Fa = "user-content-";
   let Ia = !0, Hi = !1, oa = {}, Gi = null;
   const ha = addToSet({}, ["annotation-xml", "audio", "colgroup", "desc", "foreignobject", "head", "iframe", "math", "mi", "mn", "mo", "ms", "mtext", "noembed", "noframes", "noscript", "plaintext", "script", "style", "svg", "template", "thead", "title", "video", "xmp"]);
@@ -66025,28 +66025,28 @@ function createDOMPurify() {
   const Da = addToSet({}, [Ta, Aa, Oa], stringToString);
   let Ha = null;
   const $a = ["application/xhtml+xml", "text/html"], Yi = "text/html";
-  let Zi = null, ka = null;
+  let Wi = null, ma = null;
   const zi = cr.createElement("form"), Ji = function(zr) {
     return zr instanceof RegExp || zr instanceof Function;
   }, za = function() {
     let zr = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
-    if (!(ka && ka === zr)) {
+    if (!(ma && ma === zr)) {
       if ((!zr || typeof zr != "object") && (zr = {}), zr = clone(zr), Ha = // eslint-disable-next-line unicorn/prefer-includes
-      $a.indexOf(zr.PARSER_MEDIA_TYPE) === -1 ? Yi : zr.PARSER_MEDIA_TYPE, Zi = Ha === "application/xhtml+xml" ? stringToString : stringToLowerCase, gi = "ALLOWED_TAGS" in zr ? addToSet({}, zr.ALLOWED_TAGS, Zi) : Li, ui = "ALLOWED_ATTR" in zr ? addToSet({}, zr.ALLOWED_ATTR, Zi) : wi, Pa = "ALLOWED_NAMESPACES" in zr ? addToSet({}, zr.ALLOWED_NAMESPACES, stringToString) : Da, ua = "ADD_URI_SAFE_ATTR" in zr ? addToSet(
+      $a.indexOf(zr.PARSER_MEDIA_TYPE) === -1 ? Yi : zr.PARSER_MEDIA_TYPE, Wi = Ha === "application/xhtml+xml" ? stringToString : stringToLowerCase, gi = "ALLOWED_TAGS" in zr ? addToSet({}, zr.ALLOWED_TAGS, Wi) : Li, ui = "ALLOWED_ATTR" in zr ? addToSet({}, zr.ALLOWED_ATTR, Wi) : wi, Pa = "ALLOWED_NAMESPACES" in zr ? addToSet({}, zr.ALLOWED_NAMESPACES, stringToString) : Da, ua = "ADD_URI_SAFE_ATTR" in zr ? addToSet(
         clone(va),
         // eslint-disable-line indent
         zr.ADD_URI_SAFE_ATTR,
         // eslint-disable-line indent
-        Zi
+        Wi
         // eslint-disable-line indent
       ) : va, Ua = "ADD_DATA_URI_TAGS" in zr ? addToSet(
         clone(eo),
         // eslint-disable-line indent
         zr.ADD_DATA_URI_TAGS,
         // eslint-disable-line indent
-        Zi
+        Wi
         // eslint-disable-line indent
-      ) : eo, Gi = "FORBID_CONTENTS" in zr ? addToSet({}, zr.FORBID_CONTENTS, Zi) : ha, yi = "FORBID_TAGS" in zr ? addToSet({}, zr.FORBID_TAGS, Zi) : {}, Vi = "FORBID_ATTR" in zr ? addToSet({}, zr.FORBID_ATTR, Zi) : {}, oa = "USE_PROFILES" in zr ? zr.USE_PROFILES : !1, Oi = zr.ALLOW_ARIA_ATTR !== !1, Mi = zr.ALLOW_DATA_ATTR !== !1, Ii = zr.ALLOW_UNKNOWN_PROTOCOLS || !1, mi = zr.ALLOW_SELF_CLOSE_IN_ATTR !== !1, _i = zr.SAFE_FOR_TEMPLATES || !1, Ci = zr.WHOLE_DOCUMENT || !1, ia = zr.RETURN_DOM || !1, ea = zr.RETURN_DOM_FRAGMENT || !1, la = zr.RETURN_TRUSTED_TYPE || !1, Ni = zr.FORCE_BODY || !1, ma = zr.SANITIZE_DOM !== !1, Ba = zr.SANITIZE_NAMED_PROPS || !1, Ia = zr.KEEP_CONTENT !== !1, Hi = zr.IN_PLACE || !1, di = zr.ALLOWED_URI_REGEXP || IS_ALLOWED_URI, Xa = zr.NAMESPACE || Oa, Ui = zr.CUSTOM_ELEMENT_HANDLING || {}, zr.CUSTOM_ELEMENT_HANDLING && Ji(zr.CUSTOM_ELEMENT_HANDLING.tagNameCheck) && (Ui.tagNameCheck = zr.CUSTOM_ELEMENT_HANDLING.tagNameCheck), zr.CUSTOM_ELEMENT_HANDLING && Ji(zr.CUSTOM_ELEMENT_HANDLING.attributeNameCheck) && (Ui.attributeNameCheck = zr.CUSTOM_ELEMENT_HANDLING.attributeNameCheck), zr.CUSTOM_ELEMENT_HANDLING && typeof zr.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements == "boolean" && (Ui.allowCustomizedBuiltInElements = zr.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements), _i && (Mi = !1), ea && (ia = !0), oa && (gi = addToSet({}, text), ui = [], oa.html === !0 && (addToSet(gi, html$1), addToSet(ui, html)), oa.svg === !0 && (addToSet(gi, svg$1), addToSet(ui, svg), addToSet(ui, xml)), oa.svgFilters === !0 && (addToSet(gi, svgFilters), addToSet(ui, svg), addToSet(ui, xml)), oa.mathMl === !0 && (addToSet(gi, mathMl$1), addToSet(ui, mathMl), addToSet(ui, xml))), zr.ADD_TAGS && (gi === Li && (gi = clone(gi)), addToSet(gi, zr.ADD_TAGS, Zi)), zr.ADD_ATTR && (ui === wi && (ui = clone(ui)), addToSet(ui, zr.ADD_ATTR, Zi)), zr.ADD_URI_SAFE_ATTR && addToSet(ua, zr.ADD_URI_SAFE_ATTR, Zi), zr.FORBID_CONTENTS && (Gi === ha && (Gi = clone(Gi)), addToSet(Gi, zr.FORBID_CONTENTS, Zi)), Ia && (gi["#text"] = !0), Ci && addToSet(gi, ["html", "head", "body"]), gi.table && (addToSet(gi, ["tbody"]), delete yi.tbody), zr.TRUSTED_TYPES_POLICY) {
+      ) : eo, Gi = "FORBID_CONTENTS" in zr ? addToSet({}, zr.FORBID_CONTENTS, Wi) : ha, yi = "FORBID_TAGS" in zr ? addToSet({}, zr.FORBID_TAGS, Wi) : {}, Vi = "FORBID_ATTR" in zr ? addToSet({}, zr.FORBID_ATTR, Wi) : {}, oa = "USE_PROFILES" in zr ? zr.USE_PROFILES : !1, Oi = zr.ALLOW_ARIA_ATTR !== !1, Mi = zr.ALLOW_DATA_ATTR !== !1, Ii = zr.ALLOW_UNKNOWN_PROTOCOLS || !1, mi = zr.ALLOW_SELF_CLOSE_IN_ATTR !== !1, _i = zr.SAFE_FOR_TEMPLATES || !1, Ci = zr.WHOLE_DOCUMENT || !1, ia = zr.RETURN_DOM || !1, ea = zr.RETURN_DOM_FRAGMENT || !1, la = zr.RETURN_TRUSTED_TYPE || !1, Ni = zr.FORCE_BODY || !1, ba = zr.SANITIZE_DOM !== !1, Ba = zr.SANITIZE_NAMED_PROPS || !1, Ia = zr.KEEP_CONTENT !== !1, Hi = zr.IN_PLACE || !1, di = zr.ALLOWED_URI_REGEXP || IS_ALLOWED_URI, Xa = zr.NAMESPACE || Oa, Ui = zr.CUSTOM_ELEMENT_HANDLING || {}, zr.CUSTOM_ELEMENT_HANDLING && Ji(zr.CUSTOM_ELEMENT_HANDLING.tagNameCheck) && (Ui.tagNameCheck = zr.CUSTOM_ELEMENT_HANDLING.tagNameCheck), zr.CUSTOM_ELEMENT_HANDLING && Ji(zr.CUSTOM_ELEMENT_HANDLING.attributeNameCheck) && (Ui.attributeNameCheck = zr.CUSTOM_ELEMENT_HANDLING.attributeNameCheck), zr.CUSTOM_ELEMENT_HANDLING && typeof zr.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements == "boolean" && (Ui.allowCustomizedBuiltInElements = zr.CUSTOM_ELEMENT_HANDLING.allowCustomizedBuiltInElements), _i && (Mi = !1), ea && (ia = !0), oa && (gi = addToSet({}, text), ui = [], oa.html === !0 && (addToSet(gi, html$1), addToSet(ui, html)), oa.svg === !0 && (addToSet(gi, svg$1), addToSet(ui, svg), addToSet(ui, xml)), oa.svgFilters === !0 && (addToSet(gi, svgFilters), addToSet(ui, svg), addToSet(ui, xml)), oa.mathMl === !0 && (addToSet(gi, mathMl$1), addToSet(ui, mathMl), addToSet(ui, xml))), zr.ADD_TAGS && (gi === Li && (gi = clone(gi)), addToSet(gi, zr.ADD_TAGS, Wi)), zr.ADD_ATTR && (ui === wi && (ui = clone(ui)), addToSet(ui, zr.ADD_ATTR, Wi)), zr.ADD_URI_SAFE_ATTR && addToSet(ua, zr.ADD_URI_SAFE_ATTR, Wi), zr.FORBID_CONTENTS && (Gi === ha && (Gi = clone(Gi)), addToSet(Gi, zr.FORBID_CONTENTS, Wi)), Ia && (gi["#text"] = !0), Ci && addToSet(gi, ["html", "head", "body"]), gi.table && (addToSet(gi, ["tbody"]), delete yi.tbody), zr.TRUSTED_TYPES_POLICY) {
         if (typeof zr.TRUSTED_TYPES_POLICY.createHTML != "function")
           throw typeErrorCreate('TRUSTED_TYPES_POLICY configuration option must provide a "createHTML" hook.');
         if (typeof zr.TRUSTED_TYPES_POLICY.createScriptURL != "function")
@@ -66054,16 +66054,16 @@ function createDOMPurify() {
         Lr = zr.TRUSTED_TYPES_POLICY, Dr = Lr.createHTML("");
       } else
         Lr === void 0 && (Lr = _createTrustedTypesPolicy(Tr, fr)), Lr !== null && typeof Dr == "string" && (Dr = Lr.createHTML(""));
-      freeze && freeze(zr), ka = zr;
+      freeze && freeze(zr), ma = zr;
     }
-  }, Va = addToSet({}, ["mi", "mo", "mn", "ms", "mtext"]), Ca = addToSet({}, ["foreignobject", "desc", "title", "annotation-xml"]), ja = addToSet({}, ["title", "style", "font", "a", "script"]), ao = addToSet({}, [...svg$1, ...svgFilters, ...svgDisallowed]), Wa = addToSet({}, [...mathMl$1, ...mathMlDisallowed]), po = function(zr) {
+  }, Va = addToSet({}, ["mi", "mo", "mn", "ms", "mtext"]), xa = addToSet({}, ["foreignobject", "desc", "title", "annotation-xml"]), ja = addToSet({}, ["title", "style", "font", "a", "script"]), ao = addToSet({}, [...svg$1, ...svgFilters, ...svgDisallowed]), Wa = addToSet({}, [...mathMl$1, ...mathMlDisallowed]), po = function(zr) {
     let Xr = Ar(zr);
     (!Xr || !Xr.tagName) && (Xr = {
       namespaceURI: Xa,
       tagName: "template"
     });
     const ai = stringToLowerCase(zr.tagName), vi = stringToLowerCase(Xr.tagName);
-    return Pa[zr.namespaceURI] ? zr.namespaceURI === Aa ? Xr.namespaceURI === Oa ? ai === "svg" : Xr.namespaceURI === Ta ? ai === "svg" && (vi === "annotation-xml" || Va[vi]) : !!ao[ai] : zr.namespaceURI === Ta ? Xr.namespaceURI === Oa ? ai === "math" : Xr.namespaceURI === Aa ? ai === "math" && Ca[vi] : !!Wa[ai] : zr.namespaceURI === Oa ? Xr.namespaceURI === Aa && !Ca[vi] || Xr.namespaceURI === Ta && !Va[vi] ? !1 : !Wa[ai] && (ja[ai] || !ao[ai]) : !!(Ha === "application/xhtml+xml" && Pa[zr.namespaceURI]) : !1;
+    return Pa[zr.namespaceURI] ? zr.namespaceURI === Aa ? Xr.namespaceURI === Oa ? ai === "svg" : Xr.namespaceURI === Ta ? ai === "svg" && (vi === "annotation-xml" || Va[vi]) : !!ao[ai] : zr.namespaceURI === Ta ? Xr.namespaceURI === Oa ? ai === "math" : Xr.namespaceURI === Aa ? ai === "math" && xa[vi] : !!Wa[ai] : zr.namespaceURI === Oa ? Xr.namespaceURI === Aa && !xa[vi] || Xr.namespaceURI === Ta && !Va[vi] ? !1 : !Wa[ai] && (ja[ai] || !ao[ai]) : !!(Ha === "application/xhtml+xml" && Pa[zr.namespaceURI]) : !1;
   }, to = function(zr) {
     arrayPush(ar.removed, {
       element: zr
@@ -66134,13 +66134,13 @@ function createDOMPurify() {
     return typeof gr == "function" && zr instanceof gr;
   }, lo = function(zr, Xr, ai) {
     oi[zr] && arrayForEach(oi[zr], (vi) => {
-      vi.call(ar, Xr, ai, ka);
+      vi.call(ar, Xr, ai, ma);
     });
-  }, ya = function(zr) {
+  }, ka = function(zr) {
     let Xr = null;
     if (lo("beforeSanitizeElements", zr, null), Lo(zr))
       return to(zr), !0;
-    const ai = Zi(zr.nodeName);
+    const ai = Wi(zr.nodeName);
     if (lo("uponSanitizeElement", zr, {
       tagName: ai,
       allowedTags: gi
@@ -66165,7 +66165,7 @@ function createDOMPurify() {
       element: zr.cloneNode()
     }), zr.textContent = Xr)), lo("afterSanitizeElements", zr, null), !1);
   }, qi = function(zr, Xr, ai) {
-    if (ma && (Xr === "id" || Xr === "name") && (ai in cr || ai in zi))
+    if (ba && (Xr === "id" || Xr === "name") && (ai in cr || ai in zi))
       return !1;
     if (!(Mi && !Vi[Xr] && regExpTest(Si, Xr))) {
       if (!(Oi && regExpTest(ci, Xr))) {
@@ -66213,7 +66213,7 @@ function createDOMPurify() {
         name: Fi,
         namespaceURI: ra,
         value: pa
-      } = Ti, ca = Zi(Fi);
+      } = Ti, ca = Wi(Fi);
       let da = Fi === "value" ? pa : stringTrim(pa);
       if (ai.attrName = ca, ai.attrValue = da, ai.keepAttr = !0, ai.forceKeepAttr = void 0, lo("uponSanitizeAttribute", zr, ai), da = ai.attrValue, ai.forceKeepAttr || (oo(Fi, zr), !ai.keepAttr))
         continue;
@@ -66224,7 +66224,7 @@ function createDOMPurify() {
       _i && arrayForEach([Jr, Yr, li], (co) => {
         da = stringReplace(da, co, " ");
       });
-      const qa = Zi(zr.nodeName);
+      const qa = Wi(zr.nodeName);
       if (qi(qa, ca, da)) {
         if (Ba && (ca === "id" || ca === "name") && (oo(Fi, zr), da = Fa + da), Lr && typeof Tr == "object" && typeof Tr.getAttributeType == "function" && !ra)
           switch (Tr.getAttributeType(qa, ca)) {
@@ -66248,7 +66248,7 @@ function createDOMPurify() {
     let Xr = null;
     const ai = Io(zr);
     for (lo("beforeSanitizeShadowDOM", zr, null); Xr = ai.nextNode(); )
-      lo("uponSanitizeShadowNode", Xr, null), !ya(Xr) && (Xr.content instanceof dr && Br(Xr.content), si(Xr));
+      lo("uponSanitizeShadowNode", Xr, null), !ka(Xr) && (Xr.content instanceof dr && Br(Xr.content), si(Xr));
     lo("afterSanitizeShadowDOM", zr, null);
   };
   return ar.sanitize = function(Br) {
@@ -66263,7 +66263,7 @@ function createDOMPurify() {
       return Br;
     if (Ki || za(zr), ar.removed = [], typeof Br == "string" && (Hi = !1), Hi) {
       if (Br.nodeName) {
-        const pa = Zi(Br.nodeName);
+        const pa = Wi(Br.nodeName);
         if (!gi[pa] || yi[pa])
           throw typeErrorCreate("root node is forbidden and cannot be sanitized in-place");
       }
@@ -66279,7 +66279,7 @@ function createDOMPurify() {
     Xr && Ni && to(Xr.firstChild);
     const Fi = Io(Hi ? Br : Xr);
     for (; vi = Fi.nextNode(); )
-      ya(vi) || (vi.content instanceof dr && Qr(vi.content), si(vi));
+      ka(vi) || (vi.content instanceof dr && Qr(vi.content), si(vi));
     if (Hi)
       return Br;
     if (ia) {
@@ -66299,10 +66299,10 @@ function createDOMPurify() {
     let Br = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
     za(Br), Ki = !0;
   }, ar.clearConfig = function() {
-    ka = null, Ki = !1;
+    ma = null, Ki = !1;
   }, ar.isValidAttribute = function(Br, zr, Xr) {
-    ka || za({});
-    const ai = Zi(Br), vi = Zi(zr);
+    ma || za({});
+    const ai = Wi(Br), vi = Wi(zr);
     return qi(ai, vi, Xr);
   }, ar.addHook = function(Br, zr) {
     typeof zr == "function" && (oi[Br] = oi[Br] || [], arrayPush(oi[Br], zr));
@@ -66534,7 +66534,7 @@ var toastuiEditorViewer = { exports: {} };
                   }
                   return Aa;
                 }
-                var Ui = Ar(["a", "abbr", "acronym", "address", "area", "article", "aside", "audio", "b", "bdi", "bdo", "big", "blink", "blockquote", "body", "br", "button", "canvas", "caption", "center", "cite", "code", "col", "colgroup", "content", "data", "datalist", "dd", "decorator", "del", "details", "dfn", "dialog", "dir", "div", "dl", "dt", "element", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "img", "input", "ins", "kbd", "label", "legend", "li", "main", "map", "mark", "marquee", "menu", "menuitem", "meter", "nav", "nobr", "ol", "optgroup", "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select", "shadow", "small", "source", "spacer", "span", "strike", "strong", "style", "sub", "summary", "sup", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "tr", "track", "tt", "u", "ul", "var", "video", "wbr"]), yi = Ar(["svg", "a", "altglyph", "altglyphdef", "altglyphitem", "animatecolor", "animatemotion", "animatetransform", "circle", "clippath", "defs", "desc", "ellipse", "filter", "font", "g", "glyph", "glyphref", "hkern", "image", "line", "lineargradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialgradient", "rect", "stop", "style", "switch", "symbol", "text", "textpath", "title", "tref", "tspan", "view", "vkern"]), Vi = Ar(["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence"]), Oi = Ar(["animate", "color-profile", "cursor", "discard", "fedropshadow", "feimage", "font-face", "font-face-format", "font-face-name", "font-face-src", "font-face-uri", "foreignobject", "hatch", "hatchpath", "mesh", "meshgradient", "meshpatch", "meshrow", "missing-glyph", "script", "set", "solidcolor", "unknown", "use"]), Mi = Ar(["math", "menclose", "merror", "mfenced", "mfrac", "mglyph", "mi", "mlabeledtr", "mmultiscripts", "mn", "mo", "mover", "mpadded", "mphantom", "mroot", "mrow", "ms", "mspace", "msqrt", "mstyle", "msub", "msup", "msubsup", "mtable", "mtd", "mtext", "mtr", "munder", "munderover"]), Ii = Ar(["maction", "maligngroup", "malignmark", "mlongdiv", "mscarries", "mscarry", "msgroup", "mstack", "msline", "msrow", "semantics", "annotation", "annotation-xml", "mprescripts", "none"]), mi = Ar(["#text"]), _i = Ar(["accept", "action", "align", "alt", "autocapitalize", "autocomplete", "autopictureinpicture", "autoplay", "background", "bgcolor", "border", "capture", "cellpadding", "cellspacing", "checked", "cite", "class", "clear", "color", "cols", "colspan", "controls", "controlslist", "coords", "crossorigin", "datetime", "decoding", "default", "dir", "disabled", "disablepictureinpicture", "disableremoteplayback", "download", "draggable", "enctype", "enterkeyhint", "face", "for", "headers", "height", "hidden", "high", "href", "hreflang", "id", "inputmode", "integrity", "ismap", "kind", "label", "lang", "list", "loading", "loop", "low", "max", "maxlength", "media", "method", "min", "minlength", "multiple", "muted", "name", "noshade", "novalidate", "nowrap", "open", "optimum", "pattern", "placeholder", "playsinline", "poster", "preload", "pubdate", "radiogroup", "readonly", "rel", "required", "rev", "reversed", "role", "rows", "rowspan", "spellcheck", "scope", "selected", "shape", "size", "sizes", "span", "srclang", "start", "src", "srcset", "step", "style", "summary", "tabindex", "title", "translate", "type", "usemap", "valign", "value", "width", "xmlns", "slot"]), Ci = Ar(["accent-height", "accumulate", "additive", "alignment-baseline", "ascent", "attributename", "attributetype", "azimuth", "basefrequency", "baseline-shift", "begin", "bias", "by", "class", "clip", "clippathunits", "clip-path", "clip-rule", "color", "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "cx", "cy", "d", "dx", "dy", "diffuseconstant", "direction", "display", "divisor", "dur", "edgemode", "elevation", "end", "fill", "fill-opacity", "fill-rule", "filter", "filterunits", "flood-color", "flood-opacity", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-style", "font-variant", "font-weight", "fx", "fy", "g1", "g2", "glyph-name", "glyphref", "gradientunits", "gradienttransform", "height", "href", "id", "image-rendering", "in", "in2", "k", "k1", "k2", "k3", "k4", "kerning", "keypoints", "keysplines", "keytimes", "lang", "lengthadjust", "letter-spacing", "kernelmatrix", "kernelunitlength", "lighting-color", "local", "marker-end", "marker-mid", "marker-start", "markerheight", "markerunits", "markerwidth", "maskcontentunits", "maskunits", "max", "mask", "media", "method", "mode", "min", "name", "numoctaves", "offset", "operator", "opacity", "order", "orient", "orientation", "origin", "overflow", "paint-order", "path", "pathlength", "patterncontentunits", "patterntransform", "patternunits", "points", "preservealpha", "preserveaspectratio", "primitiveunits", "r", "rx", "ry", "radius", "refx", "refy", "repeatcount", "repeatdur", "restart", "result", "rotate", "scale", "seed", "shape-rendering", "specularconstant", "specularexponent", "spreadmethod", "startoffset", "stddeviation", "stitchtiles", "stop-color", "stop-opacity", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "stroke", "stroke-width", "style", "surfacescale", "systemlanguage", "tabindex", "targetx", "targety", "transform", "text-anchor", "text-decoration", "text-rendering", "textlength", "type", "u1", "u2", "unicode", "values", "viewbox", "visibility", "version", "vert-adv-y", "vert-origin-x", "vert-origin-y", "width", "word-spacing", "wrap", "writing-mode", "xchannelselector", "ychannelselector", "x", "x1", "x2", "xmlns", "y", "y1", "y2", "z", "zoomandpan"]), Ki = Ar(["accent", "accentunder", "align", "bevelled", "close", "columnsalign", "columnlines", "columnspan", "denomalign", "depth", "dir", "display", "displaystyle", "encoding", "fence", "frame", "height", "href", "id", "largeop", "length", "linethickness", "lspace", "lquote", "mathbackground", "mathcolor", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "numalign", "open", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "rquote", "scriptlevel", "scriptminsize", "scriptsizemultiplier", "selection", "separator", "separators", "stretchy", "subscriptshift", "supscriptshift", "symmetric", "voffset", "width", "xmlns"]), Ni = Ar(["xlink:href", "xml:id", "xlink:title", "xml:space", "xmlns:xlink"]), ia = Lr(/\{\{[\s\S]*|[\s\S]*\}\}/gm), ea = Lr(/<%[\s\S]*|[\s\S]*%>/gm), la = Lr(/^data-[\-\w.\u00B7-\uFFFF]/), ma = Lr(/^aria-[\-\w]+$/), Ba = Lr(
+                var Ui = Ar(["a", "abbr", "acronym", "address", "area", "article", "aside", "audio", "b", "bdi", "bdo", "big", "blink", "blockquote", "body", "br", "button", "canvas", "caption", "center", "cite", "code", "col", "colgroup", "content", "data", "datalist", "dd", "decorator", "del", "details", "dfn", "dialog", "dir", "div", "dl", "dt", "element", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "img", "input", "ins", "kbd", "label", "legend", "li", "main", "map", "mark", "marquee", "menu", "menuitem", "meter", "nav", "nobr", "ol", "optgroup", "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select", "shadow", "small", "source", "spacer", "span", "strike", "strong", "style", "sub", "summary", "sup", "table", "tbody", "td", "template", "textarea", "tfoot", "th", "thead", "time", "tr", "track", "tt", "u", "ul", "var", "video", "wbr"]), yi = Ar(["svg", "a", "altglyph", "altglyphdef", "altglyphitem", "animatecolor", "animatemotion", "animatetransform", "circle", "clippath", "defs", "desc", "ellipse", "filter", "font", "g", "glyph", "glyphref", "hkern", "image", "line", "lineargradient", "marker", "mask", "metadata", "mpath", "path", "pattern", "polygon", "polyline", "radialgradient", "rect", "stop", "style", "switch", "symbol", "text", "textpath", "title", "tref", "tspan", "view", "vkern"]), Vi = Ar(["feBlend", "feColorMatrix", "feComponentTransfer", "feComposite", "feConvolveMatrix", "feDiffuseLighting", "feDisplacementMap", "feDistantLight", "feFlood", "feFuncA", "feFuncB", "feFuncG", "feFuncR", "feGaussianBlur", "feMerge", "feMergeNode", "feMorphology", "feOffset", "fePointLight", "feSpecularLighting", "feSpotLight", "feTile", "feTurbulence"]), Oi = Ar(["animate", "color-profile", "cursor", "discard", "fedropshadow", "feimage", "font-face", "font-face-format", "font-face-name", "font-face-src", "font-face-uri", "foreignobject", "hatch", "hatchpath", "mesh", "meshgradient", "meshpatch", "meshrow", "missing-glyph", "script", "set", "solidcolor", "unknown", "use"]), Mi = Ar(["math", "menclose", "merror", "mfenced", "mfrac", "mglyph", "mi", "mlabeledtr", "mmultiscripts", "mn", "mo", "mover", "mpadded", "mphantom", "mroot", "mrow", "ms", "mspace", "msqrt", "mstyle", "msub", "msup", "msubsup", "mtable", "mtd", "mtext", "mtr", "munder", "munderover"]), Ii = Ar(["maction", "maligngroup", "malignmark", "mlongdiv", "mscarries", "mscarry", "msgroup", "mstack", "msline", "msrow", "semantics", "annotation", "annotation-xml", "mprescripts", "none"]), mi = Ar(["#text"]), _i = Ar(["accept", "action", "align", "alt", "autocapitalize", "autocomplete", "autopictureinpicture", "autoplay", "background", "bgcolor", "border", "capture", "cellpadding", "cellspacing", "checked", "cite", "class", "clear", "color", "cols", "colspan", "controls", "controlslist", "coords", "crossorigin", "datetime", "decoding", "default", "dir", "disabled", "disablepictureinpicture", "disableremoteplayback", "download", "draggable", "enctype", "enterkeyhint", "face", "for", "headers", "height", "hidden", "high", "href", "hreflang", "id", "inputmode", "integrity", "ismap", "kind", "label", "lang", "list", "loading", "loop", "low", "max", "maxlength", "media", "method", "min", "minlength", "multiple", "muted", "name", "noshade", "novalidate", "nowrap", "open", "optimum", "pattern", "placeholder", "playsinline", "poster", "preload", "pubdate", "radiogroup", "readonly", "rel", "required", "rev", "reversed", "role", "rows", "rowspan", "spellcheck", "scope", "selected", "shape", "size", "sizes", "span", "srclang", "start", "src", "srcset", "step", "style", "summary", "tabindex", "title", "translate", "type", "usemap", "valign", "value", "width", "xmlns", "slot"]), Ci = Ar(["accent-height", "accumulate", "additive", "alignment-baseline", "ascent", "attributename", "attributetype", "azimuth", "basefrequency", "baseline-shift", "begin", "bias", "by", "class", "clip", "clippathunits", "clip-path", "clip-rule", "color", "color-interpolation", "color-interpolation-filters", "color-profile", "color-rendering", "cx", "cy", "d", "dx", "dy", "diffuseconstant", "direction", "display", "divisor", "dur", "edgemode", "elevation", "end", "fill", "fill-opacity", "fill-rule", "filter", "filterunits", "flood-color", "flood-opacity", "font-family", "font-size", "font-size-adjust", "font-stretch", "font-style", "font-variant", "font-weight", "fx", "fy", "g1", "g2", "glyph-name", "glyphref", "gradientunits", "gradienttransform", "height", "href", "id", "image-rendering", "in", "in2", "k", "k1", "k2", "k3", "k4", "kerning", "keypoints", "keysplines", "keytimes", "lang", "lengthadjust", "letter-spacing", "kernelmatrix", "kernelunitlength", "lighting-color", "local", "marker-end", "marker-mid", "marker-start", "markerheight", "markerunits", "markerwidth", "maskcontentunits", "maskunits", "max", "mask", "media", "method", "mode", "min", "name", "numoctaves", "offset", "operator", "opacity", "order", "orient", "orientation", "origin", "overflow", "paint-order", "path", "pathlength", "patterncontentunits", "patterntransform", "patternunits", "points", "preservealpha", "preserveaspectratio", "primitiveunits", "r", "rx", "ry", "radius", "refx", "refy", "repeatcount", "repeatdur", "restart", "result", "rotate", "scale", "seed", "shape-rendering", "specularconstant", "specularexponent", "spreadmethod", "startoffset", "stddeviation", "stitchtiles", "stop-color", "stop-opacity", "stroke-dasharray", "stroke-dashoffset", "stroke-linecap", "stroke-linejoin", "stroke-miterlimit", "stroke-opacity", "stroke", "stroke-width", "style", "surfacescale", "systemlanguage", "tabindex", "targetx", "targety", "transform", "text-anchor", "text-decoration", "text-rendering", "textlength", "type", "u1", "u2", "unicode", "values", "viewbox", "visibility", "version", "vert-adv-y", "vert-origin-x", "vert-origin-y", "width", "word-spacing", "wrap", "writing-mode", "xchannelselector", "ychannelselector", "x", "x1", "x2", "xmlns", "y", "y1", "y2", "z", "zoomandpan"]), Ki = Ar(["accent", "accentunder", "align", "bevelled", "close", "columnsalign", "columnlines", "columnspan", "denomalign", "depth", "dir", "display", "displaystyle", "encoding", "fence", "frame", "height", "href", "id", "largeop", "length", "linethickness", "lspace", "lquote", "mathbackground", "mathcolor", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "numalign", "open", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "rquote", "scriptlevel", "scriptminsize", "scriptsizemultiplier", "selection", "separator", "separators", "stretchy", "subscriptshift", "supscriptshift", "symmetric", "voffset", "width", "xmlns"]), Ni = Ar(["xlink:href", "xml:id", "xlink:title", "xml:space", "xmlns:xlink"]), ia = Lr(/\{\{[\s\S]*|[\s\S]*\}\}/gm), ea = Lr(/<%[\s\S]*|[\s\S]*%>/gm), la = Lr(/^data-[\-\w.\u00B7-\uFFFF]/), ba = Lr(/^aria-[\-\w]+$/), Ba = Lr(
                   /^(?:(?:(?:f|ht)tps?|mailto|tel|callto|cid|xmpp):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i
                   // eslint-disable-line no-useless-escape
                 ), Fa = Lr(/^(?:\w+script|data):/i), Ia = Lr(
@@ -66577,7 +66577,7 @@ var toastuiEditorViewer = { exports: {} };
                   };
                   if (va.version = "2.3.3", va.removed = [], !ua || !ua.document || ua.document.nodeType !== 9)
                     return va.isSupported = !1, va;
-                  var Ta = ua.document, Aa = ua.document, Oa = ua.DocumentFragment, Xa = ua.HTMLTemplateElement, Ka = ua.Node, Pa = ua.Element, Da = ua.NodeFilter, Ha = ua.NamedNodeMap, $a = Ha === void 0 ? ua.NamedNodeMap || ua.MozNamedAttrMap : Ha, Yi = ua.Text, Zi = ua.Comment, ka = ua.DOMParser, zi = ua.trustedTypes, Ji = Pa.prototype, za = wi(Ji, "cloneNode"), Va = wi(Ji, "nextSibling"), Ca = wi(Ji, "childNodes"), ja = wi(Ji, "parentNode");
+                  var Ta = ua.document, Aa = ua.document, Oa = ua.DocumentFragment, Xa = ua.HTMLTemplateElement, Ka = ua.Node, Pa = ua.Element, Da = ua.NodeFilter, Ha = ua.NamedNodeMap, $a = Ha === void 0 ? ua.NamedNodeMap || ua.MozNamedAttrMap : Ha, Yi = ua.Text, Wi = ua.Comment, ma = ua.DOMParser, zi = ua.trustedTypes, Ji = Pa.prototype, za = wi(Ji, "cloneNode"), Va = wi(Ji, "nextSibling"), xa = wi(Ji, "childNodes"), ja = wi(Ji, "parentNode");
                   if (typeof Xa == "function") {
                     var ao = Aa.createElement("template");
                     ao.content && ao.content.ownerDocument && (Aa = ao.content.ownerDocument);
@@ -66587,9 +66587,9 @@ var toastuiEditorViewer = { exports: {} };
                     lo = ui(Aa).documentMode ? Aa.documentMode : {};
                   } catch (Ma) {
                   }
-                  var ya = {};
+                  var ka = {};
                   va.isSupported = typeof ja == "function" && oo && typeof oo.createHTMLDocument != "undefined" && lo !== 9;
-                  var qi = ia, sa = ea, si = la, Qr = ma, Br = Fa, zr = Ia, Xr = Ba, ai = null, vi = Li({}, [].concat(oa(Ui), oa(yi), oa(Vi), oa(Mi), oa(mi))), Ti = null, Fi = Li({}, [].concat(oa(_i), oa(Ci), oa(Ki), oa(Ni))), ra = null, pa = null, ca = !0, da = !0, qa = !1, co = !1, yo = !1, Mo = !1, Oo = !1, Do = !1, us = !1, Bo = !0, fs = !1, Us = !0, ds = !0, es = !1, ts = {}, rs = null, zs = Li({}, ["annotation-xml", "audio", "colgroup", "desc", "foreignobject", "head", "iframe", "math", "mi", "mn", "mo", "ms", "mtext", "noembed", "noframes", "noscript", "plaintext", "script", "style", "svg", "template", "thead", "title", "video", "xmp"]), qs = null, Ss = Li({}, ["audio", "video", "img", "source", "image", "track"]), Is = null, Fs = Li({}, ["alt", "class", "for", "id", "label", "name", "pattern", "placeholder", "role", "summary", "title", "value", "style", "xmlns"]), js = "http://www.w3.org/1998/Math/MathML", hs = "http://www.w3.org/2000/svg", xo = "http://www.w3.org/1999/xhtml", ps = xo, ns = !1, Po = void 0, is = ["application/xhtml+xml", "text/html"], kl = "text/html", as = void 0, Xo = null, _l = Aa.createElement("form"), $s = function($i) {
+                  var qi = ia, sa = ea, si = la, Qr = ba, Br = Fa, zr = Ia, Xr = Ba, ai = null, vi = Li({}, [].concat(oa(Ui), oa(yi), oa(Vi), oa(Mi), oa(mi))), Ti = null, Fi = Li({}, [].concat(oa(_i), oa(Ci), oa(Ki), oa(Ni))), ra = null, pa = null, ca = !0, da = !0, qa = !1, co = !1, yo = !1, Mo = !1, Oo = !1, Do = !1, us = !1, Bo = !0, fs = !1, Us = !0, ds = !0, es = !1, ts = {}, rs = null, zs = Li({}, ["annotation-xml", "audio", "colgroup", "desc", "foreignobject", "head", "iframe", "math", "mi", "mn", "mo", "ms", "mtext", "noembed", "noframes", "noscript", "plaintext", "script", "style", "svg", "template", "thead", "title", "video", "xmp"]), qs = null, Ss = Li({}, ["audio", "video", "img", "source", "image", "track"]), Is = null, Fs = Li({}, ["alt", "class", "for", "id", "label", "name", "pattern", "placeholder", "role", "summary", "title", "value", "style", "xmlns"]), js = "http://www.w3.org/1998/Math/MathML", hs = "http://www.w3.org/2000/svg", xo = "http://www.w3.org/1999/xhtml", ps = xo, ns = !1, Po = void 0, is = ["application/xhtml+xml", "text/html"], kl = "text/html", as = void 0, Xo = null, _l = Aa.createElement("form"), $s = function($i) {
                     Xo && Xo === $i || ((!$i || (typeof $i == "undefined" ? "undefined" : Hi($i)) !== "object") && ($i = {}), $i = ui($i), ai = "ALLOWED_TAGS" in $i ? Li({}, $i.ALLOWED_TAGS) : vi, Ti = "ALLOWED_ATTR" in $i ? Li({}, $i.ALLOWED_ATTR) : Fi, Is = "ADD_URI_SAFE_ATTR" in $i ? Li(ui(Fs), $i.ADD_URI_SAFE_ATTR) : Fs, qs = "ADD_DATA_URI_TAGS" in $i ? Li(ui(Ss), $i.ADD_DATA_URI_TAGS) : Ss, rs = "FORBID_CONTENTS" in $i ? Li({}, $i.FORBID_CONTENTS) : zs, ra = "FORBID_TAGS" in $i ? Li({}, $i.FORBID_TAGS) : {}, pa = "FORBID_ATTR" in $i ? Li({}, $i.FORBID_ATTR) : {}, ts = "USE_PROFILES" in $i ? $i.USE_PROFILES : !1, ca = $i.ALLOW_ARIA_ATTR !== !1, da = $i.ALLOW_DATA_ATTR !== !1, qa = $i.ALLOW_UNKNOWN_PROTOCOLS || !1, co = $i.SAFE_FOR_TEMPLATES || !1, yo = $i.WHOLE_DOCUMENT || !1, Do = $i.RETURN_DOM || !1, us = $i.RETURN_DOM_FRAGMENT || !1, Bo = $i.RETURN_DOM_IMPORT !== !1, fs = $i.RETURN_TRUSTED_TYPE || !1, Oo = $i.FORCE_BODY || !1, Us = $i.SANITIZE_DOM !== !1, ds = $i.KEEP_CONTENT !== !1, es = $i.IN_PLACE || !1, Xr = $i.ALLOWED_URI_REGEXP || Xr, ps = $i.NAMESPACE || xo, Po = // eslint-disable-next-line unicorn/prefer-includes
                     is.indexOf($i.PARSER_MEDIA_TYPE) === -1 ? Po = kl : Po = $i.PARSER_MEDIA_TYPE, as = Po === "application/xhtml+xml" ? function(ga) {
                       return ga;
@@ -66662,7 +66662,7 @@ var toastuiEditorViewer = { exports: {} };
                     var ko = Wa ? Wa.createHTML($i) : $i;
                     if (ps === xo)
                       try {
-                        ga = new ka().parseFromString(ko, Po);
+                        ga = new ma().parseFromString(ko, Po);
                       } catch (Qa) {
                       }
                     if (!ga || !ga.documentElement) {
@@ -66677,11 +66677,11 @@ var toastuiEditorViewer = { exports: {} };
                   }, Rs = function($i) {
                     return uo.call($i.ownerDocument || $i, $i, Da.SHOW_ELEMENT | Da.SHOW_COMMENT | Da.SHOW_TEXT, null, !1);
                   }, Ks = function($i) {
-                    return $i instanceof Yi || $i instanceof Zi ? !1 : typeof $i.nodeName != "string" || typeof $i.textContent != "string" || typeof $i.removeChild != "function" || !($i.attributes instanceof $a) || typeof $i.removeAttribute != "function" || typeof $i.setAttribute != "function" || typeof $i.namespaceURI != "string" || typeof $i.insertBefore != "function";
+                    return $i instanceof Yi || $i instanceof Wi ? !1 : typeof $i.nodeName != "string" || typeof $i.textContent != "string" || typeof $i.removeChild != "function" || !($i.attributes instanceof $a) || typeof $i.removeAttribute != "function" || typeof $i.setAttribute != "function" || typeof $i.namespaceURI != "string" || typeof $i.insertBefore != "function";
                   }, vs = function($i) {
                     return (typeof Ka == "undefined" ? "undefined" : Hi(Ka)) === "object" ? $i instanceof Ka : $i && (typeof $i == "undefined" ? "undefined" : Hi($i)) === "object" && typeof $i.nodeType == "number" && typeof $i.nodeName == "string";
                   }, Uo = function($i, ga, Sa) {
-                    ya[$i] && Wr(ya[$i], function(ro) {
+                    ka[$i] && Wr(ka[$i], function(ro) {
                       ro.call(va, ga, Sa, Xo);
                     });
                   }, Gs = function($i) {
@@ -66696,7 +66696,7 @@ var toastuiEditorViewer = { exports: {} };
                       return Ho($i), !0;
                     if (!ai[Sa] || ra[Sa]) {
                       if (ds && !rs[Sa]) {
-                        var ro = ja($i) || $i.parentNode, ko = Ca($i) || $i.childNodes;
+                        var ro = ja($i) || $i.parentNode, ko = xa($i) || $i.childNodes;
                         if (ko && ro)
                           for (var _o = ko.length, Qa = _o - 1; Qa >= 0; --Qa)
                             ro.insertBefore(za(ko[Qa], !0), Va($i));
@@ -66811,13 +66811,13 @@ var toastuiEditorViewer = { exports: {} };
                     var Sa = as(Ma), ro = as($i);
                     return Ws(Sa, ro, ga);
                   }, va.addHook = function(Ma, $i) {
-                    typeof $i == "function" && (ya[Ma] = ya[Ma] || [], oi(ya[Ma], $i));
+                    typeof $i == "function" && (ka[Ma] = ka[Ma] || [], oi(ka[Ma], $i));
                   }, va.removeHook = function(Ma) {
-                    ya[Ma] && Zr(ya[Ma]);
+                    ka[Ma] && Zr(ka[Ma]);
                   }, va.removeHooks = function(Ma) {
-                    ya[Ma] && (ya[Ma] = []);
+                    ka[Ma] && (ka[Ma] = []);
                   }, va.removeAllHooks = function() {
-                    ya = {};
+                    ka = {};
                   }, va;
                 }
                 var eo = Ua();
@@ -67422,7 +67422,7 @@ var toastuiEditorViewer = { exports: {} };
             return ta;
           }
           Dr.defaultChars = ";/?:@&=+$,-_.!~*'()#", Dr.componentChars = "-_.!~*'()";
-          var Nr = Dr, Hr = {}, $r = {}, Wr = "Á", Zr = "á", oi = "Ă", Jr = "ă", Yr = "∾", li = "∿", Si = "∾̳", ci = "Â", hi = "â", Ei = "´", di = "А", gi = "а", Li = "Æ", ui = "æ", wi = "⁡", Ui = "𝔄", yi = "𝔞", Vi = "À", Oi = "à", Mi = "ℵ", Ii = "ℵ", mi = "Α", _i = "α", Ci = "Ā", Ki = "ā", Ni = "⨿", ia = "&", ea = "&", la = "⩕", ma = "⩓", Ba = "∧", Fa = "⩜", Ia = "⩘", Hi = "⩚", oa = "∠", Gi = "⦤", ha = "∠", Ua = "⦨", eo = "⦩", ua = "⦪", va = "⦫", Ta = "⦬", Aa = "⦭", Oa = "⦮", Xa = "⦯", Ka = "∡", Pa = "∟", Da = "⊾", Ha = "⦝", $a = "∢", Yi = "Å", Zi = "⍼", ka = "Ą", zi = "ą", Ji = "𝔸", za = "𝕒", Va = "⩯", Ca = "≈", ja = "⩰", ao = "≊", Wa = "≋", po = "'", to = "⁡", oo = "≈", uo = "≊", Io = "Å", Lo = "å", Eo = "𝒜", lo = "𝒶", ya = "≔", qi = "*", sa = "≈", si = "≍", Qr = "Ã", Br = "ã", zr = "Ä", Xr = "ä", ai = "∳", vi = "⨑", Ti = "≌", Fi = "϶", ra = "‵", pa = "∽", ca = "⋍", da = "∖", qa = "⫧", co = "⊽", yo = "⌅", Mo = "⌆", Oo = "⌅", Do = "⎵", us = "⎶", Bo = "≌", fs = "Б", Us = "б", ds = "„", es = "∵", ts = "∵", rs = "∵", zs = "⦰", qs = "϶", Ss = "ℬ", Is = "ℬ", Fs = "Β", js = "β", hs = "ℶ", xo = "≬", ps = "𝔅", ns = "𝔟", Po = "⋂", is = "◯", kl = "⋃", as = "⨀", Xo = "⨁", _l = "⨂", $s = "⨆", Ls = "★", Vs = "▽", gs = "△", Ms = "⨄", ol = "⋁", Ho = "⋀", sl = "⤍", cl = "⧫", Rs = "▪", Ks = "▴", vs = "▾", Uo = "◂", Gs = "▸", Ws = "␣", Zs = "▒", Xs = "░", Ma = "▓", $i = "█", ga = "=⃥", Sa = "≡⃥", ro = "⫭", ko = "⌐", _o = "𝔹", Qa = "𝕓", fo = "⊥", bs = "⊥", ul = "⋈", wl = "⧉", Jo = "┐", Cc = "╕", El = "╖", xl = "╗", Tc = "┌", Ac = "╒", fl = "╓", Ic = "╔", Cl = "─", Ns = "═", Lc = "┬", Mc = "╤", Rc = "╥", Nc = "╦", Oc = "┴", Dc = "╧", Tl = "╨", Dl = "╩", Bc = "⊟", Bl = "⊞", Pc = "⊠", Pl = "┘", Hl = "╛", Hc = "╜", Js = "╝", Uc = "└", Ys = "╘", zc = "╙", qc = "╚", Qs = "│", Ul = "║", zl = "┼", ql = "╪", Fl = "╫", tl = "╬", jl = "┤", rl = "╡", Fc = "╢", ys = "╣", Os = "├", ks = "╞", zo = "╟", Ao = "╠", $l = "‵", jc = "˘", Vl = "˘", $c = "¦", Gl = "𝒷", Wl = "ℬ", dl = "⁏", _s = "∽", Al = "⋍", Zl = "⧅", Sl = "\\", Vc = "⟈", Kc = "•", Gc = "•", Wc = "≎", Xl = "⪮", Jl = "≏", Zc = "≎", Xc = "≏", Jc = "Ć", Yc = "ć", Qc = "⩄", eu = "⩉", Yl = "⩋", tu = "∩", ru = "⋒", Il = "⩇", iu = "⩀", Ql = "ⅅ", au = "∩︀", ou = "⁁", su = "ˇ", lu = "ℭ", ec = "⩍", tc = "Č", rc = "č", cu = "Ç", nc = "ç", uu = "Ĉ", oc = "ĉ", Sr = "∰", qr = "⩌", Ir = "⩐", Ur = "Ċ", jr = "ċ", Vr = "¸", ei = "¸", ti = "⦲", fi = "¢", ki = "·", Ri = "·", ji = "𝔠", Bi = "ℭ", Qi = "Ч", na = "ч", Ea = "✓", La = "✓", fa = "Χ", so = "χ", Za = "ˆ", no = "≗", Ga = "↺", Ja = "↻", ho = "⊛", No = "⊚", qo = "⊝", Co = "⊙", Ko = "®", Ro = "Ⓢ", Ds = "⊖", Go = "⊕", Bs = "⊗", Fo = "○", vo = "⧃", lc = "≗", fu = "⨐", hl = "⫯", ws = "⧂", cc = "∲", uc = "”", kd = "’", _d = "♣", wd = "♣", Ed = ":", xd = "∷", Cd = "⩴", Td = "≔", Ad = "≔", Sd = ",", Ld = "@", Md = "∁", Rd = "∘", Nd = "∁", Od = "ℂ", Dd = "≅", Bd = "⩭", Pd = "≡", Hd = "∮", Ud = "∯", zd = "∮", qd = "𝕔", Fd = "ℂ", jd = "∐", $d = "∐", Vd = "©", Kd = "©", Gd = "℗", Wd = "∳", Zd = "↵", Xd = "✗", Jd = "⨯", Yd = "𝒞", Qd = "𝒸", eh = "⫏", th = "⫑", rh = "⫐", nh = "⫒", ih = "⋯", ah = "⤸", oh = "⤵", sh = "⋞", lh = "⋟", ch = "↶", uh = "⤽", fh = "⩈", dh = "⩆", hh = "≍", ph = "∪", gh = "⋓", vh = "⩊", mh = "⊍", bh = "⩅", yh = "∪︀", kh = "↷", _h = "⤼", wh = "⋞", Eh = "⋟", xh = "⋎", Ch = "⋏", Th = "¤", Ah = "↶", Sh = "↷", Ih = "⋎", Lh = "⋏", Mh = "∲", Rh = "∱", Nh = "⌭", Oh = "†", Dh = "‡", Bh = "ℸ", Ph = "↓", Hh = "↡", Uh = "⇓", zh = "‐", qh = "⫤", Fh = "⊣", jh = "⤏", $h = "˝", Vh = "Ď", Kh = "ď", Gh = "Д", Wh = "д", Zh = "‡", Xh = "⇊", Jh = "ⅅ", Yh = "ⅆ", Qh = "⤑", ep = "⩷", tp = "°", rp = "∇", np = "Δ", ip = "δ", op = "⦱", sp = "⥿", lp = "𝔇", cp = "𝔡", up = "⥥", fp = "⇃", dp = "⇂", hp = "´", pp = "˙", gp = "˝", vp = "`", bp = "˜", yp = "⋄", kp = "⋄", _p = "⋄", Ep = "♦", xp = "♦", Cp = "¨", Tp = "ⅆ", Ap = "ϝ", Sp = "⋲", Ip = "÷", Lp = "÷", Mp = "⋇", Rp = "⋇", Np = "Ђ", Op = "ђ", Dp = "⌞", Bp = "⌍", Pp = "$", Hp = "𝔻", Up = "𝕕", zp = "¨", qp = "˙", jp = "⃜", $p = "≐", Vp = "≑", Kp = "≐", Gp = "∸", Wp = "∔", Zp = "⊡", Xp = "⌆", Jp = "∯", Yp = "¨", Qp = "⇓", tg = "⇐", rg = "⇔", ng = "⫤", ig = "⟸", ag = "⟺", og = "⟹", sg = "⇒", cg = "⊨", ug = "⇑", fg = "⇕", dg = "∥", hg = "⤓", pg = "↓", vg = "↓", mg = "⇓", bg = "⇵", yg = "̑", kg = "⇊", _g = "⇃", wg = "⇂", Eg = "⥐", xg = "⥞", Cg = "⥖", Tg = "↽", Ag = "⥟", Sg = "⥗", Ig = "⇁", Lg = "↧", Mg = "⊤", Rg = "⤐", Ng = "⌟", Og = "⌌", Dg = "𝒟", Bg = "𝒹", Pg = "Ѕ", Hg = "ѕ", Ug = "⧶", zg = "Đ", qg = "đ", Fg = "⋱", jg = "▿", $g = "▾", Vg = "⇵", Kg = "⥯", Wg = "⦦", Zg = "Џ", Xg = "џ", Jg = "⟿", Yg = "É", Qg = "é", ev = "⩮", tv = "Ě", rv = "ě", nv = "Ê", iv = "ê", av = "≖", ov = "≕", sv = "Э", lv = "э", cv = "⩷", uv = "Ė", fv = "ė", dv = "≑", hv = "ⅇ", pv = "≒", gv = "𝔈", vv = "𝔢", mv = "⪚", bv = "È", yv = "è", kv = "⪖", _v = "⪘", wv = "⪙", Ev = "∈", xv = "⏧", Cv = "ℓ", Tv = "⪕", Av = "⪗", Sv = "Ē", Iv = "ē", Lv = "∅", Mv = "∅", Rv = "◻", Nv = "∅", Ov = "▫", Dv = " ", Bv = " ", Pv = " ", Hv = "Ŋ", Uv = "ŋ", zv = " ", qv = "Ę", Fv = "ę", jv = "𝔼", $v = "𝕖", Vv = "⋕", Kv = "⧣", Gv = "⩱", Wv = "ε", Zv = "Ε", Xv = "ε", Jv = "ϵ", Yv = "≖", Qv = "≕", em = "≂", tm = "⪖", rm = "⪕", nm = "⩵", im = "=", am = "≂", om = "≟", sm = "⇌", lm = "≡", cm = "⩸", um = "⧥", fm = "⥱", dm = "≓", hm = "ℯ", gm = "ℰ", vm = "≐", mm = "⩳", bm = "≂", ym = "Η", km = "η", _m = "Ð", wm = "ð", Em = "Ë", xm = "ë", Cm = "€", Tm = "!", Am = "∃", Sm = "∃", Lm = "ℰ", Mm = "ⅇ", Rm = "ⅇ", Nm = "≒", Om = "Ф", Dm = "ф", Bm = "♀", Pm = "ﬃ", Hm = "ﬀ", Um = "ﬄ", zm = "𝔉", qm = "𝔣", Fm = "ﬁ", jm = "◼", $m = "▪", Vm = "fj", Km = "♭", Gm = "ﬂ", Wm = "▱", Zm = "ƒ", Xm = "𝔽", Jm = "𝕗", Ym = "∀", Qm = "∀", eb = "⋔", tb = "⫙", rb = "ℱ", nb = "⨍", ib = "½", ab = "⅓", ob = "¼", sb = "⅕", lb = "⅙", cb = "⅛", ub = "⅔", fb = "⅖", hb = "¾", pb = "⅗", gb = "⅜", vb = "⅘", mb = "⅚", bb = "⅝", yb = "⅞", kb = "⁄", _b = "⌢", wb = "𝒻", Eb = "ℱ", xb = "ǵ", Cb = "Γ", Tb = "γ", Ab = "Ϝ", Sb = "ϝ", Ib = "⪆", Lb = "Ğ", Mb = "ğ", Rb = "Ģ", Nb = "Ĝ", Ob = "ĝ", Db = "Г", Bb = "г", Pb = "Ġ", Hb = "ġ", Ub = "≥", zb = "≧", qb = "⪌", Fb = "⋛", jb = "≥", $b = "≧", Vb = "⩾", Kb = "⪩", Gb = "⩾", Wb = "⪀", Zb = "⪂", Xb = "⪄", Jb = "⋛︀", Yb = "⪔", Qb = "𝔊", e1 = "𝔤", t1 = "≫", r1 = "⋙", n1 = "⋙", i1 = "ℷ", a1 = "Ѓ", o1 = "ѓ", s1 = "⪥", l1 = "≷", c1 = "⪒", u1 = "⪤", f1 = "⪊", d1 = "⪊", h1 = "⪈", p1 = "≩", g1 = "⪈", v1 = "≩", m1 = "⋧", b1 = "𝔾", y1 = "𝕘", k1 = "`", _1 = "≥", w1 = "⋛", E1 = "≧", x1 = "⪢", C1 = "≷", T1 = "⩾", A1 = "≳", S1 = "𝒢", I1 = "ℊ", L1 = "≳", M1 = "⪎", R1 = "⪐", N1 = "⪧", O1 = "⩺", D1 = ">", B1 = ">", P1 = "≫", H1 = "⋗", U1 = "⦕", z1 = "⩼", q1 = "⪆", F1 = "⥸", j1 = "⋗", $1 = "⋛", V1 = "⪌", K1 = "≷", G1 = "≳", W1 = "≩︀", Z1 = "≩︀", X1 = "ˇ", J1 = " ", Y1 = "½", Q1 = "ℋ", ey = "Ъ", ty = "ъ", ry = "⥈", ny = "↔", iy = "⇔", ay = "↭", oy = "^", sy = "ℏ", ly = "Ĥ", cy = "ĥ", uy = "♥", fy = "♥", dy = "…", hy = "⊹", py = "𝔥", gy = "ℌ", vy = "ℋ", my = "⤥", by = "⤦", yy = "⇿", ky = "∻", _y = "↩", wy = "↪", Ey = "𝕙", xy = "ℍ", Cy = "―", Ty = "─", Ay = "𝒽", Sy = "ℋ", Iy = "ℏ", Ly = "Ħ", My = "ħ", Ry = "≎", Ny = "≏", Oy = "⁃", Dy = "‐", By = "Í", Py = "í", Hy = "⁣", Uy = "Î", zy = "î", qy = "И", Fy = "и", jy = "İ", $y = "Е", Vy = "е", Ky = "¡", Gy = "⇔", Wy = "𝔦", Zy = "ℑ", Xy = "Ì", Jy = "ì", Yy = "ⅈ", Qy = "⨌", e0 = "∭", t0 = "⧜", r0 = "℩", n0 = "Ĳ", i0 = "ĳ", a0 = "Ī", o0 = "ī", s0 = "ℑ", l0 = "ⅈ", c0 = "ℐ", u0 = "ℑ", f0 = "ı", d0 = "ℑ", h0 = "⊷", p0 = "Ƶ", g0 = "⇒", v0 = "℅", m0 = "∞", b0 = "⧝", y0 = "ı", k0 = "⊺", _0 = "∫", w0 = "∬", E0 = "ℤ", x0 = "∫", C0 = "⊺", T0 = "⋂", A0 = "⨗", S0 = "⨼", I0 = "⁣", L0 = "⁢", M0 = "Ё", R0 = "ё", N0 = "Į", O0 = "į", D0 = "𝕀", B0 = "𝕚", P0 = "Ι", H0 = "ι", U0 = "⨼", z0 = "¿", q0 = "𝒾", F0 = "ℐ", j0 = "∈", $0 = "⋵", V0 = "⋹", K0 = "⋴", G0 = "⋳", W0 = "∈", Z0 = "⁢", X0 = "Ĩ", J0 = "ĩ", Y0 = "І", Q0 = "і", ek = "Ï", tk = "ï", rk = "Ĵ", nk = "ĵ", ik = "Й", ak = "й", ok = "𝔍", sk = "𝔧", lk = "ȷ", ck = "𝕁", uk = "𝕛", fk = "𝒥", dk = "𝒿", hk = "Ј", pk = "ј", gk = "Є", vk = "є", mk = "Κ", bk = "κ", yk = "ϰ", kk = "Ķ", _k = "ķ", wk = "К", Ek = "к", xk = "𝔎", Ck = "𝔨", Tk = "ĸ", Ak = "Х", Sk = "х", Ik = "Ќ", Lk = "ќ", Mk = "𝕂", Rk = "𝕜", Nk = "𝒦", Ok = "𝓀", Dk = "⇚", Bk = "Ĺ", Pk = "ĺ", Hk = "⦴", Uk = "ℒ", zk = "Λ", qk = "λ", Fk = "⟨", jk = "⟪", $k = "⦑", Vk = "⟨", Kk = "⪅", Gk = "ℒ", Wk = "«", Zk = "⇤", Xk = "⤟", Jk = "←", Yk = "↞", Qk = "⇐", e_ = "⤝", t_ = "↩", r_ = "↫", n_ = "⤹", i_ = "⥳", a_ = "↢", o_ = "⤙", s_ = "⤛", l_ = "⪫", c_ = "⪭", u_ = "⪭︀", f_ = "⤌", d_ = "⤎", h_ = "❲", p_ = "{", g_ = "[", v_ = "⦋", m_ = "⦏", b_ = "⦍", y_ = "Ľ", k_ = "ľ", __ = "Ļ", w_ = "ļ", E_ = "⌈", x_ = "{", C_ = "Л", T_ = "л", A_ = "⤶", S_ = "“", I_ = "„", L_ = "⥧", M_ = "⥋", R_ = "↲", N_ = "≤", O_ = "≦", D_ = "⟨", B_ = "⇤", P_ = "←", H_ = "←", U_ = "⇐", z_ = "⇆", q_ = "↢", F_ = "⌈", j_ = "⟦", $_ = "⥡", V_ = "⥙", K_ = "⇃", G_ = "⌊", W_ = "↽", Z_ = "↼", X_ = "⇇", J_ = "↔", Y_ = "↔", Q_ = "⇔", ew = "⇆", tw = "⇋", rw = "↭", nw = "⥎", iw = "↤", aw = "⊣", ow = "⥚", sw = "⋋", lw = "⧏", cw = "⊲", uw = "⊴", fw = "⥑", dw = "⥠", hw = "⥘", pw = "↿", gw = "⥒", vw = "↼", mw = "⪋", bw = "⋚", yw = "≤", kw = "≦", _w = "⩽", ww = "⪨", Ew = "⩽", xw = "⩿", Cw = "⪁", Tw = "⪃", Aw = "⋚︀", Sw = "⪓", Iw = "⪅", Lw = "⋖", Mw = "⋚", Rw = "⪋", Nw = "⋚", Ow = "≦", Dw = "≶", Bw = "≶", Pw = "⪡", Hw = "≲", Uw = "⩽", zw = "≲", qw = "⥼", Fw = "⌊", jw = "𝔏", $w = "𝔩", Vw = "≶", Kw = "⪑", Gw = "⥢", Ww = "↽", Zw = "↼", Xw = "⥪", Jw = "▄", Yw = "Љ", Qw = "љ", e2 = "⇇", t2 = "≪", r2 = "⋘", n2 = "⌞", i2 = "⇚", a2 = "⥫", o2 = "◺", s2 = "Ŀ", l2 = "ŀ", c2 = "⎰", u2 = "⎰", f2 = "⪉", d2 = "⪉", h2 = "⪇", p2 = "≨", g2 = "⪇", m2 = "≨", b2 = "⋦", y2 = "⟬", k2 = "⇽", _2 = "⟦", w2 = "⟵", E2 = "⟵", x2 = "⟸", C2 = "⟷", T2 = "⟷", A2 = "⟺", S2 = "⟼", I2 = "⟶", L2 = "⟶", M2 = "⟹", R2 = "↫", N2 = "↬", O2 = "⦅", D2 = "𝕃", B2 = "𝕝", P2 = "⨭", H2 = "⨴", U2 = "∗", z2 = "_", q2 = "↙", F2 = "↘", j2 = "◊", $2 = "◊", V2 = "⧫", K2 = "(", G2 = "⦓", W2 = "⇆", Z2 = "⌟", X2 = "⇋", J2 = "⥭", Y2 = "‎", Q2 = "⊿", eE = "‹", tE = "𝓁", rE = "ℒ", nE = "↰", iE = "↰", aE = "≲", oE = "⪍", sE = "⪏", cE = "[", uE = "‘", fE = "‚", dE = "Ł", hE = "ł", pE = "⪦", vE = "⩹", mE = "<", bE = "<", yE = "≪", kE = "⋖", _E = "⋋", wE = "⋉", EE = "⥶", xE = "⩻", CE = "◃", TE = "⊴", AE = "◂", SE = "⦖", IE = "⥊", LE = "⥦", ME = "≨︀", RE = "≨︀", NE = "¯", OE = "♂", DE = "✠", BE = "✠", PE = "↦", HE = "↦", UE = "↧", zE = "↤", qE = "↥", FE = "▮", jE = "⨩", $E = "М", VE = "м", KE = "—", GE = "∺", WE = "∡", ZE = " ", XE = "ℳ", JE = "𝔐", YE = "𝔪", QE = "℧", ex = "µ", tx = "*", nx = "⫰", ix = "∣", ax = "·", ox = "⊟", sx = "−", lx = "∸", cx = "⨪", ux = "∓", fx = "⫛", dx = "…", hx = "∓", px = "⊧", gx = "𝕄", vx = "𝕞", mx = "∓", bx = "𝓂", yx = "ℳ", kx = "∾", _x = "Μ", wx = "μ", Ex = "⊸", xx = "⊸", Cx = "∇", Tx = "Ń", Ax = "ń", Sx = "∠⃒", Ix = "≉", Lx = "⩰̸", Mx = "≋̸", Rx = "ŉ", Nx = "≉", Ox = "♮", Dx = "ℕ", Bx = "♮", Px = " ", Hx = "≎̸", Ux = "≏̸", zx = "⩃", qx = "Ň", Fx = "ň", jx = "Ņ", $x = "ņ", Vx = "≇", Kx = "⩭̸", Gx = "⩂", Wx = "Н", Zx = "н", Xx = "–", Jx = "⤤", Yx = "↗", Qx = "⇗", eC = "↗", tC = "≠", rC = "≐̸", nC = "​", iC = "​", aC = "​", oC = "​", sC = "≢", lC = "⤨", cC = "≂̸", uC = "≫", fC = "≪", dC = `
+          var Nr = Dr, Hr = {}, $r = {}, Wr = "Á", Zr = "á", oi = "Ă", Jr = "ă", Yr = "∾", li = "∿", Si = "∾̳", ci = "Â", hi = "â", Ei = "´", di = "А", gi = "а", Li = "Æ", ui = "æ", wi = "⁡", Ui = "𝔄", yi = "𝔞", Vi = "À", Oi = "à", Mi = "ℵ", Ii = "ℵ", mi = "Α", _i = "α", Ci = "Ā", Ki = "ā", Ni = "⨿", ia = "&", ea = "&", la = "⩕", ba = "⩓", Ba = "∧", Fa = "⩜", Ia = "⩘", Hi = "⩚", oa = "∠", Gi = "⦤", ha = "∠", Ua = "⦨", eo = "⦩", ua = "⦪", va = "⦫", Ta = "⦬", Aa = "⦭", Oa = "⦮", Xa = "⦯", Ka = "∡", Pa = "∟", Da = "⊾", Ha = "⦝", $a = "∢", Yi = "Å", Wi = "⍼", ma = "Ą", zi = "ą", Ji = "𝔸", za = "𝕒", Va = "⩯", xa = "≈", ja = "⩰", ao = "≊", Wa = "≋", po = "'", to = "⁡", oo = "≈", uo = "≊", Io = "Å", Lo = "å", Eo = "𝒜", lo = "𝒶", ka = "≔", qi = "*", sa = "≈", si = "≍", Qr = "Ã", Br = "ã", zr = "Ä", Xr = "ä", ai = "∳", vi = "⨑", Ti = "≌", Fi = "϶", ra = "‵", pa = "∽", ca = "⋍", da = "∖", qa = "⫧", co = "⊽", yo = "⌅", Mo = "⌆", Oo = "⌅", Do = "⎵", us = "⎶", Bo = "≌", fs = "Б", Us = "б", ds = "„", es = "∵", ts = "∵", rs = "∵", zs = "⦰", qs = "϶", Ss = "ℬ", Is = "ℬ", Fs = "Β", js = "β", hs = "ℶ", xo = "≬", ps = "𝔅", ns = "𝔟", Po = "⋂", is = "◯", kl = "⋃", as = "⨀", Xo = "⨁", _l = "⨂", $s = "⨆", Ls = "★", Vs = "▽", gs = "△", Ms = "⨄", ol = "⋁", Ho = "⋀", sl = "⤍", cl = "⧫", Rs = "▪", Ks = "▴", vs = "▾", Uo = "◂", Gs = "▸", Ws = "␣", Zs = "▒", Xs = "░", Ma = "▓", $i = "█", ga = "=⃥", Sa = "≡⃥", ro = "⫭", ko = "⌐", _o = "𝔹", Qa = "𝕓", fo = "⊥", bs = "⊥", ul = "⋈", wl = "⧉", Jo = "┐", Cc = "╕", El = "╖", xl = "╗", Tc = "┌", Ac = "╒", fl = "╓", Ic = "╔", Cl = "─", Ns = "═", Lc = "┬", Mc = "╤", Rc = "╥", Nc = "╦", Oc = "┴", Dc = "╧", Tl = "╨", Dl = "╩", Bc = "⊟", Bl = "⊞", Pc = "⊠", Pl = "┘", Hl = "╛", Hc = "╜", Js = "╝", Uc = "└", Ys = "╘", zc = "╙", qc = "╚", Qs = "│", Ul = "║", zl = "┼", ql = "╪", Fl = "╫", tl = "╬", jl = "┤", rl = "╡", Fc = "╢", ys = "╣", Os = "├", ks = "╞", zo = "╟", Ao = "╠", $l = "‵", jc = "˘", Vl = "˘", $c = "¦", Gl = "𝒷", Wl = "ℬ", dl = "⁏", _s = "∽", Al = "⋍", Zl = "⧅", Sl = "\\", Vc = "⟈", Kc = "•", Gc = "•", Wc = "≎", Xl = "⪮", Jl = "≏", Zc = "≎", Xc = "≏", Jc = "Ć", Yc = "ć", Qc = "⩄", eu = "⩉", Yl = "⩋", tu = "∩", ru = "⋒", Il = "⩇", iu = "⩀", Ql = "ⅅ", au = "∩︀", ou = "⁁", su = "ˇ", lu = "ℭ", ec = "⩍", tc = "Č", rc = "č", cu = "Ç", nc = "ç", uu = "Ĉ", oc = "ĉ", Sr = "∰", qr = "⩌", Ir = "⩐", Ur = "Ċ", jr = "ċ", Vr = "¸", ei = "¸", ti = "⦲", fi = "¢", ki = "·", Ri = "·", ji = "𝔠", Bi = "ℭ", Qi = "Ч", na = "ч", Ea = "✓", La = "✓", fa = "Χ", so = "χ", Za = "ˆ", no = "≗", Ga = "↺", Ja = "↻", ho = "⊛", No = "⊚", qo = "⊝", Co = "⊙", Ko = "®", Ro = "Ⓢ", Ds = "⊖", Go = "⊕", Bs = "⊗", Fo = "○", vo = "⧃", lc = "≗", fu = "⨐", hl = "⫯", ws = "⧂", cc = "∲", uc = "”", kd = "’", _d = "♣", wd = "♣", Ed = ":", xd = "∷", Cd = "⩴", Td = "≔", Ad = "≔", Sd = ",", Ld = "@", Md = "∁", Rd = "∘", Nd = "∁", Od = "ℂ", Dd = "≅", Bd = "⩭", Pd = "≡", Hd = "∮", Ud = "∯", zd = "∮", qd = "𝕔", Fd = "ℂ", jd = "∐", $d = "∐", Vd = "©", Kd = "©", Gd = "℗", Wd = "∳", Zd = "↵", Xd = "✗", Jd = "⨯", Yd = "𝒞", Qd = "𝒸", eh = "⫏", th = "⫑", rh = "⫐", nh = "⫒", ih = "⋯", ah = "⤸", oh = "⤵", sh = "⋞", lh = "⋟", ch = "↶", uh = "⤽", fh = "⩈", dh = "⩆", hh = "≍", ph = "∪", gh = "⋓", vh = "⩊", mh = "⊍", bh = "⩅", yh = "∪︀", kh = "↷", _h = "⤼", wh = "⋞", Eh = "⋟", xh = "⋎", Ch = "⋏", Th = "¤", Ah = "↶", Sh = "↷", Ih = "⋎", Lh = "⋏", Mh = "∲", Rh = "∱", Nh = "⌭", Oh = "†", Dh = "‡", Bh = "ℸ", Ph = "↓", Hh = "↡", Uh = "⇓", zh = "‐", qh = "⫤", Fh = "⊣", jh = "⤏", $h = "˝", Vh = "Ď", Kh = "ď", Gh = "Д", Wh = "д", Zh = "‡", Xh = "⇊", Jh = "ⅅ", Yh = "ⅆ", Qh = "⤑", ep = "⩷", tp = "°", rp = "∇", np = "Δ", ip = "δ", op = "⦱", sp = "⥿", lp = "𝔇", cp = "𝔡", up = "⥥", fp = "⇃", dp = "⇂", hp = "´", pp = "˙", gp = "˝", vp = "`", bp = "˜", yp = "⋄", kp = "⋄", _p = "⋄", Ep = "♦", xp = "♦", Cp = "¨", Tp = "ⅆ", Ap = "ϝ", Sp = "⋲", Ip = "÷", Lp = "÷", Mp = "⋇", Rp = "⋇", Np = "Ђ", Op = "ђ", Dp = "⌞", Bp = "⌍", Pp = "$", Hp = "𝔻", Up = "𝕕", zp = "¨", qp = "˙", jp = "⃜", $p = "≐", Vp = "≑", Kp = "≐", Gp = "∸", Wp = "∔", Zp = "⊡", Xp = "⌆", Jp = "∯", Yp = "¨", Qp = "⇓", tg = "⇐", rg = "⇔", ng = "⫤", ig = "⟸", ag = "⟺", og = "⟹", sg = "⇒", cg = "⊨", ug = "⇑", fg = "⇕", dg = "∥", hg = "⤓", pg = "↓", vg = "↓", mg = "⇓", bg = "⇵", yg = "̑", kg = "⇊", _g = "⇃", wg = "⇂", Eg = "⥐", xg = "⥞", Cg = "⥖", Tg = "↽", Ag = "⥟", Sg = "⥗", Ig = "⇁", Lg = "↧", Mg = "⊤", Rg = "⤐", Ng = "⌟", Og = "⌌", Dg = "𝒟", Bg = "𝒹", Pg = "Ѕ", Hg = "ѕ", Ug = "⧶", zg = "Đ", qg = "đ", Fg = "⋱", jg = "▿", $g = "▾", Vg = "⇵", Kg = "⥯", Wg = "⦦", Zg = "Џ", Xg = "џ", Jg = "⟿", Yg = "É", Qg = "é", ev = "⩮", tv = "Ě", rv = "ě", nv = "Ê", iv = "ê", av = "≖", ov = "≕", sv = "Э", lv = "э", cv = "⩷", uv = "Ė", fv = "ė", dv = "≑", hv = "ⅇ", pv = "≒", gv = "𝔈", vv = "𝔢", mv = "⪚", bv = "È", yv = "è", kv = "⪖", _v = "⪘", wv = "⪙", Ev = "∈", xv = "⏧", Cv = "ℓ", Tv = "⪕", Av = "⪗", Sv = "Ē", Iv = "ē", Lv = "∅", Mv = "∅", Rv = "◻", Nv = "∅", Ov = "▫", Dv = " ", Bv = " ", Pv = " ", Hv = "Ŋ", Uv = "ŋ", zv = " ", qv = "Ę", Fv = "ę", jv = "𝔼", $v = "𝕖", Vv = "⋕", Kv = "⧣", Gv = "⩱", Wv = "ε", Zv = "Ε", Xv = "ε", Jv = "ϵ", Yv = "≖", Qv = "≕", em = "≂", tm = "⪖", rm = "⪕", nm = "⩵", im = "=", am = "≂", om = "≟", sm = "⇌", lm = "≡", cm = "⩸", um = "⧥", fm = "⥱", dm = "≓", hm = "ℯ", gm = "ℰ", vm = "≐", mm = "⩳", bm = "≂", ym = "Η", km = "η", _m = "Ð", wm = "ð", Em = "Ë", xm = "ë", Cm = "€", Tm = "!", Am = "∃", Sm = "∃", Lm = "ℰ", Mm = "ⅇ", Rm = "ⅇ", Nm = "≒", Om = "Ф", Dm = "ф", Bm = "♀", Pm = "ﬃ", Hm = "ﬀ", Um = "ﬄ", zm = "𝔉", qm = "𝔣", Fm = "ﬁ", jm = "◼", $m = "▪", Vm = "fj", Km = "♭", Gm = "ﬂ", Wm = "▱", Zm = "ƒ", Xm = "𝔽", Jm = "𝕗", Ym = "∀", Qm = "∀", eb = "⋔", tb = "⫙", rb = "ℱ", nb = "⨍", ib = "½", ab = "⅓", ob = "¼", sb = "⅕", lb = "⅙", cb = "⅛", ub = "⅔", fb = "⅖", hb = "¾", pb = "⅗", gb = "⅜", vb = "⅘", mb = "⅚", bb = "⅝", yb = "⅞", kb = "⁄", _b = "⌢", wb = "𝒻", Eb = "ℱ", xb = "ǵ", Cb = "Γ", Tb = "γ", Ab = "Ϝ", Sb = "ϝ", Ib = "⪆", Lb = "Ğ", Mb = "ğ", Rb = "Ģ", Nb = "Ĝ", Ob = "ĝ", Db = "Г", Bb = "г", Pb = "Ġ", Hb = "ġ", Ub = "≥", zb = "≧", qb = "⪌", Fb = "⋛", jb = "≥", $b = "≧", Vb = "⩾", Kb = "⪩", Gb = "⩾", Wb = "⪀", Zb = "⪂", Xb = "⪄", Jb = "⋛︀", Yb = "⪔", Qb = "𝔊", e1 = "𝔤", t1 = "≫", r1 = "⋙", n1 = "⋙", i1 = "ℷ", a1 = "Ѓ", o1 = "ѓ", s1 = "⪥", l1 = "≷", c1 = "⪒", u1 = "⪤", f1 = "⪊", d1 = "⪊", h1 = "⪈", p1 = "≩", g1 = "⪈", v1 = "≩", m1 = "⋧", b1 = "𝔾", y1 = "𝕘", k1 = "`", _1 = "≥", w1 = "⋛", E1 = "≧", x1 = "⪢", C1 = "≷", T1 = "⩾", A1 = "≳", S1 = "𝒢", I1 = "ℊ", L1 = "≳", M1 = "⪎", R1 = "⪐", N1 = "⪧", O1 = "⩺", D1 = ">", B1 = ">", P1 = "≫", H1 = "⋗", U1 = "⦕", z1 = "⩼", q1 = "⪆", F1 = "⥸", j1 = "⋗", $1 = "⋛", V1 = "⪌", K1 = "≷", G1 = "≳", W1 = "≩︀", Z1 = "≩︀", X1 = "ˇ", J1 = " ", Y1 = "½", Q1 = "ℋ", ey = "Ъ", ty = "ъ", ry = "⥈", ny = "↔", iy = "⇔", ay = "↭", oy = "^", sy = "ℏ", ly = "Ĥ", cy = "ĥ", uy = "♥", fy = "♥", dy = "…", hy = "⊹", py = "𝔥", gy = "ℌ", vy = "ℋ", my = "⤥", by = "⤦", yy = "⇿", ky = "∻", _y = "↩", wy = "↪", Ey = "𝕙", xy = "ℍ", Cy = "―", Ty = "─", Ay = "𝒽", Sy = "ℋ", Iy = "ℏ", Ly = "Ħ", My = "ħ", Ry = "≎", Ny = "≏", Oy = "⁃", Dy = "‐", By = "Í", Py = "í", Hy = "⁣", Uy = "Î", zy = "î", qy = "И", Fy = "и", jy = "İ", $y = "Е", Vy = "е", Ky = "¡", Gy = "⇔", Wy = "𝔦", Zy = "ℑ", Xy = "Ì", Jy = "ì", Yy = "ⅈ", Qy = "⨌", e0 = "∭", t0 = "⧜", r0 = "℩", n0 = "Ĳ", i0 = "ĳ", a0 = "Ī", o0 = "ī", s0 = "ℑ", l0 = "ⅈ", c0 = "ℐ", u0 = "ℑ", f0 = "ı", d0 = "ℑ", h0 = "⊷", p0 = "Ƶ", g0 = "⇒", v0 = "℅", m0 = "∞", b0 = "⧝", y0 = "ı", k0 = "⊺", _0 = "∫", w0 = "∬", E0 = "ℤ", x0 = "∫", C0 = "⊺", T0 = "⋂", A0 = "⨗", S0 = "⨼", I0 = "⁣", L0 = "⁢", M0 = "Ё", R0 = "ё", N0 = "Į", O0 = "į", D0 = "𝕀", B0 = "𝕚", P0 = "Ι", H0 = "ι", U0 = "⨼", z0 = "¿", q0 = "𝒾", F0 = "ℐ", j0 = "∈", $0 = "⋵", V0 = "⋹", K0 = "⋴", G0 = "⋳", W0 = "∈", Z0 = "⁢", X0 = "Ĩ", J0 = "ĩ", Y0 = "І", Q0 = "і", ek = "Ï", tk = "ï", rk = "Ĵ", nk = "ĵ", ik = "Й", ak = "й", ok = "𝔍", sk = "𝔧", lk = "ȷ", ck = "𝕁", uk = "𝕛", fk = "𝒥", dk = "𝒿", hk = "Ј", pk = "ј", gk = "Є", vk = "є", mk = "Κ", bk = "κ", yk = "ϰ", kk = "Ķ", _k = "ķ", wk = "К", Ek = "к", xk = "𝔎", Ck = "𝔨", Tk = "ĸ", Ak = "Х", Sk = "х", Ik = "Ќ", Lk = "ќ", Mk = "𝕂", Rk = "𝕜", Nk = "𝒦", Ok = "𝓀", Dk = "⇚", Bk = "Ĺ", Pk = "ĺ", Hk = "⦴", Uk = "ℒ", zk = "Λ", qk = "λ", Fk = "⟨", jk = "⟪", $k = "⦑", Vk = "⟨", Kk = "⪅", Gk = "ℒ", Wk = "«", Zk = "⇤", Xk = "⤟", Jk = "←", Yk = "↞", Qk = "⇐", e_ = "⤝", t_ = "↩", r_ = "↫", n_ = "⤹", i_ = "⥳", a_ = "↢", o_ = "⤙", s_ = "⤛", l_ = "⪫", c_ = "⪭", u_ = "⪭︀", f_ = "⤌", d_ = "⤎", h_ = "❲", p_ = "{", g_ = "[", v_ = "⦋", m_ = "⦏", b_ = "⦍", y_ = "Ľ", k_ = "ľ", __ = "Ļ", w_ = "ļ", E_ = "⌈", x_ = "{", C_ = "Л", T_ = "л", A_ = "⤶", S_ = "“", I_ = "„", L_ = "⥧", M_ = "⥋", R_ = "↲", N_ = "≤", O_ = "≦", D_ = "⟨", B_ = "⇤", P_ = "←", H_ = "←", U_ = "⇐", z_ = "⇆", q_ = "↢", F_ = "⌈", j_ = "⟦", $_ = "⥡", V_ = "⥙", K_ = "⇃", G_ = "⌊", W_ = "↽", Z_ = "↼", X_ = "⇇", J_ = "↔", Y_ = "↔", Q_ = "⇔", ew = "⇆", tw = "⇋", rw = "↭", nw = "⥎", iw = "↤", aw = "⊣", ow = "⥚", sw = "⋋", lw = "⧏", cw = "⊲", uw = "⊴", fw = "⥑", dw = "⥠", hw = "⥘", pw = "↿", gw = "⥒", vw = "↼", mw = "⪋", bw = "⋚", yw = "≤", kw = "≦", _w = "⩽", ww = "⪨", Ew = "⩽", xw = "⩿", Cw = "⪁", Tw = "⪃", Aw = "⋚︀", Sw = "⪓", Iw = "⪅", Lw = "⋖", Mw = "⋚", Rw = "⪋", Nw = "⋚", Ow = "≦", Dw = "≶", Bw = "≶", Pw = "⪡", Hw = "≲", Uw = "⩽", zw = "≲", qw = "⥼", Fw = "⌊", jw = "𝔏", $w = "𝔩", Vw = "≶", Kw = "⪑", Gw = "⥢", Ww = "↽", Zw = "↼", Xw = "⥪", Jw = "▄", Yw = "Љ", Qw = "љ", e2 = "⇇", t2 = "≪", r2 = "⋘", n2 = "⌞", i2 = "⇚", a2 = "⥫", o2 = "◺", s2 = "Ŀ", l2 = "ŀ", c2 = "⎰", u2 = "⎰", f2 = "⪉", d2 = "⪉", h2 = "⪇", p2 = "≨", g2 = "⪇", m2 = "≨", b2 = "⋦", y2 = "⟬", k2 = "⇽", _2 = "⟦", w2 = "⟵", E2 = "⟵", x2 = "⟸", C2 = "⟷", T2 = "⟷", A2 = "⟺", S2 = "⟼", I2 = "⟶", L2 = "⟶", M2 = "⟹", R2 = "↫", N2 = "↬", O2 = "⦅", D2 = "𝕃", B2 = "𝕝", P2 = "⨭", H2 = "⨴", U2 = "∗", z2 = "_", q2 = "↙", F2 = "↘", j2 = "◊", $2 = "◊", V2 = "⧫", K2 = "(", G2 = "⦓", W2 = "⇆", Z2 = "⌟", X2 = "⇋", J2 = "⥭", Y2 = "‎", Q2 = "⊿", eE = "‹", tE = "𝓁", rE = "ℒ", nE = "↰", iE = "↰", aE = "≲", oE = "⪍", sE = "⪏", cE = "[", uE = "‘", fE = "‚", dE = "Ł", hE = "ł", pE = "⪦", vE = "⩹", mE = "<", bE = "<", yE = "≪", kE = "⋖", _E = "⋋", wE = "⋉", EE = "⥶", xE = "⩻", CE = "◃", TE = "⊴", AE = "◂", SE = "⦖", IE = "⥊", LE = "⥦", ME = "≨︀", RE = "≨︀", NE = "¯", OE = "♂", DE = "✠", BE = "✠", PE = "↦", HE = "↦", UE = "↧", zE = "↤", qE = "↥", FE = "▮", jE = "⨩", $E = "М", VE = "м", KE = "—", GE = "∺", WE = "∡", ZE = " ", XE = "ℳ", JE = "𝔐", YE = "𝔪", QE = "℧", ex = "µ", tx = "*", nx = "⫰", ix = "∣", ax = "·", ox = "⊟", sx = "−", lx = "∸", cx = "⨪", ux = "∓", fx = "⫛", dx = "…", hx = "∓", px = "⊧", gx = "𝕄", vx = "𝕞", mx = "∓", bx = "𝓂", yx = "ℳ", kx = "∾", _x = "Μ", wx = "μ", Ex = "⊸", xx = "⊸", Cx = "∇", Tx = "Ń", Ax = "ń", Sx = "∠⃒", Ix = "≉", Lx = "⩰̸", Mx = "≋̸", Rx = "ŉ", Nx = "≉", Ox = "♮", Dx = "ℕ", Bx = "♮", Px = " ", Hx = "≎̸", Ux = "≏̸", zx = "⩃", qx = "Ň", Fx = "ň", jx = "Ņ", $x = "ņ", Vx = "≇", Kx = "⩭̸", Gx = "⩂", Wx = "Н", Zx = "н", Xx = "–", Jx = "⤤", Yx = "↗", Qx = "⇗", eC = "↗", tC = "≠", rC = "≐̸", nC = "​", iC = "​", aC = "​", oC = "​", sC = "≢", lC = "⤨", cC = "≂̸", uC = "≫", fC = "≪", dC = `
 `, hC = "∄", pC = "∄", gC = "𝔑", vC = "𝔫", mC = "≧̸", bC = "≱", yC = "≱", kC = "≧̸", _C = "⩾̸", wC = "⩾̸", EC = "⋙̸", xC = "≵", CC = "≫⃒", TC = "≯", AC = "≯", SC = "≫̸", IC = "↮", LC = "⇎", MC = "⫲", RC = "∋", NC = "⋼", OC = "⋺", DC = "∋", BC = "Њ", PC = "њ", HC = "↚", UC = "⇍", zC = "‥", qC = "≦̸", FC = "≰", jC = "↚", $C = "⇍", VC = "↮", KC = "⇎", GC = "≰", WC = "≦̸", ZC = "⩽̸", XC = "⩽̸", JC = "≮", YC = "⋘̸", QC = "≴", eT = "≪⃒", tT = "≮", rT = "⋪", nT = "⋬", iT = "≪̸", aT = "∤", oT = "⁠", sT = " ", lT = "𝕟", cT = "ℕ", uT = "⫬", fT = "¬", dT = "≢", hT = "≭", pT = "∦", gT = "∉", vT = "≠", mT = "≂̸", bT = "∄", yT = "≯", kT = "≱", _T = "≧̸", wT = "≫̸", ET = "≹", xT = "⩾̸", CT = "≵", TT = "≎̸", AT = "≏̸", ST = "∉", IT = "⋵̸", MT = "⋹̸", RT = "∉", NT = "⋷", OT = "⋶", DT = "⧏̸", BT = "⋪", PT = "⋬", HT = "≮", UT = "≰", zT = "≸", qT = "≪̸", FT = "⩽̸", jT = "≴", $T = "⪢̸", VT = "⪡̸", KT = "∌", WT = "∌", ZT = "⋾", XT = "⋽", JT = "⊀", YT = "⪯̸", QT = "⋠", e3 = "∌", t3 = "⧐̸", r3 = "⋫", n3 = "⋭", i3 = "⊏̸", a3 = "⋢", o3 = "⊐̸", s3 = "⋣", l3 = "⊂⃒", c3 = "⊈", u3 = "⊁", f3 = "⪰̸", d3 = "⋡", h3 = "≿̸", p3 = "⊃⃒", g3 = "⊉", v3 = "≁", m3 = "≄", b3 = "≇", y3 = "≉", k3 = "∤", _3 = "∦", w3 = "∦", E3 = "⫽⃥", x3 = "∂̸", C3 = "⨔", T3 = "⊀", A3 = "⋠", S3 = "⊀", I3 = "⪯̸", L3 = "⪯̸", M3 = "⤳̸", R3 = "↛", N3 = "⇏", O3 = "↝̸", D3 = "↛", B3 = "⇏", P3 = "⋫", H3 = "⋭", U3 = "⊁", z3 = "⋡", q3 = "⪰̸", F3 = "𝒩", j3 = "𝓃", $3 = "∤", V3 = "∦", K3 = "≁", G3 = "≄", W3 = "≄", Z3 = "∤", X3 = "∦", J3 = "⋢", Y3 = "⋣", Q3 = "⊄", eA = "⫅̸", tA = "⊈", rA = "⊂⃒", nA = "⊈", iA = "⫅̸", aA = "⊁", oA = "⪰̸", sA = "⊅", lA = "⫆̸", cA = "⊉", uA = "⊃⃒", fA = "⊉", dA = "⫆̸", hA = "≹", pA = "Ñ", gA = "ñ", vA = "≸", mA = "⋪", bA = "⋬", yA = "⋫", kA = "⋭", _A = "Ν", wA = "ν", EA = "#", xA = "№", CA = " ", TA = "≍⃒", AA = "⊬", SA = "⊭", IA = "⊮", LA = "⊯", MA = "≥⃒", RA = ">⃒", NA = "⤄", OA = "⧞", DA = "⤂", BA = "≤⃒", PA = "<⃒", HA = "⊴⃒", UA = "⤃", zA = "⊵⃒", qA = "∼⃒", FA = "⤣", jA = "↖", $A = "⇖", VA = "↖", KA = "⤧", GA = "Ó", WA = "ó", ZA = "⊛", XA = "Ô", JA = "ô", YA = "⊚", QA = "О", eS = "о", tS = "⊝", rS = "Ő", nS = "ő", iS = "⨸", aS = "⊙", sS = "⦼", lS = "Œ", cS = "œ", uS = "⦿", fS = "𝔒", dS = "𝔬", hS = "˛", pS = "Ò", gS = "ò", vS = "⧁", mS = "⦵", bS = "Ω", yS = "∮", kS = "↺", _S = "⦾", wS = "⦻", ES = "‾", xS = "⧀", CS = "Ō", TS = "ō", AS = "Ω", SS = "ω", IS = "Ο", LS = "ο", MS = "⦶", RS = "⊖", NS = "𝕆", OS = "𝕠", DS = "⦷", BS = "“", PS = "‘", HS = "⦹", US = "⊕", zS = "↻", qS = "⩔", FS = "∨", jS = "⩝", $S = "ℴ", VS = "ℴ", KS = "ª", GS = "º", WS = "⊶", ZS = "⩖", XS = "⩗", YS = "⩛", QS = "Ⓢ", e5 = "𝒪", t5 = "ℴ", r5 = "Ø", n5 = "ø", i5 = "⊘", a5 = "Õ", o5 = "õ", s5 = "⨶", l5 = "⨷", c5 = "⊗", u5 = "Ö", f5 = "ö", d5 = "⌽", h5 = "‾", p5 = "⏞", g5 = "⎴", v5 = "⏜", m5 = "¶", b5 = "∥", y5 = "∥", k5 = "⫳", _5 = "⫽", w5 = "∂", E5 = "∂", x5 = "П", C5 = "п", T5 = "%", A5 = ".", S5 = "‰", I5 = "⊥", L5 = "‱", M5 = "𝔓", R5 = "𝔭", N5 = "Φ", O5 = "φ", D5 = "ϕ", B5 = "ℳ", P5 = "☎", H5 = "Π", U5 = "π", z5 = "⋔", q5 = "ϖ", F5 = "ℏ", j5 = "ℎ", $5 = "ℏ", V5 = "⨣", K5 = "⊞", G5 = "⨢", W5 = "+", Z5 = "∔", X5 = "⨥", J5 = "⩲", Y5 = "±", Q5 = "±", eI = "⨦", tI = "⨧", rI = "±", nI = "ℌ", iI = "⨕", aI = "𝕡", oI = "ℙ", sI = "£", lI = "⪷", cI = "⪻", uI = "≺", fI = "≼", dI = "⪷", hI = "≺", pI = "≼", gI = "≺", vI = "⪯", mI = "≼", bI = "≾", yI = "⪯", kI = "⪹", _I = "⪵", wI = "⋨", EI = "⪯", xI = "⪳", CI = "≾", TI = "′", AI = "″", SI = "ℙ", II = "⪹", LI = "⪵", MI = "⋨", RI = "∏", NI = "∏", OI = "⌮", DI = "⌒", BI = "⌓", PI = "∝", HI = "∝", UI = "∷", zI = "∝", qI = "≾", FI = "⊰", jI = "𝒫", $I = "𝓅", VI = "Ψ", KI = "ψ", GI = " ", WI = "𝔔", ZI = "𝔮", XI = "⨌", JI = "𝕢", YI = "ℚ", QI = "⁗", eL = "𝒬", tL = "𝓆", rL = "ℍ", nL = "⨖", iL = "?", aL = "≟", oL = '"', sL = '"', lL = "⇛", cL = "∽̱", uL = "Ŕ", fL = "ŕ", dL = "√", hL = "⦳", pL = "⟩", gL = "⟫", vL = "⦒", mL = "⦥", bL = "⟩", yL = "»", kL = "⥵", _L = "⇥", wL = "⤠", EL = "⤳", xL = "→", CL = "↠", TL = "⇒", AL = "⤞", SL = "↪", IL = "↬", LL = "⥅", ML = "⥴", RL = "⤖", NL = "↣", OL = "↝", DL = "⤚", BL = "⤜", PL = "∶", HL = "ℚ", UL = "⤍", zL = "⤏", qL = "⤐", FL = "❳", jL = "}", $L = "]", VL = "⦌", KL = "⦎", GL = "⦐", WL = "Ř", ZL = "ř", XL = "Ŗ", JL = "ŗ", YL = "⌉", QL = "}", e4 = "Р", t4 = "р", r4 = "⤷", n4 = "⥩", i4 = "”", a4 = "”", o4 = "↳", s4 = "ℜ", l4 = "ℛ", c4 = "ℜ", u4 = "ℝ", f4 = "ℜ", d4 = "▭", h4 = "®", p4 = "®", g4 = "∋", v4 = "⇋", m4 = "⥯", b4 = "⥽", y4 = "⌋", k4 = "𝔯", _4 = "ℜ", w4 = "⥤", E4 = "⇁", x4 = "⇀", C4 = "⥬", T4 = "Ρ", A4 = "ρ", S4 = "ϱ", I4 = "⟩", L4 = "⇥", M4 = "→", R4 = "→", N4 = "⇒", O4 = "⇄", D4 = "↣", B4 = "⌉", P4 = "⟧", H4 = "⥝", U4 = "⥕", z4 = "⇂", q4 = "⌋", F4 = "⇁", j4 = "⇀", $4 = "⇄", V4 = "⇌", K4 = "⇉", G4 = "↝", W4 = "↦", Z4 = "⊢", X4 = "⥛", J4 = "⋌", Y4 = "⧐", Q4 = "⊳", eM = "⊵", tM = "⥏", rM = "⥜", nM = "⥔", iM = "↾", aM = "⥓", oM = "⇀", sM = "˚", lM = "≓", cM = "⇄", uM = "⇌", fM = "‏", dM = "⎱", hM = "⎱", pM = "⫮", gM = "⟭", vM = "⇾", mM = "⟧", bM = "⦆", yM = "𝕣", kM = "ℝ", _M = "⨮", wM = "⨵", EM = "⥰", xM = ")", CM = "⦔", TM = "⨒", AM = "⇉", SM = "⇛", IM = "›", LM = "𝓇", MM = "ℛ", RM = "↱", NM = "↱", OM = "]", DM = "’", BM = "’", PM = "⋌", HM = "⋊", UM = "▹", zM = "⊵", qM = "▸", FM = "⧎", jM = "⧴", $M = "⥨", VM = "℞", KM = "Ś", GM = "ś", WM = "‚", ZM = "⪸", XM = "Š", JM = "š", YM = "⪼", QM = "≻", eR = "≽", tR = "⪰", rR = "⪴", nR = "Ş", iR = "ş", aR = "Ŝ", oR = "ŝ", sR = "⪺", lR = "⪶", cR = "⋩", uR = "⨓", fR = "≿", dR = "С", hR = "с", pR = "⊡", gR = "⋅", vR = "⩦", mR = "⤥", bR = "↘", yR = "⇘", kR = "↘", _R = "§", wR = ";", ER = "⤩", xR = "∖", CR = "∖", TR = "✶", AR = "𝔖", SR = "𝔰", IR = "⌢", LR = "♯", MR = "Щ", RR = "щ", NR = "Ш", OR = "ш", DR = "↓", BR = "←", PR = "∣", HR = "∥", UR = "→", zR = "↑", qR = "­", FR = "Σ", jR = "σ", $R = "ς", VR = "ς", KR = "∼", GR = "⩪", WR = "≃", ZR = "≃", XR = "⪞", JR = "⪠", YR = "⪝", QR = "⪟", eN = "≆", tN = "⨤", rN = "⥲", nN = "←", iN = "∘", aN = "∖", oN = "⨳", sN = "⧤", lN = "∣", cN = "⌣", uN = "⪪", fN = "⪬", dN = "⪬︀", hN = "Ь", pN = "ь", gN = "⌿", vN = "⧄", mN = "/", bN = "𝕊", yN = "𝕤", kN = "♠", _N = "♠", wN = "∥", EN = "⊓", xN = "⊓︀", CN = "⊔", TN = "⊔︀", AN = "√", SN = "⊏", IN = "⊑", LN = "⊏", MN = "⊑", RN = "⊐", NN = "⊒", ON = "⊐", DN = "⊒", BN = "□", PN = "□", HN = "⊓", UN = "⊏", zN = "⊑", qN = "⊐", FN = "⊒", jN = "⊔", $N = "▪", VN = "□", KN = "▪", GN = "→", WN = "𝒮", ZN = "𝓈", XN = "∖", JN = "⌣", YN = "⋆", QN = "⋆", e8 = "☆", t8 = "★", r8 = "ϵ", n8 = "ϕ", i8 = "¯", a8 = "⊂", o8 = "⋐", s8 = "⪽", l8 = "⫅", c8 = "⊆", u8 = "⫃", f8 = "⫁", d8 = "⫋", h8 = "⊊", p8 = "⪿", g8 = "⥹", v8 = "⊂", m8 = "⋐", b8 = "⊆", y8 = "⫅", k8 = "⊆", _8 = "⊊", w8 = "⫋", E8 = "⫇", x8 = "⫕", C8 = "⫓", T8 = "⪸", A8 = "≻", S8 = "≽", I8 = "≻", L8 = "⪰", M8 = "≽", R8 = "≿", N8 = "⪰", O8 = "⪺", D8 = "⪶", B8 = "⋩", P8 = "≿", H8 = "∋", U8 = "∑", z8 = "∑", q8 = "♪", F8 = "¹", j8 = "²", $8 = "³", V8 = "⊃", K8 = "⋑", G8 = "⪾", W8 = "⫘", Z8 = "⫆", X8 = "⊇", J8 = "⫄", Y8 = "⊃", Q8 = "⊇", eO = "⟉", tO = "⫗", rO = "⥻", nO = "⫂", iO = "⫌", aO = "⊋", oO = "⫀", sO = "⊃", lO = "⋑", cO = "⊇", uO = "⫆", fO = "⊋", dO = "⫌", hO = "⫈", pO = "⫔", gO = "⫖", vO = "⤦", mO = "↙", bO = "⇙", yO = "↙", kO = "⤪", _O = "ß", wO = "	", EO = "⌖", xO = "Τ", CO = "τ", TO = "⎴", AO = "Ť", SO = "ť", IO = "Ţ", LO = "ţ", MO = "Т", RO = "т", NO = "⃛", OO = "⌕", DO = "𝔗", BO = "𝔱", PO = "∴", HO = "∴", UO = "∴", zO = "Θ", qO = "θ", FO = "ϑ", jO = "ϑ", $O = "≈", VO = "∼", KO = "  ", GO = " ", WO = " ", ZO = "≈", XO = "∼", JO = "Þ", YO = "þ", QO = "˜", e6 = "∼", t6 = "≃", r6 = "≅", n6 = "≈", i6 = "⨱", a6 = "⊠", o6 = "×", s6 = "⨰", l6 = "∭", c6 = "⤨", u6 = "⌶", f6 = "⫱", d6 = "⊤", h6 = "𝕋", p6 = "𝕥", g6 = "⫚", v6 = "⤩", m6 = "‴", b6 = "™", y6 = "™", k6 = "▵", _6 = "▿", w6 = "◃", E6 = "⊴", x6 = "≜", C6 = "▹", T6 = "⊵", A6 = "◬", S6 = "≜", I6 = "⨺", L6 = "⃛", M6 = "⨹", R6 = "⧍", N6 = "⨻", O6 = "⏢", D6 = "𝒯", B6 = "𝓉", P6 = "Ц", H6 = "ц", U6 = "Ћ", z6 = "ћ", q6 = "Ŧ", F6 = "ŧ", j6 = "≬", $6 = "↞", V6 = "↠", K6 = "Ú", G6 = "ú", W6 = "↑", Z6 = "↟", X6 = "⇑", J6 = "⥉", Y6 = "Ў", Q6 = "ў", eD = "Ŭ", tD = "ŭ", rD = "Û", nD = "û", iD = "У", aD = "у", oD = "⇅", sD = "Ű", lD = "ű", cD = "⥮", uD = "⥾", fD = "𝔘", dD = "𝔲", hD = "Ù", pD = "ù", gD = "⥣", vD = "↿", mD = "↾", bD = "▀", yD = "⌜", kD = "⌜", _D = "⌏", wD = "◸", ED = "Ū", xD = "ū", CD = "¨", TD = "_", AD = "⏟", SD = "⎵", ID = "⏝", LD = "⋃", MD = "⊎", RD = "Ų", ND = "ų", OD = "𝕌", BD = "𝕦", PD = "⤒", HD = "↑", UD = "↑", zD = "⇑", qD = "⇅", FD = "↕", jD = "↕", $D = "⇕", VD = "⥮", KD = "↿", GD = "↾", WD = "⊎", ZD = "↖", XD = "↗", JD = "υ", YD = "ϒ", QD = "ϒ", eB = "Υ", tB = "υ", rB = "↥", nB = "⊥", iB = "⇈", aB = "⌝", oB = "⌝", sB = "⌎", lB = "Ů", cB = "ů", uB = "◹", fB = "𝒰", dB = "𝓊", hB = "⋰", pB = "Ũ", gB = "ũ", vB = "▵", mB = "▴", bB = "⇈", yB = "Ü", kB = "ü", _B = "⦧", wB = "⦜", EB = "ϵ", xB = "ϰ", CB = "∅", TB = "ϕ", AB = "ϖ", SB = "∝", IB = "↕", LB = "⇕", MB = "ϱ", RB = "ς", NB = "⊊︀", OB = "⫋︀", DB = "⊋︀", BB = "⫌︀", PB = "ϑ", HB = "⊲", UB = "⊳", zB = "⫨", qB = "⫫", FB = "⫩", jB = "В", $B = "в", VB = "⊢", KB = "⊨", GB = "⊩", WB = "⊫", ZB = "⫦", XB = "⊻", JB = "∨", YB = "⋁", QB = "≚", eP = "⋮", tP = "|", rP = "‖", nP = "|", iP = "‖", aP = "∣", oP = "|", sP = "❘", lP = "≀", cP = " ", uP = "𝔙", fP = "𝔳", dP = "⊲", hP = "⊂⃒", pP = "⊃⃒", gP = "𝕍", vP = "𝕧", mP = "∝", bP = "⊳", yP = "𝒱", kP = "𝓋", _P = "⫋︀", wP = "⊊︀", EP = "⫌︀", xP = "⊋︀", CP = "⊪", TP = "⦚", AP = "Ŵ", SP = "ŵ", IP = "⩟", LP = "∧", MP = "⋀", RP = "≙", NP = "℘", OP = "𝔚", DP = "𝔴", BP = "𝕎", PP = "𝕨", HP = "℘", UP = "≀", zP = "≀", qP = "𝒲", FP = "𝓌", jP = "⋂", $P = "◯", VP = "⋃", KP = "▽", GP = "𝔛", WP = "𝔵", ZP = "⟷", XP = "⟺", JP = "Ξ", YP = "ξ", QP = "⟵", e7 = "⟸", t7 = "⟼", r7 = "⋻", n7 = "⨀", i7 = "𝕏", a7 = "𝕩", o7 = "⨁", s7 = "⨂", l7 = "⟶", c7 = "⟹", u7 = "𝒳", f7 = "𝓍", d7 = "⨆", h7 = "⨄", p7 = "△", g7 = "⋁", v7 = "⋀", m7 = "Ý", b7 = "ý", y7 = "Я", k7 = "я", _7 = "Ŷ", w7 = "ŷ", E7 = "Ы", x7 = "ы", C7 = "¥", T7 = "𝔜", A7 = "𝔶", S7 = "Ї", I7 = "ї", L7 = "𝕐", M7 = "𝕪", R7 = "𝒴", N7 = "𝓎", O7 = "Ю", D7 = "ю", B7 = "ÿ", P7 = "Ÿ", H7 = "Ź", U7 = "ź", z7 = "Ž", q7 = "ž", F7 = "З", j7 = "з", $7 = "Ż", V7 = "ż", K7 = "ℨ", G7 = "​", W7 = "Ζ", Z7 = "ζ", X7 = "𝔷", J7 = "ℨ", Y7 = "Ж", Q7 = "ж", e9 = "⇝", t9 = "𝕫", r9 = "ℤ", n9 = "𝒵", i9 = "𝓏", a9 = "‍", o9 = "‌", Wu = {
             Aacute: Wr,
             aacute: Zr,
@@ -67453,7 +67453,7 @@ var toastuiEditorViewer = { exports: {} };
             amp: ia,
             AMP: ea,
             andand: la,
-            And: ma,
+            And: ba,
             and: Ba,
             andd: Fa,
             andslope: Ia,
@@ -67475,13 +67475,13 @@ var toastuiEditorViewer = { exports: {} };
             angrtvbd: Ha,
             angsph: $a,
             angst: Yi,
-            angzarr: Zi,
-            Aogon: ka,
+            angzarr: Wi,
+            Aogon: ma,
             aogon: zi,
             Aopf: Ji,
             aopf: za,
             apacir: Va,
-            ap: Ca,
+            ap: xa,
             apE: ja,
             ape: ao,
             apid: Wa,
@@ -67493,7 +67493,7 @@ var toastuiEditorViewer = { exports: {} };
             aring: Lo,
             Ascr: Eo,
             ascr: lo,
-            Assign: ya,
+            Assign: ka,
             ast: qi,
             asymp: sa,
             asympeq: si,
@@ -70246,18 +70246,18 @@ var toastuiEditorViewer = { exports: {} };
                 var Ai = bi.literal, Di = Mr(Ai);
                 if (!Di || !Di.length)
                   return "continue";
-                for (var ta = 0, aa = bi.sourcepos[0], wa = aa[0], xa = aa[1], ba = function(As, Ij) {
+                for (var ta = 0, aa = bi.sourcepos[0], wa = aa[0], Ca = aa[1], ya = function(As, Ij) {
                   return [
-                    [wa, xa + As],
-                    [wa, xa + Ij]
+                    [wa, Ca + As],
+                    [wa, Ca + Ij]
                   ];
                 }, Na = [], Ra = 0, io = Di; Ra < io.length; Ra++) {
                   var bo = io[Ra], So = bo.range, xs = bo.url, Wo = bo.text;
-                  So[0] > ta && Na.push(To(Ai.substring(ta, So[0]), ba(ta, So[0] - 1)));
-                  var Vo = mo("link", ba.apply(void 0, So));
-                  Vo.appendChild(To(Wo, ba.apply(void 0, So))), Vo.destination = xs, Vo.extendedAutolink = !0, Na.push(Vo), ta = So[1] + 1;
+                  So[0] > ta && Na.push(To(Ai.substring(ta, So[0]), ya(ta, So[0] - 1)));
+                  var Vo = mo("link", ya.apply(void 0, So));
+                  Vo.appendChild(To(Wo, ya.apply(void 0, So))), Vo.destination = xs, Vo.extendedAutolink = !0, Na.push(Vo), ta = So[1] + 1;
                 }
-                ta < Ai.length && Na.push(To(Ai.substring(ta), ba(ta, Ai.length - 1)));
+                ta < Ai.length && Na.push(To(Ai.substring(ta), ya(ta, Ai.length - 1)));
                 for (var Yo = 0, Cs = Na; Yo < Cs.length; Yo++) {
                   var Ts = Cs[Yo];
                   bi.insertBefore(Ts);
@@ -70355,8 +70355,8 @@ var toastuiEditorViewer = { exports: {} };
 ` : this.subject.charAt(Gr - 1), bi = this.peek(), Ai;
                 bi === -1 ? Ai = `
 ` : Ai = _u(bi);
-                var Di = Af.test(Ai), ta = Cf.test(Ai), aa = Af.test(ri), wa = Cf.test(ri), xa = !Di && (!ta || aa || wa), ba = !aa && (!wa || Di || ta), Na, Ra;
-                return Mr === mc ? (Na = xa && (!ba || wa), Ra = ba && (!xa || ta)) : Mr === nl || Mr === il ? (Na = xa && !ba, Ra = ba) : Mr === al ? (Na = !Di, Ra = !aa) : (Na = xa, Ra = ba), this.pos = Gr, { numdelims: Fr, canOpen: Na, canClose: Ra };
+                var Di = Af.test(Ai), ta = Cf.test(Ai), aa = Af.test(ri), wa = Cf.test(ri), Ca = !Di && (!ta || aa || wa), ya = !aa && (!wa || Di || ta), Na, Ra;
+                return Mr === mc ? (Na = Ca && (!ya || wa), Ra = ya && (!Ca || ta)) : Mr === nl || Mr === il ? (Na = Ca && !ya, Ra = ya) : Mr === al ? (Na = !Di, Ra = !aa) : (Na = Ca, Ra = ya), this.pos = Gr, { numdelims: Fr, canOpen: Na, canClose: Ra };
               }, Rr.prototype.handleDelim = function(Mr, Fr) {
                 var Gr = this.scanDelims(Mr);
                 if (!Gr)
@@ -70383,25 +70383,25 @@ var toastuiEditorViewer = { exports: {} };
                 for (ri = this.delimiters; ri !== null && ri.previous !== Mr; )
                   ri = ri.previous;
                 for (; ri !== null; ) {
-                  var xa = ri.cc, ba = xa === mc || xa === Eu;
+                  var Ca = ri.cc, ya = Ca === mc || Ca === Eu;
                   if (!ri.canClose)
                     ri = ri.next;
                   else {
-                    for (Gr = ri.previous, ta = !1; Gr !== null && Gr !== Mr && Gr !== wa[xa][ba ? ri.origdelims % 3 : 0]; ) {
-                      if (aa = ba && (ri.canOpen || Gr.canClose) && ri.origdelims % 3 !== 0 && (Gr.origdelims + ri.origdelims) % 3 === 0, Gr.cc === ri.cc && Gr.canOpen && !aa) {
+                    for (Gr = ri.previous, ta = !1; Gr !== null && Gr !== Mr && Gr !== wa[Ca][ya ? ri.origdelims % 3 : 0]; ) {
+                      if (aa = ya && (ri.canOpen || Gr.canClose) && ri.origdelims % 3 !== 0 && (Gr.origdelims + ri.origdelims) % 3 === 0, Gr.cc === ri.cc && Gr.canOpen && !aa) {
                         ta = !0;
                         break;
                       }
                       Gr = Gr.previous;
                     }
-                    if (bi = ri, ba || xa === bc || xa === al) {
+                    if (bi = ri, ya || Ca === bc || Ca === al) {
                       if (!ta)
                         ri = ri.next;
                       else if (Gr) {
-                        var Na = ri.numdelims >= 2 && Gr.numdelims >= 2 ? 2 : 1, Ra = ba ? 0 : 1;
+                        var Na = ri.numdelims >= 2 && Gr.numdelims >= 2 ? 2 : 1, Ra = ya ? 0 : 1;
                         Ai = Gr.node, Di = ri.node;
-                        var io = ba ? Na === 1 ? "emph" : "strong" : "strike";
-                        xa === al && (io = "customInline");
+                        var io = ya ? Na === 1 ? "emph" : "strong" : "strike";
+                        Ca === al && (io = "customInline");
                         var bo = mo(io), So = Ai.sourcepos[1], xs = Di.sourcepos[0];
                         bo.sourcepos = [
                           [So[0], So[1] - Na + 1],
@@ -70409,7 +70409,7 @@ var toastuiEditorViewer = { exports: {} };
                         ], Ai.sourcepos[1][1] -= Na, Di.sourcepos[0][1] += Na, Ai.literal = Ai.literal.slice(Na), Di.literal = Di.literal.slice(Na), Gr.numdelims -= Na, ri.numdelims -= Na;
                         for (var Wo = Ai.next, Vo = void 0; Wo && Wo !== Di; )
                           Vo = Wo.next, Wo.unlink(), bo.appendChild(Wo), Wo = Vo;
-                        if (xa === al) {
+                        if (Ca === al) {
                           var Yo = bo.firstChild, Cs = Yo.literal || "", Ts = Cs.split(/\s/)[0];
                           bo.info = Ts, Cs.length <= Ts.length ? Yo.unlink() : (Yo.sourcepos[0][1] += Ts.length, Yo.literal = Cs.replace(Ts + " ", ""));
                         }
@@ -70420,8 +70420,8 @@ var toastuiEditorViewer = { exports: {} };
                         }
                       }
                     } else
-                      xa === nl ? (ri.node.literal = "’", ta && (Gr.node.literal = "‘"), ri = ri.next) : xa === il && (ri.node.literal = "”", ta && (Gr.node.literal = "“"), ri = ri.next);
-                    ta || (wa[xa][ba ? bi.origdelims % 3 : 0] = bi.previous, bi.canOpen || this.removeDelimiter(bi));
+                      Ca === nl ? (ri.node.literal = "’", ta && (Gr.node.literal = "‘"), ri = ri.next) : Ca === il && (ri.node.literal = "”", ta && (Gr.node.literal = "“"), ri = ri.next);
+                    ta || (wa[Ca][ya ? bi.origdelims % 3 : 0] = bi.previous, bi.canOpen || this.removeDelimiter(bi));
                   }
                 }
                 for (; this.delimiters !== null && this.delimiters !== Mr; )
@@ -70483,11 +70483,11 @@ var toastuiEditorViewer = { exports: {} };
                 (Tu.test(this.subject.charAt(this.pos - 1)) && (Gr = this.parseLinkTitle()) || !0) && this.spnl() && this.peek() === xu ? (this.pos += 1, ri = !0) : this.pos = ta);
                 var aa = "";
                 if (!ri) {
-                  var wa = this.pos, xa = this.parseLinkLabel();
-                  if (xa > 2 ? aa = this.subject.slice(wa, wa + xa) : Ai.bracketAfter || (aa = this.subject.slice(Ai.index, bi)), xa === 0 && (this.pos = ta), aa) {
+                  var wa = this.pos, Ca = this.parseLinkLabel();
+                  if (Ca > 2 ? aa = this.subject.slice(wa, wa + Ca) : Ai.bracketAfter || (aa = this.subject.slice(Ai.index, bi)), Ca === 0 && (this.pos = ta), aa) {
                     aa = kf(aa);
-                    var ba = this.refMap[aa];
-                    ba && (Fr = ba.destination, Gr = ba.title, ri = !0);
+                    var ya = this.refMap[aa];
+                    ya && (Fr = ya.destination, Gr = ya.title, ri = !0);
                   }
                 }
                 if (ri) {
@@ -70567,10 +70567,10 @@ var toastuiEditorViewer = { exports: {} };
                 var wa = kf(Ai);
                 if (wa === "")
                   return this.pos = ri, 0;
-                var xa = this.getReferenceDefSourcepos(Mr);
-                Mr.sourcepos[0][0] = xa[1][0] + 1;
-                var ba = mo("refDef", xa);
-                return ba.title = Gr, ba.dest = Di, ba.label = wa, Mr.insertBefore(ba), Fr[wa] ? this.refDefCandidateMap[ba.id] = ba : Fr[wa] = Ou(ba), this.pos - ri;
+                var Ca = this.getReferenceDefSourcepos(Mr);
+                Mr.sourcepos[0][0] = Ca[1][0] + 1;
+                var ya = mo("refDef", Ca);
+                return ya.title = Gr, ya.dest = Di, ya.label = wa, Mr.insertBefore(ya), Fr[wa] ? this.refDefCandidateMap[ya.id] = ya : Fr[wa] = Ou(ya), this.pos - ri;
               }, Rr.prototype.mergeTextNodes = function(Mr) {
                 for (var Fr, Gr = []; Fr = Mr.next(); ) {
                   var ri = Fr.entering, bi = Fr.node;
@@ -70979,18 +70979,18 @@ var toastuiEditorViewer = { exports: {} };
           }
           function Su(Rr, Mr, Fr, Gr) {
             for (var ri = [], bi = 0, Ai = Mr; bi < Ai.length; bi++) {
-              var Di = Ai[bi], ta = Di.match(/^[ \t]+/), aa = ta ? ta[0].length : 0, wa = void 0, xa = void 0;
+              var Di = Ai[bi], ta = Di.match(/^[ \t]+/), aa = ta ? ta[0].length : 0, wa = void 0, Ca = void 0;
               if (aa === Di.length)
-                aa = 0, wa = 0, xa = "";
+                aa = 0, wa = 0, Ca = "";
               else {
-                var ba = Di.match(/[ \t]+$/);
-                wa = ba ? ba[0].length : 0, xa = Di.slice(aa, Di.length - wa);
+                var ya = Di.match(/[ \t]+$/);
+                wa = ya ? ya[0].length : 0, Ca = Di.slice(aa, Di.length - wa);
               }
               var Na = Gr + aa, Ra = mo(Rr, [
                 [Fr, Gr],
                 [Fr, Gr + Di.length - 1]
               ]);
-              Ra.stringContent = xa.replace(/\\\|/g, "|"), Ra.startIdx = ri.length, Ra.endIdx = ri.length, Ra.lineOffsets = [Na - 1], Ra.paddingLeft = aa, Ra.paddingRight = wa, ri.push(Ra), Gr += Di.length + 1;
+              Ra.stringContent = Ca.replace(/\\\|/g, "|"), Ra.startIdx = ri.length, Ra.endIdx = ri.length, Ra.lineOffsets = [Na - 1], Ra.paddingLeft = aa, Ra.paddingRight = wa, ri.push(Ra), Gr += Di.length + 1;
             }
             return ri;
           }
@@ -71002,21 +71002,21 @@ var toastuiEditorViewer = { exports: {} };
             var Fr = Mr.stringContent;
             if (Mr.type === "paragraph" && !Rr.indented && !Rr.blank) {
               var Gr = Fr.length - 1, ri = Fr.lastIndexOf(`
-`, Gr - 1) + 1, bi = Fr.slice(ri, Gr), Ai = Rr.currentLine.slice(Rr.nextNonspace), Di = Au(bi), ta = Di[0], aa = Di[1], wa = Au(Ai), xa = wa[0], ba = wa[1], Na = /^[ \t]*:?-+:?[ \t]*$/;
+`, Gr - 1) + 1, bi = Fr.slice(ri, Gr), Ai = Rr.currentLine.slice(Rr.nextNonspace), Di = Au(bi), ta = Di[0], aa = Di[1], wa = Au(Ai), Ca = wa[0], ya = wa[1], Na = /^[ \t]*:?-+:?[ \t]*$/;
               if (
                 // not checking if the number of header cells and delimiter cells are the same
                 // to consider the case of merged-column (via plugin)
-                !aa.length || !ba.length || ba.some(function(As) {
+                !aa.length || !ya.length || ya.some(function(As) {
                   return !Na.test(As);
                 }) || // to prevent to regard setTextHeading as tabel delim cell with 'disallowDeepHeading' option
-                ba.length === 1 && Ai.indexOf("|") !== 0
+                ya.length === 1 && Ai.indexOf("|") !== 0
               )
                 return 0;
               var Ra = Mr.lineOffsets, io = Rr.lineNumber - 1, bo = gc(Ra) + 1, So = mo("table", [
                 [io, bo],
                 [Rr.lineNumber, Rr.offset]
               ]);
-              if (So.columns = ba.map(function() {
+              if (So.columns = ya.map(function() {
                 return { align: null };
               }), Mr.insertAfter(So), Ra.length === 1)
                 Mr.unlink();
@@ -71042,7 +71042,7 @@ var toastuiEditorViewer = { exports: {} };
               Vo.appendChild(Yo), Vo.appendChild(Cs), Su("tableCell", aa, io, bo + ta).forEach(function(As) {
                 Yo.appendChild(As);
               });
-              var Ts = Su("tableDelimCell", ba, Rr.lineNumber, Rr.nextNonspace + 1 + xa);
+              var Ts = Su("tableDelimCell", ya, Rr.lineNumber, Rr.nextNonspace + 1 + Ca);
               return Ts.forEach(function(As) {
                 Cs.appendChild(As);
               }), So.columns = Ts.map(dq), Rr.tip = So, 2;
@@ -71063,8 +71063,8 @@ var toastuiEditorViewer = { exports: {} };
             ]);
             Gr.appendChild(ri);
             var bi = Gr.parent, Ai = Rr.currentLine.slice(Rr.nextNonspace), Di = Au(Ai), ta = Di[0], aa = Di[1];
-            return Su("tableCell", aa, Rr.lineNumber, Rr.nextNonspace + 1 + ta).forEach(function(wa, xa) {
-              xa >= bi.columns.length && (wa.ignored = !0), ri.appendChild(wa);
+            return Su("tableCell", aa, Rr.lineNumber, Rr.nextNonspace + 1 + ta).forEach(function(wa, Ca) {
+              Ca >= bi.columns.length && (wa.ignored = !0), ri.appendChild(wa);
             }), 2;
           }, gq = /^(\$\$)(\s*[a-zA-Z])+/, vq = /^(\$\$)(\s*[a-zA-Z])+.*(\$\$)/, mq = function(Rr) {
             var Mr;
@@ -71342,8 +71342,8 @@ var toastuiEditorViewer = { exports: {} };
                   this.addLine();
                 else {
                   this.closeUnmatchedBlocks(), this.blank && Fr.lastChild && (Fr.lastChild.lastLineBlank = !0);
-                  for (var aa = Fr.type, wa = this.blank && !(aa === "blockQuote" || pf(Fr) && Fr.isFenced || aa === "item" && !Fr.firstChild && Fr.sourcepos[0][0] === this.lineNumber), xa = Fr; xa; )
-                    xa.lastLineBlank = wa, xa = xa.parent;
+                  for (var aa = Fr.type, wa = this.blank && !(aa === "blockQuote" || pf(Fr) && Fr.isFenced || aa === "item" && !Fr.firstChild && Fr.sourcepos[0][0] === this.lineNumber), Ca = Fr; Ca; )
+                    Ca.lastLineBlank = wa, Ca = Ca.parent;
                   yl[aa].acceptsLines ? (this.addLine(), KU(Fr) && Fr.htmlBlockType >= 1 && Fr.htmlBlockType <= 5 && Dq[Fr.htmlBlockType].test(this.currentLine.slice(this.offset)) && (this.lastLineLength = Mr.length, this.finalize(Fr, this.lineNumber))) : this.offset < Mr.length && !this.blank && (Fr = this.addChild("paragraph", this.offset), this.advanceNextNonspace(), this.addLine());
                 }
                 this.lastLineLength = Mr.length;
@@ -71533,8 +71533,8 @@ var toastuiEditorViewer = { exports: {} };
                 this.refMap = {}, this.refLinkCandidateMap = {}, this.refDefCandidateMap = {}, this.referenceDefinition = !!(Fr != null && Fr.referenceDefinition), this.parser = new Uq(Fr), this.parser.setRefMaps(this.refMap, this.refLinkCandidateMap, this.refDefCandidateMap), this.eventHandlerMap = { change: [] }, Mr = Mr || "", this.lineTexts = Mr.split(Vf), this.root = this.parser.parse(Mr, this.lineTexts);
               }
               return Rr.prototype.updateLineTexts = function(Mr, Fr, Gr) {
-                var ri, bi = Mr[0], Ai = Mr[1], Di = Fr[0], ta = Fr[1], aa = Gr.split(Vf), wa = aa.length, xa = this.lineTexts[bi - 1], ba = this.lineTexts[Di - 1];
-                aa[0] = xa.slice(0, Ai - 1) + aa[0], aa[wa - 1] = aa[wa - 1] + ba.slice(ta - 1);
+                var ri, bi = Mr[0], Ai = Mr[1], Di = Fr[0], ta = Fr[1], aa = Gr.split(Vf), wa = aa.length, Ca = this.lineTexts[bi - 1], ya = this.lineTexts[Di - 1];
+                aa[0] = Ca.slice(0, Ai - 1) + aa[0], aa[wa - 1] = aa[wa - 1] + ya.slice(ta - 1);
                 var Na = Di - bi + 1;
                 return (ri = this.lineTexts).splice.apply(ri, xr([bi - 1, Na], aa)), wa - Na;
               }, Rr.prototype.updateRootNodeState = function() {
@@ -71566,9 +71566,9 @@ var toastuiEditorViewer = { exports: {} };
                 return Mr;
               }, Rr.prototype.parseRange = function(Mr, Fr, Gr, ri) {
                 Mr && Mr.prev && (gf(Mr.prev) && Xq(this.lineTexts[Gr - 1]) || WU(Mr.prev) && Jq(this.lineTexts[Gr - 1])) && (Mr = Mr.prev, Gr = Mr.sourcepos[0][0]);
-                for (var bi = this.lineTexts.slice(Gr - 1, ri), Ai = this.parser.partialParseStart(Gr, bi), Di = Fr ? Fr.next : this.root.firstChild, ta = Ai.lastChild, aa = ta && pf(ta) && ta.open, wa = ta && vf(ta) && ta.open, xa = ta && gf(ta); (aa || wa) && Di || xa && Di && (Di.type === "list" || Di.sourcepos[0][1] >= 2); ) {
-                  var ba = this.extendEndLine(Di.sourcepos[1][0]);
-                  this.parser.partialParseExtends(this.lineTexts.slice(ri, ba)), Mr || (Mr = Fr), Fr = Di, ri = ba, Di = Di.next;
+                for (var bi = this.lineTexts.slice(Gr - 1, ri), Ai = this.parser.partialParseStart(Gr, bi), Di = Fr ? Fr.next : this.root.firstChild, ta = Ai.lastChild, aa = ta && pf(ta) && ta.open, wa = ta && vf(ta) && ta.open, Ca = ta && gf(ta); (aa || wa) && Di || Ca && Di && (Di.type === "list" || Di.sourcepos[0][1] >= 2); ) {
+                  var ya = this.extendEndLine(Di.sourcepos[1][0]);
+                  this.parser.partialParseExtends(this.lineTexts.slice(ri, ya)), Mr || (Mr = Fr), Fr = Di, ri = ya, Di = Di.next;
                 }
                 this.parser.partialParseFinish();
                 var Na = Fq(Ai);
@@ -71616,8 +71616,8 @@ var toastuiEditorViewer = { exports: {} };
                 return [Gr, ri, Mr, Fr];
               }, Rr.prototype.parse = function(Mr, Fr, Gr) {
                 Gr === void 0 && (Gr = 0);
-                var ri = this.getNodeRange(Mr, Fr), bi = ri[0], Ai = ri[1], Di = bi ? Math.min(bi.sourcepos[0][0], Mr[0]) : Mr[0], ta = this.extendEndLine((Ai ? Math.max(Ai.sourcepos[1][0], Fr[0]) : Fr[0]) + Gr), aa = this.parseRange.apply(this, this.getRangeWithRefDef(Di, ta, bi, Ai, Gr)), wa = aa.newNodes, xa = aa.extStartNode, ba = aa.extEndNode, Na = this.getRemovedNodeRange(xa, ba), Ra = ba ? ba.next : this.root.firstChild;
-                return this.referenceDefinition ? (this.markDeletedRefMap(xa, ba), this.replaceRangeNodes(xa, ba, wa), this.replaceWithNewRefDefState(wa)) : this.replaceRangeNodes(xa, ba, wa), { nodes: wa, removedNodeRange: Na, nextNode: Ra };
+                var ri = this.getNodeRange(Mr, Fr), bi = ri[0], Ai = ri[1], Di = bi ? Math.min(bi.sourcepos[0][0], Mr[0]) : Mr[0], ta = this.extendEndLine((Ai ? Math.max(Ai.sourcepos[1][0], Fr[0]) : Fr[0]) + Gr), aa = this.parseRange.apply(this, this.getRangeWithRefDef(Di, ta, bi, Ai, Gr)), wa = aa.newNodes, Ca = aa.extStartNode, ya = aa.extEndNode, Na = this.getRemovedNodeRange(Ca, ya), Ra = ya ? ya.next : this.root.firstChild;
+                return this.referenceDefinition ? (this.markDeletedRefMap(Ca, ya), this.replaceRangeNodes(Ca, ya, wa), this.replaceWithNewRefDefState(wa)) : this.replaceRangeNodes(Ca, ya, wa), { nodes: wa, removedNodeRange: Na, nextNode: Ra };
               }, Rr.prototype.parseRefLink = function() {
                 var Mr = this, Fr = [];
                 return ml(this.refMap) || vc(this.refMap, function(Gr, ri) {
@@ -71977,9 +71977,9 @@ var toastuiEditorViewer = { exports: {} };
                   var Fr = this.options.convertors, Gr = Object.keys(Fr), ri = Er(Er({}, Wf), Zf);
                   Gr.forEach(function(bi) {
                     var Ai = Mr[bi], Di = Fr[bi], ta = Object.keys(ri).indexOf(bi) === -1 ? bi.toLowerCase() : bi;
-                    Ai ? Mr[ta] = function(aa, wa, xa) {
+                    Ai ? Mr[ta] = function(aa, wa, Ca) {
                       return wa.origin = function() {
-                        return Ai(aa, wa, xa);
+                        return Ai(aa, wa, Ca);
                       }, Di(aa, wa);
                     } : Mr[ta] = Di;
                   });
@@ -71996,7 +71996,7 @@ var toastuiEditorViewer = { exports: {} };
                   var Di = ri.node, ta = ri.entering, aa = Ai.convertors[Di.type];
                   if (!aa)
                     return "continue";
-                  var wa = !1, xa = {
+                  var wa = !1, Ca = {
                     entering: ta,
                     leaf: !bu(Di),
                     options: Ai.options,
@@ -72004,9 +72004,9 @@ var toastuiEditorViewer = { exports: {} };
                     skipChildren: function() {
                       wa = !0;
                     }
-                  }, ba = vf(Di) || ZU(Di) ? aa(Di, xa, Ai.convertors) : aa(Di, xa);
-                  if (ba) {
-                    var Na = Array.isArray(ba) ? ba : [ba];
+                  }, ya = vf(Di) || ZU(Di) ? aa(Di, Ca, Ai.convertors) : aa(Di, Ca);
+                  if (ya) {
+                    var Na = Array.isArray(ya) ? ya : [ya];
                     Na.forEach(function(Ra, io) {
                       Ra.type === "openTag" && Fr.options.nodeId && io === 0 && (Ra.attributes || (Ra.attributes = {}), Ra.attributes["data-nodeid"] = String(Di.id)), Fr.renderHTMLNode(Ra);
                     }), wa && (Gr.resumeAt(Di, !1), Gr.next());
@@ -72315,10 +72315,10 @@ var toastuiEditorViewer = { exports: {} };
               } : Bu(["htmlBlock", "htmlInline"], Gr) && !ld()(bi) ? Fr[Gr] = function(Ai, Di) {
                 var ta = Ai.literal.match(nd);
                 if (ta) {
-                  var aa = ta[0], wa = ta[1], xa = ta[3], ba = (wa || xa).toLowerCase(), Na = bi[ba], Ra = ZF(Ai, ba);
+                  var aa = ta[0], wa = ta[1], Ca = ta[3], ya = (wa || Ca).toLowerCase(), Na = bi[ya], Ra = ZF(Ai, ya);
                   if (Na) {
                     var io = yr({}, Ai);
-                    return io.attrs = XF(aa), io.childrenHTML = Ra, io.type = ba, Di.entering = !JF.test(Ai.literal), Na(io, Di);
+                    return io.attrs = XF(aa), io.childrenHTML = Ra, io.type = ya, Di.entering = !JF.test(Ai.literal), Na(io, Di);
                   }
                 }
                 return Di.origin();
@@ -72416,14 +72416,14 @@ var toastuiEditorViewer = { exports: {} };
                 if (!ri)
                   bi.insertAdjacentHTML("afterbegin", Ai);
                 else {
-                  var Di = ri.id, ta = Di[0], aa = Di[1], wa = this.getElementByNodeId(ta), xa = this.getElementByNodeId(aa);
+                  var Di = ri.id, ta = Di[0], aa = Di[1], wa = this.getElementByNodeId(ta), Ca = this.getElementByNodeId(aa);
                   if (wa) {
                     wa.insertAdjacentHTML("beforebegin", Ai);
-                    for (var ba = wa; ba && ba !== xa; ) {
-                      var Na = ba.nextElementSibling;
-                      od(ba), qu(ba), ba = Na;
+                    for (var ya = wa; ya && ya !== Ca; ) {
+                      var Na = ya.nextElementSibling;
+                      od(ya), qu(ya), ya = Na;
                     }
-                    ba != null && ba.parentNode && (od(ba), qu(ba));
+                    ya != null && ya.parentNode && (od(ya), qu(ya));
                   }
                 }
               }, Rr.prototype.getRenderer = function() {
@@ -72526,13 +72526,13 @@ var toastuiEditorViewer = { exports: {} };
                   var Gr = Fr.node, ri = Fr.depth, bi = Fr.offset, Ai = vd.get(Gr);
                   if ((Ai == null ? void 0 : Ai.tableStartPos) === bi + 1)
                     return Ai;
-                  var Di = [], ta = Mr.start(ri), aa = Gr.child(0), wa = Gr.child(1), xa = Vu(aa, ta), ba = Vu(wa, ta + aa.nodeSize);
+                  var Di = [], ta = Mr.start(ri), aa = Gr.child(0), wa = Gr.child(1), Ca = Vu(aa, ta), ya = Vu(wa, ta + aa.nodeSize);
                   aa.forEach(function(Ra) {
                     return Di.push(Ra);
                   }), wa.forEach(function(Ra) {
                     return Di.push(Ra);
                   });
-                  var Na = new Rr(Gr, Di, ta, xa.concat(ba));
+                  var Na = new Rr(Gr, Di, ta, Ca.concat(ya));
                   return vd.set(Gr, Na), Na;
                 }
                 return null;
@@ -72609,8 +72609,8 @@ var toastuiEditorViewer = { exports: {} };
               }, Rr.prototype.getRectOffsets = function(Mr, Fr) {
                 var Gr, ri, bi;
                 Fr === void 0 && (Fr = Mr), Mr.pos > Fr.pos && (Gr = [Fr, Mr], Mr = Gr[0], Fr = Gr[1]);
-                var Ai = this.getCellIndex(Mr), Di = Ai[0], ta = Ai[1], aa = this.getCellIndex(Fr), wa = aa[0], xa = aa[1];
-                return ri = ad(Di, wa), Di = ri[0], wa = ri[1], bi = ad(ta, xa), ta = bi[0], xa = bi[1], this.getSpannedOffsets({ startRowIdx: Di, startColIdx: ta, endRowIdx: wa, endColIdx: xa });
+                var Ai = this.getCellIndex(Mr), Di = Ai[0], ta = Ai[1], aa = this.getCellIndex(Fr), wa = aa[0], Ca = aa[1];
+                return ri = ad(Di, wa), Di = ri[0], wa = ri[1], bi = ad(ta, Ca), ta = bi[0], Ca = bi[1], this.getSpannedOffsets({ startRowIdx: Di, startColIdx: ta, endRowIdx: wa, endColIdx: Ca });
               }, Rr.prototype.getSpannedOffsets = function(Mr) {
                 return Mr;
               }, Rr;
@@ -72646,8 +72646,8 @@ var toastuiEditorViewer = { exports: {} };
               i18n: hj
             };
             if (pF()(Mr)) {
-              var xa = Mr[0], ba = Mr[1], Na = ba === void 0 ? {} : ba;
-              return xa(wa, Na);
+              var Ca = Mr[0], ya = Mr[1], Na = ya === void 0 ? {} : ya;
+              return Ca(wa, Na);
             }
             return Mr(wa);
           }
@@ -72662,8 +72662,8 @@ var toastuiEditorViewer = { exports: {} };
               });
               if (!Di)
                 throw new Error("The return value of the executed plugin is empty.");
-              var ta = Di.markdownParsers, aa = Di.toHTMLRenderers, wa = Di.toMarkdownRenderers, xa = Di.markdownPlugins, ba = Di.wysiwygPlugins, Na = Di.wysiwygNodeViews, Ra = Di.markdownCommands, io = Di.wysiwygCommands, bo = Di.toolbarItems;
-              return aa && (bi.toHTMLRenderers = Hu(bi.toHTMLRenderers, aa)), wa && (bi.toMarkdownRenderers = Hu(bi.toMarkdownRenderers, wa)), xa && (bi.mdPlugins = bi.mdPlugins.concat(xa)), ba && (bi.wwPlugins = bi.wwPlugins.concat(ba)), Na && (bi.wwNodeViews = yr(yr({}, bi.wwNodeViews), Na)), Ra && (bi.mdCommands = yr(yr({}, bi.mdCommands), Ra)), io && (bi.wwCommands = yr(yr({}, bi.wwCommands), io)), bo && (bi.toolbarItems = bi.toolbarItems.concat(bo)), ta && (bi.markdownParsers = yr(yr({}, bi.markdownParsers), ta)), bi;
+              var ta = Di.markdownParsers, aa = Di.toHTMLRenderers, wa = Di.toMarkdownRenderers, Ca = Di.markdownPlugins, ya = Di.wysiwygPlugins, Na = Di.wysiwygNodeViews, Ra = Di.markdownCommands, io = Di.wysiwygCommands, bo = Di.toolbarItems;
+              return aa && (bi.toHTMLRenderers = Hu(bi.toHTMLRenderers, aa)), wa && (bi.toMarkdownRenderers = Hu(bi.toMarkdownRenderers, wa)), Ca && (bi.mdPlugins = bi.mdPlugins.concat(Ca)), ya && (bi.wwPlugins = bi.wwPlugins.concat(ya)), Na && (bi.wwNodeViews = yr(yr({}, bi.wwNodeViews), Na)), Ra && (bi.mdCommands = yr(yr({}, bi.mdCommands), Ra)), io && (bi.wwCommands = yr(yr({}, bi.wwCommands), io)), bo && (bi.toolbarItems = bi.toolbarItems.concat(bo)), ta && (bi.markdownParsers = yr(yr({}, bi.markdownParsers), ta)), bi;
             }, {
               toHTMLRenderers: {},
               toMarkdownRenderers: {},
@@ -72805,13 +72805,13 @@ var toastuiEditorViewer = { exports: {} };
                   eventEmitter: this.eventEmitter,
                   usageStatistics: this.options.usageStatistics,
                   instance: this
-                }) || {}, bi = ri.toHTMLRenderers, Ai = ri.markdownParsers, Di = this.options, ta = Di.customHTMLRenderer, aa = Di.extendedAutolinks, wa = Di.referenceDefinition, xa = Di.frontMatter, ba = Di.customHTMLSanitizer, Na = {
+                }) || {}, bi = ri.toHTMLRenderers, Ai = ri.markdownParsers, Di = this.options, ta = Di.customHTMLRenderer, aa = Di.extendedAutolinks, wa = Di.referenceDefinition, Ca = Di.frontMatter, ya = Di.customHTMLSanitizer, Na = {
                   linkAttributes: Gr,
                   customHTMLRenderer: yr(yr({}, bi), ta),
                   extendedAutolinks: aa,
                   referenceDefinition: wa,
-                  frontMatter: xa,
-                  sanitizer: ba || WF
+                  frontMatter: Ca,
+                  sanitizer: ya || WF
                 };
                 Cj(Na.customHTMLRenderer), this.options.events && iF()(this.options.events, function(Wo, Vo) {
                   Fr.on(Vo, Wo);
@@ -72822,7 +72822,7 @@ var toastuiEditorViewer = { exports: {} };
                   extendedAutolinks: aa,
                   referenceDefinition: wa,
                   disallowDeepHeading: !0,
-                  frontMatter: xa,
+                  frontMatter: Ca,
                   customParser: Ai
                 }), this.preview = new oj(this.eventEmitter, yr(yr({}, Na), { isViewer: !0 })), Jf()(this.preview.previewContent, "mousedown", this.toggleTask.bind(this)), bo ? this.setMarkdown(bo) : xs && this.preview.setHTML(xs), io.appendChild(this.preview.previewContent), this.eventEmitter.emit("load", this);
               }
@@ -72985,8 +72985,8 @@ function create_if_block$1(lr) {
   const dr = [create_if_block_1$1, create_else_block_5], hr = [];
   function gr(vr, mr) {
     return !/*loading*/
-    vr[19] && /*expertOpinions*/
-    vr[13] ? 0 : 1;
+    vr[20] && /*expertOpinions*/
+    vr[14] ? 0 : 1;
   }
   return ar = gr(lr), cr = hr[ar] = dr[ar](lr), {
     c() {
@@ -73030,20 +73030,20 @@ function create_else_block_5(lr) {
   };
 }
 function create_if_block_1$1(lr) {
-  var Zi, ka;
+  var Wi, ma;
   let ar, cr, ur, fr, dr, hr, gr, vr, mr, br, yr = (
     /*trustedAuthors*/
-    lr[10].includes(
+    lr[11].includes(
       /*event*/
       lr[3].pubkey
     )
   ), kr, Tr, _r, Er, xr, Cr, Ar, Lr, Dr, Nr, Hr, $r, Wr, Zr, oi, Jr, Yr, li = (
     /*likeCount*/
-    (lr[14] || 0) + ""
+    (lr[15] || 0) + ""
   ), Si, ci, hi, Ei, di, gi, Li, ui, wi = (
     /*dislikeCount*/
-    (lr[15] || 0) + ""
-  ), Ui, yi, Vi, Oi, Mi, Ii, mi, _i, Ci, Ki, Ni, ia, ea, la, ma;
+    (lr[16] || 0) + ""
+  ), Ui, yi, Vi, Oi, Mi, Ii, mi, _i, Ci, Ki, Ni, ia, ea, la, ba;
   const Ba = [create_if_block_14, create_if_block_15, create_if_block_16], Fa = [];
   function Ia(zi, Ji) {
     var za, Va;
@@ -73070,15 +73070,15 @@ function create_if_block_1$1(lr) {
   }
   let oa = Hi(lr), Gi = oa(lr), ha = yr && create_if_block_12(), Ua = (
     /*published_at*/
-    lr[24] && /*published_at*/
-    lr[24] < /*created_at*/
-    lr[25] && create_if_block_11()
+    lr[25] && /*published_at*/
+    lr[25] < /*created_at*/
+    lr[26] && create_if_block_11()
   );
   const eo = [create_if_block_8, create_else_block_3], ua = [];
   function va(zi, Ji) {
     return (
       /*edit*/
-      zi[16] ? 1 : 0
+      zi[17] ? 1 : 0
     );
   }
   Lr = va(lr), Dr = ua[Lr] = eo[Lr](lr);
@@ -73086,7 +73086,7 @@ function create_if_block_1$1(lr) {
   function Oa(zi, Ji) {
     return (
       /*liked*/
-      zi[20] === !0 ? 0 : 1
+      zi[21] === !0 ? 0 : 1
     );
   }
   Zr = Oa(lr), oi = Aa[Zr] = Ta[Zr](lr);
@@ -73094,7 +73094,7 @@ function create_if_block_1$1(lr) {
   function Pa(zi, Ji) {
     return (
       /*disliked*/
-      zi[21] === !0 ? 0 : 1
+      zi[22] === !0 ? 0 : 1
     );
   }
   di = Pa(lr), gi = Ka[di] = Xa[di](lr), Oi = new Tooltip({
@@ -73116,42 +73116,42 @@ function create_if_block_1$1(lr) {
   });
   let Da = (
     /*$ndkUser*/
-    ((Zi = lr[29]) == null ? void 0 : Zi.pubkey) === /*event*/
+    ((Wi = lr[31]) == null ? void 0 : Wi.pubkey) === /*event*/
     lr[3].pubkey && create_if_block_5$1(lr)
   ), Ha = (
     /*$ndkUser*/
-    ((ka = lr[29]) == null ? void 0 : ka.pubkey) === /*event*/
+    ((ma = lr[31]) == null ? void 0 : ma.pubkey) === /*event*/
     lr[3].pubkey && /*editLvl*/
     lr[2] == 1 && create_if_block_4$1(lr)
   ), $a = (
     /*reply*/
-    lr[17] && create_if_block_3$1(lr)
+    lr[18] && create_if_block_3$1(lr)
   ), Yi = (
     /*replyContent*/
-    lr[18] && create_if_block_2$1(lr)
+    lr[19] && create_if_block_2$1(lr)
   );
   return {
     c() {
       ar = element("div"), cr = element("div"), ur = element("div"), fr = element("div"), vr && vr.c(), mr = space(), Gi.c(), br = space(), ha && ha.c(), kr = space(), Tr = element("p"), Ua && Ua.c(), _r = space(), Er = element("a"), xr = text$3(
         /*relativeTime*/
-        lr[23]
+        lr[24]
       ), Ar = space(), Dr.c(), Nr = space(), Hr = element("div"), $r = element("div"), Wr = element("button"), oi.c(), Jr = space(), Yr = element("span"), Si = text$3(li), ci = space(), hi = element("div"), Ei = element("button"), gi.c(), Li = space(), ui = element("span"), Ui = text$3(wi), yi = space(), Vi = element("div"), create_component(Oi.$$.fragment), Mi = space(), create_component(Ii.$$.fragment), mi = space(), Da && Da.c(), _i = space(), Ha && Ha.c(), Ci = space(), $a && $a.c(), Ki = space(), Yi && Yi.c(), attr(ur, "class", "pubkey svelte-cgkjwk"), attr(Er, "href", Cr = "https://njump.me/" + /*event*/
       lr[3].id), attr(Er, "target", "_blank"), attr(Tr, "class", "date svelte-cgkjwk"), attr(cr, "class", "opinion-top svelte-cgkjwk"), attr(Wr, "class", "reactionButton svelte-cgkjwk"), attr($r, "class", "card-button svelte-cgkjwk"), attr(Ei, "class", "reactionButton svelte-cgkjwk"), attr(hi, "class", "card-button svelte-cgkjwk"), attr(Vi, "class", "card-button svelte-cgkjwk"), attr(Hr, "class", "reactionDiv svelte-cgkjwk"), attr(ar, "class", Ni = "opinion-container " + /*isMine*/
       (lr[7] ? "mine" : "") + " svelte-cgkjwk");
     },
     m(zi, Ji) {
-      insert(zi, ar, Ji), append(ar, cr), append(cr, ur), append(ur, fr), ~gr && Fa[gr].m(fr, null), append(ur, mr), Gi.m(ur, null), append(ur, br), ha && ha.m(ur, null), append(cr, kr), append(cr, Tr), Ua && Ua.m(Tr, null), append(Tr, _r), append(Tr, Er), append(Er, xr), append(ar, Ar), ua[Lr].m(ar, null), append(ar, Nr), append(ar, Hr), append(Hr, $r), append($r, Wr), Aa[Zr].m(Wr, null), append($r, Jr), append($r, Yr), append(Yr, Si), append(Hr, ci), append(Hr, hi), append(hi, Ei), Ka[di].m(Ei, null), append(hi, Li), append(hi, ui), append(ui, Ui), append(Hr, yi), append(Hr, Vi), mount_component(Oi, Vi, null), append(Vi, Mi), mount_component(Ii, Vi, null), append(Hr, mi), Da && Da.m(Hr, null), append(Hr, _i), Ha && Ha.m(Hr, null), append(ar, Ci), $a && $a.m(ar, null), append(ar, Ki), Yi && Yi.m(ar, null), ea = !0, la || (ma = [
+      insert(zi, ar, Ji), append(ar, cr), append(cr, ur), append(ur, fr), ~gr && Fa[gr].m(fr, null), append(ur, mr), Gi.m(ur, null), append(ur, br), ha && ha.m(ur, null), append(cr, kr), append(cr, Tr), Ua && Ua.m(Tr, null), append(Tr, _r), append(Tr, Er), append(Er, xr), append(ar, Ar), ua[Lr].m(ar, null), append(ar, Nr), append(ar, Hr), append(Hr, $r), append($r, Wr), Aa[Zr].m(Wr, null), append($r, Jr), append($r, Yr), append(Yr, Si), append(Hr, ci), append(Hr, hi), append(hi, Ei), Ka[di].m(Ei, null), append(hi, Li), append(hi, ui), append(ui, Ui), append(Hr, yi), append(Hr, Vi), mount_component(Oi, Vi, null), append(Vi, Mi), mount_component(Ii, Vi, null), append(Hr, mi), Da && Da.m(Hr, null), append(Hr, _i), Ha && Ha.m(Hr, null), append(ar, Ci), $a && $a.m(ar, null), append(ar, Ki), Yi && Yi.m(ar, null), ea = !0, la || (ba = [
         listen(
           Wr,
           "click",
           /*click_handler_3*/
-          lr[49]
+          lr[50]
         ),
         listen(
           Ei,
           "click",
           /*click_handler_4*/
-          lr[50]
+          lr[51]
         )
       ], la = !0);
     },
@@ -73161,21 +73161,21 @@ function create_if_block_1$1(lr) {
       gr = Ia(zi, Ji), gr !== za && (vr && (group_outros(), transition_out(Fa[za], 1, 1, () => {
         Fa[za] = null;
       }), check_outros()), ~gr ? (vr = Fa[gr], vr || (vr = Fa[gr] = Ba[gr](zi), vr.c()), transition_in(vr, 1), vr.m(fr, null)) : vr = null), oa === (oa = Hi(zi)) && Gi ? Gi.p(zi, Ji) : (Gi.d(1), Gi = oa(zi), Gi && (Gi.c(), Gi.m(ur, br))), Ji[0] & /*trustedAuthors, event*/
-      1032 && (yr = /*trustedAuthors*/
-      zi[10].includes(
+      2056 && (yr = /*trustedAuthors*/
+      zi[11].includes(
         /*event*/
         zi[3].pubkey
       )), yr ? ha ? Ji[0] & /*trustedAuthors, event*/
-      1032 && transition_in(ha, 1) : (ha = create_if_block_12(), ha.c(), transition_in(ha, 1), ha.m(ur, null)) : ha && (group_outros(), transition_out(ha, 1, 1, () => {
+      2056 && transition_in(ha, 1) : (ha = create_if_block_12(), ha.c(), transition_in(ha, 1), ha.m(ur, null)) : ha && (group_outros(), transition_out(ha, 1, 1, () => {
         ha = null;
       }), check_outros()), /*published_at*/
-      zi[24] && /*published_at*/
-      zi[24] < /*created_at*/
-      zi[25] ? Ua || (Ua = create_if_block_11(), Ua.c(), Ua.m(Tr, _r)) : Ua && (Ua.d(1), Ua = null), (!ea || Ji[0] & /*relativeTime*/
-      8388608) && set_data(
+      zi[25] && /*published_at*/
+      zi[25] < /*created_at*/
+      zi[26] ? Ua || (Ua = create_if_block_11(), Ua.c(), Ua.m(Tr, _r)) : Ua && (Ua.d(1), Ua = null), (!ea || Ji[0] & /*relativeTime*/
+      16777216) && set_data(
         xr,
         /*relativeTime*/
-        zi[23]
+        zi[24]
       ), (!ea || Ji[0] & /*event*/
       8 && Cr !== (Cr = "https://njump.me/" + /*event*/
       zi[3].id)) && attr(Er, "href", Cr);
@@ -73183,43 +73183,45 @@ function create_if_block_1$1(lr) {
       Lr = va(zi), Lr === Va ? ua[Lr].p(zi, Ji) : (group_outros(), transition_out(ua[Va], 1, 1, () => {
         ua[Va] = null;
       }), check_outros(), Dr = ua[Lr], Dr ? Dr.p(zi, Ji) : (Dr = ua[Lr] = eo[Lr](zi), Dr.c()), transition_in(Dr, 1), Dr.m(ar, Nr));
-      let Ca = Zr;
-      Zr = Oa(zi), Zr !== Ca && (group_outros(), transition_out(Aa[Ca], 1, 1, () => {
-        Aa[Ca] = null;
+      let xa = Zr;
+      Zr = Oa(zi), Zr !== xa && (group_outros(), transition_out(Aa[xa], 1, 1, () => {
+        Aa[xa] = null;
       }), check_outros(), oi = Aa[Zr], oi || (oi = Aa[Zr] = Ta[Zr](zi), oi.c()), transition_in(oi, 1), oi.m(Wr, null)), (!ea || Ji[0] & /*likeCount*/
-      16384) && li !== (li = /*likeCount*/
-      (zi[14] || 0) + "") && set_data(Si, li);
+      32768) && li !== (li = /*likeCount*/
+      (zi[15] || 0) + "") && set_data(Si, li);
       let ja = di;
       di = Pa(zi), di !== ja && (group_outros(), transition_out(Ka[ja], 1, 1, () => {
         Ka[ja] = null;
       }), check_outros(), gi = Ka[di], gi || (gi = Ka[di] = Xa[di](zi), gi.c()), transition_in(gi, 1), gi.m(Ei, null)), (!ea || Ji[0] & /*dislikeCount*/
-      32768) && wi !== (wi = /*dislikeCount*/
-      (zi[15] || 0) + "") && set_data(Ui, wi);
+      65536) && wi !== (wi = /*dislikeCount*/
+      (zi[16] || 0) + "") && set_data(Ui, wi);
       const ao = {};
       Ji[0] & /*$localStore, reply, edit, opinionContent, replyContent*/
-      1074200608 | Ji[2] & /*$$scope*/
+      1074659360 | Ji[2] & /*$$scope*/
       65536 && (ao.$$scope = { dirty: Ji, ctx: zi }), Oi.$set(ao);
       const Wa = {};
       Ji[0] & /*replyContent, replyEvents*/
-      266240 | Ji[2] & /*$$scope*/
+      532480 | Ji[2] & /*$$scope*/
       65536 && (Wa.$$scope = { dirty: Ji, ctx: zi }), Ii.$set(Wa), /*$ndkUser*/
-      ((po = zi[29]) == null ? void 0 : po.pubkey) === /*event*/
-      zi[3].pubkey ? Da ? (Da.p(zi, Ji), Ji[0] & /*$ndkUser, event*/
-      536870920 && transition_in(Da, 1)) : (Da = create_if_block_5$1(zi), Da.c(), transition_in(Da, 1), Da.m(Hr, _i)) : Da && (group_outros(), transition_out(Da, 1, 1, () => {
+      ((po = zi[31]) == null ? void 0 : po.pubkey) === /*event*/
+      zi[3].pubkey ? Da ? (Da.p(zi, Ji), Ji[0] & /*event*/
+      8 | Ji[1] & /*$ndkUser*/
+      1 && transition_in(Da, 1)) : (Da = create_if_block_5$1(zi), Da.c(), transition_in(Da, 1), Da.m(Hr, _i)) : Da && (group_outros(), transition_out(Da, 1, 1, () => {
         Da = null;
       }), check_outros()), /*$ndkUser*/
-      ((to = zi[29]) == null ? void 0 : to.pubkey) === /*event*/
+      ((to = zi[31]) == null ? void 0 : to.pubkey) === /*event*/
       zi[3].pubkey && /*editLvl*/
-      zi[2] == 1 ? Ha ? (Ha.p(zi, Ji), Ji[0] & /*$ndkUser, event, editLvl*/
-      536870924 && transition_in(Ha, 1)) : (Ha = create_if_block_4$1(zi), Ha.c(), transition_in(Ha, 1), Ha.m(Hr, null)) : Ha && (group_outros(), transition_out(Ha, 1, 1, () => {
+      zi[2] == 1 ? Ha ? (Ha.p(zi, Ji), Ji[0] & /*event, editLvl*/
+      12 | Ji[1] & /*$ndkUser*/
+      1 && transition_in(Ha, 1)) : (Ha = create_if_block_4$1(zi), Ha.c(), transition_in(Ha, 1), Ha.m(Hr, null)) : Ha && (group_outros(), transition_out(Ha, 1, 1, () => {
         Ha = null;
       }), check_outros()), /*reply*/
-      zi[17] ? $a ? ($a.p(zi, Ji), Ji[0] & /*reply*/
-      131072 && transition_in($a, 1)) : ($a = create_if_block_3$1(zi), $a.c(), transition_in($a, 1), $a.m(ar, Ki)) : $a && (group_outros(), transition_out($a, 1, 1, () => {
+      zi[18] ? $a ? ($a.p(zi, Ji), Ji[0] & /*reply*/
+      262144 && transition_in($a, 1)) : ($a = create_if_block_3$1(zi), $a.c(), transition_in($a, 1), $a.m(ar, Ki)) : $a && (group_outros(), transition_out($a, 1, 1, () => {
         $a = null;
       }), check_outros()), /*replyContent*/
-      zi[18] ? Yi ? (Yi.p(zi, Ji), Ji[0] & /*replyContent*/
-      262144 && transition_in(Yi, 1)) : (Yi = create_if_block_2$1(zi), Yi.c(), transition_in(Yi, 1), Yi.m(ar, null)) : Yi && (group_outros(), transition_out(Yi, 1, 1, () => {
+      zi[19] ? Yi ? (Yi.p(zi, Ji), Ji[0] & /*replyContent*/
+      524288 && transition_in(Yi, 1)) : (Yi = create_if_block_2$1(zi), Yi.c(), transition_in(Yi, 1), Yi.m(ar, null)) : Yi && (group_outros(), transition_out(Yi, 1, 1, () => {
         Yi = null;
       }), check_outros()), (!ea || Ji[0] & /*isMine*/
       128 && Ni !== (Ni = "opinion-container " + /*isMine*/
@@ -73234,7 +73236,7 @@ function create_if_block_1$1(lr) {
       transition_out(vr), transition_out(ha), transition_out(Dr), transition_out(oi), transition_out(gi), transition_out(Oi.$$.fragment, zi), transition_out(Ii.$$.fragment, zi), transition_out(Da), transition_out(Ha), transition_out($a), transition_out(Yi), zi && (ia || (ia = create_bidirectional_transition(ar, slide, {}, !1)), ia.run(0)), ea = !1;
     },
     d(zi) {
-      zi && detach(ar), ~gr && Fa[gr].d(), Gi.d(), ha && ha.d(), Ua && Ua.d(), ua[Lr].d(), Aa[Zr].d(), Ka[di].d(), destroy_component(Oi), destroy_component(Ii), Da && Da.d(), Ha && Ha.d(), $a && $a.d(), Yi && Yi.d(), zi && ia && ia.end(), la = !1, run_all(ma);
+      zi && detach(ar), ~gr && Fa[gr].d(), Gi.d(), ha && ha.d(), Ua && Ua.d(), ua[Lr].d(), Aa[Zr].d(), Ka[di].d(), destroy_component(Oi), destroy_component(Ii), Da && Da.d(), Ha && Ha.d(), $a && $a.d(), Yi && Yi.d(), zi && ia && ia.end(), la = !1, run_all(ba);
     }
   };
 }
@@ -73434,40 +73436,40 @@ function create_if_block_11(lr) {
 function create_else_block_3(lr) {
   let ar, cr, ur, fr, dr, hr, gr, vr, mr, br, yr, kr, Tr, _r, Er, xr, Cr, Ar, Lr, Dr, Nr, Hr, $r, Wr, Zr, oi, Jr = [], Yr = /* @__PURE__ */ new Map(), li, Si, ci, hi, Ei, di, gi, Li, ui, wi, Ui, yi, Vi, Oi;
   function Mi(ea) {
-    lr[40](ea);
+    lr[41](ea);
   }
   function Ii(ea) {
-    lr[41](ea);
+    lr[42](ea);
   }
   let mi = {};
   /*fileArray*/
-  lr[26] !== void 0 && (mi.fileArray = /*fileArray*/
-  lr[26]), /*opinionContent*/
+  lr[27] !== void 0 && (mi.fileArray = /*fileArray*/
+  lr[27]), /*opinionContent*/
   lr[5] !== void 0 && (mi.opinionContent = /*opinionContent*/
   lr[5]), ur = new Editor_1({ props: mi }), binding_callbacks.push(() => bind(ur, "fileArray", Mi)), binding_callbacks.push(() => bind(ur, "opinionContent", Ii)), kr = new Positive({}), Cr = new Neutral({}), Hr = new Negative({});
   let _i = ensure_array_like(
     /*fileArray*/
-    lr[26]
+    lr[27]
   );
   const Ci = (ea) => (
     /*file*/
     ea[73].url
   );
   for (let ea = 0; ea < _i.length; ea += 1) {
-    let la = get_each_context_2(lr, _i, ea), ma = Ci(la);
-    Yr.set(ma, Jr[ea] = create_each_block_2(ma, la));
+    let la = get_each_context_2(lr, _i, ea), ba = Ci(la);
+    Yr.set(ba, Jr[ea] = create_each_block_2(ba, la));
   }
   function Ki(ea) {
-    lr[46](ea);
+    lr[47](ea);
   }
   function Ni(ea) {
-    lr[47](ea);
+    lr[48](ea);
   }
   let ia = {};
   return (
     /*fileArray*/
-    lr[26] !== void 0 && (ia.fileArray = /*fileArray*/
-    lr[26]), /*opinionContent*/
+    lr[27] !== void 0 && (ia.fileArray = /*fileArray*/
+    lr[27]), /*opinionContent*/
     lr[5] !== void 0 && (ia.opinionContent = /*opinionContent*/
     lr[5]), gi = new Upload({ props: ia }), binding_callbacks.push(() => bind(gi, "fileArray", Ki)), binding_callbacks.push(() => bind(gi, "opinionContent", Ni)), {
       c() {
@@ -73478,7 +73480,7 @@ function create_else_block_3(lr) {
           yr,
           "dark",
           /*$theme*/
-          lr[31] === "dark"
+          lr[32] === "dark"
         ), toggle_class(
           yr,
           "selected",
@@ -73488,7 +73490,7 @@ function create_else_block_3(lr) {
           xr,
           "dark",
           /*$theme*/
-          lr[31] === "dark"
+          lr[32] === "dark"
         ), toggle_class(
           xr,
           "selected",
@@ -73498,51 +73500,51 @@ function create_else_block_3(lr) {
           Nr,
           "dark",
           /*$theme*/
-          lr[31] === "dark"
+          lr[32] === "dark"
         ), toggle_class(
           Nr,
           "selected",
           /*newOpinion*/
           lr[0].sentiment === "-1"
         ), set_style(br, "display", "flex"), set_style(br, "gap", "0.4rem"), attr(gr, "id", "sentiment-box"), set_style(gr, "display", "flex"), set_style(gr, "flex-direction", "column"), set_style(gr, "gap", "0.3rem"), set_style(gr, "margin-bottom", "1rem"), attr(oi, "id", "filePreview"), attr(oi, "class", "svelte-cgkjwk"), attr(ci, "type", "submit"), ci.disabled = Ei = !/*$ndkUser*/
-        lr[29], attr(ci, "class", "postButton svelte-cgkjwk"), set_style(Si, "display", "flex"), set_style(Si, "align-contents", "center"), attr(ar, "class", wi = "opinion-container " + /*isMine*/
+        lr[31], attr(ci, "class", "postButton svelte-cgkjwk"), set_style(Si, "display", "flex"), set_style(Si, "align-contents", "center"), attr(ar, "class", wi = "opinion-container " + /*isMine*/
         (lr[7] ? "mine" : "") + " svelte-cgkjwk");
       },
       m(ea, la) {
         insert(ea, ar, la), append(ar, cr), mount_component(ur, cr, null), append(cr, hr), append(cr, gr), append(gr, vr), append(gr, mr), append(gr, br), append(br, yr), mount_component(kr, yr, null), append(yr, Tr), append(yr, _r), append(br, Er), append(br, xr), mount_component(Cr, xr, null), append(xr, Ar), append(xr, Lr), append(br, Dr), append(br, Nr), mount_component(Hr, Nr, null), append(Nr, $r), append(Nr, Wr), append(cr, Zr), append(cr, oi);
-        for (let ma = 0; ma < Jr.length; ma += 1)
-          Jr[ma] && Jr[ma].m(oi, null);
+        for (let ba = 0; ba < Jr.length; ba += 1)
+          Jr[ba] && Jr[ba].m(oi, null);
         append(cr, li), append(cr, Si), append(Si, ci), append(ci, hi), append(Si, di), mount_component(gi, Si, null), yi = !0, Vi || (Oi = [
           listen(yr, "click", prevent_default(
             /*click_handler*/
-            lr[42]
+            lr[43]
           )),
           listen(xr, "click", prevent_default(
             /*click_handler_1*/
-            lr[43]
+            lr[44]
           )),
           listen(Nr, "click", prevent_default(
             /*click_handler_2*/
-            lr[44]
+            lr[45]
           )),
           listen(cr, "submit", prevent_default(
             /*submit_handler*/
-            lr[48]
+            lr[49]
           ))
         ], Vi = !0);
       },
       p(ea, la) {
-        const ma = {};
+        const ba = {};
         !fr && la[0] & /*fileArray*/
-        67108864 && (fr = !0, ma.fileArray = /*fileArray*/
-        ea[26], add_flush_callback(() => fr = !1)), !dr && la[0] & /*opinionContent*/
-        32 && (dr = !0, ma.opinionContent = /*opinionContent*/
-        ea[5], add_flush_callback(() => dr = !1)), ur.$set(ma), (!yi || la[1] & /*$theme*/
-        1) && toggle_class(
+        134217728 && (fr = !0, ba.fileArray = /*fileArray*/
+        ea[27], add_flush_callback(() => fr = !1)), !dr && la[0] & /*opinionContent*/
+        32 && (dr = !0, ba.opinionContent = /*opinionContent*/
+        ea[5], add_flush_callback(() => dr = !1)), ur.$set(ba), (!yi || la[1] & /*$theme*/
+        2) && toggle_class(
           yr,
           "dark",
           /*$theme*/
-          ea[31] === "dark"
+          ea[32] === "dark"
         ), (!yi || la[0] & /*newOpinion*/
         1) && toggle_class(
           yr,
@@ -73550,11 +73552,11 @@ function create_else_block_3(lr) {
           /*newOpinion*/
           ea[0].sentiment === "1"
         ), (!yi || la[1] & /*$theme*/
-        1) && toggle_class(
+        2) && toggle_class(
           xr,
           "dark",
           /*$theme*/
-          ea[31] === "dark"
+          ea[32] === "dark"
         ), (!yi || la[0] & /*newOpinion*/
         1) && toggle_class(
           xr,
@@ -73562,11 +73564,11 @@ function create_else_block_3(lr) {
           /*newOpinion*/
           ea[0].sentiment === "0"
         ), (!yi || la[1] & /*$theme*/
-        1) && toggle_class(
+        2) && toggle_class(
           Nr,
           "dark",
           /*$theme*/
-          ea[31] === "dark"
+          ea[32] === "dark"
         ), (!yi || la[0] & /*newOpinion*/
         1) && toggle_class(
           Nr,
@@ -73574,17 +73576,17 @@ function create_else_block_3(lr) {
           /*newOpinion*/
           ea[0].sentiment === "-1"
         ), la[0] & /*fileArray*/
-        67108864 | la[1] & /*deleteFile*/
-        64 && (_i = ensure_array_like(
+        134217728 | la[1] & /*deleteFile*/
+        128 && (_i = ensure_array_like(
           /*fileArray*/
-          ea[26]
-        ), group_outros(), Jr = update_keyed_each(Jr, la, Ci, 1, ea, _i, Yr, oi, outro_and_destroy_block, create_each_block_2, null, get_each_context_2), check_outros()), (!yi || la[0] & /*$ndkUser*/
-        536870912 && Ei !== (Ei = !/*$ndkUser*/
-        ea[29])) && (ci.disabled = Ei);
+          ea[27]
+        ), group_outros(), Jr = update_keyed_each(Jr, la, Ci, 1, ea, _i, Yr, oi, outro_and_destroy_block, create_each_block_2, null, get_each_context_2), check_outros()), (!yi || la[1] & /*$ndkUser*/
+        1 && Ei !== (Ei = !/*$ndkUser*/
+        ea[31])) && (ci.disabled = Ei);
         const Ba = {};
         !Li && la[0] & /*fileArray*/
-        67108864 && (Li = !0, Ba.fileArray = /*fileArray*/
-        ea[26], add_flush_callback(() => Li = !1)), !ui && la[0] & /*opinionContent*/
+        134217728 && (Li = !0, Ba.fileArray = /*fileArray*/
+        ea[27], add_flush_callback(() => Li = !1)), !ui && la[0] & /*opinionContent*/
         32 && (ui = !0, Ba.opinionContent = /*opinionContent*/
         ea[5], add_flush_callback(() => ui = !1)), gi.$set(Ba), (!yi || la[0] & /*isMine*/
         128 && wi !== (wi = "opinion-container " + /*isMine*/
@@ -73627,7 +73629,7 @@ function create_if_block_8(lr) {
   cr = mr(lr), ur = vr[cr] = gr[cr](lr);
   let br = (
     /*showReadMore*/
-    lr[28] && create_if_block_9(lr)
+    lr[29] && create_if_block_9(lr)
   );
   return {
     c() {
@@ -73635,24 +73637,24 @@ function create_if_block_8(lr) {
         ar,
         "show-full",
         /*showFullText*/
-        lr[22]
+        lr[23]
       );
     },
     m(yr, kr) {
-      insert(yr, ar, kr), vr[cr].m(ar, null), lr[39](ar), insert(yr, fr, kr), br && br.m(yr, kr), insert(yr, dr, kr), hr = !0;
+      insert(yr, ar, kr), vr[cr].m(ar, null), lr[40](ar), insert(yr, fr, kr), br && br.m(yr, kr), insert(yr, dr, kr), hr = !0;
     },
     p(yr, kr) {
       let Tr = cr;
       cr = mr(yr), cr === Tr ? vr[cr].p(yr, kr) : (group_outros(), transition_out(vr[Tr], 1, 1, () => {
         vr[Tr] = null;
       }), check_outros(), ur = vr[cr], ur ? ur.p(yr, kr) : (ur = vr[cr] = gr[cr](yr), ur.c()), transition_in(ur, 1), ur.m(ar, null)), (!hr || kr[0] & /*showFullText*/
-      4194304) && toggle_class(
+      8388608) && toggle_class(
         ar,
         "show-full",
         /*showFullText*/
-        yr[22]
+        yr[23]
       ), /*showReadMore*/
-      yr[28] ? br ? br.p(yr, kr) : (br = create_if_block_9(yr), br.c(), br.m(dr.parentNode, dr)) : br && (br.d(1), br = null);
+      yr[29] ? br ? br.p(yr, kr) : (br = create_if_block_9(yr), br.c(), br.m(dr.parentNode, dr)) : br && (br.d(1), br = null);
     },
     i(yr) {
       hr || (transition_in(ur), hr = !0);
@@ -73661,7 +73663,7 @@ function create_if_block_8(lr) {
       transition_out(ur), hr = !1;
     },
     d(yr) {
-      yr && (detach(ar), detach(fr), detach(dr)), vr[cr].d(), lr[39](null), br && br.d(yr);
+      yr && (detach(ar), detach(fr), detach(dr)), vr[cr].d(), lr[40](null), br && br.d(yr);
     }
   };
 }
@@ -73670,7 +73672,7 @@ function create_each_block_2(lr, ar) {
   function dr() {
     return (
       /*func_2*/
-      ar[45](
+      ar[46](
         /*file*/
         ar[73]
       )
@@ -73697,9 +73699,9 @@ function create_each_block_2(lr, ar) {
       ar = hr;
       const vr = {};
       gr[0] & /*fileArray*/
-      67108864 && (vr.file = /*file*/
+      134217728 && (vr.file = /*file*/
       ar[73].files), gr[0] & /*fileArray*/
-      67108864 && (vr.onDelete = dr), ur.$set(vr);
+      134217728 && (vr.onDelete = dr), ur.$set(vr);
     },
     i(hr) {
       fr || (transition_in(ur.$$.fragment, hr), fr = !0);
@@ -73721,7 +73723,7 @@ function create_else_block_2(lr) {
     m(ur, fr) {
       ar.m(
         /*processedContent*/
-        lr[32],
+        lr[33],
         ur,
         fr
       ), insert(ur, cr, fr);
@@ -73739,7 +73741,7 @@ function create_if_block_10(lr) {
   return ar = new ContentView({
     props: { content: (
       /*processedContent*/
-      lr[32]
+      lr[33]
     ) }
   }), {
     c() {
@@ -73763,7 +73765,7 @@ function create_if_block_10(lr) {
 function create_if_block_9(lr) {
   let ar, cr = (
     /*showFullText*/
-    lr[22] ? "Read Less" : "Read More"
+    lr[23] ? "Read Less" : "Read More"
   ), ur, fr, dr;
   return {
     c() {
@@ -73774,13 +73776,13 @@ function create_if_block_9(lr) {
         ar,
         "click",
         /*toggleFullText*/
-        lr[33]
+        lr[34]
       ), fr = !0);
     },
     p(hr, gr) {
       gr[0] & /*showFullText*/
-      4194304 && cr !== (cr = /*showFullText*/
-      hr[22] ? "Read Less" : "Read More") && set_data(ur, cr);
+      8388608 && cr !== (cr = /*showFullText*/
+      hr[23] ? "Read Less" : "Read More") && set_data(ur, cr);
     },
     d(hr) {
       hr && detach(ar), fr = !1, dr();
@@ -73878,7 +73880,7 @@ function create_default_slot_1(lr) {
         ar,
         "click",
         /*click_handler_5*/
-        lr[51]
+        lr[52]
       ), fr = !0);
     },
     p: noop$1,
@@ -73911,7 +73913,7 @@ function create_tooltip1Text_slot_1(lr) {
 function create_default_slot(lr) {
   let ar, cr, ur = (
     /*replyEvents*/
-    lr[12].length + ""
+    lr[13].length + ""
   ), fr, dr, hr;
   return {
     c() {
@@ -73922,13 +73924,13 @@ function create_default_slot(lr) {
         ar,
         "click",
         /*click_handler_6*/
-        lr[52]
+        lr[53]
       ), dr = !0);
     },
     p(gr, vr) {
       vr[0] & /*replyEvents*/
-      4096 && ur !== (ur = /*replyEvents*/
-      gr[12].length + "") && set_data(fr, ur);
+      8192 && ur !== (ur = /*replyEvents*/
+      gr[13].length + "") && set_data(fr, ur);
     },
     d(gr) {
       gr && detach(ar), dr = !1, hr();
@@ -73953,10 +73955,10 @@ function create_tooltip1Text_slot(lr) {
 function create_if_block_5$1(lr) {
   let ar, cr, ur, fr;
   function dr(vr) {
-    lr[53](vr);
+    lr[54](vr);
   }
   function hr(vr) {
-    lr[54](vr);
+    lr[55](vr);
   }
   let gr = { eventID: (
     /*event*/
@@ -73964,8 +73966,8 @@ function create_if_block_5$1(lr) {
   ) };
   return (
     /*isDeleted*/
-    lr[11] !== void 0 && (gr.isDeleted = /*isDeleted*/
-    lr[11]), /*count*/
+    lr[12] !== void 0 && (gr.isDeleted = /*isDeleted*/
+    lr[12]), /*count*/
     lr[6] !== void 0 && (gr.count = /*count*/
     lr[6]), ar = new DeleteEventData({ props: gr }), binding_callbacks.push(() => bind(ar, "isDeleted", dr)), binding_callbacks.push(() => bind(ar, "count", hr)), {
       c() {
@@ -73979,8 +73981,8 @@ function create_if_block_5$1(lr) {
         mr[0] & /*event*/
         8 && (br.eventID = /*event*/
         vr[3].id), !cr && mr[0] & /*isDeleted*/
-        2048 && (cr = !0, br.isDeleted = /*isDeleted*/
-        vr[11], add_flush_callback(() => cr = !1)), !ur && mr[0] & /*count*/
+        4096 && (cr = !0, br.isDeleted = /*isDeleted*/
+        vr[12], add_flush_callback(() => cr = !1)), !ur && mr[0] & /*count*/
         64 && (ur = !0, br.count = /*count*/
         vr[6], add_flush_callback(() => ur = !1)), ar.$set(br);
       },
@@ -74007,7 +74009,7 @@ function create_if_block_4$1(lr) {
         cr,
         "click",
         /*click_handler_7*/
-        lr[55]
+        lr[56]
       ), dr = !0);
     },
     p: noop$1,
@@ -74025,7 +74027,7 @@ function create_if_block_4$1(lr) {
 function create_if_block_3$1(lr) {
   let ar, cr, ur, fr, dr, hr = [], gr = /* @__PURE__ */ new Map(), vr, mr, br, yr, kr, Tr, _r, Er, xr, Cr, Ar, Lr, Dr;
   function Nr(Yr) {
-    lr[56](Yr);
+    lr[57](Yr);
   }
   let Hr = {};
   /*opinionContent*/
@@ -74033,7 +74035,7 @@ function create_if_block_3$1(lr) {
   lr[5]), cr = new TextArea({ props: Hr }), binding_callbacks.push(() => bind(cr, "opinionContent", Nr));
   let $r = ensure_array_like(
     /*fileArray*/
-    lr[26]
+    lr[27]
   );
   const Wr = (Yr) => (
     /*file*/
@@ -74044,16 +74046,16 @@ function create_if_block_3$1(lr) {
     gr.set(Si, hr[Yr] = create_each_block_1$1(Si, li));
   }
   function Zr(Yr) {
-    lr[59](Yr);
+    lr[60](Yr);
   }
   function oi(Yr) {
-    lr[60](Yr);
+    lr[61](Yr);
   }
   let Jr = {};
   return (
     /*fileArray*/
-    lr[26] !== void 0 && (Jr.fileArray = /*fileArray*/
-    lr[26]), /*opinionContent*/
+    lr[27] !== void 0 && (Jr.fileArray = /*fileArray*/
+    lr[27]), /*opinionContent*/
     lr[5] !== void 0 && (Jr.opinionContent = /*opinionContent*/
     lr[5]), _r = new Upload({ props: Jr }), binding_callbacks.push(() => bind(_r, "fileArray", Zr)), binding_callbacks.push(() => bind(_r, "opinionContent", oi)), {
       c() {
@@ -74061,7 +74063,7 @@ function create_if_block_3$1(lr) {
         for (let Yr = 0; Yr < hr.length; Yr += 1)
           hr[Yr].c();
         vr = space(), mr = element("div"), br = element("button"), yr = text$3("Reply"), Tr = space(), create_component(_r.$$.fragment), attr(dr, "class", "reply-file-preview svelte-cgkjwk"), attr(br, "class", "reply-button svelte-cgkjwk"), br.disabled = kr = !/*$ndkUser*/
-        lr[29], attr(mr, "class", "reply-footer svelte-cgkjwk"), attr(ar, "class", "reply-section svelte-cgkjwk");
+        lr[31], attr(mr, "class", "reply-footer svelte-cgkjwk"), attr(ar, "class", "reply-section svelte-cgkjwk");
       },
       m(Yr, li) {
         insert(Yr, ar, li), mount_component(cr, ar, null), append(ar, fr), append(ar, dr);
@@ -74071,7 +74073,7 @@ function create_if_block_3$1(lr) {
           br,
           "click",
           /*click_handler_8*/
-          lr[58]
+          lr[59]
         ), Lr = !0);
       },
       p(Yr, li) {
@@ -74079,17 +74081,17 @@ function create_if_block_3$1(lr) {
         !ur && li[0] & /*opinionContent*/
         32 && (ur = !0, Si.opinionContent = /*opinionContent*/
         Yr[5], add_flush_callback(() => ur = !1)), cr.$set(Si), li[0] & /*fileArray*/
-        67108864 | li[1] & /*deleteFile*/
-        64 && ($r = ensure_array_like(
+        134217728 | li[1] & /*deleteFile*/
+        128 && ($r = ensure_array_like(
           /*fileArray*/
-          Yr[26]
-        ), group_outros(), hr = update_keyed_each(hr, li, Wr, 1, Yr, $r, gr, dr, outro_and_destroy_block, create_each_block_1$1, null, get_each_context_1$1), check_outros()), (!Ar || li[0] & /*$ndkUser*/
-        536870912 && kr !== (kr = !/*$ndkUser*/
-        Yr[29])) && (br.disabled = kr);
+          Yr[27]
+        ), group_outros(), hr = update_keyed_each(hr, li, Wr, 1, Yr, $r, gr, dr, outro_and_destroy_block, create_each_block_1$1, null, get_each_context_1$1), check_outros()), (!Ar || li[1] & /*$ndkUser*/
+        1 && kr !== (kr = !/*$ndkUser*/
+        Yr[31])) && (br.disabled = kr);
         const ci = {};
         !Er && li[0] & /*fileArray*/
-        67108864 && (Er = !0, ci.fileArray = /*fileArray*/
-        Yr[26], add_flush_callback(() => Er = !1)), !xr && li[0] & /*opinionContent*/
+        134217728 && (Er = !0, ci.fileArray = /*fileArray*/
+        Yr[27], add_flush_callback(() => Er = !1)), !xr && li[0] & /*opinionContent*/
         32 && (xr = !0, ci.opinionContent = /*opinionContent*/
         Yr[5], add_flush_callback(() => xr = !1)), _r.$set(ci);
       },
@@ -74123,7 +74125,7 @@ function create_each_block_1$1(lr, ar) {
   function dr() {
     return (
       /*func_3*/
-      ar[57](
+      ar[58](
         /*file*/
         ar[73]
       )
@@ -74150,9 +74152,9 @@ function create_each_block_1$1(lr, ar) {
       ar = hr;
       const vr = {};
       gr[0] & /*fileArray*/
-      67108864 && (vr.file = /*file*/
+      134217728 && (vr.file = /*file*/
       ar[73].files), gr[0] & /*fileArray*/
-      67108864 && (vr.onDelete = dr), ur.$set(vr);
+      134217728 && (vr.onDelete = dr), ur.$set(vr);
     },
     i(hr) {
       fr || (transition_in(ur.$$.fragment, hr), fr = !0);
@@ -74168,7 +74170,7 @@ function create_each_block_1$1(lr, ar) {
 function create_if_block_2$1(lr) {
   let ar = [], cr = /* @__PURE__ */ new Map(), ur, fr, dr = ensure_array_like(
     /*replyEvents*/
-    lr[12]
+    lr[13]
   );
   const hr = (gr) => (
     /*event*/
@@ -74190,10 +74192,10 @@ function create_if_block_2$1(lr) {
       insert(gr, ur, vr), fr = !0;
     },
     p(gr, vr) {
-      vr[0] & /*replyEvents, profiles, editLvl, subject, sentimentCount, opinionContent, newOpinion*/
-      4663 && (dr = ensure_array_like(
+      vr[0] & /*replyEvents, profiles, editLvl, subject, ATag, sentimentCount, opinionContent, newOpinion*/
+      9527 && (dr = ensure_array_like(
         /*replyEvents*/
-        gr[12]
+        gr[13]
       ), group_outros(), ar = update_keyed_each(ar, vr, hr, 1, gr, dr, cr, ur.parentNode, outro_and_destroy_block, create_each_block$1, ur, get_each_context$1), check_outros());
     },
     i(gr) {
@@ -74218,16 +74220,16 @@ function create_if_block_2$1(lr) {
 function create_each_block$1(lr, ar) {
   let cr, ur, fr, dr, hr, gr, vr;
   function mr(_r) {
-    ar[61](_r);
-  }
-  function br(_r) {
     ar[62](_r);
   }
-  function yr(_r) {
+  function br(_r) {
     ar[63](_r);
   }
-  function kr(_r) {
+  function yr(_r) {
     ar[64](_r);
+  }
+  function kr(_r) {
+    ar[65](_r);
   }
   let Tr = {
     event: (
@@ -74244,7 +74246,11 @@ function create_each_block$1(lr, ar) {
     ),
     subject: (
       /*subject*/
-      ar[9]
+      ar[10]
+    ),
+    ATag: (
+      /*ATag*/
+      ar[8]
     )
   };
   return (
@@ -74255,8 +74261,8 @@ function create_each_block$1(lr, ar) {
     ar[5]), /*newOpinion*/
     ar[0] !== void 0 && (Tr.newOpinion = /*newOpinion*/
     ar[0]), /*replyEvents*/
-    ar[12].length !== void 0 && (Tr.count = /*replyEvents*/
-    ar[12].length), ur = new OpinionCard({ props: Tr }), binding_callbacks.push(() => bind(ur, "sentimentCount", mr)), binding_callbacks.push(() => bind(ur, "opinionContent", br)), binding_callbacks.push(() => bind(ur, "newOpinion", yr)), binding_callbacks.push(() => bind(ur, "count", kr)), {
+    ar[13].length !== void 0 && (Tr.count = /*replyEvents*/
+    ar[13].length), ur = new OpinionCard({ props: Tr }), binding_callbacks.push(() => bind(ur, "sentimentCount", mr)), binding_callbacks.push(() => bind(ur, "opinionContent", br)), binding_callbacks.push(() => bind(ur, "newOpinion", yr)), binding_callbacks.push(() => bind(ur, "count", kr)), {
       key: lr,
       first: null,
       c() {
@@ -74269,22 +74275,24 @@ function create_each_block$1(lr, ar) {
         ar = _r;
         const xr = {};
         Er[0] & /*replyEvents*/
-        4096 && (xr.event = /*event*/
+        8192 && (xr.event = /*event*/
         ar[3]), Er[0] & /*profiles*/
         16 && (xr.profiles = /*profiles*/
         ar[4]), Er[0] & /*editLvl*/
         4 && (xr.editLvl = /*editLvl*/
         ar[2]), Er[0] & /*subject*/
-        512 && (xr.subject = /*subject*/
-        ar[9]), !fr && Er[0] & /*sentimentCount*/
+        1024 && (xr.subject = /*subject*/
+        ar[10]), Er[0] & /*ATag*/
+        256 && (xr.ATag = /*ATag*/
+        ar[8]), !fr && Er[0] & /*sentimentCount*/
         2 && (fr = !0, xr.sentimentCount = /*sentimentCount*/
         ar[1], add_flush_callback(() => fr = !1)), !dr && Er[0] & /*opinionContent*/
         32 && (dr = !0, xr.opinionContent = /*opinionContent*/
         ar[5], add_flush_callback(() => dr = !1)), !hr && Er[0] & /*newOpinion*/
         1 && (hr = !0, xr.newOpinion = /*newOpinion*/
         ar[0], add_flush_callback(() => hr = !1)), !gr && Er[0] & /*replyEvents*/
-        4096 && (gr = !0, xr.count = /*replyEvents*/
-        ar[12].length, add_flush_callback(() => gr = !1)), ur.$set(xr);
+        8192 && (gr = !0, xr.count = /*replyEvents*/
+        ar[13].length, add_flush_callback(() => gr = !1)), ur.$set(xr);
       },
       i(_r) {
         vr || (transition_in(ur.$$.fragment, _r), vr = !0);
@@ -74300,7 +74308,7 @@ function create_each_block$1(lr, ar) {
 }
 function create_fragment$2(lr) {
   let ar, cr, ur = !/*isDeleted*/
-  lr[11] && create_if_block$1(lr);
+  lr[12] && create_if_block$1(lr);
   return {
     c() {
       ur && ur.c(), ar = empty$1();
@@ -74310,10 +74318,10 @@ function create_fragment$2(lr) {
     },
     p(fr, dr) {
       /*isDeleted*/
-      fr[11] ? ur && (group_outros(), transition_out(ur, 1, 1, () => {
+      fr[12] ? ur && (group_outros(), transition_out(ur, 1, 1, () => {
         ur = null;
       }), check_outros()) : ur ? (ur.p(fr, dr), dr[0] & /*isDeleted*/
-      2048 && transition_in(ur, 1)) : (ur = create_if_block$1(fr), ur.c(), transition_in(ur, 1), ur.m(ar.parentNode, ar));
+      4096 && transition_in(ur, 1)) : (ur = create_if_block$1(fr), ur.c(), transition_in(ur, 1), ur.m(ar.parentNode, ar));
     },
     i(fr) {
       cr || (transition_in(ur), cr = !0);
@@ -74330,157 +74338,170 @@ let contentHeight = 300;
 const func = (lr) => lr[0] === "sentiment", func_1 = (lr) => lr[0] === "sentiment";
 function instance$2(lr, ar, cr) {
   let ur, fr, dr, hr;
-  component_subscribe(lr, ndkStore, (Yi) => cr(68, ur = Yi)), component_subscribe(lr, ndkUser, (Yi) => cr(29, fr = Yi)), component_subscribe(lr, localStore, (Yi) => cr(30, dr = Yi)), component_subscribe(lr, theme, (Yi) => cr(31, hr = Yi));
+  component_subscribe(lr, ndkStore, (Yi) => cr(68, ur = Yi)), component_subscribe(lr, localStore, (Yi) => cr(30, fr = Yi)), component_subscribe(lr, ndkUser, (Yi) => cr(31, dr = Yi)), component_subscribe(lr, theme, (Yi) => cr(32, hr = Yi));
   let { event: gr } = ar, { profiles: vr } = ar, { submit: mr = () => {
   } } = ar, { opinionContent: br } = ar, { newOpinion: yr } = ar, { sentimentCount: kr } = ar, { editLvl: Tr } = ar, { subject: _r } = ar, { count: Er } = ar, { deletedEventsArray: xr = [] } = ar, { isMine: Cr = !1 } = ar, { trustedAuthors: Ar = [] } = ar;
   br = br.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "");
-  let Lr = [], Dr = [], Nr, Hr = 0, $r = 0, Wr = !1, Zr = !1, oi = !1, Jr = !0, Yr = !1, li = !1, Si = !1, ci = gr.id, hi = "", Ei, di, gi = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), Li = !1, ui = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""), wi = ui, Ui = [], yi, Vi = !1;
+  let Lr = [], Dr = [], Nr, Hr = 0, $r = 0, Wr = !1, Zr = !1, oi = !1, Jr = !0, Yr = !1, li = !1, Si = !1, { ATag: ci = "" } = ar, hi = "", Ei, di, gi = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), Li = !1, ui = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""), wi = ui, Ui = [], yi, Vi = !1;
   Tr === 0 && (ci = kindOpinion + ":" + gr.pubkey + ":" + _r);
   function Oi() {
-    cr(22, Si = !Si), cr(28, Vi = !Vi);
+    cr(23, Si = !Si), cr(29, Vi = !Vi);
   }
   function Mi(Yi) {
     cr(0, yr = { ...yr, sentiment: Yi });
   }
   async function Ii(Yi) {
-    const Zi = dr.pk;
-    if (Zi ? !ur.signer && await privkeyLogin(Zi) : !ur.signer && await NDKlogin(), !fr)
+    const Wi = fr.pk;
+    if (Wi ? !ur.signer && await privkeyLogin(Wi) : !ur.signer && await NDKlogin(), !dr)
       return;
-    let ka = Dr.findIndex((Ji) => Ji.pubkey === fr.pubkey);
-    ka != -1 && Dr[ka].content === Yi && (Yi = "");
+    let ma = Dr.findIndex((Ji) => Ji.pubkey === dr.pubkey);
+    ma != -1 && Dr[ma].content === Yi && (Yi = "");
     const zi = new NDKEvent(ur);
-    zi.kind = NDKKind.Reaction, zi.content = Yi, zi.tags = [["a", ci], ["p", fr.pubkey]], await zi.publish(NDKRelaySet.fromRelayUrls(gi.write, ur)), ka = Dr.findIndex((Ji) => Ji.pubkey === fr.pubkey), ka != -1 ? Dr[ka] = {
-      pubkey: fr.pubkey,
+    zi.kind = NDKKind.Reaction, zi.content = Yi, Tr == 1 ? zi.tags = [["a", ci], ["p", gr.pubkey], ["e", gr.id, "", "root"]] : zi.tags = [["e", gr.id, "", "reply"], ["p", gr.pubkey], ["a", ci]], await zi.publish(NDKRelaySet.fromRelayUrls(gi.write, ur)), ma = Dr.findIndex((Ji) => Ji.pubkey === dr.pubkey), ma != -1 ? Dr[ma] = {
+      pubkey: dr.pubkey,
       content: Yi,
       timestamp: Date.now()
     } : Dr.push({
-      pubkey: fr.pubkey,
+      pubkey: dr.pubkey,
       content: Yi,
       timestamp: Date.now()
-    }), cr(14, Hr = Dr.filter((Ji) => Ji.content === "+").length), cr(15, $r = Dr.filter((Ji) => Ji.content === "-").length), Yi === "+" ? (cr(20, Yr = !0), cr(21, li = !1)) : Yi === "-" ? (cr(20, Yr = !1), cr(21, li = !0)) : (cr(20, Yr = !1), cr(21, li = !1));
+    }), cr(15, Hr = Dr.filter((Ji) => Ji.content === "+").length), cr(16, $r = Dr.filter((Ji) => Ji.content === "-").length), Yi === "+" ? (cr(21, Yr = !0), cr(22, li = !1)) : Yi === "-" ? (cr(21, Yr = !1), cr(22, li = !0)) : (cr(21, Yr = !1), cr(22, li = !1));
   }
   (async () => {
     var Va;
-    cr(3, gr.content = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""), gr), cr(13, Nr = (await Promise.resolve().then(() => main)).expertOpinions), cr(2, Tr += 1), cr(23, hi = calculateRelativeTime(gr.created_at)), cr(19, Jr = !1);
-    let Yi = { kinds: [kindNotes], "#a": [ci] };
-    (await ur.fetchEvents(Yi, { closeOnEose: !1 })).forEach(async (Ca) => {
-      cr(12, Lr = [...Lr, { ...Ca }]);
-      const ja = await fetchUserProfile(Ca.pubkey);
-      ja.image || (ja.image = profileImageUrl + Ca.pubkey), ja.pubkey || (ja.pubkey = Ca.pubkey), cr(4, vr[Ca.pubkey] = { content: ja }, vr), cr(4, vr = { ...vr });
+    cr(3, gr.content = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""), gr), cr(14, Nr = (await Promise.resolve().then(() => main)).expertOpinions), cr(2, Tr += 1), cr(24, hi = calculateRelativeTime(gr.created_at)), cr(20, Jr = !1);
+    let Yi = {
+      kinds: [kindNotes],
+      "#a": [ci],
+      "#e": [gr.id]
+    };
+    (await ur.fetchEvents(Yi, { closeOnEose: !1 })).forEach(async (xa) => {
+      if (xa.tags.length > 3 && Tr === 1)
+        return;
+      cr(13, Lr = [...Lr, { ...xa }]);
+      const ja = await fetchUserProfile(xa.pubkey);
+      ja.image || (ja.image = profileImageUrl + xa.pubkey), ja.pubkey || (ja.pubkey = xa.pubkey), cr(4, vr[xa.pubkey] = { content: ja }, vr), cr(4, vr = { ...vr });
     });
-    let ka = 0;
-    Yi = { kinds: [kindReaction], "#a": [ci] }, (await ur.fetchEvents(Yi, { closeOnEose: !1 })).forEach((Ca) => {
-      let ja = Dr.findIndex((ao) => ao.pubkey === Ca.pubkey);
-      Ca.created_at && (ja != -1 ? Dr[ja].timestamp < Ca.created_at && (Dr[ja] = {
-        pubkey: Ca.pubkey,
-        content: Ca.content,
-        timestamp: Ca.created_at
+    let ma = 0;
+    Yi = {
+      kinds: [kindReaction],
+      "#a": [ci],
+      "#e": [gr.id],
+      "#p": [gr.pubkey]
+    }, (await ur.fetchEvents(Yi, { closeOnEose: !1 })).forEach((xa) => {
+      let ja = Dr.findIndex((ao) => ao.pubkey === xa.pubkey);
+      xa.created_at && (ja != -1 ? Dr[ja].timestamp < xa.created_at && (Dr[ja] = {
+        pubkey: xa.pubkey,
+        content: xa.content,
+        timestamp: xa.created_at
       }) : Dr.push({
-        pubkey: Ca.pubkey,
-        content: Ca.content,
-        timestamp: Ca.created_at
-      }), cr(14, Hr = Dr.filter((ao) => ao.content === "+").length), cr(15, $r = Dr.filter((ao) => ao.content === "-").length), fr != null && fr.pubkey && Ca.pubkey === fr.pubkey && ka < Ca.created_at && (ka = Ca.created_at, Ca.content === "+" ? (cr(20, Yr = !0), cr(21, li = !1)) : Ca.content === "-" ? (cr(20, Yr = !1), cr(21, li = !0)) : (cr(20, Yr = !1), cr(21, li = !1))));
+        pubkey: xa.pubkey,
+        content: xa.content,
+        timestamp: xa.created_at
+      }), cr(15, Hr = Dr.filter((ao) => ao.content === "+").length), cr(16, $r = Dr.filter((ao) => ao.content === "-").length), dr != null && dr.pubkey && xa.pubkey === dr.pubkey && ma < xa.created_at && (ma = xa.created_at, xa.content === "+" ? (cr(21, Yr = !0), cr(22, li = !1)) : xa.content === "-" ? (cr(21, Yr = !1), cr(22, li = !0)) : (cr(21, Yr = !1), cr(22, li = !1))));
     });
     let Ji = await ur.fetchEvent({ kinds: [10002], authors: [gr.pubkey] }, { closeOnEose: !0 });
-    Ji && Ji.getMatchingTags("r").map((Ca) => {
-      Ca.length === 3 ? Ca[2] === "write" && !gi.write.includes(Ca[1]) ? gi.write.push(Ca[1]) : Ca[2] === "read" && !gi.read.includes(Ca[1]) && gi.read.push(Ca[1]) : Ca.length === 2 && (gi.write.includes(Ca[1]) || gi.write.push(Ca[1]), gi.read.includes(Ca[1]) || gi.read.push(Ca[1]));
+    Ji && Ji.getMatchingTags("r").map((xa) => {
+      xa.length === 3 ? xa[2] === "write" && !gi.write.includes(xa[1]) ? gi.write.push(xa[1]) : xa[2] === "read" && !gi.read.includes(xa[1]) && gi.read.push(xa[1]) : xa.length === 2 && (gi.write.includes(xa[1]) || gi.write.push(xa[1]), gi.read.includes(xa[1]) || gi.read.push(xa[1]));
     });
-    const za = (Va = gr.tags.filter((Ca) => Ca[0] === "published_at")[0]) == null ? void 0 : Va[1];
-    za && cr(24, Ei = parseInt(za)), cr(25, di = gr.created_at);
+    const za = (Va = gr.tags.filter((xa) => xa[0] === "published_at")[0]) == null ? void 0 : Va[1];
+    za && cr(25, Ei = parseInt(za)), cr(26, di = gr.created_at);
   })();
   const _i = async () => {
-    if (!fr) {
+    if (!dr) {
       console.error("Can't submit reply. $ndkUser is undefined");
       return;
     }
-    const Yi = dr.pk;
+    const Yi = fr.pk;
     if (Yi ? !ur.signer && await privkeyLogin(Yi) : !ur.signer && await NDKlogin(), br === "" || !br)
       return;
-    const Zi = new NDKEvent(ur);
-    Zi.kind = NDKKind.Text, Zi.content = br, Zi.tags = [["a", ci], ["p", fr.pubkey]], await Zi.publish(NDKRelaySet.fromRelayUrls(gi.write, ur)), cr(12, Lr = [...Lr, { ...Zi }]), cr(5, br = "");
+    const Wi = new NDKEvent(ur);
+    Wi.kind = NDKKind.Text, Wi.content = br, Tr == 1 ? Wi.tags = [["a", ci], ["p", gr.pubkey], ["e", gr.id, "", "root"]] : (Wi.tags = [["e", gr.id, "", "reply"], ["p", gr.pubkey]], gr.tags.map((ma) => {
+      ma[0] === "a" ? Wi.tags.push(ma) : ma[0] === "p" ? Wi.tags.toString().includes(ma.toString()) || Wi.tags.push(ma) : ma[0] === "e" && ma[3] === "root" && Wi.tags.push(ma);
+    })), await Wi.publish(NDKRelaySet.fromRelayUrls(gi.write, ur)), cr(13, Lr = [...Lr, { ...Wi }]), cr(5, br = "");
   };
   function Ci(Yi) {
-    const Zi = Ui.filter((ka) => ka === Yi)[0].url;
-    cr(5, br = br.replace(Zi, "")), cr(26, Ui = Ui.filter((ka) => ka !== Yi));
+    const Wi = Ui.filter((ma) => ma === Yi)[0].url;
+    cr(5, br = br.replace(Wi, "")), cr(27, Ui = Ui.filter((ma) => ma !== Yi));
   }
   afterUpdate(() => {
     if (yi) {
       const Yi = yi.offsetHeight;
-      cr(28, Vi = Yi > contentHeight);
+      cr(29, Vi = Yi > contentHeight);
     }
   });
   function Ki(Yi) {
     binding_callbacks[Yi ? "unshift" : "push"](() => {
-      yi = Yi, cr(27, yi);
+      yi = Yi, cr(28, yi);
     });
   }
   function Ni(Yi) {
-    Ui = Yi, cr(26, Ui);
+    Ui = Yi, cr(27, Ui);
   }
   function ia(Yi) {
-    br = Yi, cr(5, br), cr(11, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(38, xr), cr(3, gr);
+    br = Yi, cr(5, br), cr(12, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
-  const ea = () => Mi("1"), la = () => Mi("0"), ma = () => Mi("-1"), Ba = (Yi) => Ci(Yi);
+  const ea = () => Mi("1"), la = () => Mi("0"), ba = () => Mi("-1"), Ba = (Yi) => Ci(Yi);
   function Fa(Yi) {
-    Ui = Yi, cr(26, Ui);
+    Ui = Yi, cr(27, Ui);
   }
   function Ia(Yi) {
-    br = Yi, cr(5, br), cr(11, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(38, xr), cr(3, gr);
+    br = Yi, cr(5, br), cr(12, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
   const Hi = () => mr((Ei || Math.floor((/* @__PURE__ */ new Date()).getTime() / 1e3)).toString()), oa = () => Ii("+"), Gi = () => Ii("-"), ha = () => {
-    dr.lastUserLogged && (cr(17, Zr = !Zr), cr(16, Wr = !1), cr(5, br = ""), cr(18, oi = !1));
+    fr.lastUserLogged && (cr(18, Zr = !Zr), cr(17, Wr = !1), cr(5, br = ""), cr(19, oi = !1));
   }, Ua = () => {
-    cr(18, oi = !oi);
+    cr(19, oi = !oi);
   };
   function eo(Yi) {
-    Li = Yi, cr(11, Li);
+    Li = Yi, cr(12, Li);
   }
   function ua(Yi) {
     Er = Yi, cr(6, Er);
   }
   const va = () => {
-    cr(16, Wr = !Wr), cr(5, br = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")), cr(0, yr = {
+    cr(17, Wr = !Wr), cr(5, br = gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")), cr(0, yr = {
       content: br,
       sentiment: gr.tagValue("sentiment") || "0"
-    }), cr(17, Zr = !1), cr(18, oi = !1);
+    }), cr(18, Zr = !1), cr(19, oi = !1);
   };
   function Ta(Yi) {
-    br = Yi, cr(5, br), cr(11, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(38, xr), cr(3, gr);
+    br = Yi, cr(5, br), cr(12, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
   const Aa = (Yi) => Ci(Yi), Oa = () => {
-    _i(), cr(17, Zr = !1), cr(18, oi = !1);
+    _i(), cr(18, Zr = !1), cr(19, oi = !1);
   };
   function Xa(Yi) {
-    Ui = Yi, cr(26, Ui);
+    Ui = Yi, cr(27, Ui);
   }
   function Ka(Yi) {
-    br = Yi, cr(5, br), cr(11, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(38, xr), cr(3, gr);
+    br = Yi, cr(5, br), cr(12, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
   function Pa(Yi) {
-    kr = Yi, cr(1, kr), cr(11, Li), cr(2, Tr), cr(0, yr), cr(38, xr), cr(3, gr);
+    kr = Yi, cr(1, kr), cr(12, Li), cr(2, Tr), cr(0, yr), cr(39, xr), cr(3, gr);
   }
   function Da(Yi) {
-    br = Yi, cr(5, br), cr(11, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(38, xr), cr(3, gr);
+    br = Yi, cr(5, br), cr(12, Li), cr(2, Tr), cr(0, yr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
   function Ha(Yi) {
-    yr = Yi, cr(0, yr), cr(11, Li), cr(2, Tr), cr(1, kr), cr(38, xr), cr(3, gr);
+    yr = Yi, cr(0, yr), cr(12, Li), cr(2, Tr), cr(1, kr), cr(39, xr), cr(3, gr);
   }
   function $a(Yi) {
-    lr.$$.not_equal(Lr.length, Yi) && (Lr.length = Yi, cr(12, Lr));
+    lr.$$.not_equal(Lr.length, Yi) && (Lr.length = Yi, cr(13, Lr));
   }
   return lr.$$set = (Yi) => {
-    "event" in Yi && cr(3, gr = Yi.event), "profiles" in Yi && cr(4, vr = Yi.profiles), "submit" in Yi && cr(8, mr = Yi.submit), "opinionContent" in Yi && cr(5, br = Yi.opinionContent), "newOpinion" in Yi && cr(0, yr = Yi.newOpinion), "sentimentCount" in Yi && cr(1, kr = Yi.sentimentCount), "editLvl" in Yi && cr(2, Tr = Yi.editLvl), "subject" in Yi && cr(9, _r = Yi.subject), "count" in Yi && cr(6, Er = Yi.count), "deletedEventsArray" in Yi && cr(38, xr = Yi.deletedEventsArray), "isMine" in Yi && cr(7, Cr = Yi.isMine), "trustedAuthors" in Yi && cr(10, Ar = Yi.trustedAuthors);
+    "event" in Yi && cr(3, gr = Yi.event), "profiles" in Yi && cr(4, vr = Yi.profiles), "submit" in Yi && cr(9, mr = Yi.submit), "opinionContent" in Yi && cr(5, br = Yi.opinionContent), "newOpinion" in Yi && cr(0, yr = Yi.newOpinion), "sentimentCount" in Yi && cr(1, kr = Yi.sentimentCount), "editLvl" in Yi && cr(2, Tr = Yi.editLvl), "subject" in Yi && cr(10, _r = Yi.subject), "count" in Yi && cr(6, Er = Yi.count), "deletedEventsArray" in Yi && cr(39, xr = Yi.deletedEventsArray), "isMine" in Yi && cr(7, Cr = Yi.isMine), "trustedAuthors" in Yi && cr(11, Ar = Yi.trustedAuthors), "ATag" in Yi && cr(8, ci = Yi.ATag);
   }, lr.$$.update = () => {
     if (lr.$$.dirty[0] & /*editLvl, event*/
     12 && (ui = Tr > 1 ? gr.content : purify.sanitize(gr.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, ""))), lr.$$.dirty[0] & /*isDeleted, editLvl, newOpinion, sentimentCount, event*/
-    2063 | lr.$$.dirty[1] & /*deletedEventsArray*/
-    128 && Li) {
+    4111 | lr.$$.dirty[1] & /*deletedEventsArray*/
+    256 && Li) {
       if (Tr == 1) {
         cr(7, Cr = !1);
-        let Yi = yr.sentiment, Zi = kr[Yi] - 1;
-        Yi === "1" ? cr(1, kr = { ...kr, 1: Zi }) : Yi === "0" ? cr(1, kr = { ...kr, 0: Zi }) : cr(1, kr = { ...kr, "-1": Zi }), cr(0, yr = { content: "", sentiment: "0" }), cr(5, br = "");
+        let Yi = yr.sentiment, Wi = kr[Yi] - 1;
+        Yi === "1" ? cr(1, kr = { ...kr, 1: Wi }) : Yi === "0" ? cr(1, kr = { ...kr, 0: Wi }) : cr(1, kr = { ...kr, "-1": Wi }), cr(0, yr = { content: "", sentiment: "0" }), cr(5, br = "");
       }
-      cr(38, xr = [...xr, gr]);
+      cr(39, xr = [...xr, gr]);
     }
   }, [
     yr,
@@ -74491,6 +74512,7 @@ function instance$2(lr, ar, cr) {
     br,
     Er,
     Cr,
+    ci,
     mr,
     _r,
     Ar,
@@ -74527,7 +74549,7 @@ function instance$2(lr, ar, cr) {
     ia,
     ea,
     la,
-    ma,
+    ba,
     Ba,
     Fa,
     Ia,
@@ -74561,16 +74583,17 @@ class OpinionCard extends SvelteComponent {
       {
         event: 3,
         profiles: 4,
-        submit: 8,
+        submit: 9,
         opinionContent: 5,
         newOpinion: 0,
         sentimentCount: 1,
         editLvl: 2,
-        subject: 9,
+        subject: 10,
         count: 6,
-        deletedEventsArray: 38,
+        deletedEventsArray: 39,
         isMine: 7,
-        trustedAuthors: 10
+        trustedAuthors: 11,
+        ATag: 8
       },
       add_css$2,
       [-1, -1, -1]
@@ -74589,7 +74612,7 @@ class OpinionCard extends SvelteComponent {
     this.$$set({ profiles: ar }), flush();
   }
   get submit() {
-    return this.$$.ctx[8];
+    return this.$$.ctx[9];
   }
   set submit(ar) {
     this.$$set({ submit: ar }), flush();
@@ -74619,7 +74642,7 @@ class OpinionCard extends SvelteComponent {
     this.$$set({ editLvl: ar }), flush();
   }
   get subject() {
-    return this.$$.ctx[9];
+    return this.$$.ctx[10];
   }
   set subject(ar) {
     this.$$set({ subject: ar }), flush();
@@ -74631,7 +74654,7 @@ class OpinionCard extends SvelteComponent {
     this.$$set({ count: ar }), flush();
   }
   get deletedEventsArray() {
-    return this.$$.ctx[38];
+    return this.$$.ctx[39];
   }
   set deletedEventsArray(ar) {
     this.$$set({ deletedEventsArray: ar }), flush();
@@ -74643,13 +74666,19 @@ class OpinionCard extends SvelteComponent {
     this.$$set({ isMine: ar }), flush();
   }
   get trustedAuthors() {
-    return this.$$.ctx[10];
+    return this.$$.ctx[11];
   }
   set trustedAuthors(ar) {
     this.$$set({ trustedAuthors: ar }), flush();
   }
+  get ATag() {
+    return this.$$.ctx[8];
+  }
+  set ATag(ar) {
+    this.$$set({ ATag: ar }), flush();
+  }
 }
-create_custom_element(OpinionCard, { event: {}, profiles: {}, submit: {}, opinionContent: {}, newOpinion: {}, sentimentCount: {}, editLvl: {}, subject: {}, count: {}, deletedEventsArray: {}, isMine: { type: "Boolean" }, trustedAuthors: {} }, [], [], !0);
+create_custom_element(OpinionCard, { event: {}, profiles: {}, submit: {}, opinionContent: {}, newOpinion: {}, sentimentCount: {}, editLvl: {}, subject: {}, count: {}, deletedEventsArray: {}, isMine: { type: "Boolean" }, trustedAuthors: {}, ATag: {} }, [], [], !0);
 function add_css$1(lr) {
   append_styles(lr, "svelte-1xvuwjl", ".modal-overlay.svelte-1xvuwjl{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0, 0, 0, 0.5);display:flex;justify-content:center;align-items:center;z-index:2}.modal.svelte-1xvuwjl{background-color:var(--neutral-6, white);color:var(--neutral-0, black);border:1px solid var(--neutral-7);padding:20px;border-radius:5px;display:flex;flex-direction:column;gap:10px}.primary-btn.svelte-1xvuwjl{color:#ffffff;background-color:#3e8b0a;padding:7px 20px;border-radius:3px;cursor:pointer;border:none;height:2.5rem}");
 }
@@ -74797,7 +74826,7 @@ function create_else_block(lr) {
   ), $r, Wr, Zr, oi, Jr, Yr, li = (
     /*sentimentCount*/
     lr[11][-1] + ""
-  ), Si, ci, hi, Ei, di, gi, Li, ui, wi, Ui, yi = [], Vi = /* @__PURE__ */ new Map(), Oi, Mi, Ii, mi = /*isMine*/ lr[16] ? "Edit" : "Add", _i, Ci, Ki, Ni, ia, ea, la, ma = (
+  ), Si, ci, hi, Ei, di, gi, Li, ui, wi, Ui, yi = [], Vi = /* @__PURE__ */ new Map(), Oi, Mi, Ii, mi = /*isMine*/ lr[16] ? "Edit" : "Add", _i, Ci, Ki, Ni, ia, ea, la, ba = (
     /*filteredEventLength*/
     lr[18] < 1 && /*allEventLength*/
     lr[17] >= 1 && /*filter*/
@@ -74822,7 +74851,7 @@ function create_else_block(lr) {
   );
   return {
     c() {
-      ar = element("h1"), ur = text$3(cr), fr = space(), dr = element("p"), gr = text$3(hr), vr = space(), ma && ma.c(), mr = space(), br = element("nav"), yr = element("div"), kr = element("span"), create_component(Tr.$$.fragment), _r = space(), xr = text$3(Er), Cr = text$3(" positive"), Ar = space(), Lr = element("span"), create_component(Dr.$$.fragment), Nr = space(), $r = text$3(Hr), Wr = text$3(" neutral"), Zr = space(), oi = element("span"), create_component(Jr.$$.fragment), Yr = space(), Si = text$3(li), ci = text$3(" negative"), hi = space(), Ei = element("div"), di = element("button"), di.textContent = "Approved", gi = space(), Li = element("button"), Li.textContent = "All opinions", wi = space(), Ui = element("div");
+      ar = element("h1"), ur = text$3(cr), fr = space(), dr = element("p"), gr = text$3(hr), vr = space(), ba && ba.c(), mr = space(), br = element("nav"), yr = element("div"), kr = element("span"), create_component(Tr.$$.fragment), _r = space(), xr = text$3(Er), Cr = text$3(" positive"), Ar = space(), Lr = element("span"), create_component(Dr.$$.fragment), Nr = space(), $r = text$3(Hr), Wr = text$3(" neutral"), Zr = space(), oi = element("span"), create_component(Jr.$$.fragment), Yr = space(), Si = text$3(li), ci = text$3(" negative"), hi = space(), Ei = element("div"), di = element("button"), di.textContent = "Approved", gi = space(), Li = element("button"), Li.textContent = "All opinions", wi = space(), Ui = element("div");
       for (let Hi = 0; Hi < yi.length; Hi += 1)
         yi[Hi].c();
       Mi = space(), Ii = element("button"), _i = text$3(mi), Ci = text$3(" your opinion"), Ki = space(), Ia && Ia.c(), Ni = empty$1(), attr(ar, "class", "expertOpinionsHeadline svelte-1q3tlz7"), attr(dr, "class", "description svelte-1q3tlz7"), attr(kr, "class", "nav-count svelte-1q3tlz7"), attr(Lr, "class", "nav-count svelte-1q3tlz7"), attr(oi, "class", "nav-count svelte-1q3tlz7"), attr(yr, "class", "count-container svelte-1q3tlz7"), attr(di, "class", "blank-btn filter-btn svelte-1q3tlz7"), attr(di, "aria-label", "filter by approved"), toggle_class(
@@ -74838,7 +74867,7 @@ function create_else_block(lr) {
       ), attr(Ei, "class", "filter-container svelte-1q3tlz7"), attr(br, "class", "top-nav svelte-1q3tlz7"), attr(Ui, "class", "opinion-container svelte-1q3tlz7"), attr(Ii, "class", "primary-btn svelte-1q3tlz7");
     },
     m(Hi, oa) {
-      insert(Hi, ar, oa), append(ar, ur), insert(Hi, fr, oa), insert(Hi, dr, oa), append(dr, gr), insert(Hi, vr, oa), ma && ma.m(Hi, oa), insert(Hi, mr, oa), insert(Hi, br, oa), append(br, yr), append(yr, kr), mount_component(Tr, kr, null), append(kr, _r), append(kr, xr), append(kr, Cr), append(yr, Ar), append(yr, Lr), mount_component(Dr, Lr, null), append(Lr, Nr), append(Lr, $r), append(Lr, Wr), append(yr, Zr), append(yr, oi), mount_component(Jr, oi, null), append(oi, Yr), append(oi, Si), append(oi, ci), append(br, hi), append(br, Ei), append(Ei, di), append(Ei, gi), append(Ei, Li), insert(Hi, wi, oa), insert(Hi, Ui, oa);
+      insert(Hi, ar, oa), append(ar, ur), insert(Hi, fr, oa), insert(Hi, dr, oa), append(dr, gr), insert(Hi, vr, oa), ba && ba.m(Hi, oa), insert(Hi, mr, oa), insert(Hi, br, oa), append(br, yr), append(yr, kr), mount_component(Tr, kr, null), append(kr, _r), append(kr, xr), append(kr, Cr), append(yr, Ar), append(yr, Lr), mount_component(Dr, Lr, null), append(Lr, Nr), append(Lr, $r), append(Lr, Wr), append(yr, Zr), append(yr, oi), mount_component(Jr, oi, null), append(oi, Yr), append(oi, Si), append(oi, ci), append(br, hi), append(br, Ei), append(Ei, di), append(Ei, gi), append(Ei, Li), insert(Hi, wi, oa), insert(Hi, Ui, oa);
       for (let Gi = 0; Gi < yi.length; Gi += 1)
         yi[Gi] && yi[Gi].m(Ui, null);
       insert(Hi, Mi, oa), insert(Hi, Ii, oa), append(Ii, _i), append(Ii, Ci), insert(Hi, Ki, oa), Ia && Ia.m(Hi, oa), insert(Hi, Ni, oa), ia = !0, ea || (la = [
@@ -74884,7 +74913,7 @@ function create_else_block(lr) {
       Hi[7].description + "") && set_data(gr, hr), /*filteredEventLength*/
       Hi[18] < 1 && /*allEventLength*/
       Hi[17] >= 1 && /*filter*/
-      Hi[12] === "approved" ? ma ? ma.p(Hi, oa) : (ma = create_if_block_7(Hi), ma.c(), ma.m(mr.parentNode, mr)) : ma && (ma.d(1), ma = null), (!ia || oa[0] & /*sentimentCount*/
+      Hi[12] === "approved" ? ba ? ba.p(Hi, oa) : (ba = create_if_block_7(Hi), ba.c(), ba.m(mr.parentNode, mr)) : ba && (ba.d(1), ba = null), (!ia || oa[0] & /*sentimentCount*/
       2048) && Er !== (Er = /*sentimentCount*/
       Hi[11][1] + "") && set_data(xr, Er), (!ia || oa[0] & /*sentimentCount*/
       2048) && Hr !== (Hr = /*sentimentCount*/
@@ -74933,7 +74962,7 @@ function create_else_block(lr) {
       Hi && (Oi || (Oi = create_bidirectional_transition(Ui, slide, {}, !1)), Oi.run(0)), transition_out(Ia), ia = !1;
     },
     d(Hi) {
-      Hi && (detach(ar), detach(fr), detach(dr), detach(vr), detach(mr), detach(br), detach(wi), detach(Ui), detach(Mi), detach(Ii), detach(Ki), detach(Ni)), ma && ma.d(Hi), destroy_component(Tr), destroy_component(Dr), destroy_component(Jr), Hi && ui && ui.end();
+      Hi && (detach(ar), detach(fr), detach(dr), detach(vr), detach(mr), detach(br), detach(wi), detach(Ui), detach(Mi), detach(Ii), detach(Ki), detach(Ni)), ba && ba.d(Hi), destroy_component(Tr), destroy_component(Dr), destroy_component(Jr), Hi && ui && ui.end();
       for (let oa = 0; oa < yi.length; oa += 1)
         yi[oa].d();
       Hi && Oi && Oi.end(), Ia && Ia.d(Hi), ea = !1, run_all(la);
@@ -75250,7 +75279,7 @@ function create_else_block_1(lr) {
   };
 }
 function create_if_block_3(lr) {
-  var Oa, Xa, Ka, Pa, Da, Ha, $a, Yi, Zi, ka;
+  var Oa, Xa, Ka, Pa, Da, Ha, $a, Yi, Wi, ma;
   let ar, cr, ur = (
     /*$ndkUser*/
     (((Oa = lr[6]) == null ? void 0 : Oa.npub) || "0") + ""
@@ -75268,11 +75297,11 @@ function create_if_block_3(lr) {
     lr[6].npub.slice(-4)
   ) : (
     /*profiles*/
-    (ka = (Zi = lr[3][
+    (ma = (Wi = lr[3][
       /*$ndkUser*/
       (Yi = lr[6]) == null ? void 0 : Yi.pubkey
-    ]) == null ? void 0 : Zi.content) == null ? void 0 : ka.name
-  )) + "", Ar, Lr, Dr, Nr, Hr, $r, Wr, Zr, oi, Jr, Yr, li, Si, ci, hi, Ei, di, gi, Li, ui, wi, Ui, yi, Vi, Oi, Mi, Ii, mi = [], _i = /* @__PURE__ */ new Map(), Ci, Ki, Ni, ia, ea, la, ma, Ba, Fa, Ia, Hi, oa;
+    ]) == null ? void 0 : Wi.content) == null ? void 0 : ma.name
+  )) + "", Ar, Lr, Dr, Nr, Hr, $r, Wr, Zr, oi, Jr, Yr, li, Si, ci, hi, Ei, di, gi, Li, ui, wi, Ui, yi, Vi, Oi, Mi, Ii, mi = [], _i = /* @__PURE__ */ new Map(), Ci, Ki, Ni, ia, ea, la, ba, Ba, Fa, Ia, Hi, oa;
   function Gi(zi) {
     lr[47](zi);
   }
@@ -75309,14 +75338,14 @@ function create_if_block_3(lr) {
     lr[15] !== void 0 && (Aa.fileArray = /*fileArray*/
     lr[15]), /*opinionContent*/
     lr[9] !== void 0 && (Aa.opinionContent = /*opinionContent*/
-    lr[9]), ma = new Upload({ props: Aa }), binding_callbacks.push(() => bind(ma, "fileArray", va)), binding_callbacks.push(() => bind(ma, "opinionContent", Ta)), {
+    lr[9]), ba = new Upload({ props: Aa }), binding_callbacks.push(() => bind(ba, "fileArray", va)), binding_callbacks.push(() => bind(ba, "opinionContent", Ta)), {
       c() {
         var zi, Ji, za;
         ar = element("p"), cr = text$3("Logged in as "), fr = text$3(ur), dr = space(), hr = element("button"), hr.textContent = "Logout", gr = space(), vr = element("h3"), vr.textContent = "Share your opinion", mr = space(), br = element("p"), br.textContent = `We use Nostr to store opinions. You can post and access your posts via a unique private
 					key.`, yr = space(), kr = element("div"), Tr = element("img"), Er = space(), xr = element("span"), Ar = text$3(Cr), Lr = space(), Dr = element("form"), create_component(Nr.$$.fragment), Wr = space(), Zr = element("div"), oi = element("label"), oi.textContent = "Choose your overall sentiment", Jr = space(), Yr = element("div"), li = element("button"), create_component(Si.$$.fragment), ci = space(), hi = element("span"), hi.textContent = "Positive", Ei = space(), di = element("button"), create_component(gi.$$.fragment), Li = space(), ui = element("span"), ui.textContent = "Neutral", wi = space(), Ui = element("button"), create_component(yi.$$.fragment), Vi = space(), Oi = element("span"), Oi.textContent = "Negative", Mi = space(), Ii = element("div");
         for (let Va = 0; Va < mi.length; Va += 1)
           mi[Va].c();
-        Ci = space(), Ki = element("div"), Ni = element("button"), ia = text$3("Post"), la = space(), create_component(ma.$$.fragment), attr(ar, "class", "svelte-1q3tlz7"), attr(hr, "class", "primary-btn svelte-1q3tlz7"), attr(vr, "class", "svelte-1q3tlz7"), attr(br, "class", "description svelte-1q3tlz7"), set_style(br, "margin-top", "-1rem"), attr(Tr, "id", "imageContainer"), src_url_equal(Tr.src, _r = /*profiles*/
+        Ci = space(), Ki = element("div"), Ni = element("button"), ia = text$3("Post"), la = space(), create_component(ba.$$.fragment), attr(ar, "class", "svelte-1q3tlz7"), attr(hr, "class", "primary-btn svelte-1q3tlz7"), attr(vr, "class", "svelte-1q3tlz7"), attr(br, "class", "description svelte-1q3tlz7"), set_style(br, "margin-top", "-1rem"), attr(Tr, "id", "imageContainer"), src_url_equal(Tr.src, _r = /*profiles*/
         (za = (Ji = lr[3][
           /*$ndkUser*/
           (zi = lr[6]) == null ? void 0 : zi.pubkey
@@ -75357,7 +75386,7 @@ function create_if_block_3(lr) {
         insert(zi, ar, Ji), append(ar, cr), append(ar, fr), insert(zi, dr, Ji), insert(zi, hr, Ji), insert(zi, gr, Ji), insert(zi, vr, Ji), insert(zi, mr, Ji), insert(zi, br, Ji), insert(zi, yr, Ji), insert(zi, kr, Ji), append(kr, Tr), append(kr, Er), append(kr, xr), append(xr, Ar), insert(zi, Lr, Ji), insert(zi, Dr, Ji), mount_component(Nr, Dr, null), append(Dr, Wr), append(Dr, Zr), append(Zr, oi), append(Zr, Jr), append(Zr, Yr), append(Yr, li), mount_component(Si, li, null), append(li, ci), append(li, hi), append(Yr, Ei), append(Yr, di), mount_component(gi, di, null), append(di, Li), append(di, ui), append(Yr, wi), append(Yr, Ui), mount_component(yi, Ui, null), append(Ui, Vi), append(Ui, Oi), append(Dr, Mi), append(Dr, Ii);
         for (let za = 0; za < mi.length; za += 1)
           mi[za] && mi[za].m(Ii, null);
-        append(Dr, Ci), append(Dr, Ki), append(Ki, Ni), append(Ni, ia), append(Ki, la), mount_component(ma, Ki, null), Ia = !0, Hi || (oa = [
+        append(Dr, Ci), append(Dr, Ki), append(Ki, Ni), append(Ni, ia), append(Ki, la), mount_component(ba, Ki, null), Ia = !0, Hi || (oa = [
           listen(
             hr,
             "click",
@@ -75383,10 +75412,10 @@ function create_if_block_3(lr) {
         ], Hi = !0);
       },
       p(zi, Ji) {
-        var Ca, ja, ao, Wa, po, to, oo, uo, Io, Lo, Eo, lo, ya;
+        var xa, ja, ao, Wa, po, to, oo, uo, Io, Lo, Eo, lo, ka;
         (!Ia || Ji[0] & /*$ndkUser*/
         64) && ur !== (ur = /*$ndkUser*/
-        (((Ca = zi[6]) == null ? void 0 : Ca.npub) || "0") + "") && set_data(fr, ur), (!Ia || Ji[0] & /*profiles, $ndkUser*/
+        (((xa = zi[6]) == null ? void 0 : xa.npub) || "0") + "") && set_data(fr, ur), (!Ia || Ji[0] & /*profiles, $ndkUser*/
         72 && !src_url_equal(Tr.src, _r = /*profiles*/
         (Wa = (ao = zi[3][
           /*$ndkUser*/
@@ -75406,10 +75435,10 @@ function create_if_block_3(lr) {
           zi[6].npub.slice(-4)
         ) : (
           /*profiles*/
-          (ya = (lo = zi[3][
+          (ka = (lo = zi[3][
             /*$ndkUser*/
             (Eo = zi[6]) == null ? void 0 : Eo.pubkey
-          ]) == null ? void 0 : lo.content) == null ? void 0 : ya.name
+          ]) == null ? void 0 : lo.content) == null ? void 0 : ka.name
         )) + "") && set_data(Ar, Cr);
         const za = {};
         !Hr && Ji[0] & /*fileArray*/
@@ -75464,27 +75493,27 @@ function create_if_block_3(lr) {
         32768 && (Ba = !0, Va.fileArray = /*fileArray*/
         zi[15], add_flush_callback(() => Ba = !1)), !Fa && Ji[0] & /*opinionContent*/
         512 && (Fa = !0, Va.opinionContent = /*opinionContent*/
-        zi[9], add_flush_callback(() => Fa = !1)), ma.$set(Va);
+        zi[9], add_flush_callback(() => Fa = !1)), ba.$set(Va);
       },
       i(zi) {
         if (!Ia) {
           transition_in(Nr.$$.fragment, zi), transition_in(Si.$$.fragment, zi), transition_in(gi.$$.fragment, zi), transition_in(yi.$$.fragment, zi);
           for (let Ji = 0; Ji < eo.length; Ji += 1)
             transition_in(mi[Ji]);
-          transition_in(ma.$$.fragment, zi), Ia = !0;
+          transition_in(ba.$$.fragment, zi), Ia = !0;
         }
       },
       o(zi) {
         transition_out(Nr.$$.fragment, zi), transition_out(Si.$$.fragment, zi), transition_out(gi.$$.fragment, zi), transition_out(yi.$$.fragment, zi);
         for (let Ji = 0; Ji < mi.length; Ji += 1)
           transition_out(mi[Ji]);
-        transition_out(ma.$$.fragment, zi), Ia = !1;
+        transition_out(ba.$$.fragment, zi), Ia = !1;
       },
       d(zi) {
         zi && (detach(ar), detach(dr), detach(hr), detach(gr), detach(vr), detach(mr), detach(br), detach(yr), detach(kr), detach(Lr), detach(Dr)), destroy_component(Nr), destroy_component(Si), destroy_component(gi), destroy_component(yi);
         for (let Ji = 0; Ji < mi.length; Ji += 1)
           mi[Ji].d();
-        destroy_component(ma), Hi = !1, run_all(oa);
+        destroy_component(ba), Hi = !1, run_all(oa);
       }
     }
   );
@@ -75707,12 +75736,12 @@ function create_fragment(lr) {
 let editLvl = 0;
 function instance(lr, ar, cr) {
   let ur, fr, dr, hr, gr;
-  component_subscribe(lr, ndkStore, (Zi) => cr(65, ur = Zi)), component_subscribe(lr, ndkUser, (Zi) => cr(6, fr = Zi)), component_subscribe(lr, localStore, (Zi) => cr(66, dr = Zi)), component_subscribe(lr, theme, (Zi) => cr(20, gr = Zi));
+  component_subscribe(lr, ndkStore, (Wi) => cr(65, ur = Wi)), component_subscribe(lr, ndkUser, (Wi) => cr(6, fr = Wi)), component_subscribe(lr, localStore, (Wi) => cr(66, dr = Wi)), component_subscribe(lr, theme, (Wi) => cr(20, gr = Wi));
   let { subject: vr } = ar, { opinionTitle: mr } = ar, { opinionHeader: br = mr } = ar, { opinionFooter: yr = void 0 } = ar, { opinionImage: kr = void 0 } = ar, { opinionTags: Tr = "NostrOpinion" } = ar, { summary: _r = `An opinion made about ${vr} generated using nostr-opinion-plugin.` } = ar, { themeModeLocalStorageHandle: Er = "colour-scheme" } = ar, xr = JSON.parse(JSON.stringify(DEFAULT_RELAY_URLS)), Cr, Ar = [], Lr = [], Dr = [], Nr = {}, Hr = { content: "", sentiment: "0" }, $r = "", Wr = !0, Zr = { "-1": 0, 0: 0, 1: 0 }, oi = "approved", Jr = !1, Yr = !1, li = 0, Si = [], ci = [], hi = !1, Ei = 0, di = 0, gi = !1, Li = { kinds: [kindOpinion], "#d": [vr] };
   const ui = ur.storeSubscribe(Li, { closeOnEose: !1 });
-  component_subscribe(lr, ui, (Zi) => cr(38, hr = Zi));
-  function wi(Zi) {
-    return fr ? fr && Zi === fr.pubkey : !1;
+  component_subscribe(lr, ui, (Wi) => cr(38, hr = Wi));
+  function wi(Wi) {
+    return fr ? fr && Wi === fr.pubkey : !1;
   }
   const Ui = setInterval(
     () => {
@@ -75723,10 +75752,10 @@ function instance(lr, ar, cr) {
   onDestroy(() => {
     clearInterval(Ui);
   });
-  const yi = async (Zi) => {
+  const yi = async (Wi) => {
     var Va;
-    const ka = dr.pk;
-    if (ka ? !ur.signer && await privkeyLogin(ka) : !ur.signer && await NDKlogin(), !$r || !ur.signer)
+    const ma = dr.pk;
+    if (ma ? !ur.signer && await privkeyLogin(ma) : !ur.signer && await NDKlogin(), !$r || !ur.signer)
       return;
     cr(
       8,
@@ -75737,68 +75766,68 @@ function instance(lr, ar, cr) {
       kinds: [kindOpinion],
       authors: [fr.pubkey]
     })) == null ? void 0 : Va.tags;
-    (zi == null ? void 0 : zi.length) === 3 && zi[2][1] && (Zi = zi[2][1]);
+    (zi == null ? void 0 : zi.length) === 3 && zi[2][1] && (Wi = zi[2][1]);
     const Ji = new NDKEvent(ur);
-    Ji.kind = kindOpinion, (!Zi || !Zi.length || Zi.length === 1) && (Zi = (Math.floor(Date.now() / 1e3) + 5).toString()), Ji.tags = [
+    Ji.kind = kindOpinion, (!Wi || !Wi.length || Wi.length === 1) && (Wi = (Math.floor(Date.now() / 1e3) + 5).toString()), Ji.tags = [
       ["d", vr],
       ["sentiment", Hr.sentiment],
       ["summary", _r],
-      ["published_at", Zi]
-    ], mr && Ji.tags.push(["title", mr]), kr && Ji.tags.push(["image", kr]), Tr.split(",").map((Ca) => {
-      Ca == "" || !Ca || (Ji.tags.push(["t", Ca]), cr(8, Hr.content += `#${Ca} `, Hr));
+      ["published_at", Wi]
+    ], mr && Ji.tags.push(["title", mr]), kr && Ji.tags.push(["image", kr]), Tr.split(",").map((xa) => {
+      xa == "" || !xa || (Ji.tags.push(["t", xa]), cr(8, Hr.content += `#${xa} `, Hr));
     }), yr && cr(8, Hr.content += `
 
 ` + yr, Hr), Ji.content = Hr.content, Ji.publish(NDKRelaySet.fromRelayUrls(xr.write, ur)).then(() => {
-      const Ca = Lr.findIndex((ja) => ja.pubkey === Ji.pubkey);
-      Ca !== -1 ? cr(37, Lr[Ca] = { ...Ji }, Lr) : cr(37, Lr = [{ ...Ji }, ...Lr]), Vi();
+      const xa = Lr.findIndex((ja) => ja.pubkey === Ji.pubkey);
+      xa !== -1 ? cr(37, Lr[xa] = { ...Ji }, Lr) : cr(37, Lr = [{ ...Ji }, ...Lr]), Vi();
     });
-    let za = ci.filter((Ca) => Ca.pubkey != (fr == null ? void 0 : fr.pubkey));
+    let za = ci.filter((xa) => xa.pubkey != (fr == null ? void 0 : fr.pubkey));
     cr(5, ci = [...za]), cr(16, hi = !0), cr(4, Jr = !1);
   }, Vi = () => {
-    cr(11, Zr = { "-1": 0, 0: 0, 1: 0 }), cr(2, Dr = Lr.filter((Zi) => {
+    cr(11, Zr = { "-1": 0, 0: 0, 1: 0 }), cr(2, Dr = Lr.filter((Wi) => {
       var zi;
-      if (oi === "approved" && !Ar.includes(Zi.pubkey))
+      if (oi === "approved" && !Ar.includes(Wi.pubkey))
         return !1;
-      const ka = (zi = Zi.tags.find((Ji) => Ji[0] === "sentiment")) == null ? void 0 : zi[1];
-      return ka && !ci.includes(Zi) && cr(11, Zr[ka] += 1, Zr), !0;
-    })), cr(2, Dr = Dr.sort((Zi, ka) => {
-      const zi = Ar.includes(Zi.pubkey), Ji = Ar.includes(ka.pubkey);
+      const ma = (zi = Wi.tags.find((Ji) => Ji[0] === "sentiment")) == null ? void 0 : zi[1];
+      return ma && !ci.includes(Wi) && cr(11, Zr[ma] += 1, Zr), !0;
+    })), cr(2, Dr = Dr.sort((Wi, ma) => {
+      const zi = Ar.includes(Wi.pubkey), Ji = Ar.includes(ma.pubkey);
       if (zi && !Ji)
         return -1;
       if (!zi && Ji)
         return 1;
-      let za = (Zi == null ? void 0 : Zi.created_at) || 0, Va = (ka == null ? void 0 : ka.created_at) || 0;
+      let za = (Wi == null ? void 0 : Wi.created_at) || 0, Va = (ma == null ? void 0 : ma.created_at) || 0;
       return za > Va ? -1 : za < Va ? 1 : 0;
     }));
   };
-  async function Oi(Zi) {
+  async function Oi(Wi) {
     if (!fr) {
       console.info("Can't find user profile. $ndkUser is undefined");
       return;
     }
-    let ka = await fetchUserProfile(Zi);
-    return ka || (ka = {
+    let ma = await fetchUserProfile(Wi);
+    return ma || (ma = {
       image: profileImageUrl + fr.pubkey,
       pubkey: fr.pubkey
-    }), ka.image || (ka.image = profileImageUrl + Zi), ka.pubkey || (ka.pubkey = Zi), { content: ka };
+    }), ma.image || (ma.image = profileImageUrl + Wi), ma.pubkey || (ma.pubkey = Wi), { content: ma };
   }
   (async () => {
     cr(7, Cr = (await Promise.resolve().then(() => main)).expertOpinions), themeModeLocalStorageObject.set(Er);
     try {
       cr(1, Ar = await initializeApprovedAuthors());
-      const Zi = dr.lastUserLogged;
-      if (cr(10, Wr = !1), Zi && window) {
-        let ka = ur.getUser({ npub: Zi });
+      const Wi = dr.lastUserLogged;
+      if (cr(10, Wr = !1), Wi && window) {
+        let ma = ur.getUser({ npub: Wi });
         ia();
-        let zi = await ur.fetchEvent({ kinds: [10002], authors: [ka.pubkey] });
+        let zi = await ur.fetchEvent({ kinds: [10002], authors: [ma.pubkey] });
         zi && zi.getMatchingTags("r").map((Ji) => {
           xr.read.includes(Ji[1]) || (Ji.length === 3 ? Ji[2] === "write" && !xr.write.includes(Ji[1]) ? xr.write.push(Ji[1]) : Ji[2] === "read" && !xr.read.includes(Ji[1]) && xr.read.push(Ji[1]) : Ji.length === 2 && (xr.write.includes(Ji[1]) || xr.write.push(Ji[1]), xr.read.includes(Ji[1]) || xr.read.push(Ji[1])));
-        }), ndkUser.set(ka), fr && cr(3, Nr[fr.pubkey] = await Oi(fr.pubkey), Nr), Lr.map((Ji) => {
+        }), ndkUser.set(ma), fr && cr(3, Nr[fr.pubkey] = await Oi(fr.pubkey), Nr), Lr.map((Ji) => {
           Ji.pubkey === (fr == null ? void 0 : fr.pubkey) && cr(16, hi = !0);
         });
       }
-    } catch (Zi) {
-      console.error(Zi);
+    } catch (Wi) {
+      console.error(Wi);
     }
   })();
   let Ii = !1;
@@ -75811,35 +75840,35 @@ function instance(lr, ar, cr) {
   }
   function Ci() {
     if (cr(12, oi = "all"), Vi(), cr(4, Jr = !1), cr(19, gi = !1), Ii = !0, fr != null && fr.pubkey) {
-      const Zi = `userHasAgreed_${fr.pubkey}`;
-      localStorage.setItem(Zi, Ii.toString());
+      const Wi = `userHasAgreed_${fr.pubkey}`;
+      localStorage.setItem(Wi, Ii.toString());
     }
   }
   function Ki() {
     cr(19, gi = !1);
   }
-  function Ni(Zi) {
-    const ka = Si.filter((zi) => zi === Zi)[0].url;
-    cr(9, $r = $r.replace(ka, "")), cr(9, $r = $r.replace("![]()", "")), cr(9, $r = $r.replace("![image]()", "")), cr(15, Si = Si.filter((zi) => zi !== Zi));
+  function Ni(Wi) {
+    const ma = Si.filter((zi) => zi === Wi)[0].url;
+    cr(9, $r = $r.replace(ma, "")), cr(9, $r = $r.replace("![]()", "")), cr(9, $r = $r.replace("![image]()", "")), cr(15, Si = Si.filter((zi) => zi !== Wi));
   }
   const ia = async () => {
     if (fr) {
-      let Zi = {
+      let Wi = {
         kinds: [kindOpinion],
         "#d": [vr],
         authors: [fr.pubkey]
       };
-      const ka = await ur.fetchEvent(Zi);
+      const ma = await ur.fetchEvent(Wi);
       let zi = {
         kinds: [kindDelete],
         "#a": [`${kindOpinion}:${fr.pubkey}:${vr}`],
         authors: [fr.pubkey]
       };
       const Ji = await ur.fetchEvent(zi);
-      if ((Ji == null ? void 0 : Ji.created_at) < (ka == null ? void 0 : ka.created_at) || !Ji && ka) {
+      if ((Ji == null ? void 0 : Ji.created_at) < (ma == null ? void 0 : ma.created_at) || !Ji && ma) {
         cr(16, hi = !0);
-        let za = (ka == null ? void 0 : ka.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")) || "";
-        const Va = (ka == null ? void 0 : ka.tagValue("sentiment")) || "0";
+        let za = (ma == null ? void 0 : ma.content.replace(opinionHeaderRegex, "").replace(opinionFooterRegex, "")) || "";
+        const Va = (ma == null ? void 0 : ma.tagValue("sentiment")) || "0";
         cr(8, Hr = { content: za, sentiment: Va }), cr(9, $r = za);
       } else
         Jr && (cr(16, hi = !1), cr(8, Hr = { content: "", sentiment: "0" }), cr(9, $r = ""));
@@ -75847,30 +75876,30 @@ function instance(lr, ar, cr) {
   }, ea = () => {
     cr(12, oi = "approved"), Vi(), cr(4, Jr = !1);
   };
-  function la(Zi) {
-    Zr = Zi, cr(11, Zr);
+  function la(Wi) {
+    Zr = Wi, cr(11, Zr);
   }
-  function ma(Zi) {
-    $r = Zi, cr(9, $r);
+  function ba(Wi) {
+    $r = Wi, cr(9, $r);
   }
-  function Ba(Zi) {
-    Hr = Zi, cr(8, Hr);
+  function Ba(Wi) {
+    Hr = Wi, cr(8, Hr);
   }
-  function Fa(Zi) {
-    li = Zi, cr(14, li);
+  function Fa(Wi) {
+    li = Wi, cr(14, li);
   }
-  function Ia(Zi) {
-    ci = Zi, cr(5, ci);
+  function Ia(Wi) {
+    ci = Wi, cr(5, ci);
   }
-  function Hi(Zi) {
-    Ar = Zi, cr(1, Ar);
+  function Hi(Wi) {
+    Ar = Wi, cr(1, Ar);
   }
   const oa = () => cr(4, Jr = !Jr);
-  function Gi(Zi) {
-    Si = Zi, cr(15, Si);
+  function Gi(Wi) {
+    Si = Wi, cr(15, Si);
   }
-  function ha(Zi) {
-    $r = Zi, cr(9, $r);
+  function ha(Wi) {
+    $r = Wi, cr(9, $r);
   }
   const Ua = () => {
     cr(8, Hr = { ...Hr, sentiment: "1" });
@@ -75878,54 +75907,54 @@ function instance(lr, ar, cr) {
     cr(8, Hr = { ...Hr, sentiment: "0" });
   }, ua = () => {
     cr(8, Hr = { ...Hr, sentiment: "-1" });
-  }, va = (Zi) => Ni(Zi);
-  function Ta(Zi) {
-    Si = Zi, cr(15, Si);
+  }, va = (Wi) => Ni(Wi);
+  function Ta(Wi) {
+    Si = Wi, cr(15, Si);
   }
-  function Aa(Zi) {
-    $r = Zi, cr(9, $r);
+  function Aa(Wi) {
+    $r = Wi, cr(9, $r);
   }
   const Oa = () => {
     yi(" ");
   }, Xa = () => cr(13, Yr = "login"), Ka = () => cr(13, Yr = "register");
-  function Pa(Zi) {
-    Nr = Zi, cr(3, Nr), cr(38, hr), cr(37, Lr);
+  function Pa(Wi) {
+    Nr = Wi, cr(3, Nr), cr(38, hr), cr(37, Lr);
   }
-  function Da(Zi) {
-    $r = Zi, cr(9, $r);
+  function Da(Wi) {
+    $r = Wi, cr(9, $r);
   }
-  function Ha(Zi) {
-    Jr = Zi, cr(4, Jr);
+  function Ha(Wi) {
+    Jr = Wi, cr(4, Jr);
   }
-  function $a(Zi) {
-    Nr = Zi, cr(3, Nr), cr(38, hr), cr(37, Lr);
+  function $a(Wi) {
+    Nr = Wi, cr(3, Nr), cr(38, hr), cr(37, Lr);
   }
-  function Yi(Zi) {
-    Jr = Zi, cr(4, Jr);
+  function Yi(Wi) {
+    Jr = Wi, cr(4, Jr);
   }
-  return lr.$$set = (Zi) => {
-    "subject" in Zi && cr(0, vr = Zi.subject), "opinionTitle" in Zi && cr(30, mr = Zi.opinionTitle), "opinionHeader" in Zi && cr(31, br = Zi.opinionHeader), "opinionFooter" in Zi && cr(32, yr = Zi.opinionFooter), "opinionImage" in Zi && cr(33, kr = Zi.opinionImage), "opinionTags" in Zi && cr(34, Tr = Zi.opinionTags), "summary" in Zi && cr(35, _r = Zi.summary), "themeModeLocalStorageHandle" in Zi && cr(36, Er = Zi.themeModeLocalStorageHandle);
+  return lr.$$set = (Wi) => {
+    "subject" in Wi && cr(0, vr = Wi.subject), "opinionTitle" in Wi && cr(30, mr = Wi.opinionTitle), "opinionHeader" in Wi && cr(31, br = Wi.opinionHeader), "opinionFooter" in Wi && cr(32, yr = Wi.opinionFooter), "opinionImage" in Wi && cr(33, kr = Wi.opinionImage), "opinionTags" in Wi && cr(34, Tr = Wi.opinionTags), "summary" in Wi && cr(35, _r = Wi.summary), "themeModeLocalStorageHandle" in Wi && cr(36, Er = Wi.themeModeLocalStorageHandle);
   }, lr.$$.update = () => {
     if (lr.$$.dirty[0] & /*trustedAuthors*/
     2 && Ar && Vi(), lr.$$.dirty[0] & /*showNewOpinion*/
     16 && ia(), lr.$$.dirty[0] & /*profiles*/
     8 | lr.$$.dirty[1] & /*$sub, allEvents*/
-    192 && hr.forEach(async (Zi) => {
-      if (Lr.filter((zi) => zi.pubkey === Zi.pubkey).length)
-        cr(37, Lr = Lr.map((zi) => zi.pubkey === Zi.pubkey ? Zi : zi));
+    192 && hr.forEach(async (Wi) => {
+      if (Lr.filter((zi) => zi.pubkey === Wi.pubkey).length)
+        cr(37, Lr = Lr.map((zi) => zi.pubkey === Wi.pubkey ? Wi : zi));
       else {
-        cr(37, Lr = [...Lr, { ...Zi }]);
-        const zi = await fetchUserProfile(Zi.pubkey);
-        zi.image || (zi.image = profileImageUrl + Zi.pubkey), zi.pubkey || (zi.pubkey = Zi.pubkey), cr(3, Nr[Zi.pubkey] = { content: zi }, Nr), cr(3, Nr = { ...Nr });
+        cr(37, Lr = [...Lr, { ...Wi }]);
+        const zi = await fetchUserProfile(Wi.pubkey);
+        zi.image || (zi.image = profileImageUrl + Wi.pubkey), zi.pubkey || (zi.pubkey = Wi.pubkey), cr(3, Nr[Wi.pubkey] = { content: zi }, Nr), cr(3, Nr = { ...Nr });
       }
       Vi();
     }), lr.$$.dirty[0] & /*deletedEventsArray, filteredEvents*/
     36 | lr.$$.dirty[1] & /*allEvents*/
-    64 && (cr(17, Ei = Lr.filter((Zi) => !ci.includes(Zi)).length), cr(18, di = Dr.filter((Zi) => !ci.includes(Zi)).length)), lr.$$.dirty[0] & /*$ndkUser, profiles*/
+    64 && (cr(17, Ei = Lr.filter((Wi) => !ci.includes(Wi)).length), cr(18, di = Dr.filter((Wi) => !ci.includes(Wi)).length)), lr.$$.dirty[0] & /*$ndkUser, profiles*/
     72)
       if (fr != null && fr.pubkey && Nr[fr == null ? void 0 : fr.pubkey]) {
-        const Zi = `userHasAgreed_${fr.pubkey}`;
-        Ii = localStorage.getItem(Zi) === "true";
+        const Wi = `userHasAgreed_${fr.pubkey}`;
+        Ii = localStorage.getItem(Wi) === "true";
       } else
         Ii = !1;
   }, [
@@ -75970,7 +75999,7 @@ function instance(lr, ar, cr) {
     hr,
     ea,
     la,
-    ma,
+    ba,
     Ba,
     Fa,
     Ia,
@@ -76068,9 +76097,9 @@ class App extends SvelteComponent {
 customElements.define("nostr-opinion", create_custom_element(App, { subject: {}, opinionTitle: {}, opinionHeader: {}, opinionFooter: {}, opinionImage: {}, opinionTags: {}, summary: {}, themeModeLocalStorageHandle: {} }, [], [], !0));
 class ExpertOpinions {
   constructor() {
-    Wi(this, "headline", "Community Opinions ($$nTrusted$$/$$nAll$$)");
-    Wi(this, "description", "These comments are contributed by nostr users using the nostr-opinions-plugin.");
-    Wi(this, "newOpinionDescription", `<p>
+    Zi(this, "headline", "Community Opinions ($$nTrusted$$/$$nAll$$)");
+    Zi(this, "description", "These comments are contributed by nostr users using the nostr-opinions-plugin.");
+    Zi(this, "newOpinionDescription", `<p>
 	Thank you for contributing your opinion. Please make sure to follow these
 	simple guidelines:
 </p>
@@ -76078,9 +76107,9 @@ class ExpertOpinions {
 	<li>Be objective</li>
 	<li>Be polite</li>
 </ul>`);
-    Wi(this, "trustedAuthors", []);
-    Wi(this, "trustedBadgeAuthors", []);
-    Wi(this, "trustedBadges", []);
+    Zi(this, "trustedAuthors", []);
+    Zi(this, "trustedBadgeAuthors", []);
+    Zi(this, "trustedBadges", []);
   }
 }
 const expertOpinions = new ExpertOpinions(), main = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
