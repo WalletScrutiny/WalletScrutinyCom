@@ -1,5 +1,5 @@
 ---
-title: Blockstream Jade
+title: Jade
 appId: blockstreamjade
 authors:
 - kiwilamb

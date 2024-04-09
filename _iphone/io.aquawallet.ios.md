@@ -14,12 +14,12 @@ stars: 4.6
 reviews: 24
 size: '89875456'
 website: https://aquawallet.io
-repository: 
+repository: https://github.com/AquaWallet/aqua-wallet
 issue: 
 icon: io.aquawallet.ios.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 date: 2024-01-05
 signer: 
 reviewArchive: 
@@ -33,20 +33,4 @@ developerName: Jan3 LLC
 
 ---
 
-Note: Google Play version to-follow.
-
-## Description from Apple Store
-
-> Key Features:
->
-> Native Bitcoin and Layer 2: Seamlessly transact in Bitcoin, Lightning, and Liquid assets including Tether USDt. AQUA is your passport to financial inclusion, designed for Latin America and embraced by Bitcoin Maximalists globally.
->
-> Non-Custodial Core: Own your keys and your assets. AQUA is built on the cornerstone principle of self-sovereignty, giving you control over your Bitcoin and your money as a whole.
->
-> Liquid Network Pioneer: AQUA was one of the first wallets to support Liquid sidechain functionality, enabling native support for Tether USDt and in the future, new assets like Bitcoin Bonds.
->
-> Tether USDt on Liquid: Seamlessly transact with USDt - there is no second-best stablecoin. AQUA allows you to send and receive your USDt on Liquid as well as altcoin chains, all while storing your funds securely on the Liquid Network.
-
-## Analysis
-
-As this app is not source-available it's **not verifiable**.
+{% include copyFromAndroid.html %}

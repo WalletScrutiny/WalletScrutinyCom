@@ -53,4 +53,6 @@ features:
 
 ## Analysis 
 
-- The app provides a BTC address with seed phrases. It is now source-available, and thus, now **[for verification](https://github.com/AquaWallet/aqua-wallet/issues/9)**.
+The app provides a BTC address with seed phrases. It is now source-available,
+and thus, now
+**[for verification](https://github.com/AquaWallet/aqua-wallet/issues/9)**.
