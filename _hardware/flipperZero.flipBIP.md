@@ -13,10 +13,10 @@ dimensions:
 - 130
 - 45
 weight: 102
-provider: Struan Clark
-providerWebsite: 
-website: 
-shop: https://lab.flipper.net/apps/flipbip
+provider: Flipper Devices
+providerWebsite: https://flipperdevices.com/
+website: https://flipperzero.one
+shop: https://flipperzero.one/how-to-buy
 country: US
 price: 169USD
 repository: https://github.com/xtruan/FlipBIP
@@ -28,13 +28,15 @@ verdict: nowallet
 date: 2023-12-22
 signer: 
 reviewArchive: 
-twitter: xtruan
+twitter: flipper_zero
 social: 
 features: 
 
 ---
 
-**Point of clarification:** The device is not a standalone Bitcoin wallet. The user still has to download the Flip BIP app. What we are reviewing is the app on the multipurpose device, Flipper Zero.
+**Point of clarification:** The device is not a standalone Bitcoin wallet. The
+user still has to download the Flip BIP app. What we are reviewing is the app on
+the multipurpose device, Flipper Zero.
 
 ## Features
 
