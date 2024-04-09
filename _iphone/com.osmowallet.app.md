@@ -11,7 +11,7 @@ released: 2022-06-14
 updated: 2024-03-26
 version: 3.0.3
 stars: 4.5
-reviews: 16
+reviews: 17
 size: '98514944'
 website: https://www.osmowallet.com/
 repository: 

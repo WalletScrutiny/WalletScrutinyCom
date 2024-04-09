@@ -12,7 +12,7 @@ updated: 2023-07-13
 version: 1.4.20
 stars: 4.1
 ratings: 
-reviews: 31
+reviews: 32
 size: 
 website: https://lynkey.com/
 repository: 

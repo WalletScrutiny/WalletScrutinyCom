@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitgate.flutter.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-01-13
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: bitgatex

@@ -3,7 +3,7 @@ wsId: ivendPayPOS
 title: ivendPay POS
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: ivendpay.com
 appCountry: 
@@ -28,7 +28,7 @@ twitter: ivendpay
 social:
 - https://www.linkedin.com/company/ivendpay
 - https://www.instagram.com/ivendpay_company
-- https://www.youtube.com/@ivendpay_company 
+- https://www.youtube.com/@ivendpay_company
 redirect_from: 
 developerName: IVENDPAY
 features: 

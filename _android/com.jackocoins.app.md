@@ -12,7 +12,7 @@ updated: 2023-12-06
 version: 2.0.2
 stars: 3.8
 ratings: 148
-reviews: 20
+reviews: 22
 size: 
 website: https://www.jackocoins.com/
 repository: 

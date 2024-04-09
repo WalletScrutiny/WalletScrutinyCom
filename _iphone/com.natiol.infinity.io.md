@@ -8,11 +8,11 @@ appId: com.natiol.infinity.io
 appCountry: us
 idd: '6444058685'
 released: 2022-11-25
-updated: 2023-11-06
-version: '9.0'
+updated: 2024-04-05
+version: '9.1'
 stars: 0
 reviews: 0
-size: '26035200'
+size: '44741632'
 website: 
 repository: 
 issue: 

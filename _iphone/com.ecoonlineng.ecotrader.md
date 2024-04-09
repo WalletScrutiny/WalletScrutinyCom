@@ -8,11 +8,11 @@ appId: com.ecoonlineng.ecotrader
 appCountry: us
 idd: '1535823080'
 released: 2020-11-05
-updated: 2024-03-30
-version: 4.3.1
+updated: 2024-04-07
+version: 4.5.2
 stars: 3.6
 reviews: 37
-size: '21757952'
+size: '21770240'
 website: 
 repository: 
 issue: 

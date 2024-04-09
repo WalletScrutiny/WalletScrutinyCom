@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-06
 updated: 2024-03-15
 version: 2.5.0
-stars: 3.4
+stars: 3.3
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://www.ngrave.io/
 repository: 

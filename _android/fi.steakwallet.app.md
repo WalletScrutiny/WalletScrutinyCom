@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-07
 updated: 2023-12-19
 version: 3.3.2
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://steakwallet.fi
 repository: 

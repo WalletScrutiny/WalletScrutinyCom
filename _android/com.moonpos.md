@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.moonpos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-04-16
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

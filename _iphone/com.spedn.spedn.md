@@ -27,7 +27,7 @@ twitter: FlexaHQ
 social:
 - https://www.facebook.com/flexa
 features: 
-developerName: Flexa Network Inc.
+developerName: Flexa Inc.
 
 ---
 

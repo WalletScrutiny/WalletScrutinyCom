@@ -19,9 +19,9 @@ repository: https://github.com/Enno-Wallet-Enno-Cash
 issue: 
 icon: com.app.awqsome.ennowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2022-12-08
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: ennowallet

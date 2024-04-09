@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 1502 Bitcoin Wallet+Messenger
+title: 1502 Freelancer Market Place
 altTitle: 
 authors: 
 users: 50
 appId: com.nosapps.android.i5o2
 appCountry: 
 released: 2022-06-03
-updated: 2024-04-03
-version: 1.2.35
+updated: 2024-04-08
+version: 1.2.38
 stars: 
 ratings: 
 reviews: 

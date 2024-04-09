@@ -3,7 +3,7 @@ wsId: confirmoLightning
 title: Bitcoin Lightning POS
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: cz.confirmo.app.confirmo_flutter
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: CryptoConfirmo
 social:
 - https://www.linkedin.com/company/confirmoltd
-- https://www.facebook.com/confirmo.net 
+- https://www.facebook.com/confirmo.net
 redirect_from: 
 developerName: CONFIRMO
 features: 

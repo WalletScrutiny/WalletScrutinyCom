@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: easyexchangepro.com.easy_pro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-05-11
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

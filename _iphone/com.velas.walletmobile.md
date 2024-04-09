@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.velas.walletmobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-10-31
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: velasblockchain

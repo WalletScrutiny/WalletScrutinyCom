@@ -8,10 +8,10 @@ appId: com.cryptokara.app
 appCountry: us
 idd: '1581610129'
 released: 2021-10-19
-updated: 2024-04-03
-version: 7.4.2
+updated: 2024-04-08
+version: 7.4.3
 stars: 4
-reviews: 42
+reviews: 43
 size: '58036224'
 website: https://crypto-kara-site.vercel.app/
 repository: 

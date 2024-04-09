@@ -3,7 +3,7 @@ wsId:
 title: 'Byte Exchange: BTC ETH Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.bytedex.mobile.tr
 appCountry: 
@@ -25,7 +25,7 @@ date: 2024-04-04
 signer: 
 reviewArchive: 
 twitter: byteexchange
-social: 
+social:
 - https://facebook.com/ByteExchangeOfficial
 redirect_from: 
 developerName: Byte Blockchain Technologies

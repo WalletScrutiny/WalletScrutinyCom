@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hermesus.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-26
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: hermesus_us

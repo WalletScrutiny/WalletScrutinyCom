@@ -3,7 +3,7 @@ wsId:
 title: Bolt Card NFC Card Creator
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.lightningnfcapp
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ones_and_zeroz
 social:
-- https://www.linkedin.com/company/ones-and-zeros-technology-limited 
+- https://www.linkedin.com/company/ones-and-zeros-technology-limited
 redirect_from: 
 developerName: Ones and Zeros Technology
 features: 

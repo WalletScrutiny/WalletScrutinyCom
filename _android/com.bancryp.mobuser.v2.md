@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-04
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

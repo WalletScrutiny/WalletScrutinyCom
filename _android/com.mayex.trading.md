@@ -12,7 +12,7 @@ updated: 2023-03-29
 version: 1.9.80
 stars: 4.1
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.mayex.com
 repository: 

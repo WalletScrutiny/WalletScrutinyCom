@@ -3,11 +3,11 @@ wsId: ivendPayPOS
 title: ivendPay POS
 altTitle: 
 authors:
-- danny 
+- danny
 appId: ivendpay.com
 appCountry: us
 idd: '1644875364'
-released: '2023-02-02T08:00:00Z'
+released: 2023-02-02
 updated: 2023-11-11
 version: 2.0.3
 stars: 0

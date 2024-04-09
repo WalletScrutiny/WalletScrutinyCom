@@ -4,7 +4,7 @@ title: GoMining
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
@@ -12,7 +12,7 @@ updated: 2024-03-15
 version: '28'
 stars: 3.3
 ratings: 
-reviews: 165
+reviews: 166
 size: 
 website: https://gomining.com
 repository: 

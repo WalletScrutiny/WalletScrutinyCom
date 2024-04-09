@@ -12,7 +12,7 @@ updated: 2024-03-18
 version: 3.3.11 'Argentina'
 stars: 3.2
 ratings: 821
-reviews: 173
+reviews: 174
 size: 
 website: https://monerujo.io/
 repository: 

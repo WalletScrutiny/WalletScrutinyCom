@@ -8,11 +8,11 @@ appId: com.hashwalletmanager
 appCountry: es
 idd: '6443484063'
 released: 2022-10-06
-updated: 2024-03-11
-version: 1.1.7
+updated: 2024-04-08
+version: 2.0.2
 stars: 5
 reviews: 7
-size: '55951360'
+size: '56584192'
 website: https://gethashwallet.com
 repository: 
 issue: 

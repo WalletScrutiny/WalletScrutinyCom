@@ -8,8 +8,8 @@ users: 10000
 appId: io.rapidz.rapidzpay
 appCountry: 
 released: 2021-06-21
-updated: 2024-02-21
-version: 2.10.1
+updated: 2024-04-08
+version: 2.10.2
 stars: 3.6
 ratings: 
 reviews: 5

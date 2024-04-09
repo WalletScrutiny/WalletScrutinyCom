@@ -27,7 +27,7 @@ date: 2024-04-05
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 - date: 2024-03-25
-  version: "0.99.98i++"
+  version: 0.99.98i++
   appHash: 0d50db3d77d77177881f2134fc26e3e055350ae7043d7e4a4531f758b9bc94d1
   gitRevision: e96510d9c0bdba4d203863268caeb2ad4ade4136
   verdict: nosource

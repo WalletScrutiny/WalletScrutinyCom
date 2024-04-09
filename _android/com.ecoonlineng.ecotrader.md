@@ -8,8 +8,8 @@ users: 5000
 appId: com.ecoonlineng.ecotrader
 appCountry: 
 released: 2020-11-13
-updated: 2024-04-04
-version: 4.4.1
+updated: 2024-04-06
+version: 4.5.2
 stars: 3.9
 ratings: 
 reviews: 16

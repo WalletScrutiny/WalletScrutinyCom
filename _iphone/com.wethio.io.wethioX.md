@@ -11,7 +11,7 @@ released: 2022-02-11
 updated: 2023-01-31
 version: 3.0.6
 stars: 5
-reviews: 6
+reviews: 5
 size: '50429952'
 website: https://www.wethiox.io/landing
 repository: 

@@ -8,11 +8,11 @@ appId: com.senexpay.mobile
 appCountry: us
 idd: '1627864145'
 released: 2022-08-18
-updated: 2024-01-04
-version: 1.5.2
-stars: 3.6
-reviews: 14
-size: '82077696'
+updated: 2024-04-08
+version: 1.5.3
+stars: 0
+reviews: 0
+size: '82956288'
 website: https://senexpay.com
 repository: 
 issue: 
