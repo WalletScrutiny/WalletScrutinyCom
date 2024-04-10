@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: coinWebApp
 title: Coinweb Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.coinwebapp
 appCountry: 
@@ -19,15 +20,27 @@ issue:
 icon: com.coinwebapp.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2024-04-10
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: CoinwebOfficial
+social:
+- http://t.me/coinweb
+- https://discord.com/invite/cWSQD3wJqY 
 redirect_from: 
 developerName: Coinweb
 features: 
 
 ---
+
+## App Description 
+
+The app is an accounts based, email registration required multi-coin wallet. It supports BTC as well as other coins.
+
+## Analysis 
+
+- The seed phrases were provided after email verification.
+- There is a BTC wallet
+- We did not find any links to a repository making this app **not source-available.**
 
