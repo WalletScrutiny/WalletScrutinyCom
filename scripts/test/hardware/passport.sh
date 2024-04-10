@@ -21,7 +21,7 @@ model=$2
 
 # Remove any previous build artifacts
 rm -rf /tmp/passport/
-docker image rm foundation-devices/passport2:latest
+docker image rm ${dockerImage}
 
 # Prepare the directory for building Passport's firmware
 mkdir /tmp/passport
@@ -36,7 +36,7 @@ cd passport2
 git checkout v${version}
 
 # Build the Docker image used for building firmware reproducibly
-docker build -t ${dockerImage} .
+docker build --no-cache -t ${dockerImage} .
 
 # Build mpy-cross within the Docker image
 docker run --rm \
