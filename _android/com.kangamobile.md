@@ -12,7 +12,7 @@ updated: 2024-04-05
 version: 1.19.5
 stars: 3.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://kanga.exchange
 repository: 

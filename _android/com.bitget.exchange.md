@@ -9,10 +9,10 @@ appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03
 updated: 2024-04-03
-version: 2.27.3
-stars: 4.6
+version: 2.27.4
+stars: 4.7
 ratings: 5691
-reviews: 740
+reviews: 749
 size: 
 website: https://www.bitget.com/
 repository: 

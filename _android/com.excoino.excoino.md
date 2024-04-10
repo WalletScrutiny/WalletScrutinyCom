@@ -12,7 +12,7 @@ updated: 2024-04-04
 version: 9.18.4
 stars: 3.5
 ratings: 8653
-reviews: 266
+reviews: 267
 size: 
 website: https://www.excoino.com/
 repository: 

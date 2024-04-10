@@ -10,8 +10,8 @@ version: 1.3.4
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
-- 104
-- 12 
+- 100
+- 12
 weight: 103
 provider: Yanssie HK Limited
 providerWebsite: https://keyst.one/
@@ -32,8 +32,8 @@ twitter: KeystoneForBTC
 social:
 - https://www.youtube.com/channel/UCaReIdawwYPPcyWGoNunF7g
 - https://discord.com/invite/gpfaESrxu2
-- https://t.me/KeystoneWallet 
-features: 
+- https://t.me/KeystoneWallet
+features:
 - taproot
 
 ---

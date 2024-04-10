@@ -8,8 +8,8 @@ users: 10000
 appId: com.stealthex
 appCountry: 
 released: 2022-11-01
-updated: 2024-03-06
-version: 1.1.9
+updated: 2024-04-09
+version: 1.1.10
 stars: 4.6
 ratings: 
 reviews: 4

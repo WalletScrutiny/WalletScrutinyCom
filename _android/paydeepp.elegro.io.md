@@ -12,7 +12,7 @@ updated: 2024-02-05
 version: 5.3.5
 stars: 3.4
 ratings: 
-reviews: 1
+reviews: 4
 size: 
 website: https://elegro.eu/
 repository: 
