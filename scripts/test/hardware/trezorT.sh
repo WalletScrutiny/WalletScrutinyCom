@@ -19,12 +19,12 @@ echo
 echo "Hash of non-signature parts downloaded/compiled standard:"
 cp trezor-${version}.bin trezor-${version}.bin.zeroed
 dd if=/dev/zero of=trezor-${version}.bin.zeroed bs=1 seek=5567 count=65 conv=notrunc
-sha256sum trezor-${version}.bin.zeroed build/core/firmware/firmware.bin
+sha256sum trezor-${version}.bin.zeroed build/core-T/firmware/firmware.bin
 echo
 echo "Hash of non-signature parts downloaded/compiled bitcoinonly:"
 cp trezor-${version}-bitcoinonly.bin trezor-${version}-bitcoinonly.bin.zeroed
 dd if=/dev/zero of=trezor-${version}-bitcoinonly.bin.zeroed bs=1 seek=5567 count=65 conv=notrunc
-sha256sum trezor-${version}-bitcoinonly.bin.zeroed build/core-bitcoinonly/firmware/firmware.bin
+sha256sum trezor-${version}-bitcoinonly.bin.zeroed build/core-T-bitcoinonly/firmware/firmware.bin
 echo
 echo "Hash of the signed firmware:"
 sha256sum trezor-${version}.bin trezor-${version}-bitcoinonly.bin
