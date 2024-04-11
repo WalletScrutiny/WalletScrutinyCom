@@ -14,6 +14,14 @@ builtApk="$workDir/app/android/app/build/outputs/apk/release/zeus-$architecture.
 test() {
   # build
   BUILDER_IMAGE="reactnativecommunity/react-native-android@sha256:4ff9c9f80da57c72284900fcfdbd079183e735684c62d7fafd3df50fdb895453"
+  
+  # Check if the container exists, and if so, remove it
+  container_exists=$(podman ps -a | grep zeus_builder_container | wc -l)
+  if [ "$container_exists" -eq "1" ]; then
+      echo "Container 'zeus_builder_container' exists. Removing..."
+      podman rm -f zeus_builder_container
+  fi
+  
   podman run --rm --name zeus_builder_container -it -v `pwd`:/olympus/zeus $BUILDER_IMAGE bash -c \
     'echo -e "\n\n********************************\n*** Building Zeus...\n********************************\n" && \
       cd /olympus/zeus ; yarn install --frozen-lockfile && \
