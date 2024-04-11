@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - mohammad
+- danny
 users: 10000
 appId: app.zeusln.zeus
 appCountry: 
@@ -22,9 +23,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-03-24
-signer: 
+date: 2024-04-11
+signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-03-24
+  version: 0.8.2
+  appHash: 63d61c6288323ef8daa2797fa2c7341795ca7c36bbf2d007beda7e9ddd7ccca8
+  gitRevision: 540359a8e54b09cd2c779908dc00d772d77a7234
+  verdict: reproducible
 - date: 2024-01-30
   version: 0.8.1
   appHash: a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
@@ -74,22 +80,23 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.2
-apkVersionCode: 83003
+apkVersionName: 0.8.3
+apkVersionCode: 84001
 verdict:        
-appHash:        63d61c6288323ef8daa2797fa2c7341795ca7c36bbf2d007beda7e9ddd7ccca8
-commit:         a805deb3a76b576a303342b971000ee7f15748bf
+appHash:        afd3cace61fe5c896bbf3bd8399f12b9721415e78d9cbc694d8eb97dbbea21a1
+commit:         19f2f2cb488ffbb8e3997c8cc112e0ad46954257
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_83003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_83003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_83003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_83003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_84001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_84001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_84001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
 Again we checked that only signature-related lines differ and as before, this is
