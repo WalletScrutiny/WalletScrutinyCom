@@ -24,8 +24,8 @@ issue: https://github.com/SafePalWallet/safepal-x1/issues/1
 icon: safepalx1.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2024-01-08
+verdict: nosource
+date: 2024-04-11
 signer: 
 reviewArchive: 
 twitter: iSafePal
@@ -38,6 +38,15 @@ social:
 features: 
 
 ---
+
+## Update
+
+- Some people have commented on the issue we created. Despite claims made by the company in [blog posts](https://blog.safepal.com/safepal-x1-open-source-wallet-suite/), it has not fully made the firmware source-available.
+- Furthermore, its [X1 Firmware Upgrade History](https://safepalsupport.zendesk.com/hc/en-us/articles/18732453314715-X1-Firmware-Upgrade-History) shows activity reaching up to version 1.0.6 which was released on March 21, 2024. These firmware upgrades are not reflected in the repository.
+- The lack of correspondence, updates in the repository as well as other details (such as release tags, etc), lead us to give an alternative verdict. 
+- The firmware is **not source-available**.
+
+## Previous Review 2024-01-08
 
 - SafePal X1 takes on a design more similar to a calculator; an interface that includes a screen and buttons. This allows users to view transaction details on the wallet.
 - It uses the Secure Chip EAL5+ and can connect to external devices either through USB or Bluetooth.
