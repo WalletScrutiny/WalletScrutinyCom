@@ -9,10 +9,10 @@ appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
 updated: 2024-04-04
-version: 8.13.0
+version: 8.13.1
 stars: 4.8
 ratings: 3949
-reviews: 1028
+reviews: 1050
 size: 
 website: https://bitkeep.com
 repository: 

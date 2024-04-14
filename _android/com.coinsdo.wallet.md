@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-26
 updated: 2024-03-22
 version: 1.1.28
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 66
+reviews: 52
 size: 
 website: https://www.coinsdo.com
 repository: 

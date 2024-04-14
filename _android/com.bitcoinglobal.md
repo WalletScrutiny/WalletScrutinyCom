@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-27
+date: 2024-04-13
 signer: 
 reviewArchive: 
 twitter: BitcoinGlobalEx

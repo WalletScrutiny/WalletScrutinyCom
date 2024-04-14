@@ -3,11 +3,11 @@ wsId: coinWebApp
 title: Coinweb Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.coinweb.wallet
 appCountry: us
 idd: '6443891261'
-released: '2023-05-04T07:00:00Z'
+released: 2023-05-04
 updated: 2024-03-06
 version: 1.0.30
 stars: 5
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: CoinwebOfficial
 social:
 - http://t.me/coinweb
-- https://discord.com/invite/cWSQD3wJqY 
+- https://discord.com/invite/cWSQD3wJqY
 features: 
 developerName: Coinweb
 

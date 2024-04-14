@@ -8,11 +8,11 @@ appId: EurocoinpayRN
 appCountry: es
 idd: '1483125957'
 released: 2019-12-15
-updated: 2024-02-24
-version: '6.01'
+updated: 2024-04-09
+version: '6.02'
 stars: 4.7
 reviews: 7
-size: '24233984'
+size: '24317952'
 website: https://eurocoinpay.io
 repository: 
 issue: 

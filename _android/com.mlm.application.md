@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mlm.application.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-05-30
+date: 2024-04-10
 signer: 
 reviewArchive: 
 twitter: 

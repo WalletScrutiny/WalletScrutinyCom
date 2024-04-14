@@ -8,11 +8,11 @@ appId: io.galoy.bitcoinbeach
 appCountry: ng
 idd: '1531383905'
 released: 2020-11-11
-updated: 2024-03-28
-version: 2.2.239
+updated: 2024-04-13
+version: 2.2.251
 stars: 4.4
 reviews: 21
-size: '49254400'
+size: '49594368'
 website: https://blink.sv
 repository: https://github.com/GaloyMoney/galoy-mobile/
 issue: 

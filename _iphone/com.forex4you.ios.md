@@ -8,11 +8,11 @@ appId: com.forex4you.ios
 appCountry: th
 idd: 1008039704
 released: 2015-10-11
-updated: 2024-04-04
-version: 6.0.1
-stars: 4.7
-reviews: 354
-size: '236412928'
+updated: 2024-04-11
+version: 6.1.0
+stars: 4.8
+reviews: 357
+size: '237027328'
 website: https://www.markets4you.com/en/contact-us/
 repository: 
 issue: 

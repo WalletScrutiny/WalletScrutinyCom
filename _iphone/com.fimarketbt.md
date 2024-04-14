@@ -18,9 +18,9 @@ repository: https://github.com/fimark-coin/Smartcontract
 issue: 
 icon: com.fimarketbt.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-16
+date: 2024-04-10
 signer: 
 reviewArchive: 
 twitter: fmcpay

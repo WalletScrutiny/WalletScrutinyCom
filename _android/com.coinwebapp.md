@@ -3,7 +3,7 @@ wsId: coinWebApp
 title: Coinweb Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinwebapp
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: CoinwebOfficial
 social:
 - http://t.me/coinweb
-- https://discord.com/invite/cWSQD3wJqY 
+- https://discord.com/invite/cWSQD3wJqY
 redirect_from: 
 developerName: Coinweb
 features: 

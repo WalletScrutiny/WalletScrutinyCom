@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 3
 size: 
-website: https://www.swissquote.com/forex/platforms/advanced-trader
+website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
 repository: 
 issue: 
 icon: com.swissquote.mobiletrader.android.wl.acm.png

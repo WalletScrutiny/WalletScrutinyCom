@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-05-19
 updated: 2024-03-29
 version: '3.80'
-stars: 4.5
+stars: 4.4
 ratings: 247
-reviews: 45
+reviews: 46
 size: 
 website: https://alphawallet.com/
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.lykkex.LykkeWallet
 appCountry: de
 released: 2016-08-25
-updated: 2024-03-31
-version: 13.0.3
+updated: 2024-04-10
+version: 13.1.0
 stars: 3.9
 ratings: 581
 reviews: 18

@@ -8,19 +8,19 @@ appId: com.yibi
 appCountry: us
 idd: '1638288204'
 released: 2022-08-12
-updated: 2023-03-15
-version: 1.1.6
+updated: 2024-04-12
+version: 1.1.8
 stars: 3
 reviews: 2
-size: '138608640'
+size: '179464192'
 website: 
 repository: 
 issue: 
 icon: com.yibi.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-03-12
+date: 2024-04-14
 signer: 
 reviewArchive: 
 twitter: OfficialYibi

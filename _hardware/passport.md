@@ -31,7 +31,7 @@ date: 2024-03-31
 signer: 
 reviewArchive:
 - date: 2023-06-20
-  version: "v2.1.2"
+  version: v2.1.2
   appHash: 197bdfb863cca434395f6535d848622a9c47002a01e27867b7218e3678d6e8ac
   gitRevision: 846f3c3185e087139606f352dcdedf2efbec3c13
   verdict: reproducible

@@ -8,8 +8,8 @@ users: 50000
 appId: xyz.bitcoinlibre.app
 appCountry: us
 released: 2021-09-20
-updated: 2024-02-22
-version: 3.4.9
+updated: 2024-04-11
+version: 3.5.0
 stars: 4.2
 ratings: 2887
 reviews: 130

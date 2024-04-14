@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-30
 updated: 2024-03-05
 version: 3.7.0
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 27
+reviews: 28
 size: 
 website: https://www.buenbit.com
 repository: 

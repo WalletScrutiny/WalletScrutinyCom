@@ -10,10 +10,10 @@ appId: com.paypal.android.p2pmobile
 appCountry: 
 released: 2016-02-19
 updated: 2024-04-05
-version: 8.58.0
+version: 8.59.3
 stars: 4.3
 ratings: 2452159
-reviews: 393864
+reviews: 394105
 size: 
 website: https://www.paypal.com/mobile
 repository: 

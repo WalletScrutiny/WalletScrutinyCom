@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: 'CoinEx: Buy TNSR & Crypto'
+title: 'CoinEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo

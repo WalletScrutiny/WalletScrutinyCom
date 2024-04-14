@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.keystone.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-17
+date: 2024-04-13
 signer: 
 reviewArchive: 
 twitter: KeystoneWallet

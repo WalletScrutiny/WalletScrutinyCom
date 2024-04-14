@@ -8,8 +8,8 @@ appId: com.bitcoli.bitcoli
 appCountry: us
 idd: '6473613857'
 released: 2024-01-10
-updated: 2024-03-26
-version: 1.0.26
+updated: 2024-04-09
+version: 1.0.28
 stars: 0
 reviews: 0
 size: '40611840'

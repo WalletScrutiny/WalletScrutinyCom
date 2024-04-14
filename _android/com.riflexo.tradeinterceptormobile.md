@@ -12,7 +12,7 @@ updated: 2024-04-05
 version: 6.17.1.6
 stars: 4
 ratings: 5176
-reviews: 343
+reviews: 342
 size: 
 website: http://www.thinkmarkets.com
 repository: 

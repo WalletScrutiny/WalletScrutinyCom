@@ -3,7 +3,7 @@ wsId:
 title: Hordes Wallet - Ordinals
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sato.hordes
 appCountry: 
 released: 2023-08-04

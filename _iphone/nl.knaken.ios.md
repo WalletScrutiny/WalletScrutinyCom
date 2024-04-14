@@ -9,8 +9,8 @@ idd: '1566004838'
 released: 2021-06-10
 updated: 2024-04-07
 version: 3.14.1
-stars: 4.1
-reviews: 23
+stars: 4.2
+reviews: 34
 size: '50507776'
 website: https://knaken.eu/
 repository: 

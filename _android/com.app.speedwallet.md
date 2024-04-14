@@ -8,11 +8,11 @@ users: 10000
 appId: com.app.speedwallet
 appCountry: 
 released: 2023-06-18
-updated: 2024-03-14
-version: 2.3.0.0.0.0.fp.gps
+updated: 2024-04-10
+version: 2.3.1.0.0.2.fp.gps
 stars: 4.7
 ratings: 
-reviews: 67
+reviews: 70
 size: 
 website: https://www.speed.app/
 repository: 

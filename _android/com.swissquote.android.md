@@ -12,7 +12,7 @@ updated: 2024-04-02
 version: 7.17.2
 stars: 3.4
 ratings: 
-reviews: 39
+reviews: 40
 size: 
 website: https://www.swissquote.com/
 repository: 

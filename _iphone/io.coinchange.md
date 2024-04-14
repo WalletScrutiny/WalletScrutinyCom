@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.coinchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-03-02
+date: 2024-04-14
 signer: 
 reviewArchive: 
 twitter: coinchangeio

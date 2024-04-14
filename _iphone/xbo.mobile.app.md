@@ -8,11 +8,11 @@ appId: xbo.mobile.app
 appCountry: cy
 idd: '1638748643'
 released: 2022-09-24
-updated: 2024-03-28
-version: 2.0.7
+updated: 2024-04-11
+version: 2.0.9
 stars: 5
 reviews: 5
-size: '135883776'
+size: '139120640'
 website: https://www.xbo.com/
 repository: 
 issue: 

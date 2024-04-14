@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.afripayx.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-04-16
+date: 2024-04-10
 signer: 
 reviewArchive: 
 twitter: 

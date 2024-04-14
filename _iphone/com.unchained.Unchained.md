@@ -3,16 +3,16 @@ wsId:
 title: 'Unchained: Bitcoin Only'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.unchained.Unchained
 appCountry: us
 idd: '6457364167'
-released: '2024-03-23T07:00:00Z'
-updated: 2024-03-23
-version: '1.0'
+released: 2024-03-23
+updated: 2024-04-10
+version: '1.1'
 stars: 5
-reviews: 58
-size: '23793664'
+reviews: 59
+size: '24031232'
 website: https://unchained.com/
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: unchainedcom
 social:
-- https://www.linkedin.com/company/unchainedcom 
+- https://www.linkedin.com/company/unchainedcom
 features: 
 developerName: Unchained Capital, Inc.
 

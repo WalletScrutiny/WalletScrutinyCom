@@ -24,14 +24,13 @@ meta: ok
 verdict: unreleased
 date: 2024-04-09
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 features: 
 
 ---
-
 
 ## Product Description 
 

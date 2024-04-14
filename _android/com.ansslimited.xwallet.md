@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ansslimited.xwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-02
+date: 2024-04-13
 signer: 
 reviewArchive: 
 twitter: 
