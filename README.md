@@ -15,6 +15,26 @@ Pull Requests welcome.
 1. Install bundler: `gem install bundler:2.1.4`
 1. Install bundler stuff: `bundler install`
 
+* Note: when executing `gem install bundler:2.1.1` on a debian/Ubuntu based system, you could
+encounter an error which sounds something like you need to execute it using `sudo`. This is 
+not recommended. An alternative method is to configure RubyGems to install gems in your home 
+directory and avoid using `sudo` for gem installations, follow these steps:
+
+- Set the home path for gems in your `.bashrc` profile
+
+```
+$ nano bashrc
+```
+
+- Change the home and the path at the end of the file:
+
+```
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+```
+
+- Apply the changes with `$ source ./bashrc`
+
 ### For local development
 
 This is for you if you want to make changes. It starts a server that you can
