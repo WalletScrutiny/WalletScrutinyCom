@@ -19,14 +19,19 @@ reviews: 314
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
+issue: https://github.com/BlueWallet/BlueWallet/issues/6409
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-04-11
+verdict: ftbfs
+date: 2024-04-13
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2024-04-11
+  version: "6.6.0"
+  appHash: 57032d9016e70c7e6b40bb12c1c836514c8ed88b707ded9f1bfcdfa7afc53354
+  gitRevision: 751ed3179997adb455ae23b0a4d44e1d6c50f929
+  verdict: nonverifiable
 - date: 2024-03-21
   version: 6.5.9
   appHash: 7212a960b945a86b7ce7338130eaed24e4b1aac1eb0008e1cbd12c5502726766
@@ -94,51 +99,6 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}. 
 
-Note, we made some adjustments to the dockerfile in view of node requirements.
-
-```
-===== Begin Results =====
-appId:          io.bluewallet.bluewallet
-signer:         42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
-apkVersionName: 6.6.0
-apkVersionCode: 1712260755
-verdict:        
-appHash:        57032d9016e70c7e6b40bb12c1c836514c8ed88b707ded9f1bfcdfa7afc53354
-commit:         5554ae8e13e0bb1ae4aa7f50c08bac123fa0ed1d
-
-Diff:
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/AndroidManifest.xml differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/assets/dexopt/baseline.profm and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/assets/index.android.bundle differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/classes3.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/classes3.dex differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/arm64-v8a/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/arm64-v8a/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/armeabi-v7a/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/armeabi-v7a/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/x86/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/x86/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/x86/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/x86/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/x86_64/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/x86_64/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/lib/x86_64/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712260755/lib/x86_64/librnscreens.so differ
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712260755/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712260755: stamp-cert-sha256
-
-Revision, tag (and its signature):
-object 5554ae8e13e0bb1ae4aa7f50c08bac123fa0ed1d
-type commit
-tag v6.6.0
-tagger Marcos Rodriguez Velez <marcospr@pm.me> 1712324161 -0400
-
-v6.6.0
-===== End Results =====
-
-```
-
-But the Play Store version differs widely from what we built from source. This
-product is **not reproducible**.
-
-A recording of the test:
-
-{% include asciicast %}
+The script does not end and
+[just freezes](https://github.com/BlueWallet/BlueWallet/issues/6409).
+This product is **not verifiable**.
