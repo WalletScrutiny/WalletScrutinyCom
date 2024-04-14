@@ -22,9 +22,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-03-18
+date: 2024-04-13
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-03-18
+  version: "2.2.1"
+  appHash: 3a1523b4ddeebff58deeb2f877e2d2f33924fdb8870e4bf34038fee9e7b87f53
+  gitRevision: 751ed3179997adb455ae23b0a4d44e1d6c50f929
+  verdict: nonverifiable
 - date: 2024-02-27
   version: 2.2.0
   appHash: 74724d77d02c216807bfeb40a69c3081a0b213f9d00e3aa82a637d7973a23d3a
@@ -96,33 +101,37 @@ features:
 
 ---
 
-As of version 2.2.1, the differences between the built and provided apks, are still substantial enough to warrant a verdict of non-verifiability.
+Our test script gave us these results:
 
 ```
+===== End Results =====
+
+Run a full
+diff --recursive /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
+meld /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
+or
+diffoscope "/home/leo/Documents/walletscrutiny/incoming/Phoenix 2.2.2.apk" /tmp/test_fr.acinq.phoenix.mainnet/app/phoenix-android/build/outputs/apk/release/phoenix-78-2.2.2-mainnet-release.apk
+for more details.'
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.2.1
-apkVersionCode: 77
+apkVersionName: 2.2.2
+apkVersionCode: 78
 verdict:        
-appHash:        3a1523b4ddeebff58deeb2f877e2d2f33924fdb8870e4bf34038fee9e7b87f53
-commit:         a1e5663585acaefd2bb8d0dc476d9e671bc2a9b1
+appHash:        2550481acca5f800e83a76a54f3cd2d390a64cadf9055b184b63df8b8e01cddd
+commit:         e1bed63f1f02da4306f98d82576fa522f3935376
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_77/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_77/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
-
-
 ```
 
 That is a bigger diff than expected. This version is **not verifiable**.
-
-{% include asciicast %}
