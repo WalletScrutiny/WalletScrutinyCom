@@ -6,6 +6,7 @@ version=$1
 screen=$2
 buildHash=$3
 releaseHash=$4
+gitRevision="${5:-v$version}"
 dockerImage="foundation-devices/passport2:latest"
 
 # Set file name according to model specified
@@ -33,7 +34,7 @@ wget -q --show-progress https://github.com/Foundation-Devices/passport2/releases
 # Clone the specified release branch
 git clone https://github.com/Foundation-Devices/passport2.git
 cd passport2
-git checkout v${version}
+git checkout ${gitRevision}
 
 # Build the Docker image used for building firmware reproducibly
 docker build --no-cache -t ${dockerImage} .
