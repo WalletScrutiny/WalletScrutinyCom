@@ -30,6 +30,8 @@ RUN set -ex; \
 WORKDIR /Users/runner/work/1/s/
 
 RUN set -ex; \
+    npm config set fetch-retry-maxtimeout 600000; \
+    npm config set fetch-retry-mintimeout 100000; \
     npm install --production --no-optional --omit=optional --no-audit --no-fund --ignore-scripts; \
     npm run postinstall; \
     # Work around issue with realm: https://github.com/realm/realm-js/issues/6204#issuecomment-1772638401
@@ -38,4 +40,6 @@ RUN set -ex; \
 
 RUN set -ex; \
     cd /Users/runner/work/1/s/android; \
-    ./gradlew assembleRelease
+    ./gradlew assembleRelease \
+        -Dorg.gradle.internal.http.socketTimeout=600000 \
+        -Dorg.gradle.internal.http.connectionTimeout=600000

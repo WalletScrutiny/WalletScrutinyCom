@@ -23,7 +23,7 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/6409
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: nonverifiable
 date: 2024-04-13
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
@@ -102,3 +102,48 @@ procedure expressed in our {% include testScript.html %}.
 The script does not end and
 [just freezes](https://github.com/BlueWallet/BlueWallet/issues/6409).
 This product is **not verifiable**.
+
+After many hours of trying as documented on above issue, the build succeeded
+with a huge diff:
+
+```
+===== Begin Results =====
+appId:          io.bluewallet.bluewallet
+signer:         42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
+apkVersionName: 6.6.1
+apkVersionCode: 1712788857
+verdict:        
+appHash:        65840ba3a127285f3f76f6471dfe004c4ad9a213b17f56eb3a2d41a4eaf58831
+commit:         749351f3019a5624bce7b315166c49911ed1c0b8
+
+Diff:
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/AndroidManifest.xml differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/assets/dexopt/baseline.profm and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/assets/index.android.bundle differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/classes3.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/classes3.dex differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/arm64-v8a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/arm64-v8a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/armeabi-v7a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/armeabi-v7a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/x86/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/x86/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/x86/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/x86/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/x86_64/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/x86_64/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/lib/x86_64/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1712788857/lib/x86_64/librnscreens.so differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712788857/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1712788857: stamp-cert-sha256
+
+Revision, tag (and its signature):
+object 749351f3019a5624bce7b315166c49911ed1c0b8
+type commit
+tag v6.6.1
+tagger Marcos Rodriguez Velez <marcospr@pm.me> 1712785585 -0400
+
+v6.6.1
+===== End Results =====
+```
+
+Upon closer inspection using diffoscope, the diff does not look clearly benign.
+This binary is **not verifiable**.
