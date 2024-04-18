@@ -22,12 +22,12 @@ shop:
 country: US
 price: 
 repository: https://github.com/Foundation-Devices/passport2
-issue: https://github.com/Foundation-Devices/passport2/issues/493
+issue: 
 icon: passport.png
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
-verdict: ftbfs
-date: 2024-03-31
+verdict: reproducible
+date: 2024-04-18
 signer: 
 reviewArchive:
 - date: 2023-06-20
@@ -97,3 +97,33 @@ a speedy resolution of our issue as
 [filed here](https://github.com/Foundation-Devices/passport2/issues/493).
 
 {% include asciicast %}
+
+**Update 2024-04-18**: Our
+[build issues](https://github.com/Foundation-Devices/passport2/issues/493) were
+addressed by the provider. We now managed to run the updated build script as
+such:
+
+```
+$ ./scripts/test/hardware/passport.sh 2.3.0 \
+    mono \
+    db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de \
+    98833fdb3202ed09921d7bab43d77199ef66e7a87fc201cdbd8368bafcb9ba46 \
+    2.3.0-reproducibility
+...
+Built v2.3.0 binary sha256 hash:
+db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de  ports/stm32/build-Passport/firmware-MONO.bin
+Expected v2.3.0 build hash:
+db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de
+ports/stm32/build-Passport/firmware-MONO.bin: OK
+v2.3.0 release binary sha256 hash:
+98833fdb3202ed09921d7bab43d77199ef66e7a87fc201cdbd8368bafcb9ba46  ../v2.3.0-founders-passport.bin
+Expected v2.3.0 release binary hash:
+98833fdb3202ed09921d7bab43d77199ef66e7a87fc201cdbd8368bafcb9ba46
+../v2.3.0-founders-passport.bin: OK
+Comparing v2.3.0 stripped release binary hash:
+Expected v2.3.0 build hash:
+db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de
+no-header-v2.3.0-founders-passport.bin: OK
+```
+
+This looks good. This release is **reproducible**.
