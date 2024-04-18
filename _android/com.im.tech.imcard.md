@@ -7,8 +7,8 @@ users: 50
 appId: com.im.tech.imcard
 appCountry: 
 released: 2022-01-12
-updated: 2024-02-29
-version: 1.7.0
+updated: 2024-04-17
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 

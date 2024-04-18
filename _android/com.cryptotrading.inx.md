@@ -12,7 +12,7 @@ updated: 2024-04-01
 version: 2.0.9
 stars: 4.5
 ratings: 
-reviews: 15
+reviews: 16
 size: 
 website: https://www.inx.co
 repository: 

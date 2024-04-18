@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-11
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: SWallet_ai

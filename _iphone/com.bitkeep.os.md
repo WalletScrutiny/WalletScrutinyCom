@@ -10,8 +10,8 @@ idd: 1395301115
 released: 2018-09-26
 updated: 2024-04-05
 version: 8.13.1
-stars: 4.6
-reviews: 1220
+stars: 4.7
+reviews: 1262
 size: '172177408'
 website: https://bitkeep.com
 repository: 

@@ -7,8 +7,8 @@ users: 1000
 appId: app.vipsats.vipsats
 appCountry: 
 released: 2023-10-12
-updated: 2024-03-23
-version: 1.3.2
+updated: 2024-04-16
+version: 1.3.4
 stars: 4.3
 ratings: 
 reviews: 6

@@ -9,10 +9,10 @@ appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
 updated: 2024-04-08
-version: 3.2.03
-stars: 4.1
+version: 3.2.05
+stars: 4.2
 ratings: 22977
-reviews: 46
+reviews: 49
 size: 
 website: https://reku.id
 repository: 

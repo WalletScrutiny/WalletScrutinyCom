@@ -12,7 +12,7 @@ updated: 2023-09-20
 version: 1.1.14
 stars: 3.5
 ratings: 
-reviews: 40
+reviews: 41
 size: 
 website: https://switchere.com/
 repository: 

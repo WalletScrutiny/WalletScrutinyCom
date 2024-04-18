@@ -8,8 +8,8 @@ users: 1000
 appId: com.bgw.wallet
 appCountry: 
 released: 2022-07-14
-updated: 2024-02-27
-version: 0.3.1
+updated: 2024-04-16
+version: 0.3.2
 stars: 
 ratings: 
 reviews: 

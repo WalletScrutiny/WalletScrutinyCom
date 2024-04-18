@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-02
 updated: 2024-04-05
 version: 4.19.0
-stars: 3.6
+stars: 3.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://www.finanzen.net/zero
 repository: 

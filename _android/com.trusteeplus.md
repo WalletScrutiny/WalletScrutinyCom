@@ -8,8 +8,8 @@ users: 100000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
-updated: 2024-03-27
-version: 1.30.6
+updated: 2024-04-15
+version: 1.30.7
 stars: 3
 ratings: 
 reviews: 9

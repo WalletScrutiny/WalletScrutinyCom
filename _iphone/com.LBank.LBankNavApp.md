@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/lbank
 - https://www.facebook.com/LBank.info
 features: 
-developerName: LBK BLOCKCHAIN CO FZCO
+developerName: LBANK EXCHANGE UAB
 
 ---
 

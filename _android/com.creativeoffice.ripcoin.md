@@ -10,9 +10,9 @@ appCountry:
 released: 2021-02-25
 updated: 2024-01-08
 version: '15300'
-stars: 3.3
+stars: 3.4
 ratings: 
-reviews: 229
+reviews: 228
 size: 
 website: https://antnetwork.antf.online/
 repository: 

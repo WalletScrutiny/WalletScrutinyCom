@@ -7,8 +7,8 @@ users: 100
 appId: uni.global.mcdc_client_app
 appCountry: 
 released: 2022-01-24
-updated: 2024-04-12
-version: 2.0.10
+updated: 2024-04-15
+version: 4.0.2
 stars: 
 ratings: 
 reviews: 

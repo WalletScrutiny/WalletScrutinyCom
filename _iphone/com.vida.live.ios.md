@@ -10,8 +10,8 @@ idd: '1521523628'
 released: 2022-03-09
 updated: 2023-10-06
 version: 1.0.0
-stars: 3.2
-reviews: 23
+stars: 3.1
+reviews: 24
 size: '80238592'
 website: https://vida.io
 repository: 

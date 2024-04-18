@@ -12,7 +12,7 @@ updated: 2024-04-08
 version: 3.0.8
 stars: 4
 ratings: 82
-reviews: 38
+reviews: 36
 size: 
 website: https://ex.z.com/
 repository: 

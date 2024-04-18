@@ -12,7 +12,7 @@ updated: 2023-11-06
 version: 0.117.0
 stars: 3.6
 ratings: 
-reviews: 18
+reviews: 19
 size: 
 website: https://www.finbloxapp.com/
 repository: 

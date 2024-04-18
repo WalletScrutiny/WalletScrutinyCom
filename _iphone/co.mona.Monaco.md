@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, BOME
+title: Crypto.com - Buy Bitcoin, SOL
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2024-04-11
-version: 3.183.30
+updated: 2024-04-17
+version: 3.184.01
 stars: 4.6
-reviews: 208693
-size: '572477440'
+reviews: 210542
+size: '574661632'
 website: https://crypto.com/
 repository: 
 issue: 

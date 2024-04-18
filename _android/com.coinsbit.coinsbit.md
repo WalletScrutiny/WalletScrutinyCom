@@ -8,8 +8,8 @@ users: 500000
 appId: com.coinsbit.coinsbit
 appCountry: 
 released: 2019-10-28
-updated: 2023-03-17
-version: 1.0.1
+updated: 2024-04-12
+version: 1.0.2
 stars: 2.5
 ratings: 1855
 reviews: 48
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinsbit.coinsbit.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-03-12
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: c0insbit

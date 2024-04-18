@@ -12,7 +12,7 @@ updated: 2024-04-03
 version: 1.33.25
 stars: 4.4
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://www.ancrypto.io/
 repository: 

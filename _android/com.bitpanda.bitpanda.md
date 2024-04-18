@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-07
 updated: 2024-04-12
 version: 2.71.0
-stars: 3.4
+stars: 3.5
 ratings: 
-reviews: 15
+reviews: 16
 size: 
 website: https://www.bitpanda.com
 repository: 

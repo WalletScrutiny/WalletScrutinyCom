@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.risingcoin.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-28
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: Risingcoin_rsc

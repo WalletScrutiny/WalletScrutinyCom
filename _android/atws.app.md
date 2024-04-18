@@ -8,7 +8,7 @@ users: 1000000
 appId: atws.app
 appCountry: us
 released: 2010-12-15
-updated: 2024-04-04
+updated: 2024-04-17
 version: 8.4.739
 stars: 4.7
 ratings: 7723

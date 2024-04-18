@@ -10,9 +10,9 @@ appCountry:
 released: 
 updated: 2024-03-20
 version: 3.19.0
-stars: 
+stars: 4.5
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://plutus.it/
 repository: 

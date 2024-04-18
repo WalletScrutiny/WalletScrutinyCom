@@ -4,11 +4,11 @@ title: Primal
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: net.primal.android
 appCountry: 
 released: 
-updated: 2024-04-09
+updated: 2024-04-17
 version: VARY
 stars: 
 ratings: 

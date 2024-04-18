@@ -9,10 +9,10 @@ appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
 updated: 2024-04-13
-version: 3.0.28
+version: 3.0.30
 stars: 3.5
 ratings: 7090
-reviews: 2864
+reviews: 2863
 size: 
 website: https://koinbx.com/
 repository: 

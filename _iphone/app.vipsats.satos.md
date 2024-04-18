@@ -8,11 +8,11 @@ appId: app.vipsats.satos
 appCountry: tt
 idd: '6445799528'
 released: 2023-03-27
-updated: 2024-04-11
-version: 1.3.5
+updated: 2024-04-16
+version: 1.3.6
 stars: 0
 reviews: 0
-size: '2947072'
+size: '2963456'
 website: https://vipsats.app
 repository: 
 issue: 
