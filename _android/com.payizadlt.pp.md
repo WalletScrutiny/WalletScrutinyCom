@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.payizadlt.pp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-07
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: payizamoney

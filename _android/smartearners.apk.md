@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: smartearners.apk.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-09
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

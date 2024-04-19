@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ixxgoogle_android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-11-08
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

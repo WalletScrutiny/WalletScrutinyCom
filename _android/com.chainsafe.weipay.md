@@ -19,9 +19,9 @@ repository: https://github.com/ChainSafe/WeiPay
 issue: 
 icon: com.chainsafe.weipay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-08
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rapixchangeapp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-03-19
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

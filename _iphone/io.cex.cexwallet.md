@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.cex.cexwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-30
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: cex_io

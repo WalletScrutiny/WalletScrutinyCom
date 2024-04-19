@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pandats.axia.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-10-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

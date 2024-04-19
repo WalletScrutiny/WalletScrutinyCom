@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.centfinance.mobile.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2024-01-19
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: Cent_Finance

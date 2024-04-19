@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: appinventor.ai_mlmsolution88.Troquer.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

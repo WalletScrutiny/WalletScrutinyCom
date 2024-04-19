@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitturkmobile.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-01-29
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: bitturkcom

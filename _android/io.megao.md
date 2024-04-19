@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.megao.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-03-30
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

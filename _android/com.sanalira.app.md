@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sanalira.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-08-07
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: sanaliracom

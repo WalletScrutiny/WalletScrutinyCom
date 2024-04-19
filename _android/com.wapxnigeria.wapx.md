@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wapxnigeria.wapx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-30
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,9 +20,9 @@ repository: https://github.com/greenaddress/abcore
 issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: reproducible
-date: 2023-09-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

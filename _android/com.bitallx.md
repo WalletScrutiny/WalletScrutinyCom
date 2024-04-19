@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitallx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

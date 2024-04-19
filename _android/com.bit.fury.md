@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bit.fury.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-24
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

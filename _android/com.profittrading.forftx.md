@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forftx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-09-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

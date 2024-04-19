@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.amaswallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

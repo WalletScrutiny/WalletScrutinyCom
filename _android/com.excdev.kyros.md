@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.excdev.kyros.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-01-28
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

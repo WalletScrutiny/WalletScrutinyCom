@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashcash.bitrump.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-24
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

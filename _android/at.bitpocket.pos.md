@@ -19,9 +19,9 @@ repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 
 icon: at.bitpocket.pos.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-08-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

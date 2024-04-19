@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ikigai.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-29
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

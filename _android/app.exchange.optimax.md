@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.exchange.optimax.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-05
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

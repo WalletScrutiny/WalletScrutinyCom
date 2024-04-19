@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchaincommodities.hippoWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-24
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: HippoWallet

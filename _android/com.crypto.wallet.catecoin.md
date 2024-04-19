@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.wallet.catecoin.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: catecoin

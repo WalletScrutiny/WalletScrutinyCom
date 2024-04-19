@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.noid.cards.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2024-01-05
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: noidcards

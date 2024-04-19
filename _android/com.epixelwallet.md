@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.epixelwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

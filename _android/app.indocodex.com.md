@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.indocodex.com.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: indocodex

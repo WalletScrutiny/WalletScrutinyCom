@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitin.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-02-05
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

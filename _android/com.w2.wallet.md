@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.w2.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-07
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

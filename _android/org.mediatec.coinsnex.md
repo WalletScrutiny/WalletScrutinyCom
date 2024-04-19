@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.mediatec.coinsnex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

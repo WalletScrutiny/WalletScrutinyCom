@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mc900.mc900.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-06
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-09
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coingate.pos.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2021-08-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

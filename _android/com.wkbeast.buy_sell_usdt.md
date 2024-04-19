@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wkbeast.buy_sell_usdt.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-07-31
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
