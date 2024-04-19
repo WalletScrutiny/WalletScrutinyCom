@@ -10,8 +10,8 @@ idd: '1537333567'
 released: 2020-11-07
 updated: 2022-07-29
 version: 1.2.5
-stars: 4
-reviews: 20
+stars: 3.8
+reviews: 21
 size: '70612992'
 website: https://www.tomya.com
 repository: 

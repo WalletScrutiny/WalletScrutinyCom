@@ -12,7 +12,7 @@ updated: 2024-04-12
 version: 2.132.0
 stars: 4.6
 ratings: 54327
-reviews: 11673
+reviews: 11676
 size: 
 website: https://www.wealthsimple.com/en-ca/
 repository: 

@@ -11,7 +11,7 @@ released: 2018-03-26
 updated: 2023-08-31
 version: '3.7'
 stars: 4.2
-reviews: 927
+reviews: 926
 size: '238629888'
 website: https://cards.crypterium.com/visa
 repository: 

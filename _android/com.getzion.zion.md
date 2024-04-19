@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-21
 updated: 2023-05-12
 version: 2.0.5
-stars: 2.4
+stars: 2
 ratings: 
-reviews: 
+reviews: 27
 size: 
 website: https://getzion.com
 repository: 

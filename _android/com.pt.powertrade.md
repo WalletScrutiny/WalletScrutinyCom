@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pt.powertrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-02
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: powertradehq

@@ -8,11 +8,11 @@ appId: com.platnova.appin
 appCountry: us
 idd: '1619003446'
 released: 2022-04-26
-updated: 2024-04-05
-version: 0.8.9
+updated: 2024-04-18
+version: 0.9.0
 stars: 3.5
 reviews: 37
-size: '155711488'
+size: '155793408'
 website: https://platnova.com
 repository: 
 issue: 

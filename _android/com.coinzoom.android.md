@@ -4,12 +4,12 @@ title: CoinZoom feat. ZoomMe
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinzoom.android
 appCountry: 
 released: 2022-03-25
-updated: 2024-03-22
-version: 1.2.0.10133
+updated: 2024-04-17
+version: 1.2.0.10135
 stars: 3.4
 ratings: 
 reviews: 63

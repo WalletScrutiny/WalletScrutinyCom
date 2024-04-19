@@ -4,7 +4,7 @@ title: Trade Crypto.BinanceKucoinOkex
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.mayex.trading
 appCountry: 
 released: 2022-03-07

@@ -10,8 +10,8 @@ idd: '1616451007'
 released: 2022-07-11
 updated: 2024-02-09
 version: 0.3.9+173
-stars: 3.4
-reviews: 19
+stars: 3.3
+reviews: 20
 size: '159551488'
 website: https://xrpaynet.com
 repository: 

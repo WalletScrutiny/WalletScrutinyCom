@@ -11,7 +11,7 @@ updated: 2024-03-14
 version: 1.2.7
 stars: 4.5
 ratings: 
-reviews: 36
+reviews: 35
 size: 
 website: https://www.liteforex.eu
 repository: 

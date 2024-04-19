@@ -11,7 +11,7 @@ released: 2020-11-04
 updated: 2024-04-04
 version: 2.0.60
 stars: 3.3
-reviews: 107
+reviews: 108
 size: '105161728'
 website: https://www.lanistar.com
 repository: 

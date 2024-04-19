@@ -4,7 +4,7 @@ title: Coinlocally
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinlocally.android
 appCountry: 
 released: 2022-04-21

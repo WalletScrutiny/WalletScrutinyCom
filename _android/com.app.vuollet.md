@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.vuollet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-07
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: Vuollet_io
