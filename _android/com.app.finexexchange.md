@@ -3,7 +3,7 @@ wsId:
 title: Finex
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.app.finexexchange
 appCountry: 
 released: 2022-07-18

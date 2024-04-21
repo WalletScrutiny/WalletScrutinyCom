@@ -8,8 +8,8 @@ appId: com.defichain.app
 appCountry: qa
 idd: 1572472820
 released: 2021-08-18
-updated: 2024-04-04
-version: 2.41.0
+updated: 2024-04-19
+version: 2.42.0
 stars: 0
 reviews: 0
 size: '38525952'

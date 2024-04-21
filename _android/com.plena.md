@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-06
 updated: 2024-04-16
 version: 3.8.2
-stars: 4.9
+stars: 4.8
 ratings: 
-reviews: 677
+reviews: 678
 size: 
 website: https://www.plena.finance/
 repository: 

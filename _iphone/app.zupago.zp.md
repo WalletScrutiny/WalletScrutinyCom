@@ -11,7 +11,7 @@ released: 2021-05-10
 updated: 2024-04-17
 version: 1.0.63
 stars: 4.5
-reviews: 51
+reviews: 52
 size: '27058176'
 website: https://vizo.app
 repository: 

@@ -12,7 +12,7 @@ updated: 2024-04-12
 version: 2.4.23
 stars: 4.6
 ratings: 578
-reviews: 64
+reviews: 63
 size: 
 website: http://roseon.world
 repository: 

@@ -4,7 +4,7 @@ title: ActPass Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.actoz.actpass
 appCountry: 
 released: 2022-11-29

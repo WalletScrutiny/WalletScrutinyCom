@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-10
+date: 2024-04-21
 signer: 
 reviewArchive: 
 twitter: btccom_official

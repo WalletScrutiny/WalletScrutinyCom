@@ -12,7 +12,7 @@ updated: 2023-07-11
 version: 2.2.1
 stars: 4.7
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://befiwallet.io/
 repository: 

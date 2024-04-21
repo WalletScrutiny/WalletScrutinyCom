@@ -11,7 +11,7 @@ released: 2019-05-29
 updated: 2024-04-09
 version: 4.2.2
 stars: 2.4
-reviews: 33
+reviews: 34
 size: '40685568'
 website: https://www.paribu.com
 repository: 
