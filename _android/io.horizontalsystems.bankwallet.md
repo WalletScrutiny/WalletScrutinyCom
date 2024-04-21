@@ -22,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-04-10
+date: 2024-04-21
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-04-10
+  version: 0.37.6
+  appHash: 3d7ff62ef1065f8b25e3fb6be92536a83ec5a61607313dc16f7b33dea50cb06c
+  gitRevision: c34d98a17c9747179bb8760e595a5aca95530139
+  verdict: reproducible
 - date: 2024-03-18
   version: 0.37.5
   appHash: eb44e7b4b959ba21758914ddd9edd60b3019ce69b1de445bddf703f2aba49148
@@ -245,22 +250,20 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.37.6
-apkVersionCode: 100
+apkVersionName: 0.38.0
+apkVersionCode: 102
 verdict:        reproducible
-appHash:        3d7ff62ef1065f8b25e3fb6be92536a83ec5a61607313dc16f7b33dea50cb06c
-commit:         454cb88a3f4687d77ffc3d2d878462f23b4b9dab
+appHash:        64c2ff7cdb241a5da521651822c7df074983d764f9b52441f6a9cb7a0285eff0
+commit:         66cd5fe8fddfcbc04637f19c9595b6d06a9de004
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_100/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_100/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_100/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
-
-
 ```
 
 This is what we want to see to call it **reproducible**.
