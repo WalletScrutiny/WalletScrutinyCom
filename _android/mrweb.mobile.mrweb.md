@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: mrweb.mobile.mrweb.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-25
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: 

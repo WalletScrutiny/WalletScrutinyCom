@@ -12,7 +12,7 @@ updated: 2024-04-16
 version: 8.22.1
 stars: 4.5
 ratings: 39345
-reviews: 2926
+reviews: 2927
 size: 
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet

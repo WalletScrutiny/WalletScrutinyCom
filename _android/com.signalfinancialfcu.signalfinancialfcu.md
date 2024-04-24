@@ -8,8 +8,8 @@ users: 1000
 appId: com.signalfinancialfcu.signalfinancialfcu
 appCountry: 
 released: 2022-09-20
-updated: 2024-03-18
-version: 4012.2.0
+updated: 2024-04-22
+version: 4012.3.0
 stars: 4.7
 ratings: 
 reviews: 20

@@ -12,7 +12,7 @@ updated: 2024-04-18
 version: 3.11.1
 stars: 3
 ratings: 
-reviews: 5
+reviews: 4
 size: 
 website: https://vivid.money/
 repository: 

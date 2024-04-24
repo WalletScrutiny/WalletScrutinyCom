@@ -8,11 +8,11 @@ appId: io.vircap.main
 appCountry: ng
 idd: '1616529546'
 released: 2022-10-18
-updated: 2024-04-15
-version: 1.0.45
+updated: 2024-04-23
+version: 1.0.46
 stars: 4.6
 reviews: 9
-size: '117107712'
+size: '113364992'
 website: 
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BotTrade - Auto Trading Signal
+title: BotTrade
 altTitle: 
 authors: 
 users: 100

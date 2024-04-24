@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Bitcoin Inheritance & Backup
+title: Crypto Inheritance & Backup
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-03-26
 version: 2.1.1
 stars: 4.5
 ratings: 
-reviews: 99
+reviews: 100
 size: 
 website: http://vault12.com
 repository: https://github.com/vault12

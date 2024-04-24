@@ -3,7 +3,7 @@ wsId:
 title: CryptoSimple
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.cryptosimple.prod
 appCountry: 
 released: 2022-06-01
@@ -19,7 +19,7 @@ issue:
 icon: com.cryptosimple.prod.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2023-12-13
 signer: 
 reviewArchive: 

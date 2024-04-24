@@ -11,7 +11,7 @@ released: 2021-12-31
 updated: 2023-12-11
 version: '3.4'
 stars: 3.3
-reviews: 109
+reviews: 110
 size: '41366528'
 website: https://coincred.org/
 repository: 

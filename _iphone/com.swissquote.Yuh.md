@@ -8,11 +8,11 @@ appId: com.swissquote.Yuh
 appCountry: ch
 idd: '1493935010'
 released: 2021-05-10
-updated: 2024-04-15
-version: 1.21.5
+updated: 2024-04-22
+version: 1.21.6
 stars: 4.7
-reviews: 11706
-size: '123171840'
+reviews: 11744
+size: '123261952'
 website: https://www.yuh.com
 repository: 
 issue: 

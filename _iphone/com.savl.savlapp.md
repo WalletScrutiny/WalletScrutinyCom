@@ -8,11 +8,11 @@ appId: com.savl.savlapp
 appCountry: ru
 idd: 1369912925
 released: 2018-04-22
-updated: 2024-04-20
-version: '6.3'
+updated: 2024-04-23
+version: '6.4'
 stars: 4.5
 reviews: 262
-size: '186073088'
+size: '186540032'
 website: https://savl.com
 repository: 
 issue: 

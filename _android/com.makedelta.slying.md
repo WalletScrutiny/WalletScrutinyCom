@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinmrk.com/
+website: https://traderkat.io/
 repository: 
 issue: 
 icon: com.makedelta.slying.png
