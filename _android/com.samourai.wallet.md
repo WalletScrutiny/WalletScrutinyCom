@@ -21,9 +21,9 @@ repository: https://code.samourai.io/wallet/samourai-wallet-android
 issue: 
 icon: com.samourai.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nonverifiable
-date: 2024-04-05
+date: 2024-04-26
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
 reviewArchive:
 - date: 2024-03-25

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wallet.brastoken.com.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

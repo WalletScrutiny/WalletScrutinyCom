@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cz.confirmo.app.confirmo_flutter.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-04-04
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: CryptoConfirmo

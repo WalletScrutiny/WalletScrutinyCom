@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sirinlabs.os.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

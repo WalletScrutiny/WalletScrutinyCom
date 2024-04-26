@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.androidwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-05-10
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: dCipher_io

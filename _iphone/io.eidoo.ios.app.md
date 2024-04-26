@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.eidoo.ios.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-08
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: eidoo_io

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-11-03
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: MidasProtocol

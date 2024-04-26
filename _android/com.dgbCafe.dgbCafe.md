@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dgbCafe.dgbCafe.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-03-07
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

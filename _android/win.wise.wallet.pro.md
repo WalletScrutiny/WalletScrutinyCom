@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: win.wise.wallet.pro.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-06
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

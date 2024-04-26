@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchain.nft.explore.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

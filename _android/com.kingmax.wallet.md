@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kingmax.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

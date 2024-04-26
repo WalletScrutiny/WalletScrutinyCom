@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.muda.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-02-28
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: mudatech_

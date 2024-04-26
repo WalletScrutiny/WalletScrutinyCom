@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: fcm.dbx24.com.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-10-06
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

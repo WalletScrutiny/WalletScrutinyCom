@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-12-21
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

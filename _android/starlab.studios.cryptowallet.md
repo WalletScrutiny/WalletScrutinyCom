@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: starlab.studios.cryptowallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fake
-date: 2023-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

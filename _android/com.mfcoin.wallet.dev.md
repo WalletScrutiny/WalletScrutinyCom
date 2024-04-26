@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mfcoin.wallet.dev.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: obfuscated
-date: 2022-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: MFC_tech
