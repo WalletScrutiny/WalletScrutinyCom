@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2024-04-17
-version: 3.184.01
+updated: 2024-04-25
+version: '3.185'
 stars: 4.6
-reviews: 212405
-size: '574661632'
+reviews: 213144
+size: '553245696'
 website: https://crypto.com/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.papaya.blackcatcard
 appCountry: lv
 idd: 1449352913
 released: 2019-03-07
-updated: 2024-04-15
-version: 1.2.54
+updated: 2024-04-25
+version: 1.2.55
 stars: 3.7
 reviews: 71
-size: '281060352'
+size: '282747904'
 website: https://blackcatcard.com
 repository: 
 issue: 

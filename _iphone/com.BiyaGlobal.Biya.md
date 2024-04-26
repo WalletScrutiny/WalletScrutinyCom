@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: BIYA Global
+title: Biya身份验证器
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.BiyaGlobal.Biya
 appCountry: sn
 idd: '1546702297'
 released: 2021-02-09
-updated: 2024-03-28
-version: 2.8.35
+updated: 2024-04-24
+version: 1.0.0
 stars: 0
 reviews: 0
-size: '63992832'
+size: '12923904'
 website: 
 repository: 
 issue: 

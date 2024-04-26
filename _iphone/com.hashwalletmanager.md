@@ -11,7 +11,7 @@ released: 2022-10-06
 updated: 2024-04-20
 version: 2.0.7
 stars: 5
-reviews: 6
+reviews: 7
 size: '56628224'
 website: https://gethashwallet.com
 repository: 

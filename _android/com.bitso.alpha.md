@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitso.alpha
 appCountry: GI
 released: 2021-09-28
-updated: 2024-04-05
-version: 1.21.2
+updated: 2024-04-24
+version: 1.22.1
 stars: 4
 ratings: 
 reviews: 497

@@ -12,7 +12,7 @@ updated: 2024-04-19
 version: 1.2.0.10137
 stars: 3.4
 ratings: 
-reviews: 63
+reviews: 64
 size: 
 website: https://www.coinzoom.com
 repository: 

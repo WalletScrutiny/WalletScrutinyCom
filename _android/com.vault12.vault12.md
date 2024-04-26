@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Crypto Inheritance & Backup
+title: Crypto Inheritance and Backup
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: 2019-08-28
-updated: 2024-03-26
-version: 2.1.1
+updated: 2024-04-24
+version: 2.2.0
 stars: 4.5
 ratings: 
 reviews: 100

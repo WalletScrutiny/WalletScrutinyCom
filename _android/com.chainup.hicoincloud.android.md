@@ -3,12 +3,12 @@ wsId:
 title: ChainUp Custody
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.chainup.hicoincloud.android
 appCountry: 
 released: 2022-12-09
-updated: 2024-04-03
-version: 6.5.7
+updated: 2024-04-25
+version: 6.5.8
 stars: 
 ratings: 
 reviews: 

@@ -10,8 +10,8 @@ idd: '1558420115'
 released: 2021-06-29
 updated: 2024-04-08
 version: 2.10.2
-stars: 0
-reviews: 0
+stars: 1
+reviews: 1
 size: '39602176'
 website: https://www.rapidz.io/
 repository: 

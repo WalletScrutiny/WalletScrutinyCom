@@ -12,7 +12,7 @@ updated: 2024-04-16
 version: 3.8.2
 stars: 4.8
 ratings: 
-reviews: 678
+reviews: 680
 size: 
 website: https://www.plena.finance/
 repository: 

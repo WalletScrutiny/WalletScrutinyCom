@@ -11,7 +11,7 @@ released: 2019-01-25
 updated: 2024-04-08
 version: 6.17.0
 stars: 4
-reviews: 145
+reviews: 146
 size: '58051584'
 website: https://www.bitfinex.com/mobile-trading/
 repository: 

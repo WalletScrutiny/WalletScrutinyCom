@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bonfire.ex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-25
 signer: 
 reviewArchive: 
 twitter: 
