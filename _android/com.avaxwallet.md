@@ -12,7 +12,7 @@ updated: 2024-04-03
 version: 0.14.7
 stars: 3.8
 ratings: 
-reviews: 64
+reviews: 65
 size: 
 website: http://core.app
 repository: 

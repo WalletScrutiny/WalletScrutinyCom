@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: bytesmix.live.co.kr.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: bytesmix

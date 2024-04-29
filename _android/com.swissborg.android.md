@@ -10,9 +10,9 @@ appCountry: gb
 released: 2020-06-16
 updated: 2024-04-15
 version: 1.82.0
-stars: 4.1
+stars: 4
 ratings: 9203
-reviews: 921
+reviews: 922
 size: 
 website: https://swissborg.com
 repository: 

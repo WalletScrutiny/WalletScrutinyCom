@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.indoex.dev.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-02
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

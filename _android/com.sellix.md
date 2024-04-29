@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-12
 updated: 2023-07-05
 version: '2.10'
-stars: 3.8
+stars: 3.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://help.sellix.io
 repository: 

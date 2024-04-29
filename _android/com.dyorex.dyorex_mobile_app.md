@@ -4,7 +4,7 @@ title: DyorEX Exchange
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.dyorex.dyorex_mobile_app
 appCountry: 
 released: 2022-02-24

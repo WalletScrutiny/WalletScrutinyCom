@@ -3,7 +3,7 @@ wsId:
 title: 'iSunOne: USDC Card'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.isunoneapp
 appCountry: 
 released: 2022-03-10
@@ -19,7 +19,7 @@ issue:
 icon: com.isunoneapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-07-22
 signer: 
 reviewArchive: 

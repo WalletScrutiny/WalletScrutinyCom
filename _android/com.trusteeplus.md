@@ -9,7 +9,7 @@ appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
 updated: 2024-04-25
-version: 1.30.8
+version: 1.31.0
 stars: 2.9
 ratings: 
 reviews: 9

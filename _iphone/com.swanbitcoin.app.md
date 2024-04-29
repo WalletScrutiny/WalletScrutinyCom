@@ -10,8 +10,8 @@ idd: '1576287352'
 released: 2022-08-25
 updated: 2024-04-10
 version: 1.7.1
-stars: 4.9
-reviews: 1107
+stars: 4.8
+reviews: 1120
 size: '112956416'
 website: http://www.swanbitcoin.com
 repository: 

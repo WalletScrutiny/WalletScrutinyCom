@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.Minty.Coincast.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-05-04
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: CoincastApp
