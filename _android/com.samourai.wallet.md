@@ -56,6 +56,25 @@ features:
 
 ---
 
+**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](https://web.archive.org/web/20240428014817/http://www.samouraiwallet.com/). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
+
+Because of Samourai Wallet's removal, users may find that their funds *appear* to have gone to zero. This is likely due to the servers going offline. Don't panic, as your coins are still there. However it is best to restore your backup to another wallet.
+
+## If you have been affected by this, here are some resources and steps to help recover your wallet:
+
+[WalletsRecovery.org](https://walletsrecovery.org/) is a site that allows you to find a specific wallet's supported derivation paths, whether it has a BIP39 pass, or supports BIP174 PSBT, as well as keeping track of documentation.
+
+Here's a [guide](https://twitter.com/_k3tan/status/1783389500485578847) detailing on how to import a Samourai Wallet into Sparrow. Make sure to keep track of your passphrase and check the "Use passphrase" box upon using it.
+
+Below are some step-by-step instructions on how to import a Samourai Wallet into Electrum:
+
+- 1. **Secure your recovery phrase:** This is the 12-word phrase that should have been generated once you created your wallet. Make sure it is in a safe place where it is easily accessible. **NEVER SHARE THIS WITH ANYONE, NOT EVEN WITH USERS WHO CLAIM TO BE DEVELOPERS OR STAFF.** Note that Samourai wallet comes with a separate passphrase, which is not the same as the 12-word seed phrase. Both of them need to be secured.
+- 2. **Find Samourai Wallet's derivation path:**  You can go to WalletsRecovery.org and find "Samourai Wallet" in the table on its homepage. Take note of the data provided, especially the derivation paths. Samourai offers multiple paths depending on the type of wallet you had. Select the wallet derivation path that applies to your original wallet.
+- 3. **Set up the backup:** Select `File > New/Restore`, choose `Standard Wallet`, select `I already have a seed` and enter the passphrase. 
+- 4. **Enter your Samourai Wallet passphrase:** Make sure to click **Options** and check BIP39. Then, check `Extend this seed with custom words.` You will have to enter your passphrase.
+- 5. **Set the path:** Set the derivation path to the one you selected in step 2. If that fails, leave the path as `m/84'/0'/0'`. Select "native segwit (p2wpkh)". 
+- 6. **Set the new password for Electrum.** It is advisable to save and backup this password.
+
 **Update 2024-04-05**: The provider did not tag their release but the relevant
 `versionCode` was set in
 [this commit](https://code.samourai.io/wallet/samourai-wallet-android/-/commit/64d464e7f616999aa6d64a20b9e3874a0f047f32)
