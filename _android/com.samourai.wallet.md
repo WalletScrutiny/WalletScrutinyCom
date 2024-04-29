@@ -56,6 +56,21 @@ features:
 
 ---
 
+**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](https://web.archive.org/web/20240428014817/http://www.samouraiwallet.com/). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
+
+Because of Samourai Wallet's takedown, users may find that their funds appear to have gone to zero. This is likely due to the servers going offline. The bitcoin has not "vanished", however it is best that the user restores their backup to a different wallet. 
+
+## If you have been affected by this, here are the steps to take to recover your wallet:
+
+[WalletsRecovery.org](https://walletsrecovery.org/) is a site that allows you to find a specific wallet's supported derivation paths, whether it has a BIP39 pass, or supports BIP174 PSBT, as well as keeping track of documentation.
+
+- 1. **Secure your recovery phrase:** This is the 12-word phrase that should have been generated once you created your wallet. Make sure it is in a safe place where it is easily accessible. **NEVER SHARE THIS WITH ANYONE, NOT EVEN WITH USERS WHO CLAIM TO BE DEVELOPERS OR STAFF.**
+- 2. **Find Samourai Wallet's derivation path:**  You can go to WalletsRecovery.org and find "Samourai Wallet" in the table on its homepage. Take note of the data provided, especially the derivation paths. Samourai offers multiple paths depending on the type of wallet you had. Select the wallet derivation path that applies to your original wallet.
+- 3. **Choose a wallet to restore your backup to:** We recommend a reproducible, non-custodial wallet such as {% include walletLink.html wallet='android/org.electrum.electrum' %} as you can enter your chosen derivation path there. 
+- 4. **Set up the backup:** Select `File > New/Restore`, choose `Standard Wallet`, select `I already have a seed` and enter the passphrase. Make sure to click **Options** and check BIP39.
+- 5. **Set the path:** Once the seed is confirmed, set the derivation path to the one you selected in step 2.
+- 6. **Set the password for Electrum.** It is advisable to save and backup this password for future use as well.
+
 **Update 2024-04-05**: The provider did not tag their release but the relevant
 `versionCode` was set in
 [this commit](https://code.samourai.io/wallet/samourai-wallet-android/-/commit/64d464e7f616999aa6d64a20b9e3874a0f047f32)
