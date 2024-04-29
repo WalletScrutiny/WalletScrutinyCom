@@ -11,7 +11,7 @@ released: 2021-05-10
 updated: 2024-04-22
 version: 1.21.6
 stars: 4.7
-reviews: 11759
+reviews: 11807
 size: '123261952'
 website: https://www.yuh.com
 repository: 

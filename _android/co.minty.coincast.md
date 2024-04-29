@@ -12,7 +12,7 @@ updated: 2022-05-13
 version: 1.2.15
 stars: 3.8
 ratings: 8
-reviews: 29
+reviews: 30
 size: 
 website: https://coincast.app
 repository: 

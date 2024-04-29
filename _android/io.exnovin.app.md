@@ -12,7 +12,7 @@ updated: 2024-04-22
 version: 2.10.7
 stars: 3.9
 ratings: 930
-reviews: 22
+reviews: 23
 size: 
 website: https://exnovin.io
 repository: 

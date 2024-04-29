@@ -8,7 +8,7 @@ appId: io.crypterium.minebest
 appCountry: lv
 idd: 1515134261
 released: 2021-02-25
-updated: 2022-08-02
+updated: 2024-04-27
 version: 1.0.5
 stars: 0
 reviews: 0
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.crypterium.minebest.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-07-28
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: 

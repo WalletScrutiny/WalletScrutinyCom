@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Francesco Lopez - Sonikchain Team
+developerName: Francesco - Sonikchain Team
 features: 
 
 ---

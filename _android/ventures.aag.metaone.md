@@ -4,15 +4,15 @@ title: 'Saakuru: All-in-one Crypto App'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: ventures.aag.metaone
 appCountry: 
 released: 2022-12-22
-updated: 2024-04-15
-version: 5.4.0
-stars: 4.1
+updated: 2024-04-26
+version: 5.5.0
+stars: 4.4
 ratings: 
-reviews: 3
+reviews: 5
 size: 
 website: https://getmeta.one/
 repository: 

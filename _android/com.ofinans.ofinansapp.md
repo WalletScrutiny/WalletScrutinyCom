@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-10
 updated: 2024-04-23
 version: 2.0.7
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: http://ofinans.com
 repository: 

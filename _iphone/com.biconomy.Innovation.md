@@ -10,8 +10,8 @@ idd: '1486151349'
 released: 2019-11-06
 updated: 2024-04-15
 version: 2.2.10
-stars: 4.1
-reviews: 55
+stars: 4.2
+reviews: 56
 size: '43329536'
 website: http://www.biconomy.com/
 repository: 

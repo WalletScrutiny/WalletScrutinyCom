@@ -9,11 +9,11 @@ users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2024-04-18
-version: 0.38.0
-stars: 4.1
+updated: 2024-04-25
+version: 0.38.3
+stars: 4
 ratings: 556
-reviews: 79
+reviews: 80
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
@@ -22,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-04-21
+date: 2024-04-28
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-04-21
+  version: "0.38.0"
+  appHash: 64c2ff7cdb241a5da521651822c7df074983d764f9b52441f6a9cb7a0285eff0
+  gitRevision: 0d241645fd13fda72b22378bcbc46928ada16264
+  verdict: reproducible
 - date: 2024-04-10
   version: 0.37.6
   appHash: 3d7ff62ef1065f8b25e3fb6be92536a83ec5a61607313dc16f7b33dea50cb06c
@@ -250,16 +255,16 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.38.0
-apkVersionCode: 102
+apkVersionName: 0.38.3
+apkVersionCode: 106
 verdict:        reproducible
-appHash:        64c2ff7cdb241a5da521651822c7df074983d764f9b52441f6a9cb7a0285eff0
-commit:         66cd5fe8fddfcbc04637f19c9595b6d06a9de004
+appHash:        7f1c412129a45740bd751f7f11ca3e5fa41b0fc79f38afb7bf232e8858224a79
+commit:         d3e3074b97f6980d6354a16a406f994c09144a11
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_102/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_106/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_106/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_106/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 

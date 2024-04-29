@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.macaron_swap.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-18
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: 

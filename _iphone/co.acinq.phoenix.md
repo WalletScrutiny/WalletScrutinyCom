@@ -12,7 +12,7 @@ released: 2021-07-13
 updated: 2024-04-15
 version: 2.2.4
 stars: 4.4
-reviews: 51
+reviews: 52
 size: '66202624'
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm
