@@ -27,18 +27,21 @@ echo "------------------------"
 echo "(SIGNED) Binary from Keystone Website :"
 sha256sum keystone3.bin     
 echo "------------------------"
-echo "^^^^^^^^^^^^^^^^^^^^^^^^"
+
+
 
 echo "------------------------"
 echo "Binary from build process:"
 sha256sum ./build/mh1903.bin
 echo "------------------------"
-echo "^^^^^^^^^^^^^^^^^^^^^^^^"
+
+
 
 echo "------------------------"
 echo "Unsigned Binary from Keystone Website :"
 ./tools/code/firmware-checker/target/debug/fmc --source keystone3-unsigned.bin
 echo "------------------------"
-echo "^^^^^^^^^^^^^^^^^^^^^^^^"
+
+
 
 echo "Unsigned .bin hash must be the same as mh1903.bin."
