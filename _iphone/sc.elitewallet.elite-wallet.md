@@ -19,8 +19,8 @@ issue:
 icon: sc.elitewallet.elite-wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-08-24
+verdict: nonverifiable
+date: 2024-05-01
 signer: 
 reviewArchive: 
 twitter: EliteWallet
