@@ -82,3 +82,36 @@ The hardware device then generates a QR code for the authorization.
 
 This hardware wallet is [**for verification.**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/524)
 
+We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md). 
+
+## Results
+
+```
+All builds complete.
+------------------------
+(SIGNED) Binary from Keystone Website :
+b85edf5bd058028e708437c125ad3d67ab6da520b402d9aec59b47705f3a5509  keystone3.bin
+------------------------
+------------------------
+Binary from build process:
+427e41a1b0bb25d122e06884464f1cebd7b526b35c975a39151a8e6ffc2fc352  ./build/mh1903.bin
+------------------------
+------------------------
+Unsigned Binary from Keystone Website :
+Firmware checksum sha256: 427e41a1b0bb25d122e06884464f1cebd7b526b35c975a39151a8e6ffc2fc352 
+You can check this value on your device.
+------------------------
+Unsigned .bin hash must be the same as mh1903.bin.
+```
+
+Following instructions from their documentation seems to indicate that the built file `mh1903.bin` has the same checksum as the downloaded binary. 
+
+However, we decided to take a closer look at the process behind the firmware checker. 
+
+We created an [issue](https://github.com/KeystoneHQ/keystone3-firmware/issues/967) in the repository of the provider.
+
+They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/967#issuecomment-2085060319), and pointed out that:
+> The keystone3-unsigned.bin is actually the compressed version of mh1903.bin with some headers, so what firmware-checker does is decompress the content then do a sha256 checksum.
+
+{% include asciicast %}
+
