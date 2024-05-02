@@ -15,7 +15,7 @@ issue:
 icon: hodler.tech.png
 bugbounty: 
 meta: defunct
-verdict: ok
+verdict: wip
 date: 2024-04-25
 reviewArchive:
 twitter: 

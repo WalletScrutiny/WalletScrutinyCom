@@ -45,7 +45,7 @@ unchangedSince 'five.weeks.ago'
 unchangedSince 'six.weeks.ago'
 
 # List missing icons
-for platform in hardware bearer android iphone; do
+for platform in hardware bearer desktop android iphone; do
   export platform=$platform
   diff \
     <(grep -l 'icon: .' _$platform/* \

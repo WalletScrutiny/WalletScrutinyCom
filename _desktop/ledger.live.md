@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2018-07-29
 discontinued: 
-updated: 2.79.1
-version: 2024-04-22
+updated: 2024-04-22
+version: 2.79.1 
 provider: Ledger
 providerWebsite: https://www.ledger.com
 website: https://www.ledger.com/ledger-live

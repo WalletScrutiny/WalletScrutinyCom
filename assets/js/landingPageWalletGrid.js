@@ -253,7 +253,7 @@ async function processStyle(wallet) {
   let imgObj = new Image();
   imgObj.src = `/images/wIcons/${wallet.folder}/small/${wallet.icon}`;
   imgObj.onload = function () {
-    if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware') {
+    if (wallet.folder !== 'bearer' && wallet.folder !== 'hardware' && wallet.folder !== 'desktop') {
       let instanceCanvas = document.createElement("canvas")
       instanceCanvas.setAttribute("class", `${domClass}-instance-canvas instance-canvas`)
       instanceCanvas.height = imgObj.height * .25
