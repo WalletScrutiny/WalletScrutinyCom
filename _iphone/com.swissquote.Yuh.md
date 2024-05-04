@@ -1,6 +1,6 @@
 ---
 wsId: yuh
-title: 'Yuh: 3-in-1 Finance App'
+title: Yuh - Your App. Your Money.
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.swissquote.Yuh
 appCountry: ch
 idd: '1493935010'
 released: 2021-05-10
-updated: 2024-04-22
-version: 1.21.6
+updated: 2024-04-29
+version: 1.21.7
 stars: 4.7
-reviews: 11807
-size: '123261952'
+reviews: 11882
+size: '123250688'
 website: https://www.yuh.com
 repository: 
 issue: 

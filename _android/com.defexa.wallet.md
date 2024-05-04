@@ -8,8 +8,8 @@ users: 5000
 appId: com.defexa.wallet
 appCountry: 
 released: 2023-04-28
-updated: 2024-04-09
-version: 2.1.0
+updated: 2024-04-29
+version: 2.1.1
 stars: 4
 ratings: 
 reviews: 4

@@ -28,7 +28,7 @@ date: 2024-04-28
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
 - date: 2024-04-13
-  version: "6.6.1"
+  version: 6.6.1
   appHash: 65840ba3a127285f3f76f6471dfe004c4ad9a213b17f56eb3a2d41a4eaf58831
   gitRevision: 586adcbba1184aefe8934a5deeea398a079e4521
   verdict: nonverifiable

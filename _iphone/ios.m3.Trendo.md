@@ -1,6 +1,6 @@
 ---
 wsId: trendofx
-title: 'Trendo: Stocks & Forex Trading'
+title: 'ترندو: بروکر فارکس،تریدر فارسی'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
 released: 2020-09-29
-updated: 2024-04-03
-version: 3.5.50
+updated: 2024-04-30
+version: 3.5.67
 stars: 5
 reviews: 31
-size: '56108032'
+size: '56561664'
 website: https://fxtrendo.com/
 repository: 
 issue: 

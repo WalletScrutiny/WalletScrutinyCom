@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: UNi.Global
+title: 'UNi.Global: Web3 APP & Card'
 altTitle: 
 authors: 
 users: 100

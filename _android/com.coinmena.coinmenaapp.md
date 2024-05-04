@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinmena.coinmenaapp
 appCountry: us
 released: 2021-08-07
-updated: 2024-04-25
-version: 2.12.0
+updated: 2024-04-30
+version: 2.12.1
 stars: 3.6
 ratings: 914
 reviews: 48

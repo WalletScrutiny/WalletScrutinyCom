@@ -11,7 +11,7 @@ released: 2021-01-19
 updated: 2024-04-26
 version: 3.8.12
 stars: 4.9
-reviews: 1853
+reviews: 1904
 size: '67833856'
 website: https://river.com/buy-bitcoin
 repository: 

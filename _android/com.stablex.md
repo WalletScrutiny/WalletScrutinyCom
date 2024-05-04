@@ -4,12 +4,12 @@ title: Stablex | Kripto Para Al-Sat
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27
-updated: 2024-04-26
-version: 2.5.5
+updated: 2024-05-02
+version: 2.5.8
 stars: 3
 ratings: 
 reviews: 

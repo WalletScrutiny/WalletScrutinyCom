@@ -8,11 +8,11 @@ appId: com.agoradesk.app
 appCountry: us
 idd: '1617601678'
 released: 2022-08-19
-updated: 2024-04-18
-version: 1.1.34
+updated: 2024-04-29
+version: 1.1.35
 stars: 4.8
 reviews: 17
-size: '53672960'
+size: '53751808'
 website: https://agoradesk.com
 repository: 
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.futura.cash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-17
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

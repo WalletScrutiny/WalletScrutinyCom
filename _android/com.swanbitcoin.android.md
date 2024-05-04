@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-25
 updated: 2024-04-10
 version: 1.7.1
-stars: 4.3
+stars: 4.1
 ratings: 
-reviews: 123
+reviews: 132
 size: 
 website: https://www.swanbitcoin.com
 repository: 

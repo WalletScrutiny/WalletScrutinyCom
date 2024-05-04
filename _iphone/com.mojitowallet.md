@@ -11,7 +11,7 @@ released: 2022-07-15
 updated: 2024-04-25
 version: 0.3.0
 stars: 5
-reviews: 3
+reviews: 4
 size: '50994176'
 website: https://www.mintlayer.org/
 repository: 

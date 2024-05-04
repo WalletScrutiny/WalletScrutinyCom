@@ -8,11 +8,11 @@ appId: io.sideswap.app
 appCountry: us
 idd: '1556476417'
 released: 2021-03-22
-updated: 2024-04-05
-version: 1.4.10
+updated: 2024-05-01
+version: 1.5.1
 stars: 4.6
 reviews: 10
-size: '90358784'
+size: '91741184'
 website: 
 repository: 
 issue: 

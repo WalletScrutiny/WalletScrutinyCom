@@ -4,12 +4,12 @@ title: Altify - Crypto Investment Hub
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2024-04-10
-version: 1.8.0
+updated: 2024-05-02
+version: 1.8.1
 stars: 
 ratings: 
 reviews: 

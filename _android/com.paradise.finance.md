@@ -7,8 +7,8 @@ users: 100
 appId: com.paradise.finance
 appCountry: 
 released: 2021-07-06
-updated: 2023-10-13
-version: 1.3.0
+updated: 2024-01-24
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 

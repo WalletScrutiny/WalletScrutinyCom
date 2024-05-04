@@ -8,11 +8,11 @@ appId: im.argent.wallet
 appCountry: us
 idd: 1358741926
 released: 2018-10-25
-updated: 2024-04-15
-version: 4.26.0
+updated: 2024-04-29
+version: 4.26.1
 stars: 4.5
-reviews: 2186
-size: '137820160'
+reviews: 2188
+size: '138105856'
 website: https://www.argent.xyz
 repository: 
 issue: 

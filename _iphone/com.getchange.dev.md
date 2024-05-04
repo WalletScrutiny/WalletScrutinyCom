@@ -8,11 +8,11 @@ appId: com.getchange.dev
 appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2024-04-18
-version: 30.52.3
+updated: 2024-05-02
+version: 30.52.5
 stars: 4.1
 reviews: 37
-size: '109670400'
+size: '109847552'
 website: https://www.changeinvest.com/
 repository: 
 issue: 

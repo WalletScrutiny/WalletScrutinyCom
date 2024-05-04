@@ -8,11 +8,11 @@ users: 100000
 appId: com.exscudo.channels
 appCountry: ru
 released: 2018-05-17
-updated: 2024-02-07
-version: 3.14.2062
+updated: 2024-05-02
+version: 3.15.2200
 stars: 4.1
 ratings: 659
-reviews: 50
+reviews: 51
 size: 
 website: https://fintap.app
 repository: 

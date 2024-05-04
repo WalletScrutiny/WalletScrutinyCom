@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-12-27
 updated: 2024-04-11
 version: 3.7.1
-stars: 3.1
+stars: 3
 ratings: 3260
-reviews: 18
+reviews: 19
 size: 
 website: https://jeton.com/
 repository: 

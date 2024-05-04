@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wkbeast.usdt.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-07-31
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

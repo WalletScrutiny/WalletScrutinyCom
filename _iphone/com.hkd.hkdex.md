@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/c/hkdexchange
 - https://www.instagram.com/hkdexchange/?hl=en
 features: 
-developerName: Hong Kong Digital Asset Exchange Limited
+developerName: HKD.COM LIMITED
 
 ---
 

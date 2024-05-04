@@ -8,11 +8,11 @@ users: 100000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2024-04-17
-version: 3.0.9
+updated: 2024-04-30
+version: 3.2.1
 stars: 3.8
 ratings: 
-reviews: 105
+reviews: 108
 size: 
 website: https://wowearn.com/
 repository: 

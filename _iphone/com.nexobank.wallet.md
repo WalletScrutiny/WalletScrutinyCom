@@ -8,11 +8,11 @@ appId: com.nexobank.wallet
 appCountry: 
 idd: 1455341917
 released: 2019-06-30
-updated: 2024-04-25
-version: 4.3.1
+updated: 2024-05-02
+version: 4.4.0
 stars: 3.9
-reviews: 1196
-size: '107394048'
+reviews: 1198
+size: '108053504'
 website: https://nexo.com
 repository: 
 issue: 

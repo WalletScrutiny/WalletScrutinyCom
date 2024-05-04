@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Small Deals
+title: small deals
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: cm.viaziza.smalldeals
 appCountry: 
 released: 2022-03-08
-updated: 2023-03-03
-version: 3.0.0
+updated: 2024-05-01
+version: 3.0.1
 stars: 4.2
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cm.viaziza.smalldeals.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-03-01
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

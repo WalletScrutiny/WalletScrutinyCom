@@ -9,7 +9,7 @@ appId: com.icecorp.wallet
 appCountry: 
 released: 2022-08-24
 updated: 2024-04-19
-version: '2.1'
+version: '2.2'
 stars: 3.6
 ratings: 
 reviews: 

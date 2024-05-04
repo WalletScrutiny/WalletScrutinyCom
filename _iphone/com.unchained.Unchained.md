@@ -10,8 +10,8 @@ idd: '6457364167'
 released: 2024-03-23
 updated: 2024-04-24
 version: '1.2'
-stars: 5
-reviews: 59
+stars: 4.9
+reviews: 60
 size: '24084480'
 website: https://unchained.com/
 repository: 

@@ -8,8 +8,8 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2024-04-20
-version: 2.18.2
+updated: 2024-05-01
+version: 2.18.3
 stars: 4.5
 reviews: 196
 size: '240706560'

@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: 코인미어캣 - 보조지표 알림과 스크리너
+title: TraderCat - Alerts, Screener
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.makedelta.slying
 appCountry: 
 released: 2021-08-07
-updated: 2024-01-22
-version: 7.2.1
+updated: 2024-04-24
+version: 8.0.1
 stars: 
 ratings: 
 reviews: 

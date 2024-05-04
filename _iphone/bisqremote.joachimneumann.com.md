@@ -18,9 +18,9 @@ repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: bisqremote.joachimneumann.com.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-10
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: devinbileck

@@ -10,7 +10,7 @@ idd: '1610125496'
 released: 2022-03-15
 updated: 2024-04-09
 version: '1.26'
-stars: 4.7
+stars: 4.5
 reviews: 19
 size: '61956096'
 website: https://slavi.io/

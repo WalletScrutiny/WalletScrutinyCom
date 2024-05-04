@@ -9,7 +9,7 @@ appId: com.kickex.android
 appCountry: 
 released: 2022-06-15
 updated: 2024-04-22
-version: 1.4.0
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
