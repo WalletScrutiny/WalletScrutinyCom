@@ -20,7 +20,7 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2023-08-28
 signer: 
 reviewArchive: 
@@ -46,6 +46,7 @@ features:
 
 ## Analysis 
 
+- RockWallet is **no longer source-available** and can not be verified.
 - This is a multi-currency wallet.
 - We installed the app and were provided the seed phrases prior to email sign-up. 
 - There was a BTC wallet with a legacy address.
