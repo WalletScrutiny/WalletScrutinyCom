@@ -6,7 +6,7 @@ authors:
 released: 2024-04-02
 discontinued: 
 updated: 2024-04-02
-version: 1.3.4
+version: 1.3.6
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -24,8 +24,8 @@ issue:
 icon: keystone3.pro.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-04-08
+verdict: reproducible
+date: 2024-05-08
 signer: 
 reviewArchive: 
 twitter: KeystoneForBTC
@@ -114,4 +114,161 @@ They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/
 > The keystone3-unsigned.bin is actually the compressed version of mh1903.bin with some headers, so what firmware-checker does is decompress the content then do a sha256 checksum.
 
 {% include asciicast %}
+
+### Further Notes
+
+So we then attempted to build our own script which uses the QuickLZ decompression format, and failed. Our next step was then to try to recreate **fmc** (firmware checker) itself and found its source code [here](https://github.com/KeystoneHQ/keystone3-firmware/tree/master/tools/code/firmware-checker/src).
+
+We compiled the **fmc** rust program and ran it again:
+
+```
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/src$ cargo build --release
+   Compiling proc-macro2 v1.0.70
+   Compiling unicode-ident v1.0.12
+   Compiling libc v0.2.150
+   Compiling autocfg v1.1.0
+   Compiling lock_api v0.4.11
+   Compiling parking_lot_core v0.9.9
+   Compiling quote v1.0.33
+   Compiling cc v1.0.83
+   Compiling syn v2.0.39
+   Compiling cfg-if v1.0.0
+   Compiling bitcoin-private v0.1.0
+   Compiling utf8parse v0.2.1
+   Compiling anstyle-parse v0.2.3
+   Compiling thiserror v1.0.50
+   Compiling scopeguard v1.2.0
+   Compiling smallvec v1.11.2
+   Compiling anstyle-query v1.0.1
+   Compiling anstyle v1.0.4
+   Compiling colorchoice v1.0.0
+   Compiling serde v1.0.193
+   Compiling anstream v0.6.4
+   Compiling secp256k1-sys v0.8.1
+   Compiling strsim v0.10.0
+   Compiling clap_lex v0.6.0
+   Compiling heck v0.4.1
+   Compiling serde_json v1.0.108
+   Compiling crc32fast v1.3.2
+   Compiling clap_builder v4.4.11
+   Compiling parking_lot v0.12.1
+   Compiling bitcoin_hashes v0.12.0
+   Compiling thiserror-impl v1.0.50
+   Compiling serde_derive v1.0.193
+   Compiling clap_derive v4.4.7
+   Compiling tokio-macros v2.2.0
+   Compiling signal-hook-registry v1.4.1
+   Compiling num_cpus v1.16.0
+   Compiling mio v0.8.9
+   Compiling socket2 v0.5.5
+   Compiling pin-project-lite v0.2.13
+   Compiling bit-vec v0.6.3
+   Compiling ryu v1.0.15
+   Compiling itoa v1.0.9
+   Compiling bytes v1.5.0
+   Compiling byteorder v1.5.0
+   Compiling quicklz v0.3.1
+   Compiling tokio v1.34.0
+   Compiling clap v4.4.11
+   Compiling secp256k1 v0.27.0
+   Compiling hex v0.4.3
+   Compiling firmware-checker v0.1.0 (/tmp/keystone3-firmware/tools/code/firmware-checker)
+warning: unused imports: `BufRead`, `BufReader`
+ --> src/main.rs:5:15
+  |
+5 | use std::io::{BufReader,BufRead, Write, Read, self};
+  |               ^^^^^^^^^ ^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused imports: `BufMut`, `BytesMut`, `Bytes`
+ --> src/main.rs:7:14
+  |
+7 | use bytes::{ Bytes, BytesMut, BufMut};
+  |              ^^^^^  ^^^^^^^^  ^^^^^^
+
+warning: unused imports: `CompressionLevel`, `compress`
+ --> src/main.rs:8:15
+  |
+8 | use quicklz::{compress, CompressionLevel, decompress};
+  |               ^^^^^^^^  ^^^^^^^^^^^^^^^^
+
+warning: unused import: `crc32fast::Hasher`
+ --> src/main.rs:9:5
+  |
+9 | use crc32fast::Hasher;
+  |     ^^^^^^^^^^^^^^^^^
+
+warning: unused import: `to_vec`
+  --> src/main.rs:11:28
+   |
+11 | use serde_json::{from_str, to_vec};
+   |                            ^^^^^^
+
+warning: unused import: `Secp256k1`
+  --> src/main.rs:12:17
+   |
+12 | use secp256k1::{Secp256k1, Message};
+   |                 ^^^^^^^^^
+
+warning: unused import: `SecretKey`
+  --> src/main.rs:14:17
+   |
+14 | use secp256k1::{SecretKey};
+   |                 ^^^^^^^^^
+
+warning: function `qlz_size_decompressed` is never used
+  --> src/main.rs:68:4
+   |
+68 | fn qlz_size_decompressed(source: &[u8]) -> usize {
+   |    ^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` on by default
+
+warning: structure field `fileSize` should have a snake case name
+  --> src/main.rs:43:5
+   |
+43 |     fileSize: u32,
+   |     ^^^^^^^^ help: convert the identifier to snake case: `file_size`
+   |
+   = note: `#[warn(non_snake_case)]` on by default
+
+warning: structure field `originalFileSize` should have a snake case name
+  --> src/main.rs:44:5
+   |
+44 |     originalFileSize: u32,
+   |     ^^^^^^^^^^^^^^^^ help: convert the identifier to snake case: `original_file_size`
+
+warning: structure field `originalCrc32` should have a snake case name
+  --> src/main.rs:46:5
+   |
+46 |     originalCrc32: u32,
+   |     ^^^^^^^^^^^^^ help: convert the identifier to snake case: `original_crc32`
+
+warning: structure field `encodeUnit` should have a snake case name
+  --> src/main.rs:48:5
+   |
+48 |     encodeUnit: u32,
+   |     ^^^^^^^^^^ help: convert the identifier to snake case: `encode_unit`
+
+warning: `firmware-checker` (bin "fmc") generated 12 warnings (run `cargo fix --bin "fmc"` to apply 7 suggestions)
+    Finished release [optimized] target(s) in 30.76s
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/src$ ls
+error.rs  main.rs
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/src$ cd ..
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker$ ls
+Cargo.lock  Cargo.toml  src  target
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker$ cd target/
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/target$ ls
+CACHEDIR.TAG  debug  release
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/target$ cd release/
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/target/release$ ls
+build  deps  examples  fmc  fmc.d  incremental
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/target/release$ chmod +x fmc
+dannybuntu@z0:/tmp/keystone3-firmware/tools/code/firmware-checker/target/release$ ./fmc --source /tmp/keystone3-firmware/keystone3-unsigned.bin 
+Firmware checksum sha256: 427e41a1b0bb25d122e06884464f1cebd7b526b35c975a39151a8e6ffc2fc352 
+You can check this value on your device.
+```
+
+Version 1.3.6 of Keystone 3 Pro is **reproducible**
 
