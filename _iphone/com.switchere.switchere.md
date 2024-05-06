@@ -11,7 +11,7 @@ released: 2021-11-15
 updated: 2024-04-30
 version: 1.1.20
 stars: 3.3
-reviews: 73
+reviews: 74
 size: '40420352'
 website: https://switchere.com/
 repository: 

@@ -11,7 +11,7 @@ released: 2022-12-07
 updated: 2024-04-05
 version: 1.24.0
 stars: 4.4
-reviews: 266
+reviews: 271
 size: '60558336'
 website: https://www.letsbit.io
 repository: 

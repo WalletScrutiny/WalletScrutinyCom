@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dextrade.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-19
+date: 2024-05-06
 signer: 
 reviewArchive: 
 twitter: dextrade_

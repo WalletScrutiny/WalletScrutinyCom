@@ -8,8 +8,8 @@ users: 10000
 appId: io.moonstake.wallet
 appCountry: us
 released: 2020-03-24
-updated: 2024-04-25
-version: 2.27.1
+updated: 2024-05-06
+version: 2.28.0
 stars: 3.4
 ratings: 2237
 reviews: 17

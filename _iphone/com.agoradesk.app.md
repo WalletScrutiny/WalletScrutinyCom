@@ -11,7 +11,7 @@ released: 2022-08-19
 updated: 2024-04-29
 version: 1.1.35
 stars: 4.8
-reviews: 17
+reviews: 18
 size: '53751808'
 website: https://agoradesk.com
 repository: 

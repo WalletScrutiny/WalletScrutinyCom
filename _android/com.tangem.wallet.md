@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.tangem.wallet
 appCountry: 
 released: 2018-10-24

@@ -3,7 +3,7 @@ wsId:
 title: 'InvesaCapital: CFD Trading App'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.imermarket.invesacapital
 appCountry: 
 released: 

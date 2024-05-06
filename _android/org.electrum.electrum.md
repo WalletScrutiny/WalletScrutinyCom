@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - Mohammad Rafigh
-users: 500000
+users: 1000000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02

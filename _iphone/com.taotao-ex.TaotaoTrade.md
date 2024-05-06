@@ -11,7 +11,7 @@ released: 2019-06-02
 updated: 2024-05-01
 version: 3.16.0
 stars: 1.9
-reviews: 350
+reviews: 353
 size: '77238272'
 website: https://www.sbivc.co.jp/
 repository: 

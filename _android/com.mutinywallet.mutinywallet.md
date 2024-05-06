@@ -11,7 +11,7 @@ updated: 2024-04-27
 version: 0.6.8
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://mutinywallet.com
 repository: 

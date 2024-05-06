@@ -11,7 +11,7 @@ released: 2020-11-28
 updated: 2024-05-03
 version: 2.2.0
 stars: 5
-reviews: 2
+reviews: 3
 size: '29429760'
 website: https://coinrepublic.exchange/
 repository: 
