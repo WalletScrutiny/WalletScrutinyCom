@@ -14,7 +14,7 @@ repository:  https://github.com/jodoglevy/BitcoinTradr
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: wip 
 date: 2024-04-24
 reviewArchive:

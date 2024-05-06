@@ -14,7 +14,7 @@ repository: https://github.com/hivewallet/hive-mac
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: wip
 date: 2024-04-25
 reviewArchive:

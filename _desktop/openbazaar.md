@@ -14,7 +14,7 @@ repository: https://github.com/OpenBazaar/openbazaar-desktop
 issue: 
 icon: openbazaar.png
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
 date: 2024-04-25
 reviewArchive:

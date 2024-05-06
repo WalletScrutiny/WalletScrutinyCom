@@ -14,7 +14,7 @@ repository: https://github.com/lightninglabs/lightning-app
 issue: 
 icon: lightning.app.png
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: wip
 date: 2024-04-25
 reviewArchive:

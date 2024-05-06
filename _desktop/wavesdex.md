@@ -14,7 +14,7 @@ repository: https://github.com/wavesplatform/WavesGUI
 issue: 
 icon: wavesdex.png
 bugbounty: 
-meta: defunct
+meta: discontinued
 verdict: wip
 date: 2024-04-25
 reviewArchive:

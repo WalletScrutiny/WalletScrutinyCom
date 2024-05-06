@@ -8,13 +8,13 @@ discontinued:
 updated: 2017-08-14
 version: v0.10.6
 provider: Ciphrex
-providerWebsite: https://web.archive.org/web/20150316215945/https://ciphrex.com/
+providerWebsite: https://web.archive.org/web/20170905112722/https://ciphrex.com/
 website: 
 repository: https://github.com/ciphrex/mSIGNA
 issue: 
 icon: ciphrex.msigna.png
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: wip
 date: 2024-04-25
 reviewArchive:

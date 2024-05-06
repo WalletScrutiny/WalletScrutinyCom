@@ -14,7 +14,7 @@ repository: https://github.com/panteam-net/pt.BTC
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: stale
 verdict: wip
 date: 2024-04-25
 reviewArchive:
@@ -22,3 +22,5 @@ twitter:
 social:
 features:
 ---
+
+The providers' website is not accessible.

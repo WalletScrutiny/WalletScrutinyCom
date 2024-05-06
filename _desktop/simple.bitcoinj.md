@@ -14,7 +14,7 @@ repository: https://github.com/LunaTK/Simple-Bitcoinj-GUI-Wallet
 issue: 
 icon: simple.bitcoinj.png
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: wip
 date: 2024-04-25
 reviewArchive:
