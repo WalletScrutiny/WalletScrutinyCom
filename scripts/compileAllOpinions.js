@@ -2,7 +2,7 @@ const Summariser = require('./nostr-opinion-summariser').default;
 const fs = require('fs/promises');
 
 const getNames = async () => {
-  const folders = ['iphone', 'android', 'hardware', 'bearer'];
+  const folders = ['iphone', 'android', 'hardware', 'bearer', 'desktop'];
   const names = (
     await Promise.all(
       folders.map(async (category) =>

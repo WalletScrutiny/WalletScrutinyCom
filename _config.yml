@@ -196,6 +196,9 @@ collections:
   bearer:
     output: true
     permalink: /:collection/:path/
+  desktop:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -271,6 +274,17 @@ defaults:
       comments: false
       share: true
       related: false
+  # desktop
+  - scope:
+      path: ""
+      type: "desktop"
+    values:
+      layout: reviewDesktop
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false      
   # _pages
   - scope:
       path: ""

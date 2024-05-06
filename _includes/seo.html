@@ -24,7 +24,7 @@
 {% if site.og_image %}
   {% assign og_image = site.og_image | prepend: "/images/" | prepend: base_url %}
 {% endif %}
-{% if page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' %}
+{% if page.collection == 'android' or page.collection == 'bearer' or page.collection == 'hardware' or page.collection == 'iphone' or page.collection == 'desktop' %}
   {% assign og_image = base_url | append: "/images/social/" | append: page.collection | append: "/" | append: page.appId | append: ".png" %}
   {% assign seo_description = "Review of " | append: page.title | append: " (verdict: " | append: page.verdict | append: ")" %}
 {% else %}

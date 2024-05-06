@@ -1,4 +1,4 @@
-{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer %}
+{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer | concat: site.desktop | %}
 {%- assign vgKeyCount = 0 -%}
 {% assign vgKey = include.vgKey %}
 {% for group in site.data.verdictGroups %}
