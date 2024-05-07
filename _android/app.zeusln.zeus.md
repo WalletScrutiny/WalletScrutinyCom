@@ -102,14 +102,6 @@ Revision, tag (and its signature):
 
 ===== End Results =====
 
-Run a full
-diff --recursive /tmp/fromPlay_app.zeusln.zeus_86001 /tmp/fromBuild_app.zeusln.zeus_86001
-meld /tmp/fromPlay_app.zeusln.zeus_86001 /tmp/fromBuild_app.zeusln.zeus_86001
-or
-diffoscope "/home/dannybuntu/Downloads/apk/app.zeusln.zeus_v86001.apk" /tmp/test_app.zeusln.zeus/app/android/app/build/outputs/apk/release/zeus-armeabi-v7a.apk
-for more details.
-+ '[' false = true ']'
-
 ```
 
 Again we checked that only signature-related lines differ and as before, this is
