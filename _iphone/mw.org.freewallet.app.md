@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mw.org.freewallet.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-10-10
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: freewalletorg

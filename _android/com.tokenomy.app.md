@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tokenomy.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-29
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: tokenomy

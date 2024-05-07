@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitleague.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-04
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: BitLeague_Group

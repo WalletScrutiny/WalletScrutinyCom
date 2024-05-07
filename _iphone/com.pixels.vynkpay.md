@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pixels.vynkpay.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-02-12
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: vynkgroup

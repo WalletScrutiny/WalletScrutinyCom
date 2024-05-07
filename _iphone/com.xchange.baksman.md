@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.baksman.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-11-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

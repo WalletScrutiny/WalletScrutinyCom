@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paypack.company.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-27
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

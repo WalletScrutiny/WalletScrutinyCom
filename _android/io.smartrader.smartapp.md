@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.smartrader.smartapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

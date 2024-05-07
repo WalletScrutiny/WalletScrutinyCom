@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.poldot.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-30
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

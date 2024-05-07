@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: se.example.starboyexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-21
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

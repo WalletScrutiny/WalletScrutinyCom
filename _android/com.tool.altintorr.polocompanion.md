@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tool.altintorr.polocompanion.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-06-03
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.myetherwallet.mewwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2022-01-10
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: myetherwallet

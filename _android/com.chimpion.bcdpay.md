@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chimpion.bcdpay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-04-21
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: chimpionio

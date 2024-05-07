@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.transcrypt.armadillo.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-03-01
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: TizerWallet

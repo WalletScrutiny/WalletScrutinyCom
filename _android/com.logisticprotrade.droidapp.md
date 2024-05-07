@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.logisticprotrade.droidapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-07
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

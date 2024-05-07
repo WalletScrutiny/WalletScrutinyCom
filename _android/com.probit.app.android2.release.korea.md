@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.probit.app.android2.release.korea.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-17
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: ProBit_Exchange

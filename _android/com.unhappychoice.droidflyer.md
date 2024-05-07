@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

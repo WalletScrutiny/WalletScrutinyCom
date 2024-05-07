@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.leveragedapp.leveraged.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

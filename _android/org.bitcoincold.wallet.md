@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.bitcoincold.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
