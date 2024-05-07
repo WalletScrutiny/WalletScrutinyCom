@@ -2,7 +2,7 @@ const Summariser = require('./nostr-opinion-summariser').default;
 const fs = require('fs/promises');
 
 const getNames = async () => {
-  const folders = ['iphone', 'android', 'hardware', 'bearer', 'desktop'];
+  const folders = ['iphone', 'android', 'hardware', 'bearer'];
   const names = (
     await Promise.all(
       folders.map(async (category) =>
@@ -10,7 +10,7 @@ const getNames = async () => {
           await fs.readdir(`_${category}/`)
         ).map((n) => {
           n = n.replace('.md', '');
-          return `/${category}/${n}/`;
+          return `${category}/${n}`;
         })
       )
     )
@@ -29,26 +29,24 @@ function isEmpty(obj) {
 }
 
 (async () => {
-  const experts = (await import('../assets/js/experts.mjs')).default
   const names = await getNames();
+  // todo: shouldn't have to configure the trusted authors twice in this project
   const summariser = new Summariser({
     relay: 
-    // [
-      // 'wss://relay.nostr.info',
-      // 'wss://relayable.org',
-      // 'wss://nostr.wine',
       'wss://nos.lol',
-      // 'wss://nostr.mom',
-      // 'wss://nostr.oxtr.dev',
-    // ],
-    trustedAuthors: experts
+    trustedAuthors: [
+      'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
+      'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
+      'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas', // The Bitcoin Hole
+      // 'npub1gmm2ehusvs35zgh6pq84m8hkj4ea0ygy3c9j2e3slzhjjce3kmns5tdaz2', // Basanta
+  ]
   });
   await summariser.onReady();
 
   const all = {};
-  console.log(names);
 
   for (const n of names) {
+    console.log('n', n);
     const opinion = await summariser.get(n);
     for (const k in opinion) {
       if (opinion[k] === 0) {
@@ -59,6 +57,7 @@ function isEmpty(obj) {
       all[n] = opinion;
     }
   }
+
   await fs.writeFile('_includes/allOpinions.html', JSON.stringify(all))
   process.exit(0);
 })();
