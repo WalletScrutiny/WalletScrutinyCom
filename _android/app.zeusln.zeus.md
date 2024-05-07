@@ -23,9 +23,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-04-11
+date: 2024-05-07
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-04-11
+  version: 0.8.3
+  appHash: afd3cace61fe5c896bbf3bd8399f12b9721415e78d9cbc694d8eb97dbbea21a1
+  gitRevision: 2e7fd3aa27b4c11b0e8ee69dcdd012d8a9f63603
+  verdict: reproducible
 - date: 2024-03-24
   version: 0.8.2
   appHash: 63d61c6288323ef8daa2797fa2c7341795ca7c36bbf2d007beda7e9ddd7ccca8
@@ -80,22 +85,30 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.3
-apkVersionCode: 84001
+apkVersionName: 0.8.4
+apkVersionCode: 86001
 verdict:        
-appHash:        afd3cace61fe5c896bbf3bd8399f12b9721415e78d9cbc694d8eb97dbbea21a1
-commit:         19f2f2cb488ffbb8e3997c8cc112e0ad46954257
+appHash:        bf668808899b1a5a5e4b8aebf5f8ef26b41dacfdc802150592e81c93de198f64
+commit:         f14086f2380542ffa31d894cfa489e868fd62a5b
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_84001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_84001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_84001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_84001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_86001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_86001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_86001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
+Run a full
+diff --recursive /tmp/fromPlay_app.zeusln.zeus_86001 /tmp/fromBuild_app.zeusln.zeus_86001
+meld /tmp/fromPlay_app.zeusln.zeus_86001 /tmp/fromBuild_app.zeusln.zeus_86001
+or
+diffoscope "/home/dannybuntu/Downloads/apk/app.zeusln.zeus_v86001.apk" /tmp/test_app.zeusln.zeus/app/android/app/build/outputs/apk/release/zeus-armeabi-v7a.apk
+for more details.
++ '[' false = true ']'
 
 ```
 
