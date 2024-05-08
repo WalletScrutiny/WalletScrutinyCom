@@ -4,7 +4,7 @@ title: River – Buy Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.river.riverapp
 appCountry: 
 released: 2023-10-20

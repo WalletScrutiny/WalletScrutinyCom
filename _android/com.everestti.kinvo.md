@@ -10,9 +10,9 @@ appCountry: BR
 released: 2017-12-22
 updated: 2024-04-12
 version: 3.39.0
-stars: 3.7
+stars: 3.8
 ratings: 
-reviews: 7211
+reviews: 7214
 size: 
 website: http://www.kinvo.com.br
 repository: 

@@ -12,7 +12,7 @@ updated: 2023-06-07
 version: 1.4.6
 stars: 3.7
 ratings: 225
-reviews: 42
+reviews: 43
 size: 
 website: http://ograpi.oblade.net
 repository: 
