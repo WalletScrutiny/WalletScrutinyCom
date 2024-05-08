@@ -2,7 +2,7 @@ const Summariser = require('./nostr-opinion-summariser').default;
 const fs = require('fs/promises');
 
 const getNames = async () => {
-  const folders = ['iphone', 'android', 'hardware', 'bearer'];
+  const folders = ['iphone', 'android', 'hardware', 'bearer', 'desktop'];
   const names = (
     await Promise.all(
       folders.map(async (category) =>
@@ -46,7 +46,6 @@ function isEmpty(obj) {
   const all = {};
 
   for (const n of names) {
-    console.log('n', n);
     const opinion = await summariser.get(n);
     for (const k in opinion) {
       if (opinion[k] === 0) {
@@ -58,6 +57,6 @@ function isEmpty(obj) {
     }
   }
 
-  await fs.writeFile('_includes/allOpinions.html', JSON.stringify(all))
+  await fs.writeFile('_includes/allOpinions.html', JSON.stringify(all));
   process.exit(0);
 })();
