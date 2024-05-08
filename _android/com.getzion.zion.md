@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.getzion.zion.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-29
+date: 2024-05-08
 signer: 
 reviewArchive: 
 twitter: get_zion

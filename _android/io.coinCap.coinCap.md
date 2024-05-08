@@ -8,7 +8,7 @@ users: 500000
 appId: io.coinCap.coinCap
 appCountry: 
 released: 2016-04-26
-updated: 2021-10-11
+updated: 2024-05-06
 version: 3.1.33
 stars: 3.8
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.coinCap.coinCap.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2023-10-03
+date: 2024-05-08
 signer: 
 reviewArchive: 
 twitter: CoinCap_io

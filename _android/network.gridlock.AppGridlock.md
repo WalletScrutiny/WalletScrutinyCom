@@ -8,8 +8,8 @@ users: 10000
 appId: network.gridlock.AppGridlock
 appCountry: 
 released: 2021-05-14
-updated: 2024-04-22
-version: 2.3.0
+updated: 2024-05-06
+version: 2.3.1
 stars: 4.3
 ratings: 
 reviews: 38

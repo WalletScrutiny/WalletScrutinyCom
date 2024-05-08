@@ -4,7 +4,7 @@ title: BTC.com - Leading Mining Pool
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.btcpool.app.android
 appCountry: us
 released: 2020-02-25

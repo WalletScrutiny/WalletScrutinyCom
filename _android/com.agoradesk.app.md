@@ -8,9 +8,9 @@ users: 5000
 appId: com.agoradesk.app
 appCountry: 
 released: 2022-08-18
-updated: 2024-04-29
-version: 1.1.35
-stars: 4.6
+updated: 2024-05-07
+version: 1.1.36
+stars: 4.7
 ratings: 
 reviews: 10
 size: 

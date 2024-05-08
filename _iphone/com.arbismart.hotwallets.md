@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.arbismart.hotwallets.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-08
+date: 2024-05-08
 signer: 
 reviewArchive: 
 twitter: arbismart

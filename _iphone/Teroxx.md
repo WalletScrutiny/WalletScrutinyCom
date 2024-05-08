@@ -8,11 +8,11 @@ appId: Teroxx
 appCountry: us
 idd: 1476828111
 released: 2019-09-06
-updated: 2024-02-20
-version: 3.0.26
+updated: 2024-05-07
+version: 3.0.27
 stars: 5
 reviews: 1
-size: '111054848'
+size: '111841280'
 website: https://teroxxapp.com/
 repository: 
 issue: 

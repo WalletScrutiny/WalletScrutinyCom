@@ -8,8 +8,8 @@ users: 500000
 appId: com.digifinex.app
 appCountry: 
 released: 2018-06-26
-updated: 2024-04-28
-version: 2024.04.28
+updated: 2024-04-30
+version: 2024.04.29
 stars: 3.9
 ratings: 4414
 reviews: 291

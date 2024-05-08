@@ -8,8 +8,8 @@ appId: com.river.riverapp
 appCountry: us
 idd: '1536176542'
 released: 2021-01-19
-updated: 2024-04-26
-version: 3.8.12
+updated: 2024-05-08
+version: 3.8.13
 stars: 4.9
 reviews: 1910
 size: '67833856'

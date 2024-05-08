@@ -1,6 +1,6 @@
 ---
 wsId: vite
-title: Vite Wallet
+title: 'Vite: Zero Gas Layer-1'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: net.vite.wallet
 appCountry: 
 released: 2019-01-02
-updated: 2022-09-13
-version: v4.3.0
+updated: 2024-05-06
+version: v5.0.0
 stars: 3.7
 ratings: 
 reviews: 77
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.vite.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2023-12-15
+date: 2024-05-08
 signer: 
 reviewArchive: 
 twitter: vitelabs

@@ -9,7 +9,7 @@ appId: com.hitbtc.wallet
 appCountry: au
 released: 2021-08-31
 updated: 2024-04-29
-version: 1.22.0
+version: 1.23.0
 stars: 
 ratings: 
 reviews: 
