@@ -8,8 +8,8 @@ users: 500000
 appId: com.coinpayu.earn.bitcoin
 appCountry: 
 released: 2021-07-06
-updated: 2024-04-22
-version: 1.3.7
+updated: 2024-05-09
+version: 1.3.8
 stars: 3.5
 ratings: 
 reviews: 168

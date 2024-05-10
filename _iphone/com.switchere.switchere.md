@@ -8,8 +8,8 @@ appId: com.switchere.switchere
 appCountry: us
 idd: '1550289857'
 released: 2021-11-15
-updated: 2024-04-30
-version: 1.1.20
+updated: 2024-05-09
+version: 1.1.21
 stars: 3.3
 reviews: 74
 size: '40420352'

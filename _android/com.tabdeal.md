@@ -12,7 +12,7 @@ updated: 2024-04-16
 version: 4.3.3
 stars: 4.4
 ratings: 
-reviews: 78
+reviews: 79
 size: 
 website: https://tabdeal.org
 repository: 

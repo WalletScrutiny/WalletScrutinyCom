@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: 'KEYRING PRO: BTC, Defi, Web3'
+title: 'KEYRING PRO: BTC, ETH, SOL'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: co.bacoor.keyring
 appCountry: 
 idd: 1546824976
 released: 2021-01-25
-updated: 2024-04-19
-version: 3.4.0
+updated: 2024-05-09
+version: 3.5.0
 stars: 3.5
 reviews: 8
-size: '45343744'
+size: '45396992'
 website: 
 repository: 
 issue: 

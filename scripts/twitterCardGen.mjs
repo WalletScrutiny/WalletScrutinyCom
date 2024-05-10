@@ -266,8 +266,16 @@ function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
 
 // Core Functions - Process One File
 async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
-    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---\n');
-    const data = yaml.load(parts[1]);
+    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---');
+    let data;
+    try {
+      data = yaml.load(parts[1]);
+    } catch(e) {
+      console.log(`processOneFile(${platform}, ${mdFilesPath}, ${file}, ${outputFolderPath})`);
+      console.error(e);
+      totalFiles--;
+      return;
+    }
 
     let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
     if (!fs.existsSync(iconImagePath)) {

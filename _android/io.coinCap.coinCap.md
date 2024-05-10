@@ -9,7 +9,7 @@ appId: io.coinCap.coinCap
 appCountry: 
 released: 2016-04-26
 updated: 2024-05-06
-version: 3.1.33
+version: 3.2.0
 stars: 3.8
 ratings: 
 reviews: 358

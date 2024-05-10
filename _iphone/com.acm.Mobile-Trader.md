@@ -10,8 +10,8 @@ idd: '340408565'
 released: 2009-12-09
 updated: 2024-04-09
 version: 3.23.1
-stars: 4.3
-reviews: 545
+stars: 4.2
+reviews: 546
 size: '59527168'
 website: https://www.swissquote.com/en-ch/private/trade/products/forex
 repository: 

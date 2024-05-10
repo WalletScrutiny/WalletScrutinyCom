@@ -12,7 +12,7 @@ updated: 2024-05-08
 version: 4.16.0
 stars: 4.6
 ratings: 2828
-reviews: 1085
+reviews: 1086
 size: 
 website: https://bingx.com
 repository: 

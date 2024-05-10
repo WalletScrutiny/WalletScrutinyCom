@@ -10,7 +10,7 @@ appCountry: GH
 released: 2021-07-19
 updated: 2024-03-25
 version: 4.7.9
-stars: 3.5
+stars: 3.4
 ratings: 
 reviews: 135
 size: 

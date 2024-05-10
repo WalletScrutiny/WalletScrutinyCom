@@ -12,7 +12,7 @@ updated: 2024-03-20
 version: 0.1.13
 stars: 4.7
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://wallacy.io/
 repository: 
