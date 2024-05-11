@@ -4,10 +4,11 @@ appId: keepKey
 authors:
 - leo
 - Mohammad
+- danny
 released: 2014-08-01
 discontinued: 
-updated: 2023-04-15
-version: 7.8.0
+updated: 2024-03-06
+version: 7.9.3
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -25,10 +26,15 @@ issue: https://github.com/keepkey/keepkey-firmware/issues/342
 icon: keepKey.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-05-25
+verdict: reproducible
+date: 2024-05-10
 signer: 
 reviewArchive:
+- date: 2023-05-25
+  version: 7.8.0
+  appHash: 31c1cdd945a7331e01b3cced866cb28add5b49eef87c2bbc08370e5aa7daf9bf
+  gitRevision: 191d84904d55d79a68e06b7883218d4fd2fbfaea
+  verdict: nonverifiable
 - date: 2022-08-07
   version: 7.2.1
   appHash: c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff
@@ -45,6 +51,25 @@ social:
 features: 
 
 ---
+
+**Update 2024-05-10**
+
+Again, running the same [script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh) with version 7.9.3 as the argument.
+
+We get the latter two matching: 
+```
+24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137  firmware.keepkey.bin
+9a18ebf2443012012677a7d1118e72baf9ee95c2211123dd48e7c029a1b3b2ee  -
+9a18ebf2443012012677a7d1118e72baf9ee95c2211123dd48e7c029a1b3b2ee  -
+```
+
+To sum up, the significance of these, in the order of the hash presented:
+
+- signed binary
+- signed binary with signature overwritten with zeroes
+- our compiled binary with signature overwritten with zeroes
+
+With the matching hashes, version 7.9.3 is **reproducible**
 
 **Update 2023-05-25**
 Running
@@ -465,3 +490,5 @@ round and the chopped part matches. As all we did was delete a part of the
 provided source code, all promises we provide hold true: *If you reviewed the
 code and it's all good, the firmware binary is also good.* This product is
 **reproducible**.
+
+{% include asciicast %}
