@@ -8,8 +8,8 @@ users: 5000
 appId: w3axis.com.epocket
 appCountry: 
 released: 2018-06-23
-updated: 2024-05-02
-version: '2.27'
+updated: 2024-05-09
+version: '2.28'
 stars: 5
 ratings: 
 reviews: 1

@@ -9,7 +9,7 @@ appCountry:
 released: 2020-07-13
 updated: 2024-04-22
 version: android-4.42.0
-stars: 4.5
+stars: 4.6
 ratings: 83
 reviews: 8
 size: 

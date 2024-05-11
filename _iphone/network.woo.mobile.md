@@ -11,7 +11,7 @@ released: 2021-09-17
 updated: 2024-05-06
 version: 3.26.0
 stars: 5
-reviews: 2
+reviews: 3
 size: '103271424'
 website: https://woo.org/
 repository: 

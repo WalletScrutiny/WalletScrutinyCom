@@ -12,7 +12,7 @@ updated: 2024-04-22
 version: 2.2.8
 stars: 4.8
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://boundlesspay.com
 repository: 

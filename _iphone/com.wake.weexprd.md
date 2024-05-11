@@ -11,7 +11,7 @@ released: 2022-03-04
 updated: 2024-04-25
 version: 3.2.15
 stars: 2.9
-reviews: 33
+reviews: 34
 size: '145743872'
 website: https://www.weex.com/en
 repository: 

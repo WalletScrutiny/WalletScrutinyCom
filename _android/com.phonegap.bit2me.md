@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: 'Bit2Me: Bitcoin and +200 more'
+title: Bit2Me - Bitcoin and Cryptos
 altTitle: 
 authors:
 - leo

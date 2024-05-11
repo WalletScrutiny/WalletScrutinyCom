@@ -4,7 +4,7 @@ title: Vent Africa - Crypto to Cash
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.vent.app
 appCountry: 
 released: 2022-01-26
