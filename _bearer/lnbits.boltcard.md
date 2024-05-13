@@ -21,7 +21,7 @@ issue:
 icon: lnbits.boltcard.png
 bugbounty: 
 meta: ok
-verdict: sealed-plainkey
+verdict: nowallet
 date: 2024-04-26
 signer: 
 reviewArchive: 
@@ -44,4 +44,4 @@ To set the bolt card, you need to have the LNbits Bolt Card extension and the [B
 
 > Boltcard NFC Card Creator App from the Apple- or Play-Store to write your keys to the tags once they were generated on LNbits
 
-Keys are generated on the LNbits server and this app is what writes them to the tags. 
+Keys are generated on the LNbits server, not the card, and are then "written" to the tags using the Card Creator app. As the Bolt Card is defined as a contactless card for verifying transactions, it does not truly qualify as a "wallet."
