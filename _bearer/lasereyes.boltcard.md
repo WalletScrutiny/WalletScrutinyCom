@@ -21,7 +21,7 @@ issue:
 icon: lasereyes.boltcard.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nowallet
 date: 2024-01-15
 signer: 
 reviewArchive: 

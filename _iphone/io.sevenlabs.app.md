@@ -19,7 +19,7 @@ issue:
 icon: io.sevenlabs.app.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-09-19
 signer: 
 reviewArchive: 
