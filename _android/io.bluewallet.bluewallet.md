@@ -160,3 +160,5 @@ v6.6.5
 ```
 
 This binary is **not verifiable**.
+
+{% include asciicast %}
