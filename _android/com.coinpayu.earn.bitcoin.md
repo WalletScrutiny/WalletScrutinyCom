@@ -12,7 +12,7 @@ updated: 2024-05-10
 version: 1.3.8
 stars: 3.5
 ratings: 
-reviews: 168
+reviews: 167
 size: 
 website: https://www.coinpayu.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.yibi
 appCountry: us
 idd: '1638288204'
 released: 2022-08-12
-updated: 2024-04-12
-version: 1.1.8
+updated: 2024-05-14
+version: 1.1.9
 stars: 3.7
 reviews: 3
-size: '179464192'
+size: '180619264'
 website: 
 repository: 
 issue: 

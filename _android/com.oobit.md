@@ -8,8 +8,8 @@ users: 10000
 appId: com.oobit
 appCountry: 
 released: 2022-02-07
-updated: 2024-04-19
-version: 1.8.1
+updated: 2024-05-14
+version: 1.8.2
 stars: 3
 ratings: 
 reviews: 15

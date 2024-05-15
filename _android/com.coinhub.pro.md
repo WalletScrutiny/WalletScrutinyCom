@@ -12,7 +12,7 @@ updated: 2024-05-07
 version: 2.1.7
 stars: 4.3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://coinhub.mn/
 repository: 

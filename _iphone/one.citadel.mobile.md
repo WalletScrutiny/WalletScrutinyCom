@@ -18,9 +18,9 @@ repository: https://github.com/citadeldao
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-12-08
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: CitadelDAO

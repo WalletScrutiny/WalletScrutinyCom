@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitkit Wallet
+title: Bitkit Wallet Beta
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000
 appId: to.synonym.bitkit.wallet
 appCountry: 
 released: 
-updated: 2024-04-01
+updated: 2024-05-14
 version: VARY
 stars: 
 ratings: 

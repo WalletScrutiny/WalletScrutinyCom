@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinhub.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-02-03
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: Coinhub_Wallet

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swiftywallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-05-21
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: 

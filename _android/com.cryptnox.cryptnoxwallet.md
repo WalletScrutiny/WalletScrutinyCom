@@ -4,7 +4,7 @@ title: Cryptnox Wallet
 altTitle: 
 authors:
 - danny
-users: 50
+users: 100
 appId: com.cryptnox.cryptnoxwallet
 appCountry: 
 released: 2023-09-29

@@ -12,7 +12,7 @@ updated: 2024-05-03
 version: 3.1.0
 stars: 3.9
 ratings: 
-reviews: 11
+reviews: 13
 size: 
 website: https://needbux.com/app-ads.txt
 repository: 

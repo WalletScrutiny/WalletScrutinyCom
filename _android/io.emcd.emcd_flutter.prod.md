@@ -9,8 +9,8 @@ appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
 updated: 2024-05-06
-version: 1.46.1
-stars: 4.1
+version: 1.48.0
+stars: 4.2
 ratings: 
 reviews: 10
 size: 

@@ -4,7 +4,7 @@ title: Suni Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.suniwallet.app
 appCountry: 
 released: 2023-03-06

@@ -12,7 +12,7 @@ updated: 2023-12-01
 version: 3.31.0
 stars: 4.3
 ratings: 110
-reviews: 17
+reviews: 18
 size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault

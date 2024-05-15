@@ -8,8 +8,8 @@ users: 10000
 appId: com.monero.app
 appCountry: 
 released: 2022-01-07
-updated: 2024-05-08
-version: 1.13.0
+updated: 2024-05-14
+version: 1.13.2
 stars: 4.4
 ratings: 
 reviews: 25

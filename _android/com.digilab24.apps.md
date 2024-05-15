@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.digilab24.apps.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-23
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: CPass_Official

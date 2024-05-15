@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: Paxful | Bitcoin Wallet
+title: 'Paxful: Buy Bitcoin & Ethereum'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2024-04-18
 version: 2.9.23.684
 stars: 3.1
 ratings: 21528
-reviews: 1907
+reviews: 1909
 size: 
 website: https://Paxful.com
 repository: 

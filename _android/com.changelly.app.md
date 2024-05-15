@@ -11,9 +11,9 @@ appCountry:
 released: 2018-08-28
 updated: 2024-05-01
 version: 3.22.2
-stars: 4.4
+stars: 4.5
 ratings: 5008
-reviews: 802
+reviews: 808
 size: 
 website: https://changelly.com/
 repository: 

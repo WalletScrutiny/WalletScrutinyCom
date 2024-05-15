@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.o3.o3wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-30
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: O3_Labs

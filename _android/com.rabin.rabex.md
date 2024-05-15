@@ -12,7 +12,7 @@ updated: 2023-12-17
 version: 1.7-product
 stars: 3.8
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://rabex.ir
 repository: 
