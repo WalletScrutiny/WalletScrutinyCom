@@ -12,7 +12,7 @@ updated: 2024-05-10
 version: 7.21.0
 stars: 4.4
 ratings: 57131
-reviews: 4796
+reviews: 4798
 size: 
 website: https://metamask.io
 repository: 

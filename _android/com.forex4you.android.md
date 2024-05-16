@@ -12,7 +12,7 @@ updated: 2024-05-11
 version: 6.2.1
 stars: 4.5
 ratings: 2457
-reviews: 213
+reviews: 214
 size: 
 website: https://www.markets4you.com/en/
 repository: 

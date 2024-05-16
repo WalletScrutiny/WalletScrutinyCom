@@ -8,8 +8,8 @@ users: 10000
 appId: com.metallum.nicex
 appCountry: 
 released: 
-updated: 2024-04-25
-version: 2.3.3
+updated: 2024-05-15
+version: 2.3.4
 stars: 4.6
 ratings: 
 reviews: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.idcg.idcw.dz
 appCountry: 
 released: 2019-03-25
-updated: 2024-04-09
-version: 5.4.5
+updated: 2024-05-15
+version: 5.4.9
 stars: 
 ratings: 
 reviews: 
