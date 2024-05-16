@@ -14,7 +14,7 @@ stars: 4.7
 reviews: 568
 size: '124798976'
 website: https://blockstream.com/green/
-repository: 
+repository: https://github.com/Blockstream/green_ios
 issue: 
 icon: io.blockstream.green.jpg
 bugbounty: 
