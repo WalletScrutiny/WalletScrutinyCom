@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: sc.elitewallet.elite-wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-08-24
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: EliteWallet

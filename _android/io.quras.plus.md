@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.quras.plus.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

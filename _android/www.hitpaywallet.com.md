@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: www.hitpaywallet.com.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cloud.accredited.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

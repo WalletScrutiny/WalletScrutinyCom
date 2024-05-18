@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.ychanger.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-12-29
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

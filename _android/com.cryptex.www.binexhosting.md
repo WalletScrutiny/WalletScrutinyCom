@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptex.www.binexhosting.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-10-18
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

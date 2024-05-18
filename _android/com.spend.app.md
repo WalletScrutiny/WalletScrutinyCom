@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-10-21
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: Spendcom
