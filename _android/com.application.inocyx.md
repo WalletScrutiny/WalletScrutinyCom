@@ -8,8 +8,8 @@ users: 1000
 appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16
-updated: 2024-04-26
-version: '1.33'
+updated: 2024-05-17
+version: '1.34'
 stars: 4.7
 ratings: 
 reviews: 

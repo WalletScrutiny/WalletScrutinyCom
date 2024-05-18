@@ -8,11 +8,11 @@ appId: com.independentreserve.mobileapp
 appCountry: au
 idd: '1566499416'
 released: 2021-10-18
-updated: 2024-05-15
-version: 6.0.3
-stars: 4
-reviews: 124
-size: '66210816'
+updated: 2024-05-16
+version: 6.0.4
+stars: 4.1
+reviews: 146
+size: '66223104'
 website: https://www.independentreserve.com/
 repository: 
 issue: 

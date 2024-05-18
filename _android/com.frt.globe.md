@@ -7,8 +7,8 @@ users: 100
 appId: com.frt.globe
 appCountry: 
 released: 
-updated: 2023-11-14
-version: 1.0.18
+updated: 2024-05-15
+version: 1.1.0
 stars: 4.4
 ratings: 
 reviews: 

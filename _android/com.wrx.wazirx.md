@@ -13,7 +13,7 @@ updated: 2024-05-15
 version: 2.41.9
 stars: 3.9
 ratings: 543310
-reviews: 121431
+reviews: 121438
 size: 
 website: https://wazirx.com
 repository: 

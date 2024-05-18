@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.indoex.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-02
+date: 2024-05-16
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

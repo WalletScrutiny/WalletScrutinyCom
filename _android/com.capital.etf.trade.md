@@ -10,7 +10,7 @@ appId: com.capital.etf.trade
 appCountry: 
 released: 
 updated: 2024-05-15
-version: 1.80.4
+version: 1.80.5
 stars: 4.6
 ratings: 
 reviews: 3

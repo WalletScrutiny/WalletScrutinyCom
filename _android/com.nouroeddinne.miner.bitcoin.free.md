@@ -4,7 +4,7 @@ title: Crypto bitcoin cloud mining
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.nouroeddinne.miner.bitcoin.free
 appCountry: 
 released: 2021-03-18

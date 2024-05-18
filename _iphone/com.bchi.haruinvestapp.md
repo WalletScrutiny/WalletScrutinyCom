@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bchi.haruinvestapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-11
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: haruinvest

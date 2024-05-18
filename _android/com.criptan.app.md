@@ -8,7 +8,7 @@ users: 10000
 appId: com.criptan.app
 appCountry: 
 released: 2020-08-23
-updated: 2024-04-26
+updated: 2024-05-14
 version: 2.16.25
 stars: 4.2
 ratings: 
