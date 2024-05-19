@@ -4,7 +4,7 @@
 {% else %}
 {% assign id = include.verdict %}
 {% endif %}
-<a id="{{ id }}" href="/methodology/#{{ include.verdict }}" class="stamp in-article {{ include.verdict }}"><span class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
+<a id="{{ id }}" href="/methodology/#{{ include.verdict }}" class="stamp in-article {{ include.verdict }}" style="background-color: {{ v.color }}; border-radius: 100px; padding: 1px 8px 1px; box-shadow: 0 0 5px -1.5px;" ><span  class="stamp-{{ include.verdict }}" data-text="{%- case include.type -%}
   {%- when "short" -%}{{- v.short -}}
   {%- when "medium" -%}{{- v.title -}}
   {%- when "long" -%}{{- v.message -}}
