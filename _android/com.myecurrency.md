@@ -4,7 +4,7 @@ title: MY-EC NIGERIA
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.myecurrency
 appCountry: 
 released: 2022-05-20

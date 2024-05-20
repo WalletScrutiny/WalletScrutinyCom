@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yuwapp.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-25
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

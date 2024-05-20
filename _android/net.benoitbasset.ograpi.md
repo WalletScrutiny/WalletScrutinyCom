@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-28
 updated: 2023-06-07
 version: 1.4.6
-stars: 3.7
+stars: 3.8
 ratings: 225
-reviews: 43
+reviews: 44
 size: 
 website: http://ograpi.oblade.net
 repository: 

@@ -4,15 +4,15 @@ title: 'Trendo: Forex Trading & Broker'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.trendo.android
 appCountry: 
 released: 2021-10-05
 updated: 2024-05-05
 version: 3.5.68_googleplay
-stars: 4.9
+stars: 4.8
 ratings: 
-reviews: 355
+reviews: 361
 size: 
 website: https://fxtrendo.com
 repository: 

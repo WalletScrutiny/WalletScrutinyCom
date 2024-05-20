@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yiksi.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

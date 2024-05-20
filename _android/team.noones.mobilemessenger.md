@@ -9,7 +9,7 @@ appId: team.noones.mobilemessenger
 appCountry: 
 released: 2023-05-04
 updated: 2024-05-06
-version: 1.5.0
+version: 1.5.1
 stars: 3.3
 ratings: 
 reviews: 52

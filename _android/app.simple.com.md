@@ -4,15 +4,15 @@ title: 'Simple: Buy Сrypto BTC, USDT'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 100000
 appId: app.simple.com
 appCountry: 
 released: 2023-04-24
-updated: 2024-05-09
-version: 2.10.1
-stars: 4.4
+updated: 2024-05-17
+version: 2.10.3
+stars: 4.9
 ratings: 
-reviews: 41
+reviews: 284
 size: 
 website: https://simple.app/
 repository: 

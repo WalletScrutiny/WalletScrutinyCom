@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: profitshare.com.br.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-13
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

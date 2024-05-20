@@ -8,8 +8,8 @@ appId: net.tuxglobal.wallet
 appCountry: kw
 idd: '1495945761'
 released: 2020-02-04
-updated: 2024-05-14
-version: 1.8.5
+updated: 2024-05-15
+version: 1.8.9
 stars: 0
 reviews: 0
 size: '39250944'

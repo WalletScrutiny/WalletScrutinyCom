@@ -8,12 +8,12 @@ appId: com.aag.metaone
 appCountry: us
 idd: '1627212812'
 released: 2023-01-03
-updated: 2024-05-02
-version: 5.5.0
+updated: 2024-05-16
+version: 5.6.0
 stars: 4.9
 reviews: 76
-size: '57667584'
-website: https://app.saakuru.com/
+size: '54281216'
+website: https://saakuru.com/app
 repository: 
 issue: 
 icon: com.aag.metaone.jpg

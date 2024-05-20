@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zznex.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-04-02
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

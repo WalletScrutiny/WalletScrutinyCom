@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.reactivespace.tyslinmulticoinwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

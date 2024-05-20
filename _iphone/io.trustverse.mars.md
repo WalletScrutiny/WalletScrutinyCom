@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.trustverse.mars.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-11-25
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: TrustVerse

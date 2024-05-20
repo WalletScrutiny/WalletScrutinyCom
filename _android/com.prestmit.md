@@ -8,9 +8,9 @@ users: 100000
 appId: com.prestmit
 appCountry: us
 released: 2021-04-13
-updated: 2024-05-09
-version: 7.1.7
-stars: 4.2
+updated: 2024-05-18
+version: 7.2.2
+stars: 4.3
 ratings: 1291
 reviews: 547
 size: 

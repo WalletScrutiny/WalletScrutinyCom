@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lightx.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-22
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

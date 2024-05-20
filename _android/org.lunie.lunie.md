@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.lunie.lunie.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-12-17
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

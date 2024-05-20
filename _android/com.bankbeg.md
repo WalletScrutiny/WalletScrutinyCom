@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bankbeg.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-22
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fbs.tpand.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-08-13
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: financefreedomsuccess

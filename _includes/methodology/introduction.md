@@ -75,8 +75,7 @@ But when we update reviews, we try to proceed as follows:
 1. Check if any of the {% include verdictBadge.html verdict="nonverifiable" type='short' %} wallets updated their issues on their
    repositories.
 1. Make general improvements of the platform
-1. Evaluate the most relevant
-   {% include verdictBadge.html verdict="wip" type='short' %} wallets
+1. Evaluate the most relevant {% include verdictBadge.html verdict="wip" type='short' %} wallets
 
 ## Wrap it up
 

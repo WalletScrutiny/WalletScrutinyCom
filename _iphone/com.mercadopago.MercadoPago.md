@@ -11,7 +11,7 @@ released: 2014-12-17
 updated: 2024-05-13
 version: 2.326.0
 stars: 4.8
-reviews: 1393839
+reviews: 1398874
 size: '286007296'
 website: http://www.mercadopago.com
 repository: 

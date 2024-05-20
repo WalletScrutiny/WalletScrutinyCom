@@ -8,8 +8,8 @@ users: 100000
 appId: com.fusion.chainge.android
 appCountry: us
 released: 2021-05-17
-updated: 2024-04-29
-version: 0.7.4
+updated: 2024-05-16
+version: 0.7.5
 stars: 3.7
 ratings: 8141
 reviews: 62

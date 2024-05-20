@@ -11,7 +11,7 @@ released: 2022-04-07
 updated: 2024-05-13
 version: 3.7.2
 stars: 4.3
-reviews: 57
+reviews: 59
 size: '173999104'
 website: https://www.bitazza.com
 repository: 

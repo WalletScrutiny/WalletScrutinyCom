@@ -8,11 +8,11 @@ appId: com.hkd.hkdex
 appCountry: us
 idd: '1522416988'
 released: 2020-07-13
-updated: 2024-04-04
-version: 2.9.9
+updated: 2024-05-17
+version: 3.0.1
 stars: 2.9
 reviews: 41
-size: '103382016'
+size: '103418880'
 website: http://hkd.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ updated: 2023-03-21
 version: 4.2.14-6
 stars: 4.2
 ratings: 191
-reviews: 16
+reviews: 17
 size: 
 website: https://electroncash.org
 repository: 
